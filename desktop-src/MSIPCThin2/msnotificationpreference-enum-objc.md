@@ -4,17 +4,21 @@ description: Document tracking notification preference.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '49F54F9A-4DA1-42E8-B26C-C9EE2A20973A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 49F54F9A-4DA1-42E8-B26C-C9EE2A20973A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSNotificationPreference enum"]
+keywords:
+- MSNotificationPreference enum
 topic_type:
 - apiref
 api_name:
 - MSNotificationPreference enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSNotificationPreference enum
@@ -68,7 +72,7 @@ Digest mode is a server side enabled feature which is not yet available.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -84,11 +88,11 @@ MSMSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

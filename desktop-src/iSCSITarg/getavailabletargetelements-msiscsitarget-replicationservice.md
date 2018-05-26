@@ -4,13 +4,16 @@ description: Gets all of the available target elements for the supplied source e
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a528ca4-790c-4fb2-8983-06e2cf060243'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3a528ca4-790c-4fb2-8983-06e2cf060243
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetAvailableTargetElements method iSCSI Software Target API", "GetAvailableTargetElements method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , GetAvailableTargetElements method"]
+keywords:
+- GetAvailableTargetElements method iSCSI Software Target API
+- GetAvailableTargetElements method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , GetAvailableTargetElements method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetAvailableTargetElements method of the MSISCSITARGET\_ReplicationService class
@@ -32,15 +38,15 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 GetAvailableTargetElements(
-  [in]           CIM_LogicalElement Ref     SourceElement,
-  [in]           uint16                     SyncType,
-  [in, optional] uint16                     Mode,
-  [in, optional] string                     ReplicationSettingData,
-  [in, optional] CIM_ServiceAccessPoint Ref TargetAccessPoint,
-  [in, optional] CIM_SettingData Ref        TargetSettingGoal,
-  [in, optional] CIM_ResourcePool Ref       TargetPools[],
-  [out]          CIM_ConcreteJob Ref        Job,
-  [out]          CIM_LogicalElement Ref     Candidates[]
+  [in]           CIM_LogicalElement Ref     SourceElement,
+  [in]           uint16                     SyncType,
+  [in, optional] uint16                     Mode,
+  [in, optional] string                     ReplicationSettingData,
+  [in, optional] CIM_ServiceAccessPoint Ref TargetAccessPoint,
+  [in, optional] CIM_SettingData Ref        TargetSettingGoal,
+  [in, optional] CIM_ResourcePool Ref       TargetPools[],
+  [out]          CIM_ConcreteJob Ref        Job,
+  [out]          CIM_LogicalElement Ref     Candidates[]
 );
 ```
 
@@ -99,7 +105,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>9–0x7FFF</dd> <dt>
+</dt> <dd>9 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -136,7 +142,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–0x7FFF</dd> <dt>
+</dt> <dd>4 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -216,13 +222,13 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–0x7FFF)
+**Method Reserved** (4097 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -235,7 +241,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -252,9 +258,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_AffectedJobElement**](msiscsitarget-affectedjobelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,7 +2,12 @@
 title: L
 description: Domain Name System (DNS) glossary entries that start with L.
 Robots: noindex, nofollow
-ms.assetid: '9ad11eac-e5f9-491b-9a6d-1fd4c6b7e44e'
+ms.assetid: 9ad11eac-e5f9-491b-9a6d-1fd4c6b7e44e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # L

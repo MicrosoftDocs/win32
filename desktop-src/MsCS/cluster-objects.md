@@ -4,11 +4,16 @@ description: Cluster objects are the physical and logical units managed by failo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '609cc002-2db9-4ec6-a802-8f7bdbb11b90'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 609cc002-2db9-4ec6-a802-8f7bdbb11b90
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster", "objects in failover clusters Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster
+- objects in failover clusters Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Objects

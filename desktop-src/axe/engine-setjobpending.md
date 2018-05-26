@@ -1,8 +1,11 @@
 ---
 title: Engine SetJobPending method
 description: Specifies the native interface for the Engine to invoke to notify the solution of a job pending event.
-ms.assetid: '68A504D7-DADC-47A8-B6B9-B7E9468B1D2E'
-keywords: ["SetJobPending method Access Execution Engine", "SetJobPending method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , SetJobPending method"]
+ms.assetid: 68A504D7-DADC-47A8-B6B9-B7E9468B1D2E
+keywords:
+- SetJobPending method Access Execution Engine
+- SetJobPending method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , SetJobPending method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::SetJobPending method
@@ -22,7 +30,7 @@ Specifies the native interface for the [**Engine**](engine-if.md) to invoke to n
 
 ```C++
 virtual HRESULT SetJobPending(
-  [in, optional] IJobPendingEventHandler *jobPending
+  [in, optional] IJobPendingEventHandler *jobPending
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ Managed code uses the [**Engine.JobPending \| jobpending**](axe-engine_jobpendin
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Engine.JobPending \| jobpending**](axe-engine_jobpendin
 [**OnJobPending**](ijobpendingeventhandler-onjobpending.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DnsServerZoneStatistics class
 description: Represents statistics for the specified zone on a DNS server.
 audience: developer
-ms.assetid: 'b000bd3c-b919-4c4c-abd1-3e1b7974125d'
-ms.prod: 'windows-server-dev'
+ms.assetid: b000bd3c-b919-4c4c-abd1-3e1b7974125d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerZoneStatistics class", "DnsServerZoneStatistics class, described"]
+keywords:
+- DnsServerZoneStatistics class
+- DnsServerZoneStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerZoneStatistics class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerZoneStatistics
 {
-  string                          Name;
-  datetime                        StatsCollectionStartTime;
-  DnsServerZoneQueryStatistics    ZoneQueryStatistics[];
+  string                          Name;
+  datetime                        StatsCollectionStartTime;
+  DnsServerZoneQueryStatistics    ZoneQueryStatistics[];
   DnsServerZoneTransferStatistics ZoneTransferStatistics[];
-  DnsServerZoneUpdateStatistics   ZoneUpdateStatistics;
-  DnsServerZoneRRLStatistics      ZoneRRLStatistics;
+  DnsServerZoneUpdateStatistics   ZoneUpdateStatistics;
+  DnsServerZoneRRLStatistics      ZoneRRLStatistics;
 };
 ```
 
@@ -114,7 +119,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 A [**DnsServerZoneRRLStatistics**](dnsserverzonerrlstatistics.md) that contains the statistics for response rate limiting.
 
-**Windows Server 2012 R2:** This property is supported beginning with Windows Server 2016.
+**Windows Server 2012 R2:** This property is supported beginning with Windows Server 2016.
 
 </dd> <dt>
 
@@ -157,7 +162,7 @@ The object that contains statistics for dynamic updates in the zone.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -171,9 +176,9 @@ The object that contains statistics for dynamic updates in the zone.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

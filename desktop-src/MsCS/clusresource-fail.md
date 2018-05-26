@@ -4,11 +4,14 @@ description: Initiates failure of the resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c184a7f3-b09a-4349-a940-20d622f729a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c184a7f3-b09a-4349-a940-20d622f729a6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Fail method Failover Cluster", "Fail method Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , Fail method"]
+keywords:
+- Fail method Failover Cluster
+- Fail method Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , Fail method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.Fail method
@@ -53,7 +59,7 @@ The **Fail** method causes the [*cluster*](c-gly.md#-wolf-cluster-gly) to initia
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +75,9 @@ The **Fail** method causes the [*cluster*](c-gly.md#-wolf-cluster-gly) to initia
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Tracks the internal replication state of partial replicas (that is,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2840d2b7-e186-4ef2-9107-f1e5c0c2f760'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2840d2b7-e186-4ef2-9107-f1e5c0c2f760
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Partial-Attribute-Set attribute AD Schema", "partialAttributeSet attribute AD Schema"]
+keywords:
+- Partial-Attribute-Set attribute AD Schema
+- partialAttributeSet attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Partial-Attribute-Set
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Partial-Attribute-Set attribute
@@ -38,13 +43,13 @@ Tracks the internal replication state of partial replicas (that is, on GCs). Att
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Tracks the internal replication state of partial replicas (that is, on GCs). Att
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Creates a new Server Message Block (SMB) multichannel constraint fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '34282405-f136-4129-9cdb-e3dd631e9d52'
-ms.prod: 'windows-server-dev'
+ms.assetid: 34282405-f136-4129-9cdb-e3dd631e9d52
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateConstraint method SMB", "CreateConstraint method SMB , MSFT_SmbMultichannelConstraint class", "MSFT_SmbMultichannelConstraint class SMB , CreateConstraint method"]
+keywords:
+- CreateConstraint method SMB
+- CreateConstraint method SMB , MSFT_SmbMultichannelConstraint class
+- MSFT_SmbMultichannelConstraint class SMB , CreateConstraint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateConstraint method of the MSFT\_SmbMultichannelConstraint class
@@ -30,10 +36,10 @@ Creates a new Server Message Block (SMB) multichannel constraint for the specifi
 
 ```mof
 uint32 CreateConstraint(
-  [in]  string                         ServerName,
-  [in]  uint32                         InterfaceIndex[],
-  [in]  string                         InterfaceAlias[],
-  [out] MSFT_SmbMultichannelConstraint Output[]
+  [in]  string                         ServerName,
+  [in]  uint32                         InterfaceIndex[],
+  [in]  string                         InterfaceAlias[],
+  [out] MSFT_SmbMultichannelConstraint Output[]
 );
 ```
 
@@ -77,8 +83,8 @@ Embedded instances of the [**MSFT\_SmbMultichannelConstraint**](msft-smbmulticha
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Smbwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -92,9 +98,9 @@ Embedded instances of the [**MSFT\_SmbMultichannelConstraint**](msft-smbmulticha
 [**MSFT\_SmbMultichannelConstraint**](msft-smbmultichannelconstraint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

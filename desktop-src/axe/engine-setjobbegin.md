@@ -1,8 +1,11 @@
 ---
 title: Engine SetJobBegin method
 description: Specifies the native interface for the Engine to invoke to notify the solution of a job begin event.
-ms.assetid: 'AE50FDE5-7881-4AE6-AEF4-E0EF99DEFC34'
-keywords: ["SetJobBegin method Access Execution Engine", "SetJobBegin method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , SetJobBegin method"]
+ms.assetid: AE50FDE5-7881-4AE6-AEF4-E0EF99DEFC34
+keywords:
+- SetJobBegin method Access Execution Engine
+- SetJobBegin method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , SetJobBegin method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::SetJobBegin method
@@ -22,7 +30,7 @@ Specifies the native interface for the [**Engine**](engine-if.md) to invoke to n
 
 ```C++
 virtual HRESULT SetJobBegin(
-  [in, optional] IJobBeginEventHandler *jobBegin
+  [in, optional] IJobBeginEventHandler *jobBegin
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ Managed code uses the [**Engine.JobBegin \| jobbegin**](axe-engine_jobbegin_om) 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Engine.JobBegin \| jobbegin**](axe-engine_jobbegin_om) 
 [**OnJobBegin**](ievents-onjobbegin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

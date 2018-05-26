@@ -1,15 +1,18 @@
 ---
-Description: 'Represents an address space that provides routing between a set of connected networks in IPAM.'
+Description: Represents an address space that provides routing between a set of connected networks in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e8c3e6a6-6d03-41c0-8a34-88995dc6c3d3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e8c3e6a6-6d03-41c0-8a34-88995dc6c3d3
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_AddressSpace class'
+title: MSFT\_IPAM\_AddressSpace class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_AddressSpace class
@@ -24,33 +27,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_AddressSpace : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  string   InstanceID;
-  uint16   Type = 0;
-  string   Owner;
-  string   AssociatedProviderAddressSpace;
-  string   Tenant;
-  string   VMNetwork;
-  string   IsolationMethod;
-  real64   IPv4PercentageUtilized;
-  real64   IPv6PercentageUtilized;
-  uint16   IPv4Utilization;
-  uint16   IPv6Utilization;
-  string   CustomConfiguration;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  string   InstanceID;
+  uint16   Type = 0;
+  string   Owner;
+  string   AssociatedProviderAddressSpace;
+  string   Tenant;
+  string   VMNetwork;
+  string   IsolationMethod;
+  real64   IPv4PercentageUtilized;
+  real64   IPv6PercentageUtilized;
+  uint16   IPv4Utilization;
+  uint16   IPv6Utilization;
+  string   CustomConfiguration;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
 };
 ```
 
@@ -76,7 +79,7 @@ The **MSFT\_IPAM\_AddressSpace** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -95,7 +98,7 @@ Access type: Read-only
 
 Access scope path for this address space.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -113,7 +116,7 @@ Specifies a provider address space that is associated with this customer address
 > [!Note]  
 > This property can only be set if the **Type** property is set to (**CustomerAddressSpace**).
 
- 
+ 
 
 </dd> <dt>
 
@@ -514,7 +517,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -645,7 +648,7 @@ Access type: Read-only
 
 Whether the access scope for this address space is inherited from parent.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -1408,7 +1411,7 @@ The name of the VM network that contains the address space.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -1425,9 +1428,9 @@ The name of the VM network that contains the address space.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

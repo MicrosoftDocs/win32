@@ -1,8 +1,11 @@
 ---
 title: Playlist.insertItem method
 description: The insertItem method inserts a media item into the playlist at the specified location.
-ms.assetid: '2db2d28d-4cbf-423c-824f-e1e212c46f7a'
-keywords: ["insertItem method Windows Media Player", "insertItem method Windows Media Player , Playlist class", "Playlist class Windows Media Player , insertItem method"]
+ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a
+keywords:
+- insertItem method Windows Media Player
+- insertItem method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , insertItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.insertItem method
@@ -87,9 +95,9 @@ To use this method, full access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

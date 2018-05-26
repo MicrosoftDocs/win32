@@ -4,9 +4,9 @@ description: Specify the authentication method and how to handle certificate ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'adfefbc9-c386-48db-a0c2-145aa4f91bfa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: adfefbc9-c386-48db-a0c2-145aa4f91bfa
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -29,13 +29,16 @@ api_location:
 - WSManDisp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Authentication Constants
 
 Authentication constants are constants in the **\_\_WSManSessionFlags** enumeration that specify the authentication method and how to handle certificate servers for HTTPS transport of requests.
 
-One or more of the constants listed in the following list are required in the *flags* parameter in calls to [**WSMan.CreateSession**](wsman-createsession.md) or in [**IWSMan::CreateSession**](iwsman-createsession.md) calls that connect to a remote computer.
+One or more of the constants listed in the following list are required in the *flags* parameter in calls to [**WSMan.CreateSession**](wsman-createsession.md) or in [**IWSMan::CreateSession**](/windows/win32/WSManDisp/nf-wsmandisp-iwsman-createsession?branch=master) calls that connect to a remote computer.
 
 <dl> <dt>
 
@@ -49,7 +52,7 @@ One or more of the constants listed in the following list are required in the *f
 
 Use the user name and password as the credentials. Set this flag when you create a [**ConnectionOptions**](connectionoptions.md) object and supply [**Username**](connectionoptions-username.md) and [**Password**](connectionoptions-password.md). The credentials can be a domain account or an account on the local computer. By default, the account must be a member of the local Administrators group on the local or remote computer. However, the WinRM service can be configured to allow other users. For more information, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md). You can set this flag when you specify credentials for Negotiate authentication (also known as [*Windows Integrated Authentication*](windows-remote-management-glossary.md#winrm-gloss-windows-management-instrumentation)) or for [*Basic authentication*](windows-remote-management-glossary.md#winrm-gloss-basic-authentication).
 
-The associated scripting method is [**WSMan.SessionFlagCredUsernamePassword**](wsman-sessionflagcredusernamepassword.md), and the C++ method is [**IWSManEx.SessionFlagCredUsernamePassword**](iwsmanex-sessionflagcredusernamepassword.md).
+The associated scripting method is [**WSMan.SessionFlagCredUsernamePassword**](wsman-sessionflagcredusernamepassword.md), and the C++ method is [**IWSManEx.SessionFlagCredUsernamePassword**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagcredusernamepassword?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -64,7 +67,7 @@ The associated scripting method is [**WSMan.SessionFlagCredUsernamePassword**](w
 
 When connecting over HTTPS, the client does not validate that the server certificate is signed by a trusted certification authority (CA). Use this value only when the remote computer is trusted by other means, for example, if the remote computer is part of a network that is physically secure and isolated or the remote computer is listed as a trusted host in the WinRM configuration.
 
-The associated scripting method is [**WSMan.SessionFlagSkipCACheck**](wsman-sessionflagskipcacheck.md), and the C++ method is [**IWSManEx.SessionFlagSkipCACheck**](iwsmanex-sessionflagskipcacheck.md).
+The associated scripting method is [**WSMan.SessionFlagSkipCACheck**](wsman-sessionflagskipcacheck.md), and the C++ method is [**IWSManEx.SessionFlagSkipCACheck**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagskipcacheck?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -79,7 +82,7 @@ The associated scripting method is [**WSMan.SessionFlagSkipCACheck**](wsman-sess
 
 When connecting over HTTPS, the client will not validate that the common name (CN) in the server certificate matches the computer name in the connection string. Use only when the remote computer is trusted by other means, for example, if the remote computer is part of a network that is physically secure and isolated or the remote computer is listed as a trusted host in the WinRM configuration.
 
-The associated scripting method is [**WSMan.SessionFlagSkipCNCheck**](wsman-sessionflagskipcncheck.md), and the C++ method is [**IWSManEx.SessionFlagSkipCNCheck**](iwsmanex-sessionflagskipcncheck.md).
+The associated scripting method is [**WSMan.SessionFlagSkipCNCheck**](wsman-sessionflagskipcncheck.md), and the C++ method is [**IWSManEx.SessionFlagSkipCNCheck**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagskipcncheck?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -92,7 +95,7 @@ The associated scripting method is [**WSMan.SessionFlagSkipCNCheck**](wsman-sess
 
 
 
-Use no authentication. Specify this constant when testing a connection to a remote computer to determine if a service that implements the WS-Management protocol is configured to listen for data requests. **WSManFlagUseNoAuthentication** cannot be combined with any other [**Session**](session.md) constant. The associated scripting method is [**WSMan.SessionFlagUseNoAuthentication**](wsman-sessionflagusenoauthentication.md), and the C++ method is [**WSManEx.SessionFlagUseNoAuthentication**](iwsmanex-sessionflagusenoauthentication.md).
+Use no authentication. Specify this constant when testing a connection to a remote computer to determine if a service that implements the WS-Management protocol is configured to listen for data requests. **WSManFlagUseNoAuthentication** cannot be combined with any other [**Session**](session.md) constant. The associated scripting method is [**WSMan.SessionFlagUseNoAuthentication**](wsman-sessionflagusenoauthentication.md), and the C++ method is [**WSManEx.SessionFlagUseNoAuthentication**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenoauthentication?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -107,7 +110,7 @@ Use no authentication. Specify this constant when testing a connection to a remo
 
 Use Digest authentication. Only the client computer can initiate a Digest authentication request. The client sends a request to the server to authenticate and receives a token string from the server. The client then sends the resource request, including the user name and a cryptographic hash of the password combined with the token string. Digest authentication is supported for HTTP and HTTPS. WinRM client scripts and applications can specify Digest authentication, but not the service.
 
-The associated scripting method is [**WSMan.SessionFlagUseDigest**](wsman-sessionflagusedigest.md), and the C++ method is [**IWSManEx.SessionFlagUseDigest**](iwsmanex-sessionflagusedigest.md).
+The associated scripting method is [**WSMan.SessionFlagUseDigest**](wsman-sessionflagusedigest.md), and the C++ method is [**IWSManEx.SessionFlagUseDigest**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusedigest?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -124,7 +127,7 @@ Use Negotiate authentication. The client sends a request to the server to authen
 
 [User Account Control (UAC)](http://go.microsoft.com/fwlink/p/?linkid=84438) affects access to the WinRM service. When Negotiate authentication is used in a workgroup or domain, only the built-in Administrator account can access the service. To allow all accounts in the Administrators group to access the service, set the following registry key to 1: **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\system\\LocalAccountTokenFilterPolicy**.
 
-The associated scripting method is [**WSMan.SessionFlagUseNegotiate**](wsman-sessionflagusenegotiate.md), and the C++ method is [**IWSManEx.SessionFlagUseNegotiate**](iwsmanex-sessionflagusenegotiate.md).
+The associated scripting method is [**WSMan.SessionFlagUseNegotiate**](wsman-sessionflagusenegotiate.md), and the C++ method is [**IWSManEx.SessionFlagUseNegotiate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusenegotiate?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -139,7 +142,7 @@ The associated scripting method is [**WSMan.SessionFlagUseNegotiate**](wsman-ses
 
 Use Basic authentication. The client presents credentials in the form of a user name and password, directly transmitted in the request message. You can specify only credentials that identify a local administrator account on the remote computer.
 
-The associated scripting method is [**WSMan.SessionFlagUseBasic**](wsman-sessionflagusebasic.md), and the C++ method is [**IWSManEx.SessionFlagUseBasic**](iwsmanex-sessionflagusebasic.md).
+The associated scripting method is [**WSMan.SessionFlagUseBasic**](wsman-sessionflagusebasic.md), and the C++ method is [**IWSManEx.SessionFlagUseBasic**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusebasic?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -154,7 +157,7 @@ The associated scripting method is [**WSMan.SessionFlagUseBasic**](wsman-session
 
 Use Kerberos authentication. The client and server mutually authenticate using Kerberos tickets.
 
-The associated scripting method is [**WSMan.SessionFlagUseKerberos**](wsman-sessionflagusekerberos.md), and the C++ method is [**IWSManEx.WSMan.SessionFlagUseKerberos**](iwsmanex-sessionflagusekerberos.md).
+The associated scripting method is [**WSMan.SessionFlagUseKerberos**](wsman-sessionflagusekerberos.md), and the C++ method is [**IWSManEx.WSMan.SessionFlagUseKerberos**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagusekerberos?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -169,7 +172,7 @@ The associated scripting method is [**WSMan.SessionFlagUseKerberos**](wsman-sess
 
 Use no encryption. Unencrypted traffic is not allowed by default and must be enabled on both the client and server.
 
-The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-sessionflagnoencryption.md), and the C++ method is [**IWSManEx.SessionFlagNoEncryption**](iwsmanex-sessionflagnoencryption.md).
+The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-sessionflagnoencryption.md), and the C++ method is [**IWSManEx.SessionFlagNoEncryption**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-sessionflagnoencryption?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -184,7 +187,7 @@ The associated scripting method is [**WSMan.SessionFlagNoEncryption**](wsman-ses
 
 Use client certificate-based authentication.
 
-The associated scripting method is [**WSMan.SessionFlagUseClientCertificate**](wsman-sessionflaguseclientcert.md), and the C++ method is [**IWSManEx2.SessionFlagUseClientCertificate**](iwsmanex2-sessionflaguseclientcertificate.md).
+The associated scripting method is [**WSMan.SessionFlagUseClientCertificate**](wsman-sessionflaguseclientcert.md), and the C++ method is [**IWSManEx2.SessionFlagUseClientCertificate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex2-sessionflaguseclientcertificate?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -199,7 +202,7 @@ The associated scripting method is [**WSMan.SessionFlagUseClientCertificate**](w
 
 Use Credential Security Support Provider (CredSSP) authentication.
 
-The associated scripting method is [**WSMan.SessionFlagUseCredSsp**](wsman-sessionflagusecredssp.md), and the C++ method is [**IWSManEx3.SessionFlagUseCredSsp**](iwsmanex3-sessionflagusecredssp.md).
+The associated scripting method is [**WSMan.SessionFlagUseCredSsp**](wsman-sessionflagusecredssp.md), and the C++ method is [**IWSManEx3.SessionFlagUseCredSsp**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex3-sessionflagusecredssp?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -249,8 +252,8 @@ Use Secure Socket Layer, enables HTTPS.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 
@@ -263,9 +266,9 @@ Use Secure Socket Layer, enables HTTPS.
 [Session Constants](session-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

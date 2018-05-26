@@ -4,11 +4,14 @@ description: Adds disk drives to a concrete pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8fc7f9e6-2685-4e86-ad80-4f4f923ff368'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8fc7f9e6-2685-4e86-ad80-4f4f923ff368
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddDiskDrives method", "AddDiskDrives method, MSFT_SMPool class", "MSFT_SMPool class, AddDiskDrives method"]
+keywords:
+- AddDiskDrives method
+- AddDiskDrives method, MSFT_SMPool class
+- MSFT_SMPool class, AddDiskDrives method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddDiskDrives method of the MSFT\_SMPool class
@@ -28,12 +34,12 @@ Adds disk drives to a concrete pool.
 
 ```mof
 uint32 AddDiskDrives(
-  [in]            String                DiskDriveObjectIds[],
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out]           MSFT_SMPool       REF Pool,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                DiskDriveObjectIds[],
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out]           MSFT_SMPool       REF Pool,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -135,7 +141,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -149,9 +155,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMPool**](msft-smpool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

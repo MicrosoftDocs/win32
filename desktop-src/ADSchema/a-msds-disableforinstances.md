@@ -4,17 +4,22 @@ description: The set of DSA objects, which represent ADAM instances, for which S
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e6a6acab-99ec-46bd-93a1-f35ba661fbb7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e6a6acab-99ec-46bd-93a1-f35ba661fbb7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Disable-For-Instances attribute AD Schema", "msDS-DisableForInstances attribute AD Schema"]
+keywords:
+- ms-DS-Disable-For-Instances attribute AD Schema
+- msDS-DisableForInstances attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Disable-For-Instances
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Disable-For-Instances attribute
@@ -61,9 +66,9 @@ The set of DSA objects, which represent ADAM instances, for which Service Connec
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: Tessellating Polygons
 description: Tessellating Polygons
-ms.assetid: '3b219af0-96c3-4a83-8a40-bd7966d58398'
-keywords: ["OpenGL Utility (GLU),tessellation", "GLU (OpenGL Utility),tessellation", "OpenGL Utility (GLU),simple polygons", "GLU (OpenGL Utility),simple polygons", "simple polygons OpenGL", "OpenGL Utility (GLU),complex polygons", "GLU (OpenGL Utility),complex polygons", "complex polygons OpenGL"]
+ms.assetid: 3b219af0-96c3-4a83-8a40-bd7966d58398
+keywords:
+- OpenGL Utility (GLU),tessellation
+- GLU (OpenGL Utility),tessellation
+- OpenGL Utility (GLU),simple polygons
+- GLU (OpenGL Utility),simple polygons
+- simple polygons OpenGL
+- OpenGL Utility (GLU),complex polygons
+- GLU (OpenGL Utility),complex polygons
+- complex polygons OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tessellating Polygons

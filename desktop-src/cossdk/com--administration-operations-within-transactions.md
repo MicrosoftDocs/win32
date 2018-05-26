@@ -1,7 +1,12 @@
 ---
 Description: COM+ Administration Operations Within Transactions
-ms.assetid: '832f2e6d-26ff-416e-a92e-ebaa33d4e7e5'
+ms.assetid: 832f2e6d-26ff-416e-a92e-ebaa33d4e7e5
 title: COM+ Administration Operations Within Transactions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Administration Operations Within Transactions
@@ -12,23 +17,23 @@ The COM+ registration database (RegDB) is a transacted resource manager that can
 
 -   **Consistency of data—**Administration operations performed within a transaction are committed or aborted as a whole, although there are some non-transactional COM+ catalog resources for which this may not be the case. (See Non-Transactional COM+ Catalog Resources below.)
 -   **Consistent deployment across multiple machines—**If you are deploying COM+ applications across multiple servers, you can guarantee that all servers are left with identical configurations.
--   **Scaling and performance—**When you do multiple operations within a transaction, all writes to RegDB are performed at once. Persisted writes to RegDB are a relatively expensive operation; if you are making many writes to RegDB, you can get a big performance benefit from doing them all at once instead of every time you call [**SaveChanges**](icatalogcollection-savechanges.md).
+-   **Scaling and performance—**When you do multiple operations within a transaction, all writes to RegDB are performed at once. Persisted writes to RegDB are a relatively expensive operation; if you are making many writes to RegDB, you can get a big performance benefit from doing them all at once instead of every time you call [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master).
 
 ## Isolation Behavior of RegDB
 
 To ensure proper data consistency and serializable transactions, RegDB enforces particular blocking and isolation behavior when administration operations are being performed within transactions.
 
-Whenever a component that is doing work within a transaction calls any method that will cause a write to the COM+ catalog—such as [**SaveChanges**](icatalogcollection-savechanges.md), [**InstallApplication**](icomadmincatalog-installapplication.md), or [**InstallComponent**](icomadmincatalog-installcomponent.md)—a writer lock is taken on COM+ catalog server code that will block any other writers from coming in until the current transaction commits or aborts. That is, writers can come in only if they have the correct transaction affinity and are participating in the current transaction.
+Whenever a component that is doing work within a transaction calls any method that will cause a write to the COM+ catalog—such as [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), [**InstallApplication**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-installapplication?branch=master), or [**InstallComponent**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-installcomponent?branch=master)—a writer lock is taken on COM+ catalog server code that will block any other writers from coming in until the current transaction commits or aborts. That is, writers can come in only if they have the correct transaction affinity and are participating in the current transaction.
 
 Readers are not blocked. However, the data that readers see does not reflect any interim changes made within the transaction until that transaction actually commits. Any components participating in that transaction sees interim data states when they read data, but all components outside the transaction see those changes only after the transaction has completed.
 
 ## SaveChanges Behavior
 
-To achieve the isolation behavior described above, RegDB effectively provides a cache that is acted on by components within the transaction. This changes the behavior of the [**SaveChanges**](icatalogcollection-savechanges.md) method.
+To achieve the isolation behavior described above, RegDB effectively provides a cache that is acted on by components within the transaction. This changes the behavior of the [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) method.
 
-Normally, without the presence of a transaction, any pending changes are written to the catalog when you call [**SaveChanges**](icatalogcollection-savechanges.md), and **SaveChanges** doesn't return until all writes are completed. This guarantees that if a call to **SaveChanges** returns successfully, you can call [**StartApplication**](icomadmincatalog-startapplication.md) and it will activate the application with fresh data.
+Normally, without the presence of a transaction, any pending changes are written to the catalog when you call [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), and **SaveChanges** doesn't return until all writes are completed. This guarantees that if a call to **SaveChanges** returns successfully, you can call [**StartApplication**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-startapplication?branch=master) and it will activate the application with fresh data.
 
-However, within a transaction, [**SaveChanges**](icatalogcollection-savechanges.md) affects only the cache, not the RegDB itself, and **SaveChanges** returns immediately whether all changes have been transactionally committed to RegDB. There is no guarantee that [**StartApplication**](icomadmincatalog-startapplication.md) is using fresh data subsequent to **SaveChanges** returning. If you need to call **StartApplication** in this context, it is advisable to wait for some period of time before doing so.
+However, within a transaction, [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) affects only the cache, not the RegDB itself, and **SaveChanges** returns immediately whether all changes have been transactionally committed to RegDB. There is no guarantee that [**StartApplication**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-startapplication?branch=master) is using fresh data subsequent to **SaveChanges** returning. If you need to call **StartApplication** in this context, it is advisable to wait for some period of time before doing so.
 
 ## Transaction Time-Out Period
 
@@ -51,7 +56,7 @@ If a component doing administration operations within a transaction were to hang
 
 ## Scripting with a TransactionContext Object
 
-A simple way to do administration operations within transactions is to use a [**TransactionContext**](transactioncontext.md) object to control the transaction. For example, the following Visual Basic script demonstrates how to transactionally add two new applications so that either both applications or neither application is created:
+A simple way to do administration operations within transactions is to use a [**TransactionContext**](/windows/win32/ComSvcs/?branch=master) object to control the transaction. For example, the following Visual Basic script demonstrates how to transactionally add two new applications so that either both applications or neither application is created:
 
 
 ```VB

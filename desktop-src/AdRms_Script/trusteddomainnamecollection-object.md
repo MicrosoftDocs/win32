@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of the email domain names that can be trusted from a TrustedUserDomain object.'
+Description: Contains a collection of the email domain names that can be trusted from a TrustedUserDomain object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '8434cb44-ca09-4225-81bd-eabebcccb9ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 8434cb44-ca09-4225-81bd-eabebcccb9ae
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TrustedDomainNameCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TrustedDomainNameCollection object
@@ -41,7 +44,7 @@ The **TrustedDomainNameCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +59,7 @@ The **TrustedDomainNameCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -171,7 +174,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -183,9 +186,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

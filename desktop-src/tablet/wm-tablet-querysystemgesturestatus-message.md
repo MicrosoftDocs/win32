@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent when the system asks a window which system gestures it would like to receive.'
-ms.assetid: '5b747b3c-3b77-4913-932f-182114d1f674'
-title: 'WM\_TABLET\_QUERYSYSTEMGESTURESTATUS message'
+---
+Description: Sent when the system asks a window which system gestures it would like to receive.
+ms.assetid: 5b747b3c-3b77-4913-932f-182114d1f674
+title: WM\_TABLET\_QUERYSYSTEMGESTURESTATUS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TABLET\_QUERYSYSTEMGESTURESTATUS message

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer Security property
 description: The IVMSecurity object associated with Virtual Server.
-ms.assetid: '83bfe2fb-8fdc-4f10-8458-4b1527d6c544'
-keywords: ["Security property Virtual Server", "Security property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , Security property", "Security property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , Security property"]
+ms.assetid: 83bfe2fb-8fdc-4f10-8458-4b1527d6c544
+keywords:
+- Security property Virtual Server
+- Security property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , Security property
+- Security property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , Security property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::Security property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Security(
-  [in]  IVMSecurity *security
+  [in]  IVMSecurity *security
 );
 
 HRESULT get_Security(
-  [out] IVMSecurity **security
+  [out] IVMSecurity **security
 );
 ```
 
@@ -104,8 +114,8 @@ Wscript.Echo "    Group SID: " & objSec.GroupSID
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -117,9 +127,9 @@ Wscript.Echo "    Group SID: " & objSec.GroupSID
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

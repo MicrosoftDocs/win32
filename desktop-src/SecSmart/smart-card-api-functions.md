@@ -1,8 +1,14 @@
 ---
 title: Smart Card API Functions
 description: This topic is not current. For the most current information about the Smart Card API, see Smart Card Minidriver Specification.
-ms.assetid: 'ccd61200-1777-4729-8512-5650437c8408'
-keywords: ["Smart Card API Smart Card , functions"]
+ms.assetid: ccd61200-1777-4729-8512-5650437c8408
+keywords:
+- Smart Card API Smart Card , functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card API Functions

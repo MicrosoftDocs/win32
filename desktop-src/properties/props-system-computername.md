@@ -1,7 +1,12 @@
 ---
-Description: 'The name of the computer where the item or file is located.'
-ms.assetid: '8a126f68-40f9-433a-9697-ff5089b2da9e'
-title: 'System.ComputerName'
+Description: The name of the computer where the item or file is located.
+ms.assetid: 8a126f68-40f9-433a-9697-ff5089b2da9e
+title: System.ComputerName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ComputerName

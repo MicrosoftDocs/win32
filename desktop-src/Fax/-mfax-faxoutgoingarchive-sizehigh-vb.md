@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SizeHigh property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of outgoing fax messages.'
-ms.assetid: '4284d609-416a-4207-bb2d-eb08a4764000'
-title: 'FaxOutgoingArchive.SizeHigh property'
+---
+Description: The SizeHigh property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
+ms.assetid: 4284d609-416a-4207-bb2d-eb08a4764000
+title: FaxOutgoingArchive.SizeHigh property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.SizeHigh property
@@ -32,7 +37,7 @@ A **Long** that receives the high 32-bit value of the size of the archive of out
 
 Because the archive may exceed 4 gigabytes (GB) in size, the archive size is described using two long values. [**SizeLow**](-mfax-faxoutgoingarchive-sizelow-vb.md) is the low 32-bit value of the archive size. **SizeHigh** is the high 32-bit value of the archive size. The size of the archive is: **SizeLow** + 4 GB \* **SizeHigh**. If both the **SizeLow** and **SizeHigh** properties have the value 0xffffffff, they specify an invalid archive size, and you should ignore both property values.
 
-To read this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -57,7 +62,7 @@ To read this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-acc
 [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxOutgoingArchive**](-mfax-faxoutgoingarchive-cpp.md)
+[**IFaxOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingarchive?branch=master)
 </dt> </dl>
 
  

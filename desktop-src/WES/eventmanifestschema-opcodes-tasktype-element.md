@@ -1,14 +1,20 @@
 ---
 title: opcodes (TaskType) Element
 description: Defines a list of task-specific opcodes.
-ms.assetid: '69e5228c-72ef-4041-bd2c-7c521341a358'
-keywords: ["opcodes element EventLog"]
+ms.assetid: 69e5228c-72ef-4041-bd2c-7c521341a358
+keywords:
+- opcodes element EventLog
 topic_type:
 - apiref
 api_name:
 - opcodes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # opcodes (TaskType) Element
@@ -29,8 +35,8 @@ The **opcodes** element is defined by the [**TaskType**](eventmanifestschema-tas
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **opcodes** element is defined by the [**TaskType**](eventmanifestschema-tas
 [**task (TaskListType)**](eventmanifestschema-task-tasklisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

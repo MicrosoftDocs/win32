@@ -1,7 +1,12 @@
-﻿---
-Description: 'Spherical harmonic (SH) compression setting.'
-ms.assetid: '214d6efb-419d-4eea-8360-322885c26bc3'
+---
+Description: Spherical harmonic (SH) compression setting.
+ms.assetid: 214d6efb-419d-4eea-8360-322885c26bc3
 title: D3DXSHCOMPRESSQUALITYTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHCOMPRESSQUALITYTYPE enumeration

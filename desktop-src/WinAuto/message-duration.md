@@ -1,7 +1,12 @@
 ---
 title: Message Duration
 description: Applications typically use pop-up windows to briefly display important notification messages to the user. An application creates the window, displays it for an application-defined duration, and then destroys the window.
-ms.assetid: 'a3f7a8d8-78e7-4fb0-8ee2-bd9341857153'
+ms.assetid: a3f7a8d8-78e7-4fb0-8ee2-bd9341857153
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Duration

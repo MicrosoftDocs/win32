@@ -4,17 +4,22 @@ description: The parameters to pass to a Volume Shadow Copy Service Task resourc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f3ec037d-28ed-47a8-aaef-69305865284e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f3ec037d-28ed-47a8-aaef-69305865284e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ApplicationParams Failover Cluster , for Volume Shadow Copy Service Task private properties", "ApplicationParams Failover Cluster"]
+keywords:
+- ApplicationParams Failover Cluster , for Volume Shadow Copy Service Task private properties
+- ApplicationParams Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ApplicationParams
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplicationParams
@@ -28,13 +33,13 @@ The parameters to pass to a Volume Shadow Copy Service Task resource specific ex
 | Data type | **DWORD**                                                        |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0 (Byte offset from beginning of string.)                        |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +69,7 @@ StringCbCopy(                    ApplicationParamValue.sz,
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -78,9 +83,9 @@ StringCbCopy(                    ApplicationParamValue.sz,
 [Task Scheduler V1.0 API](https://msdn.microsoft.com/library/windows/desktop/aa383614)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

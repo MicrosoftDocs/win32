@@ -1,13 +1,16 @@
 ---
-Description: 'The System Registry Provider class StdRegProv for WMI has methods that do the following:'
+Description: The System Registry Provider class StdRegProv for WMI has methods that do the following
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd42248b3-2f96-4771-aee9-a0db139b149e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d42248b3-2f96-4771-aee9-a0db139b149e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Changing Registry Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Changing Registry Data

@@ -1,7 +1,12 @@
 ---
-Description: 'Timer-event identifier, for scheduling EC\_COMPLETE notifications.'
-ms.assetid: '79bb0ca9-e58f-450d-9288-57535fd06413'
-title: 'CBaseRenderer::m\_EndOfStreamTimer member'
+Description: Timer-event identifier, for scheduling EC\_COMPLETE notifications.
+ms.assetid: 79bb0ca9-e58f-450d-9288-57535fd06413
+title: CBaseRendererm\_EndOfStreamTimer member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_EndOfStreamTimer member
@@ -35,9 +40,9 @@ UINT m_EndOfStreamTimer;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

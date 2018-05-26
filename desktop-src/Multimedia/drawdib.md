@@ -1,8 +1,21 @@
 ---
 title: DrawDib
 description: DrawDib
-ms.assetid: 'c5e7237d-3a52-45b0-b6c5-13a1a8c1d50d'
-keywords: ["Windows multimedia,DrawDib", "multimedia,DrawDib", "Video for Windows (VFW),DrawDib", "VFW (Video for Windows),DrawDib", "DrawDib,about", "DrawDib,video memory", "device-independent bitmap (DIB)", "DIB (device-independent bitmap)"]
+ms.assetid: c5e7237d-3a52-45b0-b6c5-13a1a8c1d50d
+keywords:
+- Windows multimedia,DrawDib
+- multimedia,DrawDib
+- Video for Windows (VFW),DrawDib
+- VFW (Video for Windows),DrawDib
+- DrawDib,about
+- DrawDib,video memory
+- device-independent bitmap (DIB)
+- DIB (device-independent bitmap)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrawDib

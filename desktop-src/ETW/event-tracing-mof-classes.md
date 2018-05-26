@@ -1,7 +1,12 @@
 ---
-Description: 'The classes are defined in the \\root\\wmi namespace.'
-ms.assetid: 'b86c3863-b92c-4f6c-b953-3e0638bc915e'
+Description: The classes are defined in the \\root\\wmi namespace.
+ms.assetid: b86c3863-b92c-4f6c-b953-3e0638bc915e
 title: Event Tracing MOF Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Tracing MOF Classes

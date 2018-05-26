@@ -1,7 +1,12 @@
 ---
-Description: 'Model name of the device.'
-ms.assetid: '661a58ed-3efd-465f-9a48-db3302794792'
-title: 'System.Devices.ModelName'
+Description: Model name of the device.
+ms.assetid: 661a58ed-3efd-465f-9a48-db3302794792
+title: System.Devices.ModelName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.ModelName

@@ -1,7 +1,12 @@
 ---
 title: Categorizing by Component Capabilities
 description: Component categories can be used to display a subset of all of the installed components.
-ms.assetid: '522af5d7-ba7b-4127-9cdb-48ef4d0f8e65'
+ms.assetid: 522af5d7-ba7b-4127-9cdb-48ef4d0f8e65
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Categorizing by Component Capabilities

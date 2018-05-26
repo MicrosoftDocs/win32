@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pFilter member variable is a pointer to the owning filter.'
-ms.assetid: '57ba31bb-e047-4046-a58d-6ca39d6093f8'
-title: 'CImageAllocator::m\_pFilter member'
+Description: The m\_pFilter member variable is a pointer to the owning filter.
+ms.assetid: 57ba31bb-e047-4046-a58d-6ca39d6093f8
+title: CImageAllocatorm\_pFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageAllocator::m\_pFilter member
@@ -35,9 +40,9 @@ CBaseFilter *m_pFilter;
 [**CImageAllocator Class**](cimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

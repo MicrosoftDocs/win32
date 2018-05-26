@@ -4,13 +4,16 @@ description: Create a new replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7338f63d-22dd-46cb-b313-49081ca20b2a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7338f63d-22dd-46cb-b313-49081ca20b2a
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateGroup method iSCSI Software Target API", "CreateGroup method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , CreateGroup method"]
+keywords:
+- CreateGroup method iSCSI Software Target API
+- CreateGroup method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , CreateGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateGroup method of the CIM\_ReplicationService class
@@ -30,14 +36,14 @@ Create a new replication group.
 
 ```mof
 uint32 CreateGroup(
-  [in]  string                     GroupName,
-  [in]  CIM_LogicalElement     REF Members[],
-  [in]  boolean                    Persistent,
-  [in]  boolean                    DeleteOnEmptyElement,
-  [in]  boolean                    DeleteOnUnassociated,
-  [in]  CIM_ServiceAccessPoint REF ServiceAccessPoint,
-  [out] CIM_ReplicationGroup   REF ReplicationGroup,
-  [in]  string                     ReplicationSettingData
+  [in]  string                     GroupName,
+  [in]  CIM_LogicalElement     REF Members[],
+  [in]  boolean                    Persistent,
+  [in]  boolean                    DeleteOnEmptyElement,
+  [in]  boolean                    DeleteOnUnassociated,
+  [in]  CIM_ServiceAccessPoint REF ServiceAccessPoint,
+  [out] CIM_ReplicationGroup   REF ReplicationGroup,
+  [in]  string                     ReplicationSettingData
 );
 ```
 
@@ -131,10 +137,10 @@ If supplied, it provides additional replication settings for the method. For exa
 **Groups are not nameable** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -144,7 +150,7 @@ If supplied, it provides additional replication settings for the method. For exa
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -158,9 +164,9 @@ If supplied, it provides additional replication settings for the method. For exa
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

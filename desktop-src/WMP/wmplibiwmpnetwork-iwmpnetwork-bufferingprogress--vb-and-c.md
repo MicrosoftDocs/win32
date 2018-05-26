@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork bufferingProgress property
 description: The bufferingProgress property gets the percentage of buffering completed.
-ms.assetid: '8dc9f31e-7c34-4714-a633-d92c3da3052b'
-keywords: ["bufferingProgress property Windows Media Player", "bufferingProgress property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , bufferingProgress property"]
+ms.assetid: 8dc9f31e-7c34-4714-a633-d92c3da3052b
+keywords:
+- bufferingProgress property Windows Media Player
+- bufferingProgress property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , bufferingProgress property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::bufferingProgress property
@@ -167,9 +175,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Application Basics
 description: Application Basics
-ms.assetid: '5593d27e-e97d-4f03-99ff-aee856abec8e'
-keywords: ["Windows Media Format SDK,DRM application basics", "digital rights management (DRM),application basics", "DRM (digital rights management),application basics", "digital rights management (DRM),WMDRMStartup function", "DRM (digital rights management),WMDRMStartup function", "WMDRMStartup"]
+ms.assetid: 5593d27e-e97d-4f03-99ff-aee856abec8e
+keywords:
+- Windows Media Format SDK,DRM application basics
+- digital rights management (DRM),application basics
+- DRM (digital rights management),application basics
+- digital rights management (DRM),WMDRMStartup function
+- DRM (digital rights management),WMDRMStartup function
+- WMDRMStartup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Basics

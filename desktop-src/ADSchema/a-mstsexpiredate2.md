@@ -4,17 +4,22 @@ description: Expiration date of the second TS per user CAL.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd594dbcf-249a-4d72-a9fa-06a4c62fc895'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d594dbcf-249a-4d72-a9fa-06a4c62fc895
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-ExpireDate2 attribute AD Schema", "msTSExpireDate2 attribute AD Schema"]
+keywords:
+- MS-TS-ExpireDate2 attribute AD Schema
+- msTSExpireDate2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-ExpireDate2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-ExpireDate2 attribute

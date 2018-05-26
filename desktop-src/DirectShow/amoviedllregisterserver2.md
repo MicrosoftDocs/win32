@@ -1,7 +1,12 @@
 ---
-Description: 'The AMovieDllRegisterServer2 function registers and unregisters filters.'
-ms.assetid: '2122949d-0117-4c68-bfcd-c717b14dc970'
+Description: The AMovieDllRegisterServer2 function registers and unregisters filters.
+ms.assetid: 2122949d-0117-4c68-bfcd-c717b14dc970
 title: AMovieDllRegisterServer2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AMovieDllRegisterServer2 function
@@ -13,7 +18,7 @@ The **AMovieDllRegisterServer2** function registers and unregisters filters.
 
 ```C++
 HRESULT AMovieDllRegisterServer2(
-   BOOL bRegister
+   BOOL bRegister
 );
 ```
 
@@ -56,9 +61,9 @@ Use this function to set up your filters. For more information, see [How to Regi
 [**DLL Setup Functions**](dll-setup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

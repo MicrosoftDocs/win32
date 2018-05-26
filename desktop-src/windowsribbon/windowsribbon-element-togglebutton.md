@@ -1,14 +1,20 @@
 ---
 title: ToggleButton element
 description: Represents a Toggle Button control.
-ms.assetid: 'f26a90e6-9e9a-4fde-8753-50b8b1d09f80'
-keywords: ["ToggleButton element Windows Ribbon"]
+ms.assetid: f26a90e6-9e9a-4fde-8753-50b8b1d09f80
+keywords:
+- ToggleButton element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ToggleButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ToggleButton element
@@ -120,7 +126,7 @@ This section of code shows a **ToggleButton** element declaration within the [**
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -132,9 +138,9 @@ This section of code shows a **ToggleButton** element declaration within the [**
 [Toggle Button control](windowsribbon-controls-togglebutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

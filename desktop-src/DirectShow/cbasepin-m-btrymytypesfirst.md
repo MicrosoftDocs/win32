@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that indicates whether the pin tries its own preferred media types before those of the receiving pin.'
-ms.assetid: '50462ee4-4a61-472f-9a7e-9cdb39be4dea'
-title: 'CBasePin::m\_bTryMyTypesFirst member'
+Description: Flag that indicates whether the pin tries its own preferred media types before those of the receiving pin.
+ms.assetid: 50462ee4-4a61-472f-9a7e-9cdb39be4dea
+title: CBasePinm\_bTryMyTypesFirst member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin::m\_bTryMyTypesFirst member
@@ -39,9 +44,9 @@ This flag defaults to **FALSE**. If the flag is **TRUE**, the [**CBasePin::Agree
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

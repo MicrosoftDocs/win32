@@ -4,17 +4,21 @@ description: Specifies the prefix length of a virtual IP address.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8A166042-7CFA-4BB8-9A61-CDA594DDE488'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8A166042-7CFA-4BB8-9A61-CDA594DDE488
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PrefixLength Failover Cluster"]
+keywords:
+- PrefixLength Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PrefixLength
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PrefixLength
@@ -27,14 +31,14 @@ Specifies the prefix length of a virtual IP address.
 |----------------------|--------------------------------------------|
 | Data type<br/> | **DWORD**                                  |
 | Access<br/>    | [Read/write](read-write-properties.md)    |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)  |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)  |
 | Minimum<br/>   | 0 (for IPv4) or 0 (for IPv6)<br/>    |
 | Maximum<br/>   | 32 (for IPv4) or 128 (for IPv6)<br/> |
 | Default<br/>   | 0<br/>                               |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_VIP\_PREFIX\_LENGTH**.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_VIP\_PREFIX\_LENGTH**.
 [Virtual IP Address Private Properties](virtual-ip-address-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

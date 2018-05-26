@@ -1,14 +1,20 @@
 ---
 title: Error element
 description: This element describes an error.
-ms.assetid: '4207c9d3-6ebb-4968-a855-1c0f4afb8d4d'
-keywords: ["Error element Access Execution Engine"]
+ms.assetid: 4207c9d3-6ebb-4968-a855-1c0f4afb8d4d
+keywords:
+- Error element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Error
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error element
@@ -74,9 +80,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

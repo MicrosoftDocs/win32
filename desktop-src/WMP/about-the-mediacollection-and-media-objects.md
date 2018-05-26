@@ -1,8 +1,29 @@
 ---
 title: About the MediaCollection and Media Objects
 description: About the MediaCollection and Media Objects
-ms.assetid: 'e3260efd-44cc-4b4e-9f48-3441631bfa4f'
-keywords: ["Windows Media Player,MediaCollection object", "Windows Media Player object model,MediaCollection object", "object model,MediaCollection object", "Windows Media Player ActiveX control,MediaCollection object", "ActiveX control,MediaCollection object", "Windows Media Player Mobile ActiveX control,MediaCollection object", "Windows Media Player Mobile,MediaCollection object", "MediaCollection object", "Windows Media Player,Media object", "Windows Media Player object model,Media object", "object model,Media object", "Windows Media Player ActiveX control,Media object", "ActiveX control,Media object", "Windows Media Player Mobile ActiveX control,Media object", "Windows Media Player Mobile,Media object", "Media object"]
+ms.assetid: e3260efd-44cc-4b4e-9f48-3441631bfa4f
+keywords:
+- Windows Media Player,MediaCollection object
+- Windows Media Player object model,MediaCollection object
+- object model,MediaCollection object
+- Windows Media Player ActiveX control,MediaCollection object
+- ActiveX control,MediaCollection object
+- Windows Media Player Mobile ActiveX control,MediaCollection object
+- Windows Media Player Mobile,MediaCollection object
+- MediaCollection object
+- Windows Media Player,Media object
+- Windows Media Player object model,Media object
+- object model,Media object
+- Windows Media Player ActiveX control,Media object
+- ActiveX control,Media object
+- Windows Media Player Mobile ActiveX control,Media object
+- Windows Media Player Mobile,Media object
+- Media object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the MediaCollection and Media Objects

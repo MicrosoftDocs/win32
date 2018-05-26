@@ -1,7 +1,12 @@
 ---
-Description: 'This operator divides a reference time by a value.'
-ms.assetid: 'fb2e2a4b-dc0b-42e3-86c7-8aa2c60daedc'
-title: 'COARefTime.operator/ method'
+Description: This operator divides a reference time by a value.
+ms.assetid: fb2e2a4b-dc0b-42e3-86c7-8aa2c60daedc
+title: COARefTime.operator/ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator/ method
@@ -13,7 +18,7 @@ This operator divides a reference time by a value.
 
 ```C++
 COARefTime operator/(
-   LONG l
+   LONG l
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a new **COARefTime** object equal to the quotient of this object and **l
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

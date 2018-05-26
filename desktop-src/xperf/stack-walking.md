@@ -1,8 +1,22 @@
 ---
 title: Stack Walking
 description: Stack Walking
-ms.assetid: '57868106-a75f-4a76-8983-dce14fc8e079'
-keywords: ["stack walking", "symbol", "frame pointer ommission", "FPO", "stack tracing", "symbol decoding", "symbol support", "summary table", "tree view"]
+ms.assetid: 57868106-a75f-4a76-8983-dce14fc8e079
+keywords:
+- stack walking
+- symbol
+- frame pointer ommission
+- FPO
+- stack tracing
+- symbol decoding
+- symbol support
+- summary table
+- tree view
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stack Walking

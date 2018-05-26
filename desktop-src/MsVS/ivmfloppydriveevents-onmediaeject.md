@@ -1,8 +1,13 @@
 ---
 title: IVMFloppyDriveEvents OnMediaEject method
 description: Called when media has been ejected from the drive.
-ms.assetid: '928b2f61-98a1-406f-959b-db5fecd0ba2a'
-keywords: ["OnMediaEject method Virtual Server", "OnMediaEject method Virtual Server , IVMFloppyDriveEvents interface", "IVMFloppyDriveEvents interface Virtual Server , OnMediaEject method", "OnMediaEject method Virtual Server , VMFloppyDrive interface", "VMFloppyDrive interface Virtual Server , OnMediaEject method"]
+ms.assetid: 928b2f61-98a1-406f-959b-db5fecd0ba2a
+keywords:
+- OnMediaEject method Virtual Server
+- OnMediaEject method Virtual Server , IVMFloppyDriveEvents interface
+- IVMFloppyDriveEvents interface Virtual Server , OnMediaEject method
+- OnMediaEject method Virtual Server , VMFloppyDrive interface
+- VMFloppyDrive interface Virtual Server , OnMediaEject method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDriveEvents::OnMediaEject method
@@ -23,7 +33,7 @@ The **OnMediaEject** method is called when media has been ejected from the drive
 
 ```C++
 HRESULT OnMediaEject(
-  [in] BSTR     mediaPath
+  [in] BSTR     mediaPath
 );
 ```
 
@@ -54,8 +64,8 @@ This method is called when media (a floppy disk image or a floppy disk in a host
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -67,9 +77,9 @@ This method is called when media (a floppy disk image or a floppy disk in a host
 [**IVMFloppyDriveEvents**](ivmfloppydriveevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

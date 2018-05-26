@@ -4,10 +4,13 @@ description: A resource type for the Policy Manger that collects and stores metr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2A36831E-6783-43D4-9318-D244B4196521'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2A36831E-6783-43D4-9318-D244B4196521
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storage QoS Policy Manager
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +41,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Storage Policies](storage-policies.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

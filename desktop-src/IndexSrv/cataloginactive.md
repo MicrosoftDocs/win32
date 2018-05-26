@@ -1,7 +1,12 @@
 ---
 title: CatalogInactive
 description: CatalogInactive
-ms.assetid: 'ebfb871e-8a67-4ee3-bce9-9a36ad487b5b'
+ms.assetid: ebfb871e-8a67-4ee3-bce9-9a36ad487b5b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CatalogInactive

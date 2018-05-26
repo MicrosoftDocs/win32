@@ -1,8 +1,10 @@
 ---
 title: ITopicCollection interface
 description: Collection of ITopics
-ms.assetid: 'ac0d5c92-6bf8-4b9f-82e2-72eb37cb1840'
-keywords: ["ITopicCollection interface HelpAPI", "ITopicCollection interface HelpAPI , described"]
+ms.assetid: ac0d5c92-6bf8-4b9f-82e2-72eb37cb1840
+keywords:
+- ITopicCollection interface HelpAPI
+- ITopicCollection interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopicCollection interface
@@ -39,7 +46,7 @@ The **ITopicCollection** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -54,7 +61,7 @@ The **ITopicCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,15 +69,15 @@ The **ITopicCollection** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

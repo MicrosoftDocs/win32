@@ -1,8 +1,14 @@
 ---
 title: Properties and Property Sets
 description: While the kinds of run-time properties that Automation and Microsoft ActiveX Controls offer are important, they do not directly address the need to store information with objects persistently stored in the file system.
-ms.assetid: '350cfb84-2f8e-46e7-a70d-09beb14a8eee'
-keywords: ["Structured Storage Strctd Stg ,fundamentals,properties and property sets"]
+ms.assetid: 350cfb84-2f8e-46e7-a70d-09beb14a8eee
+keywords:
+- Structured Storage Strctd Stg ,fundamentals,properties and property sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties and Property Sets
@@ -11,16 +17,16 @@ While the kinds of run-time properties that Automation and Microsoft ActiveX Con
 
 Persistent properties are stored as sets, and one or more sets may be associated with a file system entity. These persistent property sets are intended to be used to store data that is suited to being represented as a collection of fine-grained values. They are not intended to be used as a large data base. They can be used to store summary information about an object on the system, which can then be accessed by any other object that understands how to interpret that property set.
 
-Previous versions of COM specified very little with respect to properties and their usage, but did define a serialized format that allowed developers to store properties and property sets in an [**IStorage**](istorage.md) instance. The property identifiers and semantics of a single property set, used for summary information about a document, were also defined. At that time, it was necessary to create and manipulate that structure directly as a data stream. See [Structured Storage Serialized Property Set Format](structured-storage-serialized-property-set-format.md).
+Previous versions of COM specified very little with respect to properties and their usage, but did define a serialized format that allowed developers to store properties and property sets in an [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) instance. The property identifiers and semantics of a single property set, used for summary information about a document, were also defined. At that time, it was necessary to create and manipulate that structure directly as a data stream. See [Structured Storage Serialized Property Set Format](structured-storage-serialized-property-set-format.md).
 
 Now, however, COM defines two primary interfaces to manage property sets:
 
--   [**IPropertyStorage**](ipropertystorage.md)
--   [**IPropertySetStorage**](ipropertysetstorage.md)
+-   [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master)
+-   [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master)
 
-It is no longer necessary to deal with the serialized format directly when these interfaces are implemented on an object that supports the [**IStorage**](istorage.md) interface (such as compound files). Writing properties through [**IPropertySetStorage**](ipropertysetstorage.md) and [**IPropertyStorage**](ipropertystorage.md) creates data that exactly conforms to the COM property set format, as viewed through **IStorage** methods. The converse is also true — properties written to the COM property set format using **IStorage** are visible through **IPropertySetStorage** and **IPropertyStorage** (although you cannot expect to write to [**IStream**](istream.md) and have the properties through **IPropertyStorage** immediately available, or vice versa).
+It is no longer necessary to deal with the serialized format directly when these interfaces are implemented on an object that supports the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface (such as compound files). Writing properties through [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) and [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) creates data that exactly conforms to the COM property set format, as viewed through **IStorage** methods. The converse is also true — properties written to the COM property set format using **IStorage** are visible through **IPropertySetStorage** and **IPropertyStorage** (although you cannot expect to write to [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) and have the properties through **IPropertyStorage** immediately available, or vice versa).
 
-The [**IPropertySetStorage**](ipropertysetstorage.md) interface defines methods that create and manage property sets. The [**IPropertyStorage**](ipropertystorage.md) interface directly manipulates the properties within a property set. By calling the methods of these interfaces, an application developer can manage whatever property sets are appropriate for a given file system entity. Use of these interfaces provides one tuned reading and writing implementation for properties, rather than having an implementation in each application, where there could be performance bottlenecks such as incessant seeking. You can implement the interfaces to enhance performance, so properties can be read and written more quickly by, for example, more efficient caching. Furthermore, **IPropertyStorage** and **IPropertySetStorage** make it possible to manipulate properties on entities that do not support [**IStorage**](istorage.md), although in general, most applications will not do so.
+The [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface defines methods that create and manage property sets. The [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) interface directly manipulates the properties within a property set. By calling the methods of these interfaces, an application developer can manage whatever property sets are appropriate for a given file system entity. Use of these interfaces provides one tuned reading and writing implementation for properties, rather than having an implementation in each application, where there could be performance bottlenecks such as incessant seeking. You can implement the interfaces to enhance performance, so properties can be read and written more quickly by, for example, more efficient caching. Furthermore, **IPropertyStorage** and **IPropertySetStorage** make it possible to manipulate properties on entities that do not support [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master), although in general, most applications will not do so.
 
 This section contains the following topics:
 

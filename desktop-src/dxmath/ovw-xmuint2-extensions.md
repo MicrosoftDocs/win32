@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMUINT2 describes a 2D vector consisting of two unsigned integer values.'
-ms.assetid: '563e5026-1746-483b-80b0-fb931bcf057a'
+---
+Description: XMUINT2 describes a 2D vector consisting of two unsigned integer values.
+ms.assetid: 563e5026-1746-483b-80b0-fb931bcf057a
 title: XMUINT2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUINT2 Extensions
 
-[**XMUINT2**](xmuint2.md) describes a 2D vector consisting of two unsigned integer values.
+[**XMUINT2**](/windows/win32/DirectXMath/?branch=master) describes a 2D vector consisting of two unsigned integer values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMUINT2 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMUINT2**](xmuint2.md)
+[**XMUINT2**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

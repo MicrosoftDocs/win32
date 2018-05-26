@@ -4,13 +4,16 @@ description: Gets service access points (SAPs) that are associated with a peer s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '716dbd18-d9c0-4450-b8b8-b8edfd474146'
-ms.prod: 'windows-server-dev'
+ms.assetid: 716dbd18-d9c0-4450-b8b8-b8edfd474146
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServiceAccessPoints method iSCSI Software Target API", "GetServiceAccessPoints method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , GetServiceAccessPoints method"]
+keywords:
+- GetServiceAccessPoints method iSCSI Software Target API
+- GetServiceAccessPoints method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , GetServiceAccessPoints method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServiceAccessPoints method of the MSISCSITARGET\_ReplicationService class
@@ -32,9 +38,9 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 GetServiceAccessPoints(
-  [in]  CIM_ComputerSystem Ref     System,
-  [out] CIM_ConcreteJob Ref        Job,
-  [out] CIM_ServiceAccessPoint Ref ServiceAccessPoints[]
+  [in]  CIM_ComputerSystem Ref     System,
+  [out] CIM_ConcreteJob Ref        Job,
+  [out] CIM_ServiceAccessPoint Ref ServiceAccessPoints[]
 );
 ```
 
@@ -94,13 +100,13 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–0x7FFF)
+**Method Reserved** (4097 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -113,7 +119,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -133,9 +139,9 @@ This method returns one of the following values.
 [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

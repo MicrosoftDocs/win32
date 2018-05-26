@@ -1,8 +1,14 @@
 ---
 title: Configuring the Security Server
 description: The following procedure details configuring the security server for Microsoft RPC.
-ms.assetid: '959d06b0-3ddb-4090-8686-82a44462a28e'
-keywords: ["Remote Procedure Call RPC , tasks, configuring the security server"]
+ms.assetid: 959d06b0-3ddb-4090-8686-82a44462a28e
+keywords:
+- Remote Procedure Call RPC , tasks, configuring the security server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Security Server

@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e65b8bf3-c9d3-4eff-b34a-b176d2aafe7b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e65b8bf3-c9d3-4eff-b34a-b176d2aafe7b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # K

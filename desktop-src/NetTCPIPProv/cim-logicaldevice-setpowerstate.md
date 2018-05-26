@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.'
-ms.assetid: 'd4490df8-1ce9-4db9-9f89-d0f420b0cd23'
-title: 'SetPowerState method of the CIM\_LogicalDevice class'
+Description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
+ms.assetid: d4490df8-1ce9-4db9-9f89-d0f420b0cd23
+title: SetPowerState method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPowerState method of the CIM\_LogicalDevice class
@@ -13,8 +18,8 @@ Sets the power state of the Device. The use of this method has been deprecated. 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -66,8 +71,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -81,9 +86,9 @@ TBD
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

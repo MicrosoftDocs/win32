@@ -1,8 +1,10 @@
 ---
 title: IMAP\_STATUS\_RESPONSE structure
 description: Returns the results of a STATUS response.
-ms.assetid: '82fdccc7-43fe-4649-8b68-4974b19c8a99'
-keywords: ["IMAP_STATUS_RESPONSE structure Windows Mail (formerly Outlook Express)", "IMAPADDR structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 82fdccc7-43fe-4649-8b68-4974b19c8a99
+keywords:
+- IMAP_STATUS_RESPONSE structure Windows Mail (formerly Outlook Express)
+- IMAPADDR structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAP\_STATUS\_RESPONSE structure
@@ -25,15 +32,15 @@ Returns the results of a STATUS response.
 ```C++
 typedef struct tagIMAP_STATUS_RESPONSE {
   LPSTR pszMailboxName;
-  BOOL  fMessages;
+  BOOL  fMessages;
   DWORD dwMessages;
-  BOOL  fRecent;
+  BOOL  fRecent;
   DWORD dwRecent;
-  BOOL  fUIDNext;
+  BOOL  fUIDNext;
   DWORD dwUIDNext;
-  BOOL  fUIDValidity;
+  BOOL  fUIDValidity;
   DWORD dwUIDValidity;
-  BOOL  fUnseen;
+  BOOL  fUnseen;
   DWORD dwUnseen;
 } IMAPADDR;
 ```
@@ -171,17 +178,17 @@ Contains a **DWORD** that contains the total number of messages without the "\\s
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

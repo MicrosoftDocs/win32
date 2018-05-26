@@ -1,17 +1,22 @@
 ---
-Description: 'Multihead cards are those that have a common frame buffer and accelerator, independent digital-to-analog converters (DACs), and monitor outputs.'
-ms.assetid: 'f741cdb4-2eb6-42e9-81ea-a8c677e07582'
-title: 'Multihead (Direct3D 9)'
+Description: Multihead cards are those that have a common frame buffer and accelerator, independent digital-to-analog converters (DACs), and monitor outputs.
+ms.assetid: f741cdb4-2eb6-42e9-81ea-a8c677e07582
+title: Multihead (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multihead (Direct3D 9)
 
 Multihead cards are those that have a common frame buffer and accelerator, independent digital-to-analog converters (DACs), and monitor outputs. Such devices can offer much more usable multiple monitor support than a similar number of heterogeneous display adapters.
 
-Multihead cards are exposed in the API as a single API-level device that can drive several full-screen swap chains. Consequently, all resources are shared with all the heads, and each head has exactly the same capabilities. Each head can be set to independent display modes. You can use separate calls to [**IDirect3DSwapChain9::Present**](idirect3dswapchain9--present.md) to refresh each head. You can also use one call to [**IDirect3DDevice9::Present**](idirect3ddevice9--present.md) to refresh each head sequentially.
+Multihead cards are exposed in the API as a single API-level device that can drive several full-screen swap chains. Consequently, all resources are shared with all the heads, and each head has exactly the same capabilities. Each head can be set to independent display modes. You can use separate calls to [**IDirect3DSwapChain9::Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-present?branch=master) to refresh each head. You can also use one call to [**IDirect3DDevice9::Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) to refresh each head sequentially.
 
 > [!Note]  
-> The refresh of each head does not occur simultaneously with a single call to [**IDirect3DDevice9::Present**](idirect3ddevice9--present.md). Present statistics in Direct3D 9Ex can use the [**D3DPRESENTSTATS**](d3dpresentstats.md) structure to keep the refreshes to each head close to each other to limit tearing effects across multiple heads of adapters. For information about synchronizing frames of Direct3D 9Ex flip model applications, see [Direct3D 9Ex Improvements](direct3darticles.direct3d_9ex_improvements#frame-sync-d3d-flip-model).
+> The refresh of each head does not occur simultaneously with a single call to [**IDirect3DDevice9::Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master). Present statistics in Direct3D 9Ex can use the [**D3DPRESENTSTATS**](d3dpresentstats.md) structure to keep the refreshes to each head close to each other to limit tearing effects across multiple heads of adapters. For information about synchronizing frames of Direct3D 9Ex flip model applications, see [Direct3D 9Ex Improvements](direct3darticles.direct3d_9ex_improvements#frame-sync-d3d-flip-model).
 
  
 
@@ -23,7 +28,7 @@ Drivers are given adequate knowledge to switch between the two modes of operatio
 
 One head will be called the master head, and all other heads on the same card be called subordinate heads. If more than one multihead adapter is present in a system, the master and its subordinates from one multihead adapter are called a group. Groups are denoted by the adapter ordinal of their master head.
 
-The [**D3DCAPS9**](d3dcaps9.md) structure has been updated to expose the following new hardware caps.
+The [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure has been updated to expose the following new hardware caps.
 
 
 ```
@@ -40,7 +45,7 @@ UINT AdapterOrdinalInGroup;
 
 This definition allows multihead cards to continue to present multiple adapters as if they were independent cards, just as they did in DirectX 8.
 
-To create a multihead device, specify the behavior flag D3DCREATE\_ADAPTERGROUP\_DEVICE in [**IDirect3D9::CreateDevice**](idirect3d9--createdevice.md). The presentation parameters (an array of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md)) should contain NumberOfAdaptersInGroup elements. The runtime will assign each element to each head in AdapterOrdinalInGroup numerical order. When D3DCREATE\_ADAPTERGROUP\_DEVICE is set, each presentation parameter must have:
+To create a multihead device, specify the behavior flag D3DCREATE\_ADAPTERGROUP\_DEVICE in [**IDirect3D9::CreateDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master). The presentation parameters (an array of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md)) should contain NumberOfAdaptersInGroup elements. The runtime will assign each element to each head in AdapterOrdinalInGroup numerical order. When D3DCREATE\_ADAPTERGROUP\_DEVICE is set, each presentation parameter must have:
 
 -   The Windowed member set to **FALSE** (in other words, be full screen).
 -   The same value for the EnableAutoDepthStencil member of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
@@ -52,11 +57,11 @@ In addition, if EnableAutoDepthStencil is **TRUE**, then each of the following f
 -   BackBufferHeight
 -   BackBufferFormat
 
-If DAC is set, additional calls to [**IDirect3DDevice9::CreateAdditionalSwapChain**](idirect3ddevice9--createadditionalswapchain.md) are illegal.
+If DAC is set, additional calls to [**IDirect3DDevice9::CreateAdditionalSwapChain**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createadditionalswapchain?branch=master) are illegal.
 
-If the device was created with the DAC, [**IDirect3DDevice9::Reset**](idirect3ddevice9--reset.md) will expect an array of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
+If the device was created with the DAC, [**IDirect3DDevice9::Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master) will expect an array of [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
 
-Each [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure passed to [**IDirect3DDevice9::Reset**](idirect3ddevice9--reset.md) must be full screen. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
+Each [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure passed to [**IDirect3DDevice9::Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master) must be full screen. To switch back to windowed mode, the application must destroy the device and re-create a non-multihead device in windowed mode.
 
 Here is a basic usage scenario:
 
@@ -75,7 +80,7 @@ all swap chains are drawn and present outside of loop)
 
 
 
-For more information, see [**IDirect3D9::CreateDevice**](idirect3d9--createdevice.md) and [**IDirect3DDevice9::GetNumberOfSwapChains**](idirect3ddevice9--getnumberofswapchains.md).
+For more information, see [**IDirect3D9::CreateDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master) and [**IDirect3DDevice9::GetNumberOfSwapChains**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getnumberofswapchains?branch=master).
 
 ## Related topics
 

@@ -2,13 +2,19 @@
 title: arrays attribute
 description: Arrays are homogenous collections of data accessed by an index or element number.
 ms.assetid: 375fb795-8f18-45b7-898c-99f1273746d8
-keywords: ["arrays attribute MIDL"]
+keywords:
+- arrays attribute MIDL
 topic_type:
 - apiref
 api_name:
 - arrays
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # arrays attribute

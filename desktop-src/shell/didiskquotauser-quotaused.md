@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the user''s current disk usage, in bytes.'
-title: 'DIDiskQuotaUser.QuotaUsed property'
+---
+Description: Gets the users current disk usage, in bytes.
+title: DIDiskQuotaUser.QuotaUsed property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.QuotaUsed property

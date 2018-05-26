@@ -1,14 +1,19 @@
 ---
 Description: Providing Callbacks for ELS Services
-ms.assetid: '48609c55-9e82-4407-ae28-41b07b1e1161'
+ms.assetid: 48609c55-9e82-4407-ae28-41b07b1e1161
 title: Providing Callbacks for ELS Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing Callbacks for ELS Services
 
-If your application is using asynchronous operations for text recognition, it must provide a callback function for the ELS service to use. The callback function is based on the [**MappingCallbackProc**](mappingcallbackproc.md) prototype.
+If your application is using asynchronous operations for text recognition, it must provide a callback function for the ELS service to use. The callback function is based on the [**MappingCallbackProc**](/windows/win32/Elscore/nc-elscore-pfn_mappingcallbackproc?branch=master) prototype.
 
-The [Requesting Text Recognition](requesting-text-recognition.md) topic describes how your application can request asynchronous text recognition from an ELS service. The following example shows an application that makes an asynchronous call to [**MappingRecognizeText**](mappingrecognizetext.md). The callback function for text recognition is called **RecognizeCallback**. Note that the application must make sure that the property bag, the input text, the options, and the service are all valid until after the callback function has finished executing. Additionally, the application must ensure that [**MappingFreePropertyBag**](mappingfreepropertybag.md) is called immediately after the bag is consumed by the callback function.
+The [Requesting Text Recognition](requesting-text-recognition.md) topic describes how your application can request asynchronous text recognition from an ELS service. The following example shows an application that makes an asynchronous call to [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master). The callback function for text recognition is called **RecognizeCallback**. Note that the application must make sure that the property bag, the input text, the options, and the service are all valid until after the callback function has finished executing. Additionally, the application must ensure that [**MappingFreePropertyBag**](/windows/win32/Elscore/nf-elscore-mappingfreepropertybag?branch=master) is called immediately after the bag is consumed by the callback function.
 
 > [!Note]  
 > It might be a good idea for your application to use the callback function to free the resources after it has finished processing or copying them.
@@ -148,13 +153,13 @@ void RecognizeCallback(PMAPPING_PROPERTY_BAG pBag, LPVOID data, DWORD dwDataSize
 [Requesting Text Recognition](requesting-text-recognition.md)
 </dt> <dt>
 
-[**MappingCallbackProc**](mappingcallbackproc.md)
+[**MappingCallbackProc**](/windows/win32/Elscore/nc-elscore-pfn_mappingcallbackproc?branch=master)
 </dt> <dt>
 
-[**MappingFreePropertyBag**](mappingfreepropertybag.md)
+[**MappingFreePropertyBag**](/windows/win32/Elscore/nf-elscore-mappingfreepropertybag?branch=master)
 </dt> <dt>
 
-[**MappingRecognizeText**](mappingrecognizetext.md)
+[**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master)
 </dt> </dl>
 
  

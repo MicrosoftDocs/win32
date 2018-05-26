@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_FILE\_SET\_CAPTURE\_FILE message
 description: The WM\_CAP\_FILE\_SET\_CAPTURE\_FILE message names the file used for video capture. You can send this message explicitly or by using the capFileSetCaptureFile macro.
-ms.assetid: 'd96e498b-6322-4d48-a5d7-156e95f23740'
-keywords: ["WM_CAP_FILE_SET_CAPTURE_FILE message Windows Multimedia"]
+ms.assetid: d96e498b-6322-4d48-a5d7-156e95f23740
+keywords:
+- WM_CAP_FILE_SET_CAPTURE_FILE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_FILE\_SET\_CAPTURE\_FILE message
 
-The **WM\_CAP\_FILE\_SET\_CAPTURE\_FILE** message names the file used for video capture. You can send this message explicitly or by using the [**capFileSetCaptureFile**](capfilesetcapturefile.md) macro.
+The **WM\_CAP\_FILE\_SET\_CAPTURE\_FILE** message names the file used for video capture. You can send this message explicitly or by using the [**capFileSetCaptureFile**](/windows/win32/Vfw/nf-vfw-capfilesetcapturefile?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ This message stores the filename in an internal structure. It does not create, a
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ This message stores the filename in an internal structure. It does not create, a
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

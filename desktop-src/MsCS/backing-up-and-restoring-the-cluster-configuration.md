@@ -4,11 +4,16 @@ description: Starting with Windows Server 2008, you can back up and restore the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a8914274-7cbc-4f10-9611-f625994f14c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a8914274-7cbc-4f10-9611-f625994f14c8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["backing up the cluster configuration Failover Cluster", "restoring the cluster configuration Failover Cluster"]
+keywords:
+- backing up the cluster configuration Failover Cluster
+- restoring the cluster configuration Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Backing Up and Restoring the Failover Cluster Configuration with Windows Server 2003
@@ -17,7 +22,7 @@ Starting with Windows Server 2008, you can back up and restore the failover clu
 
 Failover clustering did not support VSS before Windows Server 2008. The following example shows how to back up and restore the failover cluster configuration in systems prior to Windows Server 2008.
 
-Before changing the cluster configuration, you can create a backup of the [cluster database](cluster-database.md) using the [Cluster API](cluster-api.md) function [**BackupClusterDatabase**](backupclusterdatabase.md). This creates a snapshot of the cluster configuration which can later be restored with the [**RestoreClusterDatabase**](restoreclusterdatabase.md) function.
+Before changing the cluster configuration, you can create a backup of the [cluster database](cluster-database.md) using the [Cluster API](cluster-api.md) function [**BackupClusterDatabase**](/windows/previous-versions/ClusAPI/nf-clusapi-backupclusterdatabase?branch=master). This creates a snapshot of the cluster configuration which can later be restored with the [**RestoreClusterDatabase**](/windows/previous-versions/ClusAPI/nf-clusapi-restoreclusterdatabase?branch=master) function.
 
 The following example is a command-line tool that performs basic backup and restore operations.
 

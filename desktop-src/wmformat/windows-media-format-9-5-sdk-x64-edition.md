@@ -1,8 +1,14 @@
 ---
 title: Windows Media Format 9.5 SDK x64 Edition
 description: Windows Media Format 9.5 SDK x64 Edition
-ms.assetid: '7c282ee7-6829-4516-8874-2878598cc5d9'
-keywords: ["Windows Media Format SDK,x64 edition"]
+ms.assetid: 7c282ee7-6829-4516-8874-2878598cc5d9
+keywords:
+- Windows Media Format SDK,x64 edition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Format 9.5 SDK x64 Edition

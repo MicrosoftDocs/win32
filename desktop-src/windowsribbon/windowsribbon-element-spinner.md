@@ -1,14 +1,20 @@
 ---
 title: Spinner element
 description: Represents a Spinner control.
-ms.assetid: '6a174ec9-0fde-4171-a363-0e330ac31a8b'
-keywords: ["Spinner element Windows Ribbon"]
+ms.assetid: 6a174ec9-0fde-4171-a363-0e330ac31a8b
+keywords:
+- Spinner element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Spinner
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spinner element
@@ -117,7 +123,7 @@ This section of code shows the **Spinner** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -129,9 +135,9 @@ This section of code shows the **Spinner** control declarations.
 [Spinner control](windowsribbon-controls-spinner.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

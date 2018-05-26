@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 2 Functions
 description: The following functions are used to interact with the routing table manager.
-ms.assetid: 'ac5c6ada-c38e-476a-9896-cdd8c51cc0be'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 2, functions", "Routing Table Manager Version 2 RRAS ,functions"]
+ms.assetid: ac5c6ada-c38e-476a-9896-cdd8c51cc0be
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 2, functions
+- Routing Table Manager Version 2 RRAS ,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 2 Functions
@@ -11,139 +18,139 @@ The following functions are used to interact with the routing table manager.
 
 ## Registration Functions
 
-[**RtmRegisterEntity**](rtmregisterentity.md)
+[**RtmRegisterEntity**](/windows/win32/Rtmv2/nf-rtmv2-rtmregisterentity?branch=master)
 
-[**RtmDeregisterEntity**](rtmderegisterentity.md)
+[**RtmDeregisterEntity**](/windows/win32/Rtmv2/nf-rtmv2-rtmderegisterentity?branch=master)
 
-[**RtmGetRegisteredEntities**](rtmgetregisteredentities.md)
+[**RtmGetRegisteredEntities**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetregisteredentities?branch=master)
 
-[**RtmReleaseEntities**](rtmreleaseentities.md)
+[**RtmReleaseEntities**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleaseentities?branch=master)
 
 ## Opaque Pointer Functions
 
-[**RtmLockDestination**](rtmlockdestination.md)
+[**RtmLockDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmlockdestination?branch=master)
 
-[**RtmGetOpaqueInformationPointer**](rtmgetopaqueinformationpointer.md)
+[**RtmGetOpaqueInformationPointer**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetopaqueinformationpointer?branch=master)
 
 ## Export Method Functions
 
-[**RtmGetEntityMethods**](rtmgetentitymethods.md)
+[**RtmGetEntityMethods**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetentitymethods?branch=master)
 
-[**RtmInvokeMethod**](rtminvokemethod.md)
+[**RtmInvokeMethod**](/windows/win32/Rtmv2/nf-rtmv2-rtminvokemethod?branch=master)
 
-[**RtmBlockMethods**](rtmblockmethods.md)
+[**RtmBlockMethods**](/windows/win32/Rtmv2/nf-rtmv2-rtmblockmethods?branch=master)
 
 ## Handle to Information Structure Functions
 
-[**RtmGetEntityInfo**](rtmgetentityinfo.md)
+[**RtmGetEntityInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetentityinfo?branch=master)
 
-[**RtmGetDestInfo**](rtmgetdestinfo.md)
+[**RtmGetDestInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetdestinfo?branch=master)
 
-[**RtmGetRouteInfo**](rtmgetrouteinfo.md)
+[**RtmGetRouteInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetrouteinfo?branch=master)
 
-[**RtmGetNextHopInfo**](rtmgetnexthopinfo.md)
+[**RtmGetNextHopInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetnexthopinfo?branch=master)
 
-[**RtmReleaseEntityInfo**](rtmreleaseentityinfo.md)
+[**RtmReleaseEntityInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleaseentityinfo?branch=master)
 
-[**RtmReleaseDestInfo**](rtmreleasedestinfo.md)
+[**RtmReleaseDestInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasedestinfo?branch=master)
 
-[**RtmReleaseRouteInfo**](rtmreleaserouteinfo.md)
+[**RtmReleaseRouteInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleaserouteinfo?branch=master)
 
-[**RtmReleaseNextHopInfo**](rtmreleasenexthopinfo.md)
+[**RtmReleaseNextHopInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasenexthopinfo?branch=master)
 
 ## Routing Table Insertion and Deletion Functions
 
-[**RtmAddRouteToDest**](rtmaddroutetodest.md)
+[**RtmAddRouteToDest**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddroutetodest?branch=master)
 
-[**RtmDeleteRouteToDest**](rtmdeleteroutetodest.md)
+[**RtmDeleteRouteToDest**](/windows/win32/Rtmv2/nf-rtmv2-rtmdeleteroutetodest?branch=master)
 
-[**RtmHoldDestination**](rtmholddestination.md)
+[**RtmHoldDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmholddestination?branch=master)
 
-[**RtmGetRoutePointer**](rtmgetroutepointer.md)
+[**RtmGetRoutePointer**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetroutepointer?branch=master)
 
-[**RtmLockRoute**](rtmlockroute.md)
+[**RtmLockRoute**](/windows/win32/Rtmv2/nf-rtmv2-rtmlockroute?branch=master)
 
-[**RtmUpdateAndUnlockRoute**](rtmupdateandunlockroute.md)
+[**RtmUpdateAndUnlockRoute**](/windows/win32/Rtmv2/nf-rtmv2-rtmupdateandunlockroute?branch=master)
 
 ## Routing Table Query Functions
 
-[**RtmGetExactMatchDestination**](rtmgetexactmatchdestination.md)
+[**RtmGetExactMatchDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetexactmatchdestination?branch=master)
 
-[**RtmGetMostSpecificDestination**](rtmgetmostspecificdestination.md)
+[**RtmGetMostSpecificDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetmostspecificdestination?branch=master)
 
-[**RtmGetLessSpecificDestination**](rtmgetlessspecificdestination.md)
+[**RtmGetLessSpecificDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetlessspecificdestination?branch=master)
 
-[**RtmGetExactMatchRoute**](rtmgetexactmatchroute.md)
+[**RtmGetExactMatchRoute**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetexactmatchroute?branch=master)
 
-[**RtmIsBestRoute**](rtmisbestroute.md)
+[**RtmIsBestRoute**](/windows/win32/Rtmv2/nf-rtmv2-rtmisbestroute?branch=master)
 
 ## Next-Hop Insertion and Deletion Functions
 
-[**RtmAddNextHop**](rtmaddnexthop.md)
+[**RtmAddNextHop**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddnexthop?branch=master)
 
-[**RtmFindNextHop**](rtmfindnexthop.md)
+[**RtmFindNextHop**](/windows/win32/Rtmv2/nf-rtmv2-rtmfindnexthop?branch=master)
 
-[**RtmDeleteNextHop**](rtmdeletenexthop.md)
+[**RtmDeleteNextHop**](/windows/win32/Rtmv2/nf-rtmv2-rtmdeletenexthop?branch=master)
 
-[**RtmGetNextHopPointer**](rtmgetnexthoppointer.md)
+[**RtmGetNextHopPointer**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetnexthoppointer?branch=master)
 
-[**RtmLockNextHop**](rtmlocknexthop.md)
+[**RtmLockNextHop**](/windows/win32/Rtmv2/nf-rtmv2-rtmlocknexthop?branch=master)
 
 ## Routing Table Enumeration Functions
 
-[**RtmCreateDestEnum**](rtmcreatedestenum.md)
+[**RtmCreateDestEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreatedestenum?branch=master)
 
-[**RtmGetEnumDests**](rtmgetenumdests.md)
+[**RtmGetEnumDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetenumdests?branch=master)
 
-[**RtmReleaseDests**](rtmreleasedests.md)
+[**RtmReleaseDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasedests?branch=master)
 
-[**RtmCreateRouteEnum**](rtmcreaterouteenum.md)
+[**RtmCreateRouteEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreaterouteenum?branch=master)
 
-[**RtmGetEnumRoutes**](rtmgetenumroutes.md)
+[**RtmGetEnumRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetenumroutes?branch=master)
 
-[**RtmReleaseRoutes**](rtmreleaseroutes.md)
+[**RtmReleaseRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleaseroutes?branch=master)
 
-[**RtmCreateNextHopEnum**](rtmcreatenexthopenum.md)
+[**RtmCreateNextHopEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreatenexthopenum?branch=master)
 
-[**RtmGetEnumNextHops**](rtmgetenumnexthops.md)
+[**RtmGetEnumNextHops**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetenumnexthops?branch=master)
 
-[**RtmReleaseNextHops**](rtmreleasenexthops.md)
+[**RtmReleaseNextHops**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasenexthops?branch=master)
 
-[**RtmDeleteEnumHandle**](rtmdeleteenumhandle.md)
+[**RtmDeleteEnumHandle**](/windows/win32/Rtmv2/nf-rtmv2-rtmdeleteenumhandle?branch=master)
 
 ## Change Notification Functions
 
-[**RtmRegisterForChangeNotification**](rtmregisterforchangenotification.md)
+[**RtmRegisterForChangeNotification**](/windows/win32/Rtmv2/nf-rtmv2-rtmregisterforchangenotification?branch=master)
 
-[**RtmGetChangedDests**](rtmgetchangeddests.md)
+[**RtmGetChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetchangeddests?branch=master)
 
-[**RtmReleaseChangedDests**](rtmreleasechangeddests.md)
+[**RtmReleaseChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasechangeddests?branch=master)
 
-[**RtmIgnoreChangedDests**](rtmignorechangeddests.md)
+[**RtmIgnoreChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmignorechangeddests?branch=master)
 
-[**RtmGetChangeStatus**](rtmgetchangestatus.md)
+[**RtmGetChangeStatus**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetchangestatus?branch=master)
 
-[**RtmMarkDestForChangeNotification**](rtmmarkdestforchangenotification.md)
+[**RtmMarkDestForChangeNotification**](/windows/win32/Rtmv2/nf-rtmv2-rtmmarkdestforchangenotification?branch=master)
 
-[**RtmIsMarkedForChangeNotification**](rtmismarkedforchangenotification.md)
+[**RtmIsMarkedForChangeNotification**](/windows/win32/Rtmv2/nf-rtmv2-rtmismarkedforchangenotification?branch=master)
 
-[**RtmDeregisterFromChangeNotification**](rtmderegisterfromchangenotification.md)
+[**RtmDeregisterFromChangeNotification**](/windows/win32/Rtmv2/nf-rtmv2-rtmderegisterfromchangenotification?branch=master)
 
 ## Route List Function
 
-[**RtmCreateRouteList**](rtmcreateroutelist.md)
+[**RtmCreateRouteList**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreateroutelist?branch=master)
 
-[**RtmInsertInRouteList**](rtminsertinroutelist.md)
+[**RtmInsertInRouteList**](/windows/win32/Rtmv2/nf-rtmv2-rtminsertinroutelist?branch=master)
 
-[**RtmCreateRouteListEnum**](rtmcreateroutelistenum.md)
+[**RtmCreateRouteListEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreateroutelistenum?branch=master)
 
-[**RtmGetListEnumRoutes**](rtmgetlistenumroutes.md)
+[**RtmGetListEnumRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetlistenumroutes?branch=master)
 
-[**RtmDeleteRouteList**](rtmdeleteroutelist.md)
+[**RtmDeleteRouteList**](/windows/win32/Rtmv2/nf-rtmv2-rtmdeleteroutelist?branch=master)
 
 ## Handle Management Functions
 
-[**RtmReferenceHandles**](rtmreferencehandles.md)
+[**RtmReferenceHandles**](/windows/win32/Rtmv2/nf-rtmv2-rtmreferencehandles?branch=master)
 
  
 

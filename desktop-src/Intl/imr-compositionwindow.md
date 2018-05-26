@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when a selected IME needs information about the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.'
-ms.assetid: '08fd7119-d225-4a78-b2cd-8b58887c9139'
-title: 'IMR\_COMPOSITIONWINDOW notification code'
+---
+Description: Notifies an application when a selected IME needs information about the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
+ms.assetid: 08fd7119-d225-4a78-b2cd-8b58887c9139
+title: IMR\_COMPOSITIONWINDOW notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMR\_COMPOSITIONWINDOW notification code
@@ -29,13 +34,13 @@ Set to IMR\_COMPOSITIONWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing a [**COMPOSITIONFORM**](compositionform.md) structure.
+Pointer to a buffer containing a [**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master) structure.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills in the [**COMPOSITIONFORM**](compositionform.md) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills in the [**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
@@ -63,7 +68,7 @@ This command can be sent by the IME to a window that has cleared the ISC\_SHOWUI
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**COMPOSITIONFORM**](compositionform.md)
+[**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

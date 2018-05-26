@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a handle to the handshake hash.'
-ms.assetid: 'c0f20084-c863-42cf-afdf-298c5a96eed9'
+Description: Returns a handle to the handshake hash.
+ms.assetid: c0f20084-c863-42cf-afdf-298c5a96eed9
 title: SslHashHandshake function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslHashHandshake function
@@ -13,11 +18,11 @@ The **SslHashHandshake** function returns a handle to the handshake hash.
 
 ```C++
 SECURITY_STATUS WINAPI SslHashHandshake(
-  _In_    NCRYPT_PROV_HANDLE hSslProvider,
-  _Inout_ NCRYPT_HASH_HANDLE hHandshakeHash,
-  _Out_   PBYTE              pbInput,
-  _In_    DWORD              cbInput,
-  _In_    DWORD              dwFlags
+  _In_    NCRYPT_PROV_HANDLE hSslProvider,
+  _Inout_ NCRYPT_HASH_HANDLE hHandshakeHash,
+  _Out_   PBYTE              pbInput,
+  _In_    DWORD              cbInput,
+  _In_    DWORD              dwFlags
 );
 ```
 
@@ -80,16 +85,16 @@ The **SslHashHandshake** function is one of three functions used to generate a h
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Target element
 description: If present, this is the target value for a metric threshold.
-ms.assetid: 'A1A29086-D089-496F-91B8-03C98C71282C'
-keywords: ["Target element Access Execution Engine"]
+ms.assetid: A1A29086-D089-496F-91B8-03C98C71282C
+keywords:
+- Target element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Target
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Target element
@@ -74,9 +80,9 @@ The contents of this tag must be consistent with the data type of the Metric Def
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

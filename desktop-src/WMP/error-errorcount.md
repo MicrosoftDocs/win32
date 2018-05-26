@@ -1,8 +1,9 @@
 ---
 title: Error.errorCount
 description: The errorCount property retrieves the number of errors in the error queue.
-ms.assetid: '64d9bb0a-fcc4-401b-a7bd-529e1a517f3b'
-keywords: ["Error.errorCount Windows Media Player"]
+ms.assetid: 64d9bb0a-fcc4-401b-a7bd-529e1a517f3b
+keywords:
+- Error.errorCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.errorCount
@@ -72,9 +78,9 @@ alert(errDesc);
 [**Error Object**](error-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

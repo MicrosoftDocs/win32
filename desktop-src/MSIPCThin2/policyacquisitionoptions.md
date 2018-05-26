@@ -4,11 +4,12 @@ description: Specifies the expected mode for an operation.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.ProtectionOperationOptions'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.ProtectionOperationOptions
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyAcquisitionOptions enumeration"]
+keywords:
+- PolicyAcquisitionOptions enumeration
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyAcquisitionOptions enumeration
@@ -43,7 +47,7 @@ The **PolicyAcquisitionOptions** enumeration has these members.
 | Member          | Value | Description                                                                                                                                                                                                                                                                                                |
 |:----------------|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **None**        | 0     | The framework will try to perform the operation silently and offline, but will show a UI and connect to a network if necessary.<br/>                                                                                                                                                                 |
-| **OfflineOnly** | 1     | The framework will try to perform the operation without connecting to a network. If it needs to connect to a network, the operation will fail. For example, an app can choose not to open a document on the device when it is not connected to a WiFi network unless it can be opened offline.”<br/> |
+| **OfflineOnly** | 1     | The framework will try to perform the operation without connecting to a network. If it needs to connect to a network, the operation will fail. For example, an app can choose not to open a document on the device when it is not connected to a WiFi network unless it can be opened offline. <br/> |
 
 
 
@@ -75,9 +79,9 @@ Members of this class are not guaranteed to be thread safe.
 \[[Version](https://msdn.microsoft.com/library/windows/apps/br206718)\]
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

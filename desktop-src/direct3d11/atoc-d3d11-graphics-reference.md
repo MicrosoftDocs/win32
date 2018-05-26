@@ -1,12 +1,17 @@
 ---
 title: Direct3D 11 Reference
-description: This section contains the reference pages for Direct3D 11-based graphics programming.
-ms.assetid: 'cbab1a44-3a79-4b55-94f4-48ad4761cf38'
+description: This section contains the reference pages for Direct3D 11-based graphics programming.
+ms.assetid: cbab1a44-3a79-4b55-94f4-48ad4761cf38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11 Reference
 
-This section contains the reference pages for Direct3D 11-based graphics programming.
+This section contains the reference pages for Direct3D 11-based graphics programming.
 
 ## In this section
 
@@ -21,7 +26,7 @@ This section contains the reference pages for Direct3D 11-based graphics program
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ This section contains the reference pages for Direct3D 11-based graphics program
 [Direct3D 11 Graphics](atoc-dx-graphics-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

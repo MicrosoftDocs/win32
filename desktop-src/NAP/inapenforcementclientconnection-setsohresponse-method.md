@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection SetSoHResponse method
 description: Sets the SoH-Response and is used by the enforcement client on receiving a packet.
-ms.assetid: '718669c7-73cf-44f4-8463-c59fdbe215cc'
-keywords: ["SetSoHResponse method NAP", "SetSoHResponse method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , SetSoHResponse method"]
+ms.assetid: 718669c7-73cf-44f4-8463-c59fdbe215cc
+keywords:
+- SetSoHResponse method NAP
+- SetSoHResponse method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , SetSoHResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::SetSoHResponse method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::SetSoHResponse** method sets the SoH-Response and is used by the enforcement client on receiving a packet.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::SetSoHResponse** method sets the SoH-Resp
 
 ```C++
 HRESULT SetSoHResponse(
-  [in] const NetworkSoHResponse *sohResponse
+  [in] const NetworkSoHResponse *sohResponse
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT SetSoHResponse(
 *sohResponse* \[in\]
 </dt> <dd>
 
-A pointer to a unique [**NetworkSoHResponse**](networksoh-struct.md) structure, which is an opaque data blob to the enforcer.
+A pointer to a unique [**NetworkSoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagnetworksoh?branch=master) structure, which is an opaque data blob to the enforcer.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ A zero-sized packet is valid.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -85,9 +93,9 @@ A zero-sized packet is valid.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

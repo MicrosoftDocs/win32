@@ -2,10 +2,13 @@
 title: Displaying the Properties of an Event Collector Subscription
 description: You can view useful information about an Event Collector subscription and its event sources by retrieving and displaying the properties of the subscription.
 audience: developer
-ms.assetid: '984e21cf-3671-4aca-9e8e-bcad1fa2f02c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Displaying the Properties of an Event Collector Subscription
@@ -28,9 +31,9 @@ The following code example follows a procedure to display the properties of an E
 
 **To display the properties of an Event Collector subscription and its event sources**
 
-1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
-2.  Get and display the properties of the subscription and event sources by calling the [**EcGetSubscriptionProperty**](ecgetsubscriptionproperty.md) function and the [**EcGetObjectArrayProperty**](ecgetobjectarrayproperty.md) function. For more information about subscription and event source properties that can be displayed, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](ec-subscription-property-id.md) enumeration.
-3.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+2.  Get and display the properties of the subscription and event sources by calling the [**EcGetSubscriptionProperty**](/windows/win32/Evcoll/nf-evcoll-ecgetsubscriptionproperty?branch=master) function and the [**EcGetObjectArrayProperty**](/windows/win32/Evcoll/nf-evcoll-ecgetobjectarrayproperty?branch=master) function. For more information about subscription and event source properties that can be displayed, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_property_id?branch=master) enumeration.
+3.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 The following C++ code example shows how to display the properties of an Event Collector subscription.
 

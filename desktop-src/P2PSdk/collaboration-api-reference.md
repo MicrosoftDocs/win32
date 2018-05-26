@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe the functions, data structures, and enumerated constants that comprise the specific Peer Collaboration API elements.'
-ms.assetid: '2d95313a-4190-40ee-9b94-fff7fdc6eb3d'
+Description: The following sections describe the functions, data structures, and enumerated constants that comprise the specific Peer Collaboration API elements.
+ms.assetid: 2d95313a-4190-40ee-9b94-fff7fdc6eb3d
 title: Collaboration API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collaboration API Reference

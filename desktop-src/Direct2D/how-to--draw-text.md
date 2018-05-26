@@ -1,18 +1,23 @@
 ---
 title: How to Draw Text
 description: Shows how to render text with Direct2D.
-ms.assetid: '914dd9d0-78c8-44a3-8504-837faf3201d2'
+ms.assetid: 914dd9d0-78c8-44a3-8504-837faf3201d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Draw Text
 
-To draw text with Direct2D, use the [**ID2D1RenderTarget::DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) method for text that has a single format. Or, use the [**ID2D1RenderTarget::DrawTextLayout**](id2d1rendertarget-drawtextlayout.md) method for multiple formats, advanced OpenType features, or hit testing. These methods use the DirectWrite API to provide high-quality text display.
+To draw text with Direct2D, use the [**ID2D1RenderTarget::DrawText**](/windows/win32/d2d1/?branch=master) method for text that has a single format. Or, use the [**ID2D1RenderTarget::DrawTextLayout**](/windows/win32/d2d1/?branch=master) method for multiple formats, advanced OpenType features, or hit testing. These methods use the DirectWrite API to provide high-quality text display.
 
 ## The DrawText Method
 
-To draw text that has a single format, use the [**DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) method. To use this method, first use an [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) to create an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) instance.
+To draw text that has a single format, use the [**DrawText**](/windows/win32/d2d1/?branch=master) method. To use this method, first use an [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) to create an [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628) instance.
 
-The following code creates an [**IDWriteTextFormat**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) object and stores it in the *m\_pTextFormat* variable.
+The following code creates an [**IDWriteTextFormat**](/windows/win32/d2d1/?branch=master) object and stores it in the *m\_pTextFormat* variable.
 
 
 ```C++
@@ -71,9 +76,9 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 
 
 
-Because [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) and [**IDWriteTextFormat**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) objects are [device-independent resources](resources-and-resource-domains.md), you can improve an application's performance by creating them only one time, instead of re-creating them every time that a frame is rendered.
+Because [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) and [**IDWriteTextFormat**](/windows/win32/d2d1/?branch=master) objects are [device-independent resources](resources-and-resource-domains.md), you can improve an application's performance by creating them only one time, instead of re-creating them every time that a frame is rendered.
 
-After you create the text format object, you can use it with a render target. The following code draws the text by using the [**DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) method of the render target (the *m\_pRenderTarget* variable).
+After you create the text format object, you can use it with a render target. The following code draws the text by using the [**DrawText**](/windows/win32/d2d1/?branch=master) method of the render target (the *m\_pRenderTarget* variable).
 
 
 ```C++
@@ -129,11 +134,11 @@ HRESULT DemoApp::OnRender()
 
 ## The DrawTextLayout Method
 
-The [**DrawTextLayout**](id2d1rendertarget-drawtextlayout.md) method renders an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object. Use this method to apply multiple formats to a block of text (such as underlining a part of text), to use advanced OpenType features, or to perform hit testing support.
+The [**DrawTextLayout**](/windows/win32/d2d1/?branch=master) method renders an [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object. Use this method to apply multiple formats to a block of text (such as underlining a part of text), to use advanced OpenType features, or to perform hit testing support.
 
-The [**DrawTextLayout**](id2d1rendertarget-drawtextlayout.md) method also provides performance benefits for drawing the same text repeatedly. The [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object measures and lays out its text when you create it. If you create an **IDWriteTextLayout** object only one time and reuse it every time that you have to redraw the text, the performance improves because the system does not have to measure and lay out the text again.
+The [**DrawTextLayout**](/windows/win32/d2d1/?branch=master) method also provides performance benefits for drawing the same text repeatedly. The [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) object measures and lays out its text when you create it. If you create an **IDWriteTextLayout** object only one time and reuse it every time that you have to redraw the text, the performance improves because the system does not have to measure and lay out the text again.
 
-Before you can use the [**DrawTextLayout**](id2d1rendertarget-drawtextlayout.md) method, you must use an [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) to create [**IDWriteTextFormat**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md) and [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) objects. After these objects are created, call the **DrawTextLayout** method.
+Before you can use the [**DrawTextLayout**](/windows/win32/d2d1/?branch=master) method, you must use an [**IDWriteFactory**](https://msdn.microsoft.com/library/windows/desktop/dd368183) to create [**IDWriteTextFormat**](/windows/win32/d2d1/?branch=master) and [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718) objects. After these objects are created, call the **DrawTextLayout** method.
 
 For more information and examples, see the [Text Formatting and Layout](https://msdn.microsoft.com/library/windows/desktop/dd742752) overview.
 
@@ -141,10 +146,10 @@ For more information and examples, see the [Text Formatting and Layout](https://
 
 <dl> <dt>
 
-[**DrawText**](id2d1rendertarget-drawtext-ptr-wchar-ptr-idwritetextformat-ref-d2d-rect-f-ptr-id2d1brush-d2d1-draw-text-options-dwrite-text-measuring-method.md)
+[**DrawText**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
-[**DrawTextLayout**](id2d1rendertarget-drawtextlayout.md)
+[**DrawTextLayout**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
 [**IDWriteTextFormat**](https://msdn.microsoft.com/library/windows/desktop/dd316628)

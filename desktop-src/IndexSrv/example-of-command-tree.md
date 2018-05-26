@@ -1,7 +1,12 @@
 ---
 title: Example of Command Tree
 description: Example of Command Tree
-ms.assetid: '48747048-a111-4cf9-9f8a-b6834cc4feb6'
+ms.assetid: 48747048-a111-4cf9-9f8a-b6834cc4feb6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example of Command Tree

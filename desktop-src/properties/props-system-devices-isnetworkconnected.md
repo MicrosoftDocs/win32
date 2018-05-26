@@ -1,7 +1,12 @@
 ---
-Description: 'If this property is true, the device is connected to a network.'
-ms.assetid: '4d0aa672-1ff8-4fb1-82d2-76553c2b0209'
-title: 'System.Devices.IsNetworkConnected'
+Description: If this property is true, the device is connected to a network.
+ms.assetid: 4d0aa672-1ff8-4fb1-82d2-76553c2b0209
+title: System.Devices.IsNetworkConnected
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.IsNetworkConnected

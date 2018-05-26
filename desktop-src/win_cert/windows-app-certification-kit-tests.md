@@ -1,7 +1,12 @@
 ---
 title: Windows App Certification Kit tests
 description: Below are test details for certifying dekstop apps.
-ms.assetid: 'FA160F46-C266-4F89-B77F-166FEA9ED96B'
+ms.assetid: FA160F46-C266-4F89-B77F-166FEA9ED96B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows App Certification Kit tests

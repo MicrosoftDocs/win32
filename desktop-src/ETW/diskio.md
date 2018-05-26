@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for disk I/O events. The following syntax is simplified from MOF code.'
-ms.assetid: '630fb6c6-b505-4384-ab7b-ee898d95bd41'
+---
+Description: This class is the parent class for disk I/O events. The following syntax is simplified from MOF code.
+ms.assetid: 630fb6c6-b505-4384-ab7b-ee898d95bd41
 title: DiskIo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskIo class

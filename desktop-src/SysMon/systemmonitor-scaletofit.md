@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.ScaleToFit method
 description: Scale counter values to fit in the graph.
-ms.assetid: '8e58e51a-4767-40da-836a-e49d34dec195'
-keywords: ["ScaleToFit method SysMon", "ScaleToFit method SysMon , SystemMonitor object", "SystemMonitor object SysMon , ScaleToFit method"]
+ms.assetid: 8e58e51a-4767-40da-836a-e49d34dec195
+keywords:
+- ScaleToFit method SysMon
+- ScaleToFit method SysMon , SystemMonitor object
+- SystemMonitor object SysMon , ScaleToFit method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.ScaleToFit method
@@ -53,8 +61,8 @@ This method will clear the graph view. SYSMON then uses the scale factor specifi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -72,9 +80,9 @@ This method will clear the graph view. SYSMON then uses the scale factor specifi
 [**CounterItem.Selected**](counteritem-selected.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

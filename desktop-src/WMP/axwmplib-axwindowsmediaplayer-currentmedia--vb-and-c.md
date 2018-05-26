@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.currentMedia property
 description: The currentMedia property gets or sets the IWMPMedia interface that corresponds to the current media item.
-ms.assetid: '814ccb1d-713d-4b91-b225-d2199a7c9b6b'
-keywords: ["currentMedia property Windows Media Player", "currentMedia property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , currentMedia property"]
+ms.assetid: 814ccb1d-713d-4b91-b225-d2199a7c9b6b
+keywords:
+- currentMedia property Windows Media Player
+- currentMedia property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , currentMedia property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.currentMedia property
@@ -131,9 +139,9 @@ currentMediaLabel.Text = (&quot;Found first media item. Name = &quot; + player.c
 [**IWMPSettings.autoStart (VB and C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

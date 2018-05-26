@@ -1,14 +1,19 @@
 ---
-Description: 'Show sample XML profiles for various wireless configurations.'
-ms.assetid: 'fa4ad793-3211-4949-9b90-21779a19803f'
+Description: Show sample XML profiles for various wireless configurations.
+ms.assetid: fa4ad793-3211-4949-9b90-21779a19803f
 title: Wireless Profile Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless Profile Samples
 
 The following topics show sample XML profiles for various wireless configurations. These XML profiles use [WLAN\_profile schema elements](wlan-profileschema-elements.md) and [OneX schema elements](onexschema-elements.md).
 
-You can add a wireless profile to the profile store programmatically by calling [**WlanSetProfile**](wlansetprofile.md). You can also add a profile to the profile store using the **netsh** command-line utility. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](Http://go.microsoft.com/fwlink/p/?linkid=120964).
+You can add a wireless profile to the profile store programmatically by calling [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master). You can also add a profile to the profile store using the **netsh** command-line utility. For more information, see [Netsh Commands for Wireless Local Area Network (wlan)](Http://go.microsoft.com/fwlink/p/?linkid=120964).
 
 -   [Bootstrap Profile Sample](bootstrap-profile-sample.md)
 -   [FIPS Profile Sample](fips-profile-sample.md)

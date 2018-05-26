@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.'
-ms.assetid: '3276C273-C950-4DC9-B338-E6E7E30DEB77'
+---
+Description: The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
+ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
 title: PrintSchemaParameterDataType enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintSchemaParameterDataType enumeration

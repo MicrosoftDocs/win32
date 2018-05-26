@@ -4,11 +4,14 @@ description: Updates an integer property value of a Win32\_RDSHCollection object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2a9a5d83-d147-43b3-b57c-6c744da0923d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2a9a5d83-d147-43b3-b57c-6c744da0923d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetInt32Property method Remote Desktop Services", "SetInt32Property method Remote Desktop Services , Win32_RDSHCollection class", "Win32_RDSHCollection class Remote Desktop Services , SetInt32Property method"]
+keywords:
+- SetInt32Property method Remote Desktop Services
+- SetInt32Property method Remote Desktop Services , Win32_RDSHCollection class
+- Win32_RDSHCollection class Remote Desktop Services , SetInt32Property method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetInt32Property method of the Win32\_RDSHCollection class
@@ -28,8 +34,8 @@ Updates an integer property value of a [**Win32\_RDSHCollection**](win32-rdshcol
 
 ```mof
 uint32 SetInt32Property(
-  [in] string Key,
-  [in] sint32 Value
+  [in] string Key,
+  [in] sint32 Value
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -78,9 +84,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDSHCollection**](win32-rdshcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

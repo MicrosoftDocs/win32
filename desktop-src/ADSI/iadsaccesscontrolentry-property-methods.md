@@ -4,11 +4,12 @@ description: The property methods of the IADsAccessControlEntry interface get or
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dce11723-0e30-4baa-8666-0a32f0968ebb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: dce11723-0e30-4baa-8666-0a32f0968ebb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsAccessControlEntry Property Methods ADSI"]
+keywords:
+- IADsAccessControlEntry Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -38,11 +39,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsAccessControlEntry Property Methods
 
-The property methods of the [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -51,7 +55,7 @@ The property methods of the [**IADsAccessControlEntry**](iadsaccesscontrolentry.
 **AccessMask**
 </dt> <dd> <dl>
 
-Contains a set of flags that specifies access privileges for the object. Valid values for Active Directory objects are defined in the [**ADS\_RIGHTS\_ENUM**](ads-rights-enum.md) enumeration.
+Contains a set of flags that specifies access privileges for the object. Valid values for Active Directory objects are defined in the [**ADS\_RIGHTS\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0001?branch=master) enumeration.
 
 For more information and a list of possible values for file or file share objects, see [File Security and Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa364399).
 
@@ -83,7 +87,7 @@ HRESULT put_AccessMask(
 **AceFlags**
 </dt> <dd> <dl>
 
-Contains a set of flags that specifies if other containers or objects can inherit the ACE. Valid values for Active Directory object are defined in the [**ADS\_ACEFLAG\_ENUM**](ads-aceflag-enum.md) enumeration.
+Contains a set of flags that specifies if other containers or objects can inherit the ACE. Valid values for Active Directory object are defined in the [**ADS\_ACEFLAG\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0003?branch=master) enumeration.
 
 For more information and possible values for file, file share, and registry objects, see the **AceFlags** member of the [**ACE\_HEADER**](https://msdn.microsoft.com/library/windows/desktop/aa374919) structure.
 
@@ -113,7 +117,7 @@ HRESULT put_AceFlags(
 **AceType**
 </dt> <dd> <dl>
 
-Contains a value that indicates the type of ACE. Valid values for Active Directory objects are defined in the [**ADS\_ACETYPE\_ENUM**](ads-acetype-enum.md) enumeration.
+Contains a value that indicates the type of ACE. Valid values for Active Directory objects are defined in the [**ADS\_ACETYPE\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0002?branch=master) enumeration.
 
 For more information and possible values for file, file share, and registry objects, see the **AceType** member of the [**ACE\_HEADER**](https://msdn.microsoft.com/library/windows/desktop/aa374919) structure.
 
@@ -143,7 +147,7 @@ HRESULT put_AceType(
 **Flags**
 </dt> <dd> <dl>
 
-A flag that indicates if the ACE has an object type or inherited object type. Valid flags are defined in the [**ADS\_FLAGTYPE\_ENUM**](ads-flagtype-enum.md) enumeration.
+A flag that indicates if the ACE has an object type or inherited object type. Valid flags are defined in the [**ADS\_FLAGTYPE\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0004?branch=master) enumeration.
 
 <dt>
 
@@ -252,11 +256,11 @@ HRESULT put_Trustee(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
-The following code example shows how to add entries to a discretionary ACL using the [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) property methods.
+The following code example shows how to add entries to a discretionary ACL using the [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) property methods.
 
 
 ```VB
@@ -443,8 +447,8 @@ Cleanup:
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>   |
 | IID<br/>                      | IID\_IADsAccessControlEntry is defined as B4F3A14C-9BDD-11D0-852C-00C04FD8D503<br/> |
@@ -455,18 +459,18 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsAccessControlEntry**](iadsaccesscontrolentry.md)
+[**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)
 </dt> <dt>
 
-[**IADsAccessControlList**](iadsaccesscontrollist.md)
+[**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master)
 </dt> <dt>
 
-[**IADsSecurityDescriptor**](iadssecuritydescriptor.md)
+[**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

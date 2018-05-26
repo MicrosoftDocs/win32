@@ -1,8 +1,25 @@
 ---
 title: IMAPI Data Types
 description: Specifications for optical media and associated devices define range values for items such as the DVD structure description, disc information description, and feature page size.
-ms.assetid: '8797a8d0-5ce5-4b16-9d41-c22fa0d67dcf'
-keywords: ["ULONG_IMAPI2_DVD_STRUCTURE", "ULONG_IMAPI2_ADAPTER_DESCRIPTOR", "ULONG_IMAPI2_DEVICE_DESCRIPTOR", "ULONG_IMAPI2_DISC_INFORMATION", "ULONG_IMAPI2_TRACK_INFORMATION", "ULONG_IMAPI2_FEATURE_PAGE", "ULONG_IMAPI2_MODE_PAGE", "ULONG_IMAPI2_ALL_FEATURE_PAGES", "ULONG_IMAPI2_ALL_PROFILES", "ULONG_IMAPI2_ALL_MODE_PAGES", "ULONG_IMAPI2_NONZERO", "ULONG_IMAPI2_NOT_NEGATIVE"]
+ms.assetid: 8797a8d0-5ce5-4b16-9d41-c22fa0d67dcf
+keywords:
+- ULONG_IMAPI2_DVD_STRUCTURE
+- ULONG_IMAPI2_ADAPTER_DESCRIPTOR
+- ULONG_IMAPI2_DEVICE_DESCRIPTOR
+- ULONG_IMAPI2_DISC_INFORMATION
+- ULONG_IMAPI2_TRACK_INFORMATION
+- ULONG_IMAPI2_FEATURE_PAGE
+- ULONG_IMAPI2_MODE_PAGE
+- ULONG_IMAPI2_ALL_FEATURE_PAGES
+- ULONG_IMAPI2_ALL_PROFILES
+- ULONG_IMAPI2_ALL_MODE_PAGES
+- ULONG_IMAPI2_NONZERO
+- ULONG_IMAPI2_NOT_NEGATIVE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPI Data Types
@@ -52,15 +69,15 @@ typedef ULONG ULONG_IMAPI2_NOT_NEGATIVE;
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Imapi2.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

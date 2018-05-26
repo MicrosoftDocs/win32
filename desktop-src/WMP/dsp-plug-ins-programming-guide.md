@@ -1,8 +1,20 @@
 ---
 title: DSP Plug-ins Programming Guide
 description: DSP Plug-ins Programming Guide
-ms.assetid: '2fe68fd7-0a7b-4659-a466-15c586a3c7ea'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,DSP plug-ins", "Windows Media Player plug-ins,digital signal processing (DSP)", "plug-ins,digital signal processing (DSP)", "digital signal processing plug-ins,programming guide", "DSP plug-ins,programming guide", "programming guide,DSP plug-ins"]
+ms.assetid: 2fe68fd7-0a7b-4659-a466-15c586a3c7ea
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,DSP plug-ins
+- Windows Media Player plug-ins,digital signal processing (DSP)
+- plug-ins,digital signal processing (DSP)
+- digital signal processing plug-ins,programming guide
+- DSP plug-ins,programming guide
+- programming guide,DSP plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSP Plug-ins Programming Guide

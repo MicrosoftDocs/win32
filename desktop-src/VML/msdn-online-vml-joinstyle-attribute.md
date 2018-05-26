@@ -1,7 +1,12 @@
 ---
 title: VML JoinStyle Attribute
 description: VML JoinStyle Attribute
-ms.assetid: 'd947d115-2064-446a-8c12-e8063fe10953'
+ms.assetid: d947d115-2064-446a-8c12-e8063fe10953
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML JoinStyle Attribute

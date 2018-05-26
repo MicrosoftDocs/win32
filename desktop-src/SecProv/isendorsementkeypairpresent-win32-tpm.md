@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsEndorsementKeyPairPresent method of the Win32\_Tpm class indicates whether the endorsement key pair exists on the device.'
-ms.assetid: 'c36cd0b5-1ac2-4fcf-b140-c5ecb0b3b211'
-title: 'IsEndorsementKeyPairPresent method of the Win32\_Tpm class'
+---
+Description: The IsEndorsementKeyPairPresent method of the Win32\_Tpm class indicates whether the endorsement key pair exists on the device.
+ms.assetid: c36cd0b5-1ac2-4fcf-b140-c5ecb0b3b211
+title: IsEndorsementKeyPairPresent method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsEndorsementKeyPairPresent method of the Win32\_Tpm class

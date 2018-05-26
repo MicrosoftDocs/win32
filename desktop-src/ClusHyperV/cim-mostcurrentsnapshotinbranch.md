@@ -4,13 +4,15 @@ description: Represents an association between a virtual system and the most cur
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f37807b6-991f-4a50-9176-fe1fcaf58de8'
-ms.prod: 'windows-server-dev'
+ms.assetid: f37807b6-991f-4a50-9176-fe1fcaf58de8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_MostCurrentSnapshotInBranch class", "CIM_MostCurrentSnapshotInBranch class, described"]
+keywords:
+- CIM_MostCurrentSnapshotInBranch class
+- CIM_MostCurrentSnapshotInBranch class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MostCurrentSnapshotInBranch class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Experimental, Version("2.16.0"), AMENDMENT]
 class CIM_MostCurrentSnapshotInBranch : CIM_Dependency
 {
-  CIM_ComputerSystem           REF Antecedent;
+  CIM_ComputerSystem           REF Antecedent;
   CIM_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ A reference to the instance of [**CIM\_VirtualSystemSettingData**](cim-virtualsy
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ A reference to the instance of [**CIM\_VirtualSystemSettingData**](cim-virtualsy
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

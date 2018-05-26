@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a resource pool, which is a logical entity provided by the host system to allocate and assign resources.'
-ms.assetid: 'c8e0b701-1814-4409-a073-017f8fea841a'
-title: 'CIM\_ResourcePool class'
+Description: Represents a resource pool, which is a logical entity provided by the host system to allocate and assign resources.
+ms.assetid: c8e0b701-1814-4409-a073-017f8fea841a
+title: CIM\_ResourcePool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourcePool class
@@ -14,18 +19,18 @@ Represents a resource pool, which is a logical entity provided by the host syste
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::Resource"), AMENDMENT]
 class CIM_ResourcePool : CIM_LogicalElement
 {
-  string  InstanceID;
-  string  PoolID;
+  string  InstanceID;
+  string  PoolID;
   boolean Primordial = FALSE;
-  uint64  Capacity;
-  uint64  Reserved;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  AllocationUnits;
-  string  ConsumedResourceUnits = "count";
-  uint64  CurrentlyConsumedResource;
-  uint64  MaxConsumableResource;
+  uint64  Capacity;
+  uint64  Reserved;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  AllocationUnits;
+  string  ConsumedResourceUnits = "count";
+  uint64  CurrentlyConsumedResource;
+  uint64  MaxConsumableResource;
 };
 ```
 
@@ -126,7 +131,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 </dd> <dt>
 
@@ -489,8 +494,8 @@ The type of resource allocated by the resource pool.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -504,9 +509,9 @@ The type of resource allocated by the resource pool.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-title: \_Application VersionMajor property
+title: '\_Application VersionMajor property'
 description: The VersionMajor property returns the major version number of MMC. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e1ca2c0-ef37-49fb-8358-66c60589a20e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6e1ca2c0-ef37-49fb-8358-66c60589a20e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["VersionMajor property MMC", "VersionMajor property MMC , Application object", "Application object MMC , VersionMajor property", "VersionMajor property MMC , _Application interface", "_Application interface MMC , VersionMajor property"]
+keywords:
+- VersionMajor property MMC
+- VersionMajor property MMC , Application object
+- Application object MMC , VersionMajor property
+- VersionMajor property MMC , _Application interface
+- _Application interface MMC , VersionMajor property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::VersionMajor property
@@ -53,8 +61,8 @@ VerMajor = objMMC.VersionMajor
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -63,9 +71,9 @@ VerMajor = objMMC.VersionMajor
 
 
 
- 
+ 
 
- 
+ 
 
 
 

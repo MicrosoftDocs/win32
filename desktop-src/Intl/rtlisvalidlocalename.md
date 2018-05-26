@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines if a locale specified by name is installed or supported on the operating system.'
-ms.assetid: '6df92e4d-d78e-48b5-9515-18f0497de95b'
+---
+Description: Determines if a locale specified by name is installed or supported on the operating system.
+ms.assetid: 6df92e4d-d78e-48b5-9515-18f0497de95b
 title: RtlIsValidLocaleName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlIsValidLocaleName function
@@ -9,7 +14,7 @@ title: RtlIsValidLocaleName function
 Determines if a locale specified by name is installed or supported on the operating system.
 
 > [!Note]  
-> This function is available for use in Windows Vista only. It might be altered or unavailable in subsequent versions. Applications should use [**IsValidLocaleName**](isvalidlocalename.md).
+> This function is available for use in Windows Vista only. It might be altered or unavailable in subsequent versions. Applications should use [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master).
 
  
 
@@ -49,7 +54,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## Remarks
 
-This function is similar to [**IsValidLocaleName**](isvalidlocalename.md). The only difference is that if LOCALE\_ALLOW\_NEUTRAL is set, **RtlIsValidLocaleName** returns **TRUE** for a name that corresponds to a neutral locale (such as "en"), while [**IsValidLocaleName**](isvalidlocalename.md) returns **TRUE** only for a specific locale (such as "en-US"). Neutral locales are used as part of the resource loading strategy in Windows Vista and later. Only a small class of highly specialized applications use **RtlIsValidLocaleName** and set LOCALE\_ALLOW\_NEUTRAL, because neutral locales are of very limited use. None of the functions described in [Calling the "Locale Name" Functions](calling-the--locale-name--functions.md) accept neutral locales as inputs.
+This function is similar to [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master). The only difference is that if LOCALE\_ALLOW\_NEUTRAL is set, **RtlIsValidLocaleName** returns **TRUE** for a name that corresponds to a neutral locale (such as "en"), while [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master) returns **TRUE** only for a specific locale (such as "en-US"). Neutral locales are used as part of the resource loading strategy in Windows Vista and later. Only a small class of highly specialized applications use **RtlIsValidLocaleName** and set LOCALE\_ALLOW\_NEUTRAL, because neutral locales are of very limited use. None of the functions described in [Calling the "Locale Name" Functions](calling-the--locale-name--functions.md) accept neutral locales as inputs.
 
 ## Requirements
 
@@ -75,7 +80,7 @@ This function is similar to [**IsValidLocaleName**](isvalidlocalename.md). The o
 [National Language Support Functions](national-language-support-functions.md)
 </dt> <dt>
 
-[**IsValidLocaleName**](isvalidlocalename.md)
+[**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master)
 </dt> </dl>
 
  

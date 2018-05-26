@@ -1,15 +1,18 @@
 ---
-Description: 'TBD.'
+Description: TBD.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '60085b21-a833-47fe-b247-691c07856c9d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 60085b21-a833-47fe-b247-691c07856c9d
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_DnsZone class'
+title: MSFT\_IPAM\_DnsZone class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_DnsZone class
@@ -24,20 +27,20 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_DnsZone
 {
-  string   InstanceID;
-  uint16   ZoneType;
-  string   ZoneName;
-  boolean  IsSigned;
-  uint16   DynamicUpdateStatus;
-  boolean  ScavengeStaleRecords;
-  string   NorefreshInterval;
-  string   RefreshInterval;
-  string   PreferredServerName;
-  string   LastCollectedFromServerName;
-  uint16   ZoneOverallHealth;
+  string   InstanceID;
+  uint16   ZoneType;
+  string   ZoneName;
+  boolean  IsSigned;
+  uint16   DynamicUpdateStatus;
+  boolean  ScavengeStaleRecords;
+  string   NorefreshInterval;
+  string   RefreshInterval;
+  string   PreferredServerName;
+  string   LastCollectedFromServerName;
+  uint16   ZoneOverallHealth;
   datetime ZoneOverallHealthLastUpdateTime;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
 };
 ```
 
@@ -355,16 +358,16 @@ The possible values are.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

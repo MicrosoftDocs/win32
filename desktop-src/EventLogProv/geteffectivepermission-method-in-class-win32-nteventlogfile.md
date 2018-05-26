@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether or not the caller has all of the permissions on the Win32\_NTEventlogFile object and share where the file or directory is located, if the directory is on a share.'
-ms.assetid: 'e4e912d1-ea4b-481d-b86c-34d9d1eb664b'
-title: 'GetEffectivePermission method of the Win32\_NTEventlogFile class'
+Description: Determines whether or not the caller has all of the permissions on the Win32\_NTEventlogFile object and share where the file or directory is located, if the directory is on a share.
+ms.assetid: e4e912d1-ea4b-481d-b86c-34d9d1eb664b
+title: GetEffectivePermission method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetEffectivePermission method of the Win32\_NTEventlogFile class
@@ -15,7 +20,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetEffectivePermission(
-  [in] uint32 Permissions
+  [in] uint32 Permissions
 );
 ```
 
@@ -39,7 +44,7 @@ Bitmap of permissions that the caller can inquire about.
 | <span id="FILE_APPEND_DATA__file__FILE_ADD_SUBDIRECTORY__directory_"></span><span id="file_append_data__file__file_add_subdirectory__directory_"></span><span id="FILE_APPEND_DATA__FILE__FILE_ADD_SUBDIRECTORY__DIRECTORY_"></span><dl> <dt>**FILE\_APPEND\_DATA (file) FILE\_ADD\_SUBDIRECTORY (directory)**</dt> <dt>4 (0x4)</dt> </dl> | Grants the right to append data to the file. For a directory, this value grants the right to create a subdirectory.<br/>              |
 | <span id="FILE_READ_EA"></span><span id="file_read_ea"></span><dl> <dt>**FILE\_READ\_EA**</dt> <dt>8 (0x8)</dt> </dl>                                                                                                                                                                                                                      | Grants the right to read extended attributes.<br/>                                                                                    |
 | <span id="FILE_WRITE_EA"></span><span id="file_write_ea"></span><dl> <dt>**FILE\_WRITE\_EA**</dt> <dt>16 (0x10)</dt> </dl>                                                                                                                                                                                                                 | Grants the right to write extended attributes.<br/>                                                                                   |
-| <span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span><dl> <dt>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)**</dt> <dt>32 (0x20)</dt> </dl>                                                    | Grants the right to execute a file. For a directory, the directory can be traversed. <br/>                                            |
+| <span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span><dl> <dt>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)**</dt> <dt>32 (0x20)</dt> </dl>                                                    | Grants the right to execute a file. For a directory, the directory can be traversed. <br/>                                            |
 | <span id="FILE_DELETE_CHILD__directory_"></span><span id="file_delete_child__directory_"></span><span id="FILE_DELETE_CHILD__DIRECTORY_"></span><dl> <dt>**FILE\_DELETE\_CHILD (directory)**</dt> <dt>64 (0x40)</dt> </dl>                                                                                                                 | Grants the right to delete a directory and all of the files it contains, even if the files are read-only.<br/>                        |
 | <span id="FILE_READ_ATTRIBUTES"></span><span id="file_read_attributes"></span><dl> <dt>**FILE\_READ\_ATTRIBUTES**</dt> <dt>128 (0x80)</dt> </dl>                                                                                                                                                                                           | Grants the right to read file attributes.<br/>                                                                                        |
 | <span id="FILE_WRITE_ATTRIBUTES"></span><span id="file_write_attributes"></span><dl> <dt>**FILE\_WRITE\_ATTRIBUTES**</dt> <dt>256 (0x100)</dt> </dl>                                                                                                                                                                                       | Grants the right to change file attributes. <br/>                                                                                     |
@@ -51,7 +56,7 @@ Bitmap of permissions that the caller can inquire about.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -61,8 +66,8 @@ Bitmap of permissions that the caller can inquire about.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | Header<br/>                   | <dl> <dt>Aclui.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
@@ -80,9 +85,9 @@ Bitmap of permissions that the caller can inquire about.
 [**Win32\_NTEventlogFile**](win32-nteventlogfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

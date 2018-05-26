@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERCAPTURECHANGED message
 description: Sent to a window that is losing capture of an input pointer.
-ms.assetid: '6eec37da-227c-4be1-bf0b-98704caa1322'
-keywords: ["WM_POINTERCAPTURECHANGED message Input Messages and Notifications"]
+ms.assetid: 6eec37da-227c-4be1-bf0b-98704caa1322
+keywords:
+- WM_POINTERCAPTURECHANGED message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERCAPTURECHANGED message
@@ -58,7 +64,7 @@ A window should use this notification to stop processing subsequent messages and
 
 Typically, if a window receives the **WM\_POINTERCAPTURECHANGED** notification, no subsequent notifications related to the input pointer are received. Because of this, do not depend on paired notifications such as [**WM\_POINTERENTER**](wm-pointerenter.md) and [**WM\_POINTERLEAVE**](wm-pointerleave.md).
 
-**WM\_POINTERCAPTURECHANGED** does not include [**POINTER\_INFO**](pointer-info-struct.md) data. Other than the [**POINTER\_FLAG\_CAPTURECHANGED**](pointer-flags-contants.md) flag being set, the data returned by [**GetPointerInfo**](getpointerinfo.md) (or any variant) is identical to that returned prior to the notification.
+**WM\_POINTERCAPTURECHANGED** does not include [**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master) data. Other than the [**POINTER\_FLAG\_CAPTURECHANGED**](pointer-flags-contants.md) flag being set, the data returned by [**GetPointerInfo**](getpointerinfo.md) (or any variant) is identical to that returned prior to the notification.
 
 If the application does not process this notification, [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) may generate one or more [**WM\_GESTURE**](https://msdn.microsoft.com/library/windows/desktop/dd353242) messages or, if a gesture is not recognized, **DefWindowProc** may generate mouse input.
 
@@ -70,8 +76,8 @@ If an application selectively consumes some pointer input and passes the rest to
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ If an application selectively consumes some pointer input and passes the rest to
 [Messages](messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

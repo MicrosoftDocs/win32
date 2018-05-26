@@ -1,7 +1,7 @@
 ---
 title: TS\_CHAR\_\ Constants
 description: The TS\_CHAR\_\ constants describe the type of character.
-ms.assetid: 'b40ca931-d45c-4101-9380-bb2b3ad25fba'
+ms.assetid: b40ca931-d45c-4101-9380-bb2b3ad25fba
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_CHAR\_\* Constants
@@ -34,9 +39,9 @@ The TS\_CHAR\_\* constants describe the type of character.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -49,9 +54,9 @@ The TS\_CHAR\_\* constants describe the type of character.
 [Embedded Objects](embedded-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows code to receive and verify a signed message. The example receives the signature buffer and its size in SignatureBuffer and SignatureBufferSize and the message buffer and its size in MessageBuffer and MessageBufferSize.'
-ms.assetid: '3e71aa0f-d135-4311-96f3-305762543627'
+Description: The following example shows code to receive and verify a signed message. The example receives the signature buffer and its size in SignatureBuffer and SignatureBufferSize and the message buffer and its size in MessageBuffer and MessageBufferSize.
+ms.assetid: 3e71aa0f-d135-4311-96f3-305762543627
 title: Verifying a Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying a Message

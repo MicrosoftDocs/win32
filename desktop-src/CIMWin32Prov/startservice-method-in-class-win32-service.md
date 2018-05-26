@@ -1,15 +1,18 @@
 ---
-Description: 'Attempts to place the referenced service into its startup state.'
+Description: Attempts to place the referenced service into its startup state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b7a815a2-7bf6-436f-b3b4-de55eeb2de0e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b7a815a2-7bf6-436f-b3b4-de55eeb2de0e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'StartService method of the Win32\_Service class'
+title: StartService method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartService method of the Win32\_Service class
@@ -320,8 +323,8 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -341,9 +344,9 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMessenger SendFile method
 description: Launches the Send File mode of a conversation window to a specified contact.
-ms.assetid: 'e366a488-1877-4ab3-9801-1334461a027f'
-keywords: ["SendFile method Windows Messenger", "SendFile method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , SendFile method"]
+ms.assetid: e366a488-1877-4ab3-9801-1334461a027f
+keywords:
+- SendFile method Windows Messenger
+- SendFile method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , SendFile method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::SendFile method
 
-\[**SendFile** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**SendFile** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Send File** mode of a conversation window to a specified contact.
 
@@ -24,9 +32,9 @@ Launches the **Send File** mode of a conversation window to a specified contact.
 
 ```C++
 HRESULT SendFile(
-  [in]          VARIANT   vContact,
-  [in]          BSTR      bstrFileName,
-  [out, retval] IDispatch **ppMWindow
+  [in]          VARIANT   vContact,
+  [in]          BSTR      bstrFileName,
+  [out, retval] IDispatch **ppMWindow
 );
 ```
 
@@ -81,7 +89,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -100,7 +108,7 @@ A client cannot open a message or invitation to the local client user. This will
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -108,8 +116,8 @@ A client cannot open a message or invitation to the local client user. This will
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -129,9 +137,9 @@ A client cannot open a message or invitation to the local client user. This will
 [**InviteApp**](im-imessenger-inviteapp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

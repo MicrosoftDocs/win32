@@ -1,7 +1,12 @@
 ---
-Description: 'List of Casting Uri Schemes Supported by the Device Association Endpoint Container.'
-ms.assetid: 'be46f2c4-93cc-4018-8519-7c8e3ff0cc01'
-title: 'System.Devices.AepContainer.SupportedUriSchemes'
+Description: List of Casting Uri Schemes Supported by the Device Association Endpoint Container.
+ms.assetid: be46f2c4-93cc-4018-8519-7c8e3ff0cc01
+title: System.Devices.AepContainer.SupportedUriSchemes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.SupportedUriSchemes

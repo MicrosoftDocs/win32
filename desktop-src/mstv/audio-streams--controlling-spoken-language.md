@@ -1,7 +1,12 @@
 ---
 title: Audio Streams Controlling Spoken Language
 description: Audio Streams Controlling Spoken Language
-ms.assetid: 'c440ab74-51f4-46c4-9970-0908b8411452'
+ms.assetid: c440ab74-51f4-46c4-9970-0908b8411452
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Streams: Controlling Spoken Language

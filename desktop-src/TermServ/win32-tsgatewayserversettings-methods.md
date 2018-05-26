@@ -4,10 +4,13 @@ description: The Win32\_TSGatewayServerSettings class exposes the following meth
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BD5A5D8E-2EAE-4806-8DE8-B6B02D9D0402'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: BD5A5D8E-2EAE-4806-8DE8-B6B02D9D0402
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayServerSettings Methods

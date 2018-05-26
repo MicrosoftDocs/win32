@@ -1,7 +1,12 @@
 ---
 title: TooManyChildren
 description: TooManyChildren
-ms.assetid: 'BF667CDC-C1F9-44B2-B64C-CD7F085CA364'
+ms.assetid: BF667CDC-C1F9-44B2-B64C-CD7F085CA364
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TooManyChildren
@@ -29,7 +34,7 @@ This issue can cause navigation problems for automated tools because they will e
 
 <dl> <dt>
 
-[**IAccessible::accNavigate**](iaccessible-iaccessible--accnavigate.md)
+[**IAccessible::accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)
 </dt> </dl>
 
  

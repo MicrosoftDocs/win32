@@ -4,10 +4,13 @@ description: The provider itself is represented by the ReplicationProvider1 clas
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '57d7e44e-787d-4d5b-9781-59a2a642f456'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 57d7e44e-787d-4d5b-9781-59a2a642f456
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Provider Classes in Active Directory Domain Services

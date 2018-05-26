@@ -1,7 +1,12 @@
 ---
-Description: 'The GetImageSize method retrieves video image size information.'
-ms.assetid: 'a6d7f949-c6a9-49e9-b10a-f6f5bd73dc00'
-title: 'CBaseControlVideo.GetImageSize method'
+Description: The GetImageSize method retrieves video image size information.
+ms.assetid: a6d7f949-c6a9-49e9-b10a-f6f5bd73dc00
+title: CBaseControlVideo.GetImageSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetImageSize method
@@ -13,9 +18,9 @@ The `GetImageSize` method retrieves video image size information.
 
 ```C++
 HRESULT GetImageSize(
-   VIDEOINFOHEADER *pVideoInfo,
-   long            *pBufferSize,
-   RECT            *pSourceRect
+   VIDEOINFOHEADER *pVideoInfo,
+   long            *pBufferSize,
+   RECT            *pSourceRect
 );
 ```
 
@@ -28,7 +33,7 @@ HRESULT GetImageSize(
 *pVideoInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](videoinfoheader.md) structure to be filled in.
+Pointer to a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure to be filled in.
 
 </dd> <dt>
 
@@ -61,11 +66,11 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
-This member function is a helper function used for creating memory image renderings of DIB images. It is called from the base class implementation of [**CBaseControlVideo::GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) when a **NULL***pVideoImage* parameter is passed to that member function. As a result, this member function constructs and returns a [**VIDEOINFOHEADER**](videoinfoheader.md) structure, using the information in *pBufferSize* and *pSourceRect*.
+This member function is a helper function used for creating memory image renderings of DIB images. It is called from the base class implementation of [**CBaseControlVideo::GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) when a **NULL***pVideoImage* parameter is passed to that member function. As a result, this member function constructs and returns a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure, using the information in *pBufferSize* and *pSourceRect*.
 
 ## Requirements
 
@@ -85,9 +90,9 @@ This member function is a helper function used for creating memory image renderi
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

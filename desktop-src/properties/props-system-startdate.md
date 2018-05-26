@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '26208e02-6119-47be-86d6-5432723e4b1f'
-title: 'System.StartDate'
+Description: .
+ms.assetid: 26208e02-6119-47be-86d6-5432723e4b1f
+title: System.StartDate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StartDate

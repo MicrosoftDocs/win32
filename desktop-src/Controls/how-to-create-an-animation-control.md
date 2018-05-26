@@ -1,7 +1,12 @@
 ---
 title: How to Create an Animation Control
 description: This topic demonstrates how to create an animation control.
-ms.assetid: '5852B636-F3D0-47A4-82F6-8BE570013E1B'
+ms.assetid: 5852B636-F3D0-47A4-82F6-8BE570013E1B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create an Animation Control
@@ -24,7 +29,7 @@ This topic demonstrates how to create an animation control. The accompanying C++
 
 ### Step 1: Create an instance of the animation control.
 
-Use the [**Animate\_Create**](animate-create.md) macro to create an instance of the animation control.
+Use the [**Animate\_Create**](/windows/win32/Commctrl/nf-commctrl-animate_create?branch=master) macro to create an instance of the animation control.
 
 
 ```C++
@@ -75,7 +80,7 @@ SetWindowPos(hwndAnim, 0, pt.x, pt.y + 20,
 
 ### Step 3: Open the AVI clip.
 
-Call the [**Animate\_Open**](animate-open.md) macro to open the AVI clip and display the first frame in the animation control. Call the **ShowWindow** function to make the animation control visible.
+Call the [**Animate\_Open**](/windows/win32/Commctrl/nf-commctrl-animate_open?branch=master) macro to open the AVI clip and display the first frame in the animation control. Call the **ShowWindow** function to make the animation control visible.
 
 
 ```C++

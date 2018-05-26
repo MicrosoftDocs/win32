@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.columns
 description: The columns attribute defines the columns that appear in the PLAYLIST element.
-ms.assetid: 'a805ee06-cf73-4eab-bcda-c374e55cd11a'
-keywords: ["PLAYLIST.columns Windows Media Player"]
+ms.assetid: a805ee06-cf73-4eab-bcda-c374e55cd11a
+keywords:
+- PLAYLIST.columns Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.columns
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.columns
@@ -59,7 +65,7 @@ FRIENDLY\_NAME is the value shown in the column header of the PLAYLIST element, 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,9 +95,9 @@ If you specify a duplicate column, the data in the first column will be left-ali
 [**PLAYLIST.columnsVisible**](playlist-columnsvisible.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

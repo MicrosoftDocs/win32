@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the security permissions for the logical file specified in the Win32\_NTEventlogFile.Name property.'
-ms.assetid: '5730986d-f963-4722-a23c-68e17517cbb4'
-title: 'ChangeSecurityPermissions method of the Win32\_NTEventlogFile class'
+Description: Changes the security permissions for the logical file specified in the Win32\_NTEventlogFile.Name property.
+ms.assetid: 5730986d-f963-4722-a23c-68e17517cbb4
+title: ChangeSecurityPermissions method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeSecurityPermissions method of the Win32\_NTEventlogFile class
@@ -15,8 +20,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeSecurityPermissions(
-  [in] Win32_SecurityDescriptor SecurityDescriptor,
-  [in] uint32 Option
+  [in] Win32_SecurityDescriptor SecurityDescriptor,
+  [in] uint32 Option
 );
 ```
 
@@ -55,7 +60,7 @@ Actual security privilege to be modified. For example, to change the owner and d
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,7 +86,7 @@ Actual security privilege to be modified. For example, to change the owner and d
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +94,8 @@ Actual security privilege to be modified. For example, to change the owner and d
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -110,9 +115,9 @@ Actual security privilege to be modified. For example, to change the owner and d
 [**Win32\_NTEventlogFile**](https://msdn.microsoft.com/library/aa394438)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

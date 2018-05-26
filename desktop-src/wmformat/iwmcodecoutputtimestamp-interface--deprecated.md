@@ -1,8 +1,9 @@
 ---
 title: IWMCodecOutputTimestamp Interface
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: 'aa480837-9145-4f56-a750-80fc4fdbf13b'
-keywords: ["IWMCodecOutputTimestamp Interface windows Media Format"]
+ms.assetid: aa480837-9145-4f56-a750-80fc4fdbf13b
+keywords:
+- IWMCodecOutputTimestamp Interface windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMCodecOutputTimestamp Interface
@@ -27,9 +33,9 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

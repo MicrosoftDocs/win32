@@ -1,8 +1,14 @@
 ---
 title: STRICT Type Checking
 description: The Windows.h header file contains definitions, macros, and structures to help you write source code that is portable between versions of Windows.
-ms.assetid: '29f4d1fb-7be1-4ec6-ae2d-edafcfbd7698'
-keywords: ["STRICT"]
+ms.assetid: 29f4d1fb-7be1-4ec6-ae2d-edafcfbd7698
+keywords:
+- STRICT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STRICT Type Checking

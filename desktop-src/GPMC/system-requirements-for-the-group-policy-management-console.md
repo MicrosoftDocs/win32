@@ -4,11 +4,15 @@ description: The computer on which the Group Policy Management Console (GPMC) is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '813de3a2-e713-4a4b-ae3e-10356bd290e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 813de3a2-e713-4a4b-ae3e-10356bd290e2
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["system requirements"]
+keywords:
+- system requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # System Requirements for the Group Policy Management Console

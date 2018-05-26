@@ -1,7 +1,12 @@
 ---
-Description: 'The PossiblyEatMessage method enables a derived class to forward messages to another window.'
-ms.assetid: 'd8775182-44ed-4df2-b4b8-1fdf289e2c1a'
-title: 'CBaseWindow.PossiblyEatMessage method'
+Description: The PossiblyEatMessage method enables a derived class to forward messages to another window.
+ms.assetid: d8775182-44ed-4df2-b4b8-1fdf289e2c1a
+title: CBaseWindow.PossiblyEatMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.PossiblyEatMessage method
@@ -13,9 +18,9 @@ The `PossiblyEatMessage` method enables a derived class to forward messages to a
 
 ```C++
 virtual BOOL PossiblyEatMessage(
-   UINT   uMsg,
-   WPARAM wParam,
-   LPARAM lParam
+   UINT   uMsg,
+   WPARAM wParam,
+   LPARAM lParam
 );
 ```
 
@@ -72,9 +77,9 @@ Before the [**CBaseWindow::OnReceiveMessage**](cbasewindow-onreceivemessage.md) 
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

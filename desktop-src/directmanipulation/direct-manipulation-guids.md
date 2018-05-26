@@ -1,7 +1,12 @@
 ---
-Description: 'The following Direct Manipulation Class GUIDs are defined in DirectManipulation.idl.'
-ms.assetid: '6747D082-4B7B-4C7E-A230-2E8C8412FABD'
+Description: The following Direct Manipulation Class GUIDs are defined in DirectManipulation.idl.
+ms.assetid: 6747D082-4B7B-4C7E-A230-2E8C8412FABD
 title: Direct Manipulation GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Manipulation GUIDs
@@ -20,7 +25,7 @@ The following [Direct Manipulation](direct-manipulation-portal.md) Class GUIDs a
 | GUID                                     | Description                                                                                                                                                                                                                                                                                       |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **54E211B6-3650-4F75-8334-FA359598E1C5** | DirectManipulationManager Class. This object provides access to all [Direct Manipulation](direct-manipulation-portal.md) features and APIs available to the application.                                                                                                                         |
-| **79DEA627-A08A-43AC-8EF5-6900B9299126** | DCompManipulationCompositor Class. This is an implementation of the [**IDirectManipulationCompositor**](idirectmanipulationcompositor.md) that wraps DirectComposition. Through this compositor object DirectManipulation can apply the output by setting transforms directly on the DComp tree. |
+| **79DEA627-A08A-43AC-8EF5-6900B9299126** | DCompManipulationCompositor Class. This is an implementation of the [**IDirectManipulationCompositor**](/windows/previous-versions/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor?branch=master) that wraps DirectComposition. Through this compositor object DirectManipulation can apply the output by setting transforms directly on the DComp tree. |
 
 
 
@@ -48,7 +53,7 @@ The following [Direct Manipulation](direct-manipulation-portal.md) Class GUIDs a
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CLSID\_DragDropConfigurationBehavior** | Drag & Drop Behavior. Enables items to be selected and dragged.                                                                                       |
 | **CLSID\_AutoScrollBehavior**            | Autoscroll Behavior. Enables content to automatically scroll as it approaches the boundary of a given axis.                                           |
-| **CLSID\_DeferContactService**           | Contact deferral behavior. The amount of time (in millliseconds) to wait before calling [**SetContact**](idirectmanipulationviewport-setcontact.md). |
+| **CLSID\_DeferContactService**           | Contact deferral behavior. The amount of time (in millliseconds) to wait before calling [**SetContact**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact?branch=master). |
 
 
 
@@ -61,13 +66,13 @@ The following [Direct Manipulation](direct-manipulation-portal.md) Class GUIDs a
 [Direct Manipulation](direct-manipulation-portal.md)
 </dt> <dt>
 
-[**ActivateConfiguration**](idirectmanipulationviewport-activateconfiguration.md)
+[**ActivateConfiguration**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration?branch=master)
 </dt> <dt>
 
-[**AddConfiguration**](idirectmanipulationviewport-addconfiguration.md)
+[**AddConfiguration**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-addconfiguration?branch=master)
 </dt> <dt>
 
-[**IDirectManipulationCompositor**](idirectmanipulationcompositor.md)
+[**IDirectManipulationCompositor**](/windows/previous-versions/DirectManipulation/nn-directmanipulation-idirectmanipulationcompositor?branch=master)
 </dt> </dl>
 
  

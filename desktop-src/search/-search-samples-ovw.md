@@ -1,7 +1,12 @@
 ---
-Description: 'The topics in this section briefly describe the sample programs for search that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.'
-ms.assetid: '9cd35360-dee5-433e-9576-dbe39bd34cbb'
+Description: The topics in this section briefly describe the sample programs for search that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.
+ms.assetid: 9cd35360-dee5-433e-9576-dbe39bd34cbb
 title: Windows Search Code Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search Code Samples

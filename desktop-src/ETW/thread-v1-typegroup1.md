@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for thread start events. The following syntax is simplified from MOF code.'
-ms.assetid: '412de56f-4f54-46e8-ab60-d47371247e79'
-title: 'Thread\_V1\_TypeGroup1 class'
+---
+Description: This class is the event type class for thread start events. The following syntax is simplified from MOF code.
+ms.assetid: 412de56f-4f54-46e8-ab60-d47371247e79
+title: Thread\_V1\_TypeGroup1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread\_V1\_TypeGroup1 class

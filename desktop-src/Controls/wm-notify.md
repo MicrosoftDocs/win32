@@ -1,8 +1,9 @@
 ---
 title: WM\_NOTIFY message
 description: Sent by a common control to its parent window when an event has occurred or the control requires some information.
-ms.assetid: '5a4c4d71-3be4-4e67-8aad-0342e8f43f2b'
-keywords: ["WM_NOTIFY message Windows Controls"]
+ms.assetid: 5a4c4d71-3be4-4e67-8aad-0342e8f43f2b
+keywords:
+- WM_NOTIFY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NOTIFY message
@@ -24,14 +30,14 @@ Sent by a common control to its parent window when an event has occurred or the 
 *wParam* 
 </dt> <dd>
 
-The identifier of the common control sending the message. This identifier is not guaranteed to be unique. An application should use the **hwndFrom** or **idFrom** member of the [**NMHDR**](nmhdr.md) structure (passed as the *lParam* parameter) to identify the control.
+The identifier of the common control sending the message. This identifier is not guaranteed to be unique. An application should use the **hwndFrom** or **idFrom** member of the [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure (passed as the *lParam* parameter) to identify the control.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](nmhdr.md) structure that contains the notification code and additional information. For some notification messages, this parameter points to a larger structure that has the **NMHDR** structure as its first member.
+A pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains the notification code and additional information. For some notification messages, this parameter points to a larger structure that has the **NMHDR** structure as its first member.
 
 </dd> </dl>
 
@@ -90,7 +96,7 @@ Some notifications, chiefly those that have been in the API for a long time, are
 
 If the message handler is in a dialog box procedure, you must use the [**SetWindowLong**](https://msdn.microsoft.com/library/windows/desktop/ms633591) function with DWL\_MSGRESULT to set a return value.
 
-For Windows Vista and later systems, the **WM\_NOTIFY** message cannot be sent between processes.
+For Windows Vista and later systems, the **WM\_NOTIFY** message cannot be sent between processes.
 
 Many notifications are available in both ANSI and Unicode formats. The window sending the **WM\_NOTIFY** message uses the [**WM\_NOTIFYFORMAT**](wm-notifyformat.md) message to determine which format should be used. See **WM\_NOTIFYFORMAT** for further discussion.
 
@@ -100,8 +106,8 @@ Many notifications are available in both ANSI and Unicode formats. The window se
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -113,9 +119,9 @@ Many notifications are available in both ANSI and Unicode formats. The window se
 [**WM\_NOTIFYFORMAT**](wm-notifyformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

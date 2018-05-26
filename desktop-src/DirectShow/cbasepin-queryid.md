@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryId method retrieves the pin identifier. This method implements the IPin::QueryId method.'
-ms.assetid: 'b365a574-61b4-454c-b062-8826cbe10f03'
-title: 'CBasePin.QueryId method'
+Description: The QueryId method retrieves the pin identifier. This method implements the IPinQueryId method.
+ms.assetid: b365a574-61b4-454c-b062-8826cbe10f03
+title: CBasePin.QueryId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.QueryId method
 
-The `QueryId` method retrieves the pin identifier. This method implements the [**IPin::QueryId**](ipin-queryid.md) method.
+The `QueryId` method retrieves the pin identifier. This method implements the [**IPin::QueryId**](/windows/win32/Strmif/nf-strmif-ipin-queryid?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryId(
-   LPWSTR *Id
+   LPWSTR *Id
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ This method returns a copy of the [**CBasePin::m\_pName**](cbasepin-m-pname.md) 
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

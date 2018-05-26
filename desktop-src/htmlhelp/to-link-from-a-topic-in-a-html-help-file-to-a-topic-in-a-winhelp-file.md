@@ -1,7 +1,12 @@
 ---
 title: To link from a topic in a HTML Help file to a topic in a WinHelp file
 description: To link from a topic in a HTML Help file to a topic in a WinHelp file
-ms.assetid: '228FFFD4-CED0-408e-BA6B-3CB663CB7CBE'
+ms.assetid: 228FFFD4-CED0-408e-BA6B-3CB663CB7CBE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To link from a topic in a HTML Help file to a topic in a WinHelp file
@@ -16,7 +21,7 @@ ms.assetid: '228FFFD4-CED0-408e-BA6B-3CB663CB7CBE'
 
     
 
-     
+     
 
 2.  In the **Specify the command** box, click **WinHelp topic**, and then follow the instructions on your screen.
 
@@ -27,9 +32,9 @@ ms.assetid: '228FFFD4-CED0-408e-BA6B-3CB663CB7CBE'
 [About Working with Links](work-with-links.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

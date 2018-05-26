@@ -1,14 +1,20 @@
 ---
 title: GroupSizeDefinition element
 description: Represents a layout size for a group of controls in a custom template.
-ms.assetid: 'c0e20c80-16af-41d5-81e1-0dc32e92e3fa'
-keywords: ["GroupSizeDefinition element Windows Ribbon"]
+ms.assetid: c0e20c80-16af-41d5-81e1-0dc32e92e3fa
+keywords:
+- GroupSizeDefinition element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - GroupSizeDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GroupSizeDefinition element
@@ -183,7 +189,7 @@ The following code example illustrates a basic custom template that includes the
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -195,9 +201,9 @@ The following code example illustrates a basic custom template that includes the
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

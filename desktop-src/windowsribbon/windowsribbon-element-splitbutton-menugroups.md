@@ -1,14 +1,20 @@
 ---
 title: SplitButton.MenuGroups property
 description: Represents a container for a set of drop-down menu items in a standard Split Button control.
-ms.assetid: '6328ad49-037b-4cd5-90f6-b91646e260ee'
-keywords: ["SplitButton.MenuGroups property Windows Ribbon"]
+ms.assetid: 6328ad49-037b-4cd5-90f6-b91646e260ee
+keywords:
+- SplitButton.MenuGroups property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - SplitButton.MenuGroups
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitButton.MenuGroups property
@@ -138,8 +144,8 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -150,9 +156,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [Split Button control](windowsribbon-controls-splitbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

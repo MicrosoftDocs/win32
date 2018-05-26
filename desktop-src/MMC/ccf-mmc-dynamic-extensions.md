@@ -4,11 +4,12 @@ description: For MMC 1.1 and later, the CCF\_MMC\_DYNAMIC\_EXTENSIONS clipboard 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '48d55143-7873-4c66-a4c9-bde5663cb7f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 48d55143-7873-4c66-a4c9-bde5663cb7f1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_MMC_DYNAMIC_EXTENSIONS clipboard format MMC"]
+keywords:
+- CCF_MMC_DYNAMIC_EXTENSIONS clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_MMC\_DYNAMIC\_EXTENSIONS clipboard format
@@ -43,15 +47,15 @@ Just before MMC must use an extensible feature (that is, just before creating an
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

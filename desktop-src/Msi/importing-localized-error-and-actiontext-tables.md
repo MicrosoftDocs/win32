@@ -1,7 +1,12 @@
 ---
-Description: 'Localized language versions of the Error table and ActionText table are provided by the Windows Installer SDK. The French language versions of these tables, Error.FRA and ActionTe.FRA, are located in the Intl folder of the Windows Installer SDK.'
-ms.assetid: '8de687c8-c7da-497e-8a90-2404096ad100'
+Description: Localized language versions of the Error table and ActionText table are provided by the Windows Installer SDK. The French language versions of these tables, Error.FRA and ActionTe.FRA, are located in the Intl folder of the Windows Installer SDK.
+ms.assetid: 8de687c8-c7da-497e-8a90-2404096ad100
 title: Importing Localized Error and ActionText Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing Localized Error and ActionText Tables
@@ -10,7 +15,7 @@ Localized language versions of the [Error table](error-table.md) and [ActionText
 
 You may use the table editor Orca or the utility Msidb.exe provided with the SDK to import the French versions of these tables into the database.
 
-An example of using [**MsiDatabaseImport**](msidatabaseimport.md) and the [**Import Method**](database-import.md) of the [**Database object**](database-object.md) is provided in the Windows Installer SDK as the utility WiImport.vbs. The following snippet, Imp.vbs, also illustrates the use of the Import method and is for use with Windows Script Host.
+An example of using [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master) and the [**Import Method**](database-import.md) of the [**Database object**](database-object.md) is provided in the Windows Installer SDK as the utility WiImport.vbs. The following snippet, Imp.vbs, also illustrates the use of the Import method and is for use with Windows Script Host.
 
 
 ```VB

@@ -4,13 +4,16 @@ description: Gets the configuration parameters related to the database of the DH
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64674183-50f0-402e-afbe-2304a9c9a979'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64674183-50f0-402e-afbe-2304a9c9a979
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerDatabase class", "PS_DhcpServerDatabase class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerDatabase class
+- PS_DhcpServerDatabase class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerDatabase class
@@ -30,8 +36,8 @@ Gets the configuration parameters related to the database of the DHCP server.
 
 ```mof
 uint32 Get(
-  [in]  string             ComputerName,
-  [out] DhcpServerDatabase cmdletOutput
+  [in]  string             ComputerName,
+  [out] DhcpServerDatabase cmdletOutput
 );
 ```
 
@@ -62,7 +68,7 @@ An embedded instance of the [**DhcpServerDatabase**](dhcpserverdatabase.md) clas
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -76,9 +82,9 @@ An embedded instance of the [**DhcpServerDatabase**](dhcpserverdatabase.md) clas
 [**PS\_DhcpServerDatabase**](ps-dhcpserverdatabase.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

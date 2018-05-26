@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetCurrentBuffer method retrieves a copy of the buffer associated with the most recent sample.'
-ms.assetid: '08550c82-4711-4725-9cd0-19b43cf4c92e'
-title: 'ISampleGrabber::GetCurrentBuffer method'
+---
+Description: The GetCurrentBuffer method retrieves a copy of the buffer associated with the most recent sample.
+ms.assetid: 08550c82-4711-4725-9cd0-19b43cf4c92e
+title: ISampleGrabberGetCurrentBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabber::GetCurrentBuffer method
@@ -72,7 +77,7 @@ The *pBuffer* parameter is typed as a **long** pointer, but the contents of the 
 
 Do not call this method while the filter graph is running. While the filter graph is running, the Sample Grabber filter overwrites the contents of the buffer whenever it receives a new sample. The best way to use this method is to use "one-shot mode," which stops the graph after receiving the first sample. To set one-shot mode, call [**ISampleGrabber::SetOneShot**](isamplegrabber-setoneshot.md).
 
-The filter does not buffer preroll samples, or samples in which the **dwStreamId** member of the [**AM\_SAMPLE2\_PROPERTIES**](am-sample2-properties.md) structure is anything other than AM\_STREAM\_MEDIA.
+The filter does not buffer preroll samples, or samples in which the **dwStreamId** member of the [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/strmif/ns-strmif-tagam_sample2_properties?branch=master) structure is anything other than AM\_STREAM\_MEDIA.
 
 > [!Note]  
 > The header file Qedit.h is not compatible with Direct3D headers later than version 7.

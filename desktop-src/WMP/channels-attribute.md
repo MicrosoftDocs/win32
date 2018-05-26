@@ -1,14 +1,20 @@
 ---
 title: Channels Attribute
 description: The Channels attribute is the number of channels in an audio file.
-ms.assetid: 'c6528838-a793-4d87-8b62-64dda0911295'
-keywords: ["Channels Attribute Windows Media Player"]
+ms.assetid: c6528838-a793-4d87-8b62-64dda0911295
+keywords:
+- Channels Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Channels
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Channels Attribute
@@ -36,9 +42,9 @@ The **Channels** attribute is the number of channels in an audio file.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

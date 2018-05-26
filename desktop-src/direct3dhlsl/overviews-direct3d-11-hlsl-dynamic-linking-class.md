@@ -1,7 +1,12 @@
 ---
 title: Interfaces and Classes
 description: Dynamic shader linkage makes use of high-level shader language (HLSL) interfaces and classes that are syntactically similar to their C++ counterparts.
-ms.assetid: '124a358d-30ab-4efe-88ed-1ff277d17b25'
+ms.assetid: 124a358d-30ab-4efe-88ed-1ff277d17b25
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces and Classes

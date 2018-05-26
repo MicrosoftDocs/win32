@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the number of buttons on the tablet stylus.'
-ms.assetid: 'ae4ce670-769a-4f00-b728-285020f09934'
-title: 'ITabletCursor::GetButtonCount method'
+Description: Retrieves the number of buttons on the tablet stylus.
+ms.assetid: ae4ce670-769a-4f00-b728-285020f09934
+title: ITabletCursorGetButtonCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursor::GetButtonCount method
@@ -13,7 +18,7 @@ Retrieves the number of buttons on the tablet stylus.
 
 ```C++
 HRESULT GetButtonCount(
-  [out] ULONG *pcButtons
+  [out] ULONG *pcButtons
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -64,9 +69,9 @@ This method can return one of these values.
 [**ITabletCursor Interface**](itabletcursor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

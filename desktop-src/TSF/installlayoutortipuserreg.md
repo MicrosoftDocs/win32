@@ -1,8 +1,9 @@
 ---
 title: InstallLayoutOrTipUserReg function
 description: Enables the specified keyboard layouts or text services for the specified user.
-ms.assetid: 'f9b7a77e-5e82-41a6-8deb-be13bb96e85f'
-keywords: ["InstallLayoutOrTipUserReg function Text Services Framework"]
+ms.assetid: f9b7a77e-5e82-41a6-8deb-be13bb96e85f
+keywords:
+- InstallLayoutOrTipUserReg function Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - input.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallLayoutOrTipUserReg function
@@ -22,11 +28,11 @@ Enables the specified keyboard layouts or text services for the specified user.
 
 ```C++
 BOOL CALLBACK InstallLayoutOrTipUserReg(
-  _In_opt_ LPCWSTR pszUserReg,
-  _In_opt_ LPCWSTR pszSystemReg,
-  _In_opt_ LPCWSTR pszSoftwareReg,
-  _In_     LPCWSTR psz,
-  _In_     DWORD   dwFlags
+  _In_opt_ LPCWSTR pszUserReg,
+  _In_opt_ LPCWSTR pszSystemReg,
+  _In_opt_ LPCWSTR pszSoftwareReg,
+  _In_     LPCWSTR psz,
+  _In_     DWORD   dwFlags
 );
 ```
 
@@ -72,7 +78,7 @@ A bitfield that specifies the following flags.
 > [!Note]  
 > The following identifiers are not defined in a public header file. You must either use the hexadecimal value or \#define the identifiers. For example, to use **ILOT\_UNINSTALL** you must include `#define ILOT_UNINSTALL 0x00000001` in your code.
 
- 
+ 
 
 
 
@@ -86,7 +92,7 @@ A bitfield that specifies the following flags.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -101,7 +107,7 @@ A bitfield that specifies the following flags.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -131,7 +137,7 @@ There is no import library available that defines this function, so it is necess
 > [!Note]  
 > Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to [Dynamic-Link Library Search Order](https://msdn.microsoft.com/library/windows/desktop/ms682586) for information on how to correctly load DLLs with different versions of Microsoft Windows.
 
- 
+ 
 
 
 ```C++
@@ -173,15 +179,15 @@ else
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Input.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

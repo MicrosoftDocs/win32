@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the object delivers samples in exact batches.'
-ms.assetid: '1a37c78f-4499-4ebb-92b4-b71ba3ff1a02'
-title: 'COutputQueue::m\_bBatchExact member'
+Description: Flag that specifies whether the object delivers samples in exact batches.
+ms.assetid: 1a37c78f-4499-4ebb-92b4-b71ba3ff1a02
+title: COutputQueuem\_bBatchExact member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_bBatchExact member
@@ -39,9 +44,9 @@ If the value is **TRUE**, the object waits until it has a complete batch of medi
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

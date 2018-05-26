@@ -1,7 +1,12 @@
 ---
 Description: Layout of the Registry Keys
-ms.assetid: 'c041d094-8165-446f-bf77-0d53b728fe7a'
+ms.assetid: c041d094-8165-446f-bf77-0d53b728fe7a
 title: Layout of the Registry Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Layout of the Registry Keys
@@ -52,7 +57,7 @@ Category
 
 
 
-is the GUID of a filter category. (See [Filter Categories](filter-categories.md).) The filter information is packed into a binary format. The [**IFilterMapper2**](ifiltermapper2.md) interface unpacks this data when it searches the registry for a filter.
+is the GUID of a filter category. (See [Filter Categories](filter-categories.md).) The filter information is packed into a binary format. The [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) interface unpacks this data when it searches the registry for a filter.
 
 All of the filter category GUIDs are listed in the registry under the following key:
 

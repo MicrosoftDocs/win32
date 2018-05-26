@@ -1,7 +1,12 @@
 ---
 title: VML TextBox Element
 description: VML TextBox Element
-ms.assetid: '3573256e-f241-4de7-8541-252c92109af7'
+ms.assetid: 3573256e-f241-4de7-8541-252c92109af7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML TextBox Element

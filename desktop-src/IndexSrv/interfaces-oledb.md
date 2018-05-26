@@ -1,7 +1,12 @@
 ---
 title: Interfaces
 description: Interfaces
-ms.assetid: '7b914455-ad5b-4e2f-ae04-f9953d94d441'
+ms.assetid: 7b914455-ad5b-4e2f-ae04-f9953d94d441
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces
@@ -13,8 +18,8 @@ ms.assetid: '7b914455-ad5b-4e2f-ae04-f9953d94d441'
 
 The OLE DB Provider for Indexing Service implements the following interfaces for Command objects:
 
--   [**ICommandTree**](icommandtree.md)
--   [**IQuery**](iquery.md)
+-   [**ICommandTree**](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master)
+-   [**IQuery**](/windows/previous-versions/cmdtree/nn-cmdtree-iquery?branch=master)
 
 The OLE DB Provider for Indexing Service supports the following standard OLE DB interfaces for Command objects:
 

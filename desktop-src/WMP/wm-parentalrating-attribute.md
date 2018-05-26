@@ -1,14 +1,20 @@
 ---
 title: WM/ParentalRating Attribute
 description: The WM/ParentalRating attribute is the parental rating of the content.
-ms.assetid: '9cbe5ae7-96b9-41f2-bdfd-8043f4cbd82d'
-keywords: ["WM/ParentalRating Attribute Windows Media Player"]
+ms.assetid: 9cbe5ae7-96b9-41f2-bdfd-8043f4cbd82d
+keywords:
+- WM/ParentalRating Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/ParentalRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ParentalRating Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: ReleaseDateMonth Attribute
 description: The ReleaseDateMonth attribute is the month part of the date of the original release of the item.
-ms.assetid: 'e2ec439e-9d0e-4f9a-aba8-5fbd0e959d84'
-keywords: ["ReleaseDateMonth Attribute Windows Media Player"]
+ms.assetid: e2ec439e-9d0e-4f9a-aba8-5fbd0e959d84
+keywords:
+- ReleaseDateMonth Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ReleaseDateMonth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReleaseDateMonth Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

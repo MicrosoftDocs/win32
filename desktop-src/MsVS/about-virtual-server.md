@@ -1,8 +1,14 @@
 ---
 title: About Microsoft Virtual Server
 description: The Microsoft Virtual Server 2005 provides a mechanism for programmatic control of the Virtual Server and its associated hosted virtual machines.
-ms.assetid: 'f8408c03-5f5c-4d27-8738-c1b5380bb255'
-keywords: ["Virtual Server COM Interface Virtual Server , about"]
+ms.assetid: f8408c03-5f5c-4d27-8738-c1b5380bb255
+keywords:
+- Virtual Server COM Interface Virtual Server , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Microsoft Virtual Server

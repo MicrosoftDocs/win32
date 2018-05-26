@@ -2,13 +2,19 @@
 title: endpoint attribute
 description: The \ endpoint\ attribute specifies a well-known port or ports (communication endpoints) on which servers of the interface listen for calls.
 ms.assetid: b88c5a97-b726-43de-b5b6-649cda60c320
-keywords: ["endpoint attribute MIDL"]
+keywords:
+- endpoint attribute MIDL
 topic_type:
 - apiref
 api_name:
 - endpoint
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # endpoint attribute

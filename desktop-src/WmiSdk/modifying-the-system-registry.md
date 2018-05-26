@@ -1,20 +1,23 @@
 ---
-Description: 'The system registry contains configuration data that the operating system, services, and applications use.'
+Description: The system registry contains configuration data that the operating system, services, and applications use.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e16a5d4c-46a0-4798-894d-0af4cfa18f22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e16a5d4c-46a0-4798-894d-0af4cfa18f22
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Modifying the System Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying the System Registry
 
 The system registry contains configuration data that the operating system, services, and applications use. Windows Management Instrumentation (WMI) has a [System Registry Provider](https://msdn.microsoft.com/library/aa393886) and the [**StdRegProv**](https://msdn.microsoft.com/library/aa393664) class with methods that use to monitor or modify the registry on the local computer or remote computers. The [Win32 Provider](https://msdn.microsoft.com/library/aa394388) supports the [**Win32\_Registry**](https://msdn.microsoft.com/library/aa394394) class that contains static data about the size of a registry.
 
-The System Registry Provider is an instance, property, and event provider that interfaces with the system registry. The System Registry Provider is a standard provider with the [**IWbemServices**](iwbemservices.md) interface. You can use the System Registry Provider to access registry keys and information on local and remote systems. For more information, see [System Registry Provider](https://msdn.microsoft.com/library/aa393886).
+The System Registry Provider is an instance, property, and event provider that interfaces with the system registry. The System Registry Provider is a standard provider with the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface. You can use the System Registry Provider to access registry keys and information on local and remote systems. For more information, see [System Registry Provider](https://msdn.microsoft.com/library/aa393886).
 
 WMI places the [**StdRegProv**](https://msdn.microsoft.com/library/aa393664) in the root\\default namespace. However, you can compile the Regevent.mof file into other namespaces for other applications to use.
 

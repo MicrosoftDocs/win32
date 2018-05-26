@@ -1,7 +1,12 @@
 ---
 title: How we can ensure compatibility of the combined ecosystem
 description: Following are some best practices Microsoft recommends so you can ensure your apps are compatible with Windows 10.
-ms.assetid: 'C7F5BB21-9D88-4F47-BC49-8DB850ACF69E'
+ms.assetid: C7F5BB21-9D88-4F47-BC49-8DB850ACF69E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How we can ensure compatibility of the combined ecosystem

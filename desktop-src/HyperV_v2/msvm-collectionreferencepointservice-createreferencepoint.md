@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a reference point of a virtual system collection.'
-ms.assetid: '40ec5715-0dbc-43e3-a305-c8c31de60977'
-title: 'CreateReferencePoint method of the Msvm\_CollectionReferencePointService class'
+Description: Creates a reference point of a virtual system collection.
+ms.assetid: 40ec5715-0dbc-43e3-a305-c8c31de60977
+title: CreateReferencePoint method of the Msvm\_CollectionReferencePointService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateReferencePoint method of the Msvm\_CollectionReferencePointService class
@@ -13,11 +18,11 @@ Creates a reference point of a virtual system collection.
 
 ```mof
 uint32 CreateReferencePoint(
-  [in]      Msvm_VirtualSystemCollection REF Collection,
-  [in]      string                           ReferencePointSettings,
-  [in]      uint16                           ReferencePointType,
-  [in, out] CIM_Collection               REF ResultingReferencePointCollection,
-  [out]     CIM_ConcreteJob              REF Job
+  [in]      Msvm_VirtualSystemCollection REF Collection,
+  [in]      string                           ReferencePointSettings,
+  [in]      uint16                           ReferencePointType,
+  [in, out] CIM_Collection               REF ResultingReferencePointCollection,
+  [out]     CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -150,8 +155,8 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -165,9 +170,9 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 [**Msvm\_CollectionReferencePointService**](msvm-collectionreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

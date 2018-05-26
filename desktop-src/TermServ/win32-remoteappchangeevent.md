@@ -1,14 +1,16 @@
 ---
 title: Win32\_RemoteAppChangeEvent class
-description: Represents a change to Windows Server 2008 R2 RemoteApp settings on the Remote Desktop Session Host (RD Session Host) server.
+description: Represents a change to Windows Server 2008 R2 RemoteApp settings on the Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3434ee4e-283e-4147-a73b-c131e8af6c57'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3434ee4e-283e-4147-a73b-c131e8af6c57
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RemoteAppChangeEvent class Remote Desktop Services", "Win32_RemoteAppChangeEvent class Remote Desktop Services , described"]
+keywords:
+- Win32_RemoteAppChangeEvent class Remote Desktop Services
+- Win32_RemoteAppChangeEvent class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -19,18 +21,21 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RemoteAppChangeEvent class
 
-Represents a change to Windows Server 2008 R2 RemoteApp settings on the Remote Desktop Session Host (RD Session Host) server.
+Represents a change to Windows Server 2008 R2 RemoteApp settings on the Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 ``` syntax
 class Win32_RemoteAppChangeEvent : ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -97,16 +102,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

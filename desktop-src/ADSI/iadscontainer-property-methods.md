@@ -4,11 +4,12 @@ description: The property methods of the IADsContainer interface get or set the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '74d348bf-7b7f-4971-ba03-f77940600674'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 74d348bf-7b7f-4971-ba03-f77940600674
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsContainer Property Methods ADSI"]
+keywords:
+- IADsContainer Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -25,11 +26,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsContainer Property Methods
 
-The property methods of the [**IADsContainer**](iadscontainer.md) interface get or set the properties described in the following table. For more information, and a general discussion about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) interface get or set the properties described in the following table. For more information, and a general discussion about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -116,15 +120,15 @@ HRESULT put_Hints(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
-The enumeration processes under [**IADsContainer::get\_\_NewEnum**](iadscontainer-get--newenum.md) and **IADsContainer::get\_Count** are performed against the contained objects in the cache. When a container contains a large number of objects, the performance may be affected. To enhance performance, turn off the cache, set up an appropriate page size, and use the [**IDirectorySearch**](idirectorysearch.md) interface. For this reason, the **get\_Count** property is not supported in the Microsoft LDAP provider.
+The enumeration processes under [**IADsContainer::get\_\_NewEnum**](/windows/win32/Iads/nf-iads-iadscontainer-get__newenum?branch=master) and **IADsContainer::get\_Count** are performed against the contained objects in the cache. When a container contains a large number of objects, the performance may be affected. To enhance performance, turn off the cache, set up an appropriate page size, and use the [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) interface. For this reason, the **get\_Count** property is not supported in the Microsoft LDAP provider.
 
 ## Examples
 
-The following Visual Basic code example shows how property methods of [**IADsContainer**](iadscontainer.md) can be used.
+The following Visual Basic code example shows how property methods of [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) can be used.
 
 
 ```VB
@@ -154,7 +158,7 @@ Cleanup:
 
 
 
-The following C++ code example shows how the property methods of [**IADsContainer**](iadscontainer.md) can be used. For brevity, error checking is omitted.
+The following C++ code example shows how the property methods of [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) can be used. For brevity, error checking is omitted.
 
 
 ```C++
@@ -229,8 +233,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsContainer is defined as 001677D0-FD16-11CE-ABC4-02608C9E7553<br/>        |
@@ -241,15 +245,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsContainer**](iadscontainer.md)
+[**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master)
 </dt> <dt>
 
-[**IDirectorySearch**](idirectorysearch.md)
+[**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

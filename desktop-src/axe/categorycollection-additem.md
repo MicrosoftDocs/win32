@@ -1,8 +1,11 @@
 ---
 title: CategoryCollection AddItem method
 description: Creates and adds a category to the CategoryCollection.
-ms.assetid: 'C814C47D-8F60-43C4-80A3-8D83B35E55F6'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , CategoryCollection interface", "CategoryCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: C814C47D-8F60-43C4-80A3-8D83B35E55F6
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , CategoryCollection interface
+- CategoryCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CategoryCollection::AddItem method
@@ -22,7 +30,7 @@ Creates and adds a category to the **CategoryCollection**.
 
 ```C++
 virtual HRESULT AddItem(
-  [in] LPCWSTR category
+  [in] LPCWSTR category
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ A category is the value of an **Issue/Categories/Category** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ A category is the value of an **Issue/Categories/Category** element.
 [**CategoryCollection**](categorycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

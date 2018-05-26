@@ -1,7 +1,12 @@
-﻿---
-Description: 'Makes a file (EF or DF) that was previously made not valid by using the Invalidate method, accessible by the application.'
-ms.assetid: '1906fcc5-ae76-4950-b2eb-e5ce1882637f'
-title: 'ISCardFileAccess::Rehabilitate method'
+---
+Description: Makes a file (EF or DF) that was previously made not valid by using the Invalidate method, accessible by the application.
+ms.assetid: 1906fcc5-ae76-4950-b2eb-e5ce1882637f
+title: ISCardFileAccessRehabilitate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::Rehabilitate method

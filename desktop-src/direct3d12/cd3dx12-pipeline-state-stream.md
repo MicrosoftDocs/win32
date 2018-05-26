@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM structure
 description: A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC and D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC.
-ms.assetid: 'C0CEFC67-72B3-4A8D-9C88-381990FC9898'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM structure"]
+ms.assetid: C0CEFC67-72B3-4A8D-9C88-381990FC9898
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM structure
 
-A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md) and [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](d3d12-compute-pipeline-state-desc.md).
+A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master) and [**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_compute_pipeline_state_desc?branch=master).
 
 CD3DX12\_PIPELINE\_STATE\_STREAM supports Windows 10 Creators Update and newer but doesn't support new features of the Fall Creators update, such as view instancing. To support features of the Fall Creators update, use [**CD3DX12\_PIPELINE\_STATE\_STREAM1**](direct3d12-cd3dx12_graphics_pipeline_state_stream1) instead.
 
@@ -24,32 +30,32 @@ CD3DX12\_PIPELINE\_STATE\_STREAM supports Windows 10 Creators Update and newer b
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM {
-  CD3DX12_PIPELINE_STATE_STREAM                       CD3DX12_PIPELINE_STATE_STREAM();
-  CD3DX12_PIPELINE_STATE_STREAM                       CD3DX12_PIPELINE_STATE_STREAM(const D3D12_GRAPHICS_PIPELINE_STATE_DESC&amp; Desc);
-  CD3DX12_PIPELINE_STATE_STREAM                       CD3DX12_PIPELINE_STATE_STREAM(const D3D12_COMPUTE_PIPELINE_STATE_DESC&amp; Desc);
-  D3D12_GRAPHICS_PIPELINE_STATE_DESC                  GraphicsDescV0();
-  D3D12_COMPUTE_PIPELINE_STATE_DESC                   ComputeDescV0();
-  CD3DX12_PIPELINE_STATE_STREAM_FLAGS                 Flags;
-  CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK             NodeMask;
-  CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE        pRootSignature;
-  CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT          InputLayout;
-  CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE    IBStripCutValue;
-  CD3DX12_PIPELINE_STATE_STREAM_PRIMITIVE_TOPOLOGY    PrimitiveTopologyType;
-  CD3DX12_PIPELINE_STATE_STREAM_VS                    VS;
-  CD3DX12_PIPELINE_STATE_STREAM_GS                    GS;
-  CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT         StreamOutput;
-  CD3DX12_PIPELINE_STATE_STREAM_HS                    HS;
-  CD3DX12_PIPELINE_STATE_STREAM_DS                    DS;
-  CD3DX12_PIPELINE_STATE_STREAM_PS                    PS;
-  CD3DX12_PIPELINE_STATE_STREAM_CS                    CS;
-  CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC            BlendState;
-  CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL1        DepthStencilState;
-  CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT  DSVFormat;
-  CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER            RasterizerState;
+  CD3DX12_PIPELINE_STATE_STREAM                       CD3DX12_PIPELINE_STATE_STREAM();
+  CD3DX12_PIPELINE_STATE_STREAM                       CD3DX12_PIPELINE_STATE_STREAM(const D3D12_GRAPHICS_PIPELINE_STATE_DESC&amp; Desc);
+  CD3DX12_PIPELINE_STATE_STREAM                       CD3DX12_PIPELINE_STATE_STREAM(const D3D12_COMPUTE_PIPELINE_STATE_DESC&amp; Desc);
+  D3D12_GRAPHICS_PIPELINE_STATE_DESC                  GraphicsDescV0();
+  D3D12_COMPUTE_PIPELINE_STATE_DESC                   ComputeDescV0();
+  CD3DX12_PIPELINE_STATE_STREAM_FLAGS                 Flags;
+  CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK             NodeMask;
+  CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE        pRootSignature;
+  CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT          InputLayout;
+  CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE    IBStripCutValue;
+  CD3DX12_PIPELINE_STATE_STREAM_PRIMITIVE_TOPOLOGY    PrimitiveTopologyType;
+  CD3DX12_PIPELINE_STATE_STREAM_VS                    VS;
+  CD3DX12_PIPELINE_STATE_STREAM_GS                    GS;
+  CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT         StreamOutput;
+  CD3DX12_PIPELINE_STATE_STREAM_HS                    HS;
+  CD3DX12_PIPELINE_STATE_STREAM_DS                    DS;
+  CD3DX12_PIPELINE_STATE_STREAM_PS                    PS;
+  CD3DX12_PIPELINE_STATE_STREAM_CS                    CS;
+  CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC            BlendState;
+  CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL1        DepthStencilState;
+  CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT  DSVFormat;
+  CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER            RasterizerState;
   CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS RTVFormats;
-  CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC           SampleDesc;
-  CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK           SampleMask;
-  CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO            CachedPSO;
+  CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC           SampleDesc;
+  CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK           SampleMask;
+  CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO            CachedPSO;
 };
 ```
 
@@ -272,15 +278,15 @@ Those typedefs are:
 [**CD3DX12\_PIPELINE\_STATE\_STREAM1**](cd3dx12-pipeline-state-stream1.md)
 </dt> <dt>
 
-[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md)
+[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master)
 </dt> <dt>
 
-[**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](d3d12-compute-pipeline-state-desc.md)
+[**D3D12\_COMPUTE\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_compute_pipeline_state_desc?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_META\_GENRES enumeration type describes a broad genre type of a media file.'
-ms.assetid: 'a69cab70-5a45-4e75-abbd-230396c2b5ec'
-title: 'WPD\_META\_GENRES enumeration'
+Description: The WPD\_META\_GENRES enumeration type describes a broad genre type of a media file.
+ms.assetid: a69cab70-5a45-4e75-abbd-230396c2b5ec
+title: WPD\_META\_GENRES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_META\_GENRES enumeration
@@ -13,25 +18,25 @@ The **WPD\_META\_GENRES** enumeration type describes a broad genre type of a med
 
 ```C++
 typedef enum WPD_META_GENRES { 
-  WPD_META_GENRE_UNUSED                            = 0x0,
-  WPD_META_GENRE_GENERIC_MUSIC_AUDIO_FILE          = 0x1,
-  WPD_META_GENRE_GENERIC_NON_MUSIC_AUDIO_FILE      = 0x11,
-  WPD_META_GENRE_SPOKEN_WORD_AUDIO_BOOK_FILES      = 0x12,
-  WPD_META_GENRE_SPOKEN_WORD_FILES_NON_AUDIO_BOOK  = 0x13,
-  WPD_META_GENRE_SPOKEN_WORD_NEWS                  = 0x14,
-  WPD_META_GENRE_SPOKEN_WORD_TALK_SHOWS            = 0x15,
-  WPD_META_GENRE_GENERIC_VIDEO_FILE                = 0x21,
-  WPD_META_GENRE_NEWS_VIDEO_FILE                   = 0x22,
-  WPD_META_GENRE_MUSIC_VIDEO_FILE                  = 0x23,
-  WPD_META_GENRE_HOME_VIDEO_FILE                   = 0x24,
-  WPD_META_GENRE_FEATURE_FILM_VIDEO_FILE           = 0x25,
-  WPD_META_GENRE_TELEVISION_VIDEO_FILE             = 0x26,
-  WPD_META_GENRE_TRAINING_EDUCATIONAL_VIDEO_FILE   = 0x27,
-  WPD_META_GENRE_PHOTO_MONTAGE_VIDEO_FILE          = 0x28,
-  WPD_META_GENRE_GENERIC_NON_AUDIO_NON_VIDEO       = 0x30,
-  WPD_META_GENRE_AUDIO_PODCAST                     = 0x40,
-  WPD_META_GENRE_VIDEO_PODCAST                     = 0x41,
-  WPD_META_GENRE_MIXED_PODCAST                     = 0x42
+  WPD_META_GENRE_UNUSED                            = 0x0,
+  WPD_META_GENRE_GENERIC_MUSIC_AUDIO_FILE          = 0x1,
+  WPD_META_GENRE_GENERIC_NON_MUSIC_AUDIO_FILE      = 0x11,
+  WPD_META_GENRE_SPOKEN_WORD_AUDIO_BOOK_FILES      = 0x12,
+  WPD_META_GENRE_SPOKEN_WORD_FILES_NON_AUDIO_BOOK  = 0x13,
+  WPD_META_GENRE_SPOKEN_WORD_NEWS                  = 0x14,
+  WPD_META_GENRE_SPOKEN_WORD_TALK_SHOWS            = 0x15,
+  WPD_META_GENRE_GENERIC_VIDEO_FILE                = 0x21,
+  WPD_META_GENRE_NEWS_VIDEO_FILE                   = 0x22,
+  WPD_META_GENRE_MUSIC_VIDEO_FILE                  = 0x23,
+  WPD_META_GENRE_HOME_VIDEO_FILE                   = 0x24,
+  WPD_META_GENRE_FEATURE_FILM_VIDEO_FILE           = 0x25,
+  WPD_META_GENRE_TELEVISION_VIDEO_FILE             = 0x26,
+  WPD_META_GENRE_TRAINING_EDUCATIONAL_VIDEO_FILE   = 0x27,
+  WPD_META_GENRE_PHOTO_MONTAGE_VIDEO_FILE          = 0x28,
+  WPD_META_GENRE_GENERIC_NON_AUDIO_NON_VIDEO       = 0x30,
+  WPD_META_GENRE_AUDIO_PODCAST                     = 0x40,
+  WPD_META_GENRE_VIDEO_PODCAST                     = 0x41,
+  WPD_META_GENRE_MIXED_PODCAST                     = 0x42
 } ;
 ```
 
@@ -195,9 +200,9 @@ This enumeration is used by the [WPD\_MEDIA\_META\_GENRE](media-properties.md#wp
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

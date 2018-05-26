@@ -1,14 +1,19 @@
 ---
 title: How to Skew an Object
 description: Shows how to skew an object.
-ms.assetid: 'bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff'
+ms.assetid: bdc12ca3-eb0d-49ab-8ef7-f42f24fef7ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Skew an Object
 
 To skew (or shear) an object means to distort an object by a specified angle from the x-axis, the y-axis, or both. For example, when you skew a square, it becomes a parallelogram.
 
-The [**Matrix3x2F::Skew**](matrix3x2f-skew.md) method takes 3 parameters:
+The [**Matrix3x2F::Skew**](/windows/win32/d2d1helper/nf-d2d1helper-matrix3x2f-skew?branch=master) method takes 3 parameters:
 
 -   *angleX*: The x-axis skew angle, which is measured in degrees counterclockwise from the y-axis.
 -   *angleY*: The y-axis skew angle, which is measured in degrees clockwise from the x-axis.

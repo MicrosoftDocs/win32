@@ -1,13 +1,16 @@
 ---
-Description: 'The PropagatesToSubClass property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to a subclass.'
+Description: The PropagatesToSubClass property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to a subclass.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd0c272fa-314c-4555-9fcf-6b7caf980f07'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d0c272fa-314c-4555-9fcf-6b7caf980f07
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifier.PropagatesToSubClass property'
+title: SWbemQualifier.PropagatesToSubClass property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifier.PropagatesToSubClass property
@@ -35,8 +38,8 @@ SWbemQualifier.PropagatesToSubClass
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemQualifier.PropagatesToSubClass
 
 
 
- 
+ 
 
- 
+ 
 
 
 

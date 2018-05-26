@@ -1,7 +1,12 @@
 ---
-Description: 'Name eof the contact''s spouse.'
-ms.assetid: '382d4e90-11f9-4b03-9486-49627ec8e32d'
-title: 'System.Contact.SpouseName'
+Description: Name eof the contacts spouse.
+ms.assetid: 382d4e90-11f9-4b03-9486-49627ec8e32d
+title: System.Contact.SpouseName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.SpouseName

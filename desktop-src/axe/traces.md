@@ -1,14 +1,20 @@
 ---
 title: Traces element
 description: A container for Trace elements.
-ms.assetid: '8AF5163F-D6E4-4C3B-85F2-666A28A43E43'
-keywords: ["Traces element Access Execution Engine"]
+ms.assetid: 8AF5163F-D6E4-4C3B-85F2-666A28A43E43
+keywords:
+- Traces element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Traces
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Traces element

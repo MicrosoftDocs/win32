@@ -4,10 +4,13 @@ description: This topic contains a code example that converts an objectSid to a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8308c2e1-1a6f-4bbe-84fd-03b5fe13f0ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8308c2e1-1a6f-4bbe-84fd-03b5fe13f0ec
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Converting an objectSid into a Bindable String

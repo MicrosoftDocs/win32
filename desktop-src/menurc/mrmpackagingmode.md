@@ -1,8 +1,9 @@
 ---
 title: MrmPackagingMode enumeration
 description: Defines constants that specify what kind of PRI file(s) should be created by MrmCreateResourceFile and MrmCreateResourceFileInMemory.
-ms.assetid: '5695B67E-5446-4538-83D2-F8FF91A5080E'
-keywords: ["MrmPackagingMode enumeration Menus and Other Resources"]
+ms.assetid: 5695B67E-5446-4538-83D2-F8FF91A5080E
+keywords:
+- MrmPackagingMode enumeration Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmPackagingMode enumeration
@@ -24,9 +30,9 @@ Defines constants that specify what kind of PRI file(s) should be created by [**
 
 ```C++
 typedef enum _MrmPackagingMode { 
-  MrmPackagingModeStandaloneFile  = 0,
-  MrmPackagingModeAutoSplit       = 1,
-  MrmPackagingModeResourcePack    = 2
+  MrmPackagingModeStandaloneFile  = 0,
+  MrmPackagingModeAutoSplit       = 1,
+  MrmPackagingModeResourcePack    = 2
 } MrmPackagingMode;
 ```
 
@@ -63,7 +69,7 @@ Specifies that an add-on satellite PRI file should be created.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 
@@ -76,9 +82,9 @@ Specifies that an add-on satellite PRI file should be created.
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

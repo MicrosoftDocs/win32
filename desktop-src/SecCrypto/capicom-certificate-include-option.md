@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines which certificates in a chain are saved.'
-ms.assetid: '6f9e28e6-b01f-4803-8259-8ab73abeecf8'
-title: 'CAPICOM\_CERTIFICATE\_INCLUDE\_OPTION enumeration'
+---
+Description: Defines which certificates in a chain are saved.
+ms.assetid: 6f9e28e6-b01f-4803-8259-8ab73abeecf8
+title: CAPICOM\_CERTIFICATE\_INCLUDE\_OPTION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_CERTIFICATE\_INCLUDE\_OPTION enumeration

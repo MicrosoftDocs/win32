@@ -1,8 +1,11 @@
 ---
 title: System.Contact.workPhone property
 description: Gets the work phone number associated with the contact.
-ms.assetid: 'feccfbb0-e595-4f4a-8731-d4d47304e054'
-keywords: ["workPhone property Windows Sidebar", "workPhone property Windows Sidebar , System.Contact object", "System.Contact object Windows Sidebar , workPhone property"]
+ms.assetid: feccfbb0-e595-4f4a-8731-d4d47304e054
+keywords:
+- workPhone property Windows Sidebar
+- workPhone property Windows Sidebar , System.Contact object
+- System.Contact object Windows Sidebar , workPhone property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.workPhone property
@@ -64,10 +72,10 @@ for (var i = 0; i < oContact.count; i++)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -86,9 +94,9 @@ for (var i = 0; i < oContact.count; i++)
 [**System.ContactManager**](system-contactmanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

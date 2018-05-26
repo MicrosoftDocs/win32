@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter V.'
-Robots: 'noindex, nofollow'
-ms.assetid: '412796ce-2ad5-429b-a2a6-8d286b19ae30'
+Description: Contains definitions of security terms that begin with the letter V.
+Robots: noindex, nofollow
+ms.assetid: 412796ce-2ad5-429b-a2a6-8d286b19ae30
 title: V
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # V

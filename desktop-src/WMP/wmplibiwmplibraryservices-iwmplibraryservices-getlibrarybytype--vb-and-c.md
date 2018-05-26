@@ -1,8 +1,11 @@
 ---
 title: IWMPLibraryServices getLibraryByType method
 description: The getLibraryByType method returns an IWMPLibrary interface that represents the library that has the specified type and index.
-ms.assetid: '2507c764-a2cf-42f9-ad44-eaf040b78891'
-keywords: ["getLibraryByType method Windows Media Player", "getLibraryByType method Windows Media Player , IWMPLibraryServices interface", "IWMPLibraryServices interface Windows Media Player , getLibraryByType method"]
+ms.assetid: 2507c764-a2cf-42f9-ad44-eaf040b78891
+keywords:
+- getLibraryByType method Windows Media Player
+- getLibraryByType method Windows Media Player , IWMPLibraryServices interface
+- IWMPLibraryServices interface Windows Media Player , getLibraryByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibraryServices::getLibraryByType method
@@ -99,12 +107,12 @@ There is only one local library, and disc libraries are available only on data C
 [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)
 </dt> <dt>
 
-[**WMPLibraryType**](wmplibrarytype.md)
+[**WMPLibraryType**](/windows/win32/wmp/ne-wmp-wmplibrarytype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

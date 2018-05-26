@@ -1,13 +1,23 @@
 ---
 title: Porting Stencil Plane Calls
 description: In OpenGL, you allocate stencil planes by requesting the appropriate pixel format with the OpenGL auxInitDisplayMode or ChoosePixelFormat.
-ms.assetid: 'faea8a10-860a-4495-80fb-e83303e397df'
-keywords: ["IRIS GL porting,stencil planes", "porting from IRIS GL,stencil planes", "porting to OpenGL from IRIS GL,stencil planes", "OpenGL porting from IRIS GL,stencil planes", "stencil planes"]
+ms.assetid: faea8a10-860a-4495-80fb-e83303e397df
+keywords:
+- IRIS GL porting,stencil planes
+- porting from IRIS GL,stencil planes
+- porting to OpenGL from IRIS GL,stencil planes
+- OpenGL porting from IRIS GL,stencil planes
+- stencil planes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Stencil Plane Calls
 
-In OpenGL, you allocate stencil planes by requesting the appropriate pixel format with the OpenGL **auxInitDisplayMode** or [**ChoosePixelFormat**](choosepixelformat.md). functions. The following table lists IRIS GL functions that affect the stencil planes and their equivalent OpenGL functions.
+In OpenGL, you allocate stencil planes by requesting the appropriate pixel format with the OpenGL **auxInitDisplayMode** or [**ChoosePixelFormat**](/windows/win32/wingdi/nf-wingdi-choosepixelformat?branch=master). functions. The following table lists IRIS GL functions that affect the stencil planes and their equivalent OpenGL functions.
 
 
 

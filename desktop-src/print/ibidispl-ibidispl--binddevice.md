@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function.'
-ms.assetid: '880ff314-c79d-4395-83ad-ce61bb8da5b5'
-title: 'IBidiSpl::BindDevice method'
+---
+Description: The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function.
+ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
+title: IBidiSplBindDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl::BindDevice method

@@ -1,7 +1,12 @@
 ---
 title: Interpreting Arguments and Strings Based on the Locale ID
 description: Some methods or properties need to interpret arguments based on the LCID.
-ms.assetid: '59ac04d3-d898-4af8-8f6c-c94791cf1c3d'
+ms.assetid: 59ac04d3-d898-4af8-8f6c-c94791cf1c3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interpreting Arguments and Strings Based on the Locale ID

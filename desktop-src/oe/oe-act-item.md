@@ -1,8 +1,10 @@
 ---
 title: ACT\_ITEM structure
-description: ACT\_ITEM is no longer available for use as of Windows Vista.
-ms.assetid: '34f7c41e-708a-40de-b333-92ebf2714f21'
-keywords: ["ACT_ITEM structure Windows Mail (formerly Outlook Express)", "PACT_ITEM structure pointer Windows Mail (formerly Outlook Express)"]
+description: ACT\_ITEM is no longer available for use as of Windows Vista.
+ms.assetid: 34f7c41e-708a-40de-b333-92ebf2714f21
+keywords:
+- ACT_ITEM structure Windows Mail (formerly Outlook Express)
+- PACT_ITEM structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,19 +13,24 @@ api_location:
 - Oerules.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACT\_ITEM structure
 
-\[**ACT\_ITEM** is no longer available for use as of Windows Vista.\]
+\[**ACT\_ITEM** is no longer available for use as of Windows Vista.\]
 
 ## Syntax
 
 
 ```C++
 typedef struct tagACT_ITEM {
-  ACT_TYPE    type;
-  DWORD       dwFlags;
+  ACT_TYPE    type;
+  DWORD       dwFlags;
   PROPVARIANT propvar;
 } ACT_ITEM, *PACT_ITEM;
 ```
@@ -67,19 +74,19 @@ Type: **[PROPVARIANT](https://msdn.microsoft.com/library/windows/desktop/aa38007
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

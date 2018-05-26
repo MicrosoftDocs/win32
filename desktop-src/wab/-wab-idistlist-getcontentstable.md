@@ -1,8 +1,11 @@
 ---
 title: IDistList GetContentsTable method
 description: Retrieves the address of the contents table of the distribution list.
-ms.assetid: 'f276c58a-4887-4cde-ba1e-a743a6cb4ea3'
-keywords: ["GetContentsTable method Windows Address Book", "GetContentsTable method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , GetContentsTable method"]
+ms.assetid: f276c58a-4887-4cde-ba1e-a743a6cb4ea3
+keywords:
+- GetContentsTable method Windows Address Book
+- GetContentsTable method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , GetContentsTable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::GetContentsTable method
@@ -22,8 +30,8 @@ Retrieves the address of the contents table of the distribution list.
 
 ```C++
 HRESULT GetContentsTable(
-   ULONG      ulFlags,
-   IMAPITable **lppTable
+   ULONG      ulFlags,
+   IMAPITable **lppTable
 );
 ```
 
@@ -67,7 +75,7 @@ Indicates that wide strings are to be retrieved.
 *lppTable* 
 </dt> <dd>
 
-Type: **[**IMAPITable**](-wab-imapitable.md)\*\***
+Type: **[**IMAPITable**](/windows/previous-versions/Wabdefs/?branch=master)\*\***
 
 Address of a pointer to a variable of type IMAPITable that receives the table object containing the contents table.
 
@@ -89,7 +97,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -101,17 +109,17 @@ The MAPI\_UNICODE flag is not supported in the first version of the WAB.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_SYSKEYUP message
 description: Posted to the window with the keyboard focus when the user releases a key that was pressed while the ALT key was held down.
-ms.assetid: 'a4f62575-fb84-4390-a1d1-1a62629de55f'
-keywords: ["WM_SYSKEYUP message Keyboard and Mouse Input"]
+ms.assetid: a4f62575-fb84-4390-a1d1-1a62629de55f
+keywords:
+- WM_SYSKEYUP message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SYSKEYUP message
@@ -56,7 +62,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -85,7 +91,7 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -93,8 +99,8 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -124,9 +130,9 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

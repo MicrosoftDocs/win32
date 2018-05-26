@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_StatisticalInformation class is a root class for the arbitrary collection of statistical data or metrics applicable to one or more managed system elements.'
+Description: The CIM\_StatisticalInformation class is a root class for the arbitrary collection of statistical data or metrics applicable to one or more managed system elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ecc3b310-c553-416b-b4e3-705965557945'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ecc3b310-c553-416b-b4e3-705965557945
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_StatisticalInformation class'
+title: CIM\_StatisticalInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StatisticalInformation class
@@ -19,7 +22,7 @@ The **CIM\_StatisticalInformation** class is a root class for the arbitrary coll
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -104,17 +107,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

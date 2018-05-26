@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::QueryColorProfile method allows a user interface plug-in to specify an ICC profile to use for color management.'
-ms.assetid: 'ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7'
-title: 'IPrintOemUI::QueryColorProfile method'
+---
+Description: The IPrintOemUIQueryColorProfile method allows a user interface plug-in to specify an ICC profile to use for color management.
+ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
+title: IPrintOemUIQueryColorProfile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::QueryColorProfile method

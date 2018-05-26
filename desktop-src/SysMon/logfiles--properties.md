@@ -1,7 +1,12 @@
 ---
 title: LogFiles Properties
 description: The LogFiles class has the following properties
-ms.assetid: '09935840-7f41-4840-af7c-3f1e82f0ea30'
+ms.assetid: 09935840-7f41-4840-af7c-3f1e82f0ea30
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogFiles Properties

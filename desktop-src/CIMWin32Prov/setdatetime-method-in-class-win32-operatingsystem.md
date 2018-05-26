@@ -1,15 +1,18 @@
 ---
-Description: 'The SetDateTime&\#8194;WMI class method sets the current system time on the computer.'
+Description: The SetDateTime&\#8194;WMI class method sets the current system time on the computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b9b86a52-c3d7-489d-8632-b297970dbeac'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b9b86a52-c3d7-489d-8632-b297970dbeac
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetDateTime method of the Win32\_OperatingSystem class'
+title: SetDateTime method of the Win32\_OperatingSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDateTime method of the Win32\_OperatingSystem class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetDateTime(
-  [in] datetime LocalDatetime
+  [in] datetime LocalDatetime
 );
 ```
 
@@ -49,7 +52,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For e
 **Success** (0)
 </dt> <dt>
 
-**Other** (1–4294967295)
+**Other** (1 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -62,8 +65,8 @@ The calling process must have the SE\_SYSTEMTIME\_NAME privilege.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -83,9 +86,9 @@ The calling process must have the SE\_SYSTEMTIME\_NAME privilege.
 [WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

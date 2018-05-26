@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_GPU\_DESCRIPTOR\_HANDLE structure
 description: A helper structure to enable easy initialization of a D3D12\_GPU\_DESCRIPTOR\_HANDLE structure.
-ms.assetid: '6E405AD6-D370-4B87-849A-C52D64C79BF7'
-keywords: ["CD3DX12_GPU_DESCRIPTOR_HANDLE structure"]
+ms.assetid: 6E405AD6-D370-4B87-849A-C52D64C79BF7
+keywords:
+- CD3DX12_GPU_DESCRIPTOR_HANDLE structure
 topic_type:
 - apiref
 api_name:
@@ -11,31 +12,36 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_GPU\_DESCRIPTOR\_HANDLE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_GPU_DESCRIPTOR_HANDLE  : public D3D12_GPU_DESCRIPTOR_HANDLE{
-                                  CD3DX12_GPU_DESCRIPTOR_HANDLE();
-                                  explicit CD3DX12_GPU_DESCRIPTOR_HANDLE(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;o);
-                                  CD3DX12_GPU_DESCRIPTOR_HANDLE(CD3DX12_DEFAULT);
-                                  CD3DX12_GPU_DESCRIPTOR_HANDLE(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;other, INT offsetScaledByIncrementSize);
-                                  CD3DX12_GPU_DESCRIPTOR_HANDLE(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;other, INT offsetInDescriptors, UINT descriptorIncrementSize);
-  CD3DX12_GPU_DESCRIPTOR_HANDLE&amp;  Offset(INT offsetInDescriptors, UINT descriptorIncrementSize);
-  CD3DX12_GPU_DESCRIPTOR_HANDLE&amp;  Offset(INT offsetScaledByIncrementSize);
-  bool                            inline operator==( _In_ const D3D12_GPU_DESCRIPTOR_HANDLE&amp; other) const;
-  bool                            inline operator!=( _In_ const D3D12_GPU_DESCRIPTOR_HANDLE&amp; other) const;
+                                  CD3DX12_GPU_DESCRIPTOR_HANDLE();
+                                  explicit CD3DX12_GPU_DESCRIPTOR_HANDLE(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;o);
+                                  CD3DX12_GPU_DESCRIPTOR_HANDLE(CD3DX12_DEFAULT);
+                                  CD3DX12_GPU_DESCRIPTOR_HANDLE(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;other, INT offsetScaledByIncrementSize);
+                                  CD3DX12_GPU_DESCRIPTOR_HANDLE(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;other, INT offsetInDescriptors, UINT descriptorIncrementSize);
+  CD3DX12_GPU_DESCRIPTOR_HANDLE&amp;  Offset(INT offsetInDescriptors, UINT descriptorIncrementSize);
+  CD3DX12_GPU_DESCRIPTOR_HANDLE&amp;  Offset(INT offsetScaledByIncrementSize);
+  bool                            inline operator==( _In_ const D3D12_GPU_DESCRIPTOR_HANDLE&amp; other) const;
+  bool                            inline operator!=( _In_ const D3D12_GPU_DESCRIPTOR_HANDLE&amp; other) const;
   CD3DX12_GPU_DESCRIPTOR_HANDLE & operator=(const D3D12_GPU_DESCRIPTOR_HANDLE &amp;other);
-  void                            inline InitOffsetted(_In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetScaledByIncrementSize);
-  void                            inline InitOffsetted(_In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetInDescriptors, UINT descriptorIncrementSize);
-  void                            static inline InitOffsetted(_Out_ D3D12_GPU_DESCRIPTOR_HANDLE &amp;handle, _In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetScaledByIncrementSize);
-  void                            static inline InitOffsetted(_Out_ D3D12_GPU_DESCRIPTOR_HANDLE &amp;handle, _In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetInDescriptors, UINT descriptorIncrementSize);
+  void                            inline InitOffsetted(_In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetScaledByIncrementSize);
+  void                            inline InitOffsetted(_In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetInDescriptors, UINT descriptorIncrementSize);
+  void                            static inline InitOffsetted(_Out_ D3D12_GPU_DESCRIPTOR_HANDLE &amp;handle, _In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetScaledByIncrementSize);
+  void                            static inline InitOffsetted(_Out_ D3D12_GPU_DESCRIPTOR_HANDLE &amp;handle, _In_ const D3D12_GPU_DESCRIPTOR_HANDLE &amp;base, INT offsetInDescriptors, UINT descriptorIncrementSize);
 };
 ```
 
@@ -55,7 +61,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_GPU\_DESCRIPTOR\_HANDLE.
 **explicit CD3DX12\_GPU\_DESCRIPTOR\_HANDLE(const D3D12\_GPU\_DESCRIPTOR\_HANDLE &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_GPU\_DESCRIPTOR\_HANDLE, initialized with the contents of another [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md) structure.
+Creates a new instance of a CD3DX12\_GPU\_DESCRIPTOR\_HANDLE, initialized with the contents of another [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master) structure.
 
 </dd> <dt>
 
@@ -134,7 +140,7 @@ Sets the current CD3DX12\_GPU\_DESCRIPTOR\_HANDLE to the same values as the spec
 **inline InitOffsetted(\_In\_ const D3D12\_GPU\_DESCRIPTOR\_HANDLE &base, INT offsetScaledByIncrementSize)**
 </dt> <dd>
 
-Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md) structure with the specified number of items. Uses the following parameters:
+Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master) structure with the specified number of items. Uses the following parameters:
 
 \_In\_ const D3D12\_GPU\_DESCRIPTOR\_HANDLE &base: The base address from which to offset.
 
@@ -145,7 +151,7 @@ INT offsetScaledByIncrementSize: The number of increments by which to offset.
 **inline InitOffsetted(\_In\_ const D3D12\_GPU\_DESCRIPTOR\_HANDLE &base, INT offsetInDescriptors, UINT descriptorIncrementSize)**
 </dt> <dd>
 
-Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md) structure with an offset, using the specified number of descriptors of the given size. Uses the following parameters:
+Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master) structure with an offset, using the specified number of descriptors of the given size. Uses the following parameters:
 
 \_In\_ const D3D12\_GPU\_DESCRIPTOR\_HANDLE &base: The base address from which to offset.
 
@@ -158,7 +164,7 @@ UINT descriptorIncrementSize: The amount by which to increment for each descript
 **static inline InitOffsetted(\_Out\_ D3D12\_GPU\_DESCRIPTOR\_HANDLE &handle, \_In\_ const D3D12\_GPU\_DESCRIPTOR\_HANDLE &base, INT offsetScaledByIncrementSize)**
 </dt> <dd>
 
-Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md) structure with an offset, using the specified number of descriptors of the given size. Uses the following parameters:
+Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master) structure with an offset, using the specified number of descriptors of the given size. Uses the following parameters:
 
 \_Out\_ D3D12\_GPU\_DESCRIPTOR\_HANDLE &handle: Outputs the resulting D3D12\_GPU\_DESCRIPTOR\_HANDLE.
 
@@ -171,7 +177,7 @@ INT offsetScaledByIncrementSize: The number of increments by which to offset.
 **static inline InitOffsetted(\_Out\_ D3D12\_GPU\_DESCRIPTOR\_HANDLE &handle, \_In\_ const D3D12\_GPU\_DESCRIPTOR\_HANDLE &base, INT offsetInDescriptors, UINT descriptorIncrementSize)**
 </dt> <dd>
 
-Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md) structure with an offset, using the specified number of descriptors of the given size. Uses the following parameters:
+Initializes a [**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master) structure with an offset, using the specified number of descriptors of the given size. Uses the following parameters:
 
 \_Out\_ D3D12\_GPU\_DESCRIPTOR\_HANDLE &handle: Outputs the resulting D3D12\_GPU\_DESCRIPTOR\_HANDLE.
 
@@ -197,15 +203,15 @@ UINT descriptorIncrementSize: The amount by which to increment for each descript
 
 <dl> <dt>
 
-[**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](d3d12-gpu-descriptor-handle.md)
+[**D3D12\_GPU\_DESCRIPTOR\_HANDLE**](/windows/win32/D3D12/ns-d3d12-d3d12_gpu_descriptor_handle?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

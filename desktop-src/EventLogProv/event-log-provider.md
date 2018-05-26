@@ -1,7 +1,12 @@
 ---
-Description: 'The Event Log provider supplies access to data from the event log service, and notification of events.'
-ms.assetid: '24dec59e-686e-4154-ba08-e8fe613fa166'
+Description: The Event Log provider supplies access to data from the event log service, and notification of events.
+ms.assetid: 24dec59e-686e-4154-ba08-e8fe613fa166
 title: Event Log Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Log Provider

@@ -1,14 +1,22 @@
 ---
 title: IEnumTfRenderingMarkup Reset method
 description: The IEnumTfRenderingMarkup Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
-ms.assetid: '0fa1e1cb-ab80-4569-a761-7dc8d9301fb1'
-keywords: ["Reset method Text Services Framework", "Reset method Text Services Framework , IEnumTfRenderingMarkup interface", "IEnumTfRenderingMarkup interface Text Services Framework , Reset method"]
+ms.assetid: 0fa1e1cb-ab80-4569-a761-7dc8d9301fb1
+keywords:
+- Reset method Text Services Framework
+- Reset method Text Services Framework , IEnumTfRenderingMarkup interface
+- IEnumTfRenderingMarkup interface Text Services Framework , Reset method
 topic_type:
 - apiref
 api_name:
 - IEnumTfRenderingMarkup.Reset
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumTfRenderingMarkup::Reset method
@@ -42,18 +50,18 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > This method is not currently in the public header files. To use this API, you must MIDL-compile the [prototype](prototypes.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

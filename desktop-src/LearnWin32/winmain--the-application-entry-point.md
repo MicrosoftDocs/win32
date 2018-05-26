@@ -1,7 +1,12 @@
 ---
 title: WinMain The Application Entry Point
 description: .
-ms.assetid: '389da5d4-d0f9-4339-be6c-0f4fecc59316'
+ms.assetid: 389da5d4-d0f9-4339-be6c-0f4fecc59316
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinMain: The Application Entry Point

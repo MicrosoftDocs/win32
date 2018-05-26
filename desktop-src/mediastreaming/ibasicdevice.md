@@ -1,14 +1,21 @@
 ---
 title: IBasicDevice interface
 description: Encapsulates the methods and events needed to model a DLNA Device.
-ms.assetid: 'E4F99A11-4ED5-44CB-BE16-CBB558412ED4'
-keywords: ["IBasicDevice interface Media Streaming API", "IBasicDevice interface Media Streaming API , described"]
+ms.assetid: E4F99A11-4ED5-44CB-BE16-CBB558412ED4
+keywords:
+- IBasicDevice interface Media Streaming API
+- IBasicDevice interface Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - IBasicDevice
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice interface
@@ -34,25 +41,25 @@ The **IBasicDevice** interface has these methods.
 | [**ConnectionStatus**](ibasicdevice-connectionstatus.md)                              | Returns an enumeration value indicating whether the device is currently on-line, off-line or sleeping but wakeable.<br/> |
 | [**Description**](ibasicdevice-description.md)                                        | Retrieves a description of the device.<br/>                                                                              |
 | [**DiscoveredOnCurrentNetwork**](ibasicdevice-discoveredoncurrentnetwork.md)          | Retrieves a value that indicates if the device is on the current network.<br/>                                           |
-| [**FriendlyName**](ibasicdevice-friendlyname.md)                                      | Retrieves the device’s friendly name.<br/>                                                                               |
+| [**FriendlyName**](ibasicdevice-friendlyname.md)                                      | Retrieves the device s friendly name.<br/>                                                                               |
 | [**Icons**](ibasicdevice-icons.md)                                                    | Returns a vector of [**IDeviceIcon**](ideviceicon.md) interfaces.<br/>                                                  |
 | [**IpAddresses**](ibasicdevice-ipaddresses.md)                                        | Returns a vector of IP addresses.<br/>                                                                                   |
-| [**ManufacturerName**](ibasicdevice-manufacturername.md)                              | Retrieves the device’s manufacturer name.<br/>                                                                           |
-| [**ManufacturerUrl**](ibasicdevice-manufacturerurl.md)                                | Retrieves the device’s manufacturer URL.<br/>                                                                            |
-| [**ModelName**](ibasicdevice-modelname.md)                                            | Retrieves the device’s model name.<br/>                                                                                  |
-| [**ModelNumber**](ibasicdevice-modelnumber.md)                                        | Retrieves the device’s model number.<br/>                                                                                |
-| [**ModelUrl**](ibasicdevice-modelurl.md)                                              | Retrieves the device’s model URL.<br/>                                                                                   |
+| [**ManufacturerName**](ibasicdevice-manufacturername.md)                              | Retrieves the device s manufacturer name.<br/>                                                                           |
+| [**ManufacturerUrl**](ibasicdevice-manufacturerurl.md)                                | Retrieves the device s manufacturer URL.<br/>                                                                            |
+| [**ModelName**](ibasicdevice-modelname.md)                                            | Retrieves the device s model name.<br/>                                                                                  |
+| [**ModelNumber**](ibasicdevice-modelnumber.md)                                        | Retrieves the device s model number.<br/>                                                                                |
+| [**ModelUrl**](ibasicdevice-modelurl.md)                                              | Retrieves the device s model URL.<br/>                                                                                   |
 | [**PhysicalAddresses**](ibasicdevice-physicaladdresses.md)                            | Returns a vector of physical addresses.<br/>                                                                             |
-| [**PresentationUrl**](ibasicdevice-presentationurl.md)                                | Retrieves the device’s presentation URL.<br/>                                                                            |
+| [**PresentationUrl**](ibasicdevice-presentationurl.md)                                | Retrieves the device s presentation URL.<br/>                                                                            |
 | [**RemoteStreamingUrls**](ibasicdevice-remotestreamingurls.md)                        | Returns a vector of remote streaming URLs.<br/>                                                                          |
 | [**remove\_ConnectionStatusChanged**](ibasicdevice-remove-connectionstatuschanged.md) | Unregisters an event handler for the [**ConnectionStatusChanged**](connectionstatuschanged.md) event.<br/>              |
-| [**SerialNumber**](ibasicdevice-serialnumber.md)                                      | Retrieves the device’s serial number.<br/>                                                                               |
+| [**SerialNumber**](ibasicdevice-serialnumber.md)                                      | Retrieves the device s serial number.<br/>                                                                               |
 | [**Type**](ibasicdevice-type.md)                                                      | Retreives an enumeration value indicating the device type of the DLNA device.<br/>                                       |
-| [**UniqueDeviceName**](ibasicdevice-uniquedevicename.md)                              | Retrieves the device’s unique device name (UDN).<br/>                                                                    |
+| [**UniqueDeviceName**](ibasicdevice-uniquedevicename.md)                              | Retrieves the device s unique device name (UDN).<br/>                                                                    |
 
 
 
- 
+ 
 
 ## See also
 
@@ -61,9 +68,9 @@ The **IBasicDevice** interface has these methods.
 [**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

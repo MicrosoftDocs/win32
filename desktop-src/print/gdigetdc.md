@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiGetDC function returns a handle to a printer''s device context.'
-ms.assetid: 'f8aacb6d-4e8a-4fdb-902c-3d0efbc40f08'
+---
+Description: The GdiGetDC function returns a handle to a printers device context.
+ms.assetid: f8aacb6d-4e8a-4fdb-902c-3d0efbc40f08
 title: GdiGetDC function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiGetDC function

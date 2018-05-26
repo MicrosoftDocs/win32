@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.deleteSelectedFromLibrary
 description: The deleteSelectedFromLibrary method deletes the selected item from the playlist and from the library.
-ms.assetid: '04775d62-91dc-4c08-a864-0301fbc1995f'
-keywords: ["PLAYLIST.deleteSelectedFromLibrary Windows Media Player"]
+ms.assetid: 04775d62-91dc-4c08-a864-0301fbc1995f
+keywords:
+- PLAYLIST.deleteSelectedFromLibrary Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.deleteSelectedFromLibrary
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.deleteSelectedFromLibrary
@@ -47,9 +53,9 @@ This method does not return a value.
 [**PLAYLIST.deleteSelected**](playlist-deleteselected.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

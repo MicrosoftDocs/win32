@@ -1,7 +1,12 @@
 ---
 title: Menu Notifications
 description: .
-ms.assetid: '8ff5671e-a666-483c-9ac1-f8be6eb58ffa'
+ms.assetid: 8ff5671e-a666-483c-9ac1-f8be6eb58ffa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Menu Notifications

@@ -1,14 +1,22 @@
 ---
 title: Service.onObjectAdded event
 description: The onObjectAdded event occurs after an object has been added to this Service object.
-ms.assetid: '2c8ca65a-c4e0-434e-9d64-1496399fe813'
-keywords: ["onObjectAdded event WPD Automation", "onObjectAdded event WPD Automation , Service object", "Service object WPD Automation , onObjectAdded event"]
+ms.assetid: 2c8ca65a-c4e0-434e-9d64-1496399fe813
+keywords:
+- onObjectAdded event WPD Automation
+- onObjectAdded event WPD Automation , Service object
+- Service object WPD Automation , onObjectAdded event
 topic_type:
 - apiref
 api_name:
 - Service.onObjectAdded
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onObjectAdded event
@@ -63,7 +71,7 @@ Service.onObjectAdded = HandlerFunction;
 > [!Note]  
 > We recommend that you clear the event handler of a **Service** object variable by setting it to **null**, before reusing that variable to represent a new object. This will keep an event handler object from persisting as a property of the old **Service** object.
 
- 
+ 
 
 The following example demonstrates this with the **Service** object variable "currentService". The variable is used to represent one **Service** object, and a handler-function is set for that object. The handler-function is then cleared before currentService is used to represent a new **Service** object.
 
@@ -93,8 +101,8 @@ currentService = deviceObject.Services[1];
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -108,9 +116,9 @@ currentService = deviceObject.Services[1];
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

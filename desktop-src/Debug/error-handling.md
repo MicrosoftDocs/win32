@@ -1,7 +1,12 @@
 ---
-Description: 'Well-written applications include error-handling code that allows them to recover gracefully from unexpected errors.'
-ms.assetid: 'faff149b-254e-44da-a59c-1b738acb6941'
+Description: Well-written applications include error-handling code that allows them to recover gracefully from unexpected errors.
+ms.assetid: faff149b-254e-44da-a59c-1b738acb6941
 title: Error Handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling

@@ -1,8 +1,9 @@
 ---
 title: SpanningEventEmmMessage structure
 description: Contains information about an Entitlement Management Message (EMM). For more information, refer to ARIB STD-B25, Conditional Access System Specifications for Digital Broadcasting. (This resource may not be available in some languages and countries.).
-ms.assetid: 'e362a3b5-db4a-4a58-adf9-d799f83c9f36'
-keywords: ["SpanningEventEmmMessage structure Microsoft TV Technologies"]
+ms.assetid: e362a3b5-db4a-4a58-adf9-d799f83c9f36
+keywords:
+- SpanningEventEmmMessage structure Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpanningEventEmmMessage structure
@@ -22,18 +28,18 @@ Contains information about an Entitlement Management Message (EMM). For more inf
 
 ```C++
 typedef struct _SpanningEventEmmMessage {
-  BYTE  bCAbroadcasterGroupId;
-  BYTE  bMessageControl;
-  WORD  wServiceId;
-  WORD  wTableIdExtension;
-  BYTE  bDeletionStatus;
-  BYTE  bDisplayingDuration1;
-  BYTE  bDisplayingDuration2;
-  BYTE  bDisplayingDuration3;
-  BYTE  bDisplayingCycle;
-  BYTE  bFormatVersion;
-  BYTE  bDisplayPosition;
-  WORD  wMessageLength;
+  BYTE  bCAbroadcasterGroupId;
+  BYTE  bMessageControl;
+  WORD  wServiceId;
+  WORD  wTableIdExtension;
+  BYTE  bDeletionStatus;
+  BYTE  bDisplayingDuration1;
+  BYTE  bDisplayingDuration2;
+  BYTE  bDisplayingDuration3;
+  BYTE  bDisplayingCycle;
+  BYTE  bFormatVersion;
+  BYTE  bDisplayPosition;
+  WORD  wMessageLength;
   WCHAR szMessageArea[MIN_DIMENSION];
 } SpanningEventEmmMessage;
 ```
@@ -141,15 +147,15 @@ The contents of the message. This array might be larger than the size given in t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Extended right that enables a user to migrate the SID-History witho
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8c7ed1ec-3bde-4a6c-85a6-65a2a2e5b4bf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8c7ed1ec-3bde-4a6c-85a6-65a2a2e5b4bf
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Migrate-SID-History extended right AD Schema"]
+keywords:
+- Migrate-SID-History extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Migrate-SID-History
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Migrate-SID-History extended right
@@ -33,11 +37,11 @@ Extended right that enables a user to migrate the SID-History without administra
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -94,9 +98,9 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
- 
+ 
 
- 
+ 
 
 
 

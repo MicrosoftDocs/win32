@@ -1,7 +1,12 @@
 ---
-Description: 'Setting data to be passed as an array to the Msvm\_CollectionReferencePointExportSettingData class.'
-ms.assetid: 'f127880f-f917-4069-a283-a6f9427c5e07'
-title: 'Msvm\_VirtualMachineToDisks class'
+Description: Setting data to be passed as an array to the Msvm\_CollectionReferencePointExportSettingData class.
+ms.assetid: f127880f-f917-4069-a283-a6f9427c5e07
+title: Msvm\_VirtualMachineToDisks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualMachineToDisks class
@@ -65,17 +70,17 @@ A Virtual Machine ID that virtual disks are associated with.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

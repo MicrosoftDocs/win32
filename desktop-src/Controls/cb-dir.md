@@ -1,8 +1,9 @@
 ---
 title: CB\_DIR message
 description: Adds names to the list displayed by the combo box. The message adds the names of directories and files that match a specified string and set of file attributes. CB\_DIR can also add mapped drive letters to the list.
-ms.assetid: '6082d12c-0af4-4a99-98c0-6a98d171f4d8'
-keywords: ["CB_DIR message Windows Controls"]
+ms.assetid: 6082d12c-0af4-4a99-98c0-6a98d171f4d8
+keywords:
+- CB_DIR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_DIR message
@@ -41,7 +47,7 @@ The attributes of the files or directories to be added to the combo box. This pa
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,8 +76,8 @@ The list displays long file names, if any.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -89,12 +95,12 @@ The list displays long file names, if any.
 [**CB\_INSERTSTRING**](cb-insertstring.md)
 </dt> <dt>
 
-[**DlgDirListComboBox**](dlgdirlistcombobox.md)
+[**DlgDirListComboBox**](/windows/win32/Winuser/nf-winuser-dlgdirlistcomboboxa?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

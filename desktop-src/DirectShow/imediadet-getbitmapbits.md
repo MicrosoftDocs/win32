@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetBitmapBits method retrieves a video frame at the specified media time. The returned frame is always in 24-bit RGB format.'
-ms.assetid: 'b51df9d1-9c54-41bd-b0f8-ec290525deca'
-title: 'IMediaDet::GetBitmapBits method'
+---
+Description: The GetBitmapBits method retrieves a video frame at the specified media time. The returned frame is always in 24-bit RGB format.
+ms.assetid: b51df9d1-9c54-41bd-b0f8-ec290525deca
+title: IMediaDetGetBitmapBits method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::GetBitmapBits method
@@ -49,7 +54,7 @@ Receives the required buffer size. If *pBuffer* is **NULL**, the variable receiv
 *pBuffer* 
 </dt> <dd>
 
-Pointer to a buffer that receives a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure followed by the DIB bits.
+Pointer to a buffer that receives a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure followed by the DIB bits.
 
 </dd> <dt>
 

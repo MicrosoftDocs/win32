@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the node address (Nad) to use with the ISCardCmd interface.'
-ms.assetid: '49de8264-9491-41a4-a8e0-68d0db088ded'
-title: 'ISCardCmd::put\_Nad method'
+---
+Description: Specifies the node address (Nad) to use with the ISCardCmd interface.
+ms.assetid: 49de8264-9491-41a4-a8e0-68d0db088ded
+title: ISCardCmdput\_Nad method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::put\_Nad method

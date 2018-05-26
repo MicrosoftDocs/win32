@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 38 when the standard actions are insufficient to execute the installation.'
-ms.assetid: 'bb50fcbf-3de5-4f5a-b799-cec5d68fdd9d'
+Description: Developers of Windows Installer packages may choose to use a custom action type 38 when the standard actions are insufficient to execute the installation.
+ms.assetid: bb50fcbf-3de5-4f5a-b799-cec5d68fdd9d
 title: Custom Action Type 38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 38

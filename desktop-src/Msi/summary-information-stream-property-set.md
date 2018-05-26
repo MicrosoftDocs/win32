@@ -1,7 +1,12 @@
 ---
-Description: 'The following table shows the summary information stream property set, which includes the properties, their corresponding property IDs, PIDs, and types.'
-ms.assetid: 'a5dd014f-21af-41f9-be75-1b139946179d'
+Description: The following table shows the summary information stream property set, which includes the properties, their corresponding property IDs, PIDs, and types.
+ms.assetid: a5dd014f-21af-41f9-be75-1b139946179d
 title: Summary Information Stream Property Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary Information Stream Property Set

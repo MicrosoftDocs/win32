@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving the Task Application Name
 description: This example retrieves the name of the application associated with a given task and displays that name on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '7cf20a14-fee3-4507-83a9-4a081a9783fc'
-keywords: ["retrieving application names Task Scheduler", "retrieving task properties Task Scheduler , application name"]
+ms.assetid: 7cf20a14-fee3-4507-83a9-4a081a9783fc
+keywords:
+- retrieving application names Task Scheduler
+- retrieving task properties Task Scheduler , application name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving the Task Application Name

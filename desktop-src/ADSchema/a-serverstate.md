@@ -4,17 +4,22 @@ description: Indicates whether the server is enabled or disabled.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e062cbcf-c845-4dfd-9e9b-e21079276a3c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e062cbcf-c845-4dfd-9e9b-e21079276a3c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Server-State attribute AD Schema", "serverState attribute AD Schema"]
+keywords:
+- Server-State attribute AD Schema
+- serverState attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Server-State
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server-State attribute
@@ -38,12 +43,12 @@ Indicates whether the server is enabled or disabled. A value of 1 indicates that
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Indicates whether the server is enabled or disabled. A value of 1 indicates that
 
 
 
- 
+ 
 
- 
+ 
 
 
 

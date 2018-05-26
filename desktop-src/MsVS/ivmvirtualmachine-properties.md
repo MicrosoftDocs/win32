@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualMachine Properties
 description: The IVMVirtualMachine interface defines the following properties
-ms.assetid: 'e4dcaa56-fdc8-40f8-9783-3caea80d98ce'
+ms.assetid: e4dcaa56-fdc8-40f8-9783-3caea80d98ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine Properties

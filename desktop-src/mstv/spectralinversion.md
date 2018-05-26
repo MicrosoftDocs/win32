@@ -1,8 +1,9 @@
 ---
 title: SpectralInversion enumeration
 description: Indicates the type of spectral inversion on Quadrature Phase Shift Keying (QPSK) in a Broadcast Driver Architecture (BDA) capture device.
-ms.assetid: 'eaab17e3-8070-4f70-a31c-cd130edf1a4a'
-keywords: ["SpectralInversion enumeration Microsoft TV Technologies"]
+ms.assetid: eaab17e3-8070-4f70-a31c-cd130edf1a4a
+keywords:
+- SpectralInversion enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpectralInversion enumeration
@@ -22,12 +28,12 @@ Indicates the type of spectral inversion on Quadrature Phase Shift Keying (QPSK)
 
 ```C++
 typedef enum SpectralInversion { 
-  BDA_SPECTRAL_INVERSION_NOT_SET      = -1,
-  BDA_SPECTRAL_INVERSION_NOT_DEFINED  = 0,
-  BDA_SPECTRAL_INVERSION_AUTOMATIC    = 1,
-  BDA_SPECTRAL_INVERSION_NORMAL       = 2,
-  BDA_SPECTRAL_INVERSION_INVERTED     = 3,
-  BDA_SPECTRAL_INVERSION_MAX          = 4
+  BDA_SPECTRAL_INVERSION_NOT_SET      = -1,
+  BDA_SPECTRAL_INVERSION_NOT_DEFINED  = 0,
+  BDA_SPECTRAL_INVERSION_AUTOMATIC    = 1,
+  BDA_SPECTRAL_INVERSION_NORMAL       = 2,
+  BDA_SPECTRAL_INVERSION_INVERTED     = 3,
+  BDA_SPECTRAL_INVERSION_MAX          = 4
 } SpectralInversion;
 ```
 
@@ -93,15 +99,15 @@ Reserved; do not use.
 
 <dl> <dt>
 
-[**IDVBSTuningSpace::get\_SpectralInversion**](idvbstuningspace-get-spectralinversion.md)
+[**IDVBSTuningSpace::get\_SpectralInversion**](/windows/previous-versions/tuner/nf-tuner-idvbstuningspace-get_spectralinversion?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

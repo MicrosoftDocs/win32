@@ -4,11 +4,14 @@ description: Places the service, represented by the Win32\_TerminalService objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '228711DC-369B-48B6-96EE-DF4026904E26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 228711DC-369B-48B6-96EE-DF4026904E26
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["StopService method Remote Desktop Services", "StopService method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , StopService method"]
+keywords:
+- StopService method Remote Desktop Services
+- StopService method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , StopService method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the Win32\_Service class
@@ -245,8 +251,8 @@ The [Stop a Service and Its Dependents](https://Gallery.TechNet.Microsoft.Com/ae
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
@@ -273,9 +279,9 @@ The [Stop a Service and Its Dependents](https://Gallery.TechNet.Microsoft.Com/ae
 [**PauseService**](https://msdn.microsoft.com/library/aa392734)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,20 @@
 ---
 title: Naming the Capture File
 description: Naming the Capture File
-ms.assetid: 'fae2fd6a-4c2f-432f-a714-9faae6daeafe'
-keywords: ["capFileSetCaptureFile macro", "capFileAlloc macro"]
+ms.assetid: fae2fd6a-4c2f-432f-a714-9faae6daeafe
+keywords:
+- capFileSetCaptureFile macro
+- capFileAlloc macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Naming the Capture File
 
-The following example uses the [**capFileSetCaptureFile**](capfilesetcapturefile.md) macro to specify an alternate filename (MYCAP.AVI) for the capture file and the [**capFileAlloc**](capfilealloc.md) macro to preallocate a file of 5 MB.
+The following example uses the [**capFileSetCaptureFile**](/windows/win32/Vfw/nf-vfw-capfilesetcapturefile?branch=master) macro to specify an alternate filename (MYCAP.AVI) for the capture file and the [**capFileAlloc**](/windows/win32/Vfw/nf-vfw-capfilealloc?branch=master) macro to preallocate a file of 5 MB.
 
 
 ```C++

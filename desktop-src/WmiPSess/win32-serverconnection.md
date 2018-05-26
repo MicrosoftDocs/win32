@@ -4,11 +4,13 @@ description: The Win32\_ServerConnection \ 32;WMI class represents the connectio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f211a38-b25c-4922-93b4-b0ae0fa1faa3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2f211a38-b25c-4922-93b4-b0ae0fa1faa3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ServerConnection class", "Win32_ServerConnection class, described"]
+keywords:
+- Win32_ServerConnection class
+- Win32_ServerConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - Wmipsess.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ServerConnection class
@@ -43,18 +48,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SessionProvider"), AMENDMENT]
 class Win32_ServerConnection : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  uint32       ActiveTime;
-  string       ComputerName;
-  uint32       ConnectionID;
-  uint32       NumberOfFiles;
-  uint32       NumberOfUsers;
-  string       ShareName;
-  string       UserName;
+  string       Name;
+  string       Status;
+  uint32       ActiveTime;
+  string       ComputerName;
+  uint32       ConnectionID;
+  uint32       NumberOfFiles;
+  uint32       NumberOfUsers;
+  string       ShareName;
+  string       UserName;
 };
 ```
 
@@ -341,8 +346,8 @@ The **Win32\_ServerConnection** class is derived from [**CIM\_LogicalElement**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipsess.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipsess.dll</dt> </dl> |
@@ -359,9 +364,9 @@ The **Win32\_ServerConnection** class is derived from [**CIM\_LogicalElement**](
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

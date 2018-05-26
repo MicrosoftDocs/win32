@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getByGenre method
 description: The getByGenre method returns an IWMPPlaylist interface that provides access to media items of the specified genre.
-ms.assetid: '0681e5a2-b56d-4c33-95ce-d9ef3cd5473d'
-keywords: ["getByGenre method Windows Media Player", "getByGenre method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getByGenre method"]
+ms.assetid: 0681e5a2-b56d-4c33-95ce-d9ef3cd5473d
+keywords:
+- getByGenre method Windows Media Player
+- getByGenre method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getByGenre method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getByGenre method
@@ -152,9 +160,9 @@ End Sub</code></pre></td>
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a812f2b2-fde8-432a-bd1b-1c13d7cbb573'
-title: 'System.Document.PageCount'
+Description: .
+ms.assetid: a812f2b2-fde8-432a-bd1b-1c13d7cbb573
+title: System.Document.PageCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.PageCount

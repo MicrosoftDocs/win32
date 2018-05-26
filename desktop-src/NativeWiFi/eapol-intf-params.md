@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains EAPOL configuration parameters.'
-ms.assetid: '4157a643-86f2-4f6f-8517-6207b11ea9a1'
-title: 'EAPOL\_INTF\_PARAMS structure'
+---
+Description: Contains EAPOL configuration parameters.
+ms.assetid: 4157a643-86f2-4f6f-8517-6207b11ea9a1
+title: EAPOL\_INTF\_PARAMS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPOL\_INTF\_PARAMS structure

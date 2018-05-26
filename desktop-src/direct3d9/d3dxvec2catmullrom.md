@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a Catmull-Rom interpolation, using the specified 2D vectors.'
-ms.assetid: 'dacda32d-b4c4-4d8b-9d20-9a4bb1d3ce6c'
+---
+Description: Performs a Catmull-Rom interpolation, using the specified 2D vectors.
+ms.assetid: dacda32d-b4c4-4d8b-9d20-9a4bb1d3ce6c
 title: D3DXVec2CatmullRom function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2CatmullRom function

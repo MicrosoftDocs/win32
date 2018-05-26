@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.'
-ms.assetid: 'a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b'
+---
+Description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
+ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
 title: D3DXGetPixelShaderProfile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetPixelShaderProfile function
@@ -26,9 +31,9 @@ LPCSTR D3DXGetPixelShaderProfile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to the device. See [**IDirect3DDevice9**](idirect3ddevice9.md).
+Pointer to the device. See [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master).
 
 </dd> </dl>
 

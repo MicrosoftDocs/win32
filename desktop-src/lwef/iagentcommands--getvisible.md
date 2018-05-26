@@ -1,7 +1,12 @@
 ---
 title: IAgentCommands GetVisible
 description: IAgentCommands GetVisible
-ms.assetid: '229a02c8-f0a1-4ee5-9bae-961b63792038'
+ms.assetid: 229a02c8-f0a1-4ee5-9bae-961b63792038
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommands::GetVisible

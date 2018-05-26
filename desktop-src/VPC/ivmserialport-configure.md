@@ -1,8 +1,11 @@
 ---
 title: IVMSerialPort Configure method
 description: Configures the serial port.
-ms.assetid: 'fee2e373-8e7c-4f1d-84d0-f0f187a41e9f'
-keywords: ["Configure method Virtual PC", "Configure method Virtual PC , IVMSerialPort interface", "IVMSerialPort interface Virtual PC , Configure method"]
+ms.assetid: fee2e373-8e7c-4f1d-84d0-f0f187a41e9f
+keywords:
+- Configure method Virtual PC
+- Configure method Virtual PC , IVMSerialPort interface
+- IVMSerialPort interface Virtual PC , Configure method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort::Configure method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Configures the serial port.
 
@@ -24,9 +32,9 @@ Configures the serial port.
 
 ```C++
 HRESULT Configure(
-  [in] VMSerialPortType portType,
-  [in] BSTR             portName,
-  [in] VARIANT_BOOL     vmConnectImmediately
+  [in] VMSerialPortType portType,
+  [in] BSTR             portName,
+  [in] VARIANT_BOOL     vmConnectImmediately
 );
 ```
 
@@ -78,7 +86,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,9 +94,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMSerialPort is defined as 2ce4460d-1d3f-4458-bf8b-44084b816815<br/>              |
@@ -102,9 +110,9 @@ This method can return one of these values.
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

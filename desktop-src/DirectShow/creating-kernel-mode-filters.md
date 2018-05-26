@@ -1,7 +1,12 @@
 ---
-Description: 'Creating Kernel-Mode Filters'
-ms.assetid: 'cbc86a5d-c53a-44a0-aa81-5c41527a8f67'
-title: 'Creating Kernel-Mode Filters'
+Description: Creating Kernel-Mode Filters
+ms.assetid: cbc86a5d-c53a-44a0-aa81-5c41527a8f67
+title: Creating Kernel-Mode Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Kernel-Mode Filters
@@ -9,7 +14,7 @@ title: 'Creating Kernel-Mode Filters'
 Certain kernel-mode filters cannot be created through **CoCreateInstance**, and thus do not have CLSIDs. These filters include the [Tee/Sink-to-Sink Converter](tee-sink-to-sink-converter.md), the [CC Decoder](cc-decoder-filter.md) filter, and the [WST Codec](wst-codec-filter.md) filter. To create one of these filters, use the [System Device Enumerator](system-device-enumerator.md) object and search by the filter's name.
 
 1.  Create the System Device Enumerator.
-2.  Call the [**ICreateDevEnum::CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) method with the CLSID of the filter category for that filter. This method creates an enumerator for the filter category. (An *enumerator* is simply an object that returns a list of other objects, using a defined COM interface.) The enumerator returns **IMoniker** pointers, which represent the filters in that category.
+2.  Call the [**ICreateDevEnum::CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) method with the CLSID of the filter category for that filter. This method creates an enumerator for the filter category. (An *enumerator* is simply an object that returns a list of other objects, using a defined COM interface.) The enumerator returns **IMoniker** pointers, which represent the filters in that category.
 3.  For each moniker, call **IMoniker::BindToStorage** to get an **IPropertyBag** interface.
 4.  Call **IPropertyBag::Read** to get the name of the filter.
 5.  If the name matches, call **IMoniker::BindToObject** to create the filter.

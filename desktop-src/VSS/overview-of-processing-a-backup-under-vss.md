@@ -1,7 +1,12 @@
 ---
-Description: 'In processing a backup, requester and writers coordinate to provide a stable system image from which to back up data (the shadow copied volume), to group files together on the basis of their usage, and to store information on the saved data.'
-ms.assetid: 'd7acb2a2-bb58-47e3-a950-d32f663ae36d'
+Description: In processing a backup, requester and writers coordinate to provide a stable system image from which to back up data (the shadow copied volume), to group files together on the basis of their usage, and to store information on the saved data.
+ms.assetid: d7acb2a2-bb58-47e3-a950-d32f663ae36d
 title: Overview of Processing a Backup Under VSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Processing a Backup Under VSS

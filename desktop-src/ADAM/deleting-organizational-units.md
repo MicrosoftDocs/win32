@@ -4,11 +4,15 @@ description: To delete an organizational unit (OU), bind to the object that cont
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9fe6be75-dd91-4abc-86a3-07c33883572b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 9fe6be75-dd91-4abc-86a3-07c33883572b
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , deleting organizational units"]
+keywords:
+- AD LDS examples ADAM , deleting organizational units
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting Organizational Units

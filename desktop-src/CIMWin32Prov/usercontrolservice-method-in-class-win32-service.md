@@ -1,15 +1,18 @@
 ---
-Description: 'Attempts to send a user-defined control code to the referenced service.'
+Description: Attempts to send a user-defined control code to the referenced service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a7132c9b-6faf-4182-a5b8-3f2334c1a74b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a7132c9b-6faf-4182-a5b8-3f2334c1a74b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'UserControlService method of the Win32\_Service class'
+title: UserControlService method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserControlService method of the Win32\_Service class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 UserControlService(
-  [in] uint8 ControlCode
+  [in] uint8 ControlCode
 );
 ```
 
@@ -227,8 +230,8 @@ The service is currently paused in the system.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -245,9 +248,9 @@ The service is currently paused in the system.
 [**Win32\_Service**](win32-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

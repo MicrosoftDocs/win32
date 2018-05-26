@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getByAlbum method
 description: The getByAlbum method returns an IWMPPlaylist interface that provides access to media items from the specified album.
-ms.assetid: '26f004c0-de46-4792-8212-9d4ac749bb21'
-keywords: ["getByAlbum method Windows Media Player", "getByAlbum method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getByAlbum method"]
+ms.assetid: 26f004c0-de46-4792-8212-9d4ac749bb21
+keywords:
+- getByAlbum method Windows Media Player
+- getByAlbum method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getByAlbum method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getByAlbum method
@@ -152,9 +160,9 @@ End Sub</code></pre></td>
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Channel
 description: Channel
-ms.assetid: '6e8abd8e-aba2-47eb-9efc-8a960fafaf6c'
+ms.assetid: 6e8abd8e-aba2-47eb-9efc-8a960fafaf6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Channel

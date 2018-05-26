@@ -1,8 +1,11 @@
 ---
 title: IDatabase GetSize method
 description: Retrieves the sizes of various parts of the database.
-ms.assetid: 'b1b338f8-73ec-4acd-838b-7ef27f35fb8b'
-keywords: ["GetSize method Windows Mail (formerly Outlook Express)", "GetSize method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , GetSize method"]
+ms.assetid: b1b338f8-73ec-4acd-838b-7ef27f35fb8b
+keywords:
+- GetSize method Windows Mail (formerly Outlook Express)
+- GetSize method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , GetSize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::GetSize method
@@ -24,10 +32,10 @@ Retrieves the sizes of various parts of the database.
 
 ```C++
 HRESULT GetSize(
-  [out] LPDWORD pcbFile,
-  [out] LPDWORD pcbAllocated,
-  [out] LPDWORD pcbFreed,
-  [out] LPDWORD pcbStreams
+  [out] LPDWORD pcbFile,
+  [out] LPDWORD pcbAllocated,
+  [out] LPDWORD pcbFreed,
+  [out] LPDWORD pcbStreams
 );
 ```
 
@@ -85,17 +93,17 @@ Use the SUCCEEDED macro to determine whether this function failed.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

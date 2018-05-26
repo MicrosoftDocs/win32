@@ -1,7 +1,12 @@
 ---
 Description: Deleting Content from the Device
-ms.assetid: '195f68d5-f139-456e-b000-86c91732a292'
+ms.assetid: 195f68d5-f139-456e-b000-86c91732a292
 title: Deleting Content from the Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting Content from the Device
@@ -14,14 +19,14 @@ Content deletion operations are accomplished using the interfaces described in t
 
 | Interface                                                                                      | Description                                      |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)                             | Provides access to the content deletion methods. |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)                             | Provides access to the content deletion methods. |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Provides access to property-specific methods.    |
 
 
 
  
 
-The DeleteContentFromDevice function in the sample application's ContentTransfer.cpp module demonstrates how an application could delete content on the device. Content deletion operations are very similar to content-transfer operations. The one difference is that during a deletion, the application calls [**IPortableDeviceContent::Delete**](iportabledevicecontent-delete.md) rather than [**IPortableDeviceContent::Move**](iportabledevicecontent-move.md). (See the [Moving Content on the Device](moving-content-on-the-device.md) topic for a description of the tasks leading up to calling the Delete method.)
+The DeleteContentFromDevice function in the sample application's ContentTransfer.cpp module demonstrates how an application could delete content on the device. Content deletion operations are very similar to content-transfer operations. The one difference is that during a deletion, the application calls [**IPortableDeviceContent::Delete**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-delete?branch=master) rather than [**IPortableDeviceContent::Move**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-move?branch=master). (See the [Moving Content on the Device](moving-content-on-the-device.md) topic for a description of the tasks leading up to calling the Delete method.)
 
 
 ```C++
@@ -148,10 +153,10 @@ void DeleteContentFromDevice(
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

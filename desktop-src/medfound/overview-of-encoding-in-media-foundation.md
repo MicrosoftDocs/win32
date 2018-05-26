@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is an overview of the file encoding APIs provided in Microsoft Media Foundation.'
-ms.assetid: '69dbef63-e272-4ad2-8d04-ae9366f79b33'
+Description: This topic is an overview of the file encoding APIs provided in Microsoft Media Foundation.
+ms.assetid: 69dbef63-e272-4ad2-8d04-ae9366f79b33
 title: Overview of Encoding in Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Encoding in Media Foundation

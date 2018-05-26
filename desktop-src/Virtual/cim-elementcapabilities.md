@@ -1,8 +1,10 @@
 ---
 title: CIM\_ElementCapabilities class
 description: Represents an association between a managed element and its capabilities.
-ms.assetid: 'edbb2f6a-467b-4689-b2dc-e5f90a8b5f48'
-keywords: ["CIM_ElementCapabilities class Hyper-V", "CIM_ElementCapabilities class Hyper-V , described"]
+ms.assetid: edbb2f6a-467b-4689-b2dc-e5f90a8b5f48
+keywords:
+- CIM_ElementCapabilities class Hyper-V
+- CIM_ElementCapabilities class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementCapabilities class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementCapabilities
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_Capabilities   REF Capabilities;
+  CIM_Capabilities   REF Capabilities;
 };
 ```
 
@@ -83,17 +90,17 @@ The managed element.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

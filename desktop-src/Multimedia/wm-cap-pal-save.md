@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_PAL\_SAVE message
 description: The WM\_CAP\_PAL\_SAVE message saves the current palette to a palette file. Palette files typically use the filename extension .PAL. You can send this message explicitly or by using the capPaletteSave macro.
-ms.assetid: 'b1fa3978-9147-403f-aa08-db1a803aa5ac'
-keywords: ["WM_CAP_PAL_SAVE message Windows Multimedia"]
+ms.assetid: b1fa3978-9147-403f-aa08-db1a803aa5ac
+keywords:
+- WM_CAP_PAL_SAVE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_PAL\_SAVE message
 
-The **WM\_CAP\_PAL\_SAVE** message saves the current palette to a palette file. Palette files typically use the filename extension .PAL. You can send this message explicitly or by using the [**capPaletteSave**](cappalettesave.md) macro.
+The **WM\_CAP\_PAL\_SAVE** message saves the current palette to a palette file. Palette files typically use the filename extension .PAL. You can send this message explicitly or by using the [**capPaletteSave**](/windows/win32/Vfw/nf-vfw-cappalettesave?branch=master) macro.
 
 
 ```C++
@@ -49,8 +55,8 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -65,9 +71,9 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

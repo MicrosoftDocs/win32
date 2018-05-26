@@ -1,8 +1,10 @@
 ---
 title: CIM\_SAPSAPDependency class
 description: Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service.
-ms.assetid: '14ed19bf-1cdc-4e89-a747-50addf15a382'
-keywords: ["CIM_SAPSAPDependency class Hyper-V", "CIM_SAPSAPDependency class Hyper-V , described"]
+ms.assetid: 14ed19bf-1cdc-4e89-a747-50addf15a382
+keywords:
+- CIM_SAPSAPDependency class Hyper-V
+- CIM_SAPSAPDependency class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SAPSAPDependency class
@@ -83,9 +90,9 @@ A reference to the dependant SAP.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ A reference to the dependant SAP.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS HeartbeatPercentage property
 description: The HeartbeatPercentage property contains the percentage of expected heartbeats received over the past minute.
-ms.assetid: '9f4c3f49-b95a-4945-ac88-83a7657326d9'
-keywords: ["HeartbeatPercentage property Virtual Server", "HeartbeatPercentage property Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , HeartbeatPercentage property", "HeartbeatPercentage property Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , HeartbeatPercentage property"]
+ms.assetid: 9f4c3f49-b95a-4945-ac88-83a7657326d9
+keywords:
+- HeartbeatPercentage property Virtual Server
+- HeartbeatPercentage property Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , HeartbeatPercentage property
+- HeartbeatPercentage property Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , HeartbeatPercentage property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::HeartbeatPercentage property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HeartbeatPercentage(
-  [out] long *heartbeatPercentage
+  [out] long *heartbeatPercentage
 );
 ```
 
@@ -83,8 +93,8 @@ The Additions will send a periodic heartbeat to Virtual Server while the guest o
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ The Additions will send a periodic heartbeat to Virtual Server while the guest o
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: ManagedElement is an abstract class that provides a common supercla
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f7bb4d2-c12f-4cd9-af3d-5d317610b856'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6f7bb4d2-c12f-4cd9-af3d-5d317610b856
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ManagedElement class iSCSI Software Target API", "CIM_ManagedElement class iSCSI Software Target API , described"]
+keywords:
+- CIM_ManagedElement class iSCSI Software Target API
+- CIM_ManagedElement class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedElement class
@@ -103,16 +108,16 @@ Contains a user-friendly name for the object. This property allows each instance
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The IsStopped method determines whether the filter is currently stopped.'
-ms.assetid: '89358523-d8e2-4c79-9ab8-6cc2f77a277f'
-title: 'CBaseFilter.IsStopped method'
+Description: The IsStopped method determines whether the filter is currently stopped.
+ms.assetid: 89358523-d8e2-4c79-9ab8-6cc2f77a277f
+title: CBaseFilter.IsStopped method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.IsStopped method
@@ -43,9 +48,9 @@ Returns **TRUE** if the filter is stopped, or **FALSE** otherwise.
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

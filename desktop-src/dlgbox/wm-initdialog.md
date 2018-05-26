@@ -1,8 +1,9 @@
 ---
 title: WM\_INITDIALOG message
 description: Sent to the dialog box procedure immediately before a dialog box is displayed. Dialog box procedures typically use this message to initialize controls and carry out any other initialization tasks that affect the appearance of the dialog box.
-ms.assetid: 'bc4f4718-1dab-48db-ae3b-5a81a7be2644'
-keywords: ["WM_INITDIALOG message Dialog Boxes"]
+ms.assetid: bc4f4718-1dab-48db-ae3b-5a81a7be2644
+keywords:
+- WM_INITDIALOG message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INITDIALOG message
@@ -38,7 +44,7 @@ A handle to the control to receive the default keyboard focus. The system assign
 *lParam* 
 </dt> <dd>
 
-Additional initialization data. This data is passed to the system as the *lParam* parameter in a call to the [**CreateDialogIndirectParam**](createdialogindirectparam.md), [**CreateDialogParam**](createdialogparam.md), [**DialogBoxIndirectParam**](dialogboxindirectparam.md), or [**DialogBoxParam**](dialogboxparam.md) function used to create the dialog box. For property sheets, this parameter is a pointer to the [**PROPSHEETPAGE**](https://msdn.microsoft.com/library/windows/desktop/bb774548) structure used to create the page. This parameter is zero if any other dialog box creation function is used.
+Additional initialization data. This data is passed to the system as the *lParam* parameter in a call to the [**CreateDialogIndirectParam**](/windows/win32/Winuser/nf-winuser-createdialogindirectparama?branch=master), [**CreateDialogParam**](/windows/win32/Winuser/nf-winuser-createdialogparama?branch=master), [**DialogBoxIndirectParam**](/windows/win32/Winuser/nf-winuser-dialogboxindirectparama?branch=master), or [**DialogBoxParam**](/windows/win32/Winuser/nf-winuser-dialogboxparama?branch=master) function used to create the dialog box. For property sheets, this parameter is a pointer to the [**PROPSHEETPAGE**](https://msdn.microsoft.com/library/windows/desktop/bb774548) structure used to create the page. This parameter is zero if any other dialog box creation function is used.
 
 </dd> </dl>
 
@@ -60,8 +66,8 @@ An application can return **FALSE** only if it has set the keyboard focus to one
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,16 +79,16 @@ An application can return **FALSE** only if it has set the keyboard focus to one
 **Reference**
 </dt> <dt>
 
-[**CreateDialogIndirectParam**](createdialogindirectparam.md)
+[**CreateDialogIndirectParam**](/windows/win32/Winuser/nf-winuser-createdialogindirectparama?branch=master)
 </dt> <dt>
 
-[**CreateDialogParam**](createdialogparam.md)
+[**CreateDialogParam**](/windows/win32/Winuser/nf-winuser-createdialogparama?branch=master)
 </dt> <dt>
 
-[**DialogBoxIndirectParam**](dialogboxindirectparam.md)
+[**DialogBoxIndirectParam**](/windows/win32/Winuser/nf-winuser-dialogboxindirectparama?branch=master)
 </dt> <dt>
 
-[**DialogBoxParam**](dialogboxparam.md)
+[**DialogBoxParam**](/windows/win32/Winuser/nf-winuser-dialogboxparama?branch=master)
 </dt> <dt>
 
 [**SetFocus**](https://msdn.microsoft.com/library/windows/desktop/ms646312)
@@ -100,9 +106,9 @@ An application can return **FALSE** only if it has set the keyboard focus to one
 [**PROPSHEETPAGE**](https://msdn.microsoft.com/library/windows/desktop/bb774548)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

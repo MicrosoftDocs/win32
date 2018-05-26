@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Windows HTTP Services (WinHTTP) provides developers with a server-supported, high-level interface to the HTTP/1.1 Internet protocol.'
-ms.assetid: '8337f699-3ec0-4397-acc2-6dc813f7542d'
+Description: Microsoft Windows HTTP Services (WinHTTP) provides developers with a server-supported, high-level interface to the HTTP/1.1 Internet protocol.
+ms.assetid: 8337f699-3ec0-4397-acc2-6dc813f7542d
 title: About WinHTTP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About WinHTTP
@@ -14,7 +19,7 @@ WinHTTP is also designed for use in system services and HTTP-based client applic
 
 This interface is accessible from C/C++ by using either the WinHTTP application programming interface (API), or by using the [**IWinHttpRequest**](iwinhttprequest-interface.md) and [**IWinHttpRequestEvents**](iwinhttprequestevents-interface.md) interfaces. WinHTTP is also accessible from script and Microsoft Visual Basic through the WinHTTP object. For more information and descriptions of the individual functions, see the WinHTTP functions reference for the specific language.
 
-Starting with Windows 8, WinHTTP provides APIs to enable connections using the [WebSocket Protocol](http://go.microsoft.com/fwlink/p/?linkid=240293)l, such as [**WinHttpWebSocketSend**](winhttpwebsocketsend.md) and [**WinHttpWebSocketReceive**](winhttpwebsocketreceive.md).
+Starting with Windows 8, WinHTTP provides APIs to enable connections using the [WebSocket Protocol](http://go.microsoft.com/fwlink/p/?linkid=240293)l, such as [**WinHttpWebSocketSend**](/windows/win32/winhttp/nf-winhttp-winhttpwebsocketsend?branch=master) and [**WinHttpWebSocketReceive**](/windows/win32/winhttp/nf-winhttp-winhttpwebsocketreceive?branch=master).
 
 > \[!Caution\]  
 > WinHTTP is not reentrant except during asynchronous completion callback. That is, while a thread has a call pending to one of the WinHTTP functions such as WinHttpSendRequest, WinHttpReceiveResponse, WinHttpQueryDataAvailable, WinHttpSendData, or WinHttpWriteData, it must never call WinHTTP a second time until the first call has completed. One scenario under which a second call could occur is as follows: If an application queues an Asynchronous Procedure Call (APC) to the thread that calls into WinHTTP, and if WinHTTP performs an alertable wait internally, the APC can run. If the APC routine happens also to call WinHTTP, it reenters the WinHTTP API, and the internal state of WinHTTP can be corrupted.

@@ -1,7 +1,12 @@
 ---
 title: Receiver Reservation Semantics
 description: The process of joining RSVP sessions includes making appropriate function calls particular to the type of RSVP session an application wants to join.
-ms.assetid: '4ce61799-c32b-4ac5-b1c9-468786d16eb9'
+ms.assetid: 4ce61799-c32b-4ac5-b1c9-468786d16eb9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiver Reservation Semantics

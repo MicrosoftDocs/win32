@@ -1,6 +1,11 @@
-﻿---
-Description: 'Extends the FolderItems2 object. This object supports an additional method and property.'
+---
+Description: Extends the FolderItems2 object. This object supports an additional method and property.
 title: FolderItems3 object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems3 object

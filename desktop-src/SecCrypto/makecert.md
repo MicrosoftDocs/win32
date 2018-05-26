@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an X.509 certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both.'
-ms.assetid: 'a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf'
+---
+Description: Creates an X.509 certificate, signed by the test root key or other specified key, that binds your name to the public part of the key pair. The certificate is saved to a file, a system certificate store, or both.
+ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MakeCert

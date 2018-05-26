@@ -1,16 +1,21 @@
 ---
-Description: 'Supported protocols and cipher suites can be listed by calls to CryptGetProvParam with PP\_ENUMALGS or PP\_ENUMALGS\_EX.'
-ms.assetid: '8f0c2129-6841-4793-a404-bb6ee8f41683'
+Description: Supported protocols and cipher suites can be listed by calls to CryptGetProvParam with PP\_ENUMALGS or PP\_ENUMALGS\_EX.
+ms.assetid: 8f0c2129-6841-4793-a404-bb6ee8f41683
 title: Enumerating Supported Protocols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Supported Protocols
 
-Supported protocols and cipher suites can be listed by calls to [**CryptGetProvParam**](cryptgetprovparam.md) with PP\_ENUMALGS or PP\_ENUMALGS\_EX. The PP\_ENUMALGS\_EX value works like PP\_ENUMALGS but returns a [**PROV\_ENUMALGS\_EX**](prov-enumalgs-ex.md) structure that holds more extensive information on the algorithms supported by the provider.
+Supported protocols and cipher suites can be listed by calls to [**CryptGetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetprovparam?branch=master) with PP\_ENUMALGS or PP\_ENUMALGS\_EX. The PP\_ENUMALGS\_EX value works like PP\_ENUMALGS but returns a [**PROV\_ENUMALGS\_EX**](/windows/win32/Wincrypt/ns-wincrypt-_prov_enumalgs_ex?branch=master) structure that holds more extensive information on the algorithms supported by the provider.
 
 For more information about defined protocol flags and their values, see [Protocol Flags](protocol-flags.md).
 
-Given that the **hCryptProv** member is the [*handle*](security.h_gly#-security-handle-gly) of an open cryptographic [*context*](security.c_gly#-security-context-gly) acquired by using [**CryptAcquireContext**](cryptacquirecontext.md) with its *dwProvType* parameter set to PROV\_RSA\_SCHANNEL, the following example lists the names of all algorithms available in the CSP.
+Given that the **hCryptProv** member is the [*handle*](security.h_gly#-security-handle-gly) of an open cryptographic [*context*](security.c_gly#-security-context-gly) acquired by using [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) with its *dwProvType* parameter set to PROV\_RSA\_SCHANNEL, the following example lists the names of all algorithms available in the CSP.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: FirstChildLastChildMismatch
 description: FirstChildLastChildMismatch
-ms.assetid: '98726C1A-DC43-4FC7-8ECA-628F63D0AFE3'
+ms.assetid: 98726C1A-DC43-4FC7-8ECA-628F63D0AFE3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FirstChildLastChildMismatch
@@ -28,10 +33,10 @@ An incorrect or invalid UI Automation implementation.
 
 <dl> <dt>
 
-[**IUIAutomationElement::GetCachedParent**](uiauto-iuiautomationelement-getcachedparent.md)
+[**IUIAutomationElement::GetCachedParent**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedparent?branch=master)
 </dt> <dt>
 
-[**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md)
+[**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master)
 </dt> </dl>
 
  

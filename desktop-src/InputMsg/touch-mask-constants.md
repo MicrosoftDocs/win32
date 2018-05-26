@@ -1,7 +1,7 @@
 ---
 title: Touch Mask
 description: Values that can appear in the touchMask field of the POINTER\_TOUCH\_INFO structure.
-ms.assetid: '23AD50C8-C769-48D6-9F27-DB2755C03D5C'
+ms.assetid: 23AD50C8-C769-48D6-9F27-DB2755C03D5C
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,16 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Mask
 
-Values that can appear in the **touchMask** field of the [**POINTER\_TOUCH\_INFO**](pointer-touch-info-struct.md) structure.
+Values that can appear in the **touchMask** field of the [**POINTER\_TOUCH\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_touch_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -42,7 +47,7 @@ Default. None of the optional fields are valid.
 
 
 
-**rcContact** of the [**POINTER\_TOUCH\_INFO**](pointer-touch-info-struct.md) structure is valid.
+**rcContact** of the [**POINTER\_TOUCH\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_touch_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -55,7 +60,7 @@ Default. None of the optional fields are valid.
 
 
 
-**orientation** of the [**POINTER\_TOUCH\_INFO**](pointer-touch-info-struct.md) structure is valid.
+**orientation** of the [**POINTER\_TOUCH\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_touch_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> <dt>
@@ -68,7 +73,7 @@ Default. None of the optional fields are valid.
 
 
 
-**pressure** of the [**POINTER\_TOUCH\_INFO**](pointer-touch-info-struct.md) structure is valid.
+**pressure** of the [**POINTER\_TOUCH\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_touch_info?branch=master) structure is valid.
 
 
 </dt> </dl> </dd> </dl>
@@ -79,8 +84,8 @@ Default. None of the optional fields are valid.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -92,12 +97,12 @@ Default. None of the optional fields are valid.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

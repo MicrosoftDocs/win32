@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the planned system be changed to the value specified.'
-ms.assetid: '54ed9514-4f09-458e-8e86-a807ee66df17'
-title: 'RequestStateChange method of the Msvm\_PlannedComputerSystem class'
+Description: Requests that the state of the planned system be changed to the value specified.
+ms.assetid: 54ed9514-4f09-458e-8e86-a807ee66df17
+title: RequestStateChange method of the Msvm\_PlannedComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_PlannedComputerSystem class
@@ -13,9 +18,9 @@ Requests that the state of the planned system be changed to the value specified.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -147,7 +152,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -155,8 +160,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -170,9 +175,9 @@ This method returns one of the following values.
 [**Msvm\_PlannedComputerSystem**](msvm-plannedcomputersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML OnEd Attribute
 description: VML OnEd Attribute
-ms.assetid: 'd24137c3-73cb-4b92-bf25-ffe4aa8b0069'
+ms.assetid: d24137c3-73cb-4b92-bf25-ffe4aa8b0069
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML OnEd Attribute

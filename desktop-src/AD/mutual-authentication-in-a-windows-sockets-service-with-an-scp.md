@@ -4,11 +4,16 @@ description: The topics in this section include code examples that show how to p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f730464c-95ac-4285-960c-18862f6f7852'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f730464c-95ac-4285-960c-18862f6f7852
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Mutual Authentication in a Windows Sockets Service with an SCP AD", "Active Directory, using, mutual authentication, Windows sockets service with an SCP"]
+keywords:
+- Mutual Authentication in a Windows Sockets Service with an SCP AD
+- Active Directory, using, mutual authentication, Windows sockets service with an SCP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mutual Authentication in a Windows Sockets Service with an SCP
@@ -17,8 +22,8 @@ The topics in this section include code examples that show how to perform mutual
 
 **To register SPNs in a directory when a service is installed**
 
-1.  Call the [**DsGetSpn**](dsgetspn.md) function to compose service principal names (SPNs) for the service.
-2.  Call the [**DsWriteAccountSpn**](dswriteaccountspn.md) function to register the SPNs on the service account or computer account in whose context the service will run. This step must be performed by a domain administrator; an exception is that a service running under the LocalSystem account can register its SPN in the form "&lt;service class&gt;/&lt;host&gt;" on the computer account of the service host.
+1.  Call the [**DsGetSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dsgetspna?branch=master) function to compose service principal names (SPNs) for the service.
+2.  Call the [**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master) function to register the SPNs on the service account or computer account in whose context the service will run. This step must be performed by a domain administrator; an exception is that a service running under the LocalSystem account can register its SPN in the form "&lt;service class&gt;/&lt;host&gt;" on the computer account of the service host.
 
 **To verify configuration at service startup**
 
@@ -28,7 +33,7 @@ The topics in this section include code examples that show how to perform mutual
 
 1.  Retrieve connection data from the service's service connection point.
 2.  Establish a connection to the service.
-3.  Call the [**DsMakeSpn**](dsmakespn.md) function to compose an SPN for the service. Compose the SPN from the known service class string, and the data retrieved from the service connection point. This data includes the host name of the server on which the service is running. Be aware that the host name must be a DNS name.
+3.  Call the [**DsMakeSpn**](/windows/win32/Dsparse/nf-dsparse-dsmakespna?branch=master) function to compose an SPN for the service. Compose the SPN from the known service class string, and the data retrieved from the service connection point. This data includes the host name of the server on which the service is running. Be aware that the host name must be a DNS name.
 4.  Use an SSPI security package to perform the authentication:
     1.  Call the [**AcquireCredentialsHandle**](https://msdn.microsoft.com/library/windows/desktop/aa374712) function to acquire the client's credentials.
     2.  Pass the client credentials and the SPN to the [**InitializeSecurityContext**](https://msdn.microsoft.com/library/windows/desktop/aa375506) function to generate a security blob to send to the service for authentication. Set the **ISC\_REQ\_MUTUAL\_AUTH** flag to request mutual authentication.

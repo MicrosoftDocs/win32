@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '02E54636-0B8D-40FE-8405-0FB130139828'
+---
+Description: .
+ms.assetid: 02E54636-0B8D-40FE-8405-0FB130139828
 title: STDVARIABLEINDEX enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STDVARIABLEINDEX enumeration

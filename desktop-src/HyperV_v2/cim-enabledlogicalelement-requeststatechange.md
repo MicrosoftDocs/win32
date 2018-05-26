@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the element be changed to the value specified in the RequestedState parameter.'
-ms.assetid: '6d0061ad-ca14-400a-b813-af920f231eeb'
-title: 'RequestStateChange method of the CIM\_EnabledLogicalElement class'
+Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+ms.assetid: 6d0061ad-ca14-400a-b813-af920f231eeb
+title: RequestStateChange method of the CIM\_EnabledLogicalElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the CIM\_EnabledLogicalElement class
@@ -13,9 +18,9 @@ Requests that the state of the element be changed to the value specified in the 
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -169,8 +174,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -184,9 +189,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

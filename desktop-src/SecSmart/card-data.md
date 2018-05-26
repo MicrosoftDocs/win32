@@ -1,8 +1,10 @@
 ---
 title: CARD\_DATA structure
 description: Contains context information used during communication between a smart card module and either the Microsoft Base Smart Card Cryptographic Service Provider (CSP) or the smart card key storage provider (KSP).
-ms.assetid: '47ac884b-c9f8-43a2-bff4-8b2bfcd94db0'
-keywords: ["CARD_DATA structure Security", "PCARD_DATA structure pointer Security"]
+ms.assetid: 47ac884b-c9f8-43a2-bff4-8b2bfcd94db0
+keywords:
+- CARD_DATA structure Security
+- PCARD_DATA structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_DATA structure
@@ -24,50 +31,50 @@ The **CARD\_DATA** structure contains context information used during communicat
 
 ```C++
 typedef struct _CARD_DATA {
-  DWORD                           dwVersion;
-  PBYTE                           pbAtr;
-  DWORD                           cbAtr;
-  LPWSTR                          pwszCardName;
-  PFN_CSP_ALLOC                   pfnCspAlloc;
-  PFN_CSP_REALLOC                 pfnCspReAlloc;
-  PFN_CSP_FREE                    pfnCspFree;
-  PFN_CSP_CACHE_ADD_FILE          pfnCspCacheAddFile;
-  PFN_CSP_CACHE_LOOKUP_FILE       pfnCspCacheLookupFile;
-  PFN_CSP_CACHE_DELETE_FILE       pfnCspCacheDeleteFile;
-  PVOID                           pvCacheContext;
-  PFN_CSP_PAD_DATA                pfnCspPadData;
-  SCARDCONTEXT                    hSCardCtx;
-  SCARDHANDLE                     hScard;
-  PVOID                           pvVendorSpecific;
-  PFN_CARD_DELETE_CONTEXT         pfnCardDeleteContext;
-  PFN_CARD_QUERY_CAPABILITIES     pfnCardQueryCapabilities;
-  PFN_CARD_DELETE_CONTAINER       pfnCardDeleteContainer;
-  PFN_CARD_CREATE_CONTAINER       pfnCardCreateContainer;
-  PFN_CARD_GET_CONTAINER_INFO     pfnCardGetContainerInfo;
-  PFN_CARD_AUTHENTICATE_PIN       pfnCardAuthenticatePin;
-  PFN_CARD_GET_CHALLENGE          pfnCardGetChallenge;
+  DWORD                           dwVersion;
+  PBYTE                           pbAtr;
+  DWORD                           cbAtr;
+  LPWSTR                          pwszCardName;
+  PFN_CSP_ALLOC                   pfnCspAlloc;
+  PFN_CSP_REALLOC                 pfnCspReAlloc;
+  PFN_CSP_FREE                    pfnCspFree;
+  PFN_CSP_CACHE_ADD_FILE          pfnCspCacheAddFile;
+  PFN_CSP_CACHE_LOOKUP_FILE       pfnCspCacheLookupFile;
+  PFN_CSP_CACHE_DELETE_FILE       pfnCspCacheDeleteFile;
+  PVOID                           pvCacheContext;
+  PFN_CSP_PAD_DATA                pfnCspPadData;
+  SCARDCONTEXT                    hSCardCtx;
+  SCARDHANDLE                     hScard;
+  PVOID                           pvVendorSpecific;
+  PFN_CARD_DELETE_CONTEXT         pfnCardDeleteContext;
+  PFN_CARD_QUERY_CAPABILITIES     pfnCardQueryCapabilities;
+  PFN_CARD_DELETE_CONTAINER       pfnCardDeleteContainer;
+  PFN_CARD_CREATE_CONTAINER       pfnCardCreateContainer;
+  PFN_CARD_GET_CONTAINER_INFO     pfnCardGetContainerInfo;
+  PFN_CARD_AUTHENTICATE_PIN       pfnCardAuthenticatePin;
+  PFN_CARD_GET_CHALLENGE          pfnCardGetChallenge;
   PFN_CARD_AUTHENTICATE_CHALLENGE pfnCardAuthenticateChallenge;
-  PFN_CARD_UNBLOCK_PIN            pfnCardUnblockPin;
-  PFN_CARD_CHANGE_AUTHENTICATOR   pfnCardChangeAuthenticator;
-  PFN_CARD_DEAUTHENTICATE         pfnCardDeauthenticate;
-  PFN_CARD_CREATE_DIRECTORY       pfnCardCreateDirectory;
-  PFN_CARD_DELETE_DIRECTORY       pfnCardDeleteDirectory;
-  LPVOID                          pvUnused3;
-  LPVOID                          pvUnused4;
-  PFN_CARD_CREATE_FILE            pfnCardCreateFile;
-  PFN_CARD_READ_FILE              pfnCardReadFile;
-  PFN_CARD_WRITE_FILE             pfnCardWriteFile;
-  PFN_CARD_DELETE_FILE            pfnCardDeleteFile;
-  PFN_CARD_ENUM_FILES             pfnCardEnumFiles;
-  PFN_CARD_GET_FILE_INFO          pfnCardGetFileInfo;
-  PFN_CARD_QUERY_FREE_SPACE       pfnCardQueryFreeSpace;
-  PFN_CARD_QUERY_KEY_SIZES        pfnCardQueryKeySizes;
-  PFN_CARD_SIGN_DATA              pfnCardSignData;
-  PFN_CARD_RSA_DECRYPT            pfnCardRSADecrypt;
+  PFN_CARD_UNBLOCK_PIN            pfnCardUnblockPin;
+  PFN_CARD_CHANGE_AUTHENTICATOR   pfnCardChangeAuthenticator;
+  PFN_CARD_DEAUTHENTICATE         pfnCardDeauthenticate;
+  PFN_CARD_CREATE_DIRECTORY       pfnCardCreateDirectory;
+  PFN_CARD_DELETE_DIRECTORY       pfnCardDeleteDirectory;
+  LPVOID                          pvUnused3;
+  LPVOID                          pvUnused4;
+  PFN_CARD_CREATE_FILE            pfnCardCreateFile;
+  PFN_CARD_READ_FILE              pfnCardReadFile;
+  PFN_CARD_WRITE_FILE             pfnCardWriteFile;
+  PFN_CARD_DELETE_FILE            pfnCardDeleteFile;
+  PFN_CARD_ENUM_FILES             pfnCardEnumFiles;
+  PFN_CARD_GET_FILE_INFO          pfnCardGetFileInfo;
+  PFN_CARD_QUERY_FREE_SPACE       pfnCardQueryFreeSpace;
+  PFN_CARD_QUERY_KEY_SIZES        pfnCardQueryKeySizes;
+  PFN_CARD_SIGN_DATA              pfnCardSignData;
+  PFN_CARD_RSA_DECRYPT            pfnCardRSADecrypt;
   PFN_CARD_CONSTRUCT_DH_AGREEMENT pfnCardConstructDHAgreement;
-  PFN_CARD_DERIVE_KEY             pfnCardDeriveKey;
-  PFN_CARD_DESTROY_DH_AGREEMENT   pfnCardDestroyDHAgreement;
-  PFN_CSP_GET_DH_AGREEMENT        pfnCspGetDHAgreement;
+  PFN_CARD_DERIVE_KEY             pfnCardDeriveKey;
+  PFN_CARD_DESTROY_DH_AGREEMENT   pfnCardDestroyDHAgreement;
+  PFN_CSP_GET_DH_AGREEMENT        pfnCspGetDHAgreement;
 } CARD_DATA, *PCARD_DATA;
 ```
 
@@ -447,7 +454,7 @@ This member is initialized by the [**CardAcquireContext**](cardacquirecontext.md
 
 A pointer to the [**CardDeriveKey**](cardderivekey.md) function implemented by the smart card module.
 
-**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** This function is not supported.
+**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** This function is not supported.
 
 </dd> <dt>
 
@@ -456,7 +463,7 @@ A pointer to the [**CardDeriveKey**](cardderivekey.md) function implemented by t
 
 A pointer to the [**CardDestroyDHAgreement**](carddestroydhagreement.md) function implemented by the smart card module.
 
-**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** This function is not supported.
+**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** This function is not supported.
 
 </dd> <dt>
 
@@ -465,7 +472,7 @@ A pointer to the [**CardDestroyDHAgreement**](carddestroydhagreement.md) functio
 
 A pointer to the [*CspGetDHAgreement*](cspgetdhagreement.md) callback function set by the CSP.
 
-**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** This function is not supported.
+**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** This function is not supported.
 
 </dd> </dl>
 
@@ -475,8 +482,8 @@ A pointer to the [*CspGetDHAgreement*](cspgetdhagreement.md) callback function s
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -488,9 +495,9 @@ A pointer to the [*CspGetDHAgreement*](cspgetdhagreement.md) callback function s
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

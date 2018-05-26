@@ -4,11 +4,14 @@ description: Sets the given license server as the first entry in the list of spe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8921e861-3b9a-49c5-a691-ded7be18ca0a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8921e861-3b9a-49c5-a691-ded7be18ca0a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetPrimaryLicenseServer method Remote Desktop Services", "SetPrimaryLicenseServer method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , SetPrimaryLicenseServer method"]
+keywords:
+- SetPrimaryLicenseServer method Remote Desktop Services
+- SetPrimaryLicenseServer method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , SetPrimaryLicenseServer method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPrimaryLicenseServer method of the Win32\_TerminalServiceSetting class
@@ -28,7 +34,7 @@ Sets the given license server as the first entry in the list of specified licens
 
 ```mof
 uint32 SetPrimaryLicenseServer(
-  [in] string LicenseServerName
+  [in] string LicenseServerName
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables protection for the device.'
-ms.assetid: '120d940f-39a0-4ad5-bd3e-c108b3f98ace'
-title: 'D3DAUTHENTICATEDCONFIGURE\_PROTECTION'
+---
+Description: Enables or disables protection for the device.
+ms.assetid: 120d940f-39a0-4ad5-bd3e-c108b3f98ace
+title: D3DAUTHENTICATEDCONFIGURE\_PROTECTION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCONFIGURE\_PROTECTION
@@ -45,7 +50,7 @@ This command is valid for all channel types.
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md)
+[**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master)
 </dt> </dl>
 
  

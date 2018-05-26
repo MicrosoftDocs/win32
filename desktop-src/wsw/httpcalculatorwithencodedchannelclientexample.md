@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithEncodedChannelClientExample
 description: This example show how to use the service proxy to talk to an HTTP based calculator service using a custom channel. The channel is uses a custom encoder.
-ms.assetid: 'cef3db1d-6362-4599-a4bf-f43079848691'
-keywords: ["HttpCalculatorWithEncodedChannelClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: cef3db1d-6362-4599-a4bf-f43079848691
+keywords:
+- HttpCalculatorWithEncodedChannelClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithEncodedChannelClientExample

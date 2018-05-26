@@ -1,8 +1,11 @@
 ---
 title: GetVendorData method of the MSFT\_StorageEnclosure class
 description: Returns the vendor-specific data from an enclosure.
-ms.assetid: '1CBBC9A4-73D1-4B4C-A164-7D9D40285709'
-keywords: ["GetVendorData method Windows Storage Management API", "GetVendorData method Windows Storage Management API , MSFT_StorageEnclosure class", "MSFT_StorageEnclosure class Windows Storage Management API , GetVendorData method"]
+ms.assetid: 1CBBC9A4-73D1-4B4C-A164-7D9D40285709
+keywords:
+- GetVendorData method Windows Storage Management API
+- GetVendorData method Windows Storage Management API , MSFT_StorageEnclosure class
+- MSFT_StorageEnclosure class Windows Storage Management API , GetVendorData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVendorData method of the MSFT\_StorageEnclosure class
@@ -22,9 +30,9 @@ Returns the vendor-specific data from an enclosure.
 
 ```mof
 HRESULT GetVendorData(
-  [in]  UInt16 PageNumber,
-  [out] String VendorData,
-  [out] String ExtendedStatus
+  [in]  UInt16 PageNumber,
+  [out] String VendorData,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -78,7 +86,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ This method can return one of these values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -100,9 +108,9 @@ This method can return one of these values.
 [**MSFT\_StorageEnclosure**](msft-storageenclosure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

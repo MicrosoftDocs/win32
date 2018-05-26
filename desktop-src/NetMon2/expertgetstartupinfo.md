@@ -1,7 +1,12 @@
 ---
-Description: 'The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.'
-ms.assetid: '15f080ed-50b7-40c6-b283-dbe416a2b0e9'
+Description: The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.
+ms.assetid: 15f080ed-50b7-40c6-b283-dbe416a2b0e9
 title: ExpertGetStartupInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpertGetStartupInfo function
@@ -13,8 +18,8 @@ The **ExpertGetStartupInfo** function retrieves the startup configuration inform
 
 ```C++
 DWORD WINAPI ExpertGetStartupInfo(
-  _In_  HEXPERTKEY         hExpertKey,
-  _Out_ PEXPERTSTARTUPINFO pExpertStartupInfo
+  _In_  HEXPERTKEY         hExpertKey,
+  _Out_ PEXPERTSTARTUPINFO pExpertStartupInfo
 );
 ```
 
@@ -54,17 +59,17 @@ The **ExpertGetStartupInfo** function is used if the expert must determine the s
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.'
-ms.assetid: 'fa5555df-4ada-40f3-9878-e6ba3dac2345'
-title: 'IPrintCoreUI2::GetGlobalAttribute method'
+---
+Description: The IPrintCoreUI2GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
+ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
+title: IPrintCoreUI2GetGlobalAttribute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::GetGlobalAttribute method

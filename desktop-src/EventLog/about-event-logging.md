@@ -1,7 +1,12 @@
 ---
-Description: 'When an error occurs, the system administrator or support representative must determine what caused the error, attempt to recover any lost data, and prevent the error from recurring.'
-ms.assetid: '2a625c8a-afa2-484a-a0e3-df3ef774abe4'
+Description: When an error occurs, the system administrator or support representative must determine what caused the error, attempt to recover any lost data, and prevent the error from recurring.
+ms.assetid: 2a625c8a-afa2-484a-a0e3-df3ef774abe4
 title: About Event Logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Event Logging

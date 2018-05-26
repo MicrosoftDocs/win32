@@ -1,14 +1,20 @@
 ---
 title: Ribbon element
 description: Represents the ribbon control in the Ribbon View.
-ms.assetid: '51083180-4e86-4c90-9fd1-a58c12bcc756'
-keywords: ["Ribbon element Windows Ribbon"]
+ms.assetid: 51083180-4e86-4c90-9fd1-a58c12bcc756
+keywords:
+- Ribbon element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Ribbon
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon element
@@ -130,14 +136,14 @@ The following example demonstrates the basic markup for a **Ribbon** View.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

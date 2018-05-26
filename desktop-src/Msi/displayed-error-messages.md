@@ -1,7 +1,12 @@
 ---
-Description: 'An installer function may display an error message dialog box returning any of the following errors. An error box is displayed only if the user interface level is at the full, reduced, or basic level. For more information, see User Interface Levels.'
-ms.assetid: '0153a21f-9b26-4088-b12b-96c9e6918cc3'
+Description: An installer function may display an error message dialog box returning any of the following errors. An error box is displayed only if the user interface level is at the full, reduced, or basic level. For more information, see User Interface Levels.
+ms.assetid: 0153a21f-9b26-4088-b12b-96c9e6918cc3
 title: Displayed Error Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displayed Error Messages

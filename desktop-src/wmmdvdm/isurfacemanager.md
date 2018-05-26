@@ -1,14 +1,21 @@
 ---
 title: ISurfaceManager interface
 description: The surface manager controls Direct3D and Direct3D surfaces. This interface can be queried for IBufferManager.
-ms.assetid: '47909aec-7726-4205-b813-2ceee4dd7e74'
-keywords: ["ISurfaceManager interface Windows Movie Maker and DVD Maker", "ISurfaceManager interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 47909aec-7726-4205-b813-2ceee4dd7e74
+keywords:
+- ISurfaceManager interface Windows Movie Maker and DVD Maker
+- ISurfaceManager interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - ISurfaceManager
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISurfaceManager interface
@@ -37,7 +44,7 @@ The **ISurfaceManager** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -46,9 +53,9 @@ The **ISurfaceManager** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

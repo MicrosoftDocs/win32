@@ -1,7 +1,12 @@
 ---
 title: Property Sheet Messages
 description: .
-ms.assetid: '816dfb75-fcb1-40f9-9977-3f17022f212c'
+ms.assetid: 816dfb75-fcb1-40f9-9977-3f17022f212c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sheet Messages

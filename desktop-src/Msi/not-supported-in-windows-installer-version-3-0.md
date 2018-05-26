@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.0 and earlier versions.'
-ms.assetid: '35be6da4-2a20-4a7a-9f6e-0420cd5a227e'
-title: 'Not Supported in Windows Installer 3.0'
+Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.0 and earlier versions.
+ms.assetid: 35be6da4-2a20-4a7a-9f6e-0420cd5a227e
+title: Not Supported in Windows Installer 3.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Not Supported in Windows Installer 3.0
@@ -14,12 +19,12 @@ The following features are not supported in Windows Installer 3.0 and earlier v
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiSetExternalUIRecord**](msisetexternaluirecord.md)
--   [**MsiNotifySidChange**](msinotifysidchange.md)
+-   [**MsiSetExternalUIRecord**](/windows/win32/Msi/nf-msi-msisetexternaluirecord?branch=master)
+-   [**MsiNotifySidChange**](/windows/win32/Msi/nf-msi-msinotifysidchangea?branch=master)
 
 Callback Function Prototype
 
--   [**INSTALLUI\_HANDLER\_RECORD**](installui-handler-record.md)
+-   [**INSTALLUI\_HANDLER\_RECORD**](/windows/win32/Msi/nc-msi-installui_handler_record?branch=master)
 
 [Database Tables](database-tables.md)
 

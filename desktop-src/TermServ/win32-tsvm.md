@@ -4,11 +4,13 @@ description: Represents a Remote Desktop virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9e076963-1c02-4419-b4d5-9863a2bbb23b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9e076963-1c02-4419-b4d5-9863a2bbb23b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSVm class Remote Desktop Services", "Win32_TSVm class Remote Desktop Services , described"]
+keywords:
+- Win32_TSVm class Remote Desktop Services
+- Win32_TSVm class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSVm class
@@ -38,13 +43,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_TSVmHost_Prov"), AMENDMENT]
 class Win32_TSVm : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   VmName;
-  string   EnlightmentSettings;
+  string   Name;
+  string   Status;
+  string   VmName;
+  string   EnlightmentSettings;
 };
 ```
 
@@ -69,7 +74,7 @@ The **Win32\_TSVm** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -258,16 +263,16 @@ The name of the virtual machine.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMV2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

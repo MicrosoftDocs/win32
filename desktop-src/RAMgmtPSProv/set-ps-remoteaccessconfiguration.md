@@ -2,13 +2,16 @@
 title: Set method of the PS\_RemoteAccessConfiguration class
 description: Updates a remote access configuration.
 audience: developer
-ms.assetid: '8610d02b-1bab-4faf-82b5-b89db296d85a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8610d02b-1bab-4faf-82b5-b89db296d85a
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_RemoteAccessConfiguration class", "PS_RemoteAccessConfiguration class, Set method"]
+keywords:
+- Set method
+- Set method, PS_RemoteAccessConfiguration class
+- PS_RemoteAccessConfiguration class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_RemoteAccessConfiguration class
@@ -28,10 +34,10 @@ Updates a remote access configuration.
 
 ```mof
 static uint32 Set(
-  [in]  RemoteAccessConfiguration Configuration,
-  [in]  boolean                   RestartServiceIfRequired,
-  [in]  boolean                   PassThru,
-  [out] RemoteAccessConfiguration cmdletOutput
+  [in]  RemoteAccessConfiguration Configuration,
+  [in]  boolean                   RestartServiceIfRequired,
+  [in]  boolean                   PassThru,
+  [out] RemoteAccessConfiguration cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ The [**RemoteAccessConfiguration**](remoteaccessconfiguration.md) object that re
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ The [**RemoteAccessConfiguration**](remoteaccessconfiguration.md) object that re
 [**PS\_RemoteAccessConfiguration**](ps-remoteaccessconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

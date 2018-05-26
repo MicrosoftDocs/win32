@@ -2,7 +2,13 @@
 title: Additional Files Required to Generate a Type Library
 description: To compile an IDL file that contains a library statement, the OLE and OLE Automation DLL files must be on your system. These files are automatically installed.
 ms.assetid: 12100f5c-d83a-4096-81b0-4e16a7c51d00
-keywords: ["type library MIDL"]
+keywords:
+- type library MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Additional Files Required to Generate a Type Library

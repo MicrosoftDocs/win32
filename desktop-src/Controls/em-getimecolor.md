@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMECOLOR message
 description: Retrieves the Input Method Editor (IME) composition color.
-ms.assetid: '788ac56c-f2d8-4e9a-8829-b92dcd76e6de'
-keywords: ["EM_GETIMECOLOR message Windows Controls"]
+ms.assetid: 788ac56c-f2d8-4e9a-8829-b92dcd76e6de
+keywords:
+- EM_GETIMECOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMECOLOR message
@@ -18,9 +24,9 @@ api_type:
 Retrieves the Input Method Editor (IME) composition color.
 
 > [!Note]  
-> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions of Rich Edit.
+> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions of Rich Edit.
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A four-element array of [**COMPCOLOR**](compcolor.md) structures that receives the composition color.
+A four-element array of [**COMPCOLOR**](/windows/win32/Richedit/ns-richedit-_compcolor?branch=master) structures that receives the composition color.
 
 </dd> </dl>
 
@@ -52,8 +58,8 @@ If the operation fails, the return value is zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -62,12 +68,12 @@ If the operation fails, the return value is zero.
 
 <dl> <dt>
 
-[**COMPCOLOR**](compcolor.md)
+[**COMPCOLOR**](/windows/win32/Richedit/ns-richedit-_compcolor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

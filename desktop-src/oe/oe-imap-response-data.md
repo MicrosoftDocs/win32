@@ -1,8 +1,10 @@
 ---
 title: IMAP\_RESPONSE\_DATA structure
 description: Contains the results of an Internet Message Access Protocol (IMAP) response that is dependent on an IMAP\_RESPONSE\_TYPE value.
-ms.assetid: '639aecb9-a2f2-447e-b347-9aab0d354306'
-keywords: ["IMAP_RESPONSE_DATA structure Windows Mail (formerly Outlook Express)", "IMAPADDR structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 639aecb9-a2f2-447e-b347-9aab0d354306
+keywords:
+- IMAP_RESPONSE_DATA structure Windows Mail (formerly Outlook Express)
+- IMAPADDR structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAP\_RESPONSE\_DATA structure
@@ -24,18 +31,18 @@ Contains the results of an Internet Message Access Protocol (IMAP) response that
 
 ```C++
 typedef struct tagIMAP_RESPONSE_DATA {
-  MBOX_MSGCOUNT          *pmcMsgCount;
-  DWORD                  dwDeletedMsgSeqNum;
-  FETCH_BODY_PART        *pFetchBodyPart;
-  FETCH_CMD_RESULTS      *pFetchResults;
-  IMAP_MSGFLAGS          imfImapMessageFlags;
-  DWORD                  dwUIDValidity;
-  BOOL                   bReadWrite;
-  IRangeList             *prlSearchResults;
+  MBOX_MSGCOUNT          *pmcMsgCount;
+  DWORD                  dwDeletedMsgSeqNum;
+  FETCH_BODY_PART        *pFetchBodyPart;
+  FETCH_CMD_RESULTS      *pFetchResults;
+  IMAP_MSGFLAGS          imfImapMessageFlags;
+  DWORD                  dwUIDValidity;
+  BOOL                   bReadWrite;
+  IRangeList             *prlSearchResults;
   IMAP_LISTLSUB_RESPONSE illrdMailboxListing;
-  IMAP_STATUS_RESPONSE   *pisrStatusResponse;
-  APPEND_PROGRESS        *papAppendProgress;
-  FETCH_CMD_RESULTS_EX   *pFetchResultsEx;
+  IMAP_STATUS_RESPONSE   *pisrStatusResponse;
+  APPEND_PROGRESS        *papAppendProgress;
+  FETCH_CMD_RESULTS_EX   *pFetchResultsEx;
 } IMAPADDR;
 ```
 
@@ -183,17 +190,17 @@ Occupies the structure when [**IMAP\_RESPONSE\_TYPE**](oe-imap-response-type.md)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

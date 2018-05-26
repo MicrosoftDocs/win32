@@ -4,11 +4,16 @@ description: This section provides WMI class and reference page information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11bee4f9-c2c7-4de8-83e7-4ab5668fc3e5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 11bee4f9-c2c7-4de8-83e7-4ab5668fc3e5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["classes Windows Management Infrastructure (MI)", "MI classes Windows Management Infrastructure (MI)"]
+keywords:
+- classes Windows Management Infrastructure (MI)
+- MI classes Windows Management Infrastructure (MI)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MI Classes

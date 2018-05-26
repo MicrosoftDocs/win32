@@ -1,7 +1,12 @@
 ---
 title: AccNameShouldNotContainRole
 description: AccNameShouldNotContainRole
-ms.assetid: '271461FF-5123-482F-B66D-A323CB3361DD'
+ms.assetid: 271461FF-5123-482F-B66D-A323CB3361DD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AccNameShouldNotContainRole
@@ -16,7 +21,7 @@ Warning
 
 ## Description
 
-The name of an element incorporates its MSAA role or UIA control type. For example, this warning can occur if the [**get\_accName**](iaccessible-iaccessible--get-accname.md) method—which is used to retrieve the MSAA name of an element—returns "ROLE\_SYSTEM\_SCROLLBAR\_\*".
+The name of an element incorporates its MSAA role or UIA control type. For example, this warning can occur if the [**get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master) method—which is used to retrieve the MSAA name of an element—returns "ROLE\_SYSTEM\_SCROLLBAR\_\*".
 
 This issue causes problems for people who rely on a screen-reader and keyboard for navigation because the role will be read twice, or it may be unpronounceable or non-intuitive for users.
 
@@ -30,7 +35,7 @@ This issue causes problems for people who rely on a screen-reader and keyboard f
 
 <dl> <dt>
 
-[**IAccessible::get\_accName**](iaccessible-iaccessible--get-accname.md)
+[**IAccessible::get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)
 </dt> <dt>
 
 [Name Property](name-property.md)

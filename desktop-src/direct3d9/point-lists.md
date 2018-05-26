@@ -1,7 +1,12 @@
 ---
-Description: 'A point list is a collection of vertices that are rendered as isolated points. Your application can use them in 3D scenes for star fields, or dotted lines on the surface of a polygon.'
-ms.assetid: '82866b07-5043-433f-974a-0a301d4b5491'
+Description: A point list is a collection of vertices that are rendered as isolated points. Your application can use them in 3D scenes for star fields, or dotted lines on the surface of a polygon.
+ms.assetid: 82866b07-5043-433f-974a-0a301d4b5491
 title: Point Lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Point Lists
@@ -36,7 +41,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render this point list in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md).
+The code example below shows how to render this point list in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master).
 
 
 ```

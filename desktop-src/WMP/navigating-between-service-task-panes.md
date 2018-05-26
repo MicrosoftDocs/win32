@@ -1,8 +1,26 @@
 ---
 title: Navigating between Service Task Panes
 description: Navigating between Service Task Panes
-ms.assetid: 'cb26a26d-a80d-4af5-9c5f-fab01129d83c'
-keywords: ["Windows Media Player online stores,navigating", "online stores,navigating", "type 2 online stores,navigating", "Windows Media Player online stores,service task panes", "online stores,service task panes", "type 2 online stores,service task panes", "Windows Media Player online stores,task panes", "online stores,task panes", "type 2 online stores,task panes", "navigating type 2 online stores", "Windows Media Player,service task panes", "Windows Media Player,task panes", "service task panes"]
+ms.assetid: cb26a26d-a80d-4af5-9c5f-fab01129d83c
+keywords:
+- Windows Media Player online stores,navigating
+- online stores,navigating
+- type 2 online stores,navigating
+- Windows Media Player online stores,service task panes
+- online stores,service task panes
+- type 2 online stores,service task panes
+- Windows Media Player online stores,task panes
+- online stores,task panes
+- type 2 online stores,task panes
+- navigating type 2 online stores
+- Windows Media Player,service task panes
+- Windows Media Player,task panes
+- service task panes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigating between Service Task Panes

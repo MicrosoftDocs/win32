@@ -1,8 +1,10 @@
 ---
 title: MDM\_SideLoader class
 description: Provides methods for activating side-loading of line-of-business (LOB) applications.
-ms.assetid: '13326a90-6e33-4c3b-bca0-9f0a62431be0'
-keywords: ["MDM_SideLoader class MDM Settings", "MDM_SideLoader class MDM Settings , described"]
+ms.assetid: 13326a90-6e33-4c3b-bca0-9f0a62431be0
+keywords:
+- MDM_SideLoader class MDM Settings
+- MDM_SideLoader class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_SideLoader class
@@ -53,7 +60,7 @@ The **MDM\_SideLoader** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -92,7 +99,7 @@ A hash of the installed product key.
 
 ## Remarks
 
-There have been some changes that were made for App Side-loading in Windows 10.If you are had Side-loading enabled in Windows 8 or Windows 8.1 and now are experiencing issues when using WMI to enable Side-loading on Windows 10 devices using Windows 8.1 keys, please see [Enterprise app management](https://msdn.microsoft.com/library/windows/hardware/mt228170) for information including using the [EnterpriseModernAppManagement CSP](https://msdn.microsoft.com/library/windows/hardware/dn904956).
+There have been some changes that were made for App Side-loading in Windows 10.If you are had Side-loading enabled in Windows 8 or Windows 8.1 and now are experiencing issues when using WMI to enable Side-loading on Windows 10 devices using Windows 8.1 keys, please see [Enterprise app management](https://msdn.microsoft.com/library/windows/hardware/mt228170) for information including using the [EnterpriseModernAppManagement CSP](https://msdn.microsoft.com/library/windows/hardware/dn904956).
 
 ## Requirements
 
@@ -100,7 +107,7 @@ There have been some changes that were made for App Side-loading in Windows 10.I
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -115,9 +122,9 @@ There have been some changes that were made for App Side-loading in Windows 10.I
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

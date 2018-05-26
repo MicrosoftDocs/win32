@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the processing mode for the Voice Capture DSP.'
-ms.assetid: '479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0'
-title: 'MFPKEY\_WMAAECMA\_SYSTEM\_MODE Property'
+---
+Description: Sets the processing mode for the Voice Capture DSP.
+ms.assetid: 479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0
+title: MFPKEY\_WMAAECMA\_SYSTEM\_MODE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_SYSTEM\_MODE Property
@@ -22,7 +27,7 @@ VT\_I4
 
 ## Remarks
 
-The value of this property is a member of the [AEC\_SYSTEM\_MODE](aec-system-modeenumeration.md) enumeration.
+The value of this property is a member of the [AEC\_SYSTEM\_MODE](/windows/win32/wmcodecdsp/ne-wmcodecdsp-aec_system_mode?branch=master) enumeration.
 
 The property must be one of the following values.
 

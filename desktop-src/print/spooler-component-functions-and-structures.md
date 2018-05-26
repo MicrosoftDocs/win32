@@ -1,7 +1,12 @@
 ---
 Description: Spooler Component Functions and Structures
-ms.assetid: '04f6affd-225e-4f93-8826-f3ca4d837106'
+ms.assetid: 04f6affd-225e-4f93-8826-f3ca4d837106
 title: Spooler Component Functions and Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spooler Component Functions and Structures

@@ -4,11 +4,16 @@ description: Changes from Active Directory can also be obtained by querying the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '83bda359-09e5-4abf-8f60-9c63bccfcdd1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 83bda359-09e5-4abf-8f60-9c63bccfcdd1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Polling for Changes Using USNChanged AD", "USNChanged AD"]
+keywords:
+- Polling for Changes Using USNChanged AD
+- USNChanged AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Polling for Changes Using USNChanged

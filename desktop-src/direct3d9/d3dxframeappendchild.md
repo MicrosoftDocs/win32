@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a child frame to a frame.'
-ms.assetid: 'a04c9bbe-8e54-467a-8e02-27c6469f4dac'
+---
+Description: Adds a child frame to a frame.
+ms.assetid: a04c9bbe-8e54-467a-8e02-27c6469f4dac
 title: D3DXFrameAppendChild function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFrameAppendChild function

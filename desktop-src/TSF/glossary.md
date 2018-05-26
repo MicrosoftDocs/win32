@@ -1,8 +1,25 @@
 ---
 title: Glossary
 description: Glossary
-ms.assetid: '2fd6c6bf-c556-414c-98bf-ed042d49920b'
-keywords: ["Text Services Framework (TSF),glossary", "TSF (Text Services Framework),glossary", "text services,glossary", "TSF-enabled applications,glossary", "Text Services Framework (TSF),terms", "TSF (Text Services Framework),terms", "text services,terms", "TSF-enabled applications,terms", "Text Services Framework (TSF),definitions", "TSF (Text Services Framework),definitions", "text services,definitions", "TSF-enabled applications,definitions"]
+ms.assetid: 2fd6c6bf-c556-414c-98bf-ed042d49920b
+keywords:
+- Text Services Framework (TSF),glossary
+- TSF (Text Services Framework),glossary
+- text services,glossary
+- TSF-enabled applications,glossary
+- Text Services Framework (TSF),terms
+- TSF (Text Services Framework),terms
+- text services,terms
+- TSF-enabled applications,terms
+- Text Services Framework (TSF),definitions
+- TSF (Text Services Framework),definitions
+- text services,definitions
+- TSF-enabled applications,definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

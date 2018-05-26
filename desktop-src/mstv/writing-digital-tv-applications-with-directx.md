@@ -1,7 +1,12 @@
 ---
 title: Writing Digital TV Applications with DirectX
 description: Writing Digital TV Applications with DirectX
-ms.assetid: 'e0fd0754-7898-4a40-bd62-13dfaea58cc8'
+ms.assetid: e0fd0754-7898-4a40-bd62-13dfaea58cc8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Digital TV Applications with DirectX
@@ -56,7 +61,7 @@ else
 
 
 
-The [**ITuneRequest::get\_TuningSpace**](itunerequest-get-tuningspace.md) method gets a pointer to the tuning space for a particular tune request. Then call [**ITuningSpace::get\_\_NetworkType**](ituningspace-get--networktype.md) to get the network type GUID. Pass this GUID to the **CoCreateInstance** function to create the Network Provider filter.
+The [**ITuneRequest::get\_TuningSpace**](/windows/previous-versions/tuner/nf-tuner-itunerequest-get_tuningspace?branch=master) method gets a pointer to the tuning space for a particular tune request. Then call [**ITuningSpace::get\_\_NetworkType**](/windows/previous-versions/tuner/nf-tuner-ituningspace-get__networktype?branch=master) to get the network type GUID. Pass this GUID to the **CoCreateInstance** function to create the Network Provider filter.
 
 **Analog Tuning Spaces**
 
@@ -75,13 +80,13 @@ The **AuxInTuningSpace** tuning space represents an auxiliary video input or "Au
 
  
 
-To find out if a tune request is an AuxIn type, query the tuning space for the [**IAuxInTuningSpace**](iauxintuningspace.md) interface. If it exposes this interface, build an analog capture graph and use the crossbar filter to select the input source. For more information, see [Working with Crossbars](https://msdn.microsoft.com/library/windows/desktop/dd390991). For S-Video, route the PhysConn\_Video\_SVideo pin to the video output pin. For composite video, route the PhysConn\_Video\_Composite pin to the video output. In both cases, route the PhysConn\_Audio\_Line pin to the audio output.
+To find out if a tune request is an AuxIn type, query the tuning space for the [**IAuxInTuningSpace**](/windows/previous-versions/tuner/?branch=master) interface. If it exposes this interface, build an analog capture graph and use the crossbar filter to select the input source. For more information, see [Working with Crossbars](https://msdn.microsoft.com/library/windows/desktop/dd390991). For S-Video, route the PhysConn\_Video\_SVideo pin to the video output pin. For composite video, route the PhysConn\_Video\_Composite pin to the video output. In both cases, route the PhysConn\_Audio\_Line pin to the audio output.
 
 For analog graphs, ignore the rest of this section.
 
 **Submit the Tune Request to the Network Provider**
 
-After you add the Network Provider to the graph, query it for the [**ITuner**](ituner.md) interface and call [**ITuner::put\_TuneRequest**](ituner-put-tunerequest.md) with a pointer to the tune request:
+After you add the Network Provider to the graph, query it for the [**ITuner**](/windows/previous-versions/tuner/nn-tuner-ituner?branch=master) interface and call [**ITuner::put\_TuneRequest**](/windows/previous-versions/tuner/nf-tuner-ituner-put_tunerequest?branch=master) with a pointer to the tune request:
 
 
 ```C++
@@ -108,7 +113,7 @@ A "component" refers to a program substream. The default preferred component typ
 
 **Select a Substream**
 
-To specify which substreams to activate or inactivate, an application must first submit a tune request to the tuner. Once the tuner tunes to the specified channel or frequency, it will fill in the components collection in the tune request with information about each active and inactive substream. The application can then examine each component in this collection, and use the [**IComponent::put\_Status**](icomponent-put-status.md) method to activate or inactivate a particular substream.
+To specify which substreams to activate or inactivate, an application must first submit a tune request to the tuner. Once the tuner tunes to the specified channel or frequency, it will fill in the components collection in the tune request with information about each active and inactive substream. The application can then examine each component in this collection, and use the [**IComponent::put\_Status**](/windows/previous-versions/tuner/nf-tuner-icomponent-put_status?branch=master) method to activate or inactivate a particular substream.
 
 **Digital Tuning**
 

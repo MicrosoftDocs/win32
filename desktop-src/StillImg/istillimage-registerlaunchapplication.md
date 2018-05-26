@@ -1,8 +1,9 @@
 ---
 title: RegisterLaunchApplication method
-description: The IStillImage RegisterLaunchApplication method puts an application in the Event Monitor's list of currently running applications that use the push model.
-ms.assetid: '4d3057ac-030d-45db-9a86-af3c7bcdb94d'
-keywords: ["RegisterLaunchApplication method Still Image"]
+description: The IStillImage RegisterLaunchApplication method puts an application in the Event Monitors list of currently running applications that use the push model.
+ms.assetid: 4d3057ac-030d-45db-9a86-af3c7bcdb94d
+keywords:
+- RegisterLaunchApplication method Still Image
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sti.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterLaunchApplication method
@@ -22,8 +28,8 @@ The **IStillImage::RegisterLaunchApplication** method puts an application in the
 
 ```C++
 HRESULT RegisterLaunchApplication(
-  [in] LPWSTR pwszAppName,
-  [in] LPWSTR pwszCommandLine
+  [in] LPWSTR pwszAppName,
+  [in] LPWSTR pwszCommandLine
 );
 ```
 
@@ -63,8 +69,8 @@ This method must be called after an application is launched. It tells the Event 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Sti.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sti.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sti.dll</dt> </dl> |
@@ -81,9 +87,9 @@ This method must be called after an application is launched. It tells the Event 
 [Making an Application Still Image-Aware](making-an-application-still-image-aware.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

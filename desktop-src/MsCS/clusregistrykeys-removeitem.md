@@ -4,11 +4,14 @@ description: Deletes a registry key from a ClusRegistryKeys collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32b2eef7-40b1-4bfe-9f28-43831006d4cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 32b2eef7-40b1-4bfe-9f28-43831006d4cb
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RemoveItem method Failover Cluster", "RemoveItem method Failover Cluster , ClusRegistryKeys class", "ClusRegistryKeys class Failover Cluster , RemoveItem method"]
+keywords:
+- RemoveItem method Failover Cluster
+- RemoveItem method Failover Cluster , ClusRegistryKeys class
+- ClusRegistryKeys class Failover Cluster , RemoveItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusRegistryKeys.RemoveItem method
@@ -64,7 +70,7 @@ For more information on checkpoints, see [Checkpointing](checkpointing.md).
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -80,9 +86,9 @@ For more information on checkpoints, see [Checkpointing](checkpointing.md).
 [**ClusRegistryKeys**](clusregistrykeys-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

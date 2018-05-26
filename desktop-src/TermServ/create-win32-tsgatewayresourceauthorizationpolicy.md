@@ -4,11 +4,14 @@ description: Creates a Remote Desktop resource authorization policy (RD \ 160;RA
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3301a543-cdf9-4528-a29e-691054ef81c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3301a543-cdf9-4528-a29e-691054ef81c9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Create method Remote Desktop Services", "Create method Remote Desktop Services , Win32_TSGatewayResourceAuthorizationPolicy class", "Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services , Create method"]
+keywords:
+- Create method Remote Desktop Services
+- Create method Remote Desktop Services , Win32_TSGatewayResourceAuthorizationPolicy class
+- Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services , Create method
 topic_type:
 - apiref
 api_name:
@@ -17,25 +20,28 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_TSGatewayResourceAuthorizationPolicy class
 
-Creates a Remote Desktop resource authorization policy (RD RAP).
+Creates a Remote Desktop resource authorization policy (RD RAP).
 
 ## Syntax
 
 
 ```mof
 uint32 Create(
-  [in] string  Name,
-  [in] string  Description,
-  [in] boolean Enabled,
-  [in] string  ResourceGroupType,
-  [in] string  ResourceGroupName,
-  [in] string  UserGroupNames,
-  [in] string  ProtocolNames,
-  [in] string  PortNumbers
+  [in] string  Name,
+  [in] string  Description,
+  [in] boolean Enabled,
+  [in] string  ResourceGroupType,
+  [in] string  ResourceGroupName,
+  [in] string  UserGroupNames,
+  [in] string  ProtocolNames,
+  [in] string  PortNumbers
 );
 ```
 
@@ -48,21 +54,21 @@ uint32 Create(
 *Name* \[in\]
 </dt> <dd>
 
-Name of the RD RAP.
+Name of the RD RAP.
 
 </dd> <dt>
 
 *Description* \[in\]
 </dt> <dd>
 
-Description of the RD RAP.
+Description of the RD RAP.
 
 </dd> <dt>
 
 *Enabled* \[in\]
 </dt> <dd>
 
-Indicates whether the RD RAP is to be enabled.
+Indicates whether the RD RAP is to be enabled.
 
 </dd> <dt>
 
@@ -139,7 +145,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -153,9 +159,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayResourceAuthorizationPolicy**](win32-tsgatewayresourceauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

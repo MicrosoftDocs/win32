@@ -1,7 +1,12 @@
 ---
-Description: 'Represents configuration and operational parameters for CIM\_ManagedElement instances.'
-ms.assetid: 'a9ee0eb6-dc48-43f2-bdb5-f84fe7bbc1f2'
-title: 'CIM\_SettingData class'
+Description: Represents configuration and operational parameters for CIM\_ManagedElement instances.
+ms.assetid: a9ee0eb6-dc48-43f2-bdb5-f84fe7bbc1f2
+title: CIM\_SettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SettingData class
@@ -71,7 +76,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,8 +86,8 @@ Uniquely identifies an instance of this class within the scope of the containing
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -96,9 +101,9 @@ Uniquely identifies an instance of this class within the scope of the containing
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Retrieves multicast scope statistics corresponding to specified mul
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7976969-125e-4881-9c83-5b9d26a61075'
-ms.prod: 'windows-server-dev'
+ms.assetid: f7976969-125e-4881-9c83-5b9d26a61075
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4MulticastScopeStatistics class", "PS_DhcpServerv4MulticastScopeStatistics class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4MulticastScopeStatistics class
+- PS_DhcpServerv4MulticastScopeStatistics class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4MulticastScopeStatistics class
@@ -30,9 +36,9 @@ Retrieves multicast scope statistics corresponding to specified multicast scope 
 
 ```mof
 uint32 Get(
-  [in]  string                               ComputerName,
-  [in]  string                               Name[],
-  [out] DhcpServerv4MulticastScopeStatistics cmdletOutput[]
+  [in]  string                               ComputerName,
+  [in]  string                               Name[],
+  [out] DhcpServerv4MulticastScopeStatistics cmdletOutput[]
 );
 ```
 
@@ -74,7 +80,7 @@ Scope address utilization percentage.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -88,9 +94,9 @@ Scope address utilization percentage.
 [**PS\_DhcpServerv4MulticastScopeStatistics**](ps-dhcpserverv4multicastscopestatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

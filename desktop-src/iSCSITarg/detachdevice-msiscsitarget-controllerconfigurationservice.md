@@ -4,13 +4,16 @@ description: Removes the CIM\_ProtocolControllerForDevice instance association b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '902f9fc5-c8a8-4f1d-992d-eb4aa3b695fb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 902f9fc5-c8a8-4f1d-992d-eb4aa3b695fb
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DetachDevice method iSCSI Software Target API", "DetachDevice method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , DetachDevice method"]
+keywords:
+- DetachDevice method iSCSI Software Target API
+- DetachDevice method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , DetachDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DetachDevice method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -32,8 +38,8 @@ This method is inherited from the **CIM\_ControllerConfigurationService** class.
 
 ```mof
 uint32 DetachDevice(
-  [in] CIM_ProtocolController Ref ProtocolController,
-  [in] CIM_LogicalDevice Ref      Device
+  [in] CIM_ProtocolController Ref ProtocolController,
+  [in] CIM_LogicalDevice Ref      Device
 );
 ```
 
@@ -51,7 +57,7 @@ Specifies the antecedent protocol controller instance.
 > [!Note]  
 > When the [**CIM\_ProtocolController**](https://msdn.microsoft.com/library/mt432251) instance is actively masking a device, that is, it is part of a **CIM\_AuthorizedTarget** association, the management instrumentation provider should update the hardware access configuration when this method is called.
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,7 +92,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **LogicalDevice Instance not Associated with Controller** (4096)
@@ -95,10 +101,10 @@ This method returns one of the following values.
 **Busy** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -108,7 +114,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -128,9 +134,9 @@ This method returns one of the following values.
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

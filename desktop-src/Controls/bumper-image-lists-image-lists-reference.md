@@ -1,7 +1,12 @@
 ---
 title: Image List Reference
 description: .
-ms.assetid: 'efe091cc-d34d-4de3-be1c-6f72136f07a8'
+ms.assetid: efe091cc-d34d-4de3-be1c-6f72136f07a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image List Reference

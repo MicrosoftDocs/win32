@@ -1,8 +1,9 @@
 ---
 title: Player.versionInfo
 description: The versionInfo property retrieves a String value specifying the version of the Windows Media Player.
-ms.assetid: '4b644de2-fcb9-407b-9eea-3eb683a17150'
-keywords: ["Player.versionInfo Windows Media Player"]
+ms.assetid: 4b644de2-fcb9-407b-9eea-3eb683a17150
+keywords:
+- Player.versionInfo Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.versionInfo
@@ -64,9 +70,9 @@ The following example creates an HTML BUTTON element that, when clicked, display
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,17 @@
 ---
 title: GenerateReport method of the Win32\_TSLicenseReport class
-description: GenerateReport is no longer available for use as of Windows Server 2012.
+description: GenerateReport is no longer available for use as of Windows Server 2012.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2d3b16d6-52e8-491f-b6e5-419e9a21013b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2d3b16d6-52e8-491f-b6e5-419e9a21013b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GenerateReport method Remote Desktop Services", "GenerateReport method Remote Desktop Services , Win32_TSLicenseReport class", "Win32_TSLicenseReport class Remote Desktop Services , GenerateReport method"]
+keywords:
+- GenerateReport method Remote Desktop Services
+- GenerateReport method Remote Desktop Services , Win32_TSLicenseReport class
+- Win32_TSLicenseReport class Remote Desktop Services , GenerateReport method
 topic_type:
 - apiref
 api_name:
@@ -17,24 +20,27 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GenerateReport method of the Win32\_TSLicenseReport class
 
-\[**GenerateReport** is no longer available for use as of Windows Server 2012. Instead, use [**GenerateReportEx**](generatereportex-win32-tslicensereport.md).\]
+\[**GenerateReport** is no longer available for use as of Windows Server 2012. Instead, use [**GenerateReportEx**](generatereportex-win32-tslicensereport.md).\]
 
 This method is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:** Generates a current per user license usage report on the Remote Desktop license server.
+**Windows Server 2008 R2 and Windows Server 2008:** Generates a current per user license usage report on the Remote Desktop license server.
 
 ## Syntax
 
 
 ```mof
 uint32 GenerateReport(
-  [in]  uint32 ScopeType,
-  [in]  string ScopeValue,
-  [out] string FileName
+  [in]  uint32 ScopeType,
+  [in]  string ScopeValue,
+  [out] string FileName
 );
 ```
 
@@ -90,7 +96,7 @@ The file name of the generated report.
 
 Returns **WBEM\_E\_NOT\_SUPPORTED**.
 
-**Windows Server 2008 R2 and Windows Server 2008:** If the method succeeds, it returns zero. If the method is unsuccessful, it returns a nonzero value. For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).
+**Windows Server 2008 R2 and Windows Server 2008:** If the method succeeds, it returns zero. If the method is unsuccessful, it returns a nonzero value. For a list of error codes, see [Remote Desktop Services WMI Provider Error Codes](terminal-services-wmi-provider-error-codes.md).
 
 ## Remarks
 
@@ -107,9 +113,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | End of client support<br/>    | None supported<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                         |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
@@ -124,9 +130,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseReport**](win32-tslicensereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

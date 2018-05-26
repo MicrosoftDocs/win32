@@ -1,7 +1,12 @@
 ---
 title: Properties of Documents
 description: Properties of Documents
-ms.assetid: '103ddfc0-b431-4a52-bf3a-acaf39e34bc2'
+ms.assetid: 103ddfc0-b431-4a52-bf3a-acaf39e34bc2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties of Documents

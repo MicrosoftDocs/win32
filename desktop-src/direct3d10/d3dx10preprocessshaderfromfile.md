@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a file without compiling it.'
-ms.assetid: '9f609aa5-5ee7-45fb-9693-69de130b6cc0'
+---
+Description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a file without compiling it.
+ms.assetid: 9f609aa5-5ee7-45fb-9693-69de130b6cc0
 title: D3DX10PreprocessShaderFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10PreprocessShaderFromFile function
@@ -45,18 +50,18 @@ Name of the shader file.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](id3d10include.md)**
+Type: **[**LPD3D10INCLUDE**](/windows/win32/D3D10Shader/?branch=master)**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](id3d10include.md)); set this to **NULL** to specify there is no include file.
+A pointer to an include interface (see [**ID3D10Include Interface**](/windows/win32/D3D10Shader/?branch=master)); set this to **NULL** to specify there is no include file.
 
 </dd> <dt>
 
@@ -72,18 +77,18 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppShaderText* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-A pointer to memory (see [**ID3D10Blob Interface**](id3d10blob.md)) that contains the uncompiled shader.
+A pointer to memory (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) that contains the uncompiled shader.
 
 </dd> <dt>
 
 *ppErrorMsgs* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-The address of a pointer to memory (see [**ID3D10Blob Interface**](id3d10blob.md)) that contains effect-creation errors, if any occurred.
+The address of a pointer to memory (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) that contains effect-creation errors, if any occurred.
 
 </dd> </dl>
 

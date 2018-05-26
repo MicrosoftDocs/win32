@@ -1,7 +1,12 @@
 ---
-Description: 'Fax service methods return an HRESULT value indicating success or failure. If the method succeeds, it returns S\_OK. Otherwise, it returns a Component Object Model (COM)-defined error code.'
-ms.assetid: 'b5d59fec-2802-40bd-8ce4-748137f30fb2'
+Description: Fax service methods return an HRESULT value indicating success or failure. If the method succeeds, it returns S\_OK. Otherwise, it returns a Component Object Model (COM)-defined error code.
+ms.assetid: b5d59fec-2802-40bd-8ce4-748137f30fb2
 title: Fax Error Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Error Codes

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMuted method sets the object''s muted state. A muted object is not rendered, but it remains in the timeline.'
-ms.assetid: '5dcd8533-8e58-4553-ac01-928723485f5d'
-title: 'IAMTimelineObj::SetMuted method'
+---
+Description: The SetMuted method sets the objects muted state. A muted object is not rendered, but it remains in the timeline.
+ms.assetid: 5dcd8533-8e58-4553-ac01-928723485f5d
+title: IAMTimelineObjSetMuted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetMuted method

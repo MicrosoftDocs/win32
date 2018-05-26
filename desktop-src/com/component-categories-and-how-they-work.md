@@ -1,7 +1,12 @@
 ---
 title: Component Categories and How they Work
 description: Component Categories and How they Work
-ms.assetid: 'efbf4a25-3c73-4d09-a172-6676c6d6501b'
+ms.assetid: efbf4a25-3c73-4d09-a172-6676c6d6501b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Categories and How they Work
@@ -14,10 +19,10 @@ Component categories are not cumulative or exclusive, a control can require any 
 
 The following component categories are identified here, where necessary more detailed specifications of the categories may be available.
 
--   [**ISimpleFrameSite**](isimpleframesite.md) control containment.
--   Simple Databinding through the [**IPropertyNotifySink**](ipropertynotifysink.md) interface.
+-   [**ISimpleFrameSite**](/windows/win32/OCIdl/nn-ocidl-isimpleframesite?branch=master) control containment.
+-   Simple Databinding through the [**IPropertyNotifySink**](/windows/win32/OCIdl/nn-ocidl-ipropertynotifysink?branch=master) interface.
 -   Advanced Databinding (as supported by the additional databinding interfaces of VB4.0).
--   Visual Basic private interfaces - [**IVBFormat**](ivbformat.md), [**IVBGetControl**](ivbgetcontrol.md)
+-   Visual Basic private interfaces - [**IVBFormat**](/windows/win32/VbInterf/nn-vbinterf-ivbformat?branch=master), [**IVBGetControl**](/windows/win32/VbInterf/nn-vbinterf-ivbgetcontrol?branch=master)
 -   Internet aware controls.
 -   Windowless controls.
 

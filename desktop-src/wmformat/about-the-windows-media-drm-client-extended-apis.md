@@ -1,8 +1,26 @@
 ---
 title: About the Windows Media DRM Client Extended APIs
 description: About the Windows Media DRM Client Extended APIs
-ms.assetid: '8a410929-bf47-45f0-9a7b-a161efd353f3'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "DRM Client Extended APIs,about", "Client Extended APIs,about"]
+ms.assetid: 8a410929-bf47-45f0-9a7b-a161efd353f3
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- DRM Client Extended APIs,about
+- Client Extended APIs,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Windows Media DRM Client Extended APIs

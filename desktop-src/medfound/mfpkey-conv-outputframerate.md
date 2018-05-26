@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the output frame rate as a ratio.'
-ms.assetid: 'a825f3a5-f9b5-49c3-853c-87d1dcb3c4ca'
-title: 'MFPKEY\_CONV\_OUTPUTFRAMERATE Property'
+---
+Description: Specifies the output frame rate as a ratio.
+ms.assetid: a825f3a5-f9b5-49c3-853c-87d1dcb3c4ca
+title: MFPKEY\_CONV\_OUTPUTFRAMERATE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_CONV\_OUTPUTFRAMERATE Property

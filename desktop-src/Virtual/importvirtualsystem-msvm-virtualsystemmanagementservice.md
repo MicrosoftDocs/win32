@@ -1,8 +1,11 @@
 ---
 title: ImportVirtualSystem method of the Msvm\_VirtualSystemManagementService class
 description: Imports a virtual computer system definition from file.
-ms.assetid: '868a704b-f970-44b9-8396-78161057859d'
-keywords: ["ImportVirtualSystem method Hyper-V", "ImportVirtualSystem method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ImportVirtualSystem method"]
+ms.assetid: 868a704b-f970-44b9-8396-78161057859d
+keywords:
+- ImportVirtualSystem method Hyper-V
+- ImportVirtualSystem method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ImportVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,22 +14,27 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportVirtualSystem method of the Msvm\_VirtualSystemManagementService class
 
-Beginning with Windows Server 2008 R2 this method is deprecated. Use the [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md) method.
+Beginning with Windows Server 2008 R2 this method is deprecated. Use the [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md) method.
 
-**Windows Server 2008:** Imports a virtual computer system definition from file. The resulting virtual computer system will be in the "Defined" state.
+**Windows Server 2008:** Imports a virtual computer system definition from file. The resulting virtual computer system will be in the "Defined" state.
 
 ## Syntax
 
 
 ```mof
 uint32 ImportVirtualSystem(
-  [in]  string              ImportDirectory,
-  [in]  boolean             GenerateNewID,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              ImportDirectory,
+  [in]  boolean             GenerateNewID,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -125,7 +133,7 @@ The following C# sample imports a virtual system. The referenced utilities can b
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -195,7 +203,7 @@ The following VBScript sample imports a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -329,9 +337,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -347,9 +355,9 @@ End Function
 [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

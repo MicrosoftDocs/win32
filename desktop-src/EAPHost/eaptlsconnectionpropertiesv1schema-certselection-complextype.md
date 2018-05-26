@@ -1,14 +1,20 @@
 ---
 title: CertSelection Complex Type
 description: Determines how the user selects a certificate.
-ms.assetid: 'f5a37258-8ab0-4736-9721-6c2800769c74'
-keywords: ["CertSelection complex type EAPHost"]
+ms.assetid: f5a37258-8ab0-4736-9721-6c2800769c74
+keywords:
+- CertSelection complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - CertSelection
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertSelection Complex Type
@@ -42,8 +48,8 @@ The **CertSelection** complex type determines how the user selects a certificate
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ The **CertSelection** complex type determines how the user selects a certificate
 [eaptlsconnectionpropertiesv1 Schema Complex Types](eaptlsconnectionpropertiesv1schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

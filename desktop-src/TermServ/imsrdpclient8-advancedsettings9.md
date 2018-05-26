@@ -4,11 +4,18 @@ description: Contains an object that supports the IMsRdpClientAdvancedSettings8 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb7bf118-15e7-4a11-91b1-e48f18afb436'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: eb7bf118-15e7-4a11-91b1-e48f18afb436
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AdvancedSettings9 property Remote Desktop Services", "AdvancedSettings9 property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings9 property", "AdvancedSettings9 property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings9 property", "AdvancedSettings9 property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings9 property"]
+keywords:
+- AdvancedSettings9 property Remote Desktop Services
+- AdvancedSettings9 property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings9 property
+- AdvancedSettings9 property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings9 property
+- AdvancedSettings9 property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings9 property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +29,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient8::AdvancedSettings9 property
@@ -35,7 +45,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AdvancedSettings9(
-  [out, retval] IMsRdpClientAdvancedSettings8 **ppAdvSettings
+  [out, retval] IMsRdpClientAdvancedSettings8 **ppAdvSettings
 );
 ```
 
@@ -51,8 +61,8 @@ An [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md) interfa
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient8 is defined as 4247E044-9271-43A9-BC49-E2AD9E855D62<br/>       |
@@ -72,9 +82,9 @@ An [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md) interfa
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

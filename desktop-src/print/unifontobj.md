@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.'
-ms.assetid: 'ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c'
+---
+Description: The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
+ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 title: UNIFONTOBJ structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNIFONTOBJ structure

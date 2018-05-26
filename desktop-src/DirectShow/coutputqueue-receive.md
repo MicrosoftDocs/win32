@@ -1,7 +1,12 @@
 ---
-Description: 'The Receive method delivers a media sample to the input pin.'
-ms.assetid: 'a8ee0988-8955-48d0-be1b-24eea72d560d'
-title: 'COutputQueue.Receive method'
+Description: The Receive method delivers a media sample to the input pin.
+ms.assetid: a8ee0988-8955-48d0-be1b-24eea72d560d
+title: COutputQueue.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.Receive method
@@ -13,7 +18,7 @@ The `Receive` method delivers a media sample to the input pin.
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ This method calls the [**COutputQueue::ReceiveMultiple**](coutputqueue-receivemu
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

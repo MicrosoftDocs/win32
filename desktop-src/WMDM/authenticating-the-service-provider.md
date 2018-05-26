@@ -1,18 +1,29 @@
 ---
 title: Authenticating the Service Provider
 description: Authenticating the Service Provider
-ms.assetid: 'e48a8a7c-0277-4f0c-bad2-5bc9d0286da8'
-keywords: ["Windows Media Device Manager,authentication", "Device Manager,authentication", "programming guide,authentication", "service providers,authentication", "creating service providers,authentication", "authentication"]
+ms.assetid: e48a8a7c-0277-4f0c-bad2-5bc9d0286da8
+keywords:
+- Windows Media Device Manager,authentication
+- Device Manager,authentication
+- programming guide,authentication
+- service providers,authentication
+- creating service providers,authentication
+- authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authenticating the Service Provider
 
-To be accessible from Windows Media Device Manager, a service provider must inherit and implement the [**IComponentAuthenticate**](icomponentauthenticate.md) interface.
+To be accessible from Windows Media Device Manager, a service provider must inherit and implement the [**IComponentAuthenticate**](/windows/win32/mswmdm/nn-mswmdm-icomponentauthenticate?branch=master) interface.
 
 To authenticate itself, a service provider performs the following steps:
 
 1.  On instantiation, it creates a new global [CSecureChannelServer](csecurechannelserver-class.md) object and sets the certificate and key values from its key file.
-2.  It implements the [**IComponentAuthenticate::SACAuth**](icomponentauthenticate-sacauth.md) and [**IComponentAuthenticate::SACGetProtocols**](icomponentauthenticate-sacgetprotocols.md) methods by simply passing the parameters into its global CSecureChannelServer member.
+2.  It implements the [**IComponentAuthenticate::SACAuth**](/windows/win32/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth?branch=master) and [**IComponentAuthenticate::SACGetProtocols**](/windows/win32/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols?branch=master) methods by simply passing the parameters into its global CSecureChannelServer member.
 3.  Before handling any implemented Windows Media Device Manager methods, the service provider must verify the caller's authentication by calling CSecureChannelServer::fIsAuthenticated, and failing if the caller is not authenticated.
 
 These steps are shown in the following C++ examples.

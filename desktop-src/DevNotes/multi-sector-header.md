@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the multisector header.'
-ms.assetid: '0fad0e93-b940-4b52-be16-c5f177884dfb'
-title: 'MULTI\_SECTOR\_HEADER structure'
+Description: Represents the multisector header.
+ms.assetid: 0fad0e93-b940-4b52-be16-c5f177884dfb
+title: MULTI\_SECTOR\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MULTI\_SECTOR\_HEADER structure

@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the default save location for a library for the owner of the library.'
-ms.assetid: 'b6b8961c-169a-4ad6-b7a4-ec9870a4fa83'
-title: 'System.IsDefaultSaveLocation'
+Description: Identifies the default save location for a library for the owner of the library.
+ms.assetid: b6b8961c-169a-4ad6-b7a4-ec9870a4fa83
+title: System.IsDefaultSaveLocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsDefaultSaveLocation

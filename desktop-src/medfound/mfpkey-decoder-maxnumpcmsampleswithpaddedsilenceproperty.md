@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum number of additional PCM samples that might be returned at the end of after decoding a file.'
-ms.assetid: '82b3676c-7653-421c-aac7-7f20a642779f'
-title: 'MFPKEY\_Decoder\_MaxNumPCMSamplesWithPaddedSilence Property'
+---
+Description: Specifies the maximum number of additional PCM samples that might be returned at the end of after decoding a file.
+ms.assetid: 82b3676c-7653-421c-aac7-7f20a642779f
+title: MFPKEY\_Decoder\_MaxNumPCMSamplesWithPaddedSilence Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_Decoder\_MaxNumPCMSamplesWithPaddedSilence Property

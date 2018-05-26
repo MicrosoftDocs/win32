@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Add method adds an outbound routing group to the FaxOutboundRoutingGroups collection.'
-ms.assetid: '5e65a35a-61cc-4c23-aeb2-406cc7f832ac'
-title: 'FaxOutboundRoutingGroups.Add method'
+---
+Description: The Add method adds an outbound routing group to the FaxOutboundRoutingGroups collection.
+ms.assetid: 5e65a35a-61cc-4c23-aeb2-406cc7f832ac
+title: FaxOutboundRoutingGroups.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingGroups.Add method
@@ -44,7 +49,7 @@ A [**FaxOutboundRoutingGroup**](-mfax-faxoutboundroutinggroup.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -69,7 +74,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups-cpp.md)
+[**IFaxOutboundRoutingGroups**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutinggroups?branch=master)
 </dt> </dl>
 
  

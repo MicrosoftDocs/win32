@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows SDK provides function prototypes in generic, Windows code page, and Unicode versions.'
-ms.assetid: '601d24b0-11bb-48fa-a257-207c3acee226'
+Description: The Windows SDK provides function prototypes in generic, Windows code page, and Unicode versions.
+ms.assetid: 601d24b0-11bb-48fa-a257-207c3acee226
 title: Conventions for Function Prototypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conventions for Function Prototypes
@@ -64,7 +69,7 @@ For all functions with text arguments, applications should normally use the gene
 
  
 
-Your application should always use a generic function prototype with the generic string and character types. All function names that end with an uppercase "W" take Unicode, that is, wide character, parameters. Some functions exist only in Unicode versions and can be used only with the appropriate data types. For example, [**LCIDToLocaleName**](lcidtolocalename.md) and [**LocaleNameToLCID**](localenametolcid.md) have only Unicode versions.
+Your application should always use a generic function prototype with the generic string and character types. All function names that end with an uppercase "W" take Unicode, that is, wide character, parameters. Some functions exist only in Unicode versions and can be used only with the appropriate data types. For example, [**LCIDToLocaleName**](/windows/win32/Winnls/nf-winnls-lcidtolocalename?branch=master) and [**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master) have only Unicode versions.
 
 The Requirements section in the reference documentation for each Unicode and character set function provides information on the function versions implemented by supported operating systems. If a line beginning with "Unicode" is included, the function has separate Unicode and Windows code page versions.
 

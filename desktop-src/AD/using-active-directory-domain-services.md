@@ -4,11 +4,20 @@ description: This section provides guidelines for writing applications that use 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2ae20169-08a5-4e15-8430-ea99a917725f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2ae20169-08a5-4e15-8430-ea99a917725f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Active Directory , using", "Active Directory Domain Services Active Directory , using", "Active Directory examples Active Directory", "Active Directory Domain Services examples Active Directory", "examples Active Directory", "Active Directory Active Directory , examples see Active Directory Domain Services examples"]
+keywords:
+- Active Directory Active Directory , using
+- Active Directory Domain Services Active Directory , using
+- Active Directory examples Active Directory
+- Active Directory Domain Services examples Active Directory
+- examples Active Directory
+- Active Directory Active Directory , examples see Active Directory Domain Services examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Active Directory Domain Services

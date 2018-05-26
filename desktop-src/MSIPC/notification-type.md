@@ -4,9 +4,9 @@ description: Specifies the way notifications about tracked document content usag
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'B4EA9DCB-9294-439E-B0DA-E79FE016902C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: B4EA9DCB-9294-439E-B0DA-E79FE016902C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -18,6 +18,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Notification type
@@ -77,8 +80,8 @@ Specifies that a notification will be sent every time a user unsuccessfully trie
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -111,9 +114,9 @@ Specifies that a notification will be sent every time a user unsuccessfully trie
 [**IpcRegisterLicense**](ipcregisterlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

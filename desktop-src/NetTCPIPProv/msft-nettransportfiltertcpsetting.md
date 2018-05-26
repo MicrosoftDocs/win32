@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a.'
-ms.assetid: '6b602398-2e04-42e4-a7b1-1e48afdb7465'
-title: 'MSFT\_NetTransportFilterTCPSetting class'
+Description: Represents an association between a.
+ms.assetid: 6b602398-2e04-42e4-a7b1-1e48afdb7465
+title: MSFT\_NetTransportFilterTCPSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetTransportFilterTCPSetting class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetTransportFilterTCPSetting : CIM_Dependency
 {
   MSFT_NetTransportFilter REF Antecedent;
-  MSFT_NetTCPSetting      REF Dependent;
+  MSFT_NetTCPSetting      REF Dependent;
 };
 ```
 
@@ -71,8 +76,8 @@ A [**MSFT\_NetTCPSetting**](msft-nettcpsetting.md) object fo the TCP setting ass
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -92,9 +97,9 @@ A [**MSFT\_NetTCPSetting**](msft-nettcpsetting.md) object fo the TCP setting ass
 [**MSFT\_NetTCPSetting**](msft-nettcpsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

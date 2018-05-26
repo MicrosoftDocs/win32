@@ -1,8 +1,9 @@
 ---
 title: CBEM\_GETCOMBOCONTROL message
 description: Gets the handle to the child combo box control.
-ms.assetid: 'b7eb8607-79c5-4dc8-b835-4014093532e4'
-keywords: ["CBEM_GETCOMBOCONTROL message Windows Controls"]
+ms.assetid: b7eb8607-79c5-4dc8-b835-4014093532e4
+keywords:
+- CBEM_GETCOMBOCONTROL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_GETCOMBOCONTROL message
@@ -37,15 +43,15 @@ Returns the handle to the combo box control within the ComboBoxEx control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

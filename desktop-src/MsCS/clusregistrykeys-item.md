@@ -4,11 +4,14 @@ description: Returns a single registry key from a ClusRegistryKeys collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e24239a4-feeb-468e-99b4-ca3093d8cfd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e24239a4-feeb-468e-99b4-ca3093d8cfd0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , ClusRegistryKeys class", "ClusRegistryKeys class Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , ClusRegistryKeys class
+- ClusRegistryKeys class Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusRegistryKeys.Item property
@@ -49,7 +55,7 @@ A string that receives the specified registry key.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -71,9 +77,9 @@ A string that receives the specified registry key.
 [**ClusRegistryKeys.Count**](clusregistrykeys-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

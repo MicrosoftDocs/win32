@@ -1,8 +1,9 @@
 ---
 title: CardAuthenticateChallenge function
 description: Submits a response to a challenge issued by a smart card to authenticate a user.
-ms.assetid: 'b1856322-f691-4cdb-a5a1-fce4dcdbdb69'
-keywords: ["CardAuthenticateChallenge function Security"]
+ms.assetid: b1856322-f691-4cdb-a5a1-fce4dcdbdb69
+keywords:
+- CardAuthenticateChallenge function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardAuthenticateChallenge function
@@ -24,10 +30,10 @@ The **CardAuthenticateChallenge** function, defined by a smart card module, subm
 
 ```C++
 DWORD WINAPI CardAuthenticateChallenge(
-  _In_      PCARD_DATA pCardData,
-  _In_      PBYTE      pbResponseData,
-  _In_      DWORD      cbResponseData,
-  _Out_opt_ PDWORD     pcAttemptsRemaining
+  _In_      PCARD_DATA pCardData,
+  _In_      PBYTE      pbResponseData,
+  _In_      DWORD      cbResponseData,
+  _Out_opt_ PDWORD     pcAttemptsRemaining
 );
 ```
 
@@ -67,7 +73,7 @@ If this function has already returned zero through this parameter and is called 
 
 If the value of this parameter is **NULL**, the smart card module ignores it.
 
-Card modules that do not support a count of remaining authentication attempts should return a value of –1 for this parameter.
+Card modules that do not support a count of remaining authentication attempts should return a value of  1 for this parameter.
 
 </dd> </dl>
 
@@ -86,7 +92,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,8 +104,8 @@ This authentication technique is normally used for privileged operations such as
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -120,9 +126,9 @@ This authentication technique is normally used for privileged operations such as
 [**CardGetChallenge**](cardgetchallenge.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Copies files from the Hyper-V host to the virtual machine.'
-ms.assetid: '76667557-13B2-4286-BC6B-E32FADE62A7A'
-title: 'Msvm\_GuestFileService::CopyFilesToGuest method'
+Description: Copies files from the Hyper-V host to the virtual machine.
+ms.assetid: 76667557-13B2-4286-BC6B-E32FADE62A7A
+title: Msvm\_GuestFileServiceCopyFilesToGuest method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestFileService::CopyFilesToGuest method
@@ -13,9 +18,9 @@ Copies files from the Hyper-V host to the virtual machine.
 
 ```C++
 uint32 CopyFilesToGuest(
-  [in]            string                  CopyFileToGuestSettings[],
-  [out]           CIM_ConcreteJob     Job,
-  [out, optional] Msvm_CopyFileToGuestJob ParentPools[]
+  [in]            string                  CopyFileToGuestSettings[],
+  [out]           CIM_ConcreteJob     Job,
+  [out, optional] Msvm_CopyFileToGuestJob ParentPools[]
 );
 ```
 
@@ -38,9 +43,9 @@ An array of instances of the [**Msvm\_CopyFileToGuestSettingData**](msvm-copyfil
 An optional parameter for monitoring progress of the operation, which is used if the method could not be executed synchronously. If the operation is executing asynchronously, the return value is 4096.
 
 > [!Note]  
-> This parameter was added in Windows 10.
+> This parameter was added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -50,9 +55,9 @@ An optional parameter for monitoring progress of the operation, which is used if
 An optional array of [**Msvm\_CopyFileToGuestJob**](msvm-copyfiletoguestjob.md) references that are used for monitoring progress of the operation. **CopyFilesToGuest** uses *ParentPools* if it can't execute synchronously. If the operation executes asynchronously, the return value is 4096.
 
 > [!Note]  
-> This parameter was removed in Windows 10.
+> This parameter was removed in Windows 10.
 
- 
+ 
 
 </dd> </dl>
 
@@ -107,8 +112,8 @@ On success, returns 0; otherwise, returns an error value.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -122,9 +127,9 @@ On success, returns 0; otherwise, returns an error value.
 [**Msvm\_GuestFileService**](msvm-guestfileservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

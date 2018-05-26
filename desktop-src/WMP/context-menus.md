@@ -1,15 +1,28 @@
 ---
 title: Context Menus
 description: Context Menus
-ms.assetid: 'd1ea899a-9087-4502-8825-5cef1a87ef03'
-keywords: ["Windows Media Player online stores,context menus", "online stores,context menus", "type 1 online stores,context menus", "Windows Media Player online stores,custom context menus", "online stores,custom context menus", "type 1 online stores,custom context menus", "context menus", "custom context menus"]
+ms.assetid: d1ea899a-9087-4502-8825-5cef1a87ef03
+keywords:
+- Windows Media Player online stores,context menus
+- online stores,context menus
+- type 1 online stores,context menus
+- Windows Media Player online stores,custom context menus
+- online stores,custom context menus
+- type 1 online stores,custom context menus
+- context menus
+- custom context menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Context Menus
 
-Online stores can provide custom context menus. To do this, the online store plug-in implements the [IWMPContentPartner::GetCommands](iwmpcontentpartner-getcommands.md) method. Windows Media Player calls this method to provide information about the location in the user interface where the context menu is displayed (where the user right-clicked). The plug-in returns an array of [WMPContextMenuInfo](wmpcontextmenuinfo.md) structures that describe each context menu item, including a command ID for each.
+Online stores can provide custom context menus. To do this, the online store plug-in implements the [IWMPContentPartner::GetCommands](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands?branch=master) method. Windows Media Player calls this method to provide information about the location in the user interface where the context menu is displayed (where the user right-clicked). The plug-in returns an array of [WMPContextMenuInfo](/windows/win32/contentpartner/ns-contentpartner-wmpcontextmenuinfo?branch=master) structures that describe each context menu item, including a command ID for each.
 
-After Windows Media Player has retrieved the array, the Player uses the array to build the context menu the user sees. When the user clicks an item in the context menu, the Player calls [IWMPContentPartner::InvokeCommand](iwmpcontentpartner-invokecommand.md), passing the command ID associated with the menu item through the *dwCommandID* parameter. The Player also passes a library location value and an array of IDs that represents the items the menu was invoked upon, such as an array of track IDs. By using this information, the plug-in can start any appropriate process in response to the user's mouse click.
+After Windows Media Player has retrieved the array, the Player uses the array to build the context menu the user sees. When the user clicks an item in the context menu, the Player calls [IWMPContentPartner::InvokeCommand](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-invokecommand?branch=master), passing the command ID associated with the menu item through the *dwCommandID* parameter. The Player also passes a library location value and an array of IDs that represents the items the menu was invoked upon, such as an array of track IDs. By using this information, the plug-in can start any appropriate process in response to the user's mouse click.
 
 ## Related topics
 

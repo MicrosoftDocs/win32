@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Drive.volumeLabel property
 description: Gets or sets the volume label of the system storage device.
-ms.assetid: '91e68636-2e2e-4b5d-ab8e-8ed64bf08d33'
-keywords: ["volumeLabel property Windows Sidebar", "volumeLabel property Windows Sidebar , System.Shell.Drive object", "System.Shell.Drive object Windows Sidebar , volumeLabel property"]
+ms.assetid: 91e68636-2e2e-4b5d-ab8e-8ed64bf08d33
+keywords:
+- volumeLabel property Windows Sidebar
+- volumeLabel property Windows Sidebar , System.Shell.Drive object
+- System.Shell.Drive object Windows Sidebar , volumeLabel property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Drive.volumeLabel property
@@ -91,10 +99,10 @@ function GetDriveInfo(driveLetter)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -110,9 +118,9 @@ function GetDriveInfo(driveLetter)
 [**System.Shell**](system-shell.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

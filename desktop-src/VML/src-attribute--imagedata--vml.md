@@ -1,7 +1,12 @@
 ---
 title: Src Attribute (ImageData)(VML)
 description: Src Attribute (ImageData)(VML)
-ms.assetid: 'ef6b57d9-dca7-4f6e-8fd1-e846e4d09fb7'
+ms.assetid: ef6b57d9-dca7-4f6e-8fd1-e846e4d09fb7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Src Attribute (ImageData)(VML)

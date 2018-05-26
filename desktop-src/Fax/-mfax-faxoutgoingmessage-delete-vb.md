@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Delete method deletes the fax message from the outbound archive.'
-ms.assetid: '62f56c02-caab-48bd-8057-961c16b941a1'
-title: 'FaxOutgoingMessage.Delete method'
+---
+Description: The Delete method deletes the fax message from the outbound archive.
+ms.assetid: 62f56c02-caab-48bd-8057-961c16b941a1
+title: FaxOutgoingMessage.Delete method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Delete method
@@ -23,9 +28,9 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farMANAGE\_OUT\_ARCHIVE** access right.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farMANAGE\_OUT\_ARCHIVE** access right.
 
-With the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_OUT\_ARCHIVE** access right, users will be able to use this method for all faxes on the server.
+With the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_OUT\_ARCHIVE** access right, users will be able to use this method for all faxes on the server.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ With the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) access right, use
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

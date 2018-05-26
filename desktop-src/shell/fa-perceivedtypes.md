@@ -1,6 +1,11 @@
 ---
-Description: 'A perceived type is a category of file types that lets you identify your file type to Windows (and applications) as being an image, audio, document, or other type.'
+Description: A perceived type is a category of file types that lets you identify your file type to Windows (and applications) as being an image, audio, document, or other type.
 title: Perceived Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Perceived Types
@@ -34,8 +39,8 @@ The default perceived types are as follows:
 ## Additional Resources
 
 -   For information about how to register perceived types, see [Application Registration](app-registration.md).
--   For a list of default perceived types, see the [**PERCEIVED**](perceived.md) enumeration.
--   To retrieves a file's perceived type based on its file name extension, see the [**AssocGetPerceivedType**](assocgetperceivedtype.md) function.
+-   For a list of default perceived types, see the [**PERCEIVED**](/windows/win32/Shtypes/ne-shtypes-tagperceived?branch=master) enumeration.
+-   To retrieves a file's perceived type based on its file name extension, see the [**AssocGetPerceivedType**](/windows/win32/Shlwapi/nf-shlwapi-assocgetperceivedtype?branch=master) function.
 
 ## Related topics
 

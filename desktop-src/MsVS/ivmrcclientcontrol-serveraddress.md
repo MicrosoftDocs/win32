@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ServerAddress property
 description: The ServerAddress property contains the network address of the VMRC server.
-ms.assetid: '03047739-7995-410b-b046-104007970d07'
-keywords: ["ServerAddress property Virtual Server", "ServerAddress property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ServerAddress property", "ServerAddress property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ServerAddress property"]
+ms.assetid: 03047739-7995-410b-b046-104007970d07
+keywords:
+- ServerAddress property Virtual Server
+- ServerAddress property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ServerAddress property
+- ServerAddress property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ServerAddress property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ServerAddress property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ServerAddress(
-  [in]  BSTR serverAddress
+  [in]  BSTR serverAddress
 );
 
 HRESULT get_ServerAddress(
-  [out] BSTR *serverAddress
+  [out] BSTR *serverAddress
 );
 ```
 
@@ -87,8 +97,8 @@ The server address may be specified either by its DNS name or by a dotted-decima
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -101,9 +111,9 @@ The server address may be specified either by its DNS name or by a dotted-decima
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

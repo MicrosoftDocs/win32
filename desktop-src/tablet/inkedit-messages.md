@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains Messages belonging to the InkEdit Control.'
-ms.assetid: 'eb1f912a-8aae-4774-b699-ca3f448760c6'
+Description: This section contains Messages belonging to the InkEdit Control.
+ms.assetid: eb1f912a-8aae-4774-b699-ca3f448760c6
 title: InkEdit Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit Messages
@@ -18,11 +23,11 @@ This section contains Messages belonging to the InkEdit Control.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

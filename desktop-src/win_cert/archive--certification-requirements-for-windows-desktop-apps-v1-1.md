@@ -1,7 +1,12 @@
 ---
 title: Archive Certification requirements for Windows Desktop Apps v1.1
 description: Document version 1.1Document date Jan 26, 2012This document contains the technical requirements and eligibility qualifications that a desktop app must meet in order to participate in the Windows 8 Desktop App Certification Program.
-ms.assetid: '48ED216D-90C6-4DB4-AC4E-DF2948285A34'
+ms.assetid: 48ED216D-90C6-4DB4-AC4E-DF2948285A34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Archive: Certification requirements for Windows Desktop Apps v1.1
@@ -14,7 +19,7 @@ This document contains the technical requirements and eligibility qualifications
 
 ## Welcome!
 
-The Windows platform supports a broad ecosystem of products and partners. Displaying the Windows logo on your product represents a relationship and a shared commitment to quality between Microsoft and your company. Customers trust the Windows brand on your product because it ensures that it meets compatibility standards and performs well on the Windows platform. Successfully passing Windows App Certification allows for your app to be showcased in the Windows Compatibility Center and it’s also a necessary step to listing a desktop app reference in the Windows Store.
+The Windows platform supports a broad ecosystem of products and partners. Displaying the Windows logo on your product represents a relationship and a shared commitment to quality between Microsoft and your company. Customers trust the Windows brand on your product because it ensures that it meets compatibility standards and performs well on the Windows platform. Successfully passing Windows App Certification allows for your app to be showcased in the Windows Compatibility Center and it s also a necessary step to listing a desktop app reference in the Windows Store.
 
 The Windows App Certification Program is made up of program and technical requirements to help ensure that third-party apps carrying the Windows brand are both easy to install and reliable on PCs running Windows. Customers value stability, compatibility, reliability, performance, and quality in the systems they purchase. Microsoft focuses its investments to meet these requirements for software apps designed to run on the Windows platform for PCs. These efforts include compatibility tests for consistency of experience, improved performance, and enhanced security on PCs running Windows software. Microsoft compatibility tests have been designed in collaboration with industry partners and are continuously improved in response to industry developments and consumer demand.
 
@@ -95,7 +100,7 @@ An Authenticode digital signature allows users to be sure that the software is g
 6.3 Exceptions and Waivers <dl> Waivers will be considered only for unsigned third-party redistributables, excluding drivers. A proof of communication requesting a signed version of the redistributable(s) is required for this waiver to be granted.  
 </dl> </dd> </dl>
 
-## 7. Apps don’t block installation or app launch based on an operating system version check
+## 7. Apps don t block installation or app launch based on an operating system version check
 
 It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later versions of Windows, they should not have to check the operating system version.<dl> 7.1 Your app must not perform version checks for equality <dl> If you need a specific feature, check whether the feature itself is available. If you need Windows XP, check for Windows XP or later (&gt;= 5.1). This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the operating system version.  
 </dl> </dd> 7.2 Exceptions and Waivers will be considered for apps meeting the criteria below:
@@ -107,7 +112,7 @@ It is important that customers are not artificially blocked from installing or r
   
 </dl>
 
-## 8. Apps don’t load services or drivers in safe mode
+## 8. Apps don t load services or drivers in safe mode
 
 Safe mode allows users to diagnose and troubleshoot Windows. Drivers and services must not be set to load in safe mode unless they are needed for basic system operations of such as storage device drivers or for diagnostic and recovery purposes, such as anti-virus scanners,. By default, when Windows is in safe mode, it starts only the drivers and services that came preinstalled with Windows.
 
@@ -120,11 +125,11 @@ Safe mode allows users to diagnose and troubleshoot Windows. Drivers and service
 
 ## 9. Apps must follow User Account Control guidelines
 
-Some Windows apps run in the security context of an administrator account, and apps often request excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems and protect them against unwanted changes. An unwanted change can be malicious, such as a rootkit taking control of the computer, or be the result of an action made by people who have limited privileges.. The most important rule for controlling access to resources is to provide the least amount of access “standard user context” necessary for a user to perform his or her necessary tasks. Following user account control (UAC) guidelines provides app with the necessary permissions when they are needed by the app, without leaving the system constantly exposed to security risks. Most apps do not require administrator privileges at run time, and should be just fine running as a standard-user.<dl> 9.1 Your app must have a manifest that defines execution levels and tells the operating system what privileges the app requires in order to run <dl> The app manifest marking only applies to EXEs, not DLLs. This is because UAC does not inspect DLLs during process creation. It is also worth noting that UAC rules do not apply to Windows Services. The manifest can be either embedded or external.  
+Some Windows apps run in the security context of an administrator account, and apps often request excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems and protect them against unwanted changes. An unwanted change can be malicious, such as a rootkit taking control of the computer, or be the result of an action made by people who have limited privileges.. The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following user account control (UAC) guidelines provides app with the necessary permissions when they are needed by the app, without leaving the system constantly exposed to security risks. Most apps do not require administrator privileges at run time, and should be just fine running as a standard-user.<dl> 9.1 Your app must have a manifest that defines execution levels and tells the operating system what privileges the app requires in order to run <dl> The app manifest marking only applies to EXEs, not DLLs. This is because UAC does not inspect DLLs during process creation. It is also worth noting that UAC rules do not apply to Windows Services. The manifest can be either embedded or external.  
 To create a manifest, create a file with the name &lt;app\_name&gt;.exe.manifest and store it in the same directory as the EXE. Note that any external manifest is ignored if the app has an internal manifest. For example:  
 &lt;requestedExecutionLevel level=""asInvoker \| highestAvailable \| requireAdministrator"" uiAccess=""true\|false""/&gt;  
-</dl> </dd> 9.2 Your app’s main process must be run as a standard user (asInvoker). <dl> Any administrative features must be moved into a separate process that runs with administrative privileges. User facing apps, such as those accessible through the program group on the Start-Menu, and requiring elevation must be Authenticode signed.  
-</dl> </dd> 9.3 Exceptions and Waivers <dl> A waiver is required for apps that run their main process with elevated privileges (requireAdministrator or highestAvailable). The main process is identified as the user’s entry point to the app. Waivers will be considered for the following scenarios:
+</dl> </dd> 9.2 Your app s main process must be run as a standard user (asInvoker). <dl> Any administrative features must be moved into a separate process that runs with administrative privileges. User facing apps, such as those accessible through the program group on the Start-Menu, and requiring elevation must be Authenticode signed.  
+</dl> </dd> 9.3 Exceptions and Waivers <dl> A waiver is required for apps that run their main process with elevated privileges (requireAdministrator or highestAvailable). The main process is identified as the user s entry point to the app. Waivers will be considered for the following scenarios:
 
 -   Administrative or system tools with execution level set to highestAvailable, and/or requireAdministrator
 -   Only Accessibility or UI automation framework app sets the uiAccess flag to true to bypass the user interface privilege isolation (UIPI). To properly start app utilization, this flag must be Authenticode signed, and must reside in a protected location in the file system, namely Program Files.
@@ -143,18 +148,18 @@ Users should have a consistent and secure experience with the default installati
 -   Start Menu AllPrograms &gt; STARTUP
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app’s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
 10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Use the correct methods for installing files, such as fonts or drivers.  
-</dl> </dd> 10.6 Your app must write user data at first run and not during the installation in “per-machine” installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
+</dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> A waiver is required for apps that write to the global assembly cache (GAC) .NET apps should keep assembly dependencies private, and store it in the app directory unless sharing an assembly is explicitly required.  
 </dl> </dd> </dl>
 
 ## 11. Apps must support multi-user sessions
 
 Windows users should be able to run concurrent sessions without conflict or disruption.<dl> 11.1 Your app must ensure that when running in multiple sessions either locally or remotely, the normal functionality of the app is not adversely affected  
-11.2 Your app’s settings and data files must not persist across users  
-11.3 A user’s privacy and preferences must be isolated to the user’s session  
-11.4 Your app’s instances must be isolated from each other <dl> This means that user data from one instance is not visible to another instance of the app. Sound in an inactive user session should not be heard in an active user session. In cases where multiple app instances use shared resources, the app must ensure that there is not a conflict.  
+11.2 Your app s settings and data files must not persist across users  
+11.3 A user s privacy and preferences must be isolated to the user s session  
+11.4 Your app s instances must be isolated from each other <dl> This means that user data from one instance is not visible to another instance of the app. Sound in an inactive user session should not be heard in an active user session. In cases where multiple app instances use shared resources, the app must ensure that there is not a conflict.  
 </dl> </dd> 11.5 Apps that are installed for multiple users must store data in the correct folder(s) and registry locations <dl> Refer to the UAC requirements.  
 </dl> </dd> 11.6 User apps must be able to run in multiple user sessions (Fast User Switching) for both local and remote access  
 11.7 Your app must check other terminal service (TS) sessions for existing instances of the app  
@@ -164,7 +169,7 @@ Windows users should be able to run concurrent sessions without conflict or disr
 
 As 64-bit hardware becomes more common, users expect app developers to take advantage of the benefits of 64-bit architecture by migrating their apps to 64-bit, or that 32-bit versions of the app run well under 64-bit versions of Windows.<dl> 12.1 Your app must natively support 64-bit or, at a minimum, 32-bit Windows-based apps must run seamlessly on 64-bit systems to maintain compatibility with 64-bit versions of Windows  
 12.2 Your app and its installers must not contain any 16-bit code or rely on any 16-bit component  
-12.3 Your app’s setup must detect and install the proper drivers and components for the 64-bit architecture  
+12.3 Your app s setup must detect and install the proper drivers and components for the 64-bit architecture  
 12.4 Any shell plug-ins must run on 64-bit versions of Windows  
 12.5 App running under the WoW64 emulator should not attempt to subvert or bypass Wow64 virtualization mechanisms <dl> If there are specific scenarios where apps need to detect whether they are running under the WoW64 emulator, they should do so by calling IsWow64Process.  
 </dl> </dd> </dl>
@@ -187,7 +192,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
- 
+ 
 
 ## Learn more about desktop app certification
 
@@ -204,22 +209,22 @@ Thank you again for joining in our commitment to delivering great customer exper
 | Digitally sign files and drivers                                                | An Authenticode digital signature allows users to be sure that the software is genuine. It also allows one to detect whether a file has been tampered with, for example, if it has been infected by a virus. Kernel-mode code signing enforcement is a Windows feature known as code integrity (CI), which improves the security of the operating system by verifying the integrity of a file each time the image of the file is loaded into memory. CI detects whether malicious code has modified a system binary file. Also generates a diagnostic and system-audit log event when the signature of a kernel module fails to verify correctly.                                                                                                                                                                            | [Digital Signatures for Kernel Modules on Windows](https://msdn.microsoft.com/library/windows/hardware/dn653559.aspx)<br/>                                                                                                                                             |
 | Do not block installation or app launch based on operating system version check | It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later releases, they should have no reason to check the operating system version.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | [Operating System Versioning](https://msdn.microsoft.com/library/dd371754(VS.85).aspx)<br/>                                                                                                                                                                                           |
 | Do not load Services and Drivers in Safe Mode                                   | Safe mode allows users to diagnose and troubleshoot Windows. Unless needed for basic operations of the system (for example, storage device drivers) or for diagnostic and recovery purposes (for example, anti-virus scanners), drivers and services must not be set to load in safe mode. By default, the safe mode does not start most drivers and services that did not come preinstalled with Windows. They should remain disabled unless the system requires them for basic operations or for diagnostic and recovery purposes.                                                                                                                                                                                                                                                                                         | [Determining Whether the Operating System Is Running in Safe Mode](https://msdn.microsoft.com/library/ff543079.aspx)<br/> [How to determine whether the system is running in Safe Mode from a device driver](https://support.microsoft.com/kb/837643)<br/>       |
-| Follow User Account Control (UAC) Guidelines                                    | Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access “standard user context” necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks. | [User Account Control](https://msdn.microsoft.com/library/windows/desktop/dn742497.aspx)<br/> [UAC: Application Update Guidelines](https://msdn.microsoft.com/library/Aa480152#appcomp-topic5)<br/>                                                                       |
+| Follow User Account Control (UAC) Guidelines                                    | Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks. | [User Account Control](https://msdn.microsoft.com/library/windows/desktop/dn742497.aspx)<br/> [UAC: Application Update Guidelines](https://msdn.microsoft.com/library/Aa480152#appcomp-topic5)<br/>                                                                       |
 | Install to the Correct Folders by Default                                       | Users should have a consistent and secure experience with the default installation location of files, while maintaining the option to install an app to the location they choose. It is also necessary to store app data in the correct location to allow several people to use the same computer without corrupting or overwriting each other's data and settings.                                                                                                                                                                                                                                                                                                                                                                                                                                                          | [Summary of Install/Uninstall Requirements](https://msdn.microsoft.com/library/ms954376.aspx)<br/>                                                                                                                                                                                    |
 | Support Multi-User Sessions                                                     | Windows users should be able to run concurrent sessions without conflict or disruption.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | [Remote Desktop Services Programming Guidelines](https://msdn.microsoft.com/library/aa383490.aspx)<br/>                                                                                                                                                                      |
 | Support x64 versions of Windows                                                 | As 64-bit hardware becomes more prevalent, users expect app developers to take advantage of the benefits of 64-bit architecture by migrating their apps to 64-bit, or that 32-bit versions of the app run well under 64-bit versions of Windows.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | [Application Compatibility: Windows Vista 64-Bit](https://msdn.microsoft.com/library/bb756962.aspx)<br/>                                                                                                                                                                              |
 
 
 
- 
+ 
 
 ## See also
 
 -   [Windows Hardware Certification Program](https://msdn.microsoft.com/library/windows/hardware/gg463010)
 
- 
+ 
 
- 
+ 
 
 
 

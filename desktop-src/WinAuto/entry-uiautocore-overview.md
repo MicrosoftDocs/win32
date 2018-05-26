@@ -1,8 +1,23 @@
 ---
 title: UI Automation Fundamentals
 description: This section explains the fundamental concepts that UI Automation is based on.
-ms.assetid: '109f113f-9ed0-4a57-b3af-90e831e53c42'
-keywords: ["UI Automation,Microsoft Win32 API", "UI Automation,Win32 API", "UI Automation,providers", "UI Automation,client applications", "clients,Microsoft UI Automation for Microsoft Win32 API", "clients,UI Automation for Microsoft Win32 API", "Win32 API", "Microsoft Win32 API", "UI Automation for Microsoft Win32 API", "Microsoft UI Automation for Microsoft Win32 API"]
+ms.assetid: 109f113f-9ed0-4a57-b3af-90e831e53c42
+keywords:
+- UI Automation,Microsoft Win32 API
+- UI Automation,Win32 API
+- UI Automation,providers
+- UI Automation,client applications
+- clients,Microsoft UI Automation for Microsoft Win32 API
+- clients,UI Automation for Microsoft Win32 API
+- Win32 API
+- Microsoft Win32 API
+- UI Automation for Microsoft Win32 API
+- Microsoft UI Automation for Microsoft Win32 API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Fundamentals

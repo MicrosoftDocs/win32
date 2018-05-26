@@ -1,12 +1,17 @@
-﻿---
-Description: 'Transforms the BoundingOrientedBox.'
-ms.assetid: '8602a236-72db-4c1c-8813-03d2f55ac08e'
-title: 'BoundingOrientedBox.Transform methods'
+---
+Description: Transforms the BoundingOrientedBox.
+ms.assetid: 8602a236-72db-4c1c-8813-03d2f55ac08e
+title: BoundingOrientedBox.Transform methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingOrientedBox.Transform methods
 
-Transforms the [**BoundingOrientedBox**](boundingorientedbox.md).
+Transforms the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master).
 
 ### Overload list
 
@@ -14,8 +19,8 @@ Transforms the [**BoundingOrientedBox**](boundingorientedbox.md).
 
 | Method                                                                                                                   | Description                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](boundingorientedbox-transform-1.md)                | Transforms the [**BoundingOrientedBox**](boundingorientedbox.md).<br/> |
-| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](boundingorientedbox-transform-2.md) | Transforms the [**BoundingOrientedBox**](boundingorientedbox.md).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,XMMATRIX)**](boundingorientedbox-transform-1.md)                | Transforms the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master).<br/> |
+| [**BoundingOrientedBox::Transform (BoundingOrientedBox&,float,XMVECTOR,XMVECTOR)**](boundingorientedbox-transform-2.md) | Transforms the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master).<br/> |
 
 
 
@@ -29,7 +34,7 @@ Transforms the [**BoundingOrientedBox**](boundingorientedbox.md).
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](boundingorientedbox.md)
+[**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master)
 </dt> </dl>
 
  

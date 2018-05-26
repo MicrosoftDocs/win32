@@ -1,8 +1,11 @@
 ---
 title: Player.OpenPlaylistSwitch event
 description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
-ms.assetid: '97d69716-602f-4522-b743-83f2dbc852a2'
-keywords: ["OpenPlaylistSwitch event Windows Media Player", "OpenPlaylistSwitch event Windows Media Player , Player class", "Player class Windows Media Player , OpenPlaylistSwitch event"]
+ms.assetid: 97d69716-602f-4522-b743-83f2dbc852a2
+keywords:
+- OpenPlaylistSwitch event Windows Media Player
+- OpenPlaylistSwitch event Windows Media Player , Player class
+- Player class Windows Media Player , OpenPlaylistSwitch event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.OpenPlaylistSwitch event
@@ -65,9 +73,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

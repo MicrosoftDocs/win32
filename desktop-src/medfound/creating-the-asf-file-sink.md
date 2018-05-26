@@ -1,25 +1,30 @@
 ---
-Description: 'The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see ASF Media Sinks.'
-ms.assetid: '991f3345-a6b4-45c2-a89d-3c13c70b6bbc'
+Description: The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks object model and general usage, see ASF Media Sinks.
+ms.assetid: 991f3345-a6b4-45c2-a89d-3c13c70b6bbc
 title: Creating the ASF File Sink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the ASF File Sink
 
-The ASF file sink is an implementation of [**IMFMediaSink**](imfmediasink.md) provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see [ASF Media Sinks](asf-media-sinks.md).
+The ASF file sink is an implementation of [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see [ASF Media Sinks](asf-media-sinks.md).
 
-There are two ways of creating an instance of the ASF file sink. You can call [**MFCreateASFMediaSink**](mfcreateasfmediasink.md) or [**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md).
+There are two ways of creating an instance of the ASF file sink. You can call [**MFCreateASFMediaSink**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasink?branch=master) or [**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master).
 
-If you call [**MFCreateASFMediaSink**](mfcreateasfmediasink.md), you must specify a byte stream, for the output file, into which the sink will write the ASF content during an encoding session. The specified byte stream must have seekable and writable capabilities otherwise the **MFCreateASFMediaSink** call fails with the E\_FAIL error code. This call creates an in-process file sink object and returns a pointer to the [**IMFMediaSink**](imfmediasink.md) interface of the file sink.
+If you call [**MFCreateASFMediaSink**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasink?branch=master), you must specify a byte stream, for the output file, into which the sink will write the ASF content during an encoding session. The specified byte stream must have seekable and writable capabilities otherwise the **MFCreateASFMediaSink** call fails with the E\_FAIL error code. This call creates an in-process file sink object and returns a pointer to the [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) interface of the file sink.
 
-If you call [**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md), you must specify the URL of the output file into which the file sink will write media data. In this case, the file sink internally creates the byte stream. The function returns a pointer to the [**IMFActivate**](imfactivate.md) interface of the file sink. To
+If you call [**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master), you must specify the URL of the output file into which the file sink will write media data. In this case, the file sink internally creates the byte stream. The function returns a pointer to the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface of the file sink. To
 
-Consider [**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md) instead of [**MFCreateASFMediaSink**](mfcreateasfmediasink.md), when your encoding topology is designed as follows:
+Consider [**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master) instead of [**MFCreateASFMediaSink**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasink?branch=master), when your encoding topology is designed as follows:
 
 -   The encoding topology is for the protected media path (PMP) and the file sink is used out-of-process.
 -   The output node of the topology is created by using the returned pointer to the activate object of the file sink and your application is keeping track of the streams in the file sink by stream numbers.
     > [!Note]  
-    > You can activate the file sink by calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md). However you do not need to activate the object explictly. The Media Session keeps track of the activation object and activates the file sink automatically during the encoding session.
+    > You can activate the file sink by calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master). However you do not need to activate the object explictly. The Media Session keeps track of the activation object and activates the file sink automatically during the encoding session.
 
      
 
@@ -31,10 +36,10 @@ After creating the ASF file sink it must be configured before building the topol
 -   Encoding mode information
 -   Metadata
 
-The file sink implements the [ASF ContentInfo Object](asf-contentinfo-object.md) and exposes the [**IMFASFContentInfo**](imfasfcontentinfo.md) interface so that an application can use it to set information related to the streams and encoding. Depending on the function you called to create the file sink, there are two ways of getting a reference to the **IMFASFContentInfo** interface.
+The file sink implements the [ASF ContentInfo Object](asf-contentinfo-object.md) and exposes the [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) interface so that an application can use it to set information related to the streams and encoding. Depending on the function you called to create the file sink, there are two ways of getting a reference to the **IMFASFContentInfo** interface.
 
--   If you call the [**MFCreateASFMediaSink**](mfcreateasfmediasink.md) function, the application must query for [**IMFASFContentInfo**](imfasfcontentinfo.md) interface by calling **IMFMediaSink::QueryInterface** on the returned file sink.
--   If you choose to call [**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md), this function expects that you have a fully-configured ContentInfo object prior to the call. To do this, you need to create an empty ContentInfo object by calling [**MFCreateASFContentInfo**](mfcreateasfcontentinfo.md) and then configure it with all the required information. Pass the configured ContentInfo object to the **MFCreateASFMediaSinkActivate** to receive a pointer to the sink activate object. You cannot activate the file sink by using the returned activation object and then change any stream or encoding information.
+-   If you call the [**MFCreateASFMediaSink**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasink?branch=master) function, the application must query for [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) interface by calling **IMFMediaSink::QueryInterface** on the returned file sink.
+-   If you choose to call [**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master), this function expects that you have a fully-configured ContentInfo object prior to the call. To do this, you need to create an empty ContentInfo object by calling [**MFCreateASFContentInfo**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo?branch=master) and then configure it with all the required information. Pass the configured ContentInfo object to the **MFCreateASFMediaSinkActivate** to receive a pointer to the sink activate object. You cannot activate the file sink by using the returned activation object and then change any stream or encoding information.
 
 For information about configuring sink streams and specific properties, see the following topics:
 

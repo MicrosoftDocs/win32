@@ -1,14 +1,20 @@
 ---
 title: PatternMapListType Complex Type
 description: Not used. Defines a list of regular expression pairs that are used to alter the message string.
-ms.assetid: 'f7b92821-a959-4b91-9e7e-47d0136ee61f'
-keywords: ["PatternMapListType complex type EventLog"]
+ms.assetid: f7b92821-a959-4b91-9e7e-47d0136ee61f
+keywords:
+- PatternMapListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - PatternMapListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PatternMapListType Complex Type
@@ -42,14 +48,14 @@ Not used. Defines a list of regular expression pairs that are used to alter the 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

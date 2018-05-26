@@ -1,7 +1,12 @@
-﻿---
-Description: 'Requests allocation of a frame object.'
-ms.assetid: '977e40d6-bf49-44b6-ac95-88e7f778ea50'
-title: 'ID3DXAllocateHierarchy::CreateFrame method'
+---
+Description: Requests allocation of a frame object.
+ms.assetid: 977e40d6-bf49-44b6-ac95-88e7f778ea50
+title: ID3DXAllocateHierarchyCreateFrame method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAllocateHierarchy::CreateFrame method

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the frame height for the video stream.'
-ms.assetid: '83c26a8a-7724-4566-bc3e-3a26a7cc9223'
-title: 'System.Video.FrameHeight'
+Description: Indicates the frame height for the video stream.
+ms.assetid: 83c26a8a-7724-4566-bc3e-3a26a7cc9223
+title: System.Video.FrameHeight
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.FrameHeight

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the status of a topology during playback.'
-ms.assetid: 'f7c93bad-1a64-45b0-ab5c-6edea4a1c0d1'
-title: 'MF\_EVENT\_TOPOLOGY\_STATUS attribute'
+---
+Description: Specifies the status of a topology during playback.
+ms.assetid: f7c93bad-1a64-45b0-ab5c-6edea4a1c0d1
+title: MF\_EVENT\_TOPOLOGY\_STATUS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_TOPOLOGY\_STATUS attribute
@@ -14,7 +19,7 @@ Specifies the status of a topology during playback.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MF\_TOPOSTATUS**](mf-topostatus.md) enumeration.
+The value of this attribute is a member of the [**MF\_TOPOSTATUS**](/windows/win32/mfapi/ne-mfapi-mf_topostatus?branch=master) enumeration.
 
 This attribute is used with the [MESessionTopologyStatus](mesessiontopologystatus.md) event.
 
@@ -42,10 +47,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> </dl>
 
  

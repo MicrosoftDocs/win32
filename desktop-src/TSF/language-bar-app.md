@@ -1,8 +1,17 @@
 ---
 title: Language Bar
 description: An application cannot add items to the language bar; only a text service can add items to the language bar.
-ms.assetid: 'facb0da1-3f80-4745-b021-c026e7e5356c'
-keywords: ["Text Services Framework (TSF),language bar", "TSF (Text Services Framework),language bar", "TSF-enabled applications,language bar", "language bar"]
+ms.assetid: facb0da1-3f80-4745-b021-c026e7e5356c
+keywords:
+- Text Services Framework (TSF),language bar
+- TSF (Text Services Framework),language bar
+- TSF-enabled applications,language bar
+- language bar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Bar

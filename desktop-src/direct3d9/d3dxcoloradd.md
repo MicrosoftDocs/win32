@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds two color values together to create a new color value.'
-ms.assetid: '7743392d-4676-4408-93e9-f92d4bf02411'
+---
+Description: Adds two color values together to create a new color value.
+ms.assetid: 7743392d-4676-4408-93e9-f92d4bf02411
 title: D3DXColorAdd function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXColorAdd function

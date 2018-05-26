@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the preferred RFC 1766 language of the media source.'
-ms.assetid: '30f99804-6aea-473b-9bbf-e8c715501391'
-title: 'MF\_PD\_PREFERRED\_LANGUAGE attribute'
+---
+Description: Contains the preferred RFC 1766 language of the media source.
+ms.assetid: 30f99804-6aea-473b-9bbf-e8c715501391
+title: MF\_PD\_PREFERRED\_LANGUAGE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_PREFERRED\_LANGUAGE attribute
@@ -14,13 +19,13 @@ Contains the preferred RFC 1766 language of the media source.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetString**](imfattributes-getstring.md).
+To get this attribute, call [**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::Settring**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::Settring**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Applies to
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 
 ## Remarks
 

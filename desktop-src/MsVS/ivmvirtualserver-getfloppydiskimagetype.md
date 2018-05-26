@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer GetFloppyDiskImageType method
 description: The GetFloppyDiskImageType method returns the type of an existing floppy disk image file.
-ms.assetid: 'ba4bd5bd-5698-4771-89df-ba976a7ada1d'
-keywords: ["GetFloppyDiskImageType method Virtual Server", "GetFloppyDiskImageType method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , GetFloppyDiskImageType method"]
+ms.assetid: ba4bd5bd-5698-4771-89df-ba976a7ada1d
+keywords:
+- GetFloppyDiskImageType method Virtual Server
+- GetFloppyDiskImageType method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , GetFloppyDiskImageType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::GetFloppyDiskImageType method
@@ -22,8 +30,8 @@ The **GetFloppyDiskImageType** method returns the type of an existing floppy dis
 
 ```C++
 HRESULT GetFloppyDiskImageType(
-  [in]  BSTR                  imagePath,
-  [out] VMFloppyDiskImageType *imageType
+  [in]  BSTR                  imagePath,
+  [out] VMFloppyDiskImageType *imageType
 );
 ```
 
@@ -66,7 +74,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +82,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -87,9 +95,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

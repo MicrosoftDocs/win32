@@ -1,7 +1,12 @@
 ---
-Description: 'The FRAMETABLE structure, a circular buffer of frame pointers, is handed back to applications attached to the ITRC interface of the NPP.'
-ms.assetid: '6e2d4f8d-46f2-4d53-bc28-7b0706663490'
+Description: The FRAMETABLE structure, a circular buffer of frame pointers, is handed back to applications attached to the ITRC interface of the NPP.
+ms.assetid: 6e2d4f8d-46f2-4d53-bc28-7b0706663490
 title: FRAMETABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FRAMETABLE structure
@@ -13,10 +18,10 @@ The **FRAMETABLE** structure, a circular buffer of frame pointers, is handed bac
 
 ```C++
 typedef struct _FRAMETABLE {
-  DWORD            FrameTableLength;
-  DWORD            StartIndex;
-  DWORD            EndIndex;
-  DWORD            FrameCount;
+  DWORD            FrameTableLength;
+  DWORD            StartIndex;
+  DWORD            EndIndex;
+  DWORD            FrameCount;
   FRAME_DESCRIPTOR Frames[1];
 } FRAMETABLE, *LPFRAMETABLE;
 ```
@@ -68,15 +73,15 @@ The actual array of frame descriptors.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

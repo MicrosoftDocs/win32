@@ -1,8 +1,11 @@
 ---
 title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_RTType class
 description: The CreateInstanceFromPropertyData method instantiates a Route Through (RT) Resource Record.
-ms.assetid: '1ebb0543-d031-4430-acbe-708c4931b7a4'
-keywords: ["CreateInstanceFromPropertyData method DNS", "CreateInstanceFromPropertyData method DNS , MicrosoftDNS_RTType class", "MicrosoftDNS_RTType class DNS , CreateInstanceFromPropertyData method"]
+ms.assetid: 1ebb0543-d031-4430-acbe-708c4931b7a4
+keywords:
+- CreateInstanceFromPropertyData method DNS
+- CreateInstanceFromPropertyData method DNS , MicrosoftDNS_RTType class
+- MicrosoftDNS_RTType class DNS , CreateInstanceFromPropertyData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInstanceFromPropertyData method of the MicrosoftDNS\_RTType class
@@ -22,14 +30,14 @@ The **CreateInstanceFromPropertyData** method instantiates a Route Through (RT) 
 
 ```mof
 void CreateInstanceFromPropertyData(
-  [in]           string              DnsServerName,
-  [in]           string              ContainerName,
-  [in]           string              OwnerName,
-  [in, optional] uint32              RecordClass = 1,
-  [in, optional] uint32              TTL,
-  [in]           uint16              Preference,
-  [in]           string              IntermediateHost,
-  [out, ref]     MicrosoftDNS_RTType &amp;RR
+  [in]           string              DnsServerName,
+  [in]           string              ContainerName,
+  [in]           string              OwnerName,
+  [in, optional] uint32              RecordClass = 1,
+  [in, optional] uint32              TTL,
+  [in]           uint16              Preference,
+  [in]           string              IntermediateHost,
+  [out, ref]     MicrosoftDNS_RTType &amp;RR
 );
 ```
 
@@ -76,7 +84,7 @@ Class of the RR. Default value is 1. The following values are valid.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,7 +127,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -138,9 +146,9 @@ This method does not return a value.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

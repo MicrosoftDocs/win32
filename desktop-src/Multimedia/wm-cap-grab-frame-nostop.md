@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GRAB\_FRAME\_NOSTOP message
 description: The WM\_CAP\_GRAB\_FRAME\_NOSTOP message fills the frame buffer with a single uncompressed frame from the capture device and displays it.
-ms.assetid: '5f6e3ce7-3595-456e-82c8-eeb162ace81a'
-keywords: ["WM_CAP_GRAB_FRAME_NOSTOP message Windows Multimedia"]
+ms.assetid: 5f6e3ce7-3595-456e-82c8-eeb162ace81a
+keywords:
+- WM_CAP_GRAB_FRAME_NOSTOP message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GRAB\_FRAME\_NOSTOP message
 
-The **WM\_CAP\_GRAB\_FRAME\_NOSTOP** message fills the frame buffer with a single uncompressed frame from the capture device and displays it. Unlike with the [**WM\_CAP\_GRAB\_FRAME**](wm-cap-grab-frame.md) message, the state of overlay or preview is not altered by this message. You can send this message explicitly or by using the [**capGrabFrameNoStop**](capgrabframenostop.md) macro.
+The **WM\_CAP\_GRAB\_FRAME\_NOSTOP** message fills the frame buffer with a single uncompressed frame from the capture device and displays it. Unlike with the [**WM\_CAP\_GRAB\_FRAME**](wm-cap-grab-frame.md) message, the state of overlay or preview is not altered by this message. You can send this message explicitly or by using the [**capGrabFrameNoStop**](/windows/win32/Vfw/nf-vfw-capgrabframenostop?branch=master) macro.
 
 
 ```C++
@@ -40,8 +46,8 @@ For information about installing callback functions, see the [**WM\_CAP\_SET\_CA
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -56,9 +62,9 @@ For information about installing callback functions, see the [**WM\_CAP\_SET\_CA
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

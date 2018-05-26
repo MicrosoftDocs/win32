@@ -1,8 +1,10 @@
 ---
 title: MSFT\_MpComputerStatus class
-description: This is the base status class for the user's PC.
-ms.assetid: '13999054-6b88-4b26-bad0-5a40e30d7c0a'
-keywords: ["MSFT_MpComputerStatus class", "MSFT_MpComputerStatus class, described"]
+description: This is the base status class for the users PC.
+ms.assetid: 13999054-6b88-4b26-bad0-5a40e30d7c0a
+keywords:
+- MSFT_MpComputerStatus class
+- MSFT_MpComputerStatus class, described
 topic_type:
 - apiref
 api_name:
@@ -43,6 +45,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpComputerStatus class
@@ -56,38 +63,38 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_MpComputerStatus : BaseStatus
 {
-  string   ComputerID = msft_mpcomputerstatus.xml;
-  uint32   ComputerState = 0;
-  string   AMProductVersion = msft_mpcomputerstatus.xml;
-  string   AMServiceVersion = msft_mpcomputerstatus.xml;
-  string   AntispywareSignatureVersion = msft_mpcomputerstatus.xml;
-  uint32   AntispywareSignatureAge = 0;
+  string   ComputerID = msft_mpcomputerstatus.xml;
+  uint32   ComputerState = 0;
+  string   AMProductVersion = msft_mpcomputerstatus.xml;
+  string   AMServiceVersion = msft_mpcomputerstatus.xml;
+  string   AntispywareSignatureVersion = msft_mpcomputerstatus.xml;
+  uint32   AntispywareSignatureAge = 0;
   DateTime AntispywareSignatureLastUpdated;
-  string   AntivirusSignatureVersion = ed;
-  uint32   AntivirusSignatureAge = 0;
+  string   AntivirusSignatureVersion = ed;
+  uint32   AntivirusSignatureAge = 0;
   DateTime AntivirusSignatureLastUpdated;
-  string   NISSignatureVersion = pdated;
-  uint32   NISSignatureAge = 0;
+  string   NISSignatureVersion = pdated;
+  uint32   NISSignatureAge = 0;
   DateTime NISSignatureLastUpdated;
   DateTime FullScanStartTime;
   DateTime FullScanEndTime;
-  uint32   FullScanAge = 0;
-  uint8    LastFullScanSource = 0;
-  uint8    RealTimeScanDirection = 0;
+  uint32   FullScanAge = 0;
+  uint8    LastFullScanSource = 0;
+  uint8    RealTimeScanDirection = 0;
   DateTime QuickScanStartTime;
   DateTime QuickScanEndTime;
-  uint32   QuickScanAge = 0;
-  uint8    LastQuickScanSource = 0;
-  string   AMEngineVersion = 0;
-  boolean  AMServiceEnabled = false;
-  boolean  OnAccessProtectionEnabled = false;
-  boolean  IoavProtectionEnabled = false;
-  boolean  BehaviorMonitorEnabled = false;
-  boolean  AntivirusEnabled = false;
-  boolean  AntispywareEnabled = false;
-  boolean  RealTimeProtectionEnabled = false;
-  string   NISEngineVersion = bled = false;
-  boolean  NISEnabled = false;
+  uint32   QuickScanAge = 0;
+  uint8    LastQuickScanSource = 0;
+  string   AMEngineVersion = 0;
+  boolean  AMServiceEnabled = false;
+  boolean  OnAccessProtectionEnabled = false;
+  boolean  IoavProtectionEnabled = false;
+  boolean  BehaviorMonitorEnabled = false;
+  boolean  AntivirusEnabled = false;
+  boolean  AntispywareEnabled = false;
+  boolean  RealTimeProtectionEnabled = false;
+  string   NISEngineVersion = bled = false;
+  boolean  NISEnabled = false;
 };
 ```
 
@@ -570,17 +577,17 @@ Real-time scan direction enumeration
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

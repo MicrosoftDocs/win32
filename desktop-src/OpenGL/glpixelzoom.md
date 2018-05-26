@@ -1,8 +1,9 @@
 ---
 title: glPixelZoom function
 description: The glPixelZoom function specifies the pixel zoom factors.
-ms.assetid: '57ead7d8-0502-46b4-9f66-dbb3cb75b0f9'
-keywords: ["glPixelZoom function OpenGL"]
+ms.assetid: 57ead7d8-0502-46b4-9f66-dbb3cb75b0f9
+keywords:
+- glPixelZoom function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPixelZoom function
@@ -22,8 +28,8 @@ The **glPixelZoom** function specifies the pixel zoom factors.
 
 ```C++
 void WINAPI glPixelZoom(
-   GLfloat xfactor,
-   GLfloat yfactor
+   GLfloat xfactor,
+   GLfloat yfactor
 );
 ```
 
@@ -77,7 +83,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 ## Remarks
 
-The **glPixelZoom** function specifies values for the *x* and *y* zoom factors. During the execution of [**glDrawPixels**](gldrawpixels.md) or [**glCopyPixels**](glcopypixels.md), if (*x*<sub>r</sub> ,*y*<sub>r</sub> ) is the current raster position, and a given element is in the *n*th row and *m*th column of the pixel rectangle, then pixels whose centers are in the rectangle with corners at
+The **glPixelZoom** function specifies values for the *x* and *y* zoom factors. During the execution of [**glDrawPixels**](gldrawpixels.md) or [**glCopyPixels**](glcopypixels.md), if (*x*<sub>r</sub> ,*y*<sub>r</sub> ) is the current raster position, and a given element is in the *n*th row and *m*th column of the pixel rectangle, then pixels whose centers are in the rectangle with corners at
 
 ![](images/pix05.png)
 
@@ -97,8 +103,8 @@ The following functions retrieve information related to **glPixelZoom**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -121,9 +127,9 @@ The following functions retrieve information related to **glPixelZoom**:
 [**glEnd**](glend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

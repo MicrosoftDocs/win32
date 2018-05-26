@@ -1,8 +1,11 @@
 ---
 title: Player.CurrentPlaylistChange event
 description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
-ms.assetid: '5270373e-e401-40c6-bf8c-ef0557610372'
-keywords: ["CurrentPlaylistChange event Windows Media Player", "CurrentPlaylistChange event Windows Media Player , Player class", "Player class Windows Media Player , CurrentPlaylistChange event"]
+ms.assetid: 5270373e-e401-40c6-bf8c-ef0557610372
+keywords:
+- CurrentPlaylistChange event Windows Media Player
+- CurrentPlaylistChange event Windows Media Player , Player class
+- Player class Windows Media Player , CurrentPlaylistChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.CurrentPlaylistChange event
@@ -103,9 +111,9 @@ The following JScript example updates the text in an HTML DIV element, named PlI
 [**Player.PlaylistChange**](player-player-playlistchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

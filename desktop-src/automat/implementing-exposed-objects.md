@@ -1,7 +1,12 @@
 ---
 title: Implementing Exposed Objects
 description: To expose ActiveX objects, you must implement certain interfaces.
-ms.assetid: '6dbeece6-576d-4f8b-bd98-f5f6bd6f0d0c'
+ms.assetid: 6dbeece6-576d-4f8b-bd98-f5f6bd6f0d0c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Exposed Objects

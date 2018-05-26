@@ -1,8 +1,11 @@
 ---
 title: IVMHostInfo NetworkAdapters property
 description: Retrieves an enumerable collection of NICs in the host machine.
-ms.assetid: '17393d7a-c883-4d67-826b-83b886c0d7a6'
-keywords: ["NetworkAdapters property Virtual PC", "NetworkAdapters property Virtual PC , IVMHostInfo interface", "IVMHostInfo interface Virtual PC , NetworkAdapters property"]
+ms.assetid: 17393d7a-c883-4d67-826b-83b886c0d7a6
+keywords:
+- NetworkAdapters property Virtual PC
+- NetworkAdapters property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , NetworkAdapters property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::NetworkAdapters property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves an enumerable collection of NICs in the host machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_NetworkAdapters(
-  [out, retval] VARIANT *hostNICs
+  [out, retval] VARIANT *hostNICs
 );
 ```
 
@@ -55,9 +63,9 @@ A collection of network interface cards. This is an array of **BSTR** values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
@@ -71,9 +79,9 @@ A collection of network interface cards. This is an array of **BSTR** values.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

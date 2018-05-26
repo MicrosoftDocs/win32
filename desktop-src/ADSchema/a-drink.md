@@ -4,17 +4,21 @@ description: The drink (Favorite Drink) attribute type specifies the favorite dr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1d3f6301-1bb3-4ff9-8be9-5a5590636d16'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1d3f6301-1bb3-4ff9-8be9-5a5590636d16
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["drink attribute AD Schema"]
+keywords:
+- drink attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - drink
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # drink attribute

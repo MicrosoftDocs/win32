@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '705a075e-3f0f-4e7d-94b6-3458f87b6718'
-title: 'CBaseFilter.CBaseFilter(const TCHAR\*, LPUNKNOWN, CCritSec\*, REFCLSID, HRESULT\*) constructor'
+Description: Constructor method.
+ms.assetid: 705a075e-3f0f-4e7d-94b6-3458f87b6718
+title: CBaseFilter.CBaseFilter(const TCHAR\*, LPUNKNOWN, CCritSec\*, REFCLSID, HRESULT\*) constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.CBaseFilter(const TCHAR\*, LPUNKNOWN, CCritSec\*, REFCLSID, HRESULT\*) constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CBaseFilter(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk,
-         CCritSec  *pLock,
-         REFCLSID  clsid,
-         HRESULT   *phr
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk,
+         CCritSec  *pLock,
+         REFCLSID  clsid,
+         HRESULT   *phr
 );
 ```
 
@@ -87,9 +92,9 @@ For the critical section object, you would typically do one of the following:
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

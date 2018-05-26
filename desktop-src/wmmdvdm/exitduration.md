@@ -1,14 +1,20 @@
 ---
 title: ExitDuration element
 description: Defines the duration of the exit effect for the specified text media node.
-ms.assetid: '0b6d0d91-b46a-4535-a63a-e5844d17a9d3'
-keywords: ["ExitDuration element Windows Movie Maker and DVD Maker"]
+ms.assetid: 0b6d0d91-b46a-4535-a63a-e5844d17a9d3
+keywords:
+- ExitDuration element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ExitDuration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExitDuration element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ There are no child elements.
 [**ExitPosition Element**](exitposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

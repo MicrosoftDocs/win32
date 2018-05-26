@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.fullScreen
 description: The fullScreen attribute specifies or retrieves a value indicating whether the current visualization is displayed full-screen. This attribute can only be set at run time.
-ms.assetid: '319b46a4-b6c2-4dda-8285-f12af6836b25'
-keywords: ["EFFECTS.fullScreen Windows Media Player"]
+ms.assetid: 319b46a4-b6c2-4dda-8285-f12af6836b25
+keywords:
+- EFFECTS.fullScreen Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.fullScreen
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.fullScreen
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ A visualization can be put into full-screen mode only while media is playing or 
 [**EFFECTS Element**](effects-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

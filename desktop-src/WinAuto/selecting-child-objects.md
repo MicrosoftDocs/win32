@@ -1,18 +1,23 @@
 ---
 title: Selecting Child Objects
 description: Clients call the IAccessible accSelect method to modify selection or keyboard focus among the children in an object. The SELFLAG Constants specified with the call define the operation to perform.
-ms.assetid: '5e7ad1e9-b1b2-4e76-93e8-b58251930621'
+ms.assetid: 5e7ad1e9-b1b2-4e76-93e8-b58251930621
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting Child Objects
 
-Clients call the [**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md) method to modify selection or keyboard focus among the children in an object. The [SELFLAG Constants](selflag.md) specified with the call define the operation to perform.
+Clients call the [**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) method to modify selection or keyboard focus among the children in an object. The [SELFLAG Constants](selflag.md) specified with the call define the operation to perform.
 
-If [**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md) is called with the [**SELFLAG\_TAKEFOCUS**](selflag.md#selflag-takefocus) flag on a child object that has an **HWND**, the flag takes effect only if the object's parent has the focus.
+If [**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) is called with the [**SELFLAG\_TAKEFOCUS**](selflag.md#selflag-takefocus) flag on a child object that has an **HWND**, the flag takes effect only if the object's parent has the focus.
 
 ## Performing Complex Selection Operations
 
-The following describes which SELFLAG values to specify when calling [**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md) to perform complex selection operations.
+The following describes which SELFLAG values to specify when calling [**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) to perform complex selection operations.
 
 **To simulate a click**
 
@@ -33,12 +38,12 @@ The following describes which SELFLAG values to specify when calling [**IAccessi
 **To select a range of objects and put focus on the last object**
 
 1.  Specify [**SELFLAG\_TAKEFOCUS**](selflag.md#selflag-takefocus) on the starting object to set the selection anchor.
-2.  Call [**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md) again and specify [**SELFLAG\_EXTENDSELECTION**](selflag.md#selflag-extendselection) \| [**SELFLAG\_TAKEFOCUS**](selflag.md#selflag-takefocus) on the last object.
+2.  Call [**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) again and specify [**SELFLAG\_EXTENDSELECTION**](selflag.md#selflag-extendselection) \| [**SELFLAG\_TAKEFOCUS**](selflag.md#selflag-takefocus) on the last object.
 
 **To deselect all objects**
 
 1.  Specify [**SELFLAG\_TAKESELECTION**](selflag.md#selflag-takeselection) on any object. This flag deselects all selected objects except the one just selected.
-2.  Call [**IAccessible::accSelect**](iaccessible-iaccessible--accselect.md) again and specify [**SELFLAG\_REMOVESELECTION**](selflag.md#selflag-removeselection) on the remaining object.
+2.  Call [**IAccessible::accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master) again and specify [**SELFLAG\_REMOVESELECTION**](selflag.md#selflag-removeselection) on the remaining object.
 
  
 

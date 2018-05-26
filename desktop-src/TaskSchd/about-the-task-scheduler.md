@@ -1,8 +1,14 @@
 ---
 title: About the Task Scheduler
 description: The Task Scheduler service allows you to perform automated tasks on a chosen computer.
-ms.assetid: '13816b8b-3090-4d17-86bb-8e632ca0cd37'
-keywords: ["Task Scheduler Task Scheduler , about"]
+ms.assetid: 13816b8b-3090-4d17-86bb-8e632ca0cd37
+keywords:
+- Task Scheduler Task Scheduler , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Task Scheduler

@@ -1,8 +1,14 @@
 ---
 title: DBRELEVANTDOCUMENT
 description: DBRELEVANTDOCUMENT
-ms.assetid: '014566f5-04c1-4d15-a14f-a6c51a71f537'
-keywords: ["DBRELEVANTDOCUMENT"]
+ms.assetid: 014566f5-04c1-4d15-a14f-a6c51a71f537
+keywords:
+- DBRELEVANTDOCUMENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBRELEVANTDOCUMENT

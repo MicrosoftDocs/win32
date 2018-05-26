@@ -1,7 +1,12 @@
 ---
 title: Multithreaded Direct2D Apps
 description: Describes best practices for creating multithreaded Direct2D apps.
-ms.assetid: 'FDD770D4-817F-44D9-86C4-15DD04D214AE'
+ms.assetid: FDD770D4-817F-44D9-86C4-15DD04D214AE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multithreaded Direct2D Apps
@@ -52,10 +57,10 @@ The diagram here shows a [Direct3D](https://msdn.microsoft.com/library/windows/d
 
 ![thread protection diagram.](images/multi-thread2.png)
 
-To avoid resource access conflict here, we recommend you explicitly acquire the lock that [Direct2D](direct2d.direct2d_portal.xml) uses for internal access synchronization, and apply that lock when a thread needs to make [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) or DXGI calls that might cause access conflict as shown here. In particular, you should take special care with code that uses exceptions or an early out system based on HRESULT return codes. For this reason, we recommend you use an RAII (Resource Acquisition Is Initialization) pattern to call the [**Enter**](id2d1multithread-enter.md) and [**Leave**](id2d1multithread-leave.md) methods. See [Direct2D Windows Store app using DirectX printing sample](http://go.microsoft.com/fwlink/p/?linkid=258234) for an example of how to apply this approach in the context of printing Direct2D content.
+To avoid resource access conflict here, we recommend you explicitly acquire the lock that [Direct2D](direct2d.direct2d_portal.xml) uses for internal access synchronization, and apply that lock when a thread needs to make [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) or DXGI calls that might cause access conflict as shown here. In particular, you should take special care with code that uses exceptions or an early out system based on HRESULT return codes. For this reason, we recommend you use an RAII (Resource Acquisition Is Initialization) pattern to call the [**Enter**](/windows/win32/d2d1_1/?branch=master) and [**Leave**](/windows/win32/d2d1_1/?branch=master) methods. See [Direct2D Windows Store app using DirectX printing sample](http://go.microsoft.com/fwlink/p/?linkid=258234) for an example of how to apply this approach in the context of printing Direct2D content.
 
 > [!Note]  
-> It is important that you pair up calls to the [**Enter**](id2d1multithread-enter.md) and [**Leave**](id2d1multithread-leave.md) methods, otherwise your app can deadlock.
+> It is important that you pair up calls to the [**Enter**](/windows/win32/d2d1_1/?branch=master) and [**Leave**](/windows/win32/d2d1_1/?branch=master) methods, otherwise your app can deadlock.
 
  
 
@@ -89,7 +94,7 @@ void MyApp::DrawFromThread2()
 
 ![direct2d and direct3d thread locking diagram.](images/multi-thread3.png)
 
-When you use the [**Enter**](id2d1multithread-enter.md) and [**Leave**](id2d1multithread-leave.md) methods, the calls are protected by the automatic [Direct2D](direct2d.direct2d_portal.xml) and the explicit lock, so the app doesn't hit access conflict.
+When you use the [**Enter**](/windows/win32/d2d1_1/?branch=master) and [**Leave**](/windows/win32/d2d1_1/?branch=master) methods, the calls are protected by the automatic [Direct2D](direct2d.direct2d_portal.xml) and the explicit lock, so the app doesn't hit access conflict.
 
 There are other approaches to work around this issue. However, we recommend you explicitly guard [Direct3D](https://msdn.microsoft.com/library/windows/desktop/ff476080) or DXGI calls with the [Direct2D](direct2d.direct2d_portal.xml) lock because it usually provides better performance as it protects concurrency at a much finer level and with lower overhead under Direct2D’s cover.
 

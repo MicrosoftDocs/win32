@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.currentEffect
 description: The currentEffect attribute specifies or retrieves the current visualization.
-ms.assetid: 'd6b0e77d-2872-420a-b5f5-36fd23243648'
-keywords: ["EFFECTS.currentEffect Windows Media Player"]
+ms.assetid: d6b0e77d-2872-420a-b5f5-36fd23243648
+keywords:
+- EFFECTS.currentEffect Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.currentEffect
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.currentEffect
@@ -58,9 +64,9 @@ MyEffects.currentEffect.backgroundColor = "blue";
 [**EFFECTS.currentEffectType**](effects-currenteffecttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

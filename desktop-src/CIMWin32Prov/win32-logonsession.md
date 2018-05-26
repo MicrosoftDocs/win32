@@ -1,15 +1,18 @@
 ---
-Description: 'Describes the logon session or sessions associated with a user logged on to a computer system running Windows.'
+Description: Describes the logon session or sessions associated with a user logged on to a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd09a115b-95a3-47c7-a04d-c810d044ccc8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d09a115b-95a3-47c7-a04d-c810d044ccc8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogonSession class'
+title: Win32\_LogonSession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogonSession class
@@ -24,15 +27,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{9083C21E-7D58-4e0e-BC30-0BC8922AFB8B}"), AMENDMENT]
 class Win32_LogonSession : Win32_Session
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
   datetime StartTime;
-  string   AuthenticationPackage;
-  string   LogonId;
-  uint32   LogonType;
+  string   AuthenticationPackage;
+  string   LogonId;
+  uint32   LogonType;
 };
 ```
 
@@ -458,8 +461,8 @@ $servers = gci servers.txt
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -476,9 +479,9 @@ $servers = gci servers.txt
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

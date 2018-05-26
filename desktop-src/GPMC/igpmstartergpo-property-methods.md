@@ -4,11 +4,12 @@ description: The property methods of the IGPMStarterGPO interface get and set th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2cc1d707-d269-40ff-9356-c3ac2fa36de1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 2cc1d707-d269-40ff-9356-c3ac2fa36de1
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMStarterGPO Property Methods GPMC"]
+keywords:
+- IGPMStarterGPO Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -41,11 +42,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMStarterGPO Property Methods
 
-The property methods of the [**IGPMStarterGPO**](igpmstartergpo.md) interface get and set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
+The property methods of the [**IGPMStarterGPO**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpo?branch=master) interface get and set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
 
 ## Properties
 
@@ -323,7 +327,7 @@ HRESULT get_UserVersion(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -331,8 +335,8 @@ HRESULT get_UserVersion(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -344,15 +348,15 @@ HRESULT get_UserVersion(
 
 <dl> <dt>
 
-[**IGPMStarterGPO**](igpmstartergpo.md)
+[**IGPMStarterGPO**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpo?branch=master)
 </dt> <dt>
 
-[**IGPMStarterGPOCollection**](igpmstartergpocollection.md)
+[**IGPMStarterGPOCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpocollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

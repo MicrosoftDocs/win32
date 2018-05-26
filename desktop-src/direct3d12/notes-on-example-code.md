@@ -1,7 +1,12 @@
 ---
 title: Example Code in the D3D12 Reference
 description: Explains the use of example code in the Direct3D 12 documentation.
-ms.assetid: 'C2323482-D06D-43B7-9BDE-BFB9A6A6B70D'
+ms.assetid: C2323482-D06D-43B7-9BDE-BFB9A6A6B70D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example Code in the D3D12 Reference

@@ -4,17 +4,21 @@ description: Initializes a new instance of the RestServiceNotEnabledException cl
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b3102fe0-bf62-48e0-bafb-a23b806e0d3d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b3102fe0-bf62-48e0-bafb-a23b806e0d3d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["RestServiceNotEnabledException(Throwable) constructor"]
+keywords:
+- RestServiceNotEnabledException(Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - RestServiceNotEnabledException(Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestServiceNotEnabledException(Throwable) constructor
@@ -37,7 +41,7 @@ public RestServiceNotEnabledException(Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -54,9 +58,9 @@ RestServiceNotEnabledException.java
 [**RestServiceNotEnabledException**](restservicenotenabledexception-class-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

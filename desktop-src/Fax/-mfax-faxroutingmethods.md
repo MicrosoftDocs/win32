@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxRoutingMethods object represents a collection of FaxRoutingMethod objects.'
-ms.assetid: '8f164bc0-647c-4495-be67-2f208770c28d'
+Description: The FaxRoutingMethods object represents a collection of FaxRoutingMethod objects.
+ms.assetid: 8f164bc0-647c-4495-be67-2f208770c28d
 title: FaxRoutingMethods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethods
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxPort::GetRoutingMethods**](-mfax-ifaxport-mfax-ifaxport-getroutingmethods-cpp.md) method.
--   Supports the [**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md) interface.
+-   Create by calling the [**IFaxPort::GetRoutingMethods**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxport-getroutingmethods?branch=master) method.
+-   Supports the [**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master) interface.
 
-For more information about creating an instance of a FaxRoutingMethods object, and for a list of the object's properties and methods, see [**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md).
+For more information about creating an instance of a FaxRoutingMethods object, and for a list of the object's properties and methods, see [**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master).
 
 ## Visual Basic
 

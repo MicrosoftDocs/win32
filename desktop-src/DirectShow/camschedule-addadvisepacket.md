@@ -1,7 +1,12 @@
 ---
-Description: 'The AddAdvisePacket method adds an advise request to the list of pending requests.'
-ms.assetid: '138d8404-7d28-47cc-91b4-4733a113ac7a'
-title: 'CAMSchedule.AddAdvisePacket method'
+Description: The AddAdvisePacket method adds an advise request to the list of pending requests.
+ms.assetid: 138d8404-7d28-47cc-91b4-4733a113ac7a
+title: CAMSchedule.AddAdvisePacket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.AddAdvisePacket method
@@ -13,10 +18,10 @@ The `AddAdvisePacket` method adds an advise request to the list of pending reque
 
 ```C++
 DWORD_PTR AddAdvisePacket(
-  [ref] const REFERENCE_TIME &amp;time1,
-  [ref] const REFERENCE_TIME &amp;time2,
-              HANDLE         hNotify,
-              BOOL           bPeriodic
+  [ref] const REFERENCE_TIME &amp;time1,
+  [ref] const REFERENCE_TIME &amp;time2,
+              HANDLE         hNotify,
+              BOOL           bPeriodic
 );
 ```
 
@@ -76,9 +81,9 @@ Returns an identifier for the advise request (the "cookie"). If the method fails
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

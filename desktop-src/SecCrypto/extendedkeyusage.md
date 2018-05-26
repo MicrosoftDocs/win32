@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides read-only access to the extended key usage (EKU) properties of a certificate.'
-ms.assetid: 'e974e9e2-1011-48b7-9ebc-e754e4990286'
+---
+Description: Provides read-only access to the extended key usage (EKU) properties of a certificate.
+ms.assetid: e974e9e2-1011-48b7-9ebc-e754e4990286
 title: ExtendedKeyUsage object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExtendedKeyUsage object

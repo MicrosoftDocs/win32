@@ -1,7 +1,12 @@
 ---
-Description: 'The GetUnsignedLargeIntegerValue method retrieves a ULONGLONG value (type VT\_UI8) specified by a key.'
-ms.assetid: 'de37c49b-a5f4-424d-8320-1de2d5a624aa'
-title: 'IPortableDeviceValues::GetUnsignedLargeIntegerValue method'
+Description: The GetUnsignedLargeIntegerValue method retrieves a ULONGLONG value (type VT\_UI8) specified by a key.
+ms.assetid: de37c49b-a5f4-424d-8320-1de2d5a624aa
+title: IPortableDeviceValuesGetUnsignedLargeIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetUnsignedLargeIntegerValue method
@@ -13,8 +18,8 @@ The **GetUnsignedLargeIntegerValue** method retrieves a **ULONGLONG** value (typ
 
 ```C++
 HRESULT GetUnsignedLargeIntegerValue(
-  [in]  REFPROPERTYKEY key,
-  [out] ULONGLONG      *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] ULONGLONG      *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetUnsignedLargeIntegerValue**](iportabledevicevalues-setunsignedlargeintegervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

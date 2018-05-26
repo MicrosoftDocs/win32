@@ -1,7 +1,12 @@
 ---
-Description: 'Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.'
-ms.assetid: '8b094882-e739-4088-87de-6ef4719b0b5b'
+Description: Exposes a method to evaluate whether an IContextNode object meets or fails a specified criteria.
+ms.assetid: 8b094882-e739-4088-87de-6ef4719b0b5b
 title: IMatchesCriteriaCallBack interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMatchesCriteriaCallBack interface
@@ -26,7 +31,7 @@ The **IMatchesCriteriaCallBack** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -38,7 +43,7 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -58,9 +63,9 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

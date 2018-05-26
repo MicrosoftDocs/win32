@@ -1,8 +1,11 @@
 ---
 title: Activity GetActivityClass method
 description: Returns the activity class of the Activity.
-ms.assetid: '58C10452-CFD4-46B4-875B-6BE0306C411F'
-keywords: ["GetActivityClass method Access Execution Engine", "GetActivityClass method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetActivityClass method"]
+ms.assetid: 58C10452-CFD4-46B4-875B-6BE0306C411F
+keywords:
+- GetActivityClass method Access Execution Engine
+- GetActivityClass method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetActivityClass method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetActivityClass method
@@ -22,7 +30,7 @@ Returns the activity class of the **Activity**.
 
 ```C++
 virtual HRESULT GetActivityClass(
-  [out] LPCWSTR *activityClass
+  [out] LPCWSTR *activityClass
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity class is the value of element **Activity/ActivityClass**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity class is the value of element **Activity/ActivityClass**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

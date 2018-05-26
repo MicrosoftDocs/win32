@@ -1,7 +1,12 @@
 ---
-Description: 'A WS-Discovery message used to announce the departure of a device or service from the network.'
-ms.assetid: '7b9abfcc-28ab-4f29-af69-6dc68e3f51b6'
+Description: A WS-Discovery message used to announce the departure of a device or service from the network.
+ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: Bye Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bye Message

@@ -4,11 +4,16 @@ description: The Global Catalog is a namespace that contains directory data for 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c3c131c7-d9dd-4dbd-a909-abd0ffd9f375'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c3c131c7-d9dd-4dbd-a909-abd0ffd9f375
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Binding to the Global Catalog AD", "global catalog AD , binding to"]
+keywords:
+- Binding to the Global Catalog AD
+- global catalog AD , binding to
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to the Global Catalog

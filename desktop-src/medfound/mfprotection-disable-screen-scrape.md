@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies disable screen scrap protection.'
-ms.assetid: '2CA548FC-0923-4E02-BFEE-A5179C0C5110'
-title: 'MFPROTECTION\_DISABLE\_SCREEN\_SCRAPE attribute'
+---
+Description: Specifies disable screen scrap protection.
+ms.assetid: 2CA548FC-0923-4E02-BFEE-A5179C0C5110
+title: MFPROTECTION\_DISABLE\_SCREEN\_SCRAPE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPROTECTION\_DISABLE\_SCREEN\_SCRAPE attribute

@@ -1,12 +1,17 @@
 ---
 title: Hit Test Return Values
 description: This section lists the hit test code values that are returned in the pwHitTestCode parameter of the HitTestThemeBackground function.
-ms.assetid: '95b4fc1a-2f9b-4464-b672-552d36b60c42'
+ms.assetid: 95b4fc1a-2f9b-4464-b672-552d36b60c42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hit Test Return Values
 
-This section lists the hit test code values that are returned in the *pwHitTestCode* parameter of the [**HitTestThemeBackground**](hittestthemebackground.md) function. The code values returned depend on the hit test options specified in the *dwOptions* parameter of the **HitTestThemeBackground** function. For a list of the options, see [Hit Test Options](theme-hit-test-options.md).
+This section lists the hit test code values that are returned in the *pwHitTestCode* parameter of the [**HitTestThemeBackground**](/windows/win32/Uxtheme/nf-uxtheme-hittestthemebackground?branch=master) function. The code values returned depend on the hit test options specified in the *dwOptions* parameter of the **HitTestThemeBackground** function. For a list of the options, see [Hit Test Options](theme-hit-test-options.md).
 
 ## Return Values
 

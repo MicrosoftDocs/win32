@@ -1,7 +1,12 @@
 ---
-Description: 'Relates an IPsec rule to its Quick Mode crypto set.'
-ms.assetid: '583566c2-d91d-4301-a4ee-ac6aa639c274'
-title: 'MSFT\_NetSARuleQMCrypto class'
+Description: Relates an IPsec rule to its Quick Mode crypto set.
+ms.assetid: 583566c2-d91d-4301-a4ee-ac6aa639c274
+title: MSFT\_NetSARuleQMCrypto class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSARuleQMCrypto class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetSARuleQMCrypto : MSFT_NetSAActionInSARule
 {
-  CIM_SARule             REF GroupComponent;
+  CIM_SARule             REF GroupComponent;
   MSFT_NetIKEQMCryptoSet REF PartComponent;
-  uint16                     ActionOrder;
+  uint16                     ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The Quick Mode crypto set used by this rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,15 @@
 ---
 title: CCF\_WINDOW\_TITLE clipboard format
-description: The CCF\_WINDOW\_TITLE clipboard format enables a snap-in to specify the string used to represent the snap-in's static node in the title bar of windows created programmatically using IConsole2 NewWindow(MMC\_NW\_OPTION\_CUSTOMTITLE).
+description: The CCF\_WINDOW\_TITLE clipboard format enables a snap-in to specify the string used to represent the snap-ins static node in the title bar of windows created programmatically using IConsole2 NewWindow(MMC\_NW\_OPTION\_CUSTOMTITLE).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c02011e-0013-4cf4-8caa-0b2a2faf2870'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9c02011e-0013-4cf4-8caa-0b2a2faf2870
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_WINDOW_TITLE clipboard format MMC"]
+keywords:
+- CCF_WINDOW_TITLE clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_WINDOW\_TITLE clipboard format
@@ -39,8 +43,8 @@ To specify the title bar name for the snap-in's static node, the snap-in must su
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -52,9 +56,9 @@ To specify the title bar name for the snap-in's static node, the snap-in must su
 [**IS\_SPECIAL\_COOKIE**](is-special-cookie.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CommandListCast function
 description: This function template casts a constant pointer to any command list into a const pointer to an ID3D12CommandList.
-ms.assetid: '63719AA1-2119-456C-9D23-13933D38AFA9'
-keywords: ["CommandListCast function"]
+ms.assetid: 63719AA1-2119-456C-9D23-13933D38AFA9
+keywords:
+- CommandListCast function
 topic_type:
 - apiref
 api_name:
@@ -11,20 +12,25 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommandListCast function
 
 This function template casts a constant pointer to any command list into a const pointer to an ID3D12CommandList.
 
-This cast is useful for passing strongly-typed command list pointers into [**ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md).
+This cast is useful for passing strongly-typed command list pointers into [**ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master).
 
 ## Syntax
 
 
 ```C++
 ID3D12CommandList * const * inline CommandListCast(
-   t_CommandListType * const * pp
+   t_CommandListType * const * pp
 );
 ```
 
@@ -49,7 +55,7 @@ The template argument **t\_CommandListType** specifies any strongly-typed comman
 
 Type: **ID3D12CommandList \* const \***
 
-The strongly-typed command list, reinterpreted as an [**ID3D12CommandList**](id3d12commandlist.md).
+The strongly-typed command list, reinterpreted as an [**ID3D12CommandList**](/windows/win32/D3D12/nn-d3d12-id3d12commandlist?branch=master).
 
 ## Remarks
 
@@ -88,9 +94,9 @@ inline ID3D12CommandList * const * CommandListCast(t_CommandListType * const * p
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

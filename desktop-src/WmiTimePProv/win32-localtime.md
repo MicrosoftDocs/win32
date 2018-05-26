@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LocalTime&\#32;WMI class describes a point in time returned as Win32\_LocalTime objects that result from a query.'
+Description: The Win32\_LocalTime&\#32;WMI class describes a point in time returned as Win32\_LocalTime objects that result from a query.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd12a899d-216b-4060-b344-a90aa5c0371a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d12a899d-216b-4060-b344-a90aa5c0371a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LocalTime class'
+title: Win32\_LocalTime class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LocalTime class
@@ -17,7 +20,7 @@ The **Win32\_LocalTime** [WMI class](https://msdn.microsoft.com/library/aa393244
 > [!Note]  
 > The smallest time segment supported is 1 second.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -61,7 +64,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current day that matches the query (1–31).
+Current day that matches the query (1 31).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -76,7 +79,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current day of the current week that matches the query (0–6). By convention, the value 0 is always Sunday, regardless of the culture or the locale set on the machine.
+Current day of the current week that matches the query (0 6). By convention, the value 0 is always Sunday, regardless of the culture or the locale set on the machine.
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -91,7 +94,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current hour of the current day (0–23).
+Current hour of the current day (0 23).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -121,7 +124,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current minute (0–59).
+Current minute (0 59).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -136,7 +139,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current month that matches the query (1–12).
+Current month that matches the query (1 12).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -151,7 +154,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current quarter of the current year (1–4).
+Current quarter of the current year (1 4).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -166,7 +169,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current second of the current minute (0–59).
+Current second of the current minute (0 59).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -181,7 +184,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current week (1–6) in the current month (1–12).
+Current week (1 6) in the current month (1 12).
 
 This property is inherited from [**Win32\_CurrentTime**](win32-currenttime.md).
 
@@ -252,8 +255,8 @@ WHERE
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmitimep.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmitimep.dll</dt> </dl> |
@@ -279,9 +282,9 @@ WHERE
 [WMI Tasks: Dates and Times](https://msdn.microsoft.com/library/aa394590)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

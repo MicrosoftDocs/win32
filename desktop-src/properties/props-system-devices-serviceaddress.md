@@ -1,7 +1,12 @@
 ---
-Description: 'Endpoint address of the device service.'
-ms.assetid: 'c2a208b0-8069-4070-8e82-9e6e8979a84f'
-title: 'System.Devices.ServiceAddress'
+Description: Endpoint address of the device service.
+ms.assetid: c2a208b0-8069-4070-8e82-9e6e8979a84f
+title: System.Devices.ServiceAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.ServiceAddress

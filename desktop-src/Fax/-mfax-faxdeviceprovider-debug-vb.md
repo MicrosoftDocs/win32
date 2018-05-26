@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Debug property is a Boolean value that indicates whether the fax service provider (FSP) DLL was created in a debug environment.'
-ms.assetid: '91296037-6846-4def-bf3f-33fa559b3f3b'
-title: 'FaxDeviceProvider.Debug property'
+---
+Description: The Debug property is a Boolean value that indicates whether the fax service provider (FSP) DLL was created in a debug environment.
+ms.assetid: 91296037-6846-4def-bf3f-33fa559b3f3b
+title: FaxDeviceProvider.Debug property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.Debug property
@@ -50,7 +55,7 @@ If this property is equal to **True**, the FSP DLL was created in a debug envir
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

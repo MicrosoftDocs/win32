@@ -1,8 +1,24 @@
 ---
 title: Using Dynamic Data Exchange
 description: This topic provides code samples concerning dynamic data exchange.
-ms.assetid: '6d94403b-64b4-4763-868a-3b94431dab79'
-keywords: ["Dynamic Data Exchange (DDE),conversations", "DDE (Dynamic Data Exchange),conversations", "data exchange,Dynamic Data Exchange (DDE)", "Dynamic Data Exchange (DDE),examples", "DDE (Dynamic Data Exchange),examples", "Dynamic Data Exchange (DDE),commands in server applications", "DDE (Dynamic Data Exchange),commands in server applications", "Dynamic Data Exchange (DDE),data links", "DDE (Dynamic Data Exchange),data links", "Dynamic Data Exchange (DDE),items", "DDE (Dynamic Data Exchange),items"]
+ms.assetid: 6d94403b-64b4-4763-868a-3b94431dab79
+keywords:
+- Dynamic Data Exchange (DDE),conversations
+- DDE (Dynamic Data Exchange),conversations
+- data exchange,Dynamic Data Exchange (DDE)
+- Dynamic Data Exchange (DDE),examples
+- DDE (Dynamic Data Exchange),examples
+- Dynamic Data Exchange (DDE),commands in server applications
+- DDE (Dynamic Data Exchange),commands in server applications
+- Dynamic Data Exchange (DDE),data links
+- DDE (Dynamic Data Exchange),data links
+- Dynamic Data Exchange (DDE),items
+- DDE (Dynamic Data Exchange),items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Dynamic Data Exchange
@@ -23,7 +39,7 @@ This section has code samples on the following tasks:
 
 ## Initiating a Conversation
 
-To initiate a Dynamic Data Exchange (DDE) conversation, the client sends a [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message. Usually, the client broadcasts this message by calling [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950), with –1 as the first parameter. If the application already has the window handle to the server application, it can send the message directly to that window. The client prepares atoms for the application name and topic name by calling [**GlobalAddAtom**](globaladdatom.md). The client can request conversations with any potential server application and for any potential topic by supplying **NULL** (wildcard) atoms for the application and topic.
+To initiate a Dynamic Data Exchange (DDE) conversation, the client sends a [**WM\_DDE\_INITIATE**](wm-dde-initiate.md) message. Usually, the client broadcasts this message by calling [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950), with –1 as the first parameter. If the application already has the window handle to the server application, it can send the message directly to that window. The client prepares atoms for the application name and topic name by calling [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master). The client can request conversations with any potential server application and for any potential topic by supplying **NULL** (wildcard) atoms for the application and topic.
 
 The following example illustrates how the client initiates a conversation, where both the application and topic are specified.
 
@@ -53,7 +69,7 @@ The following example illustrates how the client initiates a conversation, where
 
 
 > [!Note]  
-> If your application uses **NULL** atoms, you need not use the [**GlobalAddAtom**](globaladdatom.md) and [**GlobalDeleteAtom**](globaldeleteatom.md) functions. In this example, the client application creates two global atoms containing the name of the server and the name of the topic, respectively.
+> If your application uses **NULL** atoms, you need not use the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) and [**GlobalDeleteAtom**](/windows/win32/Winbase/nf-winbase-globaldeleteatom?branch=master) functions. In this example, the client application creates two global atoms containing the name of the server and the name of the topic, respectively.
 
  
 
@@ -198,13 +214,13 @@ if (atomItem == 0)
 
 
 
-In this example, the server application allocates a memory object to contain the data item. The data object is initialized as a [**DDEDATA**](ddedata.md) structure.
+In this example, the server application allocates a memory object to contain the data item. The data object is initialized as a [**DDEDATA**](/windows/win32/Dde/ns-dde-ddedata?branch=master) structure.
 
-The server application then sets the **cfFormat** member of the structure to CF\_TEXT to inform the client application that the data is in text format. The client responds by copying the value of the requested data into the **Value** member of the [**DDEDATA**](ddedata.md) structure. After the server has filled the data object, the server unlocks the data and creates a global atom containing the name of the data item.
+The server application then sets the **cfFormat** member of the structure to CF\_TEXT to inform the client application that the data is in text format. The client responds by copying the value of the requested data into the **Value** member of the [**DDEDATA**](/windows/win32/Dde/ns-dde-ddedata?branch=master) structure. After the server has filled the data object, the server unlocks the data and creates a global atom containing the name of the data item.
 
-Finally, the server issues the [**WM\_DDE\_DATA**](wm-dde-data.md) message by calling [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944). The handle to the data object and the atom containing the item name are packed into the *lParam* parameter of the message by the [**PackDDElParam**](packddelparam.md) function.
+Finally, the server issues the [**WM\_DDE\_DATA**](wm-dde-data.md) message by calling [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944). The handle to the data object and the atom containing the item name are packed into the *lParam* parameter of the message by the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function.
 
-If [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) fails, the server must use the [**FreeDDElParam**](freeddelparam.md) function to free the packed *lParam* parameter. The server must also free the packed *lParam* parameter for the [**WM\_DDE\_REQUEST**](wm-dde-request.md) message it received.
+If [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) fails, the server must use the [**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master) function to free the packed *lParam* parameter. The server must also free the packed *lParam* parameter for the [**WM\_DDE\_REQUEST**](wm-dde-request.md) message it received.
 
 If the server cannot satisfy the request, it sends a negative [**WM\_DDE\_ACK**](wm-dde-ack.md) message to the client, as shown in the following example.
 
@@ -258,7 +274,7 @@ In this example, the client examines the format of the data. If the format is no
 
 If a client sends a negative acknowledgment in response to a [**WM\_DDE\_DATA**](wm-dde-data.md) message, the server is responsible for freeing the memory (but not the *lParam* parameter) referenced by the **WM\_DDE\_DATA** message associated with the negative acknowledgment.
 
-If it can process the data, the client examines the **fAckReq** member of the [**DDEDATA**](ddedata.md) structure to determine whether the server requested that it be informed that the client received and processed the data successfully. If the server did request this information, the client sends the server a positive [**WM\_DDE\_ACK**](wm-dde-ack.md) message.
+If it can process the data, the client examines the **fAckReq** member of the [**DDEDATA**](/windows/win32/Dde/ns-dde-ddedata?branch=master) structure to determine whether the server requested that it be informed that the client received and processed the data successfully. If the server did request this information, the client sends the server a positive [**WM\_DDE\_ACK**](wm-dde-ack.md) message.
 
 Because unlocking data invalidates the pointer to the data, the client saves the value of the **fRelease** member before unlocking the data object. After saving the value, the client then examines it to determine whether the server application requested the client to free the memory containing the data; the client acts accordingly.
 
@@ -381,7 +397,7 @@ PostMessage(hwndClientDDE,
 
 
 
-In this example, the server calls [**GlobalGetAtomName**](globalgetatomname.md) to retrieve the name of the item the client sent. The server then determines whether it supports the item and whether the item is rendered in the correct format (that is, CF\_TEXT). If the item is not supported and not rendered in the correct format, or if the server cannot lock the memory for the data, the server sends a negative acknowledgment back to the client application. Note that in this case, sending a negative acknowledgment is correct because [**WM\_DDE\_POKE**](wm-dde-poke.md) messages are always assumed to have the **fAckReq** member set. The server should ignore the member.
+In this example, the server calls [**GlobalGetAtomName**](/windows/win32/Winbase/nf-winbase-globalgetatomnamea?branch=master) to retrieve the name of the item the client sent. The server then determines whether it supports the item and whether the item is rendered in the correct format (that is, CF\_TEXT). If the item is not supported and not rendered in the correct format, or if the server cannot lock the memory for the data, the server sends a negative acknowledgment back to the client application. Note that in this case, sending a negative acknowledgment is correct because [**WM\_DDE\_POKE**](wm-dde-poke.md) messages are always assumed to have the **fAckReq** member set. The server should ignore the member.
 
 If a server sends a negative acknowledgment in response to a [**WM\_DDE\_POKE**](wm-dde-poke.md) message, the client is responsible for freeing the memory (but not the *lParam* parameter) referenced by the **WM\_DDE\_POKE** message associated with the negative acknowledgment.
 
@@ -587,7 +603,7 @@ If a conversation on the topic does not already exist between the client and the
 
 ### Notifying the Client that Data Has Changed
 
-When the client establishes a link by using the [**WM\_DDE\_ADVISE**](wm-dde-advise.md) message, with the **fDeferUpd** member not set (that is, equal to zero) in the [**DDEDATA**](ddedata.md) structure, the client has requested the server send the data item each time the item's value changes. In such cases, the server renders the new value of the data item in the previously specified format and sends the client a [**WM\_DDE\_DATA**](wm-dde-data.md) message, as shown in the following example.
+When the client establishes a link by using the [**WM\_DDE\_ADVISE**](wm-dde-advise.md) message, with the **fDeferUpd** member not set (that is, equal to zero) in the [**DDEDATA**](/windows/win32/Dde/ns-dde-ddedata?branch=master) structure, the client has requested the server send the data item each time the item's value changes. In such cases, the server renders the new value of the data item in the previously specified format and sends the client a [**WM\_DDE\_DATA**](wm-dde-data.md) message, as shown in the following example.
 
 
 ```

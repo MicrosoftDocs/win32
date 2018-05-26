@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Retries property is a value that indicates the number of times the fax service attempted to route an incoming fax when the initial routing attempt failed.'
-ms.assetid: '5a864bb4-4205-47bd-b370-0dbe048c4bb9'
-title: 'FaxIncomingJob.Retries property'
+---
+Description: The Retries property is a value that indicates the number of times the fax service attempted to route an incoming fax when the initial routing attempt failed.
+ms.assetid: 5a864bb4-4205-47bd-b370-0dbe048c4bb9
+title: FaxIncomingJob.Retries property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.Retries property
@@ -46,7 +51,7 @@ A **Long** that receives the number of times the fax service attempted to route 
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

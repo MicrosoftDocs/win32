@@ -4,11 +4,13 @@ description: Enables operations on a node, its properties, and related objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b164f5a6-13f1-4eff-a2f9-805b60138dd1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b164f5a6-13f1-4eff-a2f9-805b60138dd1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusNode object Failover Cluster", "ClusNode object Failover Cluster , described"]
+keywords:
+- ClusNode object Failover Cluster
+- ClusNode object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusNode object
@@ -45,7 +50,7 @@ Enables operations on a [node](nodes.md), its properties, and related objects.
 
 
 
- 
+ 
 
 ## Members
 
@@ -65,7 +70,7 @@ The **ClusNode** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,7 +87,7 @@ A **ClusNode** object is obtained from the following collections.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -98,9 +103,9 @@ A **ClusNode** object is obtained from the following collections.
 [Node Management Objects](node-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

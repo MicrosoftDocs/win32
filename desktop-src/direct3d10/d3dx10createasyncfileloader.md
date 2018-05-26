@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an asynchronous-file loader.'
-ms.assetid: '1b79fba5-e7f0-4160-9cec-ffea94f84fde'
+---
+Description: Create an asynchronous-file loader.
+ms.assetid: 1b79fba5-e7f0-4160-9cec-ffea94f84fde
 title: D3DX10CreateAsyncFileLoader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncFileLoader function

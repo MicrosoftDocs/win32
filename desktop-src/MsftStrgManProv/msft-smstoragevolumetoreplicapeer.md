@@ -4,11 +4,13 @@ description: Represents an association between a storage volume and a replica pe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85e24705-c6a3-4a72-8026-abf31843fc39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 85e24705-c6a3-4a72-8026-abf31843fc39
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageVolumeToReplicaPeer class", "MSFT_SMStorageVolumeToReplicaPeer class, described"]
+keywords:
+- MSFT_SMStorageVolumeToReplicaPeer class
+- MSFT_SMStorageVolumeToReplicaPeer class, described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +49,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageVolumeToReplicaPeer class
@@ -61,36 +66,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Dynamic, Provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageVolumeToReplicaPeer : MSFT_SMStorageSynchronizedBase
 {
-  datetime                 WhenSynced;
-  boolean                  SyncMaintained;
-  uint16                   CopyState;
-  string                   CopyStateDescription;
-  uint16                   RequestedCopyState = 15;
-  uint16                   SyncType;
-  string                   SyncTypeDescription;
-  uint16                   Mode;
-  string                   ModeDescription;
-  uint16                   ProgressStatus;
-  string                   ProgressStatusDescription;
-  uint16                   PercentSynced;
-  datetime                 WhenEstablished;
-  datetime                 WhenSynchronized;
-  datetime                 WhenActivated;
-  datetime                 WhenDeactivated;
-  datetime                 WhenSuspended;
-  uint16                   CopyType;
-  string                   CopyTypeDescription;
-  uint16                   ReplicaType;
-  string                   ReplicaTypeDescription;
-  uint16                   SyncState;
-  string                   SyncStateDescription;
-  uint16                   CopyPriority;
-  string                   CopyPriorityDescription;
-  uint16                   CopyMethodology;
-  string                   CopyMethodologyDescription;
-  UInt32                   RecoveryPointObjective;
+  datetime                 WhenSynced;
+  boolean                  SyncMaintained;
+  uint16                   CopyState;
+  string                   CopyStateDescription;
+  uint16                   RequestedCopyState = 15;
+  uint16                   SyncType;
+  string                   SyncTypeDescription;
+  uint16                   Mode;
+  string                   ModeDescription;
+  uint16                   ProgressStatus;
+  string                   ProgressStatusDescription;
+  uint16                   PercentSynced;
+  datetime                 WhenEstablished;
+  datetime                 WhenSynchronized;
+  datetime                 WhenActivated;
+  datetime                 WhenDeactivated;
+  datetime                 WhenSuspended;
+  uint16                   CopyType;
+  string                   CopyTypeDescription;
+  uint16                   ReplicaType;
+  string                   ReplicaTypeDescription;
+  uint16                   SyncState;
+  string                   SyncStateDescription;
+  uint16                   CopyPriority;
+  string                   CopyPriorityDescription;
+  uint16                   CopyMethodology;
+  string                   CopyMethodologyDescription;
+  UInt32                   RecoveryPointObjective;
   MSFT_SMStorageVolume REF Parent;
-  MSFT_SMReplicaPeer   REF Child;
+  MSFT_SMReplicaPeer   REF Child;
 };
 ```
 
@@ -329,7 +334,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -478,14 +483,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -554,14 +559,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 </dd> <dt>
 
@@ -624,14 +629,14 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -856,14 +861,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 </dd> <dt>
 
@@ -1127,14 +1132,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1273,7 +1278,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -1324,7 +1329,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -1352,14 +1357,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 </dd> <dt>
 
@@ -1490,7 +1495,7 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -1507,9 +1512,9 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

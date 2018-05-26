@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the left-handed world-view transform for a sprite. A call to this method is required before billboarding or sorting sprites.'
-ms.assetid: '70f1181d-41f9-4663-91e0-8df94bce4eed'
-title: 'ID3DXSprite::SetWorldViewLH method'
+---
+Description: Sets the left-handed world-view transform for a sprite. A call to this method is required before billboarding or sorting sprites.
+ms.assetid: 70f1181d-41f9-4663-91e0-8df94bce4eed
+title: ID3DXSpriteSetWorldViewLH method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::SetWorldViewLH method

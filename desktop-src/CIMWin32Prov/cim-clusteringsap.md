@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ClusteringSAP class represents the access points of a clustering service.'
+Description: The CIM\_ClusteringSAP class represents the access points of a clustering service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7a95f4b0-b9fc-4dba-ad2d-1b6db1539a57'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7a95f4b0-b9fc-4dba-ad2d-1b6db1539a57
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ClusteringSAP class'
+title: CIM\_ClusteringSAP class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ClusteringSAP class
@@ -19,7 +22,7 @@ The **CIM\_ClusteringSAP** class represents the access points of a clustering se
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,15 +32,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{2bb2b772-ffed-4aa6-b1b3-3d0cb74fc613}"), AMENDMENT]
 class CIM_ClusteringSAP : CIM_ServiceAccessPoint
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   Type;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   Type;
 };
 ```
 
@@ -356,8 +359,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -371,9 +374,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_ServiceAccessPoint**](cim-serviceaccesspoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

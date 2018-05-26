@@ -1,14 +1,22 @@
 ---
 title: IWMDRMLicense GetOutputProtectionLevels method
 description: The GetOutputProtectionLevels method retrieves information about all output protection levels (OPLs) assigned to the license.
-ms.assetid: '6596171a-67ac-42cd-80d9-f77507fc58eb'
-keywords: ["GetOutputProtectionLevels method windows Media Format", "GetOutputProtectionLevels method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , GetOutputProtectionLevels method"]
+ms.assetid: 6596171a-67ac-42cd-80d9-f77507fc58eb
+keywords:
+- GetOutputProtectionLevels method windows Media Format
+- GetOutputProtectionLevels method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , GetOutputProtectionLevels method
 topic_type:
 - apiref
 api_name:
 - IWMDRMLicense.GetOutputProtectionLevels
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::GetOutputProtectionLevels method
@@ -20,7 +28,7 @@ The **GetOutputProtectionLevels** method retrieves information about all output 
 
 ```C++
 HRESULT GetOutputProtectionLevels(
-  [out] WMDRM_OUTPUT_PROTECTION_LEVELS *pOPLs
+  [out] WMDRM_OUTPUT_PROTECTION_LEVELS *pOPLs
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +70,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

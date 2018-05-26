@@ -1,8 +1,9 @@
 ---
 title: glTexGend function
 description: Controls the generation of texture coordinates.
-ms.assetid: '75ab3468-281d-4c8d-95cc-138d75646cdf'
-keywords: ["glTexGend function OpenGL"]
+ms.assetid: 75ab3468-281d-4c8d-95cc-138d75646cdf
+keywords:
+- glTexGend function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexGend function
@@ -22,9 +28,9 @@ Controls the generation of texture coordinates.
 
 ```C++
 void WINAPI glTexGend(
-   GLenum   coord,
-   GLenum   pname,
-   GLdouble param
+   GLenum   coord,
+   GLenum   pname,
+   GLdouble param
 );
 ```
 
@@ -109,7 +115,7 @@ and x?, y?, z?, and w? are the eye coordinates of the vertex, p1, p2, p3, and p4
 
 The values in *param* define a reference plane in eye coordinates. The modelview matrix that is applied to them cannot be the same one in effect when the polygon vertices are transformed. This function establishes a field of texture coordinates that can produce dynamic contour lines on moving objects.
 
-If *pname* is GL\_SPHERE\_MAP and *coord* is either GL\_S or GL\_T, s and t texture coordinates are generated as follows. Let u be the unit vector pointing from the origin to the polygon vertex (in eye coordinates). Let n´ be the current normal, after transformation to eye coordinates. Let f = (fx ( ) fy ( ) fz)T be the reflection vector such that
+If *pname* is GL\_SPHERE\_MAP and *coord* is either GL\_S or GL\_T, s and t texture coordinates are generated as follows. Let u be the unit vector pointing from the origin to the polygon vertex (in eye coordinates). Let n  be the current normal, after transformation to eye coordinates. Let f = (fx ( ) fy ( ) fz)T be the reflection vector such that
 
 ![](images/tex05.png)
 
@@ -140,8 +146,8 @@ The following functions retrieve information related to glTexGen:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -185,9 +191,9 @@ The following functions retrieve information related to glTexGen:
 [**glTexSubImage2D**](gltexsubimage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

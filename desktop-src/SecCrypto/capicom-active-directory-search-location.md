@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the location to be searched for an Active Directory certificate store.'
-ms.assetid: '56b9695e-7ab9-405b-9cae-d78c43071186'
-title: 'CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration'
+---
+Description: Indicates the location to be searched for an Active Directory certificate store.
+ms.assetid: 56b9695e-7ab9-405b-9cae-d78c43071186
+title: CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION enumeration

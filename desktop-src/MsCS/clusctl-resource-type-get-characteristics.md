@@ -4,11 +4,12 @@ description: Retrieves the intrinsic characteristics of a resource type. Applica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd968810f-cd95-43a8-8897-43ebf0bd6f08'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d968810f-cd95-43a8-8897-43ebf0bd6f08
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_TYPE\_GET\_CHARACTERISTICS control code
 
-Retrieves the intrinsic characteristics of a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) function.
+Retrieves the intrinsic characteristics of a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) function.
 
 
 ```C++
@@ -41,14 +45,14 @@ ClusterResourceTypeControl(
 
 ## Parameters
 
-The following control code function and DLL support parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) or [**ResourceTypeControl**](resourcetypecontrol.md).
+The following control code function and DLL support parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) or [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master).
 
 <dl> <dt>
 
 *lpOutBuffer* 
 </dt> <dd>
 
-On a successful return, contains a **DWORD** bitmask describing the resource type's characteristics as one of the following values enumerated from the [**CLUS\_CHARACTERISTICS**](clus-characteristics.md) enumeration.
+On a successful return, contains a **DWORD** bitmask describing the resource type's characteristics as one of the following values enumerated from the [**CLUS\_CHARACTERISTICS**](/windows/previous-versions/ClusAPI/ne-clusapi-clus_characteristics?branch=master) enumeration.
 
 <dt>
 
@@ -109,7 +113,7 @@ Only one instance of this resource type is allowed in a group.
 
 ## Return value
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) returns one of the following values.
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -142,17 +146,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_GET\_CHARACTERISTICS a
 
 | Component      | Bit location | Value                                             |
 |----------------|--------------|---------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>            |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>             |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>         |
 | Type bit       | 20           | External (0x0)<br/>                         |
-| Operation code | 0–23         | **CLCTL\_GET\_CHARACTERISTICS** (0x5)<br/>  |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
+| Operation code | 0 23         | **CLCTL\_GET\_CHARACTERISTICS** (0x5)<br/>  |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
@@ -160,7 +164,7 @@ Optional. If you do not support the control code, return **ERROR\_INVALID\_FUNCT
 
 If you do support CLUSCTL\_RESOURCE\_TYPE\_GET\_CHARACTERISTICS, return a value that accurately describes the [resources](resources.md) supported by the resource type. For more information, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](clusctl-resource-get-characteristics.md).
 
-For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) entry point function, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
+For more information on the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point function, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
 
 ## Requirements
 
@@ -169,7 +173,7 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -181,18 +185,18 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 [External Resource Type Control Codes](external-resource-type-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> <dt>
 
-[**CLUS\_CHARACTERISTICS**](clus-characteristics.md)
+[**CLUS\_CHARACTERISTICS**](/windows/previous-versions/ClusAPI/ne-clusapi-clus_characteristics?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

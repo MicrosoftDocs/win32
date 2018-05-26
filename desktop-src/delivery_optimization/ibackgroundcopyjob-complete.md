@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob Complete method
 description: Ends the job and saves the transferred files on the client.
-ms.assetid: 'A3706DBA-C44E-4F7A-A787-62FB436706FC'
-keywords: ["Complete method", "Complete method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, Complete method"]
+ms.assetid: A3706DBA-C44E-4F7A-A787-62FB436706FC
+keywords:
+- Complete method
+- Complete method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, Complete method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::Complete method
@@ -43,7 +51,7 @@ This method returns the following **HRESULT** values. The method can also return
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +63,7 @@ For download jobs, you can call the **Complete** method at anytime during the tr
 
 For upload jobs, you can call the **Complete** method only when the job's state is **BG\_JOB\_STATE\_TRANSFERRED**.
 
-The owner of the file is the user who made the call. For example, if an administrator completes someone else's job, the administrator—not the owner of the job—owns the file.
+The owner of the file is the user who made the call. For example, if an administrator completes someone else's job, the administrator not the owner of the job owns the file.
 
 ## Requirements
 
@@ -63,7 +71,7 @@ The owner of the file is the user who made the call. For example, if an administ
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -86,9 +94,9 @@ The owner of the file is the user who made the call. For example, if an administ
 [**IBackgroundCopyJob::GetState**](ibackgroundcopyjob-getstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

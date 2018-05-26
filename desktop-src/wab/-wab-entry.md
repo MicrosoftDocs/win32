@@ -1,8 +1,15 @@
 ---
 title: Windows Address Book
 description: This section contains the reference for the WAB \ 160;API, as well as several overview articles that describe some techniques for programming an address book.
-ms.assetid: '19971b88-b9b9-4e01-898f-456b50798649'
-keywords: ["WAB", "Address Book"]
+ms.assetid: 19971b88-b9b9-4e01-898f-456b50798649
+keywords:
+- WAB
+- Address Book
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Address Book

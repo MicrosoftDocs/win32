@@ -4,17 +4,21 @@ description: Properties used for the authentication process.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '3922C2A6-FD40-45FB-BC76-3698C17F421D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 3922C2A6-FD40-45FB-BC76-3698C17F421D
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSAuthenticationParameters class"]
+keywords:
+- MSAuthenticationParameters class
 topic_type:
 - apiref
 api_name:
 - MSAuthenticationParameters class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSAuthenticationParameters class
@@ -74,7 +78,7 @@ Properties used for the authentication process. See [**MSAuthenticationCallback*
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -90,15 +94,15 @@ MSAuthenticationParameters.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

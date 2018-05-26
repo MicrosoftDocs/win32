@@ -1,7 +1,12 @@
 ---
-Description: 'The expert implements the DllMain function. The operating system calls DllMain to obtain a handle to an instance of the expert.'
-ms.assetid: '38593ba0-dc37-4620-bb49-2e50c3d9ea3c'
+Description: The expert implements the DllMain function. The operating system calls DllMain to obtain a handle to an instance of the expert.
+ms.assetid: 38593ba0-dc37-4620-bb49-2e50c3d9ea3c
 title: DllMain Expert callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DllMain Expert callback function
@@ -13,9 +18,9 @@ The expert implements the [**DllMain**](https://msdn.microsoft.com/library/windo
 
 ```C++
 BOOL WINAPI DllMain(
-  _Out_ HINSTANCE hInstance,
-  _In_  ULONG     ulReason,
-        LPVOID    Reserved
+  _Out_ HINSTANCE hInstance,
+  _In_  ULONG     ulReason,
+        LPVOID    Reserved
 );
 ```
 
@@ -68,15 +73,15 @@ The **DllMain** expert function is based on the dynamic link library [**DllMain*
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Process.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

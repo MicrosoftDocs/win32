@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the name of the tablet stylus.'
-ms.assetid: '94955c04-f699-428b-b4bf-53919b61b1ab'
-title: 'ITabletCursor::GetName method'
+Description: Retrieves the name of the tablet stylus.
+ms.assetid: 94955c04-f699-428b-b4bf-53919b61b1ab
+title: ITabletCursorGetName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursor::GetName method
@@ -13,7 +18,7 @@ Retrieves the name of the tablet stylus.
 
 ```C++
 HRESULT GetName(
-  [out] LPWSTR *ppwszName
+  [out] LPWSTR *ppwszName
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ It is the caller's responsibility to free the memory returned from this method b
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -71,9 +76,9 @@ It is the caller's responsibility to free the memory returned from this method b
 [**ITabletCursorButton Interface**](itabletcursorbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

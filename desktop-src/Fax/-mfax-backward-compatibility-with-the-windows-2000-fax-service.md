@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service continues to support the Fax Service Client API for Windows 2000.'
-ms.assetid: '1caf39a0-207d-4be5-b3ae-d595a86f7734'
+Description: The fax service continues to support the Fax Service Client API for Windows 2000.
+ms.assetid: 1caf39a0-207d-4be5-b3ae-d595a86f7734
 title: Backward Compatibility with the Windows 2000 Fax Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backward Compatibility with the Windows 2000 Fax Service

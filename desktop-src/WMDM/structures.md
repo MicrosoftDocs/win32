@@ -1,8 +1,17 @@
 ---
 title: Structures
 description: Structures
-ms.assetid: '3068359f-5ac0-41e0-a09b-283b439527a0'
-keywords: ["Windows Media Device Manager,structures", "Device Manager,structures", "programming reference,structures", "reference for Windows Media Device Manager,structures"]
+ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
+keywords:
+- Windows Media Device Manager,structures
+- Device Manager,structures
+- programming reference,structures
+- reference for Windows Media Device Manager,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures
@@ -14,8 +23,8 @@ Windows Media Device Manager defines the following structures.
 | Structure                                                   | Description                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_BITMAPINFOHEADER**](-bitmapinfoheader.md)             | Defines the format of video frame.                                                                                                                                                                                                                       |
-| [**MTP\_COMMAND\_DATA\_IN**](mtp-command-data-in.md)       | Contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the [**IWMDMDevice3::DeviceIoControl**](iwmdmdevice3-deviceiocontrol.md) method.                                                                           |
-| [**MTP\_COMMAND\_DATA\_OUT**](mtp-command-data-out.md)     | Contains Media Transport Protocol (MTP) responses that are filled by the device driver.                                                                                                                                                                  |
+| [**MTP\_COMMAND\_DATA\_IN**](/windows/win32/MtpExt/ns-mtpext-_mtp_command_data_in?branch=master)       | Contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the [**IWMDMDevice3::DeviceIoControl**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol?branch=master) method.                                                                           |
+| [**MTP\_COMMAND\_DATA\_OUT**](/windows/win32/MtpExt/ns-mtpext-_mtp_command_data_out?branch=master)     | Contains Media Transport Protocol (MTP) responses that are filled by the device driver.                                                                                                                                                                  |
 | [**OPAQUECOMMAND**](opaquecommand.md)                      | Contains data for commands that are passed through Windows Media Device Manager to a device but are not intended to be acted upon by Windows Media Device Manager.                                                                                       |
 | [**\_VIDEOINFOHEADER**](-videoinfoheader.md)               | Defines the format of a video stream.                                                                                                                                                                                                                    |
 | [**\_WAVEFORMATEX**](-waveformatex.md)                     | Defines the format of waveform-audio data.                                                                                                                                                                                                               |

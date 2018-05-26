@@ -1,8 +1,11 @@
 ---
 title: IMediaTransform get\_MediaType method
 description: The get\_MediaType method enables your transform to report the media type that it can handle.
-ms.assetid: '3ef6d273-8460-42d8-8bbb-d6b0fa68276c'
-keywords: ["get_MediaType method Windows Movie Maker and DVD Maker", "get_MediaType method Windows Movie Maker and DVD Maker , IMediaTransform interface", "IMediaTransform interface Windows Movie Maker and DVD Maker , get_MediaType method"]
+ms.assetid: 3ef6d273-8460-42d8-8bbb-d6b0fa68276c
+keywords:
+- get_MediaType method Windows Movie Maker and DVD Maker
+- get_MediaType method Windows Movie Maker and DVD Maker , IMediaTransform interface
+- IMediaTransform interface Windows Movie Maker and DVD Maker , get_MediaType method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaTransform::get\_MediaType method
@@ -25,7 +33,7 @@ The **get\_MediaType** method enables your transform to report the media type th
 
 ```C++
 HRESULT get_MediaType(
-  [out] MEDIA_FORMAT_TYPE *pfType
+  [out] MEDIA_FORMAT_TYPE *pfType
 );
 ```
 
@@ -52,8 +60,8 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -66,9 +74,9 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 [**IMediaTransform Interface**](imediatransform.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

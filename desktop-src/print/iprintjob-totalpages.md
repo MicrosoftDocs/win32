@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the total number of pages that the document contains.'
-ms.assetid: '1035337F-2EDD-4538-AF39-3828B6DE424B'
-title: 'IPrintJob::TotalPages property'
+---
+Description: Gets the total number of pages that the document contains.
+ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
+title: IPrintJobTotalPages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::TotalPages property

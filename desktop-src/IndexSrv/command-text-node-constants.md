@@ -1,7 +1,12 @@
 ---
 title: Command-Text Node Constants
 description: Command-Text Node Constants
-ms.assetid: 'f13c22a8-27d6-4dd2-a65c-c6db2068731b'
+ms.assetid: f13c22a8-27d6-4dd2-a65c-c6db2068731b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command-Text Node Constants

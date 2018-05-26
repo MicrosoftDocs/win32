@@ -4,10 +4,13 @@ description: Internet Authentication Service (IAS) was renamed Network Policy Se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c7c6d1a3-d0c8-469e-ae1e-a848ef7fee2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: c7c6d1a3-d0c8-469e-ae1e-a848ef7fee2b
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Internet Authentication Service and Network Policy Server
@@ -24,7 +27,7 @@ See [TechNet: Internet Authentication Service](http://go.microsoft.com/fwlink/p/
 
 ## Network Policy Server
 
-Network Policy Server is the Microsoft implementation of a RADIUS server and proxy and it is available on Windows servers starting with Windows Server 2008.
+Network Policy Server is the Microsoft implementation of a RADIUS server and proxy and it is available on Windows servers starting with Windows Server 2008.
 
 NPS supports the same two API sets as IAS: [Network Policy Server Extensions API](ias-extensions.md) and [Server Data Objects API](server-data-objects.md).
 
@@ -104,7 +107,7 @@ NPS, through NAP, interoperates with CISCO NAC.<br/> IAS does not support NAP.<b
 
 
 
- 
+ 
 
 See [TechNet: Network Policy Server](http://go.microsoft.com/fwlink/p/?linkid=100577) for more information on NPS.
 
@@ -121,9 +124,9 @@ See [TechNet: Network Policy Server](http://go.microsoft.com/fwlink/p/?linkid=10
 [Working with a State Server](https://msdn.microsoft.com/library/bb892032)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

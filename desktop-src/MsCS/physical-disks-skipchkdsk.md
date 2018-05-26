@@ -4,17 +4,22 @@ description: Determines whether the operating system runs chkdsk on a physical d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ec711e63-2c94-4afe-ab34-52dec9b320a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ec711e63-2c94-4afe-ab34-52dec9b320a6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SkipChkdsk Failover Cluster ,for physical disks", "SkipChkdsk Failover Cluster"]
+keywords:
+- SkipChkdsk Failover Cluster ,for physical disks
+- SkipChkdsk Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SkipChkdsk
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SkipChkdsk
@@ -30,14 +35,14 @@ Determines whether the operating system runs chkdsk on a physical disk before at
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE** (run Chkdsk)                    |
 | Maximum   | **TRUE** (skip Chkdsk)                    |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +59,7 @@ Setting **SkipChkdsk** to **TRUE** causes the operating system to mount the disk
 
 
 
- 
+ 
 
 Forcing a disk to mount despite errors can result in loss of data. Use caution when changing these properties.
 
@@ -81,8 +86,8 @@ SkipChkdskValue.dw        = SkipChkdskData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -96,9 +101,9 @@ SkipChkdskValue.dw        = SkipChkdskData;
 [**ConditionalMount**](physical-disks-conditionalmount.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

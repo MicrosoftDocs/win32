@@ -4,17 +4,21 @@ description: The CF\_EV\_SCOPE clipboard format returns settings information, su
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac1737f9-773e-4132-918e-c2fbfdd2953d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ac1737f9-773e-4132-918e-c2fbfdd2953d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CF_EV_SCOPE clipboard format MMC"]
+keywords:
+- CF_EV_SCOPE clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CF_EV_SCOPE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CF\_EV\_SCOPE clipboard format

@@ -1,8 +1,18 @@
 ---
 title: About Compatibility
 description: About Compatibility
-ms.assetid: 'fab38760-0165-4c82-b921-263761f607e6'
-keywords: ["Windows Media Player Mobile,skins", "Windows Media Player Mobile skins,device compatibility", "versions of Windows Media Player Mobile", "compatibility,skins in Windows Media Player Mobile", "skins,Windows Media Player Mobile"]
+ms.assetid: fab38760-0165-4c82-b921-263761f607e6
+keywords:
+- Windows Media Player Mobile,skins
+- Windows Media Player Mobile skins,device compatibility
+- versions of Windows Media Player Mobile
+- compatibility,skins in Windows Media Player Mobile
+- skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Compatibility
@@ -26,7 +36,7 @@ The following table details compatibility of Windows Media Player Mobile with va
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +45,9 @@ The following table details compatibility of Windows Media Player Mobile with va
 [**About Skins**](about-skins-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

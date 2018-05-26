@@ -1,14 +1,18 @@
 ---
 title: Getting Information with Control Codes
-description: Control codes that get information from the cluster use the control code function's output buffer in which to return data. Although the nature of the returned data can vary, the same set of procedures apply.
+description: Control codes that get information from the cluster use the control code functions output buffer in which to return data. Although the nature of the returned data can vary, the same set of procedures apply.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1611745e-b8db-4b4b-9a12-1812591e01ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1611745e-b8db-4b4b-9a12-1812591e01ac
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,retrieving information"]
+keywords:
+- control codes Failover Cluster ,retrieving information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Information with Control Codes

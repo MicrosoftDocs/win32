@@ -4,11 +4,16 @@ description: This topic discusses the Domain object property sheets in the Activ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ab39977-97fa-4bff-b54d-015d7e365212'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4ab39977-97fa-4bff-b54d-015d7e365212
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Domain Object User Interface Mapping Active Directory", "Interface Mapping Active Directory , Domain Object User"]
+keywords:
+- Domain Object User Interface Mapping Active Directory
+- Interface Mapping Active Directory , Domain Object User
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Domain Object User Interface Mapping

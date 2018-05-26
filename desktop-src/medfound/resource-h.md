@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains resource definitions for the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: '6eeee05d-0f19-4417-a7b9-34ec2243e366'
-title: 'resource.h'
+Description: This topic contains resource definitions for the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: 6eeee05d-0f19-4417-a7b9-34ec2243e366
+title: resource.h
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # resource.h

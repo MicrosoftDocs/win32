@@ -1,8 +1,9 @@
 ---
 title: TVN\_ITEMEXPANDING notification code
-description: Notifies a tree-view control's parent window that a parent item's list of child items is about to expand or collapse. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec'
-keywords: ["TVN_ITEMEXPANDING notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that a parent items list of child items is about to expand or collapse. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 5ce256df-49e5-4fbf-9cdc-79dd2edbd8ec
+keywords:
+- TVN_ITEMEXPANDING notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_ITEMEXPANDING notification code
@@ -35,7 +41,7 @@ TVN_ITEMEXPANDING
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure. The **itemNew** member is a [**TVITEM**](tvitem.md) structure that contains valid information about the parent item in the **hItem**, **state**, and **lParam** members. The **action** member indicates whether the list is to expand or collapse. For a list of possible values, see the description of the [**TVM\_EXPAND**](tvm-expand.md) message.
+Pointer to an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure. The **itemNew** member is a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure that contains valid information about the parent item in the **hItem**, **state**, and **lParam** members. The **action** member indicates whether the list is to expand or collapse. For a list of possible values, see the description of the [**TVM\_EXPAND**](tvm-expand.md) message.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ Returns **TRUE** to prevent the list from expanding or collapsing.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_ITEMEXPANDINGW** (Unicode) and **TVN\_ITEMEXPANDINGA** (ANSI)<br/>       |
 
@@ -63,9 +69,9 @@ Returns **TRUE** to prevent the list from expanding or collapsing.
 [TVN\_ITEMEXPANDED](tvn-itemexpanded.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

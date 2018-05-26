@@ -1,7 +1,12 @@
 ---
-Description: 'A unique value used as a key to cache thumbnails.'
-ms.assetid: '86f9f995-4de3-4e90-a507-a886ccff80c4'
-title: 'System.ThumbnailCacheId'
+Description: A unique value used as a key to cache thumbnails.
+ms.assetid: 86f9f995-4de3-4e90-a507-a886ccff80c4
+title: System.ThumbnailCacheId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ThumbnailCacheId

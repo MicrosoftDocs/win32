@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the error.'
-ms.assetid: '785b83c4-06f4-46b5-81f7-35c6fce16c92'
-title: 'GetError method of the Msvm\_StorageJob class'
+Description: Retrieves the error.
+ms.assetid: 785b83c4-06f4-46b5-81f7-35c6fce16c92
+title: GetError method of the Msvm\_StorageJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the Msvm\_StorageJob class
@@ -13,7 +18,7 @@ Retrieves the error.
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -78,8 +83,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ This method returns one of the following values:
 [**Msvm\_StorageJob**](msvm-storagejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

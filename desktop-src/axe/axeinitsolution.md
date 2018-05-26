@@ -1,8 +1,9 @@
 ---
 title: AxeInitSolution function
 description: Initializes the solution portion of the AXE core and instantiates the Solution interface.
-ms.assetid: 'B4144705-9AF8-4A0C-8D21-AFCE729DBA3B'
-keywords: ["AxeInitSolution function Access Execution Engine"]
+ms.assetid: B4144705-9AF8-4A0C-8D21-AFCE729DBA3B
+keywords:
+- AxeInitSolution function Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxeInitSolution function
@@ -22,8 +28,8 @@ Initializes the solution portion of the AXE core and instantiates the [**Solutio
 
 ```C++
 HRESULT AxeInitSolution(
-  _Inout_opt_ Microsoft::Assessments::Hosting::SolutionParameters *pParams,
-  _Out_opt_   Microsoft::Assessments::Hosting::Solution           **ppSolution
+  _Inout_opt_ Microsoft::Assessments::Hosting::SolutionParameters *pParams,
+  _Out_opt_   Microsoft::Assessments::Hosting::Solution           **ppSolution
 );
 ```
 
@@ -67,16 +73,16 @@ Managed code uses [**Solution::Initialize methods**](https://msdn.microsoft.com/
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

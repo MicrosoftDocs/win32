@@ -1,12 +1,17 @@
-﻿---
-Description: 'The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as an array of Record objects.'
-ms.assetid: '9ea7c9a8-4ff1-4b26-a8d5-c23510650566'
-title: 'Product.MediaDisks property'
+---
+Description: The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as an array of Record objects.
+ms.assetid: 9ea7c9a8-4ff1-4b26-a8d5-c23510650566
+title: Product.MediaDisks property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.MediaDisks property
 
-The **MediaDisks** property enumerates all the media disks for this product instance. This property calls the [**MsiSourceListEnumMediaDisks**](msisourcelistenummediadisks.md). Returns the disk information as an array of [**Record**](record-object.md) objects.
+The **MediaDisks** property enumerates all the media disks for this product instance. This property calls the [**MsiSourceListEnumMediaDisks**](/windows/win32/Msi/nf-msi-msisourcelistenummediadisksa?branch=master). Returns the disk information as an array of [**Record**](record-object.md) objects.
 
 This property is read-only.
 
@@ -44,7 +49,7 @@ In each record, the first field contains the disk Id, the second field contains 
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListEnumMediaDisks**](msisourcelistenummediadisks.md)
+[**MsiSourceListEnumMediaDisks**](/windows/win32/Msi/nf-msi-msisourcelistenummediadisksa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

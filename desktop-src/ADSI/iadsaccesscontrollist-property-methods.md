@@ -4,11 +4,12 @@ description: The property methods of the IADsAccessControlList interface get or 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cb68bb61-4216-4f69-bea1-ab7f98937a27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cb68bb61-4216-4f69-bea1-ab7f98937a27
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsAccessControlList Property Methods ADSI"]
+keywords:
+- IADsAccessControlList Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -23,11 +24,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsAccessControlList Property Methods
 
-The property methods of the [**IADsAccessControlList**](iadsaccesscontrollist.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -89,7 +93,7 @@ HRESULT put_AclRevision(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -200,8 +204,8 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>  |
 | IID<br/>                      | IID\_IADsAccessControlList is defined as B7EE91CC-9BDD-11D0-852C-00C04FD8D503<br/> |
@@ -212,21 +216,21 @@ HRESULT ShowACEInACL(LPWSTR guestPath,LPWSTR user,LPWSTR passwd)
 
 <dl> <dt>
 
-[**IADsAccessControlList**](iadsaccesscontrollist.md)
+[**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master)
 </dt> <dt>
 
 [**IEnumVARIANT**](139e3c93-faef-4003-9079-e0e94494db3e)
 </dt> <dt>
 
-[**IADsAccessControlEntry**](iadsaccesscontrolentry.md)
+[**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)
 </dt> <dt>
 
-[**IADsSecurityDescriptor**](iadssecuritydescriptor.md)
+[**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

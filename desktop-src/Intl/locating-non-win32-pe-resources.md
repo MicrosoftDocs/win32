@@ -1,14 +1,19 @@
 ---
-Description: 'Locating Non-Win32 PE Resources'
-ms.assetid: '12f0b78e-ca85-443a-94ea-6bec5aa40c06'
-title: 'Locating Non-Win32 PE Resources'
+Description: Locating Non-Win32 PE Resources
+ms.assetid: 12f0b78e-ca85-443a-94ea-6bec5aa40c06
+title: Locating Non-Win32 PE Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locating Non-Win32 PE Resources
 
-To locate non-Win32 PE resources, your application should first call the [**GetFileMUIPath**](getfilemuipath.md) function to locate the language-specific resource file from which to load resources. If the application is following system language settings, it must call the function with MUI\_LANGUAGE\_NAME \| MUI\_USER\_PREFERRED\_UI\_LANGUAGES specified for *dwFlags* and **NULL** specified for *pwszLanguage*. If the application is following application-specific language settings, it uses **GetFileMUIPath** to determine if a language-specific file exists by specifying the language in the *pwszLanguage* parameter.
+To locate non-Win32 PE resources, your application should first call the [**GetFileMUIPath**](/windows/win32/Winnls/nf-winnls-getfilemuipath?branch=master) function to locate the language-specific resource file from which to load resources. If the application is following system language settings, it must call the function with MUI\_LANGUAGE\_NAME \| MUI\_USER\_PREFERRED\_UI\_LANGUAGES specified for *dwFlags* and **NULL** specified for *pwszLanguage*. If the application is following application-specific language settings, it uses **GetFileMUIPath** to determine if a language-specific file exists by specifying the language in the *pwszLanguage* parameter.
 
-After the call to [**GetFileMUIPath**](getfilemuipath.md), the application must define custom functionality to load the resource module and load specific resources from it. For example, if you are using a .txt or .xml resource file, the application must use a TXT or XML parser to load the file and then parse the contents of the file for each required resource.
+After the call to [**GetFileMUIPath**](/windows/win32/Winnls/nf-winnls-getfilemuipath?branch=master), the application must define custom functionality to load the resource module and load specific resources from it. For example, if you are using a .txt or .xml resource file, the application must use a TXT or XML parser to load the file and then parse the contents of the file for each required resource.
 
 ## Related topics
 
@@ -17,7 +22,7 @@ After the call to [**GetFileMUIPath**](getfilemuipath.md), the application must 
 [Using Multilingual User Interface](using-multilingual-user-interface.md)
 </dt> <dt>
 
-[**GetFileMUIPath**](getfilemuipath.md)
+[**GetFileMUIPath**](/windows/win32/Winnls/nf-winnls-getfilemuipath?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'eed6c566-8a03-4a97-9d99-8e500ce2954c'
-title: 'CAMThread.~CAMThread destructor'
+Description: Destructor method.
+ms.assetid: eed6c566-8a03-4a97-9d99-8e500ce2954c
+title: CAMThread.~CAMThread destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.~CAMThread destructor
@@ -39,9 +44,9 @@ The destructor calls the [**CAMThread::Close**](camthread-close.md) method, whic
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

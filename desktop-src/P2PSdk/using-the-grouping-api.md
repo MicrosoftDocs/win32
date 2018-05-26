@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains illustrative code snippets and samples for common scenarios encountered when developing applications with the Peer Grouping APIs.'
-ms.assetid: '6c153111-f74d-4e9c-baa6-d8bbbee73a7f'
+Description: This topic contains illustrative code snippets and samples for common scenarios encountered when developing applications with the Peer Grouping APIs.
+ms.assetid: 6c153111-f74d-4e9c-baa6-d8bbbee73a7f
 title: Using the Grouping API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Grouping API

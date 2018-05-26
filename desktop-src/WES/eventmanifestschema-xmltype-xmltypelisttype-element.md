@@ -1,14 +1,20 @@
 ---
 title: xmlType (XmlTypeListType) Element
 description: Defines an XML type.
-ms.assetid: '4443963f-f47a-4371-87d8-58f508ba15d6'
-keywords: ["xmlType element EventLog"]
+ms.assetid: 4443963f-f47a-4371-87d8-58f508ba15d6
+keywords:
+- xmlType element EventLog
 topic_type:
 - apiref
 api_name:
 - xmlType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # xmlType (XmlTypeListType) Element
@@ -60,8 +66,8 @@ The **xmlType** element is defined by the [**XmlTypeListType**](eventmanifestsch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -75,9 +81,9 @@ The **xmlType** element is defined by the [**XmlTypeListType**](eventmanifestsch
 [**xmlTypes (TypeListType)**](eventmanifestschema-xmltypes-typelisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The UnsetPalette method deletes the window''s current palette and restores the default system palette.'
-ms.assetid: '9518aaa5-3c1b-409b-bb27-a698c47c4a24'
-title: 'CBaseWindow.UnsetPalette method'
+Description: The UnsetPalette method deletes the windows current palette and restores the default system palette.
+ms.assetid: 9518aaa5-3c1b-409b-bb27-a698c47c4a24
+title: CBaseWindow.UnsetPalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.UnsetPalette method
@@ -43,9 +48,9 @@ This method does not return a value.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

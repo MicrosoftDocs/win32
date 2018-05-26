@@ -1,14 +1,19 @@
-﻿---
-Description: 'Contains the response to a D3DAUTHENTICATEDQUERY\_PROTECTION query.'
-ms.assetid: 'eb99089a-5e8e-4970-9c40-7f6a9662b5ec'
-title: 'D3DAUTHENTICATEDCHANNEL\_QUERYPROTECTION\_OUTPUT structure'
+---
+Description: Contains the response to a D3DAUTHENTICATEDQUERY\_PROTECTION query.
+ms.assetid: eb99089a-5e8e-4970-9c40-7f6a9662b5ec
+title: D3DAUTHENTICATEDCHANNEL\_QUERYPROTECTION\_OUTPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERYPROTECTION\_OUTPUT structure
 
 Contains the response to a [**D3DAUTHENTICATEDQUERY\_PROTECTION**](d3dauthenticatedquery-protection.md) query.
 
-To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md).
+To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master).
 
 ## Syntax
 
@@ -59,7 +64,7 @@ A [**D3DAUTHENTICATEDCHANNEL\_PROTECTION\_FLAGS**](d3dauthenticatedchannel-prote
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,20 @@ description: You can use the Failover Cluster Automation Server APIs to manage o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '958dee2a-13e2-433f-b314-d62d1eb7183e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 958dee2a-13e2-433f-b314-d62d1eb7183e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster APIs Failover Cluster ,using Failover Cluster Automation Server", "Windows Failover Clustering Failover Cluster ,Failover Cluster APIs,using Failover Cluster Automation Server", "Failover Cluster Automation Server Failover Cluster ,using", "Failover Cluster APIs Failover Cluster ,using Cluster Automation Server", "Windows Clustering Failover Cluster ,Failover Cluster APIs,using Cluster Automation Server", "Cluster Automation Server Failover Cluster ,using"]
+keywords:
+- Failover Cluster APIs Failover Cluster ,using Failover Cluster Automation Server
+- Windows Failover Clustering Failover Cluster ,Failover Cluster APIs,using Failover Cluster Automation Server
+- Failover Cluster Automation Server Failover Cluster ,using
+- Failover Cluster APIs Failover Cluster ,using Cluster Automation Server
+- Windows Clustering Failover Cluster ,Failover Cluster APIs,using Cluster Automation Server
+- Cluster Automation Server Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Failover Cluster Automation Server

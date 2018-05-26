@@ -1,7 +1,12 @@
 ---
-Description: 'Description of using active accessibility to expose custom controls for the Tablet PC.'
-ms.assetid: '1557bde2-c382-4259-ae0c-a70902fa91bd'
+Description: Description of using active accessibility to expose custom controls for the Tablet PC.
+ms.assetid: 1557bde2-c382-4259-ae0c-a70902fa91bd
 title: Using Active Accessibility to Expose Custom Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Active Accessibility to Expose Custom Controls

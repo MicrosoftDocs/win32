@@ -1,8 +1,9 @@
 ---
 title: D3DX11CompileFromMemory function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the D3DCompile API. Compile a shader or an effect that is loaded in memory.
-ms.assetid: '3396560f-f411-4c66-9f22-03c0050c74b0'
-keywords: ["D3DX11CompileFromMemory function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the D3DCompile API. Compile a shader or an effect that is loaded in memory.
+ms.assetid: 3396560f-f411-4c66-9f22-03c0050c74b0
+keywords:
+- D3DX11CompileFromMemory function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11CompileFromMemory function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use one of the HLSL compile APIs, like the [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324) API.
 
- 
+ 
 
 Compile a shader or an effect that is loaded in memory.
 
@@ -33,19 +39,19 @@ Compile a shader or an effect that is loaded in memory.
 
 ```C++
 HRESULT D3DX11CompileFromMemory(
-  _In_        LPCSTR             pSrcData,
-  _In_        SIZE_T             SrcDataLen,
-  _In_        LPCSTR             pFileName,
-  _In_  const D3D10_SHADER_MACRO *pDefines,
-  _In_        LPD3D10INCLUDE     pInclude,
-  _In_        LPCSTR             pFunctionName,
-  _In_        LPCSTR             pProfile,
-  _In_        UINT               Flags1,
-  _In_        UINT               Flags2,
-  _In_        ID3DX11ThreadPump  *pPump,
-  _Out_       ID3D10Blob         **ppShader,
-  _Out_       ID3D10Blob         **ppErrorMsgs,
-  _Out_       HRESULT            *pHResult
+  _In_        LPCSTR             pSrcData,
+  _In_        SIZE_T             SrcDataLen,
+  _In_        LPCSTR             pFileName,
+  _In_  const D3D10_SHADER_MACRO *pDefines,
+  _In_        LPD3D10INCLUDE     pInclude,
+  _In_        LPCSTR             pFunctionName,
+  _In_        LPCSTR             pProfile,
+  _In_        UINT               Flags1,
+  _In_        UINT               Flags2,
+  _In_        ID3DX11ThreadPump  *pPump,
+  _Out_       ID3D10Blob         **ppShader,
+  _Out_       ID3D10Blob         **ppErrorMsgs,
+  _Out_       HRESULT            *pHResult
 );
 ```
 
@@ -184,15 +190,15 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 
 For more information about **D3DX11CompileFromMemory**, see [**D3DCompile**](https://msdn.microsoft.com/library/windows/desktop/dd607324).
 
-You must supply **NULL** to the *pHResult* parameter if you also supply **NULL** to the *pPump* parameter. Otherwise, you cannot subsequently create a shader by using the compiled shader code that **D3DX11CompileFromMemory** returns in the memory that the *ppShader* parameter points to. To create a shader from complied shader code, you call one of the following [**ID3D11Device**](id3d11device.md) interface methods:
+You must supply **NULL** to the *pHResult* parameter if you also supply **NULL** to the *pPump* parameter. Otherwise, you cannot subsequently create a shader by using the compiled shader code that **D3DX11CompileFromMemory** returns in the memory that the *ppShader* parameter points to. To create a shader from complied shader code, you call one of the following [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) interface methods:
 
--   [**CreateComputeShader**](id3d11device-createcomputeshader.md)
--   [**CreateDomainShader**](id3d11device-createdomainshader.md)
--   [**CreateGeometryShader**](id3d11device-creategeometryshader.md)
--   [**CreateGeometryShaderWithStreamOutput**](id3d11device-creategeometryshaderwithstreamoutput.md)
--   [**CreateHullShader**](id3d11device-createhullshader.md)
--   [**CreatePixelShader**](id3d11device-createpixelshader.md)
--   [**CreateVertexShader**](id3d11device-createvertexshader.md)
+-   [**CreateComputeShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createcomputeshader?branch=master)
+-   [**CreateDomainShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createdomainshader?branch=master)
+-   [**CreateGeometryShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-creategeometryshader?branch=master)
+-   [**CreateGeometryShaderWithStreamOutput**](/windows/win32/D3D11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput?branch=master)
+-   [**CreateHullShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createhullshader?branch=master)
+-   [**CreatePixelShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createpixelshader?branch=master)
+-   [**CreateVertexShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createvertexshader?branch=master)
 
 In addition, if you supply a non-**NULL** value to *pHResult* when you supply **NULL** to *pPump*, **D3DX11CompileFromMemory** returns the E\_INVALIDARG error code.
 
@@ -214,9 +220,9 @@ In addition, if you supply a non-**NULL** value to *pHResult* when you supply **
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

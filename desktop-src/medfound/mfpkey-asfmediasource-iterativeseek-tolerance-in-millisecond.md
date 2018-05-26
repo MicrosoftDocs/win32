@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the tolerance, in milliseconds, that is used when the ASF media source performs iterative seeking.'
-ms.assetid: '3ee4410f-857c-4978-a308-87decfba0e2f'
-title: 'MFPKEY\_ASFMediaSource\_IterativeSeek\_Tolerance\_In\_MilliSecond property'
+---
+Description: Sets the tolerance, in milliseconds, that is used when the ASF media source performs iterative seeking.
+ms.assetid: 3ee4410f-857c-4978-a308-87decfba0e2f
+title: MFPKEY\_ASFMediaSource\_IterativeSeek\_Tolerance\_In\_MilliSecond property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_ASFMediaSource\_IterativeSeek\_Tolerance\_In\_MilliSecond property

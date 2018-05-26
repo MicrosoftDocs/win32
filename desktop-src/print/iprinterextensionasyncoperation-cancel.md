@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cancels the asynchronous operation.'
-ms.assetid: 'B5E1F3C4-A131-411B-BBAB-6E8B69433E13'
-title: 'IPrinterExtensionAsyncOperation::Cancel method'
+---
+Description: Cancels the asynchronous operation.
+ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
+title: IPrinterExtensionAsyncOperationCancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionAsyncOperation::Cancel method

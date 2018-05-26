@@ -1,7 +1,12 @@
 ---
-Description: 'There are two ways to implement multitasking: as a single process with multiple threads or as multiple processes, each with one or more threads.'
-ms.assetid: 'ac0a8163-1498-4274-acfc-6a36b4c02a27'
+Description: There are two ways to implement multitasking as a single process with multiple threads or as multiple processes, each with one or more threads.
+ms.assetid: ac0a8163-1498-4274-acfc-6a36b4c02a27
 title: When to Use Multitasking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # When to Use Multitasking

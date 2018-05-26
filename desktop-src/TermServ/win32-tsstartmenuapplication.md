@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSStartMenuApplication class
-description: Describes the applications that are on the Start menu of a Remote Desktop Session Host (RD Session Host) server.
+description: Describes the applications that are on the Start menu of a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88b412b8-139f-4266-b7d8-c34f93940a72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 88b412b8-139f-4266-b7d8-c34f93940a72
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSStartMenuApplication class Remote Desktop Services", "Win32_TSStartMenuApplication class Remote Desktop Services , described"]
+keywords:
+- Win32_TSStartMenuApplication class Remote Desktop Services
+- Win32_TSStartMenuApplication class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -27,27 +29,30 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSStartMenuApplication class
 
-Describes the applications that are on the Start menu of a Remote Desktop Session Host (RD Session Host) server.
+Describes the applications that are on the Start menu of a Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 ``` syntax
 class Win32_TSStartMenuApplication : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   Path;
-  string   VPath;
-  string   IconPath;
-  sint32   IconIndex;
-  string   CommandLineArguments;
+  string   Name;
+  string   Status;
+  string   Path;
+  string   VPath;
+  string   IconPath;
+  sint32   IconIndex;
+  string   CommandLineArguments;
 };
 ```
 
@@ -297,16 +302,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,20 @@ description: Cluster common properties are stored in the cluster database and ap
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '49ca52e6-7f35-457b-a00f-d33b5d029fe0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 49ca52e6-7f35-457b-a00f-d33b5d029fe0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster properties Failover Cluster", "cluster properties Failover Cluster , common", "properties Failover Cluster ,cluster properties", "properties Failover Cluster ,cluster properties, common", "clusters Failover Cluster ,properties", "clusters Failover Cluster ,properties, common"]
+keywords:
+- cluster properties Failover Cluster
+- cluster properties Failover Cluster , common
+- properties Failover Cluster ,cluster properties
+- properties Failover Cluster ,cluster properties, common
+- clusters Failover Cluster ,properties
+- clusters Failover Cluster ,properties, common
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Common Properties
@@ -222,14 +231,14 @@ Dump policy.
 |----------------------|--------------------------------------------------------------|
 | Data type<br/> | **DWORD** <br/>                                        |
 | Access<br/>    | [Read/write](read-write-properties.md) <br/>          |
-| Structure<br/> | [**CLUSPROP\_ULARGE\_INTEGER**](clusprop-ularge-integer.md) |
+| Structure<br/> | [**CLUSPROP\_ULARGE\_INTEGER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_ularge_integer?branch=master) |
 | Minimum<br/>   | 0<br/>                                                 |
 | Maximum<br/>   | 0<br/>                                                 |
 | Default<br/>   | **( DWORD\_PTR ) &ClusterDumpPolicyDefaults** <br/>    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -370,14 +379,14 @@ Specifies the quarantine duration for a node, in seconds.
 |----------------------|-------------------------------------------------------|
 | Data type<br/> | **DWORD** <br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md) <br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) <br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) <br/> |
 | Minimum<br/>   | 0<br/>                                          |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                                 |
 | Default<br/>   | 0<br/>                                          |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -420,14 +429,14 @@ Specifies the default resiliency period, in seconds, for the cluster.
 |----------------------|-------------------------------------------------------|
 | Data type<br/> | **DWORD** <br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md) <br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) <br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) <br/> |
 | Minimum<br/>   | 0<br/>                                          |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                                 |
 | Default<br/>   | 240<br/>                                        |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -442,14 +451,14 @@ Specifies the resiliency level for the cluster.
 |----------------------|-------------------------------------------------------|
 | Data type<br/> | **DWORD** <br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md) <br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) <br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) <br/> |
 | Minimum<br/>   | 1<br/>                                          |
 | Maximum<br/>   | 2<br/>                                          |
 | Default<br/>   | 1<br/>                                          |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -541,14 +550,14 @@ Enables Storage Spaces Direct (2SD).
 |----------------------|-------------------------------------------------------|
 | Data type<br/> | **DWORD** <br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md) <br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) <br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) <br/> |
 | Minimum<br/>   | 0<br/>                                          |
 | Maximum<br/>   | 1<br/>                                          |
 | Default<br/>   | 0<br/>                                          |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -681,9 +690,9 @@ specifies how long (in minutes) the system will wait before attempting to restar
 [Getting Cluster Information](getting-cluster-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The DoneWithWindow method destroys the window.'
-ms.assetid: '03c97884-7d91-4b59-b867-dda231d2a184'
-title: 'CBaseWindow.DoneWithWindow method'
+Description: The DoneWithWindow method destroys the window.
+ms.assetid: 03c97884-7d91-4b59-b867-dda231d2a184
+title: CBaseWindow.DoneWithWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.DoneWithWindow method
@@ -55,9 +60,9 @@ If the thread calling `DoneWithWindow` is not the thread that created the window
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Samples
 description: Samples
-ms.assetid: '72eaa417-d7ce-4521-9289-17f392146ec9'
-keywords: ["Windows Media Player,samples", "samples,about", "software development kit (SDK),Windows Media Player samples", "SDK (software development kit),Windows Media Player samples", "documentation,Windows Media Player SDK samples"]
+ms.assetid: 72eaa417-d7ce-4521-9289-17f392146ec9
+keywords:
+- Windows Media Player,samples
+- samples,about
+- software development kit (SDK),Windows Media Player samples
+- SDK (software development kit),Windows Media Player samples
+- documentation,Windows Media Player SDK samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Samples

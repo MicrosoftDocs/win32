@@ -1,7 +1,12 @@
-﻿---
-Description: 'Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB. This function can be used to perform X.509 Public Key Infrastructure, RFC 3161&\#8211;compliant, time stamps.'
-ms.assetid: 'fb82545b-c00f-44eb-96f4-aa27a125c8d9'
+---
+Description: Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB. This function can be used to perform X.509 Public Key Infrastructure, RFC 3161&\#8211;compliant, time stamps.
+ms.assetid: fb82545b-c00f-44eb-96f4-aa27a125c8d9
 title: SignerTimeStampEx2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignerTimeStampEx2 function
@@ -76,7 +81,7 @@ Specifies a hash algorithm to be used for performing RFC 3161–compliant time s
 *psRequest* \[in\]
 </dt> <dd>
 
-Optional. The address of a [**CRYPT\_ATTRIBUTES**](crypt-attributes.md) structure that contains additional attributes that are added to the time stamp request.
+Optional. The address of a [**CRYPT\_ATTRIBUTES**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_attributes?branch=master) structure that contains additional attributes that are added to the time stamp request.
 
 This parameter is optional and can be **NULL** if it is not included.
 

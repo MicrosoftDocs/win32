@@ -1,8 +1,20 @@
 ---
 title: Compiling the Sample Application Using Visual Studio
 description: Compiling the Sample Application Using Visual Studio
-ms.assetid: '78345cdb-5f0d-4ea8-9492-30386f5fa6ee'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "desktop applications,samples", "Windows Media Device Manager,desktop application sample", "Device Manager,desktop application sample", "samples,desktop applications", "samples,compiling using Visual Studio"]
+ms.assetid: 78345cdb-5f0d-4ea8-9492-30386f5fa6ee
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- desktop applications,samples
+- Windows Media Device Manager,desktop application sample
+- Device Manager,desktop application sample
+- samples,desktop applications
+- samples,compiling using Visual Studio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling the Sample Application Using Visual Studio

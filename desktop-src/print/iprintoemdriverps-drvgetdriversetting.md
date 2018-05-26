@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverPS::DrvGetDriverSetting method is provided by the Pscript5 driver so that rendering plug-ins can obtain the current status of printer features and other internal information.'
-ms.assetid: 'c3e9775b-a5ab-42e4-a889-a746a7243b37'
-title: 'IPrintOemDriverPS::DrvGetDriverSetting method'
+---
+Description: The IPrintOemDriverPSDrvGetDriverSetting method is provided by the Pscript5 driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
+ms.assetid: c3e9775b-a5ab-42e4-a889-a746a7243b37
+title: IPrintOemDriverPSDrvGetDriverSetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverPS::DrvGetDriverSetting method

@@ -1,7 +1,12 @@
 ---
 title: Adding Advanced Full-Text Search to a Help Project
 description: Adding Advanced Full-Text Search to a Help Project
-ms.assetid: '09DFB30E-CDFE-4523-892D-3F6C96BC847E'
+ms.assetid: 09DFB30E-CDFE-4523-892D-3F6C96BC847E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Advanced Full-Text Search to a Help Project

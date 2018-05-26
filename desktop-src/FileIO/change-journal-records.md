@@ -1,7 +1,12 @@
 ---
-Description: 'As files, directories, and other NTFS file system objects are added, deleted, and modified, the NTFS file system enters change journal records in streams, one for each volume on the computer.'
-ms.assetid: 'c41aa3a8-c8d8-4bf2-9bbb-d6a6a556c5e4'
+Description: As files, directories, and other NTFS file system objects are added, deleted, and modified, the NTFS file system enters change journal records in streams, one for each volume on the computer.
+ms.assetid: c41aa3a8-c8d8-4bf2-9bbb-d6a6a556c5e4
 title: Change Journal Records
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Change Journal Records
@@ -29,7 +34,7 @@ In this case, the NTFS file system takes the following actions in the change jou
 
 | Event                                 | NTFS file system action                                                                                                                                                                                                                                                    |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Initial write operation<br/>    | The NTFS file system writes a new USN record with the USN\_REASON\_DATA\_OVERWRITE reason flag set. For more information on possible reason flags, see the [**USN\_RECORD**](usn-record-str.md) structure.<br/>                                                     |
+| Initial write operation<br/>    | The NTFS file system writes a new USN record with the USN\_REASON\_DATA\_OVERWRITE reason flag set. For more information on possible reason flags, see the [**USN\_RECORD**](/windows/win32/WinIoCtl/ns-winioctl-usn_record_v2?branch=master) structure.<br/>                                                     |
 | Setting of file time stamp<br/> | The NTFS file system writes a new USN record with the flag setting USN\_REASON\_DATA\_OVERWRITE \| USN\_REASON\_BASIC\_INFO\_CHANGE.<br/>                                                                                                                            |
 | Second write operation<br/>     | The NTFS file system does not write a new USN record. Because USN\_REASON\_DATA\_OVERWRITE is already set for the existing record, no changes are made to the record.<br/>                                                                                           |
 | File truncation<br/>            | The NTFS file system writes a new USN record with the flag setting USN\_REASON\_DATA\_OVERWRITE \| USN\_REASON\_BASIC\_INFO\_CHANGE \| USN\_REASON\_DATA\_TRUNCATION.<br/>                                                                                           |
@@ -38,15 +43,15 @@ In this case, the NTFS file system takes the following actions in the change jou
 
 
 
- 
+ 
 
 The change journal accumulates a series of records between the first opening and last closing of a file. Each record has a new reason flag set, indicating that a new kind of change has occurred. The sequence of records gives a partial history of the file. The final record, created when the file is closed, adds the USN\_REASON\_CLOSE flag. This record represents a summary of changes to the file, but unlike the prior records, gives no indication of the order of the changes.
 
 The next user to access and change the file generates a new USN record with a single reason flag.
 
- 
+ 
 
- 
+ 
 
 
 

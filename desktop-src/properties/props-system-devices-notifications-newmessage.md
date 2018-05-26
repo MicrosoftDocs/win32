@@ -1,7 +1,12 @@
 ---
-Description: 'Device new message notification.'
-ms.assetid: '2d6dce7b-d31f-4b4b-8ee0-b043568932fd'
-title: 'System.Devices.Notifications.NewMessage'
+Description: Device new message notification.
+ms.assetid: 2d6dce7b-d31f-4b4b-8ee0-b043568932fd
+title: System.Devices.Notifications.NewMessage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Notifications.NewMessage

@@ -4,11 +4,13 @@ description: The SysColorCtrl control is used on a taskpad DHTML page to get sys
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60532d06-0b32-4f42-a7b7-b4b05518c6e6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 60532d06-0b32-4f42-a7b7-b4b05518c6e6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SysColorCtrl Control object MMC", "SysColorCtrl Control object MMC , described"]
+keywords:
+- SysColorCtrl Control object MMC
+- SysColorCtrl Control object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -73,6 +75,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl Control object
@@ -103,7 +108,7 @@ The **SysColorCtrl Control** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -135,7 +140,7 @@ The **SysColorCtrl Control** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -204,7 +209,7 @@ The **SysColorCtrl Control** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -212,17 +217,17 @@ The **SysColorCtrl Control** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

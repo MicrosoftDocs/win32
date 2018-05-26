@@ -1,13 +1,16 @@
 ---
-Description: 'Causes an event to be generated on a specific date at a specific time.'
+Description: Causes an event to be generated on a specific date at a specific time.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bcb64c81-3b40-4665-a880-a100629656e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bcb64c81-3b40-4665-a880-a100629656e0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_AbsoluteTimerInstruction class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_AbsoluteTimerInstruction class
@@ -22,8 +25,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class __AbsoluteTimerInstruction : __TimerInstruction
 {
   datetime EventDateTime;
-  boolean  SkipIfPassed = FALSE;
-  string   TimerId;
+  boolean  SkipIfPassed = FALSE;
+  string   TimerId;
 };
 ```
 
@@ -109,8 +112,8 @@ WMI generates the absolute timer event by creating an instance of the [**\_\_Tim
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -134,9 +137,9 @@ WMI generates the absolute timer event by creating an instance of the [**\_\_Tim
 [Receiving Events for the Duration of Your Application](receiving-events-for-the-duration-of-your-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

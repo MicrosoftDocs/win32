@@ -1,7 +1,12 @@
 ---
-Description: 'Preview handlers are called when an item is selected to show a lightweight, rich, read-only preview of the file''s contents in the view''s reading pane. This is done without launching the file''s associated application.'
-ms.assetid: '6c240a63-c184-4b65-9483-794f5de4d695'
+Description: Preview handlers are called when an item is selected to show a lightweight, rich, read-only preview of the files contents in the views reading pane. This is done without launching the files associated application.
+ms.assetid: 6c240a63-c184-4b65-9483-794f5de4d695
 title: Preview Handlers and Shell Preview Host
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preview Handlers and Shell Preview Host
@@ -20,17 +25,17 @@ This topic discusses the following topics:
 
 ## Preview Handler Architecture
 
-A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](ipreviewhandlerframe.md) as a method of communication between the preview handler and the host.
+A preview handler is a hosted application. Hosts include the Windows Explorer in Windows Vista or Microsoft Outlook 2007. Hosts implement [**IPreviewHandlerFrame**](/windows/win32/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe?branch=master) as a method of communication between the preview handler and the host.
 
 The preview handler itself implements these interfaces:
 
--   [**IInitializeWithStream**](iinitializewithstream.md)
+-   [**IInitializeWithStream**](/windows/win32/Propsys/nn-propsys-iinitializewithstream?branch=master)
 -   [**IObjectWithSite**](com.iobjectwithsite)
 -   [**IOleWindow**](com.iolewindow)
--   [**IPreviewHandler**](ipreviewhandler.md)
--   [**IPreviewHandlerVisuals**](ipreviewhandlervisuals.md) (Optional)
+-   [**IPreviewHandler**](/windows/win32/Shobjidl/nn-shobjidl_core-ipreviewhandler?branch=master)
+-   [**IPreviewHandlerVisuals**](/windows/win32/Shobjidl/nn-shobjidl_core-ipreviewhandlervisuals?branch=master) (Optional)
 
-Your handler is called through its [**IObjectWithSite**](com.iobjectwithsite), which returns an [**IUnknown**](com.iunknown) pointer through which you request an [**IPreviewHandlerFrame**](ipreviewhandlerframe.md) object to interact with the host.
+Your handler is called through its [**IObjectWithSite**](com.iobjectwithsite), which returns an [**IUnknown**](com.iunknown) pointer through which you request an [**IPreviewHandlerFrame**](/windows/win32/Shobjidl/nn-shobjidl_core-ipreviewhandlerframe?branch=master) object to interact with the host.
 
 ## Server Model Options
 
@@ -54,7 +59,7 @@ Different preview handlers share the same process by default. Two instances of P
 
 As with thumbnail and property handlers, it is strongly recommended that you initialize your handler with a stream. You can initialize through a file or item if necessary, but streams provide the most secure way to implement a handler. Initialization through a stream ensures file integrity and the stability benefits to the system of running the handler as a low IL process, such as protecting the system from buffer overruns, limiting where a handler can write information, and limiting communication with other windows.
 
-If you must initialize with a file or Shell item, store the file path or a reference to the [**IShellItem**](ishellitem.md). Do not read data from these sources until [**IPreviewHandler::DoPreview**](ipreviewhandler-dopreview.md) is called.
+If you must initialize with a file or Shell item, store the file path or a reference to the [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master). Do not read data from these sources until [**IPreviewHandler::DoPreview**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview?branch=master) is called.
 
 In general, initialization should not do any heavy work such as composing and storing a preview image. For optimal efficiency, that sort of processing should not be done until the preview is called for.
 
@@ -63,12 +68,12 @@ In general, initialization should not do any heavy work such as composing and st
 The data flow in the preview process follows the general path shown here. The host can be thought of as Windows Explorer in Windows Vista or Outlook 2007.
 
 1.  The preview handler is initialized, preferably with a stream.
-2.  The view window is passed from the host to the handler through [**IPreviewHandler::SetWindow**](ipreviewhandler-setwindow.md).
-3.  At this point, the handler should do nothing more until [**IPreviewHandler::DoPreview**](ipreviewhandler-dopreview.md) is called.
-4.  The preview is displayed in the reading pane through a call to [**IPreviewHandler::DoPreview**](ipreviewhandler-dopreview.md).
-5.  The size of the window is set through [**IPreviewHandler::SetRect**](ipreviewhandler-setrect.md).
-6.  The window is resized when needed through [**IPreviewHandler::SetRect**](ipreviewhandler-setrect.md).
-7.  The preview is unloaded and its resources released when it is no longer needed, through a call to [**IPreviewHandler::Unload**](ipreviewhandler-unload.md).
+2.  The view window is passed from the host to the handler through [**IPreviewHandler::SetWindow**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow?branch=master).
+3.  At this point, the handler should do nothing more until [**IPreviewHandler::DoPreview**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview?branch=master) is called.
+4.  The preview is displayed in the reading pane through a call to [**IPreviewHandler::DoPreview**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview?branch=master).
+5.  The size of the window is set through [**IPreviewHandler::SetRect**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect?branch=master).
+6.  The window is resized when needed through [**IPreviewHandler::SetRect**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect?branch=master).
+7.  The preview is unloaded and its resources released when it is no longer needed, through a call to [**IPreviewHandler::Unload**](/windows/win32/shobjidl_core/nf-shobjidl_core-ipreviewhandler-unload?branch=master).
 
 ## Debugging a Preview Handler
 

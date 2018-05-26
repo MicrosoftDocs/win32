@@ -1,7 +1,12 @@
 ---
-Description: 'The MACFRAME structure is a union of the most common initial protocols.'
-ms.assetid: 'ec7e3a54-a47f-4390-a137-9574c63c9a11'
+Description: The MACFRAME structure is a union of the most common initial protocols.
+ms.assetid: ec7e3a54-a47f-4390-a137-9574c63c9a11
 title: MACFRAME union
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MACFRAME union
@@ -13,10 +18,10 @@ The **MACFRAME** structure is a union of the most common initial protocols.
 
 ```C++
 typedef union {
-  LPBYTE      MacHeader;
-  LPETHERNET  Ethernet;
+  LPBYTE      MacHeader;
+  LPETHERNET  Ethernet;
   LPTOKENRING Tokenring;
-  LPFDDI      Fddi;
+  LPFDDI      Fddi;
 } MACFRAME, *LPMACFRAME;
 ```
 
@@ -64,15 +69,15 @@ This structure is most frequently used as an overlay. To make the properties of 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

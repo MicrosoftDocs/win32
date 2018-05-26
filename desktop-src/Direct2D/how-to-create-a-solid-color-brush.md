@@ -1,18 +1,23 @@
 ---
 title: How to Create a Solid Color Brush
 description: Shows how to create a solid color brush using Direct2D.
-ms.assetid: '70700b82-2294-46be-b1c0-fc89def441e2'
+ms.assetid: 70700b82-2294-46be-b1c0-fc89def441e2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Solid Color Brush
 
-To create a solid color brush, use the [**ID2DRenderTarget::CreateSolidColorBrush**](id2d1rendertarget-createsolidcolorbrush.md) method and specify the color with which you want to paint. Some of the **CreateSolidColorBrush** overloads also enable you to specify the opacity of the brush.
+To create a solid color brush, use the [**ID2DRenderTarget::CreateSolidColorBrush**](/windows/win32/d2d1/nf-d2d1-createsolidcolorbrush?branch=master) method and specify the color with which you want to paint. Some of the **CreateSolidColorBrush** overloads also enable you to specify the opacity of the brush.
 
 The following code shows how to create a solid yellow-green brush to fill a square, and a solid black brush to draw the outline of the square. The code produces the output shown in the following illustration.
 
 ![illustration of a rectangle filled with a solid yellow-green color](images/brushes-ovw-solidcolor.png)
 
-1.  Declare two [**ID2D1SolidColorBrush**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ptr-ptr-id2d1solidcolorbrush.md) pointers: one for painting black and one for painting yellow green.
+1.  Declare two [**ID2D1SolidColorBrush**](/windows/win32/d2d1/?branch=master) pointers: one for painting black and one for painting yellow green.
     ```C++
         ID2D1SolidColorBrush *m_pBlackBrush;
         ID2D1SolidColorBrush *m_pYellowGreenBrush;
@@ -20,7 +25,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
 
     
 
-2.  Call the [**CreateSolidColorBrush**](id2d1rendertarget-createsolidcolorbrush.md) method to create the brushes:
+2.  Call the [**CreateSolidColorBrush**](/windows/win32/d2d1/nf-d2d1-createsolidcolorbrush?branch=master) method to create the brushes:
     ```C++
     if (SUCCEEDED(hr))
     {
@@ -42,7 +47,7 @@ The following code shows how to create a solid yellow-green brush to fill a squa
 
     
 
-3.  Call the [**FillRectangle**](id2d1rendertarget-fillrectangle-ref-d2d-rect-f-ptr-id2d1brush.md) method to paint the interior of the rectangle with the yellow green brush and the [**DrawRectangle**](id2d1rendertarget-drawrectangle-ref-d2d-rect-f-ptr-id2d1brush-float-ptr-id2d1strokestyle.md) method to paint the outline of the rectangle with the black brush:
+3.  Call the [**FillRectangle**](/windows/win32/d2d1/?branch=master) method to paint the interior of the rectangle with the yellow green brush and the [**DrawRectangle**](/windows/win32/d2d1/?branch=master) method to paint the outline of the rectangle with the black brush:
     ```C++
     m_pRenderTarget->FillRectangle(&amp;rcBrushRect, m_pYellowGreenBrush);
     m_pRenderTarget->DrawRectangle(&amp;rcBrushRect, m_pBlackBrush, 1, NULL);

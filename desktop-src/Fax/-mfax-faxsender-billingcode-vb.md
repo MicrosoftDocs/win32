@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BillingCode property is a null-terminated string that contains the billing code associated with the sender.'
-ms.assetid: '441e4fc3-7638-4914-a067-058884f71376'
-title: 'FaxSender.BillingCode property'
+---
+Description: The BillingCode property is a null-terminated string that contains the billing code associated with the sender.
+ms.assetid: 441e4fc3-7638-4914-a067-058884f71376
+title: FaxSender.BillingCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.BillingCode property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the billing code associated with the sen
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

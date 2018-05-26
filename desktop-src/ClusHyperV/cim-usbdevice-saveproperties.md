@@ -4,13 +4,16 @@ description: Saves the configuration and state of the logical device.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd5da9010-851c-4212-80be-e94d8f1fd87f'
-ms.prod: 'windows-server-dev'
+ms.assetid: d5da9010-851c-4212-80be-e94d8f1fd87f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SaveProperties method", "SaveProperties method, CIM_USBDevice class", "CIM_USBDevice class, SaveProperties method"]
+keywords:
+- SaveProperties method
+- SaveProperties method, CIM_USBDevice class
+- CIM_USBDevice class, SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SaveProperties method of the CIM\_USBDevice class
@@ -65,7 +71,7 @@ The operation was not completed because it is not supported.
 
 </dt> <dd>
 
-3–...
+3 ...
 
 The operation was not completed because an error occurred.
 
@@ -78,7 +84,7 @@ The operation was not completed because an error occurred.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -92,9 +98,9 @@ The operation was not completed because an error occurred.
 [**CIM\_USBDevice**](cim-usbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

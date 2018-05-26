@@ -4,12 +4,15 @@ description: NLBScriptLib.vbs serves as a common library of functions for the jo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45194f75-f5f8-4955-ad2b-047e3f49b1be'
-ms.prod: 'windows-server-dev'
+ms.assetid: 45194f75-f5f8-4955-ad2b-047e3f49b1be
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NlbScriptLib.vbs

@@ -1,14 +1,20 @@
 ---
 title: CTEXT control
 description: Defines a centered-text control.
-ms.assetid: '11f42d25-8fe1-4a8b-a5c5-c8cb47cc8c73'
-keywords: ["CTEXT control Menus and Other Resources"]
+ms.assetid: 11f42d25-8fe1-4a8b-a5c5-c8cb47cc8c73
+keywords:
+- CTEXT control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CTEXT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTEXT control

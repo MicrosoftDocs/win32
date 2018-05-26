@@ -4,10 +4,13 @@ description: The Win32\_TSGatewayRADIUSServer class exposes the following method
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22F8EB94-CA2C-46A8-BF11-0117FC00C16F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 22F8EB94-CA2C-46A8-BF11-0117FC00C16F
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayRADIUSServer Methods

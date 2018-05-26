@@ -1,7 +1,7 @@
 ---
 title: CMAX
 description: Do not use. The (CMAX\_\ ) constants are used to specify index limits on databases.
-ms.assetid: '2272dce9-8830-40ce-b51e-b78c8d0fd056'
+ms.assetid: 2272dce9-8830-40ce-b51e-b78c8d0fd056
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Directdb.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMAX
@@ -32,16 +37,16 @@ Do not use. The (CMAX\_\*) constants are used to specify index limits on databas
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Windows Firewall Profiles
 description: When authoring your firewall rules it is best to only plumb your firewall rules to profiles that are appropriate for your scenarios and to modify your rules according to each specific profile.
-ms.assetid: '6c0ea258-0cc2-43a0-ade7-1795354f5dce'
+ms.assetid: 6c0ea258-0cc2-43a0-ade7-1795354f5dce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Firewall Profiles

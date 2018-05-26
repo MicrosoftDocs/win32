@@ -2,7 +2,14 @@
 title: Using the MIDL Compiler
 description: The MIDL compiler is automatically installed as part of the Platform Software Development Kit (SDK) setup.
 ms.assetid: 6c001b06-01f3-42bd-85db-5d53aab54903
-keywords: ["Microsoft Interface Definition Language MIDL , tasks", "MIDL compiler MIDL"]
+keywords:
+- Microsoft Interface Definition Language MIDL , tasks
+- MIDL compiler MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the MIDL Compiler

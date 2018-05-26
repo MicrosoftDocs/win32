@@ -1,7 +1,12 @@
 ---
 title: How to Create Vertical Toolbars
 description: The key to creating a vertical toolbar is to include CCS\_VERT in the window style, and to set the TBSTATE\_WRAP style for each button.
-ms.assetid: 'C2EAB160-0D8D-4BB9-AD41-D5175FBE81AB'
+ms.assetid: C2EAB160-0D8D-4BB9-AD41-D5175FBE81AB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Vertical Toolbars

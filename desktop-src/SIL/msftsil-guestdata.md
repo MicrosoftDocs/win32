@@ -4,13 +4,15 @@ description: Deprecated. Exposes Software Inventory Logging data collected from 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d7dba1b-8ae6-42c9-8239-41d569f663e4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8d7dba1b-8ae6-42c9-8239-41d569f663e4
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MsftSil_GuestData class Software Inventory Logging", "MsftSil_GuestData class Software Inventory Logging , described"]
+keywords:
+- MsftSil_GuestData class Software Inventory Logging
+- MsftSil_GuestData class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -21,13 +23,16 @@ api_location:
 - SILProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftSil\_GuestData class
 
-This class has been deprecated starting with Windows Server 2016.
+This class has been deprecated starting with Windows Server 2016.
 
-**Windows Server 2012 R2:** The **MsftSil\_GuestData** WMI class exposes Software Inventory Logging data collected from a virtual machine.
+**Windows Server 2012 R2:** The **MsftSil\_GuestData** WMI class exposes Software Inventory Logging data collected from a virtual machine.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -86,9 +91,9 @@ Gets the **GUID** of the virtual machine.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
 | End of client support<br/>    | None supported<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                          |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                          |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SILProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SILProvider.dll</dt> </dl> |
@@ -102,9 +107,9 @@ Gets the **GUID** of the virtual machine.
 [Software Inventory Logging WMI Data Provider Classes](software-inventory-logging-wmi-data-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 281 through 290.'
+Description: Describes WMI SNMP provider errors 281 through 290.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '08aef6da-9da7-43e1-b278-f5efd4307801'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 08aef6da-9da7-43e1-b278-f5efd4307801
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 281 through 290
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 281 through 290

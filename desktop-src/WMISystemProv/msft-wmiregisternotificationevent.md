@@ -4,11 +4,13 @@ description: Represents the creation of an event sink for notification for an ev
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '557a9a5e-0fc5-43fc-8467-23da9990a689'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 557a9a5e-0fc5-43fc-8467-23da9990a689
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiRegisterNotificationEvent class", "MSFT_WmiRegisterNotificationEvent class, described"]
+keywords:
+- MSFT_WmiRegisterNotificationEvent class
+- MSFT_WmiRegisterNotificationEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiRegisterNotificationEvent class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_WmiRegisterNotificationEvent : MSFT_WmiEssEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string Namespace;
   string Query;
@@ -167,8 +172,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -194,9 +199,9 @@ WMI Troubleshooting
 [Monitoring Events](https://msdn.microsoft.com/library/aa392396)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

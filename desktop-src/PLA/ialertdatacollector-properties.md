@@ -1,21 +1,26 @@
 ---
 title: IAlertDataCollector Properties
-ms.assetid: '03487aac-bc2c-4ab3-b3d8-db6347904e05'
+ms.assetid: 03487aac-bc2c-4ab3-b3d8-db6347904e05
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAlertDataCollector Properties
 
-The [**IAlertDataCollector**](ialertdatacollector.md) interface has the following properties:
+The [**IAlertDataCollector**](/windows/previous-versions/Pla/nn-pla-ialertdatacollector?branch=master) interface has the following properties:
 
--   [**AlertThresholds**](ialertdatacollector-alertthresholds.md)
--   [**EventLog**](ialertdatacollector-eventlog.md)
--   [**SampleInterval**](ialertdatacollector-sampleinterval.md)
--   [**Task**](ialertdatacollector-task.md)
--   [**TaskArguments**](ialertdatacollector-taskarguments.md)
--   [**TaskRunAsSelf**](ialertdatacollector-taskrunasself.md)
--   [**TaskUserTextArguments**](ialertdatacollector-taskusertextarguments.md)
--   [**TriggerDataCollectorSet**](ialertdatacollector-triggerdatacollectorset.md)
+-   [**AlertThresholds**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_alertthresholds?branch=master)
+-   [**EventLog**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_eventlog?branch=master)
+-   [**SampleInterval**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_sampleinterval?branch=master)
+-   [**Task**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_task?branch=master)
+-   [**TaskArguments**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_taskarguments?branch=master)
+-   [**TaskRunAsSelf**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_taskrunasself?branch=master)
+-   [**TaskUserTextArguments**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_taskusertextarguments?branch=master)
+-   [**TriggerDataCollectorSet**](/windows/previous-versions/Pla/nf-pla-ialertdatacollector-get_triggerdatacollectorset?branch=master)
 
  
 

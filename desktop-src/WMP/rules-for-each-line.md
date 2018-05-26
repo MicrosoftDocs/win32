@@ -1,8 +1,16 @@
 ---
 title: Rules for Each Line
 description: Rules for Each Line
-ms.assetid: '9bc7ed16-6e94-4cda-81da-f71dcb81580d'
-keywords: ["Windows Media Player Mobile skins,rules for text lines", "skins,rules for text lines", "skin definition files,rules for text lines"]
+ms.assetid: 9bc7ed16-6e94-4cda-81da-f71dcb81580d
+keywords:
+- Windows Media Player Mobile skins,rules for text lines
+- skins,rules for text lines
+- skin definition files,rules for text lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rules for Each Line

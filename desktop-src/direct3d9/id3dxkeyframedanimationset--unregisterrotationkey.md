@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes the rotation data at the specified key frame.'
-ms.assetid: '8e95d684-fa22-4eba-a721-e7551e8f393b'
-title: 'ID3DXKeyframedAnimationSet::UnregisterRotationKey method'
+---
+Description: Removes the rotation data at the specified key frame.
+ms.assetid: 8e95d684-fa22-4eba-a721-e7551e8f393b
+title: ID3DXKeyframedAnimationSetUnregisterRotationKey method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::UnregisterRotationKey method

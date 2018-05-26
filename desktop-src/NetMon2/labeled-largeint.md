@@ -1,7 +1,12 @@
 ---
-Description: 'The LABELED\_LARGEINT structure defines a label that is displayed when a specific LARGEINT property value is detected.'
-ms.assetid: 'ca565be0-96bb-4265-9422-793db0723563'
-title: 'LABELED\_LARGEINT structure'
+Description: The LABELED\_LARGEINT structure defines a label that is displayed when a specific LARGEINT property value is detected.
+ms.assetid: ca565be0-96bb-4265-9422-793db0723563
+title: LABELED\_LARGEINT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LABELED\_LARGEINT structure
@@ -14,7 +19,7 @@ The **LABELED\_LARGEINT** structure defines a label that is displayed when a spe
 ```C++
 typedef struct _LABELED_LARGEINT {
   LARGE_INTEGER Value;
-  LPSTR         Label;
+  LPSTR         Label;
 } LABELED_LARGEINT, *LPLABELED_LARGEINT;
 ```
 
@@ -48,8 +53,8 @@ The **lpLabeledLargeIntTable** member of the [SET](set.md) structure points to a
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The **lpLabeledLargeIntTable** member of the [SET](set.md) structure points to a
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

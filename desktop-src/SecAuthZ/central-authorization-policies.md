@@ -1,7 +1,12 @@
 ---
-Description: 'A Central Authorization Policy (CAP) collects the specific authorization rules (CAPRs) into a single policy.'
-ms.assetid: 'E3E43D9F-6826-468A-86E9-AC8F9A381FD4'
+Description: A Central Authorization Policy (CAP) collects the specific authorization rules (CAPRs) into a single policy.
+ms.assetid: E3E43D9F-6826-468A-86E9-AC8F9A381FD4
 title: Central Authorization Policies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Central Authorization Policies
@@ -15,7 +20,7 @@ A CAP has the following attributes:
 -   Description
 -   Name
 
-A CAP is evaluated during access evaluation for files and folders on which an administrator enables it. During an [**AccessCheck**](accesscheck.md) call, the CAP check is logically combined with the discretionary ACL check; this means that in order to obtain access to a file to which the CAP applies, a user needs to have access both according to the CAP (its associated CAPRs) and the discretionary ACL on the file.
+A CAP is evaluated during access evaluation for files and folders on which an administrator enables it. During an [**AccessCheck**](/windows/win32/Winbase/nf-ntifs-ntaccesscheckandauditalarm?branch=master) call, the CAP check is logically combined with the discretionary ACL check; this means that in order to obtain access to a file to which the CAP applies, a user needs to have access both according to the CAP (its associated CAPRs) and the discretionary ACL on the file.
 
 Example CAP:
 

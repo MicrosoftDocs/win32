@@ -1,8 +1,9 @@
 ---
 title: LB\_ADDSTRING message
 description: Adds a string to a list box. If the list box does not have the LBS\_SORT style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted.
-ms.assetid: '924d9232-6e38-49c3-aa3e-19efd46b01ba'
-keywords: ["LB_ADDSTRING message Windows Controls"]
+ms.assetid: 924d9232-6e38-49c3-aa3e-19efd46b01ba
+keywords:
+- LB_ADDSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_ADDSTRING message
@@ -57,8 +63,8 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -85,9 +91,9 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 [**WM\_COMPAREITEM**](wm-compareitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

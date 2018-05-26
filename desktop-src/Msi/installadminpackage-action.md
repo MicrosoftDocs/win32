@@ -1,7 +1,12 @@
 ---
-Description: 'The InstallAdminPackage action copies the product database to the administrative installation point, which is defined by the TARGETDIR property.'
-ms.assetid: '9781f14b-0264-4d00-9a83-bd5400c614ec'
+Description: The InstallAdminPackage action copies the product database to the administrative installation point, which is defined by the TARGETDIR property.
+ms.assetid: 9781f14b-0264-4d00-9a83-bd5400c614ec
 title: InstallAdminPackage Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallAdminPackage Action

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Media Video 9 Screen decoder decodes streams that were encoded by the Windows Media Video 9 Screen Encoder.'
-ms.assetid: '6688a830-7a54-4f58-947e-26013e191b5f'
+---
+Description: The Windows Media Video 9 Screen decoder decodes streams that were encoded by the Windows Media Video 9 Screen Encoder.
+ms.assetid: 6688a830-7a54-4f58-947e-26013e191b5f
 title: Windows Media Video 9 Screen Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Video 9 Screen Decoder
@@ -42,7 +47,7 @@ The following output types are supported by the Version 9 Screen decoder when it
 
 ## Remarks
 
-A screen decoder object exposes the [**IMediaObject**](dshow.imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](imftransform.md) interface so that the object can be used as a Media Foundation Transform (MFT).
+A screen decoder object exposes the [**IMediaObject**](dshow.imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface so that the object can be used as a Media Foundation Transform (MFT).
 
 A screen decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which a screen decoder behaves as a DMO or an MFT.
 
@@ -51,7 +56,7 @@ A screen decoder behaves as a DMO or an MFT depending on which interfaces you ob
 | Operating system            | Decoder behavior                                                                                                                                                        |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows XP                  | A Windows Media Screen decoder always behaves as a DMO.                                                                                                                 |
-| Windows Vista and Windows 7 | By default, a Windows Media Screen decoder behaves as a DMO. If you obtain an [**IMFTransform**](imftransform.md) interface on a screen decoder, it behaves as an MFT. |
+| Windows Vista and Windows 7 | By default, a Windows Media Screen decoder behaves as a DMO. If you obtain an [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface on a screen decoder, it behaves as an MFT. |
 
 
 

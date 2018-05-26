@@ -1,8 +1,10 @@
 ---
 title: CARD\_KEY\_SIZES structure
 description: Contains information about the key lengths supported by a smart card.
-ms.assetid: 'e4d262c2-5e82-4c6a-8e5d-c7bce5f64956'
-keywords: ["CARD_KEY_SIZES structure Security", "PCARD_KEY_SIZES structure pointer Security"]
+ms.assetid: e4d262c2-5e82-4c6a-8e5d-c7bce5f64956
+keywords:
+- CARD_KEY_SIZES structure Security
+- PCARD_KEY_SIZES structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_KEY\_SIZES structure
@@ -75,8 +82,8 @@ The [**CardQueryKeySizes**](cardquerykeysizes.md) function initializes this stru
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -91,9 +98,9 @@ The [**CardQueryKeySizes**](cardquerykeysizes.md) function initializes this stru
 [**CardQueryKeySizes**](cardquerykeysizes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_SECTION'
-ms.assetid: '8680a74b-9594-4271-a511-637f617aa12a'
-title: 'WPD\_CONTENT\_TYPE\_SECTION'
+Description: WPD\_CONTENT\_TYPE\_SECTION
+ms.assetid: 8680a74b-9594-4271-a511-637f617aa12a
+title: WPD\_CONTENT\_TYPE\_SECTION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_SECTION

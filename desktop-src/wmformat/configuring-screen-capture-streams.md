@@ -1,13 +1,21 @@
 ---
 title: Configuring Screen Capture Streams
 description: Configuring Screen Capture Streams
-ms.assetid: '974e679f-0bf6-412b-9e80-43370de7605a'
-keywords: ["streams,configuring screen capture streams", "codecs,configuring screen capture streams", "screen capture streams"]
+ms.assetid: 974e679f-0bf6-412b-9e80-43370de7605a
+keywords:
+- streams,configuring screen capture streams
+- codecs,configuring screen capture streams
+- screen capture streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Screen Capture Streams
 
-Streams that use the Windows Media® Video 9 Screen codec are configured by applications in the same way as normal video streams. However, if you set the video complexity level to 0, the writer will ignore any video quality value set with [**IWMVideoMediaProps::SetQuality**](iwmvideomediaprops-setquality.md). For more information, see [Getting Good Results with the Windows Media Video 9 Screen Codec](getting-good-results-with-the-windows-media-video-9-screen-codec.md).
+Streams that use the Windows Media® Video 9 Screen codec are configured by applications in the same way as normal video streams. However, if you set the video complexity level to 0, the writer will ignore any video quality value set with [**IWMVideoMediaProps::SetQuality**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-setquality?branch=master). For more information, see [Getting Good Results with the Windows Media Video 9 Screen Codec](getting-good-results-with-the-windows-media-video-9-screen-codec.md).
 
 ## Related topics
 

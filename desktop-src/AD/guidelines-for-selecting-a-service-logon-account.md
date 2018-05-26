@@ -4,11 +4,15 @@ description: A Win32-based service can run in the security context of a local us
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aa2b93c7-335f-4e03-9198-fe2b396e296e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: aa2b93c7-335f-4e03-9198-fe2b396e296e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Guidelines for Selecting a Service Logon Account AD"]
+keywords:
+- Guidelines for Selecting a Service Logon Account AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Guidelines for Selecting a Service Logon Account

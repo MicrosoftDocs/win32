@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUni::DrvGetStandardVariable method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv''s standard variables.'
-ms.assetid: 'd55d3130-14e7-438f-bfb5-18927466bd60'
-title: 'IPrintOemDriverUni::DrvGetStandardVariable method'
+---
+Description: The IPrintOemDriverUniDrvGetStandardVariable method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrvs standard variables.
+ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
+title: IPrintOemDriverUniDrvGetStandardVariable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUni::DrvGetStandardVariable method

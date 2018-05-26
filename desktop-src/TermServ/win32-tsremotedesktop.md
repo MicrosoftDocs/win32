@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSRemoteDesktop class
-description: Describes a remote desktop connection that is available through Remote Desktop Web Access (RD Web Access).
+description: Describes a remote desktop connection that is available through Remote Desktop Web Access (RD Web Access).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40c7d8f1-cc45-4f0a-8c07-8215342ca02e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 40c7d8f1-cc45-4f0a-8c07-8215342ca02e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSRemoteDesktop class Remote Desktop Services", "Win32_TSRemoteDesktop class Remote Desktop Services , described"]
+keywords:
+- Win32_TSRemoteDesktop class Remote Desktop Services
+- Win32_TSRemoteDesktop class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -31,31 +33,34 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSRemoteDesktop class
 
-Describes a remote desktop connection that is available through Remote Desktop Web Access (RD Web Access).
+Describes a remote desktop connection that is available through Remote Desktop Web Access (RD Web Access).
 
 ## Syntax
 
 ``` syntax
 class Win32_TSRemoteDesktop : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   Alias;
-  string   SecurityDescriptor;
-  string   IconPath;
-  sint32   IconIndex;
-  uint8    IconContents[];
-  boolean  ShowInPortal;
-  string   RDPFileContents;
-  boolean  IsVmFarm;
-  string   VmFarmSettings;
+  string   Name;
+  string   Status;
+  string   Alias;
+  string   SecurityDescriptor;
+  string   IconPath;
+  sint32   IconIndex;
+  uint8    IconContents[];
+  boolean  ShowInPortal;
+  string   RDPFileContents;
+  boolean  IsVmFarm;
+  string   VmFarmSettings;
 };
 ```
 
@@ -240,7 +245,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether the remote desktop connection should be shown in RD Web Access.
+Indicates whether the remote desktop connection should be shown in RD Web Access.
 
 </dd> <dt>
 
@@ -357,16 +362,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

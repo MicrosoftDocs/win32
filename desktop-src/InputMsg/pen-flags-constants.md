@@ -1,7 +1,7 @@
 ---
 title: Pen Flags
 description: Values that can appear in the penFlags field of the POINTER\_PEN\_INFO structure.
-ms.assetid: 'BC3CE568-4090-4451-B780-18530C988305'
+ms.assetid: BC3CE568-4090-4451-B780-18530C988305
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,16 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pen Flags
 
-Values that can appear in the **penFlags** field of the [**POINTER\_PEN\_INFO**](pointer-pen-info-struct.md) structure.
+Values that can appear in the **penFlags** field of the [**POINTER\_PEN\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_pen_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -79,8 +84,8 @@ The eraser button is pressed.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -92,12 +97,12 @@ The eraser button is pressed.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

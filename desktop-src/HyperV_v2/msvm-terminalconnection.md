@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the state of an active remote session interacting with a virtual machine.'
-ms.assetid: 'EAE6082F-A0CB-4E75-8029-51E20649C0A8'
-title: 'Msvm\_TerminalConnection class'
+Description: Indicates the state of an active remote session interacting with a virtual machine.
+ms.assetid: EAE6082F-A0CB-4E75-8029-51E20649C0A8
+title: Msvm\_TerminalConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TerminalConnection class
@@ -16,28 +21,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TerminalConnection : CIM_EnabledLogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   ConnectionID;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   ConnectionID;
 };
 ```
 
@@ -60,7 +65,7 @@ The **Msvm\_TerminalConnection** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -231,7 +236,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -256,7 +261,7 @@ The enabled and disabled states of an element. It can also indicate the transiti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -465,7 +470,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -527,7 +532,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -541,8 +546,8 @@ Access to the **Msvm\_TerminalConnection** class might be restricted by UAC Filt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -562,9 +567,9 @@ Access to the **Msvm\_TerminalConnection** class might be restricted by UAC Filt
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

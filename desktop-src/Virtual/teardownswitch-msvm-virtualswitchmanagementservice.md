@@ -1,8 +1,11 @@
 ---
 title: TeardownSwitch method of the Msvm\_VirtualSwitchManagementService class
 description: Deletes the internal port for a switch and unbinds the external adapter, reversing the work done by SetupSwitch. The external Ethernet port and the internal Ethernet port must be bound to the same switch.
-ms.assetid: 'de963065-5e93-4435-b391-9e0f16acded6'
-keywords: ["TeardownSwitch method Hyper-V", "TeardownSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , TeardownSwitch method"]
+ms.assetid: de963065-5e93-4435-b391-9e0f16acded6
+keywords:
+- TeardownSwitch method Hyper-V
+- TeardownSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , TeardownSwitch method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TeardownSwitch method of the Msvm\_VirtualSwitchManagementService class
@@ -22,9 +30,9 @@ Deletes the internal port for a switch and unbinds the external adapter, reversi
 
 ```mof
 uint32 TeardownSwitch(
-  [in]  Msvm_ExternalEthernetPort REF ExternalEthernetPort,
-  [in]  Msvm_InternalEthernetPort REF InternalEthernetPort,
-  [out] Msvm_NetworkJob           REF Job
+  [in]  Msvm_ExternalEthernetPort REF ExternalEthernetPort,
+  [in]  Msvm_InternalEthernetPort REF InternalEthernetPort,
+  [out] Msvm_NetworkJob           REF Job
 );
 ```
 
@@ -50,7 +58,7 @@ Type: **Msvm\_InternalEthernetPort**
 
 A reference to the internal Ethernet port to be deleted. See [**Msvm\_InternalEthernetPort**](msvm-internalethernetport.md). If no port is provided, there must not be an internal NIC attached to the switch and there must be an external NIC attached. The physical NIC is disconnected and no protocols are rebound.
 
-**Windows Server 2008:** The **InternalEthernetPort** parameter is not optional
+**Windows Server 2008:** The **InternalEthernetPort** parameter is not optional
 
 </dd> <dt>
 
@@ -380,9 +388,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -395,9 +403,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

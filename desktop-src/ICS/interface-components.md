@@ -1,7 +1,12 @@
 ---
 title: Interface Components
 description: Interface Components
-ms.assetid: '1827a554-4153-42f6-b39f-97cece8cd1c2'
+ms.assetid: 1827a554-4153-42f6-b39f-97cece8cd1c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Components

@@ -1,7 +1,12 @@
 ---
-Description: 'In certain cases, a user that is not a system administrator can only override an approved list of restricted Windows Installer public properties.'
-ms.assetid: 'e16e8187-75b6-4104-a53c-928a56fcee6b'
+Description: In certain cases, a user that is not a system administrator can only override an approved list of restricted Windows Installer public properties.
+ms.assetid: e16e8187-75b6-4104-a53c-928a56fcee6b
 title: Restricted Public Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restricted Public Properties

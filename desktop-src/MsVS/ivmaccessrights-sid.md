@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights Sid property
 description: The Sid property retrieves the SID string of the user or group.
-ms.assetid: '2ff87160-0fb1-491c-91c5-98683dcd5ec4'
-keywords: ["Sid property Virtual Server", "Sid property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , Sid property", "Sid property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , Sid property"]
+ms.assetid: 2ff87160-0fb1-491c-91c5-98683dcd5ec4
+keywords:
+- Sid property Virtual Server
+- Sid property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , Sid property
+- Sid property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , Sid property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::Sid property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Sid(
-  [in]  BSTR sid
+  [in]  BSTR sid
 );
 
 HRESULT get_Sid(
-  [out] BSTR *sid
+  [out] BSTR *sid
 );
 ```
 
@@ -107,7 +117,7 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -119,9 +129,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

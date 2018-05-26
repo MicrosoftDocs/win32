@@ -1,8 +1,10 @@
 ---
 title: BITS\_JOB\_PROPERTY\_VALUE structure
 description: The BITS\_JOB\_PROPERTY\_VALUE union provides the property value of the DO job based on the value of the BITS\_JOB\_PROPERTY\_ID enumeration.
-ms.assetid: 'C24D9EA1-2E72-4403-939A-7B01D7133FE7'
-keywords: ["BITS_JOB_PROPERTY_VALUE structure", "BITS_JOB_PROPERTY_VALUE structure"]
+ms.assetid: C24D9EA1-2E72-4403-939A-7B01D7133FE7
+keywords:
+- BITS_JOB_PROPERTY_VALUE structure
+- BITS_JOB_PROPERTY_VALUE structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS\_JOB\_PROPERTY\_VALUE structure
@@ -22,10 +29,10 @@ The **BITS\_JOB\_PROPERTY\_VALUE** union provides the property value of the DO j
 
 ```C++
 typedef struct {
-  DWORD          Dword;
-  GUID           ClsID;
-  BOOL           Enable;
-  UINT64         Uint64;
+  DWORD          Dword;
+  GUID           ClsID;
+  BOOL           Enable;
+  UINT64         Uint64;
   BG_AUTH_TARGET Target;
 } BITS_JOB_PROPERTY_VALUE;
 ```
@@ -77,7 +84,7 @@ Not supported.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -93,9 +100,9 @@ Not supported.
 [**BITS\_JOB\_TRANSFER\_POLICY**](bits-job-transfer-policy-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

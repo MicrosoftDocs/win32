@@ -4,11 +4,13 @@ description: Represents a relationship between a zone and membership data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dcf94357-8e75-4c6e-a433-584397852eb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: dcf94357-8e75-4c6e-a433-584397852eb6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMZoneToZoneMembershipData class", "MSFT_SMZoneToZoneMembershipData class, described"]
+keywords:
+- MSFT_SMZoneToZoneMembershipData class
+- MSFT_SMZoneToZoneMembershipData class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMZoneToZoneMembershipData class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, dynamic, provider("WMIStorage")]
 class MSFT_SMZoneToZoneMembershipData
 {
-  MSFT_SMZone               REF Parent;
+  MSFT_SMZone               REF Parent;
   MSFT_SMZoneMembershipData REF Child;
 };
 ```
@@ -89,7 +94,7 @@ A reference to the object that represents the zone in the relationship.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ A reference to the object that represents the zone in the relationship.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

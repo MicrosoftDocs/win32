@@ -4,10 +4,13 @@ description: The following functions are used with the backup and restore operat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6683240e-d324-43b9-b673-dda03c89612c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6683240e-d324-43b9-b673-dda03c89612c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Directory Backup Functions

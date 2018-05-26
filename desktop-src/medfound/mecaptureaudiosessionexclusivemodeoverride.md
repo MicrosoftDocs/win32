@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an audio capture source when another program opens the audio device in exclusive mode.'
-ms.assetid: 'E9CC8507-38AB-4049-8DAC-767EC0ECE270'
+---
+Description: Sent by an audio capture source when another program opens the audio device in exclusive mode.
+ms.assetid: E9CC8507-38AB-4049-8DAC-767EC0ECE270
 title: MECaptureAudioSessionExclusiveModeOverride event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MECaptureAudioSessionExclusiveModeOverride event
@@ -10,7 +15,7 @@ Sent by an audio capture source when another program opens the audio device in e
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

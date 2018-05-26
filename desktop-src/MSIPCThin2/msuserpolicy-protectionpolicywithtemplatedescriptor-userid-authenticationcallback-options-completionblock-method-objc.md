@@ -4,17 +4,21 @@ description: This method creates a user policy based on the supplied template de
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '3C475D5C-B1BE-4D69-B6C7-C4D160FDA7EE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 3C475D5C-B1BE-4D69-B6C7-C4D160FDA7EE
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy userPolicyWithTemplateDescriptor userId authenticationCallback options completionBlock method"]
+keywords:
+- MSUserPolicy userPolicyWithTemplateDescriptor userId authenticationCallback options completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy userPolicyWithTemplateDescriptor userId authenticationCallback options completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy userPolicyWithTemplateDescriptor:userId:authenticationCallback:options:completionBlock method
@@ -49,7 +53,7 @@ This method creates a user policy based on the supplied template descriptor. The
 
 
 
- 
+ 
 
 ## Returns
 
@@ -69,7 +73,7 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,9 +94,9 @@ An example usage of this method:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

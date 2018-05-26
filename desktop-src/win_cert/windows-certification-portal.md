@@ -1,7 +1,12 @@
 ---
 title: Certify your desktop application
 description: Follow these steps to get your desktop app certified for Windows 7, Windows 8, Windows 8.1, and Windows 10.If you wish to convert your desktop app to be compatible with the Universal Windows Platform and Windows Store, you will use the Windows Desktop Bridge, in which case you should follow the Desktop Bridge guidance for certification steps.If you are developing and certifying a UWP app from the start, see Guidance for Windows App Certification in UWP for info on certification.
-ms.assetid: 'd77d9f1c-1738-4f44-a351-1985ffc21707'
+ms.assetid: d77d9f1c-1738-4f44-a351-1985ffc21707
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certify your desktop application
@@ -23,7 +28,7 @@ If you are developing and certifying a UWP app from the start, see [Guidance for
 
 
 
- 
+ 
 
 ## Step 2: Test your app with the Windows App Certification Kit
 
@@ -37,7 +42,7 @@ If you are developing and certifying a UWP app from the start, see [Guidance for
 
 
 
- 
+ 
 
 Note: Filter drivers must also pass the [Hardware Certification Kit](https://go.microsoft.com/fwlink/p/?LinkId=733613). (See [Certification requirements for Windows desktop apps, section 6.2](certification-requirements-for-windows-desktop-apps.md).)
 
@@ -56,7 +61,7 @@ To submit your app for certification, you'll need to log in or register a compan
 
 
 
- 
+ 
 
 ## Step 4: Promote your desktop app
 
@@ -69,7 +74,7 @@ To submit your app for certification, you'll need to log in or register a compan
 
 
 
- 
+ 
 
 ## See also:
 
@@ -81,9 +86,9 @@ To submit your app for certification, you'll need to log in or register a compan
 
 [Compatibility cookbook](https://msdn.microsoft.com/library/windows/desktop/hh848074): Get info about what's new or changed in the latest version of Windows.
 
- 
+ 
 
- 
+ 
 
 
 

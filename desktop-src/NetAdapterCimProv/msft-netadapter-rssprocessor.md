@@ -1,7 +1,12 @@
 ---
-Description: 'NDIS\_RSS\_PROCESSOR.'
-ms.assetid: '38de189a-a495-4147-9741-42d848eac9ac'
-title: 'MSFT\_NetAdapter\_RssProcessor class'
+Description: NDIS\_RSS\_PROCESSOR.
+ms.assetid: 38de189a-a495-4147-9741-42d848eac9ac
+title: MSFT\_NetAdapter\_RssProcessor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_RssProcessor class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetAdapter_RssProcessor
 {
   uint16 ProcessorGroup;
-  uint8  ProcessorNumber;
+  uint8  ProcessorNumber;
   uint16 PreferenceIndex;
 };
 ```
@@ -79,17 +84,17 @@ The processor number.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

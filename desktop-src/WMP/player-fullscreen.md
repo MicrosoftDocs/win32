@@ -1,8 +1,9 @@
 ---
 title: Player.fullScreen
 description: The fullScreen property specifies or retrieves a value indicating whether video content is played back in full-screen mode.
-ms.assetid: '43eeeddd-13a6-44d8-9cff-a60e976fc189'
-keywords: ["Player.fullScreen Windows Media Player"]
+ms.assetid: 43eeeddd-13a6-44d8-9cff-a60e976fc189
+keywords:
+- Player.fullScreen Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.fullScreen
@@ -34,7 +40,7 @@ This property is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,9 +98,9 @@ The following example creates an HTML input button that uses *Player*.**fullScre
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

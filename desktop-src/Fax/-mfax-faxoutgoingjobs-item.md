@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxOutgoingJob object from the FaxOutgoingJobs collection.'
-ms.assetid: 'a4f4c6b1-7495-4c01-aaa9-7ebb4da05852'
-title: 'FaxOutgoingJobs.Item property'
+---
+Description: The Item property returns a FaxOutgoingJob object from the FaxOutgoingJobs collection.
+ms.assetid: a4f4c6b1-7495-4c01-aaa9-7ebb4da05852
+title: FaxOutgoingJobs.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJobs.Item property
@@ -48,7 +53,7 @@ A [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md) object.
 [**FaxOutgoingJobs**](-mfax-faxoutgoingjobs.md)
 </dt> <dt>
 
-[**IFaxOutgoingJobs**](-mfax-faxoutgoingjobs-cpp.md)
+[**IFaxOutgoingJobs**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjobs?branch=master)
 </dt> </dl>
 
  

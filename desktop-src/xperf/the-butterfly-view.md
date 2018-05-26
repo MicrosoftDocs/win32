@@ -1,7 +1,12 @@
 ---
 title: The Butterfly View
 description: The Butterfly View
-ms.assetid: '4996bac8-1160-4522-a0a4-bf5380305a20'
+ms.assetid: 4996bac8-1160-4522-a0a4-bf5380305a20
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Butterfly View

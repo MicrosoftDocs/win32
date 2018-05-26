@@ -1,8 +1,17 @@
 ---
 title: DownloadCollection Object
 description: DownloadCollection Object
-ms.assetid: 'e943b391-386e-43c5-a314-55ea31b2eefa'
-keywords: ["Windows Media Player online stores,DownloadCollection object", "online stores,DownloadCollection object", "type 2 online stores,DownloadCollection object", "DownloadCollection"]
+ms.assetid: e943b391-386e-43c5-a314-55ea31b2eefa
+keywords:
+- Windows Media Player online stores,DownloadCollection object
+- online stores,DownloadCollection object
+- type 2 online stores,DownloadCollection object
+- DownloadCollection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection Object

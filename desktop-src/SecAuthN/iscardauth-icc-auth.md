@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ICC\_Auth method allows an application to authenticate the smart card.'
-ms.assetid: '98aea241-6bdc-4f47-b56c-a90f69fcd9a4'
-title: 'ISCardAuth::ICC\_Auth method'
+---
+Description: The ICC\_Auth method allows an application to authenticate the smart card.
+ms.assetid: 98aea241-6bdc-4f47-b56c-a90f69fcd9a4
+title: ISCardAuthICC\_Auth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardAuth::ICC\_Auth method

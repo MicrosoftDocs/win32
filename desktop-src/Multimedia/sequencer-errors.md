@@ -1,8 +1,26 @@
 ---
 title: Sequencer Errors
 description: Sequencer Errors
-ms.assetid: '07f2d6c5-8c23-4f3e-8b8a-4f659eda57f7'
-keywords: ["MCIERR return values,sequencer errors", "multimedia reference,sequencer errors", "reference for multimedia,sequencer errors", "Media Control Interface (MCI),sequencer errors", "MCI (Media Control Interface),sequencer errors", "reference for MCI,sequencer errors", "MCI reference,sequencer errors", "Media Control Interface (MCI),errors", "MCI (Media Control Interface),errors", "reference for MCI,errors", "MCI reference,errors", "sequencer errors", "MCI sequencer errors"]
+ms.assetid: 07f2d6c5-8c23-4f3e-8b8a-4f659eda57f7
+keywords:
+- MCIERR return values,sequencer errors
+- multimedia reference,sequencer errors
+- reference for multimedia,sequencer errors
+- Media Control Interface (MCI),sequencer errors
+- MCI (Media Control Interface),sequencer errors
+- reference for MCI,sequencer errors
+- MCI reference,sequencer errors
+- Media Control Interface (MCI),errors
+- MCI (Media Control Interface),errors
+- reference for MCI,errors
+- MCI reference,errors
+- sequencer errors
+- MCI sequencer errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequencer Errors

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UnitType property gets the unit type.'
-ms.assetid: '7ED1D02B-07DB-409B-AABF-4ED1D28B3C43'
-title: 'IPrintSchemaParameterDefinition::UnitType property'
+---
+Description: The UnitType property gets the unit type.
+ms.assetid: 7ED1D02B-07DB-409B-AABF-4ED1D28B3C43
+title: IPrintSchemaParameterDefinitionUnitType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterDefinition::UnitType property

@@ -1,21 +1,27 @@
 ---
 title: copy command
 description: The copy command copies data to the clipboard. Digital-video devices recognize this command.
-ms.assetid: '25b16107-b2ec-4e16-a596-10708dbc639d'
-keywords: ["copy command Windows Multimedia"]
+ms.assetid: 25b16107-b2ec-4e16-a596-10708dbc639d
+keywords:
+- copy command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - copy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # copy command
 
 The copy command copies data to the clipboard. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -55,7 +61,7 @@ One of the following flags identifying the item to copy.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,8 +82,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -91,9 +97,9 @@ Returns zero if successful or an error otherwise.
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Sample Grabber filter is a transform filter that can be used to grab media samples from a stream as they pass through the filter graph.'
-ms.assetid: 'ec0e367e-9ef9-4de6-9132-b462c233bc98'
+Description: The Sample Grabber filter is a transform filter that can be used to grab media samples from a stream as they pass through the filter graph.
+ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: Using the Sample Grabber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Sample Grabber
@@ -23,7 +28,7 @@ If you simply want to grab a bitmap from a video file, it is easier to use the [
 
 ## Create the Filter Graph Manager
 
-To start, create the [Filter Graph Manager](filter-graph-manager.md) and query for the [**IMediaControl**](imediacontrol.md) and [**IMediaEventEx**](imediaeventex.md) interfaces.
+To start, create the [Filter Graph Manager](filter-graph-manager.md) and query for the [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) and [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) interfaces.
 
 
 ```C++
@@ -316,9 +321,9 @@ In buffering mode, the Sample Grabber stores a copy of every sample. The [**ISam
 
 
 
-You will need to know the exact format of the data in the buffer. To get this information, call the [**ISampleGrabber::GetConnectedMediaType**](isamplegrabber-getconnectedmediatype.md) method. This method fills in an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure with the format.
+You will need to know the exact format of the data in the buffer. To get this information, call the [**ISampleGrabber::GetConnectedMediaType**](isamplegrabber-getconnectedmediatype.md) method. This method fills in an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure with the format.
 
-For an uncompressed video stream, the format information is contained in a [**VIDEOINFOHEADER**](videoinfoheader.md) structure. The following example shows how to get the format information for an uncompressed video stream.
+For an uncompressed video stream, the format information is contained in a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure. The following example shows how to get the format information for an uncompressed video stream.
 
 
 ```C++
@@ -342,7 +347,7 @@ For an uncompressed video stream, the format information is contained in a [**VI
 
 
 > [!Note]  
-> The Sample Grabber does not support [**VIDEOINFOHEADER2**](videoinfoheader2.md).
+> The Sample Grabber does not support [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master).
 
  
 

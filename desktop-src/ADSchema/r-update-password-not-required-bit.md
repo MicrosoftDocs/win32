@@ -4,17 +4,21 @@ description: Extended control access right that allows a user to enable or disab
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f633098d-f0af-43e0-b7bd-5cf53045f86e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f633098d-f0af-43e0-b7bd-5cf53045f86e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Update-Password-Not-Required-Bit extended right AD Schema"]
+keywords:
+- Update-Password-Not-Required-Bit extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Update-Password-Not-Required-Bit
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Update-Password-Not-Required-Bit extended right
@@ -33,11 +37,11 @@ Extended control access right that allows a user to enable or disable the "passw
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -94,9 +98,9 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
- 
+ 
 
- 
+ 
 
 
 

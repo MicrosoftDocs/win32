@@ -1,7 +1,12 @@
 ---
 title: Name Resolution
 description: The purpose of DNS is to provide name resolution the process of comparing a host name (such as a computer name) to a list of RRs and identifying the corresponding IP address.
-ms.assetid: 'c15aa01c-6a4e-4685-ab26-605b58f829de'
+ms.assetid: c15aa01c-6a4e-4685-ab26-605b58f829de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Resolution

@@ -1,7 +1,12 @@
 ---
-Description: 'What''s New in Native Wifi'
-ms.assetid: '76d60b95-a34a-4747-b0fa-9230aa60bd63'
-title: 'What''s New in Native Wifi'
+Description: Whats New in Native Wifi
+ms.assetid: 76d60b95-a34a-4747-b0fa-9230aa60bd63
+title: Whats New in Native Wifi
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Native Wifi
@@ -18,14 +23,14 @@ A Wi-Fi Direct feature based on the development of the Wi-Fi Peer-to-Peer Techni
 
 The following functions support the Wi-Fi Direct feature.
 
--   [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](wfd-open-session-complete-callback.md)
--   [**WFDCancelOpenSession**](wfdcancelopensession.md)
--   [**WFDCloseHandle**](wfdclosehandle.md)
--   [**WFDCloseSession**](wfdclosesession.md)
--   [**WFDOpenHandle**](wfdopenhandle.md)
--   [**WFDOpenLegacySession**](wfdopenlegacysession.md)
--   [**WFDStartOpenSession**](wfdstartopensession.md)
--   [**WFDUpdateDeviceVisibility**](wfdupdatedevicevisibility.md)
+-   [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](/windows/win32/wlanapi/nc-wlanapi-wfd_open_session_complete_callback?branch=master)
+-   [**WFDCancelOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdcancelopensession?branch=master)
+-   [**WFDCloseHandle**](/windows/win32/wlanapi/nf-wlanapi-wfdclosehandle?branch=master)
+-   [**WFDCloseSession**](/windows/win32/wlanapi/nf-wlanapi-wfdclosesession?branch=master)
+-   [**WFDOpenHandle**](/windows/win32/wlanapi/nf-wlanapi-wfdopenhandle?branch=master)
+-   [**WFDOpenLegacySession**](/windows/win32/wlanapi/nf-wlanapi-wfdopenlegacysession?branch=master)
+-   [**WFDStartOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdstartopensession?branch=master)
+-   [**WFDUpdateDeviceVisibility**](/windows/win32/wlanapi/nf-wlanapi-wfdupdatedevicevisibility?branch=master)
 
 ## Windows 7 and Windows Server 2008 R2
 
@@ -35,36 +40,36 @@ The wireless Hosted Network allows a single physical wireless adapter to connect
 
 The following functions support the wireless Hosted Network feature.
 
--   [**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md)
--   [**WlanHostedNetworkForceStop**](wlanhostednetworkforcestop.md)
--   [**WlanHostedNetworkInitSettings**](wlanhostednetworkinitsettings.md)
--   [**WlanHostedNetworkQueryProperty**](wlanhostednetworkqueryproperty.md)
--   [**WlanHostedNetworkQuerySecondaryKey**](wlanhostednetworkquerysecondarykey.md)
--   [**WlanHostedNetworkQueryStatus**](wlanhostednetworkquerystatus.md)
--   [**WlanHostedNetworkRefreshSecuritySettings**](wlanhostednetworkrefreshsecuritysettings.md)
--   [**WlanHostedNetworkSetProperty**](wlanhostednetworksetproperty.md)
--   [**WlanHostedNetworkSetSecondaryKey**](wlanhostednetworksetsecondarykey.md)
--   [**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md)
--   [**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md)
--   [**WlanRegisterVirtualStationNotification**](wlanregistervirtualstationnotification.md)
+-   [**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master)
+-   [**WlanHostedNetworkForceStop**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop?branch=master)
+-   [**WlanHostedNetworkInitSettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkinitsettings?branch=master)
+-   [**WlanHostedNetworkQueryProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty?branch=master)
+-   [**WlanHostedNetworkQuerySecondaryKey**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerysecondarykey?branch=master)
+-   [**WlanHostedNetworkQueryStatus**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerystatus?branch=master)
+-   [**WlanHostedNetworkRefreshSecuritySettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkrefreshsecuritysettings?branch=master)
+-   [**WlanHostedNetworkSetProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworksetproperty?branch=master)
+-   [**WlanHostedNetworkSetSecondaryKey**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey?branch=master)
+-   [**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master)
+-   [**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master)
+-   [**WlanRegisterVirtualStationNotification**](/windows/win32/Wlanapi/nf-wlanapi-wlanregistervirtualstationnotification?branch=master)
 
 The following new structures that work with wireless Hosted Network.
 
--   [**WLAN\_HOSTED\_NETWORK\_CONNECTION\_SETTINGS**](wlan-hosted-network-connection-settings.md)
--   [**WLAN\_HOSTED\_NETWORK\_DATA\_PEER\_STATE\_CHANGE**](wlan-hosted-network-data-peer-state-change.md)
--   [**WLAN\_HOSTED\_NETWORK\_PEER\_STATE**](wlan-hosted-network-peer-state.md)
--   [**WLAN\_HOSTED\_NETWORK\_RADIO\_STATE**](wlan-hosted-network-radio-state.md)
--   [**WLAN\_HOSTED\_NETWORK\_SECURITY\_SETTINGS**](wlan-hosted-network-security-settings.md)
--   [**WLAN\_HOSTED\_NETWORK\_STATE\_CHANGE**](wlan-hosted-network-state-change.md)
--   [**WLAN\_HOSTED\_NETWORK\_STATUS**](wlan-hosted-network-status.md)
+-   [**WLAN\_HOSTED\_NETWORK\_CONNECTION\_SETTINGS**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_connection_settings?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_DATA\_PEER\_STATE\_CHANGE**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_data_peer_state_change?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_PEER\_STATE**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_peer_state?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_RADIO\_STATE**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_radio_state?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_SECURITY\_SETTINGS**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_security_settings?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_STATE\_CHANGE**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_state_change?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_STATUS**](/windows/win32/Wlanapi/ns-wlanapi-_wlan_hosted_network_status?branch=master)
 
 The following new enumerations that work with wireless Hosted Network.
 
--   [**WLAN\_HOSTED\_NETWORK\_NOTIFICATION\_CODE**](wlan-hosted-network-notification-code.md)
--   [**WLAN\_HOSTED\_NETWORK\_OPCODE**](wlan-hosted-network-opcode.md)
--   [**WLAN\_HOSTED\_NETWORK\_PEER\_AUTH\_STATE**](wlan-hosted-network-peer-auth-state.md)
--   [**WLAN\_HOSTED\_NETWORK\_REASON**](wlan-hosted-network-reason.md)
--   [**WLAN\_HOSTED\_NETWORK\_STATE**](wlan-hosted-network-state.md)
+-   [**WLAN\_HOSTED\_NETWORK\_NOTIFICATION\_CODE**](/windows/win32/Wlanapi/ne-wlanapi-_wlan_hosted_network_notification_code?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_OPCODE**](/windows/win32/Wlanapi/ne-wlanapi-_wlan_hosted_network_opcode?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_PEER\_AUTH\_STATE**](/windows/win32/Wlanapi/ne-wlanapi-_wlan_hosted_network_peer_auth_state?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_REASON**](/windows/win32/Wlanapi/ne-wlanapi-_wlan_hosted_network_reason?branch=master)
+-   [**WLAN\_HOSTED\_NETWORK\_STATE**](/windows/win32/Wlanapi/ne-wlanapi-_wlan_hosted_network_state?branch=master)
 
 ## Related topics
 

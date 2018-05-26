@@ -1,8 +1,18 @@
 ---
 title: Ambient Attributes
 description: Ambient Attributes
-ms.assetid: '9dc8c770-4de3-42d8-b388-4426a4b0e788'
-keywords: ["Windows Media Player skins,ambient attributes", "skins,ambient attributes", "reference for skins,ambient attributes", "ambient attributes", "attributes,ambient"]
+ms.assetid: 9dc8c770-4de3-42d8-b388-4426a4b0e788
+keywords:
+- Windows Media Player skins,ambient attributes
+- skins,ambient attributes
+- reference for skins,ambient attributes
+- ambient attributes
+- attributes,ambient
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ambient Attributes

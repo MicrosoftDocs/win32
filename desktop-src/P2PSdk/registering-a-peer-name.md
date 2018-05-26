@@ -1,7 +1,12 @@
 ---
-Description: 'To register a peer name, an application must provide the following information:IP address listPeer identityPeer nameIf a peer name is unsecured, an identity is optional.'
-ms.assetid: '4de87146-3ea1-4019-9d3f-59de296083ae'
+Description: To register a peer name, an application must provide the following informationIP address listPeer identityPeer nameIf a peer name is unsecured, an identity is optional.
+ms.assetid: 4de87146-3ea1-4019-9d3f-59de296083ae
 title: Registering a Peer Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Peer Name
@@ -32,7 +37,7 @@ The [**WSAQUERYSET**](pnrp-and-wsaqueryset.md) structure must be configured acco
 
 -   **dwSize** must specify the size the [**WSAQUERYSET**](pnrp-and-wsaqueryset.md) structure.
 -   **lpszServiceInstanceName** must point to the peer name that is being registered.
--   **lpBlob** must point to a [**PNRPINFO**](pnrpinfo.md) structure.
+-   **lpBlob** must point to a [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure.
 -   **lpcsaBuffer** must point to the address list.
 
 > [!Note]  

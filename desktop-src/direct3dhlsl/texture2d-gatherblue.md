@@ -1,12 +1,18 @@
 ---
 title: Texture2D GatherBlue methods
 description: Samples a Texture2D and returns the blue component.
-ms.assetid: '6d753ef2-2818-4990-81df-52dda044d21d'
-keywords: ["GatherBlue methods HLSL"]
+ms.assetid: 6d753ef2-2818-4990-81df-52dda044d21d
+keywords:
+- GatherBlue methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::GatherBlue methods
@@ -33,9 +39,9 @@ Samples a [**Texture2D**](sm5-object-texture2d.md) and returns the blue componen
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ImportVirtualSystemEx method of the Msvm\_VirtualSystemManagementService class
 description: Imports a virtual computer system definition from a file.
-ms.assetid: '5d330fe0-6a30-4f37-acf3-4d312a7b3198'
-keywords: ["ImportVirtualSystemEx method Hyper-V", "ImportVirtualSystemEx method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ImportVirtualSystemEx method"]
+ms.assetid: 5d330fe0-6a30-4f37-acf3-4d312a7b3198
+keywords:
+- ImportVirtualSystemEx method Hyper-V
+- ImportVirtualSystemEx method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ImportVirtualSystemEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportVirtualSystemEx method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Imports a virtual computer system definition from a file. The resulting virtual 
 
 ```mof
 uint32 ImportVirtualSystemEx(
-  [in]  string              ImportDirectory,
-  [in]  string              ImportSettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              ImportDirectory,
+  [in]  string              ImportSettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -119,7 +127,7 @@ The following C# sample imports a virtual system. The referenced utilities can b
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -241,7 +249,7 @@ The following VBScript sample imports a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -418,9 +426,9 @@ For more examples demonstrating the **ImportVirtualSystemEx** method, see [Impor
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -436,9 +444,9 @@ For more examples demonstrating the **ImportVirtualSystemEx** method, see [Impor
 [**ImportVirtualSystem**](importvirtualsystem-msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

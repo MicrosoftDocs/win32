@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Filename method specifies the name of the source file for the media detector to use.'
-ms.assetid: '37bcc7ed-d2c1-4182-b85a-03bad92c5ba7'
-title: 'IMediaDet::put\_Filename method'
+---
+Description: The put\_Filename method specifies the name of the source file for the media detector to use.
+ms.assetid: 37bcc7ed-d2c1-4182-b85a-03bad92c5ba7
+title: IMediaDetput\_Filename method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::put\_Filename method

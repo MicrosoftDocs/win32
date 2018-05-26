@@ -1,7 +1,12 @@
 ---
-Description: 'The remaining playing time on the device, in 100ns units.'
-ms.assetid: '124357C9-32DC-4C81-8699-4C92A542A888'
-title: 'System.Devices.RemainingDuration'
+Description: The remaining playing time on the device, in 100ns units.
+ms.assetid: 124357C9-32DC-4C81-8699-4C92A542A888
+title: System.Devices.RemainingDuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.RemainingDuration

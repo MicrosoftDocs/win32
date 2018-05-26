@@ -1,8 +1,11 @@
 ---
 title: SetButtonState method of the Msvm\_SyntheticMouse class
 description: Sets the current state of the specified device button.
-ms.assetid: '798a1708-3f22-46c1-8887-6d1592d2f08e'
-keywords: ["SetButtonState method Hyper-V", "SetButtonState method Hyper-V , Msvm_SyntheticMouse class", "Msvm_SyntheticMouse class Hyper-V , SetButtonState method"]
+ms.assetid: 798a1708-3f22-46c1-8887-6d1592d2f08e
+keywords:
+- SetButtonState method Hyper-V
+- SetButtonState method Hyper-V , Msvm_SyntheticMouse class
+- Msvm_SyntheticMouse class Hyper-V , SetButtonState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - mmc.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetButtonState method of the Msvm\_SyntheticMouse class
@@ -22,8 +30,8 @@ Sets the current state of the specified device button.
 
 ```mof
 uint32 SetButtonState(
-  [in] uint32  buttonIndex,
-  [in] boolean isDown
+  [in] uint32  buttonIndex,
+  [in] boolean isDown
 );
 ```
 
@@ -109,9 +117,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl>                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
@@ -125,9 +133,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

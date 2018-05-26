@@ -3,11 +3,14 @@ title: FSRM WMI Classes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1CE772FA-CE33-4900-A499-058175A7C37E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 1CE772FA-CE33-4900-A499-058175A7C37E
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FSRM WMI Classes

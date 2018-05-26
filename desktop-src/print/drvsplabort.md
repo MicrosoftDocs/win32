@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'b40dff76-4330-4527-b1f6-69f625732604'
+---
+Description: .
+ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
 title: DrvSplAbort function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplAbort function

@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdCollection GetItem method
 description: Returns a MetricThreshold from the MetricThresholdCollection.
-ms.assetid: '0DC862B6-5565-4DAD-BA08-3FDC77C55335'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , MetricThresholdCollection interface", "MetricThresholdCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: 0DC862B6-5565-4DAD-BA08-3FDC77C55335
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , MetricThresholdCollection interface
+- MetricThresholdCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdCollection::GetItem method
@@ -22,8 +30,8 @@ Returns a [**MetricThreshold**](metricthreshold-struct.md) from the **MetricThre
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT             index,
-  [out] MetricThreshold **metricThreshold
+  [in]  INT             index,
+  [out] MetricThreshold **metricThreshold
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ A **MetricThreshold** holds data from a **MetricThresholds/MetricThreshold** ele
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ A **MetricThreshold** holds data from a **MetricThresholds/MetricThreshold** ele
 [**MetricThresholdCollection**](metricthresholdcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

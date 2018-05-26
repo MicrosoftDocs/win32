@@ -1,14 +1,20 @@
 ---
 title: EndBoundary (triggerBaseType) Element
 description: Specifies the date and time when the trigger is deactivated. The trigger cannot start the task after it is deactivated.
-ms.assetid: '84731c0b-3fb8-44dd-be1a-67547add1f9e'
-keywords: ["EndBoundary element Task Scheduler"]
+ms.assetid: 84731c0b-3fb8-44dd-be1a-67547add1f9e
+keywords:
+- EndBoundary element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - EndBoundary
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EndBoundary (triggerBaseType) Element
@@ -43,7 +49,7 @@ The **EndBoundary** element is defined by the [**triggerBaseType**](taskschedule
 
 For scripting development, the end boundary is specified using the [**Trigger.EndBoundary**](trigger-endboundary.md) property that is inherited by the all trigger objects.
 
-For C++ development, the end boundary is specified using the [**ITrigger::EndBoundary**](itrigger-endboundary.md) property that is inherited by the all trigger interfaces.
+For C++ development, the end boundary is specified using the [**ITrigger::EndBoundary**](/windows/win32/taskschd/nf-taskschd-itrigger-get_endboundary?branch=master) property that is inherited by the all trigger interfaces.
 
 ## Examples
 
@@ -69,8 +75,8 @@ The following XML defines a boot trigger element that defines an end boundary of
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +90,9 @@ The following XML defines a boot trigger element that defines an end boundary of
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

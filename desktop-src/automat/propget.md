@@ -1,7 +1,12 @@
 ---
 title: propget
 description: Specifies a property-accessor function.
-ms.assetid: '391bd482-d789-488c-82bd-fb4fc848f8a5'
+ms.assetid: 391bd482-d789-488c-82bd-fb4fc848f8a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propget

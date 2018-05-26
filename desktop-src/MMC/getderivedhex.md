@@ -4,11 +4,14 @@ description: The GetDerivedHex method derives a color based on a starting color,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '89dae6a6-1c01-4195-a8c5-4405874f6086'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 89dae6a6-1c01-4195-a8c5-4405874f6086
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetDerivedHex method MMC", "GetDerivedHex method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetDerivedHex method"]
+keywords:
+- GetDerivedHex method MMC
+- GetDerivedHex method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetDerivedHex method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetDerivedHex method
@@ -148,9 +154,9 @@ function init() {
 
 
 
- 
+ 
 
- 
+ 
 
 
 

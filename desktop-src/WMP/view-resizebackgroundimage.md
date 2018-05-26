@@ -1,14 +1,20 @@
 ---
 title: VIEW.resizeBackgroundImage
 description: The resizeBackgroundImage attribute specifies or retrieves a value indicating whether the background image can be resized.
-ms.assetid: 'd18f3def-777f-4a71-961e-73bae98a4c64'
-keywords: ["VIEW.resizeBackgroundImage Windows Media Player"]
+ms.assetid: d18f3def-777f-4a71-961e-73bae98a4c64
+keywords:
+- VIEW.resizeBackgroundImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.resizeBackgroundImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.resizeBackgroundImage
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ If you set this attribute to true, the background image will resize to fit the c
 [**VIEW.backgroundImage**](view-backgroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML FillColor Attribute
 description: VML FillColor Attribute
-ms.assetid: 'c18302e1-86a5-4046-811f-576a746ea398'
+ms.assetid: c18302e1-86a5-4046-811f-576a746ea398
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML FillColor Attribute

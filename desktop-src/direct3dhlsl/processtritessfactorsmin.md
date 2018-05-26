@@ -1,14 +1,20 @@
 ---
 title: ProcessTriTessFactorsMin function
 description: Generates the corrected tessellation factors for a tri patch.
-ms.assetid: 'fa1e19c2-fadf-42d4-9574-834eaf871393'
-keywords: ["ProcessTriTessFactorsMin function HLSL"]
+ms.assetid: fa1e19c2-fadf-42d4-9574-834eaf871393
+keywords:
+- ProcessTriTessFactorsMin function HLSL
 topic_type:
 - apiref
 api_name:
 - ProcessTriTessFactorsMin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessTriTessFactorsMin function

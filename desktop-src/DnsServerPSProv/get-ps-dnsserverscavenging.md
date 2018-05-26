@@ -2,13 +2,16 @@
 title: Get method of the PS\_DnsServerScavenging class
 description: Retrieves DNS aging and scavenging settings.
 audience: developer
-ms.assetid: 'cf2c9450-86d7-463f-868a-e4c1eb6c63dd'
-ms.prod: 'windows-server-dev'
+ms.assetid: cf2c9450-86d7-463f-868a-e4c1eb6c63dd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DnsServerScavenging class", "PS_DnsServerScavenging class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DnsServerScavenging class
+- PS_DnsServerScavenging class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DnsServerScavenging class
@@ -28,8 +34,8 @@ Retrieves DNS aging and scavenging settings.
 
 ```mof
 uint32 Get(
-  [in]  string              ComputerName,
-  [out] DnsServerScavenging cmdletOutput
+  [in]  string              ComputerName,
+  [out] DnsServerScavenging cmdletOutput
 );
 ```
 
@@ -60,7 +66,7 @@ An embedded instance of the [**DnsServerScavenging**](dnsserverscavenging.md) cl
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ An embedded instance of the [**DnsServerScavenging**](dnsserverscavenging.md) cl
 [**PS\_DnsServerScavenging**](ps-dnsserverscavenging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

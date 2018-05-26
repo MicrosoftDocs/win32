@@ -1,8 +1,12 @@
 ---
 title: RepetitionPattern object
 description: Scripting object that defines how often the task is run and how long the repetition pattern is repeated after the task is started.
-ms.assetid: '7eea143b-d2f8-44d2-a3ec-8328a0bc69ef'
-keywords: ["triggers Task Scheduler , repetition pattern object", "repetition pattern Task Scheduler , object", "RepetitionPattern object Task Scheduler", "RepetitionPattern object Task Scheduler , described"]
+ms.assetid: 7eea143b-d2f8-44d2-a3ec-8328a0bc69ef
+keywords:
+- triggers Task Scheduler , repetition pattern object
+- repetition pattern Task Scheduler , object
+- RepetitionPattern object Task Scheduler
+- RepetitionPattern object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +15,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RepetitionPattern object
@@ -37,7 +46,7 @@ The **RepetitionPattern** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +60,7 @@ If you register a task that contains a trigger with a repetition interval equal 
 4.  The next task starts at the end of the third minute.
 5.  The next task starts at the end of the fourth minute.
 
-**Windows Server 2003, Windows XP and Windows 2000:** If you register a task that contains a trigger with a repetition interval equal to one minute and a repetition duration equal to four minutes, the task will be launched four times.
+**Windows Server 2003, Windows XP and Windows 2000:** If you register a task that contains a trigger with a repetition interval equal to one minute and a repetition duration equal to four minutes, the task will be launched four times.
 
 When reading or writing XML for a task, the repetition pattern is specified using the [**Repetition**](taskschedulerschema-repetition-triggerbasetype-element.md) element of the Task Scheduler schema.
 
@@ -65,8 +74,8 @@ For more information and example code for this property, see [Daily Trigger Exam
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -82,9 +91,9 @@ For more information and example code for this property, see [Daily Trigger Exam
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

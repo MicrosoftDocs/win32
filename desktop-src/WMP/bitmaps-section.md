@@ -1,8 +1,19 @@
 ---
 title: Bitmaps Section
 description: Bitmaps Section
-ms.assetid: 'db2801e5-c55a-4681-9fe9-6027f28653e0'
-keywords: ["Windows Media Player Mobile skins,bitmaps", "skins,bitmaps", "creating skins,Bitmaps section", "writing code for skins,Bitmaps section", "bitmaps in skins,Bitmaps section", "skin definition files,Bitmaps section"]
+ms.assetid: db2801e5-c55a-4681-9fe9-6027f28653e0
+keywords:
+- Windows Media Player Mobile skins,bitmaps
+- skins,bitmaps
+- creating skins,Bitmaps section
+- writing code for skins,Bitmaps section
+- bitmaps in skins,Bitmaps section
+- skin definition files,Bitmaps section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmaps Section

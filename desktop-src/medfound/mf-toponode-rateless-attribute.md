@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the media sink associated with this topology node is rateless.'
-ms.assetid: '81ef7005-a9ab-4f26-bc39-68b27c4f92aa'
-title: 'MF\_TOPONODE\_RATELESS attribute'
+---
+Description: Specifies whether the media sink associated with this topology node is rateless.
+ms.assetid: 81ef7005-a9ab-4f26-bc39-68b27c4f92aa
+title: MF\_TOPONODE\_RATELESS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_RATELESS attribute
@@ -41,16 +46,16 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaSink::GetCharacteristics**](imfmediasink-getcharacteristics.md)
+[**IMFMediaSink::GetCharacteristics**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getcharacteristics?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Topology Node Attributes](topology-node-attributes.md)

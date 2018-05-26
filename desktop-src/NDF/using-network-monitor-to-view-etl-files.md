@@ -1,7 +1,12 @@
 ---
 title: Using Network Monitor to View ETL Files
 description: Network Monitor 3.3 enables users to parse, filter, and view an ETL file (using Windows Vista or later).
-ms.assetid: '932be193-70f9-48f9-95d8-18916d3b7064'
+ms.assetid: 932be193-70f9-48f9-95d8-18916d3b7064
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Network Monitor to View ETL Files

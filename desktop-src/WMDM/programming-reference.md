@@ -1,8 +1,27 @@
 ---
 title: Programming Reference
 description: Programming Reference
-ms.assetid: '1d2260a8-bc9f-41b3-a3b0-0176b45fff1f'
-keywords: ["Windows Media Device Manager,programming reference", "Device Manager,programming reference", "Windows Media Device Manager,desktop applications", "Device Manager,desktop applications", "Windows Media Device Manager,service providers", "Device Manager,service providers", "desktop applications,programming reference", "service providers,programming reference", "programming reference,desktop applications", "programming reference,service providers", "programming reference,Windows Media Device Manager", "reference for Windows Media Device Manager,about", "reference for Windows Media Device Manager,desktop applications", "reference for Windows Media Device Manager,service providers"]
+ms.assetid: 1d2260a8-bc9f-41b3-a3b0-0176b45fff1f
+keywords:
+- Windows Media Device Manager,programming reference
+- Device Manager,programming reference
+- Windows Media Device Manager,desktop applications
+- Device Manager,desktop applications
+- Windows Media Device Manager,service providers
+- Device Manager,service providers
+- desktop applications,programming reference
+- service providers,programming reference
+- programming reference,desktop applications
+- programming reference,service providers
+- programming reference,Windows Media Device Manager
+- reference for Windows Media Device Manager,about
+- reference for Windows Media Device Manager,desktop applications
+- reference for Windows Media Device Manager,service providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Reference

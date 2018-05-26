@@ -1,8 +1,14 @@
 ---
 title: The \ size\_is\ Attribute
 description: The \ size\_is\ attribute is associated with an integer constant, expression, or variable that specifies the allocation size of the array.
-ms.assetid: '5252c1a2-8e07-4e28-8280-6a9563d1b291'
-keywords: ["size_is"]
+ms.assetid: 5252c1a2-8e07-4e28-8280-6a9563d1b291
+keywords:
+- size_is
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The \[size\_is\] Attribute

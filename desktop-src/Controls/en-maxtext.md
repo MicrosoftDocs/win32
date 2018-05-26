@@ -1,8 +1,9 @@
 ---
 title: EN\_MAXTEXT notification code
 description: Sent when the current text insertion has exceeded the specified number of characters for the edit control.
-ms.assetid: 'b03835d6-d06f-415a-97f2-d2b62b17e175'
-keywords: ["EN_MAXTEXT notification code Windows Controls"]
+ms.assetid: b03835d6-d06f-415a-97f2-d2b62b17e175
+keywords:
+- EN_MAXTEXT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_MAXTEXT notification code
@@ -55,7 +61,7 @@ A handle to the edit control.
 
 The parent window always receives a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message for this event, it does not require a notification mask sent with [**EM\_SETEVENTMASK**](em-seteventmask.md).
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -63,8 +69,8 @@ The parent window always receives a [**WM\_COMMAND**](https://msdn.microsoft.com
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The parent window always receives a [**WM\_COMMAND**](https://msdn.microsoft.com
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

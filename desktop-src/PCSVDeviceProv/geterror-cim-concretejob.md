@@ -1,13 +1,16 @@
 ---
-Description: 'When the job is executing or has terminated without error, then this method returns no CIM\_Error instance.'
+Description: When the job is executing or has terminated without error, then this method returns no CIM\_Error instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b2fa6c08-e2d5-4286-8209-a849afe2b785'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b2fa6c08-e2d5-4286-8209-a849afe2b785
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetError method of the CIM\_ConcreteJob class'
+title: GetError method of the CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the CIM\_ConcreteJob class
@@ -19,7 +22,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetError(
-  [out] CIM_Error Error
+  [out] CIM_Error Error
 );
 ```
 
@@ -61,10 +64,10 @@ If the OperationalStatus on the Job is not "OK", then this method will return a 
 **Access Denied** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -73,8 +76,8 @@ If the OperationalStatus on the Job is not "OK", then this method will return a 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
@@ -88,9 +91,9 @@ If the OperationalStatus on the Job is not "OK", then this method will return a 
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

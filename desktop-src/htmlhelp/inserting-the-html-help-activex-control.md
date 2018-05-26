@@ -1,7 +1,12 @@
 ---
 title: Inserting the HTML Help ActiveX Control
 description: Inserting the HTML Help ActiveX Control
-ms.assetid: '5F862AA3-D7C6-4085-A8E3-15440BD3816B'
+ms.assetid: 5F862AA3-D7C6-4085-A8E3-15440BD3816B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inserting the HTML Help ActiveX Control
@@ -24,7 +29,7 @@ To use the HTML Help ActiveX Control Wizard, start HTML Help Workshop, and then 
 
 
 
- 
+ 
 
 To edit an existing instance of the control, position your cursor anywhere within the &lt;OBJECT&gt; start and end tags of the control, and then click **HTML Help ActiveX Control**.
 
@@ -45,9 +50,9 @@ Never omit the &lt;PARAM&gt; tag from the HTML Help ActiveX control &lt;OBJECT&g
 [About the HTML Help ActiveX Control](html-help-activex-control-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetSourcesCount method retrieves the number of sources in the track.'
-ms.assetid: 'eb7f249f-355f-454d-9fe6-c3271fd13fc7'
-title: 'IAMTimelineTrack::GetSourcesCount method'
+---
+Description: The GetSourcesCount method retrieves the number of sources in the track.
+ms.assetid: eb7f249f-355f-454d-9fe6-c3271fd13fc7
+title: IAMTimelineTrackGetSourcesCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::GetSourcesCount method

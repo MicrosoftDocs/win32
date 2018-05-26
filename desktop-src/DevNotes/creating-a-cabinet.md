@@ -1,7 +1,12 @@
 ---
-Description: 'The following syntax illustrates the creation of a cabinet.'
-ms.assetid: 'a16c332d-5afc-46ad-992b-324ed5e70683'
+Description: The following syntax illustrates the creation of a cabinet.
+ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: Creating a Cabinet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Cabinet
@@ -242,19 +247,19 @@ LPCSTR FCIErrorToString(FCIERROR err)
 
 <dl> <dt>
 
-[**FCICreate**](fcicreate.md)
+[**FCICreate**](/windows/win32/Fci/nf-fci-fcicreate?branch=master)
 </dt> <dt>
 
-[**FCIAddFile**](fciaddfile.md)
+[**FCIAddFile**](/windows/win32/Fci/nf-fci-fciaddfile?branch=master)
 </dt> <dt>
 
-[**FCIFlushFolder**](fciflushfolder.md)
+[**FCIFlushFolder**](/windows/win32/Fci/nf-fci-fciflushfolder?branch=master)
 </dt> <dt>
 
-[**FCIFlushCabinet**](fciflushcabinet.md)
+[**FCIFlushCabinet**](/windows/win32/Fci/nf-fci-fciflushcabinet?branch=master)
 </dt> <dt>
 
-[**FCIDestroy**](fcidestroy.md)
+[**FCIDestroy**](/windows/win32/Fci/nf-fci-fcidestroy?branch=master)
 </dt> <dt>
 
 [Cabinet API Macros](cabinet-api-macros.md)

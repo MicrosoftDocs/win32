@@ -1,8 +1,11 @@
 ---
 title: IDatabase GetClientCount method
 description: Retrieves the number of clients who currently have this database file open.
-ms.assetid: '0a3db40a-3db3-4de3-9a45-7bd5d563c8de'
-keywords: ["GetClientCount method Windows Mail (formerly Outlook Express)", "GetClientCount method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , GetClientCount method"]
+ms.assetid: 0a3db40a-3db3-4de3-9a45-7bd5d563c8de
+keywords:
+- GetClientCount method Windows Mail (formerly Outlook Express)
+- GetClientCount method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , GetClientCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::GetClientCount method
@@ -24,7 +32,7 @@ Retrieves the number of clients who currently have this database file open.
 
 ```C++
 HRESULT GetClientCount(
-  [out] LPDWORD pcClients
+  [out] LPDWORD pcClients
 );
 ```
 
@@ -55,8 +63,8 @@ This function will always return S\_OK.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Wmsdkidl.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
@@ -64,9 +72,9 @@ This function will always return S\_OK.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

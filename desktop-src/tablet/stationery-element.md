@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about the stationery used in the Journal note, including the background color or image, the title information, and the line layout information, such as narrow rules and margin rules.'
-ms.assetid: '39cc8ee6-b010-428e-b729-de49fa34b91b'
+Description: Contains information about the stationery used in the Journal note, including the background color or image, the title information, and the line layout information, such as narrow rules and margin rules.
+ms.assetid: 39cc8ee6-b010-428e-b729-de49fa34b91b
 title: Stationery Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stationery Element

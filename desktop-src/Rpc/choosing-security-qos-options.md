@@ -1,18 +1,23 @@
 ---
 title: Choosing Security QOS Options
 description: The security QOS options are passed as part of the SecurityQOS parameter given to the RpcBindingSetAuthInfoEx function. Use the following best practices.
-ms.assetid: '43befe3d-079a-4389-a1ff-6bda90935769'
+ms.assetid: 43befe3d-079a-4389-a1ff-6bda90935769
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing Security QOS Options
 
-The security QOS options are passed as part of the *SecurityQOS* parameter given to the [**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md) function. Use the following best practices.
+The security QOS options are passed as part of the *SecurityQOS* parameter given to the [**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master) function. Use the following best practices.
 
 ## Use Mutual Authentication
 
-True mutual authentication is available only for certain security providers: Negotiate (when it negotiates Kerberos), Kerberos, and Schannel. NTLM does not support mutual authentication. Using mutual authentication requires that a well formed server principal name be provided. Many developers use the following faulty security practice: The server is called to ask for its principal name ([**RpcMgmtInqServerPrincName**](rpcmgmtinqserverprincname.md)), and then they blindly ask for mutual authentication using that principal name. This approach breaks the whole idea of mutual authentication; the idea of mutual authentication is that only certain servers are called because they are trusted to parse and handle your data. Using the faulty security practice just described, developers give their data to anyone smart enough to return their name.
+True mutual authentication is available only for certain security providers: Negotiate (when it negotiates Kerberos), Kerberos, and Schannel. NTLM does not support mutual authentication. Using mutual authentication requires that a well formed server principal name be provided. Many developers use the following faulty security practice: The server is called to ask for its principal name ([**RpcMgmtInqServerPrincName**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtinqserverprincname?branch=master)), and then they blindly ask for mutual authentication using that principal name. This approach breaks the whole idea of mutual authentication; the idea of mutual authentication is that only certain servers are called because they are trusted to parse and handle your data. Using the faulty security practice just described, developers give their data to anyone smart enough to return their name.
 
-As an example, if the client software should call only a server running under Joe, Pete, or Alice's accounts, the [**RpcMgmtInqServerPrincName**](rpcmgmtinqserverprincname.md) function should be called, and the name sent back should be checked. If it is Joe, Pete or Alice, mutual authentication should be requested using their server principal name. This ensures both halves of the conversation go to the same principal.
+As an example, if the client software should call only a server running under Joe, Pete, or Alice's accounts, the [**RpcMgmtInqServerPrincName**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtinqserverprincname?branch=master) function should be called, and the name sent back should be checked. If it is Joe, Pete or Alice, mutual authentication should be requested using their server principal name. This ensures both halves of the conversation go to the same principal.
 
 If client software should call a service running under Joe's account only, directly compose Joe's server principal name and make the call. If the server is not Joe, the call will simply fail.
 

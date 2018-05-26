@@ -1,7 +1,12 @@
 ---
-Description: 'Serial device friendly name.'
-ms.assetid: '22bdef67-dc40-4ba9-80f1-8c4477580f1a'
-title: 'System.DeviceInterface.Serial.PortName'
+Description: Serial device friendly name.
+ms.assetid: 22bdef67-dc40-4ba9-80f1-8c4477580f1a
+title: System.DeviceInterface.Serial.PortName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Serial.PortName

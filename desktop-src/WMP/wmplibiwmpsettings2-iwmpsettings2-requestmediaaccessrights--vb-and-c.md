@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings2 requestMediaAccessRights method
 description: The requestMediaAccessRights method requests a specified level of access to the library.
-ms.assetid: 'ea33852c-d1e0-45cf-8954-2a1e2fe51910'
-keywords: ["requestMediaAccessRights method Windows Media Player", "requestMediaAccessRights method Windows Media Player , IWMPSettings2 interface", "IWMPSettings2 interface Windows Media Player , requestMediaAccessRights method"]
+ms.assetid: ea33852c-d1e0-45cf-8954-2a1e2fe51910
+keywords:
+- requestMediaAccessRights method Windows Media Player
+- requestMediaAccessRights method Windows Media Player , IWMPSettings2 interface
+- IWMPSettings2 interface Windows Media Player , requestMediaAccessRights method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings2::requestMediaAccessRights method
@@ -68,7 +76,7 @@ A **System.String** that is one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -104,9 +112,9 @@ Applications running on the user's computer are not required to use this method.
 [**IWMPSettings2.mediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-mediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

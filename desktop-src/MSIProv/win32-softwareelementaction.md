@@ -1,8 +1,10 @@
 ---
 title: Win32\_SoftwareElementAction class
 description: This Win32\_SoftwareElementAction association WMI class relates an Installer software element with an action that access the element.
-ms.assetid: '0ff9726b-4edd-4219-a131-0fab88c91565'
-keywords: ["Win32_SoftwareElementAction class", "Win32_SoftwareElementAction class, described"]
+ms.assetid: 0ff9726b-4edd-4219-a131-0fab88c91565
+keywords:
+- Win32_SoftwareElementAction class
+- Win32_SoftwareElementAction class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareElementAction class
@@ -22,7 +29,7 @@ This **Win32\_SoftwareElementAction** association [WMI class](https://msdn.micro
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -32,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_SoftwareElementAction : CIM_SoftwareElementActions
 {
-  CIM_Action            REF Action;
+  CIM_Action            REF Action;
   Win32_SoftwareElement REF Element;
 };
 ```
@@ -91,8 +98,8 @@ The **Win32\_SoftwareElementAction** class is derived from [**CIM\_SoftwareEleme
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -106,9 +113,9 @@ The **Win32\_SoftwareElementAction** class is derived from [**CIM\_SoftwareEleme
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UserLanguageID property is the default language identifier for the current user. The installer sets this property by calling GetUserDefaultLangID.'
-ms.assetid: '75e5e862-7158-4689-a6b3-46cd0e9ad983'
+---
+Description: The UserLanguageID property is the default language identifier for the current user. The installer sets this property by calling GetUserDefaultLangID.
+ms.assetid: 75e5e862-7158-4689-a6b3-46cd0e9ad983
 title: UserLanguageID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserLanguageID property

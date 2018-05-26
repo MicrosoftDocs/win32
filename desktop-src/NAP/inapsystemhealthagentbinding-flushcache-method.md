@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentBinding FlushCache method
 description: Is called by an SHA to flush its SoH cache.
-ms.assetid: 'a771ce03-1922-4e2d-9490-7ee9f693857c'
-keywords: ["FlushCache method NAP", "FlushCache method NAP , INapSystemHealthAgentBinding interface", "INapSystemHealthAgentBinding interface NAP , FlushCache method"]
+ms.assetid: a771ce03-1922-4e2d-9490-7ee9f693857c
+keywords:
+- FlushCache method NAP
+- FlushCache method NAP , INapSystemHealthAgentBinding interface
+- INapSystemHealthAgentBinding interface NAP , FlushCache method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentBinding::FlushCache method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentBinding::FlushCache** method is called by an SHA to flush its SoH cache.
 
@@ -50,7 +58,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,8 +72,8 @@ The SHA must call [**Initialize**](inapsystemhealthagentbinding-initialize-metho
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -79,9 +87,9 @@ The SHA must call [**Initialize**](inapsystemhealthagentbinding-initialize-metho
 [**INapSystemHealthAgentBinding**](inapsystemhealthagentbinding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

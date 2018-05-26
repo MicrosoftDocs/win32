@@ -1,8 +1,9 @@
 ---
 title: MCI\_WAVE\_DELETE\_PARMS structure
 description: The MCI\_WAVE\_DELETE\_PARMS structure contains position information for the MCI\_DELETE command for waveform-audio devices.
-ms.assetid: '5c0bf0ca-773b-4b96-8b55-9ef7b5a306d9'
-keywords: ["MCI_WAVE_DELETE_PARMS structure Windows Multimedia"]
+ms.assetid: 5c0bf0ca-773b-4b96-8b55-9ef7b5a306d9
+keywords:
+- MCI_WAVE_DELETE_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_WAVE\_DELETE\_PARMS structure
@@ -23,8 +29,8 @@ The **MCI\_WAVE\_DELETE\_PARMS** structure contains position information for the
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  DWORD     dwFrom;
-  DWORD     dwTo;
+  DWORD     dwFrom;
+  DWORD     dwTo;
 } MCI_WAVE_DELETE_PARMS;
 ```
 
@@ -57,7 +63,7 @@ Position to delete to.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -65,8 +71,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -84,12 +90,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_DELETE**](mci-delete.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

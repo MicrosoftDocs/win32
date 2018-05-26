@@ -4,11 +4,14 @@ description: Updates the list of specified license servers, replacing any existi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'afd7ca11-9db5-4cf3-9706-3c6984789ecd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: afd7ca11-9db5-4cf3-9706-3c6984789ecd
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSpecifiedLicenseServerList method Remote Desktop Services", "SetSpecifiedLicenseServerList method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , SetSpecifiedLicenseServerList method"]
+keywords:
+- SetSpecifiedLicenseServerList method Remote Desktop Services
+- SetSpecifiedLicenseServerList method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , SetSpecifiedLicenseServerList method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSpecifiedLicenseServerList method of the Win32\_TerminalServiceSetting class
@@ -28,7 +34,7 @@ Updates the list of specified license servers, replacing any existing specified 
 
 ```mof
 uint32 SetSpecifiedLicenseServerList(
-  [in] string SpecifiedLSList[]
+  [in] string SpecifiedLSList[]
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**RemoveLSFromSpecifiedLicenseServerList**](removelsfromspecifiedlicenseserverlist-win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

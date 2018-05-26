@@ -1,7 +1,12 @@
 ---
 title: DVBCLocator Object
 description: DVBCLocator Object
-ms.assetid: 'c1b576d4-a16a-4074-8374-bec625500d1c'
+ms.assetid: c1b576d4-a16a-4074-8374-bec625500d1c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVBCLocator Object
@@ -12,7 +17,7 @@ The **DVBCLocator** object contains tuning information for a cable DVB (DVB-C) n
 
 |                           |                                      |
 |---------------------------|--------------------------------------|
-| Interfaces                | [**IDVBCLocator**](idvbclocator.md) |
+| Interfaces                | [**IDVBCLocator**](/windows/previous-versions/tuner/?branch=master) |
 | Outgoing Event Interfaces | None                                 |
 | CLSID                     | CLSID\_DVBCLocator                   |
 

@@ -4,17 +4,22 @@ description: Contains personal information about a user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '899726f5-d839-4c2a-a017-70d403ced9ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 899726f5-d839-4c2a-a017-70d403ced9ce
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Person class AD Schema", "person class AD Schema"]
+keywords:
+- Person class AD Schema
+- person class AD Schema
 topic_type:
 - apiref
 api_name:
 - Person
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Person class
@@ -35,12 +40,12 @@ Contains personal information about a user.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -67,7 +72,7 @@ Contains personal information about a user.
 
 ## Windows 2000 Server Attributes
 
-This class contains the following attributes for Windows 2000 Server:
+This class contains the following attributes for Windows 2000 Server:
 
 
 
@@ -178,7 +183,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -309,7 +314,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -443,7 +448,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -588,7 +593,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -740,7 +745,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -873,9 +878,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

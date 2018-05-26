@@ -4,11 +4,14 @@ description: Reactivates the Remote Desktop license server by using a new identi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dd9ff938-a683-4f60-b7cc-7580892953b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: dd9ff938-a683-4f60-b7cc-7580892953b6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ReactivateServer method Remote Desktop Services", "ReactivateServer method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , ReactivateServer method"]
+keywords:
+- ReactivateServer method Remote Desktop Services
+- ReactivateServer method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , ReactivateServer method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReactivateServer method of the Win32\_TSLicenseServer class
@@ -28,8 +34,8 @@ Reactivates the Remote Desktop license server by using a new identifier that was
 
 ```mof
 uint32 ReactivateServer(
-  [in]  string sNewLicenseServerId,
-  [out] uint32 ActivationStatus
+  [in]  string sNewLicenseServerId,
+  [out] uint32 ActivationStatus
 );
 ```
 
@@ -91,7 +97,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -105,9 +111,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

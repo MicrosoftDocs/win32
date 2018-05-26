@@ -1,7 +1,12 @@
 ---
 title: Important Changes from Direct3D 11 to Direct3D 12
 description: Direct3D 12 represents a significant departure from the Direct3D 11 programming model. Direct3D 12 lets apps get closer to hardware than ever before.
-ms.assetid: 'CE5066C9-7EA6-437D-9EB0-AACFB6CFAD9E'
+ms.assetid: CE5066C9-7EA6-437D-9EB0-AACFB6CFAD9E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Important Changes from Direct3D 11 to Direct3D 12

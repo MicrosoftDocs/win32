@@ -1,6 +1,11 @@
-﻿---
-Description: 'Flags that restrict the data to be set or returned.'
+---
+Description: Flags that restrict the data to be set or returned.
 title: SRRF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SRRF
@@ -13,7 +18,7 @@ Flags that restrict the data to be set or returned.
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SRRF_RT_REG_NONE"></span><span id="srrf_rt_reg_none"></span><dl> <dt>**SRRF\_RT\_REG\_NONE**</dt> <dt>0x00000001</dt> </dl>                 | Type REG\_NONE.<br/>                                                                                                                                                                                             |
 | <span id="SRRF_RT_REG_SZ"></span><span id="srrf_rt_reg_sz"></span><dl> <dt>**SRRF\_RT\_REG\_SZ**</dt> <dt>0x00000002</dt> </dl>                       | Type REG\_SZ. REG\_EXPAND\_SZ types are automatically converted to REG\_SZ unless the SRRF\_NOEXPAND flag is specified.<br/>                                                                                     |
-| <span id="SRRF_RT_REG_EXPAND_SZ"></span><span id="srrf_rt_reg_expand_sz"></span><dl> <dt>**SRRF\_RT\_REG\_EXPAND\_SZ**</dt> <dt>0x00000004</dt> </dl> | Type REG\_EXPAND\_SZ. If retrieving a value, you must also get the SRRF\_NOEXPAND flag, or [**SHRegGetValue**](shreggetvalue.md) fails with ERROR\_INVALID\_PARAMETER.<br/>                                     |
+| <span id="SRRF_RT_REG_EXPAND_SZ"></span><span id="srrf_rt_reg_expand_sz"></span><dl> <dt>**SRRF\_RT\_REG\_EXPAND\_SZ**</dt> <dt>0x00000004</dt> </dl> | Type REG\_EXPAND\_SZ. If retrieving a value, you must also get the SRRF\_NOEXPAND flag, or [**SHRegGetValue**](/windows/win32/Shlwapi/nf-shlwapi-shreggetvaluea?branch=master) fails with ERROR\_INVALID\_PARAMETER.<br/>                                     |
 | <span id="SRRF_RT_REG_BINARY"></span><span id="srrf_rt_reg_binary"></span><dl> <dt>**SRRF\_RT\_REG\_BINARY**</dt> <dt>0x00000008</dt> </dl>           | Type REG\_BINARY.<br/>                                                                                                                                                                                           |
 | <span id="SRRF_RT_REG_DWORD"></span><span id="srrf_rt_reg_dword"></span><dl> <dt>**SRRF\_RT\_REG\_DWORD**</dt> <dt>0x00000010</dt> </dl>              | Type REG\_DWORD.<br/>                                                                                                                                                                                            |
 | <span id="SRRF_RT_REG_MULTI_SZ"></span><span id="srrf_rt_reg_multi_sz"></span><dl> <dt>**SRRF\_RT\_REG\_MULTI\_SZ**</dt> <dt>0x00000020</dt> </dl>    | Type REG\_MULTI\_SZ.<br/>                                                                                                                                                                                        |
@@ -51,10 +56,10 @@ These values are defined in Shlwapi.h.
 
 <dl> <dt>
 
-[**SHRegSetValue**](shregsetvalue.md)
+[**SHRegSetValue**](/windows/win32/shlwapi/nf-shlwapi-shregsetvalue?branch=master)
 </dt> <dt>
 
-[**SHRegGetValue**](shreggetvalue.md)
+[**SHRegGetValue**](/windows/win32/Shlwapi/nf-shlwapi-shreggetvaluea?branch=master)
 </dt> </dl>
 
  

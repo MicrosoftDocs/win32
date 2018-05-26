@@ -1,14 +1,20 @@
 ---
 title: WM/Provider
 description: The WM/Provider attribute contains the name of the metadata content provider. Metadata is often obtained through a service.
-ms.assetid: '94d1f87e-f5b5-4898-b717-8b7494456f26'
-keywords: ["WM/Provider windows Media Format"]
+ms.assetid: 94d1f87e-f5b5-4898-b717-8b7494456f26
+keywords:
+- WM/Provider windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Provider
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Provider

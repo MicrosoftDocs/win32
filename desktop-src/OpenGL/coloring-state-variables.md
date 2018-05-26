@@ -1,14 +1,20 @@
 ---
 title: Coloring State Variables
 description: Coloring State Variables
-ms.assetid: '783a798a-f45c-4262-99b8-badd15f52cd5'
-keywords: ["Coloring State Variables OpenGL"]
+ms.assetid: 783a798a-f45c-4262-99b8-badd15f52cd5
+keywords:
+- Coloring State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Coloring State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coloring State Variables

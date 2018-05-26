@@ -1,7 +1,12 @@
 ---
 title: How to initialize DirectComposition
 description: This topic demonstrates how to create and initialize the minimum set of Microsoft DirectComposition objects needed to create a simple composition.
-ms.assetid: 'F2BF9CE2-05EF-4345-A00E-F5C8A8660B24'
+ms.assetid: F2BF9CE2-05EF-4345-A00E-F5C8A8660B24
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to initialize DirectComposition
@@ -87,7 +92,7 @@ Use the **QueryInterface** method to retrieve the [**IDXGIDevice**](https://msdn
 
 ### Step 3: Create the DirectComposition device object
 
-Use the [**DCompositionCreateDevice**](dcompositioncreatedevice.md) function to create an instance of the DirectComposition device object, specifying the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) pointer retrieved in the previous step. The function retrieves an [**IDCompositionDevice**](idcompositiondevice.md) pointer used to create all other DirectComposition objects used in a composition.
+Use the [**DCompositionCreateDevice**](/windows/win32/Dcomp/nf-dcomp-dcompositioncreatedevice?branch=master) function to create an instance of the DirectComposition device object, specifying the [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527) pointer retrieved in the previous step. The function retrieves an [**IDCompositionDevice**](/windows/win32/Dcomp/?branch=master) pointer used to create all other DirectComposition objects used in a composition.
 
 
 ```C++
@@ -122,7 +127,7 @@ Use the [**DCompositionCreateDevice**](dcompositioncreatedevice.md) function to 
 
 ### Step 4: Create the composition target object
 
-Use the [**IDCompositionDevice::CreateTargetForHwnd**](idcompositiondevice-createhwndtarget.md) method to create an instance of the composition target object. Calling **CreateTargetForHwnd** binds the device object to the application window that will display the composition.
+Use the [**IDCompositionDevice::CreateTargetForHwnd**](/windows/win32/Dcomp/?branch=master) method to create an instance of the composition target object. Calling **CreateTargetForHwnd** binds the device object to the application window that will display the composition.
 
 
 ```C++
@@ -156,7 +161,7 @@ Use the [**IDCompositionDevice::CreateTargetForHwnd**](idcompositiondevice-creat
 
 ### Step 5: Create a visual object
 
-Use the [**IDCompositionDevice::CreateVisual**](idcompositiondevice-createvisual.md) method to create a visual object. The method retrieves an [**IDCompositionVisual**](idcompositionvisual.md) pointer used to set the properties of the visual. For more information, see [Properties of a visual object](basic-concepts.md#properties-of-a-visual-object).
+Use the [**IDCompositionDevice::CreateVisual**](/windows/win32/Dcomp/?branch=master) method to create a visual object. The method retrieves an [**IDCompositionVisual**](/windows/win32/Dcomp/?branch=master) pointer used to set the properties of the visual. For more information, see [Properties of a visual object](basic-concepts.md#properties-of-a-visual-object).
 
 
 ```C++
@@ -170,7 +175,7 @@ Use the [**IDCompositionDevice::CreateVisual**](idcompositiondevice-createvisual
 
 ### Step 6: Create a composition surface and render a bitmap to the surface
 
-Create an [**IDCompositionSurface**](idcompositionsurface.md) pointer.
+Create an [**IDCompositionSurface**](/windows/win32/Dcomp/?branch=master) pointer.
 
 
 ```C++
@@ -284,7 +289,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
 ### Step 7: Bind surface to visual and set the properties of the visual object
 
-Call the methods of the visual object's [**IDCompositionVisual**](idcompositionvisual.md) interface to set the properties of the visual.
+Call the methods of the visual object's [**IDCompositionVisual**](/windows/win32/Dcomp/?branch=master) interface to set the properties of the visual.
 
 This next example sets the bitmap content for the visual, and the horizontal and vertical position of the visual relative to upper-left corner of its container. Because it is the root visual, the container for this visual is the composition target window.
 
@@ -312,7 +317,7 @@ This next example sets the bitmap content for the visual, and the horizontal and
 
 ### Step 8: Set the root visual of the visual tree
 
-Set the root visual of the visual tree by calling the [**IDCompositionTarget::SetRoot**](idcompositiontarget-setroot.md) method.
+Set the root visual of the visual tree by calling the [**IDCompositionTarget::SetRoot**](/windows/win32/Dcomp/?branch=master) method.
 
 
 ```C++
@@ -327,7 +332,7 @@ Set the root visual of the visual tree by calling the [**IDCompositionTarget::Se
 
 ### Step 9: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) method to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) method to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
 
 
 ```C++
@@ -1000,28 +1005,28 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
 <dl> <dt>
 
-[**DCompositionCreateDevice**](dcompositioncreatedevice.md)
+[**DCompositionCreateDevice**](/windows/win32/Dcomp/nf-dcomp-dcompositioncreatedevice?branch=master)
 </dt> <dt>
 
 [**D3D11CreateDevice**](https://msdn.microsoft.com/library/windows/desktop/ff476082)
 </dt> <dt>
 
-[**IDCompositionDevice::Commit**](idcompositiondevice-commit.md)
+[**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionDevice::CreateTargetForHwnd**](idcompositiondevice-createhwndtarget.md)
+[**IDCompositionDevice::CreateTargetForHwnd**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionDevice::CreateVisual**](idcompositiondevice-createvisual.md)
+[**IDCompositionDevice::CreateVisual**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionSurface**](idcompositionsurface.md)
+[**IDCompositionSurface**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionTarget::SetRoot**](idcompositiontarget-setroot.md)
+[**IDCompositionTarget::SetRoot**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionVisual::SetContent**](idcompositionvisual-setcontent.md)
+[**IDCompositionVisual::SetContent**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
 [**IDXGIDevice**](https://msdn.microsoft.com/library/windows/desktop/bb174527)

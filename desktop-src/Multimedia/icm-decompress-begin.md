@@ -1,8 +1,9 @@
 ---
 title: ICM\_DECOMPRESS\_BEGIN message
 description: The ICM\_DECOMPRESS\_BEGIN message notifies a video decompression driver to prepare to decompress data. You can send this message explicitly or by using the ICDecompressBegin macro.
-ms.assetid: '24cd5220-d473-4968-8678-b00670eecf8f'
-keywords: ["ICM_DECOMPRESS_BEGIN message Windows Multimedia"]
+ms.assetid: 24cd5220-d473-4968-8678-b00670eecf8f
+keywords:
+- ICM_DECOMPRESS_BEGIN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DECOMPRESS\_BEGIN message
 
-The **ICM\_DECOMPRESS\_BEGIN** message notifies a video decompression driver to prepare to decompress data. You can send this message explicitly or by using the [**ICDecompressBegin**](icdecompressbegin.md) macro.
+The **ICM\_DECOMPRESS\_BEGIN** message notifies a video decompression driver to prepare to decompress data. You can send this message explicitly or by using the [**ICDecompressBegin**](/windows/win32/Vfw/nf-vfw-icdecompressbegin?branch=master) macro.
 
 
 ```C++
@@ -62,8 +68,8 @@ The **ICM\_DECOMPRESS\_BEGIN** and [**ICM\_DECOMPRESS\_END**](icm-decompress-end
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The **ICM\_DECOMPRESS\_BEGIN** and [**ICM\_DECOMPRESS\_END**](icm-decompress-end
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

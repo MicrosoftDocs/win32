@@ -1,7 +1,12 @@
 ---
 title: D3DX 11 Reference
 description: The D3DX 11 API is described in this section.
-ms.assetid: '78520da0-4be0-42d8-93a4-9bd17ef50007'
+ms.assetid: 78520da0-4be0-42d8-93a4-9bd17ef50007
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX 11 Reference
@@ -9,9 +14,9 @@ ms.assetid: '78520da0-4be0-42d8-93a4-9bd17ef50007'
 The D3DX 11 API is described in this section.
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 ## 
 
@@ -28,7 +33,7 @@ The D3DX 11 API is described in this section.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -40,9 +45,9 @@ The D3DX 11 API is described in this section.
 [Direct3D 11 Reference](d3d11-graphics-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

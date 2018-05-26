@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information about the codecs and formats that were used to encode the content in an Advanced Systems Format (ASF) file. This attribute corresponds to the Codec List Object in the ASF header, defined in the ASF specification.'
-ms.assetid: '6dde30d3-dbdc-469c-ad7e-5e670b7e0a64'
-title: 'MF\_PD\_ASF\_CODECLIST attribute'
+---
+Description: Contains information about the codecs and formats that were used to encode the content in an Advanced Systems Format (ASF) file. This attribute corresponds to the Codec List Object in the ASF header, defined in the ASF specification.
+ms.assetid: 6dde30d3-dbdc-469c-ad7e-5e670b7e0a64
+title: MF\_PD\_ASF\_CODECLIST attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_CODECLIST attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method creates the presentation descriptor and generates this attribute from the Codec List Object in the ASF header. An application that uses the [ASF Media Source](asf-media-source.md) can get this attribute by calling [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md) and then getting the attribute from the presentation descriptor.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method creates the presentation descriptor and generates this attribute from the Codec List Object in the ASF header. An application that uses the [ASF Media Source](asf-media-source.md) can get this attribute by calling [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master) and then getting the attribute from the presentation descriptor.
 
 The following table shows the layout of the attribute blob.
 
@@ -129,13 +134,13 @@ The Code Entries field is an array of structures. The following table shows the 
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

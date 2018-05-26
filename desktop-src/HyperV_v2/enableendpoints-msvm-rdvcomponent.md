@@ -1,7 +1,12 @@
 ---
-Description: 'Requests the Remote Desktop Services virtual device to start a pipe connection with the virtual machine.'
-ms.assetid: 'e53238ee-8264-416b-8855-193c28089cfa'
-title: 'EnableEndPoints method of the Msvm\_RdvComponent class'
+Description: Requests the Remote Desktop Services virtual device to start a pipe connection with the virtual machine.
+ms.assetid: e53238ee-8264-416b-8855-193c28089cfa
+title: EnableEndPoints method of the Msvm\_RdvComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableEndPoints method of the Msvm\_RdvComponent class
@@ -84,8 +89,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -99,9 +104,9 @@ This method returns one of the following values.
 [**Msvm\_RdvComponent**](msvm-rdvcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

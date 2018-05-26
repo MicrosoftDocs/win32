@@ -1,8 +1,10 @@
 ---
 title: RAS\_PORT\_1 structure
 description: The RAS\_PORT\_1 structure contains information about a RAS port.
-ms.assetid: 'f226ef16-feb4-41e0-ba60-ddb2f0acd305'
-keywords: ["RAS_PORT_1 structure RAS", "PRAS_PORT_1 structure pointer RAS"]
+ms.assetid: f226ef16-feb4-41e0-ba60-ddb2f0acd305
+keywords:
+- RAS_PORT_1 structure RAS
+- PRAS_PORT_1 structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PORT\_1 structure
 
-\[This version of the **RAS\_PORT\_1** structure is not supported as of Windows Vista. Use the newer [**RAS\_PORT\_1**](ras-port-1.md) defined in mprapi.h instead.\]
+\[This version of the **RAS\_PORT\_1** structure is not supported as of Windows Vista. Use the newer [**RAS\_PORT\_1**](/windows/win32/Mprapi/ns-mprapi-_ras_port_1?branch=master) defined in mprapi.h instead.\]
 
 The **RAS\_PORT\_1** structure contains information about a RAS port.
 
@@ -24,13 +31,13 @@ The **RAS\_PORT\_1** structure contains information about a RAS port.
 
 ```C++
 typedef struct _RAS_PORT_1 {
-  RAS_PORT_0                rasport0;
-  DWORD                     LineCondition;
-  DWORD                     HardwareCondition;
-  DWORD                     LineSpeed;
-  WORD                      NumStatistics;
-  WORD                      NumMediaParms;
-  DWORD                     SizeMediaParms;
+  RAS_PORT_0                rasport0;
+  DWORD                     LineCondition;
+  DWORD                     HardwareCondition;
+  DWORD                     LineSpeed;
+  WORD                      NumStatistics;
+  WORD                      NumMediaParms;
+  DWORD                     SizeMediaParms;
   RAS_PPP_PROJECTION_RESULT ProjResult;
 } RAS_PORT_1, *PRAS_PORT_1;
 ```
@@ -67,7 +74,7 @@ Specifies the state of the port. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,7 +92,7 @@ Specifies one of the following values to indicate the state of the device attach
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,10 +137,10 @@ A [**RAS\_PPP\_PROJECTION\_RESULT**](ras-ppp-projection-result-str.md) structure
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -169,9 +176,9 @@ A [**RAS\_PPP\_PROJECTION\_RESULT**](ras-ppp-projection-result-str.md) structure
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

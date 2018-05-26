@@ -1,7 +1,7 @@
 ---
 title: Metadata Identifiers
 description: This topic describes the named constants, which are used to identify metadata types in a document.
-ms.assetid: '0A19C4F7-314C-4959-83FA-D592F4506752'
+ms.assetid: 0A19C4F7-314C-4959-83FA-D592F4506752
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Identifiers
@@ -37,15 +42,15 @@ Identifies metadata which indicates how a string should be interpreted and spoke
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

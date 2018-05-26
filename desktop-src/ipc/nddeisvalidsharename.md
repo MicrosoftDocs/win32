@@ -1,12 +1,17 @@
 ---
-Description: 'Determines whether a share name uses the proper syntax.'
-ms.assetid: '4ffcff5d-0db5-4761-a31a-acefd2b8d9e2'
+Description: Determines whether a share name uses the proper syntax.
+ms.assetid: 4ffcff5d-0db5-4761-a31a-acefd2b8d9e2
 title: NDdeIsValidShareName function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeIsValidShareName function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Determines whether a share name uses the proper syntax.
 
@@ -15,7 +20,7 @@ Determines whether a share name uses the proper syntax.
 
 ```C++
 BOOL NDdeIsValidShareName(
-  _In_ LPTSTR shareName
+  _In_ LPTSTR shareName
 );
 ```
 
@@ -48,8 +53,8 @@ This function is also called by [**NDdeShareAdd**](nddeshareadd.md) when it crea
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -70,9 +75,9 @@ This function is also called by [**NDdeShareAdd**](nddeshareadd.md) when it crea
 [**NDdeShareAdd**](nddeshareadd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

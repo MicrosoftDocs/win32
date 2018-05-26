@@ -1,7 +1,12 @@
 ---
-Description: 'The EKUs object exposes the following properties.'
-ms.assetid: 'B85A33F9-F5E1-4F68-8A88-1CBA863CE1C8'
+Description: The EKUs object exposes the following properties.
+ms.assetid: B85A33F9-F5E1-4F68-8A88-1CBA863CE1C8
 title: EKUs Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EKUs Properties

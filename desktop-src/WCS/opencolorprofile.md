@@ -1,8 +1,9 @@
 ---
 title: OpenColorProfile function
 description: The OpenColorProfile function creates a handle to a specified color profile. The handle can then be used in other profile management functions.
-ms.assetid: '5f738012-690f-4ff9-bc40-4ccbd47169c6'
-keywords: ["OpenColorProfile function Windows Color System"]
+ms.assetid: 5f738012-690f-4ff9-bc40-4ccbd47169c6
+keywords:
+- OpenColorProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenColorProfile function
@@ -24,10 +30,10 @@ The **OpenColorProfile** function creates a handle to a specified color profile.
 
 ```C++
 HPROFILE WINAPI OpenColorProfile(
-   PPROFILE pProfile,
-   DWORD    dwDesiredAccess,
-   DWORD    dwShareMode,
-   DWORD    dwCreationMode
+   PPROFILE pProfile,
+   DWORD    dwDesiredAccess,
+   DWORD    dwShareMode,
+   DWORD    dwCreationMode
 );
 ```
 
@@ -49,7 +55,7 @@ Pointer to a color profile structure specifying the profile. The *pProfile* poin
 
 Specifies how to access the given profile. This parameter must take one the following constant values.
 
- 
+ 
 
 
 
@@ -60,7 +66,7 @@ Specifies how to access the given profile. This parameter must take one the foll
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +75,7 @@ Specifies how to access the given profile. This parameter must take one the foll
 
 Specifies how the profile should be shared, if the profile is contained in a file. A value of zero prevents the profile from being shared at all. The parameter can contain one or both of the following constants (combined by addition or logical OR).
 
- 
+ 
 
 
 
@@ -80,7 +86,7 @@ Specifies how the profile should be shared, if the profile is contained in a fil
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,7 +95,7 @@ Specifies how the profile should be shared, if the profile is contained in a fil
 
 Specifies which actions to take on the profile while opening it, if it is contained in a file. This parameter must take one of the following constant values.
 
- 
+ 
 
 
 
@@ -103,7 +109,7 @@ Specifies which actions to take on the profile while opening it, if it is contai
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -139,8 +145,8 @@ Use the [**CloseColorProfile**](closecolorprofile.md) function to close an objec
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -164,9 +170,9 @@ Use the [**CloseColorProfile**](closecolorprofile.md) function to close an objec
 [**PROFILE**](profile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

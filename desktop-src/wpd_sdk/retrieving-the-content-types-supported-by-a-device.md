@@ -1,7 +1,12 @@
 ---
 Description: Retrieving the Content Types Supported by a Device
-ms.assetid: '1cedb8d9-2476-420c-bab4-c8a032af781b'
+ms.assetid: 1cedb8d9-2476-420c-bab4-c8a032af781b
 title: Retrieving the Content Types Supported by a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Content Types Supported by a Device
@@ -18,14 +23,14 @@ Your application can retrieve the functional categories supported by a device us
 
 | Interface                                                                                      | Description                                                   |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)                   | Provides access to the functional-category retrieval methods. |
+| [**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)                   | Provides access to the functional-category retrieval methods. |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used to enumerate and store functional-category data.         |
 
 
 
  
 
-The code found in the ListSupportedContentTypes function is almost identical to the code found in the ListFunctionalCategories function. (See the [Retrieving Functional Categories Supported by a Device](retrieving-the-functional-categories-supported-by-a-device.md) topic.) The one difference is the call to the [**IPortableDeviceCapabilities::GetSupportedContentTypes**](iportabledevicecapabilities-getsupportedcontenttypes.md) method, which appears within the loop that iterates through the functional categories.
+The code found in the ListSupportedContentTypes function is almost identical to the code found in the ListFunctionalCategories function. (See the [Retrieving Functional Categories Supported by a Device](retrieving-the-functional-categories-supported-by-a-device.md) topic.) The one difference is the call to the [**IPortableDeviceCapabilities::GetSupportedContentTypes**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedcontenttypes?branch=master) method, which appears within the loop that iterates through the functional categories.
 
 
 ```C++
@@ -125,10 +130,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)
+[**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

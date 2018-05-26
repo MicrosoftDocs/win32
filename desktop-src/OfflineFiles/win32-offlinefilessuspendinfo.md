@@ -1,13 +1,16 @@
 ---
-Description: 'Determines whether an item is suspended or not and, if so, if it is a suspended root or not.'
+Description: Determines whether an item is suspended or not and, if so, if it is a suspended root or not.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '61cb896c-b8dd-4514-a28b-02b59b3cfb3a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 61cb896c-b8dd-4514-a28b-02b59b3cfb3a
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Win32\_OfflineFilesSuspendInfo class'
+title: Win32\_OfflineFilesSuspendInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_OfflineFilesSuspendInfo class
@@ -73,8 +76,8 @@ Access type: Read-only
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -88,9 +91,9 @@ Access type: Read-only
 [Offline Files WMI Provider Reference](offline-files-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

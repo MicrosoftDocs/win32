@@ -1,14 +1,20 @@
 ---
 title: map (ValueMapType) Element
 description: Defines the mapping between an integer value and a string value.
-ms.assetid: '9fdcb3c5-f847-40a2-9d58-4dad964cd8ca'
-keywords: ["map element EventLog"]
+ms.assetid: 9fdcb3c5-f847-40a2-9d58-4dad964cd8ca
+keywords:
+- map element EventLog
 topic_type:
 - apiref
 api_name:
 - map
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # map (ValueMapType) Element
@@ -29,8 +35,8 @@ The **map** element is defined by the [**ValueMapType**](eventmanifestschema-val
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **map** element is defined by the [**ValueMapType**](eventmanifestschema-val
 [**valueMap (MapType)**](eventmanifestschema-valuemap-maptype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IMimeMessageTree interface
 description: Do not use. Parses and creates Internet messages. IMimeMessageTree treats a message as a tree of bodies where each body has a header and associated content. It gives a client the most flexible, low-level access to a message.
-ms.assetid: 'c36de21c-8a83-4d75-acfd-cf1440c3901a'
-keywords: ["IMimeMessageTree interface Windows Mail (formerly Outlook Express)", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: c36de21c-8a83-4d75-acfd-cf1440c3901a
+keywords:
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express)
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree interface
@@ -38,8 +45,8 @@ The persistence format for **IMimeMessageTree** is an [RFC 822](http://www.ietf.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -47,9 +54,9 @@ The persistence format for **IMimeMessageTree** is an [RFC 822](http://www.ietf.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

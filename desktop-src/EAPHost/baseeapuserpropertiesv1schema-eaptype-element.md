@@ -1,14 +1,20 @@
 ---
 title: EapType Element
 description: Captures method-specific configuration inside the Eap element.
-ms.assetid: '8ce81848-5b36-441f-967d-02c666ba5c6c'
-keywords: ["EapType element EAPHost"]
+ms.assetid: 8ce81848-5b36-441f-967d-02c666ba5c6c
+keywords:
+- EapType element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapType Element
@@ -31,8 +37,8 @@ The **EapType** element is abstract; each method must define and use a derived e
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -46,9 +52,9 @@ The **EapType** element is abstract; each method must define and use a derived e
 [baseeapuserpropertiesv1 Schema](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Defines an association between a Service and the System on which th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e2644154-6368-4f36-b977-a6ac19431682'
-ms.prod: 'windows-server-dev'
+ms.assetid: e2644154-6368-4f36-b977-a6ac19431682
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_HostedService class iSCSI Software Target API", "MSISCSITARGET_HostedService class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_HostedService class iSCSI Software Target API
+- MSISCSITARGET_HostedService class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_HostedService class
@@ -37,7 +42,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_HostedService : CIM_HostedService
 {
-  CIM_System  REF Antecedent;
+  CIM_System  REF Antecedent;
   CIM_Service REF Dependent;
 };
 ```
@@ -97,7 +102,7 @@ This property is inherited from [**CIM\_HostedService**](cim-hostedservice.md).
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -120,9 +125,9 @@ This property is inherited from [**CIM\_HostedService**](cim-hostedservice.md).
 [**CIM\_Service**](https://msdn.microsoft.com/library/aa388442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

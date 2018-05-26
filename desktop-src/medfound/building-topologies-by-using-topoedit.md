@@ -1,7 +1,12 @@
 ---
 Description: Building Topologies by Using TopoEdit
-ms.assetid: '04173f3d-3722-48ee-a6fb-9cdb2a897a33'
+ms.assetid: 04173f3d-3722-48ee-a6fb-9cdb2a897a33
 title: Building Topologies by Using TopoEdit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Topologies by Using TopoEdit

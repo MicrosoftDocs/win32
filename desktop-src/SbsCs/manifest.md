@@ -1,7 +1,12 @@
 ---
-Description: 'The Manifest property is used to set or get the active activation context.'
-ms.assetid: '5ad16c7b-3d66-4083-bc0f-f8294757764f'
-title: 'ActCtx.Manifest property'
+Description: The Manifest property is used to set or get the active activation context.
+ms.assetid: 5ad16c7b-3d66-4083-bc0f-f8294757764f
+title: ActCtx.Manifest property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActCtx.Manifest property
@@ -37,16 +42,16 @@ If an activation context has previously been created or activated, the following
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Sxsoa.dll</dt> </dl> |
 | IID<br/>                      | IID\_IActCtx is defined as 8FA7728F-B69B-4EE5-99F2-E2AA021BEF28<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

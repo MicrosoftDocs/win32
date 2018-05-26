@@ -4,10 +4,13 @@ description: Windows Server 2008 introduces a new type of domain controller, th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9d9082d2-6f7f-4ffa-b8c7-6414be764d0c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9d9082d2-6f7f-4ffa-b8c7-6414be764d0c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Read-Only DCs and the Active Directory Schema

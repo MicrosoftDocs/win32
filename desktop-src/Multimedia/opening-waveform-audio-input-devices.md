@@ -1,8 +1,18 @@
 ---
 title: Opening Waveform-Audio Input Devices
 description: Opening Waveform-Audio Input Devices
-ms.assetid: '46cdbce6-2433-433a-abd2-39e4146aa2e9'
-keywords: ["waveform audio,opening input devices", "waveform-audio interface,opening input devices", "recording waveform audio,opening input devices", "opening waveform-audio input devices", "waveInOpen function"]
+ms.assetid: 46cdbce6-2433-433a-abd2-39e4146aa2e9
+keywords:
+- waveform audio,opening input devices
+- waveform-audio interface,opening input devices
+- recording waveform audio,opening input devices
+- opening waveform-audio input devices
+- waveInOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening Waveform-Audio Input Devices

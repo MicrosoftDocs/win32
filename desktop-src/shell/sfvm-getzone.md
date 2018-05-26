@@ -1,14 +1,19 @@
-﻿---
-Description: 'Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.'
-ms.assetid: '6fae7925-b1be-4270-9318-7fa517563dad'
-title: 'SFVM\_GETZONE message'
+---
+Description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCBMessageSFVCB.
+ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
+title: SFVM\_GETZONE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETZONE message
 
 \[This notification is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.\]
 
-Allows the callback object to provide Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to provide Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

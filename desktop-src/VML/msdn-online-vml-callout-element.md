@@ -1,7 +1,12 @@
 ---
 title: VML Callout Element
 description: VML Callout Element
-ms.assetid: '0e93fb2f-494c-44eb-b7ef-0e3786c64ce5'
+ms.assetid: 0e93fb2f-494c-44eb-b7ef-0e3786c64ce5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Callout Element

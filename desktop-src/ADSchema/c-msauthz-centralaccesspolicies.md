@@ -4,17 +4,22 @@ description: A container of this class can contain Central Access Policy objects
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2aafe035-4666-4b9b-a354-ca1780cf476d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2aafe035-4666-4b9b-a354-ca1780cf476d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Central-Access-Policies class AD Schema", "msAuthz-CentralAccessPolicies class AD Schema"]
+keywords:
+- ms-Authz-Central-Access-Policies class AD Schema
+- msAuthz-CentralAccessPolicies class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Central-Access-Policies
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Central-Access-Policies class
@@ -35,7 +40,7 @@ A container of this class can contain Central Access Policy objects.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ A container of this class can contain Central Access Policy objects.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -189,9 +194,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Seek method sets the start and stop positions of the stream.'
-ms.assetid: 'd84476f5-688c-429d-a51b-7020a6316e35'
-title: 'CPullPin.Seek method'
+Description: The Seek method sets the start and stop positions of the stream.
+ms.assetid: d84476f5-688c-429d-a51b-7020a6316e35
+title: CPullPin.Seek method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.Seek method
@@ -13,8 +18,8 @@ The `Seek` method sets the start and stop positions of the stream.
 
 ```C++
 HRESULT Seek(
-   REFERENCE_TIME tStart,
-   REFERENCE_TIME tStop
+   REFERENCE_TIME tStart,
+   REFERENCE_TIME tStop
 );
 ```
 
@@ -68,9 +73,9 @@ When the pin first connects, the stop and start positions default to the beginni
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

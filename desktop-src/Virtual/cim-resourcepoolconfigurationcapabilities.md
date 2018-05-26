@@ -1,8 +1,10 @@
 ---
 title: CIM\_ResourcePoolConfigurationCapabilities class
 description: Manages the capabilities of the CIM\_ResourcePoolConfigurationService instance for a CIM\_ResourcePool object.
-ms.assetid: '77e8d94f-671c-49b5-bd16-0957e1f992a3'
-keywords: ["CIM_ResourcePoolConfigurationCapabilities class Hyper-V", "CIM_ResourcePoolConfigurationCapabilities class Hyper-V , described"]
+ms.assetid: 77e8d94f-671c-49b5-bd16-0957e1f992a3
+keywords:
+- CIM_ResourcePoolConfigurationCapabilities class Hyper-V
+- CIM_ResourcePoolConfigurationCapabilities class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourcePoolConfigurationCapabilities class
@@ -59,7 +66,7 @@ The **CIM\_ResourcePoolConfigurationCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -144,7 +151,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -285,9 +292,9 @@ The supported sync methods.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -300,9 +307,9 @@ The supported sync methods.
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

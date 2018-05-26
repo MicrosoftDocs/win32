@@ -4,11 +4,14 @@ description: Refreshes the list of objects in the collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2e2a959d-0a1d-4aca-9daf-3c24fb9b3b08'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2e2a959d-0a1d-4aca-9daf-3c24fb9b3b08
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RescanDevices method Remote Desktop Services", "RescanDevices method Remote Desktop Services , IMsRdpDeviceCollection interface", "IMsRdpDeviceCollection interface Remote Desktop Services , RescanDevices method"]
+keywords:
+- RescanDevices method Remote Desktop Services
+- RescanDevices method Remote Desktop Services , IMsRdpDeviceCollection interface
+- IMsRdpDeviceCollection interface Remote Desktop Services , RescanDevices method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection::RescanDevices method
@@ -28,7 +34,7 @@ Refreshes the list of objects in the collection.
 
 ```C++
 HRESULT RescanDevices(
-  [in] VARIANT_BOOL vboolDynRedir
+  [in] VARIANT_BOOL vboolDynRedir
 );
 ```
 
@@ -55,8 +61,8 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsRdpDeviceCollection is defined as 56540617-d281-488c-8738-6a8fdf64a118<br/> |
@@ -70,9 +76,9 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

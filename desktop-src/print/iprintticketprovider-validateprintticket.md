@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintTicketProvider::ValidatePrintTicket method validates a print ticket.'
-ms.assetid: 'f5b19a6a-d541-4454-bfe9-e268f9379308'
-title: 'IPrintTicketProvider::ValidatePrintTicket method'
+---
+Description: The IPrintTicketProviderValidatePrintTicket method validates a print ticket.
+ms.assetid: f5b19a6a-d541-4454-bfe9-e268f9379308
+title: IPrintTicketProviderValidatePrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintTicketProvider::ValidatePrintTicket method

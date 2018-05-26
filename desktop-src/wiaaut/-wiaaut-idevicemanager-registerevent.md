@@ -1,8 +1,11 @@
 ---
 title: DeviceManager.RegisterEvent method
 description: Registers the specified EventID Constants for the specified DeviceID. If DeviceID is \ 0034;\ \ 0034; then OnEvent is called whenever the event specified occurs for any device. Otherwise, OnEvent is only called if the event specified occurs on the device specified.
-ms.assetid: '7186244e-0387-4206-8a9e-f379e566827e'
-keywords: ["RegisterEvent method WIA Automation", "RegisterEvent method WIA Automation , DeviceManager object", "DeviceManager object WIA Automation , RegisterEvent method"]
+ms.assetid: 7186244e-0387-4206-8a9e-f379e566827e
+keywords:
+- RegisterEvent method WIA Automation
+- RegisterEvent method WIA Automation , DeviceManager object
+- DeviceManager object WIA Automation , RegisterEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceManager.RegisterEvent method
@@ -57,7 +65,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,7 +80,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 > \[!Warning\]  
 > Using the [**IWiaDevMgr::RegisterEventCallbackInterface**](https://msdn.microsoft.com/library/windows/desktop/ms630146), [**IWiaDevMgr2::RegisterEventCallbackInterface**](https://msdn.microsoft.com/library/windows/desktop/ms630135), and **DeviceManager.RegisterEvent** methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.
 
- 
+ 
 
 For example code, see [Download New Items as They are Created](-wiaaut-shared-samples.md#download-new-items-as-they-are-created) in Shared Samples.
 
@@ -82,8 +90,8 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -123,9 +131,9 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 [**EventID Constants**](-wiaaut-consts-eventid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

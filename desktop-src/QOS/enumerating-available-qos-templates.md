@@ -1,7 +1,12 @@
 ---
 title: Enumerating Available QOS Templates
 description: In order to discover which templates are available on a given system, an application can enumerate the available QOS templates, using the WSAGetQOSByName function.
-ms.assetid: '19d2d4ac-d809-4325-ab77-cabe5e720165'
+ms.assetid: 19d2d4ac-d809-4325-ab77-cabe5e720165
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Available QOS Templates

@@ -1,8 +1,9 @@
 ---
 title: glFinish function
 description: The glFinish function blocks until all OpenGL execution is complete.
-ms.assetid: '1dcb4767-02ea-41d8-bf1f-d61d20873d4f'
-keywords: ["glFinish function OpenGL"]
+ms.assetid: 1dcb4767-02ea-41d8-bf1f-d61d20873d4f
+keywords:
+- glFinish function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glFinish function
@@ -70,8 +76,8 @@ The **glFinish** function requires a round trip to the server.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -91,9 +97,9 @@ The **glFinish** function requires a round trip to the server.
 [**glFlush**](glflush.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

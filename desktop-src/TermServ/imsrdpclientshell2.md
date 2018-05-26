@@ -1,14 +1,16 @@
 ---
 title: IMsRdpClientShell2 interface
-description: Exposes properties that launch the Remote Desktop Connection client from Remote Desktop Web Access (RD Web Access) or from other web portals.
+description: Exposes properties that launch the Remote Desktop Connection client from Remote Desktop Web Access (RD Web Access) or from other web portals.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc8ef78f-b7d6-42cd-bb67-8a8e1f33be08'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cc8ef78f-b7d6-42cd-bb67-8a8e1f33be08
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientShell2 interface Remote Desktop Services", "IMsRdpClientShell2 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientShell2 interface Remote Desktop Services
+- IMsRdpClientShell2 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,11 +19,14 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientShell2 interface
 
-Exposes properties that launch the Remote Desktop Connection client from Remote Desktop Web Access (RD Web Access) or from other web portals.
+Exposes properties that launch the Remote Desktop Connection client from Remote Desktop Web Access (RD Web Access) or from other web portals.
 
 This interface is implemented by the Remote Desktop Services Web Access Control, which is a wrapper around the Remote Desktop Connection client (MsTscAx.dll) and the RemoteApp and Desktop Connections runtime proxy (Tswbprxy.exe).
 
@@ -44,7 +49,7 @@ The **IMsRdpClientShell2** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +57,8 @@ The **IMsRdpClientShell2** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
+| Minimum supported client<br/> | Windows 7<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
 | DLL<br/>                      | <dl> <dt>MsRdpWebAccess.dll</dt> </dl> |
 
 
@@ -65,9 +70,9 @@ The **IMsRdpClientShell2** interface has these properties.
 [**IMsRdpWorkspace**](imsrdpworkspace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

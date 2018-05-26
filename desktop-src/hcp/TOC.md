@@ -9,5 +9,5 @@
 #### [ReadThreadProfilingData](readthreadprofilingdata.md)
 ### [HCP Structures](hcp-structures.md)
 #### [HARDWARE_COUNTER_DATA](hardware-counter-data.md)
-#### [PERFORMANCE_DATA](/windows/win32/content/Winnt/ns-wdm-_resource_performance_data?branch=dev)
+#### [PERFORMANCE_DATA](/windows/win32/Winnt/ns-wdm-_resource_performance_data?branch=master)
 

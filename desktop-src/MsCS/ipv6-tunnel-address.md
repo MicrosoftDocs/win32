@@ -4,11 +4,17 @@ description: The IPv6 Tunnel Address resource type is used to manage Internet Pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e59df4d3-d30b-4d23-853f-d71644c932f7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e59df4d3-d30b-4d23-853f-d71644c932f7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,IPv6 Tunnel Address", "IPv6 Tunnel Address resource type Failover Cluster", "IPv6 Tunnel Address resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,IPv6 Tunnel Address
+- IPv6 Tunnel Address resource type Failover Cluster
+- IPv6 Tunnel Address resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPv6 Tunnel Address

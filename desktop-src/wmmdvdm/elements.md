@@ -1,8 +1,24 @@
 ---
 title: Elements
 description: Elements
-ms.assetid: '2fce7855-9d38-4d3b-aac1-9c0e0021af7e'
-keywords: ["Windows DVD Maker,elements", "DVD Maker,elements", "programming reference,Windows DVD Maker elements", "reference for Windows DVD Maker,elements", "Windows DVD Maker,transitions", "DVD Maker,transitions", "transitions,elements", "Windows DVD Maker,buttons", "DVD Maker,buttons", "Windows DVD Maker,menus", "DVD Maker,menus"]
+ms.assetid: 2fce7855-9d38-4d3b-aac1-9c0e0021af7e
+keywords:
+- Windows DVD Maker,elements
+- DVD Maker,elements
+- programming reference,Windows DVD Maker elements
+- reference for Windows DVD Maker,elements
+- Windows DVD Maker,transitions
+- DVD Maker,transitions
+- transitions,elements
+- Windows DVD Maker,buttons
+- DVD Maker,buttons
+- Windows DVD Maker,menus
+- DVD Maker,menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Elements

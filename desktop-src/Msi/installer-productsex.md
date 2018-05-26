@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns a RecordList object that enumerates the list of products.'
-ms.assetid: '30735b9f-091b-4915-9b07-9688c9be2d26'
-title: 'Installer.ProductsEx property'
+---
+Description: Returns a RecordList object that enumerates the list of products.
+ms.assetid: 30735b9f-091b-4915-9b07-9688c9be2d26
+title: Installer.ProductsEx property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ProductsEx property
 
-The **ProductsEx** property returns a [**RecordList**](recordlist-object.md) object that enumerates the list of products. This property calls [**MsiEnumProductsEx**](msienumproductsex.md).
+The **ProductsEx** property returns a [**RecordList**](recordlist-object.md) object that enumerates the list of products. This property calls [**MsiEnumProductsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master).
 
 This property is read-only.
 
@@ -40,7 +45,7 @@ propVal = Installer.ProductsEx
 [**Installer**](installer-object.md)
 </dt> <dt>
 
-[**MsiEnumProductsEx**](msienumproductsex.md)
+[**MsiEnumProductsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master)
 </dt> <dt>
 
 [**Product**](product-object.md)

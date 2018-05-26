@@ -1,7 +1,12 @@
 ---
 Description: EVRPresenter Sample
-ms.assetid: '791a9816-4c40-4683-8b32-22f73d7fe84d'
+ms.assetid: 791a9816-4c40-4683-8b32-22f73d7fe84d
 title: EVRPresenter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVRPresenter Sample
@@ -12,12 +17,12 @@ Shows how to implement a custom presenter for the [Enhanced Video Renderer](enha
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFClockStateSink**](imfclockstatesink.md)
--   [**IMFRateSupport**](imfratesupport.md)
--   [**IMFTopologyServiceLookupClient**](imftopologyservicelookupclient.md)
--   [**IMFVideoDeviceID**](imfvideodeviceid.md)
--   [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md)
--   [**IMFVideoPresenter**](imfvideopresenter.md)
+-   [**IMFClockStateSink**](/windows/win32/mfidl/nn-mfidl-imfclockstatesink?branch=master)
+-   [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)
+-   [**IMFTopologyServiceLookupClient**](/windows/win32/evr/nn-evr-imftopologyservicelookupclient?branch=master)
+-   [**IMFVideoDeviceID**](/windows/win32/evr/nn-evr-imfvideodeviceid?branch=master)
+-   [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master)
+-   [**IMFVideoPresenter**](/windows/win32/evr/nn-evr-imfvideopresenter?branch=master)
 
 ## Usage
 

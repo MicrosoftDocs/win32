@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_ATMAType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents an ATM Address to Name (ATMA) record.
-ms.assetid: '3e9e4032-08a0-4a2e-bcff-f461b69a44d4'
-keywords: ["MicrosoftDNS_ATMAType class DNS", "MicrosoftDNS_ATMAType class DNS , described"]
+ms.assetid: 3e9e4032-08a0-4a2e-bcff-f461b69a44d4
+keywords:
+- MicrosoftDNS_ATMAType class DNS
+- MicrosoftDNS_ATMAType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_ATMAType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_ATMAType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ ATM address format. Valid values are: 0 indicating ATM End System Address (AESA)
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ ATM address format. Valid values are: 0 indicating ATM End System Address (AESA)
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

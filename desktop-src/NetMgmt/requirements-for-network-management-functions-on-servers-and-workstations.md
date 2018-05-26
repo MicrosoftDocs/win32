@@ -1,7 +1,12 @@
 ---
 title: Requirements for Network Management Functions on Servers and Workstations
 description: If you call one of the network management functions listed in this topic on a server or workstation, different access requirements apply to information queries and information updates.
-ms.assetid: '05ff1771-8058-4c86-8f45-735bf41dc128'
+ms.assetid: 05ff1771-8058-4c86-8f45-735bf41dc128
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Network Management Functions on Servers and Workstations
@@ -12,13 +17,13 @@ If you call one of the network management functions listed in this topic on a se
 
 If you call one of the following functions to perform a query on a server or workstation, by default, all authenticated users can read and enumerate the information.
 
--   [**NetGroupEnum**](netgroupenum.md), [**NetGroupGetInfo**](netgroupgetinfo.md), [**NetGroupGetUsers**](netgroupgetusers.md)
--   [**NetLocalGroupEnum**](netlocalgroupenum.md), [**NetLocalGroupGetInfo**](netlocalgroupgetinfo.md), [**NetLocalGroupGetMembers**](netlocalgroupgetmembers.md)
--   [**NetQueryDisplayInformation**](netquerydisplayinformation.md)
+-   [**NetGroupEnum**](/windows/win32/Lmaccess/nf-lmaccess-netgroupenum?branch=master), [**NetGroupGetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netgroupgetinfo?branch=master), [**NetGroupGetUsers**](/windows/win32/Lmaccess/nf-lmaccess-netgroupgetusers?branch=master)
+-   [**NetLocalGroupEnum**](/windows/win32/Lmaccess/nf-lmaccess-netlocalgroupenum?branch=master), [**NetLocalGroupGetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netlocalgroupgetinfo?branch=master), [**NetLocalGroupGetMembers**](/windows/win32/Lmaccess/nf-lmaccess-netlocalgroupgetmembers?branch=master)
+-   [**NetQueryDisplayInformation**](/windows/win32/Lmaccess/nf-lmaccess-netquerydisplayinformation?branch=master)
 -   [**NetSessionGetInfo**](https://msdn.microsoft.com/library/windows/desktop/bb525383) (levels 1 and 2 only)
 -   [**NetShareEnum**](https://msdn.microsoft.com/library/windows/desktop/bb525387) (levels 2 and 502 only)
--   [**NetUserEnum**](netuserenum.md), [**NetUserGetGroups**](netusergetgroups.md), [**NetUserGetInfo**](netusergetinfo.md), [**NetUserGetLocalGroups**](netusergetlocalgroups.md), [**NetUserModalsGet**](netusermodalsget.md)
--   [**NetWkstaGetInfo**](netwkstagetinfo.md), [**NetWkstaUserEnum**](netwkstauserenum.md)
+-   [**NetUserEnum**](/windows/win32/Lmaccess/nf-lmaccess-netuserenum?branch=master), [**NetUserGetGroups**](/windows/win32/Lmaccess/nf-lmaccess-netusergetgroups?branch=master), [**NetUserGetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusergetinfo?branch=master), [**NetUserGetLocalGroups**](/windows/win32/Lmaccess/nf-lmaccess-netusergetlocalgroups?branch=master), [**NetUserModalsGet**](/windows/win32/Lmaccess/nf-lmaccess-netusermodalsget?branch=master)
+-   [**NetWkstaGetInfo**](/windows/win32/Lmwksta/nf-lmwksta-netwkstagetinfo?branch=master), [**NetWkstaUserEnum**](/windows/win32/Lmwksta/nf-lmwksta-netwkstauserenum?branch=master)
 
 Following is additional information about anonymous access when reading and enumerating information.
 

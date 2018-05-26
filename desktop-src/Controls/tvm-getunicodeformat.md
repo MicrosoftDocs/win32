@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the TreeView\_GetUnicodeFormat macro.
-ms.assetid: 'd95f61b6-9ec1-4471-b24b-efe141428747'
-keywords: ["TVM_GETUNICODEFORMAT message Windows Controls"]
+ms.assetid: d95f61b6-9ec1-4471-b24b-efe141428747
+keywords:
+- TVM_GETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETUNICODEFORMAT message
 
-Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the [**TreeView\_GetUnicodeFormat**](treeview-getunicodeformat.md) macro.
+Retrieves the Unicode character format flag for the control. You can send this message explicitly or use the [**TreeView\_GetUnicodeFormat**](/windows/win32/Commctrl/nf-commctrl-treeview_getunicodeformat?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 [**TVM\_SETUNICODEFORMAT**](tvm-setunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

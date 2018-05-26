@@ -1,7 +1,12 @@
 ---
 title: Version Property
 description: Version Property
-ms.assetid: '11e95abb-a4a2-483c-870e-475705209e90'
+ms.assetid: 11e95abb-a4a2-483c-870e-475705209e90
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version Property

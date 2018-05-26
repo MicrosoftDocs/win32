@@ -1,7 +1,12 @@
 ---
-Description: 'Finds all the IP addresses for localhost.'
-ms.assetid: '47f7d03e-c1a1-4395-9889-01891208fe0f'
+Description: Finds all the IP addresses for localhost.
+ms.assetid: 47f7d03e-c1a1-4395-9889-01891208fe0f
 title: myIPAddressEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # myIPAddressEx function

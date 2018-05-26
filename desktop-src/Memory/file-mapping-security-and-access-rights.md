@@ -1,14 +1,19 @@
-﻿---
-Description: 'The Windows security model enables you to control access to file mapping objects. For more information, see Access-Control Model.'
-ms.assetid: '8bbf7c98-ff83-4ed9-8b82-f08dcd31295c'
+---
+Description: The Windows security model enables you to control access to file mapping objects. For more information, see Access-Control Model.
+ms.assetid: 8bbf7c98-ff83-4ed9-8b82-f08dcd31295c
 title: File Mapping Security and Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Mapping Security and Access Rights
 
 The Windows security model enables you to control access to file mapping objects. For more information, see [Access-Control Model](security.access_control_model).
 
-You can specify a [security descriptor](security.security_descriptors) for a file mapping object when you call the [**CreateFileMapping**](createfilemapping.md) function. If you specify **NULL**, the object gets a default security descriptor. The ACLs in the default security descriptor for a file mapping object come from the primary or impersonation token of the creator.
+You can specify a [security descriptor](security.security_descriptors) for a file mapping object when you call the [**CreateFileMapping**](/windows/win32/WinBase/nf-winbase-createfilemappinga?branch=master) function. If you specify **NULL**, the object gets a default security descriptor. The ACLs in the default security descriptor for a file mapping object come from the primary or impersonation token of the creator.
 
 To retrieve the security descriptor of a file mapping object, call the [**GetNamedSecurityInfo**](security.getnamedsecurityinfo) or [**GetSecurityInfo**](security.getsecurityinfo) function. To set the security descriptor of a file mapping object, call the [**SetNamedSecurityInfo**](security.setnamedsecurityinfo) or [**SetSecurityInfo**](security.setsecurityinfo) function.
 
@@ -28,7 +33,7 @@ The valid access rights for file mapping objects include the **DELETE**, **READ\
 
  
 
-Mapping a copy-on-write view of a file mapping object requires the same access as mapping a read-only view. **FILE\_MAP\_COPY** is not an actual access right and should not be specified as part of a DACL in a security descriptor. This value can be used only with functions that map a view of a file mapping object, such as the [**MapViewOfFile**](mapviewoffile.md) and [**MapViewOfFileEx**](mapviewoffileex.md) functions, or with the [**OpenFileMapping**](openfilemapping.md) function, which treats **FILE\_MAP\_COPY** the same as **FILE\_MAP\_READ**.
+Mapping a copy-on-write view of a file mapping object requires the same access as mapping a read-only view. **FILE\_MAP\_COPY** is not an actual access right and should not be specified as part of a DACL in a security descriptor. This value can be used only with functions that map a view of a file mapping object, such as the [**MapViewOfFile**](mapviewoffile.md) and [**MapViewOfFileEx**](mapviewoffileex.md) functions, or with the [**OpenFileMapping**](/windows/win32/WinBase/nf-winbase-openfilemappinga?branch=master) function, which treats **FILE\_MAP\_COPY** the same as **FILE\_MAP\_READ**.
 
 You can request the **ACCESS\_SYSTEM\_SECURITY** access right to a file mapping object if you want to read or write the object's SACL. For more information, see [Access-Control Lists (ACLs)](security.access_control_lists_acls_) and [SACL Access Right](security.sacl_access_right).
 

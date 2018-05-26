@@ -1,8 +1,10 @@
 ---
 title: MSFT\_MpThreatDetection class
 description: This is a class that represents the current detailed state of a threat.
-ms.assetid: 'ebc0a7a8-723c-453e-a82b-4fdedb276d19'
-keywords: ["MSFT_MpThreatDetection class", "MSFT_MpThreatDetection class, described"]
+ms.assetid: ebc0a7a8-723c-453e-a82b-4fdedb276d19
+keywords:
+- MSFT_MpThreatDetection class
+- MSFT_MpThreatDetection class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpThreatDetection class
@@ -40,22 +47,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_MpThreatDetection : BaseStatus
 {
-  string   DetectionID;
-  sint64   ThreatID;
-  string   ProcessName;
-  string   DomainUser;
-  uint8    DetectionSourceTypeID;
-  string   Resources[];
+  string   DetectionID;
+  sint64   ThreatID;
+  string   ProcessName;
+  string   DomainUser;
+  uint8    DetectionSourceTypeID;
+  string   Resources[];
   DateTime InitialDetectionTime;
   DateTime LastThreatStatusChangeTime;
   DateTime RemediationTime;
-  uint8    CurrentThreatExecutionStatusID;
-  uint8    ThreatStatusID;
-  sint32   ThreatStatusErrorCode;
-  uint8    CleaningActionID;
-  string   AMProductVersion = tatusID;
-  boolean  ActionSuccess = false;
-  Uint32   AdditionalActionsBitMask;
+  uint8    CurrentThreatExecutionStatusID;
+  uint8    ThreatStatusID;
+  sint32   ThreatStatusErrorCode;
+  uint8    CleaningActionID;
+  string   AMProductVersion = tatusID;
+  boolean  ActionSuccess = false;
+  Uint32   AdditionalActionsBitMask;
 };
 ```
 
@@ -428,17 +435,17 @@ The Threat Status ID - Enumeration
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

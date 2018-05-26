@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents an attribute record.'
-ms.assetid: 'f9d9458c-b179-441c-9f62-ff0ac2f75329'
-title: 'ATTRIBUTE\_RECORD\_HEADER structure'
+---
+Description: Represents an attribute record.
+ms.assetid: f9d9458c-b179-441c-9f62-ff0ac2f75329
+title: ATTRIBUTE\_RECORD\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATTRIBUTE\_RECORD\_HEADER structure

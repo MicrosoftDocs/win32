@@ -1,7 +1,12 @@
 ---
 title: Developing Applications for Previous Versions of Windows
 description: Explains what to do to develop applications that run on previous versions of Windows and take advantage of the API that are supported with the Platform Update for Windows Vista and the Platform Update for Windows Server 2008.
-ms.assetid: '9c46f894-e5cd-46a1-81c8-f63b09504735'
+ms.assetid: 9c46f894-e5cd-46a1-81c8-f63b09504735
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing Applications for Previous Versions of Windows

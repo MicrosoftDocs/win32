@@ -1,7 +1,12 @@
 ---
 title: Swap Chains
 description: Swap chains control the back buffer rotation, forming the basis of graphics animation.
-ms.assetid: 'AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB'
+ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Swap Chains
@@ -41,7 +46,7 @@ D3D12 maintains the restriction that applications must call [**ResizeBuffers**](
 
 The [**IDXGISwapChain::SetFullscreenState**](https://msdn.microsoft.com/library/windows/desktop/bb174579) transitions do not change the set of app-visible buffers in the swap chain. Only the [**ResizeBuffers**](https://msdn.microsoft.com/library/windows/desktop/bb174577) and [**ResizeTarget**](https://msdn.microsoft.com/library/windows/desktop/bb174578) calls create or destroy app-visible buffers.
 
-When [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797) is called, the back buffer to be presented must be in the [**D3D12\_RESOURCE\_STATE\_PRESENT**](d3d12-resource-states.md) state. Present will fail with DXGI\_ERROR\_INVALID\_CALL if this is not the case.
+When [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797) is called, the back buffer to be presented must be in the [**D3D12\_RESOURCE\_STATE\_PRESENT**](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master) state. Present will fail with DXGI\_ERROR\_INVALID\_CALL if this is not the case.
 
 Full-screen swap chains continue to have the restriction that [**SetFullscreenState**](https://msdn.microsoft.com/library/windows/desktop/bb174579)(FALSE, NULL) must be called before the final release of the swap chain. **SetFullscreenState**(FALSE) succeeds on swap chains running on D3D12 devices.
 
@@ -71,7 +76,7 @@ When using the [**CreateSwapChainForHwnd**](https://msdn.microsoft.com/library/w
 
 <dl> <dt>
 
-[**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md)
+[**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master)
 </dt> <dt>
 
 [DirectX advanced learning video tutorials : Unthrottled Framerate](https://www.youtube.com/watch?v=wn02zCXa9IU)

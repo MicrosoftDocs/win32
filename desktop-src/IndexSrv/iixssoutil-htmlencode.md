@@ -1,8 +1,11 @@
 ---
 title: IixssoUtil HTMLEncode method
 description: Encodes a string using HTML encoding using the specified code page.
-ms.assetid: '6bf4ed00-f1f6-49b3-9e85-017ddd00d245'
-keywords: ["HTMLEncode method Indexing Service", "HTMLEncode method Indexing Service , IixssoUtil interface", "IixssoUtil interface Indexing Service , HTMLEncode method"]
+ms.assetid: 6bf4ed00-f1f6-49b3-9e85-017ddd00d245
+keywords:
+- HTMLEncode method Indexing Service
+- HTMLEncode method Indexing Service , IixssoUtil interface
+- IixssoUtil interface Indexing Service , HTMLEncode method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoUtil::HTMLEncode method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Encodes a string using HTML encoding using the specified code page.
 
@@ -24,9 +32,9 @@ Encodes a string using HTML encoding using the specified code page.
 
 ```C++
 HRESULT HTMLEncode(
-  [in]          BSTR pwszString,
-  [in]          LONG codepage,
-  [out, retval] BSTR *ppwszOutput
+  [in]          BSTR pwszString,
+  [in]          LONG codepage,
+  [out, retval] BSTR *ppwszOutput
 );
 ```
 
@@ -71,10 +79,10 @@ The HTMLEncode method is used to work around difficulties with the proper handli
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -86,9 +94,9 @@ The HTMLEncode method is used to work around difficulties with the proper handli
 [**IixssoUtil**](iixssoutil.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

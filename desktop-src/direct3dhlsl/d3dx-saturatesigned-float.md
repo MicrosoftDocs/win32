@@ -1,8 +1,9 @@
 ---
 title: D3DX\_SaturateSigned\_FLOAT function
 description: Retrieves a signed saturated value from the given FLOAT.
-ms.assetid: '2737ea61-5dbf-4451-bb4f-436e6ea95db6'
-keywords: ["D3DX_SaturateSigned_FLOAT function HLSL"]
+ms.assetid: 2737ea61-5dbf-4451-bb4f-436e6ea95db6
+keywords:
+- D3DX_SaturateSigned_FLOAT function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_SaturateSigned\_FLOAT function
@@ -21,7 +27,7 @@ Retrieves a signed saturated value from the given FLOAT.
 
 ``` syntax
  D3DX_SaturateSigned_FLOAT(
-   FLOAT _V
+   FLOAT _V
 );
 ```
 
@@ -60,9 +66,9 @@ The signed saturated value.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

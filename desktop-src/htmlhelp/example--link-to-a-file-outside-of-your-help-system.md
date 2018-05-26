@@ -1,7 +1,12 @@
 ---
 title: Example Link to a File Outside of Your Help System
 description: Example Link to a File Outside of Your Help System
-ms.assetid: '2E8DAE00-D90D-4645-B153-61A8D03F2D09'
+ms.assetid: 2E8DAE00-D90D-4645-B153-61A8D03F2D09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Link to a File Outside of Your Help System

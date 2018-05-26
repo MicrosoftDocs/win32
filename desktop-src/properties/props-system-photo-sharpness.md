@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the direction of sharpness processing applied by the camera when the photo was taken.'
-ms.assetid: 'ee3dca97-a094-4de8-aacd-729abcef4965'
-title: 'System.Photo.Sharpness'
+Description: Indicates the direction of sharpness processing applied by the camera when the photo was taken.
+ms.assetid: ee3dca97-a094-4de8-aacd-729abcef4965
+title: System.Photo.Sharpness
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Sharpness

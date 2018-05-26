@@ -1,8 +1,9 @@
 ---
 title: GetColorSpace function
 description: The GetColorSpace function retrieves the handle to the input color space from a specified device context.
-ms.assetid: '6d092755-2c7a-46a7-9127-df72c26c3ae9'
-keywords: ["GetColorSpace function Windows Color System"]
+ms.assetid: 6d092755-2c7a-46a7-9127-df72c26c3ae9
+keywords:
+- GetColorSpace function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - GDI32Full.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetColorSpace function
@@ -24,7 +30,7 @@ The **GetColorSpace** function retrieves the handle to the input [color space](c
 
 ```C++
 HCOLORSPACE WINAPI GetColorSpace(
-   HDC hDC
+   HDC hDC
 );
 ```
 
@@ -57,8 +63,8 @@ If this function fails, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Gdi32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
@@ -75,9 +81,9 @@ If this function fails, the return value is **NULL**.
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,28 @@
 ---
 title: Ripping by Using the IWMPCdromRip Interface
 description: Ripping by Using the IWMPCdromRip Interface
-ms.assetid: '7622072e-82e1-4e31-ad80-ddc3473b5841'
-keywords: ["Windows Media Player,CD ripping", "Windows Media Player object model,CD ripping", "object model,CD ripping", "Windows Media Player ActiveX control,CD ripping", "ActiveX control,CD ripping", "Windows Media Player Mobile ActiveX control,CD ripping", "Windows Media Player Mobile,CD ripping", "CD ripping,IWMPCdromRip interface", "ripping CDs,IWMPCdromRip interface", "IWMPCdromRip interface"]
+ms.assetid: 7622072e-82e1-4e31-ad80-ddc3473b5841
+keywords:
+- Windows Media Player,CD ripping
+- Windows Media Player object model,CD ripping
+- object model,CD ripping
+- Windows Media Player ActiveX control,CD ripping
+- ActiveX control,CD ripping
+- Windows Media Player Mobile ActiveX control,CD ripping
+- Windows Media Player Mobile,CD ripping
+- CD ripping,IWMPCdromRip interface
+- ripping CDs,IWMPCdromRip interface
+- IWMPCdromRip interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ripping by Using the IWMPCdromRip Interface
 
-This section describes how to use the [IWMPCdromRip](iwmpcdromrip.md) interface to rip music from a CD.
+This section describes how to use the [IWMPCdromRip](/windows/win32/wmp/nn-wmp-iwmpcdromrip?branch=master) interface to rip music from a CD.
 
 Ripping a CD by using the **IWMPCdromRip** interface has the same effect as ripping music by using the Windows Media Player user interface. Ripped content is automatically added to the library according to the user's preferences. For more information about CD ripping, see "Ripping music from CDs" in Windows Media Player Help.
 

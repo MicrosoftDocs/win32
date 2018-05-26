@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a GUID for the template.'
+Description: Retrieves a GUID for the template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f88439d5-f3d3-4032-9275-46305e7ff6b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f88439d5-f3d3-4032-9275-46305e7ff6b0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplate.Id property'
+title: RightsTemplate.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplate.Id property
@@ -120,7 +123,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -132,9 +135,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the recipients associated with the inbound fax message. This property is a null-terminated string.'
-ms.assetid: 'f2d624da-b24c-493f-933b-56320b14616d'
-title: 'FaxIncomingMessage.Recipients property'
+---
+Description: Contains the recipients associated with the inbound fax message. This property is a null-terminated string.
+ms.assetid: f2d624da-b24c-493f-933b-56320b14616d
+title: FaxIncomingMessage.Recipients property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.Recipients property
@@ -54,7 +59,7 @@ Each recipient is identified on the pattern of &lt;DomainName&gt;\\&lt;UserName&
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md)
+[**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master)
 </dt> </dl>
 
  

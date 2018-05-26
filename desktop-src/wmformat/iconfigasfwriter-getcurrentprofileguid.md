@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter GetCurrentProfileGuid method
 description: The GetCurrentProfileGuid method retrieves the current Windows Media system profile GUID.
-ms.assetid: 'e7a2ecc0-48d4-446c-852a-0d7677cbbe71'
-keywords: ["GetCurrentProfileGuid method windows Media Format", "GetCurrentProfileGuid method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , GetCurrentProfileGuid method"]
+ms.assetid: e7a2ecc0-48d4-446c-852a-0d7677cbbe71
+keywords:
+- GetCurrentProfileGuid method windows Media Format
+- GetCurrentProfileGuid method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , GetCurrentProfileGuid method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.GetCurrentProfileGuid
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::GetCurrentProfileGuid method
@@ -49,7 +57,7 @@ This method is not used with custom profiles (including all profiles that includ
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
  

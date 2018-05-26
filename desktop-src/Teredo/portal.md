@@ -1,7 +1,12 @@
 ---
 title: Teredo
 description: .
-ms.assetid: 'fc213675-dbdb-42a1-a09f-dda598b95b94'
+ms.assetid: fc213675-dbdb-42a1-a09f-dda598b95b94
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Teredo
@@ -16,7 +21,7 @@ Teredo is designed for use by C/C++ developers with IPv6 network programming exp
 
 ## Run-time requirements
 
-The Teredo interface is primarily supported by Windows Vista and Windows Server 2008. The limited functionality of the Teredo Interface supported by Windows XP with Service Pack 2 (SP2) and Windows Server 2003 is detailed in [Receiving Solicited Traffic Over Teredo](receiving-solicited-traffic-over-teredo.md).
+The Teredo interface is primarily supported by Windows Vista and Windows Server 2008. The limited functionality of the Teredo Interface supported by Windows XP with Service Pack 2 (SP2) and Windows Server 2003 is detailed in [Receiving Solicited Traffic Over Teredo](receiving-solicited-traffic-over-teredo.md).
 
 ## In this section
 
@@ -29,11 +34,11 @@ The Teredo interface is primarily supported by Windows Vista and Windows Server 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

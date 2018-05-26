@@ -1,8 +1,11 @@
 ---
 title: background.src property
 description: Gets or sets the image file used by the g background element.
-ms.assetid: '8133ec91-a2a0-49ba-b3cd-8425a6264d55'
-keywords: ["src property Windows Sidebar", "src property Windows Sidebar , background object", "background object Windows Sidebar , src property"]
+ms.assetid: 8133ec91-a2a0-49ba-b3cd-8425a6264d55
+keywords:
+- src property Windows Sidebar
+- src property Windows Sidebar , background object
+- background object Windows Sidebar , src property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # background.src property
@@ -61,10 +69,10 @@ imgBackground.src = "..\\aero\&amp;logo.png";
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -86,9 +94,9 @@ imgBackground.src = "..\\aero\&amp;logo.png";
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

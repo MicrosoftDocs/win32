@@ -1,13 +1,16 @@
 ---
-Description: 'Class is the abstract base class for classes that are used to determine when WMI should release a Component Object Model (COM) object.'
+Description: Class is the abstract base class for classes that are used to determine when WMI should release a Component Object Model (COM) object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '32631610-8c0e-4f04-b0b2-62e5f8e23ef4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 32631610-8c0e-4f04-b0b2-62e5f8e23ef4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_CacheControl class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_CacheControl class
@@ -39,8 +42,8 @@ The **\_\_CacheControl** class is derived from [**\_\_SystemClass**](--systemcla
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -73,9 +76,9 @@ The **\_\_CacheControl** class is derived from [**\_\_SystemClass**](--systemcla
 [Unloading a Provider](unloading-a-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

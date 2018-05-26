@@ -4,11 +4,15 @@ description: In an Internet scenario, clients will usually connect to DSML Servi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b8ccd6ab-6eca-4ee8-80bb-1772213aa9b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b8ccd6ab-6eca-4ee8-80bb-1772213aa9b9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Running DSML Services for Windows on the Internet DSML"]
+keywords:
+- Running DSML Services for Windows on the Internet DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running DSML Services for Windows on the Internet

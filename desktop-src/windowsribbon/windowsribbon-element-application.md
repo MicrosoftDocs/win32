@@ -1,14 +1,20 @@
 ---
 title: Application element
 description: Represents the top-level element in the Windows Ribbon framework markup specification.
-ms.assetid: '05396d8b-fbd1-40bb-8d0f-8ac11506e7db'
-keywords: ["Application element Windows Ribbon"]
+ms.assetid: 05396d8b-fbd1-40bb-8d0f-8ac11506e7db
+keywords:
+- Application element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Application
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application element
@@ -79,7 +85,7 @@ The following example shows an **Application** element declaration.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -91,9 +97,9 @@ The following example shows an **Application** element declaration.
 [Declaring Commands and Controls with Ribbon Markup](windowsribbon-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

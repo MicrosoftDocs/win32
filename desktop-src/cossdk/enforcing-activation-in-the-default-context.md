@@ -1,7 +1,12 @@
 ---
-Description: 'A configured COM component is usually activated in its own context; that is, COM+ references the component's catalog information to provide any configured services.'
-ms.assetid: '09dc7165-22b1-4eca-9591-d83e85556f3f'
+Description: A configured COM component is usually activated in its own context; that is, COM+ references the components catalog information to provide any configured services.
+ms.assetid: 09dc7165-22b1-4eca-9591-d83e85556f3f
 title: Enforcing Activation in the Default Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enforcing Activation in the Default Context

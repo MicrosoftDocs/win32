@@ -4,13 +4,16 @@ description: Configures how the DNS server should be updated by the DHCP server 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87edf126-b4a4-4af2-84e0-8e54911daa04'
-ms.prod: 'windows-server-dev'
+ms.assetid: 87edf126-b4a4-4af2-84e0-8e54911daa04
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv6DnsSetting class", "PS_DhcpServerv6DnsSetting class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv6DnsSetting class
+- PS_DhcpServerv6DnsSetting class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv6DnsSetting class
@@ -30,14 +36,14 @@ Configures how the DNS server should be updated by the DHCP server with client-r
 
 ```mof
 uint32 Set(
-  [in]  string                 ComputerName,
-  [in]  boolean                NameProtection,
-  [in]  boolean                DeleteDnsRROnLeaseExpiry,
-  [in]  string                 DynamicUpdates,
-  [in]  string                 IPAddress,
-  [in]  string                 Prefix,
-  [in]  boolean                PassThru,
-  [out] DhcpServerv6DnsSetting cmdletOutput
+  [in]  string                 ComputerName,
+  [in]  boolean                NameProtection,
+  [in]  boolean                DeleteDnsRROnLeaseExpiry,
+  [in]  string                 DynamicUpdates,
+  [in]  string                 IPAddress,
+  [in]  string                 Prefix,
+  [in]  boolean                PassThru,
+  [out] DhcpServerv6DnsSetting cmdletOutput
 );
 ```
 
@@ -131,7 +137,7 @@ An embedded instance of the [**DhcpServerv6DnsSetting**](dhcpserverv6dnssetting.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -145,9 +151,9 @@ An embedded instance of the [**DhcpServerv6DnsSetting**](dhcpserverv6dnssetting.
 [**PS\_DhcpServerv6DnsSetting**](ps-dhcpserverv6dnssetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

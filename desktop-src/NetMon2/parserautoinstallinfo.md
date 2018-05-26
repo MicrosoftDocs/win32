@@ -1,7 +1,12 @@
 ---
-Description: 'The ParserAutoInstallInfo export function identifies the parser, or parsers that are located in a DLL. ParserAutoInstallInfo should be implemented in all parser DLLs.'
-ms.assetid: '1add9988-9cb2-43f9-8ae2-32acfe21b6f3'
+Description: The ParserAutoInstallInfo export function identifies the parser, or parsers that are located in a DLL. ParserAutoInstallInfo should be implemented in all parser DLLs.
+ms.assetid: 1add9988-9cb2-43f9-8ae2-32acfe21b6f3
 title: ParserAutoInstallInfo callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParserAutoInstallInfo callback function
@@ -47,11 +52,11 @@ Each parser DLL should contain one parser. However, Network Monitor allows you t
 |------------------------------------------------------------------|------------------------------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor.        | [Parsers](parsers.md)                                                       |
 | Which entry points are included in the parser DLL.               | [Parser DLL Architecture](parser-dll-architecture.md)                       |
-| How to implement **ParserAutoInstallInfo**— includes an example. | [Implementing ParserAutoInstallInfo](implementing-parserautoinstallinfo.md) |
+| How to implement **ParserAutoInstallInfo**  includes an example. | [Implementing ParserAutoInstallInfo](implementing-parserautoinstallinfo.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,8 +64,8 @@ Each parser DLL should contain one parser. However, Network Monitor allows you t
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -72,9 +77,9 @@ Each parser DLL should contain one parser. However, Network Monitor allows you t
 [PF\_PARSERDLLINFO](pf-parserdllinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

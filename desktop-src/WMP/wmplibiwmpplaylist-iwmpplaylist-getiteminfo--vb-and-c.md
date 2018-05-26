@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylist getItemInfo method
 description: The getItemInfo method returns the value of a playlist attribute specified by name.
-ms.assetid: '62e882d6-66bb-450c-9700-b99d30dd42fa'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , IWMPPlaylist interface", "IWMPPlaylist interface Windows Media Player , getItemInfo method"]
+ms.assetid: 62e882d6-66bb-450c-9700-b99d30dd42fa
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , IWMPPlaylist interface
+- IWMPPlaylist interface Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist::getItemInfo method
@@ -92,9 +100,9 @@ See the [attributeCount](wmplibiwmpplaylist-iwmpplaylist-attributecount--vb-and-
 [**IWMPPlaylist.setItemInfo (VB and C#)**](wmplibiwmpplaylist-iwmpplaylist-setiteminfo--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

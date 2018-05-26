@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TRANSDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).'
-ms.assetid: '75ddf007-0113-4967-a8d4-02fcc3cc2857'
+---
+Description: The TRANSDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
+ms.assetid: 75ddf007-0113-4967-a8d4-02fcc3cc2857
 title: TRANSDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRANSDATA structure

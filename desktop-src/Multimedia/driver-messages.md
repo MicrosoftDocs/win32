@@ -1,8 +1,18 @@
 ---
 title: Driver Messages
 description: Driver Messages
-ms.assetid: 'ed3748ac-08e6-418e-b345-30c796fa38f3'
-keywords: ["installable drivers,messages", "installable drivers,custom messages", "driver messages", "custom driver messages", "installable drivers,DriverProc function"]
+ms.assetid: ed3748ac-08e6-418e-b345-30c796fa38f3
+keywords:
+- installable drivers,messages
+- installable drivers,custom messages
+- driver messages
+- custom driver messages
+- installable drivers,DriverProc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Driver Messages

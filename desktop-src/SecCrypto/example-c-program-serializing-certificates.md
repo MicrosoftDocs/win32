@@ -1,23 +1,28 @@
 ---
-Description: 'The following example demonstrates serializing a certificate context and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user.'
-ms.assetid: 'cda7fa68-debe-40e6-8c4a-536dacccc2d1'
-title: 'Example C Program: Serializing Certificates'
+Description: The following example demonstrates serializing a certificate context and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user.
+ms.assetid: cda7fa68-debe-40e6-8c4a-536dacccc2d1
+title: Example C Program Serializing Certificates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Serializing Certificates
 
-The following example demonstrates serializing a [*certificate context*](security.c_gly#-security-certificate-context-gly) and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user. The example also shows how the serialized certificate can be changed back into a certificate and added to a certificate store. The same process works also with [*CRLs*](security.c_gly#-security-certificate-revocation-list-gly) and [*CTLs*](security.c_gly#-security-certificate-trust-list-gly) using [**CertSerializeCRLStoreElement**](certserializecrlstoreelement.md) and [**CertSerializeCTLStoreElement**](certserializectlstoreelement.md).
+The following example demonstrates serializing a [*certificate context*](security.c_gly#-security-certificate-context-gly) and its properties into a form that can be stored in a file, sent with an email message, or otherwise transmitted to another user. The example also shows how the serialized certificate can be changed back into a certificate and added to a certificate store. The same process works also with [*CRLs*](security.c_gly#-security-certificate-revocation-list-gly) and [*CTLs*](security.c_gly#-security-certificate-trust-list-gly) using [**CertSerializeCRLStoreElement**](/windows/win32/Wincrypt/nf-wincrypt-certserializecrlstoreelement?branch=master) and [**CertSerializeCTLStoreElement**](/windows/win32/Wincrypt/nf-wincrypt-certserializectlstoreelement?branch=master).
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Opening a system certificate store using [**CertOpenSystemStore**](certopensystemstore.md).
--   Opening a certificate store using [**CertOpenStore**](certopenstore.md).
--   Retrieving a certificate from a store using [**CertEnumCertificatesInStore**](certenumcertificatesinstore.md).
--   Getting the name of the certificate's subject using [**CertGetNameString**](certgetnamestring.md).
--   Creating a serialized form of a [*certificate context*](security.c_gly#-security-certificate-context-gly) and its properties using [**CertSerializeCertificateStoreElement**](certserializecertificatestoreelement.md).
--   Creating a new certificate from a serialized string and adding it into a certificate store using [**CertAddSerializedElementToStore**](certaddserializedelementtostore.md).
--   Using [**CertAddEncodedCertificateToStore**](certaddencodedcertificatetostore.md) to create a new certificate from the encoded portion of an existing certificate.
--   Using [**CertCloseStore**](certclosestore.md) to close a certificate store.
+-   Opening a system certificate store using [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master).
+-   Opening a certificate store using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master).
+-   Retrieving a certificate from a store using [**CertEnumCertificatesInStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatesinstore?branch=master).
+-   Getting the name of the certificate's subject using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   Creating a serialized form of a [*certificate context*](security.c_gly#-security-certificate-context-gly) and its properties using [**CertSerializeCertificateStoreElement**](/windows/win32/Wincrypt/nf-wincrypt-certserializecertificatestoreelement?branch=master).
+-   Creating a new certificate from a serialized string and adding it into a certificate store using [**CertAddSerializedElementToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddserializedelementtostore?branch=master).
+-   Using [**CertAddEncodedCertificateToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddencodedcertificatetostore?branch=master) to create a new certificate from the encoded portion of an existing certificate.
+-   Using [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master) to close a certificate store.
 
 
 ```C++

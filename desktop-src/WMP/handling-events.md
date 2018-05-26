@@ -1,8 +1,20 @@
 ---
 title: Handling Events
 description: Handling Events
-ms.assetid: 'a3263ef7-bce7-4555-bce3-53e9b4eb0747'
-keywords: ["Windows Media Player skins,writing code", "skins,writing code", "Windows Media Player skins,events", "skins,events", "events,skins", "events,writing code", "writing code for skins,about"]
+ms.assetid: a3263ef7-bce7-4555-bce3-53e9b4eb0747
+keywords:
+- Windows Media Player skins,writing code
+- skins,writing code
+- Windows Media Player skins,events
+- skins,events
+- events,skins
+- events,writing code
+- writing code for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Events

@@ -1,14 +1,20 @@
 ---
 title: VIDEO.onvideostart
 description: The onvideostart event handler handles an event that occurs when the video is loaded and begins to render.
-ms.assetid: '5569bf1c-cc78-47b7-a6a1-a56511c40276'
-keywords: ["VIDEO.onvideostart Windows Media Player"]
+ms.assetid: 5569bf1c-cc78-47b7-a6a1-a56511c40276
+keywords:
+- VIDEO.onvideostart Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.onvideostart
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.onvideostart
@@ -37,9 +43,9 @@ onvideostart
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

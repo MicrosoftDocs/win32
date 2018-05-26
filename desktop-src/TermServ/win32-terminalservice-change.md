@@ -4,11 +4,14 @@ description: Modifies a Win32\_TerminalService.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '19E43A80-47C9-4C5A-8E73-723F206AA7C0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 19E43A80-47C9-4C5A-8E73-723F206AA7C0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Change method Remote Desktop Services", "Change method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , Change method"]
+keywords:
+- Change method Remote Desktop Services
+- Change method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , Change method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Change method of the Win32\_Service class
@@ -30,17 +36,17 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Change(
-  [in] string  DisplayName,
-  [in] string  PathName,
-  [in] uint32  ServiceType,
-  [in] uint32  ErrorControl,
-  [in] string  StartMode,
-  [in] boolean DesktopInteract,
-  [in] string  StartName,
-  [in] string  StartPassword,
-  [in] string  LoadOrderGroup,
-  [in] string  LoadOrderGroupDependencies,
-  [in] string  ServiceDependencies
+  [in] string  DisplayName,
+  [in] string  PathName,
+  [in] uint32  ServiceType,
+  [in] uint32  ErrorControl,
+  [in] string  StartMode,
+  [in] boolean DesktopInteract,
+  [in] string  StartName,
+  [in] string  StartPassword,
+  [in] string  LoadOrderGroup,
+  [in] string  LoadOrderGroupDependencies,
+  [in] string  ServiceDependencies
 );
 ```
 
@@ -245,7 +251,7 @@ Password to the account name specified by the *StartName* parameter. Specify **N
 > [!Note]  
 > When changing a service from a local system to a network, or from a network to a local system, *StartPassword* must be an empty string ("") and not **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -551,8 +557,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | Header<br/>                   | <dl> <dt>Mbnapi.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
@@ -576,9 +582,9 @@ Next
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

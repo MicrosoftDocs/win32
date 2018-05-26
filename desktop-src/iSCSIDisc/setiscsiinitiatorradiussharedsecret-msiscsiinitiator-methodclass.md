@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetIscsiInitiatorRADIUSSharedSecret function sets the RADIUS shared secret for the Initiator.'
-ms.assetid: '6ec10834-a2df-499b-ace3-01600f4a3140'
-title: 'SetIscsiInitiatorRADIUSSharedSecret method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The SetIscsiInitiatorRADIUSSharedSecret function sets the RADIUS shared secret for the Initiator.
+ms.assetid: 6ec10834-a2df-499b-ace3-01600f4a3140
+title: SetIscsiInitiatorRADIUSSharedSecret method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIscsiInitiatorRADIUSSharedSecret method of the MSIscsiInitiator\_MethodClass class

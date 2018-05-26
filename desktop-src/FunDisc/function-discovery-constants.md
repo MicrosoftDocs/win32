@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'd7546c03-c7e1-460f-90b4-43065b26cc2f'
+ms.assetid: d7546c03-c7e1-460f-90b4-43065b26cc2f
 title: Function Discovery Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Constants

@@ -1,7 +1,12 @@
 ---
-Description: 'Event tracing sessions record events from one or more providers that a controller enables.'
-ms.assetid: '43841d2f-5a4c-493d-9531-21941311ffbc'
+Description: Event tracing sessions record events from one or more providers that a controller enables.
+ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: Event Tracing Sessions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Tracing Sessions

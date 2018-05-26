@@ -1,8 +1,20 @@
 ---
 title: Manipulating Images for Use in Texturing
 description: The OpenGL Utility library (GLU) provides image scaling and automatic mipmapping functions to simplify the specification of texture images.
-ms.assetid: '20edf665-1fed-4761-b8b1-beee02c78b0d'
-keywords: ["OpenGL Utility (GLU),image scaling", "GLU (OpenGL Utility),image scaling", "OpenGL Utility (GLU),automatic mipmapping", "GLU (OpenGL Utility),automatic mipmapping", "OpenGL Utility (GLU),texture images", "GLU (OpenGL Utility),texture images", "GLU library,texture images"]
+ms.assetid: 20edf665-1fed-4761-b8b1-beee02c78b0d
+keywords:
+- OpenGL Utility (GLU),image scaling
+- GLU (OpenGL Utility),image scaling
+- OpenGL Utility (GLU),automatic mipmapping
+- GLU (OpenGL Utility),automatic mipmapping
+- OpenGL Utility (GLU),texture images
+- GLU (OpenGL Utility),texture images
+- GLU library,texture images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manipulating Images for Use in Texturing

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the PKEYs associated with the WNet Provider.'
-ms.assetid: 'd42cbf90-5747-4c46-8a25-a2e43e2ba88e'
+Description: Defines the PKEYs associated with the WNet Provider.
+ms.assetid: d42cbf90-5747-4c46-8a25-a2e43e2ba88e
 title: WNet Provider PKEYs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WNet Provider PKEYs
@@ -98,8 +103,8 @@ Corresponds to the **dwUsage** member of the [**NETRESOURCE**](https://msdn.micr
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h</dt> </dl> |
 
 
@@ -111,9 +116,9 @@ Corresponds to the **dwUsage** member of the [**NETRESOURCE**](https://msdn.micr
 [**Key Definitions**](key-definitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

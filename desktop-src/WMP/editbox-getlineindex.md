@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.getLineIndex
 description: The getLineIndex method retrieves the character index of the first character on the line with the specified line index.
-ms.assetid: '1298227a-d839-44fc-bacb-44c3c968bd94'
-keywords: ["EDITBOX.getLineIndex Windows Media Player"]
+ms.assetid: 1298227a-d839-44fc-bacb-44c3c968bd94
+keywords:
+- EDITBOX.getLineIndex Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.getLineIndex
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.getLineIndex
@@ -36,7 +42,7 @@ This method returns a **Number** (**long**).
 
 ## Remarks
 
-If the specified line index is –1, the line containing the insertion point is used.
+If the specified line index is  1, the line containing the insertion point is used.
 
 This method can only be called after the control becomes visible.
 
@@ -63,9 +69,9 @@ This method can only be called after the control becomes visible.
 [**EDITBOX.getLineFromChar**](editbox-getlinefromchar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

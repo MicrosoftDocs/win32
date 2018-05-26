@@ -1,12 +1,17 @@
-﻿---
-Description: 'Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.'
-ms.assetid: '2f29cbac-4261-41ee-84c8-cb73686aeee5'
-title: 'IMFMediaSourceExtension::RemoveSourceBuffer method'
+---
+Description: Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.
+ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
+title: IMFMediaSourceExtensionRemoveSourceBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaSourceExtension::RemoveSourceBuffer method
 
-Removes the specified source buffer from the collection of source buffers managed by the [**IMFMediaSourceExtension**](imfmediasourceextension.md) object.
+Removes the specified source buffer from the collection of source buffers managed by the [**IMFMediaSourceExtension**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediasourceextension?branch=master) object.
 
 ## Syntax
 
@@ -50,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaSourceExtension**](imfmediasourceextension.md)
+[**IMFMediaSourceExtension**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediasourceextension?branch=master)
 </dt> </dl>
 
  

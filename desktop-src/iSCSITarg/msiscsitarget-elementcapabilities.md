@@ -4,13 +4,15 @@ description: Represents the association between a managed element and the CIM\_C
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8bf9df3c-350c-45b2-8948-b71e9498cb73'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8bf9df3c-350c-45b2-8948-b71e9498cb73
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_ElementCapabilities class iSCSI Software Target API", "MSISCSITARGET_ElementCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_ElementCapabilities class iSCSI Software Target API
+- MSISCSITARGET_ElementCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_ElementCapabilities class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSISCSITARGET_ElementCapabilities : CIM_ElementCapabilities
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_Capabilities   REF Capabilities;
+  CIM_Capabilities   REF Capabilities;
 };
 ```
 
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_ElementCapabilities**](cim-elementcapabi
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -118,9 +123,9 @@ This property is inherited from [**CIM\_ElementCapabilities**](cim-elementcapabi
 [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/cc136871)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

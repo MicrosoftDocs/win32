@@ -1,14 +1,20 @@
 ---
 title: dst function
 description: Calculates a distance vector.
-ms.assetid: '24d22743-5867-49db-8d0a-55cc3625c947'
-keywords: ["dst function HLSL"]
+ms.assetid: 24d22743-5867-49db-8d0a-55cc3625c947
+keywords:
+- dst function HLSL
 topic_type:
 - apiref
 api_name:
 - dst
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dst function

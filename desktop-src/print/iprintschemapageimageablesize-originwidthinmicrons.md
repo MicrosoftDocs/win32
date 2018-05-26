@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the horizontal origin of the imageable area relative to the application media size.'
-ms.assetid: '158F8979-682B-4836-9EC5-6F30371DB6EA'
-title: 'IPrintSchemaPageImageableSize::OriginWidthInMicrons property'
+---
+Description: Gets the horizontal origin of the imageable area relative to the application media size.
+ms.assetid: 158F8979-682B-4836-9EC5-6F30371DB6EA
+title: IPrintSchemaPageImageableSizeOriginWidthInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageImageableSize::OriginWidthInMicrons property

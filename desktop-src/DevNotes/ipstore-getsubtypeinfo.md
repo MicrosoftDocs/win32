@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information associated with a subtype.'
-ms.assetid: '3daf5f37-9e7f-4ce1-bd35-d7e3c2ef5c28'
-title: 'IPStore::GetSubtypeInfo method'
+---
+Description: Retrieves information associated with a subtype.
+ms.assetid: 3daf5f37-9e7f-4ce1-bd35-d7e3c2ef5c28
+title: IPStoreGetSubtypeInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::GetSubtypeInfo method

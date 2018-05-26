@@ -1,20 +1,25 @@
 ---
 title: User-Shared-Folder attribute
-description: Specifies a UNC path to the user's shared documents folder. The path must be a network UNC path of the form \\\\Server\\Share\\Directory. This value can be a null string.
+description: Specifies a UNC path to the users shared documents folder. The path must be a network UNC path of the form \\\\Server\\Share\\Directory. This value can be a null string.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '23b4177a-0a05-4111-affe-d81bc115580d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 23b4177a-0a05-4111-affe-d81bc115580d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["User-Shared-Folder attribute AD Schema", "userSharedFolder attribute AD Schema"]
+keywords:
+- User-Shared-Folder attribute AD Schema
+- userSharedFolder attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - User-Shared-Folder
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User-Shared-Folder attribute
@@ -38,12 +43,12 @@ Specifies a UNC path to the user's shared documents folder. The path must be a n
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Specifies a UNC path to the user's shared documents folder. The path must be a n
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'Step 5.'
-ms.assetid: 'b7d878ab-523f-4b52-b98d-c9d4fa18ce8a'
-title: 'Step 5. Transform the Image'
+Description: Step 5.
+ms.assetid: b7d878ab-523f-4b52-b98d-c9d4fa18ce8a
+title: Step 5. Transform the Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 5. Transform the Image
 
 This is step 5 of the tutorial [Writing Transform Filters](writing-transform-filters.md).
 
-The upstream filter delivers media samples to the transform filter by calling the [**IMemInputPin::Receive**](imeminputpin-receive.md) method on the transform filter's input pin. To process the data, the transform filter calls the **Transform** method, which is pure virtual. The **CTransformFilter** and **CTransInPlaceFilter** classes use two different versions of this method:
+The upstream filter delivers media samples to the transform filter by calling the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method on the transform filter's input pin. To process the data, the transform filter calls the **Transform** method, which is pure virtual. The **CTransformFilter** and **CTransInPlaceFilter** classes use two different versions of this method:
 
 -   [**CTransformFilter::Transform**](ctransformfilter-transform.md) takes a pointer to the input sample and a pointer to the output sample. Before the filter calls the method, it copies the sample properties from the input sample to the output sample, including the time stamps.
 -   [**CTransInPlaceFilter::Transform**](ctransinplacefilter-transform.md) takes a pointer to the input sample. The filter modifies the data in place.
@@ -47,15 +52,15 @@ HRESULT CRleFilter::Transform(IMediaSample *pSource, IMediaSample *pDest)
 
 This example assumes that EncodeFrame is a private method that implements the RLE encoding. The encoding algorithm itself is not described here; for details, see the topic "Bitmap Compression" in the Platform SDK documentation.
 
-First, the example calls [**IMediaSample::GetPointer**](imediasample-getpointer.md) to retrieve the addresses of the underlying buffers. It passes these to the private EncoderFrame method. Then it calls [**IMediaSample::SetActualDataLength**](imediasample-setactualdatalength.md) to specify the length of the encoded data. The downstream filter needs this information so that it can manage the buffer properly. Finally, the method calls [**IMediaSample::SetSyncPoint**](imediasample-setsyncpoint.md) to set the key frame flag to **TRUE**. Run-length encoding does not use any delta frames, so every frame is a key frame. For delta frames, set the value to **FALSE**.
+First, the example calls [**IMediaSample::GetPointer**](/windows/win32/Strmif/nf-strmif-imediasample-getpointer?branch=master) to retrieve the addresses of the underlying buffers. It passes these to the private EncoderFrame method. Then it calls [**IMediaSample::SetActualDataLength**](/windows/win32/Strmif/nf-strmif-imediasample-setactualdatalength?branch=master) to specify the length of the encoded data. The downstream filter needs this information so that it can manage the buffer properly. Finally, the method calls [**IMediaSample::SetSyncPoint**](/windows/win32/Strmif/nf-strmif-imediasample-setsyncpoint?branch=master) to set the key frame flag to **TRUE**. Run-length encoding does not use any delta frames, so every frame is a key frame. For delta frames, set the value to **FALSE**.
 
 Other issues that you must consider include:
 
--   Time stamps. The **CTransformFilter** class timestamps the output sample before calling the **Transform** method. It copies the time stamp values from the input sample, without modifying them. If your filter needs to change the time stamps, call [**IMediaSample::SetTime**](imediasample-settime.md) on the output sample.
--   Format changes. The upstream filter can change formats mid-stream by attaching a media type to the sample. Before doing so, it calls [**IPin::QueryAccept**](ipin-queryaccept.md) on your filter's input pin. In the **CTransformFilter** class, this results in a call to **CheckInputType** followed by **CheckTransform**. The downstream filter can also change media types, using the same mechanism. In your own filter, there are two things to watch for:
+-   Time stamps. The **CTransformFilter** class timestamps the output sample before calling the **Transform** method. It copies the time stamp values from the input sample, without modifying them. If your filter needs to change the time stamps, call [**IMediaSample::SetTime**](/windows/win32/Strmif/nf-strmif-imediasample-settime?branch=master) on the output sample.
+-   Format changes. The upstream filter can change formats mid-stream by attaching a media type to the sample. Before doing so, it calls [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) on your filter's input pin. In the **CTransformFilter** class, this results in a call to **CheckInputType** followed by **CheckTransform**. The downstream filter can also change media types, using the same mechanism. In your own filter, there are two things to watch for:
 
     -   Make sure that **QueryAccept** does not return false acceptances.
-    -   If your filter does accept format changes, check for them inside the **Transform** method by calling [**IMediaSample::GetMediaType**](imediasample-getmediatype.md). If that method returns S\_OK, your filter must respond to the format change.
+    -   If your filter does accept format changes, check for them inside the **Transform** method by calling [**IMediaSample::GetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatype?branch=master). If that method returns S\_OK, your filter must respond to the format change.
 
     For more information, see [Dynamic Format Changes](dynamic-format-changes.md).
 

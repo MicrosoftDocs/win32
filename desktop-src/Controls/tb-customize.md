@@ -1,8 +1,9 @@
 ---
 title: TB\_CUSTOMIZE message
 description: Displays the Customize Toolbar dialog box.
-ms.assetid: '45249467-d585-4ffd-8bbe-e39739059c40'
-keywords: ["TB_CUSTOMIZE message Windows Controls"]
+ms.assetid: 45249467-d585-4ffd-8bbe-e39739059c40
+keywords:
+- TB_CUSTOMIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_CUSTOMIZE message
@@ -44,7 +50,7 @@ No return value.
 > [!Note]  
 > The toolbar must handle the [TBN\_QUERYINSERT](tbn-queryinsert.md) and [TBN\_QUERYDELETE](tbn-querydelete.md) notifications for the **Customize Toolbar** dialog box to appear. If the toolbar does not handle those notifications, **TB\_CUSTOMIZE** has no effect.
 
- 
+ 
 
 ## Requirements
 
@@ -52,15 +58,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

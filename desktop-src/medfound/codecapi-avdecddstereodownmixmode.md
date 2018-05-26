@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the stereo downmix mode for a Dolby Digital audio decoder.'
-ms.assetid: '270893C6-8B44-4A4D-AE2B-2E58E260F649'
-title: 'CODECAPI\_AVDecDDStereoDownMixMode property'
+Description: Specifies the stereo downmix mode for a Dolby Digital audio decoder.
+ms.assetid: 270893C6-8B44-4A4D-AE2B-2E58E260F649
+title: CODECAPI\_AVDecDDStereoDownMixMode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVDecDDStereoDownMixMode property
@@ -18,7 +23,7 @@ Specifies the stereo downmix mode for a Dolby Digital audio decoder.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](eavdecddstereodownmixmode.md) enumeration.
+The value of this property is a member of the [**eAVDecDDStereoDownMixMode**](/windows/win32/codecapi/?branch=master) enumeration.
 
 ## Remarks
 
@@ -30,8 +35,8 @@ This attribute applies when the input to the decoder is multichannel PCM audio, 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -46,9 +51,9 @@ This attribute applies when the input to the decoder is multichannel PCM audio, 
 [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

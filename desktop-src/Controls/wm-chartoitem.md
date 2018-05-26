@@ -1,8 +1,9 @@
 ---
 title: WM\_CHARTOITEM message
 description: Sent by a list box with the LBS\_WANTKEYBOARDINPUT style to its owner in response to a WM\_CHAR message.
-ms.assetid: 'f941c00b-b836-4f1b-b8cf-8ac2b0704af3'
-keywords: ["WM_CHARTOITEM message Windows Controls"]
+ms.assetid: f941c00b-b836-4f1b-b8cf-8ac2b0704af3
+keywords:
+- WM_CHARTOITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHARTOITEM message
@@ -47,11 +53,11 @@ Handle to the list box.
 
 ## Return value
 
-The return value specifies the action that the application performed in response to the message. A return value of –1 or –2 indicates that the application handled all aspects of selecting the item and requires no further action by the list box. A return value of 0 or greater specifies the zero-based index of an item in the list box and indicates that the list box should perform the default action for the keystroke on the specified item.
+The return value specifies the action that the application performed in response to the message. A return value of  1 or  2 indicates that the application handled all aspects of selecting the item and requires no further action by the list box. A return value of 0 or greater specifies the zero-based index of an item in the list box and indicates that the list box should perform the default action for the keystroke on the specified item.
 
 ## Remarks
 
-The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function returns –1.
+The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function returns  1.
 
 Only owner-drawn list boxes that do not have the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style can receive this message.
 
@@ -63,8 +69,8 @@ If a dialog box procedure handles this message, it should cast the desired retur
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -94,9 +100,9 @@ If a dialog box procedure handles this message, it should cast the desired retur
 [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

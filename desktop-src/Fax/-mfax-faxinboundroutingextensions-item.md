@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxInboundRoutingExtension object from the FaxInboundRoutingExtensions collection.'
-ms.assetid: 'c8a2f15d-24ba-4a7a-acb3-28dcae96a2c5'
-title: 'FaxInboundRoutingExtensions.Item property'
+---
+Description: The Item property returns a FaxInboundRoutingExtension object from the FaxInboundRoutingExtensions collection.
+ms.assetid: c8a2f15d-24ba-4a7a-acb3-28dcae96a2c5
+title: FaxInboundRoutingExtensions.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtensions.Item property
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md) that receives A [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md) object.
+A variable of type [**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master) that receives A [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md) object.
 
 ## Requirements
 

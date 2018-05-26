@@ -1,7 +1,12 @@
 ---
 title: RSVP and QOS
 description: Resource Reservation Protocol (RSVP) plays a multifaceted role in the provisioning and signaling of QOS reservation requirements in. See RSVP for information about how RSVP carries out that role.
-ms.assetid: 'bfaa551b-4aaf-4451-8bc8-38acef47faf8'
+ms.assetid: bfaa551b-4aaf-4451-8bc8-38acef47faf8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSVP and QOS

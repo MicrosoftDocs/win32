@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager FindAccount method
 description: Allows a client to find an account by a property value.
-ms.assetid: '21404f0a-c786-4de9-8021-5a9d14a7b349'
-keywords: ["FindAccount method Windows Mail (formerly Outlook Express)", "FindAccount method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , FindAccount method"]
+ms.assetid: 21404f0a-c786-4de9-8021-5a9d14a7b349
+keywords:
+- FindAccount method Windows Mail (formerly Outlook Express)
+- FindAccount method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , FindAccount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::FindAccount method
@@ -24,9 +32,9 @@ Allows a client to find an account by a property value.
 
 ```C++
 HRESULT FindAccount(
-  [in]  DWORD       dwPropTag,
-  [in]  LPCSTR      pszSearchData,
-  [out] IImnAccount **ppAccount
+  [in]  DWORD       dwPropTag,
+  [in]  LPCSTR      pszSearchData,
+  [out] IImnAccount **ppAccount
 );
 ```
 
@@ -81,7 +89,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +97,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -98,9 +106,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

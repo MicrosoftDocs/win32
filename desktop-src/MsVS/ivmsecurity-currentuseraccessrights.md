@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity CurrentUserAccessRights property
 description: The CurrentUserAccessRights property represents the access rights for the caller of the COM interface.
-ms.assetid: '00d8aa5f-163d-4d24-9610-4c32103c7375'
-keywords: ["CurrentUserAccessRights property Virtual Server", "CurrentUserAccessRights property Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , CurrentUserAccessRights property", "CurrentUserAccessRights property Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , CurrentUserAccessRights property"]
+ms.assetid: 00d8aa5f-163d-4d24-9610-4c32103c7375
+keywords:
+- CurrentUserAccessRights property Virtual Server
+- CurrentUserAccessRights property Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , CurrentUserAccessRights property
+- CurrentUserAccessRights property Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , CurrentUserAccessRights property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::CurrentUserAccessRights property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CurrentUserAccessRights(
-  [out] IVMAccessRights **accessRights
+  [out] IVMAccessRights **accessRights
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMSecurity**](ivmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

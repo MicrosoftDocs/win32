@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentCCService property sets or retrieves the current closed captioning service.'
-ms.assetid: '094cf812-3122-4d5f-af8a-afd1c2264a2b'
+Description: The CurrentCCService property sets or retrieves the current closed captioning service.
+ms.assetid: 094cf812-3122-4d5f-af8a-afd1c2264a2b
 title: CurrentCCService Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentCCService Property

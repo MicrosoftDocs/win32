@@ -1,7 +1,12 @@
 ---
 title: Close
 description: Closes the window in which the current topic appears.
-ms.assetid: '435057B3-6184-447c-915E-7EF9DBAB71DB'
+ms.assetid: 435057B3-6184-447c-915E-7EF9DBAB71DB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Close

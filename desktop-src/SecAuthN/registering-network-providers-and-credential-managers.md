@@ -1,7 +1,12 @@
 ---
-Description: 'After you have created your network provider or credential manager, you must register it with the system.'
-ms.assetid: '4c58671d-d11d-4f32-866b-e278fc8e6114'
+Description: After you have created your network provider or credential manager, you must register it with the system.
+ms.assetid: 4c58671d-d11d-4f32-866b-e278fc8e6114
 title: Registering Network Providers and Credential Managers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Network Providers and Credential Managers

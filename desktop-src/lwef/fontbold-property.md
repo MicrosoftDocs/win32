@@ -1,7 +1,12 @@
 ---
 title: FontBold Property
 description: FontBold Property
-ms.assetid: 'abf735f9-fea2-4d02-a821-e28583a8bc39'
+ms.assetid: abf735f9-fea2-4d02-a821-e28583a8bc39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontBold Property

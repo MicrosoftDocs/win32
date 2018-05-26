@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of Certificate objects.'
-ms.assetid: 'de9cbf8e-f34c-4e08-89aa-b5ac842aa599'
+---
+Description: Represents a collection of Certificate objects.
+ms.assetid: de9cbf8e-f34c-4e08-89aa-b5ac842aa599
 title: Recipients object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipients object

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts mesh adjacency information to an array of point representatives.'
-ms.assetid: 'b8914f9c-8550-498d-813d-bb1afe0fb5b2'
-title: 'ID3DXBaseMesh::ConvertAdjacencyToPointReps method'
+---
+Description: Converts mesh adjacency information to an array of point representatives.
+ms.assetid: b8914f9c-8550-498d-813d-bb1afe0fb5b2
+title: ID3DXBaseMeshConvertAdjacencyToPointReps method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::ConvertAdjacencyToPointReps method

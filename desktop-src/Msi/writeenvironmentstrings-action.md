@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WriteEnvironmentStrings action modifies the values of environment variables.'
-ms.assetid: 'a91c1ffe-1bdd-49bb-aa6a-71667a1ed812'
+---
+Description: The WriteEnvironmentStrings action modifies the values of environment variables.
+ms.assetid: a91c1ffe-1bdd-49bb-aa6a-71667a1ed812
 title: WriteEnvironmentStrings Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WriteEnvironmentStrings Action

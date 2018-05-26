@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_NCPAINT message is sent to a window when its frame must be painted.'
-ms.assetid: 'd8a2a8b9-2c5d-484c-be09-67eb33de67c0'
-title: 'WM\_NCPAINT message'
+---
+Description: The WM\_NCPAINT message is sent to a window when its frame must be painted.
+ms.assetid: d8a2a8b9-2c5d-484c-be09-67eb33de67c0
+title: WM\_NCPAINT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCPAINT message
@@ -50,7 +55,7 @@ The [**DefWindowProc**](_win32_defwindowproc_cpp) function paints the window fra
 
 An application can intercept the **WM\_NCPAINT** message and paint its own custom window frame. The clipping region for a window is always rectangular, even if the shape of the frame is altered.
 
-The *wParam* value can be passed to [**GetDCEx**](getdcex.md) as in the following example.
+The *wParam* value can be passed to [**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master) as in the following example.
 
 
 ```C++
@@ -90,13 +95,13 @@ case WM_NCPAINT:
 [**DefWindowProc**](_win32_defwindowproc_cpp)
 </dt> <dt>
 
-[**GetWindowDC**](getwindowdc.md)
+[**GetWindowDC**](/windows/win32/Winuser/nf-winuser-getwindowdc?branch=master)
 </dt> <dt>
 
 [**WM\_PAINT**](wm-paint.md)
 </dt> <dt>
 
-[**GetDCEx**](getdcex.md)
+[**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master)
 </dt> </dl>
 
  

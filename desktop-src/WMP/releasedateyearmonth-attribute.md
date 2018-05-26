@@ -1,14 +1,20 @@
 ---
 title: ReleaseDateYearMonth Attribute
 description: The ReleaseDateYearMonth attribute is the year and month part of the date of the original release of the item.
-ms.assetid: '193377fb-9dbe-4a77-8c34-44f920fb38ba'
-keywords: ["ReleaseDateYearMonth Attribute Windows Media Player"]
+ms.assetid: 193377fb-9dbe-4a77-8c34-44f920fb38ba
+keywords:
+- ReleaseDateYearMonth Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ReleaseDateYearMonth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReleaseDateYearMonth Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

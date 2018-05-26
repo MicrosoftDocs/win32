@@ -1,8 +1,23 @@
 ---
 title: New for Windows Media Player Skins
 description: New for Windows Media Player Skins
-ms.assetid: '72ca819a-267d-4c7a-9b1e-b28c1a7a85cc'
-keywords: ["Windows Media Player,what's new", "Windows Media Player,new features", "Windows Media Player skins,what's new", "Windows Media Player skins,new features", "skins,what's new", "skins,new features", "what's new,skins", "new features,skins", "versions of Windows Media Player,new features in skins", "compatibility,skins"]
+ms.assetid: 72ca819a-267d-4c7a-9b1e-b28c1a7a85cc
+keywords:
+- Windows Media Player,whats new
+- Windows Media Player,new features
+- Windows Media Player skins,whats new
+- Windows Media Player skins,new features
+- skins,whats new
+- skins,new features
+- whats new,skins
+- new features,skins
+- versions of Windows Media Player,new features in skins
+- compatibility,skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New for Windows Media Player Skins

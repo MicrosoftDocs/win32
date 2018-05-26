@@ -1,13 +1,23 @@
 ---
 title: Compressing Data
 description: Compressing Data
-ms.assetid: 'b231316b-0c81-410a-b2fe-b58ab7aca02b'
-keywords: ["video compression manager (VCM),compressing data", "VCM (video compression manager),compressing data", "ICCompressBegin macro", "ICCompress function", "ICCompressEnd macro"]
+ms.assetid: b231316b-0c81-410a-b2fe-b58ab7aca02b
+keywords:
+- video compression manager (VCM),compressing data
+- VCM (video compression manager),compressing data
+- ICCompressBegin macro
+- ICCompress function
+- ICCompressEnd macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compressing Data
 
-The following example compresses image data for use in an AVI file. It assumes the compressor does not support the VIDCF\_CRUNCH or VIDCF\_TEMPORAL flags, but it does support VIDCF\_QUALITY. The example uses the [**ICCompressBegin**](iccompressbegin.md) macro, the [**ICCompress**](iccompress.md) function, and the [**ICCompressEnd**](iccompressend.md) macro.
+The following example compresses image data for use in an AVI file. It assumes the compressor does not support the VIDCF\_CRUNCH or VIDCF\_TEMPORAL flags, but it does support VIDCF\_QUALITY. The example uses the [**ICCompressBegin**](/windows/win32/Vfw/nf-vfw-iccompressbegin?branch=master) macro, the [**ICCompress**](/windows/win32/Vfw/nf-vfw-iccompress?branch=master) function, and the [**ICCompressEnd**](/windows/win32/Vfw/nf-vfw-iccompressend?branch=master) macro.
 
 
 ```C++

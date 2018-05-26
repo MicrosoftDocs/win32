@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSyncSource method sets the clock used for timing.'
-ms.assetid: '646d4d24-f9b7-438a-b842-58e90eb6a945'
-title: 'CCmdQueue.SetSyncSource method'
+Description: The SetSyncSource method sets the clock used for timing.
+ms.assetid: 646d4d24-f9b7-438a-b842-58e90eb6a945
+title: CCmdQueue.SetSyncSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.SetSyncSource method
@@ -13,7 +18,7 @@ The `SetSyncSource` method sets the clock used for timing.
 
 ```C++
 virtual HRESULT SetSyncSource(
-   IReferenceClock *pIrc
+   IReferenceClock *pIrc
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT SetSyncSource(
 *pIrc* 
 </dt> <dd>
 
-Pointer to the [**IReferenceClock**](ireferenceclock.md) interface.
+Pointer to the [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) interface.
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns S\_OK.
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

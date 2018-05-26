@@ -1,14 +1,20 @@
 ---
 title: ActivityInstanceDisplayName element
 description: Display name for the activity instance.
-ms.assetid: '8426C58A-BC69-465C-9F63-D4AFAD8A0245'
-keywords: ["ActivityInstanceDisplayName element Access Execution Engine"]
+ms.assetid: 8426C58A-BC69-465C-9F63-D4AFAD8A0245
+keywords:
+- ActivityInstanceDisplayName element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ActivityInstanceDisplayName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityInstanceDisplayName element

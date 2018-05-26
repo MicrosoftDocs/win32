@@ -1,12 +1,12 @@
 ---
 title: Notification preference
-description: Specifies the users's notification preference for a tracked document.
+description: Specifies the userss notification preference for a tracked document.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F500738B-D749-4903-81CB-1DF2B5C7AA22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F500738B-D749-4903-81CB-1DF2B5C7AA22
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -17,6 +17,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Notification preference
@@ -57,8 +60,8 @@ Specifies that notifications are sent as a digest notification, for example once
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -94,9 +97,9 @@ Specifies that notifications are sent as a digest notification, for example once
 [**IpcRegisterLicense**](ipcregisterlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

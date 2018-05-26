@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a specified boolean property.'
-ms.assetid: 'EEBB916B-0E7B-4523-BB13-A4758F5491BB'
-title: 'IPrinterScriptablePropertyBag::GetBool method'
+---
+Description: Gets a specified boolean property.
+ms.assetid: EEBB916B-0E7B-4523-BB13-A4758F5491BB
+title: IPrinterScriptablePropertyBagGetBool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::GetBool method

@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControls add\_PropertyChanged method
 description: Adds an event handler for the PropertyChanged event.
-ms.assetid: '8C3B2EBD-1D60-427E-893D-0F8B4977A70D'
-keywords: ["add_PropertyChanged method", "add_PropertyChanged method, ISystemMediaTransportControls interface", "ISystemMediaTransportControls interface, add_PropertyChanged method"]
+ms.assetid: 8C3B2EBD-1D60-427E-893D-0F8B4977A70D
+keywords:
+- add_PropertyChanged method
+- add_PropertyChanged method, ISystemMediaTransportControls interface
+- ISystemMediaTransportControls interface, add_PropertyChanged method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControls::add\_PropertyChanged method
@@ -22,8 +30,8 @@ Adds an event handler for the [**PropertyChanged**](https://msdn.microsoft.com/l
 
 ```C++
 HRESULT add_PropertyChanged(
-   IEventHandler<ISystemMediaTransportControlsPropertyChangedEventArgs*> *handler,
-   EventRegistrationToken                                                *token
+   IEventHandler<ISystemMediaTransportControlsPropertyChangedEventArgs*> *handler,
+   EventRegistrationToken                                                *token
 );
 ```
 
@@ -63,8 +71,8 @@ This method returns one of the Direct3D 12 Return Codes.
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -77,9 +85,9 @@ This method returns one of the Direct3D 12 Return Codes.
 [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

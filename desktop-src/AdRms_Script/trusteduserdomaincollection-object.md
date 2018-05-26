@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of TrustedUserDomain objects.'
+Description: Contains a collection of TrustedUserDomain objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '59bb6973-1b4e-4dc4-bba8-996c6c79fabc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 59bb6973-1b4e-4dc4-bba8-996c6c79fabc
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TrustedUserDomainCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TrustedUserDomainCollection object
@@ -40,7 +43,7 @@ The **TrustedUserDomainCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +58,7 @@ The **TrustedUserDomainCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -151,7 +154,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -166,9 +169,9 @@ END SUB
 [**TrustedUserDomain**](trusteduserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

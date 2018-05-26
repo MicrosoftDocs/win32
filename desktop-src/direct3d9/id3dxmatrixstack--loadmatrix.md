@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads the given matrix into the current matrix.'
-ms.assetid: 'c4c5ac50-238f-4b41-8ea9-7e48ffd03fc5'
-title: 'ID3DXMATRIXStack::LoadMatrix method'
+---
+Description: Loads the given matrix into the current matrix.
+ms.assetid: c4c5ac50-238f-4b41-8ea9-7e48ffd03fc5
+title: ID3DXMATRIXStackLoadMatrix method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::LoadMatrix method

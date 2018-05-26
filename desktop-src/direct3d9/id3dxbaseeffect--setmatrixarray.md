@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of nontransposed matrices.'
-ms.assetid: '008de62c-3a36-4499-8a0b-9075756395e9'
-title: 'ID3DXBaseEffect::SetMatrixArray method'
+---
+Description: Sets an array of nontransposed matrices.
+ms.assetid: 008de62c-3a36-4499-8a0b-9075756395e9
+title: ID3DXBaseEffectSetMatrixArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetMatrixArray method

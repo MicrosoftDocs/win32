@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies how to combine the glyph data from the source and destination surfaces in a call to ComposeRects.'
-ms.assetid: '4b0e6e48-48e0-4955-bb20-f953fdce785c'
+---
+Description: Specifies how to combine the glyph data from the source and destination surfaces in a call to ComposeRects.
+ms.assetid: 4b0e6e48-48e0-4955-bb20-f953fdce785c
 title: D3DCOMPOSERECTSOP enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOMPOSERECTSOP enumeration
 
-Specifies how to combine the glyph data from the source and destination surfaces in a call to [**ComposeRects**](idirect3ddevice9ex-composerect.md).
+Specifies how to combine the glyph data from the source and destination surfaces in a call to [**ComposeRects**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-composerects?branch=master).
 
 ## Syntax
 

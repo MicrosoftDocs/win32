@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '29696a6f-cd2c-40c4-a7a6-ca32ac80beae'
-title: 'System.Music.PartOfSet'
+Description: .
+ms.assetid: 29696a6f-cd2c-40c4-a7a6-ca32ac80beae
+title: System.Music.PartOfSet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.PartOfSet

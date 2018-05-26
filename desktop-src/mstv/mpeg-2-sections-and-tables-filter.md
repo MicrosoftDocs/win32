@@ -1,8 +1,9 @@
 ---
 title: MPEG-2 Sections and Tables Filter
-description: This filter is no longer available for use as of Windows 7.
-ms.assetid: '03027748-03da-485c-8787-3cf171fff1e0'
-keywords: ["MPEG-2 Sections and Tables Filter Microsoft TV Technologies"]
+description: This filter is no longer available for use as of Windows 7.
+ms.assetid: 03027748-03da-485c-8787-3cf171fff1e0
+keywords:
+- MPEG-2 Sections and Tables Filter Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Mpeg2data.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Sections and Tables Filter
 
-\[This filter is no longer available for use as of Windows 7. Instead, use the [**IPSITables**](ipsitables.md) interface to get program specific information (PSI) tables from an MPEG-2 transport stream.\]
+\[This filter is no longer available for use as of Windows 7. Instead, use the [**IPSITables**](/windows/win32/mpeg2psiparser/nn-mpeg2psiparser-ipsitables?branch=master) interface to get program specific information (PSI) tables from an MPEG-2 transport stream.\]
 
 The MPEG-2 Sections and Tables filter receives PSI tables from an MPEG-2 transport stream.
 
@@ -23,7 +29,7 @@ The MPEG-2 Sections and Tables filter receives PSI tables from an MPEG-2 transpo
 
 |                                            |                                                                                                                             |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IMpeg2Data**](impeg2data.md)                                                      |
+| Filter Interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IMpeg2Data**](/windows/previous-versions/Mpeg2data/nn-mpeg2data-impeg2data?branch=master)                                                      |
 | Input Pin Media Types                      | Major Type: MEDIATYPE\_MPEG2\_SECTIONS<br/> Subtype: MEDIASUBTYPE\_MPEG2DATA<br/> Format block: None<br/> |
 | Input Pin Interfaces                       | [**IPin**](https://msdn.microsoft.com/library/windows/desktop/dd390397), [**IQualityControl**](https://msdn.microsoft.com/library/windows/desktop/dd376912)                                                        |
 | Output Pin Media Types                     | Not applicable                                                                                                              |
@@ -34,7 +40,7 @@ The MPEG-2 Sections and Tables filter receives PSI tables from an MPEG-2 transpo
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -42,7 +48,7 @@ The MPEG-2 Sections and Tables filter receives PSI tables from an MPEG-2 transpo
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows Vista<br/>                                                               |
+| End of client support<br/> | Windows Vista<br/>                                                               |
 | Header<br/>                | <dl> <dt>Mpeg2data.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The MPEG-2 Sections and Tables filter receives PSI tables from an MPEG-2 transpo
 [Microsoft TV Technologies](microsoft-tv-technologies-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

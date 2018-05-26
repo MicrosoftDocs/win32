@@ -1,7 +1,7 @@
 ---
 title: KS\_CC\_SUBSTREAM
 description: The KS\_CC\_SUBSTREAM constants specify the various services that are available on line 21 of the vertical blanking interval (VBI).
-ms.assetid: '1a55a9b1-6784-4a29-93aa-95aadaf6fb7e'
+ms.assetid: 1a55a9b1-6784-4a29-93aa-95aadaf6fb7e
 topic_type:
 - apiref
 api_name:
@@ -20,6 +20,11 @@ api_location:
 - Ksmedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KS\_CC\_SUBSTREAM
@@ -65,9 +70,9 @@ Include Ks.h before Ksmedia.h.
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

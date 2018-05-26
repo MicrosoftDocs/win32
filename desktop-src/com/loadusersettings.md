@@ -1,8 +1,14 @@
 ---
 title: LoadUserSettings
 description: Determines whether COM will load the user profile for COM servers running as the launching user application identity.
-ms.assetid: '3e2b3249-3747-4d98-96da-f3e480a51d12'
-keywords: ["LoadUserSettings registry value COM"]
+ms.assetid: 3e2b3249-3747-4d98-96da-f3e480a51d12
+keywords:
+- LoadUserSettings registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadUserSettings

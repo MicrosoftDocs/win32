@@ -4,13 +4,15 @@ description: Represents the data deduplication status for a volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CC4B759D-1236-4C87-BEF2-577E2DF8BAD6'
-ms.prod: 'windows-server-dev'
+ms.assetid: CC4B759D-1236-4C87-BEF2-577E2DF8BAD6
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DedupVolumeStatus class Data Deduplication API", "MSFT_DedupVolumeStatus class Data Deduplication API , described"]
+keywords:
+- MSFT_DedupVolumeStatus class Data Deduplication API
+- MSFT_DedupVolumeStatus class Data Deduplication API , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DedupVolumeStatus class
@@ -55,28 +60,28 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [dynamic, provider("DeduplicationProvider"), ClassVersion("1.0"), AMENDMENT]
 class MSFT_DedupVolumeStatus
 {
-  String   VolumeId;
-  String   Volume;
-  uint64   Capacity;
-  uint64   FreeSpace;
-  uint64   UsedSpace;
-  uint64   SavedSpace;
-  uint32   SavingsRate;
-  uint64   OptimizedFilesCount;
-  uint64   OptimizedFilesSize;
-  uint64   InPolicyFilesCount;
-  uint64   InPolicyFilesSize;
+  String   VolumeId;
+  String   Volume;
+  uint64   Capacity;
+  uint64   FreeSpace;
+  uint64   UsedSpace;
+  uint64   SavedSpace;
+  uint32   SavingsRate;
+  uint64   OptimizedFilesCount;
+  uint64   OptimizedFilesSize;
+  uint64   InPolicyFilesCount;
+  uint64   InPolicyFilesSize;
   datetime LastOptimizationTime;
   datetime LastGarbageCollectionTime;
   datetime LastScrubbingTime;
-  uint32   LastOptimizationResult;
-  uint32   LastGarbageCollectionResult;
-  uint32   LastScrubbingResult;
-  string   LastOptimizationResultMessage;
-  string   LastGarbageCollectionResultMessage;
-  string   LastScrubbingResultMessage;
-  uint64   UnoptimizedSize;
-  uint32   OptimizedFilesSavingsRate;
+  uint32   LastOptimizationResult;
+  uint32   LastGarbageCollectionResult;
+  uint32   LastScrubbingResult;
+  string   LastOptimizationResultMessage;
+  string   LastGarbageCollectionResultMessage;
+  string   LastScrubbingResultMessage;
+  uint64   UnoptimizedSize;
+  uint32   OptimizedFilesSavingsRate;
 };
 ```
 
@@ -99,7 +104,7 @@ The **MSFT\_DedupVolumeStatus** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -285,7 +290,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The number of optimized files on the volume. Note that this number will remain steady (instead of decrease) as users delete files from, or add files to, the volume—until you run a garbage collection job. This count is most accurate after a garbage collection job runs.
+The number of optimized files on the volume. Note that this number will remain steady (instead of decrease) as users delete files from, or add files to, the volume until you run a garbage collection job. This count is most accurate after a garbage collection job runs.
 
 </dd> <dt>
 
@@ -311,7 +316,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-The aggregate size of all optimized files on the volume. Note that this number will remain steady (instead of decrease) as users delete files from, or add new files to, the volume—until you run a garbage collection job. This number is most accurate after a garbage collection job runs.
+The aggregate size of all optimized files on the volume. Note that this number will remain steady (instead of decrease) as users delete files from, or add new files to, the volume until you run a garbage collection job. This number is most accurate after a garbage collection job runs.
 
 </dd> <dt>
 
@@ -324,7 +329,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Saved space is the difference between the logical size of the optimized files and the logical size of the store (the deduplicated user data plus deduplication metadata). Note that this number will remain steady as users delete files from, or add new files to, the volume—until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method. This number is most accurate after an optimization job runs or the **Update** method is executed.
+Saved space is the difference between the logical size of the optimized files and the logical size of the store (the deduplicated user data plus deduplication metadata). Note that this number will remain steady as users delete files from, or add new files to, the volume until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method. This number is most accurate after an optimization job runs or the **Update** method is executed.
 
 </dd> <dt>
 
@@ -337,7 +342,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The ratio of deduplication saved space to the logical size of all of the files on the volume and is expressed in percentage. Note that this number will remain steady as users delete files from, or add new files to, the volume—until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method. This number is most accurate after an optimization job runs or the **Update** method is executed.
+The ratio of deduplication saved space to the logical size of all of the files on the volume and is expressed in percentage. Note that this number will remain steady as users delete files from, or add new files to, the volume until you run an optimization job or execute the [**Update**](msft-dedupvolumestatus-update.md) method. This number is most accurate after an optimization job runs or the **Update** method is executed.
 
 </dd> <dt>
 
@@ -403,16 +408,16 @@ A volume GUID path for the volume. A volume GUID path is a string of the form "\
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

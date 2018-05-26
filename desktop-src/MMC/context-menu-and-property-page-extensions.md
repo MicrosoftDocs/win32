@@ -4,10 +4,13 @@ description: You can add context menu items to the existing context menus for a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'adc0225f-5953-4e7f-8c4d-028d9726a3e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: adc0225f-5953-4e7f-8c4d-028d9726a3e7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Context Menu and Property Page Extensions

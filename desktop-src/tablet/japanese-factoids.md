@@ -1,7 +1,12 @@
 ---
-Description: 'The following tables list formats that are available for each factoid used in Japanese.'
-ms.assetid: '008bd1a8-d396-4f18-83cd-c68d57a7e8a7'
+Description: The following tables list formats that are available for each factoid used in Japanese.
+ms.assetid: 008bd1a8-d396-4f18-83cd-c68d57a7e8a7
 title: Japanese Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Japanese Factoids
@@ -19,7 +24,7 @@ The following tables list formats that are available for each factoid used in Ja
 
 
 
- 
+ 
 
 ## Japanese Factoids, continued
 
@@ -32,7 +37,7 @@ The following tables list formats that are available for each factoid used in Ja
 
 
 
- 
+ 
 
 ## Japanese Factoids, continued
 
@@ -64,7 +69,7 @@ The <strong>JapaneseCommon</strong> factoid is useful for standard text entry wh
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -73,9 +78,9 @@ The <strong>JapaneseCommon</strong> factoid is useful for standard text entry wh
 [**Factoid Constants**](factoid-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

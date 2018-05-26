@@ -1,8 +1,17 @@
 ---
 title: Windows Touch Scratchpad Sample (MTScratchpadWMTouch)
 description: This section describes the Windows Touch Scratchpad sample.
-ms.assetid: '6c4b4595-1e95-499c-b045-b5ae01aa5a6e'
-keywords: ["Windows Touch,code samples", "Windows Touch,sample code", "Windows Touch,Scratchpad samples", "Scratchpad samples"]
+ms.assetid: 6c4b4595-1e95-499c-b045-b5ae01aa5a6e
+keywords:
+- Windows Touch,code samples
+- Windows Touch,sample code
+- Windows Touch,Scratchpad samples
+- Scratchpad samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Scratchpad Sample (MTScratchpadWMTouch)

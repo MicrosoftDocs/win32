@@ -1,7 +1,12 @@
 ---
-Description: 'Applications that use the TrueType text metrics can achieve a high degree of printer and document portability; they can use TrueType metrics even if they must maintain compatibility with early 16-bit versions of Windows.'
-ms.assetid: '29b54315-7c4e-4b8c-ad79-0b85c7386860'
+Description: Applications that use the TrueType text metrics can achieve a high degree of printer and document portability; they can use TrueType metrics even if they must maintain compatibility with early 16-bit versions of Windows.
+ms.assetid: 29b54315-7c4e-4b8c-ad79-0b85c7386860
 title: Using Portable TrueType Metrics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Portable TrueType Metrics
@@ -12,7 +17,7 @@ Design widths overcome most of the problems of device-dependent text introduced 
 
 The characters in TrueType core fonts are designed against a 2048 by 2048 grid. The design width is the width of a character in these grid units. (TrueType supports any integer grid size up to 16,384 by 16,384; grid sizes that are integer powers of 2 scale faster than other grid sizes.)
 
-The font outline is designed in notional units. The em square is the notional grid against which the font outline is fitted. (You can use the **otmEMSquare** member of [OUTLINETEXTMETRIC](outlinetextmetric.md) and the **ntmSizeEM** member of [NEWTEXTMETRIC](newtextmetric.md) to retrieve the size of the em square in notional units.) When a font is created that has a point size (in device units) equal to the size of its em square, the ABC widths for this font are the desired design widths. For example, assume the size of an em square is 1000 and the ABC widths of a character in the font are 150, 400, and 150. A character in this font that is 10 device units high would have ABC widths of 1.5, 4, and 1.5, respectively. Since the MM\_TEXT mapping mode is most commonly used with fonts (and MM\_TEXT is equivalent to device units), this is a simple calculation.
+The font outline is designed in notional units. The em square is the notional grid against which the font outline is fitted. (You can use the **otmEMSquare** member of [OUTLINETEXTMETRIC](/windows/win32/Wingdi/ns-wingdi-_outlinetextmetrica?branch=master) and the **ntmSizeEM** member of [NEWTEXTMETRIC](/windows/win32/Wingdi/ns-wingdi-tagnewtextmetrica?branch=master) to retrieve the size of the em square in notional units.) When a font is created that has a point size (in device units) equal to the size of its em square, the ABC widths for this font are the desired design widths. For example, assume the size of an em square is 1000 and the ABC widths of a character in the font are 150, 400, and 150. A character in this font that is 10 device units high would have ABC widths of 1.5, 4, and 1.5, respectively. Since the MM\_TEXT mapping mode is most commonly used with fonts (and MM\_TEXT is equivalent to device units), this is a simple calculation.
 
 Because of the high resolution of TrueType design widths, applications that use them must take into account the large numeric values that can be created. For more information, see the following topics:
 

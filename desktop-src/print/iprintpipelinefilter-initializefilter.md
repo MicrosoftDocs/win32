@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InitializeFilter method initializes a filter.'
-ms.assetid: 'a28a8ee0-24df-45b5-8850-f3b3984b3b64'
-title: 'IPrintPipelineFilter::InitializeFilter method'
+---
+Description: The InitializeFilter method initializes a filter.
+ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
+title: IPrintPipelineFilterInitializeFilter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineFilter::InitializeFilter method

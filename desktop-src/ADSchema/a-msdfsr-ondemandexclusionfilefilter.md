@@ -4,17 +4,22 @@ description: Filter string applied to on-demand replication files.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fc9c38bb-7467-4877-be71-44bf9b57d09d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fc9c38bb-7467-4877-be71-44bf9b57d09d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-OnDemandExclusionFileFilter attribute AD Schema", "msDFSR-OnDemandExclusionFileFilter attribute AD Schema"]
+keywords:
+- ms-DFSR-OnDemandExclusionFileFilter attribute AD Schema
+- msDFSR-OnDemandExclusionFileFilter attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-OnDemandExclusionFileFilter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-OnDemandExclusionFileFilter attribute
@@ -38,9 +43,9 @@ Filter string applied to on-demand replication files.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Filter string applied to on-demand replication files.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

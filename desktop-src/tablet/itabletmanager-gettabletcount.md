@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the number of tablets attached to the system.'
-ms.assetid: 'b2027336-611b-4d17-8943-f16770effaf8'
-title: 'ITabletManager::GetTabletCount method'
+Description: Retrieves the number of tablets attached to the system.
+ms.assetid: b2027336-611b-4d17-8943-f16770effaf8
+title: ITabletManagerGetTabletCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletManager::GetTabletCount method
@@ -13,7 +18,7 @@ Retrieves the number of tablets attached to the system.
 
 ```C++
 HRESULT GetTabletCount(
-  [out] ULONG *pcTablets
+  [out] ULONG *pcTablets
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -64,9 +69,9 @@ This method can return one of these values.
 [**ITabletManager Interface**](itabletmanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

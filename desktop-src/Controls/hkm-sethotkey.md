@@ -1,8 +1,9 @@
 ---
 title: HKM\_SETHOTKEY message
 description: Sets the hot key combination for a hot key control.
-ms.assetid: '372a7b2f-d9d5-43a8-9c06-730f2f5dc56e'
-keywords: ["HKM_SETHOTKEY message Windows Controls"]
+ms.assetid: 372a7b2f-d9d5-43a8-9c06-730f2f5dc56e
+keywords:
+- HKM_SETHOTKEY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HKM\_SETHOTKEY message
@@ -45,15 +51,15 @@ Always returns zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

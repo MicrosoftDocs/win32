@@ -1,13 +1,16 @@
 ---
-Description: 'Transitions an item online if possible.'
+Description: Transitions an item online if possible.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bcf3b602-6227-4bd0-84f6-ef436d396e4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bcf3b602-6227-4bd0-84f6-ef436d396e4f
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'TransitionOnline method of the Win32\_OfflineFilesCache class'
+title: TransitionOnline method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TransitionOnline method of the Win32\_OfflineFilesCache class
@@ -19,8 +22,8 @@ Transitions an item online if possible.
 
 ```mof
 uint32 TransitionOnline(
-  [in] string Path,
-  [in] uint32 Flags
+  [in] string Path,
+  [in] uint32 Flags
 );
 ```
 
@@ -80,9 +83,9 @@ The entire scope of the item is transitioned online, not just the item. An item'
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
-| Version<br/>                  | [KB935553](http://go.microsoft.com/fwlink/p/?linkid=110521) on Windows Vista<br/>                |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Version<br/>                  | [KB935553](http://go.microsoft.com/fwlink/p/?linkid=110521) on Windows Vista<br/>                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Cscobj.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
@@ -97,9 +100,9 @@ The entire scope of the item is transitioned online, not just the item. An item'
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

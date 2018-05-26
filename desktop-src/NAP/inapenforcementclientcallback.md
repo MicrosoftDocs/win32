@@ -1,8 +1,10 @@
 ---
 title: INapEnforcementClientCallback interface
 description: Enforcement clients must implement to enable the NapAgent to communicate with them.
-ms.assetid: 'd7d63c5b-7952-4f04-9d3d-3f13b0b52d97'
-keywords: ["INapEnforcementClientCallback interface NAP", "INapEnforcementClientCallback interface NAP , described"]
+ms.assetid: d7d63c5b-7952-4f04-9d3d-3f13b0b52d97
+keywords:
+- INapEnforcementClientCallback interface NAP
+- INapEnforcementClientCallback interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientCallback interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientCallback** interface provides callback methods that enforcement clients must implement to enable the NapAgent to communicate with them.
 
@@ -41,7 +48,7 @@ The **INapEnforcementClientCallback** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,16 +56,16 @@ The **INapEnforcementClientCallback** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

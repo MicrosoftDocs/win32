@@ -1,8 +1,11 @@
 ---
 title: WebViewFolderContents.ViewOptions property
 description: Gets a set of ShellFolderViewOptions flags that indicate the current options of the view.
-ms.assetid: '96edb144-e532-4ab5-99ae-d945e211d744'
-keywords: ["ViewOptions property Legacy Windows Environment Features", "ViewOptions property Legacy Windows Environment Features , WebViewFolderContents object", "WebViewFolderContents object Legacy Windows Environment Features , ViewOptions property"]
+ms.assetid: 96edb144-e532-4ab5-99ae-d945e211d744
+keywords:
+- ViewOptions property Legacy Windows Environment Features
+- ViewOptions property Legacy Windows Environment Features , WebViewFolderContents object
+- WebViewFolderContents object Legacy Windows Environment Features , ViewOptions property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Shell32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebViewFolderContents.ViewOptions property
@@ -74,17 +82,17 @@ The following example shows the proper usage of this property in JScript embedde
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Shldisp.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Shldisp.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 4.71 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

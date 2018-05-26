@@ -1,8 +1,11 @@
 ---
 title: Unmount method of the Msvm\_ImageManagementService class
 description: Unmounts an existing virtual disk image file in loopback mode.
-ms.assetid: '8e633651-7600-4439-9e46-274c94bbb3a3'
-keywords: ["Unmount method Hyper-V", "Unmount method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , Unmount method"]
+ms.assetid: 8e633651-7600-4439-9e46-274c94bbb3a3
+keywords:
+- Unmount method Hyper-V
+- Unmount method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , Unmount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unmount method of the Msvm\_ImageManagementService class
@@ -24,7 +32,7 @@ Unmounts an existing virtual disk image file in loopback mode.
 
 ```mof
 uint32 Unmount(
-  [in] string Path
+  [in] string Path
 );
 ```
 
@@ -115,7 +123,7 @@ This method can return one of the following values.
 <td><dl> <dt><strong>File not found</strong></dt> <dt>32779</dt> </dl></td>
 <td><blockquote>
 [!Note]<br />
-Added in Windows Server 2012 R2.
+Added in Windows Server 2012 R2.
 </blockquote>
 <br/></td>
 </tr>
@@ -124,7 +132,7 @@ Added in Windows Server 2012 R2.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -287,9 +295,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -305,9 +313,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

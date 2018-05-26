@@ -1,8 +1,9 @@
 ---
 title: glClearStencil function
 description: The glClearStencil function specifies the clear value for the stencil buffer.
-ms.assetid: 'bbde8fa8-78f3-45bd-bac3-5d03839acc52'
-keywords: ["glClearStencil function OpenGL"]
+ms.assetid: bbde8fa8-78f3-45bd-bac3-5d03839acc52
+keywords:
+- glClearStencil function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glClearStencil function
@@ -22,7 +28,7 @@ The **glClearStencil** function specifies the clear value for the stencil buffer
 
 ```C++
 void WINAPI glClearStencil(
-   GLint s
+   GLint s
 );
 ```
 
@@ -69,7 +75,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 ## Remarks
 
-The **glClearStencil** function specifies the index used by [**glClear**](glclear.md) to clear the stencil buffer. The *s* parameter is masked with 2<sup>m</sup>  - 1, where *m* is the number of bits in the stencil buffer.
+The **glClearStencil** function specifies the index used by [**glClear**](glclear.md) to clear the stencil buffer. The *s* parameter is masked with 2<sup>m</sup>  - 1, where *m* is the number of bits in the stencil buffer.
 
 The following functions retrieve information related to the **glClearStencil** function:
 
@@ -83,8 +89,8 @@ The following functions retrieve information related to the **glClearStencil** f
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -107,9 +113,9 @@ The following functions retrieve information related to the **glClearStencil** f
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

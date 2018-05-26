@@ -4,16 +4,22 @@ description: The following code example creates LDAPMod structures for a new ent
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6cc64c44-5472-43b4-b524-5e18dd55a163'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 6cc64c44-5472-43b4-b524-5e18dd55a163
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Adding a New Directory Entry LDAP", "Adding a New Directory Entry LDAP", "Adding a Directory Entry LDAP"]
+keywords:
+- Example Code for Adding a New Directory Entry LDAP
+- Adding a New Directory Entry LDAP
+- Adding a Directory Entry LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Adding a New Directory Entry
 
-The following code example creates [**LDAPMod**](ldapmod.md) structures for a new entry with six initial attributes, and then constructs an array of these structures to pass to [**ldap\_add**](ldap-add.md) (the asynchronous add function).
+The following code example creates [**LDAPMod**](/windows/previous-versions/Winldap/ns-winldap-ldapmoda?branch=master) structures for a new entry with six initial attributes, and then constructs an array of these structures to pass to [**ldap\_add**](/windows/previous-versions/Winldap/nf-winldap-ldap_add?branch=master) (the asynchronous add function).
 
 
 ```C++

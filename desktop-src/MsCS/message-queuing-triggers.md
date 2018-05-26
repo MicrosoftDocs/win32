@@ -4,10 +4,13 @@ description: Manages Message Queuing (MSMQ) triggers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9B63EC27-2D52-412C-B20E-CEB89B4E43B9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9B63EC27-2D52-412C-B20E-CEB89B4E43B9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQTriggers
@@ -26,11 +29,11 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

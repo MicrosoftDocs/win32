@@ -4,11 +4,16 @@ description: The cluster monitors the environment for node, network, and Cluster
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7306abab-cd5b-4c13-95a3-8b34d3029463'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7306abab-cd5b-4c13-95a3-8b34d3029463
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resources Failover Cluster ,failure,detecting", "resource failure Failover Cluster ,detecting"]
+keywords:
+- resources Failover Cluster ,failure,detecting
+- resource failure Failover Cluster ,detecting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Detecting Resource Failure

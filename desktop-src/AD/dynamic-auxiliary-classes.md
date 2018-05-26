@@ -4,11 +4,15 @@ description: Similar to structural and abstract object classes, auxiliary classe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bd5f6aed-c79a-4c03-ad03-a4ae00f0b888'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bd5f6aed-c79a-4c03-ad03-a4ae00f0b888
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Dynamic Auxiliary Classes AD"]
+keywords:
+- Dynamic Auxiliary Classes AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Auxiliary Classes

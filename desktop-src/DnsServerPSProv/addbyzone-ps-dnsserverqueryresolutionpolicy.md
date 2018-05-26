@@ -2,13 +2,16 @@
 title: AddByZone method of the PS\_DnsServerQueryResolutionPolicy class
 description: Adds a query resolution policy to the DNS server by zone.
 audience: developer
-ms.assetid: '47fa13f7-ce7f-466f-9291-23d3072d6456'
-ms.prod: 'windows-server-dev'
+ms.assetid: 47fa13f7-ce7f-466f-9291-23d3072d6456
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByZone method", "AddByZone method, PS_DnsServerQueryResolutionPolicy class", "PS_DnsServerQueryResolutionPolicy class, AddByZone method"]
+keywords:
+- AddByZone method
+- AddByZone method, PS_DnsServerQueryResolutionPolicy class
+- PS_DnsServerQueryResolutionPolicy class, AddByZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByZone method of the PS\_DnsServerQueryResolutionPolicy class
@@ -28,23 +34,23 @@ Adds a query resolution policy to the DNS server by zone.
 
 ```mof
 uint32 AddByZone(
-  [in]  boolean         PassThru,
-  [in]  string          ComputerName,
-  [in]  string          ZoneName,
-  [in]  string          ZoneScope,
-  [in]  string          Action,
-  [in]  string          ClientSubnet,
-  [in]  string          Condition,
-  [in]  string          Fqdn,
-  [in]  string          TimeOfDay,
-  [in]  string          TransportProtocol,
-  [in]  string          InternetProtocol,
-  [in]  boolean         Disable,
-  [in]  string          Name,
-  [in]  uint32          ProcessingOrder,
-  [in]  string          QType,
-  [in]  string          ServerInterfaceIP,
-  [out] DnsServerPolicy cmdletOutput
+  [in]  boolean         PassThru,
+  [in]  string          ComputerName,
+  [in]  string          ZoneName,
+  [in]  string          ZoneScope,
+  [in]  string          Action,
+  [in]  string          ClientSubnet,
+  [in]  string          Condition,
+  [in]  string          Fqdn,
+  [in]  string          TimeOfDay,
+  [in]  string          TransportProtocol,
+  [in]  string          InternetProtocol,
+  [in]  boolean         Disable,
+  [in]  string          Name,
+  [in]  uint32          ProcessingOrder,
+  [in]  string          QType,
+  [in]  string          ServerInterfaceIP,
+  [out] DnsServerPolicy cmdletOutput
 );
 ```
 
@@ -184,7 +190,7 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -198,9 +204,9 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 [**PS\_DnsServerQueryResolutionPolicy**](ps-dnsserverqueryresolutionpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies an XSD file to process for contract information.'
-ms.assetid: '6fe40e77-d23f-4ae9-a4d6-1f567a0fffe7'
+Description: Specifies an XSD file to process for contract information.
+ms.assetid: 6fe40e77-d23f-4ae9-a4d6-1f567a0fffe7
 title: xsd element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # xsd element
@@ -63,14 +68,14 @@ The filename string should include complete path information as well.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how the Sequencer Source handles presentation times during playback.'
-ms.assetid: '0d095e25-5ccf-4319-8767-07b417ed7ee8'
+Description: This topic describes how the Sequencer Source handles presentation times during playback.
+ms.assetid: 0d095e25-5ccf-4319-8767-07b417ed7ee8
 title: Sequence Presentation Times
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequence Presentation Times
@@ -36,7 +41,7 @@ The value of *offset* is the presentation time at which the previous segment end
 
 All pipeline components downstream from the source nodes receive samples with the adjusted time stamps. The source nodes in a topology can have different media start times, so the adjustments are calculated separately for each branch of the topology.
 
-When the presentation switches to the next segment, the presentation clock does not stop or reset, and the presentation time increases monotonically. Before a new segment starts, the Media Session sends the application an [MESessionNotifyPresentationTime](mesessionnotifypresentationtime.md) event. The event specifies the starting time of the segment, relative to the presentation clock, and the value of the offset. When a new segment starts, the pipeline calls [**Start**](imfmediasource-start.md) on the sequencer source with the value VT\_EMPTY. The sequencer source sends an [MESourceStarted](mesourcestarted.md) event with no start time.
+When the presentation switches to the next segment, the presentation clock does not stop or reset, and the presentation time increases monotonically. Before a new segment starts, the Media Session sends the application an [MESessionNotifyPresentationTime](mesessionnotifypresentationtime.md) event. The event specifies the starting time of the segment, relative to the presentation clock, and the value of the offset. When a new segment starts, the pipeline calls [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) on the sequencer source with the value VT\_EMPTY. The sequencer source sends an [MESourceStarted](mesourcestarted.md) event with no start time.
 
 To seek, the application specifies a segment identifier plus a time offset within the segment. After the seek, the presentation clock starts at the *segment* offset. Here is an example of how that process works:
 

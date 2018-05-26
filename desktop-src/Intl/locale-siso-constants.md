@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SISO\* Constants'
-ms.assetid: 'c830e9e9-b58a-4d31-929a-ed699bc08d9f'
-title: 'LOCALE\_SISO\* Constants'
+Description: LOCALE\_SISO\* Constants
+ms.assetid: c830e9e9-b58a-4d31-929a-ed699bc08d9f
+title: LOCALE\_SISO\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SISO\* Constants

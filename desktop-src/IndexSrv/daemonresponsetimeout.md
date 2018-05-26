@@ -1,7 +1,12 @@
 ---
 title: DaemonResponseTimeout
 description: DaemonResponseTimeout
-ms.assetid: '0f5bff4c-0ab2-49ae-a464-ccc4540fe40c'
+ms.assetid: 0f5bff4c-0ab2-49ae-a464-ccc4540fe40c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DaemonResponseTimeout

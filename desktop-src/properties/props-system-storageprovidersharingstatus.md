@@ -1,7 +1,12 @@
 ---
-Description: 'This property represents a the most permissive share status for the file/folder specified by the storage provider.The share statuses from most to least permissive are Owned &gt; Co-owned &gt; Public &gt; Shared &gt; Private.StorageProviderSharingStatus is a readonly property.'
-ms.assetid: 'c3b93159-4279-4b27-b006-ab73e0beee9c'
-title: 'System.StorageProviderSharingStatus'
+Description: This property represents a the most permissive share status for the file/folder specified by the storage provider.The share statuses from most to least permissive are Owned &gt; Co-owned &gt; Public &gt; Shared &gt; Private.StorageProviderSharingStatus is a readonly property.
+ms.assetid: c3b93159-4279-4b27-b006-ab73e0beee9c
+title: System.StorageProviderSharingStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderSharingStatus

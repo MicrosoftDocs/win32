@@ -4,13 +4,15 @@ description: Dhcp Server v4 Scope Statistics.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c5ee718b-86f9-4c39-b011-ead8d4c08449'
-ms.prod: 'windows-server-dev'
+ms.assetid: c5ee718b-86f9-4c39-b011-ead8d4c08449
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4ScopeStatistics class", "DhcpServerv4ScopeStatistics class, described"]
+keywords:
+- DhcpServerv4ScopeStatistics class
+- DhcpServerv4ScopeStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4ScopeStatistics class
@@ -220,16 +225,16 @@ Name of Superscope to which given scope on Dhcp server belongs
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

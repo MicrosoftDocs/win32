@@ -1,7 +1,12 @@
 ---
-Description: 'Adds, changes, or deletes an HTTP request header.'
-ms.assetid: '8cb4891d-0bdb-4dea-8ebe-d6ed26a50e41'
-title: 'IWinHttpRequest::SetRequestHeader method'
+Description: Adds, changes, or deletes an HTTP request header.
+ms.assetid: 8cb4891d-0bdb-4dea-8ebe-d6ed26a50e41
+title: IWinHttpRequestSetRequestHeader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::SetRequestHeader method
@@ -13,8 +18,8 @@ The **SetRequestHeader** method adds, changes, or deletes an HTTP request header
 
 ```C++
 HRESULT SetRequestHeader(
-  [in] BSTR Header,
-  [in] BSTR Value
+  [in] BSTR Header,
+  [in] BSTR Value
 );
 ```
 
@@ -44,16 +49,16 @@ The return value is **S\_OK** on success or an error value otherwise.
 
 ## Remarks
 
-Headers are transferred across redirects. This can create a security vulnerability. To avoid having headers transferred if a redirect occurs, use the [*WINHTTP\_STATUS\_CALLBACK*](internet-status-callback-prototype.md) callback to correct the specific headers when a redirect occurs.
+Headers are transferred across redirects. This can create a security vulnerability. To avoid having headers transferred if a redirect occurs, use the [*WINHTTP\_STATUS\_CALLBACK*](/windows/win32/Winhttp/nc-winhttp-winhttp_status_callback?branch=master) callback to correct the specific headers when a redirect occurs.
 
 The **SetRequestHeader** method enables the calling application to add or delete an HTTP request header prior to sending the request. The header name is given in *Header*, and the header token or value is given in *Value*. To add a header, supply a header name and value. If another header already exists with this name, it is replaced. To delete a header, set *Header* to the name of the header to delete and set *Value* to **NULL**.
 
 The name and value of request headers added with this method are validated. Headers must be well formed. For more information about valid HTTP headers, see [RFC 2616](Http://go.microsoft.com/fwlink/p/?linkid=84048). If an invalid header is used, an error occurs and the header is not added.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -179,9 +184,9 @@ WinHttpReq.Send();
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -201,9 +206,9 @@ WinHttpReq.Send();
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes how to use the WIC APIs.'
-ms.assetid: 'ed7987f0-5983-4bb5-8640-0830a87c8f2e'
+---
+Description: Describes how to use the WIC APIs.
+ms.assetid: ed7987f0-5983-4bb5-8640-0830a87c8f2e
 title: Programming Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide
@@ -22,7 +27,7 @@ This section contains conceptual topics that describe how to use the Windows Ima
 | [Native WIC Codecs](native-wic-codecs.md)<br/>                                 | This section contains information about the native imaging codecs available in WIC.<br/>                                                                                                                        |
 | [Processing Image Metadata](-wic-metadata-portal.md)<br/>                      | This section contains conceptual topics that describe the WIC metadata system.<br/>                                                                                                                             |
 | [JPEG YCbCr Support](jpeg-ycbcr-support.md)<br/>                               | Starting with Windows 8.1, the [Windows Imaging Component (WIC)](-wic-about-windows-imaging-codec.md) JPEG codec supports reading and writing image data in its native YC<sub>b</sub>C<sub>r</sub> form. <br/> |
-| [Color Management](-wic-colormanagement.md)<br/>                               | WIC simplifies color management by providing the [**IWICColorContext**](-wic-codec-iwiccolorcontext.md) interface and the [**IWICColorTransform**](-wic-codec-iwiccolortransform.md) interface.<br/>          |
+| [Color Management](-wic-colormanagement.md)<br/>                               | WIC simplifies color management by providing the [**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master) interface and the [**IWICColorTransform**](/windows/win32/Wincodec/nn-wincodec-iwiccolortransform?branch=master) interface.<br/>          |
 | [Component Development](-wic-component-development.md)<br/>                    | The WIC is an extensible platform that provides low-level API for digital images.<br/>                                                                                                                          |
 
 

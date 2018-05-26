@@ -1,14 +1,20 @@
 ---
 title: BaseEapParameters Complex Type
 description: Defines the placeholder element for method type and method-specific configuration.
-ms.assetid: '510debce-545c-4ce1-965b-e4b2185b7983'
-keywords: ["BaseEapParameters complex type EAPHost"]
+ms.assetid: 510debce-545c-4ce1-965b-e4b2185b7983
+keywords:
+- BaseEapParameters complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - BaseEapParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseEapParameters Complex Type
@@ -51,8 +57,8 @@ In **BaseEapParameters** the method can define the constituent elements. The met
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ In **BaseEapParameters** the method can define the constituent elements. The met
 [baseeapconnectionpropertiesv1 Schema](baseeapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

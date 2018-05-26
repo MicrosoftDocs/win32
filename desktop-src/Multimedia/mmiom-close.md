@@ -1,8 +1,9 @@
 ---
 title: MMIOM\_CLOSE message
 description: The MMIOM\_CLOSE message is sent to an I/O procedure by the mmioClose function to request that a file be closed.
-ms.assetid: '9d0dad5b-fd0a-4948-a4cf-9d138e353c76'
-keywords: ["MMIOM_CLOSE message Windows Multimedia"]
+ms.assetid: 9d0dad5b-fd0a-4948-a4cf-9d138e353c76
+keywords:
+- MMIOM_CLOSE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMIOM\_CLOSE message
@@ -47,15 +53,15 @@ Returns zero if the file is successfully closed or an error otherwise.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the decoder should use frame interpolation.'
-ms.assetid: 'e7e2d585-73eb-420d-b1db-2386449dd8a8'
-title: 'MFPKEY\_FI\_ENABLED PROPERTY'
+---
+Description: Specifies whether the decoder should use frame interpolation.
+ms.assetid: e7e2d585-73eb-420d-b1db-2386449dd8a8
+title: MFPKEY\_FI\_ENABLED PROPERTY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FI\_ENABLED PROPERTY

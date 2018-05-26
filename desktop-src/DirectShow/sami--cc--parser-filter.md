@@ -1,7 +1,12 @@
 ---
-Description: 'SAMI (CC) Parser Filter'
-ms.assetid: '9b09dd86-3c22-4565-82a0-106d5ca2e42d'
-title: 'SAMI (CC) Parser Filter'
+Description: SAMI (CC) Parser Filter
+ms.assetid: 9b09dd86-3c22-4565-82a0-106d5ca2e42d
+title: SAMI (CC) Parser Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SAMI (CC) Parser Filter
@@ -16,11 +21,11 @@ This filter is designed to be used with the [Internal Script Command Renderer](i
 
 |                                          |                                                                                                          |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMStreamSelect**](iamstreamselect.md), [**IBaseFilter**](ibasefilter.md)                           |
+| Filter Interfaces                        | [**IAMStreamSelect**](/windows/win32/Strmif/nn-strmif-iamstreamselect?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)                           |
 | Input Pin Media Types                    | MEDIATYPE\_Stream                                                                                        |
-| Input Pin Interfaces                     | [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                         |
+| Input Pin Interfaces                     | [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                         |
 | Output Pin Media Types                   | MEDIATYPE\_Text, MEDIASUBTYPE\_NULL                                                                      |
-| Output Pin Interfaces                    | [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output Pin Interfaces                    | [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | {33FACFE0-A9BE-11D0-A520-00A0D10129C0}                                                                   |
 | Property Page CLSID                      | No property page                                                                                         |
 | Executable                               | quartz.dll                                                                                               |
@@ -67,7 +72,7 @@ The following is a simple SAMI file:
 
 The **STYLE** tag defines two language settings, English (.ENCC) and French (.FRCC). It also defines two styles, \#NORMAL and \#GREENTEXT. Each **SYNC** tag defines the start time for a caption, in milliseconds. The **P** tags contain the caption text, while the **CLASS** attribute specifies the language setting to which the caption applies.
 
-For each language and style, the filter creates a logical stream. At any time, exactly one language stream and one style stream are enabled. When the filter generates a sample, it selects the caption for the current language and applies the current style. By default, the first language and style declared in the file are enabled. An application can use the [**IAMStreamSelect::Enable**](iamstreamselect-enable.md) method to enable a different stream.
+For each language and style, the filter creates a logical stream. At any time, exactly one language stream and one style stream are enabled. When the filter generates a sample, it selects the caption for the current language and applies the current style. By default, the first language and style declared in the file are enabled. An application can use the [**IAMStreamSelect::Enable**](/windows/win32/Strmif/nf-strmif-iamstreamselect-enable?branch=master) method to enable a different stream.
 
 With the default settings, the first caption in the example file produces the following output:
 
@@ -164,7 +169,7 @@ void __cdecl main()
 
 
 
-This filter uses the [**IAsyncReader**](iasyncreader.md) interface to pull samples from the source filter. Therefore, it does not support the [**IMemInputPin**](imeminputpin.md) interface on its input pin.
+This filter uses the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface to pull samples from the source filter. Therefore, it does not support the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface on its input pin.
 
 ## Related topics
 

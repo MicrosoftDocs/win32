@@ -1,8 +1,29 @@
 ---
 title: Overview of Windows Media DRM
 description: Overview of Windows Media DRM
-ms.assetid: '944b5e0b-649f-4955-8df3-4762726b9893'
-keywords: ["Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,licenses for DRM", "digital rights management (DRM),about", "DRM (digital rights management),about", "digital rights management (DRM),packaging Windows Media files", "DRM (digital rights management),packaging Windows Media files", "digital rights management (DRM),protected file licensing", "DRM (digital rights management),protected file licensing", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),reading protected files", "DRM (digital rights management),reading protected files", "Advanced Systems Format (ASF),digital rights management (DRM)", "ASF (Advanced Systems Format),digital rights management (DRM)", "licenses,DRM"]
+ms.assetid: 944b5e0b-649f-4955-8df3-4762726b9893
+keywords:
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,licenses for DRM
+- digital rights management (DRM),about
+- DRM (digital rights management),about
+- digital rights management (DRM),packaging Windows Media files
+- DRM (digital rights management),packaging Windows Media files
+- digital rights management (DRM),protected file licensing
+- DRM (digital rights management),protected file licensing
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),reading protected files
+- DRM (digital rights management),reading protected files
+- Advanced Systems Format (ASF),digital rights management (DRM)
+- ASF (Advanced Systems Format),digital rights management (DRM)
+- licenses,DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Windows Media DRM

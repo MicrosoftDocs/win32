@@ -1,7 +1,12 @@
 ---
-Description: 'As a manager of shared resources, Removable Storage Manager ensures that client applications do not corrupt each other's data.'
-ms.assetid: '97180d9c-9ac7-4802-95a7-2832c94750c2'
+Description: As a manager of shared resources, Removable Storage Manager ensures that client applications do not corrupt each others data.
+ms.assetid: 97180d9c-9ac7-4802-95a7-2832c94750c2
 title: RSM Media Identification and Naming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Media Identification and Naming

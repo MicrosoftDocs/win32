@@ -4,11 +4,16 @@ description: The default result pane view type is a list view.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb484872-05ff-48b5-bad4-17dbdc1815f7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bb484872-05ff-48b5-bad4-17dbdc1815f7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["list views MMC", "list views MMC"]
+keywords:
+- list views MMC
+- list views MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using List Views

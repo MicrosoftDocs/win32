@@ -1,8 +1,21 @@
 ---
 title: Creating the Primary Art File
 description: Creating the Primary Art File
-ms.assetid: '50099050-2ce8-4cbf-82b7-3018f6579bd2'
-keywords: ["creating skins,primary art files", "Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,primary images", "Windows Media Player skins,primary images", "skins,primary images", "primary images in skins"]
+ms.assetid: 50099050-2ce8-4cbf-82b7-3018f6579bd2
+keywords:
+- creating skins,primary art files
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,primary images
+- Windows Media Player skins,primary images
+- skins,primary images
+- primary images in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Primary Art File

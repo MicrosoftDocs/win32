@@ -1,8 +1,9 @@
 ---
 title: RAS\_PPP\_ATCP\_RESULT structure
 description: The RAS\_PPP\_ATCP\_RESULT structure is used to report the result of an AppleTalk protocol projection operation for a port.
-ms.assetid: 'ac9df618-f79c-4066-a37e-f92e64e951dd'
-keywords: ["RAS_PPP_ATCP_RESULT structure RAS"]
+ms.assetid: ac9df618-f79c-4066-a37e-f92e64e951dd
+keywords:
+- RAS_PPP_ATCP_RESULT structure RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PPP\_ATCP\_RESULT structure
 
-\[The **RAS\_PPP\_ATCP\_RESULT** structure is not supported as of Windows Vista.\]
+\[The **RAS\_PPP\_ATCP\_RESULT** structure is not supported as of Windows Vista.\]
 
 The **RAS\_PPP\_ATCP\_RESULT** structure is used to report the result of an AppleTalk protocol projection operation for a port.
 
@@ -55,10 +61,10 @@ Specifies a null-terminated Unicode string that specifies the IP address assigne
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ Specifies a null-terminated Unicode string that specifies the IP address assigne
 [**RAS\_PPP\_PROJECTION\_RESULT**](ras-ppp-projection-result-str.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxOutboundRoutingRule object information from the fax server.'
-ms.assetid: '7b8521ef-80e9-493b-ac09-a4633a4bfd4a'
-title: 'FaxOutboundRoutingRule.Refresh method'
+---
+Description: The Refresh method refreshes FaxOutboundRoutingRule object information from the fax server.
+ms.assetid: 7b8521ef-80e9-493b-ac09-a4633a4bfd4a
+title: FaxOutboundRoutingRule.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRule.Refresh method
@@ -48,7 +53,7 @@ When the **Refresh** method is called, any configuration changes made after the 
 [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule-cpp.md)
+[**IFaxOutboundRoutingRule**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrule?branch=master)
 </dt> </dl>
 
  

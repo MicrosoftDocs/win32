@@ -1,8 +1,9 @@
 ---
 title: RBN\_MINMAX notification code
 description: Sent by a rebar control prior to maximizing or minimizing a band. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '75619cb0-ef0b-44fa-83b2-15a5e5e92c60'
-keywords: ["RBN_MINMAX notification code Windows Controls"]
+ms.assetid: 75619cb0-ef0b-44fa-83b2-15a5e5e92c60
+keywords:
+- RBN_MINMAX notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RBN\_MINMAX notification code
@@ -38,15 +44,15 @@ Return a nonzero value to prevent the operation from taking place, zero to allow
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

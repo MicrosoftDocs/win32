@@ -1,7 +1,12 @@
 ---
 title: Unions
 description: Encapsulated and nonencapsulated unions and their format with Remote Procedure Call (RPC).
-ms.assetid: 'de13151a-f4a4-4440-b287-454df4a1e3e1'
+ms.assetid: de13151a-f4a4-4440-b287-454df4a1e3e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unions

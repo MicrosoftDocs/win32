@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the switch offload settings.'
-ms.assetid: '4e00544e-a8db-4337-af3f-f651bfcf6b05'
-title: 'Msvm\_EthernetSwitchHardwareOffloadSettingData class'
+Description: Represents the switch offload settings.
+ms.assetid: 4e00544e-a8db-4337-af3f-f651bfcf6b05
+title: Msvm\_EthernetSwitchHardwareOffloadSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchHardwareOffloadSettingData class
@@ -18,11 +23,11 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 {
   boolean DefaultQueueVrssEnabled = TRUE;
   boolean DefaultQueueVmmqEnabled = FALSE;
-  uint32  DefaultQueueVmmqQueuePairs = 16;
+  uint32  DefaultQueueVmmqQueuePairs = 16;
   boolean DefaultQueueVrssIndependentHostSpreading = TRUE;
   boolean DefaultQueueVrssExcludePrimaryProcessor = FALSE;
-  uint32  DefaultQueueVrssQueueSchedulingMode = 2;
-  uint32  DefaultQueueVrssMinQueuePairs = 1;
+  uint32  DefaultQueueVrssQueueSchedulingMode = 2;
+  uint32  DefaultQueueVrssMinQueuePairs = 1;
 };
 ```
 
@@ -101,9 +106,9 @@ Qualifiers: **WmiDataId** (6), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates whether the primary VMQ CPU is excluded from the VRSS/VMMQ indirection table.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,9 +127,9 @@ Qualifiers: **WmiDataId** (7), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates whether to always do VRSS spreading for default queue, regardless of the RSS state of the external vPort.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -143,9 +148,9 @@ Qualifiers: **WmiDataId** (4), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates minimum number of queues used for VRSS/VMMQ.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -164,9 +169,9 @@ Qualifiers: **WmiDataId** (5), **InterfaceVersion** (2), **InterfaceRevision** (
 Indicates how VRSS/VMMQ queues are steered to different host processors.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> </dl>
 
@@ -176,8 +181,8 @@ Indicates how VRSS/VMMQ queues are steered to different host processors.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -191,9 +196,9 @@ Indicates how VRSS/VMMQ queues are steered to different host processors.
 [**Msvm\_EthernetSwitchFeatureSettingData**](msvm-ethernetswitchfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

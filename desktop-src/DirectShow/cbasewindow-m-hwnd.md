@@ -1,7 +1,12 @@
 ---
-Description: 'Handle to the object''s window.'
-ms.assetid: 'f1797d24-c17c-41fb-a7bf-ad5c7fbfa01e'
-title: 'CBaseWindow::m\_hwnd member'
+Description: Handle to the objects window.
+ms.assetid: f1797d24-c17c-41fb-a7bf-ad5c7fbfa01e
+title: CBaseWindowm\_hwnd member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_hwnd member
@@ -35,9 +40,9 @@ HWND m_hwnd;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

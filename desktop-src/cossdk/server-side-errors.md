@@ -1,7 +1,12 @@
 ---
-Description: 'Server-Side Errors'
-ms.assetid: 'ce8ddb52-237c-4d46-a088-9f592afadcd2'
-title: 'Server-Side Errors'
+Description: Server-Side Errors
+ms.assetid: ce8ddb52-237c-4d46-a088-9f592afadcd2
+title: Server-Side Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server-Side Errors
@@ -55,8 +60,8 @@ The following is the sequence of events for server-side exception handling:
 2.  The final retry on the last retry queue fails.
 3.  The queued components service run-time retrieves the target component from the message and checks for an exception class.
 4.  The run-time instantiates the exception class.
-5.  The run-time queries [**IPlaybackControl**](iplaybackcontrol.md) on the exception class.
-6.  The run-time calls [**IPlaybackControl::FinalServerRetry**](iplaybackcontrol-finalserverretry.md) in the exception class.
+5.  The run-time queries [**IPlaybackControl**](/windows/win32/ComSvcs/nn-comsvcs-iplaybackcontrol?branch=master) on the exception class.
+6.  The run-time calls [**IPlaybackControl::FinalServerRetry**](/windows/win32/ComSvcs/nf-comsvcs-iplaybackcontrol-finalserverretry?branch=master) in the exception class.
 7.  The run-time plays back all property and method calls from the message to the exception class.
 8.  If steps 4 through 6 do not succeed, the run-time moves the message onto the application-specific final resting queue.
 

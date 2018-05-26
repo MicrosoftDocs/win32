@@ -1,7 +1,12 @@
 ---
 title: Registering Interfaces
 description: Registering a Remote Procedure Call (RPC) interface.
-ms.assetid: 'c22e3fa8-98be-461a-b06d-292d3f655ffc'
+ms.assetid: c22e3fa8-98be-461a-b06d-292d3f655ffc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Interfaces
@@ -21,21 +26,21 @@ The information in this section is presented in the following topics:
 
 ## Interface Registration Functions
 
-Servers register their interfaces by calling the [**RpcServerRegisterIf**](rpcserverregisterif.md) function. Complex server programs often support more than one interface. Server applications must call this function once for each interface they support.
+Servers register their interfaces by calling the [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master) function. Complex server programs often support more than one interface. Server applications must call this function once for each interface they support.
 
 Also, servers can support multiple versions of the same interface, each with its own implementation of the interface's functions. If your server program does this, it must provide a set of entry points. An entry point is a manager routine that dispatches calls for a version of an interface. There must be one entry point for each version of the interface. The group of entry points is called an entry point vector. For details, see [Entry-Point Vectors](#entry-point-vectors).
 
-In addition to the standard function [**RpcServerRegisterIf**](rpcserverregisterif.md), RPC also supports other interface registration functions. The [**RpcServerRegisterIf2**](rpcserverregisterif2.md) function extends the capabilities of **RpcServerRegisterIf** by enabling you to specify a set of registration flags (see [Interface Registration Flags](interface-registration-flags.md)), the maximum number of concurrent remote procedure call requests the server can accept, and the maximum size in bytes of incoming data blocks.
+In addition to the standard function [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), RPC also supports other interface registration functions. The [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) function extends the capabilities of **RpcServerRegisterIf** by enabling you to specify a set of registration flags (see [Interface Registration Flags](interface-registration-flags.md)), the maximum number of concurrent remote procedure call requests the server can accept, and the maximum size in bytes of incoming data blocks.
 
-The RPC library also contains a function called [**RpcServerRegisterIfEx**](rpcserverregisterifex.md). Like the [**RpcServerRegisterIf**](rpcserverregisterif.md) function, this function registers an interface. Your server program can also use this function to specify a set of registration flags (see [Interface Registration Flags](interface-registration-flags.md)), the maximum number of concurrent remote procedure call requests the server can accept, and a security callback function.
+The RPC library also contains a function called [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master). Like the [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master) function, this function registers an interface. Your server program can also use this function to specify a set of registration flags (see [Interface Registration Flags](interface-registration-flags.md)), the maximum number of concurrent remote procedure call requests the server can accept, and a security callback function.
 
-The [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), and [**RpcServerRegisterIf2**](rpcserverregisterif2.md) functions set values in the internal interface registry table. This table is used to map the interface UUID and object UUIDs to a manager EPV. The manager EPV is an array of function pointers that contains exactly one function pointer for each function prototype in the interface specified in the IDL file.
+The [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), and [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) functions set values in the internal interface registry table. This table is used to map the interface UUID and object UUIDs to a manager EPV. The manager EPV is an array of function pointers that contains exactly one function pointer for each function prototype in the interface specified in the IDL file.
 
 For information on supplying multiple EPVs to provide multiple implementations of the interface, see [Multiple Interface Implementations](#registering-multiple-implementations-of-an-interface).
 
-The run-time library uses the interface registry table (set by calls to the function [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md)) and the object registry table (set by calls to the function [**RpcObjectSetType**](rpcobjectsettype.md)) to map interface and object UUIDs to the function pointer.
+The run-time library uses the interface registry table (set by calls to the function [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master)) and the object registry table (set by calls to the function [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master)) to map interface and object UUIDs to the function pointer.
 
-When you want your server program to remove an interface from the RPC run-time library registry, call the [**RpcServerUnregisterIf**](rpcserverunregisterif.md) function. After the interface is removed from the registry, the RPC run-time library will no longer accept new calls for that interface.
+When you want your server program to remove an interface from the RPC run-time library registry, call the [**RpcServerUnregisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterif?branch=master) function. After the interface is removed from the registry, the RPC run-time library will no longer accept new calls for that interface.
 
 ## Entry-point Vectors
 
@@ -45,15 +50,15 @@ The MIDL compiler automatically generates a manager EPV data type for use in con
 
 The MIDL compiler automatically creates and initializes a default manager EPV on the assumption that a manager routine of the same name exists for each procedure in the interface and is specified in the IDL file.
 
-When a server offers multiple implementations of the same interface, the server must create one additional manager EPV for each implementation. Each EPV must contain exactly one entry point (address of a function) for each procedure defined in the IDL file. The server application declares and initializes one manager EPV variable of type *if-name***\_SERVER\_EPV** for each additional implementation of the interface. To register the EPVs it calls [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) once for each object type it supports.
+When a server offers multiple implementations of the same interface, the server must create one additional manager EPV for each implementation. Each EPV must contain exactly one entry point (address of a function) for each procedure defined in the IDL file. The server application declares and initializes one manager EPV variable of type *if-name***\_SERVER\_EPV** for each additional implementation of the interface. To register the EPVs it calls [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) once for each object type it supports.
 
-When the client makes a remote procedure call to the server, the EPV containing the function pointer is selected based on the interface UUID and the object type. The object type is derived from the object UUID by the object-inquiry function or the table-driven mapping controlled by [**RpcObjectSetType**](rpcobjectsettype.md).
+When the client makes a remote procedure call to the server, the EPV containing the function pointer is selected based on the interface UUID and the object type. The object type is derived from the object UUID by the object-inquiry function or the table-driven mapping controlled by [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master).
 
 ## Manager EPVs
 
 By default, the MIDL compiler uses the procedure names from an interface's IDL file to generate a manager EPV, which the compiler places directly into the server stub. This default EPV is statically initialized using the procedure names declared in the interface definition.
 
-To register a manager using the default EPV, specify **NULL** as the value of the *MgrEpv* parameter in a call to either the [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) function. If the routine names used by a manager correspond to those of the interface definition, you can register this manager using the default EPV of the interface generated by the MIDL compiler. You can also register a manager using an EPV that the server application supplies.
+To register a manager using the default EPV, specify **NULL** as the value of the *MgrEpv* parameter in a call to either the [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) function. If the routine names used by a manager correspond to those of the interface definition, you can register this manager using the default EPV of the interface generated by the MIDL compiler. You can also register a manager using an EPV that the server application supplies.
 
 A server can (and sometimes must) create and register a non-**null** manager EPV for an interface. To select a server application–supplied EPV, pass the address of an EPV whose value has been declared by the server as the value of the *MgrEpv* a parameter. A non-**null** value for the *MgrEpv* a parameter always overrides a default EPV in the server stub.
 
@@ -68,9 +73,9 @@ A server declares a manager EPV by initializing a variable of type *if-name***\_
 
 ## Registering a Single Implementation of an Interface
 
-When a server offers only one implementation of an interface, the server calls [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) only once. In the standard case, the server uses the default manager EPV. (The exception is when the manager uses routine names that differ from those declared in the interface.)
+When a server offers only one implementation of an interface, the server calls [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) only once. In the standard case, the server uses the default manager EPV. (The exception is when the manager uses routine names that differ from those declared in the interface.)
 
-For the standard case, you supply the following values for calls to [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md):
+For the standard case, you supply the following values for calls to [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master):
 
 -   Manager EPVs
 
@@ -78,26 +83,26 @@ For the standard case, you supply the following values for calls to [**RpcServer
 
 -   Manager type UUID
 
-    When using the default EPV, register the interface with a nil manager type UUID by supplying either a **null** value or a nil UUID for the *MgrTypeUuid* a parameter. In this case, all remote procedure calls, regardless of the object UUID in their binding handle, are dispatched to the default EPV, assuming no [**RpcObjectSetType**](rpcobjectsettype.md) calls have been made.
+    When using the default EPV, register the interface with a nil manager type UUID by supplying either a **null** value or a nil UUID for the *MgrTypeUuid* a parameter. In this case, all remote procedure calls, regardless of the object UUID in their binding handle, are dispatched to the default EPV, assuming no [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) calls have been made.
 
-    You can also provide a non-nil manager type UUID. In this case, you must also call the [**RpcObjectSetType**](rpcobjectsettype.md) routine.
+    You can also provide a non-nil manager type UUID. In this case, you must also call the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine.
 
 ## Registering Multiple Implementations of an Interface
 
-You can supply more than one implementation of the remote procedure(s) specified in the IDL file. The server application calls [**RpcObjectSetType**](rpcobjectsettype.md) to map object UUIDs to type UUIDs and calls [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) to associate manager EPVs with a type UUID. When a remote procedure call arrives with its object UUID, the RPC server run-time library maps the object UUID to a type UUID. The server application then uses the type UUID and the interface UUID to select the manager EPV.
+You can supply more than one implementation of the remote procedure(s) specified in the IDL file. The server application calls [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) to map object UUIDs to type UUIDs and calls [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) to associate manager EPVs with a type UUID. When a remote procedure call arrives with its object UUID, the RPC server run-time library maps the object UUID to a type UUID. The server application then uses the type UUID and the interface UUID to select the manager EPV.
 
-You can also specify your own function to resolve the mapping from object UUID to manager type UUID. You specify the mapping function when you call [**RpcObjectSetInqFn**](rpcobjectsetinqfn.md).
+You can also specify your own function to resolve the mapping from object UUID to manager type UUID. You specify the mapping function when you call [**RpcObjectSetInqFn**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsetinqfn?branch=master).
 
-To offer multiple implementations of an interface, a server must register each implementation by calling [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md) or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) separately. For each implementation a server registers, it supplies the same *IfSpec* a parameter, but a different pair of *MgrTypeUuid* and *MgrEpv* a parameters.
+To offer multiple implementations of an interface, a server must register each implementation by calling [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master) or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) separately. For each implementation a server registers, it supplies the same *IfSpec* a parameter, but a different pair of *MgrTypeUuid* and *MgrEpv* a parameters.
 
-In the case of multiple managers, use [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md) or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) as follows:
+In the case of multiple managers, use [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master) or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) as follows:
 
 -   Manager EPVs
 
     To offer multiple implementations of an interface, a server must:
 
     -   Create a non-**null** manager EPV for each additional implementation.
-    -   Specify a non-**null** value for the *MgrEpv* a parameter in [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md).
+    -   Specify a non-**null** value for the *MgrEpv* a parameter in [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master).
 
     Please note that the server can also register with the default manager EPV.
 
@@ -113,15 +118,15 @@ The run-time library applies the following rules when interpreting the object UU
 
 -   Nil object UUIDs
 
-    A nil object UUID is automatically assigned the nil type UUID (it is illegal to specify a nil object UUID in the [**RpcObjectSetType**](rpcobjectsettype.md) routine). Therefore, a remote procedure call whose binding handle contains a nil object UUID is automatically dispatched to the manager registered with the nil type UUID, if any.
+    A nil object UUID is automatically assigned the nil type UUID (it is illegal to specify a nil object UUID in the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine). Therefore, a remote procedure call whose binding handle contains a nil object UUID is automatically dispatched to the manager registered with the nil type UUID, if any.
 
 -   Non-nil object UUIDs
 
-    In principle, a remote procedure call whose binding handle contains a non-nil object UUID should be processed by a manager whose type UUID matches the type of the object UUID. However, identifying the correct manager requires that the server has specified the type of that object UUID by calling the [**RpcObjectSetType**](rpcobjectsettype.md) routine.
+    In principle, a remote procedure call whose binding handle contains a non-nil object UUID should be processed by a manager whose type UUID matches the type of the object UUID. However, identifying the correct manager requires that the server has specified the type of that object UUID by calling the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine.
 
-    If a server fails to call the [**RpcObjectSetType**](rpcobjectsettype.md) routine for a non-nil object UUID, a remote procedure call for that object UUID goes to the manager EPV that services remote procedure calls with a nil object UUID (that is, the nil type UUID).
+    If a server fails to call the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine for a non-nil object UUID, a remote procedure call for that object UUID goes to the manager EPV that services remote procedure calls with a nil object UUID (that is, the nil type UUID).
 
-    Remote procedure calls with a non-nil object UUID in the binding handle cannot be executed if the server assigned that non-nil object UUID a type UUID by calling the [**RpcObjectSetType**](rpcobjectsettype.md) routine, but did not also register a manager EPV for that type UUID by calling [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md) or [**RpcServerRegisterIf2**](rpcserverregisterif2.md).
+    Remote procedure calls with a non-nil object UUID in the binding handle cannot be executed if the server assigned that non-nil object UUID a type UUID by calling the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine, but did not also register a manager EPV for that type UUID by calling [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master) or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master).
 
 The following table summarizes the actions that the run-time library uses to select the manager routine.
 
@@ -141,12 +146,12 @@ The following table summarizes the actions that the run-time library uses to sel
 
 The object UUID of the call is the object UUID found in a binding handle for a remote procedure call.
 
-The server sets the type of the object UUID by calling [**RpcObjectSetType**](rpcobjectsettype.md) to specify the type UUID for an object.
+The server sets the type of the object UUID by calling [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) to specify the type UUID for an object.
 
-The server registers the type for the manager EPV by calling [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md) or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) using the same type UUID.
+The server registers the type for the manager EPV by calling [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master) or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) using the same type UUID.
 
 > [!Note]  
-> The nil object UUID is always automatically assigned the nil type UUID. It is illegal to specify a nil object UUID in the [**RpcObjectSetType**](rpcobjectsettype.md) routine.
+> The nil object UUID is always automatically assigned the nil type UUID. It is illegal to specify a nil object UUID in the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine.
 
  
 
@@ -196,20 +201,20 @@ A simple case where the server registers the default manager EPV, is described i
 
 The following steps describe the actions that the RPC server's run-time library take, as shown in the preceding tables, when a client with interface UUID *uuid1* calls it.
 
-1.  The server calls [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) to associate an interface it offers with the nil manager type UUID and with the MIDL-generated default manager EPV. This call adds an entry in the interface registry table. The interface UUID is contained in the *IfSpec* a parameter.
-2.  By default, the object registry table associates all object UUIDs with the nil type UUID. In this example, the server does not call [**RpcObjectSetType**](rpcobjectsettype.md).
+1.  The server calls [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) to associate an interface it offers with the nil manager type UUID and with the MIDL-generated default manager EPV. This call adds an entry in the interface registry table. The interface UUID is contained in the *IfSpec* a parameter.
+2.  By default, the object registry table associates all object UUIDs with the nil type UUID. In this example, the server does not call [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master).
 3.  The server run-time library receives a remote procedure code containing the interface UUID that the call belongs to and the object UUID from the call's binding handle.
 
     See the following function reference entries for discussions of how an object UUID is set into a binding handle:
 
-    -   [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md)
-    -   [**RpcNsBindingLookupBegin**](rpcnsbindinglookupbegin.md)
-    -   [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md)
-    -   [**RpcBindingSetObject**](rpcbindingsetobject.md)
+    -   [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master)
+    -   [**RpcNsBindingLookupBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina?branch=master)
+    -   [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master)
+    -   [**RpcBindingSetObject**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetobject?branch=master)
 
 4.  Using the interface UUID from the remote procedure call, the server's run-time library locates that interface UUID in the interface registry table.
 
-    If the server did not register the interface using [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md), then the remote procedure call returns to the caller with an RPC\_S\_UNKNOWN\_IF status code.
+    If the server did not register the interface using [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master), then the remote procedure call returns to the caller with an RPC\_S\_UNKNOWN\_IF status code.
 
 5.  Using the object UUID from the binding handle, the server's run-time library locates that object UUID in the object registry table. In this example, all object UUIDs map to the nil object type.
 6.  The server's run-time library locates the nil manager type in the interface registry table.
@@ -270,19 +275,19 @@ Assume that the server offers multiple interfaces and multiple implementations o
 
 The following steps describe the actions that the server's run-time library take, as shown in the preceding tables when a client with interface UUID *uuid2* and object UUID *uuidC* calls it.
 
-1.  The server calls [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) to associate the interfaces it offers with the different manager EPVs. The entries in the interface registry table reflect four calls of [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) to offer two interfaces, with two implementations (EPVs) for each interface.
-2.  The server calls [**RpcObjectSetType**](rpcobjectsettype.md) to establish the type of each object it offers. In addition to the default association of the nil object to a nil type, all other object UUIDs not explicitly found in the object registry table also map to the nil type UUID.
+1.  The server calls [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) to associate the interfaces it offers with the different manager EPVs. The entries in the interface registry table reflect four calls of [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) to offer two interfaces, with two implementations (EPVs) for each interface.
+2.  The server calls [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) to establish the type of each object it offers. In addition to the default association of the nil object to a nil type, all other object UUIDs not explicitly found in the object registry table also map to the nil type UUID.
 
-    In this example, the server calls the [**RpcObjectSetType**](rpcobjectsettype.md) routine six times.
+    In this example, the server calls the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine six times.
 
 3.  The server run-time library receives a remote procedure call containing the interface UUID that the call belongs to and an object UUID from the call's binding handle.
 4.  Using the interface UUID from the remote procedure call, the server's run-time library locates the interface UUID in the interface registry table.
 5.  Using the *uuidC* object UUID from the binding handle, the server's run-time library locates the object UUID in the object registry table and finds that it maps to type *uuid7*.
 6.  To locate the manager type, the server's run-time library combines the interface UUID, *uuid2*, and type *uuid7* in the interface registry table. This resolves to *epv3*, which contains the server manager routine to be executed for the remote procedure call.
 
-The routines in *epv2* will never be executed because the server has not called the [**RpcObjectSetType**](rpcobjectsettype.md) routine to add any objects with a type UUID of *uuid4* to the object registry table.
+The routines in *epv2* will never be executed because the server has not called the [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) routine to add any objects with a type UUID of *uuid4* to the object registry table.
 
-A remote procedure call with interface UUID *uuid2* and object UUID *uuidF* returns to the caller with an RPC\_S\_UNKNOWN\_MGR\_TYPE status code because the server did not call [**RpcServerRegisterIf**](rpcserverregisterif.md), [**RpcServerRegisterIfEx**](rpcserverregisterifex.md), or [**RpcServerRegisterIf2**](rpcserverregisterif2.md) to register the interface with a manager type of *uuid8*.
+A remote procedure call with interface UUID *uuid2* and object UUID *uuidF* returns to the caller with an RPC\_S\_UNKNOWN\_MGR\_TYPE status code because the server did not call [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master), [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master), or [**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master) to register the interface with a manager type of *uuid8*.
 
 ## Return Values
 
@@ -301,9 +306,9 @@ This function returns one of the following values.
 
 ## Supplying Your Own Object-inquiry Function
 
-Consider a server that manages thousands of objects of many different types. Whenever the server started, the server application would have to call the function [**RpcObjectSetType**](rpcobjectsettype.md) for every one of the objects, even though clients might refer to only a few of them (or take a long time to refer to them). These thousands of objects are likely to be on disk, so retrieving their types would be time consuming. Also, the internal table that is mapping the object UUID to the manager type UUID would essentially duplicate the mapping maintained with the objects themselves.
+Consider a server that manages thousands of objects of many different types. Whenever the server started, the server application would have to call the function [**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master) for every one of the objects, even though clients might refer to only a few of them (or take a long time to refer to them). These thousands of objects are likely to be on disk, so retrieving their types would be time consuming. Also, the internal table that is mapping the object UUID to the manager type UUID would essentially duplicate the mapping maintained with the objects themselves.
 
-For convenience, the RPC function set includes the function [**RpcObjectSetInqFn**](rpcobjectsetinqfn.md). With this function, you provide your own object-inquiry function.
+For convenience, the RPC function set includes the function [**RpcObjectSetInqFn**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsetinqfn?branch=master). With this function, you provide your own object-inquiry function.
 
 As an example, you can supply your own object-inquiry function when you map objects 100–199 to type number 1, 200–299 to type number 2, and so on. The object inquiry function can also be extended to a distributed file system, where the server application does not have a list of all the files (object UUIDs) available, or when object UUIDs name files in the file system and you do not want to preload all of the mappings between object UUIDs and type UUIDs.
 
@@ -311,37 +316,37 @@ As an example, you can supply your own object-inquiry function when you map obje
 
 <dl> <dt>
 
-[**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md)
+[**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master)
 </dt> <dt>
 
-[**RpcBindingSetObject**](rpcbindingsetobject.md)
+[**RpcBindingSetObject**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetobject?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingExport**](rpcnsbindingexport.md)
+[**RpcNsBindingExport**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingexporta?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md)
+[**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master)
 </dt> <dt>
 
-[**RpcNsBindingLookupBegin**](rpcnsbindinglookupbegin.md)
+[**RpcNsBindingLookupBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina?branch=master)
 </dt> <dt>
 
-[**RpcObjectSetType**](rpcobjectsettype.md)
+[**RpcObjectSetType**](/windows/win32/Rpcdce/nf-rpcdce-rpcobjectsettype?branch=master)
 </dt> <dt>
 
-[**RpcServerRegisterIf**](rpcserverregisterif.md)
+[**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master)
 </dt> <dt>
 
-[**RpcServerRegisterIf2**](rpcserverregisterif2.md)
+[**RpcServerRegisterIf2**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif2?branch=master)
 </dt> <dt>
 
-[**RpcServerRegisterIfEx**](rpcserverregisterifex.md)
+[**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master)
 </dt> <dt>
 
-[**RpcServerUnregisterIf**](rpcserverunregisterif.md)
+[**RpcServerUnregisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterif?branch=master)
 </dt> <dt>
 
-[**RpcServerUnregisterIfEx**](rpcserverunregisterifex.md)
+[**RpcServerUnregisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverunregisterifex?branch=master)
 </dt> </dl>
 
  

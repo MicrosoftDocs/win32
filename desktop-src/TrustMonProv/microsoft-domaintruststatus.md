@@ -1,13 +1,16 @@
 ---
-Description: 'Contains information about a trusted domain.'
+Description: Contains information about a trusted domain.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '83d8e6dc-1170-4226-89b6-99314f3ce6a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 83d8e6dc-1170-4226-89b6-99314f3ce6a8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Microsoft\_DomainTrustStatus class'
+title: Microsoft\_DomainTrustStatus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Microsoft\_DomainTrustStatus class
@@ -22,15 +25,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("TrustPrv")]
 class Microsoft_DomainTrustStatus
 {
-  string  TrustedDomain;
-  string  FlatName;
-  string  SID;
-  uint32  TrustDirection;
-  uint32  TrustType;
-  uint32  TrustAttributes;
-  string  TrustedDCName;
-  uint32  TrustStatus;
-  string  TrustStatusString;
+  string  TrustedDomain;
+  string  FlatName;
+  string  SID;
+  uint32  TrustDirection;
+  uint32  TrustType;
+  uint32  TrustAttributes;
+  string  TrustedDCName;
+  uint32  TrustStatus;
+  string  TrustStatusString;
   boolean TrustIsOK = FALSE;
 };
 ```
@@ -314,7 +317,7 @@ DCE
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\microsoftactivedirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Trustmon.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Trustmon.dll</dt> </dl> |
@@ -334,9 +337,9 @@ DCE
 [Trustmon Provider](trustmon-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

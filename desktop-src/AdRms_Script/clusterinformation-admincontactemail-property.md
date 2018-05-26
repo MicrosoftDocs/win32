@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the email address of the AD RMS administrator.'
+Description: Retrieves the email address of the AD RMS administrator.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'ef6b99be-30c5-49d5-8885-db11994a5cd1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: ef6b99be-30c5-49d5-8885-db11994a5cd1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ClusterInformation.AdminContactEmail property'
+title: ClusterInformation.AdminContactEmail property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterInformation.AdminContactEmail property
@@ -106,7 +109,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END SUB
 [**ClusterInformation**](clusterinformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

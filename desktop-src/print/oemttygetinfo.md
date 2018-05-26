@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMTTYGetInfo function
-ms.assetid: '9b6fcd4e-6472-4e46-b0b7-dd1279e534d0'
+ms.assetid: 9b6fcd4e-6472-4e46-b0b7-dd1279e534d0
 title: OEMTTYGetInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMTTYGetInfo function

@@ -1,16 +1,21 @@
 ---
 Description: Working with Crossbars
-ms.assetid: '6e8ee9c3-6776-498b-ad38-36f8172a27ae'
+ms.assetid: 6e8ee9c3-6776-498b-ad38-36f8172a27ae
 title: Working with Crossbars
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Crossbars
 
 If a video capture card has more than one physical input, or supports more than one hardware path for data, then the filter graph may contain the [Analog Video Crossbar Filter](analog-video-crossbar-filter.md). The Capture Graph Builder automatically adds this filter when needed; it will be upstream from the capture filter. Depending on the hardware, the filter graph might contain more than one instance of the crossbar filter.
 
-The crossbar filter exposes the [**IAMCrossbar**](iamcrossbar.md) interface, which you can use to route a particular input to a particular output. For example, a video card might have a coaxial connector and an S-Video input. These would be represented as input pins on the crossbar filter. To select an input, route the corresponding input pin to the crossbar's output pin, using the [**IAMCrossbar::Route**](iamcrossbar-route.md) method.
+The crossbar filter exposes the [**IAMCrossbar**](/windows/win32/Strmif/nn-strmif-iamcrossbar?branch=master) interface, which you can use to route a particular input to a particular output. For example, a video card might have a coaxial connector and an S-Video input. These would be represented as input pins on the crossbar filter. To select an input, route the corresponding input pin to the crossbar's output pin, using the [**IAMCrossbar::Route**](/windows/win32/Strmif/nf-strmif-iamcrossbar-route?branch=master) method.
 
-To locate crossbar filters in the graph, you can use the [**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md) method to search for filters that support **IAMCrossbar**. For example, the following code searches for two crossbars:
+To locate crossbar filters in the graph, you can use the [**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) method to search for filters that support **IAMCrossbar**. For example, the following code searches for two crossbars:
 
 
 ```C++
@@ -47,12 +52,12 @@ For a more generalized approach, see the CCrossbar class in the [AmCap Sample](a
 
 Once you have a pointer to the **IAMCrossbar** interface, you can get information about the crossbar filter, including the physical type of each pin, and the matrix of which input pins can be routed to which output pins.
 
--   To determine the type of physical connector to which a pin corresponds, call the [**IAMCrossbar::get\_CrossbarPinInfo**](iamcrossbar-get-crossbarpininfo.md) method. The method returns a member of the [**PhysicalConnectorType**](physicalconnectortype.md) enumeration. For example, an S-Video pin returns the value PhysConn\_Video\_SVideo.
+-   To determine the type of physical connector to which a pin corresponds, call the [**IAMCrossbar::get\_CrossbarPinInfo**](/windows/win32/Strmif/nf-strmif-iamcrossbar-get_crossbarpininfo?branch=master) method. The method returns a member of the [**PhysicalConnectorType**](/windows/win32/strmif/ne-strmif-tagphysicalconnectortype?branch=master) enumeration. For example, an S-Video pin returns the value PhysConn\_Video\_SVideo.
 
     The **get\_CrossbarInfo** method also indicates whether two pins are related to each other. For example, a video tuner pin might be related to an audio tuner pin. Related pins have the same pin direction, and are typically part of the same physical jack or connector on the card.
 
--   To determine whether you can route an input pin to a particular output pin, call the [**IAMCrossbar::CanRoute**](iamcrossbar-canroute.md) method.
--   To determine the current routing between pins, call the [**IAMCrossbar::get\_IsRoutedTo**](iamcrossbar-get-isroutedto.md) method.
+-   To determine whether you can route an input pin to a particular output pin, call the [**IAMCrossbar::CanRoute**](/windows/win32/Strmif/nf-strmif-iamcrossbar-canroute?branch=master) method.
+-   To determine the current routing between pins, call the [**IAMCrossbar::get\_IsRoutedTo**](/windows/win32/Strmif/nf-strmif-iamcrossbar-get_isroutedto?branch=master) method.
 
 The previous methods all specify pins by index number, with output pins and input pins both indexed from zero. Call the **IAMCrossbar::get\_PinCounts** method to find the number of pins on the filter.
 
@@ -161,7 +166,7 @@ Input pin 3 - Audio tuner
 
 On the output side, the S-Video and the video tuner are both related to the audio decoder. On the input side, the video tuner is related to the audio tuner, and the S-Video is related to the audio line in. The S-Video input is routed to the S-Video output; and the video tuner input is routed to the video tuner output. Currently nothing is routed to the audio decoder, but either the audio line in or the audio tuner could be routed to it.
 
-You can change the existing routing by calling the [**IAMCrossbar::Route**](iamcrossbar-route.md) method.
+You can change the existing routing by calling the [**IAMCrossbar::Route**](/windows/win32/Strmif/nf-strmif-iamcrossbar-route?branch=master) method.
 
  
 

@@ -1,14 +1,20 @@
 ---
 title: AverageLevel
 description: The AverageLevel attribute contains a 16-bit amplitude value designating the average volume level of audio content.
-ms.assetid: 'e6270ac8-5de3-4dee-824c-ba25fdd272c8'
-keywords: ["AverageLevel windows Media Format"]
+ms.assetid: e6270ac8-5de3-4dee-824c-ba25fdd272c8
+keywords:
+- AverageLevel windows Media Format
 topic_type:
 - apiref
 api_name:
 - AverageLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AverageLevel

@@ -1,7 +1,12 @@
 ---
 title: entry(entryid)
 description: Identifies the entry point in the DLL.
-ms.assetid: 'a193252c-b16b-40a4-886e-fecb71d89b3b'
+ms.assetid: a193252c-b16b-40a4-886e-fecb71d89b3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # entry(entryid)
@@ -25,7 +30,7 @@ Functions in a module (required).
 
 ## Remarks
 
-This attribute provides a way to obtain the address of a function in a module. This is typically done by calling [**ITypeInfo::AddressOfMember**](itypeinfo-addressofmember.md) or by using GetProcAddress from Windows.
+This attribute provides a way to obtain the address of a function in a module. This is typically done by calling [**ITypeInfo::AddressOfMember**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo-addressofmember?branch=master) or by using GetProcAddress from Windows.
 
 ## Related topics
 

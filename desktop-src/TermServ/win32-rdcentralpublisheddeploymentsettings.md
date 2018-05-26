@@ -4,11 +4,13 @@ description: Contains the deployment settings used to generate RDP files for res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6d1be0b2-e070-4c60-8068-b59ba121bf9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6d1be0b2-e070-4c60-8068-b59ba121bf9f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDCentralPublishedDeploymentSettings class Remote Desktop Services", "Win32_RDCentralPublishedDeploymentSettings class Remote Desktop Services , described"]
+keywords:
+- Win32_RDCentralPublishedDeploymentSettings class Remote Desktop Services
+- Win32_RDCentralPublishedDeploymentSettings class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDCentralPublishedDeploymentSettings class
@@ -51,26 +56,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [provider("Win32_TSCentralPublisher_Prov"), dynamic]
 class Win32_RDCentralPublishedDeploymentSettings : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   PublishingFarm;
-  sint32   Port;
-  string   FarmName;
-  sint32   GatewayUsage;
-  string   GatewayName;
-  sint32   GatewayAuthMode;
-  boolean  GatewayUseCachedCreds;
-  sint32   ColorBitDepth;
-  boolean  AllowFontSmoothing;
-  boolean  UseMultimon;
-  sint32   RedirectionOptions;
-  boolean  HasCertificate;
-  uint8    CertificateHash[];
-  string   CustomRDPSettings;
-  string   DeploymentRDPSettings;
+  string   Name;
+  string   Status;
+  string   PublishingFarm;
+  sint32   Port;
+  string   FarmName;
+  sint32   GatewayUsage;
+  string   GatewayName;
+  sint32   GatewayAuthMode;
+  boolean  GatewayUseCachedCreds;
+  sint32   ColorBitDepth;
+  boolean  AllowFontSmoothing;
+  boolean  UseMultimon;
+  sint32   RedirectionOptions;
+  boolean  HasCertificate;
+  uint8    CertificateHash[];
+  string   CustomRDPSettings;
+  string   DeploymentRDPSettings;
 };
 ```
 
@@ -590,16 +595,16 @@ Access type: Read/write
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>Tscpub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

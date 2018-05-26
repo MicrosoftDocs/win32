@@ -1,7 +1,7 @@
 ---
 title: Object Roles
 description: This topic describes the constant values used to describe the roles of various UI objects in an application.
-ms.assetid: 'f015252a-c0df-4a21-a995-ff2f6cafbab8'
+ms.assetid: f015252a-c0df-4a21-a995-ff2f6cafbab8
 topic_type:
 - apiref
 api_name:
@@ -73,6 +73,11 @@ api_location:
 - Oleacc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Roles
@@ -83,7 +88,7 @@ You should use only the listed role constants listed here; do not add custom rol
 
 Before using these object roles, developers of client applications must use the [Inspect](inspect-objects.md) tool to verify that object roles are being used by UI elements.
 
-To retrieve the role of an object, clients call the [**IAccessible::get\_accRole**](iaccessible-iaccessible--get-accrole.md) method, which must return one of the values described in the table. To retrieve a localized string that describes the object's role, clients call the [**GetRoleText**](getroletext.md) function with the role value. The localized strings for the role values are in the oleaccrc.dll file.
+To retrieve the role of an object, clients call the [**IAccessible::get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master) method, which must return one of the values described in the table. To retrieve a localized string that describes the object's role, clients call the [**GetRoleText**](/windows/win32/Oleacc/nf-oleacc-getroletexta?branch=master) function with the role value. The localized strings for the role values are in the oleaccrc.dll file.
 
 
 
@@ -166,9 +171,9 @@ To retrieve the role of an object, clients call the [**IAccessible::get\_accRole
 
 
 
- 
+ 
 
- 
+ 
 
 
 

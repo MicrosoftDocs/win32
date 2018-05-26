@@ -4,11 +4,13 @@ description: Exposes methods and properties that manage advanced settings of the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2d6848b4-2ce6-4624-b46e-65e7daf2d0f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2d6848b4-2ce6-4624-b46e-65e7daf2d0f1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientAdvancedSettings7 interface Remote Desktop Services", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7 interface
@@ -49,7 +54,7 @@ The **IMsRdpClientAdvancedSettings7** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,8 +62,8 @@ The **IMsRdpClientAdvancedSettings7** interface has these properties.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -90,9 +95,9 @@ The **IMsRdpClientAdvancedSettings7** interface has these properties.
 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

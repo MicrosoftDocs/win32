@@ -1,14 +1,20 @@
 ---
 title: GetDimensions function
 description: Returns the dimensions of the resource.
-ms.assetid: '64f2757e-c03c-4f72-b081-1c57656d6e95'
-keywords: ["GetDimensions function HLSL"]
+ms.assetid: 64f2757e-c03c-4f72-b081-1c57656d6e95
+keywords:
+- GetDimensions function HLSL
 topic_type:
 - apiref
 api_name:
 - GetDimensions
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDimensions function

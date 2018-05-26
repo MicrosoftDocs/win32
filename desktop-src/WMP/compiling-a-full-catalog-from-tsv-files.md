@@ -1,8 +1,26 @@
 ---
 title: Compiling a Full Catalog from TSV Files
 description: Compiling a Full Catalog from TSV Files
-ms.assetid: 'fba80b32-dc78-4c4a-a351-e8786f9a7131'
-keywords: ["Windows Media Player online stores,compiling catalogs", "online stores,compiling catalogs", "type 1 online stores,compiling catalogs", "Windows Media Player online stores,TSV files", "online stores,TSV files", "type 1 online stores,TSV files", "Windows Media Player online stores,catcomp.exe", "online stores,catcomp.exe", "type 1 online stores,catcomp.exe", "catcomp.exe", "compiling catalogs", "tab-separated-value (TSV) files", "TSV (tab-separated-value) files"]
+ms.assetid: fba80b32-dc78-4c4a-a351-e8786f9a7131
+keywords:
+- Windows Media Player online stores,compiling catalogs
+- online stores,compiling catalogs
+- type 1 online stores,compiling catalogs
+- Windows Media Player online stores,TSV files
+- online stores,TSV files
+- type 1 online stores,TSV files
+- Windows Media Player online stores,catcomp.exe
+- online stores,catcomp.exe
+- type 1 online stores,catcomp.exe
+- catcomp.exe
+- compiling catalogs
+- tab-separated-value (TSV) files
+- TSV (tab-separated-value) files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling a Full Catalog from TSV Files
@@ -68,7 +86,7 @@ If compilation is successful, catcomp.exe creates three output files.
 | File name                   | Description                                                                                                                                                                         |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | catalog.wmdb                | Uncompressed compiled catalog.                                                                                                                                                      |
-| catalog.wmdb.lz             | Catalog in compressed format. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](iwmpcontentpartner-getcatalogurl.md). |
+| catalog.wmdb.lz             | Catalog in compressed format. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl?branch=master). |
 | compiled\_unique\_words.txt | An intermediate output file. Not used by Windows Media Player.                                                                                                                      |
 
 

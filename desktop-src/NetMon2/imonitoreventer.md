@@ -1,7 +1,12 @@
 ---
-Description: 'The IMonitorEventer interface provides methods for submitting events and allocating and freeing monitor resources.'
-ms.assetid: 'd59a8b42-cce3-410b-a62e-97d66d058d90'
+Description: The IMonitorEventer interface provides methods for submitting events and allocating and freeing monitor resources.
+ms.assetid: d59a8b42-cce3-410b-a62e-97d66d058d90
 title: IMonitorEventer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitorEventer interface
@@ -28,7 +33,7 @@ The **IMonitorEventer** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -36,15 +41,15 @@ The **IMonitorEventer** interface has these methods.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

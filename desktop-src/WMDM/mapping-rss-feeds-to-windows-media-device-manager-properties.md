@@ -1,8 +1,19 @@
 ---
 title: Mapping RSS Feeds to Windows Media Device Manager Properties
 description: Mapping RSS Feeds to Windows Media Device Manager Properties
-ms.assetid: '354c98ab-1392-476f-a650-75b948dc971a'
-keywords: ["Windows Media Device Manager,RSS feeds", "Device Manager,RSS feeds", "programming guide,RSS feeds", "desktop applications,RSS feeds", "creating Windows Media Device Manager applications,RSS feeds", "RSS feeds"]
+ms.assetid: 354c98ab-1392-476f-a650-75b948dc971a
+keywords:
+- Windows Media Device Manager,RSS feeds
+- Device Manager,RSS feeds
+- programming guide,RSS feeds
+- desktop applications,RSS feeds
+- creating Windows Media Device Manager applications,RSS feeds
+- RSS feeds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping RSS Feeds to Windows Media Device Manager Properties

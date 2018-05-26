@@ -1,8 +1,9 @@
 ---
 title: Network.bufferingProgress
 description: The bufferingProgress property retrieves the percentage of buffering completed.
-ms.assetid: 'd604159b-7c42-47f8-8085-53f859f24703'
-keywords: ["Network.bufferingProgress Windows Media Player"]
+ms.assetid: d604159b-7c42-47f8-8085-53f859f24703
+keywords:
+- Network.bufferingProgress Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.bufferingProgress
@@ -92,9 +98,9 @@ function UpdateBP(){
 [**Player.URL**](player-url.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,23 @@
 ---
-Description: 'Specifies or returns a Boolean value that indicates whether computers running legacy operating systems are excluded. AD RMS support begins with Windows 2000.'
+Description: Specifies or returns a Boolean value that indicates whether computers running legacy operating systems are excluded. AD RMS support begins with Windows 2000.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '83175603-c3d4-4af0-819d-6f7c0d56441f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 83175603-c3d4-4af0-819d-6f7c0d56441f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExclusionPolicy.DisableLegacyWindowsVersions property'
+title: ExclusionPolicy.DisableLegacyWindowsVersions property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExclusionPolicy.DisableLegacyWindowsVersions property
 
 \[Note The DisableLegacyWindowsVersions property is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-The **DisableLegacyWindowsVersions** property specifies or returns a Boolean value that indicates whether computers running legacy operating systems are excluded. AD RMS support begins with Windows 2000.
+The **DisableLegacyWindowsVersions** property specifies or returns a Boolean value that indicates whether computers running legacy operating systems are excluded. AD RMS support begins with Windows 2000.
 
 ## Syntax
 
@@ -31,7 +34,7 @@ This property is read/write.
 
 ## Remarks
 
-The RMS version 1.0 client is supported on legacy operating systems that do not support NTLM authentication. To help enforce NTLM authentication, you can call the **DisableLegacyWindowsVersions** property to prevent users from consuming rights-protected content on computers that are running operating systems earlier than Windows 2000.
+The RMS version 1.0 client is supported on legacy operating systems that do not support NTLM authentication. To help enforce NTLM authentication, you can call the **DisableLegacyWindowsVersions** property to prevent users from consuming rights-protected content on computers that are running operating systems earlier than Windows 2000.
 
 ## Examples
 
@@ -103,9 +106,9 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
-| End of client support<br/>    | Windows Vista<br/>                                                                                                |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| End of client support<br/>    | Windows Vista<br/>                                                                                                |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -117,9 +120,9 @@ END FUNCTION
 [**ExclusionPolicy**](exclusionpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

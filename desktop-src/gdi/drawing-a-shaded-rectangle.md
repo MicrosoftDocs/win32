@@ -1,12 +1,17 @@
 ---
-Description: 'To draw a shaded rectangle, define a TRIVERTEX array with two elements and a single GRADIENT\_RECT structure. The following code example shows how to draw a shaded rectangle using the GradientFill function with the GRADIENT\_FILL\_RECT mode defined.'
-ms.assetid: 'a4277e22-03f8-470f-87e9-5aeab258b6d2'
+Description: To draw a shaded rectangle, define a TRIVERTEX array with two elements and a single GRADIENT\_RECT structure. The following code example shows how to draw a shaded rectangle using the GradientFill function with the GRADIENT\_FILL\_RECT mode defined.
+ms.assetid: a4277e22-03f8-470f-87e9-5aeab258b6d2
 title: Drawing a Shaded Rectangle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a Shaded Rectangle
 
-To draw a shaded rectangle, define a [**TRIVERTEX**](trivertex.md) array with two elements and a single [**GRADIENT\_RECT**](gradient-rect.md) structure. The following code example shows how to draw a shaded rectangle using the [**GradientFill**](gradientfill.md) function with the GRADIENT\_FILL\_RECT mode defined.
+To draw a shaded rectangle, define a [**TRIVERTEX**](/windows/win32/Wingdi/ns-wingdi-_trivertex?branch=master) array with two elements and a single [**GRADIENT\_RECT**](/windows/win32/Wingdi/ns-wingdi-_gradient_rect?branch=master) structure. The following code example shows how to draw a shaded rectangle using the [**GradientFill**](/windows/win32/WinGdi/nf-wingdi-gradientfill?branch=master) function with the GRADIENT\_FILL\_RECT mode defined.
 
 
 ```C++
@@ -57,16 +62,16 @@ The following image shows the drawing output of the preceding code example.
 [Drawing a Shaded Triangle](drawing-a-shaded-triangle.md)
 </dt> <dt>
 
-[**EMRGRADIENTFILL**](emrgradientfill.md)
+[**EMRGRADIENTFILL**](/windows/win32/Wingdi/ns-wingdi-tagemrgradientfill?branch=master)
 </dt> <dt>
 
-[**GRADIENT\_RECT**](gradient-rect.md)
+[**GRADIENT\_RECT**](/windows/win32/Wingdi/ns-wingdi-_gradient_rect?branch=master)
 </dt> <dt>
 
-[**GradientFill**](gradientfill.md)
+[**GradientFill**](/windows/win32/WinGdi/nf-wingdi-gradientfill?branch=master)
 </dt> <dt>
 
-[**TRIVERTEX**](trivertex.md)
+[**TRIVERTEX**](/windows/win32/Wingdi/ns-wingdi-_trivertex?branch=master)
 </dt> </dl>
 
  

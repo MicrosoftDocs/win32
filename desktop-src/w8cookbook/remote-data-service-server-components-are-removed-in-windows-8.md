@@ -1,8 +1,14 @@
 ---
 title: Remote data service server components are removed in Windows 8
 description: Remote data service server components are removed in Windows 8
-ms.assetid: '53ECB92C-8868-4A1A-82BD-4ADE75F7BB59'
-keywords: ["RDS server"]
+ms.assetid: 53ECB92C-8868-4A1A-82BD-4ADE75F7BB59
+keywords:
+- RDS server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote data service server components are removed in Windows 8

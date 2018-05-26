@@ -1,13 +1,16 @@
 ---
-Description: 'As with all applications, WMI receives error codes from the Windows operating system.'
+Description: As with all applications, WMI receives error codes from the Windows operating system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f54b8e7c-c531-47d5-bab8-780652b94555'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f54b8e7c-c531-47d5-bab8-780652b94555
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving an Error Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving an Error Code
@@ -66,11 +69,11 @@ Wscript.Echo Err.Number
 >
 > 
 >
->  
+>  
 
- 
+ 
 
-The following script shows use of an [**SWbemLastError**](swbemlasterror.md) object to obtain detailed error information. Note that not all providers supply information to **SWbemLastError**. For more information about error codes in script, see [WbemErrorEnum](wbemerrorenum.md).
+The following script shows use of an [**SWbemLastError**](swbemlasterror.md) object to obtain detailed error information. Note that not all providers supply information to **SWbemLastError**. For more information about error codes in script, see [WbemErrorEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemerrorenum?branch=master).
 
 
 ```VB
@@ -85,7 +88,7 @@ Wscript.Echo "Operation = " & LastError.operation & VBCRLF & "ParameterInfo = " 
 
 ## Handling an Error Using C++
 
-A WMI client application can receive either COM-specific or WMI-specific errors. The COM errors conform to the structure of COM error codes. All WMI interfaces can return a COM-specific error except the [**IWbemContext**](iwbemcontext.md), [**IWbemClassObject**](iwbemclassobject.md), and [**IWbemQualifierSet**](iwbemqualifierset.md) interfaces. For more information about COM error codes, see [Error Handling](_com_error_handling). The reference pages of the WMI interfaces list the appropriate WMI error codes in the Error Codes section.
+A WMI client application can receive either COM-specific or WMI-specific errors. The COM errors conform to the structure of COM error codes. All WMI interfaces can return a COM-specific error except the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master), [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master), and [**IWbemQualifierSet**](/windows/win32/Wbemcli/nn-wbemcli-iwbemqualifierset?branch=master) interfaces. For more information about COM error codes, see [Error Handling](_com_error_handling). The reference pages of the WMI interfaces list the appropriate WMI error codes in the Error Codes section.
 
 A client application must follow the COM standards for checking status and error return codes. The main difference you must choose is whether you wish to retrieve the error code from a synchronous, semisynchronous, or asynchronous call.
 
@@ -93,7 +96,7 @@ A client application must follow the COM standards for checking status and error
 
 1.  Retrieve the error information with a call to the [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) COM function.
 
-    Make sure to call [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](iwbemcallresult.md) methods you call while processing a semisynchronous process.
+    Make sure to call [GetErrorInfo]( http://go.microsoft.com/fwlink/p/?linkid=119575) immediately after an interface method indicates an error. This includes any of the [**IWbemCallResult**](/windows/win32/Wbemcli/nn-wbemcli-iwbemcallresult?branch=master) methods you call while processing a semisynchronous process.
 
 2.  Examine the returned COM error object with a call to the [**IErrorInterface::QueryInterface**](_com_iunknown_queryinterface) method.
 
@@ -104,11 +107,11 @@ WMI does not deliver the error object through [GetErrorInfo]( http://go.microsof
 > [!Note]  
 > Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).
 
- 
+ 
 
 **To access asynchronous error messages using C++**
 
--   Retrieve the COM error object from your implementation of [**IWbemObjectSink::SetStatus**](iwbemobjectsink-setstatus.md).
+-   Retrieve the COM error object from your implementation of [**IWbemObjectSink::SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master).
 
     The following pseudocode shows a typical error handling implementation for a client application.
 
@@ -132,9 +135,9 @@ WMI does not deliver the error object through [GetErrorInfo]( http://go.microsof
 
     
 
- 
+ 
 
- 
+ 
 
 
 

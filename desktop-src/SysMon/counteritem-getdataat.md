@@ -1,8 +1,11 @@
 ---
 title: CounterItem.GetDataAt method
 description: Retrieves the specified counter value from a specific point in the graph.
-ms.assetid: 'e8484301-4575-41ee-9c6d-a454eca0e82d'
-keywords: ["GetDataAt method SysMon", "GetDataAt method SysMon , CounterItem object", "CounterItem object SysMon , GetDataAt method"]
+ms.assetid: e8484301-4575-41ee-9c6d-a454eca0e82d
+keywords:
+- GetDataAt method SysMon
+- GetDataAt method SysMon , CounterItem object
+- CounterItem object SysMon , GetDataAt method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.GetDataAt method
@@ -44,7 +52,7 @@ Zero-based index of the graph point whose value you want to retrieve. Valid valu
 *which* \[in\]
 </dt> <dd>
 
-Type of counter value to retrieve, for example, the average value of the counter as displayed in the graph window. For possible values, see [**SysmonDataType**](sysmondatatype.md).
+Type of counter value to retrieve, for example, the average value of the counter as displayed in the graph window. For possible values, see [**SysmonDataType**](/windows/win32/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0002?branch=master).
 
 </dd> <dt>
 
@@ -72,8 +80,8 @@ Use this method only if
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -91,9 +99,9 @@ Use this method only if
 [**CounterItem.GetValue**](counteritem-getvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: sinh
 description: Returns the hyperbolic sine of the specified value.
-ms.assetid: '8a9e11a3-582f-4680-a5bd-ecde90560db3'
-keywords: ["sinh HLSL"]
+ms.assetid: 8a9e11a3-582f-4680-a5bd-ecde90560db3
+keywords:
+- sinh HLSL
 topic_type:
 - apiref
 api_name:
 - sinh
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sinh
@@ -22,7 +28,7 @@ Returns the hyperbolic sine of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the hyperbolic sine of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The hyperbolic sine of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

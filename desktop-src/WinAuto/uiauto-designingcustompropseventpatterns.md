@@ -1,8 +1,25 @@
 ---
 title: Designing Custom Properties, Events, and Control Patterns
 description: The design of a custom property, event, or control pattern should be useful in a wide variety of control implementations.
-ms.assetid: 'e4b224a0-3958-4ae7-96cb-fe6dc16511a7'
-keywords: ["UI Automation,custom properties", "UI Automation,events overview", "UI Automation,control patterns overview", "UI Automation,designing custom properties", "UI Automation,designing events", "UI Automation,designing control patterns", "UI Automation,WinEvents", "custom properties,designing", "events,designing", "events,WinEvents", "control patterns,designing", "WinEvents"]
+ms.assetid: e4b224a0-3958-4ae7-96cb-fe6dc16511a7
+keywords:
+- UI Automation,custom properties
+- UI Automation,events overview
+- UI Automation,control patterns overview
+- UI Automation,designing custom properties
+- UI Automation,designing events
+- UI Automation,designing control patterns
+- UI Automation,WinEvents
+- custom properties,designing
+- events,designing
+- events,WinEvents
+- control patterns,designing
+- WinEvents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Custom Properties, Events, and Control Patterns
@@ -35,7 +52,7 @@ UI Automation includes two basic types of properties: automation element propert
 
 A custom automation element property or control pattern property should adhere to the following design guidelines:
 
--   A custom property must have one of the following data types specified by the [**UIAutomationType**](uiauto-uiautomationtypeenum.md) enumeration. No other data types are supported for custom properties.
+-   A custom property must have one of the following data types specified by the [**UIAutomationType**](/windows/win32/UIAutomationCore/ne-uiautomationcore-uiautomationtype?branch=master) enumeration. No other data types are supported for custom properties.
     -   **UIAutomationType\_Bool**
     -   **UIAutomationType\_Double**
     -   **UIAutomationType\_Element**

@@ -1,7 +1,12 @@
 ---
 title: Memory Management Strategies
 description: A memory manager for Direct3D 12 could get very complicated quickly with all the different tiers of support, for UMA or discreet (non-UMA) adapters, and with a considerable range of architecture differences between GPU adapters.The recommended strategy for Direct3D 12 memory management , described in this section, is \ 0034;classify, budget and stream \ 0034;.
-ms.assetid: 'BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8'
+ms.assetid: BC9894F7-D496-46F2-A5C3-C7CA31FD4BA8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management Strategies
@@ -23,9 +28,9 @@ In addition to committed resources, the heap construct of Direct3D 12 enables tw
 
 Reserved resources differ from placed resources in that reserved resources have their own unique GPU virtual address space. This allows a large allocation of VA space up front and then enables mapping of VA pages to certain sections of the heap later, and the application reconfigures the arrangement on the fly. The VA space is contiguous, and can be sparsely mapped to.
 
-The reserved resource can be made to reference regions in the heap with API calls such as [**UpdateTileMappings**](id3d12commandqueue-updatetilemappings.md) and they can be made resident by the app by updating page tables on the fly. When a VA range is mapped to NULL or a non-resident heap, that portion of the resource is considered non-resident. When a VA range is mapped to a resident heap, that portion of the resource is considered resident. Heaps are resident upon creation.
+The reserved resource can be made to reference regions in the heap with API calls such as [**UpdateTileMappings**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings?branch=master) and they can be made resident by the app by updating page tables on the fly. When a VA range is mapped to NULL or a non-resident heap, that portion of the resource is considered non-resident. When a VA range is mapped to a resident heap, that portion of the resource is considered resident. Heaps are resident upon creation.
 
-Placed resources are a much simpler design, being simply a pointer to a certain region of a heap (for example, a 1Mb region for a texture in a 5Mb heap). Aliasing barriers enable the use of overlapping placed resources (refer to [**CreatePlacedResource**](id3d12device-createplacedresource.md) and [**ResourceBarrier**](id3d12graphicscommandlist-resourcebarrier.md)).
+Placed resources are a much simpler design, being simply a pointer to a certain region of a heap (for example, a 1Mb region for a texture in a 5Mb heap). Aliasing barriers enable the use of overlapping placed resources (refer to [**CreatePlacedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createplacedresource?branch=master) and [**ResourceBarrier**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)).
 
 Reserved resources are not available on all Direct3D 12 hardware, and placed resources are a reasonable fallback, though placed resources must be contiguous and cannot be partially resident.
 
@@ -56,7 +61,7 @@ In order to manage resources effectively in memory bound scenarios, consider cla
 
 
 
- 
+ 
 
 The more applications gravitate to streaming resources for most of the work, the more they will leverage placed and reserved resources, which will maximize memory re-use between these four classifications. The more applications stream, the more they budget and prioritize bandwidth.
 
@@ -68,10 +73,10 @@ Other problem areas are middleware components, user controls, and intra-frame st
 
 <dl> <dt>
 
-[**CreateCommittedResource**](id3d12device-createcommittedresource.md)
+[**CreateCommittedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master)
 </dt> <dt>
 
-[**CreateReservedResource**](id3d12device-createreservedresource.md)
+[**CreateReservedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createreservedresource?branch=master)
 </dt> <dt>
 
 [Direct3D 12 Programming Guide](directx-12-programming-guide.md)
@@ -83,9 +88,9 @@ Other problem areas are middleware components, user controls, and intra-frame st
 [Resource Binding](resource-binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

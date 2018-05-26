@@ -1,7 +1,12 @@
 ---
-Description: 'The Remove method removes the item at the specified position.'
-ms.assetid: 'a7b8f6fb-f13a-4c24-aa18-463446602e29'
-title: 'CGenericList.Remove method'
+Description: The Remove method removes the item at the specified position.
+ms.assetid: a7b8f6fb-f13a-4c24-aa18-463446602e29
+title: CGenericList.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.Remove method
@@ -13,7 +18,7 @@ The `Remove` method removes the item at the specified position.
 
 ```C++
 OBJECT* Remove(
-   POSITION pos
+   POSITION pos
 );
 ```
 
@@ -58,9 +63,9 @@ If *pos* is **NULL**, the method returns **NULL**.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

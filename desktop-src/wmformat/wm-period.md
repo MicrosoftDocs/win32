@@ -1,14 +1,20 @@
 ---
 title: WM/Period
 description: The WM/Period attribute contains the period of the content.
-ms.assetid: '16c9d862-8d38-40cc-ae04-178cdea1f750'
-keywords: ["WM/Period windows Media Format"]
+ms.assetid: 16c9d862-8d38-40cc-ae04-178cdea1f750
+keywords:
+- WM/Period windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Period
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Period

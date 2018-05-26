@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InitErrorCode property is a value that specifies the last error code that the fax routing extension returned while the fax service was loading and initializing the fax routing extension''s DLL.'
-ms.assetid: '566c146d-57e2-4043-a221-cc134994690d'
-title: 'FaxInboundRoutingExtension.InitErrorCode property'
+---
+Description: The InitErrorCode property is a value that specifies the last error code that the fax routing extension returned while the fax service was loading and initializing the fax routing extensions DLL.
+ms.assetid: 566c146d-57e2-4043-a221-cc134994690d
+title: FaxInboundRoutingExtension.InitErrorCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.InitErrorCode property
@@ -50,7 +55,7 @@ The error code may be an HRESULT value or a Win32 error code.
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

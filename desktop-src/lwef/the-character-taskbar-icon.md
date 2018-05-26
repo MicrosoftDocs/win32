@@ -1,7 +1,12 @@
 ---
 title: The Character Taskbar Icon
 description: The Character Taskbar Icon
-ms.assetid: 'b1db7151-b367-4708-897e-0695988163e8'
+ms.assetid: b1db7151-b367-4708-897e-0695988163e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Character Taskbar Icon

@@ -2,13 +2,19 @@
 title: int attribute
 description: The keyword int specifies a 32-bit signed integer on 32-bit platforms. On 16-bit platforms, the keyword int is an optional keyword that can accompany the keywords small, short, and long.
 ms.assetid: ad6ce0ff-e87b-4701-b9d2-a69c34e0339b
-keywords: ["int attribute MIDL"]
+keywords:
+- int attribute MIDL
 topic_type:
 - apiref
 api_name:
 - int
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # int attribute

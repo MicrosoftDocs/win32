@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the strings used in an access control entry.'
-ms.assetid: '82c99170-784b-4724-a25b-2f2e8a2e0225'
+Description: Explains the strings used in an access control entry.
+ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: ACE Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACE Strings
@@ -13,7 +18,7 @@ As shown in the [Security Descriptor String Format](security-descriptor-string-f
 > [!Note]  
 > There is a different format for conditional [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) than other ACE types. For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
- 
+ 
 
 ``` syntax
 ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_attribute)
@@ -26,7 +31,7 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 <span id="ace_type"></span><span id="ACE_TYPE"></span>**ace\_type**
 </dt> <dd>
 
-A string that indicates the value of the **AceType** member of the [**ACE\_HEADER**](ace-header.md) structure. The ACE type string can be one of the following strings defined in Sddl.h.
+A string that indicates the value of the **AceType** member of the [**ACE\_HEADER**](/windows/win32/Winnt/ns-winnt-_ace_header?branch=master) structure. The ACE type string can be one of the following strings defined in Sddl.h.
 
 
 
@@ -41,28 +46,28 @@ A string that indicates the value of the **AceType** member of the [**ACE\_HEADE
 | "OU"            | SDDL\_OBJECT\_AUDIT                     | SYSTEM\_AUDIT\_OBJECT\_ACE\_TYPE                                                                                                                                   |
 | "OL"            | SDDL\_OBJECT\_ALARM                     | SYSTEM\_ALARM\_OBJECT\_ACE\_TYPE                                                                                                                                   |
 | "ML"            | SDDL\_MANDATORY\_LABEL                  | SYSTEM\_MANDATORY\_LABEL\_ACE\_TYPE                                                                                                                                |
-| "XA"            | SDDL\_CALLBACK\_ACCESS\_ALLOWED         | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE**Windows Vista and Windows Server 2003:** Not available.<br/>                                                           |
-| "XD"            | SDDL\_CALLBACK\_ACCESS\_DENIED          | ACCESS\_DENIED\_CALLBACK\_ACE\_TYPE**Windows Vista and Windows Server 2003:** Not available.<br/>                                                            |
-| "RA"            | SDDL\_RESOURCE\_ATTRIBUTE               | SYSTEM\_RESOURCE\_ATTRIBUTE\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/> |
-| "SP"            | SDDL\_SCOPED\_POLICY\_ID                | SYSTEM\_SCOPED\_POLICY\_ID\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>  |
-| "XU"            | SDDL\_CALLBACK\_AUDIT                   | SYSTEM\_AUDIT\_CALLBACK\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>     |
-| "ZA"            | SDDL\_CALLBACK\_OBJECT\_ACCESS\_ALLOWED | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>   |
+| "XA"            | SDDL\_CALLBACK\_ACCESS\_ALLOWED         | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE**Windows Vista and Windows Server 2003:** Not available.<br/>                                                           |
+| "XD"            | SDDL\_CALLBACK\_ACCESS\_DENIED          | ACCESS\_DENIED\_CALLBACK\_ACE\_TYPE**Windows Vista and Windows Server 2003:** Not available.<br/>                                                            |
+| "RA"            | SDDL\_RESOURCE\_ATTRIBUTE               | SYSTEM\_RESOURCE\_ATTRIBUTE\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/> |
+| "SP"            | SDDL\_SCOPED\_POLICY\_ID                | SYSTEM\_SCOPED\_POLICY\_ID\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>  |
+| "XU"            | SDDL\_CALLBACK\_AUDIT                   | SYSTEM\_AUDIT\_CALLBACK\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>     |
+| "ZA"            | SDDL\_CALLBACK\_OBJECT\_ACCESS\_ALLOWED | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>   |
 
 
 
- 
+ 
 
 > [!Note]  
-> If **ace\_type** is ACCESS\_ALLOWED\_OBJECT\_ACE\_TYPE and neither **object\_guid** nor **inherit\_object\_guid** has a [**GUID**](https://msdn.microsoft.com/library/windows/desktop/aa373931) specified, then [**ConvertStringSecurityDescriptorToSecurityDescriptor**](convertstringsecuritydescriptortosecuritydescriptor.md) converts **ace\_type** to ACCESS\_ALLOWED\_ACE\_TYPE.
+> If **ace\_type** is ACCESS\_ALLOWED\_OBJECT\_ACE\_TYPE and neither **object\_guid** nor **inherit\_object\_guid** has a [**GUID**](https://msdn.microsoft.com/library/windows/desktop/aa373931) specified, then [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora?branch=master) converts **ace\_type** to ACCESS\_ALLOWED\_ACE\_TYPE.
 
- 
+ 
 
 </dd> <dt>
 
 <span id="ace_flags"></span><span id="ACE_FLAGS"></span>**ace\_flags**
 </dt> <dd>
 
-A string that indicates the value of the **AceFlags** member of the [**ACE\_HEADER**](ace-header.md) structure. The ACE flags string can be a concatenation of the following strings defined in Sddl.h.
+A string that indicates the value of the **AceFlags** member of the [**ACE\_HEADER**](/windows/win32/Winnt/ns-winnt-_ace_header?branch=master) structure. The ACE flags string can be a concatenation of the following strings defined in Sddl.h.
 
 
 
@@ -78,7 +83,7 @@ A string that indicates the value of the **AceFlags** member of the [**ACE\_HEAD
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -277,14 +282,14 @@ SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP
 
 
 
- 
+ 
 
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**object\_guid**
 </dt> <dd>
 
-A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](access-allowed-object-ace.md). The GUID string uses the format returned by the [**UuidToString**](https://msdn.microsoft.com/library/windows/desktop/aa379352) function.
+A string representation of a GUID that indicates the value of the **ObjectType** member of an object-specific ACE structure, such as [**ACCESS\_ALLOWED\_OBJECT\_ACE**](/windows/win32/Winnt/ns-winnt-_access_allowed_object_ace?branch=master). The GUID string uses the format returned by the [**UuidToString**](https://msdn.microsoft.com/library/windows/desktop/aa379352) function.
 
 The following table lists some commonly used object GUIDs.
 
@@ -297,7 +302,7 @@ The following table lists some commonly used object GUIDs.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -322,7 +327,7 @@ A string representation of a GUID that indicates the value of the **InheritedObj
 
 The "\#" sign is synonymous with "0" in resource attributes. For example, D:AI(XA;OICI;FA;;;WD;(OctetStringType==\#1\#2\#3\#\#)) is equivalent to and interpreted as D:AI(XA;OICI;FA;;;WD;(OctetStringType==\#01020300)).
 
-**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Resource attributes are not available.
+**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Resource attributes are not available.
 
 
 
@@ -337,7 +342,7 @@ The "\#" sign is synonymous with "0" in resource attributes. For example, D:AI(X
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -399,9 +404,9 @@ For more information, see [Security Descriptor String Format](security-descripto
 [\[MS-DTYP\]: Security Descriptor Description Language](http://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

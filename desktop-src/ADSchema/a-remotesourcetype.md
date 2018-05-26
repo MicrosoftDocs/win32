@@ -4,17 +4,22 @@ description: Type of pointer to foreign object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9d0c2624-4f46-4155-83f5-0c163d03a257'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9d0c2624-4f46-4155-83f5-0c163d03a257
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Remote-Source-Type attribute AD Schema", "remoteSourceType attribute AD Schema"]
+keywords:
+- Remote-Source-Type attribute AD Schema
+- remoteSourceType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Remote-Source-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote-Source-Type attribute
@@ -38,12 +43,12 @@ Type of pointer to foreign object.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Type of pointer to foreign object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IsapiRequestThresholdFactor
 description: IsapiRequestThresholdFactor
-ms.assetid: '5317e5d5-9cb3-4746-878c-730acfd1f2a6'
+ms.assetid: 5317e5d5-9cb3-4746-878c-730acfd1f2a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiRequestThresholdFactor

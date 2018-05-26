@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes the filter. Called by Windows Image Acquisition (WIA) 2.0 before each image download.'
-ms.assetid: '0487900d-2103-4314-b18d-58ff97d6f524'
-title: 'IWiaImageFilter::InitializeFilter method'
+---
+Description: Initializes the filter. Called by Windows Image Acquisition (WIA) 2.0 before each image download.
+ms.assetid: 0487900d-2103-4314-b18d-58ff97d6f524
+title: IWiaImageFilterInitializeFilter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaImageFilter::InitializeFilter method

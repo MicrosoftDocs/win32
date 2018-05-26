@@ -1,7 +1,12 @@
 ---
 title: COM Objects and Interfaces
 description: COM Objects and Interfaces
-ms.assetid: 'a3b78086-0f02-4b3f-a856-46bfcf4457f4'
+ms.assetid: a3b78086-0f02-4b3f-a856-46bfcf4457f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Objects and Interfaces

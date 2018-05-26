@@ -4,11 +4,14 @@ description: Revokes the Remote Desktop Services Per Device client access licens
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b1eb7448-5d8e-4c2d-ba52-9363e8e0297a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b1eb7448-5d8e-4c2d-ba52-9363e8e0297a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Revoke method Remote Desktop Services", "Revoke method Remote Desktop Services , Win32_TSIssuedLicense class", "Win32_TSIssuedLicense class Remote Desktop Services , Revoke method"]
+keywords:
+- Revoke method Remote Desktop Services
+- Revoke method Remote Desktop Services , Win32_TSIssuedLicense class
+- Win32_TSIssuedLicense class Remote Desktop Services , Revoke method
 topic_type:
 - apiref
 api_name:
@@ -17,19 +20,22 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Revoke method of the Win32\_TSIssuedLicense class
 
-Revokes the Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) that are represented by the [**Win32\_TSIssuedLicense**](win32-tsissuedlicense.md) object. This is not a static function.
+Revokes the Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) that are represented by the [**Win32\_TSIssuedLicense**](win32-tsissuedlicense.md) object. This is not a static function.
 
 ## Syntax
 
 
 ```mof
 uint32 Revoke(
-  [out] uint32   RevokableCals,
-  [out] DATETIME NextRevokeAllowedOn
+  [out] uint32   RevokableCals,
+  [out] DATETIME NextRevokeAllowedOn
 );
 ```
 
@@ -42,7 +48,7 @@ uint32 Revoke(
 *RevokableCals* \[out\]
 </dt> <dd>
 
-Number of RDS CALs of the same type as the current object that can be revoked.
+Number of RDS CALs of the same type as the current object that can be revoked.
 
 </dd> <dt>
 
@@ -57,7 +63,7 @@ Date that the administrator can next try to revoke licenses. This parameter only
 
 You must be a member of the Administrators group to call this method.
 
-Only RDS Per Device CALs can be revoked.
+Only RDS Per Device CALs can be revoked.
 
 Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/aa823192).
 
@@ -68,7 +74,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSIssuedLicense**](win32-tsissuedlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

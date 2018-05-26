@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerResourceRecordMX class
 description: Add a mail exchanger (MX) resource record.
 audience: developer
-ms.assetid: 'b02c4e5c-b048-4970-ab90-d64a9ed0e032'
-ms.prod: 'windows-server-dev'
+ms.assetid: b02c4e5c-b048-4970-ab90-d64a9ed0e032
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerResourceRecordMX class", "PS_DnsServerResourceRecordMX class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerResourceRecordMX class
+- PS_DnsServerResourceRecordMX class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerResourceRecordMX class
@@ -28,18 +34,18 @@ Add a mail exchanger (MX) resource record.
 
 ```mof
 uint32 Add(
-  [in]  string                  Name,
-  [in]  string                  MailExchange,
-  [in]  uint16                  Preference,
-  [in]  string                  ComputerName,
-  [in]  datetime                TimeToLive,
-  [in]  string                  ZoneName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  Name,
+  [in]  string                  MailExchange,
+  [in]  uint16                  Preference,
+  [in]  string                  ComputerName,
+  [in]  datetime                TimeToLive,
+  [in]  string                  ZoneName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -117,7 +123,7 @@ Allows any authenticated user to update DNS record with same owner name.
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -126,7 +132,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -144,7 +150,7 @@ Receives and embedded instance of the [**DnsServerResourceRecordMX**](dnsserverr
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -158,9 +164,9 @@ Receives and embedded instance of the [**DnsServerResourceRecordMX**](dnsserverr
 [**PS\_DnsServerResourceRecordMX**](ps-dnsserverresourcerecordmx.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

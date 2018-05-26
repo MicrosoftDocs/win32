@@ -4,17 +4,22 @@ description: Full path of the Deleted directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8fb702a5-abd1-494c-980b-af90385bfd9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8fb702a5-abd1-494c-980b-af90385bfd9c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-DeletedPath attribute AD Schema", "msDFSR-DeletedPath attribute AD Schema"]
+keywords:
+- ms-DFSR-DeletedPath attribute AD Schema
+- msDFSR-DeletedPath attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-DeletedPath
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-DeletedPath attribute
@@ -38,9 +43,9 @@ Full path of the Deleted directory.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Full path of the Deleted directory.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

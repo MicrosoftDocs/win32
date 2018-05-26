@@ -1,8 +1,11 @@
 ---
 title: IRangeList CardinalityFrom method
 description: Counts the members in the message range list that are larger than the specified starting point.
-ms.assetid: '8d7a7ba0-49b7-40c3-8bcb-96a5f67192d7'
-keywords: ["CardinalityFrom method Windows Mail (formerly Outlook Express)", "CardinalityFrom method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , CardinalityFrom method"]
+ms.assetid: 8d7a7ba0-49b7-40c3-8bcb-96a5f67192d7
+keywords:
+- CardinalityFrom method Windows Mail (formerly Outlook Express)
+- CardinalityFrom method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , CardinalityFrom method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::CardinalityFrom method
@@ -24,8 +32,8 @@ Counts the members in the message range list that are larger than the specified 
 
 ```C++
 HRESULT CardinalityFrom(
-  [in]  const ULONG ulStartPoint,
-  [out]       ULONG *pulCardinalityFrom
+  [in]  const ULONG ulStartPoint,
+  [out]       ULONG *pulCardinalityFrom
 );
 ```
 
@@ -61,7 +69,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-For example, for the range list "10–20,31,44,50–65", **CardinalityFrom**(43) returns 17. To include 44 in the count, a starting point number one less than 44 (that is, 43) is passed to the method.
+For example, for the range list "10 20,31,44,50 65", **CardinalityFrom**(43) returns 17. To include 44 in the count, a starting point number one less than 44 (that is, 43) is passed to the method.
 
 ## Requirements
 
@@ -69,8 +77,8 @@ For example, for the range list "10–20,31,44,50–65", **CardinalityFrom**(43) ret
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -78,9 +86,9 @@ For example, for the range list "10–20,31,44,50–65", **CardinalityFrom**(43) ret
 
 
 
- 
+ 
 
- 
+ 
 
 
 

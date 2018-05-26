@@ -4,13 +4,15 @@ description: Represents an SMB bandwidth limit, which is used to throttle SMB tr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'DEF282BB-F642-4F34-B51D-B5237E86BE3A'
-ms.prod: 'windows-server-dev'
+ms.assetid: DEF282BB-F642-4F34-B51D-B5237E86BE3A
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbBandwidthLimit class SMB", "MSFT_SmbBandwidthLimit class SMB , described"]
+keywords:
+- MSFT_SmbBandwidthLimit class SMB
+- MSFT_SmbBandwidthLimit class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbBandwidthLimit class
@@ -59,7 +64,7 @@ The **MSFT\_SmbBandwidthLimit** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -137,8 +142,8 @@ LiveMigration.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -152,9 +157,9 @@ LiveMigration.
 [SMB Management API](smb-management-api-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

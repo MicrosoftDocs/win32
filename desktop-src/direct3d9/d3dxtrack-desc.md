@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes an animation track and specifies blending weight, speed, and position for the track at a given time.'
-ms.assetid: 'f1469b6f-861f-4b7d-a187-933092a5d257'
-title: 'D3DXTRACK\_DESC structure'
+---
+Description: Describes an animation track and specifies blending weight, speed, and position for the track at a given time.
+ms.assetid: f1469b6f-861f-4b7d-a187-933092a5d257
+title: D3DXTRACK\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXTRACK\_DESC structure

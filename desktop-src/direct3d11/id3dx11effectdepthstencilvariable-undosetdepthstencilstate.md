@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectDepthStencilVariable UndoSetDepthStencilState method
 description: Reverts a previously set depth stencil state.
-ms.assetid: '558bc777-a520-4235-84d3-db2d9f1ce4b6'
-keywords: ["UndoSetDepthStencilState method Direct3D 11", "UndoSetDepthStencilState method Direct3D 11 , ID3DX11EffectDepthStencilVariable interface", "ID3DX11EffectDepthStencilVariable interface Direct3D 11 , UndoSetDepthStencilState method"]
+ms.assetid: 558bc777-a520-4235-84d3-db2d9f1ce4b6
+keywords:
+- UndoSetDepthStencilState method Direct3D 11
+- UndoSetDepthStencilState method Direct3D 11 , ID3DX11EffectDepthStencilVariable interface
+- ID3DX11EffectDepthStencilVariable interface Direct3D 11 , UndoSetDepthStencilState method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectDepthStencilVariable::UndoSetDepthStencilState method
@@ -23,7 +31,7 @@ Reverts a previously set depth stencil state.
 
 ```C++
 HRESULT UndoSetDepthStencilState(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -53,7 +61,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectDepthStencilVariable](id3dx11effectdepthstencilvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

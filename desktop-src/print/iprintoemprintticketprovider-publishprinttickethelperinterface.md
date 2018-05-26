@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.'
-ms.assetid: 'd7512da3-eb47-4e22-9df8-b152b39cbcad'
-title: 'IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method'
+---
+Description: The IPrintOemPrintTicketProviderPublishPrintTicketHelperInterface method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
+ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
+title: IPrintOemPrintTicketProviderPublishPrintTicketHelperInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method

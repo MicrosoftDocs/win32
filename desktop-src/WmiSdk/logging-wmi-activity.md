@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI log files are no longer supported.'
+Description: The WMI log files are no longer supported.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4ba80063-7aa6-42df-a620-1b366b795034'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4ba80063-7aa6-42df-a620-1b366b795034
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Logging WMI Activity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Logging WMI Activity

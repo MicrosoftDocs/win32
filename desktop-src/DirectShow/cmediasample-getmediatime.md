@@ -1,20 +1,25 @@
 ---
-Description: 'The GetMediaTime method retrieves the media times for this sample. This method implements the IMediaSample::GetMediaTime method.'
-ms.assetid: 'f58a2162-5764-48f2-8984-ee4bba1229ab'
-title: 'CMediaSample.GetMediaTime method'
+Description: The GetMediaTime method retrieves the media times for this sample. This method implements the IMediaSampleGetMediaTime method.
+ms.assetid: f58a2162-5764-48f2-8984-ee4bba1229ab
+title: CMediaSample.GetMediaTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.GetMediaTime method
 
-The `GetMediaTime` method retrieves the media times for this sample. This method implements the [**IMediaSample::GetMediaTime**](imediasample-getmediatime.md) method.
+The `GetMediaTime` method retrieves the media times for this sample. This method implements the [**IMediaSample::GetMediaTime**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatime?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetMediaTime(
-   LONGLONG *pStart,
-   LONGLONG *pEnd
+   LONGLONG *pStart,
+   LONGLONG *pEnd
 );
 ```
 
@@ -51,7 +56,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ For information about media times, see [Time and Clocks in DirectShow](time-and-
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

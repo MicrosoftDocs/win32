@@ -1,7 +1,12 @@
 ---
-Description: 'Department name of the contact.'
-ms.assetid: '84b22284-553e-4144-80af-d5cdfdc77e9e'
-title: 'System.Contact.Department'
+Description: Department name of the contact.
+ms.assetid: 84b22284-553e-4144-80af-d5cdfdc77e9e
+title: System.Contact.Department
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Department

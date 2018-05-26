@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.'
-ms.assetid: '67A296B3-5D59-475E-9026-EDAB90C8E3DD'
+---
+Description: Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.
+ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
 title: BranchOfficeJobDataRendered structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeJobDataRendered structure

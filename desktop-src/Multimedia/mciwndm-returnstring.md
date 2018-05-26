@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_RETURNSTRING message
 description: The MCIWNDM\_RETURNSTRING message retrieves the reply to the most recent MCI string command sent to an MCI device.
-ms.assetid: '36a5222c-a63c-4b8c-ad0c-a00477e95b96'
-keywords: ["MCIWNDM_RETURNSTRING message Windows Multimedia"]
+ms.assetid: 36a5222c-a63c-4b8c-ad0c-a00477e95b96
+keywords:
+- MCIWNDM_RETURNSTRING message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_RETURNSTRING message
 
-The **MCIWNDM\_RETURNSTRING** message retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can send this message explicitly or by using the [**MCIWndReturnString**](mciwndreturnstring.md) macro.
+The **MCIWNDM\_RETURNSTRING** message retrieves the reply to the most recent MCI string command sent to an MCI device. Information in the reply is supplied as a null-terminated string. You can send this message explicitly or by using the [**MCIWndReturnString**](/windows/win32/Vfw/nf-vfw-mciwndreturnstring?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ If the null-terminated string is longer than the buffer, the string is truncated
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ If the null-terminated string is longer than the buffer, the string is truncated
 
 <dl> <dt>
 
-[**MCIWndReturnString**](mciwndreturnstring.md)
+[**MCIWndReturnString**](/windows/win32/Vfw/nf-vfw-mciwndreturnstring?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

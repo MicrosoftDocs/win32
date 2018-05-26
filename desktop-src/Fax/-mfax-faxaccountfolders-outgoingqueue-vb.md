@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the queue of outgoing faxes for a particular fax account. These are the faxes that have not yet been sent.'
-ms.assetid: 'ffda6bad-4723-40c7-ae25-4f5f9f72f3fb'
-title: 'FaxAccountFolders.OutgoingQueue property'
+---
+Description: Represents the queue of outgoing faxes for a particular fax account. These are the faxes that have not yet been sent.
+ms.assetid: ffda6bad-4723-40c7-ae25-4f5f9f72f3fb
+title: FaxAccountFolders.OutgoingQueue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountFolders.OutgoingQueue property
@@ -21,7 +26,7 @@ Property OutgoingQueue As IFaxAccountOutgoingQueue
 
 ## Property value
 
-A variable of type [**IFaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue-cpp.md) that receives a [**FaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue.md) object.
+A variable of type [**IFaxAccountOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingqueue?branch=master) that receives a [**FaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue.md) object.
 
 ## Requirements
 
@@ -43,7 +48,7 @@ A variable of type [**IFaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue-
 [**FaxAccountFolders**](-mfax-faxaccountfolders.md)
 </dt> <dt>
 
-[**IFaxAccountFolders**](-mfax-faxaccountfolders-cpp.md)
+[**IFaxAccountFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountfolders?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.multiSelect
 description: The multiSelect attribute specifies or retrieves a value indicating whether the user can select multiple lines. Can only be set at design time.
-ms.assetid: 'ccbf47c7-8351-4b8c-8d9d-00dc811d4ae0'
-keywords: ["LISTBOX.multiSelect Windows Media Player"]
+ms.assetid: ccbf47c7-8351-4b8c-8d9d-00dc811d4ae0
+keywords:
+- LISTBOX.multiSelect Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.multiSelect
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.multiSelect
@@ -32,7 +38,7 @@ This attribute is a **Boolean** specified at design time and read-only thereafte
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a **Boolean** specified at design time and read-only thereafte
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.wordWrap
 description: The wordWrap attribute specifies or retrieves a value indicating whether word wrap is enabled.
-ms.assetid: '027817f0-e077-4db5-8216-f9a9f41fd210'
-keywords: ["EDITBOX.wordWrap Windows Media Player"]
+ms.assetid: 027817f0-e077-4db5-8216-f9a9f41fd210
+keywords:
+- EDITBOX.wordWrap Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.wordWrap
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.wordWrap
@@ -49,9 +55,9 @@ If word wrap is disabled, and the text does not fit in the control, the text is 
 [**EDITBOX.editStyle**](editbox-editstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

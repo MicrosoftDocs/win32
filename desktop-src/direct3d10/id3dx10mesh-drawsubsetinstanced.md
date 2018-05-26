@@ -1,7 +1,12 @@
-﻿---
-Description: 'Draw several instances of the same subset of a mesh.'
-ms.assetid: '2a17ecdb-c6f3-401c-b7ed-8a42fe159de0'
-title: 'ID3DX10Mesh::DrawSubsetInstanced method'
+---
+Description: Draw several instances of the same subset of a mesh.
+ms.assetid: 2a17ecdb-c6f3-401c-b7ed-8a42fe159de0
+title: ID3DX10MeshDrawSubsetInstanced method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::DrawSubsetInstanced method
@@ -76,7 +81,7 @@ A mesh contains an attribute table. The attribute table can divide a mesh into s
 
 Instancing may extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be to draw the same object with different positions and colors. Indexing requires multiple vertex buffers: at least one for per-vertex data and a second buffer for per-instance data.
 
-Drawing instances with DrawSubsetInstanced is very similar to the process used with [**ID3D10Device::DrawIndexedInstanced**](id3d10device-drawindexedinstanced.md) that is outlined in [Instancing Sample](c3d54072-1deb-324f-2e02-e048a4a438a0). The key difference when using DrawSubsetInstanced is that vertex and index buffers must be extracted from the [**ID3DX10Mesh Interface**](id3dx10mesh.md) object before the instancing data can be combined.
+Drawing instances with DrawSubsetInstanced is very similar to the process used with [**ID3D10Device::DrawIndexedInstanced**](/windows/win32/D3D10/nf-d3d10-id3d10device-drawindexedinstanced?branch=master) that is outlined in [Instancing Sample](c3d54072-1deb-324f-2e02-e048a4a438a0). The key difference when using DrawSubsetInstanced is that vertex and index buffers must be extracted from the [**ID3DX10Mesh Interface**](id3dx10mesh.md) object before the instancing data can be combined.
 
 The following code illustrates extracting the vertex and index buffers from the mesh object.
 

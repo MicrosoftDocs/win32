@@ -1,7 +1,12 @@
 ---
 title: To add a full-text search stop list to a help project
 description: To add a full-text search stop list to a help project
-ms.assetid: 'C66ED202-82FC-4cbf-931C-8B9679574214'
+ms.assetid: C66ED202-82FC-4cbf-931C-8B9679574214
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a full-text search stop list to a help project
@@ -15,7 +20,7 @@ ms.assetid: 'C66ED202-82FC-4cbf-931C-8B9679574214'
 
     
 
-     
+     
 
 3.  Click the **Files** tab, and then enter the name of your stop list (.stp) file in the **Full text search stop list file** box.
 
@@ -33,9 +38,9 @@ ms.assetid: 'C66ED202-82FC-4cbf-931C-8B9679574214'
 [About Full-Text Search](adding-a-search-tab.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

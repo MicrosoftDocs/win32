@@ -1,20 +1,25 @@
 ---
 title: Change Notifications
 description: The Base Filtering Engine (BFE) change notifications follow the publish/subscribe pattern.
-ms.assetid: '443f1767-5694-4584-ba0f-229275900774'
+ms.assetid: 443f1767-5694-4584-ba0f-229275900774
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Change Notifications
 
 The Base Filtering Engine (BFE) change notifications follow the publish/subscribe pattern: in order to receive one of the published change notifications, an application has to subscribe to it.
 
-The published BFE change notifications are Add and Remove for [**callouts**](fwpm-callout-subscription0-struct.md), [**filters**](fwpm-filter-subscription0-struct.md), [**providers**](fwpm-provider-subscription0-struct.md), [**provider contexts**](fwpm-provider-context-subscription0-struct.md), and [**sub-layers**](fwpm-sublayer-subscription0-struct.md).
+The published BFE change notifications are Add and Remove for [**callouts**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_callout_subscription0_?branch=master), [**filters**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0_?branch=master), [**providers**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_provider_subscription0_?branch=master), [**provider contexts**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_provider_context_subscription0_?branch=master), and [**sub-layers**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0_?branch=master).
 
-To subscribe to one of the above notifications, an application calls the corresponding [**Fwpm\*SubscribeChanges0**](fwp-mgmt-functions.md) management function (for example, [**FwpmCalloutSubscribeChanges0**](fwpmcalloutsubscribechanges0-func.md)). The callback function passed as an argument to **Fwpm\*SubscribeChanges0** is invoked by BFE when the change to which it subscribed occurs.
+To subscribe to one of the above notifications, an application calls the corresponding [**Fwpm\*SubscribeChanges0**](fwp-mgmt-functions.md) management function (for example, [**FwpmCalloutSubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutsubscribechanges0?branch=master)). The callback function passed as an argument to **Fwpm\*SubscribeChanges0** is invoked by BFE when the change to which it subscribed occurs.
 
-To unsubscribe to one of the above notifications, an application calls the corresponding **Fwpm\*UnsubscribeChanges0** management function (for example, [**FwpmCalloutUnsubscribeChanges0**](fwpmcalloutunsubscribechanges0-func.md)).
+To unsubscribe to one of the above notifications, an application calls the corresponding **Fwpm\*UnsubscribeChanges0** management function (for example, [**FwpmCalloutUnsubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutunsubscribechanges0?branch=master)).
 
-To see the current subscriptions for one of the above notifications, an application calls the corresponding [**Fwpm\*SubscriptionsGet0**](fwp-mgmt-functions.md) management function (for example [**FwpmCalloutSubscriptionsGet0**](fwpmcalloutsubscriptionsget0-func.md)).
+To see the current subscriptions for one of the above notifications, an application calls the corresponding [**Fwpm\*SubscriptionsGet0**](fwp-mgmt-functions.md) management function (for example [**FwpmCalloutSubscriptionsGet0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutsubscriptionsget0?branch=master)).
 
 The change notifications offered by the BFE are:
 

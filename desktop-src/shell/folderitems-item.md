@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the FolderItem object for a specified item in the collection.'
-ms.assetid: '164f823d-12d9-4950-a881-63837c53760d'
-title: 'FolderItems.Item method'
+---
+Description: Retrieves the FolderItem object for a specified item in the collection.
+ms.assetid: 164f823d-12d9-4950-a881-63837c53760d
+title: FolderItems.Item method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems.Item method

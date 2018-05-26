@@ -1,8 +1,9 @@
 ---
 title: HDN\_GETDISPINFO notification code
 description: Sent to the owner of a header control when the control needs information about a callback header item. This notification code is sent as a WM\_NOTIFY message.
-ms.assetid: '51522df0-83ae-4d9a-a8fc-31083e24242a'
-keywords: ["HDN_GETDISPINFO notification code Windows Controls"]
+ms.assetid: 51522df0-83ae-4d9a-a8fc-31083e24242a
+keywords:
+- HDN_GETDISPINFO notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_GETDISPINFO notification code
@@ -35,7 +41,7 @@ HDN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDDISPINFO**](nmhddispinfo.md) structure. On input, the fields of the structure specify what information is required and the item of interest.
+A pointer to an [**NMHDDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmhddispinfoa?branch=master) structure. On input, the fields of the structure specify what information is required and the item of interest.
 
 </dd> </dl>
 
@@ -45,7 +51,7 @@ Returns an LRESULT.
 
 ## Remarks
 
-Fill the appropriate members of the structure to return the requested information to the header control. If your message handler sets the **mask** member of the [**NMHDDISPINFO**](nmhddispinfo.md) structure to HDI\_DI\_SETITEM, the header control stores the information and will not request it again.
+Fill the appropriate members of the structure to return the requested information to the header control. If your message handler sets the **mask** member of the [**NMHDDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmhddispinfoa?branch=master) structure to HDI\_DI\_SETITEM, the header control stores the information and will not request it again.
 
 ## Requirements
 
@@ -53,16 +59,16 @@ Fill the appropriate members of the structure to return the requested informatio
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **HDN\_GETDISPINFOW** (Unicode) and **HDN\_GETDISPINFOA** (ANSI)<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

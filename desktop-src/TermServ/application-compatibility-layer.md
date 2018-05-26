@@ -4,10 +4,13 @@ description: To run legacy applications in a Remote Desktop Services environment
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e61ed45-4fcb-4aee-b8cc-638a9b87ce00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6e61ed45-4fcb-4aee-b8cc-638a9b87ce00
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application compatibility layer

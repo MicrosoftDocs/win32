@@ -4,17 +4,22 @@ description: Used to replicate the user-extensible policy to the clients.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e8ce40b8-7658-4e4b-b0e1-b68031811dd1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e8ce40b8-7658-4e4b-b0e1-b68031811dd1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Machine-Wide-Policy attribute AD Schema", "machineWidePolicy attribute AD Schema"]
+keywords:
+- Machine-Wide-Policy attribute AD Schema
+- machineWidePolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Machine-Wide-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Machine-Wide-Policy attribute

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_DiskDrive class
 description: Represents a hard disk drive inside of a virtual machine.
-ms.assetid: 'efa78f9f-f19d-4b3f-86ef-d0db0680ef96'
-keywords: ["Msvm_DiskDrive class Hyper-V", "Msvm_DiskDrive class Hyper-V , described"]
+ms.assetid: efa78f9f-f19d-4b3f-86ef-d0db0680ef96
+keywords:
+- Msvm_DiskDrive class Hyper-V
+- Msvm_DiskDrive class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -76,6 +78,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DiskDrive class
@@ -90,62 +97,62 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DiskDrive : CIM_DiskDrive
 {
-  string   Caption = "Disk Drive";
-  string   Description;
-  string   ElementName = "Hard Drive";
+  string   Caption = "Disk Drive";
+  string   Description;
+  string   ElementName = "Hard Drive";
   datetime InstallDate;
-  string   Name = "Hard Drive";
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
+  string   Name = "Hard Drive";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_DiskDrive";
-  string   DeviceID = "Microsoft:GUID\device-specific-data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  uint16   Capabilities[];
-  string   CompressionMethod = "Not Compressed";
-  uint64   MaxMediaSize = 2000000000;
-  uint64   DefaultBlockSize = 512;
-  uint64   MaxBlockSize;
-  uint64   MinBlockSize = 512;
-  boolean  NeedsCleaning = FALSE;
-  uint16   Security = 3;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_DiskDrive";
+  string   DeviceID = "Microsoft:GUID\device-specific-data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  uint16   Capabilities[];
+  string   CompressionMethod = "Not Compressed";
+  uint64   MaxMediaSize = 2000000000;
+  uint64   DefaultBlockSize = 512;
+  uint64   MaxBlockSize;
+  uint64   MinBlockSize = 512;
+  boolean  NeedsCleaning = FALSE;
+  uint16   Security = 3;
   datetime LastCleaned;
-  uint64   MaxAccessTime = 0;
-  uint32   UncompressedDataRate;
-  uint64   MountCount = 0;
+  uint64   MaxAccessTime = 0;
+  uint32   UncompressedDataRate;
+  uint64   MountCount = 0;
   datetime TimeOfLastMount;
-  uint64   TotalMountTime = 0;
-  uint64   MaxUnitsBeforeCleaning = 0xffffffffffffffff;
-  uint64   UnitsUsed = 0;
-  string   StatusDescriptions[] = { "OK" };
-  uint16   EnabledDefault = 2;
-  string   CapabilityDescriptions[];
-  string   ErrorMethodology = "None";
-  uint32   NumberOfMediaSupported = 1;
-  boolean  MediaIsLocked = TRUE;
-  uint64   LoadTime = 0;
-  uint64   UnloadTime = 0;
-  string   UnitsDescription;
-  uint32   DriveNumber;
+  uint64   TotalMountTime = 0;
+  uint64   MaxUnitsBeforeCleaning = 0xffffffffffffffff;
+  uint64   UnitsUsed = 0;
+  string   StatusDescriptions[] = { "OK" };
+  uint16   EnabledDefault = 2;
+  string   CapabilityDescriptions[];
+  string   ErrorMethodology = "None";
+  uint32   NumberOfMediaSupported = 1;
+  boolean  MediaIsLocked = TRUE;
+  uint64   LoadTime = 0;
+  uint64   UnloadTime = 0;
+  string   UnitsDescription;
+  uint32   DriveNumber;
 };
 ```
 
@@ -176,7 +183,7 @@ The **Msvm\_DiskDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1440,9 +1447,9 @@ Access to the **Msvm\_DiskDrive** class might be restricted by UAC Filtering. Fo
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1461,9 +1468,9 @@ Access to the **Msvm\_DiskDrive** class might be restricted by UAC Filtering. Fo
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

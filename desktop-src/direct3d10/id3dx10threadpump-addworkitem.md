@@ -1,7 +1,12 @@
-﻿---
-Description: 'Add a work item to the thread pump.'
-ms.assetid: 'f07789dc-a3d5-4bad-9768-527e701271b8'
-title: 'ID3DX10ThreadPump::AddWorkItem method'
+---
+Description: Add a work item to the thread pump.
+ms.assetid: f07789dc-a3d5-4bad-9768-527e701271b8
+title: ID3DX10ThreadPumpAddWorkItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10ThreadPump::AddWorkItem method

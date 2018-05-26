@@ -1,7 +1,12 @@
-﻿---
-Description: 'Takes a mesh and returns a new mesh with per-vertex blend weights and a bone combination table. The table describes which bones affect which subsets of the mesh.'
-ms.assetid: 'c26a9e84-5731-4394-a047-5f1ffe7688d9'
-title: 'ID3DXSkinInfo::ConvertToBlendedMesh method'
+---
+Description: Takes a mesh and returns a new mesh with per-vertex blend weights and a bone combination table. The table describes which bones affect which subsets of the mesh.
+ms.assetid: c26a9e84-5731-4394-a047-5f1ffe7688d9
+title: ID3DXSkinInfoConvertToBlendedMesh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::ConvertToBlendedMesh method

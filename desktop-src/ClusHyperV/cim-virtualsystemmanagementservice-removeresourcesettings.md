@@ -4,13 +4,16 @@ description: Removes virtual resource settings from a virtual system configurati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'abb99c51-fb24-428c-b962-6280d96b10f2'
-ms.prod: 'windows-server-dev'
+ms.assetid: abb99c51-fb24-428c-b962-6280d96b10f2
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveResourceSettings method", "RemoveResourceSettings method, CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class, RemoveResourceSettings method"]
+keywords:
+- RemoveResourceSettings method
+- RemoveResourceSettings method, CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class, RemoveResourceSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveResourceSettings method of the CIM\_VirtualSystemManagementService class
@@ -28,15 +34,15 @@ Removes virtual resource settings from a virtual system configuration.
 > [!Note]  
 > When this method is applied to the current virtual system configuration, resource from the active virtual system might be removed.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 RemoveResourceSettings(
-  [in]  CIM_ResourceAllocationSettingData REF ResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  CIM_ResourceAllocationSettingData REF ResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -84,16 +90,16 @@ The possible return values are:
 **Invalid State** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -103,7 +109,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -117,9 +123,9 @@ The possible return values are:
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

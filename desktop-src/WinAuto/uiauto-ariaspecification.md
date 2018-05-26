@@ -1,7 +1,12 @@
 ---
 title: UI Automation for W3C Accessible Rich Internet Applications Specification
 description: Websites increase their utility with dynamic content and advanced UI controls supported by technologies like Asynchronous JavaScript and XML (AJAX), DHTML, and JavaScript.
-ms.assetid: 'f400ad09-d15e-415b-b072-c28e728e27a0'
+ms.assetid: f400ad09-d15e-415b-b072-c28e728e27a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation for W3C Accessible Rich Internet Applications Specification
@@ -90,7 +95,7 @@ W3C ARIA roles can map to Microsoft Active Accessibility roles or UI Automation 
 
 
 
- 
+ 
 
 ## W3C ARIA States and Properties Mapped to Microsoft Active Accessibility and UI Automation
 
@@ -135,20 +140,20 @@ AriaProperties is a string property that has a collection of name/value pairs wh
 | tabindex                       | [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable)                                                                                                                                               | IsKeyboardFocusable                                                                                                                                                                                                                                     | tabindex                              |
 | valuemax                       | n/a                                                                                                                                                                                                                             | Maximum ([RangeValue](uiauto-implementingrangevalue.md) control pattern)                                                                                                                                                                               | valuemax                              |
 | valuemin                       | n/a                                                                                                                                                                                                                             | Minimum ([RangeValue](uiauto-implementingrangevalue.md) control pattern)                                                                                                                                                                               | valuemin                              |
-| valuenow                       | [**IAccessible::get\_accValue**](iaccessible-iaccessible--get-accvalue.md)                                                                                                                                                     | Value ([RangeValue](uiauto-implementingrangevalue.md) control pattern)                                                                                                                                                                                 | valuenow                              |
-| valuetext                      | [**IAccessible::get\_accValue**](iaccessible-iaccessible--get-accvalue.md)<br/> NOTE: When both the valuenow and valuetext ARIA properties are set, accValue holds the data from the ARIA valuetext property.<br/> | Value ([Value](uiauto-implementingvalue.md) control pattern)<br/> NOTE: The [RangeValue](uiauto-implementingrangevalue.md) and Value control patterns can coexist with UI Automation when both valuetext and valuenow are specified.<br/> | valuetext                             |
+| valuenow                       | [**IAccessible::get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master)                                                                                                                                                     | Value ([RangeValue](uiauto-implementingrangevalue.md) control pattern)                                                                                                                                                                                 | valuenow                              |
+| valuetext                      | [**IAccessible::get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master)<br/> NOTE: When both the valuenow and valuetext ARIA properties are set, accValue holds the data from the ARIA valuetext property.<br/> | Value ([Value](uiauto-implementingvalue.md) control pattern)<br/> NOTE: The [RangeValue](uiauto-implementingrangevalue.md) and Value control patterns can coexist with UI Automation when both valuetext and valuenow are specified.<br/> | valuetext                             |
 
 
 
- 
+ 
 
 ## Additional Considerations
 
 UI Automation also offers a simple text object model with the [Text](uiauto-implementingtextandtextrange.md) control pattern, which supports embedding objects in a Document object. This enables user agents and client applications to treat web content as an HTML document or as a traditional desktop UI, depending on the end-user scenarios.
 
- 
+ 
 
- 
+ 
 
 
 

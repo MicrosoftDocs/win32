@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the setting data for a virtual synthetic display controller.'
-ms.assetid: 'cea79b24-4175-49db-a8b4-a9efb1fd0b96'
-title: 'Msvm\_SyntheticDisplayControllerSettingData class'
+Description: Describes the setting data for a virtual synthetic display controller.
+ms.assetid: cea79b24-4175-49db-a8b4-a9efb1fd0b96
+title: Msvm\_SyntheticDisplayControllerSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticDisplayControllerSettingData class
@@ -16,7 +21,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticDisplayControllerSettingData : CIM_ResourceAllocationSettingData
 {
-  uint8  ResolutionType;
+  uint8  ResolutionType;
   uint16 HorizontalResolution;
   uint16 VerticalResolution;
 };
@@ -96,9 +101,9 @@ The resolution type.
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> </dl>
 
@@ -123,8 +128,8 @@ The vertical resolution.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -138,9 +143,9 @@ The vertical resolution.
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

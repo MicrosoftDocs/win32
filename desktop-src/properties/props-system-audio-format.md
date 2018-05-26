@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the format of the audio file.'
-ms.assetid: '58cb9e95-7ac8-42f1-ad2a-a3979ec800eb'
-title: 'System.Audio.Format'
+Description: Indicates the format of the audio file.
+ms.assetid: 58cb9e95-7ac8-42f1-ad2a-a3979ec800eb
+title: System.Audio.Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Audio.Format

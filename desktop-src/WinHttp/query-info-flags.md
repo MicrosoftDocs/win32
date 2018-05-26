@@ -1,14 +1,19 @@
 ---
-Description: 'These attributes and modifiers are used by WinHttpQueryHeaders.'
-ms.assetid: 'c26dac1d-9a75-440a-a0ef-a2029f138f3b'
+Description: These attributes and modifiers are used by WinHttpQueryHeaders.
+ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: Query Info Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Info Flags
 
-These attributes and modifiers are used by [**WinHttpQueryHeaders**](winhttpqueryheaders.md).
+These attributes and modifiers are used by [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master).
 
-The attribute flags are used by [**WinHttpQueryHeaders**](winhttpqueryheaders.md) to indicate what information to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as WINHTTP\_QUERY\_RAW\_HEADERS, that are not related to a specific header.
+The attribute flags are used by [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master) to indicate what information to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as WINHTTP\_QUERY\_RAW\_HEADERS, that are not related to a specific header.
 
 <dl> <dt>
 
@@ -267,7 +272,7 @@ Not supported.
 
 
 
-Causes [**WinHttpQueryHeaders**](winhttpqueryheaders.md) to search for the header name specified in the *pwszName* parameter and store the header information in *lpBuffer*. An application can use **WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT** to limit the maximum time this query waits for all headers to be received.
+Causes [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master) to search for the header name specified in the *pwszName* parameter and store the header information in *lpBuffer*. An application can use **WINHTTP\_OPTION\_RECEIVE\_RESPONSE\_TIMEOUT** to limit the maximum time this query waits for all headers to be received.
 
 
 </dt> </dl> </dd> <dt>
@@ -762,7 +767,7 @@ Retrieves the authentication scheme and realm returned by the server.
 
 </dt> </dl> </dd> </dl>
 
-The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where the [**WinHttpQueryHeaders**](winhttpqueryheaders.md) function should search for the information.
+The modifier flags are used in conjunction with an attribute flag to modify the request. Modifier flags either modify the format of the data returned or indicate where the [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master) function should search for the information.
 
 <dl> <dt>
 
@@ -802,8 +807,8 @@ Returns the header value as a [**SYSTEMTIME**](https://msdn.microsoft.com/librar
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
 | Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl> |
 
 
@@ -815,9 +820,9 @@ Returns the header value as a [**SYSTEMTIME**](https://msdn.microsoft.com/librar
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: HDM\_GETITEMDROPDOWNRECT message
 description: Gets the bounding rectangle of the split button for a header item with style HDF\_SPLITBUTTON. Send this message explicitly or by using the Header\_GetItemDropDownRect macro.
-ms.assetid: 'd7188dfb-4ffa-4641-b210-2c2ec480ca13'
-keywords: ["HDM_GETITEMDROPDOWNRECT message Windows Controls"]
+ms.assetid: d7188dfb-4ffa-4641-b210-2c2ec480ca13
+keywords:
+- HDM_GETITEMDROPDOWNRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_GETITEMDROPDOWNRECT message
 
-Gets the bounding rectangle of the split button for a header item with style **HDF\_SPLITBUTTON**. Send this message explicitly or by using the [**Header\_GetItemDropDownRect**](header-getitemdropdownrect.md) macro.
+Gets the bounding rectangle of the split button for a header item with style **HDF\_SPLITBUTTON**. Send this message explicitly or by using the [**Header\_GetItemDropDownRect**](/windows/win32/Commctrl/nf-commctrl-header_getitemdropdownrect?branch=master) macro.
 
 A window receives this message through its [**WindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633573) function.
 
@@ -51,8 +57,8 @@ The header item must have style **HDF\_SPLITBUTTON**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ The header item must have style **HDF\_SPLITBUTTON**.
 [About Header Controls](header-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

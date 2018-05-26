@@ -1,7 +1,12 @@
 ---
 title: EAPHost API Reference
 description: EAPHost API Reference
-ms.assetid: 'ac2f074f-b525-42a2-8637-c96a08d77714'
+ms.assetid: ac2f074f-b525-42a2-8637-c96a08d77714
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost API Reference

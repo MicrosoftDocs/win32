@@ -1,13 +1,16 @@
 ---
-Description: 'Scripts and applications written for 32-bit operating systems should continue to run properly.'
+Description: Scripts and applications written for 32-bit operating systems should continue to run properly.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b437b9ed-b9e4-4fc5-9b86-0eb77bb41b8e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b437b9ed-b9e4-4fc5-9b86-0eb77bb41b8e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Providing WMI Data on a 64-bit Platform'
+title: Providing WMI Data on a 64-bit Platform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Providing WMI Data on a 64-bit Platform

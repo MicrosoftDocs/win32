@@ -1,7 +1,12 @@
 ---
 title: CD Audio Command Set
 description: CD Audio Command Set
-ms.assetid: 'f8b97449-d695-4ec9-874a-de81ed9b95dd'
+ms.assetid: f8b97449-d695-4ec9-874a-de81ed9b95dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD Audio Command Set

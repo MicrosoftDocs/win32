@@ -1,7 +1,12 @@
 ---
 title: VML DropAuto Attribute
 description: VML DropAuto Attribute
-ms.assetid: '63b55090-1fe5-4442-84f5-9da2a9c494d2'
+ms.assetid: 63b55090-1fe5-4442-84f5-9da2a9c494d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML DropAuto Attribute

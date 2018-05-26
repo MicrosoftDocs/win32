@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob EnumFiles method
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
-ms.assetid: '94FA5D7B-08C1-497E-9813-571D35AE3BCF'
-keywords: ["EnumFiles method", "EnumFiles method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, EnumFiles method"]
+ms.assetid: 94FA5D7B-08C1-497E-9813-571D35AE3BCF
+keywords:
+- EnumFiles method
+- EnumFiles method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, EnumFiles method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::EnumFiles method
@@ -22,7 +30,7 @@ Retrieves an [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md) interf
 
 ```C++
 HRESULT EnumFiles(
-  [out] IEnumBackgroundCopyFiles **ppEnumFiles
+  [out] IEnumBackgroundCopyFiles **ppEnumFiles
 );
 ```
 
@@ -49,7 +57,7 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -69,9 +77,9 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

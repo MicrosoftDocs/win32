@@ -1,7 +1,12 @@
-﻿---
-Description: 'Multiplication assignment operators.'
-ms.assetid: '4d25cef1-8b39-42db-80df-c749940feb0b'
-title: 'operator \*= operators'
+---
+Description: Multiplication assignment operators.
+ms.assetid: 4d25cef1-8b39-42db-80df-c749940feb0b
+title: operator \*= operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator \*= operators

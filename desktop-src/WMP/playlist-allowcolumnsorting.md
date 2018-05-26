@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.allowColumnSorting
 description: The allowColumnSorting attribute specifies or retrieves a value indicating whether sorting column contents is allowed.
-ms.assetid: 'b838f346-a0ab-40d3-893e-94c23142839e'
-keywords: ["PLAYLIST.allowColumnSorting Windows Media Player"]
+ms.assetid: b838f346-a0ab-40d3-893e-94c23142839e
+keywords:
+- PLAYLIST.allowColumnSorting Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.allowColumnSorting
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.allowColumnSorting
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read/write **Boolean**.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

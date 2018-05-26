@@ -1,8 +1,19 @@
 ---
 title: Implementing IMediaObject FreeStreamingResources
 description: Implementing IMediaObject FreeStreamingResources
-ms.assetid: '970dd10b-a7a0-4ba0-97e3-725d5c914500'
-keywords: ["Windows Media Player plug-ins,Echo sample streaming resources", "plug-ins,Echo sample streaming resources", "digital signal processing plug-ins,Echo sample streaming resources", "DSP plug-ins,Echo sample streaming resources", "Echo DSP plug-in sample,streaming resources", "Echo DSP plug-in sample,releasing memory"]
+ms.assetid: 970dd10b-a7a0-4ba0-97e3-725d5c914500
+keywords:
+- Windows Media Player plug-ins,Echo sample streaming resources
+- plug-ins,Echo sample streaming resources
+- digital signal processing plug-ins,Echo sample streaming resources
+- DSP plug-ins,Echo sample streaming resources
+- Echo DSP plug-in sample,streaming resources
+- Echo DSP plug-in sample,releasing memory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IMediaObject::FreeStreamingResources

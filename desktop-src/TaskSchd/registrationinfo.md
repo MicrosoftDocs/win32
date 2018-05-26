@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo object
 description: Scripting object that provides the administrative information that can be used to describe the task.
-ms.assetid: 'e04f0c47-ab89-49e4-aac6-028d2555ecf1'
-keywords: ["registration information Task Scheduler , object", "RegistrationInfo object Task Scheduler", "RegistrationInfo object Task Scheduler , described"]
+ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
+keywords:
+- registration information Task Scheduler , object
+- RegistrationInfo object Task Scheduler
+- RegistrationInfo object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo object
@@ -43,7 +51,7 @@ The **RegistrationInfo** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,16 +69,16 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

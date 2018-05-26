@@ -1,15 +1,18 @@
 ---
-Description: 'The SetTcpMaxConnectRetransmissions WMI class static method is used to set the number of attempts TCP will retransmit a connect request before aborting.'
+Description: The SetTcpMaxConnectRetransmissions WMI class static method is used to set the number of attempts TCP will retransmit a connect request before aborting.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cb0dfba3-4ef5-4052-94f3-f688a1c55d90'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cb0dfba3-4ef5-4052-94f3-f688a1c55d90
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetTcpMaxConnectRetransmissions method of the Win32\_NetworkAdapterConfiguration class'
+title: SetTcpMaxConnectRetransmissions method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetTcpMaxConnectRetransmissions method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetTcpMaxConnectRetransmissions(
-  [in] uint32 TcpMaxConnectRetransmissions
+  [in] uint32 TcpMaxConnectRetransmissions
 );
 ```
 
@@ -391,7 +394,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -409,8 +412,8 @@ The [Modify the Maximum Allowed TCP Connection Retransmissions](https://Gallery.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
+| Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -436,9 +439,9 @@ The [Modify the Maximum Allowed TCP Connection Retransmissions](https://Gallery.
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

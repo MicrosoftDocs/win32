@@ -1,8 +1,11 @@
 ---
 title: DestroyVirtualSystem method of the CIM\_VirtualSystemManagementService class
 description: Destroys the specified virtual system.
-ms.assetid: '75e3c7e0-013c-4f91-bce4-8b2b6e43bf32'
-keywords: ["DestroyVirtualSystem method Hyper-V", "DestroyVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , DestroyVirtualSystem method"]
+ms.assetid: 75e3c7e0-013c-4f91-bce4-8b2b6e43bf32
+keywords:
+- DestroyVirtualSystem method Hyper-V
+- DestroyVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , DestroyVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyVirtualSystem method of the CIM\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Destroys the specified virtual system.
 
 ```mof
 uint32 DestroyVirtualSystem(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -69,9 +77,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

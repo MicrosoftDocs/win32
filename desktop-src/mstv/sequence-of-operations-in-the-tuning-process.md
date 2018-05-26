@@ -1,7 +1,12 @@
 ---
 title: Sequence of Operations in the Tuning Process
 description: Sequence of Operations in the Tuning Process
-ms.assetid: '4b4f3fdd-536c-44b2-b5d6-6d89d1528b17'
+ms.assetid: 4b4f3fdd-536c-44b2-b5d6-6d89d1528b17
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequence of Operations in the Tuning Process

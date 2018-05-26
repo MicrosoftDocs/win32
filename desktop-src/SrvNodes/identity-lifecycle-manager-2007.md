@@ -1,7 +1,12 @@
 ---
 Description: Identity Lifecycle Manager 2007
-ms.assetid: '9fd54c51-dcb3-48af-a22d-620f56aeef66'
+ms.assetid: 9fd54c51-dcb3-48af-a22d-620f56aeef66
 title: Identity Lifecycle Manager 2007
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identity Lifecycle Manager 2007

@@ -1,14 +1,20 @@
 ---
 title: GroupName element
 description: Specifies the category into which this menu style should be placed in the Windows DVD Maker UI.
-ms.assetid: 'd07a735d-9142-42ee-bb48-0968cb5e1cc8'
-keywords: ["GroupName element Windows Movie Maker and DVD Maker"]
+ms.assetid: d07a735d-9142-42ee-bb48-0968cb5e1cc8
+keywords:
+- GroupName element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - GroupName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GroupName element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

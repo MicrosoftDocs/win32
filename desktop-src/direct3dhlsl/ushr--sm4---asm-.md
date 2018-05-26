@@ -1,7 +1,12 @@
 ---
 title: ushr (sm4 - asm)
 description: Shift right.
-ms.assetid: '3E7CB515-9D0F-44C7-A770-AD0584631BFE'
+ms.assetid: 3E7CB515-9D0F-44C7-A770-AD0584631BFE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ushr (sm4 - asm)
@@ -15,7 +20,7 @@ Shift right.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Shift right.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Windows Controls
 description: A control is a child window that an application uses in conjunction with another window to enable user interaction.
-ms.assetid: '0a6eb481-d94e-40c5-afec-46354520f08f'
+ms.assetid: 0a6eb481-d94e-40c5-afec-46354520f08f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Controls
@@ -40,11 +45,11 @@ Support for controls is provided by User32.dll and Comctl32.dll. For more inform
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

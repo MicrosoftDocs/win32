@@ -1,7 +1,12 @@
 ---
-Description: 'Exposes static class methods used to complete specific management tasks.'
-ms.assetid: '300a80a9-cac1-48c3-8948-ea593d93d8e0'
-title: 'MSFT\_NetBranchCacheOrchestrator class'
+Description: Exposes static class methods used to complete specific management tasks.
+ms.assetid: 300a80a9-cac1-48c3-8948-ea593d93d8e0
+title: MSFT\_NetBranchCacheOrchestrator class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheOrchestrator class
@@ -68,7 +73,7 @@ The **MSFT\_NetBranchCacheOrchestrator** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -124,17 +129,17 @@ A user-friendly name for the object. This property is inherited from [**CIM\_Man
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

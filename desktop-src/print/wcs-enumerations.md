@@ -1,7 +1,12 @@
 ---
 Description: WCS Enumerations
-ms.assetid: '37e21077-c6d5-4641-a66b-a6906e488ff5'
+ms.assetid: 37e21077-c6d5-4641-a66b-a6906e488ff5
 title: WCS Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Enumerations

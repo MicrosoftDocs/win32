@@ -1,12 +1,17 @@
-﻿---
-Description: 'Device Information Properties are properties that describe the setup and installation of the device.'
-ms.assetid: 'ff6771ac-491e-4765-8cfe-11c7efc1c971'
+---
+Description: Device Information Properties are properties that describe the setup and installation of the device.
+ms.assetid: ff6771ac-491e-4765-8cfe-11c7efc1c971
 title: Device Information Property Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Information Property Constants
 
-Device Information Properties are properties that describe the setup and installation of the device. These properties are available through the [**IWiaDevMgr**](-wia-iwiadevmgr.md) or [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) interfaces and also through the root item. Device information properties are prefixed with "WIA\_DIP\_" (Device Information Property) and are supplied by Windows Image Acquisition (WIA). For scripting purposes, these constants use the prefix "DeviceInfo" and are part of the [WiaDeviceInfoPropertyId](-wia-wiadeviceinfopropertyid.md) enumerated type. The corresponding member name from that script enumeration appears in parentheses next to the C/C++ constant name in the following list.
+Device Information Properties are properties that describe the setup and installation of the device. These properties are available through the [**IWiaDevMgr**](/windows/win32/wia_xp/nn-wia_xp-iwiadevmgr?branch=master) or [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) interfaces and also through the root item. Device information properties are prefixed with "WIA\_DIP\_" (Device Information Property) and are supplied by Windows Image Acquisition (WIA). For scripting purposes, these constants use the prefix "DeviceInfo" and are part of the [WiaDeviceInfoPropertyId](-wia-wiadeviceinfopropertyid.md) enumerated type. The corresponding member name from that script enumeration appears in parentheses next to the C/C++ constant name in the following list.
 
 
 

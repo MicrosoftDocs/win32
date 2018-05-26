@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the list of properties to show in the content view mode of an item in the context of searching.'
-ms.assetid: 'ffb07b50-a245-45a3-a79a-27426b508600'
-title: 'System.PropList.ContentViewModeForSearch'
+Description: Identifies the list of properties to show in the content view mode of an item in the context of searching.
+ms.assetid: ffb07b50-a245-45a3-a79a-27426b508600
+title: System.PropList.ContentViewModeForSearch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropList.ContentViewModeForSearch

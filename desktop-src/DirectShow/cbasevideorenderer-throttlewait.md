@@ -1,7 +1,12 @@
 ---
-Description: 'The ThrottleWait method inserts a wait period after each frame.'
-ms.assetid: '69306093-f5db-4170-b30f-e33cfa448e9f'
-title: 'CBaseVideoRenderer.ThrottleWait method'
+Description: The ThrottleWait method inserts a wait period after each frame.
+ms.assetid: 69306093-f5db-4170-b30f-e33cfa448e9f
+title: CBaseVideoRenderer.ThrottleWait method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.ThrottleWait method
@@ -47,9 +52,9 @@ This member function waits for a time period obtained from the **m\_trThrottle**
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

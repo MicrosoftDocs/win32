@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMCompression function
-ms.assetid: 'e5246411-aa43-436f-b5e7-d7305ce659c9'
+ms.assetid: e5246411-aa43-436f-b5e7-d7305ce659c9
 title: OEMCompression function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCompression function

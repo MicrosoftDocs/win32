@@ -1,7 +1,12 @@
 ---
-Description: 'This control event runs a specified file. If the file does not exist, or if the event fails, Windows Installer logs the error in the verbose log without displaying a dialog box containing an error message.'
-ms.assetid: 'a185c5a1-6584-4916-967a-313e6b7cf97c'
+Description: This control event runs a specified file. If the file does not exist, or if the event fails, Windows Installer logs the error in the verbose log without displaying a dialog box containing an error message.
+ms.assetid: a185c5a1-6584-4916-967a-313e6b7cf97c
 title: MsiLaunchApp ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiLaunchApp ControlEvent

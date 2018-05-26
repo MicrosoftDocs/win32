@@ -1,7 +1,7 @@
 ---
 title: Filter-Interface Values
 description: Values 0xHHHH1700 to 0xHHHH172F are return values produced when calling the methods of the IFilter interface to extract the text from a document, including any embedded or linked objects within it.
-ms.assetid: 'a9f94b0d-f3d0-4cf1-9dfe-74c938601abc'
+ms.assetid: a9f94b0d-f3d0-4cf1-9dfe-74c938601abc
 topic_type:
 - apiref
 api_name:
@@ -22,22 +22,27 @@ api_location:
 - Cierror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter-Interface Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
-Values 0x*HHHH*1700 to 0x*HHHH*172F are return values produced when calling the methods of the [**IFilter**](ifilter.md) interface to extract the text from a document, including any embedded or linked objects within it. The following table gives the filter-interface values in alphabetical order.
+Values 0x*HHHH*1700 to 0x*HHHH*172F are return values produced when calling the methods of the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface to extract the text from a document, including any embedded or linked objects within it. The following table gives the filter-interface values in alphabetical order.
 
 
 
 | Constant/value                                                                                                                                                                                                                                                                     | Description                                                               |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------|
 | <span id="FILTER_E_ACCESS"></span><span id="filter_e_access"></span><dl> <dt>**FILTER\_E\_ACCESS**</dt> <dt>0x80041703</dt> </dl>                                               | Unable to access object.<br/>                                       |
-| <span id="FILTER_E_EMBEDDING_UNAVAILABLE"></span><span id="filter_e_embedding_unavailable"></span><dl> <dt>**FILTER\_E\_EMBEDDING\_UNAVAILABLE**</dt> <dt>0x80041707</dt> </dl> | Unable to bind [**IFilter**](ifilter.md) for embedded object.<br/> |
+| <span id="FILTER_E_EMBEDDING_UNAVAILABLE"></span><span id="filter_e_embedding_unavailable"></span><dl> <dt>**FILTER\_E\_EMBEDDING\_UNAVAILABLE**</dt> <dt>0x80041707</dt> </dl> | Unable to bind [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) for embedded object.<br/> |
 | <span id="FILTER_E_END_OF_CHUNKS"></span><span id="filter_e_end_of_chunks"></span><dl> <dt>**FILTER\_E\_END\_OF\_CHUNKS**</dt> <dt>0x80041700</dt> </dl>                        | No more chunks of text available in object.<br/>                    |
-| <span id="FILTER_E_LINK_UNAVAILABLE"></span><span id="filter_e_link_unavailable"></span><dl> <dt>**FILTER\_E\_LINK\_UNAVAILABLE**</dt> <dt>0x80041708</dt> </dl>                | Unable to bind [**IFilter**](ifilter.md) for linked object.<br/>   |
+| <span id="FILTER_E_LINK_UNAVAILABLE"></span><span id="filter_e_link_unavailable"></span><dl> <dt>**FILTER\_E\_LINK\_UNAVAILABLE**</dt> <dt>0x80041708</dt> </dl>                | Unable to bind [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) for linked object.<br/>   |
 | <span id="FILTER_E_NO_MORE_TEXT"></span><span id="filter_e_no_more_text"></span><dl> <dt>**FILTER\_E\_NO\_MORE\_TEXT**</dt> <dt>0x80041701</dt> </dl>                           | No more text available in chunk.<br/>                               |
 | <span id="FILTER_E_NO_MORE_VALUES"></span><span id="filter_e_no_more_values"></span><dl> <dt>**FILTER\_E\_NO\_MORE\_VALUES**</dt> <dt>0x80041702</dt> </dl>                     | No more property values available in chunk.<br/>                    |
 | <span id="FILTER_E_NO_TEXT"></span><span id="filter_e_no_text"></span><dl> <dt>**FILTER\_E\_NO\_TEXT**</dt> <dt>0x80041705</dt> </dl>                                           | No text in current chunk.<br/>                                      |
@@ -56,17 +61,17 @@ Values 0x*HHHH*1700 to 0x*HHHH*172F are return values produced when calling the 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A data object has the following syntax definition.'
-ms.assetid: 'e636c2eb-3c11-45bf-ab0b-a14ec878742c'
+Description: A data object has the following syntax definition.
+ms.assetid: e636c2eb-3c11-45bf-ab0b-a14ec878742c
 title: Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data

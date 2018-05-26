@@ -1,7 +1,12 @@
 ---
 title: Designing Characters for Microsoft Office
 description: Designing Characters for Microsoft Office
-ms.assetid: 'ac536662-cc3b-42db-81cb-e5eb60039a4d'
+ms.assetid: ac536662-cc3b-42db-81cb-e5eb60039a4d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Characters for Microsoft Office

@@ -2,7 +2,12 @@
 title: Glossary
 description: To find a term in the glossary, click the letter of the alphabet that is the first letter in the term you want to look up.You can also read glossary terms within the text of Help by clicking the underlined glossary term links.
 Robots: noindex, nofollow
-ms.assetid: 'd3d34102-e378-42a8-90be-78563cbf0eb6'
+ms.assetid: d3d34102-e378-42a8-90be-78563cbf0eb6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

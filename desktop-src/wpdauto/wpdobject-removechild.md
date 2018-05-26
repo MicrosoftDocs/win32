@@ -1,14 +1,22 @@
 ---
 title: WPDObject.RemoveChild method
 description: The RemoveChild method deletes a child object from this WPDObject.
-ms.assetid: '3b4dd16f-1dff-448e-9f8e-4a589c0b07cf'
-keywords: ["RemoveChild method WPD Automation", "RemoveChild method WPD Automation , WPDObject object", "WPDObject object WPD Automation , RemoveChild method"]
+ms.assetid: 3b4dd16f-1dff-448e-9f8e-4a589c0b07cf
+keywords:
+- RemoveChild method WPD Automation
+- RemoveChild method WPD Automation , WPDObject object
+- WPDObject object WPD Automation , RemoveChild method
 topic_type:
 - apiref
 api_name:
 - WPDObject.RemoveChild
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.RemoveChild method
@@ -59,8 +67,8 @@ To enable asynchronous behavior, set the handler for the [**onRemoveChildComplet
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -71,9 +79,9 @@ To enable asynchronous behavior, set the handler for the [**onRemoveChildComplet
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

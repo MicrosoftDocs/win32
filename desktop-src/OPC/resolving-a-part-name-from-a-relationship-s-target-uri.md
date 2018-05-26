@@ -1,8 +1,20 @@
 ---
 title: Resolving a Part Name from a Target URI
 description: This topic shows how to use the Packaging APIs to resolve a part name from the URI of a relationship \ 160;target.
-ms.assetid: 'e95db16f-ac25-4936-babb-20f2afdd2f06'
-keywords: ["Packaging APIs,parts", "packaging,parts", "packages,parts", "parts,name resolution", "relationships,part name resolution", "ResolveTargetUriToPart function", "parts,ResolveTargetUriToPart function"]
+ms.assetid: e95db16f-ac25-4936-babb-20f2afdd2f06
+keywords:
+- Packaging APIs,parts
+- packaging,parts
+- packages,parts
+- parts,name resolution
+- relationships,part name resolution
+- ResolveTargetUriToPart function
+- parts,ResolveTargetUriToPart function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resolving a Part Name from a Target URI
@@ -107,7 +119,7 @@ HRESULT
 
     If the source of the relationship is a part, the URI retrieved will be a part name. Otherwise, the source is the package itself and the retrieved URI is the package root.
 
-6.  Resolve the part name by calling the [**IOpcUri::CombinePartUri**](iopcuri-combineparturi.md) method, as shown in the following code.
+6.  Resolve the part name by calling the [**IOpcUri::CombinePartUri**](/windows/previous-versions/msopc/nf-msopc-iopcuri-combineparturi?branch=master) method, as shown in the following code.
 
     ```C++
         if (SUCCEEDED(hr))
@@ -133,7 +145,7 @@ HRESULT
 
     
 
-    [**IOpcUri::CombinePartUri**](iopcuri-combineparturi.md) uses the URI in `sourceUri` as the base URI, and resolves the relative URI in `targetUri` against it.
+    [**IOpcUri::CombinePartUri**](/windows/previous-versions/msopc/nf-msopc-iopcuri-combineparturi?branch=master) uses the URI in `sourceUri` as the base URI, and resolves the relative URI in `targetUri` against it.
 
 ### `ResolveTargetUriToPart` Code Details
 

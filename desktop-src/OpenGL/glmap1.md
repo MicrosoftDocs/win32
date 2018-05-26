@@ -1,7 +1,12 @@
 ---
 title: glMap1 Functions
 description: These functions define a one-dimensional evaluator.
-ms.assetid: '47b0bd46-aa79-4146-8503-cddcc8b7b242'
+ms.assetid: 47b0bd46-aa79-4146-8503-cddcc8b7b242
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glMap1 Functions

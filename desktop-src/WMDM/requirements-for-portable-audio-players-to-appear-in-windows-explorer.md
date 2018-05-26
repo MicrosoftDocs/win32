@@ -1,8 +1,19 @@
 ---
 title: Requirements for Portable Audio Players to Appear in Windows Explorer
 description: Requirements for Portable Audio Players to Appear in Windows Explorer
-ms.assetid: '94227ed8-56e7-4366-9c38-9b5dbf907e16'
-keywords: ["Windows Media Device Manager,portable audio players", "Device Manager,portable audio players", "programming guide,portable audio players", "service providers,portable audio players", "creating service providers,portable audio players", "portable audio players"]
+ms.assetid: 94227ed8-56e7-4366-9c38-9b5dbf907e16
+keywords:
+- Windows Media Device Manager,portable audio players
+- Device Manager,portable audio players
+- programming guide,portable audio players
+- service providers,portable audio players
+- creating service providers,portable audio players
+- portable audio players
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Portable Audio Players to Appear in Windows Explorer
@@ -15,9 +26,9 @@ Device Capabilities
 
 Windows Media Device Manager service providers should be explicit in their supported capabilities. If a call is not supported, an error code must be returned. The appropriate fields must be set for the presence or absence of capabilities on return from the following functions:
 
--   [**IMDSPStorageGlobals::GetCapabilities**](imdspstorageglobals-getcapabilities.md)
--   [**IMDSPStorage::GetAttributes**](imdspstorage-getattributes.md)
--   [**IMDSPDevice::GetFormatSupport**](imdspdevice-getformatsupport.md)
+-   [**IMDSPStorageGlobals::GetCapabilities**](/windows/win32/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities?branch=master)
+-   [**IMDSPStorage::GetAttributes**](/windows/win32/mswmdm/nf-mswmdm-imdspstorage-getattributes?branch=master)
+-   [**IMDSPDevice::GetFormatSupport**](/windows/win32/mswmdm/nf-mswmdm-imdspdevice-getformatsupport?branch=master)
 
 Service providers must support the following capabilities to be compatible with the shell:
 

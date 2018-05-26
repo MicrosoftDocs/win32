@@ -1,8 +1,18 @@
 ---
 title: Separate Window Plug-ins
 description: Separate Window Plug-ins
-ms.assetid: '14bcf4de-5f3d-4e38-be15-64107440350f'
-keywords: ["Windows Media Player plug-ins,separate window", "plug-ins,separate window", "user interface plug-ins,separate window", "UI plug-ins,separate window", "separate window plug-ins"]
+ms.assetid: 14bcf4de-5f3d-4e38-be15-64107440350f
+keywords:
+- Windows Media Player plug-ins,separate window
+- plug-ins,separate window
+- user interface plug-ins,separate window
+- UI plug-ins,separate window
+- separate window plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Separate Window Plug-ins

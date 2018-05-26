@@ -1,7 +1,12 @@
 ---
 title: Opening a QOS-enabled Socket
 description: The services and service quality guarantees provided by the RSVP SP require a QOS-enabled socket.
-ms.assetid: 'a1ab2f67-2e66-4e20-831e-f6e970352329'
+ms.assetid: a1ab2f67-2e66-4e20-831e-f6e970352329
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a QOS-enabled Socket

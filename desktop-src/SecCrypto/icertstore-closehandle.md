@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes an HCERTSTORE handle acquired through the StoreHandle property.'
-ms.assetid: '1b0d3d9b-09e0-4035-88ac-2887b3ab60c9'
-title: 'ICertStore::CloseHandle method'
+---
+Description: Closes an HCERTSTORE handle acquired through the StoreHandle property.
+ms.assetid: 1b0d3d9b-09e0-4035-88ac-2887b3ab60c9
+title: ICertStoreCloseHandle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertStore::CloseHandle method

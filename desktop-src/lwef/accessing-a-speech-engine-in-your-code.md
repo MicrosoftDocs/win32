@@ -1,7 +1,12 @@
 ---
 title: Accessing a Speech Engine in Your Code
 description: Accessing a Speech Engine in Your Code
-ms.assetid: 'ddfe0552-a29e-4ce4-b608-c131efbe300b'
+ms.assetid: ddfe0552-a29e-4ce4-b608-c131efbe300b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing a Speech Engine in Your Code

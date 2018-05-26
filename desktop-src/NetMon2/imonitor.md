@@ -1,7 +1,12 @@
 ---
-Description: 'The IMonitor interface provides methods that control monitor operation. These methods are called by the Monitor Control Service (MCSVC).'
-ms.assetid: '53140e7d-c3a1-45cd-aaa4-c6f5021a6102'
+Description: The IMonitor interface provides methods that control monitor operation. These methods are called by the Monitor Control Service (MCSVC).
+ms.assetid: 53140e7d-c3a1-45cd-aaa4-c6f5021a6102
 title: IMonitor interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitor interface
@@ -31,7 +36,7 @@ The **IMonitor** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,15 +44,15 @@ The **IMonitor** interface has these methods.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

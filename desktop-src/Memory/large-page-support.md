@@ -1,7 +1,12 @@
 ---
-Description: 'Large-page support enables server applications to establish large-page memory regions, which is particularly useful on 64-bit Windows.'
-ms.assetid: '060115af-38d1-499c-b30c-47cd0cf42d20'
-title: 'Large-Page Support'
+Description: Large-page support enables server applications to establish large-page memory regions, which is particularly useful on 64-bit Windows.
+ms.assetid: 060115af-38d1-499c-b30c-47cd0cf42d20
+title: Large-Page Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Large-Page Support

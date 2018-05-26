@@ -4,10 +4,13 @@ description: The target data to which an attribute manipulation rule is applied.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6d06a15-2694-410c-8083-6e5fe500b809'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: a6d06a15-2694-410c-8083-6e5fe500b809
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Manipulation-Target

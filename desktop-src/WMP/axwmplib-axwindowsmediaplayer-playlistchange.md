@@ -1,8 +1,9 @@
 ---
 title: PlaylistChange Event of the AxWindowsMediaPlayer Object
 description: The PlaylistChange event occurs when a playlist changes.
-ms.assetid: 'e4166d81-a205-401a-94c4-a1619e764647'
-keywords: ["PlaylistChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: e4166d81-a205-401a-94c4-a1619e764647
+keywords:
+- PlaylistChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistChange Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Pla
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,9 +74,9 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Pla
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

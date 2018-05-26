@@ -1,7 +1,7 @@
 ---
 title: TS\_SD\_\ Constants
 description: The TS\_SD\_\ constants describe dynamic document states used by an application at runtime.
-ms.assetid: 'fb673e42-bee7-484e-872a-d709d5ca12f2'
+ms.assetid: fb673e42-bee7-484e-872a-d709d5ca12f2
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_SD\_\* Constants
@@ -30,7 +35,7 @@ The TS\_SD\_\* constants describe dynamic document states used by an application
 
 ## Remarks
 
-The **dwDynamicFlags** member of the [TS\_STATUS](ts-status.md) structure uses these constants.
+The **dwDynamicFlags** member of the [TS\_STATUS](/windows/win32/Textstor/ns-textstor-ts_status?branch=master) structure uses these constants.
 
 ## Requirements
 
@@ -38,9 +43,9 @@ The **dwDynamicFlags** member of the [TS\_STATUS](ts-status.md) structure uses t
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -50,15 +55,15 @@ The **dwDynamicFlags** member of the [TS\_STATUS](ts-status.md) structure uses t
 
 <dl> <dt>
 
-[TS\_STATUS](ts-status.md)
+[TS\_STATUS](/windows/win32/Textstor/ns-textstor-ts_status?branch=master)
 </dt> <dt>
 
 [TF\_SD\_\* Constants](tf-sd--constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

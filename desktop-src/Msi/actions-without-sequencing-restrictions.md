@@ -1,7 +1,12 @@
 ---
-Description: 'The sequencing of the following actions is unrestricted. These actions can be placed anywhere in the action sequence.'
-ms.assetid: '35ccfad2-b022-4446-8275-a3b26f4e4db2'
+Description: The sequencing of the following actions is unrestricted. These actions can be placed anywhere in the action sequence.
+ms.assetid: 35ccfad2-b022-4446-8275-a3b26f4e4db2
 title: Actions without Sequencing Restrictions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Actions without Sequencing Restrictions

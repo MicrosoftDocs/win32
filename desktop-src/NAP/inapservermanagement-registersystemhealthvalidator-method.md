@@ -1,8 +1,11 @@
 ---
 title: INapServerManagement RegisterSystemHealthValidator method
 description: Registers an SHV.
-ms.assetid: '23f147d5-3c4e-48ca-940a-c4350ad6ecb3'
-keywords: ["RegisterSystemHealthValidator method NAP", "RegisterSystemHealthValidator method NAP , INapServerManagement interface", "INapServerManagement interface NAP , RegisterSystemHealthValidator method"]
+ms.assetid: 23f147d5-3c4e-48ca-940a-c4350ad6ecb3
+keywords:
+- RegisterSystemHealthValidator method NAP
+- RegisterSystemHealthValidator method NAP , INapServerManagement interface
+- INapServerManagement interface NAP , RegisterSystemHealthValidator method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerManagement::RegisterSystemHealthValidator method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerManagement::RegisterSystemHealthValidator** method registers an SHV.
 
@@ -27,8 +35,8 @@ The **INapServerManagement::RegisterSystemHealthValidator** method registers an 
 
 ```C++
 HRESULT RegisterSystemHealthValidator(
-  [in] const NapComponentRegistrationInfo *validator,
-  [in] const CLSID                        *validatorClsid
+  [in] const NapComponentRegistrationInfo *validator,
+  [in] const CLSID                        *validatorClsid
 );
 ```
 
@@ -41,7 +49,7 @@ HRESULT RegisterSystemHealthValidator(
 *validator* \[in\]
 </dt> <dd>
 
-A pointer to a [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) structure that contains the SHV registration information.
+A pointer to a [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) structure that contains the SHV registration information.
 
 </dd> <dt>
 
@@ -67,7 +75,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,7 +84,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -90,9 +98,9 @@ Other COM-specific error codes also may be returned.
 [**INapServerManagement**](inapservermanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

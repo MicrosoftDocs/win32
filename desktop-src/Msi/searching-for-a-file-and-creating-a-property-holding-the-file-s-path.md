@@ -1,7 +1,12 @@
-﻿---
-Description: 'During a Windows Installer installation, the installer can search for a file and create a property containing the file''s path.'
-ms.assetid: '6587b349-852d-4d4e-a8d4-76dfb0ef0f0b'
-title: 'Searching for a File and Creating a Property Holding the File''s Path'
+---
+Description: During a Windows Installer installation, the installer can search for a file and create a property containing the files path.
+ms.assetid: 6587b349-852d-4d4e-a8d4-76dfb0ef0f0b
+title: Searching for a File and Creating a Property Holding the Files Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching for a File and Creating a Property Holding the File's Path

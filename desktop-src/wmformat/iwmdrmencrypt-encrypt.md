@@ -1,8 +1,11 @@
 ---
 title: IWMDRMEncrypt Encrypt method
 description: The Encrypt method encrypts a data buffer in place.
-ms.assetid: '9626f53e-3602-4369-99ed-fbcd8d5f4d9e'
-keywords: ["Encrypt method windows Media Format", "Encrypt method windows Media Format , IWMDRMEncrypt interface", "IWMDRMEncrypt interface windows Media Format , Encrypt method"]
+ms.assetid: 9626f53e-3602-4369-99ed-fbcd8d5f4d9e
+keywords:
+- Encrypt method windows Media Format
+- Encrypt method windows Media Format , IWMDRMEncrypt interface
+- IWMDRMEncrypt interface windows Media Format , Encrypt method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEncrypt::Encrypt method
@@ -22,9 +30,9 @@ The **Encrypt** method encrypts a data buffer in place.
 
 ```C++
 HRESULT Encrypt(
-  [in, out] BYTE            *pbData,
-  [in]      DWORD           cbData,
-  [in]      WMDRMCryptoData *pWMCryptoData
+  [in, out] BYTE            *pbData,
+  [in]      DWORD           cbData,
+  [in]      WMDRMCryptoData *pWMCryptoData
 );
 ```
 
@@ -67,7 +75,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,9 +101,9 @@ None.
 [**WMDRMCryptoData**](wmdrmcryptodata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

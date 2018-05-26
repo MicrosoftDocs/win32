@@ -1,14 +1,20 @@
 ---
 title: Name Simple Type
 description: Defines a string that you use to specify a name value.
-ms.assetid: 'b360fd73-f91a-4a76-9c50-4ae61507af54'
-keywords: ["Name simple type Windows Troubleshooting Toolkit"]
+ms.assetid: b360fd73-f91a-4a76-9c50-4ae61507af54
+keywords:
+- Name simple type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Simple Type
@@ -51,8 +57,8 @@ The string must contain a least one character but no more than 256 characters.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The string must contain a least one character but no more than 256 characters.
 [**Script**](package-script-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

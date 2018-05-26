@@ -4,17 +4,21 @@ description: Protection policy type.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '441AFB9C-B362-4CCD-BD64-07A3BCE20729'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 441AFB9C-B362-4CCD-BD64-07A3BCE20729
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicyType enum"]
+keywords:
+- MSUserPolicyType enum
 topic_type:
 - apiref
 api_name:
 - MSUserPolicyType enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicyType enum
@@ -41,7 +45,7 @@ typedef NS_ENUM(NSUInteger, MSUserPolicyType) {
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -57,11 +61,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_RdvComponentSettingData class
 description: Represents the configured state of the Remote Desktop Virtualization (RDV) component.
-ms.assetid: '61989c72-b39d-4174-9838-6e851f6063fd'
-keywords: ["Msvm_RdvComponentSettingData class Hyper-V", "Msvm_RdvComponentSettingData class Hyper-V , described"]
+ms.assetid: 61989c72-b39d-4174-9838-6e851f6063fd
+keywords:
+- Msvm_RdvComponentSettingData class Hyper-V
+- Msvm_RdvComponentSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_RdvComponentSettingData class
@@ -49,28 +56,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_RdvComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint16  EnabledState = 2;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint16  EnabledState = 2;
 };
 ```
 
@@ -245,14 +252,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -348,7 +355,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -430,14 +437,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF Reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -752,14 +759,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF reserved**
 
 
-</dt> <dd>34–32767</dd> <dt>
+</dt> <dd>34 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–35535</dd> </dl>
+</dt> <dd>32768 35535</dd> </dl>
 
 </dd> <dt>
 
@@ -806,9 +813,9 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -821,9 +828,9 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

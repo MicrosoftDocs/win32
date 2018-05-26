@@ -1,8 +1,9 @@
 ---
 title: New Trace Control Flags
 description: The following two WPT/ETW trace control flags have been added.
-ms.assetid: '6afe8c1e-1375-4412-a38e-7b40f2e4a950'
-keywords: ["New Trace Control Flags Windows Performance Analyzer"]
+ms.assetid: 6afe8c1e-1375-4412-a38e-7b40f2e4a950
+keywords:
+- New Trace Control Flags Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - KernelTraceControl.dll.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Trace Control Flags
@@ -64,9 +70,9 @@ A single kernel trace control flag enables or disables logging of a kernel event
 [EVENT\_TRACE\_PROPERTIES](http://go.microsoft.com/fwlink/p/?linkid=141500)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

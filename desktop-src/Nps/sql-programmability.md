@@ -4,10 +4,13 @@ description: NPS supports SQL Server logging.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '55152f56-9ca4-4d0b-a0e9-223168dba83f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 55152f56-9ca4-4d0b-a0e9-223168dba83f
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SQL Programmability

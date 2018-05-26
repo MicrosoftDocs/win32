@@ -1,8 +1,14 @@
 ---
 title: Getting Started with the Rasterizer Stage
 description: This section describes setting the viewport, the scissors rectangle, the rasterizer state, and multi-sampling.
-ms.assetid: 'd78c3845-76fd-4bd7-a603-bb1d8c66ac49'
-keywords: ["multisampling, rasterizer state (Direct3D 10)"]
+ms.assetid: d78c3845-76fd-4bd7-a603-bb1d8c66ac49
+keywords:
+- multisampling, rasterizer state (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with the Rasterizer Stage
@@ -22,7 +28,7 @@ Z = Viewport.MinDepth + Z * (Viewport.MaxDepth - Viewport.MinDepth)
 
 
 
-Tutorial 1 creates a 640 × 480 viewport using [**D3D11\_VIEWPORT**](d3d11-viewport.md) and by calling [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetviewports.md).
+Tutorial 1 creates a 640 × 480 viewport using [**D3D11\_VIEWPORT**](/windows/win32/D3D11/ns-d3d11-d3d11_viewport?branch=master) and by calling [**ID3D11DeviceContext::RSSetViewports**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports?branch=master).
 
 
 ```
@@ -48,9 +54,9 @@ The maximum number of viewports (and scissor rectangles) that can be bound to th
 
 A scissor rectangle gives you another opportunity to reduce the number of pixels that will be sent to the output merger stage. Pixels outside of the scissor rectangle are discarded. The size of the scissor rectangle is specified in integers. Only one scissor rectangle (based on *ViewportArrayIndex* in [system value semantics](https://msdn.microsoft.com/library/windows/desktop/bb509647)) can be applied to a triangle during rasterization.
 
-To enable the scissor rectangle, use the *ScissorEnable* member (in [**D3D11\_RASTERIZER\_DESC1**](d3d11-rasterizer-desc1.md)). The default scissor rectangle is an empty rectangle; that is, all rect values are 0. In other words, if you do not set up the scissor rectangle and scissor is enabled, you will not send any pixels to the output-merger stage. The most common setup is to initialize the scissor rectangle to the size of the viewport.
+To enable the scissor rectangle, use the *ScissorEnable* member (in [**D3D11\_RASTERIZER\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1?branch=master)). The default scissor rectangle is an empty rectangle; that is, all rect values are 0. In other words, if you do not set up the scissor rectangle and scissor is enabled, you will not send any pixels to the output-merger stage. The most common setup is to initialize the scissor rectangle to the size of the viewport.
 
-To set an array of scissor rectangles to the device, call [**ID3D11DeviceContext::RSSetScissorRects**](id3d11devicecontext-rssetscissorrects.md) with [**D3D11\_RECT**](d3d11-rect.md).
+To set an array of scissor rectangles to the device, call [**ID3D11DeviceContext::RSSetScissorRects**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetscissorrects?branch=master) with [**D3D11\_RECT**](d3d11-rect.md).
 
 
 ```
@@ -73,7 +79,7 @@ The pipeline uses a default scissor rectangle index during rasterization (the de
 
 Beginning with Direct3D 10, rasterizer state is encapsulated in a rasterizer state object. You may create up to 4096 rasterizer state objects which can then be set to the device by passing a handle to the state object.
 
-Use [**ID3D11Device1::CreateRasterizerState1**](id3d11device1-createrasterizerstate1.md) to create a rasterizer state object from a rasterizer description (see [**D3D11\_RASTERIZER\_DESC1**](d3d11-rasterizer-desc1.md)).
+Use [**ID3D11Device1::CreateRasterizerState1**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11device1-createrasterizerstate1?branch=master) to create a rasterizer state object from a rasterizer description (see [**D3D11\_RASTERIZER\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1?branch=master)).
 
 
 ```
@@ -116,7 +122,7 @@ In addition, basic rasterizer operations, always include the following: clipping
 
 Multisampling samples some or all of the components of an image at a higher resolution (followed by downsampling to the original resolution) to reduce the most visible form of aliasing caused by drawing polygon edges. Even though multisampling requires sub-pixel samples, modern GPU's implement multisampling so that a pixel shader runs once per pixel. This provides an acceptable tradeoff between performance (especially in a GPU bound application) and anti-aliasing the final image.
 
-To use multisampling, set the enable field in the [**rasterization description**](d3d11-rasterizer-desc1.md), create a multisampled render target, and either read the render target with a shader to resolve the samples into a single pixel color or call [**ID3D11DeviceContext::ResolveSubresource**](id3d11devicecontext-resolvesubresource.md) to resolve the samples using the video card. The most common scenario is to draw to one or more multisampled render targets.
+To use multisampling, set the enable field in the [**rasterization description**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_rasterizer_desc1?branch=master), create a multisampled render target, and either read the render target with a shader to resolve the samples into a single pixel color or call [**ID3D11DeviceContext::ResolveSubresource**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-resolvesubresource?branch=master) to resolve the samples using the video card. The most common scenario is to draw to one or more multisampled render targets.
 
 Multisampling is independent of whether or not a sample mask is used, [alpha-to-coverage](d3d10-graphics-programming-guide-blend-state.md#alpha-to-coverage) is enabled, or stencil operations (which are always performed per-sample).
 

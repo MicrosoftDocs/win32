@@ -1,7 +1,12 @@
 ---
 title: FROM Clause
 description: FROM Clause
-ms.assetid: '758a5f63-c4ee-4524-92d8-3b135a365540'
+ms.assetid: 758a5f63-c4ee-4524-92d8-3b135a365540
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FROM Clause

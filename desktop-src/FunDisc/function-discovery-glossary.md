@@ -1,8 +1,13 @@
 ---
-Description: 'A glossary of Function Discovery terms.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'ba99ece9-2449-4c35-9047-95426708af1b'
+Description: A glossary of Function Discovery terms.
+Robots: noindex, nofollow
+ms.assetid: ba99ece9-2449-4c35-9047-95426708af1b
 title: Function Discovery Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Glossary

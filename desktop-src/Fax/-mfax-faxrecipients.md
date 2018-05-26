@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxRecipients messaging collection is used by a fax client application to manage the fax recipient objects (FaxRecipient) that represent the recipients of a single fax document. The collection also includes methods to add and remove recipients.'
-ms.assetid: 'b0210d82-5d62-4192-a05c-455c9f3adf9b'
+---
+Description: The FaxRecipients messaging collection is used by a fax client application to manage the fax recipient objects (FaxRecipient) that represent the recipients of a single fax document. The collection also includes methods to add and remove recipients.
+ms.assetid: b0210d82-5d62-4192-a05c-455c9f3adf9b
 title: FaxRecipients object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipients object

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_POTSModem class represents a device that translates binary data into wave modulations for sound-based transmission by connecting to the Plain Old Telephone System (POTS) network.'
+Description: The CIM\_POTSModem class represents a device that translates binary data into wave modulations for sound-based transmission by connecting to the Plain Old Telephone System (POTS) network.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2740f305-769d-464c-910a-998522f5121b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2740f305-769d-464c-910a-998522f5121b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_POTSModem class'
+title: CIM\_POTSModem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_POTSModem class
@@ -19,7 +22,7 @@ The **CIM\_POTSModem** class represents a device that translates binary data int
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,41 +32,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C546-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_POTSModem : CIM_LogicalDevice
 {
-  uint16   AnswerMode;
-  uint16   Availability;
-  string   Caption;
-  uint16   CompressionInfo;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CountriesSupported[];
-  string   CountrySelected;
-  string   CreationClassName;
-  string   CurrentPasswords[];
-  string   Description;
-  string   DeviceID;
-  uint16   DialType;
-  boolean  ErrorCleared;
-  uint16   ErrorControlInfo;
-  string   ErrorDescription;
-  uint32   InactivityTimeout;
+  uint16   AnswerMode;
+  uint16   Availability;
+  string   Caption;
+  uint16   CompressionInfo;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CountriesSupported[];
+  string   CountrySelected;
+  string   CreationClassName;
+  string   CurrentPasswords[];
+  string   Description;
+  string   DeviceID;
+  uint16   DialType;
+  boolean  ErrorCleared;
+  uint16   ErrorControlInfo;
+  string   ErrorDescription;
+  uint32   InactivityTimeout;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint32   MaxBaudRateToPhone;
-  uint32   MaxBaudRateToSerialPort;
-  uint16   MaxNumberOfPasswords;
-  uint16   ModulationScheme;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint8    RingsBeforeAnswer;
-  uint16   SpeakerVolumeInfo;
-  string   Status;
-  uint16   StatusInfo;
-  boolean  SupportsCallback;
-  boolean  SupportsSynchronousConnect;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  uint32   MaxBaudRateToPhone;
+  uint32   MaxBaudRateToSerialPort;
+  uint16   MaxNumberOfPasswords;
+  uint16   ModulationScheme;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint8    RingsBeforeAnswer;
+  uint16   SpeakerVolumeInfo;
+  string   Status;
+  uint16   StatusInfo;
+  boolean  SupportsCallback;
+  boolean  SupportsSynchronousConnect;
+  string   SystemCreationClassName;
+  string   SystemName;
   datetime TimeOfLastReset;
 };
 ```
@@ -88,7 +91,7 @@ The **CIM\_POTSModem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1676,8 +1679,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1691,9 +1694,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

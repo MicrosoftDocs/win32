@@ -1,8 +1,9 @@
 ---
 title: EM\_FINDTEXTW message
 description: Finds Unicode text within a rich edit control.
-ms.assetid: '0c1579f5-3b37-4e28-86a2-f4e03e195f38'
-keywords: ["EM_FINDTEXTW message Windows Controls"]
+ms.assetid: 0c1579f5-3b37-4e28-86a2-f4e03e195f38
+keywords:
+- EM_FINDTEXTW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_FINDTEXTW message
@@ -39,24 +45,24 @@ Specifies the parameters of the search operation. This parameter can be one or m
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A [**FINDTEXTW**](findtext.md) structure containing information about the find operation.
+A [**FINDTEXTW**](/windows/win32/Richedit/ns-richedit-_findtext?branch=master) structure containing information about the find operation.
 
 </dd> </dl>
 
 ## Return value
 
-If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is –1.
+If the target string is found, the return value is the zero-based position of the first character of the match. If the target is not found, the return value is  1.
 
 ## Remarks
 
-**EM\_FINDTEXTW** uses the [**FINDTEXTW**](findtext.md) structure, while [**EM\_FINDTEXTEXW**](em-findtextexw.md) uses the [**FINDTEXTEXW**](findtextex.md) structure. The difference is that **FINDTEXTEXW** reports back the range of text that was found.
+**EM\_FINDTEXTW** uses the [**FINDTEXTW**](/windows/win32/Richedit/ns-richedit-_findtext?branch=master) structure, while [**EM\_FINDTEXTEXW**](em-findtextexw.md) uses the [**FINDTEXTEXW**](/windows/win32/Richedit/ns-richedit-_findtextexa?branch=master) structure. The difference is that **FINDTEXTEXW** reports back the range of text that was found.
 
 ## Requirements
 
@@ -64,8 +70,8 @@ If the target string is found, the return value is the zero-based position of th
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ If the target string is found, the return value is the zero-based position of th
 [**EM\_FINDTEXTEXW**](em-findtextexw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

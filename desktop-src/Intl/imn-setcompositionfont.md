@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when the font of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: '946bee83-91af-4647-9b22-96d42466352c'
-title: 'IMN\_SETCOMPOSITIONFONT notification code'
+---
+Description: Notifies an application when the font of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: 946bee83-91af-4647-9b22-96d42466352c
+title: IMN\_SETCOMPOSITIONFONT notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_SETCOMPOSITIONFONT notification code
@@ -39,7 +44,7 @@ This command has no return value.
 
 ## Remarks
 
-The application can get information about the font by using the [**ImmGetCompositionFont**](immgetcompositionfont.md) function. The IME window subsequently uses the font to draw the composition string.
+The application can get information about the font by using the [**ImmGetCompositionFont**](/windows/win32/Imm/nf-imm-immgetcompositionfonta?branch=master) function. The IME window subsequently uses the font to draw the composition string.
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The application can get information about the font by using the [**ImmGetComposi
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**ImmGetCompositionFont**](immgetcompositionfont.md)
+[**ImmGetCompositionFont**](/windows/win32/Imm/nf-imm-immgetcompositionfonta?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_NOTIFY**](wm-ime-notify.md)

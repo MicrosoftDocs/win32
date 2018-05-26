@@ -1,7 +1,12 @@
 ---
 title: Show Event
 description: Show Event
-ms.assetid: '8a73e883-c003-480b-8a0a-e699caffe54c'
+ms.assetid: 8a73e883-c003-480b-8a0a-e699caffe54c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Show Event
@@ -31,7 +36,7 @@ Occurs when a character is displayed.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -44,9 +49,9 @@ The server sends this event to all clients of the character. To query the curren
 [**Hide event**](hide-event.md), [**VisibilityCause**](visibilitycause-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

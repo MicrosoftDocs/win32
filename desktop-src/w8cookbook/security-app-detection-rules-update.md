@@ -1,7 +1,12 @@
 ---
 title: Security app detection rules update
 description: Security app detection rules update
-ms.assetid: 'A272C09B-A777-4119-BAB9-F91ABC03717A'
+ms.assetid: A272C09B-A777-4119-BAB9-F91ABC03717A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security app detection rules update

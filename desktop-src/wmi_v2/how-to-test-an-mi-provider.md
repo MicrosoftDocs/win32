@@ -1,13 +1,16 @@
 ---
 title: How to Test an MI Provider Using Windows PowerShell
-description: PowerShell includes a cmdlet - Get-CimClass - that makes easy work of exercising an MI provider's classes.
+description: PowerShell includes a cmdlet - Get-CimClass - that makes easy work of exercising an MI providers classes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15F435C7-E365-43F0-AD86-15DDFE717051'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 15F435C7-E365-43F0-AD86-15DDFE717051
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Test an MI Provider Using Windows PowerShell

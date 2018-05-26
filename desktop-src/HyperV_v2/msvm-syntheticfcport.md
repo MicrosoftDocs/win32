@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a synthetic Fibre Channel port.'
-ms.assetid: '6ca827b5-3ea0-4967-ba1f-b41e84c84009'
-title: 'Msvm\_SyntheticFcPort class'
+Description: Represents a synthetic Fibre Channel port.
+ms.assetid: 6ca827b5-3ea0-4967-ba1f-b41e84c84009
+title: Msvm\_SyntheticFcPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticFcPort class
@@ -16,64 +21,64 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticFcPort : CIM_FCPort
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint64   Speed;
-  uint64   MaxSpeed;
-  uint64   RequestedSpeed;
-  uint16   UsageRestriction;
-  uint16   PortType;
-  string   OtherPortType;
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology = 4;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  string   NetworkAddresses[];
-  boolean  FullDuplex;
-  boolean  AutoSense;
-  uint64   SupportedMaximumTransmissionUnit;
-  uint64   ActiveMaximumTransmissionUnit;
-  uint16   SupportedCOS[];
-  uint16   ActiveCOS[];
-  uint16   SupportedFC4Types[];
-  uint16   ActiveFC4Types[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint64   Speed;
+  uint64   MaxSpeed;
+  uint64   RequestedSpeed;
+  uint16   UsageRestriction;
+  uint16   PortType;
+  string   OtherPortType;
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology = 4;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  string   NetworkAddresses[];
+  boolean  FullDuplex;
+  boolean  AutoSense;
+  uint64   SupportedMaximumTransmissionUnit;
+  uint64   ActiveMaximumTransmissionUnit;
+  uint16   SupportedCOS[];
+  uint16   ActiveCOS[];
+  uint16   SupportedFC4Types[];
+  uint16   ActiveFC4Types[];
 };
 ```
 
@@ -103,7 +108,7 @@ The **Msvm\_SyntheticFcPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -493,7 +498,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -623,7 +628,7 @@ Specifies the type of link technology for the port. When set to 1 (Other), the *
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1347,17 +1352,17 @@ In some circumstances, a logical port might be identifiable as a front end or ba
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

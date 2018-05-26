@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies how IPropertyDescription::FormatForDisplay should format the property''s value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;DateTime&\#0034;&gt;.'
-ms.assetid: 'c290fb2e-ef5b-4dea-ba42-7c9e273a89dc'
+Description: Specifies how IPropertyDescriptionFormatForDisplay should format the propertys value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;DateTime&\#0034;&gt;.
+ms.assetid: c290fb2e-ef5b-4dea-ba42-7c9e273a89dc
 title: dateTimeFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dateTimeFormat

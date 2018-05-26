@@ -4,11 +4,16 @@ description: When the number of failed logon attempts is exceeded, the user acco
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd7c4134a-0712-4809-83ec-cc09e87afae9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d7c4134a-0712-4809-83ec-cc09e87afae9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Account Lockout ADSI ,WinNT provider", "WinNT provider ADSI ,user management examples,Account Lockout"]
+keywords:
+- Account Lockout ADSI ,WinNT provider
+- WinNT provider ADSI ,user management examples,Account Lockout
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account Lockout (WinNT Provider)

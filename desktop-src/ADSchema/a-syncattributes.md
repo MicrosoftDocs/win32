@@ -4,17 +4,22 @@ description: Attributes that contain information on the sync objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8b67462f-945c-4609-b8d1-a86d628bfc27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8b67462f-945c-4609-b8d1-a86d628bfc27
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Sync-Attributes attribute AD Schema", "syncAttributes attribute AD Schema"]
+keywords:
+- Sync-Attributes attribute AD Schema
+- syncAttributes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Sync-Attributes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Sync-Attributes attribute

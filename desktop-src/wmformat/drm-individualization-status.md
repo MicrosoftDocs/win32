@@ -1,8 +1,10 @@
 ---
 title: DRM\_INDIVIDUALIZATION\_STATUS enumeration
 description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization.
-ms.assetid: '4e6712e2-3297-4636-9b0c-07269bd63d52'
-keywords: ["DRM_INDIVIDUALIZATION_STATUS enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: 4e6712e2-3297-4636-9b0c-07269bd63d52
+keywords:
+- DRM_INDIVIDUALIZATION_STATUS enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,24 +13,29 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_INDIVIDUALIZATION\_STATUS enumeration
 
-The **DRM\_INDIVIDUALIZATION\_STATUS** enumeration type defines the valid states for DRM [*individualization*](wmformat-glossary.md#wmformat-individualization). When an application initiates individualization with a call to [**IWMDRMReader::Individualize**](iwmdrmreader-individualize.md), the progress of the individualization request is conveyed to the application through calls to the [**IWMStatusCallback::OnStatus**](iwmstatuscallback-onstatus.md) method. Individualization status messages will all use the WMT\_INDIVIDUALIZE member of the [**WMT\_STATUS**](wmt-status.md) enumeration type as the *Status* parameter. The status of the individualization is passed to **OnStatus** in the *pValue* parameter.
+The **DRM\_INDIVIDUALIZATION\_STATUS** enumeration type defines the valid states for DRM [*individualization*](wmformat-glossary.md#wmformat-individualization). When an application initiates individualization with a call to [**IWMDRMReader::Individualize**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize?branch=master), the progress of the individualization request is conveyed to the application through calls to the [**IWMStatusCallback::OnStatus**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus?branch=master) method. Individualization status messages will all use the WMT\_INDIVIDUALIZE member of the [**WMT\_STATUS**](/windows/win32/Wmsdkidl/ne-wmsdkidl-wmt_status?branch=master) enumeration type as the *Status* parameter. The status of the individualization is passed to **OnStatus** in the *pValue* parameter.
 
 ## Syntax
 
 
 ```C++
 typedef enum DRM_INDIVIDUALIZATION_STATUS { 
-  INDI_UNDEFINED  = 0x0000,
-  INDI_BEGIN      = 0x0001,
-  INDI_SUCCEED    = 0x0002,
-  INDI_FAIL       = 0x0004,
-  INDI_CANCEL     = 0x0008,
-  INDI_DOWNLOAD   = 0x0010,
-  INDI_INSTALL    = 0x0020
+  INDI_UNDEFINED  = 0x0000,
+  INDI_BEGIN      = 0x0001,
+  INDI_SUCCEED    = 0x0002,
+  INDI_FAIL       = 0x0004,
+  INDI_CANCEL     = 0x0008,
+  INDI_DOWNLOAD   = 0x0010,
+  INDI_INSTALL    = 0x0020
 } ;
 ```
 
@@ -69,7 +76,7 @@ Indicates that the individualization process failed.
 <span id="INDI_CANCEL"></span><span id="indi_cancel"></span>**INDI\_CANCEL**
 </dt> <dd>
 
-Indicates that the individualization process was canceled as the result of a call to [**IWMDRMReader::CancelIndividualization**](iwmdrmreader-cancelindividualization.md).
+Indicates that the individualization process was canceled as the result of a call to [**IWMDRMReader::CancelIndividualization**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization?branch=master).
 
 </dd> <dt>
 
@@ -97,8 +104,8 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](wm-individualize
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
 | Version<br/>                  | Windows Media Format 7 SDK, or later versions of the SDK<br/>                       |
 | Header<br/>                   | <dl> <dt>Drmexternals.h</dt> </dl> |
 
@@ -114,9 +121,9 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](wm-individualize
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

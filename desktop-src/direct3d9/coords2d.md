@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a two dimensional vector used to define a mesh''s (u, v) texture coordinates.'
-ms.assetid: '6e91f75b-1ca7-404a-96d8-135b73ac7d72'
+Description: Defines a two dimensional vector used to define a meshs (u, v) texture coordinates.
+ms.assetid: 6e91f75b-1ca7-404a-96d8-135b73ac7d72
 title: Coords2d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coords2d

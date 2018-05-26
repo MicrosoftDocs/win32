@@ -1,7 +1,12 @@
 ---
 Description: Advanced Topology Building
-ms.assetid: '66aa07d8-6756-4d5b-9f0a-24b902da6fa2'
+ms.assetid: 66aa07d8-6756-4d5b-9f0a-24b902da6fa2
 title: Advanced Topology Building
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Topology Building
@@ -17,7 +22,7 @@ The typical playback application follows these steps:
 
 If you want to go beyond the capabilities of the topology loader, there are three general approaches:
 
--   Build a complete topology. When you queue the topology on the Media Session, call [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) with the MFSESSION\_SETTOPOLOGY\_NORESOLUTION flag. This flag prevents the Media Session from attempting to resolve the topology.
+-   Build a complete topology. When you queue the topology on the Media Session, call [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) with the MFSESSION\_SETTOPOLOGY\_NORESOLUTION flag. This flag prevents the Media Session from attempting to resolve the topology.
 
 -   Directly invoke the topology loader to resolve the topology. You can then modify the full topology before queuing it on the Media Session.
 
@@ -29,7 +34,7 @@ This section contains the following topics.
 
 | Topic                                                                          | Description                                                                                                      |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| [Custom Topology Loaders](custom-topology-loaders.md)                         | How to provide a custom implementation of [**IMFTopoLoader**](imftopoloader.md) for the Media Session.          |
+| [Custom Topology Loaders](custom-topology-loaders.md)                         | How to provide a custom implementation of [**IMFTopoLoader**](/windows/win32/mfidl/nn-mfidl-imftopoloader?branch=master) for the Media Session.          |
 | [Binding Output Nodes to Media Sinks](binding-output-nodes-to-media-sinks.md) | How to prepare the output nodes in a topology if you are using the topology loader outside of the Media Session. |
 | [Adding a Decoder to a Topology](adding-a-decoder-to-a-topology.md)           | How to select a decoder manually and add it to a topology.                                                       |
 

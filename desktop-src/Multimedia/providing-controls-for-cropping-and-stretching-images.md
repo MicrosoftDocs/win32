@@ -1,8 +1,17 @@
 ---
 title: Providing Controls for Cropping and Stretching Images
 description: Providing Controls for Cropping and Stretching Images
-ms.assetid: 'cc62d70d-3f5f-477c-bc09-ab8ab0a9dce3'
-keywords: ["MCIWndGetSource macro", "MCIWndPutSource macro", "MCIWndGetDest macro", "MCIWndPutDest macro"]
+ms.assetid: cc62d70d-3f5f-477c-bc09-ab8ab0a9dce3
+keywords:
+- MCIWndGetSource macro
+- MCIWndPutSource macro
+- MCIWndGetDest macro
+- MCIWndPutDest macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing Controls for Cropping and Stretching Images
@@ -17,14 +26,14 @@ The destination rectangle is a rectangular area that defines a virtual playback 
 
 The playback area is the portion of an MCIWnd window an application uses to display the video clip. The playback area is the client area of an MCIWnd window or the portion of the client area that excludes the MCIWnd toolbar. When a video clip is loaded with MCIWnd, the playback area is initialized with the same dimensions and position as the initial frame of the video clip.
 
-You can crop a video clip by using the [**MCIWndGetSource**](mciwndgetsource.md) and [**MCIWndPutSource**](mciwndputsource.md) macros to alter the source rectangle. Cropping an image determines only which portion of the frames are displayed during playback; it does not alter the content of the file being played. Before you crop an image, you can retrieve the current size of the source rectangle by using **MCIWndGetSource**. After the new size and location of the source rectangle are calculated, you can set the cropping boundaries of the source rectangle by using **MCIWndPutSource**.
+You can crop a video clip by using the [**MCIWndGetSource**](/windows/win32/Vfw/nf-vfw-mciwndgetsource?branch=master) and [**MCIWndPutSource**](/windows/win32/Vfw/nf-vfw-mciwndputsource?branch=master) macros to alter the source rectangle. Cropping an image determines only which portion of the frames are displayed during playback; it does not alter the content of the file being played. Before you crop an image, you can retrieve the current size of the source rectangle by using **MCIWndGetSource**. After the new size and location of the source rectangle are calculated, you can set the cropping boundaries of the source rectangle by using **MCIWndPutSource**.
 
-You can stretch a video clip by using the [**MCIWndGetDest**](mciwndgetdest.md) and [**MCIWndPutDest**](mciwndputdest.md) macros to alter the destination rectangle. When you stretch a video clip, you lengthen or shorten the frame size of a video clip vertically, horizontally, or in both directions. Before you stretch an image, you can retrieve the current size and location of the destination rectangle by using **MCIWndGetDest**. The **MCIWndPutDest** macro allows you to redefine the destination rectangle. Stretching can distort the image during playback, but it does not alter the content of the file being played.
+You can stretch a video clip by using the [**MCIWndGetDest**](/windows/win32/Vfw/nf-vfw-mciwndgetdest?branch=master) and [**MCIWndPutDest**](/windows/win32/Vfw/nf-vfw-mciwndputdest?branch=master) macros to alter the destination rectangle. When you stretch a video clip, you lengthen or shorten the frame size of a video clip vertically, horizontally, or in both directions. Before you stretch an image, you can retrieve the current size and location of the destination rectangle by using **MCIWndGetDest**. The **MCIWndPutDest** macro allows you to redefine the destination rectangle. Stretching can distort the image during playback, but it does not alter the content of the file being played.
 
 If the size of the destination rectangle becomes larger than the playback area, you can specify which portion of the playback area will display the video clip by using **MCIWndPutDest**.
 
 > [!Note]  
-> The [**MCIWndPutDest**](mciwndputdest.md) macro does not change the size of the playback area. To stretch the MCIWnd window along with the destination rectangle, you need to know the current size of the MCIWnd window and issue new window dimensions based on the destination rectangle. You can retrieve the MCIWnd window dimensions by using the [GetWindowRect](http://go.microsoft.com/fwlink/p/?linkid=17109) function and resize the MCIWnd window by using the [SetWindowPos](http://go.microsoft.com/fwlink/p/?linkid=17105) function.
+> The [**MCIWndPutDest**](/windows/win32/Vfw/nf-vfw-mciwndputdest?branch=master) macro does not change the size of the playback area. To stretch the MCIWnd window along with the destination rectangle, you need to know the current size of the MCIWnd window and issue new window dimensions based on the destination rectangle. You can retrieve the MCIWnd window dimensions by using the [GetWindowRect](http://go.microsoft.com/fwlink/p/?linkid=17109) function and resize the MCIWnd window by using the [SetWindowPos](http://go.microsoft.com/fwlink/p/?linkid=17105) function.
 
  
 

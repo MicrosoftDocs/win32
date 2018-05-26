@@ -4,13 +4,16 @@ description: Retrieves the supported size range for pools that support a range o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '70a44635-b58c-4e36-9e31-dc2f5499a9be'
-ms.prod: 'windows-server-dev'
+ms.assetid: 70a44635-b58c-4e36-9e31-dc2f5499a9be
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedSizeRange method iSCSI Software Target API", "GetSupportedSizeRange method iSCSI Software Target API , MSISCSITARGET_StoragePool class", "MSISCSITARGET_StoragePool class iSCSI Software Target API , GetSupportedSizeRange method"]
+keywords:
+- GetSupportedSizeRange method iSCSI Software Target API
+- GetSupportedSizeRange method iSCSI Software Target API , MSISCSITARGET_StoragePool class
+- MSISCSITARGET_StoragePool class iSCSI Software Target API , GetSupportedSizeRange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedSizeRange method of the MSISCSITARGET\_StoragePool class
@@ -32,11 +38,11 @@ Different implementations might support either or both the [**GetSupportedSizes*
 
 ```mof
 uint32 GetSupportedSizeRange(
-  [in]  uint16                 ElementType,
-  [in]  CIM_StorageSetting REF Goal,
-  [out] uint64                 MinimumVolumeSize,
-  [out] uint64                 MaximumVolumeSize,
-  [out] uint64                 VolumeSizeDivisor
+  [in]  uint16                 ElementType,
+  [in]  CIM_StorageSetting REF Goal,
+  [out] uint64                 MinimumVolumeSize,
+  [out] uint64                 MaximumVolumeSize,
+  [out] uint64                 VolumeSizeDivisor
 );
 ```
 
@@ -124,7 +130,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -138,9 +144,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_StoragePool**](msiscsitarget-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

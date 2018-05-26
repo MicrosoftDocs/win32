@@ -1,7 +1,12 @@
 ---
-Description: 'The SetAllocator method specifies an allocator for the connection.'
-ms.assetid: '6b8e80f9-3b0d-498f-b1b0-bae491c25e81'
-title: 'CTransInPlaceOutputPin.SetAllocator method'
+Description: The SetAllocator method specifies an allocator for the connection.
+ms.assetid: 6b8e80f9-3b0d-498f-b1b0-bae491c25e81
+title: CTransInPlaceOutputPin.SetAllocator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceOutputPin.SetAllocator method
@@ -13,7 +18,7 @@ The `SetAllocator` method specifies an allocator for the connection.
 
 ```C++
 void SetAllocator(
-   IMemAllocator *pAllocator
+   IMemAllocator *pAllocator
 );
 ```
 
@@ -26,7 +31,7 @@ void SetAllocator(
 *pAllocator* 
 </dt> <dd>
 
-Pointer to the allocator's [**IMemAllocator**](imemallocator.md) interface.
+Pointer to the allocator's [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ The output pin for this filter never provides an allocator. This method specifie
 [**CTransInPlaceOutputPin Class**](ctransinplaceoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

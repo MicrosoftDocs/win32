@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_WINSType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Windows Internet Name Service (WINS) record.
-ms.assetid: '8f891d80-ee4d-4641-8a6c-159c78e5cf86'
-keywords: ["MicrosoftDNS_WINSType class DNS", "MicrosoftDNS_WINSType class DNS , described"]
+ms.assetid: 8f891d80-ee4d-4641-8a6c-159c78e5cf86
+keywords:
+- MicrosoftDNS_WINSType class DNS
+- MicrosoftDNS_WINSType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_WINSType class
@@ -57,7 +64,7 @@ The **MicrosoftDNS\_WINSType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -111,7 +118,7 @@ WINS mapping flag that specifies whether the record must be included into the zo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -135,7 +142,7 @@ List of comma-separated IP addresses of WINS servers used in WINS Look ups.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -154,9 +161,9 @@ List of comma-separated IP addresses of WINS servers used in WINS Look ups.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

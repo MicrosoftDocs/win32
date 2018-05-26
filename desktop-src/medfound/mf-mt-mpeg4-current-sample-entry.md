@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the current entry in the sample description box for an MPEG-4 media type.'
-ms.assetid: 'c8c36abf-6905-4874-a6d2-90dd0725421b'
-title: 'MF\_MT\_MPEG4\_CURRENT\_SAMPLE\_ENTRY attribute'
+---
+Description: Specifies the current entry in the sample description box for an MPEG-4 media type.
+ms.assetid: c8c36abf-6905-4874-a6d2-90dd0725421b
+title: MF\_MT\_MPEG4\_CURRENT\_SAMPLE\_ENTRY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_MPEG4\_CURRENT\_SAMPLE\_ENTRY attribute
@@ -14,13 +19,13 @@ Specifies the current entry in the sample description box for an MPEG-4 media ty
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

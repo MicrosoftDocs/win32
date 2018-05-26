@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only QualifierDescription property returns a text string describing the qualified component.'
-ms.assetid: '43615bd9-824b-4b84-a8f2-eef30cc7619a'
-title: 'Installer.QualifierDescription property'
+---
+Description: The read-only QualifierDescription property returns a text string describing the qualified component.
+ms.assetid: 43615bd9-824b-4b84-a8f2-eef30cc7619a
+title: Installer.QualifierDescription property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.QualifierDescription property
@@ -37,7 +42,7 @@ propVal = Installer.QualifierDescription
 
 <dl> <dt>
 
-[**MsiEnumComponentQualifiers**](msienumcomponentqualifiers.md)
+[**MsiEnumComponentQualifiers**](/windows/win32/Msi/nf-msi-msienumcomponentqualifiersa?branch=master)
 </dt> <dt>
 
 [Qualified Components](qualified-components.md)

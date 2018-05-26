@@ -1,8 +1,14 @@
 ---
 title: Menus and Other Resources
 description: The resources section describes window resources such as icons, cursor, and dialog boxes.
-ms.assetid: '15b1086e-e3a2-460a-828b-17db5105309f'
-keywords: ["resources,about"]
+ms.assetid: 15b1086e-e3a2-460a-828b-17db5105309f
+keywords:
+- resources,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Menus and Other Resources
@@ -28,13 +34,13 @@ A *resource* is binary data that you can add to the executable file of a Windows
 
 
 
- 
+ 
 
 For more information about creating message resources, see [**Message Compiler**](https://msdn.microsoft.com/library/windows/desktop/aa385638).
 
- 
+ 
 
- 
+ 
 
 
 

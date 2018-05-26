@@ -1,7 +1,12 @@
 ---
-Description: 'The final step of creating an event reference page (ERP) is to test it.'
-ms.assetid: '12690317-1cd2-496c-8a0d-ba6caca58b86'
+Description: The final step of creating an event reference page (ERP) is to test it.
+ms.assetid: 12690317-1cd2-496c-8a0d-ba6caca58b86
 title: Testing an Event Reference Page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing an Event Reference Page

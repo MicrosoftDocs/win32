@@ -1,13 +1,16 @@
 ---
-Description: 'Use SWbemServices.ExecQuery to request all existing events.'
+Description: Use SWbemServices.ExecQuery to request all existing events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bc99719a-7e33-4e2d-8355-f8fc97c66f71'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bc99719a-7e33-4e2d-8355-f8fc97c66f71
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Synchronous and Semisynchronous Event Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Synchronous and Semisynchronous Event Notifications
@@ -75,18 +78,18 @@ The following procedure describes how to receive semisynchronous event notificat
 
     WMI supports intrinsic and extrinsic events. An intrinsic event is an event predefined by WMI. An extrinsic event is an event defined by a third party provider. For more information, see [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md).
 
-3.  Register to receive a specific class of events with a call to the [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) method.
+3.  Register to receive a specific class of events with a call to the [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) method.
 
     Make each query very specific. The goal of registration is to register to receive only the required notifications. Notifications that are not required waste processing and delivery time.
 
-    You can design an event consumer to receive multiple events. For example, a consumer might require notification of instance modification events for a specific class of device and security violation events. In this case, the tasks a consumer performs when receiving an instance modification event are different for the two events. Thus, the consumer should make one call to [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) to register for instance modification events, and another call to **ExecNotificationQuery** to register for security violation events.
+    You can design an event consumer to receive multiple events. For example, a consumer might require notification of instance modification events for a specific class of device and security violation events. In this case, the tasks a consumer performs when receiving an instance modification event are different for the two events. Thus, the consumer should make one call to [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) to register for instance modification events, and another call to **ExecNotificationQuery** to register for security violation events.
 
-    In the call to [**ExecNotificationQuery**](iwbemservices-execnotificationquery.md), set the *lFlags* parameter to **WBEM\_FLAG\_RETURN\_IMMEDIATELY** and **WBEM\_FLAG\_FORWARD\_ONLY**. The **WBEM\_FLAG\_RETURN\_IMMEDIATELY** flag requests semisynchronous processing, and the **WBEM\_FLAG\_FORWARD\_ONLY** flag requests a forward-only enumerator. For more information, see [Calling a Method](calling-a-method.md). The **ExecNotificationQuery** function returns a pointer to an [**IEnumWbemClassObject**](ienumwbemclassobject.md) interface.
+    In the call to [**ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master), set the *lFlags* parameter to **WBEM\_FLAG\_RETURN\_IMMEDIATELY** and **WBEM\_FLAG\_FORWARD\_ONLY**. The **WBEM\_FLAG\_RETURN\_IMMEDIATELY** flag requests semisynchronous processing, and the **WBEM\_FLAG\_FORWARD\_ONLY** flag requests a forward-only enumerator. For more information, see [Calling a Method](calling-a-method.md). The **ExecNotificationQuery** function returns a pointer to an [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) interface.
 
-4.  Poll for registered event notifications by making repeated calls to the [**IEnumWbemClassObject::Next**](ienumwbemclassobject-next.md) method.
-5.  When finished, release the enumerator that points to the [**IEnumWbemClassObject**](ienumwbemclassobject.md) object.
+4.  Poll for registered event notifications by making repeated calls to the [**IEnumWbemClassObject::Next**](/windows/win32/Wbemcli/nf-wbemcli-ienumwbemclassobject-next?branch=master) method.
+5.  When finished, release the enumerator that points to the [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) object.
 
-    You can release the [**IWbemServices**](iwbemservices.md) pointer associated with the registration. Releasing the **IWbemServices** pointer causes WMI to stop delivering events to all associated temporary consumers.
+    You can release the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer associated with the registration. Releasing the **IWbemServices** pointer causes WMI to stop delivering events to all associated temporary consumers.
 
  
 

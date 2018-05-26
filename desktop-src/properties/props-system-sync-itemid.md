@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'bf5ea477-2d5e-4c40-917e-3ef8057efc25'
-title: 'System.Sync.ItemID'
+Description: .
+ms.assetid: bf5ea477-2d5e-4c40-917e-3ef8057efc25
+title: System.Sync.ItemID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.ItemID

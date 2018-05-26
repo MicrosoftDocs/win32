@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_HostedBootService class associates a hosting system and a boot service. Since this relationship is subclassed from CIM\_HostedService, it inherits the scoping/naming scheme defined for service, where a service defers to its hosting system.'
+Description: The CIM\_HostedBootService class associates a hosting system and a boot service. Since this relationship is subclassed from CIM\_HostedService, it inherits the scoping/naming scheme defined for service, where a service defers to its hosting system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '91621288-a231-4423-94df-7601bdf2ebe1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 91621288-a231-4423-94df-7601bdf2ebe1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_HostedBootService class'
+title: CIM\_HostedBootService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedBootService class
@@ -19,7 +22,7 @@ The **CIM\_HostedBootService** class associates a hosting system and a boot serv
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{6DAE7092-DB36-11d2-85FC-0000F8102E5F}"), AMENDMENT]
 class CIM_HostedBootService : CIM_HostedService
 {
-  CIM_System      REF Antecedent;
+  CIM_System      REF Antecedent;
   CIM_BootService REF Dependent;
 };
 ```
@@ -92,8 +95,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -107,9 +110,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_HostedService**](cim-hostedservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

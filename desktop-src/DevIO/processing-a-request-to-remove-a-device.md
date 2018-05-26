@@ -1,14 +1,19 @@
 ---
-Description: 'An application receives a DBT\_DEVICEQUERYREMOVE device event when a feature in the system has decided to remove a specified device.'
-ms.assetid: '66f6c9f4-93fa-4ee8-adf8-cde4e63f9fb7'
+Description: An application receives a DBT\_DEVICEQUERYREMOVE device event when a feature in the system has decided to remove a specified device.
+ms.assetid: 66f6c9f4-93fa-4ee8-adf8-cde4e63f9fb7
 title: Processing a Request to Remove a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing a Request to Remove a Device
 
 An application receives a [DBT\_DEVICEQUERYREMOVE](dbt-devicequeryremove.md) device event when a feature in the system has decided to remove a specified device. When the application receives this event, it should determine whether it is using the specified device and either cancel or prepare for the removal.
 
-In the following example, an application maintains an open handle, hFile, to the file or device represented by FileName. The application registers for device event notification on the underlying device by calling the [**RegisterDeviceNotification**](registerdevicenotification.md) function, using a **DBT\_DEVTYP\_HANDLE** type notification filter and specifying the hFile variable in the **dbch\_handle** member of the filter.
+In the following example, an application maintains an open handle, hFile, to the file or device represented by FileName. The application registers for device event notification on the underlying device by calling the [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master) function, using a **DBT\_DEVTYP\_HANDLE** type notification filter and specifying the hFile variable in the **dbch\_handle** member of the filter.
 
 The application processes the [DBT\_DEVICEQUERYREMOVE](dbt-devicequeryremove.md) device event by closing the open file handle to the device that is to be removed. In the event that removal of this device is canceled, the application processes the [DBT\_DEVICEQUERYREMOVEFAILED](dbt-devicequeryremovefailed.md) device event to reopen the handle to the device. After the device has been removed from the system, the application processes the [DBT\_DEVICEREMOVECOMPLETE](dbt-deviceremovecomplete.md) and [DBT\_DEVICEREMOVEPENDING](dbt-deviceremovepending.md) device events by unregistering its notification handle for the device and closing any handles that are still open to the device.
 

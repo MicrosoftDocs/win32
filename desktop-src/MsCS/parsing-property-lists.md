@@ -4,18 +4,22 @@ description: The recommended way to parse a property list is to use one of the p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fde017dc-fcc8-4b34-a56a-85f052306569'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fde017dc-fcc8-4b34-a56a-85f052306569
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property lists Failover Cluster ,parsing"]
+keywords:
+- property lists Failover Cluster ,parsing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Parsing Property Lists
 
 The recommended way to parse a [property list](property-lists.md) is to use one of the [property list parsing functions](property-list-parsing-functions.md) to locate a specific type of value. Both [*cluster-aware applications*](c-gly.md#-wolf-cluster-aware-application-gly) and [resource DLLs](resource-dlls.md) can use these functions.
 
-If no parsing function exists for the type of data you are seeking, you can parse the property list with [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md) (see [Using CLUSPROP\_BUFFER\_HELPER](using-clusprop-buffer-helper.md)).
+If no parsing function exists for the type of data you are seeking, you can parse the property list with [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master) (see [Using CLUSPROP\_BUFFER\_HELPER](using-clusprop-buffer-helper.md)).
 
 
 ```C++

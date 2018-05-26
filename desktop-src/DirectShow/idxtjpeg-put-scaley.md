@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_ScaleY method specifies the amount by which the wipe is stretched vertically.'
-ms.assetid: '1dd84540-b249-482c-9cb7-aab8c7dc4d25'
-title: 'IDxtJpeg::put\_ScaleY method'
+---
+Description: The put\_ScaleY method specifies the amount by which the wipe is stretched vertically.
+ms.assetid: 1dd84540-b249-482c-9cb7-aab8c7dc4d25
+title: IDxtJpegput\_ScaleY method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_ScaleY method

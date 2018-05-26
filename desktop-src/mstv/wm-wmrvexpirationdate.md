@@ -1,14 +1,20 @@
 ---
 title: WM/WMRVExpirationDate
 description: Specifies the date when the license expires for a DVR-MS file. After this date, the file cannot be played.
-ms.assetid: '792a724f-9a3b-40cd-b112-9f06b5016714'
-keywords: ["WM/WMRVExpirationDate Microsoft TV Technologies"]
+ms.assetid: 792a724f-9a3b-40cd-b112-9f06b5016714
+keywords:
+- WM/WMRVExpirationDate Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
 - WM/WMRVExpirationDate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMRVExpirationDate

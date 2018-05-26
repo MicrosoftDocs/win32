@@ -1,7 +1,12 @@
 ---
 Description: Print Processor Functions
-ms.assetid: '044291a8-6ee7-4342-9317-59baf2b04fc8'
+ms.assetid: 044291a8-6ee7-4342-9317-59baf2b04fc8
 title: Print Processor Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Processor Functions

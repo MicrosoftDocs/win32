@@ -1,7 +1,12 @@
 ---
-Description: 'The DefaultSubpictureLanguage property retrieves the default subpicture language.'
-ms.assetid: '75451c01-2cd3-484a-b864-6681896b9796'
+Description: The DefaultSubpictureLanguage property retrieves the default subpicture language.
+ms.assetid: 75451c01-2cd3-484a-b864-6681896b9796
 title: DefaultSubpictureLanguage Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultSubpictureLanguage Property

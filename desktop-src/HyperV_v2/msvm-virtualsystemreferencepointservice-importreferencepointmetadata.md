@@ -1,7 +1,12 @@
 ---
-Description: 'Imports reference point metadata of the virtual system.'
-ms.assetid: '8e32fded-cd84-4586-83c4-c23200d4698e'
-title: 'ImportReferencePointMetadata method of the Msvm\_VirtualSystemReferencePointService class'
+Description: Imports reference point metadata of the virtual system.
+ms.assetid: 8e32fded-cd84-4586-83c4-c23200d4698e
+title: ImportReferencePointMetadata method of the Msvm\_VirtualSystemReferencePointService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportReferencePointMetadata method of the Msvm\_VirtualSystemReferencePointService class
@@ -13,10 +18,10 @@ Imports reference point metadata of the virtual system.
 
 ```mof
 uint32 ImportReferencePointMetadata(
-  [in]  Msvm_ComputerSystem REF AffectedSystem,
-  [in]  string                  ConfigFilePath,
-  [in]  string                  RuntimeStateFilePath,
-  [out] CIM_ConcreteJob     REF Job
+  [in]  Msvm_ComputerSystem REF AffectedSystem,
+  [in]  string                  ConfigFilePath,
+  [in]  string                  RuntimeStateFilePath,
+  [out] CIM_ConcreteJob     REF Job
 );
 ```
 
@@ -105,8 +110,8 @@ Returns either 0 (no error) or one of the following error messages:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -120,9 +125,9 @@ Returns either 0 (no error) or one of the following error messages:
 [**Msvm\_VirtualSystemReferencePointService**](msvm-virtualsystemreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: XINPUT and Controller Subtypes
 description: A table of controller subtypes available in XInput.
-ms.assetid: '4674028b-98cf-5346-7b93-f940150f3051'
+ms.assetid: 4674028b-98cf-5346-7b93-f940150f3051
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XINPUT and Controller Subtypes
@@ -24,16 +29,16 @@ A table of controller subtypes available in XInput.
 
 
 
- 
+ 
 
 > [!Note]  
 > The legacy version of XINPUT on Windows Vista (XInput 9.1.0) will always return a fixed subtype of **XINPUT\_DEVSUBTYPE\_GAMEPAD** regardless of attached device.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

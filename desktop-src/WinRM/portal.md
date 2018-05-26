@@ -4,11 +4,16 @@ description: Windows Remote Management (Windows Remote Management) is the Micros
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6429e748-e0bf-431a-8989-db5b211665d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 6429e748-e0bf-431a-8989-db5b211665d5
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Windows Remote Management (WinRM), Start Page", "WS-Management"]
+keywords:
+- Windows Remote Management (WinRM), Start Page
+- WS-Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Remote Management

@@ -1,8 +1,11 @@
 ---
 title: Parameter ToInt32 method
 description: Retrieve the value of the parameter as a specific data type.
-ms.assetid: '22646747-D215-4BCA-996D-E7E42291E93A'
-keywords: ["ToInt32 method Access Execution Engine", "ToInt32 method Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ToInt32 method"]
+ms.assetid: 22646747-D215-4BCA-996D-E7E42291E93A
+keywords:
+- ToInt32 method Access Execution Engine
+- ToInt32 method Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ToInt32 method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::ToInt32 method
@@ -22,7 +30,7 @@ Retrieve the value of the parameter as a specific data type.
 
 ```C++
 virtual HRESULT ToInt32(
-  [out] LONG *paramValue
+  [out] LONG *paramValue
 ) const = 0;
 ```
 
@@ -59,8 +67,8 @@ Managed code uses the [**Parameter.ToInt32**](axe-parameter_toint32_om) method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -73,9 +81,9 @@ Managed code uses the [**Parameter.ToInt32**](axe-parameter_toint32_om) method.
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

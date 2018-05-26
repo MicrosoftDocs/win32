@@ -1,8 +1,9 @@
 ---
 title: CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object
 description: The CurrentMediaItemAvailable event occurs when a graphic metadata item in the current media item becomes available.
-ms.assetid: '7db62e6a-5f20-441a-801f-147ac386c5f8'
-keywords: ["CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 7db62e6a-5f20-441a-801f-147ac386c5f8
+keywords:
+- CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentMediaItemAvailable Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cur
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +83,9 @@ Because playback can begin before a media item is fully downloaded, any metadata
 [**IWMPMediaCollection.getByName (VB and C#)**](wmplibiwmpmediacollection-iwmpmediacollection-getbyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

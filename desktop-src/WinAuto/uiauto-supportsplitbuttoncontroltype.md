@@ -1,8 +1,29 @@
 ---
 title: SplitButton Control Type
 description: This topic provides information about Microsoft UI Automation support for the SplitButton control type.
-ms.assetid: 'ca4f8e45-7487-4a8b-9df5-edc2b0e56663'
-keywords: ["UI Automation,support for SplitButton control type", "UI Automation,SplitButton control type", "UI Automation,tree structure for SplitButton control type", "UI Automation,properties for SplitButton control type", "UI Automation,control patterns for SplitButton control type", "UI Automation,events for SplitButton control type", "tree structures,SplitButton control type", "properties,SplitButton control type", "control patterns,SplitButton control type", "events,SplitButton control type", "support for SplitButton control type", "SplitButton control type", "control types,tree structure for SplitButton control type", "control types,control patterns for SplitButton control type", "control types,support for SplitButton", "control types,SplitButton"]
+ms.assetid: ca4f8e45-7487-4a8b-9df5-edc2b0e56663
+keywords:
+- UI Automation,support for SplitButton control type
+- UI Automation,SplitButton control type
+- UI Automation,tree structure for SplitButton control type
+- UI Automation,properties for SplitButton control type
+- UI Automation,control patterns for SplitButton control type
+- UI Automation,events for SplitButton control type
+- tree structures,SplitButton control type
+- properties,SplitButton control type
+- control patterns,SplitButton control type
+- events,SplitButton control type
+- support for SplitButton control type
+- SplitButton control type
+- control types,tree structure for SplitButton control type
+- control types,control patterns for SplitButton control type
+- control types,support for SplitButton
+- control types,SplitButton
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitButton Control Type
@@ -104,8 +125,8 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support  | Notes                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Required | Because split buttons always have the ability to expand a list of options, they must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern.                                                      |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)                 | Required | Because split buttons always have a default action associated with the [**IInvokeProvider::Invoke**](uiauto-iinvokeprovider-invoke.md) method, they must support the [Invoke](uiauto-implementinginvoke.md) control pattern. |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Required | Because split buttons always have the ability to expand a list of options, they must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern.                                                      |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)                 | Required | Because split buttons always have a default action associated with the [**IInvokeProvider::Invoke**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iinvokeprovider-invoke?branch=master) method, they must support the [Invoke](uiauto-implementinginvoke.md) control pattern. |
 
 
 

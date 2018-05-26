@@ -1,7 +1,12 @@
 ---
 title: Windows Networking Functions
 description: The following functions are used in Windows networking
-ms.assetid: '95e30f8f-a326-424d-bd80-5fc9b3078dad'
+ms.assetid: 95e30f8f-a326-424d-bd80-5fc9b3078dad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Networking Functions

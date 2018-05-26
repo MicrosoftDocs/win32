@@ -1,15 +1,18 @@
 ---
-Description: 'Set the new active configuration of the collector.'
+Description: Set the new active configuration of the collector.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1979e657-a8f3-4eab-991c-a884bde10724'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1979e657-a8f3-4eab-991c-a884bde10724
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SetConfiguration method of the Control class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetConfiguration method of the Control class
@@ -21,15 +24,15 @@ Set the new active configuration of the collector.
 
 ```mof
 Uint32 SetConfiguration(
-  [in]  string Config,
-  [in]  Uint32 OldTimestampLow,
-  [in]  Uint32 OldTimestampHigh,
-  [out] Uint32 NewTimestampLow,
-  [out] Uint32 NewTimestampHigh,
-  [out] string ErrorString,
-  [out] string WarningString,
-  [out] string InfoString,
-  [out] uint32 ErrorType
+  [in]  string Config,
+  [in]  Uint32 OldTimestampLow,
+  [in]  Uint32 OldTimestampHigh,
+  [out] Uint32 NewTimestampLow,
+  [out] Uint32 NewTimestampHigh,
+  [out] string ErrorString,
+  [out] string WarningString,
+  [out] string InfoString,
+  [out] uint32 ErrorType
 );
 ```
 
@@ -172,8 +175,8 @@ Success
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
@@ -187,9 +190,9 @@ Success
 [**Control**](control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

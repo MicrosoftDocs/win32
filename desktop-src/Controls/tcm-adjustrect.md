@@ -1,8 +1,9 @@
 ---
 title: TCM\_ADJUSTRECT message
-description: Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can send this message explicitly or by using the TabCtrl\_AdjustRect macro.
-ms.assetid: '2f14201a-e4a3-4ae5-b9cf-4a674c52f24a'
-keywords: ["TCM_ADJUSTRECT message Windows Controls"]
+description: Calculates a tab controls display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can send this message explicitly or by using the TabCtrl\_AdjustRect macro.
+ms.assetid: 2f14201a-e4a3-4ae5-b9cf-4a674c52f24a
+keywords:
+- TCM_ADJUSTRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_ADJUSTRECT message
 
-Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can send this message explicitly or by using the [**TabCtrl\_AdjustRect**](tabctrl-adjustrect.md) macro.
+Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can send this message explicitly or by using the [**TabCtrl\_AdjustRect**](/windows/win32/Commctrl/nf-commctrl-tabctrl_adjustrect?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ This message applies only to tab controls that are at the top. It does not apply
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

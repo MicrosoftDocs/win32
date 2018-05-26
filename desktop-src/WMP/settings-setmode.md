@@ -1,8 +1,11 @@
 ---
 title: Settings.setMode method
 description: The setMode method sets various modes to active or inactive.
-ms.assetid: '28a404a7-5bb0-41bb-a5b2-cc6138b8176e'
-keywords: ["setMode method Windows Media Player", "setMode method Windows Media Player , Settings class", "Settings class Windows Media Player , setMode method"]
+ms.assetid: 28a404a7-5bb0-41bb-a5b2-cc6138b8176e
+keywords:
+- setMode method Windows Media Player
+- setMode method Windows Media Player , Settings class
+- Settings class Windows Media Player , setMode method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.setMode method
@@ -49,7 +57,7 @@ Settings.setMode(
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,9 +97,9 @@ When the showFrame mode is active, the Player must access the track content to r
 [**Settings.getMode**](settings-getmode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

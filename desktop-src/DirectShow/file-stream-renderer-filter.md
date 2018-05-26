@@ -1,7 +1,12 @@
 ---
 Description: File Stream Renderer Filter
-ms.assetid: 'e26462bb-e67f-4522-bec2-88378c4ff442'
+ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: File Stream Renderer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Stream Renderer Filter
@@ -20,7 +25,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 <tbody>
 <tr class="odd">
 <td>Filter interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md)</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input pin media types</td>
@@ -32,7 +37,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 </tr>
 <tr class="odd">
 <td>Input pin interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output pin media types</td>
@@ -40,7 +45,7 @@ The use of this filter is deprecated. To render multiple files within the same f
 </tr>
 <tr class="odd">
 <td>Output pin interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md), [<strong>IStreamBuilder</strong>](istreambuilder.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), [<strong>IStreamBuilder</strong>](/windows/win32/Strmif/nn-strmif-istreambuilder?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

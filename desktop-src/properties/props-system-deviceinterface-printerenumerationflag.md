@@ -1,7 +1,12 @@
 ---
-Description: 'Printer information Printer Enumeration Flag.'
-ms.assetid: '50a6df8e-1055-4964-a3d1-8e0ee8a74edc'
-title: 'System.DeviceInterface.PrinterEnumerationFlag'
+Description: Printer information Printer Enumeration Flag.
+ms.assetid: 50a6df8e-1055-4964-a3d1-8e0ee8a74edc
+title: System.DeviceInterface.PrinterEnumerationFlag
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.PrinterEnumerationFlag

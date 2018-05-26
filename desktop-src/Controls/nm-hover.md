@@ -1,8 +1,9 @@
 ---
 title: NM\_HOVER notification code
 description: Sent by a control when the mouse hovers over an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '0eef3e88-c1f0-4f9c-9ccf-580d8e464157'
-keywords: ["NM_HOVER notification code Windows Controls"]
+ms.assetid: 0eef3e88-c1f0-4f9c-9ccf-580d8e464157
+keywords:
+- NM_HOVER notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_HOVER notification code
@@ -33,7 +39,7 @@ NM_HOVER
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](nmhdr.md) structure that contains additional information about this notification.
+A pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Unless otherwise specified, return zero to allow the control to process the hove
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

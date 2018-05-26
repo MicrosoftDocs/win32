@@ -4,10 +4,13 @@ description: This topic guides you through deployment options for your rights-en
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4B785564-6839-49ED-A243-E2A6DFF88B2E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4B785564-6839-49ED-A243-E2A6DFF88B2E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deploy into production

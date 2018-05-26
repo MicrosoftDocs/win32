@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DisplayControllerConfiguration WMI class represents the video adapter configuration information of a computer system running Windows.'
+Description: The Win32\_DisplayControllerConfiguration WMI class represents the video adapter configuration information of a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '36ebd840-5e8c-411a-828d-38972fe956e2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 36ebd840-5e8c-411a-828d-38972fe956e2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DisplayControllerConfiguration class'
+title: Win32\_DisplayControllerConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DisplayControllerConfiguration class
@@ -298,7 +301,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651), [**Ma
 
 User-readable description of the current screen resolution and color setting of the display.
 
-Example: "1024 × 768 with 256 colors"
+Example: "1024   768 with 256 colors"
 
 </dd> </dl>
 
@@ -312,8 +315,8 @@ The **Win32\_DisplayControllerConfiguration** class is derived from [**CIM\_Sett
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -330,9 +333,9 @@ The **Win32\_DisplayControllerConfiguration** class is derived from [**CIM\_Sett
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

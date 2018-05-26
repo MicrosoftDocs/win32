@@ -4,12 +4,15 @@ description: Failover Cluster Aware Patching MI Provider enables...In this secti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd825208e-75cc-483a-b710-0a1bdbada8f3'
-ms.prod: 'windows-server-dev'
+ms.assetid: d825208e-75cc-483a-b710-0a1bdbada8f3
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Aware Patching MI Provider

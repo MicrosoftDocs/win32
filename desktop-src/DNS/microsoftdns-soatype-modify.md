@@ -1,8 +1,11 @@
 ---
 title: Modify method of the MicrosoftDNS\_SOAType class
 description: The Modify method updates a Start Of Authority (SOA) Resource Record.
-ms.assetid: '531b770d-9ac9-43da-8595-fbc175b51b23'
-keywords: ["Modify method DNS", "Modify method DNS , MicrosoftDNS_SOAType class", "MicrosoftDNS_SOAType class DNS , Modify method"]
+ms.assetid: 531b770d-9ac9-43da-8595-fbc175b51b23
+keywords:
+- Modify method DNS
+- Modify method DNS , MicrosoftDNS_SOAType class
+- MicrosoftDNS_SOAType class DNS , Modify method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modify method of the MicrosoftDNS\_SOAType class
@@ -22,15 +30,15 @@ The **Modify** method updates a Start Of Authority (SOA) Resource Record.
 
 ```mof
 void Modify(
-  [in, optional] uint32               TTL,
-  [in, optional] uint32               SerialNumber,
-  [in, optional] string               PrimaryServer,
-  [in, optional] string               ResponsibleParty,
-  [in, optional] uint32               RefreshInterval,
-  [in, optional] uint32               RetryDelay,
-  [in, optional] uint32               ExpireLimit,
-  [in, optional] uint32               MinimumTTL,
-  [out, ref]     MicrosoftDNS_SOAType &amp;RR
+  [in, optional] uint32               TTL,
+  [in, optional] uint32               SerialNumber,
+  [in, optional] string               PrimaryServer,
+  [in, optional] string               ResponsibleParty,
+  [in, optional] uint32               RefreshInterval,
+  [in, optional] uint32               RetryDelay,
+  [in, optional] uint32               ExpireLimit,
+  [in, optional] uint32               MinimumTTL,
+  [out, ref]     MicrosoftDNS_SOAType &amp;RR
 );
 ```
 
@@ -118,7 +126,7 @@ Any parameter not specified is left unchanged in the modified record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -134,9 +142,9 @@ Any parameter not specified is left unchanged in the modified record.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

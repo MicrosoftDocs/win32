@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_TooltipTitle
 description: Identifies the UI\_PKEY\_TooltipTitle property.
-ms.assetid: 'ed9f422d-a782-4950-a579-060185550891'
+ms.assetid: ed9f422d-a782-4950-a579-060185550891
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_TooltipTitle

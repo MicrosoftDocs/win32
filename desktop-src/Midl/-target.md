@@ -2,13 +2,19 @@
 title: /target switch
 description: The /target switch enables the MIDL compiler to enable optimizations available only on recent versions of Windows. The /target switch automatically activates additional switches.
 ms.assetid: 8c5aa319-e6a6-4803-99f3-ed8751d565d5
-keywords: ["/target switch MIDL"]
+keywords:
+- /target switch MIDL
 topic_type:
 - apiref
 api_name:
 - /target
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /target switch
@@ -38,15 +44,15 @@ The **/target** switch automatically activates additional switches, based on the
 
 | Operating system | /target level | Switches Activated                     |
 |------------------|---------------|----------------------------------------|
-| Windows 2000     | NT50          | /Oicf /error all /robust               |
-| Windows XP       | NT51          | /Oicf /error all /robust /protocol all |
-| Windows Vista    | NT60          | /Oicf /error all /robust /protocol all |
-| Windows 7        | NT61          | /Oicf /error all /robust /protocol all |
-| Windows 8        | NT62          | /Oicf /error all /robust /protocol all |
+| Windows 2000     | NT50          | /Oicf /error all /robust               |
+| Windows XP       | NT51          | /Oicf /error all /robust /protocol all |
+| Windows Vista    | NT60          | /Oicf /error all /robust /protocol all |
+| Windows 7        | NT61          | /Oicf /error all /robust /protocol all |
+| Windows 8        | NT62          | /Oicf /error all /robust /protocol all |
 
 
 
- 
+ 
 
 To ensure a stub runs on the system specified by the **/target** switch, MIDL issues an error when a feature available only on a more recent version of Windows is present. The following table specifies the minimum **/target** level required to enable the feature. Higher target levels include all features from lower target levels.
 
@@ -62,7 +68,7 @@ To ensure a stub runs on the system specified by the **/target** switch, MIDL is
 
 
 
- 
+ 
 
 ## Examples
 
@@ -78,9 +84,9 @@ To ensure a stub runs on the system specified by the **/target** switch, MIDL is
 [**/osf**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

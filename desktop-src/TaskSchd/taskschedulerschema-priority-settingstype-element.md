@@ -1,14 +1,20 @@
 ---
 title: Priority (settingsType) Element
 description: Specifies the priority level for the task.
-ms.assetid: '4885fffa-b7d9-4f5e-b6e8-6f18b01c2427'
-keywords: ["Priority element Task Scheduler"]
+ms.assetid: 4885fffa-b7d9-4f5e-b6e8-6f18b01c2427
+keywords:
+- Priority element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Priority
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Priority (settingsType) Element
@@ -59,9 +65,9 @@ The task's action is started in a process with a priority that is based on a Pri
 
 
 
- 
+ 
 
-For C++ development, see [**Priority Property of ITaskSettings**](itasksettings-priority.md).
+For C++ development, see [**Priority Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_priority?branch=master).
 
 For script development, see [**TaskSettings.Priority**](tasksettings-priority.md).
 
@@ -71,8 +77,8 @@ For script development, see [**TaskSettings.Priority**](tasksettings-priority.md
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -83,9 +89,9 @@ For script development, see [**TaskSettings.Priority**](tasksettings-priority.md
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

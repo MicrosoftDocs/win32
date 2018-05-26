@@ -1,8 +1,23 @@
 ---
 title: Inertia Mechanics
 description: Inertia Mechanics
-ms.assetid: '188b6936-b36e-4e57-9118-8b61ed134c17'
-keywords: ["Windows Touch,inertia", "Windows Touch,smooth animation", "Windows Touch,elastic margin", "inertia,mechanics", "inertia,calculation basics", "inertia,physics overview", "inertia,smooth animation", "inertia,elastic margin", "smooth animation", "elastic margin"]
+ms.assetid: 188b6936-b36e-4e57-9118-8b61ed134c17
+keywords:
+- Windows Touch,inertia
+- Windows Touch,smooth animation
+- Windows Touch,elastic margin
+- inertia,mechanics
+- inertia,calculation basics
+- inertia,physics overview
+- inertia,smooth animation
+- inertia,elastic margin
+- smooth animation
+- elastic margin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inertia Mechanics
@@ -22,22 +37,22 @@ The inertia processor uses a simple physics model that incorporates a position, 
 
 In the formula used for calculating the current position (x), the initial velocity (v) is multiplied by the time elapsed (t) and is reduced by the deceleration factor (d) times time squared. This results in smooth object deceleration. In the previous illustration at the initial (leftmost) part of the curve, the object is moving quickly because its current velocity is the initial velocity. At the final (rightmost) part of the curve, the object has completely stopped because its velocity is 0. Object velocity calculations for x-velocity, y-velocity, and rotational velocity all use this formula for calculations.
 
-All distance used for the inertia processor is relative. If you want to use screen coordinates, you pass screen coordinates to the manipulation (or inertia) processor; if you want to use absolute coordinates, you pass those into the processor you are using. Regardless of the values that you are using, the manipulation processor will use millisecond clock ticks for processing the time. These values can either be passed directly to the inertia processor using the [**ProcessTime**](iinertiaprocessor-processtime.md) method or by using the default timestamp through calls to [**Process**](iinertiaprocessor-process.md).
+All distance used for the inertia processor is relative. If you want to use screen coordinates, you pass screen coordinates to the manipulation (or inertia) processor; if you want to use absolute coordinates, you pass those into the processor you are using. Regardless of the values that you are using, the manipulation processor will use millisecond clock ticks for processing the time. These values can either be passed directly to the inertia processor using the [**ProcessTime**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-processtime?branch=master) method or by using the default timestamp through calls to [**Process**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-process?branch=master).
 
 ## Smooth Object Animation using the Velocity and Deceleration Properties
 
-You can enable smooth animation by directly interacting with the physics model by setting the velocity and deceleration values in the inertia processor interface and then calling [**Process**](iinertiaprocessor-process.md). Calling **Process** will trigger object manipulations which in turn should cause UI updates. Object velocity values passed to the inertia processor are typically taken from the manipulation processor upon completion. Your deceleration value will be dependent on how long you want your object to be animated for and the units that you are using for your calculations. Because the values are dependent, sometimes you must scale the input velocity from the maniplation processor and use arbitrary values for deceleration. The following values are typical for various scenarios where you are passing centipixel values from the x and y properties of the [**TOUCHINPUT**](touchinput.md) structure to the manipulation processor.
+You can enable smooth animation by directly interacting with the physics model by setting the velocity and deceleration values in the inertia processor interface and then calling [**Process**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-process?branch=master). Calling **Process** will trigger object manipulations which in turn should cause UI updates. Object velocity values passed to the inertia processor are typically taken from the manipulation processor upon completion. Your deceleration value will be dependent on how long you want your object to be animated for and the units that you are using for your calculations. Because the values are dependent, sometimes you must scale the input velocity from the maniplation processor and use arbitrary values for deceleration. The following values are typical for various scenarios where you are passing centipixel values from the x and y properties of the [**TOUCHINPUT**](/windows/win32/winuser/ns-winuser-tagtouchinput?branch=master) structure to the manipulation processor.
 
 
 
 | Scenario    | Property Set                                                                       | Deceleration Value | Typical Velocity Input Scaling                                  | Notes                                                                                 |
 |-------------|------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| Translation | [**DesiredDeceleration**](iinertiaprocessor-desireddeceleration.md)               | 0.003f             | None.                                                           | Using this value will result in longer distance animations when using touch input.    |
-| Translation | [**DesiredDeceleration**](iinertiaprocessor-desireddeceleration.md)               | 0.001f             | 1/20th initial velocity for touch inputs, none for mouse inputs | Using this value will animate for around a second given typical velocity inputs.      |
-| Translation | [**DesiredDeceleration**](iinertiaprocessor-desireddeceleration.md)               | 0.5f               | None                                                            | Using this value gives a natural feel to animation on large Windows Touch displays.   |
-| Rotation    | [**DesiredAngularDeceleration**](iinertiaprocessor-desiredangulardeceleration.md) | 0.000015f          | Radians converted to degrees.                                   | Using this value results in longer rotational animations when using touch input.      |
-| Rotation    | [**DesiredAngularDeceleration**](iinertiaprocessor-desiredangulardeceleration.md) | 0.00001f           | 1/40th rotation delta for touch inputs, none for mouse inputs   | This value is in radians so you must use very small deceleration and velocity values. |
-| Rotation    | [**DesiredAngularDeceleration**](iinertiaprocessor-desiredangulardeceleration.md) | 0.000005f          | None                                                            | This value has a natural feel on large Windows Touch displays.                        |
+| Translation | [**DesiredDeceleration**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration?branch=master)               | 0.003f             | None.                                                           | Using this value will result in longer distance animations when using touch input.    |
+| Translation | [**DesiredDeceleration**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration?branch=master)               | 0.001f             | 1/20th initial velocity for touch inputs, none for mouse inputs | Using this value will animate for around a second given typical velocity inputs.      |
+| Translation | [**DesiredDeceleration**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration?branch=master)               | 0.5f               | None                                                            | Using this value gives a natural feel to animation on large Windows Touch displays.   |
+| Rotation    | [**DesiredAngularDeceleration**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration?branch=master) | 0.000015f          | Radians converted to degrees.                                   | Using this value results in longer rotational animations when using touch input.      |
+| Rotation    | [**DesiredAngularDeceleration**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration?branch=master) | 0.00001f           | 1/40th rotation delta for touch inputs, none for mouse inputs   | This value is in radians so you must use very small deceleration and velocity values. |
+| Rotation    | [**DesiredAngularDeceleration**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration?branch=master) | 0.000005f          | None                                                            | This value has a natural feel on large Windows Touch displays.                        |
 
 
 

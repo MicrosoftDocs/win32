@@ -1,8 +1,14 @@
 ---
 title: About the Windows Deployment Services API
 description: Windows Deployment Services (WDS) is a suite of components that enable the deployment of Windows operating systems, particularly Windows Vista and later and Windows Server 2008 and later.
-ms.assetid: '5742e51a-70e3-4607-bfb7-181362dfb168'
-keywords: ["Windows Deployment Services Windows Deployment Services , about"]
+ms.assetid: 5742e51a-70e3-4607-bfb7-181362dfb168
+keywords:
+- Windows Deployment Services Windows Deployment Services , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Windows Deployment Services API

@@ -1,14 +1,20 @@
 ---
 title: Buffer
 description: Buffer
-ms.assetid: '7f552b9b-c5fb-4bc2-a7ae-61983379db38'
-keywords: ["Buffer HLSL"]
+ms.assetid: 7f552b9b-c5fb-4bc2-a7ae-61983379db38
+keywords:
+- Buffer HLSL
 topic_type:
 - apiref
 api_name:
 - Buffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffer

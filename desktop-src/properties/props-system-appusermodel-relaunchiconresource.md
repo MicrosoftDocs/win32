@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the icon used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its button''s Jump List.'
-ms.assetid: '3559d1f5-988c-41d9-ba9a-dfa4ba643ee2'
-title: 'System.AppUserModel.RelaunchIconResource'
+Description: Specifies the icon used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its buttons Jump List.
+ms.assetid: 3559d1f5-988c-41d9-ba9a-dfa4ba643ee2
+title: System.AppUserModel.RelaunchIconResource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.AppUserModel.RelaunchIconResource
@@ -13,7 +18,7 @@ Specifies the icon used for the shortcut created on the taskbar when the user ch
 
 [System.AppUserModel.RelaunchIconResource](shell.props_System_AppUserModel_RelaunchIconResource) is an optional property. If it is not set, the icon of the target of the relaunch command ([System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand)) is used. However, because that can lead to undesired results, we strongly encourage you to provide an icon explicitly through this property.
 
-This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](shell.props_System_AppUserModel_Id), set through [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md)). If the window does not have an explicit AppUserModelID (System.AppUserModel.ID), this property is ignored and the window is grouped and pinned as if it were part of its owning process. For more information on the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs). This property is meant to be used by applications or windows that want to provide non-default relaunch information. For more information, see [System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand).
+This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](shell.props_System_AppUserModel_Id), set through [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master)). If the window does not have an explicit AppUserModelID (System.AppUserModel.ID), this property is ignored and the window is grouped and pinned as if it were part of its owning process. For more information on the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs). This property is meant to be used by applications or windows that want to provide non-default relaunch information. For more information, see [System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand).
 
 If an explicit AppUserModelID is set on the window, but this property is not set, the system attempts to find a shortcut with the same AppUserModelID, and pins that shortcut to the taskbar to represent the window. If no such shortcut can be located, then the backing executable of the process that owns it is used.
 
@@ -22,7 +27,7 @@ If an explicit AppUserModelID is set on the window, but this property is not set
 
  
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.RelaunchIconResource](shell.props_System_AppUserModel_RelaunchIconResource) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.RelaunchIconResource](shell.props_System_AppUserModel_RelaunchIconResource) property of that window.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 

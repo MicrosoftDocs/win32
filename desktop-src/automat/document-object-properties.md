@@ -1,7 +1,12 @@
 ---
 title: Document Object Properties
 description: If the application is document based, it should provide a Document object named Document.
-ms.assetid: '328b5040-5230-4916-94d9-cd585ec42034'
+ms.assetid: 328b5040-5230-4916-94d9-cd585ec42034
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Document Object Properties
@@ -29,7 +34,7 @@ The Document object should have the properties listed in the table that follows.
 
 
 
- 
+ 
 
 ## Comments
 
@@ -53,11 +58,11 @@ The Document object should have the methods listed in the following table. The m
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

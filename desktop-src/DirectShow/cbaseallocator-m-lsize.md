@@ -1,7 +1,12 @@
 ---
-Description: 'Size of each buffer.'
-ms.assetid: '2f3b6409-6858-4975-98b8-c0c29cb14b90'
-title: 'CBaseAllocator::m\_lSize member'
+Description: Size of each buffer.
+ms.assetid: 2f3b6409-6858-4975-98b8-c0c29cb14b90
+title: CBaseAllocatorm\_lSize member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_lSize member
@@ -35,9 +40,9 @@ long m_lSize;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

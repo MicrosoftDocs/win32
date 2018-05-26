@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following table describes the four types of components that can be involved with a backup operation.'
-ms.assetid: 'd94e015b-6735-4a88-9d24-b73f0b5f6542'
+---
+Description: The following table describes the four types of components that can be involved with a backup operation.
+ms.assetid: d94e015b-6735-4a88-9d24-b73f0b5f6542
 title: Working with Selectability for Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Selectability for Backup
@@ -27,11 +32,11 @@ The rules governing the selection of components for backup can be summarized as 
 
 -   When any component without a selectable-for-backup ancestor in its logical path—whether the component is selectable-for-backup or nonselectable-for-backup—is included in a backup, it must be [*included explicitly*](vssgloss-e.md#base-vssgloss-explicit-component-inclusion). This means that metadata for these components is added to the Backup Components Document.
 
-    Requesters explicitly add these components using the [**IVssBackupComponents::AddComponent**](ivssbackupcomponents-addcomponent.md) method.
+    Requesters explicitly add these components using the [**IVssBackupComponents::AddComponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent?branch=master) method.
 
 -   Nonselectable-for-backup subcomponents are always [*included implicitly*](vssgloss-i.md#base-vssgloss-implicit-component-inclusion) in the backup. This means that metadata for these components is not part of the Backup Components Document.
 -   Selectable-for-backup subcomponents are implicitly included if that ancestor is explicitly included in the backup. In this case, metadata for these components is not added to the Backup Components Document. If an implicitly selectable for backup subcomponent defines a component set, the members of that component set are also implicitly selected.
--   Selectable-for-backup subcomponents whose selectable-for-backup ancestor is not explicitly included in the backup can still be included explicitly by the requester using the [**IVssBackupComponents::AddComponent**](ivssbackupcomponents-addcomponent.md) method. The metadata for the component will then be added to the Backup Components Document. In addition, if a selectable-for-backup subcomponent defines a component set, the members of that component set are implicitly included in the backup.
+-   Selectable-for-backup subcomponents whose selectable-for-backup ancestor is not explicitly included in the backup can still be included explicitly by the requester using the [**IVssBackupComponents::AddComponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent?branch=master) method. The metadata for the component will then be added to the Backup Components Document. In addition, if a selectable-for-backup subcomponent defines a component set, the members of that component set are implicitly included in the backup.
 
 The "MyWriter" case discussed in [Logical Pathing of Components](logical-pathing-of-components.md) can be used as an example to illustrate selectability for backup.
 
@@ -61,9 +66,9 @@ The "MyWriter" case discussed in [Logical Pathing of Components](logical-pathing
 
  
 
-Whenever "MyWriter" is backed up, explicitly including the "Executables" component using the [**IVssBackupComponents::AddComponent**](ivssbackupcomponents-addcomponent.md) method will implicitly include the "ConfigFiles" component.
+Whenever "MyWriter" is backed up, explicitly including the "Executables" component using the [**IVssBackupComponents::AddComponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent?branch=master) method will implicitly include the "ConfigFiles" component.
 
-The component "LicenseInfo" is a stand-alone selectable-for-backup component. It may be selected using the [**IVssBackupComponents::AddComponent**](ivssbackupcomponents-addcomponent.md) method at the discretion of the requester, but its selection will select no other components.
+The component "LicenseInfo" is a stand-alone selectable-for-backup component. It may be selected using the [**IVssBackupComponents::AddComponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent?branch=master) method at the discretion of the requester, but its selection will select no other components.
 
 The selectable-for-backup component "Security" defines a simple component set containing two nonselectable-for-backup subcomponents, "UserInfo" and "Certificates". If "Security" is explicitly included for backup, then "UserInfo" and "Certificates" are always implicitly included as well. There is no way to include the subcomponents "UserInfo" or "Certificates" in a backup operation unless "Security" is included.
 
@@ -73,9 +78,9 @@ If the component "writerData" is not selected, the nonselectable-for-backup comp
 
 However, requesters may choose to explicitly include the selectable for backup component "Usage". Metadata for this component will be added to the Backup Components Document. "Usage"'s subcomponents "Jan" and "Dec" will be implicitly added to the backup, but will not have their information added to the Backup Components Document.
 
-Explicitly including a component for backup will create a corresponding [**IVssComponent**](ivsscomponent.md) instance in the Backup Components Document.
+Explicitly including a component for backup will create a corresponding [**IVssComponent**](/windows/win32/VsWriter/nl-vswriter-ivsscomponent?branch=master) instance in the Backup Components Document.
 
-A requester will retrieve information about explicitly included components from its Backup Components Document by examining those writers (using [**IVssBackupComponents::GetWriterComponents**](ivssbackupcomponents-getwritercomponents.md)) included in its document and retrieving the stored [**IVssComponent**](ivsscomponent.md) objects.
+A requester will retrieve information about explicitly included components from its Backup Components Document by examining those writers (using [**IVssBackupComponents::GetWriterComponents**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents?branch=master)) included in its document and retrieving the stored [**IVssComponent**](/windows/win32/VsWriter/nl-vswriter-ivsscomponent?branch=master) objects.
 
 As neither the file set information (file specification, path, and recursion flag) of the components present in the Backup Components Document, nor any information about implicitly added components will be present, requesters will have to query Writer Metadata Documents to obtain full information about all components included in the Backup Components Document.
 

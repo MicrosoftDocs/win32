@@ -1,8 +1,10 @@
 ---
 title: FOLDERNOTIFYTYPE enumeration
 description: Defined as part of IStoreNamespace.
-ms.assetid: 'ff3565cd-2a0a-43bc-a935-4c2521d1ebe1'
-keywords: ["FOLDERNOTIFYTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: ff3565cd-2a0a-43bc-a935-4c2521d1ebe1
+keywords:
+- FOLDERNOTIFYTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Msoeapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FOLDERNOTIFYTYPE enumeration
@@ -24,14 +31,14 @@ Defined as part of [**IStoreNamespace**](oe-istorenamespace.md).
 
 ```C++
 typedef enum tagFOLDERNOTIFYTYPE { 
-  NEW_FOLDER            = 1,
-  DELETE_FOLDER         = 1,
-  RENAME_FOLDER         = 2,
-  MOVE_FOLDER           = 3,
-  UNREAD_CHANGE         = 4,
-  IMAPFLAG_CHANGE       = 5,
-  UPDATEFLAG_CHANGE     = 6,
-  FOLDER_PROPS_CHANGED  = 7
+  NEW_FOLDER            = 1,
+  DELETE_FOLDER         = 1,
+  RENAME_FOLDER         = 2,
+  MOVE_FOLDER           = 3,
+  UNREAD_CHANGE         = 4,
+  IMAPFLAG_CHANGE       = 5,
+  UPDATEFLAG_CHANGE     = 6,
+  FOLDER_PROPS_CHANGED  = 7
 } ACCESSTYPE;
 ```
 
@@ -71,17 +78,17 @@ typedef enum tagFOLDERNOTIFYTYPE {
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

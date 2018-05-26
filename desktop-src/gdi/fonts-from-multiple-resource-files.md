@@ -1,7 +1,12 @@
 ---
 Description: Fonts from Multiple Resource Files
-ms.assetid: '4625fe62-d55d-4828-9174-975a731a8f62'
+ms.assetid: 4625fe62-d55d-4828-9174-975a731a8f62
 title: Fonts from Multiple Resource Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fonts from Multiple Resource Files
@@ -17,7 +22,7 @@ To add a font from multiple files to the system, use the [**AddFontResource**](g
 
 To add a font from a memory image, use [**AddFontResourceEx**](gdi.AddFontResourceEx). This allows an application to use a font that is embedded in a document or a webpage.
 
-To remove a font that came from multiple resource files, call [**RemoveFontResource**](removefontresource.md) or [**RemoveFontResourceEx**](removefontresourceex.md), depending on the function used to add the font. You must specify the same flags that were used to add the font. To remove a font that was added from a memory image, use [**RemoveFontMemResourceEx**](removefontmemresourceex.md).
+To remove a font that came from multiple resource files, call [**RemoveFontResource**](/windows/win32/Wingdi/nf-wingdi-removefontresourcea?branch=master) or [**RemoveFontResourceEx**](/windows/win32/Wingdi/nf-wingdi-removefontresourceexa?branch=master), depending on the function used to add the font. You must specify the same flags that were used to add the font. To remove a font that was added from a memory image, use [**RemoveFontMemResourceEx**](/windows/win32/Wingdi/nf-wingdi-removefontmemresourceex?branch=master).
 
 Using a font that comes from multiple font-resource files is identical to using a font from a single resource file.
 

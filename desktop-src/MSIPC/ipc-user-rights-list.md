@@ -4,11 +4,14 @@ description: Contains a list of user rights structures that defines the use rest
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd2c9461f-d9d7-484d-a257-3eb958db4aa8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: d2c9461f-d9d7-484d-a257-3eb958db4aa8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_USER_RIGHTS_LIST structure Active Directory Rights Management Services SDK 2.0", "PIPC_USER_RIGHTS_LIST structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_USER_RIGHTS_LIST structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_USER_RIGHTS_LIST structure Active Directory Rights Management Services SDK 2.0
+- PIPC_USER_RIGHTS_LIST structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_USER_RIGHTS_LIST structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_USER\_RIGHTS\_LIST structure
@@ -28,8 +34,8 @@ Contains a list of user rights structures that defines the use restrictions asso
 
 ```C++
 typedef struct _IPC_USER_RIGHTS_LIST {
-  DWORD           cbSize;
-  DWORD           cUserRights;
+  DWORD           cbSize;
+  DWORD           cUserRights;
   IPC_USER_RIGHTS rgUserRights[ANYSIZE_ARRAY];
 } IPC_USER_RIGHTS_LIST, *PIPC_USER_RIGHTS_LIST;typedef const IPC_USER_RIGHTS_LIST *PCIPC_USER_RIGHTS_LIST;
 ```
@@ -69,8 +75,8 @@ An array of [**IPC\_USER\_RIGHTS**](ipc-user-rights.md) structures.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -91,9 +97,9 @@ An array of [**IPC\_USER\_RIGHTS**](ipc-user-rights.md) structures.
 [**IPC\_USER\_RIGHTS**](ipc-user-rights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

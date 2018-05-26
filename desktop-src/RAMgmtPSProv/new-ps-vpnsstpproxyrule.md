@@ -2,13 +2,16 @@
 title: New method of the PS\_VpnSstpProxyRule class
 description: Creates a tenant ID to gateway mapping object.
 audience: developer
-ms.assetid: '480a768f-20ff-4cc0-a76c-c8511461ec9f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 480a768f-20ff-4cc0-a76c-c8511461ec9f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["New method", "New method, PS_VpnSstpProxyRule class", "PS_VpnSstpProxyRule class, New method"]
+keywords:
+- New method
+- New method, PS_VpnSstpProxyRule class
+- PS_VpnSstpProxyRule class, New method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # New method of the PS\_VpnSstpProxyRule class
@@ -28,9 +34,9 @@ Creates a tenant ID to gateway mapping object.
 
 ```mof
 uint32 New(
-  [in]  string           TenantID,
-  [in]  string           GatewayAddress[],
-  [out] VpnSstpProxyRule cmdletOutput
+  [in]  string           TenantID,
+  [in]  string           GatewayAddress[],
+  [out] VpnSstpProxyRule cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ Returns an embedded instance of the current object.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Returns an embedded instance of the current object.
 [**PS\_VpnSstpProxyRule**](ps-vpnsstpproxyrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

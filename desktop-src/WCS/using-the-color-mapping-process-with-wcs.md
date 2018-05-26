@@ -1,8 +1,30 @@
 ---
 title: Using The Color Mapping Process with WCS
 description: WCS color mapping is based on device profiles.
-ms.assetid: 'df4d390e-0c9e-40dc-864a-2177934895db'
-keywords: ["Windows Color System (WCS),color mapping", "WCS (Windows Color System),color mapping", "image color management,color mapping", "color management,color mapping", "colors,color mapping", "color mapping", "Windows Color System (WCS),device profiles", "WCS (Windows Color System),device profiles", "image color management,device profiles", "color management,device profiles", "colors,device profiles", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "device profiles"]
+ms.assetid: df4d390e-0c9e-40dc-864a-2177934895db
+keywords:
+- Windows Color System (WCS),color mapping
+- WCS (Windows Color System),color mapping
+- image color management,color mapping
+- color management,color mapping
+- colors,color mapping
+- color mapping
+- Windows Color System (WCS),device profiles
+- WCS (Windows Color System),device profiles
+- image color management,device profiles
+- color management,device profiles
+- colors,device profiles
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- device profiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using The Color Mapping Process with WCS

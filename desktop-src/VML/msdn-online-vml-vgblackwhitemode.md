@@ -1,7 +1,12 @@
 ---
 title: VML VgBlackWhiteMode
 description: VML VgBlackWhiteMode
-ms.assetid: '8d511019-d032-4485-811b-25be7bf3d63d'
+ms.assetid: 8d511019-d032-4485-811b-25be7bf3d63d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML VgBlackWhiteMode

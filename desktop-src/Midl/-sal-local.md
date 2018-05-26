@@ -1,14 +1,20 @@
 ---
 title: /sal\_local switch
 description: The /sal\_local switch directs MIDL to also generate SAL annotations for parameters of interface methods marked \ local\ . The /sal switch must also be present.
-ms.assetid: '49AFC3F6-EAD5-45F6-8862-EFB3D9C479D1'
-keywords: ["/sal_local switch MIDL"]
+ms.assetid: 49AFC3F6-EAD5-45F6-8862-EFB3D9C479D1
+keywords:
+- /sal_local switch MIDL
 topic_type:
 - apiref
 api_name:
 - /sal_local
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /sal\_local switch

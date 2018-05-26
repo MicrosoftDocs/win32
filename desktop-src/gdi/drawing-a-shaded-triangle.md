@@ -1,12 +1,17 @@
 ---
-Description: 'To draw a shaded triangle, define a TRIVERTEX structure with three elements and a single GRADIENT\_TRIANGLE structure.'
-ms.assetid: '78834f92-00cb-4899-851a-1de5e3c1f4fa'
+Description: To draw a shaded triangle, define a TRIVERTEX structure with three elements and a single GRADIENT\_TRIANGLE structure.
+ms.assetid: 78834f92-00cb-4899-851a-1de5e3c1f4fa
 title: Drawing a Shaded Triangle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a Shaded Triangle
 
-To draw a shaded triangle, define a [**TRIVERTEX**](trivertex.md) structure with three elements and a single [**GRADIENT\_TRIANGLE**](gradient-triangle.md) structure. The following code example shows how to draw a shaded triangle using the [**GradientFill**](gradientfill.md) function with the GRADIENT\_FILL\_TRIANGLE mode defined.
+To draw a shaded triangle, define a [**TRIVERTEX**](/windows/win32/Wingdi/ns-wingdi-_trivertex?branch=master) structure with three elements and a single [**GRADIENT\_TRIANGLE**](/windows/win32/Wingdi/ns-wingdi-_gradient_triangle?branch=master) structure. The following code example shows how to draw a shaded triangle using the [**GradientFill**](/windows/win32/WinGdi/nf-wingdi-gradientfill?branch=master) function with the GRADIENT\_FILL\_TRIANGLE mode defined.
 
 
 ```C++
@@ -100,16 +105,16 @@ The following image shows the drawing output of the preceding code example.
 [Drawing a Shaded Rectangle](drawing-a-shaded-rectangle.md)
 </dt> <dt>
 
-[**EMRGRADIENTFILL**](emrgradientfill.md)
+[**EMRGRADIENTFILL**](/windows/win32/Wingdi/ns-wingdi-tagemrgradientfill?branch=master)
 </dt> <dt>
 
-[**GRADIENT\_TRIANGLE**](gradient-triangle.md)
+[**GRADIENT\_TRIANGLE**](/windows/win32/Wingdi/ns-wingdi-_gradient_triangle?branch=master)
 </dt> <dt>
 
-[**GradientFill**](gradientfill.md)
+[**GradientFill**](/windows/win32/WinGdi/nf-wingdi-gradientfill?branch=master)
 </dt> <dt>
 
-[**TRIVERTEX**](trivertex.md)
+[**TRIVERTEX**](/windows/win32/Wingdi/ns-wingdi-_trivertex?branch=master)
 </dt> </dl>
 
  

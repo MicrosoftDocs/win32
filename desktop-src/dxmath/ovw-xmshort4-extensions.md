@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMSHORT4 describes a 4D vector consisting of 16-bit signed integer components.'
-ms.assetid: '63a96314-50e0-48f7-a522-157073429d99'
+---
+Description: XMSHORT4 describes a 4D vector consisting of 16-bit signed integer components.
+ms.assetid: 63a96314-50e0-48f7-a522-157073429d99
 title: XMSHORT4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMSHORT4 Extensions
 
-[**XMSHORT4**](xmshort4.md) describes a 4D vector consisting of 16-bit signed integer components.
+[**XMSHORT4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort4?branch=master) describes a 4D vector consisting of 16-bit signed integer components.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMSHORT4 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMSHORT4**](xmshort4.md)
+[**XMSHORT4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshort4?branch=master)
 </dt> </dl>
 
  

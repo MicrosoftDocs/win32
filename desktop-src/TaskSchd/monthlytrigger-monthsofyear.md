@@ -1,8 +1,11 @@
 ---
 title: MonthlyTrigger.MonthsOfYear property
 description: For scripting, gets or sets the months of the year during which the task runs.
-ms.assetid: 'e587ea75-ecf9-40d0-82c2-c1325bac72fc'
-keywords: ["MonthsOfYear property Task Scheduler", "MonthsOfYear property Task Scheduler , MonthlyTrigger object", "MonthlyTrigger object Task Scheduler , MonthsOfYear property"]
+ms.assetid: e587ea75-ecf9-40d0-82c2-c1325bac72fc
+keywords:
+- MonthsOfYear property Task Scheduler
+- MonthsOfYear property Task Scheduler , MonthlyTrigger object
+- MonthlyTrigger object Task Scheduler , MonthsOfYear property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MonthlyTrigger.MonthsOfYear property
@@ -53,7 +61,7 @@ The following table shows the mapping of the bitwise mask that is used by this p
 
 
 
- 
+ 
 
 When reading or writing your own XML for a task, the months of the year are specified using the [**Months**](taskschedulerschema-months-monthlyscheduletype-element.md) element of the Task Scheduler schema.
 
@@ -63,8 +71,8 @@ When reading or writing your own XML for a task, the months of the year are spec
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -80,9 +88,9 @@ When reading or writing your own XML for a task, the months of the year are spec
 [**MonthlyTrigger**](monthlytrigger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

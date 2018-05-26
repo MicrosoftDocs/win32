@@ -1,7 +1,12 @@
 ---
 title: Adding an Application Rule
 description: This example adds an application rule using the Windows Firewall with Advanced Security APIs.
-ms.assetid: 'fff54b6a-dbb2-4ab3-898a-59532e209aa9'
+ms.assetid: fff54b6a-dbb2-4ab3-898a-59532e209aa9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an Application Rule

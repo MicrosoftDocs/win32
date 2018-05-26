@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer Name property
 description: The Name property contains the name of the Virtual Server application.
-ms.assetid: '7196b4c9-6a4f-454e-bf00-fb35cc1badf9'
-keywords: ["Name property Virtual Server", "Name property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , Name property", "Name property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , Name property"]
+ms.assetid: 7196b4c9-6a4f-454e-bf00-fb35cc1badf9
+keywords:
+- Name property Virtual Server
+- Name property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , Name property
+- Name property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , Name property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::Name property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Name(
-  [out] BSTR *virtualServerName
+  [out] BSTR *virtualServerName
 );
 ```
 
@@ -88,8 +98,8 @@ Wscript.Echo "Name: " & objVS.Name
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -101,9 +111,9 @@ Wscript.Echo "Name: " & objVS.Name
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_PreviousSettingData class
 description: An association between a virtual system and the setting data of the snapshot that is the parent to the virtual system.
-ms.assetid: '4bb90616-c577-4c5f-a765-3e543748f5c7'
-keywords: ["Msvm_PreviousSettingData class Hyper-V", "Msvm_PreviousSettingData class Hyper-V , described"]
+ms.assetid: 4bb90616-c577-4c5f-a765-3e543748f5c7
+keywords:
+- Msvm_PreviousSettingData class Hyper-V
+- Msvm_PreviousSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_PreviousSettingData class
@@ -32,13 +39,13 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_PreviousSettingData : CIM_ElementSettingData
 {
-  uint16                            IsDefault;
-  uint16                            IsNext;
-  uint16                            IsMaximum = 0;
+  uint16                            IsDefault;
+  uint16                            IsNext;
+  uint16                            IsMaximum = 0;
   Msvm_VirtualSystemSettingData REF SettingData;
-  Msvm_ComputerSystem           REF ManagedElement;
-  uint16                            IsCurrent;
-  uint16                            IsMinimum = 0;
+  Msvm_ComputerSystem           REF ManagedElement;
+  uint16                            IsCurrent;
+  uint16                            IsMinimum = 0;
 };
 ```
 
@@ -329,9 +336,9 @@ Access to the **Msvm\_PreviousSettingData** class might be restricted by UAC Fil
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -350,9 +357,9 @@ Access to the **Msvm\_PreviousSettingData** class might be restricted by UAC Fil
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to implement a custom Explorer Browser contol for your application.'
+Description: Demonstrates how to implement a custom Explorer Browser contol for your application.
 title: Explorer Browser Custom Contents Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Explorer Browser Custom Contents Sample

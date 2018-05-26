@@ -4,11 +4,15 @@ description: User naming attributes identify user objects, such as logon names a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2192743c-cedd-4b03-a402-3992d64a4801'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2192743c-cedd-4b03-a402-3992d64a4801
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["User Naming Attributes AD"]
+keywords:
+- User Naming Attributes AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Naming Attributes

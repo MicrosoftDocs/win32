@@ -1,7 +1,12 @@
 ---
-Description: 'The DoRealisePalette method realizes the window''s current palette.'
-ms.assetid: 'dd023c81-0cd0-48c6-bc63-5891f2a4acf7'
-title: 'CBaseWindow.DoRealisePalette method'
+Description: The DoRealisePalette method realizes the windows current palette.
+ms.assetid: dd023c81-0cd0-48c6-bc63-5891f2a4acf7
+title: CBaseWindow.DoRealisePalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.DoRealisePalette method
@@ -13,7 +18,7 @@ The `DoRealisePalette` method realizes the window's current palette.
 
 ```C++
 virtual HRESULT DoRealisePalette(
-   BOOL bForceBackground
+   BOOL bForceBackground
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The [**CBaseWindow::OnPaletteChange**](cbasewindow-onpalettechange.md) method ca
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

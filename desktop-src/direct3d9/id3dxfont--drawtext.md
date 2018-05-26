@@ -1,7 +1,12 @@
-﻿---
-Description: 'Draws formatted text. This method supports ANSI and Unicode strings.'
-ms.assetid: 'c1c3657e-632e-46a5-91da-e102ac8ef9bb'
-title: 'ID3DXFont::DrawText method'
+---
+Description: Draws formatted text. This method supports ANSI and Unicode strings.
+ms.assetid: c1c3657e-632e-46a5-91da-e102ac8ef9bb
+title: ID3DXFontDrawText method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFont::DrawText method
@@ -115,7 +120,7 @@ The parameters of this method are very similar to those of the GDI [**DrawText**
 
 This method supports both ANSI and Unicode strings.
 
-This method must be called inside a [**BeginScene**](idirect3ddevice9--beginscene.md) ... [**EndScene**](idirect3ddevice9--endscene.md) block. The only exception is when an application calls **DrawText** with DT\_CALCRECT to calculate the size of a given block of text.
+This method must be called inside a [**BeginScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene?branch=master) ... [**EndScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endscene?branch=master) block. The only exception is when an application calls **DrawText** with DT\_CALCRECT to calculate the size of a given block of text.
 
 Unless the DT\_NOCLIP format is used, this method clips the text so that it does not appear outside the specified rectangle. All formatting is assumed to have multiple lines unless the DT\_SINGLELINE format is specified.
 

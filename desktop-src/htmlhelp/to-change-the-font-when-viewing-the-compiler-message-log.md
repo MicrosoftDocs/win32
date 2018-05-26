@@ -1,7 +1,12 @@
 ---
 title: To change the font when viewing the compiler message log
 description: To change the font when viewing the compiler message log
-ms.assetid: 'FD01D3A4-EC18-4b13-A674-4D03D03A8A48'
+ms.assetid: FD01D3A4-EC18-4b13-A674-4D03D03A8A48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To change the font when viewing the compiler message log

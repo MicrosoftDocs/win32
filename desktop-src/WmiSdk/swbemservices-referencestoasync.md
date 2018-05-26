@@ -1,13 +1,16 @@
 ---
-Description: 'Returns all association classes or instances that refer to a specific source class or instance.'
+Description: Returns all association classes or instances that refer to a specific source class or instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2ad66ea1-b8f0-4b6b-b68f-29496afbe4bf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2ad66ea1-b8f0-4b6b-b68f-29496afbe4bf
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.ReferencesToAsync method'
+title: SWbemServices.ReferencesToAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.ReferencesToAsync method
@@ -156,7 +159,7 @@ After the completion of the **ReferencesToAsync** method, the [Err](https://msdn
 > [!Note]  
 > A returned collection with zero elements is not an error.
 
- 
+ 
 
 <dl> <dt>
 
@@ -200,8 +203,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -226,9 +229,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 [**SWbemServices.AssociatorsOf**](swbemservices-referencesto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

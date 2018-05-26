@@ -1,8 +1,14 @@
 ---
 title: About TBS
 description: A system service that allows transparent sharing of the Trusted Platform Module (TPM) resources.
-ms.assetid: '5ab3f514-dea9-48f7-97d9-abc774e2a273'
-keywords: ["TPM Base Services TBS , about"]
+ms.assetid: 5ab3f514-dea9-48f7-97d9-abc774e2a273
+keywords:
+- TPM Base Services TBS , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About TBS

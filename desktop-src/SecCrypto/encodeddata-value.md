@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the encoded data.'
-ms.assetid: '8e07ac14-6859-410f-ab30-84b8d60a94ad'
-title: 'EncodedData.Value property'
+---
+Description: Retrieves the encoded data.
+ms.assetid: 8e07ac14-6859-410f-ab30-84b8d60a94ad
+title: EncodedData.Value property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EncodedData.Value property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceIds property returns a variant safe array of long (VT\_I4 \| VT\_ARRAY). Each long value in the array is a device ID.'
-ms.assetid: '6b9f70f5-25fc-43cf-84b2-60801c45b6e8'
-title: 'FaxDeviceProvider.DeviceIds property'
+---
+Description: The DeviceIds property returns a variant safe array of long (VT\_I4 \| VT\_ARRAY). Each long value in the array is a device ID.
+ms.assetid: 6b9f70f5-25fc-43cf-84b2-60801c45b6e8
+title: FaxDeviceProvider.DeviceIds property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.DeviceIds property
@@ -46,7 +51,7 @@ A **Variant** that receives an array of device IDs.
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,17 @@ description: Provide the ability to logically group shares on multiple servers a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab7b3460-0bf6-4780-a50b-c3a82f7bd6b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-distributed-file-system-(dfs)'
+ms.assetid: ab7b3460-0bf6-4780-a50b-c3a82f7bd6b1
+ms.prod: windows-server-dev
+ms.technology: windows-distributed-file-system-(dfs)
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Files", "Distributed File System Files , home page", "DFS Files See Distributed File System"]
+keywords:
+- Distributed File System Files
+- Distributed File System Files , home page
+- DFS Files See Distributed File System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed File System

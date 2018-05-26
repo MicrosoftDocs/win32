@@ -1,7 +1,12 @@
-﻿---
-Description: 'RouterAllocBidiResponseContainer allocates a BIDI\_RESPONSE\_CONTAINER structure containing a list of bidi responses. The bidi response list is an array of BIDI\_RESPONSE\_DATA structures.'
-ms.assetid: 'ca10f0d5-62d6-451a-96e5-38aca18cf5b0'
+---
+Description: RouterAllocBidiResponseContainer allocates a BIDI\_RESPONSE\_CONTAINER structure containing a list of bidi responses. The bidi response list is an array of BIDI\_RESPONSE\_DATA structures.
+ms.assetid: ca10f0d5-62d6-451a-96e5-38aca18cf5b0
 title: RouterAllocBidiResponseContainer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterAllocBidiResponseContainer function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the user credentials are cached for subsequent connections.'
-ms.assetid: '65ed03f1-f61e-46f8-a666-91b393618de3'
-title: 'cacheUserData (OneX) Element'
+---
+Description: Specifies whether the user credentials are cached for subsequent connections.
+ms.assetid: 65ed03f1-f61e-46f8-a666-91b393618de3
+title: cacheUserData (OneX) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cacheUserData (OneX) Element

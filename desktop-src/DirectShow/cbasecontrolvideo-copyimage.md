@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a memory copy of an image.'
-ms.assetid: '83a980bc-1298-439f-8dfc-49534591977f'
-title: 'CBaseControlVideo.CopyImage method'
+Description: Creates a memory copy of an image.
+ms.assetid: 83a980bc-1298-439f-8dfc-49534591977f
+title: CBaseControlVideo.CopyImage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.CopyImage method
@@ -13,11 +18,11 @@ Creates a memory copy of an image.
 
 ```C++
 HRESULT CopyImage(
-   IMediaSample    *pMediaSample,
-   VIDEOINFOHEADER *pVideoInfo,
-   LONG            *pBufferSize,
-   BYTE            *pVideoImage,
-   RECT            *pSourceRect
+   IMediaSample    *pMediaSample,
+   VIDEOINFOHEADER *pVideoInfo,
+   LONG            *pBufferSize,
+   BYTE            *pVideoImage,
+   RECT            *pSourceRect
 );
 ```
 
@@ -68,7 +73,7 @@ If the *pVideoImage* parameter is **NULL**, the *pBufferSize* parameter is fille
 
 ## Remarks
 
-The member function retrieves the image from the sample and copies it into the output buffer. The section of video copied into the output buffer reflects the source rectangle that is set through the [**IBasicVideo**](ibasicvideo.md) interface (although it does not reflect the destination rectangle).
+The member function retrieves the image from the sample and copies it into the output buffer. The section of video copied into the output buffer reflects the source rectangle that is set through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface (although it does not reflect the destination rectangle).
 
 ## Requirements
 
@@ -88,9 +93,9 @@ The member function retrieves the image from the sample and copies it into the o
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,29 @@
 ---
 title: Thumb Control Type
 description: This topic provides information about Microsoft UI Automation support for the Thumb control type.
-ms.assetid: '3b1d6802-cfd4-4b07-80a0-2950ca7f4e96'
-keywords: ["UI Automation,support for Thumb control type", "UI Automation,Thumb control type", "UI Automation,tree structure for Thumb control type", "UI Automation,properties for Thumb control type", "UI Automation,control patterns for Thumb control type", "UI Automation,events for Thumb control type", "tree structures,Thumb control type", "properties,Thumb control type", "control patterns,Thumb control type", "events,Thumb control type", "support for Thumb control type", "Thumb control type", "control types,tree structure for Thumb control type", "control types,control patterns for Thumb control type", "control types,support for Thumb", "control types,Thumb"]
+ms.assetid: 3b1d6802-cfd4-4b07-80a0-2950ca7f4e96
+keywords:
+- UI Automation,support for Thumb control type
+- UI Automation,Thumb control type
+- UI Automation,tree structure for Thumb control type
+- UI Automation,properties for Thumb control type
+- UI Automation,control patterns for Thumb control type
+- UI Automation,events for Thumb control type
+- tree structures,Thumb control type
+- properties,Thumb control type
+- control patterns,Thumb control type
+- events,Thumb control type
+- support for Thumb control type
+- Thumb control type
+- control types,tree structure for Thumb control type
+- control types,control patterns for Thumb control type
+- control types,support for Thumb
+- control types,Thumb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thumb Control Type
@@ -85,7 +106,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support  | Notes                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ITransformProvider**](uiauto-itransformprovider.md) | Required | Enables the thumb control to be moved on the screen. Because the thumb control typically cannot be resized or rotated, the [Transform](uiauto-implementingtransform.md) control pattern primarily supports the [**Move**](uiauto-itransformprovider-move.md) function. |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) | Required | Enables the thumb control to be moved on the screen. Because the thumb control typically cannot be resized or rotated, the [Transform](uiauto-implementingtransform.md) control pattern primarily supports the [**Move**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-move?branch=master) function. |
 
 
 

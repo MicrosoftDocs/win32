@@ -1,7 +1,7 @@
 ---
 title: Cache Group Constants
 description: The following list contains the constants used by the cache group functions.
-ms.assetid: '9ca2069e-497d-4747-acf4-d5b8020b8ab7'
+ms.assetid: 9ca2069e-497d-4747-acf4-d5b8020b8ab7
 topic_type:
 - apiref
 api_name:
@@ -25,6 +25,11 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cache Group Constants
@@ -41,7 +46,7 @@ The following list contains the constants used by the cache group functions.
 
 
 
-Retrieves the flags, type, and disk quota attributes of the cache group. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) function.
+Retrieves the flags, type, and disk quota attributes of the cache group. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -54,7 +59,7 @@ Retrieves the flags, type, and disk quota attributes of the cache group. This is
 
 
 
-Sets or retrieves the flags associated with the cache group. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) and [**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md) functions.
+Sets or retrieves the flags associated with the cache group. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) and [**SetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-seturlcachegroupattributea?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -67,7 +72,7 @@ Sets or retrieves the flags associated with the cache group. This is used by the
 
 
 
-Retrieves all the attributes of the cache group. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) function.
+Retrieves all the attributes of the cache group. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -80,7 +85,7 @@ Retrieves all the attributes of the cache group. This is used by the [**GetUrlCa
 
 
 
-Sets or retrieves the group name of the cache group. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) and [**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md) functions.
+Sets or retrieves the group name of the cache group. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) and [**SetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-seturlcachegroupattributea?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -93,7 +98,7 @@ Sets or retrieves the group name of the cache group. This is used by the [**GetU
 
 
 
-Sets or retrieves the disk quota associated with the cache group. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) and [**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md) functions.
+Sets or retrieves the disk quota associated with the cache group. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) and [**SetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-seturlcachegroupattributea?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -106,7 +111,7 @@ Sets or retrieves the disk quota associated with the cache group. This is used b
 
 
 
-Sets or retrieves the group owner storage associated with the cache group. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) and [**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md) functions.
+Sets or retrieves the group owner storage associated with the cache group. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) and [**SetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-seturlcachegroupattributea?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -119,7 +124,7 @@ Sets or retrieves the group owner storage associated with the cache group. This 
 
 
 
-Sets or retrieves the cache group type. This is used by the [**GetUrlCacheGroupAttribute**](geturlcachegroupattribute.md) and [**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md) functions.
+Sets or retrieves the cache group type. This is used by the [**GetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-geturlcachegroupattributea?branch=master) and [**SetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-seturlcachegroupattributea?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -171,7 +176,7 @@ Indicates that the cache group cannot be purged.
 
 
 
-Sets the type, disk quota, group name, and owner storage attributes of the cache group. This is used by the [**SetUrlCacheGroupAttribute**](seturlcachegroupattribute.md) function.
+Sets the type, disk quota, group name, and owner storage attributes of the cache group. This is used by the [**SetUrlCacheGroupAttribute**](/windows/win32/Wininet/nf-wininet-seturlcachegroupattributea?branch=master) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -246,7 +251,7 @@ Maximum number of characters allowed for a cache group name.
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -254,15 +259,15 @@ Maximum number of characters allowed for a cache group name.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Wininet.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

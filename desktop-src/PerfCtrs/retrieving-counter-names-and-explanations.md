@@ -1,12 +1,17 @@
 ---
-Description: 'The performance data contains index values that you use to locate the names and help text for each registered object and counter.'
-ms.assetid: '9ddd1672-61cf-41c2-bec0-0d2b775bf970'
+Description: The performance data contains index values that you use to locate the names and help text for each registered object and counter.
+ms.assetid: 9ddd1672-61cf-41c2-bec0-0d2b775bf970
 title: Retrieving Counter Names and Help Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Counter Names and Help Text
 
-The performance data contains index values that you use to locate the names and help text for each registered object and counter. The **ObjectNameTitleIndex** and **ObjectHelpTitleIndex** members of the [**PERF\_OBJECT\_TYPE**](perf-object-type-str.md) structure contain the index values to the object name and help text, respectively, and the **CounterNameTitleIndex** and **CounterHelpTitleIndex** members of the [**PERF\_COUNTER\_DEFINITION**](perf-counter-definition-str.md) structure contain the index values to the counter name and help text, respectively.
+The performance data contains index values that you use to locate the names and help text for each registered object and counter. The **ObjectNameTitleIndex** and **ObjectHelpTitleIndex** members of the [**PERF\_OBJECT\_TYPE**](/windows/win32/Winperf/ns-winperf-_perf_object_type?branch=master) structure contain the index values to the object name and help text, respectively, and the **CounterNameTitleIndex** and **CounterHelpTitleIndex** members of the [**PERF\_COUNTER\_DEFINITION**](/windows/win32/Winperf/ns-winperf-_perf_counter_definition?branch=master) structure contain the index values to the counter name and help text, respectively.
 
 To retrieve the names or help text, call the [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911) function. Set the *hKey* parameter to one of the following predefined keys. Typically, you would use the **HKEY\_PERFORMANCE\_NLSTEXT** key, so you do not have to determine the user's language identifier.
 
@@ -14,13 +19,13 @@ To retrieve the names or help text, call the [**RegQueryValueEx**](https://msdn.
 
 | Key                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **HKEY\_PERFORMANCE\_DATA**    | Queries strings based on the language identifier value that you specify in the *lpValueName* parameter. Set *lpValueName* parameter to either "Counter &lt;langid&gt;" or "Help &lt;langid&gt;" to retrieve the names or help text, respectively. The language identifier is optional. If you do not specify a language identifier, the function returns English strings.<br/> To retrieve text in most languages, specify the primary language identifier only. For example, to retrieve English strings, specify the language identifier as 009; you would not specify 1033 for English-US.<br/> To retrieve Chinese and Portuguese text, specify both the primary and sublanguage identifiers.**Windows Server 2003 and Windows XP:** Specify only the primary language identifier for Portuguese.<br/> <br/> |
+| **HKEY\_PERFORMANCE\_DATA**    | Queries strings based on the language identifier value that you specify in the *lpValueName* parameter. Set *lpValueName* parameter to either "Counter &lt;langid&gt;" or "Help &lt;langid&gt;" to retrieve the names or help text, respectively. The language identifier is optional. If you do not specify a language identifier, the function returns English strings.<br/> To retrieve text in most languages, specify the primary language identifier only. For example, to retrieve English strings, specify the language identifier as 009; you would not specify 1033 for English-US.<br/> To retrieve Chinese and Portuguese text, specify both the primary and sublanguage identifiers.**Windows Server 2003 and Windows XP:** Specify only the primary language identifier for Portuguese.<br/> <br/> |
 | **HKEY\_PERFORMANCE\_NLSTEXT** | Query strings based on the default UI language of the current user. Set the *lpValueName* parameter to either "Counter" or "Help" to retrieve the names or help text, respectively.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **HKEY\_PERFORMANCE\_TEXT**    | Query English strings. Set the *lpValueName* parameter to either "Counter" or "Help" to retrieve the names or help text, respectively.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
- 
+ 
 
 The function returns the data as a list of strings. Each string is null-terminated. The last string is followed by an additional null terminator. The strings are listed in pairs. The first string of each pair is the index, and the second string is the text associated with the index. The counter data uses only even-numbered indexes, while the help data uses odd-numbered indexes. The pairs are returned in increasing index order.
 
@@ -596,9 +601,9 @@ void PrintCounterAndHelpText(LPWSTR pCounterTextHead, LPWSTR pHelpTextHead, LPDW
 
 
 
- 
+ 
 
- 
+ 
 
 
 

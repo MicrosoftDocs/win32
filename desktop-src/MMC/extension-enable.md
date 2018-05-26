@@ -4,11 +4,16 @@ description: The Enable method enables or disables the extension.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e060b12-880d-4639-8571-63e237446847'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7e060b12-880d-4639-8571-63e237446847
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Enable method MMC", "Enable method MMC , Extension object", "Extension object MMC , Enable method", "Enable method MMC , Extension interface", "Extension interface MMC , Enable method"]
+keywords:
+- Enable method MMC
+- Enable method MMC , Extension object
+- Extension object MMC , Enable method
+- Enable method MMC , Extension interface
+- Extension interface MMC , Enable method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extension::Enable method
@@ -66,8 +74,8 @@ objExt.Enable (1)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -82,9 +90,9 @@ objExt.Enable (1)
 [**Extension.EnableAllExtensions**](extension-enableallextensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: fsValidMembers Member
 description: fsValidMembers Member
-ms.assetid: '99230C25-8C54-4ce6-AB4B-4E397D69A84E'
+ms.assetid: 99230C25-8C54-4ce6-AB4B-4E397D69A84E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fsValidMembers Member
@@ -30,7 +35,7 @@ The *fsValidMembers* member is used when modifying an existing window type, and 
 
 <dl> <dt>
 
-[**Back to HH\_WINTYPE**](hh-wintype-structure.md)
+[**Back to HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master)
 </dt> </dl>
 
  

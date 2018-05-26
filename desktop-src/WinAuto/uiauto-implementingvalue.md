@@ -1,13 +1,28 @@
 ---
 title: Value Control Pattern
 description: Describes guidelines and conventions for implementing IValueProvider, including information about properties and methods.
-ms.assetid: '6b11d281-aca7-4548-853c-e7322999825d'
-keywords: ["UI Automation,implementing Value control pattern", "UI Automation,Value control pattern", "UI Automation,IValueProvider", "IValueProvider", "implementing UI Automation Value control patterns", "Value control patterns", "control patterns,IValueProvider", "control patterns,implementing UI Automation Value", "control patterns,Value", "interfaces,IValueProvider"]
+ms.assetid: 6b11d281-aca7-4548-853c-e7322999825d
+keywords:
+- UI Automation,implementing Value control pattern
+- UI Automation,Value control pattern
+- UI Automation,IValueProvider
+- IValueProvider
+- implementing UI Automation Value control patterns
+- Value control patterns
+- control patterns,IValueProvider
+- control patterns,implementing UI Automation Value
+- control patterns,Value
+- interfaces,IValueProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Value Control Pattern
 
-Describes guidelines and conventions for implementing [**IValueProvider**](uiauto-ivalueprovider.md), including information about properties and methods. The **Value** control pattern is used to support controls that have an intrinsic value not spanning a range and that can be represented as a string.
+Describes guidelines and conventions for implementing [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master), including information about properties and methods. The **Value** control pattern is used to support controls that have an intrinsic value not spanning a range and that can be represented as a string.
 
 The value string can be editable, depending on the control and its settings. For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
@@ -25,26 +40,26 @@ When implementing the **Value** control pattern, note the following guidelines a
 
     ![illustration showing editable list item](images/uia-valuepattern-editable-listitem.jpg)
 
--   Single-line edit controls support programmatic access to their contents by implementing [**IValueProvider**](uiauto-ivalueprovider.md). Multiline edit controls typically do not implement **IValueProvider**; instead they provide access to their content by implementing [**ITextProvider**](uiauto-itextprovider.md). **IValueProvider** can be implemented for multiline edit controls whose contents can be changed.
--   To retrieve the textual contents of a multiline edit control, the control must implement [**ITextProvider**](uiauto-itextprovider.md). However, **ITextProvider** does not support setting the value of a control.
--   [**IValueProvider**](uiauto-ivalueprovider.md) does not support the retrieval of formatting information or substring values. Implement [**ITextProvider**](uiauto-itextprovider.md) in these scenarios.
--   [**IValueProvider**](uiauto-ivalueprovider.md) must be implemented by controls such as the color picker selection control from Microsoft Word (see the following image), which supports string mapping between a color value (for example, "yellow") and an equivalent internal [RGB](http://go.microsoft.com/fwlink/p/?linkid=186474) value.
+-   Single-line edit controls support programmatic access to their contents by implementing [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master). Multiline edit controls typically do not implement **IValueProvider**; instead they provide access to their content by implementing [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master). **IValueProvider** can be implemented for multiline edit controls whose contents can be changed.
+-   To retrieve the textual contents of a multiline edit control, the control must implement [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master). However, **ITextProvider** does not support setting the value of a control.
+-   [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master) does not support the retrieval of formatting information or substring values. Implement [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master) in these scenarios.
+-   [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master) must be implemented by controls such as the color picker selection control from Microsoft Word (see the following image), which supports string mapping between a color value (for example, "yellow") and an equivalent internal [RGB](http://go.microsoft.com/fwlink/p/?linkid=186474) value.
 
     ![illustration showing color swatch string mapping](images/uia-valuepattern-colorpicker.jpg)
 
--   A control should have its **IsEnabled** property set to **TRUE** and its [**ITextProvider::IsReadOnly**](uiauto-ivalueprovider-isreadonly.md) property set to **FALSE** before allowing a call to [**ITextProvider::SetValue**](uiauto-ivalueprovider-setvalue.md).
+-   A control should have its **IsEnabled** property set to **TRUE** and its [**ITextProvider::IsReadOnly**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_isreadonly?branch=master) property set to **FALSE** before allowing a call to [**ITextProvider::SetValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-setvalue?branch=master).
 
 ## Required Members for **IValueProvider**
 
-The following properties and methods are required for implementing the [**IValueProvider**](uiauto-ivalueprovider.md) interface.
+The following properties and methods are required for implementing the [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master) interface.
 
 
 
 | Required members                                       | Member type | Notes |
 |--------------------------------------------------------|-------------|-------|
-| [**IsReadOnly**](uiauto-ivalueprovider-isreadonly.md) | Property    | None  |
-| [**Value**](uiauto-ivalueprovider-value.md)           | Property    | None  |
-| [**SetValue**](uiauto-ivalueprovider-setvalue.md)     | Method      | None  |
+| [**IsReadOnly**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_isreadonly?branch=master) | Property    | None  |
+| [**Value**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value?branch=master)           | Property    | None  |
+| [**SetValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-setvalue?branch=master)     | Method      | None  |
 
 
 

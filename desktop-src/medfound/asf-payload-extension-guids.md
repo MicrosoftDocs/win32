@@ -1,7 +1,12 @@
 ---
-Description: 'The following GUIDs define payload extensions for Advanced Systems Format (ASF) streams.'
-ms.assetid: 'db973b41-1e5c-4bc8-921d-5e9312eb21cb'
+Description: The following GUIDs define payload extensions for Advanced Systems Format (ASF) streams.
+ms.assetid: db973b41-1e5c-4bc8-921d-5e9312eb21cb
 title: ASF Payload Extension GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Payload Extension GUIDs
@@ -27,8 +32,8 @@ The following GUIDs define payload extensions for Advanced Systems Format (ASF) 
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Wmcontainer.h</dt> </dl> |
 
 
@@ -37,18 +42,18 @@ The following GUIDs define payload extensions for Advanced Systems Format (ASF) 
 
 <dl> <dt>
 
-[**IMFASFStreamConfig::AddPayloadExtension**](imfasfstreamconfig-addpayloadextension.md)
+[**IMFASFStreamConfig::AddPayloadExtension**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfstreamconfig-addpayloadextension?branch=master)
 </dt> <dt>
 
-[**IMFASFStreamConfig::GetPayloadExtension**](imfasfstreamconfig-getpayloadextension.md)
+[**IMFASFStreamConfig::GetPayloadExtension**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextension?branch=master)
 </dt> <dt>
 
 [Media Foundation Constants](media-foundation-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

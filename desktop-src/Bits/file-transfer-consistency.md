@@ -1,12 +1,17 @@
 ---
 title: File Transfer Consistency
 description: BITS guarantees that the version of the file it transfers is consistent based on the file size and time stamp, not content (BITS does not protect against man-in-the-middle attacks).
-ms.assetid: 'ba82f172-a3ac-49d6-bccd-7d0b68ba66de'
+ms.assetid: ba82f172-a3ac-49d6-bccd-7d0b68ba66de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Transfer Consistency
 
-BITS guarantees that the version of the file it transfers is consistent based on the file size and time stamp, not content (BITS does not protect against man-in-the-middle attacks). To verify the contents yourself, you can use the [**IBackgroundCopyFile3::GetTemporaryName**](ibackgroundcopyfile3-gettemporaryname.md) method to get the name of the file that contains the downloaded content, verify the contents using your own mechanism, and then call the [**IBackgroundCopyFile3::SetValidationState**](ibackgroundcopyfile3-setvalidationstate.md) method to indicate to BITS if the contents of the file is valid. If you set the validation state to **FALSE** and the content is from the origin server, the job goes into the error state. If the content is from a peer, BITS downloads the file from the origin server.
+BITS guarantees that the version of the file it transfers is consistent based on the file size and time stamp, not content (BITS does not protect against man-in-the-middle attacks). To verify the contents yourself, you can use the [**IBackgroundCopyFile3::GetTemporaryName**](/windows/win32/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-gettemporaryname?branch=master) method to get the name of the file that contains the downloaded content, verify the contents using your own mechanism, and then call the [**IBackgroundCopyFile3::SetValidationState**](/windows/win32/Bits3_0/nf-bits3_0-ibackgroundcopyfile3-setvalidationstate?branch=master) method to indicate to BITS if the contents of the file is valid. If you set the validation state to **FALSE** and the content is from the origin server, the job goes into the error state. If the content is from a peer, BITS downloads the file from the origin server.
 
 For downloads, if the file size or time stamp changes while BITS is transferring the file, BITS restarts the transfer of that file only. For example, if the download job contains two files and the files are updated on the server while BITS is transferring the second file, BITS restarts the transfer of the second file only. The first file, which already transferred successfully, is not updated to reflect the new changes.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit is set, the dialog box periodically calls the installer.'
-ms.assetid: '7798cb50-72e4-4530-bf06-1927dd963a01'
+Description: If this bit is set, the dialog box periodically calls the installer.
+ms.assetid: 7798cb50-72e4-4530-bf06-1927dd963a01
 title: TrackDiskSpace Dialog Style Bit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TrackDiskSpace Dialog Style Bit

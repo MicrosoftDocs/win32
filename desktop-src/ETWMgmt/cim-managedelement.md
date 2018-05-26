@@ -4,13 +4,15 @@ description: The CIM\_ManagedElement class is an abstract class that provides a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51f4f819-4dd4-4d4b-82f4-5c7f43a6d696'
-ms.prod: 'windows-server-dev'
+ms.assetid: 51f4f819-4dd4-4d4b-82f4-5c7f43a6d696
+ms.prod: windows-server-dev
 ms.technology:
-- 'event-tracing'
-- 'windows-management-instrumentation'
+- event-tracing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ManagedElement class", "CIM_ManagedElement class, described"]
+keywords:
+- CIM_ManagedElement class
+- CIM_ManagedElement class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - EventTracingManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedElement class
@@ -119,17 +124,17 @@ The value of this property must be unique within the NameSpace.
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\EventTracingManagement<br/>                                           |
 | MOF<br/>                      | <dl> <dt>EventTracingManagement.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>EventTracingManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

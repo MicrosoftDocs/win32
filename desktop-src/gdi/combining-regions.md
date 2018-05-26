@@ -1,12 +1,17 @@
 ---
-Description: 'An application combines two regions by calling the CombineRgn function.'
-ms.assetid: 'd16f9ca5-33e2-4752-900e-743245838377'
+Description: An application combines two regions by calling the CombineRgn function.
+ms.assetid: d16f9ca5-33e2-4752-900e-743245838377
 title: Combining Regions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combining Regions
 
-An application combines two regions by calling the [**CombineRgn**](combinergn.md) function. Using this function, an application can combine the intersecting parts of two regions, all but the intersecting parts of two regions, the two original regions in their entirety, and so on. Following are five values that define the region combinations.
+An application combines two regions by calling the [**CombineRgn**](/windows/win32/Wingdi/nf-wingdi-combinergn?branch=master) function. Using this function, an application can combine the intersecting parts of two regions, all but the intersecting parts of two regions, the two original regions in their entirety, and so on. Following are five values that define the region combinations.
 
 
 
@@ -22,7 +27,7 @@ An application combines two regions by calling the [**CombineRgn**](combinergn.m
 
  
 
-The following illustration shows the five possible combinations of a square and a circular region resulting from a call to [**CombineRgn**](combinergn.md).
+The following illustration shows the five possible combinations of a square and a circular region resulting from a call to [**CombineRgn**](/windows/win32/Wingdi/nf-wingdi-combinergn?branch=master).
 
 ![illustration that demonstrates the results described in the previous table](images/csrgn-02.png)
 

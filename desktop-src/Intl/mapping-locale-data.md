@@ -1,7 +1,12 @@
 ---
-Description: 'NLS includes a number of API functions that your applications can use to map locale data between locale identifiers and locale names, and list neutral locales.'
-ms.assetid: '01bc261d-dfee-430e-86c9-cfafe82856c8'
+Description: NLS includes a number of API functions that your applications can use to map locale data between locale identifiers and locale names, and list neutral locales.
+ms.assetid: 01bc261d-dfee-430e-86c9-cfafe82856c8
 title: Mapping Locale Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Locale Data
@@ -14,11 +19,11 @@ NLS provides several locale mapping functions for use by applications that you d
 
 **Use the Standard Conversion Functions for Data Mapping**
 
-To map between a locale name and a locale identifier, your application can call the [**LocaleNameToLCID**](localenametolcid.md) function. The application uses [**LCIDToLocaleName**](lcidtolocalename.md) to map between a locale identifier and a locale name.
+To map between a locale name and a locale identifier, your application can call the [**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master) function. The application uses [**LCIDToLocaleName**](/windows/win32/Winnls/nf-winnls-lcidtolocalename?branch=master) to map between a locale identifier and a locale name.
 
 **List Neutral Locales**
 
-To enumerate neutral locales for Windows 7 and later, your application can call [**EnumSystemLocalesEx**](enumsystemlocalesex.md) with *dwFlags* set to [**LOCALE\_NEUTRALDATA**](locale-neutraldata.md). It can also use [**GetLocaleInfoEx**](getlocaleinfoex.md) with *LCType* set to [**LOCALE\_INEUTRAL**](locale-ineutral.md).
+To enumerate neutral locales for Windows 7 and later, your application can call [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master) with *dwFlags* set to [**LOCALE\_NEUTRALDATA**](locale-neutraldata.md). It can also use [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) with *LCType* set to [**LOCALE\_INEUTRAL**](locale-ineutral.md).
 
 ## Map Locale Data on Pre-Windows Vista Operating Systems
 

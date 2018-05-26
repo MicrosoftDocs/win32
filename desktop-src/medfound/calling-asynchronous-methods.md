@@ -1,7 +1,12 @@
 ---
 Description: Calling Asynchronous Methods
-ms.assetid: '1d8688a5-d476-457d-a0ad-e4f106ac3484'
+ms.assetid: 1d8688a5-d476-457d-a0ad-e4f106ac3484
 title: Calling Asynchronous Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling Asynchronous Methods
@@ -10,14 +15,14 @@ In Media Foundation, many operations are performed asynchronously. Asynchronous 
 
 To start an asynchronous operation, call the **Begin** method. The **Begin** method always contains at least two parameters:
 
--   A pointer to the [**IMFAsyncCallback**](imfasynccallback.md) interface. The application must implement this interface.
+-   A pointer to the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface. The application must implement this interface.
 -   A pointer to an optional state object.
 
-The [**IMFAsyncCallback**](imfasynccallback.md) interface notifies the application when the operation is completed. For an example of how to implement this interface, see [Implementing the Asynchronous Callback](implementing-the-asynchronous-callback.md). The state object is optional. If specified, it must implement the **IUnknown** interface. You can use the state object to store any state information that is needed by your callback. If you do not need state information, you can set this parameter to **NULL**. The **Begin** method might contain additional parameters that are specific to that method.
+The [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface notifies the application when the operation is completed. For an example of how to implement this interface, see [Implementing the Asynchronous Callback](implementing-the-asynchronous-callback.md). The state object is optional. If specified, it must implement the **IUnknown** interface. You can use the state object to store any state information that is needed by your callback. If you do not need state information, you can set this parameter to **NULL**. The **Begin** method might contain additional parameters that are specific to that method.
 
 If the **Begin** method returns a failure code, it means the operation has failed immediately, and the callback will not be invoked. If the **Begin** method succeeds, it means the operation is pending, and the callback will be invoked when the operation completes.
 
-For example, the [**IMFByteStream::BeginRead**](imfbytestream-beginread.md) method starts an asynchronous read operation on a byte stream:
+For example, the [**IMFByteStream::BeginRead**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-beginread?branch=master) method starts an asynchronous read operation on a byte stream:
 
 
 ```C++
@@ -40,9 +45,9 @@ For example, the [**IMFByteStream::BeginRead**](imfbytestream-beginread.md) meth
 
 
 
-The callback method is [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md). It has a single parameter, *pAsyncResult*, which is a pointer to the [**IMFAsyncResult**](imfasyncresult.md) interface. To complete the asynchronous operation, call the **End** method that matches the asynchronous **Begin** method. The **End** method always takes an **IMFAsyncResult** pointer. Always pass in the same pointer that you received in the **Invoke** method. The asynchronous operation is not complete until you call the **End** method. You may call the **End** method from inside the **Invoke** method, or you can call it from another thread.
+The callback method is [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master). It has a single parameter, *pAsyncResult*, which is a pointer to the [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) interface. To complete the asynchronous operation, call the **End** method that matches the asynchronous **Begin** method. The **End** method always takes an **IMFAsyncResult** pointer. Always pass in the same pointer that you received in the **Invoke** method. The asynchronous operation is not complete until you call the **End** method. You may call the **End** method from inside the **Invoke** method, or you can call it from another thread.
 
-For example, to complete the [**IMFByteStream::BeginRead**](imfbytestream-beginread.md) on a byte stream, call [**IMFByteStream::EndRead**](imfbytestream-endread.md):
+For example, to complete the [**IMFByteStream::BeginRead**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-beginread?branch=master) on a byte stream, call [**IMFByteStream::EndRead**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-endread?branch=master):
 
 
 ```C++
@@ -60,13 +65,13 @@ For example, to complete the [**IMFByteStream::BeginRead**](imfbytestream-beginr
 
 The return value of the **End** method indicates the status of the asynchronous operation. In most cases, your application will perform some work after the asynchronous operation completes, whether it completes successfully or not. You have several options:
 
--   Do the work inside the [**Invoke**](imfasynccallback-invoke.md) method. This approach is acceptable as long as your application never blocks the calling thread or waits for anything inside the **Invoke** method. If you block the calling thread, you might block the streaming pipeline. For example, you might update some state variables, but do not perform a synchronous read operation or wait on a mutex object.
--   In the [**Invoke**](imfasynccallback-invoke.md) method, set an event and return immediately. The application's calling thread waits for the event and does the work when the event is signaled.
--   In the [**Invoke**](imfasynccallback-invoke.md) method, post a private window message to your application window and return immediately. The application does the work on its message loop. (Make sure to post the message by calling **PostMessage**, not **SendMessage**, because **SendMessage** can block the callback thread.)
+-   Do the work inside the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method. This approach is acceptable as long as your application never blocks the calling thread or waits for anything inside the **Invoke** method. If you block the calling thread, you might block the streaming pipeline. For example, you might update some state variables, but do not perform a synchronous read operation or wait on a mutex object.
+-   In the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method, set an event and return immediately. The application's calling thread waits for the event and does the work when the event is signaled.
+-   In the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method, post a private window message to your application window and return immediately. The application does the work on its message loop. (Make sure to post the message by calling **PostMessage**, not **SendMessage**, because **SendMessage** can block the callback thread.)
 
-It is important to remember that [**Invoke**](imfasynccallback-invoke.md) is called from another thread. Your application is responsible for ensuring that any work performed inside **Invoke** is thread-safe.
+It is important to remember that [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) is called from another thread. Your application is responsible for ensuring that any work performed inside **Invoke** is thread-safe.
 
-By default, the thread that calls [**Invoke**](imfasynccallback-invoke.md) makes no assumptions about the behavior of your callback object. Optionally, you can implement the [**IMFAsyncCallback::GetParameters**](imfasynccallback-getparameters.md) method to return information about your callback implementation. Otherwise, this method can return **E\_NOTIMPL**:
+By default, the thread that calls [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) makes no assumptions about the behavior of your callback object. Optionally, you can implement the [**IMFAsyncCallback::GetParameters**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-getparameters?branch=master) method to return information about your callback implementation. Otherwise, this method can return **E\_NOTIMPL**:
 
 
 ```C++
@@ -79,7 +84,7 @@ By default, the thread that calls [**Invoke**](imfasynccallback-invoke.md) makes
 
 
 
-If you specified a state object in the **Begin** method, you can retrieve it from inside your callback method by calling [**IMFAsyncResult::GetState**](imfasyncresult-getstate.md).
+If you specified a state object in the **Begin** method, you can retrieve it from inside your callback method by calling [**IMFAsyncResult::GetState**](/windows/win32/mfobjects/nf-mfobjects-imfasyncresult-getstate?branch=master).
 
 ## Related topics
 

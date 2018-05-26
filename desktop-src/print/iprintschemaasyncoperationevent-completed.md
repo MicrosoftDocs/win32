@@ -1,7 +1,12 @@
-﻿---
-Description: 'Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed.'
-ms.assetid: 'B1599F21-D6DD-497D-9CD8-6C637ABAA33A'
-title: 'IPrintSchemaAsyncOperationEvent::Completed method'
+---
+Description: Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed.
+ms.assetid: B1599F21-D6DD-497D-9CD8-6C637ABAA33A
+title: IPrintSchemaAsyncOperationEventCompleted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaAsyncOperationEvent::Completed method

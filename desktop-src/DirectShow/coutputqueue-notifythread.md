@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyThread method notifies the thread that the queue contains data.'
-ms.assetid: 'd91cde3f-2876-4fb4-a124-f1460bba2cc9'
-title: 'COutputQueue.NotifyThread method'
+Description: The NotifyThread method notifies the thread that the queue contains data.
+ms.assetid: d91cde3f-2876-4fb4-a124-f1460bba2cc9
+title: COutputQueue.NotifyThread method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.NotifyThread method
@@ -47,9 +52,9 @@ Hold the critical section before calling this method.
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

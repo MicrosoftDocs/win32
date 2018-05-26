@@ -1,7 +1,12 @@
 ---
 title: Process Snapshotting
 description: .
-ms.assetid: '1dc6fe86-3f5a-4810-8e93-a0fe309c54ee'
+ms.assetid: 1dc6fe86-3f5a-4810-8e93-a0fe309c54ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Snapshotting
@@ -30,11 +35,11 @@ Process Snapshotting is included in Windows 8.1 and Windows Server 2012 R2 opera
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

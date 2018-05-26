@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads an integer property.'
-ms.assetid: 'AFB73FA6-0979-4CED-8AB9-9D0FDD6C37E8'
-title: 'IPrinterPropertyBag::GetInt32 method'
+---
+Description: Reads an integer property.
+ms.assetid: AFB73FA6-0979-4CED-8AB9-9D0FDD6C37E8
+title: IPrinterPropertyBagGetInt32 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::GetInt32 method

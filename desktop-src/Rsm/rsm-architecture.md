@@ -1,7 +1,12 @@
 ---
-Description: 'RSM consists of the following components: API, database, and MMC snap-in.'
-ms.assetid: '36e97c40-99a6-4706-818d-0400736c1099'
+Description: RSM consists of the following components API, database, and MMC snap-in.
+ms.assetid: 36e97c40-99a6-4706-818d-0400736c1099
 title: RSM Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Architecture
@@ -18,7 +23,7 @@ The following figure illustrates the relationships among the RSM API, database, 
 
 ![relationships among components of rsm, devices, and operating system](images/progd1.png)
 
-When an application needs to mount a tape, for example, it uses the [**MountNtmsMedia**](mountntmsmedia.md) function to issue a mount request for the specified tape. RSM reads the database for location and identification information of the tape. If the tape is offline, RSM generates an operator request to insert it. If the tape is online, RSM uses the changer driver to mount it and updates the database. When the tape is in the drive RSM uses the tape driver to read the label on the tape. RSM then compares what was read from the database to what was expected to ensure the correct tape was mounted.
+When an application needs to mount a tape, for example, it uses the [**MountNtmsMedia**](/windows/win32/Ntmsapi/nf-ntmsapi-mountntmsmedia?branch=master) function to issue a mount request for the specified tape. RSM reads the database for location and identification information of the tape. If the tape is offline, RSM generates an operator request to insert it. If the tape is online, RSM uses the changer driver to mount it and updates the database. When the tape is in the drive RSM uses the tape driver to read the label on the tape. RSM then compares what was read from the database to what was expected to ensure the correct tape was mounted.
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes the current matrix from the top of the stack.'
-ms.assetid: '4c542012-058a-4818-8ec4-27e7d3357ca3'
-title: 'ID3DXMATRIXStack::Pop method'
+---
+Description: Removes the current matrix from the top of the stack.
+ms.assetid: 4c542012-058a-4818-8ec4-27e7d3357ca3
+title: ID3DXMATRIXStackPop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::Pop method

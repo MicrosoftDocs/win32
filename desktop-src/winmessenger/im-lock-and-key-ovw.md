@@ -1,8 +1,24 @@
 ---
 title: Messenger Lock and Key API
 description: This topic explains how to unlock the Messenger service APIs using Messenger Lock and Key.
-ms.assetid: 'f094589c-53bb-466e-9758-ea3df5c84e74'
-keywords: ["Windows Messenger,Lock and Key", "Windows Messenger,unlocking Messenger service", "unlocking Messenger service", "Messenger service,unlocking", "Messenger service,Lock and Key", "Messenger Lock and Key,unlocking Messenger service", "Lock and Key,unlocking Messenger service", "Messenger Lock and Key,authentication", "Lock and Key,authentication", "Messenger Lock and Key,encryption", "Lock and Key,encryption"]
+ms.assetid: f094589c-53bb-466e-9758-ea3df5c84e74
+keywords:
+- Windows Messenger,Lock and Key
+- Windows Messenger,unlocking Messenger service
+- unlocking Messenger service
+- Messenger service,unlocking
+- Messenger service,Lock and Key
+- Messenger Lock and Key,unlocking Messenger service
+- Lock and Key,unlocking Messenger service
+- Messenger Lock and Key,authentication
+- Lock and Key,authentication
+- Messenger Lock and Key,encryption
+- Lock and Key,encryption
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Messenger Lock and Key API

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sends an OPM status request to a protected output object.'
-ms.assetid: '4b691b20-25de-4b9e-a725-674a57697b56'
+---
+Description: Sends an OPM status request to a protected output object.
+ms.assetid: 4b691b20-25de-4b9e-a725-674a57697b56
 title: GetOPMInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetOPMInformation function
@@ -57,7 +62,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-Applications should call [**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md) instead of calling this function.
+Applications should call [**IOPMVideoOutput::GetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-getinformation?branch=master) instead of calling this function.
 
 The protected output object must be created with OPM semantics. See [**CreateOPMProtectedOutputs**](createopmprotectedoutputs.md).
 

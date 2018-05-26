@@ -1,7 +1,12 @@
 ---
 title: Glossary
 description: Describes Automation terminology.
-ms.assetid: 'f9000300-20f2-4926-9625-788ad367d526'
+ms.assetid: f9000300-20f2-4926-9625-788ad367d526
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary
@@ -148,7 +153,7 @@ A user-defined COM interface that is not defined as part of OLE.
 <span id="Dispatch_identifier__DISPID_"></span><span id="dispatch_identifier__dispid_"></span><span id="DISPATCH_IDENTIFIER__DISPID_"></span>*Dispatch identifier (DISPID)*
 </dt> <dd>
 
-The number by which a member function, parameter, or data member of an object is known internally to the [**IDispatch**](idispatch.md) interface.
+The number by which a member function, parameter, or data member of an object is known internally to the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface.
 
 </dd> <dt>
 
@@ -466,7 +471,7 @@ The information used to build the type information for one or more aspects of an
 <span id="type_information"></span><span id="TYPE_INFORMATION"></span>*type information*
 </dt> <dd>
 
-Information that describes the interfaces of an application. Type information is created from type descriptions using OLE Automation tools, such as the MIDL compiler or the [**CreateDispTypeInfo**](603E00E8-0370-4EBF-B9D2-85E6E58C2B3A) function. Type information can be accessed through the [**ITypeInfo**](itypeinfo.md) interface.
+Information that describes the interfaces of an application. Type information is created from type descriptions using OLE Automation tools, such as the MIDL compiler or the [**CreateDispTypeInfo**](603E00E8-0370-4EBF-B9D2-85E6E58C2B3A) function. Type information can be accessed through the [**ITypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-itypeinfo?branch=master) interface.
 
 </dd> <dt>
 
@@ -480,7 +485,7 @@ A unit of information identified by one of these statements in a type descriptio
 <span id="type_library"></span><span id="TYPE_LIBRARY"></span>*type library*
 </dt> <dd>
 
-A file or component within another file that contains type information about exposed objects. Type libraries are created using the MIDL compiler, and can be accessed through the [**ITypeLib**](itypelib.md) interface.
+A file or component within another file that contains type information about exposed objects. Type libraries are created using the MIDL compiler, and can be accessed through the [**ITypeLib**](/windows/previous-versions/oaidl/nn-oaidl-itypelib?branch=master) interface.
 
 </dd> </dl>
 
@@ -520,7 +525,7 @@ A table of function pointers, such as an implementation of a class in C++. The p
 <span id="VTBL_binding"></span><span id="vtbl_binding"></span><span id="VTBL_BINDING"></span>*VTBL binding*
 </dt> <dd>
 
-A process that allows an ActiveX client to call a method or property accessor function directly without using the [**IDispatch**](idispatch.md) interface. VTBL binding is faster than both *ID binding* and *latebinding* because the access is direct. See also late binding and ID binding.
+A process that allows an ActiveX client to call a method or property accessor function directly without using the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface. VTBL binding is faster than both *ID binding* and *latebinding* because the access is direct. See also late binding and ID binding.
 
 </dd> </dl>
 

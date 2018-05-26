@@ -1,8 +1,9 @@
 ---
 title: CB\_GETCOMBOBOXINFO message
 description: Gets information about the specified combo box.
-ms.assetid: '3239dfa8-7301-48e3-ba8e-29c5d5f43b39'
-keywords: ["CB_GETCOMBOBOXINFO message Windows Controls"]
+ms.assetid: 3239dfa8-7301-48e3-ba8e-29c5d5f43b39
+keywords:
+- CB_GETCOMBOBOXINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETCOMBOBOXINFO message
@@ -31,7 +37,7 @@ This parameter is not used.
 *lParam* \[out\]
 </dt> <dd>
 
-A pointer to a [**COMBOBOXINFO**](comboboxinfo.md) structure that receives the information.
+A pointer to a [**COMBOBOXINFO**](/windows/win32/Winuser/ns-winuser-tagcomboboxinfo?branch=master) structure that receives the information.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-This message is equivalent to [**GetComboBoxInfo**](getcomboboxinfo.md).
+This message is equivalent to [**GetComboBoxInfo**](/windows/win32/Winuser/nf-winuser-getcomboboxinfo?branch=master).
 
 ## Requirements
 
@@ -51,8 +57,8 @@ This message is equivalent to [**GetComboBoxInfo**](getcomboboxinfo.md).
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,15 +70,15 @@ This message is equivalent to [**GetComboBoxInfo**](getcomboboxinfo.md).
 **Reference**
 </dt> <dt>
 
-[**COMBOBOXINFO**](comboboxinfo.md)
+[**COMBOBOXINFO**](/windows/win32/Winuser/ns-winuser-tagcomboboxinfo?branch=master)
 </dt> <dt>
 
-[**GetComboBoxInfo**](getcomboboxinfo.md)
+[**GetComboBoxInfo**](/windows/win32/Winuser/nf-winuser-getcomboboxinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

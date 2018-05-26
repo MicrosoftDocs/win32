@@ -1,7 +1,12 @@
 ---
 title: About EAPHost
 description: Implements the Extensible Authentication Protocol (EAP) state machine and EAP protocol framework, as per RFC 3748.
-ms.assetid: '41e67c33-9220-464f-84ab-c61667a226ad'
+ms.assetid: 41e67c33-9220-464f-84ab-c61667a226ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About EAPHost

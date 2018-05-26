@@ -1,7 +1,12 @@
 ---
-Description: 'Used by the auto complete client to notify the application of the text a user has inked into Input Panel.'
-ms.assetid: '68413836-321a-4e75-8538-c5a8fc577c0f'
-title: 'ITipAutocompleteProvider::UpdatePendingText method'
+Description: Used by the auto complete client to notify the application of the text a user has inked into Input Panel.
+ms.assetid: 68413836-321a-4e75-8538-c5a8fc577c0f
+title: ITipAutocompleteProviderUpdatePendingText method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteProvider::UpdatePendingText method
@@ -13,7 +18,7 @@ Used by the auto complete client to notify the application of the text a user ha
 
 ```C++
 HRESULT UpdatePendingText(
-  [in] BSTR bstrPendingText
+  [in] BSTR bstrPendingText
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ This text will not contain the text already inserted in the focused field. The a
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -72,9 +77,9 @@ This text will not contain the text already inserted in the focused field. The a
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

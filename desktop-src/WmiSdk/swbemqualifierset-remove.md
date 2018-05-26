@@ -1,13 +1,16 @@
 ---
-Description: 'The Remove method of the SWbemQualifierSet object deletes a named qualifier from the collection.'
+Description: The Remove method of the SWbemQualifierSet object deletes a named qualifier from the collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7d386858-efd1-42e6-9176-9cb4bcfc77d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7d386858-efd1-42e6-9176-9cb4bcfc77d0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifierSet.Remove method'
+title: SWbemQualifierSet.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifierSet.Remove method
@@ -94,8 +97,8 @@ You cannot iterate a collection while removing items because when you remove an 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -114,9 +117,9 @@ You cannot iterate a collection while removing items because when you remove an 
 [**SWbemQualifierSet.Add**](swbemqualifierset-add.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

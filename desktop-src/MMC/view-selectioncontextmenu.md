@@ -4,11 +4,16 @@ description: The SelectionContextMenu property retrieves menu items for the List
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '62390cdb-c9a4-4a65-94b1-178039ba0d69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 62390cdb-c9a4-4a65-94b1-178039ba0d69
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SelectionContextMenu property MMC", "SelectionContextMenu property MMC , View object", "View object MMC , SelectionContextMenu property", "SelectionContextMenu property MMC , View interface", "View interface MMC , SelectionContextMenu property"]
+keywords:
+- SelectionContextMenu property MMC
+- SelectionContextMenu property MMC , View object
+- View object MMC , SelectionContextMenu property
+- SelectionContextMenu property MMC , View interface
+- View interface MMC , SelectionContextMenu property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::SelectionContextMenu property
@@ -63,8 +71,8 @@ Set objSelCtxMenu = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -82,9 +90,9 @@ Set objSelCtxMenu = Nothing
 [**ContextMenu object**](contextmenu-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

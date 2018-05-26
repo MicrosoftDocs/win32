@@ -1,7 +1,12 @@
 ---
 title: NAP Interfaces
 description: NAP Interfaces
-ms.assetid: 'fff854b9-9c83-4db2-bceb-22509b261a97'
+ms.assetid: fff854b9-9c83-4db2-bceb-22509b261a97
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Interfaces

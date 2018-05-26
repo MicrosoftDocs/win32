@@ -1,7 +1,12 @@
 ---
-Description: 'Obsolete Printer Driver-Provided Helper Functions for Plug-ins'
-ms.assetid: 'a5bd86e8-7f45-4472-8264-b6b7c8933d08'
-title: 'Obsolete Printer Driver-Provided Helper Functions for Plug-ins'
+Description: Obsolete Printer Driver-Provided Helper Functions for Plug-ins
+ms.assetid: a5bd86e8-7f45-4472-8264-b6b7c8933d08
+title: Obsolete Printer Driver-Provided Helper Functions for Plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obsolete Printer Driver-Provided Helper Functions for Plug-ins

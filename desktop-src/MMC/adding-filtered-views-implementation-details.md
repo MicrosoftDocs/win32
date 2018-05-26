@@ -4,11 +4,15 @@ description: Adding Filtered Views Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05541da0-47c4-452e-a7b3-adcc54ac2e7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 05541da0-47c4-452e-a7b3-adcc54ac2e7d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["filtered views MMC , implementation details"]
+keywords:
+- filtered views MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Filtered Views: Implementation Details

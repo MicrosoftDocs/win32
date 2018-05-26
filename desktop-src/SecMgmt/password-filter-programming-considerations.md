@@ -1,7 +1,12 @@
 ---
-Description: 'Explains considerations for implementation of password filter export functions.'
-ms.assetid: 'ec7c1e7e-844a-43d4-b756-02bc1062d7b8'
+Description: Explains considerations for implementation of password filter export functions.
+ms.assetid: ec7c1e7e-844a-43d4-b756-02bc1062d7b8
 title: Password Filter Programming Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Password Filter Programming Considerations

@@ -1,12 +1,18 @@
 ---
 title: Texture1DArray SampleLevel methods
 description: Samples a texture on the specified mipmap level.
-ms.assetid: '68C86C79-37DC-49D0-9635-EA548A3DA83B'
-keywords: ["SampleLevel methods HLSL"]
+ms.assetid: 68C86C79-37DC-49D0-9635-EA548A3DA83B
+keywords:
+- SampleLevel methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1DArray::SampleLevel methods
@@ -34,9 +40,9 @@ Samples a texture on the specified mipmap level.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Creating Separate Type Libraries
 description: For each supported language, write and register a separate type library.
-ms.assetid: '7a66764e-6f5a-4f27-a64f-aa3c5e058eef'
+ms.assetid: 7a66764e-6f5a-4f27-a64f-aa3c5e058eef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Separate Type Libraries

@@ -1,20 +1,24 @@
 ---
 title: OfflineOnlyRequiresInternetException(String, Throwable) constructor
-description: Initializes a new instance of the OfflineOnlyRequiresInternetException class with a default message and tag and, the application's name and the specified inner exception.
+description: Initializes a new instance of the OfflineOnlyRequiresInternetException class with a default message and tag and, the applications name and the specified inner exception.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A8E10830-C77C-4350-9758-2D029D716AE7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A8E10830-C77C-4350-9758-2D029D716AE7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["OfflineOnlyRequiresInternetException(String, Throwable) constructor"]
+keywords:
+- OfflineOnlyRequiresInternetException(String, Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - OfflineOnlyRequiresInternetException(String, Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OfflineOnlyRequiresInternetException(String, Throwable) constructor
@@ -38,7 +42,7 @@ public OfflineOnlyRequiresInternetException(String applicationName, Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -48,9 +52,9 @@ public OfflineOnlyRequiresInternetException(String applicationName, Throwable e)
 
 OfflineOnlyRequiresInternetException.java
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETCALENDARCOUNT message
 description: Gets the number of calendars currently displayed in the calendar control. You can send this message explicitly or by using the MonthCal\_GetCalendarCount macro.
-ms.assetid: 'b9463f02-d37b-49b0-8387-0938020c23ee'
-keywords: ["MCM_GETCALENDARCOUNT message Windows Controls"]
+ms.assetid: b9463f02-d37b-49b0-8387-0938020c23ee
+keywords:
+- MCM_GETCALENDARCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETCALENDARCOUNT message
 
-Gets the number of calendars currently displayed in the calendar control. You can send this message explicitly or by using the [**MonthCal\_GetCalendarCount**](monthcal-getcalendarcount.md) macro.
+Gets the number of calendars currently displayed in the calendar control. You can send this message explicitly or by using the [**MonthCal\_GetCalendarCount**](/windows/win32/Commctrl/nf-commctrl-monthcal_getcalendarcount?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Number of calendars currently displayed in the calendar control. The maximum num
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

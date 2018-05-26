@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves the configuration data of a published web application.'
+Description: Retrieves the configuration data of a published web application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '07166f74-93e0-4b56-bd12-4e1711949361'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 07166f74-93e0-4b56-bd12-4e1711949361
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: PublishedWebApp class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PublishedWebApp class
@@ -24,28 +27,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("AppProxyPSProvider"), AMENDMENT]
 class PublishedWebApp
 {
-  string  Name;
-  string  ID;
-  string  ADFSRelyingPartyName;
-  string  ADFSRelyingPartyID;
-  string  ADFSUserCertificateStore;
-  string  ExternalPreauthentication;
-  string  BackendServerAuthenticationMode;
-  string  BackendServerAuthenticationSPN;
-  string  ClientCertificateAuthenticationBindingMode;
-  string  BackendServerCertificateValidation;
-  string  ExternalUrl;
-  string  ExternalCertificateThumbprint;
-  string  ClientCertificatePreauthenticationThumbprint;
-  string  BackendServerUrl;
+  string  Name;
+  string  ID;
+  string  ADFSRelyingPartyName;
+  string  ADFSRelyingPartyID;
+  string  ADFSUserCertificateStore;
+  string  ExternalPreauthentication;
+  string  BackendServerAuthenticationMode;
+  string  BackendServerAuthenticationSPN;
+  string  ClientCertificateAuthenticationBindingMode;
+  string  BackendServerCertificateValidation;
+  string  ExternalUrl;
+  string  ExternalCertificateThumbprint;
+  string  ClientCertificatePreauthenticationThumbprint;
+  string  BackendServerUrl;
   boolean DisableTranslateUrlInRequestHeaders;
   boolean DisableTranslateUrlInResponseHeaders;
   boolean UseOAuthAuthentication;
   boolean EnableHTTPRedirect;
   boolean EnableSignOut;
   boolean DisableHttpOnlyCookieProtection;
-  uint32  InactiveTransactionsTimeoutSec;
-  uint32  PersistentAccessCookieExpirationTimeSec;
+  uint32  InactiveTransactionsTimeoutSec;
+  uint32  PersistentAccessCookieExpirationTimeSec;
 };
 ```
 
@@ -98,7 +101,7 @@ Access type: Read-only
 
 Gets the AD FS user certificate store.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -269,7 +272,7 @@ Access type: Read-only
 
 Gets a value that indicates whether to disable the HttpOnly flag for the access cookie. **True** to disable the HttpOnly flag; otherwise, **false**.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -312,7 +315,7 @@ Access type: Read-only
 
 Whether the web-application proxy provides a redirect from HTTP URL to this URL.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -327,7 +330,7 @@ Access type: Read-only
 
 Whether sign-out is enabled for this application.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -401,7 +404,7 @@ Validate the client certificate.
 
 Use Active Directory Federation Services (AD FS) for rich clients.
 
-**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -414,7 +417,7 @@ Use Active Directory Federation Services (AD FS) for rich clients.
 
 Use Active Directory Federation Services (AD FS) for OAuth.
 
-**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -427,7 +430,7 @@ Use Active Directory Federation Services (AD FS) for OAuth.
 
 Use Active Directory Federation Services (AD FS) for browsers and Microsoft Office clients.
 
-**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -496,7 +499,7 @@ Access type: Read-only
 
 The interval, in seconds, that the web-application-proxy-access cookie is persisted.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -520,7 +523,7 @@ Gets a value that indicates whether to enable OAuth authentication for users tha
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -534,9 +537,9 @@ Gets a value that indicates whether to enable OAuth authentication for users tha
 [Application Proxy WMI Provider Reference](application-proxy-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

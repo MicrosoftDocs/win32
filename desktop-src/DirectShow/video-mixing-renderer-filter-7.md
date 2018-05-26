@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Video Mixing Renderer Filter 7
-ms.assetid: 'c83e6c50-76f2-4aeb-944b-5b244c6bf776'
+ms.assetid: c83e6c50-76f2-4aeb-944b-5b244c6bf776
 title: Video Mixing Renderer Filter 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Mixing Renderer Filter 7
@@ -38,38 +43,38 @@ For more information, see [Using the Video Mixing Renderer](using-the-video-mixi
 <td>Filter Interfaces</td>
 <td>All modes:
 <ul>
-<li>[<strong>IAMCertifiedOutputProtection</strong>](iamcertifiedoutputprotection.md)</li>
-<li>[<strong>IAMFilterMiscFlags</strong>](iamfiltermiscflags.md)</li>
-<li>[<strong>IBaseFilter</strong>](ibasefilter.md)</li>
+<li>[<strong>IAMCertifiedOutputProtection</strong>](/windows/win32/Strmif/nn-strmif-iamcertifiedoutputprotection?branch=master)</li>
+<li>[<strong>IAMFilterMiscFlags</strong>](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master)</li>
+<li>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</li>
 <li>[<strong>IKsPropertySet</strong>](ikspropertyset.md)</li>
-<li>[<strong>IMediaPosition</strong>](imediaposition.md)</li>
-<li>[<strong>IMediaSeeking</strong>](imediaseeking.md)</li>
-<li>[<strong>IQualityControl</strong>](iqualitycontrol.md)</li>
-<li>[<strong>IQualProp</strong>](iqualprop.md)</li>
-<li>[<strong>IVMRAspectRatioControl</strong>](ivmraspectratiocontrol.md)</li>
-<li>[<strong>IVMRDeinterlaceControl</strong>](ivmrdeinterlacecontrol.md)</li>
-<li>[<strong>IVMRFilterConfig</strong>](ivmrfilterconfig.md)</li>
-<li>[<strong>IVMRMixerBitmap</strong>](ivmrmixerbitmap.md)</li>
+<li>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master)</li>
+<li>[<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)</li>
+<li>[<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</li>
+<li>[<strong>IQualProp</strong>](/windows/win32/Amvideo/nn-amvideo-iqualprop?branch=master)</li>
+<li>[<strong>IVMRAspectRatioControl</strong>](/windows/win32/Strmif/nn-strmif-ivmraspectratiocontrol?branch=master)</li>
+<li>[<strong>IVMRDeinterlaceControl</strong>](/windows/win32/Strmif/nn-strmif-ivmrdeinterlacecontrol?branch=master)</li>
+<li>[<strong>IVMRFilterConfig</strong>](/windows/win32/Strmif/nn-strmif-ivmrfilterconfig?branch=master)</li>
+<li>[<strong>IVMRMixerBitmap</strong>](/windows/win32/Strmif/nn-strmif-ivmrmixerbitmap?branch=master)</li>
 </ul>
 Windowed mode:<br/>
 <ul>
-<li>[<strong>IBasicVideo</strong>](ibasicvideo.md)</li>
-<li>[<strong>IBasicVideo2</strong>](ibasicvideo2.md)</li>
-<li>[<strong>IVideoWindow</strong>](ivideowindow.md)</li>
-<li>[<strong>IVMRMonitorConfig</strong>](ivmrmonitorconfig.md)</li>
+<li>[<strong>IBasicVideo</strong>](/windows/win32/Control/nn-control-ibasicvideo?branch=master)</li>
+<li>[<strong>IBasicVideo2</strong>](/windows/win32/Control/nn-control-ibasicvideo2?branch=master)</li>
+<li>[<strong>IVideoWindow</strong>](/windows/win32/Control/nn-control-ivideowindow?branch=master)</li>
+<li>[<strong>IVMRMonitorConfig</strong>](/windows/win32/Strmif/nn-strmif-ivmrmonitorconfig?branch=master)</li>
 </ul>
 Windowless mode:<br/>
 <ul>
-<li>[<strong>IVMRWindowlessControl</strong>](ivmrwindowlesscontrol.md)</li>
-<li>[<strong>IVMRMonitorConfig</strong>](ivmrmonitorconfig.md)</li>
+<li>[<strong>IVMRWindowlessControl</strong>](/windows/win32/Strmif/nn-strmif-ivmrwindowlesscontrol?branch=master)</li>
+<li>[<strong>IVMRMonitorConfig</strong>](/windows/win32/Strmif/nn-strmif-ivmrmonitorconfig?branch=master)</li>
 </ul>
 Renderless mode:<br/>
 <ul>
-<li>[<strong>IVMRSurfaceAllocatorNotify</strong>](ivmrsurfaceallocatornotify.md)</li>
+<li>[<strong>IVMRSurfaceAllocatorNotify</strong>](/windows/win32/Strmif/nn-strmif-ivmrsurfaceallocatornotify?branch=master)</li>
 </ul>
 Mixer mode:<br/>
 <ul>
-<li>[<strong>IVMRMixerControl</strong>](ivmrmixercontrol.md)</li>
+<li>[<strong>IVMRMixerControl</strong>](/windows/win32/Strmif/nn-strmif-ivmrmixercontrol?branch=master)</li>
 </ul>
 For information about the various VMR-7 modes, see [VMR Modes of Operation](vmr-modes-of-operation.md).<br/></td>
 </tr>
@@ -80,13 +85,13 @@ For information about the various VMR-7 modes, see [VMR Modes of Operation](vmr-
 <tr class="odd">
 <td>Input Pin Interfaces</td>
 <td><ul>
-<li>[<strong>IAMVideoAccelerator</strong>](iamvideoaccelerator.md)</li>
-<li>[<strong>IMemInputPin</strong>](imeminputpin.md)</li>
-<li>[<strong>IOverlay</strong>](ioverlay.md) (see Remarks)</li>
-<li>[<strong>IPin</strong>](ipin.md)</li>
-<li>[<strong>IPinConnection</strong>](ipinconnection.md)</li>
-<li>[<strong>IQualityControl</strong>](iqualitycontrol.md)</li>
-<li>[<strong>IVMRVideoStreamControl</strong>](ivmrvideostreamcontrol.md)</li>
+<li>[<strong>IAMVideoAccelerator</strong>](/windows/win32/videoacc/nn-videoacc-iamvideoaccelerator?branch=master)</li>
+<li>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)</li>
+<li>[<strong>IOverlay</strong>](/windows/win32/Strmif/nn-strmif-ioverlay?branch=master) (see Remarks)</li>
+<li>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master)</li>
+<li>[<strong>IPinConnection</strong>](/windows/win32/Strmif/nn-strmif-ipinconnection?branch=master)</li>
+<li>[<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</li>
+<li>[<strong>IVMRVideoStreamControl</strong>](/windows/win32/Strmif/nn-strmif-ivmrvideostreamcontrol?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -135,19 +140,19 @@ The input pin exposes the **IOverlay** interface only when the VMR-7 filter is i
 
 An application can provide a custom allocator-presenter object that exposes the following interfaces:
 
--   [**IVMRImagePresenter**](ivmrimagepresenter.md)
--   [**IVMRImagePresenterConfig**](ivmrimagepresenterconfig.md) (optional)
--   [**IVMRMonitorConfig**](ivmrmonitorconfig.md) (optional)
--   [**IVMRSurfaceAllocator**](ivmrsurfaceallocator.md)
--   [**IVMRWindowlessControl**](ivmrwindowlesscontrol.md) (optional)
+-   [**IVMRImagePresenter**](/windows/win32/Strmif/nn-strmif-ivmrimagepresenter?branch=master)
+-   [**IVMRImagePresenterConfig**](/windows/win32/Strmif/nn-strmif-ivmrimagepresenterconfig?branch=master) (optional)
+-   [**IVMRMonitorConfig**](/windows/win32/Strmif/nn-strmif-ivmrmonitorconfig?branch=master) (optional)
+-   [**IVMRSurfaceAllocator**](/windows/win32/Strmif/nn-strmif-ivmrsurfaceallocator?branch=master)
+-   [**IVMRWindowlessControl**](/windows/win32/Strmif/nn-strmif-ivmrwindowlesscontrol?branch=master) (optional)
 
 For more information about custom allocator-presenters, see [Supplying a Custom Allocator-Presenter for VMR-7](supplying-a-custom-allocator-presenter-for-vmr-7.md).
 
 An application can also provide a custom plug-in compositor that exposes the following interface:
 
--   [**IVMRImageCompositor**](ivmrimagecompositor.md)
+-   [**IVMRImageCompositor**](/windows/win32/Strmif/nn-strmif-ivmrimagecompositor?branch=master)
 
-To configure the VMR with a custom compositor, call [**IVMRFilterConfig::SetImageCompositor**](ivmrfilterconfig-setimagecompositor.md).
+To configure the VMR with a custom compositor, call [**IVMRFilterConfig::SetImageCompositor**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setimagecompositor?branch=master).
 
 ## Related topics
 

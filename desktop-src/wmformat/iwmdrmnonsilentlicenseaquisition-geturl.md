@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNonSilentLicenseAquisition GetURL method
 description: The GetURL method retrieves the URL to which the license challenge should be posted.
-ms.assetid: 'f65f1984-74bc-4cd0-957e-930aa6a6f6a5'
-keywords: ["GetURL method windows Media Format", "GetURL method windows Media Format , IWMDRMNonSilentLicenseAquisition interface", "IWMDRMNonSilentLicenseAquisition interface windows Media Format , GetURL method"]
+ms.assetid: f65f1984-74bc-4cd0-957e-930aa6a6f6a5
+keywords:
+- GetURL method windows Media Format
+- GetURL method windows Media Format , IWMDRMNonSilentLicenseAquisition interface
+- IWMDRMNonSilentLicenseAquisition interface windows Media Format , GetURL method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNonSilentLicenseAquisition::GetURL method
@@ -23,7 +31,7 @@ The **GetURL** method retrieves the URL to which the license challenge should be
 
 ```C++
 HRESULT GetURL(
-  [out] BSTR *pbstrURL
+  [out] BSTR *pbstrURL
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +84,9 @@ None.
 [**IWMDRMNonSilentLicenseAquisition Interface**](iwmdrmnonsilentlicenseaquisition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Norway.'
-ms.assetid: '5c274035-79aa-4967-9c1a-79f888fed71e'
+Description: This topic lists the frequency tables used for analog TV tuning for Norway.
+ms.assetid: 5c274035-79aa-4967-9c1a-79f888fed71e
 title: Norway Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Norway Channel Assignments

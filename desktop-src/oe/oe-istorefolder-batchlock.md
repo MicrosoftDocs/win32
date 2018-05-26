@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder BatchLock method
 description: Lock to prepare for a batch operation. Currently, not used.
-ms.assetid: 'f62c93e2-cfd8-4059-afee-9e7d2f09bd30'
-keywords: ["BatchLock method Windows Mail (formerly Outlook Express)", "BatchLock method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , BatchLock method"]
+ms.assetid: f62c93e2-cfd8-4059-afee-9e7d2f09bd30
+keywords:
+- BatchLock method Windows Mail (formerly Outlook Express)
+- BatchLock method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , BatchLock method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::BatchLock method
@@ -22,8 +30,8 @@ Lock to prepare for a batch operation. Currently, not used.
 
 ```C++
 HRESULT BatchLock(
-  [in]  DWORD        dwReserved,
-  [out] LPHBATCHLOCK phBatchLock
+  [in]  DWORD        dwReserved,
+  [out] LPHBATCHLOCK phBatchLock
 );
 ```
 
@@ -63,8 +71,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -72,9 +80,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

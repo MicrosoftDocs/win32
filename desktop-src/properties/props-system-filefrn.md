@@ -1,7 +1,12 @@
 ---
-Description: 'The unique file ID, also known as the File Reference Number.'
-ms.assetid: '65189671-1b55-4933-9dee-a120b38caa98'
-title: 'System.FileFRN'
+Description: The unique file ID, also known as the File Reference Number.
+ms.assetid: 65189671-1b55-4933-9dee-a120b38caa98
+title: System.FileFRN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileFRN

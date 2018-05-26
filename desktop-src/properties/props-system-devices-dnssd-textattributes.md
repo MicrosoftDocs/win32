@@ -1,7 +1,12 @@
 ---
-Description: 'Text data associated with the service instance. Each string is typically a key-value pair, separated by &\#0034;=&\#0034;.'
-ms.assetid: 'c514c9c9-7d5b-4c4a-b99a-723597b5b801'
-title: 'System.Devices.Dnssd.TextAttributes'
+Description: Text data associated with the service instance. Each string is typically a key-value pair, separated by &\#0034;=&\#0034;.
+ms.assetid: c514c9c9-7d5b-4c4a-b99a-723597b5b801
+title: System.Devices.Dnssd.TextAttributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Dnssd.TextAttributes

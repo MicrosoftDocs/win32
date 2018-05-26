@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the RedirectedDLLSupport property if the system platform performing the installation supports Isolated Components.'
-ms.assetid: '703489c4-cac4-442c-bd96-d3927491a864'
+---
+Description: The installer sets the RedirectedDLLSupport property if the system platform performing the installation supports Isolated Components.
+ms.assetid: 703489c4-cac4-442c-bd96-d3927491a864
 title: RedirectedDLLSupport property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RedirectedDLLSupport property

@@ -1,8 +1,11 @@
 ---
 title: MergeVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Merges a differencing virtual hard disk file with its parents.
-ms.assetid: '63052435-ee95-41f3-8107-edabda5a333e'
-keywords: ["MergeVirtualHardDisk method Hyper-V", "MergeVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , MergeVirtualHardDisk method"]
+ms.assetid: 63052435-ee95-41f3-8107-edabda5a333e
+keywords:
+- MergeVirtualHardDisk method Hyper-V
+- MergeVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , MergeVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MergeVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,9 +30,9 @@ Merges a differencing virtual hard disk file with its parents. If the user execu
 
 ```mof
 uint32 MergeVirtualHardDisk(
-  [in]  string              SourcePath,
-  [in]  string              DestinationPath,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SourcePath,
+  [in]  string              DestinationPath,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -347,9 +355,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -368,9 +376,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

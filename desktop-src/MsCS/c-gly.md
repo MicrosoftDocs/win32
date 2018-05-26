@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60a760fc-ef79-4a1a-b4ea-8f1927f8f988'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 60a760fc-ef79-4a1a-b4ea-8f1927f8f988
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # C
@@ -163,7 +166,7 @@ An application that can run on a [*node*](n-gly.md#-wolf-node-gly) and be manage
 <span id="_wolf_cluster_version_gly"></span><span id="_WOLF_CLUSTER_VERSION_GLY"></span>**cluster version**
 </dt> <dd>
 
-Two version numbers that describe the versions of the Cluster service that are compatible with all active nodes. The cluster version is compared to a node's [*node version*](n-gly.md#-wolf-node-version-gly) before the node is allowed to join a cluster. The cluster version changes as nodes join and leave the cluster. The [**GetClusterInformation**](getclusterinformation.md) function retrieves the cluster version.
+Two version numbers that describe the versions of the Cluster service that are compatible with all active nodes. The cluster version is compared to a node's [*node version*](n-gly.md#-wolf-node-version-gly) before the node is allowed to join a cluster. The cluster version changes as nodes join and leave the cluster. The [**GetClusterInformation**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_information?branch=master) function retrieves the cluster version.
 
 </dd> <dt>
 

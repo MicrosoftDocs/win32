@@ -1,8 +1,16 @@
 ---
 title: OneWayUdpServerExample
 description: This example shows a UDP server that accepts a channel and receives one-way messages.
-ms.assetid: '45317e45-03d5-4d17-89cd-9108f81490ff'
-keywords: ["OneWayUdpServerExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 45317e45-03d5-4d17-89cd-9108f81490ff
+keywords:
+- OneWayUdpServerExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneWayUdpServerExample

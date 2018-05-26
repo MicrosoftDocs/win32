@@ -1,7 +1,12 @@
 ---
 title: Policy-Driven QOS Components
 description: Policy-driven QOS components include Admission Control Service (ACS), Local Policy Module (LPM), Policy Information, RSVP, and LPM API.
-ms.assetid: '203016f0-1b48-44d7-b9a0-b0f48083ca48'
+ms.assetid: 203016f0-1b48-44d7-b9a0-b0f48083ca48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy-Driven QOS Components

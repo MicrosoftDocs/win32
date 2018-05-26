@@ -1,7 +1,12 @@
 ---
 title: To include a style sheet in an HTML file
 description: To include a style sheet in an HTML file
-ms.assetid: 'A5E82D4C-BC78-48b5-BD11-32189476FDEC'
+ms.assetid: A5E82D4C-BC78-48b5-BD11-32189476FDEC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To include a style sheet in an HTML file

@@ -1,8 +1,11 @@
 ---
 title: Support SystemSettingCheckBoolean method
 description: Retrieves the current setting of a specific system configuration item.
-ms.assetid: '524366CA-04A4-42B5-AB3F-E9822C3F1F1D'
-keywords: ["SystemSettingCheckBoolean method Access Execution Engine", "SystemSettingCheckBoolean method Access Execution Engine , Support interface", "Support interface Access Execution Engine , SystemSettingCheckBoolean method"]
+ms.assetid: 524366CA-04A4-42B5-AB3F-E9822C3F1F1D
+keywords:
+- SystemSettingCheckBoolean method Access Execution Engine
+- SystemSettingCheckBoolean method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , SystemSettingCheckBoolean method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::SystemSettingCheckBoolean method
@@ -22,8 +30,8 @@ Retrieves the current setting of a specific system configuration item.
 
 ```C++
 virtual HRESULT SystemSettingCheckBoolean(
-  [in]  SystemSetting setting,
-  [out] BOOL          *enabled
+  [in]  SystemSetting setting,
+  [out] BOOL          *enabled
 ) const = 0;
 ```
 
@@ -63,8 +71,8 @@ Managed code uses the [**Support.SystemSettingCheckBoolean**](axe-support_system
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Support.SystemSettingCheckBoolean**](axe-support_system
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

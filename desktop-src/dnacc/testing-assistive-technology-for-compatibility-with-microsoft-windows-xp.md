@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Accessible Technology Group
-ms.assetid: '3fe69954-e2a2-4ac1-85d6-50bcc3a204db'
+ms.assetid: 3fe69954-e2a2-4ac1-85d6-50bcc3a204db
 title: Testing Assistive Technology for Compatibility with Microsoft Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing Assistive Technology for Compatibility with Microsoft Windows XP
@@ -34,7 +39,7 @@ To ensure compatibility between your assistive technology and Microsoft Windows 
 
 
 
-
+ 
 
 At a minimum, test the user interface of each feature at its first and second levels. For example, in Control Panel, test all buttons and tabs in the **Display Properties** dialog box, and also test any dialog boxes that appear when you click a button in the **Display Properties** dialog box. You can test any dialog box that appears when you click the second level of buttons.
 
@@ -42,10 +47,10 @@ At a minimum, test the user interface of each feature at its first and second le
 
 Use the following tools to test your assistive technology:
 
--   Accessibility Event Watcher (AccEvent)葉o monitor how your assistive technology supports WinEvents.
--   Inspect Object (Inspect)葉o monitor how your assistive technology supports Microsoft Active Accessibility (MSAA) objects.
--   Narrator葉o compare the functionality of your screen reader to that of Narrator, which comes with Windows XP.
--   Magnifier葉o compare the functionality of your screen magnifier to that of Magnifier, which comes with Windows XP.
+-   Accessibility Event Watcher (AccEvent) to monitor how your assistive technology supports WinEvents.
+-   Inspect Object (Inspect) to monitor how your assistive technology supports Microsoft Active Accessibility (MSAA) objects.
+-   Narrator to compare the functionality of your screen reader to that of Narrator, which comes with Windows XP.
+-   Magnifier to compare the functionality of your screen magnifier to that of Magnifier, which comes with Windows XP.
 
 You can get AccEvent and Inspect from the [Microsoft Windows SDK Update for Windows 7 and .NET Framework 4](http://go.microsoft.com/fwlink/p/?linkid=208210). To download just the tools, select only **Tools** from the **Installation Options** page of the Windows SDK setup wizard.
 
@@ -147,7 +152,7 @@ The following sections prioritize items within these test areas.
 
 
 
-
+ 
 
 ### Testing the Programs in Accessories
 
@@ -229,7 +234,7 @@ Confirm that your assistive technology works with the programs in the **Accessor
 
 
 
-
+ 
 
 ### Testing Other User Interface Areas Besides Control Panel and Accessories
 
@@ -343,7 +348,7 @@ The following table lists areas of the user interface other than Control Panel a
 
 
 
-
+ 
 
 ### Testing Internet Explorer
 
@@ -430,11 +435,11 @@ The following table lists features related to Internet Explorer. Perform the use
 
 
 
-
+ 
 
-
+ 
 
-
+ 
 
 
 

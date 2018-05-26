@@ -1,7 +1,12 @@
 ---
 title: OLE and Data Transfer
 description: The following sections describe compound documents, the mechanism provided by the Component Object Model (COM) to transfer data between applications, and the APIs that are used to create compound documents and perform data transfer.
-ms.assetid: 'd4a57956-37ba-44ca-8efc-bf617ad5e77b'
+ms.assetid: d4a57956-37ba-44ca-8efc-bf617ad5e77b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OLE and Data Transfer

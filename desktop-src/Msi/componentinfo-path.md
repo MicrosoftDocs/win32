@@ -1,12 +1,17 @@
 ---
-Description: 'The path of the component.'
-ms.assetid: 'f10253f4-d948-4853-9056-2a5c674a6506'
-title: 'ComponentInfo.Path property'
+Description: The path of the component.
+ms.assetid: f10253f4-d948-4853-9056-2a5c674a6506
+title: ComponentInfo.Path property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComponentInfo.Path property
 
-The path of the component. This property calls the [**MsiGetComponentPathEx**](msigetcomponentpathex.md) function.
+The path of the component. This property calls the [**MsiGetComponentPathEx**](/windows/win32/Msi/nf-msi-msigetcomponentpathexa?branch=master) function.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -26,9 +31,9 @@ The path of the component. This property calls the [**MsiGetComponentPathEx**](m
 
 
 
- 
+ 
 
- 
+ 
 
 
 

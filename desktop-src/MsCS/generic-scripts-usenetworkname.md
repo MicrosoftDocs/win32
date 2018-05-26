@@ -4,26 +4,31 @@ description: Affects the outcome of a call to the GetComputerName function.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '694fd56f-6e06-456f-8912-180f6ddf74a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 694fd56f-6e06-456f-8912-180f6ddf74a6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["UseNetworkName Failover Cluster ,for generic scripts", "UseNetworkName Failover Cluster"]
+keywords:
+- UseNetworkName Failover Cluster ,for generic scripts
+- UseNetworkName Failover Cluster
 topic_type:
 - apiref
 api_name:
 - UseNetworkName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UseNetworkName
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 Affects the outcome of a call to the [**GetComputerName**](https://msdn.microsoft.com/library/windows/desktop/ms724295) function.**UseNetworkName** is a property of a [generic script](generic-script.md) resource. The following table summarizes the attributes of the **UseNetworkName** property.
 
@@ -34,14 +39,14 @@ Affects the outcome of a call to the [**GetComputerName**](https://msdn.microsof
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
 | Status<br/>    | Optional<br/>                                  |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | **FALSE** (0)<br/>                             |
 | Maximum<br/>   | **TRUE** (1)<br/>                              |
 | Default<br/>   | **FALSE** (0)<br/>                             |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +61,7 @@ When an application being managed as a [generic script](generic-script.md) resou
 
 
 
- 
+ 
 
 ## Examples
 
@@ -81,9 +86,9 @@ UseNetworkNameValue.dw        = UseNetworkNameData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>       |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -94,7 +99,7 @@ UseNetworkNameValue.dw        = UseNetworkNameData;
 [Generic Script Private Properties](generic-script-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**GetComputerName**](https://msdn.microsoft.com/library/windows/desktop/ms724295)
@@ -103,9 +108,9 @@ UseNetworkNameValue.dw        = UseNetworkNameData;
 [**Name**](network-names-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: SyncOnly Attribute
 description: The SyncOnly attribute is a string representation of a Boolean value that Windows Media Player uses to determine whether a playlist is available only for synchronization.
-ms.assetid: '36149bb9-3a0b-4f6d-8be3-97d2a87faa83'
-keywords: ["SyncOnly Attribute Windows Media Player"]
+ms.assetid: 36149bb9-3a0b-4f6d-8be3-97d2a87faa83
+keywords:
+- SyncOnly Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SyncOnly
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SyncOnly Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

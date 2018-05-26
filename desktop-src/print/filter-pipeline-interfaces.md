@@ -1,7 +1,12 @@
 ---
 Description: Filter Pipeline Interfaces
-ms.assetid: '0f7ded7d-5b06-4ba8-9e32-6a0239d28262'
+ms.assetid: 0f7ded7d-5b06-4ba8-9e32-6a0239d28262
 title: Filter Pipeline Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Pipeline Interfaces

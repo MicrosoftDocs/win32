@@ -1,7 +1,12 @@
 ---
-Description: 'The GetProtocolInfo function returns a pointer to a protocol information value.'
-ms.assetid: '1ba47889-b2ed-47ba-94f9-1b781af6d01f'
+Description: The GetProtocolInfo function returns a pointer to a protocol information value.
+ms.assetid: 1ba47889-b2ed-47ba-94f9-1b781af6d01f
 title: GetProtocolInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetProtocolInfo function
@@ -13,7 +18,7 @@ The **GetProtocolInfo** function returns a pointer to a protocol information val
 
 ```C++
 LPPROTOCOLINFO WINAPI GetProtocolInfo(
-  _In_ HPROTOCOL hProtocol
+  _In_ HPROTOCOL hProtocol
 );
 ```
 
@@ -46,17 +51,17 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

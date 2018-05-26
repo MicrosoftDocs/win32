@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '9b21ae53-f095-4507-a5fe-947aa2035f40'
-title: 'System.Document.ByteCount'
+Description: .
+ms.assetid: 9b21ae53-f095-4507-a5fe-947aa2035f40
+title: System.Document.ByteCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.ByteCount

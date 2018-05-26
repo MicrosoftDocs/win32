@@ -1,12 +1,17 @@
 ---
 Description: Decoder Volume Control
-ms.assetid: '94d68722-a0c2-47a7-a0a0-ae315f8f31ed'
+ms.assetid: 94d68722-a0c2-47a7-a0a0-ae315f8f31ed
 title: Decoder Volume Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoder Volume Control
 
-Applications control audio volume through the [**IBasicAudio**](ibasicaudio.md) interface. An **IBasicAudio** interface handler is provided for KSProxy. For a decoder to handle the volume commands from KSProxy, it must add several registry keys in its setup script and support the **KSPROPSETID\_Wave** property set.
+Applications control audio volume through the [**IBasicAudio**](/windows/win32/Control/nn-control-ibasicaudio?branch=master) interface. An **IBasicAudio** interface handler is provided for KSProxy. For a decoder to handle the volume commands from KSProxy, it must add several registry keys in its setup script and support the **KSPROPSETID\_Wave** property set.
 
 Create some new registry keys for the driver:
 

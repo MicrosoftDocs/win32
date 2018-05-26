@@ -1,14 +1,20 @@
 ---
 title: PeakValue
 description: The PeakValue attribute contains contains a 16-bit amplitude value designating the peak volume level of audio content.
-ms.assetid: '885f6d4c-661a-4681-96b6-c1a282c8bf18'
-keywords: ["PeakValue windows Media Format"]
+ms.assetid: 885f6d4c-661a-4681-96b6-c1a282c8bf18
+keywords:
+- PeakValue windows Media Format
 topic_type:
 - apiref
 api_name:
 - PeakValue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PeakValue

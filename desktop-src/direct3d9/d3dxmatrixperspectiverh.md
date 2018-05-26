@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a right-handed perspective projection matrix.'
-ms.assetid: 'dd9b041b-922b-43df-a6e9-46c97204338a'
+---
+Description: Builds a right-handed perspective projection matrix.
+ms.assetid: dd9b041b-922b-43df-a6e9-46c97204338a
 title: D3DXMatrixPerspectiveRH function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixPerspectiveRH function

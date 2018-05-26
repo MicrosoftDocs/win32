@@ -1,8 +1,19 @@
 ---
 title: Joystick Reference
 description: Joystick Reference
-ms.assetid: 'c2ad092f-a0c5-4e28-ada7-227dc52c3c83'
-keywords: ["Windows multimedia,joystick reference", "multimedia,joystick reference", "multimedia input,joystick reference", "joysticks,reference", "reference for joysticks,about", "joystick reference,about"]
+ms.assetid: c2ad092f-a0c5-4e28-ada7-227dc52c3c83
+keywords:
+- Windows multimedia,joystick reference
+- multimedia,joystick reference
+- multimedia input,joystick reference
+- joysticks,reference
+- reference for joysticks,about
+- joystick reference,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Joystick Reference
@@ -17,7 +28,7 @@ This section describes the functions, structures, and messages associated with j
 
 ## Querying a Joystick
 
--   [**joyConfigChanged**](joyconfigchanged.md)
+-   [**joyConfigChanged**](/windows/win32/joystickapi/nf-joystickapi-joyconfigchanged?branch=master)
 -   [**joyGetPos**](joygetpos.md)
 -   [**joyGetPosEx**](joygetposex.md)
 -   [**JOYINFO**](joyinfo.md)

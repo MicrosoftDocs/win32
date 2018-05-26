@@ -1,15 +1,18 @@
 ---
-Description: 'Starts the debugger that is currently registered for this process.'
+Description: Starts the debugger that is currently registered for this process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '63c30db8-6117-4353-9132-4f39c72a6637'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 63c30db8-6117-4353-9132-4f39c72a6637
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AttachDebugger method of the Win32\_Process class'
+title: AttachDebugger method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AttachDebugger method of the Win32\_Process class
@@ -94,7 +97,7 @@ The specified parameter is not valid.
 **Other**
 </dt> <dd>
 
-22–4294967295
+22 4294967295
 
 </dd> </dl>
 
@@ -104,8 +107,8 @@ The specified parameter is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -122,9 +125,9 @@ The specified parameter is not valid.
 [**Win32\_Process**](win32-process.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

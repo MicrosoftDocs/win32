@@ -1,7 +1,12 @@
 ---
 Description: Print Monitor Structures
-ms.assetid: 'ecf1a2f2-6346-47be-81d4-c40f4497b6cb'
+ms.assetid: ecf1a2f2-6346-47be-81d4-c40f4497b6cb
 title: Print Monitor Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Monitor Structures

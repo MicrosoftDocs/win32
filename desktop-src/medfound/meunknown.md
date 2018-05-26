@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unknown event type. You can use this value to initialize variables of type MediaEventType, but a component should never raise the MEUnknown event.'
-ms.assetid: '786b69f4-8713-41db-829a-c13512baa3f1'
+---
+Description: Unknown event type. You can use this value to initialize variables of type MediaEventType, but a component should never raise the MEUnknown event.
+ms.assetid: 786b69f4-8713-41db-829a-c13512baa3f1
 title: MEUnknown event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEUnknown event
@@ -10,7 +15,7 @@ Unknown event type. You can use this value to initialize variables of type **Med
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

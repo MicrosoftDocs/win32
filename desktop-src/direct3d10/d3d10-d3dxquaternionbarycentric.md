@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a quaternion in barycentric coordinates.'
-ms.assetid: '0a8d8d5a-f486-4457-86e9-27e76eaf1bc4'
+---
+Description: Returns a quaternion in barycentric coordinates.
+ms.assetid: 0a8d8d5a-f486-4457-86e9-27e76eaf1bc4
 title: D3DXQuaternionBaryCentric function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionBaryCentric function

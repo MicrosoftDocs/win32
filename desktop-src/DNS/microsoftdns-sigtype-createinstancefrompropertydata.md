@@ -1,8 +1,11 @@
 ---
 title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_SIGType class
 description: The CreateInstanceFromPropertyData method instantiates a Signature (SIG) Resource Record.
-ms.assetid: '8e83e56f-d2b3-4b71-be70-7d2640d49845'
-keywords: ["CreateInstanceFromPropertyData method DNS", "CreateInstanceFromPropertyData method DNS , MicrosoftDNS_SIGType class", "MicrosoftDNS_SIGType class DNS , CreateInstanceFromPropertyData method"]
+ms.assetid: 8e83e56f-d2b3-4b71-be70-7d2640d49845
+keywords:
+- CreateInstanceFromPropertyData method DNS
+- CreateInstanceFromPropertyData method DNS , MicrosoftDNS_SIGType class
+- MicrosoftDNS_SIGType class DNS , CreateInstanceFromPropertyData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInstanceFromPropertyData method of the MicrosoftDNS\_SIGType class
@@ -22,21 +30,21 @@ The **CreateInstanceFromPropertyData** method instantiates a Signature (SIG) Res
 
 ```mof
 void CreateInstanceFromPropertyData(
-  [in]           string               DnsServerName,
-  [in]           string               ContainerName,
-  [in]           string               OwnerName,
-  [in, optional] uint32               RecordClass = 1,
-  [in, optional] uint32               TTL,
-  [in]           uint16               TypeCovered,
-  [in]           uint16               Algorithm,
-  [in]           uint16               Labels,
-  [in]           uint32               OriginalTTL,
-  [in]           uint32               SignatureExpiration,
-  [in]           uint32               SignatureInception,
-  [in]           uint16               KeyTag,
-  [in]           string               SignerName,
-  [in]           string               Signature,
-  [out, ref]     MicrosoftDNS_SIGType &amp;RR
+  [in]           string               DnsServerName,
+  [in]           string               ContainerName,
+  [in]           string               OwnerName,
+  [in, optional] uint32               RecordClass = 1,
+  [in, optional] uint32               TTL,
+  [in]           uint16               TypeCovered,
+  [in]           uint16               Algorithm,
+  [in]           uint16               Labels,
+  [in]           uint32               OriginalTTL,
+  [in]           uint32               SignatureExpiration,
+  [in]           uint32               SignatureInception,
+  [in]           uint16               KeyTag,
+  [in]           string               SignerName,
+  [in]           string               Signature,
+  [out, ref]     MicrosoftDNS_SIGType &amp;RR
 );
 ```
 
@@ -83,7 +91,7 @@ Class of the RR. Default value is 1. The following values are valid.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,7 +125,7 @@ Algorithm used with the key specified in the resource record. The assigned value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -188,7 +196,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -207,9 +215,9 @@ This method does not return a value.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

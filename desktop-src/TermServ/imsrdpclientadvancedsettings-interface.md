@@ -4,11 +4,13 @@ description: Manages advanced client settings. Derives from the IMsTscAdvancedSe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '34aeda37-9ec8-4f0a-ba92-9cf964867d5a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 34aeda37-9ec8-4f0a-ba92-9cf964867d5a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientAdvancedSettings interface Remote Desktop Services", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings interface
@@ -82,9 +87,9 @@ The **IMsRdpClientAdvancedSettings** interface has these properties.
 | **EncryptionEnabled**<br/>                                                                           | Read/write<br/> | This property is not supported. Encryption cannot be disabled.<br/>                                                                                                                                                                                                                                                                                                                                                                |
 | [**GrabFocusOnConnect**](imsrdpclientadvancedsettings-grabfocusonconnect.md)<br/>                   | Read/write<br/> | Specifies if the client control should have the focus while connecting.<br/>                                                                                                                                                                                                                                                                                                                                                       |
 | [**HotKeyAltEsc**](imsrdpclientadvancedsettings-hotkeyaltesc.md)<br/>                               | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+ESC. **VK\_INSERT** is the default value, with ALT+INSERT as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                          |
-| [**HotKeyAltShiftTab**](imsrdpclientadvancedsettings-hotkeyaltshifttab.md)<br/>                     | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+SHIFT+TAB. **VK\_NEXT** is the default value, with ALT+PAGE DOWN as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                   |
+| [**HotKeyAltShiftTab**](imsrdpclientadvancedsettings-hotkeyaltshifttab.md)<br/>                     | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+SHIFT+TAB. **VK\_NEXT** is the default value, with ALT+PAGE DOWN as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                   |
 | [**HotKeyAltSpace**](imsrdpclientadvancedsettings-hotkeyaltspace.md)<br/>                           | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+SPACE. **VK\_DELETE** is the default, with ALT+DELETE as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                              |
-| [**HotKeyAltTab**](imsrdpclientadvancedsettings-hotkeyalttab.md)<br/>                               | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+TAB. **VK\_PRIOR** is the default value, with ALT+PAGE UP as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                          |
+| [**HotKeyAltTab**](imsrdpclientadvancedsettings-hotkeyalttab.md)<br/>                               | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for ALT+TAB. **VK\_PRIOR** is the default value, with ALT+PAGE UP as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                          |
 | [**HotKeyCtrlAltDel**](imsrdpclientadvancedsettings-hotkeyctrlaltdel.md)<br/>                       | Read/write<br/> | Specifies the virtual-key code to add to CTRL+ALT to determine the hotkey replacement for CTRL+ALT+DELETE, also called the secure attention sequence (SAS). VK\_END is the default. Note that even when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is enabled, CTRL+ALT+DELETE is never redirected to the remote server; CTRL+ALT+DELETE is the local SAS sequence.<br/>                |
 | [**HotKeyCtrlEsc**](imsrdpclientadvancedsettings-hotkeyctrlesc.md)<br/>                             | Read/write<br/> | Specifies the virtual-key code to add to ALT to determine the hotkey replacement for CTRL+ESC. **VK\_HOME** is the default value, with ALT+HOME as the resulting sequence. This property is valid only when the [**KeyboardHookMode**](imsrdpclientsecuredsettings-keyboardhookmode.md) property is not enabled.<br/>                                                                                                             |
 | [**HotKeyFullScreen**](imsrdpclientadvancedsettings-hotkeyfullscreen.md)<br/>                       | Read/write<br/> | Specifies the virtual-key code to add to CTRL+ALT to determine the hotkey replacement for switching to full-screen mode. **VK\_CANCEL** is the default value.<br/>                                                                                                                                                                                                                                                                 |
@@ -93,7 +98,7 @@ The **IMsRdpClientAdvancedSettings** interface has these properties.
 | **KeyboardFunctionKey**<br/>                                                                         | Read/write<br/> | Valid for Windows CE only.<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **KeyboardSubType**<br/>                                                                             | Read/write<br/> | Valid for Windows CE only.<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **KeyboardType**<br/>                                                                                | Read/write<br/> | Valid for Windows CE only.<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [**LoadBalanceInfo**](imsrdpclientadvancedsettings-loadbalanceinfo.md)<br/>                         | Read/write<br/> | Specifies the load balancing cookie that will be placed in the X.224 Connection Request packet in the RD Session Host server protocol connection sequence.<br/>                                                                                                                                                                                                                                                                    |
+| [**LoadBalanceInfo**](imsrdpclientadvancedsettings-loadbalanceinfo.md)<br/>                         | Read/write<br/> | Specifies the load balancing cookie that will be placed in the X.224 Connection Request packet in the RD Session Host server protocol connection sequence.<br/>                                                                                                                                                                                                                                                                    |
 | [**maxEventCount**](imsrdpclientadvancedsettings-maxeventcount.md)<br/>                             | Read/write<br/> | This property is not supported.<br/>                                                                                                                                                                                                                                                                                                                                                                                               |
 | [**MaximizeShell**](imsrdpclientadvancedsettings-maximizeshell.md)<br/>                             | Read/write<br/> | Specifies if programs launched with the [**StartProgram**](imstscsecuredsettings-startprogram.md) property should be maximized.<br/>                                                                                                                                                                                                                                                                                              |
 | [**minInputSendInterval**](imsrdpclientadvancedsettings-mininputsendinterval.md)<br/>               | Read/write<br/> | Specifies the minimum interval, in milliseconds, between the sending of mouse events.<br/>                                                                                                                                                                                                                                                                                                                                         |
@@ -115,7 +120,7 @@ The **IMsRdpClientAdvancedSettings** interface has these properties.
 | [**RedirectSmartCards**](imsrdpclientadvancedsettings-redirectsmartcards.md)<br/>                   | Read/write<br/> | Specifies if redirection of smart cards is allowed.<br/>                                                                                                                                                                                                                                                                                                                                                                           |
 | [**SasSequence**](imsrdpclientadvancedsettings-sassequence.md)<br/>                                 | Read/write<br/> | Specifies the secure access sequence the client will use to access the login screen on the server.<br/>                                                                                                                                                                                                                                                                                                                            |
 | [**ScaleBitmapCachesByBPP**](imsrdpclientadvancedsettings-scalebitmapcachesbybpp.md)<br/>           | Read/write<br/> | This property is not supported.<br/>                                                                                                                                                                                                                                                                                                                                                                                               |
-| [**ShadowBitmap**](imsrdpclientadvancedsettings-shadowbitmap.md)<br/>                               | Read/write<br/> | This property is not supported.<br/> **Windows Vista:** Specifies if shadow bitmaps should be used.<br/>                                                                                                                                                                                                                                                                                                                     |
+| [**ShadowBitmap**](imsrdpclientadvancedsettings-shadowbitmap.md)<br/>                               | Read/write<br/> | This property is not supported.<br/> **Windows Vista:** Specifies if shadow bitmaps should be used.<br/>                                                                                                                                                                                                                                                                                                                     |
 | [**shutdownTimeout**](imsrdpclientadvancedsettings-shutdowntimeout.md)<br/>                         | Read/write<br/> | Specifies the length of time, in seconds, to wait for the server to respond to a disconnection request. The default value of the property is 10. The maximum valid value of the property is 600, which represents 10 minutes. If the server does not reply within the specified time, the client control disconnects.<br/>                                                                                                         |
 | [**singleConnectionTimeout**](imsrdpclientadvancedsettings-singleconnectiontimeout.md)<br/>         | Read/write<br/> | Specifies the maximum length of time, in seconds, that the client control waits for a connection to an IP address. During connection the control may attempt to connect to multiple IP addresses. The maximum valid value of this property is 600. A related property is **overallConnectionTimeout**.<br/>                                                                                                                        |
 | [**SmartSizing**](imsrdpclientadvancedsettings-smartsizing.md)<br/>                                 | Read/write<br/> | Specifies if the display should be scaled to fit the client area of the control. **VARIANT\_TRUE** enables scaling. Note that scroll bars do not appear when the **SmartSizing** property is enabled.<br/>                                                                                                                                                                                                                         |
@@ -125,7 +130,7 @@ The **IMsRdpClientAdvancedSettings** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -149,8 +154,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>          |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings is defined as 3c65b4ab-12b3-465b-acd4-b8dad3bff9e2<br/> |
@@ -167,9 +172,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

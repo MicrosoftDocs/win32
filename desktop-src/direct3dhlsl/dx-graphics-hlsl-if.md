@@ -1,14 +1,20 @@
 ---
 title: if Statement
 description: Conditionally execute a series of statements, based on the evaluation of the conditional expression.
-ms.assetid: 'ed4e347b-b5ee-40bc-a3f8-36e83ccf45b8'
-keywords: ["if Statement HLSL"]
+ms.assetid: ed4e347b-b5ee-40bc-a3f8-36e83ccf45b8
+keywords:
+- if Statement HLSL
 topic_type:
 - apiref
 api_name:
 - if Statement
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if Statement
@@ -19,11 +25,11 @@ Conditionally execute a series of statements, based on the evaluation of the con
 
 |                                                               |
 |---------------------------------------------------------------|
-| \[*Attribute*\] if ( *Conditional* ) {   *Statement Block*; } |
+| \[*Attribute*\] if ( *Conditional* ) {   *Statement Block*; } |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -66,7 +72,7 @@ When you use [Shader Model 2.x](dx-graphics-hlsl-sm2.md) or [Shader Model 3.0](d
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -123,9 +129,9 @@ An **if** statement can also use an optional else block. If the **if** expressio
 [Flow Control](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

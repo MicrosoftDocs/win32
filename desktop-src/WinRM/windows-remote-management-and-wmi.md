@@ -4,10 +4,13 @@ description: Windows Remote Management can be used to retrieve data exposed by W
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a625440b-a839-487d-b862-e35934f24e1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: a625440b-a839-487d-b862-e35934f24e1f
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Remote Management and WMI
@@ -142,7 +145,7 @@ You can obtain a specific instance of a class in several ways:
 
     
 
--   Adding a [*selector*](windows-remote-management-glossary.md#winrm-gloss-selector) to a [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](iwsmanresourcelocator.md) object.
+-   Adding a [*selector*](windows-remote-management-glossary.md#winrm-gloss-selector) to a [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanresourcelocator?branch=master) object.
 
     The following VBScript code example shows how to use a selector to get a specific instance of [**Win32\_Processor**](https://msdn.microsoft.com/library/aa394373).
 

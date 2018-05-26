@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPrintTicketProvider::GetSupportedVersions method retrieves major versions of the print schemas that are supported by the plug-in provider.'
-ms.assetid: 'bd1ca076-5007-4e38-8e90-4017d7dc8b3f'
-title: 'IPrintOemPrintTicketProvider::GetSupportedVersions method'
+---
+Description: The IPrintOemPrintTicketProviderGetSupportedVersions method retrieves major versions of the print schemas that are supported by the plug-in provider.
+ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
+title: IPrintOemPrintTicketProviderGetSupportedVersions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider::GetSupportedVersions method

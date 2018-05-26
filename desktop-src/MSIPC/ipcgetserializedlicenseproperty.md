@@ -4,11 +4,12 @@ description: Retrieves the information available from a serialized license.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '572F68EE-CCBF-4B88-AB41-D63EE948CE25'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 572F68EE-CCBF-4B88-AB41-D63EE948CE25
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcGetSerializedLicenseProperty function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcGetSerializedLicenseProperty function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcGetSerializedLicenseProperty function
@@ -28,11 +32,11 @@ Retrieves the information available from a serialized license. This is functiona
 
 ```C++
 HRESULT WINAPI IpcGetSerializedLicenseProperty(
-  _In_     PCIPC_BUFFER    pvLicense,
-           DWORD           dwPropID,
-  _In_opt_ IPC_KEY_HANDLE  hKey,
-           LCID            lcid,
-  _Out_    LPVOID          *ppvProperty
+  _In_     PCIPC_BUFFER    pvLicense,
+           DWORD           dwPropID,
+  _In_opt_ IPC_KEY_HANDLE  hKey,
+           LCID            lcid,
+  _Out_    LPVOID          *ppvProperty
 );
 ```
 
@@ -73,7 +77,7 @@ For localized properties, *lcid* contains the locale ID of the descriptor to que
 > [!Note]  
 > See the Frequently asked questions section of the [Release notes](release-notes--rtm-.md) topic for information about the API behavior regarding language ID.
 
- 
+ 
 
 </dd> <dt>
 
@@ -88,7 +92,7 @@ Pointer to a Pointer of a buffer to hold the license information. The buffer is 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -120,7 +124,7 @@ Meaning: The user does not have **IPC\_GENERIC\_VIEW\_RIGHTS** to the license pa
 > \[!Tip\]  
 > Consider messaging the user about this absence of rights.
 
- 
+ 
 
 </dd> </dl>
 
@@ -130,8 +134,8 @@ Meaning: The user does not have **IPC\_GENERIC\_VIEW\_RIGHTS** to the license pa
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -169,9 +173,9 @@ Meaning: The user does not have **IPC\_GENERIC\_VIEW\_RIGHTS** to the license pa
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

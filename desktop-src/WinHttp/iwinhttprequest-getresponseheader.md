@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the HTTP response headers.'
-ms.assetid: '3d59ee83-280c-4074-82e1-ded203fa1049'
-title: 'IWinHttpRequest::GetResponseHeader method'
+Description: Retrieves the HTTP response headers.
+ms.assetid: 3d59ee83-280c-4074-82e1-ded203fa1049
+title: IWinHttpRequestGetResponseHeader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::GetResponseHeader method
@@ -13,8 +18,8 @@ The **GetResponseHeader** method retrieves the HTTP response headers.
 
 ```C++
 HRESULT GetResponseHeader(
-  [in]          BSTR Header,
-  [out, retval] BSTR *Value
+  [in]          BSTR Header,
+  [out, retval] BSTR *Value
 );
 ```
 
@@ -47,9 +52,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 This method returns the value of the response header named in *Header*. Be aware that automation clients, such as script, get the header data as the return value of the function call, not through a function parameter. Invoke this method only after the [**Send**](iwinhttprequest-send.md) method has been called.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -179,9 +184,9 @@ WScript.Echo( WinHttpReq.GetResponseHeader("Date"));
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -204,9 +209,9 @@ WScript.Echo( WinHttpReq.GetResponseHeader("Date"));
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

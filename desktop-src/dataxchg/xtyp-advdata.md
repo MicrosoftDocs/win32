@@ -1,8 +1,9 @@
 ---
 title: XTYP\_ADVDATA transaction
 description: Informs the client that the value of the data item has changed. The Dynamic Data Exchange (DDE) client callback function, DdeCallback, receives this transaction after establishing an advise loop with a server.
-ms.assetid: 'c6e61785-b98c-4ffa-9d23-339e1c66cb4d'
-keywords: ["XTYP_ADVDATA transaction Data Exchange"]
+ms.assetid: c6e61785-b98c-4ffa-9d23-339e1c66cb4d
+keywords:
+- XTYP_ADVDATA transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_ADVDATA transaction
@@ -91,7 +97,7 @@ A DDE callback function should return **DDE\_FACK** if it processes this transac
 
 ## Remarks
 
-An application must not free the data handle obtained during this transaction. An application must, however, copy the data associated with the data handle if the application must process the data after the callback function returns. An application can use the [**DdeGetData**](ddegetdata.md) function to copy the data.
+An application must not free the data handle obtained during this transaction. An application must, however, copy the data associated with the data handle if the application must process the data after the callback function returns. An application can use the [**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master) function to copy the data.
 
 ## Requirements
 
@@ -99,8 +105,8 @@ An application must not free the data handle obtained during this transaction. A
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -112,13 +118,13 @@ An application must not free the data handle obtained during this transaction. A
 **Reference**
 </dt> <dt>
 
-[**DdeClientTransaction**](ddeclienttransaction.md)
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master)
 </dt> <dt>
 
-[**DdeGetData**](ddegetdata.md)
+[**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master)
 </dt> <dt>
 
-[**DdePostAdvise**](ddepostadvise.md)
+[**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -127,9 +133,9 @@ An application must not free the data handle obtained during this transaction. A
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

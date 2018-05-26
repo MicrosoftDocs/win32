@@ -1,14 +1,20 @@
 ---
 title: smil Element
 description: The smil element is always the top level element in a Windows Media Playlist (WPL) file. It specifies that the file uses SMIL (Synchronized Multimedia Integration Language) syntax and grammar.
-ms.assetid: 'bb14f1b8-53d0-47ff-9fd3-4620a1467985'
-keywords: ["smil Element Windows Media Player"]
+ms.assetid: bb14f1b8-53d0-47ff-9fd3-4620a1467985
+keywords:
+- smil Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - smil Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # smil Element
@@ -35,7 +41,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,9 +88,9 @@ Every Windows Media Playlist must have the **smil** element at its root.
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

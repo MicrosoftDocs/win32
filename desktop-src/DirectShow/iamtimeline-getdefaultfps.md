@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDefaultFPS method retrieves the default output frame rate, in frames per second (FPS). Groups use this value as their default frame rate. To set a group''s frame rate, call the IAMTimelineGroup::SetOutputFPS method on the group.'
-ms.assetid: '91c83512-4295-440e-b3b2-09fe3629f827'
-title: 'IAMTimeline::GetDefaultFPS method'
+---
+Description: The GetDefaultFPS method retrieves the default output frame rate, in frames per second (FPS). Groups use this value as their default frame rate. To set a groups frame rate, call the IAMTimelineGroupSetOutputFPS method on the group.
+ms.assetid: 91c83512-4295-440e-b3b2-09fe3629f827
+title: IAMTimelineGetDefaultFPS method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetDefaultFPS method

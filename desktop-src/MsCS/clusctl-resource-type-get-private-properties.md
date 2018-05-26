@@ -4,11 +4,12 @@ description: Retrieves the read/write private properties for a resource type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28c5043e-259e-4bcb-aad1-92b8cc6b8845'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 28c5043e-259e-4bcb-aad1-92b8cc6b8845
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_PROPERTIES control code
 
-Retrieves the read/write [private properties](private-properties.md) for a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceTypeControl**](resourcetypecontrol.md) parameter.
+Retrieves the read/write [private properties](private-properties.md) for a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) parameter.
 
 
 ```C++
@@ -41,7 +45,7 @@ ClusterResourceTypeControl(
 
 ## Parameters
 
-The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) or [**ResourceTypeControl**](resourcetypecontrol.md).
+The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) or [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master).
 
 <dl> <dt>
 
@@ -54,7 +58,7 @@ On a successful return, points to a [property list](property-lists.md) containin
 
 ## Return value
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) returns one of the following values.
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -91,25 +95,25 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_PROPERTI
 
 | Component      | Bit location | Value                                      |
 |----------------|--------------|--------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)     |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)     |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)                |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)                 |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)             |
 | Type bit       | 20           | External (0x0)                             |
-| Operation code | 0–23         | **CLCTL\_GET\_PRIVATE\_PROPERTIES** (0x81) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)               |
+| Operation code | 0 23         | **CLCTL\_GET\_PRIVATE\_PROPERTIES** (0x81) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)               |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
-Required. Always support CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_PROPERTIES in your implementation of [**ResourceTypeControl**](resourcetypecontrol.md). Return a property list that includes the names and data values for all of the resource type-specific read/write private properties. Remember to terminate the list with CLUSPROP\_SYNTAX\_ENDMARK. For more information on working with property lists, see [Creating Property Lists](creating-property-lists.md).
+Required. Always support CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_PROPERTIES in your implementation of [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master). Return a property list that includes the names and data values for all of the resource type-specific read/write private properties. Remember to terminate the list with CLUSPROP\_SYNTAX\_ENDMARK. For more information on working with property lists, see [Creating Property Lists](creating-property-lists.md).
 
 As a general guideline, the Resource Monitor should handle all of the control codes for [common properties](common-properties.md), while your DLL should handle all control codes for [private properties](private-properties.md).
 
-For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) entry point, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
+For more information on the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
 
 ## Requirements
 
@@ -118,7 +122,7 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -130,15 +134,15 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 [External Resource Type Control Codes](external-resource-type-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

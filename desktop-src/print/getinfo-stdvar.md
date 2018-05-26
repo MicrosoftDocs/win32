@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GETINFO\_STDVAR structure is used as input to the UNIFONTOBJ\_GetInfo callback function.'
-ms.assetid: '9f2ae88c-34a4-46b3-9571-5f2f023b7d6b'
-title: 'GETINFO\_STDVAR structure'
+---
+Description: The GETINFO\_STDVAR structure is used as input to the UNIFONTOBJ\_GetInfo callback function.
+ms.assetid: 9f2ae88c-34a4-46b3-9571-5f2f023b7d6b
+title: GETINFO\_STDVAR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GETINFO\_STDVAR structure

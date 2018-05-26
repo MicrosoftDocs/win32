@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets all the scan profiles available for the user in the system that your application is running under.'
-ms.assetid: '9787079e-283c-4f6d-b97c-cfc1349ada30'
-title: 'IScanProfileMgr::GetProfiles method'
+---
+Description: Gets all the scan profiles available for the user in the system that your application is running under.
+ms.assetid: 9787079e-283c-4f6d-b97c-cfc1349ada30
+title: IScanProfileMgrGetProfiles method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileMgr::GetProfiles method

@@ -1,7 +1,12 @@
 ---
 title: Creating a Recordset Object with the ADO API
 description: Creating a Recordset Object with the ADO API
-ms.assetid: '49152311-c6f0-40bf-a788-fbb89f8a6395'
+ms.assetid: 49152311-c6f0-40bf-a788-fbb89f8a6395
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Recordset Object with the ADO API

@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the number of licensed Active Directory Federation Services (ADFS) accounts.'
+Description: Retrieves the number of licensed Active Directory Federation Services (ADFS) accounts.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '8a7cc8e3-4f1b-426f-bf33-f3dd0207ca4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 8a7cc8e3-4f1b-426f-bf33-f3dd0207ca4f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'AuditReport.CertifiedFederatedIdentityCount property'
+title: AuditReport.CertifiedFederatedIdentityCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuditReport.CertifiedFederatedIdentityCount property
@@ -135,7 +138,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -147,9 +150,9 @@ END SUB
 [**AuditReport**](auditreport-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

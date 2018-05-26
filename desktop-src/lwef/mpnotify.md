@@ -1,8 +1,10 @@
 ---
 title: MPNOTIFY enumeration
 description: Possible callback notifications.
-ms.assetid: 'CCD0CD89-2C6E-453F-9437-E6ED87AD9F29'
-keywords: ["MPNOTIFY enumeration Legacy Windows Environment Features", "PMPNOTIFY enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: CCD0CD89-2C6E-453F-9437-E6ED87AD9F29
+keywords:
+- MPNOTIFY enumeration Legacy Windows Environment Features
+- PMPNOTIFY enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPNOTIFY enumeration
@@ -633,8 +640,8 @@ The AM service has encountered malware that might have caused critical settings 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -652,9 +659,9 @@ The AM service has encountered malware that might have caused critical settings 
 [**MPSAMPLE\_DATA**](mpsample-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

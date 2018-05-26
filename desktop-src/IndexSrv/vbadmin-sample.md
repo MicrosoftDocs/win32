@@ -1,7 +1,12 @@
 ---
 title: VBAdmin Sample
 description: VBAdmin Sample
-ms.assetid: 'd66c2431-e26a-4c13-80c6-4ea60bce2229'
+ms.assetid: d66c2431-e26a-4c13-80c6-4ea60bce2229
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBAdmin Sample

@@ -1,7 +1,12 @@
 ---
-Description: 'The following is an example message file that can be used to build a resource-only DLL to be used with the service sample when writing events to the event log.'
-ms.assetid: 'd0d46041-5608-4abf-b833-7aae1744ef60'
-title: 'Sample.mc'
+Description: The following is an example message file that can be used to build a resource-only DLL to be used with the service sample when writing events to the event log.
+ms.assetid: d0d46041-5608-4abf-b833-7aae1744ef60
+title: Sample.mc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample.mc

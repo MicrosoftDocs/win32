@@ -1,8 +1,9 @@
 ---
 title: MCI\_SET command
 description: The MCI\_SET command sets device information. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
-ms.assetid: 'c527f9d6-2119-4274-98b7-dc892e9b70f9'
-keywords: ["MCI_SET command Windows Multimedia"]
+ms.assetid: c527f9d6-2119-4274-98b7-dc892e9b70f9
+keywords:
+- MCI_SET command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SET command
 
 The MCI\_SET command sets device information. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -299,7 +305,7 @@ When used with MCI\_DGV\_SET\_FILEFORMAT, MCI\_SET sets the file format used for
 
 </dt> <dd></dd> </dl>
 
-For digital-video devices, the *lpSet* parameter points to an [**MCI\_DGV\_SET\_PARMS**](mci-dgv-set-parms.md) structure.
+For digital-video devices, the *lpSet* parameter points to an [**MCI\_DGV\_SET\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_set_parms?branch=master) structure.
 
 The following additional flags are used with the **sequencer** device type:
 
@@ -739,8 +745,8 @@ Several properties of waveform-audio data are defined when the file to store the
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -755,9 +761,9 @@ Several properties of waveform-audio data are defined when the file to store the
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

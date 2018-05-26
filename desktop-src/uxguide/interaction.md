@@ -1,7 +1,12 @@
 ---
 title: Interaction
 description: Interaction is the variety of ways users interact with your app, including touch, keyboard, mouse, and so on. Use these guidelines to create intuitive and distinctive experiences that are optimized for touch but work consistently across input devices.
-ms.assetid: '1509c885-f4dc-4cf9-86a3-cc6754d3b4a0'
+ms.assetid: 1509c885-f4dc-4cf9-86a3-cc6754d3b4a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interaction
@@ -37,7 +42,7 @@ This table shows some of the differences between input devices that you should c
 
 
 
- 
+ 
 
 **Note**
 
@@ -82,9 +87,9 @@ Interactions that directly affect objects and mimic real world interactions are 
 
 **Note:** An exception to this is where you use specific timed interactions to assist in learning and exploration (for example, press and hold). Using appropriate descriptions and visual cues has a great effect on the use of advanced interactions.
 
- 
+ 
 
- 
+ 
 
 
 

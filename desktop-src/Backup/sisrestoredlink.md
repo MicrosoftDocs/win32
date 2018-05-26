@@ -1,8 +1,9 @@
 ---
 title: SisRestoredLink function
 description: Returns the names of the common-store file or files pointed to by the specified restored SIS link.
-ms.assetid: '4eefd975-6055-44c0-93ab-900638948f3e'
-keywords: ["SisRestoredLink function Backup"]
+ms.assetid: 4eefd975-6055-44c0-93ab-900638948f3e
+keywords:
+- SisRestoredLink function Backup
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SisRestoredLink function
@@ -22,12 +28,12 @@ The **SisRestoredLink** function returns the names of the common-store file or f
 
 ```C++
 BOOL SisRestoredLink(
-  _In_  PVOID  sisRestoreStructure,
-  _In_  PWCHAR restoredFileName,
-  _In_  PVOID  reparseData,
-  _In_  ULONG  reparseDataSize,
-  _Out_ PULONG countOfCommonStoreFilesToRestore,
-  _Out_ PWCHAR **commonStoreFilesToRestore
+  _In_  PVOID  sisRestoreStructure,
+  _In_  PWCHAR restoredFileName,
+  _In_  PVOID  reparseData,
+  _In_  ULONG  reparseDataSize,
+  _Out_ PULONG countOfCommonStoreFilesToRestore,
+  _Out_ PWCHAR **commonStoreFilesToRestore
 );
 ```
 
@@ -105,8 +111,8 @@ Common-store file names are globally unique to ensure the integrity of the resto
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Sisbkup.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sisbkup.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
@@ -123,9 +129,9 @@ Common-store file names are globally unique to ensure the integrity of the resto
 [**SisCSFilesToBackupForLink**](siscsfilestobackupforlink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

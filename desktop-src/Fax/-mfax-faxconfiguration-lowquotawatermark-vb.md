@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the minimum size of a watermark.'
-ms.assetid: 'ca72f0ea-ac05-42b7-89b5-5825159b4d16'
-title: 'FaxConfiguration.LowQuotaWaterMark property'
+---
+Description: Sets or retrieves a value that indicates the minimum size of a watermark.
+ms.assetid: ca72f0ea-ac05-42b7-89b5-5825159b4d16
+title: FaxConfiguration.LowQuotaWaterMark property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.LowQuotaWaterMark property

@@ -4,11 +4,12 @@ description: The property methods of the IGPMStatusMessage interface get the pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d736e30-760d-43fa-ab5d-d05dc679bfbb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 8d736e30-760d-43fa-ab5d-d05dc679bfbb
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMStatusMessage Property Methods GPMC"]
+keywords:
+- IGPMStatusMessage Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -25,11 +26,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMStatusMessage Property Methods
 
-The property methods of the [**IGPMStatusMessage**](igpmstatusmessage.md) interface get the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
+The property methods of the [**IGPMStatusMessage**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstatusmessage?branch=master) interface get the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
 
 ## Properties
 
@@ -135,7 +139,7 @@ HRESULT get_SettingsName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -143,8 +147,8 @@ HRESULT get_SettingsName(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -156,15 +160,15 @@ HRESULT get_SettingsName(
 
 <dl> <dt>
 
-[**IGPMStatusMessage**](igpmstatusmessage.md)
+[**IGPMStatusMessage**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstatusmessage?branch=master)
 </dt> <dt>
 
-[**IGPMStatusMsgCollection**](igpmstatusmsgcollection.md)
+[**IGPMStatusMsgCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstatusmsgcollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

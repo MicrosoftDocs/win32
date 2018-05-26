@@ -1,8 +1,11 @@
 ---
 title: INapComponentInfo GetLocalizedString method
 description: Is used by the NAP System to get localized strings.
-ms.assetid: 'ad5be180-6329-4c91-b4d1-871a4d83c323'
-keywords: ["GetLocalizedString method NAP", "GetLocalizedString method NAP , INapComponentInfo interface", "INapComponentInfo interface NAP , GetLocalizedString method"]
+ms.assetid: ad5be180-6329-4c91-b4d1-871a4d83c323
+keywords:
+- GetLocalizedString method NAP
+- GetLocalizedString method NAP , INapComponentInfo interface
+- INapComponentInfo interface NAP , GetLocalizedString method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentInfo::GetLocalizedString method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentInfo::GetLocalizedString** callback method is used by the NAP System to get localized strings.
 
@@ -27,8 +35,8 @@ The **INapComponentInfo::GetLocalizedString** callback method is used by the NAP
 
 ```C++
 HRESULT GetLocalizedString(
-  [in]  MessageId     msgId,
-  [out] CountedString **string
+  [in]  MessageId     msgId,
+  [out] CountedString **string
 );
 ```
 
@@ -48,7 +56,7 @@ A [**MessageId**](nap-datatypes.md) that contains the resource ID of the string 
 *string* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) that contains the localized version of the message.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) that contains the localized version of the message.
 
 </dd> </dl>
 
@@ -66,7 +74,7 @@ Return one of these error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ Strings should be localized according to the calling thread's language-id.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -95,9 +103,9 @@ Strings should be localized according to the calling thread's language-id.
 [**INapComponentInfo**](inapcomponentinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

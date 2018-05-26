@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.'
-ms.assetid: 'f88c64ce-af76-49fe-8ebd-029928506243'
+---
+Description: The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.
+ms.assetid: f88c64ce-af76-49fe-8ebd-029928506243
 title: Rate Change Property Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rate Change Property Set
@@ -53,7 +58,7 @@ Before the DVD Navigator changes to a non-1x speed, it delivers all pending samp
 
 The DVD Navigator operates either in *smooth mode* or in *scan mode*. In smooth mode, it sends every frame to the decoder, including B frames and P frames. The DVD Navigator uses smooth mode whenever playback speed is greater than zero but less than the decoder's maxmimum data rate. If playback speed is less than zero (reverse playback), or exceeds the decoder's maximum data rate, the DVD Navigator uses scan mode, where it sends just the I frames to the decoder. At very high speeds, it may skip some I frames; for example, it may send every other I frame.
 
-By default, the DVD Navigator mutes the audio stream for rates other than 1.0. You can change this by calling [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) with the DVD\_AudioDuringFFwdRew flag.
+By default, the DVD Navigator mutes the audio stream for rates other than 1.0. You can change this by calling [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) with the DVD\_AudioDuringFFwdRew flag.
 
 ### Rate Change Version 1.1
 

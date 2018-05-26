@@ -1,8 +1,9 @@
 ---
 title: D3D12CalcSubresource function
 description: Calculates a subresource index for a texture.
-ms.assetid: '5C63A315-E21E-498B-A832-6BA2D17FF9A7'
-keywords: ["D3D12CalcSubresource function"]
+ms.assetid: 5C63A315-E21E-498B-A832-6BA2D17FF9A7
+keywords:
+- D3D12CalcSubresource function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D12CalcSubresource function
@@ -22,11 +28,11 @@ Calculates a subresource index for a texture.
 
 ```C++
 UINT inline D3D12CalcSubresource(
-   UINT MipSlice,
-   UINT ArraySlice,
-   UINT PlaneSlice,
-   UINT MipLevels,
-   UINT ArraySize
+   UINT MipSlice,
+   UINT ArraySlice,
+   UINT PlaneSlice,
+   UINT MipLevels,
+   UINT ArraySize
 );
 ```
 
@@ -115,9 +121,9 @@ For volume (3D) textures, all slices for a given mipmap level are a single subre
 [Subresources](subresources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

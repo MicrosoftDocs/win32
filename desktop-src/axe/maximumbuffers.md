@@ -1,14 +1,20 @@
 ---
 title: MaximumBuffers element
 description: Specifies the maximum number of buffers ETW subsystem should create for tracing the assessment.
-ms.assetid: '97DF4B9B-B03A-4730-9E33-54942E7F91AA'
-keywords: ["MaximumBuffers element Access Execution Engine"]
+ms.assetid: 97DF4B9B-B03A-4730-9E33-54942E7F91AA
+keywords:
+- MaximumBuffers element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MaximumBuffers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaximumBuffers element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

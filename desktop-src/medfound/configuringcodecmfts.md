@@ -1,7 +1,12 @@
 ---
 Description: Configuring Codec MFTs
-ms.assetid: '0de0cb2e-67bc-4db5-879a-95879f16b98d'
+ms.assetid: 0de0cb2e-67bc-4db5-879a-95879f16b98d
 title: Configuring Codec MFTs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Codec MFTs
@@ -10,7 +15,7 @@ This topic describes the process of configuring the codec MFTs. Each codec has s
 
 ## Configuring MFT Inputs and Outputs
 
-Every MFT supports specific input and output types. You can retrieve supported input types by repeatedly calling [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md), incrementing the type index with each call. When you find an appropriate type, set the input type by calling [**IMFTransform::SetInputType**](imftransform-setinputtype.md). You can then repeat the process for the output type using the calls [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) and [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md). You must query or set the available output types only after setting the input type.
+Every MFT supports specific input and output types. You can retrieve supported input types by repeatedly calling [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master), incrementing the type index with each call. When you find an appropriate type, set the input type by calling [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master). You can then repeat the process for the output type using the calls [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) and [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master). You must query or set the available output types only after setting the input type.
 
 ## Configuring the Codec MFTs for Encoding
 

@@ -1,7 +1,12 @@
 ---
 title: Using Multiple Instances of the Control
 description: Using Multiple Instances of the Control
-ms.assetid: 'BC701354-A40B-49ab-860E-C67E70802FDC'
+ms.assetid: BC701354-A40B-49ab-860E-C67E70802FDC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multiple Instances of the Control

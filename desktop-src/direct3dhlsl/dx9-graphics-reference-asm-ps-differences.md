@@ -1,7 +1,12 @@
 ---
 title: Pixel Shader Differences
 description: Pixel Shader Differences
-ms.assetid: '11aefb26-eb82-486c-81ff-7c0cfbab1b7a'
+ms.assetid: 11aefb26-eb82-486c-81ff-7c0cfbab1b7a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixel Shader Differences

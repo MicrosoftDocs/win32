@@ -1,8 +1,24 @@
 ---
 title: Reading Attribute Values from a CD or DVD
 description: Reading Attribute Values from a CD or DVD
-ms.assetid: '441916fb-f66d-4a12-a95c-b47561c93e64'
-keywords: ["Windows Media Player,attributes for media items", "Windows Media Player object model,attributes for media items", "object model,attributes for media items", "Windows Media Player Mobile,attributes for media items", "Windows Media Player ActiveX control,attributes for media items", "Windows Media Player Mobile ActiveX control,attributes for media items", "ActiveX control,attributes for media items", "Windows Media Player library,attributes for media items", "library,attributes for media items", "attributes,reading values", "reading attribute values"]
+ms.assetid: 441916fb-f66d-4a12-a95c-b47561c93e64
+keywords:
+- Windows Media Player,attributes for media items
+- Windows Media Player object model,attributes for media items
+- object model,attributes for media items
+- Windows Media Player Mobile,attributes for media items
+- Windows Media Player ActiveX control,attributes for media items
+- Windows Media Player Mobile ActiveX control,attributes for media items
+- ActiveX control,attributes for media items
+- Windows Media Player library,attributes for media items
+- library,attributes for media items
+- attributes,reading values
+- reading attribute values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Attribute Values from a CD or DVD

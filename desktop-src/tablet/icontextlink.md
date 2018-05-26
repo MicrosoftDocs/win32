@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a relationship between two IContextNode objects.'
-ms.assetid: 'ee81d9d7-eba9-4b11-84d0-5a6ca0df7d92'
+Description: Represents a relationship between two IContextNode objects.
+ms.assetid: ee81d9d7-eba9-4b11-84d0-5a6ca0df7d92
 title: IContextLink interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextLink interface
@@ -28,7 +33,7 @@ The **IContextLink** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ The following is an example of a relationship represented by an **IContextLink**
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -65,9 +70,9 @@ The following is an example of a relationship represented by an **IContextLink**
 [Context Node Types](context-node-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

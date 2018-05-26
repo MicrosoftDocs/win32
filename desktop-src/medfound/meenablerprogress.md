@@ -1,16 +1,21 @@
-﻿---
-Description: 'Signals the progress of a content enabler object. Objects that expose the IMFContentEnabler interface can raise this event to notify the application about the progress of the content enabler's actions.'
-ms.assetid: 'ec14ba9b-cfb6-4e32-870e-2436e11c308b'
+---
+Description: Signals the progress of a content enabler object. Objects that expose the IMFContentEnabler interface can raise this event to notify the application about the progress of the content enablers actions.
+ms.assetid: ec14ba9b-cfb6-4e32-870e-2436e11c308b
 title: MEEnablerProgress event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEEnablerProgress event
 
-Signals the progress of a content enabler object. Objects that expose the [**IMFContentEnabler**](imfcontentenabler.md) interface can raise this event to notify the application about the progress of the content enabler's actions.
+Signals the progress of a content enabler object. Objects that expose the [**IMFContentEnabler**](/windows/win32/mfidl/nn-mfidl-imfcontentenabler?branch=master) interface can raise this event to notify the application about the progress of the content enabler's actions.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -22,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 ## Remarks
 
-To receive this event, query the [**IMFContentEnabler**](imfcontentenabler.md) interface for the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface. Then call [**IMFMediaEventGenerator::BeginGetEvent**](imfmediaeventgenerator-begingetevent.md), as described in the topic [Media Event Generators](media-event-generators.md).
+To receive this event, query the [**IMFContentEnabler**](/windows/win32/mfidl/nn-mfidl-imfcontentenabler?branch=master) interface for the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface. Then call [**IMFMediaEventGenerator::BeginGetEvent**](/windows/win32/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent?branch=master), as described in the topic [Media Event Generators](media-event-generators.md).
 
 ## Requirements
 
@@ -40,7 +45,7 @@ To receive this event, query the [**IMFContentEnabler**](imfcontentenabler.md) i
 
 <dl> <dt>
 
-[**IMFContentEnabler**](imfcontentenabler.md)
+[**IMFContentEnabler**](/windows/win32/mfidl/nn-mfidl-imfcontentenabler?branch=master)
 </dt> <dt>
 
 [Media Event Generators](media-event-generators.md)

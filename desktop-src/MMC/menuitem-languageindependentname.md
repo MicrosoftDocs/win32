@@ -4,11 +4,16 @@ description: The LanguageIndependentName property returns the language-independe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '27cdb135-08e5-478e-bd24-a76fe18f3cea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 27cdb135-08e5-478e-bd24-a76fe18f3cea
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["LanguageIndependentName property MMC", "LanguageIndependentName property MMC , MenuItem object", "MenuItem object MMC , LanguageIndependentName property", "LanguageIndependentName property MMC , MenuItem interface", "MenuItem interface MMC , LanguageIndependentName property"]
+keywords:
+- LanguageIndependentName property MMC
+- LanguageIndependentName property MMC , MenuItem object
+- MenuItem object MMC , LanguageIndependentName property
+- LanguageIndependentName property MMC , MenuItem interface
+- MenuItem interface MMC , LanguageIndependentName property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MenuItem::LanguageIndependentName property
@@ -54,8 +62,8 @@ MsgBox ("LanguageIndependentName: " _
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -79,9 +87,9 @@ MsgBox ("LanguageIndependentName: " _
 [**ContextMenu object**](contextmenu-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

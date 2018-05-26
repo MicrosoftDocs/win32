@@ -1,8 +1,15 @@
 ---
 title: Video Capture Messages
 description: Video Capture Messages
-ms.assetid: 'ec5c2c4b-d0a2-4982-aedc-24f814a5ab74'
-keywords: ["Video for Windows (VFW),video capture messages", "VFW (Video for Windows),video capture messages"]
+ms.assetid: ec5c2c4b-d0a2-4982-aedc-24f814a5ab74
+keywords:
+- Video for Windows (VFW),video capture messages
+- VFW (Video for Windows),video capture messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Capture Messages

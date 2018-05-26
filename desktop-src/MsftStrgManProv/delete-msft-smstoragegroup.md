@@ -4,11 +4,14 @@ description: Deletes the specified storage group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e92c87c7-458d-4efd-90de-4c4e66f0dc14'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e92c87c7-458d-4efd-90de-4c4e66f0dc14
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Delete method", "Delete method, MSFT_SMStorageGroup class", "MSFT_SMStorageGroup class, Delete method"]
+keywords:
+- Delete method
+- Delete method, MSFT_SMStorageGroup class
+- MSFT_SMStorageGroup class, Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the MSFT\_SMStorageGroup class
@@ -28,9 +34,9 @@ Deletes the specified storage group.
 
 ```mof
 Uint32 Delete(
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -195,7 +201,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -209,9 +215,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageGroup**](msft-smstoragegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

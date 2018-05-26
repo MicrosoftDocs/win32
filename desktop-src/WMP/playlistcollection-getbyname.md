@@ -1,8 +1,11 @@
 ---
 title: PlaylistCollection.getByName method
 description: The getByName method retrieves a PlaylistArray object containing playlists with the specified name, if any exist.
-ms.assetid: '9d837c57-8612-47ef-a0fa-a3ffa77ac704'
-keywords: ["getByName method Windows Media Player", "getByName method Windows Media Player , PlaylistCollection class", "PlaylistCollection class Windows Media Player , getByName method"]
+ms.assetid: 9d837c57-8612-47ef-a0fa-a3ffa77ac704
+keywords:
+- getByName method Windows Media Player
+- getByName method Windows Media Player , PlaylistCollection class
+- PlaylistCollection class Windows Media Player , getByName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection.getByName method
@@ -103,9 +111,9 @@ if (Checkit > 0){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

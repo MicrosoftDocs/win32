@@ -1,8 +1,16 @@
 ---
 title: WebDAV
 description: Create and manage connections to WebDAV servers. Perform file I/O operations on remote files on WebDAV servers. Web Distributed Authoring and Versioning defines how file functions such as copy, move, delete, and create are performed by using HTTP.
-ms.assetid: 'e917829a-dfc3-4c28-a1d7-ccff48085dd1'
-keywords: ["WebDAV WebDAV", "WebDAV WebDAV , home page", "Web Distributed Authoring and Versioning WebDAV See WebDAV"]
+ms.assetid: e917829a-dfc3-4c28-a1d7-ccff48085dd1
+keywords:
+- WebDAV WebDAV
+- WebDAV WebDAV , home page
+- Web Distributed Authoring and Versioning WebDAV See WebDAV
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebDAV
@@ -17,7 +25,7 @@ The WebDAV API is designed for use by C and C++ developers.
 
 ## Run-time requirements
 
-The WebDAV API is in Windows Vista and later. For information about which operating system versions are required to use a particular programming element, see the Requirements section of the reference page for that element.
+The WebDAV API is in Windows Vista and later. For information about which operating system versions are required to use a particular programming element, see the Requirements section of the reference page for that element.
 
 ## In this section
 
@@ -29,11 +37,11 @@ The WebDAV API is in Windows Vista and later. For information about which operat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

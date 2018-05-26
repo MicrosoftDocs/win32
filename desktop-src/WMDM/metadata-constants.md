@@ -1,8 +1,17 @@
 ---
 title: Metadata Constants
 description: Metadata Constants
-ms.assetid: '870c0e36-aa26-4ab3-b47f-81346d005fa5'
-keywords: ["Windows Media Device Manager,metadata", "Device Manager,metadata", "programming reference,metadata", "reference for Windows Media Device Manager,metadata"]
+ms.assetid: 870c0e36-aa26-4ab3-b47f-81346d005fa5
+keywords:
+- Windows Media Device Manager,metadata
+- Device Manager,metadata
+- programming reference,metadata
+- reference for Windows Media Device Manager,metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Constants
@@ -56,8 +65,8 @@ Storage Metadata Constants
 | g\_wszWMDMFileAttributes                 | The attributes for a file object                                                                                                                                                                                                                                                                                                                                                                                                   | WMDM\_TYPE\_QWORD                 | **QWORD**            |
 | g\_wszWMDMediaClassPrimaryID             | Music, video, non-music audio, other                                                                                                                                                                                                                                                                                                                                                                                               | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
 | g\_wszWMDMFileCreationDate               | File creation date                                                                                                                                                                                                                                                                                                                                                                                                                 | WMDM\_TYPE\_DATE                  | **WMDMDATETIME**     |
-| g\_wszWMDMFileName                       | File name. Equivalent to calling [**IWMDMStorage::GetName**](iwmdmstorage-getname.md).                                                                                                                                                                                                                                                                                                                                            | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
-| g\_wszWMDMFileSize                       | File size, in bytes. Equivalent to calling [**IWMDMStorage::GetSize**](iwmdmstorage-getsize.md).                                                                                                                                                                                                                                                                                                                                  | WMDM\_TYPE\_QWORD                 | **QWORD**            |
+| g\_wszWMDMFileName                       | File name. Equivalent to calling [**IWMDMStorage::GetName**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getname?branch=master).                                                                                                                                                                                                                                                                                                                                            | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
+| g\_wszWMDMFileSize                       | File size, in bytes. Equivalent to calling [**IWMDMStorage::GetSize**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getsize?branch=master).                                                                                                                                                                                                                                                                                                                                  | WMDM\_TYPE\_QWORD                 | **QWORD**            |
 | g\_wszWMDMFormatCode                     | Format code for content format. It should be a [**WMDM\_FORMATCODE**](wmdm-formatcode.md)value.<br/>                                                                                                                                                                                                                                                                                                                        | WMDM\_TYPE\_DWORD                 | **WMDM\_FORMATCODE** |
 | g\_wszWMDMFrameRate                      | Frame rate                                                                                                                                                                                                                                                                                                                                                                                                                         | WMDM\_TYPE\_DWORD                 | **DWORD**            |
 | g\_wszWMDMGenre                          | Track's Genre                                                                                                                                                                                                                                                                                                                                                                                                                      | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
@@ -65,7 +74,7 @@ Storage Metadata Constants
 | g\_wszWMDMIsProtected                    | Whether content is DRM protected                                                                                                                                                                                                                                                                                                                                                                                                   | WMDM\_TYPE\_BOOL                  | **BOOL**             |
 | g\_wszWMDMIsRepeat                       | True if not the first time episode has aired                                                                                                                                                                                                                                                                                                                                                                                       | WMDM\_TYPE\_BOOL                  | **BOOL**             |
 | g\_wszWMDMKeyFrameDistance               | Key frame distance                                                                                                                                                                                                                                                                                                                                                                                                                 | WMDM\_TYPE\_DWORD                 | **DWORD**            |
-| g\_wszWMDMLastModifiedDate               | Date/time file was last modified. Equivalent to calling [**IWMDMStorage::GetDate**](iwmdmstorage-getdate.md).                                                                                                                                                                                                                                                                                                                     | WMDM\_TYPE\_DATE                  | **WMDMDATETIME**     |
+| g\_wszWMDMLastModifiedDate               | Date/time file was last modified. Equivalent to calling [**IWMDMStorage::GetDate**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getdate?branch=master).                                                                                                                                                                                                                                                                                                                     | WMDM\_TYPE\_DATE                  | **WMDMDATETIME**     |
 | g\_wszWMDMMediaClassSecondaryID          | Audio books, music videos, talk radio, and so on                                                                                                                                                                                                                                                                                                                                                                                   | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
 | g\_wszWMDMMediaCredits                   | TV credits (actors, director, producers)                                                                                                                                                                                                                                                                                                                                                                                           | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
 | g\_wszWMDMMediaGuid                      | Globally unique identifier for the media content                                                                                                                                                                                                                                                                                                                                                                                   | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
@@ -93,7 +102,7 @@ Storage Metadata Constants
 | g\_wszWMDMTimeToLive                     | The time (in minutes) until the content is updated                                                                                                                                                                                                                                                                                                                                                                                 | WMDM\_TYPE\_QWORD                 | **QWORD**            |
 | g\_wszWMDMTitle                          | Track title                                                                                                                                                                                                                                                                                                                                                                                                                        | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
 | g\_wszWMDMTotalBitrate                   | Total bit rate                                                                                                                                                                                                                                                                                                                                                                                                                     | WMDM\_TYPE\_DWORD                 | **DWORD**            |
-| g\_wszWMDMTrack                          | Track Number (1–99)                                                                                                                                                                                                                                                                                                                                                                                                                | WMDM\_TYPE\_DWORD                 | **DWORD**            |
+| g\_wszWMDMTrack                          | Track Number (1 99)                                                                                                                                                                                                                                                                                                                                                                                                                | WMDM\_TYPE\_DWORD                 | **DWORD**            |
 | g\_wszWMDMTrackMood                      | Track's mood                                                                                                                                                                                                                                                                                                                                                                                                                       | WMDM\_TYPE\_STRING                | **LPCWSTR**          |
 | g\_wszWMDMUserEffectiveRating            | Calculated from user, service ratings, and play count                                                                                                                                                                                                                                                                                                                                                                              | WMDM\_TYPE\_DWORD                 | **DWORD**            |
 | g\_wszWMDMUserLastPlayTime               | Last listened to or viewed time stamp                                                                                                                                                                                                                                                                                                                                                                                              | WMDM\_TYPE\_DATE                  | **WMDMDATETIME**     |
@@ -106,7 +115,7 @@ Storage Metadata Constants
 
 
 
- 
+ 
 
 Device Metadata Constants
 
@@ -131,7 +140,7 @@ Device Metadata Constants
 
 
 
- 
+ 
 
 Windows Portable Devices Metadata Constants
 
@@ -143,7 +152,7 @@ Windows Portable Devices Metadata Constants
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -152,9 +161,9 @@ Windows Portable Devices Metadata Constants
 [**Programming Reference**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

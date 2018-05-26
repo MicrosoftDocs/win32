@@ -2,13 +2,16 @@
 title: SetByParameters method of the PS\_DnsServerConditionalForwarder class
 description: Sets DNS server Conditional Forwarder settings.
 audience: developer
-ms.assetid: '871a9afe-f950-4113-ae7e-5b9fcb77b101'
-ms.prod: 'windows-server-dev'
+ms.assetid: 871a9afe-f950-4113-ae7e-5b9fcb77b101
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByParameters method", "SetByParameters method, PS_DnsServerConditionalForwarder class", "PS_DnsServerConditionalForwarder class, SetByParameters method"]
+keywords:
+- SetByParameters method
+- SetByParameters method, PS_DnsServerConditionalForwarder class
+- PS_DnsServerConditionalForwarder class, SetByParameters method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByParameters method of the PS\_DnsServerConditionalForwarder class
@@ -28,13 +34,13 @@ Sets DNS server Conditional Forwarder settings.
 
 ```mof
 uint32 SetByParameters(
-  [in]  boolean                           UseRecursion,
-  [in]  string                            MasterServers[],
-  [in]  uint32                            ForwarderTimeout,
-  [in]  string                            Name,
-  [in]  string                            ComputerName,
-  [in]  boolean                           PassThru,
-  [out] DnsServerConditionalForwarderZone cmdletOutput
+  [in]  boolean                           UseRecursion,
+  [in]  string                            MasterServers[],
+  [in]  uint32                            ForwarderTimeout,
+  [in]  string                            Name,
+  [in]  string                            ComputerName,
+  [in]  boolean                           PassThru,
+  [out] DnsServerConditionalForwarderZone cmdletOutput
 );
 ```
 
@@ -100,7 +106,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerConditionalForwarder**](ps-dnsserverconditionalforwarder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

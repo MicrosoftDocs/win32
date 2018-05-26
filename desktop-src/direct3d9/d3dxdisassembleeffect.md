@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disassemble an effect.'
-ms.assetid: 'd95d6e97-2e79-4cd2-965e-483aa1a1ddbc'
+---
+Description: Disassemble an effect.
+ms.assetid: d95d6e97-2e79-4cd2-965e-483aa1a1ddbc
 title: D3DXDisassembleEffect function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXDisassembleEffect function

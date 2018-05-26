@@ -1,8 +1,11 @@
 ---
 title: DMsgrSessionManagerEvents OnInvitation event
 description: Fires when a new session invitation has been received.
-ms.assetid: '008344cd-3f2c-4ede-80aa-57e91db50dcd'
-keywords: ["OnInvitation event Windows Messenger", "OnInvitation event Windows Messenger , DMsgrSessionManagerEvents interface", "DMsgrSessionManagerEvents interface Windows Messenger , OnInvitation event"]
+ms.assetid: 008344cd-3f2c-4ede-80aa-57e91db50dcd
+keywords:
+- OnInvitation event Windows Messenger
+- OnInvitation event Windows Messenger , DMsgrSessionManagerEvents interface
+- DMsgrSessionManagerEvents interface Windows Messenger , OnInvitation event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msnmsgrexe.adeb440d_7847_4f65_80bd_899870ed2ec9
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMsgrSessionManagerEvents::OnInvitation event
 
-\[**OnInvitation** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnInvitation** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Fires when a new session invitation has been received.
 
@@ -24,9 +32,9 @@ Fires when a new session invitation has been received.
 
 ```C++
 void OnInvitation(
-  [in]      IDispatch    *pSession,
-  [in]      BSTR         bstrAppData,
-  [in, out] VARIANT_BOOL *pfHandled = VARIANT_FALSE
+  [in]      IDispatch    *pSession,
+  [in]      BSTR         bstrAppData,
+  [in, out] VARIANT_BOOL *pfHandled = VARIANT_FALSE
 );
 ```
 
@@ -64,7 +72,7 @@ Pointer to a **VARIANT\_BOOL** that defines one of the following possible values
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -82,10 +90,10 @@ When the Messenger client receives an invitation, the default value of *pfHandle
 
 |                                     |                                                                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
 | Product<br/>                  | Messenger 4.5<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h (include Mdispid.h)</dt> </dl>                      |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl>                                        |
@@ -121,9 +129,9 @@ When the Messenger client receives an invitation, the default value of *pfHandle
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

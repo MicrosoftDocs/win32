@@ -1,7 +1,12 @@
 ---
 title: Receiving Solicited Traffic Over Teredo
 description: Many applications such as Microsoft Internet Explorer and Microsoft Outlook only initiate connections to the Internet.
-ms.assetid: 'bff5d65e-050d-4b09-9982-8024612ffa6e'
+ms.assetid: bff5d65e-050d-4b09-9982-8024612ffa6e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Solicited Traffic Over Teredo

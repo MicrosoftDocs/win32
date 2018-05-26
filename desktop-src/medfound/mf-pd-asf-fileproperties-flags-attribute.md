@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether an Advanced Systems Format (ASF) file is broadcast or seekable. This value corresponds to the Flags field of the File Properties Object, defined in the ASF specification.'
-ms.assetid: '427f0dca-f945-4c89-a87a-a7c86291b1c5'
-title: 'MF\_PD\_ASF\_FILEPROPERTIES\_FLAGS attribute'
+---
+Description: Specifies whether an Advanced Systems Format (ASF) file is broadcast or seekable. This value corresponds to the Flags field of the File Properties Object, defined in the ASF specification.
+ms.assetid: 427f0dca-f945-4c89-a87a-a7c86291b1c5
+title: MF\_PD\_ASF\_FILEPROPERTIES\_FLAGS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_FILEPROPERTIES\_FLAGS attribute
@@ -27,7 +32,7 @@ This attribute applies to presentation descriptors for ASF content. The value of
 
  
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute from the ASF metadata.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute from the ASF metadata.
 
 If the broadcast flag is set, the following attributes in the presentation descriptor are not valid:
 
@@ -58,13 +63,13 @@ In addition, the [**MF\_PD\_ASF\_FILEPROPERTIES\_MAX\_PACKET\_SIZE**](mf-pd-asf-
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

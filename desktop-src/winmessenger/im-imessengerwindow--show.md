@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow Show method
 description: Sets the visibility status of a Messenger window.
-ms.assetid: '344c0f38-982f-4cd0-813c-4e683efbc470'
-keywords: ["Show method Windows Messenger", "Show method Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , Show method"]
+ms.assetid: 344c0f38-982f-4cd0-813c-4e683efbc470
+keywords:
+- Show method Windows Messenger
+- Show method Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , Show method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::Show method
 
-\[**Show** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Show** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets the visibility status of a Messenger window.
 
@@ -47,7 +55,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,7 +69,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 This method is generally called in cases in which [**IsClosed**](im-imessengerwindow-isclosed.md) returns **TRUE**. Calling **Show** will redisplay the Messenger application window or a conversation window (depending on the type of window to which the [**MessengerWindow**](im-messengerwindow.md) object corresponds).
 
@@ -70,7 +78,7 @@ If the last state of the window was minimized by user action, then the window wi
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -94,17 +102,17 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

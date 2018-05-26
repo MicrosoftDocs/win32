@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the synthetic 3-D GPU service.'
-ms.assetid: '280a3c25-7b8f-4113-bf35-171d15f4aea7'
-title: 'Msvm\_Synthetic3DService class'
+Description: Describes the synthetic 3-D GPU service.
+ms.assetid: 280a3c25-7b8f-4113-bf35-171d15f4aea7
+title: Msvm\_Synthetic3DService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synthetic3DService class
@@ -11,7 +16,7 @@ Describes the synthetic 3-D GPU service.
 > [!Note]  
 > This class is not available to generation 2 virtual machines.
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,34 +26,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Synthetic3DService : CIM_Service
 {
-  string   InstanceID;
-  string   Caption = "Synthetic3D Service";
-  string   Description = "Microsoft Synthetic3D Service";
-  string   ElementName = "Synthetic3D Service";
+  string   InstanceID;
+  string   Caption = "Synthetic3D Service";
+  string   Description = "Microsoft Synthetic3D Service";
+  string   ElementName = "Synthetic3D Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "The Synthetic 3D service is fully operational." };
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "The Synthetic 3D service is fully operational." };
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   Name = "synth3d";
-  string   CreationClassName = "Msvm_Synthetic3DService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   Name = "synth3d";
+  string   CreationClassName = "Msvm_Synthetic3DService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started;
 };
 ```
 
@@ -76,7 +81,7 @@ The **Msvm\_Synthetic3DService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -585,17 +590,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

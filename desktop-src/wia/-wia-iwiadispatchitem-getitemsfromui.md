@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetItemsFromUI method of the Item object displays a dialog box that allows a user to select images and audio to transfer from a device.'
-ms.assetid: '0ee9a248-20ed-4e1f-a8ce-615c4a6a2bce'
-title: 'Item.GetItemsFromUI method'
+---
+Description: The GetItemsFromUI method of the Item object displays a dialog box that allows a user to select images and audio to transfer from a device.
+ms.assetid: 0ee9a248-20ed-4e1f-a8ce-615c4a6a2bce
+title: Item.GetItemsFromUI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.GetItemsFromUI method
@@ -38,7 +43,7 @@ Type: **[**WiaFlag**](-wia-wiaflag.md)**
 
 </dt> <dd>
 
-Default. \[in\] Specifies dialog box behavior. The valid values for this parameter are the same as for the *lFlags* parameter of the [**DeviceDlg**](-wia-iwiaitem-devicedlg.md) method.
+Default. \[in\] Specifies dialog box behavior. The valid values for this parameter are the same as for the *lFlags* parameter of the [**DeviceDlg**](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-devicedlg?branch=master) method.
 
 </dd> </dl> </dd> <dt>
 

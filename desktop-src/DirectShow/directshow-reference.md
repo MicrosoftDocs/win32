@@ -1,7 +1,12 @@
 ---
 Description: DirectShow Reference
-ms.assetid: '5fd72be3-4ff5-4c93-8055-abe247f3c856'
+ms.assetid: 5fd72be3-4ff5-4c93-8055-abe247f3c856
 title: DirectShow Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow Reference

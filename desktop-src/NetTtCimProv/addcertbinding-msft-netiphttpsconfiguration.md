@@ -1,7 +1,12 @@
 ---
-Description: 'Adds a HTTP SSL certificate to the profile.'
-ms.assetid: '2d5d5c2a-33d3-4a41-8624-db0ab7e86914'
-title: 'AddCertBinding method of the MSFT\_NetIPHttpsConfiguration class'
+Description: Adds a HTTP SSL certificate to the profile.
+ms.assetid: 2d5d5c2a-33d3-4a41-8624-db0ab7e86914
+title: AddCertBinding method of the MSFT\_NetIPHttpsConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddCertBinding method of the MSFT\_NetIPHttpsConfiguration class
@@ -13,11 +18,11 @@ Adds a HTTP SSL certificate to the profile.
 
 ```mof
 uint32 AddCertBinding(
-  [in] string  CertificateHash,
-  [in] string  ApplicationId,
-  [in] string  IpPort,
-  [in] string  CertificateStoreName,
-  [in] boolean NullEncryption
+  [in] string  CertificateHash,
+  [in] string  ApplicationId,
+  [in] string  IpPort,
+  [in] string  CertificateStoreName,
+  [in] boolean NullEncryption
 );
 ```
 
@@ -68,8 +73,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -83,9 +88,9 @@ TBD
 [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

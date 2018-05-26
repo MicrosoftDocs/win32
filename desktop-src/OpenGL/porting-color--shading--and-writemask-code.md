@@ -1,8 +1,25 @@
 ---
 title: Porting Color, Shading, and Writemask Code
 description: Porting Color, Shading, and Writemask Code
-ms.assetid: 'ffcf33b2-c3b8-4e89-9c2f-085b98cbb496'
-keywords: ["IRIS GL porting,color", "porting from IRIS GL,color", "porting to OpenGL from IRIS GL,color", "OpenGL porting from IRIS GL,color", "IRIS GL porting,shading", "porting from IRIS GL,shading", "porting to OpenGL from IRIS GL,shading", "OpenGL porting from IRIS GL,shading", "IRIS GL porting,writemask", "porting from IRIS GL,writemask", "porting to OpenGL from IRIS GL,writemask", "OpenGL porting from IRIS GL,writemask"]
+ms.assetid: ffcf33b2-c3b8-4e89-9c2f-085b98cbb496
+keywords:
+- IRIS GL porting,color
+- porting from IRIS GL,color
+- porting to OpenGL from IRIS GL,color
+- OpenGL porting from IRIS GL,color
+- IRIS GL porting,shading
+- porting from IRIS GL,shading
+- porting to OpenGL from IRIS GL,shading
+- OpenGL porting from IRIS GL,shading
+- IRIS GL porting,writemask
+- porting from IRIS GL,writemask
+- porting to OpenGL from IRIS GL,writemask
+- OpenGL porting from IRIS GL,writemask
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Color, Shading, and Writemask Code

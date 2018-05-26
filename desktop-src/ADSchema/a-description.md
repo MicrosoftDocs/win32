@@ -4,17 +4,22 @@ description: Contains the description to display for an object. This value is re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '97dad871-5db0-4d1e-b931-1b053559f9c2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 97dad871-5db0-4d1e-b931-1b053559f9c2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Description attribute AD Schema", "description attribute AD Schema"]
+keywords:
+- Description attribute AD Schema
+- description attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Description
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Description attribute
@@ -38,13 +43,13 @@ Contains the description to display for an object. This value is restricted as s
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -197,9 +202,9 @@ Contains the description to display for an object. This value is restricted as s
 
 The description attribute is implemented as a multi-valued attribute in the schema for the cases where that is allowed. For an object that is not a SAM managed class, the description is multi-valued. For an attribute that is a SAM managed class, the description attribute is single-valued. SAM managed classes are for things like security principals so, if you have, for example, a container, or a class of your own, the schema will let you use multiple values. This behavior of the description attribute is for backward compatibility with earlier operating systems because the attribute existed in the SAM APIs before AD existed.
 
- 
+ 
 
- 
+ 
 
 
 

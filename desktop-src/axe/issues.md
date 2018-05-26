@@ -1,14 +1,20 @@
 ---
 title: Issues element
 description: A container element for one or more issues.
-ms.assetid: 'F161E185-EDC9-42CE-9097-E925E5E87B85'
-keywords: ["Issues element Access Execution Engine"]
+ms.assetid: F161E185-EDC9-42CE-9097-E925E5E87B85
+keywords:
+- Issues element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Issues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issues element
@@ -91,9 +97,9 @@ Each [**Issue**](issue.md) element is a child of a single **Issues** node under 
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

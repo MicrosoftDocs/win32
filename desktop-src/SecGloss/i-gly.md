@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter I.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'af511aed-88f5-4b12-ad44-317925297f70'
+Description: Contains definitions of security terms that begin with the letter I.
+Robots: noindex, nofollow
+ms.assetid: af511aed-88f5-4b12-ad44-317925297f70
 title: I
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # I

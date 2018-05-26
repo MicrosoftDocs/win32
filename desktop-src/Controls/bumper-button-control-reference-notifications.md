@@ -1,7 +1,12 @@
 ---
 title: Button Control Notifications
 description: .
-ms.assetid: '37d1bbaa-7187-47fb-a711-49a9b6175a29'
+ms.assetid: 37d1bbaa-7187-47fb-a711-49a9b6175a29
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Control Notifications

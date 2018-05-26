@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables the specified event trace provider.'
-ms.assetid: '3aceffb6-614f-4cad-bbec-f181f0cbdbff'
+---
+Description: Enables or disables the specified event trace provider.
+ms.assetid: 3aceffb6-614f-4cad-bbec-f181f0cbdbff
 title: EnableTraceEx2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableTraceEx2 function
@@ -156,7 +161,7 @@ If the function fails, the return value is one of the [system error codes](base.
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users with administrative privileges, users in the <em>Performance Log Users</em> group, and services running as <em>LocalSystem</em>, <em>LocalService</em>, or <em>NetworkService</em> can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the <em>Performance Log Users</em> group or see [<strong>EventAccessControl</strong>](eventaccesscontrol-func.md).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
+<td>Only users with administrative privileges, users in the <em>Performance Log Users</em> group, and services running as <em>LocalSystem</em>, <em>LocalService</em>, or <em>NetworkService</em> can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the <em>Performance Log Users</em> group or see [<strong>EventAccessControl</strong>](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -173,18 +178,18 @@ The provider defines its interpretation of being enabled or disabled. Typically,
 
 Event Tracing for Windows (ETW) supports several categories of filtering.
 
--   Schematized filtering - This is the traditional filtering setup also called provider-side filtering. The controller defines a custom set of filters as a binary object that is passed to the provider in the [**EnableTrace**](enabletrace.md) call. It is incumbent on the controller and provider to define and interpret these filters and the controller should only log applicable events. This requires a close coupling of the controller and provider since the type and format of the binary object of what can be filtered is not defined. The [**TdhEnumerateProviderFilters**](tdhenumerateproviderfilters.md) function can be used to retrieve the filters defined in a manifest.
+-   Schematized filtering - This is the traditional filtering setup also called provider-side filtering. The controller defines a custom set of filters as a binary object that is passed to the provider in the [**EnableTrace**](enabletrace.md) call. It is incumbent on the controller and provider to define and interpret these filters and the controller should only log applicable events. This requires a close coupling of the controller and provider since the type and format of the binary object of what can be filtered is not defined. The [**TdhEnumerateProviderFilters**](/windows/win32/Tdh/nf-tdh-tdhenumerateproviderfilters?branch=master) function can be used to retrieve the filters defined in a manifest.
 -   Scope filtering - Certain providers are enabled or not enabled to a session based on whether or not they meet the criteria specified by the scope filters. There are several types of scope filters that allow filtering based on the event ID, the process ID (PID), executable filename, the app ID, and the app package name. This feature is supported on Windows 8.1,Windows Server 2012 R2, and later.
 -   Stackwalk filtering - This notifies ETW to only perform a stack walk for a given set of event IDs. This feature is supported on Windows 8.1,Windows Server 2012 R2, and later.
 -   Event payload filtering - For manifest providers, events can be filtered on-the-fly based on whether or not they satisfy a logical expression based on one or more predicates.
 
 Every time **EnableTraceEx2** is called, the filters for the provider in that session are replaced by the new parameters defined by the parameters passed to the **EnableTraceEx2** function. Multiple filters passed in a single **EnableTraceEx2** call can be combined with an additive effect. To disable filtering and thereby enable all providers/events in the logging session, call **EnableTraceEx2** with the *EnableParameters* parameter pointed to an [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) structure with the **FilterDescCount** member set to 0.
 
-Each filter passed to the **EnableTraceEx2** function is specified by a **Type** member in the [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md). An array of **EVENT\_FILTER\_DESCRIPTOR** structures is passed in the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) structure passed in the **EnableParameters** parameter to the **EnableTraceEx2** function.
+Each filter passed to the **EnableTraceEx2** function is specified by a **Type** member in the [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master). An array of **EVENT\_FILTER\_DESCRIPTOR** structures is passed in the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) structure passed in the **EnableParameters** parameter to the **EnableTraceEx2** function.
 
 Each type of filter (a specific **Type** member) may only appear once in a call to the **EnableTraceEx2** function, however, some filter types allow multiple conditions to be included in a single filter. The maximum number of filters that can be included in a call to **EnableTraceEx2** is set by **MAX\_EVENT\_FILTERS\_COUNT** defined to be 8 in the *Evntprov.h* header file.
 
-Each filter type has its own size or entity limits based on the specific **Type** member in the [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structure. The list below indicates these limits.
+Each filter type has its own size or entity limits based on the specific **Type** member in the [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structure. The list below indicates these limits.
 
 
 
@@ -213,7 +218,7 @@ When you call **EnableTraceEx2** the provider may or may not be registered. If t
 
 If the provider is registered and already enabled to your session, you can also use this function to update the *Level*, *MatchAnyKeyword*, *MatchAllKeyword* parameters, and the **EnableProperty** and **EnableFilterDesc** members of *EnableParameters*.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the **EnableTraceEx2** function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md), and [**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](payload-filter-predicate.md) structures.
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the **EnableTraceEx2** function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master), and [**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/win32/Tdh/ns-tdh-_payload_filter_predicate?branch=master) structures.
 
 You do not call **EnableTraceEx2** to enable kernel providers. To enable kernel providers, set the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) which you then pass to [**StartTrace**](starttrace.md). The **StartTrace** function enables the selected kernel providers.
 
@@ -239,7 +244,7 @@ If **EnableTraceEx2** returns **ERROR\_INVALID\_PARAMETER** when enabling filter
 
 ## Examples
 
-The following example shows you how to use the **EnableTraceEx2** with payload filters using the [**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md) and [**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md) functions to filter on specific conditions in a logger session.
+The following example shows you how to use the **EnableTraceEx2** with payload filters using the [**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master) and [**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master) functions to filter on specific conditions in a logger session.
 
 
 ```C++
@@ -579,7 +584,7 @@ Exit:
 [**ENABLE\_TRACE\_PARAMETERS\_V1**](enable-trace-parameters-v1.md)
 </dt> <dt>
 
-[**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md)
+[**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master)
 </dt> <dt>
 
 [**GetTraceEnableFlags**](gettraceenableflags.md)
@@ -588,19 +593,19 @@ Exit:
 [**GetTraceEnableLevel**](gettraceenablelevel.md)
 </dt> <dt>
 
-[**PAYLOAD\_FILTER\_PREDICATE**](payload-filter-predicate.md)
+[**PAYLOAD\_FILTER\_PREDICATE**](/windows/win32/Tdh/ns-tdh-_payload_filter_predicate?branch=master)
 </dt> <dt>
 
 [**StartTrace**](starttrace.md)
 </dt> <dt>
 
-[**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md)
+[**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master)
 </dt> <dt>
 
-[**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md)
+[**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master)
 </dt> <dt>
 
-[**TdhEnumerateProviderFilters**](tdhenumerateproviderfilters.md)
+[**TdhEnumerateProviderFilters**](/windows/win32/Tdh/nf-tdh-tdhenumerateproviderfilters?branch=master)
 </dt> </dl>
 
  

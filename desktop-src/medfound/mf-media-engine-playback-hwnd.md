@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a handle to a video playback window for the Media Engine.'
-ms.assetid: '63889D81-12C5-47C1-B52A-6358E68830C3'
-title: 'MF\_MEDIA\_ENGINE\_PLAYBACK\_HWND attribute'
+---
+Description: Sets a handle to a video playback window for the Media Engine.
+ms.assetid: 63889D81-12C5-47C1-B52A-6358E68830C3
+title: MF\_MEDIA\_ENGINE\_PLAYBACK\_HWND attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_PLAYBACK\_HWND attribute
@@ -14,13 +19,13 @@ Sets a handle to a video playback window for the Media Engine.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT64**](imfattributes-getuint64.md).
+To get this attribute, call [**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT64**](imfattributes-setuint64.md).
+To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master).
 
 ## Remarks
 
-This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md) method to initialize the Media Engine.
+This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master) method to initialize the Media Engine.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Continues a file search operation.'
-ms.assetid: '5b1a8f67-7fce-4ba5-918d-826bdaca1947'
+---
+Description: Continues a file search operation.
+ms.assetid: 5b1a8f67-7fce-4ba5-918d-826bdaca1947
 title: CSCFindNextFileW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSCFindNextFileW function

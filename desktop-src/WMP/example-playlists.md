@@ -1,8 +1,28 @@
 ---
 title: Example Playlists
 description: Example Playlists
-ms.assetid: '130e48d0-9601-4a7a-a48f-fb557375fcb1'
-keywords: ["Windows Media metafile playlists,playlist examples", "playlists,playlist examples", "metafile playlists,playlist examples", "Windows Media metafile playlists,example playlists", "playlists,example playlists", "metafile playlists,example playlists", "Windows Media metafile playlists,sample playlists", "playlists,sample playlists", "metafile playlists,sample playlists", "Windows Media Player,playlist examples", "Windows Media Player,example playlists", "Windows Media Player,sample playlists", "playlist examples", "example playlists", "sample playlists"]
+ms.assetid: 130e48d0-9601-4a7a-a48f-fb557375fcb1
+keywords:
+- Windows Media metafile playlists,playlist examples
+- playlists,playlist examples
+- metafile playlists,playlist examples
+- Windows Media metafile playlists,example playlists
+- playlists,example playlists
+- metafile playlists,example playlists
+- Windows Media metafile playlists,sample playlists
+- playlists,sample playlists
+- metafile playlists,sample playlists
+- Windows Media Player,playlist examples
+- Windows Media Player,example playlists
+- Windows Media Player,sample playlists
+- playlist examples
+- example playlists
+- sample playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example Playlists

@@ -1,7 +1,12 @@
 ---
 title: Adding and Removing Port Mappings (C++)
 description: Adding and Removing Port Mappings (C++)
-ms.assetid: 'f3d7eb27-f0cd-4bd2-beb0-7bc1fe473489'
+ms.assetid: f3d7eb27-f0cd-4bd2-beb0-7bc1fe473489
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding and Removing Port Mappings (C++)

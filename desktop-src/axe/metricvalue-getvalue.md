@@ -1,12 +1,18 @@
 ---
 title: MetricValue GetValue methods
 description: Returns the value of the MetricValue.
-ms.assetid: 'B398B3BE-D605-49E2-A44E-372BE6B35085'
-keywords: ["GetValue methods Access Execution Engine"]
+ms.assetid: B398B3BE-D605-49E2-A44E-372BE6B35085
+keywords:
+- GetValue methods Access Execution Engine
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue::GetValue methods
@@ -42,9 +48,9 @@ The value is the value of element **MetricValue/Value**.
 [**MetricValue**](metricvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

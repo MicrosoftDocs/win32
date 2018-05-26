@@ -4,11 +4,13 @@ description: Represents the domain controller (DC) on which the WMI provider is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a7671967-79d7-48f8-8869-dd65272e2ed2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a7671967-79d7-48f8-8869-dd65272e2ed2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["MSAD_DomainController class Active Directory", "MSAD_DomainController class Active Directory , described"]
+keywords:
+- MSAD_DomainController class Active Directory
+- MSAD_DomainController class Active Directory , described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSAD\_DomainController class
@@ -44,21 +49,21 @@ Represents the domain controller (DC) on which the WMI provider is running.
 [dynamic, provider("ReplProv1")]
 class  MSAD_DomainController
 {
-  String   DistinguishedName;
-  String   CommonName;
-  String   SiteName;
-  String   NTDsaGUID;
-  boolean  IsGC = FALSE;
+  String   DistinguishedName;
+  String   CommonName;
+  String   SiteName;
+  String   NTDsaGUID;
+  boolean  IsGC = FALSE;
   datetime TimeOfOldestReplSync;
   datetime TimeOfOldestReplAdd;
   datetime TimeOfOldestReplDel;
   datetime TimeOfOldestReplMod;
   datetime TimeOfOldestReplUpdRefs;
-  boolean  IsNextRIDPoolAvailable = FALSE;
-  uint32   PercentOfRIDsLeft;
-  boolean  IsRegisteredInDNS;
-  boolean  IsAdvertisingToLocator = FALSE;
-  boolean  IsSysVolReady = FALSE;
+  boolean  IsNextRIDPoolAvailable = FALSE;
+  uint32   PercentOfRIDsLeft;
+  boolean  IsRegisteredInDNS;
+  boolean  IsAdvertisingToLocator = FALSE;
+  boolean  IsSysVolReady = FALSE;
 };
 ```
 
@@ -81,7 +86,7 @@ The **MSAD\_DomainController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -294,16 +299,16 @@ Gets the timestamp of the oldest replication update operation that is still in t
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the y-coordinate of the upper-left corner of the minimum display aperture.'
-ms.assetid: '51a7a157-6808-42c6-8567-a15af9324b79'
-title: 'MFPKEY\_RESIZE\_MINAPY Property'
+---
+Description: Specifies the y-coordinate of the upper-left corner of the minimum display aperture.
+ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
+title: MFPKEY\_RESIZE\_MINAPY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_MINAPY Property

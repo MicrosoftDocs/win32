@@ -1,7 +1,7 @@
 ---
 title: SNMPv1 Trap Types
 description: The SNMPv1 trap types describe a predefined set of generic trap types that are formatted to comply with the SNMPv1 trap PDU standard.
-ms.assetid: '3a652b8f-2ae1-4f8c-b0d6-388bc9171427'
+ms.assetid: 3a652b8f-2ae1-4f8c-b0d6-388bc9171427
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMPv1 Trap Types
@@ -44,8 +49,8 @@ The SNMPv1 trap types describe a predefined set of generic trap types that are f
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -63,9 +68,9 @@ The SNMPv1 trap types describe a predefined set of generic trap types that are f
 [SNMP Constants](snmp-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

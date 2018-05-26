@@ -1,14 +1,20 @@
 ---
 title: LogonDomain (EapType) Element
 description: Identifies the domain of the user or machine being authenticated.
-ms.assetid: 'a93793cd-29ee-47f9-8d91-895844c08bae'
-keywords: ["LogonDomain element EAPHost"]
+ms.assetid: a93793cd-29ee-47f9-8d91-895844c08bae
+keywords:
+- LogonDomain element EAPHost
 topic_type:
 - apiref
 api_name:
 - LogonDomain
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonDomain (EapType) Element
@@ -35,8 +41,8 @@ If the **LogonDomain (EapType)** element is not present, the domain from winlogo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -62,9 +68,9 @@ If the **LogonDomain (EapType)** element is not present, the domain from winlogo
 [mschapv2userpropertiesv1 Schema](mschapv2userpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

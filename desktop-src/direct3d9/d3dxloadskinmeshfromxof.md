@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a skin mesh from a DirectX .x file data object.'
-ms.assetid: 'db284061-2996-4a5f-972d-24577dd1a6d7'
+---
+Description: Loads a skin mesh from a DirectX .x file data object.
+ms.assetid: db284061-2996-4a5f-972d-24577dd1a6d7
 title: D3DXLoadSkinMeshFromXof function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadSkinMeshFromXof function
@@ -52,9 +57,9 @@ Combination of one or more flags, from the [**D3DXMESH**](direct3d9.d3dxmesh) en
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, the device object associated with the mesh.
 
 </dd> <dt>
 

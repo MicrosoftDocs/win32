@@ -1,7 +1,12 @@
 ---
 title: Example Create Dynamic Elements with DHTML
 description: Example Create Dynamic Elements with DHTML
-ms.assetid: 'BCBB6C81-BC6E-4048-9E52-C2482FD792F4'
+ms.assetid: BCBB6C81-BC6E-4048-9E52-C2482FD792F4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create Dynamic Elements with DHTML

@@ -1,8 +1,9 @@
 ---
 title: ICM\_ABOUT message
 description: The ICM\_ABOUT message notifies a video compression driver to display its About dialog box or queries a video compression driver to determine if it has an About dialog box. You can send this message explicitly or by using the ICAbout macro.
-ms.assetid: '6eca69a3-0463-48e6-befb-5003b7515e7d'
-keywords: ["ICM_ABOUT message Windows Multimedia"]
+ms.assetid: 6eca69a3-0463-48e6-befb-5003b7515e7d
+keywords:
+- ICM_ABOUT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_ABOUT message
 
-The **ICM\_ABOUT** message notifies a video compression driver to display its About dialog box or queries a video compression driver to determine if it has an About dialog box. You can send this message explicitly or by using the [**ICAbout**](icabout.md) macro.
+The **ICM\_ABOUT** message notifies a video compression driver to display its About dialog box or queries a video compression driver to determine if it has an About dialog box. You can send this message explicitly or by using the [**ICAbout**](/windows/win32/Vfw/nf-vfw-icabout?branch=master) macro.
 
 
 ```C++
@@ -33,7 +39,7 @@ lParam = 0;
 <span id="hwnd"></span><span id="HWND"></span>*hwnd*
 </dt> <dd>
 
-Handle to the parent window of the displayed dialog box. You can also determine if a driver has an About dialog box by specifying -1 in this parameter, as in the [**ICQueryAbout**](icqueryabout.md) macro. The driver returns ICERR\_OK if it has an About dialog box or ICERR\_UNSUPPORTED otherwise.
+Handle to the parent window of the displayed dialog box. You can also determine if a driver has an About dialog box by specifying -1 in this parameter, as in the [**ICQueryAbout**](/windows/win32/Vfw/nf-vfw-icqueryabout?branch=master) macro. The driver returns ICERR\_OK if it has an About dialog box or ICERR\_UNSUPPORTED otherwise.
 
 </dd> </dl>
 
@@ -47,8 +53,8 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -63,9 +69,9 @@ Returns ICERR\_OK if the driver supports this message or ICERR\_UNSUPPORTED othe
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

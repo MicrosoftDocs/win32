@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a class creation event, which is a type of intrinsic event generated when a new class is added to the namespace.'
+Description: Represents a class creation event, which is a type of intrinsic event generated when a new class is added to the namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a946a8eb-498c-4104-b80f-e520b0e62e36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a946a8eb-498c-4104-b80f-e520b0e62e36
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ClassCreationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ClassCreationEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __ClassCreationEvent : __ClassOperationEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   object TargetClass;
   uint64 TIME_CREATED;
 };
@@ -90,8 +93,8 @@ The **\_\_ClassCreationEvent** class is derived from [**\_\_ClassOperationEvent*
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -106,9 +109,9 @@ The **\_\_ClassCreationEvent** class is derived from [**\_\_ClassOperationEvent*
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

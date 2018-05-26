@@ -1,7 +1,12 @@
 ---
 title: How to Use Font Binding in Rich Edit Controls
 description: Microsoft Rich Edit 3.0 assigns a character set to plain-text characters depending on their context.
-ms.assetid: '975B9C33-6766-4FF1-A93E-2169C140CEE9'
+ms.assetid: 975B9C33-6766-4FF1-A93E-2169C140CEE9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Font Binding in Rich Edit Controls
@@ -14,7 +19,7 @@ Microsoft Rich Edit 3.0 assigns a character set to plain-text characters depend
 -   Non-neutral ANSI characters are assigned **ANSI\_CHARSET** in any event.
 
 > [!Note]  
-> The rich edit control uses Unicode internally, so this use of character sets differs from the original one used in font specifications. But the [**CHARFORMAT**](charformat.md) structure has a well-defined place for the character set.
+> The rich edit control uses Unicode internally, so this use of character sets differs from the original one used in font specifications. But the [**CHARFORMAT**](/windows/win32/Richedit/ns-richedit-_charformat?branch=master) structure has a well-defined place for the character set.
 
  
 
@@ -62,7 +67,7 @@ Note that Rich Edit does not currently handle a missing glyph in a font that cla
 
 ## Remarks
 
-**Rich Edit 4.1:** To set the default font for a script, call [**EM\_SETCHARFORMAT**](em-setcharformat.md) with [**CHARFORMAT2**](charformat2.md), specifying values for the **yHeight**, **bCharSet**, **bPitchAndFamily**, **szFaceName**, and **lcid** members. Also, to get the default font for a specific code page, call [**EM\_GETCHARFORMAT**](em-getcharformat.md) with **CHARFORMAT2**, specifying values for the **bCharSet** and **lcid** members.
+**Rich Edit 4.1:** To set the default font for a script, call [**EM\_SETCHARFORMAT**](em-setcharformat.md) with [**CHARFORMAT2**](/windows/win32/Richedit/ns-richedit-charformat2a?branch=master), specifying values for the **yHeight**, **bCharSet**, **bPitchAndFamily**, **szFaceName**, and **lcid** members. Also, to get the default font for a specific code page, call [**EM\_GETCHARFORMAT**](em-getcharformat.md) with **CHARFORMAT2**, specifying values for the **bCharSet** and **lcid** members.
 
 ## Related topics
 

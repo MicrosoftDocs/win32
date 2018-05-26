@@ -1,14 +1,20 @@
 ---
 title: Data (ComplexDataType) Element
 description: The list of data items in the structure. The list of items are in the same order as defined in the template.
-ms.assetid: 'f2d7c2e4-0daa-4413-b23b-e1fd70dc4fc1'
-keywords: ["Data element EventLog"]
+ms.assetid: f2d7c2e4-0daa-4413-b23b-e1fd70dc4fc1
+keywords:
+- Data element EventLog
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (ComplexDataType) Element
@@ -29,8 +35,8 @@ The **Data** element is defined by the [**ComplexDataType**](eventschema-complex
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Data** element is defined by the [**ComplexDataType**](eventschema-complex
 [**ComplexData (EventDataType)**](eventschema-complexdata-eventdatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

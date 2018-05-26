@@ -1,7 +1,12 @@
 ---
-Description: 'The name of a volume''s file system. This is valid for Shell items that describe a volume.'
-ms.assetid: '57ffd3b1-27a0-4d48-aa2c-482fb00cb44e'
-title: 'System.Volume.FileSystem'
+Description: The name of a volumes file system. This is valid for Shell items that describe a volume.
+ms.assetid: 57ffd3b1-27a0-4d48-aa2c-482fb00cb44e
+title: System.Volume.FileSystem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Volume.FileSystem

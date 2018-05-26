@@ -1,14 +1,20 @@
 ---
 title: Command.Comment property
 description: Represents a comment, or annotation, for a Command.
-ms.assetid: '4ac5c7d4-9627-4703-bd3c-594d9497ba24'
-keywords: ["Command.Comment property Windows Ribbon"]
+ms.assetid: 4ac5c7d4-9627-4703-bd3c-594d9497ba24
+keywords:
+- Command.Comment property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.Comment
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.Comment property
@@ -83,14 +89,14 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

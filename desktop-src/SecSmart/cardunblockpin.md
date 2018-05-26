@@ -1,8 +1,9 @@
 ---
 title: CardUnblockPin function
 description: Unblocks a smart card that has become blocked after exceeding the maximum number of incorrect PIN entry attempts. The function also authenticates a user to the smart card.
-ms.assetid: 'e8d1a004-775d-4e8d-846a-10d2a4030b40'
-keywords: ["CardUnblockPin function Security"]
+ms.assetid: e8d1a004-775d-4e8d-846a-10d2a4030b40
+keywords:
+- CardUnblockPin function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardUnblockPin function
@@ -24,14 +30,14 @@ The **CardUnblockPin** function, defined by a smart card module, unblocks a [*sm
 
 ```C++
 DWORD WINAPI CardUnblockPin(
-  _In_ PCARD_DATA pCardData,
-  _In_ LPWSTR     pwszUserId,
-  _In_ PBYTE      pbAuthenticationData,
-  _In_ DWORD      cbAuthenticationData,
-  _In_ PBYTE      pbNewPinData,
-  _In_ DWORD      cbNewPinData,
-  _In_ DWORD      cRetryCount,
-  _In_ DWORD      dwFlags
+  _In_ PCARD_DATA pCardData,
+  _In_ LPWSTR     pwszUserId,
+  _In_ PBYTE      pbAuthenticationData,
+  _In_ DWORD      cbAuthenticationData,
+  _In_ PBYTE      pbNewPinData,
+  _In_ DWORD      cbNewPinData,
+  _In_ DWORD      cRetryCount,
+  _In_ DWORD      dwFlags
 );
 ```
 
@@ -65,7 +71,7 @@ This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -102,7 +108,7 @@ The size, in bytes, of the data contained in the *pbNewPinData* buffer.
 
 The number of incorrect attempts at authentication using the new PIN that are allowed before the smart card is blocked again.
 
-To leave the number of allowed attempts unchanged, set the value of this parameter to –1. Card modules that do not support setting the number of allowed attempts should return **SCARD\_E\_INVALID\_PARAMETER** if this parameter is set to any value other than –1.
+To leave the number of allowed attempts unchanged, set the value of this parameter to  1. Card modules that do not support setting the number of allowed attempts should return **SCARD\_E\_INVALID\_PARAMETER** if this parameter is set to any value other than  1.
 
 </dd> <dt>
 
@@ -122,7 +128,7 @@ This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -140,7 +146,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -152,8 +158,8 @@ This function both unblocks the PIN and authenticates the user.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -177,9 +183,9 @@ This function both unblocks the PIN and authenticates the user.
 [**CardGetChallenge**](cardgetchallenge.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

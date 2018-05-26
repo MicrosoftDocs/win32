@@ -1,7 +1,12 @@
 ---
-Description: 'These interfaces are used by the Windows Presentation Foundation to implement ink support.'
-ms.assetid: '2bc78c90-20b2-4043-a1de-bd6486c36cc7'
+Description: These interfaces are used by the Windows Presentation Foundation to implement ink support.
+ms.assetid: 2bc78c90-20b2-4043-a1de-bd6486c36cc7
 title: Interfaces Used by WPF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces Used by WPF

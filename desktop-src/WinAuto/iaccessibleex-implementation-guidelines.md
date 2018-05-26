@@ -1,12 +1,17 @@
 ---
 title: IAccessibleEx Implementation Guidelines
 description: The Microsoft UI Automation core can retrieve all Microsoft Active Accessibility properties for any accessible object exposed by a server through the IAccessible interface.
-ms.assetid: 'd047127c-1be2-4f34-bb97-330b5509ca0d'
+ms.assetid: d047127c-1be2-4f34-bb97-330b5509ca0d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAccessibleEx Implementation Guidelines
 
-The Microsoft UI Automation core can retrieve all Microsoft Active Accessibility properties for any accessible object exposed by a server through the [**IAccessible**](iaccessible.md) interface. When implementing [**IAccessibleEx**](uiauto-iaccessibleex.md), you must expose only those aspects of UI functionality that cannot otherwise be exposed through existing Microsoft Active Accessibility properties. This topic identifies the UI Automation properties and control patterns that represent UI functionality that has no counterpart in Microsoft Active Accessibility—they are the properties and control patterns that you can expose in an **IAccessibleEx** implementation.
+The Microsoft UI Automation core can retrieve all Microsoft Active Accessibility properties for any accessible object exposed by a server through the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface. When implementing [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master), you must expose only those aspects of UI functionality that cannot otherwise be exposed through existing Microsoft Active Accessibility properties. This topic identifies the UI Automation properties and control patterns that represent UI functionality that has no counterpart in Microsoft Active Accessibility—they are the properties and control patterns that you can expose in an **IAccessibleEx** implementation.
 
 This topic contains the following sections:
 
@@ -17,7 +22,7 @@ This topic contains the following sections:
 
 ## Properties
 
-The following UI Automation properties do not overlap with Microsoft Active Accessibility functionality. They can be used in an [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation:
+The following UI Automation properties do not overlap with Microsoft Active Accessibility functionality. They can be used in an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation:
 
 -   AriaProperties
 -   AriaRole
@@ -39,9 +44,9 @@ The following UI Automation properties do not overlap with Microsoft Active Acce
 -   LocalizedControlType
 -   Orientation
 
-Although the AcceleratorKey and AccessKey UI Automation properties do overlap with the accKeyboardShortcut Microsoft Active Accessibility property, you can still use them in an [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation for controls that have both an access key and an accelerator. Similarly, the ControlType UI Automation property overlaps with the Microsoft Active Accessibility accRole property, but you can still use it in an **IAccessibleEx** implementation to define a more specific role for a control.
+Although the AcceleratorKey and AccessKey UI Automation properties do overlap with the accKeyboardShortcut Microsoft Active Accessibility property, you can still use them in an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation for controls that have both an access key and an accelerator. Similarly, the ControlType UI Automation property overlaps with the Microsoft Active Accessibility accRole property, but you can still use it in an **IAccessibleEx** implementation to define a more specific role for a control.
 
-Because the following UI Automation element properties are already covered by Microsoft Active Accessibility properties, there is no need to use them in an [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation.
+Because the following UI Automation element properties are already covered by Microsoft Active Accessibility properties, there is no need to use them in an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation.
 
 
 
@@ -54,7 +59,7 @@ Because the following UI Automation element properties are already covered by Mi
 | IsPassword             | accState, [**STATE\_SYSTEM\_PROTECTED**](object-state-constants.md#state-system-protected)                                                                                   |
 | HelpText               | accHelp                                                                                                                                                                       |
 | Name                   | accName                                                                                                                                                                       |
-| NativeWindowHandle     | [**WindowFromAccessibleObject**](windowfromaccessibleobject.md)                                                                                                              |
+| NativeWindowHandle     | [**WindowFromAccessibleObject**](/windows/win32/Oleacc/nf-oleacc-windowfromaccessibleobject?branch=master)                                                                                                              |
 | IsOffscreen            | accState, [**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible)/[**STATE\_SYSTEM\_OFFSCREEN**](object-state-constants.md#state-system-offscreen) |
 | ProcessId              | Provided by UI Automation core                                                                                                                                                |
 
@@ -62,11 +67,11 @@ Because the following UI Automation element properties are already covered by Mi
 
  
 
-For any unsupported UI Automation property, your implementation of the [**IRawElementProviderSimple::GetPropertyValue**](uiauto-irawelementprovidersimple-getpropertyvalue.md) method should set the *pRetVal* parameter to VT\_EMPTY, and return S\_OK. Returning [**UIA\_E\_NOTSUPPORTED**](uiauto-error-codes.md#uia-e-notsupported) may cause the MSAA-to-UIA Proxy to remove the default mapping for the corresponding property.
+For any unsupported UI Automation property, your implementation of the [**IRawElementProviderSimple::GetPropertyValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue?branch=master) method should set the *pRetVal* parameter to VT\_EMPTY, and return S\_OK. Returning [**UIA\_E\_NOTSUPPORTED**](uiauto-error-codes.md#uia-e-notsupported) may cause the MSAA-to-UIA Proxy to remove the default mapping for the corresponding property.
 
 ## Control Patterns
 
-The following UI Automation control patterns do not overlap with Microsoft Active Accessibility functionality. They can be used in an [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation:
+The following UI Automation control patterns do not overlap with Microsoft Active Accessibility functionality. They can be used in an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation:
 
 -   Dock
 -   ExpandCollapse
@@ -81,7 +86,7 @@ The following UI Automation control patterns do not overlap with Microsoft Activ
 -   TableItem
 -   Transform
 
-For the RangeValue and Transform control patterns, some methods overlap between the UI Automation control pattern and Microsoft Active Accessibility methods. In these cases, both must be implemented. For example, both Microsoft Active Accessibility's [**IAccessible::get\_accValue**](iaccessible-iaccessible--get-accvalue.md) and [**IAccessible::put\_accValue**](iaccessible-iaccessible--put-accvalue.md) methods must both be implemented, as must the UI Automation[**IRangeValueProvider::Value**](uiauto-irangevalueprovider-value.md) and [**IRangeValueProvider::SetValue**](uiauto-irangevalueprovider-setvalue.md) methods. Internally, an implementation can share code for these. This requirement to implement both sets avoids having a partial implementation of a pattern interface while keeping the [**IAccessible**](iaccessible.md) interface usable by existing Microsoft Active Accessibility clients.
+For the RangeValue and Transform control patterns, some methods overlap between the UI Automation control pattern and Microsoft Active Accessibility methods. In these cases, both must be implemented. For example, both Microsoft Active Accessibility's [**IAccessible::get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master) and [**IAccessible::put\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-put_accvalue?branch=master) methods must both be implemented, as must the UI Automation[**IRangeValueProvider::Value**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value?branch=master) and [**IRangeValueProvider::SetValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-setvalue?branch=master) methods. Internally, an implementation can share code for these. This requirement to implement both sets avoids having a partial implementation of a pattern interface while keeping the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface usable by existing Microsoft Active Accessibility clients.
 
 The following UI Automation control patterns are not required when the control has one of the roles outlined below; otherwise, they should be explicitly supported if relevant.
 
@@ -102,7 +107,7 @@ The following UI Automation control patterns are not required when the control h
 
 ## WinEvents for UI Automation Property Changed Events
 
-In addition to the events defined for [**IAccessible**](iaccessible.md), the following event identifiers are also defined and may be used with an [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation as property changed events for corresponding UI Automation properties. These use the same mechanism as the events defined for **IAccessible**. For more information, see [WinEvents](winevents-collision169.md).
+In addition to the events defined for [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master), the following event identifiers are also defined and may be used with an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation as property changed events for corresponding UI Automation properties. These use the same mechanism as the events defined for **IAccessible**. For more information, see [WinEvents](winevents-collision169.md).
 
 
 
@@ -133,7 +138,7 @@ In addition to the events defined for [**IAccessible**](iaccessible.md), the fol
 
  
 
-For the events above that have an EVENT\_OBJECT\_ value listed after them, and [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation should fire this event in addition to the listed changed event. This enables existing **IAccessibleEx** client code to continue working, while conveying more granular event information to interested clients.
+For the events above that have an EVENT\_OBJECT\_ value listed after them, and [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation should fire this event in addition to the listed changed event. This enables existing **IAccessibleEx** client code to continue working, while conveying more granular event information to interested clients.
 
 ## Related topics
 

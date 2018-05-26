@@ -1,8 +1,9 @@
 ---
 title: LVM\_ARRANGE message
 description: Arranges items in icon view. You can send this message explicitly or by using the ListView\_Arrange macro.
-ms.assetid: 'f7dbcdd2-3cc9-4bae-827e-8bac3b49486c'
-keywords: ["LVM_ARRANGE message Windows Controls"]
+ms.assetid: f7dbcdd2-3cc9-4bae-827e-8bac3b49486c
+keywords:
+- LVM_ARRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_ARRANGE message
 
-Arranges items in icon view. You can send this message explicitly or by using the [**ListView\_Arrange**](listview-arrange.md) macro.
+Arranges items in icon view. You can send this message explicitly or by using the [**ListView\_Arrange**](/windows/win32/Commctrl/nf-commctrl-listview_arrange?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ One of the following values that specifies alignment:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -58,15 +64,15 @@ Returns **TRUE** if successful; otherwise, **FALSE**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

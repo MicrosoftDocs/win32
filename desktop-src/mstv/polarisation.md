@@ -1,8 +1,9 @@
 ---
 title: Polarisation enumeration
 description: Specifies the polarization type.
-ms.assetid: 'adb9d7b6-5876-4b3f-9d82-f5e740feb1eb'
-keywords: ["Polarisation enumeration Microsoft TV Technologies"]
+ms.assetid: adb9d7b6-5876-4b3f-9d82-f5e740feb1eb
+keywords:
+- Polarisation enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Polarisation enumeration
@@ -22,13 +28,13 @@ Specifies the polarization type.
 
 ```C++
 typedef enum Polarisation { 
-  BDA_POLARISATION_NOT_SET      = -1,
-  BDA_POLARISATION_NOT_DEFINED  = 0,
-  BDA_POLARISATION_LINEAR_H     = 1,
-  BDA_POLARISATION_LINEAR_V     = 2,
-  BDA_POLARISATION_CIRCULAR_L   = 3,
-  BDA_POLARISATION_CIRCULAR_R   = 4,
-  BDA_POLARISATION_MAX          = 5
+  BDA_POLARISATION_NOT_SET      = -1,
+  BDA_POLARISATION_NOT_DEFINED  = 0,
+  BDA_POLARISATION_LINEAR_H     = 1,
+  BDA_POLARISATION_LINEAR_V     = 2,
+  BDA_POLARISATION_CIRCULAR_L   = 3,
+  BDA_POLARISATION_CIRCULAR_R   = 4,
+  BDA_POLARISATION_MAX          = 5
 } Polarisation;
 ```
 
@@ -101,15 +107,15 @@ Reserved; do not use.
 
 <dl> <dt>
 
-[**IDVBSLocator::get\_SignalPolarisation**](idvbslocator-get-signalpolarisation.md)
+[**IDVBSLocator::get\_SignalPolarisation**](/windows/previous-versions/tuner/nf-tuner-idvbslocator-get_signalpolarisation?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

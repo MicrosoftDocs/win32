@@ -1,8 +1,10 @@
 ---
 title: TRANSACTIONTYPE enumeration
 description: Do not use. Specifies how a transaction affected the database.
-ms.assetid: 'b818022b-d55a-45e5-a2c9-40ab62fc49ba'
-keywords: ["TRANSACTIONTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: b818022b-d55a-45e5-a2c9-40ab62fc49ba
+keywords:
+- TRANSACTIONTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Directdb.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRANSACTIONTYPE enumeration
@@ -85,16 +92,16 @@ The database was compacted.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

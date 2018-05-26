@@ -1,8 +1,10 @@
 ---
 title: CIM\_SettingData class
 description: Represents configuration and operational parameters for CIM\_ManagedElement instances.
-ms.assetid: '75949797-c656-4b09-b208-7cab5e19c086'
-keywords: ["CIM_SettingData class Hyper-V", "CIM_SettingData class Hyper-V , described"]
+ms.assetid: 75949797-c656-4b09-b208-7cab5e19c086
+keywords:
+- CIM_SettingData class Hyper-V
+- CIM_SettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SettingData class
@@ -121,7 +128,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 </dd> </dl>
 
@@ -132,9 +139,9 @@ Uniquely identifies an instance of this class within the scope of the containing
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -147,9 +154,9 @@ Uniquely identifies an instance of this class within the scope of the containing
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

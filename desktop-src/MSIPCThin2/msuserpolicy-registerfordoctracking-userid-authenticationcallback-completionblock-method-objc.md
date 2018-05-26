@@ -4,17 +4,21 @@ description: Registers this policy with the document tracking service. See Remar
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2FAE51F2-68EB-4876-B073-4C803074EBC9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2FAE51F2-68EB-4876-B073-4C803074EBC9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy registerForDocTracking userId authenticationCallback completionBlock method"]
+keywords:
+- MSUserPolicy registerForDocTracking userId authenticationCallback completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy registerForDocTracking userId authenticationCallback completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy registerForDocTracking:userId:authenticationCallback:completionBlock method
@@ -46,7 +50,7 @@ For more information, see [**How to: Use document tracking**](how-to--use-docume
 
 
 
- 
+ 
 
 ## Returns
 
@@ -66,7 +70,7 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +83,9 @@ If this method is called without setting up the corresponding [**MSLicenseMetada
 
 Because this method is asynchronous, the returned [**MSAsyncControl**](msasynccontrol-class.md) object can be used to cancel the request if needed.
 
- 
+ 
 
- 
+ 
 
 
 

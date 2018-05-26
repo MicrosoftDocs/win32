@@ -1,13 +1,16 @@
 ---
-Description: 'Refreshes the collection from the collection saved on the server.'
+Description: Refreshes the collection from the collection saved on the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2e75cdc5-21c3-40db-9856-6db4a5ef85dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2e75cdc5-21c3-40db-9856-6db4a5ef85dc
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplateCollection.Refresh method'
+title: RightsTemplateCollection.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplateCollection.Refresh method
@@ -187,7 +190,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -199,9 +202,9 @@ END SUB
 [**RightsTemplateCollection**](rightstemplatecollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

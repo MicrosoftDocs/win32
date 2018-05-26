@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetExtraData
 description: IAgentCharacter GetExtraData
-ms.assetid: '83f69bae-0ae3-45c5-ba0d-71610993da60'
+ms.assetid: 83f69bae-0ae3-45c5-ba0d-71610993da60
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetExtraData

@@ -1,7 +1,12 @@
 ---
-Description: 'Simulates a press-release key sequence.'
-ms.assetid: '4166BA71-315D-41BD-857C-48AFB702911E'
-title: 'TypeKey method of the Msvm\_Keyboard class'
+Description: Simulates a press-release key sequence.
+ms.assetid: 4166BA71-315D-41BD-857C-48AFB702911E
+title: TypeKey method of the Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeKey method of the Msvm\_Keyboard class
@@ -13,7 +18,7 @@ Simulates a press-release key sequence. This is equivalent to calling [**PressKe
 
 ```mof
 uint32 TypeKey(
-  [in] uint32 keyCode
+  [in] uint32 keyCode
 );
 ```
 
@@ -89,8 +94,8 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -107,9 +112,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Virtual-Key Codes**](_win32_virtual_key_codes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

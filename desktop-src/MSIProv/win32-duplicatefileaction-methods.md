@@ -1,7 +1,12 @@
 ---
 title: Win32\_DuplicateFileAction Methods
 description: The Win32\_DuplicateFileAction class exposes the following methods.
-ms.assetid: 'B4221E9A-3419-45F1-BA3A-5AAE5A291DB8'
+ms.assetid: B4221E9A-3419-45F1-BA3A-5AAE5A291DB8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_DuplicateFileAction Methods

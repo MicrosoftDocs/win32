@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetReceiver ProcessLicenseResponse method
 description: The ProcessLicenseResponse method processes the license response that is sent by the transmitter in reply to a license challenge.
-ms.assetid: 'b6d04651-746b-474e-8a02-6b7cbee9db46'
-keywords: ["ProcessLicenseResponse method windows Media Format", "ProcessLicenseResponse method windows Media Format , IWMDRMNetReceiver interface", "IWMDRMNetReceiver interface windows Media Format , ProcessLicenseResponse method"]
+ms.assetid: b6d04651-746b-474e-8a02-6b7cbee9db46
+keywords:
+- ProcessLicenseResponse method windows Media Format
+- ProcessLicenseResponse method windows Media Format , IWMDRMNetReceiver interface
+- IWMDRMNetReceiver interface windows Media Format , ProcessLicenseResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetReceiver::ProcessLicenseResponse method
@@ -22,10 +30,10 @@ The **ProcessLicenseResponse** method processes the license response that is sen
 
 ```C++
 HRESULT ProcessLicenseResponse(
-  [in]  BYTE  *pbLicenseResponse,
-  [in]  DWORD cbLicenseResponse,
-  [out] BYTE  **ppbWMDRMNetLicenseRepresentation,
-  [out] DWORD *pcbWMDRMNetLicenseRepresentation
+  [in]  BYTE  *pbLicenseResponse,
+  [in]  DWORD cbLicenseResponse,
+  [out] BYTE  **ppbWMDRMNetLicenseRepresentation,
+  [out] DWORD *pcbWMDRMNetLicenseRepresentation
 );
 ```
 
@@ -76,7 +84,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,9 +110,9 @@ The license response processed by using this method must correspond to the last 
 [**IWMDRMNetReceiver::GetLicenseChallenge**](iwmdrmnetreceiver-getlicensechallenge.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

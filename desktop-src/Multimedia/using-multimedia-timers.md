@@ -1,8 +1,20 @@
 ---
 title: Using Multimedia Timers
 description: Using Multimedia Timers
-ms.assetid: '3f15e48f-d72c-4a63-b1ec-21d8de21c8f7'
-keywords: ["Windows multimedia,timers", "multimedia,timers", "multimedia input,timers", "multimedia timers,about", "timers,about", "multimedia timers,examples", "timers,examples"]
+ms.assetid: 3f15e48f-d72c-4a63-b1ec-21d8de21c8f7
+keywords:
+- Windows multimedia,timers
+- multimedia,timers
+- multimedia input,timers
+- multimedia timers,about
+- timers,about
+- multimedia timers,examples
+- timers,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multimedia Timers

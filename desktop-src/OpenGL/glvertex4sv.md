@@ -1,8 +1,9 @@
 ---
 title: glVertex4sv function
 description: Specifies a vertex.
-ms.assetid: '969ecb41-7e72-4b95-9d84-2d995f60f2a3'
-keywords: ["glVertex4sv function OpenGL"]
+ms.assetid: 969ecb41-7e72-4b95-9d84-2d995f60f2a3
+keywords:
+- glVertex4sv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glVertex4sv function
@@ -22,7 +28,7 @@ Specifies a vertex.
 
 ```C++
 void WINAPI glVertex4sv(
-   const GLshort *v
+   const GLshort *v
 );
 ```
 
@@ -49,8 +55,8 @@ This function does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -94,9 +100,9 @@ This function does not return a value.
 [**glTexCoord**](gltexcoord-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

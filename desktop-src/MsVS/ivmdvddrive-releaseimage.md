@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive ReleaseImage method
 description: The ReleaseImage method releases a captured ISO image from the DVD drive.
-ms.assetid: '74fb6f41-59fc-4f49-a4fe-2274091e00ce'
-keywords: ["ReleaseImage method Virtual Server", "ReleaseImage method Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , ReleaseImage method", "ReleaseImage method Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , ReleaseImage method"]
+ms.assetid: 74fb6f41-59fc-4f49-a4fe-2274091e00ce
+keywords:
+- ReleaseImage method Virtual Server
+- ReleaseImage method Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , ReleaseImage method
+- ReleaseImage method Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , ReleaseImage method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::ReleaseImage method
@@ -47,7 +57,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,8 +65,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -68,9 +78,9 @@ This method can return one of these values.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

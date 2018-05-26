@@ -1,14 +1,20 @@
 ---
-title: \ ifdef and \ ifndef Directives
+title: '\ ifdef and \ ifndef Directives'
 description: Preprocessor directives that determine whether a specific preprocessor constant or macro is defined.
-ms.assetid: 'c1cc2e1d-2599-45ec-9629-56c4b42e0d0e'
-keywords: ["ifdef and ifndef Directives HLSL"]
+ms.assetid: c1cc2e1d-2599-45ec-9629-56c4b42e0d0e
+keywords:
+- ifdef and ifndef Directives HLSL
 topic_type:
 - apiref
 api_name:
 - ifdef and ifndef Directives
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#ifdef and \#ifndef Directives
@@ -25,7 +31,7 @@ Preprocessor directives that determine whether a specific preprocessor constant 
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Preprocessor directives that determine whether a specific preprocessor constant 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,9 +89,9 @@ CL.EXE /Dtest prog.cpp
 [\#if, )](dx-graphics-hlsl-appendix-pre-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

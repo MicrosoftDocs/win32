@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiStartDocEMF function performs initialization operations for an EMF-formatted print job.'
-ms.assetid: 'aca4534a-871e-4d86-b329-cb4f84611a29'
+---
+Description: The GdiStartDocEMF function performs initialization operations for an EMF-formatted print job.
+ms.assetid: aca4534a-871e-4d86-b329-cb4f84611a29
 title: GdiStartDocEMF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiStartDocEMF function

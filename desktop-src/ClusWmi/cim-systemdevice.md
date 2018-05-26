@@ -4,13 +4,15 @@ description: LogicalDevices may be aggregated by a System. This relationship is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa420ea9-14e8-4260-9220-99203110f0f1'
-ms.prod: 'windows-server-dev'
+ms.assetid: fa420ea9-14e8-4260-9220-99203110f0f1
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SystemDevice class", "CIM_SystemDevice class, described"]
+keywords:
+- CIM_SystemDevice class
+- CIM_SystemDevice class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SystemDevice class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Aggregation, UUID("{D6CB4144-71F3-46b3-AE99-C0AD9A930CD1}"), AMENDMENT]
 class CIM_SystemDevice : CIM_SystemComponent
 {
-  CIM_System        REF GroupComponent;
+  CIM_System        REF GroupComponent;
   CIM_LogicalDevice REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ The LogicalDevice that is a component of a System.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The LogicalDevice that is a component of a System.
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

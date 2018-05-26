@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a virtual hard disk file.'
-ms.assetid: '6c136000-1df2-4456-833c-094671408338'
-title: 'CreateVirtualHardDisk method of the Msvm\_ImageManagementService class'
+Description: Creates a virtual hard disk file.
+ms.assetid: 6c136000-1df2-4456-833c-094671408338
+title: CreateVirtualHardDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -13,8 +18,8 @@ Creates a virtual hard disk file.
 
 ```mof
 uint32 CreateVirtualHardDisk(
-  [in]  string              VirtualDiskSettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              VirtualDiskSettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -96,8 +101,8 @@ Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -111,9 +116,9 @@ Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

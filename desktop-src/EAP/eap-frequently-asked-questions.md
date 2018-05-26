@@ -1,7 +1,12 @@
 ---
 title: EAP Frequently Asked Questions
 description: Provides answers to commonly-asked questions about the EAP APIs.
-ms.assetid: '4e26df7b-3cce-4522-ab39-e24f06b4c4b4'
+ms.assetid: 4e26df7b-3cce-4522-ab39-e24f06b4c4b4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Frequently Asked Questions
@@ -12,7 +17,7 @@ The following topic provides answers to commonly-asked questions about the EAP A
 
 | Question                                                                                        | Answer                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| What is the lifetime of an EAP authentication?                                                  | In a typical situation the authentication consists of everything that occurs between calling the [**RapEapBegin**](raseapbegin.md) and [**RasEapEnd**](raseapend.md) functions. When a user chooses to configure an EAP provider in the RRAS snap-in, an authentication consists of everything that occurs between calling the [**Initialize**](ieapproviderconfig-initialize.md) and [**Uninitialize**](ieapproviderconfig-uninitialize.md) methods.<br/> |
+| What is the lifetime of an EAP authentication?                                                  | In a typical situation the authentication consists of everything that occurs between calling the [**RapEapBegin**](raseapbegin.md) and [**RasEapEnd**](raseapend.md) functions. When a user chooses to configure an EAP provider in the RRAS snap-in, an authentication consists of everything that occurs between calling the [**Initialize**](/windows/previous-versions/Rrascfg/nf-rrascfg-ieapproviderconfig-initialize?branch=master) and [**Uninitialize**](/windows/previous-versions/Rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize?branch=master) methods.<br/> |
 | What is "group policy"?                                                                         | For a description of group policy, see [Group Policy Collection](Http://go.microsoft.com/fwlink/p/?linkid=84005).                                                                                                                                                                                                                                                                                                                                                    |
 | Can EAP functions override configuration policy specified by group policy?                      | No, never. If group policy is in use, group policy settings will always override EAP configuration settings.                                                                                                                                                                                                                                                                                                                                                         |
 | I need to warn users about invalid PIN attempts. Is it possible to capture an invalid pin code? | When the user enters the wrong PIN, Extensible Authentication Protocol-Transport Layer Security (EAP-TLS) will send an error codes to the VPN supplicant. Once an error code is returned, the supplicant can implement its preferred retry logic.                                                                                                                                                                                                                    |
@@ -20,7 +25,7 @@ The following topic provides answers to commonly-asked questions about the EAP A
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ The following topic provides answers to commonly-asked questions about the EAP A
 [Using Extensible Authentication Protocol](using-extenstible-authentication-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

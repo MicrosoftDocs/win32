@@ -1,7 +1,12 @@
 ---
-Description: 'The LABELED\_WORD structure defines a label that is displayed when a specific WORD property value is detected.'
-ms.assetid: 'bfb1d34e-4a07-493f-8e43-508b77cce581'
-title: 'LABELED\_WORD structure'
+Description: The LABELED\_WORD structure defines a label that is displayed when a specific WORD property value is detected.
+ms.assetid: bfb1d34e-4a07-493f-8e43-508b77cce581
+title: LABELED\_WORD structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LABELED\_WORD structure
@@ -13,7 +18,7 @@ The **LABELED\_WORD** structure defines a label that is displayed when a specifi
 
 ```C++
 typedef struct _LABELED_WORD {
-  WORD  Value;
+  WORD  Value;
   LPSTR Label;
 } LABELED_WORD, *LPLABELED_WORD;
 ```
@@ -48,8 +53,8 @@ The **lpLabeledWordTable** member of the [SET](set.md) structure points to an ar
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The **lpLabeledWordTable** member of the [SET](set.md) structure points to an ar
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

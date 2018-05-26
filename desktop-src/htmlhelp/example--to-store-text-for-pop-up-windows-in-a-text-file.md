@@ -1,7 +1,12 @@
 ---
 title: Example To Store Text for Pop-up Windows in a Text File
 description: Example To Store Text for Pop-up Windows in a Text File
-ms.assetid: 'AAE16AB3-7D82-46d3-87DE-D86FC2F05E0A'
+ms.assetid: AAE16AB3-7D82-46d3-87DE-D86FC2F05E0A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: To Store Text for Pop-up Windows in a Text File

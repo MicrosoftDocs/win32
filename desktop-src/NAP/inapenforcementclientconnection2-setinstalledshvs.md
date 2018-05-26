@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection2 SetInstalledShvs method
 description: Used by the NAP Agent to set the installed System Health Validators (SHVs) on the client.
-ms.assetid: '38aa99b9-a15a-414d-91fc-128de8f5a654'
-keywords: ["SetInstalledShvs method NAP", "SetInstalledShvs method NAP , INapEnforcementClientConnection2 interface", "INapEnforcementClientConnection2 interface NAP , SetInstalledShvs method"]
+ms.assetid: 38aa99b9-a15a-414d-91fc-128de8f5a654
+keywords:
+- SetInstalledShvs method NAP
+- SetInstalledShvs method NAP , INapEnforcementClientConnection2 interface
+- INapEnforcementClientConnection2 interface NAP , SetInstalledShvs method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection2::SetInstalledShvs method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **SetInstalledShvs** method is used by the NAP Agent to set the installed System Health Validators (SHVs) on the client.
 
@@ -27,8 +35,8 @@ The **SetInstalledShvs** method is used by the NAP Agent to set the installed Sy
 
 ```C++
 HRESULT SetInstalledShvs(
-  [in] SystemHealthEntityCount count,
-  [in] SystemHealthEntityId    *ids
+  [in] SystemHealthEntityCount count,
+  [in] SystemHealthEntityId    *ids
 );
 ```
 
@@ -65,7 +73,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,8 +81,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -88,9 +96,9 @@ Other COM-specific error codes also may be returned.
 [**INapEnforcementClientConnection2**](inapenforcementclientconnection2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'For an installation package, the Template Summary property indicates the platform and language versions that are compatible with this installation database.'
-ms.assetid: 'a1015ddb-8d5c-40f7-97ac-4a1347644ae6'
+---
+Description: For an installation package, the Template Summary property indicates the platform and language versions that are compatible with this installation database.
+ms.assetid: a1015ddb-8d5c-40f7-97ac-4a1347644ae6
 title: Template Summary property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Template Summary property

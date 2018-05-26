@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the status of the encryption or decryption on the volume.'
-ms.assetid: 'b292a380-1b4a-4dff-948b-6494ec3b400b'
-title: 'GetConversionStatus method of the Win32\_EncryptableVolume class'
+---
+Description: Indicates the status of the encryption or decryption on the volume.
+ms.assetid: b292a380-1b4a-4dff-948b-6494ec3b400b
+title: GetConversionStatus method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetConversionStatus method of the Win32\_EncryptableVolume class

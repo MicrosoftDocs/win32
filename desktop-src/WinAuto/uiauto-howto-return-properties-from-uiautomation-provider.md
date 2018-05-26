@@ -1,14 +1,19 @@
 ---
 title: How to Return Properties from a UI Automation Provider
 description: This topic contains example code that shows how a Microsoft UI Automation provider returns properties of a UI element to client applications.
-ms.assetid: '6932de16-5548-4aa3-9f29-5daa57bb202b'
+ms.assetid: 6932de16-5548-4aa3-9f29-5daa57bb202b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Return Properties from a UI Automation Provider
 
 This topic contains example code that shows how a Microsoft UI Automation provider returns properties of a UI element to client applications.
 
-To retrieve a property value from the provider, UI Automation calls a provider's implementation of the [**IRawElementProviderSimple::GetPropertyValue**](uiauto-irawelementprovidersimple-getpropertyvalue.md) method, passing the ID of the property to retrieve, and a pointer to a [**VARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221627) structure. If the provider supports the specified property, it copies the data type and value of the property into the **VARIANT** structure. If the property is not supported, the provider sets the **vt** member of the **VARIANT** structure to VT\_EMPTY.
+To retrieve a property value from the provider, UI Automation calls a provider's implementation of the [**IRawElementProviderSimple::GetPropertyValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue?branch=master) method, passing the ID of the property to retrieve, and a pointer to a [**VARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221627) structure. If the provider supports the specified property, it copies the data type and value of the property into the **VARIANT** structure. If the property is not supported, the provider sets the **vt** member of the **VARIANT** structure to VT\_EMPTY.
 
 
 ```C++

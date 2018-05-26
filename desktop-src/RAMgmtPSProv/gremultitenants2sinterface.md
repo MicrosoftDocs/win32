@@ -2,13 +2,15 @@
 title: GreMultiTenantS2SInterface class
 description: Represents the multi-tenant S2S GRE interface.
 audience: developer
-ms.assetid: '8B0CB70F-64C0-4322-8893-06BAB2C6B043'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8B0CB70F-64C0-4322-8893-06BAB2C6B043
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GreMultiTenantS2SInterface class", "GreMultiTenantS2SInterface class, described"]
+keywords:
+- GreMultiTenantS2SInterface class
+- GreMultiTenantS2SInterface class, described
 topic_type:
 - apiref
 api_name:
@@ -61,6 +63,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GreMultiTenantS2SInterface class
@@ -75,50 +80,50 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class GreMultiTenantS2SInterface : GreS2SInterface
 {
-  string             Protocol;
-  string             Destination[];
-  boolean            AdminStatus;
-  string             InterfaceType;
-  uint32             RetryInterval;
-  uint32             SADataSizeForRenegotiation;
-  uint32             SALifeTime;
-  string             IPv6Subnet[];
-  string             IPv4Subnet[];
-  string             Name;
-  string             UserName;
-  uint8              Certificate[];
-  uint32             NetworkOutageTime;
-  uint32             NumberOfTries;
-  boolean            PromoteAlternate;
-  string             AuthenticationMethod;
-  string             ResponderAuthenticationMethod;
-  string             EapMethod;
-  boolean            InternalIPv4;
-  boolean            InternalIPv6;
-  uint32             IdleDisconnect;
-  uint32             LastError;
-  string             UnReachabilityReasons;
-  string             ConnectionState;
-  string             IPv4TriggerFilter[];
-  uint32             IPv4TriggerFilterAction;
-  string             PostConnectionIPv4Subnet[];
-  string             IPv6TriggerFilter[];
-  uint32             IPv6TriggerFilterAction;
-  string             PostConnectionIPv6Subnet[];
-  boolean            Persistent;
-  boolean            InitiateConfigPayload;
-  uint32             EnableQoS;
-  uint64             TxBandwidthKbps;
-  uint64             RxBandwidthKbps;
-  string             SourceIpAddress;
-  uint32             MMSALifeTime;
+  string             Protocol;
+  string             Destination[];
+  boolean            AdminStatus;
+  string             InterfaceType;
+  uint32             RetryInterval;
+  uint32             SADataSizeForRenegotiation;
+  uint32             SALifeTime;
+  string             IPv6Subnet[];
+  string             IPv4Subnet[];
+  string             Name;
+  string             UserName;
+  uint8              Certificate[];
+  uint32             NetworkOutageTime;
+  uint32             NumberOfTries;
+  boolean            PromoteAlternate;
+  string             AuthenticationMethod;
+  string             ResponderAuthenticationMethod;
+  string             EapMethod;
+  boolean            InternalIPv4;
+  boolean            InternalIPv6;
+  uint32             IdleDisconnect;
+  uint32             LastError;
+  string             UnReachabilityReasons;
+  string             ConnectionState;
+  string             IPv4TriggerFilter[];
+  uint32             IPv4TriggerFilterAction;
+  string             PostConnectionIPv4Subnet[];
+  string             IPv6TriggerFilter[];
+  uint32             IPv6TriggerFilterAction;
+  string             PostConnectionIPv6Subnet[];
+  boolean            Persistent;
+  boolean            InitiateConfigPayload;
+  uint32             EnableQoS;
+  uint64             TxBandwidthKbps;
+  uint64             RxBandwidthKbps;
+  string             SourceIpAddress;
+  uint32             MMSALifeTime;
   VpnTrafficSelector LocalVpnTrafficSelector[];
   VpnTrafficSelector RemoteVpnTrafficSelector[];
-  uint32             LastDisconnectReason;
-  uint32             GreKey;
-  string             IPv4Address;
-  string             IPv6Address;
-  string             RoutingDomain;
+  uint32             LastDisconnectReason;
+  uint32             GreKey;
+  string             IPv4Address;
+  string             IPv6Address;
+  string             RoutingDomain;
 };
 ```
 
@@ -287,7 +292,7 @@ Whether QoS is enabled on the interface.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
-**Windows Server 2012:** This property was renamed from **QoS** in Windows Server 2012 R2.
+**Windows Server 2012:** This property was renamed from **QoS** in Windows Server 2012 R2.
 
 The possible values are.
 
@@ -360,7 +365,7 @@ Access type: Read/write
 
 **True** to negotiate the configuration with peers; otherwise **false**.
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -470,7 +475,7 @@ Access type: Read/write
 
 An array that contains the demand dial filters for the IPv4 Transport.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -489,7 +494,7 @@ Whether the IPv4 trigger filters initiates the S2S connection.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
-**Windows Server 2012:** The data type of this property was changed from a string in Windows Server 2012 R2.
+**Windows Server 2012:** The data type of this property was changed from a string in Windows Server 2012 R2.
 
 The possible values are.
 
@@ -560,7 +565,7 @@ Access type: Read/write
 
 An array that contains the demand dial filters for the IPv6 Transport.
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -579,7 +584,7 @@ Whether the IPv6 trigger filters initiates the S2S connection.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
-**Windows Server 2012:** The data type of this property was changed from a string in Windows Server 2012 R2.
+**Windows Server 2012:** The data type of this property was changed from a string in Windows Server 2012 R2.
 
 The possible values are.
 
@@ -620,7 +625,7 @@ Access type: Read-only
 
 The reason for the last interface disconnect.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -655,7 +660,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 An array of local [**VpnTrafficSelector**](vpntrafficselector.md) embedded instances to be negotiated.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -672,7 +677,7 @@ Access type: Read/write
 
 Lifetime of a main mode security association (SA), after which the MM SA is no longer valid, in seconds.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -734,7 +739,7 @@ Access type: Read/write
 
 **True** if the connection is persistent; otherwise **false**.
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -753,7 +758,7 @@ The IPv4 subnet to route
 
 The routes specified by the subnet do not trigger the S2S connection.
 
-**Windows Server 2012:** This property was renamed from **IPv4DontTriggerSubnet** in Windows Server 2012 R2.
+**Windows Server 2012:** This property was renamed from **IPv4DontTriggerSubnet** in Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -772,7 +777,7 @@ The IPv6 subnet to route
 
 The routes specified by the subnet do not trigger the S2S connection.
 
-**Windows Server 2012:** This property was renamed from **IPv6DontTriggerSubnet** in Windows Server 2012 R2.
+**Windows Server 2012:** This property was renamed from **IPv6DontTriggerSubnet** in Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -806,7 +811,7 @@ The underlying protocol.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
-**Windows Server 2012 and Windows Server 2012 R2:** The "GRE" value is not supported before Windows Server 2016.
+**Windows Server 2012 and Windows Server 2012 R2:** The "GRE" value is not supported before Windows Server 2016.
 
 The possible values are.
 
@@ -856,7 +861,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 An array of remote [**VpnTrafficSelector**](vpntrafficselector.md) embedded instances to be negotiated.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -934,7 +939,7 @@ Access type: Read/write
 
 The incoming bandwidth limit of the interface.
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -981,7 +986,7 @@ Access type: Read/write
 
 The IP address of the interface.
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -998,7 +1003,7 @@ Access type: Read/write
 
 The outgoing bandwidth limit of the interface.
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 
@@ -1041,7 +1046,7 @@ This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -1055,9 +1060,9 @@ This property is inherited from [**VpnS2SInterface**](vpns2sinterface.md).
 [**GRES2SInterface**](gres2sinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

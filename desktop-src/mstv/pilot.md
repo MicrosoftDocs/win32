@@ -1,8 +1,9 @@
 ---
 title: Pilot enumeration
 description: Specifies the pilot mode for Digital Video Broadcasting - S2 (DVB-S2).
-ms.assetid: 'c24b7b56-b6f4-44d7-a2d3-be7d12eb2335'
-keywords: ["Pilot enumeration Microsoft TV Technologies"]
+ms.assetid: c24b7b56-b6f4-44d7-a2d3-be7d12eb2335
+keywords:
+- Pilot enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pilot enumeration
@@ -22,9 +28,9 @@ Specifies the pilot mode for Digital Video Broadcasting - S2 (DVB-S2).
 
 ```C++
 typedef enum Pilot { 
-  BDA_PILOT_NOT_SET      = -1,
-  BDA_PILOT_NOT_DEFINED  = 0,
-  BDA_PILOT_OFF          = 1,
+  BDA_PILOT_NOT_SET      = -1,
+  BDA_PILOT_NOT_DEFINED  = 0,
+  BDA_PILOT_OFF          = 1,
   BDA_PILOT_ON,
   BDA_PILOT_MAX
 } Pilot;
@@ -77,15 +83,15 @@ Reserved. Do not use.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Association between iSCSIConnection and MSFT\_Disk.'
-ms.assetid: '9319361C-9337-473F-96BA-F0167183D914'
-title: 'MSFT\_iSCSIConnectionToDisk class'
+Description: Association between iSCSIConnection and MSFT\_Disk.
+ms.assetid: 9319361C-9337-473F-96BA-F0167183D914
+title: MSFT\_iSCSIConnectionToDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSIConnectionToDisk class
@@ -16,7 +21,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MSFT_iSCSIConnectionToDisk
 {
   MSFT_iSCSIConnection REF iSCSIConnection;
-  MSFT_Disk            REF Disk;
+  MSFT_Disk            REF Disk;
 };
 ```
 
@@ -66,8 +71,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
@@ -83,9 +88,9 @@ Qualifiers: **Key**
 [**MSFT\_iSCSIConnection**](msft-iscsiconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

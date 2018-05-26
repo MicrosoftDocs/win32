@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a trace provider (ETW or WPP) for MFTrace.'
-ms.assetid: '4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1'
+---
+Description: Specifies a trace provider (ETW or WPP) for MFTrace.
+ms.assetid: 4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1
 title: provider element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # provider element

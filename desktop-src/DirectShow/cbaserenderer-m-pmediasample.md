@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the current media sample.'
-ms.assetid: '08f7b19b-e8e9-4462-805e-b242da9da742'
-title: 'CBaseRenderer::m\_pMediaSample member'
+Description: Pointer to the current media sample.
+ms.assetid: 08f7b19b-e8e9-4462-805e-b242da9da742
+title: CBaseRendererm\_pMediaSample member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_pMediaSample member
@@ -35,9 +40,9 @@ IMediaSample *m_pMediaSample;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

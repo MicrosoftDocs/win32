@@ -1,7 +1,12 @@
 ---
-Description: 'Specify a custom icon and label for a drive.'
-ms.assetid: 'B6EF7F84-7747-4689-B740-A91CA8E394D7'
+Description: Specify a custom icon and label for a drive.
+ms.assetid: B6EF7F84-7747-4689-B740-A91CA8E394D7
 title: How to Assign a Custom Icon and Label to a Drive Letter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Assign a Custom Icon and Label to a Drive Letter

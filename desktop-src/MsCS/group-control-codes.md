@@ -3,21 +3,27 @@ title: Group Control Codes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '41f93d49-c021-4fcb-9d38-f801702b9e51'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 41f93d49-c021-4fcb-9d38-f801702b9e51
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
 description: 
-keywords: ["group control codes Failover Cluster", "control codes Failover Cluster ,group", "groups Failover Cluster ,control codes"]
+keywords:
+- group control codes Failover Cluster
+- control codes Failover Cluster ,group
+- groups Failover Cluster ,control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Control Codes
 
 The [Failover Cluster API](the-server-cluster-api.md) defines the following [*external control codes*](e-gly.md#-wolf-external-control-code-gly) for [*groups*](g-gly.md#-wolf-group-gly) (there are no [*internal control codes*](i-gly.md#-wolf-internal-control-code-gly) defined for groups):
 
-Group control codes use the **CLUS\_OBJECT\_GROUP** value of the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration to indicate that the control code applies to cluster groups. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
+Group control codes use the **CLUS\_OBJECT\_GROUP** value of the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration to indicate that the control code applies to cluster groups. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
 
-Group control codes are enumerated by the [**CLUSCTL\_GROUP\_CODES**](clusctl-group-codes.md) enumeration.
+Group control codes are enumerated by the [**CLUSCTL\_GROUP\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_group_codes?branch=master) enumeration.
 
 ## In this section
 
@@ -47,7 +53,7 @@ Retrieves the intrinsic characteristics of a [group](groups.md).
 [CLUSCTL\_GROUP\_GET\_COMMON\_PROPERTIES](clusctl-group-get-common-properties.md)
 </dt> <dd>
 
-Retrieves the read/write [group common properties](group-common-properties.md) for a [group](groups.md). Applications use this [control code](about-control-codes.md) as a [**ClusterGroupControl**](clustergroupcontrol.md) parameter.
+Retrieves the read/write [group common properties](group-common-properties.md) for a [group](groups.md). Applications use this [control code](about-control-codes.md) as a [**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -184,7 +190,7 @@ Verifies that a [group](groups.md) [private](private-properties.md) [property li
 [Failover Cluster Control Codes](control-codes.md)
 </dt> <dt>
 
-[**ClusterGroupControl**](clustergroupcontrol.md)
+[**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master)
 </dt> </dl>
 
  

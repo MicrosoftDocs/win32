@@ -1,13 +1,16 @@
 ---
-Description: 'When accessing WMI local or remote data in an application or script, you may encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.'
+Description: When accessing WMI local or remote data in an application or script, you may encounter errors ranging from missing classes to access denied. Providers also have debugging options and troubleshooting classes available.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b0aecdf6-ec30-49be-af4e-7eac5d124057'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b0aecdf6-ec30-49be-af4e-7eac5d124057
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Troubleshooting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Troubleshooting
@@ -17,13 +20,13 @@ When accessing WMI local or remote data in an application or script, you may enc
 > [!Note]  
 > The following documentation is targeted for developers and IT administrators. If you are an end-user that has experienced an error message concerning WMI, you should go to [Microsoft Support](http://support.microsoft.com/) and search for the error code you see on the error message. For more information about troubleshooting problems with WMI scripts and the WMI service, see [WMI Isn't Working!](https://TechNet.Microsoft.Com/library/ff406382.aspx)
 
- 
+ 
 
 ## WMI Diagnosis Utility
 
-The WMI diagnosis Utility (WMIDiag.exe) is no longer supported starting with Windows 8 and Windows Server 2012.
+The WMI diagnosis Utility (WMIDiag.exe) is no longer supported starting with Windows 8 and Windows Server 2012.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  **
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  **
 
 If WMI returns error messages, be aware that they may not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system and emerge as errors through WMI. Under any circumstances, do not delete the WMI repository as a first action because deleting the repository can cause damage to the system or to installed applications.
 
@@ -56,13 +59,13 @@ Access Denied errors that are reported by scripts and applications that access W
 
 | Error                                                                                                                        | Possible Issues                                                                                                                                                                                                                                                                                                                                                                     | Solution                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x800706BA–`HRESULT_FROM_WIN32(RPC_S_SERVER_UNAVAILABLE)`<br/> Firewall issue or server not available.<br/>      | The computer really doesn't exist The Windows Firewall is blocking the connection<br/>                                                                                                                                                                                                                                                                                        | Connecting to Vista: **netsh advfirewall firewall set rule group="windows management instrumentation (wmi)" new enable=yes** Connecting to downlevel: Allow the "Remote Administration" rule in Windows Firewall.<br/>                                                                                                                                                                                                                                                                                                            |
-| 0x80070005–**E\_ACCESS\_DENIED**<br/> Access denied by DCOM security.<br/>                                       | The user does not have remote access to the computer through DCOM. Typically, DCOM errors occur when connecting to a remote computer with a different operating system version.<br/>                                                                                                                                                                                          | Give the user Remote Launch and Remote Activation permissions in dcomcnfg. Right-click My Computer-&gt; Properties. Under COM Security, click "Edit Limits" for both sections. Give the user you want remote access, remote launch, and remote activation. Then go to DCOM Config, find "Windows Management Instrumentation", and give the user you want Remote Launch and Remote Activation. For more information, see [Connecting Between Different Operating Systems](https://msdn.microsoft.com/library/aa389284)<br/> |
-| 0x80041003–**WBEM\_E\_ACCESS\_DENIED**<br/> Access denied by a [*provider*](gloss-p.md#wmi-gloss-provider)<br/> | The user does not have permission to perform the operation in WMI. This could happen when you query certain classes as a low-rights user, but most often happens when you attempt to invoke methods or change WMI instances as a low rights user. The namespace you are connecting to is encrypted, and the user is attempting to connect with an unencrypted connection<br/> | Give the user access with the WMI Control (make sure they have Remote\_Access set to true) Connect using a client that supports encryption.<br/>                                                                                                                                                                                                                                                                                                                                                                                  |
+| 0x800706BA `HRESULT_FROM_WIN32(RPC_S_SERVER_UNAVAILABLE)`<br/> Firewall issue or server not available.<br/>      | The computer really doesn't exist The Windows Firewall is blocking the connection<br/>                                                                                                                                                                                                                                                                                        | Connecting to Vista: **netsh advfirewall firewall set rule group="windows management instrumentation (wmi)" new enable=yes** Connecting to downlevel: Allow the "Remote Administration" rule in Windows Firewall.<br/>                                                                                                                                                                                                                                                                                                            |
+| 0x80070005 **E\_ACCESS\_DENIED**<br/> Access denied by DCOM security.<br/>                                       | The user does not have remote access to the computer through DCOM. Typically, DCOM errors occur when connecting to a remote computer with a different operating system version.<br/>                                                                                                                                                                                          | Give the user Remote Launch and Remote Activation permissions in dcomcnfg. Right-click My Computer-&gt; Properties. Under COM Security, click "Edit Limits" for both sections. Give the user you want remote access, remote launch, and remote activation. Then go to DCOM Config, find "Windows Management Instrumentation", and give the user you want Remote Launch and Remote Activation. For more information, see [Connecting Between Different Operating Systems](https://msdn.microsoft.com/library/aa389284)<br/> |
+| 0x80041003 **WBEM\_E\_ACCESS\_DENIED**<br/> Access denied by a [*provider*](gloss-p.md#wmi-gloss-provider)<br/> | The user does not have permission to perform the operation in WMI. This could happen when you query certain classes as a low-rights user, but most often happens when you attempt to invoke methods or change WMI instances as a low rights user. The namespace you are connecting to is encrypted, and the user is attempting to connect with an unencrypted connection<br/> | Give the user access with the WMI Control (make sure they have Remote\_Access set to true) Connect using a client that supports encryption.<br/>                                                                                                                                                                                                                                                                                                                                                                                  |
 
 
 
- 
+ 
 
 -   Typically, DCOM errors occur when connecting to a remote computer with a different operating system version.
 
@@ -74,11 +77,11 @@ Access Denied errors that are reported by scripts and applications that access W
 
 -   An access denied error is returned by DCOM security when a low-integrity client tries to access WMI. For example, an ActiveX control that is running in Internet Explorer, which has the security level set to low, does not have access to perform local WMI operations.
 
-    **Windows 7:** Low-integrity users have read-only permissions for local WMI operations.
+    **Windows 7:** Low-integrity users have read-only permissions for local WMI operations.
 
 ## Information on Errors
 
-When you get an error message from WMI, you can locate the message in [**WMI Error Constants**](wmi-error-constants.md) or, for scripting, [**WbemErrorEnum**](wbemerrorenum.md). However, the information supplied by the error alone is typically insufficient to determine what is happening. WMI repository corruption may masquerade as classes or instances "not found".
+When you get an error message from WMI, you can locate the message in [**WMI Error Constants**](wmi-error-constants.md) or, for scripting, [**WbemErrorEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemerrorenum?branch=master). However, the information supplied by the error alone is typically insufficient to determine what is happening. WMI repository corruption may masquerade as classes or instances "not found".
 
 For more information about WMI errors:
 
@@ -98,9 +101,9 @@ For more information about WMI errors:
 [Logging WMI Activity](logging-wmi-activity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

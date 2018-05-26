@@ -1,7 +1,12 @@
 ---
 title: Registering a Class at Installation
 description: If a class is intended to be available to clients at any time, as most applications are, you usually register it through an installation and setup program.
-ms.assetid: '6d78c2ce-56d8-4866-9801-35125ec9cac4'
+ms.assetid: 6d78c2ce-56d8-4866-9801-35125ec9cac4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Class at Installation
@@ -14,11 +19,11 @@ Under the AppID key are several values that define information specific to that 
 
 A server can also be installed as a service, or to run under a specific user account. For more information, see [Installing as a Service Application](installing-as-a-service-application.md).
 
-A server or ROT object that is not a service or running under a specific user account can be referred to as an "activate as activator" server. For these servers, the security context and the window station/desktop of the client must match the server's. A client attempting to connect to a remote server is considered to have a **NULL** window station/desktop, so only the server security context is compared in this instance. (For more information about SIDs, see [Security in COM](security-in-com.md).) COM caches the window station/desktop of a process when the process first connects to the distributed COM service. Therefore, COM clients and servers should not change their window station or thread desktops of the process after calling [**CoInitialize**](coinitialize.md) or [**CoInitializeEx**](coinitializeex.md).
+A server or ROT object that is not a service or running under a specific user account can be referred to as an "activate as activator" server. For these servers, the security context and the window station/desktop of the client must match the server's. A client attempting to connect to a remote server is considered to have a **NULL** window station/desktop, so only the server security context is compared in this instance. (For more information about SIDs, see [Security in COM](security-in-com.md).) COM caches the window station/desktop of a process when the process first connects to the distributed COM service. Therefore, COM clients and servers should not change their window station or thread desktops of the process after calling [**CoInitialize**](/windows/win32/Objbase/nf-objbase-coinitialize?branch=master) or [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master).
 
-When a class is registered as in-process, a call to [**CoGetClassObject**](cogetclassobject.md) to create its class object is automatically passed by COM to the [**DllGetClassObject**](dllgetclassobject.md) function, which the class must implement to give the calling object a pointer to its class object.
+When a class is registered as in-process, a call to [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master) to create its class object is automatically passed by COM to the [**DllGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-dllgetclassobject?branch=master) function, which the class must implement to give the calling object a pointer to its class object.
 
-Classes implemented in executables can specify that COM should execute their process and wait for the process to register their class object's [**IClassFactory**](iclassfactory.md) interface through a call to the [**CoRegisterClassObject**](coregisterclassobject.md) function.
+Classes implemented in executables can specify that COM should execute their process and wait for the process to register their class object's [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) interface through a call to the [**CoRegisterClassObject**](/windows/win32/combaseapi/nf-combaseapi-coregisterclassobject?branch=master) function.
 
 ## Related topics
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a command that can be executed through ShellExecute to launch an application when it is pinned to the taskbar or when a new instance of the application is launched through the application''s Jump List.'
-ms.assetid: '83aab060-0629-48e3-a2db-9ba96a8631e5'
-title: 'System.AppUserModel.RelaunchCommand'
+Description: Specifies a command that can be executed through ShellExecute to launch an application when it is pinned to the taskbar or when a new instance of the application is launched through the applications Jump List.
+ms.assetid: 83aab060-0629-48e3-a2db-9ba96a8631e5
+title: System.AppUserModel.RelaunchCommand
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.AppUserModel.RelaunchCommand
@@ -21,7 +26,7 @@ notepad.exe
 
 
 
-This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](shell.props_System_AppUserModel_Id), set through [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md)). If the window does not have an explicit AppUserModelID, this property is ignored and the window is grouped and pinned as if it were part of the process that owns it. For more information about the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs).
+This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](shell.props_System_AppUserModel_Id), set through [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master)). If the window does not have an explicit AppUserModelID, this property is ignored and the window is grouped and pinned as if it were part of the process that owns it. For more information about the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs).
 
 This property is meant to be used by applications or windows that want to provide non-default relaunch information.
 
@@ -37,7 +42,7 @@ This property, together with [System.AppUserModel.RelaunchDisplayNameResource](s
 
  
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand) property of that window.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 

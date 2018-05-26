@@ -4,11 +4,16 @@ description: The SelectAll method selects all of the items in the result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2770b73f-5271-47e6-9461-32885ee1e6ee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2770b73f-5271-47e6-9461-32885ee1e6ee
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SelectAll method MMC", "SelectAll method MMC , View object", "View object MMC , SelectAll method", "SelectAll method MMC , View interface", "View interface MMC , SelectAll method"]
+keywords:
+- SelectAll method MMC
+- SelectAll method MMC , View object
+- View object MMC , SelectAll method
+- SelectAll method MMC , View interface
+- View interface MMC , SelectAll method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::SelectAll method
@@ -57,8 +65,8 @@ objView.SelectAll
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ objView.SelectAll
 [**View.Selection**](view-selection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

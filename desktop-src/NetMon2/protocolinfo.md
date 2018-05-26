@@ -1,7 +1,12 @@
 ---
-Description: 'The PROTOCOLINFO structure describes a protocol.'
-ms.assetid: '1ba47889-b2ed-47ba-94f9-1b781af6d01f'
+Description: The PROTOCOLINFO structure describes a protocol.
+ms.assetid: 1ba47889-b2ed-47ba-94f9-1b781af6d01f
 title: PROTOCOLINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROTOCOLINFO structure
@@ -13,11 +18,11 @@ The **PROTOCOLINFO** structure describes a protocol.
 
 ```C++
 typedef struct _PROTOCOLINFO {
-  DWORD              ProtocolID;
+  DWORD              ProtocolID;
   LPPROPERTYDATABASE PropertyDatabase;
-  BYTE               ProtocolName[16];
-  BYTE               HelpFile[16];
-  BYTE               Comment[128];
+  BYTE               ProtocolName[16];
+  BYTE               HelpFile[16];
+  BYTE               Comment[128];
 } PROTOCOLINFO, *LPPROTOCOLINFO;
 ```
 
@@ -68,15 +73,15 @@ A comment describing the protocol.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

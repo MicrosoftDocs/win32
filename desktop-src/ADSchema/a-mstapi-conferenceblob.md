@@ -4,17 +4,22 @@ description: A binary BLOB of data that describes various properties of a TAPI m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f1d5baed-df3f-423e-aa2f-005e77e79725'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f1d5baed-df3f-423e-aa2f-005e77e79725
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TAPI-Conference-Blob attribute AD Schema", "msTAPI-ConferenceBlob attribute AD Schema"]
+keywords:
+- ms-TAPI-Conference-Blob attribute AD Schema
+- msTAPI-ConferenceBlob attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TAPI-Conference-Blob
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TAPI-Conference-Blob attribute
@@ -38,11 +43,11 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
- 
+ 
 
- 
+ 
 
 
 

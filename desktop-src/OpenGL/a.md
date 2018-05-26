@@ -2,8 +2,18 @@
 title: A
 description: Definitions of OpenGL terms that begin with the letter A.
 Robots: noindex, nofollow
-ms.assetid: 'e583610f-37da-47bb-bbd6-41d353b88244'
-keywords: ["aliasing", "alpha", "animation", "antialiasing", "application-specific clipping"]
+ms.assetid: e583610f-37da-47bb-bbd6-41d353b88244
+keywords:
+- aliasing
+- alpha
+- animation
+- antialiasing
+- application-specific clipping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A

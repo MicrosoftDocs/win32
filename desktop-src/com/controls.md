@@ -1,14 +1,19 @@
 ---
 title: Controls
 description: Controls
-ms.assetid: 'e491b66c-d6ba-4476-8413-7a9e41c05e8d'
+ms.assetid: e491b66c-d6ba-4476-8413-7a9e41c05e8d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls
 
-An ActiveX control is really just another term for OLE object or more specifically, COM object. In other words, a control, at the very least, is some COM object that supports the [**IUnknown**](iunknown.md) interface and is also self-registering. Through [**IUnknown::QueryInterface**](iunknown-queryinterface.md) a container can manage the lifetime of the control as well as dynamically discover the full extent of a control's functionality based on the available interfaces. This allows a control to implement as little functionality as it needs to, instead of supporting a large number of interfaces that actually don't do anything. In short, this minimal requirement for nothing more than **IUnknown** allows any control to be as lightweight as it can.
+An ActiveX control is really just another term for OLE object or more specifically, COM object. In other words, a control, at the very least, is some COM object that supports the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface and is also self-registering. Through [**IUnknown::QueryInterface**](/windows/win32/Unknwn/nf-unknwn-iunknown-queryinterface(q,)?branch=master) a container can manage the lifetime of the control as well as dynamically discover the full extent of a control's functionality based on the available interfaces. This allows a control to implement as little functionality as it needs to, instead of supporting a large number of interfaces that actually don't do anything. In short, this minimal requirement for nothing more than **IUnknown** allows any control to be as lightweight as it can.
 
-In short, other than [**IUnknown**](iunknown.md) and self-registration, there are no other requirements for a control. There are, however, conventions that should be followed about what the support of an interface means in terms of functionality provided to the container by the control. This section then describes what it means for a control to actually support an interface, as well as methods, properties, and events that a control should provide as a baseline if it has occasion to support methods, properties, and events.
+In short, other than [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) and self-registration, there are no other requirements for a control. There are, however, conventions that should be followed about what the support of an interface means in terms of functionality provided to the container by the control. This section then describes what it means for a control to actually support an interface, as well as methods, properties, and events that a control should provide as a baseline if it has occasion to support methods, properties, and events.
 
 For more information, see the following topics:
 

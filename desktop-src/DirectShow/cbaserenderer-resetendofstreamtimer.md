@@ -1,7 +1,12 @@
 ---
-Description: 'The ResetEndOfStreamTimer method cancels the timer that schedules EC\_COMPLETE notifications.'
-ms.assetid: '9d423241-1401-4181-8fbf-c409a1e8abdd'
-title: 'CBaseRenderer.ResetEndOfStreamTimer method'
+Description: The ResetEndOfStreamTimer method cancels the timer that schedules EC\_COMPLETE notifications.
+ms.assetid: 9d423241-1401-4181-8fbf-c409a1e8abdd
+title: CBaseRenderer.ResetEndOfStreamTimer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.ResetEndOfStreamTimer method
@@ -49,9 +54,9 @@ This method does not return a value.
 [**CBaseRenderer::TimerCallback**](cbaserenderer-timercallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

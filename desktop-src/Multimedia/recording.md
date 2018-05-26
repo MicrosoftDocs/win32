@@ -1,8 +1,14 @@
 ---
 title: Recording
 description: Recording
-ms.assetid: '48b2d815-72cf-4c96-8d93-247d2426b8f2'
-keywords: ["MCI_RECORD command"]
+ms.assetid: 48b2d815-72cf-4c96-8d93-247d2426b8f2
+keywords:
+- MCI_RECORD command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recording

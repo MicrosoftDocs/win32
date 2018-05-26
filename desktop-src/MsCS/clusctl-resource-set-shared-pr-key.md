@@ -4,11 +4,15 @@ description: The CLUSCTL\_RESOURCE\_SET\_SHARED\_PR\_KEY \ 32;control code is re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2d920576-00fb-48e3-9d7e-502c48680b1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2d920576-00fb-48e3-9d7e-502c48680b1b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_SET_SHARED_PR_KEY control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_SET_SHARED_PR_KEY control code Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_SET\_SHARED\_PR\_KEY control code

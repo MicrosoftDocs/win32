@@ -1,8 +1,9 @@
 ---
 title: PSN\_RESET notification code
 description: Notifies a page that the property sheet is about to be destroyed. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '75448852-8a5e-41a7-92b6-00692e771a06'
-keywords: ["PSN_RESET notification code Windows Controls"]
+ms.assetid: 75448852-8a5e-41a7-92b6-00692e771a06
+keywords:
+- PSN_RESET notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_RESET notification code
@@ -33,7 +39,7 @@ PSN_RESET
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](pshnotify.md) structure that contains information about the notification code.
+Pointer to a [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure that contains information about the notification code.
 
 </dd> </dl>
 
@@ -43,16 +49,16 @@ No return value.
 
 ## Remarks
 
-All changes made since the last [PSN\_APPLY](psn-apply.md) notification code are canceled, except in the case of [**PSH\_AEROWIZARD**](propsheetheader.md), which does not support that notification code.
+All changes made since the last [PSN\_APPLY](psn-apply.md) notification code are canceled, except in the case of [**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master), which does not support that notification code.
 
-The **lParam** member of the [**PSHNOTIFY**](pshnotify.md) structure pointed to by *lParam* will be set to **TRUE** if the user clicked the **X** button in the upper-right corner of the property sheet. It will be **FALSE** if the user clicked the **Cancel** button. The **PSHNOTIFY** structure contains an [**NMHDR**](nmhdr.md) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
+The **lParam** member of the [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure pointed to by *lParam* will be set to **TRUE** if the user clicked the **X** button in the upper-right corner of the property sheet. It will be **FALSE** if the user clicked the **Cancel** button. The **PSHNOTIFY** structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
 An application can use this notification code as an opportunity to perform cleanup operations.
 
 > [!Note]  
 > The property sheet is in the process of manipulating the list of pages when the PSN\_RESET notification code is sent. Do not attempt to add, remove, or insert pages while handling this notification code. Doing so will have unpredictable results.
 
- 
+ 
 
 Do not call the [**EndDialog**](https://msdn.microsoft.com/library/windows/desktop/ms645472) function when processing this notification code.
 
@@ -62,15 +68,15 @@ Do not call the [**EndDialog**](https://msdn.microsoft.com/library/windows/deskt
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

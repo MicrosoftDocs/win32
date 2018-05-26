@@ -1,7 +1,12 @@
 ---
-Description: 'Sent by the WM ASF Writer filter when it completes the pre-processing for multipass encoding.'
-ms.assetid: '2029afc4-419c-494a-ae52-1f84b08bcb35'
-title: 'EC\_PREPROCESS\_COMPLETE'
+Description: Sent by the WM ASF Writer filter when it completes the pre-processing for multipass encoding.
+ms.assetid: 2029afc4-419c-494a-ae52-1f84b08bcb35
+title: EC\_PREPROCESS\_COMPLETE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_PREPROCESS\_COMPLETE
@@ -22,7 +27,7 @@ Zero.
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-(**IUnknown**\*) Pointer to the [**IBaseFilter**](ibasefilter.md) interface of the filter.
+(**IUnknown**\*) Pointer to the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface of the filter.
 
 </dd> </dl>
 
@@ -50,9 +55,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

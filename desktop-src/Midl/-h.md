@@ -2,13 +2,19 @@
 title: /h switch
 description: The /h option is functionally equivalent to the /header option.
 ms.assetid: 1b74d5f2-6624-4b71-832d-fb55a0e84c86
-keywords: ["/h switch MIDL"]
+keywords:
+- /h switch MIDL
 topic_type:
 - apiref
 api_name:
 - /h
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /h switch

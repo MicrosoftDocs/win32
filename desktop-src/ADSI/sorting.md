@@ -4,10 +4,13 @@ description: A client can request a server to sort the result set.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '795d27f0-0bfa-417e-aa1f-f2471f92dc45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 795d27f0-0bfa-417e-aa1f-f2471f92dc45
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Sorting

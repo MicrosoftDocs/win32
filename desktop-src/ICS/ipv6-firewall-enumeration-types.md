@@ -1,7 +1,12 @@
 ---
 title: IPv6 Internet Connection Firewall Enumerated Types
 description: The IPv6 Internet Connection Firewall API uses the following enumerated type.
-ms.assetid: '6149a972-d2e0-4e54-9d64-c63402450b48'
+ms.assetid: 6149a972-d2e0-4e54-9d64-c63402450b48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Internet Connection Firewall Enumerated Types

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'C6289E38-281A-46A2-8E28-138A20BF6684'
-title: 'IPartFont2::GetFontRestriction method'
+---
+Description: .
+ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684
+title: IPartFont2GetFontRestriction method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartFont2::GetFontRestriction method

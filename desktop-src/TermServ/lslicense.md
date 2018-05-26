@@ -4,17 +4,22 @@ description: Contains information about a specific Remote Desktop Services licen
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2c7f7b7a-e3b5-4f84-b49f-5f1d6960652d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2c7f7b7a-e3b5-4f84-b49f-5f1d6960652d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["LSLicense structure Remote Desktop Services", "LPLSLicense structure pointer Remote Desktop Services"]
+keywords:
+- LSLicense structure Remote Desktop Services
+- LPLSLicense structure pointer Remote Desktop Services
 topic_type:
 - apiref
 api_name:
 - LSLicense
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # LSLicense structure
@@ -24,7 +29,7 @@ Contains information about a specific Remote Desktop Services license.
 > [!Note]  
 > This structure is not defined in any header file. To use this structure, you must define it yourself as shown in this topic.
 
- 
+ 
 
 ## Syntax
 
@@ -134,8 +139,8 @@ Current status of the license.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -155,9 +160,9 @@ Current status of the license.
 [**TLSLicenseEnumEnd**](tlslicenseenumend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

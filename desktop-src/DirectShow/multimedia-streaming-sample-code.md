@@ -1,7 +1,12 @@
 ---
 Description: Multimedia Streaming Sample Code
-ms.assetid: '3fe2996b-b4de-40ad-bd02-d850a45f3a2c'
+ms.assetid: 3fe2996b-b4de-40ad-bd02-d850a45f3a2c
 title: Multimedia Streaming Sample Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Streaming Sample Code

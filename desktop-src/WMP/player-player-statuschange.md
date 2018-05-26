@@ -1,8 +1,11 @@
 ---
 title: Player.StatusChange event
 description: The StatusChange event occurs when the status property changes value.
-ms.assetid: 'a457c345-2f24-4f91-a7ff-27025f7bb41d'
-keywords: ["StatusChange event Windows Media Player", "StatusChange event Windows Media Player , Player class", "Player class Windows Media Player , StatusChange event"]
+ms.assetid: a457c345-2f24-4f91-a7ff-27025f7bb41d
+keywords:
+- StatusChange event Windows Media Player
+- StatusChange event Windows Media Player , Player class
+- Player class Windows Media Player , StatusChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.StatusChange event
@@ -55,9 +63,9 @@ This event does not return a value.
 [**Player.status**](player-status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

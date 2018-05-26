@@ -1,14 +1,20 @@
 ---
 title: DropDownColorPicker element
 description: Represents a Drop-Down Color Pickercontrol that when clicked displays a palette of color swatches.
-ms.assetid: 'fc4df978-9c52-43d5-8a5e-e015aa7058cd'
-keywords: ["DropDownColorPicker element Windows Ribbon"]
+ms.assetid: fc4df978-9c52-43d5-8a5e-e015aa7058cd
+keywords:
+- DropDownColorPicker element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - DropDownColorPicker
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DropDownColorPicker element
@@ -228,7 +234,7 @@ This section of code shows the three types of **DropDownColorPicker** control de
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -243,9 +249,9 @@ This section of code shows the three types of **DropDownColorPicker** control de
 [DropDownColorPicker Sample](windowsribbon-dropdowncolorpickersample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

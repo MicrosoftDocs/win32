@@ -1,8 +1,9 @@
 ---
 title: External.libraryLocationID
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '9a9bea89-c05c-4759-be22-86588bbeca2c'
-keywords: ["External.libraryLocationID Windows Media Player"]
+ms.assetid: 9a9bea89-c05c-4759-be22-86588bbeca2c
+keywords:
+- External.libraryLocationID Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.libraryLocationID
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **libraryLocationID** property retrieves the identifier of the specific media item that is currently displayed in the Player's view.
 
@@ -61,9 +67,9 @@ Certain views in Windows Media Player are associated with a particular media ite
 [**Location and Selected Item**](location-and-selected-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

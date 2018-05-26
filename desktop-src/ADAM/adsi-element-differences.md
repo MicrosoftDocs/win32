@@ -4,11 +4,15 @@ description: When using ADSI programming elements to develop applications for AD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '18190f88-92d2-4832-85f3-50bba8cc86c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 18190f88-92d2-4832-85f3-50bba8cc86c1
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["ADSI Element Differences ADAM"]
+keywords:
+- ADSI Element Differences ADAM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Element Differences

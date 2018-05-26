@@ -4,13 +4,16 @@ description: Removes DNS credentials to be used by the DHCP server for registeri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5b0e01f3-a58d-4f08-8a5c-cbff2eedab48'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5b0e01f3-a58d-4f08-8a5c-cbff2eedab48
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerDnsCredential class", "PS_DhcpServerDnsCredential class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerDnsCredential class
+- PS_DhcpServerDnsCredential class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerDnsCredential class
@@ -30,9 +36,9 @@ Removes DNS credentials to be used by the DHCP server for registering leases wit
 
 ```mof
 uint32 Remove(
-  [in]  string                  ComputerName,
-  [in]  boolean                 PassThru,
-  [out] DhcpServerDnsCredential cmdletOutput
+  [in]  string                  ComputerName,
+  [in]  boolean                 PassThru,
+  [out] DhcpServerDnsCredential cmdletOutput
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of a [**DhcpServerDnsCredential**](dhcpserverdnscredential.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of a [**DhcpServerDnsCredential**](dhcpserverdnscredential.
 [**PS\_DhcpServerDnsCredential**](ps-dhcpserverdnscredential.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

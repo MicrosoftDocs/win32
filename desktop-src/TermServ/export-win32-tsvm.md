@@ -4,11 +4,14 @@ description: Retrieves the virtual machine session monitoring information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7996651c-aa7c-4fde-84a6-928b27c8c5b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7996651c-aa7c-4fde-84a6-928b27c8c5b8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Export method Remote Desktop Services", "Export method Remote Desktop Services , Win32_TSVm class", "Win32_TSVm class Remote Desktop Services , Export method"]
+keywords:
+- Export method Remote Desktop Services
+- Export method Remote Desktop Services , Win32_TSVm class
+- Win32_TSVm class Remote Desktop Services , Export method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Export method of the Win32\_TSVm class
@@ -28,8 +34,8 @@ Retrieves the virtual machine session monitoring information.
 
 ```mof
 uint32 Export(
-  [in]  string ExportFolderPath,
-  [out] string ExportJobObjectPath
+  [in]  string ExportFolderPath,
+  [out] string ExportJobObjectPath
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
@@ -78,9 +84,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSVm**](win32-tsvm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

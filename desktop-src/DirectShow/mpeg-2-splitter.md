@@ -1,7 +1,12 @@
 ---
-Description: 'MPEG-2 Splitter'
-ms.assetid: '06704a5a-e7ae-4187-ae36-32512d951aaf'
-title: 'MPEG-2 Splitter'
+Description: MPEG-2 Splitter
+ms.assetid: 06704a5a-e7ae-4187-ae36-32512d951aaf
+title: MPEG-2 Splitter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Splitter
@@ -27,7 +32,7 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), <strong>ISpecifyPropertyPages</strong>, [<strong>IAMParse</strong>](iamparse.md), [<strong>IAMStreamSelect</strong>](iamstreamselect.md)</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), <strong>ISpecifyPropertyPages</strong>, [<strong>IAMParse</strong>](/windows/win32/Amparse/nn-amparse-iamparse?branch=master), [<strong>IAMStreamSelect</strong>](/windows/win32/Strmif/nn-strmif-iamstreamselect?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -39,7 +44,7 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -47,7 +52,7 @@ For program and transport streams delivered in push-mode, use the [MPEG-2 Demult
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IMediaSeeking</strong>](imediaseeking.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

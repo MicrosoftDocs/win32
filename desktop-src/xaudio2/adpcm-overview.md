@@ -1,7 +1,12 @@
 ---
-Description: 'Adaptive Differential Pulse Code Modulation (ADPCM) is a lossy compression format that is implemented for XAudio2 to provide additional features for specifying the size of the compression sample block.'
-ms.assetid: 'ae8a0a3e-293c-8193-d252-046d79771cfb'
+Description: Adaptive Differential Pulse Code Modulation (ADPCM) is a lossy compression format that is implemented for XAudio2 to provide additional features for specifying the size of the compression sample block.
+ms.assetid: ae8a0a3e-293c-8193-d252-046d79771cfb
 title: ADPCM Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADPCM Overview
@@ -72,8 +77,8 @@ An ADPCM file is a standard RIFF file with the following chunk types.
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RIFF          | Standard RIFF chunk containing a file type with the value WAVE in the first four bytes of its data section and the other chunks in the file in the remainder of its data section.                                                                                                                                                                                                                                                                 |
 | fmt           | Contains the format header for the ADPCM file. The data in this chunk corresponds to a **ADPCMWAVEFORMAT** structure.                                                                                                                                                                                                                                                                                                                             |
-| data          | Contains the encoded ADPCM audio data. When you use ADPCM in XAudio2, you need to read the contents of the data chunk into a buffer, and pass it to a source voice as the **pAudioData** member of an [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure. You don't need to byte swap the contents of the data chunk.                                                                                                                            |
-| smpl and wsmp | Optional chunk types containing the looping information for the ADPCM file. When you use ADPCM in XAudio2, the values contained in the smpl or wsmp chunks are used to populate the **LoopBeginLoopLength** and **LoopCount** members of the [**XAUDIO2\_BUFFER**](xaudio2-buffer.md) structure. On the Xbox 360, you need to byte swap the data loaded from a smpl chunk to account for the endianness difference between Windows and Xbox 360. |
+| data          | Contains the encoded ADPCM audio data. When you use ADPCM in XAudio2, you need to read the contents of the data chunk into a buffer, and pass it to a source voice as the **pAudioData** member of an [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure. You don't need to byte swap the contents of the data chunk.                                                                                                                            |
+| smpl and wsmp | Optional chunk types containing the looping information for the ADPCM file. When you use ADPCM in XAudio2, the values contained in the smpl or wsmp chunks are used to populate the **LoopBeginLoopLength** and **LoopCount** members of the [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master) structure. On the Xbox 360, you need to byte swap the data loaded from a smpl chunk to account for the endianness difference between Windows and Xbox 360. |
 
 
 

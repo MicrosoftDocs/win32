@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether the decoder drops intra frames with missing reference frames.'
-ms.assetid: '9007d5a8-f498-4394-a4e6-02a7616f3e2a'
+Description: Specifies whether the decoder drops intra frames with missing reference frames.
+ms.assetid: 9007d5a8-f498-4394-a4e6-02a7616f3e2a
 title: AVDecVideoDropPicWithMissingRef property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecVideoDropPicWithMissingRef property
@@ -28,8 +33,8 @@ If the bitstream is corrupted, a frame might have missing reference frames. If t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ If the bitstream is corrupted, a frame might have missing reference frames. If t
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

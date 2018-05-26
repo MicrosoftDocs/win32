@@ -1,13 +1,16 @@
 ---
-Description: 'The recommended way to create a new WMI base class for a WMI provider is in a Managed Object Format (MOF) file.'
+Description: The recommended way to create a new WMI base class for a WMI provider is in a Managed Object Format (MOF) file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd46060aa-77c3-4f51-b4a7-2c3612f2bc5c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d46060aa-77c3-4f51-b4a7-2c3612f2bc5c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Base Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a WMI Base Class
@@ -129,7 +132,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
 **To create a new base class with the WMI API**
 
-1.  Retrieve a definition for the new class by calling the [**IWbemServices::GetObject**](iwbemservices-getobject.md) method with the *strObjectPath* parameter set to a **null** value.
+1.  Retrieve a definition for the new class by calling the [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) method with the *strObjectPath* parameter set to a **null** value.
 
     The following code example shows how to retrieve a definition for a new class.
 
@@ -143,7 +146,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     
 
-2.  Establish a name for the class by setting the **\_\_CLASS** system property with a call to the [**IWbemClassObject::Put**](iwbemclassobject-put.md) method.
+2.  Establish a name for the class by setting the **\_\_CLASS** system property with a call to the [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master) method.
 
     The following code example shows how to name the class by setting the **\_\_CLASS** system property.
 
@@ -161,7 +164,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     
 
-3.  Create the key property or properties by calling [**IWbemClassObject::Put**](iwbemclassobject-put.md).
+3.  Create the key property or properties by calling [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master).
 
     The following code example describes how to create the [**Index**](swbemrefreshableitem-index.md) property, which is labeled as a key property in Step 4.
 
@@ -172,7 +175,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     
 
-4.  Attach the [**Key**](standard-qualifiers.md) standard qualifier to the key property by first calling the [**IWbemClassObject::GetPropertyQualifierSet**](iwbemclassobject-getpropertyqualifierset.md) method and then the [**IWbemQualifierSet::Put**](iwbemqualifierset-put.md) method.
+4.  Attach the [**Key**](standard-qualifiers.md) standard qualifier to the key property by first calling the [**IWbemClassObject::GetPropertyQualifierSet**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset?branch=master) method and then the [**IWbemQualifierSet::Put**](/windows/win32/Wbemcli/nf-wbemcli-iwbemqualifierset-put?branch=master) method.
 
     The following code example shows how to attach the [**Key**](standard-qualifiers.md) standard qualifier to the key property.
 
@@ -195,7 +198,7 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     
 
-5.  Create other properties of the class with [**IWbemClassObject::Put**](iwbemclassobject-put.md).
+5.  Create other properties of the class with [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master).
 
     The following code example describes how to create additional properties.
 
@@ -214,9 +217,9 @@ You can create a new base class programmatically using the [COM API for WMI](com
 
     
 
-6.  Register the new class by calling [**IWbemServices::PutClass**](iwbemservices-putclass.md).
+6.  Register the new class by calling [**IWbemServices::PutClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclass?branch=master).
 
-    Because you cannot define keys and indices after you register a new class, ensure that you have defined all of your properties before calling [**PutClass**](iwbemservices-putclass.md).
+    Because you cannot define keys and indices after you register a new class, ensure that you have defined all of your properties before calling [**PutClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclass?branch=master).
 
     The following code example describes how to register a new class.
 

@@ -4,13 +4,40 @@ description: Return values used by the Network Load Balancer provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d261082-6cdf-418f-b986-cbdd9c596023'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4d261082-6cdf-418f-b986-cbdd9c596023
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["standard return values Failover Cluster", "return values Failover Cluster", "WLBS_OK", "WLBS_ALREADY", "WLBS_DRAIN_STOP", "WLBS_BAD_PARAMS", "WLBS_NOT_FOUND", "WLBS_STOPPED", "WLBS_CONVERGING", "WLBS_CONVERGED", "WLBS_DEFAULT", "WLBS_DRAINING", "WLBS_SUSPENDED", "WLBS_MEDIA_DISCONNECTED", "WLBS_REBOOT", "WLBS_INIT_ERROR", "WLBS_BAD_PASSW", "WLBS_IO_ERROR", "WLBS_TIMEOUT", "WLBS_PORT_OVERLAP", "WLBS_BAD_PORT_PARAMS", "WLBS_MAX_PORT_RULES", "WLBS_TRUNCATED", "WLBS_REG_ERROR"]
+keywords:
+- standard return values Failover Cluster
+- return values Failover Cluster
+- WLBS_OK
+- WLBS_ALREADY
+- WLBS_DRAIN_STOP
+- WLBS_BAD_PARAMS
+- WLBS_NOT_FOUND
+- WLBS_STOPPED
+- WLBS_CONVERGING
+- WLBS_CONVERGED
+- WLBS_DEFAULT
+- WLBS_DRAINING
+- WLBS_SUSPENDED
+- WLBS_MEDIA_DISCONNECTED
+- WLBS_REBOOT
+- WLBS_INIT_ERROR
+- WLBS_BAD_PASSW
+- WLBS_IO_ERROR
+- WLBS_TIMEOUT
+- WLBS_PORT_OVERLAP
+- WLBS_BAD_PORT_PARAMS
+- WLBS_MAX_PORT_RULES
+- WLBS_TRUNCATED
+- WLBS_REG_ERROR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Standard Return Values
@@ -49,11 +76,11 @@ The Network Load Balancing Provider communicates status and error information as
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

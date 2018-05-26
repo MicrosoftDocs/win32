@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the stylus identifier.'
-ms.assetid: '27320a2f-1e4a-4d7d-a1f8-5244f4a03415'
-title: 'ITabletCursor::GetId method'
+Description: Retrieves the stylus identifier.
+ms.assetid: 27320a2f-1e4a-4d7d-a1f8-5244f4a03415
+title: ITabletCursorGetId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursor::GetId method
@@ -13,7 +18,7 @@ Retrieves the stylus identifier.
 
 ```C++
 HRESULT GetId(
-  [out] CURSOR_ID *pCid
+  [out] CURSOR_ID *pCid
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ CURSOR\_ID is defined as a DWORD.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -68,9 +73,9 @@ CURSOR\_ID is defined as a DWORD.
 [**ITabletCursor Interface**](itabletcursor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

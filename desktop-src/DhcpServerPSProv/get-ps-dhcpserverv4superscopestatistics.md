@@ -4,13 +4,16 @@ description: Retrieves superscope statistics for the specified super scopes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'da4638c0-1b92-4552-ab0f-b3993c9285ec'
-ms.prod: 'windows-server-dev'
+ms.assetid: da4638c0-1b92-4552-ab0f-b3993c9285ec
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4SuperscopeStatistics class", "PS_DhcpServerv4SuperscopeStatistics class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4SuperscopeStatistics class
+- PS_DhcpServerv4SuperscopeStatistics class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4SuperscopeStatistics class
@@ -30,9 +36,9 @@ Retrieves superscope statistics for the specified super scopes.
 
 ```mof
 uint32 Get(
-  [in]  string                           ComputerName,
-  [in]  string                           Name[],
-  [out] DhcpServerv4SuperscopeStatistics cmdletOutput[]
+  [in]  string                           ComputerName,
+  [in]  string                           Name[],
+  [out] DhcpServerv4SuperscopeStatistics cmdletOutput[]
 );
 ```
 
@@ -74,7 +80,7 @@ Scope address utilization percentage
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -88,9 +94,9 @@ Scope address utilization percentage
 [**PS\_DhcpServerv4SuperscopeStatistics**](ps-dhcpserverv4superscopestatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

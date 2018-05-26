@@ -1,8 +1,9 @@
 ---
 title: TTN\_LINKCLICK notification code
 description: Sent when a text link inside a balloon tooltip is clicked. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'd3e76431-5b5f-4d67-8528-db21fd939917'
-keywords: ["TTN_LINKCLICK notification code Windows Controls"]
+ms.assetid: d3e76431-5b5f-4d67-8528-db21fd939917
+keywords:
+- TTN_LINKCLICK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTN\_LINKCLICK notification code
@@ -39,7 +45,7 @@ Following is an example of when this notification is sent. Assume that your ball
 > [!Note]  
 > To use this notification code, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -47,15 +53,15 @@ Following is an example of when this notification is sent. Assume that your ball
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

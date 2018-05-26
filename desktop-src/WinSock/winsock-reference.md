@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Sockets (Winsock) reference section navigation page.'
-ms.assetid: 'baae2bf9-f505-4365-b60e-e3247a0218c8'
+Description: Windows Sockets (Winsock) reference section navigation page.
+ms.assetid: baae2bf9-f505-4365-b60e-e3247a0218c8
 title: Winsock Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock Reference

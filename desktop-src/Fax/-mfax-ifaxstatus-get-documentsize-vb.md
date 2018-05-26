@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.'
-ms.assetid: '6de5b4f4-fa72-4fda-9e01-98343155c89e'
-title: 'FaxStatus.DocumentSize property'
+---
+Description: Retrieves the DocumentSize property for the FaxStatus object of a parent FaxPort object. The DocumentSize property is the size of the fax document associated with the active outbound job on a specific port.
+ms.assetid: 6de5b4f4-fa72-4fda-9e01-98343155c89e
+title: FaxStatus.DocumentSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.DocumentSize property
@@ -53,16 +58,16 @@ You can use the **DocumentSize** property of a [FaxStatus](-mfax-faxstatus.md) o
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
 [**DocumentName**](-mfax-ifaxstatus-get-documentname-vb.md)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> </dl>
 
  

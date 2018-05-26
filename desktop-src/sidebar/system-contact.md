@@ -1,8 +1,10 @@
 ---
 title: System.Contact object
 description: Defines the properties and methods of each member of the Contacts collection.
-ms.assetid: '63c9ebc0-589b-4180-a14a-4e5a2fcfad3b'
-keywords: ["System.Contact object Windows Sidebar", "System.Contact object Windows Sidebar , described"]
+ms.assetid: 63c9ebc0-589b-4180-a14a-4e5a2fcfad3b
+keywords:
+- System.Contact object Windows Sidebar
+- System.Contact object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact object
@@ -48,7 +55,7 @@ The **System.Contact** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,18 +67,18 @@ Each **System.Contact** corresponds to a Windows Mail (formerly Outlook Express)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

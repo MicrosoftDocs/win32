@@ -1,15 +1,20 @@
 ---
 title: Query Languages for Indexing Service
 description: Query Languages for Indexing Service
-ms.assetid: 'cccc0ddf-0100-4742-833a-ca24c8052872'
+ms.assetid: cccc0ddf-0100-4742-833a-ca24c8052872
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Languages for Indexing Service
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 Indexing Service supports two types of query languages: the Indexing Service query language and the Structured Query Language (SQL) query language. An application or script that uses the appropriate application programming interface (API) can use either type of query language to submit the queries to Indexing Service. (The choice of API depends on several factors; see [Programming APIs](programming-apis.md) for a brief discussion.) The following table summarizes the correspondence between query languages and the APIs that support them.
 
@@ -22,7 +27,7 @@ Indexing Service supports two types of query languages: the Indexing Service que
 
 
 
- 
+ 
 
 This section describes the Indexing Service query language and its dialects. It also describes the SQL language and its extensions. The topics include the following.
 
@@ -34,9 +39,9 @@ For a reference to the syntaxes of Dialects 1 and 2 and the SQL language, see [Q
 
 [Secure Code Practices](secure-code-practices.md)
 
- 
+ 
 
- 
+ 
 
 
 

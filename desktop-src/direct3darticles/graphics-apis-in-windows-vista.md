@@ -1,7 +1,12 @@
 ---
 title: Graphics APIs in Windows
 description: This articles discusses Windows graphics features and APIs.
-ms.assetid: '54cd5027-cdcf-fc4a-40a9-beacfaa08681'
+ms.assetid: 54cd5027-cdcf-fc4a-40a9-beacfaa08681
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphics APIs in Windows

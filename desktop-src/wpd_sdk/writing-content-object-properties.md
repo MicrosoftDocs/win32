@@ -1,7 +1,12 @@
 ---
 Description: Writing Object Properties
-ms.assetid: 'f762a571-83ea-4999-ad49-a51044bc790d'
+ms.assetid: f762a571-83ea-4999-ad49-a51044bc790d
 title: Writing Object Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Object Properties
@@ -15,9 +20,9 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 |                                                                |                                                                                                                                                                      |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interface                                                      | Description                                                                                                                                                          |
-| [**IPortableDeviceService**](iportabledeviceservice.md)       | Used to retrieve the **IPortableDeviceContent2** interface to access the supported service methods.                                                                  |
-| [**IPortableDeviceContent2**](iportabledevicecontent2.md)     | Provides access to the content-specific methods.                                                                                                                     |
-| [**IPortableDeviceProperties**](iportabledeviceproperties.md) | Used to write the object property values and to determine whether a given property can be written                                                                    |
+| [**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)       | Used to retrieve the **IPortableDeviceContent2** interface to access the supported service methods.                                                                  |
+| [**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)     | Provides access to the content-specific methods.                                                                                                                     |
+| [**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) | Used to write the object property values and to determine whether a given property can be written                                                                    |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)         | Used to hold the property values to be written, determine results of the write operation, and retrieve attributes of properties (when determining write capability). |
 
 
@@ -28,7 +33,7 @@ When the user chooses option "8" at the command line, the application invokes th
 
 Note that prior to writing the object properties, the sample application opens a Contacts service on a connected device.
 
-The following code for the **WriteContentProperties** method demonstrates how the application uses the [**IPortableDeviceContent2**](iportabledevicecontent2.md) interface to retrieve an [**IPortableDeviceProperties**](iportabledeviceproperties.md) interface. By passing the PROPERTYKEYS of the requested properties to the [**IPortableDeviceProperties::SetValues**](iportabledeviceproperties-getvalues.md) method, **WriteContentProperties** updates the name property.
+The following code for the **WriteContentProperties** method demonstrates how the application uses the [**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master) interface to retrieve an [**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) interface. By passing the PROPERTYKEYS of the requested properties to the [**IPortableDeviceProperties::SetValues**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues?branch=master) method, **WriteContentProperties** updates the name property.
 
 
 ```C++
@@ -166,10 +171,10 @@ void WriteContentProperties(
 
 <dl> <dt>
 
-[**IPortableDeviceContent2**](iportabledevicecontent2.md)
+[**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceProperties**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
 [WpdServicesApiSample](wpdapisample-sample-service-application.md)

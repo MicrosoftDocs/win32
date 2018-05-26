@@ -1,8 +1,9 @@
 ---
 title: BN\_KILLFOCUS notification code
 description: Sent when a button loses the keyboard focus. The button must have the BS\_NOTIFY style to send this notification code. The parent window of the button receives this notification code through the WM\_COMMAND message.
-ms.assetid: '740154ba-47fd-4084-8b86-6166f1e1b39f'
-keywords: ["BN_KILLFOCUS notification code Windows Controls"]
+ms.assetid: 740154ba-47fd-4084-8b86-6166f1e1b39f
+keywords:
+- BN_KILLFOCUS notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BN\_KILLFOCUS notification code
@@ -53,8 +59,8 @@ A handle to the button.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -66,9 +72,9 @@ A handle to the button.
 [BN\_SETFOCUS](bn-setfocus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

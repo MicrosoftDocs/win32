@@ -4,17 +4,22 @@ description: The parameters for the secret agreement algorithm.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '903bc140-bdbf-49f5-9830-f98651a8893d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 903bc140-bdbf-49f5-9830-f98651a8893d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-SecretAgreement-Param attribute AD Schema", "msKds-SecretAgreementParam attribute AD Schema"]
+keywords:
+- ms-Kds-SecretAgreement-Param attribute AD Schema
+- msKds-SecretAgreementParam attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-SecretAgreement-Param
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-SecretAgreement-Param attribute
@@ -38,7 +43,7 @@ The parameters for the secret agreement algorithm.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ The parameters for the secret agreement algorithm.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

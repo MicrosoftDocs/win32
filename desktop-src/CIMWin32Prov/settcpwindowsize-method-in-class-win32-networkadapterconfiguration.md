@@ -1,15 +1,18 @@
 ---
-Description: 'The SetTcpWindowSize WMI class static method is used to set the maximum TCP Receive Window size offered by the system.'
+Description: The SetTcpWindowSize WMI class static method is used to set the maximum TCP Receive Window size offered by the system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c108fd9c-6de4-4f3e-9691-b0b5c1a3dc5f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c108fd9c-6de4-4f3e-9691-b0b5c1a3dc5f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetTcpWindowSize method of the Win32\_NetworkAdapterConfiguration class'
+title: SetTcpWindowSize method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetTcpWindowSize method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetTcpWindowSize(
-  [in] uint16 TcpWindowSize
+  [in] uint16 TcpWindowSize
 );
 ```
 
@@ -391,7 +394,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -400,9 +403,9 @@ DHCP not enabled on adapter.
 The receive window specifies the number of bytes a sender can transmit without receiving an acknowledgment. In general, larger receive windows improve performance over high-delay and high-bandwidth networks. For efficiency, the receive window should be an even multiple of the TCP Maximum Segment Size (MSS).
 
 > [!Note]  
-> Windows Vista: This method accesses the `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` registry entry, which is not used in the current implementation of the operating system.
+> Windows Vista: This method accesses the `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` registry entry, which is not used in the current implementation of the operating system.
 
- 
+ 
 
 ## Examples
 
@@ -414,10 +417,10 @@ The [Modify the TCP Window Size for All Network Adapters](https://Gallery.TechNe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -443,9 +446,9 @@ The [Modify the TCP Window Size for All Network Adapters](https://Gallery.TechNe
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

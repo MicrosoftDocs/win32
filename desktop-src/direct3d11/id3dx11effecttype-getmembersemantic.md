@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectType GetMemberSemantic method
 description: Get the semantic attached to a member.
-ms.assetid: 'e0666d4e-7510-4496-849e-a0531238b5f8'
-keywords: ["GetMemberSemantic method Direct3D 11", "GetMemberSemantic method Direct3D 11 , ID3DX11EffectType interface", "ID3DX11EffectType interface Direct3D 11 , GetMemberSemantic method"]
+ms.assetid: e0666d4e-7510-4496-849e-a0531238b5f8
+keywords:
+- GetMemberSemantic method Direct3D 11
+- GetMemberSemantic method Direct3D 11 , ID3DX11EffectType interface
+- ID3DX11EffectType interface Direct3D 11 , GetMemberSemantic method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectType::GetMemberSemantic method
@@ -23,7 +31,7 @@ Get the semantic attached to a member.
 
 ```C++
 LPCSTR GetMemberSemantic(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -53,7 +61,7 @@ A string that contains the semantic.
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ A string that contains the semantic.
 [ID3DX11EffectType](id3dx11effecttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

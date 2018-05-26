@@ -1,8 +1,10 @@
 ---
 title: Msvm\_KvpExchangeComponentSettingData class
 description: Represents the configured state of the key/value pair exchange service.
-ms.assetid: 'd5bf2ca4-d87b-4a93-a18a-b081f2a01aec'
-keywords: ["Msvm_KvpExchangeComponentSettingData class Hyper-V", "Msvm_KvpExchangeComponentSettingData class Hyper-V , described"]
+ms.assetid: d5bf2ca4-d87b-4a93-a18a-b081f2a01aec
+keywords:
+- Msvm_KvpExchangeComponentSettingData class Hyper-V
+- Msvm_KvpExchangeComponentSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_KvpExchangeComponentSettingData class
@@ -49,32 +56,32 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_KvpExchangeComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "Key-Value
+  string  Caption = "Key-Value
       Pair Exchange";
-  string  Description = "Microsoft
+  string  Description = "Microsoft
       Key-Value Pair Exchange Component Setting Data";
-  string  InstanceID = "Microsoft:GUID\device-specific data";
-  string  ElementName = "Key-Value Pair Exchange";
-  uint16  ResourceType = 1;
-  string  OtherResourceType = "Microsoft Key-Value Pair Exchange Component";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "Integration Components";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
+  string  InstanceID = "Microsoft:GUID\device-specific data";
+  string  ElementName = "Key-Value Pair Exchange";
+  uint16  ResourceType = 1;
+  string  OtherResourceType = "Microsoft Key-Value Pair Exchange Component";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "Integration Components";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
   boolean AutomaticAllocation = TRUE;
   boolean AutomaticDeallocation = TRUE;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  ResourceSubType;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
-  uint16  EnabledState = 2;
-  String  HostExchangeItems[];
-  String  HostOnlyItems[];
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  ResourceSubType;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
+  uint16  EnabledState = 2;
+  String  HostExchangeItems[];
+  String  HostOnlyItems[];
 };
 ```
 
@@ -278,7 +285,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 An array of [**Msvm\_KvpExchangeDataItem**](msvm-kvpexchangedataitem.md) instances containing the key/value pairs that are stored in the configuration file but not exchanged with the guest operating system. This allows applications to store VM-specific data that does not need to be visible to the guest operating system. The items are formatted the same as the items in the **HostExchangeItems** property except the **Source** property of the **Msvm\_KvpExchangeDataItem** instance is set to 4. Each configuration file is limited to 128 key/value pairs, where each value field is allowed to be up to 16 KB in size and the key field is allowed to be up to 512 bytes.
 
-**Windows Server 2008:** The **HostOnlyItems** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **HostOnlyItems** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -464,9 +471,9 @@ Access to the **Msvm\_KvpExchangeComponentSettingData** class might be restricte
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -485,9 +492,9 @@ Access to the **Msvm\_KvpExchangeComponentSettingData** class might be restricte
 [Integration Services Classes](integration-components-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: This topic covers some of the design considerations regarding handl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C9A74D0A-EC50-482E-903F-71467DC01CDA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: C9A74D0A-EC50-482E-903F-71467DC01CDA
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Handling WhatIf and Confirm in cmdlets

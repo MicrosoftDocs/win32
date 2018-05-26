@@ -4,11 +4,15 @@ description: The following code example creates an attributeSchema object in the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5f679a88-29d1-44ec-918b-091522188ae9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5f679a88-29d1-44ec-918b-091522188ae9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Creating an Attribute AD"]
+keywords:
+- Example Code for Creating an Attribute AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Creating an Attribute

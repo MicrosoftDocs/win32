@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a network key or passphrase.'
-ms.assetid: 'd2ed407e-5eaa-477b-8c4d-a47795048e0b'
-title: 'keyMaterial (sharedKey) Element'
+---
+Description: Contains a network key or passphrase.
+ms.assetid: d2ed407e-5eaa-477b-8c4d-a47795048e0b
+title: keyMaterial (sharedKey) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # keyMaterial (sharedKey) Element
@@ -36,7 +41,7 @@ The following table shows valid **keyMaterial** values for some authentication a
 
 Unicode characters may be entered where ANSI or ASCII characters are specified above. However, if the supplied Unicode characters cannot be mapped to ANSI or ASCII characters, then the supplied key material is rejected.
 
-Key material returned by [**WlanGetProfile**](wlangetprofile.md) is always encrypted. Also, if unencrypted key material is passed to [**WlanSetProfile**](wlansetprofile.md), the key material is automatically encrypted before it is stored in the profile store.
+Key material returned by [**WlanGetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlangetprofile?branch=master) is always encrypted. Also, if unencrypted key material is passed to [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master), the key material is automatically encrypted before it is stored in the profile store.
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The key material is never encrypted.
 

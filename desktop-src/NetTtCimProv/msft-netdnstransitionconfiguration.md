@@ -1,7 +1,12 @@
 ---
-Description: 'Provides configuration settings for DNS64.'
-ms.assetid: 'd5478d7f-0fb4-451e-948f-54f403fb7ff2'
-title: 'MSFT\_NetDnsTransitionConfiguration class'
+Description: Provides configuration settings for DNS64.
+ms.assetid: d5478d7f-0fb4-451e-948f-54f403fb7ff2
+title: MSFT\_NetDnsTransitionConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetDnsTransitionConfiguration class
@@ -16,14 +21,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetTtCim")]
 class MSFT_NetDnsTransitionConfiguration : MSFT_NetSettingData
 {
-  uint32  State;
+  uint32  State;
   boolean OnlySendAQuery;
-  uint32  Latency;
+  uint32  Latency;
   boolean AlwaysSynthesize;
-  string  PrefixMapping[];
-  string  ExclusionList[];
-  string  SendInterface[];
-  string  AcceptInterface[];
+  string  PrefixMapping[];
+  string  ExclusionList[];
+  string  SendInterface[];
+  string  AcceptInterface[];
 };
 ```
 
@@ -48,7 +53,7 @@ The **MSFT\_NetDnsTransitionConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -167,7 +172,7 @@ Indicates whether DNS64 is turned on.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -177,17 +182,17 @@ Indicates whether DNS64 is turned on.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

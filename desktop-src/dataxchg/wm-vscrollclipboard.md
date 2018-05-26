@@ -1,8 +1,9 @@
 ---
 title: WM\_VSCROLLCLIPBOARD message
-description: Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the CF\_OWNERDISPLAY format and an event occurs in the clipboard viewer's vertical scroll bar.
-ms.assetid: '17bd32c4-1b07-42b7-b269-f517e3ec13f3'
-keywords: ["WM_VSCROLLCLIPBOARD message Data Exchange"]
+description: Sent to the clipboard owner by a clipboard viewer window when the clipboard contains data in the CF\_OWNERDISPLAY format and an event occurs in the clipboard viewers vertical scroll bar.
+ms.assetid: 17bd32c4-1b07-42b7-b269-f517e3ec13f3
+keywords:
+- WM_VSCROLLCLIPBOARD message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_VSCROLLCLIPBOARD message
@@ -55,7 +61,7 @@ The low-order word of *lParam* specifies a scroll bar event. This parameter can 
 
 
 
- 
+ 
 
 The high-order word of *lParam* specifies the current position of the scroll box if the low-order word of *lParam* is **SB\_THUMBPOSITION**; otherwise, the high-order word of *lParam* is not used.
 
@@ -75,8 +81,8 @@ The clipboard owner can use the [**ScrollWindow**](_win32_ScrollWindow) function
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -106,9 +112,9 @@ The clipboard owner can use the [**ScrollWindow**](_win32_ScrollWindow) function
 [**ScrollWindow**](_win32_ScrollWindow)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

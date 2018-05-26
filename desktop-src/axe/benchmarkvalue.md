@@ -1,14 +1,20 @@
 ---
 title: BenchmarkValue element
 description: Contains a benchmark value.
-ms.assetid: '355C7B39-7786-40FB-A931-6A39AE54E5E9'
-keywords: ["BenchmarkValue element Access Execution Engine"]
+ms.assetid: 355C7B39-7786-40FB-A931-6A39AE54E5E9
+keywords:
+- BenchmarkValue element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - BenchmarkValue
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BenchmarkValue element
@@ -29,7 +35,7 @@ There are no attributes.
 
 ## Text value
 
-The parameter’s benchmark value. If the user runs the assessment is to be run in benchmark mode, AXE will only populate the jobs’s corresponding parameter value with this value.
+The parameter s benchmark value. If the user runs the assessment is to be run in benchmark mode, AXE will only populate the jobs s corresponding parameter value with this value.
 
 ## Child elements
 
@@ -68,9 +74,9 @@ Reporting tools can use this data to verify that the assessment was run in bench
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

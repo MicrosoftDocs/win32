@@ -1,14 +1,20 @@
 ---
 title: Framebuffer Control State Variables
 description: Framebuffer Control State Variables
-ms.assetid: 'ab57e07d-a694-45e7-a3b3-2e856111b87d'
-keywords: ["Framebuffer Control State Variables OpenGL"]
+ms.assetid: ab57e07d-a694-45e7-a3b3-2e856111b87d
+keywords:
+- Framebuffer Control State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Framebuffer Control State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Framebuffer Control State Variables

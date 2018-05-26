@@ -1,7 +1,12 @@
-﻿---
-Description: 'Texture stage states define multi-blender texture operations.'
-ms.assetid: '87a5a1bb-e748-4c72-8320-ea82250dcc0e'
+---
+Description: Texture stage states define multi-blender texture operations.
+ms.assetid: 87a5a1bb-e748-4c72-8320-ea82250dcc0e
 title: D3DTEXTURESTAGESTATETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTEXTURESTAGESTATETYPE enumeration
@@ -184,7 +189,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-Members of this enumerated type are used with the [**IDirect3DDevice9::GetTextureStageState**](idirect3ddevice9--gettexturestagestate.md) and [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md) methods to retrieve and set texture state values.
+Members of this enumerated type are used with the [**IDirect3DDevice9::GetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-gettexturestagestate?branch=master) and [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master) methods to retrieve and set texture state values.
 
 The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3DTSS\_BUMPENVMAT10, and D3DTSS\_BUMPENVMAT11 bump-mapping matrix coefficients is greater than or equal to -8.0 and less than 8.0. This range, expressed in mathematical notation is (-8.0,8.0).
 
@@ -205,10 +210,10 @@ The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTextureStageState**](idirect3ddevice9--gettexturestagestate.md)
+[**IDirect3DDevice9::GetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-gettexturestagestate?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md)
+[**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master)
 </dt> </dl>
 
  

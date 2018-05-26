@@ -1,7 +1,12 @@
 ---
 Description: XTL Attributes
-ms.assetid: '4113956f-164e-4ff2-ba22-3a5651d6adec'
+ms.assetid: 4113956f-164e-4ff2-ba22-3a5651d6adec
 title: XTL Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTL Attributes

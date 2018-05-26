@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk Convert method
 description: The Convert method converts a disk image to either a dynamically expanding disk image or a fixed-size disk image.
-ms.assetid: 'e3010258-7128-459e-8dec-03aa1d1b04f4'
-keywords: ["Convert method Virtual Server", "Convert method Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , Convert method", "Convert method Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , Convert method"]
+ms.assetid: e3010258-7128-459e-8dec-03aa1d1b04f4
+keywords:
+- Convert method Virtual Server
+- Convert method Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , Convert method
+- Convert method Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , Convert method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::Convert method
@@ -23,9 +33,9 @@ The **Convert** method converts a disk image to either a dynamically expanding d
 
 ```C++
 HRESULT Convert(
-  [in]  BSTR           convertedDiskImagePath,
-  [in]  VMHardDiskType convertedDiskImageType,
-  [out] IVMTask        **convertTask
+  [in]  BSTR           convertedDiskImagePath,
+  [in]  VMHardDiskType convertedDiskImageType,
+  [out] IVMTask        **convertTask
 );
 ```
 
@@ -81,7 +91,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,8 +103,8 @@ The source file is left intact after the conversion process.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ The source file is left intact after the conversion process.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

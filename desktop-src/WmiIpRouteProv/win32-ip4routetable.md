@@ -4,11 +4,13 @@ description: The Win32\_IP4RouteTable \ 32; WMI class represents information tha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cb313097-d5d1-4b8e-bee5-20a894c6788d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: cb313097-d5d1-4b8e-bee5-20a894c6788d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_IP4RouteTable class", "Win32_IP4RouteTable class, described"]
+keywords:
+- Win32_IP4RouteTable class
+- Win32_IP4RouteTable class, described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - Wmipiprt.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_IP4RouteTable class
@@ -51,24 +56,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("RouteProvider"), SupportsCreate, CreateBy("PutInstance"), SupportsDelete, DeleteBy("DeleteInstance"), SupportsUpdate, UUID("{ABEE8C61-A43F-4088-0081-9D00B3FF6545}"), AMENDMENT]
 class Win32_IP4RouteTable : CIM_LogicalElement
 {
-  sint32   Age;
-  string   Caption;
-  string   Description;
-  string   Destination;
-  string   Information;
+  sint32   Age;
+  string   Caption;
+  string   Description;
+  string   Destination;
+  string   Information;
   datetime InstallDate;
-  sint32   InterfaceIndex;
-  string   Mask;
-  sint32   Metric1;
-  sint32   Metric2;
-  sint32   Metric3;
-  sint32   Metric4;
-  sint32   Metric5;
-  string   Name;
-  string   NextHop;
-  uint32   Protocol;
-  string   Status;
-  uint32   Type;
+  sint32   InterfaceIndex;
+  string   Mask;
+  sint32   Metric1;
+  sint32   Metric2;
+  sint32   Metric3;
+  sint32   Metric4;
+  sint32   Metric5;
+  string   Name;
+  string   NextHop;
+  uint32   Protocol;
+  string   Status;
+  uint32   Type;
 };
 ```
 
@@ -508,8 +513,8 @@ The **Win32\_IP4RouteTable** class is derived from [**CIM\_LogicalElement**](htt
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipiprt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipiprt.dll</dt> </dl> |
@@ -526,9 +531,9 @@ The **Win32\_IP4RouteTable** class is derived from [**CIM\_LogicalElement**](htt
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

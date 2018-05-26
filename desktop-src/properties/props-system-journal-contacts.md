@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f0da34f2-852d-4647-8150-979439fc0f4d'
-title: 'System.Journal.Contacts'
+Description: .
+ms.assetid: f0da34f2-852d-4647-8150-979439fc0f4d
+title: System.Journal.Contacts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Journal.Contacts

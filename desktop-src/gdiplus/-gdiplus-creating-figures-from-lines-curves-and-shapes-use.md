@@ -1,12 +1,17 @@
 ---
-Description: 'To create a path, construct a GraphicsPath object, and then call methods, such as AddLine and AddCurve, to add primitives to the path.'
-ms.assetid: '66faeb73-16fb-4b7f-a4d5-a90ec2590d8c'
-title: 'Creating Figures from Lines, Curves, and Shapes'
+Description: To create a path, construct a GraphicsPath object, and then call methods, such as AddLine and AddCurve, to add primitives to the path.
+ms.assetid: 66faeb73-16fb-4b7f-a4d5-a90ec2590d8c
+title: Creating Figures from Lines, Curves, and Shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Figures from Lines, Curves, and Shapes
 
-To create a path, construct a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object, and then call methods, such as [AddLine](-gdiplus-class-graphicspath-addline-methods.md) and [AddCurve](-gdiplus-class-graphicspath-addcurve-methods.md), to add primitives to the path.
+To create a path, construct a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object, and then call methods, such as [AddLine](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addline(in const point &,in const point &)?branch=master) and [AddCurve](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addcurve(in const point,in int)?branch=master), to add primitives to the path.
 
 The following example creates a path that has a single arc. The arc has a sweep angle of –180 degrees, which is counterclockwise in the default coordinate system.
 
@@ -64,7 +69,7 @@ graphics.FillPath(&amp;brush, &amp;path);
 
 
 
-The path in the preceding example has three figures. The first figure consists of the two lines, the second figure consists of the rectangle, and the third figure consists of the ellipse. Even when there are no calls to [**GraphicsPath::CloseFigure**](-gdiplus-class-graphicspath-closefigure-.md) or [**GraphicsPath::StartFigure**](-gdiplus-class-graphicspath-startfigure-.md), intrinsically closed shapes, such as rectangles and ellipses, are considered separate figures.
+The path in the preceding example has three figures. The first figure consists of the two lines, the second figure consists of the rectangle, and the third figure consists of the ellipse. Even when there are no calls to [**GraphicsPath::CloseFigure**](/windows/win32/Gdipluspath/nf-gdipluspath-graphicspath-closefigure?branch=master) or [**GraphicsPath::StartFigure**](/windows/win32/Gdipluspath/nf-gdipluspath-graphicspath-startfigure?branch=master), intrinsically closed shapes, such as rectangles and ellipses, are considered separate figures.
 
  
 

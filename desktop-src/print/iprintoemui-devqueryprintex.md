@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::DevQueryPrintEx method allows a user interface plug-in to help determine if a print job is printable.'
-ms.assetid: 'a1bc9be3-53ec-4506-a409-94a65d7136e1'
-title: 'IPrintOemUI::DevQueryPrintEx method'
+---
+Description: The IPrintOemUIDevQueryPrintEx method allows a user interface plug-in to help determine if a print job is printable.
+ms.assetid: a1bc9be3-53ec-4506-a409-94a65d7136e1
+title: IPrintOemUIDevQueryPrintEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::DevQueryPrintEx method

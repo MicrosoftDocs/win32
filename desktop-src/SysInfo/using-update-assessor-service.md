@@ -1,12 +1,17 @@
 ---
-Description: 'To use the WaaS Assessment Platform API, create an instance of the IWaaSAssessor interface, and then call the GetOSUpdateAssessment method.'
-ms.assetid: '810D4057-8319-4B9B-9098-CD7987CB292C'
+Description: To use the WaaS Assessment Platform API, create an instance of the IWaaSAssessor interface, and then call the GetOSUpdateAssessment method.
+ms.assetid: 810D4057-8319-4B9B-9098-CD7987CB292C
 title: Using the WaaS Assessment Platform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the WaaS Assessment Platform
 
-To use the WaaS Assessment Platform API, create an instance of the [**IWaaSAssessor**](iwaasassessor.md) interface, and then call the [**GetOSUpdateAssessment**](iwaasassessor-getosupdateassessment.md) method. On a success, the *result* parameter will output an [**OSUpdateAssessment**](osupdateassessment.md) object, which will contain the relevant information.
+To use the WaaS Assessment Platform API, create an instance of the [**IWaaSAssessor**](/windows/win32/waasapi/nn-waasapi-iwaasassessor?branch=master) interface, and then call the [**GetOSUpdateAssessment**](/windows/win32/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment?branch=master) method. On a success, the *result* parameter will output an [**OSUpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagosupdateassessment?branch=master) object, which will contain the relevant information.
 
 The following code sample shows how to retrieve an OS assessment from your local system, using the IWaaSAssessor.GetOSUpdateAssessment method.
 

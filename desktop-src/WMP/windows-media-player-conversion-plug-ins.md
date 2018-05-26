@@ -1,8 +1,18 @@
 ---
 title: Windows Media Player Conversion Plug-ins
 description: Windows Media Player Conversion Plug-ins
-ms.assetid: 'b0fbe7a7-22d0-470f-9002-4d061e293009'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,conversion plug-ins", "Windows Media Player plug-ins,conversion", "plug-ins,conversion", "conversion plug-ins,about"]
+ms.assetid: b0fbe7a7-22d0-470f-9002-4d061e293009
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,conversion plug-ins
+- Windows Media Player plug-ins,conversion
+- plug-ins,conversion
+- conversion plug-ins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Conversion Plug-ins

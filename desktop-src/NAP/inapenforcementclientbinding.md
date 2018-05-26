@@ -1,8 +1,10 @@
 ---
 title: INapEnforcementClientBinding interface
 description: Enforcement clients use to communicate with the NapAgent.
-ms.assetid: '73c5c9ad-f213-4d34-9262-996acb570a55'
-keywords: ["INapEnforcementClientBinding interface NAP", "INapEnforcementClientBinding interface NAP , described"]
+ms.assetid: 73c5c9ad-f213-4d34-9262-996acb570a55
+keywords:
+- INapEnforcementClientBinding interface NAP
+- INapEnforcementClientBinding interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientBinding interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientBinding** provides methods that enforcement clients use to communicate with the NapAgent.
 
@@ -46,7 +53,7 @@ The **INapEnforcementClientBinding** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,8 +65,8 @@ All the APIs in this interface will return RPC\_E\_DISCONNECTED if the NapAgent 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -76,9 +83,9 @@ All the APIs in this interface will return RPC\_E\_DISCONNECTED if the NapAgent 
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

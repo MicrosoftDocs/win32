@@ -2,11 +2,13 @@
 title: PS\_VpnConnectionTriggerDnsConfiguration class
 description: The PS\_VpnConnectionTriggerDnsConfiguration class provides methods to manage the DNS trigger configuration of the VPN profile.
 audience: developer
-ms.assetid: '16D080E3-8069-431A-8A05-3FF487122CB6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 16D080E3-8069-431A-8A05-3FF487122CB6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_VpnConnectionTriggerDnsConfiguration class", "PS_VpnConnectionTriggerDnsConfiguration class, described"]
+keywords:
+- PS_VpnConnectionTriggerDnsConfiguration class
+- PS_VpnConnectionTriggerDnsConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_VpnConnectionTriggerDnsConfiguration class
@@ -57,7 +62,7 @@ The **PS\_VpnConnectionTriggerDnsConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -104,17 +109,17 @@ The DNS configuration contains a list of DNS suffixes and, for each suffix, a li
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

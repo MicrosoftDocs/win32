@@ -1,7 +1,12 @@
 ---
 title: Advanced Topics
 description: Advanced Topics
-ms.assetid: '058cb773-8edd-475e-b736-fb88efbdaf07'
+ms.assetid: 058cb773-8edd-475e-b736-fb88efbdaf07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Topics

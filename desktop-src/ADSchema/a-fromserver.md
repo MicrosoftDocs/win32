@@ -4,17 +4,22 @@ description: The distinguished name of the replication source server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c4ff05fe-21a7-4b59-90f8-f3bd723285fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c4ff05fe-21a7-4b59-90f8-f3bd723285fa
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["From-Server attribute AD Schema", "fromServer attribute AD Schema"]
+keywords:
+- From-Server attribute AD Schema
+- fromServer attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - From-Server
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # From-Server attribute
@@ -38,13 +43,13 @@ The distinguished name of the replication source server.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The distinguished name of the replication source server.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

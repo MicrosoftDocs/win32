@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageDiagnoseResult class
 description: Represents the result of a diagnose method call on a storage object.
-ms.assetid: '6C164BE2-2B7B-404B-A254-1FBBB9FAE579'
-keywords: ["MSFT_StorageDiagnoseResult class Windows Storage Management API", "MSFT_StorageDiagnoseResult class Windows Storage Management API , described"]
+ms.assetid: 6C164BE2-2B7B-404B-A254-1FBBB9FAE579
+keywords:
+- MSFT_StorageDiagnoseResult class Windows Storage Management API
+- MSFT_StorageDiagnoseResult class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageDiagnoseResult class
@@ -33,15 +40,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_StorageDiagnoseResult
 {
-  String                 FaultId;
-  String                 FaultType;
-  String                 FaultingObjectDescription;
-  String                 FaultingObjectLocation;
+  String                 FaultId;
+  String                 FaultType;
+  String                 FaultingObjectDescription;
+  String                 FaultingObjectLocation;
   MSFT_StorageObject REF FaultingObject;
-  String                 Reason;
-  String                 RecommendedActions[];
-  UInt16                 PerceivedSeverity;
-  Datetime               EventTime;
+  String                 Reason;
+  String                 RecommendedActions[];
+  UInt16                 PerceivedSeverity;
+  Datetime               EventTime;
 };
 ```
 
@@ -163,7 +170,7 @@ Denotes the perceived severity of the event from the notifier's point of view. O
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -199,16 +206,16 @@ Free form descriptions of the recommended actions to take to resolve the cause o
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

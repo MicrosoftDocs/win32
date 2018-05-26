@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies existing key-value pairs on a virtual machine.'
-ms.assetid: 'A014F681-4429-4982-95AA-DF371925BB3B'
-title: 'ModifyKvpItems method of the Msvm\_VirtualSystemManagementService class'
+Description: Modifies existing key-value pairs on a virtual machine.
+ms.assetid: A014F681-4429-4982-95AA-DF371925BB3B
+title: ModifyKvpItems method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyKvpItems method of the Msvm\_VirtualSystemManagementService class
@@ -13,9 +18,9 @@ Modifies existing key-value pairs on a virtual machine.
 
 ```mof
 uint32 ModifyKvpItems(
-  [in]  CIM_ComputerSystem REF TargetSystem,
-  [in]  string                 DataItems[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF TargetSystem,
+  [in]  string                 DataItems[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -110,7 +115,7 @@ The following C# sample modifies key-value pairs on a virtual machine. The refer
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -190,7 +195,7 @@ The following Visual Basic Scripting Edition (VBScript) sample modifies key-valu
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -363,8 +368,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -381,9 +386,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

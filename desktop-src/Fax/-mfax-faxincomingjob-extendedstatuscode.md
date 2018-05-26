@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtendedStatusCode property specifies a code describing the job''s extended status.'
-ms.assetid: '15333cd3-e71a-451c-ae93-9e217ea0895c'
-title: 'FaxIncomingJob.ExtendedStatusCode property'
+---
+Description: The ExtendedStatusCode property specifies a code describing the jobs extended status.
+ms.assetid: 15333cd3-e71a-451c-ae93-9e217ea0895c
+title: FaxIncomingJob.ExtendedStatusCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.ExtendedStatusCode property
@@ -21,7 +26,7 @@ Property ExtendedStatusCode As Long
 
 ## Property value
 
-A **Long** that receives the extended job status. For more information, see [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](-mfax-fax-job-extended-status-enum.md).
+A **Long** that receives the extended job status. For more information, see [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_extended_status_enum?branch=master).
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A **Long** that receives the extended job status. For more information, see [**F
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**get\_ExtendedStatusCode**](-mfax-faxincomingjob-extendedstatuscode-cpp.md)
+[**get\_ExtendedStatusCode**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxincomingjob-get_extendedstatuscode?branch=master)
 </dt> </dl>
 
  

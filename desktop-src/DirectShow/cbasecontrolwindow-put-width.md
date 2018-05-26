@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_Width method sets the window width.'
-ms.assetid: 'eb5ad1c2-ba39-4c06-84d2-6708dc8796d8'
-title: 'CBaseControlWindow.put\_Width method'
+Description: The put\_Width method sets the window width.
+ms.assetid: eb5ad1c2-ba39-4c06-84d2-6708dc8796d8
+title: CBaseControlWindow.put\_Width method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_Width method
@@ -13,7 +18,7 @@ The `put_Width` method sets the window width.
 
 ```C++
 HRESULT put_Width(
-   long Width
+   long Width
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up respectively; th
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

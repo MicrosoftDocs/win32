@@ -4,16 +4,21 @@ description: The IADsUser interface implemented by the WinNT ADSI provider suppo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4d3b0f7b-8a3b-4b24-b8f6-ff6affe5632c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4d3b0f7b-8a3b-4b24-b8f6-ff6affe5632c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Unsupported IADsUser Properties ADSI", "WinNT provider ADSI , user object, unsupported IADsUser properties"]
+keywords:
+- Unsupported IADsUser Properties ADSI
+- WinNT provider ADSI , user object, unsupported IADsUser properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Unsupported IADsUser Properties
 
-The [**IADsUser**](iadsuser.md) interface implemented by the WinNT ADSI provider supports all of the [IADsUser properties](iadsuser-property-methods.md) except the following. To obtain and/or modify these properties, use the LDAP provider.
+The [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) interface implemented by the WinNT ADSI provider supports all of the [IADsUser properties](iadsuser-property-methods.md) except the following. To obtain and/or modify these properties, use the LDAP provider.
 
 -   [**BadLoginAddress**](iadsuser-property-methods.md)
 -   [**Department**](iadsuser-property-methods.md)

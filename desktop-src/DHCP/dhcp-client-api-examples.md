@@ -1,19 +1,24 @@
 ---
 title: DHCP Client API Examples
 description: Navigation page for DHCP Client API examples.
-ms.assetid: '85b1ca3a-b004-4cea-b01e-73adda466f13'
+ms.assetid: 85b1ca3a-b004-4cea-b01e-73adda466f13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DHCP Client API Examples
 
 The following examples illustrate two uses of the DHCP Client API:
 
--   Example 1 illustrates how to use the [**DhcpRequestParams**](dhcprequestparams.md) function to retrieve a host name.
--   Example 2 shows how the [**DhcpRegisterParamChange**](dhcpregisterparamchange.md) function can be used to keep track of host name changes.
+-   Example 1 illustrates how to use the [**DhcpRequestParams**](/windows/previous-versions/Dhcpcsdk/nf-dhcpcsdk-dhcprequestparams?branch=master) function to retrieve a host name.
+-   Example 2 shows how the [**DhcpRegisterParamChange**](/windows/previous-versions/Dhcpcsdk/nf-dhcpcsdk-dhcpregisterparamchange?branch=master) function can be used to keep track of host name changes.
 
 ## Example 1: Using the DhcpRequestParams function
 
-The following example illustrates how to retrieve the host name using the [**DhcpRequestParams**](dhcprequestparams.md) function call. The name of the adapter can be retrieved using the **GetInterfaceInfo** structure, which is part of the Internet Protocol Helper API:
+The following example illustrates how to retrieve the host name using the [**DhcpRequestParams**](/windows/previous-versions/Dhcpcsdk/nf-dhcpcsdk-dhcprequestparams?branch=master) function call. The name of the adapter can be retrieved using the **GetInterfaceInfo** structure, which is part of the Internet Protocol Helper API:
 
 
 ```C++
@@ -99,7 +104,7 @@ Routine returns TRUE on success and FALSE on failure.
 
 ## Example 2: Using the DhcpRegisterParamChange function
 
-The following code illustrates how the [**DhcpRegisterParamChange**](dhcpregisterparamchange.md) function can be used to keep track of host name changes:
+The following code illustrates how the [**DhcpRegisterParamChange**](/windows/previous-versions/Dhcpcsdk/nf-dhcpcsdk-dhcpregisterparamchange?branch=master) function can be used to keep track of host name changes:
 
 
 ```C++
@@ -165,7 +170,7 @@ ULONG UpdateHostNameLoop(
 
 
 > [!Note]  
-> The event handle obtained by this routine must not be closed with the **CloseHandle** function. It should be released using the [**DhcpDeRegisterParamChange**](dhcpderegisterparamchange.md) function in order to avoid resource leaks; the **DhcpDeRegisterParamChange** function releases internal resources allocated for this notification.
+> The event handle obtained by this routine must not be closed with the **CloseHandle** function. It should be released using the [**DhcpDeRegisterParamChange**](/windows/previous-versions/Dhcpcsdk/nf-dhcpcsdk-dhcpderegisterparamchange?branch=master) function in order to avoid resource leaks; the **DhcpDeRegisterParamChange** function releases internal resources allocated for this notification.
 
  
 

@@ -4,13 +4,16 @@ description: Starts a job to remove resources from a resource pool. The updated 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cbcd0aff-bc2b-43e1-9b8f-ca0e6294c381'
-ms.prod: 'windows-server-dev'
+ms.assetid: cbcd0aff-bc2b-43e1-9b8f-ca0e6294c381
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveResourcesFromResourcePool method", "RemoveResourcesFromResourcePool method, CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class, RemoveResourcesFromResourcePool method"]
+keywords:
+- RemoveResourcesFromResourcePool method
+- RemoveResourcesFromResourcePool method, CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class, RemoveResourcesFromResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveResourcesFromResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -30,9 +36,9 @@ Starts a job to remove resources from a resource pool. The updated resource pool
 
 ```mof
 uint32 RemoveResourcesFromResourcePool(
-  [in]  CIM_LogicalDevice REF HostResources[],
-  [in]  CIM_ResourcePool  REF Pool,
-  [out] CIM_ConcreteJob   REF Job
+  [in]  CIM_LogicalDevice REF HostResources[],
+  [in]  CIM_ResourcePool  REF Pool,
+  [out] CIM_ConcreteJob   REF Job
 );
 ```
 
@@ -93,7 +99,7 @@ The possible return values are:
 **Incorrect ResourceType for the Pool** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–4095)
+**DMTF Reserved** (8 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -102,10 +108,10 @@ The possible return values are:
 **Size Not Supported** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -115,7 +121,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -129,9 +135,9 @@ The possible return values are:
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

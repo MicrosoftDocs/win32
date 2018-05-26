@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteConnect method notifies the window that the renderer''s input pin has been connected.'
-ms.assetid: '82347ded-eb37-4360-9333-7c837d532115'
-title: 'CBaseWindow.CompleteConnect method'
+Description: The CompleteConnect method notifies the window that the renderers input pin has been connected.
+ms.assetid: 82347ded-eb37-4360-9333-7c837d532115
+title: CBaseWindow.CompleteConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.CompleteConnect method
@@ -47,9 +52,9 @@ This method resets the window activation flag ([**CBaseWindow::m\_bActivated**](
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,24 @@
 ---
-Description: 'The put\_CurrentPosition method sets the current position, relative to the total duration of the stream. This method implements the IMediaPosition::put\_CurrentPosition method.'
-ms.assetid: '22d7e9e4-47da-45b5-9be0-3c5128f90353'
-title: 'CPosPassThru.put\_CurrentPosition method'
+Description: The put\_CurrentPosition method sets the current position, relative to the total duration of the stream. This method implements the IMediaPositionput\_CurrentPosition method.
+ms.assetid: 22d7e9e4-47da-45b5-9be0-3c5128f90353
+title: CPosPassThru.put\_CurrentPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.put\_CurrentPosition method
 
-The `put_CurrentPosition` method sets the current position, relative to the total duration of the stream. This method implements the [**IMediaPosition::put\_CurrentPosition**](imediaposition-put-currentposition.md) method.
+The `put_CurrentPosition` method sets the current position, relative to the total duration of the stream. This method implements the [**IMediaPosition::put\_CurrentPosition**](/windows/win32/Control/nf-control-imediaposition-put_currentposition?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT put_CurrentPosition(
-   REFTIME llTime
+   REFTIME llTime
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

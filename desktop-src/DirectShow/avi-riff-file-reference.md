@@ -1,7 +1,12 @@
 ---
 Description: AVI RIFF File Reference
-ms.assetid: '2d8cf5be-1252-4b58-89b1-f5c53ea17d0e'
+ms.assetid: 2d8cf5be-1252-4b58-89b1-f5c53ea17d0e
 title: AVI RIFF File Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI RIFF File Reference
@@ -102,15 +107,15 @@ RIFF ('AVI '
 
 ## AVI Main Header
 
-The 'hdrl' list begins with the main AVI header, which is contained in an 'avih' chunk. The main header contains global information for the entire AVI file, such as the number of streams within the file and the width and height of the AVI sequence. The main header chunk consists of an [**AVIMAINHEADER**](avimainheader.md) structure.
+The 'hdrl' list begins with the main AVI header, which is contained in an 'avih' chunk. The main header contains global information for the entire AVI file, such as the number of streams within the file and the width and height of the AVI sequence. The main header chunk consists of an [**AVIMAINHEADER**](/windows/win32/Aviriff/ns-aviriff-_avimainheader?branch=master) structure.
 
 ## AVI Stream Headers
 
 One or more 'strl' lists follow the main header. A 'strl' list is required for each data stream. Each 'strl' list contains information about one stream in the file, and must contain a stream header chunk ('strh') and a stream format chunk ('strf'). In addition, a 'strl' list might contain a stream-header data chunk ('strd') and a stream name chunk ('strn').
 
-The stream header chunk ('strh') consists of an [**AVISTREAMHEADER**](avistreamheader.md) structure.
+The stream header chunk ('strh') consists of an [**AVISTREAMHEADER**](/windows/win32/avifmt/ns-avifmt-avistreamheader?branch=master) structure.
 
-A stream format chunk ('strf') must follow the stream header chunk. The stream format chunk describes the format of the data in the stream. The data contained in this chunk depends on the stream type. For video streams, the information is a [**BITMAPINFO**](bitmapinfoheader.md) structure, including palette information if appropriate. For audio streams, the information is a [**WAVEFORMATEX**](waveformatex.md) structure.
+A stream format chunk ('strf') must follow the stream header chunk. The stream format chunk describes the format of the data in the stream. The data contained in this chunk depends on the stream type. For video streams, the information is a [**BITMAPINFO**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure, including palette information if appropriate. For audio streams, the information is a [**WAVEFORMATEX**](/windows/win32/mmreg/?branch=master) structure.
 
 If the stream-header data ('strd') chunk is present, it follows the stream format chunk. The format and content of this chunk are defined by the codec driver. Typically, drivers use this information for configuration. Applications that read and write AVI files do not need to interpret this information; they simple transfer it to and from the driver as a memory block.
 
@@ -137,7 +142,7 @@ The FOURCC that identifies each data chunk consists of a two-digit stream number
 
  
 
-For example, if stream 0 contains audio, the data chunks for that stream would have the FOURCC '00wb'. If stream 1 contains video, the data chunks for that stream would have the FOURCC '01db' or '01dc'. Video data chunks can also define new palette entries to update the palette during an AVI sequence. Each palette-change chunk ('xxpc') contains an [**AVIPALCHANGE**](avipalchange.md) structure. If a stream contains palette changes, set the **AVISF\_VIDEO\_PALCHANGES** flag in the **dwFlags** member of the [**AVISTREAMHEADER**](avistreamheader.md) structure for that stream.
+For example, if stream 0 contains audio, the data chunks for that stream would have the FOURCC '00wb'. If stream 1 contains video, the data chunks for that stream would have the FOURCC '01db' or '01dc'. Video data chunks can also define new palette entries to update the palette during an AVI sequence. Each palette-change chunk ('xxpc') contains an [**AVIPALCHANGE**](/windows/win32/avifmt/ns-avifmt-avipalchange?branch=master) structure. If a stream contains palette changes, set the **AVISF\_VIDEO\_PALCHANGES** flag in the **dwFlags** member of the [**AVISTREAMHEADER**](/windows/win32/avifmt/ns-avifmt-avistreamheader?branch=master) structure for that stream.
 
 Text streams can use arbitrary two-character codes.
 
@@ -148,14 +153,14 @@ Text streams can use arbitrary two-character codes.
 <span id="AVI_1.0_index"></span><span id="avi_1.0_index"></span><span id="AVI_1.0_INDEX"></span>AVI 1.0 index
 </dt> <dd>
 
-An optional index ('idx1') chunk can follow the 'movi' list. The index contains a list of the data chunks and their location in the file. It consists of an [**AVIOLDINDEX**](avioldindex.md) structure with entries for each data chunk, including 'rec ' chunks. If the file contains an index, set the **AVIF\_HASINDEX** flag in the **dwFlags** member of the [**AVIMAINHEADER**](avimainheader.md) structure.
+An optional index ('idx1') chunk can follow the 'movi' list. The index contains a list of the data chunks and their location in the file. It consists of an [**AVIOLDINDEX**](/windows/win32/Aviriff/ns-aviriff-_avioldindex?branch=master) structure with entries for each data chunk, including 'rec ' chunks. If the file contains an index, set the **AVIF\_HASINDEX** flag in the **dwFlags** member of the [**AVIMAINHEADER**](/windows/win32/Aviriff/ns-aviriff-_avimainheader?branch=master) structure.
 
 </dd> <dt>
 
 <span id="AVI_2.0_index"></span><span id="avi_2.0_index"></span><span id="AVI_2.0_INDEX"></span>AVI 2.0 index
 </dt> <dd>
 
-An AVI 2.0 index can appear as a single chunk. Alternatively, index segments can be interleaved within the 'movi' chunk. If the index segments are placed in the 'movi' chunk, a super index contains an index of the index segments. The [**AVIMETAINDEX**](avimetaindex.md) structure is the base structure for both the index segments and the super index. For more information, see the *OpenDML AVI File Format Extensions*, published by the OpenDML AVI M-JPEG File Format Subcommittee. (This resource may not be available in some languages and countries.)
+An AVI 2.0 index can appear as a single chunk. Alternatively, index segments can be interleaved within the 'movi' chunk. If the index segments are placed in the 'movi' chunk, a super index contains an index of the index segments. The [**AVIMETAINDEX**](/windows/win32/aviriff/ns-aviriff-_avimetaindex?branch=master) structure is the base structure for both the index segments and the super index. For more information, see the *OpenDML AVI File Format Extensions*, published by the OpenDML AVI M-JPEG File Format Subcommittee. (This resource may not be available in some languages and countries.)
 
 </dd> </dl>
 

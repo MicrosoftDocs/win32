@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a two-component vector including operator overloads and type casts.'
-ms.assetid: 'e61ec1c8-00b5-491f-8fb1-be97218f6c68'
+---
+Description: Describes a two-component vector including operator overloads and type casts.
+ms.assetid: e61ec1c8-00b5-491f-8fb1-be97218f6c68
 title: D3DXVECTOR2 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVECTOR2 structure

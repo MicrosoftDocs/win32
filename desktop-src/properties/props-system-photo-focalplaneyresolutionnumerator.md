@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_FocalPlaneYResolution.'
-ms.assetid: '4833546a-bc08-4428-baa5-ee53ee7e318c'
-title: 'System.Photo.FocalPlaneYResolutionNumerator'
+Description: The numerator of PKEY\_Photo\_FocalPlaneYResolution.
+ms.assetid: 4833546a-bc08-4428-baa5-ee53ee7e318c
+title: System.Photo.FocalPlaneYResolutionNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FocalPlaneYResolutionNumerator

@@ -4,17 +4,22 @@ description: Contains the Distributed File System (DFS) Replication object optio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e4bf706a-f49a-4976-8317-4d6f98932f8f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e4bf706a-f49a-4976-8317-4d6f98932f8f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-Options attribute AD Schema", "msDFSR-Options attribute AD Schema"]
+keywords:
+- ms-DFSR-Options attribute AD Schema
+- msDFSR-Options attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-Options
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-Options attribute
@@ -38,10 +43,10 @@ Contains the Distributed File System (DFS) Replication object options.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the Distributed File System (DFS) Replication object options.
 
 The **ms-DFSR-Options** attribute is a part of the DFS Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

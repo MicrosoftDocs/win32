@@ -1,8 +1,10 @@
 ---
 title: Job class
 description: This interface represents information about a job.
-ms.assetid: 'BAF26A97-849A-4376-9628-C882EEF3F055'
-keywords: ["Job class Access Execution Engine", "Job class Access Execution Engine , described"]
+ms.assetid: BAF26A97-849A-4376-9628-C882EEF3F055
+keywords:
+- Job class Access Execution Engine
+- Job class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job class
@@ -40,7 +47,7 @@ The **Job** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,8 +55,8 @@ The **Job** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -62,9 +69,9 @@ The **Job** class has these methods.
 [**Execution Solution Interfaces**](execution-solution-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

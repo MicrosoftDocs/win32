@@ -1,8 +1,18 @@
 ---
 title: Enabling DRM Support
 description: Enabling DRM Support
-ms.assetid: '90e92373-7fc2-4478-a179-22f22dbc3a3d'
-keywords: ["Windows Media Format SDK,enabling DRM support", "Advanced Systems Format (ASF),enabling DRM support", "ASF (Advanced Systems Format),enabling DRM support", "digital rights management (DRM),enabling support", "DRM (digital rights management),enabling support"]
+ms.assetid: 90e92373-7fc2-4478-a179-22f22dbc3a3d
+keywords:
+- Windows Media Format SDK,enabling DRM support
+- Advanced Systems Format (ASF),enabling DRM support
+- ASF (Advanced Systems Format),enabling DRM support
+- digital rights management (DRM),enabling support
+- DRM (digital rights management),enabling support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling DRM Support
@@ -27,7 +37,7 @@ The following sections describe how to enable DRM support.
 | [DRM Network Operations](drm-network-operations.md)                                                                           | Describes how your application should handle the DRM operations that communicate over the Internet, or other networks.                                                                          |
 | [Creating Protected Files](creating-protected-files.md)                                                                       | Describes how to create DRM-protected files.                                                                                                                                                    |
 | [Reading Protected Files](reading-protected-files.md)                                                                         | Describes ways to acquire licenses for content and the benefits of implementing silent license acquisition.                                                                                     |
-| [Viewing Attributes of Protected Files](viewing-attributes-of-protected-files.md)                                             | Describes how to use the [**IWMDRMEditor**](iwmdrmeditor.md) interface on the metadata editor object to view attributes of protected files without having the required static library for DRM. |
+| [Viewing Attributes of Protected Files](viewing-attributes-of-protected-files.md)                                             | Describes how to use the [**IWMDRMEditor**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmdrmeditor?branch=master) interface on the metadata editor object to view attributes of protected files without having the required static library for DRM. |
 | [Working with Revocation Lists](working-with-revocation-lists.md)                                                             | Describes revocation lists and how they are implemented.                                                                                                                                        |
 | [Backing Up and Restoring Licenses](backing-up-and-restoring-licenses.md)                                                     | Describes how users can manage their content licenses by backing up and restoring them to their current computer or to other computers.                                                         |
 | [Individualizing DRM Applications](individualizing-drm-applications.md)                                                       | Describes how the [*individualization*](wmformat-glossary.md#wmformat-individualization) feature increases security in a DRM system.                                                           |

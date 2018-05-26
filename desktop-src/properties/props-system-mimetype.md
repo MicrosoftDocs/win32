@@ -1,7 +1,12 @@
 ---
-Description: 'The MIME type.'
-ms.assetid: '9f8f42f8-af90-4f2d-a58c-f892139e86b7'
-title: 'System.MIMEType'
+Description: The MIME type.
+ms.assetid: 9f8f42f8-af90-4f2d-a58c-f892139e86b7
+title: System.MIMEType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MIMEType

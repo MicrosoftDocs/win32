@@ -4,17 +4,21 @@ description: Thrown when the user rights over the protected content have expired
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2b0a3a7c-7b12-4546-9b29-54dd691c91de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2b0a3a7c-7b12-4546-9b29-54dd691c91de
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NoPublishingRightsException class"]
+keywords:
+- NoPublishingRightsException class
 topic_type:
 - apiref
 api_name:
 - NoPublishingRightsException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NoPublishingRightsException class
@@ -32,7 +36,7 @@ public class NoPublishingRightsException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class NoPublishingRightsException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class NoPublishingRightsException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ The **NoPublishingRightsException** class extends the [**ProtectionException**](
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

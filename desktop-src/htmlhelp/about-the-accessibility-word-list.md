@@ -1,7 +1,12 @@
 ---
 title: About the Accessibility Word List
 description: About the Accessibility Word List
-ms.assetid: 'D71B8D3D-EE39-4771-8BE3-FBD6F5C90123'
+ms.assetid: D71B8D3D-EE39-4771-8BE3-FBD6F5C90123
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Accessibility Word List

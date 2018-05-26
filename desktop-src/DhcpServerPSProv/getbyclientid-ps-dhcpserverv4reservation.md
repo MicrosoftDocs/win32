@@ -4,13 +4,16 @@ description: Gets the IPv4 reservation(s) for the specified IP addresses or clie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'df0bc4ea-6625-4240-a27d-efb9d566a628'
-ms.prod: 'windows-server-dev'
+ms.assetid: df0bc4ea-6625-4240-a27d-efb9d566a628
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByClientId method", "GetByClientId method, PS_DhcpServerv4Reservation class", "PS_DhcpServerv4Reservation class, GetByClientId method"]
+keywords:
+- GetByClientId method
+- GetByClientId method, PS_DhcpServerv4Reservation class
+- PS_DhcpServerv4Reservation class, GetByClientId method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByClientId method of the PS\_DhcpServerv4Reservation class
@@ -30,10 +36,10 @@ Gets the IPv4 reservation(s) for the specified IP addresses or client identifier
 
 ```mof
 uint32 GetByClientId(
-  [in]  string                  ComputerName,
-  [in]  string                  ClientId[],
-  [in]  string                  ScopeId,
-  [out] DhcpServerv4Reservation cmdletOutput[]
+  [in]  string                  ComputerName,
+  [in]  string                  ClientId[],
+  [in]  string                  ScopeId,
+  [out] DhcpServerv4Reservation cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv4Reservation**](dhcpserverv4reservatio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv4Reservation**](dhcpserverv4reservatio
 [**PS\_DhcpServerv4Reservation**](ps-dhcpserverv4reservation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

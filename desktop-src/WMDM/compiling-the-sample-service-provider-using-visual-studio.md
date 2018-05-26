@@ -1,8 +1,20 @@
 ---
 title: Compiling the Sample Service Provider Using Visual Studio
 description: Compiling the Sample Service Provider Using Visual Studio
-ms.assetid: 'db0ecc18-d5b0-47d8-9b3f-3a9644343de8'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "Windows Media Device Manager,service provider sample", "Device Manager,service provider sample", "service providers,samples", "samples,service providers", "samples,compiling using Visual Studio"]
+ms.assetid: db0ecc18-d5b0-47d8-9b3f-3a9644343de8
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- Windows Media Device Manager,service provider sample
+- Device Manager,service provider sample
+- service providers,samples
+- samples,service providers
+- samples,compiling using Visual Studio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling the Sample Service Provider Using Visual Studio

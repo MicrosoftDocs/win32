@@ -1,14 +1,20 @@
 ---
 title: ddx\_fine function
 description: Computes a high precision partial derivative with respect to the screen-space x-coordinate.
-ms.assetid: '41062d6f-2b7f-4594-a6de-da37ded5d444'
-keywords: ["ddx_fine function HLSL"]
+ms.assetid: 41062d6f-2b7f-4594-a6de-da37ded5d444
+keywords:
+- ddx_fine function HLSL
 topic_type:
 - apiref
 api_name:
 - ddx_fine
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddx\_fine function

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetProperty function returns a handle to a given property.'
-ms.assetid: 'e77ca20a-55df-4d31-aa6d-2c00695f1d6e'
+Description: The GetProperty function returns a handle to a given property.
+ms.assetid: e77ca20a-55df-4d31-aa6d-2c00695f1d6e
 title: GetProperty function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetProperty function
@@ -13,8 +18,8 @@ The **GetProperty** function returns a handle to a given property.
 
 ```C++
 HPROPERTY WINAPI GetProperty(
-  _In_ HPROTOCOL hProtocol,
-  _In_ LPSTR     PropertyName
+  _In_ HPROTOCOL hProtocol,
+  _In_ LPSTR     PropertyName
 );
 ```
 
@@ -56,8 +61,8 @@ The **GetProperty** function can be used to obtain the property handle needed to
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -74,9 +79,9 @@ The **GetProperty** function can be used to obtain the property handle needed to
 [FindPropertyInstanceRestart](findpropertyinstancerestart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

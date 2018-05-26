@@ -1,14 +1,20 @@
 ---
 title: WM/MCDI Attribute
 description: The WM/MCDI attribute is the music CD identifier of the CD from which the file or track was copied.
-ms.assetid: 'f0bec14d-416c-477f-98df-dece0bf85ea4'
-keywords: ["WM/MCDI Attribute Windows Media Player"]
+ms.assetid: f0bec14d-416c-477f-98df-dece0bf85ea4
+keywords:
+- WM/MCDI Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/MCDI
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MCDI Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

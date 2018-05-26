@@ -1,8 +1,9 @@
 ---
 title: MrmIndexResourceContainerAutoQualifiers function
 description: Indexes the string resources contained inside a Resources File (.resw/.resjson), or a .priinfo or .prifile, belonging to a UWP app.
-ms.assetid: '7FCAA2B5-FF45-4961-84BA-B444B550C91D'
-keywords: ["MrmIndexResourceContainerAutoQualifiers function Menus and Other Resources"]
+ms.assetid: 7FCAA2B5-FF45-4961-84BA-B444B550C91D
+keywords:
+- MrmIndexResourceContainerAutoQualifiers function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmIndexResourceContainerAutoQualifiers function
@@ -24,8 +30,8 @@ Indexes the string resources contained inside a Resources File (.resw/.resjson),
 
 ```C++
 HRESULT HRESULT MrmIndexResourceContainerAutoQualifiers(
-  _In_ MrmResourceIndexerHandle indexer,
-  _In_ PCWSTR                   containerPath
+  _In_ MrmResourceIndexerHandle indexer,
+  _In_ PCWSTR                   containerPath
 );
 ```
 
@@ -71,7 +77,7 @@ The name of the Resources File will be used as the resource map subtree name for
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -86,9 +92,9 @@ The name of the Resources File will be used as the resource map subtree name for
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

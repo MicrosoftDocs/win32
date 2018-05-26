@@ -1,14 +1,19 @@
 ---
-Description: 'The InstalledFontCollection class inherits from the FontCollection abstract base class.'
-ms.assetid: '59598f66-4241-4766-a2f0-5de736de959e'
+Description: The InstalledFontCollection class inherits from the FontCollection abstract base class.
+ms.assetid: 59598f66-4241-4766-a2f0-5de736de959e
 title: Enumerating Installed Fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Installed Fonts
 
-The [**InstalledFontCollection**](-gdiplus-class-installedfontcollection-class.md) class inherits from the [**FontCollection**](-gdiplus-class-fontcollection-class.md) abstract base class. You can use an **InstalledFontCollection** object to enumerate the fonts installed on the computer. The [**FontCollection::GetFamilies**](-gdiplus-class-fontcollection-getfamilies-numsought-gpfamilies-numfound-.md) method of an **InstalledFontCollection** object returns an array of [**FontFamily**](-gdiplus-class-fontfamily-class.md) objects. Before you call **FontCollection::GetFamilies**, you must allocate a buffer large enough to hold that array. To determine the size of the required buffer, call the [**FontCollection::GetFamilyCount**](-gdiplus-class-fontcollection-getfamilycount-.md) method and multiply the return value by **sizeof**(**FontFamily**).
+The [**InstalledFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-installedfontcollection?branch=master) class inherits from the [**FontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontcollection?branch=master) abstract base class. You can use an **InstalledFontCollection** object to enumerate the fonts installed on the computer. The [**FontCollection::GetFamilies**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilies?branch=master) method of an **InstalledFontCollection** object returns an array of [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) objects. Before you call **FontCollection::GetFamilies**, you must allocate a buffer large enough to hold that array. To determine the size of the required buffer, call the [**FontCollection::GetFamilyCount**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilycount?branch=master) method and multiply the return value by **sizeof**(**FontFamily**).
 
-The following example lists the names of all the font families installed on the computer. The code retrieves the font family names by calling the [**FontFamily::GetFamilyName**](-gdiplus-class-fontfamily-getfamilyname-name-language-.md) method of each [**FontFamily**](-gdiplus-class-fontfamily-class.md) object in the array returned by [**FontCollection::GetFamilies**](-gdiplus-class-fontcollection-getfamilies-numsought-gpfamilies-numfound-.md). As the family names are retrieved, they are concatenated to form a comma-separated list. Then the [DrawString](-gdiplus-class-graphics-drawstring-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class draws the comma-separated list in a rectangle.
+The following example lists the names of all the font families installed on the computer. The code retrieves the font family names by calling the [**FontFamily::GetFamilyName**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontfamily-getfamilyname?branch=master) method of each [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) object in the array returned by [**FontCollection::GetFamilies**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilies?branch=master). As the family names are retrieved, they are concatenated to form a comma-separated list. Then the [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class draws the comma-separated list in a rectangle.
 
 
 ```

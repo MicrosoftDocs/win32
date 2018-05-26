@@ -4,10 +4,13 @@ description: Manages a Distributed File System (DFS) as a cluster resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C3D21D88-204D-438F-9171-D1B5D7BA9738'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: C3D21D88-204D-438F-9171-D1B5D7BA9738
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed File System
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +38,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Resource Types](resource-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

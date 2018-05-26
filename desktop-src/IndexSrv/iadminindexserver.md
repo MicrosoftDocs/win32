@@ -1,19 +1,26 @@
 ---
 title: IAdminIndexServer interface
 description: Manages the indexing service itself, including the collection of catalogs that identify the documents to be indexed. This object also provides methods to detect whether the indexing service is currently running and to start and stop it programmatically.
-ms.assetid: '6e537b83-00d6-4bcd-85c3-7a882c53024c'
-keywords: ["IAdminIndexServer interface Indexing Service", "IAdminIndexServer interface Indexing Service , described"]
+ms.assetid: 6e537b83-00d6-4bcd-85c3-7a882c53024c
+keywords:
+- IAdminIndexServer interface Indexing Service
+- IAdminIndexServer interface Indexing Service , described
 topic_type:
 - apiref
 api_name:
 - IAdminIndexServer
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAdminIndexServer interface
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Manages the indexing service itself, including the collection of catalogs that identify the documents to be indexed. This object also provides methods to detect whether the indexing service is currently running and to start and stop it programmatically.
 
@@ -52,7 +59,7 @@ The **IAdminIndexServer** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +73,7 @@ The **IAdminIndexServer** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,16 +93,16 @@ Registry entries currently in use by Indexing Service can be found under **HKEY\
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
-| End of client support<br/>    | Windows 7<br/>                                       |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| End of client support<br/>    | Windows 7<br/>                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

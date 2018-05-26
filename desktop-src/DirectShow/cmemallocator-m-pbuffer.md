@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the memory block that contains the buffers.'
-ms.assetid: 'b9d08f5b-8616-4f68-869a-e8ebb77ccdc1'
-title: 'CMemAllocator::m\_pBuffer member'
+Description: Pointer to the memory block that contains the buffers.
+ms.assetid: b9d08f5b-8616-4f68-869a-e8ebb77ccdc1
+title: CMemAllocatorm\_pBuffer member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator::m\_pBuffer member
@@ -39,9 +44,9 @@ Sample buffers are calculated as offsets from this pointer.
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

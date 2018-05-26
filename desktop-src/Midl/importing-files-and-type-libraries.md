@@ -2,7 +2,15 @@
 title: Importing Files and Type Libraries
 description: The MIDL keywords include, import, and importlib let you reuse code by referencing existing header, IDL, and object definition language (ODL) files, and compiled type libraries.
 ms.assetid: b4571c1d-4bd7-4ab1-9ef6-14356a6c4bb4
-keywords: ["Microsoft Interface Definition Language MIDL , tasks, importing files and type libraries", "importing MIDL", "type libraries MIDL , importing"]
+keywords:
+- Microsoft Interface Definition Language MIDL , tasks, importing files and type libraries
+- importing MIDL
+- type libraries MIDL , importing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing Files and Type Libraries

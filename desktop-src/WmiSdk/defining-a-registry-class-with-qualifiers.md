@@ -1,13 +1,16 @@
 ---
-Description: 'The classes used to hold registry data are defined with several standard qualifiers.'
+Description: The classes used to hold registry data are defined with several standard qualifiers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd4786880-6c50-4e36-9a16-47de430e77a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d4786880-6c50-4e36-9a16-47de430e77a9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Defining a Registry Class With Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining a Registry Class With Qualifiers
@@ -16,9 +19,9 @@ The classes used to hold registry data are defined with several standard qualifi
 
 The following is a list of the standard qualifiers:
 
--   [Dynamic](standard-wmi-qualifiers.md) and [**Provider**](provider.md)
+-   [Dynamic](standard-wmi-qualifiers.md) and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master)
 
-    You can attach the **Dynamic** qualifier to either a class or an instance. The **Dynamic** qualifier marks the class or instance as managed dynamically by a provider. When **Dynamic** appears on a class or instance, the [**Provider**](provider.md) qualifier must also appear. The **Provider** qualifier identifies the particular provider that must manage the dynamic class or instance.
+    You can attach the **Dynamic** qualifier to either a class or an instance. The **Dynamic** qualifier marks the class or instance as managed dynamically by a provider. When **Dynamic** appears on a class or instance, the [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier must also appear. The **Provider** qualifier identifies the particular provider that must manage the dynamic class or instance.
 
 -   [ClassContext](standard-wmi-qualifiers.md)
 
@@ -38,7 +41,7 @@ The following is a list of the standard qualifiers:
     Machine_Name|HKEY_LOCAL_MACHINE\\SOFTWARE\\MICROSOFT\\WBEM\\TRANSPORTS
     ```
 
-The following template for a class definition illustrates the use of the **Dynamic**, [**Provider**](provider.md), and **ClassContext** qualifiers. The provider named by the **Provider** qualifier is the instance System Registry provider. Be aware that registry paths are case-insensitive, as are qualifier names.
+The following template for a class definition illustrates the use of the **Dynamic**, [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master), and **ClassContext** qualifiers. The provider named by the **Provider** qualifier is the instance System Registry provider. Be aware that registry paths are case-insensitive, as are qualifier names.
 
 ``` syntax
 [dynamic, provider("RegProv"), 

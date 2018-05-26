@@ -1,8 +1,11 @@
 ---
 title: Messages.count property
 description: Gets the number of System.MessageStore.Message items in the Messages collection.
-ms.assetid: '0fd09708-0b6e-4fd4-b27c-a8f9334e9b29'
-keywords: ["count property Windows Sidebar", "count property Windows Sidebar , Messages collection", "Messages collection Windows Sidebar , count property"]
+ms.assetid: 0fd09708-0b6e-4fd4-b27c-a8f9334e9b29
+keywords:
+- count property Windows Sidebar
+- count property Windows Sidebar , Messages collection
+- Messages collection Windows Sidebar , count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Messages.count property
@@ -36,7 +44,7 @@ An **Integer** that receives the number of items.
 
 ## Remarks
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail (formerly Outlook Express) **Local Folders** collection. Sub-folders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail (formerly Outlook Express) **Local Folders** collection. Sub-folders and their content (such as messages) are not exposed.
 
 ## Examples
 
@@ -83,10 +91,10 @@ function ShowFlyout(iFolderIndex)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -114,9 +122,9 @@ function ShowFlyout(iFolderIndex)
 [**Folders**](system-messagestore-folders.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

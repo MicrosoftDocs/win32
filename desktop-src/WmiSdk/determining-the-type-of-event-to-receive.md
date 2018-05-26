@@ -1,13 +1,16 @@
 ---
-Description: 'Before you register to receive an event, you must determine the types of events to receive: intrinsic or extrinsic.'
+Description: Before you register to receive an event, you must determine the types of events to receive intrinsic or extrinsic.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '46cdfcfa-42c6-4169-bc4d-725867224889'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 46cdfcfa-42c6-4169-bc4d-725867224889
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Determining the Type of Event to Receive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Determining the Type of Event to Receive

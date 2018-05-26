@@ -4,11 +4,13 @@ description: Expands system-defined environment variables.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f79d4fa2-1a6e-4a2f-a637-b62f05cfd2ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f79d4fa2-1a6e-4a2f-a637-b62f05cfd2ad
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSExpandEnvironmentVariables class Remote Desktop Services", "Win32_TSExpandEnvironmentVariables class Remote Desktop Services , described"]
+keywords:
+- Win32_TSExpandEnvironmentVariables class Remote Desktop Services
+- Win32_TSExpandEnvironmentVariables class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSExpandEnvironmentVariables class
@@ -33,11 +38,11 @@ Expands system-defined environment variables.
 ``` syntax
 class Win32_TSExpandEnvironmentVariables : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -60,7 +65,7 @@ The **Win32\_TSExpandEnvironmentVariables** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -231,17 +236,17 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

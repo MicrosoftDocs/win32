@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the reply APDU, placing it in a specific byte buffer.'
-ms.assetid: 'ab349e7a-350f-4e72-98b4-4c6431b6e380'
-title: 'ISCardCmd::get\_ApduReply method'
+---
+Description: Retrieves the reply APDU, placing it in a specific byte buffer.
+ms.assetid: ab349e7a-350f-4e72-98b4-4c6431b6e380
+title: ISCardCmdget\_ApduReply method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::get\_ApduReply method

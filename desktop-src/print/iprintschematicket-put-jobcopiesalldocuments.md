@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the copy count.'
-ms.assetid: 'DF788C8F-DA60-47F1-83DB-2E1947E41142'
-title: 'IPrintSchemaTicket::JobCopiesAllDocuments property'
+---
+Description: Sets the copy count.
+ms.assetid: DF788C8F-DA60-47F1-83DB-2E1947E41142
+title: IPrintSchemaTicketJobCopiesAllDocuments property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::JobCopiesAllDocuments property

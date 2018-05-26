@@ -4,17 +4,22 @@ description: Provides the name of the network to which the network interface is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6e097b1-bb1c-475c-9653-c800fe2c8246'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f6e097b1-bb1c-475c-9653-c800fe2c8246
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Network Failover Cluster ,for network interfaces", "Network Failover Cluster"]
+keywords:
+- Network Failover Cluster ,for network interfaces
+- Network Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Network
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network
@@ -27,13 +32,13 @@ Provides the name of the [network](networks.md) to which the [network interface]
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ Because the **Network** property is read-only, it cannot be changed using the [C
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -57,12 +62,12 @@ Because the **Network** property is read-only, it cannot be changed using the [C
 [CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES](clusctl-netinterface-set-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

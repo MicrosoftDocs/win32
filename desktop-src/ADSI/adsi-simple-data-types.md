@@ -4,11 +4,25 @@ description: Active Directory Service Interfaces (ADSI) defines and uses the fol
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0bd34f13-269f-4f5d-8a18-74577522e402'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0bd34f13-269f-4f5d-8a18-74577522e402
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADS_BOOLEAN", "ADS_CASE_EXACT_STRING", "ADS_CASE_IGNORE_STRING", "ADS_DN_STRING", "ADS_INTEGER", "ADS_LARGE_INTEGER", "ADS_NUMERIC_STRING", "ADS_OBJECT_CLASS", "ADS_PRINTABLE_STRING", "ADS_SEARCH_HANDLE", "ADS_UTC_TIME"]
+keywords:
+- ADS_BOOLEAN
+- ADS_CASE_EXACT_STRING
+- ADS_CASE_IGNORE_STRING
+- ADS_DN_STRING
+- ADS_INTEGER
+- ADS_LARGE_INTEGER
+- ADS_NUMERIC_STRING
+- ADS_OBJECT_CLASS
+- ADS_PRINTABLE_STRING
+- ADS_SEARCH_HANDLE
+- ADS_UTC_TIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Simple Data Types
@@ -121,15 +135,15 @@ When ADSI reads an attribute that has been defined as an **INTEGER** in the LDAP
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                    |
+| Minimum supported client<br/> | Windows Vista<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

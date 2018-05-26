@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETHOTITEM message
 description: Sets the hot item for a list-view control. You can send this message explicitly or use the ListView\_SetHotItem macro.
-ms.assetid: '0aa2b15d-4983-4234-9863-f1fdee09f913'
-keywords: ["LVM_SETHOTITEM message Windows Controls"]
+ms.assetid: 0aa2b15d-4983-4234-9863-f1fdee09f913
+keywords:
+- LVM_SETHOTITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETHOTITEM message
 
-Sets the hot item for a list-view control. You can send this message explicitly or use the [**ListView\_SetHotItem**](listview-sethotitem.md) macro.
+Sets the hot item for a list-view control. You can send this message explicitly or use the [**ListView\_SetHotItem**](/windows/win32/Commctrl/nf-commctrl-listview_sethotitem?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns the index of the item that was previously hot.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: CPU Power Management
 description: CPU Power Management
-ms.assetid: '561a26b0-937c-4d80-a523-93ecedf55533'
-keywords: ["p-states", "c-states", "ACPI p-states", "ACPI c-states"]
+ms.assetid: 561a26b0-937c-4d80-a523-93ecedf55533
+keywords:
+- p-states
+- c-states
+- ACPI p-states
+- ACPI c-states
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Power Management

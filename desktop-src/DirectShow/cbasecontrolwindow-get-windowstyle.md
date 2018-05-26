@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_WindowStyle method retrieves the standard window styles.'
-ms.assetid: '5c204814-5c7c-47e2-95dd-86455ed77cc7'
-title: 'CBaseControlWindow.get\_WindowStyle method'
+Description: The get\_WindowStyle method retrieves the standard window styles.
+ms.assetid: 5c204814-5c7c-47e2-95dd-86455ed77cc7
+title: CBaseControlWindow.get\_WindowStyle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_WindowStyle method
@@ -13,7 +18,7 @@ The `get_WindowStyle` method retrieves the standard window styles.
 
 ```C++
 HRESULT get_WindowStyle(
-   long *pWindowStyle
+   long *pWindowStyle
 );
 ```
 
@@ -56,9 +61,9 @@ This member function returns the standard window styles, such as WS\_CHILD and W
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: BoundingBox Fields
-ms.assetid: '54a422f3-b557-4307-84bd-22867917281f'
+ms.assetid: 54a422f3-b557-4307-84bd-22867917281f
 title: BoundingBox Fields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingBox Fields
@@ -22,7 +27,7 @@ title: BoundingBox Fields
 
 <dl> <dt>
 
-[BoundingBox](boundingbox.md)
+[BoundingBox](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,19 @@
-﻿---
-Description: 'CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL.'
-ms.assetid: 'b0625481-660a-4fd5-ba15-d532998f95a6'
+---
+Description: CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL.
+ms.assetid: b0625481-660a-4fd5-ba15-d532998f95a6
 title: XML Digital Signature Cryptographic Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XML Digital Signature Cryptographic Extensions
 
 CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL. Extension DLLs extend the algorithms supported by **SignatureMethod** and **DigestMethod** XML elements. Extension DLLs can support algorithms that encode additional parameters into the XML digital signature.
 
-All extensions DLLs must support the [**CryptXmlDllGetInterface**](cryptxmldllgetinterface.md) function, which returns a pointer to a [**CRYPT\_XML\_CRYPTOGRAPHIC\_INTERFACE**](crypt-xml-cryptographic-interface.md) structure. This structure provides function pointers to implemented cryptographic extension functions. The functions supported depend on the type of cryptographic algorithm supported and whether the algorithm must encode parameters into the XML digital signature.
+All extensions DLLs must support the [**CryptXmlDllGetInterface**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllgetinterface?branch=master) function, which returns a pointer to a [**CRYPT\_XML\_CRYPTOGRAPHIC\_INTERFACE**](/windows/win32/Cryptxml/ns-cryptxml-_crypt_xml_cryptographic_interface?branch=master) structure. This structure provides function pointers to implemented cryptographic extension functions. The functions supported depend on the type of cryptographic algorithm supported and whether the algorithm must encode parameters into the XML digital signature.
 
 Cryptographic extensions functions include the following function pointers:
 
@@ -17,35 +22,35 @@ Cryptographic extensions functions include the following function pointers:
 <span id="Required_functions"></span><span id="required_functions"></span><span id="REQUIRED_FUNCTIONS"></span>Required functions
 </dt> <dd>
 
--   [**CryptXmlDllGetInterface**](cryptxmldllgetinterface.md)
--   [**CryptXmlDllGetAlgorithmInfo**](cryptxmldllgetalgorithminfo.md)
+-   [**CryptXmlDllGetInterface**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllgetinterface?branch=master)
+-   [**CryptXmlDllGetAlgorithmInfo**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllgetalgorithminfo?branch=master)
 
 </dd> <dt>
 
 <span id="Digest_Method_functions"></span><span id="digest_method_functions"></span><span id="DIGEST_METHOD_FUNCTIONS"></span>Digest Method functions
 </dt> <dd>
 
--   [**CryptXmlDllCloseDigest**](cryptxmldllclosedigest.md)
--   [**CryptXmlDllCreateDigest**](cryptxmldllcreatedigest.md)
--   [**CryptXmlDllDigestData**](cryptxmldlldigestdata.md)
--   [**CryptXmlDllFinalizeDigest**](cryptxmldllfinalizedigest.md)
+-   [**CryptXmlDllCloseDigest**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllclosedigest?branch=master)
+-   [**CryptXmlDllCreateDigest**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllcreatedigest?branch=master)
+-   [**CryptXmlDllDigestData**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldlldigestdata?branch=master)
+-   [**CryptXmlDllFinalizeDigest**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllfinalizedigest?branch=master)
 
 </dd> <dt>
 
 <span id="Signature_Method_Functions"></span><span id="signature_method_functions"></span><span id="SIGNATURE_METHOD_FUNCTIONS"></span>Signature Method Functions
 </dt> <dd>
 
--   [**CryptXmlDllSignData**](cryptxmldllsigndata.md)
--   [**CryptXmlDllVerifySignature**](cryptxmldllverifysignature.md)
--   [**CryptXmlDllCreateKey**](cryptxmldllcreatekey.md)
--   [**CryptXmlDllEncodeKeyValue**](cryptxmldllencodekeyvalue.md)
+-   [**CryptXmlDllSignData**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllsigndata?branch=master)
+-   [**CryptXmlDllVerifySignature**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllverifysignature?branch=master)
+-   [**CryptXmlDllCreateKey**](/windows/win32/cryptxml/nc-cryptxml-cryptxmldllcreatekey?branch=master)
+-   [**CryptXmlDllEncodeKeyValue**](/windows/win32/cryptxml/nc-cryptxml-cryptxmldllencodekeyvalue?branch=master)
 
 </dd> <dt>
 
 <span id="For_algorithms_with_default_encoded_parameters"></span><span id="for_algorithms_with_default_encoded_parameters"></span><span id="FOR_ALGORITHMS_WITH_DEFAULT_ENCODED_PARAMETERS"></span>For algorithms with default encoded parameters
 </dt> <dd>
 
--   [**CryptXmlDllEncodeAlgorithm**](cryptxmldllencodealgorithm.md)
+-   [**CryptXmlDllEncodeAlgorithm**](/windows/win32/Cryptxml/nc-cryptxml-cryptxmldllencodealgorithm?branch=master)
 
 </dd> </dl>
 

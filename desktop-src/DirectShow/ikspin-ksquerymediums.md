@@ -1,7 +1,12 @@
-﻿---
-Description: 'The KsQueryMediums method retrieves the mediums supported by a pin.'
-ms.assetid: '554bf968-6054-4f9d-95db-facf0444641f'
-title: 'IKsPin::KsQueryMediums method'
+---
+Description: The KsQueryMediums method retrieves the mediums supported by a pin.
+ms.assetid: 554bf968-6054-4f9d-95db-facf0444641f
+title: IKsPinKsQueryMediums method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKsPin::KsQueryMediums method
@@ -36,7 +41,7 @@ If the method succeeds, it returns S\_OK. If it fails, it returns an **HRESULT**
 
 ## Remarks
 
-This method returns a task-allocated [**KSMULTIPLE\_ITEM**](ksmultiple-item.md) structure, which is followed by zero or more [**REGPINMEDIUM**](regpinmedium.md) structures. The **Count** member of the **KSMULTIPLE\_ITEM** structure specifies the number of **REGPINMEDIUM** structures. Each **REGPINMEDIUM** structure defines a medium supported by the pin.
+This method returns a task-allocated [**KSMULTIPLE\_ITEM**](ksmultiple-item.md) structure, which is followed by zero or more [**REGPINMEDIUM**](/windows/win32/strmif/ns-strmif-regpinmedium?branch=master) structures. The **Count** member of the **KSMULTIPLE\_ITEM** structure specifies the number of **REGPINMEDIUM** structures. Each **REGPINMEDIUM** structure defines a medium supported by the pin.
 
 The caller must free the returned structures, using the **CoTaskMemFree** function.
 

@@ -1,8 +1,9 @@
 ---
 title: CardWriteFile function
 description: Writes data in a buffer to a file on a smart card. This function overwrites any data currently in the file.
-ms.assetid: '6e3cabc0-b55b-436a-ac2e-b96354e5666a'
-keywords: ["CardWriteFile function Security"]
+ms.assetid: 6e3cabc0-b55b-436a-ac2e-b96354e5666a
+keywords:
+- CardWriteFile function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardWriteFile function
@@ -24,12 +30,12 @@ The **CardWriteFile** function, defined by a smart card module, writes data in a
 
 ```C++
 DWORD WINAPI CardWriteFile(
-  _In_ PCARD_DATA pCardData,
-  _In_ LPSTR      pszDirectoryName,
-  _In_ LPSTR      pszFileName,
-  _In_ DWORD      dwFlags,
-  _In_ PBYTE      pbData,
-  _In_ DWORD      cbData
+  _In_ PCARD_DATA pCardData,
+  _In_ LPSTR      pszDirectoryName,
+  _In_ LPSTR      pszFileName,
+  _In_ DWORD      dwFlags,
+  _In_ PBYTE      pbData,
+  _In_ DWORD      cbData
 );
 ```
 
@@ -96,7 +102,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,8 +114,8 @@ When a smart card file is overwritten and the allocated size of the file changes
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -130,9 +136,9 @@ When a smart card file is overwritten and the allocated size of the file changes
 [**CardReadFile**](cardreadfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

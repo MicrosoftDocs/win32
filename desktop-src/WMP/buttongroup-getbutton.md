@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.getButton
 description: The getButton method retrieves the BUTTONELEMENT with the specified index.
-ms.assetid: '49e1cf61-f5de-430d-8492-bd49b186f5ea'
-keywords: ["BUTTONGROUP.getButton Windows Media Player"]
+ms.assetid: 49e1cf61-f5de-430d-8492-bd49b186f5ea
+keywords:
+- BUTTONGROUP.getButton Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.getButton
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.getButton
@@ -54,9 +60,9 @@ This method returns an Object corresponding to a **BUTTONELEMENT** element.
 [**BUTTONELEMENT.index**](buttonelement-index.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The QuiesceDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.'
-ms.assetid: 'c5154c00-ff9c-40d8-bb76-41ae72ce86ae'
-title: 'QuiesceDevice method of the CIM\_LogicalDevice class'
+Description: The QuiesceDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+ms.assetid: c5154c00-ff9c-40d8-bb76-41ae72ce86ae
+title: QuiesceDevice method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuiesceDevice method of the CIM\_LogicalDevice class
@@ -13,7 +18,7 @@ The **QuiesceDevice** method has been deprecated in lieu of the more general **R
 
 ```mof
 uint32 QuiesceDevice(
-  [in] boolean Quiesce
+  [in] boolean Quiesce
 );
 ```
 
@@ -40,8 +45,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -55,9 +60,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

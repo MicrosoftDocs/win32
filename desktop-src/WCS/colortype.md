@@ -1,8 +1,11 @@
 ---
 title: COLORTYPE enumeration
 description: The values of the COLORTYPE enumeration are used by several WCS functions. Variables of type COLOR are defined in the color spaces enumerated by the COLORTYPE enumeration.
-ms.assetid: '9735e4e5-362b-4542-9285-887279cc6499'
-keywords: ["COLORTYPE enumeration Windows Color System", "PCOLORTYPE enumeration pointer Windows Color System", "LPCOLORTYPE enumeration pointer Windows Color System"]
+ms.assetid: 9735e4e5-362b-4542-9285-887279cc6499
+keywords:
+- COLORTYPE enumeration Windows Color System
+- PCOLORTYPE enumeration pointer Windows Color System
+- LPCOLORTYPE enumeration pointer Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORTYPE enumeration
@@ -22,7 +30,7 @@ The values of the **COLORTYPE** enumeration are used by several WCS functions. V
 
 ```C++
 typedef enum tagCOLORTYPE { 
-  COLOR_GRAY       = 1,
+  COLOR_GRAY       = 1,
   COLOR_RGB,
   COLOR_XYZ,
   COLOR_Yxy,
@@ -137,15 +145,15 @@ In addition to managing the common two, three, and four channel color spaces, WC
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'A namespace provider implements an interface mapping between the Winsock namespace SPI and the native programmatic interface of an existing name service such as DNS, X.500, or NetWare Directory Services (NDS).'
-ms.assetid: '9b35aa58-9011-4e0d-8c93-02714952b4a5'
+Description: A namespace provider implements an interface mapping between the Winsock namespace SPI and the native programmatic interface of an existing name service such as DNS, X.500, or NetWare Directory Services (NDS).
+ms.assetid: 9b35aa58-9011-4e0d-8c93-02714952b4a5
 title: Namespace Service Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Namespace Service Providers
 
-A namespace provider implements an interface mapping between the Winsock namespace SPI and the native programmatic interface of an existing name service such as DNS, X.500, or NetWare Directory Services (NDS). While a namespace provider supports exactly one namespace, it is possible for multiple providers for a given namespace to be installed. It is also possible for a single DLL to create an instance of multiple namespace providers. As namespace providers are installed, a catalog of [**WSANAMESPACE\_INFO**](wsanamespace-info-2.md) structures is maintained. An application may use [**WSAEnumNameSpaceProviders**](wsaenumnamespaceproviders-2.md) to discover which namespaces are supported on a computer.
+A namespace provider implements an interface mapping between the Winsock namespace SPI and the native programmatic interface of an existing name service such as DNS, X.500, or NetWare Directory Services (NDS). While a namespace provider supports exactly one namespace, it is possible for multiple providers for a given namespace to be installed. It is also possible for a single DLL to create an instance of multiple namespace providers. As namespace providers are installed, a catalog of [**WSANAMESPACE\_INFO**](/windows/win32/Winsock2/ns-winsock2-_wsanamespace_infow?branch=master) structures is maintained. An application may use [**WSAEnumNameSpaceProviders**](/windows/win32/Winsock2/nf-winsock2-wsaenumnamespaceprovidersa?branch=master) to discover which namespaces are supported on a computer.
 
-On Windows Vista and later, an enhanced [**WSANAMESPACE\_INFOEX**](wsanamespace-infoex.md) structure and [**WSAEnumNameSpaceProvidersEx**](wsaenumnamespaceprovidersex.md) function are provided.
+On Windows Vista and later, an enhanced [**WSANAMESPACE\_INFOEX**](/windows/win32/Winsock2/ns-winsock2-_wsanamespace_infoexw?branch=master) structure and [**WSAEnumNameSpaceProvidersEx**](/windows/win32/Winsock2/nf-winsock2-wsaenumnamespaceprovidersexa?branch=master) function are provided.
 
-On 64-bit platforms, similar [**WSCEnumNameSpaceProviders32**](wscenumnamespaceproviders32.md) and [**WSCEnumNameSpaceProvidersEx32**](wscenumnamespaceprovidersex32.md) functions are provided to enumerate the 32-bit catalog.
+On 64-bit platforms, similar [**WSCEnumNameSpaceProviders32**](/windows/win32/Ws2spi/nf-ws2spi-wscenumnamespaceproviders32?branch=master) and [**WSCEnumNameSpaceProvidersEx32**](/windows/win32/Ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32?branch=master) functions are provided to enumerate the 32-bit catalog.
 
 Refer to [Winsock Namespace Service Provider Requirements](winsock-namespace-service-provider-requirements.md) for detailed information.
 
@@ -24,12 +29,12 @@ Berkeley Style Functions
 
 | SPI function name           | Description                                                                              |
 |-----------------------------|------------------------------------------------------------------------------------------|
-| GETXBYYSP\_gethostbyaddr    | Supplies a [**hostent**](hostent-2.md) structure for the specified host address.        |
-| GETXBYYSP\_gethostbyname    | Supplies a [**hostent**](hostent-2.md) structure for the specified host name.           |
-| GETXBYYSP\_getprotobyname   | Supplies a [**protoent**](protoent-2.md) structure for the specified protocol name.     |
-| GETXBYYSP\_getprotobynumber | Supplies a [**protoent**](protoent-2.md) structure for the specified protocol number.   |
-| GETXBYYSP\_getservbyname    | Supplies a [**servent**](servent-2.md) structure for the specified service nam.e        |
-| GETXBYYSP\_getservbyport    | Supplies a [**servent**](servent-2.md) structure for the service at the specified port. |
+| GETXBYYSP\_gethostbyaddr    | Supplies a [**hostent**](/windows/win32/winsock/ns-winsock-hostent?branch=master) structure for the specified host address.        |
+| GETXBYYSP\_gethostbyname    | Supplies a [**hostent**](/windows/win32/winsock/ns-winsock-hostent?branch=master) structure for the specified host name.           |
+| GETXBYYSP\_getprotobyname   | Supplies a [**protoent**](/windows/win32/winsock/ns-winsock-protoent?branch=master) structure for the specified protocol name.     |
+| GETXBYYSP\_getprotobynumber | Supplies a [**protoent**](/windows/win32/winsock/ns-winsock-protoent?branch=master) structure for the specified protocol number.   |
+| GETXBYYSP\_getservbyname    | Supplies a [**servent**](/windows/win32/winsock/ns-winsock-servent?branch=master) structure for the specified service nam.e        |
+| GETXBYYSP\_getservbyport    | Supplies a [**servent**](/windows/win32/winsock/ns-winsock-servent?branch=master) structure for the service at the specified port. |
 | GETXBYYSP\_gethostname      | Returns the standard host name for the local computer.                                   |
 
 
@@ -42,12 +47,12 @@ Async Style Functions
 
 | SPI function name                   | Description                                                                              |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| GETXBYYSP\_WSAAsyncGetHostByAddr    | Supplies a [**hostent**](hostent-2.md) structure for the specified host address.        |
-| GETXBYYSP\_WSAAsyncGetHostByName    | Supplies a [**hostent**](hostent-2.md) structure for the specified host name.           |
-| GETXBYYSP\_WSAAsyncGetProtoByName   | Supplies a [**protoent**](protoent-2.md) structure for the specified protocol name.     |
-| GETXBYYSP\_WSAAsyncGetProtoByNumber | Supplies a [**protoent**](protoent-2.md) structure for the specified protocol number.   |
-| GETXBYYSP\_WSAAsyncGetServByName    | Supplies a [**servent**](servent-2.md) structure for the specified service name.        |
-| GETXBYYSP\_WSAAsyncGetServByPort    | Supplies a [**servent**](servent-2.md) structure for the service at the specified port. |
+| GETXBYYSP\_WSAAsyncGetHostByAddr    | Supplies a [**hostent**](/windows/win32/winsock/ns-winsock-hostent?branch=master) structure for the specified host address.        |
+| GETXBYYSP\_WSAAsyncGetHostByName    | Supplies a [**hostent**](/windows/win32/winsock/ns-winsock-hostent?branch=master) structure for the specified host name.           |
+| GETXBYYSP\_WSAAsyncGetProtoByName   | Supplies a [**protoent**](/windows/win32/winsock/ns-winsock-protoent?branch=master) structure for the specified protocol name.     |
+| GETXBYYSP\_WSAAsyncGetProtoByNumber | Supplies a [**protoent**](/windows/win32/winsock/ns-winsock-protoent?branch=master) structure for the specified protocol number.   |
+| GETXBYYSP\_WSAAsyncGetServByName    | Supplies a [**servent**](/windows/win32/winsock/ns-winsock-servent?branch=master) structure for the specified service name.        |
+| GETXBYYSP\_WSAAsyncGetServByPort    | Supplies a [**servent**](/windows/win32/winsock/ns-winsock-servent?branch=master) structure for the service at the specified port. |
 | GETXBYYSP\_WSACancelAsyncRequest    | Cancels an asynchronous **GetXbyY** operation.                                           |
 
 

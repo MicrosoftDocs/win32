@@ -1,15 +1,18 @@
 ---
-Description: 'Defines the utilization thresholds for an IP address range, subnet mask, or block.'
+Description: Defines the utilization thresholds for an IP address range, subnet mask, or block.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '28346333-9c47-47ad-a9d2-9eca006f953b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 28346333-9c47-47ad-a9d2-9eca006f953b
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_IPAddressUtilizationThreshold class'
+title: MSFT\_IPAM\_IPAddressUtilizationThreshold class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_IPAddressUtilizationThreshold class
@@ -52,7 +55,7 @@ The **MSFT\_IPAM\_IPAddressUtilizationThreshold** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -167,7 +170,7 @@ The threshold percentage that indicates whether an IP address range, subnet, or 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -184,9 +187,9 @@ The threshold percentage that indicates whether an IP address range, subnet, or 
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

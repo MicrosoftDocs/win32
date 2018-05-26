@@ -1,8 +1,11 @@
 ---
 title: Upgrade method of the MSFT\_StoragePool class
 description: Upgrades the metadata on the storage pool.
-ms.assetid: 'FE6ADA25-70F4-49EF-AC2B-799AFCECFBBC'
-keywords: ["Upgrade method Windows Storage Management API", "Upgrade method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , Upgrade method"]
+ms.assetid: FE6ADA25-70F4-49EF-AC2B-799AFCECFBBC
+keywords:
+- Upgrade method Windows Storage Management API
+- Upgrade method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , Upgrade method
 topic_type:
 - apiref
 api_name:
@@ -11,18 +14,23 @@ api_location:
 - netcfgn.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Upgrade method of the MSFT\_StoragePool class
 
-Upgrades the metadata on the storage pool. On Windows 8.1 or later, if a Windows 8 pool is present then this method can be used to upgrade the pool metadata so that it now becomes a Windows 8.1 pool and has new Windows 8.1 features (such as tiering) available.
+Upgrades the metadata on the storage pool. On Windows 8.1 or later, if a Windows 8 pool is present then this method can be used to upgrade the pool metadata so that it now becomes a Windows 8.1 pool and has new Windows 8.1 features (such as tiering) available.
 
 ## Syntax
 
 
 ```mof
 UInt32 Upgrade(
-  [out] String ExtendedStatus
+  [out] String ExtendedStatus
 );
 ```
 
@@ -82,8 +90,8 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | Header<br/>                   | <dl> <dt>Netcfgn.h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
@@ -97,9 +105,9 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

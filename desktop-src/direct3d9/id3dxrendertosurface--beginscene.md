@@ -1,7 +1,12 @@
-﻿---
-Description: 'Begins a scene.'
-ms.assetid: '8125c592-b985-42f7-8644-59ba93a1c517'
-title: 'ID3DXRenderToSurface::BeginScene method'
+---
+Description: Begins a scene.
+ms.assetid: 8125c592-b985-42f7-8644-59ba93a1c517
+title: ID3DXRenderToSurfaceBeginScene method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToSurface::BeginScene method
@@ -27,9 +32,9 @@ HRESULT BeginScene(
 *pSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](idirect3dsurface9.md)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master)**
 
-Pointer to an [**IDirect3DSurface9**](idirect3dsurface9.md) interface, representing the render surface.
+Pointer to an [**IDirect3DSurface9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master) interface, representing the render surface.
 
 </dd> <dt>
 

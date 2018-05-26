@@ -1,7 +1,12 @@
 ---
-Description: 'The SignedCode object exposes the following properties.'
-ms.assetid: '8780D1B3-9FDA-4ED4-9C7A-D3E87D0A8E0F'
+Description: The SignedCode object exposes the following properties.
+ms.assetid: 8780D1B3-9FDA-4ED4-9C7A-D3E87D0A8E0F
 title: SignedCode Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignedCode Properties

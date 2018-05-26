@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.index
 description: The index attribute retrieves the index of the BUTTONELEMENT within the BUTTONGROUP.
-ms.assetid: 'b4fd7cd9-7788-4234-8f2f-fb85ea9e6b0e'
-keywords: ["BUTTONELEMENT.index Windows Media Player"]
+ms.assetid: b4fd7cd9-7788-4234-8f2f-fb85ea9e6b0e
+keywords:
+- BUTTONELEMENT.index Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.index
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.index
@@ -40,9 +46,9 @@ This attribute is a read-only **Number** (**long**).
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

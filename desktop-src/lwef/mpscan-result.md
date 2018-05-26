@@ -1,8 +1,10 @@
 ---
 title: MPSCAN\_RESULT structure
 description: The results of a scan.
-ms.assetid: '9031A371-092A-4175-BE1D-90442A5BED2D'
-keywords: ["MPSCAN_RESULT structure Legacy Windows Environment Features", "PMPSCAN_RESULT structure pointer Legacy Windows Environment Features"]
+ms.assetid: 9031A371-092A-4175-BE1D-90442A5BED2D
+keywords:
+- MPSCAN_RESULT structure Legacy Windows Environment Features
+- PMPSCAN_RESULT structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSCAN\_RESULT structure
@@ -22,14 +29,14 @@ The results of a scan.
 
 ```C++
 typedef struct tagMPSCAN_RESULT {
-  MPSCAN_TYPE      ScanType;
-  MPSOURCE         Source;
-  GUID             ScanGuid;
-  ULARGE_INTEGER   StartTime;
-  ULARGE_INTEGER   EndTime;
-  MPTHREAT_STATS   ThreatStats;
+  MPSCAN_TYPE      ScanType;
+  MPSOURCE         Source;
+  GUID             ScanGuid;
+  ULARGE_INTEGER   StartTime;
+  ULARGE_INTEGER   EndTime;
+  MPTHREAT_STATS   ThreatStats;
   MPRESOURCE_STATS ResourceStats;
-  ULONGLONG        SignatureVersion;
+  ULONGLONG        SignatureVersion;
 } MPSCAN_RESULT, *PMPSCAN_RESULT;
 ```
 
@@ -133,8 +140,8 @@ Version of signature used for scan.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -155,9 +162,9 @@ Version of signature used for scan.
 [**MPTHREAT\_STATS**](mpthreat-stats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

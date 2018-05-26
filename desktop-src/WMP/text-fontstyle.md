@@ -1,14 +1,20 @@
 ---
 title: TEXT.fontStyle
 description: The fontStyle attribute specifies or retrieves the font style for the Text control.
-ms.assetid: '1bb99305-dccc-489d-9a02-7cb306f0d47d'
-keywords: ["TEXT.fontStyle Windows Media Player"]
+ms.assetid: 1bb99305-dccc-489d-9a02-7cb306f0d47d
+keywords:
+- TEXT.fontStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.fontStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.fontStyle
@@ -35,7 +41,7 @@ This attribute is a read/write **String** containing one or more of the followin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +66,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT Element**](text-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

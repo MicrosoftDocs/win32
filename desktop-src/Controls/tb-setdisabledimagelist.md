@@ -1,8 +1,9 @@
 ---
 title: TB\_SETDISABLEDIMAGELIST message
 description: Sets the image list that the toolbar control will use to display disabled buttons.
-ms.assetid: '1e76b3cf-2d06-48c8-8298-ef6caf3d85c3'
-keywords: ["TB_SETDISABLEDIMAGELIST message Windows Controls"]
+ms.assetid: 1e76b3cf-2d06-48c8-8298-ef6caf3d85c3
+keywords:
+- TB_SETDISABLEDIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETDISABLEDIMAGELIST message
@@ -41,15 +47,15 @@ Returns the handle to the image list previously used to display disabled buttons
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

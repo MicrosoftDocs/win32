@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth device manufacturer.'
-ms.assetid: 'bf2dbd9c-e372-423e-8fe5-2ebefe3c541d'
-title: 'System.DeviceInterface.Bluetooth.Manufacturer'
+Description: Bluetooth device manufacturer.
+ms.assetid: bf2dbd9c-e372-423e-8fe5-2ebefe3c541d
+title: System.DeviceInterface.Bluetooth.Manufacturer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Bluetooth.Manufacturer

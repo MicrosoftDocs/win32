@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the image stream on a video capture source is independent of the video stream.'
-ms.assetid: 'DC4ED612-593B-40BF-BB42-946149042D1F'
-title: 'MF\_DEVICESTREAM\_INDEPENDENT\_IMAGE\_STREAM attribute'
+---
+Description: Specifies whether the image stream on a video capture source is independent of the video stream.
+ms.assetid: DC4ED612-593B-40BF-BB42-946149042D1F
+title: MF\_DEVICESTREAM\_INDEPENDENT\_IMAGE\_STREAM attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICESTREAM\_INDEPENDENT\_IMAGE\_STREAM attribute
@@ -18,9 +23,9 @@ Some USB video cameras expose a stream that produces still images. In some camer
 
 To get this attribute, do the following:
 
-1.  Query the media source for the [**IMFMediaSourceEx**](imfmediasourceex.md) interface.
-2.  Call [**IMFMediaSourceEx::GetStreamAttributes**](imfmediasourceex-getstreamattributes.md) to get an [**IMFAttributes**](imfattributes.md) pointer for the stream.
-3.  Call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md) to get the attribute.
+1.  Query the media source for the [**IMFMediaSourceEx**](/windows/win32/mfidl/nn-mfidl-imfmediasourceex?branch=master) interface.
+2.  Call [**IMFMediaSourceEx::GetStreamAttributes**](/windows/win32/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes?branch=master) to get an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer for the stream.
+3.  Call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master) to get the attribute.
 
 This attribute applies only when the [MF\_DEVICESTREAM\_IMAGE\_STREAM](mf-devicestream-image-stream.md) attribute is **TRUE**.
 

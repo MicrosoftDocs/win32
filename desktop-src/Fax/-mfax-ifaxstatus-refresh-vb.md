@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method updates FaxStatus object information for the associated parent FaxPort object.'
-ms.assetid: 'a1bde405-eb60-4381-92d6-4da3a3208d6f'
-title: 'FaxStatus.Refresh method'
+---
+Description: The Refresh method updates FaxStatus object information for the associated parent FaxPort object.
+ms.assetid: a1bde405-eb60-4381-92d6-4da3a3208d6f
+title: FaxStatus.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.Refresh method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-Call the **Refresh** method to update the information for a [FaxStatus](-mfax-faxstatus.md) object. An application must call this method to poll a fax port for new status information. After you successfully call **Refresh**, you must call the appropriate [**IFaxStatus**](-mfax-ifaxstatus.md) interface method to retrieve new attribute values that are valid.
+Call the **Refresh** method to update the information for a [FaxStatus](-mfax-faxstatus.md) object. An application must call this method to poll a fax port for new status information. After you successfully call **Refresh**, you must call the appropriate [**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master) interface method to retrieve new attribute values that are valid.
 
 It is recommended that you limit calls to this method because frequent calls to **Refresh** can affect system performance.
 

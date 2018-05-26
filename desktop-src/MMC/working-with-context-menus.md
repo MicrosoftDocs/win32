@@ -4,11 +4,16 @@ description: MMC generates default context menus for the items in the scope and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b76b40da-1ab7-4b43-9c7e-03b901a6db3f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b76b40da-1ab7-4b43-9c7e-03b901a6db3f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["context menus MMC", "context menus MMC"]
+keywords:
+- context menus MMC
+- context menus MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with Context Menus

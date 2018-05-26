@@ -1,14 +1,19 @@
 ---
 Description: Media Buffers
-ms.assetid: '3ee073ea-7bac-4971-9167-93a4e541ab77'
+ms.assetid: 3ee073ea-7bac-4971-9167-93a4e541ab77
 title: Media Buffers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Buffers
 
 A media buffer is a COM object that manages a block of memory, typically to hold media data. Media buffers are used to move data from one pipeline component to the next. Most applications do not use media buffers directly, because the Media Session handles all of the data flow between pipeline objects. You must use media buffers if you are writing your own pipeline component, or if you are using a pipeline component directly without the Media Session.
 
-Media buffers exposes the [**IMFMediaBuffer**](imfmediabuffer.md) interface. This interface is designed for reading or writing any type of data. Uncompressed video frames require special handling, because they might be stored in Direct3D surfaces located in video memory.
+Media buffers exposes the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface. This interface is designed for reading or writing any type of data. Uncompressed video frames require special handling, because they might be stored in Direct3D surfaces located in video memory.
 
 This section contains the following topics.
 

@@ -1,12 +1,17 @@
 ---
-Description: 'An IME-aware application that processes the WM\_IME\_COMPOSITION message tests the bits in lParam parameter and calls the ImmGetCompositionString function to retrieve the indicated string or data.'
-ms.assetid: '6d9cb9e2-f30e-4299-9af5-a705cd40b185'
-title: 'Processing the WM\_IME\_COMPOSITION Message'
+Description: An IME-aware application that processes the WM\_IME\_COMPOSITION message tests the bits in lParam parameter and calls the ImmGetCompositionString function to retrieve the indicated string or data.
+ms.assetid: 6d9cb9e2-f30e-4299-9af5-a705cd40b185
+title: Processing the WM\_IME\_COMPOSITION Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing the WM\_IME\_COMPOSITION Message
 
-An IME-aware application that processes the [**WM\_IME\_COMPOSITION**](wm-ime-composition.md) message tests the bits in *lParam* parameter and calls the [**ImmGetCompositionString**](immgetcompositionstring.md) function to retrieve the indicated string or data. The following example checks for the result string, allocates sufficient memory for the string, and retrieves the result string from the IME.
+An IME-aware application that processes the [**WM\_IME\_COMPOSITION**](wm-ime-composition.md) message tests the bits in *lParam* parameter and calls the [**ImmGetCompositionString**](/windows/win32/Imm/nf-imm-immgetcompositionstringa?branch=master) function to retrieve the indicated string or data. The following example checks for the result string, allocates sufficient memory for the string, and retrieves the result string from the IME.
 
 
 ```C++

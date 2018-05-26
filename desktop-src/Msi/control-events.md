@@ -1,7 +1,12 @@
 ---
-Description: 'A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see ControlEvent Overview.'
-ms.assetid: '8768acaa-884b-428f-a14e-3f39f8ea4ad5'
+Description: A ControlEvent specifies an action to be taken by the installer or a change in the attributes of one or more controls in a dialog box. For more information about ControlEvents, see ControlEvent Overview.
+ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
 title: Control Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Events
@@ -54,11 +59,11 @@ The following table provides links to more information about particular ControlE
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

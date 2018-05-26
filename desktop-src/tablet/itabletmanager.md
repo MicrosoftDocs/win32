@@ -1,7 +1,12 @@
 ---
-Description: 'Provides access to all of the tablets attached to the computer.'
-ms.assetid: 'd0fd9a6f-93fe-43d6-97fd-fee45854dfa1'
+Description: Provides access to all of the tablets attached to the computer.
+ms.assetid: d0fd9a6f-93fe-43d6-97fd-fee45854dfa1
 title: ITabletManager interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletManager interface
@@ -22,12 +27,12 @@ The **ITabletManager** interface has these methods.
 
 | Method                                                  | Description                                                        |
 |:--------------------------------------------------------|:-------------------------------------------------------------------|
-| [**GetTablet**](itabletmanager-gettablet.md)           | Retrieves the specified tablet object.<br/>                  |
+| [**GetTablet**](/windows/win32/rtscom/?branch=master)           | Retrieves the specified tablet object.<br/>                  |
 | [**GetTabletCount**](itabletmanager-gettabletcount.md) | Retrieves the number of tablets attached to the system.<br/> |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,15 +82,15 @@ Call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/m
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

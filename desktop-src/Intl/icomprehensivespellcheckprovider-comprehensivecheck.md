@@ -1,12 +1,17 @@
-﻿---
-Description: 'Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.'
-ms.assetid: 'BD334EB8-4E14-478D-AB2A-E7F863C4BE0F'
-title: 'IComprehensiveSpellCheckProvider::ComprehensiveCheck method'
+---
+Description: Spell-check the provider text in a more thorough manner than ISpellCheckProviderCheck.
+ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F
+title: IComprehensiveSpellCheckProviderComprehensiveCheck method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IComprehensiveSpellCheckProvider::ComprehensiveCheck method
 
-Spell-check the provider text in a more thorough manner than [**ISpellCheckProvider::Check**](ispellcheckprovider-check.md).
+Spell-check the provider text in a more thorough manner than [**ISpellCheckProvider::Check**](/windows/win32/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check?branch=master).
 
 ## Syntax
 
@@ -34,7 +39,7 @@ The text to check.
 *result* \[out\]
 </dt> <dd>
 
-The result of checking this text, as an enumeration of spelling errors ([**IEnumSpellingError**](ienumspellingerror.md)), if any.
+The result of checking this text, as an enumeration of spelling errors ([**IEnumSpellingError**](/windows/win32/Spellcheck/nn-spellcheck-ienumspellingerror?branch=master)), if any.
 
 </dd> </dl>
 
@@ -56,25 +61,25 @@ This method can return one of these values.
 
 ## Remarks
 
-This interface isn't required to be implemented by a spell check provider. But if the provider supports two "modes" of spell checking (a faster one and a slower but more thorough one), it should implement this interface in the same object that implements [**ISpellCheckProvider**](ispellcheckprovider.md) to support the more thorough checking mode. When a client calls [**ISpellChecker::ComprehensiveCheck**](ispellchecker-comprehensivecheck.md), the spell checking functionality will [**QueryInterface**](com.iunknown_queryinterface) the provider for [**IComprehensiveSpellCheckProvider**](icomprehensivespellcheckprovider.md), and call **IComprehensiveSpellCheckProvider.ComprehensiveCheck** if the interface is supported. If the interface isn't supported, it will silently fall back to [**ISpellCheckProvider::Check**](ispellcheckprovider-check.md).
+This interface isn't required to be implemented by a spell check provider. But if the provider supports two "modes" of spell checking (a faster one and a slower but more thorough one), it should implement this interface in the same object that implements [**ISpellCheckProvider**](/windows/win32/Spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider?branch=master) to support the more thorough checking mode. When a client calls [**ISpellChecker::ComprehensiveCheck**](/windows/win32/Spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck?branch=master), the spell checking functionality will [**QueryInterface**](com.iunknown_queryinterface) the provider for [**IComprehensiveSpellCheckProvider**](/windows/win32/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider?branch=master), and call **IComprehensiveSpellCheckProvider.ComprehensiveCheck** if the interface is supported. If the interface isn't supported, it will silently fall back to [**ISpellCheckProvider::Check**](/windows/win32/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check?branch=master).
 
 ## See also
 
 <dl> <dt>
 
-[**IComprehensiveSpellCheckProvider**](icomprehensivespellcheckprovider.md)
+[**IComprehensiveSpellCheckProvider**](/windows/win32/spellcheckprovider/nn-spellcheckprovider-icomprehensivespellcheckprovider?branch=master)
 </dt> <dt>
 
-[**IEnumSpellingError**](ienumspellingerror.md)
+[**IEnumSpellingError**](/windows/win32/Spellcheck/nn-spellcheck-ienumspellingerror?branch=master)
 </dt> <dt>
 
-[**ISpellChecker::ComprehensiveCheck**](ispellchecker-comprehensivecheck.md)
+[**ISpellChecker::ComprehensiveCheck**](/windows/win32/Spellcheck/nf-spellcheck-ispellchecker-comprehensivecheck?branch=master)
 </dt> <dt>
 
-[**ISpellCheckProvider**](ispellcheckprovider.md)
+[**ISpellCheckProvider**](/windows/win32/Spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider?branch=master)
 </dt> <dt>
 
-[**ISpellCheckProvider::Check**](ispellcheckprovider-check.md)
+[**ISpellCheckProvider::Check**](/windows/win32/Spellcheckprovider/nf-spellcheckprovider-ispellcheckprovider-check?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 Description: Supporting MTP Extensions
-ms.assetid: '9e5f3da6-346a-4eca-bc85-2755c569986d'
+ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: Supporting MTP Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting MTP Extensions
@@ -20,7 +25,7 @@ For a complete description of MTP, refer to the [MTP specification](http://go.mi
 
 ## Sending MTP Commands
 
-Applications can send MTP commands to a device by invoking the [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md) method. The command that is sent depends on whether there is a data phase, and, on whether any accompanying data is read from or written to the device. The following table describes the three possible MTP extension commands.
+Applications can send MTP commands to a device by invoking the [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master) method. The command that is sent depends on whether there is a data phase, and, on whether any accompanying data is read from or written to the device. The following table describes the three possible MTP extension commands.
 
 Be aware that these commands are specific to MTP; and are therefore, only implemented by the WPD MTP class driver.
 

@@ -1,14 +1,20 @@
 ---
 title: GatherGreen(S,float,int) function
 description: Samples a texture and returns the green component.
-ms.assetid: 'bfe9ab9f-64f7-4a50-aa46-2ec6effebce2'
-keywords: ["GatherGreen function HLSL"]
+ms.assetid: bfe9ab9f-64f7-4a50-aa46-2ec6effebce2
+keywords:
+- GatherGreen function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherGreen
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherGreen(S,float,int) function

@@ -1,8 +1,10 @@
 ---
 title: IMAP\_RESPONSE\_TYPE enumeration
 description: Identifies the types of server responses. The IMAP\_RESPONSE\_DATA structure is populated based on a value from this enumeration.
-ms.assetid: '1f8eb369-6a0e-4314-bb03-fa52fb886be5'
-keywords: ["IMAP_RESPONSE_TYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 1f8eb369-6a0e-4314-bb03-fa52fb886be5
+keywords:
+- IMAP_RESPONSE_TYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAP\_RESPONSE\_TYPE enumeration
@@ -24,24 +31,24 @@ Identifies the types of server responses. The [**IMAP\_RESPONSE\_DATA**](oe-imap
 
 ```C++
 typedef enum tagIMAP_RESPONSE_TYPE { 
-  irtERROR_NOTIFICATION  = 0,
-  irtCOMMAND_COMPLETION  = 1,
-  irtSERVER_ALERT        = 2,
-  irtPARSE_ERROR         = 3,
-  irtMAILBOX_UPDATE      = 4,
-  irtDELETED_MSG         = 5,
-  irtFETCH_BODY          = 6,
-  irtUPDATE_MSG          = 7,
-  irtAPPLICABLE_FLAGS    = 8,
-  irtPERMANENT_FLAGS     = 9,
-  irtUIDVALIDITY         = 10,
-  irtREADWRITE_STATUS    = 11,
-  irtTRYCREATE           = 12,
-  irtSEARCH              = 13,
-  irtMAILBOX_LISTING     = 14,
-  irtMAILBOX_STATUS      = 15,
-  irtAPPEND_PROGRESS     = 16,
-  irtUPDATE_MSG_EX       = 17
+  irtERROR_NOTIFICATION  = 0,
+  irtCOMMAND_COMPLETION  = 1,
+  irtSERVER_ALERT        = 2,
+  irtPARSE_ERROR         = 3,
+  irtMAILBOX_UPDATE      = 4,
+  irtDELETED_MSG         = 5,
+  irtFETCH_BODY          = 6,
+  irtUPDATE_MSG          = 7,
+  irtAPPLICABLE_FLAGS    = 8,
+  irtPERMANENT_FLAGS     = 9,
+  irtUIDVALIDITY         = 10,
+  irtREADWRITE_STATUS    = 11,
+  irtTRYCREATE           = 12,
+  irtSEARCH              = 13,
+  irtMAILBOX_LISTING     = 14,
+  irtMAILBOX_STATUS      = 15,
+  irtAPPEND_PROGRESS     = 16,
+  irtUPDATE_MSG_EX       = 17
 } ACCESSTYPE;
 ```
 
@@ -183,17 +190,17 @@ Indicates that the server has returned a FETCH response and **IMAP\_FETCHEX\_ENA
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

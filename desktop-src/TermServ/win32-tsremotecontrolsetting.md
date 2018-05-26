@@ -4,11 +4,13 @@ description: Defines the remote control configuration settings for the Win32\_Te
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2e23915e-ee1c-4e53-8d0d-4d3fc2fefce6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2e23915e-ee1c-4e53-8d0d-4d3fc2fefce6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSRemoteControlSetting class Remote Desktop Services", "Win32_TSRemoteControlSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSRemoteControlSetting class Remote Desktop Services
+- Win32_TSRemoteControlSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSRemoteControlSetting class
@@ -40,15 +45,15 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSREMOTECONTROLSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSRemoteControlSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  uint32   LevelOfControl;
-  uint32   PolicySourceLevelOfControl;
-  uint32   RemoteControlPolicy;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  uint32   LevelOfControl;
+  uint32   PolicySourceLevelOfControl;
+  uint32   RemoteControlPolicy;
 };
 ```
 
@@ -71,7 +76,7 @@ The **Win32\_TSRemoteControlSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -400,8 +405,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -418,9 +423,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalSetting**](win32-terminalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

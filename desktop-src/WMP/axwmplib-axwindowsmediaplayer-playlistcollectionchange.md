@@ -1,8 +1,9 @@
 ---
 title: PlaylistCollectionChange Event of the AxWindowsMediaPlayer Object
 description: The PlaylistCollectionChange event occurs when something changes in the playlist collection.
-ms.assetid: '868ee1c6-b740-4614-90ac-961c59091f0f'
-keywords: ["PlaylistCollectionChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 868ee1c6-b740-4614-90ac-961c59091f0f
+keywords:
+- PlaylistCollectionChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollectionChange Event of the AxWindowsMediaPlayer Object
@@ -54,9 +60,9 @@ This event does not contain data.
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

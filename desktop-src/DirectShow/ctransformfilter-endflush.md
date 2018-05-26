@@ -1,7 +1,12 @@
 ---
-Description: 'The EndFlush method ends a flush operation.'
-ms.assetid: 'ebb6beec-84e2-49a7-9771-bbd191faada7'
-title: 'CTransformFilter.EndFlush method'
+Description: The EndFlush method ends a flush operation.
+ms.assetid: ebb6beec-84e2-49a7-9771-bbd191faada7
+title: CTransformFilter.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.EndFlush method
@@ -49,9 +54,9 @@ If the derived class uses a worker thread to deliver samples, it must discard an
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

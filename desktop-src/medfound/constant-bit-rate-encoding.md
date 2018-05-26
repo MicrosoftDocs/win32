@@ -1,7 +1,12 @@
 ---
 Description: Constant Bit Rate Encoding
-ms.assetid: '0f084f3f-7432-4514-ae6a-c8179a99dec7'
+ms.assetid: 0f084f3f-7432-4514-ae6a-c8179a99dec7
 title: Constant Bit Rate Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constant Bit Rate Encoding
@@ -175,7 +180,7 @@ To CBR-encode audio streams, you need to set the leaky bucket values after negot
 To set leaky bucket values create an array of DWORDs can set the following values in the [**MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET**](mfpkey-asfstreamsink-corrected-leakybucket-property.md) property in the media sink's property store. For more information, see [Setting Properties in the File Sink](setting-properties-in-the-file-sink.md).
 
 -   Average bit rate: Get the average bit rate from the output media type that is selected during media type negotiation. Use the [**MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute.
--   Buffer window: Query the encoder for the [**IWMCodecLeakyBucket**](iwmcodecleakybucketinterface.md) interface and then call [**IWMCodecLeakyBucket::GetBufferSizeBits**](wmformat.iwmcodecleakybucket_getbuffersizebits) (wmcodecifaces.h, wmcodecdspuuid.lib).
+-   Buffer window: Query the encoder for the [**IWMCodecLeakyBucket**](/windows/win32/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket?branch=master) interface and then call [**IWMCodecLeakyBucket::GetBufferSizeBits**](wmformat.iwmcodecleakybucket_getbuffersizebits) (wmcodecifaces.h, wmcodecdspuuid.lib).
 -   Initial buffer size: Set to 0.
 
 ## Related topics

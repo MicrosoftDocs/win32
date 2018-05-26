@@ -1,12 +1,17 @@
 ---
-Description: 'Lists the commands for the IDirect3DAuthenticatedChannel9::Configure method.'
-ms.assetid: '86be7dcf-7b7b-455a-a6ac-8a82b34fdafc'
+Description: Lists the commands for the IDirect3DAuthenticatedChannel9Configure method.
+ms.assetid: 86be7dcf-7b7b-455a-a6ac-8a82b34fdafc
 title: Content Protection Commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Protection Commands
 
-Lists the commands for the [**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md) method.
+Lists the commands for the [**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master) method.
 
 
 

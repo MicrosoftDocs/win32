@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_ALL'
-ms.assetid: '99f9382d-9bfe-4cf6-982f-fcd37e965cae'
-title: 'WPD\_CONTENT\_TYPE\_ALL'
+Description: WPD\_CONTENT\_TYPE\_ALL
+ms.assetid: 99f9382d-9bfe-4cf6-982f-fcd37e965cae
+title: WPD\_CONTENT\_TYPE\_ALL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_ALL

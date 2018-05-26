@@ -2,13 +2,19 @@
 title: module attribute
 description: The module statement defines a group of functions, typically a set of DLL entry points.
 ms.assetid: 4dec207f-98bc-4784-a3c9-506ffe7523fe
-keywords: ["module attribute MIDL"]
+keywords:
+- module attribute MIDL
 topic_type:
 - apiref
 api_name:
 - module
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # module attribute

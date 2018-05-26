@@ -1,14 +1,20 @@
 ---
 title: OnlyForProcessor element
 description: Indicates the platforms on which the assessment should run.
-ms.assetid: '80E30B77-FB6B-460C-A8E8-2141CD5A9BDD'
-keywords: ["OnlyForProcessor element Access Execution Engine"]
+ms.assetid: 80E30B77-FB6B-460C-A8E8-2141CD5A9BDD
+keywords:
+- OnlyForProcessor element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - OnlyForProcessor
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnlyForProcessor element
@@ -61,7 +67,7 @@ There are no attributes.
 
 ## Remarks
 
-AXE will issue a warning if a job contains assessments that don’t run on the same platform.
+AXE will issue a warning if a job contains assessments that don t run on the same platform.
 
 ## Element information
 
@@ -73,9 +79,9 @@ AXE will issue a warning if a job contains assessments that don’t run on the sam
 
 
 
- 
+ 
 
- 
+ 
 
 
 

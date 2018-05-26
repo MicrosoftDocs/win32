@@ -1,7 +1,12 @@
 ---
 title: IdleComplete Event
 description: IdleComplete Event
-ms.assetid: '1d684f75-f23e-4ed8-a60a-5e6792332103'
+ms.assetid: 1d684f75-f23e-4ed8-a60a-5e6792332103
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleComplete Event

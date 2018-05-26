@@ -1,7 +1,12 @@
 ---
-Description: 'Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.'
-ms.assetid: '5a9cb099-c0ae-4088-a64c-f2720a6cb9c8'
-title: 'Msvm\_ReferencePointOfVirtualSystem class'
+Description: Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.
+ms.assetid: 5a9cb099-c0ae-4088-a64c-f2720a6cb9c8
+title: Msvm\_ReferencePointOfVirtualSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReferencePointOfVirtualSystem class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReferencePointOfVirtualSystem : CIM_Dependency
 {
-  Msvm_ComputerSystem              REF Antecedent;
+  Msvm_ComputerSystem              REF Antecedent;
   Msvm_VirtualSystemReferencePoint REF Dependent;
 };
 ```
@@ -71,8 +76,8 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

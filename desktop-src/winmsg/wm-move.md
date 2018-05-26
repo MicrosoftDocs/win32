@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent after a window has been moved.'
-ms.assetid: '552ddc26-fe63-449b-8c82-bb927a2c1c41'
-title: 'WM\_MOVE message'
+---
+Description: Sent after a window has been moved.
+ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
+title: WM\_MOVE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MOVE message
@@ -76,10 +81,10 @@ You can also use the [**MAKEPOINTS**](gdi.makepoints) macro to convert the *lPar
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](hiword.md)
+[**HIWORD**](/windows/win32/Windef/nf-ntintsafe-hiword?branch=master)
 </dt> <dt>
 
-[**LOWORD**](loword.md)
+[**LOWORD**](/windows/win32/Windef/nf-ntintsafe-loword?branch=master)
 </dt> <dt>
 
 **Conceptual**

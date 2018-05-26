@@ -1,13 +1,16 @@
 ---
-Description: 'Gets or sets a value that represents the year component of the DATETIME value.'
+Description: Gets or sets a value that represents the year component of the DATETIME value.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'eab3738a-c92a-4602-b1ee-e2547da88308'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: eab3738a-c92a-4602-b1ee-e2547da88308
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.Year property'
+title: SWbemDateTime.Year property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.Year property
@@ -52,8 +55,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -75,9 +78,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [**DATETIME**](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

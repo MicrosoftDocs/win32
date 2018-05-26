@@ -1,13 +1,16 @@
 ---
-Description: 'An SWbemNamedValueSet object is a collection of SWbemNamedValue objects.'
+Description: An SWbemNamedValueSet object is a collection of SWbemNamedValue objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7d1c3a28-d0d3-4108-9628-74ad483e328e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7d1c3a28-d0d3-4108-9628-74ad483e328e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemNamedValueSet object
@@ -19,7 +22,7 @@ For more information, see [Accessing a Collection](accessing-a-collection.md).
 > [!Note]  
 > Important - If possible, do not use this mechanism because it can break the uniform access model that is the basis of WMI. If a provider does use this mechanism, it is important that this mechanism is used as sparingly as possible. If a provider requires a large amount of highly specific context information to respond to a request, all clients must be coded to provide this information. This mechanism allows you to access such providers, if necessary.
 
- 
+ 
 
 An **SWbemNamedValueSet** object is a collection of [**SWbemNamedValue**](swbemnamedvalue.md) elements. These items are added to the collection using the [**SWbemNamedValueSet.Add**](swbemnamedvalueset-add.md) method. They are removed using the [**SWbemNamedValueSet.Remove**](swbemnamedvalueset-remove.md) method and retrieved using the [**SWbemNamedValueSet.Item**](swbemnamedvalueset-item.md) method. You can access the methods to fill in any context information that is required by a dynamic provider. After you call one of the [**SWbemServices**](swbemservices.md) methods, you can reuse the **SWbemNamedValueSet** object for another call.
 
@@ -48,7 +51,7 @@ The **SWbemNamedValueSet** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +65,7 @@ The **SWbemNamedValueSet** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -199,8 +202,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -216,9 +219,9 @@ else
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ElementConfiguration association relates a CIM\_Configuration object to one or more managed system elements. The CIM\_Configuration object represents a certain behavior, or a desired functional state for the associated CIM\_ManagedSystemElement.'
+Description: The CIM\_ElementConfiguration association relates a CIM\_Configuration object to one or more managed system elements. The CIM\_Configuration object represents a certain behavior, or a desired functional state for the associated CIM\_ManagedSystemElement.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4d2af009-7466-4394-af42-72c8d96e0786'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4d2af009-7466-4394-af42-72c8d96e0786
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ElementConfiguration class'
+title: CIM\_ElementConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementConfiguration class
@@ -19,7 +22,7 @@ The **CIM\_ElementConfiguration** association relates a [**CIM\_Configuration**]
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FC049DCE-DB29-11d2-85FC-0000F8102E5F}"), Association, AMENDMENT]
 class CIM_ElementConfiguration
 {
-  CIM_Configuration        REF Configuration;
+  CIM_Configuration        REF Configuration;
   CIM_ManagedSystemElement REF Element;
 };
 ```
@@ -84,17 +87,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

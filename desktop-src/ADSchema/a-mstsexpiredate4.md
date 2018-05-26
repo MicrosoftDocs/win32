@@ -4,17 +4,22 @@ description: Expiration date of the fourth TS per user CAL.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '568e9f40-893f-4b74-8a9f-232e62dcf426'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 568e9f40-893f-4b74-8a9f-232e62dcf426
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-ExpireDate4 attribute AD Schema", "msTSExpireDate4 attribute AD Schema"]
+keywords:
+- MS-TS-ExpireDate4 attribute AD Schema
+- msTSExpireDate4 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-ExpireDate4
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-ExpireDate4 attribute

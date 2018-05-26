@@ -4,11 +4,15 @@ description: To extend the AD LDS schema to include object class definitions for
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '855ddc43-76c6-47cb-81b6-42a794044eda'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 855ddc43-76c6-47cb-81b6-42a794044eda
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , adding user classes"]
+keywords:
+- AD LDS examples ADAM , adding user classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding User Classes

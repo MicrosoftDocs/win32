@@ -1,8 +1,10 @@
 ---
 title: Msvm\_Error class
 description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
-ms.assetid: '5788eb7c-b110-43df-aa9a-27c6fe164910'
-keywords: ["Msvm_Error class Hyper-V", "Msvm_Error class Hyper-V , described"]
+ms.assetid: 5788eb7c-b110-43df-aa9a-27c6fe164910
+keywords:
+- Msvm_Error class Hyper-V
+- Msvm_Error class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Error class
@@ -1753,9 +1760,9 @@ Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For mo
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1774,9 +1781,9 @@ Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For mo
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

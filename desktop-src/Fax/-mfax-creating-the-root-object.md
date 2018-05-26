@@ -1,7 +1,12 @@
 ---
-Description: 'You can access most fax service Component Object Model (COM) objects through a single root object, the FaxServer object.'
-ms.assetid: '521534dc-7cd5-48fb-b1c1-61dbc1e4eb1f'
+Description: You can access most fax service Component Object Model (COM) objects through a single root object, the FaxServer object.
+ms.assetid: 521534dc-7cd5-48fb-b1c1-61dbc1e4eb1f
 title: Creating the Root Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Root Object

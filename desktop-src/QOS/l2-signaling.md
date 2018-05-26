@@ -1,7 +1,12 @@
 ---
 title: L2 Signaling
 description: WAN technology manipulates Layer 1, Layer 2, and to a certain extent Layer 3 information, as it transmits data over the telecommunications network.
-ms.assetid: '583e788b-aa21-4082-b668-b27c96e283b3'
+ms.assetid: 583e788b-aa21-4082-b668-b27c96e283b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # L2 Signaling

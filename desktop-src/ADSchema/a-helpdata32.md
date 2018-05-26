@@ -4,17 +4,22 @@ description: This attribute was used for the Win32 help file format for Exchange
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '33e64ff9-7cb4-43a6-8d7b-1c5e925b783c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 33e64ff9-7cb4-43a6-8d7b-1c5e925b783c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Help-Data32 attribute AD Schema", "helpData32 attribute AD Schema"]
+keywords:
+- Help-Data32 attribute AD Schema
+- helpData32 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Help-Data32
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Help-Data32 attribute
@@ -38,12 +43,12 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This attribute was used for the Win32 help file format for Exchange 4.0. It is n
 
 
 
- 
+ 
 
- 
+ 
 
 
 

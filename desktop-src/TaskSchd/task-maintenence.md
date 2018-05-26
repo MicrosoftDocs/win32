@@ -1,7 +1,12 @@
 ---
 title: Automatic Maintenance
 description: Maintenance activity refers to an application or process that helps maintain the health and performance of a Windows PC.
-ms.assetid: '1D38341B-15AA-422F-AED1-647FCDE69E2E'
+ms.assetid: 1D38341B-15AA-422F-AED1-647FCDE69E2E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Maintenance

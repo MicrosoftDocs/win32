@@ -1,8 +1,9 @@
 ---
 title: glRenderMode function
 description: The glRenderMode function sets the rasterization mode.
-ms.assetid: 'bcbc3bba-c552-425b-8284-6cadff0c9f56'
-keywords: ["glRenderMode function OpenGL"]
+ms.assetid: bcbc3bba-c552-425b-8284-6cadff0c9f56
+keywords:
+- glRenderMode function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glRenderMode function
@@ -22,7 +28,7 @@ The **glRenderMode** function sets the rasterization mode.
 
 ```C++
 GLint WINAPI glRenderMode(
-   GLenum mode
+   GLenum mode
 );
 ```
 
@@ -47,7 +53,7 @@ The rasterization mode. The following three values are accepted. The default val
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -97,7 +103,7 @@ The return value of the **glRenderMode** function is determined by the render mo
 
 
 
- 
+ 
 
 Refer to [**glSelectBuffer**](glselectbuffer.md) and [**glFeedbackBuffer**](glfeedbackbuffer.md) for more details concerning selection and feedback operation.
 
@@ -113,8 +119,8 @@ The following function retrieves information related to **glRenderMode**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -149,9 +155,9 @@ The following function retrieves information related to **glRenderMode**:
 [**glSelectBuffer**](glselectbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

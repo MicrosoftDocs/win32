@@ -1,7 +1,12 @@
 ---
 title: SoundEffectsOn Property
 description: SoundEffectsOn Property
-ms.assetid: '478c4748-5ca1-4237-958a-17f0a476c32c'
+ms.assetid: 478c4748-5ca1-4237-958a-17f0a476c32c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoundEffectsOn Property
@@ -30,7 +35,7 @@ Returns or sets whether sound effects are enabled for your character.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -43,9 +48,9 @@ This property determines whether sound effects included as a part of a character
 [**SoundEffects property**](soundeffects-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

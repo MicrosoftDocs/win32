@@ -1,7 +1,12 @@
 ---
-Description: 'Obsolete Printer Minidriver Plug-in Functions'
-ms.assetid: '9c1af39b-66fc-4fe7-a0cf-11f963fac786'
-title: 'Obsolete Printer Minidriver Plug-in Functions'
+Description: Obsolete Printer Minidriver Plug-in Functions
+ms.assetid: 9c1af39b-66fc-4fe7-a0cf-11f963fac786
+title: Obsolete Printer Minidriver Plug-in Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obsolete Printer Minidriver Plug-in Functions

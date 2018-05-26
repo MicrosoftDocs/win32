@@ -1,8 +1,13 @@
 ---
 title: IVMKeyboard IsPressed method
 description: The IsPressed method returns the current state (pressed or released) of the specified key within the virtual machine.
-ms.assetid: '15cfccab-dabd-41e4-81f6-558a3453209f'
-keywords: ["IsPressed method Virtual Server", "IsPressed method Virtual Server , IVMKeyboard interface", "IVMKeyboard interface Virtual Server , IsPressed method", "IsPressed method Virtual Server , VMKeyboard interface", "VMKeyboard interface Virtual Server , IsPressed method"]
+ms.assetid: 15cfccab-dabd-41e4-81f6-558a3453209f
+keywords:
+- IsPressed method Virtual Server
+- IsPressed method Virtual Server , IVMKeyboard interface
+- IVMKeyboard interface Virtual Server , IsPressed method
+- IsPressed method Virtual Server , VMKeyboard interface
+- VMKeyboard interface Virtual Server , IsPressed method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard::IsPressed method
@@ -23,8 +33,8 @@ The **IsPressed** method returns the current state (pressed or released) of the 
 
 ```C++
 HRESULT IsPressed(
-  [in]  BSTR         key,
-  [out] VARIANT_BOOL *pressed
+  [in]  BSTR         key,
+  [out] VARIANT_BOOL *pressed
 );
 ```
 
@@ -63,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,8 +81,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -84,9 +94,9 @@ This method can return one of these values.
 [**IVMKeyboard**](ivmkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

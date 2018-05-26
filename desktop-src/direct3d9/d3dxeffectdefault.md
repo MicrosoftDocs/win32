@@ -1,7 +1,12 @@
-﻿---
-Description: 'Effect default parameters.'
-ms.assetid: 'a8a24cf2-0ecd-4429-97d3-086ff49540a1'
+---
+Description: Effect default parameters.
+ms.assetid: a8a24cf2-0ecd-4429-97d3-086ff49540a1
 title: D3DXEFFECTDEFAULT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXEFFECTDEFAULT structure

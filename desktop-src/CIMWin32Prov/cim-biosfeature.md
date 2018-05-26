@@ -1,15 +1,18 @@
 ---
-Description: 'Represents the capabilities of the low-level software that is used to start and configure a computer system.'
+Description: Represents the capabilities of the low-level software that is used to start and configure a computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '54d03539-d908-4571-b8fd-934b972e8d84'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 54d03539-d908-4571-b8fd-934b972e8d84
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_BIOSFeature class'
+title: CIM\_BIOSFeature class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BIOSFeature class
@@ -19,7 +22,7 @@ The **CIM\_BIOSFeature** class represents the capabilities of the low-level soft
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,17 +32,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{7D33100E-E3D3-11d2-8601-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_BIOSFeature : CIM_SoftwareFeature
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   IdentifyingNumber;
-  string   ProductName;
-  string   Vendor;
-  string   Version;
-  string   Name;
-  string   CharacteristicDescriptions[];
-  uint16   Characteristics[];
+  string   Status;
+  string   IdentifyingNumber;
+  string   ProductName;
+  string   Vendor;
+  string   Version;
+  string   Name;
+  string   CharacteristicDescriptions[];
+  uint16   Characteristics[];
 };
 ```
 
@@ -90,7 +93,7 @@ Array of free-form strings that provides detailed explanations of the BIOS featu
 > [!Note]  
 > Each entry in this array is related to the entry in the **Characteristics** array, which is located at the same index.
 
- 
+ 
 
 </dd> <dt>
 
@@ -635,8 +638,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -650,9 +653,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_SoftwareFeature**](cim-softwarefeature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

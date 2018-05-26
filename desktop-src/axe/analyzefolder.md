@@ -1,14 +1,20 @@
 ---
 title: AnalyzeFolder element
 description: Describes how AXE executes an assessment analysis.
-ms.assetid: '5FB7F86D-62A2-4D63-AD54-B11ABC983C71'
-keywords: ["AnalyzeFolder element Access Execution Engine"]
+ms.assetid: 5FB7F86D-62A2-4D63-AD54-B11ABC983C71
+keywords:
+- AnalyzeFolder element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AnalyzeFolder
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalyzeFolder element

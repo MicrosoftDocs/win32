@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.'
-ms.assetid: '4a70c0a7-9de7-48ed-a678-64832f078018'
+---
+Description: This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.
+ms.assetid: 4a70c0a7-9de7-48ed-a678-64832f078018
 title: IPrintOemUIMXDC interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUIMXDC interface

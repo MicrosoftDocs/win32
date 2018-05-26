@@ -1,7 +1,12 @@
 ---
 Description: Japan
-ms.assetid: '4ce30b40-2d5d-449b-9314-45eabad16cce'
+ms.assetid: 4ce30b40-2d5d-449b-9314-45eabad16cce
 title: Japan
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Japan

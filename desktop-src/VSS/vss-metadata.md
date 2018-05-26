@@ -1,7 +1,12 @@
 ---
-Description: 'Both writers and requesters maintain information necessary to a backup or restore operation in their own metadata documents.'
-ms.assetid: '1ce56374-cfbf-4ee4-b942-8a7391911a38'
+Description: Both writers and requesters maintain information necessary to a backup or restore operation in their own metadata documents.
+ms.assetid: 1ce56374-cfbf-4ee4-b942-8a7391911a38
 title: VSS Metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Metadata

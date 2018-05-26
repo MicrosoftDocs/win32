@@ -1,7 +1,12 @@
 ---
 title: Getting Started with Direct2D
 description: The topics in this section describe how to get started creating Direct2D applications and provide example code.
-ms.assetid: '48aae6dd-0f23-43ab-9deb-e6f42c57be4a'
+ms.assetid: 48aae6dd-0f23-43ab-9deb-e6f42c57be4a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Direct2D
@@ -19,7 +24,7 @@ The topics in this section describe how to get started creating Direct2D applica
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ The topics in this section describe how to get started creating Direct2D applica
 [API Reference](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

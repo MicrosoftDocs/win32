@@ -1,7 +1,12 @@
 ---
-Description: 'Any recorded station call signs. For example, &\#0034;TOONP&\#0034;.'
-ms.assetid: 'ccbad270-356e-4e17-8770-98414430b3d7'
-title: 'System.RecordedTV.StationCallSign'
+Description: Any recorded station call signs. For example, &\#0034;TOONP&\#0034;.
+ms.assetid: ccbad270-356e-4e17-8770-98414430b3d7
+title: System.RecordedTV.StationCallSign
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.StationCallSign

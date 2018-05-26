@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) copies attributes from input samples to output samples.'
-ms.assetid: '039ecb35-9aa9-4e8a-bbbc-042b9c4c874c'
-title: 'MFPKEY\_EXATTRIBUTE\_SUPPORTED property'
+---
+Description: Specifies whether a Media Foundation transform (MFT) copies attributes from input samples to output samples.
+ms.assetid: 039ecb35-9aa9-4e8a-bbbc-042b9c4c874c
+title: MFPKEY\_EXATTRIBUTE\_SUPPORTED property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_EXATTRIBUTE\_SUPPORTED property
@@ -101,7 +106,7 @@ BOOL TransformCopiesSampleAttributes(IMFTransform *pMFT)
 [Sample Attributes](sample-attributes.md)
 </dt> <dt>
 
-[**IMFTransform::ProcessOutput**](imftransform-processoutput.md)
+[**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master)
 </dt> </dl>
 
  

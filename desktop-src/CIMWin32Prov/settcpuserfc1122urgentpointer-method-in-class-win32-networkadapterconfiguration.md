@@ -1,15 +1,18 @@
 ---
-Description: 'The SetTcpUseRFC1122UrgentPointer WMI class static method is used to specify whether TCP uses the RFC 1122 specification for urgent data, or the mode used by Berkeley Software Design (BSD) derived systems.'
+Description: The SetTcpUseRFC1122UrgentPointer WMI class static method is used to specify whether TCP uses the RFC 1122 specification for urgent data, or the mode used by Berkeley Software Design (BSD) derived systems.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f8d07690-2723-4bc3-b15f-a24d575456a7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f8d07690-2723-4bc3-b15f-a24d575456a7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetTcpUseRFC1122UrgentPointer method of the Win32\_NetworkAdapterConfiguration class'
+title: SetTcpUseRFC1122UrgentPointer method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetTcpUseRFC1122UrgentPointer method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetTcpUseRFC1122UrgentPointer(
-  [in] boolean TcpUseRFC1122UrgentPointer
+  [in] boolean TcpUseRFC1122UrgentPointer
 );
 ```
 
@@ -391,7 +394,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -409,8 +412,8 @@ The [Modify Urgent Pointer Use for All Network Adapters](https://Gallery.TechNet
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -436,9 +439,9 @@ The [Modify Urgent Pointer Use for All Network Adapters](https://Gallery.TechNet
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

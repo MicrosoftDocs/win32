@@ -1,7 +1,12 @@
 ---
-Description: 'Relates a connection security rule to its Phase 2 Authentication Set.'
-ms.assetid: 'b55ed17f-51d1-404a-8cfc-765db3ba32ae'
-title: 'MSFT\_NetConSecRuleEMAuthSet class'
+Description: Relates a connection security rule to its Phase 2 Authentication Set.
+ms.assetid: b55ed17f-51d1-404a-8cfc-765db3ba32ae
+title: MSFT\_NetConSecRuleEMAuthSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetConSecRuleEMAuthSet class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetConSecRuleEMAuthSet : MSFT_NetSARuleEMAuth
 {
-  MSFT_NetConSecRule   REF GroupComponent;
+  MSFT_NetConSecRule   REF GroupComponent;
   MSFT_NetIKEP2AuthSet REF PartComponent;
-  uint16                   ActionOrder;
+  uint16                   ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The Phase 2 Authentication Set used by the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

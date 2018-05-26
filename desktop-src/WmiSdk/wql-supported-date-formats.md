@@ -1,13 +1,16 @@
 ---
-Description: 'Describes date formats supported for use in the WQL WHERE clause.'
+Description: Describes date formats supported for use in the WQL WHERE clause.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '24d70b7f-681b-4a36-bb67-beaf69f4919f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 24d70b7f-681b-4a36-bb67-beaf69f4919f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WQL-Supported Date Formats'
+title: WQL-Supported Date Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WQL-Supported Date Formats
@@ -111,7 +114,7 @@ Jan 32 21<br />
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -120,9 +123,9 @@ Jan 32 21<br />
 [WHERE Clause](where-clause.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

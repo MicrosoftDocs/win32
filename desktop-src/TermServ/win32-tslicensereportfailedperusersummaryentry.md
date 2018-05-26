@@ -4,11 +4,13 @@ description: Provides details of the domains to which Per User Issuance was fail
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7265734-ac4d-439f-ae8b-3694e6f81f2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f7265734-ac4d-439f-ae8b-3694e6f81f2a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLicenseReportFailedPerUserSummaryEntry class Remote Desktop Services", "Win32_TSLicenseReportFailedPerUserSummaryEntry class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLicenseReportFailedPerUserSummaryEntry class Remote Desktop Services
+- Win32_TSLicenseReportFailedPerUserSummaryEntry class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseReportFailedPerUserSummaryEntry class
@@ -86,7 +91,7 @@ The number of failed issuances.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -100,9 +105,9 @@ The number of failed issuances.
 [**FetchReportFailedPerUserSummaryEntries**](fetchreportfailedperusersummaryentries-win32-tslicensereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

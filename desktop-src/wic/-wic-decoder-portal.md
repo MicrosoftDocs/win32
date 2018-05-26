@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains conceptual and how-to topics that describe Windows Imaging Component (WIC) bitmap decoders which are used in decoding digital images.'
-ms.assetid: 'a5d166f1-341b-496e-b63f-ecfae89032ff'
+Description: This section contains conceptual and how-to topics that describe Windows Imaging Component (WIC) bitmap decoders which are used in decoding digital images.
+ms.assetid: a5d166f1-341b-496e-b63f-ecfae89032ff
 title: Decoding Digital Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoding Digital Images
@@ -20,7 +25,7 @@ This section contains conceptual and how-to topics that describe Windows Imaging
 
 
 
- 
+ 
 
 ## See Also
 
@@ -33,9 +38,9 @@ This section contains conceptual and how-to topics that describe Windows Imaging
 [Samples](-wic-samples.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,26 @@
 ---
 title: Using the Path Element
 description: Using the Path Element
-ms.assetid: 'fd7924e7-f94f-4bc9-aa45-02cf8f9bac9b'
-keywords: ["Web workshop,path element", "designing Web pages,path element", "Vector Markup Language (VML),path element", "VML (Vector Markup Language),path element", "vector graphics,path element", "path element", "VML elements,path", "VML shapes,path element", "Vector Markup Language (VML),customizing shape outlines", "VML (Vector Markup Language),customizing shape outlines", "vector graphics,customizing shape outlines", "VML shapes,customizing outlines", "customizing shape outlines"]
+ms.assetid: fd7924e7-f94f-4bc9-aa45-02cf8f9bac9b
+keywords:
+- Web workshop,path element
+- designing Web pages,path element
+- Vector Markup Language (VML),path element
+- VML (Vector Markup Language),path element
+- vector graphics,path element
+- path element
+- VML elements,path
+- VML shapes,path element
+- Vector Markup Language (VML),customizing shape outlines
+- VML (Vector Markup Language),customizing shape outlines
+- vector graphics,customizing shape outlines
+- VML shapes,customizing outlines
+- customizing shape outlines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Path Element

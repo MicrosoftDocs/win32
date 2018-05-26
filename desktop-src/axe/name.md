@@ -1,14 +1,20 @@
 ---
 title: Name element
 description: A human-readable name for the item.
-ms.assetid: '56b0a3ae-e226-4840-8f85-0d2ee6165fd0'
-keywords: ["Name element Access Execution Engine"]
+ms.assetid: 56b0a3ae-e226-4840-8f85-0d2ee6165fd0
+keywords:
+- Name element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name element
@@ -76,9 +82,9 @@ The Name cannot be used as the assessments identity because the value of Name ca
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

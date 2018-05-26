@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.LensModel property.'
-ms.assetid: '39aeff17-e8d3-4ceb-86a1-1749d2ca98d6'
-title: 'System.Photo.LensModel Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.LensModel property.
+ms.assetid: 39aeff17-e8d3-4ceb-86a1-1749d2ca98d6
+title: System.Photo.LensModel Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.LensModel Photo Metadata Policy

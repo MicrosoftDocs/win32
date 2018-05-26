@@ -1,8 +1,9 @@
 ---
 title: IPM\_CLEARADDRESS message
 description: Clears the contents of the IP address control.
-ms.assetid: '7ac3ec31-ee34-44af-b012-a7dc4246a847'
-keywords: ["IPM_CLEARADDRESS message Windows Controls"]
+ms.assetid: 7ac3ec31-ee34-44af-b012-a7dc4246a847
+keywords:
+- IPM_CLEARADDRESS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPM\_CLEARADDRESS message
@@ -37,15 +43,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

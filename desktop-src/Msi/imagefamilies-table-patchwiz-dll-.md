@@ -1,7 +1,12 @@
 ---
-Description: 'An image family is a group of one or more upgraded images of a product that have been updated to the most recent version.'
-ms.assetid: '06a77b35-b593-47e6-9083-46a6b65b7481'
-title: 'ImageFamilies Table (Patchwiz.dll)'
+Description: An image family is a group of one or more upgraded images of a product that have been updated to the most recent version.
+ms.assetid: 06a77b35-b593-47e6-9083-46a6b65b7481
+title: ImageFamilies Table (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFamilies Table (Patchwiz.dll)

@@ -1,14 +1,20 @@
 ---
 title: PLAYERAPPLICATION.hasDisplay
 description: The hasDisplay attribute retrieves a value indicating whether video can display through the remoted Windows Media Player control.
-ms.assetid: 'c6a735a4-29ae-401c-9381-d8aad2c456eb'
-keywords: ["PLAYERAPPLICATION.hasDisplay Windows Media Player"]
+ms.assetid: c6a735a4-29ae-401c-9381-d8aad2c456eb
+keywords:
+- PLAYERAPPLICATION.hasDisplay Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYERAPPLICATION.hasDisplay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYERAPPLICATION.hasDisplay
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +66,9 @@ Several Windows Media Player controls can be running remotely at the same time, 
 [**Remoting the Windows Media Player Control**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

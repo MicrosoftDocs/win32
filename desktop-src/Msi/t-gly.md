@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: '06fd0284-5af9-409a-8748-c0b40e0fa317'
+Robots: noindex, nofollow
+ms.assetid: 06fd0284-5af9-409a-8748-c0b40e0fa317
 title: T
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T
@@ -28,14 +33,14 @@ Template of the differences between two [*installer databases*](i-gly.md#-msi-in
 <span id="_msi_transform_error_condition_flags_gly"></span><span id="_MSI_TRANSFORM_ERROR_CONDITION_FLAGS_GLY"></span>**transform error condition flags**
 </dt> <dd>
 
-Set of properties used to flag the error conditions of a [*transform*](#-msi-transform-gly). For more information, see [**MsiCreateTransformSummaryInfo**](msicreatetransformsummaryinfo.md).
+Set of properties used to flag the error conditions of a [*transform*](#-msi-transform-gly). For more information, see [**MsiCreateTransformSummaryInfo**](/windows/win32/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa?branch=master).
 
 </dd> <dt>
 
 <span id="_msi_transform_validation_flags_gly"></span><span id="_MSI_TRANSFORM_VALIDATION_FLAGS_GLY"></span>**transform validation flags**
 </dt> <dd>
 
-Set of properties used to verify that the [*transform*](#-msi-transform-gly) can be applied to the database. For a list of these properties, see [**MsiCreateTransformSummaryInfo**](msicreatetransformsummaryinfo.md).
+Set of properties used to verify that the [*transform*](#-msi-transform-gly) can be applied to the database. For a list of these properties, see [**MsiCreateTransformSummaryInfo**](/windows/win32/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa?branch=master).
 
 </dd> </dl>
 

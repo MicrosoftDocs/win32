@@ -1,8 +1,9 @@
 ---
 title: TTM\_GETTOOLCOUNT message
 description: Retrieves a count of the tools maintained by a tooltip control.
-ms.assetid: '0b0f3ba0-0361-4398-a828-30b7bd278652'
-keywords: ["TTM_GETTOOLCOUNT message Windows Controls"]
+ms.assetid: 0b0f3ba0-0361-4398-a828-30b7bd278652
+keywords:
+- TTM_GETTOOLCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_GETTOOLCOUNT message
@@ -37,15 +43,15 @@ Returns a count of tools.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

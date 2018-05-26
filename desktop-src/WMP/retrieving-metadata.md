@@ -1,8 +1,23 @@
 ---
 title: Retrieving Metadata
 description: Retrieving Metadata
-ms.assetid: 'f634118a-0a62-4407-8be1-a907347de55b'
-keywords: ["Windows Media metafile playlists,retrieving metadata", "playlists,retrieving metadata", "metafile playlists,retrieving metadata", "Windows Media metafile playlists,metadata retrieval", "playlists,metadata retrieval", "metafile playlists,metadata retrieval", "metadata,retrieving", "retrieving metadata", "Windows Media Player,retrieving metadata", "Windows Media Player,metadata retrieval"]
+ms.assetid: f634118a-0a62-4407-8be1-a907347de55b
+keywords:
+- Windows Media metafile playlists,retrieving metadata
+- playlists,retrieving metadata
+- metafile playlists,retrieving metadata
+- Windows Media metafile playlists,metadata retrieval
+- playlists,metadata retrieval
+- metafile playlists,metadata retrieval
+- metadata,retrieving
+- retrieving metadata
+- Windows Media Player,retrieving metadata
+- Windows Media Player,metadata retrieval
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Metadata

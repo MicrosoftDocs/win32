@@ -1,15 +1,18 @@
 ---
-Description: 'The Reboot&\#8194;WMI class method shuts down the computer system, then restarts it.'
+Description: The Reboot&\#8194;WMI class method shuts down the computer system, then restarts it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '23b70f2a-28ce-4463-9d22-29de52349ab6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 23b70f2a-28ce-4463-9d22-29de52349ab6
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Reboot method of the Win32\_OperatingSystem class'
+title: Reboot method of the Win32\_OperatingSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reboot method of the Win32\_OperatingSystem class
@@ -40,7 +43,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For e
 **Success** (0)
 </dt> <dt>
 
-**Other** (1–4294967295)
+**Other** (1 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -56,7 +59,7 @@ The following VBScript code sample invokes the Reboot method of the [**Win32\_Op
 > [!Note]  
 > You must have the Shutdown privilege to successfully invoke the Shutdown method.
 
- 
+ 
 
 
 ```VB
@@ -74,7 +77,7 @@ The following Perl code invokes the Reboot method of the [**Win32\_OperatingSyst
 > [!Note]  
 > You must have the Shutdown privilege to successfully invoke the Shutdown method.
 
- 
+ 
 
 
 ```
@@ -109,7 +112,7 @@ The following VBScript invokes the Reboot method of the [**Win32\_OperatingSyste
 > [!Note]  
 > You must have the RemoteShutdown privilege to successfully invoke the Reboot method
 
- 
+ 
 
 
 ```VB
@@ -127,7 +130,7 @@ he following Perl invokes the Reboot method of the [**Win32\_OperatingSystem**](
 > [!Note]  
 > You must have the RemoteShutdown privilege to successfully invoke the Reboot method.
 
- 
+ 
 
 
 ```
@@ -172,8 +175,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -196,9 +199,9 @@ else
 [WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

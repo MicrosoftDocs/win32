@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_ALL'
-ms.assetid: '40a4ca16-b06c-46be-abe2-bd3e7ed0da4b'
-title: 'LOCALE\_ALL'
+Description: LOCALE\_ALL
+ms.assetid: 40a4ca16-b06c-46be-abe2-bd3e7ed0da4b
+title: LOCALE\_ALL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_ALL

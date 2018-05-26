@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ModifySettingAction class exposes the following methods.'
+Description: The CIM\_ModifySettingAction class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'F35EB0C7-3158-412F-970E-C3CBA5D22EEC'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: F35EB0C7-3158-412F-970E-C3CBA5D22EEC
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ModifySettingAction Methods'
+title: CIM\_ModifySettingAction Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ModifySettingAction Methods

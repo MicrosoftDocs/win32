@@ -57,7 +57,7 @@
 ### [put_Thumbnail method](isystemmediatransportcontrolsdisplayupdater-put-thumbnail.md)
 ### [put_Type method](isystemmediatransportcontrolsdisplayupdater-put-type.md)
 ### [Update method](isystemmediatransportcontrolsdisplayupdater-update.md)
-## [ISystemMediaTransportControlsInterop](/windows/win32/content/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop?branch=dev)
+## [ISystemMediaTransportControlsInterop](/windows/previous-versions/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop?branch=master)
 ### [GetForWindow method](isystemmediatransportcontrolsinterop-getforwindow.md)
 ## [ISystemMediaTransportControlsPropertyChangedEventArgs](isystemmediatransportcontrolspropertychangedeventargs.md)
 ### [get_Property method](isystemmediatransportcontrolspropertychangedeventargs-get-property.md)

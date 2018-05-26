@@ -1,8 +1,10 @@
 ---
 title: WMT\_RIGHTS enumeration
 description: Defines the rights that may be specified in a DRM license.
-ms.assetid: '9c034ca0-83e9-4a4c-8e98-96e2a95fd97c'
-keywords: ["WMT_RIGHTS enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: 9c034ca0-83e9-4a4c-8e98-96e2a95fd97c
+keywords:
+- WMT_RIGHTS enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMT\_RIGHTS enumeration
@@ -22,16 +29,16 @@ The **WMT\_RIGHTS** enumeration type defines the rights that may be specified in
 
 ```C++
 typedef enum WMT_RIGHTS { 
-  WMT_RIGHT_PLAYBACK                 = 0x00000001,
-  WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE  = 0x00000002,
-  WMT_RIGHT_COPY_TO_CD               = 0x00000008,
-  WMT_RIGHT_COPY_TO_SDMI_DEVICE      = 0x00000010,
-  WMT_RIGHT_ONE_TIME                 = 0x00000020,
-  WMT_RIGHT_SAVE_STREAM_PROTECTED    = 0x00000040,
-  WMT_RIGHT_COPY                     = 0x00000080,
-  WMT_RIGHT_COLLABORATIVE_PLAY       = 0x00000100,
-  WMT_RIGHT_SDMI_TRIGGER             = 0x00010000,
-  WMT_RIGHT_SDMI_NOMORECOPIES        = 0x00020000
+  WMT_RIGHT_PLAYBACK                 = 0x00000001,
+  WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE  = 0x00000002,
+  WMT_RIGHT_COPY_TO_CD               = 0x00000008,
+  WMT_RIGHT_COPY_TO_SDMI_DEVICE      = 0x00000010,
+  WMT_RIGHT_ONE_TIME                 = 0x00000020,
+  WMT_RIGHT_SAVE_STREAM_PROTECTED    = 0x00000040,
+  WMT_RIGHT_COPY                     = 0x00000080,
+  WMT_RIGHT_COLLABORATIVE_PLAY       = 0x00000100,
+  WMT_RIGHT_SDMI_TRIGGER             = 0x00010000,
+  WMT_RIGHT_SDMI_NOMORECOPIES        = 0x00020000
 } ;
 ```
 
@@ -134,9 +141,9 @@ When using Windows Media DRM 10, **WMT\_RIGHT\_COPY\_TO\_NON\_SDMI\_DEVICE**, **
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

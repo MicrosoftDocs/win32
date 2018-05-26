@@ -1,7 +1,12 @@
 ---
 title: Required Firewall Exceptions for Teredo
-description: For an application to receive Teredo traffic, the application must be permitted to receive IPv6 traffic in the host firewall, and the application is required to set the socket option IPV6\_PROTECTION\_LEVEL to 'PROTECTION\_LEVEL\_UNRESTRICTED'.
-ms.assetid: '2fc74d86-9696-4ba9-adbe-e5558ae7d7c2'
+description: For an application to receive Teredo traffic, the application must be permitted to receive IPv6 traffic in the host firewall, and the application is required to set the socket option IPV6\_PROTECTION\_LEVEL to PROTECTION\_LEVEL\_UNRESTRICTED.
+ms.assetid: 2fc74d86-9696-4ba9-adbe-e5558ae7d7c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Required Firewall Exceptions for Teredo

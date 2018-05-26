@@ -1,7 +1,12 @@
 ---
 title: VML BWNormal Attribute
 description: VML BWNormal Attribute
-ms.assetid: '4d361fc8-e1a9-4af4-91d1-72cff898650c'
+ms.assetid: 4d361fc8-e1a9-4af4-91d1-72cff898650c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML BWNormal Attribute

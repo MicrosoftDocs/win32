@@ -4,11 +4,18 @@ description: Virtual machine replication broker resources have the following pri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93D3A0D2-929A-4806-9376-8B1FE07AE2F2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 93D3A0D2-929A-4806-9376-8B1FE07AE2F2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Virtual Machine Replication Broker resource type Failover Cluster ,properties", "properties Failover Cluster ,Virtual Machine Replication Broker (private) properties", "Virtual Machine Replication Broker resource type Failover Cluster ,properties", "properties Failover Cluster ,Virtual Machine Replication Broker (private) properties"]
+keywords:
+- Virtual Machine Replication Broker resource type Failover Cluster ,properties
+- properties Failover Cluster ,Virtual Machine Replication Broker (private) properties
+- Virtual Machine Replication Broker resource type Failover Cluster ,properties
+- properties Failover Cluster ,Virtual Machine Replication Broker (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Virtual Machine Replication Broker Private Properties
@@ -37,11 +44,11 @@ keywords: ["Virtual Machine Replication Broker resource type Failover Cluster ,p
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

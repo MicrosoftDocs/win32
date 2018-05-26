@@ -1,7 +1,12 @@
 ---
-Description: 'The secret key authentication technique does not explain how the client and server get the secret session key to use in sessions with each other.'
-ms.assetid: '90ab0359-5079-49e9-809c-0c0005cc61bf'
+Description: The secret key authentication technique does not explain how the client and server get the secret session key to use in sessions with each other.
+ms.assetid: 90ab0359-5079-49e9-809c-0c0005cc61bf
 title: Key Distribution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Distribution

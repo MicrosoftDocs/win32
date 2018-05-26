@@ -1,12 +1,17 @@
-﻿---
-Description: 'Requests whether it is acceptable to drop a data object on the item specified by the accompanying SMDATA structure.'
-ms.assetid: '777bbc7e-6b0f-4627-9d92-4aa8209082ca'
-title: 'SMC\_SFDDRESTRICTED message'
+---
+Description: Requests whether it is acceptable to drop a data object on the item specified by the accompanying SMDATA structure.
+ms.assetid: 777bbc7e-6b0f-4627-9d92-4aa8209082ca
+title: SMC\_SFDDRESTRICTED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_SFDDRESTRICTED message
 
-Requests whether it is acceptable to drop a data object on the item specified by the accompanying [**SMDATA**](smdata.md) structure.
+Requests whether it is acceptable to drop a data object on the item specified by the accompanying [**SMDATA**](/windows/win32/Shobjidl_core/ns-shobjidl_core-tagsmdata?branch=master) structure.
 
 
 ```C++
@@ -34,7 +39,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 ## Requirements
 

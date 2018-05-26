@@ -1,14 +1,20 @@
 ---
 title: EventID (SystemPropertiesType) Element
 description: The identifier that the provider used to identify the event.
-ms.assetid: '2d5ac44b-4157-4b87-bd8f-e992e85dd0b1'
-keywords: ["EventID element EventLog"]
+ms.assetid: 2d5ac44b-4157-4b87-bd8f-e992e85dd0b1
+keywords:
+- EventID element EventLog
 topic_type:
 - apiref
 api_name:
 - EventID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventID (SystemPropertiesType) Element
@@ -35,8 +41,8 @@ The **EventID** element is defined by the [**SystemPropertiesType**](eventschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -50,9 +56,9 @@ The **EventID** element is defined by the [**SystemPropertiesType**](eventschema
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'You create a vertex buffer object by calling the IDirect3DDevice9::CreateVertexBuffer method, which accepts five parameters.'
-ms.assetid: '95116ef5-af88-47e7-abf7-1ade9735e2a7'
-title: 'Creating a Vertex Buffer (Direct3D 9)'
+Description: You create a vertex buffer object by calling the IDirect3DDevice9CreateVertexBuffer method, which accepts five parameters.
+ms.assetid: 95116ef5-af88-47e7-abf7-1ade9735e2a7
+title: Creating a Vertex Buffer (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Vertex Buffer (Direct3D 9)
 
-You create a vertex buffer object by calling the [**IDirect3DDevice9::CreateVertexBuffer**](idirect3ddevice9--createvertexbuffer.md) method, which accepts five parameters. The first parameter specifies the vertex buffer length, in bytes. Use the sizeof operator to determine the size of a vertex format, in bytes. Consider the following custom vertex format.
+You create a vertex buffer object by calling the [**IDirect3DDevice9::CreateVertexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer?branch=master) method, which accepts five parameters. The first parameter specifies the vertex buffer length, in bytes. Use the sizeof operator to determine the size of a vertex format, in bytes. Consider the following custom vertex format.
 
 
 ```
@@ -25,11 +30,11 @@ struct CUSTOMVERTEX {
 
 To create a vertex buffer to hold four CUSTOMVERTEX structures, specify \[4\*sizeof(CUSTOMVERTEX)\] for the *Length* parameter.
 
-The second parameter is a set of usage controls. Among other things, its value determines whether the vertex buffer is capable of containing clipping information - in the form of clip flags - for vertices that exist outside the viewing area. To create a vertex buffer that cannot contain clip flags, include the D3DUSAGE\_DONOTCLIP flag for the *Usage* parameter. The D3DUSAGE\_DONOTCLIP flag is applied only if you also indicate that the vertex buffer will contain transformed vertices - the D3DFVF\_XYZRHW flag is included in the *FVF* parameter. The [**IDirect3DDevice9::CreateVertexBuffer**](idirect3ddevice9--createvertexbuffer.md) method ignores the D3DUSAGE\_DONOTCLIP flag if you indicate that the buffer will contain untransformed vertices (the D3DFVF\_XYZ flag). Clipping flags occupy additional memory, making a clipping-capable vertex buffer slightly larger than a vertex buffer incapable of containing clipping flags. Because these resources are allocated when the vertex buffer is created, you must request a clipping-capable vertex buffer ahead of time.
+The second parameter is a set of usage controls. Among other things, its value determines whether the vertex buffer is capable of containing clipping information - in the form of clip flags - for vertices that exist outside the viewing area. To create a vertex buffer that cannot contain clip flags, include the D3DUSAGE\_DONOTCLIP flag for the *Usage* parameter. The D3DUSAGE\_DONOTCLIP flag is applied only if you also indicate that the vertex buffer will contain transformed vertices - the D3DFVF\_XYZRHW flag is included in the *FVF* parameter. The [**IDirect3DDevice9::CreateVertexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer?branch=master) method ignores the D3DUSAGE\_DONOTCLIP flag if you indicate that the buffer will contain untransformed vertices (the D3DFVF\_XYZ flag). Clipping flags occupy additional memory, making a clipping-capable vertex buffer slightly larger than a vertex buffer incapable of containing clipping flags. Because these resources are allocated when the vertex buffer is created, you must request a clipping-capable vertex buffer ahead of time.
 
 The third parameter, *FVF*, is a combination of [D3DFVF](d3dfvf.md) that describe the vertex format of the vertex buffer. If you specify 0 for this parameter, then the vertex buffer is a non-FVF vertex buffer. For more information, see [FVF Vertex Buffers (Direct3D 9)](fvf-vertex-buffers.md). The fourth parameter describes the memory class into which to place the vertex buffer.
 
-The final parameter that [**IDirect3DDevice9::CreateVertexBuffer**](idirect3ddevice9--createvertexbuffer.md) accepts is the address of a variable that will be filled with a pointer to the new [**IDirect3DVertexBuffer9**](idirect3dvertexbuffer9.md) interface of the vertex buffer object, if the call succeeds.
+The final parameter that [**IDirect3DDevice9::CreateVertexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer?branch=master) accepts is the address of a variable that will be filled with a pointer to the new [**IDirect3DVertexBuffer9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexbuffer9?branch=master) interface of the vertex buffer object, if the call succeeds.
 
 You cannot produce clip flags for a vertex buffer that was created without support for them.
 

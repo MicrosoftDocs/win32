@@ -1,7 +1,12 @@
 ---
 title: Enumerated and Indexed Resolution
 description: Enumerated and Indexed Resolution
-ms.assetid: '09b1cef3-0345-4e1c-9855-92fdc921947a'
+ms.assetid: 09b1cef3-0345-4e1c-9855-92fdc921947a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerated and Indexed Resolution

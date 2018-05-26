@@ -1,7 +1,12 @@
 ---
-Description: 'The system loads a time provider based on its configuration information stored in the registry.'
-ms.assetid: '67f79c31-9dd7-4e3f-bfe1-701b10611f91'
+Description: The system loads a time provider based on its configuration information stored in the registry.
+ms.assetid: 67f79c31-9dd7-4e3f-bfe1-701b10611f91
 title: Registering a Time Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Time Provider

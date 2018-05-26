@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following storage properties.'
-ms.assetid: '234078c3-e703-41f3-9b18-ae61d8a36784'
+Description: Windows Portable Devices supports the following storage properties.
+ms.assetid: 234078c3-e703-41f3-9b18-ae61d8a36784
 title: Storage Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage Properties
@@ -25,7 +30,7 @@ Windows Portable Devices supports the following storage properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,9 +49,9 @@ Windows Portable Devices supports the following storage properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

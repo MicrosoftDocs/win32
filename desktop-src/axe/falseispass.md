@@ -1,14 +1,20 @@
 ---
 title: FalseIsPass element
 description: Indicates that the MetricValue is considered to pass if its boolean value is false.
-ms.assetid: 'CA715419-4D21-4FE5-B5A8-23AFACB9107A'
-keywords: ["FalseIsPass element Access Execution Engine"]
+ms.assetid: CA715419-4D21-4FE5-B5A8-23AFACB9107A
+keywords:
+- FalseIsPass element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - FalseIsPass
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FalseIsPass element

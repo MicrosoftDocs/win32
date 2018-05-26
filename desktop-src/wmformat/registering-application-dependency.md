@@ -1,8 +1,15 @@
 ---
 title: Registering Application Dependency
 description: Registering Application Dependency
-ms.assetid: '09f63519-5c65-4784-9ea4-4fbecfa6d4aa'
-keywords: ["Windows Media Format SDK,registering application dependencies", "registering application dependencies"]
+ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
+keywords:
+- Windows Media Format SDK,registering application dependencies
+- registering application dependencies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Application Dependency

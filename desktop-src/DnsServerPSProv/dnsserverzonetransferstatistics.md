@@ -2,13 +2,15 @@
 title: DnsServerZoneTransferStatistics class
 description: Represents zone transfer statistics for the specified transfer type.
 audience: developer
-ms.assetid: 'efbcccce-aeaa-46ff-bc66-9c7bce6cd9f3'
-ms.prod: 'windows-server-dev'
+ms.assetid: efbcccce-aeaa-46ff-bc66-9c7bce6cd9f3
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerZoneTransferStatistics class", "DnsServerZoneTransferStatistics class, described"]
+keywords:
+- DnsServerZoneTransferStatistics class
+- DnsServerZoneTransferStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerZoneTransferStatistics class
@@ -161,7 +166,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -175,9 +180,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

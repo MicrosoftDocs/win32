@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies when single sign on is performed.'
-ms.assetid: '23a7ab31-b29d-4f45-a384-bb2d2c18230f'
-title: 'type (singleSignOn) Element'
+---
+Description: Specifies when single sign on is performed.
+ms.assetid: 23a7ab31-b29d-4f45-a384-bb2d2c18230f
+title: type (singleSignOn) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # type (singleSignOn) Element

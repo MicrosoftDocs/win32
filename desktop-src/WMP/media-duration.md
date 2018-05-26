@@ -1,8 +1,9 @@
 ---
 title: Media.duration
 description: The duration property retrieves the duration of the current media item in seconds.
-ms.assetid: 'd7d36858-812d-471b-84ce-fe2ab96b86b3'
-keywords: ["Media.duration Windows Media Player"]
+ms.assetid: d7d36858-812d-471b-84ce-fe2ab96b86b3
+keywords:
+- Media.duration Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.duration
@@ -105,9 +111,9 @@ RemTime.innerHTML += Math.floor(Player.currentMedia.duration - TimeNow);
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

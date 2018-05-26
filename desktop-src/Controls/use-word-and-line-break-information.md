@@ -1,7 +1,12 @@
 ---
 title: How to Use Word and Line Break Information
 description: A rich edit control calls a function called a word-break procedure to find breaks between words and to determine where it can break lines.
-ms.assetid: 'DDCE9814-0D39-494C-953A-FB6A98100EEA'
+ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Word and Line Break Information
@@ -50,7 +55,7 @@ You can replace the default word-break procedure for a rich edit control with yo
 
  
 
-For Microsoft Rich Edit 1.0, you can use the [**EM\_SETWORDBREAKPROCEX**](em-setwordbreakprocex.md) message to replace the default extended word-break procedure with an [*EditWordBreakProcEx*](editwordbreakprocex.md) function. This function provides additional information about the text, such as the character set. You can use the [**EM\_GETWORDBREAKPROCEX**](em-getwordbreakprocex.md) message to retrieve the address of the current extended word-break procedure. Note that Microsoft Rich Edit 2.0 and later do not support *EditWordBreakProcEx*, **EM\_GETWORDBREAKPROCEX**, and **EM\_SETWORDBREAKPROCEX**.
+For Microsoft Rich Edit 1.0, you can use the [**EM\_SETWORDBREAKPROCEX**](em-setwordbreakprocex.md) message to replace the default extended word-break procedure with an [*EditWordBreakProcEx*](/windows/win32/Richedit/nc-richedit-editwordbreakprocex?branch=master) function. This function provides additional information about the text, such as the character set. You can use the [**EM\_GETWORDBREAKPROCEX**](em-getwordbreakprocex.md) message to retrieve the address of the current extended word-break procedure. Note that Microsoft Rich Edit 2.0 and later do not support *EditWordBreakProcEx*, **EM\_GETWORDBREAKPROCEX**, and **EM\_SETWORDBREAKPROCEX**.
 
 You can use the [**EM\_FINDWORDBREAK**](em-findwordbreak.md) message to find word breaks or to determine a character's class and word-break flags. In turn, the control calls its word-break procedure to get the requested information.
 

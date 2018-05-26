@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a mesh''s texture coordinates.'
-ms.assetid: 'c87eb176-b502-49b6-bc73-401cc46e8412'
+Description: Defines a meshs texture coordinates.
+ms.assetid: c87eb176-b502-49b6-bc73-401cc46e8412
 title: MeshTextureCoords
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MeshTextureCoords

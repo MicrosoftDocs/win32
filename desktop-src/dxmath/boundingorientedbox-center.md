@@ -1,12 +1,17 @@
-﻿---
-Description: 'The center of the BoundingOrientedBox.'
-ms.assetid: 'e1e118cd-4549-4609-9c8e-7ce36a0bcc3f'
-title: 'BoundingOrientedBox.Center'
+---
+Description: The center of the BoundingOrientedBox.
+ms.assetid: e1e118cd-4549-4609-9c8e-7ce36a0bcc3f
+title: BoundingOrientedBox.Center
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingOrientedBox.Center
 
-The center of the [**BoundingOrientedBox**](boundingorientedbox.md).
+The center of the [**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingOrientedBox**](boundingorientedbox.md)
+[**BoundingOrientedBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingorientedbox?branch=master)
 </dt> </dl>
 
  

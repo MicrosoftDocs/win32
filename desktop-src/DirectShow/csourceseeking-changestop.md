@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeStop method is called when the stop position changes.'
-ms.assetid: '3d4a73a4-68e6-449c-9637-62cad937c4b4'
-title: 'CSourceSeeking.ChangeStop method'
+Description: The ChangeStop method is called when the stop position changes.
+ms.assetid: 3d4a73a4-68e6-449c-9637-62cad937c4b4
+title: CSourceSeeking.ChangeStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.ChangeStop method
@@ -58,9 +63,9 @@ HRESULT CMyStream::ChangeStop( )
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

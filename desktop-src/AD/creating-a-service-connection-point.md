@@ -4,11 +4,16 @@ description: The following code example shows how to create and initialize a ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6ab1e72f-22e8-499a-916e-c2ba8e2c2aff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6ab1e72f-22e8-499a-916e-c2ba8e2c2aff
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Creating a Service Connection Point AD", "Service Connection Point, Creating AD"]
+keywords:
+- Creating a Service Connection Point AD
+- Service Connection Point, Creating AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Service Connection Point

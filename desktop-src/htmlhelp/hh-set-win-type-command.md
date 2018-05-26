@@ -1,7 +1,12 @@
 ---
 title: HH\_SET\_WIN\_TYPE command
 description: Creates a new help window or modifies an existing help window at run time.
-ms.assetid: '49992165-6B8F-4014-858B-53B0041907D7'
+ms.assetid: 49992165-6B8F-4014-858B-53B0041907D7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_SET\_WIN\_TYPE command
@@ -12,11 +17,11 @@ Creates a new help window or modifies an existing help window at run time.
 
 | *pszFile*                                                                                                                                                                                                                                                                                                                     | *dwData*                                                            |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Specifies the name of the window type that you want to create or modify and the name of the compiled help (.chm) file in which the window type is defined. The window type name must begin with a greater-than (&gt;) character and must be preceded by the name of the compiled help file in which it is defined.<br/> | Points to an [**HH\_WINTYPE**](hh-wintype-structure.md) structure. |
+| Specifies the name of the window type that you want to create or modify and the name of the compiled help (.chm) file in which the window type is defined. The window type name must begin with a greater-than (&gt;) character and must be preceded by the name of the compiled help file in which it is defined.<br/> | Points to an [**HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master) structure. |
 
 
 
- 
+ 
 
 ## Example
 
@@ -55,9 +60,9 @@ HtmlHelp(
 [HH\_GET\_WIN\_TYPE](hh-get-win-type-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

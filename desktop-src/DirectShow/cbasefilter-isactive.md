@@ -1,7 +1,12 @@
 ---
-Description: 'The IsActive method determines whether the filter is currently active (running or paused).'
-ms.assetid: '3bbb50d5-6a07-4932-940c-4466b95e6412'
-title: 'CBaseFilter.IsActive method'
+Description: The IsActive method determines whether the filter is currently active (running or paused).
+ms.assetid: 3bbb50d5-6a07-4932-940c-4466b95e6412
+title: CBaseFilter.IsActive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.IsActive method
@@ -43,9 +48,9 @@ Returns **TRUE** if the filter is paused or running, or **FALSE** if it is stopp
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

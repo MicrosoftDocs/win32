@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyFile5 GetProperty method
 description: Gets a generic property of a Delivery Optimization (DO) file transfer.
-ms.assetid: 'E2E96A0F-5670-4DE7-9DF8-A215AFAD0E8A'
-keywords: ["GetProperty method", "GetProperty method, IBackgroundCopyFile5 interface", "IBackgroundCopyFile5 interface, GetProperty method"]
+ms.assetid: E2E96A0F-5670-4DE7-9DF8-A215AFAD0E8A
+keywords:
+- GetProperty method
+- GetProperty method, IBackgroundCopyFile5 interface
+- IBackgroundCopyFile5 interface, GetProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile5::GetProperty method
@@ -22,8 +30,8 @@ Gets a generic property of a Delivery Optimization (DO) file transfer.
 
 ```C++
 HRESULT GetProperty(
-  [in]  BITS_FILE_PROPERTY_ID    PropertyId,
-  [out] BITS_FILE_PROPERTY_VALUE *PropertyValue
+  [in]  BITS_FILE_PROPERTY_ID    PropertyId,
+  [out] BITS_FILE_PROPERTY_VALUE *PropertyValue
 );
 ```
 
@@ -57,7 +65,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -77,9 +85,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IBackgroundCopyFile5.SetProperty**](ibackgroundcopyfile5-setproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

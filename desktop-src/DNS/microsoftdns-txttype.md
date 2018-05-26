@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_TXTType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Text (TXT) record.
-ms.assetid: 'e4bd445f-71c4-48dc-b210-e3ad4452d2e5'
-keywords: ["MicrosoftDNS_TXTType class DNS", "MicrosoftDNS_TXTType class DNS , described"]
+ms.assetid: e4bd445f-71c4-48dc-b210-e3ad4452d2e5
+keywords:
+- MicrosoftDNS_TXTType class DNS
+- MicrosoftDNS_TXTType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_TXTType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_TXTType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ Descriptive text, the semantics of which depend on the owner domain.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ Descriptive text, the semantics of which depend on the owner domain.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

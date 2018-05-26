@@ -1,7 +1,12 @@
 ---
 title: Design Help
 description: Design Help
-ms.assetid: '5D1BE9AF-F1A2-4b23-AA00-397F46481418'
+ms.assetid: 5D1BE9AF-F1A2-4b23-AA00-397F46481418
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Design Help

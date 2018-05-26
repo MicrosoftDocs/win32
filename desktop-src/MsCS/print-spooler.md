@@ -4,11 +4,16 @@ description: The Print Spooler resource type describes a network printer that ap
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f94ccac1-5223-4e96-b275-229bddfeb8df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f94ccac1-5223-4e96-b275-229bddfeb8df
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster , Print Spooler", "Print Spooler resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster , Print Spooler
+- Print Spooler resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print Spooler

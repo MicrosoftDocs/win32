@@ -1,8 +1,10 @@
 ---
 title: IVMFloppyDrive interface
 description: Controls a floppy drive within a virtual machine.
-ms.assetid: 'b652182a-27ae-4390-81b1-b644a82924df'
-keywords: ["IVMFloppyDrive interface Virtual PC", "IVMFloppyDrive interface Virtual PC , described"]
+ms.assetid: b652182a-27ae-4390-81b1-b644a82924df
+keywords:
+- IVMFloppyDrive interface Virtual PC
+- IVMFloppyDrive interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Controls a floppy drive within a virtual machine. **IVMFloppyDrive** can notify clients about events using the [**IVMFloppyDriveEvents**](ivmfloppydriveevents.md) outgoing interface. You can retrieve an **IVMFloppyDrive** object from the [**IVMFloppyDriveCollection**](ivmfloppydrivecollection.md) object returned from the [**IVMVirtualMachine::FloppyDrives**](ivmvirtualmachine-floppydrives.md) property.
 
@@ -41,7 +48,7 @@ The **IVMFloppyDrive** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +65,7 @@ The **IVMFloppyDrive** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,18 +73,18 @@ The **IVMFloppyDrive** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMFloppyDrive is defined as 661abee6-112a-4ed9-babf-3c874969f10e<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

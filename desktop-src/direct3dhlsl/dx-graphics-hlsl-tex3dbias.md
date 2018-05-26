@@ -1,14 +1,20 @@
 ---
 title: tex3Dbias
 description: Samples a 3D texture after biasing the mip level by t.w.
-ms.assetid: '6a506036-90d1-420c-a712-a373068c8c16'
-keywords: ["tex3Dbias HLSL"]
+ms.assetid: 6a506036-90d1-420c-a712-a373068c8c16
+keywords:
+- tex3Dbias HLSL
 topic_type:
 - apiref
 api_name:
 - tex3Dbias
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex3Dbias
@@ -22,7 +28,7 @@ Samples a 3D texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 3D texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Provides rules for mapping WMI classes to Active Directory.'
+Description: Provides rules for mapping WMI classes to Active Directory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '295d3233-5729-4eb0-9fa3-1cf64fef2909'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 295d3233-5729-4eb0-9fa3-1cf64fef2909
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Mapping Active Directory Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mapping Active Directory Classes
@@ -23,7 +26,7 @@ This following sections are discussed in this topic:
 > [!Note]  
 > For more information about support and installation of this component on a specific operating system, see [Operating System Availability of WMI Components](operating-system-availability-of-wmi-components.md).
 
- 
+ 
 
 ## Mapping Classes
 
@@ -36,9 +39,9 @@ The following list describes the guidelines that the Directory Services provider
 -   Each nonabstract class from the Active Directory schema maps to the following two classes in the WMI schema:
 
     -   The first mapped class is prefixed with ADS\_. These are abstract classes, mapped according to the rules below.
-    -   The second mapped class is a nonabstract class with the DS\_ name prefix. This class is derived from the ADS\_ abstract class, with the addition of the [**Provider**](provider.md) qualifier.
+    -   The second mapped class is a nonabstract class with the DS\_ name prefix. This class is derived from the ADS\_ abstract class, with the addition of the [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier.
 
-    For example, the **user** class from the Active Directory schema maps to two classes. The first class is the **ADS\_user** abstract class, mapped according to rules below. The second class is the **DS\_user** nonabstract class. It is derived from **ADS\_user** and has the added [**Provider**](provider.md) qualifier.
+    For example, the **user** class from the Active Directory schema maps to two classes. The first class is the **ADS\_user** abstract class, mapped according to rules below. The second class is the **DS\_user** nonabstract class. It is derived from **ADS\_user** and has the added [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier.
 
 -   Unless specified otherwise, the name of a mapped class is the mangled value of the **LDAP-Display-Name** property in the Active Directory class.
 -   If the **Sub-Class-Of** property is present on the Active Directory class, the WMI-mapped class is derived from the specified class.
@@ -48,10 +51,10 @@ The following list describes the guidelines that the Directory Services provider
     > [!Note]  
     > This class has the **ADSIPath** key property, with a type **VT\_BSTR**. This is the unique ADSI path that identifies this instance. Active Directory supports single-inheritance only, so this works.
 
-     
+     
 
 -   A **Dynamic** qualifier of type **VT\_BOOL**, and flavor `WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE | WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS` set to **TRUE** is created for every class. This is a standard WMI qualifier that indicates that instances of this class are provided dynamically.
--   If the class is not abstract, the provider creates a [**Provider**](provider.md) qualifier of type **VT\_BSTR BOOL** and qualifier flavor `WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE | WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS` set to "DS Instance Provider" for every class. This is a standard WMI qualifier that indicates the name of the provider dynamically providing instances of this class.
+-   If the class is not abstract, the provider creates a [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier of type **VT\_BSTR BOOL** and qualifier flavor `WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE | WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS` set to "DS Instance Provider" for every class. This is a standard WMI qualifier that indicates the name of the provider dynamically providing instances of this class.
 
 The rest of the ADSI properties map to class qualifiers and properties as per the following tables. All qualifiers map with a qualifier flag value of `WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE | WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS`.
 
@@ -131,7 +134,7 @@ Mapped directly from the Boolean value.
 
 </dd> </dl>
 
- 
+ 
 
 The following lists the Active Directory class properties mapped to WMI class properties.
 
@@ -203,7 +206,7 @@ The following table lists the mapping of the Active Directory syntax to the WMI 
 
 
 
- 
+ 
 
 The Octet String syntax, which refers to an array of **uint8** values, presents a problem when mapped to WMI because WMI allows properties of types **uint8** and arrays of **uint8**, whereas Active Directory allows properties of type Octet String as well as arrays of Octet String.
 
@@ -247,12 +250,12 @@ The following table lists how WMI maps the rest of the Active Directory attribut
 
 
 
- 
+ 
 
 > [!Note]  
 > WMI maps all Active Directory qualifiers with the `WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE | WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS` qualifier flavors.
 
- 
+ 
 
 ## Association Classes
 
@@ -302,11 +305,11 @@ instance of __InstanceProviderRegistration
 };
 ```
 
-The association class provider supports the [**GetObjectAsync**](iwbemservices-getobjectasync.md) and [**CreateClassEnumAsync**](iwbemservices-createclassenumasync.md) methods.
+The association class provider supports the [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) and [**CreateClassEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync?branch=master) methods.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DnsServerEDns class
 description: DNS Server Extended DNS, EDNS RFC2671.
 audience: developer
-ms.assetid: 'a71e24a2-f417-4226-814a-e3bfe208fe19'
-ms.prod: 'windows-server-dev'
+ms.assetid: a71e24a2-f417-4226-814a-e3bfe208fe19
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerEDns class", "DnsServerEDns class, described"]
+keywords:
+- DnsServerEDns class
+- DnsServerEDns class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerEDns class
@@ -34,8 +39,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerEDns
 {
-  boolean  EnableProbes;
-  boolean  EnableReception;
+  boolean  EnableProbes;
+  boolean  EnableReception;
   datetime CacheTimeout;
 };
 ```
@@ -98,7 +103,7 @@ A Boolean value that indicates whether the DNS server will accept queries that c
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -112,9 +117,9 @@ A Boolean value that indicates whether the DNS server will accept queries that c
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

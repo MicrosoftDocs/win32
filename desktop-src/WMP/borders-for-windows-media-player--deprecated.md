@@ -1,8 +1,17 @@
 ---
 title: Borders for Windows Media Player (deprecated)
 description: Borders for Windows Media Player (deprecated)
-ms.assetid: 'defa461b-ffa5-4fee-bed4-aba3e733b8c4'
-keywords: ["Windows Media Player,borders", "Windows Media Player skins,borders", "skins,borders", "borders,compared to skins"]
+ms.assetid: defa461b-ffa5-4fee-bed4-aba3e733b8c4
+keywords:
+- Windows Media Player,borders
+- Windows Media Player skins,borders
+- skins,borders
+- borders,compared to skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Borders for Windows Media Player (deprecated)

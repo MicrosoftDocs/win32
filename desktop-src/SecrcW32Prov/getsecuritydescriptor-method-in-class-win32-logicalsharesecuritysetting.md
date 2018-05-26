@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a Win32\_SecurityDescriptor representation of the Win32\_LogicalShareSecuritySetting object security descriptor.'
+Description: Retrieves a Win32\_SecurityDescriptor representation of the Win32\_LogicalShareSecuritySetting object security descriptor.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4d16713a-19bd-456b-b2b5-6bcf235862f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4d16713a-19bd-456b-b2b5-6bcf235862f6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSecurityDescriptor method of the Win32\_LogicalShareSecuritySetting class'
+title: GetSecurityDescriptor method of the Win32\_LogicalShareSecuritySetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the Win32\_LogicalShareSecuritySetting class
@@ -21,7 +24,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -92,7 +95,7 @@ The specified parameter is not valid.
 **Other**
 </dt> <dd>
 
-22–4294967295
+22 4294967295
 
 </dd> </dl>
 
@@ -156,8 +159,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -174,9 +177,9 @@ Next
 [**Win32\_LogicalShareSecuritySetting**](win32-logicalsharesecuritysetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

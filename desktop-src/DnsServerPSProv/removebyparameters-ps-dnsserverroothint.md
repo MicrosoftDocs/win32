@@ -2,13 +2,16 @@
 title: RemoveByParameters method of the PS\_DnsServerRootHint class
 description: Removes root hints form the list on the server.
 audience: developer
-ms.assetid: '2e2ea297-2e36-4d2d-92ab-6676382f0c91'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2e2ea297-2e36-4d2d-92ab-6676382f0c91
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByParameters method", "RemoveByParameters method, PS_DnsServerRootHint class", "PS_DnsServerRootHint class, RemoveByParameters method"]
+keywords:
+- RemoveByParameters method
+- RemoveByParameters method, PS_DnsServerRootHint class
+- PS_DnsServerRootHint class, RemoveByParameters method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByParameters method of the PS\_DnsServerRootHint class
@@ -28,12 +34,12 @@ Removes root hints form the list on the server.
 
 ```mof
 uint32 RemoveByParameters(
-  [in]  string            IPAddress[],
-  [in]  string            NameServer,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [in]  boolean           Force,
-  [out] DnsServerRootHint cmdletOutput
+  [in]  string            IPAddress[],
+  [in]  string            NameServer,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [in]  boolean           Force,
+  [out] DnsServerRootHint cmdletOutput
 );
 ```
 
@@ -94,7 +100,7 @@ Microsoft.Management.Infrastructure.CimInstance\#DnsServerRootHint
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ Microsoft.Management.Infrastructure.CimInstance\#DnsServerRootHint
 [**PS\_DnsServerRootHint**](ps-dnsserverroothint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

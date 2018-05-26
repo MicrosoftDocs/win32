@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeleteExtractedFiles function deletes the files that were extracted by the Extract function.'
-ms.assetid: '253e6267-d4be-46d6-bad2-2eb20bbc7e33'
+---
+Description: The DeleteExtractedFiles function deletes the files that were extracted by the Extract function.
+ms.assetid: 253e6267-d4be-46d6-bad2-2eb20bbc7e33
 title: DeleteExtractedFiles function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteExtractedFiles function

@@ -1,7 +1,12 @@
 ---
 title: Static Control Messages
 description: .
-ms.assetid: '1e840d1a-f311-44ed-9997-274921cb0bed'
+ms.assetid: 1e840d1a-f311-44ed-9997-274921cb0bed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Static Control Messages

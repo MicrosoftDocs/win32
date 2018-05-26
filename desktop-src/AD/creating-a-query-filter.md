@@ -4,11 +4,16 @@ description: A query filter instructs Active Directory Domain Services to find d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0bd652f0-41a6-4a0d-8742-9d6a2a7f168a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0bd652f0-41a6-4a0d-8742-9d6a2a7f168a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , creating a query filter", "query filters"]
+keywords:
+- Active Directory examples Active Directory , creating a query filter
+- query filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Query Filter
@@ -45,7 +50,7 @@ where "&lt;logicaloperator&gt;" is one of the following.
 
 
 
- 
+ 
 
 and "&lt;comparison&gt;" is the following:
 
@@ -69,7 +74,7 @@ where "&lt;attribute&gt;" is the **lDAPDisplayName** of the attribute to evaluat
 
 
 
- 
+ 
 
 In addition, depending on the attribute syntax, the "&lt;value&gt;" may contain the wildcard symbol ("\*"). A "&lt;value&gt;" that contains only a wildcard will check for the existence of any value in "&lt;attribute&gt;". If no value is set for "&lt;attribute&gt;", the test will fail.
 
@@ -87,7 +92,7 @@ If any of the following special characters must appear in the query filter as li
 
 
 
- 
+ 
 
 In addition, arbitrary binary data may be represented using the escape sequence syntax by encoding each byte of binary data with the backslash followed by two hexadecimal digits. For example, the four-byte value 0x00000004 is encoded as "\\00\\00\\00\\04" in a filter string.
 
@@ -137,9 +142,9 @@ For more information about query filter strings, and usage examples, see:
 -   [Checking the Query Filter Syntax](checking-the-query-filter-syntax.md)
 -   [How to Specify Comparison Values](how-to-specify-comparison-values.md)
 
- 
+ 
 
- 
+ 
 
 
 

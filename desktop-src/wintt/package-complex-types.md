@@ -1,7 +1,12 @@
 ---
 title: Package Complex Types
-ms.assetid: '29bb4f93-b3d4-431b-b3ea-f1ca96dd0194'
+ms.assetid: 29bb4f93-b3d4-431b-b3ea-f1ca96dd0194
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package Complex Types

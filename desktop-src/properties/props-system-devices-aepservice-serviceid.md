@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint Service''s Id.'
-ms.assetid: 'fcb537fc-0fe1-43a3-84a8-65f3745e8f27'
-title: 'System.Devices.AepService.ServiceId'
+Description: Device Association Endpoint Services Id.
+ms.assetid: fcb537fc-0fe1-43a3-84a8-65f3745e8f27
+title: System.Devices.AepService.ServiceId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.ServiceId

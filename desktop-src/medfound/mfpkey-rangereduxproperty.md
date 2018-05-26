@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the degree to which the codec should reduce the effective color range of the video.'
-ms.assetid: '7227957b-59c9-4dd9-ad2b-a383e888cd46'
-title: 'MFPKEY\_RANGEREDUX Property'
+---
+Description: Specifies the degree to which the codec should reduce the effective color range of the video.
+ms.assetid: 7227957b-59c9-4dd9-ad2b-a383e888cd46
+title: MFPKEY\_RANGEREDUX Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RANGEREDUX Property

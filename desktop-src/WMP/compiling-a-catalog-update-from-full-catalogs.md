@@ -1,8 +1,25 @@
 ---
 title: Compiling a Catalog Update from Full Catalogs
 description: Compiling a Catalog Update from Full Catalogs
-ms.assetid: '046c0a01-0ad7-41b6-bad5-dcab953a3980'
-keywords: ["Windows Media Player online stores,compiling catalogs", "online stores,compiling catalogs", "type 1 online stores,compiling catalogs", "Windows Media Player online stores,catalog updates", "online stores,catalog updates", "type 1 online stores,catalog updates", "Windows Media Player online stores,full catalogs", "online stores,full catalogs", "type 1 online stores,full catalogs", "compiling catalogs", "catalog updates", "full catalogs"]
+ms.assetid: 046c0a01-0ad7-41b6-bad5-dcab953a3980
+keywords:
+- Windows Media Player online stores,compiling catalogs
+- online stores,compiling catalogs
+- type 1 online stores,compiling catalogs
+- Windows Media Player online stores,catalog updates
+- online stores,catalog updates
+- type 1 online stores,catalog updates
+- Windows Media Player online stores,full catalogs
+- online stores,full catalogs
+- type 1 online stores,full catalogs
+- compiling catalogs
+- catalog updates
+- full catalogs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling a Catalog Update from Full Catalogs
@@ -41,7 +58,7 @@ If compilation is successful, catcomp.exe creates the output files listed below 
 | File name             | Description                                                                                                                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | catalog.diff          | Uncompressed compiled difference file.                                                                                                                                                           |
-| catalog.diff.lz       | Compressed version of catalog update file. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](iwmpcontentpartner-getcatalogurl.md). |
+| catalog.diff.lz       | Compressed version of catalog update file. Your plug-in can give the location of this file to Windows Media Player in [IWMPContentPartner::GetCatalogURL](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getcatalogurl?branch=master). |
 | catalog.wmdb.delta    | Intermediate output file. Not used by Windows Media Player                                                                                                                                       |
 | catalog.wmdb.modified | Intermediate output file. Not used by Windows Media Player                                                                                                                                       |
 

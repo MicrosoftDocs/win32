@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a system gesture is recognized.'
-ms.assetid: '36e2ac5a-dc91-47c2-a8e5-e555437c0a5d'
-title: 'InkPicture.SystemGesture event'
+Description: Occurs when a system gesture is recognized.
+ms.assetid: 36e2ac5a-dc91-47c2-a8e5-e555437c0a5d
+title: InkPicture.SystemGesture event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.SystemGesture event
@@ -13,13 +18,13 @@ Occurs when a system gesture is recognized.
 
 ```C++
 void SystemGesture(
-  [in] IInkCursor       *Cursor,
-  [in] InkSystemGesture Id,
-  [in] long             X,
-  [in] long             Y,
-  [in] long             Modifier,
-  [in] BSTR             Character,
-  [in] long             CursorMode
+  [in] IInkCursor       *Cursor,
+  [in] InkSystemGesture Id,
+  [in] long             X,
+  [in] long             Y,
+  [in] long             Modifier,
+  [in] BSTR             Character,
+  [in] long             CursorMode
 );
 ```
 
@@ -32,7 +37,7 @@ void SystemGesture(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object that generated the **SystemGesture** event.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the **SystemGesture** event.
 
 </dd> <dt>
 
@@ -74,7 +79,7 @@ Reserved.
 *CursorMode* \[in\]
 </dt> <dd>
 
-A value that indicates whether the [**IInkCursor**](iinkcursor.md) object is in normal mode or eraser mode. 1 is for normal mode and 2 are for eraser mode.
+A value that indicates whether the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object is in normal mode or eraser mode. 1 is for normal mode and 2 are for eraser mode.
 
 </dd> </dl>
 
@@ -84,13 +89,13 @@ This event does not return a value.
 
 ## Remarks
 
-System gestures give information about the [**IInkCursor**](iinkcursor.md) object that is being used to create the gesture. They also provide shortcuts to combinations of mouse events and are ways to detect mouse events with less impact on performance.
+System gestures give information about the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that is being used to create the gesture. They also provide shortcuts to combinations of mouse events and are ways to detect mouse events with less impact on performance.
 
 For example, instead of looking for a [**MouseUp Event \[InkPicture Control\]**](inkpicture-mouseup.md)/[**MouseDown Event \[InkPicture Control\]**](inkpicture-mousedown.md) pair of events with no other mouse events occurring in between, you can look for the Tap or RightTap system gestures.
 
 As another example, instead of listening for [**MouseDown Event \[InkPicture Control\]**](inkpicture-mousedown.md)/[**MouseMove Event \[InkPicture Control\]**](inkpicture-mousemove.md) events and getting numerous **MouseMove Event \[InkPicture Control\]** messages, you can watch for the Drag or RightDrag system gestures as long as you're not interested in the (x, y) coordinates of every position of the mouse. This allows you to receive only one message instead of numerous **MouseMove Event \[InkPicture Control\]** messages.
 
-For a list of specific system gestures, see the [**InkSystemGesture**](inksystemgesture.md) enumeration type. For more information about system gestures, see [Using Gestures](using-gestures.md) and [Command Input on the Tablet PC](tablet-command_input_on_the_tablet_pc).
+For a list of specific system gestures, see the [**InkSystemGesture**](/windows/win32/msinkaut/ne-msinkaut-inksystemgesture?branch=master) enumeration type. For more information about system gestures, see [Using Gestures](using-gestures.md) and [Command Input on the Tablet PC](tablet-command_input_on_the_tablet_pc).
 
 This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEvents**, and **\_IInkPictureEvents** dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_ICESystemGesture.
 
@@ -100,7 +105,7 @@ This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEv
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -114,15 +119,15 @@ This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEv
 [InkPicture](inkpicture-control-reference.md)
 </dt> <dt>
 
-[**InkSystemGesture Enumeration**](inksystemgesture.md)
+[**InkSystemGesture Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inksystemgesture?branch=master)
 </dt> <dt>
 
 [Using Gestures](using-gestures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

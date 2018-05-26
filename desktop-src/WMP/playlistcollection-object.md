@@ -1,14 +1,20 @@
 ---
 title: PlaylistCollection Object
 description: The PlaylistCollection object provides a way to organize your playlists.
-ms.assetid: '9ea61954-d185-4a77-9016-4d58340a96fc'
-keywords: ["PlaylistCollection Object Windows Media Player"]
+ms.assetid: 9ea61954-d185-4a77-9016-4d58340a96fc
+keywords:
+- PlaylistCollection Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PlaylistCollection Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection Object

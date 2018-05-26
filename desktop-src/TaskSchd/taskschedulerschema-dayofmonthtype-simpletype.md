@@ -1,14 +1,20 @@
 ---
 title: dayOfMonthType Simple Type
 description: Defines the possible values for specifying a day of the month.
-ms.assetid: '13497cf4-e1e5-4d54-9dff-0fe89be1fed8'
-keywords: ["dayOfMonthType simple type Task Scheduler"]
+ms.assetid: 13497cf4-e1e5-4d54-9dff-0fe89be1fed8
+keywords:
+- dayOfMonthType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - dayOfMonthType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dayOfMonthType Simple Type
@@ -41,8 +47,8 @@ The **dayOfMonthType** simple type is a **string** that is restricted by the fol
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **dayOfMonthType** simple type is a **string** that is restricted by the fol
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

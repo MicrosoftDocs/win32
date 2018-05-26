@@ -1,7 +1,12 @@
 ---
-Description: 'A class representing a rule-specific or reusable policy action to be performed if the policy conditions for a policy rule evaluate to TRUE.'
-ms.assetid: '13e2f421-00d7-44d3-804b-8ff6c5d286e9'
-title: 'CIM\_PolicyAction class'
+Description: A class representing a rule-specific or reusable policy action to be performed if the policy conditions for a policy rule evaluate to TRUE.
+ms.assetid: 13e2f421-00d7-44d3-804b-8ff6c5d286e9
+title: CIM\_PolicyAction class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_PolicyAction class
@@ -16,18 +21,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Policy"), Abstract, Version("2.8.0"), AMENDMENT]
 class CIM_PolicyAction : CIM_Policy
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  CommonName;
-  string  PolicyKeywords[];
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  PolicyRuleCreationClassName;
-  string  PolicyRuleName;
-  string  CreationClassName;
-  string  PolicyActionName;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  CommonName;
+  string  PolicyKeywords[];
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  PolicyRuleCreationClassName;
+  string  PolicyRuleName;
+  string  CreationClassName;
+  string  PolicyActionName;
   boolean DoActionLogging;
 };
 ```
@@ -159,7 +164,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -277,8 +282,8 @@ This property completes the identification of the System object in whose scope t
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -292,9 +297,9 @@ This property completes the identification of the System object in whose scope t
 [**CIM\_Policy**](cim-policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

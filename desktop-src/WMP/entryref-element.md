@@ -1,14 +1,20 @@
 ---
 title: ENTRYREF Element
 description: The ENTRYREF element points to the ENTRY elements in an external metafile.
-ms.assetid: 'ba39db39-fa90-455b-b278-ca866ce0b69c'
-keywords: ["ENTRYREF Element Windows Media Player"]
+ms.assetid: ba39db39-fa90-455b-b278-ca866ce0b69c
+keywords:
+- ENTRYREF Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ENTRYREF Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENTRYREF Element
@@ -42,7 +48,7 @@ This attribute is no longer supported.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +91,9 @@ The URL specified in the **HREF** attribute becomes the base URL for any relativ
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

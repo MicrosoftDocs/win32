@@ -2,13 +2,19 @@
 title: immediatebind attribute
 description: The \ immediatebind\ attribute indicates that the database will be notified immediately of all changes to a property of a data-bound object.
 ms.assetid: 1c08ddca-e273-43b3-a8f6-ed7f552e4e0e
-keywords: ["immediatebind attribute MIDL"]
+keywords:
+- immediatebind attribute MIDL
 topic_type:
 - apiref
 api_name:
 - immediatebind
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # immediatebind attribute

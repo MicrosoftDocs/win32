@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves a value that identifies the user.'
+Description: Specifies or retrieves a value that identifies the user.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '209ba4ea-35db-4aa4-a01b-af3c482ed873'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 209ba4ea-35db-4aa4-a01b-af3c482ed873
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'UserRightsItem.UserId property'
+title: UserRightsItem.UserId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRightsItem.UserId property
@@ -131,7 +134,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -143,9 +146,9 @@ END SUB
 [**UserRightsItem**](userrightsitem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

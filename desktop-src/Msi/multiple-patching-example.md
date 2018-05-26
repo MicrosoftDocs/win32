@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows how Windows Installer 3.0 and later can be used to apply patches in the order in which they are authored.'
-ms.assetid: '98771652-cec2-4371-8132-a741cf8431fb'
+Description: The following example shows how Windows Installer 3.0 and later can be used to apply patches in the order in which they are authored.
+ms.assetid: 98771652-cec2-4371-8132-a741cf8431fb
 title: Multiple Patching Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Patching Example

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Normalizes the plane coefficients so that the plane normal has unit length.'
-ms.assetid: '9c595986-e1f8-4153-ba23-1fa6e583a050'
+---
+Description: Normalizes the plane coefficients so that the plane normal has unit length.
+ms.assetid: 9c595986-e1f8-4153-ba23-1fa6e583a050
 title: D3DXPlaneNormalize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPlaneNormalize function

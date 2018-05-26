@@ -1,7 +1,12 @@
 ---
 title: Creating the AdminIndexServer Object
 description: Creating the AdminIndexServer Object
-ms.assetid: '030f49d6-c11f-41bd-98d7-c5af117b1ce8'
+ms.assetid: 030f49d6-c11f-41bd-98d7-c5af117b1ce8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the AdminIndexServer Object

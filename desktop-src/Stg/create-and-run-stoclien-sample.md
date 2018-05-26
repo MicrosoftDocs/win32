@@ -1,8 +1,14 @@
 ---
 title: Create and Run StoClien Sample
 description: StoClien works in cooperation with a COPaper object in a COM server to achieve persistent storage of drawings in COM compound files.
-ms.assetid: 'bf622104-10dd-4649-88f0-e2bfb15289b1'
-keywords: ["Create and Run StoClien Sample"]
+ms.assetid: bf622104-10dd-4649-88f0-e2bfb15289b1
+keywords:
+- Create and Run StoClien Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create and Run StoClien Sample
@@ -51,9 +57,9 @@ The following table lists the files pertinent to the **StoClien** sample.
 
 **StoClien** relies on COPaper to record drawing data. It also relies on COPaper to store the data in a compound file. However, in a typical division of labor between COM client and server, **StoClien** shares part of the responsibility for file storage. This division of labor is important in COM applications where the client is a container and the server is an embedded object. In this arrangement, the client is responsible for creating or opening a structured storage file, while the server object is responsible for using that storage for its own data storage purposes. This may involve the server object creating substorages in the storage that is given to it. It usually involves the server object creating stream objects in the storage. COPaper's use of storage streams is detailed in the **StoClien** sample.
 
-The [**IStorage**](istorage.md) interface is used by both client and server object to perform file operations. The compound files implementation of the Structured Storage architecture is used. Standard service functions are used for operations on compound files. For example, the [**StgCreateDocfile**](stgcreatedocfile.md) function initially creates a compound file and passes back an **IStorage** pointer that can be used to manipulate the file. This particular function is called in **StoClien**. The **IStorage** interface it obtains is passed as a parameter to COPaper for its use. The COPaper object does not create or open compound files on its own: It uses the **IStorage** and [**IStream**](istream.md) interfaces to work in compound files that are given to it.
+The [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface is used by both client and server object to perform file operations. The compound files implementation of the Structured Storage architecture is used. Standard service functions are used for operations on compound files. For example, the [**StgCreateDocfile**](/windows/win32/coml2api/nf-coml2api-stgcreatedocfile?branch=master) function initially creates a compound file and passes back an **IStorage** pointer that can be used to manipulate the file. This particular function is called in **StoClien**. The **IStorage** interface it obtains is passed as a parameter to COPaper for its use. The COPaper object does not create or open compound files on its own: It uses the **IStorage** and [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) interfaces to work in compound files that are given to it.
 
-These [**IStorage**](istorage.md) and [**IStream**](istream.md) interfaces are not implemented within **StoClien** or **StoServe**. They are implemented within the COM libraries. When a pointer to one of these interfaces is obtained, their methods are essentially used as a set of services to operate on a compound file.
+These [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) and [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) interfaces are not implemented within **StoClien** or **StoServe**. They are implemented within the COM libraries. When a pointer to one of these interfaces is obtained, their methods are essentially used as a set of services to operate on a compound file.
 
  
 

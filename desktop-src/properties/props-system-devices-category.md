@@ -1,7 +1,12 @@
 ---
-Description: 'Singular form of device category.'
-ms.assetid: '211e2a68-69b5-40d6-82e7-8cfe3ff92b25'
-title: 'System.Devices.Category'
+Description: Singular form of device category.
+ms.assetid: 211e2a68-69b5-40d6-82e7-8cfe3ff92b25
+title: System.Devices.Category
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Category

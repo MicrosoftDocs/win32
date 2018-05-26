@@ -1,13 +1,16 @@
 ---
-Description: 'After WMI is finished with a provider, it unloads the provider from memory.'
+Description: After WMI is finished with a provider, it unloads the provider from memory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6116769f-3402-42b3-835d-9bdb0fc27ce0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6116769f-3402-42b3-835d-9bdb0fc27ce0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Unloading a Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Unloading a Provider
@@ -65,7 +68,7 @@ The following procedure describes how to implement a release method for the prim
 
 1.  Release all interface pointers held against WMI when WMI calls the [**Release**](_com_iunknown_release) method of the primary interface of your provider.
 
-    Typically, a provider holds pointers to the [**IWbemServices**](iwbemservices.md) and [**IWbemContext**](iwbemcontext.md) interfaces supplied in [**IWbemProviderInit::Initialize**](iwbemproviderinit-initialize.md).
+    Typically, a provider holds pointers to the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) and [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) interfaces supplied in [**IWbemProviderInit::Initialize**](/windows/win32/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize?branch=master).
 
 2.  If the **Pure** property in the associated [**\_\_Win32Provider**](--win32provider.md) instance is set to **FALSE**, the provider can transition to the role of client application after WMI calls [**Release**](_com_iunknown_release). However, WMI cannot unload a provider that is operating as a client system, which increases the system overhead.
 

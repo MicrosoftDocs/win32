@@ -1,7 +1,12 @@
 ---
-Description: 'MUI allows your applications to manage user interface languages in two ways.'
-ms.assetid: 'ae8ab98f-dc3b-414d-85c9-6bf204c2f776'
+Description: MUI allows your applications to manage user interface languages in two ways.
+ms.assetid: ae8ab98f-dc3b-414d-85c9-6bf204c2f776
 title: User Interface Language Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Language Management
@@ -16,7 +21,7 @@ The system default UI language is the language of the localized version used to 
 
 On Windows Vista and later, the system default UI language is known as the "install language" and plays a more limited role. For most purposes, it is superseded by the system preferred UI languages. However, in certain contexts it is useful to have a single install language that is always known to be fully supported.
 
-No MUI function is available to set the system default UI language. To retrieve this language, the application can call [**GetSystemDefaultUILanguage**](getsystemdefaultuilanguage.md).
+No MUI function is available to set the system default UI language. To retrieve this language, the application can call [**GetSystemDefaultUILanguage**](/windows/win32/Winnls/nf-winnls-getsystemdefaultuilanguage?branch=master).
 
 ### System UI Language
 
@@ -27,7 +32,7 @@ The operating system defines the system UI language as a user interface language
 
  
 
-No MUI function is available to set the system UI language. To retrieve this value, an application targeted at Windows Vista and later can call [**GetSystemPreferredUILanguages**](getsystempreferreduilanguages.md) and obtain the first language in the system preferred UI languages list. Applications targeted at pre-Windows Vista operating systems cannot use [**GetSystemPreferredUILanguages**](getsystempreferreduilanguages.md) and should be based on the assumption that the system UI language is always the same as the system default UI language.
+No MUI function is available to set the system UI language. To retrieve this value, an application targeted at Windows Vista and later can call [**GetSystemPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getsystempreferreduilanguages?branch=master) and obtain the first language in the system preferred UI languages list. Applications targeted at pre-Windows Vista operating systems cannot use [**GetSystemPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getsystempreferreduilanguages?branch=master) and should be based on the assumption that the system UI language is always the same as the system default UI language.
 
 ### User UI Language
 
@@ -37,27 +42,27 @@ On Windows Vista and later, the user UI language is the first language in the u
 
 On pre-Windows Vista operating systems, the user UI language is usually the same as the system default UI language. However, for Windows MUI, the two languages can be different.
 
-To retrieve the user UI language, an application can call [**GetUserDefaultUILanguage**](getuserdefaultuilanguage.md) or [**GetUserPreferredUILanguages**](getuserpreferreduilanguages.md). The application cannot change the user UI language, as there is no function to set it.
+To retrieve the user UI language, an application can call [**GetUserDefaultUILanguage**](/windows/win32/Winnls/nf-winnls-getuserdefaultuilanguage?branch=master) or [**GetUserPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getuserpreferreduilanguages?branch=master). The application cannot change the user UI language, as there is no function to set it.
 
 ## Language Lists Maintained by the Operating System
 
 ### System Preferred UI Languages List
 
-The resource loader maintains a system preferred UI languages list. Included in this list are languages preferred by the operating system for its own resources, such as menus and dialogs, messages, INF files, and help files. The list is made up of the system default UI language and the system UI language and their fallbacks. An application can retrieve system preferred UI languages by calling [**GetSystemPreferredUILanguages**](getsystempreferreduilanguages.md).
+The resource loader maintains a system preferred UI languages list. Included in this list are languages preferred by the operating system for its own resources, such as menus and dialogs, messages, INF files, and help files. The list is made up of the system default UI language and the system UI language and their fallbacks. An application can retrieve system preferred UI languages by calling [**GetSystemPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getsystempreferreduilanguages?branch=master).
 
 ### User Preferred UI Languages List
 
-The resource loader uses a user preferred UI languages list that includes languages that the user prefers. The resource loader uses resources matching languages from this list, if available, for a particular application thread. These languages take precedence over any system preferences. To retrieve user preferred UI languages, your application can call [**GetUserPreferredUILanguages**](getuserpreferreduilanguages.md).
+The resource loader uses a user preferred UI languages list that includes languages that the user prefers. The resource loader uses resources matching languages from this list, if available, for a particular application thread. These languages take precedence over any system preferences. To retrieve user preferred UI languages, your application can call [**GetUserPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getuserpreferreduilanguages?branch=master).
 
 ### Process Preferred UI Languages List
 
-On Windows Vista and later, the resource loader maintains a process preferred UI languages list consisting of up to five valid languages set by a running process for a MUI application. The languages can be set by the application with a call to [**SetProcessPreferredUILanguages**](setprocesspreferreduilanguages.md). The application can retrieve the languages by calling [**GetProcessPreferredUILanguages**](getprocesspreferreduilanguages.md).
+On Windows Vista and later, the resource loader maintains a process preferred UI languages list consisting of up to five valid languages set by a running process for a MUI application. The languages can be set by the application with a call to [**SetProcessPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setprocesspreferreduilanguages?branch=master). The application can retrieve the languages by calling [**GetProcessPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getprocesspreferreduilanguages?branch=master).
 
 ### Thread Preferred UI Languages List
 
 On Windows Vista and later, the resource loader uses a thread preferred UI languages list that consists of up to five valid languages set by a thread in a running process for a MUI application. These languages are used to customize the application user interface languages and make them different from the operating system language. The thread preferred UI languages list is based on the user preferred UI languages, the system preferred UI languages, and the system default UI language.
 
-To set the thread preferred UI languages, the application should call [**SetThreadPreferredUILanguages**](setthreadpreferreduilanguages.md). To retrieve these languages, the application calls [**GetThreadPreferredUILanguages**](getthreadpreferreduilanguages.md).
+To set the thread preferred UI languages, the application should call [**SetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setthreadpreferreduilanguages?branch=master). To retrieve these languages, the application calls [**GetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-getthreadpreferreduilanguages?branch=master).
 
 ## Neutral Language Representation
 

@@ -1,18 +1,23 @@
 ---
 title: Routing and Remote Access Error Codes
 description: The following Routing and Remote Access (RRAS) API error codes are defined in raserror.h.
-ms.assetid: '1fa41438-7c93-4e9c-851c-652fba23da4f'
+ms.assetid: 1fa41438-7c93-4e9c-851c-652fba23da4f
 topic_type:
 - apiref
 api_name:
 - Routing and Remote Access Error Codes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing and Remote Access Error Codes
 
-The following Routing and Remote Access (RRAS) API error codes are defined in raserror.h. All error codes are supported in Windows 2000 or later versions of Windows unless specified otherwise.
+The following Routing and Remote Access (RRAS) API error codes are defined in raserror.h. All error codes are supported in Windows 2000 or later versions of Windows unless specified otherwise.
 
 
 
@@ -53,7 +58,7 @@ The following Routing and Remote Access (RRAS) API error codes are defined in ra
 <td>The port information specified cannot be set.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -66,7 +71,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An event that is not valid was detected.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -87,7 +92,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>A route was specified that is not available.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -100,7 +105,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The specified compression is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -133,7 +138,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>No endpoints could be determined.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -162,7 +167,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>A string could not be loaded.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -199,7 +204,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Your computer could not be registered on the remote network.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -216,7 +221,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>A string was detected that could not be converted.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -229,7 +234,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>No asynchronous net is available.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -238,7 +243,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An error has occurred involving NetBIOS.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -247,7 +252,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>he server cannot allocate NetBIOS resources needed to support the client.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -256,7 +261,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>One of your computer's NetBIOS names is already registered on the remote network.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -265,7 +270,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>A network adapter at the server failed.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -274,7 +279,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>You will not receive network message popups.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -303,7 +308,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The remote access server is not responding.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -404,7 +409,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The system was unable to read the maximum carrier connection speed from the media .INI file.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -437,7 +442,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The modem (or other connecting device) reported a general error.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -542,7 +547,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An error occurred when writing the initial connection speed.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -571,7 +576,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The two-way port is initializing. Wait a few seconds and redial.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -584,7 +589,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>No ISDN channels are available to make the call.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -593,7 +598,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Too many errors occurred because of poor phone line quality.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -614,7 +619,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The connection was terminated by the remote computer.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -639,7 +644,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The IPX protocol cannot dial out on the modem (or other connecting device) because this computer is not configured for dialing out (it is an IPX router).<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -648,7 +653,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The IPX protocol cannot dial in on the modem (or other connecting device) because this computer is not configured for dialing in (the IPX router is not installed).<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -661,7 +666,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Cannot access TCPCFG.DLL.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -678,7 +683,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Computer registration is not complete.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -716,7 +721,7 @@ Deprecated in Windows Vista and later versions of Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_CANNOT_USE_LOGON_CREDENTIALS"></span><span id="error_cannot_use_logon_credentials"></span><dl> <dt><strong>ERROR_CANNOT_USE_LOGON_CREDENTIALS</strong></dt> <dt>739</dt> </dl></td>
-<td>The remote server cannot use the Windows NT encrypted password.<br/></td>
+<td>The remote server cannot use the Windows NT encrypted password.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_TAPI_CONFIGURATION"></span><span id="error_tapi_configuration"></span><dl> <dt><strong>ERROR_TAPI_CONFIGURATION</strong></dt> <dt>740</dt> </dl></td>
@@ -735,7 +740,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The remote computer requires data encryption.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -744,7 +749,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The system cannot use the IPX network number assigned by the remote computer. Additional information is provided in the event log.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -753,7 +758,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The Session Management Module (SMM) is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -762,7 +767,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The SMM is uninitialized.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -771,7 +776,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>No MAC for port.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -780,7 +785,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The SMM timed out.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -793,7 +798,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The wrong SMM was specified.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -802,7 +807,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The callback number contains a character that is not valid. Only the following 18 characters are allowed: 0 to 9, T, P, W, (, ), -, @, and space.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -835,7 +840,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Internet Connection Sharing (ICS) is already enabled on the connection.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -844,7 +849,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An error occurred while the existing Internet Connection Sharing settings were being changed.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -853,7 +858,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An error occurred while routing capabilities were being enabled.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -862,7 +867,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An error occurred while Internet Connection Sharing was being enabled for the connection.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -871,7 +876,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>An error occurred while the local network was being configured for sharing.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -880,7 +885,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Internet Connection Sharing cannot be enabled. There is more than one LAN connection other than the connection to be shared.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -949,7 +954,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>To dial out using this connection you must use a smart card.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -962,7 +967,7 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>The encryption attempt failed because no valid certificate was found.<br/>
 <blockquote>
 [!Note]<br />
-Deprecated in Windows Vista and later versions of Windows.
+Deprecated in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1039,12 +1044,12 @@ Deprecated in Windows Vista and later versions of Windows.
 <td>Internet Connection Sharing (ICS) cannot be enabled due to an IP address conflict on the network. ICS requires the host be configured to use <strong>192.168.0.1</strong>. Ensure that no other client on the network is configured to use <strong>192.168.0.1</strong>.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/>
 <blockquote>
 [!Note]<br />
-Windows 7 and later: The host must be configured to use <strong>192.168.137.1</strong>
+Windows 7 and later: The host must be configured to use <strong>192.168.137.1</strong>
 </blockquote>
 <br/></td>
 </tr>
@@ -1053,7 +1058,7 @@ Windows 7 and later: The host must be configured to use <strong>192.168.137.1</s
 <td>Unable to establish the VPN connection. The VPN server may be unreachable, or security parameters may not be configured properly for this connection. <br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1062,7 +1067,7 @@ Supported in Windows XP and later versions of Windows.
 <td>This connection is configured to validate the identity of the access server, but Windows cannot verify the digital certificate sent by the server.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1071,7 +1076,7 @@ Supported in Windows XP and later versions of Windows.
 <td>The card supplied was not recognized. Please check that the card is inserted correctly, and fits securely.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP with SP1 and later versions of Windows.
+Supported in Windows XP with SP1 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1080,7 +1085,7 @@ Supported in Windows XP with SP1 and later versions of Windows.
 <td>The PEAP configuration stored in the session cookie does not match the current session configuration.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP with SP1 and later versions of Windows.
+Supported in Windows XP with SP1 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1089,7 +1094,7 @@ Supported in Windows XP with SP1 and later versions of Windows.
 <td>The PEAP identity stored in the session cookie does not match the current identity.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP with SP1 and later versions of Windows.
+Supported in Windows XP with SP1 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1098,7 +1103,7 @@ Supported in Windows XP with SP1 and later versions of Windows.
 <td>You cannot dial using this connection at login time because it is configured to use the currently-logged-in user's credentials.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP with SP1 and later versions of Windows.
+Supported in Windows XP with SP1 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1107,7 +1112,7 @@ Supported in Windows XP with SP1 and later versions of Windows.
 <td>A connection between your computer and the VPN server has been started, but the VPN connection cannot be completed. The most common cause for this is that at least one Internet device (for example, a firewall or a router) between your computer and the VPN server is not configured to allow Generic Routing Encapsulation (GRE) protocol packets.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1116,7 +1121,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The network connection between your computer and the VPN server was interrupted. This can be caused by a problem in the VPN transmission and is commonly the result of internet latency or simply that your VPN server has reached capacity. Try to reconnect to the VPN server.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1125,7 +1130,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The network connection between your computer and the VPN server could not be established because the remote server refused the connection. This is typically caused by a mismatch between the server's configuration and your connection settings.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1134,7 +1139,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The network connection between your computer and the VPN server could not be established because the remote server is not responding. This could be because one of the network devices (for example, firewalls, NAT, routers) between your computer and the remote server is not configured to allow VPN connections.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1143,7 +1148,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>A network connection between your computer and the VPN server was started, but the VPN connection was not completed. This is typically caused by the use of an incorrect or expired certificate for authentication between the client and the server.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows
+Supported in Windows Vista and later versions of Windows
 </blockquote>
 <br/></td>
 </tr>
@@ -1152,7 +1157,7 @@ Supported in Windows Vista and later versions of Windows
 <td>The network connection between your computer and the VPN server could not be established because the remote server is not responding. This is typically caused by a pre-shared key problem between the client and server. A pre-shared key is used to guarantee you are who you say you are in an IP Security (IPSec) communication cycle.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1161,7 +1166,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was prevented because of a policy configured on your RAS/VPN server. Specifically, the authentication method used by the server to verify your username and password may not match the authentication method configured in your connection profile.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1170,7 +1175,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>You have attempted to establish a second broadband connection while a previous broadband connection is already established using the same device or port.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1179,7 +1184,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The underlying Ethernet connectivity required for the broadband connection was not found.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1188,7 +1193,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The broadband network connection could not be established on your computer because the remote server is not responding. This could be caused by a value that is not valid for the 'Service Name' field for this connection.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1197,7 +1202,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>A feature or setting you have tried to enable is no longer supported by the remote access service.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1206,7 +1211,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>Cannot delete a connection while it is connected.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1215,7 +1220,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The Network Access Protection (NAP) enforcement client could not create system resources for remote access connections. Some network services or resources might not be available.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1224,7 +1229,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The Network Access Protection Agent (NAP Agent) service has been disabled or is not installed on this computer. Some network services or resources might not be available.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1233,7 +1238,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The Network Access Protection (NAP) enforcement client failed to register with the Network Access Protection Agent (NAP Agent) service. Some network services or resources might not be available.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1242,7 +1247,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The Network Access Protection (NAP) enforcement client was unable to process the request because the remote access connection does not exist.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1251,7 +1256,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The Network Access Protection (NAP) enforcement client did not respond. Some network services or resources might not be available.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1260,7 +1265,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The Crypto-Binding type-length-value (TLV) received is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1269,7 +1274,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>Crypto-Binding TLV was not received.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1278,7 +1283,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>Point-to-Point Tunneling Protocol (PPTP) is incompatible with IPv6. Change the type of virtual private network to Layer Two Tunneling Protocol (L2TP).<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1287,7 +1292,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>EAPTLS validation of the cached credentials failed. Discard cached credentials.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1296,7 +1301,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The L2TP/IPsec connection cannot be completed because the IKE and AuthIP IPSec Keying Modules service and/or the Base Filtering Engine service is not running. These services are required to establish an L2TP/IPSec connection.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1305,7 +1310,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was terminated because of idle timeout.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1314,7 +1319,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The modem (or other connecting device) was disconnected due to link failure.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1323,7 +1328,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was terminated because user logged off.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1332,7 +1337,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was terminated because user switch happened.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1341,7 +1346,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was terminated because of hibernation.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1350,7 +1355,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was terminated because the system got suspended.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1359,7 +1364,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The connection was terminated because Remote Access Connection manager stopped.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1368,7 +1373,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The L2TP connection attempt failed because the security layer could not authenticate the remote computer. This could be because one or more fields of the certificate presented by the remote server could not be validated as belonging to the target destination.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1377,7 +1382,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>The machine is not NAP capable.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows Vista and later versions of Windows.
+Supported in Windows Vista and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1386,7 +1391,7 @@ Supported in Windows Vista and later versions of Windows.
 <td>Invalid Tunnel ID.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1395,7 +1400,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Another update connection request is in progress. RAS allows only one update connection request at a time.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1404,7 +1409,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Negotiating using configured protocol is disable. Edit connection properties and select different protocol for negotiation and try again.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1413,7 +1418,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Internal address negotiation failed.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1422,7 +1427,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Client has to request an Internal IPv4 or IPv6 address.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1431,7 +1436,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Traffic Selectors negotiation failed.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1440,7 +1445,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Mobility is disabled for this connection.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1449,7 +1454,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>The VPN Connection is still connecting or re-authenticating because of Quarantine state change. Initiate mobile update only when connection state is 'Connected'.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1458,7 +1463,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Server rejected client authentication, due to unexpected TLV or value mismatch for a TLV.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1467,7 +1472,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Either VPN destination preference is not selected by the user or it is no longer valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1476,7 +1481,7 @@ Supported in Windows 7 and later versions of Windows.
 <td>Cached smart card credential is invalid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1577,9 +1582,9 @@ Supported in Windows 7 and later versions of Windows.
 
 
 
- 
+ 
 
-The following Routing and Remote Access (RRAS) API error codes are defined in mprerror.h. All error codes are supported in Windows 2000 or later versions of Windows unless specified otherwise.
+The following Routing and Remote Access (RRAS) API error codes are defined in mprerror.h. All error codes are supported in Windows 2000 or later versions of Windows unless specified otherwise.
 
 
 
@@ -1792,7 +1797,7 @@ The following Routing and Remote Access (RRAS) API error codes are defined in mp
 <td>The signature length received in a packet from RADIUS server is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1801,7 +1806,7 @@ Supported in Windows XP and later versions of Windows.
 <td>The signature received in a packet from RADIUS server is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1810,7 +1815,7 @@ Supported in Windows XP and later versions of Windows.
 <td>Did not receive signature along with EAPMessage from RADIUS server.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1819,7 +1824,7 @@ Supported in Windows XP and later versions of Windows.
 <td>The length or Id received in a packet from RADIUS server is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1828,7 +1833,7 @@ Supported in Windows XP and later versions of Windows.
 <td>The length received in a packet with attribute from RADIUS server is not valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1837,7 +1842,7 @@ Supported in Windows XP and later versions of Windows.
 <td>The packet received from RADIUS server in not valid.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1846,7 +1851,7 @@ Supported in Windows XP and later versions of Windows.
 <td>Authenticator does not match in packet from RADIUS server.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows XP and later versions of Windows.
+Supported in Windows XP and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1855,7 +1860,7 @@ Supported in Windows XP and later versions of Windows.
 <td>Routing and Remote access server is either not configured or not running.<br/>
 <blockquote>
 [!Note]<br />
-Supported in Windows 7 and later versions of Windows.
+Supported in Windows 7 and later versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1864,7 +1869,7 @@ Supported in Windows 7 and later versions of Windows.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -1872,14 +1877,14 @@ Supported in Windows 7 and later versions of Windows.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

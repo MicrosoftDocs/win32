@@ -1,8 +1,14 @@
 ---
 title: Flood effect
 description: Use the flood effect to generate a bitmap based on the specified color and alpha value. You can use this effect when you want a specific color as an input for an effect, like a background color.
-ms.assetid: 'F80A6DC0-E18C-4324-BE4A-FE40C5722988'
-keywords: ["flood effect"]
+ms.assetid: F80A6DC0-E18C-4324-BE4A-FE40C5722988
+keywords:
+- flood effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flood effect
@@ -12,7 +18,7 @@ Use the flood effect to generate a bitmap based on the specified color and alpha
 > [!Note]  
 > The effect passes along the specified color value as specified. You must manually pre-multiply the values if you plan to pass the output to effects that expect a pre-multiplied input.
 
- 
+ 
 
 The CLSID for this effect is CLSID\_D2D1Flood.
 
@@ -52,7 +58,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -64,25 +70,25 @@ This effect generates a logically infinite sized bitmap.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

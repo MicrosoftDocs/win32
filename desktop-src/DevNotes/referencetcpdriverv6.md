@@ -1,7 +1,12 @@
-﻿---
-Description: 'Obtains a reference to a TCP v6 driver object.'
-ms.assetid: '9f57ea0b-0ab4-4ef9-9bf1-1f41f72dfbe9'
+---
+Description: Obtains a reference to a TCP v6 driver object.
+ms.assetid: 9f57ea0b-0ab4-4ef9-9bf1-1f41f72dfbe9
 title: ReferenceTcpDriverV6 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReferenceTcpDriverV6 function

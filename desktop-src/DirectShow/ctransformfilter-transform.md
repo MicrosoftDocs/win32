@@ -1,7 +1,12 @@
 ---
-Description: 'The Transform method transforms an input sample to produce an output sample.'
-ms.assetid: '30ef8c0c-e834-481a-93ff-d06e6fa1ddeb'
-title: 'CTransformFilter.Transform method'
+Description: The Transform method transforms an input sample to produce an output sample.
+ms.assetid: 30ef8c0c-e834-481a-93ff-d06e6fa1ddeb
+title: CTransformFilter.Transform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.Transform method
@@ -13,8 +18,8 @@ The `Transform` method transforms an input sample to produce an output sample.
 
 ```C++
 virtual HRESULT Transform(
-   IMediaSample *pIn,
-   IMediaSample *pOut
+   IMediaSample *pIn,
+   IMediaSample *pOut
 );
 ```
 
@@ -27,14 +32,14 @@ virtual HRESULT Transform(
 *pIn* 
 </dt> <dd>
 
-Pointer to the input sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the input sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> <dt>
 
 *pOut* 
 </dt> <dd>
 
-Pointer to the output sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the output sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -53,13 +58,13 @@ The derived class should return an **HRESULT** value, indicating success or fail
 
 
 
- 
+ 
 
 ## Remarks
 
 Override this method to produce output data. Read the input data from the sample specified by the *pIn* parameter, and write the new data into the sample specified by the *pOut* parameter.
 
-Before the filter calls this method, it copies the properties from the input sample to the output sample. The `Transform` method should set any properties that differ between the two samples, using **IMediaSample** methods or the [**IMediaSample2**](imediasample2.md) interface (if available).
+Before the filter calls this method, it copies the properties from the input sample to the output sample. The `Transform` method should set any properties that differ between the two samples, using **IMediaSample** methods or the [**IMediaSample2**](/windows/win32/Strmif/nn-strmif-imediasample2?branch=master) interface (if available).
 
 If the filter should not deliver this sample (for example, to support quality control), the method should return S\_FALSE.
 
@@ -81,9 +86,9 @@ If the filter should not deliver this sample (for example, to support quality co
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

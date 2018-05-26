@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6c24d265-cb88-465c-b1f4-4474af41352e'
-title: 'System.Contact.BusinessAddress3Locality'
+Description: .
+ms.assetid: 6c24d265-cb88-465c-b1f4-4474af41352e
+title: System.Contact.BusinessAddress3Locality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddress3Locality

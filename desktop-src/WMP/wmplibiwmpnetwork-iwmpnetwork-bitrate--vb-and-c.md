@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork bitRate property
 description: The bitRate property gets the current bit rate being received.
-ms.assetid: 'f7dda557-3954-45ed-9eac-6d27109e2dfa'
-keywords: ["bitRate property Windows Media Player", "bitRate property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , bitRate property"]
+ms.assetid: f7dda557-3954-45ed-9eac-6d27109e2dfa
+keywords:
+- bitRate property Windows Media Player
+- bitRate property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , bitRate property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::bitRate property
@@ -135,9 +143,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

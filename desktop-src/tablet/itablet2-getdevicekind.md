@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the type of hardware device the tablet object represents such as mouse, pen or touch.'
-ms.assetid: '693cb45f-958d-42e2-a3ee-a7cfcc72e5c3'
-title: 'ITablet2::GetDeviceKind method'
+Description: Returns the type of hardware device the tablet object represents such as mouse, pen or touch.
+ms.assetid: 693cb45f-958d-42e2-a3ee-a7cfcc72e5c3
+title: ITablet2GetDeviceKind method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet2::GetDeviceKind method
@@ -13,7 +18,7 @@ Returns the type of hardware device the tablet object represents such as mouse, 
 
 ```C++
 HRESULT GetDeviceKind(
-  [out] TABLET_DEVICE_KIND *pKind
+  [out] TABLET_DEVICE_KIND *pKind
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ This interface and method were introduced in Windows Vista.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -74,9 +79,9 @@ This interface and method were introduced in Windows Vista.
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

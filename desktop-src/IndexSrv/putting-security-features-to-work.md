@@ -1,7 +1,12 @@
 ---
 title: Putting Security Features to Work
 description: Putting Security Features to Work
-ms.assetid: '669b73e5-f9aa-4df6-af15-66db88c8d644'
+ms.assetid: 669b73e5-f9aa-4df6-af15-66db88c8d644
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Putting Security Features to Work

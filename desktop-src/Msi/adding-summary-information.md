@@ -1,7 +1,12 @@
 ---
-Description: 'The following summary information properties must be defined in every installation package, using a software tool to access the Istream interface of the Summary Information Stream.'
-ms.assetid: '9775959f-5ab2-43cd-8cc8-9d81945b4ec6'
+Description: The following summary information properties must be defined in every installation package, using a software tool to access the Istream interface of the Summary Information Stream.
+ms.assetid: 9775959f-5ab2-43cd-8cc8-9d81945b4ec6
 title: Adding Summary Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Summary Information
@@ -19,7 +24,7 @@ The following summary information properties must be defined in every installati
 
 
 
- 
+ 
 
 The remaining summary information stream properties are not required, but should be set for the MNP2000.msi sample.
 
@@ -37,7 +42,7 @@ The remaining summary information stream properties are not required, but should
 
 
 
- 
+ 
 
 You do not need the set the [**Last Saved By**](last-saved-by-summary.md), [**Last Saved Time/Date**](last-saved-time-date-summary.md), [**Create Time/Date**](create-time-date-summary.md), [**Last Printed**](last-printed-summary.md), [**Character Count**](character-count-summary.md), and [**Codepage**](codepage-summary.md) summary properties to complete this sample database. The sample relies upon the database editing tool to set and update these optional properties.
 
@@ -51,9 +56,9 @@ See the [Summary Information Stream Property Set](summary-information-stream-pro
 
 [Continue](importing-the-user-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 

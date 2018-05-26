@@ -4,11 +4,14 @@ description: Retrieves the performance counter samples logged by a Data Collecto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85434ea7-b480-4b2b-a95a-36e8d009a18d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 85434ea7-b480-4b2b-a95a-36e8d009a18d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetCounterSamplesAtTime method", "GetCounterSamplesAtTime method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetCounterSamplesAtTime method"]
+keywords:
+- GetCounterSamplesAtTime method
+- GetCounterSamplesAtTime method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetCounterSamplesAtTime method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetCounterSamplesAtTime method of the MSFT\_ServerManagerTasks class
@@ -28,11 +34,11 @@ Retrieves the performance counter samples logged by a Data Collector Set at the 
 
 ```mof
 uint32 GetCounterSamplesAtTime(
-  [in]  string                               CollectorName,
-  [in]  string                               CounterPaths[],
-  [in]  datetime                             Timestamps[],
-  [in]  uint32                               BatchSize,
-  [out] MSFT_ServerPerformanceCounterSamples cmdletOutput[]
+  [in]  string                               CollectorName,
+  [in]  string                               CounterPaths[],
+  [in]  datetime                             Timestamps[],
+  [in]  uint32                               BatchSize,
+  [out] MSFT_ServerPerformanceCounterSamples cmdletOutput[]
 );
 ```
 
@@ -84,7 +90,7 @@ An array of embedded instances of [**MSFT\_ServerPerformanceCounterSamples**](ms
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -101,9 +107,9 @@ An array of embedded instances of [**MSFT\_ServerPerformanceCounterSamples**](ms
 [**MSFT\_ServerPerformanceCounterSamples**](msft-serverperformancecountersamples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

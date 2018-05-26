@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a RightsTemplatePolicy object that can be used to manage AD RMS rights templates.'
+Description: Retrieves a RightsTemplatePolicy object that can be used to manage AD RMS rights templates.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'bef02934-d66e-481a-acd7-b80a39b0ecaf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: bef02934-d66e-481a-acd7-b80a39b0ecaf
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ConfigurationManager.RightsTemplatePolicy property'
+title: ConfigurationManager.RightsTemplatePolicy property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConfigurationManager.RightsTemplatePolicy property
@@ -184,7 +187,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -196,9 +199,9 @@ END SUB
 [**ConfigurationManager**](configurationmanager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The SPFILENOTIFY\_COPYERROR notification is sent to the callback routine if an error occurs during a file copy operation.'
-ms.assetid: 'd6096954-c6a5-44d4-a358-c1320c50730a'
-title: 'SPFILENOTIFY\_COPYERROR message'
+Description: The SPFILENOTIFY\_COPYERROR notification is sent to the callback routine if an error occurs during a file copy operation.
+ms.assetid: d6096954-c6a5-44d4-a358-c1320c50730a
+title: SPFILENOTIFY\_COPYERROR message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_COPYERROR message
@@ -25,7 +30,7 @@ SPFILENOTIFY_COPYERROR
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](filepaths-str.md) structure.
+Pointer to a [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure.
 
 </dd> <dt>
 
@@ -44,14 +49,14 @@ The callback should return one of the following values.
 
 | Return code                                                                                    | Description                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**FILEOP\_ABORT**</dt> </dl>   | Queue processing should be canceled. [**SetupCommitFileQueue**](setupcommitfilequeue.md) returns zero and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns extended error information such as ERROR\_CANCELLED (if the user canceled) or ERROR\_NOT\_ENOUGH\_MEMORY.<br/> |
+| <dl> <dt>**FILEOP\_ABORT**</dt> </dl>   | Queue processing should be canceled. [**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master) returns zero and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns extended error information such as ERROR\_CANCELLED (if the user canceled) or ERROR\_NOT\_ENOUGH\_MEMORY.<br/> |
 | <dl> <dt>**FILEOP\_NEWPATH**</dt> </dl> | Retry the copy operation using the path the callback function placed in the buffer pointed to by the *Param2* parameter. The callback routine should ensure that the path does not overflow the buffer size of a TCHAR array of MAX\_PATH elements.<br/>                |
 | <dl> <dt>**FILEOP\_RETRY**</dt> </dl>   | The user is attempting the copy operation again.<br/>                                                                                                                                                                                                                   |
 | <dl> <dt>**FILEOP\_SKIP**</dt> </dl>    | The user is skipping the file copy operation.<br/>                                                                                                                                                                                                                      |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,8 +64,8 @@ The callback should return one of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -75,18 +80,18 @@ The callback should return one of the following values.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](filepaths-str.md)
+[**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master)
 </dt> <dt>
 
-[**SetupCommitFileQueue**](setupcommitfilequeue.md)
+[**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master)
 </dt> <dt>
 
-[**SetupDefaultQueueCallback**](setupdefaultqueuecallback.md)
+[**SetupDefaultQueueCallback**](/windows/win32/Setupapi/nf-setupapi-setupdefaultqueuecallbacka?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

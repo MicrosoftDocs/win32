@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.Ctlcontrols property
 description: The Ctlcontrols property gets an IWMPControls interface that provides a way to manipulate the playback of a media item.
-ms.assetid: '0f0067e5-91bb-4179-a054-51f709b90c01'
-keywords: ["Ctlcontrols property Windows Media Player", "Ctlcontrols property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , Ctlcontrols property"]
+ms.assetid: 0f0067e5-91bb-4179-a054-51f709b90c01
+keywords:
+- Ctlcontrols property Windows Media Player
+- Ctlcontrols property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , Ctlcontrols property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.Ctlcontrols property
@@ -72,9 +80,9 @@ The WMPLIB.IWMPControls interface.
 [**IWMPControls Interface (VB and C#)**](iwmpcontrols--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

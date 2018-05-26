@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a valid C/C++ symbol name.'
-ms.assetid: '75f74a16-0be4-466b-a88d-247c8c94f4ce'
+Description: Defines a valid C/C++ symbol name.
+ms.assetid: 75f74a16-0be4-466b-a88d-247c8c94f4ce
 title: CSymbolType Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSymbolType Simple Type
@@ -34,14 +39,14 @@ The **CSymbolType** simple type is a **xs:string** that is restricted by the fol
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

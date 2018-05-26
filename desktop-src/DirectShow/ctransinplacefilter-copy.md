@@ -1,7 +1,12 @@
 ---
-Description: 'The Copy method copies a media sample.'
-ms.assetid: '3fbc6925-6e9c-4419-ab0d-0bbdbdf9bb8e'
-title: 'CTransInPlaceFilter.Copy method'
+Description: The Copy method copies a media sample.
+ms.assetid: 3fbc6925-6e9c-4419-ab0d-0bbdbdf9bb8e
+title: CTransInPlaceFilter.Copy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.Copy method
@@ -13,7 +18,7 @@ The `Copy` method copies a media sample.
 
 ```C++
 IMediaSample* Copy(
-   IMediaSample *pSource
+   IMediaSample *pSource
 );
 ```
 
@@ -26,7 +31,7 @@ IMediaSample* Copy(
 *pSource* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ This method retrieves an empty buffer from the downstream allocator. It copies a
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

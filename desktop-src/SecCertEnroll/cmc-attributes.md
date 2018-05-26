@@ -1,7 +1,12 @@
 ---
-Description: 'In practice, the structure of a CMC request, shown by the following syntax, is relatively complex because it often contains nested requests.'
-ms.assetid: 'faeee338-bce4-4b35-9be9-72a6568fa259'
+Description: In practice, the structure of a CMC request, shown by the following syntax, is relatively complex because it often contains nested requests.
+ms.assetid: faeee338-bce4-4b35-9be9-72a6568fa259
 title: CMC Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMC Attributes
@@ -97,19 +102,19 @@ If the attributes in this structure apply to a nested PKCS \#10 request, the **c
 
 ## CmcAddExtensions
 
-This structure can contain X.509 version 3 extensions plus extensions defined by Microsoft. This attribute is defined by using the [**IX509AttributeExtensions**](ix509attributeextensions.md) interface. If the extensions apply to a nested PKCS \#10 request, the **certReferences** field will contain the **BodyPartID** that identifies the request. If the extensions apply to a nested CMC request, the **pkiDataReference** field will contain the **BodyPartID** of the request. Currently, only one of these fields can be nonzero.
+This structure can contain X.509 version 3 extensions plus extensions defined by Microsoft. This attribute is defined by using the [**IX509AttributeExtensions**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeextensions?branch=master) interface. If the extensions apply to a nested PKCS \#10 request, the **certReferences** field will contain the **BodyPartID** that identifies the request. If the extensions apply to a nested CMC request, the **pkiDataReference** field will contain the **BodyPartID** of the request. Currently, only one of these fields can be nonzero.
 
 ## SenderNonce
 
-A nonce is random or pseudo-random binary data that can be included in a certificate request and response transaction to help ensure that the response or request is not a repeat of a previous message. For more information, see the [**SenderNonce**](ix509certificaterequestcmc-sendernonce-property.md) property.
+A nonce is random or pseudo-random binary data that can be included in a certificate request and response transaction to help ensure that the response or request is not a repeat of a previous message. For more information, see the [**SenderNonce**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_sendernonce?branch=master) property.
 
 ## TransactID
 
-A round trip certificate request and response transaction can be tracked using an identifier. The client generates a transaction ID and retains it until the certificate or registration authority responds with a message that completes the transaction. The response includes the identifier. For more information, see the [**TransactionId**](ix509certificaterequestcmc-transactionid-property.md) property.
+A round trip certificate request and response transaction can be tracked using an identifier. The client generates a transaction ID and retains it until the certificate or registration authority responds with a message that completes the transaction. The response includes the identifier. For more information, see the [**TransactionId**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_transactionid?branch=master) property.
 
 ## RegInfo
 
-This attribute can be used to contain any registration information that the client chooses to put into the CMC request. The attribute value is string that contains concatenated name-value pairs. For more information, see the [**NameValuePairs**](ix509certificaterequestcmc-namevaluepairs-property.md) property.
+This attribute can be used to contain any registration information that the client chooses to put into the CMC request. The attribute value is string that contains concatenated name-value pairs. For more information, see the [**NameValuePairs**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_namevaluepairs?branch=master) property.
 
 ## Related topics
 

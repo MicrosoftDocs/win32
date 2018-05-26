@@ -4,10 +4,13 @@ description: The Win32\_TSGatewayResourceAuthorizationPolicy class exposes the f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A30CB78B-7A60-4582-802C-3742CB5B84CC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: A30CB78B-7A60-4582-802C-3742CB5B84CC
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayResourceAuthorizationPolicy Methods

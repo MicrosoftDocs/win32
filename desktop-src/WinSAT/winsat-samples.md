@@ -1,7 +1,12 @@
 ---
 title: WinSAT Samples
 description: The Windows System Assessment Tool (WinSAT) provides the following samples in the Windows SDK.
-ms.assetid: '2670e0a4-3dee-49c2-abbf-b5633cc95b69'
+ms.assetid: 2670e0a4-3dee-49c2-abbf-b5633cc95b69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSAT Samples

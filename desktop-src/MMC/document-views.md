@@ -4,11 +4,16 @@ description: The Views property returns the Views object for the document. This 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f553dcc-6315-41ae-99d7-bd9ee45f7ecf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2f553dcc-6315-41ae-99d7-bd9ee45f7ecf
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Views property MMC", "Views property MMC , Document object", "Document object MMC , Views property", "Views property MMC , Document interface", "Document interface MMC , Views property"]
+keywords:
+- Views property MMC
+- Views property MMC , Document object
+- Document object MMC , Views property
+- Views property MMC , Document interface
+- Document interface MMC , Views property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::Views property
@@ -59,8 +67,8 @@ Set objViews = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -75,9 +83,9 @@ Set objViews = Nothing
 [**Views collection**](views-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

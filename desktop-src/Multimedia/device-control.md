@@ -1,12 +1,17 @@
 ---
 title: Device Control
 description: Device Control
-ms.assetid: 'b4479803-f1da-4646-909e-c4ef412ebdcd'
+ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Control
 
-To control an MCI device, you open the device, send the necessary commands to it, and then close the device. The commands can be very similar, even for completely different MCI devices. For example, the following series of MCI commands plays the sixth track of an audio CD by using the [**mciSendString**](mcisendstring.md) function:
+To control an MCI device, you open the device, send the necessary commands to it, and then close the device. The commands can be very similar, even for completely different MCI devices. For example, the following series of MCI commands plays the sixth track of an audio CD by using the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function:
 
 
 ```C++

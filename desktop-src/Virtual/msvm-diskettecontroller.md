@@ -1,8 +1,10 @@
 ---
 title: Msvm\_DisketteController class
 description: Represents the floppy controller in the virtual machine (VM).
-ms.assetid: '87417b82-6b4c-4cc3-b855-bee68e25f4d8'
-keywords: ["Msvm_DisketteController class Hyper-V", "Msvm_DisketteController class Hyper-V , described"]
+ms.assetid: 87417b82-6b4c-4cc3-b855-bee68e25f4d8
+keywords:
+- Msvm_DisketteController class Hyper-V
+- Msvm_DisketteController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -55,6 +57,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DisketteController class
@@ -69,42 +76,42 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DisketteController : CIM_Controller
 {
-  string   Caption = "Diskette Controller";
-  string   Description = "Microsoft Virtual Diskette Controller";
-  string   ElementName = "Diskette Controller";
+  string   Caption = "Diskette Controller";
+  string   Description = "Microsoft Virtual Diskette Controller";
+  string   ElementName = "Diskette Controller";
   datetime InstallDate;
-  string   Name = "Diskette Controller";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Diskette Controller";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_DisketteController";
-  string   DeviceID = "Microsoft:GUID\device-specific-data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_DisketteController";
+  string   DeviceID = "Microsoft:GUID\device-specific-data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 7;
-  uint32   MaxNumberControlled = 1;
-  string   ProtocolDescription = "Diskette Protocol";
+  uint16   ProtocolSupported = 7;
+  uint32   MaxNumberControlled = 1;
+  string   ProtocolDescription = "Diskette Protocol";
 };
 ```
 
@@ -134,7 +141,7 @@ The **Msvm\_DisketteController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1288,9 +1295,9 @@ Access to the **Msvm\_DisketteController** class might be restricted by UAC Filt
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1309,9 +1316,9 @@ Access to the **Msvm\_DisketteController** class might be restricted by UAC Filt
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

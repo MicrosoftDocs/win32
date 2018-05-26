@@ -2,13 +2,19 @@
 title: ncacn\_nb\_ipx attribute
 description: The ncacn\_nb\_ipx keyword identifies NetBIOS over IPX as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 641471d4-eba4-4d4a-a3fe-1e40b3751e38
-keywords: ["ncacn_nb_ipx attribute MIDL"]
+keywords:
+- ncacn_nb_ipx attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncacn_nb_ipx
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncacn\_nb\_ipx attribute

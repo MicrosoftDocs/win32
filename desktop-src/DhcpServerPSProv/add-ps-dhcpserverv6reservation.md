@@ -4,13 +4,16 @@ description: Add an IPv6 Reservation to an IPv6 Prefix/Scope.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab862019-8cef-4135-9a63-d98998eb16c3'
-ms.prod: 'windows-server-dev'
+ms.assetid: ab862019-8cef-4135-9a63-d98998eb16c3
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DhcpServerv6Reservation class", "PS_DhcpServerv6Reservation class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DhcpServerv6Reservation class
+- PS_DhcpServerv6Reservation class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DhcpServerv6Reservation class
@@ -30,15 +36,15 @@ Add an IPv6 Reservation to an IPv6 Prefix/Scope.
 
 ```mof
 uint32 Add(
-  [in]  string                  ComputerName,
-  [in]  string                  IPAddress,
-  [in]  string                  ClientDuid,
-  [in]  uint32                  Iaid,
-  [in]  string                  Name,
-  [in]  string                  Description,
-  [in]  string                  Prefix,
-  [in]  boolean                 PassThru,
-  [out] DhcpServerv6Reservation cmdletOutput
+  [in]  string                  ComputerName,
+  [in]  string                  IPAddress,
+  [in]  string                  ClientDuid,
+  [in]  uint32                  Iaid,
+  [in]  string                  Name,
+  [in]  string                  Description,
+  [in]  string                  Prefix,
+  [in]  boolean                 PassThru,
+  [out] DhcpServerv6Reservation cmdletOutput
 );
 ```
 
@@ -118,7 +124,7 @@ An embedded instance of the [**DhcpServerv6Reservation**](dhcpserverv6reservatio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -132,9 +138,9 @@ An embedded instance of the [**DhcpServerv6Reservation**](dhcpserverv6reservatio
 [**PS\_DhcpServerv6Reservation**](ps-dhcpserverv6reservation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

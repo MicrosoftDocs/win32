@@ -1,14 +1,20 @@
 ---
 title: ContentDistributorDuration Attribute
 description: The ContentDistributorDuration attribute is the playing duration of the item, in seconds.
-ms.assetid: 'c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c'
-keywords: ["ContentDistributorDuration Attribute Windows Media Player"]
+ms.assetid: c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c
+keywords:
+- ContentDistributorDuration Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ContentDistributorDuration
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContentDistributorDuration Attribute
@@ -46,9 +52,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Duration Attribute**](duration-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

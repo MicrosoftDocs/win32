@@ -1,8 +1,9 @@
 ---
 title: WMDMMetadataView structure
 description: The WMDMMetadataView structure defines the metadata view. Content is organized based on this definition.
-ms.assetid: '787d2295-d433-451d-a1fc-6f73585e10d6'
-keywords: ["WMDMMetadataView structure windows Media Device Manager"]
+ms.assetid: 787d2295-d433-451d-a1fc-6f73585e10d6
+keywords:
+- WMDMMetadataView structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDMMetadataView structure
@@ -23,7 +29,7 @@ The **WMDMMetadataView** structure defines the metadata view. Content is organiz
 ```C++
 typedef struct _WMDMMetadataView {
   WCHAR *pwszViewName;
-  UINT  nDepth;
+  UINT  nDepth;
   WCHAR **ppwszTags;
 } WMDMMetadataView;
 ```
@@ -116,9 +122,9 @@ Song2
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

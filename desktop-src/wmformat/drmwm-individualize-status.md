@@ -1,8 +1,9 @@
 ---
 title: WM\_INDIVIDUALIZE\_STATUS structure
 description: The WM\_INDIVIDUALIZE\_STATUS structure holds information about a pending individualization process.
-ms.assetid: 'af7e8758-489b-461f-b241-d7e40c8d61da'
-keywords: ["WM_INDIVIDUALIZE_STATUS structure windows Media Format"]
+ms.assetid: af7e8758-489b-461f-b241-d7e40c8d61da
+keywords:
+- WM_INDIVIDUALIZE_STATUS structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INDIVIDUALIZE\_STATUS structure
@@ -22,13 +28,13 @@ The **WM\_INDIVIDUALIZE\_STATUS** structure holds information about a pending in
 
 ```C++
 typedef struct _WMIndividualizeStatus {
-  HRESULT                      hr;
+  HRESULT                      hr;
   DRM_INDIVIDUALIZATION_STATUS enIndiStatus;
-  LPSTR                        pszIndiRespUrl;
-  DWORD                        dwHTTPRequest;
-  DRM_HTTP_STATUS              enHTTPStatus;
-  DWORD                        dwHTTPReadProgress;
-  DWORD                        dwHTTPReadTotal;
+  LPSTR                        pszIndiRespUrl;
+  DWORD                        dwHTTPRequest;
+  DRM_HTTP_STATUS              enHTTPStatus;
+  DWORD                        dwHTTPReadProgress;
+  DWORD                        dwHTTPReadTotal;
 } WM_INDIVIDUALIZE_STATUS;
 ```
 
@@ -108,9 +114,9 @@ This structure is received when you call the [**IWMDRMIndividualizationStatus::G
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

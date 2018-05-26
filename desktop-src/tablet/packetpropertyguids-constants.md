@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines values that specify the packet properties.'
-ms.assetid: '3e8495f6-0860-4ea8-a258-784eaade85c7'
+---
+Description: Defines values that specify the packet properties.
+ms.assetid: 3e8495f6-0860-4ea8-a258-784eaade85c7
 title: PacketPropertyGuids Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PacketPropertyGuids Constants
@@ -10,7 +15,7 @@ Defines values that specify the packet properties. The Tablet PCAPI uses globall
 
 In C++, you can access these constants in the Msinkaut.h header file, which is located in the &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Include directory if you installed the SDK in the default location. In C++, these constants are WCHARs, not BSTRs. Convert them into BSTRs before use. For more information about the BSTR data type, see [Using the COM Library](using-the-com-library.md).
 
-The following table lists the available packet property globally unique identifier (GUID) fields. Use these GUIDs to specify which properties the packet contains when you create the tablet context. To determine the range and resolution of a property, call the [**GetPropertyMetrics**](iinktablet-getpropertymetrics.md) method. The constants in the table below beginning with "STR\_" are string representations of the corresponding binary constants shown in the same table cell.
+The following table lists the available packet property globally unique identifier (GUID) fields. Use these GUIDs to specify which properties the packet contains when you create the tablet context. To determine the range and resolution of a property, call the [**GetPropertyMetrics**](/windows/win32/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics?branch=master) method. The constants in the table below beginning with "STR\_" are string representations of the corresponding binary constants shown in the same table cell.
 
 
 
@@ -40,7 +45,7 @@ The following table lists the available packet property globally unique identifi
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_GUID_Z_or_GUID_PACKETPROPERTY_GUID_Z"></span><span id="str_guid_z_or_guid_packetproperty_guid_z"></span><span id="STR_GUID_Z_OR_GUID_PACKETPROPERTY_GUID_Z"></span><dl> <dt><strong>STR_GUID_Z or GUID_PACKETPROPERTY_GUID_Z</strong></dt> </dl></td>
-<td style="text-align: left;">The z-coordinate or distance of the pen tip from the tablet surface. The [<strong>TabletPropertyMetricUnit</strong>](tabletpropertymetricunit.md) enumeration type determines the unit of measurement for this property.<br/></td>
+<td style="text-align: left;">The z-coordinate or distance of the pen tip from the tablet surface. The [<strong>TabletPropertyMetricUnit</strong>](/windows/win32/msinkaut/ne-msinkaut-tabletpropertymetricunit?branch=master) enumeration type determines the unit of measurement for this property.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_GUID_PAKETSTATUS_or_GUID_PACKETPROPERTY_GUID_PACKET_STATUS"></span><span id="str_guid_paketstatus_or_guid_packetproperty_guid_packet_status"></span><span id="STR_GUID_PAKETSTATUS_OR_GUID_PACKETPROPERTY_GUID_PACKET_STATUS"></span><dl> <dt><strong>STR_GUID_PAKETSTATUS or GUID_PACKETPROPERTY_GUID_PACKET_STATUS</strong></dt> </dl></td>
@@ -176,13 +181,13 @@ This requires a 3D digitizer.
 
 <dl> <dt>
 
-[**IsPacketPropertySupported Method**](iinktablet-ispacketpropertysupported.md)
+[**IsPacketPropertySupported Method**](/windows/win32/msinkaut/nf-msinkaut-iinktablet-ispacketpropertysupported?branch=master)
 </dt> <dt>
 
-[**GetPropertyMetrics Method**](iinktablet-getpropertymetrics.md)
+[**GetPropertyMetrics Method**](/windows/win32/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics?branch=master)
 </dt> <dt>
 
-[**IInkTablet Interface**](iinktablet.md)
+[**IInkTablet Interface**](/windows/win32/msinkaut/nn-msinkaut-iinktablet?branch=master)
 </dt> </dl>
 
  

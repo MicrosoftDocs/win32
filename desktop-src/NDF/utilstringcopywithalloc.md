@@ -1,8 +1,9 @@
 ---
 title: UtilStringCopyWithAlloc function
 description: Allocates and copies a source string.
-ms.assetid: 'e1400ae1-0edd-4b59-af03-3da1b9d7073b'
-keywords: ["UtilStringCopyWithAlloc function NDF"]
+ms.assetid: e1400ae1-0edd-4b59-af03-3da1b9d7073b
+keywords:
+- UtilStringCopyWithAlloc function NDF
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UtilStringCopyWithAlloc function
@@ -22,9 +28,9 @@ The **UtilStringCopyWithAlloc** function allocates and copies a source string.
 
 ```C++
 HRESULT UtilStringCopyWithAlloc(
-  _Out_ LPWSTR  *Buffer,
-  _In_  UINT    BufferMax,
-  _In_  LPCWSTR Source
+  _Out_ LPWSTR  *Buffer,
+  _In_  UINT    BufferMax,
+  _In_  LPCWSTR Source
 );
 ```
 
@@ -76,7 +82,7 @@ Possible return values include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,8 +90,8 @@ Possible return values include, but are not limited to, the following.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
 
 
@@ -103,9 +109,9 @@ Possible return values include, but are not limited to, the following.
 [**UtilLoadStringWithAlloc**](utilloadstringwithalloc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETDAYSTATE message
 description: Sets the day states for all months that are currently visible within a month calendar control. You can send this message explicitly or by using the MonthCal\_SetDayState macro.
-ms.assetid: '518cb2a9-ea82-40b4-88ca-f901b6f9f8c4'
-keywords: ["MCM_SETDAYSTATE message Windows Controls"]
+ms.assetid: 518cb2a9-ea82-40b4-88ca-f901b6f9f8c4
+keywords:
+- MCM_SETDAYSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETDAYSTATE message
 
-Sets the day states for all months that are currently visible within a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetDayState**](monthcal-setdaystate.md) macro.
+Sets the day states for all months that are currently visible within a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetDayState**](/windows/win32/Commctrl/nf-commctrl-monthcal_setdaystate?branch=master) macro.
 
 ## Parameters
 
@@ -55,8 +61,8 @@ Keep in mind that the array at *lParam* must contain [**MONTHDAYSTATE**](monthda
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ Keep in mind that the array at *lParam* must contain [**MONTHDAYSTATE**](monthda
 [Using Month Calendar Controls](using-month-calendar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

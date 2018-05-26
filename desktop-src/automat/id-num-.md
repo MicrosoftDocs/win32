@@ -1,7 +1,12 @@
 ---
 title: id(num)
 description: Identifies the DISPID of the member.
-ms.assetid: '02592f4c-d878-456f-9805-cbb92f2b10c3'
+ms.assetid: 02592f4c-d878-456f-9805-cbb92f2b10c3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # id(num)

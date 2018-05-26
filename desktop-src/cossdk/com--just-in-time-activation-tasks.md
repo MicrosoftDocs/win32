@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ Just-in-Time Activation Tasks'
-ms.assetid: '8b211ad2-92b6-487c-b323-1fe19f774cc3'
-title: 'COM+ Just-in-Time Activation Tasks'
+Description: COM+ Just-in-Time Activation Tasks
+ms.assetid: 8b211ad2-92b6-487c-b323-1fe19f774cc3
+title: COM+ Just-in-Time Activation Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Just-in-Time Activation Tasks
@@ -20,7 +25,7 @@ The following topics provide step-by-step instructions for using Just-in-Time (J
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ The following topics provide step-by-step instructions for using Just-in-Time (J
 [COM+ Just-in-Time Activation Concepts](com--just-in-time-activation-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

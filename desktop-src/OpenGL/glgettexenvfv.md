@@ -1,8 +1,9 @@
 ---
 title: glGetTexEnvfv function
 description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters.
-ms.assetid: 'aa037494-e227-48f1-8d5e-9f82073dc2ea'
-keywords: ["glGetTexEnvfv function OpenGL"]
+ms.assetid: aa037494-e227-48f1-8d5e-9f82073dc2ea
+keywords:
+- glGetTexEnvfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetTexEnvfv function
@@ -22,9 +28,9 @@ The **glGetTexEnvfv** and [**glGetTexEnviv**](glgettexenviv.md) functions return
 
 ```C++
 void WINAPI glGetTexEnvfv(
-   GLenum  target,
-   GLenum  pname,
-   GLfloat *params
+   GLenum  target,
+   GLenum  pname,
+   GLfloat *params
 );
 ```
 
@@ -55,7 +61,7 @@ The symbolic name of a texture environment parameter. The following values are a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,8 +116,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glTexEnv**](gltexenv-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

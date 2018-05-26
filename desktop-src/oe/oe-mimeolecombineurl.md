@@ -1,8 +1,9 @@
 ---
 title: MimeOleCombineURL function
 description: Do not use. On success, combines base and relative URL.
-ms.assetid: 'c6b87603-dade-4b18-a9e2-15ebab15ca0c'
-keywords: ["MimeOleCombineURL function Windows Mail (formerly Outlook Express)"]
+ms.assetid: c6b87603-dade-4b18-a9e2-15ebab15ca0c
+keywords:
+- MimeOleCombineURL function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleCombineURL function
@@ -22,12 +28,12 @@ Do not use. On success, combines base and relative URL.
 
 ```C++
 HRESULT MimeOleCombineURL(
-  _In_  LPCSTR pszBase,
-  _In_  ULONG  cchBase,
-  _In_  LPCSTR pszURL,
-  _In_  ULONG  cchURL,
-  _In_  BOOL   fUnEscape,
-  _Out_ LPSTR  *ppszAbsolute
+  _In_  LPCSTR pszBase,
+  _In_  ULONG  cchBase,
+  _In_  LPCSTR pszURL,
+  _In_  ULONG  cchURL,
+  _In_  BOOL   fUnEscape,
+  _Out_ LPSTR  *ppszAbsolute
 );
 ```
 
@@ -106,7 +112,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -114,8 +120,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -123,9 +129,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

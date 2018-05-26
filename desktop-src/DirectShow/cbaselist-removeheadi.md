@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveHeadI method removes the first item in the list.'
-ms.assetid: '7e448e32-ea31-4015-9219-1f990bf8763d'
-title: 'CBaseList.RemoveHeadI method'
+Description: The RemoveHeadI method removes the first item in the list.
+ms.assetid: 7e448e32-ea31-4015-9219-1f990bf8763d
+title: CBaseList.RemoveHeadI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.RemoveHeadI method
@@ -47,9 +52,9 @@ This method deletes the list node, but not the item that the node contains.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

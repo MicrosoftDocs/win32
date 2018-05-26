@@ -1,8 +1,15 @@
 ---
 title: Task Scheduler
 description: The Task Scheduler enables you to automatically perform routine tasks on a chosen computer. Task Scheduler does this by monitoring whatever criteria you choose (referred to as triggers) and then executing the tasks when their criteria are met.
-ms.assetid: '15970a51-c139-48b8-b82b-605728d0f386'
-keywords: ["Task Scheduler Task Scheduler", "Task Scheduler Task Scheduler , portal page"]
+ms.assetid: 15970a51-c139-48b8-b82b-605728d0f386
+keywords:
+- Task Scheduler Task Scheduler
+- Task Scheduler Task Scheduler , portal page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler
@@ -38,8 +45,8 @@ The Task Scheduler provides APIs for the following developers:
 
 The Task Scheduler requires the following operating systems.
 
--   Task Scheduler 1.0: Client requires Windows Vista, or Windows XP. Server requires Windows Server 2008 or Windows Server 2003.
--   Task Scheduler 2.0: Client requires Windows Vista. Server requires Windows Server 2008.
+-   Task Scheduler 1.0: Client requires Windows Vista, or Windows XP. Server requires Windows Server 2008 or Windows Server 2003.
+-   Task Scheduler 2.0: Client requires Windows Vista. Server requires Windows Server 2008.
 
 ## In this section
 
@@ -54,11 +61,11 @@ The Task Scheduler requires the following operating systems.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

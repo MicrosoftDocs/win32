@@ -1,14 +1,20 @@
 ---
 title: DVDButtonDLL element
 description: The boundary tag for a single button object.
-ms.assetid: 'de74b81b-7ca6-4958-b745-d552fb274cb5'
-keywords: ["DVDButtonDLL element Windows Movie Maker and DVD Maker"]
+ms.assetid: de74b81b-7ca6-4958-b745-d552fb274cb5
+keywords:
+- DVDButtonDLL element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - DVDButtonDLL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDButtonDLL element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

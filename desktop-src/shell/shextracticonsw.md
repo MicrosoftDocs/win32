@@ -1,6 +1,11 @@
-﻿---
-Description: 'Creates an array of handles to icons extracted from a specified file.'
+---
+Description: Creates an array of handles to icons extracted from a specified file.
 title: SHExtractIconsW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHExtractIconsW function

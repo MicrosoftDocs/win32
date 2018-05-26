@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetUserData method retrieves the application-defined persistent data.'
-ms.assetid: 'dd2cdb37-9c4f-4356-a35f-2d42b7588da6'
-title: 'IAMTimelineObj::GetUserData method'
+---
+Description: The GetUserData method retrieves the application-defined persistent data.
+ms.assetid: dd2cdb37-9c4f-4356-a35f-2d42b7588da6
+title: IAMTimelineObjGetUserData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetUserData method

@@ -1,8 +1,15 @@
 ---
 title: CIM\_RecordedSetting class
 description: TBD
-ms.assetid: '798f17c6-0926-4979-8bf5-85dd01684d09'
-keywords: ["CIM_RecordedSetting class Hyper-V", "CIM_RecordedSetting class Hyper-V , described"]
+ms.assetid: 798f17c6-0926-4979-8bf5-85dd01684d09
+keywords:
+- CIM_RecordedSetting class Hyper-V
+- CIM_RecordedSetting class Hyper-V , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_RecordedSetting class
@@ -17,8 +24,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Experimental, Association, Version("2.13.0")]
 class CIM_RecordedSetting : CIM_Dependency
 {
-  CIM_ManagedElement                REF Antecedent;
-  CIM_ManagedElement                REF Dependent;
+  CIM_ManagedElement                REF Antecedent;
+  CIM_ManagedElement                REF Dependent;
   CIM_ResourceAllocationSettingData REF CurrentSetting;
   CIM_ResourceAllocationSettingData REF RecordedSetting;
 };
@@ -111,9 +118,9 @@ TBD
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -126,9 +133,9 @@ TBD
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

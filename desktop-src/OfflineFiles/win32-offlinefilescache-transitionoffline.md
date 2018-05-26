@@ -1,13 +1,16 @@
 ---
-Description: 'Transitions an item offline if possible.'
+Description: Transitions an item offline if possible.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6b1a0fd4-985f-4e85-b924-c60971359e06'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6b1a0fd4-985f-4e85-b924-c60971359e06
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'TransitionOffline method of the Win32\_OfflineFilesCache class'
+title: TransitionOffline method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TransitionOffline method of the Win32\_OfflineFilesCache class
@@ -19,10 +22,10 @@ Transitions an item offline if possible.
 
 ```mof
 uint32 TransitionOffline(
-  [in]  string  Path,
-  [in]  boolean Force,
-  [in]  uint32  Flags,
-  [out] boolean OpenFiles
+  [in]  string  Path,
+  [in]  boolean Force,
+  [in]  uint32  Flags,
+  [out] boolean OpenFiles
 );
 ```
 
@@ -47,7 +50,7 @@ By default, any open handles to files that are not cached by Offline Files preve
 > [!Note]  
 > If file handles are forcibly closed, this can cause unexpected consequences, depending on the applications that are using those files.
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,9 +106,9 @@ If open handles prevent the offline transition, the method returns a success val
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
-| Version<br/>                  | [KB935553](http://go.microsoft.com/fwlink/p/?linkid=110521) on Windows Vista<br/>                |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Version<br/>                  | [KB935553](http://go.microsoft.com/fwlink/p/?linkid=110521) on Windows Vista<br/>                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Cscobj.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
@@ -123,9 +126,9 @@ If open handles prevent the offline transition, the method returns a success val
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

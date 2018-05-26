@@ -1,8 +1,17 @@
 ---
 title: Skin Definition File
 description: Skin Definition File
-ms.assetid: 'ea7f8e7c-a505-478d-80c3-cb3a3f67859d'
-keywords: ["Windows Media Player skins,skin definition files", "skins,skin definition files", "files for skins,skin definition", "skin definition files,about"]
+ms.assetid: ea7f8e7c-a505-478d-80c3-cb3a3f67859d
+keywords:
+- Windows Media Player skins,skin definition files
+- skins,skin definition files
+- files for skins,skin definition
+- skin definition files,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Definition File

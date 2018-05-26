@@ -4,17 +4,21 @@ description: Adds filters to be deemed as incompatible for direct I/O.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A12C5895-9327-4CCB-8B91-AC3F177256CF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: A12C5895-9327-4CCB-8B91-AC3F177256CF
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SharedVolumeIncompatibleFilters Failover Cluster"]
+keywords:
+- SharedVolumeIncompatibleFilters Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SharedVolumeIncompatibleFilters
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SharedVolumeIncompatibleFilters
@@ -27,13 +31,13 @@ Adds filters to be deemed as incompatible for direct I/O. Certain classes of fil
 |-----------|------------------------------------------------------------------|
 | Data type | **LPCWSTR** pointer or a **WCHAR** array                         |
 | Access    | [Read/write](read-write-properties.md)                          |
-| Structure | [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)                 |
+| Structure | [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)                 |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +52,7 @@ Incompatible filter driver names are specified without the .sys extension.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,9 +63,9 @@ Incompatible filter driver names are specified without the .sys extension.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

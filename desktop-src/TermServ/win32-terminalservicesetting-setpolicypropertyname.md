@@ -4,11 +4,14 @@ description: The SetPolicyPropertyName method sets the DeleteTempFolders, UseTem
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '18d9927a-b7db-46c7-90ee-00da6de06202'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 18d9927a-b7db-46c7-90ee-00da6de06202
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetPolicyPropertyName method Remote Desktop Services", "SetPolicyPropertyName method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , SetPolicyPropertyName method"]
+keywords:
+- SetPolicyPropertyName method Remote Desktop Services
+- SetPolicyPropertyName method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , SetPolicyPropertyName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPolicyPropertyName method of the Win32\_TerminalServiceSetting class
@@ -28,8 +34,8 @@ The **SetPolicyPropertyName** method sets the **DeleteTempFolders**, **UseTempFo
 
 ```mof
 uint32 SetPolicyPropertyName(
-  [in] string  PropertyName,
-  [in] boolean Value
+  [in] string  PropertyName,
+  [in] boolean Value
 );
 ```
 
@@ -77,7 +83,7 @@ The method is setting the **UseTempFolders** property.
 
 The method is setting the **Help** property.
 
-**Note**  **Help** is not supported
+**Note**  **Help** is not supported
 
 </dd> </dl> </dd> <dt>
 
@@ -124,8 +130,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -139,9 +145,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

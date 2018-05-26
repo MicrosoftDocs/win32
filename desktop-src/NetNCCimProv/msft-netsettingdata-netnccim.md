@@ -1,7 +1,12 @@
 ---
-Description: 'Base class for classes that contain network settings data, including MSFT\_DAConnectionStatus and MSFT\_NCSIPolicyConfiguration.'
-ms.assetid: '8d856633-dd7a-4043-99e6-44986599b59b'
-title: 'MSFT\_NetSettingData class'
+Description: Base class for classes that contain network settings data, including MSFT\_DAConnectionStatus and MSFT\_NCSIPolicyConfiguration.
+ms.assetid: 8d856633-dd7a-4043-99e6-44986599b59b
+title: MSFT\_NetSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSettingData class
@@ -28,8 +33,8 @@ The **MSFT\_NetSettingData** class does not define any members.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetNCCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetNCCim.dll</dt> </dl> |
@@ -49,9 +54,9 @@ The **MSFT\_NetSettingData** class does not define any members.
 [**MSFT\_NCSIPolicyConfiguration**](msft-ncsipolicyconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

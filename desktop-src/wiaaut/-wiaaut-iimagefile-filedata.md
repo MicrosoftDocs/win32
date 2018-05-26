@@ -1,8 +1,11 @@
 ---
 title: ImageFile.FileData property
 description: Retrieves the raw image file as a Vector of bytes.
-ms.assetid: '41fa23a3-5d50-41d9-b166-227f5671a1f3'
-keywords: ["FileData property WIA Automation", "FileData property WIA Automation , ImageFile object", "ImageFile object WIA Automation , FileData property"]
+ms.assetid: 41fa23a3-5d50-41d9-b166-227f5671a1f3
+keywords:
+- FileData property WIA Automation
+- FileData property WIA Automation , ImageFile object
+- ImageFile object WIA Automation , FileData property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.FileData property
@@ -45,8 +53,8 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -71,9 +79,9 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

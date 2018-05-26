@@ -1,14 +1,20 @@
 ---
 title: AnalysisInfo element
 description: Information about the execution of the assessment analysis.
-ms.assetid: 'F54A6E9B-0D7F-4AA0-983E-DB9D3242DFBC'
-keywords: ["AnalysisInfo element Access Execution Engine"]
+ms.assetid: F54A6E9B-0D7F-4AA0-983E-DB9D3242DFBC
+keywords:
+- AnalysisInfo element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AnalysisInfo
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalysisInfo element

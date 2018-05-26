@@ -1,7 +1,12 @@
 ---
 title: How To Create a Reference Device
 description: This topic shows how to create a reference device that implements a highly accurate, software implementation of the runtime.
-ms.assetid: '00d3f5f2-02c6-4ff4-82a9-0726ad4a8cb3'
+ms.assetid: 00d3f5f2-02c6-4ff4-82a9-0726ad4a8cb3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Create a Reference Device
@@ -37,9 +42,9 @@ This topic shows how to create a reference device that implements a highly accur
 
     
 
-    See more about feature levels in the [**D3D\_FEATURE\_LEVEL**](d3d-feature-level.md) enumeration.
+    See more about feature levels in the [**D3D\_FEATURE\_LEVEL**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_feature_level?branch=master) enumeration.
 
-3.  Create the device by calling [**D3D11CreateDeviceAndSwapChain**](d3d11createdeviceandswapchain.md).
+3.  Create the device by calling [**D3D11CreateDeviceAndSwapChain**](/windows/win32/D3D11/nf-d3d11-d3d11createdeviceandswapchain?branch=master).
 
 
 ```
@@ -65,7 +70,7 @@ This topic shows how to create a reference device that implements a highly accur
 
 
 
-You will need to supply the API call with the reference driver type from the [**D3D\_DRIVER\_TYPE**](d3d-driver-type.md) enumeration. After the method succeeds, it will return a swap chain interface, a device interface, a pointer to the feature level that was granted by the driver, and an immediate context interface.
+You will need to supply the API call with the reference driver type from the [**D3D\_DRIVER\_TYPE**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_driver_type?branch=master) enumeration. After the method succeeds, it will return a swap chain interface, a device interface, a pointer to the feature level that was granted by the driver, and an immediate context interface.
 
 For information about limitations creating a reference device on certain feature levels, see [Limitations Creating WARP and Reference Devices](overviews-direct3d-11-devices-limitations.md).[How to Use Direct3D 11](how-to-use-direct3d-11.md)
 

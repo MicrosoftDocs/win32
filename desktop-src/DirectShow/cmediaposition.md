@@ -1,16 +1,21 @@
 ---
-Description: 'The CMediaPosition class handles the IDispatch methods of the IMediaPosition dual interface.'
-ms.assetid: '5e84a2b6-39d4-47a4-93b4-690df12e2d19'
+Description: The CMediaPosition class handles the IDispatch methods of the IMediaPosition dual interface.
+ms.assetid: 5e84a2b6-39d4-47a4-93b4-690df12e2d19
 title: CMediaPosition class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaPosition class
 
 ![cmediaposition class hierarchy](images/cutil14.png)
 
-The **CMediaPosition** class handles the **IDispatch** methods of the [**IMediaPosition**](imediaposition.md) dual interface.
+The **CMediaPosition** class handles the **IDispatch** methods of the [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master) dual interface.
 
-This class inherits the [**IMediaPosition**](imediaposition.md) interface but does not implement it. It implements **IDispatch** through the [**CBaseDispatch**](cbasedispatch.md) class and the DirectShow type library. Do not use this class directly. Instead, use one of the following classes:
+This class inherits the [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master) interface but does not implement it. It implements **IDispatch** through the [**CBaseDispatch**](cbasedispatch.md) class and the DirectShow type library. Do not use this class directly. Instead, use one of the following classes:
 
 -   Source filters: Use the [**CSourceSeeking**](csourceseeking.md) base class to implement seeking.
 -   Transform filters: Use the [**CPosPassThru**](cpospassthru.md) class to pass seeking commands upstream.
@@ -29,7 +34,7 @@ This class inherits the [**IMediaPosition**](imediaposition.md) interface but do
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,9 +54,9 @@ This class inherits the [**IMediaPosition**](imediaposition.md) interface but do
 [DirectShow Base Classes](directshow-base-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

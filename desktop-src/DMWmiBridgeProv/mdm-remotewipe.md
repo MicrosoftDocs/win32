@@ -1,8 +1,10 @@
 ---
 title: MDM\_RemoteWipe class
 description: The MDM\_RemoteWipe class allows a remote wipe of a device.
-ms.assetid: '8c7c8705-8694-4ce3-ba21-ca610fe1f547'
-keywords: ["MDM_RemoteWipe class", "MDM_RemoteWipe class, described"]
+ms.assetid: 8c7c8705-8694-4ce3-ba21-ca610fe1f547
+keywords:
+- MDM_RemoteWipe class
+- MDM_RemoteWipe class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_RemoteWipe class
@@ -53,7 +60,7 @@ The **MDM\_RemoteWipe** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -100,7 +107,7 @@ The following example demonstrates how to use the RemoteWipe and invoke the doWi
 > [!Note]  
 > This example must be executed under local system user. To do that, download the psexec tool from <https://technet.microsoft.com/sysinternals/bb897553.aspx> and run `psexec.exe -i -s cmd.exe` from an elevated admin command prompt.
 
- 
+ 
 
 ``` syntax
 $namespaceName = "root\cimv2\mdm\dmmap"
@@ -130,7 +137,7 @@ catch [Exception]
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -145,9 +152,9 @@ catch [Exception]
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

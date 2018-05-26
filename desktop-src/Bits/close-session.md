@@ -1,14 +1,20 @@
 ---
 title: Close-Session
 description: Use the Close-Session packet to tell the BITS server that file upload is complete and to end the session.
-ms.assetid: '9d4b658a-8b41-4678-b996-f2174784cdd6'
-keywords: ["Close-Session BITS"]
+ms.assetid: 9d4b658a-8b41-4678-b996-f2174784cdd6
+keywords:
+- Close-Session BITS
 topic_type:
 - apiref
 api_name:
 - Close-Session
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Close-Session

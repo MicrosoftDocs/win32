@@ -1,7 +1,12 @@
 ---
 title: Intrinsic Data Types
 description: The following data types are recognized by MIDL.
-ms.assetid: '7f8e79cd-3702-4dfe-85b8-467ec414a824'
+ms.assetid: 7f8e79cd-3702-4dfe-85b8-467ec414a824
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Intrinsic Data Types
@@ -25,7 +30,7 @@ The following data types are recognized by MIDL.
 | **DATE**                     | 64-bit floating-point fractional number of days since December 30, 1899.                                                    |
 | [**DECIMAL**](decimal.md)   | 96-bit unsigned binary integer scaled by a variable power of 10. Provides a size and scale for a number.                    |
 | **SCODE**                    | Built-in error type that corresponds to VT\_ERROR. Essentially identical to an HRESULT.                                     |
-| [**VARIANT**](variant.md)   | One of the variant data types as described in [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588). |
+| [**VARIANT**](/windows/previous-versions/OaIdl/ns-oaidl-tagvariant?branch=master)   | One of the variant data types as described in [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588). |
 | **IDispatch** \*             | Pointer to the **IDispatch** interface.                                                                                     |
 | **IUnknown** \*              | Pointer to the **IUnknown** interface. (Any OLE interface can be represented by its **IUnknown** interface.)                |
 | **SAFEARRAY**(*TypeName*)    | *TypeName* is any of the above types. Array of these types.                                                                 |

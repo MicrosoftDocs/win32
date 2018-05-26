@@ -4,13 +4,16 @@ description: Determines whether the Cluster service is installed and running on 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd4edae90-bec5-4d5b-a257-a106dec9f0fc'
-ms.prod: 'windows-server-dev'
+ms.assetid: d4edae90-bec5-4d5b-a257-a106dec9f0fc
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetNodeClusterState method", "GetNodeClusterState method, MSCluster_Cluster class", "MSCluster_Cluster class, GetNodeClusterState method"]
+keywords:
+- GetNodeClusterState method
+- GetNodeClusterState method, MSCluster_Cluster class
+- MSCluster_Cluster class, GetNodeClusterState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetNodeClusterState method of the MSCluster\_Cluster class
@@ -30,7 +36,7 @@ Determines whether the Cluster service is installed and running on a node.
 
 ```mof
 void GetNodeClusterState(
-  [out] sint32 ClusterState
+  [out] sint32 ClusterState
 );
 ```
 
@@ -130,7 +136,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Clusapi.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
@@ -148,9 +154,9 @@ This method does not return a value.
 [**NODE\_CLUSTER\_STATE**](https://msdn.microsoft.com/library/bb394679)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

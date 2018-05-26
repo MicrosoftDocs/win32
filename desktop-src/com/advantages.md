@@ -1,7 +1,12 @@
 ---
 title: Advantages
 description: Advantages
-ms.assetid: '7f8c0510-1876-40fd-acb8-289bb073ac36'
+ms.assetid: 7f8c0510-1876-40fd-acb8-289bb073ac36
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advantages

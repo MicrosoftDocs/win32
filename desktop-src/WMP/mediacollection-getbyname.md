@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getByName method
 description: The getByName method retrieves a playlist of the media items with the specified name.
-ms.assetid: '114b0449-a45e-42e5-9e68-428c40a388cf'
-keywords: ["getByName method Windows Media Player", "getByName method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getByName method"]
+ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
+keywords:
+- getByName method Windows Media Player
+- getByName method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getByName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getByName method
@@ -105,9 +113,9 @@ Player.currentPlaylist.appendItem(Three.item(0));
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the XML node for the &\#0034;value&\#0034; child element of a &\#0034;Property&\#0034; or a &\#0034;ScoredProperty&\#0034; element with the given name.'
-ms.assetid: '6CD5202C-7852-46AA-90ED-3477E6654188'
-title: 'IPrintSchemaOption::GetPropertyValue method'
+---
+Description: Gets the XML node for the &\#0034;value&\#0034; child element of a &\#0034;Property&\#0034; or a &\#0034;ScoredProperty&\#0034; element with the given name.
+ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
+title: IPrintSchemaOptionGetPropertyValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOption::GetPropertyValue method

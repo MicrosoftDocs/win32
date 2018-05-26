@@ -1,7 +1,12 @@
 ---
 Description: Exported Spooler Functions
-ms.assetid: '605435ac-cb15-46eb-b242-9d5b44cfbb61'
+ms.assetid: 605435ac-cb15-46eb-b242-9d5b44cfbb61
 title: Exported Spooler Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exported Spooler Functions

@@ -4,17 +4,22 @@ description: Backlink attribute for msDS-IsPrimaryComputer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ba2feaf9-7705-49ca-8b83-dce54d6f368d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ba2feaf9-7705-49ca-8b83-dce54d6f368d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Is-Primary-Computer-For attribute AD Schema", "msDS-IsPrimaryComputerFor attribute AD Schema"]
+keywords:
+- ms-DS-Is-Primary-Computer-For attribute AD Schema
+- msDS-IsPrimaryComputerFor attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Is-Primary-Computer-For
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Is-Primary-Computer-For attribute
@@ -38,7 +43,7 @@ Backlink attribute for msDS-IsPrimaryComputer.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Backlink attribute for msDS-IsPrimaryComputer.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Is a base class for all intrinsic events that relate to a class.'
+Description: Is a base class for all intrinsic events that relate to a class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '554bbabd-2639-40f5-8786-6df2188db0ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 554bbabd-2639-40f5-8786-6df2188db0ec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ClassOperationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ClassOperationEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __ClassOperationEvent : __Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   object TargetClass;
   uint64 TIME_CREATED;
 };
@@ -98,8 +101,8 @@ Instances of **\_\_ClassOperationEvent** are not created; only instances of its 
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -117,9 +120,9 @@ Instances of **\_\_ClassOperationEvent** are not created; only instances of its 
 [Determining the Type of Event to Receive](determining-the-type-of-event-to-receive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

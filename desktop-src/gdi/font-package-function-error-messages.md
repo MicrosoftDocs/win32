@@ -1,12 +1,17 @@
 ---
 Description: Font Package Function Error Messages
-ms.assetid: '3cf7a8a1-66b2-45ca-b53d-29c80f95ff70'
+ms.assetid: 3cf7a8a1-66b2-45ca-b53d-29c80f95ff70
 title: Font Package Function Error Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font Package Function Error Messages
 
-The following LONG values are returned by the font package functions ( [**CreateFontPackage**](createfontpackage.md) and [**MergeFontPackage**](mergefontpackage.md) ) when errors are encountered. When functions are successful, the value NO\_ERROR is returned.
+The following LONG values are returned by the font package functions ( [**CreateFontPackage**](/windows/win32/FontSub/nf-fontsub-createfontpackage?branch=master) and [**MergeFontPackage**](/windows/win32/FontSub/nf-fontsub-mergefontpackage?branch=master) ) when errors are encountered. When functions are successful, the value NO\_ERROR is returned.
 
 
 

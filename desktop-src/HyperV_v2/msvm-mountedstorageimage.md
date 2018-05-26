@@ -1,7 +1,12 @@
 ---
-Description: 'Provides detailed information about a manually mounted storage image.'
-ms.assetid: 'C3AB0EEE-71FE-4049-90AB-01F5D77E3B97'
-title: 'Msvm\_MountedStorageImage class'
+Description: Provides detailed information about a manually mounted storage image.
+ms.assetid: C3AB0EEE-71FE-4049-90AB-01F5D77E3B97
+title: Msvm\_MountedStorageImage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MountedStorageImage class
@@ -16,27 +21,27 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MountedStorageImage : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption = "Mounted Storage Image";
-  string   Description = "Information about a mounted storage image.";
-  string   ElementName = "Mounted Storage Image";
+  string   InstanceID;
+  string   Caption = "Mounted Storage Image";
+  string   Description = "Information about a mounted storage image.";
+  string   ElementName = "Mounted Storage Image";
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[] = { "OK" };
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   Type;
-  uint16   Access;
-  UINT8    PortNumber;
-  UINT8    PathId;
-  UINT8    TargetId;
-  UINT8    Lun;
-  string   PnpDevicePath;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[] = { "OK" };
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   Type;
+  uint16   Access;
+  UINT8    PortNumber;
+  UINT8    PathId;
+  UINT8    TargetId;
+  UINT8    Lun;
+  string   PnpDevicePath;
 };
 ```
 
@@ -59,7 +64,7 @@ The **Msvm\_MountedStorageImage** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -285,7 +290,7 @@ Access type: Read-only
 
 The PNP device path.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -399,8 +404,8 @@ Access to the **Msvm\_MountedStorageImage** class might be restricted by UAC Fil
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -420,9 +425,9 @@ Access to the **Msvm\_MountedStorageImage** class might be restricted by UAC Fil
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

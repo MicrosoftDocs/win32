@@ -4,12 +4,15 @@ description: Nlb.xml is an XML document containing configuration information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '055caea0-ac4a-45d1-8b77-1ba1efe28b30'
-ms.prod: 'windows-server-dev'
+ms.assetid: 055caea0-ac4a-45d1-8b77-1ba1efe28b30
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nlb.xml

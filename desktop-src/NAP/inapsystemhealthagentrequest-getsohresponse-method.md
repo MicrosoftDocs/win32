@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentRequest GetSoHResponse method
 description: Is used by the health agent to retrieve their SoHResponse blob when the NapAgent calls INapSystemHealthAgentCallback ProcessSoHResponse.
-ms.assetid: '60319256-d5c2-46cc-a59b-f81732e21a7f'
-keywords: ["GetSoHResponse method NAP", "GetSoHResponse method NAP , INapSystemHealthAgentRequest interface", "INapSystemHealthAgentRequest interface NAP , GetSoHResponse method"]
+ms.assetid: 60319256-d5c2-46cc-a59b-f81732e21a7f
+keywords:
+- GetSoHResponse method NAP
+- GetSoHResponse method NAP , INapSystemHealthAgentRequest interface
+- INapSystemHealthAgentRequest interface NAP , GetSoHResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentRequest::GetSoHResponse method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentRequest::GetSoHResponse** method is used by the health agent to retrieve their SoHResponse blob when the NapAgent calls [**INapSystemHealthAgentCallback::ProcessSoHResponse**](inapsystemhealthagentcallback-processsohresponse-method.md).
 
@@ -27,8 +35,8 @@ The **INapSystemHealthAgentRequest::GetSoHResponse** method is used by the healt
 
 ```C++
 HRESULT GetSoHResponse(
-  [out] SoHResponse **sohResponse,
-  [out] UINT8       *flags
+  [out] SoHResponse **sohResponse,
+  [out] UINT8       *flags
 );
 ```
 
@@ -41,7 +49,7 @@ HRESULT GetSoHResponse(
 *sohResponse* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**SoHResponse**](soh-struct.md) packet.
+A pointer to a pointer to a [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 </dd> <dt>
 
@@ -54,11 +62,11 @@ A pointer to a flag that enables fix-up by the SHA if the [**shaFixup**](nap-typ
 
 | Possible Values                                                                                                                                                          | Meaning                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="shaFixup"></span><span id="shafixup"></span><span id="SHAFIXUP"></span><dl> <dt>**shaFixup**</dt> </dl> | The SHA is expected to perform the fixup based on the response. If this flag is not set, the SHA should not perform a fix-up even though the [**SoHResponse**](soh-struct.md) indicates that it is unhealthy.<br/> |
+| <span id="shaFixup"></span><span id="shafixup"></span><span id="SHAFIXUP"></span><dl> <dt>**shaFixup**</dt> </dl> | The SHA is expected to perform the fixup based on the response. If this flag is not set, the SHA should not perform a fix-up even though the [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) indicates that it is unhealthy.<br/> |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,7 +84,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,8 +92,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagentrt.dll</dt> </dl>             |
@@ -99,9 +107,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

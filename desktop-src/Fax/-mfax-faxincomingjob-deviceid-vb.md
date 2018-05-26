@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceId property indicates the device ID of the device receiving the inbound fax job.'
-ms.assetid: 'acddbbee-3f8e-4a9f-bf77-1b01de2d2762'
-title: 'FaxIncomingJob.DeviceId property'
+---
+Description: The DeviceId property indicates the device ID of the device receiving the inbound fax job.
+ms.assetid: acddbbee-3f8e-4a9f-bf77-1b01de2d2762
+title: FaxIncomingJob.DeviceId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.DeviceId property
@@ -46,7 +51,7 @@ A **Long** that receives the device ID for the fax device receiving the fax job.
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

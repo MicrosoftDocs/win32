@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetExtContentTypeW function
 description: Do not use. Returns the Content-Type of the specified Unicode file name extension string.
-ms.assetid: 'f8c75991-742b-4f8b-9eb8-ea8c89d1004b'
-keywords: ["MimeOleGetExtContentTypeW function Windows Mail (formerly Outlook Express)"]
+ms.assetid: f8c75991-742b-4f8b-9eb8-ea8c89d1004b
+keywords:
+- MimeOleGetExtContentTypeW function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetExtContentTypeW function
@@ -22,8 +28,8 @@ Do not use. Returns the [Content-Type](http://msdn.microsoft.com/library/cdosys/
 
 ```C++
 HRESULT MimeOleGetExtContentTypeW(
-  _In_  LPCWSTR pszExtension,
-  _Out_ LPWSTR  *ppszContentType
+  _In_  LPCWSTR pszExtension,
+  _Out_ LPWSTR  *ppszContentType
 );
 ```
 
@@ -68,7 +74,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +82,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -85,9 +91,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

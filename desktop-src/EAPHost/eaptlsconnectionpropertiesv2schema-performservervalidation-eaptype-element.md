@@ -1,14 +1,20 @@
 ---
 title: TLSExtensions
 description: Enables future enhancements to the schema.
-ms.assetid: 'efbb402e-a001-4782-aca8-be4aeca8328c'
-keywords: ["TLSExtensions element EAPHost"]
+ms.assetid: efbb402e-a001-4782-aca8-be4aeca8328c
+keywords:
+- TLSExtensions element EAPHost
 topic_type:
 - apiref
 api_name:
 - TLSExtensions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLSExtensions
@@ -31,8 +37,8 @@ The **TLSExtensions** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -67,9 +73,9 @@ The **TLSExtensions** element is optional.
 [**TLSExtensions (EapType)**](eaptlsconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

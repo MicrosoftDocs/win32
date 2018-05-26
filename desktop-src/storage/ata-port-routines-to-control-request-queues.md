@@ -1,7 +1,12 @@
 ---
 title: ATA Port Routines to Control Request Queues
 description: ATA Port Routines to Control Request Queues
-ms.assetid: '49834693-7d6b-4896-8011-eb00a4bab60d'
+ms.assetid: 49834693-7d6b-4896-8011-eb00a4bab60d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Routines to Control Request Queues

@@ -4,13 +4,15 @@ description: Dhcp Server v4 Client Lease.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '18336129-b5f5-4aeb-94ec-d1e6da88b590'
-ms.prod: 'windows-server-dev'
+ms.assetid: 18336129-b5f5-4aeb-94ec-d1e6da88b590
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4Lease class", "DhcpServerv4Lease class, described"]
+keywords:
+- DhcpServerv4Lease class
+- DhcpServerv4Lease class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4Lease class
@@ -48,21 +53,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4Lease
 {
-  string   AddressState;
-  string   IPAddress;
-  string   ScopeId;
-  string   Description;
-  string   ClientId;
-  string   HostName;
-  string   ClientType;
+  string   AddressState;
+  string   IPAddress;
+  string   ScopeId;
+  string   Description;
+  string   ClientId;
+  string   HostName;
+  string   ClientType;
   DateTime LeaseExpiryTime;
-  boolean  NapCapable;
-  string   NapStatus;
+  boolean  NapCapable;
+  string   NapStatus;
   DateTime ProbationEnds;
-  string   PolicyName;
-  string   DnsRR;
-  string   DnsRegistration;
-  string   ServerIP;
+  string   PolicyName;
+  string   DnsRR;
+  string   DnsRegistration;
+  string   ServerIP;
 };
 ```
 
@@ -281,7 +286,7 @@ Indicates the type of DNS record to be registered by the DHCP server for the lea
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012:** This value **A** is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value **A** is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -460,16 +465,16 @@ Server IP Address which indicates the server that has leased or renewed the IP a
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

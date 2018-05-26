@@ -1,8 +1,9 @@
 ---
 title: SetOaNoCache function
 description: Disables the BSTR caching in OleAut32.dll.
-ms.assetid: '07bca76a-84af-4857-9739-f032a4790388'
-keywords: ["SetOaNoCache function Automation"]
+ms.assetid: 07bca76a-84af-4857-9739-f032a4790388
+keywords:
+- SetOaNoCache function Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - OleAut32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetOaNoCache function
@@ -49,9 +55,9 @@ OLE Automation caches the space allocated for **BSTR** strings. The **SetOaNoCac
 
 
 
- 
+ 
 
- 
+ 
 
 
 

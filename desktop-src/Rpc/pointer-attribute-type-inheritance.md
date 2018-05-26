@@ -1,7 +1,12 @@
 ---
 title: Pointer-Attribute Type Inheritance
 description: According to the DCE specification, each IDL file must define attributes for its pointers.
-ms.assetid: 'ab8821ce-d52a-42bf-aa5e-582bb24adf93'
+ms.assetid: ab8821ce-d52a-42bf-aa5e-582bb24adf93
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer-Attribute Type Inheritance

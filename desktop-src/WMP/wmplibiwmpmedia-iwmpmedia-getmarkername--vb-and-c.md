@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia getMarkerName method
 description: The getMarkerName method returns the name of the marker at the specified index.
-ms.assetid: '77f893cf-1669-41e3-9f62-8a1081e37add'
-keywords: ["getMarkerName method Windows Media Player", "getMarkerName method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , getMarkerName method"]
+ms.assetid: 77f893cf-1669-41e3-9f62-8a1081e37add
+keywords:
+- getMarkerName method Windows Media Player
+- getMarkerName method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , getMarkerName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::getMarkerName method
@@ -163,9 +171,9 @@ markerNames.Lines = markers</code></pre></td>
 [**IWMPMedia.markerCount (VB and C#)**](wmplibiwmpmedia-iwmpmedia-markercount--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

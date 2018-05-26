@@ -1,7 +1,12 @@
 ---
 title: Enumerating Firewall Rules
 description: This example enumerates firewall rules using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: '503ba384-9e20-45f4-be5d-cd9a1576c097'
+ms.assetid: 503ba384-9e20-45f4-be5d-cd9a1576c097
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Firewall Rules

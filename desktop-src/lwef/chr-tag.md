@@ -1,7 +1,12 @@
 ---
 title: Chr Tag
 description: Chr Tag
-ms.assetid: 'da0cb038-24fb-453e-8687-c81e11a9d8e0'
+ms.assetid: da0cb038-24fb-453e-8687-c81e11a9d8e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Chr Tag
@@ -26,11 +31,11 @@ Sets the character of the voice.
 
 | Part     | Description                                                                                                                                                                                                           |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *string* | A string specifying the character of the voice.<br/> **"Normal"**    (Default) A normal tone of voice.<br/> **"Monotone"**    A monotone voice.<br/> **"Whisper"**    A whispered voice.<br/> |
+| *string* | A string specifying the character of the voice.<br/> **"Normal"**    (Default) A normal tone of voice.<br/> **"Monotone"**    A monotone voice.<br/> **"Whisper"**    A whispered voice.<br/> |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -38,9 +43,9 @@ Sets the character of the voice.
 
 This tag is supported only for TTS-generated output. The range of values for the parameter may vary depending on the installed TTS engine.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: This method creates an iSCSI Node in the form of an instance of SCS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '934945ec-61e4-4ec8-8fd1-79f18f146294'
-ms.prod: 'windows-server-dev'
+ms.assetid: 934945ec-61e4-4ec8-8fd1-79f18f146294
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateiSCSINode method iSCSI Software Target API", "CreateiSCSINode method iSCSI Software Target API , CIM_iSCSIConfigurationService class", "CIM_iSCSIConfigurationService class iSCSI Software Target API , CreateiSCSINode method"]
+keywords:
+- CreateiSCSINode method iSCSI Software Target API
+- CreateiSCSINode method iSCSI Software Target API , CIM_iSCSIConfigurationService class
+- CIM_iSCSIConfigurationService class iSCSI Software Target API , CreateiSCSINode method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateiSCSINode method of the CIM\_iSCSIConfigurationService class
@@ -30,8 +36,8 @@ This method creates an iSCSI Node in the form of an instance of SCSIProtocolCont
 
 ```mof
 uint32 CreateiSCSINode(
-  [in]  string                         Alias,
-  [out] CIM_SCSIProtocolController REF iSCSINode
+  [in]  string                         Alias,
+  [out] CIM_SCSIProtocolController REF iSCSINode
 );
 ```
 
@@ -77,7 +83,7 @@ The SCSIProtocolController instance representing the created iSCSI Node.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Node Creation Not Supported** (4096)
@@ -86,10 +92,10 @@ The SCSIProtocolController instance representing the created iSCSI Node.
 **Alias In Use By Other Node** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -99,7 +105,7 @@ The SCSIProtocolController instance representing the created iSCSI Node.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -113,9 +119,9 @@ The SCSIProtocolController instance representing the created iSCSI Node.
 [**CIM\_iSCSIConfigurationService**](cim-iscsiconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

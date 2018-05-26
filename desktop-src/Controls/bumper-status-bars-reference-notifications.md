@@ -1,7 +1,12 @@
 ---
 title: Status Bar Notifications
 description: .
-ms.assetid: 'a7a8a116-5e93-42cf-b652-b36f8ad5a434'
+ms.assetid: a7a8a116-5e93-42cf-b652-b36f8ad5a434
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bar Notifications

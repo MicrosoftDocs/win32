@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageNodeToPhysicalDisk class
 description: Association between a MSFT\_StorageNode and a MSFT\_PhysicalDisk.
-ms.assetid: 'B9C7B6DA-2BBC-4D67-95FF-635458A60FCF'
-keywords: ["MSFT_StorageNodeToPhysicalDisk class Windows Storage Management API", "MSFT_StorageNodeToPhysicalDisk class Windows Storage Management API , described"]
+ms.assetid: B9C7B6DA-2BBC-4D67-95FF-635458A60FCF
+keywords:
+- MSFT_StorageNodeToPhysicalDisk class Windows Storage Management API
+- MSFT_StorageNodeToPhysicalDisk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageNodeToPhysicalDisk class
@@ -34,15 +41,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association]
 class MSFT_StorageNodeToPhysicalDisk
 {
-  MSFT_StorageNode  REF StorageNode;
+  MSFT_StorageNode  REF StorageNode;
   MSFT_PhysicalDisk REF PhysicalDisk;
-  UInt16                OperationalStatus[];
-  UInt16                HealthStatus;
-  UInt32                DiskNumber;
-  Boolean               IsMpioEnabled;
-  UInt16                LoadBalancePolicy;
-  String                PathId[];
-  UInt16                PathState[];
+  UInt16                OperationalStatus[];
+  UInt16                HealthStatus;
+  UInt32                DiskNumber;
+  Boolean               IsMpioEnabled;
+  UInt16                LoadBalancePolicy;
+  String                PathId[];
+  UInt16                PathState[];
 };
 ```
 
@@ -162,7 +169,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** Denotes the operational status of the physical disk:
+**Starting in Windows 10:** Denotes the operational status of the physical disk:
 
 <dl> <dt>
 
@@ -323,8 +330,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -340,9 +347,9 @@ Qualifiers: **Key**
 [**MSFT\_StorageNode**](msft-storagenode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

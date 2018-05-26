@@ -1,8 +1,9 @@
 ---
 title: CspGetDHAgreement callback function
 description: Is a callback function that is set by a caller before calling the CardAcquireContext function.
-ms.assetid: 'fd167c7e-8523-4385-b6d1-a17422b24a88'
-keywords: ["CspGetDHAgreement callback function Smart Card"]
+ms.assetid: fd167c7e-8523-4385-b6d1-a17422b24a88
+keywords:
+- CspGetDHAgreement callback function Smart Card
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CspGetDHAgreement callback function
@@ -24,10 +30,10 @@ The *CspGetDHAgreement* function is a callback function that is set by a caller 
 
 ```C++
 DWORD WINAPI CspGetDHAgreement(
-  _In_  PCARD_DATA pCardData,
-  _In_  PVOID      hSecretAgreement,
-  _Out_ BYTE       *pbSecretAgreementIndex,
-  _In_  DWORD      dwFlags
+  _In_  PCARD_DATA pCardData,
+  _In_  PVOID      hSecretAgreement,
+  _Out_ BYTE       *pbSecretAgreementIndex,
+  _In_  DWORD      dwFlags
 );
 ```
 
@@ -77,15 +83,15 @@ If the function fails, it returns a nonzero value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

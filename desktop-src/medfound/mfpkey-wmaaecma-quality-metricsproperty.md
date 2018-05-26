@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves quality metrics on acoustic echo cancellation (AEC) from the Voice Capture DSP.'
-ms.assetid: 'de2e86ae-0469-471f-9105-0bb38a59b428'
-title: 'MFPKEY\_WMAAECMA\_QUALITY\_METRICS Property'
+---
+Description: Retrieves quality metrics on acoustic echo cancellation (AEC) from the Voice Capture DSP.
+ms.assetid: de2e86ae-0469-471f-9105-0bb38a59b428
+title: MFPKEY\_WMAAECMA\_QUALITY\_METRICS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_QUALITY\_METRICS Property
@@ -18,7 +23,7 @@ VT\_BLOB
 
 ## Remarks
 
-The value of this property is an [AecQualityMetrics\_Struct](aecqualitymetrics-structstructure.md) structure. This property is read-only.
+The value of this property is an [AecQualityMetrics\_Struct](/windows/win32/wmcodecdsp/ns-wmcodecdsp-tagaecqualitymetrics_struct?branch=master) structure. This property is read-only.
 
 ## Requirements
 

@@ -1,14 +1,21 @@
 ---
 title: IWMSecureBuffer interface
 description: The IWMSecureBuffer interface encrypts and decrypts data pointers.
-ms.assetid: '6b8ce694-15ec-4177-ba17-88fcd6517bdb'
-keywords: ["IWMSecureBuffer interface windows Media Format", "IWMSecureBuffer interface windows Media Format , described"]
+ms.assetid: 6b8ce694-15ec-4177-ba17-88fcd6517bdb
+keywords:
+- IWMSecureBuffer interface windows Media Format
+- IWMSecureBuffer interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMSecureBuffer
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMSecureBuffer interface
@@ -34,7 +41,7 @@ The **IWMSecureBuffer** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -43,9 +50,9 @@ The **IWMSecureBuffer** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

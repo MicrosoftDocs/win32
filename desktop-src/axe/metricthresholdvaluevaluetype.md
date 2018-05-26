@@ -1,8 +1,9 @@
 ---
 title: MetricThresholdValueValueType enumeration
 description: Provides values for the value type, which is the value of element MetricThresholdValue/ValueType.
-ms.assetid: '1637EAB3-BED3-4154-99C6-7E8036744EA9'
-keywords: ["MetricThresholdValueValueType enumeration Access Execution Engine"]
+ms.assetid: 1637EAB3-BED3-4154-99C6-7E8036744EA9
+keywords:
+- MetricThresholdValueValueType enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValueValueType enumeration
@@ -22,7 +28,7 @@ Provides values for the value type, which is the value of element **MetricThresh
 
 ```C++
 enum MetricThresholdValueValueType {
-  MetricThresholdValueValueType_NotSet        = 0, 
+  MetricThresholdValueValueType_NotSet        = 0, 
   MetricThresholdValueValueTypeString, 
   MetricThresholdValueValueTypeInt, 
   MetricThresholdValueValueTypeInt16, 
@@ -222,15 +228,15 @@ Invalid data type specification (the value of this member is one larger than the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

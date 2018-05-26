@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ink presenter APIs enable Microsoft Win32 apps to manage the input, processing, and rendering of ink input (standard and modified) through an InkPresenter object inserted into the app''s DirectComposition visual tree.'
-ms.assetid: '8BD52813-3741-4C1F-B62A-B3C366A86362'
+---
+Description: The ink presenter APIs enable Microsoft Win32 apps to manage the input, processing, and rendering of ink input (standard and modified) through an InkPresenter object inserted into the apps DirectComposition visual tree.
+ms.assetid: 8BD52813-3741-4C1F-B62A-B3C366A86362
 title: Ink presenter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink presenter

@@ -1,8 +1,11 @@
 ---
 title: External.saveCurrentViewToLibrary method
 description: The saveCurrentViewToLibrary method creates a playlist from the media items in the current view and saves the playlist in the local library.
-ms.assetid: 'cd87e932-d599-4298-bbee-6755999dda15'
-keywords: ["saveCurrentViewToLibrary method Windows Media Player", "saveCurrentViewToLibrary method Windows Media Player , External class", "External class Windows Media Player , saveCurrentViewToLibrary method"]
+ms.assetid: cd87e932-d599-4298-bbee-6755999dda15
+keywords:
+- saveCurrentViewToLibrary method Windows Media Player
+- saveCurrentViewToLibrary method Windows Media Player , External class
+- External class Windows Media Player , saveCurrentViewToLibrary method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.saveCurrentViewToLibrary method
@@ -69,9 +77,9 @@ This method does not return a value.
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

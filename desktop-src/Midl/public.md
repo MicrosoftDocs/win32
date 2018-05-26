@@ -2,13 +2,19 @@
 title: public attribute
 description: The \ public\ attribute includes an alias declared with the typedef keyword in the type library.
 ms.assetid: d4e90165-8b0d-47bb-998d-e515226be935
-keywords: ["public attribute MIDL"]
+keywords:
+- public attribute MIDL
 topic_type:
 - apiref
 api_name:
 - public
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # public attribute

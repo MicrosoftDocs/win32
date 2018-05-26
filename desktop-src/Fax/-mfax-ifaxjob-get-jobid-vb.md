@@ -1,7 +1,12 @@
-﻿---
-Description: 'The JobId property is a number that uniquely identifies the specified fax job.'
-ms.assetid: 'd93e0374-d9c7-457b-bef5-71b5f6c1e320'
-title: 'FaxJob.JobId property'
+---
+Description: The JobId property is a number that uniquely identifies the specified fax job.
+ms.assetid: d93e0374-d9c7-457b-bef5-71b5f6c1e320
+title: FaxJob.JobId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.JobId property
@@ -53,10 +58,10 @@ You can use the **JobId** property to uniquely identify a fax job because it is 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**DisplayName**](-mfax-ifaxjob-get-displayname-vb.md)

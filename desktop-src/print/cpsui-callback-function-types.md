@@ -1,7 +1,12 @@
 ---
 Description: CPSUI Callback Function Types
-ms.assetid: '15c3c3f4-a838-4e5a-8a8c-7111fdde0504'
+ms.assetid: 15c3c3f4-a838-4e5a-8a8c-7111fdde0504
 title: CPSUI Callback Function Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPSUI Callback Function Types

@@ -1,13 +1,30 @@
 ---
 title: Meters
 description: Meters
-ms.assetid: '11a98d2a-7cdd-4249-bba9-7edc51d7f8b0'
-keywords: ["audio mixers,controls", "audio mixers,meters", "mixers,controls", "mixers,meters", "meter controls", "MIXERCONTROLDETAILS_BOOLEAN structure", "MIXERCONTROLDETAILS_SIGNED structure", "MIXERCONTROLDETAILS_UNSIGNED structure", "Boolean control", "peak control", "signed control", "unsigned control"]
+ms.assetid: 11a98d2a-7cdd-4249-bba9-7edc51d7f8b0
+keywords:
+- audio mixers,controls
+- audio mixers,meters
+- mixers,controls
+- mixers,meters
+- meter controls
+- MIXERCONTROLDETAILS_BOOLEAN structure
+- MIXERCONTROLDETAILS_SIGNED structure
+- MIXERCONTROLDETAILS_UNSIGNED structure
+- Boolean control
+- peak control
+- signed control
+- unsigned control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Meters
 
-The meter controls measure data passing through an audio line. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](mixercontroldetails-boolean.md), [**MIXERCONTROLDETAILS\_SIGNED**](mixercontroldetails-signed.md), and [**MIXERCONTROLDETAILS\_UNSIGNED**](mixercontroldetails-unsigned.md) structures to retrieve and set control properties. The following table describes the types of meters.
+The meter controls measure data passing through an audio line. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](/windows/win32/mmeapi/?branch=master), [**MIXERCONTROLDETAILS\_SIGNED**](/windows/win32/mmeapi/?branch=master), and [**MIXERCONTROLDETAILS\_UNSIGNED**](/windows/win32/mmeapi/?branch=master) structures to retrieve and set control properties. The following table describes the types of meters.
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for NetDACim Provider classes.'
-ms.assetid: '5F357229-F6A5-4AAD-A90E-D1D02022EC73'
+Description: This section provides reference information for NetDACim Provider classes.
+ms.assetid: 5F357229-F6A5-4AAD-A90E-D1D02022EC73
 title: NetDACim Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetDACim Provider
@@ -21,11 +26,11 @@ This section provides reference information for **NetDACim** Provider classes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

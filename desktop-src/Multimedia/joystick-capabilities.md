@@ -1,8 +1,19 @@
 ---
 title: Joystick Capabilities
 description: Joystick Capabilities
-ms.assetid: '910c7f1d-e20a-4a03-b512-9a7f8cb1e559'
-keywords: ["multimedia input,joysticks", "joysticks,two-axis movement", "joysticks,three-axis movement", "joysticks,buttons", "joysticks,ranges of motion", "joysticks,polling frequencies"]
+ms.assetid: 910c7f1d-e20a-4a03-b512-9a7f8cb1e559
+keywords:
+- multimedia input,joysticks
+- joysticks,two-axis movement
+- joysticks,three-axis movement
+- joysticks,buttons
+- joysticks,ranges of motion
+- joysticks,polling frequencies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Joystick Capabilities

@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_Node \ 32;WMI class represents an instance of a n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1a263761-b34c-43f8-89db-a289e882098a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1a263761-b34c-43f8-89db-a289e882098a
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_Node class", "MicrosoftNLB_Node class, described"]
+keywords:
+- MicrosoftNLB_Node class
+- MicrosoftNLB_Node class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_Node class
@@ -52,25 +57,25 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_Node : CIM_UnitaryComputerSystem
 {
-  string   Caption;
-  string   ComputerName;
-  string   CreationClassName;
-  string   DedicatedIPAddress;
-  string   Description;
-  uint32   HostPriority;
+  string   Caption;
+  string   ComputerName;
+  string   CreationClassName;
+  string   DedicatedIPAddress;
+  string   Description;
+  uint32   HostPriority;
   datetime InstallDate;
-  string   LastLoadInfo;
-  string   Name;
-  string   NameFormat;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   PowerState;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  uint16   ResetCapability;
-  string   Roles[];
-  string   Status;
-  uint32   StatusCode;
+  string   LastLoadInfo;
+  string   Name;
+  string   NameFormat;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   PowerState;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  uint16   ResetCapability;
+  string   Roles[];
+  string   Status;
+  uint32   StatusCode;
 };
 ```
 
@@ -104,7 +109,7 @@ The **MicrosoftNLB\_Node** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -255,7 +260,7 @@ Identifies the node by a combination of the [*cluster IP address*](https://msdn.
 > [!Note]  
 > When configuring new clusters, all of the cluster IP addresses may initially be set to zero (0.0.0.0). In this case the name format changes to "0.0.0.*x*:*id*" where *x* is a unique index and *id* is the host priority of the node.
 
- 
+ 
 
 </dd> <dt>
 
@@ -888,7 +893,7 @@ For an example that demonstrates the **MicrosoftNLB\_Node** class, see [Enumerat
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -908,9 +913,9 @@ For an example that demonstrates the **MicrosoftNLB\_Node** class, see [Enumerat
 [**CIM\_UnitaryComputerSystem**](https://msdn.microsoft.com/library/aa388626)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

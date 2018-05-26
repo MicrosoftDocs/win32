@@ -1,7 +1,12 @@
 ---
-Description: 'Cryptography reference pages contain detailed descriptions of the Microsoft cryptography functions, interfaces, objects, and other programming elements.'
-ms.assetid: '9ccce1b6-4a53-41fd-92f0-c1ed48320781'
+Description: Cryptography reference pages contain detailed descriptions of the Microsoft cryptography functions, interfaces, objects, and other programming elements.
+ms.assetid: 9ccce1b6-4a53-41fd-92f0-c1ed48320781
 title: Cryptography Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptography Reference

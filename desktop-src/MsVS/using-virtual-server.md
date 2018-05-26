@@ -1,8 +1,14 @@
 ---
 title: Using Microsoft Virtual Server
 description: This section contains information about using Microsoft Virtual Server.
-ms.assetid: 'b7f51844-6399-497c-923c-c1206fc5a254'
-keywords: ["Virtual Server COM Interface Virtual Server , using"]
+ms.assetid: b7f51844-6399-497c-923c-c1206fc5a254
+keywords:
+- Virtual Server COM Interface Virtual Server , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Microsoft Virtual Server

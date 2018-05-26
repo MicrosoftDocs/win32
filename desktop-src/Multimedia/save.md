@@ -1,21 +1,27 @@
 ---
 title: save command
 description: The save command saves an MCI file. Video-overlay and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not support it.
-ms.assetid: '44200871-541c-4d67-ba12-61af06da8788'
-keywords: ["save command Windows Multimedia"]
+ms.assetid: 44200871-541c-4d67-ba12-61af06da8788
+keywords:
+- save command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - save
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # save command
 
 The save command saves an MCI file. Video-overlay and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not support it.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -54,7 +60,7 @@ Flag specifying the name of the file being saved and, optionally, additional fla
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszFilename** parameter and their meanings.
 
@@ -69,7 +75,7 @@ The following table lists the flags that can be specified in the **lpszFilename*
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -102,8 +108,8 @@ save vboard c:\vcap\vcapfile.tga
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -123,9 +129,9 @@ save vboard c:\vcap\vcapfile.tga
 [reserve](reserve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

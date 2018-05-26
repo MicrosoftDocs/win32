@@ -4,17 +4,22 @@ description: Object Options2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8733fca8-e26e-46a9-b3bd-315de36e4630'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8733fca8-e26e-46a9-b3bd-315de36e4630
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-Options2 attribute AD Schema", "msDFSR-Options2 attribute AD Schema"]
+keywords:
+- ms-DFSR-Options2 attribute AD Schema
+- msDFSR-Options2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-Options2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-Options2 attribute
@@ -38,9 +43,9 @@ Object Options2.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Object Options2.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

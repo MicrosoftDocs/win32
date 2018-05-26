@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_EFFECT\_DESC structure
 description: Describes an effect.
-ms.assetid: '2efde608-26e0-4234-92d8-dc3ef2a29d89'
-keywords: ["D3DX11_EFFECT_DESC structure Direct3D 11"]
+ms.assetid: 2efde608-26e0-4234-92d8-dc3ef2a29d89
+keywords:
+- D3DX11_EFFECT_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_EFFECT\_DESC structure
@@ -112,9 +118,9 @@ D3DX11\_EFFECT\_DESC is used with [**ID3DX11Effect::GetDesc**](id3dx11effect-get
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

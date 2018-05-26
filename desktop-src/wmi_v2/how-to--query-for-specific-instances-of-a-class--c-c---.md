@@ -4,10 +4,13 @@ description: This topic provides step-by-step instructions for querying instance
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '860DD211-258C-4C61-A855-B8B49E9B88C9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 860DD211-258C-4C61-A855-B8B49E9B88C9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Query for Specific Instances of a Class (C/C++)
@@ -30,7 +33,7 @@ This topic provides step-by-step instructions for querying instances of a class 
     
 
 2.  Add the MI import library (**mi.lib**) to the project's linker dependencies. (This file ships as part of the [Windows Software Development Kit (SDK) for Windows 8](Http://Go.Microsoft.Com/FWLink/p/?LinkID=306595).)
-3.  Initialize the application via [**MI\_Application\_Initialize**](mi-application-initialize.md). It is recommended to have only one [**MI\_Application**](mi-application.md) per process. The **MI\_Application** returned from this function should always be closed, or de-initialized, via [**MI\_Application\_Close**](mi-application-close.md).
+3.  Initialize the application via [**MI\_Application\_Initialize**](/windows/previous-versions/Mi/nf-mi-mi_application_initializev1?branch=master). It is recommended to have only one [**MI\_Application**](/windows/previous-versions/Mi/ns-mi-_mi_application?branch=master) per process. The **MI\_Application** returned from this function should always be closed, or de-initialized, via [**MI\_Application\_Close**](/windows/previous-versions/Mi/nf-mi-mi_application_close?branch=master).
 
     ```C++
     MI_RESULT miResult = MI_Application_Initialize(0,               // Flags - Must be 0
@@ -43,7 +46,7 @@ This topic provides step-by-step instructions for querying instances of a class 
 
     
 
-4.  Create an MI session against the specified destination (computer) with the specified protocol (WinRM, in this example) via [**MI\_Application\_NewSession**](mi-application-newsession.md). The session must be closed via [**MI\_Session\_Close**](mi-session-close.md).
+4.  Create an MI session against the specified destination (computer) with the specified protocol (WinRM, in this example) via [**MI\_Application\_NewSession**](/windows/previous-versions/Mi/nf-mi-mi_application_newsession?branch=master). The session must be closed via [**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master).
 
     ```C++
     MI_RESULT miResult = MI_Application_NewSession(&amp;miApplication, // Application 
@@ -59,7 +62,7 @@ This topic provides step-by-step instructions for querying instances of a class 
 
     
 
-5.  Enumerate the instances of the desired class via [**MI\_Session\_QueryInstances**](mi-session-queryinstances.md) passing the desired CIM namespace and WQL to use. The following snippet will return two instances representing two standard Windows processes where the handle property (representing a process ID, or PID) has a value of either 0 or 4.
+5.  Enumerate the instances of the desired class via [**MI\_Session\_QueryInstances**](/windows/previous-versions/Mi/nf-mi-mi_session_queryinstances?branch=master) passing the desired CIM namespace and WQL to use. The following snippet will return two instances representing two standard Windows processes where the handle property (representing a process ID, or PID) has a value of either 0 or 4.
 
     ```C++
     MI_Operation miOperation = MI_OPERATION_NULL;
@@ -76,7 +79,7 @@ This topic provides step-by-step instructions for querying instances of a class 
 
     
 
-6.  The [**MI\_Session\_QueryInstances**](mi-session-queryinstances.md) function (called in the previous step) returns an [**MI\_Operation**](mi-operation.md). To retrieve the enumerated instances from that struct, you must call [**MI\_Operation\_GetInstance**](mi-operation-getinstance.md) in a loop until it returns a **moreResults** value of **MI\_FALSE**. For each instances that is returned via **MI\_Operation\_GetInstance**, [**MI\_Instance\_GetElement**](mi-instance-getelement.md) is called to retrieve the desired property. The following code uses a simple do/while loop and outputs the **Name** property for all instances of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class (representing all running processes).
+6.  The [**MI\_Session\_QueryInstances**](/windows/previous-versions/Mi/nf-mi-mi_session_queryinstances?branch=master) function (called in the previous step) returns an [**MI\_Operation**](/windows/previous-versions/Mi/ns-mi-_mi_operation?branch=master). To retrieve the enumerated instances from that struct, you must call [**MI\_Operation\_GetInstance**](/windows/previous-versions/Mi/nf-mi-mi_operation_getinstance?branch=master) in a loop until it returns a **moreResults** value of **MI\_FALSE**. For each instances that is returned via **MI\_Operation\_GetInstance**, [**MI\_Instance\_GetElement**](/windows/previous-versions/Mi/nf-mi-mi_instance_getelement?branch=master) is called to retrieve the desired property. The following code uses a simple do/while loop and outputs the **Name** property for all instances of the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class (representing all running processes).
 
     ```C++
     MI_Result miResult = MI_RESULT_OK;
@@ -124,7 +127,7 @@ This topic provides step-by-step instructions for querying instances of a class 
 
     
 
-7.  Close the operation via [**MI\_Operation\_Close**](mi-operation-close.md). All operations must be closed. If an operation is not closed, [**MI\_Session\_Close**](mi-session-close.md) will block until all of its operations are closed. Also note that **MI\_Operation\_Close** will cancel an operation if it is still running. However, results must be consumed before **MI\_Operation\_Close** can complete. For synchronous operations (such as the example in this topic), **MI\_Operation\_Close** is blocked until the final result has been consumed (i.e., until the **moreResults** output parameters is set to **MI\_FALSE**).
+7.  Close the operation via [**MI\_Operation\_Close**](/windows/previous-versions/Mi/nf-mi-mi_operation_close?branch=master). All operations must be closed. If an operation is not closed, [**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master) will block until all of its operations are closed. Also note that **MI\_Operation\_Close** will cancel an operation if it is still running. However, results must be consumed before **MI\_Operation\_Close** can complete. For synchronous operations (such as the example in this topic), **MI\_Operation\_Close** is blocked until the final result has been consumed (i.e., until the **moreResults** output parameters is set to **MI\_FALSE**).
 
     ```C++
     miResult = MI_Operation_Close(&amp;miOperation);
@@ -134,7 +137,7 @@ This topic provides step-by-step instructions for querying instances of a class 
 
     
 
-8.  Close the MI session via [**MI\_Session\_Close**](mi-session-close.md). If this function fails (reflected in the [**MI\_Result**](mi-result.md) return code), it is likely due to an invalid parameter, out of memory errors, or access denied. Invalid parameter means a programming error happened. When an out of memory error happens, the session will shut down as best it can. Access denied means the security context while calling the **MI\_Session\_Close** function is different than the one used when the session was created. This could happen if closing from a different thread and neglecting to impersonate.
+8.  Close the MI session via [**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master). If this function fails (reflected in the [**MI\_Result**](/windows/previous-versions/Mi/ne-mi-_mi_result?branch=master) return code), it is likely due to an invalid parameter, out of memory errors, or access denied. Invalid parameter means a programming error happened. When an out of memory error happens, the session will shut down as best it can. Access denied means the security context while calling the **MI\_Session\_Close** function is different than the one used when the session was created. This could happen if closing from a different thread and neglecting to impersonate.
 
     ```C++
     MI_RESULT miResult = MI_Session_Close(&amp;miSession, // Session
@@ -146,7 +149,7 @@ This topic provides step-by-step instructions for querying instances of a class 
 
     
 
-9.  The last MI call that should be made is a call to [**MI\_Application\_Close**](mi-application-close.md). Note that this call will block until all operations and sessions are fully closed.
+9.  The last MI call that should be made is a call to [**MI\_Application\_Close**](/windows/previous-versions/Mi/nf-mi-mi_application_close?branch=master). Note that this call will block until all operations and sessions are fully closed.
 
     ```C++
     MI_RESULT miResult = MI_Application_Close(&amp;miApplication);

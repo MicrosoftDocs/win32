@@ -1,7 +1,12 @@
 ---
-Description: 'The discussion of the world transformation introduces basic concepts and provides details on how to set up a world transform.'
-ms.assetid: 'c3d3b247-e482-4750-a6fb-724f81ee2b19'
-title: 'World Transform (Direct3D 9)'
+Description: The discussion of the world transformation introduces basic concepts and provides details on how to set up a world transform.
+ms.assetid: c3d3b247-e482-4750-a6fb-724f81ee2b19
+title: World Transform (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # World Transform (Direct3D 9)
@@ -66,7 +71,7 @@ void C3DModel::MakeWorldMatrix( D3DXMATRIX* pMatWorld )
 
 
 
-After you prepare the world matrix, call the [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md) method to set it, specifying the [**D3DTS\_WORLD**](d3dts-world.md) macro for the first parameter.
+After you prepare the world matrix, call the [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master) method to set it, specifying the [**D3DTS\_WORLD**](d3dts-world.md) macro for the first parameter.
 
 > [!Note]  
 > Direct3D uses the world and view matrices that you set to configure several internal data structures. Each time you set a new world or view matrix, the system recalculates the associated internal structures. Setting these matrices frequently-for example, thousands of times per frame-is computationally time-consuming. You can minimize the number of required calculations by concatenating your world and view matrices into a world-view matrix that you set as the world matrix, and then setting the view matrix to the identity. Keep cached copies of individual world and view matrices so that you can modify, concatenate, and reset the world matrix as needed. For clarity, in this documentation Direct3D samples rarely employ this optimization.

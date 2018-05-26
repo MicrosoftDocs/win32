@@ -1,7 +1,12 @@
 ---
-Description: 'The following Tablet PC threading considerations are specific to when Component Object Model (COM) and Automation are used.'
-ms.assetid: 'cf8feba5-a391-4396-a5d8-1ef58df304a7'
+Description: The following Tablet PC threading considerations are specific to when Component Object Model (COM) and Automation are used.
+ms.assetid: cf8feba5-a391-4396-a5d8-1ef58df304a7
 title: COM and Automation Threading Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM and Automation Threading Considerations
@@ -27,9 +32,9 @@ If your application runs in an MTA or uses the free threaded marshaler (FTM), yo
 
 ## InkCollector and InkOverlay
 
-Your application should not release its final reference to the [**InkCollector**](inkcollector-class.md) or the [**InkOverlay**](inkoverlay-class.md) object, thus destroying the object, directly from the ink thread. Instead, the application should release the **InkCollector** or the **InkOverlay** object from an application thread.
+Your application should not release its final reference to the [**InkCollector**](/windows/win32/msinkaut/?branch=master) or the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, thus destroying the object, directly from the ink thread. Instead, the application should release the **InkCollector** or the **InkOverlay** object from an application thread.
 
-**Caution:** An application that is marked MTA or uses the FTM, which allows direct calls from the ink thread into the application's apartment, can release its final reference to the [**InkCollector**](inkcollector-class.md) or [**InkOverlay**](inkoverlay-class.md) object directly from the ink thread; however, this causes unrecoverable application failure.
+**Caution:** An application that is marked MTA or uses the FTM, which allows direct calls from the ink thread into the application's apartment, can release its final reference to the [**InkCollector**](/windows/win32/msinkaut/?branch=master) or [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object directly from the ink thread; however, this causes unrecoverable application failure.
 
 ## Event Sinks
 

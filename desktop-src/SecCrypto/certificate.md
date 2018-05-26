@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a single digital certificate.'
-ms.assetid: '74154b3b-75fc-412f-835c-1a6f54e688c6'
+---
+Description: Represents a single digital certificate.
+ms.assetid: 74154b3b-75fc-412f-835c-1a6f54e688c6
 title: Certificate object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate object

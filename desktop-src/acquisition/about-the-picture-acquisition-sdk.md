@@ -1,7 +1,12 @@
 ---
 Description: About the Picture Acquisition API
-ms.assetid: 'b9e562e4-a9cd-40ed-94e1-6f8f383f8d57'
+ms.assetid: b9e562e4-a9cd-40ed-94e1-6f8f383f8d57
 title: About the Picture Acquisition API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Picture Acquisition API

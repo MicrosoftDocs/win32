@@ -1,8 +1,16 @@
 ---
 title: Advanced Systems Format (ASF) Files
 description: Advanced Systems Format (ASF) Files
-ms.assetid: 'a5f64b3f-2324-4d8e-922e-3580cdb1d5ab'
-keywords: ["Windows Media Format SDK,ASF files overview", "Advanced Systems Format (ASF),files overview", "ASF (Advanced Systems Format),files overview"]
+ms.assetid: a5f64b3f-2324-4d8e-922e-3580cdb1d5ab
+keywords:
+- Windows Media Format SDK,ASF files overview
+- Advanced Systems Format (ASF),files overview
+- ASF (Advanced Systems Format),files overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Systems Format (ASF) Files

@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that enables or disables repaint events.'
-ms.assetid: 'ea5e5472-047f-4196-8637-e5e04b563d50'
-title: 'CBaseRenderer::m\_bRepaintStatus member'
+Description: Flag that enables or disables repaint events.
+ms.assetid: ea5e5472-047f-4196-8637-e5e04b563d50
+title: CBaseRendererm\_bRepaintStatus member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_bRepaintStatus member
@@ -35,9 +40,9 @@ BOOL m_bRepaintStatus;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

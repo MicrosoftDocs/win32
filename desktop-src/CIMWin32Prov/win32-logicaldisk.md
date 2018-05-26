@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a data source that resolves to an actual local storage device on a computer system running Windows.'
+Description: Represents a data source that resolves to an actual local storage device on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '134a90cc-b2c3-4ade-a317-b96c4aabe63d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 134a90cc-b2c3-4ade-a317-b96c4aabe63d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalDisk class'
+title: Win32\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalDisk class
@@ -24,46 +27,46 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), SupportsUpdate, UUID("{8502C4B7-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_LogicalDisk : CIM_LogicalDisk
 {
-  uint16   Access;
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  boolean  Compressed;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  uint32   DriveType;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  string   FileSystem;
-  uint64   FreeSpace;
+  uint16   Access;
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  boolean  Compressed;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  uint32   DriveType;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  string   FileSystem;
+  uint64   FreeSpace;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint32   MaximumComponentLength;
-  uint32   MediaType;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   ProviderName;
-  string   Purpose;
-  boolean  QuotasDisabled;
-  boolean  QuotasIncomplete;
-  boolean  QuotasRebuilding;
-  uint64   Size;
-  string   Status;
-  uint16   StatusInfo;
-  boolean  SupportsDiskQuotas;
-  boolean  SupportsFileBasedCompression;
-  string   SystemCreationClassName;
-  string   SystemName;
-  boolean  VolumeDirty;
-  string   VolumeName;
-  string   VolumeSerialNumber;
+  uint32   LastErrorCode;
+  uint32   MaximumComponentLength;
+  uint32   MediaType;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   ProviderName;
+  string   Purpose;
+  boolean  QuotasDisabled;
+  boolean  QuotasIncomplete;
+  boolean  QuotasRebuilding;
+  uint64   Size;
+  string   Status;
+  uint16   StatusInfo;
+  boolean  SupportsDiskQuotas;
+  boolean  SupportsFileBasedCompression;
+  string   SystemCreationClassName;
+  string   SystemName;
+  boolean  VolumeDirty;
+  string   VolumeName;
+  string   VolumeSerialNumber;
 };
 ```
 
@@ -90,7 +93,7 @@ The **Win32\_LogicalDisk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -393,7 +396,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1075,7 +1078,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (1)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (1)
 
 
 </dt> <dd>
@@ -1086,7 +1089,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (2)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (2)
 
 
 </dt> <dd>
@@ -1097,7 +1100,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (3)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (3)
 
 
 </dt> <dd>
@@ -1108,7 +1111,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (4)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (4)
 
 
 </dt> <dd>
@@ -1119,7 +1122,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (5)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (5)
 
 
 </dt> <dd>
@@ -1130,7 +1133,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (6)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (6)
 
 
 </dt> <dd>
@@ -1141,7 +1144,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (7)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (7)
 
 
 </dt> <dd>
@@ -1152,7 +1155,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (8)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (8)
 
 
 </dt> <dd>
@@ -1163,7 +1166,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (9)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (9)
 
 
 </dt> <dd>
@@ -1174,7 +1177,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (10)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (10)
 
 
 </dt> <dd>
@@ -1199,7 +1202,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (13)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (13)
 
 
 </dt> <dd>
@@ -1210,7 +1213,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (14)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (14)
 
 
 </dt> <dd>
@@ -1221,7 +1224,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (15)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (15)
 
 
 </dt> <dd>
@@ -1232,7 +1235,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (16)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (16)
 
 
 </dt> <dd>
@@ -1243,7 +1246,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (17)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (17)
 
 
 </dt> <dd>
@@ -1254,7 +1257,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (18)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (18)
 
 
 </dt> <dd>
@@ -1265,7 +1268,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>
 
-<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5¼-Inch Floppy Disk** (19)
+<span id="5_-Inch_Floppy_Disk"></span><span id="5_-inch_floppy_disk"></span><span id="5_-INCH_FLOPPY_DISK"></span>**5 -Inch Floppy Disk** (19)
 
 
 </dt> <dd>
@@ -1276,7 +1279,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (20)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (20)
 
 
 </dt> <dd>
@@ -1287,7 +1290,7 @@ Type of media currently present in the logical drive. This value will be one of 
 
 <span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>
 
-<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3½-Inch Floppy Disk** (21)
+<span id="3_-Inch_Floppy_Disk"></span><span id="3_-inch_floppy_disk"></span><span id="3_-INCH_FLOPPY_DISK"></span>**3 -Inch Floppy Disk** (21)
 
 
 </dt> <dd>
@@ -1862,7 +1865,7 @@ A logical drive is a subdivision of a partition that has been assigned its own d
 > [!Note]  
 > The **Win32\_LogicalDisk** class can be used only to enumerate the properties of local disk drives. However, you can use the [**Win32\_MappedLogicalDisk**](win32-mappedlogicaldisk.md) class to enumerate the properties of mapped network drives.
 
- 
+ 
 
 ## Examples
 
@@ -2063,8 +2066,8 @@ Get-WmiObject -Class Win32_LogicalDisk |
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2084,9 +2087,9 @@ Get-WmiObject -Class Win32_LogicalDisk |
 [WMI Tasks: Disks and File Systems](https://msdn.microsoft.com/library/aa394592)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

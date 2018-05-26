@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b8debd6-554b-4ef7-b5f8-16d4fa1d06f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0b8debd6-554b-4ef7-b5f8-16d4fa1d06f3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # I

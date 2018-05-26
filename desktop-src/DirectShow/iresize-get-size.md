@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_Size method returns the current output size and stretch mode.'
-ms.assetid: '61c0e439-26ce-45fc-986a-0ffc17056a55'
-title: 'IResize::get\_Size method'
+---
+Description: The get\_Size method returns the current output size and stretch mode.
+ms.assetid: 61c0e439-26ce-45fc-986a-0ffc17056a55
+title: IResizeget\_Size method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResize::get\_Size method

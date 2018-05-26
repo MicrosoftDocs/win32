@@ -1,8 +1,10 @@
 ---
 title: System.Time.timeZone object
 description: Defines the properties and methods of each member of the System.Time.timeZone collection.
-ms.assetid: '68dcf69b-4d0b-4c44-9470-9f0bd7f6e8be'
-keywords: ["System.Time.timeZone object Windows Sidebar", "System.Time.timeZone object Windows Sidebar , described"]
+ms.assetid: 68dcf69b-4d0b-4c44-9470-9f0bd7f6e8be
+keywords:
+- System.Time.timeZone object Windows Sidebar
+- System.Time.timeZone object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Time.timeZone object
@@ -45,7 +52,7 @@ The **System.Time.timeZone** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,18 +68,18 @@ The following image shows the Time Zone Settings dialog.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

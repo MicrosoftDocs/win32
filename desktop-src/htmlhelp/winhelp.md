@@ -1,7 +1,12 @@
 ---
 title: WinHelp
 description: Displays a WinHelp topic in the WinHelp primary window, a WinHelp secondary window, or in a WinHelp pop-up window.
-ms.assetid: 'C637D6BA-4A2A-4d37-BCF8-4ABFA50F1568'
+ms.assetid: C637D6BA-4A2A-4d37-BCF8-4ABFA50F1568
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHelp

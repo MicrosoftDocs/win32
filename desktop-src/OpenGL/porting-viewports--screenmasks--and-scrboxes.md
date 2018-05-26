@@ -1,8 +1,18 @@
 ---
 title: Porting Viewports, Screenmasks, and Scrboxes
 description: The following IRIS GL viewport functions have no OpenGL equivalent
-ms.assetid: '223e9b5b-1ddd-45a6-8489-b262d0207a5a'
-keywords: ["IRIS GL porting,viewport functions", "porting from IRIS GL,viewport functions", "porting to OpenGL from IRIS GL,viewport functions", "OpenGL porting from IRIS GL,viewport functions", "viewport functions"]
+ms.assetid: 223e9b5b-1ddd-45a6-8489-b262d0207a5a
+keywords:
+- IRIS GL porting,viewport functions
+- porting from IRIS GL,viewport functions
+- porting to OpenGL from IRIS GL,viewport functions
+- OpenGL porting from IRIS GL,viewport functions
+- viewport functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Viewports, Screenmasks, and Scrboxes
@@ -27,13 +37,13 @@ The following table lists IRIS GL viewport functions and their equivalent OpenGL
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Using Antialiasing Functions
 description: The following table lists IRIS GL antialiasing functions and their equivalent OpenGL functions.
-ms.assetid: 'd54990b6-5645-4389-82ca-7d7f0a7fd7e9'
-keywords: ["IRIS GL porting,antialiasing", "porting from IRIS GL,antialiasing", "porting to OpenGL from IRIS GL,antialiasing", "OpenGL porting from IRIS GL,antialiasing", "antialiasing"]
+ms.assetid: d54990b6-5645-4389-82ca-7d7f0a7fd7e9
+keywords:
+- IRIS GL porting,antialiasing
+- porting from IRIS GL,antialiasing
+- porting to OpenGL from IRIS GL,antialiasing
+- OpenGL porting from IRIS GL,antialiasing
+- antialiasing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Antialiasing Functions

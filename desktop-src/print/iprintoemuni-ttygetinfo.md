@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::TTYGetInfo method enables a rendering plug-in to supply Unidrv with information relevant to text-only printers.'
-ms.assetid: '0df8c555-4298-47e7-a6a7-43f101620e04'
-title: 'IPrintOemUni::TTYGetInfo method'
+---
+Description: The IPrintOemUniTTYGetInfo method enables a rendering plug-in to supply Unidrv with information relevant to text-only printers.
+ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
+title: IPrintOemUniTTYGetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::TTYGetInfo method

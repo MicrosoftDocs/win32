@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes Transmission Control Protocol/Internet Protocol (TCP/IP) functions, data structures, and controls.'
-ms.assetid: 'ff92750b-453e-4328-821c-1098de8e6125'
-title: 'Winsock TCP/IP Annex'
+Description: This section describes Transmission Control Protocol/Internet Protocol (TCP/IP) functions, data structures, and controls.
+ms.assetid: ff92750b-453e-4328-821c-1098de8e6125
+title: Winsock TCP/IP Annex
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock TCP/IP Annex

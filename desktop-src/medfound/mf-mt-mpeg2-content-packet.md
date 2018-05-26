@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a media type that describes an MPEG-2 transport stream (TS), specifies whether the transport packets contain Content Packet headers.'
-ms.assetid: '527B965D-4330-4DCB-B6DA-32D6BCDF5515'
-title: 'MF\_MT\_MPEG2\_CONTENT\_PACKET attribute'
+---
+Description: For a media type that describes an MPEG-2 transport stream (TS), specifies whether the transport packets contain Content Packet headers.
+ms.assetid: 527B965D-4330-4DCB-B6DA-32D6BCDF5515
+title: MF\_MT\_MPEG2\_CONTENT\_PACKET attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_MPEG2\_CONTENT\_PACKET attribute

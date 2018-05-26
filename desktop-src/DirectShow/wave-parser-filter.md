@@ -1,7 +1,12 @@
-﻿---
+---
 Description: WAVE Parser Filter
-ms.assetid: '53a9538d-7a79-40bb-9468-d710eb238925'
+ms.assetid: 53a9538d-7a79-40bb-9468-d710eb238925
 title: WAVE Parser Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WAVE Parser Filter
@@ -18,7 +23,7 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMMediaContent</strong>](iammediacontent.md), [<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IPersistMediaPropertyBag</strong>](ipersistmediapropertybag.md)</td>
+<td>[<strong>IAMMediaContent</strong>](/windows/win32/Qnetwork/nn-qnetwork-iammediacontent?branch=master), [<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IPersistMediaPropertyBag</strong>](/windows/win32/Strmif/nn-strmif-ipersistmediapropertybag?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -31,7 +36,7 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -39,7 +44,7 @@ The WAVE Parser filter parses WAV-format audio data from .wav, .au, or .aif file
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IMediaSeeking</strong>](imediaseeking.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

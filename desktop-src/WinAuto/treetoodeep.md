@@ -1,7 +1,12 @@
 ---
 title: TreeTooDeep
 description: TreeTooDeep
-ms.assetid: '3FD4A1BE-4710-4A1F-9ED7-98D7FCBCD304'
+ms.assetid: 3FD4A1BE-4710-4A1F-9ED7-98D7FCBCD304
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TreeTooDeep

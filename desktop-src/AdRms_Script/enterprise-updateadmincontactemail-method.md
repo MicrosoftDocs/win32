@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies an email contact address.'
+Description: Specifies an email contact address.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '7943d569-4f79-4a53-b048-42cf50adca1e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 7943d569-4f79-4a53-b048-42cf50adca1e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Enterprise.UpdateAdminContactEmail method'
+title: Enterprise.UpdateAdminContactEmail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enterprise.UpdateAdminContactEmail method
@@ -106,7 +109,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END FUNCTION
 [**Enterprise**](enterprise-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

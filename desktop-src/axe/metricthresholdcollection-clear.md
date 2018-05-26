@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdCollection Clear method
 description: Deletes all MetricThreshold objects from the MetricThresholdCollection.
-ms.assetid: '8C7CFEB0-548F-4F47-A33A-85B8ACA08EBF'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , MetricThresholdCollection interface", "MetricThresholdCollection interface Access Execution Engine , Clear method"]
+ms.assetid: 8C7CFEB0-548F-4F47-A33A-85B8ACA08EBF
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , MetricThresholdCollection interface
+- MetricThresholdCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdCollection::Clear method
@@ -46,8 +54,8 @@ A **MetricThreshold** holds data from a **MetricThresholds/MetricThreshold** ele
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ A **MetricThreshold** holds data from a **MetricThresholds/MetricThreshold** ele
 [**MetricThresholdCollection**](metricthresholdcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

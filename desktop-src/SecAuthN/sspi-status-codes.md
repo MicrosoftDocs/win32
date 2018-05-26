@@ -1,7 +1,12 @@
-﻿---
-Description: 'Status codes used in SSPI applications.'
-ms.assetid: 'b5f8ed5c-797a-46fa-8a73-a054ecc50265'
+---
+Description: Status codes used in SSPI applications.
+ms.assetid: b5f8ed5c-797a-46fa-8a73-a054ecc50265
 title: SSPI Status Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSPI Status Codes
@@ -81,8 +86,8 @@ The following status codes are used in SSPI applications and defined in Winerror
 | SEC\_E\_UNTRUSTED\_ROOT<br/>                 | The certificate chain was issued by an authority that is not trusted.<br/>                                                                                                                                                                                                                                                                  |
 | SEC\_E\_WRONG\_CREDENTIAL\_HANDLE<br/>       | The supplied credential handle does not match the credential associated with the security context.<br/>                                                                                                                                                                                                                                     |
 | SEC\_E\_WRONG\_PRINCIPAL<br/>                | The target principal name is incorrect.<br/>                                                                                                                                                                                                                                                                                                |
-| SEC\_I\_COMPLETE\_AND\_CONTINUE<br/>         | The function completed successfully, but the application must call both [**CompleteAuthToken**](completeauthtoken.md) and then either [**InitializeSecurityContext (General)**](initializesecuritycontext--general-.md) or [**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md) again to complete the context.<br/> |
-| SEC\_I\_COMPLETE\_NEEDED<br/>                | The function completed successfully, but you must call the [**CompleteAuthToken**](completeauthtoken.md) function on the final message.<br/>                                                                                                                                                                                               |
+| SEC\_I\_COMPLETE\_AND\_CONTINUE<br/>         | The function completed successfully, but the application must call both [**CompleteAuthToken**](/windows/win32/Sspi/nf-sspi-completeauthtoken?branch=master) and then either [**InitializeSecurityContext (General)**](/windows/win32/Sspi/?branch=master) or [**AcceptSecurityContext (General)**](/windows/win32/Sspi/?branch=master) again to complete the context.<br/> |
+| SEC\_I\_COMPLETE\_NEEDED<br/>                | The function completed successfully, but you must call the [**CompleteAuthToken**](/windows/win32/Sspi/nf-sspi-completeauthtoken?branch=master) function on the final message.<br/>                                                                                                                                                                                               |
 | SEC\_I\_CONTEXT\_EXPIRED<br/>                | The message sender has finished using the connection and has initiated a shutdown. For information about initiating or recognizing a shutdown, see [Shutting Down an Schannel Connection](shutting-down-an-schannel-connection.md).<br/>                                                                                                   |
 | SEC\_I\_CONTINUE\_NEEDED<br/>                | The function completed successfully, but you must call this function again to complete the context.<br/>                                                                                                                                                                                                                                    |
 | SEC\_I\_INCOMPLETE\_CREDENTIALS<br/>         | The credentials supplied were not complete and could not be verified. Additional information can be returned from the context.<br/>                                                                                                                                                                                                         |

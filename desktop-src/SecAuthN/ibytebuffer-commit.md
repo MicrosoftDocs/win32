@@ -1,12 +1,17 @@
 ---
-Description: 'The Commit method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.'
-ms.assetid: '00986e48-c5b9-4ac9-a204-a0774cb5e03e'
-title: 'IByteBuffer::Commit method'
+Description: The Commit method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
+ms.assetid: 00986e48-c5b9-4ac9-a204-a0774cb5e03e
+title: IByteBufferCommit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::Commit method
 
-\[The **Commit** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **Commit** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **Commit** method ensures that any changes made to an object open in transacted mode are reflected in the parent storage.
 
@@ -15,7 +20,7 @@ The **Commit** method ensures that any changes made to an object open in transac
 
 ```C++
 HRESULT Commit(
-  [in] LONG grfCommitFlags
+  [in] LONG grfCommitFlags
 );
 ```
 
@@ -62,10 +67,10 @@ if (FAILED(hr))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -73,9 +78,9 @@ if (FAILED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

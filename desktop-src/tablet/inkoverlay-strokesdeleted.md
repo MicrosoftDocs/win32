@@ -1,12 +1,17 @@
 ---
-Description: 'Occurs after strokes have been deleted from the Ink property.'
-ms.assetid: '60ee8bbd-9230-4b6a-a4b0-4783195e3173'
-title: 'InkOverlay.StrokesDeleted event'
+Description: Occurs after strokes have been deleted from the Ink property.
+ms.assetid: 60ee8bbd-9230-4b6a-a4b0-4783195e3173
+title: InkOverlay.StrokesDeleted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkOverlay.StrokesDeleted event
 
-Occurs after strokes have been deleted from the [**Ink**](inkcollector-ink.md) property.
+Occurs after strokes have been deleted from the [**Ink**](/windows/win32/msinkaut/nf-msinkaut-iinkcollector-get_ink?branch=master) property.
 
 ## Syntax
 
@@ -37,7 +42,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -48,15 +53,15 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**Ink Property \[InkCollector/InkOverLay Class\]**](inkcollector-ink.md)
+[**Ink Property \[InkCollector/InkOverLay Class\]**](/windows/win32/msinkaut/nf-msinkaut-iinkcollector-get_ink?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

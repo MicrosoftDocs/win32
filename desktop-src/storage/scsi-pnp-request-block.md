@@ -1,8 +1,10 @@
 ---
 title: SCSI\_PNP\_REQUEST\_BLOCK structure
 description: TheSCSI\_PNP\_REQUEST\_BLOCK structure is a special version of a SCSI\_REQUEST\_BLOCK that is used for plug and play (PNP) requests.Note The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
-ms.assetid: '0627065b-62c2-4df8-973c-b4fb5811296e'
-keywords: ["SCSI_PNP_REQUEST_BLOCK structure Storage Devices", "PSCSI_PNP_REQUEST_BLOCK structure pointer Storage Devices"]
+ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
+keywords:
+- SCSI_PNP_REQUEST_BLOCK structure Storage Devices
+- PSCSI_PNP_REQUEST_BLOCK structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI\_PNP\_REQUEST\_BLOCK structure
@@ -20,34 +27,34 @@ The**SCSI\_PNP\_REQUEST\_BLOCK** structure is a special version of a [**SCSI\_RE
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef struct _SCSI_PNP_REQUEST_BLOCK {
-  USHORT                     Length;
-  UCHAR                      Function;
-  UCHAR                      SrbStatus;
-  UCHAR                      PnPSubFunction;
-  UCHAR                      PathId;
-  UCHAR                      TargetId;
-  UCHAR                      Lun;
-  STOR_PNP_ACTION            PnPAction;
-  ULONG                      SrbFlags;
-  ULONG                      DataTransferLength;
-  ULONG                      TimeOutValue;
-  PVOID                      DataBuffer;
-  PVOID                      SenseInfoBuffer;
-  struct _SCSI_REQUEST_BLOCK  *NextSrb;
-  PVOID                      OriginalRequest;
-  PVOID                      SrbExtension;
-  ULONG                      SrbPnPFlags;
+  USHORT                     Length;
+  UCHAR                      Function;
+  UCHAR                      SrbStatus;
+  UCHAR                      PnPSubFunction;
+  UCHAR                      PathId;
+  UCHAR                      TargetId;
+  UCHAR                      Lun;
+  STOR_PNP_ACTION            PnPAction;
+  ULONG                      SrbFlags;
+  ULONG                      DataTransferLength;
+  ULONG                      TimeOutValue;
+  PVOID                      DataBuffer;
+  PVOID                      SenseInfoBuffer;
+  struct _SCSI_REQUEST_BLOCK  *NextSrb;
+  PVOID                      OriginalRequest;
+  PVOID                      SrbExtension;
+  ULONG                      SrbPnPFlags;
 #ifdef _WIN64
-  ULONG                      Reserved;
+  ULONG                      Reserved;
 #endif 
-  UCHAR                      Reserved4[16];
+  UCHAR                      Reserved4[16];
 } SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK;
 ```
 
@@ -121,11 +128,11 @@ The plug and play action to perform. This member can have one of the following v
 | <span id="StorQueryCapabilities"></span><span id="storquerycapabilities"></span><span id="STORQUERYCAPABILITIES"></span><dl> <dt>**StorQueryCapabilities**</dt> <dt>0x09</dt> </dl>                                     | Query the capabilities of the device.<br/>                              |
 | <span id="StorQueryResourceRequirements"></span><span id="storqueryresourcerequirements"></span><span id="STORQUERYRESOURCEREQUIREMENTS"></span><dl> <dt>**StorQueryResourceRequirements**</dt> <dt>0x0B</dt> </dl>     | Query the resource requirements for the device.<br/>                    |
 | <span id="StorFilterResourceRequirements"></span><span id="storfilterresourcerequirements"></span><span id="STORFILTERRESOURCEREQUIREMENTS"></span><dl> <dt>**StorFilterResourceRequirements**</dt> <dt>0x0D</dt> </dl> | Filter the resource requirements for the device. <br/>                  |
-| <span id="StorSupriseRemoval"></span><span id="storsupriseremoval"></span><span id="STORSUPRISEREMOVAL"></span><dl> <dt>**StorSupriseRemoval**</dt> <dt>0x17</dt> </dl>                                                 | Surprise Removal of the device. This value was added in Windows 7.<br/> |
+| <span id="StorSupriseRemoval"></span><span id="storsupriseremoval"></span><span id="STORSUPRISEREMOVAL"></span><dl> <dt>**StorSupriseRemoval**</dt> <dt>0x17</dt> </dl>                                                 | Surprise Removal of the device. This value was added in Windows 7.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -235,9 +242,9 @@ The Storport driver calls [**HwStorBuildIo**](hwstorbuildio.md) to pass SRBs to 
 [**StorPortNotification**](storportnotification.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20SCSI_PNP_REQUEST_BLOCK%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

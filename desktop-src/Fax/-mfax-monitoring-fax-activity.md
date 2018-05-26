@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example tells you the number of incoming, outgoing, routing, and queued messages for the fax server.'
-ms.assetid: 'cf85750a-56ac-41d5-b6c0-5444934afce7'
+Description: The following Microsoft Visual Basic code example tells you the number of incoming, outgoing, routing, and queued messages for the fax server.
+ms.assetid: cf85750a-56ac-41d5-b6c0-5444934afce7
 title: Monitoring Fax Activity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring Fax Activity

@@ -1,7 +1,12 @@
 ---
-Description: 'Media Foundation transforms (MFTs) are an evolution of the transform model first introduced with DirectX Media Objects (DMOs).'
-ms.assetid: '4e8c3ec9-6ffa-4858-a4ea-8ef8ccaf9253'
+Description: Media Foundation transforms (MFTs) are an evolution of the transform model first introduced with DirectX Media Objects (DMOs).
+ms.assetid: 4e8c3ec9-6ffa-4858-a4ea-8ef8ccaf9253
 title: Comparison of MFTs and DMOs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Comparison of MFTs and DMOs
@@ -36,30 +41,30 @@ A DMO has a fixed number of streams, while an MFT can support a dynamic number o
 
 The following methods are used to support dynamic streams on an MFT:
 
--   [**IMFTransform::AddInputStreams**](imftransform-addinputstreams.md)
--   [**IMFTransform::DeleteInputStream**](imftransform-deleteinputstream.md)
--   [**IMFTransform::GetStreamIDs**](imftransform-getstreamids.md)
--   [**IMFTransform::GetStreamLimits**](imftransform-getstreamlimits.md)
+-   [**IMFTransform::AddInputStreams**](/windows/win32/mftransform/nf-mftransform-imftransform-addinputstreams?branch=master)
+-   [**IMFTransform::DeleteInputStream**](/windows/win32/mftransform/nf-mftransform-imftransform-deleteinputstream?branch=master)
+-   [**IMFTransform::GetStreamIDs**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamids?branch=master)
+-   [**IMFTransform::GetStreamLimits**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamlimits?branch=master)
 
-In addition, the [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) method defines the behavior for adding or removing output streams.
+In addition, the [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method defines the behavior for adding or removing output streams.
 
 Because DMOs have fixed streams, the streams on a DMO are identified using zero-based index values. MFTs, on the other hand, use stream identifiers that do not necessarily correspond to index values. This is because the number of streams on an MFT might change. For example, stream 0 might be removed, leaving stream 1 as the first stream. However, an MFT with a fixed number of streams should observe the same convention as DMOs and use index values for stream identifiers.
 
 ## Format Negotiation
 
-MFTs use the [**IMFMediaType**](imfmediatype.md) interface to describe media types. Otherwise, format negotiation with MFTs works on the same basic principles as with DMOs. The following table lists the format negotiation methods for DMOs and the corresponding methods for MFTs.
+MFTs use the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface to describe media types. Otherwise, format negotiation with MFTs works on the same basic principles as with DMOs. The following table lists the format negotiation methods for DMOs and the corresponding methods for MFTs.
 
 
 
 | DMO method                                                                        | MFT method                                                                          |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| [**IMediaObject::GetInputCurrentType**](dshow.imediaobject_getinputcurrenttype)   | [**IMFTransform::GetInputCurrentType**](imftransform-getinputcurrenttype.md)       |
-| [**IMediaObject::GetInputMaxLatency**](dshow.imediaobject_getinputmaxlatency)     | [**IMFTransform::GetInputStreamInfo**](imftransform-getinputstreaminfo.md)         |
-| [**IMediaObject::GetInputSizeInfo**](dshow.imediaobject_getinputsizeinfo)         | [**IMFTransform::GetInputStreamInfo**](imftransform-getinputstreaminfo.md)         |
-| [**IMediaObject::GetInputType**](dshow.imediaobject_getinputtype)                 | [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md)   |
-| [**IMediaObject::GetOutputCurrentType**](dshow.imediaobject_getoutputcurrenttype) | [**IMFTransform::GetOutputCurrentType**](imftransform-getoutputcurrenttype.md)     |
-| [**IMediaObject::GetOutputSizeInfo**](dshow.imediaobject_getoutputsizeinfo)       | [**IMFTransform::GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md)       |
-| [**IMediaObject::GetOutputType**](dshow.imediaobject_getoutputtype)               | [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) |
+| [**IMediaObject::GetInputCurrentType**](dshow.imediaobject_getinputcurrenttype)   | [**IMFTransform::GetInputCurrentType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputcurrenttype?branch=master)       |
+| [**IMediaObject::GetInputMaxLatency**](dshow.imediaobject_getinputmaxlatency)     | [**IMFTransform::GetInputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreaminfo?branch=master)         |
+| [**IMediaObject::GetInputSizeInfo**](dshow.imediaobject_getinputsizeinfo)         | [**IMFTransform::GetInputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreaminfo?branch=master)         |
+| [**IMediaObject::GetInputType**](dshow.imediaobject_getinputtype)                 | [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master)   |
+| [**IMediaObject::GetOutputCurrentType**](dshow.imediaobject_getoutputcurrenttype) | [**IMFTransform::GetOutputCurrentType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputcurrenttype?branch=master)     |
+| [**IMediaObject::GetOutputSizeInfo**](dshow.imediaobject_getoutputsizeinfo)       | [**IMFTransform::GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master)       |
+| [**IMediaObject::GetOutputType**](dshow.imediaobject_getoutputtype)               | [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) |
 
 
 
@@ -67,16 +72,16 @@ MFTs use the [**IMFMediaType**](imfmediatype.md) interface to describe media typ
 
 ## Streaming
 
-Like DMOs, MFTs process data through calls to [**ProcessInput**](imftransform-processinput.md) and [**ProcessOutput**](imftransform-processoutput.md) methods. Here are the major differences between DMO and MFT processes when streaming data.
+Like DMOs, MFTs process data through calls to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) and [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) methods. Here are the major differences between DMO and MFT processes when streaming data.
 
 ### Allocating Resources
 
-MFTs do not have the [**IMediaObject::AllocateStreamingResources**](dshow.imediaobject_allocatestreamingresources) and [**IMediaObject::FreeStreamingResources**](dshow.imediaobject_freestreamingresources) methods used with DMOs. To handle allocation and deallocation of resources efficiently, an MFT can respond to the following messages in the [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) method:
+MFTs do not have the [**IMediaObject::AllocateStreamingResources**](dshow.imediaobject_allocatestreamingresources) and [**IMediaObject::FreeStreamingResources**](dshow.imediaobject_freestreamingresources) methods used with DMOs. To handle allocation and deallocation of resources efficiently, an MFT can respond to the following messages in the [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) method:
 
 -   [**MFT\_MESSAGE\_NOTIFY\_BEGIN\_STREAMING**](mft-message-notify-begin-streaming.md)
 -   [**MFT\_MESSAGE\_NOTIFY\_START\_OF\_STREAM**](mft-message-notify-start-of-stream.md)
 
-In addition, the client can signal the start and end of a stream by calling [**ProcessMessage**](imftransform-processmessage.md) with the following messages:
+In addition, the client can signal the start and end of a stream by calling [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the following messages:
 
 -   [**MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM**](mft-message-notify-end-of-stream.md)
 -   [**MFT\_MESSAGE\_NOTIFY\_END\_STREAMING**](mft-message-notify-end-streaming.md)
@@ -85,21 +90,21 @@ These two messages have no exact DMO equivalent.
 
 ### Processing Data
 
-MFTs use media samples to hold input and output data. Media samples expose the [**IMFSample**](imfsample.md) interface, and contain the following data:
+MFTs use media samples to hold input and output data. Media samples expose the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface, and contain the following data:
 
 -   Time stamp and duration.
 -   Attributes that contain per-sample information. For a list of attributes, see [Sample Attributes](sample-attributes.md).
--   Zero or more media buffers. Each media buffer exposes the [**IMFMediaBuffer**](imfmediabuffer.md) interface.
+-   Zero or more media buffers. Each media buffer exposes the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface.
 
-The [**IMFMediaBuffer**](imfmediabuffer.md) interface is similar to the DMO **IMediaBuffer** interface. To access the underlying memory buffer, call [**IMFMediaBuffer::Lock**](imfmediabuffer-lock.md). This method is roughly equivalent to [**IMediaBuffer::GetBufferAndLength**](dshow.imediabuffer_getbufferandlength) for DMOs.
+The [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface is similar to the DMO **IMediaBuffer** interface. To access the underlying memory buffer, call [**IMFMediaBuffer::Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master). This method is roughly equivalent to [**IMediaBuffer::GetBufferAndLength**](dshow.imediabuffer_getbufferandlength) for DMOs.
 
-For uncompressed video data, a media buffer might also support the [**IMF2DBuffer**](imf2dbuffer.md) interface. An MFT that processes uncompressed video (either as input or output) should be prepared to use the **IMF2DBuffer** interface if the buffer exposes it. For more information, see [Uncompressed Video Buffers](uncompressed-video-buffers.md).
+For uncompressed video data, a media buffer might also support the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface. An MFT that processes uncompressed video (either as input or output) should be prepared to use the **IMF2DBuffer** interface if the buffer exposes it. For more information, see [Uncompressed Video Buffers](uncompressed-video-buffers.md).
 
-Media Foundation provides some standard implementations of [**IMFMediaBuffer**](imfmediabuffer.md), so it is generally not necessary to write your own implementation. To create a DMO buffer from a Media Foundation buffer, call [**MFCreateLegacyMediaBufferOnMFMediaBuffer**](mfcreatelegacymediabufferonmfmediabuffer.md).
+Media Foundation provides some standard implementations of [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master), so it is generally not necessary to write your own implementation. To create a DMO buffer from a Media Foundation buffer, call [**MFCreateLegacyMediaBufferOnMFMediaBuffer**](/windows/win32/mfapi/nf-mfapi-mfcreatelegacymediabufferonmfmediabuffer?branch=master).
 
 ### Flushing
 
-MFTs do not have a [**Flush**](dshow.imediaobject_flush) method. To flush an MFT, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_COMMAND\_FLUSH**](mft-message-command-flush.md) message.
+MFTs do not have a [**Flush**](dshow.imediaobject_flush) method. To flush an MFT, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_COMMAND\_FLUSH**](mft-message-command-flush.md) message.
 
 ### Stream Discontinuities
 
@@ -113,14 +118,14 @@ Here are some additional minor differences between MFTs and DMOs.
     -   [**IMediaObject::Lock**](dshow.imediaobject_lock)
     -   [**IMediaObject::SetInputMaxLatency**](dshow.imediaobject_setinputmaxlatency)
 -   MFTs are not required to support aggregation.
--   MFTs support an operation called *draining*. The purpose of draining is to process any data that remains in the MF, without providing any more input data to the MFT (for example, at the end of the stream). To drain an MFT, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message. For more information, see [Basic MFT Processing Model](basic-mft-processing-model.md).
+-   MFTs support an operation called *draining*. The purpose of draining is to process any data that remains in the MF, without providing any more input data to the MFT (for example, at the end of the stream). To drain an MFT, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message. For more information, see [Basic MFT Processing Model](basic-mft-processing-model.md).
 -   MFTs can have attributes, including per-stream attributes. Use the following methods to get the attributes from an MFT:
 
-    -   [**IMFTransform::GetAttributes**](imftransform-getattributes.md)
-    -   [**IMFTransform::GetInputStreamAttributes**](imftransform-getinputstreamattributes.md)
-    -   [**IMFTransform::GetOutputStreamAttributes**](imftransform-getoutputstreamattributes.md)
+    -   [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master)
+    -   [**IMFTransform::GetInputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreamattributes?branch=master)
+    -   [**IMFTransform::GetOutputStreamAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreamattributes?branch=master)
 
--   MFTs can process events. To send an event to an MFT, call [**IMFTransform::ProcessEvent**](imftransform-processevent.md). An MFT can send an event to the client through the [**ProcessOutput**](imftransform-processoutput.md) method. For more information, see [Basic MFT Processing Model](basic-mft-processing-model.md).
+-   MFTs can process events. To send an event to an MFT, call [**IMFTransform::ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master). An MFT can send an event to the client through the [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method. For more information, see [Basic MFT Processing Model](basic-mft-processing-model.md).
 
 ## Flags
 
@@ -137,8 +142,8 @@ MFTs: No equivalent enumeration.
 | DMO flag                                  | MFT flag                                                                                                                                      |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | **DMO\_INPUT\_DATA\_BUFFERF\_SYNCPOINT**  | No equivalent flag. Instead, set the [**MFSampleExtension\_CleanPoint**](mfsampleextension-cleanpoint-attribute.md) attribute on the sample. |
-| **DMO\_INPUT\_DATA\_BUFFERF\_TIME**       | No equivalent flag. Instead, call [**IMFSample::SetSampleTime**](imfsample-setsampletime.md) on the sample.                                  |
-| **DMO\_INPUT\_DATA\_BUFFERF\_TIMELENGTH** | No equivalent flag. Instead, call [**IMFSample::SetSampleDuration**](imfsample-setsampleduration.md) on the sample.                          |
+| **DMO\_INPUT\_DATA\_BUFFERF\_TIME**       | No equivalent flag. Instead, call [**IMFSample::SetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampletime?branch=master) on the sample.                                  |
+| **DMO\_INPUT\_DATA\_BUFFERF\_TIMELENGTH** | No equivalent flag. Instead, call [**IMFSample::SetSampleDuration**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampleduration?branch=master) on the sample.                          |
 
 
 
@@ -148,7 +153,7 @@ MFTs: No equivalent enumeration.
 
 DMOs: [**\_DMO\_PROCESS\_OUTPUT\_FLAGS**](dshow.dmo_process_output_flags) enumeration.
 
-MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](-mft-process-output-flags.md) enumeration.
+MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_process_output_flags?branch=master) enumeration.
 
 
 
@@ -162,15 +167,15 @@ MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](-mft-process-output-flags.md) enumerat
 
 DMOs: [**\_DMO\_OUTPUT\_DATA\_BUFFER\_FLAGS**](dshow.dmo_output_data_buffer_flags) enumeration.
 
-MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](-mft-output-data-buffer-flags.md) enumeration.
+MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_output_data_buffer_flags?branch=master) enumeration.
 
 
 
 | DMO flag                                   | MFT flag                                                                                                                                            |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **DMO\_OUTPUT\_DATA\_BUFFERF\_SYNCPOINT**  | No equivalent flag. Instead, check for the [**MFSampleExtension\_CleanPoint**](mfsampleextension-cleanpoint-attribute.md) attribute on the sample. |
-| **DMO\_OUTPUT\_DATA\_BUFFERF\_TIME**       | No equivalent flag. Instead, call [**IMFSample::GetSampleTime**](imfsample-getsampletime.md) on the sample.                                        |
-| **DMO\_OUTPUT\_DATA\_BUFFERF\_TIMELENGTH** | No equivalent flag. Instead, call [**IMFSample::GetSampleDuration**](imfsample-getsampleduration.md) on the sample.                                |
+| **DMO\_OUTPUT\_DATA\_BUFFERF\_TIME**       | No equivalent flag. Instead, call [**IMFSample::GetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getsampletime?branch=master) on the sample.                                        |
+| **DMO\_OUTPUT\_DATA\_BUFFERF\_TIMELENGTH** | No equivalent flag. Instead, call [**IMFSample::GetSampleDuration**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getsampleduration?branch=master) on the sample.                                |
 | **DMO\_OUTPUT\_DATA\_BUFFERF\_INCOMPLETE** | **MFT\_OUTPUT\_DATA\_BUFFER\_INCOMPLETE**                                                                                                           |
 | No equivalent flag.                        | **MFT\_OUTPUT\_DATA\_BUFFER\_FORMAT\_CHANGE**                                                                                                       |
 | No equivalent flag.                        | **MFT\_OUTPUT\_DATA\_BUFFER\_STREAM\_END**                                                                                                          |
@@ -184,7 +189,7 @@ MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](-mft-output-data-buffer-flags.md)
 
 DMOs: **\_DMO\_INPUT\_STATUS\_FLAGS** enumeration.
 
-MFTs: [**\_MFT\_INPUT\_STATUS\_FLAGS**](-mft-input-status-flags.md) enumeration.
+MFTs: [**\_MFT\_INPUT\_STATUS\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_input_status_flags?branch=master) enumeration.
 
 
 
@@ -200,7 +205,7 @@ MFTs: [**\_MFT\_INPUT\_STATUS\_FLAGS**](-mft-input-status-flags.md) enumeration.
 
 DMOs: No equivalent enumeration.
 
-MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](-mft-output-status-flags.md) enumeration.
+MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_output_status_flags?branch=master) enumeration.
 
 
 
@@ -216,7 +221,7 @@ MFTs: [**\_MFT\_OUTPUT\_STATUS\_FLAGS**](-mft-output-status-flags.md) enumeratio
 
 DMOs: [**\_DMO\_INPUT\_STREAM\_INFO\_FLAGS**](dshow.dmo_input_stream_info_flags) enumeration.
 
-MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](-mft-input-stream-info-flags.md) enumeration.
+MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_input_stream_info_flags?branch=master) enumeration.
 
 
 
@@ -238,7 +243,7 @@ MFTs: [**\_MFT\_INPUT\_STREAM\_INFO\_FLAGS**](-mft-input-stream-info-flags.md) e
 
 DMOs: [**\_DMO\_OUTPUT\_STREAM\_INFO\_FLAGS**](dshow.dmo_output_stream_info_flags) enumeration.
 
-MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](-mft-output-stream-info-flags.md) enumeration.
+MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_output_stream_info_flags?branch=master) enumeration.
 
 
 
@@ -262,7 +267,7 @@ MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](-mft-output-stream-info-flags.md)
 
 DMOs: [**\_DMO\_SET\_TYPE\_FLAGS**](dshow.dmo_set_type_flags) enumeration.
 
-MFTs: [**\_MFT\_SET\_TYPE\_FLAGS**](-mft-set-type-flags.md) enumeration.
+MFTs: [**\_MFT\_SET\_TYPE\_FLAGS**](/windows/win32/mftransform/ne-mftransform-_mft_set_type_flags?branch=master) enumeration.
 
 
 
@@ -277,7 +282,7 @@ MFTs: [**\_MFT\_SET\_TYPE\_FLAGS**](-mft-set-type-flags.md) enumeration.
 
 ## Error Codes
 
-The following table shows how to map DMO error codes to MFT error codes. A hybrid MFT/DMO object should return the DMO error codes from [**IMediaObject**](dshow.imediaobject) methods and the MFT error codes from [**IMFTransform**](imftransform.md) methods. The DMO error codes are defined in the header file MediaErr.h. The MFT error codes are defined in the header file mferror.h.
+The following table shows how to map DMO error codes to MFT error codes. A hybrid MFT/DMO object should return the DMO error codes from [**IMediaObject**](dshow.imediaobject) methods and the MFT error codes from [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) methods. The DMO error codes are defined in the header file MediaErr.h. The MFT error codes are defined in the header file mferror.h.
 
 
 
@@ -296,7 +301,7 @@ The following table shows how to map DMO error codes to MFT error codes. A hybri
 
 ## Creating Hybrid DMO/MFT Objects
 
-The [**IMFTransform**](imftransform.md) interface is loosely based on [**IMediaObject**](dshow.imediaobject), which is the primary interface for DirectX Media Objects (DMOs). It is possible to create objects that expose both interfaces. However, this can lead to naming collisions, because the interfaces have some methods that share the same name. You can solve this problem in one of two ways:
+The [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface is loosely based on [**IMediaObject**](dshow.imediaobject), which is the primary interface for DirectX Media Objects (DMOs). It is possible to create objects that expose both interfaces. However, this can lead to naming collisions, because the interfaces have some methods that share the same name. You can solve this problem in one of two ways:
 
 Solution 1: Include the following line at the top of any .cpp file that contains MFT functions:
 
@@ -304,9 +309,9 @@ Solution 1: Include the following line at the top of any .cpp file that contains
 #define MFT_UNIQUE_METHOD_NAMES
 ```
 
-This changes the declaration of the [**IMFTransform**](imftransform.md) interface so that most of the method names are prefixed with "MFT". Thus, [**IMFTransform::ProcessInput**](imftransform-processinput.md) becomes **IMFTransform::MFTProcessInput**, while [**IMediaObject::ProcessInput**](dshow.imediaobject_processinput) keeps its original name. This technique is most useful if you are converting an existing DMO to a hybrid DMO/MFT. You can add the new MFT methods without changing the DMO methods.
+This changes the declaration of the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface so that most of the method names are prefixed with "MFT". Thus, [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) becomes **IMFTransform::MFTProcessInput**, while [**IMediaObject::ProcessInput**](dshow.imediaobject_processinput) keeps its original name. This technique is most useful if you are converting an existing DMO to a hybrid DMO/MFT. You can add the new MFT methods without changing the DMO methods.
 
-Solution 2: Use C++ syntax to disambiguate names that are inherited from more than one interface. For example, declare the MFT version of [**ProcessInput**](imftransform-processinput.md) as follows:
+Solution 2: Use C++ syntax to disambiguate names that are inherited from more than one interface. For example, declare the MFT version of [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) as follows:
 
 ``` syntax
 CMyHybridObject::IMFTransform::ProcessInput(...)

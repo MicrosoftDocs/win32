@@ -1,8 +1,20 @@
 ---
 title: The Echo Sample
 description: The Echo Sample
-ms.assetid: 'f28af52f-e948-464c-9600-aa516ab984f4'
-keywords: ["Windows Media Player plug-ins,Echo sample overview", "plug-ins,Echo sample overview", "digital signal processing plug-ins,Echo sample overview", "DSP plug-ins,Echo sample overview", "programming guide,DSP plug-ins", "samples,DSP plug-ins", "Echo DSP plug-in sample,about"]
+ms.assetid: f28af52f-e948-464c-9600-aa516ab984f4
+keywords:
+- Windows Media Player plug-ins,Echo sample overview
+- plug-ins,Echo sample overview
+- digital signal processing plug-ins,Echo sample overview
+- DSP plug-ins,Echo sample overview
+- programming guide,DSP plug-ins
+- samples,DSP plug-ins
+- Echo DSP plug-in sample,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Echo Sample

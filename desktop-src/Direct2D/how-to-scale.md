@@ -1,12 +1,17 @@
 ---
 title: How to Scale an Object
 description: Shows how to scale an object.
-ms.assetid: '3da749e2-50d5-4f4e-9ccd-8c230efe3436'
+ms.assetid: 3da749e2-50d5-4f4e-9ccd-8c230efe3436
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Scale an Object
 
-This topic describes how to scale an object by using the [**Matrix3x2F**](matrix3x2f.md) class. To scale an object means to make the object larger or smaller. You can call one of the following two methods to scale an object.
+This topic describes how to scale an object by using the [**Matrix3x2F**](/windows/win32/d2d1/nl-d2d1helper-matrix3x2f?branch=master) class. To scale an object means to make the object larger or smaller. You can call one of the following two methods to scale an object.
 
 -   **Matrix3x2F::Scale(D2D1\_SIZE\_F scalefactor, D2D1\_POINT\_2F centerpoint)**
 -   **Matrix3x2F::Scale(float scalex, float scaley, D2D1\_POINT\_2F centerpoint)**

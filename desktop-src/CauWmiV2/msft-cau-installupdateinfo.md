@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents the result from the InstallUpda
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4a20f772-ed75-4f3b-90b0-f4185e8884f2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4a20f772-ed75-4f3b-90b0-f4185e8884f2
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAU_InstallUpdateInfo class", "MSFT_CAU_InstallUpdateInfo class, described"]
+keywords:
+- MSFT_CAU_InstallUpdateInfo class
+- MSFT_CAU_InstallUpdateInfo class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAU\_InstallUpdateInfo class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("CAUWMIV2"), AMENDMENT]
 class MSFT_CAU_InstallUpdateInfo : MSFT_CAU_DownloadUpdateInfo
 {
-  uint32   UpdateResultCode;
-  sint32   UpdateErrorCode;
+  uint32   UpdateResultCode;
+  sint32   UpdateErrorCode;
   datetime UpdateTimestamp;
-  string   UpdateDesc;
-  string   UpdateId;
-  string   UpdateTitle;
-  boolean  RebootRequired;
-  boolean  LongRebootHint;
+  string   UpdateDesc;
+  string   UpdateId;
+  string   UpdateTitle;
+  boolean  RebootRequired;
+  boolean  LongRebootHint;
 };
 ```
 
@@ -210,16 +215,16 @@ This property is inherited from [**MSFT\_CAU\_DownloadUpdateInfo**](msft-cau-dow
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

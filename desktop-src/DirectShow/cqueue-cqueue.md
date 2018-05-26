@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '4dcbb088-638b-49a6-afaf-a973e13bd5fb'
-title: 'CQueue.CQueue constructor'
+Description: Constructor method.
+ms.assetid: 4dcbb088-638b-49a6-afaf-a973e13bd5fb
+title: CQueue.CQueue constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CQueue.CQueue constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CQueue(
-   int n
+   int n
 );
 ```
 
@@ -48,9 +53,9 @@ Size of the queue to create.
 [**CQueue Class**](cqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

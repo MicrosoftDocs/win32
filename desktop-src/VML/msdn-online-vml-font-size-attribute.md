@@ -1,7 +1,12 @@
 ---
 title: VML Font-Size Attribute
 description: VML Font-Size Attribute
-ms.assetid: '49394cd5-3009-424a-97d3-28c85d874bc4'
+ms.assetid: 49394cd5-3009-424a-97d3-28c85d874bc4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Font-Size Attribute

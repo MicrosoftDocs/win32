@@ -1,7 +1,12 @@
 ---
 title: Containers
 description: Containers
-ms.assetid: '732bc4b5-2e6f-4cff-8dae-073a49aa5285'
+ms.assetid: 732bc4b5-2e6f-4cff-8dae-073a49aa5285
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Containers

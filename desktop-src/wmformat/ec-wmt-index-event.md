@@ -1,8 +1,18 @@
 ---
 title: EC\_WMT\_INDEX\_EVENT
 description: EC\_WMT\_INDEX\_EVENT
-ms.assetid: '46e6a011-7f25-470b-9e10-fa59f0ddbf22'
-keywords: ["Windows Media Format SDK,EC_WMT_INDEX_EVENT", "DirectShow,EC_WMT_INDEX_EVENT", "EC_WMT_INDEX_EVENT", "Advanced Systems Format (ASF),EC_WMT_INDEX_EVENT", "ASF (Advanced Systems Format),EC_WMT_INDEX_EVENT"]
+ms.assetid: 46e6a011-7f25-470b-9e10-fa59f0ddbf22
+keywords:
+- Windows Media Format SDK,EC_WMT_INDEX_EVENT
+- DirectShow,EC_WMT_INDEX_EVENT
+- EC_WMT_INDEX_EVENT
+- Advanced Systems Format (ASF),EC_WMT_INDEX_EVENT
+- ASF (Advanced Systems Format),EC_WMT_INDEX_EVENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_WMT\_INDEX\_EVENT

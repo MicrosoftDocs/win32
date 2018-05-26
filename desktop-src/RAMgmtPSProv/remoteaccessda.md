@@ -2,13 +2,15 @@
 title: RemoteAccessDA class
 description: Remote Access configuration consisting of the DirectAccess Configuration and the Remote Access common configuration.
 audience: developer
-ms.assetid: 'f818ca77-1c9c-4f0b-9132-b347e4592dcf'
-ms.prod: 'windows-server-dev'
+ms.assetid: f818ca77-1c9c-4f0b-9132-b347e4592dcf
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessDA class", "RemoteAccessDA class, described"]
+keywords:
+- RemoteAccessDA class
+- RemoteAccessDA class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessDA class
@@ -42,16 +47,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class RemoteAccessDA : RemoteAccessCommon
 {
-  string                    InternetInterface;
-  string                    InternalInterface;
-  uint8                     SslCertificate[];
-  string                    DAStatus;
-  string                    VpnStatus;
-  string                    VpnS2SStatus;
-  string                    LoadBalancing;
-  string                    SstpProxyStatus;
-  string                    RoutingStatus;
-  boolean                   UseHttp;
+  string                    InternetInterface;
+  string                    InternalInterface;
+  uint8                     SslCertificate[];
+  string                    DAStatus;
+  string                    VpnStatus;
+  string                    VpnS2SStatus;
+  string                    LoadBalancing;
+  string                    SstpProxyStatus;
+  string                    RoutingStatus;
+  boolean                   UseHttp;
   DirectAccessConfiguration DAConfiguration;
 };
 ```
@@ -207,7 +212,7 @@ Whether routing is installed.
 
 This property is inherited from [**RemoteAccessCommon**](remoteaccesscommon.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 The possible values are.
 
@@ -255,7 +260,7 @@ Access type: Read-only
 
 Whether an SSTP Proxy is installed.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 This property is inherited from [**RemoteAccessCommon**](remoteaccesscommon.md).
 
@@ -290,7 +295,7 @@ Access type: Read/write
 
 **True** to use HTTP; otherwise, **false**
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 This property is inherited from [**RemoteAccessCommon**](remoteaccesscommon.md).
 
@@ -369,16 +374,16 @@ The possible values are.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

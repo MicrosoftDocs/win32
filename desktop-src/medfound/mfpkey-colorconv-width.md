@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the width of the source and destination rectangles, in pixels.'
-ms.assetid: '823f5fdf-a42c-47c0-aab4-3f43afd29c2b'
-title: 'MFPKEY\_COLORCONV\_WIDTH Property'
+---
+Description: Specifies the width of the source and destination rectangles, in pixels.
+ms.assetid: 823f5fdf-a42c-47c0-aab4-3f43afd29c2b
+title: MFPKEY\_COLORCONV\_WIDTH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLORCONV\_WIDTH Property

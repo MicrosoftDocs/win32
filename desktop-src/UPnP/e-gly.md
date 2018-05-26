@@ -2,7 +2,12 @@
 title: E
 description: Contains UPnP-related terms that begin with the letter E.
 Robots: noindex, nofollow
-ms.assetid: '954d2471-dea7-4bac-92be-042f5974d8e4'
+ms.assetid: 954d2471-dea7-4bac-92be-042f5974d8e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # E

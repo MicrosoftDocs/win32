@@ -1,12 +1,18 @@
 ---
 title: Texture1D SampleCmpLevelZero methods
 description: Samples a Texture1D on mipmap level 0 only and compares the result to a comparison value.
-ms.assetid: 'DCD555DE-7A54-426D-AFD7-77624BA60E31'
-keywords: ["SampleCmpLevelZero methods HLSL"]
+ms.assetid: DCD555DE-7A54-426D-AFD7-77624BA60E31
+keywords:
+- SampleCmpLevelZero methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1D::SampleCmpLevelZero methods
@@ -35,9 +41,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture1D](sm5-object-texture1d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

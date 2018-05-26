@@ -1,7 +1,12 @@
 ---
-Description: 'The SetMediaType method sets the media type for the connection.'
-ms.assetid: '1d6569c1-e27b-4e96-af5a-64a78b762afd'
-title: 'CTransformOutputPin.SetMediaType method'
+Description: The SetMediaType method sets the media type for the connection.
+ms.assetid: 1d6569c1-e27b-4e96-af5a-64a78b762afd
+title: CTransformOutputPin.SetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.SetMediaType method
@@ -13,7 +18,7 @@ The `SetMediaType` method sets the media type for the connection.
 
 ```C++
 HRESULT SetMediaType(
-   const CMediaType *mt
+   const CMediaType *mt
 );
 ```
 
@@ -51,9 +56,9 @@ The pin must verify that the media type is acceptable before calling this method
 
 
 
- 
+ 
 
- 
+ 
 
 
 

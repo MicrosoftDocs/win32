@@ -1,7 +1,12 @@
 ---
-Description: 'Number of samples currently batched and awaiting processing.'
-ms.assetid: '1a2d2144-b32c-49e8-8d6e-9d81e7f7be81'
-title: 'COutputQueue::m\_nBatched member'
+Description: Number of samples currently batched and awaiting processing.
+ms.assetid: 1a2d2144-b32c-49e8-8d6e-9d81e7f7be81
+title: COutputQueuem\_nBatched member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_nBatched member
@@ -34,9 +39,9 @@ LONG m_nBatched;
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

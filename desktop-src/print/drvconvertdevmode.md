@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DrvConvertDevMode function converts a printer''s DEVMODEW structure from one version to another.'
-ms.assetid: 'eb0402a8-22ce-417f-9b19-25b357451307'
+---
+Description: A printer interface DLLs DrvConvertDevMode function converts a printers DEVMODEW structure from one version to another.
+ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 title: DrvConvertDevMode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvConvertDevMode function

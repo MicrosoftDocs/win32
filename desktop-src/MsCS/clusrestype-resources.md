@@ -4,11 +4,14 @@ description: Returns a ClusResTypeResources collection providing access to the r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2fa27a3c-c340-478a-af05-1583efb420b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2fa27a3c-c340-478a-af05-1583efb420b4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Resources property Failover Cluster", "Resources property Failover Cluster , ClusResType object", "ClusResType object Failover Cluster , Resources property"]
+keywords:
+- Resources property Failover Cluster
+- Resources property Failover Cluster , ClusResType object
+- ClusResType object Failover Cluster , Resources property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResType.Resources property
@@ -47,7 +53,7 @@ A [**ClusResTypeResources**](clusrestyperesources-collection.md) collection that
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusResTypeResources**](clusrestyperesources-collection.md) collection that
 [**ClusResTypeResources**](clusrestyperesources-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

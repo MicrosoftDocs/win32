@@ -4,13 +4,16 @@ description: Removes an SMB mapping.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2C27613D-B863-4FCC-80D0-228F1E254823'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2C27613D-B863-4FCC-80D0-228F1E254823
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method SMB", "Remove method SMB , MSFT_SmbMapping interface", "MSFT_SmbMapping interface SMB , Remove method"]
+keywords:
+- Remove method SMB
+- Remove method SMB , MSFT_SmbMapping interface
+- MSFT_SmbMapping interface SMB , Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the MSFT\_SmbMapping class
@@ -30,8 +36,8 @@ Removes an SMB mapping.
 
 ```mof
 uint32 Remove(
-  [in] boolean UpdateProfile,
-  [in] boolean Force
+  [in] boolean UpdateProfile,
+  [in] boolean Force
 );
 ```
 
@@ -61,8 +67,8 @@ uint32 Remove(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -76,9 +82,9 @@ uint32 Remove(
 [**MSFT\_SmbMapping**](msft-smbmapping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

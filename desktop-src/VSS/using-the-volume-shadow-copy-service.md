@@ -1,14 +1,19 @@
 ---
-Description: 'VSS backup and restore operations each use a protocol for the interaction of the systems that use mass storage (writers) and those that back it up (requesters).'
-ms.assetid: 'c4dae5ce-0dfa-46ec-909f-8ae79d50a9cb'
+Description: VSS backup and restore operations each use a protocol for the interaction of the systems that use mass storage (writers) and those that back it up (requesters).
+ms.assetid: c4dae5ce-0dfa-46ec-909f-8ae79d50a9cb
 title: Using the Volume Shadow Copy Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Volume Shadow Copy Service
 
 VSS backup and restore operations each use a protocol for the interaction of the systems that use mass storage (writers) and those that back it up (requesters).
 
-Both backup and restore operations are primarily driven by the requester, which controls writer and provider behavior by generating systemwide COM events for the writer to process. Because event-generating methods are asynchronous, writers do have limited control into the requester's state through the asynchronous handlers available to VSS (see [**IVssAsync**](ivssasync.md)).
+Both backup and restore operations are primarily driven by the requester, which controls writer and provider behavior by generating systemwide COM events for the writer to process. Because event-generating methods are asynchronous, writers do have limited control into the requester's state through the asynchronous handlers available to VSS (see [**IVssAsync**](/windows/win32/Vss/nn-vss-ivssasync?branch=master)).
 
 This interaction requires basic data structures describing files and groups of files ([*components*](vssgloss-c.md#base-vssgloss-component)), as well as a metadata model to allow the storage of backup information and to permit writer/requester communication.
 

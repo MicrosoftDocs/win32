@@ -1,7 +1,12 @@
 ---
-Description: 'The STATIONSTATS structure provides statistics about a specific station described by the current capture.'
-ms.assetid: 'f85d53d6-f496-4242-875f-e173c76b046a'
+Description: The STATIONSTATS structure provides statistics about a specific station described by the current capture.
+ms.assetid: f85d53d6-f496-4242-875f-e173c76b046a
 title: STATIONSTATS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STATIONSTATS structure
@@ -16,8 +21,8 @@ typedef struct _STATIONSTATS {
   DWORD NextStationStats;
   DWORD SessionPartnerList;
   DWORD Flags;
-  BYTE  StationAddress[6];
-  WORD  Pad;
+  BYTE  StationAddress[6];
+  WORD  Pad;
   DWORD TotalPacketsReceived;
   DWORD TotalDirectedPacketsSent;
   DWORD TotalBroadcastPacketsSent;
@@ -117,7 +122,7 @@ Network Monitor stores session and station information in two associated arrays.
 > [!Note]  
 > The **STATIONSTATS** array contains an element for each station used during the current capture. The algorithm Network Monitor uses to add elements to this array is based on the most efficient way to record information while the capture is in progress. Consequently, the next station is not always the next element in the array.
 
- 
+ 
 
 ## Requirements
 
@@ -125,8 +130,8 @@ Network Monitor stores session and station information in two associated arrays.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -144,9 +149,9 @@ Network Monitor stores session and station information in two associated arrays.
 [IStats::GetConversationStatistics](istats-getconversationstatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

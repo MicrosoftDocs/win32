@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the day and time the account was excluded.'
+Description: Retrieves the day and time the account was excluded.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f8678e72-7512-4eec-b317-5e94f5cc1cc9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f8678e72-7512-4eec-b317-5e94f5cc1cc9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedUserAccount.Date property'
+title: ExcludedUserAccount.Date property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedUserAccount.Date property
@@ -104,7 +107,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -116,9 +119,9 @@ END FUNCTION
 [**ExcludedUserAccount**](excludeduseraccount-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

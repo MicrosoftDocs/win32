@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_AUDIO
 description: PSGUID\_AUDIO
-ms.assetid: 'dca5f205-956e-4ec7-b79c-ce007a6c9384'
-keywords: ["PSGUID_AUDIO"]
+ms.assetid: dca5f205-956e-4ec7-b79c-ce007a6c9384
+keywords:
+- PSGUID_AUDIO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_AUDIO

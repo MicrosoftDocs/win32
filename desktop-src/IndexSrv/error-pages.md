@@ -1,7 +1,12 @@
 ---
 title: Error Pages
 description: Error Pages
-ms.assetid: 'b6846bf5-96f8-48d2-b880-a336dd17d200'
+ms.assetid: b6846bf5-96f8-48d2-b880-a336dd17d200
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Pages

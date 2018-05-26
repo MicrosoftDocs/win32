@@ -1,7 +1,12 @@
 ---
 title: Win32\_SoftwareFeature Methods
 description: The Win32\_SoftwareFeature class exposes the following methods.
-ms.assetid: '5413B589-DB85-4CCF-BD5E-986E86B16CFE'
+ms.assetid: 5413B589-DB85-4CCF-BD5E-986E86B16CFE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareFeature Methods

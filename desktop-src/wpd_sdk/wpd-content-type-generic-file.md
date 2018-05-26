@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_GENERIC\_MESSAGE'
-ms.assetid: '8e58d15f-ee51-42c2-9d8b-6c3b9c730ff4'
-title: 'WPD\_CONTENT\_TYPE\_GENERIC\_MESSAGE'
+Description: WPD\_CONTENT\_TYPE\_GENERIC\_MESSAGE
+ms.assetid: 8e58d15f-ee51-42c2-9d8b-6c3b9c730ff4
+title: WPD\_CONTENT\_TYPE\_GENERIC\_MESSAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_GENERIC\_MESSAGE

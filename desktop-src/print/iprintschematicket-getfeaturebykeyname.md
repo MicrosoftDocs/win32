@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a feature from the PrintTicket based on the specified key name.'
-ms.assetid: '3BD7B8D6-B06F-492F-A73E-DA0799387B2A'
-title: 'IPrintSchemaTicket::GetFeatureByKeyName method'
+---
+Description: Gets a feature from the PrintTicket based on the specified key name.
+ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
+title: IPrintSchemaTicketGetFeatureByKeyName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::GetFeatureByKeyName method

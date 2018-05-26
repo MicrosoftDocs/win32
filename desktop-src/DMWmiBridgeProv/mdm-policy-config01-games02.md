@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_Games02 class
 description: The MDM\_Policy\_Config01\_Games02 class configures the advanced gaming services.
-ms.assetid: '567cf1b0-9795-44d5-a002-a1c03a5bf45f'
-keywords: ["MDM_Policy_Config01_Games02 class", "MDM_Policy_Config01_Games02 class, described"]
+ms.assetid: 567cf1b0-9795-44d5-a002-a1c03a5bf45f
+keywords:
+- MDM_Policy_Config01_Games02 class
+- MDM_Policy_Config01_Games02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_Games02 class
@@ -92,7 +99,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -100,9 +107,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

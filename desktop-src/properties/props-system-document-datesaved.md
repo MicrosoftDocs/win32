@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the date and time the document was last saved. The legacy name is &\#0034;DocLastSavedTm&\#0034;.'
-ms.assetid: '4cbd5ebe-7987-40eb-a770-0ab217562b70'
-title: 'System.Document.DateSaved'
+Description: Indicates the date and time the document was last saved. The legacy name is &\#0034;DocLastSavedTm&\#0034;.
+ms.assetid: 4cbd5ebe-7987-40eb-a770-0ab217562b70
+title: System.Document.DateSaved
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.DateSaved

@@ -1,8 +1,10 @@
 ---
 title: PSCSIWMI\_SET\_DATAITEM callback function
-description: A miniport driver's HwScsiWmiSetDataItem routine is called to change a single data item in an instance of a data block.
-ms.assetid: '24b8415e-4326-4aef-bcbb-fabffa25c7d6'
-keywords: ["HwScsiWmiSetDataItem callback function Storage Devices", "PSCSIWMI_SET_DATAITEM"]
+description: A miniport drivers HwScsiWmiSetDataItem routine is called to change a single data item in an instance of a data block.
+ms.assetid: 24b8415e-4326-4aef-bcbb-fabffa25c7d6
+keywords:
+- HwScsiWmiSetDataItem callback function Storage Devices
+- PSCSIWMI_SET_DATAITEM
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - scsiwmi.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSCSIWMI\_SET\_DATAITEM callback function
@@ -20,20 +27,20 @@ A miniport driver's **HwScsiWmiSetDataItem** routine is called to change a singl
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOLEAN HwScsiWmiSetDataItem(
-  _In_ PVOID                    DeviceContext,
-  _In_ PSCSIWMI_REQUEST_CONTEXT RequestContext,
-  _In_ ULONG                    GuidIndex,
-  _In_ ULONG                    InstanceIndex,
-  _In_ ULONG                    DataItemId,
-  _In_ ULONG                    BufferSize,
-  _In_ PUCHAR                   Buffer
+  _In_ PVOID                    DeviceContext,
+  _In_ PSCSIWMI_REQUEST_CONTEXT RequestContext,
+  _In_ ULONG                    GuidIndex,
+  _In_ ULONG                    InstanceIndex,
+  _In_ ULONG                    DataItemId,
+  _In_ ULONG                    BufferSize,
+  _In_ PUCHAR                   Buffer
 );
 ```
 
@@ -130,9 +137,9 @@ If the item is read-only, the miniport driver calls [**ScsiPortWmiPostProcess**]
 [**ScsiPortWmiPostProcess**](scsiportwmipostprocess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20PSCSIWMI_SET_DATAITEM%20callback%20function%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

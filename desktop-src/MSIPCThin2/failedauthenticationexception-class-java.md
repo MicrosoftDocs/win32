@@ -4,17 +4,21 @@ description: Signals that authentication failure has occurred. Extends the Prote
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0068DDF6-167B-4ABC-9DAE-DA0C4771604F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0068DDF6-167B-4ABC-9DAE-DA0C4771604F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["FailedAuthenticationException class"]
+keywords:
+- FailedAuthenticationException class
 topic_type:
 - apiref
 api_name:
 - FailedAuthenticationException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FailedAuthenticationException class
@@ -32,7 +36,7 @@ public class FailedAuthenticationException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class FailedAuthenticationException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -57,7 +61,7 @@ public class FailedAuthenticationException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -75,9 +79,9 @@ For more information, see the SDK documentation for the [**ProtectionException**
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

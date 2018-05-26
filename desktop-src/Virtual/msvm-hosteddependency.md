@@ -1,8 +1,10 @@
 ---
 title: Msvm\_HostedDependency class
 description: Associates a virtual computer system instance with the computer system object representing the physical, hosting system.
-ms.assetid: '02f0818e-d234-48d1-b6b0-67e54857a215'
-keywords: ["Msvm_HostedDependency class Hyper-V", "Msvm_HostedDependency class Hyper-V , described"]
+ms.assetid: 02f0818e-d234-48d1-b6b0-67e54857a215
+keywords:
+- Msvm_HostedDependency class Hyper-V
+- Msvm_HostedDependency class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedDependency class
@@ -88,9 +95,9 @@ Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filter
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -109,9 +116,9 @@ Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filter
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

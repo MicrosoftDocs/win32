@@ -1,7 +1,12 @@
 ---
-Description: 'The OnWaitStart method is called when the filter starts waiting for a sample''s presentation time.'
-ms.assetid: '598cd676-3afe-4ec9-ae38-83971412e6a7'
-title: 'CBaseRenderer.OnWaitStart method'
+Description: The OnWaitStart method is called when the filter starts waiting for a samples presentation time.
+ms.assetid: 598cd676-3afe-4ec9-ae38-83971412e6a7
+title: CBaseRenderer.OnWaitStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnWaitStart method
@@ -49,9 +54,9 @@ If you are implementing quality control, you might override this method along wi
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

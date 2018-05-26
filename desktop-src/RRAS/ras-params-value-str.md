@@ -1,8 +1,9 @@
 ---
 title: RAS\_PARAMS\_VALUE union
 description: The RAS\_PARAMS\_VALUE union is used in the RAS\_PARAMETERS structure to store the data associated with a media-specific parameter.
-ms.assetid: '43284ee4-9bd4-4019-860f-0fb7ff3f38ee'
-keywords: ["RAS_PARAMS_VALUE union RAS"]
+ms.assetid: 43284ee4-9bd4-4019-860f-0fb7ff3f38ee
+keywords:
+- RAS_PARAMS_VALUE union RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PARAMS\_VALUE union
 
-\[The **RAS\_PARAMS\_VALUE** union is not supported as of Windows Vista.\]
+\[The **RAS\_PARAMS\_VALUE** union is not supported as of Windows Vista.\]
 
 The **RAS\_PARAMS\_VALUE** union is used in the [**RAS\_PARAMETERS**](ras-parameters-str.md) structure to store the data associated with a media-specific parameter. The **P\_Type** member of the **RAS\_PARAMETERS** structure uses a value from the [**RAS\_PARAMS\_FORMAT**](ras-params-format-str.md) enumeration to indicate the type of value currently stored in **RAS\_PARAMS\_VALUE**.
 
@@ -24,11 +30,11 @@ The **RAS\_PARAMS\_VALUE** union is used in the [**RAS\_PARAMETERS**](ras-parame
 
 ```C++
 typedef union RAS_PARAMS_VALUE {
-  DWORD  Number;
+  DWORD  Number;
   struct {
     DWORD Length;
     PCHAR Data;
-  } String;
+  } String;
 } RAS_PARAMS_VALUE;
 ```
 
@@ -74,10 +80,10 @@ Pointer to a buffer that contains the string value of a media-specific parameter
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -98,9 +104,9 @@ Pointer to a buffer that contains the string value of a media-specific parameter
 [**RAS\_PARAMS\_FORMAT**](ras-params-format-str.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

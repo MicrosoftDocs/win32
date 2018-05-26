@@ -1,7 +1,12 @@
 ---
 title: Enhanced Storage Constants
 description: This section provides details about the Enhanced Storage API constants.
-ms.assetid: '185deac6-740b-40b0-be7f-fff7259518a7'
+ms.assetid: 185deac6-740b-40b0-be7f-fff7259518a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Storage Constants

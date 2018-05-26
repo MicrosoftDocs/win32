@@ -1,7 +1,12 @@
-﻿---
-Description: 'The name of the Windows Image Acquisition (WIA) hardware device as it appears in the UI.'
-ms.assetid: '0d53dcd1-2ae5-476c-9fdf-cdea61e0711b'
-title: 'DeviceInfo.Name property'
+---
+Description: The name of the Windows Image Acquisition (WIA) hardware device as it appears in the UI.
+ms.assetid: 0d53dcd1-2ae5-476c-9fdf-cdea61e0711b
+title: DeviceInfo.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.Name property

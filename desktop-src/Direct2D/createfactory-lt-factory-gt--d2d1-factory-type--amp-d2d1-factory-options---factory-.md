@@ -1,8 +1,9 @@
 ---
 title: D2D1CreateFactory Factory (D2D1\_FACTORY\_TYPE,D2D1\_FACTORY\_OPTIONS ,Factory\ \ ) Function
 description: Creates a factory object that can be used to create Direct2D resources.
-ms.assetid: '618d7fbc-3801-4507-8774-4e1f4f36af44'
-keywords: ["D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS ,Factory ) Function Direct2D"]
+ms.assetid: 618d7fbc-3801-4507-8774-4e1f4f36af44
+keywords:
+- D2D1CreateFactory Factory (D2D1_FACTORY_TYPE,D2D1_FACTORY_OPTIONS ,Factory ) Function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1CreateFactory&lt;Factory&gt;(D2D1\_FACTORY\_TYPE,D2D1\_FACTORY\_OPTIONS&,Factory\*\*) Function
@@ -32,11 +38,11 @@ HRESULT D2D1CreateFactory(
 
 | Parameter | Description                                                 |
 |-----------|-------------------------------------------------------------|
-| *Factory* | The type of [**ID2D1Factory**](id2d1factory.md) to create. |
+| *Factory* | The type of [**ID2D1Factory**](/windows/win32/d2d1/?branch=master) to create. |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -50,7 +56,7 @@ HRESULT D2D1CreateFactory(
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -62,18 +68,18 @@ If the method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1.h</dt> </dl>                                                        |
 | Library<br/>                  | <dl> <dt>D2d1.lib</dt> </dl>                                                      |
 | DLL<br/>                      | <dl> <dt>D2d1.dll</dt> </dl>                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

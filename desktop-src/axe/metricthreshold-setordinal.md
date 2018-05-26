@@ -1,8 +1,11 @@
 ---
 title: MetricThreshold SetOrdinal method
 description: Sets the ordinal of the MetricThreshold.
-ms.assetid: '242B9A6D-0541-473E-89E4-9F224C01287D'
-keywords: ["SetOrdinal method Access Execution Engine", "SetOrdinal method Access Execution Engine , MetricThreshold interface", "MetricThreshold interface Access Execution Engine , SetOrdinal method"]
+ms.assetid: 242B9A6D-0541-473E-89E4-9F224C01287D
+keywords:
+- SetOrdinal method Access Execution Engine
+- SetOrdinal method Access Execution Engine , MetricThreshold interface
+- MetricThreshold interface Access Execution Engine , SetOrdinal method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold::SetOrdinal method
@@ -22,7 +30,7 @@ Sets the ordinal of the **MetricThreshold**.
 
 ```C++
 virtual HRESULT SetOrdinal(
-  [in] UINT ordinal
+  [in] UINT ordinal
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The ordinal is the value of element **MetricThreshold/Ordinal**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The ordinal is the value of element **MetricThreshold/Ordinal**.
 [**MetricThreshold**](metricthreshold-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

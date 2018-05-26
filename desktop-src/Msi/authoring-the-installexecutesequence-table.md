@@ -1,7 +1,12 @@
 ---
-Description: 'The custom actions ProcessAccounts and UninstallAccounts generate the deferred custom actions that create, remove, or rollback user accounts.'
-ms.assetid: '245b576b-96cc-4eab-8848-5ff78ba32873'
+Description: The custom actions ProcessAccounts and UninstallAccounts generate the deferred custom actions that create, remove, or rollback user accounts.
+ms.assetid: 245b576b-96cc-4eab-8848-5ff78ba32873
 title: Authoring the InstallExecuteSequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring the InstallExecuteSequence Table

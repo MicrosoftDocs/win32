@@ -1,7 +1,12 @@
 ---
-Description: 'If end-of-stream was reached, the SendEndOfStream method schedules an EC\_COMPLETE event for the filter graph manager.'
-ms.assetid: '3c10c956-e352-4796-a8cd-cc69a02066f2'
-title: 'CBaseRenderer.SendEndOfStream method'
+Description: If end-of-stream was reached, the SendEndOfStream method schedules an EC\_COMPLETE event for the filter graph manager.
+ms.assetid: 3c10c956-e352-4796-a8cd-cc69a02066f2
+title: CBaseRenderer.SendEndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SendEndOfStream method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +71,9 @@ The timer callback method is [**CBaseRenderer::TimerCallback**](cbaserenderer-ti
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

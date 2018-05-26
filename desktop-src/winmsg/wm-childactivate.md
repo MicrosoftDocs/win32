@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a child window when the user clicks the window''s title bar or when the window is activated, moved, or sized.'
-ms.assetid: '6e60725d-aa01-48bb-86a5-f17f56b97d35'
-title: 'WM\_CHILDACTIVATE message'
+---
+Description: Sent to a child window when the user clicks the windows title bar or when the window is activated, moved, or sized.
+ms.assetid: 6e60725d-aa01-48bb-86a5-f17f56b97d35
+title: WM\_CHILDACTIVATE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHILDACTIVATE message

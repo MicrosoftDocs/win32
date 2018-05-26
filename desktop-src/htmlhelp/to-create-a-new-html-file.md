@@ -1,7 +1,12 @@
 ---
 title: To create a new HTML file
 description: To create a new HTML file
-ms.assetid: '8040F7D2-BB6C-4332-9F02-A185E498E117'
+ms.assetid: 8040F7D2-BB6C-4332-9F02-A185E498E117
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a new HTML file

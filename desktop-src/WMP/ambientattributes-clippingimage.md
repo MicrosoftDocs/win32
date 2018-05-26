@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.clippingImage
 description: The clippingImage attribute specifies or retrieves the region to clip the control to.
-ms.assetid: 'e4b51d31-f9c7-4398-983d-95867a2cab45'
-keywords: ["AmbientAttributes.clippingImage Windows Media Player"]
+ms.assetid: e4b51d31-f9c7-4398-983d-95867a2cab45
+keywords:
+- AmbientAttributes.clippingImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.clippingImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.clippingImage
@@ -57,9 +63,9 @@ See the [BUTTONELEMENT.mappingColor](buttonelement-mappingcolor.md) attribute fo
 [**AmbientAttributes.clippingColor**](ambientattributes-clippingcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

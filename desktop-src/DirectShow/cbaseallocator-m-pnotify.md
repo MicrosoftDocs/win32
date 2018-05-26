@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to a callback interface, which is called when samples are released.'
-ms.assetid: '7a1fa8a9-3f0d-4185-9f2d-9c986f731072'
-title: 'CBaseAllocator::m\_pNotify member'
+Description: Pointer to a callback interface, which is called when samples are released.
+ms.assetid: 7a1fa8a9-3f0d-4185-9f2d-9c986f731072
+title: CBaseAllocatorm\_pNotify member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_pNotify member
@@ -35,9 +40,9 @@ IMemAllocatorNotifyCallbackTemp *m_pNotify;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

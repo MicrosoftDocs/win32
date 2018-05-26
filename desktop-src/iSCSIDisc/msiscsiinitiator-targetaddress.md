@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_TargetAddress structure describes the characteristics of the SCSI address mapped to a target by the operation system.'
-ms.assetid: '4a48d73e-ed8d-4c23-a232-0a4060cc01ea'
-title: 'MSIscsiInitiator\_TargetAddress class'
+---
+Description: This MSIscsiInitiator\_TargetAddress structure describes the characteristics of the SCSI address mapped to a target by the operation system.
+ms.assetid: 4a48d73e-ed8d-4c23-a232-0a4060cc01ea
+title: MSIscsiInitiator\_TargetAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_TargetAddress class

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates who the item is shared with.'
-ms.assetid: 'ecbd1310-72c1-470f-a5bd-9c8b311d38e9'
-title: 'System.SharedWith'
+Description: Indicates who the item is shared with.
+ms.assetid: ecbd1310-72c1-470f-a5bd-9c8b311d38e9
+title: System.SharedWith
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SharedWith

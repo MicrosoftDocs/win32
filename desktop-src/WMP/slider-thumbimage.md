@@ -1,14 +1,20 @@
 ---
 title: SLIDER.thumbImage
 description: The thumbImage attribute specifies or retrieves the image that will be used to represent the current position of the slider.
-ms.assetid: '3aa69188-3443-483c-81a9-bf22832509d8'
-keywords: ["SLIDER.thumbImage Windows Media Player"]
+ms.assetid: 3aa69188-3443-483c-81a9-bf22832509d8
+keywords:
+- SLIDER.thumbImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.thumbImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.thumbImage
@@ -58,9 +64,9 @@ See the **CUSTOMSLIDER**.[positionImage](customslider-positionimage.md) attribut
 [**SLIDER.direction**](slider-direction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

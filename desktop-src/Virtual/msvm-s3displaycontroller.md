@@ -1,8 +1,10 @@
 ---
 title: Msvm\_S3DisplayController class
 description: Represents the state of the emulated S3 controller that is present in each virtual machine configuration.
-ms.assetid: 'b3129904-7f1a-49f3-9020-d02d2f81a353'
-keywords: ["Msvm_S3DisplayController class Hyper-V", "Msvm_S3DisplayController class Hyper-V , described"]
+ms.assetid: b3129904-7f1a-49f3-9020-d02d2f81a353
+keywords:
+- Msvm_S3DisplayController class Hyper-V
+- Msvm_S3DisplayController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -62,6 +64,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_S3DisplayController class
@@ -76,49 +83,49 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_S3DisplayController : CIM_DisplayController
 {
-  string   Caption = "Display Controller";
-  string   ElementName = "Display Controller";
+  string   Caption = "Display Controller";
+  string   ElementName = "Display Controller";
   datetime InstallDate;
-  string   Name = "Display Controller";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 2;
-  uint16   EnabledDefault = 2;
+  string   Name = "Display Controller";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 2;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_S3DisplayController";
-  string   DeviceID = "Microsoft:GUID";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_S3DisplayController";
+  string   DeviceID = "Microsoft:GUID";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 1;
-  uint32   MaxNumberControlled = 1;
-  string   ProtocolDescription = "Video";
-  string   Description = "Microsoft Emulated Display Controller";
-  string   VideoProcessor = "Virtual S3 Video Processor";
-  uint16   VideoMemoryType = 2;
-  string   OtherVideoMemoryType;
-  uint32   NumberOfVideoPages = 1024;
-  uint32   MaxMemorySupported = 4194304;
-  uint16   AcceleratorCapabilities[] = 2;
-  string   CapabilityDescriptions[] = { "Graphics Accelerator" };
+  uint16   ProtocolSupported = 1;
+  uint32   MaxNumberControlled = 1;
+  string   ProtocolDescription = "Video";
+  string   Description = "Microsoft Emulated Display Controller";
+  string   VideoProcessor = "Virtual S3 Video Processor";
+  uint16   VideoMemoryType = 2;
+  string   OtherVideoMemoryType;
+  uint32   NumberOfVideoPages = 1024;
+  uint32   MaxMemorySupported = 4194304;
+  uint16   AcceleratorCapabilities[] = 2;
+  string   CapabilityDescriptions[] = { "Graphics Accelerator" };
 };
 ```
 
@@ -148,7 +155,7 @@ The **Msvm\_S3DisplayController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -886,9 +893,9 @@ Access to the **Msvm\_S3DisplayController** class might be restricted by UAC Fil
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -907,9 +914,9 @@ Access to the **Msvm\_S3DisplayController** class might be restricted by UAC Fil
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

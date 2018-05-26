@@ -1,8 +1,13 @@
 ---
 title: IVMMouse ScrollWheelPosition property
 description: The ScrollWheelPosition property contains the current z-coordinate of the mouse. The indicated value can only represent relative coordinates.
-ms.assetid: 'ba6eee2c-d009-49c3-9c6b-67a21ade234e'
-keywords: ["ScrollWheelPosition property Virtual Server", "ScrollWheelPosition property Virtual Server , IVMMouse interface", "IVMMouse interface Virtual Server , ScrollWheelPosition property", "ScrollWheelPosition property Virtual Server , VMMouse interface", "VMMouse interface Virtual Server , ScrollWheelPosition property"]
+ms.assetid: ba6eee2c-d009-49c3-9c6b-67a21ade234e
+keywords:
+- ScrollWheelPosition property Virtual Server
+- ScrollWheelPosition property Virtual Server , IVMMouse interface
+- IVMMouse interface Virtual Server , ScrollWheelPosition property
+- ScrollWheelPosition property Virtual Server , VMMouse interface
+- VMMouse interface Virtual Server , ScrollWheelPosition property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse::ScrollWheelPosition property
@@ -26,7 +36,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_ScrollWheelPosition(
-  [in] long position
+  [in] long position
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is write-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is write-only.
 [**IVMMouse**](ivmmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

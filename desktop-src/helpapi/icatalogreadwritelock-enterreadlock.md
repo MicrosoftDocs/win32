@@ -1,8 +1,11 @@
 ---
 title: ICatalogReadWriteLock EnterReadLock method
 description: method EnterReadLock - creates a read lock
-ms.assetid: '304f396b-84af-4d96-9181-26f30c7191a2'
-keywords: ["EnterReadLock method HelpAPI", "EnterReadLock method HelpAPI , ICatalogReadWriteLock interface", "ICatalogReadWriteLock interface HelpAPI , EnterReadLock method"]
+ms.assetid: 304f396b-84af-4d96-9181-26f30c7191a2
+keywords:
+- EnterReadLock method HelpAPI
+- EnterReadLock method HelpAPI , ICatalogReadWriteLock interface
+- ICatalogReadWriteLock interface HelpAPI , EnterReadLock method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalogReadWriteLock::EnterReadLock method
@@ -22,8 +30,8 @@ method EnterReadLock - creates a read lock
 
 ```C++
 HRESULT EnterReadLock(
-  [in]          long         timeout,
-  [out, retval] VARIANT_BOOL *pRetVal
+  [in]          long         timeout,
+  [out, retval] VARIANT_BOOL *pRetVal
 );
 ```
 
@@ -49,8 +57,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -62,9 +70,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ICatalogReadWriteLock**](icatalogreadwritelock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

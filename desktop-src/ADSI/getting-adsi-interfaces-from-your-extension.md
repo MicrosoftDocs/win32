@@ -4,11 +4,16 @@ description: An extension often needs to get data from the directory object it b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2d2e6dc6-1eed-491b-9d6a-7f35c24a7ba8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2d2e6dc6-1eed-491b-9d6a-7f35c24a7ba8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["extensions ADSI ,getting ADSI interfaces from your extension", "ADSI ADSI ,example code C/C++ ,getting ADSI interfaces from your extension"]
+keywords:
+- extensions ADSI ,getting ADSI interfaces from your extension
+- ADSI ADSI ,example code C/C++ ,getting ADSI interfaces from your extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting ADSI Interfaces From Your Extension

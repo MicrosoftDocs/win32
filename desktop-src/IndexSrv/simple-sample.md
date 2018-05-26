@@ -1,7 +1,12 @@
 ---
 title: Simple Sample
 description: Simple Sample
-ms.assetid: '33270d73-a055-45d4-838f-43e52ea1f25a'
+ms.assetid: 33270d73-a055-45d4-838f-43e52ea1f25a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple Sample
@@ -11,7 +16,7 @@ ms.assetid: '33270d73-a055-45d4-838f-43e52ea1f25a'
 
  
 
-The Simple sample (QSample) is an example command-line application written in C++ that executes a query using the OLE DB Helper API functions [CICreateCommand](cicreatecommand.md) and [CITextToFullTree](citexttofulltree.md) to simplify the coding needed to create a query to an Indexing Service catalog.
+The Simple sample (QSample) is an example command-line application written in C++ that executes a query using the OLE DB Helper API functions [CICreateCommand](/windows/win32/Ntquery/nf-ntquery-cicreatecommand?branch=master) and [CITextToFullTree](/windows/win32/Ntquery/nf-ntquery-citexttofulltree?branch=master) to simplify the coding needed to create a query to an Indexing Service catalog.
 
 Source: mssdk\\samples\\winbase\\indexing\\Simple\\
 
@@ -58,7 +63,7 @@ Source: mssdk\\samples\\winbase\\indexing\\Simple\\
 
 ## Programming Notes
 
-This sample is simpler than the AdvQuery sample because it uses the OLE DB Helper functions [**CICreateCommand**](cicreatecommand.md) and [**CITextToFullTree**](citexttofulltree.md) instead of creating a command tree and using the low-level **ICommandTree** interface.
+This sample is simpler than the AdvQuery sample because it uses the OLE DB Helper functions [**CICreateCommand**](/windows/win32/Ntquery/nf-ntquery-cicreatecommand?branch=master) and [**CITextToFullTree**](/windows/win32/Ntquery/nf-ntquery-citexttofulltree?branch=master) instead of creating a command tree and using the low-level **ICommandTree** interface.
 
 ## Parameters
 

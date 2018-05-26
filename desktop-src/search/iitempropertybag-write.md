@@ -1,7 +1,12 @@
-﻿---
-Description: 'Causes one or more properties to be saved into the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.'
-ms.assetid: '35491fbc-fb1c-4bad-86e8-9f19856ed7cb'
-title: 'IItemPropertyBag::Write method'
+---
+Description: Causes one or more properties to be saved into the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+ms.assetid: 35491fbc-fb1c-4bad-86e8-9f19856ed7cb
+title: IItemPropertyBagWrite method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPropertyBag::Write method
@@ -35,7 +40,7 @@ The number of properties to save. This argument specifies the number of elements
 *pPropBag* \[in\]
 </dt> <dd>
 
-Pointer to an array of [**ITEMPROP**](itemprop.md) structures that specifies the properties to be saved.
+Pointer to an array of [**ITEMPROP**](/windows/win32/subsmgr/ns-subsmgr-_tagitemprop?branch=master) structures that specifies the properties to be saved.
 
 </dd> <dt>
 
@@ -54,7 +59,7 @@ If the method succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT** e
 
 The [**IItemPropertyBag**](iitempropertybag.md) interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the [**IItemPropertyBag**](iitempropertybag.md) interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](itemprop.md) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the [**IItemPropertyBag**](iitempropertybag.md) interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](/windows/win32/subsmgr/ns-subsmgr-_tagitemprop?branch=master) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
 
 ## Requirements
 

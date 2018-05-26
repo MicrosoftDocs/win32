@@ -1,7 +1,12 @@
 ---
 Description: Print Processor Structures
-ms.assetid: '4b20fe60-f2c0-43a5-851b-5ec05df07041'
+ms.assetid: 4b20fe60-f2c0-43a5-851b-5ec05df07041
 title: Print Processor Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Processor Structures

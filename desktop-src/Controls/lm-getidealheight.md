@@ -1,8 +1,9 @@
 ---
 title: LM\_GETIDEALHEIGHT message
-description: Retrieves the preferred height of a link for the control's current width.
-ms.assetid: 'bf6ef3c1-89bc-4c56-9384-085fd00234e1'
-keywords: ["LM_GETIDEALHEIGHT message Windows Controls"]
+description: Retrieves the preferred height of a link for the controls current width.
+ms.assetid: bf6ef3c1-89bc-4c56-9384-085fd00234e1
+keywords:
+- LM_GETIDEALHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LM\_GETIDEALHEIGHT message
@@ -36,7 +42,7 @@ Integer representing the preferred height of the link text, in pixels.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -44,15 +50,15 @@ Integer representing the preferred height of the link text, in pixels.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

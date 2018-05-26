@@ -4,13 +4,16 @@ description: Creates a new DFS namespace (DFS-N).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0bd374e7-a06e-4104-802f-73e4e0224826'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0bd374e7-a06e-4104-802f-73e4e0224826
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewNamespace method", "NewNamespace method, MSFT_DFSNamespace class", "MSFT_DFSNamespace class, NewNamespace method"]
+keywords:
+- NewNamespace method
+- NewNamespace method, MSFT_DFSNamespace class
+- MSFT_DFSNamespace class, NewNamespace method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewNamespace method of the MSFT\_DFSNamespace class
@@ -30,18 +36,18 @@ Creates a new DFS namespace (DFS-N).
 
 ```mof
 uint32 NewNamespace(
-  [in]  uint32            Type,
-  [in]  string            Description,
-  [in]  uint32            Flags,
-  [in]  uint32            TimeToLive,
-  [in]  uint32            State,
-  [in]  string            GrantAdminAccess[],
-  [in]  string            NamespaceRootTarget,
-  [in]  string            NamespaceRoot,
-  [in]  uint32            TargetState,
-  [in]  uint32            ReferralPriorityRank,
-  [in]  sint32            ReferralPriorityClass,
-  [out] MSFT_DFSNamespace cmdletOutput
+  [in]  uint32            Type,
+  [in]  string            Description,
+  [in]  uint32            Flags,
+  [in]  uint32            TimeToLive,
+  [in]  uint32            State,
+  [in]  string            GrantAdminAccess[],
+  [in]  string            NamespaceRootTarget,
+  [in]  string            NamespaceRoot,
+  [in]  uint32            TargetState,
+  [in]  uint32            ReferralPriorityRank,
+  [in]  sint32            ReferralPriorityClass,
+  [out] MSFT_DFSNamespace cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ A stand-alone namespace.
 
 </dt> <dd>
 
-A domain namespace of Windows 2000 Server mode.
+A domain namespace of Windows 2000 Server mode.
 
 </dd> <dt>
 
@@ -87,7 +93,7 @@ A domain namespace of Windows 2000 Server mode.
 
 </dt> <dd>
 
-A domain namespace of Windows Server 2008 mode.
+A domain namespace of Windows Server 2008 mode.
 
 </dd> </dl> </dd> <dt>
 
@@ -225,7 +231,7 @@ The UNC path of the root of the namespace. The namespace root can take one of th
 
 
 
- 
+ 
 
 where:
 
@@ -360,7 +366,7 @@ When this method returns, contains output from the **New-DFSNamespace** cmdlet. 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -374,9 +380,9 @@ When this method returns, contains output from the **New-DFSNamespace** cmdlet. 
 [**MSFT\_DFSNamespace**](msft-dfsnamespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,21 @@ description: The Cluster service calls the Open entry point function (through a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba8733dc-ec22-4e21-ab21-a7cbf89273e4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ba8733dc-ec22-4e21-ab21-a7cbf89273e4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["entry point functions Failover Cluster ,implementing Open", "Open Failover Cluster ,implementing"]
+keywords:
+- entry point functions Failover Cluster ,implementing Open
+- Open Failover Cluster ,implementing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing Open
 
-The [Cluster service](cluster-service.md) calls the [**Open**](open.md) entry point function (through a [Resource Monitor](resource-monitor.md)) to create a new instance of a [resource type](resource-types.md). Your [resource DLL](resource-dlls.md) should initialize an actual instance of the physical or logical entity to be supported as the [resource](resources.md) and associate it with a set of instance data. **Open** can also lay groundwork for the [**Online**](online.md) entry point.
+The [Cluster service](cluster-service.md) calls the [**Open**](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master) entry point function (through a [Resource Monitor](resource-monitor.md)) to create a new instance of a [resource type](resource-types.md). Your [resource DLL](resource-dlls.md) should initialize an actual instance of the physical or logical entity to be supported as the [resource](resources.md) and associate it with a set of instance data. **Open** can also lay groundwork for the [**Online**](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master) entry point.
 
 **To implement Open**
 

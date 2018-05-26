@@ -4,11 +4,16 @@ description: List of characteristics of a Failover Cluster resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,resources", "resources Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster ,resources
+- resources Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resources

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a network address filter.'
-ms.assetid: '4248904f-2b92-4407-a808-0d24eb629a41'
-title: 'MSFT\_NetAddressFilter class'
+Description: Represents a network address filter.
+ms.assetid: 4248904f-2b92-4407-a808-0d24eb629a41
+title: MSFT\_NetAddressFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAddressFilter class
@@ -15,26 +20,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetAddressFilter : CIM_FilterEntryBase
 {
-  string   RemoteAddress[];
-  string   LocalAddress[];
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Name;
-  boolean  IsNegated;
+  string   RemoteAddress[];
+  string   LocalAddress[];
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Name;
+  boolean  IsNegated;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
 };
 ```
 
@@ -57,7 +62,7 @@ The **MSFT\_NetAddressFilter** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -331,17 +336,17 @@ Reserved for internal use by the WMI provider only.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

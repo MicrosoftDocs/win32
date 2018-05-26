@@ -1,8 +1,11 @@
 ---
 title: IMsgrLock SendResponse method
 description: Sends authentication data from a Messenger client to a Messenger service .
-ms.assetid: '3c6790d9-9632-432d-b3b5-2d2c1150d61c'
-keywords: ["SendResponse method Windows Messenger", "SendResponse method Windows Messenger , IMsgrLock interface", "IMsgrLock interface Windows Messenger , SendResponse method"]
+ms.assetid: 3c6790d9-9632-432d-b3b5-2d2c1150d61c
+keywords:
+- SendResponse method Windows Messenger
+- SendResponse method Windows Messenger , IMsgrLock interface
+- IMsgrLock interface Windows Messenger , SendResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrLock::SendResponse method
 
-\[**SendResponse** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**SendResponse** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sends authentication data from a Messenger client to a Messenger service .
 
@@ -24,9 +32,9 @@ Sends authentication data from a Messenger client to a Messenger service .
 
 ```C++
 HRESULT SendResponse(
-  [in] BSTR bstrAppStrId,
-  [in] BSTR bstrResponse,
-  [in] long lCookie
+  [in] BSTR bstrAppStrId,
+  [in] BSTR bstrResponse,
+  [in] long lCookie
 );
 ```
 
@@ -77,14 +85,14 @@ Returns one of the following values.
 | <dl> <dt>**E\_FAIL**</dt> </dl>                         | The response has failed due to a catastrophic error.<br/>                     |
 | <dl> <dt>**E\_INVALIDARG**</dt> </dl>                   | One of the parameters passed to the method was not valid.<br/>                |
 | <dl> <dt>**MSGR\_E\_API\_NOTINITIALIZED**</dt> </dl>    | The Messenger client lock and key mechanism is not initialized.<br/>          |
-| <dl> <dt>**MSGR\_E\_API\_LOCKED**</dt> </dl>            | The Messenger service  API is locked.<br/>                                    |
+| <dl> <dt>**MSGR\_E\_API\_LOCKED**</dt> </dl>            | The Messenger service  API is locked.<br/>                                    |
 | <dl> <dt>**MSGR\_E\_API\_PENDING\_UNLOCK**</dt> </dl>   | The application timed out while waiting for the result of the challenge.<br/> |
 | <dl> <dt>**MSGR\_E\_API\_UNLOCK\_FAILED**</dt> </dl>    | The application response to the challenge failed.<br/>                        |
-| <dl> <dt>**MSGR\_E\_API\_ALREADY\_UNLOCKED**</dt> </dl> | The Messenger service  API is already unlocked.<br/>                          |
+| <dl> <dt>**MSGR\_E\_API\_ALREADY\_UNLOCKED**</dt> </dl> | The Messenger service  API is already unlocked.<br/>                          |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,15 +106,15 @@ The following table lists the error codes returned by this method.
 |----------------------------------------------|--------------------------------------------------------------------------|
 | 0x80000003                                   | One of the parameters passed to the method was not valid.                |
 | MSGR\_E\_API\_NOTINITIALIZED (0x81000751)    | The Messenger client lock and key mechanism is not initialized.          |
-| MSGR\_E\_API\_LOCKED (0x81000752)            | The Messenger service  API is locked.                                    |
+| MSGR\_E\_API\_LOCKED (0x81000752)            | The Messenger service  API is locked.                                    |
 | MSGR\_E\_API\_UNLOCK\_FAILED (0x81000753)    | The application response to the challenge failed.                        |
-| MSGR\_E\_API\_ALREADY\_UNLOCKED (0x81000754) | The Messenger service  API is already unlocked.                          |
+| MSGR\_E\_API\_ALREADY\_UNLOCKED (0x81000754) | The Messenger service  API is already unlocked.                          |
 | MSGR\_E\_API\_PENDING\_UNLOCK (0x81000755)   | The application timed out while waiting for the result of the challenge. |
 | 0x80004005                                   | The response has failed due to a catastrophic error.                     |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -114,10 +122,10 @@ The following table lists the error codes returned by this method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -141,9 +149,9 @@ The following table lists the error codes returned by this method.
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithSslClientExample
 description: This example show how to use the service proxy to talk to a calculator service, with SSL transport security.
-ms.assetid: 'cd0194d7-8ddd-4a0e-b4eb-fe7b3ef20e22'
-keywords: ["HttpCalculatorWithSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: cd0194d7-8ddd-4a0e-b4eb-fe7b3ef20e22
+keywords:
+- HttpCalculatorWithSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithSslClientExample

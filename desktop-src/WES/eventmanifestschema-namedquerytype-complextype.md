@@ -1,14 +1,20 @@
 ---
 title: NamedQueryType Complex Type
 description: Not used. Defines a list of named queries that query the event message string for a value and perform a specified action if found.
-ms.assetid: '2606094d-ae1b-4a3f-a78f-30659fa141ab'
-keywords: ["NamedQueryType complex type EventLog"]
+ms.assetid: 2606094d-ae1b-4a3f-a78f-30659fa141ab
+keywords:
+- NamedQueryType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - NamedQueryType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NamedQueryType Complex Type
@@ -68,14 +74,14 @@ The following example shows how to use the [**namedQueries**](eventmanifestschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

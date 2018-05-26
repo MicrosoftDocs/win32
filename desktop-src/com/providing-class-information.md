@@ -1,7 +1,12 @@
 ---
 title: Providing Class Information
 description: Providing Class Information
-ms.assetid: '808d9a39-4511-4aba-a23f-3c929970503b'
+ms.assetid: 808d9a39-4511-4aba-a23f-3c929970503b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing Class Information
@@ -10,11 +15,11 @@ It is often useful for a client of an object to examine the object's type inform
 
 However, not all objects have a CLSID, although they still need to provide type information. In addition, it is convenient for a client to have a way to simply ask an object for its type information instead of going through all the tedium to extract the same information from registry entries. This capability is important when dealing with outgoing interfaces on connectable objects. (See [Using IProvideClassInfo](using-iprovideclassinfo.md) for more information on how connectable objects provide this capability.)
 
-In these cases, a client can query the object for [**IProvideClassInfo**](iprovideclassinfo.md) or [**IProvideClassInfo2**](iprovideclassinfo2.md). If these interfaces exist, the client calls the [**GetClassInfo**](iprovideclassinfo-getclassinfo.md) method to get the type information for the interface.
+In these cases, a client can query the object for [**IProvideClassInfo**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo?branch=master) or [**IProvideClassInfo2**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo2?branch=master). If these interfaces exist, the client calls the [**GetClassInfo**](/windows/win32/OCIdl/nf-ocidl-iprovideclassinfo-getclassinfo?branch=master) method to get the type information for the interface.
 
-By implementing [**IProvideClassInfo**](iprovideclassinfo.md) or [**IProvideClassInfo2**](iprovideclassinfo2.md), an object specifies that it can provide type information for its entire class; that is, what it would describe in its coclass section of its type library, if it has one. [**GetClassInfo**](iprovideclassinfo-getclassinfo.md) returns an **ITypeInfo** pointer corresponding to the object's coclass information. Through this **ITypeInfo** pointer, the client can examine all the object's incoming and outgoing interface definitions.
+By implementing [**IProvideClassInfo**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo?branch=master) or [**IProvideClassInfo2**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo2?branch=master), an object specifies that it can provide type information for its entire class; that is, what it would describe in its coclass section of its type library, if it has one. [**GetClassInfo**](/windows/win32/OCIdl/nf-ocidl-iprovideclassinfo-getclassinfo?branch=master) returns an **ITypeInfo** pointer corresponding to the object's coclass information. Through this **ITypeInfo** pointer, the client can examine all the object's incoming and outgoing interface definitions.
 
-The object can also provide [**IProvideClassInfo2**](iprovideclassinfo2.md). The **IProvideClassInfo2** interface is a simple extension to [**IProvideClassInfo**](iprovideclassinfo.md) that makes it quick and easy to retrieve an object's outgoing interface identifiers for its default event set. **IProvideClassInfo2** is derived from **IProvideClassInfo**.
+The object can also provide [**IProvideClassInfo2**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo2?branch=master). The **IProvideClassInfo2** interface is a simple extension to [**IProvideClassInfo**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo?branch=master) that makes it quick and easy to retrieve an object's outgoing interface identifiers for its default event set. **IProvideClassInfo2** is derived from **IProvideClassInfo**.
 
 ## Related topics
 

@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithUsernameOverSslClientExample
 description: This example shows a HTTP client that uses service proxy to talk to a calculator service, with username over SSL mixed-mode security.
-ms.assetid: '82f27502-0f18-4b30-9da1-9191e34366c6'
-keywords: ["HttpCalculatorWithUsernameOverSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 82f27502-0f18-4b30-9da1-9191e34366c6
+keywords:
+- HttpCalculatorWithUsernameOverSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithUsernameOverSslClientExample

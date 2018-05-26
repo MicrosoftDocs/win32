@@ -1,14 +1,20 @@
 ---
 title: Week (weeksType) Element
 description: Specifies a specific week of the month.
-ms.assetid: '0cec07da-e9e7-43ef-9f54-48d00114ba1f'
-keywords: ["Week element Task Scheduler"]
+ms.assetid: 0cec07da-e9e7-43ef-9f54-48d00114ba1f
+keywords:
+- Week element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Week
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Week (weeksType) Element
@@ -43,8 +49,8 @@ When specifying the weeks of the month, use the numbers 1-4 for the first four w
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -58,9 +64,9 @@ When specifying the weeks of the month, use the numbers 1-4 for the first four w
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

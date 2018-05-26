@@ -4,10 +4,13 @@ description: The Event Viewer snap-in allows extensions for the following node t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ba004e3-13f6-47c6-a95c-24d25a649cfc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8ba004e3-13f6-47c6-a95c-24d25a649cfc
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Event Viewer Extensible Node Types

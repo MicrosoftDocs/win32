@@ -1,14 +1,20 @@
 ---
 title: WM/WMShadowFileSourceFileType
 description: The WM/WMShadowFileSourceFileType is the file type of the file contained in the shadow file.
-ms.assetid: '4c4b70b6-0e26-49f3-b7c1-f6e1fe791e48'
-keywords: ["WM/WMShadowFileSourceFileType Windows Media Player"]
+ms.assetid: 4c4b70b6-0e26-49f3-b7c1-f6e1fe791e48
+keywords:
+- WM/WMShadowFileSourceFileType Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/WMShadowFileSourceFileType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMShadowFileSourceFileType
@@ -41,9 +47,9 @@ The shadow file is specified by using the [ShadowFilePath](shadowfilepath-attrib
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: MaxWebhitsCpuTime
 description: MaxWebhitsCpuTime
-ms.assetid: 'bddb1ab2-72b3-478d-8445-7e555491cace'
+ms.assetid: bddb1ab2-72b3-478d-8445-7e555491cace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxWebhitsCpuTime

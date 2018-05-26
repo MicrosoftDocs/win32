@@ -1,8 +1,14 @@
 ---
 title: Crop effect
 description: Use the crop effect to output a specified region of an image.
-ms.assetid: 'DFB7DE20-F202-4E7F-AE63-94BF817B6E30'
-keywords: ["crop effect"]
+ms.assetid: DFB7DE20-F202-4E7F-AE63-94BF817B6E30
+keywords:
+- crop effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Crop effect
@@ -29,7 +35,7 @@ The CLSID for this effect is CLSID\_D2D1Crop.
 
 
 
- 
+ 
 
 
 ```C++
@@ -92,7 +98,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -108,25 +114,25 @@ Output height in pixels=(Rect.Bottom-Rect.Top)\*(User's DPI/96)
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: EnumerateObjects method of the BcdStore class
 description: Enumerates the objects of the specified type.
-ms.assetid: '81834c12-3565-4a55-ae55-cc248e2d2aee'
-keywords: ["EnumerateObjects method Boot Config", "EnumerateObjects method Boot Config , BcdStore class", "BcdStore class Boot Config , EnumerateObjects method"]
+ms.assetid: 81834c12-3565-4a55-ae55-cc248e2d2aee
+keywords:
+- EnumerateObjects method Boot Config
+- EnumerateObjects method Boot Config , BcdStore class
+- BcdStore class Boot Config , EnumerateObjects method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumerateObjects method of the BcdStore class
@@ -22,8 +30,8 @@ Enumerates the objects of the specified type.
 
 ```mof
 boolean EnumerateObjects(
-  [in]  uint32    Type,
-  [out] BcdObject Objects[]
+  [in]  uint32    Type,
+  [out] BcdObject Objects[]
 );
 ```
 
@@ -53,8 +61,8 @@ An array of objects.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -67,9 +75,9 @@ An array of objects.
 [**BcdStore**](bcdstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

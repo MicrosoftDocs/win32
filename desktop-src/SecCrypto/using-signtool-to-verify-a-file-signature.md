@@ -1,7 +1,12 @@
 ---
-Description: 'Explains how to use SignTool to verify a file signature.'
-ms.assetid: '9c40a397-19ea-4600-97ee-987dd10f4ef8'
+Description: Explains how to use SignTool to verify a file signature.
+ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: Using SignTool to Verify a File Signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SignTool to Verify a File Signature

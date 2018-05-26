@@ -4,11 +4,14 @@ description: Contains the device text.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2a67e8d4-2af3-4738-ade2-a79800aea4a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2a67e8d4-2af3-4738-ade2-a79800aea4a1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeviceText property Remote Desktop Services", "DeviceText property Remote Desktop Services , IMsRdpDeviceV2 interface", "IMsRdpDeviceV2 interface Remote Desktop Services , DeviceText property"]
+keywords:
+- DeviceText property Remote Desktop Services
+- DeviceText property Remote Desktop Services , IMsRdpDeviceV2 interface
+- IMsRdpDeviceV2 interface Remote Desktop Services , DeviceText property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceV2::DeviceText property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DeviceText(
-  [out, retval] BSTR *pDeviceText
+  [out, retval] BSTR *pDeviceText
 );
 ```
 
@@ -47,8 +53,8 @@ The display name for the device.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
+| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpDeviceV2 is defined as 5fb94466-7661-42a8-98b7-01904c11668f<br/>      |
@@ -62,9 +68,9 @@ The display name for the device.
 [**IMsRdpDeviceV2**](imsrdpdevicev2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

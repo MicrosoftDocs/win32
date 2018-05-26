@@ -4,17 +4,21 @@ description: Contains an entry in an NIS map.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7b51f9c3-b4e6-493c-a12e-117b42000f45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7b51f9c3-b4e6-493c-a12e-117b42000f45
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["nisObject class AD Schema"]
+keywords:
+- nisObject class AD Schema
 topic_type:
 - apiref
 api_name:
 - nisObject
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # nisObject class
@@ -35,10 +39,10 @@ Contains an entry in an NIS map.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -65,7 +69,7 @@ Contains an entry in an NIS map.
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -197,7 +201,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -340,7 +344,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -490,7 +494,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -628,9 +632,9 @@ This class contains the following attributes for Windows Server 2012:
 [RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

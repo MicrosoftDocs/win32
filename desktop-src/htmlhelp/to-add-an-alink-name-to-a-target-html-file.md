@@ -1,7 +1,12 @@
 ---
 title: To add an ALink name to a target HTML file
 description: To add an ALink name to a target HTML file
-ms.assetid: '8ABE48C6-4928-403f-99A7-89C1702C5DC4'
+ms.assetid: 8ABE48C6-4928-403f-99A7-89C1702C5DC4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add an ALink name to a target HTML file

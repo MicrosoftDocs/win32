@@ -1,7 +1,12 @@
 ---
-Description: 'The name of the event organizer.'
-ms.assetid: 'cee193d6-f683-44c0-90d2-f793c76eff3e'
-title: 'System.Calendar.OrganizerName'
+Description: The name of the event organizer.
+ms.assetid: cee193d6-f683-44c0-90d2-f793c76eff3e
+title: System.Calendar.OrganizerName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.OrganizerName

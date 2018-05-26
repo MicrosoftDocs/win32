@@ -4,11 +4,17 @@ description: The ability of a user to change their own password is a permission 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '071a817b-087e-49ee-af1a-6f190493cac0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 071a817b-087e-49ee-af1a-6f190493cac0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Modifying User Cannot Change Password (WinNT Provider)", "User Cannot Change Password (WinNT Provider),modifying", "WinNT provider ADSI ,user management examples,User Cannot Change Password,modifying"]
+keywords:
+- Modifying User Cannot Change Password (WinNT Provider)
+- User Cannot Change Password (WinNT Provider),modifying
+- WinNT provider ADSI ,user management examples,User Cannot Change Password,modifying
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying User Cannot Change Password (WinNT Provider)

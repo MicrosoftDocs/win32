@@ -1,7 +1,12 @@
 ---
 title: Server Development Using Context Handles
 description: From the perspective of server program development, a context handle is an untyped pointer. Server programs initialize context handles by pointing them at data in memory or on some other form of storage (such as files on disks).
-ms.assetid: '6a1aabca-4cb9-401c-90c7-0cff7a69b7b6'
+ms.assetid: 6a1aabca-4cb9-401c-90c7-0cff7a69b7b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Development Using Context Handles

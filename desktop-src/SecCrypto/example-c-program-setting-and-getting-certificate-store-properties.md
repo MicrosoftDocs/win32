@@ -1,7 +1,12 @@
 ---
-Description: 'The following example sets and gets a certificate store property, the localized store name. This property is not persisted when the store is closed.'
-ms.assetid: '9fb368c9-a0d7-4c5f-9a38-7ef8f7283354'
-title: 'Example C Program: Setting and Getting Certificate Store Properties'
+Description: The following example sets and gets a certificate store property, the localized store name. This property is not persisted when the store is closed.
+ms.assetid: 9fb368c9-a0d7-4c5f-9a38-7ef8f7283354
+title: Example C Program Setting and Getting Certificate Store Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Setting and Getting Certificate Store Properties
@@ -10,18 +15,18 @@ The following example sets and gets a certificate store property, the localized 
 
 This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Opening a certificate store using [**CertOpenStore**](certopenstore.md).
--   Setting the localized name of the store using [**CertSetStoreProperty**](certsetstoreproperty.md).
--   Retrieving the localized name of the store using [**CertGetStoreProperty**](certgetstoreproperty.md).
--   Retrieving the predefined localized store name using [**CryptFindLocalizedName**](cryptfindlocalizedname.md).
--   Save the certificate store as a [*PKCS \#7*](security.p_gly#-security-pkcs-7-standard-gly) message to a file using [**CertSaveStore**](certsavestore.md).
--   Save the certificate store to a memory [*BLOB*](security.b_gly#-security-blob-gly) using [**CertSaveStore**](certsavestore.md).
--   Determine the number of signers of the PKCS \#7 message using [**CryptGetMessageSignercount**](cryptgetmessagesignercount.md).
--   Open a certificate store from a PKCS \#7 message in memory using [**CryptGetMessageCertificates**](cryptgetmessagecertificates.md).
--   Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](crypt-algorithm-identifier.md) and [**CRYPT\_HASH\_MESSAGE\_PARA**](crypt-hash-message-para.md) data structures needed to [*hash*](security.h_gly#-security-hash-gly) the message
--   Hash and encode the message using [**CryptHashMessage**](crypthashmessage.md).
--   Determine whether changes have been made to an open certificate store and synchronizing the store if needed using [**CertControlStore**](certcontrolstore.md).
--   Closing a certificate store using [**CertCloseStore**](certclosestore.md) with the CERT\_CLOSE\_STORE\_FORCE\_FLAG.
+-   Opening a certificate store using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master).
+-   Setting the localized name of the store using [**CertSetStoreProperty**](/windows/win32/Wincrypt/nf-wincrypt-certsetstoreproperty?branch=master).
+-   Retrieving the localized name of the store using [**CertGetStoreProperty**](/windows/win32/Wincrypt/nf-wincrypt-certgetstoreproperty?branch=master).
+-   Retrieving the predefined localized store name using [**CryptFindLocalizedName**](/windows/win32/Wincrypt/nf-wincrypt-cryptfindlocalizedname?branch=master).
+-   Save the certificate store as a [*PKCS \#7*](security.p_gly#-security-pkcs-7-standard-gly) message to a file using [**CertSaveStore**](/windows/win32/Wincrypt/nf-wincrypt-certsavestore?branch=master).
+-   Save the certificate store to a memory [*BLOB*](security.b_gly#-security-blob-gly) using [**CertSaveStore**](/windows/win32/Wincrypt/nf-wincrypt-certsavestore?branch=master).
+-   Determine the number of signers of the PKCS \#7 message using [**CryptGetMessageSignercount**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetmessagesignercount?branch=master).
+-   Open a certificate store from a PKCS \#7 message in memory using [**CryptGetMessageCertificates**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetmessagecertificates?branch=master).
+-   Initialize the [**CRYPT\_ALGORITHM\_IDENTIFIER**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_algorithm_identifier?branch=master) and [**CRYPT\_HASH\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_hash_message_para?branch=master) data structures needed to [*hash*](security.h_gly#-security-hash-gly) the message
+-   Hash and encode the message using [**CryptHashMessage**](/windows/win32/Wincrypt/nf-wincrypt-crypthashmessage?branch=master).
+-   Determine whether changes have been made to an open certificate store and synchronizing the store if needed using [**CertControlStore**](/windows/win32/Wincrypt/nf-wincrypt-certcontrolstore?branch=master).
+-   Closing a certificate store using [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master) with the CERT\_CLOSE\_STORE\_FORCE\_FLAG.
 
 
 ```C++

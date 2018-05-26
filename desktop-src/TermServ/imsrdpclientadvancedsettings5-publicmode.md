@@ -4,11 +4,20 @@ description: Sets or retrieves the configuration for public mode. Public mode pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dff6121a-b69c-411f-832b-29f9609f4230'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: dff6121a-b69c-411f-832b-29f9609f4230
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PublicMode property Remote Desktop Services", "PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , PublicMode property", "PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , PublicMode property", "PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , PublicMode property", "PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , PublicMode property"]
+keywords:
+- PublicMode property Remote Desktop Services
+- PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , PublicMode property
+- PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , PublicMode property
+- PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , PublicMode property
+- PublicMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , PublicMode property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +37,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings5::PublicMode property
@@ -41,11 +53,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_PublicMode(
-  [in]  VARIANT_BOOL fPublicMode
+  [in]  VARIANT_BOOL fPublicMode
 );
 
 HRESULT get_PublicMode(
-  [out] VARIANT_BOOL *pfPublicMode
+  [out] VARIANT_BOOL *pfPublicMode
 );
 ```
 
@@ -61,8 +73,8 @@ Sets the public mode setting to **VARIANT\_TRUE** or **VARIANT\_FALSE**. If set 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings5 is defined as FBA7F64E-6783-4405-DA45-FA4A763DABD0<br/> |
@@ -85,9 +97,9 @@ Sets the public mode setting to **VARIANT\_TRUE** or **VARIANT\_FALSE**. If set 
 [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

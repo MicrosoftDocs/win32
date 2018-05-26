@@ -1,8 +1,10 @@
 ---
 title: MDM\_RestrictionsUser class
 description: Represents the configuration of restriction settings on the device for standard users.
-ms.assetid: 'aba81eb0-b2bb-4e35-bedd-be5e34b3a3ed'
-keywords: ["MDM_RestrictionsUser class MDM Settings", "MDM_RestrictionsUser class MDM Settings , described"]
+ms.assetid: aba81eb0-b2bb-4e35-bedd-be5e34b3a3ed
+keywords:
+- MDM_RestrictionsUser class MDM Settings
+- MDM_RestrictionsUser class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -15,13 +17,18 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_RestrictionsUser class
 
 Represents the configuration of restriction settings on the device for standard users.
 
-**Windows 8.1:** This class is supported beginning with Windows 8.1 Update.
+**Windows 8.1:** This class is supported beginning with Windows 8.1 Update.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -31,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_RestrictionsUser
 {
-  Uint32  Key;
+  Uint32  Key;
   boolean PCSettingsSyncEnabled;
   boolean PCSettingsMeteredNetworkSyncEnabled;
   boolean PCSettingsPasswordSyncEnabled;
@@ -111,7 +118,7 @@ True if the **Sync your settings** option under **Change Settings** is on.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -126,9 +133,9 @@ True if the **Sync your settings** option under **Change Settings** is on.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

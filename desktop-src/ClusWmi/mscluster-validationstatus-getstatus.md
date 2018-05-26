@@ -4,13 +4,16 @@ description: Gets the status of the cluster validation.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BFA9C882-9409-412B-993E-FCB4B4FA1206'
-ms.prod: 'windows-server-dev'
+ms.assetid: BFA9C882-9409-412B-993E-FCB4B4FA1206
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetStatus method", "GetStatus method, MSCluster_ValidationStatus interface", "MSCluster_ValidationStatus interface, GetStatus method"]
+keywords:
+- GetStatus method
+- GetStatus method, MSCluster_ValidationStatus interface
+- MSCluster_ValidationStatus interface, GetStatus method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetStatus method of the MSCluster\_ValidationStatus class
@@ -30,7 +36,7 @@ Gets the status of the cluster validation.
 
 ```mof
 void GetStatus(
-  [out] uint32 Status
+  [out] uint32 Status
 );
 ```
 
@@ -96,9 +102,9 @@ The status of the validation. The possible values are a bit mask combining the f
 
 </dt> <dd>
 
-**Windows Server 2012 R2 and Windows Server 2012:  **
+**Windows Server 2012 R2 and Windows Server 2012:  **
 
-This value is not supported before Windows Server 2016.
+This value is not supported before Windows Server 2016.
 
 </dd> </dl> </dd> </dl>
 
@@ -113,7 +119,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -127,9 +133,9 @@ This method does not return a value.
 [**MSCluster\_ValidationStatus**](mscluster-validationstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

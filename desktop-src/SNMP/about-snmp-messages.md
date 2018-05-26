@@ -1,7 +1,12 @@
 ---
 title: About SNMP Messages
 description: The Simple Network Management Protocol uses messages to communicate and exchange information between remote SNMP entities.
-ms.assetid: '9ba4b854-fc02-40c1-a92f-7c102c900e95'
+ms.assetid: 9ba4b854-fc02-40c1-a92f-7c102c900e95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About SNMP Messages

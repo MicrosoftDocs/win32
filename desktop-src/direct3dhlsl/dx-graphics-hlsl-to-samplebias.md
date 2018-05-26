@@ -1,7 +1,12 @@
 ---
 title: SampleBias (DirectX HLSL Texture Object)
 description: Samples a texture, after applying the input bias to the mipmap level.
-ms.assetid: '1bc03ad8-7b69-4001-81c7-64d8c631d68d'
+ms.assetid: 1bc03ad8-7b69-4001-81c7-64d8c631d68d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleBias (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Samples a texture, after applying the input bias to the mipmap level.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -66,13 +71,13 @@ Samples a texture, after applying the input bias to the mipmap level.
 <td>float3</td>
 </tr>
 <tr class="even">
-<td>TextureCubeArray¹</td>
+<td>TextureCubeArray </td>
 <td>float4</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td><p><span id="Bias"></span><span id="bias"></span><span id="BIAS"></span><em>Bias</em></p></td>
@@ -103,20 +108,20 @@ Samples a texture, after applying the input bias to the mipmap level.
 <td>int3</td>
 </tr>
 <tr class="even">
-<td>TextureCube, TextureCubeArray¹</td>
+<td>TextureCube, TextureCubeArray </td>
 <td>not supported</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -128,13 +133,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 |          |           | x        | x         |          |           |
 
 
 
- 
+ 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
@@ -146,9 +151,9 @@ This function is supported in the following shader models.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

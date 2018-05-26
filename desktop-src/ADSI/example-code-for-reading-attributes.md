@@ -4,16 +4,20 @@ description: The following code example enumerates the properties of the specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f5541e9b-e149-4d22-9ff6-a32bd8239f57'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f5541e9b-e149-4d22-9ff6-a32bd8239f57
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Reading Attributes ADSI"]
+keywords:
+- Example Code for Reading Attributes ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Reading Attributes
 
-The following code example enumerates the properties of the specified user in the current domain, by searching for the user and then using [**IADsPropertyList**](iadspropertylist.md) to enumerate its properties. Be aware that time and date values, as large integers, are handled and how octet strings for **objectSID** and **objectGUID** are handled.
+The following code example enumerates the properties of the specified user in the current domain, by searching for the user and then using [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master) to enumerate its properties. Be aware that time and date values, as large integers, are handled and how octet strings for **objectSID** and **objectGUID** are handled.
 
 
 ```C++

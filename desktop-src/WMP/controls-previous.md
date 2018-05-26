@@ -1,8 +1,11 @@
 ---
 title: Controls.previous method
 description: The previous method sets the current item to the previous item in the playlist.
-ms.assetid: '09f83306-5e82-4384-ad28-38e406a401d8'
-keywords: ["previous method Windows Media Player", "previous method Windows Media Player , Controls class", "Controls class Windows Media Player , previous method"]
+ms.assetid: 09f83306-5e82-4384-ad28-38e406a401d8
+keywords:
+- previous method Windows Media Player
+- previous method Windows Media Player , Controls class
+- Controls class Windows Media Player , previous method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.previous method
@@ -82,9 +90,9 @@ The following example creates an HTML BUTTON element that uses **previous** to m
 [**Controls.stop**](controls-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

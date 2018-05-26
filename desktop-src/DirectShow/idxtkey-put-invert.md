@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Invert method specifies whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.'
-ms.assetid: '06acdd9f-eb3a-49bd-961d-00966df2ccb4'
-title: 'IDxtKey::put\_Invert method'
+---
+Description: The put\_Invert method specifies whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.
+ms.assetid: 06acdd9f-eb3a-49bd-961d-00966df2ccb4
+title: IDxtKeyput\_Invert method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::put\_Invert method

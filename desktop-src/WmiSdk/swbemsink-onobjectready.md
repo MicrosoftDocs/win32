@@ -1,13 +1,16 @@
 ---
-Description: 'The OnObjectReady event of an SWbemSink object is triggered when an asynchronous operation returns an object.'
+Description: The OnObjectReady event of an SWbemSink object is triggered when an asynchronous operation returns an object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '14110ee7-a808-4786-b695-2ce54189d826'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 14110ee7-a808-4786-b695-2ce54189d826
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ISWbemSinkEvents::OnObjectReady event'
+title: ISWbemSinkEventsOnObjectReady event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISWbemSinkEvents::OnObjectReady event
@@ -87,8 +90,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -104,9 +107,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 [**SWbemSink**](swbemsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: RPC Load Balancing
 description: RPC Load Balancing
-ms.assetid: 'c646f748-d5f2-422d-8305-1f86c0dc61b4'
+ms.assetid: c646f748-d5f2-422d-8305-1f86c0dc61b4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Load Balancing

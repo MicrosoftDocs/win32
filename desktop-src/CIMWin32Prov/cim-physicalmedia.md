@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PhysicalMedia class represents types of documentation and storage medium, such as tapes, CD ROMs, and so on.'
+Description: The CIM\_PhysicalMedia class represents types of documentation and storage medium, such as tapes, CD ROMs, and so on.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ba258e53-4a82-4b30-aadd-54448841cd06'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ba258e53-4a82-4b30-aadd-54448841cd06
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalMedia class'
+title: CIM\_PhysicalMedia class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalMedia class
@@ -19,7 +22,7 @@ The **CIM\_PhysicalMedia** class represents types of documentation and storage m
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,29 +32,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FAF76B7D-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_PhysicalMedia : CIM_PhysicalComponent
 {
-  uint64   Capacity;
-  string   Caption;
-  boolean  CleanerMedia;
-  string   CreationClassName;
-  string   Description;
-  boolean  HotSwappable;
+  uint64   Capacity;
+  string   Caption;
+  boolean  CleanerMedia;
+  string   CreationClassName;
+  string   Description;
+  boolean  HotSwappable;
   datetime InstallDate;
-  string   Manufacturer;
-  string   MediaDescription;
-  uint16   MediaType;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  boolean  Removable;
-  boolean  Replaceable;
-  string   SerialNumber;
-  string   SKU;
-  string   Status;
-  string   Tag;
-  string   Version;
-  boolean  WriteProtectOn;
+  string   Manufacturer;
+  string   MediaDescription;
+  uint16   MediaType;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  boolean  Removable;
+  boolean  Replaceable;
+  string   SerialNumber;
+  string   SKU;
+  string   Status;
+  string   Tag;
+  string   Version;
+  boolean  WriteProtectOn;
 };
 ```
 
@@ -706,7 +709,7 @@ Floppy disk
 
 </dt> <dd>
 
-Tape — DST small
+Tape   DST small
 
 </dd> <dt>
 
@@ -717,7 +720,7 @@ Tape — DST small
 
 </dt> <dd>
 
-Tape — DST medium
+Tape   DST medium
 
 </dd> <dt>
 
@@ -728,7 +731,7 @@ Tape — DST medium
 
 </dt> <dd>
 
-Tape — DST large
+Tape   DST large
 
 </dd> </dl>
 
@@ -1051,8 +1054,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1066,9 +1069,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalComponent**](cim-physicalcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

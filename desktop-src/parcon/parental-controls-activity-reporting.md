@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls Activity Reporting
-ms.assetid: '5ffac4f8-7112-4383-bf73-16e2289a3942'
+ms.assetid: 5ffac4f8-7112-4383-bf73-16e2289a3942
 title: Parental Controls Activity Reporting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Activity Reporting

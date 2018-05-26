@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DRIVER\_UPGRADE\_INFO\_2 structure is used as an input to a printer interface DLL''s DrvUpgradePrinter function.'
-ms.assetid: '691554c5-5c99-40f0-b0d6-3556e004dd30'
-title: 'DRIVER\_UPGRADE\_INFO\_2 structure'
+---
+Description: The DRIVER\_UPGRADE\_INFO\_2 structure is used as an input to a printer interface DLLs DrvUpgradePrinter function.
+ms.assetid: 691554c5-5c99-40f0-b0d6-3556e004dd30
+title: DRIVER\_UPGRADE\_INFO\_2 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRIVER\_UPGRADE\_INFO\_2 structure

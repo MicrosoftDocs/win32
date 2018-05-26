@@ -4,11 +4,13 @@ description: Provides the methods needed to obtain the results of the asynchrono
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20F42FDC-7026-468E-9B8D-25DFFBE229C1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 20F42FDC-7026-468E-9B8D-25DFFBE229C1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IConnectionBrokerRequest interface Remote Desktop Services", "IConnectionBrokerRequest interface Remote Desktop Services , described"]
+keywords:
+- IConnectionBrokerRequest interface Remote Desktop Services
+- IConnectionBrokerRequest interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IConnectionBrokerRequest interface
@@ -43,7 +48,7 @@ The **IConnectionBrokerRequest** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +56,8 @@ The **IConnectionBrokerRequest** interface has these methods.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported client<br/> | Windows 8<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl>       |
 | Library<br/>                  | <dl> <dt>Cbclient.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Cbclient.dll</dt> </dl>     |
@@ -67,9 +72,9 @@ The **IConnectionBrokerRequest** interface has these methods.
 [**IConnectionBrokerClient::GetTargetInfo**](iconnectionbrokerclient-gettargetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

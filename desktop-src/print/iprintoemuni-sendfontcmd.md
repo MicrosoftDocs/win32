@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::SendFontCmd method enables a rendering plug-in to modify a printer''s font selection command and then send it to the printer.'
-ms.assetid: 'b90a94d1-c6f3-483c-b5fc-edfee27094ab'
-title: 'IPrintOemUni::SendFontCmd method'
+---
+Description: The IPrintOemUniSendFontCmd method enables a rendering plug-in to modify a printers font selection command and then send it to the printer.
+ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
+title: IPrintOemUniSendFontCmd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::SendFontCmd method

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows you how to use one of the effects included in XAPOFX in an XAudio2 effect chain.'
-ms.assetid: 'dc325584-13f7-231a-e0c7-17f38d54ae11'
-title: 'How to: Use XAPOFX in XAudio2'
+Description: This topic shows you how to use one of the effects included in XAPOFX in an XAudio2 effect chain.
+ms.assetid: dc325584-13f7-231a-e0c7-17f38d54ae11
+title: How to Use XAPOFX in XAudio2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Use XAPOFX in XAudio2
@@ -10,7 +15,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
 ## To use an effect from XAPOFX in an XAudio2 effect chain
 
-1.  Create the effect by passing the CLSID of an XAPOFX effect to the [**CreateFX**](createfx.md) function.
+1.  Create the effect by passing the CLSID of an XAPOFX effect to the [**CreateFX**](/windows/win32/XAPOFX/nf-xapofx-createfx?branch=master) function.
 
     In this case, the simplified reverb effect FXReverb is being created.
 
@@ -21,7 +26,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
     
 
-2.  Populate an [**XAUDIO2\_EFFECT\_DESCRIPTOR**](xaudio2-effect-descriptor.md) structure with data.
+2.  Populate an [**XAUDIO2\_EFFECT\_DESCRIPTOR**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_descriptor?branch=master) structure with data.
 
     ```
     XAUDIO2_EFFECT_DESCRIPTOR descriptor;
@@ -32,7 +37,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
     
 
-3.  Populate an [**XAUDIO2\_EFFECT\_CHAIN**](xaudio2-effect-chain.md) structure with data.
+3.  Populate an [**XAUDIO2\_EFFECT\_CHAIN**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_effect_chain?branch=master) structure with data.
 
     ```
     XAUDIO2_EFFECT_CHAIN chain;
@@ -65,7 +70,7 @@ This topic shows you how to use one of the effects included in XAPOFX in an XAud
 
 6.  Populate the parameter structure, if any, associated with the effect.
 
-    In this case, the [**FXREVERB\_PARAMETERS**](fxreverb-parameters.md) structure is used to set the diffusion and room size that the reverb effect should use.
+    In this case, the [**FXREVERB\_PARAMETERS**](/windows/win32/xapofx/ns-xapofx-fxreverb_parameters?branch=master) structure is used to set the diffusion and room size that the reverb effect should use.
 
     ```
     FXREVERB_PARAMETERS XAPOParameters;

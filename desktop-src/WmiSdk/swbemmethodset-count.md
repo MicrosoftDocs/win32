@@ -1,13 +1,16 @@
 ---
-Description: 'The Count property of the SWbemMethodSet object defines the number of items in the collection. This property is read-only.'
+Description: The Count property of the SWbemMethodSet object defines the number of items in the collection. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '492dabef-f417-4b1e-bc3a-8d39d8f7ee35'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 492dabef-f417-4b1e-bc3a-8d39d8f7ee35
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemMethodSet.Count property'
+title: SWbemMethodSet.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemMethodSet.Count property
@@ -35,8 +38,8 @@ SWbemMethodSet.Count As Integer
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -52,9 +55,9 @@ SWbemMethodSet.Count As Integer
 [**SWbemMethodSet**](swbemmethodset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

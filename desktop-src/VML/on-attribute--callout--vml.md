@@ -1,7 +1,12 @@
 ---
 title: On Attribute (Callout)(VML)
 description: On Attribute (Callout)(VML)
-ms.assetid: 'd8a7bac5-522c-4036-ba80-2a1c48232eef'
+ms.assetid: d8a7bac5-522c-4036-ba80-2a1c48232eef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On Attribute (Callout)(VML)

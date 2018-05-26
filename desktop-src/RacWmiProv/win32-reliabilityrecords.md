@@ -1,8 +1,10 @@
 ---
 title: Win32\_ReliabilityRecords class
 description: The Win32\_ReliabilityRecords WMI class contains information from the Windows Event Log related to system reliability.
-ms.assetid: 'c180ab8a-1794-4db3-89a9-4aa3c0d9c4ae'
-keywords: ["Win32_ReliabilityRecords class", "Win32_ReliabilityRecords class, described"]
+ms.assetid: c180ab8a-1794-4db3-89a9-4aa3c0d9c4ae
+keywords:
+- Win32_ReliabilityRecords class
+- Win32_ReliabilityRecords class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - RacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ReliabilityRecords class
@@ -35,16 +42,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("ReliabilityMetricsProvider"), Dynamic]
 class Win32_ReliabilityRecords : Win32_Reliability
 {
-  string   ComputerName;
-  uint32   EventIdentifier;
-  string   InsertionStrings[];
-  string   Logfile;
-  string   Message;
-  string   ProductName;
-  uint32   RecordNumber;
-  string   SourceName;
+  string   ComputerName;
+  uint32   EventIdentifier;
+  string   InsertionStrings[];
+  string   Logfile;
+  string   Message;
+  string   ProductName;
+  uint32   RecordNumber;
+  string   SourceName;
   datetime TimeGenerated;
-  string   user;
+  string   user;
 };
 ```
 
@@ -67,7 +74,7 @@ The **Win32\_ReliabilityRecords** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -247,8 +254,8 @@ get-wmiobject Win32_ReliabilityRecords -property @("SourceName", "EventIdentifie
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>RacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RacWmiProv.dll</dt> </dl> |
@@ -268,9 +275,9 @@ get-wmiobject Win32_ReliabilityRecords -property @("SourceName", "EventIdentifie
 [**Win32\_NTLogEvent**](https://msdn.microsoft.com/library/aa394226)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

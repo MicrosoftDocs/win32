@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the amount of influence a given bone has over a given vertex.'
-ms.assetid: '0586fdfd-e5b1-4699-b489-c54a0f305ee4'
-title: 'ID3DX10SkinInfo::GetBoneInfluence method'
+---
+Description: Get the amount of influence a given bone has over a given vertex.
+ms.assetid: 0586fdfd-e5b1-4699-b489-c54a0f305ee4
+title: ID3DX10SkinInfoGetBoneInfluence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::GetBoneInfluence method

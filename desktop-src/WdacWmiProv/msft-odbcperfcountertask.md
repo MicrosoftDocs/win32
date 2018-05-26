@@ -4,11 +4,13 @@ description: Task provider for ODBC Connection Pooling PerfMon counters setting.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8763b1c7-6e73-474f-853e-b66ae56db069'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8763b1c7-6e73-474f-853e-b66ae56db069
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_OdbcPerfCounterTask class", "MSFT_OdbcPerfCounterTask class, described"]
+keywords:
+- MSFT_OdbcPerfCounterTask class
+- MSFT_OdbcPerfCounterTask class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_OdbcPerfCounterTask class
@@ -56,7 +61,7 @@ The **MSFT\_OdbcPerfCounterTask** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +69,8 @@ The **MSFT\_OdbcPerfCounterTask** class has these methods.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -79,9 +84,9 @@ The **MSFT\_OdbcPerfCounterTask** class has these methods.
 [WDAC WMI Provider Reference](wdac-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.'
+Description: Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6465a981-f98e-4ece-a9b6-9da8ae618bc6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.InstancesOf method'
+title: SWbemServices.InstancesOf method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.InstancesOf method
@@ -144,7 +147,7 @@ Upon the completion of the **InstancesOf** method, the **Err** object may contai
 > [!Note]  
 > A returned enumerator with zero elements is not an error.
 
- 
+ 
 
 <dl> <dt>
 
@@ -209,8 +212,8 @@ If you run this script, you will get information back. However, this information
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -229,9 +232,9 @@ If you run this script, you will get information back. However, this information
 [**SWbemObjectSet**](swbemobjectset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

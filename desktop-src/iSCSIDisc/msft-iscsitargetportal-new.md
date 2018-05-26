@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates and configures a new iSCSI target portal.'
-ms.assetid: '5816800F-258D-4C22-B86B-F5D51272B75B'
-title: 'New method of the MSFT\_iSCSITargetPortal class'
+---
+Description: Creates and configures a new iSCSI target portal.
+ms.assetid: 5816800F-258D-4C22-B86B-F5D51272B75B
+title: New method of the MSFT\_iSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New method of the MSFT\_iSCSITargetPortal class

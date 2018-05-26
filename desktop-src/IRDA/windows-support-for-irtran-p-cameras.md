@@ -1,8 +1,16 @@
 ---
 title: Windows Support for IrTran-P Cameras
 description: A subset of IrTran-P V1 is supported in Windows, and consists of a user-space background image transfer service that accepts incoming IrTran-P images, then writes those files to disk.
-ms.assetid: '0218f007-8bf1-4acb-a0cc-1f9a768fa2f5'
-keywords: ["IrCOMM IrDA , cameras", "IrTran-P cameras IrDA", "cameras IrDA"]
+ms.assetid: 0218f007-8bf1-4acb-a0cc-1f9a768fa2f5
+keywords:
+- IrCOMM IrDA , cameras
+- IrTran-P cameras IrDA
+- cameras IrDA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Support for IrTran-P Cameras

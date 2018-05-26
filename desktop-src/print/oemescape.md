@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMEscape function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.'
-ms.assetid: '3acc1c1f-5696-4297-a34e-047e402dbdcb'
+---
+Description: The OEMEscape function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.
+ms.assetid: 3acc1c1f-5696-4297-a34e-047e402dbdcb
 title: OEMEscape function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMEscape function

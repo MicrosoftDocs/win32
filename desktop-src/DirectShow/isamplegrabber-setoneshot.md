@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetOneShot method specifies whether the Sample Grabber filter halts after the filter receives a sample.'
-ms.assetid: '7e3a3e8c-1834-425b-9657-279ab4451a2b'
-title: 'ISampleGrabber::SetOneShot method'
+---
+Description: The SetOneShot method specifies whether the Sample Grabber filter halts after the filter receives a sample.
+ms.assetid: 7e3a3e8c-1834-425b-9657-279ab4451a2b
+title: ISampleGrabberSetOneShot method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabber::SetOneShot method
@@ -55,9 +60,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 Use this method to get a single sample from the stream, as follows:
 
 1.  Call **SetOneShot** with the value **TRUE**.
-2.  Optionally, use the [**IMediaSeeking**](imediaseeking.md) interface to seek to a position in the stream.
-3.  Call [**IMediaControl::Run**](imediacontrol-run.md) to run the filter graph.
-4.  Call [**IMediaEvent::WaitForCompletion**](imediaevent-waitforcompletion.md) to wait for the graph to halt. Alternatively, call [**IMediaEvent::GetEvent**](imediaevent-getevent.md) to get graph events, until you receive the [**EC\_COMPLETE**](ec-complete.md) event.
+2.  Optionally, use the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface to seek to a position in the stream.
+3.  Call [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) to run the filter graph.
+4.  Call [**IMediaEvent::WaitForCompletion**](/windows/win32/Control/nf-control-imediaevent-waitforcompletion?branch=master) to wait for the graph to halt. Alternatively, call [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) to get graph events, until you receive the [**EC\_COMPLETE**](ec-complete.md) event.
 
 After the Sample Grabber halts, the filter graph is still in a running state. You can seek or pause the graph to get another sample.
 
@@ -66,7 +71,7 @@ After the Sample Grabber halts, the filter graph is still in a running state. Yo
 
  
 
-The Sample Grabber implements one-shot mode by calling [**IPin::EndOfStream**](ipin-endofstream.md) on the downstream filter and returning S\_FALSE from the [**IMemInputPin::Receive**](imeminputpin-receive.md) method of it.
+The Sample Grabber implements one-shot mode by calling [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) on the downstream filter and returning S\_FALSE from the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method of it.
 
 > [!Note]  
 > The header file Qedit.h is not compatible with Direct3D headers later than version 7.

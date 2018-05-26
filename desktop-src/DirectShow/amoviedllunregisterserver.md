@@ -1,7 +1,12 @@
 ---
-Description: 'Obsolete. Use AMovieDllRegisterServer2 instead.'
-ms.assetid: '80f52109-6239-4e3d-a395-eb69f5278cd2'
+Description: Obsolete. Use AMovieDllRegisterServer2 instead.
+ms.assetid: 80f52109-6239-4e3d-a395-eb69f5278cd2
 title: AMovieDllUnregisterServer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AMovieDllUnregisterServer function
@@ -43,9 +48,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 [**DLL Setup Functions**](dll-setup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

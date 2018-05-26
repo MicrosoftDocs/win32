@@ -1,8 +1,9 @@
 ---
 title: EN\_VSCROLL notification code
-description: Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control.
-ms.assetid: '46307dee-3c5c-4020-9c2b-ec4638a0cea5'
-keywords: ["EN_VSCROLL notification code Windows Controls"]
+description: Sent when the user clicks an edit controls vertical scroll bar or when the user scrolls the mouse wheel over the edit control.
+ms.assetid: 46307dee-3c5c-4020-9c2b-ec4638a0cea5
+keywords:
+- EN_VSCROLL notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_VSCROLL notification code
@@ -51,7 +57,7 @@ This message is sent for the following mouse events on the vertical scroll bar: 
 
 The mouse wheel is a mouse that has a center wheel that scrolls. For more information, see "The Mouse Wheel" in [About Mouse Input](https://msdn.microsoft.com/library/windows/desktop/ms645601).
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_VSCROLL notification codes, specify [**ENM\_SCROLL**](rich-edit-control-event-mask-flags.md#enm-scroll) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_VSCROLL notification codes, specify [**ENM\_SCROLL**](rich-edit-control-event-mask-flags.md#enm-scroll) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -59,8 +65,8 @@ The mouse wheel is a mouse that has a center wheel that scrolls. For more inform
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ The mouse wheel is a mouse that has a center wheel that scrolls. For more inform
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

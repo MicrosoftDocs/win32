@@ -1,7 +1,12 @@
 ---
-Description: 'Nondeferred custom actions that call dynamic-link libraries or scripts may access a running installation to query or modify the attributes of the current installation session.'
-ms.assetid: 'cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84'
+Description: Nondeferred custom actions that call dynamic-link libraries or scripts may access a running installation to query or modify the attributes of the current installation session.
+ms.assetid: cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84
 title: Accessing the Current Installer Session from Inside a Custom Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the Current Installer Session from Inside a Custom Action
@@ -21,7 +26,7 @@ UINT __stdcall CustomAction(MSIHANDLE hInstall)
 
 
 
-For read-only access to the current database obtain the database handle by calling [**MsiGetActiveDatabase**](msigetactivedatabase.md). For more information, see [Obtaining a Database Handle](obtaining-a-database-handle.md).
+For read-only access to the current database obtain the database handle by calling [**MsiGetActiveDatabase**](/windows/win32/Msiquery/nf-msiquery-msigetactivedatabase?branch=master). For more information, see [Obtaining a Database Handle](obtaining-a-database-handle.md).
 
 [Scripts](scripts.md)
 

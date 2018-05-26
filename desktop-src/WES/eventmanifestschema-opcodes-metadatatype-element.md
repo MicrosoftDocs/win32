@@ -1,14 +1,20 @@
 ---
 title: opcodes (MetadataType) Element
 description: Defines a list of opcodes that you can use to group events within a task.
-ms.assetid: '2dd4719b-8f02-4f0b-91b5-ee892a425a00'
-keywords: ["opcodes element EventLog"]
+ms.assetid: 2dd4719b-8f02-4f0b-91b5-ee892a425a00
+keywords:
+- opcodes element EventLog
 topic_type:
 - apiref
 api_name:
 - opcodes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # opcodes (MetadataType) Element
@@ -29,8 +35,8 @@ The **opcodes** element is defined by the [**MetadataType**](eventmanifestschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **opcodes** element is defined by the [**MetadataType**](eventmanifestschema
 [**metadata (instrumentationManifest)**](eventmanifestschema-metadata-instrumentationmanifest-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

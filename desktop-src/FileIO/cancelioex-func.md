@@ -1,7 +1,12 @@
 ---
-Description: 'Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.'
-ms.assetid: 'a2ce13b8-7da6-4848-848d-901d9667c2e3'
+Description: Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.
+ms.assetid: a2ce13b8-7da6-4848-848d-901d9667c2e3
 title: CancelIoEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CancelIoEx function
@@ -13,8 +18,8 @@ Marks any outstanding I/O operations for the specified file handle. The function
 
 ```C++
 BOOL WINAPI CancelIoEx(
-  _In_     HANDLE       hFile,
-  _In_opt_ LPOVERLAPPED lpOverlapped
+  _In_     HANDLE       hFile,
+  _In_opt_ LPOVERLAPPED lpOverlapped
 );
 ```
 
@@ -64,7 +69,7 @@ The operation being canceled is completed with one of three statuses; you must c
 -   The operation was canceled. The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns **ERROR\_OPERATION\_ABORTED**.
 -   The operation failed with another error. The [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns the relevant error code.
 
-In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
 
 
@@ -78,7 +83,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,9 +91,9 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 |                                     |                                                                                                                                                                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                             |
-| Header<br/>                   | <dl> <dt>IoAPI.h (include Windows.h); </dt> <dt>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista (include Windows.h)</dt> </dl> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                             |
+| Header<br/>                   | <dl> <dt>IoAPI.h (include Windows.h); </dt> <dt>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista (include Windows.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 
@@ -113,9 +118,9 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 [Synchronous and Asynchronous I/O](synchronous-and-asynchronous-i-o.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

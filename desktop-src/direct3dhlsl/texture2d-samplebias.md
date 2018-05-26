@@ -1,12 +1,18 @@
 ---
 title: Texture2D SampleBias methods
 description: Samples a Texture2D, after applying the bias value to the mipmap level.
-ms.assetid: '47978F6B-94FC-498C-B3F7-2AAE71C75E7A'
-keywords: ["SampleBias methods HLSL"]
+ms.assetid: 47978F6B-94FC-498C-B3F7-2AAE71C75E7A
+keywords:
+- SampleBias methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::SampleBias methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

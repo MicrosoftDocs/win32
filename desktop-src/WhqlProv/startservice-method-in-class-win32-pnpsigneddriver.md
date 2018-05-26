@@ -1,8 +1,11 @@
 ---
 title: StartService method of the Win32\_PnPSignedDriver class
 description: The StartService method starts the driver service.
-ms.assetid: '8ada3b4d-c9de-4847-ba78-470bae70820e'
-keywords: ["StartService method", "StartService method, Win32_PnPSignedDriver class", "Win32_PnPSignedDriver class, StartService method"]
+ms.assetid: 8ada3b4d-c9de-4847-ba78-470bae70820e
+keywords:
+- StartService method
+- StartService method, Win32_PnPSignedDriver class
+- Win32_PnPSignedDriver class, StartService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - SignDrv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartService method of the Win32\_PnPSignedDriver class
@@ -38,8 +46,8 @@ This method has no parameters.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>WhqlProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SignDrv.dll</dt> </dl>  |
@@ -56,9 +64,9 @@ This method has no parameters.
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

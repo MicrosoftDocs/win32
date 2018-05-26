@@ -4,11 +4,13 @@ description: Manages advanced client settings. Derives from the IMsRdpClientAdva
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cb1785d6-1f94-4423-bdda-0e3e4e9b8641'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cb1785d6-1f94-4423-bdda-0e3e4e9b8641
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientAdvancedSettings4 interface Remote Desktop Services", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings4 interface
@@ -43,7 +48,7 @@ The **IMsRdpClientAdvancedSettings4** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,8 +66,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                                     |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings4 is defined as FBA7F64E-7345-4405-AE50-FA4A763DC0DE<br/> |
@@ -88,9 +93,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

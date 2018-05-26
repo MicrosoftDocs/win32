@@ -4,13 +4,15 @@ description: Represents an association between a system and a resource pool that
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '42252526-3820-490e-bb5a-d656905beb02'
-ms.prod: 'windows-server-dev'
+ms.assetid: 42252526-3820-490e-bb5a-d656905beb02
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedResourcePool class", "CIM_HostedResourcePool class, described"]
+keywords:
+- CIM_HostedResourcePool class
+- CIM_HostedResourcePool class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedResourcePool class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, Composition, Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::Resource")]
 class CIM_HostedResourcePool : CIM_SystemComponent
 {
-  CIM_System       REF GroupComponent;
+  CIM_System       REF GroupComponent;
   CIM_ResourcePool REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ The resource pool that is a component of the system.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ The resource pool that is a component of the system.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

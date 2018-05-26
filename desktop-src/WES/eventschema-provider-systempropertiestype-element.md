@@ -1,14 +1,20 @@
 ---
 title: Provider (SystemPropertiesType) Element
 description: Identifies the provider that logged the event.
-ms.assetid: '4560c938-4e2a-40d5-97f9-85a38141ac8f'
-keywords: ["Provider element EventLog"]
+ms.assetid: 4560c938-4e2a-40d5-97f9-85a38141ac8f
+keywords:
+- Provider element EventLog
 topic_type:
 - apiref
 api_name:
 - Provider
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provider (SystemPropertiesType) Element
@@ -54,8 +60,8 @@ The **Provider** element is defined by the [**SystemPropertiesType**](eventschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The **Provider** element is defined by the [**SystemPropertiesType**](eventschem
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

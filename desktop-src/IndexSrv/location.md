@@ -1,7 +1,12 @@
 ---
 title: Location
 description: Location
-ms.assetid: '809192fc-2a65-47b5-9404-05663528613b'
+ms.assetid: 809192fc-2a65-47b5-9404-05663528613b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Location

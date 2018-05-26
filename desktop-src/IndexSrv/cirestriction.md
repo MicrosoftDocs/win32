@@ -1,7 +1,12 @@
 ---
 title: CiRestriction
 description: CiRestriction
-ms.assetid: 'e6cc3b5f-027a-44e8-b9f0-000887f59aec'
+ms.assetid: e6cc3b5f-027a-44e8-b9f0-000887f59aec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiRestriction

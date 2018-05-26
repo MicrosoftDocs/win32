@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControlsDisplayUpdater put\_Type method
 description: Sets the type of media currently playing.
-ms.assetid: '280034B3-8B5E-4AD1-8214-642564F669BC'
-keywords: ["put_Type method", "put_Type method, ISystemMediaTransportControlsDisplayUpdater interface", "ISystemMediaTransportControlsDisplayUpdater interface, put_Type method"]
+ms.assetid: 280034B3-8B5E-4AD1-8214-642564F669BC
+keywords:
+- put_Type method
+- put_Type method, ISystemMediaTransportControlsDisplayUpdater interface
+- ISystemMediaTransportControlsDisplayUpdater interface, put_Type method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControlsDisplayUpdater::put\_Type method
@@ -22,7 +30,7 @@ Sets the type of media currently playing.
 
 ```C++
 HRESULT put_Type(
-   MediaPlaybackType value
+   MediaPlaybackType value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ISystemMediaTransportControlsDisplayUpdater**](isystemmediatransportcontrolsdisplayupdater.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

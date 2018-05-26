@@ -4,13 +4,16 @@ description: Creates a new data deduplication schedule (with default settings, i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EAC90495-BDDE-40AF-8A46-58F1C6F8E97A'
-ms.prod: 'windows-server-dev'
+ms.assetid: EAC90495-BDDE-40AF-8A46-58F1C6F8E97A
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Create method Data Deduplication API", "Create method Data Deduplication API , MSFT_DedupJobSchedule class", "MSFT_DedupJobSchedule class Data Deduplication API , Create method"]
+keywords:
+- Create method Data Deduplication API
+- Create method Data Deduplication API , MSFT_DedupJobSchedule class
+- MSFT_DedupJobSchedule class Data Deduplication API , Create method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the MSFT\_DedupJobSchedule class
@@ -30,21 +36,21 @@ Creates a new data deduplication schedule (with default settings, if none are sp
 
 ```mof
 uint32 Create(
-  [in]  string                Name,
-  [in]  uint32                Type,
-  [in]  boolean               Disable,
-  [in]  datetime              Start,
-  [in]  uint32                DurationHours,
-  [in]  sint32                Days[],
-  [in]  boolean               StopWhenSystemBusy,
-  [in]  uint32                Memory,
-  [in]  uint32                Cores,
-  [in]  uint32                Priority,
-  [in]  uint32                InputOutputThrottle,
-  [in]  uint32                InputOutputThrottleLevel,
-  [in]  boolean               Full,
-  [in]  boolean               ReadOnly,
-  [out] MSFT_DedupJobSchedule DedupJobSchedule
+  [in]  string                Name,
+  [in]  uint32                Type,
+  [in]  boolean               Disable,
+  [in]  datetime              Start,
+  [in]  uint32                DurationHours,
+  [in]  sint32                Days[],
+  [in]  boolean               StopWhenSystemBusy,
+  [in]  uint32                Memory,
+  [in]  uint32                Cores,
+  [in]  uint32                Priority,
+  [in]  uint32                InputOutputThrottle,
+  [in]  uint32                InputOutputThrottleLevel,
+  [in]  boolean               Full,
+  [in]  boolean               ReadOnly,
+  [out] MSFT_DedupJobSchedule DedupJobSchedule
 );
 ```
 
@@ -199,7 +205,7 @@ If **True**, the job stops running when the system is busy and retries later. If
 *Memory* \[in\]
 </dt> <dd>
 
-The maximum percentage of physical machine memory that can be consumed by this job. For optimization jobs, a range from 15-50 is suggested—with lower memory consumption for jobs that are scheduled to run when the *StopWhenSystemBusy* parameter is set to **false**. For garbage collection and scrubbing jobs, which are typically run at off hours, a higher memory consumption can be safely specified—for example, 50.
+The maximum percentage of physical machine memory that can be consumed by this job. For optimization jobs, a range from 15-50 is suggested with lower memory consumption for jobs that are scheduled to run when the *StopWhenSystemBusy* parameter is set to **false**. For garbage collection and scrubbing jobs, which are typically run at off hours, a higher memory consumption can be safely specified for example, 50.
 
 </dd> <dt>
 
@@ -208,7 +214,7 @@ The maximum percentage of physical machine memory that can be consumed by this j
 
 The maximum percentage of physical machine cores that the job can use.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -245,7 +251,7 @@ Sets the CPU and I/O priority for the optimization job run by this schedule. For
 
 The amount of I/O throttling of the job to ensure that it does not interfere with other heavy I/O processes on the system. This value can range from "0" to "100".
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -254,7 +260,7 @@ The amount of I/O throttling of the job to ensure that it does not interfere wit
 
 Amount that the dedupliction job throttles I/O to limit interference with other I/O intense processes.
 
-**Windows Server 2012:** This parameter is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not supported until Windows Server 2012 R2.
 
 <dt>
 
@@ -325,7 +331,7 @@ This method returns either a Windows Management Instrumentation (WMI) return cod
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -339,9 +345,9 @@ This method returns either a Windows Management Instrumentation (WMI) return cod
 [**MSFT\_DedupJobSchedule**](msft-dedupjobschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

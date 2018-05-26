@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used for enterprise administration.'
+Description: Can be used for enterprise administration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e699669c-e59b-4454-8723-15b3a3e67d6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e699669c-e59b-4454-8723-15b3a3e67d6e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Enterprise object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Enterprise object
@@ -47,7 +50,7 @@ The **Enterprise** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -69,7 +72,7 @@ The **Enterprise** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -133,7 +136,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -145,9 +148,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

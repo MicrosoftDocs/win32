@@ -1,7 +1,12 @@
-﻿---
-Description: 'IEnumUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: 'df4b6235-e66a-4187-b1f9-33c042cae2f2'
+---
+Description: IEnumUserIdentity is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: df4b6235-e66a-4187-b1f9-33c042cae2f2
 title: IEnumUserIdentity interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumUserIdentity interface

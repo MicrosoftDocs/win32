@@ -1,11 +1,16 @@
-﻿---
-Description: 'Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.'
-title: 'CPL\_STARTWPARMS message'
+---
+Description: Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.
+title: CPL\_STARTWPARMS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPL\_STARTWPARMS message
 
-Sent to notify [**CPlApplet**](cplapplet.md) that the user has chosen the icon associated with a given dialog box. **CPlApplet** should display the corresponding dialog box and carry out any user-specified tasks.
+Sent to notify [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) that the user has chosen the icon associated with a given dialog box. **CPlApplet** should display the corresponding dialog box and carry out any user-specified tasks.
 
 ## Parameters
 
@@ -31,7 +36,7 @@ Returns **TRUE** if the message was handled, or **FALSE** otherwise.
 
 ## Remarks
 
-**CPL\_STARTWPARMS** is similar to [**CPL\_DBLCLK**](cpl-dblclk.md) but allows you to pass a string to [**CPlApplet**](cplapplet.md) instead of an **int**. You can use this string as a flexible way to provide detailed directions for execution.
+**CPL\_STARTWPARMS** is similar to [**CPL\_DBLCLK**](cpl-dblclk.md) but allows you to pass a string to [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) instead of an **int**. You can use this string as a flexible way to provide detailed directions for execution.
 
 ## Requirements
 

@@ -4,13 +4,15 @@ description: The Win32\_PhysicalMedia class represents any type of documentation
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f5d337ae-e948-42c0-9d86-236c42964a50'
-ms.prod: 'windows-server-dev'
+ms.assetid: f5d337ae-e948-42c0-9d86-236c42964a50
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_PhysicalMedia class", "Win32_PhysicalMedia class, described"]
+keywords:
+- Win32_PhysicalMedia class
+- Win32_PhysicalMedia class, described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PhysicalMedia class
@@ -56,29 +61,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32a"), UUID("{BF253431-1E4D-4F57-00E7-64B2CACC801E}"), AMENDMENT]
 class Win32_PhysicalMedia : CIM_PhysicalMedia
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   CreationClassName;
-  string   Manufacturer;
-  string   Model;
-  string   SKU;
-  string   SerialNumber = NULL;
-  string   Tag = NULL;
-  string   Version;
-  string   PartNumber;
-  string   OtherIdentifyingInfo;
-  boolean  PoweredOn;
-  boolean  Removable;
-  boolean  Replaceable;
-  boolean  HotSwappable;
-  uint64   Capacity;
-  uint16   MediaType;
-  string   MediaDescription;
-  boolean  WriteProtectOn;
-  boolean  CleanerMedia;
+  string   Name;
+  string   Status;
+  string   CreationClassName;
+  string   Manufacturer;
+  string   Model;
+  string   SKU;
+  string   SerialNumber = NULL;
+  string   Tag = NULL;
+  string   Version;
+  string   PartNumber;
+  string   OtherIdentifyingInfo;
+  boolean  PoweredOn;
+  boolean  Removable;
+  boolean  Replaceable;
+  boolean  HotSwappable;
+  uint64   Capacity;
+  uint16   MediaType;
+  string   MediaDescription;
+  boolean  WriteProtectOn;
+  boolean  CleanerMedia;
 };
 ```
 
@@ -1031,8 +1036,8 @@ This property is inherited from [**CIM\_PhysicalMedia**](https://msdn.microsoft.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -1049,9 +1054,9 @@ This property is inherited from [**CIM\_PhysicalMedia**](https://msdn.microsoft.
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

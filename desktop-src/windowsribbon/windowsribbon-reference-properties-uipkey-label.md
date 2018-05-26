@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_Label
 description: Identifies the UI\_PKEY\_Label property.
-ms.assetid: '4d704133-bba7-4c32-a552-d748b66455eb'
+ms.assetid: 4d704133-bba7-4c32-a552-d748b66455eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_Label

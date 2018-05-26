@@ -4,17 +4,22 @@ description: Priority, authentication type, and URI of each certificate enrollme
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7125f6da-d7ca-457f-8f90-ca7f74a363ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7125f6da-d7ca-457f-8f90-ca7f74a363ad
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Enrollment-Servers attribute AD Schema", "msPKI-Enrollment-Servers attribute AD Schema"]
+keywords:
+- ms-PKI-Enrollment-Servers attribute AD Schema
+- msPKI-Enrollment-Servers attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Enrollment-Servers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Enrollment-Servers attribute
@@ -38,8 +43,8 @@ Priority, authentication type, and URI of each certificate enrollment web servic
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Priority, authentication type, and URI of each certificate enrollment web servic
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ANSI\_381\_FORMAT Constants
 description: Specify format owner and format type.
-ms.assetid: '5EFFF7EB-D998-4EE9-A23F-B17477F00863'
+ms.assetid: 5EFFF7EB-D998-4EE9-A23F-B17477F00863
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANSI\_381\_FORMAT Constants
@@ -32,8 +37,8 @@ The following values can be used in the [**WINBIO\_REGISTERED\_FORMAT**](winbio-
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -48,9 +53,9 @@ The following values can be used in the [**WINBIO\_REGISTERED\_FORMAT**](winbio-
 [**WINBIO\_REGISTERED\_FORMAT**](winbio-registered-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

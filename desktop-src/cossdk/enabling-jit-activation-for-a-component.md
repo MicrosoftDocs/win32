@@ -1,7 +1,12 @@
 ---
 Description: Enabling JIT Activation for a Component
-ms.assetid: 'ccf7c98b-8b1a-431d-b417-83f79734f691'
+ms.assetid: ccf7c98b-8b1a-431d-b417-83f79734f691
 title: Enabling JIT Activation for a Component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling JIT Activation for a Component

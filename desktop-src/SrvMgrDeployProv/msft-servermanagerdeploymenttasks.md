@@ -1,11 +1,14 @@
 ---
-Description: 'Manages server components asynchronously.'
+Description: Manages server components asynchronously.
 audience: developer
-ms.assetid: '40caa497-a3f4-43a7-97af-b03c25e9a44d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 40caa497-a3f4-43a7-97af-b03c25e9a44d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_ServerManagerDeploymentTasks class'
+title: MSFT\_ServerManagerDeploymentTasks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerManagerDeploymentTasks class
@@ -48,7 +51,7 @@ The **MSFT\_ServerManagerDeploymentTasks** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,7 +60,7 @@ The **MSFT\_ServerManagerDeploymentTasks** class has these methods.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -71,9 +74,9 @@ The **MSFT\_ServerManagerDeploymentTasks** class has these methods.
 [ServerManager Deploymentprovider Provider Classes](server-manager-deployment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

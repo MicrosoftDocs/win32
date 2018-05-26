@@ -1,8 +1,16 @@
 ---
 title: Helper Structures and Functions for D3D12
 description: These helper structures and helper functions are declared in d3dx12.h.
-ms.assetid: '095958A9-345B-45AE-8363-B353534044B2'
-keywords: ["Helper functions", "Helper structures", "d3dx12.h"]
+ms.assetid: 095958A9-345B-45AE-8363-B353534044B2
+keywords:
+- Helper functions
+- Helper structures
+- d3dx12.h
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Helper Structures and Functions for D3D12
@@ -25,7 +33,7 @@ You can use these helper structures to create and initialize Direct3D structures
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -34,9 +42,9 @@ You can use these helper structures to create and initialize Direct3D structures
 [Direct3D 12 Reference](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

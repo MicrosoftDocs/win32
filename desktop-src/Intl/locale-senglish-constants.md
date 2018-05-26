@@ -1,7 +1,12 @@
-﻿---
-Description: 'LOCALE\_SENGLISH\* Constants'
-ms.assetid: 'b7ed177c-f8a5-4d6b-916b-299b859b3c46'
-title: 'LOCALE\_SENGLISH\* Constants'
+---
+Description: LOCALE\_SENGLISH\* Constants
+ms.assetid: b7ed177c-f8a5-4d6b-916b-299b859b3c46
+title: LOCALE\_SENGLISH\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SENGLISH\* Constants

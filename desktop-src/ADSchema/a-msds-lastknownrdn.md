@@ -4,17 +4,22 @@ description: Contains the original RDN of a deleted object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4d655117-673a-4c43-b8fe-c4aa45061330'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4d655117-673a-4c43-b8fe-c4aa45061330
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Last-Known-RDN attribute AD Schema", "msDS-LastKnownRDN attribute AD Schema"]
+keywords:
+- ms-DS-Last-Known-RDN attribute AD Schema
+- msDS-LastKnownRDN attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Last-Known-RDN
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Last-Known-RDN attribute
@@ -38,8 +43,8 @@ Contains the original RDN of a deleted object.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Contains the original RDN of a deleted object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

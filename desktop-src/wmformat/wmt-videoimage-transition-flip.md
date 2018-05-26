@@ -1,8 +1,9 @@
 ---
 title: WMT\_VIDEOIMAGE\_TRANSITION\_FLIP
 description: The flip transition rotates the old image on a y-axis through the center of the frame. The new image is revealed as the back of the old image.
-ms.assetid: 'ff9990ef-962c-4dbb-b2bc-3bee070d2044'
-keywords: ["WMT_VIDEOIMAGE_TRANSITION_FLIP windows Media Format"]
+ms.assetid: ff9990ef-962c-4dbb-b2bc-3bee070d2044
+keywords:
+- WMT_VIDEOIMAGE_TRANSITION_FLIP windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_FLIP
@@ -19,7 +25,7 @@ The flip transition rotates the old image on a y-axis through the center of the 
 
 ## Parameters
 
-The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md) structure to which they are assigned.
+The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master) structure to which they are assigned.
 
 
 
@@ -56,7 +62,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +85,9 @@ You can visualize the effect of this transition as if both images were physical 
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

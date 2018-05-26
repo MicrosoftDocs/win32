@@ -1,7 +1,12 @@
 ---
 title: Visible Property
 description: Visible Property
-ms.assetid: '820a5298-6aaf-4aea-9e71-38a07148a08c'
+ms.assetid: 820a5298-6aaf-4aea-9e71-38a07148a08c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Property
@@ -30,7 +35,7 @@ Returns or sets whether the Voice Commands Window is visible (open).
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -41,11 +46,11 @@ The server displays the window based on the location and size set by the user.
 > [!Note]  
 > The user can override this property.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

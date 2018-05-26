@@ -1,8 +1,11 @@
 ---
 title: RelatedActivityCollection GetItem method
 description: Returns an ActivityReference from the RelatedActivityCollection.
-ms.assetid: 'E552BFA0-9173-4FEB-8623-EC5CB178B94E'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , RelatedActivityCollection interface", "RelatedActivityCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: E552BFA0-9173-4FEB-8623-EC5CB178B94E
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , RelatedActivityCollection interface
+- RelatedActivityCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RelatedActivityCollection::GetItem method
@@ -22,8 +30,8 @@ Returns an [**ActivityReference**](activityreference-struct.md) from the **Relat
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT               index,
-  [out] ActivityReference **activityReference
+  [in]  INT               index,
+  [out] ActivityReference **activityReference
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ An **ActivityReference** holds data from a **RelatedActivities/ActivityReference
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ An **ActivityReference** holds data from a **RelatedActivities/ActivityReference
 [**RelatedActivityCollection**](relatedactivitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
-title: \ error Directive
+title: '\ error Directive'
 description: Preprocessor directive that produces compiler-time error messages.
-ms.assetid: 'e32bcd6f-f2c1-43f7-a0bb-2c384b056492'
-keywords: ["error Directive HLSL"]
+ms.assetid: e32bcd6f-f2c1-43f7-a0bb-2c384b056492
+keywords:
+- error Directive HLSL
 topic_type:
 - apiref
 api_name:
 - error Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#error Directive
@@ -22,7 +28,7 @@ Preprocessor directive that produces compiler-time error messages.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Preprocessor directive that produces compiler-time error messages.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +66,9 @@ The following example demonstrates error processing during preprocessing.
 [Preprocessor Directives (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

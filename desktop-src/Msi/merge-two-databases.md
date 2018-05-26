@@ -1,14 +1,19 @@
 ---
-Description: 'The VBScript file WiMerge.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script merges one Windows Installer database into another database. For more information, see Merges and Transforms.'
-ms.assetid: '31867082-7c1d-4530-a066-236d8ee5f023'
+Description: The VBScript file WiMerge.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script merges one Windows Installer database into another database. For more information, see Merges and Transforms.
+ms.assetid: 31867082-7c1d-4530-a066-236d8ee5f023
 title: Merge Two Databases
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge Two Databases
 
 The VBScript file WiMerge.vbs is provided in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md). This sample script merges one Windows Installer database into another database. For more information, see [Merges and Transforms](merges-and-transforms.md).
 
-The [**MsiDatabaseMerge**](msidatabasemerge.md) function and the [**Merge**](database-merge.md) method of the [**Database**](database-object.md) object cannot be used to merge a module included in the installation package. They should not be used to merge [Merge Modules](merge-modules.md) into a Windows Installer package. To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in [Applying Merge Modules](applying-merge-modules.md) topic.
+The [**MsiDatabaseMerge**](/windows/win32/Msiquery/nf-msiquery-msidatabasemergea?branch=master) function and the [**Merge**](database-merge.md) method of the [**Database**](database-object.md) object cannot be used to merge a module included in the installation package. They should not be used to merge [Merge Modules](merge-modules.md) into a Windows Installer package. To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in [Applying Merge Modules](applying-merge-modules.md) topic.
 
 The sample demonstrates the use of the following:
 

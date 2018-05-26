@@ -1,7 +1,12 @@
 ---
-Description: 'Sets a CHAP secret key for use with iSCSI initiator connections.'
-ms.assetid: '5CC3A50C-32DB-40D9-ACAE-04DA7324C6F9'
-title: 'SetCHAPSecret method of the MSFT\_iSCSISession class'
+Description: Sets a CHAP secret key for use with iSCSI initiator connections.
+ms.assetid: 5CC3A50C-32DB-40D9-ACAE-04DA7324C6F9
+title: SetCHAPSecret method of the MSFT\_iSCSISession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetCHAPSecret method of the MSFT\_iSCSISession class
@@ -13,7 +18,7 @@ Sets a CHAP secret key for use with iSCSI initiator connections.
 
 ```mof
 uint32 SetCHAPSecret(
-  [in] string ChapSecret
+  [in] string ChapSecret
 );
 ```
 
@@ -36,8 +41,8 @@ The CHAP secret to use for CHAP connections.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
@@ -50,9 +55,9 @@ The CHAP secret to use for CHAP connections.
 [**MSFT\_iSCSISession**](msft-iscsisession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

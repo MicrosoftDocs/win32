@@ -1,8 +1,9 @@
 ---
 title: MCI\_CLOSE command
 description: The MCI\_CLOSE command releases access to a device or file. All devices recognize this command.
-ms.assetid: '62dadd90-e8fc-4bdd-9f8c-f9ea9ff5550f'
-keywords: ["MCI_CLOSE command Windows Multimedia"]
+ms.assetid: 62dadd90-e8fc-4bdd-9f8c-f9ea9ff5550f
+keywords:
+- MCI_CLOSE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_CLOSE command
 
 The MCI\_CLOSE command releases access to a device or file. All devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -70,8 +76,8 @@ Exiting an application without closing any MCI devices it has opened can leave t
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ Exiting an application without closing any MCI devices it has opened can leave t
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

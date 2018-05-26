@@ -1,14 +1,19 @@
 ---
-Description: 'Contains the top-level collections in the catalog.'
-ms.assetid: '6cd23e6a-53b8-42ec-97df-59281f019252'
+Description: Contains the top-level collections in the catalog.
+ms.assetid: 6cd23e6a-53b8-42ec-97df-59281f019252
 title: Root collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Root collection
 
-Contains the top-level collections in the catalog. It does not contain any [**COMAdminCatalogObject**](comadmincatalogobject.md) objects or support any properties.
+Contains the top-level collections in the catalog. It does not contain any [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) objects or support any properties.
 
-The **Root** collection does not support the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+The **Root** collection does not support the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 You cannot navigate to the **Root** collection from any collection.
 

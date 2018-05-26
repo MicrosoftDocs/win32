@@ -1,7 +1,12 @@
 ---
-Description: 'The SetClipVideoRect method zooms the video display to the specified subrectangle.'
-ms.assetid: '3940a382-8d53-4ff9-b024-38de1aa00f54'
+Description: The SetClipVideoRect method zooms the video display to the specified subrectangle.
+ms.assetid: 3940a382-8d53-4ff9-b024-38de1aa00f54
 title: SetClipVideoRect Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetClipVideoRect Method

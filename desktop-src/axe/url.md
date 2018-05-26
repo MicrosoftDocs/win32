@@ -1,14 +1,20 @@
 ---
 title: Url element
 description: This is a URL that refers to a web page about the assessment.
-ms.assetid: 'E32019F9-9143-41CF-BFDF-F27E52B23D19'
-keywords: ["Url element Access Execution Engine"]
+ms.assetid: E32019F9-9143-41CF-BFDF-F27E52B23D19
+keywords:
+- Url element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Url
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Url element
@@ -66,9 +72,9 @@ AXE does not use this URL itself. This can be used by a solution to provide a li
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

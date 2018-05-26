@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the VersionNT64 property to the version number for the operating system only if the system is running on a 64-bit computer.'
-ms.assetid: '190f8251-a377-4490-9de9-98d149185865'
+---
+Description: The installer sets the VersionNT64 property to the version number for the operating system only if the system is running on a 64-bit computer.
+ms.assetid: 190f8251-a377-4490-9de9-98d149185865
 title: VersionNT64 property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VersionNT64 property

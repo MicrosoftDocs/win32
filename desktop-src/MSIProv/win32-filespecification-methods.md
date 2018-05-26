@@ -1,7 +1,12 @@
 ---
 title: Win32\_FileSpecification Methods
 description: The Win32\_FileSpecification class exposes the following methods.
-ms.assetid: '4D2D7167-5B41-4E10-A301-9AE9EB29E3E3'
+ms.assetid: 4D2D7167-5B41-4E10-A301-9AE9EB29E3E3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FileSpecification Methods

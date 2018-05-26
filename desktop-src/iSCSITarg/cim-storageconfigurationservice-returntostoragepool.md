@@ -4,13 +4,16 @@ description: Start a job to delete an element previously created from a StorageP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ac8917b-7001-4c36-9152-5166441937ea'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5ac8917b-7001-4c36-9152-5166441937ea
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ReturnToStoragePool method iSCSI Software Target API", "ReturnToStoragePool method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , ReturnToStoragePool method"]
+keywords:
+- ReturnToStoragePool method iSCSI Software Target API
+- ReturnToStoragePool method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , ReturnToStoragePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReturnToStoragePool method of the CIM\_StorageConfigurationService class
@@ -30,8 +36,8 @@ Start a job to delete an element previously created from a StoragePool. The free
 
 ```mof
 uint32 ReturnToStoragePool(
-  [out] CIM_ConcreteJob    REF Job,
-  [in]  CIM_LogicalElement REF TheElement
+  [out] CIM_ConcreteJob    REF Job,
+  [in]  CIM_LogicalElement REF TheElement
 );
 ```
 
@@ -80,16 +86,16 @@ Reference to the element to return to the StoragePool.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -99,7 +105,7 @@ Reference to the element to return to the StoragePool.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -113,9 +119,9 @@ Reference to the element to return to the StoragePool.
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

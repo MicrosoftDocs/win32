@@ -4,11 +4,13 @@ description: Provides access to the properties of a cluster object, allowing ind
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b117b0eb-e188-4514-8e11-9acca1303e8f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b117b0eb-e188-4514-8e11-9acca1303e8f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusProperties collection Failover Cluster", "ClusProperties collection Failover Cluster , described"]
+keywords:
+- ClusProperties collection Failover Cluster
+- ClusProperties collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusProperties collection
@@ -48,7 +53,7 @@ The **ClusProperties** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -67,7 +72,7 @@ The **ClusProperties** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -97,7 +102,7 @@ A **ClusProperties** collection:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -113,9 +118,9 @@ A **ClusProperties** collection:
 [Property Management Objects](property-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.Icons property
 description: Gets a vector of IDeviceIcon interfaces.
-ms.assetid: '54933FD0-27A6-48D8-A49A-200AD9214B9A'
-keywords: ["Icons property Media Streaming API", "Icons property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , Icons property"]
+ms.assetid: 54933FD0-27A6-48D8-A49A-200AD9214B9A
+keywords:
+- Icons property Media Streaming API
+- Icons property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , Icons property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.Icons
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.Icons property

@@ -1,14 +1,20 @@
 ---
 title: RandomDelay (timeTriggerType) Element
 description: Contains the delay time that is randomly added to the start time of the trigger.
-ms.assetid: '84dffd18-651d-4e81-8c02-6cee9759a9b9'
-keywords: ["RandomDelay element Task Scheduler"]
+ms.assetid: 84dffd18-651d-4e81-8c02-6cee9759a9b9
+keywords:
+- RandomDelay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RandomDelay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RandomDelay (timeTriggerType) Element
@@ -37,7 +43,7 @@ The element is defined by the [**timeTriggerType**](taskschedulerschema-timetrig
 
 ## Remarks
 
-For C++ development, see [**RandomDelay Property of ITimeTrigger**](itimetrigger-randomdelay.md).
+For C++ development, see [**RandomDelay Property of ITimeTrigger**](/windows/win32/taskschd/nf-taskschd-itimetrigger-get_randomdelay?branch=master).
 
 For script development, see [**TimeTrigger.RandomDelay**](timetrigger-randomdelay.md).
 
@@ -47,14 +53,14 @@ For script development, see [**TimeTrigger.RandomDelay**](timetrigger-randomdela
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

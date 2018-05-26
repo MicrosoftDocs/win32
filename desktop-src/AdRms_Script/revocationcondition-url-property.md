@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the URL or UNC path from which the revocation list can be obtained.'
+Description: Specifies or retrieves the URL or UNC path from which the revocation list can be obtained.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c0ed9fe9-9b4e-413c-8579-e031bd24cc5a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c0ed9fe9-9b4e-413c-8579-e031bd24cc5a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RevocationCondition.Url property'
+title: RevocationCondition.Url property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RevocationCondition.Url property
@@ -29,7 +32,7 @@ This property specifies or retrieves a string value.
 
 ## Remarks
 
-A revocation list, if required, must exist on the client computer. When the client uses an AD RMS–enabled application to open protected content, the AD RMS client software searches the local computer for the appropriate list. If the list file is not found or has expired, the AD RMS client attempts to download it from the location specified by the **Url** property.
+A revocation list, if required, must exist on the client computer. When the client uses an AD RMS enabled application to open protected content, the AD RMS client software searches the local computer for the appropriate list. If the list file is not found or has expired, the AD RMS client attempts to download it from the location specified by the **Url** property.
 
 We recommend that you place the revocation list file in a location that is accessible to all users who require it. The preferred location is a public website. This ensures that users can access the file from both inside and outside the corporate network.
 
@@ -127,7 +130,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -139,9 +142,9 @@ END SUB
 [**RevocationCondition**](revocationcondition-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

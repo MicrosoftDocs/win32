@@ -4,10 +4,13 @@ description: You can use the permissions provided for Remote Desktop Services to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '448a7f9b-bf12-48eb-a3e7-4512ec288d95'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 448a7f9b-bf12-48eb-a3e7-4512ec288d95
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services permissions
@@ -33,7 +36,7 @@ Following is a list of the permissions that you can set and the tasks the permis
 
 
 
- 
+ 
 
 The Logon permission is required for a user to log on to a new Remote Desktop Services session. All other Remote Desktop Services permissions apply to controlling another user's Remote Desktop Services session.
 
@@ -49,9 +52,9 @@ Remote Desktop Services permissions can be granted, or set, for individual users
 [**Win32\_TSAccount**](win32-tsaccount.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

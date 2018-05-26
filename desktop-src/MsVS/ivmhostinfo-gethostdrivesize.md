@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo GetHostDriveSize method
 description: The GetHostDriveSize method returns the size of a host drive in Megabytes.
-ms.assetid: '101251db-3df7-4266-a83c-33d91316527b'
-keywords: ["GetHostDriveSize method Virtual Server", "GetHostDriveSize method Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , GetHostDriveSize method", "GetHostDriveSize method Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , GetHostDriveSize method"]
+ms.assetid: 101251db-3df7-4266-a83c-33d91316527b
+keywords:
+- GetHostDriveSize method Virtual Server
+- GetHostDriveSize method Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , GetHostDriveSize method
+- GetHostDriveSize method Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , GetHostDriveSize method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::GetHostDriveSize method
@@ -23,8 +33,8 @@ The **GetHostDriveSize** method returns the size of a host drive in Megabytes.
 
 ```C++
 HRESULT GetHostDriveSize(
-  [in]  BSTR hostDriveIdentifier,
-  [out] long *hostDriveSizeInMB
+  [in]  BSTR hostDriveIdentifier,
+  [out] long *hostDriveSizeInMB
 );
 ```
 
@@ -63,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,8 +81,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -84,9 +94,9 @@ This method can return one of these values.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

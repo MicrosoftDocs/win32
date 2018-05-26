@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a customized, right-handed orthographic projection matrix.'
-ms.assetid: '01d4d61e-de7b-4431-a168-68a50b1d6021'
+---
+Description: Builds a customized, right-handed orthographic projection matrix.
+ms.assetid: 01d4d61e-de7b-4431-a168-68a50b1d6021
 title: D3DXMatrixOrthoOffCenterRH function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixOrthoOffCenterRH function

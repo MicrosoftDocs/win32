@@ -4,11 +4,12 @@ description: Used with an extended LDAP search function to request an extended f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b375a6a1-c72a-4479-9c1a-9168f2fbe891'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: b375a6a1-c72a-4479-9c1a-9168f2fbe891
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_EXTENDED_DN_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_EXTENDED_DN_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_EXTENDED\_DN\_OID control code
 
 The LDAP\_SERVER\_EXTENDED\_DN\_OID control is used with an extended LDAP search function to request an extended form of an Active Directory object distinguished name. The extended form includes a string representation of the object **objectGUID** property. For security principal objects such as users, groups, and computers, the extended form also includes a string representation of the object **objectSID** property.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows:
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows:
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_EXTENDED_DN_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_EXTENDED\_DN\_OID, which is defined as "1.2.840.113556.1.4.529".
 **ldctl\_value**
 </dt> <dd>
 
-Specifies the BER-encoded sequence of parameters that enables the application to specify the string format of the returned GUID and SID. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the flag data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Specifies the BER-encoded sequence of parameters that enables the application to specify the string format of the returned GUID and SID. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the flag data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -78,7 +82,7 @@ A flag value **0** specifies that the GUID and SID values be returned in hexadec
 
 A flag value of **1** will return the GUID and SID values in standard string format such as "&lt;GUID=098f2470-bae0-11cd-b579-08002b30bfeb&gt;" and "&lt;SID=S-1-5-21-397955417-626881126-188441444-2908315&gt;".
 
-The following C++ example code shows how to manually format the sequence data. The [**ber\_printf**](ber-printf.md) function is used to create the sequence data. The flags portion contains the GUID/SID string format specifier.
+The following C++ example code shows how to manually format the sequence data. The [**ber\_printf**](/windows/previous-versions/Winber/nf-winber-ber_printf?branch=master) function is used to create the sequence data. The flags portion contains the GUID/SID string format specifier.
 
 
 ```C++
@@ -122,7 +126,7 @@ LDAPControl *FormatExtDNFlags(int iFlagValue)
 
 
 
-The following C++ example code shows how to use the extended DN control with the [**ldap\_search\_ext\_s**](ldap-search-ext-s.md) function.
+The following C++ example code shows how to use the extended DN control with the [**ldap\_search\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext_s?branch=master) function.
 
 
 ```C++
@@ -190,8 +194,8 @@ if (results)
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -200,15 +204,15 @@ if (results)
 
 <dl> <dt>
 
-[**ldap\_search\_ext\_s**](ldap-search-ext-s.md)
+[**ldap\_search\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext_s?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

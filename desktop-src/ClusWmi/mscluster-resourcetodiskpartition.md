@@ -4,13 +4,15 @@ description: A dynamic WMI class that associates an instance of the MSCluster\_R
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4638300A-AC1A-4704-AC36-FBCFFF19A228'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4638300A-AC1A-4704-AC36-FBCFFF19A228
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ResourceToDiskPartition class", "MSCluster_ResourceToDiskPartition class, described"]
+keywords:
+- MSCluster_ResourceToDiskPartition class
+- MSCluster_ResourceToDiskPartition class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ResourceToDiskPartition class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{DA5E549F-565A-4503-80CA-C2C3237E6D96}"), AMENDMENT]
 class MSCluster_ResourceToDiskPartition : CIM_Component
 {
-  MSCluster_Resource      REF GroupComponent;
+  MSCluster_Resource      REF GroupComponent;
   MSCluster_DiskPartition REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ Represents the disk partition associated with this physical disk resource.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -114,9 +119,9 @@ Represents the disk partition associated with this physical disk resource.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

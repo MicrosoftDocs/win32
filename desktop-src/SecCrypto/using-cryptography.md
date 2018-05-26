@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics provide information about using cryptography.'
-ms.assetid: '2e8637e2-2ff3-404a-a56c-fe99adeeba50'
+Description: The following topics provide information about using cryptography.
+ms.assetid: 2e8637e2-2ff3-404a-a56c-fe99adeeba50
 title: Using Cryptography
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Cryptography

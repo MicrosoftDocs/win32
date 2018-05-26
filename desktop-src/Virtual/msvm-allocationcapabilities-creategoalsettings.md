@@ -1,8 +1,11 @@
 ---
 title: CreateGoalSettings method of the Msvm\_AllocationCapabilities class
 description: Creates a set of supported SettingData elements, from two sets of SettingData elements, provided by the caller.
-ms.assetid: '25cc8fac-5c23-41f8-a095-e80060697174'
-keywords: ["CreateGoalSettings method Hyper-V", "CreateGoalSettings method Hyper-V , Msvm_AllocationCapabilities class", "Msvm_AllocationCapabilities class Hyper-V , CreateGoalSettings method"]
+ms.assetid: 25cc8fac-5c23-41f8-a095-e80060697174
+keywords:
+- CreateGoalSettings method Hyper-V
+- CreateGoalSettings method Hyper-V , Msvm_AllocationCapabilities class
+- Msvm_AllocationCapabilities class Hyper-V , CreateGoalSettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateGoalSettings method of the Msvm\_AllocationCapabilities class
@@ -22,8 +30,8 @@ Creates a set of supported SettingData elements, from two sets of SettingData el
 
 ```mof
 uint16 CreateGoalSettings(
-  [in]      string TemplateGoalSettings[],
-  [in, out] string SupportedGoalSettings[]
+  [in]      string TemplateGoalSettings[],
+  [in, out] string SupportedGoalSettings[]
 );
 ```
 
@@ -112,9 +120,9 @@ If the implementation is conformant to a RegisteredProfile, then that profile ma
 [**Msvm\_AllocationCapabilities**](msvm-allocationcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

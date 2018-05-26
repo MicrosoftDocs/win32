@@ -1,14 +1,20 @@
 ---
 title: DVD Object
 description: The DVD object provides properties and methods for working with DVDs.
-ms.assetid: '6c255e9e-d537-4f4f-865c-b7fb26c8e413'
-keywords: ["DVD Object Windows Media Player"]
+ms.assetid: 6c255e9e-d537-4f4f-865c-b7fb26c8e413
+keywords:
+- DVD Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - DVD Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Object

@@ -1,7 +1,12 @@
 ---
 title: Split Button
 description: The Split Button is a composite control with which the user can select a default value bound to a primary button, or select from a list of mutually exclusive values displayed in a drop-down list bound to a secondary button.
-ms.assetid: '0939b3be-fa88-4864-8096-a664ab2e97b5'
+ms.assetid: 0939b3be-fa88-4864-8096-a664ab2e97b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Split Button
@@ -31,7 +36,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Split Button control.
 
@@ -75,7 +80,7 @@ The [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) prop
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -87,9 +92,9 @@ The [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) prop
 [**SplitButton markup element**](windowsribbon-element-splitbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

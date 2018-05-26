@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CPSUICBPARAM structure is used as the input parameter to \_CPSUICALLBACK-typed callback functions.'
-ms.assetid: 'b5545efa-6cb4-41d0-9338-be9a269fa193'
+---
+Description: The CPSUICBPARAM structure is used as the input parameter to \_CPSUICALLBACK-typed callback functions.
+ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 title: CPSUICBPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPSUICBPARAM structure

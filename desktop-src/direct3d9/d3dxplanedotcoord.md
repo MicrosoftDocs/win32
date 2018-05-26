@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 1.'
-ms.assetid: '634de6bc-b631-493d-a7a6-292a3c3253d6'
+---
+Description: Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 1.
+ms.assetid: 634de6bc-b631-493d-a7a6-292a3c3253d6
 title: D3DXPlaneDotCoord function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPlaneDotCoord function

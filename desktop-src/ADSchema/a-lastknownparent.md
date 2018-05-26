@@ -4,17 +4,22 @@ description: The Distinguished Name (DN) of the last known parent of an orphaned
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6cf7be1a-8ff0-42f7-9e7a-c15cbc652ec5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6cf7be1a-8ff0-42f7-9e7a-c15cbc652ec5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Last-Known-Parent attribute AD Schema", "lastKnownParent attribute AD Schema"]
+keywords:
+- Last-Known-Parent attribute AD Schema
+- lastKnownParent attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Last-Known-Parent
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Last-Known-Parent attribute
@@ -38,13 +43,13 @@ The Distinguished Name (DN) of the last known parent of an orphaned object.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The Distinguished Name (DN) of the last known parent of an orphaned object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

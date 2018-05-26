@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the processes for implementing device event handlers in the registry.'
-ms.assetid: '84B12B5C-C179-4124-A1FC-B90D120336BF'
+Description: Describes the processes for implementing device event handlers in the registry.
+ms.assetid: 84B12B5C-C179-4124-A1FC-B90D120336BF
 title: How to Register a Handler for a Device Event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Register a Handler for a Device Event
@@ -35,7 +40,7 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
 ```
 
 > [!Note]  
-> While the example shows both a ProgID and a class identifier (CLSID) value, in practice these values are mutually exclusive so that only one or the other is present. The ProgID value is preferred. Whichever is used, it should point to a COM component that implements the [**IHWEventHandler**](ihweventhandler.md) interface.
+> While the example shows both a ProgID and a class identifier (CLSID) value, in practice these values are mutually exclusive so that only one or the other is present. The ProgID value is preferred. Whichever is used, it should point to a COM component that implements the [**IHWEventHandler**](/windows/win32/Shobjidl/nn-shobjidl-ihweventhandler?branch=master) interface.
 
  
 
@@ -43,7 +48,7 @@ You can enter the Action value as a literal value, for example "Play music" as s
 
 The DefaultIcon value points to either an .ico file or a resource in a binary file. If the numeric value that follows the binary file name is zero or greater, then it is the index value of the icon in that binary file. If it is a negative value, then it is the icon resource ID. Negative index values are recommended. No value is necessary in the case of an .ico file. It is recommended that you use environment variables in the path.
 
-The InitCmdLine value passes unaltered through the [**IHWEventHandler::Initialize**](ihweventhandler-initialize.md) method before any other methods are called.
+The InitCmdLine value passes unaltered through the [**IHWEventHandler::Initialize**](/windows/win32/Shobjidl/nf-shobjidl-ihweventhandler-initialize?branch=master) method before any other methods are called.
 
 The following example shows the subkeys and values that are used for a device that can be read directly, such as a CD-ROM drive or other removable disk. Again, the example handler is called **MyHandler**.
 
@@ -98,7 +103,7 @@ HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER
 
 <dl> <dt>
 
-[**IHWEventHandler**](ihweventhandler.md)
+[**IHWEventHandler**](/windows/win32/Shobjidl/nn-shobjidl-ihweventhandler?branch=master)
 </dt> <dt>
 
 [**CoCreateInstance**](com.cocreateinstance)

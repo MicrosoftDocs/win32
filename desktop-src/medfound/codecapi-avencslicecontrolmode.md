@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the slice control mode. Valid values are 0, 1, and 2.'
-ms.assetid: '5269DB79-639C-4F67-B885-BF1274CDB635'
-title: 'CODECAPI\_AVEncSliceControlMode property'
+Description: Specifies the slice control mode. Valid values are 0, 1, and 2.
+ms.assetid: 5269DB79-639C-4F67-B885-BF1274CDB635
+title: CODECAPI\_AVEncSliceControlMode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncSliceControlMode property
@@ -30,7 +35,7 @@ Slice control mode values:
 
 
 
- 
+ 
 
 The encoder returns the values that it supports.
 
@@ -38,13 +43,13 @@ The encoder returns the values that it supports.
 
 **H.264/AVC encoders:**
 
-It is recommended that the encoder supports [**GetValue**](imfmediaevent-getvalue.md), [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966), and [**GetParameterRange**](https://msdn.microsoft.com/library/windows/desktop/dd311956).
+It is recommended that the encoder supports [**GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master), [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966), and [**GetParameterRange**](https://msdn.microsoft.com/library/windows/desktop/dd311956).
 
-If [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966) is not called for CODECAPI\_AVEncSliceControlMode, [**GetValue**](imfmediaevent-getvalue.md) for CODECAPI\_AVEncSliceControlMode can return **VFW\_E\_CODECAPI\_NO\_CURRENT\_VALUE**. [**GetDefaultValue**](https://msdn.microsoft.com/library/windows/desktop/dd311955) may return **VFW\_E\_CODECAPI\_NO\_DEFAULT** for CODECAPI\_AVEncSliceControlMode.
+If [**SetValue**](https://msdn.microsoft.com/library/windows/desktop/dd311966) is not called for CODECAPI\_AVEncSliceControlMode, [**GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) for CODECAPI\_AVEncSliceControlMode can return **VFW\_E\_CODECAPI\_NO\_CURRENT\_VALUE**. [**GetDefaultValue**](https://msdn.microsoft.com/library/windows/desktop/dd311955) may return **VFW\_E\_CODECAPI\_NO\_DEFAULT** for CODECAPI\_AVEncSliceControlMode.
 
 Recommended default value is 2 (size in MB row per slice).
 
-This is a static API, which means the application won’t change this while the encoder is running.
+This is a static API, which means the application won t change this while the encoder is running.
 
 ## Examples
 
@@ -66,8 +71,8 @@ if (pCodecAPI->IsSupported(&amp;CODECAPI_AVEncSliceControlMode) == S_OK) {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -79,9 +84,9 @@ if (pCodecAPI->IsSupported(&amp;CODECAPI_AVEncSliceControlMode) == S_OK) {
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

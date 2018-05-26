@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxPorts object represents a collection of FaxPort objects.'
-ms.assetid: 'ac1e4c87-ba3b-4b49-887c-ed392ddab455'
+Description: The FaxPorts object represents a collection of FaxPort objects.
+ms.assetid: ac1e4c87-ba3b-4b49-887c-ed392ddab455
 title: FaxPorts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPorts
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxServer::GetPorts**](-mfax-ifaxserver-client-mfax-ifaxserver-getports-cpp.md) method.
--   Supports the [**IFaxPorts**](-mfax-ifaxports.md) interface.
+-   Create by calling the [**IFaxServer::GetPorts**](/windows/previous-versions/faxcomex/?branch=master) method.
+-   Supports the [**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master) interface.
 
-For more information about creating an instance of a FaxPorts object, and for a list of the object's properties and methods, see [**IFaxPorts**](-mfax-ifaxports.md).
+For more information about creating an instance of a FaxPorts object, and for a list of the object's properties and methods, see [**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master).
 
 ## Visual Basic
 

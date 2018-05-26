@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EffectGetCount method retrieves the number of effects on this object.'
-ms.assetid: '6cf3b5b1-f38f-4ee1-8567-3c55f4f89cbb'
-title: 'IAMTimelineEffectable::EffectGetCount method'
+---
+Description: The EffectGetCount method retrieves the number of effects on this object.
+ms.assetid: 6cf3b5b1-f38f-4ee1-8567-3c55f4f89cbb
+title: IAMTimelineEffectableEffectGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineEffectable::EffectGetCount method

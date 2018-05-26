@@ -1,14 +1,20 @@
 ---
 title: Alpha Element
 description: The Alpha element defines the transparency of the specified object.
-ms.assetid: '13301252-9daa-43f8-9cd4-fed45dfb6e74'
-keywords: ["Alpha Element Windows Movie Maker and DVD Maker"]
+ms.assetid: 13301252-9daa-43f8-9cd4-fed45dfb6e74
+keywords:
+- Alpha Element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Alpha Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha Element

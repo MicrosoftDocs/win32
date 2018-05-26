@@ -1,7 +1,12 @@
 ---
 title: restricted
 description: Prevents the item from being used by a macro programmer.
-ms.assetid: '97c9e46d-0bc9-4606-9994-acbe07d14040'
+ms.assetid: 97c9e46d-0bc9-4606-9994-acbe07d14040
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # restricted

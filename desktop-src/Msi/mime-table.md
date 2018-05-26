@@ -1,7 +1,12 @@
 ---
-Description: 'The MIME table associates a MIME content type with a file name extension or a CLSID to generate the extension or COM server information required for advertisement of the MIME (Multipurpose Internet Mail Extensions) content.'
-ms.assetid: '5d452b24-ae04-4c45-8b3b-48e81f13a21e'
+Description: The MIME table associates a MIME content type with a file name extension or a CLSID to generate the extension or COM server information required for advertisement of the MIME (Multipurpose Internet Mail Extensions) content.
+ms.assetid: 5d452b24-ae04-4c45-8b3b-48e81f13a21e
 title: MIME Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIME Table

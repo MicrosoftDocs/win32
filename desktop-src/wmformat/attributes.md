@@ -1,8 +1,17 @@
 ---
 title: Attributes
 description: Attributes
-ms.assetid: '1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,about"]
+ms.assetid: 1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes
@@ -32,13 +41,13 @@ The following sections describe the predefined attributes.
 
 <dl> <dt>
 
-[**IWMHeaderInfo::GetAttributeByIndex**](iwmheaderinfo-getattributebyindex.md)
+[**IWMHeaderInfo::GetAttributeByIndex**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyindex?branch=master)
 </dt> <dt>
 
-[**IWMHeaderInfo::GetAttributeByName**](iwmheaderinfo-getattributebyname.md)
+[**IWMHeaderInfo::GetAttributeByName**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname?branch=master)
 </dt> <dt>
 
-[**IWMHeaderInfo::SetAttribute**](iwmheaderinfo-setattribute.md)
+[**IWMHeaderInfo::SetAttribute**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute?branch=master)
 </dt> <dt>
 
 [**Working with Metadata**](working-with-metadata.md)

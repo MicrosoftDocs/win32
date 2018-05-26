@@ -1,7 +1,12 @@
 ---
-Description: 'The Enum Type of semantic type is one of the Text Format Types.'
-ms.assetid: 'fff01044-5749-42a5-b026-5b22671870bd'
+Description: The Enum Type of semantic type is one of the Text Format Types.
+ms.assetid: fff01044-5749-42a5-b026-5b22671870bd
 title: Enum Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enum Type

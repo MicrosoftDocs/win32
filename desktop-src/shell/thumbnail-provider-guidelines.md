@@ -1,6 +1,11 @@
 ---
-Description: 'When you provide a thumbnail, the following guidelines should be followed.'
+Description: When you provide a thumbnail, the following guidelines should be followed.
 title: Thumbnail Handler Guidelines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thumbnail Handler Guidelines

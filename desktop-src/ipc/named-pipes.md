@@ -1,7 +1,12 @@
 ---
-Description: 'A named pipe is a named, one-way or duplex pipe for communication between the pipe server and one or more pipe clients.'
-ms.assetid: '7a4c11ac-14c0-4a93-b72e-02fb8852cc15'
+Description: A named pipe is a named, one-way or duplex pipe for communication between the pipe server and one or more pipe clients.
+ms.assetid: 7a4c11ac-14c0-4a93-b72e-02fb8852cc15
 title: Named Pipes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Named Pipes
@@ -10,7 +15,7 @@ A *named pipe* is a named, one-way or duplex pipe for communication between the 
 
 Any process can access named pipes, subject to security checks, making named pipes an easy form of communication between related or unrelated processes.
 
-Any process can act as both a server and a client, making peer-to-peer communication possible. As used here, the term pipe server refers to a process that creates a named pipe, and the term pipe client refers to a process that connects to an instance of a named pipe. The server-side function for instantiating a named pipe is [**CreateNamedPipe**](createnamedpipe.md). The server-side function for accepting a connection is [**ConnectNamedPipe**](connectnamedpipe.md). A client process connects to a named pipe by using the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) or [**CallNamedPipe**](callnamedpipe.md) function.
+Any process can act as both a server and a client, making peer-to-peer communication possible. As used here, the term pipe server refers to a process that creates a named pipe, and the term pipe client refers to a process that connects to an instance of a named pipe. The server-side function for instantiating a named pipe is [**CreateNamedPipe**](/windows/win32/Winbase/nf-winbase-createnamedpipea?branch=master). The server-side function for accepting a connection is [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master). A client process connects to a named pipe by using the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) or [**CallNamedPipe**](/windows/win32/Winbase/nf-winbase-callnamedpipea?branch=master) function.
 
 Named pipes can be used to provide communication between processes on the same computer or between processes on different computers across a network. If the server service is running, all named pipes are accessible remotely. If you intend to use a named pipe locally only, deny access to NT AUTHORITY\\NETWORK or switch to local RPC.
 

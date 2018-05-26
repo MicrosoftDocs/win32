@@ -4,17 +4,22 @@ description: Distinguished name of the Domain Controller which generated this ro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9d0203bc-71df-4e06-822b-0817b1422195'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9d0203bc-71df-4e06-822b-0817b1422195
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-DomainID attribute AD Schema", "msKds-DomainID attribute AD Schema"]
+keywords:
+- ms-Kds-DomainID attribute AD Schema
+- msKds-DomainID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-DomainID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-DomainID attribute
@@ -38,7 +43,7 @@ Distinguished name of the Domain Controller which generated this root key.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Distinguished name of the Domain Controller which generated this root key.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

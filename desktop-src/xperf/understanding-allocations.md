@@ -1,7 +1,12 @@
 ---
 title: Understanding Allocations
 description: Understanding Allocations
-ms.assetid: 'e9a8d2bd-e39a-42e8-a642-e727cba53ca1'
+ms.assetid: e9a8d2bd-e39a-42e8-a642-e727cba53ca1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Allocations

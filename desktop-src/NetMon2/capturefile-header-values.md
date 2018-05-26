@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the Network Monitor header file structure.'
-ms.assetid: '944980c9-ebaa-4042-a112-d32b7a28ba21'
-title: 'CAPTUREFILE\_HEADER\_VALUES structure'
+Description: Defines the Network Monitor header file structure.
+ms.assetid: 944980c9-ebaa-4042-a112-d32b7a28ba21
+title: CAPTUREFILE\_HEADER\_VALUES structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPTUREFILE\_HEADER\_VALUES structure
@@ -13,23 +18,23 @@ The **CAPTUREFILE\_HEADER\_VALUES** structure defines the Network Monitor header
 
 ```C++
 typedef struct _CAPTUREFILE_HEADER_VALUES {
-  DWORD      Signature;
-  BYTE       BCDVerMinor;
-  BYTE       BCDVerMajor;
-  WORD       MacType;
+  DWORD      Signature;
+  BYTE       BCDVerMinor;
+  BYTE       BCDVerMajor;
+  WORD       MacType;
   SYSTEMTIME TimeStamp;
-  DWORD      FrameTableOffset;
-  DWORD      FrameTableLength;
-  DWORD      UserDataOffset;
-  DWORD      UserDataLength;
-  DWORD      CommentDataOffset;
-  DWORD      CommentDataLength;
-  DWORD      StatisticsOffset;
-  DWORD      StatisticsLength;
-  DWORD      NetworkInfoOffset;
-  DWORD      NetworkInfoLength;
-  DWORD      ConversationStatsOffset;
-  DWORD      ConversationStatsLength;
+  DWORD      FrameTableOffset;
+  DWORD      FrameTableLength;
+  DWORD      UserDataOffset;
+  DWORD      UserDataLength;
+  DWORD      CommentDataOffset;
+  DWORD      CommentDataLength;
+  DWORD      StatisticsOffset;
+  DWORD      StatisticsLength;
+  DWORD      NetworkInfoOffset;
+  DWORD      NetworkInfoLength;
+  DWORD      ConversationStatsOffset;
+  DWORD      ConversationStatsLength;
 } CAPTUREFILE_HEADER_VALUES, *LPCAPTUREFILE_HEADER_VALUES;
 ```
 
@@ -164,15 +169,15 @@ This member is not used.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

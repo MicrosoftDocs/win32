@@ -1,8 +1,18 @@
 ---
 title: Description
 description: Description
-ms.assetid: '660d886d-5dd2-4f7d-b343-6d9c7c8f8389'
-keywords: ["Windows Media Player Mobile skins,Description section", "skins,Description section", "reference for skins,Description section", "Description section in skins", "skin definition files,Description section"]
+ms.assetid: 660d886d-5dd2-4f7d-b343-6d9c7c8f8389
+keywords:
+- Windows Media Player Mobile skins,Description section
+- skins,Description section
+- reference for skins,Description section
+- Description section in skins
+- skin definition files,Description section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description

@@ -1,7 +1,12 @@
 ---
 title: Disk I/O Detail
 description: Disk I/O Detail
-ms.assetid: '7afb8783-3c19-4343-bf4c-86323256d1e2'
+ms.assetid: 7afb8783-3c19-4343-bf4c-86323256d1e2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk I/O Detail

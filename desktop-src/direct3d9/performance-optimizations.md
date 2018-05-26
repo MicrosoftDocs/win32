@@ -1,7 +1,12 @@
 ---
-Description: 'Every developer who creates real-time applications that use 3D graphics is concerned about performance optimization. This section provides guidelines for getting the best performance from your code.'
-ms.assetid: '074f848e-4a42-48a2-adf7-4026b8967413'
-title: 'Performance Optimizations (Direct3D 9)'
+Description: Every developer who creates real-time applications that use 3D graphics is concerned about performance optimization. This section provides guidelines for getting the best performance from your code.
+ms.assetid: 074f848e-4a42-48a2-adf7-4026b8967413
+title: Performance Optimizations (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Optimizations (Direct3D 9)
@@ -82,7 +87,7 @@ Direct3D uses the world and view matrices that you set to configure several inte
 
 ## Using Dynamic Textures
 
-To find out if the driver supports dynamic textures, check the D3DCAPS2\_DYNAMICTEXTURES flag of the [**D3DCAPS9**](d3dcaps9.md) structure.
+To find out if the driver supports dynamic textures, check the D3DCAPS2\_DYNAMICTEXTURES flag of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure.
 
 Keep the following things in mind when working with dynamic textures.
 
@@ -117,11 +122,11 @@ Locking a static vertex buffer while the graphics processor is using the buffer 
 
 Ideally the vertex or index data would never change, however this is not always possible. There are many situations where the application needs to change vertex or index data every frame, perhaps even multiple times per frame. For these situations, the vertex or index buffer should be created with D3DUSAGE\_DYNAMIC. This usage flag causes Direct3D to optimize for frequent lock operations. D3DUSAGE\_DYNAMIC is only useful when the buffer is locked frequently; data that remains constant should be placed in a static vertex or index buffer.
 
-To receive a performance improvement when using dynamic vertex buffers, the application must call [**IDirect3DVertexBuffer9::Lock**](idirect3dvertexbuffer9--lock.md) or [**IDirect3DIndexBuffer9::Lock**](idirect3dindexbuffer9--lock.md) with the appropriate flags. D3DLOCK\_DISCARD indicates that the application does not need to keep the old vertex or index data in the buffer. If the graphics processor is still using the buffer when lock is called with D3DLOCK\_DISCARD, a pointer to a new region of memory is returned instead of the old buffer data. This allows the graphics processor to continue using the old data while the application places data in the new buffer. No additional memory management is required in the application; the old buffer is reused or destroyed automatically when the graphics processor is finished with it. Note that locking a buffer with D3DLOCK\_DISCARD always discards the entire buffer, specifying a nonzero offset or limited size field does not preserve information in unlocked areas of the buffer.
+To receive a performance improvement when using dynamic vertex buffers, the application must call [**IDirect3DVertexBuffer9::Lock**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvertexbuffer9-lock?branch=master) or [**IDirect3DIndexBuffer9::Lock**](/windows/win32/d3d9helper/nf-d3d9-idirect3dindexbuffer9-lock?branch=master) with the appropriate flags. D3DLOCK\_DISCARD indicates that the application does not need to keep the old vertex or index data in the buffer. If the graphics processor is still using the buffer when lock is called with D3DLOCK\_DISCARD, a pointer to a new region of memory is returned instead of the old buffer data. This allows the graphics processor to continue using the old data while the application places data in the new buffer. No additional memory management is required in the application; the old buffer is reused or destroyed automatically when the graphics processor is finished with it. Note that locking a buffer with D3DLOCK\_DISCARD always discards the entire buffer, specifying a nonzero offset or limited size field does not preserve information in unlocked areas of the buffer.
 
 There are cases where the amount of data the application needs to store per lock is small, such as adding four vertices to render a sprite. D3DLOCK\_NOOVERWRITE indicates that the application will not overwrite data already in use in the dynamic buffer. The lock call will return a pointer to the old data, allowing the application to add new data in unused regions of the vertex or index buffer. The application should not modify vertices or indices used in a draw operation as they might still be in use by the graphics processor. The application should then use D3DLOCK\_DISCARD after the dynamic buffer is full to receive a new region of memory, discarding the old vertex or index data after the graphics processor is finished.
 
-The asynchronous query mechanism is useful to determine if vertices are still in use by the graphics processor. Issue a query of type D3DQUERYTYPE\_EVENT after the last DrawPrimitive call that uses the vertices. The vertices are no longer in use when [**IDirect3DQuery9::GetData**](idirect3dquery9--getdata.md) returns S\_OK. Locking a buffer with D3DLOCK\_DISCARD or no flags will always guarantee the vertices are synchronized properly with the graphics processor, however using lock without flags will incur the performance penalty described earlier. Other API calls such as [**IDirect3DDevice9::BeginScene**](idirect3ddevice9--beginscene.md), [**IDirect3DDevice9::EndScene**](idirect3ddevice9--endscene.md), and [**IDirect3DDevice9::Present**](idirect3ddevice9--present.md) do not guarantee the graphics processor is finished using vertices.
+The asynchronous query mechanism is useful to determine if vertices are still in use by the graphics processor. Issue a query of type D3DQUERYTYPE\_EVENT after the last DrawPrimitive call that uses the vertices. The vertices are no longer in use when [**IDirect3DQuery9::GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master) returns S\_OK. Locking a buffer with D3DLOCK\_DISCARD or no flags will always guarantee the vertices are synchronized properly with the graphics processor, however using lock without flags will incur the performance penalty described earlier. Other API calls such as [**IDirect3DDevice9::BeginScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-beginscene?branch=master), [**IDirect3DDevice9::EndScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endscene?branch=master), and [**IDirect3DDevice9::Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) do not guarantee the graphics processor is finished using vertices.
 
 Below are ways to use dynamic buffers and the proper lock flags.
 

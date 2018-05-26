@@ -1,7 +1,12 @@
 ---
 title: Registering a Web Site with Search Engines
 description: Registering a Web Site with Search Engines
-ms.assetid: '9CF6B0A0-E98F-484e-97F4-05B5A29678AF'
+ms.assetid: 9CF6B0A0-E98F-484e-97F4-05B5A29678AF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Web Site with Search Engines

@@ -1,12 +1,17 @@
 ---
 title: Windows Sidebar Object Reference
 description: The Windows Sidebar and gadget architecture consists of three components. The functionality of these components is exposed through the scripting elements described in this section.
-ms.assetid: '10c8faaa-770e-40d5-a64d-3bb8d3b203ae'
+ms.assetid: 10c8faaa-770e-40d5-a64d-3bb8d3b203ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Sidebar Object Reference
 
-\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
+\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
 
 The Windows Sidebar and gadget architecture consists of three components. The functionality of these components is exposed through the scripting elements described in this section.
 
@@ -18,11 +23,11 @@ The Windows Sidebar and gadget architecture consists of three components. The fu
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

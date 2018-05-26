@@ -4,11 +4,14 @@ description: Provides information on the rights management services (RMS) server
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e5d7fd8c-5f20-415f-914f-0e681413f099'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: e5d7fd8c-5f20-415f-914f-0e681413f099
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_CONNECTION_INFO structure Active Directory Rights Management Services SDK 2.0", "PIPC_CONNECTION_INFO structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_CONNECTION_INFO structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_CONNECTION_INFO structure Active Directory Rights Management Services SDK 2.0
+- PIPC_CONNECTION_INFO structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_CONNECTION_INFO structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_CONNECTION\_INFO structure
@@ -65,15 +71,15 @@ The structure always contains the intranet URL and may optionally contain an ext
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

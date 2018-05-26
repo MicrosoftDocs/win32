@@ -1,8 +1,22 @@
 ---
 title: glVertex Functions
 description: These functions specify a vertex.
-ms.assetid: '20253760-f9ec-4053-bcde-748178f3b359'
-keywords: ["OpenGL,glVertex functions", "OpenGL reference,glVertex functions", "reference for OpenGL,glVertex functions", "OpenGL,vertex functions", "OpenGL reference,vertex functions", "reference for OpenGL,vertex functions", "glVertexl functions", "vertices,functions", "vertex functions"]
+ms.assetid: 20253760-f9ec-4053-bcde-748178f3b359
+keywords:
+- OpenGL,glVertex functions
+- OpenGL reference,glVertex functions
+- reference for OpenGL,glVertex functions
+- OpenGL,vertex functions
+- OpenGL reference,vertex functions
+- reference for OpenGL,vertex functions
+- glVertexl functions
+- vertices,functions
+- vertex functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glVertex Functions

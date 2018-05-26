@@ -1,8 +1,19 @@
 ---
 title: Registering an Application with Still Image
 description: Once an STI-compatible application is installed, it must be registered as an application that can use the push model with the STI API.
-ms.assetid: 'ab4cdbd0-002a-4659-abe5-5d89f69d0cb2'
-keywords: ["Still Image (STI),registering applications", "STI (Still Image),registering applications", "Still Image API,registering applications", "still images,registering applications with STI", "registering applications with STI", "RegisterLaunchApplication method"]
+ms.assetid: ab4cdbd0-002a-4659-abe5-5d89f69d0cb2
+keywords:
+- Still Image (STI),registering applications
+- STI (Still Image),registering applications
+- Still Image API,registering applications
+- still images,registering applications with STI
+- registering applications with STI
+- RegisterLaunchApplication method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering an Application with Still Image

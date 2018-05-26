@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides basic information needed to write programs and scripts using the Fax Server Administration objects. This section includes the following topics.'
-ms.assetid: '93099417-2254-4c9a-9e64-3dca55c49054'
+Description: This section provides basic information needed to write programs and scripts using the Fax Server Administration objects. This section includes the following topics.
+ms.assetid: 93099417-2254-4c9a-9e64-3dca55c49054
 title: Getting Started with Fax Server Administration Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Fax Server Administration Objects

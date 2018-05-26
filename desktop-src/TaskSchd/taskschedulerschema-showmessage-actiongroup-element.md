@@ -1,14 +1,20 @@
 ---
 title: ShowMessage (actionGroup) Element
 description: Represents an action that shows a message box.
-ms.assetid: '33c6e437-b993-4b5e-b75a-fb3fda9b24df'
-keywords: ["ShowMessage element Task Scheduler"]
+ms.assetid: 33c6e437-b993-4b5e-b75a-fb3fda9b24df
+keywords:
+- ShowMessage element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ShowMessage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowMessage (actionGroup) Element
@@ -48,9 +54,9 @@ The **ShowMessage** element is defined by the [**actionGroup**](taskschedulersch
 
 For scripting development, a message box action is specified using the [**ShowMessageAction**](showmessageaction.md) object.
 
-For C++ development, a message box action is specified using the [**IShowMessageAction**](ishowmessageaction.md) interface.
+For C++ development, a message box action is specified using the [**IShowMessageAction**](/windows/win32/taskschd/nn-taskschd-ishowmessageaction?branch=master) interface.
 
-**Windows 8 and Windows Server 2012:** This element has been removed. You can use IExecAction with the Windows scripting [**MsgBox function**](ae073d50-e4a4-4e23-8e46-0cb1369965e7) to show a message in the user session.
+**Windows 8 and Windows Server 2012:** This element has been removed. You can use IExecAction with the Windows scripting [**MsgBox function**](ae073d50-e4a4-4e23-8e46-0cb1369965e7) to show a message in the user session.
 
 ## Examples
 
@@ -62,16 +68,16 @@ For a complete example of the XML for a task that uses a message box action, see
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-| End of client support<br/>    | Windows 7<br/>                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| End of client support<br/>    | Windows 7<br/>                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

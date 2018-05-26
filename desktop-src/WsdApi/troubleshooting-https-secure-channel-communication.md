@@ -1,7 +1,12 @@
 ---
-Description: 'Troubleshooting metadata exchange or directed discovery over HTTPS is different than troubleshooting WSDAPI traffic on HTTP. There are special considerations when troubleshooting secure channel communications.'
-ms.assetid: '1c39556c-c04a-4c3b-8a29-60cea75c1e50'
+Description: Troubleshooting metadata exchange or directed discovery over HTTPS is different than troubleshooting WSDAPI traffic on HTTP. There are special considerations when troubleshooting secure channel communications.
+ms.assetid: 1c39556c-c04a-4c3b-8a29-60cea75c1e50
 title: Troubleshooting HTTPS Secure Channel Communication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting HTTPS Secure Channel Communication

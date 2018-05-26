@@ -1,7 +1,12 @@
 ---
 title: dcl\_input vOutputControlPointID (sm5 - asm)
 description: Declare the the output control point ID in a hull shader control point phase.
-ms.assetid: '376ECA4F-DD71-4466-8A9D-E92A536832BC'
+ms.assetid: 376ECA4F-DD71-4466-8A9D-E92A536832BC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_input vOutputControlPointID (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the the output control point ID in a hull shader control point phase.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the the output control point ID in a hull shader control point phase.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -58,7 +63,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +72,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

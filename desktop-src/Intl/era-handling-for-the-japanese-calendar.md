@@ -1,7 +1,12 @@
 ---
 Description: Era Handling for the Japanese Calendar
-ms.assetid: 'a1dabf7c-6521-492e-bdc0-27cfb07cfc20'
+ms.assetid: a1dabf7c-6521-492e-bdc0-27cfb07cfc20
 title: Era Handling for the Japanese Calendar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Era Handling for the Japanese Calendar

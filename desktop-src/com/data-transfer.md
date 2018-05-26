@@ -1,14 +1,19 @@
 ---
 title: Data Transfer
 description: Data Transfer
-ms.assetid: '26b16438-f940-4086-869e-74021ed00b1e'
+ms.assetid: 26b16438-f940-4086-869e-74021ed00b1e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Transfer
 
-The Component Object Model (COM) provides a standard mechanism for transferring data between applications. This mechanism is the *data object*, which is simply any COM object that implements the [**IDataObject**](idataobject.md) interface. Some data objects, such as a piece of text copied to the clipboard, have **IDataObject** as their sole interface. Others, such as compound document objects, expose several interfaces, of which **IDataObject** is simply one. Data objects are fundamental to the working of compound documents, although they also have widespread application outside that OLE technology.
+The Component Object Model (COM) provides a standard mechanism for transferring data between applications. This mechanism is the *data object*, which is simply any COM object that implements the [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master) interface. Some data objects, such as a piece of text copied to the clipboard, have **IDataObject** as their sole interface. Others, such as compound document objects, expose several interfaces, of which **IDataObject** is simply one. Data objects are fundamental to the working of compound documents, although they also have widespread application outside that OLE technology.
 
-By exchanging pointers to a data object, providers and consumers of data can manage data transfers in a uniform manner, regardless of the format of the data, the type of medium used to transfer the data, or the target device on which it is to be rendered. You can include support in your application for basic clipboard transfers, drag and drop transfers, and OLE compound document transfers with a single implementation of [**IDataObject**](idataobject.md). Having done that, the amount of code required to accommodate the special semantics of each protocol is minimal.
+By exchanging pointers to a data object, providers and consumers of data can manage data transfers in a uniform manner, regardless of the format of the data, the type of medium used to transfer the data, or the target device on which it is to be rendered. You can include support in your application for basic clipboard transfers, drag and drop transfers, and OLE compound document transfers with a single implementation of [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master). Having done that, the amount of code required to accommodate the special semantics of each protocol is minimal.
 
 For more information, see the following topics:
 

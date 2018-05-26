@@ -1,7 +1,12 @@
 ---
-Description: 'The SearchEvents code sample demonstrates how to prioritize indexing events.'
-ms.assetid: 'a352c3e2-5860-4b9c-a3c7-a806f69b4f7d'
+Description: The SearchEvents code sample demonstrates how to prioritize indexing events.
+ms.assetid: a352c3e2-5860-4b9c-a3c7-a806f69b4f7d
 title: SearchEvents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SearchEvents
@@ -81,19 +86,19 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**IRowsetEvents**](-search-irowsetevents.md)
+[**IRowsetEvents**](/windows/win32/Searchapi/nn-searchapi-irowsetevents?branch=master)
 </dt> <dt>
 
-[**IRowsetPrioritization**](-search-irowsetprioritization.md)
+[**IRowsetPrioritization**](/windows/win32/Searchapi/nn-searchapi-irowsetprioritization?branch=master)
 </dt> <dt>
 
-[**PRIORITY\_LEVEL**](-search-priority-level.md)
+[**PRIORITY\_LEVEL**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001?branch=master)
 </dt> <dt>
 
-[**ROWSETEVENT\_ITEMSTATE**](-search-rowsetevent-itemstate.md)
+[**ROWSETEVENT\_ITEMSTATE**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001?branch=master)
 </dt> <dt>
 
-[**ROWSETEVENT\_TYPE**](-search-rowsetevent-type.md)
+[**ROWSETEVENT\_TYPE**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002?branch=master)
 </dt> <dt>
 
 **Conceptual**

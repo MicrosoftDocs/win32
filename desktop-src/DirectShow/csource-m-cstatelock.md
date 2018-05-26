@@ -1,7 +1,12 @@
 ---
-Description: 'Critical section object that protects the filter state. The CSource::pStateLock helper method returns a pointer to this member variable.'
-ms.assetid: 'faaf5fea-54bc-4856-9bca-3ed420c491e4'
-title: 'CSource::m\_cStateLock member'
+Description: Critical section object that protects the filter state. The CSourcepStateLock helper method returns a pointer to this member variable.
+ms.assetid: faaf5fea-54bc-4856-9bca-3ed420c491e4
+title: CSourcem\_cStateLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource::m\_cStateLock member
@@ -35,9 +40,9 @@ CCritSec m_cStateLock;
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

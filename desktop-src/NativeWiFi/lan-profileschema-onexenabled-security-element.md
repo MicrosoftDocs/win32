@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X.'
-ms.assetid: 'ab6cfc59-9cfd-45d3-ad27-306ad4f6d4e1'
-title: 'OneXEnabled (security) Element'
+---
+Description: Specifies whether the automatic configuration service for wired networks will attempt port authentication using 802.1X.
+ms.assetid: ab6cfc59-9cfd-45d3-ad27-306ad4f6d4e1
+title: OneXEnabled (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneXEnabled (security) Element

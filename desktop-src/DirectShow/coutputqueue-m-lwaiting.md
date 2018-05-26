@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that has a nonzero value when the thread is waiting for a sample.'
-ms.assetid: 'bc628f47-fa5b-4742-aed4-351081a61c13'
-title: 'COutputQueue::m\_lWaiting member'
+Description: Flag that has a nonzero value when the thread is waiting for a sample.
+ms.assetid: bc628f47-fa5b-4742-aed4-351081a61c13
+title: COutputQueuem\_lWaiting member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_lWaiting member
@@ -35,9 +40,9 @@ LONG m_lWaiting;
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

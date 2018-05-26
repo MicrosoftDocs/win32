@@ -1,8 +1,15 @@
 ---
 title: Using the Video Compression Manager
 description: Using the Video Compression Manager
-ms.assetid: 'b08faccf-c92d-4537-a5f9-60cbd8922c08'
-keywords: ["video compression manager (VCM),about", "VCM (video compression manager),about"]
+ms.assetid: b08faccf-c92d-4537-a5f9-60cbd8922c08
+keywords:
+- video compression manager (VCM),about
+- VCM (video compression manager),about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Video Compression Manager

@@ -1,7 +1,12 @@
 ---
 title: Smart Card Modules
 description: Communicates to a specific type of smart card through the Smart Card Resource Manager.
-ms.assetid: 'a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7'
+ms.assetid: a33e4e23-5f0d-4d03-ae3b-8727cdf57ab7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Modules

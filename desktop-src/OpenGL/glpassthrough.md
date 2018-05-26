@@ -1,8 +1,9 @@
 ---
 title: glPassThrough function
 description: The glPassThrough function places a marker in the feedback buffer.
-ms.assetid: '14664ac6-eb25-46ae-86d8-7ece31df103f'
-keywords: ["glPassThrough function OpenGL"]
+ms.assetid: 14664ac6-eb25-46ae-86d8-7ece31df103f
+keywords:
+- glPassThrough function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPassThrough function
@@ -22,7 +28,7 @@ The **glPassThrough** function places a marker in the feedback buffer.
 
 ```C++
 void WINAPI glPassThrough(
-   GLfloat token
+   GLfloat token
 );
 ```
 
@@ -45,7 +51,7 @@ A marker value to be placed in the feedback buffer. It is indicated with the fol
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -95,8 +101,8 @@ The following function retrieves information related to **glPassThrough**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -119,9 +125,9 @@ The following function retrieves information related to **glPassThrough**:
 [**glRenderMode**](glrendermode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

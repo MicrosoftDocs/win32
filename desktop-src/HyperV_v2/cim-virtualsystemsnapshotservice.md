@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a service that can create, apply, and delete snapshots of virtual systems.'
-ms.assetid: '8d5d54a2-08f1-4f24-bca3-601dc698d018'
-title: 'CIM\_VirtualSystemSnapshotService class'
+Description: Represents a service that can create, apply, and delete snapshots of virtual systems.
+ms.assetid: 8d5d54a2-08f1-4f24-bca3-601dc698d018
+title: CIM\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemSnapshotService class
@@ -37,7 +42,7 @@ The **CIM\_VirtualSystemSnapshotService** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +50,8 @@ The **CIM\_VirtualSystemSnapshotService** class has these methods.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -60,9 +65,9 @@ The **CIM\_VirtualSystemSnapshotService** class has these methods.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

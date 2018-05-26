@@ -4,13 +4,16 @@ description: Hides a list of SCSI logical units, such as RAID volumes or tape dr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ed7bfeb-cbbe-47cd-91b7-98e4bded331e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5ed7bfeb-cbbe-47cd-91b7-98e4bded331e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["HideDefaultLUs method iSCSI Software Target API", "HideDefaultLUs method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , HideDefaultLUs method"]
+keywords:
+- HideDefaultLUs method iSCSI Software Target API
+- HideDefaultLUs method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , HideDefaultLUs method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HideDefaultLUs method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -32,10 +38,10 @@ This method is inherited from the **CIM\_ControllerConfigurationService** class.
 
 ```mof
 uint32 HideDefaultLUs(
-  [out]     CIM_ConcreteJob Ref            Job,
-  [in]      string                         LUNames[],
-  [in]      string                         TargetPortIDs[],
-  [in, out] CIM_SCSIProtocolController Ref ProtocolControllers[]
+  [out]     CIM_ConcreteJob Ref            Job,
+  [in]      string                         LUNames[],
+  [in]      string                         TargetPortIDs[],
+  [in, out] CIM_SCSIProtocolController Ref ProtocolControllers[]
 );
 ```
 
@@ -101,7 +107,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -116,10 +122,10 @@ This method returns one of the following values.
 **Maximum Map Count Error** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Remarks
@@ -154,7 +160,7 @@ The SPC may be automatically deleted when the last logical unit, initiator ID, o
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -177,9 +183,9 @@ The SPC may be automatically deleted when the last logical unit, initiator ID, o
 [**MSISCSITARGET\_ConcreteJob**](msiscsitarget-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

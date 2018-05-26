@@ -1,7 +1,12 @@
 ---
 title: How to Implement In-Place Tooltips
 description: In-place tooltips are used to display text strings for objects that have been clipped. For an illustration, see About Tooltip Controls.
-ms.assetid: '2FE39B99-75F3-4978-B0B3-B769E2961F23'
+ms.assetid: 2FE39B99-75F3-4978-B0B3-B769E2961F23
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement In-Place Tooltips

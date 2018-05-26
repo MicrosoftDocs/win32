@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the verb''s name.'
-ms.assetid: 'd18fddac-eb51-4031-a572-1bfef2f757a9'
-title: 'FolderItemVerb.Name property'
+---
+Description: Contains the verbs name.
+ms.assetid: d18fddac-eb51-4031-a572-1bfef2f757a9
+title: FolderItemVerb.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItemVerb.Name property

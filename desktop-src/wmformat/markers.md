@@ -1,8 +1,17 @@
 ---
 title: Markers
 description: Markers
-ms.assetid: 'ba9bc93e-76a9-4a49-951f-c38dbcceef8c'
-keywords: ["Windows Media Format SDK,markers", "Advanced Systems Format (ASF),markers", "ASF (Advanced Systems Format),markers", "markers,about"]
+ms.assetid: ba9bc93e-76a9-4a49-951f-c38dbcceef8c
+keywords:
+- Windows Media Format SDK,markers
+- Advanced Systems Format (ASF),markers
+- ASF (Advanced Systems Format),markers
+- markers,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Markers

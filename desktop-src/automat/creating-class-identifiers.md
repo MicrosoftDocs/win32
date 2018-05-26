@@ -1,7 +1,12 @@
 ---
 title: Creating Class Identifiers
 description: CLSIDs are universally unique identifiers (UUIDs, also called globally unique identifiers, or GUIDs) that identify class objects to OLE.
-ms.assetid: 'a802d92e-2116-4d7e-9a16-df3d889337a2'
+ms.assetid: a802d92e-2116-4d7e-9a16-df3d889337a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Class Identifiers

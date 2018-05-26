@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'fae2e05c-3f7b-4511-9b9d-5a37ea03f851'
-title: 'CEnumMediaTypes.CEnumMediaTypes constructor'
+Description: Constructor method.
+ms.assetid: fae2e05c-3f7b-4511-9b9d-5a37ea03f851
+title: CEnumMediaTypes.CEnumMediaTypes constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumMediaTypes.CEnumMediaTypes constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CEnumMediaTypes(
-   CBasePin        *pPin,
-   CEnumMediaTypes *pEnumMediaTypes
+   CBasePin        *pPin,
+   CEnumMediaTypes *pEnumMediaTypes
 );
 ```
 
@@ -34,7 +39,7 @@ Pointer to the pin on which the enumeration is to be performed.
 *pEnumMediaTypes* 
 </dt> <dd>
 
-Pointer to the [**IEnumMediaTypes**](ienummediatypes.md) interface of an enumerator to clone, or **NULL**.
+Pointer to the [**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master) interface of an enumerator to clone, or **NULL**.
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ If *pEnumMediaTypes* is **NULL**, this method initializes the enumerator to the 
 [**CEnumMediaTypes Class**](cenummediatypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

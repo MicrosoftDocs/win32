@@ -1,7 +1,12 @@
 ---
-Description: 'This article describes how to respond to events that occur in a filter graph.'
-ms.assetid: '1c09149b-7f34-4296-bd32-dbbae5e1d62b'
+Description: This article describes how to respond to events that occur in a filter graph.
+ms.assetid: 1c09149b-7f34-4296-bd32-dbbae5e1d62b
 title: Responding to Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Responding to Events
@@ -29,7 +34,7 @@ An application can instruct the Filter Graph Manager to send a Windows message t
 
 
 
-Next, query the Filter Graph Manager for the [**IMediaEventEx**](imediaeventex.md) interface and call the [**IMediaEventEx::SetNotifyWindow**](imediaeventex-setnotifywindow.md) method:
+Next, query the Filter Graph Manager for the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) interface and call the [**IMediaEventEx::SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master) method:
 
 
 ```C++
@@ -42,7 +47,7 @@ g_pEvent->SetNotifyWindow((OAHWND)g_hwnd, WM_GRAPHNOTIFY, 0);
 
 This method designates the specified window (g\_hwnd) as the recipient of the message. Call the method after you create the filter graph, but before running the graph.
 
-WM\_GRAPHNOTIFY is an ordinary Windows message. Whenever the Filter Graph Manager puts a new event on the event queue, it posts a WM\_GRAPHNOTIFY message to the designated application window. The message's *lParam* parameter is equal to the third parameter in [**SetNotifyWindow**](imediaeventex-setnotifywindow.md). This parameter enables you to send instance data with the message. The window message's *wParam* parameter is always zero.
+WM\_GRAPHNOTIFY is an ordinary Windows message. Whenever the Filter Graph Manager puts a new event on the event queue, it posts a WM\_GRAPHNOTIFY message to the designated application window. The message's *lParam* parameter is equal to the third parameter in [**SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master). This parameter enables you to send instance data with the message. The window message's *wParam* parameter is always zero.
 
 In your application's **WindowProc** function, add a case statement for the WM\_GRAPHNOTIFY message:
 
@@ -55,7 +60,7 @@ case WM_GRAPHNOTIFY:
 
 
 
-In the event handler function, call the [**IMediaEvent::GetEvent**](imediaevent-getevent.md) method to retrieve events from the queue:
+In the event handler function, call the [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) method to retrieve events from the queue:
 
 
 ```C++
@@ -88,15 +93,15 @@ void HandleGraphEvent()
 
 
 
-The [**GetEvent**](imediaevent-getevent.md) method retrieves the event code and the two event parameters. The fourth **GetEvent** parameter specifies the length of time to wait for an event, in milliseconds. Because the application calls this method in response to a WM\_GRAPHNOTIFY message, the event is already queued. Therefore, we set the time-out value to zero.
+The [**GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) method retrieves the event code and the two event parameters. The fourth **GetEvent** parameter specifies the length of time to wait for an event, in milliseconds. Because the application calls this method in response to a WM\_GRAPHNOTIFY message, the event is already queued. Therefore, we set the time-out value to zero.
 
-Event notification and the message loop are both asynchronous, so the queue might hold more than one event by the time your application responds to the message. Also, the Filter Graph Manager can remove certain events from the queue, if they become invalid. Therefore, you should call [**GetEvent**](imediaevent-getevent.md) until it returns a failure code, indicating the queue is empty.
+Event notification and the message loop are both asynchronous, so the queue might hold more than one event by the time your application responds to the message. Also, the Filter Graph Manager can remove certain events from the queue, if they become invalid. Therefore, you should call [**GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) until it returns a failure code, indicating the queue is empty.
 
-In this example, the application responds to [**EC\_COMPLETE**](ec-complete.md), [**EC\_USERABORT**](ec-userabort.md), and [**EC\_ERRORABORT**](ec-errorabort.md) by invoking the application-defined CleanUp function, which causes the application to quit gracefully. The example ignores the two event parameters. After you retrieve an event, call [**IMediaEvent::FreeEventParams**](imediaevent-freeeventparams.md) to any free resources associated with the event parameters.
+In this example, the application responds to [**EC\_COMPLETE**](ec-complete.md), [**EC\_USERABORT**](ec-userabort.md), and [**EC\_ERRORABORT**](ec-errorabort.md) by invoking the application-defined CleanUp function, which causes the application to quit gracefully. The example ignores the two event parameters. After you retrieve an event, call [**IMediaEvent::FreeEventParams**](/windows/win32/Control/nf-control-imediaevent-freeeventparams?branch=master) to any free resources associated with the event parameters.
 
 Note that an [**EC\_COMPLETE**](ec-complete.md) event does not cause the filter graph to stop. The application can either stop or pause the graph. If you stop the graph, filters release any resources they are holding. If you pause the graph, filters continue to hold resources. Also, when a video renderer pauses, it displays a static image of the most recent frame.
 
-Before you release the [**IMediaEventEx**](imediaeventex.md) pointer, cancel event notification by calling [**SetNotifyWindow**](imediaeventex-setnotifywindow.md) with a **NULL** window handle:
+Before you release the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) pointer, cancel event notification by calling [**SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master) with a **NULL** window handle:
 
 
 ```C++
@@ -108,7 +113,7 @@ g_pEvent = NULL;
 
 
 
-In the WM\_GRAPHNOTIFY message handler, check the [**IMediaEventEx**](imediaeventex.md) pointer before calling [**GetEvent**](imediaevent-getevent.md):
+In the WM\_GRAPHNOTIFY message handler, check the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) pointer before calling [**GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master):
 
 
 ```C++

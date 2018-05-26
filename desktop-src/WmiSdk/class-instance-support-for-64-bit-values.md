@@ -1,13 +1,16 @@
 ---
-Description: 'Provides restrictions for the use of 64-bit values as part of a path.'
+Description: Provides restrictions for the use of 64-bit values as part of a path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '63f4f6c5-7803-425d-912f-bb1dd716e617'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 63f4f6c5-7803-425d-912f-bb1dd716e617
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Class Instance Support for 64-Bit Values'
+title: Class Instance Support for 64-Bit Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Class Instance Support for 64-Bit Values
@@ -19,7 +22,7 @@ You can use a 64-bit key value as part of a path, with the following restriction
 -   The only valid path for a 64-bit value is located in the **\_\_RELPATH** or **\_\_PATH** properties of the instance. As such, WMI does not support the hexadecimal notation for the equivalent value.
 -   If WMI records the instance key as a negative number, then you must use the original number to retrieve the instance.
 
-Query semantics are unaffected and behave as expected. This behavior only affects the object path, [**GetObject**](iwbemservices-getobject.md), and [**GetObjectAsync**](iwbemservices-getobjectasync.md) operations.
+Query semantics are unaffected and behave as expected. This behavior only affects the object path, [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master), and [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) operations.
 
 The following example shows that class instances can have 64-bit key values.
 

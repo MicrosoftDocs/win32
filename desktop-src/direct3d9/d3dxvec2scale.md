@@ -1,7 +1,12 @@
-﻿---
-Description: 'Scales a 2D vector.'
-ms.assetid: '1887bc48-3766-42d7-840b-1e29d78db4ce'
+---
+Description: Scales a 2D vector.
+ms.assetid: 1887bc48-3766-42d7-840b-1e29d78db4ce
 title: D3DXVec2Scale function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2Scale function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clones a skin info object.'
-ms.assetid: '82d0a78a-95f3-4b09-bc1a-b4bc663e0850'
-title: 'ID3DXSkinInfo::Clone method'
+---
+Description: Clones a skin info object.
+ms.assetid: 82d0a78a-95f3-4b09-bc1a-b4bc663e0850
+title: ID3DXSkinInfoClone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::Clone method

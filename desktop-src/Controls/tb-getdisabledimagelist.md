@@ -1,8 +1,9 @@
 ---
 title: TB\_GETDISABLEDIMAGELIST message
 description: Retrieves the image list that a toolbar control uses to display inactive buttons.
-ms.assetid: '8f6782d5-488b-4906-908a-e4bf8d512e0a'
-keywords: ["TB_GETDISABLEDIMAGELIST message Windows Controls"]
+ms.assetid: 8f6782d5-488b-4906-908a-e4bf8d512e0a
+keywords:
+- TB_GETDISABLEDIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETDISABLEDIMAGELIST message
@@ -37,15 +43,15 @@ Returns the handle to the inactive image list, or **NULL** if no inactive image 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

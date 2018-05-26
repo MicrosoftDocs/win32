@@ -4,16 +4,21 @@ description: The IDirectorySearch interface provide additional control over how 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '91b7ba90-99b3-4137-8e4e-8d0ccfb0ec13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 91b7ba90-99b3-4137-8e4e-8d0ccfb0ec13
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Specifying Other Search Options with IDirectorySearch ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options"]
+keywords:
+- Specifying Other Search Options with IDirectorySearch ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Specifying Other Search Options with IDirectorySearch
 
-The [**IDirectorySearch**](idirectorysearch.md) interface provide additional control over how the search is performed through the use of search options. These search options are set by filling in an array of [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) structures and calling the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method. For more information, see the following topics:
+The [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) interface provide additional control over how the search is performed through the use of search options. These search options are set by filling in an array of [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) structures and calling the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method. For more information, see the following topics:
 
 -   [Using the SetSearchPreference Method](using-the-setsearchpreference-method.md)
 -   [Synchronous and Asynchronous Searches with IDirectorySearch](synchronous-and-asynchronous-searches-with-idirectorysearch.md)

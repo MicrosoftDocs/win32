@@ -1,8 +1,11 @@
 ---
 title: TestCase GetActivityReference method
 description: Returns the activity reference of the TestCase.
-ms.assetid: '6BAE8DAC-394E-4A20-84DE-8FFE562250CB'
-keywords: ["GetActivityReference method Access Execution Engine", "GetActivityReference method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , GetActivityReference method"]
+ms.assetid: 6BAE8DAC-394E-4A20-84DE-8FFE562250CB
+keywords:
+- GetActivityReference method Access Execution Engine
+- GetActivityReference method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , GetActivityReference method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::GetActivityReference method
@@ -22,7 +30,7 @@ Returns the activity reference of the **TestCase.**
 
 ```C++
 virtual HRESULT GetActivityReference(
-  [out] LPCWSTR *activityReference
+  [out] LPCWSTR *activityReference
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity reference is the value of element **TestCase/ActivityReference**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity reference is the value of element **TestCase/ActivityReference**.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

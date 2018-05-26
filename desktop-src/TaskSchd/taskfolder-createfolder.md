@@ -1,8 +1,11 @@
 ---
 title: TaskFolder.CreateFolder method
 description: For scripting, creates a folder for related tasks.
-ms.assetid: 'da0f2420-b1a0-4359-aa05-ddf1f2a35118'
-keywords: ["CreateFolder method Task Scheduler", "CreateFolder method Task Scheduler , TaskFolder object", "TaskFolder object Task Scheduler , CreateFolder method"]
+ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
+keywords:
+- CreateFolder method Task Scheduler
+- CreateFolder method Task Scheduler , TaskFolder object
+- TaskFolder object Task Scheduler , CreateFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolder.CreateFolder method
@@ -57,8 +65,8 @@ A [**TaskFolder**](taskfolder.md) object that represents the new subfolder.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -71,9 +79,9 @@ A [**TaskFolder**](taskfolder.md) object that represents the new subfolder.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

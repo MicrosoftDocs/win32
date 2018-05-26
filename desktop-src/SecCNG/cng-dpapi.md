@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft introduced the data protection application programming interface (DPAPI) in Windows 2000.'
-ms.assetid: '048DEA72-39E1-4129-A554-F7D08442C2D9'
+Description: Microsoft introduced the data protection application programming interface (DPAPI) in Windows 2000.
+ms.assetid: 048DEA72-39E1-4129-A554-F7D08442C2D9
 title: CNG DPAPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CNG DPAPI
@@ -21,16 +26,16 @@ For more information, see the following topics:
 
 DPAPI-NG is built on top of Cryptography Next Generation (CNG) and includes the following functions:
 
--   [**NCryptCreateProtectionDescriptor**](ncryptcreateprotectiondescriptor.md)
--   [**NCryptCloseProtectionDescriptor**](ncryptcloseprotectiondescriptor.md)
--   [**NCryptProtectSecret**](ncryptprotectsecret.md)
--   [**NCryptQueryProtectionDescriptorName**](ncryptqueryprotectiondescriptorname.md)
--   [**NCryptRegisterProtectionDescriptorName**](ncryptregisterprotectiondescriptorname.md)
--   [**NCryptStreamClose**](ncryptstreamclose.md)
--   [**NCryptStreamOpenToProtect**](ncryptstreamopentoprotect.md)
--   [**NCryptStreamOpenToUnprotect**](ncryptstreamopentounprotect.md)
--   [**NCryptStreamUpdate**](ncryptstreamupdate.md)
--   [**NCryptUnprotectSecret**](ncryptunprotectsecret.md)
+-   [**NCryptCreateProtectionDescriptor**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor?branch=master)
+-   [**NCryptCloseProtectionDescriptor**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptcloseprotectiondescriptor?branch=master)
+-   [**NCryptProtectSecret**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptprotectsecret?branch=master)
+-   [**NCryptQueryProtectionDescriptorName**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptqueryprotectiondescriptorname?branch=master)
+-   [**NCryptRegisterProtectionDescriptorName**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname?branch=master)
+-   [**NCryptStreamClose**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptstreamclose?branch=master)
+-   [**NCryptStreamOpenToProtect**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect?branch=master)
+-   [**NCryptStreamOpenToUnprotect**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect?branch=master)
+-   [**NCryptStreamUpdate**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptstreamupdate?branch=master)
+-   [**NCryptUnprotectSecret**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptunprotectsecret?branch=master)
 
  
 

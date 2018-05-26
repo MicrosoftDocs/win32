@@ -1,7 +1,12 @@
 ---
 title: Multi-engine n-body gravity simulation
 description: The D3D12nBodyGravity sample demonstrates how to do compute work asynchronously.
-ms.assetid: 'B20C5575-0616-43F7-9AC9-5F802E5597B5'
+ms.assetid: B20C5575-0616-43F7-9AC9-5F802E5597B5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multi-engine n-body gravity simulation
@@ -54,15 +59,15 @@ We start out by creating both a graphics and a compute root signature, in the **
 
 | Call flow                                                             | Parameters                                                            |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](d3d12-descriptor-range-type.md) |
-| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md)          |
-| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md)   |
+| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_descriptor_range_type?branch=master) |
+| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master)          |
+| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master)   |
 | [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)                                   |                                                                       |
-| [**D3D12SerializeRootSignature**](d3d12serializerootsignature.md)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](d3d-root-signature-version.md)   |
-| [**CreateRootSignature**](id3d12device-createrootsignature.md)       |                                                                       |
+| [**D3D12SerializeRootSignature**](/windows/win32/D3D12/nf-d3d12-d3d12serializerootsignature?branch=master)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/D3D12/ne-d3d12-d3d_root_signature_version?branch=master)   |
+| [**CreateRootSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrootsignature?branch=master)       |                                                                       |
 | [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) |                                                                       |
-| [**D3D12SerializeRootSignature**](d3d12serializerootsignature.md)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](d3d-root-signature-version.md)   |
-| [**CreateRootSignature**](id3d12device-createrootsignature.md)       |                                                                       |
+| [**D3D12SerializeRootSignature**](/windows/win32/D3D12/nf-d3d12-d3d12serializerootsignature?branch=master)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/D3D12/ne-d3d12-d3d_root_signature_version?branch=master)   |
+| [**CreateRootSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrootsignature?branch=master)       |                                                                       |
 
 
 
@@ -202,10 +207,10 @@ void D3D12nBodyGravity::OnRender()
 |------------------------------------------------------------------------|------------|
 | [**InterlockedExchange**](https://msdn.microsoft.com/library/windows/hardware/ff547892)                  |            |
 | [**InterlockedGetValue**](https://msdn.microsoft.com/library/windows/hardware/ff547853)           |            |
-| [**GetCompletedValue**](id3d12fence-getcompletedvalue.md)             |            |
-| [**Wait**](id3d12commandqueue-wait.md)                                |            |
-| [**ID3D12CommandList**](id3d12commandlist.md)                         |            |
-| [**ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md)  |            |
+| [**GetCompletedValue**](/windows/win32/D3D12/nf-d3d12-id3d12fence-getcompletedvalue?branch=master)             |            |
+| [**Wait**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-wait?branch=master)                                |            |
+| [**ID3D12CommandList**](/windows/win32/D3D12/nn-d3d12-id3d12commandlist?branch=master)                         |            |
+| [**ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master)  |            |
 | [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797) |            |
 
 
@@ -266,24 +271,24 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
 | Call flow                                                                   | Parameters |
 |-----------------------------------------------------------------------------|------------|
-| [**ID3D12CommandQueue**](id3d12commandqueue.md)                            |            |
-| [**ID3D12CommandAllocator**](id3d12commandallocator.md)                    |            |
-| [**ID3D12GraphicsCommandList**](id3d12graphicscommandlist.md)              |            |
-| [**ID3D12Fence**](id3d12fence.md)                                          |            |
+| [**ID3D12CommandQueue**](/windows/win32/D3D12/nn-d3d12-id3d12commandqueue?branch=master)                            |            |
+| [**ID3D12CommandAllocator**](/windows/win32/D3D12/nn-d3d12-id3d12commandallocator?branch=master)                    |            |
+| [**ID3D12GraphicsCommandList**](/windows/win32/d3d12/nn-d3d12-id3d12graphicscommandlist?branch=master)              |            |
+| [**ID3D12Fence**](/windows/win32/D3D12/nn-d3d12-id3d12fence?branch=master)                                          |            |
 | [**InterlockedGetValue**](https://msdn.microsoft.com/library/windows/hardware/ff547853)                |            |
-| [**Close**](id3d12graphicscommandlist-close.md)                            |            |
-| [**ID3D12CommandList**](id3d12commandlist.md)                              |            |
-| [**ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md)       |            |
+| [**Close**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-close?branch=master)                            |            |
+| [**ID3D12CommandList**](/windows/win32/D3D12/nn-d3d12-id3d12commandlist?branch=master)                              |            |
+| [**ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master)       |            |
 | [**InterlockedIncrement**](https://msdn.microsoft.com/library/windows/hardware/ff547910)                     |            |
-| [**Signal**](id3d12commandqueue-signal.md)                                 |            |
-| [**SetEventOnCompletion**](id3d12fence-seteventoncompletion.md)            |            |
+| [**Signal**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-signal?branch=master)                                 |            |
+| [**SetEventOnCompletion**](/windows/win32/D3D12/nf-d3d12-id3d12fence-seteventoncompletion?branch=master)            |            |
 | [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032)                         |            |
 | [**InterlockedGetValue**](https://msdn.microsoft.com/library/windows/hardware/ff547853)                |            |
-| [**GetCompletedValue**](id3d12fence-getcompletedvalue.md)                  |            |
-| [**Wait**](id3d12commandqueue-wait.md)                                     |            |
+| [**GetCompletedValue**](/windows/win32/D3D12/nf-d3d12-id3d12fence-getcompletedvalue?branch=master)                  |            |
+| [**Wait**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-wait?branch=master)                                     |            |
 | [**InterlockedExchange**](https://msdn.microsoft.com/library/windows/hardware/ff547892)                       |            |
-| [**ID3D12CommandAllocator::Reset**](id3d12commandallocator-reset.md)       |            |
-| [**ID3D12GraphicsCommandList::Reset**](id3d12graphicscommandlist-reset.md) |            |
+| [**ID3D12CommandAllocator::Reset**](/windows/win32/D3D12/nf-d3d12-id3d12commandallocator-reset?branch=master)       |            |
+| [**ID3D12GraphicsCommandList::Reset**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-reset?branch=master) |            |
 
 
 

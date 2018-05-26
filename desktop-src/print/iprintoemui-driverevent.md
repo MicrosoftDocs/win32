@@ -1,7 +1,12 @@
-﻿---
-Description: 'The printer driver''s DrvDriverEvent function calls a user interface plug-in''s IPrintOemUI::DriverEvent method for additional processing of printer driver events.'
-ms.assetid: 'aacddaea-3a6f-4018-92ac-fe4aa2ddabd3'
-title: 'IPrintOemUI::DriverEvent method'
+---
+Description: The printer drivers DrvDriverEvent function calls a user interface plug-ins IPrintOemUIDriverEvent method for additional processing of printer driver events.
+ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
+title: IPrintOemUIDriverEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::DriverEvent method

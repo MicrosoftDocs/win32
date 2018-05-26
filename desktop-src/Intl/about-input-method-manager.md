@@ -1,7 +1,12 @@
 ---
-Description: 'Use of the IMM functionality in your IME-aware application relieves users of the need to remember all possible character values.'
-ms.assetid: '43b3e561-b844-4688-ab3d-d99f92ed140e'
+Description: Use of the IMM functionality in your IME-aware application relieves users of the need to remember all possible character values.
+ms.assetid: 43b3e561-b844-4688-ab3d-d99f92ed140e
 title: About Input Method Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Input Method Manager

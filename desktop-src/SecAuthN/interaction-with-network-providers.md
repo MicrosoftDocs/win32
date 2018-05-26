@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the interactions between Winlogon and network providers.'
-ms.assetid: '09d0b5ce-e2ac-40d7-bc35-272c5f831788'
+Description: Explains the interactions between Winlogon and network providers.
+ms.assetid: 09d0b5ce-e2ac-40d7-bc35-272c5f831788
 title: Interaction with Network Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interaction with Network Providers
@@ -10,7 +15,7 @@ You can configure a system to support zero or more network providers. Each of th
 
 Winlogon calls network providers under a number of circumstances. Following a successful logon, Winlogon calls network providers so they can collect [*credentials*](security.c_gly#-security-credentials-gly) and authenticate the user for their network. Winlogon also calls network providers when users change their passwords. This lets each user maintain a single password for use on all networks.
 
-The [**WLX\_MPR\_NOTIFY\_INFO**](wlx-mpr-notify-info.md) structure is used to provide identification and authentication information in the relevant GINA functions. This structure includes the following members.
+The [**WLX\_MPR\_NOTIFY\_INFO**](/windows/win32/Winwlx/ns-winwlx-_wlx_mpr_notify_info?branch=master) structure is used to provide identification and authentication information in the relevant GINA functions. This structure includes the following members.
 
 
 

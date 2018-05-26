@@ -4,11 +4,16 @@ description: The Add method adds a snap-in to the collection. The snap-in being 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0bc52408-21d2-40d9-9050-56398572df28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0bc52408-21d2-40d9-9050-56398572df28
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Add method MMC", "Add method MMC , SnapIns object", "SnapIns object MMC , Add method", "Add method MMC , SnapIns interface", "SnapIns interface MMC , Add method"]
+keywords:
+- Add method MMC
+- Add method MMC , SnapIns object
+- SnapIns object MMC , Add method
+- Add method MMC , SnapIns interface
+- SnapIns interface MMC , Add method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIns::Add method
@@ -86,8 +94,8 @@ Set objSnap = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -111,9 +119,9 @@ Set objSnap = Nothing
 [**Document.CreateProperties**](document-createproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

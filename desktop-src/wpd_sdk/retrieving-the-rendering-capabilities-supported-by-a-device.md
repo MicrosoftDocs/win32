@@ -1,7 +1,12 @@
 ---
 Description: Retrieving the Rendering Capabilities Supported by a Device
-ms.assetid: '2332e3cc-087c-49cf-bde9-7f86f65158e7'
+ms.assetid: 2332e3cc-087c-49cf-bde9-7f86f65158e7
 title: Retrieving the Rendering Capabilities Supported by a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Rendering Capabilities Supported by a Device
@@ -16,11 +21,11 @@ Your application can retrieve the rendering capabilities supported by a device u
 
 | Interface                                                                                      | Description                                                 |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)                             | Provides access to the IPortableDeviceProperties interface. |
-| [**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)                       | Provides access to the property-specific methods.           |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)                             | Provides access to the IPortableDeviceProperties interface. |
+| [**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)                       | Provides access to the property-specific methods.           |
 | [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)                 | Used to store the property keys for the given profile.      |
 | [**IPortableDeviceValues Interface**](iportabledevicevalues.md)                               | Used store the property values for the given profile.       |
-| [**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)                   | Used store the property values for the given profile.       |
+| [**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)                   | Used store the property values for the given profile.       |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used store the property values for the given profile.       |
 | [**IPortableDeviceValuesCollection Interface**](iportabledevicevaluescollection.md)           | Used store the property values for the given profile.       |
 
@@ -46,7 +51,7 @@ if (SupportsFunctionalCategory(pDevice, WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORM
 
 
 
-If the device is capable of listing rendering capabilities, the next step entails retrieving an [**IPortableDeviceCapabilities**](iportabledevicecapabilities.md) object and invoking the [**GetFunctionalObjects**](iportabledevicecapabilities-getfunctionalobjects.md) method to retrieve an object identifier for the rendering-information object.
+If the device is capable of listing rendering capabilities, the next step entails retrieving an [**IPortableDeviceCapabilities**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master) object and invoking the [**GetFunctionalObjects**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalobjects?branch=master) method to retrieve an object identifier for the rendering-information object.
 
 
 ```C++
@@ -113,7 +118,7 @@ if (SUCCEEDED(hr))
 
 
 
-One of the first tasks accomplished by the helper function is to retrieve an [**IPortableDeviceContent**](iportabledevicecontent.md) object, which it will use to access the content-specific methods.
+One of the first tasks accomplished by the helper function is to retrieve an [**IPortableDeviceContent**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master) object, which it will use to access the content-specific methods.
 
 
 ```C++
@@ -135,7 +140,7 @@ if (SUCCEEDED(hr))
 
 
 
-Next, the helper function retrieves an [**IPortableDeviceProperties**](iportabledeviceproperties.md) object, which it will use to access the property-specific methods.
+Next, the helper function retrieves an [**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) object, which it will use to access the property-specific methods.
 
 
 ```C++
@@ -191,7 +196,7 @@ if (SUCCEEDED(hr))
 
 
 
-The next step is to retrieve the property values from the device driver by calling the [**IPortableDeviceProperties::GetValues**](iportabledeviceproperties-getvalues.md) method.
+The next step is to retrieve the property values from the device driver by calling the [**IPortableDeviceProperties::GetValues**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues?branch=master) method.
 
 
 ```C++
@@ -340,13 +345,13 @@ Note that since the rendering profiles are static, your application may choose t
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)
+[**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)

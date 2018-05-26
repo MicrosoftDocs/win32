@@ -1,7 +1,12 @@
 ---
 title: Property Names
 description: Property Names
-ms.assetid: 'c05099e0-0311-45eb-9b70-8484259fd9d1'
+ms.assetid: c05099e0-0311-45eb-9b70-8484259fd9d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Names

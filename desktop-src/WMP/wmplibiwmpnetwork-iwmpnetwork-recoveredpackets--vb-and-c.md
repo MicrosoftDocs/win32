@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork recoveredPackets property
 description: The recoveredPackets property gets the number of recovered packets.
-ms.assetid: '90fcefcd-2bd7-4fb5-8337-36bec5d44e60'
-keywords: ["recoveredPackets property Windows Media Player", "recoveredPackets property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , recoveredPackets property"]
+ms.assetid: 90fcefcd-2bd7-4fb5-8337-36bec5d44e60
+keywords:
+- recoveredPackets property Windows Media Player
+- recoveredPackets property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , recoveredPackets property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::recoveredPackets property
@@ -158,9 +166,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

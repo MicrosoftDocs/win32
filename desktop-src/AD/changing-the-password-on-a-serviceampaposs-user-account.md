@@ -1,14 +1,18 @@
 ---
-title: Changing the Password on a Service's User Account
+title: Changing the Password on a Services User Account
 description: For a service instance that logs on with a user account, rather than the LocalSystem account, the Service Control Manager (SCM) on the host computer stores the account password, which it uses to log on the service when the service starts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd9cef772-bd85-4103-901e-3cf786b29163'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d9cef772-bd85-4103-901e-3cf786b29163
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Changing the Password on a Service's User Account AD"]
+keywords:
+- Changing the Password on a Services User Account AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Changing the Password on a Service's User Account

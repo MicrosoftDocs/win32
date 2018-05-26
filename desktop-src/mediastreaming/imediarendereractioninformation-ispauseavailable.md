@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererActionInformation IsPauseAvailable method
 description: Retrieves a value that indicates whether the DMR is currently accepting the PauseAsync method.
-ms.assetid: '095A664F-D974-410D-8741-87A171EDD071'
-keywords: ["IsPauseAvailable method Media Streaming API", "IsPauseAvailable method Media Streaming API , IMediaRendererActionInformation interface", "IMediaRendererActionInformation interface Media Streaming API , IsPauseAvailable method"]
+ms.assetid: 095A664F-D974-410D-8741-87A171EDD071
+keywords:
+- IsPauseAvailable method Media Streaming API
+- IsPauseAvailable method Media Streaming API , IMediaRendererActionInformation interface
+- IMediaRendererActionInformation interface Media Streaming API , IsPauseAvailable method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererActionInformation.IsPauseAvailable
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererActionInformation::IsPauseAvailable method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is currently accepting the [**P
 
 ```C++
 HRESULT IsPauseAvailable(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererActionInformation**](imediarendereractioninformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

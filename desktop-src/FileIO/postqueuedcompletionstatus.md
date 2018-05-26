@@ -1,7 +1,12 @@
 ---
-Description: 'Posts an I/O completion packet to an I/O completion port.'
-ms.assetid: '69a9b1e5-2d40-42de-a14a-f7b6f29bf571'
+Description: Posts an I/O completion packet to an I/O completion port.
+ms.assetid: 69a9b1e5-2d40-42de-a14a-f7b6f29bf571
 title: PostQueuedCompletionStatus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PostQueuedCompletionStatus function
@@ -13,10 +18,10 @@ Posts an I/O completion packet to an I/O completion port.
 
 ```C++
 BOOL WINAPI PostQueuedCompletionStatus(
-  _In_     HANDLE       CompletionPort,
-  _In_     DWORD        dwNumberOfBytesTransferred,
-  _In_     ULONG_PTR    dwCompletionKey,
-  _In_opt_ LPOVERLAPPED lpOverlapped
+  _In_     HANDLE       CompletionPort,
+  _In_     DWORD        dwNumberOfBytesTransferred,
+  _In_     ULONG_PTR    dwCompletionKey,
+  _In_opt_ LPOVERLAPPED lpOverlapped
 );
 ```
 
@@ -36,21 +41,21 @@ A handle to an I/O completion port to which the I/O completion packet is to be p
 *dwNumberOfBytesTransferred* \[in\]
 </dt> <dd>
 
-The value to be returned through the *lpNumberOfBytesTransferred* parameter of the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function.
+The value to be returned through the *lpNumberOfBytesTransferred* parameter of the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function.
 
 </dd> <dt>
 
 *dwCompletionKey* \[in\]
 </dt> <dd>
 
-The value to be returned through the *lpCompletionKey* parameter of the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function.
+The value to be returned through the *lpCompletionKey* parameter of the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function.
 
 </dd> <dt>
 
 *lpOverlapped* \[in, optional\]
 </dt> <dd>
 
-The value to be returned through the *lpOverlapped* parameter of the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function.
+The value to be returned through the *lpOverlapped* parameter of the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function.
 
 </dd> </dl>
 
@@ -62,9 +67,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-The I/O completion packet will satisfy an outstanding call to the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function. This function returns with the three values passed as the second, third, and fourth parameters of the call to **PostQueuedCompletionStatus**. The system does not use or validate these values. In particular, the *lpOverlapped* parameter need not point to an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure.
+The I/O completion packet will satisfy an outstanding call to the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function. This function returns with the three values passed as the second, third, and fourth parameters of the call to **PostQueuedCompletionStatus**. The system does not use or validate these values. In particular, the *lpOverlapped* parameter need not point to an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure.
 
-In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
 
 
@@ -78,7 +83,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
- 
+ 
 
 CsvFs will do redirected IO for compressed files.
 
@@ -88,9 +93,9 @@ CsvFs will do redirected IO for compressed files.
 
 |                                     |                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                       |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                              |
-| Header<br/>                   | <dl> <dt>IoAPI.h (include Windows.h); </dt> <dt>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h)</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                       |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                              |
+| Header<br/>                   | <dl> <dt>IoAPI.h (include Windows.h); </dt> <dt>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 
@@ -106,15 +111,15 @@ CsvFs will do redirected IO for compressed files.
 [File Management Functions](file-management-functions.md)
 </dt> <dt>
 
-[**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md)
+[**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master)
 </dt> <dt>
 
 [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

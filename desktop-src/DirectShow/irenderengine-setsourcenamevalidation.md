@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetSourceNameValidation method specifies how the render engine validates file names.'
-ms.assetid: 'b33904cd-ed7d-41b5-9ebf-50983ec9f7b3'
-title: 'IRenderEngine::SetSourceNameValidation method'
+---
+Description: The SetSourceNameValidation method specifies how the render engine validates file names.
+ms.assetid: b33904cd-ed7d-41b5-9ebf-50983ec9f7b3
+title: IRenderEngineSetSourceNameValidation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetSourceNameValidation method

@@ -1,8 +1,14 @@
 ---
 title: Making RPC Function Calls
 description: This section discusses best RPC programming practices for making RPC function calls.
-ms.assetid: '4882d29b-08f3-41ec-84c3-35df6c56fd31'
-keywords: ["Remote Procedure Call RPC , best practices, making function calls"]
+ms.assetid: 4882d29b-08f3-41ec-84c3-35df6c56fd31
+keywords:
+- Remote Procedure Call RPC , best practices, making function calls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making RPC Function Calls

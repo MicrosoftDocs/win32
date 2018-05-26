@@ -1,26 +1,31 @@
 ---
-Description: 'An asynchronous network provider that enumerates resources discoverable by NetBIOS and responds to function instance queries for NetBIOS devices.'
-ms.assetid: '80ed1db2-94ff-4d7c-96e9-4d0aa34cae80'
+Description: An asynchronous network provider that enumerates resources discoverable by NetBIOS and responds to function instance queries for NetBIOS devices.
+ms.assetid: 80ed1db2-94ff-4d7c-96e9-4d0aa34cae80
 title: NetBIOS Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetBIOS Provider
 
-\[Function Discovery is available for use in the following versions of Windows: Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista. It may be altered or unavailable in subsequent versions.\]
+\[Function Discovery is available for use in the following versions of Windows: Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista. It may be altered or unavailable in subsequent versions.\]
 
 The NetBIOS provider is an asynchronous network provider that enumerates resources discoverable by NetBIOS and responds to function instance queries for NetBIOS devices. The NetBIOS provider can enumerate WNet network providers, domains, servers, and shares. Any resource that is discoverable by the WNet API can be discovered by the NetBIOS provider. For more information about the WNet API, see [Windows Networking (WNet)](https://msdn.microsoft.com/library/windows/desktop/aa385406).
 
 ## Query Results
 
-The NetBIOS provider only supports collection queries. Instance queries are not supported. Collection queries are executed by calling [**IFunctionInstanceCollectionQuery::Execute**](ifunctioninstancecollectionquery-execute-method.md). Because the NetBIOS provider is asynchronous, **Execute** always returns E\_PENDING for a successful query.
+The NetBIOS provider only supports collection queries. Instance queries are not supported. Collection queries are executed by calling [**IFunctionInstanceCollectionQuery::Execute**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute?branch=master). Because the NetBIOS provider is asynchronous, **Execute** always returns E\_PENDING for a successful query.
 
 Results are returned using [**IFunctionDiscoveryNotification::OnUpdate**](ifunctiondiscoverynotification-onupdate-method.md). In addition, after the NetBIOS provider has finished enumerating resources, the provider sends a FD\_EVENTID\_SEARCHCOMPLETE notification using [**IFunctionDiscoveryNotification::OnEvent**](ifunctiondiscoverynotification-onevent.md).
 
 ## Query Constraints
 
-A query constraint can be added by calling [**IFunctionInstanceCollectionQuery::AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) on an [**IFunctionInstanceCollectionQuery**](ifunctioninstancecollectionquery.md) object before executing the query.
+A query constraint can be added by calling [**IFunctionInstanceCollectionQuery::AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) on an [**IFunctionInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollectionquery?branch=master) object before executing the query.
 
-The following table shows the query constraints supported by the NetBIOS provider. The table also shows possible values to pass to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+The following table shows the query constraints supported by the NetBIOS provider. The table also shows possible values to pass to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 
 
@@ -32,7 +37,7 @@ The following table shows the query constraints supported by the NetBIOS provide
 
 
 
- 
+ 
 
 For more information about a named constraint, see [**Constraint Definitions**](constraint-definitions.md). For general information about query constraints, see [Constraints](constraints.md).
 
@@ -42,7 +47,7 @@ The FD\_QUERYCONSTRAINT\_PROVIDERINSTANCEID, FD\_QUERYCONSTRAINT\_SUBCATEGORY, a
 
 The NetBIOS provider implements read-only property stores.
 
-The [**IFunctionInstance::OpenPropertyStore**](ifunctioninstance-openpropertystore-method.md) method can be used to access the property keys (PKEYs) associated with a NetBIOS function instance. The methods of the [IPropertyStore](shell_IPropertyStore_cpp) interface can be used to get the PKEYs associated with the function instance.
+The [**IFunctionInstance::OpenPropertyStore**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore?branch=master) method can be used to access the property keys (PKEYs) associated with a NetBIOS function instance. The methods of the [IPropertyStore](shell_IPropertyStore_cpp) interface can be used to get the PKEYs associated with the function instance.
 
 ## Supported PKEYs
 
@@ -60,7 +65,7 @@ The following table shows the PnP-X PKEYs supported by the NetBIOS provider, and
 
 
 
- 
+ 
 
 In addition, the PKEYs described in the topic [**WNet Provider PKEYs**](wnet-provider-pkeys.md) are supported by the NetBIOS provider.
 
@@ -71,9 +76,9 @@ In addition, the PKEYs described in the topic [**WNet Provider PKEYs**](wnet-pro
 [Built-in Providers](built-in-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

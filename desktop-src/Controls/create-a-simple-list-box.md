@@ -1,7 +1,12 @@
 ---
 title: How to Create a Simple List Box
 description: This topic demonstrates how to initialize and retrieve items from a simple list box.
-ms.assetid: '4A717010-A1D3-4FFB-8E4E-D5C4F9D8D952'
+ms.assetid: 4A717010-A1D3-4FFB-8E4E-D5C4F9D8D952
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Simple List Box

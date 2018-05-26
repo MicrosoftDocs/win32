@@ -1,7 +1,12 @@
 ---
-Description: 'The OnUpdateRectangles method is called when either the source or destination rectangle changes.'
-ms.assetid: 'a4979ca3-7882-4e63-bc34-9cc6c5b0675d'
-title: 'CBaseControlVideo.OnUpdateRectangles method'
+Description: The OnUpdateRectangles method is called when either the source or destination rectangle changes.
+ms.assetid: a4979ca3-7882-4e63-bc34-9cc6c5b0675d
+title: CBaseControlVideo.OnUpdateRectangles method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.OnUpdateRectangles method
@@ -43,9 +48,9 @@ Returns NOERROR.
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

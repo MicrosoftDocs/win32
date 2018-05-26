@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::DisablePDEV method allows a rendering plug-in for Unidrv to delete the private PDEV structure that was allocated by its IPrintOemUni::EnablePDEV method.'
-ms.assetid: 'bdceeb23-5d4a-4a1c-98b2-014a4126ca5f'
-title: 'IPrintOemUni::DisablePDEV method'
+---
+Description: The IPrintOemUniDisablePDEV method allows a rendering plug-in for Unidrv to delete the private PDEV structure that was allocated by its IPrintOemUniEnablePDEV method.
+ms.assetid: bdceeb23-5d4a-4a1c-98b2-014a4126ca5f
+title: IPrintOemUniDisablePDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::DisablePDEV method

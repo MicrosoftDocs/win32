@@ -1,7 +1,12 @@
 ---
 title: Agent Control Events
 description: Agent Control Events
-ms.assetid: '86543cc0-ed1c-41d8-9fc9-cc163e308947'
+ms.assetid: 86543cc0-ed1c-41d8-9fc9-cc163e308947
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Agent Control Events

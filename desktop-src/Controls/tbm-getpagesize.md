@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETPAGESIZE message
-description: Retrieves the number of logical positions the trackbar's slider moves in response to keyboard input, such as the or keys, or mouse input, such as clicks in the trackbar's channel.
-ms.assetid: 'f0c5feac-2723-440e-96c0-dac37b0531ed'
-keywords: ["TBM_GETPAGESIZE message Windows Controls"]
+description: Retrieves the number of logical positions the trackbars slider moves in response to keyboard input, such as the or keys, or mouse input, such as clicks in the trackbars channel.
+ms.assetid: f0c5feac-2723-440e-96c0-dac37b0531ed
+keywords:
+- TBM_GETPAGESIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETPAGESIZE message
@@ -41,8 +47,8 @@ The trackbar also sends a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ The trackbar also sends a [**WM\_HSCROLL**](wm-hscroll.md) or [**WM\_VSCROLL**](
 [**TBM\_SETPAGESIZE**](tbm-setpagesize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

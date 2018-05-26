@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the music file is part of a compilation.'
-ms.assetid: 'E3FD56F1-8886-408b-BDF2-7499AAF5AF97'
-title: 'System.Music.IsCompilation'
+Description: Indicates whether the music file is part of a compilation.
+ms.assetid: E3FD56F1-8886-408b-BDF2-7499AAF5AF97
+title: System.Music.IsCompilation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.IsCompilation

@@ -1,8 +1,19 @@
 ---
 title: Using Keyboard Input
 description: This section covers tasks that are associated with keyboard input.
-ms.assetid: 'd08e7f12-6595-4234-bfc4-08daad93e4c4'
-keywords: ["user input,keyboard input", "capturing user input,keyboard input", "keyboard input", "keystroke messages", "character messages", "carets,keyboard input"]
+ms.assetid: d08e7f12-6595-4234-bfc4-08daad93e4c4
+keywords:
+- user input,keyboard input
+- capturing user input,keyboard input
+- keyboard input
+- keystroke messages
+- character messages
+- carets,keyboard input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Keyboard Input

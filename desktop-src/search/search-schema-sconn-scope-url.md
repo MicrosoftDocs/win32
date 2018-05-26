@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;url&gt; element specifies a URL that represents the scope of the search connector. This element has no child elements and no attributes.'
-ms.assetid: '5afd84aa-98e3-4118-845a-d4efad19a488'
-title: 'scopeItem url Element (Search Connector Schema)'
+Description: The &lt;url&gt; element specifies a URL that represents the scope of the search connector. This element has no child elements and no attributes.
+ms.assetid: 5afd84aa-98e3-4118-845a-d4efad19a488
+title: scopeItem url Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # scopeItem url Element (Search Connector Schema)

@@ -4,17 +4,21 @@ description: Represents a Boolean value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '16251217-1489-42fd-a27f-87f15d13a279'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 16251217-1489-42fd-a27f-87f15d13a279
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Boolean syntax AD Schema"]
+keywords:
+- Boolean syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - Boolean
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Boolean syntax

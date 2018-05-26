@@ -4,13 +4,15 @@ description: Manages DTC instance specific properties in the registry.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd96bb979-826d-4fe2-a620-ccd953060e5f'
-ms.prod: 'windows-server-dev'
+ms.assetid: d96bb979-826d-4fe2-a620-ccd953060e5f
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DtcAdvancedSettingTask class", "MSFT_DtcAdvancedSettingTask class, described"]
+keywords:
+- MSFT_DtcAdvancedSettingTask class
+- MSFT_DtcAdvancedSettingTask class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DtcAdvancedSettingTask class
@@ -55,7 +60,7 @@ The **MSFT\_DtcAdvancedSettingTask** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +68,8 @@ The **MSFT\_DtcAdvancedSettingTask** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -78,9 +83,9 @@ The **MSFT\_DtcAdvancedSettingTask** class has these methods.
 [Distributed Transaction Coordinator WMI Provider](distributed-transaction-coordinator-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

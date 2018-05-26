@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get a list of vertices that a given bone influences and a list of the amount of influence that bone has on each vertex.'
-ms.assetid: 'd1dea694-874d-4f21-87a8-f6b013617544'
-title: 'ID3DX10SkinInfo::GetBoneInfluences method'
+---
+Description: Get a list of vertices that a given bone influences and a list of the amount of influence that bone has on each vertex.
+ms.assetid: d1dea694-874d-4f21-87a8-f6b013617544
+title: ID3DX10SkinInfoGetBoneInfluences method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::GetBoneInfluences method

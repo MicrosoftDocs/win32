@@ -4,11 +4,13 @@ description: Exposes approximate counts of WMI internal operation calls across a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b0eee184-787a-4f82-a67c-62c3cbb2e11a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b0eee184-787a-4f82-a67c-62c3cbb2e11a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msft_WmiProvider_Counters class", "Msft_WmiProvider_Counters class, described"]
+keywords:
+- Msft_WmiProvider_Counters class
+- Msft_WmiProvider_Counters class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_WmiProvider\_Counters class
@@ -463,9 +468,9 @@ Next
 [WMI Troubleshooting Classes](https://msdn.microsoft.com/library/aa394604)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

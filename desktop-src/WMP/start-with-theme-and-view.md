@@ -1,8 +1,25 @@
 ---
 title: Start with THEME and VIEW
 description: Start with THEME and VIEW
-ms.assetid: '1ac92f3a-463a-4343-a269-5230c644b57f'
-keywords: ["creating skins,THEME element", "Windows Media Player skins,THEME element", "skins,THEME element", "skin definition files,THEME element", "THEME element", "creating skins,VIEW element", "Windows Media Player skins,VIEW element", "skins,VIEW element", "skin definition files,VIEW element", "VIEW element", "elements,VIEW", "elements,THEME"]
+ms.assetid: 1ac92f3a-463a-4343-a269-5230c644b57f
+keywords:
+- creating skins,THEME element
+- Windows Media Player skins,THEME element
+- skins,THEME element
+- skin definition files,THEME element
+- THEME element
+- creating skins,VIEW element
+- Windows Media Player skins,VIEW element
+- skins,VIEW element
+- skin definition files,VIEW element
+- VIEW element
+- elements,VIEW
+- elements,THEME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Start with THEME and VIEW

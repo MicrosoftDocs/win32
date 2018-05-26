@@ -1,7 +1,12 @@
-﻿---
-Description: 'Obtains a reference to a TCP v4 driver object.'
-ms.assetid: '8f12fa58-1622-40d0-9a99-e7c8ede08b38'
+---
+Description: Obtains a reference to a TCP v4 driver object.
+ms.assetid: 8f12fa58-1622-40d0-9a99-e7c8ede08b38
 title: ReferenceTcpDriver function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReferenceTcpDriver function

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the GPS DOP (data degree of precision). Calculated from PKEY\_GPS\_DOPNumerator and PKEY\_GPS\_DOPDenominator.'
-ms.assetid: '076b6b7b-a341-4ae8-b661-03cdc5e6ce24'
-title: 'System.GPS.DOP'
+Description: Indicates the GPS DOP (data degree of precision). Calculated from PKEY\_GPS\_DOPNumerator and PKEY\_GPS\_DOPDenominator.
+ms.assetid: 076b6b7b-a341-4ae8-b661-03cdc5e6ce24
+title: System.GPS.DOP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DOP

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an IP route to the specified remote address.'
-ms.assetid: '419427b0-199f-4d52-806b-d1e1f98f28c0'
-title: 'Find method of the MSFT\_NetRoute class'
+Description: Retrieves an IP route to the specified remote address.
+ms.assetid: 419427b0-199f-4d52-806b-d1e1f98f28c0
+title: Find method of the MSFT\_NetRoute class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Find method of the MSFT\_NetRoute class
@@ -13,10 +18,10 @@ Retrieves an IP route to the specified remote address.
 
 ```mof
 uint32 Find(
-  [in]  uint32             InterfaceIndex,
-  [in]  string             LocalIPAddress,
-  [in]  string             RemoteIPAddress,
-  [out] CIM_ManagedElement CmdletOutput[]
+  [in]  uint32             InterfaceIndex,
+  [in]  string             LocalIPAddress,
+  [in]  string             RemoteIPAddress,
+  [out] CIM_ManagedElement CmdletOutput[]
 );
 ```
 
@@ -60,8 +65,8 @@ The [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) objec
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -75,9 +80,9 @@ The [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218) objec
 [**MSFT\_NetRoute**](msft-netroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

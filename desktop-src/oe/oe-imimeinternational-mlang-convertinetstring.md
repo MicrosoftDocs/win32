@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational MLANG\_ConvertInetString method
 description: Passes its arguments through to ConvertINetString, which performs character-set conversion between a given source codepage and a destination codepage identifier.
-ms.assetid: 'd3924606-1e29-4f4c-b938-90bfc7740473'
-keywords: ["MLANG_ConvertInetString method Windows Mail (formerly Outlook Express)", "MLANG_ConvertInetString method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , MLANG_ConvertInetString method"]
+ms.assetid: d3924606-1e29-4f4c-b938-90bfc7740473
+keywords:
+- MLANG_ConvertInetString method Windows Mail (formerly Outlook Express)
+- MLANG_ConvertInetString method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , MLANG_ConvertInetString method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::MLANG\_ConvertInetString method
@@ -22,12 +30,12 @@ Passes its arguments through to [**ConvertINetString**](https://msdn.microsoft.c
 
 ```C++
 HRESULT MLANG_ConvertInetString(
-  [in]  CODEPAGEID cpiSource,
-  [in]  CODEPAGEID cpiDest,
-  [in]  LPCSTR     pSource,
-  [in]  int        *pnSizeOfSource,
-  [out] LPSTR      pDestination,
-  [in]  int        *pnDstSize
+  [in]  CODEPAGEID cpiSource,
+  [in]  CODEPAGEID cpiDest,
+  [in]  LPCSTR     pSource,
+  [in]  int        *pnSizeOfSource,
+  [out] LPSTR      pDestination,
+  [in]  int        *pnDstSize
 );
 ```
 
@@ -108,7 +116,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -116,8 +124,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -135,9 +143,9 @@ Returns one of the following values.
 [**ConvertINetString**](https://msdn.microsoft.com/library/aa741106)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VLANEndpoint class
 description: Represents the VLAN endpoint of a switch port.
-ms.assetid: '85cba5c6-7887-42c8-a551-91197d6f8a65'
-keywords: ["Msvm_VLANEndpoint class Hyper-V", "Msvm_VLANEndpoint class Hyper-V , described"]
+ms.assetid: 85cba5c6-7887-42c8-a551-91197d6f8a65
+keywords:
+- Msvm_VLANEndpoint class Hyper-V
+- Msvm_VLANEndpoint class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -43,6 +45,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VLANEndpoint class
@@ -57,36 +64,36 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VLANEndpoint : CIM_VLANEndpoint
 {
-  string   Caption;
-  string   ElementName;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[] = { "The service is running normally" };
-  uint16   HealthState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  string   SystemCreationClassName = "Msvm_VirtualSwitch";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VLANEndpoint";
-  string   Description;
-  uint16   OperationalStatus[] = 2;
-  uint16   EnabledState = 5;
+  string   StatusDescriptions[] = { "The service is running normally" };
+  uint16   HealthState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  string   SystemCreationClassName = "Msvm_VirtualSwitch";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VLANEndpoint";
+  string   Description;
+  uint16   OperationalStatus[] = 2;
+  uint16   EnabledState = 5;
   datetime TimeOfLastStateChange;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType = 1;
-  string   OtherTypeDescription = "Virtual Ethernet";
-  uint16   DesiredEndpointMode;
-  uint16   OperationalEndpointMode;
-  string   OtherTrunkEncapsulation;
-  uint16   GVRPStatus;
-  string   Status;
-  uint16   EnabledDefault = 2;
-  String   Name;
-  boolean  BroadcastResetSupported = False;
-  string   OtherEndpointMode;
-  uint16   DesiredVLANTrunkEncapsulation;
-  uint16   OperationalVLANTrunkEncapsulation;
-  uint16   SupportedEndpointModes[];
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType = 1;
+  string   OtherTypeDescription = "Virtual Ethernet";
+  uint16   DesiredEndpointMode;
+  uint16   OperationalEndpointMode;
+  string   OtherTrunkEncapsulation;
+  uint16   GVRPStatus;
+  string   Status;
+  uint16   EnabledDefault = 2;
+  String   Name;
+  boolean  BroadcastResetSupported = False;
+  string   OtherEndpointMode;
+  uint16   DesiredVLANTrunkEncapsulation;
+  uint16   OperationalVLANTrunkEncapsulation;
+  uint16   SupportedEndpointModes[];
 };
 ```
 
@@ -110,7 +117,7 @@ The **Msvm\_VLANEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -341,14 +348,14 @@ The type of VLAN encapsulation that is requested for use. (Note that the encapsu
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -732,14 +739,14 @@ The type of VLAN encapsulation in use on a trunk endpoint/port. This property is
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -983,9 +990,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1004,9 +1011,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

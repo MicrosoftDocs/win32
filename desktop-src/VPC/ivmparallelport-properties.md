@@ -1,7 +1,12 @@
 ---
 title: IVMParallelPort Properties
 description: The IVMParallelPort interface exposes the following properties.
-ms.assetid: 'A94DD90B-F24F-42DD-93FE-40208BA6FBB1'
+ms.assetid: A94DD90B-F24F-42DD-93FE-40208BA6FBB1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPort Properties

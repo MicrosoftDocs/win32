@@ -1,8 +1,10 @@
 ---
 title: INapClientManagement interface
 description: Provides methods for NAP client management.
-ms.assetid: '9c5724db-1e85-4da5-92b7-9ff6579f9cfb'
-keywords: ["INapClientManagement interface NAP", "INapClientManagement interface NAP , described"]
+ms.assetid: 9c5724db-1e85-4da5-92b7-9ff6579f9cfb
+keywords:
+- INapClientManagement interface NAP
+- INapClientManagement interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,21 +13,26 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapClientManagement** interface provides methods for NAP client management.
 
 > [!Note]  
 > [**INapClientManagement2**](inapclientmanagement2.md) inherits all the methods of this interface and should be used instead.
 
- 
+ 
 
 ## Members
 
@@ -52,7 +59,7 @@ The **INapClientManagement** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,8 +67,8 @@ The **INapClientManagement** interface has these methods.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -78,9 +85,9 @@ The **INapClientManagement** interface has these methods.
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

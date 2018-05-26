@@ -1,14 +1,20 @@
 ---
 title: InterlockedAnd function
 description: Ands the value, atomically.
-ms.assetid: 'c4024be0-3884-4af9-8075-76774c7c6178'
-keywords: ["InterlockedAnd function HLSL"]
+ms.assetid: c4024be0-3884-4af9-8075-76774c7c6178
+keywords:
+- InterlockedAnd function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedAnd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedAnd function

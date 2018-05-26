@@ -1,7 +1,12 @@
 ---
-Description: 'Performs synchronous ink analysis.'
-ms.assetid: '957845f3-96b4-4184-aaec-e266cbe47e46'
-title: 'IInkAnalyzer::Analyze method'
+Description: Performs synchronous ink analysis.
+ms.assetid: 957845f3-96b4-4184-aaec-e266cbe47e46
+title: IInkAnalyzerAnalyze method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::Analyze method
@@ -13,7 +18,7 @@ Performs synchronous ink analysis.
 
 ```C++
 HRESULT Analyze(
-  [out] IAnalysisStatus **ppStatus
+  [out] IAnalysisStatus **ppStatus
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppStatus* when you no longer need to use the analysis status.
 
- 
+ 
 
 This method starts a synchronous ink analysis operation. Ink analysis includes layout analysis, writing and drawing classification, and handwriting recognition. This method returns after the analysis operation is complete.
 
@@ -88,7 +93,7 @@ if (pAnalysisStatus != NULL)
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -117,9 +122,9 @@ if (pAnalysisStatus != NULL)
 [**IInkAnalyzer::BackgroundAnalyze Method**](iinkanalyzer-backgroundanalyze.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

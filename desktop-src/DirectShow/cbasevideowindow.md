@@ -1,14 +1,19 @@
 ---
-Description: 'The CBaseVideoWindow class implements the IDispatch methods of the IVideoWindow interface. The remaining IVideoWindow methods are left as pure virtual methods, and must be implemented by a derived class.'
-ms.assetid: 'b6acec98-cff7-46ee-abd7-77f0b7ac3b9d'
+Description: The CBaseVideoWindow class implements the IDispatch methods of the IVideoWindow interface. The remaining IVideoWindow methods are left as pure virtual methods, and must be implemented by a derived class.
+ms.assetid: b6acec98-cff7-46ee-abd7-77f0b7ac3b9d
 title: CBaseVideoWindow class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoWindow class
 
 ![cbasevideowindow class hierarchy](images/wctrl01.png)
 
-The `CBaseVideoWindow` class implements the **IDispatch** methods of the [**IVideoWindow**](ivideowindow.md) interface. The remaining **IVideoWindow** methods are left as pure virtual methods, and must be implemented by a derived class.
+The `CBaseVideoWindow` class implements the **IDispatch** methods of the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface. The remaining **IVideoWindow** methods are left as pure virtual methods, and must be implemented by a derived class.
 
 The **IDispatch** methods in this class are standard implementations, and are not described in detail here.
 
@@ -33,9 +38,9 @@ The **IDispatch** methods in this class are standard implementations, and are no
 [**CBaseDispatch Class**](cbasedispatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

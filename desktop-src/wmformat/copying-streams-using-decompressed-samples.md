@@ -1,8 +1,17 @@
 ---
 title: Copying Streams Using Decompressed Samples
 description: Copying Streams Using Decompressed Samples
-ms.assetid: '03ad8415-1dff-4362-94b4-7ec69c3e7888'
-keywords: ["Windows Media Format SDK,copying streams", "Advanced Systems Format (ASF),copying streams", "ASF (Advanced Systems Format),copying streams", "streams,copying using decompressed data"]
+ms.assetid: 03ad8415-1dff-4362-94b4-7ec69c3e7888
+keywords:
+- Windows Media Format SDK,copying streams
+- Advanced Systems Format (ASF),copying streams
+- ASF (Advanced Systems Format),copying streams
+- streams,copying using decompressed data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copying Streams Using Decompressed Samples

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Security property
 description: The IVMSecurity object associated with this virtual machine.
-ms.assetid: '9db25ce3-fad2-4aed-838e-70caefee7e0f'
-keywords: ["Security property Virtual Server", "Security property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Security property", "Security property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Security property"]
+ms.assetid: 9db25ce3-fad2-4aed-838e-70caefee7e0f
+keywords:
+- Security property Virtual Server
+- Security property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Security property
+- Security property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Security property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Security property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Security(
-  [out] IVMSecurity **outSecurity
+  [out] IVMSecurity **outSecurity
 );
 ```
 
@@ -98,8 +108,8 @@ WScript.Echo "    Group SID: " & objSec.GroupSID
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -111,9 +121,9 @@ WScript.Echo "    Group SID: " & objSec.GroupSID
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

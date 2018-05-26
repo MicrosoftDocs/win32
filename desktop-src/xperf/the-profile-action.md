@@ -1,7 +1,12 @@
 ---
 title: The Profile Action
 description: The Profile Action
-ms.assetid: '07112e9d-8ad9-498d-81ae-6f20666cd865'
+ms.assetid: 07112e9d-8ad9-498d-81ae-6f20666cd865
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Profile Action
@@ -26,13 +31,13 @@ The profile action produces a text file that summarizes the various metrics rega
 
 
 
- 
+ 
 
 If no report type is selected, default is to show the CPU utilization report.
 
- 
+ 
 
- 
+ 
 
 
 

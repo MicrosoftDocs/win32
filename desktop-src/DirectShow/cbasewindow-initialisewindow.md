@@ -1,7 +1,12 @@
 ---
-Description: 'The InitialiseWindow method initializes the window.'
-ms.assetid: '0cf07714-6846-4271-8095-bc4ab865171f'
-title: 'CBaseWindow.InitialiseWindow method'
+Description: The InitialiseWindow method initializes the window.
+ms.assetid: 0cf07714-6846-4271-8095-bc4ab865171f
+title: CBaseWindow.InitialiseWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.InitialiseWindow method
@@ -13,7 +18,7 @@ The `InitialiseWindow` method initializes the window.
 
 ```C++
 virtual HRESULT InitialiseWindow(
-   HWND hwnd
+   HWND hwnd
 );
 ```
 
@@ -58,9 +63,9 @@ The [**CBaseWindow::DoCreateWindow**](cbasewindow-docreatewindow.md) method call
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

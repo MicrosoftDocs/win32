@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '96bf4971-a19c-4284-abb8-ad843af32c6e'
-title: 'System.Link.Comment'
+Description: .
+ms.assetid: 96bf4971-a19c-4284-abb8-ad843af32c6e
+title: System.Link.Comment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.Comment

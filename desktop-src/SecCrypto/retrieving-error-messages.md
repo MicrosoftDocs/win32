@@ -1,7 +1,12 @@
 ---
-Description: 'When a method call produces an error, many functions return an error code.'
-ms.assetid: '9d60277a-5ee8-471e-bfcd-d104064030a8'
+Description: When a method call produces an error, many functions return an error code.
+ms.assetid: 9d60277a-5ee8-471e-bfcd-d104064030a8
 title: Retrieving Error Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Error Messages

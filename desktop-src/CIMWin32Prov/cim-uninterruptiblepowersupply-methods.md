@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_UninterruptiblePowerSupply class exposes the following methods.'
+Description: The CIM\_UninterruptiblePowerSupply class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '75B2A996-83D7-4611-BF90-ECC28D29A571'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 75B2A996-83D7-4611-BF90-ECC28D29A571
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_UninterruptiblePowerSupply Methods'
+title: CIM\_UninterruptiblePowerSupply Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_UninterruptiblePowerSupply Methods

@@ -1,14 +1,19 @@
 ---
 Description: Obtaining the Drivers Certificate Chain
-ms.assetid: 'bc7b346c-3382-4f2b-90b6-03f6a1a5a9ce'
+ms.assetid: bc7b346c-3382-4f2b-90b6-03f6a1a5a9ce
 title: Obtaining the Drivers Certificate Chain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining the Drivers Certificate Chain
 
 To use Certified Output Protection Protocol (COPP), the application first must build a DirectShow graph that includes the Video Mixing Render filter (VMR-7 or VMR-9). The older Video Renderer filter does not support COPP. Before calling any COPP methods, the application must build a video playback graph and connect the decoder to the VMR filter's input pin. It is not necessary to play the video file.
 
-After building the graph, query the VMR for the [**IAMCertifiedOutputProtection**](iamcertifiedoutputprotection.md) interface, and then call [**IAMCertifiedOutputProtection::KeyExchange**](iamcertifiedoutputprotection-keyexchange.md). This method returns a 128-bit random number typed as a GUID, along with a pointer to a byte array that contains the driver's XML certificate chain in UTF-8 format. The following code shows how to get the certificate chain.
+After building the graph, query the VMR for the [**IAMCertifiedOutputProtection**](/windows/win32/Strmif/nn-strmif-iamcertifiedoutputprotection?branch=master) interface, and then call [**IAMCertifiedOutputProtection::KeyExchange**](/windows/win32/Strmif/nf-strmif-iamcertifiedoutputprotection-keyexchange?branch=master). This method returns a 128-bit random number typed as a GUID, along with a pointer to a byte array that contains the driver's XML certificate chain in UTF-8 format. The following code shows how to get the certificate chain.
 
 
 ```C++

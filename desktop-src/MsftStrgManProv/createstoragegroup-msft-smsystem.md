@@ -4,11 +4,14 @@ description: Creates a Storage Group (SPC).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '33d8c3d9-0e08-4cf0-b8a7-26af178ead2e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 33d8c3d9-0e08-4cf0-b8a7-26af178ead2e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStorageGroup method", "CreateStorageGroup method, MSFT_SMSystem class", "MSFT_SMSystem class, CreateStorageGroup method"]
+keywords:
+- CreateStorageGroup method
+- CreateStorageGroup method, MSFT_SMSystem class
+- MSFT_SMSystem class, CreateStorageGroup method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStorageGroup method of the MSFT\_SMSystem class
@@ -28,18 +34,18 @@ Creates a Storage Group (SPC).
 
 ```mof
 Uint32 CreateStorageGroup(
-  [in]            String                  Name,
-  [in]            String                  LUNames[],
-  [in]            String                  DeviceNumbers[],
-  [in]            Uint16                  DeviceAccesses[],
-  [in]            String                  InitiatorID,
-  [in]            String                  TargetPortIDs[],
-  [in]            Uint16                  HostType = Microsoft Windows,
-  [out]           MSFT_SMStorageGroup REF StorageGroup,
-  [out]           MSFT_SMJob          REF Job,
-  [out, optional] MSFT_SMExtendedStatus   ExtendedStatus,
-  [in, optional]  String                  username,
-  [in, optional]  String                  password
+  [in]            String                  Name,
+  [in]            String                  LUNames[],
+  [in]            String                  DeviceNumbers[],
+  [in]            Uint16                  DeviceAccesses[],
+  [in]            String                  InitiatorID,
+  [in]            String                  TargetPortIDs[],
+  [in]            Uint16                  HostType = Microsoft Windows,
+  [out]           MSFT_SMStorageGroup REF StorageGroup,
+  [out]           MSFT_SMJob          REF Job,
+  [out, optional] MSFT_SMExtendedStatus   ExtendedStatus,
+  [in, optional]  String                  username,
+  [in, optional]  String                  password
 );
 ```
 
@@ -64,7 +70,7 @@ An array of IDs of existing logical unit instances.
 > [!Note]  
 > IDs must match the **Name** property of LogicalDevice instances that represent SCSI logical units.
 
- 
+ 
 
 </dd> <dt>
 
@@ -294,18 +300,18 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
-**Windows Server 2012:** This parameter is, incorrectly, named *HostMode*.
+**Windows Server 2012:** This parameter is, incorrectly, named *HostMode*.
 
-**Windows Server 2012:** The default for this parameter is 15, **Microsoft Windows**.
+**Windows Server 2012:** The default for this parameter is 15, **Microsoft Windows**.
 
 </dd> <dt>
 
@@ -321,7 +327,7 @@ Reference to the created [**MSFT\_SMStorageGroup**](msft-smstoragegroup.md) (SCS
 
 Reference to the [**MSFT\_SMJob**](msft-smjob.md) instance. May be **NULL** if the job is completed.
 
-**Windows Server 2012:** This parameter is not supported.
+**Windows Server 2012:** This parameter is not supported.
 
 </dd> <dt>
 
@@ -591,7 +597,7 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -605,9 +611,9 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

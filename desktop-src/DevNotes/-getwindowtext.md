@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the text from the specified window''s title bar.'
-ms.assetid: 'c14151f9-222f-40a2-837e-7f9a728efc82'
+---
+Description: Retrieves the text from the specified windows title bar.
+ms.assetid: c14151f9-222f-40a2-837e-7f9a728efc82
 title: '\_GetWindowText function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_GetWindowText function

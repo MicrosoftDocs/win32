@@ -4,13 +4,15 @@ description: The base class for all types of activities which are granted or den
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e8832353-ef50-4dba-ba48-a66402047b99'
-ms.prod: 'windows-server-dev'
+ms.assetid: e8832353-ef50-4dba-ba48-a66402047b99
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AuthorizedPrivilege class", "CIM_AuthorizedPrivilege class, described"]
+keywords:
+- CIM_AuthorizedPrivilege class
+- CIM_AuthorizedPrivilege class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AuthorizedPrivilege class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.0"), AMENDMENT]
 class CIM_AuthorizedPrivilege : CIM_Privilege
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean PrivilegeGranted = TRUE;
-  uint16  Activities[];
-  string  ActivityQualifiers[];
-  uint16  QualifierFormats[];
+  uint16  Activities[];
+  string  ActivityQualifiers[];
+  uint16  QualifierFormats[];
 };
 ```
 
@@ -136,14 +141,14 @@ An enumeration indicating the activities that are granted or denied. These activ
 **DMTF Reserved**
 
 
-</dt> <dd>8–15999</dd> <dt>
+</dt> <dd>8 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 
@@ -394,8 +399,8 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -409,9 +414,9 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 [**CIM\_Privilege**](cim-privilege.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ComboBoxEx Messages
 description: .
-ms.assetid: 'cca4332e-2b88-4e72-82b3-e65da695b40f'
+ms.assetid: cca4332e-2b88-4e72-82b3-e65da695b40f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComboBoxEx Messages

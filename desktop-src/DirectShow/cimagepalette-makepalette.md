@@ -1,7 +1,12 @@
 ---
-Description: 'The MakePalette method creates a logical palette from the color table in a video format.'
-ms.assetid: 'f158e529-d683-4210-818d-21a834fc7683'
-title: 'CImagePalette.MakePalette method'
+Description: The MakePalette method creates a logical palette from the color table in a video format.
+ms.assetid: f158e529-d683-4210-818d-21a834fc7683
+title: CImagePalette.MakePalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette.MakePalette method
@@ -13,8 +18,8 @@ The `MakePalette` method creates a logical palette from the color table in a vid
 
 ```C++
 HPALETTE MakePalette(
-   const VIDEOINFOHEADER *pVideoInfo,
-         LPSTR           szDevice
+   const VIDEOINFOHEADER *pVideoInfo,
+         LPSTR           szDevice
 );
 ```
 
@@ -27,7 +32,7 @@ HPALETTE MakePalette(
 *pVideoInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](videoinfoheader.md) structure that contains the color table.
+Pointer to a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure that contains the color table.
 
 </dd> <dt>
 
@@ -60,9 +65,9 @@ If successful, returns a handle to the palette. Otherwise, returns **NULL**.
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

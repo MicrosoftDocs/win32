@@ -1,7 +1,12 @@
 ---
-Description: 'Deletes the user credential used for the connected identity.'
-ms.assetid: 'EB32832D-9A8C-4CEB-897A-7E9D24FF84DD'
+Description: Deletes the user credential used for the connected identity.
+ms.assetid: EB32832D-9A8C-4CEB-897A-7E9D24FF84DD
 title: DeleteConnectedIdentity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteConnectedIdentity function
@@ -13,10 +18,10 @@ Deletes the user credential used for the connected identity.
 
 ```C++
 SEC_ENTRY DeleteConnectedIdentity(
-  _In_     PVOID  ProviderHandle,
-  _In_opt_ HANDLE UserToken,
-  _In_     PSID   UserSid,
-  _In_     PWSTR  IdentityUserName
+  _In_     PVOID  ProviderHandle,
+  _In_opt_ HANDLE UserToken,
+  _In_     PSID   UserSid,
+  _In_     PWSTR  IdentityUserName
 );
 ```
 
@@ -70,7 +75,7 @@ If the function fails, the function may return one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -78,15 +83,15 @@ If the function fails, the function may return one of the following error codes.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                  |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                        |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                  |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                        |
 | Header<br/>                   | <dl> <dt>Indentitystore.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

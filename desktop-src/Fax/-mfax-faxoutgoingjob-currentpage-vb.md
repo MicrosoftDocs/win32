@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CurrentPage property is a number that identifies the page that the fax service is actively transmitting on an outbound fax job.'
-ms.assetid: '5fa69801-e386-4fce-9601-b75d9a73e579'
-title: 'FaxOutgoingJob.CurrentPage property'
+---
+Description: The CurrentPage property is a number that identifies the page that the fax service is actively transmitting on an outbound fax job.
+ms.assetid: 5fa69801-e386-4fce-9601-b75d9a73e579
+title: FaxOutgoingJob.CurrentPage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.CurrentPage property
@@ -46,7 +51,7 @@ A **Long** that receives the number of the page in the outbound fax transmission
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

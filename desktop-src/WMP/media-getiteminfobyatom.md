@@ -1,8 +1,11 @@
 ---
 title: Media.getItemInfoByAtom method
 description: The getItemInfoByAtom method retrieves the value of the attribute with the specified index number.
-ms.assetid: 'c2e803df-84f2-4c23-9872-a5435977d189'
-keywords: ["getItemInfoByAtom method Windows Media Player", "getItemInfoByAtom method Windows Media Player , Media class", "Media class Windows Media Player , getItemInfoByAtom method"]
+ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189
+keywords:
+- getItemInfoByAtom method Windows Media Player
+- getItemInfoByAtom method Windows Media Player , Media class
+- Media class Windows Media Player , getItemInfoByAtom method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getItemInfoByAtom method
@@ -97,9 +105,9 @@ For information about the attributes supported by Windows Media Player, see the 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

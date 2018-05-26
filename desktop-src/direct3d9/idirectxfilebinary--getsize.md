@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the size of the binary data. Deprecated.'
-ms.assetid: '99a74043-ce87-4545-961f-dade54e77735'
-title: 'IDirectXFileBinary::GetSize method'
+---
+Description: Retrieves the size of the binary data. Deprecated.
+ms.assetid: 99a74043-ce87-4545-961f-dade54e77735
+title: IDirectXFileBinaryGetSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileBinary::GetSize method

@@ -1,8 +1,9 @@
 ---
 title: JobEndEventArgs structure
 description: This structure defines the event arguments passed to an OnJobEnd event.
-ms.assetid: '78F46399-B791-401F-9712-27166CCE7E54'
-keywords: ["JobEndEventArgs structure Access Execution Engine"]
+ms.assetid: 78F46399-B791-401F-9712-27166CCE7E54
+keywords:
+- JobEndEventArgs structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobEndEventArgs structure
@@ -22,15 +28,15 @@ This structure defines the event arguments passed to an OnJobEnd event.
 
 ```C++
 struct JobEndEventArgs {
-  DWORD             Size;
-  const Job         *Job;
+  DWORD             Size;
+  const Job         *Job;
   JobExecutionError Error;
-  const ErrorList   *ErrorList;
-  UINT              ExecutedAssessmentCount;
-  UINT              FailedAssessmentCount;
-  LPCWSTR           ResultPath;
-  WCHAR             ResultFolder[RESULTS_MAX_FILENAME];
-  WCHAR             ResultFileName[RESULTS_MAX_FILENAME];
+  const ErrorList   *ErrorList;
+  UINT              ExecutedAssessmentCount;
+  UINT              FailedAssessmentCount;
+  LPCWSTR           ResultPath;
+  WCHAR             ResultFolder[RESULTS_MAX_FILENAME];
+  WCHAR             ResultFileName[RESULTS_MAX_FILENAME];
 };
 ```
 
@@ -121,15 +127,15 @@ When a job finishes execution and the results of all assessments have been aggre
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ImportStore method of the BcdStore class
 description: Marks the specified store as the system store.
-ms.assetid: 'a9ffb4cb-be35-487e-9f64-29954048c767'
-keywords: ["ImportStore method Boot Config", "ImportStore method Boot Config , BcdStore class", "BcdStore class Boot Config , ImportStore method"]
+ms.assetid: a9ffb4cb-be35-487e-9f64-29954048c767
+keywords:
+- ImportStore method Boot Config
+- ImportStore method Boot Config , BcdStore class
+- BcdStore class Boot Config , ImportStore method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportStore method of the BcdStore class
@@ -22,7 +30,7 @@ Marks the specified store as the system store.
 
 ```mof
 boolean ImportStore(
-  [in] string File
+  [in] string File
 );
 ```
 
@@ -45,8 +53,8 @@ The full path to the store. The store could be created by [**ExportStore**](expo
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -65,9 +73,9 @@ The full path to the store. The store could be created by [**ExportStore**](expo
 [**ImportStoreWithFlags**](importstorewithflags-bcdstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Set access scope on an array of DNS servers from IPAM.'
+Description: Set access scope on an array of DNS servers from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c08148a0-2f17-4a96-b612-c08098387b66'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c08148a0-2f17-4a96-b612-c08098387b66
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetDnsServerAccessScope method of the MSFT\_IPAM\_AccessScope class'
+title: SetDnsServerAccessScope method of the MSFT\_IPAM\_AccessScope class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDnsServerAccessScope method of the MSFT\_IPAM\_AccessScope class
@@ -21,11 +24,11 @@ Set access scope on an array of DNS servers from IPAM.
 
 ```mof
 uint32 SetDnsServerAccessScope(
-  [in]  boolean             IpamDnsServer,
-  [in]  string              AccessScopePath,
-  [in]  boolean             IsInheritedAccessScope,
-  [in]  MSFT_IPAM_DnsServer InputObject[],
-  [out] MSFT_IPAM_DnsServer Output[]
+  [in]  boolean             IpamDnsServer,
+  [in]  string              AccessScopePath,
+  [in]  boolean             IsInheritedAccessScope,
+  [in]  MSFT_IPAM_DnsServer InputObject[],
+  [out] MSFT_IPAM_DnsServer Output[]
 );
 ```
 
@@ -77,7 +80,7 @@ Returns the scope as an array of [**MSFT\_IPAM\_DnsServer**](msft-ipam-dnsserver
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -91,9 +94,9 @@ Returns the scope as an array of [**MSFT\_IPAM\_DnsServer**](msft-ipam-dnsserver
 [**MSFT\_IPAM\_AccessScope**](msft-ipam-accessscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

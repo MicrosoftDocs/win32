@@ -1,14 +1,20 @@
 ---
 title: InterlockedCompareExchange function
 description: Compares the input to the comparison value and exchanges the result, atomically.
-ms.assetid: '9d6e8d95-5157-49a7-8a79-f3ca6ba87ebb'
-keywords: ["InterlockedCompareExchange function HLSL"]
+ms.assetid: 9d6e8d95-5157-49a7-8a79-f3ca6ba87ebb
+keywords:
+- InterlockedCompareExchange function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedCompareExchange
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedCompareExchange function

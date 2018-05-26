@@ -1,7 +1,12 @@
 ---
-Description: 'Msizap.exe is a command line utility that removes either all Windows Installer information for a product or all products installed on a computer. Products installed by the installer may fail to function after using Msizap.'
-ms.assetid: '0debb8ab-3ae7-447e-84fc-0466ec1b2f26'
-title: 'Msizap.exe'
+Description: Msizap.exe is a command line utility that removes either all Windows Installer information for a product or all products installed on a computer. Products installed by the installer may fail to function after using Msizap.
+ms.assetid: 0debb8ab-3ae7-447e-84fc-0466ec1b2f26
+title: Msizap.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msizap.exe

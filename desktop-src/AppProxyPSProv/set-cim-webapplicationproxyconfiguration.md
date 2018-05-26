@@ -1,15 +1,18 @@
 ---
-Description: 'Updates the server configuration for Web Application Proxy.'
+Description: Updates the server configuration for Web Application Proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ee97e53d-fab8-4233-a24f-d1b0e2100142'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ee97e53d-fab8-4233-a24f-d1b0e2100142
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Set method of the CIM\_WebApplicationProxyConfiguration class'
+title: Set method of the CIM\_WebApplicationProxyConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the CIM\_WebApplicationProxyConfiguration class
@@ -21,18 +24,18 @@ Updates the server configuration for Web Application Proxy.
 
 ```mof
 uint32 Set(
-  [in] string  ADFSUrl,
-  [in] string  ADFSTokenSigningCertificatePublicKey,
-  [in] string  ADFSWebApplicationProxyRelyingPartyUri,
-  [in] boolean RegenerateAccessCookiesEncryptionKey,
-  [in] string  ConnectedServersName[],
-  [in] string  OAuthAuthenticationURL,
-  [in] uint32  ConfigurationChangesPollingIntervalSec,
-  [in] boolean UpgradeConfigurationVersion,
-  [in] uint32  ADFSTokenAcceptanceDurationSec,
-  [in] string  ADFSSignOutURL,
-  [in] uint32  UserIdleTimeoutSec,
-  [in] string  UserIdleTimeoutAction
+  [in] string  ADFSUrl,
+  [in] string  ADFSTokenSigningCertificatePublicKey,
+  [in] string  ADFSWebApplicationProxyRelyingPartyUri,
+  [in] boolean RegenerateAccessCookiesEncryptionKey,
+  [in] string  ConnectedServersName[],
+  [in] string  OAuthAuthenticationURL,
+  [in] uint32  ConfigurationChangesPollingIntervalSec,
+  [in] boolean UpgradeConfigurationVersion,
+  [in] uint32  ADFSTokenAcceptanceDurationSec,
+  [in] string  ADFSSignOutURL,
+  [in] uint32  UserIdleTimeoutSec,
+  [in] string  UserIdleTimeoutAction
 );
 ```
 
@@ -96,7 +99,7 @@ The interval, in seconds, in which the Web Application Proxy servers query the A
 
 **TRUE** to force an upgrade of the Web Application Proxy configuration version; otherwise, **FALSE**. Set this parameter to **TRUE** after all Web Application Proxy servers on a cluster are upgraded.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -105,7 +108,7 @@ The interval, in seconds, in which the Web Application Proxy servers query the A
 
 Specifies the maximum duration in seconds until which the Web Application Proxy server accepts the edge token issued by the AD FS server.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -114,7 +117,7 @@ Specifies the maximum duration in seconds until which the Web Application Proxy 
 
 Specifies the Sign-Out URL of the AD FS server used by Web Application Proxy.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -123,7 +126,7 @@ Specifies the Sign-Out URL of the AD FS server used by Web Application Proxy.
 
 Specifies the inactivity time interval, in seconds, after which Web Application Proxy will redirect user to AD FS.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -132,7 +135,7 @@ Specifies the inactivity time interval, in seconds, after which Web Application 
 
 Specifies whether inactive user will be redirected to the AD FS for signout or reauthentication.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -147,7 +150,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -161,9 +164,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_WebApplicationProxyConfiguration**](cim-webapplicationproxyconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

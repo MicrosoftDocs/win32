@@ -4,20 +4,28 @@ description: The ADSI example provider component defines the schema classes \ 00
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c3e07846-a11e-46d4-9863-a89810896ad7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c3e07846-a11e-46d4-9863-a89810896ad7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Schema Management ADSI", "schema management ADSI", "managing schemas ADSI", "schemas, managing ADSI", "managing a schema ADSI"]
+keywords:
+- Schema Management ADSI
+- schema management ADSI
+- managing schemas ADSI
+- schemas, managing ADSI
+- managing a schema ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Schema Management
 
 The ADSI example provider component defines the schema classes "Organizational Unit" and "User" and manages these schema classes in the following way.
 
-The "Organizational Unit" schema class is represented by an ADs container object and can contain other "Organizational Units" and "Users". The container object supports the interfaces [**IUnknown**](_com_iunknown), [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5), [**IADs**](iads.md), and [**IADsContainer**](iadscontainer.md). The "User" schema class is represented by a generic Active Directory object and does not contain other types of objects. In the example provider component, the User object is implemented as a generic Active Directory object that supports the interfaces **IUnknown**, **IDispatch**, and **IADs**. Be aware that the User object, in this case, does not support the [**IADsUser**](iadsuser.md) interface.
+The "Organizational Unit" schema class is represented by an ADs container object and can contain other "Organizational Units" and "Users". The container object supports the interfaces [**IUnknown**](_com_iunknown), [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5), [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master), and [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master). The "User" schema class is represented by a generic Active Directory object and does not contain other types of objects. In the example provider component, the User object is implemented as a generic Active Directory object that supports the interfaces **IUnknown**, **IDispatch**, and **IADs**. Be aware that the User object, in this case, does not support the [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) interface.
 
-The example provider component must also implement the ADs namespace object, which supports the interfaces [**IUnknown**](_com_iunknown), [**IADs**](iads.md), [**IADsContainer**](iadscontainer.md), [**IADsOpenDSObject**](iadsopendsobject.md), and [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5).
+The example provider component must also implement the ADs namespace object, which supports the interfaces [**IUnknown**](_com_iunknown), [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master), [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master), [**IADsOpenDSObject**](/windows/win32/Iads/nn-iads-iadsopendsobject?branch=master), and [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5).
 
 The following figure shows the details of the schema that represents the two example provider component schema classes.
 

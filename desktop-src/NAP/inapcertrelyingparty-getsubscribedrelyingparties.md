@@ -1,8 +1,11 @@
 ---
 title: INapCertRelyingParty GetSubscribedRelyingParties method
 description: Gets a list of relying parties that have subscribed.
-ms.assetid: '7eef28fd-71cd-4765-89a5-2c9ce29fdc00'
-keywords: ["GetSubscribedRelyingParties method NAP", "GetSubscribedRelyingParties method NAP , INapCertRelyingParty interface", "INapCertRelyingParty interface NAP , GetSubscribedRelyingParties method"]
+ms.assetid: 7eef28fd-71cd-4765-89a5-2c9ce29fdc00
+keywords:
+- GetSubscribedRelyingParties method NAP
+- GetSubscribedRelyingParties method NAP , INapCertRelyingParty interface
+- INapCertRelyingParty interface NAP , GetSubscribedRelyingParties method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapCertRelyingParty::GetSubscribedRelyingParties method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetSubscribedRelyingParties** method gets a list of relying parties that have subscribed.
 
@@ -27,8 +35,8 @@ The **GetSubscribedRelyingParties** method gets a list of relying parties that h
 
 ```C++
 HRESULT GetSubscribedRelyingParties(
-  [out] EnforcementEntityCount *count,
-  [out]  EnforcementEntityId   **relyingParties
+  [out] EnforcementEntityCount *count,
+  [out]  EnforcementEntityId   **relyingParties
 );
 ```
 
@@ -66,7 +74,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ The caller must free the *relyingParties* parameter using **CoTaskMemFree**.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapCertRelyingParty.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCertRelyingParty.idl</dt> </dl> |
 
@@ -92,9 +100,9 @@ The caller must free the *relyingParties* parameter using **CoTaskMemFree**.
 [**INapCertRelyingParty**](inapcertrelyingparty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

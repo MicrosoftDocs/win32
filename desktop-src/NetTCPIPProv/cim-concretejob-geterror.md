@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a CIM\_Error instance if the Job instance fails or is terminated by a client.'
-ms.assetid: '0ee9c545-d372-4b16-b48d-57b23fe704c7'
-title: 'GetError method of the CIM\_ConcreteJob class'
+Description: Returns a CIM\_Error instance if the Job instance fails or is terminated by a client.
+ms.assetid: 0ee9c545-d372-4b16-b48d-57b23fe704c7
+title: GetError method of the CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the CIM\_ConcreteJob class
@@ -13,7 +18,7 @@ Returns a [**CIM\_Error**](cim-error.md) instance if the Job instance fails or i
 
 ```mof
 uint32 GetError(
-  [out] CIM_Error Error
+  [out] CIM_Error Error
 );
 ```
 
@@ -55,10 +60,10 @@ If the **OperationalStatus** property on the job is not **OK**, then this method
 **Access Denied** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -67,8 +72,8 @@ If the **OperationalStatus** property on the job is not **OK**, then this method
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -82,9 +87,9 @@ If the **OperationalStatus** property on the job is not **OK**, then this method
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

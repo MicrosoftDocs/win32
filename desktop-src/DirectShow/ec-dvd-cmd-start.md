@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that a DVD Navigator command has begun.'
-ms.assetid: '230116b4-23f1-4c37-a781-da2c5aa20a1f'
-title: 'EC\_DVD\_CMD\_START'
+Description: Signals that a DVD Navigator command has begun.
+ms.assetid: 230116b4-23f1-4c37-a781-da2c5aa20a1f
+title: EC\_DVD\_CMD\_START
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_CMD\_START
@@ -15,7 +20,7 @@ Signals that a [DVD Navigator](dvd-navigator-filter.md) command has begun.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-Command identifier. Pass this parameter to the [**IDvdInfo2::GetCmdFromEvent**](idvdinfo2-getcmdfromevent.md) method to retrieve an [**IDvdCmd**](idvdcmd.md) interface pointer.
+Command identifier. Pass this parameter to the [**IDvdInfo2::GetCmdFromEvent**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getcmdfromevent?branch=master) method to retrieve an [**IDvdCmd**](/windows/win32/Strmif/nn-strmif-idvdcmd?branch=master) interface pointer.
 
 </dd> <dt>
 
@@ -28,7 +33,7 @@ Command identifier. Pass this parameter to the [**IDvdInfo2::GetCmdFromEvent**](
 
 ## Remarks
 
-This event is only fired if your application sets the **DVD\_CMD\_FLAG\_SendEvents** flag in an [**IDvdControl2**](idvdcontrol2.md) method that takes a [**DVD\_CMD\_FLAGS**](dvd-cmd-flags.md) flag.
+This event is only fired if your application sets the **DVD\_CMD\_FLAG\_SendEvents** flag in an [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) method that takes a [**DVD\_CMD\_FLAGS**](/windows/win32/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0002?branch=master) flag.
 
 This event is raised in the title domain.
 
@@ -58,9 +63,9 @@ This event is raised in the title domain.
 [Synchronizing DVD Commands](synchronizing-dvd-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Music Bundle Signature Sample
 description: A sample application that uses the Packaging APIs to sign a custom-format package, called a music bundle, and then validate the generated signature.
-ms.assetid: 'f4f337dc-85ba-4dd9-aba8-f81c0e29088e'
+ms.assetid: f4f337dc-85ba-4dd9-aba8-f81c0e29088e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Music Bundle Signature Sample
@@ -33,12 +38,12 @@ The sample demonstrates the following features:
 
 | Product                                                                                             | Version        |
 |-----------------------------------------------------------------------------------------------------|----------------|
-| [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7      |
+| [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7      |
 | [ATL](http://go.microsoft.com/fwlink/p/?linkid=142947)                                              | .NET Framework |
 
 
 
- 
+ 
 
 ## Downloading the Sample
 
@@ -53,7 +58,7 @@ This sample is available in the following locations:
 
 
 
- 
+ 
 
 ## Building the Sample
 
@@ -72,7 +77,7 @@ The following procedure describes how to build the sample.
         > [!Note]  
         > If the sample does not build successfully, close Visual Studio 2008 and run the [.NET Framework Configuration Tool](a7106c52-68da-490e-b129-971b2c743764) (Mscorcfg.msc) before attempting to build the sample.
 
-         
+         
 
     Using the command prompt:
 
@@ -89,7 +94,7 @@ Before running the sample application, ensure that the sample project has been b
 > [!Note]  
 > To run the sample successfully, at least one X.509 certificate must be present. If an X.509 certificate is not present, the [Certificate Creation Tool](b0343f8e-9c41-4852-a85c-f8a0c408cf0d) (Makecert.exe) can be used to generate a certificate for testing purposes.
 
- 
+ 
 
 The following procedures describe how to run the sample using Visual Studio or the command prompt.
 
@@ -135,11 +140,11 @@ When run, the sample creates two files.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: A Windows Management Infrastructure (MI) client enables you to cons
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BFCD308C-96A2-4238-95B7-933099593CB8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: BFCD308C-96A2-4238-95B7-933099593CB8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to Implement a Managed MI Client

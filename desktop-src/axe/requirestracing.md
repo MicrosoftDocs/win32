@@ -1,14 +1,20 @@
 ---
 title: RequiresTracing element
 description: If present then no system tracing can be running prior to the assessment running.
-ms.assetid: '91183A92-1EFC-43C7-AA1C-60D2583B4D6B'
-keywords: ["RequiresTracing element Access Execution Engine"]
+ms.assetid: 91183A92-1EFC-43C7-AA1C-60D2583B4D6B
+keywords:
+- RequiresTracing element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresTracing
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresTracing element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

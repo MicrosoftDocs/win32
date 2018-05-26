@@ -4,11 +4,14 @@ description: Determines the connectivity status between Remote Desktop Services 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11fc5865-47e8-4be8-a526-53e29f72d0a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 11fc5865-47e8-4be8-a526-53e29f72d0a4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetTStoLSConnectivityStatus method Remote Desktop Services", "GetTStoLSConnectivityStatus method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , GetTStoLSConnectivityStatus method"]
+keywords:
+- GetTStoLSConnectivityStatus method Remote Desktop Services
+- GetTStoLSConnectivityStatus method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , GetTStoLSConnectivityStatus method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetTStoLSConnectivityStatus method of the Win32\_TerminalServiceSetting class
@@ -28,8 +34,8 @@ Determines the connectivity status between Remote Desktop Services and a license
 
 ```mof
 uint32 GetTStoLSConnectivityStatus(
-  [in]  string ServerName,
-  [out] uint32 TStoLSConnectivityStatus
+  [in]  string ServerName,
+  [out] uint32 TStoLSConnectivityStatus
 );
 ```
 
@@ -71,7 +77,7 @@ The connectivity status cannot be determined.
 
 </dt> <dd>
 
-Remote Desktop Services can connect to the Windows Server 2008 R2 license server.
+Remote Desktop Services can connect to the Windows Server 2008 R2 license server.
 
 </dd> <dt>
 
@@ -82,7 +88,7 @@ Remote Desktop Services can connect to the Windows Server 2008 R2 license server
 
 </dt> <dd>
 
-Remote Desktop Services can connect to the Windows Server 2008 license server.
+Remote Desktop Services can connect to the Windows Server 2008 license server.
 
 </dd> <dt>
 
@@ -159,9 +165,9 @@ Remote Desktop Services can connect to the license server, but the user account 
 
 </dt> <dd>
 
-Remote Desktop Services can connect to the Windows Server 2008 R2 Virtual Desktop Infrastructure (VDI) server.
+Remote Desktop Services can connect to the Windows Server 2008 R2 Virtual Desktop Infrastructure (VDI) server.
 
-**Windows Server 2008 R2:** This value is not supported before Windows Server 2012.
+**Windows Server 2008 R2:** This value is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -174,7 +180,7 @@ Remote Desktop Services can connect to the Windows Server 2008 R2 Virtual Deskto
 
 The feature is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008 R2 with SP1:** This value is not supported before Windows Server 2012.
+**Windows Server 2008 R2 and Windows Server 2008 R2 with SP1:** This value is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -187,7 +193,7 @@ The feature is not supported.
 
 The license server is valid.
 
-**Windows Server 2008 R2 and Windows Server 2008 R2 with SP1:** This value is not supported before Windows Server 2012.
+**Windows Server 2008 R2 and Windows Server 2008 R2 with SP1:** This value is not supported before Windows Server 2012.
 
 </dd> </dl> </dd> </dl>
 
@@ -202,7 +208,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -216,9 +222,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

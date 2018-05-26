@@ -1,7 +1,12 @@
 ---
 Description: Using the System Device Enumerator
-ms.assetid: '70db139c-2c5b-4574-bec3-dfe758b16715'
+ms.assetid: 70db139c-2c5b-4574-bec3-dfe758b16715
 title: Using the System Device Enumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the System Device Enumerator
@@ -13,10 +18,10 @@ The System Device Enumerator works by creating an enumerator for a specific cate
 To use the System Device Enumerator, do the following:
 
 1.  Create the system device enumerator by calling **CoCreateInstance**. The class identifier (CLSID) is CLSID\_SystemDeviceEnum.
-2.  Obtain a category enumerator by calling [**ICreateDevEnum::CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) with the CLSID of the desired category. This method returns an **IEnumMoniker** interface pointer. If the category is empty (or does not exist), the method returns S\_FALSE rather than an error code. If so, the returned **IEnumMoniker** pointer is **NULL** and dereferencing it will cause an exception. Therefore, explicitly test for S\_OK when you call **CreateClassEnumerator**, instead of calling the usual **SUCCEEDED** macro.
+2.  Obtain a category enumerator by calling [**ICreateDevEnum::CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) with the CLSID of the desired category. This method returns an **IEnumMoniker** interface pointer. If the category is empty (or does not exist), the method returns S\_FALSE rather than an error code. If so, the returned **IEnumMoniker** pointer is **NULL** and dereferencing it will cause an exception. Therefore, explicitly test for S\_OK when you call **CreateClassEnumerator**, instead of calling the usual **SUCCEEDED** macro.
 3.  Use the **IEnumMoniker::Next** method to enumerate each moniker. This method returns an **IMoniker** interface pointer. When the **Next** method reaches the end of the enumeration, it also returns S\_FALSE, so again check for S\_OK.
 4.  To retrieve the friendly name of the device (for example, to display in the user interface), call the **IMoniker::BindToStorage** method.
-5.  To create and initialize the DirectShow filter that manages the device, call **IMoniker::BindToObject** on the moniker. Call [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) to add the filter to the graph.
+5.  To create and initialize the DirectShow filter that manages the device, call **IMoniker::BindToObject** on the moniker. Call [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) to add the filter to the graph.
 
 The following diagram illustrates this process.
 
@@ -81,7 +86,7 @@ pSysDevEnum->Release();
 
 **Device Monikers**
 
-For device monikers, you can pass the moniker to the [**IFilterGraph2::AddSourceFilterForMoniker**](ifiltergraph2-addsourcefilterformoniker.md) method to create a capture filter for the device. For example code, see the documentation for that method.
+For device monikers, you can pass the moniker to the [**IFilterGraph2::AddSourceFilterForMoniker**](/windows/win32/Strmif/nf-strmif-ifiltergraph2-addsourcefilterformoniker?branch=master) method to create a capture filter for the device. For example code, see the documentation for that method.
 
 The **IMoniker::GetDisplayName** method returns the display name of the moniker. Although the display name is readable, you would not typically display it to an end-user. Get the friendly name from the property bag instead, as described previously.
 

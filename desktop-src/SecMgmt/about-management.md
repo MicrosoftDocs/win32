@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections provide information about security management.SectionDescriptionLSA PolicyMaintains information about all aspects of local security on a system.'
-ms.assetid: 'f73e0780-92e0-4c48-bd40-a961ee47fbf9'
+Description: The following sections provide information about security management.SectionDescriptionLSA PolicyMaintains information about all aspects of local security on a system.
+ms.assetid: f73e0780-92e0-4c48-bd40-a961ee47fbf9
 title: About Security Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Security Management
@@ -19,11 +24,11 @@ The following sections provide information about security management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The MSFT\_NetVirtualizationCustomerRouteSettingData class represents a customer route or forwarding rule in the WNV module policy table to define virtual network topology seen by the virtual machines.'
-ms.assetid: 'b9a4b523-2d7e-42cd-8fff-db5563a1b4f6'
-title: 'MSFT\_NetVirtualizationCustomerRouteSettingData class'
+Description: The MSFT\_NetVirtualizationCustomerRouteSettingData class represents a customer route or forwarding rule in the WNV module policy table to define virtual network topology seen by the virtual machines.
+ms.assetid: b9a4b523-2d7e-42cd-8fff-db5563a1b4f6
+title: MSFT\_NetVirtualizationCustomerRouteSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetVirtualizationCustomerRouteSettingData class
@@ -123,17 +128,17 @@ A unique identifier number of the virtual subnet of this customer route record.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>NetWNV.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetWNV.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The device interface can be described by a GUID value. Windows Portable Devices defines the following device interface.'
-ms.assetid: '47b8d3dd-ea12-461d-935d-2de2c0157f88'
+Description: The device interface can be described by a GUID value. Windows Portable Devices defines the following device interface.
+ms.assetid: 47b8d3dd-ea12-461d-935d-2de2c0157f88
 title: Device Interface GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Interface GUIDs
@@ -12,9 +17,9 @@ The device interface can be described by a **GUID** value. Windows Portable Devi
 
 | Constant                                                                                                                                                                                                        | Description                                                                                                                                                                                                                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="GUID_DEVINTERFACE_WPD"></span><span id="guid_devinterface_wpd"></span><dl> <dt>**GUID\_DEVINTERFACE\_WPD**</dt> </dl>                          | Identifies devices that appear in a normal WPD enumeration. Any device that registers this interface GUID will be enumerated when an application calls the [**IPortableDeviceManager::GetDevices**](iportabledevicemanager-getdevices.md) method.<br/>                                 |
-| <span id="GUID_DEVINTERFACE_WPD_PRIVATE"></span><span id="guid_devinterface_wpd_private"></span><dl> <dt>**GUID\_DEVINTERFACE\_WPD\_PRIVATE**</dt> </dl> | Identifies devices that will not appear during a normal WPD enumeration. Any device that registers this interface GUID will be enumerated only when an application calls the [**IPortableDeviceManager::GetPrivateDevices**](iportabledevicemanager-getprivatedevices.md) method.<br/> |
-| <span id="GUID_DEVINTERFACE_WPD_SERVICE"></span><span id="guid_devinterface_wpd_service"></span><dl> <dt>**GUID\_DEVINTERFACE\_WPD\_SERVICE**</dt> </dl> | In Windows 7, applications can enumerate all WPD device services by calling [**IPortableDeviceServiceManager::GetDeviceServices**](iportabledeviceservicemanager-getdeviceservices.md) and using this interface class as the service-type GUID.<br/>                                   |
+| <span id="GUID_DEVINTERFACE_WPD"></span><span id="guid_devinterface_wpd"></span><dl> <dt>**GUID\_DEVINTERFACE\_WPD**</dt> </dl>                          | Identifies devices that appear in a normal WPD enumeration. Any device that registers this interface GUID will be enumerated when an application calls the [**IPortableDeviceManager::GetDevices**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevices?branch=master) method.<br/>                                 |
+| <span id="GUID_DEVINTERFACE_WPD_PRIVATE"></span><span id="guid_devinterface_wpd_private"></span><dl> <dt>**GUID\_DEVINTERFACE\_WPD\_PRIVATE**</dt> </dl> | Identifies devices that will not appear during a normal WPD enumeration. Any device that registers this interface GUID will be enumerated only when an application calls the [**IPortableDeviceManager::GetPrivateDevices**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getprivatedevices?branch=master) method.<br/> |
+| <span id="GUID_DEVINTERFACE_WPD_SERVICE"></span><span id="guid_devinterface_wpd_service"></span><dl> <dt>**GUID\_DEVINTERFACE\_WPD\_SERVICE**</dt> </dl> | In Windows 7, applications can enumerate all WPD device services by calling [**IPortableDeviceServiceManager::GetDeviceServices**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceservices?branch=master) and using this interface class as the service-type GUID.<br/>                                   |
 
 
 
@@ -35,9 +40,9 @@ The device interface can be described by a **GUID** value. Windows Portable Devi
 [Programming Reference](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

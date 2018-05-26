@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents an asynchronous operation context for validation, merge or commit operations.'
-ms.assetid: 'CEA80412-4B19-493B-A85E-625915D77CA5'
+---
+Description: Represents an asynchronous operation context for validation, merge or commit operations.
+ms.assetid: CEA80412-4B19-493B-A85E-625915D77CA5
 title: IPrintSchemaAsyncOperation interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaAsyncOperation interface

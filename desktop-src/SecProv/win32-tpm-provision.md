@@ -1,7 +1,12 @@
-﻿---
-Description: 'Attempts to provision the TPM to a completely ready state and will take the ownership of TPM if it is not already owned.'
-ms.assetid: 'D0C09A48-00D0-4BF2-8F0A-451A61EA7810'
-title: 'Win32\_Tpm::Provision method'
+---
+Description: Attempts to provision the TPM to a completely ready state and will take the ownership of TPM if it is not already owned.
+ms.assetid: D0C09A48-00D0-4BF2-8F0A-451A61EA7810
+title: Win32\_TpmProvision method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm::Provision method

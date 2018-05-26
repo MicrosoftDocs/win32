@@ -1,8 +1,9 @@
 ---
 title: TIME\_INFO structure
 description: The TIME\_INFO structure describes the current sample time.
-ms.assetid: 'a5cc02dc-a894-4f7f-af16-dce82efd682a'
-keywords: ["TIME_INFO structure Windows Movie Maker and DVD Maker"]
+ms.assetid: a5cc02dc-a894-4f7f-af16-dce82efd682a
+keywords:
+- TIME_INFO structure Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - GPUPipelineTime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TIME\_INFO structure
@@ -61,8 +67,8 @@ The location of the frame relative to the start time of the movie, in 1/10,000-s
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The location of the frame relative to the start time of the movie, in 1/10,000-s
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.normalizationAverage
 description: The normalizationAverage attribute retrieves the average normalization value.
-ms.assetid: '2bfd0e2e-264b-4488-becb-c2c51f1b10bf'
-keywords: ["EQUALIZERSETTINGS.normalizationAverage Windows Media Player"]
+ms.assetid: 2bfd0e2e-264b-4488-becb-c2c51f1b10bf
+keywords:
+- EQUALIZERSETTINGS.normalizationAverage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.normalizationAverage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.normalizationAverage
@@ -46,9 +52,9 @@ This attribute is a read-only **Number** (**float**).
 [**EQUALIZERSETTINGS.normalizationPeak**](equalizersettings-normalizationpeak.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

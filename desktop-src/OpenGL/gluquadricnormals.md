@@ -1,8 +1,9 @@
 ---
 title: gluQuadricNormals function
 description: The gluQuadricNormals function specifies what kind of normals are to be used for quadrics.
-ms.assetid: '945759ec-ed4a-480f-8243-49fc785867c1'
-keywords: ["gluQuadricNormals function OpenGL"]
+ms.assetid: 945759ec-ed4a-480f-8243-49fc785867c1
+keywords:
+- gluQuadricNormals function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluQuadricNormals function
@@ -22,8 +28,8 @@ The **gluQuadricNormals** function specifies what kind of normals are to be used
 
 ```C++
 void WINAPI gluQuadricNormals(
-   GLUquadric *quadObject,
-   GLenum     normals
+   GLUquadric *quadObject,
+   GLenum     normals
 );
 ```
 
@@ -55,7 +61,7 @@ The desired type of normals. The following values are valid.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -73,8 +79,8 @@ The **gluQuadricNormals** function specifies what kind of normals are to be used
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -97,9 +103,9 @@ The **gluQuadricNormals** function specifies what kind of normals are to be used
 [**gluQuadricTexture**](gluquadrictexture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

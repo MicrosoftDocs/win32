@@ -4,11 +4,14 @@ description: A ClusNodeNetInterfaces collection providing access to the network 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '98799b21-6646-430c-8194-debc7985fa9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 98799b21-6646-430c-8194-debc7985fa9d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NetInterfaces property Failover Cluster", "NetInterfaces property Failover Cluster , ClusNode object", "ClusNode object Failover Cluster , NetInterfaces property"]
+keywords:
+- NetInterfaces property Failover Cluster
+- NetInterfaces property Failover Cluster , ClusNode object
+- ClusNode object Failover Cluster , NetInterfaces property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNode.NetInterfaces property
@@ -47,7 +53,7 @@ A [**ClusNodeNetInterfaces**](clusnodenetinterfaces-collection.md) collection.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusNodeNetInterfaces**](clusnodenetinterfaces-collection.md) collection.
 [**ClusNodeNetInterfaces**](clusnodenetinterfaces-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

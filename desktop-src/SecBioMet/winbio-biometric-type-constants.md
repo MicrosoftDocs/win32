@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_BIOMETRIC\_TYPE Constants
 description: Standard biometric types defined by National Institute of Standards and Technology Information (NISTIR) 6529-A, otherwise known as the Common Biometric Exchange Formats Framework (CBEFF) Patron Format A.
-ms.assetid: 'DCBDB5F9-FF81-44C1-B439-2B8C02483212'
+ms.assetid: DCBDB5F9-FF81-44C1-B439-2B8C02483212
 topic_type:
 - apiref
 api_name:
@@ -34,6 +34,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIOMETRIC\_TYPE Constants
@@ -50,7 +55,7 @@ The following constants represent the standard biometric types defined by Nation
 | <span id="WINBIO_TYPE_FACIAL_FEATURES"></span><span id="winbio_type_facial_features"></span><dl> <dt>**WINBIO\_TYPE\_FACIAL\_FEATURES**</dt> </dl>           | Facial features are used to determine the identity of an individual.<br/>                                                          |
 | <span id="WINBIO_TYPE_VOICE"></span><span id="winbio_type_voice"></span><dl> <dt>**WINBIO\_TYPE\_VOICE**</dt> </dl>                                          | Frequency and volume patterns in the voice of an individual are used to determine the identity of an individual.<br/>              |
 | <span id="WINBIO_TYPE_FINGERPRINT"></span><span id="winbio_type_fingerprint"></span><dl> <dt>**WINBIO\_TYPE\_FINGERPRINT**</dt> </dl>                        | Fingerprint patterns are used to determine the identity of an individual.<br/>                                                     |
-| <span id="WINBIO_TYPE_IRIS"></span><span id="winbio_type_iris"></span><dl> <dt>**WINBIO\_TYPE\_IRIS**</dt> </dl>                                             | Iris patterns are used to determine the identity of an individual. This value is supported starting in Windows 10.<br/>            |
+| <span id="WINBIO_TYPE_IRIS"></span><span id="winbio_type_iris"></span><dl> <dt>**WINBIO\_TYPE\_IRIS**</dt> </dl>                                             | Iris patterns are used to determine the identity of an individual. This value is supported starting in Windows 10.<br/>            |
 | <span id="WINBIO_TYPE_RETINA"></span><span id="winbio_type_retina"></span><dl> <dt>**WINBIO\_TYPE\_RETINA**</dt> </dl>                                       | Vein patterns in the retina are used to determine the identity of an individual.<br/>                                              |
 | <span id="WINBIO_TYPE_HAND_GEOMETRY"></span><span id="winbio_type_hand_geometry"></span><dl> <dt>**WINBIO\_TYPE\_HAND\_GEOMETRY**</dt> </dl>                 | The shape of a hand of an individual is used to determine the identity of an individual.<br/>                                      |
 | <span id="WINBIO_TYPE_SIGNATURE_DYNAMICS"></span><span id="winbio_type_signature_dynamics"></span><dl> <dt>**WINBIO\_TYPE\_SIGNATURE\_DYNAMICS**</dt> </dl>  | The patterns of force that the individual uses when they sign their name are used to determine the identity of an individual.<br/> |
@@ -78,8 +83,8 @@ The following constants represent the standard biometric types defined by Nation
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                  |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -91,9 +96,9 @@ The following constants represent the standard biometric types defined by Nation
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

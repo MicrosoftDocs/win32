@@ -1,8 +1,11 @@
 ---
 title: StopService method of the CIM\_Service class
 description: Stops the service.CIM\_Service.
-ms.assetid: '46864738-393d-4d28-a5d3-9d4cfda90ee2'
-keywords: ["StopService method Hyper-V", "StopService method Hyper-V , CIM_Service class", "CIM_Service class Hyper-V , StopService method"]
+ms.assetid: 46864738-393d-4d28-a5d3-9d4cfda90ee2
+keywords:
+- StopService method Hyper-V
+- StopService method Hyper-V , CIM_Service class
+- CIM_Service class Hyper-V , StopService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopService method of the CIM\_Service class
@@ -54,9 +62,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

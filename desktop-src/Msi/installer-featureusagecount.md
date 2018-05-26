@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FeatureUsageCount property is a read-only property that returns the number of times the feature has been used.'
-ms.assetid: '70171e22-d73a-4718-a360-df9d1722761b'
-title: 'Installer.FeatureUsageCount property'
+---
+Description: The FeatureUsageCount property is a read-only property that returns the number of times the feature has been used.
+ms.assetid: 70171e22-d73a-4718-a360-df9d1722761b
+title: Installer.FeatureUsageCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.FeatureUsageCount property
@@ -41,7 +46,7 @@ Use of the [**UseFeature**](installer-usefeature.md), [**ProvideComponent**](ins
 
 <dl> <dt>
 
-[**MsiGetFeatureUsage**](msigetfeatureusage.md)
+[**MsiGetFeatureUsage**](/windows/win32/Msi/nf-msi-msigetfeatureusagea?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: Understanding Router Management Functions
 description: The following sections discuss the different types of router management functions and what you should know to use them effectively.
-ms.assetid: '2f6831f2-39be-43b1-80bd-9a36c0f8a2af'
+ms.assetid: 2f6831f2-39be-43b1-80bd-9a36c0f8a2af
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Router Management Functions
@@ -30,15 +35,15 @@ In order to make changes that are both immediate and persistent, a developer nee
 
 For querying information from the running router, use the router administration functions. If the router is not running, query information using the router configuration functions.
 
-The [**MprAdminInterfaceCreate**](mpradmininterfacecreate.md) and [**MprAdminInterfaceSetInfo**](mpradmininterfacesetinfo.md) functions support the [**MPR\_INTERFACE\_2**](mpr-interface-2.md) structure. However, [**MprConfigInterfaceCreate**](mprconfiginterfacecreate.md) and [**MprConfigInterfaceSetInfo**](mprconfiginterfacesetinfo.md) do not. In order to create a demand-dial interface that is persistent after a reboot, call **MprAdminInterfaceCreate** with **MPR\_INTERFACE\_2**, then call **MprConfigInterfaceCreate** with [**MPR\_INTERFACE\_0**](mpr-interface-0.md) or [**MPR\_INTERFACE\_1**](mpr-interface-1.md). Similarly, to make persistent changes to a demand-dial interface, call **MprAdminInterfaceSetInfo** with **MPR\_INTERFACE\_2**, then call **MprConfigInterfaceSetInfo** with **MPR\_INTERFACE\_0** or **MPR\_INTERFACE\_1**.
+The [**MprAdminInterfaceCreate**](/windows/win32/Mprapi/nf-mprapi-mpradmininterfacecreate?branch=master) and [**MprAdminInterfaceSetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradmininterfacesetinfo?branch=master) functions support the [**MPR\_INTERFACE\_2**](/windows/win32/Mprapi/ns-mprapi-_mpr_interface_2?branch=master) structure. However, [**MprConfigInterfaceCreate**](/windows/win32/Mprapi/nf-mprapi-mprconfiginterfacecreate?branch=master) and [**MprConfigInterfaceSetInfo**](/windows/win32/Mprapi/nf-mprapi-mprconfiginterfacesetinfo?branch=master) do not. In order to create a demand-dial interface that is persistent after a reboot, call **MprAdminInterfaceCreate** with **MPR\_INTERFACE\_2**, then call **MprConfigInterfaceCreate** with [**MPR\_INTERFACE\_0**](/windows/win32/Mprapi/ns-mprapi-_mpr_interface_0?branch=master) or [**MPR\_INTERFACE\_1**](/windows/win32/Mprapi/ns-mprapi-_mpr_interface_1?branch=master). Similarly, to make persistent changes to a demand-dial interface, call **MprAdminInterfaceSetInfo** with **MPR\_INTERFACE\_2**, then call **MprConfigInterfaceSetInfo** with **MPR\_INTERFACE\_0** or **MPR\_INTERFACE\_1**.
 
 ## Using Router Administration and Configuration Functions Remotely
 
 Most of the router administration and configuration functions can be called on a computer other than the one being administered. These functions take as a parameter, a handle to the router service or configuration to administer. The administration functions use RPC (Remote Procedure Call) to communicate with the routing service specified by the handle. The configuration functions write to and read from the registry of the computer specified by the handle.
 
-To administer the routing service on a remote machine first call [**MprAdminIsServiceRunning**](mpradminisservicerunning.md) to verify that the service is running. Then call [**MprAdminServerConnect**](mpradminserverconnect.md) to obtain the handle. If the router service is not running on the remote machine, all router administration (MprAdmin) calls fail.
+To administer the routing service on a remote machine first call [**MprAdminIsServiceRunning**](/windows/win32/Mprapi/nf-mprapi-mpradminisservicerunning?branch=master) to verify that the service is running. Then call [**MprAdminServerConnect**](/windows/win32/Mprapi/nf-mprapi-mpradminserverconnect?branch=master) to obtain the handle. If the router service is not running on the remote machine, all router administration (MprAdmin) calls fail.
 
-To make changes to the router configuration on a remote machine obtain a handle by calling the [**MprConfigServerConnect**](mprconfigserverconnect.md) function.
+To make changes to the router configuration on a remote machine obtain a handle by calling the [**MprConfigServerConnect**](/windows/win32/Mprapi/nf-mprapi-mprconfigserverconnect?branch=master) function.
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the width of the minimum display aperture, in pixels.'
-ms.assetid: '52392fcb-2bd2-486e-9256-83e17bc7f951'
-title: 'MFPKEY\_RESIZE\_MINAPWIDTH Property'
+---
+Description: Specifies the width of the minimum display aperture, in pixels.
+ms.assetid: 52392fcb-2bd2-486e-9256-83e17bc7f951
+title: MFPKEY\_RESIZE\_MINAPWIDTH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_MINAPWIDTH Property

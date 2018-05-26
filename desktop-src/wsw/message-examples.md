@@ -1,7 +1,12 @@
 ---
 title: Message Examples
 description: The following examples show illustrate using messages in the Web Service API
-ms.assetid: 'f349a02d-eff2-45f1-9c7f-7a1220c0eb12'
+ms.assetid: f349a02d-eff2-45f1-9c7f-7a1220c0eb12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Examples

@@ -1,8 +1,29 @@
 ---
 title: TitleBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the TitleBar control type. A title bar control represents a title or caption bar in a window.
-ms.assetid: 'dc707198-ceb6-4fbf-ace4-8fec88c92b98'
-keywords: ["UI Automation,support for TitleBar control type", "UI Automation,TitleBar control type", "UI Automation,tree structure for TitleBar control type", "UI Automation,properties for TitleBar control type", "UI Automation,control patterns for TitleBar control type", "UI Automation,events for TitleBar control type", "tree structures,TitleBar control type", "properties,TitleBar control type", "control patterns,TitleBar control type", "events,TitleBar control type", "support for TitleBar control type", "TitleBar control type", "control types,tree structure for TitleBar control type", "control types,control patterns for TitleBar control type", "control types,support for TitleBar", "control types,TitleBar"]
+ms.assetid: dc707198-ceb6-4fbf-ace4-8fec88c92b98
+keywords:
+- UI Automation,support for TitleBar control type
+- UI Automation,TitleBar control type
+- UI Automation,tree structure for TitleBar control type
+- UI Automation,properties for TitleBar control type
+- UI Automation,control patterns for TitleBar control type
+- UI Automation,events for TitleBar control type
+- tree structures,TitleBar control type
+- properties,TitleBar control type
+- control patterns,TitleBar control type
+- events,TitleBar control type
+- support for TitleBar control type
+- TitleBar control type
+- control types,tree structure for TitleBar control type
+- control types,control patterns for TitleBar control type
+- control types,support for TitleBar
+- control types,TitleBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TitleBar Control Type

@@ -1,8 +1,17 @@
 ---
 title: Using Still Image
 description: Several aspects are involved with using Still Image (STI).
-ms.assetid: 'e793998a-1645-4820-9e8e-4ba304cecb9c'
-keywords: ["Still Image (STI),about", "STI (Still Image),about", "still images,about", "Still Image API,about"]
+ms.assetid: e793998a-1645-4820-9e8e-4ba304cecb9c
+keywords:
+- Still Image (STI),about
+- STI (Still Image),about
+- still images,about
+- Still Image API,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Still Image

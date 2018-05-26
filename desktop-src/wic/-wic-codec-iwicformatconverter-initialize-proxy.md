@@ -1,25 +1,30 @@
 ---
-Description: 'Proxy function for the Initialize method.'
-ms.assetid: '26112d52-95e2-4c67-83fc-cf5e28712730'
-title: 'IWICFormatConverter\_Initialize\_Proxy function'
+Description: Proxy function for the Initialize method.
+ms.assetid: 26112d52-95e2-4c67-83fc-cf5e28712730
+title: IWICFormatConverter\_Initialize\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICFormatConverter\_Initialize\_Proxy function
 
-Proxy function for the [**Initialize**](-wic-codec-iwicformatconverter-initialize.md) method.
+Proxy function for the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicformatconverter-initialize?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICFormatConverter_Initialize_Proxy(
-  _In_ IWICFormatConverter   *THIS_PTR,
-  _In_ IWICBitmapSource      *pISource,
-  _In_ REFWICPixelFormatGUID dstFormat,
-  _In_ WICBitmapDitherType   dither,
-  _In_ IWICPalette           *pIPalette,
-  _In_ double                alphaThresholdPercent,
-  _In_ WICBitmapPaletteType  paletteTranslate
+  _In_ IWICFormatConverter   *THIS_PTR,
+  _In_ IWICBitmapSource      *pISource,
+  _In_ REFWICPixelFormatGUID dstFormat,
+  _In_ WICBitmapDitherType   dither,
+  _In_ IWICPalette           *pIPalette,
+  _In_ double                alphaThresholdPercent,
+  _In_ WICBitmapPaletteType  paletteTranslate
 );
 ```
 
@@ -32,16 +37,16 @@ HRESULT IWICFormatConverter_Initialize_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICFormatConverter**](-wic-codec-iwicformatconverter.md)\***
+Type: **[**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master)\***
 
-Pointer to this [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md) object.
+Pointer to this [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master) object.
 
 </dd> <dt>
 
 *pISource* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)\***
+Type: **[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)\***
 
 The input bitmap to convert
 
@@ -59,16 +64,16 @@ The destination pixel format GUID.
 *dither* \[in\]
 </dt> <dd>
 
-Type: **[**WICBitmapDitherType**](-wic-codec-wicbitmapdithertype.md)**
+Type: **[**WICBitmapDitherType**](/windows/win32/Wincodec/ne-wincodec-wicbitmapdithertype?branch=master)**
 
-The [**WICBitmapDitherType**](-wic-codec-wicbitmapdithertype.md) used for conversion.
+The [**WICBitmapDitherType**](/windows/win32/Wincodec/ne-wincodec-wicbitmapdithertype?branch=master) used for conversion.
 
 </dd> <dt>
 
 *pIPalette* \[in\]
 </dt> <dd>
 
-Type: **[**IWICPalette**](-wic-codec-iwicpalette.md)\***
+Type: **[**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master)\***
 
 The palette to use for conversion.
 
@@ -86,7 +91,7 @@ The alpha threshold to use for conversion.
 *paletteTranslate* \[in\]
 </dt> <dd>
 
-Type: **[**WICBitmapPaletteType**](-wic-codec-wicbitmappalettetype.md)**
+Type: **[**WICBitmapPaletteType**](/windows/win32/Wincodec/ne-wincodec-wicbitmappalettetype?branch=master)**
 
 The palette translation type to use for conversion.
 
@@ -106,15 +111,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

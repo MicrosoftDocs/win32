@@ -1,7 +1,12 @@
 ---
 title: SyncURL Method
 description: Use the SyncURL method to select the contents (.hhc) file entry for a topic that you specify.
-ms.assetid: 'A8E214B3-8F40-4158-A999-76C5F075533A'
+ms.assetid: A8E214B3-8F40-4158-A999-76C5F075533A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SyncURL Method

@@ -1,8 +1,13 @@
 ---
 title: IVMAccountant RelativeWeight property
 description: The RelativeWeight property contains the relative weight assigned to this virtual machine.
-ms.assetid: 'df66fc3d-d3ac-4be7-b36c-1c737d4abd43'
-keywords: ["RelativeWeight property Virtual Server", "RelativeWeight property Virtual Server , IVMAccountant interface", "IVMAccountant interface Virtual Server , RelativeWeight property", "RelativeWeight property Virtual Server , VMAccountant interface", "VMAccountant interface Virtual Server , RelativeWeight property"]
+ms.assetid: df66fc3d-d3ac-4be7-b36c-1c737d4abd43
+keywords:
+- RelativeWeight property Virtual Server
+- RelativeWeight property Virtual Server , IVMAccountant interface
+- IVMAccountant interface Virtual Server , RelativeWeight property
+- RelativeWeight property Virtual Server , VMAccountant interface
+- VMAccountant interface Virtual Server , RelativeWeight property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::RelativeWeight property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_RelativeWeight(
-  [out] long *relativeWeight
+  [out] long *relativeWeight
 );
 ```
 
@@ -96,8 +106,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ Next
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

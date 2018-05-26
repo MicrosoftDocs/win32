@@ -1,13 +1,16 @@
 ---
-Description: 'Registers event consumer providers with WMI.'
+Description: Registers event consumer providers with WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '31ff43dc-dc70-4ba0-866f-37445912f837'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 31ff43dc-dc70-4ba0-866f-37445912f837
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventConsumerProviderRegistration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventConsumerProviderRegistration class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __EventConsumerProviderRegistration : __ProviderRegistration
 {
-  string         ConsumerClassNames[];
+  string         ConsumerClassNames[];
   __Provider REF provider;
 };
 ```
@@ -74,8 +77,8 @@ The **\_\_EventConsumerProviderRegistration** class is derived from [**\_\_Provi
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -96,9 +99,9 @@ The **\_\_EventConsumerProviderRegistration** class is derived from [**\_\_Provi
 [Writing an Event Consumer Provider](writing-an-event-consumer-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

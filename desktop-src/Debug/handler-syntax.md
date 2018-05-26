@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the syntax and usage of structured exception handling as implemented in the Microsoft C/C++ Optimizing Compiler. The following keywords are interpreted by the compiler as part of the structured exception-handling mechanism.'
-ms.assetid: '1ea2c7f7-f920-4c72-bc62-4eb5e8d70790'
+Description: This section describes the syntax and usage of structured exception handling as implemented in the Microsoft C/C++ Optimizing Compiler. The following keywords are interpreted by the compiler as part of the structured exception-handling mechanism.
+ms.assetid: 1ea2c7f7-f920-4c72-bc62-4eb5e8d70790
 title: Handler Syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handler Syntax
@@ -28,7 +33,7 @@ The compiler also interprets the [**GetExceptionCode**](getexceptioncode.md), [*
 | Function                                                   | Description                                                                                                                                                                                                                                             |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetExceptionCode**](getexceptioncode.md)               | Returns a code that identifies the type of exception. This function can be called only from within the filter expression or the exception-handler block.                                                                                                |
-| [**GetExceptionInformation**](getexceptioninformation.md) | Returns a pointer to an [**EXCEPTION\_POINTERS**](exception-pointers-str.md) structure containing pointers to the context record and the exception record. This function can be called only from within the filter expression of an exception handler. |
+| [**GetExceptionInformation**](getexceptioninformation.md) | Returns a pointer to an [**EXCEPTION\_POINTERS**](/windows/win32/WinNT/ns-winnt-_exception_pointers?branch=master) structure containing pointers to the context record and the exception record. This function can be called only from within the filter expression of an exception handler. |
 | [**AbnormalTermination**](abnormaltermination.md)         | Indicates whether the flow of control left the associated **\_\_try** block sequentially after executing the last statement in the block. This function can be called only from within the **\_\_finally** block of a termination handler.              |
 
 

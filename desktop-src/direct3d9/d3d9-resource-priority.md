@@ -1,12 +1,17 @@
-﻿---
-Description: 'Constants used to set the priority of a resource in SetPriority.'
-ms.assetid: '98886349-883f-41c3-870b-e4a639977760'
-title: 'D3D9\_RESOURCE\_PRIORITY'
+---
+Description: Constants used to set the priority of a resource in SetPriority.
+ms.assetid: 98886349-883f-41c3-870b-e4a639977760
+title: D3D9\_RESOURCE\_PRIORITY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D9\_RESOURCE\_PRIORITY
 
-Constants used to set the priority of a resource in [**SetPriority**](idirect3dresource9--setpriority.md).
+Constants used to set the priority of a resource in [**SetPriority**](/windows/win32/d3d9helper/nf-d3d9-idirect3dresource9-setpriority?branch=master).
 
 
 

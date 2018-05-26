@@ -1,14 +1,19 @@
 ---
 title: The Lightweight Client-Side Handler
 description: Lightweight client-side handlers allow you to create general client-side handlers of any size, to help you do any kind of standard task.
-ms.assetid: 'b712237c-55d7-4f52-9cf6-19c6e5fb3182'
+ms.assetid: b712237c-55d7-4f52-9cf6-19c6e5fb3182
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Lightweight Client-Side Handler
 
 Lightweight client-side handlers allow you to create general client-side handlers of any size, to help you do any kind of standard task. As handlers, these are usable by more than one client. They differ from OLE handlers in that they cannot be created before the server is launched, and their lifetime is tied to that of the proxy manager, preventing a possible race condition in which the handler could otherwise be prematurely released.
 
-The proxy manager is the system-created object that implements the [**IMarshal**](imarshal.md) interface. If you use standard marshaling, the system creates it for you when you call [**CoGetStandardMarshal**](cogetstandardmarshal.md) (or [**CoGetStdMarshalEx**](cogetstdmarshalex.md), for creating an aggregated marshaler for lightweight handlers) and also implements the [**IClientSecurity**](iclientsecurity.md) and [**IMultiQI**](imultiqi.md) interfaces on the object. On the server side, there is a corresponding system object that also implements **IMarshal**. These objects handle marshaling for you transparently.
+The proxy manager is the system-created object that implements the [**IMarshal**](/windows/win32/objidlbase/nn-objidl-imarshal?branch=master) interface. If you use standard marshaling, the system creates it for you when you call [**CoGetStandardMarshal**](/windows/win32/combaseapi/nf-combaseapi-cogetstandardmarshal?branch=master) (or [**CoGetStdMarshalEx**](/windows/win32/combaseapi/nf-combaseapi-cogetstdmarshalex?branch=master), for creating an aggregated marshaler for lightweight handlers) and also implements the [**IClientSecurity**](/windows/win32/ObjIdl/nn-objidl-iclientsecurity?branch=master) and [**IMultiQI**](/windows/win32/objidlbase/nn-objidl-imultiqi?branch=master) interfaces on the object. On the server side, there is a corresponding system object that also implements **IMarshal**. These objects handle marshaling for you transparently.
 
 There are two general types of these handlers that you may want to implement:
 
@@ -22,7 +27,7 @@ Some potential uses of the extra data in the stream supplied by the server are a
 -   Per-interface helpers. Per-interface COM components aggregated into the client handler and delegating to the standard proxy. For example, to improve network performance, a COM component for [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) could do client-side caching of data, read-ahead, write-behind, op-locking, and so forth.
 -   Network version of an interface. The network version of the interface is different from the interface exposed by the client and server application code. It is possible, for example, to multiplex exposed interfaces IA and IB over the same network interface INetAB, the way the embedding server handler does. For example, one could convert a data transfer interface into a network interface that uses pipes for efficient data transfer.
 
-Down-level clients may not have the capability of unmarshaling interfaces that have custom handlers, for two reasons: First, they may not understand the CLSID used in the custom marshaled packet when the server handler is aggregated and the object wants a handler. Second, the handler code may not even run on the client side if it requires new functionality from COM to create the aggregated standard marshaler and to do remote [**QueryInterface**](iunknown-queryinterface.md) calls.
+Down-level clients may not have the capability of unmarshaling interfaces that have custom handlers, for two reasons: First, they may not understand the CLSID used in the custom marshaled packet when the server handler is aggregated and the object wants a handler. Second, the handler code may not even run on the client side if it requires new functionality from COM to create the aggregated standard marshaler and to do remote [**QueryInterface**](/windows/win32/Unknwn/nf-unknwn-iunknown-queryinterface(q,)?branch=master) calls.
 
 ## Related topics
 

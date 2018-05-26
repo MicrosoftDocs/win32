@@ -2,7 +2,12 @@
 title: U
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '0f34f488-729b-42d3-9a24-85b3f95607ec'
+ms.assetid: 0f34f488-729b-42d3-9a24-85b3f95607ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # U

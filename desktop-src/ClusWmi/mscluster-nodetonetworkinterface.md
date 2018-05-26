@@ -4,13 +4,15 @@ description: A dynamic association WMI class that represents the network interfa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '971f6514-f7ac-488d-8e83-67530d525185'
-ms.prod: 'windows-server-dev'
+ms.assetid: 971f6514-f7ac-488d-8e83-67530d525185
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_NodeToNetworkInterface class", "MSCluster_NodeToNetworkInterface class, described"]
+keywords:
+- MSCluster_NodeToNetworkInterface class
+- MSCluster_NodeToNetworkInterface class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_NodeToNetworkInterface class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{82459303-B1E9-4ddf-970F-25B17AD2A01B}"), AMENDMENT]
 class MSCluster_NodeToNetworkInterface : CIM_SystemDevice
 {
-  MSCluster_Node             REF GroupComponent;
+  MSCluster_Node             REF GroupComponent;
   MSCluster_NetworkInterface REF PartComponent;
 };
 ```
@@ -95,16 +100,16 @@ The **MSCluster\_NodeToNetworkInterface** class is derived from the **CIM\_Syste
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

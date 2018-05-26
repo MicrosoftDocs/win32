@@ -1,8 +1,11 @@
 ---
 title: GetSupportedSize method of the MSFT\_StoragePool class
 description: Retrieves the supported virtual disk sizes that can be created in the storage pool.
-ms.assetid: 'C993C168-910B-4151-9B24-7A72807939F0'
-keywords: ["GetSupportedSize method Windows Storage Management API", "GetSupportedSize method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , GetSupportedSize method"]
+ms.assetid: C993C168-910B-4151-9B24-7A72807939F0
+keywords:
+- GetSupportedSize method Windows Storage Management API
+- GetSupportedSize method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , GetSupportedSize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSupportedSize method of the MSFT\_StoragePool class
@@ -27,12 +35,12 @@ These sizes can be returned in either or both of the following ways:
 
 ```mof
 UInt32 GetSupportedSize(
-  [in]  String ResiliencySettingName,
-  [out] UInt64 SupportedSizes[],
-  [out] UInt64 VirtualDiskSizeMin,
-  [out] UInt64 VirtualDiskSizeMax,
-  [out] UInt64 VirtualDiskSizeDivisor,
-  [out] String ExtendedStatus
+  [in]  String ResiliencySettingName,
+  [out] UInt64 SupportedSizes[],
+  [out] UInt64 VirtualDiskSizeMin,
+  [out] UInt64 VirtualDiskSizeMax,
+  [out] UInt64 VirtualDiskSizeDivisor,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -135,8 +143,8 @@ The values that this method returns should reflect the current state of the stor
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -149,9 +157,9 @@ The values that this method returns should reflect the current state of the stor
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of the Managed Library and notes on using the Tablet PC platform Managed Library.'
-ms.assetid: 'd283ea1c-faf3-4222-a9a7-c67087636b86'
+Description: Overview of the Managed Library and notes on using the Tablet PC platform Managed Library.
+ms.assetid: d283ea1c-faf3-4222-a9a7-c67087636b86
 title: Using the Managed Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Managed Library

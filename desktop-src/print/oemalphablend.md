@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMAlphaBlend function
-ms.assetid: 'c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e'
+ms.assetid: c5c7cabe-7ac9-42f7-92e3-2c1c319ce80e
 title: OEMAlphaBlend function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMAlphaBlend function

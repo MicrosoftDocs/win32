@@ -4,11 +4,15 @@ description: This feature is introduced in Microsoft Management Console (MMC) 1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87387cf5-ff5f-4816-8c96-97a7ae25df94'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 87387cf5-ff5f-4816-8c96-97a7ae25df94
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["adding HTML Help support MMC"]
+keywords:
+- adding HTML Help support MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding HTML Help Support
@@ -43,7 +47,7 @@ Snap-in authors should make sure that their snap-in's primary object can functio
 
 If the snap-in (either primary or extension) returns an [**ISnapinHelp2**](isnapinhelp2.md) interface pointer, MMC knows that the snap-in provides the location of its HTML Help file. That is, it implements the [**ISnapinHelp2::GetHelpTopic**](isnapinhelp2-gethelptopic.md) method.
 
-If the query fails for any reason, MMC places a "Help on &lt;your snap-in name&gt;" item on the **Help** menu. If the user clicks this menu item, MMC sends the [**MMCN\_SNAPINHELP**](mmcn-snapinhelp.md) notification to the snap-in's [**IComponent**](icomponent.md) implementation. The snap-in should respond by that displays whatever Help information it has.
+If the query fails for any reason, MMC places a "Help on &lt;your snap-in name&gt;" item on the **Help** menu. If the user clicks this menu item, MMC sends the [**MMCN\_SNAPINHELP**](mmcn-snapinhelp.md) notification to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation. The snap-in should respond by that displays whatever Help information it has.
 
 MMC's support for the [**MMCN\_SNAPINHELP**](mmcn-snapinhelp.md) notification predates its support for the [**ISnapinHelp**](isnapinhelp2.md) interface. Before **ISnapinHelp**, each snap-in had to provide its own Help system and the **MMCN\_SNAPINHELP** notification told it when to display the Help. Snap-ins are now strongly encouraged to support the **ISnapinHelp** (or **ISnapinHelp2**) interface for that displays Help topics (in HTML Help format).
 

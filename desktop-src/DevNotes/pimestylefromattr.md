@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves styles for a given attribute.'
-ms.assetid: '206c69b9-981b-49ef-9f71-1c65e08637bb'
+---
+Description: Retrieves styles for a given attribute.
+ms.assetid: 206c69b9-981b-49ef-9f71-1c65e08637bb
 title: PIMEStyleFromAttr function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PIMEStyleFromAttr function

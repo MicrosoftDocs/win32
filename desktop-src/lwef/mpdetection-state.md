@@ -1,8 +1,10 @@
 ---
 title: MPDETECTION\_STATE enumeration
 description: The state of the currently detected threat.
-ms.assetid: '293771FF-A210-41D0-88A5-3B52ACAA9295'
-keywords: ["MPDETECTION_STATE enumeration Legacy Windows Environment Features", "PMPDETECTION_STATE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 293771FF-A210-41D0-88A5-3B52ACAA9295
+keywords:
+- MPDETECTION_STATE enumeration Legacy Windows Environment Features
+- PMPDETECTION_STATE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPDETECTION\_STATE enumeration
@@ -22,13 +29,13 @@ The state of the currently detected threat.
 
 ```C++
 typedef enum tagMPDETECTION_STATE { 
-  MPDETECTION_STATE_UNKNOWN             = 0,
-  MPDETECTION_STATE_ACTIVE              = 1,
-  MPDETECTION_STATE_FINISHED            = 2,
-  MPDETECTION_STATE_ADDITIONAL_ACTIONS  = 3,
-  MPDETECTION_STATE_FAILED              = 4,
-  MPDETECTION_STATE_CRITICALLY_FAILED   = 5,
-  MPDETECTION_STATE_CLEARED             = 6
+  MPDETECTION_STATE_UNKNOWN             = 0,
+  MPDETECTION_STATE_ACTIVE              = 1,
+  MPDETECTION_STATE_FINISHED            = 2,
+  MPDETECTION_STATE_ADDITIONAL_ACTIONS  = 3,
+  MPDETECTION_STATE_FAILED              = 4,
+  MPDETECTION_STATE_CRITICALLY_FAILED   = 5,
+  MPDETECTION_STATE_CLEARED             = 6
 } MPDETECTION_STATE, *PMPDETECTION_STATE;
 ```
 
@@ -93,15 +100,15 @@ Threat does not show up in the state query, only in history.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

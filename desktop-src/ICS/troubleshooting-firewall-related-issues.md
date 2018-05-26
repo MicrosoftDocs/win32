@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Firewall-Related Issues
 description: Pfirewall.log contains a log of all the dropped and allowed firewall connections.
-ms.assetid: 'd7373e5c-bcbd-423a-9e9f-cdbf481b9a78'
+ms.assetid: d7373e5c-bcbd-423a-9e9f-cdbf481b9a78
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Firewall-Related Issues

@@ -1,7 +1,12 @@
 ---
 Description: Working with USB DV Video Devices
-ms.assetid: '6244f006-db9f-42b2-81cd-26eba583613e'
+ms.assetid: 6244f006-db9f-42b2-81cd-26eba583613e
 title: Working with USB DV Video Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with USB DV Video Devices
@@ -20,7 +25,7 @@ The UVC driver behaves differently from the MSDV driver in the following areas:
 -   [Tape Location Search](tape-location-search.md)
 -   [Transmit DV from File to Tape](transmit-dv-from-file-to-tape.md).
 
-To determine which driver is being used, call [**IAMExtDevice::get\_DevicePort**](iamextdevice-get-deviceport.md). The MSDV driver returns the DEV\_PORT\_1394 flag, and the UVC driver returns the DEV\_PORT\_USB flag.
+To determine which driver is being used, call [**IAMExtDevice::get\_DevicePort**](/windows/win32/Strmif/nf-strmif-iamextdevice-get_deviceport?branch=master). The MSDV driver returns the DEV\_PORT\_1394 flag, and the UVC driver returns the DEV\_PORT\_USB flag.
 
 **Device Nodes**
 
@@ -34,7 +39,7 @@ In a UVC device, the functions of the device are logically divided into componen
 
 Also, not every terminal corresponds to a USB endpoint. The term endpoint refers specifically to USB connections, and a device may send or receive data through non-USB connections. For example, a video camera is an input terminal and an LCD screen is an output terminal.
 
-In the KS Proxy filter, units and terminals are represented as nodes inside the filter. The term node is more general than the terms unit and terminal because non-USB devices can also have nodes. To get information about the nodes in a filter, query the filter for the [**IKsTopologyInfo**](ikstopologyinfo.md) interface. Node types are identified by GUIDs. Selector nodes are nodes that can switch between two or more inputs. Selector nodes expose the [**ISelector**](iselector.md) interface.
+In the KS Proxy filter, units and terminals are represented as nodes inside the filter. The term node is more general than the terms unit and terminal because non-USB devices can also have nodes. To get information about the nodes in a filter, query the filter for the [**IKsTopologyInfo**](/windows/win32/Vidcap/nn-vidcap-ikstopologyinfo?branch=master) interface. Node types are identified by GUIDs. Selector nodes are nodes that can switch between two or more inputs. Selector nodes expose the [**ISelector**](/windows/win32/Vidcap/nn-vidcap-iselector?branch=master) interface.
 
 The following code tests whether an output pin on a filter receives input from a node of a given type.
 

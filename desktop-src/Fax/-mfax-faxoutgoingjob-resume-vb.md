@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Resume method resumes the paused outbound fax job.'
-ms.assetid: 'be4a7cb5-7e25-4356-92e2-829bcb84660f'
-title: 'FaxOutgoingJob.Resume method'
+---
+Description: The Resume method resumes the paused outbound fax job.
+ms.assetid: be4a7cb5-7e25-4356-92e2-829bcb84660f
+title: FaxOutgoingJob.Resume method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Resume method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farMANAGE\_JOBS** access right. With the **farSUBMIT\_LOW** access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_JOBS** access right, users will be able to use this method for all faxes on the server.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farMANAGE\_JOBS** access right. With the **farSUBMIT\_LOW** access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_JOBS** access right, users will be able to use this method for all faxes on the server.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

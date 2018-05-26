@@ -1,7 +1,12 @@
 ---
-Description: 'The AddAfter method inserts an item after the specified position.'
-ms.assetid: '3e1f27c5-3e04-424a-8fe3-9bfde4e3824b'
-title: 'CGenericList.AddAfter method'
+Description: The AddAfter method inserts an item after the specified position.
+ms.assetid: 3e1f27c5-3e04-424a-8fe3-9bfde4e3824b
+title: CGenericList.AddAfter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.AddAfter method
@@ -13,8 +18,8 @@ The `AddAfter` method inserts an item after the specified position.
 
 ```C++
 POSITION AddAfter(
-   POSITION p,
-   OBJECT   *pObj
+   POSITION p,
+   OBJECT   *pObj
 );
 ```
 
@@ -60,9 +65,9 @@ Returns the position indicator of the inserted item.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

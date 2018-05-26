@@ -1,7 +1,12 @@
 ---
-Description: 'The Apply method applies the current property page values to the object associated with the property page. This method implements the IPropertyPage::Apply method.'
-ms.assetid: '9fe759d1-2b46-4489-b7b8-b5a35330091d'
-title: 'CBasePropertyPage.Apply method'
+Description: The Apply method applies the current property page values to the object associated with the property page. This method implements the IPropertyPageApply method.
+ms.assetid: 9fe759d1-2b46-4489-b7b8-b5a35330091d
+title: CBasePropertyPage.Apply method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.Apply method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ If the [**CBasePropertyPage::m\_bDirty**](cbasepropertypage-m-bdirty.md) flag is
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

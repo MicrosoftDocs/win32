@@ -1,14 +1,21 @@
 ---
 title: ITransformProperties interface
 description: The ITransformProperties interface is the collection of child properties (XML elements) of the current property (XML element).
-ms.assetid: '38e8d538-3e10-43ba-8718-49323128f599'
-keywords: ["ITransformProperties interface Windows Movie Maker and DVD Maker", "ITransformProperties interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 38e8d538-3e10-43ba-8718-49323128f599
+keywords:
+- ITransformProperties interface Windows Movie Maker and DVD Maker
+- ITransformProperties interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - ITransformProperties
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperties interface
@@ -38,7 +45,7 @@ The **ITransformProperties** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -47,9 +54,9 @@ The **ITransformProperties** interface has these methods.
 [**Property Management Interfaces**](property-management-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

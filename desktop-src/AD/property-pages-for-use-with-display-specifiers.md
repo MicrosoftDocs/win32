@@ -4,11 +4,15 @@ description: Active Directory Domain Services provide a mechanism for adding pag
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c1dd84e2-50f9-4903-a4b5-4473515e4d0e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c1dd84e2-50f9-4903-a4b5-4473515e4d0e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["display specifiers AD ,property pages for use with"]
+keywords:
+- display specifiers AD ,property pages for use with
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Pages for Use with Display Specifiers

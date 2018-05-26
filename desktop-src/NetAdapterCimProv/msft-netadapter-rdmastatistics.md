@@ -1,7 +1,12 @@
 ---
-Description: 'RDMA statistics supported by a network adapter.'
-ms.assetid: '776258f7-89c0-44d6-aee1-037b2cc3e81a'
-title: 'MSFT\_NetAdapter\_RdmaStatistics class'
+Description: RDMA statistics supported by a network adapter.
+ms.assetid: 776258f7-89c0-44d6-aee1-037b2cc3e81a
+title: MSFT\_NetAdapter\_RdmaStatistics class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_RdmaStatistics class
@@ -456,17 +461,17 @@ Number of send requests
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

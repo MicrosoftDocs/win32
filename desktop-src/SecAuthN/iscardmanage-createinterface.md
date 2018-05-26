@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates the specified interface.'
-ms.assetid: 'f4cfc407-b006-46a2-9751-834b532309ec'
-title: 'ISCardManage::CreateInterface method'
+---
+Description: Creates the specified interface.
+ms.assetid: f4cfc407-b006-46a2-9751-834b532309ec
+title: ISCardManageCreateInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardManage::CreateInterface method

@@ -1,8 +1,41 @@
 ---
 title: Using the Stroke Element
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: 'e3d9dbe5-e087-4b6f-8318-c7d4485cd502'
-keywords: ["Web workshop,stroke element", "designing Web pages,stroke element", "Vector Markup Language (VML),stroke element", "VML (Vector Markup Language),stroke element", "vector graphics,stroke element", "stroke element", "VML elements,stroke", "VML shapes,stroke element", "Vector Markup Language (VML),dashstyle property attribute", "VML (Vector Markup Language),dashstyle property attribute", "vector graphics,dashstyle property attribute", "dashstyle property attribute", "Vector Markup Language (VML),opacity property attribute", "VML (Vector Markup Language),opacity property attribute", "vector graphics,opacity property attribute", "opacity property attribute", "Vector Markup Language (VML),linestyle property attribute", "VML (Vector Markup Language),linestyle property attribute", "vector graphics,linestyle property attribute", "linestyle property attribute", "Vector Markup Language (VML),joinstyle property attribute", "VML (Vector Markup Language),joinstyle property attribute", "vector graphics,joinstyle property attribute", "joinstyle property attribute", "Vector Markup Language (VML),filltype property attribute", "VML (Vector Markup Language),filltype property attribute", "vector graphics,filltype property attribute", "filltype property attribute"]
+ms.assetid: e3d9dbe5-e087-4b6f-8318-c7d4485cd502
+keywords:
+- Web workshop,stroke element
+- designing Web pages,stroke element
+- Vector Markup Language (VML),stroke element
+- VML (Vector Markup Language),stroke element
+- vector graphics,stroke element
+- stroke element
+- VML elements,stroke
+- VML shapes,stroke element
+- Vector Markup Language (VML),dashstyle property attribute
+- VML (Vector Markup Language),dashstyle property attribute
+- vector graphics,dashstyle property attribute
+- dashstyle property attribute
+- Vector Markup Language (VML),opacity property attribute
+- VML (Vector Markup Language),opacity property attribute
+- vector graphics,opacity property attribute
+- opacity property attribute
+- Vector Markup Language (VML),linestyle property attribute
+- VML (Vector Markup Language),linestyle property attribute
+- vector graphics,linestyle property attribute
+- linestyle property attribute
+- Vector Markup Language (VML),joinstyle property attribute
+- VML (Vector Markup Language),joinstyle property attribute
+- vector graphics,joinstyle property attribute
+- joinstyle property attribute
+- Vector Markup Language (VML),filltype property attribute
+- VML (Vector Markup Language),filltype property attribute
+- vector graphics,filltype property attribute
+- filltype property attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Stroke Element

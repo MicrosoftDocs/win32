@@ -4,11 +4,16 @@ description: Represents the FSRM settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e0b9918e-d87a-4135-aea6-dbab1cdebcd9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: e0b9918e-d87a-4135-aea6-dbab1cdebcd9
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMSettings class File Server Resource Manager", "MSFT_FSRMSettings class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMSettings class File Server Resource Manager
+- MSFT_FSRMSettings class File Server Resource Manager , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMSettings class
@@ -23,46 +28,46 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMSettings
 {
-  string  Server;
-  string  FromEmailAddress;
-  string  AdminEmailAddress;
-  sint32  EmailNotificationLimit;
-  sint32  EventNotificationLimit;
-  sint32  CommandNotificationLimit;
-  sint32  ReportNotificationLimit;
-  sint32  ReportLimitMaxFile;
-  sint32  ReportLimitMaxFileGroup;
-  sint32  ReportLimitMaxOwner;
-  sint32  ReportLimitMaxFilesPerFileGroup;
-  sint32  ReportLimitMaxFilesPerOwner;
-  sint32  ReportLimitMaxFilesPerDuplicateGroup;
-  sint32  ReportLimitMaxDuplicateGroup;
-  sint32  ReportLimitMaxQuota;
-  sint32  ReportLimitMaxFileScreenEvent;
-  sint32  ReportLimitMaxPropertyValue;
-  sint32  ReportLimitMaxFilesPerPropertyValue;
-  string  ReportLocationIncident;
-  string  ReportLocationScheduled;
-  string  ReportLocationOnDemand;
-  sint32  ReportFileScreenAuditDaysSince;
-  string  ReportFileScreenAuditUser[] = {};
-  string  ReportFileGroupIncluded[] = {};
-  string  ReportFileOwnerUser[] = {};
-  string  ReportFileOwnerFilePattern = "";
-  string  ReportPropertyName = "";
-  string  ReportPropertyFilePattern = "";
-  uint64  ReportLargeFileMinimum = 0;
-  string  ReportLargeFilePattern = "";
-  sint32  ReportLeastAccessedMinimum = 0;
-  string  ReportLeastAccessedFilePattern = "";
-  sint32  ReportMostAccessedMaximum = 0;
-  string  ReportMostAccessedFilePattern = "";
-  sint32  ReportQuotaMinimumUsage = 0;
+  string  Server;
+  string  FromEmailAddress;
+  string  AdminEmailAddress;
+  sint32  EmailNotificationLimit;
+  sint32  EventNotificationLimit;
+  sint32  CommandNotificationLimit;
+  sint32  ReportNotificationLimit;
+  sint32  ReportLimitMaxFile;
+  sint32  ReportLimitMaxFileGroup;
+  sint32  ReportLimitMaxOwner;
+  sint32  ReportLimitMaxFilesPerFileGroup;
+  sint32  ReportLimitMaxFilesPerOwner;
+  sint32  ReportLimitMaxFilesPerDuplicateGroup;
+  sint32  ReportLimitMaxDuplicateGroup;
+  sint32  ReportLimitMaxQuota;
+  sint32  ReportLimitMaxFileScreenEvent;
+  sint32  ReportLimitMaxPropertyValue;
+  sint32  ReportLimitMaxFilesPerPropertyValue;
+  string  ReportLocationIncident;
+  string  ReportLocationScheduled;
+  string  ReportLocationOnDemand;
+  sint32  ReportFileScreenAuditDaysSince;
+  string  ReportFileScreenAuditUser[] = {};
+  string  ReportFileGroupIncluded[] = {};
+  string  ReportFileOwnerUser[] = {};
+  string  ReportFileOwnerFilePattern = "";
+  string  ReportPropertyName = "";
+  string  ReportPropertyFilePattern = "";
+  uint64  ReportLargeFileMinimum = 0;
+  string  ReportLargeFilePattern = "";
+  sint32  ReportLeastAccessedMinimum = 0;
+  string  ReportLeastAccessedFilePattern = "";
+  sint32  ReportMostAccessedMaximum = 0;
+  string  ReportMostAccessedFilePattern = "";
+  sint32  ReportQuotaMinimumUsage = 0;
   boolean ReportFileScreenAuditEnable = False;
-  uint32  ReportClassificationFormat[] = {Dhtml, Xml};
-  string  ReportClassificationMailTo = "";
-  uint32  ReportClassificationLog[];
-  string  SmtpServer;
+  uint32  ReportClassificationFormat[] = {Dhtml, Xml};
+  string  ReportClassificationMailTo = "";
+  uint32  ReportClassificationLog[];
+  string  SmtpServer;
 };
 ```
 
@@ -81,13 +86,13 @@ The **MSFT\_FSRMSettings** class has these methods.
 
 | Method                                                                      | Description                                                                                                               |
 |:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
-| [**GetActionRunLimitInterval**](ifsrmsetting-getactionrunlimitinterval.md) | Gets the time that an action that uses the global run limit interval must wait before the action is run again.<br/> |
+| [**GetActionRunLimitInterval**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmsetting-getactionrunlimitinterval?branch=master) | Gets the time that an action that uses the global run limit interval must wait before the action is run again.<br/> |
 | [**SendTestEmail**](msft-fsrmsettings-sendtestemail.md)                    | Send a test email to the specified email address.<br/>                                                              |
-| [**SetActionRunLimitInterval**](ifsrmsetting-setactionrunlimitinterval.md) | Sets the time that an action that uses the global run limit interval must wait before the action is run again.<br/> |
+| [**SetActionRunLimitInterval**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmsetting-setactionrunlimitinterval?branch=master) | Sets the time that an action that uses the global run limit interval must wait before the action is run again.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -728,7 +733,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -742,9 +747,9 @@ TBD
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

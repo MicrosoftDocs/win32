@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of faces in the mesh, including any new faces added as a result of adaptive spatial sampling.'
-ms.assetid: 'a389f996-0e37-4742-9bc3-48dcd60aeba4'
-title: 'ID3DXPRTEngine::GetNumFaces method'
+---
+Description: Retrieves the number of faces in the mesh, including any new faces added as a result of adaptive spatial sampling.
+ms.assetid: a389f996-0e37-4742-9bc3-48dcd60aeba4
+title: ID3DXPRTEngineGetNumFaces method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::GetNumFaces method

@@ -1,7 +1,12 @@
 ---
 title: dsy - ps
-description: Compute the rate of change in the render target's y-direction.
-ms.assetid: 'b35862d7-fc43-4cf8-bfe3-3eccbda2a133'
+description: Compute the rate of change in the render targets y-direction.
+ms.assetid: b35862d7-fc43-4cf8-bfe3-3eccbda2a133
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dsy - ps

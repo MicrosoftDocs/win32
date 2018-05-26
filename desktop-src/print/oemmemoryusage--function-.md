@@ -1,7 +1,12 @@
-﻿---
-Description: 'This function is obsolete for Windows XP and later.wcs'
-ms.assetid: 'ae78fc9a-06a2-466f-875c-9c35aec13336'
+---
+Description: This function is obsolete for Windows XP and later.wcs
+ms.assetid: ae78fc9a-06a2-466f-875c-9c35aec13336
 title: OEMMemoryUsage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMMemoryUsage function

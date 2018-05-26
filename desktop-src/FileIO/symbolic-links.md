@@ -1,7 +1,12 @@
 ---
-Description: 'A symbolic link is a file-system object that points to another file system object. The object being pointed to is called the target.'
-ms.assetid: '3821478d-87bb-4e47-8263-d977cf665503'
+Description: A symbolic link is a file-system object that points to another file system object. The object being pointed to is called the target.
+ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: Symbolic Links
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbolic Links
@@ -22,19 +27,19 @@ For more information, see the following topics.
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Symbolic Link Effects on File Systems Functions](symbolic-link-effects-on-file-systems-functions.md)<br/> | How symbolic links affect standard file functions that use path names to specify one or more files.<br/>                                        |
 | [Programming Considerations](symbolic-link-programming-considerations.md)<br/>                             | Programming considerations for working with symbolic links.<br/>                                                                                |
-| [Creating Symbolic Links](creating-symbolic-links.md)<br/>                                                 | Create symbolic links that use either an absolute or relative path by using the [**CreateSymbolicLink**](createsymboliclink.md) function.<br/> |
+| [Creating Symbolic Links](creating-symbolic-links.md)<br/>                                                 | Create symbolic links that use either an absolute or relative path by using the [**CreateSymbolicLink**](/windows/win32/WinBase/nf-winbase-createsymboliclinka?branch=master) function.<br/> |
 
 
 
- 
+ 
 
 ## Supported Operating Systems
 
-Symbolic links are available in NTFS starting with Windows Vista.
+Symbolic links are available in NTFS starting with Windows Vista.
 
- 
+ 
 
- 
+ 
 
 
 

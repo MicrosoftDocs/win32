@@ -1,8 +1,10 @@
 ---
 title: WMDRM\_ENCRYPT\_SCATTER\_INFO structure
 description: The WMDRM\_ENCRYPT\_SCATTER\_INFO structure contains information needed to configure the IWMDRMEncryptScatter interface for use.
-ms.assetid: '25e19511-56ac-441b-b521-5097dd792ead'
-keywords: ["WMDRM_ENCRYPT_SCATTER_INFO structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 25e19511-56ac-441b-b521-5097dd792ead
+keywords:
+- WMDRM_ENCRYPT_SCATTER_INFO structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRM\_ENCRYPT\_SCATTER\_INFO structure
@@ -25,7 +32,7 @@ typedef struct WMDRM_ENCRYPT_SCATTER_INFO {
   DWORD dwStreamID;
   DWORD dwSampleProtectionVersion;
   DWORD cbProtectionInfo;
-  BYTE  *pbProtectionInfo;
+  BYTE  *pbProtectionInfo;
 } ;
 ```
 
@@ -84,9 +91,9 @@ This structure is used by the [**IWMDRMEncryptScatter::InitEncryptScatter**](iwm
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

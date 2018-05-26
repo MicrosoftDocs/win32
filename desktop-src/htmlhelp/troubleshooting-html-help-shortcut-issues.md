@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting HTML Help Shortcut Issues
 description: This topic outlines the most common issues associated with the Shortcut and WinHelp commands, and provides workarounds where possible.
-ms.assetid: 'CD928A85-F274-4bca-94D4-83EEBD6C4D61'
+ms.assetid: CD928A85-F274-4bca-94D4-83EEBD6C4D61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting HTML Help Shortcut Issues

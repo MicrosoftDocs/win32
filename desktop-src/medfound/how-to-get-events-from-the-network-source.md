@@ -1,35 +1,40 @@
 ---
 Description: How to Get Events from the Network Source
-ms.assetid: '46869f52-323c-41ec-95f7-e7e5d177b782'
+ms.assetid: 46869f52-323c-41ec-95f7-e7e5d177b782
 title: How to Get Events from the Network Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Get Events from the Network Source
 
-The source resolver enables an application to create a network source and open a connection to a specific URL. The network source raises events to mark the beginning and the end of the asynchronous operation of opening a connection. An application can register for these events by using the [**IMFSourceOpenMonitor**](imfsourceopenmonitor.md) interface.
+The source resolver enables an application to create a network source and open a connection to a specific URL. The network source raises events to mark the beginning and the end of the asynchronous operation of opening a connection. An application can register for these events by using the [**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master) interface.
 
-This interface exposes the [**IMFSourceOpenMonitor::OnSourceEvent**](imfsourceopenmonitor-onsourceevent.md) method that the network source calls directly when it opens the URL asynchronously. The network source notifies the application when it starts opening the URL by raising the [MEConnectStart](meconnectstart.md) event. The network source then raises the [MEConnectEnd](meconnectend.md) event when it completes the open operation.
+This interface exposes the [**IMFSourceOpenMonitor::OnSourceEvent**](/windows/win32/mfidl/nf-mfidl-imfsourceopenmonitor-onsourceevent?branch=master) method that the network source calls directly when it opens the URL asynchronously. The network source notifies the application when it starts opening the URL by raising the [MEConnectStart](meconnectstart.md) event. The network source then raises the [MEConnectEnd](meconnectend.md) event when it completes the open operation.
 
 > [!Note]  
-> To send these events to the application, the network source does not use the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface because these events are raised before the network source is created. The application can get all other network source events by using the Media Session's **IMFMediaEventGenerator** interface.
+> To send these events to the application, the network source does not use the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface because these events are raised before the network source is created. The application can get all other network source events by using the Media Session's **IMFMediaEventGenerator** interface.
 
  
 
 ## To get events from the network source
 
-1.  Implement the [**IMFSourceOpenMonitor**](imfsourceopenmonitor.md) interface. In your implementation of [**IMFSourceOpenMonitor::OnSourceEvent**](imfsourceopenmonitor-onsourceevent.md) method, do the following:
-    1.  Get the event status by calling [**IMFMediaEvent::GetStatus**](imfmediaevent-getstatus.md). This method indicates whether the operation that triggered the event, such as a source resolver method call, succeeded. If the operation is not successful, the status is a failure code.
-    2.  Process the event based on the event type: [MEConnectStart](meconnectstart.md) or [MEConnectEnd](meconnectend.md), which the application can get by calling [**IMFMediaEvent::GetType**](imfmediaevent-gettype.md).
-2.  Configure a key-value pair in a property store object to store a pointer to the [**IMFSourceOpenMonitor**](imfsourceopenmonitor.md) implementation described in step 1.
+1.  Implement the [**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master) interface. In your implementation of [**IMFSourceOpenMonitor::OnSourceEvent**](/windows/win32/mfidl/nf-mfidl-imfsourceopenmonitor-onsourceevent?branch=master) method, do the following:
+    1.  Get the event status by calling [**IMFMediaEvent::GetStatus**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getstatus?branch=master). This method indicates whether the operation that triggered the event, such as a source resolver method call, succeeded. If the operation is not successful, the status is a failure code.
+    2.  Process the event based on the event type: [MEConnectStart](meconnectstart.md) or [MEConnectEnd](meconnectend.md), which the application can get by calling [**IMFMediaEvent::GetType**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-gettype?branch=master).
+2.  Configure a key-value pair in a property store object to store a pointer to the [**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master) implementation described in step 1.
     1.  Create a property store object by calling the **PSCreateMemoryPropertyStore** function.
     2.  Set the [**MFPKEY\_SourceOpenMonitor**](mfpkey-sourceopenmonitor-property.md) property in a **PROPERTYKEY** structure.
-    3.  Provide the VT\_UNKNOWN type data value in a **PROPVARIANT** structure by setting the **IUnknown** pointer to the application's implementation of the [**IMFSourceOpenMonitor**](imfsourceopenmonitor.md) interface.
+    3.  Provide the VT\_UNKNOWN type data value in a **PROPVARIANT** structure by setting the **IUnknown** pointer to the application's implementation of the [**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master) interface.
     4.  Set the key-value pair in the property store by calling **IPropertyStore::SetValue**.
-3.  Pass the property store pointer to the source resolver methods that the application is using to create the network source, such as [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md) and others.
+3.  Pass the property store pointer to the source resolver methods that the application is using to create the network source, such as [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master) and others.
 
 ## Example
 
-The following example shows how to implement the [**IMFSourceOpenMonitor**](imfsourceopenmonitor.md) interface to get events from the network source.
+The following example shows how to implement the [**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master) interface to get events from the network source.
 
 
 ```C++

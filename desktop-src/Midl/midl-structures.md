@@ -2,7 +2,13 @@
 title: MIDL Structures
 description: MIDL structures.
 ms.assetid: 39092d6d-21e2-4967-8ec5-9420caeb80e3
-keywords: ["data types MIDL , structures"]
+keywords:
+- data types MIDL , structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Structures

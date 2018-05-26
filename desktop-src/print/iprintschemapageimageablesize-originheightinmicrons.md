@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the vertical origin of the imageable area relative to the application media size.'
-ms.assetid: '9D266AC2-4CA1-4E23-B058-F2841420D0AC'
-title: 'IPrintSchemaPageImageableSize::OriginHeightInMicrons property'
+---
+Description: Gets the vertical origin of the imageable area relative to the application media size.
+ms.assetid: 9D266AC2-4CA1-4E23-B058-F2841420D0AC
+title: IPrintSchemaPageImageableSizeOriginHeightInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageImageableSize::OriginHeightInMicrons property

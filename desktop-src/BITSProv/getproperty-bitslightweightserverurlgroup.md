@@ -1,8 +1,11 @@
 ---
 title: GetProperty method of the BitsCompactServerUrlGroup class
 description: The GetProperty method gets either the bandwidth or connection limit that is associated with the URL group.
-ms.assetid: 'f4377366-aef0-4a52-a334-7b3211d30bc2'
-keywords: ["GetProperty method", "GetProperty method, BitsCompactServerUrlGroup class", "BitsCompactServerUrlGroup class, GetProperty method"]
+ms.assetid: f4377366-aef0-4a52-a334-7b3211d30bc2
+keywords:
+- GetProperty method
+- GetProperty method, BitsCompactServerUrlGroup class
+- BitsCompactServerUrlGroup class, GetProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetProperty method of the BitsCompactServerUrlGroup class
@@ -22,8 +30,8 @@ The **GetProperty** method gets either the bandwidth or connection limit that is
 
 ```mof
 uint32 GetProperty(
-  [in]  string Property,
-  [out] uint32 Value
+  [in]  string Property,
+  [out] uint32 Value
 );
 ```
 
@@ -60,8 +68,8 @@ Specifies the value for the property. The VARIANT type should be V\_UI4.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -74,9 +82,9 @@ Specifies the value for the property. The VARIANT type should be V\_UI4.
 [**BitsCompactServerUrlGroup**](bitslightweightserverurlgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

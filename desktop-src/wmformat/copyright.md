@@ -1,14 +1,20 @@
 ---
 title: Copyright
 description: The Copyright attribute contains a copyright message for the content.
-ms.assetid: '4c5bdb9d-9dcd-42a5-bf03-b83bfd73135e'
-keywords: ["Copyright windows Media Format"]
+ms.assetid: 4c5bdb9d-9dcd-42a5-bf03-b83bfd73135e
+keywords:
+- Copyright windows Media Format
 topic_type:
 - apiref
 api_name:
 - Copyright
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copyright

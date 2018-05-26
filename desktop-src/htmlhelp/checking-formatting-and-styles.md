@@ -1,7 +1,12 @@
 ---
 title: Checking Formatting and Styles
 description: You should also test all styles, cascading style sheets, tables, and any other formatting used in your help system.
-ms.assetid: '5AD6DF9F-E37E-40df-A2A3-19D0739414DB'
+ms.assetid: 5AD6DF9F-E37E-40df-A2A3-19D0739414DB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking Formatting and Styles

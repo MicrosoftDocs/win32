@@ -1,8 +1,14 @@
 ---
 title: Exporting the Configuration of a Virtual Machine
 description: The following C\ and VBScript samples demonstrate exporting the configuration of a virtual machine (VM).
-ms.assetid: 'f6fa3220-9f48-437d-91e0-89b40f0a40f4'
-keywords: ["Exporting the configuration of a Virtual Machine Hyper-V"]
+ms.assetid: f6fa3220-9f48-437d-91e0-89b40f0a40f4
+keywords:
+- Exporting the configuration of a Virtual Machine Hyper-V
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exporting the Configuration of a Virtual Machine

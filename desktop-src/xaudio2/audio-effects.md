@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists topics about XAudio2 audio effects.'
-ms.assetid: 'edd663db-2893-cef7-ccfa-d84d8bb83ff1'
+Description: This section lists topics about XAudio2 audio effects.
+ms.assetid: edd663db-2893-cef7-ccfa-d84d8bb83ff1
 title: Audio Effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Effects

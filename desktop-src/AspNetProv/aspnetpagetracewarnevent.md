@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the TraceContextWarning event.'
+---
+Description: The event type class for the TraceContextWarning event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e5fb4e9-503b-48c4-9ea8-a0b125e32aef'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e5fb4e9-503b-48c4-9ea8-a0b125e32aef
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPageTraceWarnEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPageTraceWarnEvent class

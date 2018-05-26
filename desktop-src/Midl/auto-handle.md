@@ -2,13 +2,19 @@
 title: auto\_handle attribute
 description: The \ auto\_handle\ ACF attribute directs the stub to automatically establish the binding for a function that does not have an explicit binding-handle parameter.Note  This attribute is obsolete and no longer supported.
 ms.assetid: a402b933-f69b-4dfe-b0c5-b034d65d4a84
-keywords: ["auto_handle attribute MIDL"]
+keywords:
+- auto_handle attribute MIDL
 topic_type:
 - apiref
 api_name:
 - auto_handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # auto\_handle attribute

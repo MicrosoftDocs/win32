@@ -2,7 +2,13 @@
 title: Error and Warning Message Formats
 description: List of MIDL error message and warning message formats.
 ms.assetid: 8eb0f46f-e494-430a-8bb4-b8a21524b62e
-keywords: ["errors MIDL , message formats"]
+keywords:
+- errors MIDL , message formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error and Warning Message Formats

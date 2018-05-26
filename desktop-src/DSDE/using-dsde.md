@@ -1,13 +1,16 @@
 ---
-Description: 'Topics describe how DSDE can export and import directory objects.'
+Description: Topics describe how DSDE can export and import directory objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '99231684-606c-4893-981c-e3de0c586027'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 99231684-606c-4893-981c-e3de0c586027
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Using DSDE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using DSDE

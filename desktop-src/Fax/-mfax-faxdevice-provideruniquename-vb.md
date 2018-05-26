@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProviderUniqueName property is a null-terminated string that contains the unique name for the fax service provider (FSP) associated with the device.'
-ms.assetid: 'c4ce229a-e0e0-413b-95cf-6dc194d68dce'
-title: 'FaxDevice.ProviderUniqueName property'
+---
+Description: The ProviderUniqueName property is a null-terminated string that contains the unique name for the fax service provider (FSP) associated with the device.
+ms.assetid: c4ce229a-e0e0-413b-95cf-6dc194d68dce
+title: FaxDevice.ProviderUniqueName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.ProviderUniqueName property
@@ -46,7 +51,7 @@ A **String** that receives the unique name for the FSP associated with the devic
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

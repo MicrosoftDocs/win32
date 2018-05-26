@@ -1,7 +1,12 @@
 ---
-Description: 'This sample code is from an ICE custom action ( ICE01). It validates that the ICE mechanism is working by displaying the time. The ICE posts a message giving the time the installer called the ICE. This ICE should never return an error.'
-ms.assetid: '7e580f6b-8adf-4b11-9072-5b2e1506fabb'
+Description: This sample code is from an ICE custom action ( ICE01). It validates that the ICE mechanism is working by displaying the time. The ICE posts a message giving the time the installer called the ICE. This ICE should never return an error.
+ms.assetid: 7e580f6b-8adf-4b11-9072-5b2e1506fabb
 title: Sample ICE in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample ICE in C++

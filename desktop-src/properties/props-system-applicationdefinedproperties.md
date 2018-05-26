@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '0da23c09-1d6c-4d5e-8ceb-058bc0f89577'
-title: 'System.ApplicationDefinedProperties'
+Description: .
+ms.assetid: 0da23c09-1d6c-4d5e-8ceb-058bc0f89577
+title: System.ApplicationDefinedProperties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ApplicationDefinedProperties

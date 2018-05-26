@@ -1,8 +1,37 @@
 ---
 title: About the Playlist, PlaylistCollection, and PlaylistArray Objects
 description: About the Playlist, PlaylistCollection, and PlaylistArray Objects
-ms.assetid: '19867944-c836-4b7e-ada3-f696905e6327'
-keywords: ["Windows Media Player,Playlist object", "Windows Media Player object model,Playlist object", "object model,Playlist object", "Windows Media Player ActiveX control,Playlist object", "ActiveX control,Playlist object", "Windows Media Player Mobile ActiveX control,Playlist object", "Windows Media Player Mobile,Playlist object", "Playlist object", "Windows Media Player,PlaylistCollection object", "Windows Media Player object model,PlaylistCollection object", "object model,PlaylistCollection object", "Windows Media Player ActiveX control,PlaylistCollection object", "ActiveX control,PlaylistCollection object", "Windows Media Player Mobile ActiveX control,PlaylistCollection object", "Windows Media Player Mobile,PlaylistCollection object", "PlaylistCollection object", "Windows Media Player,PlaylistArray object", "Windows Media Player object model,PlaylistArray object", "object model,PlaylistArray object", "Windows Media Player ActiveX control,PlaylistArray object", "ActiveX control,PlaylistArray object", "Windows Media Player Mobile ActiveX control,PlaylistArray object", "Windows Media Player Mobile,PlaylistArray object", "PlaylistArray object"]
+ms.assetid: 19867944-c836-4b7e-ada3-f696905e6327
+keywords:
+- Windows Media Player,Playlist object
+- Windows Media Player object model,Playlist object
+- object model,Playlist object
+- Windows Media Player ActiveX control,Playlist object
+- ActiveX control,Playlist object
+- Windows Media Player Mobile ActiveX control,Playlist object
+- Windows Media Player Mobile,Playlist object
+- Playlist object
+- Windows Media Player,PlaylistCollection object
+- Windows Media Player object model,PlaylistCollection object
+- object model,PlaylistCollection object
+- Windows Media Player ActiveX control,PlaylistCollection object
+- ActiveX control,PlaylistCollection object
+- Windows Media Player Mobile ActiveX control,PlaylistCollection object
+- Windows Media Player Mobile,PlaylistCollection object
+- PlaylistCollection object
+- Windows Media Player,PlaylistArray object
+- Windows Media Player object model,PlaylistArray object
+- object model,PlaylistArray object
+- Windows Media Player ActiveX control,PlaylistArray object
+- ActiveX control,PlaylistArray object
+- Windows Media Player Mobile ActiveX control,PlaylistArray object
+- Windows Media Player Mobile,PlaylistArray object
+- PlaylistArray object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Playlist, PlaylistCollection, and PlaylistArray Objects

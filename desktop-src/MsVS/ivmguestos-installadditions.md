@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS InstallAdditions method
 description: The InstallAdditions method locates and installs the latest Additions into the guest operating system.
-ms.assetid: '738d134b-e6b3-43eb-9e2f-71e63b3b7a1a'
-keywords: ["InstallAdditions method Virtual Server", "InstallAdditions method Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , InstallAdditions method", "InstallAdditions method Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , InstallAdditions method"]
+ms.assetid: 738d134b-e6b3-43eb-9e2f-71e63b3b7a1a
+keywords:
+- InstallAdditions method Virtual Server
+- InstallAdditions method Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , InstallAdditions method
+- InstallAdditions method Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , InstallAdditions method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::InstallAdditions method
@@ -48,7 +58,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +70,8 @@ This method attempts to locate the ISO image for the latest Additions and attach
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -73,9 +83,9 @@ This method attempts to locate the ISO image for the latest Additions and attach
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

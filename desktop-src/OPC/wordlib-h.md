@@ -1,8 +1,25 @@
 ---
 title: wordlib.h
 description: wordlib.h
-ms.assetid: 'e7666c6e-b8f9-4234-9ce0-869037e8ad82'
-keywords: ["Packaging APIs,set author sample", "packaging,set author sample", "packages,set author sample", "Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "set author sample,wordlib.h", "Packaging APIs,wordlib.h", "packaging,wordlib.h", "packages,wordlib.h", "wordlib.h", "sample applications,set author"]
+ms.assetid: e7666c6e-b8f9-4234-9ce0-869037e8ad82
+keywords:
+- Packaging APIs,set author sample
+- packaging,set author sample
+- packages,set author sample
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- set author sample,wordlib.h
+- Packaging APIs,wordlib.h
+- packaging,wordlib.h
+- packages,wordlib.h
+- wordlib.h
+- sample applications,set author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wordlib.h

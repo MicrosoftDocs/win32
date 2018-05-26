@@ -1,8 +1,20 @@
 ---
 title: Using Mouse Input
 description: This section covers tasks associated with mouse input.
-ms.assetid: 'b96d0046-a507-4733-bcf3-fcf757beec7f'
-keywords: ["user input,mouse input", "capturing user input,mouse input", "mouse input", "cursors,mouse input", "mouse cursor", "double-click message processing", "mouse wheel"]
+ms.assetid: b96d0046-a507-4733-bcf3-fcf757beec7f
+keywords:
+- user input,mouse input
+- capturing user input,mouse input
+- mouse input
+- cursors,mouse input
+- mouse cursor
+- double-click message processing
+- mouse wheel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Mouse Input

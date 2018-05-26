@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a bridge service is a component of a switch service.'
-ms.assetid: '737d5ba1-0759-40cf-bc46-a059d19902c8'
-title: 'CIM\_SwitchServiceTransparentBridging class'
+Description: Represents an association in which a bridge service is a component of a switch service.
+ms.assetid: 737d5ba1-0759-40cf-bc46-a059d19902c8
+title: CIM\_SwitchServiceTransparentBridging class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SwitchServiceTransparentBridging class
@@ -14,7 +19,7 @@ Represents an association in which a bridge service is a component of a switch s
 [Association, Aggregation, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Network::SwitchingBridging")]
 class CIM_SwitchServiceTransparentBridging : CIM_ServiceComponent
 {
-  CIM_SwitchService              REF GroupComponent;
+  CIM_SwitchService              REF GroupComponent;
   CIM_TransparentBridgingService REF PartComponent;
 };
 ```
@@ -69,8 +74,8 @@ A [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md) refer
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A [**CIM\_TransparentBridgingService**](cim-transparentbridgingservice.md) refer
 [**CIM\_ServiceComponent**](cim-servicecomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

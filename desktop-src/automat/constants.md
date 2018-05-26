@@ -1,7 +1,12 @@
 ---
 title: Constants
 description: A constant can be either numeric or a string, depending on the attribute.
-ms.assetid: '115ee0aa-19c4-4d00-a36d-16eaff3afa4c'
+ms.assetid: 115ee0aa-19c4-4d00-a36d-16eaff3afa4c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants

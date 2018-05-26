@@ -1,7 +1,12 @@
 ---
 title: MaxActiveQueryThreads
 description: MaxActiveQueryThreads
-ms.assetid: '6646e4c4-9a52-42e0-b0df-86cec9e27be1'
+ms.assetid: 6646e4c4-9a52-42e0-b0df-86cec9e27be1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxActiveQueryThreads

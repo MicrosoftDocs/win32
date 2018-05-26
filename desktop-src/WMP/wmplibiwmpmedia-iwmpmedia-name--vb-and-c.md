@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia name property
 description: The name property gets or sets the name of the media item.
-ms.assetid: 'd1057871-bccf-4f84-9b1d-74c41a8f7f7c'
-keywords: ["name property Windows Media Player", "name property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , name property"]
+ms.assetid: d1057871-bccf-4f84-9b1d-74c41a8f7f7c
+keywords:
+- name property Windows Media Player
+- name property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , name property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::name property
@@ -123,9 +131,9 @@ End Sub</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

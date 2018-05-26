@@ -4,11 +4,18 @@ description: This section contains datatypes used for working with resources.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '07E8E1DB-527E-4ADC-A243-0CB137FBE310'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 07E8E1DB-527E-4ADC-A243-0CB137FBE310
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RESID", "RESOURCE_HANDLE", "PRES_CTL_CTX", "PRESTYPE_CTL_CTX"]
+keywords:
+- RESID
+- RESOURCE_HANDLE
+- PRES_CTL_CTX
+- PRESTYPE_CTL_CTX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Clustering Datatypes
@@ -46,7 +53,7 @@ A handle for a resource.
 
 Resource control context.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:** Not available.
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:** Not available.
 
 </dd> <dt>
 
@@ -55,7 +62,7 @@ Resource control context.
 
 Resource type control context.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:** Not available.
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:** Not available.
 
 </dd> </dl>
 
@@ -66,14 +73,14 @@ Resource type control context.
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>ResApi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

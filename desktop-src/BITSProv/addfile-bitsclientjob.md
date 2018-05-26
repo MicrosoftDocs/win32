@@ -1,8 +1,11 @@
 ---
 title: AddFile method of the BitsClientJob class
 description: The AddFile method adds a file to an existing BITS transfer job.
-ms.assetid: '9eb1009f-395e-42cf-a981-f219dafc0584'
-keywords: ["AddFile method", "AddFile method, BitsClientJob class", "BitsClientJob class, AddFile method"]
+ms.assetid: 9eb1009f-395e-42cf-a981-f219dafc0584
+keywords:
+- AddFile method
+- AddFile method, BitsClientJob class
+- BitsClientJob class, AddFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddFile method of the BitsClientJob class
@@ -22,8 +30,8 @@ The **AddFile** method adds a file to an existing BITS transfer job.
 
 ```mof
 uint32 AddFile(
-  [in] string remoteUrl,
-  [in] string localFile
+  [in] string remoteUrl,
+  [in] string localFile
 );
 ```
 
@@ -54,8 +62,8 @@ Specifies the local file for the file transfer.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -68,9 +76,9 @@ Specifies the local file for the file transfer.
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Handle to the window''s palette.'
-ms.assetid: '0ab7d6b6-fe19-41d1-8a51-fee722148d1c'
-title: 'CBaseWindow::m\_hPalette member'
+Description: Handle to the windows palette.
+ms.assetid: 0ab7d6b6-fe19-41d1-8a51-fee722148d1c
+title: CBaseWindowm\_hPalette member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_hPalette member
@@ -35,9 +40,9 @@ HPALETTE m_hPalette;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

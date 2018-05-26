@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a linear interpolation between two 2D vectors.'
-ms.assetid: 'f8e9e6be-9696-4a4a-a6c8-c021985decaa'
+---
+Description: Performs a linear interpolation between two 2D vectors.
+ms.assetid: f8e9e6be-9696-4a4a-a6c8-c021985decaa
 title: D3DXVec2Lerp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2Lerp function

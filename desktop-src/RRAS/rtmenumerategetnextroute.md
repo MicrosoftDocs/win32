@@ -1,8 +1,9 @@
 ---
 title: RtmEnumerateGetNextRoute function
 description: The RtmEnumerateGetNextRoute function returns the next-route entry in the enumeration started by a call to RtmCreateEnumerationHandle.
-ms.assetid: 'fff6fb58-8a37-49f0-abc5-354b5bc340f8'
-keywords: ["RtmEnumerateGetNextRoute function RAS"]
+ms.assetid: fff6fb58-8a37-49f0-abc5-354b5bc340f8
+keywords:
+- RtmEnumerateGetNextRoute function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmEnumerateGetNextRoute function
@@ -24,8 +30,8 @@ The **RtmEnumerateGetNextRoute** function returns the next-route entry in the en
 
 ```C++
 DWORD RtmEnumerateGetNextRoute(
-  _In_  HANDLE EnumerationHandle,
-  _Out_ PVOID  Route
+  _In_  HANDLE EnumerationHandle,
+  _Out_ PVOID  Route
 );
 ```
 
@@ -65,7 +71,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +84,8 @@ Although routes are not returned in any particular order, each route in the enum
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -108,9 +114,9 @@ Although routes are not returned in any particular order, each route in the enum
 [**RtmCreateEnumerationHandle**](rtmcreateenumerationhandle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

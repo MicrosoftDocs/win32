@@ -1,8 +1,10 @@
 ---
 title: SystemMonitor object
 description: This class contains the methods and properties used to configure the System Monitor control.
-ms.assetid: '5a6195ee-ed89-4f5d-85dd-88cf4a9b5155'
-keywords: ["SystemMonitor object SysMon", "SystemMonitor object SysMon , described"]
+ms.assetid: 5a6195ee-ed89-4f5d-85dd-88cf4a9b5155
+keywords:
+- SystemMonitor object SysMon
+- SystemMonitor object SysMon , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor object
@@ -41,7 +48,7 @@ The **SystemMonitor** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -69,7 +76,7 @@ The **SystemMonitor** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -122,7 +129,7 @@ The **SystemMonitor** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -130,16 +137,16 @@ The **SystemMonitor** object has these properties.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Isysmon.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

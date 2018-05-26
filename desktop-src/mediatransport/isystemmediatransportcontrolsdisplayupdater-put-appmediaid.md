@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControlsDisplayUpdater put\_AppMediaId method
 description: Sets the media ID of the app.
-ms.assetid: '125E5E93-27AD-42C0-93FA-231A008A6007'
-keywords: ["put_AppMediaId method", "put_AppMediaId method, ISystemMediaTransportControlsDisplayUpdater interface", "ISystemMediaTransportControlsDisplayUpdater interface, put_AppMediaId method"]
+ms.assetid: 125E5E93-27AD-42C0-93FA-231A008A6007
+keywords:
+- put_AppMediaId method
+- put_AppMediaId method, ISystemMediaTransportControlsDisplayUpdater interface
+- ISystemMediaTransportControlsDisplayUpdater interface, put_AppMediaId method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControlsDisplayUpdater::put\_AppMediaId method
@@ -22,7 +30,7 @@ Sets the media ID of the app.
 
 ```C++
 HRESULT put_AppMediaId(
-   HSTRING value
+   HSTRING value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ISystemMediaTransportControlsDisplayUpdater**](isystemmediatransportcontrolsdisplayupdater.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

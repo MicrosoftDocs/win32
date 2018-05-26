@@ -1,16 +1,21 @@
 ---
-Description: 'The IWiaPropertyStorage interface provides methods for reading and writing a Windows Image Acquisition (WIA) item''s properties. Item properties include device commands, item format information, and device information.'
-ms.assetid: '268d2298-bc9c-479b-b078-a8180cd38bc3'
+Description: The IWiaPropertyStorage interface provides methods for reading and writing a Windows Image Acquisition (WIA) items properties. Item properties include device commands, item format information, and device information.
+ms.assetid: 268d2298-bc9c-479b-b078-a8180cd38bc3
 title: Reading and Setting WIA Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading and Setting WIA Properties
 
-The [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface provides methods for reading and writing a Windows Image Acquisition (WIA) item's properties. Item properties include device commands, item format information, and device information.
+The [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface provides methods for reading and writing a Windows Image Acquisition (WIA) item's properties. Item properties include device commands, item format information, and device information.
 
-An application can obtain a pointer to an [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface of an item either by enumerating the item's device information or event information by calling [**IWiaItem::EnumDeviceCapabilities**](-wia-iwiaitem-enumdevicecapabilities.md) or [**IWiaItem::EnumRegisterEventInfo**](-wia-iwiaitem-enumregistereventinfo.md) or by querying the [**IWiaItem**](-wia-iwiaitem.md) interface of the item. (In WIA 2.0, do this by calling [**IWiaItem2::EnumDeviceCapabilities**](-wia-iwiaitem2-enumdevicecapabilities.md) or [**IWiaItem2::EnumRegisterEventInfo**](-wia-iwiaitem2-enumregistereventinfo.md) or by querying the [**IWiaItem2**](-wia-iwiaitem2.md) interface of the item.)
+An application can obtain a pointer to an [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface of an item either by enumerating the item's device information or event information by calling [**IWiaItem::EnumDeviceCapabilities**](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities?branch=master) or [**IWiaItem::EnumRegisterEventInfo**](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo?branch=master) or by querying the [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface of the item. (In WIA 2.0, do this by calling [**IWiaItem2::EnumDeviceCapabilities**](-wia-iwiaitem2-enumdevicecapabilities.md) or [**IWiaItem2::EnumRegisterEventInfo**](-wia-iwiaitem2-enumregistereventinfo.md) or by querying the [**IWiaItem2**](-wia-iwiaitem2.md) interface of the item.)
 
-[**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) inherits from [IPropertyStorage](stg.ipropertystorage) and the inherited methods are implemented as described in the reference section of Structured Storage in the Windows Software Development Kit (SDK).
+[**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) inherits from [IPropertyStorage](stg.ipropertystorage) and the inherited methods are implemented as described in the reference section of Structured Storage in the Windows Software Development Kit (SDK).
 
 > [!Note]
 >

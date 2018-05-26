@@ -1,18 +1,21 @@
 ---
-Description: 'After you set the security levels for your IWbemServices pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application.'
+Description: After you set the security levels for your IWbemServices pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '32bc7dd8-cb05-4354-bf46-f4359ac1f0d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 32bc7dd8-cb05-4354-bf46-f4359ac1f0d8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Cleaning up and Shutting Down a WMI Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cleaning up and Shutting Down a WMI Application
 
-After you set the security levels for your [**IWbemServices**](iwbemservices.md) pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application.
+After you set the security levels for your [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer, you can access the various capabilities of WMI. After you finish using WMI, you must shut down your application.
 
 The following procedure describes how to clean up and shut down a WMI application.
 
@@ -20,7 +23,7 @@ The following procedure describes how to clean up and shut down a WMI applicatio
 
 1.  Release any open COM interfaces.
 
-    The two primary interfaces you must remember to release are [**IWbemServices**](iwbemservices.md) and [**IWbemLocator**](iwbemlocator.md).
+    The two primary interfaces you must remember to release are [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) and [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master).
 
 2.  Call [**CoUninitialize**](_com_couninitialize).
 
@@ -49,7 +52,7 @@ The following procedure describes how to clean up and shut down a WMI applicatio
     
 
     > [!Note]  
-    > The `pSvc` variable is of type [**IWbemServices**](iwbemservices.md)\*, and the pLoc variable is of type [**IWbemLocator**](iwbemlocator.md)\*.
+    > The `pSvc` variable is of type [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master)\*, and the pLoc variable is of type [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master)\*.
 
      
 

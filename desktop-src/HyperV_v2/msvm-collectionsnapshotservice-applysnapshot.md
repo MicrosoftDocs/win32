@@ -1,7 +1,12 @@
 ---
-Description: 'Applies a snapshot collection to the collection of virtual computer system.'
-ms.assetid: 'c76c552a-ae07-4dab-a938-740d77447a53'
-title: 'ApplySnapshot method of the Msvm\_CollectionSnapshotService class'
+Description: Applies a snapshot collection to the collection of virtual computer system.
+ms.assetid: c76c552a-ae07-4dab-a938-740d77447a53
+title: ApplySnapshot method of the Msvm\_CollectionSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplySnapshot method of the Msvm\_CollectionSnapshotService class
@@ -13,8 +18,8 @@ Applies a snapshot collection to the collection of virtual computer system.
 
 ```mof
 uint32 ApplySnapshot(
-  [in]  CIM_Collection  REF SnapshotCollection,
-  [out] CIM_ConcreteJob REF Job
+  [in]  CIM_Collection  REF SnapshotCollection,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -83,8 +88,8 @@ On success, returns a 0; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -98,9 +103,9 @@ On success, returns a 0; otherwise, returns an error.
 [**Msvm\_CollectionSnapshotService**](msvm-collectionsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

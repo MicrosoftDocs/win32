@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_WAIT\_FOR\_CHANNEL.'
-ms.assetid: '4FFC0BE7-A095-4229-A713-566815B53EAF'
-title: 'IOCTL\_DOT4\_WAIT\_FOR\_CHANNEL control code'
+---
+Description: This topic describes IOCTL\_DOT4\_WAIT\_FOR\_CHANNEL.
+ms.assetid: 4FFC0BE7-A095-4229-A713-566815B53EAF
+title: IOCTL\_DOT4\_WAIT\_FOR\_CHANNEL control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_WAIT\_FOR\_CHANNEL control code

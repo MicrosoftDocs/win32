@@ -1,7 +1,12 @@
 ---
-Description: 'An association used to establish relationships between one instance of an Msvm\_EmulatedEthernetPortSettingData and one or more instances of an Msvm\_EthernetSwitchFeatureSettingData.'
-ms.assetid: 'A2929D81-ED86-4C5A-9280-276204EDE89B'
-title: 'Msvm\_EthernetPortFailoverSettingDataComponent class'
+Description: An association used to establish relationships between one instance of an Msvm\_EmulatedEthernetPortSettingData and one or more instances of an Msvm\_EthernetSwitchFeatureSettingData.
+ms.assetid: A2929D81-ED86-4C5A-9280-276204EDE89B
+title: Msvm\_EthernetPortFailoverSettingDataComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetPortFailoverSettingDataComponent class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EthernetPortFailoverSettingDataComponent : CIM_Component
 {
-  CIM_ResourceAllocationSettingData      REF GroupComponent;
+  CIM_ResourceAllocationSettingData      REF GroupComponent;
   Msvm_FailoverNetworkAdapterSettingData REF PartComponent;
 };
 ```
@@ -71,17 +76,17 @@ A reference to an instance of the [**Msvm\_FailoverNetworkAdapterSettingData**](
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

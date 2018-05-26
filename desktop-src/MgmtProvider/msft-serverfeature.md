@@ -4,11 +4,13 @@ description: Represents a server feature on the managed node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05b22ce0-fdef-4ddf-95e7-6628408766d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 05b22ce0-fdef-4ddf-95e7-6628408766d6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerFeature class", "MSFT_ServerFeature class, described"]
+keywords:
+- MSFT_ServerFeature class
+- MSFT_ServerFeature class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerFeature class
@@ -45,9 +50,9 @@ class MSFT_ServerFeature
   string ParentName;
   string UniqueName;
   string DisplayName;
-  uint8  State;
-  uint8  Type;
-  uint8  ConfigurationStatus;
+  uint8  State;
+  uint8  Type;
+  uint8  ConfigurationStatus;
   string EventQuery;
   string Services[];
   string BpaModels[];
@@ -307,16 +312,16 @@ The name of the feature.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

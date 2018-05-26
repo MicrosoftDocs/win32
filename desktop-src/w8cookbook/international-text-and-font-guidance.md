@@ -1,7 +1,12 @@
 ---
 title: International text and font guidance
 description: International text and font guidance
-ms.assetid: '0540C9AD-8774-4F0F-B013-48C3EAE59BF2'
+ms.assetid: 0540C9AD-8774-4F0F-B013-48C3EAE59BF2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # International text and font guidance

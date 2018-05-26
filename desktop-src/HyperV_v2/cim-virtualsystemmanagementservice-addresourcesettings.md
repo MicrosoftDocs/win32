@@ -1,7 +1,12 @@
 ---
-Description: 'Adds resources to a virtual system configuration.'
-ms.assetid: 'c2541571-74f0-48f8-997c-56c152980eea'
-title: 'AddResourceSettings method of the CIM\_VirtualSystemManagementService class'
+Description: Adds resources to a virtual system configuration.
+ms.assetid: c2541571-74f0-48f8-997c-56c152980eea
+title: AddResourceSettings method of the CIM\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddResourceSettings method of the CIM\_VirtualSystemManagementService class
@@ -15,10 +20,10 @@ When applied to a "state" virtual system configuration, as a side effect resourc
 
 ```mof
 uint32 AddResourceSettings(
-  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
-  [in]  string                                ResourceSettings[],
-  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
+  [in]  string                                ResourceSettings[],
+  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -95,8 +100,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -110,9 +115,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

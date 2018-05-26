@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetSchema method sets the bidi schema string.'
-ms.assetid: 'ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf'
-title: 'IBidiRequest::SetSchema method'
+---
+Description: The SetSchema method sets the bidi schema string.
+ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
+title: IBidiRequestSetSchema method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequest::SetSchema method

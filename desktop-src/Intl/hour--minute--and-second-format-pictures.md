@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes the format types for strings used to compose the format picture for a time string. Each format picture consists of a combination of one string of each of the format types.'
-ms.assetid: 'a5e87d88-4037-4302-99b7-179bfb03fac3'
-title: 'Hour, Minute, and Second Format Pictures'
+---
+Description: This topic describes the format types for strings used to compose the format picture for a time string. Each format picture consists of a combination of one string of each of the format types.
+ms.assetid: a5e87d88-4037-4302-99b7-179bfb03fac3
+title: Hour, Minute, and Second Format Pictures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hour, Minute, and Second Format Pictures

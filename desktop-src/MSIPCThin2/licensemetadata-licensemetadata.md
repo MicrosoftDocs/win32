@@ -4,17 +4,21 @@ description: Creates a license metadata object for document tracking.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '26AF4429-B5DA-47FE-8A44-BA5B86BBCDE9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 26AF4429-B5DA-47FE-8A44-BA5B86BBCDE9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata LicenseMetadata method"]
+keywords:
+- LicenseMetadata LicenseMetadata method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata LicenseMetadata method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata LicenseMetadata method
@@ -38,7 +42,7 @@ public LicenseMetadata(String contentName, NotificationType notificationType)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -54,11 +58,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

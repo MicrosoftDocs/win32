@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SenderFax property of a FaxDoc object. The SenderFax property is a null-terminated string that contains the fax number of the sender of the outbound fax transmission.'
-ms.assetid: 'e2d9bbbe-6878-4546-a2b9-be776dc18897'
-title: 'FaxDoc.SenderFax property'
+---
+Description: Sets or retrieves the SenderFax property of a FaxDoc object. The SenderFax property is a null-terminated string that contains the fax number of the sender of the outbound fax transmission.
+ms.assetid: e2d9bbbe-6878-4546-a2b9-be776dc18897
+title: FaxDoc.SenderFax property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SenderFax property
@@ -55,7 +60,7 @@ The **get\_SenderFax** method allocates the memory required for the buffer point
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

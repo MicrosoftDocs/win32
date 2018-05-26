@@ -4,11 +4,17 @@ description: The following lists all of the external resource type control codes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a46de248-deac-4ec4-b4d3-f2b845f8057c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a46de248-deac-4ec4-b4d3-f2b845f8057c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource type control codes Failover Cluster ,external", "control codes Failover Cluster ,resource type,external", "resource types Failover Cluster ,control codes,external"]
+keywords:
+- resource type control codes Failover Cluster ,external
+- control codes Failover Cluster ,resource type,external
+- resource types Failover Cluster ,control codes,external
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # External Resource Type Control Codes
@@ -22,7 +28,7 @@ The following lists all of the external resource type control codes.
 [CLUSCTL\_CLOUD\_WITNESS\_RESOURCE\_TYPE\_VALIDATE\_CREDENTIALS](clusctl-cloud-witness-resource-type-validate-credentials.md)
 </dt> <dd>
 
-Retrieves the token and credentials used to validate a cluster node's access to a storage account for a [Cloud Witness](cloud-witness.md) resource. Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) function.
+Retrieves the token and credentials used to validate a cluster node's access to a storage account for a [Cloud Witness](cloud-witness.md) resource. Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) function.
 
 </dd> <dt>
 
@@ -78,7 +84,7 @@ Allows a [quorum resource](quorum-resource.md) DLL to specify a new arbitration 
 [CLUSCTL\_RESOURCE\_TYPE\_GET\_CHARACTERISTICS](clusctl-resource-type-get-characteristics.md)
 </dt> <dd>
 
-Retrieves the intrinsic characteristics of a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) function.
+Retrieves the intrinsic characteristics of a [resource type](resource-types.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) function.
 
 </dd> <dt>
 
@@ -183,7 +189,7 @@ TBD.
 [CLUSCTL\_RESOURCE\_TYPE\_NETNAME\_VALIDATE\_NETNAME](clusctl-resource-type-netname-validate-netname.md)
 </dt> <dd>
 
-The [CLUSCTL\_RESOURCE\_TYPE\_NETNAME\_VALIDATE\_NETNAME](clusctl-resource-type-netname-validate-netname.md) [control code](about-control-codes.md) TBD. Applications use this control code as a parameter to [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) callback function.
+The [CLUSCTL\_RESOURCE\_TYPE\_NETNAME\_VALIDATE\_NETNAME](clusctl-resource-type-netname-validate-netname.md) [control code](about-control-codes.md) TBD. Applications use this control code as a parameter to [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) callback function.
 
 </dd> <dt>
 
@@ -330,14 +336,14 @@ Modifies the drive letter of a disk on the designated node.
 [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_REMOVE\_VM\_OWNERSHIP](clusctl-resource-type-storage-remove-vm-ownership.md)
 </dt> <dd>
 
-The [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_REMOVE\_VM\_OWNERSHIP](clusctl-resource-type-storage-remove-vm-ownership.md) [control code](about-control-codes.md) TBD. Applications use this control code as a parameter to [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) callback function.
+The [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_REMOVE\_VM\_OWNERSHIP](clusctl-resource-type-storage-remove-vm-ownership.md) [control code](about-control-codes.md) TBD. Applications use this control code as a parameter to [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) callback function.
 
 </dd> <dt>
 
 [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_SYNC\_CLUSDISK\_DB](clusctl-resource-type-storage-sync-clusdisk-db.md)
 </dt> <dd>
 
-The [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_SYNC\_CLUSDISK\_DB](clusctl-resource-type-storage-sync-clusdisk-db.md) [control code](about-control-codes.md) TBD. Applications use this control code as a parameter to [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](resourcetypecontrol.md) callback function.
+The [CLUSCTL\_RESOURCE\_TYPE\_STORAGE\_SYNC\_CLUSDISK\_DB](clusctl-resource-type-storage-sync-clusdisk-db.md) [control code](about-control-codes.md) TBD. Applications use this control code as a parameter to [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) callback function.
 
 To perform this operation, call the [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216) function with the following parameters.
 
@@ -378,10 +384,10 @@ Confirms that the server can access the file share path for the designated resou
 [Resource Type Control Codes](resource-type-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> </dl>
 
  

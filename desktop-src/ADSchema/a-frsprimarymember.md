@@ -4,17 +4,22 @@ description: Reference to the primary member of a replica set.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6b8017d-6700-43f3-a170-f4d56009c8f7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a6b8017d-6700-43f3-a170-f4d56009c8f7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["FRS-Primary-Member attribute AD Schema", "fRSPrimaryMember attribute AD Schema"]
+keywords:
+- FRS-Primary-Member attribute AD Schema
+- fRSPrimaryMember attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - FRS-Primary-Member
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FRS-Primary-Member attribute
@@ -38,12 +43,12 @@ Reference to the primary member of a replica set.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Reference to the primary member of a replica set.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,16 @@
 title: ImportByKeySet method of the PS\_DnsServerTrustAnchor class
 description: Imports DNS server Trust anchors from specified files.
 audience: developer
-ms.assetid: '1ec5a3e6-9a5d-4e52-a14a-0224e579be4e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1ec5a3e6-9a5d-4e52-a14a-0224e579be4e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ImportByKeySet method", "ImportByKeySet method, PS_DnsServerTrustAnchor class", "PS_DnsServerTrustAnchor class, ImportByKeySet method"]
+keywords:
+- ImportByKeySet method
+- ImportByKeySet method, PS_DnsServerTrustAnchor class
+- PS_DnsServerTrustAnchor class, ImportByKeySet method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportByKeySet method of the PS\_DnsServerTrustAnchor class
@@ -28,10 +34,10 @@ Imports DNS server Trust anchors from specified files.
 
 ```mof
 uint32 ImportByKeySet(
-  [in]  string               ComputerName,
-  [in]  string               KeySetFile,
-  [in]  boolean              PassThru,
-  [out] DnsServerTrustAnchor cmdletOutput[]
+  [in]  string               ComputerName,
+  [in]  string               KeySetFile,
+  [in]  boolean              PassThru,
+  [out] DnsServerTrustAnchor cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ Receives and embedded instance of the [**DnsServerTrustAnchor**](dnsservertrusta
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Receives and embedded instance of the [**DnsServerTrustAnchor**](dnsservertrusta
 [**PS\_DnsServerTrustAnchor**](ps-dnsservertrustanchor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

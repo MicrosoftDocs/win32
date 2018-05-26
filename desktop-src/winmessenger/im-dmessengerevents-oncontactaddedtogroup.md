@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnContactAddedToGroup event
 description: Indicates that a contact has been added to a group.
-ms.assetid: '008e3003-81c1-48de-816b-7e58886497db'
-keywords: ["OnContactAddedToGroup event Windows Messenger", "OnContactAddedToGroup event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnContactAddedToGroup event"]
+ms.assetid: 008e3003-81c1-48de-816b-7e58886497db
+keywords:
+- OnContactAddedToGroup event Windows Messenger
+- OnContactAddedToGroup event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnContactAddedToGroup event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnContactAddedToGroup event
 
-\[**OnContactAddedToGroup** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnContactAddedToGroup** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that a contact has been added to a group.
 
@@ -24,9 +32,9 @@ Indicates that a contact has been added to a group.
 
 ```C++
 void OnContactAddedToGroup(
-  [in] LONG      hr,
-  [in] IDispatch *pMGroup,
-  [in] IDispatch *pMContact
+  [in] LONG      hr,
+  [in] IDispatch *pMGroup,
+  [in] IDispatch *pMContact
 );
 ```
 
@@ -53,7 +61,7 @@ Possible values are as follows:
 
 
 
- 
+ 
 
 </dd> <dt>*pMGroup* \[in\]</dt> <dd> 
 
@@ -89,12 +97,12 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 > [!Note]  
 > This event is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -102,10 +110,10 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -123,9 +131,9 @@ To be used when writing custom ::Invoke methods to handle these events.
 [**AddContact**](im-imessengergroup-addcontact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

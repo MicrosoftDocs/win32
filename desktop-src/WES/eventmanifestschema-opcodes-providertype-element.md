@@ -1,14 +1,20 @@
 ---
 title: opcodes (ProviderType) Element
 description: Defines a list of opcodes that you can use to group events within a task.
-ms.assetid: '28f67c43-053d-42e6-81eb-2353cc3898af'
-keywords: ["opcodes element EventLog"]
+ms.assetid: 28f67c43-053d-42e6-81eb-2353cc3898af
+keywords:
+- opcodes element EventLog
 topic_type:
 - apiref
 api_name:
 - opcodes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # opcodes (ProviderType) Element
@@ -29,8 +35,8 @@ The **opcodes** element is defined by the [**ProviderType**](eventmanifestschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **opcodes** element is defined by the [**ProviderType**](eventmanifestschema
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

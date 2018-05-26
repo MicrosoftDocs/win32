@@ -1,8 +1,9 @@
 ---
 title: AxeProgressType enumeration
 description: Describes the type of progress that is being reported by the assessment to the Axe engine in ReportProgress methods.
-ms.assetid: '95086EC0-A9A8-40F6-BF1E-570AE88D6C43'
-keywords: ["ProgressType enumeration Access Execution Engine"]
+ms.assetid: 95086EC0-A9A8-40F6-BF1E-570AE88D6C43
+keywords:
+- ProgressType enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxeProgressType enumeration
@@ -22,7 +28,7 @@ Describes the type of progress that is being reported by the assessment to the A
 
 ```C++
 enum ProgressType {
-  ProgressTypeNone             = 0, 
+  ProgressTypeNone             = 0, 
   ProgressTypePercent, 
   ProgressTypeMessage, 
   ProgressTypeHeartbeat, 
@@ -105,7 +111,7 @@ The assessment has presented a user interface or a command line prompt and is wa
 <span id="ProgressTypeOnOff"></span><span id="progresstypeonoff"></span><span id="PROGRESSTYPEONOFF"></span>**ProgressTypeOnOff**
 </dt> <dd>
 
-The assessment reports that it is controlling a transition of the system’s power state. This lets AXE know that the next system Power On transition is intentional and not an error. The *progressMessage* parameter is an empty string. The *progressValue* parameter contains one of the values from the [**OnOffProgressValue**](onoffprogressvalue.md) enumeration.
+The assessment reports that it is controlling a transition of the system s power state. This lets AXE know that the next system Power On transition is intentional and not an error. The *progressMessage* parameter is an empty string. The *progressValue* parameter contains one of the values from the [**OnOffProgressValue**](onoffprogressvalue.md) enumeration.
 
 </dd> <dt>
 
@@ -154,15 +160,15 @@ Managed code uses the [**AxeProgressType**](axe-axeprogresstype_om) enum.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

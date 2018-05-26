@@ -1,7 +1,12 @@
 ---
 title: Sample Heap Actions
 description: Sample Heap Actions
-ms.assetid: 'b87f70af-2429-4601-b99f-f997af5f226a'
+ms.assetid: b87f70af-2429-4601-b99f-f997af5f226a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Heap Actions

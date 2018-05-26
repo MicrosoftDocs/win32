@@ -1,6 +1,11 @@
-﻿---
-Description: 'Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.'
-title: 'SFVM\_GETNOTIFY message'
+---
+Description: Notification sent to the view callback object to specify the locations and events that should be registered for change notification events.
+title: SFVM\_GETNOTIFY message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETNOTIFY message
@@ -39,7 +44,7 @@ A pointer to an absolute IDList of an item for which the view should register to
 *lEvents* \[out\]
 </dt> <dd>
 
-A value that contains one or more SHCNE values. See [**SHChangeNotify**](shchangenotify.md) for a list of possible values. The view callback object will register to receive an [**SFVM\_FSNOTIFY**](sfvm-fsnotify.md) message when any of the associated events occurs.
+A value that contains one or more SHCNE values. See [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master) for a list of possible values. The view callback object will register to receive an [**SFVM\_FSNOTIFY**](sfvm-fsnotify.md) message when any of the associated events occurs.
 
 </dd> </dl>
 
@@ -88,7 +93,7 @@ case SFVM_GETNOTIFY:
 [**SFVM\_QUERYFSNOTIFY**](sfvm-queryfsnotify.md)
 </dt> <dt>
 
-[**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md)
+[**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master)
 </dt> </dl>
 
  

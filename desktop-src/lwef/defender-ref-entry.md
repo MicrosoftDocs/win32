@@ -1,8 +1,15 @@
 ---
 title: Windows Defender Reference
 description: Windows Defender helps protect computers against pop-ups, slow performance, and security threats caused by spyware and other unwanted software.
-ms.assetid: 'ed86e1bc-0625-4367-a1f7-fdb23412828f'
-keywords: ["Windows Defender", "Windows Defender APIs"]
+ms.assetid: ed86e1bc-0625-4367-a1f7-fdb23412828f
+keywords:
+- Windows Defender
+- Windows Defender APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Defender Reference

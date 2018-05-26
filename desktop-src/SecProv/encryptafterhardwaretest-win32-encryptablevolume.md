@@ -1,7 +1,12 @@
-﻿---
-Description: 'Begins encryption of a fully decrypted operating system volume after a hardware test.'
-ms.assetid: '216c96bb-7737-4421-8b16-1ce295342266'
-title: 'EncryptAfterHardwareTest method of the Win32\_EncryptableVolume class'
+---
+Description: Begins encryption of a fully decrypted operating system volume after a hardware test.
+ms.assetid: 216c96bb-7737-4421-8b16-1ce295342266
+title: EncryptAfterHardwareTest method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EncryptAfterHardwareTest method of the Win32\_EncryptableVolume class

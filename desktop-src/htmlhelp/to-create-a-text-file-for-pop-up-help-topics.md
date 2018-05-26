@@ -1,7 +1,12 @@
 ---
 title: To create a text file for pop-up help topics
 description: To create a text file for pop-up help topics
-ms.assetid: '80F1265A-A771-4df1-BC03-E76EC22640C0'
+ms.assetid: 80F1265A-A771-4df1-BC03-E76EC22640C0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a text file for pop-up help topics

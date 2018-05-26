@@ -4,11 +4,17 @@ description: Returns or sets the type of a cluster object property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4cae1bb4-2ca4-4957-b174-1dc07676ce3a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4cae1bb4-2ca4-4957-b174-1dc07676ce3a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Type property Failover Cluster", "Type property Failover Cluster , ClusProperty object", "ClusProperty object Failover Cluster , Type property"]
+keywords:
+- Type property Failover Cluster
+- Type property Failover Cluster , ClusProperty object
+- ClusProperty object Failover Cluster , Type property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperty.Type property
@@ -30,7 +36,7 @@ ClusProperty.Type
 
 ## Property value
 
-**Long** describing the type of the cluster object property. MsClus.h defines the following types, enumerated in the [**CLUSTER\_PROPERTY\_TYPE**](cluster-property-type.md) enumeration
+**Long** describing the type of the cluster object property. MsClus.h defines the following types, enumerated in the [**CLUSTER\_PROPERTY\_TYPE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_property_type?branch=master) enumeration
 
 <dt>
 
@@ -41,7 +47,7 @@ ClusProperty.Type
 
 </dt> <dd>
 
-Describes the number value of a disk resource. A disk number value is represented by a [**CLUSPROP\_DISK\_NUMBER**](clusprop-disk-number.md) structure.
+Describes the number value of a disk resource. A disk number value is represented by a [**CLUSPROP\_DISK\_NUMBER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_dword?branch=master) structure.
 
 </dd> <dt>
 
@@ -107,7 +113,7 @@ Describes a data value in a property list. For example, in the property list pas
 
 </dt> <dd>
 
-Describes a data value used as a name, such as a property name. A name value is represented by a [**CLUSPROP\_PROPERTY\_NAME**](clusprop-property-name.md) structure.
+Describes a data value used as a name, such as a property name. A name value is represented by a [**CLUSPROP\_PROPERTY\_NAME**](/windows/previous-versions/ClusAPI/?branch=master) structure.
 
 </dd> <dt>
 
@@ -118,7 +124,7 @@ Describes a data value used as a name, such as a property name. A name value is 
 
 </dt> <dd>
 
-Describes a collection of information about a disk resource, such as its device name and volume label. Partition data is represented by a [**CLUSPROP\_PARTITION\_INFO**](clusprop-partition-info.md) structure.
+Describes a collection of information about a disk resource, such as its device name and volume label. Partition data is represented by a [**CLUSPROP\_PARTITION\_INFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_partition_info?branch=master) structure.
 
 </dd> <dt>
 
@@ -129,7 +135,7 @@ Describes a collection of information about a disk resource, such as its device 
 
 </dt> <dd>
 
-Describes a collection of information about a disk resource, such as its device name and volume label. Partition data is represented by a [**CLUSPROP\_PARTITION\_INFO\_EX**](clusprop-partition-info-ex.md) structure.
+Describes a collection of information about a disk resource, such as its device name and volume label. Partition data is represented by a [**CLUSPROP\_PARTITION\_INFO\_EX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_partition_info_ex?branch=master) structure.
 
 </dd> <dt>
 
@@ -140,7 +146,7 @@ Describes a collection of information about a disk resource, such as its device 
 
 </dt> <dd>
 
-Describes resource class information. A resource class value is described with a [**CLUSPROP\_RESOURCE\_CLASS**](clusprop-resource-class.md) structure. Resource classes are returned when an application calls [**ClusterResourceControl**](clusterresourcecontrol.md) or [**ClusterResourceTypeControl**](clusterresourcetypecontrol.md) with one of the following control codes.
+Describes resource class information. A resource class value is described with a [**CLUSPROP\_RESOURCE\_CLASS**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_resource_class?branch=master) structure. Resource classes are returned when an application calls [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) or [**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master) with one of the following control codes.
 
 [CLUSCTL\_RESOURCE\_GET\_CLASS\_INFO](clusctl-resource-get-class-info.md)
 
@@ -157,7 +163,7 @@ Describes resource class information. A resource class value is described with a
 
 </dt> <dd>
 
-Describes an [**Address**](ip-addresses-address.md) property for an [IP Address](ip-address.md) resource. A SCSI address value is represented by a [**CLUSPROP\_SCSI\_ADDRESS**](clusprop-scsi-address.md) structure.
+Describes an [**Address**](ip-addresses-address.md) property for an [IP Address](ip-address.md) resource. A SCSI address value is represented by a [**CLUSPROP\_SCSI\_ADDRESS**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_scsi_address?branch=master) structure.
 
 </dd> <dt>
 
@@ -168,7 +174,7 @@ Describes an [**Address**](ip-addresses-address.md) property for an [IP Address]
 
 </dt> <dd>
 
-Describes a [**Signature**](physical-disks-signature.md) property for a disk resource. A signature value is represented by a [**CLUSPROP\_DISK\_SIGNATURE**](clusprop-disk-signature.md) structure.
+Describes a [**Signature**](physical-disks-signature.md) property for a disk resource. A signature value is represented by a [**CLUSPROP\_DISK\_SIGNATURE**](/windows/previous-versions/ClusAPI/?branch=master) structure.
 
 </dd> <dt>
 
@@ -196,7 +202,7 @@ Describes the beginning of the range for users to define their own types. Associ
 
 ## Remarks
 
-The **Type** property corresponds to the **wType** member of a [**CLUSPROP\_SYNTAX**](clusprop-syntax.md) union.
+The **Type** property corresponds to the **wType** member of a [**CLUSPROP\_SYNTAX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_syntax?branch=master) union.
 
 For information on making constants defined by the Cluster Automation Server type library (MsClus.tlb) available to scripts, see [Creating a Cluster Automation Server Script](creating-a-cluster-automation-server-script.md).
 
@@ -207,7 +213,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -226,15 +232,15 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusProperty.Format**](clusproperty-format.md)
 </dt> <dt>
 
-[**CLUSPROP\_SYNTAX**](clusprop-syntax.md)
+[**CLUSPROP\_SYNTAX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_syntax?branch=master)
 </dt> <dt>
 
-[**CLUSTER\_PROPERTY\_TYPE**](cluster-property-type.md)
+[**CLUSTER\_PROPERTY\_TYPE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_property_type?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

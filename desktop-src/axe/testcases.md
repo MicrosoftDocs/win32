@@ -1,14 +1,20 @@
 ---
 title: TestCases element
 description: A container for one or more TestCase elements. TestCases enables multiple metrics to apply to a single item.
-ms.assetid: '8B377587-9150-49BA-AABC-E6DC219E2DD9'
-keywords: ["TestCases element Access Execution Engine"]
+ms.assetid: 8B377587-9150-49BA-AABC-E6DC219E2DD9
+keywords:
+- TestCases element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - TestCases
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCases element
@@ -70,9 +76,9 @@ TestCase
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

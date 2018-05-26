@@ -4,17 +4,22 @@ description: Terminal Services session Maximum Idle Time is the maximum amount o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6da59a9-d3e5-4f54-9481-a4dc6a5eb5cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a6da59a9-d3e5-4f54-9481-a4dc6a5eb5cd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Max-Idle-Time attribute AD Schema", "msTSMaxIdleTime attribute AD Schema"]
+keywords:
+- ms-TS-Max-Idle-Time attribute AD Schema
+- msTSMaxIdleTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Max-Idle-Time
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Max-Idle-Time attribute
@@ -38,9 +43,9 @@ Terminal Services session Maximum Idle Time is the maximum amount of time, in mi
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Terminal Services session Maximum Idle Time is the maximum amount of time, in mi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

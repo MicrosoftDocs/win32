@@ -1,8 +1,21 @@
 ---
 title: About the DrawDib Functions
 description: About the DrawDib Functions
-ms.assetid: '0ae993df-8393-479e-aa11-14301384715d'
-keywords: ["Video for Windows (VFW),DrawDib", "VFW (Video for Windows),DrawDib", "DrawDib,about", "DrawDib,color tables", "DrawDib,transfer mode", "DrawDib,display adapters", "DrawDib,image stretching", "DrawDib,compressed images"]
+ms.assetid: 0ae993df-8393-479e-aa11-14301384715d
+keywords:
+- Video for Windows (VFW),DrawDib
+- VFW (Video for Windows),DrawDib
+- DrawDib,about
+- DrawDib,color tables
+- DrawDib,transfer mode
+- DrawDib,display adapters
+- DrawDib,image stretching
+- DrawDib,compressed images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the DrawDib Functions

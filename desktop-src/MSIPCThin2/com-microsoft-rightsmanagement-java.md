@@ -4,10 +4,13 @@ description: Provides classes and interfaces that represent rights over protecte
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '625CD0FF-2917-4CEA-B25A-2307BFCBAB7C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 625CD0FF-2917-4CEA-B25A-2307BFCBAB7C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # com.microsoft.rightsmanagement

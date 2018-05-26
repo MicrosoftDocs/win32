@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsSetDefaultColorProfile function sets the default color profile name of the specified profile type in the specified profile management scope.'
-ms.assetid: '302f271c-801e-409c-a0fc-53f01e5e2055'
+---
+Description: The WcsSetDefaultColorProfile function sets the default color profile name of the specified profile type in the specified profile management scope.
+ms.assetid: 302f271c-801e-409c-a0fc-53f01e5e2055
 title: WcsSetDefaultColorProfile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsSetDefaultColorProfile function

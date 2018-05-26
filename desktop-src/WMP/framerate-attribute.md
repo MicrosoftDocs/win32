@@ -1,14 +1,20 @@
 ---
 title: FrameRate Attribute
 description: The FrameRate is a decimal value that specifies the frame rate (in frames per second) for a video file.
-ms.assetid: '9ca54620-f877-4934-8fda-e5ae31566128'
-keywords: ["FrameRate Attribute Windows Media Player"]
+ms.assetid: 9ca54620-f877-4934-8fda-e5ae31566128
+keywords:
+- FrameRate Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FrameRate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FrameRate Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

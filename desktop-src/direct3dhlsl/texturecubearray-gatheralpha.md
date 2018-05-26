@@ -1,12 +1,18 @@
 ---
 title: TextureCubeArray GatherAlpha methods
 description: Samples a texture and returns the alpha component.
-ms.assetid: 'C7D4B78D-B756-4ADA-B0EA-3360007C02E1'
-keywords: ["GatherAlpha methods HLSL"]
+ms.assetid: C7D4B78D-B756-4ADA-B0EA-3360007C02E1
+keywords:
+- GatherAlpha methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray::GatherAlpha methods
@@ -30,9 +36,9 @@ Samples a texture and returns the alpha component.
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

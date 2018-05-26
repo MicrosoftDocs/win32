@@ -4,11 +4,15 @@ description: The following code example can be used to implement an Active Direc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dc8f2c31-6031-4c7d-a173-5cedcedbfb26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: dc8f2c31-6031-4c7d-a173-5cedcedbfb26
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory AD , example code C/C++ , implementation of the context menu COM object"]
+keywords:
+- Active Directory AD , example code C/C++ , implementation of the context menu COM object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Implementation of the Context Menu COM Object

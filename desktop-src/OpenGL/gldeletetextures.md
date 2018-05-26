@@ -1,8 +1,9 @@
 ---
 title: glDeleteTextures function
 description: The glDeleteTextures function deletes named textures.
-ms.assetid: '300eb99a-9ee5-4495-9489-7e084db9c6c1'
-keywords: ["glDeleteTextures function OpenGL"]
+ms.assetid: 300eb99a-9ee5-4495-9489-7e084db9c6c1
+keywords:
+- glDeleteTextures function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDeleteTextures function
@@ -22,8 +28,8 @@ The **glDeleteTextures** function deletes named textures.
 
 ```C++
 void WINAPI glDeleteTextures(
-         GLsizei n,
-   const GLuint  *textures
+         GLsizei n,
+   const GLuint  *textures
 );
 ```
 
@@ -88,7 +94,7 @@ You cannot include calls to **glDeleteTextures** in display lists.
 > [!Note]  
 > The **glDeleteTextures** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 The following function retrieves information related to **glDeleteTextures**:
 
@@ -100,8 +106,8 @@ The following function retrieves information related to **glDeleteTextures**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -151,9 +157,9 @@ The following function retrieves information related to **glDeleteTextures**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

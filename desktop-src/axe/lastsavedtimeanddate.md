@@ -1,14 +1,20 @@
 ---
 title: LastSavedTimeAndDate element
 description: Last date and time a solution saved the manifest to a file.
-ms.assetid: '5B550D03-05C7-4057-99BE-560076EA69B2'
-keywords: ["LastSavedTimeAndDate element Access Execution Engine"]
+ms.assetid: 5B550D03-05C7-4057-99BE-560076EA69B2
+keywords:
+- LastSavedTimeAndDate element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - LastSavedTimeAndDate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LastSavedTimeAndDate element
@@ -65,9 +71,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

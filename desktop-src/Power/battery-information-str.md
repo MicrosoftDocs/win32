@@ -1,7 +1,12 @@
 ---
-Description: 'Contains battery information.'
-ms.assetid: '6a236f48-5a06-4537-a769-bd68e5c0eb27'
-title: 'BATTERY\_INFORMATION structure'
+Description: Contains battery information.
+ms.assetid: 6a236f48-5a06-4537-a769-bd68e5c0eb27
+title: BATTERY\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BATTERY\_INFORMATION structure
@@ -49,7 +54,7 @@ The battery capabilities. This member can be one or more of the following values
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,7 +72,7 @@ The battery technology. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +102,7 @@ An abbreviated character string that indicates the battery's chemistry. This str
 
 
 
- 
+ 
 
 Other chemistries may appear in the future and your code should be able to handle them.
 
@@ -155,9 +160,9 @@ Generally, a warning state occurs before a low state, but you should not assume 
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -168,9 +173,9 @@ Generally, a warning state occurs before a low state, but you should not assume 
 [**IOCTL\_BATTERY\_QUERY\_INFORMATION**](ioctl-battery-query-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

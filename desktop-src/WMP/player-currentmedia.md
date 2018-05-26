@@ -1,8 +1,9 @@
 ---
 title: Player.currentMedia
 description: The currentMedia property specifies or retrieves the current Media object.
-ms.assetid: '5cf45a10-9d0d-435e-97f1-d2c9c51f4b47'
-keywords: ["Player.currentMedia Windows Media Player"]
+ms.assetid: 5cf45a10-9d0d-435e-97f1-d2c9c51f4b47
+keywords:
+- Player.currentMedia Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.currentMedia
@@ -79,9 +85,9 @@ document.write("Found first media item. Name = " + Player.currentMedia.name);
 [**Settings.autoStart**](settings-autostart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

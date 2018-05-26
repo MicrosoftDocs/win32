@@ -1,8 +1,14 @@
 ---
 title: How the Routing Table Manager Architecture Fits Together
 description: The following illustration shows the relationship between the different components of a router.
-ms.assetid: '862566ce-47c4-424a-84c2-99f4c92efcc0'
-keywords: ["RTM, Architecture"]
+ms.assetid: 862566ce-47c4-424a-84c2-99f4c92efcc0
+keywords:
+- RTM, Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the Routing Table Manager Architecture Fits Together

@@ -4,13 +4,15 @@ description: Namespace provides a domain (in other words, a container), in which
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2379408d-1f14-4d65-8569-cab3a7cce4c4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2379408d-1f14-4d65-8569-cab3a7cce4c4
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Namespace class iSCSI Software Target API", "CIM_Namespace class iSCSI Software Target API , described"]
+keywords:
+- CIM_Namespace class iSCSI Software Target API
+- CIM_Namespace class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Namespace class
@@ -468,7 +473,7 @@ The scoping System's Name.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -482,9 +487,9 @@ The scoping System's Name.
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Alpha mask effect
 description: This effect applies an alpha mask to an image. It has two inputs, named Destination and Mask. Color values in the Destination image are multiplied by the alpha channel of the Mask image.
-ms.assetid: 'fddad107-ec70-3a24-f4ae-9dc4f3716536'
+ms.assetid: fddad107-ec70-3a24-f4ae-9dc4f3716536
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha mask effect
@@ -33,7 +38,7 @@ This effect has no effect-specific properties.
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: SB\_GETPARTS message
 description: Retrieves a count of the parts in a status window. The message also retrieves the coordinate of the right edge of the specified number of parts.
-ms.assetid: '2535f490-4d6b-468a-b13c-096941e61bf4'
-keywords: ["SB_GETPARTS message Windows Controls"]
+ms.assetid: 2535f490-4d6b-468a-b13c-096941e61bf4
+keywords:
+- SB_GETPARTS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_GETPARTS message
@@ -49,15 +55,15 @@ This message always returns the number of parts in the status bar.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

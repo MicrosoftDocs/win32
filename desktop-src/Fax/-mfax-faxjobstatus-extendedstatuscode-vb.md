@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtendedStatusCode property specifies a code describing the job''s extended status.'
-ms.assetid: 'c04e6dc4-cf1f-4b9c-89c6-b170cb84296a'
-title: 'FaxJobStatus.ExtendedStatusCode property'
+---
+Description: The ExtendedStatusCode property specifies a code describing the jobs extended status.
+ms.assetid: c04e6dc4-cf1f-4b9c-89c6-b170cb84296a
+title: FaxJobStatus.ExtendedStatusCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.ExtendedStatusCode property
@@ -21,7 +26,7 @@ Property ExtendedStatusCode As Integer
 
 ## Property value
 
-A variable of type [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](-mfax-fax-job-extended-status-enum.md) that receives the extended job status. For more information, see **FAX\_JOB\_EXTENDED\_STATUS\_ENUM**.
+A variable of type [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_extended_status_enum?branch=master) that receives the extended job status. For more information, see **FAX\_JOB\_EXTENDED\_STATUS\_ENUM**.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**FAX\_JOB\_EXTENDED\_STATUS\_ENUM**](-mfax-fax-job-extended
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

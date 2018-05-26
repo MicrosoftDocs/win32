@@ -1,7 +1,12 @@
 ---
 title: ATA Port Routines for Processing I/O Requests
 description: ATA Port Routines for Processing I/O Requests
-ms.assetid: '3e78218e-3802-46a5-8565-d89f3c237aec'
+ms.assetid: 3e78218e-3802-46a5-8565-d89f3c237aec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Routines for Processing I/O Requests

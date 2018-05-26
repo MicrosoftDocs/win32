@@ -1,7 +1,12 @@
 ---
 title: Frequently Asked Questions
 description: The following questions and answers cover the most frequently encountered Windows Firewall situations.
-ms.assetid: '83febda0-e6b0-425a-9686-40dca1591ea7'
+ms.assetid: 83febda0-e6b0-425a-9686-40dca1591ea7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frequently Asked Questions
@@ -85,11 +90,11 @@ Is the firewall on? If so, continue.<br/> In a command line window type &quot;Ip
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

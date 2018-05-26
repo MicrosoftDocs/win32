@@ -1,8 +1,11 @@
 ---
 title: IWMPControls currentPositionString property
 description: The currentPositionString property gets the current position in the media item as a string formatted as HH MM SS (hours, minutes, and seconds).
-ms.assetid: 'cd28dafa-b6a4-4bed-aa5d-7e7be6af1426'
-keywords: ["currentPositionString property Windows Media Player", "currentPositionString property Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , currentPositionString property"]
+ms.assetid: cd28dafa-b6a4-4bed-aa5d-7e7be6af1426
+keywords:
+- currentPositionString property Windows Media Player
+- currentPositionString property Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , currentPositionString property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::currentPositionString property
@@ -129,9 +137,9 @@ End Sub</code></pre></td>
 [**IWMPControls.currentPosition (VB and C#)**](wmplibiwmpcontrols-iwmpcontrols-currentposition--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

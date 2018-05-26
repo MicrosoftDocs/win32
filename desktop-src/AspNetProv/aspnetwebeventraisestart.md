@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the WebEventRaiseStart event.'
+---
+Description: The event type class for the WebEventRaiseStart event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '08231843-e99d-42aa-8b06-20ce8d2ab5a7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 08231843-e99d-42aa-8b06-20ce8d2ab5a7
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetWebEventRaiseStart class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetWebEventRaiseStart class

@@ -1,7 +1,12 @@
 ---
 title: ilt (sm4 - asm)
 description: Component-wise vector integer less-than comparison.
-ms.assetid: '5F06E568-6234-4778-8169-D8352FAB5297'
+ms.assetid: 5F06E568-6234-4778-8169-D8352FAB5297
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ilt (sm4 - asm)
@@ -15,7 +20,7 @@ Component-wise vector integer less-than comparison.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise vector integer less-than comparison.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This instruction applies to the following shader stages:
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

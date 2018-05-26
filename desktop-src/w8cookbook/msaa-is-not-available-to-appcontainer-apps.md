@@ -1,7 +1,12 @@
 ---
 title: MSAA is not available to Windows Store apps
 description: MSAA is not available to Windows Store apps
-ms.assetid: 'C3C12BC7-7A0B-4859-93D0-AA78BC06E90B'
+ms.assetid: C3C12BC7-7A0B-4859-93D0-AA78BC06E90B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSAA is not available to Windows Store apps

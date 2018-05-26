@@ -1,8 +1,22 @@
 ---
 title: Custom Graphics in Windows Media Player
 description: Custom Graphics in Windows Media Player
-ms.assetid: '1a4b9cfc-a0d0-41b7-a8c1-31c28415a49b'
-keywords: ["Windows Media metafile playlists,custom graphics", "playlists,custom graphics", "metafile playlists,custom graphics", "Windows Media metafile playlists,graphics", "playlists,graphics", "metafile playlists,graphics", "custom graphics", "Windows Media Player,custom graphics", "Windows Media Player,graphics"]
+ms.assetid: 1a4b9cfc-a0d0-41b7-a8c1-31c28415a49b
+keywords:
+- Windows Media metafile playlists,custom graphics
+- playlists,custom graphics
+- metafile playlists,custom graphics
+- Windows Media metafile playlists,graphics
+- playlists,graphics
+- metafile playlists,graphics
+- custom graphics
+- Windows Media Player,custom graphics
+- Windows Media Player,graphics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Graphics in Windows Media Player

@@ -4,18 +4,22 @@ description: Most LDAP functions return a numeric Return Value that indicates wh
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a364bea4-280b-49af-813d-47614133338f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: a364bea4-280b-49af-813d-47614133338f
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Understanding Return Values LDAP"]
+keywords:
+- Understanding Return Values LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Understanding Return Values
 
 Most LDAP functions return a numeric [Return Value](return-values.md) that indicates whether the function call succeeds or what type of error was encountered. However, this information is sometimes not enough to understand the actual problem.
 
-Requesting the server error code can often help identify the source of the problem. The [**ldap\_get\_option**](ldap-get-option.md) function is used with LDAP version 3 to retrieve the server error string.
+Requesting the server error code can often help identify the source of the problem. The [**ldap\_get\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_option?branch=master) function is used with LDAP version 3 to retrieve the server error string.
 
 
 ```C++

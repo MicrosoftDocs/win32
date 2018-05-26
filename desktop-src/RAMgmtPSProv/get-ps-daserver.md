@@ -2,13 +2,16 @@
 title: Get method of the PS\_DAServer class
 description: This cmdlet displays the properties of the DA Server.
 audience: developer
-ms.assetid: 'b105dfda-b568-4067-a095-126221c37932'
-ms.prod: 'windows-server-dev'
+ms.assetid: b105dfda-b568-4067-a095-126221c37932
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DAServer class", "PS_DAServer class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DAServer class
+- PS_DAServer class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DAServer class
@@ -28,9 +34,9 @@ This cmdlet displays the properties of the DA Server.
 
 ```mof
 uint32 Get(
-  [in]  string   ComputerName,
-  [in]  string   EntrypointName,
-  [out] DAServer cmdletOutput
+  [in]  string   ComputerName,
+  [in]  string   EntrypointName,
+  [out] DAServer cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ DA server properties. 1. Authentication type. 2. Internal IPv6 prefix 3. Client 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ DA server properties. 1. Authentication type. 2. Internal IPv6 prefix 3. Client 
 [**PS\_DAServer**](ps-daserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

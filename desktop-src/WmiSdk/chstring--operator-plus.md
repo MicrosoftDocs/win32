@@ -1,13 +1,16 @@
 ---
-Description: 'The + concatenation operator joins two strings and returns a CHString object.'
+Description: The + concatenation operator joins two strings and returns a CHString object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b7ed6379-ccfa-40f9-9607-d9033179b674'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b7ed6379-ccfa-40f9-9607-d9033179b674
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CHString::operator+'
+title: CHStringoperator+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CHString::operator+
@@ -109,8 +112,8 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 
 |                                     |                                                                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>ChString.h (include FwCommon.h)</dt> </dl>                                                    |
 | Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
@@ -124,9 +127,9 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 [**CHString**](chstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

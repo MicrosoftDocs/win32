@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_KEYType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a KEY Resource Record.
-ms.assetid: 'd3fa1f35-fa0a-47ee-b2be-4464b9b21d80'
-keywords: ["MicrosoftDNS_KEYType class DNS", "MicrosoftDNS_KEYType class DNS , described"]
+ms.assetid: d3fa1f35-fa0a-47ee-b2be-4464b9b21d80
+keywords:
+- MicrosoftDNS_KEYType class DNS
+- MicrosoftDNS_KEYType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_KEYType class
@@ -57,7 +64,7 @@ The **MicrosoftDNS\_KEYType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -87,7 +94,7 @@ Algorithm used with the key specified in the resource record. The assigned value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,7 +134,7 @@ Protocol for which the key specified in the resource record can be used. The ass
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -151,7 +158,7 @@ Public key, represented in base 64 as described in Appendix A of RFC 2535.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -170,9 +177,9 @@ Public key, represented in base 64 as described in Appendix A of RFC 2535.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

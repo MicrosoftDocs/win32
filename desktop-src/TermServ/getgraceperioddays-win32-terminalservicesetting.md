@@ -1,14 +1,17 @@
 ---
 title: GetGracePeriodDays method of the Win32\_TerminalServiceSetting class
-description: Retrieves the number of days that are remaining in the Remote Desktop Services licensing grace period for a Remote Desktop Session Host (RD Session Host) server. A zero value indicates that the grace period is over.
+description: Retrieves the number of days that are remaining in the Remote Desktop Services licensing grace period for a Remote Desktop Session Host (RD Session Host) server. A zero value indicates that the grace period is over.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd84d7815-ee09-43d9-a370-993d23f14898'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d84d7815-ee09-43d9-a370-993d23f14898
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetGracePeriodDays method Remote Desktop Services", "GetGracePeriodDays method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , GetGracePeriodDays method"]
+keywords:
+- GetGracePeriodDays method Remote Desktop Services
+- GetGracePeriodDays method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , GetGracePeriodDays method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetGracePeriodDays method of the Win32\_TerminalServiceSetting class
 
-Retrieves the number of days that are remaining in the Remote Desktop Services licensing grace period for a Remote Desktop Session Host (RD Session Host) server. A zero value indicates that the grace period is over.
+Retrieves the number of days that are remaining in the Remote Desktop Services licensing grace period for a Remote Desktop Session Host (RD Session Host) server. A zero value indicates that the grace period is over.
 
 ## Syntax
 
 
 ```mof
 uint32 GetGracePeriodDays(
-  [out] uint32 DaysLeft
+  [out] uint32 DaysLeft
 );
 ```
 
@@ -66,8 +72,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -81,9 +87,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

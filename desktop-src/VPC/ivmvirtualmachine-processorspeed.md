@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine ProcessorSpeed property
 description: Speed of the processor, in megahertz (MHz) or gigahertz (GHz).
-ms.assetid: '465157a9-08ad-4636-b7c6-a188ff21e131'
-keywords: ["ProcessorSpeed property Virtual PC", "ProcessorSpeed property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , ProcessorSpeed property"]
+ms.assetid: 465157a9-08ad-4636-b7c6-a188ff21e131
+keywords:
+- ProcessorSpeed property Virtual PC
+- ProcessorSpeed property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , ProcessorSpeed property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ProcessorSpeed property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the speed of the processor, in megahertz (MHz) or gigahertz (GHz).
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ProcessorSpeed(
-  [out, retval] long *processorSpeed
+  [out, retval] long *processorSpeed
 );
 ```
 
@@ -56,9 +64,9 @@ The speed, in megahertz or gigahertz.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -72,9 +80,9 @@ The speed, in megahertz or gigahertz.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

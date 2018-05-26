@@ -1,7 +1,12 @@
 ---
 title: Retrieving the Properties of a Connection (JScript)
 description: The following JScript code enumerates the connections on the local computer. For each connection, the code obtains a sharing configuration interface for the connection, and retrieves the properties for the connection.
-ms.assetid: '5f39c71d-1a29-485a-9412-23b4d10d304a'
+ms.assetid: 5f39c71d-1a29-485a-9412-23b4d10d304a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Properties of a Connection (JScript)

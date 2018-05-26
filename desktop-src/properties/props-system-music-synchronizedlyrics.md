@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f68c20e5-ad75-4b99-b037-a45925dd37a2'
-title: 'System.Music.SynchronizedLyrics'
+Description: .
+ms.assetid: f68c20e5-ad75-4b99-b037-a45925dd37a2
+title: System.Music.SynchronizedLyrics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.SynchronizedLyrics

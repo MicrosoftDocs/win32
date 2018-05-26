@@ -1,7 +1,12 @@
-﻿---
-Description: 'Requests a Media Foundation transform (MFT) to flush all stored data.'
-ms.assetid: 'c48f3a88-a007-4f30-ac60-9e5a8c24e1ee'
-title: 'MFT\_MESSAGE\_COMMAND\_DRAIN'
+---
+Description: Requests a Media Foundation transform (MFT) to flush all stored data.
+ms.assetid: c48f3a88-a007-4f30-ac60-9e5a8c24e1ee
+title: MFT\_MESSAGE\_COMMAND\_DRAIN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_MESSAGE\_COMMAND\_DRAIN
@@ -14,16 +19,16 @@ None.
 
 ## Remarks
 
-To send this message, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md).
+To send this message, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master).
 
-After this message is sent, the specified input stream does not accept input until the MFT processes all data from previous calls to [**IMFTransform::ProcessInput**](imftransform-processinput.md).
+After this message is sent, the specified input stream does not accept input until the MFT processes all data from previous calls to [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master).
 
 The draining process varies slightly between synchronous MFTs and asynchronous MFTs:
 
 **Synchronous MFTs**
 
-1.  After the client sends this message, it calls [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) in a loop, until **ProcessOutput** returns the error code **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**.
-2.  As long as the MFT still has data to process, further calls to [**ProcessInput**](imftransform-processinput.md) will fail. The MFT continues to produce output until it uses all stored data. The MFT discards any data that cannot be processed into a complete output sample. (For example, it should drop a partial video frame.)
+1.  After the client sends this message, it calls [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) in a loop, until **ProcessOutput** returns the error code **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**.
+2.  As long as the MFT still has data to process, further calls to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) will fail. The MFT continues to produce output until it uses all stored data. The MFT discards any data that cannot be processed into a complete output sample. (For example, it should drop a partial video frame.)
 
 **Asynchronous MFTs**
 
@@ -34,7 +39,7 @@ The draining process varies slightly between synchronous MFTs and asynchronous M
 After the client has drained the MFT, the client can send more input data. The first sample after the drain operation must have the discontinuity attribute ([**MFSampleExtension\_Discontinuity**](mfsampleextension-discontinuity-attribute.md) attribute).
 
 > [!Note]  
-> Earlier versions of this documentation stated that the *ulParam* event parameter is a member of the [**\_MFT\_DRAIN\_TYPE**](-mft-drain-type.md) enumeration. That is not correct. The *ulParam* contains a stream identifier.
+> Earlier versions of this documentation stated that the *ulParam* event parameter is a member of the [**\_MFT\_DRAIN\_TYPE**](/windows/win32/mftransform/ne-mftransform-_mft_drain_type?branch=master) enumeration. That is not correct. The *ulParam* contains a stream identifier.
 
  
 
@@ -65,7 +70,7 @@ Otherwise, a synchronous MFT must implement this message.
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](mft-message-type.md)
+[**MFT\_MESSAGE\_TYPE**](/windows/win32/mftransform/ne-mftransform-_mft_message_type?branch=master)
 </dt> <dt>
 
 [Asynchronous MFTs](asynchronous-mfts.md)

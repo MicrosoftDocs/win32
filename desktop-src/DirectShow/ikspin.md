@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IKsPin interface provides a method to retrieve the mediums supported by a pin on a kernel-mode filter. IKsPin has additional methods besides the one shown here, but they are not supported for DirectShow.'
-ms.assetid: '14d9bef2-e8f0-49d5-bd89-69a95814cf8c'
+---
+Description: The IKsPin interface provides a method to retrieve the mediums supported by a pin on a kernel-mode filter. IKsPin has additional methods besides the one shown here, but they are not supported for DirectShow.
+ms.assetid: 14d9bef2-e8f0-49d5-bd89-69a95814cf8c
 title: IKsPin interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKsPin interface

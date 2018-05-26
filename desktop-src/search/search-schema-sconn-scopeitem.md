@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;scopeItem&gt; element represents a single entry in the exclusion/inclusion scope table.'
-ms.assetid: '18a58b3b-771c-4829-b3d4-253383b4bee8'
-title: 'scopeItem Element (Search Connector Schema)'
+Description: The &lt;scopeItem&gt; element represents a single entry in the exclusion/inclusion scope table.
+ms.assetid: 18a58b3b-771c-4829-b3d4-253383b4bee8
+title: scopeItem Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # scopeItem Element (Search Connector Schema)

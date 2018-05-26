@@ -1,7 +1,12 @@
 ---
-Description: 'Each item in a collection exposes properties.'
-ms.assetid: 'd9af57ea-c5b3-4017-bdc2-e43b86b3ddcd'
+Description: Each item in a collection exposes properties.
+ms.assetid: d9af57ea-c5b3-4017-bdc2-e43b86b3ddcd
 title: Setting Properties and Saving Changes to the COM+ Catalog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Properties and Saving Changes to the COM+ Catalog
@@ -12,7 +17,7 @@ Because the items in a given collection all represent the same kind of thing, th
 
 For a complete list of properties exposed by items in each collection, see [COM+ Administration Collections](com--administration-collections.md).
 
-You represent an item in a collection by using an object created from the [**COMAdminCatalogObject**](comadmincatalogobject.md) class. This object enables you to set and get any of the properties exposed by the item. When setting properties, it is also possible that you might be contending with another writer to the COM+ catalog. For more information, see [Getting and Setting Properties](getting-and-setting-properties.md).
+You represent an item in a collection by using an object created from the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) class. This object enables you to set and get any of the properties exposed by the item. When setting properties, it is also possible that you might be contending with another writer to the COM+ catalog. For more information, see [Getting and Setting Properties](getting-and-setting-properties.md).
 
 After you have set properties, no changes are actually committed until you explicitly save changes. For more information, see [Saving or Discarding Changes](saving-or-discarding-changes.md).
 

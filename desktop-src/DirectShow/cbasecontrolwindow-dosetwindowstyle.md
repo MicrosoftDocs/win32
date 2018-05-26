@@ -1,7 +1,12 @@
 ---
-Description: 'The DoSetWindowStyle method changes the typical or extended window styles.'
-ms.assetid: '4a9a97fb-b527-44ce-af8c-e5ea832ed4c4'
-title: 'CBaseControlWindow.DoSetWindowStyle method'
+Description: The DoSetWindowStyle method changes the typical or extended window styles.
+ms.assetid: 4a9a97fb-b527-44ce-af8c-e5ea832ed4c4
+title: CBaseControlWindow.DoSetWindowStyle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.DoSetWindowStyle method
@@ -13,8 +18,8 @@ The `DoSetWindowStyle` method changes the typical or extended window styles.
 
 ```C++
 HRESULT DoSetWindowStyle(
-   long Style,
-   long WindowLong
+   long Style,
+   long WindowLong
 );
 ```
 
@@ -45,7 +50,7 @@ Value specifying which styles to set. Must be one of the following:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,9 +80,9 @@ This member function calls the Win32 **SetWindowLong** function to set the windo
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Root Signature Limits
 description: The root signature is prime real estate, and there are strict limits and costs to consider.
-ms.assetid: '01121D3A-1926-4246-9C20-5E11F2E0B092'
+ms.assetid: 01121D3A-1926-4246-9C20-5E11F2E0B092
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Root Signature Limits

@@ -1,7 +1,12 @@
 ---
 Description: Major Media Types
-ms.assetid: '1cca3539-a920-4938-93b9-ae41e1c0a287'
+ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: Major Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Major Media Types
@@ -49,7 +54,7 @@ Third-party components can define new major types and new subtypes.
 
 <dl> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Types](media-types.md)

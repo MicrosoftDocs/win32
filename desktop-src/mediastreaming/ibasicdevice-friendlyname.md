@@ -1,26 +1,34 @@
 ---
 title: IBasicDevice FriendlyName method
-description: Retrieves the device’s friendly name.
-ms.assetid: '693806E1-CA66-457D-A25B-D79064776965'
-keywords: ["FriendlyName method Media Streaming API", "FriendlyName method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , FriendlyName method"]
+description: Retrieves the device s friendly name.
+ms.assetid: 693806E1-CA66-457D-A25B-D79064776965
+keywords:
+- FriendlyName method Media Streaming API
+- FriendlyName method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , FriendlyName method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.FriendlyName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::FriendlyName method
 
-Retrieves the device’s friendly name.
+Retrieves the device s friendly name.
 
 ## Syntax
 
 
 ```C++
 HRESULT FriendlyName(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -33,7 +41,7 @@ HRESULT FriendlyName(
 *value* \[out\]
 </dt> <dd>
 
-Receives a pointer to the device’s friendly name.
+Receives a pointer to the device s friendly name.
 
 </dd> </dl>
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

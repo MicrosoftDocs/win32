@@ -4,17 +4,22 @@ description: Contains the phonetic last name of the person.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '43c98f1c-b72c-4f59-a6a0-d2083bd8f1bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 43c98f1c-b72c-4f59-a6a0-d2083bd8f1bb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Phonetic-Last-Name attribute AD Schema", "msDS-PhoneticLastName attribute AD Schema"]
+keywords:
+- ms-DS-Phonetic-Last-Name attribute AD Schema
+- msDS-PhoneticLastName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Phonetic-Last-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Phonetic-Last-Name attribute
@@ -38,9 +43,9 @@ Contains the phonetic last name of the person.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the phonetic last name of the person.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

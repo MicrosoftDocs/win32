@@ -1,8 +1,11 @@
 ---
 title: IMessenger GetContact method
 description: Creates a MessengerContact object that can be used to call methods of the Windows Messenger interfaces, such as IMessenger, IMessengerContact, and IMessengerContacts.
-ms.assetid: '9036782c-1248-44f9-b674-2a69b5b24014'
-keywords: ["GetContact method Windows Messenger", "GetContact method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , GetContact method"]
+ms.assetid: 9036782c-1248-44f9-b674-2a69b5b24014
+keywords:
+- GetContact method Windows Messenger
+- GetContact method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , GetContact method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::GetContact method
 
-\[**GetContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**GetContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Creates a [**MessengerContact**](im-messengercontact.md) object that can be used to call methods of the Windows Messenger interfaces, such as [**IMessenger**](im-imessenger.md), [**IMessengerContact**](im-imessengercontact.md), and [**IMessengerContacts**](im-imessengercontacts.md).
 
@@ -24,9 +32,9 @@ Creates a [**MessengerContact**](im-messengercontact.md) object that can be used
 
 ```C++
 HRESULT GetContact(
-  [in]          BSTR      bstrSigninName,
-  [in]          BSTR      bstrServiceId,
-  [out, retval] IDispatch **ppMContact
+  [in]          BSTR      bstrSigninName,
+  [in]          BSTR      bstrServiceId,
+  [out, retval] IDispatch **ppMContact
 );
 ```
 
@@ -82,7 +90,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,7 +116,7 @@ Creating a [**MessengerContact**](im-messengercontact.md) object for a contact w
 > -   You should not return MSGR\_E\_NOT\_LOGGED\_ON to avoid an exception.
 > -   Clear the value returned to the user.
 
- 
+ 
 
 ## Requirements
 
@@ -116,8 +124,8 @@ Creating a [**MessengerContact**](im-messengercontact.md) object for a contact w
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -134,9 +142,9 @@ Creating a [**MessengerContact**](im-messengercontact.md) object for a contact w
 [**IMessengerContacts**](im-imessengercontacts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

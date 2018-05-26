@@ -1,8 +1,9 @@
 ---
 title: HDM\_ORDERTOINDEX message
 description: Retrieves an index value for an item based on its order in the header control. You can send this message explicitly or use the Header\_OrderToIndex macro.
-ms.assetid: '3c3289cc-0f47-4d02-b027-8848b7ec05d5'
-keywords: ["HDM_ORDERTOINDEX message Windows Controls"]
+ms.assetid: 3c3289cc-0f47-4d02-b027-8848b7ec05d5
+keywords:
+- HDM_ORDERTOINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_ORDERTOINDEX message
 
-Retrieves an index value for an item based on its order in the header control. You can send this message explicitly or use the [**Header\_OrderToIndex**](header-ordertoindex.md) macro.
+Retrieves an index value for an item based on its order in the header control. You can send this message explicitly or use the [**Header\_OrderToIndex**](/windows/win32/Commctrl/nf-commctrl-header_ordertoindex?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns INT that indicates the item index. If *wParam* is invalid (negative or t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

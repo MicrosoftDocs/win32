@@ -1,7 +1,12 @@
 ---
-Description: 'The InkAnalysis APIs provide Tablet PC developers with powerful tools to programmatically examine ink input. The API classifies ink into meaningful categories such as words, lines, paragraphs, and drawings.'
-ms.assetid: 'd9521a8c-f61a-40ea-8603-e8afbba75a4e'
+Description: The InkAnalysis APIs provide Tablet PC developers with powerful tools to programmatically examine ink input. The API classifies ink into meaningful categories such as words, lines, paragraphs, and drawings.
+ms.assetid: d9521a8c-f61a-40ea-8603-e8afbba75a4e
 title: Ink Analysis Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis Overview

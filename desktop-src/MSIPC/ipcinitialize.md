@@ -4,11 +4,12 @@ description: Locates the installed version of Msipc.dll and calls the Windows Lo
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'B84BFBBD-E8CA-437D-8055-D365A70FACC9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: B84BFBBD-E8CA-437D-8055-D365A70FACC9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcInitialize function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcInitialize function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - msipc_s.lib
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcInitialize function
@@ -24,9 +28,9 @@ api_type:
 Locates the installed version of Msipc.dll and calls the Windows [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) against it. **IpcInitialize** is made available through a static library, *msipc\_s.lib*.
 
 > \[!Important\]  
-> This function should be called before any other Rights Management Services SDK 2.1 function, otherwise the system may not work properly.
+> This function should be called before any other Rights Management Services SDK 2.1 function, otherwise the system may not work properly.
 
- 
+ 
 
 After calling **IpcInitialize**, your next call should be to [**IpcInitializeEnvironment**](ipcinitializeenvironment.md).
 
@@ -47,7 +51,7 @@ This function has no parameters.
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Remarks
 
@@ -69,8 +73,8 @@ It is not safe to call **IpcInitialize** from within [**DllMain**](https://msdn.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc\_s.lib</dt> </dl>                |
 
@@ -98,9 +102,9 @@ It is not safe to call **IpcInitialize** from within [**DllMain**](https://msdn.
 [SDK elements](https://msdn.microsoft.com/library/windows/desktop/hh971321)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

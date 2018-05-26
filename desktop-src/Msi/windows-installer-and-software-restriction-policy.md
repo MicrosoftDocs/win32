@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer is integrated with Software Restriction Policy in Microsoft Windows XP.'
-ms.assetid: 'b1e58336-8908-45ee-86f0-81b2314fa77a'
+Description: Windows Installer is integrated with Software Restriction Policy in Microsoft Windows XP.
+ms.assetid: b1e58336-8908-45ee-86f0-81b2314fa77a
 title: Windows Installer and Software Restriction Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Installer and Software Restriction Policy

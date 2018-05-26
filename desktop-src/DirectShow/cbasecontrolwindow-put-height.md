@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_Height method sets the window height.'
-ms.assetid: '11026ee5-e83a-4d82-9069-a302d55a2d46'
-title: 'CBaseControlWindow.put\_Height method'
+Description: The put\_Height method sets the window height.
+ms.assetid: 11026ee5-e83a-4d82-9069-a302d55a2d46
+title: CBaseControlWindow.put\_Height method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_Height method
@@ -13,7 +18,7 @@ The `put_Height` method sets the window height.
 
 ```C++
 HRESULT put_Height(
-   long Height
+   long Height
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

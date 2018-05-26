@@ -1,6 +1,11 @@
-﻿---
-Description: 'Verifies that the monitor is active and available.'
-title: 'IMultiMonitorDockingSite::RequestMonitor method'
+---
+Description: Verifies that the monitor is active and available.
+title: IMultiMonitorDockingSiteRequestMonitor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMultiMonitorDockingSite::RequestMonitor method
@@ -28,7 +33,7 @@ HRESULT RequestMonitor(
 
 Type: **[**IUnknown**](com.iunknown)\***
 
-A pointer to the object implementing the [**IDockingWindow**](idockingwindow.md) interface.
+A pointer to the object implementing the [**IDockingWindow**](/windows/win32/shobjidl_core/nn-shobjidl_core-idockingwindow?branch=master) interface.
 
 </dd> <dt>
 

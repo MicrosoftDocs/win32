@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms a 4D vector by a given matrix.'
-ms.assetid: 'de93f138-7cf8-43cc-8255-c053c799aea8'
+---
+Description: Transforms a 4D vector by a given matrix.
+ms.assetid: de93f138-7cf8-43cc-8255-c053c799aea8
 title: D3DXVec4Transform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Transform function

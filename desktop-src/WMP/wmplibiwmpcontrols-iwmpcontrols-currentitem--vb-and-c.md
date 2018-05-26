@@ -1,8 +1,11 @@
 ---
 title: IWMPControls currentItem property
 description: The currentItem property gets or sets the current media item in a playlist.
-ms.assetid: '0a331b1f-95bd-48ea-b951-1ca35cc96865'
-keywords: ["currentItem property Windows Media Player", "currentItem property Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , currentItem property"]
+ms.assetid: 0a331b1f-95bd-48ea-b951-1ca35cc96865
+keywords:
+- currentItem property Windows Media Player
+- currentItem property Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , currentItem property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::currentItem property
@@ -132,9 +140,9 @@ End Sub</code></pre></td>
 [**IWMPPlaylistCollection.getByName(VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

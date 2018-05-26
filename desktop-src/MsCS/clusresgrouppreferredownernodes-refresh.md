@@ -4,11 +4,14 @@ description: Refreshes the data in the ClusResGroupPreferredOwnerNodes collectio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05085f9c-776c-4dc9-8c48-8157eeec6280'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 05085f9c-776c-4dc9-8c48-8157eeec6280
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Refresh method Failover Cluster", "Refresh method Failover Cluster , ClusResGroupPreferredOwnerNodes class", "ClusResGroupPreferredOwnerNodes class Failover Cluster , Refresh method"]
+keywords:
+- Refresh method Failover Cluster
+- Refresh method Failover Cluster , ClusResGroupPreferredOwnerNodes class
+- ClusResGroupPreferredOwnerNodes class Failover Cluster , Refresh method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroupPreferredOwnerNodes.Refresh method
@@ -53,7 +59,7 @@ Any unsaved changes to the collection will be lost when the **Refresh** method i
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>                  |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>                |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>                |
@@ -69,9 +75,9 @@ Any unsaved changes to the collection will be lost when the **Refresh** method i
 [**ClusResGroupPreferredOwnerNodes**](clusresgrouppreferredownernodes-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

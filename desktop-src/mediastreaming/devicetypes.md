@@ -1,8 +1,9 @@
 ---
 title: DeviceTypes enumeration
 description: Describes the DLNA device types that are supported by the Media Streaming API.
-ms.assetid: 'ec6bbc1f-653a-414c-b458-1a5e1b101781'
-keywords: ["DeviceTypes enumeration Media Streaming API"]
+ms.assetid: ec6bbc1f-653a-414c-b458-1a5e1b101781
+keywords:
+- DeviceTypes enumeration Media Streaming API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Windows.Media.Streaming.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceTypes enumeration
@@ -22,10 +28,10 @@ Describes the DLNA device types that are supported by the Media Streaming API.
 
 ```C++
 typedef enum DeviceTypes { 
-  Unknown               = 0x0,
-  DigitalMediaRenderer  = 0x1,
-  DigitalMediaServer    = 0x2,
-  DigitalMediaPlayer    = 0x4
+  Unknown               = 0x0,
+  DigitalMediaRenderer  = 0x1,
+  DigitalMediaServer    = 0x2,
+  DigitalMediaPlayer    = 0x4
 } DeviceTypes;
 ```
 
@@ -73,9 +79,9 @@ DLNA Digital Media Player
 
 
 
- 
+ 
 
- 
+ 
 
 
 

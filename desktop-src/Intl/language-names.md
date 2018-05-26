@@ -1,7 +1,12 @@
 ---
-Description: 'A language name uses essentially the same formatting as a locale name. For example, the language name for the English (Belize) locale is &\#0034;en-BZ&\#0034;. Each language name corresponds to a language identifier.'
-ms.assetid: 'e8c54168-22b3-435e-b19a-9b34adcdb018'
+Description: A language name uses essentially the same formatting as a locale name. For example, the language name for the English (Belize) locale is &\#0034;en-BZ&\#0034;. Each language name corresponds to a language identifier.
+ms.assetid: e8c54168-22b3-435e-b19a-9b34adcdb018
 title: Language Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Names

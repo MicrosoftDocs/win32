@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.top
 description: The top attribute specifies or retrieves the top coordinate of the control.
-ms.assetid: '869abbc4-7e78-4e6b-980e-9b967c61fe19'
-keywords: ["AmbientAttributes.top Windows Media Player"]
+ms.assetid: 869abbc4-7e78-4e6b-980e-9b967c61fe19
+keywords:
+- AmbientAttributes.top Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.top
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.top
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) representing the distance i
 [**AmbientAttributes.id**](ambientattributes-id.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 title: Device Error Codes
 description: The InvokeAction and QueryStateVariable methods return HRESULT values that might indicate a device error (that is, an error that is received from a UPnP-certified device).
-ms.assetid: '4b18a5d4-f6e8-4670-93dd-ecd012940000'
+ms.assetid: 4b18a5d4-f6e8-4670-93dd-ecd012940000
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Error Codes
 
-The [**InvokeAction**](iupnpservice-invokeaction.md) and [**QueryStateVariable**](iupnpservice-querystatevariable.md) methods return **HRESULT** values that might indicate a device error (that is, an error that is received from a UPnP-certified device). If an error is received from a device, the method ([**InvokeAction**](iupnpservice-invokeaction.md) or [**QueryStateVariable**](iupnpservice-querystatevariable.md)) returns an **HRESULT** value that is based on the device error code, as explained in this topic. Because a conversion is applied to the device error code to produce an **HRESULT** value, you cannot read the device error code directly from the **HRESULT** value.
+The [**InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master) and [**QueryStateVariable**](/windows/win32/Upnp/nf-upnp-iupnpservice-querystatevariable?branch=master) methods return **HRESULT** values that might indicate a device error (that is, an error that is received from a UPnP-certified device). If an error is received from a device, the method ([**InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master) or [**QueryStateVariable**](/windows/win32/Upnp/nf-upnp-iupnpservice-querystatevariable?branch=master)) returns an **HRESULT** value that is based on the device error code, as explained in this topic. Because a conversion is applied to the device error code to produce an **HRESULT** value, you cannot read the device error code directly from the **HRESULT** value.
 
 ## Conversion of a Device Error Code to an HRESULT
 
@@ -26,7 +31,7 @@ Both of these procedures can be reversed to determine the device error code from
 
 If the **HRESULT** value is greater than or equal to **UPNP\_E\_ACTION\_SPECIFIC\_BASE** (0x80040300) and less than or equal to **UPNP\_E\_ACTION\_SPECIFIC\_MAX** (0x8004042B), the device error code is nonstandard — use the formula in the following section to determine the error code. Otherwise, the device error code is standard — use the table in the Mapping for Standard Device Error Codes section, which provides the mapping from the **HRESULT** value to the device error code.
 
-For a text description of the error after a call to [**IUPnPService::InvokeAction**](iupnpservice-invokeaction.md), set the *pvarRetVal* parameter to an empty array. Upon return, this parameter will contain a text description of the error, if any occurred.
+For a text description of the error after a call to [**IUPnPService::InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master), set the *pvarRetVal* parameter to an empty array. Upon return, this parameter will contain a text description of the error, if any occurred.
 
 ### Formula for Nonstandard Device Error Codes
 

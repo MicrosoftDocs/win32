@@ -1,12 +1,18 @@
 ---
 title: RWByteAddressBuffer Load2 methods
 description: Gets two values from a RWByteAddressBuffer.
-ms.assetid: '0D397B74-282E-4492-9E07-31D3A44DF83A'
-keywords: ["Load2 methods HLSL"]
+ms.assetid: 0D397B74-282E-4492-9E07-31D3A44DF83A
+keywords:
+- Load2 methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWByteAddressBuffer::Load2 methods
@@ -31,9 +37,9 @@ Gets two values from a [**RWByteAddressBuffer**](sm5-object-rwbyteaddressbuffer.
 [RWByteAddressBuffer](sm5-object-rwbyteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

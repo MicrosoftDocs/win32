@@ -1,8 +1,15 @@
 ---
 title: Video Compression Messages
 description: Video Compression Messages
-ms.assetid: '1639d0c5-db1e-4fd0-8a19-c32aa991eecf'
-keywords: ["Video for Windows (VFW),VCM messages", "VFW (Video for Windows),VCM messages"]
+ms.assetid: 1639d0c5-db1e-4fd0-8a19-c32aa991eecf
+keywords:
+- Video for Windows (VFW),VCM messages
+- VFW (Video for Windows),VCM messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Compression Messages

@@ -4,11 +4,15 @@ description: To search Active Directory Lightweight Directory Services (AD LDS) 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6c08543e-5d7a-4c1d-a3a1-c26c87e2fe65'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 6c08543e-5d7a-4c1d-a3a1-c26c87e2fe65
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , getting a list of specified objects"]
+keywords:
+- AD LDS examples ADAM , getting a list of specified objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting a List of Specified Objects

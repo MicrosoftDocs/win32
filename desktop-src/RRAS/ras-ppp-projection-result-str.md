@@ -1,8 +1,9 @@
 ---
 title: RAS\_PPP\_PROJECTION\_RESULT structure
 description: The RAS\_PPP\_PROJECTION\_RESULT structure is used to report the results of the various PPP projection operations for a port.
-ms.assetid: '061b1b51-4b6f-4127-8ee5-8a1913a2aa99'
-keywords: ["RAS_PPP_PROJECTION_RESULT structure RAS"]
+ms.assetid: 061b1b51-4b6f-4127-8ee5-8a1913a2aa99
+keywords:
+- RAS_PPP_PROJECTION_RESULT structure RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PPP\_PROJECTION\_RESULT structure
 
-\[The **RAS\_PPP\_PROJECTION\_RESULT** structure is not supported as of Windows Vista.\]
+\[The **RAS\_PPP\_PROJECTION\_RESULT** structure is not supported as of Windows Vista.\]
 
 The **RAS\_PPP\_PROJECTION\_RESULT** structure is used to report the results of the various PPP projection operations for a port.
 
@@ -25,9 +31,9 @@ The **RAS\_PPP\_PROJECTION\_RESULT** structure is used to report the results of 
 ```C++
 typedef struct _RAS_PPP_PROJECTION_RESULT {
   RAS_PPP_NBFCP_RESULT nbf;
-  RAS_PPP_IPCP_RESULT  ip;
+  RAS_PPP_IPCP_RESULT  ip;
   RAS_PPP_IPXCP_RESULT ipx;
-  RAS_PPP_ATCP_RESULT  at;
+  RAS_PPP_ATCP_RESULT  at;
 } RAS_PPP_PROJECTION_RESULT;
 ```
 
@@ -75,10 +81,10 @@ This structure reports the projection results for NetBEUI, TCP/IP, and IPX proto
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -111,9 +117,9 @@ This structure reports the projection results for NetBEUI, TCP/IP, and IPX proto
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

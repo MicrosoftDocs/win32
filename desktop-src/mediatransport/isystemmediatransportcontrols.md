@@ -1,8 +1,10 @@
 ---
 title: ISystemMediaTransportControls interface
 description: Represents an object that enables integrate with the system media transport controls and support for media commands.
-ms.assetid: '0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07'
-keywords: ["ISystemMediaTransportControls interface", "ISystemMediaTransportControls interface, described"]
+ms.assetid: 0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07
+keywords:
+- ISystemMediaTransportControls interface
+- ISystemMediaTransportControls interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControls interface
@@ -64,7 +71,7 @@ The **ISystemMediaTransportControls** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,8 +83,8 @@ Get an instance of this interface by calling [**ISystemMediaTransportControlsInt
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -90,9 +97,9 @@ Get an instance of this interface by calling [**ISystemMediaTransportControlsInt
 [**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

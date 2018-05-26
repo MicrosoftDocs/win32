@@ -1,7 +1,12 @@
 ---
 title: EAP-TLS User Properties
 description: Is an instance of the eaptlsuserpropertiesv1 legacy schema.
-ms.assetid: 'd5a265a9-4c09-4a60-a188-dff471ee72c9'
+ms.assetid: d5a265a9-4c09-4a60-a188-dff471ee72c9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP-TLS User Properties

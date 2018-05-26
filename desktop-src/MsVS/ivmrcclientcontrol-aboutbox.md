@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl AboutBox method
-description: The AboutBox method displays the control's copyright and version information in a dialog box.
-ms.assetid: '5f155318-c1aa-429e-83e4-c7821dec44c1'
-keywords: ["AboutBox method Virtual Server", "AboutBox method Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , AboutBox method", "AboutBox method Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , AboutBox method"]
+description: The AboutBox method displays the controls copyright and version information in a dialog box.
+ms.assetid: 5f155318-c1aa-429e-83e4-c7821dec44c1
+keywords:
+- AboutBox method Virtual Server
+- AboutBox method Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , AboutBox method
+- AboutBox method Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , AboutBox method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::AboutBox method
@@ -44,7 +54,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +62,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -66,9 +76,9 @@ This method can return one of these values.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

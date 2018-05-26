@@ -1,7 +1,12 @@
 ---
-Description: 'This sample program demonstrates how to zoom and scroll ink.'
-ms.assetid: 'd3b5668a-29bf-4846-8ab0-1bda7b6160f9'
+Description: This sample program demonstrates how to zoom and scroll ink.
+ms.assetid: d3b5668a-29bf-4846-8ab0-1bda7b6160f9
 title: Ink Zoom Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Zoom Sample

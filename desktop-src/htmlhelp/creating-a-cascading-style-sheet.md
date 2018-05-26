@@ -1,7 +1,12 @@
 ---
 title: Creating a Cascading Style Sheet
 description: Creating a Cascading Style Sheet
-ms.assetid: '47D243A4-B1F5-40c0-A14B-08B5ED5B50AD'
+ms.assetid: 47D243A4-B1F5-40c0-A14B-08B5ED5B50AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Cascading Style Sheet

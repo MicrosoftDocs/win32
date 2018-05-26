@@ -4,11 +4,16 @@ description: This feature is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f122b471-6720-47ef-95bc-8a4eb2dd7ae4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f122b471-6720-47ef-95bc-8a4eb2dd7ae4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["exporting list views to a file MMC", "list views MMC , exporting to a file"]
+keywords:
+- exporting list views to a file MMC
+- list views MMC , exporting to a file
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Exporting List Views to a File

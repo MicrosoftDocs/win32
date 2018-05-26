@@ -1,7 +1,12 @@
 ---
 title: How Servers Implement Child IDs
 description: Server developers can assign child IDs to both simple elements and accessible objects. However, the recommended approach is to support the standard Component Object Model (COM) interface IEnumVARIANT in every accessible object that has children.
-ms.assetid: '236de46e-8fe0-4f53-b989-267c9ee87545'
+ms.assetid: 236de46e-8fe0-4f53-b989-267c9ee87545
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Servers Implement Child IDs
@@ -16,7 +21,7 @@ If you implement [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799)
 
 If you do not support [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799), you must assign child IDs and number the children in each object sequentially starting with one.
 
-It is recommended that clients use the Microsoft Active Accessibility function [**AccessibleChildren**](accessiblechildren.md) rather than call the server [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) interface directly.
+It is recommended that clients use the Microsoft Active Accessibility function [**AccessibleChildren**](/windows/win32/Oleacc/nf-oleacc-accessiblechildren?branch=master) rather than call the server [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) interface directly.
 
  
 

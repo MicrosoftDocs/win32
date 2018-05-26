@@ -1,8 +1,9 @@
 ---
 title: FINDMSGSTRING message
 description: A Find or Replace dialog box sends the FINDMSGSTRING registered message to the window procedure of its owner window when the user clicks the Find Next, Replace, or Replace All button, or closes the dialog box.
-ms.assetid: 'ed0b256a-96df-4588-b8f3-f7d1f89ffe74'
-keywords: ["FINDMSGSTRING message Dialog Boxes"]
+ms.assetid: ed0b256a-96df-4588-b8f3-f7d1f89ffe74
+keywords:
+- FINDMSGSTRING message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FINDMSGSTRING message
@@ -40,7 +46,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**FINDREPLACE**](findreplace-str.md) structure. The members of this structure contain the latest user input, including the string to search for, the replacement string (if any) and the search-and-replacement options.
+A pointer to a [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure. The members of this structure contain the latest user input, including the string to search for, the replacement string (if any) and the search-and-replacement options.
 
 </dd> </dl>
 
@@ -52,9 +58,9 @@ This message has no return value.
 
 You must specify the **FINDMSGSTRING** constant in a call to the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function to get the identifier for the message sent by the dialog box.
 
-When you create the dialog box, use the **hwndOwner** member of the [**FINDREPLACE**](findreplace-str.md) structure to identify the window to receive **FINDMSGSTRING** messages.
+When you create the dialog box, use the **hwndOwner** member of the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure to identify the window to receive **FINDMSGSTRING** messages.
 
-The **Flags** member of the [**FINDREPLACE**](findreplace-str.md) structure includes one of the following flags to indicate the event that caused the message.
+The **Flags** member of the [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure includes one of the following flags to indicate the event that caused the message.
 
 
 
@@ -67,7 +73,7 @@ The **Flags** member of the [**FINDREPLACE**](findreplace-str.md) structure incl
 
 
 
- 
+ 
 
 For a **Find Next** or **Replace All** message, the **Flags** member can include one or more of the following flags to indicate the search options.
 
@@ -81,7 +87,7 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +95,8 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **FINDMSGSTRINGW** (Unicode) and **FINDMSGSTRINGA** (ANSI)<br/>                                    |
 
@@ -103,7 +109,7 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 **Reference**
 </dt> <dt>
 
-[**FINDREPLACE**](findreplace-str.md)
+[**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
@@ -115,9 +121,9 @@ For a **Find Next** or **Replace All** message, the **Flags** member can include
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

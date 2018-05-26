@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_BorderColor method retrieves the color of the border around the edges of the wipe pattern.'
-ms.assetid: '9d36cc49-c174-4b93-a030-ca8d2890c624'
-title: 'IDxtJpeg::get\_BorderColor method'
+---
+Description: The get\_BorderColor method retrieves the color of the border around the edges of the wipe pattern.
+ms.assetid: 9d36cc49-c174-4b93-a030-ca8d2890c624
+title: IDxtJpegget\_BorderColor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::get\_BorderColor method

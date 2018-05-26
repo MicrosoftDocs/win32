@@ -1,14 +1,16 @@
 ---
 title: Win32\_SessionDirectorySession class
-description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) session.
+description: Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '34b5a898-3952-493c-ba62-dd0d298b0600'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 34b5a898-3952-493c-ba62-dd0d298b0600
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionDirectorySession class Remote Desktop Services", "Win32_SessionDirectorySession class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionDirectorySession class Remote Desktop Services
+- Win32_SessionDirectorySession class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -30,16 +32,19 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionDirectorySession class
 
-Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) session.
+Provides properties for viewing the properties of a Remote Desktop Connection Broker (RD Connection Broker) session.
 
 > [!Note]  
-> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
+> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
 
- 
+ 
 
 ## Syntax
 
@@ -47,19 +52,19 @@ Provides properties for viewing the properties of a Remote Desktop Connection Br
 [dynamic, provider("Win32_WIN32_SESSIONDIRECTORYSESSION_Prov"), AMENDMENT]
 class Win32_SessionDirectorySession
 {
-  string   ServerName;
-  uint32   SessionID;
-  string   UserName;
-  string   DomainName;
-  string   ServerIPAddress;
-  uint32   TSProtocol;
-  string   ApplicationType;
-  uint32   ResolutionWidth;
-  uint32   ResolutionHeight;
-  uint32   ColorDepth;
+  string   ServerName;
+  uint32   SessionID;
+  string   UserName;
+  string   DomainName;
+  string   ServerIPAddress;
+  uint32   TSProtocol;
+  string   ApplicationType;
+  uint32   ResolutionWidth;
+  uint32   ResolutionHeight;
+  uint32   ColorDepth;
   DateTime CreateTime;
   DateTime DisconnectTime;
-  uint32   SessionState;
+  uint32   SessionState;
 };
 ```
 
@@ -175,7 +180,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-IP address of the RD Connection Broker server for this session.
+IP address of the RD Connection Broker server for this session.
 
 </dd> <dt>
 
@@ -191,7 +196,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Name of the RD Connection Broker server for this session.
+Name of the RD Connection Broker server for this session.
 
 </dd> <dt>
 
@@ -300,7 +305,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -317,9 +322,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_SessionDirectoryServer**](win32-sessiondirectoryserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

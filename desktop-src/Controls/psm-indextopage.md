@@ -1,8 +1,9 @@
 ---
 title: PSM\_INDEXTOPAGE message
 description: Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can send this message explicitly or use the PropSheet\_IndexToPage macro.
-ms.assetid: 'b14b35ad-bae0-4461-a90f-e2bc5e2ccfc2'
-keywords: ["PSM_INDEXTOPAGE message Windows Controls"]
+ms.assetid: b14b35ad-bae0-4461-a90f-e2bc5e2ccfc2
+keywords:
+- PSM_INDEXTOPAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_INDEXTOPAGE message
 
-Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can send this message explicitly or use the [**PropSheet\_IndexToPage**](propsheet-indextopage.md) macro.
+Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can send this message explicitly or use the [**PropSheet\_IndexToPage**](/windows/win32/Prsht/nf-prsht-propsheet_indextopage?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns the HPROPSHEETPAGE handle of the property sheet page specified by *wPara
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

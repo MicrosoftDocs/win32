@@ -1,7 +1,12 @@
 ---
-Description: 'When creating your own side-by-side assemblies, follow the Guidelines for Creating Side-by-side Assemblies.'
-ms.assetid: 'e5fc3bae-0646-4418-a8f7-369856f03cd5'
-title: 'Authoring DLLs for Side-by-side Assemblies'
+Description: When creating your own side-by-side assemblies, follow the Guidelines for Creating Side-by-side Assemblies.
+ms.assetid: e5fc3bae-0646-4418-a8f7-369856f03cd5
+title: Authoring DLLs for Side-by-side Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring DLLs for Side-by-side Assemblies

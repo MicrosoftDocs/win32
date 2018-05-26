@@ -4,17 +4,22 @@ description: This is a link to a Claims Transformation Policy Object for the ing
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '67f87782-85ed-41bb-a60d-f6c11fcda80e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 67f87782-85ed-41bb-a60d-f6c11fcda80e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Ingress-Claims-Transformation-Policy attribute AD Schema", "msDS-IngressClaimsTransformationPolicy attribute AD Schema"]
+keywords:
+- ms-DS-Ingress-Claims-Transformation-Policy attribute AD Schema
+- msDS-IngressClaimsTransformationPolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Ingress-Claims-Transformation-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Ingress-Claims-Transformation-Policy attribute
@@ -38,7 +43,7 @@ This is a link to a Claims Transformation Policy Object for the ingress claims (
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This is a link to a Claims Transformation Policy Object for the ingress claims (
 
 
 
- 
+ 
 
- 
+ 
 
 
 

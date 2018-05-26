@@ -1,7 +1,12 @@
 ---
-Description: 'Like all processes, a protected server has a primary access token that describes its security context.'
-ms.assetid: 'bd416109-fe76-4d55-bc63-3ebbcf32b92a'
+Description: Like all processes, a protected server has a primary access token that describes its security context.
+ms.assetid: bd416109-fe76-4d55-bc63-3ebbcf32b92a
 title: The Client Security Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Client Security Context

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the interface is restricted.'
-ms.assetid: '0dbb66e2-811f-4f62-863a-94371dda6344'
-title: 'System.Devices.RestrictedInterface'
+Description: Indicates if the interface is restricted.
+ms.assetid: 0dbb66e2-811f-4f62-863a-94371dda6344
+title: System.Devices.RestrictedInterface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.RestrictedInterface

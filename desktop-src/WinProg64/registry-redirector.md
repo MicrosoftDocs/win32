@@ -1,8 +1,17 @@
 ---
 title: Registry Redirector
 description: The registry redirector isolates 32-bit and 64-bit applications by providing separate logical views of certain portions of the registry on WOW64.
-ms.assetid: 'b3989f79-0439-485a-96c1-4f2227d48653'
-keywords: ["64-bit Windows programming guide 64-bit Windows Programming , registry redirector", "registry redirector 64-bit Windows Programming", "redirection 64-bit Windows Programming", "WOW64 64-bit Windows Programming , registry redirector"]
+ms.assetid: b3989f79-0439-485a-96c1-4f2227d48653
+keywords:
+- 64-bit Windows programming guide 64-bit Windows Programming , registry redirector
+- registry redirector 64-bit Windows Programming
+- redirection 64-bit Windows Programming
+- WOW64 64-bit Windows Programming , registry redirector
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Redirector

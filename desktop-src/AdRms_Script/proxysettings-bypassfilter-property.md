@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves one or more websites for which the proxy server cannot be used.'
+Description: Specifies or retrieves one or more websites for which the proxy server cannot be used.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'b8298ebe-3521-4af2-a930-fdff1120f447'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: b8298ebe-3521-4af2-a930-fdff1120f447
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ProxySettings.BypassFilter property'
+title: ProxySettings.BypassFilter property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProxySettings.BypassFilter property
@@ -100,7 +103,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -112,9 +115,9 @@ END FUNCTION
 [**ProxySettings**](proxysettings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

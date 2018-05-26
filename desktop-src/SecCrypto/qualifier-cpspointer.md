@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).'
-ms.assetid: 'fd030c1c-137c-4036-bf13-ae989a9703cc'
-title: 'Qualifier.CPSPointer property'
+---
+Description: Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
+ms.assetid: fd030c1c-137c-4036-bf13-ae989a9703cc
+title: Qualifier.CPSPointer property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifier.CPSPointer property

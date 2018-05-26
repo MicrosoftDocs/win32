@@ -1,7 +1,12 @@
 ---
 Description: Resolve a host string to its IP address
-ms.assetid: '32d70f10-803b-484d-a9e0-d4c61a8d897f'
+ms.assetid: 32d70f10-803b-484d-a9e0-d4c61a8d897f
 title: dnsResolveEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dnsResolveEx function

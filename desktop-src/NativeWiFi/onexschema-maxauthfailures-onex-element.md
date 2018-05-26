@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum number of authentication failures allowed for a set of credentials.'
-ms.assetid: '191b6b03-8b27-4b35-8623-1ccec632f208'
-title: 'maxAuthFailures (OneX) Element'
+---
+Description: Specifies the maximum number of authentication failures allowed for a set of credentials.
+ms.assetid: 191b6b03-8b27-4b35-8623-1ccec632f208
+title: maxAuthFailures (OneX) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maxAuthFailures (OneX) Element

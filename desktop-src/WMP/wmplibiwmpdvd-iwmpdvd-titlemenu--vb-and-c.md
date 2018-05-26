@@ -1,8 +1,11 @@
 ---
 title: IWMPDVD titleMenu method
 description: The titleMenu method stops playback and displays the title menu.
-ms.assetid: '28714644-12c4-46eb-95fc-70091624f6dd'
-keywords: ["titleMenu method Windows Media Player", "titleMenu method Windows Media Player , IWMPDVD interface", "IWMPDVD interface Windows Media Player , titleMenu method"]
+ms.assetid: 28714644-12c4-46eb-95fc-70091624f6dd
+keywords:
+- titleMenu method Windows Media Player
+- titleMenu method Windows Media Player , IWMPDVD interface
+- IWMPDVD interface Windows Media Player , titleMenu method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD::titleMenu method
@@ -79,9 +87,9 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 [**IWMPDVD.topMenu (VB and C#)**](wmplibiwmpdvd-iwmpdvd-topmenu--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

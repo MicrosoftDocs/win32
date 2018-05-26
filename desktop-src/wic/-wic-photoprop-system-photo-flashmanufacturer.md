@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.FlashManufacturer property.'
-ms.assetid: 'f62e85ec-2dc6-456b-a43b-7b76d162b608'
-title: 'System.Photo.FlashManufacturer Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.FlashManufacturer property.
+ms.assetid: f62e85ec-2dc6-456b-a43b-7b76d162b608
+title: System.Photo.FlashManufacturer Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FlashManufacturer Photo Metadata Policy

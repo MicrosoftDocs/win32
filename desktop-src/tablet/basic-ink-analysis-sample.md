@@ -1,7 +1,12 @@
 ---
-Description: 'The Basic Ink Analysis sample shows how the InkAnalyzer class divides ink into various word and drawing segments.This sample is an updated version of the Ink Divider Sample.'
-ms.assetid: 'cb9a28d9-f8c6-478e-ae43-2d30106edc7b'
+Description: The Basic Ink Analysis sample shows how the InkAnalyzer class divides ink into various word and drawing segments.This sample is an updated version of the Ink Divider Sample.
+ms.assetid: cb9a28d9-f8c6-478e-ae43-2d30106edc7b
 title: Basic Ink Analysis Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Ink Analysis Sample
@@ -27,7 +32,7 @@ The following table specifies the color and enlargement for each analyzed unit.
 
 
 
- 
+ 
 
 You can erase strokes in the form. In the sample application, you can toggle between Ink and Erase mode to change the function of the pen.
 
@@ -104,7 +109,7 @@ Notice that in the Mode menu, Automatic Layout Analysis is on by default. With t
 > [!Note]  
 > Calling the [InkAnalyzer](frlrfMicrosoftInkInkAnalyzerClassTopic) object's [Analyze](frlrfMicrosoftInkInkAnalyzerClassAnalyzeTopic) method with more than a few strokes present creates a noticeable delay in an application. This is because Analyze is a synchronous ink analysis operation. In practice, call the Analyze method only when you need the result. Otherwise use the asynchronous [BackgroundAnalyze](frlrfMicrosoftInkInkAnalyzerClassBackgroundAnalyzeTopic) method, as shown in the sample.
 
- 
+ 
 
 ## Handling the Analysis Results
 
@@ -286,9 +291,9 @@ The parser calculates [GetRotatedBoundingBox](frlrfMicrosoftInkInkWordNodeClassG
 [Ink Divider Sample](ink-divider-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

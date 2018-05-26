@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes how the frames in a video media type are interlaced.'
-ms.assetid: '19aa0147-ac49-4a2e-ac75-e967fec9ca68'
-title: 'MF\_MT\_INTERLACE\_MODE attribute'
+---
+Description: Describes how the frames in a video media type are interlaced.
+ms.assetid: 19aa0147-ac49-4a2e-ac75-e967fec9ca68
+title: MF\_MT\_INTERLACE\_MODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_INTERLACE\_MODE attribute
@@ -14,7 +19,7 @@ Describes how the frames in a video media type are interlaced.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoInterlaceMode**](mfvideointerlacemode.md) enumeration.
+The value of this attribute is a member of the [**MFVideoInterlaceMode**](/windows/win32/mfobjects/ne-mfobjects-_mfvideointerlacemode?branch=master) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

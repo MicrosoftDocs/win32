@@ -1,8 +1,9 @@
 ---
 title: Settings.autoStart
 description: The autoStart property specifies or retrieves a value indicating whether the current media item begins playing automatically.
-ms.assetid: '553f8534-9e3e-4fdc-bfc1-551939969289'
-keywords: ["Settings.autoStart Windows Media Player"]
+ms.assetid: 553f8534-9e3e-4fdc-bfc1-551939969289
+keywords:
+- Settings.autoStart Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.autoStart
@@ -34,7 +40,7 @@ This property is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,9 +92,9 @@ The following example creates an HTML CHECKBOX element that allows the user to s
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

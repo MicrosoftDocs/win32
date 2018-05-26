@@ -1,7 +1,12 @@
 ---
 title: VML LightFace Attribute
 description: VML LightFace Attribute
-ms.assetid: '552a4145-fb34-4a85-a32a-c9ef74f11f13'
+ms.assetid: 552a4145-fb34-4a85-a32a-c9ef74f11f13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML LightFace Attribute

@@ -1,14 +1,19 @@
 ---
 Description: Calling DeviceIoControl
-ms.assetid: 'b4dbda89-effb-43f7-b3cc-774db57862a9'
+ms.assetid: b4dbda89-effb-43f7-b3cc-774db57862a9
 title: Calling DeviceIoControl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling DeviceIoControl
 
-An application can use the [**DeviceIoControl**](deviceiocontrol.md) function to perform direct input and output operations on, or retrieve information about, a floppy disk drive, hard disk drive, tape drive, or CD-ROM drive. For a list of standard control codes included in the SDK documentation, see the Remarks section of **DeviceIoControl**.
+An application can use the [**DeviceIoControl**](/windows/win32/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous?branch=master) function to perform direct input and output operations on, or retrieve information about, a floppy disk drive, hard disk drive, tape drive, or CD-ROM drive. For a list of standard control codes included in the SDK documentation, see the Remarks section of **DeviceIoControl**.
 
-The following example demonstrates how to retrieve information about the first physical drive in the system. It uses the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function to retrieve the device handle to the first physical drive, and then uses [**DeviceIoControl**](deviceiocontrol.md) with the [IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY](https://msdn.microsoft.com/library/windows/desktop/aa365169) control code to fill a [**DISK\_GEOMETRY**](https://msdn.microsoft.com/library/windows/desktop/aa363972) structure with information about the drive.
+The following example demonstrates how to retrieve information about the first physical drive in the system. It uses the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) function to retrieve the device handle to the first physical drive, and then uses [**DeviceIoControl**](/windows/win32/Winbase/nf-classpnp-classsenddeviceiocontrolsynchronous?branch=master) with the [IOCTL\_DISK\_GET\_DRIVE\_GEOMETRY](https://msdn.microsoft.com/library/windows/desktop/aa365169) control code to fill a [**DISK\_GEOMETRY**](https://msdn.microsoft.com/library/windows/desktop/aa363972) structure with information about the drive.
 
 
 ```C++

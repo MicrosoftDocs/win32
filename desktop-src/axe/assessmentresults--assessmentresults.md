@@ -1,8 +1,11 @@
 ---
 title: AssessmentResults ~AssessmentResults destructor
 description: Destructor method.
-ms.assetid: '47DA4E6A-B093-4B8C-8F98-34AF24982789'
-keywords: ["~AssessmentResults destructor Access Execution Engine", "~AssessmentResults destructor Access Execution Engine , AssessmentResults interface", "AssessmentResults interface Access Execution Engine , ~AssessmentResults destructor"]
+ms.assetid: 47DA4E6A-B093-4B8C-8F98-34AF24982789
+keywords:
+- ~AssessmentResults destructor Access Execution Engine
+- ~AssessmentResults destructor Access Execution Engine , AssessmentResults interface
+- AssessmentResults interface Access Execution Engine , ~AssessmentResults destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResults::~AssessmentResults destructor
@@ -32,8 +40,8 @@ virtual ~AssessmentResults();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -46,9 +54,9 @@ virtual ~AssessmentResults();
 [**AssessmentResults**](assessmentresults-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

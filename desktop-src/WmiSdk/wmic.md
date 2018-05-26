@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI command-line (WMIC) utility provides a command-line interface for WMI.'
+Description: The WMI command-line (WMIC) utility provides a command-line interface for WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: wmic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # wmic
@@ -47,7 +50,7 @@ The ASSOC verb has the following switches.
 
 
 
- 
+ 
 
 Example: **OS ASSOC**
 
@@ -63,7 +66,7 @@ Example: **SERVICE WHERE CAPTION='TELNET' CALL STARTSERVICE**
 > [!Note]  
 > To determine the methods available for a given class, use **/?**. For example, **SERVICE WHERE CAPTION='TELNET' CALL /?** lists the available functions for the service class.
 
- 
+ 
 
 </dd> <dt>
 
@@ -104,7 +107,7 @@ GET has the following switches.
 
 
 
- 
+ 
 
 Example: **PROCESS GET NAME**
 
@@ -129,7 +132,7 @@ LIST has the following adverbs.
 
 
 
- 
+ 
 
 LIST has the following switches.
 
@@ -143,7 +146,7 @@ LIST has the following switches.
 
 
 
- 
+ 
 
 Example: **PROCESS LIST BRIEF**
 
@@ -165,7 +168,7 @@ Global switches are used to set defaults for the WMIC environment. You can view 
 <span id="_NAMESPACE"></span><span id="_namespace"></span>/NAMESPACE
 </dt> <dd>
 
-Namespace the alias uses—typically. The default is root\\cimv2.
+Namespace the alias uses typically. The default is root\\cimv2.
 
 Example: **/NAMESPACE:\\\\root**
 
@@ -367,14 +370,14 @@ The [Script for setting IP/Subnet/Gateway/DNS using wmic](https://Gallery.TechNe
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

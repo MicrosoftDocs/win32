@@ -2,13 +2,16 @@
 title: SetByVpnIPAddressAssignment method of the PS\_VpnIPAddressAssignment class
 description: This cmdlet does the following1. Configure the IPv4 address assignment method2. Configure the IPv6 prefix for IPv6 address assignment.
 audience: developer
-ms.assetid: 'a980a73d-1969-4039-bfe5-0561f48ae2bc'
-ms.prod: 'windows-server-dev'
+ms.assetid: a980a73d-1969-4039-bfe5-0561f48ae2bc
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByVpnIPAddressAssignment method", "SetByVpnIPAddressAssignment method, PS_VpnIPAddressAssignment class", "PS_VpnIPAddressAssignment class, SetByVpnIPAddressAssignment method"]
+keywords:
+- SetByVpnIPAddressAssignment method
+- SetByVpnIPAddressAssignment method, PS_VpnIPAddressAssignment class
+- PS_VpnIPAddressAssignment class, SetByVpnIPAddressAssignment method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByVpnIPAddressAssignment method of the PS\_VpnIPAddressAssignment class
@@ -28,12 +34,12 @@ This cmdlet does the following1. Configure the IPv4 address assignment method2. 
 
 ```mof
 uint32 SetByVpnIPAddressAssignment(
-  [in]  boolean                PassThru,
-  [in]  string                 IPAddressRange[],
-  [in]  string                 ComputerName,
-  [in]  string                 IPAssignmentMethod,
-  [in]  string                 IPv6Prefix,
-  [out] VpnIPAddressAssignment cmdletOutput
+  [in]  boolean                PassThru,
+  [in]  string                 IPAddressRange[],
+  [in]  string                 ComputerName,
+  [in]  string                 IPAssignmentMethod,
+  [in]  string                 IPv6Prefix,
+  [out] VpnIPAddressAssignment cmdletOutput
 );
 ```
 
@@ -106,7 +112,7 @@ Specifies the IPv6 prefix used for IPv6 address assignment
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -120,9 +126,9 @@ Specifies the IPv6 prefix used for IPv6 address assignment
 [**PS\_VpnIPAddressAssignment**](ps-vpnipaddressassignment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

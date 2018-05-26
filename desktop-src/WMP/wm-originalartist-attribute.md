@@ -1,14 +1,20 @@
 ---
 title: WM/OriginalArtist Attribute
 description: The WM/OriginalArtist attribute is the name of the artist who originally produced the content.
-ms.assetid: 'b00e8a1f-0f6a-4ef4-b1bc-01a4d0a28c19'
-keywords: ["WM/OriginalArtist Attribute Windows Media Player"]
+ms.assetid: b00e8a1f-0f6a-4ef4-b1bc-01a4d0a28c19
+keywords:
+- WM/OriginalArtist Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/OriginalArtist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/OriginalArtist Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

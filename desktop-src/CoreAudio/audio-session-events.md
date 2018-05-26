@@ -1,7 +1,12 @@
 ---
 Description: Audio Session Events
-ms.assetid: '6943b405-0807-412b-a149-fc3a8ece1b48'
+ms.assetid: 6943b405-0807-412b-a149-fc3a8ece1b48
 title: Audio Session Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Session Events
@@ -17,11 +22,11 @@ A client application can register to receive notifications of the following type
 -   The session has been assigned a new grouping parameter.
 -   A user-interface property of the session (icon or display name) has changed.
 
-The client receives notifications of these events through the methods in its implementation of the [**IAudioSessionEvents**](iaudiosessionevents.md) interface. Unlike the other interfaces in WASAPI, which are implemented by the WASAPI system module, the client implements **IAudioSessionEvents**. The methods in this interface receive callbacks from the WASAPI system module when session events occur.
+The client receives notifications of these events through the methods in its implementation of the [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) interface. Unlike the other interfaces in WASAPI, which are implemented by the WASAPI system module, the client implements **IAudioSessionEvents**. The methods in this interface receive callbacks from the WASAPI system module when session events occur.
 
-To begin receiving notifications, the client calls the [**IAudioSessionControl::RegisterAudioSessionNotification**](iaudiosessioncontrol-registeraudiosessionnotification.md) method to register its [**IAudioSessionEvents**](iaudiosessionevents.md) interface. When the client no longer requires notifications, it calls the [**IAudioSessionControl::UnregisterAudioSessionNotification**](iaudiosessioncontrol-unregisteraudiosessionnotification.md) method to delete the registration.
+To begin receiving notifications, the client calls the [**IAudioSessionControl::RegisterAudioSessionNotification**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-registeraudiosessionnotification?branch=master) method to register its [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) interface. When the client no longer requires notifications, it calls the [**IAudioSessionControl::UnregisterAudioSessionNotification**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-unregisteraudiosessionnotification?branch=master) method to delete the registration.
 
-The following code example shows a possible implementation of the [**IAudioSessionEvents**](iaudiosessionevents.md) interface:
+The following code example shows a possible implementation of the [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) interface:
 
 
 ```C++
@@ -188,13 +193,13 @@ public:
 
 
 
-The CAudioSessionEvents class in the preceding code example is an implementation of the [**IAudioSessionEvents**](iaudiosessionevents.md) interface. This particular implementation might be part of a console application that prints information about session events to a Command Prompt window. Because **IAudioSessionEvents** inherits from [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509), the class definition contains implementations of the **IUnknown** methods [**AddRef**](https://msdn.microsoft.com/library/windows/desktop/ms691379), [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317), and [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521). The remaining public methods in the class definition are specific to the **IAudioSessionEvents** interface.
+The CAudioSessionEvents class in the preceding code example is an implementation of the [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) interface. This particular implementation might be part of a console application that prints information about session events to a Command Prompt window. Because **IAudioSessionEvents** inherits from [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509), the class definition contains implementations of the **IUnknown** methods [**AddRef**](https://msdn.microsoft.com/library/windows/desktop/ms691379), [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317), and [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521). The remaining public methods in the class definition are specific to the **IAudioSessionEvents** interface.
 
-Some clients might not be interested in monitoring all types of session events. In the preceding code example, several notification methods in the CAudioSessionEvents class do nothing. For example, the [**OnChannelVolumeChanged**](iaudiosessionevents-onchannelvolumechanged.md) method does nothing except to return status code S\_OK. This application does not monitor channel volumes because it does not change the channel volumes (by calling the methods in the [**IChannelAudioVolume**](ichannelaudiovolume.md) interface), and it does not share the session with other applications that might change the channel volumes.
+Some clients might not be interested in monitoring all types of session events. In the preceding code example, several notification methods in the CAudioSessionEvents class do nothing. For example, the [**OnChannelVolumeChanged**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onchannelvolumechanged?branch=master) method does nothing except to return status code S\_OK. This application does not monitor channel volumes because it does not change the channel volumes (by calling the methods in the [**IChannelAudioVolume**](/windows/win32/Audioclient/nn-audioclient-ichannelaudiovolume?branch=master) interface), and it does not share the session with other applications that might change the channel volumes.
 
-The only three methods in the CAudioSessionEvents class that notify the user of session events are [**OnSimpleVolumeChanged**](iaudiosessionevents-onsimplevolumechanged.md), [**OnStateChanged**](iaudiosessionevents-onstatechanged.md), and [**OnSessionDisconnected**](iaudiosessionevents-onsessiondisconnected.md). For example, if the user runs the system volume-control program, Sndvol, and uses the volume control in Sndvol to change the application's volume level, `OnSimpleVolumeChanged` immediately prints the new volume level.
+The only three methods in the CAudioSessionEvents class that notify the user of session events are [**OnSimpleVolumeChanged**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsimplevolumechanged?branch=master), [**OnStateChanged**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onstatechanged?branch=master), and [**OnSessionDisconnected**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected?branch=master). For example, if the user runs the system volume-control program, Sndvol, and uses the volume control in Sndvol to change the application's volume level, `OnSimpleVolumeChanged` immediately prints the new volume level.
 
-For a code example that registers and unregisters a client's [**IAudioSessionEvents**](iaudiosessionevents.md) interface, see [Audio Events for Legacy Audio Applications](audio-events-for-legacy-audio-applications.md).
+For a code example that registers and unregisters a client's [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) interface, see [Audio Events for Legacy Audio Applications](audio-events-for-legacy-audio-applications.md).
 
 ## Related topics
 

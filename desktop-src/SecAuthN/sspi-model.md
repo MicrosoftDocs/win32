@@ -1,7 +1,12 @@
 ---
-Description: 'Security Support Provider Interface (SSPI) allows an application to use various security models available on a computer or network without changing the interface to the security system.'
-ms.assetid: '86ffc8c0-727d-437f-ac36-10df6563b0be'
+Description: Security Support Provider Interface (SSPI) allows an application to use various security models available on a computer or network without changing the interface to the security system.
+ms.assetid: 86ffc8c0-727d-437f-ac36-10df6563b0be
 title: SSPI Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSPI Model

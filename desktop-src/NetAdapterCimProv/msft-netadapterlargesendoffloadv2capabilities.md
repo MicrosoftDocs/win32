@@ -1,7 +1,12 @@
 ---
-Description: 'This class is used to report LSOv2 capabilities on a network adapter.'
-ms.assetid: '54fb5b10-31a3-43a7-8907-219558b461dc'
-title: 'MSFT\_NetAdapterLargeSendOffloadV2Capabilities class'
+Description: This class is used to report LSOv2 capabilities on a network adapter.
+ms.assetid: 54fb5b10-31a3-43a7-8907-219558b461dc
+title: MSFT\_NetAdapterLargeSendOffloadV2Capabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterLargeSendOffloadV2Capabilities class
@@ -16,12 +21,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterLargeSendOffloadV2Capabilities
 {
-  string  IPv4Encapsulation;
-  uint32  IPv4MaxOffloadSizeSupported;
-  uint32  IPv4MinSegmentCountSupported;
-  string  IPv6Encapsulation;
-  uint32  IPv6MaxOffLoadSizeSupported;
-  uint32  IPv6MinSegmentCountSupported;
+  string  IPv4Encapsulation;
+  uint32  IPv4MaxOffloadSizeSupported;
+  uint32  IPv4MinSegmentCountSupported;
+  string  IPv6Encapsulation;
+  uint32  IPv6MaxOffLoadSizeSupported;
+  uint32  IPv6MinSegmentCountSupported;
   boolean IPv6IpExtensionHeadersSupported;
   boolean IPv6TcpOptionsSupported;
 };
@@ -150,16 +155,16 @@ Indicates if the Adapter supports segmentation of a packet containing TCP option
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

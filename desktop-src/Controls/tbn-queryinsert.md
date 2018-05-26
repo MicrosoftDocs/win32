@@ -1,8 +1,9 @@
 ---
 title: TBN\_QUERYINSERT notification code
-description: Notifies the toolbar's parent window whether a button may be inserted to the left of the specified button while the user is customizing a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'd389fabb-16f6-43aa-a4b6-abb80723345b'
-keywords: ["TBN_QUERYINSERT notification code Windows Controls"]
+description: Notifies the toolbars parent window whether a button may be inserted to the left of the specified button while the user is customizing a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: d389fabb-16f6-43aa-a4b6-abb80723345b
+keywords:
+- TBN_QUERYINSERT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_QUERYINSERT notification code
@@ -33,7 +39,7 @@ TBN_QUERYINSERT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](nmtoolbar.md) structure. The **iItem** member contains the zero-based index of the button to be inserted.
+Pointer to an [**NMTOOLBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmtoolbara?branch=master) structure. The **iItem** member contains the zero-based index of the button to be inserted.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return **TRUE** to allow a button to be inserted in front of the given button, o
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

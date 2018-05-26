@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FixTimes2 method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group''s frame rate setting. This method is equivalent to IAMTimelineObj::FixTimes, but takes REFTIME values.'
-ms.assetid: 'bdb3d999-2c91-4108-9286-c6e1f3362c09'
-title: 'IAMTimelineObj::FixTimes2 method'
+---
+Description: The FixTimes2 method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent groups frame rate setting. This method is equivalent to IAMTimelineObjFixTimes, but takes REFTIME values.
+ms.assetid: bdb3d999-2c91-4108-9286-c6e1f3362c09
+title: IAMTimelineObjFixTimes2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::FixTimes2 method

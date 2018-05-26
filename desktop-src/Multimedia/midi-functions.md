@@ -1,8 +1,20 @@
 ---
 title: MIDI Functions
 description: MIDI Functions
-ms.assetid: '7ea5db5e-34d7-4506-8157-c24adf5bcdda'
-keywords: ["multimedia audio,MIDI functions", "audio,MIDI functions", "Musical Instrument Digital Interface (MIDI),functions", "MIDI (Musical Instrument Digital Interface),functions", "reference for MIDI,functions", "MIDI reference,functions", "MIDI functions"]
+ms.assetid: 7ea5db5e-34d7-4506-8157-c24adf5bcdda
+keywords:
+- multimedia audio,MIDI functions
+- audio,MIDI functions
+- Musical Instrument Digital Interface (MIDI),functions
+- MIDI (Musical Instrument Digital Interface),functions
+- reference for MIDI,functions
+- MIDI reference,functions
+- MIDI functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Functions
@@ -20,7 +32,7 @@ The following functions are used with MIDI.
 -   [**midiInMessage**](midiinmessage.md)
 -   [**midiInOpen**](midiinopen.md)
 -   [**midiInPrepareHeader**](midiinprepareheader.md)
--   [**MidiInProc**](midiinproc.md)
+-   [**MidiInProc**](/windows/win32/Mmsystem/?branch=master)
 -   [**midiInReset**](midiinreset.md)
 -   [**midiInStart**](midiinstart.md)
 -   [**midiInStop**](midiinstop.md)
@@ -37,7 +49,7 @@ The following functions are used with MIDI.
 -   [**midiOutMessage**](midioutmessage.md)
 -   [**midiOutOpen**](midioutopen.md)
 -   [**midiOutPrepareHeader**](midioutprepareheader.md)
--   [**MidiOutProc**](midioutproc.md)
+-   [**MidiOutProc**](/windows/win32/Mmsystem/?branch=master)
 -   [**midiOutReset**](midioutreset.md)
 -   [**midiOutSetVolume**](midioutsetvolume.md)
 -   [**midiOutShortMsg**](midioutshortmsg.md)

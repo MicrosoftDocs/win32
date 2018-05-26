@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the decoder supports frame interpolation.'
-ms.assetid: 'cc7fb83d-8423-4e0a-a520-b58d3345ef89'
-title: 'MFPKEY\_FI\_SUPPORTED Property'
+---
+Description: Specifies whether the decoder supports frame interpolation.
+ms.assetid: cc7fb83d-8423-4e0a-a520-b58d3345ef89
+title: MFPKEY\_FI\_SUPPORTED Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FI\_SUPPORTED Property

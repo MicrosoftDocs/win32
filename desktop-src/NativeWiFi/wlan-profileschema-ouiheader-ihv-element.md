@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies the IHV.'
-ms.assetid: 'a99c231c-afd7-44e6-81af-3d49ffef8714'
-title: 'OUIHeader (IHV) Element'
+---
+Description: Identifies the IHV.
+ms.assetid: a99c231c-afd7-44e6-81af-3d49ffef8714
+title: OUIHeader (IHV) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OUIHeader (IHV) Element

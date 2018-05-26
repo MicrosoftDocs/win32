@@ -1,7 +1,12 @@
 ---
-Description: 'Contains settings used during servicing operations.'
-ms.assetid: '17dc3c97-232c-4ac4-988c-84c3061b4133'
-title: 'Msvm\_ServicingSettings class'
+Description: Contains settings used during servicing operations.
+ms.assetid: 17dc3c97-232c-4ac4-988c-84c3061b4133
+title: Msvm\_ServicingSettings class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ServicingSettings class
@@ -51,17 +56,17 @@ Contains the class definition's version.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

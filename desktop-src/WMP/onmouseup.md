@@ -1,14 +1,20 @@
 ---
 title: onmouseup
 description: The onmouseup event handler handles an event that occurs when the user releases a mouse button while the pointer is over the element.
-ms.assetid: 'd6c9c028-cb12-4767-a5de-b2312681ea13'
-keywords: ["onmouseup Windows Media Player"]
+ms.assetid: d6c9c028-cb12-4767-a5de-b2312681ea13
+keywords:
+- onmouseup Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onmouseup
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onmouseup
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element.
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

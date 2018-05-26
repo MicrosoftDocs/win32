@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a floating point value.'
-ms.assetid: 'f49fb4d2-6e3d-4452-8102-76200c55cf1f'
-title: 'ID3DXBaseEffect::SetFloat method'
+---
+Description: Sets a floating point value.
+ms.assetid: f49fb4d2-6e3d-4452-8102-76200c55cf1f
+title: ID3DXBaseEffectSetFloat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetFloat method

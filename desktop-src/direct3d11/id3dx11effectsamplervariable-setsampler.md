@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectSamplerVariable SetSampler method
 description: Set sampler state.
-ms.assetid: '1826923d-d770-4d79-818a-a42a279f0a8c'
-keywords: ["SetSampler method Direct3D 11", "SetSampler method Direct3D 11 , ID3DX11EffectSamplerVariable interface", "ID3DX11EffectSamplerVariable interface Direct3D 11 , SetSampler method"]
+ms.assetid: 1826923d-d770-4d79-818a-a42a279f0a8c
+keywords:
+- SetSampler method Direct3D 11
+- SetSampler method Direct3D 11 , ID3DX11EffectSamplerVariable interface
+- ID3DX11EffectSamplerVariable interface Direct3D 11 , SetSampler method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectSamplerVariable::SetSampler method
@@ -23,8 +31,8 @@ Set sampler state.
 
 ```C++
 HRESULT SetSampler(
-   UINT               Index,
-   ID3D11SamplerState *pSampler
+   UINT               Index,
+   ID3D11SamplerState *pSampler
 );
 ```
 
@@ -46,9 +54,9 @@ Index into an array of sampler interfaces. If there is only one sampler interfac
 *pSampler* 
 </dt> <dd>
 
-Type: **[**ID3D11SamplerState**](id3d11samplerstate.md)\***
+Type: **[**ID3D11SamplerState**](/windows/win32/D3D11/nn-d3d11-id3d11samplerstate?branch=master)\***
 
-Pointer to an [**ID3D11SamplerState**](id3d11samplerstate.md) interface containing the sampler state.
+Pointer to an [**ID3D11SamplerState**](/windows/win32/D3D11/nn-d3d11-id3d11samplerstate?branch=master) interface containing the sampler state.
 
 </dd> </dl>
 
@@ -63,7 +71,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectSamplerVariable](id3dx11effectsamplervariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

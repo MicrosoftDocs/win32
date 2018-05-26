@@ -4,10 +4,13 @@ description: Manages a Network Files System (NFS) share.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B92CB0D3-0DF8-400D-80CA-A70E11B01B13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: B92CB0D3-0DF8-400D-80CA-A70E11B01B13
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NFS Share
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +38,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Resource Types](resource-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

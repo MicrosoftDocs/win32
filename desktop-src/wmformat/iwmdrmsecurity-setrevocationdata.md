@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity SetRevocationData method
 description: The SetRevocationData method sets a certificate revocation list in the local store.
-ms.assetid: '7e1c6d50-7a22-41b7-b29f-b1e5809a2097'
-keywords: ["SetRevocationData method windows Media Format", "SetRevocationData method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , SetRevocationData method"]
+ms.assetid: 7e1c6d50-7a22-41b7-b29f-b1e5809a2097
+keywords:
+- SetRevocationData method windows Media Format
+- SetRevocationData method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , SetRevocationData method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::SetRevocationData method
@@ -23,9 +31,9 @@ The **SetRevocationData** method sets a certificate revocation list in the local
 
 ```C++
 HRESULT SetRevocationData(
-  [in] REFGUID f_guidRevocationType,
-  [in] BYTE    *f_pbCRL,
-  [in] DWORD   f_cbCRL
+  [in] REFGUID f_guidRevocationType,
+  [in] BYTE    *f_pbCRL,
+  [in] DWORD   f_cbCRL
 );
 ```
 
@@ -50,7 +58,7 @@ GUID specifying the type of revocation list. Set to one of the constants in the 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +88,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -106,9 +114,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

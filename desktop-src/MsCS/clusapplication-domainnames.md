@@ -4,11 +4,14 @@ description: Names of all domains available to a ClusApplication object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '418274eb-a366-4df8-af84-7e4ba8eeed5f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 418274eb-a366-4df8-af84-7e4ba8eeed5f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DomainNames property Failover Cluster", "DomainNames property Failover Cluster , ClusApplication object", "ClusApplication object Failover Cluster , DomainNames property"]
+keywords:
+- DomainNames property Failover Cluster
+- DomainNames property Failover Cluster , ClusApplication object
+- ClusApplication object Failover Cluster , DomainNames property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusApplication.DomainNames property
@@ -47,7 +53,7 @@ A [**DomainNames**](domainnames-collection.md) collection that contains the avai
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**DomainNames**](domainnames-collection.md) collection that contains the avai
 [**DomainNames**](domainnames-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

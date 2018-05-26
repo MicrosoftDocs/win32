@@ -1,8 +1,28 @@
 ---
 title: Stopping, Pausing, and Restarting Playback
 description: Stopping, Pausing, and Restarting Playback
-ms.assetid: '39751342-63bc-4e68-bf9e-38665db8a05c'
-keywords: ["waveform audio,stopping playback", "waveform-audio interface,stopping playback", "playing waveform-audio files,stopping playback", "waveform audio,pausing playback", "waveform-audio interface,pausing playback", "playing waveform-audio files,pausing playback", "waveform audio,restarting playback", "waveform-audio interface,restarting playback", "playing waveform-audio files,restarting playback", "waveOutPause function", "waveOutReset function", "waveOutRestart function", "stopping waveform-audio playback", "pausing waveform-audio playback", "restarting waveform-audio playback"]
+ms.assetid: 39751342-63bc-4e68-bf9e-38665db8a05c
+keywords:
+- waveform audio,stopping playback
+- waveform-audio interface,stopping playback
+- playing waveform-audio files,stopping playback
+- waveform audio,pausing playback
+- waveform-audio interface,pausing playback
+- playing waveform-audio files,pausing playback
+- waveform audio,restarting playback
+- waveform-audio interface,restarting playback
+- playing waveform-audio files,restarting playback
+- waveOutPause function
+- waveOutReset function
+- waveOutRestart function
+- stopping waveform-audio playback
+- pausing waveform-audio playback
+- restarting waveform-audio playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stopping, Pausing, and Restarting Playback

@@ -1,21 +1,27 @@
 ---
 title: resume command
 description: The resume command continues playing or recording on a device that has been paused using the pause command.
-ms.assetid: '08b0dc42-edf2-485b-8b00-164157117a32'
-keywords: ["resume command Windows Multimedia"]
+ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
+keywords:
+- resume command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - resume
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # resume command
 
 The resume command continues playing or recording on a device that has been paused using the [pause](pause.md) command. Digital-video, VCR, and waveform-audio devices recognize this command. Although CD audio, MIDI sequencer, and videodisc devices also recognize this command, the MCICDA, MCISEQ, and MCIPIONR device drivers do not support it.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -62,8 +68,8 @@ resume newsound
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -80,9 +86,9 @@ resume newsound
 [pause](pause.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

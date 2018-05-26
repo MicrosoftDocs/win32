@@ -1,7 +1,12 @@
 ---
 title: Defining Severity Levels
 description: Levels are used to group events and typically indicate the severity or verbosity of an event.
-ms.assetid: 'dfa4e0a9-4d89-4f50-aef9-1dae0dc11726'
+ms.assetid: dfa4e0a9-4d89-4f50-aef9-1dae0dc11726
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Severity Levels

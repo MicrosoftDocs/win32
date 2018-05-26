@@ -1,14 +1,21 @@
 ---
 title: IWMDRMLicense interface
 description: The IWMDRMLicense interface represents a list of one or more licenses.
-ms.assetid: 'afef7f9a-6621-4de7-bd40-3211c5c7ba09'
-keywords: ["IWMDRMLicense interface windows Media Format", "IWMDRMLicense interface windows Media Format , described"]
+ms.assetid: afef7f9a-6621-4de7-bd40-3211c5c7ba09
+keywords:
+- IWMDRMLicense interface windows Media Format
+- IWMDRMLicense interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMLicense
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense interface
@@ -44,7 +51,7 @@ The **IWMDRMLicense** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -53,9 +60,9 @@ The **IWMDRMLicense** interface has these methods.
 [**Interfaces**](drm-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

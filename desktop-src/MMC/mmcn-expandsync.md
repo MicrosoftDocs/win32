@@ -1,14 +1,15 @@
 ---
 title: MMCN\_EXPANDSYNC message
-description: Sent to the snap-in's IComponentData implementation when MMC requires a scope item to be expanded synchronously.
+description: Sent to the snap-ins IComponentData implementation when MMC requires a scope item to be expanded synchronously.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28fbedbf-e7d6-423a-909f-020ff8416cb8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 28fbedbf-e7d6-423a-909f-020ff8416cb8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_EXPANDSYNC message MMC"]
+keywords:
+- MMCN_EXPANDSYNC message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_EXPANDSYNC message
@@ -82,8 +86,8 @@ If the snap-in always synchronously expands the scope item specified by *lpDataO
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -101,9 +105,9 @@ If the snap-in always synchronously expands the scope item specified by *lpDataO
 [**MMCN\_EXPAND**](mmcn-expand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

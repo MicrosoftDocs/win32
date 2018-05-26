@@ -1,7 +1,12 @@
 ---
 title: BIOS Classes
 description: The virtual BIOS is a software image that is loaded into RAM to configure some of the basic aspects of and boot a computer system. There is one BIOS element per computer system and that element cannot be replaced or removed.
-ms.assetid: '61fa8f65-bcdf-4a7d-8c0b-5ea5986842e6'
+ms.assetid: 61fa8f65-bcdf-4a7d-8c0b-5ea5986842e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIOS Classes
@@ -21,7 +26,7 @@ The following are virtualization WMI classes related to the BIOS. These classes 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ The following are virtualization WMI classes related to the BIOS. These classes 
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

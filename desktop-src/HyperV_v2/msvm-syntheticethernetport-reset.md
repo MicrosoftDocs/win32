@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a reset.'
-ms.assetid: 'ebe8e9f6-4110-4c69-8924-49e346be93a4'
-title: 'Reset method of the Msvm\_SyntheticEthernetPort class'
+Description: Requests a reset.
+ms.assetid: ebe8e9f6-4110-4c69-8924-49e346be93a4
+title: Reset method of the Msvm\_SyntheticEthernetPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_SyntheticEthernetPort class
@@ -39,8 +44,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ This method returns one of the following values:
 [**Msvm\_SyntheticEthernetPort**](msvm-syntheticethernetport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

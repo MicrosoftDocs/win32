@@ -4,11 +4,12 @@ description: Truncates the previously read backup logs.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fae2e19f-08b8-410f-a735-dd4d41fc71a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fae2e19f-08b8-410f-a735-dd4d41fc71a6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsBackupTruncateLogs function Active Directory"]
+keywords:
+- DsBackupTruncateLogs function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsBackupTruncateLogs function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupTruncateLogs** function truncates the previously read backup logs.
 
@@ -30,7 +34,7 @@ The **DsBackupTruncateLogs** function truncates the previously read backup logs.
 
 ```C++
 HRESULT DsBackupTruncateLogs(
-  _In_ HBC hbc
+  _In_ HBC hbc
 );
 ```
 
@@ -74,7 +78,7 @@ Use the **DsBackupTruncateLogs** function when a full or incremental backup has 
 > \[!Caution\]  
 > If this function is called after a differential backup, all of the incremental backup information will be lost.
 
- 
+ 
 
 ## Requirements
 
@@ -82,8 +86,8 @@ Use the **DsBackupTruncateLogs** function when a full or incremental backup has 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -109,9 +113,9 @@ Use the **DsBackupTruncateLogs** function when a full or incremental backup has 
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

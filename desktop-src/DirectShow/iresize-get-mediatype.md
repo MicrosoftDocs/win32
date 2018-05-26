@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_MediaType method returns the resizer filter''s current output media type.'
-ms.assetid: 'b9900f7c-05f6-47e4-9cb0-683df2aea404'
-title: 'IResize::get\_MediaType method'
+---
+Description: The get\_MediaType method returns the resizer filters current output media type.
+ms.assetid: b9900f7c-05f6-47e4-9cb0-683df2aea404
+title: IResizeget\_MediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResize::get\_MediaType method
@@ -31,7 +36,7 @@ HRESULT get_MediaType(
 *pmt* \[out\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure allocated by the caller. The method fills this structure with the media type. The caller must release the format block, if any.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure allocated by the caller. The method fills this structure with the media type. The caller must release the format block, if any.
 
 </dd> </dl>
 

@@ -1,7 +1,12 @@
 ---
 title: Using PSAPI
 description: Lists the topics available that show how to use the PSAPI functions.
-ms.assetid: '89d8ca91-9cb0-42e5-ad82-128b401a8654'
+ms.assetid: 89d8ca91-9cb0-42e5-ad82-128b401a8654
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using PSAPI

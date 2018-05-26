@@ -1,16 +1,21 @@
 ---
-Description: 'The sample application described in this topic demonstrates how certain NLS functions can be used to mitigate some of the security issues associated with internationalized domain names (IDNs).'
-ms.assetid: '73a96129-5234-4c70-b36a-baa5cb4daa0a'
-title: 'NLS: Internationalized Domain Name (IDN) Mitigation Sample'
+Description: The sample application described in this topic demonstrates how certain NLS functions can be used to mitigate some of the security issues associated with internationalized domain names (IDNs).
+ms.assetid: 73a96129-5234-4c70-b36a-baa5cb4daa0a
+title: NLS Internationalized Domain Name (IDN) Mitigation Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NLS: Internationalized Domain Name (IDN) Mitigation Sample
 
 The sample application described in this topic demonstrates how certain NLS functions can be used to mitigate some of the security issues associated with [internationalized domain names (IDNs)](handling-internationalized-domain-names--idns.md). This sample demonstrates the following NLS API functions:
 
--   [**GetLocaleInfoEx**](getlocaleinfoex.md), with the *LCType* parameter set to [LOCALE\_SSCRIPTS](locale-sscripts.md)
--   [**GetStringScripts**](getstringscripts.md)
--   [**VerifyScripts**](verifyscripts.md)
+-   [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master), with the *LCType* parameter set to [LOCALE\_SSCRIPTS](locale-sscripts.md)
+-   [**GetStringScripts**](/windows/win32/Winnls/nf-winnls-getstringscripts?branch=master)
+-   [**VerifyScripts**](/windows/win32/Winnls/nf-winnls-verifyscripts?branch=master)
 
 
 ```C++

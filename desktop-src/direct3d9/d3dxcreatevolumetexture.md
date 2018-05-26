@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an empty volume texture, adjusting the calling parameters as needed.'
-ms.assetid: '8fc515cd-2fb3-40c7-8192-a41d93ac1e99'
+---
+Description: Creates an empty volume texture, adjusting the calling parameters as needed.
+ms.assetid: 8fc515cd-2fb3-40c7-8192-a41d93ac1e99
 title: D3DXCreateVolumeTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateVolumeTexture function
@@ -34,9 +39,9 @@ HRESULT D3DXCreateVolumeTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 
@@ -45,7 +50,7 @@ Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representin
 
 Type: **[**UINT**](winprog.windows_data_types)**
 
-Width in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](d3dcaps9.md).
+Width in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 </dd> <dt>
 
@@ -54,7 +59,7 @@ Width in pixels. This value must be nonzero. The maximum dimension that a driver
 
 Type: **[**UINT**](winprog.windows_data_types)**
 
-Height in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](d3dcaps9.md).
+Height in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 </dd> <dt>
 
@@ -63,7 +68,7 @@ Height in pixels. This value must be nonzero. The maximum dimension that a drive
 
 Type: **[**UINT**](winprog.windows_data_types)**
 
-Depth in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](d3dcaps9.md).
+Depth in pixels. This value must be nonzero. The maximum dimension that a driver supports (for width, height, and depth) can be found in MaxVolumeExtent in [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 </dd> <dt>
 
@@ -106,9 +111,9 @@ Member of the [**D3DPOOL**](direct3d9.d3dpool) enumerated type, describing the m
 *ppVolumeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](idirect3dvolumetexture9.md)\***
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolumetexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DVolumeTexture9**](idirect3dvolumetexture9.md) interface, representing the created volume texture object.
+Address of a pointer to an [**IDirect3DVolumeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolumetexture9?branch=master) interface, representing the created volume texture object.
 
 </dd> </dl>
 
@@ -120,7 +125,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateVolumeTexture will often succeed where calls to [**CreateVolumeTexture**](idirect3ddevice9--createvolumetexture.md) would fail.
+Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateVolumeTexture will often succeed where calls to [**CreateVolumeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture?branch=master) would fail.
 
 ## Requirements
 

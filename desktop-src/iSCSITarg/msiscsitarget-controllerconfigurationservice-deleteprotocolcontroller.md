@@ -4,13 +4,16 @@ description: The method deletes an instance of ProtocolController and all associ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9822ef89-d8bf-4a74-b316-8544a581c155'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9822ef89-d8bf-4a74-b316-8544a581c155
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteProtocolController method iSCSI Software Target API", "DeleteProtocolController method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , DeleteProtocolController method"]
+keywords:
+- DeleteProtocolController method iSCSI Software Target API
+- DeleteProtocolController method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , DeleteProtocolController method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteProtocolController method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -30,9 +36,9 @@ The method deletes an instance of ProtocolController and all associations in whi
 
 ```mof
 uint32 DeleteProtocolController(
-  [in] CIM_ProtocolController REF ProtocolController,
-  [in] boolean                    DeleteChildrenProtocolControllers,
-  [in] boolean                    DeleteUnits
+  [in] CIM_ProtocolController REF ProtocolController,
+  [in] boolean                    DeleteChildrenProtocolControllers,
+  [in] boolean                    DeleteUnits
 );
 ```
 
@@ -85,7 +91,7 @@ If true, the management instrumentation provider will also delete LogicalDevice 
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **LogicalDevices Associated to Other ProtocolControllers Not Deleted** (4096)
@@ -94,10 +100,10 @@ If true, the management instrumentation provider will also delete LogicalDevice 
 **Busy** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -107,7 +113,7 @@ If true, the management instrumentation provider will also delete LogicalDevice 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -121,9 +127,9 @@ If true, the management instrumentation provider will also delete LogicalDevice 
 [**MSISCSITARGET\_ControllerConfigurationService**](msiscsitarget-controllerconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

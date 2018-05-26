@@ -1,7 +1,12 @@
 ---
 title: AdminCatalog
 description: AdminCatalog
-ms.assetid: '3a3882d1-6d3c-4a01-8abb-a309820721fe'
+ms.assetid: 3a3882d1-6d3c-4a01-8abb-a309820721fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AdminCatalog

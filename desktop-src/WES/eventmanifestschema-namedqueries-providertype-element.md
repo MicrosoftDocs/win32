@@ -1,14 +1,20 @@
 ---
 title: namedQueries (ProviderType) Element
 description: Not used. Defines a list of named queries that query the event message string for a value and perform a specified action if found.
-ms.assetid: '9b45838e-aad0-4ebe-99d1-7864af07f35c'
-keywords: ["namedQueries element EventLog"]
+ms.assetid: 9b45838e-aad0-4ebe-99d1-7864af07f35c
+keywords:
+- namedQueries element EventLog
 topic_type:
 - apiref
 api_name:
 - namedQueries
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # namedQueries (ProviderType) Element
@@ -29,8 +35,8 @@ The **namedQueries** element is defined by the [**ProviderType**](eventmanifests
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **namedQueries** element is defined by the [**ProviderType**](eventmanifests
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

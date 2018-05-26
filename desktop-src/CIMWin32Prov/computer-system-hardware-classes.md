@@ -1,15 +1,18 @@
 ---
-Description: 'The Computer System Hardware category groups classes together that represent hardware related objects. Examples include input devices, hard disks, expansion cards, video devices, networking devices, and system power.'
+Description: The Computer System Hardware category groups classes together that represent hardware related objects. Examples include input devices, hard disks, expansion cards, video devices, networking devices, and system power.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0b6cb410-166e-45cd-8dca-77a111b3cf62'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0b6cb410-166e-45cd-8dca-77a111b3cf62
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Computer System Hardware Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Computer System Hardware Classes
@@ -42,7 +45,7 @@ The Cooling Devices subcategory groups classes that represent instrumentable fan
 
 
 
- 
+ 
 
 ## Input Device Classes
 
@@ -57,7 +60,7 @@ The Input Devices subcategory groups classes that represent keyboards and pointi
 
 
 
- 
+ 
 
 ## Mass Storage Classes
 
@@ -76,7 +79,7 @@ Classes in the Mass Storage subcategory represent storage devices such as hard d
 
 
 
- 
+ 
 
 ## Motherboard, Controller, and Port Classes
 
@@ -140,7 +143,7 @@ The Motherboard, Controllers, and Ports subcategory groups classes that represen
 
 
 
- 
+ 
 
 ## Networking Device Classes
 
@@ -156,7 +159,7 @@ The Networking Devices subcategory groups classes that represent the network int
 
 
 
- 
+ 
 
 ## Power Classes
 
@@ -174,7 +177,7 @@ The Power subcategory groups classes that represent power supplies, batteries, a
 
 
 
- 
+ 
 
 ## Printing Classes
 
@@ -196,7 +199,7 @@ The Printing subcategory groups classes that represent printers, printer configu
 
 
 
- 
+ 
 
 ## Telephony Classes
 
@@ -211,7 +214,7 @@ The Telephony subcategory groups classes that represent "plain old telephone" mo
 
 
 
- 
+ 
 
 ## Video and Monitor Classes
 
@@ -228,7 +231,7 @@ The Video and Monitors subcategory groups classes that represent monitors, video
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -237,9 +240,9 @@ The Video and Monitors subcategory groups classes that represent monitors, video
 [Win32 Classes](https://msdn.microsoft.com/library/aa394084)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

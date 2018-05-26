@@ -1,8 +1,63 @@
 ---
 title: Features Added in the Windows Media Format 9 Series SDK
 description: Features Added in the Windows Media Format 9 Series SDK
-ms.assetid: '73c4da27-a456-4845-a35b-edb75aa3f953'
-keywords: ["Windows Media Format SDK,features", "Windows Media Format SDK,new features", "Windows Media Format SDK,synchronous readers", "Windows Media Format SDK,frame-based indexing", "Windows Media Format SDK,SMPTE time codes", "Windows Media Format SDK,DirectShow filters", "Windows Media Format SDK,DRM writing capability", "Windows Media Format SDK,file sinks", "Windows Media Format SDK,DirectX Video Acceleration (DXVA)", "Windows Media Format SDK,multichannel audio", "Windows Media Format SDK,watermarking", "Windows Media Format SDK,multiple language support", "Windows Media Format SDK,device conformance templates", "Windows Media Format SDK,codec enumerations", "Windows Media Format SDK,mutual exclusion", "Windows Media Format SDK,multiple bit rate (MBR)", "Windows Media Format SDK,transcoding with smart recompression", "Windows Media Format SDK,smart recompression", "Windows Media Format SDK,recompression", "Windows Media Format SDK,metadata", "Windows Media Format SDK,dynamic pixel aspect ratio", "Windows Media Format SDK,interlaced video streams", "Windows Media Format SDK,two-pass encoding", "Windows Media Format SDK,WMStub.lib", "synchronous readers,about", "frame-based indexing", "SMPTE time codes,about", "DirectShow filters", "file sinks,enhancements", "multichannel audio,about", "watermarking,about", "codecs,enumerations", "mutual exclusion,about", "digital rights management (DRM),writing capability", "DRM (digital rights management),writing capability", "DirectX Video Acceleration (DXVA),about", "DXVA (DirectX Video Acceleration),about", "Advanced Systems Format (ASF),multiple language support", "ASF (Advanced Systems Format),multiple language support", "multiple bit rate (MBR),about", "MBR (multiple bit rate),about", "transcoding with smart recompression", "smart recompression", "recompression", "metadata,Windows Media Format SDK", "dynamic pixel aspect ratio", "interlaced video streams", "two-pass encoding,about", "2-pass encoding,about", "WMStub.lib"]
+ms.assetid: 73c4da27-a456-4845-a35b-edb75aa3f953
+keywords:
+- Windows Media Format SDK,features
+- Windows Media Format SDK,new features
+- Windows Media Format SDK,synchronous readers
+- Windows Media Format SDK,frame-based indexing
+- Windows Media Format SDK,SMPTE time codes
+- Windows Media Format SDK,DirectShow filters
+- Windows Media Format SDK,DRM writing capability
+- Windows Media Format SDK,file sinks
+- Windows Media Format SDK,DirectX Video Acceleration (DXVA)
+- Windows Media Format SDK,multichannel audio
+- Windows Media Format SDK,watermarking
+- Windows Media Format SDK,multiple language support
+- Windows Media Format SDK,device conformance templates
+- Windows Media Format SDK,codec enumerations
+- Windows Media Format SDK,mutual exclusion
+- Windows Media Format SDK,multiple bit rate (MBR)
+- Windows Media Format SDK,transcoding with smart recompression
+- Windows Media Format SDK,smart recompression
+- Windows Media Format SDK,recompression
+- Windows Media Format SDK,metadata
+- Windows Media Format SDK,dynamic pixel aspect ratio
+- Windows Media Format SDK,interlaced video streams
+- Windows Media Format SDK,two-pass encoding
+- Windows Media Format SDK,WMStub.lib
+- synchronous readers,about
+- frame-based indexing
+- SMPTE time codes,about
+- DirectShow filters
+- file sinks,enhancements
+- multichannel audio,about
+- watermarking,about
+- codecs,enumerations
+- mutual exclusion,about
+- digital rights management (DRM),writing capability
+- DRM (digital rights management),writing capability
+- DirectX Video Acceleration (DXVA),about
+- DXVA (DirectX Video Acceleration),about
+- Advanced Systems Format (ASF),multiple language support
+- ASF (Advanced Systems Format),multiple language support
+- multiple bit rate (MBR),about
+- MBR (multiple bit rate),about
+- transcoding with smart recompression
+- smart recompression
+- recompression
+- metadata,Windows Media Format SDK
+- dynamic pixel aspect ratio
+- interlaced video streams
+- two-pass encoding,about
+- 2-pass encoding,about
+- WMStub.lib
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Features Added in the Windows Media Format 9 Series SDK

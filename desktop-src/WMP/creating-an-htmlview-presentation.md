@@ -1,8 +1,23 @@
 ---
 title: Creating an HTMLView Presentation
 description: Creating an HTMLView Presentation
-ms.assetid: '70203160-2dd9-4096-be6a-c704db757f7f'
-keywords: ["Windows Media metafile playlists,HTMLView presentations", "playlists,HTMLView presentations", "metafile playlists,HTMLView presentations", "Windows Media metafile playlists,creating HTMLView presentations", "playlists,creating HTMLView presentations", "metafile playlists,creating HTMLView presentations", "creating HTMLView presentations", "Windows Media Player,creating HTMLView presentations", "Windows Media Player,HTMLView presentations", "HTMLView,creating presentations"]
+ms.assetid: 70203160-2dd9-4096-be6a-c704db757f7f
+keywords:
+- Windows Media metafile playlists,HTMLView presentations
+- playlists,HTMLView presentations
+- metafile playlists,HTMLView presentations
+- Windows Media metafile playlists,creating HTMLView presentations
+- playlists,creating HTMLView presentations
+- metafile playlists,creating HTMLView presentations
+- creating HTMLView presentations
+- Windows Media Player,creating HTMLView presentations
+- Windows Media Player,HTMLView presentations
+- HTMLView,creating presentations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an HTMLView Presentation

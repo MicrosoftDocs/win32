@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the user presses a key while the InkEdit control has focus.'
-ms.assetid: '14b05b72-ae5d-416a-8ea5-9d9716c0967f'
-title: 'InkEdit.KeyDown event'
+Description: Occurs when the user presses a key while the InkEdit control has focus.
+ms.assetid: 14b05b72-ae5d-416a-8ea5-9d9716c0967f
+title: InkEdit.KeyDown event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.KeyDown event
@@ -13,8 +18,8 @@ Occurs when the user presses a key while the [InkEdit](inkedit-control-reference
 
 ```C++
 HRESULT KeyDown(
-   Long  *pKey,
-   short ShiftKey
+   Long  *pKey,
+   short ShiftKey
 );
 ```
 
@@ -34,7 +39,7 @@ The virtual-key code of the key pressed by the user.
 *ShiftKey* 
 </dt> <dd>
 
-A member of the [**InkShiftKeyModifierFlags**](inkshiftkeymodifierflags.md) enumeration, that indicates which modifier keys are depressed at the time of the event.
+A member of the [**InkShiftKeyModifierFlags**](/windows/win32/msinkaut/ne-msinkaut-inkshiftkeymodifierflags?branch=master) enumeration, that indicates which modifier keys are depressed at the time of the event.
 
 
 
@@ -46,7 +51,7 @@ A member of the [**InkShiftKeyModifierFlags**](inkshiftkeymodifierflags.md) enum
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -64,7 +69,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -78,7 +83,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [InkEdit](inkedit-control-reference.md)
 </dt> <dt>
 
-[**InkShiftKeyModifierFlags Enumeration**](inkshiftkeymodifierflags.md)
+[**InkShiftKeyModifierFlags Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkshiftkeymodifierflags?branch=master)
 </dt> <dt>
 
 [**KeyPress Event \[InkEdit Control\]**](inkedit-keypress.md)
@@ -87,9 +92,9 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [**KeyUp Event \[InkEdit Control\]**](inkedit-keyup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

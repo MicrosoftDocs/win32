@@ -1,8 +1,14 @@
 ---
 title: Configuring the Registry for Port Allocations and Selective Binding
 description: Starting with Windows 2000, a utility in the Windows Resource Kit called Rpccfg.exe should be used to set bindings. For more information, consult the Windows Resource Kit for the appropriate operating system version.
-ms.assetid: 'a33b51e7-2ded-46bd-aadb-27cbd99e1029'
-keywords: ["Remote Procedure Call RPC , tasks, configuring registry for port allocations and selective binding"]
+ms.assetid: a33b51e7-2ded-46bd-aadb-27cbd99e1029
+keywords:
+- Remote Procedure Call RPC , tasks, configuring registry for port allocations and selective binding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Registry for Port Allocations and Selective Binding
@@ -11,7 +17,7 @@ Starting with Windows 2000, a utility in the Windows Resource Kit called Rpccfg
 
 For versions of windows prior to Windows 2000, the registry keys in the following table specify the system defaults for dynamic port allocation and for binding to NICs on multihomed computers. You must first create these keys and then specify the appropriate settings.
 
-Using the [**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md) function affects these settings. Developers should be familiar with the registry settings explained in this section and the **RpcServerUseProtseqEx** function when managing port allocations. An example with three hypothetical applications follows the table below, and illustrates how these settings and the **RpcServerUseProtseqEx** function interoperate.
+Using the [**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master) function affects these settings. Developers should be familiar with the registry settings explained in this section and the **RpcServerUseProtseqEx** function when managing port allocations. An example with three hypothetical applications follows the table below, and illustrates how these settings and the **RpcServerUseProtseqEx** function interoperate.
 
 If a key is missing or if it contains an invalid value, the entire configuration is marked as invalid, and all **RpcServerUseProtseq\*** calls over [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104) or [**ncadg\_ip\_udp**](https://msdn.microsoft.com/library/windows/desktop/aa367113) will fail.
 
@@ -84,13 +90,13 @@ If a key is missing or if it contains an invalid value, the entire configuration
 
  
 
-The following table illustrates how three sample applications are affected by the settings defined in the previous table, and how settings applied using the [**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md) function are also affected.
+The following table illustrates how three sample applications are affected by the settings defined in the previous table, and how settings applied using the [**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master) function are also affected.
 
 In this example, three hypothetical applications are considered:
 
--   InternetApp: This application is intended for exposure to the Internet, and has specified RPC\_C\_USE\_INTERNET\_PORT in the **EndpointFlags** member of the [**RPC\_POLICY**](rpc-policy.md) structure passed to the [**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md) function.
--   LocalApp: This application is not intended for exposure to the Internet, and has specified RPC\_C\_USE\_INTRANET\_PORT in the **EndpointFlags** member of the [**RPC\_POLICY**](rpc-policy.md) structure passed to the [**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md) function.
--   DefaultApp: This application specifies zero in the **EndpointFlags** member of the [**RPC\_POLICY**](rpc-policy.md) structure passed to the [**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md) function.
+-   InternetApp: This application is intended for exposure to the Internet, and has specified RPC\_C\_USE\_INTERNET\_PORT in the **EndpointFlags** member of the [**RPC\_POLICY**](/windows/win32/Rpcdce/ns-rpcdce-_rpc_policy?branch=master) structure passed to the [**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master) function.
+-   LocalApp: This application is not intended for exposure to the Internet, and has specified RPC\_C\_USE\_INTRANET\_PORT in the **EndpointFlags** member of the [**RPC\_POLICY**](/windows/win32/Rpcdce/ns-rpcdce-_rpc_policy?branch=master) structure passed to the [**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master) function.
+-   DefaultApp: This application specifies zero in the **EndpointFlags** member of the [**RPC\_POLICY**](/windows/win32/Rpcdce/ns-rpcdce-_rpc_policy?branch=master) structure passed to the [**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master) function.
 
 The following table explains the impact these settings have based on values specified in the registry entries explained in the previous table. For formatting considerations, the following codes are assigned:
 
@@ -125,22 +131,22 @@ The value of the Ports key, for sake of this example, is 5000-5100 for each entr
 
 <dl> <dt>
 
-[**RPC\_POLICY**](rpc-policy.md)
+[**RPC\_POLICY**](/windows/win32/Rpcdce/ns-rpcdce-_rpc_policy?branch=master)
 </dt> <dt>
 
-[**RpcServerUseAllProtseqsEx**](rpcserveruseallprotseqsex.md)
+[**RpcServerUseAllProtseqsEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsex?branch=master)
 </dt> <dt>
 
-[**RpcServerUseAllProtseqsIfEx**](rpcserveruseallprotseqsifex.md)
+[**RpcServerUseAllProtseqsIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex?branch=master)
 </dt> <dt>
 
-[**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md)
+[**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master)
 </dt> <dt>
 
-[**RpcServerUseProtseqEpEx**](rpcserveruseprotseqepex.md)
+[**RpcServerUseProtseqEpEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex?branch=master)
 </dt> <dt>
 
-[**RpcServerUseProtseqIfEx**](rpcserveruseprotseqifex.md)
+[**RpcServerUseProtseqIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqifex?branch=master)
 </dt> <dt>
 
 [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104)

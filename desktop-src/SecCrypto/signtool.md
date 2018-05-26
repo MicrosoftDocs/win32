@@ -1,7 +1,12 @@
-﻿---
-Description: 'SignTool is a Windows command-line tool for code signing, date stamping files, creating Windows digital signatures, and for verifying digital signatures.'
-ms.assetid: 'aa59cb35-5fba-4ce8-97ea-fc767c83f88e'
+---
+Description: SignTool is a Windows command-line tool for code signing, date stamping files, creating Windows digital signatures, and for verifying digital signatures.
+ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 title: SignTool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignTool
@@ -12,7 +17,7 @@ SignTool is available as part of the Windows SDK, which you can download from <h
 
 **Windows Server 2008 R2 and Windows 7:  **
 
-If you are using the [**WinVerifyTrust**](winverifytrust.md) function to verify multiple embedded signatures or support strong cryptography policy, you must include the following files:
+If you are using the [**WinVerifyTrust**](/windows/win32/Wintrust/nf-wintrust-winverifytrust?branch=master) function to verify multiple embedded signatures or support strong cryptography policy, you must include the following files:
 
 -   Microsoft.Windows.Build.Signing.wintrust.dll.manifest
 -   Wintrust.dll (downlevel version)
@@ -304,7 +309,7 @@ The following options apply to the **verify** command.
 | **/ds** *Index*                 | Verifies the signature at a certain position.<br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **/hash**{**SHA1**\|**SHA256**} | Specifies an optional hash algorithm to use when searching for a file in a catalog.<br/>                                                                                                                                                                                                                                                                                                                                                           |
 | **/kp**                         | Performs the verification by using the x64 kernel-mode driver signing policy.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
-| **/ms**                         | Uses multiple verification semantics. This is the default behavior of a [**WinVerifyTrust**](winverifytrust.md) call.<br/>                                                                                                                                                                                                                                                                                                                        |
+| **/ms**                         | Uses multiple verification semantics. This is the default behavior of a [**WinVerifyTrust**](/windows/win32/Wintrust/nf-wintrust-winverifytrust?branch=master) call.<br/>                                                                                                                                                                                                                                                                                                                        |
 | **/o** *Version*                | Verifies the file by operating system version. The version parameter is of the form:<br/> *PlatformID***:***VerMajor***.***VerMinor***.***BuildNumber*<br/> The use of the */o* switch is recommended. If */o* is not specified SignTool may return unexpected results. For example, if you do not include the */o* switch, then system catalogs that validate correctly on an older OS may not validate correctly on a newer OS.<br/> |
 | **/p7**                         | Verify PKCS \#7 files. No existing policies are used for PKCS \#7 validation. The signature is checked and a chain is built for the signing certificate.<br/>                                                                                                                                                                                                                                                                                      |
 | **/pa**                         | Specifies that the Default Authentication Verification Policy is used. If the **/pa** option is not specified, SignTool uses the Windows Driver Verification Policy. This option cannot be used with the **catdb** options.<br/>                                                                                                                                                                                                                   |

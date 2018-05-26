@@ -1,8 +1,9 @@
 ---
 title: ProgressIdleValue enumeration
 description: Specifies the type of Idle progress type that has occurred.
-ms.assetid: 'C1339942-9F02-4A89-9F19-7DF94933C8DC'
-keywords: ["ProgressIdleValue enumeration Access Execution Engine"]
+ms.assetid: C1339942-9F02-4A89-9F19-7DF94933C8DC
+keywords:
+- ProgressIdleValue enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProgressIdleValue enumeration
@@ -22,7 +28,7 @@ Specifies the type of Idle progress type that has occurred.
 
 ```C++
 enum ProgressIdleValue {
-  ProgressIdleValueNone                   = 0, 
+  ProgressIdleValueNone                   = 0, 
   ProgressIdleValueBegin, 
   ProgressIdleValueEnd, 
   ProgressIdleValueEnterConnectedStandby, 
@@ -84,8 +90,8 @@ Managed code uses the [**ProgressIdleValue**](axe-progressidlevalue_om) enum.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl> |
 
 
@@ -97,9 +103,9 @@ Managed code uses the [**ProgressIdleValue**](axe-progressidlevalue_om) enum.
 [**ProgressType**](progresstype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

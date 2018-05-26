@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities of the associated Msvm\_ResourcePoolConfigurationService class.'
-ms.assetid: '3e6857f9-62a0-420b-8f1d-8aad685a7ff7'
-title: 'Msvm\_ResourcePoolConfigurationCapabilities class'
+Description: Describes the capabilities of the associated Msvm\_ResourcePoolConfigurationService class.
+ms.assetid: 3e6857f9-62a0-420b-8f1d-8aad685a7ff7
+title: Msvm\_ResourcePoolConfigurationCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePoolConfigurationCapabilities class
@@ -212,17 +217,17 @@ An array of method identifiers, each identifying a method of the [**Msvm\_Resour
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

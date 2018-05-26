@@ -4,17 +4,21 @@ description: Provides the full DNS name of the server that the Server Manager is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28871751-83d7-4860-b076-620f4e5f2ac9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 28871751-83d7-4860-b076-620f4e5f2ac9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC_SNAPIN_MACHINE_NAME clipboard format MMC"]
+keywords:
+- MMC_SNAPIN_MACHINE_NAME clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - MMC_SNAPIN_MACHINE_NAME
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC\_SNAPIN\_MACHINE\_NAME clipboard format
@@ -32,13 +36,13 @@ The data provided by this clipboard format is a null-terminated Unicode string.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

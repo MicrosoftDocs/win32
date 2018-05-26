@@ -1,8 +1,29 @@
 ---
 title: Hosting the Windows Media Player Control in a Windows Application
 description: Hosting the Windows Media Player Control in a Windows Application
-ms.assetid: '8da04160-b9db-4082-aeff-b0107189e33e'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,Windows-based programs", "Windows Media Player object model,Windows-based programs", "object model,Windows-based programs", "Windows Media Player Mobile,Windows-based programs", "Windows Media Player ActiveX control,Windows-based programs", "Windows Media Player Mobile ActiveX control,Windows-based programs", "ActiveX control,Windows-based programs", "Windows-based program embedding", "embedding,Windows-based programs"]
+ms.assetid: 8da04160-b9db-4082-aeff-b0107189e33e
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,Windows-based programs
+- Windows Media Player object model,Windows-based programs
+- object model,Windows-based programs
+- Windows Media Player Mobile,Windows-based programs
+- Windows Media Player ActiveX control,Windows-based programs
+- Windows Media Player Mobile ActiveX control,Windows-based programs
+- ActiveX control,Windows-based programs
+- Windows-based program embedding
+- embedding,Windows-based programs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hosting the Windows Media Player Control in a Windows Application

@@ -1,7 +1,12 @@
 ---
 title: Tunnel Mode
 description: The Tunnel Mode IPsec policy scenario is used to apply IPsec tunnel mode protection for all matching traffic between two tunnel endpoints.
-ms.assetid: '170046c5-28ec-4341-89e2-93494bf9c6b8'
+ms.assetid: 170046c5-28ec-4341-89e2-93494bf9c6b8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tunnel Mode
@@ -10,7 +15,7 @@ The Tunnel Mode IPsec policy scenario is used to apply IPsec tunnel mode protect
 
 This policy scenario is typically used to protect traffic between multiple branch-office subnets, when it gets forwarded between the corresponding gateways on the Internet. It can also be used to secure end-to-end communication between two host machines, also referred to as point-to-point tunnels.
 
-To implement Tunnel Mode policy using the Windows Filtering Platform (WFP), call the [**FwpmIPsecTunnelAdd0**](fwpmipsectunneladd0.md) function that instantiates the appropriate tunnel mode filters at the appropriate layers on behalf of the caller. The caller needs to specify the Main Mode, Quick Mode provider contexts, and the filter conditions describing the traffic that should be secured inside the tunnel.
+To implement Tunnel Mode policy using the Windows Filtering Platform (WFP), call the [**FwpmIPsecTunnelAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmipsectunneladd0?branch=master) function that instantiates the appropriate tunnel mode filters at the appropriate layers on behalf of the caller. The caller needs to specify the Main Mode, Quick Mode provider contexts, and the filter conditions describing the traffic that should be secured inside the tunnel.
 
 ## Related topics
 

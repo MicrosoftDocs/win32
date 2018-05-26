@@ -1,7 +1,12 @@
 ---
 title: Profile Registration Classes
 description: Virtualization WMI classes related to profile registration.
-ms.assetid: '25a82623-0ff5-4681-8384-a7ed906988bb'
+ms.assetid: 25a82623-0ff5-4681-8384-a7ed906988bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Profile Registration Classes
@@ -24,7 +29,7 @@ The following are virtualization WMI classes related to profile registration.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ The following are virtualization WMI classes related to profile registration.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

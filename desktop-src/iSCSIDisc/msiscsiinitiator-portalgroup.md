@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_PortalGroup structure describes the characteristics of the Initiator portal group.'
-ms.assetid: '52a61a1c-51a3-4826-9f4c-a284b154f4d8'
-title: 'MSIscsiInitiator\_PortalGroup class'
+---
+Description: This MSIscsiInitiator\_PortalGroup structure describes the characteristics of the Initiator portal group.
+ms.assetid: 52a61a1c-51a3-4826-9f4c-a284b154f4d8
+title: MSIscsiInitiator\_PortalGroup class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_PortalGroup class

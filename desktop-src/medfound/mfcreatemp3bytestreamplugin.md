@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a byte-stream handler for the MP3 media source.'
-ms.assetid: 'A213BAEF-D98F-485B-8840-BE131E9B26C0'
+---
+Description: Creates a byte-stream handler for the MP3 media source.
+ms.assetid: A213BAEF-D98F-485B-8840-BE131E9B26C0
 title: MFCreateMP3ByteStreamPlugin function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFCreateMP3ByteStreamPlugin function
@@ -29,7 +34,7 @@ HRESULT __stdcall MFCreateMP3ByteStreamPlugin(
 *riid* \[in\]
 </dt> <dd>
 
-The interface identifier (IID) of the requested interface. Set this parameter to **IID\_IMFByteStreamHandler** to receive a pointer to the [**IMFByteStreamHandler**](imfbytestreamhandler.md) interface.
+The interface identifier (IID) of the requested interface. Set this parameter to **IID\_IMFByteStreamHandler** to receive a pointer to the [**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master) interface.
 
 </dd> <dt>
 

@@ -4,13 +4,16 @@ description: Sets the power state of the Device.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e66b4d7-d238-4990-a32a-f9902d654706'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5e66b4d7-d238-4990-a32a-f9902d654706
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, CIM_LogicalDevice class", "CIM_LogicalDevice class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, CIM_LogicalDevice class
+- CIM_LogicalDevice class, SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the CIM\_LogicalDevice class
@@ -30,8 +36,8 @@ Sets the power state of the Device. The use of this method has been deprecated. 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -126,7 +132,7 @@ The operation was not completed because it is not supported.
 
 </dt> <dd>
 
-2–...
+2 ...
 
 The operation was not completed because an error occurred.
 
@@ -138,8 +144,8 @@ The operation was not completed because an error occurred.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -153,9 +159,9 @@ The operation was not completed because an error occurred.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

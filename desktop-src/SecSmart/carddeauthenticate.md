@@ -1,8 +1,9 @@
 ---
 title: CardDeauthenticate function
 description: Reverses the effect of authenticating a user or administrator without resetting the smart card.
-ms.assetid: '80b9d512-25ac-48d9-b5af-44a1d6982400'
-keywords: ["CardDeauthenticate function Security"]
+ms.assetid: 80b9d512-25ac-48d9-b5af-44a1d6982400
+keywords:
+- CardDeauthenticate function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardDeauthenticate function
@@ -24,9 +30,9 @@ The **CardDeauthenticate** function, defined by a smart card module, reverses th
 
 ```C++
 DWORD WINAPI CardDeauthenticate(
-  _In_ PCARD_DATA pCardData,
-  _In_ LPWSTR     pwszUserId,
-  _In_ DWORD      dwFlags
+  _In_ PCARD_DATA pCardData,
+  _In_ LPWSTR     pwszUserId,
+  _In_ DWORD      dwFlags
 );
 ```
 
@@ -69,8 +75,8 @@ If the function fails, it returns a nonzero value, and the [Microsoft Base Smart
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ If the function fails, it returns a nonzero value, and the [Microsoft Base Smart
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the MsiNTProductType property for Windows NT, Windows 2000, and later operating systems.'
-ms.assetid: '6bbc8283-5911-4fbd-8a0f-09c398280e74'
+---
+Description: The installer sets the MsiNTProductType property for Windows NT, Windows 2000, and later operating systems.
+ms.assetid: 6bbc8283-5911-4fbd-8a0f-09c398280e74
 title: MsiNTProductType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiNTProductType property

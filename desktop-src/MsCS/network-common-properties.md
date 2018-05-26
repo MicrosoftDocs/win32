@@ -4,11 +4,20 @@ description: Common properties for networks are data values stored in the cluste
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9a59f372-0d09-4dba-adcf-38c7f2a8e006'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9a59f372-0d09-4dba-adcf-38c7f2a8e006
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["network properties Failover Cluster", "network properties Failover Cluster , common", "properties Failover Cluster , network properties", "properties Failover Cluster , network properties, common", "networks Failover Cluster , properties", "networks Failover Cluster , properties, common"]
+keywords:
+- network properties Failover Cluster
+- network properties Failover Cluster , common
+- properties Failover Cluster , network properties
+- properties Failover Cluster , network properties, common
+- networks Failover Cluster , properties
+- networks Failover Cluster , properties, common
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Common Properties

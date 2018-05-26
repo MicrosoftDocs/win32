@@ -4,17 +4,21 @@ description: User policy creation option flags.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0743FD52-B6E8-4364-9CB3-85D47A0C1367'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0743FD52-B6E8-4364-9CB3-85D47A0C1367
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicyCreationOptions enum"]
+keywords:
+- MSUserPolicyCreationOptions enum
 topic_type:
 - apiref
 api_name:
 - MSUserPolicyCreationOptions enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicyCreationOptions enum
@@ -44,7 +48,7 @@ typedef enum MSUserPolicyCreationOptions : NSUInteger {
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -60,11 +64,11 @@ TBD
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: The Net Logon Change Log serial number at last promotion.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9f907997-ad1a-451c-960d-e5d1d462c00a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9f907997-ad1a-451c-960d-e5d1d462c00a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Modified-Count-At-Last-Prom attribute AD Schema", "modifiedCountAtLastProm attribute AD Schema"]
+keywords:
+- Modified-Count-At-Last-Prom attribute AD Schema
+- modifiedCountAtLastProm attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Modified-Count-At-Last-Prom
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modified-Count-At-Last-Prom attribute
@@ -38,12 +43,12 @@ The Net Logon Change Log serial number at last promotion.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The Net Logon Change Log serial number at last promotion.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

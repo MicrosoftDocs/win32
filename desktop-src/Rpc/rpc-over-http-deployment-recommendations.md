@@ -1,7 +1,12 @@
 ---
 title: RPC over HTTP Deployment Recommendations
 description: This section documents best practices and recommended deployment configurations for achieving maximum security and performance when using RPC over HTTP.
-ms.assetid: '83938a7d-77d0-45e8-b0a3-7b32ef768d83'
+ms.assetid: 83938a7d-77d0-45e8-b0a3-7b32ef768d83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC over HTTP Deployment Recommendations
@@ -16,7 +21,7 @@ The following recommendations apply to all configurations:
 -   Put IIS on the machine that runs the RPC Proxy in IIS 6.0 mode.
 -   Disallow anonymous access to the RPC Proxy virtual directory.
 -   Never enable the AllowAnonymous registry key.
--   Make your RPC over HTTP clients use the **CertificateSubjectField** (see [**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md) for more information) to verify that the RPC Proxy you connected to is the RPC Proxy you expect.
+-   Make your RPC over HTTP clients use the **CertificateSubjectField** (see [**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master) for more information) to verify that the RPC Proxy you connected to is the RPC Proxy you expect.
 -   Configure the **ValidPorts** registry key to contain only machines to which the RPC over HTTP clients will connect.
 -   Do not use wildcards in the **ValidPorts** key; doing so can save time, but a completely unexpected machine may fit the wildcard as well.
 -   Use SSL on RPC over HTTP clients. If the guidelines set forth in these sections are followed, the RPC over HTTP client will not be able to connect without using SSL.

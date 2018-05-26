@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveConfigurationValue method
 description: The RemoveConfigurationValue method removes the value of the specified configuration setting for this virtual machine.
-ms.assetid: 'a36af3cd-04e1-42a9-98e7-ee807afe046b'
-keywords: ["RemoveConfigurationValue method Virtual Server", "RemoveConfigurationValue method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , RemoveConfigurationValue method"]
+ms.assetid: a36af3cd-04e1-42a9-98e7-ee807afe046b
+keywords:
+- RemoveConfigurationValue method Virtual Server
+- RemoveConfigurationValue method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , RemoveConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveConfigurationValue method
@@ -22,7 +30,7 @@ The **RemoveConfigurationValue** method removes the value of the specified confi
 
 ```C++
 HRESULT RemoveConfigurationValue(
-  [in] BSTR configurationKey
+  [in] BSTR configurationKey
 );
 ```
 
@@ -57,13 +65,13 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
 This method provides low-level access to any configuration value. It can be used to remove configuration values for customer-defined keys. Be careful if you use this method to remove system configuration values, since some values cannot be changed while the virtual machine is running.
 
-Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to remove the value of the "ram\_size" key located in the following key tree:
 
@@ -105,8 +113,8 @@ The *configurationKey* path string would be specified as follows:
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -118,9 +126,9 @@ The *configurationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

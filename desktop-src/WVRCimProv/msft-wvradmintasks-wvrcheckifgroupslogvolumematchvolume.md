@@ -4,13 +4,19 @@ description: Perform a remote cim call to check whether given replication group 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '748ec363-370b-4cf3-a1f8-0d7d9b18d025'
-ms.prod: 'windows-server-dev'
+ms.assetid: 748ec363-370b-4cf3-a1f8-0d7d9b18d025
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrCheckIfGroupsLogVolumeMatchVolume method", "WvrCheckIfGroupsLogVolumeMatchVolume method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrCheckIfGroupsLogVolumeMatchVolume method"]
+keywords:
+- WvrCheckIfGroupsLogVolumeMatchVolume method
+- WvrCheckIfGroupsLogVolumeMatchVolume method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrCheckIfGroupsLogVolumeMatchVolume method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrCheckIfGroupsLogVolumeMatchVolume method of the MSFT\_WvrAdminTasks class
@@ -22,8 +28,8 @@ Perform a remote cim call to check whether given replication group log volume ma
 
 ```mof
 uint32 WvrCheckIfGroupsLogVolumeMatchVolume(
-  [in] string ReplicationGroupName,
-  [in] string VolumeName
+  [in] string ReplicationGroupName,
+  [in] string VolumeName
 );
 ```
 
@@ -54,7 +60,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -68,9 +74,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

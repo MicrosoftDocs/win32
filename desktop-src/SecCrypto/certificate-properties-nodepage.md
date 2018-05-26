@@ -1,7 +1,12 @@
 ---
-Description: 'The Certificate object exposes the following properties.'
-ms.assetid: '783C243F-829A-40D0-980C-F6DA2E1C8EC7'
+Description: The Certificate object exposes the following properties.
+ms.assetid: 783C243F-829A-40D0-980C-F6DA2E1C8EC7
 title: Certificate Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Properties

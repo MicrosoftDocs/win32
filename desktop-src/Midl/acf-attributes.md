@@ -2,7 +2,13 @@
 title: ACF Attributes
 description: The ACF attributes navigation page contains a list of ACF attribute categories and links to the attribute categories.
 ms.assetid: 6e32ba07-7683-4039-8a61-aac7be90d06a
-keywords: ["ACF MIDL , attributes"]
+keywords:
+- ACF MIDL , attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACF Attributes

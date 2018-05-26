@@ -1,7 +1,12 @@
 ---
 title: Stencil formats not supported with tiled resources
-description: Formats that contain stencil aren't supported with tiled resources.
-ms.assetid: '1B675245-F21F-47B5-B3B4-C8307DAC575B'
+description: Formats that contain stencil arent supported with tiled resources.
+ms.assetid: 1B675245-F21F-47B5-B3B4-C8307DAC575B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stencil formats not supported with tiled resources

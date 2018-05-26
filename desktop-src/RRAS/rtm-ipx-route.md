@@ -1,8 +1,10 @@
 ---
 title: RTM\_IPX\_ROUTE structure
 description: The RTM\_IPX\_ROUTE structure contains information that describes a route for the IPX protocol family.
-ms.assetid: 'ffa0637c-2197-4ebd-a5ef-e174dd0ccb15'
-keywords: ["RTM_IPX_ROUTE structure RAS", "PRTM_IPX_ROUTE structure pointer RAS"]
+ms.assetid: ffa0637c-2197-4ebd-a5ef-e174dd0ccb15
+keywords:
+- RTM_IPX_ROUTE structure RAS
+- PRTM_IPX_ROUTE structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RTM\_IPX\_ROUTE structure
@@ -24,13 +31,13 @@ The **RTM\_IPX\_ROUTE** structure contains information that describes a route fo
 
 ```C++
 typedef struct _RTM_IPX_ROUTE {
-  FILETIME               RR_TimeStamp;
-  DWORD                  RR_RoutingProtocol;
-  DWORD                  RR_InterfaceID;
+  FILETIME               RR_TimeStamp;
+  DWORD                  RR_RoutingProtocol;
+  DWORD                  RR_InterfaceID;
   PROTOCOL_SPECIFIC_DATA RR_ProtocolSpecificData;
-  IPX_NETWORK            RR_Network;
-  IPX_NEXT_HOP_ADDRESS   RR_NextHopAddress;
-  IPX_SPECIFIC_DATA      RR_FamilySpecificData;
+  IPX_NETWORK            RR_Network;
+  IPX_NEXT_HOP_ADDRESS   RR_NextHopAddress;
+  IPX_SPECIFIC_DATA      RR_FamilySpecificData;
 } RTM_IPX_ROUTE, *PRTM_IPX_ROUTE;
 ```
 
@@ -100,8 +107,8 @@ The members of the **RTM\_IPX\_ROUTE** structure are all **DWORD** aligned.
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -125,9 +132,9 @@ The members of the **RTM\_IPX\_ROUTE** structure are all **DWORD** aligned.
 [**IPX\_SPECIFIC\_DATA**](ipx-specific-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

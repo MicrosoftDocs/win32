@@ -1,7 +1,7 @@
 ---
 title: SessionParameter
 description: Defines the names of parameters that exist in the Session parameter collection.
-ms.assetid: '21682C94-EDEB-4E25-B694-8A3D8F234608'
+ms.assetid: 21682C94-EDEB-4E25-B694-8A3D8F234608
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SessionParameter
@@ -147,15 +152,15 @@ The Session parameters are valid for a single instance of the Axe engine and job
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The DBT\_USERDEFINED device event identifies a user-defined event.'
-ms.assetid: 'b42feda9-5fe7-4e54-aad9-28c61d2f29b6'
-title: 'DBT\_USERDEFINED event'
+Description: The DBT\_USERDEFINED device event identifies a user-defined event.
+ms.assetid: b42feda9-5fe7-4e54-aad9-28c61d2f29b6
+title: DBT\_USERDEFINED event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBT\_USERDEFINED event
@@ -48,7 +53,7 @@ Set to DBT\_USERDEFINED.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**\_DEV\_BROADCAST\_USERDEFINED**](-dev-broadcast-userdefined-str.md) structure which describes the user-defined broadcast in progress. The **dbud\_szName** member contains the name of the user-defined message, followed by any user-defined data.
+A pointer to a [**\_DEV\_BROADCAST\_USERDEFINED**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_userdefined?branch=master) structure which describes the user-defined broadcast in progress. The **dbud\_szName** member contains the name of the user-defined message, followed by any user-defined data.
 
 </dd> </dl>
 
@@ -62,8 +67,8 @@ Return **TRUE**.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
+| Minimum supported client<br/> | Windows XP<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Dbt.h</dt> </dl> |
 
 
@@ -78,7 +83,7 @@ Return **TRUE**.
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**\_DEV\_BROADCAST\_USERDEFINED**](-dev-broadcast-userdefined-str.md)
+[**\_DEV\_BROADCAST\_USERDEFINED**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_userdefined?branch=master)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
@@ -87,9 +92,9 @@ Return **TRUE**.
 [**BroadcastSystemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644932)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

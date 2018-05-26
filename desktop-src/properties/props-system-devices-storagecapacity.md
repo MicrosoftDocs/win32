@@ -1,7 +1,12 @@
 ---
-Description: 'Total storage capacity of the device.'
-ms.assetid: '204cf253-be35-4213-ab84-45a952beffd1'
-title: 'System.Devices.StorageCapacity'
+Description: Total storage capacity of the device.
+ms.assetid: 204cf253-be35-4213-ab84-45a952beffd1
+title: System.Devices.StorageCapacity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.StorageCapacity

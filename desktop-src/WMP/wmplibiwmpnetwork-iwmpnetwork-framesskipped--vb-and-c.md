@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork framesSkipped property
 description: The framesSkipped property gets the total number of frames skipped during playback.
-ms.assetid: 'eedecfa9-0c82-4800-979e-ca85fb78c480'
-keywords: ["framesSkipped property Windows Media Player", "framesSkipped property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , framesSkipped property"]
+ms.assetid: eedecfa9-0c82-4800-979e-ca85fb78c480
+keywords:
+- framesSkipped property Windows Media Player
+- framesSkipped property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , framesSkipped property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::framesSkipped property
@@ -103,9 +111,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

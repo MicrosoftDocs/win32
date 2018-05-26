@@ -4,17 +4,22 @@ description: Backward link from non-member group or user to Az groups that link 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '51725a95-a9c0-4c88-a390-b8e35b8fd3e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 51725a95-a9c0-4c88-a390-b8e35b8fd3e1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Non-Members-BL attribute AD Schema", "msDS-NonMembersBL attribute AD Schema"]
+keywords:
+- ms-DS-Non-Members-BL attribute AD Schema
+- msDS-NonMembersBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Non-Members-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Non-Members-BL attribute
@@ -38,11 +43,11 @@ Backward link from non-member group or user to Az groups that link to it (same f
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Backward link from non-member group or user to Az groups that link to it (same f
 
 
 
- 
+ 
 
- 
+ 
 
 
 

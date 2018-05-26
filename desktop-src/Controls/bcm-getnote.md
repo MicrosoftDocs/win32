@@ -1,8 +1,9 @@
 ---
 title: BCM\_GETNOTE message
 description: Gets the text of the note associated with a command link button. You can send this message explicitly or use the Button\_GetNote macro.
-ms.assetid: 'ddaf4227-1316-49b5-abf0-00215472c46c'
-keywords: ["BCM_GETNOTE message Windows Controls"]
+ms.assetid: ddaf4227-1316-49b5-abf0-00215472c46c
+keywords:
+- BCM_GETNOTE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_GETNOTE message
 
-Gets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_GetNote**](button-getnote.md) macro.
+Gets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_GetNote**](/windows/win32/Commctrl/nf-commctrl-button_getnote?branch=master) macro.
 
 ## Parameters
 
@@ -54,8 +60,8 @@ The **BCM\_GETNOTE** message works only with buttons that have the the [**BS\_CO
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The **BCM\_GETNOTE** message works only with buttons that have the the [**BS\_CO
 [Button Types](button-types-and-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

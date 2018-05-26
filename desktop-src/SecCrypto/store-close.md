@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes an open certificate store.'
-ms.assetid: '14db819a-b220-47d4-9030-72157e0e5019'
-title: 'Store.Close method'
+---
+Description: Closes an open certificate store.
+ms.assetid: 14db819a-b220-47d4-9030-72157e0e5019
+title: Store.Close method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store.Close method

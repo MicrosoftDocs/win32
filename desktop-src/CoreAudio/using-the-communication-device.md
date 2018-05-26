@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows 7, the Windows multimedia control panel, Mmsys.cpl, provides a new Communications tab.'
-ms.assetid: 'bec2127d-fb82-436d-beee-d43e8fef5c35'
+Description: In Windows 7, the Windows multimedia control panel, Mmsys.cpl, provides a new Communications tab.
+ms.assetid: bec2127d-fb82-436d-beee-d43e8fef5c35
 title: Using a Communication Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Communication Device
@@ -29,9 +34,9 @@ The following sections describe how to use Core Audio APIs to provide a custom d
 
 ### Getting a Reference to the Communication Device Endpoint
 
-To use the communication device, a direct WASAPI client must enumerate the devices by using the device enumerator. Get a reference to the endpoint of the default communication device by calling [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md). In this call, the application must specify **eCommunications** in the *Role* parameter to restrict the device enumeration to communication devices. After you get a reference to the device endpoint for the device, you can activate the services that are scoped for the endpoint by calling [**IMMDevice::Activate**](immdevice-activate.md). For example, you can pass the **IID\_IAudioClient** service identifier to activate an audio client object and use it for stream management, the **IID\_IAudioEndpointVolume** identifier to get access to the volume controls of the communication device endpoint, or the **IID\_IAudioSessionManager** identifier to activate the session manager that enables you to interact with the policy engine of the endpoint. For information about stream operations, see [Stream Management](stream-management.md).
+To use the communication device, a direct WASAPI client must enumerate the devices by using the device enumerator. Get a reference to the endpoint of the default communication device by calling [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master). In this call, the application must specify **eCommunications** in the *Role* parameter to restrict the device enumeration to communication devices. After you get a reference to the device endpoint for the device, you can activate the services that are scoped for the endpoint by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master). For example, you can pass the **IID\_IAudioClient** service identifier to activate an audio client object and use it for stream management, the **IID\_IAudioEndpointVolume** identifier to get access to the volume controls of the communication device endpoint, or the **IID\_IAudioSessionManager** identifier to activate the session manager that enables you to interact with the policy engine of the endpoint. For information about stream operations, see [Stream Management](stream-management.md).
 
-By using the [**IMMDevice**](immdevice.md) reference, you can also access the property store for the device endpoint. These property values, such as device friendly name and manufacturer name, are populated by the OEM and enable an application to determine the characteristics of a communication device. For more information, see [Device Properties](device-properties.md).
+By using the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) reference, you can also access the property store for the device endpoint. These property values, such as device friendly name and manufacturer name, are populated by the OEM and enable an application to determine the characteristics of a communication device. For more information, see [Device Properties](device-properties.md).
 
 The following example code gets a reference to the endpoint of the default communication device for rendering an audio stream.
 

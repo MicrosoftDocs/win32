@@ -1,8 +1,28 @@
 ---
 title: Coloring Shapes
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: 'f528f0c7-1351-4bca-b309-67511431b711'
-keywords: ["Web workshop,coloring shapes", "designing Web pages,coloring shapes", "Vector Markup Language (VML),coloring shapes", "VML (Vector Markup Language),coloring shapes", "vector graphics,coloring shapes", "VML shapes,coloring", "coloring shapes", "Vector Markup Language (VML),keyword color names", "VML (Vector Markup Language),keyword color names", "vector graphics,keyword color names", "keyword color names", "Vector Markup Language (VML),RGB triplets", "VML (Vector Markup Language),RGB triplets", "vector graphics,RGB triplets", "RGB triplets"]
+ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
+keywords:
+- Web workshop,coloring shapes
+- designing Web pages,coloring shapes
+- Vector Markup Language (VML),coloring shapes
+- VML (Vector Markup Language),coloring shapes
+- vector graphics,coloring shapes
+- VML shapes,coloring
+- coloring shapes
+- Vector Markup Language (VML),keyword color names
+- VML (Vector Markup Language),keyword color names
+- vector graphics,keyword color names
+- keyword color names
+- Vector Markup Language (VML),RGB triplets
+- VML (Vector Markup Language),RGB triplets
+- vector graphics,RGB triplets
+- RGB triplets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coloring Shapes

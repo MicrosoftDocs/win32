@@ -1,7 +1,12 @@
 ---
 title: How-To Topics for UI Automation Providers
 description: This section contains code examples that demonstrate tasks in writing Microsoft UI Automation providers for UI elements.
-ms.assetid: '49a2c425-76a9-4cb4-8223-c7c085facff3'
+ms.assetid: 49a2c425-76a9-4cb4-8223-c7c085facff3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How-To Topics for UI Automation Providers

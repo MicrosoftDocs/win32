@@ -1,14 +1,20 @@
 ---
 title: VIEW.maxWidth
 description: The maxWidth attribute specifies or retrieves the maximum width in pixels of the VIEW when resizing.
-ms.assetid: '41912c42-a43f-428c-9f52-6918561674db'
-keywords: ["VIEW.maxWidth Windows Media Player"]
+ms.assetid: 41912c42-a43f-428c-9f52-6918561674db
+keywords:
+- VIEW.maxWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.maxWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.maxWidth
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) with a value of zero or gre
 [**VIEW.minWidth**](view-minwidth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

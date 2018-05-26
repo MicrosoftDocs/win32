@@ -1,7 +1,12 @@
 ---
 title: Names Section of .Idq Files
 description: Names Section of .Idq Files
-ms.assetid: '8d86f599-1e6f-47a8-9ee3-5b42a2400861'
+ms.assetid: 8d86f599-1e6f-47a8-9ee3-5b42a2400861
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Names Section of .Idq Files

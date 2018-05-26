@@ -1,20 +1,25 @@
 ---
 title: ResourceData
-description: Stores the virtual computer object's encrypted password if the RequireKerberos property for Network Names is set to 1.
+description: Stores the virtual computer objects encrypted password if the RequireKerberos property for Network Names is set to 1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '36b97940-8fdc-49f7-bcc3-d0c954b5c797'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 36b97940-8fdc-49f7-bcc3-d0c954b5c797
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ResourceData Failover Cluster ,for network names", "ResourceData Failover Cluster"]
+keywords:
+- ResourceData Failover Cluster ,for network names
+- ResourceData Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ResourceData
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceData
@@ -28,13 +33,13 @@ Stores the virtual computer object's encrypted password if the [**RequireKerbero
 | Data type | byte array                                                       |
 | Access    | [Read-only](read-only-properties.md)                            |
 | Status    | Required                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ Access to **ResourceData** is limited to the local administrator, system, and cr
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -67,9 +72,9 @@ Access to **ResourceData** is limited to the local administrator, system, and cr
 [**RequireKerberos**](network-names-requirekerberos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

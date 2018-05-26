@@ -2,13 +2,19 @@
 title: helpstringdll attribute
 description: The \ helpstringdll\ attribute sets the name of the DLL to use to perform a document string lookup.
 ms.assetid: 1b9b962c-c355-4428-b5ea-dc7fd48b50a9
-keywords: ["helpstringdll attribute MIDL"]
+keywords:
+- helpstringdll attribute MIDL
 topic_type:
 - apiref
 api_name:
 - helpstringdll
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # helpstringdll attribute

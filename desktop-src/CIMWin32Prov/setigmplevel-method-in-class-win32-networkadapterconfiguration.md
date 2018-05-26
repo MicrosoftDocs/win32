@@ -1,15 +1,18 @@
 ---
-Description: 'The SetIGMPLevel WMI class static method is used to set the extent to which the system supports IP multicasting and participates in the Internet Group Management Protocol.'
+Description: The SetIGMPLevel WMI class static method is used to set the extent to which the system supports IP multicasting and participates in the Internet Group Management Protocol.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '38877576-aa23-4841-b3ae-1a02bfdd70d8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 38877576-aa23-4841-b3ae-1a02bfdd70d8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetIGMPLevel method of the Win32\_NetworkAdapterConfiguration class'
+title: SetIGMPLevel method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetIGMPLevel method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetIGMPLevel(
-  [in] uint8 IGMPLevel
+  [in] uint8 IGMPLevel
 );
 ```
 
@@ -414,7 +417,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -428,8 +431,8 @@ The [Modify the IGMP Level for All Network Adapters](https://Gallery.TechNet.Mic
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -455,9 +458,9 @@ The [Modify the IGMP Level for All Network Adapters](https://Gallery.TechNet.Mic
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

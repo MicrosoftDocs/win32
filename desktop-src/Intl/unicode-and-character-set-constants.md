@@ -1,7 +1,12 @@
 ---
 Description: Unicode and Character Set Constants
-ms.assetid: '647c9e14-f134-4300-bf17-6f6321db6477'
+ms.assetid: 647c9e14-f134-4300-bf17-6f6321db6477
 title: Unicode and Character Set Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unicode and Character Set Constants

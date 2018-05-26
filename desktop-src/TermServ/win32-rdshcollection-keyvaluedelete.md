@@ -4,11 +4,14 @@ description: Deletes the specified key (and associated value) from the collectio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '968d6744-7b4a-45e5-87fb-90c408dbc771'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 968d6744-7b4a-45e5-87fb-90c408dbc771
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["KeyValueDelete method Remote Desktop Services", "KeyValueDelete method Remote Desktop Services , Win32_RDSHCollection class", "Win32_RDSHCollection class Remote Desktop Services , KeyValueDelete method"]
+keywords:
+- KeyValueDelete method Remote Desktop Services
+- KeyValueDelete method Remote Desktop Services , Win32_RDSHCollection class
+- Win32_RDSHCollection class Remote Desktop Services , KeyValueDelete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KeyValueDelete method of the Win32\_RDSHCollection class
@@ -28,7 +34,7 @@ Deletes the specified key (and associated value) from the collection.
 
 ```mof
 uint32 KeyValueDelete(
-  [in] string Key
+  [in] string Key
 );
 ```
 
@@ -52,7 +58,7 @@ The key to delete.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -66,9 +72,9 @@ The key to delete.
 [**Win32\_RDSHCollection**](win32-rdshcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

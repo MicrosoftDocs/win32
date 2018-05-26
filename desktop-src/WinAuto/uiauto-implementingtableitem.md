@@ -1,15 +1,30 @@
 ---
 title: TableItem Control Pattern
 description: Describes guidelines and conventions for implementing ITableItemProvider, including information about methods. The TableItem control pattern is used to support child controls of containers that implement ITableProvider.
-ms.assetid: 'e00c7a58-410c-4818-8f61-57ee98527d6e'
-keywords: ["UI Automation,implementing TableItem control pattern", "UI Automation,TableItem control pattern", "UI Automation,ITableItemProvider", "ITableItemProvider", "implementing UI Automation TableItem control patterns", "TableItem control patterns", "control patterns,ITableItemProvider", "control patterns,implementing UI Automation TableItem", "control patterns,TableItem", "interfaces,ITableItemProvider"]
+ms.assetid: e00c7a58-410c-4818-8f61-57ee98527d6e
+keywords:
+- UI Automation,implementing TableItem control pattern
+- UI Automation,TableItem control pattern
+- UI Automation,ITableItemProvider
+- ITableItemProvider
+- implementing UI Automation TableItem control patterns
+- TableItem control patterns
+- control patterns,ITableItemProvider
+- control patterns,implementing UI Automation TableItem
+- control patterns,TableItem
+- interfaces,ITableItemProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TableItem Control Pattern
 
-Describes guidelines and conventions for implementing [**ITableItemProvider**](uiauto-itableitemprovider.md), including information about methods. The **TableItem** control pattern is used to support child controls of containers that implement [**ITableProvider**](uiauto-itableprovider.md).
+Describes guidelines and conventions for implementing [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master), including information about methods. The **TableItem** control pattern is used to support child controls of containers that implement [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master).
 
-Access to individual cell functionality is provided by the required, concurrent implementation of [**IGridItemProvider**](uiauto-igriditemprovider.md). This control pattern is analogous to **IGridItemProvider** with the distinction that any control implementing [**ITableItemProvider**](uiauto-itableitemprovider.md) must programmatically expose the relationship between the individual cell and its row and column information. For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
+Access to individual cell functionality is provided by the required, concurrent implementation of [**IGridItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igriditemprovider?branch=master). This control pattern is analogous to **IGridItemProvider** with the distinction that any control implementing [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master) must programmatically expose the relationship between the individual cell and its row and column information. For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
 This topic contains the following sections.
 
@@ -25,14 +40,14 @@ When implementing the **TableItem** control pattern, note the following guidelin
 
 ## Required Members for **ITableItemProvider**
 
-The following methods are required for implementing the [**ITableItemProvider**](uiauto-itableitemprovider.md) interface.
+The following methods are required for implementing the [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master) interface.
 
 
 
 | Required members                                                               | Member type | Notes |
 |--------------------------------------------------------------------------------|-------------|-------|
-| [**GetColumnHeaderItems**](uiauto-itableitemprovider-getcolumnheaderitems.md) | Method      | None  |
-| [**GetRowHeaderItems**](uiauto-itableitemprovider-getrowheaderitems.md)       | Method      | None  |
+| [**GetColumnHeaderItems**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems?branch=master) | Method      | None  |
+| [**GetRowHeaderItems**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getrowheaderitems?branch=master)       | Method      | None  |
 
 
 

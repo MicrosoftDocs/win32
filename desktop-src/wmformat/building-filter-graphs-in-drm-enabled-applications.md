@@ -1,8 +1,28 @@
 ---
 title: Building Filter Graphs in DRM-Enabled Applications
 description: Building Filter Graphs in DRM-Enabled Applications
-ms.assetid: '447bec2a-0982-4a05-87bb-aed6db684b36'
-keywords: ["Windows Media Format SDK,building filter graphs", "Windows Media Format SDK,DirectShow", "Windows Media Format SDK,DRM-enabled applications", "Advanced Systems Format (ASF),building filter graphs", "ASF (Advanced Systems Format),building filter graphs", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),DRM-enabled applications", "ASF (Advanced Systems Format),DRM-enabled applications", "DirectShow,building filter graphs", "DirectShow,DRM-enabled applications", "digital rights management (DRM),DirectShow", "DRM (digital rights management),DirectShow", "digital rights management (DRM),building filter graphs", "DRM (digital rights management),building filter graphs"]
+ms.assetid: 447bec2a-0982-4a05-87bb-aed6db684b36
+keywords:
+- Windows Media Format SDK,building filter graphs
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,DRM-enabled applications
+- Advanced Systems Format (ASF),building filter graphs
+- ASF (Advanced Systems Format),building filter graphs
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),DRM-enabled applications
+- ASF (Advanced Systems Format),DRM-enabled applications
+- DirectShow,building filter graphs
+- DirectShow,DRM-enabled applications
+- digital rights management (DRM),DirectShow
+- DRM (digital rights management),DirectShow
+- digital rights management (DRM),building filter graphs
+- DRM (digital rights management),building filter graphs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Filter Graphs in DRM-Enabled Applications
@@ -65,10 +85,10 @@ case WMT_NO_RIGHTS_EX:
 [**Enabling DRM Support**](enabling-drm-support.md)
 </dt> <dt>
 
-[**IWMDRMReader**](iwmdrmreader.md)
+[**IWMDRMReader**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmdrmreader?branch=master)
 </dt> <dt>
 
-[**IWMDRMWriter**](iwmdrmwriter.md)
+[**IWMDRMWriter**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmdrmwriter?branch=master)
 </dt> </dl>
 
  

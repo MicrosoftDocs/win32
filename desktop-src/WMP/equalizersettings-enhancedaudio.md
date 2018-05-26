@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.enhancedAudio
 description: The enhancedAudio attribute specifies or retrieves a value indicating whether enhanced audio is turned on.
-ms.assetid: '06f346fc-ec25-4fdc-8dc9-895d3754e36b'
-keywords: ["EQUALIZERSETTINGS.enhancedAudio Windows Media Player"]
+ms.assetid: 06f346fc-ec25-4fdc-8dc9-895d3754e36b
+keywords:
+- EQUALIZERSETTINGS.enhancedAudio Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.enhancedAudio
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.enhancedAudio
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,9 +66,9 @@ This attribute is a read/write **Boolean**.
 [**EQUALIZERSETTINGS.wowLevel**](equalizersettings-wowlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'The SvcMain function in the following example is the ServiceMain function for the example service.'
-ms.assetid: '7aa9371d-676c-4633-9831-edf0e74d15f0'
+Description: The SvcMain function in the following example is the ServiceMain function for the example service.
+ms.assetid: 7aa9371d-676c-4633-9831-edf0e74d15f0
 title: Writing a ServiceMain Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a ServiceMain Function
 
 The SvcMain function in the following example is the [**ServiceMain**](servicemain.md) function for the example service. SvcMain has access to the command-line arguments for the service in the way that the **main** function of a console application does. The first parameter contains the number of arguments being passed to the service in the second parameter. There will always be at least one argument. The second parameter is a pointer to an array of string pointers. The first item in the array is always the service name.
 
-The SvcMain function first calls the [**RegisterServiceCtrlHandler**](registerservicectrlhandler.md) function to register the SvcCtrlHandler function as the service's [**Handler**](handler.md) function and begin initialization. **RegisterServiceCtrlHandler** should be the first nonfailing function in [**ServiceMain**](servicemain.md) so the service can use the status handle returned by this function to call [**SetServiceStatus**](setservicestatus.md) with the SERVICE\_STOPPED state if an error occurs.
+The SvcMain function first calls the [**RegisterServiceCtrlHandler**](/windows/win32/Winsvc/nf-winsvc-registerservicectrlhandlera?branch=master) function to register the SvcCtrlHandler function as the service's [**Handler**](/windows/win32/Winsvc/nc-winsvc-lphandler_function?branch=master) function and begin initialization. **RegisterServiceCtrlHandler** should be the first nonfailing function in [**ServiceMain**](servicemain.md) so the service can use the status handle returned by this function to call [**SetServiceStatus**](/windows/win32/Winsvc/nf-winsvc-setservicestatus?branch=master) with the SERVICE\_STOPPED state if an error occurs.
 
 Next, the SvcMain function calls the ReportSvcStatus function to indicate that its initial status is SERVICE\_START\_PENDING. While the service is in this state, no controls are accepted. To simplify the logic of the service, it is recommended that the service not accept any controls while it is performing its initialization.
 

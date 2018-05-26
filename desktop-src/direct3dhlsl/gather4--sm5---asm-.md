@@ -1,7 +1,12 @@
 ---
 title: gather4 (sm5 - asm)
 description: Gathers the four texels that would be used in a bi-linear filtering operation and packs them into a single register.
-ms.assetid: '5F93BB70-7696-48E4-BCD3-91D5D42FF63E'
+ms.assetid: 5F93BB70-7696-48E4-BCD3-91D5D42FF63E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gather4 (sm5 - asm)
@@ -15,7 +20,7 @@ Gathers the four texels that would be used in a bi-linear filtering operation an
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Gathers the four texels that would be used in a bi-linear filtering operation an
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +61,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -75,7 +80,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -84,9 +89,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

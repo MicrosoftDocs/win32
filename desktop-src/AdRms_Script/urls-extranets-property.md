@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the external service URLs for enterprise.'
+Description: Retrieves the external service URLs for enterprise.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '436a79ae-b2bb-4e37-b795-4e25a6d51bfc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 436a79ae-b2bb-4e37-b795-4e25a6d51bfc
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Urls.Extranets property'
+title: Urls.Extranets property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Urls.Extranets property
@@ -106,7 +109,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END SUB
 [**Urls**](urls-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

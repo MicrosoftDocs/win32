@@ -1,7 +1,12 @@
 ---
-Description: 'Quality of Service (QoS) implementation details.'
-ms.assetid: 'b5e2bac6-1c93-4dc0-a15d-ff07dfebac5d'
+Description: Quality of Service (QoS) implementation details.
+ms.assetid: b5e2bac6-1c93-4dc0-a15d-ff07dfebac5d
 title: Default Values in the SPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Values in the SPI

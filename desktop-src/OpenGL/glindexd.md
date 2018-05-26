@@ -1,8 +1,9 @@
 ---
 title: glIndexd function
 description: The glIndexd function sets the current color index.
-ms.assetid: '4cd72d32-e796-4c94-94cb-591f1ee3b26e'
-keywords: ["glIndexd function OpenGL"]
+ms.assetid: 4cd72d32-e796-4c94-94cb-591f1ee3b26e
+keywords:
+- glIndexd function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glIndexd function
@@ -22,7 +28,7 @@ The **glIndexd** function sets the current color index.
 
 ```C++
 void WINAPI glIndexd(
-   GLdouble c
+   GLdouble c
 );
 ```
 
@@ -63,8 +69,8 @@ The following function retrieves information related to **glIndexd**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -87,9 +93,9 @@ The following function retrieves information related to **glIndexd**:
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

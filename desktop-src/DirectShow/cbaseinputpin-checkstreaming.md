@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether the pin can accept samples.'
-ms.assetid: 'bc66ab4c-99de-4031-bdac-b1430f736e20'
-title: 'CBaseInputPin.CheckStreaming method'
+Description: Determines whether the pin can accept samples.
+ms.assetid: bc66ab4c-99de-4031-bdac-b1430f736e20
+title: CBaseInputPin.CheckStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.CheckStreaming method
@@ -36,7 +41,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +67,9 @@ The [**CBaseInputPin::Receive**](cbaseinputpin-receive.md) method calls this met
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

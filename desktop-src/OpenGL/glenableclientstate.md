@@ -1,8 +1,9 @@
 ---
 title: glEnableClientState function
 description: The glEnableClientState and glDisableClientState functions enable and disable arrays respectively.
-ms.assetid: '02520f81-0b0d-4774-b1e2-713cf226347f'
-keywords: ["glEnableClientState function OpenGL"]
+ms.assetid: 02520f81-0b0d-4774-b1e2-713cf226347f
+keywords:
+- glEnableClientState function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEnableClientState function
@@ -22,7 +28,7 @@ The **glEnableClientState** and [**glDisableClientState**](gldisableclientstate.
 
 ```C++
 void WINAPI glEnableClientState(
-   GLenum array
+   GLenum array
 );
 ```
 
@@ -50,7 +56,7 @@ A symbolic constant for the array you want to enable or disable. This parameter 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -91,7 +97,7 @@ Calling **glEnableClientState** and **glDisableClientState** between calls to [*
 > [!Note]  
 > The **glEnableClientState** and **glDisableClientState** functions are only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 ## Requirements
 
@@ -99,8 +105,8 @@ Calling **glEnableClientState** and **glDisableClientState** between calls to [*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -156,9 +162,9 @@ Calling **glEnableClientState** and **glDisableClientState** between calls to [*
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

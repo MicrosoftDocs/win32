@@ -4,11 +4,12 @@ description: Deletes the security principal associated with a designated resourc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ee6893b-928e-4fce-85d1-f51118ee7556'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4ee6893b-928e-4fce-85d1-f51118ee7556
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_NETNAME_DELETE_CO control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_NETNAME_DELETE_CO control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_NETNAME\_DELETE\_CO control code
 
-Deletes the security principal associated with a designated resource. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Deletes the security principal associated with a designated resource. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 
 ```C++
@@ -39,7 +43,7 @@ ClusterResourceControl( hResource,    // resource handle
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master).
 
 <dl> <dt>
 
@@ -52,7 +56,7 @@ Pointer to a null-terminated Unicode string that contains a GUID of a security p
 
 ## Return value
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) returns one of the following values.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -80,17 +84,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_NETNAME\_DELETE\_CO (0x01000
 
 | Component      | Bit location | Value                                  |
 |----------------|--------------|----------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE** (0x1)       |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE** (0x1)       |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)            |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)             |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)         |
 | Type bit       | 20           | External (0x0)                         |
-| Operation code | 0–23         | **CLCTL\_NETNAME\_DELETE\_CO** (0x17e) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_WRITE** (0x2)          |
+| Operation code | 0 23         | **CLCTL\_NETNAME\_DELETE\_CO** (0x17e) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_WRITE** (0x2)          |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -101,7 +105,7 @@ For more information, see [Control Code Architecture](control-code-architecture.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -113,12 +117,12 @@ For more information, see [Control Code Architecture](control-code-architecture.
 [External Resource Control Codes](external-resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

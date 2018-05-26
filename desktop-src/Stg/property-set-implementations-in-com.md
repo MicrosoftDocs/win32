@@ -1,8 +1,14 @@
 ---
 title: Property Set Implementations in COM
 description: Property Set Implementations in COM
-ms.assetid: '52d7b534-f81a-4cc9-b5ea-9538bfff056c'
-keywords: ["Structured Storage Strctd Stg ,using,property set uses in COM"]
+ms.assetid: 52d7b534-f81a-4cc9-b5ea-9538bfff056c
+keywords:
+- Structured Storage Strctd Stg ,using,property set uses in COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Set Implementations in COM
@@ -18,26 +24,26 @@ COM provides implementations of the property set interfaces for various objects,
 
 -   [IPropertySetStorage–Compound File Implementation](ipropertysetstorage-compound-file-implementation.md)
 
-    The compound file implementation, which provides the [**IStorage**](istorage.md) and [**IStream**](istream.md) interfaces, also provides the [**IPropertySetStorage**](ipropertysetstorage.md) and [**IPropertyStorage**](ipropertystorage.md) interfaces. Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](_com_iunknown_queryinterface).
+    The compound file implementation, which provides the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) and [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) interfaces, also provides the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) and [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) interfaces. Given a compound file implementation of **IStorage**, the **IPropertySetStorage** interface can be obtained by calling [**IUnknown::QueryInterface**](_com_iunknown_queryinterface).
 
 -   [IPropertySetStorage–NTFS File System Implementation](ipropertysetstorage-ntfs-file-system-implementation.md)
 
-    The [**IPropertySetStorage**](ipropertysetstorage.md) and [**IPropertyStorage**](ipropertystorage.md) interfaces can also be obtained for NTFS files that are not compound files. Therefore, it is possible to obtain these interfaces for all files on an NTFS volume.
+    The [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) and [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) interfaces can also be obtained for NTFS files that are not compound files. Therefore, it is possible to obtain these interfaces for all files on an NTFS volume.
 
 -   [IPropertySetStorage–Stand-alone Implementation](ipropertysetstorage-stand-alone-implementation.md)
 
-    When this implementation of [**IPropertySetStorage**](ipropertysetstorage.md) and [**IPropertyStorage**](ipropertystorage.md) is instantiated, it is given a pointer to an object that supports the [**IStorage**](istorage.md) interface. It then manipulates property set storages within that storage object. Thus, it is possible to access and manipulate property sets on any object that supports .
+    When this implementation of [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) and [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) is instantiated, it is given a pointer to an object that supports the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface. It then manipulates property set storages within that storage object. Thus, it is possible to access and manipulate property sets on any object that supports .
 
 -   [IPropertySetStorage Implementation Considerations](ipropertysetstorage-implementation-considerations.md)
 
-    There are several issues to consider in providing an implementation of the [**IPropertySetStorage**](ipropertysetstorage.md) interface. Please refer to these *Implementation Considerations* in the COM Reference section.
+    There are several issues to consider in providing an implementation of the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface. Please refer to these *Implementation Considerations* in the COM Reference section.
 
-In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](propvariant.md) structure):
+In addition, there are four helper functions, designed to aid in dealing with properties that have been read from a property set into memory (into a [**PROPVARIANT**](/windows/win32/propidlbase/ns-propidl-tagpropvariant?branch=master) structure):
 
--   [**PropVariantInit**](propvariantinit.md)
--   [**PropVariantClear**](propvariantclear.md)
--   [**FreePropVariantArray**](freepropvariantarray.md)
--   [**PropVariantCopy**](propvariantcopy.md)
+-   [**PropVariantInit**](/windows/win32/PropIdl/nf-propidl-propvariantinit?branch=master)
+-   [**PropVariantClear**](/windows/win32/Propidl/nf-combaseapi-propvariantclear?branch=master)
+-   [**FreePropVariantArray**](/windows/win32/Propidl/nf-combaseapi-freepropvariantarray?branch=master)
+-   [**PropVariantCopy**](/windows/win32/Propidl/nf-combaseapi-propvariantcopy?branch=master)
 
 The following sections discuss property set implementations in COM in greater detail:
 

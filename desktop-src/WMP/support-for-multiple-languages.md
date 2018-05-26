@@ -1,8 +1,25 @@
 ---
 title: Support for Multiple Languages
 description: Support for Multiple Languages
-ms.assetid: 'f46efb7f-73d1-4f64-aa44-cb50170a2245'
-keywords: ["Windows Media metafile playlists,support for multiple languages", "metafile playlists,support for multiple languages", "playlists,support for multiple languages", "Windows Media metafile playlists,multiple language support", "metafile playlists,multiple language support", "playlists,multiple language support", "Windows Media metafile playlists,language support", "metafile playlists,language support", "playlists,language support", "support for multiple languages", "multiple language support", "language support"]
+ms.assetid: f46efb7f-73d1-4f64-aa44-cb50170a2245
+keywords:
+- Windows Media metafile playlists,support for multiple languages
+- metafile playlists,support for multiple languages
+- playlists,support for multiple languages
+- Windows Media metafile playlists,multiple language support
+- metafile playlists,multiple language support
+- playlists,multiple language support
+- Windows Media metafile playlists,language support
+- metafile playlists,language support
+- playlists,language support
+- support for multiple languages
+- multiple language support
+- language support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support for Multiple Languages

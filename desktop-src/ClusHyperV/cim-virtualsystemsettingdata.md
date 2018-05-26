@@ -4,13 +4,15 @@ description: Describes the virtual aspects of a virtual system through a set of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0f5c0788-3892-4c7a-8242-5bd59c8859e4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0f5c0788-3892-4c7a-8242-5bd59c8859e4
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_VirtualSystemSettingData class", "CIM_VirtualSystemSettingData class, described"]
+keywords:
+- CIM_VirtualSystemSettingData class
+- CIM_VirtualSystemSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VirtualSystemSettingData class
@@ -56,27 +61,27 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Version("2.25.0"), UMLPackagePath("CIM::System::SystemElements"), AMENDMENT]
 class CIM_VirtualSystemSettingData : CIM_SettingData
 {
-  string   Caption;
-  string   Description;
-  string   InstanceID;
-  string   ElementName;
-  string   VirtualSystemIdentifier;
-  string   VirtualSystemType;
-  string   Notes[];
+  string   Caption;
+  string   Description;
+  string   InstanceID;
+  string   ElementName;
+  string   VirtualSystemIdentifier;
+  string   VirtualSystemType;
+  string   Notes[];
   datetime CreationTime;
-  string   ConfigurationID;
-  string   ConfigurationDataRoot;
-  string   ConfigurationFile;
-  string   SnapshotDataRoot;
-  string   SuspendDataRoot;
-  string   SwapFileDataRoot;
-  string   LogDataRoot;
-  uint16   AutomaticStartupAction;
+  string   ConfigurationID;
+  string   ConfigurationDataRoot;
+  string   ConfigurationFile;
+  string   SnapshotDataRoot;
+  string   SuspendDataRoot;
+  string   SwapFileDataRoot;
+  string   LogDataRoot;
+  uint16   AutomaticStartupAction;
   datetime AutomaticStartupActionDelay;
-  uint16   AutomaticStartupActionSequenceNumber;
-  uint16   AutomaticShutdownAction;
-  uint16   AutomaticRecoveryAction;
-  string   RecoveryFile;
+  uint16   AutomaticStartupActionSequenceNumber;
+  uint16   AutomaticShutdownAction;
+  uint16   AutomaticRecoveryAction;
+  string   RecoveryFile;
 };
 ```
 
@@ -223,7 +228,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>5–65535</dd> </dl>
+</dt> <dd>5 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -311,7 +316,7 @@ The unique id of the virtual system configuration.
 > [!Note]  
 > **ConfigurationID** is different from the **InstanceID**, and is assigned by the implementation to a virtual system or a virtual system configuration. **ConfigurationID** is not a key, and the same value may occur for more than one instance.
 
- 
+ 
 
 </dd> <dt>
 
@@ -385,7 +390,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -498,19 +503,19 @@ The type of the virtual system.
 > [!Note]  
 > If the virtual system type is unknown, this value must be set to "DMTF:unknown".
 
- 
+ 
 
-This property is formatted using the following Augmented Backus–Naur Form (ABNF) format:
+This property is formatted using the following Augmented Backus Naur Form (ABNF) format:
 
 vs-type = dmtf-value / other-org-value / legacy-value; dmtf-value = "DMTF:" defining-org ":" org-vs-type; other-org-value = defining-org ":" org-vs-type;
 
 The value of the above ABNF format are:
 
--   *dmtf-value* — a property value defined by DMTF and is defined in the description of this property.
--   *other-org-value* — is a property value defined by a business entity other than DMTF and is not defined in the description of this property.
--   *legacy-value* — a property value defined by a business entity other than DMTF and is not defined in the description of this property. These values are permitted but recommended to be deprecated over time.
--   *defining-org* — an identifier for the business entity that defines the virtual system type. It should include a copyrighted, trademarked, or a unique name that is owned by the business entity. It should not be "DMTF" and shall not contain a colon.
--   *org-vs-type* — an identifier for the virtual system type within the defining business entity. It should be unique within defining-org. org-vs-type may use any character allowed for CIM strings, except the following: U0000-U001F (Unicode C0 controls), U0020 (space), U007F (Unicode C0 controls), or U0080-U009F (Unicode C1 controls).
+-   *dmtf-value*   a property value defined by DMTF and is defined in the description of this property.
+-   *other-org-value*   is a property value defined by a business entity other than DMTF and is not defined in the description of this property.
+-   *legacy-value*   a property value defined by a business entity other than DMTF and is not defined in the description of this property. These values are permitted but recommended to be deprecated over time.
+-   *defining-org*   an identifier for the business entity that defines the virtual system type. It should include a copyrighted, trademarked, or a unique name that is owned by the business entity. It should not be "DMTF" and shall not contain a colon.
+-   *org-vs-type*   an identifier for the virtual system type within the defining business entity. It should be unique within defining-org. org-vs-type may use any character allowed for CIM strings, except the following: U0000-U001F (Unicode C0 controls), U0020 (space), U007F (Unicode C0 controls), or U0080-U009F (Unicode C1 controls).
 -   If there is a need to structure the value into segments, the segments should be separated with a single colon.
 -   The values of this property should be processed case sensitively. They are intended to be processed programmatically, instead of being a display name, and should be short.
 
@@ -523,7 +528,7 @@ The value of the above ABNF format are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -540,9 +545,9 @@ The value of the above ABNF format are:
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

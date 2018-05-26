@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the average volume level of audio content.'
-ms.assetid: 'eabb36ff-300f-4ed1-aca3-9415627ac1a7'
-title: 'MFPKEY\_WMADRC\_AVGREF Property'
+---
+Description: Specifies the average volume level of audio content.
+ms.assetid: eabb36ff-300f-4ed1-aca3-9415627ac1a7
+title: MFPKEY\_WMADRC\_AVGREF Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMADRC\_AVGREF Property

@@ -4,11 +4,13 @@ description: Used to report detailed status and error information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4626E587-62D2-48D3-8B56-C5323BD27968'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4626E587-62D2-48D3-8B56-C5323BD27968
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMExtendedStatus class", "MSFT_SMExtendedStatus class, described"]
+keywords:
+- MSFT_SMExtendedStatus class
+- MSFT_SMExtendedStatus class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMExtendedStatus class
@@ -221,7 +226,7 @@ Contains an error or information code for an operation. This can be any value de
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -238,9 +243,9 @@ Contains an error or information code for an operation. This can be any value de
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

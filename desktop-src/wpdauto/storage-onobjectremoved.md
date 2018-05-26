@@ -1,14 +1,22 @@
 ---
 title: Storage.onObjectRemoved event
 description: The onObjectRemoved event occurs after an object has been removed from this Storage object.
-ms.assetid: 'f6640f2b-2f91-47ea-822a-3ee6d5c2376d'
-keywords: ["onObjectRemoved event WPD Automation", "onObjectRemoved event WPD Automation , Storage object", "Storage object WPD Automation , onObjectRemoved event"]
+ms.assetid: f6640f2b-2f91-47ea-822a-3ee6d5c2376d
+keywords:
+- onObjectRemoved event WPD Automation
+- onObjectRemoved event WPD Automation , Storage object
+- Storage object WPD Automation , onObjectRemoved event
 topic_type:
 - apiref
 api_name:
 - Storage.onObjectRemoved
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.onObjectRemoved event
@@ -74,8 +82,8 @@ Storage.onObjectRemoved = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -89,9 +97,9 @@ Storage.onObjectRemoved = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

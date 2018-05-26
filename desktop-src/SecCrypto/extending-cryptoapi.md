@@ -1,7 +1,12 @@
-﻿---
-Description: 'CryptoAPI has been designed to be easily extensible. New types and parameters can be defined by any cryptographic service provider (CSP) author to make CryptoAPI bend to the requirements of a wide variety of situations.'
-ms.assetid: 'fe87ccb8-16a3-443d-93df-0df02b8787f6'
+---
+Description: CryptoAPI has been designed to be easily extensible. New types and parameters can be defined by any cryptographic service provider (CSP) author to make CryptoAPI bend to the requirements of a wide variety of situations.
+ms.assetid: fe87ccb8-16a3-443d-93df-0df02b8787f6
 title: Extending CryptoAPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending CryptoAPI

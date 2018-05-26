@@ -1,8 +1,18 @@
 ---
 title: Enumeration Types
 description: Enumeration Types
-ms.assetid: '940f66e1-1dc1-414f-bba9-b91f4f0dfc45'
-keywords: ["Windows Media Format SDK,enumeration types", "digital rights management (DRM),enumeration types", "DRM (digital rights management),enumeration types", "DRM Client Extended APIs,enumeration types", "Client Extended APIs,enumeration types"]
+ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
+keywords:
+- Windows Media Format SDK,enumeration types
+- digital rights management (DRM),enumeration types
+- DRM (digital rights management),enumeration types
+- DRM Client Extended APIs,enumeration types
+- Client Extended APIs,enumeration types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumeration Types

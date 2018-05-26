@@ -1,8 +1,19 @@
 ---
 title: Updates to the DSP Plug-in Wizard for Windows Media Player 11
 description: Updates to the DSP Plug-in Wizard for Windows Media Player 11
-ms.assetid: '975c18d5-06d7-4db2-a558-bc6557963425'
-keywords: ["Windows Media Player plug-ins,plug-in wizard", "plug-ins,plug-in wizard", "digital signal processing plug-ins,plug-in wizard", "DSP plug-ins,plug-in wizard", "plug-in wizard", "Visual Studio,DSP plug-in wizard"]
+ms.assetid: 975c18d5-06d7-4db2-a558-bc6557963425
+keywords:
+- Windows Media Player plug-ins,plug-in wizard
+- plug-ins,plug-in wizard
+- digital signal processing plug-ins,plug-in wizard
+- DSP plug-ins,plug-in wizard
+- plug-in wizard
+- Visual Studio,DSP plug-in wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updates to the DSP Plug-in Wizard for Windows Media Player 11
@@ -21,7 +32,7 @@ The Windows Media Player 11 SDK introduces the following changes to the DSP plug
     See the *projectname*.cpp file.
 
     1.  Video DSP plug-ins have support for the NV12 video format.
-    2.  Plug-ins make additional calls to [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](iwmpmediapluginregistrar--wmpregisterplayerplugin.md) and [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](iwmpmediapluginregistrar--wmpunregisterplayerplugin.md) with a new plug-in type: WMP\_PLUGINTYPE\_DSP\_OUTOFPROC. See the project's *projectnamedll*.cpp file.
+    2.  Plug-ins make additional calls to [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](/windows/win32/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin?branch=master) and [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](/windows/win32/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin?branch=master) with a new plug-in type: WMP\_PLUGINTYPE\_DSP\_OUTOFPROC. See the project's *projectnamedll*.cpp file.
     3.  An additional project in each solution creates a proxy/stub DLL for the property page settings custom interface. See the *projectnamePS* project.
     4.  Calls to deprecated methods have been changed to use the newest versions.
     5.  The wizard can generate a dual-mode plug-in that functions both as a DMO, by implementing **IMediaObject**, and as an MFT, by implementing **IMFTransform**.

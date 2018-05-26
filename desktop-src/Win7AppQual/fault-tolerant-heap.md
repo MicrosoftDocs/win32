@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f1ac375a-3f08-49cd-8752-6f55db24a60c'
+Description: .
+ms.assetid: f1ac375a-3f08-49cd-8752-6f55db24a60c
 title: Fault Tolerant Heap
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fault Tolerant Heap

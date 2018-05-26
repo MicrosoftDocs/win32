@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.setDeleted method
 description: The setDeleted method moves the specified media item to the deleted items folder.
-ms.assetid: '4bba1e7a-3c1f-4f69-b4ab-68a9cf3b97d0'
-keywords: ["setDeleted method Windows Media Player", "setDeleted method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , setDeleted method"]
+ms.assetid: 4bba1e7a-3c1f-4f69-b4ab-68a9cf3b97d0
+keywords:
+- setDeleted method Windows Media Player
+- setDeleted method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , setDeleted method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.setDeleted method
@@ -114,9 +122,9 @@ else
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

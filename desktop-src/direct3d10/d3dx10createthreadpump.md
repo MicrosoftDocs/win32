@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a thread pump.'
-ms.assetid: 'a7a016e2-784d-4d7a-8058-88895bf3c4e2'
+---
+Description: Create a thread pump.
+ms.assetid: a7a016e2-784d-4d7a-8058-88895bf3c4e2
 title: D3DX10CreateThreadPump function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateThreadPump function

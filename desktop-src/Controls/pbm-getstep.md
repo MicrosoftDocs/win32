@@ -1,8 +1,9 @@
 ---
 title: PBM\_GETSTEP message
 description: Retrieves the step increment from a progress bar. The step increment is the amount by which the progress bar increases its current position whenever it receives a PBM\_STEPIT message. By default, the step increment is set to 10.
-ms.assetid: '0cf3052a-cf86-4c0e-ad59-ddab7c6e3602'
-keywords: ["PBM_GETSTEP message Windows Controls"]
+ms.assetid: 0cf3052a-cf86-4c0e-ad59-ddab7c6e3602
+keywords:
+- PBM_GETSTEP message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_GETSTEP message
@@ -37,15 +43,15 @@ Returns the current step increment.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

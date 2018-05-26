@@ -1,8 +1,18 @@
 ---
 title: Device I/O Control Codes
 description: Device I/O Control Codes
-ms.assetid: '46a5d166-ca8d-42df-9455-145332437153'
-keywords: ["Windows Media Player,device I/O control codes", "Windows Media Player,control codes", "Windows Media Device Manager", "device I/O control codes", "control codes"]
+ms.assetid: 46a5d166-ca8d-42df-9455-145332437153
+keywords:
+- Windows Media Player,device I/O control codes
+- Windows Media Player,control codes
+- Windows Media Device Manager
+- device I/O control codes
+- control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device I/O Control Codes
@@ -18,7 +28,7 @@ Windows Media Player 10 or later defines Windows Media Device Manager device I/O
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -36,9 +46,9 @@ If the device does not support **IOCTL\_WMP\_DEVICE\_CAN\_SYNC**, Windows Media 
 [**Windows Media Player**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

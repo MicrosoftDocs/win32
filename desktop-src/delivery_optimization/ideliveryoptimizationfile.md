@@ -1,8 +1,10 @@
 ---
 title: IDeliveryOptimizationFile interface
 description: Implement the IDeliveryOptimizationFile interface to identify the status of a specific file.
-ms.assetid: '4D1D82E1-B39C-4634-A0B7-BC4322796AB2'
-keywords: ["IDeliveryOptimizationFile interface", "IDeliveryOptimizationFile interface, described"]
+ms.assetid: 4D1D82E1-B39C-4634-A0B7-BC4322796AB2
+keywords:
+- IDeliveryOptimizationFile interface
+- IDeliveryOptimizationFile interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeliveryOptimizationFile interface
@@ -35,7 +42,7 @@ The **IDeliveryOptimizationFile** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +50,7 @@ The **IDeliveryOptimizationFile** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -53,9 +60,9 @@ The **IDeliveryOptimizationFile** interface has these methods.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

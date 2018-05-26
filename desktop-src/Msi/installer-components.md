@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only Components property returns a StringList object enumerating the set of installed components for all products.'
-ms.assetid: '981a3def-1e59-4703-ad97-c8cd5431375d'
-title: 'Installer.Components property'
+---
+Description: The read-only Components property returns a StringList object enumerating the set of installed components for all products.
+ms.assetid: 981a3def-1e59-4703-ad97-c8cd5431375d
+title: Installer.Components property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.Components property
@@ -41,7 +46,7 @@ To enumerate the components, an application can iterate through the [**StringLis
 
 <dl> <dt>
 
-[**MsiEnumComponents**](msienumcomponents.md)
+[**MsiEnumComponents**](/windows/win32/Msi/nf-msi-msienumcomponentsa?branch=master)
 </dt> </dl>
 
  

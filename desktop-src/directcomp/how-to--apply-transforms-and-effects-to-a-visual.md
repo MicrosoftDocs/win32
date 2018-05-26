@@ -1,8 +1,18 @@
 ---
 title: How to apply effects
 description: This topic demonstrates how to use Microsoft DirectComposition to apply effects and 3D transformations to a visual.
-ms.assetid: 'FE5A0BE9-B84C-4DE1-85D8-375897237F96'
-keywords: ["how to apply DirectComposition effects", "DirectComposition effects, how to apply", "DirectComposition 3D transformations", "DirectComposition 3D transforms", "DirectComposition opacity"]
+ms.assetid: FE5A0BE9-B84C-4DE1-85D8-375897237F96
+keywords:
+- how to apply DirectComposition effects
+- DirectComposition effects, how to apply
+- DirectComposition 3D transformations
+- DirectComposition 3D transforms
+- DirectComposition opacity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to apply effects
@@ -34,7 +44,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create a 3D rotate transform object, an effect group object, and an animation object
 
-Use the [**IDCompositionDevice::CreateRotateTransform3D**](idcompositiondevice-createrotatetransform3d.md) method to create a 3D rotate transform object, and the [**CreateEffectGroup**](idcompositiondevice-createeffectgroup.md) method to create an effect group object. This example also uses the [**CreateAnimation**](idcompositiondevice-createanimation.md) method to create an animation object for animating the 3D rotate transform. To learn more about applying animations, see [How to apply animations](how-to--animate-a-visual.md).
+Use the [**IDCompositionDevice::CreateRotateTransform3D**](/windows/win32/Dcomp/?branch=master) method to create a 3D rotate transform object, and the [**CreateEffectGroup**](/windows/win32/Dcomp/?branch=master) method to create an effect group object. This example also uses the [**CreateAnimation**](/windows/win32/Dcomp/?branch=master) method to create an animation object for animating the 3D rotate transform. To learn more about applying animations, see [How to apply animations](how-to--animate-a-visual.md).
 
 
 ```C++
@@ -80,7 +90,7 @@ Use the [**IDCompositionDevice::CreateRotateTransform3D**](idcompositiondevice-c
 
 ### Step 3: Define the animation function
 
-Use the methods of the [**IDCompositionAnimation**](idcompositionanimation.md) object to define the animation function.
+Use the methods of the [**IDCompositionAnimation**](/windows/win32/DcompAnimation/nn-dcompanimation-idcompositionanimation?branch=master) object to define the animation function.
 
 The following example defines a simple animation function. When applied to an object property, the animation function incrementally changes the property value from 0 to the value of the *degrees* argument over the course of one second.
 
@@ -97,9 +107,9 @@ The following example defines a simple animation function. When applied to an ob
 
 ### Step 4: Set the properties of the 3D rotate transform
 
-1.  Apply the animation function to the Angle property of the 3D rotate transform by calling the [**IDCompositionRotateTransform3D::SetAngle**](idcompositionrotatetransform-setangle-idcompositionanimation.md) method.
-2.  Set the axis of rotation for the 3D rotate transform by calling the [**IDCompositionRotateTransform3D::SetAxisX**](idcompositionrotatetransform3d-setaxisx-overloaded.md), [**SetAxisY**](idcompositionrotatetransform3d-setaxisy-overloaded.md), and [**SetAxisZ**](idcompositionrotatetransform3d-setaxisz-overloaded.md) methods.
-3.  Set the center of rotation for the 3D rotate transform by calling the [**IDCompositionRotateTransform3D::SetCenterX**](idcompositionrotatetransform-setcenterx-overloaded.md) and [**SetCenterY**](idcompositionrotatetransform-setcentery-overloaded.md) methods.
+1.  Apply the animation function to the Angle property of the 3D rotate transform by calling the [**IDCompositionRotateTransform3D::SetAngle**](/windows/win32/Dcomp/?branch=master) method.
+2.  Set the axis of rotation for the 3D rotate transform by calling the [**IDCompositionRotateTransform3D::SetAxisX**](/windows/win32/Dcomp/nf-dcomp-setaxisx?branch=master), [**SetAxisY**](/windows/win32/Dcomp/nf-dcomp-setaxisy?branch=master), and [**SetAxisZ**](/windows/win32/Dcomp/nf-dcomp-setaxisz?branch=master) methods.
+3.  Set the center of rotation for the 3D rotate transform by calling the [**IDCompositionRotateTransform3D::SetCenterX**](/windows/win32/Dcomp/?branch=master) and [**SetCenterY**](/windows/win32/Dcomp/?branch=master) methods.
 
 The following example sets up a 3D rotate transform for spinning a visual around a vertical axis located at the center of the visual. The *m\_bitmapWidth* and *m\_bitmapHeight* parameters are the width and height of the bitmap, in pixels.
 
@@ -126,8 +136,8 @@ The following example sets up a 3D rotate transform for spinning a visual around
 
 ### Step 5: Set the properties of the effect group object
 
-1.  Apply the 3D rotate transform object to the Transform3D property of the effect group object by calling the [**IDCompositionEffectGroup::SetTransform3D**](idcompositioneffectgroup-settransform3d.md) method.
-2.  Set the Opacity property of the effect group object by calling the [**IDCompositionEffectGroup::SetOpacity**](idcompositioneffectgroup-setopacity-overloaded.md).
+1.  Apply the 3D rotate transform object to the Transform3D property of the effect group object by calling the [**IDCompositionEffectGroup::SetTransform3D**](/windows/win32/Dcomp/?branch=master) method.
+2.  Set the Opacity property of the effect group object by calling the [**IDCompositionEffectGroup::SetOpacity**](/windows/win32/Dcomp/nf-dcomp-setopacity?branch=master).
 
 
 ```C++
@@ -165,7 +175,7 @@ The following example sets up a 3D rotate transform for spinning a visual around
 
 ### Step 6: Apply the effect group object to the Effect property of the visual
 
-Call the [**IDCompositionVisual::SetEffect**](idcompositionvisual-seteffect.md) method to apply the effect group object to the visual.
+Call the [**IDCompositionVisual::SetEffect**](/windows/win32/Dcomp/?branch=master) method to apply the effect group object to the visual.
 
 
 ```C++
@@ -180,7 +190,7 @@ Call the [**IDCompositionVisual::SetEffect**](idcompositionvisual-seteffect.md) 
 
 ### Step 7: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) method to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) method to commit the batch of commands to DirectComposition for processing. The resulting composition appears in the target window.
 
 
 ```C++

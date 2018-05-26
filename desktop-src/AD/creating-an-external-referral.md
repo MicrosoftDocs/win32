@@ -4,11 +4,16 @@ description: If an external crossRef object is created and a domain controller u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9805390c-9e8d-4afd-bffc-43abf6055413'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9805390c-9e8d-4afd-bffc-43abf6055413
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["external referrals Active Directory", "Active Directory examples Active Directory , creating an external referral"]
+keywords:
+- external referrals Active Directory
+- Active Directory examples Active Directory , creating an external referral
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating an External Referral

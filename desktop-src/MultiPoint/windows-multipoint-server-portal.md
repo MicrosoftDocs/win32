@@ -4,10 +4,13 @@ description: MultiPoint Services provides interfaces for software developers on 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0d4261d-1e1e-4082-bae1-3372e9cbe5f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f0d4261d-1e1e-4082-bae1-3372e9cbe5f8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MultiPoint Services

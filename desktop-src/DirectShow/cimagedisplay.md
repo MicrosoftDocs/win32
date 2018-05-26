@@ -1,14 +1,19 @@
 ---
-Description: 'The CImageDisplay class is a helper class for GDI video renderers to manage the display format.'
-ms.assetid: 'c9221e5c-30c6-489a-89d7-132203314dc8'
+Description: The CImageDisplay class is a helper class for GDI video renderers to manage the display format.
+ms.assetid: c9221e5c-30c6-489a-89d7-132203314dc8
 title: CImageDisplay class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay class
 
 ![cimagedisplayclasshierarchy](images/wutil06.png)
 
-The `CImageDisplay` class is a helper class for GDI video renderers to manage the display format. The object stores a [**VIDEOINFO**](videoinfo.md) structure that describes the current display mode, which is initialized in the object's constructor method. The object's **CheckMediaType** method checks whether a proposed media type can be rendered efficiently using GDI.
+The `CImageDisplay` class is a helper class for GDI video renderers to manage the display format. The object stores a [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) structure that describes the current display mode, which is initialized in the object's constructor method. The object's **CheckMediaType** method checks whether a proposed media type can be rendered efficiently using GDI.
 
 
 
@@ -20,7 +25,7 @@ The `CImageDisplay` class is a helper class for GDI video renderers to manage th
 | [**CountPrefixBits**](cimagedisplay-countprefixbits.md)         | Calculates the number of zero bits at the start of a specified bit field.              |
 | [**CountSetBits**](cimagedisplay-countsetbits.md)               | Returns the number of bits set to 1 in a specified bit field.                          |
 | Public Methods                                                   | Description                                                                            |
-| [**CheckHeaderValidity**](cimagedisplay-checkheadervalidity.md) | Validates a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure.                    |
+| [**CheckHeaderValidity**](cimagedisplay-checkheadervalidity.md) | Validates a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure.                    |
 | [**CheckMediaType**](cimagedisplay-checkmediatype.md)           | Determines whether a proposed media type is compatible with the display format.        |
 | [**CheckPaletteHeader**](cimagedisplay-checkpaletteheader.md)   | Validates the palette entries in a **VIDEOINFO** structure.                            |
 | [**CheckVideoType**](cimagedisplay-checkvideotype.md)           | Checks whether a specified **VIDEOINFO** format is compatible with the display format. |
@@ -34,7 +39,7 @@ The `CImageDisplay` class is a helper class for GDI video renderers to manage th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,9 +52,9 @@ The `CImageDisplay` class is a helper class for GDI video renderers to manage th
 
 
 
- 
+ 
 
- 
+ 
 
 
 

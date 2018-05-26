@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for the macros provided by Direct3D.'
-ms.assetid: 'cabb715a-2a6a-4d56-8113-5e5ed26fc107'
+Description: This section contains reference information for the macros provided by Direct3D.
+ms.assetid: cabb715a-2a6a-4d56-8113-5e5ed26fc107
 title: Macros
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Macros

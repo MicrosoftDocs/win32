@@ -1,8 +1,18 @@
 ---
 title: Conversion Plug-ins Programming Reference
 description: Conversion Plug-ins Programming Reference
-ms.assetid: '812ee33f-7440-4757-b888-68c8b82694bd'
-keywords: ["Windows Media Player,conversion plug-ins", "Windows Media Player plug-ins,conversion", "plug-ins,conversion", "conversion plug-ins,programming reference", "reference for conversion plug-ins"]
+ms.assetid: 812ee33f-7440-4757-b888-68c8b82694bd
+keywords:
+- Windows Media Player,conversion plug-ins
+- Windows Media Player plug-ins,conversion
+- plug-ins,conversion
+- conversion plug-ins,programming reference
+- reference for conversion plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conversion Plug-ins Programming Reference
@@ -14,7 +24,7 @@ The Microsoft Windows Media Player Software Development Kit (SDK) supports an in
 | Section                                                                | Description                                                                                                                                                                                           |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Registering Conversion Plug-ins](registering-conversion-plug-ins.md) | Describes how to register digital media file formats for conversion.                                                                                                                                  |
-| [IWMPConvert Interface](iwmpconvert.md)                               | Provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF). |
+| [IWMPConvert Interface](/windows/win32/wmpservices/nn-wmpservices-iwmpconvert?branch=master)                               | Provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF). |
 
 
 

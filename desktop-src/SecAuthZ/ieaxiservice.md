@@ -1,7 +1,12 @@
 ---
-Description: 'Initializes a system service object to install an ActiveX object when the current user does not have permission to install the object.'
-ms.assetid: '42f7cf83-789b-42ea-bb1a-4b79137188ea'
+Description: Initializes a system service object to install an ActiveX object when the current user does not have permission to install the object.
+ms.assetid: 42f7cf83-789b-42ea-bb1a-4b79137188ea
 title: IeAxiService interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IeAxiService interface
@@ -55,7 +60,7 @@ The **IeAxiService** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,15 +68,15 @@ The **IeAxiService** interface has these methods.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
 | IID<br/>                      | IID\_IeAxiService is defined as E9E92380-9ECD-4982-A0EB-6815A56CCF27<br/>                           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

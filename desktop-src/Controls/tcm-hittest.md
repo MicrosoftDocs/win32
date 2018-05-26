@@ -1,8 +1,9 @@
 ---
 title: TCM\_HITTEST message
 description: Determines which tab, if any, is at a specified screen position. You can send this message explicitly or by using the TabCtrl\_HitTest macro.
-ms.assetid: '0334f616-8d39-4460-a7f8-692a9ffab012'
-keywords: ["TCM_HITTEST message Windows Controls"]
+ms.assetid: 0334f616-8d39-4460-a7f8-692a9ffab012
+keywords:
+- TCM_HITTEST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_HITTEST message
 
-Determines which tab, if any, is at a specified screen position. You can send this message explicitly or by using the [**TabCtrl\_HitTest**](tabctrl-hittest.md) macro.
+Determines which tab, if any, is at a specified screen position. You can send this message explicitly or by using the [**TabCtrl\_HitTest**](/windows/win32/Commctrl/nf-commctrl-tabctrl_hittest?branch=master) macro.
 
 ## Parameters
 
@@ -27,7 +33,7 @@ Determines which tab, if any, is at a specified screen position. You can send th
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TCHITTESTINFO**](tchittestinfo.md) structure that specifies the screen position to test.
+Pointer to a [**TCHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-tagtchittestinfo?branch=master) structure that specifies the screen position to test.
 
 </dd> </dl>
 
@@ -41,15 +47,15 @@ Returns the index of the tab, or -1 if no tab is at the specified position.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

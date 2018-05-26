@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor DisplayProperties method
 description: Displays the Graph Properties dialog box.
-ms.assetid: 'a3b04b3b-4c9b-4454-8d46-2001caf23bb6'
-keywords: ["DisplayProperties method SysMon", "DisplayProperties method SysMon , SystemMonitor interface", "SystemMonitor interface SysMon , DisplayProperties method"]
+ms.assetid: a3b04b3b-4c9b-4454-8d46-2001caf23bb6
+keywords:
+- DisplayProperties method SysMon
+- DisplayProperties method SysMon , SystemMonitor interface
+- SystemMonitor interface SysMon , DisplayProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor::DisplayProperties method
@@ -44,8 +52,8 @@ This dialog box lets the user modify the properties of the System Monitor contro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -57,9 +65,9 @@ This dialog box lets the user modify the properties of the System Monitor contro
 [**SystemMonitor**](systemmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

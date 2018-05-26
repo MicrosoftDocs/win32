@@ -1,8 +1,11 @@
 ---
 title: IVideoDisplayProperties get\_Subtitle method
 description: Gets the subtitle of the video.
-ms.assetid: 'F14C6E94-A14F-4A98-8ED3-E4295ABDF4AC'
-keywords: ["get_Subtitle method", "get_Subtitle method, IVideoDisplayProperties interface", "IVideoDisplayProperties interface, get_Subtitle method"]
+ms.assetid: F14C6E94-A14F-4A98-8ED3-E4295ABDF4AC
+keywords:
+- get_Subtitle method
+- get_Subtitle method, IVideoDisplayProperties interface
+- IVideoDisplayProperties interface, get_Subtitle method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVideoDisplayProperties::get\_Subtitle method
@@ -22,7 +30,7 @@ Gets the subtitle of the video.
 
 ```C++
 HRESULT get_Subtitle(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IVideoDisplayProperties**](ivideodisplayproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

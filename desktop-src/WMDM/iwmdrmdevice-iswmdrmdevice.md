@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice IsWMDRMDevice method
 description: The IsWMDRMDevice method determines whether the device supports Windows Media DRM 10 for Portable Devices.
-ms.assetid: '247e7a77-e805-4848-893f-f5522c161232'
-keywords: ["IsWMDRMDevice method windows Media Device Manager", "IsWMDRMDevice method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , IsWMDRMDevice method"]
+ms.assetid: 247e7a77-e805-4848-893f-f5522c161232
+keywords:
+- IsWMDRMDevice method windows Media Device Manager
+- IsWMDRMDevice method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , IsWMDRMDevice method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::IsWMDRMDevice method
@@ -23,7 +31,7 @@ The **IsWMDRMDevice** method determines whether the device supports Windows Medi
 
 ```C++
 HRESULT IsWMDRMDevice(
-  [out] DWORD *pdwVersion
+  [out] DWORD *pdwVersion
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

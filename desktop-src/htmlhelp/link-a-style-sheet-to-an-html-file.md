@@ -1,7 +1,12 @@
 ---
 title: Link a Style Sheet to an HTML File
 description: You can include style sheet information in an HTML file in two ways
-ms.assetid: '4ED482B1-13D6-4537-98B1-A6F47303D53A'
+ms.assetid: 4ED482B1-13D6-4537-98B1-A6F47303D53A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link a Style Sheet to an HTML File

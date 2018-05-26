@@ -1,7 +1,12 @@
 ---
 title: Full Pointers
 description: Unlike unique pointers, full pointers support aliasing.
-ms.assetid: '38023942-a4c2-4de7-b7d5-10d508cf083b'
+ms.assetid: 38023942-a4c2-4de7-b7d5-10d508cf083b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Full Pointers

@@ -1,14 +1,19 @@
 ---
-Description: 'Not supported. Use the Activate method.'
-ms.assetid: '166f8d04-90ec-4dae-80fc-64d1a5216dcf'
+Description: Not supported. Use the Activate method.
+ms.assetid: 166f8d04-90ec-4dae-80fc-64d1a5216dcf
 title: Activate method of the SoftwareLicensingProduct class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activate method of the SoftwareLicensingProduct class
 
 Not supported. Use the [**Activate**](https://msdn.microsoft.com/library/cc534584) method.
 
-**Windows Vista and Windows Server 2008:** Activates the product.
+**Windows Vista and Windows Server 2008:** Activates the product.
 
 ## Syntax
 
@@ -29,10 +34,10 @@ This method has no parameters.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
-| End of client support<br/>    | Windows Vista<br/>                                                             |
-| End of server support<br/>    | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| End of client support<br/>    | Windows Vista<br/>                                                             |
+| End of server support<br/>    | Windows Server 2008<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>SLWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SLWmi.dll</dt> </dl> |
@@ -49,9 +54,9 @@ This method has no parameters.
 [**Activate**](https://msdn.microsoft.com/library/cc534584)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

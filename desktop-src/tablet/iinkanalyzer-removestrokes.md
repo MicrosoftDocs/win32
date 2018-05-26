@@ -1,7 +1,12 @@
 ---
-Description: 'Removes the specified strokes from the IInkAnalyzer.'
-ms.assetid: 'ea7c8a9f-a427-4781-b5ba-97ffd983dbe5'
-title: 'IInkAnalyzer::RemoveStrokes method'
+Description: Removes the specified strokes from the IInkAnalyzer.
+ms.assetid: ea7c8a9f-a427-4781-b5ba-97ffd983dbe5
+title: IInkAnalyzerRemoveStrokes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::RemoveStrokes method
@@ -13,8 +18,8 @@ Removes the specified strokes from the [**IInkAnalyzer**](iinkanalyzer.md).
 
 ```C++
 HRESULT RemoveStrokes(
-  [in] ULONG ulStrokeIdCount,
-  [in] LONG  *plStrokes
+  [in] ULONG ulStrokeIdCount,
+  [in] LONG  *plStrokes
 );
 ```
 
@@ -62,7 +67,7 @@ This method returns and error code when *plStrokes* is null.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -97,9 +102,9 @@ This method returns and error code when *plStrokes* is null.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

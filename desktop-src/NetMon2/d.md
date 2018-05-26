@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter D.'
-Robots: 'noindex, nofollow'
-ms.assetid: '04cc5c5d-7049-43ca-ad06-4080f5fe68cd'
+Description: Glossary of Network Monitor terms that begin with the letter D.
+Robots: noindex, nofollow
+ms.assetid: 04cc5c5d-7049-43ca-ad06-4080f5fe68cd
 title: D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D

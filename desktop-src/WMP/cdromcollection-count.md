@@ -1,8 +1,9 @@
 ---
 title: CdromCollection.count
 description: The count property retrieves the number of available CD and DVD drives on the system.
-ms.assetid: '98d24713-6a55-409f-af9a-fc941ad6d8f5'
-keywords: ["CdromCollection.count Windows Media Player"]
+ms.assetid: 98d24713-6a55-409f-af9a-fc941ad6d8f5
+keywords:
+- CdromCollection.count Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromCollection.count
@@ -76,9 +82,9 @@ alert(displayString);
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

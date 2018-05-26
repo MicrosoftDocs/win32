@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.ManufacturerName property
 description: Gets the manufacturer name of the device.
-ms.assetid: 'F9B957CB-3DD9-4638-8000-A20A5EA9F3E9'
-keywords: ["ManufacturerName property Media Streaming API", "ManufacturerName property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , ManufacturerName property"]
+ms.assetid: F9B957CB-3DD9-4638-8000-A20A5EA9F3E9
+keywords:
+- ManufacturerName property Media Streaming API
+- ManufacturerName property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , ManufacturerName property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.ManufacturerName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.ManufacturerName property

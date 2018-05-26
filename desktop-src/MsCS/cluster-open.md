@@ -4,11 +4,14 @@ description: Opens a connection to a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1f5d9f49-1169-45f2-9f3d-11ce9d8db5ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1f5d9f49-1169-45f2-9f3d-11ce9d8db5ef
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Open method Failover Cluster", "Open method Failover Cluster , Cluster object", "Cluster object Failover Cluster , Open method"]
+keywords:
+- Open method Failover Cluster
+- Open method Failover Cluster , Cluster object
+- Cluster object Failover Cluster , Open method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.Open method
@@ -85,7 +91,7 @@ Set objArgs = Nothing
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -101,9 +107,9 @@ Set objArgs = Nothing
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

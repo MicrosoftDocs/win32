@@ -1,7 +1,12 @@
 ---
-Description: 'Step 3C.'
-ms.assetid: 'e780df46-bf47-4334-b788-05ad8179f051'
-title: 'Step 3C. Implement the CheckTransform Method'
+Description: Step 3C.
+ms.assetid: e780df46-bf47-4334-b788-05ad8179f051
+title: Step 3C. Implement the CheckTransform Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3C. Implement the CheckTransform Method

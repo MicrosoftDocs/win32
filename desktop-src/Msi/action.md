@@ -1,7 +1,12 @@
 ---
-Description: 'The ACTION property can be set to the following values.'
-ms.assetid: '8aa0ac17-1341-4399-987e-d26175150874'
+Description: The ACTION property can be set to the following values.
+ms.assetid: 8aa0ac17-1341-4399-987e-d26175150874
 title: ACTION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACTION property
@@ -20,9 +25,9 @@ The **ACTION** property can be set to the following values.
 
 
 
- 
+ 
 
-The **ACTION** property determines which action to perform if a Null action name is supplied to [**MsiDoAction**](msidoaction.md) or the [**DoAction Method**](session-doaction.md). If no value is defined for the **ACTION** property, the installer calls the [INSTALL Action](install-action.md).
+The **ACTION** property determines which action to perform if a Null action name is supplied to [**MsiDoAction**](/windows/win32/Msiquery/nf-msiquery-msidoactiona?branch=master) or the [**DoAction Method**](session-doaction.md). If no value is defined for the **ACTION** property, the installer calls the [INSTALL Action](install-action.md).
 
 ## Requirements
 
@@ -30,7 +35,7 @@ The **ACTION** property determines which action to perform if a Null action name
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -41,9 +46,9 @@ The **ACTION** property determines which action to perform if a Null action name
 [Properties](properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

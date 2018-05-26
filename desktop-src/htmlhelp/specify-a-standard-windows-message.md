@@ -1,7 +1,12 @@
 ---
 title: Specify a standard Windows message
 description: Specify a standard Windows message
-ms.assetid: '8FA8A4EA-9506-4cd9-9C17-D5CB5F32491D'
+ms.assetid: 8FA8A4EA-9506-4cd9-9C17-D5CB5F32491D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specify a standard Windows message

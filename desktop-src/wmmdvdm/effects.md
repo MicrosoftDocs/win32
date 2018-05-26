@@ -1,8 +1,38 @@
 ---
 title: Effects
 description: Effects
-ms.assetid: 'e7911264-4e28-496d-ae7e-eaf759c46b31'
-keywords: ["Windows Movie Maker,effects", "Movie Maker,effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "effects,built-in", "built-in effects", "effects,customizable parameters", "film age effects", "effects,film age", "blur effects", "effects,blur", "brightness effects", "effects,brightness", "fade effects", "effects,fade", "pixelate effects", "effects,pixelate", "pan/zoom effects", "effects,pan/zoom", "rotate effects", "effects,rotate", "posterize effects", "effects,posterize", "ripple effects", "effects,ripple"]
+ms.assetid: e7911264-4e28-496d-ae7e-eaf759c46b31
+keywords:
+- Windows Movie Maker,effects
+- Movie Maker,effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- effects,built-in
+- built-in effects
+- effects,customizable parameters
+- film age effects
+- effects,film age
+- blur effects
+- effects,blur
+- brightness effects
+- effects,brightness
+- fade effects
+- effects,fade
+- pixelate effects
+- effects,pixelate
+- pan/zoom effects
+- effects,pan/zoom
+- rotate effects
+- effects,rotate
+- posterize effects
+- effects,posterize
+- ripple effects
+- effects,ripple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects

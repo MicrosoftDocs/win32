@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the identifiers for which there is property data.'
-ms.assetid: 'c9c491b7-95e2-421a-8632-f65844cd5ef9'
-title: 'IContextNode::GetPropertyDataIds method'
+Description: Retrieves the identifiers for which there is property data.
+ms.assetid: c9c491b7-95e2-421a-8632-f65844cd5ef9
+title: IContextNodeGetPropertyDataIds method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetPropertyDataIds method
@@ -13,8 +18,8 @@ Retrieves the identifiers for which there is property data.
 
 ```C++
 HRESULT GetPropertyDataIds(
-  [out] ULONG *pulGuidCount,
-  [out] GUID  **ppGuids
+  [out] ULONG *pulGuidCount,
+  [out] GUID  **ppGuids
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppGuids* when you no longer need the information.
 
- 
+ 
 
 This method returns the application-specific identifiers for property data that has been added. It also returns the identifiers for the internal property data, which are described by the [Context Node Properties](context-node-properties.md) constants.
 
@@ -57,7 +62,7 @@ This method returns the application-specific identifiers for property data that 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -83,9 +88,9 @@ This method returns the application-specific identifiers for property data that 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,23 +1,28 @@
 ---
-Description: 'The XAPO API provides the IXAPO interface and the CXAPOBase class for building new XAPO types.'
-ms.assetid: '34f5c3d5-ee40-e304-7c97-d30c17621d26'
-title: 'How to: Create an XAPO'
+Description: The XAPO API provides the IXAPO interface and the CXAPOBase class for building new XAPO types.
+ms.assetid: 34f5c3d5-ee40-e304-7c97-d30c17621d26
+title: How to Create an XAPO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Create an XAPO
 
-The XAPO API provides the [**IXAPO**](ixapo.md) interface and the [**CXAPOBase**](cxapobase.md) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](ixapo-interface-process.md) method, which is unique to each XAPO.
+The XAPO API provides the [**IXAPO**](/windows/win32/XAPO/nn-xapo-ixapo?branch=master) interface and the [**CXAPOBase**](/windows/win32/XAPOBase/nl-xapobase-cxapobase?branch=master) class for building new XAPO types. The **IXAPO** interface contains all of the methods that need to be implemented to create a new XAPO. The **CXAPOBase** class provides a basic implementation of the **IXAPO** interface. **CXAPOBase** implements all of the **IXAPO** interface methods except the [**IXAPO::Process**](ixapo-interface-process.md) method, which is unique to each XAPO.
 
 ## To create a new static XAPO
 
-1.  Derive a new XAPO class from the [**CXAPOBase**](cxapobase.md) base class.
+1.  Derive a new XAPO class from the [**CXAPOBase**](/windows/win32/XAPOBase/nl-xapobase-cxapobase?branch=master) base class.
 
     > [!Note]  
-    > XAPOs implement the **IUnknown** interface. The [**IXAPO**](ixapo.md) and [**IXAPOParameters**](ixapoparameters.md) interfaces include the three **IUnknown** methods: **QueryInterface**, **AddRef**, and **Release**. [**CXAPOBase**](cxapobase.md) provides implementations of all three of the **IUnknown** methods. A new instance of **CXAPOBase** will have a reference count of 1. It will be destroyed when its reference count becomes 0. To allow XAudio2 to destroy an instance of an XAPO when it is no longer needed, call **IUnknown::Release** on the XAPO after it is added to an XAudio2 effect chain. See [How to: Use an XAPO in XAudio2](how-to--use-an-xapo-in-xaudio2.md) for more information about using an XAPO with XAudio2.
+    > XAPOs implement the **IUnknown** interface. The [**IXAPO**](/windows/win32/XAPO/nn-xapo-ixapo?branch=master) and [**IXAPOParameters**](/windows/win32/XAPO/nn-xapo-ixapoparameters?branch=master) interfaces include the three **IUnknown** methods: **QueryInterface**, **AddRef**, and **Release**. [**CXAPOBase**](/windows/win32/XAPOBase/nl-xapobase-cxapobase?branch=master) provides implementations of all three of the **IUnknown** methods. A new instance of **CXAPOBase** will have a reference count of 1. It will be destroyed when its reference count becomes 0. To allow XAudio2 to destroy an instance of an XAPO when it is no longer needed, call **IUnknown::Release** on the XAPO after it is added to an XAudio2 effect chain. See [How to: Use an XAPO in XAudio2](how-to--use-an-xapo-in-xaudio2.md) for more information about using an XAPO with XAudio2.
 
      
 
-2.  Override the [**CXAPOBase**](cxapobase.md) class implementation of the [**IXAPO::LockForProcess**](ixapo-interface-lockforprocess.md) method.
+2.  Override the [**CXAPOBase**](/windows/win32/XAPOBase/nl-xapobase-cxapobase?branch=master) class implementation of the [**IXAPO::LockForProcess**](ixapo-interface-lockforprocess.md) method.
 
     Overriding [**LockForProcess**](ixapo-interface-lockforprocess.md) allows information about the format of audio data to be stored for use in [**IXAPO::Process**](ixapo-interface-process.md).
 
@@ -27,9 +32,9 @@ The XAPO API provides the [**IXAPO**](ixapo.md) interface and the [**CXAPOBase**
 
 ## Implementing the Process Method
 
-The [**IXAPO::Process**](ixapo-interface-process.md) method accepts stream buffers for input and output audio data. A typical XAPO will expect one input stream buffer and one output stream buffer. You should base the processing of data from the input stream buffer on the format specified in the [**LockForProcess**](ixapo-interface-lockforprocess.md) function and any flags passed to the **Process** function with the input stream buffer. Copy the processed input stream buffer data to the output stream buffer. Set the output stream buffer's BufferFlags parameter as either [**XAPO\_BUFFER\_VALID**](xapo-buffer-flags.md) or **XAPO\_BUFFER\_SILENT**.
+The [**IXAPO::Process**](ixapo-interface-process.md) method accepts stream buffers for input and output audio data. A typical XAPO will expect one input stream buffer and one output stream buffer. You should base the processing of data from the input stream buffer on the format specified in the [**LockForProcess**](ixapo-interface-lockforprocess.md) function and any flags passed to the **Process** function with the input stream buffer. Copy the processed input stream buffer data to the output stream buffer. Set the output stream buffer's BufferFlags parameter as either [**XAPO\_BUFFER\_VALID**](/windows/win32/xapo/ne-xapo-xapo_buffer_flags?branch=master) or **XAPO\_BUFFER\_SILENT**.
 
-The following example demonstrates a [**LockForProcess**](ixapo-interface-lockforprocess.md) and [**Process**](ixapo-interface-process.md) implementation that simply copies data from an input buffer to an output buffer. However, there is no processing if the input buffer is marked with [**XAPO\_BUFFER\_SILENT**](xapo-buffer-flags.md).
+The following example demonstrates a [**LockForProcess**](ixapo-interface-lockforprocess.md) and [**Process**](ixapo-interface-process.md) implementation that simply copies data from an input buffer to an output buffer. However, there is no processing if the input buffer is marked with [**XAPO\_BUFFER\_SILENT**](/windows/win32/xapo/ne-xapo-xapo_buffer_flags?branch=master).
 
 
 ```

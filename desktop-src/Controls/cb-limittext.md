@@ -1,8 +1,9 @@
 ---
 title: CB\_LIMITTEXT message
 description: Limits the length of the text the user may type into the edit control of a combo box.
-ms.assetid: '95b7d07a-594b-4096-afbb-4dab77bdc41d'
-keywords: ["CB_LIMITTEXT message Windows Controls"]
+ms.assetid: 95b7d07a-594b-4096-afbb-4dab77bdc41d
+keywords:
+- CB_LIMITTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_LIMITTEXT message
@@ -53,15 +59,15 @@ The default limit to the text a user can enter in the edit control is 30,000 **T
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

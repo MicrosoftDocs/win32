@@ -4,11 +4,16 @@ description: Property-specific permissions can be used in combination with objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd2ebbe3a-78f7-4bb5-bac0-13236031b7b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d2ebbe3a-78f7-4bb5-bac0-13236031b7b1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["setting rights to specific properties of specific types of objects AD", "Active Directory, using, security, setting rights to specific properties"]
+keywords:
+- setting rights to specific properties of specific types of objects AD
+- Active Directory, using, security, setting rights to specific properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Rights to Specific Properties of Specific Types of Objects

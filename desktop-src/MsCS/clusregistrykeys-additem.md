@@ -4,11 +4,14 @@ description: Adds a registry key to a ClusRegistryKeys collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b28b848-ab26-4422-9e0e-a47613d7aa63'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8b28b848-ab26-4422-9e0e-a47613d7aa63
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddItem method Failover Cluster", "AddItem method Failover Cluster , ClusRegistryKeys class", "ClusRegistryKeys class Failover Cluster , AddItem method"]
+keywords:
+- AddItem method Failover Cluster
+- AddItem method Failover Cluster , ClusRegistryKeys class
+- ClusRegistryKeys class Failover Cluster , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusRegistryKeys.AddItem method
@@ -81,7 +87,7 @@ End Function
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -100,9 +106,9 @@ End Function
 [**ClusProperty**](clusproperty-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

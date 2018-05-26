@@ -1,13 +1,16 @@
 ---
-Description: 'Reports a namespace creation event, which is a type of intrinsic event generated when a new namespace is added to the current namespace.'
+Description: Reports a namespace creation event, which is a type of intrinsic event generated when a new namespace is added to the current namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '50b9860a-d6e8-4dab-a7d0-09da9dd37b6b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 50b9860a-d6e8-4dab-a7d0-09da9dd37b6b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_NamespaceCreationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_NamespaceCreationEvent class
@@ -21,9 +24,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __NamespaceCreationEvent : __NamespaceOperationEvent
 {
-  uint8       SECURITY_DESCRIPTOR[];
+  uint8       SECURITY_DESCRIPTOR[];
   __Namespace TargetNamespace;
-  uint64      TIME_CREATED;
+  uint64      TIME_CREATED;
 };
 ```
 
@@ -90,8 +93,8 @@ The **\_\_NamespaceCreationEvent** class is derived from [**\_\_NamespaceOperati
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -106,9 +109,9 @@ The **\_\_NamespaceCreationEvent** class is derived from [**\_\_NamespaceOperati
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the owner of a user profile to a different user.'
-ms.assetid: 'a0ba12a6-6fe6-4e06-9346-a54cc19143e6'
-title: 'ChangeOwner method of the Win32\_UserProfile class'
+Description: Changes the owner of a user profile to a different user.
+ms.assetid: a0ba12a6-6fe6-4e06-9346-a54cc19143e6
+title: ChangeOwner method of the Win32\_UserProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeOwner method of the Win32\_UserProfile class
@@ -13,8 +18,8 @@ Changes the owner of a user profile to a different user.
 
 ```mof
 uint32 ChangeOwner(
-  [in] string NewOwnerSID,
-  [in] uint32 Flags
+  [in] string NewOwnerSID,
+  [in] uint32 Flags
 );
 ```
 
@@ -45,7 +50,7 @@ Bit flags to replace or delete a profile. This parameter can be set to one or mo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,18 +63,18 @@ Because the **ChangeOwner** method modifies the SID of the user profile, the use
     > [!Note]  
     > If this step is taken, access control lists (ACLs) may contain incorrect settings.
 
-     
+     
 
 -   Remove all apps before calling **ChangeOwner**, and then reinstall those apps after the call.
 
     > [!Note]  
     > This step is the cleaner solution, but app state and settings may be lost.
 
-     
+     
 
 ## Examples
 
-To use [**Win32\_UserProfile**](win32-userprofile.md) to migrate a user to a new domain, see the following [Vista’s MoveUser.exe replacement](http://blogs.technet.com/b/askds/archive/2008/09/09/vista-s-moveuser-exe-replacement.aspx) article on TechNet.
+To use [**Win32\_UserProfile**](win32-userprofile.md) to migrate a user to a new domain, see the following [Vista s MoveUser.exe replacement](http://blogs.technet.com/b/askds/archive/2008/09/09/vista-s-moveuser-exe-replacement.aspx) article on TechNet.
 
 ## Requirements
 
@@ -77,8 +82,8 @@ To use [**Win32\_UserProfile**](win32-userprofile.md) to migrate a user to a new
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                        |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>UserProfileWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Profprov.dll</dt> </dl>               |
@@ -92,9 +97,9 @@ To use [**Win32\_UserProfile**](win32-userprofile.md) to migrate a user to a new
 [**Win32\_UserProfile**](win32-userprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

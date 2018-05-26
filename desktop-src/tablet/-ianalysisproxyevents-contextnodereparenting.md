@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs before the IInkAnalyzer moves an IContextNode object by changing its parent node.'
-ms.assetid: '91261270-aa7c-4f0a-a790-1b2bf322a3ad'
-title: '\_IAnalysisProxyEvents::ContextNodeReparenting event'
+Description: Occurs before the IInkAnalyzer moves an IContextNode object by changing its parent node.
+ms.assetid: 91261270-aa7c-4f0a-a790-1b2bf322a3ad
+title: '\_IAnalysisProxyEventsContextNodeReparenting event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisProxyEvents::ContextNodeReparenting event
@@ -13,9 +18,9 @@ Occurs before the [**IInkAnalyzer**](iinkanalyzer.md) moves an [**IContextNode**
 
 ```C++
 HRESULT ContextNodeReparenting(
-  [in] IInkAnalyzer *pInkAnalyzer,
-  [in] IContextNode *pNewParentContextNode,
-  [in] IContextNode *pContextNodeToBeReparented
+  [in] IInkAnalyzer *pInkAnalyzer,
+  [in] IContextNode *pNewParentContextNode,
+  [in] IContextNode *pContextNodeToBeReparented
 );
 ```
 
@@ -62,7 +67,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -97,9 +102,9 @@ For more information about synchronizing your application data with the [**IInkA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

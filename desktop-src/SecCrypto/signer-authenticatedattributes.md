@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the collection of authenticated attributes.'
-ms.assetid: 'd4b3efab-d71e-4fef-9691-0c0bbcb27281'
-title: 'Signer.AuthenticatedAttributes property'
+---
+Description: Retrieves the collection of authenticated attributes.
+ms.assetid: d4b3efab-d71e-4fef-9691-0c0bbcb27281
+title: Signer.AuthenticatedAttributes property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signer.AuthenticatedAttributes property

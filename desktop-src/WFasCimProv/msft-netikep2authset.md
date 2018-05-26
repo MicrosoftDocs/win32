@@ -1,7 +1,12 @@
 ---
-Description: 'A set of authentication proposals that can be used in Phase 2 of authentication.'
-ms.assetid: 'fcc03491-930c-4788-993d-862b2e29216c'
-title: 'MSFT\_NetIKEP2AuthSet class'
+Description: A set of authentication proposals that can be used in Phase 2 of authentication.
+ms.assetid: fcc03491-930c-4788-993d-862b2e29216c
+title: MSFT\_NetIKEP2AuthSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKEP2AuthSet class
@@ -15,37 +20,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetIKEP2AuthSet : MSFT_NetIKEAuthSet
 {
-  string  RuleGroup;
-  string  DisplayGroup;
-  string  Proposals[];
-  uint16  PrimaryStatus;
-  uint32  StatusCode;
-  string  Status;
-  uint16  EnforcementStatus[];
-  uint16  PolicyStoreSourceType;
-  string  PolicyStoreSource;
-  uint16  ExchangeMode;
-  uint16  UseIKEIdentityType;
-  string  VendorID;
-  uint16  AggressiveModeGroupID;
-  uint64  MinLifetimeSeconds;
-  uint64  IdleDurationSeconds;
-  uint64  MinLifetimeKilobytes;
+  string  RuleGroup;
+  string  DisplayGroup;
+  string  Proposals[];
+  uint16  PrimaryStatus;
+  uint32  StatusCode;
+  string  Status;
+  uint16  EnforcementStatus[];
+  uint16  PolicyStoreSourceType;
+  string  PolicyStoreSource;
+  uint16  ExchangeMode;
+  uint16  UseIKEIdentityType;
+  string  VendorID;
+  uint16  AggressiveModeGroupID;
+  uint64  MinLifetimeSeconds;
+  uint64  IdleDurationSeconds;
+  uint64  MinLifetimeKilobytes;
   boolean DoPacketLogging;
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  PolicyRuleCreationClassName;
-  string  PolicyRuleName;
-  string  CreationClassName;
-  string  PolicyActionName;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  PolicyRuleCreationClassName;
+  string  PolicyRuleName;
+  string  CreationClassName;
+  string  PolicyActionName;
   boolean DoActionLogging;
-  string  CommonName;
-  string  PolicyKeywords[];
-  string  InstanceID;
-  string  Caption;
-  string  DisplayName;
-  string  Description;
-  string  ElementName;
+  string  CommonName;
+  string  PolicyKeywords[];
+  string  InstanceID;
+  string  Caption;
+  string  DisplayName;
+  string  Description;
+  string  ElementName;
 };
 ```
 
@@ -69,7 +74,7 @@ The **MSFT\_NetIKEP2AuthSet** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -583,17 +588,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

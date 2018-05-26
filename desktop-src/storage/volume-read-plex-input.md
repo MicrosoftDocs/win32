@@ -1,8 +1,10 @@
 ---
 title: VOLUME\_READ\_PLEX\_INPUT structure
 description: This structure is used in conjunction with IOCTL\_VOLUME\_READ\_PLEX to read data from a specific plex in a volume.
-ms.assetid: '1d53c658-9912-4912-a74f-f7b93367b9e2'
-keywords: ["VOLUME_READ_PLEX_INPUT structure Storage Devices", "PVOLUME_READ_PLEX_INPUT structure pointer Storage Devices"]
+ms.assetid: 1d53c658-9912-4912-a74f-f7b93367b9e2
+keywords:
+- VOLUME_READ_PLEX_INPUT structure Storage Devices
+- PVOLUME_READ_PLEX_INPUT structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddvol.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VOLUME\_READ\_PLEX\_INPUT structure
@@ -23,8 +30,8 @@ This structure is used in conjunction with [**IOCTL\_VOLUME\_READ\_PLEX**](ioctl
 ```C++
 typedef struct _VOLUME_READ_PLEX_INPUT {
   LARGE_INTEGER ByteOffset;
-  ULONG         Length;
-  ULONG         PlexNumber;
+  ULONG         Length;
+  ULONG         PlexNumber;
 } VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT;
 ```
 
@@ -72,9 +79,9 @@ Supplies the zero-based plex number.
 [**IOCTL\_VOLUME\_READ\_PLEX**](ioctl-volume-read-plex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20VOLUME_READ_PLEX_INPUT%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

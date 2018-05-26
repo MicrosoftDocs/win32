@@ -1,8 +1,11 @@
 ---
 title: External.play method
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The play method instructs Windows Media Player to play a set of media items.
-ms.assetid: '3e1f45db-9e7f-4a1b-aaa2-513a19c46f70'
-keywords: ["play method Windows Media Player", "play method Windows Media Player , External class", "External class Windows Media Player , play method"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The play method instructs Windows Media Player to play a set of media items.
+ms.assetid: 3e1f45db-9e7f-4a1b-aaa2-513a19c46f70
+keywords:
+- play method Windows Media Player
+- play method Windows Media Player , External class
+- External class Windows Media Player , play method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.play method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **play** method instructs Windows Media Player to play a set of media items.
 
@@ -74,9 +82,9 @@ This method does not return a value.
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

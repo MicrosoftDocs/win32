@@ -1,13 +1,16 @@
 ---
-Description: 'Like many other techniques in Managed Object Format (MOF), applying a qualifier to your code is a relatively simple process.'
+Description: Like many other techniques in Managed Object Format (MOF), applying a qualifier to your code is a relatively simple process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aaa5c921-bdcd-40e6-ab4b-9441a1957e5b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aaa5c921-bdcd-40e6-ab4b-9441a1957e5b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Applying a Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Applying a Qualifier
@@ -44,9 +47,9 @@ The following procedure helps you to use C++ to add a qualifier to a property.
 
 **To apply a qualifier using C++**
 
--   Apply the qualifier with a call to the [**IWbemQualifierSet::Put**](iwbemqualifierset-put.md) method.
+-   Apply the qualifier with a call to the [**IWbemQualifierSet::Put**](/windows/win32/Wbemcli/nf-wbemcli-iwbemqualifierset-put?branch=master) method.
 
-    You can use other methods of [**IWbemQualifierSet**](iwbemqualifierset.md) to retrieve or delete existing qualifiers.
+    You can use other methods of [**IWbemQualifierSet**](/windows/win32/Wbemcli/nn-wbemcli-iwbemqualifierset?branch=master) to retrieve or delete existing qualifiers.
 
 The following procedure helps you to apply a qualifier in MOF files.
 

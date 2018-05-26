@@ -1,7 +1,12 @@
-﻿---
-Description: 'A 4x4 matrix that contains methods and operator overloads.'
-ms.assetid: '0911088b-50cf-4c4a-996e-351386fc359b'
+---
+Description: A 4x4 matrix that contains methods and operator overloads.
+ms.assetid: 0911088b-50cf-4c4a-996e-351386fc359b
 title: D3DXMATRIX structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMATRIX structure

@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree GetOption method
 description: Gets the value of an IMimeMessageTree option.
-ms.assetid: '599f49b6-2126-4896-bc98-80161005db64'
-keywords: ["GetOption method Windows Mail (formerly Outlook Express)", "GetOption method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetOption method"]
+ms.assetid: 599f49b6-2126-4896-bc98-80161005db64
+keywords:
+- GetOption method Windows Mail (formerly Outlook Express)
+- GetOption method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetOption method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::GetOption method
@@ -22,8 +30,8 @@ Gets the value of an [**IMimeMessageTree**](oe-imimemessagetree.md) option.
 
 ```C++
 HRESULT GetOption(
-  [in]      const TYPEDID       oid,
-  [in, out]       LPPROPVARIANT pValue
+  [in]      const TYPEDID       oid,
+  [in, out]       LPPROPVARIANT pValue
 );
 ```
 
@@ -52,7 +60,7 @@ Specifies the option ID that indicates how the [**IMimeMessageTree**](oe-imimeme
 | <span id="OID_CLEANUP_TREE_ON_SAVE"></span><span id="oid_cleanup_tree_on_save"></span><dl> <dt>**OID\_CLEANUP\_TREE\_ON\_SAVE**</dt> </dl>             | **VT\_BOOL** that indicates whether to clean up the message tree when the message object is saved. Cleanup may include removing TNEF attachments and converting multipart bodies that have only one child to a single body. <br/> <dl> <dt>FALSE</dt> <dd> Do not clean up the message tree when the message object is saved. <br/> </dd> <dt>TRUE</dt> <dd> Default. Clean up the message tree when the message object is saved. <br/> </dd> </dl>                                                                              |
 | <span id="OID_SAVEBODY_KEEPBOUNDARY"></span><span id="oid_savebody_keepboundary"></span><dl> <dt>**OID\_SAVEBODY\_KEEPBOUNDARY**</dt> </dl>            | **VT\_BOOL** that indicates whether to reuse existing multipart boundaries (for example, from a previous load) when the message object is saved. <br/> <dl> <dt>FALSE</dt> <dd> Default. Do not reuse multipart boundaries when the message object is saved. <br/> </dd> <dt>TRUE</dt> <dd> Reuse multipart boundaries when the message object is saved. <br/> </dd> </dl>                                                                                                                                                       |
 | <span id="OID_CAN_INLINE_TEXT_BODIES"></span><span id="oid_can_inline_text_bodies"></span><dl> <dt>**OID\_CAN\_INLINE\_TEXT\_BODIES**</dt> </dl>       | **VT\_BOOL** that indicates whether to allow the client to insert various text parts of the tree into a single viewer or to convert the text parts to attachments instead. Also see [**IBT\_AUTOATTACH**](oe-imsgbodytype.md). <br/> <dl> <dt>FALSE</dt> <dd> Default. Do not allow inlining multiple text bodies into a single viewer. <br/> </dd> <dt>TRUE</dt> <dd> Allow inlining multiple text bodies into a single viewer. <br/> </dd> </dl>                                                                              |
-| <span id="OID_HIDE_TNEF_ATTACHMENTS"></span><span id="oid_hide_tnef_attachments"></span><dl> <dt>**OID\_HIDE\_TNEF\_ATTACHMENTS**</dt> </dl>           | **VT\_BOOL** that indicates whether to show Microsoft TNEF attachments. When this option is applied to a message object, it is also applied to all the bodies currently on that message object. <br/> <dl> <dt>FALSE</dt> <dd> Hide TNEF attachments. <br/> </dd> <dt>TRUE</dt> <dd> Default. Show TNEF attachments. <br/> </dd> </dl>                                                                                                                                                                                           |
+| <span id="OID_HIDE_TNEF_ATTACHMENTS"></span><span id="oid_hide_tnef_attachments"></span><dl> <dt>**OID\_HIDE\_TNEF\_ATTACHMENTS**</dt> </dl>           | **VT\_BOOL** that indicates whether to show Microsoft TNEF attachments. When this option is applied to a message object, it is also applied to all the bodies currently on that message object. <br/> <dl> <dt>FALSE</dt> <dd> Hide TNEF attachments. <br/> </dd> <dt>TRUE</dt> <dd> Default. Show TNEF attachments. <br/> </dd> </dl>                                                                                                                                                                                           |
 | <span id="OID_ALLOW_8BIT_HEADER"></span><span id="oid_allow_8bit_header"></span><dl> <dt>**OID\_ALLOW\_8BIT\_HEADER**</dt> </dl>                       | **VT\_BOOL** that indicates whether to allow 8-bit characters to be saved in the header. This option also indicates whether to allow [RFC 1522](http://www.ietf.org/rfc/rfc1522.txt) encoding. This option is applied to a body when the message is saved. <br/> <dl> <dt>FALSE</dt> <dd> Default. Disallow 8-bit characters and [RFC 1522](http://www.ietf.org/rfc/rfc1522.txt) encoding. <br/> </dd> <dt>TRUE</dt> <dd> Allow 8-bit characters and [RFC 1522](http://www.ietf.org/rfc/rfc1522.txt) encoding. <br/> </dd> </dl> |
 | <span id="OID_CBMAX_HEADER_LINE"></span><span id="oid_cbmax_header_line"></span><dl> <dt>**OID\_CBMAX\_HEADER\_LINE**</dt> </dl>                       | **VT\_UI4** that indicates the maximum number of characters for a line when the property set is saved. Headers longer than this length are wrapped. The minimum value for this option is 76 and the maximum is 0xffffffff (no limit). The default value is 1000. This option is applied to a body when the message is saved. <br/>                                                                                                                                                                                                                                                                                                                                    |
 | <span id="OID_SAVE_FORMAT"></span><span id="oid_save_format"></span><dl> <dt>**OID\_SAVE\_FORMAT**</dt> </dl>                                          | **VT\_UI4** that indicates in what format the message object should be saved. Valid values for this option are defined by [**MIMESAVETYPE**](oe-mimesavetype.md), **SAVE\_RFC1521** or whatever the format of the message was when it was loaded into the message object. <br/>                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -67,7 +75,7 @@ Specifies the option ID that indicates how the [**IMimeMessageTree**](oe-imimeme
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +105,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -105,8 +113,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -114,9 +122,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

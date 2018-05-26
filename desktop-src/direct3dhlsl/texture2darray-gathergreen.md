@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray GatherGreen methods
 description: Samples a Texture2DArray and returns the green component.
-ms.assetid: 'bfe9ab9f-64f7-4a50-aa46-2ec6effebce2'
-keywords: ["GatherGreen methods HLSL"]
+ms.assetid: bfe9ab9f-64f7-4a50-aa46-2ec6effebce2
+keywords:
+- GatherGreen methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::GatherGreen methods
@@ -33,9 +39,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md) and returns the gre
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

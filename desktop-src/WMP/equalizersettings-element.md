@@ -1,8 +1,18 @@
 ---
 title: EQUALIZERSETTINGS Element
 description: EQUALIZERSETTINGS Element
-ms.assetid: '521f1c95-7904-4085-a8bc-5399d667dfb1'
-keywords: ["Windows Media Player skins,EQUALIZERSETTINGS element", "skins,EQUALIZERSETTINGS element", "EQUALIZERSETTINGS element", "reference for skins,EQUALIZERSETTINGS element", "elements,EQUALIZERSETTINGS"]
+ms.assetid: 521f1c95-7904-4085-a8bc-5399d667dfb1
+keywords:
+- Windows Media Player skins,EQUALIZERSETTINGS element
+- skins,EQUALIZERSETTINGS element
+- EQUALIZERSETTINGS element
+- reference for skins,EQUALIZERSETTINGS element
+- elements,EQUALIZERSETTINGS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS Element

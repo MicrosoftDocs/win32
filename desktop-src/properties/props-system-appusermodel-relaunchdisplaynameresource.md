@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the display name used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its button''s Jump List.'
-ms.assetid: 'a149838b-83b6-44ce-b705-e2804efb3d31'
-title: 'System.AppUserModel.RelaunchDisplayNameResource'
+Description: Specifies the display name used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its buttons Jump List.
+ms.assetid: a149838b-83b6-44ce-b705-e2804efb3d31
+title: System.AppUserModel.RelaunchDisplayNameResource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.AppUserModel.RelaunchDisplayNameResource
@@ -16,14 +21,14 @@ Specifies the display name used for the shortcut created on the taskbar when the
 
  
 
-This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](shell.props_System_AppUserModel_Id), set through [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md)). If the window does not have an explicit AppUserModelID, this property is ignored and the window is grouped and pinned as if it were part of the process that owns it. For more information on the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs). This property is meant to be used by applications or windows that want to provide non-default relaunch information. For more information, see [System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand).
+This property is used only if a window has an explicit Application User Model ID (AppUserModelID) ([System.AppUserModel.ID](shell.props_System_AppUserModel_Id), set through [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master)). If the window does not have an explicit AppUserModelID, this property is ignored and the window is grouped and pinned as if it were part of the process that owns it. For more information on the application of explicit AppUserModelIDs and their effect on taskbar pinning, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs). This property is meant to be used by applications or windows that want to provide non-default relaunch information. For more information, see [System.AppUserModel.RelaunchCommand](shell.props_System_AppUserModel_RelaunchCommand).
 
 > [!Note]  
 > This property is ignored if [System.AppUserModel.PreventPinning](shell.props_System_AppUserModel_PreventPinning) is set. This enables an application to control the grouping of its windows by assigning them explicit AppUserModelIDs but preventing those windows from being pinned.
 
  
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.RelaunchDisplayNameResource](shell.props_System_AppUserModel_RelaunchDisplayNameResource) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.RelaunchDisplayNameResource](shell.props_System_AppUserModel_RelaunchDisplayNameResource) property of that window.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the private key associated with a certificate.'
-ms.assetid: '80478956-1ed7-4c25-9ae3-d7176649e6d7'
+---
+Description: Represents the private key associated with a certificate.
+ms.assetid: 80478956-1ed7-4c25-9ae3-d7176649e6d7
 title: PrivateKey object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey object

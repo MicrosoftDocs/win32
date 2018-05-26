@@ -1,20 +1,25 @@
 ---
 title: Windows Messenger Service Reference
 description: Service reference information for Windows Messenger.
-ms.assetid: '44708870-7f52-4538-902d-cbaae3c66b18'
+ms.assetid: 44708870-7f52-4538-902d-cbaae3c66b18
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Messenger Service Reference
 
-\[Windows Messenger is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
+\[Windows Messenger is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
 
-This is the entry page to the reference documentation for the Messenger service  APIs.
+This is the entry page to the reference documentation for the Messenger service  APIs.
 
 New applications should not use this set of interfaces. These interfaces exist for backward compatibility with legacy applications. These interfaces will be unavailable in the future.
 
-Applications cannot connect to Microsoft .NET Messenger Service or use any of the Messenger service  APIs until they have successfully authenticated with the Messenger Lock and Key mechanism. After authentication is complete, the Messenger service  APIs are unlocked and can be used as necessary by the application.
+Applications cannot connect to Microsoft .NET Messenger Service or use any of the Messenger service  APIs until they have successfully authenticated with the Messenger Lock and Key mechanism. After authentication is complete, the Messenger service  APIs are unlocked and can be used as necessary by the application.
 
-The Messenger service  API references are provided for Microsoft Visual C++. Also there is an overview included ([Messenger Lock and Key API](im-lock-and-key-ovw.md)), that provides general guidelines on unlocking and using the Messenger service  APIs.
+The Messenger service  API references are provided for Microsoft Visual C++. Also there is an overview included ([Messenger Lock and Key API](im-lock-and-key-ovw.md)), that provides general guidelines on unlocking and using the Messenger service  APIs.
 
 ## Enums
 
@@ -30,7 +35,7 @@ The Messenger service  API references are provided for Microsoft Visual C++. Als
 
 
 
- 
+ 
 
 ## Events
 
@@ -64,7 +69,7 @@ The Messenger service  API references are provided for Microsoft Visual C++. Als
 
 
 
- 
+ 
 
 ## DispInterfaces
 
@@ -78,7 +83,7 @@ The Messenger service  API references are provided for Microsoft Visual C++. Als
 
 
 
- 
+ 
 
 ## Interfaces
 
@@ -86,14 +91,14 @@ The Messenger service  API references are provided for Microsoft Visual C++. Als
 
 |                                                                                                                                                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMessengerPrivate**](im-imessengerprivate.md)Do not use. The [**IMessengerPrivate**](im-imessengerprivate.md) interface is a Messenger service  API that provides programmatic access to the [**MessengerPriv**](im-messengerpriv-object.md) object.<br/>                    |
+| [**IMessengerPrivate**](im-imessengerprivate.md)Do not use. The [**IMessengerPrivate**](im-imessengerprivate.md) interface is a Messenger service  API that provides programmatic access to the [**MessengerPriv**](im-messengerpriv-object.md) object.<br/>                    |
 | [**IMsgrLock**](im-imsgrlock.md)Do not use. The [**IMsgrLock**](im-imsgrlock.md) interface implements an API that is used to unlock Licensed Messenger objects.<br/>                                                                                                             |
 | [**IMsgrSession**](im-imsgrsession.md)Do not use. The [**IMsgrSession**](im-imsgrsession.md) interface provides programmatic access to the [**MsgrSession**](im-msgrsession-object.md) object. <br/>                                                                            |
-| [**IMsgrSessionManager**](im-imsgrsessionmanager.md)Do not use. The [**IMsgrSessionManager**](im-imsgrsessionmanager.md) interface is a Messenger service  API that provides programmatic access to the [**MsgrSessionManager**](im-msgrsessionmanager-object.md) object. <br/> |
+| [**IMsgrSessionManager**](im-imsgrsessionmanager.md)Do not use. The [**IMsgrSessionManager**](im-imsgrsessionmanager.md) interface is a Messenger service  API that provides programmatic access to the [**MsgrSessionManager**](im-msgrsessionmanager-object.md) object. <br/> |
 
 
 
- 
+ 
 
 ## Objects
 
@@ -101,17 +106,17 @@ The Messenger service  API references are provided for Microsoft Visual C++. Als
 
 |                                                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MessengerPriv**](im-messengerpriv-object.md)Do not use. The Messenger service  [**MessengerPriv**](im-messengerpriv-object.md) object.<br/> |
+| [**MessengerPriv**](im-messengerpriv-object.md)Do not use. The Messenger service  [**MessengerPriv**](im-messengerpriv-object.md) object.<br/> |
 | [**MsgrSession**](im-msgrsession-object.md)Do not use. The Messenger client session object. <br/>                                               |
 | [**MsgrSessionManager**](im-msgrsessionmanager-object.md)Do not use. The Messenger client session manager object. <br/>                         |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

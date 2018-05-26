@@ -1,13 +1,16 @@
 ---
-Description: 'WMI has several scripting helper objects that supply the conversions required by scripts.'
+Description: WMI has several scripting helper objects that supply the conversions required by scripts.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '832660b7-2992-4d1f-af16-7b8f0477b187'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 832660b7-2992-4d1f-af16-7b8f0477b187
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting Helper Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting Helper Objects

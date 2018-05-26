@@ -4,11 +4,14 @@ description: Sets and gets the number of items in each enumeration batch.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1675ba12-a0c7-4e59-a013-2109780e8afe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 1675ba12-a0c7-4e59-a013-2109780e8afe
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["BatchItems property Windows Remote Management", "BatchItems property Windows Remote Management , Session object", "Session object Windows Remote Management , BatchItems property"]
+keywords:
+- BatchItems property Windows Remote Management
+- BatchItems property Windows Remote Management , Session object
+- Session object Windows Remote Management , BatchItems property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session.BatchItems property
@@ -48,8 +54,8 @@ This is an optimization feature that controls how often network calls are made b
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -70,9 +76,9 @@ This is an optimization feature that controls how often network calls are made b
 [**Enumerator.ReadItem**](enumerator-readitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

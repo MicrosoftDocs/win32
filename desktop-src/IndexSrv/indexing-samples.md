@@ -1,7 +1,12 @@
 ---
 title: Indexing Samples
 description: Indexing Samples
-ms.assetid: '0196a0b1-772c-4892-a538-80477c4818e5'
+ms.assetid: 0196a0b1-772c-4892-a538-80477c4818e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Samples

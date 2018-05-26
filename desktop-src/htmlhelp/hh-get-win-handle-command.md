@@ -1,7 +1,12 @@
 ---
 title: HH\_GET\_WIN\_HANDLE command
 description: Returns the handle (hwnd) of a specified window type.
-ms.assetid: '908E3E61-6990-40cc-8B7F-489150EB28D2'
+ms.assetid: 908E3E61-6990-40cc-8B7F-489150EB28D2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_GET\_WIN\_HANDLE command

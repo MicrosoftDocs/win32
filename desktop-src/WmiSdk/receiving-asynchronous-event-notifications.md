@@ -1,13 +1,16 @@
 ---
-Description: 'Asynchronous event notification is a technique that allows an application to constantly monitor events without monopolizing system resources.'
+Description: Asynchronous event notification is a technique that allows an application to constantly monitor events without monopolizing system resources.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '69ec8ead-9073-4689-bc66-5134728ab147'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 69ec8ead-9073-4689-bc66-5134728ab147
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Asynchronous Event Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Asynchronous Event Notifications
@@ -76,7 +79,7 @@ End Sub
 
 To perform asynchronous notification, you create a separate thread solely to monitor and receive events from Windows Management Instrumentation (WMI). When that thread receives a message, the thread notifies your main application.
 
-By dedicating a separate thread, you permit your main process to perform other activities while waiting for an event to arrive. Asynchronous delivery of notifications improves performance but may provide less security than you want. In C++, you have the option of using the [**IWbemUnsecuredApartment**](iwbemunsecuredapartment.md) interface or performing access checks on security descriptors. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
+By dedicating a separate thread, you permit your main process to perform other activities while waiting for an event to arrive. Asynchronous delivery of notifications improves performance but may provide less security than you want. In C++, you have the option of using the [**IWbemUnsecuredApartment**](/windows/win32/Wbemcli/nn-wbemcli-iwbemunsecuredapartment?branch=master) interface or performing access checks on security descriptors. For more information, see [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md).
 
 **To set up asynchronous event notifications**
 
@@ -140,13 +143,13 @@ The following procedure describes how to receive asynchronous event notification
 
     WMI uses [**IWbemObjectSink**](iwbemobjectsink.md) to send event notifications and to report status on an asynchronous operation or event notification.
 
-3.  Register your event consumer with a call to the [**IWbemServices::ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md) method.
+3.  Register your event consumer with a call to the [**IWbemServices::ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master) method.
 
     Make sure that the *pResponseHandler* parameter points to the sink object created in the preceding step.
 
     The purpose of registration is to receive only the required notifications. Receiving superfluous notifications wastes processing and delivery time; and does not use the filtering ability of WMI to the fullest potential.
 
-    However, a temporary consumer can receive more than one type of event. In this case, a temporary consumer must make separate calls to [**IWbemServices::ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md) for each event type. For example, a consumer might require notification when new processes are created (an instance creation event or [**\_\_InstanceCreationEvent**](--instancecreationevent.md)) and for changes to certain registry keys (a registry event such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040)). Therefore, the consumer makes one call to [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) to register for instance creation events and another call to **ExecNotificationQueryAsync** to register for registry events.
+    However, a temporary consumer can receive more than one type of event. In this case, a temporary consumer must make separate calls to [**IWbemServices::ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master) for each event type. For example, a consumer might require notification when new processes are created (an instance creation event or [**\_\_InstanceCreationEvent**](--instancecreationevent.md)) and for changes to certain registry keys (a registry event such as [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040)). Therefore, the consumer makes one call to [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) to register for instance creation events and another call to **ExecNotificationQueryAsync** to register for registry events.
 
     If you choose to create an event consumer that registers for multiple events, you should avoid registering multiple classes with the same sink. Instead, use a separate sink for each class of registered event. Having a dedicated sink simplifies processing and aids in maintenance, allowing you to cancel one registration without affecting the others.
 
@@ -154,9 +157,9 @@ The following procedure describes how to receive asynchronous event notification
 
     This step should contain most of your code and include such activities as displaying events to a user interface.
 
-5.  When finished, unregister the temporary event consumer with a call to the [**IWbemServices::CancelAsyncCall**](iwbemservices-cancelasynccall.md) event.
+5.  When finished, unregister the temporary event consumer with a call to the [**IWbemServices::CancelAsyncCall**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) event.
 
-    Regardless of whether the call to [**CancelAsyncCall**](iwbemservices-cancelasynccall.md) succeeds or fails, do not delete the sink object until the object reference count reaches zero. For more information, see [Calling a Method](calling-a-method.md).
+    Regardless of whether the call to [**CancelAsyncCall**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) succeeds or fails, do not delete the sink object until the object reference count reaches zero. For more information, see [Calling a Method](calling-a-method.md).
 
  
 

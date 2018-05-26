@@ -1,8 +1,15 @@
 ---
 title: Driver Delay
 description: Driver Delay
-ms.assetid: 'd9d33411-7606-4757-8aab-e8907722ce08'
-keywords: ["event graph", "IRP timings"]
+ms.assetid: d9d33411-7606-4757-8aab-e8907722ce08
+keywords:
+- event graph
+- IRP timings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Driver Delay

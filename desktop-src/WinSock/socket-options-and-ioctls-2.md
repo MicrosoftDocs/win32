@@ -1,18 +1,23 @@
 ---
-Description: 'Some of the socket options for Windows Sockets 2 are summarized in the following table.'
-ms.assetid: '6731d27c-fb7d-421a-badf-0cad6a4712ea'
+Description: Some of the socket options for Windows Sockets 2 are summarized in the following table.
+ms.assetid: 6731d27c-fb7d-421a-badf-0cad6a4712ea
 title: Socket Options and IOCTLs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Socket Options and IOCTLs
 
-Some of the socket options for Windows Sockets 2 are summarized in the following table. More detailed information is provided in section 4 under [**WSPGetSockOpt**](wspgetsockopt-2.md) and/or [**WSPSetSockOpt**](wspsetsockopt-2.md). There are other new protocol-specific socket options which can be found in the Protocol-Specific Annex. A complete list of [**Socket Options**](socket-options.md) for Windows Sockets are available in the Winsock reference.
+Some of the socket options for Windows Sockets 2 are summarized in the following table. More detailed information is provided in section 4 under [**WSPGetSockOpt**](/windows/win32/Ws2spi/?branch=master) and/or [**WSPSetSockOpt**](/windows/win32/Ws2spi/?branch=master). There are other new protocol-specific socket options which can be found in the Protocol-Specific Annex. A complete list of [**Socket Options**](socket-options.md) for Windows Sockets are available in the Winsock reference.
 
 For a a summary of some of the Winsock Ioctls, see [Summary of Socket Ioctl Opcodes](summary-of-socket-ioctl-opcodes-2.md). A complete list of [**Winsock IOCTLs**](winsock-ioctls.md) are available in the Winsock reference.
 
 ## Summary of Common Socket Options
 
-A Winsock service provider must recognize all of these options, and (for [**WSPGetSockOpt**](wspgetsockopt-2.md)) return plausible values for each. The default value for each option is shown in the following table.
+A Winsock service provider must recognize all of these options, and (for [**WSPGetSockOpt**](/windows/win32/Ws2spi/?branch=master)) return plausible values for each. The default value for each option is shown in the following table.
 
 Value
 
@@ -30,7 +35,7 @@ BOOL
 
 Socket is listening.
 
-FALSE unless a [**WSPListen**](wsplisten-2.md) has been performed.
+FALSE unless a [**WSPListen**](/windows/win32/Ws2spi/?branch=master) has been performed.
 
 <span id="SO_BROADCAST"></span><span id="so_broadcast"></span>SO\_BROADCAST
 
@@ -132,7 +137,7 @@ FALSE
 
 <span id="SO_PROTOCOL_INFOW"></span><span id="so_protocol_infow"></span>SO\_PROTOCOL\_INFOW
 
-structure [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md)
+structure [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master)
 
 Description of protocol information for the protocol that is bound to this socket.
 
@@ -192,7 +197,7 @@ Disables the Nagle algorithm for send coalescing.
 
 Implementation dependent
 
-(i) A service provider may silently ignore this option on [**WSPSetSockOpt**](wspsetsockopt-2.md) and return a constant value for [**WSPGetSockOpt**](wspgetsockopt-2.md), or it may accept a value for **WSPSetSockOpt** and return the corresponding value in **WSPGetSockOpt** without using the value in any way.
+(i) A service provider may silently ignore this option on [**WSPSetSockOpt**](/windows/win32/Ws2spi/?branch=master) and return a constant value for [**WSPGetSockOpt**](/windows/win32/Ws2spi/?branch=master), or it may accept a value for **WSPSetSockOpt** and return the corresponding value in **WSPGetSockOpt** without using the value in any way.
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Effects 11 Reference
 description: Use Effects 11 source to build your effects-type application. The Effects 11 source is available at Effects for Direct3D 11 Update. The Effects 11 API is described in this section.
-ms.assetid: '7c692a37-879b-4f37-8f4f-4d6cfa9cde8b'
+ms.assetid: 7c692a37-879b-4f37-8f4f-4d6cfa9cde8b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects 11 Reference
@@ -23,7 +28,7 @@ Use Effects 11 source to build your effects-type application. The Effects 11 sou
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ Use Effects 11 source to build your effects-type application. The Effects 11 sou
 [Direct3D 11 Reference](atoc-d3d11-graphics-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

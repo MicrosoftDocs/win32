@@ -4,11 +4,12 @@ description: Retrieves the time of last state change for a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CCF30722-0159-412E-ACEF-8FF662ED5587'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CCF30722-0159-412E-ACEF-8FF662ED5587
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_GET_STATE_CHANGE_TIME control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_GET_STATE_CHANGE_TIME control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_GET\_STATE\_CHANGE\_TIME control code
 
-Retrieves the time of last state change for a resource. Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter.
+Retrieves the time of last state change for a resource. Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterResourceControl(
 
 ## Parameters
 
-The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md) or [**ResourceControl**](resourcecontrol.md).
+The following control code function and DLL support parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) or [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master).
 
 <dl> <dt>
 
@@ -53,7 +57,7 @@ On a successful return, points to a [property list](property-lists.md) that cont
 
 ## Return value
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) returns one of the following values.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -82,7 +86,7 @@ If any other value is returned, then the operation failed. The value of *lpcbByt
 
 </dd> </dl>
 
-Implementations of [**ResourceControl**](resourcecontrol.md) can return the above values or the following value.
+Implementations of [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) can return the above values or the following value.
 
 <dl> <dt>
 
@@ -103,17 +107,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_GET\_STATE\_CHANGE\_TIME (0x
 
 | Component      | Bit location | Value                                                       |
 |----------------|--------------|-------------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>                 |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>                 |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                      |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>                       |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>                   |
 | Type bit       | 20           | External (0x0)<br/>                                   |
-| Operation code | 0–23         | **CLCTL\_GET\_STATE\_CHANGE\_TIME** (0x00002D5D)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>                     |
+| Operation code | 0 23         | **CLCTL\_GET\_STATE\_CHANGE\_TIME** (0x00002D5D)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>                     |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -122,7 +126,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_GET\_STATE\_CHANGE\_TIME (0x
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                       |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -137,9 +141,9 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_GET\_STATE\_CHANGE\_TIME (0x
 [Control Codes](about-control-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: TlsServerAcceptAllPurposeCert
 description: The TlsServerAcceptAllPurposeCert registry key determines if all-purpose certificates are accepted for EAP-TLS authentication.
-ms.assetid: 'F0881397-5D8C-4C8F-8EB5-6D59454C55B7'
+ms.assetid: F0881397-5D8C-4C8F-8EB5-6D59454C55B7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TlsServerAcceptAllPurposeCert

@@ -2,13 +2,15 @@
 title: DAClientSettings class
 description: DirectAccess Client Settings class.
 audience: developer
-ms.assetid: 'f0873820-5a90-4390-bdc8-001e1cedb785'
-ms.prod: 'windows-server-dev'
+ms.assetid: f0873820-5a90-4390-bdc8-001e1cedb785
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DAClientSettings class", "DAClientSettings class, described"]
+keywords:
+- DAClientSettings class
+- DAClientSettings class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DAClientSettings class
@@ -35,10 +40,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class DAClientSettings
 {
-  string            ForceTunnel;
+  string            ForceTunnel;
   DnsClientNrptRule ForceTunnelingNrptEntry;
-  string            OnlyRemoteComputers;
-  string            Downlevel;
+  string            OnlyRemoteComputers;
+  string            Downlevel;
 };
 ```
 
@@ -63,7 +68,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Whether appropriate policies should be deployed on downlevel Windows 7 clients enabling them to connect to the Windows Server 2012 DA Server.
+Whether appropriate policies should be deployed on downlevel Windows 7 clients enabling them to connect to the Windows Server 2012 DA Server.
 
 The possible values are.
 
@@ -170,16 +175,16 @@ The possible values are.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

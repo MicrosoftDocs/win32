@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.getNextSelectedItem2
 description: The getNextSelectedItem2 method retrieves the index of the next selected item in the playlist following the specified index.
-ms.assetid: '18acf95c-ab79-4b5c-b904-e13ef9a034dc'
-keywords: ["PLAYLIST.getNextSelectedItem2 Windows Media Player"]
+ms.assetid: 18acf95c-ab79-4b5c-b904-e13ef9a034dc
+keywords:
+- PLAYLIST.getNextSelectedItem2 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.getNextSelectedItem2
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.getNextSelectedItem2
@@ -36,7 +42,7 @@ This method returns a **Number** (**long**).
 
 ## Remarks
 
-This method can work with nested playlists and replaces the **getNextSelectedItem** method, which cannot. Pass –1 in the *item* parameter to find the first selected item. When there are no further selected items, -1 is returned.
+This method can work with nested playlists and replaces the **getNextSelectedItem** method, which cannot. Pass  1 in the *item* parameter to find the first selected item. When there are no further selected items, -1 is returned.
 
 ## Requirements
 
@@ -58,9 +64,9 @@ This method can work with nested playlists and replaces the **getNextSelectedIte
 [**PLAYLIST.getNextSelectedItem**](playlist-getnextselecteditem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

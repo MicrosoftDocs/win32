@@ -1,8 +1,10 @@
 ---
 title: Win32\_MSIResource class
 description: The Win32\_MSIResource abstract WMI class represents any resources that are used by the Installer during the course of an installation, an update, or an upgrade.
-ms.assetid: 'df938beb-f629-4c97-83a9-48603cb36bb0'
-keywords: ["Win32_MSIResource class", "Win32_MSIResource class, described"]
+ms.assetid: df938beb-f629-4c97-83a9-48603cb36bb0
+keywords:
+- Win32_MSIResource class
+- Win32_MSIResource class, described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_MSIResource class
@@ -23,7 +30,7 @@ The **Win32\_MSIResource** abstract [WMI class](https://msdn.microsoft.com/libra
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -99,8 +106,8 @@ The **Win32\_MSIResource** class is derived from [**CIM\_Setting**](https://msdn
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -114,9 +121,9 @@ The **Win32\_MSIResource** class is derived from [**CIM\_Setting**](https://msdn
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

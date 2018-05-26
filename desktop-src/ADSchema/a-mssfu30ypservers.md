@@ -4,17 +4,22 @@ description: Contains a list of NIS servers in an NIS domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '45547dc9-8fc2-4ab2-af3e-396fd04e7446'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 45547dc9-8fc2-4ab2-af3e-396fd04e7446
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Yp-Servers attribute AD Schema", "msSFU30YpServers attribute AD Schema"]
+keywords:
+- msSFU-30-Yp-Servers attribute AD Schema
+- msSFU30YpServers attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Yp-Servers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Yp-Servers attribute
@@ -38,10 +43,10 @@ Contains a list of NIS servers in an NIS domain.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains a list of NIS servers in an NIS domain.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

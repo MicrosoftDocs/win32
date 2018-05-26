@@ -1,7 +1,12 @@
 ---
 Description: Methods for Print Ticket Providers and Consumers
-ms.assetid: 'd834f85d-97bc-4f95-9f95-6391af99127b'
+ms.assetid: d834f85d-97bc-4f95-9f95-6391af99127b
 title: Methods for Print Ticket Providers and Consumers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Methods for Print Ticket Providers and Consumers

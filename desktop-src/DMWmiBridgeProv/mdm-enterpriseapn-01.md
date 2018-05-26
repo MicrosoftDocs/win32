@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseAPN\_01 class
 description: The MDM\_EnterpriseAPN\_01 class is used by the enterprise to provision an APN for the Internet.
-ms.assetid: 'c5fc0a86-98b7-4d0c-aae5-be836e48eee7'
-keywords: ["MDM_EnterpriseAPN_01 class", "MDM_EnterpriseAPN_01 class, described"]
+ms.assetid: c5fc0a86-98b7-4d0c-aae5-be836e48eee7
+keywords:
+- MDM_EnterpriseAPN_01 class
+- MDM_EnterpriseAPN_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseAPN\_01 class
@@ -29,19 +36,19 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_EnterpriseAPN_01
 {
-  string  InstanceID;
-  string  ParentID;
-  string  APNName;
-  string  IPType;
+  string  InstanceID;
+  string  ParentID;
+  string  APNName;
+  string  IPType;
   boolean IsAttachAPN;
-  string  ClassId;
-  string  AuthType;
-  string  UserName;
-  string  Password;
-  string  IccId;
+  string  ClassId;
+  string  AuthType;
+  string  UserName;
+  string  Password;
+  string  IccId;
   boolean AlwaysOn;
   boolean Enabled;
-  string  Roaming;
+  string  Roaming;
 };
 ```
 
@@ -216,7 +223,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -231,9 +238,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

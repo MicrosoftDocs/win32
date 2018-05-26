@@ -1,14 +1,19 @@
 ---
 Description: User Interface
-ms.assetid: '2770E065-A15E-46CA-9D4E-610A2FE62E64'
+ms.assetid: 2770E065-A15E-46CA-9D4E-610A2FE62E64
 title: User Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface
 
 ## In this section
 
--   [**ApphelpCheckShellObject**](apphelpcheckshellobject.md)
+-   [**ApphelpCheckShellObject**](/windows/win32/AppCompatApi/nf-appcompatapi-apphelpcheckshellobject?branch=master)
 -   [**Ctl3dAutoSubclass**](ctl3dautosubclass.md)
 -   [**Ctl3dColorChange**](ctl3dcolorchange.md)
 -   [**Ctl3dCtlColorEx**](ctl3dctlcolorex.md)
@@ -24,7 +29,7 @@ title: User Interface
 -   [**IExtender**](iextender.md)
 -   [**KRShowKeyMgr**](krshowkeymgr.md)
 -   [**NmMakeCert**](nmmakecert.md)
--   [**SetShellNext**](setshellnext.md)
+-   [**SetShellNext**](/windows/win32/Icwcfg/nf-icwcfg-setshellnext?branch=master)
 -   [**WM\_CTLCOLOR**](wm-ctlcolor-.md)
 
  

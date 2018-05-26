@@ -4,13 +4,16 @@ description: Retrieves cluster DTC mapping data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7bc2475a-b46d-47d1-9cf1-40820393f7f8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7bc2475a-b46d-47d1-9cf1-40820393f7f8
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, MSFT_DtcClusterTMMappingTask class", "MSFT_DtcClusterTMMappingTask class, Get method"]
+keywords:
+- Get method
+- Get method, MSFT_DtcClusterTMMappingTask class
+- MSFT_DtcClusterTMMappingTask class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the MSFT\_DtcClusterTMMappingTask class
@@ -30,8 +36,8 @@ Retrieves cluster DTC mapping data.
 
 ```mof
 uint32 Get(
-  [in]  string              Name,
-  [out] DtcClusterTMMapping cmdletOutput[]
+  [in]  string              Name,
+  [out] DtcClusterTMMapping cmdletOutput[]
 );
 ```
 
@@ -65,8 +71,8 @@ Returns "0" on success, otherwise returns a WMI error code.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>    |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
@@ -81,9 +87,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_DtcClusterTMMappingTask**](msft-dtcclustertmmappingtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Aborts the processing of the current media segment.'
-ms.assetid: '31253d0d-c53f-47bd-823a-fc564cb63b78'
-title: 'IMFSourceBuffer::Abort method'
+---
+Description: Aborts the processing of the current media segment.
+ms.assetid: 31253d0d-c53f-47bd-823a-fc564cb63b78
+title: IMFSourceBufferAbort method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFSourceBuffer::Abort method
@@ -41,7 +46,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFSourceBuffer**](imfsourcebuffer.md)
+[**IMFSourceBuffer**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffer?branch=master)
 </dt> </dl>
 
  

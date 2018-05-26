@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of integers.'
-ms.assetid: '1ceb8bb0-d168-49cf-8964-8ae582b5ec2e'
-title: 'ID3DXTextureShader::SetIntArray method'
+---
+Description: Sets an array of integers.
+ms.assetid: 1ceb8bb0-d168-49cf-8964-8ae582b5ec2e
+title: ID3DXTextureShaderSetIntArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetIntArray method

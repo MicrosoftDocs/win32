@@ -4,11 +4,13 @@ description: Represents a storage report.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9fd915a7-1315-4c49-8088-c418d5aecdb4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 9fd915a7-1315-4c49-8088-c418d5aecdb4
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMStorageReport class File Server Resource Manager", "MSFT_FSRMStorageReport class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMStorageReport class File Server Resource Manager
+- MSFT_FSRMStorageReport class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -43,6 +45,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMStorageReport class
@@ -57,31 +62,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMStorageReport
 {
-  string                 Name;
-  string                 Namespace[];
-  boolean                Interactive;
-  uint32                 ReportType[];
-  uint32                 FileScreenAuditDaysSince = 0;
-  string                 FileScreenAuditUser[] = {};
-  string                 FileGroupIncluded[] = {};
-  string                 FileOwnerUser[] = {};
-  string                 FileOwnerFilePattern = "";
-  string                 PropertyName = "";
-  string                 FolderPropertyName = "";
-  string                 PropertyFilePattern = "";
-  uint64                 LargeFileMinimum = 0;
-  string                 LargeFilePattern = "";
-  uint32                 LeastAccessedMinimum = 0;
-  string                 LeastAccessedFilePattern = "";
-  uint32                 MostAccessedMaximum = 0;
-  string                 MostAccessedFilePattern = "";
-  uint32                 QuotaMinimumUsage;
-  uint32                 ReportFormat[] = {Dhtml, Xml};
-  string                 MailTo = "";
-  string                 LastError;
-  uint32                 Status;
-  datetime               LastRun;
-  string                 LastReportPath;
+  string                 Name;
+  string                 Namespace[];
+  boolean                Interactive;
+  uint32                 ReportType[];
+  uint32                 FileScreenAuditDaysSince = 0;
+  string                 FileScreenAuditUser[] = {};
+  string                 FileGroupIncluded[] = {};
+  string                 FileOwnerUser[] = {};
+  string                 FileOwnerFilePattern = "";
+  string                 PropertyName = "";
+  string                 FolderPropertyName = "";
+  string                 PropertyFilePattern = "";
+  uint64                 LargeFileMinimum = 0;
+  string                 LargeFilePattern = "";
+  uint32                 LeastAccessedMinimum = 0;
+  string                 LeastAccessedFilePattern = "";
+  uint32                 MostAccessedMaximum = 0;
+  string                 MostAccessedFilePattern = "";
+  uint32                 QuotaMinimumUsage;
+  uint32                 ReportFormat[] = {Dhtml, Xml};
+  string                 MailTo = "";
+  string                 LastError;
+  uint32                 Status;
+  datetime               LastRun;
+  string                 LastReportPath;
   MSFT_FSRMScheduledTask Schedule;
 };
 ```
@@ -107,7 +112,7 @@ The **MSFT\_FSRMStorageReport** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -681,7 +686,7 @@ For an example see [Scheduling a Storage Report using WMI](scheduling-a-report-j
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -695,9 +700,9 @@ For an example see [Scheduling a Storage Report using WMI](scheduling-a-report-j
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

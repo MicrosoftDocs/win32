@@ -1,7 +1,12 @@
 ---
 title: Device Names
 description: Device Names
-ms.assetid: '0ba06439-cc33-43e1-a094-09bcc5e2f6b5'
+ms.assetid: 0ba06439-cc33-43e1-a094-09bcc5e2f6b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Names

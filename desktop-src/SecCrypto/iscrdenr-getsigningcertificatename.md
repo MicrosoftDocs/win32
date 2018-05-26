@@ -1,14 +1,19 @@
-﻿---
-Description: 'Retrieves the subject name from the signing certificate.'
-ms.assetid: 'e50b1e12-ec89-4d58-aa57-dc24aa2409ef'
-title: 'ISCrdEnr::getSigningCertificateName method'
+---
+Description: Retrieves the subject name from the signing certificate.
+ms.assetid: e50b1e12-ec89-4d58-aa57-dc24aa2409ef
+title: ISCrdEnrgetSigningCertificateName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getSigningCertificateName method
 
 The **getSigningCertificateName** method retrieves the subject name from the signing certificate.
 
-This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) function [**CertGetNameString**](certgetnamestring.md).
+This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) function [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
 
 ## Syntax
 
@@ -75,7 +80,7 @@ A string that represents the name of the signing certificate. The signing certif
 
 ## Remarks
 
-The **getSigningCertificateName** method returns the subject name of the certificate you (or another administrator) have selected in a previous successful call to [**ISCrdEnr::selectSigningCertificate**](iscrdenr-selectsigningcertificate.md) or [**ISCrdEnr::setSigningCertificate**](iscrdenr-setsigningcertificate.md). This method calls the [**CertGetNameString**](certgetnamestring.md) function to retrieve the subject name according to the sequence described for the CERT\_NAME\_SIMPLE\_DISPLAY\_TYPE value of **CertGetNameString**'s *dwType* parameter.
+The **getSigningCertificateName** method returns the subject name of the certificate you (or another administrator) have selected in a previous successful call to [**ISCrdEnr::selectSigningCertificate**](iscrdenr-selectsigningcertificate.md) or [**ISCrdEnr::setSigningCertificate**](iscrdenr-setsigningcertificate.md). This method calls the [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master) function to retrieve the subject name according to the sequence described for the CERT\_NAME\_SIMPLE\_DISPLAY\_TYPE value of **CertGetNameString**'s *dwType* parameter.
 
 ## Requirements
 

@@ -1,8 +1,11 @@
 ---
 title: Device.Items property
 description: Retrieves a collection of all items for this imaging device.
-ms.assetid: 'cc60f880-9ea6-4945-831d-2925c67ac1b9'
-keywords: ["Items property WIA Automation", "Items property WIA Automation , Device object", "Device object WIA Automation , Items property"]
+ms.assetid: cc60f880-9ea6-4945-831d-2925c67ac1b9
+keywords:
+- Items property WIA Automation
+- Items property WIA Automation , Device object
+- Device object WIA Automation , Items property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.Items property
@@ -43,8 +51,8 @@ For example code, see [Count Root Level Images for Transfer](-wiaaut-shared-samp
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -69,9 +77,9 @@ For example code, see [Count Root Level Images for Transfer](-wiaaut-shared-samp
 [**Items**](-wiaaut-items.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

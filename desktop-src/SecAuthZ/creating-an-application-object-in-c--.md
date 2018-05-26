@@ -1,14 +1,19 @@
 ---
-Description: 'An authorization policy store contains authorization policy information for one or more applications. For each application that uses that policy store, you must create an IAzApplication object and save it to a policy store.'
-ms.assetid: '2bba1068-ae03-4388-be4d-9865e42e440e'
+Description: An authorization policy store contains authorization policy information for one or more applications. For each application that uses that policy store, you must create an IAzApplication object and save it to a policy store.
+ms.assetid: 2bba1068-ae03-4388-be4d-9865e42e440e
 title: Creating an Application Object in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Application Object in C++
 
-An authorization policy store contains authorization policy information for one or more applications. For each application that uses that policy store, you must create an [**IAzApplication**](iazapplication.md) object and save it to a policy store.
+An authorization policy store contains authorization policy information for one or more applications. For each application that uses that policy store, you must create an [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) object and save it to a policy store.
 
-The following example shows how to create an [**IAzApplication**](iazapplication.md) object that represents an application and how to add the **IAzApplication** object to the authorization policy store the application uses. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C.
+The following example shows how to create an [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) object that represents an application and how to add the **IAzApplication** object to the authorization policy store the application uses. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C.
 
 
 ```C++

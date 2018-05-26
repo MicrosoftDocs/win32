@@ -4,17 +4,21 @@ description: Contains the absolute date to expire the account.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a16c5c46-eafd-457f-b39c-8b7053db9195'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a16c5c46-eafd-457f-b39c-8b7053db9195
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["shadowExpire attribute AD Schema"]
+keywords:
+- shadowExpire attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - shadowExpire
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # shadowExpire attribute
@@ -38,10 +42,10 @@ Contains the absolute date to expire the account.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -134,9 +138,9 @@ Contains the absolute date to expire the account.
 [RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

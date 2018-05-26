@@ -1,8 +1,11 @@
 ---
 title: ParentCollection ~ParentCollection destructor
 description: Destructor method.
-ms.assetid: 'E52E0952-B47B-472D-BB16-A5B1534BE65F'
-keywords: ["~ParentCollection destructor Access Execution Engine", "~ParentCollection destructor Access Execution Engine , ParentCollection interface", "ParentCollection interface Access Execution Engine , ~ParentCollection destructor"]
+ms.assetid: E52E0952-B47B-472D-BB16-A5B1534BE65F
+keywords:
+- ~ParentCollection destructor Access Execution Engine
+- ~ParentCollection destructor Access Execution Engine , ParentCollection interface
+- ParentCollection interface Access Execution Engine , ~ParentCollection destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParentCollection::~ParentCollection destructor
@@ -36,8 +44,8 @@ A **ParentCollection** holds data from a **TestCase/Parents** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ A **ParentCollection** holds data from a **TestCase/Parents** element.
 [**ParentCollection**](parentcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

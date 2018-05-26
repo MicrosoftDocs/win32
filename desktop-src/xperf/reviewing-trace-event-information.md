@@ -1,8 +1,17 @@
 ---
 title: Reviewing Trace Event Information
 description: Reviewing Trace Event Information
-ms.assetid: '6c0bc124-6524-4064-a013-952710dbbe50'
-keywords: ["p-state", "c-state", "CPU frequency", "CPU idle states"]
+ms.assetid: 6c0bc124-6524-4064-a013-952710dbbe50
+keywords:
+- p-state
+- c-state
+- CPU frequency
+- CPU idle states
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reviewing Trace Event Information

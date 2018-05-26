@@ -1,7 +1,12 @@
 ---
 title: Binding Handles
 description: Binding is the process of creating a logical connection between a client program and a server program. The information that composes the binding between client and server is represented by a structure called a binding handle.
-ms.assetid: 'ba049369-6c8b-4313-a266-e0364a30056e'
+ms.assetid: ba049369-6c8b-4313-a266-e0364a30056e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binding Handles

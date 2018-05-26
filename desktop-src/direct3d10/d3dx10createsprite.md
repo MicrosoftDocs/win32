@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a sprite for drawing a 2D texture.Note  Instead of using this function, we recommend that you use Direct2D and the DirectXTK library, SpriteBatch class.'
-ms.assetid: '64efb8e4-da0b-4e67-874a-e0bb0083961c'
+---
+Description: Create a sprite for drawing a 2D texture.Note  Instead of using this function, we recommend that you use Direct2D and the DirectXTK library, SpriteBatch class.
+ms.assetid: 64efb8e4-da0b-4e67-874a-e0bb0083961c
 title: D3DX10CreateSprite function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateSprite function
@@ -33,9 +38,9 @@ HRESULT D3DX10CreateSprite(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-A pointer to the device (see [**ID3D10Device Interface**](id3d10device.md)) that will draw the sprite.
+A pointer to the device (see [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)) that will draw the sprite.
 
 </dd> <dt>
 

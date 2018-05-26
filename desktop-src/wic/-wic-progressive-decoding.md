@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces progressive decoding and how to use progressive decoding in applications.'
-ms.assetid: 'd22c2c59-0fa1-4452-93f1-dbf151033714'
+Description: This topic introduces progressive decoding and how to use progressive decoding in applications.
+ms.assetid: d22c2c59-0fa1-4452-93f1-dbf151033714
 title: Progressive Decoding Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progressive Decoding Overview
@@ -117,7 +122,7 @@ Although codecs can specify the content of empty pixels at any particular level,
 
 ## Progressive Decoding in Applications
 
-The main progressive decoding interface is the [**IWICProgressiveLevelControl**](-wic-codec-iwicprogressivelevelcontrol.md) interface. To obtain a reference to the interface, query an image frame ([**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md)) for **IWICProgressiveLevelControl**. Progressive methods can then be accessed from the interface.
+The main progressive decoding interface is the [**IWICProgressiveLevelControl**](/windows/win32/Wincodec/nn-wincodec-iwicprogressivelevelcontrol?branch=master) interface. To obtain a reference to the interface, query an image frame ([**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)) for **IWICProgressiveLevelControl**. Progressive methods can then be accessed from the interface.
 
 The code below provides an example for using progressive decoding in applications.
 
@@ -156,11 +161,11 @@ if (pProgressive)
 
 
 
-The preceding code provides the basic functionality necessary for implementing progressive decoding in most applications. Using the code, progressive levels can be accessed as image pixel data becomes available. The [**SetCurrentLevel**](-wic-codec-iwicprogressivelevelcontrol-setcurrentlevel.md) function blocks execution until the level being requested is available.
+The preceding code provides the basic functionality necessary for implementing progressive decoding in most applications. Using the code, progressive levels can be accessed as image pixel data becomes available. The [**SetCurrentLevel**](/windows/win32/Wincodec/nf-wincodec-iwicprogressivelevelcontrol-setcurrentlevel?branch=master) function blocks execution until the level being requested is available.
 
 ## Custom Codec Support for Progressive Decoding
 
-Codec developers may choose to implement the [**IWICProgressiveLevelControl**](-wic-codec-iwicprogressivelevelcontrol.md) if their image formats support progressive decoding. Support for progressive decoding is not a requirement for discovery and arbitration by WIC. However, progressive decoding greatly enhances the user experience, and implementation should be considered if possible.
+Codec developers may choose to implement the [**IWICProgressiveLevelControl**](/windows/win32/Wincodec/nn-wincodec-iwicprogressivelevelcontrol?branch=master) if their image formats support progressive decoding. Support for progressive decoding is not a requirement for discovery and arbitration by WIC. However, progressive decoding greatly enhances the user experience, and implementation should be considered if possible.
 
 ## Related topics
 

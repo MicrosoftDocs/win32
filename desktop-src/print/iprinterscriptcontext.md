@@ -1,7 +1,12 @@
-﻿---
-Description: 'Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.'
-ms.assetid: 'B44B47EA-6848-430E-9C10-F6DD460C2304'
+---
+Description: Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.
+ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
 title: IPrinterScriptContext interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptContext interface

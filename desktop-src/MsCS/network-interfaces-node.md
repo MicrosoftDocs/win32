@@ -4,17 +4,22 @@ description: Provides the name of the node in which the network interface is ins
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1259293-be22-4d89-ab4a-d431fa5eddf0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f1259293-be22-4d89-ab4a-d431fa5eddf0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Node Failover Cluster ,for network interfaces", "Node Failover Cluster"]
+keywords:
+- Node Failover Cluster ,for network interfaces
+- Node Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Node
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node
@@ -27,13 +32,13 @@ Provides the name of the [node](nodes.md) in which the [network interface](netwo
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ Because the **Node** property is read-only, it cannot be changed using the [CLUS
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -57,12 +62,12 @@ Because the **Node** property is read-only, it cannot be changed using the [CLUS
 [CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES](clusctl-netinterface-set-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

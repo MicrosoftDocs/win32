@@ -1,7 +1,12 @@
 ---
 title: Multicast Routing Protocol Scenario
 description: All multicast routing protocols go through three basic phases startup, operation, and shutdown.
-ms.assetid: 'fb0dba60-9327-4815-acca-e8b0446a7175'
+ms.assetid: fb0dba60-9327-4815-acca-e8b0446a7175
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Routing Protocol Scenario

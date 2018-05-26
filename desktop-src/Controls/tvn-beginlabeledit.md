@@ -1,8 +1,9 @@
 ---
 title: TVN\_BEGINLABELEDIT notification code
-description: Notifies a tree-view control's parent window about the start of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '67ed1f1f-7ccc-4e84-9540-4a46f6cd3a44'
-keywords: ["TVN_BEGINLABELEDIT notification code Windows Controls"]
+description: Notifies a tree-view controls parent window about the start of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 67ed1f1f-7ccc-4e84-9540-4a46f6cd3a44
+keywords:
+- TVN_BEGINLABELEDIT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_BEGINLABELEDIT notification code
@@ -35,7 +41,7 @@ TVN_BEGINLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](nmtvdispinfo.md) structure. The **item** member is a [**TVITEM**](tvitem.md) structure that contains valid information about the item being edited in the **hItem**, **state**, **lParam**, and **pszText** members.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagtvdispinfoa?branch=master) structure. The **item** member is a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure that contains valid information about the item being edited in the **hItem**, **state**, **lParam**, and **pszText** members.
 
 </dd> </dl>
 
@@ -57,16 +63,16 @@ When the user cancels or completes the editing, the parent window receives a [TV
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_BEGINLABELEDITW** (Unicode) and **TVN\_BEGINLABELEDITA** (ANSI)<br/>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

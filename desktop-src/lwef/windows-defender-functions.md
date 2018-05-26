@@ -1,7 +1,12 @@
 ---
 title: Windows Defender Functions
 description: Functions called by apps to request scans, signature updates, or information from Windows Defender.
-ms.assetid: 'BB3DF71E-1085-45D0-B739-F4C272E7098B'
+ms.assetid: BB3DF71E-1085-45D0-B739-F4C272E7098B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Defender Functions
@@ -79,16 +84,16 @@ Functions called by apps to request scans, signature updates, or information fro
 <td>Starts a signature update operation.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>WDEnable</strong>](defender-wdenable.md)</td>
+<td>[<strong>WDEnable</strong>](/windows/win32/Windowsdefender/nf-windowsdefender-wdenable?branch=master)</td>
 <td>Changes Windows Defender status to on or off.<br/>
 <blockquote>
 [!Note]<br />
-Beginning in Windows 10, version 1607 and Windows Server 2016, the [<strong>WDEnable</strong>](defender-wdenable.md) function always returns <strong>E_NOTIMPL</strong>.
+Beginning in Windows 10, version 1607 and Windows Server 2016, the [<strong>WDEnable</strong>](/windows/win32/Windowsdefender/nf-windowsdefender-wdenable?branch=master) function always returns <strong>E_NOTIMPL</strong>.
 </blockquote>
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>WDStatus</strong>](defender-wdstatus.md)</td>
+<td>[<strong>WDStatus</strong>](/windows/win32/Windowsdefender/nf-windowsdefender-wdstatus?branch=master)</td>
 <td>Returns the current status of Windows Defender.<br/></td>
 </tr>
 </tbody>
@@ -96,11 +101,11 @@ Beginning in Windows 10, version 1607 and Windows Server 2016, the [<strong>WDEn
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

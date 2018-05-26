@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIPortableDeviceValuesCollectionValue method retrieves an IPortableDeviceValuesCollection value (type VT\_UNKNOWN) specified by a key.'
-ms.assetid: '07b41ef8-d299-4d69-98ad-f1818c09ef6c'
-title: 'IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue method'
+Description: The GetIPortableDeviceValuesCollectionValue method retrieves an IPortableDeviceValuesCollection value (type VT\_UNKNOWN) specified by a key.
+ms.assetid: 07b41ef8-d299-4d69-98ad-f1818c09ef6c
+title: IPortableDeviceValuesGetIPortableDeviceValuesCollectionValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue method
@@ -13,8 +18,8 @@ The **GetIPortableDeviceValuesCollectionValue** method retrieves an **IPortableD
 
 ```C++
 HRESULT GetIPortableDeviceValuesCollectionValue(
-  [in]  REFPROPERTYKEY                  key,
-  [out] IPortableDeviceValuesCollection **ppValue
+  [in]  REFPROPERTYKEY                  key,
+  [out] IPortableDeviceValuesCollection **ppValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -82,9 +87,9 @@ For an example of how to use this method, see [Retrieving the Rendering Capabili
 [**SetIPortableDeviceValuesCollectionValue**](iportabledevicevalues-setiportabledevicevaluescollectionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

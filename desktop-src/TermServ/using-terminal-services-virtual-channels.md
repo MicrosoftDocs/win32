@@ -1,13 +1,16 @@
 ---
 title: Using Remote Desktop Services virtual channels
-description: To implement a virtual channel, you provide the server and client modules of a virtual channel's application.
+description: To implement a virtual channel, you provide the server and client modules of a virtual channels application.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3b378071-ebd6-47b0-8a9c-3e671505011a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3b378071-ebd6-47b0-8a9c-3e671505011a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Remote Desktop Services virtual channels

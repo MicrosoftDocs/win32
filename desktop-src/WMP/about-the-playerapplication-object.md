@@ -1,8 +1,21 @@
 ---
 title: About the PlayerApplication Object
 description: About the PlayerApplication Object
-ms.assetid: '4b77bf16-d7e1-4119-91c2-46136db13e81'
-keywords: ["Windows Media Player,PlayerApplication object", "Windows Media Player object model,PlayerApplication object", "object model,PlayerApplication object", "Windows Media Player ActiveX control,PlayerApplication object", "ActiveX control,PlayerApplication object", "Windows Media Player Mobile ActiveX control,PlayerApplication object", "Windows Media Player Mobile,PlayerApplication object", "PlayerApplication object"]
+ms.assetid: 4b77bf16-d7e1-4119-91c2-46136db13e81
+keywords:
+- Windows Media Player,PlayerApplication object
+- Windows Media Player object model,PlayerApplication object
+- object model,PlayerApplication object
+- Windows Media Player ActiveX control,PlayerApplication object
+- ActiveX control,PlayerApplication object
+- Windows Media Player Mobile ActiveX control,PlayerApplication object
+- Windows Media Player Mobile,PlayerApplication object
+- PlayerApplication object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the PlayerApplication Object

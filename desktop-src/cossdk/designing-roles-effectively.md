@@ -1,7 +1,12 @@
 ---
-Description: 'In many scenarios, role-based security is a very effective mechanism, but there are situations where it is less effective.'
-ms.assetid: '6a1e6cf3-7a8c-4249-926d-675a54061adf'
+Description: In many scenarios, role-based security is a very effective mechanism, but there are situations where it is less effective.
+ms.assetid: 6a1e6cf3-7a8c-4249-926d-675a54061adf
 title: Designing Roles Effectively
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Roles Effectively

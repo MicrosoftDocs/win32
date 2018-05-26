@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f7662562-6036-4b3c-9c24-b12afb9255a0'
-title: 'System.Media.ClassPrimaryID'
+Description: .
+ms.assetid: f7662562-6036-4b3c-9c24-b12afb9255a0
+title: System.Media.ClassPrimaryID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ClassPrimaryID

@@ -4,17 +4,22 @@ description: The space from which RID Pools are allocated.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'abb6218f-def2-4a38-964f-3f0ee6c6f917'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: abb6218f-def2-4a38-964f-3f0ee6c6f917
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["RID-Available-Pool attribute AD Schema", "rIDAvailablePool attribute AD Schema"]
+keywords:
+- RID-Available-Pool attribute AD Schema
+- rIDAvailablePool attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - RID-Available-Pool
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RID-Available-Pool attribute
@@ -38,12 +43,12 @@ The space from which RID Pools are allocated.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The space from which RID Pools are allocated.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

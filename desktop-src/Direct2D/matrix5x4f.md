@@ -1,8 +1,10 @@
 ---
 title: Matrix5x4F class
 description: The Matrix5x4F class represents a 5-by-4 matrix and provides convenience methods for creating matrices.
-ms.assetid: 'F014694B-5117-48E1-89F7-2F943515AEC6'
-keywords: ["Matrix5x4F class Direct2D", "Matrix5x4F class Direct2D , described"]
+ms.assetid: F014694B-5117-48E1-89F7-2F943515AEC6
+keywords:
+- Matrix5x4F class Direct2D
+- Matrix5x4F class Direct2D , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - D2d1.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix5x4F class
@@ -19,7 +26,7 @@ The **Matrix5x4F** class represents a 5-by-4 matrix and provides convenience met
 
 ## Members
 
-The **Matrix5x4F** class inherits from [**D2D1\_MATRIX\_5X4\_F**](d2d-matrix-5x4-f.md). **Matrix5x4F** also has these types of members:
+The **Matrix5x4F** class inherits from [**D2D1\_MATRIX\_5X4\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_5x4_f?branch=master). **Matrix5x4F** also has these types of members:
 
 -   [Constructors](#constructors)
 
@@ -36,7 +43,7 @@ The **Matrix5x4F** class has these constructors.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,9 +51,9 @@ The **Matrix5x4F** class has these constructors.
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Namespace<br/>                | D2D1<br/>                                                                                                                          |
 | Header<br/>                   | <dl> <dt>D2d1\_helper.h</dt> </dl>                                                |
 | Library<br/>                  | <dl> <dt>D2d1.lib</dt> </dl>                                                      |
@@ -58,12 +65,12 @@ The **Matrix5x4F** class has these constructors.
 
 <dl> <dt>
 
-[**D2D1\_MATRIX\_5X4\_F**](d2d-matrix-5x4-f.md)
+[**D2D1\_MATRIX\_5X4\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_5x4_f?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

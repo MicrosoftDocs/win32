@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes a string table.'
-ms.assetid: '1a626243-b4ad-4e3d-a933-b81b75cae399'
+---
+Description: Initializes a string table.
+ms.assetid: 1a626243-b4ad-4e3d-a933-b81b75cae399
 title: pSetupStringTableInitialize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pSetupStringTableInitialize function

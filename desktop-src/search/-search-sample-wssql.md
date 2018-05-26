@@ -1,7 +1,12 @@
 ---
-Description: 'The WSSQL code sample demonstrates how to communicate between Microsoft OLE DB and Windows Search through Structured Query Language (SQL).'
-ms.assetid: '28663608-66b3-4404-9426-5a4b5f52a408'
+Description: The WSSQL code sample demonstrates how to communicate between Microsoft OLE DB and Windows Search through Structured Query Language (SQL).
+ms.assetid: 28663608-66b3-4404-9426-5a4b5f52a408
 title: WSSQL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSSQL

@@ -1,8 +1,10 @@
 ---
 title: WMDRM\_IMPORT\_CONTENT\_KEY structure
 description: The WMDRM\_IMPORT\_CONTENT\_KEY structure stores the content key used in importing protected content.
-ms.assetid: '29a0f98d-96a3-46b2-a67c-dbb23449e927'
-keywords: ["WMDRM_IMPORT_CONTENT_KEY structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 29a0f98d-96a3-46b2-a67c-dbb23449e927
+keywords:
+- WMDRM_IMPORT_CONTENT_KEY structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRM\_IMPORT\_CONTENT\_KEY structure
@@ -28,7 +35,7 @@ typedef struct WMDRM_IMPORT_CONTENT_KEY {
   DWORD cbIVKey;
   DWORD dwContentKeyType;
   DWORD cbContentKey;
-  BYTE  rgbKeyData[1];
+  BYTE  rgbKeyData[1];
 } ;
 ```
 
@@ -89,7 +96,7 @@ Address of a buffer containing the content key. The buffer size must match the v
 
 ## Remarks
 
-This structure, including the buffer containing the session key, must be encrypted with the session key and included in the **pbEncryptedKeyMessage** member of the [**WMDRM\_IMPORT\_INIT\_STRUCT**](wmdrm-import-init-struct.md) structure.
+This structure, including the buffer containing the session key, must be encrypted with the session key and included in the **pbEncryptedKeyMessage** member of the [**WMDRM\_IMPORT\_INIT\_STRUCT**](/windows/win32/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct?branch=master) structure.
 
 ## Requirements
 
@@ -97,8 +104,8 @@ This structure, including the buffer containing the session key, must be encrypt
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                      |
 | Version<br/>                  | Windows Media Format 11 SDK<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Drmexternals.h</dt> </dl> |
 
@@ -111,9 +118,9 @@ This structure, including the buffer containing the session key, must be encrypt
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

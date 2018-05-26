@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_Statistic class
 description: The MicrosoftDNS\_Statistic class represents a single DNS Server statistic.
-ms.assetid: '49ee79d6-b93f-4a9b-8054-1ad290d092d6'
-keywords: ["MicrosoftDNS_Statistic class DNS", "MicrosoftDNS_Statistic class DNS , described"]
+ms.assetid: 49ee79d6-b93f-4a9b-8054-1ad290d092d6
+keywords:
+- MicrosoftDNS_Statistic class DNS
+- MicrosoftDNS_Statistic class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_Statistic class
@@ -136,7 +143,7 @@ Numeric value of the statistic, represented as a DWORD.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -149,9 +156,9 @@ Numeric value of the statistic, represented as a DWORD.
 [MicrosoftDNS\_StatisticCollection](microsoftdns-statisticcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

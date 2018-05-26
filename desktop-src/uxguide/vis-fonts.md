@@ -1,7 +1,12 @@
 ---
 title: Fonts
 description: Users interact with text more than with any other element in Microsoft Windows. Segoe UI (pronounced \ 0034;SEE-go \ 0034;) is the Windows system font. The standard font size has been increased to 9 point.
-ms.assetid: '6d4f669d-d28c-4585-9bc3-ecda44de6df5'
+ms.assetid: 6d4f669d-d28c-4585-9bc3-ecda44de6df5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fonts
@@ -20,7 +25,7 @@ Segoe UI is optimized for ClearType, which is on by default in Windows. With Cle
 
 Segoe UI includes Latin, Greek, Cyrillic, and Arabic characters. There are new fonts, also optimized for ClearType, created for other character sets and uses. These include Meiryo for Japanese, Malgun Gothic for Korean, Microsoft JhengHei for Chinese (Traditional), Microsoft YaHei for Chinese (Simplified), Gisha for Hebrew, and Leelawadee for Thai, and the ClearType Collection fonts designed for document use.
 
-Meiryo includes Latin characters based on Verdana. Malgun Gothic, Microsoft JhengHei, and Microsoft YaHei use a customized Segoe UI. Use of italic versions of these fonts is not recommended. Malgun Gothic, Microsoft JhengHei, and Microsoft YaHei are supplied in regular and bold styles only, meaning italic characters are synthesized by slanting the upright styles. Although Meiryo includes true italic and bold italics, these styles only apply to the Latin characters—the Japanese characters remain upright when italic styling is applied.
+Meiryo includes Latin characters based on Verdana. Malgun Gothic, Microsoft JhengHei, and Microsoft YaHei use a customized Segoe UI. Use of italic versions of these fonts is not recommended. Malgun Gothic, Microsoft JhengHei, and Microsoft YaHei are supplied in regular and bold styles only, meaning italic characters are synthesized by slanting the upright styles. Although Meiryo includes true italic and bold italics, these styles only apply to the Latin characters the Japanese characters remain upright when italic styling is applied.
 
 A variation of Meiryo, called Meiryo UI, is preferred in the [ribbons](cmd-ribbons.md) command user interface.
 
@@ -36,7 +41,7 @@ To license Segoe UI and other Microsoft fonts for distribution with a Windows-ba
 
 In traditional typography, a font describes a combination of a typeface, a point size, and attributes. A typeface is the look of the font. Segoe UI, Tahoma, Verdana, and Arial are all typefaces. Point size refers to the size of the font, measured from the top of the ascenders to the bottom of the descenders, minus the internal spacing (called leading). A point is roughly 1/72 inch. Finally, a font can have attributes of bold or italic.
 
-Informally, people often use font in place of typeface—as done in this article—but technically, Segoe UI is a typeface, not a font. Each combination of attributes is a unique font (for example, 9 point Segoe UI regular, 10 point Segoe UI bold, and so on).
+Informally, people often use font in place of typeface as done in this article but technically, Segoe UI is a typeface, not a font. Each combination of attributes is a unique font (for example, 9 point Segoe UI regular, 10 point Segoe UI bold, and so on).
 
 ### Serif and sans serif
 
@@ -46,7 +51,7 @@ Readers generally prefer serif fonts used as body text within a document. The se
 
 ### Contrast
 
-Text is easiest to read when there is a large difference between the luminance of the text and the background. Black text on a white background gives the highest contrast—dark text on a very light background can provide high contrast as well. This combination is best for primary UI surfaces.
+Text is easiest to read when there is a large difference between the luminance of the text and the background. Black text on a white background gives the highest contrast dark text on a very light background can provide high contrast as well. This combination is best for primary UI surfaces.
 
 Light text on a dark background offers good contrast, but not as good as dark text on a light background. This combination works well for secondary UI surfaces, such as Explorer task panes, that you want to de-emphasize relative to the primary UI surfaces.
 
@@ -112,7 +117,7 @@ Text has several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -141,7 +146,7 @@ Text has several usage patterns:
 
 
 
- 
+ 
 
 -   **Choose fonts and optimize window layouts based on the UI technology and the target version of Windows:**
 
@@ -156,7 +161,7 @@ Text has several usage patterns:
 
 
 
- 
+ 
 
 -   **Developers:**
     -   For elements that use fixed layout (such as Windows dialog templates and WinForms), hard code the appropriate font from the preceding table.
@@ -169,16 +174,16 @@ Text has several usage patterns:
 
 ### Attributes
 
--   Most UI text should be plain—without any attributes. Attributes may be used as follows:
+-   Most UI text should be plain without any attributes. Attributes may be used as follows:
     -   **Bold.** Use in control labels to make the text easier to parse. Use sparingly to draw attention to text users must read. Using too much bold lessens its impact.
     -   **Italic.** Use to refer to text literally instead of quotation marks. Use sparingly to emphasize specific words. Use for [prompts](glossary.md#p) in [text boxes](ctrl-text-boxes.md) and [editable drop-down lists](https://msdn.microsoft.com/library/windows/desktop/dn742404).
     -   **Bold italic.** Don't use.
     -   **Underline.** Don't use except for links. Use italic instead for emphasis.
 -   Not all fonts support bold and italic, so they should never be crucial to understanding the text.
 
- 
+ 
 
- 
+ 
 
 
 

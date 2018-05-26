@@ -1,8 +1,11 @@
 ---
 title: System.Shell.knownFolder method
 description: Returns an instance of a System.Shell.Folder based on a \ 0034;well-known folder \ 0034; name as defined within the user profile (for example, Documents or ProgramFiles).
-ms.assetid: 'f94c4cb5-208c-41e1-b5f0-6ca3272a1428'
-keywords: ["knownFolder method Windows Sidebar", "knownFolder method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , knownFolder method"]
+ms.assetid: f94c4cb5-208c-41e1-b5f0-6ca3272a1428
+keywords:
+- knownFolder method Windows Sidebar
+- knownFolder method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , knownFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.knownFolder method
@@ -84,7 +92,7 @@ The following are valid well-known folder names:
 > [!Note]  
 > Well-known names can vary between operating systems.
 
- 
+ 
 
 ## Requirements
 
@@ -92,18 +100,18 @@ The following are valid well-known folder names:
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

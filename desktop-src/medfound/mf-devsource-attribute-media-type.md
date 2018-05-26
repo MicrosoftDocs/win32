@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the output format of a device.'
-ms.assetid: '33a1b546-ece2-44ef-a1c0-5579c32be0bc'
-title: 'MF\_DEVSOURCE\_ATTRIBUTE\_MEDIA\_TYPE attribute'
+---
+Description: Specifies the output format of a device.
+ms.assetid: 33a1b546-ece2-44ef-a1c0-5579c32be0bc
+title: MF\_DEVSOURCE\_ATTRIBUTE\_MEDIA\_TYPE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVSOURCE\_ATTRIBUTE\_MEDIA\_TYPE attribute
@@ -10,13 +15,13 @@ Specifies the output format of a device.
 
 ## Data type
 
-**[**MFT\_REGISTER\_TYPE\_INFO**](mft-register-type-info.md)** stored as **BYTE\[\]**
+**[**MFT\_REGISTER\_TYPE\_INFO**](/windows/win32/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003?branch=master)** stored as **BYTE\[\]**
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetBlob**](imfattributes-setblob.md).
+To set this attribute, call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master).
 
 ## Remarks
 
@@ -28,8 +33,8 @@ This attribute is a hint to the application. To get the exact output format, cre
 
 This attribute is set on the activation objects returned by the following functions:
 
--   [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md)
--   [**MFEnumDeviceSources**](mfenumdevicesources.md)
+-   [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master)
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master)
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

@@ -1,7 +1,12 @@
 ---
 title: Uploading Texture Data Through Buffers
 description: Uploading 2D or 3D texture data is similar to uploading 1D data, except that applications need to pay closer attention to data alignment related to row pitch.
-ms.assetid: '22A25A94-A45C-482D-853A-FA6860EE7E4E'
+ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uploading Texture Data Through Buffers
@@ -16,7 +21,7 @@ Uploading 2D or 3D texture data is similar to uploading 1D data, except that app
 
 ## Upload Texture Data via Buffers
 
-Applications must upload data via [**ID3D12GraphicsCommandList::CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md) or [**ID3D12GraphicsCommandList::CopyBufferRegion**](id3d12graphicscommandlist-copybufferregion.md). Texture data is much more likely to be larger, accessed repeatedly, and benefit from the improved cache-coherency of non-linear memory layouts than other resource data. When buffers are used in D3D12, applications have full control on data placement and arrangement associated with copying resource data around, as long as the memory alignment requirements are satisfied.
+Applications must upload data via [**ID3D12GraphicsCommandList::CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master) or [**ID3D12GraphicsCommandList::CopyBufferRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion?branch=master). Texture data is much more likely to be larger, accessed repeatedly, and benefit from the improved cache-coherency of non-linear memory layouts than other resource data. When buffers are used in D3D12, applications have full control on data placement and arrangement associated with copying resource data around, as long as the memory alignment requirements are satisfied.
 
 The sample highlights where the application simply flattens 2D data into 1D before placing it in the buffer. For the mipmap 2D scenario, the application can either flatten each sub-resource discretely and quickly use a 1D sub-allocation algorithm, or, use a more complicated 2D sub-allocation technique to minimize video memory utilization. The first technique is expected to be used more often as it is simpler. The second technique may be useful when packing data onto a disk or across a network. In either case, the application must still call the copy APIs for each sub-resource.
 
@@ -85,11 +90,11 @@ commandList->CopyTextureRegion(
         nullptr );
 ```
 
-Note the use of the helper structures [**CD3DX12\_HEAP\_PROPERTIES**](cd3dx12-heap-properties.md) and [**CD3DX12\_TEXTURE\_COPY\_LOCATION**](cd3dx12-texture-copy-location.md), and the methods [**CreateCommittedResource**](id3d12device-createcommittedresource.md) and [**CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md).
+Note the use of the helper structures [**CD3DX12\_HEAP\_PROPERTIES**](cd3dx12-heap-properties.md) and [**CD3DX12\_TEXTURE\_COPY\_LOCATION**](cd3dx12-texture-copy-location.md), and the methods [**CreateCommittedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master) and [**CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master).
 
 ## Copying
 
-D3D12 methods enable applications to replace D3D11 [**UpdateSubresource**](https://msdn.microsoft.com/library/windows/desktop/ff476486), [**CopySubresourceRegion**](https://msdn.microsoft.com/library/windows/desktop/ff476394), and resource initial data. A single 3D subresource worth of row-major texture data may be located in buffer resources. [**CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md) can copy that texture data from the buffer to a texture resource with an unknown texture layout, and vice versa. Applications should prefer this type of technique to populate frequently accessed GPU resources, by creating large buffers in an UPLOAD heap while creating the frequently accessed GPU resources in a DEFAULT heap that has no CPU access. Such a technique efficiently supports discrete GPUs and their large amounts of CPU-inaccessible memory, without commonly impairing UMA architectures.
+D3D12 methods enable applications to replace D3D11 [**UpdateSubresource**](https://msdn.microsoft.com/library/windows/desktop/ff476486), [**CopySubresourceRegion**](https://msdn.microsoft.com/library/windows/desktop/ff476394), and resource initial data. A single 3D subresource worth of row-major texture data may be located in buffer resources. [**CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master) can copy that texture data from the buffer to a texture resource with an unknown texture layout, and vice versa. Applications should prefer this type of technique to populate frequently accessed GPU resources, by creating large buffers in an UPLOAD heap while creating the frequently accessed GPU resources in a DEFAULT heap that has no CPU access. Such a technique efficiently supports discrete GPUs and their large amounts of CPU-inaccessible memory, without commonly impairing UMA architectures.
 
 Note the following two constants:
 
@@ -98,26 +103,26 @@ const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
 
--   [**D3D12\_SUBRESOURCE\_FOOTPRINT**](d3d12-subresource-footprint.md)
--   [**D3D12\_PLACED\_SUBRESOURCE\_FOOTPRINT**](d3d12-placed-subresource-footprint.md)
--   [**D3D12\_TEXTURE\_COPY\_LOCATION**](d3d12-texture-copy-location.md)
--   [**D3D12\_TEXTURE\_COPY\_TYPE**](d3d12-texture-copy-type.md)
--   [**ID3D12Device::GetCopyableFootprints**](id3d12device-getcopyablefootprints.md)
--   [**ID3D12GraphicsCommandList::CopyResource**](id3d12graphicscommandlist-copyresource.md)
--   [**ID3D12GraphicsCommandList::CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md)
--   [**ID3D12GraphicsCommandList::CopyBufferRegion**](id3d12graphicscommandlist-copybufferregion.md)
--   [**ID3D12GraphicsCommandList::CopyTiles**](id3d12graphicscommandlist-copytiles.md)
--   [**ID3D12CommandQueue::UpdateTileMappings**](id3d12commandqueue-updatetilemappings.md)
+-   [**D3D12\_SUBRESOURCE\_FOOTPRINT**](/windows/win32/d3d12/ns-d3d12-d3d12_subresource_footprint?branch=master)
+-   [**D3D12\_PLACED\_SUBRESOURCE\_FOOTPRINT**](/windows/win32/d3d12/ns-d3d12-d3d12_placed_subresource_footprint?branch=master)
+-   [**D3D12\_TEXTURE\_COPY\_LOCATION**](/windows/win32/D3D12/ns-d3d12-d3d12_texture_copy_location?branch=master)
+-   [**D3D12\_TEXTURE\_COPY\_TYPE**](/windows/win32/d3d12/ne-d3d12-d3d12_texture_copy_type?branch=master)
+-   [**ID3D12Device::GetCopyableFootprints**](/windows/win32/d3d12/nf-d3d12-id3d12device-getcopyablefootprints?branch=master)
+-   [**ID3D12GraphicsCommandList::CopyResource**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource?branch=master)
+-   [**ID3D12GraphicsCommandList::CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master)
+-   [**ID3D12GraphicsCommandList::CopyBufferRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion?branch=master)
+-   [**ID3D12GraphicsCommandList::CopyTiles**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles?branch=master)
+-   [**ID3D12CommandQueue::UpdateTileMappings**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings?branch=master)
 
 ## Mapping and unmapping
 
-[**Map**](id3d12resource-map.md) and [**Unmap**](id3d12resource-unmap.md) can be called by multiple threads safely. The first call to **Map** allocates a CPU virtual address range for the resource. The last call to **Unmap** deallocates the CPU virtual address range. The CPU virtual address is commonly returned to the application.
+[**Map**](/windows/win32/D3D12/nf-d3d12-id3d12resource-map?branch=master) and [**Unmap**](/windows/win32/D3D12/nf-d3d12-id3d12resource-unmap?branch=master) can be called by multiple threads safely. The first call to **Map** allocates a CPU virtual address range for the resource. The last call to **Unmap** deallocates the CPU virtual address range. The CPU virtual address is commonly returned to the application.
 
-Whenever data is passed between the CPU and GPU through resources in readback heaps, [**Map**](id3d12resource-map.md) and [**Unmap**](id3d12resource-unmap.md) must be used to support all systems D3D12 is supported on. Keeping the ranges as tight as possible maximizes efficiency on the systems that require ranges (refer to [**D3D12\_RANGE**](d3d12-range.md)).
+Whenever data is passed between the CPU and GPU through resources in readback heaps, [**Map**](/windows/win32/D3D12/nf-d3d12-id3d12resource-map?branch=master) and [**Unmap**](/windows/win32/D3D12/nf-d3d12-id3d12resource-unmap?branch=master) must be used to support all systems D3D12 is supported on. Keeping the ranges as tight as possible maximizes efficiency on the systems that require ranges (refer to [**D3D12\_RANGE**](/windows/win32/D3D12/ns-d3d12-d3d12_range?branch=master)).
 
-The performance of debugging tools benefit not only from the accurate usage of ranges on all [**Map**](id3d12resource-map.md) / [**Unmap**](id3d12resource-unmap.md) calls, but also from applications unmapping resources when CPU modifications will no longer be made.
+The performance of debugging tools benefit not only from the accurate usage of ranges on all [**Map**](/windows/win32/D3D12/nf-d3d12-id3d12resource-map?branch=master) / [**Unmap**](/windows/win32/D3D12/nf-d3d12-id3d12resource-unmap?branch=master) calls, but also from applications unmapping resources when CPU modifications will no longer be made.
 
-The D3D11 method of using [**Map**](id3d12resource-map.md) (with the DISCARD parameter set) to rename resources is not supported in D3D12. Applications must implement resource renaming themselves. All **Map** calls are implicitly NO\_OVERWRITE and multi-threaded. It is the application’s responsibility to ensure that any relevant GPU work contained in command lists is finished before the accessing data with the CPU. D3D12 calls to **Map** do not implicitly flush any command buffers, nor do they block waiting for the GPU to finish work. As a result, **Map** and [**Unmap**](id3d12resource-unmap.md) may even be optimized out in some scenarios.
+The D3D11 method of using [**Map**](/windows/win32/D3D12/nf-d3d12-id3d12resource-map?branch=master) (with the DISCARD parameter set) to rename resources is not supported in D3D12. Applications must implement resource renaming themselves. All **Map** calls are implicitly NO\_OVERWRITE and multi-threaded. It is the application’s responsibility to ensure that any relevant GPU work contained in command lists is finished before the accessing data with the CPU. D3D12 calls to **Map** do not implicitly flush any command buffers, nor do they block waiting for the GPU to finish work. As a result, **Map** and [**Unmap**](/windows/win32/D3D12/nf-d3d12-id3d12resource-unmap?branch=master) may even be optimized out in some scenarios.
 
 ## Buffer alignment
 
@@ -126,7 +131,7 @@ Buffer alignment restrictions:
 -   Linear subresource copying must be aligned to 512 bytes (with the row pitch aligned to D3D12\_TEXTURE\_DATA\_PITCH\_ALIGNMENT bytes).
 -   Constant data reads must be a multiple of 256 bytes from the beginning of the heap (i.e. only from addresses that are 256-byte aligned).
 -   Index data reads must be a multiple of the index data type size (i.e. only from addresses that are naturally aligned for the data).
--   [**ID3D12GraphicsCommandList::DrawInstanced**](id3d12graphicscommandlist-drawinstanced.md) and [**ID3D12GraphicsCommandList::DrawIndexedInstanced**](id3d12graphicscommandlist-drawindexedinstanced.md) data must be from offsets that are multiples of 4 (i.e. only from addresses that are DWORD aligned).
+-   [**ID3D12GraphicsCommandList::DrawInstanced**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master) and [**ID3D12GraphicsCommandList::DrawIndexedInstanced**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced?branch=master) data must be from offsets that are multiples of 4 (i.e. only from addresses that are DWORD aligned).
 
 ## Related topics
 

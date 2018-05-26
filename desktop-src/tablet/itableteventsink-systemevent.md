@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a system event is available.'
-ms.assetid: '3d9e98f0-b11e-4a65-a544-9e1998a80d5f'
-title: 'ITabletEventSink::SystemEvent method'
+Description: Occurs when a system event is available.
+ms.assetid: 3d9e98f0-b11e-4a65-a544-9e1998a80d5f
+title: ITabletEventSinkSystemEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::SystemEvent method
@@ -13,10 +18,10 @@ Occurs when a system event is available.
 
 ```C++
 HRESULT SystemEvent(
-  [in] TABLET_CONTEXT_ID tcid,
-  [in] CURSOR_ID         cid,
-  [in] SYSTEM_EVENT      event,
-  [in] SYSTEM_EVENT_DATA eventdata
+  [in] TABLET_CONTEXT_ID tcid,
+  [in] CURSOR_ID         cid,
+  [in] SYSTEM_EVENT      event,
+  [in] SYSTEM_EVENT_DATA eventdata
 );
 ```
 
@@ -67,7 +72,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -94,7 +99,7 @@ The following list contains the valid values for the event parameter.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -107,9 +112,9 @@ The following list contains the valid values for the event parameter.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

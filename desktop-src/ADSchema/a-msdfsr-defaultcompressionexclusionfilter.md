@@ -4,17 +4,22 @@ description: Filter string that contains extensions of file types not to be comp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2695beff-647f-4ac6-b213-f2a589fc10d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2695beff-647f-4ac6-b213-f2a589fc10d5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-DefaultCompressionExclusionFilter attribute AD Schema", "msDFSR-DefaultCompressionExclusionFilter attribute AD Schema"]
+keywords:
+- ms-DFSR-DefaultCompressionExclusionFilter attribute AD Schema
+- msDFSR-DefaultCompressionExclusionFilter attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-DefaultCompressionExclusionFilter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-DefaultCompressionExclusionFilter attribute
@@ -38,9 +43,9 @@ Filter string that contains extensions of file types not to be compressed.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Filter string that contains extensions of file types not to be compressed.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

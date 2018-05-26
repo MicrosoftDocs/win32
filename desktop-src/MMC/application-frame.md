@@ -1,14 +1,19 @@
 ---
-title: \_Application Frame property
+title: '\_Application Frame property'
 description: The Frame property returns a Frame object that represents the application frame. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a8784123-2efb-4f99-881a-27ccb2e00a0f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a8784123-2efb-4f99-881a-27ccb2e00a0f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Frame property MMC", "Frame property MMC , Application object", "Application object MMC , Frame property", "Frame property MMC , _Application interface", "_Application interface MMC , Frame property"]
+keywords:
+- Frame property MMC
+- Frame property MMC , Application object
+- Application object MMC , Frame property
+- Frame property MMC , _Application interface
+- _Application interface MMC , Frame property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Frame property
@@ -54,8 +62,8 @@ Set objFrm = objMMC.Frame
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -71,9 +79,9 @@ Set objFrm = objMMC.Frame
 [**Frame object**](frame-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

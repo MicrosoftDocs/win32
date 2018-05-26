@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides an overview of common audio concepts with which an audio developer should be familiar.'
-ms.assetid: '35aa5f10-0bf5-2928-ef9e-ede8b37d8eee'
+Description: This section provides an overview of common audio concepts with which an audio developer should be familiar.
+ms.assetid: 35aa5f10-0bf5-2928-ef9e-ede8b37d8eee
 title: Common Audio Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Audio Concepts
@@ -20,7 +25,7 @@ This section provides an overview of common audio concepts with which an audio d
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section provides an overview of common audio concepts with which an audio d
 [Programming Guide](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

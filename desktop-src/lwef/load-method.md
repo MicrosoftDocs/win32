@@ -1,7 +1,12 @@
 ---
 title: Load Method
 description: Load Method
-ms.assetid: '72a37471-f69b-49a5-a6eb-d65bff970c0f'
+ms.assetid: 72a37471-f69b-49a5-a6eb-d65bff970c0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load Method
@@ -31,7 +36,7 @@ Loads a character into the [**Characters**](https://msdn.microsoft.com/library/w
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -115,9 +120,9 @@ Dim LoadRequest as Object
 
 If you load a character that is not local; for example, using HTTP protocol, you can also check for a **Load** failure by assigning a [**Request**](https://msdn.microsoft.com/library/windows/desktop/ms696325) object to the **Load** method. However, because this method of loading a character is handled asynchronously, check its status in the [**RequestComplete**](requestcomplete-event.md) event. This technique will not work loading a character using the UNC protocol because the **Load** method is processed synchronously.
 
- 
+ 
 
- 
+ 
 
 
 

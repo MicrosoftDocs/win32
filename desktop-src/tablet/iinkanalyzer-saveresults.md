@@ -1,7 +1,12 @@
 ---
-Description: 'Saves all analysis results for an IInkAnalyzer.'
-ms.assetid: '538eb781-d831-475b-ba09-271d71f6a6bf'
-title: 'IInkAnalyzer::SaveResults method'
+Description: Saves all analysis results for an IInkAnalyzer.
+ms.assetid: 538eb781-d831-475b-ba09-271d71f6a6bf
+title: IInkAnalyzerSaveResults method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SaveResults method
@@ -13,8 +18,8 @@ Saves all analysis results for an [**IInkAnalyzer**](iinkanalyzer.md).
 
 ```C++
 HRESULT SaveResults(
-  [out] ULONG *pulSerializedDataSize,
-  [out] BYTE  **ppbSerializedData
+  [out] ULONG *pulSerializedDataSize,
+  [out] BYTE  **ppbSerializedData
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppbSerializedData* when you no longer need the information.
 
- 
+ 
 
 This method saves all the current analysis results, which include current analysis hint and custom recognizer nodes (see [**IContextNode::GetType**](icontextnode-gettype.md)). This method does not save any stroke data. It is the responsibility of your application to synchronize any analysis results and corresponding strokes if it persists data.
 
@@ -59,7 +64,7 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -88,9 +93,9 @@ This method returns an error code when an [**IContextNode**](icontextnode.md) ob
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

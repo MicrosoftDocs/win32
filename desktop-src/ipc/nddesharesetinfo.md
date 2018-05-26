@@ -1,12 +1,17 @@
 ---
-Description: 'Sets DDE share information. This is usually done after editing.'
-ms.assetid: '002c73ce-7b35-4e8e-bb7e-0e1393b97ccc'
+Description: Sets DDE share information. This is usually done after editing.
+ms.assetid: 002c73ce-7b35-4e8e-bb7e-0e1393b97ccc
 title: NDdeShareSetInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeShareSetInfo function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Sets DDE share information. This is usually done after editing.
 
@@ -15,12 +20,12 @@ Sets DDE share information. This is usually done after editing.
 
 ```C++
 UINT NDdeShareSetInfo(
-  _In_ LPTSTR lpszServer,
-  _In_ LPTSTR lpszShareName,
-  _In_ UINT   nLevel,
-  _In_ LPBYTE lpBuffer,
-  _In_ DWORD  cBufSize,
-  _In_ WORD   sParmNum
+  _In_ LPTSTR lpszServer,
+  _In_ LPTSTR lpszShareName,
+  _In_ UINT   nLevel,
+  _In_ LPBYTE lpBuffer,
+  _In_ DWORD  cBufSize,
+  _In_ WORD   sParmNum
 );
 ```
 
@@ -84,8 +89,8 @@ If the function fails, the return value is an error code, which can be translate
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -109,9 +114,9 @@ If the function fails, the return value is an error code, which can be translate
 [**NDdeShareGetInfo**](nddesharegetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

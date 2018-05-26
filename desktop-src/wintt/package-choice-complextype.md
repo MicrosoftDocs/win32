@@ -1,14 +1,20 @@
 ---
 title: Choice Complex Type
 description: Defines a choice for a single selection or multiple selection list.
-ms.assetid: '5422f5b8-02f5-467e-970d-2ab273fd68cf'
-keywords: ["Choice complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 5422f5b8-02f5-467e-970d-2ab273fd68cf
+keywords:
+- Choice complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Choice
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choice Complex Type
@@ -87,7 +93,7 @@ Defines a choice for a single selection or multiple selection list.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>Value</td>
@@ -105,8 +111,8 @@ Defines a choice for a single selection or multiple selection list.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -117,9 +123,9 @@ Defines a choice for a single selection or multiple selection list.
 [**Choice (Choices) Element**](package-choice-choices-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

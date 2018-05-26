@@ -1,8 +1,18 @@
 ---
 title: Image Source for Disabled Button
 description: Image Source for Disabled Button
-ms.assetid: '6c50e0bd-c174-4335-8d34-ae25feec9ec6'
-keywords: ["Windows Media Player Mobile skins,button image source", "skins,button image source", "reference for skins,buttons", "buttons in skins,image source", "image source for skins,buttons"]
+ms.assetid: 6c50e0bd-c174-4335-8d34-ae25feec9ec6
+keywords:
+- Windows Media Player Mobile skins,button image source
+- skins,button image source
+- reference for skins,buttons
+- buttons in skins,image source
+- image source for skins,buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Source for Disabled Button

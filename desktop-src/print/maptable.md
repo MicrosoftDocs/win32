@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MAPTABLE structure is one of the structures used to define the contents of glyph translation table files (.gtt files).'
-ms.assetid: 'd3dcf7b0-4244-41c1-801e-cf41b20f2d54'
+---
+Description: The MAPTABLE structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
+ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 title: MAPTABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MAPTABLE structure

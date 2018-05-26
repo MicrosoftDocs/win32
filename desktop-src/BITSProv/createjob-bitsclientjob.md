@@ -1,8 +1,11 @@
 ---
 title: CreateJob method of the BitsClientJob class
 description: The CreateJob method creates a BITS transfer job with the specified parameters. Default values are used for optional parameters if values are not specified.
-ms.assetid: 'be86f7a1-2dc9-4376-8cde-2b2eb527859b'
-keywords: ["CreateJob method", "CreateJob method, BitsClientJob class", "BitsClientJob class, CreateJob method"]
+ms.assetid: be86f7a1-2dc9-4376-8cde-2b2eb527859b
+keywords:
+- CreateJob method
+- CreateJob method, BitsClientJob class
+- BitsClientJob class, CreateJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateJob method of the BitsClientJob class
@@ -22,14 +30,14 @@ The **CreateJob** method creates a BITS transfer job with the specified paramete
 
 ```mof
 uint32 CreateJob(
-  [in]           string  DisplayName,
-  [in]           string  RemoteUrl,
-  [in]           string  LocalFile,
-  [in, optional] uint16  ServiceAccount,
-  [in, optional] uint16  Type,
-  [in, optional] boolean Suspend,
-  [in, optional] string  Description,
-  [out]          string  JobId
+  [in]           string  DisplayName,
+  [in]           string  RemoteUrl,
+  [in]           string  LocalFile,
+  [in, optional] uint16  ServiceAccount,
+  [in, optional] uint16  Type,
+  [in, optional] boolean Suspend,
+  [in, optional] string  Description,
+  [out]          string  JobId
 );
 ```
 
@@ -75,7 +83,7 @@ Defines the context in which the BITS transfer job is created. The following val
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -93,7 +101,7 @@ Specifies the type of BITS transfer job. This parameter can be set to one of the
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,7 +119,7 @@ Specifies the BITS transfer job state immediately after creation. This parameter
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -136,8 +144,8 @@ Specifies the job identifier.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -150,9 +158,9 @@ Specifies the job identifier.
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

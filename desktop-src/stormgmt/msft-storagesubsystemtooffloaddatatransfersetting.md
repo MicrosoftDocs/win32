@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageSubSystemToOffloadDataTransferSetting class
 description: Association between StorageSubSystem and OffloadDataTransferSetting.
-ms.assetid: '63E7794B-BD92-47AD-A1C3-0FF57B80AC2B'
-keywords: ["MSFT_StorageSubSystemToOffloadDataTransferSetting class Windows Storage Management API", "MSFT_StorageSubSystemToOffloadDataTransferSetting class Windows Storage Management API , described"]
+ms.assetid: 63E7794B-BD92-47AD-A1C3-0FF57B80AC2B
+keywords:
+- MSFT_StorageSubSystemToOffloadDataTransferSetting class Windows Storage Management API
+- MSFT_StorageSubSystemToOffloadDataTransferSetting class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageSubSystemToOffloadDataTransferSetting class
@@ -26,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 [Association]
 class MSFT_StorageSubSystemToOffloadDataTransferSetting
 {
-  MSFT_StorageSubSystem           REF StorageSubSystem;
+  MSFT_StorageSubSystem           REF StorageSubSystem;
   MSFT_OffloadDataTransferSetting REF OffloadDataTransferSetting;
 };
 ```
@@ -77,8 +84,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -94,9 +101,9 @@ Qualifiers: **Key**
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

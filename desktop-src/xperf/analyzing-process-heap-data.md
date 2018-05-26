@@ -1,7 +1,12 @@
 ---
 title: Analyzing Process Heap Data
 description: Analyzing Process Heap Data
-ms.assetid: 'fe34be63-bbff-4a9c-9de2-fcacc86c909b'
+ms.assetid: fe34be63-bbff-4a9c-9de2-fcacc86c909b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analyzing Process Heap Data

@@ -1,8 +1,22 @@
 ---
 title: Actions
 description: Actions
-ms.assetid: '7e02eca4-9ffb-49ab-af48-185d52933070'
-keywords: ["boot", "cpudisk", "cswitch", "diskio", "dpcisr", "drvdelay", "dumper", "filename", "focuschange"]
+ms.assetid: 7e02eca4-9ffb-49ab-af48-185d52933070
+keywords:
+- boot
+- cpudisk
+- cswitch
+- diskio
+- dpcisr
+- drvdelay
+- dumper
+- filename
+- focuschange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Actions
@@ -75,7 +89,7 @@ The following table summarizes all the actions that are available in version 4.6
 
 
 
- 
+ 
 
 ### Examples
 
@@ -181,9 +195,9 @@ xperf -i trace.etl -o trace.txt
 
 When you look at Trace.txt, you should see one header line for each event type in the trace. These headers provide titles for each field for each event type in the trace.
 
- 
+ 
 
- 
+ 
 
 
 

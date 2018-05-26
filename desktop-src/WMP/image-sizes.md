@@ -1,8 +1,20 @@
 ---
 title: Image Sizes
 description: Image Sizes
-ms.assetid: 'f639ac34-f173-4b84-95ac-360d7fc40d1b'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,image sizes", "Windows Media Player Mobile skins,image sizes", "skins,image sizes", "image sizes in skins"]
+ms.assetid: f639ac34-f173-4b84-95ac-360d7fc40d1b
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,image sizes
+- Windows Media Player Mobile skins,image sizes
+- skins,image sizes
+- image sizes in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Sizes

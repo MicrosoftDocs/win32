@@ -1,7 +1,12 @@
 ---
 title: Visible Property
 description: Visible Property
-ms.assetid: 'c06d623d-8997-413a-b4ab-24275eccfa10'
+ms.assetid: c06d623d-8997-413a-b4ab-24275eccfa10
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Property

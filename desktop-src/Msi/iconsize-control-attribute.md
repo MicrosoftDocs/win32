@@ -1,7 +1,12 @@
 ---
-Description: 'An icon file can hold several different sizes of the same icon image.'
-ms.assetid: '2d4d3689-a45a-4088-b466-e2b3bf4c8fb5'
+Description: An icon file can hold several different sizes of the same icon image.
+ms.assetid: 2d4d3689-a45a-4088-b466-e2b3bf4c8fb5
 title: IconSize Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IconSize Control Attribute

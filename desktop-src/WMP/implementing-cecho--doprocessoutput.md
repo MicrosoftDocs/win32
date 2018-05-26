@@ -1,8 +1,18 @@
 ---
 title: Implementing CEcho DoProcessOutput
 description: Implementing CEcho DoProcessOutput
-ms.assetid: 'afd91022-4e2d-46a2-a0f4-cd2b558536d6'
-keywords: ["Windows Media Player plug-ins,Echo sample DoProcessOutput method", "plug-ins,Echo sample DoProcessOutput method", "digital signal processing plug-ins,Echo sample DoProcessOutput method", "DSP plug-ins,Echo sample DoProcessOutput method", "Echo DSP plug-in sample,DoProcessOutput method"]
+ms.assetid: afd91022-4e2d-46a2-a0f4-cd2b558536d6
+keywords:
+- Windows Media Player plug-ins,Echo sample DoProcessOutput method
+- plug-ins,Echo sample DoProcessOutput method
+- digital signal processing plug-ins,Echo sample DoProcessOutput method
+- DSP plug-ins,Echo sample DoProcessOutput method
+- Echo DSP plug-in sample,DoProcessOutput method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing CEcho::DoProcessOutput

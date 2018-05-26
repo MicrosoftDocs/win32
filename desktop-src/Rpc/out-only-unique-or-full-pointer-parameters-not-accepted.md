@@ -1,7 +1,12 @@
 ---
 title: Out-Only Unique or Full Pointer Parameters Not Accepted
 description: Unique or full pointers that are \ out\ -only are not accepted by the MIDL compiler. Such specifications cause the MIDL compiler to generate an error message.
-ms.assetid: '0477980e-d76e-452f-9ab1-71a8ed8642d9'
+ms.assetid: 0477980e-d76e-452f-9ab1-71a8ed8642d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Out-Only Unique or Full Pointer Parameters Not Accepted

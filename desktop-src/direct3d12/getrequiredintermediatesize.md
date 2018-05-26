@@ -1,8 +1,9 @@
 ---
 title: GetRequiredIntermediateSize function
 description: Returns the required size of a buffer to be used for data upload.
-ms.assetid: '424B52E9-DE52-40D2-B8B0-C27FD3D3C298'
-keywords: ["GetRequiredIntermediateSize function"]
+ms.assetid: 424B52E9-DE52-40D2-B8B0-C27FD3D3C298
+keywords:
+- GetRequiredIntermediateSize function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetRequiredIntermediateSize function
@@ -22,9 +28,9 @@ Returns the required size of a buffer to be used for data upload.
 
 ```C++
 UINT64 inline GetRequiredIntermediateSize(
-  _In_ ID3D12Resource *pDestinationResource,
-  _In_ UINT           FirstSubresource,
-  _In_ UINT           NumSubresources
+  _In_ ID3D12Resource *pDestinationResource,
+  _In_ UINT           FirstSubresource,
+  _In_ UINT           NumSubresources
 );
 ```
 
@@ -37,9 +43,9 @@ UINT64 inline GetRequiredIntermediateSize(
 *pDestinationResource* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](id3d12resource.md)\***
+Type: **[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)\***
 
-A pointer to the [**ID3D12Resource**](id3d12resource.md) interface that represents the destination resource.
+A pointer to the [**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master) interface that represents the destination resource.
 
 </dd> <dt>
 
@@ -86,9 +92,9 @@ The size of the buffer, in bytes.
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

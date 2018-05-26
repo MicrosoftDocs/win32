@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ManagementController class exposes the following methods.'
+Description: The CIM\_ManagementController class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '641DCA8F-8EE4-4130-9CA6-7007B4FEC8D8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 641DCA8F-8EE4-4130-9CA6-7007B4FEC8D8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ManagementController Methods'
+title: CIM\_ManagementController Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagementController Methods

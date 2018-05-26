@@ -1,7 +1,12 @@
 ---
 title: How to Query a Virtualized Item in Items View
 description: This topic describes how to use Microsoft UI Automation to retrieve UI information about virtualized items in the Windows 7 Items View.
-ms.assetid: 'a0bff8a1-47b1-4750-8086-e2e65a79099e'
+ms.assetid: a0bff8a1-47b1-4750-8086-e2e65a79099e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Query a Virtualized Item in Items View
@@ -47,7 +52,7 @@ The list items are the UI Automation elements that represent the leaf items in t
 
 ## Virtualization
 
-Items View uses virtualization, which means that items outside the visible area of the view are not fetched from the system, and the UI representation of them is not created. These items are called *virtualized items*. Because they are not created, virtualized items do not have UI Automation elements and therefore do not appear in the UI Automation tree when a UI Automation client enumerates the tree. Also, UI Automation control patterns operate only on visible elements. For example, the [Selection](uiauto-implementingselection.md) control pattern returns only the visible selected items when a client calls the [**IUIAutomationSelectionPattern::GetCurrentSelection**](uiauto-iuiautomationselectionpattern-getcurrentselection.md) method.
+Items View uses virtualization, which means that items outside the visible area of the view are not fetched from the system, and the UI representation of them is not created. These items are called *virtualized items*. Because they are not created, virtualized items do not have UI Automation elements and therefore do not appear in the UI Automation tree when a UI Automation client enumerates the tree. Also, UI Automation control patterns operate only on visible elements. For example, the [Selection](uiauto-implementingselection.md) control pattern returns only the visible selected items when a client calls the [**IUIAutomationSelectionPattern::GetCurrentSelection**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationselectionpattern-getcurrentselection?branch=master) method.
 
 Items View supports the ability to retrieve the following information about virtualized items:
 
@@ -71,7 +76,7 @@ The custom properties of the ItemsView element include one property for the item
 
     (UIAutomationType: [**UIAutomationType\_Int**](uiauto-uiautomationtypeenum.md#uiautomationtype-int), Programmatic Name: "SelectedItemCount")
 
-These custom properties are defined in Shlguid.h, which is included in the Windows Software Development Kit (SDK), and these properties are registered through the [**IUIAutomationRegistrar::RegisterProperty**](uiauto-iuiautomationregistrar-registerproperty.md) method. UI Automation clients use **RegisterProperty** to retrieve property identifiers (PROPERTYIDs) for the custom properties.
+These custom properties are defined in Shlguid.h, which is included in the Windows Software Development Kit (SDK), and these properties are registered through the [**IUIAutomationRegistrar::RegisterProperty**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty?branch=master) method. UI Automation clients use **RegisterProperty** to retrieve property identifiers (PROPERTYIDs) for the custom properties.
 
 ## Obtaining an Item Index with Respect to All Items
 
@@ -85,26 +90,26 @@ The following custom property gets the item index of a ListItem element:
 
     (UIAutomationType: [**UIAutomationType\_Int**](uiauto-uiautomationtypeenum.md#uiautomationtype-int), Programmatic Name: "ItemIndex")
 
-This custom property is defined in Shlguid.h, which is included in the Windows SDK, and is registered through the [**IUIAutomationRegistrar::RegisterProperty**](uiauto-iuiautomationregistrar-registerproperty.md) method. UI Automation clients use **RegisterProperty** to retrieve a property identifier (PROPERTYIDs) for the custom property.
+This custom property is defined in Shlguid.h, which is included in the Windows SDK, and is registered through the [**IUIAutomationRegistrar::RegisterProperty**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty?branch=master) method. UI Automation clients use **RegisterProperty** to retrieve a property identifier (PROPERTYIDs) for the custom property.
 
 ## Obtaining a Reference to a Vitualized Item
 
-An ItemsView element implements the [ItemContainer](uiauto-implementingitemcontainer.md) control pattern ([**IItemContainerProvider**](uiauto-iitemcontainerprovider.md) interface), which allows a client to get a UI Automation element for a virtualized item (an item that is outside the visible area). ItemsView allows the client to find a ListItem element by searching on the Name and Selection properties—attempting to search on any other property will fail.
+An ItemsView element implements the [ItemContainer](uiauto-implementingitemcontainer.md) control pattern ([**IItemContainerProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iitemcontainerprovider?branch=master) interface), which allows a client to get a UI Automation element for a virtualized item (an item that is outside the visible area). ItemsView allows the client to find a ListItem element by searching on the Name and Selection properties—attempting to search on any other property will fail.
 
-A virtual element implements only the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern ([**IVirtualizedItemProvider**](uiauto-ivirtualizeditemprovider.md) interface). Because the item that is represented by a virtualized UI Automation element does not exist yet, attempting to get any other control pattern or property of the element will fail.
+A virtual element implements only the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern ([**IVirtualizedItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivirtualizeditemprovider?branch=master) interface). Because the item that is represented by a virtualized UI Automation element does not exist yet, attempting to get any other control pattern or property of the element will fail.
 
-Both ListItem and Group elements are virtualized, but only ListItem elements can be returned from the [ItemContainer](uiauto-implementingitemcontainer.md) control pattern. Because the call to the [**IUIAutomationItemContainerPattern::FindItemByProperty**](uiauto-iuiautomationitemcontainerpattern-finditembyproperty.md) method runs on the UI thread and is blocking, the view will not respond until **FindItemByProperty** returns, and any other method calls on the provider must wait until **FindItemByProperty** finishes. In some instances, **FindItemByProperty** must process the entire data set before returning, which can be resource-intensive. Specifying **NULL** as the starting element causes **FindItemByProperty** to begin the search with the first item in the view.
+Both ListItem and Group elements are virtualized, but only ListItem elements can be returned from the [ItemContainer](uiauto-implementingitemcontainer.md) control pattern. Because the call to the [**IUIAutomationItemContainerPattern::FindItemByProperty**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationitemcontainerpattern-finditembyproperty?branch=master) method runs on the UI thread and is blocking, the view will not respond until **FindItemByProperty** returns, and any other method calls on the provider must wait until **FindItemByProperty** finishes. In some instances, **FindItemByProperty** must process the entire data set before returning, which can be resource-intensive. Specifying **NULL** as the starting element causes **FindItemByProperty** to begin the search with the first item in the view.
 
-ItemsView supports the following properties for [**FindItemByProperty**](uiauto-iuiautomationitemcontainerpattern-finditembyproperty.md):
+ItemsView supports the following properties for [**FindItemByProperty**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationitemcontainerpattern-finditembyproperty?branch=master):
 
 -   Name (UIA\_NamePropertyId)—Searches for the first item whose name fully matches the specified string. The search is not case sensitive. Wildcard characters or partial matching is not supported. If a **NULL** name is specified, the next item after the starting element is returned. Specifying **NULL** names allows a UI Automation client to enumerate all items in the view; however, enumerating all items is discouraged because it causes all items in the view to be realized.
 -   SelectionItem\_IsSelected (UIA\_SelectionItemIsSelectedPropertyId)—Searches for the first item whose SelectionItem\_IsSelected property matches the specified value. Specify **TRUE** to find the first selected item, or **FALSE** to find the first non-selected item. Be careful when enumerating all selected items because the number of selected items can be very large, especially if the user has selected all items.
 
 ## Scrolling a Virtualized Item on Screen
 
-After obtaining a reference to a UI Automation element for a virtualized (off-screen) item, the client can scroll the item into view by using the [**IUIAutomationVirtualizeItemPattern::Realize**](uiauto-iuiautomationvirtualizeditempattern-realize.md) method of the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern. After the item is realized, it is visible, and all properties and control patterns normally associated with a ListItem element are available to the client.
+After obtaining a reference to a UI Automation element for a virtualized (off-screen) item, the client can scroll the item into view by using the [**IUIAutomationVirtualizeItemPattern::Realize**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize?branch=master) method of the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern. After the item is realized, it is visible, and all properties and control patterns normally associated with a ListItem element are available to the client.
 
-Only ListItem elements obtained by the [**IUIAutomationItemContainerPattern::FindItemByProperty**](uiauto-iuiautomationitemcontainerpattern-finditembyproperty.md) method expose the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern. When an on-screen element is scrolled off-screen, the element becomes invalid and the client must call **FindItemByProperty** to get the off-screen reference.
+Only ListItem elements obtained by the [**IUIAutomationItemContainerPattern::FindItemByProperty**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationitemcontainerpattern-finditembyproperty?branch=master) method expose the [VirtualizedItem](uiauto-implementingvirtualizeditem.md) control pattern. When an on-screen element is scrolled off-screen, the element becomes invalid and the client must call **FindItemByProperty** to get the off-screen reference.
 
 It is also possible to move items into and out of view by using the [Scroll](uiauto-implementingscroll.md) control pattern (or by using the scroll bars). Items and groups are realized as they scroll into view, and are virtualized as they scroll out of view.
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The ASN.1 IA5tring data type is encoded into a TLV triplet that begins with a Tag byte of 0x16.'
-ms.assetid: 'c1268524-4304-4c21-8f7d-f0a2826cd74e'
+Description: The ASN.1 IA5tring data type is encoded into a TLV triplet that begins with a Tag byte of 0x16.
+ms.assetid: c1268524-4304-4c21-8f7d-f0a2826cd74e
 title: IA5String
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IA5String
 
-The ASN.1 **IA5tring** data type is encoded into a TLV triplet that begins with a **Tag** byte of 0x16. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how the **OSVersion** attribute is encoded as an **IA5tring** type. The version number can be specified by using the [**IX509AttributeOSVersion**](ix509attributeosversion.md) interface. The object identifier for the attribute is 1.3.6.1.4.1.311.13.2.3.
+The ASN.1 **IA5tring** data type is encoded into a TLV triplet that begins with a **Tag** byte of 0x16. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how the **OSVersion** attribute is encoded as an **IA5tring** type. The version number can be specified by using the [**IX509AttributeOSVersion**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeosversion?branch=master) interface. The object identifier for the attribute is 1.3.6.1.4.1.311.13.2.3.
 
 ``` syntax
 06 0a                                   ; OBJECT_ID (a Bytes)

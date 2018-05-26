@@ -1,8 +1,11 @@
 ---
 title: IDistList CreateEntry method
 description: Creates a new entry in the distribution list container.
-ms.assetid: 'b159ccd3-5825-4e1b-acd0-9287b46ea69e'
-keywords: ["CreateEntry method Windows Address Book", "CreateEntry method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , CreateEntry method"]
+ms.assetid: b159ccd3-5825-4e1b-acd0-9287b46ea69e
+keywords:
+- CreateEntry method Windows Address Book
+- CreateEntry method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , CreateEntry method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::CreateEntry method
@@ -22,10 +30,10 @@ Creates a new entry in the distribution list container.
 
 ```C++
 HRESULT CreateEntry(
-   ULONG     cbEntryID,
-   ENTRYID   *lpEntryID,
-   ULONG     ulCreateFlags,
-   IDistList **lppMAPIPropEntry
+   ULONG     cbEntryID,
+   ENTRYID   *lpEntryID,
+   ULONG     ulCreateFlags,
+   IDistList **lppMAPIPropEntry
 );
 ```
 
@@ -47,9 +55,9 @@ Value of type **ULONG** that specifies the size of the existing EntryID to copy 
 *lpEntryID* 
 </dt> <dd>
 
-Type: **[**ENTRYID**](-wab-entryid.md)\***
+Type: **[**ENTRYID**](/windows/previous-versions/Wabdefs/ns-wabdefs-entryid?branch=master)\***
 
-Pointer to a variable of type [**ENTRYID**](-wab-entryid.md) specifying the entry identifier of the object to copy from.
+Pointer to a variable of type [**ENTRYID**](/windows/previous-versions/Wabdefs/ns-wabdefs-entryid?branch=master) specifying the entry identifier of the object to copy from.
 
 </dd> <dt>
 
@@ -98,9 +106,9 @@ Indicates that duplicate entries replace existing entries within a container.
 *lppMAPIPropEntry* 
 </dt> <dd>
 
-Type: **[**IDistList**](-wab-idistlist.md)\*\***
+Type: **[**IDistList**](/windows/previous-versions/wabdefs/?branch=master)\*\***
 
-Address of a pointer to a variable of type [**IDistList**](-wab-idistlist.md) receiving the property interface to the new object.
+Address of a pointer to a variable of type [**IDistList**](/windows/previous-versions/wabdefs/?branch=master) receiving the property interface to the new object.
 
 </dd> </dl>
 
@@ -120,17 +128,17 @@ Windows Address Book supports creation of mail users and distribution lists.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

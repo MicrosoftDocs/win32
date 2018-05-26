@@ -1,14 +1,22 @@
 ---
 title: GetStreamPropertiesOperation.Completed property
 description: Gets or sets an event handler that is invoked when the asynchronous operation started by GetStreamPropertiesAsync is completed.
-ms.assetid: '97194F8E-DE36-4DC6-ADB5-F1EDE8AEF079'
-keywords: ["Completed property Media Streaming API", "Completed property Media Streaming API , GetStreamPropertiesOperation interface", "GetStreamPropertiesOperation interface Media Streaming API , Completed property"]
+ms.assetid: 97194F8E-DE36-4DC6-ADB5-F1EDE8AEF079
+keywords:
+- Completed property Media Streaming API
+- Completed property Media Streaming API , GetStreamPropertiesOperation interface
+- GetStreamPropertiesOperation interface Media Streaming API , Completed property
 topic_type:
 - apiref
 api_name:
 - GetStreamPropertiesOperation.Completed
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetStreamPropertiesOperation.Completed property

@@ -1,14 +1,20 @@
 ---
 title: Load3(uint) function
 description: Gets three values.
-ms.assetid: '79afeb36-e0e7-44a2-b252-8e3577f4c1a5'
-keywords: ["Load3 function HLSL"]
+ms.assetid: 79afeb36-e0e7-44a2-b252-8e3577f4c1a5
+keywords:
+- Load3 function HLSL
 topic_type:
 - apiref
 api_name:
 - Load3
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load3(uint) function

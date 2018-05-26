@@ -1,7 +1,12 @@
 ---
-Description: 'An event reference page (ERP) is an HTML document that provides Network Monitor information about events detected during expert or monitor operation.'
-ms.assetid: '097bae90-5dab-4f79-a829-648033b38016'
+Description: An event reference page (ERP) is an HTML document that provides Network Monitor information about events detected during expert or monitor operation.
+ms.assetid: 097bae90-5dab-4f79-a829-648033b38016
 title: About Event Reference Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Event Reference Pages

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The following table lists packet property GUIDs used by the PACKET\_PROPERTY structure.'
-ms.assetid: 'd3e94b57-3078-4a84-b58a-faa31bdff79e'
+---
+Description: The following table lists packet property GUIDs used by the PACKET\_PROPERTY structure.
+ms.assetid: d3e94b57-3078-4a84-b58a-faa31bdff79e
 title: PacketProperty GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PacketProperty GUIDs
 
-The following table lists packet property GUIDs used by the [**PACKET\_PROPERTY**](packet-property.md) structure.
+The following table lists packet property GUIDs used by the [**PACKET\_PROPERTY**](/windows/win32/tpcshrd/ns-tpcshrd-_packet_property?branch=master) structure.
 
 
 
@@ -90,7 +95,7 @@ The following table lists packet property GUIDs used by the [**PACKET\_PROPERTY*
 </tr>
 <tr class="even">
 <td>GUID_Z<br/></td>
-<td>The z-coordinate or distance of the pen tip from the tablet surface. The [<strong>PROPERTY_UNITS</strong>](property-units.md) enumeration type determines the unit of measurement for this property. <br/></td>
+<td>The z-coordinate or distance of the pen tip from the tablet surface. The [<strong>PROPERTY_UNITS</strong>](/windows/win32/tpcshrd/ne-tpcshrd-_property_units?branch=master) enumeration type determines the unit of measurement for this property. <br/></td>
 </tr>
 </tbody>
 </table>

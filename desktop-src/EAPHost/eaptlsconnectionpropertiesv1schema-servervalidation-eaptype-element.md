@@ -1,14 +1,20 @@
 ---
 title: ServerValidation (EapType) Element
 description: Contains information about how to perform server validation.
-ms.assetid: 'f4ae1579-8c61-4187-8f5a-13aca3075af2'
-keywords: ["ServerValidation element EAPHost"]
+ms.assetid: f4ae1579-8c61-4187-8f5a-13aca3075af2
+keywords:
+- ServerValidation element EAPHost
 topic_type:
 - apiref
 api_name:
 - ServerValidation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServerValidation (EapType) Element
@@ -33,8 +39,8 @@ The **ServerValidation** element is optional.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ The **ServerValidation** element is optional.
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

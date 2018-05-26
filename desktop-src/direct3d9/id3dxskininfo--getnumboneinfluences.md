@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of influences for a bone.'
-ms.assetid: '6383f990-2989-46b3-a634-b3bb7bd1d65b'
-title: 'ID3DXSkinInfo::GetNumBoneInfluences method'
+---
+Description: Gets the number of influences for a bone.
+ms.assetid: 6383f990-2989-46b3-a634-b3bb7bd1d65b
+title: ID3DXSkinInfoGetNumBoneInfluences method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::GetNumBoneInfluences method

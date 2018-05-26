@@ -4,11 +4,14 @@ description: Returns a ClusResTypes collection providing access to the resource 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73a9ca85-0da2-4978-965a-47bdee4ded6c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 73a9ca85-0da2-4978-965a-47bdee4ded6c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ResourceTypes property Failover Cluster", "ResourceTypes property Failover Cluster , Cluster object", "Cluster object Failover Cluster , ResourceTypes property"]
+keywords:
+- ResourceTypes property Failover Cluster
+- ResourceTypes property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , ResourceTypes property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.ResourceTypes property
@@ -48,7 +54,7 @@ A [**ClusResTypes**](clusrestypes-collection.md) collection that receives the re
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -67,9 +73,9 @@ A [**ClusResTypes**](clusrestypes-collection.md) collection that receives the re
 [**ClusResTypes**](clusrestypes-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: Primitives Reference
 description: Primitives Reference
-ms.assetid: 'a88d38f1-eeb9-484d-a987-aba545084330'
-keywords: ["OpenGL processing pipeline,primitives reference", "primitives reference OpenGL", "OpenGL,primitives reference"]
+ms.assetid: a88d38f1-eeb9-484d-a987-aba545084330
+keywords:
+- OpenGL processing pipeline,primitives reference
+- primitives reference OpenGL
+- OpenGL,primitives reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primitives Reference

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instructs an IME window to get the position of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.'
-ms.assetid: 'd2c60974-a602-4a42-8a45-870ee39df001'
-title: 'IMC\_GETCOMPOSITIONWINDOW command'
+---
+Description: Instructs an IME window to get the position of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+ms.assetid: d2c60974-a602-4a42-8a45-870ee39df001
+title: IMC\_GETCOMPOSITIONWINDOW command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMC\_GETCOMPOSITIONWINDOW command
@@ -29,7 +34,7 @@ Set to IMC\_GETCOMPOSITIONWINDOW.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**COMPOSITIONFORM**](compositionform.md) structure that contains the position of the composition window.
+Pointer to a [**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master) structure that contains the position of the composition window.
 
 </dd> </dl>
 
@@ -63,7 +68,7 @@ Because the IME might adjust the position of a composition window, an applicatio
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**COMPOSITIONFORM**](compositionform.md)
+[**COMPOSITIONFORM**](/windows/win32/Imm/ns-imm-tagcompositionform?branch=master)
 </dt> </dl>
 
  

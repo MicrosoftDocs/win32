@@ -4,17 +4,21 @@ description: Specifies whether to enable Network Fault-Tolerance (NETFT) for clu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '246A5BE4-55BE-44D9-9199-8C6ED142F344'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 246A5BE4-55BE-44D9-9199-8C6ED142F344
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["UseNetftForSharedVolumes Failover Cluster"]
+keywords:
+- UseNetftForSharedVolumes Failover Cluster
 topic_type:
 - apiref
 api_name:
 - UseNetftForSharedVolumes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UseNetftForSharedVolumes
@@ -27,14 +31,14 @@ Specifies whether to enable Network Fault-Tolerance (NETFT) for cluster shared v
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 1                                         |
 
 
 
- 
+ 
 
 "1" to enable NETFT, "0" to disable it.
 
@@ -49,7 +53,7 @@ The constant for this property is **USE\_NETFT\_FOR\_SHARED\_VOLUMES**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -60,9 +64,9 @@ The constant for this property is **USE\_NETFT\_FOR\_SHARED\_VOLUMES**.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

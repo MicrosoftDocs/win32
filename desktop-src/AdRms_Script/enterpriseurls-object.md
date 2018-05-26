@@ -1,13 +1,16 @@
 ---
-Description: 'Contains enterprise service URLs. Currently URLs can be retrieved for the AD RMS Licensing web service and the AD RMS Account Certification web service.'
+Description: Contains enterprise service URLs. Currently URLs can be retrieved for the AD RMS Licensing web service and the AD RMS Account Certification web service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '0b5eab85-4468-49c5-bdee-e9e17512aa76'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 0b5eab85-4468-49c5-bdee-e9e17512aa76
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: EnterpriseUrls object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # EnterpriseUrls object
@@ -33,7 +36,7 @@ The **EnterpriseUrls** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -108,7 +111,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -120,9 +123,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

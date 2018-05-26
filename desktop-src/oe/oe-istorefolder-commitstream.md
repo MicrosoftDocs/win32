@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder CommitStream method
 description: Commits or reverts changes to a stream associated with a message object.
-ms.assetid: '834a142d-2127-4a02-83db-58b1edc82312'
-keywords: ["CommitStream method Windows Mail (formerly Outlook Express)", "CommitStream method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , CommitStream method"]
+ms.assetid: 834a142d-2127-4a02-83db-58b1edc82312
+keywords:
+- CommitStream method Windows Mail (formerly Outlook Express)
+- CommitStream method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , CommitStream method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::CommitStream method
@@ -22,12 +30,12 @@ Commits or reverts changes to a stream associated with a message object.
 
 ```C++
 HRESULT CommitStream(
-  [in] HBATCHLOCK   hBatchLock,
-  [in] DWORD        dwFlags,
-  [in] DWORD        dwMsgFlags,
-  [in] IStream      *pStream,
-  [in] MESSAGEID    dwMessageId,
-  [in] IMimeMessage *pMessage
+  [in] HBATCHLOCK   hBatchLock,
+  [in] DWORD        dwFlags,
+  [in] DWORD        dwMsgFlags,
+  [in] IStream      *pStream,
+  [in] MESSAGEID    dwMessageId,
+  [in] IMimeMessage *pMessage
 );
 ```
 
@@ -105,7 +113,7 @@ Returns S\_OK if successful, or the following error value.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -113,8 +121,8 @@ Returns S\_OK if successful, or the following error value.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -122,9 +130,9 @@ Returns S\_OK if successful, or the following error value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

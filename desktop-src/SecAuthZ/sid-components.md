@@ -1,20 +1,25 @@
 ---
 Description: SID Components
-ms.assetid: '528412e7-c2b6-4ddd-86de-999252972421'
+ms.assetid: 528412e7-c2b6-4ddd-86de-999252972421
 title: SID Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SID Components
 
-A SID value includes components that provide information about the [**SID**](sid.md) structure and components that uniquely identify a trustee. A SID consists of the following components:
+A SID value includes components that provide information about the [**SID**](/windows/win32/Winnt/ns-winnt-_sid?branch=master) structure and components that uniquely identify a trustee. A SID consists of the following components:
 
--   The revision level of the [**SID**](sid.md) structure
+-   The revision level of the [**SID**](/windows/win32/Winnt/ns-winnt-_sid?branch=master) structure
 -   A 48-bit identifier authority value that identifies the authority that issued the SID
 -   A variable number of subauthority or [*relative identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-relative-identifier-gly) (RID) values that uniquely identify the trustee relative to the authority that issued the SID
 
 The combination of the identifier authority value and the subauthority values ensures that no two SIDs will be the same, even if two different SID-issuing authorities issue the same combination of RID values. Each SID-issuing authority issues a given RID only once.
 
-SIDs are stored in binary format in a [**SID**](sid.md) structure. To display a SID, you can call the [**ConvertSidToStringSid**](convertsidtostringsid.md) function to convert a binary SID to string format. To convert a SID string back to a valid, functional SID, call the [**ConvertStringSidToSid**](convertstringsidtosid.md) function.
+SIDs are stored in binary format in a [**SID**](/windows/win32/Winnt/ns-winnt-_sid?branch=master) structure. To display a SID, you can call the [**ConvertSidToStringSid**](/windows/win32/Sddl/nf-sddl-convertsidtostringsida?branch=master) function to convert a binary SID to string format. To convert a SID string back to a valid, functional SID, call the [**ConvertStringSidToSid**](/windows/win32/Sddl/nf-sddl-convertstringsidtosida?branch=master) function.
 
 These functions use the following standardized string notation for SIDs, which makes it simpler to visualize their components:
 

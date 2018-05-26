@@ -1,7 +1,12 @@
 ---
 Description: Application Overview
-ms.assetid: '14131e33-2b50-4af7-910c-b4cd5267ed34'
+ms.assetid: 14131e33-2b50-4af7-910c-b4cd5267ed34
 title: Application Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Overview

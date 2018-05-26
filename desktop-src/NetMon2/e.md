@@ -1,7 +1,12 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter E.'
-Robots: 'noindex, nofollow'
+Description: Glossary of Network Monitor terms that begin with the letter E.
+Robots: noindex, nofollow
 title: E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # E

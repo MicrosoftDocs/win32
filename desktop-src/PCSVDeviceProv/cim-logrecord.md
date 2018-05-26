@@ -1,13 +1,16 @@
 ---
-Description: 'The LogRecord object can describe the definitional format for entries in a MessageLog, or can be used to instantiate the actual records in the Log.'
+Description: The LogRecord object can describe the definitional format for entries in a MessageLog, or can be used to instantiate the actual records in the Log.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3ff1657a-ca1b-4f4b-9db5-02c9fc7d7954'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3ff1657a-ca1b-4f4b-9db5-02c9fc7d7954
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogRecord class'
+title: CIM\_LogRecord class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogRecord class
@@ -22,20 +25,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::System::Logs"), Version("2.11.0"), AMENDMENT]
 class CIM_LogRecord : CIM_RecordForLog
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   RecordFormat;
-  string   RecordData;
-  string   Locale;
-  uint16   PerceivedSeverity;
-  string   LogCreationClassName;
-  string   LogName;
-  string   CreationClassName;
-  string   RecordID;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   RecordFormat;
+  string   RecordData;
+  string   Locale;
+  uint16   PerceivedSeverity;
+  string   LogCreationClassName;
+  string   LogName;
+  string   CreationClassName;
+  string   RecordID;
   datetime MessageTimestamp;
-  string   DataFormat;
+  string   DataFormat;
 };
 ```
 
@@ -340,17 +343,17 @@ RecordID, with the MessageTimestamp property, serve to uniquely identify the Log
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

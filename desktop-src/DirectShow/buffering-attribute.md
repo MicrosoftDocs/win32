@@ -1,7 +1,12 @@
 ---
-Description: 'The buffering attribute specifies the number of frames to render in advance during preview.'
-ms.assetid: 'c00fd24d-5c3c-44cf-93dd-9750f614d2af'
+Description: The buffering attribute specifies the number of frames to render in advance during preview.
+ms.assetid: c00fd24d-5c3c-44cf-93dd-9750f614d2af
 title: buffering Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # buffering Attribute
@@ -9,7 +14,7 @@ title: buffering Attribute
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
 
- 
+ 
 
 The `buffering` attribute specifies the number of frames to render in advance during preview.
 
@@ -41,9 +46,9 @@ The value must be a number greater than 1. The default value is 30.
 [**IAMTimelineGroup::SetOutputBuffering**](iamtimelinegroup-setoutputbuffering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

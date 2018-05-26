@@ -1,7 +1,12 @@
 ---
-Description: 'Signals the beginning of every video object unit (VOBU), a video segment which is 0.4 to 1.0 seconds in length.'
-ms.assetid: '1f2def2f-3a6b-458b-b564-09b6cf74543c'
-title: 'EC\_DVD\_CURRENT\_TIME'
+Description: Signals the beginning of every video object unit (VOBU), a video segment which is 0.4 to 1.0 seconds in length.
+ms.assetid: 1f2def2f-3a6b-458b-b564-09b6cf74543c
+title: EC\_DVD\_CURRENT\_TIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_CURRENT\_TIME
@@ -15,7 +20,7 @@ Signals the beginning of every video object unit (VOBU), a video segment which i
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the current playback timecode in a binary coded decimal (BCD) hours, minutes, seconds, frames (HH:MM:SS:FF) format. Member of the [**DVD\_TIMECODE**](dvd-timecode.md) structure.
+**DWORD** value indicating the current playback timecode in a binary coded decimal (BCD) hours, minutes, seconds, frames (HH:MM:SS:FF) format. Member of the [**DVD\_TIMECODE**](/windows/win32/strmif/ns-strmif-tagdvd_timecode?branch=master) structure.
 
 </dd> <dt>
 
@@ -55,9 +60,9 @@ This event is raised in the title domain.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo OSVersionString property
 description: The OSVersionString property contains the version of the operating system currently running on the host machine.
-ms.assetid: '95b6cc54-1e96-487c-9b9d-d5f0511f8cc1'
-keywords: ["OSVersionString property Virtual Server", "OSVersionString property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , OSVersionString property", "OSVersionString property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , OSVersionString property"]
+ms.assetid: 95b6cc54-1e96-487c-9b9d-d5f0511f8cc1
+keywords:
+- OSVersionString property Virtual Server
+- OSVersionString property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , OSVersionString property
+- OSVersionString property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , OSVersionString property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::OSVersionString property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_OSVersionString(
-  [out] BSTR *OSVersion
+  [out] BSTR *OSVersion
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a line in the top pane of the Event Viewer that serves as a container for all possible data inserted into a column.'
-ms.assetid: '2ad32c23-5dbe-46be-b0cc-ccf7a6fe8ec3'
+Description: Provides a line in the top pane of the Event Viewer that serves as a container for all possible data inserted into a column.
+ms.assetid: 2ad32c23-5dbe-46be-b0cc-ccf7a6fe8ec3
 title: NMCOLUMNVARIANT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NMCOLUMNVARIANT structure
@@ -15,23 +20,23 @@ The **NMCOLUMNVARIANT** structure provides a line in the top pane of the Event V
 typedef struct {
   NMCOLUMNTYPE Type;
   union {
-    BYTE        Uint8Val;
-    char        Sint8Val;
-    WORD        Uint16Val;
-    short       Sint16Val;
-    DWORD       Uint32Val;
-    LONG        Sint32Val;
-    DOUBLE      Float64Val;
-    DWORD       FrameVal;
-    BOOL        YesNoVal;
-    BOOL        OnOffVal;
-    BOOL        TrueFalseVal;
-    BYTE        MACAddrVal[MAC_ADDRESS_SIZE];
+    BYTE        Uint8Val;
+    char        Sint8Val;
+    WORD        Uint16Val;
+    short       Sint16Val;
+    DWORD       Uint32Val;
+    LONG        Sint32Val;
+    DOUBLE      Float64Val;
+    DWORD       FrameVal;
+    BOOL        YesNoVal;
+    BOOL        OnOffVal;
+    BOOL        TrueFalseVal;
+    BYTE        MACAddrVal[MAC_ADDRESS_SIZE];
     IPX_ADDRESS IPXAddrVal;
-    DWORD       IPAddrVal;
-    DOUBLE      VarTimeVal;
-    LPSTR       pStringVal;
-  } Value;
+    DWORD       IPAddrVal;
+    DOUBLE      VarTimeVal;
+    LPSTR       pStringVal;
+  } Value;
 } NMCOLUMNVARIANT;
 ```
 
@@ -169,8 +174,8 @@ Pointer to a string.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -182,9 +187,9 @@ Pointer to a string.
 [**NMCOLUMNTYPE**](nmcolumntype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

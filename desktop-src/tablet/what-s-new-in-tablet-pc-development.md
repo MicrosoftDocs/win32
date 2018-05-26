@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes what is new in Tablet PC Technology development.'
-ms.assetid: 'e61bd444-7e48-4146-93a4-8b99e34226af'
-title: 'What''s New in Tablet PC Development'
+Description: This section describes what is new in Tablet PC Technology development.
+ms.assetid: e61bd444-7e48-4146-93a4-8b99e34226af
+title: Whats New in Tablet PC Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Tablet PC Development

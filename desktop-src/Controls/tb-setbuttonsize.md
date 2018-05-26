@@ -1,8 +1,9 @@
 ---
 title: TB\_SETBUTTONSIZE message
 description: Sets the size of buttons on a toolbar.
-ms.assetid: 'ef6beed7-a3d6-4379-b9c1-c64a5e33ce78'
-keywords: ["TB_SETBUTTONSIZE message Windows Controls"]
+ms.assetid: ef6beed7-a3d6-4379-b9c1-c64a5e33ce78
+keywords:
+- TB_SETBUTTONSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETBUTTONSIZE message
@@ -63,15 +69,15 @@ SendMessage(hWndToolbar, TB_SETBUTTONSIZE, 0, MAKELPARAM(80, 30);
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

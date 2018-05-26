@@ -1,14 +1,20 @@
 ---
 title: Hidden (settingsType) Element
 description: Specifies that the task will not be visible in the UI by default.
-ms.assetid: 'a08c270f-6d4e-4473-9538-c1e1e21b3b10'
-keywords: ["Hidden element Task Scheduler"]
+ms.assetid: a08c270f-6d4e-4473-9538-c1e1e21b3b10
+keywords:
+- Hidden element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Hidden
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hidden (settingsType) Element
@@ -37,7 +43,7 @@ The **Hidden** element is defined by the [**settingsType**](taskschedulerschema-
 
 ## Remarks
 
-For C++ development, see [**Hidden Property of ITaskSettings**](itasksettings-hidden.md).
+For C++ development, see [**Hidden Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_hidden?branch=master).
 
 For script development, see [**TaskSettings.Hidden**](tasksettings-hidden.md).
 
@@ -47,8 +53,8 @@ For script development, see [**TaskSettings.Hidden**](tasksettings-hidden.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -59,9 +65,9 @@ For script development, see [**TaskSettings.Hidden**](tasksettings-hidden.md).
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The following code example composes the service principal names (SP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4fd585b3-3f9b-4f7f-bc1b-22879587a590'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4fd585b3-3f9b-4f7f-bc1b-22879587a590
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Composing SPNs for an RpcNs Service AD"]
+keywords:
+- Composing SPNs for an RpcNs Service AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Composing SPNs for an RpcNs Service
@@ -22,7 +26,7 @@ An RPC service uses this code example to build the SPN or SPNs that identify an 
 
 This code example uses the distinguished name of the service's RpcServices entry to compose the SPN. Before calling this code, call the [**RpcNsBindingExport**](https://msdn.microsoft.com/library/windows/desktop/aa375813) function to create the service's RpcServices entry.
 
-This code example calls the [**DsGetSpn**](dsgetspn.md) function to build an SPN. The SPN is composed from service class name and the distinguished name of the service RpcServices entry.
+This code example calls the [**DsGetSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dsgetspna?branch=master) function to build an SPN. The SPN is composed from service class name and the distinguished name of the service RpcServices entry.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
-Description: 'The TriggerThread method wakes up the worker thread that handles scheduling.'
-ms.assetid: '296a6b59-fc52-4f5e-8a19-6b534a253a6e'
-title: 'CBaseReferenceClock.TriggerThread method'
+Description: The TriggerThread method wakes up the worker thread that handles scheduling.
+ms.assetid: 296a6b59-fc52-4f5e-8a19-6b534a253a6e
+title: CBaseReferenceClock.TriggerThread method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.TriggerThread method
@@ -47,9 +52,9 @@ The clock uses a worker thread that calls the [**CAMSchedule::Advise**](camsched
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

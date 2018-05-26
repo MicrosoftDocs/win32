@@ -1,7 +1,12 @@
 ---
 Description: Support in Windows 7 and Windows Vista
-ms.assetid: '4c6cf5b5-db6a-4da0-b9c3-8ddbc867f29b'
+ms.assetid: 4c6cf5b5-db6a-4da0-b9c3-8ddbc867f29b
 title: Support in Windows 7 and Windows Vista
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support in Windows 7 and Windows Vista

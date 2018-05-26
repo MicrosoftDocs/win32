@@ -1,7 +1,12 @@
 ---
-Description: 'The date and time of the GPS record.'
-ms.assetid: '77824392-1249-479a-a379-1917140d65db'
-title: 'System.GPS.Date'
+Description: The date and time of the GPS record.
+ms.assetid: 77824392-1249-479a-a379-1917140d65db
+title: System.GPS.Date
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.Date

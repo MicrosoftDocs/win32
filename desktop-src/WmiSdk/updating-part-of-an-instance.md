@@ -1,13 +1,16 @@
 ---
-Description: 'Occasionally, you may want to update only part of an instance.'
+Description: Occasionally, you may want to update only part of an instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c92bf8f9-9cac-4cf0-a45d-f60aee5a9ec2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c92bf8f9-9cac-4cf0-a45d-f60aee5a9ec2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Updating Part of an Instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Updating Part of an Instance
@@ -112,11 +115,11 @@ The following procedure describes how to request a partial-instance update using
 
 **To request a partial-instance update using C++**
 
-1.  Create an [**IWbemContext**](iwbemcontext.md) object with a call to [**CoCreateInstance**](_com_cocreateinstance).
+1.  Create an [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object with a call to [**CoCreateInstance**](_com_cocreateinstance).
 
-    A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](iwbemcontext.md) object to instruct the provider to accept partial-instance updates.
+    A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object to instruct the provider to accept partial-instance updates.
 
-2.  Add the "\_\_PUT\_EXTENSIONS" and "\_\_PUT\_EXT\_CLIENT\_REQUEST" named values to the [**IWbemContext**](iwbemcontext.md) object with a call to [**IWbemContext::SetValue**](iwbemcontext-setvalue.md).
+2.  Add the "\_\_PUT\_EXTENSIONS" and "\_\_PUT\_EXT\_CLIENT\_REQUEST" named values to the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object with a call to [**IWbemContext::SetValue**](/windows/win32/WbemCli/nf-wbemcli-iwbemcontext-setvalue?branch=master).
 
     The following table lists the meaning of "\_\_PUT\_EXTENSIONS" and "\_\_PUT\_EXT\_CLIENT\_REQUEST".
 
@@ -131,7 +134,7 @@ The following procedure describes how to request a partial-instance update using
 
      
 
-3.  Add the \_\_PUT\_EXT\_STRICT\_NULLS, \_\_PUT\_EXT\_PROPERTIES, or \_\_PUT\_EXT\_ATOMIC in any combination as needed to the [**IWbemContext**](iwbemcontext.md) object with another call to [**IWbemContext::SetValue**](iwbemcontext-setvalue.md).
+3.  Add the \_\_PUT\_EXT\_STRICT\_NULLS, \_\_PUT\_EXT\_PROPERTIES, or \_\_PUT\_EXT\_ATOMIC in any combination as needed to the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object with another call to [**IWbemContext::SetValue**](/windows/win32/WbemCli/nf-wbemcli-iwbemcontext-setvalue?branch=master).
 
     The following table lists the meaning of the named values.
 
@@ -148,9 +151,9 @@ The following procedure describes how to request a partial-instance update using
      
 
 4.  Set the *iFlags* parameter to **WBEM\_FLAG\_UPDATE\_ONLY**. Without this flag the call will fail with an invalid context.
-5.  Pass the [**IWbemContext**](iwbemcontext.md) context object into any calls [**IWbemServices::PutInstance**](iwbemservices-putinstance.md) or [**IWbemServices::PutInstanceAsync**](iwbemservices-putinstanceasync.md) in the *pCtx* parameter.
+5.  Pass the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) context object into any calls [**IWbemServices::PutInstance**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstance?branch=master) or [**IWbemServices::PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master) in the *pCtx* parameter.
 
-    Passing the [**IWbemContext**](iwbemcontext.md) object instructs the provider to allow partial-instance updates. In a full-instance update, you would set *pCtx* to **NULL**.
+    Passing the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object instructs the provider to allow partial-instance updates. In a full-instance update, you would set *pCtx* to **NULL**.
 
     The provider may write any necessary properties if the context object present in the call does not contain "\_\_PUT\_EXTENSIONS". If "\_\_PUT\_EXTENSIONS" is present in the context object, WMI requires the provider to either obey the semantics of the operation exactly or else fail the call. For more information, see [Handling Access Denied Messages in a Provider](impersonating-a-client.md#handling-access-denied-messages-in-a-provider).
 

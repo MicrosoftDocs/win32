@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the background color style of the specified style.'
-ms.assetid: '1b0acac1-c36d-49b6-8154-f69bda008e9a'
+---
+Description: Retrieves the background color style of the specified style.
+ms.assetid: 1b0acac1-c36d-49b6-8154-f69bda008e9a
 title: PColorStyleBackFromIMEStyle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PColorStyleBackFromIMEStyle function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the next child data object, data reference object, or binary object in the DirectX file. Deprecated.'
-ms.assetid: '8232e911-6552-4b2b-a9c2-59e6a13a0d9b'
-title: 'IDirectXFileData::GetNextObject method'
+---
+Description: Retrieves the next child data object, data reference object, or binary object in the DirectX file. Deprecated.
+ms.assetid: 8232e911-6552-4b2b-a9c2-59e6a13a0d9b
+title: IDirectXFileDataGetNextObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileData::GetNextObject method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes the OC manager.'
-ms.assetid: 'feba9954-03b2-4b57-b7ba-933e171751ff'
+---
+Description: Closes the OC manager.
+ms.assetid: feba9954-03b2-4b57-b7ba-933e171751ff
 title: OcTerminate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OcTerminate function

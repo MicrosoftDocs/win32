@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings for the virtual system migration service on a host.'
-ms.assetid: '56711134-9a4a-49bd-8a0e-ce679b959adf'
-title: 'Msvm\_VirtualSystemMigrationServiceSettingData class'
+Description: Represents the settings for the virtual system migration service on a host.
+ms.assetid: 56711134-9a4a-49bd-8a0e-ce679b959adf
+title: Msvm\_VirtualSystemMigrationServiceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemMigrationServiceSettingData class
@@ -16,14 +21,14 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
   boolean EnableVirtualSystemMigration;
-  uint32  MaximumActiveVirtualSystemMigration;
-  uint32  MaximumActiveStorageMigration;
-  uint32  AuthenticationType;
+  uint32  MaximumActiveVirtualSystemMigration;
+  uint32  MaximumActiveStorageMigration;
+  uint32  AuthenticationType;
   boolean EnableCompression = True;
   boolean EnableSmbTransport = False;
 };
@@ -122,7 +127,7 @@ Indicates whether compression of live migration traffic is enabled or disabled. 
 
 This is a read-only property, but it can be changed by using the [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -139,7 +144,7 @@ Indicates whether use of SMB as a transport type for transferring VM state betwe
 
 This is a read-only property, but it can be changed by using the [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -204,8 +209,8 @@ Specifies the maximum number of active virtual system migrations allowed. This i
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -222,9 +227,9 @@ Specifies the maximum number of active virtual system migrations allowed. This i
 [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

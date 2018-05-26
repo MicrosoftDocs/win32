@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an instance of an extension component bound to a virtual Ethernet switch.'
-ms.assetid: '5b3e26e3-4cb9-47c9-865e-2f3232bbfc8e'
-title: 'Msvm\_EthernetSwitchExtension class'
+Description: Represents an instance of an extension component bound to a virtual Ethernet switch.
+ms.assetid: 5b3e26e3-4cb9-47c9-865e-2f3232bbfc8e
+title: Msvm\_EthernetSwitchExtension class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchExtension class
@@ -16,33 +21,33 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EthernetSwitchExtension : CIM_EnabledLogicalElement
 {
-  string   InstanceID;
-  string   Caption = "Virtual Switch Extension";
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "Virtual Switch Extension";
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_VirtualEthernetSwitch";
-  string   SystemName;
-  string   CreationClassName = "Msvm_EthernetSwitchExtension";
-  string   Name;
-  uint8    ExtensionType;
-  string   Vendor;
-  string   Version;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_VirtualEthernetSwitch";
+  string   SystemName;
+  string   CreationClassName = "Msvm_EthernetSwitchExtension";
+  string   Name;
+  uint8    ExtensionType;
+  string   Vendor;
+  string   Version;
 };
 ```
 
@@ -65,7 +70,7 @@ The **Msvm\_EthernetSwitchExtension** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -251,12 +256,12 @@ The enabled and disabled states of an element. This property can also indicate t
 | <span id="Deferred"></span><span id="deferred"></span><span id="DEFERRED"></span><dl> <dt>**Deferred**</dt> <dt>8</dt> </dl>                                             | The element might be completing commands, but it will queue any new requests.<br/>                                                                                                                    |
 | <span id="Quiesce"></span><span id="quiesce"></span><span id="QUIESCE"></span><dl> <dt>**Quiesce**</dt> <dt>9</dt> </dl>                                                 | The element is enabled but in a restricted mode. The behavior of the element is similar to the Enabled state, but it processes only a restricted set of commands. All other requests are queued.<br/> |
 | <span id="Starting"></span><span id="starting"></span><span id="STARTING"></span><dl> <dt>**Starting**</dt> <dt>10</dt> </dl>                                            | The element is in the process of going to an Enabled state. New requests are queued.<br/>                                                                                                             |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>11–32767</dt> </dl>                  | Reserved.<br/>                                                                                                                                                                                        |
-| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768–65535</dt> </dl>       | Reserved.<br/>                                                                                                                                                                                        |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>11 32767</dt> </dl>                  | Reserved.<br/>                                                                                                                                                                                        |
+| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768 65535</dt> </dl>       | Reserved.<br/>                                                                                                                                                                                        |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -342,7 +347,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.mic
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -575,17 +580,17 @@ The version of the extension in a format of "*major*.*minor*", for example "2.0"
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

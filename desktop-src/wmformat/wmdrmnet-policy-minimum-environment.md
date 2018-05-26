@@ -1,8 +1,10 @@
 ---
 title: WMDRMNET\_POLICY\_MINIMUM\_ENVIRONMENT structure
 description: The WMDRMNET\_POLICY\_MINIMUM\_ENVIRONMENT structure contains the minimum security requirements for Windows Media DRM for Network Devices.
-ms.assetid: 'b1bc9a8d-197e-45fe-a152-0b81add977eb'
-keywords: ["WMDRMNET_POLICY_MINIMUM_ENVIRONMENT structure windows Media Format", "structure windows Media Format"]
+ms.assetid: b1bc9a8d-197e-45fe-a152-0b81add977eb
+keywords:
+- WMDRMNET_POLICY_MINIMUM_ENVIRONMENT structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMNET\_POLICY\_MINIMUM\_ENVIRONMENT structure
@@ -22,7 +29,7 @@ The **WMDRMNET\_POLICY\_MINIMUM\_ENVIRONMENT** structure contains the minimum se
 
 ```C++
 typedef struct WMDRMNET_POLICY_MINIMUM_ENVIRONMENT {
-  WORD  wMinimumSecurityLevel;
+  WORD  wMinimumSecurityLevel;
   DWORD dwMinimumAppRevocationListVersion;
   DWORD dwMinimumDeviceRevocationListVersion;
 } ;
@@ -79,9 +86,9 @@ None.
 [**WMDRMNET\_POLICY**](wmdrmnet-policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

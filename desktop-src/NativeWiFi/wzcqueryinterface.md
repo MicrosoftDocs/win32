@@ -1,12 +1,17 @@
-﻿---
-Description: 'Provides detailed information for a wireless LAN interface managed by the Wireless Zero Configuration service.'
-ms.assetid: 'e1d2260b-a71f-481e-b505-b5d1a17ee221'
+---
+Description: Provides detailed information for a wireless LAN interface managed by the Wireless Zero Configuration service.
+ms.assetid: e1d2260b-a71f-481e-b505-b5d1a17ee221
 title: WZCQueryInterface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WZCQueryInterface function
 
-\[**WZCQueryInterface** is no longer supported as of Windows Vista and Windows Server 2008. Use the [**WlanQueryInterface**](wlanqueryinterface.md) function instead. For more information, see [About the Native Wifi API](about-the-native-wifi-api.md). \]
+\[**WZCQueryInterface** is no longer supported as of Windows Vista and Windows Server 2008. Use the [**WlanQueryInterface**](/windows/win32/Wlanapi/nf-wlanapi-wlanqueryinterface?branch=master) function instead. For more information, see [About the Native Wifi API](about-the-native-wifi-api.md). \]
 
 The **WZCQueryInterface** function provides detailed information for a wireless LAN interface managed by the Wireless Zero Configuration service.
 

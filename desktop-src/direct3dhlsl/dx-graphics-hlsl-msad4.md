@@ -1,14 +1,20 @@
 ---
 title: msad4
 description: Compares a 4-byte reference value and an 8-byte source value and accumulates a vector of 4 sums. Each sum corresponds to the masked sum of absolute differences of a different byte alignment between the reference value and the source value.
-ms.assetid: '6497F9AE-4524-44C2-A1C6-2A4ACB30FA9C'
-keywords: ["msad4 HLSL"]
+ms.assetid: 6497F9AE-4524-44C2-A1C6-2A4ACB30FA9C
+keywords:
+- msad4 HLSL
 topic_type:
 - apiref
 api_name:
 - msad4
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # msad4
@@ -22,7 +28,7 @@ Compares a 4-byte reference value and an 8-byte source value and accumulates a v
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -71,7 +77,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -84,13 +90,13 @@ source.x = 0xD7B0C372
 source.y = 0x4F57C2A3
 accum = {1,2,3,4}
 result.x alignment source: 0xD7B0C372
-result.x = accum.x + |0xD7 – 0xA1| + 0 (masked) + |0xC3 – 0xB2| + |0x72 – 0xC3| = 1 + 54 + 0 + 17 + 81 = 153
+result.x = accum.x + |0xD7   0xA1| + 0 (masked) + |0xC3   0xB2| + |0x72   0xC3| = 1 + 54 + 0 + 17 + 81 = 153
 result.y alignment source: 0xA3D7B0C3
-result.y = accum.y + |0xA3 – 0xA1| + 0 (masked) + |0xB0 – 0xB2| + |0xC3 – 0xC3| = 2 + 2 + 0 + 2 + 0 = 6
+result.y = accum.y + |0xA3   0xA1| + 0 (masked) + |0xB0   0xB2| + |0xC3   0xC3| = 2 + 2 + 0 + 2 + 0 = 6
 result.z alignment source: 0xC2A3D7B0
-result.z = accum.z + |0xC2 – 0xA1| + 0 (masked) + |0xD7 – 0xB2| + |0xB0 – 0xC3| = 3 + 33 + 0 + 37 + 19 = 92
+result.z = accum.z + |0xC2   0xA1| + 0 (masked) + |0xD7   0xB2| + |0xB0   0xC3| = 3 + 33 + 0 + 37 + 19 = 92
 result.w alignment source: 0x57C2A3D7
-result.w = accum.w + |0x57 – 0xA1| + 0 (masked) + |0xA3 – 0xB2| + |0xD7 – 0xC3| = 4 + 74 + 0 + 15 + 20 = 113
+result.w = accum.w + |0x57   0xA1| + 0 (masked) + |0xA3   0xB2| + |0xD7   0xC3| = 4 + 74 + 0 + 15 + 20 = 113
 result = {153,6,92,113}
 ```
 
@@ -117,8 +123,8 @@ buf_accum[DTid.x] = accum;
 
 |                                     |                                                             |
 |-------------------------------------|-------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/> |
 
 
 
@@ -129,9 +135,9 @@ buf_accum[DTid.x] = accum;
 [Intrinsic Functions](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

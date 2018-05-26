@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the possible signer certificates used to digitally sign patches.'
-ms.assetid: '8f76c27d-92f1-4de7-a69c-fba877e0325d'
+Description: Identifies the possible signer certificates used to digitally sign patches.
+ms.assetid: 8f76c27d-92f1-4de7-a69c-fba877e0325d
 title: MsiPatchCertificate Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchCertificate Table

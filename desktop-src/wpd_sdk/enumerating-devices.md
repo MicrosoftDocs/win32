@@ -1,12 +1,17 @@
 ---
 Description: Enumerating Devices
-ms.assetid: '28ded3cf-b0c8-4c90-ab39-efc879adb6e7'
+ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 title: Enumerating Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Devices
 
-The first task completed by most applications is the enumeration of the devices connected to the computer. This task, and the retrieval of device information (such as manufacturer, friendly name, and description), is supported by the [**IPortableDeviceManager**](iportabledevicemanager.md) interface.
+The first task completed by most applications is the enumeration of the devices connected to the computer. This task, and the retrieval of device information (such as manufacturer, friendly name, and description), is supported by the [**IPortableDeviceManager**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master) interface.
 
 The EnumerateAllDevices function in the DeviceEnumeration.cpp module contains code that demonstrates the retrieval of the count of connected devices and, once the count is retrieved, the retrieval of device-specific information for each connected device.
 
@@ -35,7 +40,7 @@ if (FAILED(hr))
 
 
 
-Once you obtain an [**IPortableDeviceManager**](iportabledevicemanager.md) interface pointer, you can begin calling methods on this interface. The first method called in the EnumerateAllDevices function is [**IPortableDeviceManager::GetDevices**](iportabledevicemanager-getdevices.md). When this method is called with the first argument set to **NULL**, it returns the count of connected devices.
+Once you obtain an [**IPortableDeviceManager**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master) interface pointer, you can begin calling methods on this interface. The first method called in the EnumerateAllDevices function is [**IPortableDeviceManager::GetDevices**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevices?branch=master). When this method is called with the first argument set to **NULL**, it returns the count of connected devices.
 
 
 ```C++
@@ -58,7 +63,7 @@ printf("\n%d Windows Portable Device(s) found on the system\n\n", cPnPDeviceIDs)
 
 After you have retrieved the count of connected devices, you can use this value to retrieve device information for each connected device. This process begins by passing an array of string pointers as the first argument and a count of the number of elements that this array can hold as the second argument (this count should at least be equal to the number of available devices).
 
-The strings returned by this method are the Plug and Play names of the connected devices. These names, in turn, are passed to other methods on the [**IPortableDeviceManager**](iportabledevicemanager.md) interface to retrieve device-specific information such as the friendly name, the manufacturer's name, and the device description. (These names are also used to open a connection to the device when an application calls the [**IPortableDevice::Open**](iportabledevice-open.md) method.)
+The strings returned by this method are the Plug and Play names of the connected devices. These names, in turn, are passed to other methods on the [**IPortableDeviceManager**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master) interface to retrieve device-specific information such as the friendly name, the manufacturer's name, and the device description. (These names are also used to open a connection to the device when an application calls the [**IPortableDevice::Open**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open?branch=master) method.)
 
 
 ```C++
@@ -113,7 +118,7 @@ pPnpDeviceIDs = NULL;
 
 <dl> <dt>
 
-[**IPortableDeviceManager Interface**](iportabledevicemanager.md)
+[**IPortableDeviceManager Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master)
 </dt> <dt>
 
 [**Programming Guide**](programming-guide.md)

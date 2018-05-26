@@ -4,11 +4,14 @@ description: Schedules a software update provisioning job that installs software
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '780d5709-9e7d-41d9-a4d0-b5d021615655'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 780d5709-9e7d-41d9-a4d0-b5d021615655
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SchedulePatch method Remote Desktop Services", "SchedulePatch method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class", "Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , SchedulePatch method"]
+keywords:
+- SchedulePatch method Remote Desktop Services
+- SchedulePatch method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class
+- Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , SchedulePatch method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SchedulePatch method of the Win32\_RDMSVirtualDesktopCollection class
@@ -28,9 +34,9 @@ Schedules a software update provisioning job that installs software updates on t
 
 ```mof
 uint32 SchedulePatch(
-  [in] DATETIME StartTime,
-  [in] DATETIME ForceLogOffTime,
-  [in] string   JobInputXml
+  [in] DATETIME StartTime,
+  [in] DATETIME ForceLogOffTime,
+  [in] string   JobInputXml
 );
 ```
 
@@ -46,7 +52,7 @@ uint32 SchedulePatch(
 > [!Note]  
 > The system will not log off users of the virtual machines until the time specified in the *ForceLogOffTime* parameter.
 
- 
+ 
 
 The date and time to install the updates.
 
@@ -77,7 +83,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -91,9 +97,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktopCollection**](win32-rdmsvirtualdesktopcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

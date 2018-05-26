@@ -1,7 +1,12 @@
-﻿---
-Description: 'Discusses methods of opening a Control Panel item for Windows Vista and later systems as well as covering legacy Control Panel commands.'
-ms.assetid: 'c17167ab-e9a0-4290-955c-484d038b82af'
+---
+Description: Discusses methods of opening a Control Panel item for Windows Vista and later systems as well as covering legacy Control Panel commands.
+ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Executing Control Panel Items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Executing Control Panel Items
@@ -69,7 +74,7 @@ To start a Control Panel item with its canonical name, use: "%systemroot%\\syste
 
 To open a specific sub-page in an item, or to open it with additional parameters, use: "%systemroot%\\system32\\control.exe /name **canonicalName** /page **pageName**"
 
-An application can also implement the [**IOpenControlPanel::Open**](iopencontrolpanel-open.md) method to launch Control Panel items, including the ability to open a specific sub-page.
+An application can also implement the [**IOpenControlPanel::Open**](/windows/win32/shobjidl_core/nf-shobjidl_core-iopencontrolpanel-open?branch=master) method to launch Control Panel items, including the ability to open a specific sub-page.
 
 For a complete list of Control Panel item canonical names, see [Canonical Names of Control Panel Items](controlpanel-canonical-names.md).
 

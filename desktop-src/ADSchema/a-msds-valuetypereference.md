@@ -4,17 +4,22 @@ description: This attribute is used to link a resource property object to its va
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8e5b1f18-91c7-4b0b-b4f0-52ebb1c210b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8e5b1f18-91c7-4b0b-b4f0-52ebb1c210b8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Value-Type-Reference attribute AD Schema", "msDS-ValueTypeReference attribute AD Schema"]
+keywords:
+- ms-DS-Value-Type-Reference attribute AD Schema
+- msDS-ValueTypeReference attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Value-Type-Reference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Value-Type-Reference attribute
@@ -38,7 +43,7 @@ This attribute is used to link a resource property object to its value type.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This attribute is used to link a resource property object to its value type.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

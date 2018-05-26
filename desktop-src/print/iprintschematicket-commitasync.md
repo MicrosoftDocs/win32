@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an asynchronous PrintTicket commit operation context.'
-ms.assetid: 'CFEDCABF-A875-4A69-954D-267765350E9D'
-title: 'IPrintSchemaTicket::CommitAsync method'
+---
+Description: Gets an asynchronous PrintTicket commit operation context.
+ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
+title: IPrintSchemaTicketCommitAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::CommitAsync method

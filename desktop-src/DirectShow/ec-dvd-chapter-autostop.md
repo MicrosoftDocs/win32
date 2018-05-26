@@ -1,12 +1,17 @@
 ---
-Description: 'Indicates that DVD playback stopped as the result of a call to the IDvdControl2::PlayChaptersAutoStop method.'
-ms.assetid: 'ccafaf76-ec8c-4d67-9b29-565f3ed6593b'
-title: 'EC\_DVD\_CHAPTER\_AUTOSTOP'
+Description: Indicates that DVD playback stopped as the result of a call to the IDvdControl2PlayChaptersAutoStop method.
+ms.assetid: ccafaf76-ec8c-4d67-9b29-565f3ed6593b
+title: EC\_DVD\_CHAPTER\_AUTOSTOP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_CHAPTER\_AUTOSTOP
 
-Indicates that DVD playback stopped as the result of a call to the [**IDvdControl2::PlayChaptersAutoStop**](idvdcontrol2-playchaptersautostop.md) method.
+Indicates that DVD playback stopped as the result of a call to the [**IDvdControl2::PlayChaptersAutoStop**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-playchaptersautostop?branch=master) method.
 
 ## Parameters
 
@@ -53,9 +58,9 @@ This event is raised in the title domain.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

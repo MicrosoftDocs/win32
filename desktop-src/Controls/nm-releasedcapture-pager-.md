@@ -1,8 +1,9 @@
 ---
 title: NM\_RELEASEDCAPTURE (pager) notification code
-description: Notifies a pager control's parent window that the control has released the mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '5ce9c38a-5d37-4ac7-8510-30bc59d85cca'
-keywords: ["NM_RELEASEDCAPTURE (pager) notification code Windows Controls"]
+description: Notifies a pager controls parent window that the control has released the mouse capture. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 5ce9c38a-5d37-4ac7-8510-30bc59d85cca
+keywords:
+- NM_RELEASEDCAPTURE (pager) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_RELEASEDCAPTURE (pager) notification code
@@ -33,7 +39,7 @@ NM_RELEASEDCAPTURE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure that contains additional information about this notification.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value is ignored by the pager control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

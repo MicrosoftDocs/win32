@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the first node in the list.'
-ms.assetid: '00a9e7c8-e536-46e2-96a0-e26eb6c34e54'
-title: 'CBaseList::m\_pFirst member'
+Description: Pointer to the first node in the list.
+ms.assetid: 00a9e7c8-e536-46e2-96a0-e26eb6c34e54
+title: CBaseListm\_pFirst member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList::m\_pFirst member
@@ -35,9 +40,9 @@ CNode *m_pFirst;
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

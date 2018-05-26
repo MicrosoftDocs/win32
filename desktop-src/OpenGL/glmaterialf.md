@@ -1,8 +1,9 @@
 ---
 title: glMaterialf function
 description: The glMaterialf function specifies material parameters for the lighting model.
-ms.assetid: 'c6d183c4-2d1f-4fb9-b24f-c132ebfc708d'
-keywords: ["glMaterialf function OpenGL"]
+ms.assetid: c6d183c4-2d1f-4fb9-b24f-c132ebfc708d
+keywords:
+- glMaterialf function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glMaterialf function
@@ -22,9 +28,9 @@ The **glMaterialf** function specifies material parameters for the lighting mode
 
 ```C++
 void WINAPI glMaterialf(
-   GLenum  face,
-   GLenum  pname,
-   GLfloat param
+   GLenum  face,
+   GLenum  pname,
+   GLfloat param
 );
 ```
 
@@ -54,7 +60,7 @@ The single-valued material parameter of the face or faces being updated. Must be
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -115,8 +121,8 @@ The following function retrieves information related to **glMaterialf**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -136,9 +142,9 @@ The following function retrieves information related to **glMaterialf**:
 [**glLightModel**](gllightmodel-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

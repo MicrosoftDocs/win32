@@ -1,7 +1,12 @@
 ---
 title: DirectComposition samples
 description: The following sample applications show how to use the Microsoft DirectComposition \ 32;API and demonstrate its capabilities.
-ms.assetid: 'E2794CE7-20A3-4388-B1DC-D9822C970774'
+ms.assetid: E2794CE7-20A3-4388-B1DC-D9822C970774
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectComposition samples
@@ -21,7 +26,7 @@ The following sample applications show how to use the Microsoft DirectCompositio
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ The following sample applications show how to use the Microsoft DirectCompositio
 [DirectComposition](directcomposition-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

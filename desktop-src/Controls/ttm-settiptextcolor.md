@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETTIPTEXTCOLOR message
 description: Sets the text color in a tooltip window.
-ms.assetid: 'a6c6eb31-e6c4-47e2-b112-48e7cd21b778'
-keywords: ["TTM_SETTIPTEXTCOLOR message Windows Controls"]
+ms.assetid: a6c6eb31-e6c4-47e2-b112-48e7cd21b778
+keywords:
+- TTM_SETTIPTEXTCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETTIPTEXTCOLOR message
@@ -45,8 +51,8 @@ When visual styles are enabled, this message has no effect.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ When visual styles are enabled, this message has no effect.
 [**TTM\_GETTIPTEXTCOLOR**](ttm-gettiptextcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

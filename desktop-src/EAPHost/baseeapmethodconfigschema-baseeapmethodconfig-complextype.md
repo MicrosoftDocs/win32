@@ -1,14 +1,20 @@
 ---
 title: BaseEapMethodConfig Complex Type
 description: Is a placeholder element for the method configuration.
-ms.assetid: '9aafd6ad-2342-4882-99d3-2f2e6c3d67b5'
-keywords: ["BaseEapMethodConfig complex type EAPHost"]
+ms.assetid: 9aafd6ad-2342-4882-99d3-2f2e6c3d67b5
+keywords:
+- BaseEapMethodConfig complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - BaseEapMethodConfig
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseEapMethodConfig Complex Type
@@ -38,8 +44,8 @@ The EAP method performs schema validation on the contents of the **BaseEapMethod
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -53,9 +59,9 @@ The EAP method performs schema validation on the contents of the **BaseEapMethod
 [baseeapmethodconfig Schema](baseeapmethodconfigschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

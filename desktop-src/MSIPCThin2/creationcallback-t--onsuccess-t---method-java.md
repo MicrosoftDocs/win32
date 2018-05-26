@@ -4,17 +4,21 @@ description: Called upon successful creation of a protected stream.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b51092c0-a20a-4b42-971c-ec69834a8349'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b51092c0-a20a-4b42-971c-ec69834a8349
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CreationCallback T .onSuccess method"]
+keywords:
+- CreationCallback T .onSuccess method
 topic_type:
 - apiref
 api_name:
 - CreationCallback T .onSuccess method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreationCallback&lt;T&gt;.onSuccess method
@@ -37,7 +41,7 @@ void onSuccess(T item)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ CreationCallback.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

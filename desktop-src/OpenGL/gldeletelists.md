@@ -1,8 +1,9 @@
 ---
 title: glDeleteLists function
 description: The glDeleteLists function deletes a contiguous group of display lists.
-ms.assetid: '979ab352-99db-4822-922c-a1813b9fcfce'
-keywords: ["glDeleteLists function OpenGL"]
+ms.assetid: 979ab352-99db-4822-922c-a1813b9fcfce
+keywords:
+- glDeleteLists function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDeleteLists function
@@ -22,8 +28,8 @@ The **glDeleteLists** function deletes a contiguous group of display lists.
 
 ```C++
 void WINAPI glDeleteLists(
-   GLuint  list,
-   GLsizei range
+   GLuint  list,
+   GLsizei range
 );
 ```
 
@@ -89,8 +95,8 @@ All storage locations allocated to the specified display lists are freed, and th
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -122,9 +128,9 @@ All storage locations allocated to the specified display lists are freed, and th
 [**glNewList**](glnewlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

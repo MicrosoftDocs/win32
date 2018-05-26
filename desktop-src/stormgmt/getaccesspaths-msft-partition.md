@@ -1,8 +1,11 @@
 ---
 title: GetAccessPaths method of the MSFT\_Partition class
 description: Retrieves all mount points and drive letters that can be used to access the partition.
-ms.assetid: 'a7c0e34e-b9f3-40ce-b81d-b4a46dc9c0ec'
-keywords: ["GetAccessPaths method Windows Storage Management API", "GetAccessPaths method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , GetAccessPaths method"]
+ms.assetid: a7c0e34e-b9f3-40ce-b81d-b4a46dc9c0ec
+keywords:
+- GetAccessPaths method Windows Storage Management API
+- GetAccessPaths method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , GetAccessPaths method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetAccessPaths method of the MSFT\_Partition class
@@ -22,8 +30,8 @@ Retrieves all mount points and drive letters that can be used to access the part
 
 ```mof
 UInt32 GetAccessPaths(
-  [out] String AccessPaths[],
-  [out] String ExtendedStatus
+  [out] String AccessPaths[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -77,8 +85,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -91,9 +99,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

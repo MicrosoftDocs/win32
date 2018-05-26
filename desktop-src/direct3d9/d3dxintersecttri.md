@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes the intersection of a ray and a triangle.'
-ms.assetid: 'f335a71d-7203-4ea1-a6bf-407b28c712e6'
+---
+Description: Computes the intersection of a ray and a triangle.
+ms.assetid: f335a71d-7203-4ea1-a6bf-407b28c712e6
 title: D3DXIntersectTri function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXIntersectTri function

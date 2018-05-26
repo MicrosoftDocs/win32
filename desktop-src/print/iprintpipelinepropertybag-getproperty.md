@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetProperty method gets a property from a property bag.'
-ms.assetid: '10a5ada8-98ab-4e1c-a4b5-2f6d60674952'
-title: 'IPrintPipelinePropertyBag::GetProperty method'
+---
+Description: The GetProperty method gets a property from a property bag.
+ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
+title: IPrintPipelinePropertyBagGetProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelinePropertyBag::GetProperty method

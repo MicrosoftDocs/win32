@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to create a search with query constraints using the Shell programming model.'
+Description: Demonstrates how to create a search with query constraints using the Shell programming model.
 title: Search Folder Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Search Folder Sample
@@ -17,7 +22,7 @@ This topic contains the following sections.
 
 ## Description
 
-This sample shows how to create a constrained search by using the [**ISearchFolderItemFactory**](isearchfolderitemfactory.md) interface to construct a folder Shell item (a container) that represents the query. The results are displayed using the file open dialog.
+This sample shows how to create a constrained search by using the [**ISearchFolderItemFactory**](/windows/win32/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory?branch=master) interface to construct a folder Shell item (a container) that represents the query. The results are displayed using the file open dialog.
 
 ## Requirements
 

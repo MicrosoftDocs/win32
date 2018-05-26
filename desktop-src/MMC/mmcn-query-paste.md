@@ -1,14 +1,15 @@
 ---
 title: MMCN\_QUERY\_PASTE message
-description: Sent to a snap-in's IComponent implementation to verify that the snap-in can paste the items from the given data object.
+description: Sent to a snap-ins IComponent implementation to verify that the snap-in can paste the items from the given data object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '19259852-be87-40f6-8475-26f7cc232db6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 19259852-be87-40f6-8475-26f7cc232db6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_QUERY_PASTE message MMC"]
+keywords:
+- MMCN_QUERY_PASTE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_QUERY\_PASTE message
 
-The **MMCN\_QUERY\_PASTE** notification message is sent to a snap-in's [**IComponent**](icomponent.md) implementation to verify that the snap-in can paste the items from the given data object.
+The **MMCN\_QUERY\_PASTE** notification message is sent to a snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to verify that the snap-in can paste the items from the given data object.
 
 ## Parameters
 
@@ -76,8 +80,8 @@ A snap-in must handle this notification and return S\_OK in order to enable the 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -101,9 +105,9 @@ A snap-in must handle this notification and return S\_OK in order to enable the 
 [Using Copy as the Default Drag and Drop Verb](using-copy-as-the-default-drag-and-drop-verb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

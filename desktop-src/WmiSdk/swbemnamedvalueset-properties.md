@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemNamedValueSet object exposes the following properties.'
+Description: The SWbemNamedValueSet object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '760F6646-83D9-4D3D-A37F-3A85FA6CAAE6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 760F6646-83D9-4D3D-A37F-3A85FA6CAAE6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemNamedValueSet Properties

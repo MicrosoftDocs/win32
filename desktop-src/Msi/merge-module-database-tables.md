@@ -1,7 +1,12 @@
 ---
-Description: 'The following tables are required in a standard merge module.'
-ms.assetid: '2af6cea0-6d93-4aa5-a708-d305f11986ef'
+Description: The following tables are required in a standard merge module.
+ms.assetid: 2af6cea0-6d93-4aa5-a708-d305f11986ef
 title: Merge Module Database Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge Module Database Tables

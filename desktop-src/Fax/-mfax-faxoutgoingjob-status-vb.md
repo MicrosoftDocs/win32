@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Status property is a number that indicates the current status of an outbound fax job in the job queue.'
-ms.assetid: 'b1c31f68-dc4a-4cab-9e1b-3a9767f3ae38'
-title: 'FaxOutgoingJob.Status property'
+---
+Description: The Status property is a number that indicates the current status of an outbound fax job in the job queue.
+ms.assetid: b1c31f68-dc4a-4cab-9e1b-3a9767f3ae38
+title: FaxOutgoingJob.Status property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Status property
@@ -21,11 +26,11 @@ Property Status As Integer
 
 ## Property value
 
-Value from the [**FAX\_JOB\_STATUS\_ENUM**](-mfax-fax-job-status-enum.md) enumeration that specifies the current status of an outbound fax job in the job queue.
+Value from the [**FAX\_JOB\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_status_enum?branch=master) enumeration that specifies the current status of an outbound fax job in the job queue.
 
 ## Remarks
 
-For more information, see [**FAX\_JOB\_STATUS\_ENUM**](-mfax-fax-job-status-enum.md).
+For more information, see [**FAX\_JOB\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_status_enum?branch=master).
 
 ## Requirements
 
@@ -47,7 +52,7 @@ For more information, see [**FAX\_JOB\_STATUS\_ENUM**](-mfax-fax-job-status-enum
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

@@ -1,13 +1,16 @@
 ---
-Description: 'The Count property of the SWbemQualifierSet object contains the number of items in an SWbemQualifierSet collection. This property is read-only.'
+Description: The Count property of the SWbemQualifierSet object contains the number of items in an SWbemQualifierSet collection. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a381916a-a1e2-4b9a-8162-777a04824291'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a381916a-a1e2-4b9a-8162-777a04824291
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifierSet.Count property'
+title: SWbemQualifierSet.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifierSet.Count property
@@ -35,8 +38,8 @@ SWbemQualifierSet.Count As Integer
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -52,9 +55,9 @@ SWbemQualifierSet.Count As Integer
 [**SWbemQualifierSet**](swbemqualifierset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

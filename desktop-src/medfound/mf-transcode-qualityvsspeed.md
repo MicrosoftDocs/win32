@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a number between 0 and 100 that indicates the tradeoff between encoding quality and encoding speed.'
-ms.assetid: '872140e8-fd39-446c-a84f-1e04ea95076e'
-title: 'MF\_TRANSCODE\_QUALITYVSSPEED attribute'
+---
+Description: Specifies a number between 0 and 100 that indicates the tradeoff between encoding quality and encoding speed.
+ms.assetid: 872140e8-fd39-446c-a84f-1e04ea95076e
+title: MF\_TRANSCODE\_QUALITYVSSPEED attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSCODE\_QUALITYVSSPEED attribute
@@ -27,9 +32,9 @@ The value of this property has the following range.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -59,7 +64,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Transcode API](transcode-api.md)
 </dt> <dt>
 
-[**IMFTranscodeProfile::SetVideoAttributes**](imftranscodeprofile-setvideoattributes.md)
+[**IMFTranscodeProfile::SetVideoAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,11 @@
 ---
 title: IImageDisplayProperties get\_Title method
 description: Gets the title of the image.
-ms.assetid: 'C637B047-1B8C-4988-9408-C8AB6EA181DE'
-keywords: ["get_Title method", "get_Title method, IImageDisplayProperties interface", "IImageDisplayProperties interface, get_Title method"]
+ms.assetid: C637B047-1B8C-4988-9408-C8AB6EA181DE
+keywords:
+- get_Title method
+- get_Title method, IImageDisplayProperties interface
+- IImageDisplayProperties interface, get_Title method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImageDisplayProperties::get\_Title method
@@ -22,7 +30,7 @@ Gets the title of the image.
 
 ```C++
 HRESULT get_Title(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IImageDisplayProperties**](iimagedisplayproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

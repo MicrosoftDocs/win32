@@ -4,11 +4,14 @@ description: Indicates whether the value of the property has changed since the l
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '231e9e80-aa4c-4a83-83f6-4276fac4211b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 231e9e80-aa4c-4a83-83f6-4276fac4211b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Modified property Failover Cluster", "Modified property Failover Cluster , ClusProperty object", "ClusProperty object Failover Cluster , Modified property"]
+keywords:
+- Modified property Failover Cluster
+- Modified property Failover Cluster , ClusProperty object
+- ClusProperty object Failover Cluster , Modified property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperty.Modified property
@@ -51,7 +57,7 @@ A [**ClusProperty**](clusproperty-object.md) object operates on a local copy of 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -79,9 +85,9 @@ A [**ClusProperty**](clusproperty-object.md) object operates on a local copy of 
 [**ClusProperties.SaveChanges**](clusproperties-savechanges.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

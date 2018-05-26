@@ -1,7 +1,12 @@
 ---
 title: Microsoft HTML Help Downloads
 description: All HTML Help downloads are now available from the Microsoft.com Download Center.
-ms.assetid: '87F9B14E-213B-4d31-A165-5E1212952041'
+ms.assetid: 87F9B14E-213B-4d31-A165-5E1212952041
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft HTML Help Downloads

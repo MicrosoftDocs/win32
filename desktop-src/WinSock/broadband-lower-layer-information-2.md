@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists the type definition for the broadband lower-layer information.'
-ms.assetid: 'b987dd6b-a611-4297-abaa-fd080cc94f6f'
+Description: This section lists the type definition for the broadband lower-layer information.
+ms.assetid: b987dd6b-a611-4297-abaa-fd080cc94f6f
 title: Broadband Lower Layer Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Broadband Lower Layer Information

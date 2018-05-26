@@ -4,11 +4,14 @@ description: Returns a ClusVersion object describing the operating system and Cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '77abfb85-48fe-4b18-b79e-5641711f33d7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 77abfb85-48fe-4b18-b79e-5641711f33d7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Version property Failover Cluster", "Version property Failover Cluster , Cluster object", "Cluster object Failover Cluster , Version property"]
+keywords:
+- Version property Failover Cluster
+- Version property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , Version property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.Version property
@@ -48,7 +54,7 @@ A [**ClusVersion**](clusversion-object.md) object that receives the version info
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -67,9 +73,9 @@ A [**ClusVersion**](clusversion-object.md) object that receives the version info
 [**ClusVersion**](clusversion-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

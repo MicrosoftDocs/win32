@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_EXTENDED\_ENROLLMENT\_STATUS structure
 description: Contains additional information about the status of an enrollment that is in progress.
-ms.assetid: '2FDDF4D3-6A3E-4DF5-ACA4-423F893C6F2B'
-keywords: ["WINBIO_EXTENDED_ENROLLMENT_STATUS structure Windows Biometric Framework API", "PWINBIO_EXTENDED_ENROLLMENT_STATUS structure pointer Windows Biometric Framework API"]
+ms.assetid: 2FDDF4D3-6A3E-4DF5-ACA4-423F893C6F2B
+keywords:
+- WINBIO_EXTENDED_ENROLLMENT_STATUS structure Windows Biometric Framework API
+- PWINBIO_EXTENDED_ENROLLMENT_STATUS structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EXTENDED\_ENROLLMENT\_STATUS structure
@@ -22,17 +29,17 @@ Contains additional information about the status of an enrollment that is in pro
 
 ```C++
 typedef struct _WINBIO_EXTENDED_ENROLLMENT_STATUS {
-  HRESULT                  TemplateStatus;
-  WINBIO_REJECT_DETAIL     RejectDetail;
-  ULONG                    PercentComplete;
-  WINBIO_BIOMETRIC_TYPE    Factor;
+  HRESULT                  TemplateStatus;
+  WINBIO_REJECT_DETAIL     RejectDetail;
+  ULONG                    PercentComplete;
+  WINBIO_BIOMETRIC_TYPE    Factor;
   WINBIO_BIOMETRIC_SUBTYPE SubFactor;
   union {
     ULONG32 Null;
     struct {
       RECT BoundingBox;
       LONG Distance;
-    } FacialFeatures;
+    } FacialFeatures;
     struct {
       ULONG GeneralSamples;
       ULONG Center;
@@ -40,18 +47,18 @@ typedef struct _WINBIO_EXTENDED_ENROLLMENT_STATUS {
       ULONG BottomEdge;
       ULONG LeftEdge;
       ULONG RightEdge;
-    } Fingerprint;
+    } Fingerprint;
     struct {
-      RECT  EyeBoundingBox_1;
-      RECT  EyeBoundingBox_2;
+      RECT  EyeBoundingBox_1;
+      RECT  EyeBoundingBox_2;
       POINT PupilCenter_1;
       POINT PupilCenter_2;
-      LONG  Distance;
-    } Iris;
+      LONG  Distance;
+    } Iris;
     struct {
       ULONG32 Reserved;
-    } Voice;
-  } Specific;
+    } Voice;
+  } Specific;
 } WINBIO_EXTENDED_ENROLLMENT_STATUS, *PWINBIO_EXTENDED_ENROLLMENT_STATUS;
 ```
 
@@ -77,7 +84,7 @@ The status of sample collection for the enrollment template. The following value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -259,15 +266,15 @@ Reserved.
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

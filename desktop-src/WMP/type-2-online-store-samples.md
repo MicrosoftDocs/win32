@@ -1,8 +1,17 @@
 ---
 title: Type 2 Online Store Samples
 description: Type 2 Online Store Samples
-ms.assetid: '412d1d71-61ee-4686-ae2f-7158ca471060'
-keywords: ["Windows Media Player online stores,samples", "online stores,samples", "type 2 online stores,samples", "samples,type 2 online stores"]
+ms.assetid: 412d1d71-61ee-4686-ae2f-7158ca471060
+keywords:
+- Windows Media Player online stores,samples
+- online stores,samples
+- type 2 online stores,samples
+- samples,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type 2 Online Store Samples

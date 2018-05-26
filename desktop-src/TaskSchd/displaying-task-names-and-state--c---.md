@@ -1,7 +1,12 @@
 ---
 title: Displaying Task Names and States (C++)
 description: These two C++ examples show how to enumerate tasks. One example shows how to display information for tasks in a task folder, and the other examples shows how to display information for all running tasks.
-ms.assetid: '32037133-d3f3-4186-b035-ab01d37ed58d'
+ms.assetid: 32037133-d3f3-4186-b035-ab01d37ed58d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Task Names and States (C++)
@@ -13,21 +18,21 @@ The following procedure describes how to display task names and state for all th
 **To display task names and state for all the tasks in a task folder**
 
 1.  Initialize COM and set general COM security.
-2.  Create the [**ITaskService**](itaskservice.md) object.
+2.  Create the [**ITaskService**](/windows/win32/taskschd/nn-taskschd-itaskservice?branch=master) object.
 
     This object allows you to connect to the Task Scheduler service and access a specific task folder.
 
 3.  Get a task folder that holds the tasks you want information about.
 
-    Use the [**ITaskService::GetFolder**](itaskservice-getfolder.md) method to get the folder.
+    Use the [**ITaskService::GetFolder**](/windows/win32/taskschd/nf-taskschd-itaskservice-getfolder?branch=master) method to get the folder.
 
 4.  Get the collection of tasks from the folder.
 
-    Use the [**ITaskFolder::GetTasks**](itaskfolder-gettasks.md) method to get the collection of tasks ([**IRegisteredTaskCollection**](iregisteredtaskcollection.md)).
+    Use the [**ITaskFolder::GetTasks**](/windows/win32/taskschd/nf-taskschd-itaskfolder-gettasks?branch=master) method to get the collection of tasks ([**IRegisteredTaskCollection**](/windows/win32/taskschd/nn-taskschd-iregisteredtaskcollection?branch=master)).
 
 5.  Get the number of tasks in the collection, and enumerate through each task in the collection.
 
-    Use the [**Item Property of IRegisteredTaskCollection**](iregisteredtaskcollection-item.md) to get an [**IRegisteredTask**](iregisteredtask.md) instance. Each instance will contain a task in the collection. You can then display the information (property values) from each registered task.
+    Use the [**Item Property of IRegisteredTaskCollection**](/windows/win32/taskschd/nf-taskschd-iregisteredtaskcollection-get_item?branch=master) to get an [**IRegisteredTask**](/windows/win32/taskschd/nn-taskschd-iregisteredtask?branch=master) instance. Each instance will contain a task in the collection. You can then display the information (property values) from each registered task.
 
 The following C++ example shows how to display the name and state of all the tasks in the root task folder.
 
@@ -195,14 +200,14 @@ The following procedure describes how to display task names and state for all ru
 **To display task names and state for all running tasks**
 
 1.  Initialize COM and set general COM security.
-2.  Create the [**ITaskService**](itaskservice.md) object.
+2.  Create the [**ITaskService**](/windows/win32/taskschd/nn-taskschd-itaskservice?branch=master) object.
 
     This object allows you to connect to the Task Scheduler service and access a specific task folder.
 
-3.  Use the [**ITaskService::GetRunningTasks**](itaskservice-getrunningtasks.md) method to get a collection of all the running tasks ([**IRunningTaskCollection**](irunningtaskcollection.md)). You can specify to get instances of running task either including or excluding hidden tasks.
+3.  Use the [**ITaskService::GetRunningTasks**](/windows/win32/taskschd/nf-taskschd-itaskservice-getrunningtasks?branch=master) method to get a collection of all the running tasks ([**IRunningTaskCollection**](/windows/win32/taskschd/nn-taskschd-irunningtaskcollection?branch=master)). You can specify to get instances of running task either including or excluding hidden tasks.
 4.  Get the number of tasks in the collection, and enumerate through each task in the collection.
 
-    Use the [**Item property of IRunningTaskCollection**](irunningtaskcollection-item.md) to get an [**IRunningTask**](iregisteredtask.md) instance. Each instance will contain a task in the collection. You can then display the information (property values) from each registered task.
+    Use the [**Item property of IRunningTaskCollection**](/windows/win32/taskschd/nf-taskschd-irunningtaskcollection-get_item?branch=master) to get an [**IRunningTask**](/windows/win32/taskschd/nn-taskschd-iregisteredtask?branch=master) instance. Each instance will contain a task in the collection. You can then display the information (property values) from each registered task.
 
 The following C++ example shows how to display the name and state of all the running tasks, including hidden tasks.
 

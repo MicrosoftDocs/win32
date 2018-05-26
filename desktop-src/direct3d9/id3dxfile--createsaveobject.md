@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a save object that will be used to save data to a .x file.'
-ms.assetid: 'da064e83-605f-4c86-985d-9a0961c18e01'
-title: 'ID3DXFile::CreateSaveObject method'
+---
+Description: Creates a save object that will be used to save data to a .x file.
+ms.assetid: da064e83-605f-4c86-985d-9a0961c18e01
+title: ID3DXFileCreateSaveObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFile::CreateSaveObject method

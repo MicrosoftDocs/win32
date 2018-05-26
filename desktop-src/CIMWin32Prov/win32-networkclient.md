@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_NetworkClient WMI class represents a network client on a Windows system. Any computer system on the network with a client relationship to the system is a descendant (or member) of this class.'
+---
+Description: The Win32\_NetworkClient WMI class represents a network client on a Windows system. Any computer system on the network with a client relationship to the system is a descendant (or member) of this class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f0cc2cef-be23-42f4-a592-2c292aa5085f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f0cc2cef-be23-42f4-a592-2c292aa5085f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NetworkClient class'
+title: Win32\_NetworkClient class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NetworkClient class

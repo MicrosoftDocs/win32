@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection add method
 description: The add method adds a new media item or playlist to the library.
-ms.assetid: 'a3539646-797b-4481-a31e-86771f3633a9'
-keywords: ["add method Windows Media Player", "add method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , add method"]
+ms.assetid: a3539646-797b-4481-a31e-86771f3633a9
+keywords:
+- add method Windows Media Player
+- add method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::add method
@@ -144,9 +152,9 @@ player.mediaCollection.add(&quot;C:\WMSDK\WMPSDK\samples\media\house.wma&quot;)<
 [**IWMPPlaylistCollection.importPlaylist (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-importplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

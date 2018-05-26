@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the Volume Shadow Copy Service (VSS) service, which implements the VSS Requester in the guest operating system.'
-ms.assetid: '4DD38929-1E3F-4105-BC1A-B367516F7B6E'
-title: 'Msvm\_VssComponent class'
+Description: Represents the state of the Volume Shadow Copy Service (VSS) service, which implements the VSS Requester in the guest operating system.
+ms.assetid: 4DD38929-1E3F-4105-BC1A-B367516F7B6E
+title: Msvm\_VssComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VssComponent class
@@ -16,44 +21,44 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VssComponent : CIM_LogicalDevice
 {
-  string   InstanceID;
-  string   Caption = "VSS";
-  string   Description = "Microsoft VSS Service";
-  string   ElementName = "VSS";
+  string   InstanceID;
+  string   Caption = "VSS";
+  string   Description = "Microsoft VSS Service";
+  string   ElementName = "VSS";
   datetime InstallDate;
-  string   Name = "VSS";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 7;
+  string   Name = "VSS";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 7;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VssComponent";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = {6};
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VssComponent";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = {6};
+  uint64   MaxQuiesceTime;
 };
 ```
 
@@ -83,7 +88,7 @@ The **Msvm\_VssComponent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -123,7 +128,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -301,7 +306,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.mi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -325,7 +330,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -374,7 +379,7 @@ The current health of the element. This attribute expresses the health of this e
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -557,7 +562,7 @@ The following are the possible values for the **OperationalStatus**\[0\] propert
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -678,7 +683,7 @@ The last requested or desired state for the element. This property is inherited 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -792,7 +797,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -806,8 +811,8 @@ Access to the **Msvm\_VssComponent** class might be restricted by UAC Filtering.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -824,9 +829,9 @@ Access to the **Msvm\_VssComponent** class might be restricted by UAC Filtering.
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

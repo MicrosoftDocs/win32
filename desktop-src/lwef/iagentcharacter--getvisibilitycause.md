@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetVisibilityCause
 description: IAgentCharacter GetVisibilityCause
-ms.assetid: '46f681de-1c99-4f90-a3fe-aae04bb75339'
+ms.assetid: 46f681de-1c99-4f90-a3fe-aae04bb75339
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetVisibilityCause
@@ -41,7 +46,7 @@ Address of a variable that receives the cause of the character's last visibility
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -50,9 +55,9 @@ Address of a variable that receives the cause of the character's last visibility
 [**IAgentNotifySink::VisibleState**](iagentnotifysink--visiblestate.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

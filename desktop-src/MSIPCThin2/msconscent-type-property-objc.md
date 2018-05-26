@@ -4,17 +4,21 @@ description: Gets the type of consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E13E35AF-27DE-46B5-A28E-E061BCAE3673'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: E13E35AF-27DE-46B5-A28E-E061BCAE3673
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsent type property"]
+keywords:
+- MSConsent type property
 topic_type:
 - apiref
 api_name:
 - MSConsent type property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsent type property
@@ -37,7 +41,7 @@ Gets the type of consent. For more information on the available types, see [**MS
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSConsent.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

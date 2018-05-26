@@ -1,8 +1,9 @@
 ---
 title: STM\_SETIMAGE message
 description: An application sends an STM\_SETIMAGE message to associate a new image with a static control.
-ms.assetid: 'd3e7c5d4-f621-40f6-9558-7fb699e8b489'
-keywords: ["STM_SETIMAGE message Windows Controls"]
+ms.assetid: d3e7c5d4-f621-40f6-9558-7fb699e8b489
+keywords:
+- STM_SETIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STM\_SETIMAGE message
@@ -37,7 +43,7 @@ Specifies the type of image to associate with the static control. This parameter
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,15 +73,15 @@ To associate an image with a static control, the control must have the proper st
 
 
 
- 
+ 
 
 > \[!Important\]
 >
 > In version 6 of the Microsoft Win32 controls, a bitmap passed to a static control using the **STM\_SETIMAGE** message was the same bitmap returned by a subsequent **STM\_SETIMAGE** message. The client is responsible to delete any bitmap sent to a static control.
 >
-> With Windows XP, if the bitmap passed in the **STM\_SETIMAGE** message contains pixels with nonzero alpha, the static control takes a copy of the bitmap. This copied bitmap is returned by the next **STM\_SETIMAGE** message. The client code may independently track the bitmaps passed to the static control, but if it does not check and release the bitmaps returned from **STM\_SETIMAGE** messages, the bitmaps are leaked.
+> With Windows XP, if the bitmap passed in the **STM\_SETIMAGE** message contains pixels with nonzero alpha, the static control takes a copy of the bitmap. This copied bitmap is returned by the next **STM\_SETIMAGE** message. The client code may independently track the bitmaps passed to the static control, but if it does not check and release the bitmaps returned from **STM\_SETIMAGE** messages, the bitmaps are leaked.
 
- 
+ 
 
 ## Requirements
 
@@ -83,8 +89,8 @@ To associate an image with a static control, the control must have the proper st
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -96,9 +102,9 @@ To associate an image with a static control, the control must have the proper st
 [**STM\_GETIMAGE**](stm-getimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

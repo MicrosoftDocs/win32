@@ -4,11 +4,16 @@ description: The Count property returns the number of View objects that are in t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '92dac3b7-c766-4d7e-8835-427b026f5c60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 92dac3b7-c766-4d7e-8835-427b026f5c60
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , Views object", "Views object MMC , Count property", "Count property MMC , Views interface", "Views interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , Views object
+- Views object MMC , Count property
+- Count property MMC , Views interface
+- Views interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Views::Count property
@@ -54,8 +62,8 @@ nCount = objViews.Count
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -73,9 +81,9 @@ nCount = objViews.Count
 [**Views.Item**](views-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

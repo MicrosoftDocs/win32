@@ -1,7 +1,12 @@
 ---
-Description: 'Upgrades the virtual system.'
-ms.assetid: '4b24aac9-b7b9-460f-9227-fd3c1e960191'
-title: 'UpgradeSystemVersion method of the Msvm\_VirtualSystemManagementService class'
+Description: Upgrades the virtual system.
+ms.assetid: 4b24aac9-b7b9-460f-9227-fd3c1e960191
+title: UpgradeSystemVersion method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpgradeSystemVersion method of the Msvm\_VirtualSystemManagementService class
@@ -15,9 +20,9 @@ When applied to the system settings of a "current" virtual system configuration
 
 ```mof
 uint32 UpgradeSystemVersion(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 UpgradeSettingData,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 UpgradeSettingData,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -93,8 +98,8 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -108,9 +113,9 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

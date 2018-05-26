@@ -4,13 +4,16 @@ description: Adds the available disk to the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dff41349-3158-4e99-bfc4-03369d998e21'
-ms.prod: 'windows-server-dev'
+ms.assetid: dff41349-3158-4e99-bfc4-03369d998e21
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddToCluster method", "AddToCluster method, MSCluster_AvailableDisk class", "MSCluster_AvailableDisk class, AddToCluster method"]
+keywords:
+- AddToCluster method
+- AddToCluster method, MSCluster_AvailableDisk class
+- MSCluster_AvailableDisk class, AddToCluster method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddToCluster method of the MSCluster\_AvailableDisk class
@@ -30,8 +36,8 @@ Adds the available disk to the cluster.
 
 ```mof
 void AddToCluster(
-  [in]  string ResourceName,
-  [out] string Path
+  [in]  string ResourceName,
+  [out] string Path
 );
 ```
 
@@ -46,9 +52,9 @@ void AddToCluster(
 
 The optional resource name to use when adding the disk to the cluster.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This parameter is not supported before Windows Server 2012.
+This parameter is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -74,7 +80,7 @@ Customers need to run validation on a disk before adding it to a pool.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -91,9 +97,9 @@ Customers need to run validation on a disk before adding it to a pool.
 [**MSCluster\_AvailableDisk**](mscluster-availabledisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

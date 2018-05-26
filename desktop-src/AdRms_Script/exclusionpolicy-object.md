@@ -1,13 +1,16 @@
 ---
-Description: 'Manages AD RMS server exclusion policies.'
+Description: Manages AD RMS server exclusion policies.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e9b00e0b-187f-475d-9a71-48e1e30edf2e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e9b00e0b-187f-475d-9a71-48e1e30edf2e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExclusionPolicy object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExclusionPolicy object
@@ -44,7 +47,7 @@ The **ExclusionPolicy** object has these properties.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>DisableLegacyWindowsVersions</strong>](exclusionpolicy-disablelegacywindowsversions-property.md)<br/></td>
-<td style="text-align: left;">Specifies or returns a Boolean value that indicates whether computers running legacy operating systems are excluded. AD RMS support begins with Windows 2000.<br/>
+<td style="text-align: left;">Specifies or returns a Boolean value that indicates whether computers running legacy operating systems are excluded. AD RMS support begins with Windows 2000.<br/>
 <blockquote>
 [!Important]<br />
 This property may be altered or unavailable in subsequent versions of the operating system. See the [<strong>DisableLegacyWindowsVersions</strong>](exclusionpolicy-disablelegacywindowsversions-property.md) property page for further information about which operating systems support this property.
@@ -64,7 +67,7 @@ This property may be altered or unavailable in subsequent versions of the operat
 
 
 
- 
+ 
 
 ## Examples
 
@@ -131,7 +134,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -143,9 +146,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

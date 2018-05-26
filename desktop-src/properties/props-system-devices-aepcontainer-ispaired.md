@@ -1,7 +1,12 @@
 ---
-Description: 'Whether one of the child Device Association Endpoints is paired with the system or not.'
-ms.assetid: '4f2a588c-d1f1-4249-946f-ac989826db2d'
-title: 'System.Devices.AepContainer.IsPaired'
+Description: Whether one of the child Device Association Endpoints is paired with the system or not.
+ms.assetid: 4f2a588c-d1f1-4249-946f-ac989826db2d
+title: System.Devices.AepContainer.IsPaired
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.IsPaired

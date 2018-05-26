@@ -1,7 +1,12 @@
 ---
 title: WinSAT MOF Classes
-ms.assetid: 'be4520ca-a2d4-4b75-b74c-f03096e9e185'
+ms.assetid: be4520ca-a2d4-4b75-b74c-f03096e9e185
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSAT MOF Classes

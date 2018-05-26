@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetGenID method retrieves the object''s generated identifier. The identifier is a reserved number; applications should not use it.'
-ms.assetid: 'b71b9b52-589b-4f80-915f-4805b1b8e295'
-title: 'IAMTimelineObj::GetGenID method'
+---
+Description: The GetGenID method retrieves the objects generated identifier. The identifier is a reserved number; applications should not use it.
+ms.assetid: b71b9b52-589b-4f80-915f-4805b1b8e295
+title: IAMTimelineObjGetGenID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetGenID method

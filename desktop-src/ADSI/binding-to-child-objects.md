@@ -4,18 +4,24 @@ description: In ADSI, a container object exposes the IADsContainer interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '16b913ea-06a4-4e85-ad6c-68817883bbd8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 16b913ea-06a4-4e85-ad6c-68817883bbd8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI , using, binding to child objects", "Binding to Child Objects", "Child Objects, Binding to"]
+keywords:
+- ADSI ADSI , using, binding to child objects
+- Binding to Child Objects
+- Child Objects, Binding to
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to Child Objects
 
-In ADSI, a container object exposes the [**IADsContainer**](iadscontainer.md) interface. The [**IADsContainer::GetObject**](iadscontainer-getobject.md) method is used to bind directly to a child object. The object returned by **IADsContainer::GetObject** has the same security context as the object on which the method was called. This means that if alternate credentials are used, the alternate credentials do not have to be passed to the binding function or method again to maintain the same credentials.
+In ADSI, a container object exposes the [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) interface. The [**IADsContainer::GetObject**](/windows/win32/Iads/nf-iads-iadscontainer-getobject?branch=master) method is used to bind directly to a child object. The object returned by **IADsContainer::GetObject** has the same security context as the object on which the method was called. This means that if alternate credentials are used, the alternate credentials do not have to be passed to the binding function or method again to maintain the same credentials.
 
-The [**IADsContainer::GetObject**](iadscontainer-getobject.md) method takes a relative distinguished name (RDN) that is relative to the current object. This method also takes an optional class name and returns an [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer that represents the child object. To obtain the desired ADSI interface, such as [**IADs**](iads.md), call the [**QueryInterface**](_com_iunknown_queryinterface) method of this **IDispatch** interface pointer.
+The [**IADsContainer::GetObject**](/windows/win32/Iads/nf-iads-iadscontainer-getobject?branch=master) method takes a relative distinguished name (RDN) that is relative to the current object. This method also takes an optional class name and returns an [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer that represents the child object. To obtain the desired ADSI interface, such as [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master), call the [**QueryInterface**](_com_iunknown_queryinterface) method of this **IDispatch** interface pointer.
 
 The following C++ code example shows a function that retrieves a specified child object.
 

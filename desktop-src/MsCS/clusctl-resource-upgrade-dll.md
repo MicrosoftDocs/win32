@@ -4,11 +4,12 @@ description: Allows a setup application to upgrade a resource DLL without stoppi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '685b0df3-7fc1-4516-933d-fed8934efec0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 685b0df3-7fc1-4516-933d-fed8934efec0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_UPGRADE_DLL control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_UPGRADE_DLL control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_UPGRADE\_DLL control code
 
-Allows a setup application to upgrade a [resource DLL](resource-dlls.md) without stopping the [Cluster service](cluster-service.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter.
+Allows a setup application to upgrade a [resource DLL](resource-dlls.md) without stopping the [Cluster service](cluster-service.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterResourceControl(
 
 ## Parameters
 
-The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md).
+The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master).
 
 <dl> <dt>
 
@@ -84,17 +88,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_UPGRADE\_DLL as follows (for
 
 | Component      | Bit location | Value                                                   |
 |----------------|--------------|---------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>             |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>             |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                  |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>                   |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>               |
 | Type bit       | 20           | External (0x0)<br/>                               |
-| Operation code | 0–23         | **CLCTL\_RESOURCE\_UPGRADE\_DLL** (0x4000ba)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>                 |
+| Operation code | 0 23         | **CLCTL\_RESOURCE\_UPGRADE\_DLL** (0x4000ba)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>                 |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
@@ -107,7 +111,7 @@ Do not support or use this control code in your resource DLL.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -116,15 +120,15 @@ Do not support or use this control code in your resource DLL.
 
 <dl> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

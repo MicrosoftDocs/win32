@@ -1,7 +1,12 @@
 ---
 title: Shader Model 5 Objects
 description: Shader Model 5 implements the intrinsic functions from Shader Model 4 and below (see the DirectX SDK), and these new functions, too
-ms.assetid: '53d87343-1ed8-4f2a-9a02-6ba3fc0a4bf6'
+ms.assetid: 53d87343-1ed8-4f2a-9a02-6ba3fc0a4bf6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 5 Objects

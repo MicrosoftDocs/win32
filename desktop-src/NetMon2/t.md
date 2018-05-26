@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter T.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'c05b261d-3fac-40bf-b4ff-bd766f8d148f'
+Description: Glossary of Network Monitor terms that begin with the letter T.
+Robots: noindex, nofollow
+ms.assetid: c05b261d-3fac-40bf-b4ff-bd766f8d148f
 title: T
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T

@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_BIR\_PURPOSE Constants
 description: Specify the purpose for which the biometric information record (BIR) is intended or for which it is suitable.
-ms.assetid: 'AAFD3203-4D3D-43B5-A833-1258E1E281D3'
+ms.assetid: AAFD3203-4D3D-43B5-A833-1258E1E281D3
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIR\_PURPOSE Constants
@@ -32,7 +37,7 @@ The following flags are used by the **Purpose** member of the [**WINBIO\_BIR\_HE
 | <span id="WINBIO_PURPOSE_ENROLL"></span><span id="winbio_purpose_enroll"></span><dl> <dt>**WINBIO\_PURPOSE\_ENROLL**</dt> </dl>                                                            | Enroll a user.<br/>                                                                                                                                                                                                                                                                                                                   |
 | <span id="WINBIO_PURPOSE_ENROLL_FOR_VERIFICATION"></span><span id="winbio_purpose_enroll_for_verification"></span><dl> <dt>**WINBIO\_PURPOSE\_ENROLL\_FOR\_VERIFICATION**</dt> </dl>       | Capture a biometric sample and determine whether the sample corresponds to the specified user identity.<br/>                                                                                                                                                                                                                          |
 | <span id="WINBIO_PURPOSE_ENROLL_FOR_IDENTIFICATION"></span><span id="winbio_purpose_enroll_for_identification"></span><dl> <dt>**WINBIO\_PURPOSE\_ENROLL\_FOR\_IDENTIFICATION**</dt> </dl> | Capture a biometric sample and determine whether it matches an existing biometric template.<br/>                                                                                                                                                                                                                                      |
-| <span id="WINBIO_PURPOSE_AUDIT"></span><span id="winbio_purpose_audit"></span><dl> <dt>**WINBIO\_PURPOSE\_AUDIT**</dt> </dl>                                                               | Extra information that can be used for logging or for display. This value is ignored on input by all functions. On output, it will only be available if supported by the biometric unit and you specify **WINBIO\_DATA\_FLAG\_RAW** in the *Flags* parameter of the [**WinBioCaptureSample**](winbiocapturesample.md) function.<br/> |
+| <span id="WINBIO_PURPOSE_AUDIT"></span><span id="winbio_purpose_audit"></span><dl> <dt>**WINBIO\_PURPOSE\_AUDIT**</dt> </dl>                                                               | Extra information that can be used for logging or for display. This value is ignored on input by all functions. On output, it will only be available if supported by the biometric unit and you specify **WINBIO\_DATA\_FLAG\_RAW** in the *Flags* parameter of the [**WinBioCaptureSample**](/windows/win32/Winbio/nf-winbio-winbiocapturesample?branch=master) function.<br/> |
 
 
 
@@ -42,8 +47,8 @@ The following flags are used by the **Purpose** member of the [**WINBIO\_BIR\_HE
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -58,9 +63,9 @@ The following flags are used by the **Purpose** member of the [**WINBIO\_BIR\_HE
 [**WINBIO\_BIR\_HEADER**](winbio-bir-header.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

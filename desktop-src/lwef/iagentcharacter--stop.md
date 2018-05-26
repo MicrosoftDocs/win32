@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter Stop
 description: IAgentCharacter Stop
-ms.assetid: '3064bb3e-37a6-4022-bffb-130735736889'
+ms.assetid: 3064bb3e-37a6-4022-bffb-130735736889
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::Stop

@@ -1,7 +1,12 @@
 ---
 title: Deleting an Object
 description: Deleting an Object
-ms.assetid: '54ea1e7d-75b5-461f-b0d6-a976c33d66fe'
+ms.assetid: 54ea1e7d-75b5-461f-b0d6-a976c33d66fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting an Object

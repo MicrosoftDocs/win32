@@ -1,7 +1,12 @@
 ---
 title: defaultvalue(value)
 description: Enables specification of a default value for a typed optional parameter.
-ms.assetid: '445a0572-9f08-43d8-b392-e2d5ad6eb785'
+ms.assetid: 445a0572-9f08-43d8-b392-e2d5ad6eb785
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultvalue(value)

@@ -4,17 +4,22 @@ description: Max values allowed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd842a822-010c-4fb5-908b-872248b784ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d842a822-010c-4fb5-908b-872248b784ed
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Max-Values attribute AD Schema", "msDs-MaxValues attribute AD Schema"]
+keywords:
+- ms-DS-Max-Values attribute AD Schema
+- msDs-MaxValues attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Max-Values
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Max-Values attribute

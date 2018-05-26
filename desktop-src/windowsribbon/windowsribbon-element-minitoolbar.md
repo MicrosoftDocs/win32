@@ -1,14 +1,20 @@
 ---
 title: MiniToolbar element
 description: Represents a contextual toolbar.
-ms.assetid: 'bb50890d-554a-4add-a583-d4fd48b823bf'
-keywords: ["MiniToolbar element Windows Ribbon"]
+ms.assetid: bb50890d-554a-4add-a583-d4fd48b823bf
+keywords:
+- MiniToolbar element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - MiniToolbar
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MiniToolbar element
@@ -67,7 +73,7 @@ If displayed without a [**ContextMenu**](windowsribbon-element-contextmenu.md), 
 > [!Note]  
 > Due to this fading behavior, a [**ContextMenu**](windowsribbon-element-contextmenu.md) should be displayed in close proximity to the mouse pointer.
 
- 
+ 
 
 Because controls in the **MiniToolbar** are not keyboard accessible, the Commands they expose should be available elsewhere in the Ribbon UI.
 
@@ -168,7 +174,7 @@ This section of code shows a set of **MiniToolbar** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -180,9 +186,9 @@ This section of code shows a set of **MiniToolbar** control declarations.
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

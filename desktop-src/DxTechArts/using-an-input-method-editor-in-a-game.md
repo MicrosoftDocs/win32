@@ -1,7 +1,12 @@
 ---
 title: Using an Input Method Editor in a Game
 description: This article explains how you can implement a basic IME edit control in a full-screen Microsoft DirectX application.
-ms.assetid: '760ed960-08a3-e967-282e-7fbdbaeb7a4d'
+ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using an Input Method Editor in a Game
@@ -9,7 +14,7 @@ ms.assetid: '760ed960-08a3-e967-282e-7fbdbaeb7a4d'
 > [!Note]  
 > This article details working with the Windows XP Input Method Editor (IME). Changes were made to the IME for Windows Vista that are not fully detailed in this article. For more info about changes to the IME for Windows Vista, see [Input Method Editors (IME)](http://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) in [Windows Vista - An Ever-Expanding View of Internationalization](http://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) on the Microsoft Global Development and Computing Portal.
 
- 
+ 
 
 An input method editor (IME) is a program that allows easy text entry using a standard keyboard for East Asian languages such as Chinese, Japanese, Korean, and other languages with complex characters. For example, with IMEs a user can type complex characters in a word processor, or a player of a massive multiplayer online game can chat with friends in complex characters.
 
@@ -63,7 +68,7 @@ A typical IME displays several windows to guide the user through character entry
 
 
 
- 
+ 
 
 ## Using IMEs with DXUT
 
@@ -96,7 +101,7 @@ An IME needs to get the reading string, hide the reading window, and get the ori
 
 
 
- 
+ 
 
 ## Messages
 
@@ -126,7 +131,7 @@ The following examples illustrate how to get reading string information from old
 
 
 
- 
+ 
 
 ### CHT IME version 4.2, 4.3 and 4.4
 
@@ -254,7 +259,7 @@ CDXUTIMEEditBox checks for and retrieves the following composition string data:
 
 
 
- 
+ 
 
 ### WM\_IME\_ENDCOMPOSITION
 
@@ -313,7 +318,7 @@ The IMM sends a WM\_IME\_NOTIFY message to the application whenever an IME windo
 
 
 
- 
+ 
 
 ## Rendering
 
@@ -369,7 +374,7 @@ The following registry information is checked to determine the orientation of th
 
 
 
- 
+ 
 
 Where: IME\_Name is MSTCIPH if the IME file version is 5.1 or later; otherwise IME\_Name is TINTLGNT.
 
@@ -396,7 +401,7 @@ If neither condition is met, the reading window is vertical.
 
 
 
- 
+ 
 
 ## Further Information
 
@@ -531,9 +536,9 @@ Use Imm.lib.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

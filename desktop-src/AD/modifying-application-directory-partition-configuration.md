@@ -4,11 +4,16 @@ description: An application directory partition can be modified by changing cert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c4db5b3f-7d80-46a0-8a3a-9b1eb3c9f7b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c4db5b3f-7d80-46a0-8a3a-9b1eb3c9f7b1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Modifying Application Directory Partition Configuration AD", "Application Directory Partitions AD , Modifying Configuration"]
+keywords:
+- Modifying Application Directory Partition Configuration AD
+- Application Directory Partitions AD , Modifying Configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying Application Directory Partition Configuration

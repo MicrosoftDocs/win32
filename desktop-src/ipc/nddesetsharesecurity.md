@@ -1,12 +1,17 @@
 ---
-Description: 'Sets the security descriptor associated with the DDE share.'
-ms.assetid: '8bb8c466-3dd7-49a6-8ba5-632001b8a47f'
+Description: Sets the security descriptor associated with the DDE share.
+ms.assetid: 8bb8c466-3dd7-49a6-8ba5-632001b8a47f
 title: NDdeSetShareSecurity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeSetShareSecurity function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Sets the security descriptor associated with the DDE share. This is done usually after editing the DACL assigned to the DDE share.
 
@@ -15,10 +20,10 @@ Sets the security descriptor associated with the DDE share. This is done usually
 
 ```C++
 UINT NDdeSetShareSecurity(
-  _In_ LPTSTR               lpszServer,
-  _In_ LPTSTR               lpszShareName,
-  _In_ SECURITY_INFORMATION si,
-  _In_ PSECURITY_DESCRIPTOR pSD
+  _In_ LPTSTR               lpszServer,
+  _In_ LPTSTR               lpszShareName,
+  _In_ SECURITY_INFORMATION si,
+  _In_ PSECURITY_DESCRIPTOR pSD
 );
 ```
 
@@ -72,8 +77,8 @@ To modify the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/wind
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -97,9 +102,9 @@ To modify the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/wind
 [**NDdeGetShareSecurity**](nddegetsharesecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

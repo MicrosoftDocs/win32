@@ -1,7 +1,12 @@
 ---
-Description: 'The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 in order to detect HDR displays.'
-ms.assetid: 'C68EC437-7600-43A8-8DEA-5A6AEE75D5AA'
-title: 'DXGI 1.6 Improvements'
+Description: The following functionality has been added to Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 in order to detect HDR displays.
+ms.assetid: C68EC437-7600-43A8-8DEA-5A6AEE75D5AA
+title: DXGI 1.6 Improvements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI 1.6 Improvements
@@ -15,10 +20,10 @@ The following functionality has been added to Microsoft DirectX Graphics Infrast
 
 The following API's have been added in order to detect HDR displays:
 
--   [**IDXGIAdapter4**](idxgiadapter4.md)
--   [**IDXGIOutput6**](idxgioutput6.md)
+-   [**IDXGIAdapter4**](/windows/win32/DXGI1_6/nn-dxgi1_6-idxgiadapter4?branch=master)
+-   [**IDXGIOutput6**](/windows/win32/DXGI1_6/nn-dxgi1_6-idxgioutput6?branch=master)
 
-Additional fields in [**DXGI\_ADAPTER\_FLAG3**](direct3ddxgi.dxgi_adapter_flag3) and [**DXGI\_COLOR\_SPACE\_TYPE**](dxgi-color-space-type.md) have been added to support these APIs.
+Additional fields in [**DXGI\_ADAPTER\_FLAG3**](direct3ddxgi.dxgi_adapter_flag3) and [**DXGI\_COLOR\_SPACE\_TYPE**](/windows/win32/dxgicommon/ne-dxgicommon-dxgi_color_space_type?branch=master) have been added to support these APIs.
 
 ## Related topics
 

@@ -1,7 +1,12 @@
 ---
 Description: Overview of Table of Contents Parser
-ms.assetid: '47c4641c-f22a-43eb-8e90-4d159bc8f7f6'
+ms.assetid: 47c4641c-f22a-43eb-8e90-4d159bc8f7f6
 title: Overview of Table of Contents Parser
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Table of Contents Parser

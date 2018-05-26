@@ -1,7 +1,12 @@
 ---
 title: WSD Dependency
-ms.assetid: 'ac9e4e54-ae7b-40ee-9843-0b94e49dd7b5'
+ms.assetid: ac9e4e54-ae7b-40ee-9843-0b94e49dd7b5
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSD Dependency

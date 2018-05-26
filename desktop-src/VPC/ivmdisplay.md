@@ -1,8 +1,10 @@
 ---
 title: IVMDisplay interface
 description: Controls the display settings of a virtual machine. The IVMDisplay interface for a virtual machine can be retrieved using the IVMVirtualMachine Display property.
-ms.assetid: 'b2eafd86-459c-4807-aa77-8b9125bce53e'
-keywords: ["IVMDisplay interface Virtual PC", "IVMDisplay interface Virtual PC , described"]
+ms.assetid: b2eafd86-459c-4807-aa77-8b9125bce53e
+keywords:
+- IVMDisplay interface Virtual PC
+- IVMDisplay interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Controls the display settings of a virtual machine. The **IVMDisplay** interface for a virtual machine can be retrieved using the [**IVMVirtualMachine::Display**](ivmvirtualmachine-display.md) property.
 
@@ -39,7 +46,7 @@ The **IVMDisplay** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +64,7 @@ The **IVMDisplay** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,18 +72,18 @@ The **IVMDisplay** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDisplay is defined as 960895e9-f743-4498-96aa-261f867e7fc5<br/>                 |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Exposes the DllCanUnloadNow function to a provider. This function a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e7722471-c5af-4ef5-9009-daa16a501631'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e7722471-c5af-4ef5-9009-daa16a501631
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Adapter_DllCanUnloadNow function Windows Management Infrastructure (MI)"]
+keywords:
+- Adapter_DllCanUnloadNow function Windows Management Infrastructure (MI)
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - WmiToMi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adapter\_DllCanUnloadNow function
@@ -26,7 +30,7 @@ Exposes the [**DllCanUnloadNow**](https://msdn.microsoft.com/library/windows/des
 > \[!Important\]  
 > This function is only used by generated code and should not be used by developers.
 
- 
+ 
 
 ## Syntax
 
@@ -51,8 +55,8 @@ If the function succeeds, the return value is **S\_OK**. If the function fails, 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>WmiToMi.dll</dt> </dl> |
 
 
@@ -64,9 +68,9 @@ If the function succeeds, the return value is **S\_OK**. If the function fails, 
 [Adapter Functions](adapter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.nineGridMargins
 description: The nineGridMargins attribute specifies margin widths for non-uniform scaling of the skin element.
-ms.assetid: 'b8a7efd0-6c12-4436-9d53-0dcfa1600aa5'
-keywords: ["AmbientAttributes.nineGridMargins Windows Media Player"]
+ms.assetid: b8a7efd0-6c12-4436-9d53-0dcfa1600aa5
+keywords:
+- AmbientAttributes.nineGridMargins Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.nineGridMargins
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.nineGridMargins
@@ -48,9 +54,9 @@ Each of the four width values you specify represents the width of a row or colum
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

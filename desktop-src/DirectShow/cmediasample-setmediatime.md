@@ -1,20 +1,25 @@
 ---
-Description: 'The SetMediaTime method sets the media times for this sample. This method implements the IMediaSample::SetMediaTime method.'
-ms.assetid: '768812f8-c044-4499-9149-7c334c51e539'
-title: 'CMediaSample.SetMediaTime method'
+Description: The SetMediaTime method sets the media times for this sample. This method implements the IMediaSampleSetMediaTime method.
+ms.assetid: 768812f8-c044-4499-9149-7c334c51e539
+title: CMediaSample.SetMediaTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetMediaTime method
 
-The `SetMediaTime` method sets the media times for this sample. This method implements the [**IMediaSample::SetMediaTime**](imediasample-setmediatime.md) method.
+The `SetMediaTime` method sets the media times for this sample. This method implements the [**IMediaSample::SetMediaTime**](/windows/win32/Strmif/nf-strmif-imediasample-setmediatime?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetMediaTime(
-   LONGLONG *pStart,
-   LONGLONG *pEnd
+   LONGLONG *pStart,
+   LONGLONG *pEnd
 );
 ```
 
@@ -46,7 +51,7 @@ Returns S\_OK.
 
 The media stop time must be greater than the media start time. Use **NULL** to invalidate the media times.
 
-The *pEnd* parameter specifies an absolute media time, but the [**CMediaSample::m\_MediaEnd**](cmediasample-m-mediaend.md) member variable is calculated as an offset from *pStart*. In other words, **m\_MediaEnd** = \**pTimeEnd*– \**pTimeStart*.
+The *pEnd* parameter specifies an absolute media time, but the [**CMediaSample::m\_MediaEnd**](cmediasample-m-mediaend.md) member variable is calculated as an offset from *pStart*. In other words, **m\_MediaEnd** = \**pTimeEnd*  \**pTimeStart*.
 
 For information about media times, see [Time and Clocks in DirectShow](time-and-clocks-in-directshow.md).
 
@@ -68,9 +73,9 @@ For information about media times, see [Time and Clocks in DirectShow](time-and-
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

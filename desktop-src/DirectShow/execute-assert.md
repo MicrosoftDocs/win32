@@ -1,7 +1,12 @@
 ---
-Description: 'Evaluates an expression in debug and retail builds. In debug builds, displays a diagnostic message if the expression is FALSE.'
-ms.assetid: '259a3d30-0b20-4430-8b74-83ec619576ae'
-title: 'EXECUTE\_ASSERT macro'
+Description: Evaluates an expression in debug and retail builds. In debug builds, displays a diagnostic message if the expression is FALSE.
+ms.assetid: 259a3d30-0b20-4430-8b74-83ec619576ae
+title: EXECUTE\_ASSERT macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXECUTE\_ASSERT macro
@@ -13,7 +18,7 @@ Evaluates an expression in debug and retail builds. In debug builds, displays a 
 
 ```C++
 void EXECUTE_ASSERT(
-    cond
+    cond
 );
 ```
 
@@ -55,9 +60,9 @@ Unlike the [**ASSERT**](assert.md) macro, this macro evaluates the expression in
 [Assert and Breakpoint Macros](assert-and-breakpoint-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

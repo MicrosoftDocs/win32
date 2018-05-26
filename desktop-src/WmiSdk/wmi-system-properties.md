@@ -1,18 +1,21 @@
 ---
-Description: 'Windows Management Instrumentation (WMI) defines a set of system properties that are associated with all classes and instances of classes.'
+Description: Windows Management Instrumentation (WMI) defines a set of system properties that are associated with all classes and instances of classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e812c0cb-3e08-4cac-8d05-2cd7abc922d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e812c0cb-3e08-4cac-8d05-2cd7abc922d1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI System Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI System Properties
 
-Windows Management Instrumentation (WMI) defines a set of system properties that are associated with all classes and instances of classes. As with system classes, system property names begin with a double underscore, distinguishing them from properties created by applications or providers that must not start with a single or double underscore. Another way to identify a system property is to use the [**IWbemClassObject::Get**](iwbemclassobject-get.md) method.
+Windows Management Instrumentation (WMI) defines a set of system properties that are associated with all classes and instances of classes. As with system classes, system property names begin with a double underscore, distinguishing them from properties created by applications or providers that must not start with a single or double underscore. Another way to identify a system property is to use the [**IWbemClassObject::Get**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-get?branch=master) method.
 
 System properties are available at any time, but values might be **NULL**. **NULL** indicates a property does not apply to a specific object. However, system properties might not be available all the time for all classes or instances.
 

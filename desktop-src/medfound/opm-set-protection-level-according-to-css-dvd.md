@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the HDCP protection level for DVD playback, following DVD Content Scramble System (CSS) rules.'
-ms.assetid: '8d9ecb9b-8528-4b23-ab2f-234ba2cb7ed0'
-title: 'OPM\_SET\_PROTECTION\_LEVEL\_ACCORDING\_TO\_CSS\_DVD'
+---
+Description: Sets the HDCP protection level for DVD playback, following DVD Content Scramble System (CSS) rules.
+ms.assetid: 8d9ecb9b-8528-4b23-ab2f-234ba2cb7ed0
+title: OPM\_SET\_PROTECTION\_LEVEL\_ACCORDING\_TO\_CSS\_DVD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_SET\_PROTECTION\_LEVEL\_ACCORDING\_TO\_CSS\_DVD
@@ -13,7 +18,7 @@ Sets the HDCP protection level for DVD playback, following DVD Content Scramble 
 |              |                                                                                                     |
 |--------------|-----------------------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_PROTECTION\_LEVEL\_ACCORDING\_TO\_CSS\_DVD                                                |
-| Input data   | An [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](opm-set-protection-level-parameters.md) structure |
+| Input data   | An [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_set_protection_level_parameters?branch=master) structure |
 
 
 
@@ -39,7 +44,7 @@ This command is used to set High-Bandwidth Digital Content Protection (HDCP) whe
 
 <dl> <dt>
 
-[**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md)
+[**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master)
 </dt> <dt>
 
 [OPM Commands](opm-commands.md)

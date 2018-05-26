@@ -1,7 +1,12 @@
 ---
-Description: 'Sets a VM's initial machine configuration data.'
-ms.assetid: '0f174d29-ddb2-4a8c-b664-926245573778'
-title: 'SetInitialMachineConfigurationData method of the Msvm\_VirtualSystemManagementService class'
+Description: Sets a VMs initial machine configuration data.
+ms.assetid: 0f174d29-ddb2-4a8c-b664-926245573778
+title: SetInitialMachineConfigurationData method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetInitialMachineConfigurationData method of the Msvm\_VirtualSystemManagementService class
@@ -13,9 +18,9 @@ Sets a VM's initial machine configuration data.
 
 ```mof
 uint32 SetInitialMachineConfigurationData(
-  [in]  CIM_ComputerSystem REF TargetSystem,
-  [in]  uint8                  ImcData[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF TargetSystem,
+  [in]  uint8                  ImcData[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -97,8 +102,8 @@ On success, returns 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -112,9 +117,9 @@ On success, returns 0 or 4096; otherwise, returns an error.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

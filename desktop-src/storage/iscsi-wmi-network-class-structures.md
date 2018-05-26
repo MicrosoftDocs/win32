@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Network Class Structures
 description: iSCSI WMI Network Class Structures
-ms.assetid: '86aedac8-347d-48e4-9197-d6818b15133e'
+ms.assetid: 86aedac8-347d-48e4-9197-d6818b15133e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Network Class Structures

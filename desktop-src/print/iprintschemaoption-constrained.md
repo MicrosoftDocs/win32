@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the constraint setting type for the schema option.'
-ms.assetid: '57E13395-9E23-4708-B4EC-6839CB6FC62B'
-title: 'IPrintSchemaOption::Constrained property'
+---
+Description: Gets the constraint setting type for the schema option.
+ms.assetid: 57E13395-9E23-4708-B4EC-6839CB6FC62B
+title: IPrintSchemaOptionConstrained property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOption::Constrained property

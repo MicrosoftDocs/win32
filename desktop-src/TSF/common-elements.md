@@ -1,8 +1,17 @@
 ---
 title: Common Elements
 description: Common Elements
-ms.assetid: '4dc2da69-58d9-4dee-bdf5-74339ceff1c5'
-keywords: ["Text Services Framework (TSF),common elements", "TSF (Text Services Framework),common elements", "text services,common elements", "TSF-enabled applications,common elements"]
+ms.assetid: 4dc2da69-58d9-4dee-bdf5-74339ceff1c5
+keywords:
+- Text Services Framework (TSF),common elements
+- TSF (Text Services Framework),common elements
+- text services,common elements
+- TSF-enabled applications,common elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Elements

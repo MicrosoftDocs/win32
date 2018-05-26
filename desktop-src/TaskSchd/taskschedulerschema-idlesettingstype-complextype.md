@@ -1,14 +1,20 @@
 ---
 title: idleSettingsType Complex Type
 description: Defines the child elements and sequencing information for the IdleSettings (settingsType) element.
-ms.assetid: '0f50c4d6-fda9-42cc-8dab-4c9439fbea4b'
-keywords: ["idleSettingsType complex type Task Scheduler"]
+ms.assetid: 0f50c4d6-fda9-42cc-8dab-4c9439fbea4b
+keywords:
+- idleSettingsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - idleSettingsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # idleSettingsType Complex Type
@@ -79,8 +85,8 @@ Defines the child elements and sequencing information for the [**IdleSettings (s
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -94,9 +100,9 @@ Defines the child elements and sequencing information for the [**IdleSettings (s
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines an array of floating-point numbers (floats) and the number of floats in that array. This is used for defining sets of animation keys.'
-ms.assetid: 'a506cca6-0b10-4373-a7e1-f6aa0989e675'
+Description: Defines an array of floating-point numbers (floats) and the number of floats in that array. This is used for defining sets of animation keys.
+ms.assetid: a506cca6-0b10-4373-a7e1-f6aa0989e675
 title: FloatKeys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FloatKeys

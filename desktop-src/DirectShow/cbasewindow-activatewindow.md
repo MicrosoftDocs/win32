@@ -1,7 +1,12 @@
 ---
-Description: 'The ActivateWindow method sizes the window according to the requirements of the derived class.'
-ms.assetid: '39e23080-e4ae-46d5-bb3f-306c92bbfe14'
-title: 'CBaseWindow.ActivateWindow method'
+Description: The ActivateWindow method sizes the window according to the requirements of the derived class.
+ms.assetid: 39e23080-e4ae-46d5-bb3f-306c92bbfe14
+title: CBaseWindow.ActivateWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.ActivateWindow method
@@ -34,7 +39,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +65,9 @@ If the window is already active, calling `ActivateWindow` moves the window to th
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckMediaType method determines if the pin accepts a specific media type.'
-ms.assetid: 'e09a4a3e-ac39-4d0e-9e8c-3e8f18057d0d'
-title: 'CTransformInputPin.CheckMediaType method'
+Description: The CheckMediaType method determines if the pin accepts a specific media type.
+ms.assetid: e09a4a3e-ac39-4d0e-9e8c-3e8f18057d0d
+title: CTransformInputPin.CheckMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.CheckMediaType method
@@ -13,7 +18,7 @@ The `CheckMediaType` method determines if the pin accepts a specific media type.
 
 ```C++
 HRESULT CheckMediaType(
-   const CMediaType *mtIn
+   const CMediaType *mtIn
 );
 ```
 
@@ -51,9 +56,9 @@ If the filter's output pin is connected, this method also calls the filter's [**
 
 
 
- 
+ 
 
- 
+ 
 
 
 

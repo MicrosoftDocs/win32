@@ -1,8 +1,10 @@
 ---
 title: MUAFOLDER enumeration
 description: Do not use. Used for selecting the folder for the count of unread messages.
-ms.assetid: '970226a1-2adc-4244-b9ee-0441b56b83fb'
-keywords: ["MUAFOLDER enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 970226a1-2adc-4244-b9ee-0441b56b83fb
+keywords:
+- MUAFOLDER enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUAFOLDER enumeration
 
-\[**MUAFOLDER** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MUAFOLDER** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Used for selecting the folder for the count of unread messages.
 
@@ -25,7 +32,7 @@ Do not use. Used for selecting the folder for the count of unread messages.
 ```C++
 typedef enum  { 
   MUAFOLDER_INBOX,
-  MUAFOLDER_ALL_OTHER_FOLDERS  = 1
+  MUAFOLDER_ALL_OTHER_FOLDERS  = 1
 } LockError;
 ```
 
@@ -59,16 +66,16 @@ This constant is used as values for e-mail properties and methods. In some cases
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

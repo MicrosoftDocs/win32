@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentCallback GetSoHRequest method
-description: Is called by the NapAgent to query the system health agent's SoH request.
-ms.assetid: '4161a3e7-2f7a-40d1-b973-47f991bba5d0'
-keywords: ["GetSoHRequest method NAP", "GetSoHRequest method NAP , INapSystemHealthAgentCallback interface", "INapSystemHealthAgentCallback interface NAP , GetSoHRequest method"]
+description: Is called by the NapAgent to query the system health agents SoH request.
+ms.assetid: 4161a3e7-2f7a-40d1-b973-47f991bba5d0
+keywords:
+- GetSoHRequest method NAP
+- GetSoHRequest method NAP , INapSystemHealthAgentCallback interface
+- INapSystemHealthAgentCallback interface NAP , GetSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapSystemHealthAgent.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentCallback::GetSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentCallback::GetSoHRequest** method is called by the NapAgent to query the system health agent's SoH request.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthAgentCallback::GetSoHRequest** method is called by the Nap
 
 ```C++
 HRESULT GetSoHRequest(
-  [in] INapSystemHealthAgentRequest *request
+  [in] INapSystemHealthAgentRequest *request
 );
 ```
 
@@ -55,12 +63,12 @@ A COM pointer to an [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequ
 
 
 
- 
+ 
 
-When any return value (except **HRESULT\_FROM\_WIN32(RPC\_S\_SERVER\_UNAVAILABLE)**) is returned by your implementation, the NAP system constructs and returns a [**SoHRequest**](soh-struct.md) to the corresponding SHV with the following attribute types and values:
+When any return value (except **HRESULT\_FROM\_WIN32(RPC\_S\_SERVER\_UNAVAILABLE)**) is returned by your implementation, the NAP system constructs and returns a [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) to the corresponding SHV with the following attribute types and values:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= &lt;id&gt;
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](failurecategory-enum.md)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/NapTypes/ne-naptypes-tagfailurecategory?branch=master)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = &lt;error-code&gt;
 
 ## Remarks
@@ -74,7 +82,7 @@ Health state monitoring should not be done as part of this call, especially if i
 If it will take a long time for the SHA to generate a SoH, then the cached SoH should be returned to the NapAgent. If there is no cached SoH to return, then the SHA should immediately return a SoH with the following attribute types and values:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= &lt;id&gt;
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientCommunication**](failurecategory-enum.md)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientCommunication**](/windows/win32/NapTypes/ne-naptypes-tagfailurecategory?branch=master)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**NAP\_E\_NO\_CACHED\_SOH**](nap-error-constants.md)
 
 When the SoH has been generated, the SHA must call [**INapSystemHealthAgentBinding::NotifySoHChange**](inapsystemhealthagentbinding-notifysohchange-method.md) to notify the NapAgent of the system health change.
@@ -86,7 +94,7 @@ When this method is called, if there is a SoH in the NapAgent's cache, then it i
 For unbound SHAs which are registered with the system, the NAP system constructs and sends a SoHRequest to the corresponding SHV with the following attribute types and values:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= &lt;id&gt;
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](failurecategory-enum.md)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/NapTypes/ne-naptypes-tagfailurecategory?branch=master)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**NAP\_E\_NOT\_INITIALIZED**](nap-error-constants.md)
 
 ## Requirements
@@ -95,8 +103,8 @@ For unbound SHAs which are registered with the system, the NAP system constructs
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 
@@ -109,9 +117,9 @@ For unbound SHAs which are registered with the system, the NAP system constructs
 [**INapSystemHealthAgentCallback**](inapsystemhealthagentcallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

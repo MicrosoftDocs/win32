@@ -1,12 +1,17 @@
 ---
-Description: 'Structure used by the SfcGetFiles function.'
-ms.assetid: '958167e3-3eb3-406a-85bf-ffe2851a95a1'
-title: 'PPROTECT\_FILE\_ENTRY structure'
+Description: Structure used by the SfcGetFiles function.
+ms.assetid: 958167e3-3eb3-406a-85bf-ffe2851a95a1
+title: PPROTECT\_FILE\_ENTRY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PPROTECT\_FILE\_ENTRY structure
 
-\[This structure is available for use in the operating systems specified in the Requirements section. Support for this structure was removed in Windows Vista and Windows Server 2008. Use the supported functions listed in [WRP Functions](wfp-functions.md) instead.\]
+\[This structure is available for use in the operating systems specified in the Requirements section. Support for this structure was removed in Windows Vista and Windows Server 2008. Use the supported functions listed in [WRP Functions](wfp-functions.md) instead.\]
 
 Structure used by the [**SfcGetFiles**](sfcgetfiles.md) function.
 
@@ -54,10 +59,10 @@ Pointer to string value containing the filename of the INF file which provides l
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Sfcfiles.h</dt> </dl> |
 
 
@@ -69,9 +74,9 @@ Pointer to string value containing the filename of the INF file which provides l
 [**SfcGetFiles**](sfcgetfiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

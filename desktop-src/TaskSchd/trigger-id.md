@@ -1,8 +1,11 @@
 ---
 title: Trigger.Id property
 description: For scripting, gets or sets the identifier for the trigger.
-ms.assetid: '7cf26e63-2517-44a0-9a12-06c2a903c089'
-keywords: ["Id property Task Scheduler", "Id property Task Scheduler , Trigger object", "Trigger object Task Scheduler , Id property"]
+ms.assetid: 7cf26e63-2517-44a0-9a12-06c2a903c089
+keywords:
+- Id property Task Scheduler
+- Id property Task Scheduler , Trigger object
+- Trigger object Task Scheduler , Id property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger.Id property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the trigger identifier is specified in t
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, the trigger identifier is specified in t
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

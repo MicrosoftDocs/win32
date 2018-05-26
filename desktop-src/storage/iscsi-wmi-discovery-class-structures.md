@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Discovery Class Structures
 description: iSCSI WMI Discovery Class Structures
-ms.assetid: 'dfc5284c-fa43-40bd-a7b6-b203797a8e42'
+ms.assetid: dfc5284c-fa43-40bd-a7b6-b203797a8e42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Discovery Class Structures

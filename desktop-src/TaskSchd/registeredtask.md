@@ -1,8 +1,10 @@
 ---
 title: RegisteredTask object
 description: Scripting object that provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
-ms.assetid: '3743d012-ad7c-402f-8859-939bb01ee447'
-keywords: ["RegisteredTask object Task Scheduler", "RegisteredTask object Task Scheduler , described"]
+ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
+keywords:
+- RegisteredTask object Task Scheduler
+- RegisteredTask object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask object
@@ -33,7 +40,7 @@ The **RegisteredTask** object has these methods.
 | Method                                                                | Description                                                                                     |
 |:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
 | [**GetInstances**](registeredtask-getinstances.md)                   | Returns all instances of the registered task that are currently running.<br/>             |
-| [**GetRunTimes**](iregisteredtask-getruntimes.md)                    | Gets the times that the registered task is scheduled to run during a specified time.<br/> |
+| [**GetRunTimes**](/windows/win32/taskschd/nf-taskschd-iregisteredtask-getruntimes?branch=master)                    | Gets the times that the registered task is scheduled to run during a specified time.<br/> |
 | [**GetSecurityDescriptor**](registeredtask-getsecuritydescriptor.md) | Gets the security descriptor that is used as credentials for the registered task.<br/>    |
 | [**Run**](registeredtask-run.md)                                     | Runs the registered task immediately.<br/>                                                |
 | [**RunEx**](registeredtask-runex.md)                                 | Runs the registered task immediately using specified flags and a session identifier.<br/> |
@@ -42,7 +49,7 @@ The **RegisteredTask** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -65,7 +72,7 @@ The **RegisteredTask** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -77,16 +84,16 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

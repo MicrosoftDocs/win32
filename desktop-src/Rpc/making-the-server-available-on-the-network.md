@@ -1,8 +1,14 @@
 ---
 title: Making the Server Available on the Network
 description: Before a server application can accept remote procedure calls, it must be available on the network.
-ms.assetid: '1fad55e2-7221-4153-b530-b36ea42e03e1'
-keywords: ["Remote Procedure Call RPC , tasks, making the server available"]
+ms.assetid: 1fad55e2-7221-4153-b530-b36ea42e03e1
+keywords:
+- Remote Procedure Call RPC , tasks, making the server available
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making the Server Available on the Network
@@ -11,7 +17,7 @@ Before a server application can accept remote procedure calls, it must be availa
 
 The following example uses **ncacn\_ip\_tcp**.
 
-Most server programs use all protocol sequences available on the network. To do this, they invoke the [**RpcServerUseProtseq**](rpcserveruseprotseq.md) function, as shown in the following code fragment:
+Most server programs use all protocol sequences available on the network. To do this, they invoke the [**RpcServerUseProtseq**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseq?branch=master) function, as shown in the following code fragment:
 
 
 ```C++
@@ -24,13 +30,13 @@ status = RpcServerUseAllProtseq(
 
 
 
-The first parameter to the [**RpcServerUseProtseq**](rpcserveruseprotseq.md) function is the protocol sequence. The second parameter is dependent on the protocol sequence. As illustrated in the code fragment, most server programs set this parameter to **RPC\_C\_PROTSEQ\_MAX\_REQS\_DEFAULT**. This value sets the RPC library to use the default value. The third parameter is a security descriptor and should not be used in applications. For more information, see [**Security**](security.md).
+The first parameter to the [**RpcServerUseProtseq**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseq?branch=master) function is the protocol sequence. The second parameter is dependent on the protocol sequence. As illustrated in the code fragment, most server programs set this parameter to **RPC\_C\_PROTSEQ\_MAX\_REQS\_DEFAULT**. This value sets the RPC library to use the default value. The third parameter is a security descriptor and should not be used in applications. For more information, see [**Security**](security.md).
 
-You can also use the [**RpcServerUseAllProtseqs**](rpcserveruseallprotseqs.md), [**RpcServerUseProtseqEx**](rpcserveruseprotseqex.md), [**RpcServerUseProtseqEp**](rpcserveruseprotseqep.md), or [**RpcServerUseProtseqEpEx**](rpcserveruseprotseqepex.md) functions.
+You can also use the [**RpcServerUseAllProtseqs**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs?branch=master), [**RpcServerUseProtseqEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqex?branch=master), [**RpcServerUseProtseqEp**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqep?branch=master), or [**RpcServerUseProtseqEpEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex?branch=master) functions.
 
 After a server application selects at least one protocol sequence, servers that use dynamic endpoints must create binding information for each protocol sequence it uses. The server stores the binding information in a binding vector that it can then export to the endpoint mapper service.
 
-Use the [**RpcServerInqBindings**](rpcserverinqbindings.md) function to obtain a binding vector for the server application, as shown in the following example:
+Use the [**RpcServerInqBindings**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverinqbindings?branch=master) function to obtain a binding vector for the server application, as shown in the following example:
 
 
 ```C++
@@ -42,7 +48,7 @@ status = RpcServerInqBindings(&amp;rpcBindingVector);
 
 
 
-The only parameter passed to the [**RpcServerInqBindings**](rpcserverinqbindings.md) function is a pointer to a pointer to an [**RPC\_BINDING\_VECTOR**](rpc-binding-vector.md) structure. The RPC run-time library dynamically allocates an array of binding vectors and stores the address of the array in the parameter variable (in this case, **rpcBindingVector**). Each server application is responsible for freeing this binding vector using the [**RpcBindingVectorFree**](rpcbindingvectorfree.md) function once it has finished using it (for example, after it has passed it to the appropriate functions).
+The only parameter passed to the [**RpcServerInqBindings**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverinqbindings?branch=master) function is a pointer to a pointer to an [**RPC\_BINDING\_VECTOR**](/windows/win32/Rpcdce/ns-rpcdce-_rpc_binding_vector?branch=master) structure. The RPC run-time library dynamically allocates an array of binding vectors and stores the address of the array in the parameter variable (in this case, **rpcBindingVector**). Each server application is responsible for freeing this binding vector using the [**RpcBindingVectorFree**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingvectorfree?branch=master) function once it has finished using it (for example, after it has passed it to the appropriate functions).
 
  
 

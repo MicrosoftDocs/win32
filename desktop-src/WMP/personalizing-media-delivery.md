@@ -1,8 +1,21 @@
 ---
 title: Personalizing Media Delivery
 description: Personalizing Media Delivery
-ms.assetid: 'ffd62602-8bfc-4ca7-91fd-c610faa330cd'
-keywords: ["Windows Media metafile playlists,personalizing media delivery", "playlists,personalizing media delivery", "metafile playlists,personalizing media delivery", "Windows Media metafile playlists,media delivery personalization", "playlists,media delivery personalization", "metafile playlists,media delivery personalization", "media delivery personalization", "personalizing media delivery"]
+ms.assetid: ffd62602-8bfc-4ca7-91fd-c610faa330cd
+keywords:
+- Windows Media metafile playlists,personalizing media delivery
+- playlists,personalizing media delivery
+- metafile playlists,personalizing media delivery
+- Windows Media metafile playlists,media delivery personalization
+- playlists,media delivery personalization
+- metafile playlists,media delivery personalization
+- media delivery personalization
+- personalizing media delivery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Personalizing Media Delivery

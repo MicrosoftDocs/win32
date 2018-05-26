@@ -1,8 +1,25 @@
 ---
 title: sign.h
 description: sign.h
-ms.assetid: 'fef4998a-feb9-477f-8384-76439e087bbf'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle signature sample", "packaging,music bundle signature sample", "packages,music bundle signature sample", "music bundle signature sample,sign.h", "Packaging APIs,sign.h", "packaging,sign.h", "packages,sign.h", "sign.h", "sample applications,music bundle signature"]
+ms.assetid: fef4998a-feb9-477f-8384-76439e087bbf
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle signature sample
+- packaging,music bundle signature sample
+- packages,music bundle signature sample
+- music bundle signature sample,sign.h
+- Packaging APIs,sign.h
+- packaging,sign.h
+- packages,sign.h
+- sign.h
+- sample applications,music bundle signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sign.h

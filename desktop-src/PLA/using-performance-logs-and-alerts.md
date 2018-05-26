@@ -1,8 +1,14 @@
 ---
 title: Using PLA
 description: Performance Logs and Alerts (PLA) provides the ability to generate alert notifications based on performance counter thresholds.
-ms.assetid: '5d854513-13cb-47dd-a74a-cc746191cb44'
-keywords: ["Performance Logs and Alerts PLA , using"]
+ms.assetid: 5d854513-13cb-47dd-a74a-cc746191cb44
+keywords:
+- Performance Logs and Alerts PLA , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using PLA
@@ -11,11 +17,11 @@ Performance Logs and Alerts (PLA) provides the ability to generate alert notific
 
 The data collector set is the primary entity used in PLA. The data collector set defines where the logs are written, when the set runs and for how long, and the credentials used to run the set. PLA uses data collectors to collect data. You can add one or more of the following data collectors to a data collector set:
 
--   [Alert](ialertdatacollector.md)
--   [API Tracing](iapitracingdatacollector.md)
--   [Configuration](iconfigurationdatacollector.md)
--   [Performance Counter](iperformancecounterdatacollector.md)
--   [Event Tracing](itracedatacollector.md)
+-   [Alert](/windows/previous-versions/Pla/nn-pla-ialertdatacollector?branch=master)
+-   [API Tracing](/windows/previous-versions/Pla/nn-pla-iapitracingdatacollector?branch=master)
+-   [Configuration](/windows/previous-versions/Pla/nn-pla-iconfigurationdatacollector?branch=master)
+-   [Performance Counter](/windows/previous-versions/Pla/nn-pla-iperformancecounterdatacollector?branch=master)
+-   [Event Tracing](/windows/previous-versions/Pla/nn-pla-itracedatacollector?branch=master)
 
 This section describes:
 

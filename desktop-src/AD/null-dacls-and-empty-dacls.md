@@ -4,11 +4,16 @@ description: The presence of a null discretionary access-control list (DACL) in 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '32b786d2-e676-4402-ad22-550de9289494'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 32b786d2-e676-4402-ad22-550de9289494
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Null DACLs and Empty DACLs AD", "DACLs AD , Null and Empty"]
+keywords:
+- Null DACLs and Empty DACLs AD
+- DACLs AD , Null and Empty
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Null DACLs and Empty DACLs

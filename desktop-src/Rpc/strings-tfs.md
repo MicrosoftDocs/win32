@@ -1,7 +1,12 @@
 ---
 title: Strings
 description: Three strings types and Remote Procedure Call (RPC).
-ms.assetid: '186cabeb-ea3f-4213-ba71-53afe91e6e14'
+ms.assetid: 186cabeb-ea3f-4213-ba71-53afe91e6e14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Strings

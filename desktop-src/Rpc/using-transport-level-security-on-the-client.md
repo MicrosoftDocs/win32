@@ -1,8 +1,14 @@
 ---
 title: Using Transport-Level Security on the Client
 description: The client specifies how the server impersonates the client when the client establishes the string binding.
-ms.assetid: '0d02b7f2-4dcb-41e8-829c-6942dfdcd4c6'
-keywords: ["Remote Procedure Call RPC , tasks, using transport-level security on the client"]
+ms.assetid: 0d02b7f2-4dcb-41e8-829c-6942dfdcd4c6
+keywords:
+- Remote Procedure Call RPC , tasks, using transport-level security on the client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Transport-Level Security on the Client
@@ -11,8 +17,8 @@ The client specifies how the server impersonates the client when the client esta
 
 **To supply quality-of-service information for the server**
 
-1.  The client calls [**RpcStringBindingCompose**](rpcstringbindingcompose.md) to create the component strings, including endpoint options, in the correct string-binding context.
-2.  The client calls [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) to obtain a new binding handle and to apply the quality-of-service information for the client.
+1.  The client calls [**RpcStringBindingCompose**](/windows/win32/Rpcdce/nf-rpcdce-rpcstringbindingcompose?branch=master) to create the component strings, including endpoint options, in the correct string-binding context.
+2.  The client calls [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) to obtain a new binding handle and to apply the quality-of-service information for the client.
 3.  The client makes remote procedure calls using the handle.
 
 Microsoft RPC supports Windows security features only on [**ncacn\_np**](https://msdn.microsoft.com/library/windows/desktop/aa367108) and [**ncalrpc**](https://msdn.microsoft.com/library/windows/desktop/aa367115). Security options for other transports are ignored.

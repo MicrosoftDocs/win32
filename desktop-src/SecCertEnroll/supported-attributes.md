@@ -1,7 +1,12 @@
 ---
-Description: 'The Certificate Enrollment API supports the following attributes. You can create an individual attribute by using the corresponding interface identified in each of the following sections.'
-ms.assetid: 'e14fd472-1974-4ad2-b35a-3ab58ba0d707'
+Description: The Certificate Enrollment API supports the following attributes. You can create an individual attribute by using the corresponding interface identified in each of the following sections.
+ms.assetid: e14fd472-1974-4ad2-b35a-3ab58ba0d707
 title: Supported Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Attributes
@@ -10,7 +15,7 @@ The Certificate Enrollment API supports the following attributes. You can create
 
 ## ClientId
 
-The [**IX509AttributeClientId**](ix509attributeclientid.md) interface can be used to define an attribute that contains information about the client computer that sent the certificate request. The information can be used for diagnostics.
+The [**IX509AttributeClientId**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeclientid?branch=master) interface can be used to define an attribute that contains information about the client computer that sent the certificate request. The information can be used for diagnostics.
 
 **Applies To:** PKCS \#10 or CMC request.
 
@@ -18,7 +23,7 @@ The [**IX509AttributeClientId**](ix509attributeclientid.md) interface can be use
 
 ## Extensions
 
-The [**IX509AttributeExtensions**](ix509attributeextensions.md) interface can be used to define a set of X.509 version 3 certificate extensions. The following extensions are supported. For more information, see the Extension Interfaces topic.
+The [**IX509AttributeExtensions**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeextensions?branch=master) interface can be used to define a set of X.509 version 3 certificate extensions. The following extensions are supported. For more information, see the Extension Interfaces topic.
 
 
 
@@ -46,7 +51,7 @@ The [**IX509AttributeExtensions**](ix509attributeextensions.md) interface can be
 
 ## ArchiveKey
 
-The [**IX509AttributeArchiveKey**](ix509attributearchivekey.md) interface can be used to define an attribute that contains an encrypted private key submitted to a CA for archiving.
+The [**IX509AttributeArchiveKey**](/windows/win32/CertEnroll/nn-certenroll-ix509attributearchivekey?branch=master) interface can be used to define an attribute that contains an encrypted private key submitted to a CA for archiving.
 
 **Applies To:** CMC request.
 
@@ -54,7 +59,7 @@ The [**IX509AttributeArchiveKey**](ix509attributearchivekey.md) interface can be
 
 ## ArchiveKeyHash
 
-The [**IX509AttributeArchiveKeyHash**](ix509attributearchivekeyhash.md) interface can be used to define a hash of the private key contained in the **ArchiveKey** attribute.
+The [**IX509AttributeArchiveKeyHash**](/windows/win32/CertEnroll/nn-certenroll-ix509attributearchivekeyhash?branch=master) interface can be used to define a hash of the private key contained in the **ArchiveKey** attribute.
 
 **Applies To:** CMC request.
 
@@ -62,15 +67,15 @@ The [**IX509AttributeArchiveKeyHash**](ix509attributearchivekeyhash.md) interfac
 
 ## CspProvider
 
-The [**IX509AttributeCspProvider**](ix509attributecspprovider.md) interface can be used to define an attribute that contains information about the [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP) used by the requester for cryptographic operations.
+The [**IX509AttributeCspProvider**](/windows/win32/CertEnroll/nn-certenroll-ix509attributecspprovider?branch=master) interface can be used to define an attribute that contains information about the [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP) used by the requester for cryptographic operations.
 
-**Applies To:** PKCS \#10 request. This attribute is automatically created when you create an [**IX509CertificateRequestPkcs10**](ix509certificaterequestpkcs10.md) object.
+**Applies To:** PKCS \#10 request. This attribute is automatically created when you create an [**IX509CertificateRequestPkcs10**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10?branch=master) object.
 
 **OID:** XCN\_OID\_ENROLLMENT\_CSP\_PROVIDER (1.3.6.1.4.1.311.13.2.2)
 
 ## OSVersion
 
-The [**IX509AttributeOSVersion**](ix509attributeosversion.md) interface can be used to create an attribute that contains version information about the client operating system. The information can be used by the CA to determine the type of processing to apply when creating the certificate.
+The [**IX509AttributeOSVersion**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeosversion?branch=master) interface can be used to create an attribute that contains version information about the client operating system. The information can be used by the CA to determine the type of processing to apply when creating the certificate.
 
 **Applies To:** PKCS \#10 or CMC request.
 
@@ -78,7 +83,7 @@ The [**IX509AttributeOSVersion**](ix509attributeosversion.md) interface can be u
 
 ## RenewalCertificate
 
-The [**IX509AttributeRenewalCertificate**](ix509attributerenewalcertificate.md) interface can be used to create an attribute that contains the certificate being renewed.
+The [**IX509AttributeRenewalCertificate**](/windows/win32/CertEnroll/nn-certenroll-ix509attributerenewalcertificate?branch=master) interface can be used to create an attribute that contains the certificate being renewed.
 
 **Applies To:** PKCS \#10 request. This attribute is automatically created if you create a PKCS \#10 request by initiating it with the certificate being renewed.
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PhysicalConnector class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class.'
+Description: The CIM\_PhysicalConnector class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cc135ae8-5ae1-4028-a2e3-a81db8694d9d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cc135ae8-5ae1-4028-a2e3-a81db8694d9d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalConnector class'
+title: CIM\_PhysicalConnector class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalConnector class
@@ -19,7 +22,7 @@ The **CIM\_PhysicalConnector** class represents any physical element that is use
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,23 +32,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B84-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_PhysicalConnector : CIM_PhysicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   CreationClassName;
-  string   Manufacturer;
-  string   Model;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   SerialNumber;
-  string   SKU;
-  string   Tag;
-  string   Version;
-  string   ConnectorPinout;
-  uint16   ConnectorType[];
+  string   Name;
+  string   Status;
+  string   CreationClassName;
+  string   Manufacturer;
+  string   Model;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   SerialNumber;
+  string   SKU;
+  string   Tag;
+  string   Version;
+  string   ConnectorPinout;
+  uint16   ConnectorType[];
 };
 ```
 
@@ -1311,8 +1314,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1326,9 +1329,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalElement**](cim-physicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

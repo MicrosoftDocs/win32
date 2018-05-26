@@ -4,17 +4,22 @@ description: This is an attribute on service account (computer or user account) 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a370174e-fd00-4f47-b23c-b0cc2657cee7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a370174e-fd00-4f47-b23c-b0cc2657cee7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Allowed-To-Delegate-To attribute AD Schema", "msDS-AllowedToDelegateTo attribute AD Schema"]
+keywords:
+- ms-DS-Allowed-To-Delegate-To attribute AD Schema
+- msDS-AllowedToDelegateTo attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Allowed-To-Delegate-To
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Allowed-To-Delegate-To attribute
@@ -38,11 +43,11 @@ This is an attribute on service account (computer or user account) objects. It c
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
- 
+ 
 
- 
+ 
 
 
 

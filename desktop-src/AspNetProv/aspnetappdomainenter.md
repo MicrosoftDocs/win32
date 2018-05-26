@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the AppDomainEnter event.'
+---
+Description: The event type class for the AppDomainEnter event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b71facdc-4959-4a67-b9a4-e0a0990e351a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b71facdc-4959-4a67-b9a4-e0a0990e351a
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetAppDomainEnter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetAppDomainEnter class

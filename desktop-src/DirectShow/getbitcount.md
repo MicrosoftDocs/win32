@@ -1,7 +1,12 @@
 ---
-Description: 'The GetBitCount function returns the number of bits per pixel used by a specified video subtype. This function is valid for uncompressed RGB subtypes only.'
-ms.assetid: '876b91c8-50ba-4217-b79c-7f7ec1c22b83'
+Description: The GetBitCount function returns the number of bits per pixel used by a specified video subtype. This function is valid for uncompressed RGB subtypes only.
+ms.assetid: 876b91c8-50ba-4217-b79c-7f7ec1c22b83
 title: GetBitCount function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetBitCount function
@@ -13,7 +18,7 @@ The `GetBitCount` function returns the number of bits per pixel used by a specif
 
 ```C++
 WORD GetBitCount(
-   const GUID *pSubtype
+   const GUID *pSubtype
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the number of bits per pixel for this subtype, or the value **USHRT\_MAX
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Converts a date and time value in the CIM DATETIME format to the VT\_DATE format.'
+Description: Converts a date and time value in the CIM DATETIME format to the VT\_DATE format.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e63e7acc-89d4-458a-a1ab-4d4a65cf7f8b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e63e7acc-89d4-458a-a1ab-4d4a65cf7f8b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.GetVarDate method'
+title: SWbemDateTime.GetVarDate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.GetVarDate method
@@ -65,7 +68,7 @@ After a successful call to [**SetVarDate**](swbemdatetime-setvardate.md), the [*
 
 If [**IsInterval**](swbemdatetime-isinterval.md) is set to **TRUE**, then a call to **GetVarDate** results in the **wbemErrFailed** error.
 
-Some loss of precision occurs when you call **GetVarDate**, because [datetime](datetime.md) values have a one microsecond (µs) resolution, and **VT\_DATE** values have a 500 millisecond resolution.
+Some loss of precision occurs when you call **GetVarDate**, because [datetime](datetime.md) values have a one microsecond ( s) resolution, and **VT\_DATE** values have a 500 millisecond resolution.
 
 ## Examples
 
@@ -77,8 +80,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -100,9 +103,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [DATETIME](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

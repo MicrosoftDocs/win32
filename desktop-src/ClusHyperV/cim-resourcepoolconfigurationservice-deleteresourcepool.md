@@ -4,13 +4,16 @@ description: Starts a job to delete a resource pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c32446b3-23b9-40ac-83d3-af01fd00a3ac'
-ms.prod: 'windows-server-dev'
+ms.assetid: c32446b3-23b9-40ac-83d3-af01fd00a3ac
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteResourcePool method", "DeleteResourcePool method, CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class, DeleteResourcePool method"]
+keywords:
+- DeleteResourcePool method
+- DeleteResourcePool method, CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class, DeleteResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -30,8 +36,8 @@ Starts a job to delete a resource pool. The delete operation will fail and this 
 
 ```mof
 uint32 DeleteResourcePool(
-  [in]  CIM_ResourcePool REF Pool,
-  [out] CIM_ConcreteJob  REF Job
+  [in]  CIM_ResourcePool REF Pool,
+  [out] CIM_ConcreteJob  REF Job
 );
 ```
 
@@ -85,16 +91,16 @@ The possible return values are:
 **Incorrect ResourceType for the Pool** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–4095)
+**DMTF Reserved** (8 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -104,7 +110,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -118,9 +124,9 @@ The possible return values are:
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

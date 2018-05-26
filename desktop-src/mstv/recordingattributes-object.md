@@ -1,7 +1,12 @@
 ---
 title: RecordingAttributes Object
 description: RecordingAttributes Object
-ms.assetid: 'dfb3e588-cf58-4f0f-a686-3aa7c7869247'
+ms.assetid: dfb3e588-cf58-4f0f-a686-3aa7c7869247
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecordingAttributes Object
@@ -15,7 +20,7 @@ The **Recording Attributes** object retrieves and updates metadata in the header
 |            |                                                                                                                              |
 |------------|------------------------------------------------------------------------------------------------------------------------------|
 | CLSID      | CLSID\_StreamBufferRecordingAttributes                                                                                       |
-| Interfaces | [**IFileSourceFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389981), [**IStreamBufferRecordingAttribute**](istreambufferrecordingattribute.md) |
+| Interfaces | [**IFileSourceFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389981), [**IStreamBufferRecordingAttribute**](/windows/previous-versions/Sbe/nn-sbe-istreambufferrecordingattribute?branch=master) |
 
 
 

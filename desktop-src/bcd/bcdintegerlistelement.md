@@ -1,8 +1,10 @@
 ---
 title: BcdIntegerListElement class
 description: Represents an integer list element.
-ms.assetid: '9fbd28a8-6c10-40ee-86a7-5ac9b2310bd4'
-keywords: ["BcdIntegerListElement class Boot Config", "BcdIntegerListElement class Boot Config , described"]
+ms.assetid: 9fbd28a8-6c10-40ee-86a7-5ac9b2310bd4
+keywords:
+- BcdIntegerListElement class Boot Config
+- BcdIntegerListElement class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdIntegerListElement class
@@ -58,8 +65,8 @@ The array of 64-bit integers. The values are passed as strings because Automatio
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -75,9 +82,9 @@ The array of 64-bit integers. The values are passed as strings because Automatio
 [**SetObjectListElement**](setobjectlistelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

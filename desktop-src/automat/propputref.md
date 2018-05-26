@@ -1,7 +1,12 @@
 ---
 title: propputref
 description: Specifies a property-setting function that uses a reference instead of a value.
-ms.assetid: '4408b9f5-d527-4b92-9c7f-2aa7acfa4502'
+ms.assetid: 4408b9f5-d527-4b92-9c7f-2aa7acfa4502
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propputref

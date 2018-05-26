@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to a critical section.'
-ms.assetid: '7d949b7f-a6a7-4ab5-b651-f85b70d55065'
-title: 'CBaseMediaFilter::m\_pLock member'
+Description: Pointer to a critical section.
+ms.assetid: 7d949b7f-a6a7-4ab5-b651-f85b70d55065
+title: CBaseMediaFilterm\_pLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter::m\_pLock member
@@ -39,9 +44,9 @@ The critical section is held during state transitions ([**CBaseMediaFilter::Run*
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

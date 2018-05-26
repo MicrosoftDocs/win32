@@ -1,7 +1,12 @@
 ---
-Description: 'If neither file has a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.'
-ms.assetid: '82cb0d96-f49f-408e-a8c6-a0d1ee9af8c7'
+Description: If neither file has a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.
+ms.assetid: 82cb0d96-f49f-408e-a8c6-a0d1ee9af8c7
 title: Neither File Has a Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Neither File Has a Version

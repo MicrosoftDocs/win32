@@ -4,11 +4,12 @@ description: The CCF\_COLUMN\_SET\_ID clipboard format is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e4fc2b5f-2736-4a5b-adaa-f1c87d55f0b8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_COLUMN_SET_ID clipboard format MMC"]
+keywords:
+- CCF_COLUMN_SET_ID clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_COLUMN\_SET\_ID clipboard format
@@ -47,8 +51,8 @@ For more information about column persistence, see [Using Column Persistence](us
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -60,9 +64,9 @@ For more information about column persistence, see [Using Column Persistence](us
 [Using Column Persistence](using-column-persistence.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

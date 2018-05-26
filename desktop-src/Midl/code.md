@@ -2,13 +2,19 @@
 title: code attribute
 description: The \ code\ ACF attribute causes client stub code to be generated for remote functions.
 ms.assetid: 735a8c25-29d4-4073-a2db-88bc8615ccc1
-keywords: ["code attribute MIDL"]
+keywords:
+- code attribute MIDL
 topic_type:
 - apiref
 api_name:
 - code
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # code attribute

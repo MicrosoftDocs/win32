@@ -1,7 +1,7 @@
 ---
 title: TS\_SS\_\ Constants
 description: The TS\_SS\_\ constants, defined before run time in the TS\_STATUS structure, describe static document states.
-ms.assetid: '17264527-946a-4648-a4eb-30db751602ab'
+ms.assetid: 17264527-946a-4648-a4eb-30db751602ab
 topic_type:
 - apiref
 api_name:
@@ -15,11 +15,16 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_SS\_\* Constants
 
-The TS\_SS\_\* constants, defined before run time in the [**TS\_STATUS**](ts-status.md) structure, describe static document states.
+The TS\_SS\_\* constants, defined before run time in the [**TS\_STATUS**](/windows/win32/Textstor/ns-textstor-ts_status?branch=master) structure, describe static document states.
 
 
 
@@ -29,8 +34,8 @@ The TS\_SS\_\* constants, defined before run time in the [**TS\_STATUS**](ts-sta
 | <span id="TS_SS_REGIONS"></span><span id="ts_ss_regions"></span><dl> <dt>**TS\_SS\_REGIONS**</dt> <dt>( 0x2 )</dt> </dl>                                         | The document can contain multiple regions.<br/>                                                          |
 | <span id="TS_SS_TRANSITORY"></span><span id="ts_ss_transitory"></span><dl> <dt>**TS\_SS\_TRANSITORY**</dt> <dt>( 0x4 )</dt> </dl>                                | The document is expected to have a short usage cycle.<br/>                                               |
 | <span id="TS_SS_NOHIDDENTEXT"></span><span id="ts_ss_nohiddentext"></span><dl> <dt>**TS\_SS\_NOHIDDENTEXT**</dt> <dt>( 0x8 )</dt> </dl>                          | The document will never contain hidden text.<br/>                                                        |
-| <span id="TS_SS_TKBAUTOCORRECTENABLE"></span><span id="ts_ss_tkbautocorrectenable"></span><dl> <dt>**TS\_SS\_TKBAUTOCORRECTENABLE**</dt> <dt>( 0x10 )</dt> </dl> | **Starting with Windows 8:** The document supports autocorrection provided by the touch keyboard.<br/>   |
-| <span id="TS_SS_TKBPREDICTIONENABLE"></span><span id="ts_ss_tkbpredictionenable"></span><dl> <dt>**TS\_SS\_TKBPREDICTIONENABLE**</dt> <dt>( 0x20 )</dt> </dl>    | **Starting with Windows 8:** The document supports text suggestions provided by the touch keyboard.<br/> |
+| <span id="TS_SS_TKBAUTOCORRECTENABLE"></span><span id="ts_ss_tkbautocorrectenable"></span><dl> <dt>**TS\_SS\_TKBAUTOCORRECTENABLE**</dt> <dt>( 0x10 )</dt> </dl> | **Starting with Windows 8:** The document supports autocorrection provided by the touch keyboard.<br/>   |
+| <span id="TS_SS_TKBPREDICTIONENABLE"></span><span id="ts_ss_tkbpredictionenable"></span><dl> <dt>**TS\_SS\_TKBPREDICTIONENABLE**</dt> <dt>( 0x20 )</dt> </dl>    | **Starting with Windows 8:** The document supports text suggestions provided by the touch keyboard.<br/> |
 
 
 
@@ -44,9 +49,9 @@ The **dwStaticFlags** member of the **TS\_STATUS** structure uses these constant
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -56,15 +61,15 @@ The **dwStaticFlags** member of the **TS\_STATUS** structure uses these constant
 
 <dl> <dt>
 
-[**TS\_STATUS**](ts-status.md)
+[**TS\_STATUS**](/windows/win32/Textstor/ns-textstor-ts_status?branch=master)
 </dt> <dt>
 
-[**TF\_STATUS**](tf-status.md)
+[**TF\_STATUS**](/windows/win32/Msctf/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

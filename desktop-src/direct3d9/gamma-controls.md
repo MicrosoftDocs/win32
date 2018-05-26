@@ -1,7 +1,12 @@
 ---
-Description: 'Gamma controls allow you to change how the system displays the contents of the surface, without affecting the contents of the surface itself.'
-ms.assetid: '74f106be-8f47-4875-9908-32ff35912968'
-title: 'Gamma Controls (Direct3D 9)'
+Description: Gamma controls allow you to change how the system displays the contents of the surface, without affecting the contents of the surface itself.
+ms.assetid: 74f106be-8f47-4875-9908-32ff35912968
+title: Gamma Controls (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gamma Controls (Direct3D 9)
@@ -12,7 +17,7 @@ Gamma controls are a property of a swap chain. Gamma controls make it possible t
 
 There is always at least one swap chain (the implicit swap chain) for each device because Direct3D 9 has one swap chain as a property of the device. Because the gamma ramp is a property of the swap chain, the gamma ramp can be applied when the swap chain is windowed. The gamma ramp takes effect immediately. There is no waiting for a vertical sync operation.
 
-The [**SetGammaRamp**](idirect3ddevice9--setgammaramp.md) and [**GetGammaRamp**](idirect3ddevice9--getgammaramp.md) methods allow you to manipulate ramp levels that affect the red, green, and blue color components of pixels from the surface before they are sent to the digital-to-analog converter (DAC) for display.
+The [**SetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp?branch=master) and [**GetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getgammaramp?branch=master) methods allow you to manipulate ramp levels that affect the red, green, and blue color components of pixels from the surface before they are sent to the digital-to-analog converter (DAC) for display.
 
 ## Gamma Ramp Levels
 
@@ -28,11 +33,11 @@ The array elements for the graph on the left contain values identical to their i
 
 ## Setting and Retrieving Gamma Ramp Levels
 
-Gamma ramp levels are effectively look-up tables that Direct3D uses to map the frame buffer color components to new levels that will be displayed. You can set and retrieve ramp levels for the primary surface by calling the [**SetGammaRamp**](idirect3ddevice9--setgammaramp.md) and [**GetGammaRamp**](idirect3ddevice9--getgammaramp.md) methods. **SetGammaRamp** accepts two parameters and **GetGammaRamp** accepts one parameter. For **SetGammaRamp**, the first parameter is either D3DSGR\_CALIBRATE or D3DSGR\_NO\_CALIBRATION. The second parameter, pRamp, is a pointer to a [**D3DGAMMARAMP**](d3dgammaramp.md) structure. The **D3DGAMMARAMP** structure contains three 256-element arrays of WORDs, one array each to contain the red, green, and blue gamma ramps. **GetGammaRamp** has one parameter that takes a pointer to a **D3DGAMMARAMP** type that will be filled with the current gamma ramp.
+Gamma ramp levels are effectively look-up tables that Direct3D uses to map the frame buffer color components to new levels that will be displayed. You can set and retrieve ramp levels for the primary surface by calling the [**SetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp?branch=master) and [**GetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getgammaramp?branch=master) methods. **SetGammaRamp** accepts two parameters and **GetGammaRamp** accepts one parameter. For **SetGammaRamp**, the first parameter is either D3DSGR\_CALIBRATE or D3DSGR\_NO\_CALIBRATION. The second parameter, pRamp, is a pointer to a [**D3DGAMMARAMP**](d3dgammaramp.md) structure. The **D3DGAMMARAMP** structure contains three 256-element arrays of WORDs, one array each to contain the red, green, and blue gamma ramps. **GetGammaRamp** has one parameter that takes a pointer to a **D3DGAMMARAMP** type that will be filled with the current gamma ramp.
 
-You can include the D3DSGR\_CALIBRATE value for the first parameter of [**SetGammaRamp**](idirect3ddevice9--setgammaramp.md) to invoke the calibrator when setting new gamma levels. Calibrating gamma ramps incurs some processing overhead, and should not be used frequently. Setting a calibrated gamma ramp provides a consistent and absolute gamma value for the user, regardless of the display adapter and monitor.
+You can include the D3DSGR\_CALIBRATE value for the first parameter of [**SetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp?branch=master) to invoke the calibrator when setting new gamma levels. Calibrating gamma ramps incurs some processing overhead, and should not be used frequently. Setting a calibrated gamma ramp provides a consistent and absolute gamma value for the user, regardless of the display adapter and monitor.
 
-Not all systems support gamma calibration. To determine if gamma calibration is supported, call [**GetDeviceCaps**](idirect3ddevice9--getdevicecaps.md), and examine the Caps2 member of the associated [**D3DCAPS9**](d3dcaps9.md) structure after the method returns. If the D3DCAPS2\_CANCALIBRATEGAMMA capability flag is present, then gamma calibration is supported.
+Not all systems support gamma calibration. To determine if gamma calibration is supported, call [**GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps?branch=master), and examine the Caps2 member of the associated [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure after the method returns. If the D3DCAPS2\_CANCALIBRATEGAMMA capability flag is present, then gamma calibration is supported.
 
 When setting new ramp levels, keep in mind that the levels you set in the arrays are only used when your application is in full-screen, exclusive mode. Whenever your application changes to normal mode, the ramp levels are set aside, taking effect again when the application reinstates full-screen mode.
 

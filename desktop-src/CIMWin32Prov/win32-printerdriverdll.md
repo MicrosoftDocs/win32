@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_PrinterDriverDll association WMI class relates a local printer and its driver file.'
+---
+Description: The Win32\_PrinterDriverDll association WMI class relates a local printer and its driver file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'decbd1de-8091-47f7-94a1-42862070b920'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: decbd1de-8091-47f7-94a1-42862070b920
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PrinterDriverDll class'
+title: Win32\_PrinterDriverDll class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PrinterDriverDll class

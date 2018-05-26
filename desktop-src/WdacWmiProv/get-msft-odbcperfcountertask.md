@@ -4,11 +4,14 @@ description: Retrieves the ODBC Connection Pooling PerfMon counters for ODBC Con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6cb60092-47bc-42f2-b226-5a265d78b701'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 6cb60092-47bc-42f2-b226-5a265d78b701
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, MSFT_OdbcPerfCounterTask class", "MSFT_OdbcPerfCounterTask class, Get method"]
+keywords:
+- Get method
+- Get method, MSFT_OdbcPerfCounterTask class
+- MSFT_OdbcPerfCounterTask class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the MSFT\_OdbcPerfCounterTask class
@@ -28,8 +34,8 @@ Retrieves the ODBC Connection Pooling PerfMon counters for ODBC Connection Pooli
 
 ```mof
 uint32 Get(
-  [in]  string               Platform,
-  [out] MSFT_OdbcPerfCounter cmdletOutput[]
+  [in]  string               Platform,
+  [out] MSFT_OdbcPerfCounter cmdletOutput[]
 );
 ```
 
@@ -59,8 +65,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcPerfCounter**](msft-o
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
@@ -78,9 +84,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcPerfCounter**](msft-o
 [**MSFT\_OdbcPerfCounter**](msft-odbcperfcounter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

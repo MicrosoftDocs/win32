@@ -1,8 +1,10 @@
 ---
 title: INETSERVER structure
 description: Contains Internet server information.
-ms.assetid: 'e61cd6f6-0884-4fd0-86af-2e2c96eecf9e'
-keywords: ["INETSERVER structure Windows Mail (formerly Outlook Express)", "LPINETSERVER structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: e61cd6f6-0884-4fd0-86af-2e2c96eecf9e
+keywords:
+- INETSERVER structure Windows Mail (formerly Outlook Express)
+- LPINETSERVER structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INETSERVER structure
@@ -24,17 +31,17 @@ Contains Internet server information.
 
 ```C++
 typedef struct INETSERVER {
-  CHAR        szAccount[CCHMAX_ACCOUNT_NAME];
-  CHAR        szUserName[CCHMAX_USERNAME];
-  CHAR        szPassword[CCHMAX_PASSWORD];
-  CHAR        szServerName[CCHMAX_SERVER_NAME];
-  CHAR        szConnectoid[CCHMAX_CONNECTOID];
+  CHAR        szAccount[CCHMAX_ACCOUNT_NAME];
+  CHAR        szUserName[CCHMAX_USERNAME];
+  CHAR        szPassword[CCHMAX_PASSWORD];
+  CHAR        szServerName[CCHMAX_SERVER_NAME];
+  CHAR        szConnectoid[CCHMAX_CONNECTOID];
   RASCONNTYPE rasconntype;
-  DWORD       dwPort;
-  BOOL        fSSL;
-  BOOL        fTrySicily;
-  DWORD       dwTimeout;
-  DWORD       dwFlags;
+  DWORD       dwPort;
+  BOOL        fSSL;
+  BOOL        fTrySicily;
+  DWORD       dwTimeout;
+  DWORD       dwFlags;
 } INETSERVER, *LPINETSERVER;
 ```
 
@@ -175,7 +182,7 @@ Contains ISF\_*xxx* flags.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -185,17 +192,17 @@ Contains ISF\_*xxx* flags.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

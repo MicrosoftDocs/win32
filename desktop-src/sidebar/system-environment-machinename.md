@@ -1,8 +1,11 @@
 ---
 title: System.Environment.machineName property
 description: Gets the name of the local computer.
-ms.assetid: '8e3b2103-942a-4d47-ad54-f181ee7866e1'
-keywords: ["machineName property Windows Sidebar", "machineName property Windows Sidebar , System.Environment object", "System.Environment object Windows Sidebar , machineName property"]
+ms.assetid: 8e3b2103-942a-4d47-ad54-f181ee7866e1
+keywords:
+- machineName property Windows Sidebar
+- machineName property Windows Sidebar , System.Environment object
+- System.Environment object Windows Sidebar , machineName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Environment.machineName property
@@ -73,10 +81,10 @@ function SetContentText()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -95,9 +103,9 @@ function SetContentText()
 [**getEnvironmentVariable**](system-environment-getenvironmentvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

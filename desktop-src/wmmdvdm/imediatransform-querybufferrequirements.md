@@ -1,8 +1,11 @@
 ---
 title: IMediaTransform QueryBufferRequirements method
 description: Windows Movie Maker calls the QueryBufferRequirements method on startup to learn any special buffer requirements of the transform.
-ms.assetid: 'c3915dfb-2d7a-4ed9-ad2e-b56aeabbf993'
-keywords: ["QueryBufferRequirements method Windows Movie Maker and DVD Maker", "QueryBufferRequirements method Windows Movie Maker and DVD Maker , IMediaTransform interface", "IMediaTransform interface Windows Movie Maker and DVD Maker , QueryBufferRequirements method"]
+ms.assetid: c3915dfb-2d7a-4ed9-ad2e-b56aeabbf993
+keywords:
+- QueryBufferRequirements method Windows Movie Maker and DVD Maker
+- QueryBufferRequirements method Windows Movie Maker and DVD Maker , IMediaTransform interface
+- IMediaTransform interface Windows Movie Maker and DVD Maker , QueryBufferRequirements method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaTransform::QueryBufferRequirements method
@@ -25,8 +33,8 @@ Windows Movie Maker calls the **QueryBufferRequirements** method on startup to l
 
 ```C++
 HRESULT QueryBufferRequirements(
-  [in]  DWORD        dwStream,
-  [out] BufferFormat *pFormat
+  [in]  DWORD        dwStream,
+  [out] BufferFormat *pFormat
 );
 ```
 
@@ -72,8 +80,8 @@ Most transforms will not have any special buffer requirements; unless your trans
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -86,9 +94,9 @@ Most transforms will not have any special buffer requirements; unless your trans
 [**IMediaTransform Interface**](imediatransform.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: COLOROKSTRING message
 description: A Color dialog box sends the COLOROKSTRING registered message to your hook procedure, CCHookProc, when the user selects a color and clicks the OK button.
-ms.assetid: '18b28558-1262-4c88-becf-76ce799b7542'
-keywords: ["COLOROKSTRING message Dialog Boxes"]
+ms.assetid: 18b28558-1262-4c88-becf-76ce799b7542
+keywords:
+- COLOROKSTRING message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLOROKSTRING message
 
-A **Color** dialog box sends the **COLOROKSTRING** registered message to your hook procedure, [*CCHookProc*](cchookproc.md), when the user selects a color and clicks the **OK** button. The hook procedure can accept the color and allow the dialog box to close, or reject the color and force the dialog box to remain open.
+A **Color** dialog box sends the **COLOROKSTRING** registered message to your hook procedure, [*CCHookProc*](/windows/win32/Commdlg/?branch=master), when the user selects a color and clicks the **OK** button. The hook procedure can accept the color and allow the dialog box to close, or reject the color and force the dialog box to remain open.
 
 
 ```C++
@@ -40,7 +46,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CHOOSECOLOR**](choosecolor-str.md) structure. The **rgbResult** member of this structure contains the RGB color value of the selected color.
+A pointer to a [**CHOOSECOLOR**](/windows/win32/Commdlg/ns-commdlg-tagchoosecolora?branch=master) structure. The **rgbResult** member of this structure contains the RGB color value of the selected color.
 
 </dd> </dl>
 
@@ -60,8 +66,8 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **COLOROKSTRINGW** (Unicode) and **COLOROKSTRINGA** (ANSI)<br/>                                    |
 
@@ -74,7 +80,7 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 **Reference**
 </dt> <dt>
 
-[**CHOOSECOLOR**](choosecolor-str.md)
+[**CHOOSECOLOR**](/windows/win32/Commdlg/ns-commdlg-tagchoosecolora?branch=master)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
@@ -86,9 +92,9 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

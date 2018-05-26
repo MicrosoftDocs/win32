@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork Security property
 description: The Security property contains the IVMSecurity object associated with the virtual network.
-ms.assetid: '7d92935f-3ac6-44a6-b367-bae596b4c285'
-keywords: ["Security property Virtual Server", "Security property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , Security property", "Security property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , Security property"]
+ms.assetid: 7d92935f-3ac6-44a6-b367-bae596b4c285
+keywords:
+- Security property Virtual Server
+- Security property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , Security property
+- Security property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , Security property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::Security property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Security(
-  [out] IVMSecurity **outSecurity
+  [out] IVMSecurity **outSecurity
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

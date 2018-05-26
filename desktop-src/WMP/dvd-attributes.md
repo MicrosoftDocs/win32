@@ -1,8 +1,23 @@
 ---
 title: DVD Attributes
 description: DVD Attributes
-ms.assetid: 'aa6eefc5-67f8-449c-90f1-01952907ef45'
-keywords: ["Windows Media Player,DVD attributes", "Windows Media Player Mobile,DVD attributes", "Windows Media Player object model,DVD attributes", "object model,DVD attributes", "ActiveX control,DVD attributes", "Windows Media Player ActiveX control,DVD attributes", "Windows Media Player Mobile ActiveX control,DVD attributes", "reference for object model,DVD attributes", "attributes,DVDs", "DVD attributes"]
+ms.assetid: aa6eefc5-67f8-449c-90f1-01952907ef45
+keywords:
+- Windows Media Player,DVD attributes
+- Windows Media Player Mobile,DVD attributes
+- Windows Media Player object model,DVD attributes
+- object model,DVD attributes
+- ActiveX control,DVD attributes
+- Windows Media Player ActiveX control,DVD attributes
+- Windows Media Player Mobile ActiveX control,DVD attributes
+- reference for object model,DVD attributes
+- attributes,DVDs
+- DVD attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Attributes

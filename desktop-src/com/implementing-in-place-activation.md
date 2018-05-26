@@ -1,7 +1,12 @@
 ---
 title: Implementing In-Place Activation
 description: Implementing In-Place Activation
-ms.assetid: '5fd67d1c-1dc5-4d83-a41e-b64d84cbf212'
+ms.assetid: 5fd67d1c-1dc5-4d83-a41e-b64d84cbf212
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing In-Place Activation
@@ -12,7 +17,7 @@ This capability originally went by the name of *in-place editing*. The name was 
 
 Implementing in-place activation is strictly optional for both container and server applications. OLE still supports the model in which activating an object causes the server application to open a separate window. Linked objects always open in a separate window to emphasize that they reside in a separate document.
 
-In-place activation begins with the object in response to an [**IOleObject::DoVerb**](ioleobject-doverb.md) call from its container. This call usually happens in response to a user double-clicking the object or selecting a command (verb) from the container application's Edit menu.
+In-place activation begins with the object in response to an [**IOleObject::DoVerb**](/windows/win32/OleIdl/nf-oleidl-ioleobject-doverb?branch=master) call from its container. This call usually happens in response to a user double-clicking the object or selecting a command (verb) from the container application's Edit menu.
 
 The in-place window receives keyboard and mouse input while the embedded object is active. When a user selects commands from the composite menu bar, the command and associated menu messages are sent to the container or object application, depending on which owns the particular drop-down menu selected. Input by means of an object's rulers, toolbars, or frame adornments go directly to the embedded object, which owns these windows.
 

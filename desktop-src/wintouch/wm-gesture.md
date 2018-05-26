@@ -1,8 +1,9 @@
 ---
 title: WM\_GESTURE message
 description: Passes information about a gesture.
-ms.assetid: '4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8'
-keywords: ["WM_GESTURE message Windows Touch"]
+ms.assetid: 4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8
+keywords:
+- WM_GESTURE message Windows Touch
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GESTURE message
@@ -24,14 +30,14 @@ Passes information about a gesture.
 *wParam* 
 </dt> <dd>
 
-Provides information identifying the gesture command and gesture-specific argument values. This information is the same information passed in the **ullArguments** member of the [**GESTUREINFO**](gestureinfo.md) structure.
+Provides information identifying the gesture command and gesture-specific argument values. This information is the same information passed in the **ullArguments** member of the [**GESTUREINFO**](/windows/win32/winuser/ns-winuser-taggestureinfo?branch=master) structure.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Provides a handle to information identifying the gesture command and gesture-specific argument values. This information is retrieved by calling [**GetGestureInfo**](getgestureinfo.md).
+Provides a handle to information identifying the gesture command and gesture-specific argument values. This information is retrieved by calling [**GetGestureInfo**](/windows/win32/winuser/nf-winuser-getgestureinfo?branch=master).
 
 </dd> </dl>
 
@@ -59,47 +65,47 @@ The following table lists the supported gesture commands.
 
 
 
- 
+ 
 
 > [!Note]  
 > In order to enable legacy support, messages with the **GID\_BEGIN** and **GID\_END** gesture commands need to be forwarded using [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637).
 
- 
+ 
 
 The following table indicates the gesture arguments passed in the *lParam* and *wParam* parameters.
 
 
 
-| Gesture ID            | Gesture        | *ullArgument*                                                                                                                                                                                                                                                                                                                                                                                            | *ptsLocation* in [**GestureInfo**](getgestureinfo.md) structure                                                  |
+| Gesture ID            | Gesture        | *ullArgument*                                                                                                                                                                                                                                                                                                                                                                                            | *ptsLocation* in [**GestureInfo**](/windows/win32/winuser/nf-winuser-getgestureinfo?branch=master) structure                                                  |
 |-----------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | **GID\_ZOOM**         | Zoom In/Out    | Indicates the distance between the two points.                                                                                                                                                                                                                                                                                                                                                           | Indicates the center of the zoom.                                                                                 |
 | **GID\_PAN**          | Pan            | Indicates the distance between the two points.                                                                                                                                                                                                                                                                                                                                                           | Indicates the current position of the pan.                                                                        |
-| **GID\_ROTATE**       | Rotate (pivot) | Indicates the angle of rotation if the **GF\_BEGIN** flag is set. Otherwise, this is the angle change since the rotation has started. This is signed to indicate the direction of the rotation. Use the [**GID\_ROTATE\_ANGLE\_FROM\_ARGUMENT**](gci-rotate-angle-from-argument.md) and [**GID\_ROTATE\_ANGLE\_TO\_ARGUMENT**](gci-rotate-angle-to-argument.md) macros to get and set the angle value. | This indicates the center of the rotation which is the stationary point that the target object is rotated around. |
+| **GID\_ROTATE**       | Rotate (pivot) | Indicates the angle of rotation if the **GF\_BEGIN** flag is set. Otherwise, this is the angle change since the rotation has started. This is signed to indicate the direction of the rotation. Use the [**GID\_ROTATE\_ANGLE\_FROM\_ARGUMENT**](/windows/win32/winuser/nf-winuser-gid_rotate_angle_from_argument?branch=master) and [**GID\_ROTATE\_ANGLE\_TO\_ARGUMENT**](/windows/win32/winuser/nf-winuser-gid_rotate_angle_to_argument?branch=master) macros to get and set the angle value. | This indicates the center of the rotation which is the stationary point that the target object is rotated around. |
 | **GID\_TWOFINGERTAP** | Two-finger Tap | Indicates the distance between the two fingers.                                                                                                                                                                                                                                                                                                                                                          | Indicates the center of the two fingers.                                                                          |
 | **GID\_PRESSANDTAP**  | Press and Tap  | Indicates the delta between the first finger and the second finger. This value is stored in the lower 32 bits of the *ullArgument* in a **POINT** structure.                                                                                                                                                                                                                                             | Indicates the position that the first finger comes down on.                                                       |
 
 
 
- 
+ 
 
 > [!Note]  
 > All distances and positions are provided in physical screen coordinates.
 
- 
+ 
 
 > [!Note]  
 > The *dwID* and *ullArgument* parameters should only be considered to be accompanying the GID\_\* commands and should not be altered by applications.
 
- 
+ 
 
 ## Examples
 
 The following code illustrates how to obtain gesture-specific information associated with this message.
 
 > [!Note]  
-> You should always forward unhandled messages to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637) and should close the gesture input handle for messages that you do handle with a call to [**CloseGestureInfoHandle**](closegestureinfohandle.md). In this example, the default gesture handler behavior will be suppressed because the TOUCHINPUT handle is closed in each of the gesture cases. If you removed the cases in the above code for unhandled messages, the default gesture handler would process the messages by getting forwarded to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637) in the default case.
+> You should always forward unhandled messages to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637) and should close the gesture input handle for messages that you do handle with a call to [**CloseGestureInfoHandle**](/windows/win32/winuser/nf-winuser-closegestureinfohandle?branch=master). In this example, the default gesture handler behavior will be suppressed because the TOUCHINPUT handle is closed in each of the gesture cases. If you removed the cases in the above code for unhandled messages, the default gesture handler would process the messages by getting forwarded to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637) in the default case.
 
- 
+ 
 
 
 ```C++
@@ -163,8 +169,8 @@ The following code illustrates how to obtain gesture-specific information associ
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -179,9 +185,9 @@ The following code illustrates how to obtain gesture-specific information associ
 [Windows Touch Gestures Programming Guide](guide-multi-touch-gestures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

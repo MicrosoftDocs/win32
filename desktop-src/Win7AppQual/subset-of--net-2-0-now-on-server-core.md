@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f91c4604-b2d6-41e5-be66-bbc8a4f0e28e'
-title: 'Subset of .NET 2.0 Now on Server Core'
+Description: .
+ms.assetid: f91c4604-b2d6-41e5-be66-bbc8a4f0e28e
+title: Subset of .NET 2.0 Now on Server Core
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subset of .NET 2.0 Now on Server Core

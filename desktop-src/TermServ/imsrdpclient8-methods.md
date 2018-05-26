@@ -4,10 +4,13 @@ description: The IMsRdpClient8 interface exposes the following methods.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A8B62801-1992-44C9-B3EF-5DEF402004E0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: A8B62801-1992-44C9-B3EF-5DEF402004E0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient8 methods

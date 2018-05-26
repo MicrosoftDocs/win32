@@ -1,14 +1,20 @@
 ---
 title: Revision element
 description: Revision part of standard version number.
-ms.assetid: 'CA248741-4AC5-4BA8-AAAF-D00F8C159CFC'
-keywords: ["Revision element Access Execution Engine"]
+ms.assetid: CA248741-4AC5-4BA8-AAAF-D00F8C159CFC
+keywords:
+- Revision element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Revision
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Revision element
@@ -68,9 +74,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

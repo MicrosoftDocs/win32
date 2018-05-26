@@ -1,12 +1,18 @@
 ---
 title: Texture2D Sample methods
 description: Samples a Texture2D.
-ms.assetid: '26DC90DA-33C6-49D7-B250-156EA686F5A8'
-keywords: ["Sample methods HLSL"]
+ms.assetid: 26DC90DA-33C6-49D7-B250-156EA686F5A8
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::Sample methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

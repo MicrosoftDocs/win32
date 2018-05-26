@@ -4,13 +4,16 @@ description: Gets an IP range(s) from a policy in the specified scope.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2c752bb-30fd-417d-a5da-c28779f681ff'
-ms.prod: 'windows-server-dev'
+ms.assetid: d2c752bb-30fd-417d-a5da-c28779f681ff
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4PolicyIPRange class", "PS_DhcpServerv4PolicyIPRange class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4PolicyIPRange class
+- PS_DhcpServerv4PolicyIPRange class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4PolicyIPRange class
@@ -30,10 +36,10 @@ Gets an IP range(s) from a policy in the specified scope.
 
 ```mof
 uint32 Get(
-  [in]  string                    Name[],
-  [in]  string                    ScopeId,
-  [in]  string                    ComputerName,
-  [out] DhcpServerv4PolicyIPRange cmdletOutput[]
+  [in]  string                    Name[],
+  [in]  string                    ScopeId,
+  [in]  string                    ComputerName,
+  [out] DhcpServerv4PolicyIPRange cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv4PolicyIPRange**](dhcpserverv4policyip
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv4PolicyIPRange**](dhcpserverv4policyip
 [**PS\_DhcpServerv4PolicyIPRange**](ps-dhcpserverv4policyiprange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

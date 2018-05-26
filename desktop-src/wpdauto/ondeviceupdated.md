@@ -1,14 +1,22 @@
 ---
 title: Device.onDeviceUpdated event
 description: The onDeviceUpdated event occurs when the device has been updated, such as when a device property has been changed.
-ms.assetid: '9b0e82d1-7fc4-40f8-9ec5-ef88ffb56731'
-keywords: ["onDeviceUpdated event WPD Automation", "onDeviceUpdated event WPD Automation , Device object", "Device object WPD Automation , onDeviceUpdated event"]
+ms.assetid: 9b0e82d1-7fc4-40f8-9ec5-ef88ffb56731
+keywords:
+- onDeviceUpdated event WPD Automation
+- onDeviceUpdated event WPD Automation , Device object
+- Device object WPD Automation , onDeviceUpdated event
 topic_type:
 - apiref
 api_name:
 - Device.onDeviceUpdated
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.onDeviceUpdated event
@@ -73,8 +81,8 @@ deviceObject.DeviceFriendlyName = oldName;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -85,9 +93,9 @@ deviceObject.DeviceFriendlyName = oldName;
 [**Device Object**](device-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

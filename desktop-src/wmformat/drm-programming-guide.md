@@ -1,8 +1,29 @@
 ---
 title: Programming Guide
 description: Programming Guide
-ms.assetid: 'e7b179b3-ed14-4ea0-9a00-9d96557a2e2e'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,Programming Guide", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "digital rights management (DRM),Programming Guide", "DRM (digital rights management),Programming Guide", "DRM Client Extended APIs,about", "Client Extended APIs,about"]
+ms.assetid: e7b179b3-ed14-4ea0-9a00-9d96557a2e2e
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,Programming Guide
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- digital rights management (DRM),Programming Guide
+- DRM (digital rights management),Programming Guide
+- DRM Client Extended APIs,about
+- Client Extended APIs,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

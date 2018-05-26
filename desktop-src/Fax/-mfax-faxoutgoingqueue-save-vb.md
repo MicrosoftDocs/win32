@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxOutgoingQueue object data.'
-ms.assetid: 'bccafbc0-2233-4431-8003-f6b25db6bde8'
-title: 'FaxOutgoingQueue.Save method'
+---
+Description: The Save method saves the FaxOutgoingQueue object data.
+ms.assetid: bccafbc0-2233-4431-8003-f6b25db6bde8
+title: FaxOutgoingQueue.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) or [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

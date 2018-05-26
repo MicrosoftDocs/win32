@@ -1,7 +1,12 @@
 ---
 Description: Accessing Service Object Properties
-ms.assetid: '66d9802b-ad28-47a4-8151-9df7aff07d61'
+ms.assetid: 66d9802b-ad28-47a4-8151-9df7aff07d61
 title: Accessing Service Object Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing Service Object Properties
@@ -18,9 +23,9 @@ Device service PROPERTYKEYs are defined in BridgeDeviceServices.h (included by e
 
 The set of PROPERTYKEYs used will depend on your application's needs:
 
--   If your application is communicating with the device by calling [**IPortableDevice::Open**](iportabledevice-open.md), use the PROPERTYKEYs defined in PortableDevice.h. An example of such an application is the WpdApiSample.
--   If your application is communicating with device services by calling [**IPortableDeviceService::Open**](iportabledeviceservice-open.md), use the PROPERTYKEYS defined in BridgeDeviceServices.h. An example of such an application is the WpdServicesApiSample.
--   If you are writing a complex application that needs to support a hybrid of both device services and the device (this means your application calls both **IPortableDevice::Open** and **IPortableDeviceService::Open**), you will need to use the WPD PROPERTYKEYs when using IPortableDevice and its derived interfaces, and device service PROPERTYKEYs when using [IPortableDeviceService](iportabledeviceservice.md) and its derived interfaces.
+-   If your application is communicating with the device by calling [**IPortableDevice::Open**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open?branch=master), use the PROPERTYKEYs defined in PortableDevice.h. An example of such an application is the WpdApiSample.
+-   If your application is communicating with device services by calling [**IPortableDeviceService::Open**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open?branch=master), use the PROPERTYKEYS defined in BridgeDeviceServices.h. An example of such an application is the WpdServicesApiSample.
+-   If you are writing a complex application that needs to support a hybrid of both device services and the device (this means your application calls both **IPortableDevice::Open** and **IPortableDeviceService::Open**), you will need to use the WPD PROPERTYKEYs when using IPortableDevice and its derived interfaces, and device service PROPERTYKEYs when using [IPortableDeviceService](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master) and its derived interfaces.
 
 Most WPD applications should fall into the first or second category.
 
@@ -28,10 +33,10 @@ Most WPD applications should fall into the first or second category.
 
 <dl> <dt>
 
-[**IPortableDeviceContent2**](iportabledevicecontent2.md)
+[**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceProperties**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
 [Retrieving Object Properties](retrieving-content-object-properties.md)

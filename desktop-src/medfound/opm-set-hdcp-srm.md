@@ -1,7 +1,12 @@
-﻿---
-Description: 'Updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).'
-ms.assetid: 'ea18baba-0e03-4471-af0e-a588773c98d2'
-title: 'OPM\_SET\_HDCP\_SRM'
+---
+Description: Updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).
+ms.assetid: ea18baba-0e03-4471-af0e-a588773c98d2
+title: OPM\_SET\_HDCP\_SRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_SET\_HDCP\_SRM
@@ -13,13 +18,13 @@ Updates the system renewability message (SRM) for High-Bandwidth Digital Content
 |              |                                                                                     |
 |--------------|-------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_HDCP\_SRM                                                                 |
-| Input data   | An [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](opm-set-hdcp-srm-parameters.md) structure |
+| Input data   | An [**OPM\_SET\_HDCP\_SRM\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_set_hdcp_srm_parameters?branch=master) structure |
 
 
 
  
 
-The *pbAdditionalParameters* parameter of [**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md) must point to a buffer that contains the SRM. The format of an HDCP SRM is documented in the HDCP specification. Set the *ulAdditionalParametersSize* parameter equal to the size of the buffer, in bytes.
+The *pbAdditionalParameters* parameter of [**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master) must point to a buffer that contains the SRM. The format of an HDCP SRM is documented in the HDCP specification. Set the *ulAdditionalParametersSize* parameter equal to the size of the buffer, in bytes.
 
 ## Remarks
 
@@ -58,7 +63,7 @@ This command is not supported when the **IOPMVideoOutput** interface emulates Ce
 
 <dl> <dt>
 
-[**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md)
+[**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master)
 </dt> <dt>
 
 [OPM Commands](opm-commands.md)

@@ -1,8 +1,16 @@
 ---
 title: Morphology effect
 description: Use the morphology effect to thin or thicken edge boundaries in an image.
-ms.assetid: '4B3CFC51-D556-4729-B433-7307C80291F4'
-keywords: ["morphology effects", "dilate effect", "erode effect"]
+ms.assetid: 4B3CFC51-D556-4729-B433-7307C80291F4
+keywords:
+- morphology effects
+- dilate effect
+- erode effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Morphology effect
@@ -25,7 +33,7 @@ This example shows the output of the effect when using the erode mode.
 
 
 
- 
+ 
 
 
 ```C++
@@ -56,7 +64,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Morphology modes
 
@@ -69,7 +77,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -82,7 +90,7 @@ For DILATE mode, the Output Bitmap size grows:
 
 
 
- 
+ 
 
 For ERODE mode, the Output Bitmap size shrinks:
 
@@ -93,7 +101,7 @@ For ERODE mode, the Output Bitmap size shrinks:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -101,25 +109,25 @@ For ERODE mode, the Output Bitmap size shrinks:
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

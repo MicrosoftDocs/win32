@@ -4,17 +4,22 @@ description: Specifies whether the resource should be brought online or left off
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc6d9b93-4060-41d4-8ffe-a1c798c23452'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: bc6d9b93-4060-41d4-8ffe-a1c798c23452
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PersistentState Failover Cluster ,for resources", "PersistentState Failover Cluster"]
+keywords:
+- PersistentState Failover Cluster ,for resources
+- PersistentState Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PersistentState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PersistentState
@@ -27,14 +32,14 @@ Specifies whether the [resource](resources.md) should be brought online or left 
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ The data value for the **PersistentState** property can be set to **TRUE** or **
 
 When a resource is brought online, its **PersistentState** property is deleted from the [cluster database](cluster-database.md). Therefore, **PersistentState** should only be set when a resource is offline.
 
-To retrieve the current state of a resource, call the [**GetClusterResourceState**](getclusterresourcestate.md) function.
+To retrieve the current state of a resource, call the [**GetClusterResourceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_resource_state?branch=master) function.
 
 ## Examples
 
@@ -67,7 +72,7 @@ PersistentStateValue.dw        = PersistentStateData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -75,15 +80,15 @@ PersistentStateValue.dw        = PersistentStateData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**GetClusterResourceState**](getclusterresourcestate.md)
+[**GetClusterResourceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_resource_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

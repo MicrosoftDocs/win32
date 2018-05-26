@@ -1,7 +1,7 @@
 ---
 title: Gopher Type Values
 description: The following list contains the possible Gopher type values.
-ms.assetid: 'e77a0328-d811-4c01-831a-0ead888a4988'
+ms.assetid: e77a0328-d811-4c01-831a-0ead888a4988
 topic_type:
 - apiref
 api_name:
@@ -33,6 +33,11 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gopher Type Values
@@ -360,7 +365,7 @@ Item type is unknown.
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -368,17 +373,17 @@ Item type is unknown.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Wininet.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

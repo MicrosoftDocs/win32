@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.openPlayer method
 description: The openPlayer method opens Windows Media Player using the specified URL.
-ms.assetid: '9a9d8200-f427-42ff-b49f-d973cf86014f'
-keywords: ["openPlayer method Windows Media Player", "openPlayer method Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , openPlayer method"]
+ms.assetid: 9a9d8200-f427-42ff-b49f-d973cf86014f
+keywords:
+- openPlayer method Windows Media Player
+- openPlayer method Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , openPlayer method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.openPlayer method
@@ -86,9 +94,9 @@ This method launches Windows Media Player with the specified URL set as the curr
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

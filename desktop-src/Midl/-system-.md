@@ -2,13 +2,19 @@
 title: / system switch
 description: The / system switch directs the MIDL compiler to generate a type library for the specified system. The default is the current operating system.
 ms.assetid: 0fb69ffc-5ab4-49f3-b34d-859da776ce9e
-keywords: ["/ system switch MIDL"]
+keywords:
+- / system switch MIDL
 topic_type:
 - apiref
 api_name:
 - / system
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /&lt;system&gt; switch

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The presence of the MSIINSTANCEGUID property indicates that a product code&\#8211;changing transform is registered to the product.'
-ms.assetid: 'c39be15d-e10a-4055-bd81-aa7510a19fe4'
+---
+Description: The presence of the MSIINSTANCEGUID property indicates that a product code&\#8211;changing transform is registered to the product.
+ms.assetid: c39be15d-e10a-4055-bd81-aa7510a19fe4
 title: MSIINSTANCEGUID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIINSTANCEGUID property

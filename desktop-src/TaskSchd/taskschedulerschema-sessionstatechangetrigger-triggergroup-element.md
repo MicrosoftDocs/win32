@@ -1,14 +1,20 @@
 ---
 title: SessionStateChangeTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when a Terminal Server session changes state.
-ms.assetid: '38b0da3c-205f-48c5-83e6-ff7c432c02b9'
-keywords: ["SessionStateChangeTrigger element Task Scheduler"]
+ms.assetid: 38b0da3c-205f-48c5-83e6-ff7c432c02b9
+keywords:
+- SessionStateChangeTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - SessionStateChangeTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SessionStateChangeTrigger (triggerGroup) Element
@@ -49,7 +55,7 @@ The **SessionStateChangeTrigger** element is defined by the [**triggerGroup**](t
 
 For scripting development, a session state change trigger is specified using the [**SessionStateChangeTrigger**](sessionstatechangetrigger.md) object.
 
-For C++ development, a session state change trigger is specified using the [**ISessionStateChangeTrigger**](isessionstatechangetrigger.md) interface.
+For C++ development, a session state change trigger is specified using the [**ISessionStateChangeTrigger**](/windows/win32/taskschd/nn-taskschd-isessionstatechangetrigger?branch=master) interface.
 
 ## Requirements
 
@@ -57,14 +63,14 @@ For C++ development, a session state change trigger is specified using the [**IS
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

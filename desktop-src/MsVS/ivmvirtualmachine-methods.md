@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualMachine Methods
 description: The IVMVirtualMachine interface defines the following methods
-ms.assetid: 'cd2ba8d9-0656-4618-861b-03c781fa8d60'
+ms.assetid: cd2ba8d9-0656-4618-861b-03c781fa8d60
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine Methods

@@ -1,7 +1,12 @@
 ---
 title: Music Bundle Sample
 description: A sample application that uses the Packaging APIs to produce and consume a custom-format package, called a music bundle.
-ms.assetid: '8063fcb5-4629-4b6b-857b-bb22f0572f0d'
+ms.assetid: 8063fcb5-4629-4b6b-857b-bb22f0572f0d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Music Bundle Sample
@@ -35,12 +40,12 @@ The sample demonstrates the following features of the Packaging APIs:
 
 | Product                                                                                             | Version        |
 |-----------------------------------------------------------------------------------------------------|----------------|
-| [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7      |
+| [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7      |
 | [ATL](http://go.microsoft.com/fwlink/p/?linkid=142947)                                              | .NET Framework |
 
 
 
- 
+ 
 
 ## Downloading the Sample
 
@@ -55,7 +60,7 @@ This sample is available in the following locations:
 
 
 
- 
+ 
 
 ## Building the Sample
 
@@ -74,7 +79,7 @@ The following procedure describes how to build the sample.
         > [!Note]  
         > If the sample does not build successfully, close Visual Studio 2008 and run the [.NET Framework Configuration Tool](a7106c52-68da-490e-b129-971b2c743764) (Mscorcfg.msc) before attempting to build the sample.
 
-         
+         
 
     Using the command prompt:
 
@@ -183,11 +188,11 @@ The ZIP extension is used in this example to clearer indicate that the music bun
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

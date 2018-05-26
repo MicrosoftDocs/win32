@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectTechnique GetAnnotationByName method
 description: Get an annotation by name.
-ms.assetid: '3a9e1fa7-4586-42d6-a723-3140f29a01b4'
-keywords: ["GetAnnotationByName method Direct3D 11", "GetAnnotationByName method Direct3D 11 , ID3DX11EffectTechnique interface", "ID3DX11EffectTechnique interface Direct3D 11 , GetAnnotationByName method"]
+ms.assetid: 3a9e1fa7-4586-42d6-a723-3140f29a01b4
+keywords:
+- GetAnnotationByName method Direct3D 11
+- GetAnnotationByName method Direct3D 11 , ID3DX11EffectTechnique interface
+- ID3DX11EffectTechnique interface Direct3D 11 , GetAnnotationByName method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectTechnique::GetAnnotationByName method
@@ -23,7 +31,7 @@ Get an annotation by name.
 
 ```C++
 ID3DX11EffectVariable* GetAnnotationByName(
-   LPCSTR Name
+   LPCSTR Name
 );
 ```
 
@@ -55,7 +63,7 @@ Use an annotation to attach a piece of metadata to a technique.
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ Use an annotation to attach a piece of metadata to a technique.
 [ID3DX11EffectTechnique](id3dx11effecttechnique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

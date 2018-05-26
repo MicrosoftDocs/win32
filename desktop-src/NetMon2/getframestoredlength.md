@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameStoredLength function returns the length of the frame.'
-ms.assetid: '7ac0e528-a45a-4c36-a99d-647347bdd143'
+Description: The GetFrameStoredLength function returns the length of the frame.
+ms.assetid: 7ac0e528-a45a-4c36-a99d-647347bdd143
 title: GetFrameStoredLength function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameStoredLength function
@@ -13,7 +18,7 @@ The **GetFrameStoredLength** function returns the length of the frame.
 
 ```C++
 DWORD WINAPI GetFrameStoredLength(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -46,8 +51,8 @@ If the function is unsuccessful, the return value is zero.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -61,9 +66,9 @@ If the function is unsuccessful, the return value is zero.
 [GetFrameLength](getframelength.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

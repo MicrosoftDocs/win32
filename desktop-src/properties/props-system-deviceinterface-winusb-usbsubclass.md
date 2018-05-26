@@ -1,7 +1,12 @@
 ---
-Description: 'SubClass value from the USB device''s first USB Interface Descriptor.'
-ms.assetid: '1f11154a-d8fd-4067-aea2-6c341a46b3c5'
-title: 'System.DeviceInterface.WinUsb.UsbSubClass'
+Description: SubClass value from the USB devices first USB Interface Descriptor.
+ms.assetid: 1f11154a-d8fd-4067-aea2-6c341a46b3c5
+title: System.DeviceInterface.WinUsb.UsbSubClass
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.WinUsb.UsbSubClass

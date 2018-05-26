@@ -1,14 +1,20 @@
 ---
 title: STRINGTABLE resource
 description: Defines one or more string resources for an application. String resources are simply null-terminated Unicode or ASCII strings that can be loaded when needed from the executable file, using the LoadString function.
-ms.assetid: '5868245d-3445-4792-86f5-253945310d36'
-keywords: ["STRINGTABLE resource Menus and Other Resources"]
+ms.assetid: 5868245d-3445-4792-86f5-253945310d36
+keywords:
+- STRINGTABLE resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - STRINGTABLE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STRINGTABLE resource

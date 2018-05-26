@@ -1,7 +1,12 @@
 ---
 title: Button Messages
 description: A button can send messages to its parent window, and a parent window can send messages to a button.
-ms.assetid: '2d2358fb-b17d-48a9-8def-15ae8bad9162'
+ms.assetid: 2d2358fb-b17d-48a9-8def-15ae8bad9162
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Messages
@@ -19,7 +24,7 @@ The following topics are discussed in this section.
 
 ## Sending Messages to Buttons
 
-A parent window can send messages to a button in an overlapped or child window by using the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function, or it can send messages to a button in a dialog box by using the [**SendDlgItemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms645515), [**CheckDlgButton**](checkdlgbutton.md), [**CheckRadioButton**](checkradiobutton.md), and [**IsDlgButtonChecked**](isdlgbuttonchecked.md) functions.
+A parent window can send messages to a button in an overlapped or child window by using the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function, or it can send messages to a button in a dialog box by using the [**SendDlgItemMessage**](https://msdn.microsoft.com/library/windows/desktop/ms645515), [**CheckDlgButton**](/windows/win32/Winuser/nf-winuser-checkdlgbutton?branch=master), [**CheckRadioButton**](/windows/win32/Winuser/nf-winuser-checkradiobutton?branch=master), and [**IsDlgButtonChecked**](/windows/win32/Winuser/nf-winuser-isdlgbuttonchecked?branch=master) functions.
 
 An application can use the [**BM\_GETCHECK**](bm-getcheck.md) message to retrieve the check state of a check box or radio button. An application can also use the [**BM\_GETSTATE**](bm-getstate.md) message to retrieve the button's current states (the check state, push state, and focus state). To get information about a specific state, use a bitmask on the returned state value.
 
@@ -29,7 +34,7 @@ A button of the [**BS\_BITMAP**](button-styles.md#bs-bitmap) or [**BS\_ICON**](b
 
 An application can also use the [**DM\_GETDEFID**](https://msdn.microsoft.com/library/windows/desktop/ms645406) message to retrieve the identifier of the default push button control in a dialog box. An application can use the [**DM\_SETDEFID**](https://msdn.microsoft.com/library/windows/desktop/ms645413) message to set the default push button for a dialog box.
 
-Calling the [**CheckDlgButton**](checkdlgbutton.md) or [**CheckRadioButton**](checkradiobutton.md) function is equivalent to sending a [**BM\_SETCHECK**](bm-setcheck.md) message. Calling the [**IsDlgButtonChecked**](isdlgbuttonchecked.md) function is equivalent to sending a [**BM\_GETCHECK**](bm-getcheck.md) message.
+Calling the [**CheckDlgButton**](/windows/win32/Winuser/nf-winuser-checkdlgbutton?branch=master) or [**CheckRadioButton**](/windows/win32/Winuser/nf-winuser-checkradiobutton?branch=master) function is equivalent to sending a [**BM\_SETCHECK**](bm-setcheck.md) message. Calling the [**IsDlgButtonChecked**](/windows/win32/Winuser/nf-winuser-isdlgbuttonchecked?branch=master) function is equivalent to sending a [**BM\_GETCHECK**](bm-getcheck.md) message.
 
 ## Handling Messages from a Button
 

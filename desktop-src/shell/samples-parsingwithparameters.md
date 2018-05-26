@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to take advantage of Shell helpers that use the parsing name to interact with items through the Shell programming model.'
+Description: Demonstrates how to take advantage of Shell helpers that use the parsing name to interact with items through the Shell programming model.
 title: Parsing With Parameters Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parsing With Parameters Sample

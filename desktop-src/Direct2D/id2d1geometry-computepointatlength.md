@@ -1,19 +1,25 @@
 ---
 title: ID2D1Geometry ComputePointAtLength methods
 description: Calculates the point and tangent vector at the specified distance along the \ 160;geometry.
-ms.assetid: 'b76aa3db-2967-4baa-a449-f664b080fb74'
-keywords: ["ComputePointAtLength methods Direct2D"]
+ms.assetid: b76aa3db-2967-4baa-a449-f664b080fb74
+keywords:
+- ComputePointAtLength methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::ComputePointAtLength methods
 
-Calculates the point and tangent vector at the specified distance along the geometry.
+Calculates the point and tangent vector at the specified distance along the geometry.
 
 ### Overload list
 
@@ -21,16 +27,16 @@ Calculates the point and tangent vector at the specified distance along the geom
 
 | Method                                                                                                                                                                                                        | Description                                                                                                                                                                                        |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F&,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](id2d1geometry-computepointatlength-float-ref-d2d-matrix-3x2-f-ptr-d2d-point-2f-ptr-d2d-point-2f.md)              | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
-| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F\*,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](id2d1geometry-computepointatlength-float-ptr-d2d-matrix-3x2-f-ptr-d2d-point-2f-ptr-d2d-point-2f.md)             | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
-| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](id2d1geometry-computepointatlength-float-ref-d2d-matrix-3x2-f-float-ptr-d2d-point-2f-ptr-d2d-point-2f.md)  | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
-| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](id2d1geometry-computepointatlength-float-ptr-d2d-matrix-3x2-f-float-ptr-d2d-point-2f-ptr-d2d-point-2f.md) | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
+| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F&,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](/windows/win32/d2d1/?branch=master)              | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
+| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F\*,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](/windows/win32/d2d1/?branch=master)             | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
+| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F&,FLOAT,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](/windows/win32/d2d1/?branch=master)  | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
+| [**ComputePointAtLength(FLOAT,D2D1\_MATRIX\_3X2\_F\*,FLOAT,D2D1\_POINT\_2F\*,D2D1\_POINT\_2F\*)**](/windows/win32/d2d1/?branch=master) | Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
 
 
 
 ## Examples
 
-The following code example shows how to use **ComputePointAtLength** to calculate the point and tangent vector at the specified distance along the geometry.
+The following code example shows how to use **ComputePointAtLength** to calculate the point and tangent vector at the specified distance along the geometry.
 
 
 ```C++
@@ -68,12 +74,12 @@ hr = m_pPathGeometry->ComputePointAtLength(
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

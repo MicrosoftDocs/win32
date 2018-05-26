@@ -4,17 +4,21 @@ description: Used to define entries that represent the local part of mail addres
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1df90e93-d7eb-42c8-b216-6046a83d0ada'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1df90e93-d7eb-42c8-b216-6046a83d0ada
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["rFC822LocalPart class AD Schema"]
+keywords:
+- rFC822LocalPart class AD Schema
 topic_type:
 - apiref
 api_name:
 - rFC822LocalPart
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # rFC822LocalPart class
@@ -35,11 +39,11 @@ Used to define entries that represent the local part of mail addresses.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -66,7 +70,7 @@ Used to define entries that represent the local part of mail addresses.
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -208,7 +212,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -353,7 +357,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -509,7 +513,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -672,7 +676,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -816,9 +820,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

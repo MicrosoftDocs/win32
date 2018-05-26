@@ -1,34 +1,39 @@
 ---
 Description: Implementing IMFNetCredentialManager
-ms.assetid: '3eb2afec-195c-4d8d-8e08-7e6ec7c572f8'
+ms.assetid: 3eb2afec-195c-4d8d-8e08-7e6ec7c572f8
 title: Implementing IMFNetCredentialManager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IMFNetCredentialManager
 
-In the [**IMFNetCredentialManager::BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md) method, do the following.
+In the [**IMFNetCredentialManager::BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master) method, do the following.
 
-1.  If you do not have an [**IMFNetCredentialCache**](imfnetcredentialcache.md) pointer already, call [**MFCreateCredentialCache**](mfcreatecredentialcache.md) to create the credential cache object. Store this pointer.
-2.  Call [**IMFNetCredentialCache::GetCredential**](imfnetcredentialcache-getcredential.md). Set the flags in the *dwAuthenticationFlags* parameter as follows:
-    -   If the **hrOp** member of the [**MFNetCredentialManagerGetParam**](mfnetcredentialmanagergetparam.md) structure equals **NS\_E\_PROXY\_ACCESSDENIED**, set the **MFNET\_AUTHENTICATION\_PROXY** flag.
+1.  If you do not have an [**IMFNetCredentialCache**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialcache?branch=master) pointer already, call [**MFCreateCredentialCache**](/windows/win32/mfidl/nf-mfidl-mfcreatecredentialcache?branch=master) to create the credential cache object. Store this pointer.
+2.  Call [**IMFNetCredentialCache::GetCredential**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialcache-getcredential?branch=master). Set the flags in the *dwAuthenticationFlags* parameter as follows:
+    -   If the **hrOp** member of the [**MFNetCredentialManagerGetParam**](/windows/win32/mfidl/ns-mfidl-_mfnetcredentialmanagergetparam?branch=master) structure equals **NS\_E\_PROXY\_ACCESSDENIED**, set the **MFNET\_AUTHENTICATION\_PROXY** flag.
     -   If **fClearTextPackage** is **TRUE**, set the **MFNET\_AUTHENTICATION\_CLEAR\_TEXT** flag.
     -   If **fAllowLoggedOnUser** is **TRUE**, set the **MFNET\_AUTHENTICATION\_LOGGED\_ON\_USER** flag.
-3.  The [**GetCredential**](imfnetcredentialcache-getcredential.md) method returns an [**IMFNetCredential**](imfnetcredential.md) pointer and possibly the REQUIRE\_PROMPT flag. Store the **IMFNetCredential** pointer.
-4.  If [**GetCredential**](imfnetcredentialcache-getcredential.md) does not return the **REQUIRE\_PROMPT** flag, you are done. Skip to step 9.
-5.  Otherwise, if [**GetCredential**](imfnetcredentialcache-getcredential.md) returns the **REQUIRE\_PROMPT** flag, you must prompt the user for his or her user name and password.
+3.  The [**GetCredential**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialcache-getcredential?branch=master) method returns an [**IMFNetCredential**](/windows/win32/mfidl/nn-mfidl-imfnetcredential?branch=master) pointer and possibly the REQUIRE\_PROMPT flag. Store the **IMFNetCredential** pointer.
+4.  If [**GetCredential**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialcache-getcredential?branch=master) does not return the **REQUIRE\_PROMPT** flag, you are done. Skip to step 9.
+5.  Otherwise, if [**GetCredential**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialcache-getcredential?branch=master) returns the **REQUIRE\_PROMPT** flag, you must prompt the user for his or her user name and password.
 6.  If **fClearTextPackage** is **FALSE**, encrypt the credentials.
-7.  Call [**IMFNetCredential::SetUser**](imfnetcredential-setuser.md) and [**IMFNetCredential::SetPassword**](imfnetcredential-setpassword.md) to set the user's name and password on the credentials object.
-8.  Optionally, call [**IMFNetCredentialCache::SetUserOptions**](imfnetcredentialcache-setuseroptions.md) to update the credential cache object with the user's preferences for storing and sending credentials.
-9.  Invoke the [**IMFAsyncCallback**](imfasynccallback.md) callback by calling [**MFInvokeCallback**](mfinvokecallback.md).
+7.  Call [**IMFNetCredential::SetUser**](/windows/win32/mfidl/nf-mfidl-imfnetcredential-setuser?branch=master) and [**IMFNetCredential::SetPassword**](/windows/win32/mfidl/nf-mfidl-imfnetcredential-setpassword?branch=master) to set the user's name and password on the credentials object.
+8.  Optionally, call [**IMFNetCredentialCache::SetUserOptions**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialcache-setuseroptions?branch=master) to update the credential cache object with the user's preferences for storing and sending credentials.
+9.  Invoke the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) callback by calling [**MFInvokeCallback**](/windows/win32/mfapi/nf-mfapi-mfinvokecallback?branch=master).
 
-In the [**IMFNetCredentialManager::EndGetCredentials**](imfnetcredentialmanager-endgetcredentials.md) method, return the [**IMFNetCredential**](imfnetcredential.md) pointer obtained in the [**BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md) method.
+In the [**IMFNetCredentialManager::EndGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-endgetcredentials?branch=master) method, return the [**IMFNetCredential**](/windows/win32/mfidl/nn-mfidl-imfnetcredential?branch=master) pointer obtained in the [**BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master) method.
 
-In the [**IMFNetCredentialManager::SetGood**](imfnetcredentialmanager-setgood.md) method, pass the input parameters directly to the [**IMFNetCredentialCache::SetGood**](imfnetcredentialcache-setgood.md) method. This notifies the credential cache whether the credentials were accepted by the server.
+In the [**IMFNetCredentialManager::SetGood**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-setgood?branch=master) method, pass the input parameters directly to the [**IMFNetCredentialCache::SetGood**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialcache-setgood?branch=master) method. This notifies the credential cache whether the credentials were accepted by the server.
 
-If you need to prompt the user (step 5) or encrypt the credentials (step 6), you should do so on a work-queue thread, so that you do not block the Microsoft Media Foundation pipeline. Call [**MFPutWorkItem**](mfputworkitem.md) and then perform the remaining steps inside the work-queue callback.
+If you need to prompt the user (step 5) or encrypt the credentials (step 6), you should do so on a work-queue thread, so that you do not block the Microsoft Media Foundation pipeline. Call [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) and then perform the remaining steps inside the work-queue callback.
 
 > [!Note]  
-> Be aware that [**BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md) might be invoked while the network source is being created. Therefore, if you create the network source by calling the synchronous [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md) method, your calling thread might block while the credentials are acquired. Therefore, it is recommended to use the asynchronous [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md) method instead.
+> Be aware that [**BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master) might be invoked while the network source is being created. Therefore, if you create the network source by calling the synchronous [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master) method, your calling thread might block while the credentials are acquired. Therefore, it is recommended to use the asynchronous [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master) method instead.
 
  
 
@@ -36,7 +41,7 @@ If you need to prompt the user (step 5) or encrypt the credentials (step 6), you
 
 This example shows one type of behavior that a credential manager could provide.
 
-Here is a declaration of the class that implements [**IMFNetCredentialManager**](imfnetcredentialmanager.md).
+Here is a declaration of the class that implements [**IMFNetCredentialManager**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialmanager?branch=master).
 
 
 ```C++
@@ -112,7 +117,7 @@ public:
 
 
 
-To track the state of the [**BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md) operation, the class uses the following helper object:
+To track the state of the [**BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master) operation, the class uses the following helper object:
 
 
 ```C++
@@ -165,7 +170,7 @@ struct CredentialOp : public IUnknown
 
 
 
-The [**BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md) method creates the credential cache and gets an [**IMFNetCredential**](imfnetcredential.md) pointer. If the user must be prompted (indicated by the **REQUIRE\_PROMPT** flag), the method calls [**MFPutWorkItem**](mfputworkitem.md) to queue a new work item:
+The [**BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master) method creates the credential cache and gets an [**IMFNetCredential**](/windows/win32/mfidl/nn-mfidl-imfnetcredential?branch=master) pointer. If the user must be prompted (indicated by the **REQUIRE\_PROMPT** flag), the method calls [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) to queue a new work item:
 
 
 ```C++
@@ -280,7 +285,7 @@ done:
 
 
 
-The work-queue thread calls [**Invoke**](imfasynccallback-invoke.md), which prompts the user and then calls [**MFInvokeCallback**](mfinvokecallback.md) to invoke the callback pointer that was provided in [**BeginGetCredentials**](imfnetcredentialmanager-begingetcredentials.md).
+The work-queue thread calls [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master), which prompts the user and then calls [**MFInvokeCallback**](/windows/win32/mfapi/nf-mfapi-mfinvokecallback?branch=master) to invoke the callback pointer that was provided in [**BeginGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-begingetcredentials?branch=master).
 
 
 ```C++
@@ -336,7 +341,7 @@ STDMETHODIMP CCredentialManager::Invoke(IMFAsyncResult* pResult)
 
 
 
-The [**EndGetCredentials**](imfnetcredentialmanager-endgetcredentials.md) method completes the operation by returning the [**IMFNetCredential**](imfnetcredential.md) pointer to the caller.
+The [**EndGetCredentials**](/windows/win32/mfidl/nf-mfidl-imfnetcredentialmanager-endgetcredentials?branch=master) method completes the operation by returning the [**IMFNetCredential**](/windows/win32/mfidl/nn-mfidl-imfnetcredential?branch=master) pointer to the caller.
 
 
 ```C++

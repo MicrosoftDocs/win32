@@ -4,17 +4,22 @@ description: The ID of the machine where a Link-Track-Vol-Entry object is locate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6e957744-c778-4112-8308-e9d1a3e01f56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6e957744-c778-4112-8308-e9d1a3e01f56
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Curr-Machine-Id attribute AD Schema", "currMachineId attribute AD Schema"]
+keywords:
+- Curr-Machine-Id attribute AD Schema
+- currMachineId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Curr-Machine-Id
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Curr-Machine-Id attribute
@@ -38,12 +43,12 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

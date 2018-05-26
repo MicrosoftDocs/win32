@@ -1,8 +1,21 @@
 ---
 title: Complete Code for Simple Skin
 description: Complete Code for Simple Skin
-ms.assetid: 'ece437d2-1a11-4096-8b3b-db2b4def8248'
-keywords: ["creating skins,code samples", "Windows Media Player skins,code samples", "skins,code samples", "skin definition files,code samples", "creating skins,examples", "Windows Media Player skins,examples", "skins,examples", "skin definition files,examples"]
+ms.assetid: ece437d2-1a11-4096-8b3b-db2b4def8248
+keywords:
+- creating skins,code samples
+- Windows Media Player skins,code samples
+- skins,code samples
+- skin definition files,code samples
+- creating skins,examples
+- Windows Media Player skins,examples
+- skins,examples
+- skin definition files,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Complete Code for Simple Skin

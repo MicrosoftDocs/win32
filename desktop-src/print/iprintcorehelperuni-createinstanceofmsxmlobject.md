@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperUni::CreateInstanceOfMSXMLObject method creates an instance of an MSXML object.'
-ms.assetid: '801ad433-4d52-4947-93f5-a11521a4df18'
-title: 'IPrintCoreHelperUni::CreateInstanceOfMSXMLObject method'
+---
+Description: The IPrintCoreHelperUniCreateInstanceOfMSXMLObject method creates an instance of an MSXML object.
+ms.assetid: 801ad433-4d52-4947-93f5-a11521a4df18
+title: IPrintCoreHelperUniCreateInstanceOfMSXMLObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni::CreateInstanceOfMSXMLObject method

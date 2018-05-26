@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pixel shader.'
-ms.assetid: '173a20a5-dda0-493f-a161-2dc2881e71f2'
-title: 'ID3DXBaseEffect::GetPixelShader method'
+---
+Description: Gets a pixel shader.
+ms.assetid: 173a20a5-dda0-493f-a161-2dc2881e71f2
+title: ID3DXBaseEffectGetPixelShader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetPixelShader method
@@ -36,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppPShader* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DPIXELSHADER9**](idirect3dpixelshader9.md)\***
+Type: **[**LPDIRECT3DPIXELSHADER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dpixelshader9?branch=master)\***
 
-Returns a pixel shader object. See [**IDirect3DPixelShader9**](idirect3dpixelshader9.md) object.
+Returns a pixel shader object. See [**IDirect3DPixelShader9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dpixelshader9?branch=master) object.
 
 </dd> </dl>
 

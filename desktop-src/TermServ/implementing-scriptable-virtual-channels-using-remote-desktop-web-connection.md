@@ -4,10 +4,13 @@ description: Code examples that show the steps for implementing scriptable virtu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a482b84d-96b6-4f42-8841-7039a1882789'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a482b84d-96b6-4f42-8841-7039a1882789
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing scriptable virtual channels by using Remote Desktop Web Connection

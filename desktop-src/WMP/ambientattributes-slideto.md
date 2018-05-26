@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.slideTo
 description: The slideTo method moves the control to a new location. The control moves in a non-linear fashion over the specified time period.
-ms.assetid: '06dd610b-cb58-4b60-9f4b-8929c54c3c33'
-keywords: ["AmbientAttributes.slideTo Windows Media Player"]
+ms.assetid: 06dd610b-cb58-4b60-9f4b-8929c54c3c33
+keywords:
+- AmbientAttributes.slideTo Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.slideTo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.slideTo
@@ -78,9 +84,9 @@ This method is different from **moveTo**, which creates a linear motion when mov
 [**AmbientAttributes.top**](ambientattributes-top.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

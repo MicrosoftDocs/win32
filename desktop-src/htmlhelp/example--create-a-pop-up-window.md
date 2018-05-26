@@ -1,7 +1,12 @@
 ---
 title: Example Create a Pop-up Window
 description: Example Create a Pop-up Window
-ms.assetid: 'A24C5F16-D153-4d3c-838D-3C68015234BA'
+ms.assetid: A24C5F16-D153-4d3c-838D-3C68015234BA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create a Pop-up Window

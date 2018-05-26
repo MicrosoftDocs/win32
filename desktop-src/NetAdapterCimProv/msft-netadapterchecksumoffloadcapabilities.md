@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapter\_ChecksumOffload.'
-ms.assetid: '1ed880e0-9142-47f3-8f33-921970824027'
-title: 'MSFT\_NetAdapterChecksumOffloadCapabilities class'
+Description: MSFT\_NetAdapter\_ChecksumOffload.
+ms.assetid: 1ed880e0-9142-47f3-8f33-921970824027
+title: MSFT\_NetAdapterChecksumOffloadCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterChecksumOffloadCapabilities class
@@ -16,24 +21,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterChecksumOffloadCapabilities
 {
-  string  IPv4TransmitEncapsulation;
+  string  IPv4TransmitEncapsulation;
   boolean IPv4TransmitIpOptionsSupported;
   boolean IPv4TransmitTcpOptionsSupported;
   boolean IPv4TransmitTcpChecksumSupported;
   boolean IPv4TransmitUdpChecksumSupported;
   boolean IPv4TransmitIpChecksumSupported;
-  string  IPv4ReceiveEncapsulation;
+  string  IPv4ReceiveEncapsulation;
   boolean IPv4ReceiveIpOptionsSupported;
   boolean IPv4ReceiveTcpOptionsSupported;
   boolean IPv4ReceiveTcpChecksumSupported;
   boolean IPv4ReceiveUdpChecksumSupported;
   boolean IPv4ReceiveIpChecksumSupported;
-  string  IPv6TransmitEncapsulation;
+  string  IPv6TransmitEncapsulation;
   boolean IPv6TransmitIpExtensionHeadersSupported;
   boolean IPv6TransmitTcpOptionsSupported;
   boolean IPv6TransmitTcpChecksumSupported;
   boolean IPv6TransmitUdpChecksumSupported;
-  string  IPv6ReceiveEncapsulation;
+  string  IPv6ReceiveEncapsulation;
   boolean IPv6ReceiveIpExtensionHeadersSupported;
   boolean IPv6ReceiveTcpOptionsSupported;
   boolean IPv6ReceiveTcpChecksumSupported;
@@ -346,16 +351,16 @@ Indicates if the Adapter supports UDP checksum computation offload for transmit 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

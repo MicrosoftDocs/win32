@@ -1,14 +1,20 @@
 ---
 title: EventDefinitionType Complex Type
 description: Defines an event that your provider can write.
-ms.assetid: '09ea89c9-6618-4874-ac72-5ee19cde4040'
-keywords: ["EventDefinitionType complex type EventLog"]
+ms.assetid: 09ea89c9-6618-4874-ac72-5ee19cde4040
+keywords:
+- EventDefinitionType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - EventDefinitionType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventDefinitionType Complex Type
@@ -119,7 +125,7 @@ Defines an event that your provider can write.
 <tr class="odd">
 <td>notLogged</td>
 <td>boolean</td>
-<td>Determines whether the provider logs this event. Specify true if the provider logs this event; otherwise, false. Use this attribute to indicate that the provider is no longer logging this event instead of removing the event from the manifest. Retaining the event in the manifest will let consumers decode older etl files that include the event.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> This attribute is not supported in versions of the message compiler that shipped prior to the Windows 7 version of the Windows SDK.<br/></td>
+<td>Determines whether the provider logs this event. Specify true if the provider logs this event; otherwise, false. Use this attribute to indicate that the provider is no longer logging this event instead of removing the event from the manifest. Retaining the event in the manifest will let consumers decode older etl files that include the event.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> This attribute is not supported in versions of the message compiler that shipped prior to the Windows 7 version of the Windows SDK.<br/></td>
 </tr>
 <tr class="even">
 <td>opcode</td>
@@ -158,7 +164,7 @@ Defines an event that your provider can write.
 
 ## Remarks
 
-If you use [**EvtFormatMessage**](evtformatmessage.md) to format the message string for the event (or use the Event Viewer to view the message string), the message string can contain insertion strings and any of the format strings that the Win32 **FormatMessage** function supports. The insertion strings are limited to %*n* or %*n*!s! (for example, %1) where *n* is the one-based reference the data items defined in the event's template. The message string can also contain parameter insertion strings in the form %%*n* (for example, %%4). The maximum number of insertion strings that the message can contain is 100.
+If you use [**EvtFormatMessage**](/windows/win32/WinEvt/nf-winevt-evtformatmessage?branch=master) to format the message string for the event (or use the Event Viewer to view the message string), the message string can contain insertion strings and any of the format strings that the Win32 **FormatMessage** function supports. The insertion strings are limited to %*n* or %*n*!s! (for example, %1) where *n* is the one-based reference the data items defined in the event's template. The message string can also contain parameter insertion strings in the form %%*n* (for example, %%4). The maximum number of insertion strings that the message can contain is 100.
 
 ## Requirements
 
@@ -166,14 +172,14 @@ If you use [**EvtFormatMessage**](evtformatmessage.md) to format the message str
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

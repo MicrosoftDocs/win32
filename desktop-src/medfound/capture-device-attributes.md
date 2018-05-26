@@ -1,7 +1,12 @@
 ---
 Description: Capture Device Attributes
-ms.assetid: 'dd24671a-0689-4490-8d18-2a33ed461e9d'
+ms.assetid: dd24671a-0689-4490-8d18-2a33ed461e9d
 title: Capture Device Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture Device Attributes
@@ -29,9 +34,9 @@ The following attributes are related to capture devices:
 
 These attributes are used with the following functions:
 
--   [**MFCreateDeviceSource**](mfcreatedevicesource.md)
--   [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md)
--   [**MFEnumDeviceSources**](mfenumdevicesources.md)
+-   [**MFCreateDeviceSource**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesource?branch=master)
+-   [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master)
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master)
 
 ## Related topics
 

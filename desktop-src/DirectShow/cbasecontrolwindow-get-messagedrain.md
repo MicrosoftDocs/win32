@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_MessageDrain method retrieves the current message drain.'
-ms.assetid: 'd679e7f7-4628-479b-b722-843cdd91ffe6'
-title: 'CBaseControlWindow.get\_MessageDrain method'
+Description: The get\_MessageDrain method retrieves the current message drain.
+ms.assetid: d679e7f7-4628-479b-b722-843cdd91ffe6
+title: CBaseControlWindow.get\_MessageDrain method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_MessageDrain method
@@ -13,7 +18,7 @@ The `get_MessageDrain` method retrieves the current message drain.
 
 ```C++
 HRESULT get_MessageDrain(
-   OAHWND *Drain
+   OAHWND *Drain
 );
 ```
 
@@ -56,9 +61,9 @@ Messages sent to the video renderer filter can be posted to another window. The 
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

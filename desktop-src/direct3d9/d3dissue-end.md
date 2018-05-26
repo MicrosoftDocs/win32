@@ -1,12 +1,17 @@
-﻿---
-Description: 'This macro creates a value used by Issue to issue a query end.'
-ms.assetid: '9ced932a-5d98-4bf8-aa11-06560f53546d'
-title: 'D3DISSUE\_END'
+---
+Description: This macro creates a value used by Issue to issue a query end.
+ms.assetid: 9ced932a-5d98-4bf8-aa11-06560f53546d
+title: D3DISSUE\_END
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DISSUE\_END
 
-This macro creates a value used by [**Issue**](idirect3dquery9--issue.md) to issue a query end.
+This macro creates a value used by [**Issue**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-issue?branch=master) to issue a query end.
 
 ``` syntax
 #define D3DISSUE_END (1 << 0)

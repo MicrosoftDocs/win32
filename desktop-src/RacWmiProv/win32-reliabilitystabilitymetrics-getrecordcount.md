@@ -1,8 +1,11 @@
 ---
 title: GetRecordCount method of the Win32\_ReliabilityStabilityMetrics class
 description: Retrieves the number of records in the Win32\_ReliabilityStabilityMetrics class.
-ms.assetid: '0328a232-db91-4914-885b-f555a675f9da'
-keywords: ["GetRecordCount method", "GetRecordCount method, Win32_ReliabilityStabilityMetrics class", "Win32_ReliabilityStabilityMetrics class, GetRecordCount method"]
+ms.assetid: 0328a232-db91-4914-885b-f555a675f9da
+keywords:
+- GetRecordCount method
+- GetRecordCount method, Win32_ReliabilityStabilityMetrics class
+- Win32_ReliabilityStabilityMetrics class, GetRecordCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - RacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetRecordCount method of the Win32\_ReliabilityStabilityMetrics class
@@ -24,7 +32,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetRecordCount(
-  [out] uint32 GetRecordCount
+  [out] uint32 GetRecordCount
 );
 ```
 
@@ -55,8 +63,8 @@ If the RacTask scheduled task is updating the records in [**Win32\_ReliabilitySt
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>RacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RacWmiProv.dll</dt> </dl> |
@@ -70,9 +78,9 @@ If the RacTask scheduled task is updating the records in [**Win32\_ReliabilitySt
 [**Win32\_ReliabilityStabilityMetrics**](win32-reliabilitystabilitymetrics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

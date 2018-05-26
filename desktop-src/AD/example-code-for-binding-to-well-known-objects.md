@@ -4,11 +4,15 @@ description: This topic includes a code example that binds to a well-known objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '59345173-5598-4b0a-976c-c5741b785ce1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 59345173-5598-4b0a-976c-c5741b785ce1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , binding to well-known objects"]
+keywords:
+- Active Directory examples Active Directory , binding to well-known objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Binding to Well Known Objects

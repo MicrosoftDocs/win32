@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Connection DisableFirewall method
 description: The DisableFirewall method deactivates the IPv6 Firewall on this connection.
-ms.assetid: '48640062-dce9-436c-b7fa-f0c70b4f7454'
-keywords: ["DisableFirewall method ICS/ICF", "DisableFirewall method ICS/ICF , INetFwV6Connection interface", "INetFwV6Connection interface ICS/ICF , DisableFirewall method"]
+ms.assetid: 48640062-dce9-436c-b7fa-f0c70b4f7454
+keywords:
+- DisableFirewall method ICS/ICF
+- DisableFirewall method ICS/ICF , INetFwV6Connection interface
+- INetFwV6Connection interface ICS/ICF , DisableFirewall method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Connection::DisableFirewall method
@@ -51,7 +59,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,10 +73,10 @@ This is a state-changing method, and thus is subject to the access control and c
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -81,9 +89,9 @@ This is a state-changing method, and thus is subject to the access control and c
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

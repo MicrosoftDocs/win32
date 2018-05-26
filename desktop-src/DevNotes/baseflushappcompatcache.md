@@ -1,7 +1,12 @@
-﻿---
-Description: 'Flushes the application compatibility cache.'
-ms.assetid: '03f47813-87f6-4b71-b453-77a2facab019'
+---
+Description: Flushes the application compatibility cache.
+ms.assetid: 03f47813-87f6-4b71-b453-77a2facab019
 title: BaseFlushAppcompatCache function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseFlushAppcompatCache function

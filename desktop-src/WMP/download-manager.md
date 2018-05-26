@@ -1,8 +1,19 @@
 ---
 title: Download Manager
 description: Download Manager
-ms.assetid: '8255a2e8-92f0-4e31-87ca-60edf7c91f31'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager"]
+ms.assetid: 8255a2e8-92f0-4e31-87ca-60edf7c91f31
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Download Manager

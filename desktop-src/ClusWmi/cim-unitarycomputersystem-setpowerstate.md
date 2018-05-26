@@ -4,13 +4,19 @@ description: SetPowerState defines the desired power state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2582163d-98a3-4748-834e-322b6f63727e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2582163d-98a3-4748-834e-322b6f63727e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, CIM_UnitaryComputerSystem class", "CIM_UnitaryComputerSystem class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, CIM_UnitaryComputerSystem class
+- CIM_UnitaryComputerSystem class, SetPowerState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the CIM\_UnitaryComputerSystem class
@@ -22,8 +28,8 @@ SetPowerState defines the desired power state of a ComputerSystem and its runnin
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -58,7 +64,7 @@ Returns 0 if successful, 1 if the specified *PowerState* and *Time* values are n
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -72,9 +78,9 @@ Returns 0 if successful, 1 if the specified *PowerState* and *Time* values are n
 [**CIM\_UnitaryComputerSystem**](cim-unitarycomputersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

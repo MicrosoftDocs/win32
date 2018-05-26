@@ -1,7 +1,12 @@
 ---
-Description: 'The rendering interfaces for Direct3D consist of methods that render primitives from vertex data stored in one or more data buffers.'
-ms.assetid: 'e89eae14-f480-470c-b301-f7ff316ad339'
-title: 'Vertex Data Streams (Direct3D 9)'
+Description: The rendering interfaces for Direct3D consist of methods that render primitives from vertex data stored in one or more data buffers.
+ms.assetid: e89eae14-f480-470c-b301-f7ff316ad339
+title: Vertex Data Streams (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertex Data Streams (Direct3D 9)
@@ -12,9 +17,9 @@ Vertex components are one or more vertex elements stored contiguously (interleav
 
 ![diagram of the process to render primitives by using vertex components](images/vertexdata.png)
 
-Rendering primitives consists of two steps. First, set up one or more vertex component streams; second, invoke a [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md) method to render from those streams. Identification of vertex elements within these component streams is specified by the vertex shader.
+Rendering primitives consists of two steps. First, set up one or more vertex component streams; second, invoke a [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master) method to render from those streams. Identification of vertex elements within these component streams is specified by the vertex shader.
 
-The [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md) methods specify an offset in the vertex data streams so that an arbitrary contiguous subset of the primitives within one set of vertex data can be rendered with each draw invocation. This enables you to change the device rendering state between groups of primitives that are rendered from the same vertex buffers.
+The [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master) methods specify an offset in the vertex data streams so that an arbitrary contiguous subset of the primitives within one set of vertex data can be rendered with each draw invocation. This enables you to change the device rendering state between groups of primitives that are rendered from the same vertex buffers.
 
 Both indexed and nonindexed drawing methods are supported. For more information, see [Rendering from Vertex and Index Buffers (Direct3D 9)](rendering-from-vertex-and-index-buffers.md).
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListClearSource method removes a network or URL source. Accepts Type, the source type, and SourcePath, the source path, as parameters to be removed. This method calls the MsiSourceListClearSource.'
-ms.assetid: 'a55676d4-795d-4ffe-8621-ef47c16a936c'
-title: 'Product.SourceListClearSource method'
+---
+Description: The SourceListClearSource method removes a network or URL source. Accepts Type, the source type, and SourcePath, the source path, as parameters to be removed. This method calls the MsiSourceListClearSource.
+ms.assetid: a55676d4-795d-4ffe-8621-ef47c16a936c
+title: Product.SourceListClearSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.SourceListClearSource method
 
-The **SourceListClearSource** method removes a network or URL source. Accepts *Type*, the source type, and *SourcePath*, the source path, as parameters to be removed. This method calls the [**MsiSourceListClearSource**](msisourcelistclearsource.md).
+The **SourceListClearSource** method removes a network or URL source. Accepts *Type*, the source type, and *SourcePath*, the source path, as parameters to be removed. This method calls the [**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master).
 
 ## Syntax
 
@@ -61,7 +66,7 @@ This method does not return a value.
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListClearSource**](msisourcelistclearsource.md)
+[**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

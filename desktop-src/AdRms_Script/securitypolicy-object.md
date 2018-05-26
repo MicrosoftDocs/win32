@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to decommission a server and to specify a super users group. You can retrieve this object by calling the SecurityPolicy property on the Enterprise object.'
+Description: Can be used to decommission a server and to specify a super users group. You can retrieve this object by calling the SecurityPolicy property on the Enterprise object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'ce68643b-bbee-4c61-8a6d-d46f1226e6a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: ce68643b-bbee-4c61-8a6d-d46f1226e6a4
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: SecurityPolicy object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SecurityPolicy object
@@ -38,7 +41,7 @@ The **SecurityPolicy** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +56,7 @@ The **SecurityPolicy** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -133,7 +136,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -145,9 +148,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

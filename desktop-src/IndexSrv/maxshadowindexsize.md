@@ -1,7 +1,12 @@
 ---
 title: MaxShadowIndexSize
 description: MaxShadowIndexSize
-ms.assetid: '38c54c6f-5d60-4ce6-aea7-099bee86df02'
+ms.assetid: 38c54c6f-5d60-4ce6-aea7-099bee86df02
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxShadowIndexSize

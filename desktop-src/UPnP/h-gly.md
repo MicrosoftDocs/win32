@@ -2,7 +2,12 @@
 title: H
 description: Contains UPnP-related terms that begin with the letter H.
 Robots: noindex, nofollow
-ms.assetid: '28c09321-2caa-4b8f-bf0f-187616ac30b2'
+ms.assetid: 28c09321-2caa-4b8f-bf0f-187616ac30b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H

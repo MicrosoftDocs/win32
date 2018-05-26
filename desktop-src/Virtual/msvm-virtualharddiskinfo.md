@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualHardDiskInfo class
 description: Provides detailed information about an existing virtual hard disk image.
-ms.assetid: '8ff4a58f-a754-4cbd-8cb5-2d2c770ae88f'
-keywords: ["Msvm_VirtualHardDiskInfo class Hyper-V", "Msvm_VirtualHardDiskInfo class Hyper-V , described"]
+ms.assetid: 8ff4a58f-a754-4cbd-8cb5-2d2c770ae88f
+keywords:
+- Msvm_VirtualHardDiskInfo class Hyper-V
+- Msvm_VirtualHardDiskInfo class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualHardDiskInfo class
@@ -31,12 +38,12 @@ The following syntax is simplified Managed Object Format (MOF) code.
 [AMENDMENT]
 class Msvm_VirtualHardDiskInfo
 {
-  uint16  Type;
-  uint64  FileSize;
-  uint64  MaxInternalSize;
+  uint16  Type;
+  uint64  FileSize;
+  uint64  MaxInternalSize;
   boolean InSavedState;
   boolean InUse;
-  string  ParentPath;
+  string  ParentPath;
 };
 ```
 
@@ -89,7 +96,7 @@ Access type: Read-only
 
 Indicates whether this VHD is currently mounted.
 
-**Windows Server 2008:** The **InUse** property is **TRUE** if the VHD is mounted or if it is in use by a VM.
+**Windows Server 2008:** The **InUse** property is **TRUE** if the VHD is mounted or if it is in use by a VM.
 
 </dd> <dt>
 
@@ -166,9 +173,9 @@ Access to the **Msvm\_VirtualHardDiskInfo** class might be restricted by UAC Fil
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -181,9 +188,9 @@ Access to the **Msvm\_VirtualHardDiskInfo** class might be restricted by UAC Fil
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

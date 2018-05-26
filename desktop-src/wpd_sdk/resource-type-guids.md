@@ -1,7 +1,12 @@
 ---
 Description: Resource Type GUIDs
-ms.assetid: '20b692df-360f-4b51-9c86-b85bac648a75'
+ms.assetid: 20b692df-360f-4b51-9c86-b85bac648a75
 title: Resource Type GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Type GUIDs

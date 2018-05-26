@@ -1,8 +1,10 @@
 ---
 title: ActivityCollection class
 description: This interface provides containers for Activity objects.
-ms.assetid: 'A3B6F101-B239-4724-BA01-0B503AD0B935'
-keywords: ["ActivityCollection class Access Execution Engine", "ActivityCollection class Access Execution Engine , described"]
+ms.assetid: A3B6F101-B239-4724-BA01-0B503AD0B935
+keywords:
+- ActivityCollection class Access Execution Engine
+- ActivityCollection class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityCollection class
@@ -42,7 +49,7 @@ The **ActivityCollection** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,16 +61,16 @@ The **ActivityCollection** holds data from element **Iteration/Activities**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

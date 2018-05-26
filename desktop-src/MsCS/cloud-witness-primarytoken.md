@@ -4,17 +4,21 @@ description: Contains a Shared Access Signature (SAS) that validates the credent
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3E06818E-AF5A-46AC-830D-B0133A61689B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3E06818E-AF5A-46AC-830D-B0133A61689B
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PrimaryToken Failover Cluster"]
+keywords:
+- PrimaryToken Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PrimaryToken
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PrimaryToken
@@ -34,7 +38,7 @@ Contains a Shared Access Signature (SAS) that validates the credentials for an A
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_CLOUDWITNESS\_PRIMARY\_TOKEN*
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_CLOUDWITNESS\_PRIMARY\_TOKEN*
 [Cloud Witness Private Properties](cloud-witness-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

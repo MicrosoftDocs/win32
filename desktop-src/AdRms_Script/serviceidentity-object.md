@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to manage an AD RMS service account.'
+Description: Can be used to manage an AD RMS service account.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '69c29ef0-62ed-4cd8-abdb-81decbc22c78'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 69c29ef0-62ed-4cd8-abdb-81decbc22c78
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ServiceIdentity object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ServiceIdentity object
@@ -35,7 +38,7 @@ The **ServiceIdentity** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -50,7 +53,7 @@ The **ServiceIdentity** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -141,7 +144,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -153,9 +156,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

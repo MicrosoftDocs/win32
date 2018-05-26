@@ -4,11 +4,16 @@ description: List of characteristics of a Failover Cluster group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1e0680ba-87d0-4bf0-808c-d80485e4daa3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1e0680ba-87d0-4bf0-808c-d80485e4daa3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,groups", "groups Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster ,groups
+- groups Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Groups
@@ -24,7 +29,7 @@ Groups enable resources to be combined into larger logical units. Typically a gr
 Every group maintains a prioritized list of the nodes that can and should act as its host. The preferred nodes list is generated from two sources.
 
 -   The Cluster service produces a list of preferred nodes for a group from the possible owners lists maintained by the resources that are members of the group.
--   Developers and administrators can add nodes to the list through the [**SetClusterGroupNodeList**](setclustergroupnodelist.md) function.
+-   Developers and administrators can add nodes to the list through the [**SetClusterGroupNodeList**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_group_node_list?branch=master) function.
 
 The following topics discuss important concepts related to groups.
 

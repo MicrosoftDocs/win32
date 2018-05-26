@@ -4,17 +4,22 @@ description: Contains the root directory fence value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7d7c7ba9-4e44-43d5-a8a1-014637df2e1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7d7c7ba9-4e44-43d5-a8a1-014637df2e1f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-RootFence attribute AD Schema", "msDFSR-RootFence attribute AD Schema"]
+keywords:
+- ms-DFSR-RootFence attribute AD Schema
+- msDFSR-RootFence attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-RootFence
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-RootFence attribute
@@ -38,10 +43,10 @@ Contains the root directory fence value.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the root directory fence value.
 
 The **ms-DFSR-RootFence** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

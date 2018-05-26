@@ -4,11 +4,13 @@ description: Includes a method to add new accounts to the terminal and a method 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ebc6e96a-668e-44aa-b589-c3e476fb3029'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ebc6e96a-668e-44aa-b589-c3e476fb3029
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSPermissionsSetting class Remote Desktop Services", "Win32_TSPermissionsSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSPermissionsSetting class Remote Desktop Services
+- Win32_TSPermissionsSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSPermissionsSetting class
@@ -40,15 +45,15 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSPERMISSIONSSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSPermissionsSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  uint32   DenyAdminPermissionForCustomization;
-  uint32   PolicySourceDenyAdminPermissionForCustomization;
-  string   StringSecurityDescriptor;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  uint32   DenyAdminPermissionForCustomization;
+  uint32   PolicySourceDenyAdminPermissionForCustomization;
+  string   StringSecurityDescriptor;
 };
 ```
 
@@ -72,7 +77,7 @@ The **Win32\_TSPermissionsSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -313,8 +318,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -328,9 +333,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalSetting**](win32-terminalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

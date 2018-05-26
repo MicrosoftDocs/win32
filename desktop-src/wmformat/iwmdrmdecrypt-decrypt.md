@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDecrypt Decrypt method
 description: The Decrypt method decrypts a data buffer in place.
-ms.assetid: 'ca0a5b2f-d25f-423e-8956-fca264399083'
-keywords: ["Decrypt method windows Media Format", "Decrypt method windows Media Format , IWMDRMDecrypt interface", "IWMDRMDecrypt interface windows Media Format , Decrypt method"]
+ms.assetid: ca0a5b2f-d25f-423e-8956-fca264399083
+keywords:
+- Decrypt method windows Media Format
+- Decrypt method windows Media Format , IWMDRMDecrypt interface
+- IWMDRMDecrypt interface windows Media Format , Decrypt method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDecrypt::Decrypt method
@@ -22,9 +30,9 @@ The **Decrypt** method decrypts a data buffer in place.
 
 ```C++
 HRESULT Decrypt(
-  [in, out] BYTE            *pbData,
-  [in]      DWORD           cbData,
-  [in]      WMDRMCryptoData *pWMCryptoData
+  [in, out] BYTE            *pbData,
+  [in]      DWORD           cbData,
+  [in]      WMDRMCryptoData *pWMCryptoData
 );
 ```
 
@@ -67,7 +75,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,9 +101,9 @@ None.
 [**WMDRMCryptoData**](wmdrmcryptodata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

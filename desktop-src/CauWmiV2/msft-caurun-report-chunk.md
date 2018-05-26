@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a chunk of input or output to b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6586fc0c-c5fc-452f-9d8d-4d3cbf3bdd66'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6586fc0c-c5fc-452f-9d8d-4d3cbf3bdd66
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAURun_Report_Chunk class", "MSFT_CAURun_Report_Chunk class, described"]
+keywords:
+- MSFT_CAURun_Report_Chunk class
+- MSFT_CAURun_Report_Chunk class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAURun\_Report\_Chunk class
@@ -36,8 +41,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("CAUWMIV2"), AMENDMENT]
 class MSFT_CAURun_Report_Chunk : MSFT_CAURun_Report_ID
 {
-  String   Data;
-  Uint32   SequenceNumber;
+  String   Data;
+  Uint32   SequenceNumber;
   datetime Timestamp;
 };
 ```
@@ -100,7 +105,7 @@ A UTC timestamp that identifies when the CAU report was generated.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -120,9 +125,9 @@ A UTC timestamp that identifies when the CAU report was generated.
 [**PutReport**](putreport-msft-caurun.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

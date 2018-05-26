@@ -4,11 +4,16 @@ description: A file group is a logical collection of filename patterns identifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '951f5757-28fb-4583-9850-a11f60df05f5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 951f5757-28fb-4583-9850-a11f60df05f5
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , creating file groups to specify files to restrict", "file groups File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , creating file groups to specify files to restrict
+- file groups File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating File Groups to Specify the Files to Restrict

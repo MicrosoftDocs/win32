@@ -1,7 +1,12 @@
 ---
-Description: 'The GetClassIDFromBlob function retrieves a named class identifier value from a BLOB.'
-ms.assetid: 'fef29a42-ccd3-4655-958c-d150e5bcd0d7'
+Description: The GetClassIDFromBlob function retrieves a named class identifier value from a BLOB.
+ms.assetid: fef29a42-ccd3-4655-958c-d150e5bcd0d7
 title: GetClassIDFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetClassIDFromBlob function
@@ -13,11 +18,11 @@ The **GetClassIDFromBlob** function retrieves a named class identifier value fro
 
 ```C++
 DWORD GetClassIDFromBlob(
-  _In_        HBLOB hBlob,
-  _In_  const char  *pOwnerName,
-  _In_  const char  *pCategoryName,
-  _In_  const char  *pTagName,
-  _Out_       CLSID *pClsID
+  _In_        HBLOB hBlob,
+  _In_  const char  *pOwnerName,
+  _In_  const char  *pCategoryName,
+  _In_  const char  *pTagName,
+  _Out_       CLSID *pClsID
 );
 ```
 
@@ -74,8 +79,8 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -116,9 +121,9 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

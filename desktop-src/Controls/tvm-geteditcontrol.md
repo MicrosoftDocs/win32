@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETEDITCONTROL message
-description: Retrieves the handle to the edit control being used to edit a tree-view item's text. You can send this message explicitly or by using the TreeView\_GetEditControl macro.
-ms.assetid: 'c89e57e8-e113-47a1-85e6-bb68990f9c1a'
-keywords: ["TVM_GETEDITCONTROL message Windows Controls"]
+description: Retrieves the handle to the edit control being used to edit a tree-view items text. You can send this message explicitly or by using the TreeView\_GetEditControl macro.
+ms.assetid: c89e57e8-e113-47a1-85e6-bb68990f9c1a
+keywords:
+- TVM_GETEDITCONTROL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETEDITCONTROL message
 
-Retrieves the handle to the edit control being used to edit a tree-view item's text. You can send this message explicitly or by using the [**TreeView\_GetEditControl**](treeview-geteditcontrol.md) macro.
+Retrieves the handle to the edit control being used to edit a tree-view item's text. You can send this message explicitly or by using the [**TreeView\_GetEditControl**](/windows/win32/Commctrl/nf-commctrl-treeview_geteditcontrol?branch=master) macro.
 
 ## Parameters
 
@@ -43,15 +49,15 @@ To customize label editing, implement a handler for [TVN\_BEGINLABELEDIT](tvn-be
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

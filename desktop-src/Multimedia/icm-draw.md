@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW message
 description: The ICM\_DRAW message notifies a rendering driver to decompress a frame of data and draw it to the screen.
-ms.assetid: 'eceb42c6-d91a-45b7-98dc-e0944df3e558'
-keywords: ["ICM_DRAW message Windows Multimedia"]
+ms.assetid: eceb42c6-d91a-45b7-98dc-e0944df3e558
+keywords:
+- ICM_DRAW message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW message
@@ -33,14 +39,14 @@ lParam = sizeof(ICDRAW);
 <span id="wParam"></span><span id="wparam"></span><span id="WPARAM"></span>*wParam*
 </dt> <dd>
 
-Pointer to an [**ICDRAW**](icdraw-struct.md) structure.
+Pointer to an [**ICDRAW**](/windows/win32/Vfw/ns-vfw-icdraw?branch=master) structure.
 
 </dd> <dt>
 
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Size, in bytes, of [**ICDRAW**](icdraw-struct.md).
+Size, in bytes, of [**ICDRAW**](/windows/win32/Vfw/ns-vfw-icdraw?branch=master).
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ Returns ICERR\_OK if successful or an error otherwise.
 
 ## Remarks
 
-If the ICDRAW\_UPDATE flag is set in the **dwFlags** member of [**ICDRAW**](icdraw-struct.md), the area of the screen used for drawing is invalid and needs to be updated. The extent of updating depends on the contents of the **lpData** member.
+If the ICDRAW\_UPDATE flag is set in the **dwFlags** member of [**ICDRAW**](/windows/win32/Vfw/ns-vfw-icdraw?branch=master), the area of the screen used for drawing is invalid and needs to be updated. The extent of updating depends on the contents of the **lpData** member.
 
 If **lpData** is **NULL**, the driver should update the entire destination rectangle with the current image. If the driver maintains a copy of the image in an off-screen buffer, it can fail this message. If **lpData** is not **NULL**, the driver should draw the data and make sure the entire destination is updated.
 
@@ -66,8 +72,8 @@ If you want the driver to decompress data into a buffer, send the [**ICM\_DECOMP
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ If you want the driver to decompress data into a buffer, send the [**ICM\_DECOMP
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Describes the makeup of a pipe that is based on aggregating lower-l
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e808af97-e61d-4801-8440-e7c4bfe0bf1e'
-ms.prod: 'windows-server-dev'
+ms.assetid: e808af97-e61d-4801-8440-e7c4bfe0bf1e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_NetworkPipeComposition class iSCSI Software Target API", "MSISCSITARGET_NetworkPipeComposition class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_NetworkPipeComposition class iSCSI Software Target API
+- MSISCSITARGET_NetworkPipeComposition class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_NetworkPipeComposition class
@@ -38,7 +43,7 @@ class MSISCSITARGET_NetworkPipeComposition : CIM_NetworkPipeComposition
 {
   CIM_NetworkPipe REF GroupComponent;
   CIM_NetworkPipe REF PartComponent;
-  uint16              AggregationSequence;
+  uint16              AggregationSequence;
 };
 ```
 
@@ -109,7 +114,7 @@ This property is inherited from [**CIM\_NetworkPipeComposition**](cim-networkpip
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -126,9 +131,9 @@ This property is inherited from [**CIM\_NetworkPipeComposition**](cim-networkpip
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

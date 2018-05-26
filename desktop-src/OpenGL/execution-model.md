@@ -1,8 +1,19 @@
 ---
 title: Execution Model
 description: Execution Model
-ms.assetid: '1947eb24-3a55-4d30-924e-93f2eed2c7b6'
-keywords: ["OpenGL,execution model", "execution model OpenGL", "OpenGL,client/server model", "client/server model OpenGL", "OpenGL,network-transparent", "framebuffers,execution model"]
+ms.assetid: 1947eb24-3a55-4d30-924e-93f2eed2c7b6
+keywords:
+- OpenGL,execution model
+- execution model OpenGL
+- OpenGL,client/server model
+- client/server model OpenGL
+- OpenGL,network-transparent
+- framebuffers,execution model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution Model

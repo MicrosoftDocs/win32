@@ -1,8 +1,14 @@
 ---
 title: Glossary
 description: This glossary contains definitions for terms used in the documentation of the Routing and Remote Access Services (RRAS).
-ms.assetid: 'f01310bb-dd74-41de-8a55-ca91b805dfd2'
-keywords: ["RRAS, glossary"]
+ms.assetid: f01310bb-dd74-41de-8a55-ca91b805dfd2
+keywords:
+- RRAS, glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

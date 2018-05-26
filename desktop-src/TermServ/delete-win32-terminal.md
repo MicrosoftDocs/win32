@@ -4,11 +4,14 @@ description: Deletes the specified terminal.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59d8cc73-aef1-49d2-a7a2-dd3cbe5a8c52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 59d8cc73-aef1-49d2-a7a2-dd3cbe5a8c52
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Delete method Remote Desktop Services", "Delete method Remote Desktop Services , Win32_Terminal class", "Win32_Terminal class Remote Desktop Services , Delete method"]
+keywords:
+- Delete method Remote Desktop Services
+- Delete method Remote Desktop Services , Win32_Terminal class
+- Win32_Terminal class Remote Desktop Services , Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the Win32\_Terminal class
@@ -28,7 +34,7 @@ The **Delete** method deletes the specified terminal.
 
 ```mof
 uint32 Delete(
-  [in] string NewTerminalName
+  [in] string NewTerminalName
 );
 ```
 
@@ -59,8 +65,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_Terminal**](win32-terminal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

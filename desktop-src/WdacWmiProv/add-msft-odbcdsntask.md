@@ -4,11 +4,14 @@ description: Adds an ODBC DSN.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93055332-e3f1-4857-a46d-5020837bdbea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 93055332-e3f1-4857-a46d-5020837bdbea
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, MSFT_OdbcDsnTask class", "MSFT_OdbcDsnTask class, Add method"]
+keywords:
+- Add method
+- Add method, MSFT_OdbcDsnTask class
+- MSFT_OdbcDsnTask class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the MSFT\_OdbcDsnTask class
@@ -28,13 +34,13 @@ Adds an ODBC DSN.
 
 ```mof
 uint32 Add(
-  [in]  string       Name,
-  [in]  string       DriverName,
-  [in]  string       SetPropertyValue[],
-  [in]  boolean      PassThru,
-  [in]  string       Platform,
-  [in]  string       DsnType,
-  [out] MSFT_OdbcDsn cmdletOutput[]
+  [in]  string       Name,
+  [in]  string       DriverName,
+  [in]  string       SetPropertyValue[],
+  [in]  boolean      PassThru,
+  [in]  string       Platform,
+  [in]  string       DsnType,
+  [out] MSFT_OdbcDsn cmdletOutput[]
 );
 ```
 
@@ -99,8 +105,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDsn**](msft-odbcdsn.m
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -117,9 +123,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDsn**](msft-odbcdsn.m
 [**MSFT\_OdbcDsn**](msft-odbcdsn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

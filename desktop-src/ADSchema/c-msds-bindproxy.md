@@ -4,17 +4,22 @@ description: Auxiliary class to represent a bind proxy in AD/AM.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'de837926-9d40-41f6-8c56-c4e436fd66b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: de837926-9d40-41f6-8c56-c4e436fd66b6
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Bind-Proxy class AD Schema", "msDS-BindProxy class AD Schema"]
+keywords:
+- ms-DS-Bind-Proxy class AD Schema
+- msDS-BindProxy class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Bind-Proxy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Bind-Proxy class
@@ -147,9 +152,9 @@ This class contains the following attributes for ADAM:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

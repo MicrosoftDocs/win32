@@ -1,7 +1,12 @@
-﻿---
-Description: 'Windows 7 support for search federation to remote data stores using OpenSearch technologies enables users to access and interact with their remote data from within Windows Explorer.'
-ms.assetid: 'c25dbc33-3f9a-4e40-965e-9be639ababed'
+---
+Description: Windows 7 support for search federation to remote data stores using OpenSearch technologies enables users to access and interact with their remote data from within Windows Explorer.
+ms.assetid: c25dbc33-3f9a-4e40-965e-9be639ababed
 title: Getting Started with Federated Search in Windows
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Federated Search in Windows

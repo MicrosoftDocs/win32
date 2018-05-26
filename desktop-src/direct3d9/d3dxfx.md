@@ -1,7 +1,12 @@
 ---
-Description: 'Options for saving and creating effects.'
-ms.assetid: 'df24a132-665e-4eb7-992b-d7a6144257f5'
+Description: Options for saving and creating effects.
+ms.assetid: df24a132-665e-4eb7-992b-d7a6144257f5
 title: D3DXFX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFX

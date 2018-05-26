@@ -2,13 +2,15 @@
 title: CIM\_Error class
 description: CIM\_Error is a specialized class that contains information about the severity, cause, recommended actions and other data related to the failure of a CIM Operation. Instances of this type MAY be included as part of the response to a CIM Operation.
 audience: developer
-ms.assetid: '7dee0e77-c706-4cfb-834d-5e68642a53bd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7dee0e77-c706-4cfb-834d-5e68642a53bd
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Error class", "CIM_Error class, described"]
+keywords:
+- CIM_Error class
+- CIM_Error class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Error class
@@ -1805,7 +1810,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1845,16 +1850,16 @@ Describes the recommended actions to take to resolve the error.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

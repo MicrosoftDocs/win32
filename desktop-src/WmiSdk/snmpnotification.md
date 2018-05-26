@@ -1,13 +1,16 @@
 ---
-Description: 'The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.'
+Description: The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b90d8bab-7cae-4dbe-9f6e-daba4e68a10a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b90d8bab-7cae-4dbe-9f6e-daba4e68a10a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SnmpNotification class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnmpNotification class
@@ -17,14 +20,14 @@ The **SnmpNotification** class maps from the [NOTIFICATION-TYPE](notification-ty
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).
 
- 
+ 
 
 ## Syntax
 
 ``` syntax
 class SnmpNotification : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string AgentAddress;
   string AgentTransport;
@@ -185,8 +188,8 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 
 |                                     |                                  |
 |-------------------------------------|----------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>         |
-| Minimum supported server<br/> | Windows Server 2008<br/>   |
+| Minimum supported client<br/> | Windows Vista<br/>         |
+| Minimum supported server<br/> | Windows Server 2008<br/>   |
 | Namespace<br/>                | Root\\snmp\\localhost<br/> |
 
 
@@ -201,9 +204,9 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 [NOTIFICATION-TYPE Macro](notification-type-macro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

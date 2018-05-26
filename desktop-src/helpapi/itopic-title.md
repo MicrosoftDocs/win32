@@ -1,8 +1,11 @@
 ---
 title: ITopic Title property
 description: Returns topic title
-ms.assetid: '77ca327b-10fa-41ff-9e03-549a747b84a2'
-keywords: ["Title property HelpAPI", "Title property HelpAPI , ITopic interface", "ITopic interface HelpAPI , Title property"]
+ms.assetid: 77ca327b-10fa-41ff-9e03-549a747b84a2
+keywords:
+- Title property HelpAPI
+- Title property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , Title property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::Title property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Title(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The topic's title.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The topic's title.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

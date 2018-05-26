@@ -1,7 +1,12 @@
 ---
 title: HH Version
 description: Displays the version number of the HTML Help ActiveX control (Hhctrl.ocx) in a dialog box.
-ms.assetid: '6F6CD51D-EDAA-4235-9998-4C258329B544'
+ms.assetid: 6F6CD51D-EDAA-4235-9998-4C258329B544
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH Version

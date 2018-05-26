@@ -1,8 +1,11 @@
 ---
 title: IMimeEditTagCollection Count method
 description: On success, obtains a count of IMimeEditTag objects in collection.
-ms.assetid: 'f1334f22-4979-4db6-8501-0b0759717c95'
-keywords: ["Count method Windows Mail (formerly Outlook Express)", "Count method Windows Mail (formerly Outlook Express) , IMimeEditTagCollection interface", "IMimeEditTagCollection interface Windows Mail (formerly Outlook Express) , Count method"]
+ms.assetid: f1334f22-4979-4db6-8501-0b0759717c95
+keywords:
+- Count method Windows Mail (formerly Outlook Express)
+- Count method Windows Mail (formerly Outlook Express) , IMimeEditTagCollection interface
+- IMimeEditTagCollection interface Windows Mail (formerly Outlook Express) , Count method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEditTagCollection::Count method
@@ -24,7 +32,7 @@ On success, obtains a count of [**IMimeEditTag**](oe-imimeedittag.md) objects in
 
 ```C++
 HRESULT Count(
-  [out] ULONG *pcItems
+  [out] ULONG *pcItems
 );
 ```
 
@@ -55,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -64,9 +72,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

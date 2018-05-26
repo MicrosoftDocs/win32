@@ -1,12 +1,17 @@
 ---
 title: Rendering
-description: This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
-ms.assetid: '5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93'
+description: This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
+ms.assetid: 5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering
 
-This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
+This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
 
 ## In this section
 
@@ -22,9 +27,9 @@ This section contains information about rendering features new to Direct3D 12 (a
 
 
 
- 
+ 
 
-The following topics are also new to Direct3D 12 and Direct3D 11.3:
+The following topics are also new to Direct3D 12 and Direct3D 11.3:
 
 -   [Default Texture Mapping](default-texture-mapping.md)
 -   [Typed Unordered Access View Loads](typed-unordered-access-view-loads.md)
@@ -41,9 +46,9 @@ Refer to the support for High Dynamic Range (increased difference between the br
 [Direct3D 12 Programming Guide](directx-12-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

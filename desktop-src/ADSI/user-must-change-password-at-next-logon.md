@@ -4,11 +4,16 @@ description: To force a user to change their password at next logon, set the pwd
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0182151c-ddb7-4d08-98c6-c37e6e514cf0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0182151c-ddb7-4d08-98c6-c37e6e514cf0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["User Must Change Password at Next Logon ADSI , LDAP provider", "LDAP provider ADSI , user management examples, User Must Change Password at Next Logon"]
+keywords:
+- User Must Change Password at Next Logon ADSI , LDAP provider
+- LDAP provider ADSI , user management examples, User Must Change Password at Next Logon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Must Change Password at Next Logon (LDAP Provider)

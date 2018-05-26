@@ -1,8 +1,9 @@
 ---
 title: VMUndoAction enumeration
 description: The VMUndoAction enumeration specifies what happens to undo drives when a virtual machine is shut down or turned off.
-ms.assetid: '49885878-cd90-4ecd-863d-0dd33fa6fc98'
-keywords: ["VMUndoAction enumeration Virtual Server"]
+ms.assetid: 49885878-cd90-4ecd-863d-0dd33fa6fc98
+keywords:
+- VMUndoAction enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMUndoAction enumeration
@@ -22,9 +28,9 @@ The **VMUndoAction** enumeration specifies what happens to undo drives when a vi
 
 ```C++
 typedef enum  { 
-  vmUndoAction_Discard  = 0,
-  vmUndoAction_Keep     = 1,
-  vmUndoAction_Commit   = 2
+  vmUndoAction_Discard  = 0,
+  vmUndoAction_Keep     = 1,
+  vmUndoAction_Commit   = 2
 } VMUndoAction;
 ```
 
@@ -61,15 +67,15 @@ Commit changes to parent drives.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

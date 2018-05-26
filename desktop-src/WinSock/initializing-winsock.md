@@ -1,7 +1,12 @@
 ---
-Description: 'All processes (applications or DLLs) that call Winsock functions must initialize the use of the Windows Sockets DLL before making other Winsock functions calls. This also makes certain that Winsock is supported on the system.'
-ms.assetid: '300858d8-bed3-4a3c-abb5-2cecd100e5d7'
+Description: All processes (applications or DLLs) that call Winsock functions must initialize the use of the Windows Sockets DLL before making other Winsock functions calls. This also makes certain that Winsock is supported on the system.
+ms.assetid: 300858d8-bed3-4a3c-abb5-2cecd100e5d7
 title: Initializing Winsock
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing Winsock
@@ -10,14 +15,14 @@ All processes (applications or DLLs) that call Winsock functions must initialize
 
 **To initialize Winsock**
 
-1.  Create a [**WSADATA**](wsadata-2.md) object called wsaData.
+1.  Create a [**WSADATA**](/windows/win32/winsock/ns-winsock-wsadata?branch=master) object called wsaData.
     ```C++
     WSADATA wsaData;
     ```
 
     
 
-2.  Call [**WSAStartup**](wsastartup-2.md) and return its value as an integer and check for errors.
+2.  Call [**WSAStartup**](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) and return its value as an integer and check for errors.
     ```C++
     int iResult;
 
@@ -31,9 +36,9 @@ All processes (applications or DLLs) that call Winsock functions must initialize
 
     
 
-The [**WSAStartup**](wsastartup-2.md) function is called to initiate use of WS2\_32.dll.
+The [**WSAStartup**](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) function is called to initiate use of WS2\_32.dll.
 
-The [**WSADATA**](wsadata-2.md) structure contains information about the Windows Sockets implementation. The MAKEWORD(2,2) parameter of [**WSAStartup**](wsastartup-2.md) makes a request for version 2.2 of Winsock on the system, and sets the passed version as the highest version of Windows Sockets support that the caller can use.
+The [**WSADATA**](/windows/win32/winsock/ns-winsock-wsadata?branch=master) structure contains information about the Windows Sockets implementation. The MAKEWORD(2,2) parameter of [**WSAStartup**](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) makes a request for version 2.2 of Winsock on the system, and sets the passed version as the highest version of Windows Sockets support that the caller can use.
 
 Next Step for a Client: [Creating a Socket for the Client](creating-a-socket-for-the-client.md)
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order identifier.'
-ms.assetid: 'ea45b0e5-7df7-47fb-8dad-fccfbe53fec0'
+Description: Each locale has a unique identifier, a 32-bit value that consists of a language identifier and a sort order identifier.
+ms.assetid: ea45b0e5-7df7-47fb-8dad-fccfbe53fec0
 title: Locale Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locale Identifiers
@@ -45,7 +50,7 @@ NLS uses the following locale information constants to represent locale identifi
 
 You can use the Locale Builder utility provided by NLS to build locales. For more information, see [Microsoft Locale Builder](http://go.microsoft.com/fwlink/p/?linkid=96654).
 
-Your application can construct a locale identifier using the [**MAKELCID**](makelcid.md) macro. Alternatively it can use one of the default identifiers corresponding to the constants listed below.
+Your application can construct a locale identifier using the [**MAKELCID**](/windows/win32/Winnt/nf-winnt-makelcid?branch=master) macro. Alternatively it can use one of the default identifiers corresponding to the constants listed below.
 
 -   [LOCALE\_INVARIANT](locale-invariant.md)
 -   [LOCALE\_SYSTEM\_DEFAULT](locale-system-default.md)
@@ -53,7 +58,7 @@ Your application can construct a locale identifier using the [**MAKELCID**](make
 
 ## Retrieval of Locale Identifiers
 
-An application can retrieve the current locale identifiers by using the [**GetSystemDefaultLCID**](getsystemdefaultlcid.md) and [**GetUserDefaultLCID**](getuserdefaultlcid.md) functions. Each thread can set and retrieve its own locale with [**SetThreadLocale**](setthreadlocale.md) and [**GetThreadLocale**](getthreadlocale.md).
+An application can retrieve the current locale identifiers by using the [**GetSystemDefaultLCID**](/windows/win32/Winnls/nf-winnls-getsystemdefaultlcid?branch=master) and [**GetUserDefaultLCID**](/windows/win32/Winnls/nf-winnls-getuserdefaultlcid?branch=master) functions. Each thread can set and retrieve its own locale with [**SetThreadLocale**](/windows/win32/Winnls/nf-winnls-setthreadlocale?branch=master) and [**GetThreadLocale**](/windows/win32/Winnls/nf-winnls-getthreadlocale?branch=master).
 
 ## Related topics
 
@@ -71,7 +76,7 @@ An application can retrieve the current locale identifiers by using the [**GetSy
 [Sort Order Identifiers](sort-order-identifiers.md)
 </dt> <dt>
 
-[**MAKELCID**](makelcid.md)
+[**MAKELCID**](/windows/win32/Winnt/nf-winnt-makelcid?branch=master)
 </dt> </dl>
 
  

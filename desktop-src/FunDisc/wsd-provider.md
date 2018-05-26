@@ -1,30 +1,35 @@
 ---
-Description: 'An asynchronous Function Discovery provider that enumerates devices that use the Devices Profile for Web Services (DPWS) for discovery.'
-ms.assetid: 'a6f9cc02-1b40-46da-bc65-dcb94dad5f9e'
+Description: An asynchronous Function Discovery provider that enumerates devices that use the Devices Profile for Web Services (DPWS) for discovery.
+ms.assetid: a6f9cc02-1b40-46da-bc65-dcb94dad5f9e
 title: WSD Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSD Provider
 
-\[Function Discovery is available for use in the following versions of Windows: Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista. It may be altered or unavailable in subsequent versions.\]
+\[Function Discovery is available for use in the following versions of Windows: Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, and Windows Vista. It may be altered or unavailable in subsequent versions.\]
 
 The Web Services on Devices (WSD) provider is an asynchronous Function Discovery provider that enumerates devices that use the [Devices Profile for Web Services](http://go.microsoft.com/fwlink/p/?linkid=59069) (DPWS) for discovery. The WSD provider uses the [Web Services on Devices API](https://msdn.microsoft.com/library/windows/desktop/aa826001) (WSDAPI) to discover WSD-enabled devices, perform metadata exchange, and process metadata. Once a device is discovered, the WSD provider gets the device metadata, processes it, and returns a [function instance](function-objects.md) that represents the WSD device.
 
 ## Query Results
 
-The WSD provider supports collection queries and instance queries. That means the provider supports both the [**IFunctionInstanceCollectionQuery::Execute**](ifunctioninstancecollectionquery-execute-method.md) and [**IFunctionInstanceQuery::Execute**](ifunctioninstancequery-execute-method.md) methods. Because the WSD provider is asynchronous, **Execute** always returns E\_PENDING for a successful query.
+The WSD provider supports collection queries and instance queries. That means the provider supports both the [**IFunctionInstanceCollectionQuery::Execute**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute?branch=master) and [**IFunctionInstanceQuery::Execute**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancequery-execute?branch=master) methods. Because the WSD provider is asynchronous, **Execute** always returns E\_PENDING for a successful query.
 
-When a collection query is executed, the WSD provider sends a multicast [Probe message](https://msdn.microsoft.com/library/windows/desktop/bb513684), which is used to search for WSD devices on the local subnet that match the constraints (if any) specified in the Function Discovery query. When an instance query is executed, the WSD provider sends a multicast [Resolve message](https://msdn.microsoft.com/library/windows/desktop/bb513686), which is used to search for the target device. In either case, the WSD provider then performs metadata exchange with the devices that responded to the Probe or Resolve message, processes the metadata, and returns the corresponding function instances. Applications can then call [**IFunctionInstance::QueryService**](ifunctioninstance-queryservice.md) on a returned function instance to get the collection of function instances corresponding to each service hosted on the device.
+When a collection query is executed, the WSD provider sends a multicast [Probe message](https://msdn.microsoft.com/library/windows/desktop/bb513684), which is used to search for WSD devices on the local subnet that match the constraints (if any) specified in the Function Discovery query. When an instance query is executed, the WSD provider sends a multicast [Resolve message](https://msdn.microsoft.com/library/windows/desktop/bb513686), which is used to search for the target device. In either case, the WSD provider then performs metadata exchange with the devices that responded to the Probe or Resolve message, processes the metadata, and returns the corresponding function instances. Applications can then call [**IFunctionInstance::QueryService**](/windows/win32/FunctionDiscoveryAPI/?branch=master) on a returned function instance to get the collection of function instances corresponding to each service hosted on the device.
 
 Function instances are returned using the [**IFunctionDiscoveryNotification::OnUpdate**](ifunctiondiscoverynotification-onupdate-method.md) method. Also, after the WSD provider has finished enumerating resources, the provider sends a FD\_EVENTID\_SEARCHCOMPLETE notification using [**IFunctionDiscoveryNotification::OnEvent**](ifunctiondiscoverynotification-onevent.md).
 
-After the initial query results have been returned, the WSD provider continues to listen for messages from devices on the network. When a device sends a [Hello message](https://msdn.microsoft.com/library/windows/desktop/bb513682), the WSD provider sends a QUA\_ADD notification to the Function Discovery client. When a device sends a [Bye message](https://msdn.microsoft.com/library/windows/desktop/bb513676), the WSD provider sends a QUA\_REMOVE notification to the Function Discovery client. That means the client application is notified whenever a device comes online or goes offline until the client releases the query object by calling **Release** on the [**IFunctionInstanceCollectionQuery**](ifunctioninstancecollectionquery.md) or on the [**IFunctionInstanceQuery**](ifunctioninstancequery.md) object.
+After the initial query results have been returned, the WSD provider continues to listen for messages from devices on the network. When a device sends a [Hello message](https://msdn.microsoft.com/library/windows/desktop/bb513682), the WSD provider sends a QUA\_ADD notification to the Function Discovery client. When a device sends a [Bye message](https://msdn.microsoft.com/library/windows/desktop/bb513676), the WSD provider sends a QUA\_REMOVE notification to the Function Discovery client. That means the client application is notified whenever a device comes online or goes offline until the client releases the query object by calling **Release** on the [**IFunctionInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollectionquery?branch=master) or on the [**IFunctionInstanceQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancequery?branch=master) object.
 
 ## Query Constraints
 
-Query constraint can be added by calling [**IFunctionInstanceCollectionQuery::AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) on an [**IFunctionInstanceCollectionQuery**](ifunctioninstancecollectionquery.md) object before executing the query.
+Query constraint can be added by calling [**IFunctionInstanceCollectionQuery::AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) on an [**IFunctionInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollectionquery?branch=master) object before executing the query.
 
-The following table shows the query constraints supported by the WSD provider. The table also shows possible values to pass to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](ifunctioninstancecollectionquery-addqueryconstraint.md) method.
+The following table shows the query constraints supported by the WSD provider. The table also shows possible values to pass to the *pszConstraintValue* parameter of the [**AddQueryConstraint**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addqueryconstraint?branch=master) method.
 
 
 
@@ -36,13 +41,13 @@ The following table shows the query constraints supported by the WSD provider. T
 
 
 
- 
+ 
 
 For more information about a named constraint, see [**Constraint Definitions**](constraint-definitions.md). For general information about query constraints, see [Constraints](constraints.md).
 
 ## Notifications
 
-Because the WSD provider is asynchronous, a non-NULL [**IFunctionDiscoveryNotification**](ifunctiondiscoverynotification.md) pointer must be passed to the query creation method (either [**IFunctionDiscovery::CreateInstanceCollectionQuery**](ifunctiondiscovery-createinstancecollectionquery-method.md) or [**IFunctionDiscovery::CreateInstanceQuery**](ifunctiondiscovery-createinstancequery-method.md)). The WSD provider will listen for Hello and Bye messages and send QUA\_ADD and QUA\_REMOVE notifications to the **IFunctionDiscoveryNotification** interface as appropriate. An implementation of the [**IFunctionDiscoveryNotification::OnUpdate**](ifunctiondiscoverynotification-onupdate-method.md) method should handle these two notifications. The QUA\_CHANGE notification is not used.
+Because the WSD provider is asynchronous, a non-NULL [**IFunctionDiscoveryNotification**](/windows/win32/FunctionDiscoveryNotification/nn-functiondiscoveryapi-ifunctiondiscoverynotification?branch=master) pointer must be passed to the query creation method (either [**IFunctionDiscovery::CreateInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery?branch=master) or [**IFunctionDiscovery::CreateInstanceQuery**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery?branch=master)). The WSD provider will listen for Hello and Bye messages and send QUA\_ADD and QUA\_REMOVE notifications to the **IFunctionDiscoveryNotification** interface as appropriate. An implementation of the [**IFunctionDiscoveryNotification::OnUpdate**](ifunctiondiscoverynotification-onupdate-method.md) method should handle these two notifications. The QUA\_CHANGE notification is not used.
 
 ## Events
 
@@ -52,15 +57,15 @@ The FD\_EVENTID\_SEARCHCOMPLETE event is dispatched by the WSD provider. This ev
 
 The WSD provider implements the SID\_PNPXServiceCollection service.
 
-An application can use the SID\_PNPXServiceCollection service to get the collection of child function instances (representing hosted services) from a given function instance. To do this, the application calls [**IFunctionInstance::QueryService**](ifunctioninstance-queryservice.md) on a returned function instance with the *guidService* parameter set to `SID_PNPXServiceCollection` and the *riid* parameter set to `_uuidof(IFunctionInstanceCollection)`. If a function instance does not have any child function instances, then an empty collection is returned.
+An application can use the SID\_PNPXServiceCollection service to get the collection of child function instances (representing hosted services) from a given function instance. To do this, the application calls [**IFunctionInstance::QueryService**](/windows/win32/FunctionDiscoveryAPI/?branch=master) on a returned function instance with the *guidService* parameter set to `SID_PNPXServiceCollection` and the *riid* parameter set to `_uuidof(IFunctionInstanceCollection)`. If a function instance does not have any child function instances, then an empty collection is returned.
 
-Although the WSD provider does not implement the SID\_PNPXAssociation service, function instances created by the WSD provider are returned when an application calls [**IFunctionInstance::QueryService**](ifunctioninstance-queryservice.md) on a function instance with the *guidService* parameter set to `SID_PNPXAssociation` and the *riid* parameter set to `_uuidof(IPNPXAssociation)`.
+Although the WSD provider does not implement the SID\_PNPXAssociation service, function instances created by the WSD provider are returned when an application calls [**IFunctionInstance::QueryService**](/windows/win32/FunctionDiscoveryAPI/?branch=master) on a function instance with the *guidService* parameter set to `SID_PNPXAssociation` and the *riid* parameter set to `_uuidof(IPNPXAssociation)`.
 
 ## Property Store
 
 The WSD provider implements read-only property stores.
 
-The [**IFunctionInstance::OpenPropertyStore**](ifunctioninstance-openpropertystore-method.md) method can be used to access the property keys (PKEYs) associated with a function instance. The methods of the [IPropertyStore](shell_IPropertyStore_cpp) interface can be used to get the PKEYs associated with the function instance.
+The [**IFunctionInstance::OpenPropertyStore**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore?branch=master) method can be used to access the property keys (PKEYs) associated with a function instance. The methods of the [IPropertyStore](shell_IPropertyStore_cpp) interface can be used to get the PKEYs associated with the function instance.
 
 ## Supported PKEYs
 
@@ -79,7 +84,7 @@ The following table shows the namespace prefixes used in this section.
 
 
 
- 
+ 
 
 The following table shows the identity-related PKEYs supported by the WSD provider, the type of each PKEY, and the XML element from which the PKEY value is derived.
 
@@ -92,7 +97,7 @@ The following table shows the identity-related PKEYs supported by the WSD provid
 
 
 
- 
+ 
 
 The following table shows the discovery-related PKEYs supported by the WSD provider, the type of each PKEY, and the XML element from which the PKEY value is derived. Discovery-related PKEYs are retrieved from [Hello](https://msdn.microsoft.com/library/windows/desktop/bb513682), [Bye](https://msdn.microsoft.com/library/windows/desktop/bb513676), [ResolveMatch](https://msdn.microsoft.com/library/windows/desktop/bb513685), and [ProbeMatch](https://msdn.microsoft.com/library/windows/desktop/bb513683) messages.
 
@@ -107,7 +112,7 @@ The following table shows the discovery-related PKEYs supported by the WSD provi
 
 
 
- 
+ 
 
 The following table shows the model-related PKEYs supported by the WSD provider, the type of each PKEY, and the XML element from which the PKEY value is derived.
 
@@ -126,7 +131,7 @@ The following table shows the model-related PKEYs supported by the WSD provider,
 
 
 
- 
+ 
 
 The following table shows the PnP-X device-related PKEYs supported by the WSD provider, the type of each PKEY, and the XML element from which the PKEY value is derived.
 
@@ -140,7 +145,7 @@ The following table shows the PnP-X device-related PKEYs supported by the WSD pr
 
 
 
- 
+ 
 
 The following table shows the PnP-X installation-related PKEYs supported by the WSD provider, the type of each PKEY, and the XML element from which the PKEY value is derived.
 
@@ -154,7 +159,7 @@ The following table shows the PnP-X installation-related PKEYs supported by the 
 
 
 
- 
+ 
 
 The following table shows the service-related PKEYs supported by the WSD provider, the type of each PKEY, and the XML element from which the PKEY value is derived.
 
@@ -168,7 +173,7 @@ The following table shows the service-related PKEYs supported by the WSD provide
 
 
 
- 
+ 
 
 The WSD provider supports the following networking-related PKEYs. For PKEY descriptions and PROPVARIANT types, see [**PnP-X Provider PKEYs**](pnp-x-provider-pkeys.md).
 
@@ -198,7 +203,7 @@ The WSD provider sets PnP-X PKEYs. It also maps some PnP-X-specific keys to gene
 
 
 
- 
+ 
 
 The PKEY\_Device BIOSVersion key is also supported. This key does not have a PnP-X equivalent.
 
@@ -211,9 +216,9 @@ For more information about all PnP-X PKEYs, see [**PnP-X Provider PKEYs**](pnp-x
 [Built-in Providers](built-in-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Subscription (eventTriggerType) Element
 description: Specifies the XPath query that identifies the event that fires the trigger.
-ms.assetid: 'ea351a55-c6f9-4e39-b15e-c2a1027a1360'
-keywords: ["Subscription element Task Scheduler"]
+ms.assetid: ea351a55-c6f9-4e39-b15e-c2a1027a1360
+keywords:
+- Subscription element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Subscription
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subscription (eventTriggerType) Element
@@ -37,7 +43,7 @@ The **Subscription** element is defined by the [**eventTriggerType**](taskschedu
 
 For script development, the event subscription is specified by the [**EventTrigger.Subscription**](eventtrigger-subscription.md) property.
 
-For C++ development, the event subscription is specified by the [**IEventTrigger::Subscription**](ieventtrigger-subscription.md) property.
+For C++ development, the event subscription is specified by the [**IEventTrigger::Subscription**](/windows/win32/taskschd/nf-taskschd-ieventtrigger-get_subscription?branch=master) property.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ For C++ development, the event subscription is specified by the [**IEventTrigger
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For C++ development, the event subscription is specified by the [**IEventTrigger
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

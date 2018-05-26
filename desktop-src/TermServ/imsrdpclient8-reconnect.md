@@ -4,11 +4,18 @@ description: Reconnects to the remote session with the new desktop width and hei
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A2C4101D-780A-4973-B87C-025D9140C4BC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: A2C4101D-780A-4973-B87C-025D9140C4BC
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Reconnect method Remote Desktop Services", "Reconnect method Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , Reconnect method", "Reconnect method Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , Reconnect method", "Reconnect method Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , Reconnect method"]
+keywords:
+- Reconnect method Remote Desktop Services
+- Reconnect method Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , Reconnect method
+- Reconnect method Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , Reconnect method
+- Reconnect method Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , Reconnect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +26,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient8::Reconnect method
@@ -30,9 +40,9 @@ Reconnects to the remote session with the new desktop width and height. The cont
 
 ```C++
 HRESULT Reconnect(
-  [in]          ULONG                  ulWidth,
-  [in]          ULONG                  ulHeight,
-  [out, retval] ControlReconnectStatus *pReconnectStatus
+  [in]          ULONG                  ulWidth,
+  [in]          ULONG                  ulHeight,
+  [out, retval] ControlReconnectStatus *pReconnectStatus
 );
 ```
 
@@ -81,8 +91,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient8 is defined as 4247E044-9271-43A9-BC49-E2AD9E855D62<br/>       |
@@ -105,9 +115,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ControlReconnectStatus**](controlreconnectstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

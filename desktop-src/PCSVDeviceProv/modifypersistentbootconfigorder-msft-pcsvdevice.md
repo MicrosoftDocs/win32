@@ -1,13 +1,16 @@
 ---
-Description: 'Changes the order of boot sources for the persistent boot configuration specified by the MSFT\_PCSVDevice.PersistentBootConfigOrder property.'
+Description: Changes the order of boot sources for the persistent boot configuration specified by the MSFT\_PCSVDevice.PersistentBootConfigOrder property.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e633bd88-47c4-4de0-baee-3455721bb8c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e633bd88-47c4-4de0-baee-3455721bb8c9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ModifyPersistentBootConfigOrder method of the MSFT\_PCSVDevice class'
+title: ModifyPersistentBootConfigOrder method of the MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifyPersistentBootConfigOrder method of the MSFT\_PCSVDevice class
@@ -19,8 +22,8 @@ Changes the order of boot sources for the persistent boot configuration specifie
 
 ```mof
 uint32 ModifyPersistentBootConfigOrder(
-  [in]      string              StructuredBootString[],
-  [in, out] CIM_ConcreteJob REF Job
+  [in]      string              StructuredBootString[],
+  [in, out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -59,16 +62,16 @@ This method returns one of the following values.
 **Failed** (2)
 </dt> <dt>
 
-**Reserved** (3–4095)
+**Reserved** (3 4095)
 </dt> <dt>
 
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -77,8 +80,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PCSVDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVDevice.dll</dt> </dl> |
@@ -92,9 +95,9 @@ This method returns one of the following values.
 [**MSFT\_PCSVDevice**](msft-pcsvdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

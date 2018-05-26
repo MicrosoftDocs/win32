@@ -4,13 +4,16 @@ description: This method establishes a peer-to-peer connection identified by a N
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '23e296c4-6a91-432c-aa30-d484ad3a42c0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 23e296c4-6a91-432c-aa30-d484ad3a42c0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateOrModifyReplicationPipe method iSCSI Software Target API", "CreateOrModifyReplicationPipe method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , CreateOrModifyReplicationPipe method"]
+keywords:
+- CreateOrModifyReplicationPipe method iSCSI Software Target API
+- CreateOrModifyReplicationPipe method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , CreateOrModifyReplicationPipe method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateOrModifyReplicationPipe method of the CIM\_StorageConfigurationService class
@@ -38,13 +44,13 @@ All other values indicate some type of error condition.
 
 ```mof
 uint32 CreateOrModifyReplicationPipe(
-  [in]      string                   PipeElementName,
-  [in]      CIM_ComputerSystem   REF SourceSystem,
-  [in]      CIM_ComputerSystem   REF TargetSystem,
-  [in]      CIM_ProtocolEndpoint REF SourceEndpoint[],
-  [in]      CIM_ProtocolEndpoint REF TargetEndpoint[],
-  [in]      string                   Goal,
-  [in, out] CIM_NetworkPipe      REF ReplicationPipe
+  [in]      string                   PipeElementName,
+  [in]      CIM_ComputerSystem   REF SourceSystem,
+  [in]      CIM_ComputerSystem   REF TargetSystem,
+  [in]      CIM_ProtocolEndpoint REF SourceEndpoint[],
+  [in]      CIM_ProtocolEndpoint REF TargetEndpoint[],
+  [in]      string                   Goal,
+  [in, out] CIM_NetworkPipe      REF ReplicationPipe
 );
 ```
 
@@ -125,16 +131,16 @@ Reference to the created or modified NetworkPipe.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Busy** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -144,7 +150,7 @@ Reference to the created or modified NetworkPipe.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -158,9 +164,9 @@ Reference to the created or modified NetworkPipe.
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

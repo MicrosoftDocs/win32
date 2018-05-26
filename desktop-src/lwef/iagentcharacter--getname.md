@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetName
 description: IAgentCharacter GetName
-ms.assetid: '6c013a18-8c56-42a8-8723-31d83b3230cb'
+ms.assetid: 6c013a18-8c56-42a8-8723-31d83b3230cb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetName

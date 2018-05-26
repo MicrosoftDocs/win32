@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an application to direct the IME window to carry out the requested command.'
-ms.assetid: '5d3b7f8a-57c9-41e3-8022-9a3f515fc32e'
-title: 'WM\_IME\_CONTROL message'
+---
+Description: Sent by an application to direct the IME window to carry out the requested command.
+ms.assetid: 5d3b7f8a-57c9-41e3-8022-9a3f515fc32e
+title: WM\_IME\_CONTROL message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_CONTROL message

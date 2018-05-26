@@ -4,11 +4,13 @@ description: Represents a relationship between a file server and a file share.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '18deff1f-80d3-460c-8ddd-7a02f93a1ad0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 18deff1f-80d3-460c-8ddd-7a02f93a1ad0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMFileServerToFileShare class", "MSFT_SMFileServerToFileShare class, described"]
+keywords:
+- MSFT_SMFileServerToFileShare class
+- MSFT_SMFileServerToFileShare class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMFileServerToFileShare class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_SMFileServerToFileShare
 {
   MSFT_SMFileServer REF Parent;
-  MSFT_SMFileShare  REF Child;
+  MSFT_SMFileShare  REF Child;
 };
 ```
 
@@ -89,7 +94,7 @@ A reference to the [**MSFT\_SMFileServer**](msft-smfileserver.md) object that re
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ A reference to the [**MSFT\_SMFileServer**](msft-smfileserver.md) object that re
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

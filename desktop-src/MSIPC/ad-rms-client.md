@@ -4,10 +4,13 @@ description: This topic describes the purpose and function of the Rights Managem
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F7145090-C2EB-405A-A4CF-0240D57A36DA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F7145090-C2EB-405A-A4CF-0240D57A36DA
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Client

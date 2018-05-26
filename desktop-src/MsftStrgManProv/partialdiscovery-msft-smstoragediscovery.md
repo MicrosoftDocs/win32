@@ -4,11 +4,14 @@ description: Starts the Microsoft storage service partial discovery process.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9053deb7-d7e2-4796-81e1-440256a207ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 9053deb7-d7e2-4796-81e1-440256a207ec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PartialDiscovery method", "PartialDiscovery method, MSFT_SMStorageDiscovery class", "MSFT_SMStorageDiscovery class, PartialDiscovery method"]
+keywords:
+- PartialDiscovery method
+- PartialDiscovery method, MSFT_SMStorageDiscovery class
+- MSFT_SMStorageDiscovery class, PartialDiscovery method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PartialDiscovery method of the MSFT\_SMStorageDiscovery class
@@ -28,17 +34,17 @@ Starts the Microsoft storage service partial discovery process.
 
 ```mof
 Uint32 PartialDiscovery(
-  [in]            String                host,
-  [in, optional]  String                hostType,
-  [in]            String                interopNamespace,
-  [in]            String                username,
-  [in]            String                password,
-  [in, optional]  Uint32                discoveryLevel,
-  [in]            Uint32                partialDiscoveryType,
-  [in, optional]  String                targetObjectId,
-  [in]            Uint32                targetObjectClassType,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                host,
+  [in, optional]  String                hostType,
+  [in]            String                interopNamespace,
+  [in]            String                username,
+  [in]            String                password,
+  [in, optional]  Uint32                discoveryLevel,
+  [in]            Uint32                partialDiscoveryType,
+  [in, optional]  String                targetObjectId,
+  [in]            Uint32                targetObjectClassType,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -459,7 +465,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object that contains t
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -473,9 +479,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object that contains t
 [**MSFT\_SMStorageDiscovery**](msft-smstoragediscovery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

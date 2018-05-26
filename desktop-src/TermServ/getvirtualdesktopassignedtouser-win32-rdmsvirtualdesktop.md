@@ -4,11 +4,14 @@ description: Retrieves the virtual desktop that is assigned to the specified use
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cbc22c45-4492-4651-b164-a6fd717c5ab4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cbc22c45-4492-4651-b164-a6fd717c5ab4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetVirtualDesktopAssignedToUser method Remote Desktop Services", "GetVirtualDesktopAssignedToUser method Remote Desktop Services , Win32_RDMSVirtualDesktop class", "Win32_RDMSVirtualDesktop class Remote Desktop Services , GetVirtualDesktopAssignedToUser method"]
+keywords:
+- GetVirtualDesktopAssignedToUser method Remote Desktop Services
+- GetVirtualDesktopAssignedToUser method Remote Desktop Services , Win32_RDMSVirtualDesktop class
+- Win32_RDMSVirtualDesktop class Remote Desktop Services , GetVirtualDesktopAssignedToUser method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetVirtualDesktopAssignedToUser method of the Win32\_RDMSVirtualDesktop class
@@ -28,10 +34,10 @@ Retrieves the virtual desktop that is assigned to the specified user.
 
 ```mof
 uint32 GetVirtualDesktopAssignedToUser(
-  [in]  string CollectionAlias,
-  [in]  string UserName,
-  [in]  string UserDomain,
-  [out] string VMName
+  [in]  string CollectionAlias,
+  [in]  string UserName,
+  [in]  string UserDomain,
+  [out] string VMName
 );
 ```
 
@@ -80,7 +86,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -94,9 +100,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktop**](win32-rdmsvirtualdesktop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

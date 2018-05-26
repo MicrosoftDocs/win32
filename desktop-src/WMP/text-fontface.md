@@ -1,14 +1,20 @@
 ---
 title: TEXT.fontFace
 description: The fontFace attribute specifies or retrieves the typeface for the Text control.
-ms.assetid: '3b39e245-139a-4361-b678-0f9e962996b7'
-keywords: ["TEXT.fontFace Windows Media Player"]
+ms.assetid: 3b39e245-139a-4361-b678-0f9e962996b7
+keywords:
+- TEXT.fontFace Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.fontFace
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.fontFace
@@ -51,9 +57,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.fontSize**](text-fontsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

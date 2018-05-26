@@ -1,8 +1,29 @@
 ---
 title: Slider Control Type
 description: This topic provides information about Microsoft UI Automation support for the Slider control type.
-ms.assetid: 'dc7bef7a-b68c-4184-a9e7-745bb41b592e'
-keywords: ["UI Automation,support for Slider control type", "UI Automation,Slider control type", "UI Automation,tree structure for Slider control type", "UI Automation,properties for Slider control type", "UI Automation,control patterns for Slider control type", "UI Automation,events for Slider control type", "tree structures,Slider control type", "properties,Slider control type", "control patterns,Slider control type", "events,Slider control type", "support for Slider control type", "Slider control type", "control types,tree structure for Slider control type", "control types,control patterns for Slider control type", "control types,support for Slider", "control types,Slider"]
+ms.assetid: dc7bef7a-b68c-4184-a9e7-745bb41b592e
+keywords:
+- UI Automation,support for Slider control type
+- UI Automation,Slider control type
+- UI Automation,tree structure for Slider control type
+- UI Automation,properties for Slider control type
+- UI Automation,control patterns for Slider control type
+- UI Automation,events for Slider control type
+- tree structures,Slider control type
+- properties,Slider control type
+- control patterns,Slider control type
+- events,Slider control type
+- support for Slider control type
+- Slider control type
+- control types,tree structure for Slider control type
+- control types,control patterns for Slider control type
+- control types,support for Slider
+- control types,Slider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Slider Control Type
@@ -93,9 +114,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                          | Support/Value | Notes                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IRangeValueProvider**](uiauto-irangevalueprovider.md) | Depends       | A slider should support the [RangeValue](uiauto-implementingrangevalue.md) control pattern if the content can be set to a value within a numerical range.                                                                                                                                                 |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md)   | Depends       | A slider should support the [Selection](uiauto-implementingselection.md) control pattern if the content represents one value among a discrete set of options. When the Selection control pattern is supported, the corresponding selection must be exposed as one or more child list items of the slider. |
-| [**IValueProvider**](uiauto-ivalueprovider.md)           | Depends       | A slider should support the [Value](uiauto-implementingvalue.md) control pattern if the content represents one value among a discrete set of options.                                                                                                                                                     |
+| [**IRangeValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irangevalueprovider?branch=master) | Depends       | A slider should support the [RangeValue](uiauto-implementingrangevalue.md) control pattern if the content can be set to a value within a numerical range.                                                                                                                                                 |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master)   | Depends       | A slider should support the [Selection](uiauto-implementingselection.md) control pattern if the content represents one value among a discrete set of options. When the Selection control pattern is supported, the corresponding selection must be exposed as one or more child list items of the slider. |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)           | Depends       | A slider should support the [Value](uiauto-implementingvalue.md) control pattern if the content represents one value among a discrete set of options.                                                                                                                                                     |
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Enhanced Cryptographic Provider provides an application with stronger security than currently available with the Microsoft Base Cryptographic Provider. Greater key length gives users more protection for sensitive data.'
-ms.assetid: 'cd16705c-c617-4843-a303-52d1019a60bb'
+Description: The Microsoft Enhanced Cryptographic Provider provides an application with stronger security than currently available with the Microsoft Base Cryptographic Provider. Greater key length gives users more protection for sensitive data.
+ms.assetid: cd16705c-c617-4843-a303-52d1019a60bb
 title: Key Length Comparison
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Length Comparison

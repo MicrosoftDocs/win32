@@ -4,11 +4,16 @@ description: Services advertise themselves using objects stored in Active Direct
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '69e9256f-40ee-4aed-8213-1bbda0e508af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 69e9256f-40ee-4aed-8213-1bbda0e508af
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Service Publication AD", "Active Directory, using, service publication"]
+keywords:
+- Service Publication AD
+- Active Directory, using, service publication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Service Publication

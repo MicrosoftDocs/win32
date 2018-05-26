@@ -4,11 +4,15 @@ description: Example Code for Creating a Local Group
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e204ea67-52c0-430a-bb22-a53f4c084e4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e204ea67-52c0-430a-bb22-a53f4c084e4f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , creating a local group"]
+keywords:
+- Active Directory examples Active Directory , creating a local group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Creating a Local Group

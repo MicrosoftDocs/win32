@@ -1,7 +1,12 @@
 ---
-Description: 'The following example illustrates the use of object names by creating and opening a named mutex.'
-ms.assetid: '06199f83-8fe0-42b9-9db1-58fe1443db4e'
+Description: The following example illustrates the use of object names by creating and opening a named mutex.
+ms.assetid: 06199f83-8fe0-42b9-9db1-58fe1443db4e
 title: Using Named Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Named Objects
@@ -10,7 +15,7 @@ The following example illustrates the use of [object names](object-names.md) by 
 
 ## First Process
 
-The first process uses the [**CreateMutex**](createmutex.md) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
+The first process uses the [**CreateMutex**](/windows/win32/WinBase/nf-synchapi-createmutexa?branch=master) function to create the mutex object. Note that this function succeeds even if there is an existing object with the same name.
 
 
 ```C++
@@ -49,7 +54,7 @@ int main(void)
 
 ## Second Process
 
-The second process uses the [**OpenMutex**](openmutex.md) function to open a handle to the existing mutex. This function fails if a mutex object with the specified name does not exist. The access parameter requests full access to the mutex object, which is necessary for the handle to be used in any of the wait functions.
+The second process uses the [**OpenMutex**](/windows/win32/WinBase/nf-winbase-openmutexa?branch=master) function to open a handle to the existing mutex. This function fails if a mutex object with the specified name does not exist. The access parameter requests full access to the mutex object, which is necessary for the handle to be used in any of the wait functions.
 
 
 ```C++

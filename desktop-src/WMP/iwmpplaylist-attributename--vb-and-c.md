@@ -1,8 +1,9 @@
 ---
 title: IWMPPlaylist.attributeName (VB and C\ )
 description: The attributeName property (the get\_attributeName method in C\ ) gets the name of a playlist attribute specified by an index.
-ms.assetid: 'bb436657-5156-437e-af58-6497ad3b311b'
-keywords: ["IWMPPlaylist.attributeName (VB and C ) Windows Media Player"]
+ms.assetid: bb436657-5156-437e-af58-6497ad3b311b
+keywords:
+- IWMPPlaylist.attributeName (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist.attributeName (VB and C#)
@@ -91,9 +97,9 @@ See the [attributeCount](wmplibiwmpplaylist-iwmpplaylist-attributecount--vb-and-
 [**IWMPPlaylist.setItemInfo (VB and C#)**](wmplibiwmpplaylist-iwmpplaylist-setiteminfo--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

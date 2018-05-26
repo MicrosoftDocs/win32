@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color for the edit box control.
-ms.assetid: '9ce247fe-c033-40fd-95fe-3e9445bf6d62'
-keywords: ["EDITBOX.backgroundColor Windows Media Player"]
+ms.assetid: 9ce247fe-c033-40fd-95fe-3e9445bf6d62
+keywords:
+- EDITBOX.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.backgroundColor
@@ -46,9 +52,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**EDITBOX.foregroundColor**](editbox-foregroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the core constants for Tablet PC.'
-ms.assetid: '6d2ea0ee-d5a2-4b8c-977c-f815c465fdac'
+Description: This section contains the core constants for Tablet PC.
+ms.assetid: 6d2ea0ee-d5a2-4b8c-977c-f815c465fdac
 title: Core Tablet PC Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Tablet PC Constants
@@ -20,11 +25,11 @@ This section contains the core constants for Tablet PC.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: SPX/IPX Installation
 description: Applications can utilize Microsoft RPC on networks that use the ncacn\_spx and ncadg\_ipx transports.
-ms.assetid: '59708df9-6fb6-4a97-b4b1-f431a5e5bd34'
-keywords: ["Remote Procedure Call RPC , tasks, installing SPX/IPX"]
+ms.assetid: 59708df9-6fb6-4a97-b4b1-f431a5e5bd34
+keywords:
+- Remote Procedure Call RPC , tasks, installing SPX/IPX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPX/IPX Installation

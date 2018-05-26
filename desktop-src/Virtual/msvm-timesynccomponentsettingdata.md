@@ -1,8 +1,10 @@
 ---
 title: Msvm\_TimeSyncComponentSettingData class
 description: Represents the configured state of the time synchronization service.
-ms.assetid: '946a8cee-818b-4780-9d8c-6fe9a0d86e0c'
-keywords: ["Msvm_TimeSyncComponentSettingData class Hyper-V", "Msvm_TimeSyncComponentSettingData class Hyper-V , described"]
+ms.assetid: 946a8cee-818b-4780-9d8c-6fe9a0d86e0c
+keywords:
+- Msvm_TimeSyncComponentSettingData class Hyper-V
+- Msvm_TimeSyncComponentSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TimeSyncComponentSettingData class
@@ -47,28 +54,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TimeSyncComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "Time Synchronization";
-  string  Description = "Microsoft Time Synchronization Service Setting Data";
-  string  InstanceID = "Microsoft:GUID\device-specific data";
-  string  ElementName = "Time Synchronization";
-  uint16  ResourceType = 1;
-  string  OtherResourceType = "Microsoft Time Synchronization Component";
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "Integration Components";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  Caption = "Time Synchronization";
+  string  Description = "Microsoft Time Synchronization Service Setting Data";
+  string  InstanceID = "Microsoft:GUID\device-specific data";
+  string  ElementName = "Time Synchronization";
+  uint16  ResourceType = 1;
+  string  OtherResourceType = "Microsoft Time Synchronization Component";
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "Integration Components";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint16  EnabledState = 2;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint16  EnabledState = 2;
 };
 ```
 
@@ -461,9 +468,9 @@ Access to the **Msvm\_TimeSyncComponentSettingData** class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -482,9 +489,9 @@ Access to the **Msvm\_TimeSyncComponentSettingData** class might be restricted b
 [Integration Services Classes](integration-components-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

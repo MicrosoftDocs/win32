@@ -1,8 +1,9 @@
 ---
 title: VMRCAuthenticationType enumeration
 description: The VMRCAuthenticationType enumeration specifies how the client is authenticated.
-ms.assetid: '45c0c23b-521a-46bc-bf39-18ebf85b2e7c'
-keywords: ["VMRCAuthenticationType enumeration Virtual Server"]
+ms.assetid: 45c0c23b-521a-46bc-bf39-18ebf85b2e7c
+keywords:
+- VMRCAuthenticationType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMRCAuthenticationType enumeration
@@ -22,12 +28,12 @@ The **VMRCAuthenticationType** enumeration specifies how the client is authentic
 
 ```C++
 typedef enum  { 
-  vmVMRCAuthentication_Invalid    = -1,
-  vmVMRCAuthentication_VNC        = 0,
-  vmVMRCAuthentication_SRP        = 1,
-  vmVMRCAuthentication_NTLM       = 2,
-  vmVMRCAuthentication_Kerberos   = 3,
-  vmVMRCAuthentication_Automatic  = 4
+  vmVMRCAuthentication_Invalid    = -1,
+  vmVMRCAuthentication_VNC        = 0,
+  vmVMRCAuthentication_SRP        = 1,
+  vmVMRCAuthentication_NTLM       = 2,
+  vmVMRCAuthentication_Kerberos   = 3,
+  vmVMRCAuthentication_Automatic  = 4
 } VMRCAuthenticationType;
 ```
 
@@ -54,7 +60,7 @@ When this authentication method is used, traditional VNC authentication is perfo
 > [!Note]  
 > This authentication method is not supported by Virtual Server.
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,7 +72,7 @@ Authenticate client using the Secure Remote Password (SRP) protocol as specified
 > [!Note]  
 > This authentication method is not supported by Virtual Server.
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,15 +109,15 @@ When this authentication method is used, either Kerberos or NTLM authentication 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

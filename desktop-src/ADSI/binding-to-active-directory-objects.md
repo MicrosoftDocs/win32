@@ -4,10 +4,13 @@ description: Before you continue with this scenario, you must understand how ADS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0d8d8f1c-786f-4d87-977c-91a167bcf118'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0d8d8f1c-786f-4d87-977c-91a167bcf118
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to Active Directory Objects
@@ -45,7 +48,7 @@ Set dom = GetObject("LDAP://DC=Fabrikam,DC=Com")
 
 
 
-When you run this code example, ADSI uses the DN to determine the ADSI objects to bind. After ADSI binds these objects, you can access their methods. The previous code example binds a domain object to [**IADs**](iads.md) and [**IADsContainer**](iadscontainer.md). You can now use methods on those interfaces such as [**Get**](iads-get.md), [**Put**](iads-put.md), [**Create**](iadscontainer-create.md), [**Delete**](iadscontainer-delete.md), and [**MoveHere**](iadscontainer-movehere.md).
+When you run this code example, ADSI uses the DN to determine the ADSI objects to bind. After ADSI binds these objects, you can access their methods. The previous code example binds a domain object to [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) and [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master). You can now use methods on those interfaces such as [**Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master), [**Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master), [**Create**](/windows/win32/Iads/nf-iads-iadscontainer-create?branch=master), [**Delete**](/windows/win32/Iads/nf-iads-iadscontainer-delete?branch=master), and [**MoveHere**](/windows/win32/Iads/nf-iads-iadscontainer-movehere?branch=master).
 
 After you bind a domain object, you can print some of its attributes:
 

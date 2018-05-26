@@ -4,13 +4,16 @@ description: Resize iSCSI virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'af96ca45-a9ee-4571-b83b-df64765490cb'
-ms.prod: 'windows-server-dev'
+ms.assetid: af96ca45-a9ee-4571-b83b-df64765490cb
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Resize method iSCSI Software Target API", "Resize method iSCSI Software Target API , WT_Disk class", "WT_Disk class iSCSI Software Target API , Resize method"]
+keywords:
+- Resize method iSCSI Software Target API
+- Resize method iSCSI Software Target API , WT_Disk class
+- WT_Disk class iSCSI Software Target API , Resize method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resize method of the WT\_Disk class
@@ -30,8 +36,8 @@ Resize iSCSI virtual disk. When the *Shrink* parameter is **TRUE**, **Resize** w
 
 ```mof
 void Resize(
-  [in] uint32  DeltaInMB,
-  [in] boolean Shrink
+  [in] uint32  DeltaInMB,
+  [in] boolean Shrink
 );
 ```
 
@@ -66,7 +72,7 @@ This method does not return a value.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>Wmiwtprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -80,9 +86,9 @@ This method does not return a value.
 [**WT\_Disk**](wt-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: A primary consideration of installing a service instance is to ensu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5b756318-f621-4fce-af2b-71ccccbb4e3c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5b756318-f621-4fce-af2b-71ccccbb4e3c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Granting Access Rights to the Service Logon Account AD"]
+keywords:
+- Granting Access Rights to the Service Logon Account AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Granting Access Rights to the Service Logon Account

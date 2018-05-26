@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PROV\_DSS provider type, like PROV\_RSA\_SIG, only supports hashes and digital signatures. The signature algorithm specified by the PROV\_DSS provider type is the Digital Signature Algorithm (DSA).'
-ms.assetid: 'b3b00f10-8f94-4c30-8267-db0c449e4d15'
-title: 'PROV\_DSS'
+---
+Description: The PROV\_DSS provider type, like PROV\_RSA\_SIG, only supports hashes and digital signatures. The signature algorithm specified by the PROV\_DSS provider type is the Digital Signature Algorithm (DSA).
+ms.assetid: b3b00f10-8f94-4c30-8267-db0c449e4d15
+title: PROV\_DSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_DSS

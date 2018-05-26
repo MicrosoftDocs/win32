@@ -1,7 +1,12 @@
 ---
 title: Keyboard
 description: The keyboard is the primary input device used for text input in Microsoft Windows. For accessibility and efficiency, most actions can be performed using the keyboard as well.
-ms.assetid: '27185c98-1233-4e26-a156-0ff080fd4db3'
+ms.assetid: 27185c98-1233-4e26-a156-0ff080fd4db3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard
@@ -253,7 +258,7 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 
 ### Access keys
 
--   **Whenever possible, assign access keys for commonly used commands according to the following table.** While consistent access key assignments aren't always possible, they are certainly preferred—especially for frequently used commands.
+-   **Whenever possible, assign access keys for commonly used commands according to the following table.** While consistent access key assignments aren't always possible, they are certainly preferred especially for frequently used commands.
 
     |                           |                                           |
     |---------------------------|-------------------------------------------|
@@ -332,7 +337,7 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 
     
 
-     
+     
 
 -   **Prefer characters with wide widths,** such as w, m, and capital letters.
 -   **Prefer a distinctive consonant or a vowel,** such as "x" in "Exit."
@@ -389,7 +394,7 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 -   **Don't make a shortcut key the only way to perform a task.** Users should also be able to use the mouse or the keyboard with Tab, arrow, and access keys.
 -   **Don't assign different meanings to well-known shortcut keys.** Because they are memorized, inconsistent meanings for well-known shortcuts are frustrating and error prone.
 -   **Don't try to assign system-wide program shortcut keys.** Your program's shortcut keys will have effect only when your program has input focus.
--   **Document all shortcut keys.** Document shortcuts in menu bar items, toolbar tooltips, and a single Help article that documents all shortcut keys used. Doing so helps users learn the shortcut key assignments—they shouldn't be a secret.
+-   **Document all shortcut keys.** Document shortcuts in menu bar items, toolbar tooltips, and a single Help article that documents all shortcut keys used. Doing so helps users learn the shortcut key assignments they shouldn't be a secret.
 
     -   **Exception:** Don't display shortcut key assignments within context menus. Context menus don't display the shortcut key assignments because these menus are optimized for efficiency.
 
@@ -408,7 +413,7 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
     -   F7, F8, F9, or F12
     -   Shift+F2, F3, F4, F5, F7, F8, F9, F11, or F12
     -   Alt+any function key except F4
--   **Use the following recommended shortcut keys for less frequently used commands.** These shortcut keys don't have conflicts, but are harder to press—often requiring two hands.
+-   **Use the following recommended shortcut keys for less frequently used commands.** These shortcut keys don't have conflicts, but are harder to press often requiring two hands.
     -   Ctrl+any function key except F4 and F6
     -   Ctrl+Shift+any letter or number
 -   **Make frequently used shortcut keys easy to remember:**
@@ -475,7 +480,7 @@ Ctrl+Shift+?, Ctrl+Shift+\*, Ctrl+Shift+comma
 
 Ctrl+Shift+/, Ctrl+?, Ctrl+Shift+8, Ctrl+\*
 
--   At first mention, use the and key with the key name if necessary for clarity—for example, the F1 key. At all subsequent references, refer to the key only by its name—for example, press F1.
+-   At first mention, use the and key with the key name if necessary for clarity for example, the F1 key. At all subsequent references, refer to the key only by its name for example, press F1.
 -   Refer specifically to access keys and shortcut keys in programming and other technical documentation. Don't use accelerator, mnemonic, or hot keys. Everywhere else use keyboard shortcut, especially in user documentation.
 
 When referring to interaction:
@@ -493,9 +498,9 @@ Examples:
 -   To save your file, press Y.
 -   To move the insertion point, use the arrow keys.
 
- 
+ 
 
- 
+ 
 
 
 

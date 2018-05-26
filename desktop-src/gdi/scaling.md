@@ -1,12 +1,17 @@
 ---
-Description: 'Most CAD and drawing applications provide features that scale output created by the user.'
-ms.assetid: '34390ff9-8d5f-497e-87aa-a1019d01bba6'
+Description: Most CAD and drawing applications provide features that scale output created by the user.
+ms.assetid: 34390ff9-8d5f-497e-87aa-a1019d01bba6
 title: Scaling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scaling
 
-Most CAD and drawing applications provide features that scale output created by the user. Applications that include scaling (or zoom) capabilities call the [**SetWorldTransform**](setworldtransform.md) function to set the appropriate world-space to page-space transformation. This function receives a pointer to an [**XFORM**](xform.md) structure containing the appropriate values. The eM11 and eM22 members of XFORM specify the horizontal and vertical scaling components, respectively.
+Most CAD and drawing applications provide features that scale output created by the user. Applications that include scaling (or zoom) capabilities call the [**SetWorldTransform**](/windows/win32/Wingdi/nf-wingdi-setworldtransform?branch=master) function to set the appropriate world-space to page-space transformation. This function receives a pointer to an [**XFORM**](/windows/win32/Wingdi/ns-wingdi-tagxform?branch=master) structure containing the appropriate values. The eM11 and eM22 members of XFORM specify the horizontal and vertical scaling components, respectively.
 
 When *scaling* occurs, the vertical and horizontal lines (or vectors), that constitute an object, are stretched or compressed with respect to the x- or y-axis. The following illustration shows a 20-by-20-unit rectangle scaled vertically to twice its original height when copied from world-coordinate space to page-coordinate space.
 

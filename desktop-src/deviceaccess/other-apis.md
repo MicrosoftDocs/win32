@@ -1,7 +1,12 @@
 ---
 title: Other APIs
 description: These interfaces are not supported and should not be used. Use the APIs in the Device Access API C++ Programming Reference instead.
-ms.assetid: '5B53EA50-FE0F-4FA2-BB9B-77D0D915B55D'
+ms.assetid: 5B53EA50-FE0F-4FA2-BB9B-77D0D915B55D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other APIs
@@ -19,11 +24,11 @@ These interfaces are not supported and should not be used. Use the APIs in the [
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

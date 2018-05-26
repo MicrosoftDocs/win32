@@ -4,10 +4,13 @@ description: Effective date and time is an avoidance strategy that prevents vers
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5e24f90a-dd53-4720-815e-9a1db51847a3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5e24f90a-dd53-4720-815e-9a1db51847a3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Effective Date and Time

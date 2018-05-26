@@ -1,7 +1,12 @@
-﻿---
-Description: 'GetIdentityFolder is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: 'cd3370a2-b393-4cb9-ad9c-a46086987aaa'
-title: 'IUserIdentity::GetIdentityFolder method'
+---
+Description: GetIdentityFolder is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: cd3370a2-b393-4cb9-ad9c-a46086987aaa
+title: IUserIdentityGetIdentityFolder method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUserIdentity::GetIdentityFolder method

@@ -1,14 +1,19 @@
 ---
 Description: Implementing IWICBitmapSourceTransform
-ms.assetid: '6a3e682c-55c6-4728-9d14-5eb0290f3dcc'
+ms.assetid: 6a3e682c-55c6-4728-9d14-5eb0290f3dcc
 title: Implementing IWICBitmapSourceTransform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapSourceTransform
 
 ## IWICBitmapSourceTransform
 
-Though optional, we highly recommend that every decoder implement this interface on your frame-level decoding class, because it can provide major performance benefits. When an application requests a specific region of interest, size, orientation, or pixel format, instead of just decoding the whole image at full resolution and then applying the requested transforms, Windows Imaging Component (WIC) calls [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx) for this interface on the [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) object. If the frame decoder supports it, WIC calls the appropriate method or methods to determine whether the frame decoder can perform the requested transform or determine the closest size or pixel format the decoder can provide to the one requested. If the decoder can perform the requested transform or transforms, WIC invokes [**CopyPixels**](-wic-codec-iwicbitmapsourcetransform-copypixels.md) with the appropriate parameters. If the decoder can perform some, but not all of the requested transforms, WIC asks the decoder to perform those that it can, and uses the WIC transform objects ([**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md), [**IWICBitmapClipper**](-wic-codec-iwicbitmapclipper.md), [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md), and [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md)) to perform the remaining transforms that could not be performed by the frame decoder on the result of the **CopyPixels** call. If the decoder doesn’t support [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md), then WIC must use the transform objects to perform all of the transforms. It’s usually much more efficient for the decoder to perform transforms during the decoding process than it is to decode the entire image and then perform the transforms. This is especially true for operations such as scaling to a much smaller size or pixel format conversions.
+Though optional, we highly recommend that every decoder implement this interface on your frame-level decoding class, because it can provide major performance benefits. When an application requests a specific region of interest, size, orientation, or pixel format, instead of just decoding the whole image at full resolution and then applying the requested transforms, Windows Imaging Component (WIC) calls [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx) for this interface on the [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) object. If the frame decoder supports it, WIC calls the appropriate method or methods to determine whether the frame decoder can perform the requested transform or determine the closest size or pixel format the decoder can provide to the one requested. If the decoder can perform the requested transform or transforms, WIC invokes [**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels?branch=master) with the appropriate parameters. If the decoder can perform some, but not all of the requested transforms, WIC asks the decoder to perform those that it can, and uses the WIC transform objects ([**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master), [**IWICBitmapClipper**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapclipper?branch=master), [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master), and [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master)) to perform the remaining transforms that could not be performed by the frame decoder on the result of the **CopyPixels** call. If the decoder doesn’t support [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master), then WIC must use the transform objects to perform all of the transforms. It’s usually much more efficient for the decoder to perform transforms during the decoding process than it is to decode the entire image and then perform the transforms. This is especially true for operations such as scaling to a much smaller size or pixel format conversions.
 
 
 ```C++
@@ -42,7 +47,7 @@ interface IWICBitmapSourceTransform : IUnknown
 
 ### DoesSupportTransform
 
-[**DoesSupportTransform**](-wic-codec-iwicbitmapsourcetransform-doessupporttransform.md) asks whether the decoder supports the requested rotation or flipping operation. The [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) that may be requested are:
+[**DoesSupportTransform**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-doessupporttransform?branch=master) asks whether the decoder supports the requested rotation or flipping operation. The [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) that may be requested are:
 
 
 ```C++
@@ -61,7 +66,7 @@ enum WICBitmapTransformOptions
 
 ### CopyPixels
 
-[**CopyPixels**](-wic-codec-iwicbitmapsourcetransform-copypixels.md) performs the actual work of decoding the image bits, such as the [**CopyPixels**](-wic-codec-iwicbitmapsource-copypixels.md) method on the [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) interface, but the [**CopyPixels**](-wic-codec-iwicbitmapsourcetransform-copypixels.md) method on [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) is much more powerful, and can improve image processing performance significantly.
+[**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels?branch=master) performs the actual work of decoding the image bits, such as the [**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-copypixels?branch=master) method on the [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) interface, but the [**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-copypixels?branch=master) method on [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) is much more powerful, and can improve image processing performance significantly.
 
 When multiple transform operations are requested, the result is dependent on the order in which the operations are performed. To ensure predictability and consistency across codecs, it’s important that all codecs perform these operations in the same order. This is the canonical order for performing these operations.
 
@@ -75,17 +80,17 @@ The first parameter, *prcSrc*, is used to specify the region of interest for cli
 
 The second and third parameters indicate the size to which to scale the image.
 
-The *pguidDstFormat* parameter indicates the requested pixel format for the decoded image. Because WIC has already called [**GetClosestPixelFormat**](-wic-codec-iwicbitmapsourcetransform-getclosestpixelformat.md), this should be a pixel format that the decoder has indicated that it supports.
+The *pguidDstFormat* parameter indicates the requested pixel format for the decoded image. Because WIC has already called [**GetClosestPixelFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat?branch=master), this should be a pixel format that the decoder has indicated that it supports.
 
-The *dstTransform* parameter indicates the requested rotation angle, and whether to flip the image vertically, horizontally, or both. Again, because WIC will have already called [**DoesSupportTransform**](-wic-codec-iwicbitmapsourcetransform-doessupporttransform.md), the requested transform should be one that the decoder has already indicated that it supports. Remember that rotation should always be performed after scaling and clipping.
+The *dstTransform* parameter indicates the requested rotation angle, and whether to flip the image vertically, horizontally, or both. Again, because WIC will have already called [**DoesSupportTransform**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-doessupporttransform?branch=master), the requested transform should be one that the decoder has already indicated that it supports. Remember that rotation should always be performed after scaling and clipping.
 
 ### GetClosestSize
 
-[**GetClosestSize**](-wic-codec-iwicbitmapsourcetransform-getclosestsize.md) takes two in/out parameters. The caller uses the *puiWidth* and *puiHeight* parameters to specify the size at which that the caller prefers the image to be decoded. However, a decoder can decode an image only to a size that’s a multiple of its DCT size, and different image formats can have different DCT sizes. The decoder should determine, based on its own DCT size, the closest it can come to the requested size, and set the *puiWidth* and *puiHeight* to those dimensions on return. If a larger size is requested, but the codec doesn’t support upscaling, the original should be returned.
+[**GetClosestSize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize?branch=master) takes two in/out parameters. The caller uses the *puiWidth* and *puiHeight* parameters to specify the size at which that the caller prefers the image to be decoded. However, a decoder can decode an image only to a size that’s a multiple of its DCT size, and different image formats can have different DCT sizes. The decoder should determine, based on its own DCT size, the closest it can come to the requested size, and set the *puiWidth* and *puiHeight* to those dimensions on return. If a larger size is requested, but the codec doesn’t support upscaling, the original should be returned.
 
 ### GetClosestPixelFormat
 
-[**GetClosestPixelFormat**](-wic-codec-iwicbitmapsourcetransform-getclosestpixelformat.md) is used to determine the closest pixel format to the requested pixel format that the decoder can provide without loss of data. It’s always preferable to convert to a wider pixel format than a narrower one, even though it will increase the size of the image, because it can always be reconverted to a more restrictive format if necessary. However, after the data is lost, it can’t be recovered.
+[**GetClosestPixelFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat?branch=master) is used to determine the closest pixel format to the requested pixel format that the decoder can provide without loss of data. It’s always preferable to convert to a wider pixel format than a narrower one, even though it will increase the size of the image, because it can always be reconverted to a more restrictive format if necessary. However, after the data is lost, it can’t be recovered.
 
 ## Continued Reading
 
@@ -98,10 +103,10 @@ To learn more about how to create a WIC-enabled codec, see [Implementing IWICDev
 **Reference**
 </dt> <dt>
 
-[**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md)
+[**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master)
 </dt> <dt>
 
-[**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md)
+[**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master)
 </dt> <dt>
 
 **Conceptual**

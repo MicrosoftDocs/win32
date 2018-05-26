@@ -1,8 +1,11 @@
 ---
 title: IDvbLogicalChannelDescriptor2 GetListRecordLogicalChannelAndVisibility method
 description: Gets the visible\_service\_flag and logical\_channel\_number fields from a Digital Video Broadcast (DVB) logical channel descriptor.
-ms.assetid: '899B82FB-5667-42F1-8E28-485ADBFBF65F'
-keywords: ["GetListRecordLogicalChannelAndVisibility method Microsoft TV Technologies", "GetListRecordLogicalChannelAndVisibility method Microsoft TV Technologies , IDvbLogicalChannelDescriptor2 interface", "IDvbLogicalChannelDescriptor2 interface Microsoft TV Technologies , GetListRecordLogicalChannelAndVisibility method"]
+ms.assetid: 899B82FB-5667-42F1-8E28-485ADBFBF65F
+keywords:
+- GetListRecordLogicalChannelAndVisibility method Microsoft TV Technologies
+- GetListRecordLogicalChannelAndVisibility method Microsoft TV Technologies , IDvbLogicalChannelDescriptor2 interface
+- IDvbLogicalChannelDescriptor2 interface Microsoft TV Technologies , GetListRecordLogicalChannelAndVisibility method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Dvbsiparser.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDvbLogicalChannelDescriptor2::GetListRecordLogicalChannelAndVisibility method
@@ -22,9 +30,9 @@ Gets the visible\_service\_flag and logical\_channel\_number fields from a Digit
 
 ```C++
 HRESULT GetListRecordLogicalChannelAndVisibility(
-  [in]  BYTE bListIndex,
-  [in]  BYTE bRecordIndex,
-  [out] WORD *pwVal
+  [in]  BYTE bListIndex,
+  [in]  BYTE bRecordIndex,
+  [out] WORD *pwVal
 );
 ```
 
@@ -37,14 +45,14 @@ HRESULT GetListRecordLogicalChannelAndVisibility(
 *bListIndex* \[in\]
 </dt> <dd>
 
-Specifies the channel list record number, indexed from zero. Call the [**GetCountOfLists**](idvblogicalchannel2descriptor-getcountoflists.md) method to get the number of channel list records in the logical channel descriptor.
+Specifies the channel list record number, indexed from zero. Call the [**GetCountOfLists**](/windows/previous-versions/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getcountoflists?branch=master) method to get the number of channel list records in the logical channel descriptor.
 
 </dd> <dt>
 
 *bRecordIndex* \[in\]
 </dt> <dd>
 
-Specifies the service record number, indexed from zero. Call the [**GetListCountOfRecords**](idvblogicalchannel2descriptor-getlistcountofrecords.md) method to get the number of service records in the logical channel descriptor.
+Specifies the service record number, indexed from zero. Call the [**GetListCountOfRecords**](/windows/previous-versions/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords?branch=master) method to get the number of service records in the logical channel descriptor.
 
 </dd> <dt>
 
@@ -75,7 +83,7 @@ The combinations of visible\_service\_flag and local\_channel\_number field valu
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,7 +91,7 @@ The combinations of visible\_service\_flag and local\_channel\_number field valu
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
 | IDL<br/>                      | <dl> <dt>Dvbsiparser.idl</dt> </dl> |
 
@@ -93,18 +101,18 @@ The combinations of visible\_service\_flag and local\_channel\_number field valu
 
 <dl> <dt>
 
-[**IDvbLogicalChannelDescriptor2**](idvblogicalchanneldescriptor2.md)
+[**IDvbLogicalChannelDescriptor2**](/windows/previous-versions/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor2?branch=master)
 </dt> <dt>
 
-[**GetCountOfLists**](idvblogicalchannel2descriptor-getcountoflists.md)
+[**GetCountOfLists**](/windows/previous-versions/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getcountoflists?branch=master)
 </dt> <dt>
 
-[**GetListCountOfRecords**](idvblogicalchannel2descriptor-getlistcountofrecords.md)
+[**GetListCountOfRecords**](/windows/previous-versions/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

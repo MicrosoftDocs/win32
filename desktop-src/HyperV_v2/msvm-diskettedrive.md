@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a floppy drive inside the virtual machine.'
-ms.assetid: '4624ABAF-3761-416F-9044-7A39EBF53D3D'
-title: 'Msvm\_DisketteDrive class'
+Description: Represents a floppy drive inside the virtual machine.
+ms.assetid: 4624ABAF-3761-416F-9044-7A39EBF53D3D
+title: Msvm\_DisketteDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DisketteDrive class
@@ -16,67 +21,67 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DisketteDrive : CIM_DisketteDrive
 {
-  string   InstanceID;
-  string   Caption = "Diskette Drive";
-  string   Description = "Microsoft Virtual Diskette Drive";
-  string   ElementName = "Diskette Drive";
+  string   InstanceID;
+  string   Caption = "Diskette Drive";
+  string   Description = "Microsoft Virtual Diskette Drive";
+  string   ElementName = "Diskette Drive";
   datetime InstallDate;
-  string   Name = "Diskette Drive";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Diskette Drive";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  uint16   CreationClassName = "Msvm_DisketteDrive";
-  string   DeviceID = "Microsoft:GUID\device-specific-data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   Capabilities[] = {3, 4, 7};
-  string   CapabilityDescriptions[] = {"Random Access", "Supports Writing", "Supports Removable Media"};
-  string   ErrorMethodology = { "None" };
-  string   CompressionMethod = "Not Compressed";
-  uint32   NumberOfMediaSupported = 1;
-  uint64   MaxMediaSize = 1440;
-  uint64   DefaultBlockSize = 512;
-  uint64   MaxBlockSize = 512;
-  uint64   MinBlockSize = 512;
-  boolean  NeedsCleaning = False;
-  boolean  MediaIsLocked = False;
-  uint16   Security = 3;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  uint16   CreationClassName = "Msvm_DisketteDrive";
+  string   DeviceID = "Microsoft:GUID\device-specific-data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   Capabilities[] = {3, 4, 7};
+  string   CapabilityDescriptions[] = {"Random Access", "Supports Writing", "Supports Removable Media"};
+  string   ErrorMethodology = { "None" };
+  string   CompressionMethod = "Not Compressed";
+  uint32   NumberOfMediaSupported = 1;
+  uint64   MaxMediaSize = 1440;
+  uint64   DefaultBlockSize = 512;
+  uint64   MaxBlockSize = 512;
+  uint64   MinBlockSize = 512;
+  boolean  NeedsCleaning = False;
+  boolean  MediaIsLocked = False;
+  uint16   Security = 3;
   datetime LastCleaned;
-  uint64   MaxAccessTime = 0;
-  uint32   UncompressedDataRate;
-  uint64   LoadTime = 0;
-  uint64   UnloadTime = 0;
-  uint64   MountCount = 0;
+  uint64   MaxAccessTime = 0;
+  uint32   UncompressedDataRate;
+  uint64   LoadTime = 0;
+  uint64   UnloadTime = 0;
+  uint64   MountCount = 0;
   datetime TimeOfLastMount;
-  uint64   TotalMountTime = 0;
-  string   UnitsDescription;
-  uint64   MaxUnitsBeforeCleaning = 18446744073709551615;
-  uint64   UnitsUsed = 0;
+  uint64   TotalMountTime = 0;
+  string   UnitsDescription;
+  uint64   MaxUnitsBeforeCleaning = 18446744073709551615;
+  uint64   UnitsUsed = 0;
 };
 ```
 
@@ -107,7 +112,7 @@ The **Msvm\_DisketteDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -134,7 +139,7 @@ Any additional availability and status of the device. This property is inherited
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -157,7 +162,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -198,7 +203,7 @@ The capabilities of the media access device. This property is inherited from [**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -778,7 +783,7 @@ The operational security defined for the device. This property is inherited from
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -974,8 +979,8 @@ Access to the **Msvm\_DisketteDrive** class might be restricted by UAC Filtering
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -995,9 +1000,9 @@ Access to the **Msvm\_DisketteDrive** class might be restricted by UAC Filtering
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

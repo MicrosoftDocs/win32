@@ -1,8 +1,14 @@
 ---
 title: Using the Image Mastering API
 description: The following examples demonstrate the use of IMAPI
-ms.assetid: '93f56e35-698e-4031-8595-9ff2ffb933ae'
-keywords: ["Image Mastering API IMAPI ,using"]
+ms.assetid: 93f56e35-698e-4031-8595-9ff2ffb933ae
+keywords:
+- Image Mastering API IMAPI ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Image Mastering API

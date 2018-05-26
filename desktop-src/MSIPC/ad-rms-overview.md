@@ -4,10 +4,13 @@ description: Rights Management Services (RMS) is an information protection techn
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'B546B6C1-ADC1-4EBD-95E2-B4A74E4E980B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: B546B6C1-ADC1-4EBD-95E2-B4A74E4E980B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Overview
@@ -22,7 +25,7 @@ The [client](ad-rms-client.md) component can be run on either a client or server
 
 For more information, see [Application types](application-types.md).
 
-The following are just a few of the scenarios to which applications built on the Rights Management Services SDK 2.1 can be applied.
+The following are just a few of the scenarios to which applications built on the Rights Management Services SDK 2.1 can be applied.
 
 -   A law firm wants to prevent sensitive email messages from being printed or forwarded.
 -   The developers of computer-aided design and manufacturing software want to limit drawing access to a small group of users within the research division without requiring the use of passwords.
@@ -40,12 +43,12 @@ The remaining topics in this section cover the RMS Architecture and its implemen
 
 | Topic                                  | Description                                                                                                |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [Client](ad-rms-client.md)<br/> | This topic describes the purpose and function of the Rights Management Service Client 2.1<br/>       |
+| [Client](ad-rms-client.md)<br/> | This topic describes the purpose and function of the Rights Management Service Client 2.1<br/>       |
 | [Server](ad-rms-server.md)<br/> | This topic describes the purpose and functions of the RMS Server; for Azure and Windows Server.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -60,9 +63,9 @@ The remaining topics in this section cover the RMS Architecture and its implemen
 [IT Pro documentation for AD RMS](https://TechNet.Microsoft.Com/library/cc771234.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

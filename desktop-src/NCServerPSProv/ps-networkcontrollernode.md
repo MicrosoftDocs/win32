@@ -4,11 +4,13 @@ description: Represents the Network Controller server provider functions for nod
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95b8fbe1-1561-4774-b36e-8537bd40c7aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 95b8fbe1-1561-4774-b36e-8537bd40c7aa
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_NetworkControllerNode class", "PS_NetworkControllerNode class, described"]
+keywords:
+- PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_NetworkControllerNode class
@@ -61,7 +66,7 @@ The **PS\_NetworkControllerNode** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,16 +75,16 @@ The **PS\_NetworkControllerNode** class has these methods.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

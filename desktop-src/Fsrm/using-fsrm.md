@@ -4,11 +4,18 @@ description: The File Server Resource Manager (FSRM) API is used to limit the si
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '89fe97bf-24fe-4ff1-9fe0-007b0e23eef3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 89fe97bf-24fe-4ff1-9fe0-007b0e23eef3
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager File Server Resource Manager , using", "File Server Resource Manager examples File Server Resource Manager", "examples File Server Resource Manager", "File Server Resource Manager File Server Resource Manager , examples See File Server Resource Manager examples"]
+keywords:
+- File Server Resource Manager File Server Resource Manager , using
+- File Server Resource Manager examples File Server Resource Manager
+- examples File Server Resource Manager
+- File Server Resource Manager File Server Resource Manager , examples See File Server Resource Manager examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using FSRM
@@ -22,7 +29,7 @@ The File Server Resource Manager (FSRM) API is used to limit the size of a given
 [Accessing Classification Properties](accessing-classification-properties.md)
 </dt> <dd>
 
-Enumerating FSRM classification properties is easily done using the [**FsrmClassificationManager**](fsrmclassificationmanager.md) object.
+Enumerating FSRM classification properties is easily done using the [**FsrmClassificationManager**](/windows/previous-versions/FsrmTlb/?branch=master) object.
 
 </dd> <dt>
 

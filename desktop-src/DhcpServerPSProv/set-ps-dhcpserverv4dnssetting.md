@@ -4,13 +4,16 @@ description: Sets how the DNS server should be updated by the DHCP server with c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2388170b-9616-458d-97f9-2a365f1db9ac'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2388170b-9616-458d-97f9-2a365f1db9ac
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv4DnsSetting class", "PS_DhcpServerv4DnsSetting class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv4DnsSetting class
+- PS_DhcpServerv4DnsSetting class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv4DnsSetting class
@@ -30,18 +36,18 @@ Sets how the DNS server should be updated by the DHCP server with client-related
 
 ```mof
 uint32 Set(
-  [in]  string                 ComputerName,
-  [in]  boolean                NameProtection,
-  [in]  boolean                UpdateDnsRRForOlderClients,
-  [in]  boolean                DeleteDnsRROnLeaseExpiry,
-  [in]  string                 DynamicUpdates,
-  [in]  string                 IPAddress,
-  [in]  string                 ScopeId,
-  [in]  boolean                PassThru,
-  [in]  string                 PolicyName,
-  [in]  boolean                DisableDnsPtrRRUpdate,
-  [in]  string                 DnsSuffix,
-  [out] DhcpServerv4DnsSetting cmdletOutput
+  [in]  string                 ComputerName,
+  [in]  boolean                NameProtection,
+  [in]  boolean                UpdateDnsRRForOlderClients,
+  [in]  boolean                DeleteDnsRROnLeaseExpiry,
+  [in]  string                 DynamicUpdates,
+  [in]  string                 IPAddress,
+  [in]  string                 ScopeId,
+  [in]  boolean                PassThru,
+  [in]  string                 PolicyName,
+  [in]  boolean                DisableDnsPtrRRUpdate,
+  [in]  string                 DnsSuffix,
+  [out] DhcpServerv4DnsSetting cmdletOutput
 );
 ```
 
@@ -133,7 +139,7 @@ Specifies whether the cmdlet returns the PowerShell object which is modified.
 
 Specifies the policy for which DNS settings are to be modified.
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -142,7 +148,7 @@ Specifies the policy for which DNS settings are to be modified.
 
 If **True**, disables DNS dynamic updates for PTR records. Allowed only when the *ScopeID* or *PolicyName* parameters are specified. Not allowed if the *IPAddress* parameter is specified.
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -151,7 +157,7 @@ If **True**, disables DNS dynamic updates for PTR records. Allowed only when the
 
 Contains guest domain for registering DHCP clients. Accepts domain names in the format as specified in RFC 1035. Allowed only when the *PolicyName* parameter is specified.
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -169,7 +175,7 @@ An embedded instance of a [**DhcpServerv4DnsSetting**](dhcpserverv4dnssetting.md
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -183,9 +189,9 @@ An embedded instance of a [**DhcpServerv4DnsSetting**](dhcpserverv4dnssetting.md
 [**PS\_DhcpServerv4DnsSetting**](ps-dhcpserverv4dnssetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

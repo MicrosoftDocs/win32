@@ -1,7 +1,12 @@
 ---
 title: The WinSNMP Database
 description: The Microsoft WinSNMP implementation maintains a store of administrative information in a database.
-ms.assetid: '0a0d9731-d800-4eaa-8230-25469a0b0285'
+ms.assetid: 0a0d9731-d800-4eaa-8230-25469a0b0285
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The WinSNMP Database

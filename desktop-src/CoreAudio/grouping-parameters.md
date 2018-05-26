@@ -1,7 +1,12 @@
 ---
 Description: Grouping Parameters
-ms.assetid: '088156f7-fb75-4fcf-b928-87e97b13bdab'
+ms.assetid: 088156f7-fb75-4fcf-b928-87e97b13bdab
 title: Grouping Parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Grouping Parameters
@@ -35,7 +40,7 @@ As described previously, Sndvol labels each volume control that it displays with
 
 An application such as Sndvol can register itself to receive notifications when the grouping parameter for a session changes. Such notifications might be useful if the application caches information about the assignment of sessions to grouping parameters. A notification informs the application that the cached information might no longer be valid.
 
-To assign a grouping parameter to a session, call the [**IAudioSessionControl::SetGroupingParam**](iaudiosessioncontrol-setgroupingparam.md) method. To obtain the grouping parameter that is assigned to a session, call the [**IAudioSessionControl::GetGroupingParam**](iaudiosessioncontrol-getgroupingparam.md) method.
+To assign a grouping parameter to a session, call the [**IAudioSessionControl::SetGroupingParam**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setgroupingparam?branch=master) method. To obtain the grouping parameter that is assigned to a session, call the [**IAudioSessionControl::GetGroupingParam**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessioncontrol-getgroupingparam?branch=master) method.
 
 ## Related topics
 

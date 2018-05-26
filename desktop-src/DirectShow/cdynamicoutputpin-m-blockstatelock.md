@@ -1,7 +1,12 @@
 ---
-Description: 'Critical section that protects the blocking state.'
-ms.assetid: '6d20cf4c-2c27-41e6-8d01-6cb5e3876a38'
-title: 'CDynamicOutputPin::m\_BlockStateLock member'
+Description: Critical section that protects the blocking state.
+ms.assetid: 6d20cf4c-2c27-41e6-8d01-6cb5e3876a38
+title: CDynamicOutputPinm\_BlockStateLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin::m\_BlockStateLock member
@@ -44,9 +49,9 @@ Hold this critical section before using any of the following member variables:
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

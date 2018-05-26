@@ -1,8 +1,9 @@
 ---
 title: External.task
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The task property retrieves the name of the current task pane.
-ms.assetid: '8f3269bd-41aa-43b9-b8b9-f6c35c0ca2b2'
-keywords: ["External.task Windows Media Player"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The task property retrieves the name of the current task pane.
+ms.assetid: 8f3269bd-41aa-43b9-b8b9-f6c35c0ca2b2
+keywords:
+- External.task Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.task
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **task** property retrieves the name of the current task pane.
 
@@ -53,9 +59,9 @@ This property is a read-only **String**. Possible values are Browse, Burn, and S
 [**Location and Selected Item**](location-and-selected-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

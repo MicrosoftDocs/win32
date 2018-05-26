@@ -1,7 +1,12 @@
 ---
-Description: 'Use Merge Module Registry tables according to the type of registry information.'
-ms.assetid: '091429ff-a8f4-4e1b-929f-1559cd173c3d'
+Description: Use Merge Module Registry tables according to the type of registry information.
+ms.assetid: 091429ff-a8f4-4e1b-929f-1559cd173c3d
 title: Authoring Merge Module Registry Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Merge Module Registry Tables

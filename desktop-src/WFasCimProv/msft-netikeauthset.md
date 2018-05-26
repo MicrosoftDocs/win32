@@ -1,7 +1,12 @@
 ---
-Description: 'A list of auth suites, in preferential order, to use when negotiating an SA.'
-ms.assetid: 'f2712e04-c1c6-4445-8a47-3f8461eeae97'
-title: 'MSFT\_NetIKEAuthSet class'
+Description: A list of auth suites, in preferential order, to use when negotiating an SA.
+ms.assetid: f2712e04-c1c6-4445-8a47-3f8461eeae97
+title: MSFT\_NetIKEAuthSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKEAuthSet class
@@ -270,17 +275,17 @@ The detailed status of the rule, as a numeric error code.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

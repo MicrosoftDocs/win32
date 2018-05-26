@@ -1,8 +1,11 @@
 ---
 title: DownloadItem.getItemInfo method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The getItemInfo method retrieves the value of an attribute for the download item.
-ms.assetid: 'da885611-b4a0-4264-8b32-13cc6f87d6e9'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , DownloadItem class", "DownloadItem class Windows Media Player , getItemInfo method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The getItemInfo method retrieves the value of an attribute for the download item.
+ms.assetid: da885611-b4a0-4264-8b32-13cc6f87d6e9
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , DownloadItem class
+- DownloadItem class Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem.getItemInfo method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **getItemInfo** method retrieves the value of an attribute for the download item.
 
@@ -77,9 +85,9 @@ This method can retrieve information for BITS jobs added during the current Wind
 [**DownloadItem Object**](downloaditem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

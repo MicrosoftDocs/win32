@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder GetFirstMessage method
 description: Begins enumeration of messages in the folder represented by this interface and retrieves properties about the first result.
-ms.assetid: 'ae8048a5-2058-483a-b426-033e515ba493'
-keywords: ["GetFirstMessage method Windows Mail (formerly Outlook Express)", "GetFirstMessage method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , GetFirstMessage method"]
+ms.assetid: ae8048a5-2058-483a-b426-033e515ba493
+keywords:
+- GetFirstMessage method Windows Mail (formerly Outlook Express)
+- GetFirstMessage method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , GetFirstMessage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::GetFirstMessage method
@@ -22,11 +30,11 @@ Begins enumeration of messages in the folder represented by this interface and r
 
 ```C++
 HRESULT GetFirstMessage(
-  [in]      DWORD          dwFlags,
-  [in]      DWORD          dwMsgFlags,
-  [in]      MESSAGEID      dwMsgIdFirst,
-  [in, out] LPMESSAGEPROPS pProps,
-  [out]     LPHENUMSTORE   phEnum
+  [in]      DWORD          dwFlags,
+  [in]      DWORD          dwMsgFlags,
+  [in]      MESSAGEID      dwMsgIdFirst,
+  [in, out] LPMESSAGEPROPS pProps,
+  [out]     LPHENUMSTORE   phEnum
 );
 ```
 
@@ -95,7 +103,7 @@ The function will return S\_OK if there are more messages to enumerate. If there
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -118,7 +126,7 @@ The enumeration is not recursive.
 > [!Note]  
 > A call to **IStoreFolder::GetFirstMessage** can be invoked a second time in a process only after invoking [**IStoreFolder::GetMessageClose**](oe-istorefolder-getmessageclose.md).
 
- 
+ 
 
 ## Requirements
 
@@ -126,8 +134,8 @@ The enumeration is not recursive.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -151,9 +159,9 @@ The enumeration is not recursive.
 [**GetMessageClose**](oe-istorefolder-getmessageclose.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

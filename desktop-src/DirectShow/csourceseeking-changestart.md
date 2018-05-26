@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeStart method is called when the start position changes.'
-ms.assetid: 'd0a5497e-43e9-4d1f-9106-1f4cd8fcb372'
-title: 'CSourceSeeking.ChangeStart method'
+Description: The ChangeStart method is called when the start position changes.
+ms.assetid: d0a5497e-43e9-4d1f-9106-1f4cd8fcb372
+title: CSourceSeeking.ChangeStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.ChangeStart method
@@ -60,9 +65,9 @@ HRESULT CMyStream::ChangeStart( )
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

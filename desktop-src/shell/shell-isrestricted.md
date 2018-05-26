@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a group''s restriction setting from the registry.'
-ms.assetid: 'C4B3B5C0-7445-483a-885F-5283BD4D4B39'
-title: 'Shell.IsRestricted method'
+---
+Description: Retrieves a groups restriction setting from the registry.
+ms.assetid: C4B3B5C0-7445-483a-885F-5283BD4D4B39
+title: Shell.IsRestricted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.IsRestricted method

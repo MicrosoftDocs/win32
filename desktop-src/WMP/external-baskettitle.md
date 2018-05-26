@@ -1,8 +1,9 @@
 ---
 title: External.basketTitle
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '528b7d8e-7702-4139-b2bd-a06c7f15cb87'
-keywords: ["External.basketTitle Windows Media Player"]
+ms.assetid: 528b7d8e-7702-4139-b2bd-a06c7f15cb87
+keywords:
+- External.basketTitle Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.basketTitle
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **basketTitle** property retrieves the title of the button in the list pane (also called the basket) in Windows Media Player.
 
@@ -55,9 +61,9 @@ This property is a read-only **String**.
 [**External.task**](external-task.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

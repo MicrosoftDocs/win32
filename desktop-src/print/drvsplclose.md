@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd'
+---
+Description: .
+ms.assetid: bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd
 title: DrvSplClose function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplClose function

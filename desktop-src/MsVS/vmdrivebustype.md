@@ -1,8 +1,9 @@
 ---
 title: VMDriveBusType enumeration
 description: The VMDriveBusType enumeration specifies the type of bus.
-ms.assetid: '5c2a07f3-a9f4-43d1-8c1d-e0a3bc1d8259'
-keywords: ["VMDriveBusType enumeration Virtual Server"]
+ms.assetid: 5c2a07f3-a9f4-43d1-8c1d-e0a3bc1d8259
+keywords:
+- VMDriveBusType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMDriveBusType enumeration
@@ -22,9 +28,9 @@ The **VMDriveBusType** enumeration specifies the type of bus.
 
 ```C++
 typedef enum  { 
-  vmDriveBusType_Invalid  = -1,
-  vmDriveBusType_IDE      = 0,
-  vmDriveBusType_SCSI     = 1
+  vmDriveBusType_Invalid  = -1,
+  vmDriveBusType_IDE      = 0,
+  vmDriveBusType_SCSI     = 1
 } VMDriveBusType;
 ```
 
@@ -61,15 +67,15 @@ SCSI bus type.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

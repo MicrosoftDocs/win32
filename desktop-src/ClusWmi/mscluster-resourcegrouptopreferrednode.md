@@ -4,13 +4,15 @@ description: A dynamic association WMI class that represents a list of the resou
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2b811476-bb93-43ff-a587-ed151f9e5a65'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2b811476-bb93-43ff-a587-ed151f9e5a65
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ResourceGroupToPreferredNode class", "MSCluster_ResourceGroupToPreferredNode class, described"]
+keywords:
+- MSCluster_ResourceGroupToPreferredNode class
+- MSCluster_ResourceGroupToPreferredNode class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ResourceGroupToPreferredNode class
@@ -33,7 +38,7 @@ A dynamic association [*WMI class*](https://msdn.microsoft.com/library/aa373136#
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{3e1e37d2-ad0d-47b8-a802-b94b7e25aa21}"), AMENDMENT]
 class MSCluster_ResourceGroupToPreferredNode : CIM_Component
 {
-  MSCluster_Node          REF PartComponent;
+  MSCluster_Node          REF PartComponent;
   MSCluster_ResourceGroup REF GroupComponent;
 };
 ```
@@ -93,7 +98,7 @@ The **MSCluster\_ResourceGroupToPreferredNode** class is derived from the [**CIM
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -116,9 +121,9 @@ The **MSCluster\_ResourceGroupToPreferredNode** class is derived from the [**CIM
 [**MSCluster\_ResourceGroup**](mscluster-resourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

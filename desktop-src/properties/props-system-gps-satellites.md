@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the GPS satellites used for measurements.'
-ms.assetid: '1772cb6a-3650-4b12-ac80-c8f8d941d206'
-title: 'System.GPS.Satellites'
+Description: Indicates the GPS satellites used for measurements.
+ms.assetid: 1772cb6a-3650-4b12-ac80-c8f8d941d206
+title: System.GPS.Satellites
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.Satellites

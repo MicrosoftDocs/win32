@@ -1,7 +1,12 @@
 ---
-Description: 'The SET structure defines a set of values.'
-ms.assetid: '8922d7d0-1a23-47ac-886b-fcc0bcaa6ba7'
+Description: The SET structure defines a set of values.
+ms.assetid: 8922d7d0-1a23-47ac-886b-fcc0bcaa6ba7
 title: SET structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SET structure
@@ -15,18 +20,18 @@ The **SET** structure defines a set of values.
 typedef struct _SET {
   DWORD nEntries;
   union {
-    LPBYTE               lpByteTable;
-    LPWORD               lpWordTable;
-    LPDWORD              lpDwordTable;
-    LPLARGEINT           lpLargeIntTable;
-    LPSYSTEMTIME         lpSystemTimeTable;
-    LPLABELED_BYTE       lpLabeledByteTable;
-    LPLABELED_WORD       lpLabeledWordTable;
-    LPLABELED_DWORD      lpLabeledDwordTable;
-    LPLABELED_LARGEINT   lpLabeledLargeIntTable;
+    LPBYTE               lpByteTable;
+    LPWORD               lpWordTable;
+    LPDWORD              lpDwordTable;
+    LPLARGEINT           lpLargeIntTable;
+    LPSYSTEMTIME         lpSystemTimeTable;
+    LPLABELED_BYTE       lpLabeledByteTable;
+    LPLABELED_WORD       lpLabeledWordTable;
+    LPLABELED_DWORD      lpLabeledDwordTable;
+    LPLABELED_LARGEINT   lpLabeledLargeIntTable;
     LPLABELED_SYSTEMTIME lpLabeledSystemTimeTable;
-    LPLABELED_BIT        lpLabeledBit;
-    LPVOID               lpVoidTable;
+    LPLABELED_BIT        lpLabeledBit;
+    LPVOID               lpVoidTable;
   };
 } SET, *LPSET;
 ```
@@ -117,7 +122,7 @@ Pointer to an array of [LABELED\_SYSTEMTIME](labeled-systemtime.md) structures t
 **lpLabeledBit**
 </dt> <dd>
 
-Pointer to an array of [LABELED\_BIT](labeled-bit.md) structures that define a set of labeled BIT pairs. Each BIT can specify two labels — one label for each state (0 or 1) of the BIT.
+Pointer to an array of [LABELED\_BIT](labeled-bit.md) structures that define a set of labeled BIT pairs. Each BIT can specify two labels   one label for each state (0 or 1) of the BIT.
 
 </dd> <dt>
 
@@ -152,8 +157,8 @@ The parser DLL can provide a value set and a label set. The member of the **UNIO
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -168,9 +173,9 @@ The parser DLL can provide a value set and a label set. The member of the **UNIO
 [PROPERTYINFO](propertyinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

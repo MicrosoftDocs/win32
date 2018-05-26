@@ -1,14 +1,20 @@
 ---
 title: EntranceDuration element
 description: Defines the duration of the entrance effect for the specified text media node.
-ms.assetid: 'bbbb2ad7-96e6-4c6c-b61a-9f41f2409a28'
-keywords: ["EntranceDuration element Windows Movie Maker and DVD Maker"]
+ms.assetid: bbbb2ad7-96e6-4c6c-b61a-9f41f2409a28
+keywords:
+- EntranceDuration element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - EntranceDuration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EntranceDuration element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ There are no child elements.
 [**EntrancePosition Element**](entranceposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

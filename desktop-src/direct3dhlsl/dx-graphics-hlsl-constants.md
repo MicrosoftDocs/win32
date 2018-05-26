@@ -1,8 +1,17 @@
 ---
 title: Shader Constants
 description: In Shader Model 4, shader constants are stored in one or more buffer resources in memory.
-ms.assetid: '89fe874a-8009-4901-bebe-2d9e45f894bb'
-keywords: ["cbuffer", "tbuffer", "constant buffer", "texture buffer"]
+ms.assetid: 89fe874a-8009-4901-bebe-2d9e45f894bb
+keywords:
+- cbuffer
+- tbuffer
+- constant buffer
+- texture buffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Constants
@@ -15,11 +24,11 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 
 |                                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------|
-| *BufferType* \[*Name*\] \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
+| *BufferType* \[*Name*\] \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -39,7 +48,7 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +106,7 @@ There are two ways to pack constants data: using the [register (DirectX HLSL)](d
 
 
 
- 
+ 
 
 ### Organizing constant buffers
 
@@ -165,9 +174,9 @@ cbuffer MyBuffer : register(b3)
 [Shader Model 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

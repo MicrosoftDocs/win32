@@ -1,13 +1,16 @@
 ---
-Description: 'The Key qualifier indicates whether the property is part of the namespace handle.'
+Description: The Key qualifier indicates whether the property is part of the namespace handle.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '838d295f-e812-4e46-99a4-d2714a0ae8dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 838d295f-e812-4e46-99a4-d2714a0ae8dc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Key Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Key Qualifier
@@ -34,14 +37,14 @@ Keys are written one time at object instantiation and must not be modified later
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

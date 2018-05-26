@@ -1,14 +1,19 @@
 ---
 title: Managing Cookies
 description: Under the http protocol, a server or a script uses cookies to maintain state information on the client workstation.
-ms.assetid: 'c00279cf-9cdc-4caf-8549-af1851edfa25'
+ms.assetid: c00279cf-9cdc-4caf-8549-af1851edfa25
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Cookies
 
 Under the http protocol, a server or a script uses cookies to maintain state information on the client workstation. The WinINet functions have implemented a persistent cookie database for this purpose. They can be used to set cookies in and access cookies from the cookie database. For more information, see [HTTP Cookies](http-cookies.md).
 
-The [**InternetSetCookie**](internetsetcookie.md) and [**InternetGetCookie**](internetgetcookie.md) functions can be used to manage cookies.
+The [**InternetSetCookie**](/windows/win32/Wininet/nf-wininet-internetsetcookiea?branch=master) and [**InternetGetCookie**](/windows/win32/Wininet/nf-wininet-internetgetcookiea?branch=master) functions can be used to manage cookies.
 
 ## Using Cookie Functions
 
@@ -18,22 +23,22 @@ The following functions allow an application to create or retrieve cookies in th
 
 | Function                                       | Description                                                      |
 |------------------------------------------------|------------------------------------------------------------------|
-| [**InternetGetCookie**](internetgetcookie.md) | Retrieves cookies for the specified URL and all its parent URLs. |
-| [**InternetSetCookie**](internetsetcookie.md) | Sets a cookie on the specified URL.                              |
+| [**InternetGetCookie**](/windows/win32/Wininet/nf-wininet-internetgetcookiea?branch=master) | Retrieves cookies for the specified URL and all its parent URLs. |
+| [**InternetSetCookie**](/windows/win32/Wininet/nf-wininet-internetsetcookiea?branch=master) | Sets a cookie on the specified URL.                              |
 
 
 
  
 
-Note that these functions do not require a call to [**InternetOpen**](internetopen.md). Cookies that have an expiration date are stored in the local users account under Users\\"username"\\AppData\\Roaming\\Microsoft\\Windows\\Cookies directory, and the Users\\"username"\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\Low directory for applications running under low privileges. Cookies that do not have an expiration date are stored in memory and are available only to the process in which they were created.
+Note that these functions do not require a call to [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master). Cookies that have an expiration date are stored in the local users account under Users\\"username"\\AppData\\Roaming\\Microsoft\\Windows\\Cookies directory, and the Users\\"username"\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\Low directory for applications running under low privileges. Cookies that do not have an expiration date are stored in memory and are available only to the process in which they were created.
 
-As noted in the [HTTP Cookies](http-cookies.md) topic, the [**InternetGetCookie**](internetgetcookie.md) function does not return cookies that have been marked by the server as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
+As noted in the [HTTP Cookies](http-cookies.md) topic, the [**InternetGetCookie**](/windows/win32/Wininet/nf-wininet-internetgetcookiea?branch=master) function does not return cookies that have been marked by the server as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
 
 ### Getting a Cookie
 
-[**InternetGetCookie**](internetgetcookie.md) returns the cookies for the specified URL and all its parent URLs.
+[**InternetGetCookie**](/windows/win32/Wininet/nf-wininet-internetgetcookiea?branch=master) returns the cookies for the specified URL and all its parent URLs.
 
-The following example demonstrates a call to [**InternetGetCookie**](internetgetcookie.md).
+The following example demonstrates a call to [**InternetGetCookie**](/windows/win32/Wininet/nf-wininet-internetgetcookiea?branch=master).
 
 
 ```C++
@@ -76,7 +81,7 @@ else
 
 ### Setting a Cookie
 
-[**InternetSetCookie**](internetsetcookie.md) is used to set a cookie on the specified URL. [**InternetSetCookie**](internetsetcookie.md) can create both persistent and session cookies.
+[**InternetSetCookie**](/windows/win32/Wininet/nf-wininet-internetsetcookiea?branch=master) is used to set a cookie on the specified URL. [**InternetSetCookie**](/windows/win32/Wininet/nf-wininet-internetsetcookiea?branch=master) can create both persistent and session cookies.
 
 Persistent cookies have an expiration date. These cookies are stored in the local users account under Users\\"username"\\AppData\\Roaming\\Microsoft\\Windows\\Cookies directory, and the Users\\"username"\\AppData\\Roaming\\Microsoft\\Windows\\Cookies\\Low directory for applications running under low privileges.
 
@@ -96,7 +101,7 @@ DAY, DD-MMM-YYYY HH:MM:SS GMT
 
 DAY is the three-letter abbreviation for the day of the week, DD is the day of the month, MMM is the three-letter abbreviation for the month, YYYY is the year, and HH:MM:SS is the time of the day in military time.
 
-The following example demonstrates two calls to [**InternetSetCookie**](internetsetcookie.md). The first call creates a session cookie and the second creates a persistent cookie.
+The following example demonstrates two calls to [**InternetSetCookie**](/windows/win32/Wininet/nf-wininet-internetsetcookiea?branch=master). The first call creates a session cookie and the second creates a persistent cookie.
 
 
 ```C++

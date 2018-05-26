@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ImplementedCategory association WMI class relates a component category and the Component Object Model (COM) class using its interfaces.'
+Description: The Win32\_ImplementedCategory association WMI class relates a component category and the Component Object Model (COM) class using its interfaces.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7cf32b50-9ae6-44e5-b364-bc74dea3dc17'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7cf32b50-9ae6-44e5-b364-bc74dea3dc17
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ImplementedCategory class'
+title: Win32\_ImplementedCategory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ImplementedCategory class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ImplementedCategory
 {
   Win32_ComponentCategory REF Category;
-  Win32_ClassicCOMClass   REF Component;
+  Win32_ClassicCOMClass   REF Component;
 };
 ```
 
@@ -79,8 +82,8 @@ Reference to the instance representing the COM class using the associated catego
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -94,9 +97,9 @@ Reference to the instance representing the COM class using the associated catego
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

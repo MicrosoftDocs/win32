@@ -1,7 +1,12 @@
 ---
 title: Windows Firewall Technologies
 description: .
-ms.assetid: '17097659-f6e7-418d-8b26-d336b96cb184'
+ms.assetid: 17097659-f6e7-418d-8b26-d336b96cb184
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Firewall Technologies

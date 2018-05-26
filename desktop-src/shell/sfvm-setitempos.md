@@ -1,11 +1,16 @@
-﻿---
-Description: 'Sets the position of an item in the Shell view. Used by SHShellFolderView\_Message.'
-title: 'SFVM\_SETITEMPOS message'
+---
+Description: Sets the position of an item in the Shell view. Used by SHShellFolderView\_Message.
+title: SFVM\_SETITEMPOS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_SETITEMPOS message
 
-Sets the position of an item in the Shell view. Used by [**SHShellFolderView\_Message**](shshellfolderview-message.md).
+Sets the position of an item in the Shell view. Used by [**SHShellFolderView\_Message**](/windows/win32/shlobj_core/nf-shlobj_core-shshellfolderview_message?branch=master).
 
 
 ```C++
@@ -26,7 +31,7 @@ Sets the position of an item in the Shell view. Used by [**SHShellFolderView\_Me
 *sip* \[in\]
 </dt> <dd>
 
-A pointer to an [**SFV\_SETITEMPOS**](sfv-setitempos.md) structure.
+A pointer to an [**SFV\_SETITEMPOS**](/windows/win32/Shlobj/ns-shlobj-_sfv_setitempos?branch=master) structure.
 
 </dd> </dl>
 

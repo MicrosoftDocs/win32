@@ -1,7 +1,12 @@
 ---
 Description: Topology Node Attributes
-ms.assetid: '584c0670-9051-4d03-9635-c8fadc8798c3'
+ms.assetid: 584c0670-9051-4d03-9635-c8fadc8798c3
 title: Topology Node Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Topology Node Attributes
@@ -95,7 +100,7 @@ The following attributes apply to topology nodes.
 
 <dl> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

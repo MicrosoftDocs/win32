@@ -1,7 +1,12 @@
 ---
-Description: 'The Tag field in a TLV triplet identifies the type of the data structure being sent between computers.'
-ms.assetid: '4723cc02-8c48-488e-95b8-c646a99b6aab'
+Description: The Tag field in a TLV triplet identifies the type of the data structure being sent between computers.
+ms.assetid: 4723cc02-8c48-488e-95b8-c646a99b6aab
 title: Encoded Tag Bytes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoded Tag Bytes
@@ -32,7 +37,7 @@ The following table lists the data types supported by the Certificate Enrollment
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -44,9 +49,9 @@ The following table lists the data types supported by the Certificate Enrollment
 [Encoded Length and Value Bytes](about-encoded-length-and-value-bytes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

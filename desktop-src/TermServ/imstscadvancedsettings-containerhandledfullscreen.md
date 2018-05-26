@@ -4,11 +4,30 @@ description: Specifies whether the container-handled full-screen mode is enabled
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '67679323-4a74-4d91-abd0-607415295f3d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 67679323-4a74-4d91-abd0-607415295f3d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ContainerHandledFullScreen property Remote Desktop Services", "ContainerHandledFullScreen property Remote Desktop Services , IMsTscAdvancedSettings interface", "IMsTscAdvancedSettings interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , ContainerHandledFullScreen property", "ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ContainerHandledFullScreen property"]
+keywords:
+- ContainerHandledFullScreen property Remote Desktop Services
+- ContainerHandledFullScreen property Remote Desktop Services , IMsTscAdvancedSettings interface
+- IMsTscAdvancedSettings interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , ContainerHandledFullScreen property
+- ContainerHandledFullScreen property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ContainerHandledFullScreen property
 topic_type:
 - apiref
 api_name:
@@ -43,6 +62,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAdvancedSettings::ContainerHandledFullScreen property
@@ -52,7 +74,7 @@ Specifies whether the container-handled full-screen mode is enabled.
 > [!Note]  
 > The value of the **ContainerHandledFullScreen** property has no effect when the Remote Desktop ActiveX control is safe for scripting, and returns **S\_FALSE** when an attempt is made to change the value.
 
- 
+ 
 
 This property is read/write.
 
@@ -61,11 +83,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ContainerHandledFullScreen(
-  [in]  BOOL ContainerHandledFullScreen
+  [in]  BOOL ContainerHandledFullScreen
 );
 
 HRESULT get_ContainerHandledFullScreen(
-  [out] BOOL *pContainerHandledFullScreen
+  [out] BOOL *pContainerHandledFullScreen
 );
 ```
 
@@ -93,8 +115,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsTscAdvancedSettings is defined as 809945cc-4b3b-4a92-a6b0-dbf9b5f2ef2d<br/> |
@@ -132,9 +154,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

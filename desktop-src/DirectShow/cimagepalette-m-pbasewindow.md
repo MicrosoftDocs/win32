@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pBaseWindow member variable is a pointer to the CBaseWindow object that manages the window.'
-ms.assetid: '972cc986-a01b-4f7f-801e-829a1653fed7'
-title: 'CImagePalette::m\_pBaseWindow member'
+Description: The m\_pBaseWindow member variable is a pointer to the CBaseWindow object that manages the window.
+ms.assetid: 972cc986-a01b-4f7f-801e-829a1653fed7
+title: CImagePalettem\_pBaseWindow member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette::m\_pBaseWindow member
@@ -35,9 +40,9 @@ CBaseWindow *m_pBaseWindow;
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

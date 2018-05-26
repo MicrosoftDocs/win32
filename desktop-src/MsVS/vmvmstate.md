@@ -1,8 +1,9 @@
 ---
 title: VMVMState enumeration
 description: Specifies the state of a virtual machine.
-ms.assetid: '65d293f6-c59b-44c8-adb1-84e95e365184'
-keywords: ["VMVMState enumeration Virtual Server"]
+ms.assetid: 65d293f6-c59b-44c8-adb1-84e95e365184
+keywords:
+- VMVMState enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMVMState enumeration
@@ -22,17 +28,17 @@ The **VMVMState** enumeration specifies the state of a virtual machine.
 
 ```C++
 typedef enum  { 
-  vmVMState_Invalid        = 0,
-  vmVMState_TurnedOff      = 1,
-  vmVMState_Saved          = 2,
-  vmVMState_TurningOn      = 3,
-  vmVMState_Restoring      = 4,
-  vmVMState_Running        = 5,
-  vmVMState_Paused         = 6,
-  vmVMState_Saving         = 7,
-  vmVMState_TurningOff     = 8,
-  vmVMState_MergingDrives  = 9,
-  vmVMState_DeleteMachine  = 10
+  vmVMState_Invalid        = 0,
+  vmVMState_TurnedOff      = 1,
+  vmVMState_Saved          = 2,
+  vmVMState_TurningOn      = 3,
+  vmVMState_Restoring      = 4,
+  vmVMState_Running        = 5,
+  vmVMState_Paused         = 6,
+  vmVMState_Saving         = 7,
+  vmVMState_TurningOff     = 8,
+  vmVMState_MergingDrives  = 9,
+  vmVMState_DeleteMachine  = 10
 } VMVMState;
 ```
 
@@ -125,8 +131,8 @@ The virtual machine is being deleted.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -147,9 +153,9 @@ The virtual machine is being deleted.
 [**IVMVirtualServerEvents::OnVMStateChange**](ivmvirtualserverevents-onvmstatechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

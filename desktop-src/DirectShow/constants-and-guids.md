@@ -1,7 +1,12 @@
 ---
 Description: Constants and GUIDs
-ms.assetid: '2468107e-826c-4185-8562-c1001413b08e'
+ms.assetid: 2468107e-826c-4185-8562-c1001413b08e
 title: Constants and GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants and GUIDs
@@ -22,7 +27,7 @@ This section describes constants and globally unique identifiers (GUIDs) that ar
 
 -   Filter class identifiers (CLSIDs): See [DirectShow Filters](directshow-filters.md).
 -   Other component CLSIDs: See [DirectShow Objects](directshow-objects.md).
--   Interface identifiers (IIDs): Except where noted, all DirectShow IIDs have the form IID\_InterfaceName. For example, the IID for the [**IGraphBuilder**](igraphbuilder.md) interface is IID\_IGraphBuilder.
+-   Interface identifiers (IIDs): Except where noted, all DirectShow IIDs have the form IID\_InterfaceName. For example, the IID for the [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) interface is IID\_IGraphBuilder.
 
  
 

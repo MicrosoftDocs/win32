@@ -1,7 +1,12 @@
 ---
-Description: 'The Exchangeable Image File (EXIF) version.'
-ms.assetid: '5a45acfa-fceb-4fc9-b758-f9a14965ef80'
-title: 'System.Photo.EXIFVersion'
+Description: The Exchangeable Image File (EXIF) version.
+ms.assetid: 5a45acfa-fceb-4fc9-b758-f9a14965ef80
+title: System.Photo.EXIFVersion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.EXIFVersion

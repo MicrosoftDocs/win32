@@ -1,7 +1,12 @@
 ---
-Description: 'The ConfigureModule object is an interface implemented by the client.'
-ms.assetid: 'f6240837-7685-4bfe-8a2f-b4428014702a'
+Description: The ConfigureModule object is an interface implemented by the client.
+ms.assetid: f6240837-7685-4bfe-8a2f-b4428014702a
 title: ConfigureModule object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigureModule object
@@ -27,7 +32,7 @@ The **ConfigureModule** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ interface **IMsmConfigureModule : IDispatch**
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +64,9 @@ interface **IMsmConfigureModule : IDispatch**
 
 
 
- 
+ 
 
- 
+ 
 
 
 

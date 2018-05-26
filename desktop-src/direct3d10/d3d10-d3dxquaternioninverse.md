@@ -1,7 +1,12 @@
-﻿---
-Description: 'Conjugates and renormalizes a quaternion.'
-ms.assetid: '8e1bba91-8895-43a2-805b-1368050f8e82'
+---
+Description: Conjugates and renormalizes a quaternion.
+ms.assetid: 8e1bba91-8895-43a2-805b-1368050f8e82
 title: D3DXQuaternionInverse function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionInverse function

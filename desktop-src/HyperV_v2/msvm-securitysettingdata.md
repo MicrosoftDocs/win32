@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of the security settings for.'
-ms.assetid: 'c57ab966-591e-4dd9-87be-0d2b81611d5d'
-title: 'Msvm\_SecuritySettingData class'
+Description: Represents the configured state of the security settings for.
+ms.assetid: c57ab966-591e-4dd9-87be-0d2b81611d5d
+title: Msvm\_SecuritySettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SecuritySettingData class
@@ -139,8 +144,8 @@ Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -154,9 +159,9 @@ Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

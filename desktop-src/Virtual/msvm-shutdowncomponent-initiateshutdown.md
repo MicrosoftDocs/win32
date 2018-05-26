@@ -1,8 +1,11 @@
 ---
 title: InitiateShutdown method of the Msvm\_ShutdownComponent class
 description: Initiates an operating system shutdown operation on the associated child virtual machine. If zero (0) is returned, then the shutdown was initiated successfully. Any other return code indicates an error condition.
-ms.assetid: '96b08031-19e5-42ae-b3cb-5fe87ff45bb0'
-keywords: ["InitiateShutdown method Hyper-V", "InitiateShutdown method Hyper-V , Msvm_ShutdownComponent class", "Msvm_ShutdownComponent class Hyper-V , InitiateShutdown method"]
+ms.assetid: 96b08031-19e5-42ae-b3cb-5fe87ff45bb0
+keywords:
+- InitiateShutdown method Hyper-V
+- InitiateShutdown method Hyper-V , Msvm_ShutdownComponent class
+- Msvm_ShutdownComponent class Hyper-V , InitiateShutdown method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - winreg.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitiateShutdown method of the Msvm\_ShutdownComponent class
@@ -22,8 +30,8 @@ Initiates an operating system shutdown operation on the associated child virtual
 
 ```mof
 uint32 InitiateShutdown(
-  [in] boolean Force,
-  [in] string  Reason
+  [in] boolean Force,
+  [in] string  Reason
 );
 ```
 
@@ -119,9 +127,9 @@ Access to the [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md) class mig
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Winreg.h</dt> </dl>                  |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
@@ -135,9 +143,9 @@ Access to the [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md) class mig
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

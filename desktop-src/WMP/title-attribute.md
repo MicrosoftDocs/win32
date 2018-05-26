@@ -1,14 +1,20 @@
 ---
 title: Title Attribute
 description: The Title attribute is the title of the content.
-ms.assetid: '1f669940-fb80-4352-a764-553427c85a13'
-keywords: ["Title Attribute Windows Media Player"]
+ms.assetid: 1f669940-fb80-4352-a764-553427c85a13
+keywords:
+- Title Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Title
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Title Attribute
@@ -55,9 +61,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

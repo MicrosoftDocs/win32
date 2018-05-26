@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Printer class exposes the following methods.'
+Description: The CIM\_Printer class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'F8DB0681-9A3D-4007-8FFF-4B77FEC6AEFF'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: F8DB0681-9A3D-4007-8FFF-4B77FEC6AEFF
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Printer Methods'
+title: CIM\_Printer Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Printer Methods

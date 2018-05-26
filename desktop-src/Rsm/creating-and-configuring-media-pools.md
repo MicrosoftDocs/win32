@@ -1,7 +1,12 @@
 ---
-Description: 'Applications use media pools to hold media that share common attributes.'
-ms.assetid: '1eefa52b-f490-487b-b010-263fa96d762a'
+Description: Applications use media pools to hold media that share common attributes.
+ms.assetid: 1eefa52b-f490-487b-b010-263fa96d762a
 title: Creating and Configuring Media Pools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Configuring Media Pools
@@ -30,7 +35,7 @@ The following points should be considered when you set the parameters for this f
 
     Decide what level of security you want to assign to the media pool.
 
-The first task your application should perform, usually when installed, is to create and configure media pools. You can use the [**CreateNtmsMediaPool**](createntmsmediapool.md) function to create media pools.
+The first task your application should perform, usually when installed, is to create and configure media pools. You can use the [**CreateNtmsMediaPool**](/windows/win32/Ntmsapi/nf-ntmsapi-createntmsmediapool?branch=master) function to create media pools.
 
  
 

@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM10 verifies that a merge module contains only properties that are allowed in the Property Table.'
-ms.assetid: '9ac7a724-ea0e-4caa-bb4f-846bfb802037'
+Description: ICEM10 verifies that a merge module contains only properties that are allowed in the Property Table.
+ms.assetid: 9ac7a724-ea0e-4caa-bb4f-846bfb802037
 title: ICEM10
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM10

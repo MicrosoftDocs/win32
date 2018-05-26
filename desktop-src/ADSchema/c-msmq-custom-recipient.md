@@ -4,17 +4,22 @@ description: Used to define a custom MSMQ recipient (also known as an alias queu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd940d687-0d16-42c6-b836-502fc3ca96f4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d940d687-0d16-42c6-b836-502fc3ca96f4
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Custom-Recipient class AD Schema", "msMQ-Custom-Recipient class AD Schema"]
+keywords:
+- MSMQ-Custom-Recipient class AD Schema
+- msMQ-Custom-Recipient class AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Custom-Recipient
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Custom-Recipient class
@@ -35,11 +40,11 @@ Used to define a custom MSMQ recipient (also known as an alias queue). Defines a
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -66,7 +71,7 @@ Used to define a custom MSMQ recipient (also known as an alias queue). Defines a
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -192,7 +197,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -321,7 +326,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -461,7 +466,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -608,7 +613,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -736,9 +741,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

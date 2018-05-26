@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Indexing Service
 description: .
-ms.assetid: 'bf43fd6c-43ca-4105-9611-171a260570e1'
+ms.assetid: bf43fd6c-43ca-4105-9611-171a260570e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Indexing Service

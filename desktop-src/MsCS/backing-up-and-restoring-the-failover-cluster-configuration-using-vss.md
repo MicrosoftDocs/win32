@@ -4,10 +4,13 @@ description: Failover clustering uses the Volume Shadow Copy Service (VSS) for b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ea8b76b2-3931-4489-a648-e1077fd93b21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ea8b76b2-3931-4489-a648-e1077fd93b21
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Backing Up and Restoring the Failover Cluster Configuration Using VSS
@@ -26,15 +29,15 @@ For a backup application to successfully save the state of a clustered system, a
 
 ## Backing Up the Cluster State Using VSS
 
-The first step in backing up or recovering a clustered system is to detect clustering services and determine their state using the [**GetNodeClusterState**](getnodeclusterstate.md) function.
+The first step in backing up or recovering a clustered system is to detect clustering services and determine their state using the [**GetNodeClusterState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_node_cluster_state?branch=master) function.
 
 If clustering services are installed and running, backup applications (requesters) should choose to treat the system as a cluster. If clustering services are installed but not running, backup applications should treat the system as a stand-alone server.
 
-If clustering services are detected, a backup application can display the cluster by name for backup. The cluster name can be determined by passing either the machine name or **NULL** to the [**OpenCluster**](opencluster.md) function and retrieving a handle to the cluster to which the current node running the backup application belongs.
+If clustering services are detected, a backup application can display the cluster by name for backup. The cluster name can be determined by passing either the machine name or **NULL** to the [**OpenCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster?branch=master) function and retrieving a handle to the cluster to which the current node running the backup application belongs.
 
-It is best to pass "machine name" as a parameter to the [**OpenCluster**](opencluster.md) function if possible because this will ensure that the client is connected to the cluster even if the cluster service stops on the node to which the client is initially connected.
+It is best to pass "machine name" as a parameter to the [**OpenCluster**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster?branch=master) function if possible because this will ensure that the client is connected to the cluster even if the cluster service stops on the node to which the client is initially connected.
 
-After the application has a handle to the cluster, the [**GetClusterInformation**](getclusterinformation.md) function will provide information about the cluster, including its name.
+After the application has a handle to the cluster, the [**GetClusterInformation**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_information?branch=master) function will provide information about the cluster, including its name.
 
 Now, ClusDb can be backed up using VSS.
 

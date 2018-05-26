@@ -1,7 +1,12 @@
 ---
 title: if pred - vs
 description: Start of an if pred - vs...else - vs...endif - vs block, with the condition taken from the content of the predicate register.
-ms.assetid: '03f60ca3-cda0-4653-8582-74d1a75e0aee'
+ms.assetid: 03f60ca3-cda0-4653-8582-74d1a75e0aee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if pred - vs

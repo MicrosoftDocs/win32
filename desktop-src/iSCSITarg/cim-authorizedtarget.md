@@ -1,16 +1,18 @@
 ---
 title: CIM\_AuthorizedTarget class
-description: CIM\_AuthorizedTarget is an association used to tie an Identity's or Role's AuthorizedPrivileges to specific target resources.
+description: CIM\_AuthorizedTarget is an association used to tie an Identitys or Roles AuthorizedPrivileges to specific target resources.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0920cf55-da51-4664-a2e7-fe535f71d1bb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0920cf55-da51-4664-a2e7-fe535f71d1bb
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AuthorizedTarget class iSCSI Software Target API", "CIM_AuthorizedTarget class iSCSI Software Target API , described"]
+keywords:
+- CIM_AuthorizedTarget class iSCSI Software Target API
+- CIM_AuthorizedTarget class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AuthorizedTarget class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_AuthorizedTarget
 {
   CIM_AuthorizedPrivilege REF Privilege;
-  CIM_ManagedElement      REF TargetElement;
+  CIM_ManagedElement      REF TargetElement;
 };
 ```
 
@@ -91,16 +96,16 @@ A [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/cc136871) contain
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

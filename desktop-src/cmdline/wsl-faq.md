@@ -1,7 +1,12 @@
 ---
-Description: 'This article provides answers to frequently asked questions about the Windows Subsystem for Linux (WSL).'
-ms.assetid: '0C82CE3A-9E48-4ECB-B9E8-26B5656DCD09'
+Description: This article provides answers to frequently asked questions about the Windows Subsystem for Linux (WSL).
+ms.assetid: 0C82CE3A-9E48-4ECB-B9E8-26B5656DCD09
 title: WSL FAQ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSL FAQ

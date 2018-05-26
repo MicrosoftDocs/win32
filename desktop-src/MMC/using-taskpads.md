@@ -4,11 +4,16 @@ description: This section discusses how to implement snap-in taskpads. For more 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ef0fdca7-f52e-48b9-98a1-d4516c9089d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ef0fdca7-f52e-48b9-98a1-d4516c9089d4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["taskpads MMC", "taskpads MMC"]
+keywords:
+- taskpads MMC
+- taskpads MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Taskpads
@@ -19,7 +24,7 @@ Snap-in taskpads are introduced in MMC 1.1. In MMC 1.2, use [console taskpads](c
 
 The MMC SDK specifies a number of interfaces and other constructs for working with taskpads. MMC calls the snap-in's implementation of [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) to display the result pane for a particular scope item. The snap-in uses the method to provide MMC with the address of a string that contains the resource path to the taskpad template or HTML file and a group name that identifies the taskpad.
 
-The [**IExtendTaskPad**](iextendtaskpad.md) interface enables the snap-in to set up a taskpad and receive notifications from the taskpad. When the taskpad DHTML page is loaded, the [**MMCCtrl**](mmcctrl-control.md) control on that page calls methods in MMC. In turn, MMC attempts to get the **IExtendTaskPad** interface from the [**IComponent**](icomponent.md) object and calls the methods required to provide the MMCCtrl control with the data required to render the taskpad's general elements: title text, banner image, and background image.
+The [**IExtendTaskPad**](iextendtaskpad.md) interface enables the snap-in to set up a taskpad and receive notifications from the taskpad. When the taskpad DHTML page is loaded, the [**MMCCtrl**](mmcctrl-control.md) control on that page calls methods in MMC. In turn, MMC attempts to get the **IExtendTaskPad** interface from the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) object and calls the methods required to provide the MMCCtrl control with the data required to render the taskpad's general elements: title text, banner image, and background image.
 
 If the taskpad is a list view taskpad, MMC calls [**IExtendTaskPad::GetListPadInfo**](iextendtaskpad-getlistpadinfo.md) to get the title text for the list control, text for an optional button, and the command ID passed to [**IExtendTaskPad::TaskNotify**](iextendtaskpad-tasknotify.md) when the button is clicked.
 

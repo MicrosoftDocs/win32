@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETCURRENTVIEW message
 description: Sets the current view of the calendar. You can send this message explicitly or by using the MonthCal\_SetCurrentView macro.
-ms.assetid: '26ccbb80-0dba-4241-a2eb-b79000fc3618'
-keywords: ["MCM_SETCURRENTVIEW message Windows Controls"]
+ms.assetid: 26ccbb80-0dba-4241-a2eb-b79000fc3618
+keywords:
+- MCM_SETCURRENTVIEW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETCURRENTVIEW message
 
-Sets the current view of the calendar. You can send this message explicitly or by using the [**MonthCal\_SetCurrentView**](monthcal-setcurrentview.md) macro.
+Sets the current view of the calendar. You can send this message explicitly or by using the [**MonthCal\_SetCurrentView**](/windows/win32/Commctrl/nf-commctrl-monthcal_setcurrentview?branch=master) macro.
 
 ## Parameters
 
@@ -44,7 +50,7 @@ New view. One of the following constants.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,15 +64,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

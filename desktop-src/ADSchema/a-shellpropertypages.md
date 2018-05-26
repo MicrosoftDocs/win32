@@ -4,17 +4,22 @@ description: The order number and GUID of property pages for managing Active Dir
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e0edd91b-bdb6-47aa-9be2-8a23a89adb26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e0edd91b-bdb6-47aa-9be2-8a23a89adb26
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Shell-Property-Pages attribute AD Schema", "shellPropertyPages attribute AD Schema"]
+keywords:
+- Shell-Property-Pages attribute AD Schema
+- shellPropertyPages attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Shell-Property-Pages
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shell-Property-Pages attribute
@@ -38,12 +43,12 @@ The order number and GUID of property pages for managing Active Directory object
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The order number and GUID of property pages for managing Active Directory object
 
 
 
- 
+ 
 
- 
+ 
 
 
 

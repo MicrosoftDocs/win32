@@ -1,7 +1,12 @@
 ---
 title: How to Initialize the Image List
 description: Every item in a tree-view control can have two images associated with it.
-ms.assetid: '3683DB35-D70F-4181-9181-95354599B9FB'
+ms.assetid: 3683DB35-D70F-4181-9181-95354599B9FB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Initialize the Image List

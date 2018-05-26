@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_FontProperties\_Bold
 description: Identifies the UI\_PKEY\_FontProperties\_Bold property.
-ms.assetid: '9d33142a-bd63-423e-ba77-083c86bce1e7'
+ms.assetid: 9d33142a-bd63-423e-ba77-083c86bce1e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_FontProperties\_Bold

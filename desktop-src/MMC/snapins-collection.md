@@ -4,11 +4,13 @@ description: The SnapIns object is a collection of SnapIn objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '636478c5-ba14-4f18-a172-cb899d16bbc2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 636478c5-ba14-4f18-a172-cb899d16bbc2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SnapIns Collection object MMC", "SnapIns Collection object MMC , described"]
+keywords:
+- SnapIns Collection object MMC
+- SnapIns Collection object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SnapIns Collection object
@@ -44,7 +49,7 @@ The **SnapIns Collection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +63,7 @@ The **SnapIns Collection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -82,8 +87,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -91,9 +96,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

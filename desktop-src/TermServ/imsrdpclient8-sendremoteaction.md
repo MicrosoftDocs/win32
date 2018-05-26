@@ -4,11 +4,18 @@ description: Causes an action to be performed in the remote session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd6a43662-7e51-404a-a3f9-a8b51cbc69d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d6a43662-7e51-404a-a3f9-a8b51cbc69d1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SendRemoteAction method Remote Desktop Services", "SendRemoteAction method Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , SendRemoteAction method", "SendRemoteAction method Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , SendRemoteAction method", "SendRemoteAction method Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , SendRemoteAction method"]
+keywords:
+- SendRemoteAction method Remote Desktop Services
+- SendRemoteAction method Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , SendRemoteAction method
+- SendRemoteAction method Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , SendRemoteAction method
+- SendRemoteAction method Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , SendRemoteAction method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +26,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient8::SendRemoteAction method
@@ -30,7 +40,7 @@ Causes an action to be performed in the remote session.
 
 ```C++
 HRESULT SendRemoteAction(
-  [in] RemoteSessionActionType actionType
+  [in] RemoteSessionActionType actionType
 );
 ```
 
@@ -57,8 +67,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient8 is defined as 4247E044-9271-43A9-BC49-E2AD9E855D62<br/>       |
@@ -78,9 +88,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

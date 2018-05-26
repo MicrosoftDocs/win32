@@ -4,17 +4,21 @@ description: Application specific data, signed.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'AB18F228-0D28-4424-8AC2-75D3E1574390'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: AB18F228-0D28-4424-8AC2-75D3E1574390
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor signedAppData property"]
+keywords:
+- MSPolicyDescriptor signedAppData property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor signedAppData property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor signedAppData property
@@ -37,7 +41,7 @@ Application specific data, signed.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

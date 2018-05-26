@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies applications of a change in the power status of the computer, such as a switch from battery power to A/C.'
-ms.assetid: 'dc56fee3-e0df-4f8e-8a41-92460279280a'
-title: 'PBT\_APMPOWERSTATUSCHANGE event'
+Description: Notifies applications of a change in the power status of the computer, such as a switch from battery power to A/C.
+ms.assetid: dc56fee3-e0df-4f8e-8a41-92460279280a
+title: PBT\_APMPOWERSTATUSCHANGE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMPOWERSTATUSCHANGE event
@@ -39,7 +44,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -49,7 +54,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,7 +71,7 @@ No return value.
 
 ## Remarks
 
-An application should process this event by calling the [**GetSystemPowerStatus**](getsystempowerstatus.md) function to retrieve the current power status of the computer. In particular, the application should check the **ACLineStatus**, **BatteryFlag**, **BatteryLifeTime**, and **BatteryLifePercent** members of the [**SYSTEM\_POWER\_STATUS**](system-power-status-str.md) structure for any changes. This event can occur when battery life drops to less than 5 minutes, or when the percentage of battery life drops below 10 percent, or if the battery life changes by 3 percent.
+An application should process this event by calling the [**GetSystemPowerStatus**](/windows/win32/Winbase/nf-winbase-getsystempowerstatus?branch=master) function to retrieve the current power status of the computer. In particular, the application should check the **ACLineStatus**, **BatteryFlag**, **BatteryLifeTime**, and **BatteryLifePercent** members of the [**SYSTEM\_POWER\_STATUS**](/windows/win32/Winbase/ns-winbase-_system_power_status?branch=master) structure for any changes. This event can occur when battery life drops to less than 5 minutes, or when the percentage of battery life drops below 10 percent, or if the battery life changes by 3 percent.
 
 ## Requirements
 
@@ -74,8 +79,8 @@ An application should process this event by calling the [**GetSystemPowerStatus*
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -90,18 +95,18 @@ An application should process this event by calling the [**GetSystemPowerStatus*
 [Power Management Events](power-management-events.md)
 </dt> <dt>
 
-[**GetSystemPowerStatus**](getsystempowerstatus.md)
+[**GetSystemPowerStatus**](/windows/win32/Winbase/nf-winbase-getsystempowerstatus?branch=master)
 </dt> <dt>
 
-[**SYSTEM\_POWER\_STATUS**](system-power-status-str.md)
+[**SYSTEM\_POWER\_STATUS**](/windows/win32/Winbase/ns-winbase-_system_power_status?branch=master)
 </dt> <dt>
 
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: RasAdminFreeBuffer function
 description: The RasAdminFreeBuffer function frees memory that was allocated by RAS on behalf of the caller.
-ms.assetid: '6dfbba22-3af1-4771-8c22-506996f30c6b'
-keywords: ["RasAdminFreeBuffer function RAS"]
+ms.assetid: 6dfbba22-3af1-4771-8c22-506996f30c6b
+keywords:
+- RasAdminFreeBuffer function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminFreeBuffer function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminBufferFree**](mpradminbufferfree.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminBufferFree**](/windows/win32/Mprapi/nf-mprapi-mpradminbufferfree?branch=master) function.\]
 
 The **RasAdminFreeBuffer** function frees memory that was allocated by RAS on behalf of the caller.
 
@@ -24,7 +30,7 @@ The **RasAdminFreeBuffer** function frees memory that was allocated by RAS on be
 
 ```C++
 DWORD RasAdminFreeBuffer(
-  _In_ PVOID Pointer
+  _In_ PVOID Pointer
 );
 ```
 
@@ -55,7 +61,7 @@ If the function fails, the return value can be the following error code.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -69,8 +75,8 @@ Use the **RasAdminFreeBuffer** function to free the buffers allocated by the [**
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -93,9 +99,9 @@ Use the **RasAdminFreeBuffer** function to free the buffers allocated by the [**
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the end of an encoding pass.'
-ms.assetid: '8a7e6e09-766c-4346-8893-eea5614b2aa4'
-title: 'MFPKEY\_ENDOFPASS Property'
+---
+Description: Specifies the end of an encoding pass.
+ms.assetid: 8a7e6e09-766c-4346-8893-eea5614b2aa4
+title: MFPKEY\_ENDOFPASS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_ENDOFPASS Property

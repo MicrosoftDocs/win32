@@ -4,13 +4,15 @@ description: A base class for collections that are scoped or contained by a syst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '77437951-740d-46c5-b5f4-5cd22d3de390'
-ms.prod: 'windows-server-dev'
+ms.assetid: 77437951-740d-46c5-b5f4-5cd22d3de390
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SystemSpecificCollection class", "CIM_SystemSpecificCollection class, described"]
+keywords:
+- CIM_SystemSpecificCollection class
+- CIM_SystemSpecificCollection class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SystemSpecificCollection class
@@ -136,8 +141,8 @@ For DMTF defined instances, the format must have &lt;*OrgID*&gt; set to "CIM".
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -151,9 +156,9 @@ For DMTF defined instances, the format must have &lt;*OrgID*&gt; set to "CIM".
 [**CIM\_Collection**](cim-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

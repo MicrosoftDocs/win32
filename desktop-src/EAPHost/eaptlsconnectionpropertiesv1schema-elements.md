@@ -1,7 +1,12 @@
 ---
 title: eaptlsconnectionpropertiesv1 Schema Elements
 description: Is made up of the following schema elements.
-ms.assetid: '0d2ff413-032f-4f84-9c02-2a8684db4287'
+ms.assetid: 0d2ff413-032f-4f84-9c02-2a8684db4287
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eaptlsconnectionpropertiesv1 Schema Elements

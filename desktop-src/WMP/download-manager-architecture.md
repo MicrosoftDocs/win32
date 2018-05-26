@@ -1,8 +1,20 @@
 ---
 title: Download Manager Architecture
 description: Download Manager Architecture
-ms.assetid: 'cbd46bf2-613f-40ae-8506-2f3c5eb84ada'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "architecture for Download Manager"]
+ms.assetid: cbd46bf2-613f-40ae-8506-2f3c5eb84ada
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- architecture for Download Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Download Manager Architecture

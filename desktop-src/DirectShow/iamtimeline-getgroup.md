@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetGroup method retrieves a specified group.'
-ms.assetid: '4ff651e5-a3aa-4da9-af23-a3a2bdbf7c5b'
-title: 'IAMTimeline::GetGroup method'
+---
+Description: The GetGroup method retrieves a specified group.
+ms.assetid: 4ff651e5-a3aa-4da9-af23-a3a2bdbf7c5b
+title: IAMTimelineGetGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetGroup method

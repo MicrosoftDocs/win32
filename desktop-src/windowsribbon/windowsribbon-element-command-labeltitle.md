@@ -1,14 +1,20 @@
 ---
 title: Command.LabelTitle property
 description: Represents a label title.
-ms.assetid: '97378ec3-7988-4e39-9cf5-c382b246c5c9'
-keywords: ["Command.LabelTitle property Windows Ribbon"]
+ms.assetid: 97378ec3-7988-4e39-9cf5-c382b246c5c9
+keywords:
+- Command.LabelTitle property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.LabelTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.LabelTitle property
@@ -56,9 +62,9 @@ May occur at most once for each [**Command**](windowsribbon-element-command.md).
 **Command.LabelTitle** can contain a value of type *xs:string* constrained to any sequence of characters, including white space and line-break characters.
 
 > [!Note]  
-> Use the Universal Character Set (UCS) XML character reference `&#xA;` to specify a line break.
+> Use the Universal Character Set (UCS) XML character reference `&#xA;` to specify a line break.
 
- 
+ 
 
 The maximum length is unbounded.
 
@@ -67,7 +73,7 @@ If no value is supplied for **Command.LabelTitle**, the [**String**](windowsribb
 > [!Note]  
 > If **Command.LabelTitle** contains both a value and a [**String**](windowsribbon-element-string.md) child element, **String** takes precedence.
 
- 
+ 
 
 **Command.LabelTitle** only supports left alignment.
 
@@ -129,8 +135,8 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -141,9 +147,9 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 [UI\_PKEY\_Label](windowsribbon-reference-properties-uipkey-label.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

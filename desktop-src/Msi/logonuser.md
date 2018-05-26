@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LogonUser property is the user name for the currently logged on user. Set by the installer by a system call to GetUserName.'
-ms.assetid: 'a7e33d01-5baf-4843-937b-ebed723edbbd'
+---
+Description: The LogonUser property is the user name for the currently logged on user. Set by the installer by a system call to GetUserName.
+ms.assetid: a7e33d01-5baf-4843-937b-ebed723edbbd
 title: LogonUser property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonUser property

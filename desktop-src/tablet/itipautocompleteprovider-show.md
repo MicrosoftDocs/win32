@@ -1,7 +1,12 @@
 ---
-Description: 'Displays or hides the auto complete list.'
-ms.assetid: '756ffa3d-03ee-4753-a826-3bc22ab16f5f'
-title: 'ITipAutocompleteProvider::Show method'
+Description: Displays or hides the auto complete list.
+ms.assetid: 756ffa3d-03ee-4753-a826-3bc22ab16f5f
+title: ITipAutocompleteProviderShow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteProvider::Show method
@@ -13,7 +18,7 @@ Displays or hides the auto complete list.
 
 ```C++
 HRESULT Show(
-  [in] BOOL fShow
+  [in] BOOL fShow
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ This method is called by the client to show or hide the auto complete list. If t
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -72,9 +77,9 @@ This method is called by the client to show or hide the auto complete list. If t
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

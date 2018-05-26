@@ -2,11 +2,13 @@
 title: VpnConnection class
 description: The VpnConnection class represents the profile of a virtual private network (VPN) connection.
 audience: developer
-ms.assetid: '2ac4741d-87bc-4a81-a8c8-f6e0806ebafc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2ac4741d-87bc-4a81-a8c8-f6e0806ebafc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnConnection class", "VpnConnection class, described"]
+keywords:
+- VpnConnection class
+- VpnConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnConnection class
@@ -56,33 +61,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("VpnClientPSProvider"), AMENDMENT]
 class VpnConnection : VpnCommonConfig
 {
-  string                          ServerAddress;
-  string                          ProvisioningAuthority;
-  boolean                         RememberCredential;
-  boolean                         SplitTunneling;
-  boolean                         IsAutoTriggerEnabled;
-  string                          Name;
-  string                          ProfileType;
-  string                          Guid;
-  string                          ConnectionStatus;
-  uint32                          IdleDisconnectSeconds;
-  string                          ServerList[];
-  string                          Routes[];
-  string                          VpnTrigger;
-  string                          DnsSuffix;
-  string                          Proxy;
-  boolean                         AllUserConnection;
-  string                          AuthenticationMethod[];
-  string                          EapConfigXmlStream;
-  string                          EncryptionLevel;
+  string                          ServerAddress;
+  string                          ProvisioningAuthority;
+  boolean                         RememberCredential;
+  boolean                         SplitTunneling;
+  boolean                         IsAutoTriggerEnabled;
+  string                          Name;
+  string                          ProfileType;
+  string                          Guid;
+  string                          ConnectionStatus;
+  uint32                          IdleDisconnectSeconds;
+  string                          ServerList[];
+  string                          Routes[];
+  string                          VpnTrigger;
+  string                          DnsSuffix;
+  string                          Proxy;
+  boolean                         AllUserConnection;
+  string                          AuthenticationMethod[];
+  string                          EapConfigXmlStream;
+  string                          EncryptionLevel;
   VpnConnectionIPsecConfiguration IPSecCustomPolicy[];
-  string                          L2tpIPsecAuth;
-  string                          MachineCertificateEKUFilter[];
-  uint8                           MachineCertificateIssuerFilter[];
-  string                          NapState;
-  string                          TunnelType;
-  boolean                         UseWinlogonCredential;
-  string                          VpnConfigurationXml;
+  string                          L2tpIPsecAuth;
+  string                          MachineCertificateEKUFilter[];
+  uint8                           MachineCertificateIssuerFilter[];
+  string                          NapState;
+  string                          TunnelType;
+  boolean                         UseWinlogonCredential;
+  string                          VpnConfigurationXml;
 };
 ```
 
@@ -399,7 +404,7 @@ Access type: Read-only
 
 This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 
-**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -592,7 +597,7 @@ The provisioning authority of the VPN profile.
 
 This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 
-**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -817,8 +822,8 @@ This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -838,9 +843,9 @@ This property is inherited from [**VpnCommonConfig**](vpncommonconfig.md).
 [**PS\_VpnConnection**](ps-vpnconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

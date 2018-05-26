@@ -1,12 +1,17 @@
 ---
-Description: 'The user SID for the component.'
-ms.assetid: 'ac06a696-53c6-45b1-9ad1-1aa35564ce77'
-title: 'Client.UserSID property'
+Description: The user SID for the component.
+ms.assetid: ac06a696-53c6-45b1-9ad1-1aa35564ce77
+title: Client.UserSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client.UserSID property
 
-The user SID for the component. This property calls the [**MsiEnumClientsEx**](msienumclientsex.md) function.
+The user SID for the component. This property calls the [**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master) function.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -26,9 +31,9 @@ The user SID for the component. This property calls the [**MsiEnumClientsEx**](m
 
 
 
- 
+ 
 
- 
+ 
 
 
 

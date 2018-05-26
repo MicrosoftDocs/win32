@@ -4,13 +4,20 @@ description: To use the Network Load Balancing Provider, your application establ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e3c3719-ec5c-4bca-ac37-24bdb8f1fe28'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7e3c3719-ec5c-4bca-ac37-24bdb8f1fe28
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["connections Failover Cluster", "connections Failover Cluster , NLB to WMI", "WMI Failover Cluster", "WMI Failover Cluster ,connecting NLB to"]
+keywords:
+- connections Failover Cluster
+- connections Failover Cluster , NLB to WMI
+- WMI Failover Cluster
+- WMI Failover Cluster ,connecting NLB to
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connecting to WMI

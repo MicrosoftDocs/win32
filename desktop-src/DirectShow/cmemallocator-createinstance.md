@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateInstance method creates a new instance of the CMemAllocator class.'
-ms.assetid: '87a831a4-2414-4240-8448-c5d90f130470'
-title: 'CMemAllocator.CreateInstance method'
+Description: The CreateInstance method creates a new instance of the CMemAllocator class.
+ms.assetid: 87a831a4-2414-4240-8448-c5d90f130470
+title: CMemAllocator.CreateInstance method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.CreateInstance method
@@ -13,8 +18,8 @@ The `CreateInstance` method creates a new instance of the **CMemAllocator** clas
 
 ```C++
 static CUnknown* CreateInstance(
-   LPUNKNOWN pUnk,
-   HRESULT   *phr
+   LPUNKNOWN pUnk,
+   HRESULT   *phr
 );
 ```
 
@@ -60,9 +65,9 @@ Returns a pointer to a new **CMemAllocator** object, typed as a **CUnknown** obj
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

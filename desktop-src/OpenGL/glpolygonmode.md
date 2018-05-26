@@ -1,8 +1,9 @@
 ---
 title: glPolygonMode function
 description: The glPolygonMode function selects a polygon rasterization mode.
-ms.assetid: 'd8781bae-e78c-40fb-9f33-c742c70ebda1'
-keywords: ["glPolygonMode function OpenGL"]
+ms.assetid: d8781bae-e78c-40fb-9f33-c742c70ebda1
+keywords:
+- glPolygonMode function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPolygonMode function
@@ -22,8 +28,8 @@ The **glPolygonMode** function selects a polygon rasterization mode.
 
 ```C++
 void WINAPI glPolygonMode(
-   GLenum face,
-   GLenum mode
+   GLenum face,
+   GLenum mode
 );
 ```
 
@@ -55,7 +61,7 @@ The way polygons will be rasterized. The following modes are defined and can be 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -109,8 +115,8 @@ The following function retrieves information related to **glPolygonMode**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -142,9 +148,9 @@ The following function retrieves information related to **glPolygonMode**:
 [**glPolygonStipple**](glpolygonstipple.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

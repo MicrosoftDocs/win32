@@ -1,7 +1,12 @@
 ---
-Description: 'The serial number of the camera that produced the photo.'
-ms.assetid: '0d1b651a-fd48-4bc4-92fd-f0eb6c72e264'
-title: 'System.Photo.CameraSerialNumber'
+Description: The serial number of the camera that produced the photo.
+ms.assetid: 0d1b651a-fd48-4bc4-92fd-f0eb6c72e264
+title: System.Photo.CameraSerialNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.CameraSerialNumber

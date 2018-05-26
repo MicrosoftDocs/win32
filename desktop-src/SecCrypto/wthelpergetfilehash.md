@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.'
-ms.assetid: '130b3c3e-cc67-44ec-acc7-daa87b714299'
+---
+Description: Verifies the signature of a signed file and obtains the hash value and algorithm identifier for the file.
+ms.assetid: 130b3c3e-cc67-44ec-acc7-daa87b714299
 title: WTHelperGetFileHash function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WTHelperGetFileHash function

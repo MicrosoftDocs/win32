@@ -1,14 +1,19 @@
 ---
-title: Changing a Static Node's Attributes during Loading
+title: Changing a Static Nodes Attributes during Loading
 description: As is true of all other scope items, a stand-alone snap-in can programmatically change the display attributes of a static node (for example, its icon and display name) at any time by calling the IConsoleNameSpace2 SetItem method.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4a295bd-fb93-42e4-a4e1-2f94df7c1d2f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e4a295bd-fb93-42e4-a4e1-2f94df7c1d2f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["changing a static node's attributes during loading MMC", "display attributes MMC"]
+keywords:
+- changing a static nodes attributes during loading MMC
+- display attributes MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Changing a Static Node's Attributes during Loading

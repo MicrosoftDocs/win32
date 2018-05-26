@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DrvDevicePropertySheets function is responsible for creating property sheet pages that describe a printer''s properties.'
-ms.assetid: '46f39e36-8915-4ccf-97ef-45dbacdfbe0a'
+---
+Description: A printer interface DLLs DrvDevicePropertySheets function is responsible for creating property sheet pages that describe a printers properties.
+ms.assetid: 46f39e36-8915-4ccf-97ef-45dbacdfbe0a
 title: DrvDevicePropertySheets function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvDevicePropertySheets function

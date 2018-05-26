@@ -4,17 +4,21 @@ description: Contains an integer value that uniquely identifies a group in an ad
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '89200e98-4b63-4057-ae15-77f9b18b93fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 89200e98-4b63-4057-ae15-77f9b18b93fe
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["gidNumber attribute AD Schema"]
+keywords:
+- gidNumber attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - gidNumber
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # gidNumber attribute
@@ -38,10 +42,10 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -134,9 +138,9 @@ Contains an integer value that uniquely identifies a group in an administrative 
 [RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'These service providers provide the basic smart card capabilities.'
-ms.assetid: '1d887c4c-095c-4e1e-8b9a-7761acda2cbf'
+Description: These service providers provide the basic smart card capabilities.
+ms.assetid: 1d887c4c-095c-4e1e-8b9a-7761acda2cbf
 title: Base Service Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Base Service Providers

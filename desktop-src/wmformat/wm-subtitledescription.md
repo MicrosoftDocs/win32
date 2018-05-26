@@ -1,14 +1,20 @@
 ---
 title: WM/SubTitleDescription
 description: The WM/SubTitleDescription attribute contains a description of the WM/SubTitle attribute.
-ms.assetid: '75e845bd-ec1d-4420-9ae1-479633eec821'
-keywords: ["WM/SubTitleDescription windows Media Format"]
+ms.assetid: 75e845bd-ec1d-4420-9ae1-479633eec821
+keywords:
+- WM/SubTitleDescription windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/SubTitleDescription
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/SubTitleDescription

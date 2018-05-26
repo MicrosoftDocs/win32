@@ -1,8 +1,9 @@
 ---
 title: StorPortBuildScatterGatherList routine
 description: The StorPortBuildScatterGatherList routine creates a scatter/gather list for the specified data buffer.
-ms.assetid: 'cdea67aa-14fa-45c1-8af0-8db48042b1b2'
-keywords: ["StorPortBuildScatterGatherList routine Storage Devices"]
+ms.assetid: cdea67aa-14fa-45c1-8af0-8db48042b1b2
+keywords:
+- StorPortBuildScatterGatherList routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StorPortBuildScatterGatherList routine
@@ -22,15 +28,15 @@ The **StorPortBuildScatterGatherList** routine creates a scatter/gather list for
 
 ```C++
 ULONG StorPortBuildScatterGatherList(
-  _In_    PVOID                        HwDeviceExtension,
-  _In_    PVOID                        Mdl,
-  _In_    PVOID                        CurrentVa,
-  _In_    ULONG                        Length,
-  _In_    PPOST_SCATTER_GATHER_EXECUTE ExecutionRoutine,
-  _In_    PVOID                        Context,
-  _In_    BOOLEAN                      WriteToDevice,
-  _Inout_ PVOID                        ScatterGatherBuffer,
-  _In_    ULONG                        ScatterGatherBufferLength
+  _In_    PVOID                        HwDeviceExtension,
+  _In_    PVOID                        Mdl,
+  _In_    PVOID                        CurrentVa,
+  _In_    ULONG                        Length,
+  _In_    PPOST_SCATTER_GATHER_EXECUTE ExecutionRoutine,
+  _In_    PVOID                        Context,
+  _In_    BOOLEAN                      WriteToDevice,
+  _Inout_ PVOID                        ScatterGatherBuffer,
+  _In_    ULONG                        ScatterGatherBufferLength
 );
 ```
 
@@ -202,7 +208,7 @@ See 'Remarks'.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -213,7 +219,7 @@ The miniport driver must call [**StorPortPutScatterGatherList**](storportputscat
 > [!Note]  
 > If **StorPortBuildScatterGatherList** returns STOR\_STATUS\_SUCCESS, then the callback in *ExecutionRoutine* was successfully queued to execute after the scatter/gather list is created. The miniport must not assume that *ExecutionRoutine* was called or that the scatter/gather list is ready when **StorPortBuildScatterGatherList** returns. If necessary, the miniport can synchronize the execution of code following **StorPortBuildScatterGatherList** with the callback in *ExecutionRoutine* to ensure that the scatter/gather list is available.
 
- 
+ 
 
 ## Requirements
 
@@ -240,9 +246,9 @@ The miniport driver must call [**StorPortPutScatterGatherList**](storportputscat
 [**STOR\_SCATTER\_GATHER\_LIST**](stor-scatter-gather-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20StorPortBuildScatterGatherList%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

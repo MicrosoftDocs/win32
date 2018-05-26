@@ -1,13 +1,16 @@
 ---
-Description: 'WMI classes that represent files or directories, such as Win32\_CodecFile or CIM\_DataFile, contain an AccessMask property.'
+Description: WMI classes that represent files or directories, such as Win32\_CodecFile or CIM\_DataFile, contain an AccessMask property.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9020b337-d44f-4247-b623-68a1bcf35abb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9020b337-d44f-4247-b623-68a1bcf35abb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: File and Directory Access Rights Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # File and Directory Access Rights Constants
@@ -283,9 +286,9 @@ Grants the right to use the object for synchronization. This enables a process t
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: The Reset method of the CIM\_USBHub class requests a reset of the l
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8650d28e-24f3-45d3-b519-f819f2287022'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8650d28e-24f3-45d3-b519-f819f2287022
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Reset method", "Reset method, Win32_USBHub class", "Win32_USBHub class, Reset method"]
+keywords:
+- Reset method
+- Reset method, Win32_USBHub class
+- Win32_USBHub class, Reset method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - CIMWin32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reset method of the Win32\_USBHub class
@@ -28,7 +34,7 @@ The [**Reset**](https://msdn.microsoft.com/library/aa393226) method of the **CIM
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 ## Syntax
 
@@ -59,8 +65,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -77,9 +83,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**Win32\_USBHub**](win32-usbhub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

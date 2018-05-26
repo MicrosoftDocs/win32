@@ -1,8 +1,9 @@
 ---
 title: LB\_SETHORIZONTALEXTENT message
 description: Sets the width, in pixels, by which a list box can be scrolled horizontally (the scrollable width).
-ms.assetid: '7d59b6de-2a22-4246-936b-4c669d285392'
-keywords: ["LB_SETHORIZONTALEXTENT message Windows Controls"]
+ms.assetid: 7d59b6de-2a22-4246-936b-4c669d285392
+keywords:
+- LB_SETHORIZONTALEXTENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETHORIZONTALEXTENT message
@@ -26,7 +32,7 @@ Sets the width, in pixels, by which a list box can be scrolled horizontally (the
 
 Specifies the number of pixels by which the list box can be scrolled.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values.
 
 </dd> <dt>
 
@@ -55,8 +61,8 @@ This message has no effect on a multiple-column list box.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ This message has no effect on a multiple-column list box.
 [**LB\_GETHORIZONTALEXTENT**](lb-gethorizontalextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

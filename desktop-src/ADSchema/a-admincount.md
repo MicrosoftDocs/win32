@@ -4,17 +4,22 @@ description: Indicates that a given object has had its ACLs changed to a more se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2384ada-a792-42fa-be64-291d23e00887'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b2384ada-a792-42fa-be64-291d23e00887
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Admin-Count attribute AD Schema", "adminCount attribute AD Schema"]
+keywords:
+- Admin-Count attribute AD Schema
+- adminCount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Admin-Count
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Admin-Count attribute
@@ -38,12 +43,12 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
- 
+ 
 
- 
+ 
 
 
 

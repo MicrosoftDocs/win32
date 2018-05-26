@@ -1,8 +1,9 @@
 ---
 title: RB\_GETBANDINFO message
 description: Retrieves information about a specified band in a rebar control.
-ms.assetid: 'c2a76c91-7d44-4278-823d-bd263520e7a8'
-keywords: ["RB_GETBANDINFO message Windows Controls"]
+ms.assetid: c2a76c91-7d44-4278-823d-bd263520e7a8
+keywords:
+- RB_GETBANDINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_GETBANDINFO message
@@ -33,7 +39,7 @@ Zero-based index of the band for which the information will be retrieved.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARBANDINFO**](rebarbandinfo.md) structure that will receive the requested band information. Before sending this message, you must set the **cbSize** member of this structure to the size of the **REBARBANDINFO** structure and set the **fMask** member to the items you want to retrieve. Additionally, you must set the **cch** member of the **REBARBANDINFO** structure to the size of the **lpText** buffer when RBBIM\_TEXT is specified.
+Pointer to a [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure that will receive the requested band information. Before sending this message, you must set the **cbSize** member of this structure to the size of the **REBARBANDINFO** structure and set the **fMask** member to the items you want to retrieve. Additionally, you must set the **cch** member of the **REBARBANDINFO** structure to the size of the **lpText** buffer when RBBIM\_TEXT is specified.
 
 </dd> </dl>
 
@@ -47,8 +53,8 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **RB\_GETBANDINFOW** (Unicode) and **RB\_GETBANDINFOA** (ANSI)<br/>             |
 
@@ -61,9 +67,9 @@ Returns nonzero if successful, or zero otherwise.
 [**RB\_SETBANDINFO**](rb-setbandinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

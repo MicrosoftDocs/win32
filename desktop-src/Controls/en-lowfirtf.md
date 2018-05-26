@@ -1,8 +1,9 @@
 ---
 title: EN\_LOWFIRTF notification code
 description: Notifies the parent window of a Microsoft Rich Edit control that an unsupported Rich Text Format (RTF) keyword was received. A Rich Edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '3b18320b-ebc3-44f2-a93c-e967a028c522'
-keywords: ["EN_LOWFIRTF notification code Windows Controls"]
+ms.assetid: 3b18320b-ebc3-44f2-a93c-e967a028c522
+keywords:
+- EN_LOWFIRTF notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_LOWFIRTF notification code
@@ -33,7 +39,7 @@ EN_LOWFIRTF
 *lParam* 
 </dt> <dd>
 
-The [**ENLOWFIRTF**](enlowfirtf.md) structure.
+The [**ENLOWFIRTF**](/windows/win32/Richedit/ns-richedit-_enlowfirtf?branch=master) structure.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ To receive an EN\_LOWFIRTF notification, specify the ENM\_LOWFIRTF flag in the m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -64,15 +70,15 @@ To receive an EN\_LOWFIRTF notification, specify the ENM\_LOWFIRTF flag in the m
 **Reference**
 </dt> <dt>
 
-[**ENLOWFIRTF**](enlowfirtf.md)
+[**ENLOWFIRTF**](/windows/win32/Richedit/ns-richedit-_enlowfirtf?branch=master)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

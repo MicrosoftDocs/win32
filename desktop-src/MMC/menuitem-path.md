@@ -4,11 +4,16 @@ description: The Path property returns the path of the menu item.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12574172-0cba-4d50-bcfd-bbffe0848163'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 12574172-0cba-4d50-bcfd-bbffe0848163
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Path property MMC", "Path property MMC , MenuItem object", "MenuItem object MMC , Path property", "Path property MMC , MenuItem interface", "MenuItem interface MMC , Path property"]
+keywords:
+- Path property MMC
+- Path property MMC , MenuItem object
+- MenuItem object MMC , Path property
+- Path property MMC , MenuItem interface
+- MenuItem interface MMC , Path property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MenuItem::Path property
@@ -55,8 +63,8 @@ MsgBox ("Path: " & objMenuItem.Path)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -71,9 +79,9 @@ MsgBox ("Path: " & objMenuItem.Path)
 [**MenuItem.LanguageIndependentPath**](menuitem-languageindependentpath.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

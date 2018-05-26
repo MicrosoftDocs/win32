@@ -1,7 +1,12 @@
 ---
 title: How to create an app package (C++)
 description: Learn how to create an app package for a Windows Store app using the packaging API.
-ms.assetid: 'FD677D75-50D5-4228-891F-73B5F40679B0'
+ms.assetid: FD677D75-50D5-4228-891F-73B5F40679B0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to create an app package (C++)
@@ -21,7 +26,7 @@ If you are using Visual Studio, it's recommended that you use the Visual Studio 
 
 ### Step 1: Create a package writer
 
-To create a package writer, call the [**IAppxFactory::CreatePackageWriter**](iappxfactory-createpackagewriter.md) method. The first parameter is an output stream where the package will be written. The second parameter is a pointer to an [**APPX\_PACKAGE\_SETTINGS**](appx-package-settings.md) structure that specifies package settings. The third parameter is an output parameter that receives a pointer to an [**IAppxPackageWriter**](iappxpackagewriter.md) pointer.
+To create a package writer, call the [**IAppxFactory::CreatePackageWriter**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfactory-createpackagewriter?branch=master) method. The first parameter is an output stream where the package will be written. The second parameter is a pointer to an [**APPX\_PACKAGE\_SETTINGS**](/windows/win32/AppxPackaging/ns-appxpackaging-appx_package_settings?branch=master) structure that specifies package settings. The third parameter is an output parameter that receives a pointer to an [**IAppxPackageWriter**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxpackagewriter?branch=master) pointer.
 
 
 ```C++
@@ -137,7 +142,7 @@ HRESULT GetPackageWriter(
 
 ### Step 2: Add the payload files for your app to the package
 
-Call the [**IAppxPackageWriter::AddPayloadFile**](iappxpackagewriter-addpayloadfile.md) method to add files to the package. The first parameter is the relative path of the file. The second parameter indicates the content type of the file. The third parameter specifies options from the [**APPX\_COMPRESSION\_OPTION**](appx-compression-option.md) enumeration. The fourth parameter is the input stream for the file.
+Call the [**IAppxPackageWriter::AddPayloadFile**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile?branch=master) method to add files to the package. The first parameter is the relative path of the file. The second parameter indicates the content type of the file. The third parameter specifies options from the [**APPX\_COMPRESSION\_OPTION**](/windows/win32/AppxPackaging/ne-appxpackaging-appx_compression_option?branch=master) enumeration. The fourth parameter is the input stream for the file.
 
 
 ```C++
@@ -248,7 +253,7 @@ HRESULT GetFileStream(
 
 ### Step 3: Add the package manifest to the package
 
-Every package must have a package manifest. To add the package manifest to the package, create an input stream for the file, then call the [**IAppxPackageWriter::Close**](iappxpackagewriter-close.md) method to write the manifest at the end of the package and close the output stream for package writer.
+Every package must have a package manifest. To add the package manifest to the package, create an input stream for the file, then call the [**IAppxPackageWriter::Close**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxpackagewriter-close?branch=master) method to write the manifest at the end of the package and close the output stream for package writer.
 
 This code uses the `GetFileStream` helper function shown in the previous step to create the stream for the package manifest.
 
@@ -304,7 +309,7 @@ CoUninitialize();
 **Reference**
 </dt> <dt>
 
-[**IAppxPackageWriter**](iappxpackagewriter.md)
+[**IAppxPackageWriter**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxpackagewriter?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,11 @@
 ---
 title: IEnumNetFwV6Connections Clone method
 description: The Clone method creates a new enumeration interface from this enumeration.
-ms.assetid: 'b1dd9dea-014e-4dc2-8058-e712887fa5e1'
-keywords: ["Clone method ICS/ICF", "Clone method ICS/ICF , IEnumNetFwV6Connections interface", "IEnumNetFwV6Connections interface ICS/ICF , Clone method"]
+ms.assetid: b1dd9dea-014e-4dc2-8058-e712887fa5e1
+keywords:
+- Clone method ICS/ICF
+- Clone method ICS/ICF , IEnumNetFwV6Connections interface
+- IEnumNetFwV6Connections interface ICS/ICF , Clone method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumNetFwV6Connections::Clone method
@@ -24,7 +32,7 @@ The **Clone** method creates a new enumeration interface from this enumeration.
 
 ```C++
 HRESULT Clone(
-  [out] IEnumNetFwV6Connection **ppEnum
+  [out] IEnumNetFwV6Connection **ppEnum
 );
 ```
 
@@ -62,7 +70,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,10 +78,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -89,9 +97,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

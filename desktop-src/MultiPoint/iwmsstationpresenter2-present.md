@@ -4,11 +4,14 @@ description: Displays an updated frame buffer from the input device. This method
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '36CAC6BF-E300-4457-8C5E-BC7335AA6B59'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 36CAC6BF-E300-4457-8C5E-BC7335AA6B59
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Present method", "Present method, IWmsStationPresenter2 interface", "IWmsStationPresenter2 interface, Present method"]
+keywords:
+- Present method
+- Present method, IWmsStationPresenter2 interface
+- IWmsStationPresenter2 interface, Present method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsStationPresenter2::Present method
@@ -30,11 +36,11 @@ Displays an updated frame buffer from the input device. This method was inherite
 
 ```C++
 HRESULT Present(
-  [in, size_is(cxFrameBuffer * cyFrameBuffer * (cBitsPerPixel / 8)] const BYTE *pbFrameBuffer,
-  [in]                                                                    UINT cxFrameBuffer,
-  [in]                                                                    UINT cyFrameBuffer,
-  [in]                                                                    UINT cBitsPerPixel,
-  [in]                                                              const HRGN hRgnDirty
+  [in, size_is(cxFrameBuffer * cyFrameBuffer * (cBitsPerPixel / 8)] const BYTE *pbFrameBuffer,
+  [in]                                                                    UINT cxFrameBuffer,
+  [in]                                                                    UINT cyFrameBuffer,
+  [in]                                                                    UINT cBitsPerPixel,
+  [in]                                                              const HRGN hRgnDirty
 );
 ```
 
@@ -90,7 +96,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationPresenter2 is defined as 5c03282a-b68f-476a-ace8-e0736a9d1260<br/>           |
 
@@ -103,9 +109,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsStationPresenter2**](iwmsstationpresenter2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

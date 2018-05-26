@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains data for memory pressure reporting.'
-ms.assetid: 'bdf65d35-281f-4795-a2c1-0d4e91bfa7bc'
+---
+Description: Contains data for memory pressure reporting.
+ms.assetid: bdf65d35-281f-4795-a2c1-0d4e91bfa7bc
 title: D3DMEMORYPRESSURE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DMEMORYPRESSURE structure

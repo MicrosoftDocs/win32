@@ -1,8 +1,9 @@
 ---
 title: TranslateDispatch callback function
 description: Used by the client of the DoReaderMode function to intercept and explicitly handle any windows messages targeted for the scrolling area of the reader mode window. This is an application-defined callback function.
-ms.assetid: 'a50cff4f-ae10-4c3c-a386-9ec7c7d6256f'
-keywords: ["TranslateDispatch callback function Windows Controls"]
+ms.assetid: a50cff4f-ae10-4c3c-a386-9ec7c7d6256f
+keywords:
+- TranslateDispatch callback function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -10,6 +11,11 @@ api_name:
 - PFNREADERTRANSLATEDISPATCH
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TranslateDispatch callback function
@@ -23,7 +29,7 @@ Used by the client of the [**DoReaderMode**](doreadermode.md) function to interc
 
 ```C++
 BOOL CALLBACK TranslateDispatch(
-  _In_ const MSG *lpmsg
+  _In_ const MSG *lpmsg
 );
 ```
 
@@ -78,14 +84,14 @@ TranslateDispatchCallback(LPMSG lpmsg)
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
+| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

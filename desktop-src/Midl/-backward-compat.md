@@ -1,7 +1,12 @@
 ---
 title: /backward\_compat Switch
 description: The /backward\_compat switch directs the MIDL compiler to turn off some advanced features when generating RPC/COM stubs.
-ms.assetid: 'eec0ade7-30a0-44e4-92e9-fb03ff657723'
+ms.assetid: eec0ade7-30a0-44e4-92e9-fb03ff657723
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /backward\_compat Switch

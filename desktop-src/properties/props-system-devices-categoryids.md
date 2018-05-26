@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the actual raw category.'
-ms.assetid: 'd2835eb7-c1e5-43e7-8b7f-fd70d29dd528'
-title: 'System.Devices.CategoryIds'
+Description: Indicates the actual raw category.
+ms.assetid: d2835eb7-c1e5-43e7-8b7f-fd70d29dd528
+title: System.Devices.CategoryIds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.CategoryIds

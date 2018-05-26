@@ -1,8 +1,10 @@
 ---
 title: INETLANGMASK enumeration
 description: Do not use. Specifies the validity of a member of the CODEPAGEINFO structure.
-ms.assetid: 'fabe6728-d0c0-48bd-acc8-e60fe2c77637'
-keywords: ["INETLANGMASK enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: fabe6728-d0c0-48bd-acc8-e60fe2c77637
+keywords:
+- INETLANGMASK enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INETLANGMASK enumeration
@@ -22,13 +29,13 @@ Do not use. Specifies the validity of a member of the [**CODEPAGEINFO**](oe-code
 
 ```C++
 typedef enum tagINETLANGMASK { 
-  ILM_FAMILY        = 0x00000001,
-  ILM_NAME          = 0x00000002,
-  ILM_BODYCSET      = 0x00000004,
-  ILM_HEADERCSET    = 0x00000008,
-  ILM_WEBCSET       = 0x00000010,
-  ILM_FIXEDFONT     = 0x00000020,
-  ILM_VARIABLEFONT  = 0x00000040
+  ILM_FAMILY        = 0x00000001,
+  ILM_NAME          = 0x00000002,
+  ILM_BODYCSET      = 0x00000004,
+  ILM_HEADERCSET    = 0x00000008,
+  ILM_WEBCSET       = 0x00000010,
+  ILM_FIXEDFONT     = 0x00000020,
+  ILM_VARIABLEFONT  = 0x00000040
 } ACCESSTYPE;
 ```
 
@@ -93,17 +100,17 @@ Indicates that **szVariableFont** is valid.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

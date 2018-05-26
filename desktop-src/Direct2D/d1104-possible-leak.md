@@ -1,14 +1,20 @@
 ---
 title: D1104 Possible Leak
-ms.assetid: '564de2e2-5004-43e8-8616-1ab11127738a'
+ms.assetid: 564de2e2-5004-43e8-8616-1ab11127738a
 description: 
-keywords: ["D1104 Possible Leak Direct2D"]
+keywords:
+- D1104 Possible Leak Direct2D
 topic_type:
 - apiref
 api_name:
 - D1104 Possible Leak
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1104: Possible Leak

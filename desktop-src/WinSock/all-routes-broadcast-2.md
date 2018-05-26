@@ -1,7 +1,12 @@
 ---
-Description: 'A general broadcast through the Internet is achieved by setting the sa\_netnum and sa\_nodenum fields to binary ones (1).'
-ms.assetid: 'a56f3059-d6e5-42eb-8ba2-16071fffafa5'
+Description: A general broadcast through the Internet is achieved by setting the sa\_netnum and sa\_nodenum fields to binary ones (1).
+ms.assetid: a56f3059-d6e5-42eb-8ba2-16071fffafa5
 title: All Routes Broadcast
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # All Routes Broadcast

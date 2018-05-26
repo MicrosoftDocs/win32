@@ -1,7 +1,12 @@
 ---
 title: Error and Exception Handling
 description: All WPD Automation errors are returned as standard JScript exceptions. Script writers are encouraged to wrap script code in try-catch blocks and handle errors appropriately.
-ms.assetid: 'ea17d052-79d6-4e53-87c8-033c0a1c7fe6'
+ms.assetid: ea17d052-79d6-4e53-87c8-033c0a1c7fe6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error and Exception Handling

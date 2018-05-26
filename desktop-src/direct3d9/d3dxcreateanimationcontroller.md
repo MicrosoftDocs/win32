@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an animation controller object.'
-ms.assetid: '771e5966-ac1a-43c2-8e81-b6d573343ff0'
+---
+Description: Creates an animation controller object.
+ms.assetid: 771e5966-ac1a-43c2-8e81-b6d573343ff0
 title: D3DXCreateAnimationController function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateAnimationController function

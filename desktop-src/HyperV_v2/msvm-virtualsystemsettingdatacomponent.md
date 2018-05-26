@@ -1,7 +1,12 @@
 ---
-Description: 'A generic association used to establish 'part of' relationships between one instance of CIM\_VirtualSystemSettingData and one or more instances of CIM\_ResourceAllocationSettingData.'
-ms.assetid: '936B41E7-1B3B-4A7B-86F0-E2F4497CE610'
-title: 'Msvm\_VirtualSystemSettingDataComponent class'
+Description: A generic association used to establish part of relationships between one instance of CIM\_VirtualSystemSettingData and one or more instances of CIM\_ResourceAllocationSettingData.
+ms.assetid: 936B41E7-1B3B-4A7B-86F0-E2F4497CE610
+title: Msvm\_VirtualSystemSettingDataComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemSettingDataComponent class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemSettingDataComponent : CIM_VirtualSystemSettingDataComponent
 {
-  CIM_VirtualSystemSettingData      REF GroupComponent;
+  CIM_VirtualSystemSettingData      REF GroupComponent;
   CIM_ResourceAllocationSettingData REF PartComponent;
 };
 ```
@@ -72,8 +77,8 @@ Access to the **Msvm\_VirtualSystemSettingDataComponent** class might be restric
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ Access to the **Msvm\_VirtualSystemSettingDataComponent** class might be restric
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

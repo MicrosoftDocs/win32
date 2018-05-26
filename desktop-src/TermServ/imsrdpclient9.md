@@ -4,11 +4,13 @@ description: Provides the methods and properties needed to configure and use the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '353f0328-d8a3-4466-bf23-c6d6b8a47e5d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 353f0328-d8a3-4466-bf23-c6d6b8a47e5d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClient9 interface Remote Desktop Services", "IMsRdpClient9 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClient9 interface Remote Desktop Services
+- IMsRdpClient9 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient9 interface
@@ -48,15 +53,15 @@ The **IMsRdpClient9** interface has these methods.
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)          | Retrieves the options set for a virtual channel.<br/>                                                                                                                                 |
 | [**Reconnect**](imsrdpclient8-reconnect.md)                                       | Reconnects to the remote session with the new desktop width and height.<br/>                                                                                                          |
 | [**RequestClose**](imsrdpclient-requestclose.md)                                  | Requests a graceful shutdown of the Remote Desktop ActiveX control.<br/>                                                                                                              |
-| [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                      | Sends data to the RD Session Host server over a virtual channel that was created previously by using the [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.<br/> |
+| [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)                      | Sends data to the RD Session Host server over a virtual channel that was created previously by using the [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) method.<br/> |
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                         | Causes an action to be performed in the remote session.<br/>                                                                                                                          |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | Sets the virtual channel options for the Remote Desktop ActiveX control.<br/>                                                                                                         |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)     | Synchronizes session display settings.<br/>                                                                                                                                           |
-| [**UpdateSessionDisplaySettings**](imsrdpclient9-updatesessiondisplaysettings.md) | Updates session display settings.<br/>                                                                                                                                                |
+| [**UpdateSessionDisplaySettings**](/windows/win32/rdpappcontainerclient/?branch=master) | Updates session display settings.<br/>                                                                                                                                                |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -96,7 +101,7 @@ The **IMsRdpClient9** interface has these properties.
 | [**SecuredSettings3**](imsrdpclient7-securedsettings3.md)<br/>                | Read-only<br/>  | Retrieves an object that supports the [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings2.md) interface.<br/>                                                                                                                       |
 | [**SecuredSettingsEnabled**](imstscax-securedsettingsenabled.md)<br/>         | Read-only<br/>  | Indicates whether the [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) interface is available. That is, whether the webpage containing the control is currently in one of the allowed Internet Explorer URL security zones.<br/> |
 | [**Server**](imstscax-server.md)<br/>                                         | Read/write<br/> | Specifies the name of the server to which the current control is connected.<br/>                                                                                                                                                                 |
-| [**StartConnected**](imstscax-startconnected.md)<br/>                         | Read/write<br/> | Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/>                                                                                                                                |
+| [**StartConnected**](imstscax-startconnected.md)<br/>                         | Read/write<br/> | Indicates whether the control will establish the RD Session Host server connection immediately upon startup.<br/>                                                                                                                                |
 | [**TransportSettings**](imsrdpclient5-transportsettings.md)<br/>              | Read-only<br/>  | Retrieves what was passed through a script to the [**IMsRdpClientTransportSettings**](imsrdpclienttransportsettings.md) interface.<br/>                                                                                                         |
 | [**TransportSettings2**](imsrdpclient6-transportsettings2.md)<br/>            | Read-only<br/>  | Retrieves the [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md) interface.<br/>                                                                                                                                           |
 | [**TransportSettings3**](imsrdpclient7-transportsettings3.md)<br/>            | Read-only<br/>  | Retrieves an object that supports the [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md) interface.<br/>                                                                                                                   |
@@ -107,7 +112,7 @@ The **IMsRdpClient9** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -123,8 +128,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                                                                                                                                                                                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                                                                                                                                                                                                                                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                                                                                                                                                                                                                                                                                               |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                                                                                                                                                                                                                                                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                                                                                                                                                                                                                                                                                               |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                                                                                                                                                                                                          |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                                                                                                                                                                                                          |
 | CLSID<br/>                    | CLSID\_MsRdpClient10 is defined as C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24<br/> CLSID\_MsRdpClient10NotSafeForScripting is defined as A0C63C30-F08D-4AB4-907C-34905D770C7D<br/> CLSID\_MsRdpClient9 is defined as 301B94BA-5D25-4A12-BFFE-3B6E7A616585<br/> CLSID\_MsRdpClient9NotSafeForScripting is defined as 8B918B82-7985-4C24-89DF-C33AD2BBFBCD<br/> |
@@ -166,9 +171,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

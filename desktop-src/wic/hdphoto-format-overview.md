@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).'
-ms.assetid: 'C73752AB-3D6E-4D92-9FDE-CB68B6A9743C'
+Description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
+ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: HD Photo Format Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HD Photo Format Overview
@@ -95,9 +100,9 @@ VT\_BOOL
 
 VT\_UI1
 
-[**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md)
+[**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master)
 
-[**WICBitmapTransformRotate0**](-wic-codec-wicbitmaptransformoptions.md)
+[**WICBitmapTransformRotate0**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master)
 
 HD Photo Specific Encoder Options
 
@@ -239,9 +244,9 @@ The default value is **FALSE**.
 
 ### BitmapTransform Option
 
-Specifies how the image is transformed during image decoding. You must set this option to one of the [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) enumeration values.
+Specifies how the image is transformed during image decoding. You must set this option to one of the [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) enumeration values.
 
-The default value is [**WICBitmapTransformOptions::WICBitmapTransformRotate0**](-wic-codec-wicbitmaptransformoptions.md).
+The default value is [**WICBitmapTransformOptions::WICBitmapTransformRotate0**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master).
 
 ### UseCodecOptions Option
 
@@ -344,7 +349,7 @@ When the codec performs a compressed domain operation, only certain encoder para
 -   If present, the [HorizontalTileSlices](#-horizontaltileslices) and [VerticalTileSlices](#-verticaltileslices) options must be set to zero. The tile size of an image cannot be changed as part of a compressed domain transcode.
 -   You can change the image organization between frequency and spatial ordering by specifying the appropriate value of the [FrequencyOrdering](#-frequencyordering) options.
 -   A cardinal rotation and/or horizontal/vertical flip operation can be performed based on the value specified in the [BitmapTransform](#bitmaptransform-option) encoder option.
--   The image can be cropped by specifying the desired region using the [**WICRect**](-wic-codec-iwicbitmapframeencode-writesource.md) parameter of the **WriteSource** encoder method.
+-   The image can be cropped by specifying the desired region using the [**WICRect**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource?branch=master) parameter of the **WriteSource** encoder method.
 -   Image and/or alpha data can be discarded by specifying the appropriate values in the [ImageDataDiscard](#imagedatadiscard-option) and/or [AlphaDataDiscard](#alphadatadiscard-option) options, reducing the encoded file size and effectively reducing the resolution of the new image.
 
 The default value is **TRUE** and we recommend that applications and devices always use the frequency order unless you have specific performance or application reasons to use the spatial order.
@@ -404,18 +409,18 @@ The WIC decoding API are designed to be codec-independent and image decoding for
 
 ### IWICBitmapSourceTransform Support
 
-In addition to the interfaces required to be a WIC-enabled codec, the native HD Photo decoder also supports the [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md). The **IWICBitmapSourceTransform** interface provides an advanced option for decoding an image bit stream. Rather than just return a complete image using [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md), **IWICBitmapSourceTransform** interface enables the following decoder options.
+In addition to the interfaces required to be a WIC-enabled codec, the native HD Photo decoder also supports the [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master). The **IWICBitmapSourceTransform** interface provides an advanced option for decoding an image bit stream. Rather than just return a complete image using [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master), **IWICBitmapSourceTransform** interface enables the following decoder options.
 
 -   Decode a rectangular sub-region of the image.
 -   Decode to a lower resolution
 -   Decode to a different pixel format
 -   Perform a transformation (rotation/flip) while decoding
 
-The native HD Photo codec provides the following level of support for the [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) interface.
+The native HD Photo codec provides the following level of support for the [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) interface.
 
 ### DoesSupportTransform
 
-Native implementation supports all [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) transforms.
+Native implementation supports all [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) transforms.
 
 ### GetClosestSize
 
@@ -427,11 +432,11 @@ HD Photo returns the pixel format of the encoded image.
 
 ### CopyPixels
 
-HD Photo accepts any requested region specified by the [**WICRect**](-wic-codec-wicrect.md) parameter and returns that portion of the image.
+HD Photo accepts any requested region specified by the [**WICRect**](/windows/win32/Wincodec/ns-wincodec-wicrect?branch=master) parameter and returns that portion of the image.
 
-The *uiWidth* and *uiHeight* parameters must specify dimensions as returned by the [**GetClosestSize**](-wic-codec-iwicbitmapsourcetransform-getclosestsize.md) function. Any other values return an error.
+The *uiWidth* and *uiHeight* parameters must specify dimensions as returned by the [**GetClosestSize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestsize?branch=master) function. Any other values return an error.
 
-The *pguidDstFormat* parameter must specify the pixel format returned by the [**GetClosestPixelFormat**](-wic-codec-iwicbitmapsourcetransform-getclosestpixelformat.md) function. Any other value returns an error.
+The *pguidDstFormat* parameter must specify the pixel format returned by the [**GetClosestPixelFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsourcetransform-getclosestpixelformat?branch=master) function. Any other value returns an error.
 
 HD Photo accepts any allowable value for the *dstTransform* parameter. Note that the values allowed by WIC for this parameter are different from the values used by HD Photo for the Transformation metadata tag.
 

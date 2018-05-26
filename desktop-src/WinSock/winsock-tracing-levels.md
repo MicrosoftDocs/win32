@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'a92bc4d2-257a-478a-b10d-4fada4323c9b'
+ms.assetid: a92bc4d2-257a-478a-b10d-4fada4323c9b
 title: Winsock Tracing Levels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock Tracing Levels
@@ -64,7 +69,7 @@ All of the information events are traced at the verbose level. The following lis
 
 -   WSAPoll and select
 
-    An event is logged of an application's usage of [**WSAPoll**](wsapoll.md) and [**select**](select-2.md) calls which can be used to find performance bottlenecks.
+    An event is logged of an application's usage of [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) and [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) calls which can be used to find performance bottlenecks.
 
 -   Winsock-initiated aborts and cancels
 
@@ -72,7 +77,7 @@ All of the information events are traced at the verbose level. The following lis
 
 -   Event mask
 
-    An event is logged of the event mask an application registers for using the [**WSAEventSelect**](wsaeventselect-2.md) function.
+    An event is logged of the event mask an application registers for using the [**WSAEventSelect**](/windows/win32/Winsock2/nf-winsock2-wsaeventselect?branch=master) function.
 
 -   Datagram
 

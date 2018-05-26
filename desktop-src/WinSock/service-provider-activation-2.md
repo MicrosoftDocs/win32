@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe the sequence of events involved in bringing a transport service provider DLL into memory, initializing it, and eventually, uninitializing it.InitializationCleanupError Reporting and Parameter ValidationByte Ordering Assumptions'
-ms.assetid: 'fa71fcb9-c35f-4b5f-ac04-34a24dec5055'
+Description: The following sections describe the sequence of events involved in bringing a transport service provider DLL into memory, initializing it, and eventually, uninitializing it.InitializationCleanupError Reporting and Parameter ValidationByte Ordering Assumptions
+ms.assetid: fa71fcb9-c35f-4b5f-ac04-34a24dec5055
 title: Service Provider Activation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Provider Activation

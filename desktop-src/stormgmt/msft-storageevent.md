@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageEvent class
 description: Base class for representing storage events.
-ms.assetid: '77338A5C-7AF6-4C78-80E1-AF557B60CA46'
-keywords: ["MSFT_StorageEvent class Windows Storage Management API", "MSFT_StorageEvent class Windows Storage Management API , described"]
+ms.assetid: 77338A5C-7AF6-4C78-80E1-AF557B60CA46
+keywords:
+- MSFT_StorageEvent class Windows Storage Management API
+- MSFT_StorageEvent class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageEvent class
@@ -32,13 +39,13 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 [Indication, Abstract]
 class MSFT_StorageEvent
 {
-  String   SourceObjectId;
-  String   SourceClassName;
-  String   SourceNamespace;
-  String   SourceServer;
-  String   Description;
+  String   SourceObjectId;
+  String   SourceClassName;
+  String   SourceNamespace;
+  String   SourceServer;
+  String   Description;
   Datetime EventTime;
-  UInt16   PerceivedSeverity;
+  UInt16   PerceivedSeverity;
 };
 ```
 
@@ -108,7 +115,7 @@ One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -176,8 +183,8 @@ The source server of the object that caused the event.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -199,9 +206,9 @@ The source server of the object that caused the event.
 [**MSFT\_StorageModificationEvent**](msft-storagemodificationevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

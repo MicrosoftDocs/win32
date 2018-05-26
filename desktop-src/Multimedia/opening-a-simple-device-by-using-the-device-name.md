@@ -1,13 +1,19 @@
 ---
 title: Opening a Simple Device by Using the Device Name
 description: Opening a Simple Device by Using the Device Name
-ms.assetid: '9e116499-2094-40e1-b2bc-3e3b8281a472'
-keywords: ["mciSendCommand function"]
+ms.assetid: 9e116499-2094-40e1-b2bc-3e3b8281a472
+keywords:
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Simple Device by Using the Device Name
 
-The following example opens a CD audio device by specifying the device name using the [**mciSendCommand**](mcisendcommand.md) function.
+The following example opens a CD audio device by specifying the device name using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

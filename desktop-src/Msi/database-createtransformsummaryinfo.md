@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateTransformSummaryInfo method of the Database object creates and populates the summary information stream of an existing transform file. This method fills in the properties with the base and reference ProductCode and ProductVersion.'
-ms.assetid: '67df9b9c-0e7c-49a6-a35e-5196327d6aff'
-title: 'Database.CreateTransformSummaryInfo method'
+Description: The CreateTransformSummaryInfo method of the Database object creates and populates the summary information stream of an existing transform file. This method fills in the properties with the base and reference ProductCode and ProductVersion.
+ms.assetid: 67df9b9c-0e7c-49a6-a35e-5196327d6aff
+title: Database.CreateTransformSummaryInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database.CreateTransformSummaryInfo method
@@ -59,7 +64,7 @@ Required error conditions that should be suppressed when the transform is applie
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +85,7 @@ Combine one or more of the following values.
 
 
 
- 
+ 
 
 To validate product version, first choose one or more of these three flags to indicate how much of the version is to be verified.
 
@@ -94,7 +99,7 @@ To validate product version, first choose one or more of these three flags to in
 
 
 
- 
+ 
 
 Then choose one of the following to indicate the required relationship between the product version of the database the transform is being applied to and that of the base database.
 
@@ -110,7 +115,7 @@ Then choose one of the following to indicate the required relationship between t
 
 
 
- 
+ 
 
 To validate that the transform is being applied to a package having the appropriate [**UpgradeCode**](upgradecode.md), set the following flag.
 
@@ -122,7 +127,7 @@ To validate that the transform is being applied to a package having the appropri
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -140,7 +145,7 @@ To create a summary information stream for a transform, the [**ProductCode**](pr
 
 |                    |                                                                                                                                                                                                                                                         |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID\_IDatabase is defined as 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
@@ -153,9 +158,9 @@ To create a summary information stream for a transform, the [**ProductCode**](pr
 [Database Transforms](database-transforms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

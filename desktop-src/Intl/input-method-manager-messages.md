@@ -1,7 +1,12 @@
 ---
-Description: 'These topics describe the messages that the IMM processes for the IME.'
-ms.assetid: '9bf07804-247b-46e2-86da-c9eaf841d556'
+Description: These topics describe the messages that the IMM processes for the IME.
+ms.assetid: 9bf07804-247b-46e2-86da-c9eaf841d556
 title: Input Method Manager Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Method Manager Messages

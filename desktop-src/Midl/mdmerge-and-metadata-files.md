@@ -1,8 +1,16 @@
 ---
 title: MDMERGE and metadata files
 description: Composes multiple metadata (.winmd) files into a number of output metadata files, based on namespace.
-ms.assetid: 'A3203627-82DF-4744-BBBC-53D13F30210E'
-keywords: ["metadata", "winmd file", "Windows metadata"]
+ms.assetid: A3203627-82DF-4744-BBBC-53D13F30210E
+keywords:
+- metadata
+- winmd file
+- Windows metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDMERGE and metadata files

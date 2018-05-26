@@ -1,7 +1,12 @@
 ---
 title: Translating to Java from Visual Basic
 description: Translating to Java from Visual Basic
-ms.assetid: '2bd61efc-f4f4-46f7-aa5a-f6cefc54d86b'
+ms.assetid: 2bd61efc-f4f4-46f7-aa5a-f6cefc54d86b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to Java from Visual Basic

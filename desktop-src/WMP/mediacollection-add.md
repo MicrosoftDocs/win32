@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.add method
 description: The add method adds a new media item or playlist to the library.
-ms.assetid: 'f9dfefbc-c240-41c0-abb9-4bc5012c147c'
-keywords: ["add method Windows Media Player", "add method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , add method"]
+ms.assetid: f9dfefbc-c240-41c0-abb9-4bc5012c147c
+keywords:
+- add method Windows Media Player
+- add method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.add method
@@ -108,9 +116,9 @@ Player.mediaCollection.add("C:\\WMSDK\\WMPSDK\\docs\\samples\\media\\house.wma")
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

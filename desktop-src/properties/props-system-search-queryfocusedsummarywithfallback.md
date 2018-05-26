@@ -1,7 +1,12 @@
 ---
-Description: 'The query-focused summary of the document. If none is available, the AutoSummary is returned.'
-ms.assetid: '871a7b99-bb3c-4daf-bbe0-0d9e6b02f0a1'
-title: 'System.Search.QueryFocusedSummaryWithFallback'
+Description: The query-focused summary of the document. If none is available, the AutoSummary is returned.
+ms.assetid: 871a7b99-bb3c-4daf-bbe0-0d9e6b02f0a1
+title: System.Search.QueryFocusedSummaryWithFallback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.QueryFocusedSummaryWithFallback

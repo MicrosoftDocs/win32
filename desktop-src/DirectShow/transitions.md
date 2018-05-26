@@ -1,7 +1,12 @@
 ---
 Description: Transitions
-ms.assetid: '364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a'
+ms.assetid: 364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a
 title: Transitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transitions

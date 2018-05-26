@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SourceDir property is the root directory that contains the source cabinet file or the source file tree of the installation package. This value is used for directory resolution.'
-ms.assetid: '79c7c5eb-b212-4dbf-943a-00ebd6037ce1'
+---
+Description: The SourceDir property is the root directory that contains the source cabinet file or the source file tree of the installation package. This value is used for directory resolution.
+ms.assetid: 79c7c5eb-b212-4dbf-943a-00ebd6037ce1
 title: SourceDir property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SourceDir property
@@ -14,7 +19,7 @@ The directory that contains the installation package.
 
 ## Remarks
 
-The [ResolveSource action](resolvesource-action.md) must be called before using the **SourceDir** property in any expression or attempting to retrieve the value of **SourceDir** with [**MsiGetProperty**](msigetproperty.md). The ResolveSource action should not be run while the source is unavailable, such as when uninstalling an application, because this can cause an unintended prompt for the source media.
+The [ResolveSource action](resolvesource-action.md) must be called before using the **SourceDir** property in any expression or attempting to retrieve the value of **SourceDir** with [**MsiGetProperty**](/windows/win32/Msiquery/nf-msiquery-msigetpropertya?branch=master). The ResolveSource action should not be run while the source is unavailable, such as when uninstalling an application, because this can cause an unintended prompt for the source media.
 
 ## Requirements
 

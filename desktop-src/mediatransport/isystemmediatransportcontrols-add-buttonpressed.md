@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControls add\_ButtonPressed method
 description: Adds an event handler for the ButtonPressed event.
-ms.assetid: 'BF105CD7-03EA-4B40-A38C-D4F50180D46F'
-keywords: ["add_ButtonPressed method", "add_ButtonPressed method, ISystemMediaTransportControls interface", "ISystemMediaTransportControls interface, add_ButtonPressed method"]
+ms.assetid: BF105CD7-03EA-4B40-A38C-D4F50180D46F
+keywords:
+- add_ButtonPressed method
+- add_ButtonPressed method, ISystemMediaTransportControls interface
+- ISystemMediaTransportControls interface, add_ButtonPressed method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControls::add\_ButtonPressed method
@@ -22,8 +30,8 @@ Adds an event handler for the [**ButtonPressed**](https://msdn.microsoft.com/lib
 
 ```C++
 HRESULT add_ButtonPressed(
-        IEventHandler<ISystemMediaTransportControlsButtonPressedEventArgs*> *handler,
-  [out] EventRegistrationToken                                              *token
+        IEventHandler<ISystemMediaTransportControlsButtonPressedEventArgs*> *handler,
+  [out] EventRegistrationToken                                              *token
 );
 ```
 
@@ -63,8 +71,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -77,9 +85,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GET\_SOURCE message
 description: The MCIWNDM\_GET\_SOURCE message retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndGetSource macro.
-ms.assetid: 'd5f25926-5a3d-412e-8248-fbf307583757'
-keywords: ["MCIWNDM_GET_SOURCE message Windows Multimedia"]
+ms.assetid: d5f25926-5a3d-412e-8248-fbf307583757
+keywords:
+- MCIWNDM_GET_SOURCE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GET\_SOURCE message
 
-The **MCIWNDM\_GET\_SOURCE** message retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndGetSource**](mciwndgetsource.md) macro.
+The **MCIWNDM\_GET\_SOURCE** message retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndGetSource**](/windows/win32/Vfw/nf-vfw-mciwndgetsource?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndGetSource**](mciwndgetsource.md)
+[**MCIWndGetSource**](/windows/win32/Vfw/nf-vfw-mciwndgetsource?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

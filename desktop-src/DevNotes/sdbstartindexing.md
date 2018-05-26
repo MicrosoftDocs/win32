@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables index creation and modification for the specified database.'
-ms.assetid: 'f780034e-6963-423c-8ffa-9fbe98dca7e1'
+---
+Description: Enables index creation and modification for the specified database.
+ms.assetid: f780034e-6963-423c-8ffa-9fbe98dca7e1
 title: SdbStartIndexing function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbStartIndexing function

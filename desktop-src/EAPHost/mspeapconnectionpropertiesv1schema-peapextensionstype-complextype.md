@@ -1,19 +1,25 @@
 ---
 title: PeapExtensionsType Complex Type
-description: Contains schema enhancements made in Windows 7. Future schema enhancements will be handled by PeapExtensionsTypeV2.
-ms.assetid: 'a8fb8474-a375-4401-83b0-4fa87d637209'
-keywords: ["PeapExtensionsType complex type EAPHost"]
+description: Contains schema enhancements made in Windows 7. Future schema enhancements will be handled by PeapExtensionsTypeV2.
+ms.assetid: a8fb8474-a375-4401-83b0-4fa87d637209
+keywords:
+- PeapExtensionsType complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - PeapExtensionsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PeapExtensionsType Complex Type
 
-The **PeapExtensionsType** complex type contains schema enhancements made in Windows 7. Future schema enhancements will be handled by [**PeapExtensionsTypeV2**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md).
+The **PeapExtensionsType** complex type contains schema enhancements made in Windows 7. Future schema enhancements will be handled by [**PeapExtensionsTypeV2**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md).
 
 ``` syntax
 <xs:complexType name="PeapExtensionsType">
@@ -44,10 +50,10 @@ The **PeapExtensionsType** complex type contains schema enhancements made in Win
 
 | Element                                                                                                                               | Type | Description                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------|------|------------------------------------------------------------------------------------------------------------|
-| [**extendedPeap:PerformServerValidation**](mspeapconnectionpropertiesv1schema-performservervalidation-peapextensionstype-element.md) |      | Windows 7 and later: indicates whether server validation is performed.<br/>                          |
-| [**extendedPeap:AcceptServerName**](mspeapconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md)               |      | Windows 7 and later: indicates whether the name of a server is read.<br/>                            |
-| [**extendedPeap:IdentityPrivacy**](mspeapconnectionpropertiesv1schema-identityprivacy-peapextensionstype-element.md)                 |      | Windows 7 and later: indicates whether a user's true identity or an anonymous identity is sent.<br/> |
-| [**extendedPeap:PeapExtensionsV2**](mspeapconnectionpropertiesv1-peapextensionsv2-peapextensionstype-element.md)                     |      | Windows 7 and later: enables future enhancements to the schema.<br/>                                 |
+| [**extendedPeap:PerformServerValidation**](mspeapconnectionpropertiesv1schema-performservervalidation-peapextensionstype-element.md) |      | Windows 7 and later: indicates whether server validation is performed.<br/>                          |
+| [**extendedPeap:AcceptServerName**](mspeapconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md)               |      | Windows 7 and later: indicates whether the name of a server is read.<br/>                            |
+| [**extendedPeap:IdentityPrivacy**](mspeapconnectionpropertiesv1schema-identityprivacy-peapextensionstype-element.md)                 |      | Windows 7 and later: indicates whether a user's true identity or an anonymous identity is sent.<br/> |
+| [**extendedPeap:PeapExtensionsV2**](mspeapconnectionpropertiesv1-peapextensionsv2-peapextensionstype-element.md)                     |      | Windows 7 and later: enables future enhancements to the schema.<br/>                                 |
 
 
 
@@ -61,8 +67,8 @@ The **PeapExtensionsType** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -79,9 +85,9 @@ The **PeapExtensionsType** element is optional.
 [mspeapconnectionpropertiesv1 Schema Complex Types](mspeapconnectionpropertiesv1schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

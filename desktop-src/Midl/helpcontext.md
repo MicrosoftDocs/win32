@@ -2,13 +2,19 @@
 title: helpcontext attribute
 description: The \ helpcontext\ attribute specifies a context identifier that lets the user view information about this element in the Help file.
 ms.assetid: 44a60c75-be69-4cd9-afb0-5eb988830e6c
-keywords: ["helpcontext attribute MIDL"]
+keywords:
+- helpcontext attribute MIDL
 topic_type:
 - apiref
 api_name:
 - helpcontext
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # helpcontext attribute

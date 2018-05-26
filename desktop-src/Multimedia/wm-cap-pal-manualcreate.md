@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_PAL\_MANUALCREATE message
 description: The WM\_CAP\_PAL\_MANUALCREATE message requests that the capture driver manually sample video frames and create a new palette. You can send this message explicitly or by using the capPaletteManual macro.
-ms.assetid: '96b6b2d6-084a-411e-8495-ea27e0c4f04f'
-keywords: ["WM_CAP_PAL_MANUALCREATE message Windows Multimedia"]
+ms.assetid: 96b6b2d6-084a-411e-8495-ea27e0c4f04f
+keywords:
+- WM_CAP_PAL_MANUALCREATE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_PAL\_MANUALCREATE message
 
-The **WM\_CAP\_PAL\_MANUALCREATE** message requests that the capture driver manually sample video frames and create a new palette. You can send this message explicitly or by using the [**capPaletteManual**](cappalettemanual.md) macro.
+The **WM\_CAP\_PAL\_MANUALCREATE** message requests that the capture driver manually sample video frames and create a new palette. You can send this message explicitly or by using the [**capPaletteManual**](/windows/win32/Vfw/nf-vfw-cappalettemanual?branch=master) macro.
 
 
 ```C++
@@ -56,8 +62,8 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

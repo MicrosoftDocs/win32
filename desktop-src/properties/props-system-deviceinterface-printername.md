@@ -1,7 +1,12 @@
 ---
-Description: 'The name of the printer.'
-ms.assetid: '80EBA03F-E703-4783-AD22-15A8592E0B81'
-title: 'System.DeviceInterface.PrinterName'
+Description: The name of the printer.
+ms.assetid: 80EBA03F-E703-4783-AD22-15A8592E0B81
+title: System.DeviceInterface.PrinterName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.PrinterName

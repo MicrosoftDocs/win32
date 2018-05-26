@@ -1,7 +1,12 @@
 ---
-Description: 'Describes two types of disk quota limits and how disk quota limits are measured.'
-ms.assetid: '6595d5e0-eb97-437e-abd2-3a04faefde7d'
+Description: Describes two types of disk quota limits and how disk quota limits are measured.
+ms.assetid: 6595d5e0-eb97-437e-abd2-3a04faefde7d
 title: Disk Quota Limits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Quota Limits
@@ -21,13 +26,13 @@ There are two types of disk quota limits, as shown in the following table.
 
 
 
- 
+ 
 
 The NTFS file system automatically creates a user quota entry when a user first writes to the volume. Entries that are created automatically are assigned the default warning threshold and hard quota limit values for the volume.
 
- 
+ 
 
- 
+ 
 
 
 

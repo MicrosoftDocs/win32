@@ -1,25 +1,30 @@
 ---
 title: How to Create a Radial Gradient Brush
 description: Shows how to create a radial gradient brush using Direct2D.
-ms.assetid: '663743c9-16e9-4e3a-90b2-883ef0b8d5cf'
+ms.assetid: 663743c9-16e9-4e3a-90b2-883ef0b8d5cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Radial Gradient Brush
 
-To create a radial gradient brush, use the [**ID2DRenderTarget::CreateRadialGradientBrush**](id2d1rendertarget-createradialgradientbrush.md) method and specify the radial gradient brush properties and the gradient stop collection. Some overloads enable you to specify the brush properties. The following code shows how to create a radial gradient brush to fill a circle, and a solid black brush to draw the outline of the circle.
+To create a radial gradient brush, use the [**ID2DRenderTarget::CreateRadialGradientBrush**](/windows/win32/d2d1/nf-d2d1-createradialgradientbrush?branch=master) method and specify the radial gradient brush properties and the gradient stop collection. Some overloads enable you to specify the brush properties. The following code shows how to create a radial gradient brush to fill a circle, and a solid black brush to draw the outline of the circle.
 
 The code produces the output shown in the following illustration.
 
 ![illustration of a circle filled with a radial gradient brush](images/brushes-ovw-radials.png)
 
-1.  Declare a variable of type [**ID2D1RadialGradientBrush**](id2d1radialgradientbrush.md).
+1.  Declare a variable of type [**ID2D1RadialGradientBrush**](/windows/win32/d2d1/?branch=master).
     ```C++
         ID2D1RadialGradientBrush *m_pRadialGradientBrush;
     ```
 
     
 
-2.  Create an array of [**D2D1\_GRADIENT\_STOP**](d2d1-gradient-stop.md) structures to put in the gradient stop collection. The **D2D1\_GRADIENT\_STOP** structure contains the position and color of a gradient stop. The position indicates the relative position of the gradient stop in the brush. The value is in the range \[0.0f, 1.0f\], as shown in the following code.
+2.  Create an array of [**D2D1\_GRADIENT\_STOP**](/windows/win32/d2d1/ns-d2d1-d2d1_gradient_stop?branch=master) structures to put in the gradient stop collection. The **D2D1\_GRADIENT\_STOP** structure contains the position and color of a gradient stop. The position indicates the relative position of the gradient stop in the brush. The value is in the range \[0.0f, 1.0f\], as shown in the following code.
 
     ```C++
     // Create an array of gradient stops to put in the gradient stop
@@ -44,10 +49,10 @@ The code produces the output shown in the following illustration.
 
     
 
-3.  Use the [**ID2D1RenderTarget::CreateGradientStopCollection**](id2d1rendertarget-creategradientstopcollection.md) method to create the [**ID2D1GradientStopCollection**](id2d1gradientstopcollection.md) collection from a previously declared array of [**D2D1\_GRADIENT\_STOP**](d2d1-gradient-stop.md) structures. Then, Use the [**CreateRadialGradientBrush**](id2d1rendertarget-createradialgradientbrush.md) to create a radial gradient brush.
+3.  Use the [**ID2D1RenderTarget::CreateGradientStopCollection**](/windows/win32/d2d1_1/nf-d2d1-creategradientstopcollection?branch=master) method to create the [**ID2D1GradientStopCollection**](/windows/win32/d2d1/?branch=master) collection from a previously declared array of [**D2D1\_GRADIENT\_STOP**](/windows/win32/d2d1/ns-d2d1-d2d1_gradient_stop?branch=master) structures. Then, Use the [**CreateRadialGradientBrush**](/windows/win32/d2d1/nf-d2d1-createradialgradientbrush?branch=master) to create a radial gradient brush.
 
     > [!Note]  
-    > Starting with Windows 8, you can use the [**ID2D1DeviceContext::CreateGradientStopCollection**](id2d1devicecontext-creategradientstopcollection.md) method to create a [**ID2D1GradientStopCollection1**](id2d1gradientstopcollection1.md) collection instead of the [**ID2D1RenderTarget::CreateGradientStopCollection**](id2d1rendertarget-creategradientstopcollection.md) method. This interface adds high-color gradients and the interpolation of gradients in either straight or prmultiplied colors. See the **ID2DDeviceContext::CreateGradientStopCollection** page for more information.
+    > Starting with Windows 8, you can use the [**ID2D1DeviceContext::CreateGradientStopCollection**](/windows/win32/D2d1_1/?branch=master) method to create a [**ID2D1GradientStopCollection1**](/windows/win32/D2d1_1/?branch=master) collection instead of the [**ID2D1RenderTarget::CreateGradientStopCollection**](/windows/win32/d2d1_1/nf-d2d1-creategradientstopcollection?branch=master) method. This interface adds high-color gradients and the interpolation of gradients in either straight or prmultiplied colors. See the **ID2DDeviceContext::CreateGradientStopCollection** page for more information.
 
      
 

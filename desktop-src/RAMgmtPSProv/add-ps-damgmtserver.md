@@ -2,13 +2,16 @@
 title: Add method of the PS\_DAMgmtServer class
 description: This cmdlet adds the specified Management servers to the DA deployment. Management server here refers to patch servers, Domain Controllers and other servers.
 audience: developer
-ms.assetid: 'f35e6054-c7f6-4914-adc1-a4e5f1b402e1'
-ms.prod: 'windows-server-dev'
+ms.assetid: f35e6054-c7f6-4914-adc1-a4e5f1b402e1
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DAMgmtServer class", "PS_DAMgmtServer class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DAMgmtServer class
+- PS_DAMgmtServer class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DAMgmtServer class
@@ -28,10 +34,10 @@ This cmdlet adds the specified Management servers to the DA deployment. Manageme
 
 ```mof
 uint32 Add(
-  [in]  string  MgmtServer[],
-  [in]  string  ComputerName,
-  [in]  boolean PassThru,
-  [out] string  cmdletOutput[]
+  [in]  string  MgmtServer[],
+  [in]  string  ComputerName,
+  [in]  boolean PassThru,
+  [out] string  cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ List of management servers that were successfully added to the DA deployment
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ List of management servers that were successfully added to the DA deployment
 [**PS\_DAMgmtServer**](ps-damgmtserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

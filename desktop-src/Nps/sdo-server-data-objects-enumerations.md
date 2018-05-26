@@ -4,10 +4,13 @@ description: The following enumeration types enumerate the properties and values
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '84624add-adfd-4e4f-b8be-b7f55ea0cd5a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 84624add-adfd-4e4f-b8be-b7f55ea0cd5a
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server Data Objects Enumerations

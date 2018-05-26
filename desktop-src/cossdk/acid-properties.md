@@ -1,7 +1,12 @@
 ---
-Description: 'Coined by transaction processing pioneers, the acronym ACID stands for atomic, consistent, isolated, and durable.'
-ms.assetid: '857d145c-710d-4097-8ed6-df11e8d52228'
+Description: Coined by transaction processing pioneers, the acronym ACID stands for atomic, consistent, isolated, and durable.
+ms.assetid: 857d145c-710d-4097-8ed6-df11e8d52228
 title: ACID Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACID Properties

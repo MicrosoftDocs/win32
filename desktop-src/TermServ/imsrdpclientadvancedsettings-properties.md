@@ -4,10 +4,13 @@ description: The IMsRdpClientAdvancedSettings interface exposes the following pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E3544072-6C0A-4DBC-84DF-9D712314622F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: E3544072-6C0A-4DBC-84DF-9D712314622F
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings Properties

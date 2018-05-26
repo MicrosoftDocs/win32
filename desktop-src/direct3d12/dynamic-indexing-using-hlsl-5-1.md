@@ -1,7 +1,12 @@
 ---
 title: Dynamic Indexing using HLSL 5.1
 description: The D3D12DynamicIndexing sample demonstrates some of the new HLSL features available in Shader Model 5.1 - particularly dynamic indexing and unbounded arrays - to render the same mesh multiple times, each time rendering it with a dynamically selected material. With dynamic indexing, shaders can now index into an array without knowing the value of the index at compile time. When combined with unbounded arrays, this adds another level of indirection and flexibility for shader authors and art pipelines.
-ms.assetid: '9821AEDF-E83D-4034-863A-2B820D9B7455'
+ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Indexing using HLSL 5.1
@@ -87,12 +92,12 @@ Now, let’s look at the root signature definition, particularly, how we define 
 
 | Call flow                                                             | Parameters                                                            |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](d3d12-descriptor-range-type.md) |
-| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md)          |
-| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md)   |
+| [**CD3DX12\_DESCRIPTOR\_RANGE**](cd3dx12-descriptor-range.md)        | [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_descriptor_range_type?branch=master) |
+| [**CD3DX12\_ROOT\_PARAMETER**](cd3dx12-root-parameter.md)            | [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master)          |
+| [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md) | [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master)   |
 | [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)                                   |                                                                       |
-| [**D3D12SerializeRootSignature**](d3d12serializerootsignature.md)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](d3d-root-signature-version.md)   |
-| [**CreateRootSignature**](id3d12device-createrootsignature.md)       |                                                                       |
+| [**D3D12SerializeRootSignature**](/windows/win32/D3D12/nf-d3d12-d3d12serializerootsignature?branch=master)    | [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/D3D12/ne-d3d12-d3d_root_signature_version?branch=master)   |
+| [**CreateRootSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrootsignature?branch=master)       |                                                                       |
 
 
 
@@ -174,19 +179,19 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3D12_RESOURCE_DESC</strong>](d3d12-resource-desc.md)</td>
+<td>[<strong>D3D12_RESOURCE_DESC</strong>](/windows/win32/d3d12/ns-d3d12-d3d12_resource_desc?branch=master)</td>
 <td><dl>[<strong>DXGI_FORMAT</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059)<br />
-[<strong>D3D12_RESOURCE_FLAGS</strong>](d3d12-resource-flags.md)<br />
-[<strong>D3D12_RESOURCE_DIMENSION</strong>](d3d12-resource-dimension.md)<br />
+[<strong>D3D12_RESOURCE_FLAGS</strong>](/windows/win32/d3d12/ne-d3d12-d3d12_resource_flags?branch=master)<br />
+[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_dimension?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateCommittedResource</strong>](id3d12device-createcommittedresource.md)</td>
+<td>[<strong>CreateCommittedResource</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master)</td>
 <td><dl>[<strong>CD3DX12_HEAP_PROPERTIES</strong>](cd3dx12-heap-properties.md)<br />
-[<strong>D3D12_HEAP_TYPE</strong>](d3d12-heap-type.md)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](d3d12-heap-flags.md)<br />
+[<strong>D3D12_HEAP_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master)<br />
+[<strong>D3D12_HEAP_FLAG</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -250,16 +255,16 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
 
 </tr>
 <tr class="even">
-<td>[<strong>CreateCommittedResource</strong>](id3d12device-createcommittedresource.md)</td>
+<td>[<strong>CreateCommittedResource</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master)</td>
 <td><dl>[<strong>CD3DX12_HEAP_PROPERTIES</strong>](cd3dx12-heap-properties.md)<br />
-[<strong>D3D12_HEAP_TYPE</strong>](d3d12-heap-type.md)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](d3d12-heap-flags.md)<br />
+[<strong>D3D12_HEAP_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master)<br />
+[<strong>D3D12_HEAP_FLAG</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D12_SUBRESOURCE_DATA</strong>](d3d12-subresource-data.md)</td>
+<td>[<strong>D3D12_SUBRESOURCE_DATA</strong>](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_data?branch=master)</td>
 
 </tr>
 <tr class="even">
@@ -267,9 +272,9 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
 
 </tr>
 <tr class="odd">
-<td>[<strong>ResourceBarrier</strong>](id3d12graphicscommandlist-resourcebarrier.md)</td>
+<td>[<strong>ResourceBarrier</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)</td>
 <td><dl>[<strong>CD3DX12_RESOURCE_BARRIER</strong>](cd3dx12-resource-barrier.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -340,18 +345,18 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3D12_RESOURCE_DESC</strong>](d3d12-resource-desc.md)</td>
-<td><dl>[<strong>D3D12_RESOURCE_FLAGS</strong>](d3d12-resource-flags.md)<br />
-[<strong>D3D12_RESOURCE_DIMENSION</strong>](d3d12-resource-dimension.md)<br />
+<td>[<strong>D3D12_RESOURCE_DESC</strong>](/windows/win32/d3d12/ns-d3d12-d3d12_resource_desc?branch=master)</td>
+<td><dl>[<strong>D3D12_RESOURCE_FLAGS</strong>](/windows/win32/d3d12/ne-d3d12-d3d12_resource_flags?branch=master)<br />
+[<strong>D3D12_RESOURCE_DIMENSION</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_dimension?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateCommittedResource</strong>](id3d12device-createcommittedresource.md)</td>
+<td>[<strong>CreateCommittedResource</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master)</td>
 <td><dl>[<strong>CD3DX12_HEAP_PROPERTIES</strong>](cd3dx12-heap-properties.md)<br />
-[<strong>D3D12_HEAP_TYPE</strong>](d3d12-heap-type.md)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](d3d12-heap-flags.md)<br />
+[<strong>D3D12_HEAP_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master)<br />
+[<strong>D3D12_HEAP_FLAG</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
@@ -359,22 +364,22 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 
 </tr>
 <tr class="even">
-<td>[<strong>CreateCommittedResource</strong>](id3d12device-createcommittedresource.md)</td>
+<td>[<strong>CreateCommittedResource</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master)</td>
 <td><dl>[<strong>CD3DX12_HEAP_PROPERTIES</strong>](cd3dx12-heap-properties.md)<br />
-[<strong>D3D12_HEAP_TYPE</strong>](d3d12-heap-type.md)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](d3d12-heap-flags.md)<br />
+[<strong>D3D12_HEAP_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master)<br />
+[<strong>D3D12_HEAP_FLAG</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3D12_SUBRESOURCE_DATA</strong>](d3d12-subresource-data.md)</td>
+<td>[<strong>D3D12_SUBRESOURCE_DATA</strong>](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_data?branch=master)</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>ResourceBarrier</strong>](id3d12graphicscommandlist-resourcebarrier.md)</td>
+<td>[<strong>ResourceBarrier</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)</td>
 <td><dl>[<strong>CD3DX12_RESOURCE_BARRIER</strong>](cd3dx12-resource-barrier.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -437,40 +442,40 @@ Finally for **LoadAssets**, a single sampler is created to sample from either th
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3D12_SAMPLER_DESC</strong>](d3d12-sampler-desc.md)</td>
-<td><dl>[<strong>D3D12_FILTER</strong>](d3d12-filter.md)<br />
-[<strong>D3D12_TEXTURE_ADDRESS_MODE</strong>](d3d12-texture-address-mode.md)<br />
+<td>[<strong>D3D12_SAMPLER_DESC</strong>](/windows/win32/D3D12/ns-d3d12-d3d12_sampler_desc?branch=master)</td>
+<td><dl>[<strong>D3D12_FILTER</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master)<br />
+[<strong>D3D12_TEXTURE_ADDRESS_MODE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master)<br />
 D3D12_FLOAT32_MAX ([<strong>Constants</strong>](constants.md))<br />
-[<strong>D3D12_COMPARISON_FUNC</strong>](d3d12-comparison-func.md)<br />
+[<strong>D3D12_COMPARISON_FUNC</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_comparison_func?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateSampler</strong>](id3d12device-createsampler.md)</td>
+<td>[<strong>CreateSampler</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createsampler?branch=master)</td>
 
 </tr>
 <tr class="odd">
 <td>[<strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong>](cd3dx12-cpu-descriptor-handle.md)</td>
-<td>[<strong>GetCPUDescriptorHandleForHeapStart</strong>](id3d12descriptorheap-getcpudescriptorhandleforheapstart.md)</td>
+<td>[<strong>GetCPUDescriptorHandleForHeapStart</strong>](/windows/win32/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart?branch=master)</td>
 </tr>
 <tr class="even">
-<td>[<strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong>](d3d12-shader-resource-view-desc.md)</td>
+<td>[<strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong>](/windows/win32/D3D12/ns-d3d12-d3d12_shader_resource_view_desc?branch=master)</td>
 <td><dl>[D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING](constants.md)<br />
-[<strong>D3D12_SRV_DIMENSION</strong>](d3d12-srv-dimension.md)<br />
+[<strong>D3D12_SRV_DIMENSION</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_srv_dimension?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateShaderResourceView</strong>](id3d12device-createshaderresourceview.md)</td>
+<td>[<strong>CreateShaderResourceView</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createshaderresourceview?branch=master)</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong>](d3d12-shader-resource-view-desc.md)</td>
+<td>[<strong>D3D12_SHADER_RESOURCE_VIEW_DESC</strong>](/windows/win32/D3D12/ns-d3d12-d3d12_shader_resource_view_desc?branch=master)</td>
 <td><dl>[D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING](constants.md)<br />
 [<strong>DXGI_FORMAT</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059)<br />
-[<strong>D3D12_SRV_DIMENSION</strong>](d3d12-srv-dimension.md)<br />
+[<strong>D3D12_SRV_DIMENSION</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_srv_dimension?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateShaderResourceView</strong>](id3d12device-createshaderresourceview.md)</td>
+<td>[<strong>CreateShaderResourceView</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createshaderresourceview?branch=master)</td>
 
 </tr>
 </tbody>
@@ -486,7 +491,7 @@ If we were to render the scene now, all of the cities would appear the same, bec
 
 ![all cities appear the same color](images/dynamicindexing-image1.png)
 
-The value of the root constant is set in **FrameResource::PopulateCommandLists**. In the double **for** loop where a draw command is recorded for each city, we record a call to [**SetGraphicsRoot32BitConstants**](id3d12graphicscommandlist-setgraphicsroot32bitconstants.md) specifying our root parameter index in regards to the root signature – in this case 3 – the value of the dynamic index and an offset – in this case 0. Since the length of `g_txMats` is equal to the number of cities we render, the value of the index is incrementally set for each city.
+The value of the root constant is set in **FrameResource::PopulateCommandLists**. In the double **for** loop where a draw command is recorded for each city, we record a call to [**SetGraphicsRoot32BitConstants**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstants?branch=master) specifying our root parameter index in regards to the root signature – in this case 3 – the value of the dynamic index and an offset – in this case 0. Since the length of `g_txMats` is equal to the number of cities we render, the value of the index is incrementally set for each city.
 
 ``` syntax
  for (UINT i = 0; i < m_cityRowCount; i++)
@@ -511,10 +516,10 @@ The value of the root constant is set in **FrameResource::PopulateCommandLists**
 
 | Call flow                                                                                          | Parameters |
 |----------------------------------------------------------------------------------------------------|------------|
-| [**SetPipelineState**](id3d12graphicscommandlist-setpipelinestate.md)                             |            |
-| [**SetGraphicsRoot32BitConstant**](id3d12graphicscommandlist-setgraphicsroot32bitconstant.md)     |            |
-| [**SetGraphicsRootDescriptorTable**](id3d12graphicscommandlist-setgraphicsrootdescriptortable.md) |            |
-| [**DrawIndexedInstanced**](id3d12graphicscommandlist-drawindexedinstanced.md)                     |            |
+| [**SetPipelineState**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate?branch=master)                             |            |
+| [**SetGraphicsRoot32BitConstant**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstant?branch=master)     |            |
+| [**SetGraphicsRootDescriptorTable**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable?branch=master) |            |
+| [**DrawIndexedInstanced**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced?branch=master)                     |            |
 
 
 

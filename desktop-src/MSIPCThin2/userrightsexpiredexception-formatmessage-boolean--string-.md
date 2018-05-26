@@ -4,17 +4,21 @@ description: Format the UserRightsExpiredException message.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E74D5D67-EC40-4466-AC9C-59E7499EA820'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: E74D5D67-EC40-4466-AC9C-59E7499EA820
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRightsExpiredException.formatMessage(boolean, String)"]
+keywords:
+- UserRightsExpiredException.formatMessage(boolean, String)
 topic_type:
 - apiref
 api_name:
 - UserRightsExpiredException.formatMessage(boolean, String)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRightsExpiredException.formatMessage(boolean, String)
@@ -40,7 +44,7 @@ private static String formatMessage(boolean isURIEmailAddress, String uri)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -50,9 +54,9 @@ A **String** containing the formatted message.
 
 UserRightsExpiredException.java
 
- 
+ 
 
- 
+ 
 
 
 

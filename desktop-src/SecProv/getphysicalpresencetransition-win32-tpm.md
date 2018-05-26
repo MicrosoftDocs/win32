@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the user action that is needed to perform the Trusted Platform Module (TPM) physical presence operation. Use the SetPhysicalPresenceRequest method to request an operation.'
-ms.assetid: 'abbd9702-c3a7-468a-bc83-2b7739d0b7bf'
-title: 'GetPhysicalPresenceTransition method of the Win32\_Tpm class'
+---
+Description: Indicates the user action that is needed to perform the Trusted Platform Module (TPM) physical presence operation. Use the SetPhysicalPresenceRequest method to request an operation.
+ms.assetid: abbd9702-c3a7-468a-bc83-2b7739d0b7bf
+title: GetPhysicalPresenceTransition method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPhysicalPresenceTransition method of the Win32\_Tpm class

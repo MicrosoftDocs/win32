@@ -1,7 +1,12 @@
 ---
-Description: 'Much of the implementation of a Shell extension handler object is dictated by its type. There are, however, some common elements. This topic discusses those aspects of implementation that are shared by all Shell extension handlers.'
-ms.assetid: 'ce21ca0f-157c-4f69-bcf9-dc259c3bac80'
+Description: Much of the implementation of a Shell extension handler object is dictated by its type. There are, however, some common elements. This topic discusses those aspects of implementation that are shared by all Shell extension handlers.
+ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: Initializing Shell Extension Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing Shell Extension Handlers
@@ -14,7 +19,7 @@ All Shell extension handlers are in-process Component Object Model (COM) objects
 -   [**DllGetClassObject**](com.dllgetclassobject). Exposes the object's class factory.
 -   [**DllCanUnloadNow**](com.dllcanunloadnow). COM calls this function to determine whether the object is serving any clients. If not, the system can unload the DLL and free the associated memory.
 
-Like all COM objects, Shell extension handlers must implement an [**IUnknown**](com.iunknown) interface and a [class factory](com.implementing_iclassfactory). Most must also implement either an [**IPersistFile**](com.ipersistfile) or [**IShellExtInit**](ishellextinit.md) interface in Windows XP or earlier. These were replaced by [**IInitializeWithStream**](iinitializewithstream.md), [**IInitializeWithItem**](iinitializewithitem.md) and [**IInitializeWithFile**](iinitializewithfile.md) in Windows Vista. The Shell uses these interfaces to initialize the handler.
+Like all COM objects, Shell extension handlers must implement an [**IUnknown**](com.iunknown) interface and a [class factory](com.implementing_iclassfactory). Most must also implement either an [**IPersistFile**](com.ipersistfile) or [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) interface in Windows XP or earlier. These were replaced by [**IInitializeWithStream**](/windows/win32/Propsys/nn-propsys-iinitializewithstream?branch=master), [**IInitializeWithItem**](/windows/win32/Shobjidl/nn-shobjidl_core-iinitializewithitem?branch=master) and [**IInitializeWithFile**](/windows/win32/Propsys/nn-propsys-iinitializewithfile?branch=master) in Windows Vista. The Shell uses these interfaces to initialize the handler.
 
 The [**IPersistFile**](com.ipersistfile) interface must be implemented by the following:
 
@@ -22,7 +27,7 @@ The [**IPersistFile**](com.ipersistfile) interface must be implemented by the fo
 -   Data handlers
 -   Drop handlers
 
-The [**IShellExtInit**](ishellextinit.md) interface must be implemented by the following:
+The [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) interface must be implemented by the following:
 
 -   Shortcut menu handlers
 -   Drag-and-drop handlers
@@ -72,13 +77,13 @@ IFACEMETHODIMP CSampleShellExtension::Load(PCWSTR pszFile, DWORD dwMode)
 
 ## Implementing IShellExtInit
 
-The [**IShellExtInit**](ishellextinit.md) interface has only one method, [**IShellExtInit::Initialize**](ishellextinit-initialize.md), in addition to [**IUnknown**](com.iunknown). The method has three parameters that the Shell can use to pass in various types of information. The values passed in depend on the type of handler, and some can be set to **NULL**.
+The [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) interface has only one method, [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master), in addition to [**IUnknown**](com.iunknown). The method has three parameters that the Shell can use to pass in various types of information. The values passed in depend on the type of handler, and some can be set to **NULL**.
 
 -   *pidlFolder* holds a folder's pointer to an item identifier list (PIDL). This is an absolute PIDL. For property sheet extensions, this value is **NULL**. For shortcut menu extensions, it is the PIDL of the folder that contains the item whose shortcut menu is being displayed. For nondefault drag-and-drop handlers, it is the PIDL of the target folder.
 -   *pDataObject* holds a pointer to a data object's [**IDataObject**](com.idataobject) interface. The data object holds one or more file names in [CF\_HDROP](dragdrop.md) format.
 -   *hRegKey* holds a registry key for the file object or folder type.
 
-The [**IShellExtInit::Initialize**](ishellextinit-initialize.md) method stores the file name, [**IDataObject**](com.idataobject) pointer, and registry key as needed for later use. The following code fragment illustrates an implementation of **IShellExtInit::Initialize**. For simplicity, this example assumes that the data object contains only a single file. In general, the data object might contain multiple files, each of which will need to be extracted.
+The [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master) method stores the file name, [**IDataObject**](com.idataobject) pointer, and registry key as needed for later use. The following code fragment illustrates an implementation of **IShellExtInit::Initialize**. For simplicity, this example assumes that the data object contains only a single file. In general, the data object might contain multiple files, each of which will need to be extracted.
 
 
 ```C++
@@ -166,7 +171,7 @@ IFACEMETHODIMP CSampleShellExtension::Initialize(__in_opt PCIDLIST_ABSOLUTE pidl
 
 ## Infotip Customization
 
-There are two ways to customize infotips. One way is to implement an object that supports [**IQueryInfo**](iqueryinfo.md) and then register the object under the proper subkey in the registry (see below). Alternatively, you can specify either a fixed string or a list of certain file properties to be displayed.
+There are two ways to customize infotips. One way is to implement an object that supports [**IQueryInfo**](/windows/win32/Shlobj_core/?branch=master) and then register the object under the proper subkey in the registry (see below). Alternatively, you can specify either a fixed string or a list of certain file properties to be displayed.
 
 To display a fixed string for a namespace extension, create a subkey called **InfoTip** beneath the CLSID key of your namespace extension. Set the data of that subkey to be the string you want to be displayed.
 
@@ -185,7 +190,7 @@ HKEY_CLASSES_ROOT
       InfoTip = InfoTip string for all files of this type
 ```
 
-If you want the Shell to show certain file properties in the infotip for a specific file type, create a subkey called **InfoTip** beneath the **ProgID** key of that file type. Set the data of that subkey to be a semicolon-delineated list of canonical property names or {fmtid}, pid pairs where *propname* is a canonical property name and *{fmtid},pid* is a [**FMTID/PID pair**](shcolumnid-str.md).
+If you want the Shell to show certain file properties in the infotip for a specific file type, create a subkey called **InfoTip** beneath the **ProgID** key of that file type. Set the data of that subkey to be a semicolon-delineated list of canonical property names or {fmtid}, pid pairs where *propname* is a canonical property name and *{fmtid},pid* is a [**FMTID/PID pair**](/windows/win32/Shobjidl/?branch=master).
 
 ```
 HKEY_CLASSES_ROOT

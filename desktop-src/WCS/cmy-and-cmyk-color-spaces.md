@@ -1,8 +1,34 @@
 ---
 title: CMY and CMYK Color Spaces
 description: The CMY and CMYK color spaces are often used in color printing. A CMY color space uses cyan, magenta, and yellow (CMY) as its primary colors. Red, green, and blue are the secondary colors.
-ms.assetid: 'e135b5ef-fa5c-49b7-8537-5dc31cde2418'
-keywords: ["Windows Color System (WCS),CMY color spaces", "WCS (Windows Color System),CMY color spaces", "image color management,CMY color spaces", "color management,CMY color spaces", "colors,CMY color spaces", "color spaces,CMY", "CMY color spaces", "Windows Color System (WCS),CMYK color spaces", "WCS (Windows Color System),CMYK color spaces", "image color management,CMYK color spaces", "color management,CMYKcolor spaces", "colors,CMYK color spaces", "color spaces,CMYK", "CMYK color spaces", "cyan", "magenta", "yellow", "cyan magenta yellow (CMY)", "CMY (cyan magenta yellow)", "cyan magenta yellow black (CMYK)", "CMYK (cyan magenta yellow black)"]
+ms.assetid: e135b5ef-fa5c-49b7-8537-5dc31cde2418
+keywords:
+- Windows Color System (WCS),CMY color spaces
+- WCS (Windows Color System),CMY color spaces
+- image color management,CMY color spaces
+- color management,CMY color spaces
+- colors,CMY color spaces
+- color spaces,CMY
+- CMY color spaces
+- Windows Color System (WCS),CMYK color spaces
+- WCS (Windows Color System),CMYK color spaces
+- image color management,CMYK color spaces
+- color management,CMYKcolor spaces
+- colors,CMYK color spaces
+- color spaces,CMYK
+- CMYK color spaces
+- cyan
+- magenta
+- yellow
+- cyan magenta yellow (CMY)
+- CMY (cyan magenta yellow)
+- cyan magenta yellow black (CMYK)
+- CMYK (cyan magenta yellow black)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMY and CMYK Color Spaces

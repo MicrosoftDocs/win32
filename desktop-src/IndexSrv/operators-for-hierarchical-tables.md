@@ -1,7 +1,12 @@
 ---
 title: Operators for Hierarchical Tables
 description: Operators for Hierarchical Tables
-ms.assetid: '15da90d7-8f9f-4a89-b385-9c91b72d9ac3'
+ms.assetid: 15da90d7-8f9f-4a89-b385-9c91b72d9ac3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators for Hierarchical Tables

@@ -1,12 +1,17 @@
 ---
-Description: 'Applications can use the RegisterDeviceNotification function to register to receive notification messages from the system.'
-ms.assetid: 'f3a4477a-7b09-4943-8b06-f252f8f9fed8'
+Description: Applications can use the RegisterDeviceNotification function to register to receive notification messages from the system.
+ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
 title: Registering for Device Notification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering for Device Notification
 
-Applications can use the [**RegisterDeviceNotification**](registerdevicenotification.md) function to register to receive notification messages from the system. The following example shows how to register for notification of events for the device interfaces which are members of the interface class whose GUID is passed to the function.
+Applications can use the [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master) function to register to receive notification messages from the system. The following example shows how to register for notification of events for the device interfaces which are members of the interface class whose GUID is passed to the function.
 
 
 ```C++
@@ -517,7 +522,7 @@ This example uses a window handle for device change notifications and contains a
 
 The application will receive the [**WM\_DEVICECHANGE**](wm-devicechange.md) message whenever a USB device interface event notification is sent.
 
-The system broadcasts a set of default device change events to all applications and services. You do not need to register to receive these default events. For details, see the Remarks section in [**RegisterDeviceNotification**](registerdevicenotification.md).
+The system broadcasts a set of default device change events to all applications and services. You do not need to register to receive these default events. For details, see the Remarks section in [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master).
 
 The following is an example makefile for building the previous example code using nmake.exe from the SDK or Visual Studio command prompt.
 

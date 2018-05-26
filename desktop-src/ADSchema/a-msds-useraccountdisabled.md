@@ -4,17 +4,22 @@ description: Indicates whether an account is disabled or enabled.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5d6ced7b-ca0f-4afa-b394-e61e80454f3d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5d6ced7b-ca0f-4afa-b394-e61e80454f3d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-User-Account-Disabled attribute AD Schema", "msDS-UserAccountDisabled attribute AD Schema"]
+keywords:
+- ms-DS-User-Account-Disabled attribute AD Schema
+- msDS-UserAccountDisabled attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-User-Account-Disabled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-User-Account-Disabled attribute
@@ -65,9 +70,9 @@ Indicates whether an account is disabled or enabled. True if the account disable
 
 In ADAM, this attribute replaces the [**ADS\_UF\_ACCOUNTDISABLE**](https://msdn.microsoft.com/library/aa772300) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
- 
+ 
 
- 
+ 
 
 
 

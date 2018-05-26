@@ -4,11 +4,14 @@ description: Removes a virtual desktop from the virtual desktop collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '287ebbb2-86db-4b4a-8dbb-ac5472789e72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 287ebbb2-86db-4b4a-8dbb-ac5472789e72
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoveVirtualDesktop method Remote Desktop Services", "RemoveVirtualDesktop method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class", "Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , RemoveVirtualDesktop method"]
+keywords:
+- RemoveVirtualDesktop method Remote Desktop Services
+- RemoveVirtualDesktop method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class
+- Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , RemoveVirtualDesktop method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveVirtualDesktop method of the Win32\_RDMSVirtualDesktopCollection class
@@ -28,7 +34,7 @@ Removes a virtual desktop from the virtual desktop collection.
 
 ```mof
 uint32 RemoveVirtualDesktop(
-  [in] string VMName
+  [in] string VMName
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktopCollection**](win32-rdmsvirtualdesktopcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

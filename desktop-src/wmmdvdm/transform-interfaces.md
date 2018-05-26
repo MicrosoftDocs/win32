@@ -1,8 +1,22 @@
 ---
 title: Transform Interfaces
 description: Transform Interfaces
-ms.assetid: '5fb0dee4-593c-4807-9a82-3911e1497abe'
-keywords: ["Windows Movie Maker,interfaces", "Movie Maker,interfaces", "programming reference,Windows Movie Maker interfaces", "reference for Windows Movie Maker,interfaces", "Windows Movie Maker,transform interfaces", "Movie Maker,transform interfaces", "programming reference,Windows Movie Maker transform interfaces", "reference for Windows Movie Maker,transform interfaces", "transforms,interfaces"]
+ms.assetid: 5fb0dee4-593c-4807-9a82-3911e1497abe
+keywords:
+- Windows Movie Maker,interfaces
+- Movie Maker,interfaces
+- programming reference,Windows Movie Maker interfaces
+- reference for Windows Movie Maker,interfaces
+- Windows Movie Maker,transform interfaces
+- Movie Maker,transform interfaces
+- programming reference,Windows Movie Maker transform interfaces
+- reference for Windows Movie Maker,transform interfaces
+- transforms,interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transform Interfaces

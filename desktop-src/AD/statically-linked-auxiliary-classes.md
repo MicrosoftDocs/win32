@@ -1,14 +1,18 @@
 ---
 title: Statically Linked Auxiliary Classes
-description: A statically linked auxiliary class is one that is included in the auxiliaryClass or systemAuxiliaryClass attribute of an object class's classSchema definition in the schema.
+description: A statically linked auxiliary class is one that is included in the auxiliaryClass or systemAuxiliaryClass attribute of an object classs classSchema definition in the schema.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '24765001-7a60-4654-a23a-bf0326b59096'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 24765001-7a60-4654-a23a-bf0326b59096
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Statically Linked Auxiliary Classes AD"]
+keywords:
+- Statically Linked Auxiliary Classes AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Statically Linked Auxiliary Classes

@@ -1,7 +1,12 @@
 ---
-Description: 'Querying cluster information from the Hyper-V host to the guest.'
-ms.assetid: '28983984-a2af-4eab-8b1f-2f7d6a3d70ea'
-title: 'QueryGuestClusterInformation method of the Msvm\_VssService class'
+Description: Querying cluster information from the Hyper-V host to the guest.
+ms.assetid: 28983984-a2af-4eab-8b1f-2f7d6a3d70ea
+title: QueryGuestClusterInformation method of the Msvm\_VssService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryGuestClusterInformation method of the Msvm\_VssService class
@@ -13,7 +18,7 @@ Querying cluster information from the Hyper-V host to the guest.
 
 ```mof
 uint32 QueryGuestClusterInformation(
-  [out] Msvm_GuestClusterInformation GuestClusterInformation
+  [out] Msvm_GuestClusterInformation GuestClusterInformation
 );
 ```
 
@@ -81,8 +86,8 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -96,9 +101,9 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 [**Msvm\_VssService**](msvm-vssservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IOrpcDebugNotify ServerNotify method
 description: Informs the server of an incoming debugger request from the client.
-ms.assetid: '6c868b9e-f25b-4d27-80ff-697d0c005b8d'
-keywords: ["ServerNotify method COM", "ServerNotify method COM , IOrpcDebugNotify interface", "IOrpcDebugNotify interface COM , ServerNotify method"]
+ms.assetid: 6c868b9e-f25b-4d27-80ff-697d0c005b8d
+keywords:
+- ServerNotify method COM
+- ServerNotify method COM , IOrpcDebugNotify interface
+- IOrpcDebugNotify interface COM , ServerNotify method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - N/A
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOrpcDebugNotify::ServerNotify method
@@ -20,14 +28,14 @@ Informs the server of an incoming debugger request from the client.
 > [!Note]  
 > An import library containing the **ServerNotify** function is not included in the Microsoft Windows Software Development Kit (SDK). An application can use the [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) and [**GetModuleHandle**](https://msdn.microsoft.com/library/windows/desktop/ms683199) functions to retrieve a function pointer to [**DllDebugObjectRPCHook**](dlldebugobjectrpchook.md) from oleaut.dll and provide this function via the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interface.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 void ServerNotify(
-   ORPC_DBG_ALL *lpOrpcDebugAll
+   ORPC_DBG_ALL *lpOrpcDebugAll
 );
 ```
 
@@ -54,8 +62,8 @@ This method does not return a value.
 
 |                                     |                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
 | Header<br/>                   | <dl> <dt>N/A</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>N/A</dt> </dl> |
 
@@ -74,9 +82,9 @@ This method does not return a value.
 [**IOrpcDebugNotify**](iorpcdebugnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

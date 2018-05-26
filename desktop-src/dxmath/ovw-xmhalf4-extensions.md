@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMHALF4 describes 4D vector consisting of four half-precision (16bit) floating-point values.'
-ms.assetid: '2bd8d651-e60e-409c-9257-5b30e212372e'
+---
+Description: XMHALF4 describes 4D vector consisting of four half-precision (16bit) floating-point values.
+ms.assetid: 2bd8d651-e60e-409c-9257-5b30e212372e
 title: XMHALF4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMHALF4 Extensions
 
-[**XMHALF4**](xmhalf4.md) describes 4D vector consisting of four half-precision (16bit) floating-point values.
+[**XMHALF4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmhalf4?branch=master) describes 4D vector consisting of four half-precision (16bit) floating-point values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMHALF4 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMHALF4**](xmhalf4.md)
+[**XMHALF4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmhalf4?branch=master)
 </dt> </dl>
 
  

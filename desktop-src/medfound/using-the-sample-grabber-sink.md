@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'AC5970A2-6F12-448D-A444-40020C5C2607'
+Description: .
+ms.assetid: AC5970A2-6F12-448D-A444-40020C5C2607
 title: Using the Sample Grabber Sink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Sample Grabber Sink
@@ -582,7 +587,7 @@ STDMETHODIMP SampleGrabberCB::OnShutdown()
 [Media Session](media-session.md)
 </dt> <dt>
 
-[**IMFSampleGrabberSinkCallback**](imfsamplegrabbersinkcallback.md)
+[**IMFSampleGrabberSinkCallback**](/windows/win32/mfidl/nn-mfidl-imfsamplegrabbersinkcallback?branch=master)
 </dt> </dl>
 
  

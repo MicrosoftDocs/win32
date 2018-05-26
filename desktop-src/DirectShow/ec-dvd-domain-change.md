@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the DVD player''s new domain.'
-ms.assetid: '4faa46d6-2ba2-44a3-b237-acac3b32f8b1'
-title: 'EC\_DVD\_DOMAIN\_CHANGE'
+Description: Indicates the DVD players new domain.
+ms.assetid: 4faa46d6-2ba2-44a3-b237-acac3b32f8b1
+title: EC\_DVD\_DOMAIN\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_DOMAIN\_CHANGE
@@ -15,7 +20,7 @@ Indicates the DVD player's new domain.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the new domain. Member of the [**DVD\_DOMAIN**](dvd-domain.md) enumerated data type.
+**DWORD** value indicating the new domain. Member of the [**DVD\_DOMAIN**](/windows/win32/strmif/ne-strmif-tagdvd_domain?branch=master) enumerated data type.
 
 </dd> <dt>
 
@@ -55,9 +60,9 @@ This event is raised in all DVD domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

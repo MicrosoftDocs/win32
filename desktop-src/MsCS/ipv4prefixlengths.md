@@ -4,17 +4,22 @@ description: IPv4 prefix lengths for the network resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7ce4ebb-dbd2-4c16-aaba-e267b58f5f9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f7ce4ebb-dbd2-4c16-aaba-e267b58f5f9d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["IPv4PrefixLengths Failover Cluster , for Network common properties", "IPv4PrefixLengths Failover Cluster"]
+keywords:
+- IPv4PrefixLengths Failover Cluster , for Network common properties
+- IPv4PrefixLengths Failover Cluster
 topic_type:
 - apiref
 api_name:
 - IPv4PrefixLengths
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPv4PrefixLengths
@@ -27,13 +32,13 @@ Specifies the IPv4 prefix lengths for the network resource. The following table 
 |-----------|------------------------------------------------------------------|
 | Data type | **LPCWSTR** pointer or a **WCHAR** array                         |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)                 |
+| Structure | [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)                 |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -42,7 +47,7 @@ Specifies the IPv4 prefix lengths for the network resource. The following table 
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -53,12 +58,12 @@ Specifies the IPv4 prefix lengths for the network resource. The following table 
 [Network Common Properties](common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)
+[**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: DefaultIcon
 description: Provides default icon information for iconic presentations of objects.
-ms.assetid: '45a3289b-d9c4-4857-bf48-1fd664ce4430'
-keywords: ["DefaultIcon registry key COM"]
+ms.assetid: 45a3289b-d9c4-4857-bf48-1fd664ce4430
+keywords:
+- DefaultIcon registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultIcon

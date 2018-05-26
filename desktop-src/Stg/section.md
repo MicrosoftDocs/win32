@@ -1,7 +1,12 @@
 ---
 title: Section
 description: The section is the third part of the property set stream and contains the actual property set values.
-ms.assetid: 'cb392072-116e-4dca-bd70-5f82f86d8c98'
+ms.assetid: cb392072-116e-4dca-bd70-5f82f86d8c98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Section

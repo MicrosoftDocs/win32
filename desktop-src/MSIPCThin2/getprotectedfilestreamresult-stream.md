@@ -4,11 +4,14 @@ description: Gets the protected file stream if the call succeeded.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.GetProtectedFileStreamResult.Stream'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.GetProtectedFileStreamResult.Stream
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Stream property", "Stream property, GetProtectedFileStreamResult class", "GetProtectedFileStreamResult class, Stream property"]
+keywords:
+- Stream property
+- Stream property, GetProtectedFileStreamResult class
+- GetProtectedFileStreamResult class, Stream property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetProtectedFileStreamResult.Stream property
@@ -63,9 +69,9 @@ The protected file stream.
 [**GetProtectedFileStreamResult**](getprotectedfilestreamresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

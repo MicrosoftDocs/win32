@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational DecodeHeader method
 description: Decodes a message header string.
-ms.assetid: 'f1708656-572c-4788-8c73-71499aa149e5'
-keywords: ["DecodeHeader method Windows Mail (formerly Outlook Express)", "DecodeHeader method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , DecodeHeader method"]
+ms.assetid: f1708656-572c-4788-8c73-71499aa149e5
+keywords:
+- DecodeHeader method Windows Mail (formerly Outlook Express)
+- DecodeHeader method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , DecodeHeader method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::DecodeHeader method
@@ -22,10 +30,10 @@ Decodes a message header string.
 
 ```C++
 HRESULT DecodeHeader(
-  [in]      HCHARSET      hCharset,
-  [in]      LPCSTR        pszData,
-  [in, out] LPPROPVARIANT pDecoded,
-  [in, out] LPRFC1522INFO pRfc1522Info
+  [in]      HCHARSET      hCharset,
+  [in]      LPCSTR        pszData,
+  [in, out] LPPROPVARIANT pDecoded,
+  [in, out] LPRFC1522INFO pRfc1522Info
 );
 ```
 
@@ -90,7 +98,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -110,8 +118,8 @@ The valid values for *pDecoded*-&gt;[vt](https://msdn.microsoft.com/library/wind
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -119,9 +127,9 @@ The valid values for *pDecoded*-&gt;[vt](https://msdn.microsoft.com/library/wind
 
 
 
- 
+ 
 
- 
+ 
 
 
 

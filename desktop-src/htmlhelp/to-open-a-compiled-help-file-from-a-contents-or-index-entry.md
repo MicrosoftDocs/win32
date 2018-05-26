@@ -1,7 +1,12 @@
 ---
 title: To open a compiled help file from a contents or index entry
 description: To open a compiled help file from a contents or index entry
-ms.assetid: 'AFDD5EEA-0813-4a3a-A584-22741F4CF326'
+ms.assetid: AFDD5EEA-0813-4a3a-A584-22741F4CF326
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To open a compiled help file from a contents or index entry
@@ -17,7 +22,7 @@ ms.assetid: 'AFDD5EEA-0813-4a3a-A584-22741F4CF326'
 
     
 
-     
+     
 
     
 
@@ -27,7 +32,7 @@ ms.assetid: 'AFDD5EEA-0813-4a3a-A584-22741F4CF326'
 
     
 
-     
+     
 
 3.  In the **Entry title** or **Keyword** box, type a name for the table of contents or index link.
 4.  Click **Add**, and then, in the **File or URL** box, type the name of the compiled help (.chm) file.
@@ -44,9 +49,9 @@ ms.assetid: 'AFDD5EEA-0813-4a3a-A584-22741F4CF326'
 [About Creating a Link to Another Compiled Help File](creating-links-to-other-help-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

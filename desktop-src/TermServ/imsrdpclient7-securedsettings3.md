@@ -4,11 +4,20 @@ description: Retrieves an object that supports the IMsRdpClientSecuredSettings2 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '500ce7ed-bd86-434c-baf8-f30dd667dca3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 500ce7ed-bd86-434c-baf8-f30dd667dca3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SecuredSettings3 property Remote Desktop Services", "SecuredSettings3 property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , SecuredSettings3 property", "SecuredSettings3 property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , SecuredSettings3 property", "SecuredSettings3 property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , SecuredSettings3 property", "SecuredSettings3 property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , SecuredSettings3 property"]
+keywords:
+- SecuredSettings3 property Remote Desktop Services
+- SecuredSettings3 property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , SecuredSettings3 property
+- SecuredSettings3 property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , SecuredSettings3 property
+- SecuredSettings3 property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , SecuredSettings3 property
+- SecuredSettings3 property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , SecuredSettings3 property
 topic_type:
 - apiref
 api_name:
@@ -24,6 +33,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient7::SecuredSettings3 property
@@ -37,7 +49,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SecuredSettings3(
-  [out] IMsRdpClientSecuredSettings2 **ppSecuredSettings
+  [out] IMsRdpClientSecuredSettings2 **ppSecuredSettings
 );
 ```
 
@@ -53,8 +65,8 @@ The address of an [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient7 is defined as b2a5b5ce-3461-444a-91d4-add26d070638<br/>       |
@@ -77,9 +89,9 @@ The address of an [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

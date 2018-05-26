@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides information on IPrintUnidiAsyncNotifyRegistration constructs.'
-ms.assetid: 'A1CC714A-CDD5-494F-8157-9D95DF738CBE'
+---
+Description: Provides information on IPrintUnidiAsyncNotifyRegistration constructs.
+ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 title: IPrintUnidiAsyncNotifyRegistration interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintUnidiAsyncNotifyRegistration interface

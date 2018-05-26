@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to use Microsoft DirectX Video Acceleration High Definition (DXVA-HD).'
-ms.assetid: 'dfd5cf5c-7d6e-4894-8d9b-41ef0293b3d3'
-title: 'DXVA-HD Sample'
+Description: Shows how to use Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+ms.assetid: dfd5cf5c-7d6e-4894-8d9b-41ef0293b3d3
+title: DXVA-HD Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXVA-HD Sample
@@ -18,8 +23,8 @@ The sample programmatically generates video with a primary stream and a substrea
 
 This sample demonstrates the following DXVA-HD interfaces:
 
--   [**IDXVAHD\_Device**](idxvahd-device.md)
--   [**IDXVAHD\_VideoProcessor**](idxvahd-videoprocessor.md)
+-   [**IDXVAHD\_Device**](/windows/win32/dxvahd/nn-dxvahd-idxvahd_device?branch=master)
+-   [**IDXVAHD\_VideoProcessor**](/windows/win32/dxvahd/nn-dxvahd-idxvahd_videoprocessor?branch=master)
 
 ## Requirements
 

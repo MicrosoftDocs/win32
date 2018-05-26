@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Windows HTTP Services (WinHTTP) reference material is available for the following languages.'
-ms.assetid: '0efa5d3d-f911-48e3-b401-4b478182aa44'
+Description: Microsoft Windows HTTP Services (WinHTTP) reference material is available for the following languages.
+ms.assetid: 0efa5d3d-f911-48e3-b401-4b478182aa44
 title: WinHTTP Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHTTP Reference

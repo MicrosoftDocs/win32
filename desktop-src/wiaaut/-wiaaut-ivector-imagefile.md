@@ -1,8 +1,11 @@
 ---
 title: Vector.ImageFile property
 description: Retrieves the image file thumbnail of an ImageFile object, the RGB data thumbnail of an Item object, or creates an ImageFile object from raw ARGB data. Retrieves an ImageFile object on success.
-ms.assetid: '0bba6ade-d31c-4570-9f3d-c3c8e25d4a0b'
-keywords: ["ImageFile property WIA Automation", "ImageFile property WIA Automation , Vector object", "Vector object WIA Automation , ImageFile property"]
+ms.assetid: 0bba6ade-d31c-4570-9f3d-c3c8e25d4a0b
+keywords:
+- ImageFile property WIA Automation
+- ImageFile property WIA Automation , Vector object
+- Vector object WIA Automation , ImageFile property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.ImageFile property
@@ -55,8 +63,8 @@ For more information about raw ARGB bitmap data, see the Remarks section of the 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -78,9 +86,9 @@ For more information about raw ARGB bitmap data, see the Remarks section of the 
 [**Apply**](-wiaaut-iimageprocess-apply.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

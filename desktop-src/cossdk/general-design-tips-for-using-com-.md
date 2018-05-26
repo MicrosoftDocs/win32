@@ -1,7 +1,12 @@
 ---
-Description: 'The key to good design is planning. If you are unfamiliar with designing a three-tier application, see the section entitled Designing the COM+ Application Using UML.'
-ms.assetid: '463f4154-92f6-46c3-95ff-8513963dcadd'
+Description: The key to good design is planning. If you are unfamiliar with designing a three-tier application, see the section entitled Designing the COM+ Application Using UML.
+ms.assetid: 463f4154-92f6-46c3-95ff-8513963dcadd
 title: General Design Tips for Using COM+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Design Tips for Using COM+
@@ -21,7 +26,7 @@ How you construct the COM components that make up the middle tier of your COM+ a
 
 
 
- 
+ 
 
 Also, be sure to see [Improving Performance with Object Pooling](improving-performance-with-object-pooling.md) for ways to most effectively use object pooling.
 
@@ -41,9 +46,9 @@ Also, be sure to see [Improving Performance with Object Pooling](improving-perfo
 [Other Microsoft Tools for Building Distributed Applications](other-microsoft-tools-for-building-distributed-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

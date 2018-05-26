@@ -1,8 +1,11 @@
 ---
 title: IRASCallback OnReconnect method
 description: Prompts the user to pick which connection to use.
-ms.assetid: '0d47210b-4ab3-4641-9625-c9ae2ce2f62c'
-keywords: ["OnReconnect method Windows Mail (formerly Outlook Express)", "OnReconnect method Windows Mail (formerly Outlook Express) , IRASCallback interface", "IRASCallback interface Windows Mail (formerly Outlook Express) , OnReconnect method"]
+ms.assetid: 0d47210b-4ab3-4641-9625-c9ae2ce2f62c
+keywords:
+- OnReconnect method Windows Mail (formerly Outlook Express)
+- OnReconnect method Windows Mail (formerly Outlook Express) , IRASCallback interface
+- IRASCallback interface Windows Mail (formerly Outlook Express) , OnReconnect method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRASCallback::OnReconnect method
@@ -24,9 +32,9 @@ Prompts the user to pick which connection to use.
 
 ```C++
 HRESULT OnReconnect(
-  [in] LPSTR         pszCurrentConnectoid,
-  [in] LPSTR         pszNewConnectoid,
-  [in] IRASTransport *pTransport
+  [in] LPSTR         pszCurrentConnectoid,
+  [in] LPSTR         pszNewConnectoid,
+  [in] IRASTransport *pTransport
 );
 ```
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,8 +95,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -96,9 +104,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Stores and retrieves information about event subscriptions. This interface extends the IEventSubscription2 interface.'
-ms.assetid: 'fd1c136e-6e4e-42ca-a951-4aa5fcdfaa49'
+Description: Stores and retrieves information about event subscriptions. This interface extends the IEventSubscription2 interface.
+ms.assetid: fd1c136e-6e4e-42ca-a951-4aa5fcdfaa49
 title: IEventSubscription3 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEventSubscription3 interface
@@ -37,7 +42,7 @@ The **IEventSubscription3** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,8 +50,8 @@ The **IEventSubscription3** interface has these properties.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -57,9 +62,9 @@ The **IEventSubscription3** interface has these properties.
 [**IEventSubscription2**](ieventsubscription2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

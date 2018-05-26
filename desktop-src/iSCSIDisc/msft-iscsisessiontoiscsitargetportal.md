@@ -1,7 +1,12 @@
-﻿---
-Description: 'Association between iSCSISession and iSCSITargetPortal.'
-ms.assetid: '61D081D5-16CE-4523-9F4D-587D556FC679'
-title: 'MSFT\_iSCSISessionToiSCSITargetPortal class'
+---
+Description: Association between iSCSISession and iSCSITargetPortal.
+ms.assetid: 61D081D5-16CE-4523-9F4D-587D556FC679
+title: MSFT\_iSCSISessionToiSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSISessionToiSCSITargetPortal class

@@ -1,7 +1,12 @@
 ---
 title: Standard Icons
 description: Standard icons are the error, warning, information, and question mark icons that are part of Windows.
-ms.assetid: '63b5c31d-5094-4299-b44b-35b2452ce706'
+ms.assetid: 63b5c31d-5094-4299-b44b-35b2452ce706
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard Icons
@@ -25,7 +30,7 @@ The standard icons are notable because they are built into many Windows applicat
 
 ## Design concepts
 
-There are several factors in choosing the appropriate standard icon—which in part explains why they are so often used incorrectly. The most common mistakes are:
+There are several factors in choosing the appropriate standard icon which in part explains why they are so often used incorrectly. The most common mistakes are:
 
 -   Using a warning icon for minor errors. Warnings are not "softened" errors.
 -   Using a standard icon when it is better to use no icon at all. Not every message needs an icon.
@@ -175,7 +180,7 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 
 
 
- 
+ 
 
 ### Error icons
 
@@ -194,7 +199,7 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 
 
 
- 
+ 
 
 -   Generally, error icons aren't needed for non-critical user input problems. However, icons are needed for in-place errors, because otherwise such contextual feedback would be too easy to overlook.
 -   **For task dialogs, don't use error footnote icons.** Error icons must be presented in the content area only.
@@ -216,9 +221,9 @@ In the incorrect example, the standard warning icon doesn't match the main instr
 
 
 
- 
+ 
 
--   **Don't use warning icons to "soften" non-critical errors.** Errors aren't warnings—apply the error icon guidelines instead.
+-   **Don't use warning icons to "soften" non-critical errors.** Errors aren't warnings apply the error icon guidelines instead.
 -   **For question dialogs, use warning icons only for questions with significant consequences.** Don't use warning icons for routine questions.
 
 **Correct:**
@@ -254,7 +259,7 @@ In this example, a yellow security shield is used in a footnote.
 
 
 
- 
+ 
 
 -   Information icons aren't needed in dialog boxes, notifications, and balloons because their context sufficiently communicates that they are providing users with information.
 -   **For task dialogs, don't use information footnote icons.** Footnotes are sufficiently visible and it goes without saying that they are information.
@@ -262,12 +267,12 @@ In this example, a yellow security shield is used in a footnote.
 ### Question mark icons
 
 -   **Use the question mark icon only for Help entry points.** For more information, see the [Help entry point](winenv-help.md#guidelines) guidelines.
--   **Don't use the question mark icon to ask questions.** Again, use the question mark icon only for Help entry points. There is no need to ask questions using the question mark icon anyway—it's sufficient to present a main instruction as a question.
+-   **Don't use the question mark icon to ask questions.** Again, use the question mark icon only for Help entry points. There is no need to ask questions using the question mark icon anyway it's sufficient to present a main instruction as a question.
 -   **Don't routinely replace question mark icons with warning icons.** Replace a question mark icon with a warning icon only if the question has significant consequences. Otherwise, use no icon.
 
- 
+ 
 
- 
+ 
 
 
 

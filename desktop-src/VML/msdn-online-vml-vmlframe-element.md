@@ -1,7 +1,12 @@
 ---
 title: VML VMLFrame Element
 description: VML VMLFrame Element
-ms.assetid: 'a1582223-d6e2-42d1-95bb-97f6f1d453d2'
+ms.assetid: a1582223-d6e2-42d1-95bb-97f6f1d453d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML VMLFrame Element

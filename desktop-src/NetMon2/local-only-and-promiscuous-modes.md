@@ -1,7 +1,12 @@
 ---
-Description: 'Monitors can examine frames in local-only mode or promiscuous mode.'
-ms.assetid: '4646f5bb-e3e3-4929-91b7-f68c5b70ccb3'
-title: 'Local-Only and Promiscuous Modes'
+Description: Monitors can examine frames in local-only mode or promiscuous mode.
+ms.assetid: 4646f5bb-e3e3-4929-91b7-f68c5b70ccb3
+title: Local-Only and Promiscuous Modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local-Only and Promiscuous Modes

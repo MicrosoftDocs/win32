@@ -1,8 +1,9 @@
 ---
 title: WMT\_VIDEOIMAGE\_TRANSITION\_PAGE\_ROLL
 description: The page roll transition transforms the old image with a page-flipping effect, revealing the new image underneath.
-ms.assetid: '50efa4e9-0d3a-4b85-96b0-6d5cd637ca98'
-keywords: ["WMT_VIDEOIMAGE_TRANSITION_PAGE_ROLL windows Media Format"]
+ms.assetid: 50efa4e9-0d3a-4b85-96b0-6d5cd637ca98
+keywords:
+- WMT_VIDEOIMAGE_TRANSITION_PAGE_ROLL windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_PAGE\_ROLL
@@ -19,7 +25,7 @@ The page roll transition transforms the old image with a page-flipping effect, r
 
 ## Parameters
 
-The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md) structure to which they are assigned.
+The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master) structure to which they are assigned.
 
 
 
@@ -76,7 +82,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,9 +101,9 @@ The following table describes the parameters used by this transition and lists t
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

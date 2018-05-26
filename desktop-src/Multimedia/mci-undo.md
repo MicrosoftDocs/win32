@@ -1,8 +1,9 @@
 ---
 title: MCI\_UNDO command
 description: The MCI\_UNDO command reverses the most recent successful MCI\_CUT, MCI\_COPY, MCI\_DELETE, or MCI\_PASTE command. Digital-video devices recognize this command.
-ms.assetid: '1593457a-e680-4732-a89e-00f4eff7605a'
-keywords: ["MCI_UNDO command Windows Multimedia"]
+ms.assetid: 1593457a-e680-4732-a89e-00f4eff7605a
+keywords:
+- MCI_UNDO command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_UNDO command
 
 The MCI\_UNDO command reverses the most recent successful [MCI\_CUT](mci-cut.md), [MCI\_COPY](mci-copy.md), [MCI\_DELETE](mci-delete.md), or [MCI\_PASTE](mci-paste.md) command. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -66,8 +72,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ Returns zero if successful or an error otherwise.
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a CIM\_BaseMetricDefinition object defines metrics for a managed element.'
-ms.assetid: '10905038-fc23-4018-bae8-f336e4f001e7'
-title: 'CIM\_MetricDefForME class'
+Description: Represents an association in which a CIM\_BaseMetricDefinition object defines metrics for a managed element.
+ms.assetid: 10905038-fc23-4018-bae8-f336e4f001e7
+title: CIM\_MetricDefForME class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MetricDefForME class
@@ -14,9 +19,9 @@ Represents an association in which a [**CIM\_BaseMetricDefinition**](cim-basemet
 [Association, Abstract, Version("2.22.0"), UMLPackagePath("CIM::Metrics::BaseMetric"), AMENDMENT]
 class CIM_MetricDefForME : CIM_Dependency
 {
-  CIM_ManagedElement       REF Antecedent;
+  CIM_ManagedElement       REF Antecedent;
   CIM_BaseMetricDefinition REF Dependent;
-  uint16                       MetricCollectionEnabled = 2;
+  uint16                       MetricCollectionEnabled = 2;
 };
 ```
 
@@ -120,8 +125,8 @@ Indicates whether the metric is being collected for the managed element.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -135,9 +140,9 @@ Indicates whether the metric is being collected for the managed element.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

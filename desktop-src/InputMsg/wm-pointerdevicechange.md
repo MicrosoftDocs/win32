@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERDEVICECHANGE message
 description: Sent to a window when there is a change in the settings of a monitor that has a digitizer attached to it. This message contains information regarding the scaling of the display mode.
-ms.assetid: '9ED01D4C-58B4-4A21-B510-784281F9A909'
-keywords: ["WM_POINTERDEVICECHANGE message Input Messages and Notifications"]
+ms.assetid: 9ED01D4C-58B4-4A21-B510-784281F9A909
+keywords:
+- WM_POINTERDEVICECHANGE message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERDEVICECHANGE message
@@ -20,7 +26,7 @@ Sent to a window when there is a change in the settings of a monitor that has a 
 > \[!Important\]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
 
- 
+ 
 
 
 ```C++
@@ -59,8 +65,8 @@ If the application does not process this message, it should call [**DefWindowPro
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ If the application does not process this message, it should call [**DefWindowPro
 [Messages](messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

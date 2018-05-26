@@ -4,17 +4,22 @@ description: Used with RODCs to define which users, computers, and groups are al
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ee31957c-66a2-49d8-865c-7f599754dcdd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ee31957c-66a2-49d8-865c-7f599754dcdd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Reveal-OnDemand-Group attribute AD Schema", "msDS-RevealOnDemandGroup attribute AD Schema"]
+keywords:
+- ms-DS-Reveal-OnDemand-Group attribute AD Schema
+- msDS-RevealOnDemandGroup attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Reveal-OnDemand-Group
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Reveal-OnDemand-Group attribute
@@ -38,9 +43,9 @@ Used with RODCs to define which users, computers, and groups are allowed to have
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Used with RODCs to define which users, computers, and groups are allowed to have
 
 
 
- 
+ 
 
- 
+ 
 
 
 

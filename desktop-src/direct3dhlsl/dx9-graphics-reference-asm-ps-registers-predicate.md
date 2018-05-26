@@ -1,7 +1,12 @@
 ---
 title: Predicate Register
 description: This pixel shader output register contains a per-channel boolean value.
-ms.assetid: 'dc5bff90-4efa-4390-b744-dd1e894ff540'
+ms.assetid: dc5bff90-4efa-4390-b744-dd1e894ff540
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predicate Register

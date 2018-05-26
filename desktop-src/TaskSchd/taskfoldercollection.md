@@ -1,8 +1,10 @@
 ---
 title: TaskFolderCollection object
 description: Scripting object that provides information and control for a collection of folders that contain tasks.
-ms.assetid: '1889a7e3-8fa2-4b96-9d55-656850f605da'
-keywords: ["TaskFolderCollection object Task Scheduler", "TaskFolderCollection object Task Scheduler , described"]
+ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
+keywords:
+- TaskFolderCollection object Task Scheduler
+- TaskFolderCollection object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolderCollection object
@@ -36,7 +43,7 @@ The **TaskFolderCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,8 +51,8 @@ The **TaskFolderCollection** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -58,9 +65,9 @@ The **TaskFolderCollection** object has these properties.
 [**TaskFolder.GetFolders**](taskfolder-getfolders.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

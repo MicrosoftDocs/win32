@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads data from an open file.'
-ms.assetid: '7EA2FE38-20DA-43E1-A764-66A81725D1EA'
+---
+Description: Reads data from an open file.
+ms.assetid: 7EA2FE38-20DA-43E1-A764-66A81725D1EA
 title: NtReadFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtReadFile function
@@ -36,7 +41,7 @@ NTSTATUS NtReadFile(
 *FileHandle* \[in\]
 </dt> <dd>
 
-Handle to the file object. This handle is created by a successful call to [**NtCreateFile**](ntcreatefile.md) or [**NtOpenFile**](ntopenfile.md).
+Handle to the file object. This handle is created by a successful call to [**NtCreateFile**](/windows/win32/Winternl/nf-winternl-ntcreatefile?branch=master) or [**NtOpenFile**](/windows/win32/Winternl/nf-winternl-ntopenfile?branch=master).
 
 </dd> <dt>
 
@@ -87,7 +92,7 @@ The size, in bytes, of the buffer pointed to by *Buffer*.
 
 Pointer to a variable that specifies the starting byte offset in the file where the read operation will begin. If an attempt is made to read beyond the end of the file, **NtReadFile** returns an error.
 
-If the call to [**NtCreateFile**](ntcreatefile.md) set either of the *CreateOptions* flags FILE\_SYNCHRONOUS\_IO\_ALERT or FILE\_SYNCHRONOUS\_IO\_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **NtReadFile** can specify that the current file position offset be used instead of an explicit *ByteOffset* value. This specification can be made by using one of the following methods:
+If the call to [**NtCreateFile**](/windows/win32/Winternl/nf-winternl-ntcreatefile?branch=master) set either of the *CreateOptions* flags FILE\_SYNCHRONOUS\_IO\_ALERT or FILE\_SYNCHRONOUS\_IO\_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **NtReadFile** can specify that the current file position offset be used instead of an explicit *ByteOffset* value. This specification can be made by using one of the following methods:
 
 -   Specify a pointer to a **LARGE\_INTEGER** value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value FILE\_USE\_FILE\_POINTER\_POSITION.
 
@@ -112,9 +117,9 @@ Device and intermediate drivers should set this pointer to **NULL**.
 
 ## Remarks
 
-Callers of **NtReadFile** must have already called [**NtCreateFile**](ntcreatefile.md) with the FILE\_READ\_DATA or GENERIC\_READ value set in the *DesiredAccess* parameter.
+Callers of **NtReadFile** must have already called [**NtCreateFile**](/windows/win32/Winternl/nf-winternl-ntcreatefile?branch=master) with the FILE\_READ\_DATA or GENERIC\_READ value set in the *DesiredAccess* parameter.
 
-If the preceding call to [**NtCreateFile**](ntcreatefile.md) set the FILE\_NO\_INTERMEDIATE\_BUFFERING flag in the *CreateOptions* parameter to **NtCreateFile**, the *Length* and *ByteOffset* parameters to **NtReadFile** must be multiples of the sector size. For more information, see **NtCreateFile**.
+If the preceding call to [**NtCreateFile**](/windows/win32/Winternl/nf-winternl-ntcreatefile?branch=master) set the FILE\_NO\_INTERMEDIATE\_BUFFERING flag in the *CreateOptions* parameter to **NtCreateFile**, the *Length* and *ByteOffset* parameters to **NtReadFile** must be multiples of the sector size. For more information, see **NtCreateFile**.
 
 **NtReadFile** begins reading from the given *ByteOffset* or the current file position into the given *Buffer*. It terminates the read operation under one of the following conditions:
 
@@ -168,7 +173,7 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 [**KeInitializeEvent**](kernel.keinitializeevent)
 </dt> <dt>
 
-[**NtCreateFile**](ntcreatefile.md)
+[**NtCreateFile**](/windows/win32/Winternl/nf-winternl-ntcreatefile?branch=master)
 </dt> <dt>
 
 [**NtQueryInformationFile**](kernel.ntqueryinformationfile)

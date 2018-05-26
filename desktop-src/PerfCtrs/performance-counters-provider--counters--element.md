@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the provider and the counters that it provides.'
-ms.assetid: '54a8b293-8e35-4b15-901a-e0cf608595d3'
-title: 'provider (counters) Element'
+Description: Identifies the provider and the counters that it provides.
+ms.assetid: 54a8b293-8e35-4b15-901a-e0cf608595d3
+title: provider (counters) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # provider (counters) Element
@@ -22,8 +27,8 @@ The **provider** element is defined by the [**counters**](performance-counters-c
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -37,9 +42,9 @@ The **provider** element is defined by the [**counters**](performance-counters-c
 [**counters**](performance-counters-counters-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

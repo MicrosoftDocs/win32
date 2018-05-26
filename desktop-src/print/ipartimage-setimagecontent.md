@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetImageContent method sets an image property that is based on the content type.'
-ms.assetid: '5d7a59ac-93de-4a41-9313-df189e1f6e36'
-title: 'IPartImage::SetImageContent method'
+---
+Description: The SetImageContent method sets an image property that is based on the content type.
+ms.assetid: 5d7a59ac-93de-4a41-9313-df189e1f6e36
+title: IPartImageSetImageContent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartImage::SetImageContent method

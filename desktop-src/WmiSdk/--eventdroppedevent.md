@@ -1,13 +1,16 @@
 ---
-Description: 'Represents the occurrence of an event that is dropped. A dropped event is an event that is not delivered to an event consumer.'
+Description: Represents the occurrence of an event that is dropped. A dropped event is an event that is not delivered to an event consumer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fae267a9-e0ec-43fa-a3c3-d50345775a1d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fae267a9-e0ec-43fa-a3c3-d50345775a1d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventDroppedEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventDroppedEvent class
@@ -21,10 +24,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __EventDroppedEvent : __SystemEvent
 {
-  __Event             Event;
+  __Event             Event;
   __EventConsumer REF IntendedConsumer;
-  uint8               SECURITY_DESCRIPTOR[];
-  uint64              TIME_CREATED;
+  uint8               SECURITY_DESCRIPTOR[];
+  uint64              TIME_CREATED;
 };
 ```
 
@@ -104,8 +107,8 @@ The **\_\_EventDroppedEvent** class is derived from [**\_\_SystemEvent**](--syst
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -120,9 +123,9 @@ The **\_\_EventDroppedEvent** class is derived from [**\_\_SystemEvent**](--syst
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

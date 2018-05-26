@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when an application uses the WM ASF Writer filter to index Windows Media Video files.'
-ms.assetid: 'e5f69aa1-f9b0-4403-acab-25d1f971a876'
-title: 'EC\_WMT\_INDEX\_EVENT'
+Description: Sent when an application uses the WM ASF Writer filter to index Windows Media Video files.
+ms.assetid: e5f69aa1-f9b0-4403-acab-25d1f971a876
+title: EC\_WMT\_INDEX\_EVENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_WMT\_INDEX\_EVENT
@@ -27,7 +32,7 @@ Can be one of the following **WMT\_STATUS** messages.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -58,9 +63,9 @@ If *lParam1* is WMT\_CLOSED or WMT\_STARTED, then *lParam2* is zero. If *lParam1
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

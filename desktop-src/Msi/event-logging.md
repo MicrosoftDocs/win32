@@ -1,7 +1,12 @@
-﻿---
-Description: 'Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.'
-ms.assetid: '1f28cbce-b759-4293-8af2-15f86f23228c'
+---
+Description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
+ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
 title: Event Logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Logging
@@ -210,7 +215,7 @@ For information about how to enable verbose logging on a user's computer when tr
 <strong>msirbRebootInUseFilesReason</strong> (1)- A restart was required to replace files in use.<br />
 <strong>msirbRebootScheduleRebootReason</strong> (2)- The package contains a [ScheduleReboot](schedulereboot-action.md) action.<br />
 <strong>msirbRebootForceRebootReason</strong> (3)- The package contains a [ForceReboot](forcereboot-action.md) action.<br />
-<strong>msirbRebootCustomActionReason</strong> (4)- A custom action called the [<strong>MsiSetMode</strong>](msisetmode.md) function.<br />
+<strong>msirbRebootCustomActionReason</strong> (4)- A custom action called the [<strong>MsiSetMode</strong>](/windows/win32/Msiquery/nf-msiquery-msisetmode?branch=master) function.<br />
 </dl> </dd> </dl> <strong>[Windows Installer 3.1 and earlier](not-supported-in-windows-installer-version-3-1.md):</strong> Not available.<br/> Field 6 - [<strong>Manufacturer</strong>](manufacturer.md)<br/> <strong>[Windows Installer 4.5 and earlier](not-supported-in-windows-installer-4-5.md):</strong> Field 6 not available.<br/></td>
 </tr>
 <tr class="even">
@@ -240,7 +245,7 @@ For information about how to enable verbose logging on a user's computer when tr
 
  
 
-You can import localized errors strings for events into your database by using Msidb.exe or [**MsiDatabaseImport**](msidatabaseimport.md). The SDK includes localized resource strings for each of the languages listed in the [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md) section. If the error strings corresponding to events are not populated, the installer loads localized strings for the language specified by the [**ProductLanguage**](productlanguage.md) property.
+You can import localized errors strings for events into your database by using Msidb.exe or [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). The SDK includes localized resource strings for each of the languages listed in the [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md) section. If the error strings corresponding to events are not populated, the installer loads localized strings for the language specified by the [**ProductLanguage**](productlanguage.md) property.
 
  
 

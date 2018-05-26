@@ -4,11 +4,12 @@ description: Read and write the properties described in the following table.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dd348a3c-0386-4fa2-984d-cdea6f09bd72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: dd348a3c-0386-4fa2-984d-cdea6f09bd72
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsProperty Property Methods ADSI"]
+keywords:
+- IADsProperty Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -32,11 +33,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsProperty Property Methods
 
-The property methods of the [**IADsProperty**](iadsproperty.md) interface read and write the properties described in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master) interface read and write the properties described in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -182,7 +186,7 @@ HRESULT put_Syntax(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -310,8 +314,8 @@ CoUninitialize();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsProperty is defined as C8F93DD3-4AE0-11CF-9E73-00AA004A5691<br/>         |
@@ -322,18 +326,18 @@ CoUninitialize();
 
 <dl> <dt>
 
-[**IADsClass**](iadsclass.md)
+[**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)
 </dt> <dt>
 
-[**IADsProperty**](iadsproperty.md)
+[**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)
 </dt> <dt>
 
-[**IADsSyntax**](iadssyntax.md)
+[**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

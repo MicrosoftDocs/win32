@@ -1,20 +1,25 @@
 ---
-Description: 'Associates an ITransactionProxy implementation with the current context.'
-ms.assetid: '64009632-b536-41fb-95ac-b23e2cbf18da'
-title: 'IContextTransactionInfo::RegisterTransactionProxy method'
+Description: Associates an ITransactionProxy implementation with the current context.
+ms.assetid: 64009632-b536-41fb-95ac-b23e2cbf18da
+title: IContextTransactionInfoRegisterTransactionProxy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextTransactionInfo::RegisterTransactionProxy method
 
-Associates an [**ITransactionProxy**](itransactionproxy.md) implementation with the current context.
+Associates an [**ITransactionProxy**](/windows/win32/ComSvcs/nn-comsvcs-itransactionproxy?branch=master) implementation with the current context.
 
 ## Syntax
 
 
 ```C++
 HRESULT RegisterTransactionProxy(
-  [in]  ITransactionProxy *pProxy,
-  [out] GUID              *pGuid
+  [in]  ITransactionProxy *pProxy,
+  [out] GUID              *pGuid
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT RegisterTransactionProxy(
 *pProxy* \[in\]
 </dt> <dd>
 
-An [**ITransactionProxy**](itransactionproxy.md) implementation to associate with the current context.
+An [**ITransactionProxy**](/windows/win32/ComSvcs/nn-comsvcs-itransactionproxy?branch=master) implementation to associate with the current context.
 
 </dd> <dt>
 
 *pGuid* \[out\]
 </dt> <dd>
 
-A GUID that identifies the transaction proxy. COM+ uses this GUID when calling [**ITransactionProxy::Commit**](itransactionproxy-commit.md) on the transaction proxy.
+A GUID that identifies the transaction proxy. COM+ uses this GUID when calling [**ITransactionProxy::Commit**](/windows/win32/ComSvcs/nf-comsvcs-itransactionproxy-commit?branch=master) on the transaction proxy.
 
 </dd> </dl>
 
@@ -47,12 +52,12 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 | Return code                                                                                                     | Description                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S\_OK**</dt> </dl>                            | The method completed successfully.<br/>                                                                           |
-| <dl> <dt>**CONTEXT\_E\_ALREADYINTRANSACTION**</dt> </dl> | The current context already has an associated [**ITransactionProxy**](itransactionproxy.md) implementation.<br/> |
+| <dl> <dt>**CONTEXT\_E\_ALREADYINTRANSACTION**</dt> </dl> | The current context already has an associated [**ITransactionProxy**](/windows/win32/ComSvcs/nn-comsvcs-itransactionproxy?branch=master) implementation.<br/> |
 | <dl> <dt>**E\_NOTIMPL**</dt> </dl>                       | The current context is hosting a Bring Your Own Transaction (BYOT) transaction or a non-root transaction.<br/>    |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,8 +69,8 @@ The **RegisterTransactionProxy** method can only be called if the current contex
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
 
 
 
@@ -76,9 +81,9 @@ The **RegisterTransactionProxy** method can only be called if the current contex
 [**IContextTransactionInfo**](icontexttransactioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

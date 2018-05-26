@@ -1,8 +1,11 @@
 ---
 title: IMessenger3 Property property
 description: get\_Property retrieves the Messenger client version and the locale ID (LCID). put\_Property is reserved. Do not use.
-ms.assetid: '12654942-862f-4724-af38-6b98567a7a6f'
-keywords: ["Property property Windows Messenger", "Property property Windows Messenger , IMessenger3 interface", "IMessenger3 interface Windows Messenger , Property property"]
+ms.assetid: 12654942-862f-4724-af38-6b98567a7a6f
+keywords:
+- Property property Windows Messenger
+- Property property Windows Messenger , IMessenger3 interface
+- IMessenger3 interface Windows Messenger , Property property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger3::Property property
 
-\[**Property** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Property** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 `get_Property` retrieves the Messenger client version and the locale ID (LCID). `put_Property` is reserved. Do not use.
 
@@ -28,13 +36,13 @@ This property is read/write.
 
 ```C++
 HRESULT put_Property(
-  [in]          MMESSENGERPROPERTY ePropType,
-  [in]          VARIANT            vPropVal
+  [in]          MMESSENGERPROPERTY ePropType,
+  [in]          VARIANT            vPropVal
 );
 
 HRESULT get_Property(
-  [in]          MMESSENGERPROPERTY ePropType,
-  [out, retval] VARIANT            *pvPropVal
+  [in]          MMESSENGERPROPERTY ePropType,
+  [out, retval] VARIANT            *pvPropVal
 );
 ```
 
@@ -95,7 +103,7 @@ The following table contains the country code, LCID, code pate, and language sup
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -103,17 +111,17 @@ The following table contains the country code, LCID, code pate, and language sup
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

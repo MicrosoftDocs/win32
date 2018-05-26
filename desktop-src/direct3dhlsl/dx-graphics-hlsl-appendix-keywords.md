@@ -1,8 +1,93 @@
 ---
 title: Keywords
-description: The Microsoft High Level Shader Language (HLSL) recognizes the words in this section as keywords. Keywords are predefined reserved identifiers that have special meanings. You can't use them as identifiers in your app.
-ms.assetid: '474e32ac-8e73-47f2-91ad-f64677fcb216'
-keywords: ["HLSL Keywords", "BlendState, HLSL keyword", "Bool, HLSL keyword", "Break, HLSL keyword", "Buffer, HLSL keyword", "CBuffer, HLSL keyword", "Class, HLSL keyword", "Compile, HLSL keyword", "Const, HLSL keyword", "Continue, HLSL keyword", "DepthStencilState, HLSL keyword", "DepthStencilView, HLSL keyword", "Discard, HLSL keyword", "Do, HLSL keyword", "Double, HLSL keyword", "Else, HLSL keyword", "Export, HLSL keyword", "Extern, HLSL keyword", "False, HLSL keyword", "Float, HLSL keyword", "For, HLSL keyword", "GeometryShader, HLSL keyword", "Half, HLSL keyword", "If, HLSL keyword", "In, HLSL keyword", "Inline, HLSL keyword", "Inout, HLSL keyword", "Int, HLSL keyword", "Interface, HLSL keyword", "Line, HLSL keyword", "Lineadj, HLSL keyword", "Matrix, HLSL keyword", "Namespace, HLSL keyword", "Nointerpolation, HLSL keyword", "Out, HLSL keyword", "Pass, HLSL keyword", "PixelShader, HLSL keyword", "Precise, HLSL keyword", "Point, HLSL keyword", "RasterizerState, HLSL keyword", "RenderTargetView, HLSL keyword", "Return, HLSL keyword", "Register, HLSL keyword", "Sampler, HLSL keyword", "Sampler1D, HLSL keyword", "Sampler2D, HLSL keyword", "Sampler3D, HLSL keyword", "SamplerCUBE, HLSL keyword", "Sampler_State, HLSL keyword", "SamplerComparisonState, HLSL keyword", "Shared, HLSL keyword", "Stateblock, HLSL keyword", "Stateblock_state, HLSL keyword", "Static, HLSL keyword", "String, HLSL keyword", "Struct, HLSL keyword", "Switch, HLSL keyword", "TBuffer, HLSL keyword", "Technique, HLSL keyword", "Technique10, HLSL keyword", "texture, HLSL keyword", "Texture1D, HLSL keyword", "Texture1DArray, HLSL keyword", "Texture2D, HLSL keyword", "Texture2DArray, HLSL keyword", "Texture2DMS, HLSL keyword", "Texture2DMSArray, HLSL keyword", "Texture3D, HLSL keyword", "TextureCube, HLSL keyword", "TextureCubeArray, HLSL keyword", "True, HLSL keyword", "Typedef, HLSL keyword", "Triangle, HLSL keyword", "Triangleadj, HLSL keyword", "Uniform, HLSL keyword", "Vector, HLSL keyword", "VertexShader, HLSL keyword", "Void, HLSL keyword", "Volatile, HLSL keyword", "While, HLSL keyword"]
+description: The Microsoft High Level Shader Language (HLSL) recognizes the words in this section as keywords. Keywords are predefined reserved identifiers that have special meanings. You cant use them as identifiers in your app.
+ms.assetid: 474e32ac-8e73-47f2-91ad-f64677fcb216
+keywords:
+- HLSL Keywords
+- BlendState, HLSL keyword
+- Bool, HLSL keyword
+- Break, HLSL keyword
+- Buffer, HLSL keyword
+- CBuffer, HLSL keyword
+- Class, HLSL keyword
+- Compile, HLSL keyword
+- Const, HLSL keyword
+- Continue, HLSL keyword
+- DepthStencilState, HLSL keyword
+- DepthStencilView, HLSL keyword
+- Discard, HLSL keyword
+- Do, HLSL keyword
+- Double, HLSL keyword
+- Else, HLSL keyword
+- Export, HLSL keyword
+- Extern, HLSL keyword
+- False, HLSL keyword
+- Float, HLSL keyword
+- For, HLSL keyword
+- GeometryShader, HLSL keyword
+- Half, HLSL keyword
+- If, HLSL keyword
+- In, HLSL keyword
+- Inline, HLSL keyword
+- Inout, HLSL keyword
+- Int, HLSL keyword
+- Interface, HLSL keyword
+- Line, HLSL keyword
+- Lineadj, HLSL keyword
+- Matrix, HLSL keyword
+- Namespace, HLSL keyword
+- Nointerpolation, HLSL keyword
+- Out, HLSL keyword
+- Pass, HLSL keyword
+- PixelShader, HLSL keyword
+- Precise, HLSL keyword
+- Point, HLSL keyword
+- RasterizerState, HLSL keyword
+- RenderTargetView, HLSL keyword
+- Return, HLSL keyword
+- Register, HLSL keyword
+- Sampler, HLSL keyword
+- Sampler1D, HLSL keyword
+- Sampler2D, HLSL keyword
+- Sampler3D, HLSL keyword
+- SamplerCUBE, HLSL keyword
+- Sampler_State, HLSL keyword
+- SamplerComparisonState, HLSL keyword
+- Shared, HLSL keyword
+- Stateblock, HLSL keyword
+- Stateblock_state, HLSL keyword
+- Static, HLSL keyword
+- String, HLSL keyword
+- Struct, HLSL keyword
+- Switch, HLSL keyword
+- TBuffer, HLSL keyword
+- Technique, HLSL keyword
+- Technique10, HLSL keyword
+- texture, HLSL keyword
+- Texture1D, HLSL keyword
+- Texture1DArray, HLSL keyword
+- Texture2D, HLSL keyword
+- Texture2DArray, HLSL keyword
+- Texture2DMS, HLSL keyword
+- Texture2DMSArray, HLSL keyword
+- Texture3D, HLSL keyword
+- TextureCube, HLSL keyword
+- TextureCubeArray, HLSL keyword
+- True, HLSL keyword
+- Typedef, HLSL keyword
+- Triangle, HLSL keyword
+- Triangleadj, HLSL keyword
+- Uniform, HLSL keyword
+- Vector, HLSL keyword
+- VertexShader, HLSL keyword
+- Void, HLSL keyword
+- Volatile, HLSL keyword
+- While, HLSL keyword
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keywords

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxActivityLogging object information from the fax server.'
-ms.assetid: '318b9900-544a-46e1-bd0d-af161df660bd'
-title: 'FaxActivityLogging.Refresh method'
+---
+Description: The Refresh method refreshes FaxActivityLogging object information from the fax server.
+ms.assetid: 318b9900-544a-46e1-bd0d-af161df660bd
+title: FaxActivityLogging.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivityLogging.Refresh method
@@ -25,7 +30,7 @@ This method has no parameters.
 
 When the **Refresh** method is called, any configuration changes made after the last [**Save**](-mfax-faxactivitylogging-save-vb.md) method call are lost.
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxActivityLogging**](-mfax-faxactivitylogging.md)
 </dt> <dt>
 
-[**IFaxActivityLogging**](-mfax-faxactivitylogging-cpp.md)
+[**IFaxActivityLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivitylogging?branch=master)
 </dt> </dl>
 
  

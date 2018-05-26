@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice IpAddresses method
 description: Returns a vector of IP addresses.
-ms.assetid: 'F48B91DC-3AE2-462F-835B-292BF86904B3'
-keywords: ["IpAddresses method Media Streaming API", "IpAddresses method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , IpAddresses method"]
+ms.assetid: F48B91DC-3AE2-462F-835B-292BF86904B3
+keywords:
+- IpAddresses method Media Streaming API
+- IpAddresses method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , IpAddresses method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.IpAddresses
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::IpAddresses method
@@ -20,7 +28,7 @@ Returns a vector of IP addresses.
 
 ```C++
 HRESULT IpAddresses(
-  [out] IVector< HSTRING > **value
+  [out] IVector< HSTRING > **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

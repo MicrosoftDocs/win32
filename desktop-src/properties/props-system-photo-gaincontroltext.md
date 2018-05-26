@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.Photo.GainControl. Not intended to be parsed programmatically.'
-ms.assetid: '18fd47dc-b428-4ada-aee5-e696e23c1f26'
-title: 'System.Photo.GainControlText'
+Description: The user-friendly form of System.Photo.GainControl. Not intended to be parsed programmatically.
+ms.assetid: 18fd47dc-b428-4ada-aee5-e696e23c1f26
+title: System.Photo.GainControlText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.GainControlText

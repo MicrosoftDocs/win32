@@ -1,7 +1,12 @@
 ---
 title: displaybind
 description: Indicates that a property should be displayed as bindable to the user.
-ms.assetid: 'ab25f26a-01b9-4314-9304-2c25085f136b'
+ms.assetid: ab25f26a-01b9-4314-9304-2c25085f136b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # displaybind

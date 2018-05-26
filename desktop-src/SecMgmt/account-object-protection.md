@@ -1,7 +1,12 @@
 ---
-Description: 'Explains how Account objects are protected.'
-ms.assetid: 'a07ef46e-f4b6-4e21-bdd7-72d03e1c88b3'
+Description: Explains how Account objects are protected.
+ms.assetid: a07ef46e-f4b6-4e21-bdd7-72d03e1c88b3
 title: Account Object Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Account Object Protection

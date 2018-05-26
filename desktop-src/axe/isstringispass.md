@@ -1,14 +1,20 @@
 ---
 title: IsStringIsPass element
 description: Indicates that the MetricValue is considered to pass if the MetricValue is a string and is equivalent to the MetricThresholdValue.
-ms.assetid: '8E0080F7-C450-4D68-957A-8E4F4CED2407'
-keywords: ["IsStringIsPass element Access Execution Engine"]
+ms.assetid: 8E0080F7-C450-4D68-957A-8E4F4CED2407
+keywords:
+- IsStringIsPass element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IsStringIsPass
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsStringIsPass element

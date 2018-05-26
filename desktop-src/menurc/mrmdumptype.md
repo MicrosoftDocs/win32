@@ -1,8 +1,9 @@
 ---
 title: MrmDumpType enumeration
 description: Defines constants that specify the type of PRI file dump to produce. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: '71E49F35-4B79-478A-A26A-C0D9A9FC2D11'
-keywords: ["MrmDumpType enumeration Menus and Other Resources"]
+ms.assetid: 71E49F35-4B79-478A-A26A-C0D9A9FC2D11
+keywords:
+- MrmDumpType enumeration Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmDumpType enumeration
@@ -24,9 +30,9 @@ Defines constants that specify the type of PRI file dump to produce. For more in
 
 ```C++
 typedef enum _MrmDumpType { 
-  MrmDumpType_Basic     = 0,
-  MrmDumpType_Detailed  = 1,
-  MrmDumpType_Schema    = 2
+  MrmDumpType_Basic     = 0,
+  MrmDumpType_Detailed  = 1,
+  MrmDumpType_Schema    = 2
 } MrmDumpType;
 ```
 
@@ -63,7 +69,7 @@ Specifies that the dump should be a schema.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 
@@ -76,9 +82,9 @@ Specifies that the dump should be a schema.
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

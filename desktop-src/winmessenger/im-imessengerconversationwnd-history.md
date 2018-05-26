@@ -1,8 +1,11 @@
 ---
 title: IMessengerConversationWnd History property
 description: Returns the text from the history of the conversation window.
-ms.assetid: '346b628c-1503-4899-944d-7a60305b588c'
-keywords: ["History property Windows Messenger", "History property Windows Messenger , IMessengerConversationWnd interface", "IMessengerConversationWnd interface Windows Messenger , History property"]
+ms.assetid: 346b628c-1503-4899-944d-7a60305b588c
+keywords:
+- History property Windows Messenger
+- History property Windows Messenger , IMessengerConversationWnd interface
+- IMessengerConversationWnd interface Windows Messenger , History property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerConversationWnd::History property
 
-\[**History** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**History** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Returns the text from the history of the conversation window.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_History(
-  [out, retval] BSTR *bstrHistoryText
+  [out, retval] BSTR *bstrHistoryText
 );
 ```
 
@@ -39,7 +47,7 @@ Pointer to a **BSTR** that contains the text of the conversation window.
 
 ## Error codes
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -64,14 +72,14 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 The **History** property not scriptable.
 
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -101,8 +109,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -116,9 +124,9 @@ End Sub
 [**IMessengerConversationWnd**](im-imessengerconversationwnd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

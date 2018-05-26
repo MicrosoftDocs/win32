@@ -4,13 +4,16 @@ description: Changes settings on a fault domain object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '541b2d94-a634-4216-9f52-3638ec40f8c0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 541b2d94-a634-4216-9f52-3638ec40f8c0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetFaultDomain method", "SetFaultDomain method, MSCluster_FaultDomain class", "MSCluster_FaultDomain class, SetFaultDomain method"]
+keywords:
+- SetFaultDomain method
+- SetFaultDomain method, MSCluster_FaultDomain class
+- MSCluster_FaultDomain class, SetFaultDomain method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetFaultDomain method of the MSCluster\_FaultDomain class
@@ -30,11 +36,11 @@ Changes settings on a fault domain object.
 
 ```mof
 uint32 SetFaultDomain(
-  [in] string NewName,
-  [in] string FaultDomain,
-  [in] string Description,
-  [in] string Location,
-  [in] uint32 Flags
+  [in] string NewName,
+  [in] string FaultDomain,
+  [in] string Description,
+  [in] string Location,
+  [in] uint32 Flags
 );
 ```
 
@@ -86,7 +92,7 @@ Flags
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -100,9 +106,9 @@ Flags
 [**MSCluster\_FaultDomain**](mscluster-faultdomain.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

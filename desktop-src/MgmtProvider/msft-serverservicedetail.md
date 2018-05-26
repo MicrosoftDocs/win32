@@ -4,11 +4,13 @@ description: Represents the details about an installed system service on the ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dbf4b1ab-c752-41e8-8a14-064f3972ebbc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: dbf4b1ab-c752-41e8-8a14-064f3972ebbc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerServiceDetail class", "MSFT_ServerServiceDetail class, described"]
+keywords:
+- MSFT_ServerServiceDetail class
+- MSFT_ServerServiceDetail class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerServiceDetail class
@@ -41,16 +46,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("mgmtprovider"), AMENDMENT]
 class MSFT_ServerServiceDetail
 {
-  string  Name;
-  string  DisplayName;
-  string  Description;
-  uint32  StartupType;
+  string  Name;
+  string  DisplayName;
+  string  Description;
+  uint32  StartupType;
   boolean IsDelayedAutoStart;
   boolean IsTriggered;
-  uint32  SupportedControlCodes;
-  uint32  Status = 0;
-  uint64  ExitCode = 0;
-  string  DependentServices[];
+  uint32  SupportedControlCodes;
+  uint32  Status = 0;
+  uint64  ExitCode = 0;
+  string  DependentServices[];
 };
 ```
 
@@ -380,16 +385,16 @@ Trigger Event
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

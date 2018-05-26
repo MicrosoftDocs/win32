@@ -1,14 +1,20 @@
 ---
 title: InterlockedMax function
 description: Performs a guaranteed atomic max.
-ms.assetid: 'ea2c67ef-3133-424d-9cc3-81da79aee87e'
-keywords: ["InterlockedMax function HLSL"]
+ms.assetid: ea2c67ef-3133-424d-9cc3-81da79aee87e
+keywords:
+- InterlockedMax function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedMax
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedMax function

@@ -1,13 +1,16 @@
 ---
-Description: 'Counter algorithm counter types may calculate rates or averages bytes for a sample or over a time period for a particular operation.'
+Description: Counter algorithm counter types may calculate rates or averages bytes for a sample or over a time period for a particular operation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4423e35e-2a93-4f68-8494-89df05268cc9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4423e35e-2a93-4f68-8494-89df05268cc9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Counter Algorithm Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Counter Algorithm Counter Types
@@ -29,7 +32,7 @@ The following counter algorithms are provided:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +41,9 @@ The following counter algorithms are provided:
 [WMI Performance Counter Types](wmi-performance-counter-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

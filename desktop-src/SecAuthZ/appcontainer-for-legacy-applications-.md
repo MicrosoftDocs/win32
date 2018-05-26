@@ -1,7 +1,12 @@
 ---
-Description: 'The AppContainer environment is a restrictive process execution environment that can be used for legacy applications to provide resource security.'
-ms.assetid: '28498D4E-DCA4-4A85-B474-C3C328BD3022'
+Description: The AppContainer environment is a restrictive process execution environment that can be used for legacy applications to provide resource security.
+ms.assetid: 28498D4E-DCA4-4A85-B474-C3C328BD3022
 title: AppContainer for Legacy Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppContainer for Legacy Applications
@@ -25,11 +30,11 @@ For more information about using AppContainer for Legacy Applications, see the f
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: string
 description: Specifies a string.
-ms.assetid: '927c449b-1d38-4449-a1fd-63fb82c0d660'
+ms.assetid: 927c449b-1d38-4449-a1fd-63fb82c0d660
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # string

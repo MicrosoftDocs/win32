@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_AType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents a host Address (A) record.
-ms.assetid: 'c7bd8a26-b0ac-49ef-9068-a0ecddeb6ef4'
-keywords: ["MicrosoftDNS_AType class DNS", "MicrosoftDNS_AType class DNS , described"]
+ms.assetid: c7bd8a26-b0ac-49ef-9068-a0ecddeb6ef4
+keywords:
+- MicrosoftDNS_AType class DNS
+- MicrosoftDNS_AType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_AType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_AType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ String representing the IPv4 address of the host.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ String representing the IPv4 address of the host.
 [**Modify Method of the MicrosoftDNS\_AType Class**](microsoftdns-atype-modify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

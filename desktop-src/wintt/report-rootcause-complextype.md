@@ -1,14 +1,20 @@
 ---
 title: RootCause Complex Type
 description: Defines a root cause that the package can detect.
-ms.assetid: '55040388-068c-4046-96ab-476eb40eaf7b'
-keywords: ["RootCause complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 55040388-068c-4046-96ab-476eb40eaf7b
+keywords:
+- RootCause complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - RootCause
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RootCause Complex Type
@@ -71,11 +77,11 @@ Defines a root cause that the package can detect.
 <li>The description of the root cause. The <strong>Id</strong> attribute for this property is Description.</li>
 <li>The status that indicates whether the package tried to detect the root cause. Possible values are:
 <ul>
-<li>Detected — the root cause was detected but could not determine if the issue was fixed</li>
-<li>Not Detected — the root cause was not detected</li>
-<li>Not Checked — the troubleshooter script was not called</li>
-<li>Fixed — the root cause was detected and fixed.</li>
-<li>Not Fixed — the root cause was detected but not fixed.</li>
+<li>Detected   the root cause was detected but could not determine if the issue was fixed</li>
+<li>Not Detected   the root cause was not detected</li>
+<li>Not Checked   the troubleshooter script was not called</li>
+<li>Fixed   the root cause was detected and fixed.</li>
+<li>Not Fixed   the root cause was detected but not fixed.</li>
 </ul>
 The troubleshooter sets the Detected and Not Detected status values, and the verifier sets the Fixed and Not Fixed status values. The <strong>Id</strong> attribute for this property is Status.</li>
 </ul>
@@ -113,14 +119,14 @@ The text body of the <strong>Data</strong> element contains the property's value
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

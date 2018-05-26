@@ -4,11 +4,12 @@ description: Encrypts plaintext data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '07db6ce0-060b-497f-b9f1-8081bbdb99a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 07db6ce0-060b-497f-b9f1-8081bbdb99a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcEncrypt function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcEncrypt function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcEncrypt function
@@ -28,14 +32,14 @@ Encrypts plaintext data. For important information about using this function, se
 
 ```C++
 HRESULT WINAPI IpcEncrypt(
-  _In_  IPC_KEY_HANDLE hKey,
-        DWORD          dwBlockNumber,
-        BOOL           fFinal,
-  _In_  PBYTE          pbInput,
-        DWORD          cbInput,
-  _Out_ PBYTE          pbOutput,
-        DWORD          cbOutput,
-  _Out_ DWORD          *pcbResult
+  _In_  IPC_KEY_HANDLE hKey,
+        DWORD          dwBlockNumber,
+        BOOL           fFinal,
+  _In_  PBYTE          pbInput,
+        DWORD          cbInput,
+  _Out_ PBYTE          pbOutput,
+        DWORD          cbOutput,
+  _Out_ DWORD          *pcbResult
 );
 ```
 
@@ -107,7 +111,7 @@ A pointer to a **ULONG** that receives the number of bytes copied to *pbOutput*.
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Remarks
 
@@ -118,7 +122,7 @@ When encrypting data, memory must be allocated by the caller to store the encryp
 > [!Note]  
 > Breaking your content into multiple segments and performing multiple calls may also be required if the content of your document is not stored contiguously.
 
- 
+ 
 
 To encrypt a block of data in a single call, pass in 0 (zero) for *dwBlockNumber*, **TRUE** for *fFinal*, and set *pbInput* to the beginning of your data.
 
@@ -127,7 +131,7 @@ To encrypt a large block of contiguous data over the course of several calls, us
 > [!Note]  
 > Automatic padding is not supported. All segments of data must be a multiple of the platform's block size, as determined by [**IpcGetKeyProperty**](ipcgetkeyproperty.md).
 
- 
+ 
 
 ### Padding
 
@@ -141,8 +145,8 @@ If your application encrypts data that can be consumed by using the MSDRM librar
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -168,9 +172,9 @@ If your application encrypts data that can be consumed by using the MSDRM librar
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

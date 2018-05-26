@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Action class exposes the following methods.'
+Description: The CIM\_Action class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0226DAC5-CE97-4D04-8761-E17ABD6A4BD1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0226DAC5-CE97-4D04-8761-E17ABD6A4BD1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Action Methods'
+title: CIM\_Action Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Action Methods

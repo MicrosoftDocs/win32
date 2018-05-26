@@ -2,7 +2,12 @@
 title: Packaging, deployment, and query glossary
 description: Provides definitions for terms related to packaging, deployment, and query for Windows Store apps.
 Robots: noindex, nofollow
-ms.assetid: '15E35DCF-C6C1-446A-B09B-6428F9C8A677'
+ms.assetid: 15E35DCF-C6C1-446A-B09B-6428F9C8A677
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging, deployment, and query glossary

@@ -1,7 +1,12 @@
 ---
-Description: 'A shared assembly is an assembly available for use by multiple applications on the computer.'
-ms.assetid: 'E42688E0-83D8-4C64-98A8-1BE82E4348FA'
+Description: A shared assembly is an assembly available for use by multiple applications on the computer.
+ms.assetid: E42688E0-83D8-4C64-98A8-1BE82E4348FA
 title: About Shared Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Shared Assemblies

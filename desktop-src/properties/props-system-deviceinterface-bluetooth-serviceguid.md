@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth service GUID.'
-ms.assetid: 'a6df61fa-5e6d-45cb-9012-e550fb1d08d4'
-title: 'System.DeviceInterface.Bluetooth.ServiceGuid'
+Description: Bluetooth service GUID.
+ms.assetid: a6df61fa-5e6d-45cb-9012-e550fb1d08d4
+title: System.DeviceInterface.Bluetooth.ServiceGuid
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Bluetooth.ServiceGuid

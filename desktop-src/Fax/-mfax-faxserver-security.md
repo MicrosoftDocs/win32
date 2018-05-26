@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Security property creates a FaxSecurity configuration object. The object permits the calling application to set and retrieve a security descriptor for the fax server.'
-ms.assetid: '67ddcb57-d00f-4145-8ce0-0532411b1fd2'
-title: 'FaxServer.Security property'
+---
+Description: The Security property creates a FaxSecurity configuration object. The object permits the calling application to set and retrieve a security descriptor for the fax server.
+ms.assetid: 67ddcb57-d00f-4145-8ce0-0532411b1fd2
+title: FaxServer.Security property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Security property
@@ -43,7 +48,7 @@ A [**FaxSecurity**](-mfax-faxsecurity.md) object.
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,20 @@
 ---
 title: RequiresAudioRenderDeviceWarn element
 description: If present then this assessment prefers that the system contains a hardware device for playing audio.
-ms.assetid: 'D5A51F9D-4D3D-4489-9CB1-991FC2F5C644'
-keywords: ["RequiresAudioRenderDeviceWarn element Access Execution Engine"]
+ms.assetid: D5A51F9D-4D3D-4489-9CB1-991FC2F5C644
+keywords:
+- RequiresAudioRenderDeviceWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresAudioRenderDeviceWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresAudioRenderDeviceWarn element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

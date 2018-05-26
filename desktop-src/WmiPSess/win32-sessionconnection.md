@@ -4,11 +4,13 @@ description: The Win32\_SessionConnection association WMI class represents an as
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b28740f-876e-404a-a6b9-dab0bf0808b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7b28740f-876e-404a-a6b9-dab0bf0808b0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionConnection class", "Win32_SessionConnection class, described"]
+keywords:
+- Win32_SessionConnection class
+- Win32_SessionConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Wmipsess.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionConnection class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("SessionProvider"), AMENDMENT]
 class Win32_SessionConnection : CIM_Dependency
 {
-  Win32_ServerSession    REF Antecedent;
+  Win32_ServerSession    REF Antecedent;
   Win32_ServerConnection REF Dependent;
 };
 ```
@@ -92,8 +97,8 @@ The **Win32\_SessionConnection** class is derived from [**CIM\_Dependency**](htt
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipsess.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipsess.dll</dt> </dl> |
@@ -110,9 +115,9 @@ The **Win32\_SessionConnection** class is derived from [**CIM\_Dependency**](htt
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

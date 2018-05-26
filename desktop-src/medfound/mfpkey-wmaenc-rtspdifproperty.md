@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder should enable real-time S/PDIF encoding.'
-ms.assetid: '36ac925b-d68b-4c39-9033-2c0a058125b5'
-title: 'MFPKEY\_WMAENC\_RTSPDIF Property'
+---
+Description: Specifies whether the encoder should enable real-time S/PDIF encoding.
+ms.assetid: 36ac925b-d68b-4c39-9033-2c0a058125b5
+title: MFPKEY\_WMAENC\_RTSPDIF Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAENC\_RTSPDIF Property

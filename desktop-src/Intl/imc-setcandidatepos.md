@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instructs an IME window to set the position of the candidates window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.'
-ms.assetid: '7a2f9958-4a4e-462a-9737-e7796fd90216'
-title: 'IMC\_SETCANDIDATEPOS command'
+---
+Description: Instructs an IME window to set the position of the candidates window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+ms.assetid: 7a2f9958-4a4e-462a-9737-e7796fd90216
+title: IMC\_SETCANDIDATEPOS command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMC\_SETCANDIDATEPOS command
@@ -29,7 +34,7 @@ Set to IMC\_SETCANDIDATEPOS.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**CANDIDATEFORM**](candidateform.md) structure that contains the x coordinate and y coordinate for the candidates window. The application should set the **dwIndex** member of this structure.
+Pointer to a [**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master) structure that contains the x coordinate and y coordinate for the candidates window. The application should set the **dwIndex** member of this structure.
 
 </dd> </dl>
 
@@ -63,7 +68,7 @@ This command is intended for applications that display composition characters on
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**CANDIDATEFORM**](candidateform.md)
+[**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_CONTROL**](wm-ime-control.md)

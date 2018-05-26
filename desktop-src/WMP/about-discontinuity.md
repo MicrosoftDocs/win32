@@ -1,8 +1,18 @@
 ---
 title: About Discontinuity
 description: About Discontinuity
-ms.assetid: '29210758-a1e6-47f2-9428-38f79623fbca'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,audio discontinuity", "DSP plug-ins,audio discontinuity", "audio DSP plug-ins,discontinuity"]
+ms.assetid: 29210758-a1e6-47f2-9428-38f79623fbca
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,audio discontinuity
+- DSP plug-ins,audio discontinuity
+- audio DSP plug-ins,discontinuity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Discontinuity

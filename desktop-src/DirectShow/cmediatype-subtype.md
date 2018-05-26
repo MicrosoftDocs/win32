@@ -1,7 +1,12 @@
 ---
-Description: 'The Subtype method retrieves the subtype.'
-ms.assetid: 'b7555092-91e7-4bb8-8080-087b93472faa'
-title: 'CMediaType.Subtype method'
+Description: The Subtype method retrieves the subtype.
+ms.assetid: b7555092-91e7-4bb8-8080-087b93472faa
+title: CMediaType.Subtype method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.Subtype method
@@ -43,9 +48,9 @@ Returns a pointer to the **subtype** member.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

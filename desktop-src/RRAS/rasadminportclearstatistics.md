@@ -1,8 +1,9 @@
 ---
 title: RasAdminPortClearStatistics function
 description: The RasAdminPortClearStatistics function resets the counters representing the various statistics reported by the RasAdminPortGetInfo function in the RAS\_PORT\_STATISTICS structure. The counters are reset to zero and start accumulating.
-ms.assetid: 'd2ce4652-1034-4ded-aa26-2678c719d5b9'
-keywords: ["RasAdminPortClearStatistics function RAS"]
+ms.assetid: d2ce4652-1034-4ded-aa26-2678c719d5b9
+keywords:
+- RasAdminPortClearStatistics function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminPortClearStatistics function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminPortClearStats**](mpradminportclearstats.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminPortClearStats**](/windows/win32/Mprapi/nf-mprapi-mpradminportclearstats?branch=master) function.\]
 
 The **RasAdminPortClearStatistics** function resets the counters representing the various statistics reported by the [**RasAdminPortGetInfo**](rasadminportgetinfo.md) function in the [**RAS\_PORT\_STATISTICS**](ras-port-statistics-str.md) structure. The counters are reset to zero and start accumulating.
 
@@ -24,8 +30,8 @@ The **RasAdminPortClearStatistics** function resets the counters representing th
 
 ```C++
 DWORD RasAdminPortClearStatistics(
-  _In_ const WCHAR *lpszServer,
-  _In_ const WCHAR *lpszPort
+  _In_ const WCHAR *lpszServer,
+  _In_ const WCHAR *lpszPort
 );
 ```
 
@@ -63,7 +69,7 @@ If the function fails, the return value can be the following error code.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -79,8 +85,8 @@ If the *lpszPort* port is part of a multilink connection, **RasAdminPortClearSta
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -103,9 +109,9 @@ If the *lpszPort* port is part of a multilink connection, **RasAdminPortClearSta
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

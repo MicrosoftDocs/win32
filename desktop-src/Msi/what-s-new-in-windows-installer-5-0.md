@@ -1,7 +1,12 @@
 ---
-Description: 'The information in this topic identifies the additions and changes that are available in Windows Installer&\#160;5.0.'
-ms.assetid: 'c088c15b-0eef-4a92-bb65-e7fe871afbfe'
-title: 'What''s New in Windows Installer 5.0'
+Description: The information in this topic identifies the additions and changes that are available in Windows Installer&\#160;5.0.
+ms.assetid: c088c15b-0eef-4a92-bb65-e7fe871afbfe
+title: Whats New in Windows Installer 5.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Windows Installer 5.0
@@ -18,9 +23,9 @@ This page is provided as a guide to the documentation. You should refer to the R
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiEnumComponentsEx**](msienumcomponentsex.md)
--   [**MsiEnumClientsEx**](msienumclientsex.md)
--   [**MsiGetComponentPathEx**](msigetcomponentpathex.md)
+-   [**MsiEnumComponentsEx**](/windows/win32/Msi/nf-msi-msienumcomponentsexa?branch=master)
+-   [**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master)
+-   [**MsiGetComponentPathEx**](/windows/win32/Msi/nf-msi-msigetcomponentpathexa?branch=master)
 
 [Column Data Types](column-data-types.md)
 

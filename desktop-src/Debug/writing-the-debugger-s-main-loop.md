@@ -1,20 +1,25 @@
 ---
-Description: 'The debugger uses the WaitForDebugEvent function at the beginning of its main loop.'
-ms.assetid: '5a45854e-2711-49d5-982b-6b85248ec632'
-title: 'Writing the Debugger''s Main Loop'
+Description: The debugger uses the WaitForDebugEvent function at the beginning of its main loop.
+ms.assetid: 5a45854e-2711-49d5-982b-6b85248ec632
+title: Writing the Debuggers Main Loop
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing the Debugger's Main Loop
 
-The debugger uses the [**WaitForDebugEvent**](waitfordebugevent.md) function at the beginning of its main loop. This function blocks the debugger until a debugging event occurs. When the debugging event occurs, the system suspends all threads in the process being debugged and notifies the debugger of the event.
+The debugger uses the [**WaitForDebugEvent**](/windows/win32/WinBase/?branch=master) function at the beginning of its main loop. This function blocks the debugger until a debugging event occurs. When the debugging event occurs, the system suspends all threads in the process being debugged and notifies the debugger of the event.
 
-The debugger can interact with the user, or manipulate the state of the process being debugged, by using the [**GetThreadContext**](getthreadcontext.md), [**GetThreadSelectorEntry**](getthreadselectorentry.md), [**ReadProcessMemory**](readprocessmemory.md), [**SetThreadContext**](setthreadcontext.md), and [**WriteProcessMemory**](writeprocessmemory.md) functions. **GetThreadSelectorEntry** returns the descriptor table entry for a specified selector and thread. Debuggers use the descriptor table entry to convert a segment-relative address to a linear virtual address. The **ReadProcessMemory** and **WriteProcessMemory** functions require linear virtual addresses.
+The debugger can interact with the user, or manipulate the state of the process being debugged, by using the [**GetThreadContext**](/windows/win32/WinBase/nf-dbgeng-idebugadvanced4-getthreadcontext?branch=master), [**GetThreadSelectorEntry**](/windows/win32/WinBase/nf-winbase-getthreadselectorentry?branch=master), [**ReadProcessMemory**](readprocessmemory.md), [**SetThreadContext**](/windows/win32/WinBase/nf-dbgeng-idebugadvanced4-setthreadcontext?branch=master), and [**WriteProcessMemory**](writeprocessmemory.md) functions. **GetThreadSelectorEntry** returns the descriptor table entry for a specified selector and thread. Debuggers use the descriptor table entry to convert a segment-relative address to a linear virtual address. The **ReadProcessMemory** and **WriteProcessMemory** functions require linear virtual addresses.
 
 Debuggers frequently read the memory of the process being debugged and write the memory that contains instructions to the instruction cache. After the instructions are written, the debugger calls the [**FlushInstructionCache**](flushinstructioncache.md) function to execute the cached instructions.
 
-The debugger uses the [**ContinueDebugEvent**](continuedebugevent.md) function at the end of its main loop. This function allows the process being debugged to continue executing.
+The debugger uses the [**ContinueDebugEvent**](/windows/win32/WinBase/?branch=master) function at the end of its main loop. This function allows the process being debugged to continue executing.
 
-The following example uses the [**WaitForDebugEvent**](waitfordebugevent.md) and [**ContinueDebugEvent**](continuedebugevent.md) functions to illustrate how a simple debugger might be organized.
+The following example uses the [**WaitForDebugEvent**](/windows/win32/WinBase/?branch=master) and [**ContinueDebugEvent**](/windows/win32/WinBase/?branch=master) functions to illustrate how a simple debugger might be organized.
 
 
 ```C++

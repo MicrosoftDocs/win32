@@ -1,8 +1,15 @@
 ---
 title: Microsoft Agent
 description: Microsoft Agent version 2.0 provides technology to create innovative, new conversational interfaces for applications and webpages.
-ms.assetid: '68612d37-faa1-4094-9c6b-4033085525dd'
-keywords: ["Microsoft Agent", "Microsoft Agent, start page"]
+ms.assetid: 68612d37-faa1-4094-9c6b-4033085525dd
+keywords:
+- Microsoft Agent
+- Microsoft Agent, start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent
@@ -71,11 +78,11 @@ Microsoft Agent is designed primarily for developers who use languages or enviro
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

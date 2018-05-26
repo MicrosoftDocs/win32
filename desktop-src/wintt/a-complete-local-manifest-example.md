@@ -1,7 +1,12 @@
 ---
 title: A Complete Manifest Example Using a Local Troubleshooter
 description: The following shows a complete manifest example that uses a local troubleshooter.
-ms.assetid: '88b0d03e-a08d-4aa8-bf4f-7ef071b475f8'
+ms.assetid: 88b0d03e-a08d-4aa8-bf4f-7ef071b475f8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A Complete Manifest Example Using a Local Troubleshooter

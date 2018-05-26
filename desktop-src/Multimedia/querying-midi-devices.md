@@ -1,8 +1,17 @@
 ---
 title: Querying MIDI Devices
 description: Querying MIDI Devices
-ms.assetid: '0c9882a7-b5cb-41d1-a52e-003112225035'
-keywords: ["Musical Instrument Digital Interface (MIDI),querying devices", "MIDI (Musical Instrument Digital Interface),querying devices", "MIDI services,querying devices", "querying MIDI devices"]
+ms.assetid: 0c9882a7-b5cb-41d1-a52e-003112225035
+keywords:
+- Musical Instrument Digital Interface (MIDI),querying devices
+- MIDI (Musical Instrument Digital Interface),querying devices
+- MIDI services,querying devices
+- querying MIDI devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying MIDI Devices

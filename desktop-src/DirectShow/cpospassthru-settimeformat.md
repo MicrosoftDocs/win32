@@ -1,19 +1,24 @@
 ---
-Description: 'The SetTimeFormat method sets the time format. This method implements the IMediaSeeking::SetTimeFormat method.'
-ms.assetid: 'f6fc456d-51cf-4b2e-9248-afed9073d440'
-title: 'CPosPassThru.SetTimeFormat method'
+Description: The SetTimeFormat method sets the time format. This method implements the IMediaSeekingSetTimeFormat method.
+ms.assetid: f6fc456d-51cf-4b2e-9248-afed9073d440
+title: CPosPassThru.SetTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.SetTimeFormat method
 
-The SetTimeFormat method sets the time format. This method implements the [**IMediaSeeking::SetTimeFormat**](imediaseeking-settimeformat.md) method.
+The SetTimeFormat method sets the time format. This method implements the [**IMediaSeeking::SetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-settimeformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetTimeFormat(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -55,9 +60,9 @@ Returns the **HRESULT** value from the connected pin.
 [**Time Format GUIDs**](time-format-guids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

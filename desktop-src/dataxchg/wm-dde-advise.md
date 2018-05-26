@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_ADVISE message
 description: A Dynamic Data Exchange (DDE) client application posts the WM\_DDE\_ADVISE message to a DDE server application to request the server to supply an update for a data item whenever the item changes.
-ms.assetid: 'b00db740-36a7-4487-abbf-d74b12f5212a'
-keywords: ["WM_DDE_ADVISE message Data Exchange"]
+ms.assetid: b00db740-36a7-4487-abbf-d74b12f5212a
+keywords:
+- WM_DDE_ADVISE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_ADVISE message
@@ -40,7 +46,7 @@ A handle to the client window posting the message.
 *lParam* 
 </dt> <dd>
 
-The low-order word is a handle to a global memory object containing a [**DDEADVISE**](ddeadvise.md) structure that specifies how the data is to be sent.
+The low-order word is a handle to a global memory object containing a [**DDEADVISE**](/windows/win32/Dde/ns-dde-ddeadvise?branch=master) structure that specifies how the data is to be sent.
 
 The high-order word contains an atom that identifies the requested data item.
 
@@ -54,9 +60,9 @@ If a client application supports more than one clipboard format for a single top
 
 The client application posts the **WM\_DDE\_ADVISE** message by calling the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function, not the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function.
 
-The client application allocates the global memory object using the [**GlobalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366574) function. It allocates the atom using the [**GlobalAddAtom**](globaladdatom.md) function.
+The client application allocates the global memory object using the [**GlobalAlloc**](https://msdn.microsoft.com/library/windows/desktop/aa366574) function. It allocates the atom using the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) function.
 
-The client application must create or reuse the **WM\_DDE\_ADVISE** *lParam* parameter by calling the [**PackDDElParam**](packddelparam.md) function or the [**ReuseDDElParam**](reuseddelparam.md) function.
+The client application must create or reuse the **WM\_DDE\_ADVISE** *lParam* parameter by calling the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function or the [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master) function.
 
 If the receiving (server) application responds with a negative [**WM\_DDE\_ACK**](wm-dde-ack.md) message, the posting application must delete the object.
 
@@ -66,7 +72,7 @@ The **fRelease** flag is not used in **WM\_DDE\_ADVISE** messages, but their dat
 
 The server application posts the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to respond positively or negatively. When posting **WM\_DDE\_ACK**, the application can reuse the atom or delete it and create a new one. If the **WM\_DDE\_ACK** message is positive, the application should delete the global memory object; otherwise, the application should not delete the object.
 
-The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* parameter by calling the [**PackDDElParam**](packddelparam.md) function or the [**ReuseDDElParam**](reuseddelparam.md) function.
+The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* parameter by calling the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function or the [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master) function.
 
 ## Requirements
 
@@ -74,8 +80,8 @@ The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* p
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,28 +93,28 @@ The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* p
 **Reference**
 </dt> <dt>
 
-[**DDEADVISE**](ddeadvise.md)
+[**DDEADVISE**](/windows/win32/Dde/ns-dde-ddeadvise?branch=master)
 </dt> <dt>
 
-[**FreeDDElParam**](freeddelparam.md)
+[**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master)
 </dt> <dt>
 
-[**GlobalAddAtom**](globaladdatom.md)
+[**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master)
 </dt> <dt>
 
-[**PackDDElParam**](packddelparam.md)
+[**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
 </dt> <dt>
 
-[**ReuseDDElParam**](reuseddelparam.md)
+[**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)
 </dt> <dt>
 
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**UnpackDDElParam**](unpackddelparam.md)
+[**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)
@@ -129,9 +135,9 @@ The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* p
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

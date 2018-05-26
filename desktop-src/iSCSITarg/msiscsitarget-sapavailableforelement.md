@@ -4,13 +4,15 @@ description: Associates a Service Access Point (SAP) with a managed element, whi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1eec3130-9454-4599-a08d-36d89c5a5550'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1eec3130-9454-4599-a08d-36d89c5a5550
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_SAPAvailableForElement class iSCSI Software Target API", "MSISCSITARGET_SAPAvailableForElement class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_SAPAvailableForElement class iSCSI Software Target API
+- MSISCSITARGET_SAPAvailableForElement class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_SAPAvailableForElement class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSISCSITARGET_SAPAvailableForElement : CIM_SAPAvailableForElement
 {
   CIM_ServiceAccessPoint REF AvailableSAP;
-  CIM_ManagedElement     REF ManagedElement;
+  CIM_ManagedElement     REF ManagedElement;
 };
 ```
 
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_SAPAvailableForElement**](cim-sapavailab
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -112,9 +117,9 @@ This property is inherited from [**CIM\_SAPAvailableForElement**](cim-sapavailab
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

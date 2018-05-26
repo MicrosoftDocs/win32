@@ -4,10 +4,13 @@ description: The WinRM Plug-in application programming interface (API) provides 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd3e103c1-221b-441b-8bcb-883e3f2a4c1a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: d3e103c1-221b-441b-8bcb-883e3f2a4c1a
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WinRM Plug-in API

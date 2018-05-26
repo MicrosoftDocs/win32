@@ -1,8 +1,11 @@
 ---
 title: SetSecurityDescriptor method of the MSFT\_StorageProvider class
 description: Sets the security descriptor that controls access to the storage provider object instance.
-ms.assetid: 'B8C903EE-96CA-4854-971A-C7A914F91BB5'
-keywords: ["SetSecurityDescriptor method Windows Storage Management API", "SetSecurityDescriptor method Windows Storage Management API , MSFT_StorageProvider class", "MSFT_StorageProvider class Windows Storage Management API , SetSecurityDescriptor method"]
+ms.assetid: B8C903EE-96CA-4854-971A-C7A914F91BB5
+keywords:
+- SetSecurityDescriptor method Windows Storage Management API
+- SetSecurityDescriptor method Windows Storage Management API , MSFT_StorageProvider class
+- MSFT_StorageProvider class Windows Storage Management API , SetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetSecurityDescriptor method of the MSFT\_StorageProvider class
@@ -22,8 +30,8 @@ Sets the security descriptor that controls access to the storage provider object
 
 ```mof
 UInt32 SetSecurityDescriptor(
-  [in]  String SecurityDescriptor,
-  [out] String ExtendedStatus
+  [in]  String SecurityDescriptor,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -97,8 +105,8 @@ If an empty security descriptor is passed to this method, the behavior is left t
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -111,9 +119,9 @@ If an empty security descriptor is passed to this method, the behavior is left t
 [**MSFT\_StorageProvider**](msft-storageprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

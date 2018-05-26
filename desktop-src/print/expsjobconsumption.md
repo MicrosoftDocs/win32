@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EXpsJobConsumption enumeration describes job consumption updates.'
-ms.assetid: '9fab1cba-fe67-4654-ae33-3de41f0427f7'
+---
+Description: The EXpsJobConsumption enumeration describes job consumption updates.
+ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
 title: EXpsJobConsumption enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXpsJobConsumption enumeration

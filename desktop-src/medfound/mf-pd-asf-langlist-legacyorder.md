@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a list of RFC 1766 languages used in the current presentation.'
-ms.assetid: '8853bd88-d51a-478c-8c78-cf69a260e295'
-title: 'MF\_PD\_ASF\_LANGLIST\_LEGACYORDER attribute'
+---
+Description: Contains a list of RFC 1766 languages used in the current presentation.
+ms.assetid: 8853bd88-d51a-478c-8c78-cf69a260e295
+title: MF\_PD\_ASF\_LANGLIST\_LEGACYORDER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_LANGLIST\_LEGACYORDER attribute
@@ -14,17 +19,17 @@ Contains a list of RFC 1766 languages used in the current presentation.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetBlob**](imfattributes-setblob.md).
+To set this attribute, call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master).
 
 ## Applies to
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 
 ## Remarks
 
-This attribute applies to presentation descriptors that were generated from the [ASF ContentInfo Object](asf-contentinfo-object.md) by a call to [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md). The format of the byte array is as follows:
+This attribute applies to presentation descriptors that were generated from the [ASF ContentInfo Object](asf-contentinfo-object.md) by a call to [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master). The format of the byte array is as follows:
 
 
 

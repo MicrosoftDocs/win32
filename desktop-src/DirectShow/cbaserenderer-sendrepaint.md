@@ -1,7 +1,12 @@
 ---
-Description: 'The SendRepaint method sends a repaint event to the filter graph manager.'
-ms.assetid: '78e5c46c-ca5d-4c5d-9dfc-992ce6b150ad'
-title: 'CBaseRenderer.SendRepaint method'
+Description: The SendRepaint method sends a repaint event to the filter graph manager.
+ms.assetid: 78e5c46c-ca5d-4c5d-9dfc-992ce6b150ad
+title: CBaseRenderer.SendRepaint method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SendRepaint method
@@ -55,9 +60,9 @@ Depending on the state of the graph, the EC\_REPAINT event can cause the upstrea
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

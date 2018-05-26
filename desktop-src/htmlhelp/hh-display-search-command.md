@@ -1,7 +1,12 @@
 ---
 title: HH\_DISPLAY\_SEARCH command
 description: Selects the Search tab in the Navigation pane of the HTML Help Viewer, but does not actually perform a search.
-ms.assetid: 'CD1CE76C-4598-4820-82D0-7F5ED4D32651'
+ms.assetid: CD1CE76C-4598-4820-82D0-7F5ED4D32651
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_DISPLAY\_SEARCH command
@@ -12,7 +17,7 @@ Selects the **Search** tab in the Navigation pane of the HTML Help Viewer, but d
 
 | *pszFile*                                                                               | *dwData*                                                                              |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| Specifies a compiled help (.chm) file, or a specific topic within a compiled help file. | Specifies a pointer to an [**HH\_FTS\_QUERY**](hh-fts-query-structure.md) structure. |
+| Specifies a compiled help (.chm) file, or a specific topic within a compiled help file. | Specifies a pointer to an [**HH\_FTS\_QUERY**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_fts_query?branch=master) structure. |
 
 
 

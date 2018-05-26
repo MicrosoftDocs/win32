@@ -1,7 +1,12 @@
 ---
-Description: 'Logical pathing is used to organize components managed by a writer into well-defined groups.'
-ms.assetid: '663c8ca9-8f5b-48bd-af2d-b2d90de9e492'
+Description: Logical pathing is used to organize components managed by a writer into well-defined groups.
+ms.assetid: 663c8ca9-8f5b-48bd-af2d-b2d90de9e492
 title: Logical Pathing of Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logical Pathing of Components
@@ -70,7 +75,7 @@ Other points worthy of note:
 
 -   The selectable components "LicenseInfo" and "writerData" and the nonselectable component "Executables" are all at the same level in *MyWriter*'s logical path hierarchy: all have the same logical path of **NULL** or "", the root logical path.
 -   The selectable component "Usage" should never be explicitly included in a backup, if its selectable parent ("writerData") is explicitly included in a backup or restore operation.
--   Components that define component sets may exist simply for organizational reasons. For instance, either the "writerData" or the "Usage" component, or both, might be empty; that is, no [*file sets*](vssgloss-f.md#-win32-vssgloss-file-set) were added to them using the [**IVssCreateWriterMetadata::AddFilesToFileGroup**](ivsscreatewritermetadata-addfilestofilegroup.md), [**IVssCreateWriterMetadata::AddDatabaseFiles**](ivsscreatewritermetadata-adddatabasefiles.md) or [**IVssCreateWriterMetadata::AddDatabaseLogFiles**](ivsscreatewritermetadata-adddatabaselogfiles.md) method. The components still define a component set.
+-   Components that define component sets may exist simply for organizational reasons. For instance, either the "writerData" or the "Usage" component, or both, might be empty; that is, no [*file sets*](vssgloss-f.md#-win32-vssgloss-file-set) were added to them using the [**IVssCreateWriterMetadata::AddFilesToFileGroup**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup?branch=master), [**IVssCreateWriterMetadata::AddDatabaseFiles**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles?branch=master) or [**IVssCreateWriterMetadata::AddDatabaseLogFiles**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles?branch=master) method. The components still define a component set.
 
  
 

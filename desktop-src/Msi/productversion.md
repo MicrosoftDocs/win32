@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the ProductVersion property is the version of the product in string format.'
-ms.assetid: '551fca7e-a827-482d-bc56-ff2fe5a17025'
+---
+Description: The value of the ProductVersion property is the version of the product in string format.
+ms.assetid: 551fca7e-a827-482d-bc56-ff2fe5a17025
 title: ProductVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProductVersion property

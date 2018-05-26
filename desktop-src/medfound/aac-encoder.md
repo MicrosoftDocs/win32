@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Media Foundation AAC encoder is a Media Foundation Transform that encodes Advanced Audio Coding (AAC) Low Complexity (LC) profile, as defined by ISO/IEC 13818-7 (MPEG-2 Audio Part 7) .'
-ms.assetid: 'd88a8c32-c71f-4ddb-af8c-e2fb54c2322c'
+Description: The Microsoft Media Foundation AAC encoder is a Media Foundation Transform that encodes Advanced Audio Coding (AAC) Low Complexity (LC) profile, as defined by ISO/IEC 13818-7 (MPEG-2 Audio Part 7) .
+ms.assetid: d88a8c32-c71f-4ddb-af8c-e2fb54c2322c
 title: AAC Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AAC Encoder
@@ -16,7 +21,7 @@ The class identifier (CLSID) of the AAC encoder is **CLSID\_AACMFTEncoder**, def
 
 ## Media Types
 
-The AAC encoder supports the following media types. You can set the types in either order—input type first, or output type first.
+The AAC encoder supports the following media types. You can set the types in either order input type first, or output type first.
 
 ### Input Types
 
@@ -68,7 +73,7 @@ Set the following attributes on the input media type.
 <td>Must be 1 (mono) or 2 (stereo), or 6 (5.1).
 <blockquote>
 [!Note]<br />
-Support for 6 audio channels was introduced with Windows 10 and is not available for earlier versions of Windows.
+Support for 6 audio channels was introduced with Windows 10 and is not available for earlier versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -77,7 +82,7 @@ Support for 6 audio channels was introduced with Windows 10 and is not available
 
 
 
- 
+ 
 
 After the input type is set, the encoder derives the following values and adds them to the media type:
 
@@ -145,7 +150,7 @@ The default value for both mono and stereo is 1200 (96 Kbps).<br/></td>
 <tr class="odd">
 <td>[MF_MT_AAC_PAYLOAD_TYPE](mf-mt-aac-payload-type.md)</td>
 <td>The AAC payload type.</td>
-<td>Optional. If set, the value must be zero, indicating that the stream contains raw_data_block elements only.<br/> Optional. If the attribute is not set, the default value is zero, indicating that the stream contains raw_data_block elements only (raw AAC). <br/> In Windows 7, if this attribute is set, the value must be zero.<br/> Starting in Windows 8, the value can be 0 (raw AAC) or 1 (ADTS AAC). <br/></td>
+<td>Optional. If set, the value must be zero, indicating that the stream contains raw_data_block elements only.<br/> Optional. If the attribute is not set, the default value is zero, indicating that the stream contains raw_data_block elements only (raw AAC). <br/> In Windows 7, if this attribute is set, the value must be zero.<br/> Starting in Windows 8, the value can be 0 (raw AAC) or 1 (ADTS AAC). <br/></td>
 </tr>
 <tr class="even">
 <td>[MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION](mf-mt-aac-audio-profile-level-indication.md)</td>
@@ -169,7 +174,7 @@ The default value for both mono and stereo is 1200 (96 Kbps).<br/></td>
 
 
 
- 
+ 
 
 After the output type is set, the AAC encoder updates the type by adding the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. This attribute contains the portion of the [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure that appears after the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd390970) structure (that is, after the **wfx** member). This is followed by the AudioSpecificConfig() data, as defined by ISO/IEC 14496-3.
 
@@ -202,7 +207,7 @@ Input media type:
 
 
 
- 
+ 
 
 Output media type:
 
@@ -225,13 +230,13 @@ Output media type:
 
 
 
- 
+ 
 
 ## Remarks
 
-In the current implementation, every input sample must have a valid time and duration. To set the sample time, call [**IMFSample::SetSampleTime**](imfsample-setsampletime.md). To set the sample duration, call [**IMFSample::SetSampleDuration**](imfsample-setsampleduration.md).
+In the current implementation, every input sample must have a valid time and duration. To set the sample time, call [**IMFSample::SetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampletime?branch=master). To set the sample duration, call [**IMFSample::SetSampleDuration**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampleduration?branch=master).
 
-If the sample time is not set, the encoder's [**IMFTransform::ProcessInput**](imftransform-processinput.md) method returns **MF\_E\_NO\_SAMPLE\_TIMESTAMP**. If the sample duration is not set, the **ProcessInput** method returns **MF\_E\_NO\_SAMPLE\_DURATION**.
+If the sample time is not set, the encoder's [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) method returns **MF\_E\_NO\_SAMPLE\_TIMESTAMP**. If the sample duration is not set, the **ProcessInput** method returns **MF\_E\_NO\_SAMPLE\_DURATION**.
 
 Sample duration can be calculated as follows:
 
@@ -246,9 +251,9 @@ LONGLONG hnsSampleDuration =
 where *nAudioSamplesPerChannel* is the number of PCM audio samples per channel in the input buffer, and *nSamplesPerSec* is the sampling rate, in samples per second.
 
 > [!Note]  
-> Due to a bug in the current implementation, if the sample duration is set to zero, the [**ProcessInput**](imftransform-processinput.md) call succeeds, but a subsequent call to [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) will throw a divide-by-zero exception. To avoid this error, set a valid nonzero duration on each input sample.
+> Due to a bug in the current implementation, if the sample duration is set to zero, the [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) call succeeds, but a subsequent call to [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) will throw a divide-by-zero exception. To avoid this error, set a valid nonzero duration on each input sample.
 
- 
+ 
 
 ## Requirements
 
@@ -256,8 +261,8 @@ where *nAudioSamplesPerChannel* is the number of PCM audio samples per channel i
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mfaacenc.dll</dt> </dl> |
 
 
@@ -284,9 +289,9 @@ where *nAudioSamplesPerChannel* is the number of PCM audio samples per channel i
 [Supported Media Formats in Media Foundation](supported-media-formats-in-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

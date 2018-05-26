@@ -4,17 +4,21 @@ description: Posted to the Active Directory MMC snap-in to create a secondary pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '878878bf-fb78-4669-b282-1dd3349f35d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 878878bf-fb78-4669-b282-1dd3349f35d5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WM_DSA_SHEET_CREATE_NOTIFY message Active Directory"]
+keywords:
+- WM_DSA_SHEET_CREATE_NOTIFY message Active Directory
 topic_type:
 - apiref
 api_name:
 - WM_DSA_SHEET_CREATE_NOTIFY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WM\_DSA\_SHEET\_CREATE\_NOTIFY message
@@ -24,7 +28,7 @@ The **WM\_DSA\_SHEET\_CREATE\_NOTIFY** message is posted to the Active Directory
 > [!Note]  
 > This message value is not defined in a published header file. To use this message value, define it in the exact format shown.
 
- 
+ 
 
 
 ```C++
@@ -73,8 +77,8 @@ Not used.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -91,9 +95,9 @@ Not used.
 [**LocalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366730)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

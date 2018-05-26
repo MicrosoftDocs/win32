@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteConnect method completes a connection to another pin.'
-ms.assetid: '568cee55-b9ea-4fc2-ac9d-0080b7de9790'
-title: 'CTransformInputPin.CompleteConnect method'
+Description: The CompleteConnect method completes a connection to another pin.
+ms.assetid: 568cee55-b9ea-4fc2-ac9d-0080b7de9790
+title: CTransformInputPin.CompleteConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.CompleteConnect method
@@ -13,7 +18,7 @@ The `CompleteConnect` method completes a connection to another pin.
 
 ```C++
 HRESULT CompleteConnect(
-   IPin *pReceivePin
+   IPin *pReceivePin
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT CompleteConnect(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the other pin's [**IPin**](ipin.md) interface.
+Pointer to the other pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> </dl>
 
@@ -49,9 +54,9 @@ This method overrides the [**CBasePin::CompleteConnect**](cbasepin-completeconne
 
 
 
- 
+ 
 
- 
+ 
 
 
 

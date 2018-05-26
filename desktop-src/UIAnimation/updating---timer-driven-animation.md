@@ -1,8 +1,17 @@
 ---
 title: Create a Storyboard and Add Transitions
 description: To create an animation, an application must construct a storyboard.
-ms.assetid: 'e2641c93-e520-4749-a98e-5a58c175fdb9'
-keywords: ["storyboards Windows Animation ,creating", "storyboards Windows Animation ,adding transitions", "transitions Windows Animation ,creating", "transitions Windows Animation ,adding to storyboard"]
+ms.assetid: e2641c93-e520-4749-a98e-5a58c175fdb9
+keywords:
+- storyboards Windows Animation ,creating
+- storyboards Windows Animation ,adding transitions
+- transitions Windows Animation ,creating
+- transitions Windows Animation ,adding to storyboard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Storyboard and Add Transitions
@@ -23,7 +32,7 @@ A storyboard may include transitions on one or more animation variables. More co
 
 ## Example Code
 
-The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::ChangeColor method. This example creates the storyboard (step 1) using the [**IUIAnimationManager::CreateStoryboard**](iuianimationmanager-createstoryboard.md) method, creates the transitions (step 2) using the [**IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition**](iuianimationtransitionlibrary-createacceleratedeceleratetransition.md) method, and adds the transitions to the storyboard (step 3) using the [**IUIAnimationStoryboard::AddTransition**](iuianimationstoryboard-addtransition.md) method.
+The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::ChangeColor method. This example creates the storyboard (step 1) using the [**IUIAnimationManager::CreateStoryboard**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard?branch=master) method, creates the transitions (step 2) using the [**IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition?branch=master) method, and adds the transitions to the storyboard (step 3) using the [**IUIAnimationStoryboard::AddTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition?branch=master) method.
 
 
 ```C++
@@ -112,13 +121,13 @@ After completing this step, the next step is: [Schedule a Storyboard](scheduling
 
 <dl> <dt>
 
-[**IUIAnimationManager::CreateStoryboard**](iuianimationmanager-createstoryboard.md)
+[**IUIAnimationManager::CreateStoryboard**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-createstoryboard?branch=master)
 </dt> <dt>
 
-[**IUIAnimationStoryboard::AddTransition**](iuianimationstoryboard-addtransition.md)
+[**IUIAnimationStoryboard::AddTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-addtransition?branch=master)
 </dt> <dt>
 
-[**IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition**](iuianimationtransitionlibrary-createacceleratedeceleratetransition.md)
+[**IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtransitionlibrary-createacceleratedeceleratetransition?branch=master)
 </dt> <dt>
 
 [Storyboard Overview](storyboard-construction.md)

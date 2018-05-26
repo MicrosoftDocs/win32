@@ -1,8 +1,9 @@
 ---
 title: RasAdminPortGetInfo function
 description: The RasAdminPortGetInfo function retrieves information about a specified port on a specified server.
-ms.assetid: '22837685-62a4-4e55-b88f-11019d5d4154'
-keywords: ["RasAdminPortGetInfo function RAS"]
+ms.assetid: 22837685-62a4-4e55-b88f-11019d5d4154
+keywords:
+- RasAdminPortGetInfo function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminPortGetInfo function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminPortGetInfo**](mpradminportgetinfo.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminPortGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminportgetinfo?branch=master) function.\]
 
 The **RasAdminPortGetInfo** function retrieves information about a specified port on a specified server.
 
@@ -24,11 +30,11 @@ The **RasAdminPortGetInfo** function retrieves information about a specified por
 
 ```C++
 DWORD RasAdminPortGetInfo(
-  _In_  const WCHAR               *lpszServer,
-  _In_  const WCHAR               *lpszPort,
-  _Out_       RAS_PORT_1          *pRasPort1,
-  _Out_       RAS_PORT_STATISTICS *pRasStats,
-  _Out_       RAS_PARAMETERS      **ppRasParams
+  _In_  const WCHAR               *lpszServer,
+  _In_  const WCHAR               *lpszPort,
+  _Out_       RAS_PORT_1          *pRasPort1,
+  _Out_       RAS_PORT_STATISTICS *pRasStats,
+  _Out_       RAS_PARAMETERS      **ppRasParams
 );
 ```
 
@@ -88,7 +94,7 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -98,8 +104,8 @@ There is no extended error information for this function; do not call [**GetLast
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -128,9 +134,9 @@ There is no extended error information for this function; do not call [**GetLast
 [**RasAdminFreeBuffer**](rasadminfreebuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

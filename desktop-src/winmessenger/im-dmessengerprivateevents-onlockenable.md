@@ -1,8 +1,11 @@
 ---
 title: DMessengerPrivateEvents OnLockEnable event
 description: Notifies a Messenger client with the status of the Messenger Lock and Key APIs.
-ms.assetid: '07fa96a8-777f-4333-a496-1510fe2c3914'
-keywords: ["OnLockEnable event Windows Messenger", "OnLockEnable event Windows Messenger , DMessengerPrivateEvents interface", "DMessengerPrivateEvents interface Windows Messenger , OnLockEnable event"]
+ms.assetid: 07fa96a8-777f-4333-a496-1510fe2c3914
+keywords:
+- OnLockEnable event Windows Messenger
+- OnLockEnable event Windows Messenger , DMessengerPrivateEvents interface
+- DMessengerPrivateEvents interface Windows Messenger , OnLockEnable event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msnmsgrexe.adeb440d_7847_4f65_80bd_899870ed2ec9
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerPrivateEvents::OnLockEnable event
 
-\[**OnLockEnable** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnLockEnable** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Notifies a Messenger client with the status of the Messenger Lock and Key APIs.
 
@@ -24,7 +32,7 @@ Notifies a Messenger client with the status of the Messenger Lock and Key APIs.
 
 ```C++
 void OnLockEnable(
-  [in] VARIANT_BOOL fEnable = VARIANT_TRUE
+  [in] VARIANT_BOOL fEnable = VARIANT_TRUE
 );
 ```
 
@@ -48,7 +56,7 @@ void OnLockEnable(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event fires shortly after a user signs in to Windows Messenger and indicates whether the Messenger client can proceed to request an authentication challenge from the Messenger service . Until this event notification is received, a Messenger client cannot unlock the Messenger service  APIs and requests for an authentication challenge will fail.
+This event fires shortly after a user signs in to Windows Messenger and indicates whether the Messenger client can proceed to request an authentication challenge from the Messenger service . Until this event notification is received, a Messenger client cannot unlock the Messenger service  APIs and requests for an authentication challenge will fail.
 
 ## Requirements
 
@@ -66,10 +74,10 @@ This event fires shortly after a user signs in to Windows Messenger and indicate
 
 |                                     |                                                                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
 | Product<br/>                  | Messenger 4.5<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>                                          |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl>                                        |
@@ -105,9 +113,9 @@ This event fires shortly after a user signs in to Windows Messenger and indicate
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

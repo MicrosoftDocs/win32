@@ -1,7 +1,12 @@
 ---
-Description: 'The BeginFlush method begins a flush operation.'
-ms.assetid: 'd37b611e-742f-4bdf-bd72-a91cd1c473b3'
-title: 'COutputQueue.BeginFlush method'
+Description: The BeginFlush method begins a flush operation.
+ms.assetid: d37b611e-742f-4bdf-bd72-a91cd1c473b3
+title: COutputQueue.BeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.BeginFlush method
@@ -29,7 +34,7 @@ This method does not return a value.
 
 This method sets the [**COutputQueue::m\_bFlushing**](coutputqueue-m-bflushing.md) member variable to **TRUE**. If the object is using a thread, the thread calls the [**COutputQueue::FreeSamples**](coutputqueue-freesamples.md) method to free any pending samples. Otherwise, the object calls **FreeSamples** during the [**COutputQueue::EndFlush**](coutputqueue-endflush.md) method. This method also sets the [**COutputQueue::m\_hr**](coutputqueue-m-hr.md) member variable to S\_FALSE, which causes the object to discard all new samples.
 
-The object passes the flush notification downstream by calling the [**IPin::BeginFlush**](ipin-beginflush.md) method on the input pin.
+The object passes the flush notification downstream by calling the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method on the input pin.
 
 ## Requirements
 
@@ -49,9 +54,9 @@ The object passes the flush notification downstream by calling the [**IPin::Begi
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

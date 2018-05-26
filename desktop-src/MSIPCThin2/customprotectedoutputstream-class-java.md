@@ -4,17 +4,21 @@ description: Implements a wrapper of the input stream allowing writing of a cust
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '3DC4E885-CCA4-4EE1-888F-C6872EF6743F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 3DC4E885-CCA4-4EE1-888F-C6872EF6743F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedOutputStream class"]
+keywords:
+- CustomProtectedOutputStream class
 topic_type:
 - apiref
 api_name:
 - CustomProtectedOutputStream class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedOutputStream class
@@ -42,7 +46,7 @@ public class CustomProtectedOutputStream extends OutputStream
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -58,7 +62,7 @@ CustomProtectedOutputStream.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -68,9 +72,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

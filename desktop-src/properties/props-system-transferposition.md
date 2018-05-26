@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6f613183-eb70-4b7e-bbea-2ebdeba96f65'
-title: 'System.TransferPosition'
+Description: .
+ms.assetid: 6f613183-eb70-4b7e-bbea-2ebdeba96f65
+title: System.TransferPosition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.TransferPosition

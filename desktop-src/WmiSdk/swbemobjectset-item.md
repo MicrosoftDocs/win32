@@ -1,13 +1,16 @@
 ---
-Description: 'The Item method of the SWbemObjectSet object gets an SWbemObject from the collection.'
+Description: The Item method of the SWbemObjectSet object gets an SWbemObject from the collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'da91683c-9895-4110-9f51-c340a0c52aec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: da91683c-9895-4110-9f51-c340a0c52aec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectSet.Item method'
+title: SWbemObjectSet.Item method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectSet.Item method
@@ -86,8 +89,8 @@ The **Item** method can require a lot of processor time because complete enumera
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -96,9 +99,9 @@ The **Item** method can require a lot of processor time because complete enumera
 
 
 
- 
+ 
 
- 
+ 
 
 
 

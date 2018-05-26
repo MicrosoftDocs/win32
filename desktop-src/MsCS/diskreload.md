@@ -4,17 +4,22 @@ description: Reload the volume level information from the disk (for example, dri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff4c5b45-c159-4a75-8051-e3566d20149e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ff4c5b45-c159-4a75-8051-e3566d20149e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskReload Failover Cluster , for Physical Disk private properties", "DiskReload Failover Cluster"]
+keywords:
+- DiskReload Failover Cluster , for Physical Disk private properties
+- DiskReload Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskReload
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskReload
@@ -28,14 +33,14 @@ If this property has a nonzero value, during the [*online*](o-gly.md#-wolf-onlin
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE** (0)                             |
 | Maximum   | **TRUE** (1)                              |
 | Default   | **FALSE** (0)                             |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -60,7 +65,7 @@ DiskReloadValue.dw        = DiskReloadData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -71,12 +76,12 @@ DiskReloadValue.dw        = DiskReloadData;
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

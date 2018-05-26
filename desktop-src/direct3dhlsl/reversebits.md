@@ -1,14 +1,20 @@
 ---
 title: reversebits function
 description: Reverses the order of the bits, per component.
-ms.assetid: 'dad46e25-9980-4645-98eb-d834db704fc8'
-keywords: ["reversebits function HLSL"]
+ms.assetid: dad46e25-9980-4645-98eb-d834db704fc8
+keywords:
+- reversebits function HLSL
 topic_type:
 - apiref
 api_name:
 - reversebits
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # reversebits function

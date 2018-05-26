@@ -1,7 +1,12 @@
 ---
 title: imm\_atomic\_alloc (sm5 - asm)
 description: Atomically increment the hidden 32-bit counter stored with a Count or Append unordered access view (UAV), returning the original value.
-ms.assetid: '534FA3C3-6FAC-41DC-AC07-0E53FEED000C'
+ms.assetid: 534FA3C3-6FAC-41DC-AC07-0E53FEED000C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # imm\_atomic\_alloc (sm5 - asm)
@@ -15,7 +20,7 @@ Atomically increment the hidden 32-bit counter stored with a Count or Append uno
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Atomically increment the hidden 32-bit counter stored with a Count or Append uno
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,9 +59,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -66,7 +71,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -85,7 +90,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -94,9 +99,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

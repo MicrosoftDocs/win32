@@ -1,8 +1,9 @@
 ---
 title: SetVarConversionLocaleSetting function
 description: Sets National Language Support (NLS) flags to a specific locale for use when converting the date and time for the current user and computer.
-ms.assetid: '2c238d3b-b607-4663-bd2f-2a200dcde253'
-keywords: ["SetVarConversionLocaleSetting function Automation"]
+ms.assetid: 2c238d3b-b607-4663-bd2f-2a200dcde253
+keywords:
+- SetVarConversionLocaleSetting function Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - OleAut32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetVarConversionLocaleSetting function
@@ -22,7 +28,7 @@ Sets National Language Support (NLS) flags to a specific locale for use when con
 
 ```C++
 HRESULT SetVarConversionLocaleSetting(
-  _In_ ULONG dwFlags
+  _In_ ULONG dwFlags
 );
 ```
 
@@ -73,7 +79,7 @@ Changing the default locale changes all regional settings (time, money, date for
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 [**GetVarConversionLocaleSetting**](getvarconversionlocalesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

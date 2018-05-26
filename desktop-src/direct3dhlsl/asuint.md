@@ -1,14 +1,20 @@
 ---
 title: asuint function
 description: Reinterprets the bit pattern of a 64-bit value as two unsigned 32-bit integers.
-ms.assetid: '29671661-4fec-46e5-9b6f-56fba8e1d756'
-keywords: ["asuint function HLSL"]
+ms.assetid: 29671661-4fec-46e5-9b6f-56fba8e1d756
+keywords:
+- asuint function HLSL
 topic_type:
 - apiref
 api_name:
 - asuint
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # asuint function

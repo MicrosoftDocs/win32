@@ -1,14 +1,20 @@
 ---
 title: Solution element
 description: This element holds information about a solution for a single issue.
-ms.assetid: 'B4144705-9AF8-4A0C-8D21-AFCE729DBA3B'
-keywords: ["Solution element Access Execution Engine"]
+ms.assetid: B4144705-9AF8-4A0C-8D21-AFCE729DBA3B
+keywords:
+- Solution element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Solution
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution element
@@ -74,9 +80,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

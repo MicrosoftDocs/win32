@@ -1,14 +1,19 @@
-﻿---
-Description: 'Assigns vector component data to the current instance of XMUDEC4.'
-ms.assetid: 'e2d9713e-4f84-442d-ac13-d11d02234006'
+---
+Description: Assigns vector component data to the current instance of XMUDEC4.
+ms.assetid: e2d9713e-4f84-442d-ac13-d11d02234006
 title: operator = operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator = operators
 
 Assigns vector component data to the current instance of `XMUDEC4`.
 
-Assigns vector component data to the current instance of [**XMUDEC4**](xmudec4.md).
+Assigns vector component data to the current instance of [**XMUDEC4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmudec4?branch=master).
 
 ### Overload list
 
@@ -28,7 +33,7 @@ Assigns vector component data to the current instance of [**XMUDEC4**](xmudec4.m
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMUDEC4::operator = (const XMUDEC4&amp;)</strong>](xmudec4-operator-eq-1.md)</td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUDEC4</code> to the current instance of <code>XMUDEC4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMUDEC4</strong>](xmudec4.md) to the current instance of <code>XMUDEC4</code>. <br/>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUDEC4</code> to the current instance of <code>XMUDEC4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMUDEC4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmudec4?branch=master) to the current instance of <code>XMUDEC4</code>. <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -37,7 +42,7 @@ This operator is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMUDEC4::operator = (const uint32_t)</strong>](xmudec4-operator-eq-2.md)</td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMUDEC4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMUDEC4</strong>](xmudec4.md). <br/>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMUDEC4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMUDEC4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmudec4?branch=master). <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -59,7 +64,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUDEC4**](xmudec4.md)
+[**XMUDEC4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmudec4?branch=master)
 </dt> </dl>
 
  

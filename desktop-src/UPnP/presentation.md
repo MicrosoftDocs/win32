@@ -1,14 +1,19 @@
 ---
 title: Presentation
 description: Presentation is the final step in the UPnP process.
-ms.assetid: 'e8d20ae6-2dd8-4de2-b07b-6cf4e725735e'
+ms.assetid: e8d20ae6-2dd8-4de2-b07b-6cf4e725735e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Presentation
 
 Presentation is the final step in the UPnP process. If a device has a URL for presentation, a control point can retrieve a page from this URL and load the page into a browser. Depending on the capabilities of the presentation page and the device, the control point can control the device and view the status of the device.
 
-The resource path, which is passed to [**IUPnPRegistrar**](iupnpregistrar.md) during registration, is where all the files relevant to the presentation of the device are located. Device developers can provide separate pages for each embedded device. The presentation URL in the device description template can either be an absolute URL or a relative URL. For relative URLs, which are relative to the resource path, the device description template should contain a file name. **IUPnPRegistrar** converts this to a URL with the actual location. For absolute URLs, the location is not modified.
+The resource path, which is passed to [**IUPnPRegistrar**](/windows/win32/Upnphost/nn-upnphost-iupnpregistrar?branch=master) during registration, is where all the files relevant to the presentation of the device are located. Device developers can provide separate pages for each embedded device. The presentation URL in the device description template can either be an absolute URL or a relative URL. For relative URLs, which are relative to the resource path, the device description template should contain a file name. **IUPnPRegistrar** converts this to a URL with the actual location. For absolute URLs, the location is not modified.
 
 To support client side scripts within a presentation page, extra information is normally appended to the URL in the form of a "query string". The extra information that is appended is the URL to the device description document, and the UDN of the device or embedded device. The device description URL can be used to load a description document in the script, and then control the device through its services. The UDN is used to select an embedded device from the root device.
 
@@ -27,7 +32,7 @@ If the presentation URL in the device description template was an absolute URL a
 
  
 
-A client-side script may have to extract the device description URL from the presentation URL to load the [**IUPnPDescriptionDocument**](iupnpdescriptiondocument.md) object. This is done by taking the query string, and terminating it at the plus sign ("+").
+A client-side script may have to extract the device description URL from the presentation URL to load the [**IUPnPDescriptionDocument**](/windows/win32/Upnp/nn-upnp-iupnpdescriptiondocument?branch=master) object. This is done by taking the query string, and terminating it at the plus sign ("+").
 
 
 ```VB
@@ -43,7 +48,7 @@ DescURLString = Trim(Mid(QueryString,2,Instr(QueryString,"+")-2))&amp; vbCrLf
 
 
 
-In the case of a presentation page for an embedded device, some additional work is required. After loading the [**UPnPDescriptionDocument**](iupnpdescriptiondocument.md), the script must obtain the collection of embedded devices, then select the device that matches the UDN in the query string. The following script shows how to select the embedded device for the current presentation page. It assumes LightDesc is already loaded.
+In the case of a presentation page for an embedded device, some additional work is required. After loading the [**UPnPDescriptionDocument**](/windows/win32/Upnp/nn-upnp-iupnpdescriptiondocument?branch=master), the script must obtain the collection of embedded devices, then select the device that matches the UDN in the query string. The following script shows how to select the embedded device for the current presentation page. It assumes LightDesc is already loaded.
 
 
 ```VB

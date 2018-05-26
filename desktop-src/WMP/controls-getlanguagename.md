@@ -1,8 +1,11 @@
 ---
 title: Controls.getLanguageName method
 description: The getLanguageName method retrieves the name of the audio language with the specified locale identifier (LCID).
-ms.assetid: '9e142c89-92bf-476f-bae7-b94f5b5ebe01'
-keywords: ["getLanguageName method Windows Media Player", "getLanguageName method Windows Media Player , Controls class", "Controls class Windows Media Player , getLanguageName method"]
+ms.assetid: 9e142c89-92bf-476f-bae7-b94f5b5ebe01
+keywords:
+- getLanguageName method Windows Media Player
+- getLanguageName method Windows Media Player , Controls class
+- Controls class Windows Media Player , getLanguageName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.getLanguageName method
@@ -82,9 +90,9 @@ For Windows Media-based content, properties and methods related to language sele
 [**Controls.getAudioLanguageID**](controls-getaudiolanguageid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: PATCHARRAY
 description: PATCHARRAY is a type used to define an array of MIDI patches.
-ms.assetid: 'f48ee0d2-224a-4530-ac28-ae63160316cc'
-keywords: ["PATCHARRAY MIDIPATCHSIZE"]
+ms.assetid: f48ee0d2-224a-4530-ac28-ae63160316cc
+keywords:
+- PATCHARRAY MIDIPATCHSIZE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PATCHARRAY
@@ -31,8 +37,8 @@ Each element in the array corresponds to a patch with each of the 16 bits repres
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Version<br/>                  | Musical Instrument Digital Interface (MIDI), MIDI Types<br/>                                        |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
@@ -45,9 +51,9 @@ Each element in the array corresponds to a patch with each of the 16 bits repres
 [MIDI Types](midi-event-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

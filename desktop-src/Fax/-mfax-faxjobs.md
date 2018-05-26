@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxJobs object represents a collection of FaxJob objects.'
-ms.assetid: '7a8ad6e7-8db6-49ba-98de-da583907a54e'
+Description: The FaxJobs object represents a collection of FaxJob objects.
+ms.assetid: 7a8ad6e7-8db6-49ba-98de-da583907a54e
 title: FaxJobs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobs
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxServer::GetJobs**](-mfax-ifaxserver-client-mfax-ifaxserver-getjobs-cpp.md) method.
--   Supports the [**IFaxJobs**](-mfax-ifaxjobs.md) interface.
+-   Create by calling the [**IFaxServer::GetJobs**](/windows/previous-versions/faxcomex/?branch=master) method.
+-   Supports the [**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master) interface.
 
-For more information about creating an instance of a FaxJobs object, and for a list of the object's properties and methods, see [**IFaxJobs**](-mfax-ifaxjobs.md).
+For more information about creating an instance of a FaxJobs object, and for a list of the object's properties and methods, see [**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master).
 
 ## Visual Basic
 

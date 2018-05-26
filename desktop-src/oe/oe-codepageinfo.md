@@ -1,8 +1,10 @@
 ---
 title: CODEPAGEINFO structure
 description: Do not use. Holds information about a code page. A client can use an IMimeInternational object to look up a CODEPAGEINFO for a given CODEPAGEID.
-ms.assetid: 'd5946880-3fe9-4a61-93a0-09c4ae916723'
-keywords: ["CODEPAGEINFO structure Windows Mail (formerly Outlook Express)", "LPCODEPAGEINFO structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: d5946880-3fe9-4a61-93a0-09c4ae916723
+keywords:
+- CODEPAGEINFO structure Windows Mail (formerly Outlook Express)
+- LPCODEPAGEINFO structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODEPAGEINFO structure
@@ -22,21 +29,21 @@ Do not use. Holds information about a code page. A client can use an [**IMimeInt
 
 ```C++
 typedef struct tagCODEPAGEINFO {
-  DWORD        dwMask;
-  CODEPAGEID   cpiCodePage;
-  BOOL         fIsValidCodePage;
-  ULONG        ulMaxCharSize;
-  BOOL         fInternetCP;
-  CODEPAGEID   cpiFamily;
-  CHAR         szName[CCHMAX_LANG_NAME];
-  CHAR         szBodyCset[CCHMAX_CSET_NAME];
-  CHAR         szHeaderCset[CCHMAX_CSET_NAME];
-  CHAR         szWebCset[CCHMAX_CSET_NAME];
-  CHAR         szFixedFont[CCHMAX_FACE_NAME];
-  CHAR         szVariableFont[CCHMAX_FACE_NAME];
+  DWORD        dwMask;
+  CODEPAGEID   cpiCodePage;
+  BOOL         fIsValidCodePage;
+  ULONG        ulMaxCharSize;
+  BOOL         fInternetCP;
+  CODEPAGEID   cpiFamily;
+  CHAR         szName[CCHMAX_LANG_NAME];
+  CHAR         szBodyCset[CCHMAX_CSET_NAME];
+  CHAR         szHeaderCset[CCHMAX_CSET_NAME];
+  CHAR         szWebCset[CCHMAX_CSET_NAME];
+  CHAR         szFixedFont[CCHMAX_FACE_NAME];
+  CHAR         szVariableFont[CCHMAX_FACE_NAME];
   ENCODINGTYPE ietNewsDefault;
   ENCODINGTYPE ietMailDefault;
-  DWORD        dwReserved1;
+  DWORD        dwReserved1;
 } CODEPAGEINFO, *LPCODEPAGEINFO;
 ```
 
@@ -69,7 +76,7 @@ Contains a bitmask that indicates the valid fields in this structure. (INETLANGM
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -233,17 +240,17 @@ Do not use.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

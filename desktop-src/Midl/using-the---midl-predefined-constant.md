@@ -2,7 +2,14 @@
 title: Using the \_\_midl Predefined Constant
 description: When the MIDL compiler processes the input IDL and ACF files, \_\_midl is defined by default and is used for conditional compilation to attain consistency throughout the build.
 ms.assetid: ba9557f8-d398-4c87-993d-f4e545894cdd
-keywords: ["MIDL compiler MIDL , using the _midl predefined constant", "_midl predefined constant MIDL"]
+keywords:
+- MIDL compiler MIDL , using the _midl predefined constant
+- _midl predefined constant MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the \_\_midl Predefined Constant

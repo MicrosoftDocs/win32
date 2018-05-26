@@ -1,7 +1,12 @@
 ---
 title: Launching User
 description: Launching User
-ms.assetid: 'ea5140b6-0a79-4149-b845-4f6388e89104'
+ms.assetid: ea5140b6-0a79-4149-b845-4f6388e89104
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Launching User

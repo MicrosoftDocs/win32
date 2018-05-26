@@ -1,7 +1,12 @@
 ---
-Description: 'Property keys (PKEYs) are name/value pairs. Each provider supports a set of property keys. Each value is stored as a PROPVARIANT, which can represent almost any data type.'
-ms.assetid: '76184645-82f5-46ef-8250-8f4276b2a105'
+Description: Property keys (PKEYs) are name/value pairs. Each provider supports a set of property keys. Each value is stored as a PROPVARIANT, which can represent almost any data type.
+ms.assetid: 76184645-82f5-46ef-8250-8f4276b2a105
 title: Key Definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Definitions
@@ -27,15 +32,15 @@ The following topics describe the PKEYs defined and used by each provider. Gener
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

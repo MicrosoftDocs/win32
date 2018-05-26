@@ -4,11 +4,13 @@ description: The Win32\_ActiveRoute association WMI class relates the current IP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '76ece9d4-9a9e-419a-b09b-0881ae871359'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 76ece9d4-9a9e-419a-b09b-0881ae871359
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ActiveRoute class", "Win32_ActiveRoute class, described"]
+keywords:
+- Win32_ActiveRoute class
+- Win32_ActiveRoute class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Wmipiprt.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ActiveRoute class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ActiveRoute : CIM_LogicalIdentity
 {
   Win32_IP4PersistedRouteTable REF SameElement;
-  Win32_IP4RouteTable          REF SystemElement;
+  Win32_IP4RouteTable          REF SystemElement;
 };
 ```
 
@@ -94,8 +99,8 @@ The **Win32\_ActiveRoute** class is derived from [**CIM\_LogicalIdentity**](http
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipiprt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipiprt.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The **Win32\_ActiveRoute** class is derived from [**CIM\_LogicalIdentity**](http
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

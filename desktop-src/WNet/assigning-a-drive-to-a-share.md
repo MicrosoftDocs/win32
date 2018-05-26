@@ -1,7 +1,12 @@
 ---
 title: Assigning a Drive to a Share
 description: The following example demonstrates how to connect a drive letter to a remote server share with a call to the WNetAddConnection2 function. The sample informs the user whether or not the call was successful.
-ms.assetid: '1533aa5c-c3f3-4bd6-b307-fb4bd4c9aa85'
+ms.assetid: 1533aa5c-c3f3-4bd6-b307-fb4bd4c9aa85
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assigning a Drive to a Share

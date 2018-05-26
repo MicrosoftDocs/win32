@@ -1,7 +1,12 @@
 ---
-Description: 'The DefaultValue property of the ConfigurableItem object returns the value from the DefaultValue column of the ModuleConfiguration table.'
-ms.assetid: '2d99ee59-5dea-41ca-bd24-359195a37864'
-title: 'ConfigurableItem.DefaultValue property'
+Description: The DefaultValue property of the ConfigurableItem object returns the value from the DefaultValue column of the ModuleConfiguration table.
+ms.assetid: 2d99ee59-5dea-41ca-bd24-359195a37864
+title: ConfigurableItem.DefaultValue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigurableItem.DefaultValue property
@@ -23,7 +28,7 @@ propVal = ConfigurableItem.DefaultValue
 
 ## C++
 
-See [**get\_DefaultValue**](imsmconfigurableitem-get-defaultvalue.md) function
+See [**get\_DefaultValue**](/windows/win32/Mergemod/nf-mergemod-imsmconfigurableitem-get_defaultvalue?branch=master) function
 
 ## Requirements
 
@@ -37,9 +42,9 @@ See [**get\_DefaultValue**](imsmconfigurableitem-get-defaultvalue.md) function
 
 
 
- 
+ 
 
- 
+ 
 
 
 

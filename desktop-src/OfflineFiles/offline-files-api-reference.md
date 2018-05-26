@@ -1,13 +1,16 @@
 ---
-Description: 'The following elements are used with the Offline Files API.'
+Description: The following elements are used with the Offline Files API.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '36b5ee8c-2727-4472-b1c9-af5616d6d018'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 36b5ee8c-2727-4472-b1c9-af5616d6d018
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: Offline Files API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Offline Files API Reference

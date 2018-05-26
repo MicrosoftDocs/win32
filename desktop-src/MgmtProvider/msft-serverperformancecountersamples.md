@@ -4,11 +4,13 @@ description: Represents the list of performance counter samples collected from t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e9471956-11c2-4858-87de-2255461fbd1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e9471956-11c2-4858-87de-2255461fbd1f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerPerformanceCounterSamples class", "MSFT_ServerPerformanceCounterSamples class, described"]
+keywords:
+- MSFT_ServerPerformanceCounterSamples class
+- MSFT_ServerPerformanceCounterSamples class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerPerformanceCounterSamples class
@@ -34,9 +39,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("mgmtprovider"), AMENDMENT]
 class MSFT_ServerPerformanceCounterSamples
 {
-  string   CounterPaths[];
+  string   CounterPaths[];
   datetime Timestamps[];
-  string   Values[];
+  string   Values[];
 };
 ```
 
@@ -98,7 +103,7 @@ The sample values of the counter paths.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -115,9 +120,9 @@ The sample values of the counter paths.
 [**GetCounterSamplesInTimeRange method of MSFT\_ServerManagerTasks**](getcountersamplesintimerange-msft-servermanagertasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

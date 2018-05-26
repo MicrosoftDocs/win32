@@ -1,7 +1,12 @@
 ---
 title: The Context Switch Action
 description: The Context Switch Action
-ms.assetid: 'ca40312e-6916-49d0-8943-2a9ce6522471'
+ms.assetid: ca40312e-6916-49d0-8943-2a9ce6522471
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Context Switch Action
@@ -28,13 +33,13 @@ The context switch action produces a report file that summarizes the various met
 
 
 
- 
+ 
 
 If no report type is selected, default is to show CPU availability report.
 
- 
+ 
 
- 
+ 
 
 
 

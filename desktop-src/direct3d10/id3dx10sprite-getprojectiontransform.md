@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the sprite projection matrix that is applied to all sprites.'
-ms.assetid: 'aee65a9f-27f9-42d9-98eb-ae90fc18c7f5'
-title: 'ID3DX10Sprite::GetProjectionTransform method'
+---
+Description: Get the sprite projection matrix that is applied to all sprites.
+ms.assetid: aee65a9f-27f9-42d9-98eb-ae90fc18c7f5
+title: ID3DX10SpriteGetProjectionTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::GetProjectionTransform method

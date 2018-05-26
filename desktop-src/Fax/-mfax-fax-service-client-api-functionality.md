@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the Fax Service Client API.'
-ms.assetid: '823cc4fc-358f-43af-9799-1d0793cabe71'
+Description: This topic describes the Fax Service Client API.
+ms.assetid: 823cc4fc-358f-43af-9799-1d0793cabe71
 title: Fax Service Client API Functionality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API Functionality

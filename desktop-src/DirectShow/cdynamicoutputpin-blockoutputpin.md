@@ -1,7 +1,12 @@
 ---
-Description: 'The BlockOutputPin method blocks the pin.'
-ms.assetid: '49f6b8da-a8b2-482d-b70d-2c68a1b45a10'
-title: 'CDynamicOutputPin.BlockOutputPin method'
+Description: The BlockOutputPin method blocks the pin.
+ms.assetid: 49f6b8da-a8b2-482d-b70d-2c68a1b45a10
+title: CDynamicOutputPin.BlockOutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.BlockOutputPin method
@@ -47,9 +52,9 @@ Before calling this method, hold the [**CDynamicOutputPin::m\_BlockStateLock**](
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

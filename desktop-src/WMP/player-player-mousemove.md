@@ -1,8 +1,11 @@
 ---
 title: Player.MouseMove event
 description: The MouseMove event occurs when the mouse pointer is moved.
-ms.assetid: '026928a3-25a6-4e67-837a-df71c05e49ee'
-keywords: ["MouseMove event Windows Media Player", "MouseMove event Windows Media Player , Player class", "Player class Windows Media Player , MouseMove event"]
+ms.assetid: 026928a3-25a6-4e67-837a-df71c05e49ee
+keywords:
+- MouseMove event Windows Media Player
+- MouseMove event Windows Media Player , Player class
+- Player class Windows Media Player , MouseMove event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MouseMove event
@@ -91,9 +99,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

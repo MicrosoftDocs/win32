@@ -1,8 +1,19 @@
 ---
 title: Joystick Notification Messages
 description: Joystick Notification Messages
-ms.assetid: '9e8ccc1b-85a9-44bf-b561-6ad4c10cddd1'
-keywords: ["joysticks,notifications", "joysticks,messages", "joysticks,position", "joysticks,buttons", "MM_JOY1 messages", "MM_JOY2 messages"]
+ms.assetid: 9e8ccc1b-85a9-44bf-b561-6ad4c10cddd1
+keywords:
+- joysticks,notifications
+- joysticks,messages
+- joysticks,position
+- joysticks,buttons
+- MM_JOY1 messages
+- MM_JOY2 messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Joystick Notification Messages

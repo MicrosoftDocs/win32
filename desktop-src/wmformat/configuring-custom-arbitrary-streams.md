@@ -1,8 +1,15 @@
 ---
 title: Configuring Custom Arbitrary Streams
 description: Configuring Custom Arbitrary Streams
-ms.assetid: '09b28fd3-a0a3-44d9-b664-7421290abf02'
-keywords: ["streams,configuring custom arbitrary streams", "codecs,configuring custom arbitrary streams"]
+ms.assetid: 09b28fd3-a0a3-44d9-b664-7421290abf02
+keywords:
+- streams,configuring custom arbitrary streams
+- codecs,configuring custom arbitrary streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Custom Arbitrary Streams
@@ -11,7 +18,7 @@ When using your own arbitrary data type, you must create a GUID value to serve a
 
 You can also create your own subtype GUID identifiers to define subcategories of your custom data. The writer will ignore these subtypes completely, but they will be preserved in the header section of the ASF file, so your reading application can retrieve them and make decisions based on them.
 
-An arbitrary stream requires a bit rate and buffer window, and must have a [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure with the values cleared except for the major media type and subtype(if using one).
+An arbitrary stream requires a bit rate and buffer window, and must have a [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure with the values cleared except for the major media type and subtype(if using one).
 
 ## Related topics
 

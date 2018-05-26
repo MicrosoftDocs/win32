@@ -1,7 +1,12 @@
 ---
 title: Address Register
 description: The a0 register is an address register.
-ms.assetid: 'ad86013c-3358-4770-a01c-544c868691f4'
+ms.assetid: ad86013c-3358-4770-a01c-544c868691f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Address Register

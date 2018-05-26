@@ -1,7 +1,12 @@
 ---
 title: Automation Include File Requirements
 description: Lists the files you and your customers need to run Automation applications.
-ms.assetid: '1a6783ec-ef73-4973-bbc7-82dd25582c1f'
+ms.assetid: 1a6783ec-ef73-4973-bbc7-82dd25582c1f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automation Include File Requirements
@@ -24,11 +29,11 @@ The file names followed by an asterisk (\*) are required by your application at 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

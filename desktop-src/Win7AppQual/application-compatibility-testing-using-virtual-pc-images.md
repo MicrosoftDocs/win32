@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '316B4258-3C8D-4B74-A6B8-1D1C02372720'
+Description: .
+ms.assetid: 316B4258-3C8D-4B74-A6B8-1D1C02372720
 title: Application Compatibility Testing Using Virtual PC Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Compatibility Testing Using Virtual PC Images

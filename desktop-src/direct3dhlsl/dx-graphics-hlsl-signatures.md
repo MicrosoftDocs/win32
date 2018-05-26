@@ -1,7 +1,12 @@
 ---
 title: Signatures
 description: A shader signature is a list of the parameters that are either input to or output from a shader function.
-ms.assetid: 'c73a4f3e-e6fa-4e49-9ee8-4e200269dba7'
+ms.assetid: c73a4f3e-e6fa-4e49-9ee8-4e200269dba7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signatures

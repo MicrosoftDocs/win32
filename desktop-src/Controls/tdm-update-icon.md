@@ -1,8 +1,9 @@
 ---
 title: TDM\_UPDATE\_ICON message
 description: Refreshes the icon of a task dialog.
-ms.assetid: '1094d9ca-90b4-4ba6-a14b-0d4e96243a34'
-keywords: ["TDM_UPDATE_ICON message Windows Controls"]
+ms.assetid: 1094d9ca-90b4-4ba6-a14b-0d4e96243a34
+keywords:
+- TDM_UPDATE_ICON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_UPDATE\_ICON message
@@ -35,7 +41,7 @@ Indicates which icon element to update. This parameter must be one of the follow
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -44,11 +50,11 @@ Indicates which icon element to update. This parameter must be one of the follow
 
 A pointer to a string (PCWSTR) or handle to an icon (HICON) to display. If *lParam* is **NULL**, no icon is displayed, regardless of the value of *wParam*.
 
-If the value of *wParam* is TDIE\_ICON\_MAIN and the TDF\_USE\_HICON\_MAIN flag is set on the **dwFlags** member of the [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure used to create the task dialog, *lParam* must contain a handle to an icon (HICON) to display.
+If the value of *wParam* is TDIE\_ICON\_MAIN and the TDF\_USE\_HICON\_MAIN flag is set on the **dwFlags** member of the [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure used to create the task dialog, *lParam* must contain a handle to an icon (HICON) to display.
 
-If the value of *wParam* is TDIE\_ICON\_FOOTER and the TDF\_USE\_HICON\_FOOTER flag is set on the **dwFlags** member of the [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure used to create the task dialog, *lParam* must contain a handle to an icon (HICON) to display.
+If the value of *wParam* is TDIE\_ICON\_FOOTER and the TDF\_USE\_HICON\_FOOTER flag is set on the **dwFlags** member of the [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure used to create the task dialog, *lParam* must contain a handle to an icon (HICON) to display.
 
-If the TDF\_USE\_HICON\_MAIN or TDF\_USE\_HICON\_FOOTER flags are **not** set on the **dwFlags** member, *lParam* must point to a null-terminated, Unicode string (PCWSTR) that contains a valid resource identifier passed through the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/windows/desktop/ms648029) macro. The icon is displayed based on the value of *wParam*: if the value is TDIE\_ICON\_MAIN, the icon is displayed in the header; if the value is TDIE\_ICON\_FOOTER, the icon is displayed in the footer. The resource must be either from the application's resource module (specified in the **hInstance** member of the [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure), or if **hInstance** is **NULL**, from the system's resource module (imageres.dll). To identify a system resource, use a valid system identifier passed through the **MAKEINTRESOURCE** macro or one of the following predefined values from commctrl.h:
+If the TDF\_USE\_HICON\_MAIN or TDF\_USE\_HICON\_FOOTER flags are **not** set on the **dwFlags** member, *lParam* must point to a null-terminated, Unicode string (PCWSTR) that contains a valid resource identifier passed through the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/windows/desktop/ms648029) macro. The icon is displayed based on the value of *wParam*: if the value is TDIE\_ICON\_MAIN, the icon is displayed in the header; if the value is TDIE\_ICON\_FOOTER, the icon is displayed in the footer. The resource must be either from the application's resource module (specified in the **hInstance** member of the [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure), or if **hInstance** is **NULL**, from the system's resource module (imageres.dll). To identify a system resource, use a valid system identifier passed through the **MAKEINTRESOURCE** macro or one of the following predefined values from commctrl.h:
 
 
 
@@ -61,7 +67,7 @@ If the TDF\_USE\_HICON\_MAIN or TDF\_USE\_HICON\_FOOTER flags are **not** set on
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,9 +77,9 @@ The return value is ignored.
 
 ## Remarks
 
-The layout of the task dialog with the icon may fail and this may not be reflected in the return value. A return value of S\_OK reflects only that the task dialog received the message and attempted to process it. If the layout of the task dialog fails, the dialog will close and an **HRESULT** code is returned at the registered callback function. For more information on the callback function syntax, see [*TaskDialogCallbackProc*](taskdialogcallbackproc.md).
+The layout of the task dialog with the icon may fail and this may not be reflected in the return value. A return value of S\_OK reflects only that the task dialog received the message and attempted to process it. If the layout of the task dialog fails, the dialog will close and an **HRESULT** code is returned at the registered callback function. For more information on the callback function syntax, see [*TaskDialogCallbackProc*](/windows/win32/Commctrl/nc-commctrl-pftaskdialogcallback?branch=master).
 
-If the task dialog is created without a footer (that is, the appropriate footer members of the [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure used to create the task dialog are **NULL**) and this message is sent, a footer is not dynamically added to the task dialog. The same is true for sending this message to update a header icon when a task dialog is created without a header. To add a header or footer at run time, use the [**TDM\_NAVIGATE\_PAGE**](tdm-navigate-page.md) functionality.
+If the task dialog is created without a footer (that is, the appropriate footer members of the [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure used to create the task dialog are **NULL**) and this message is sent, a footer is not dynamically added to the task dialog. The same is true for sending this message to update a header icon when a task dialog is created without a header. To add a header or footer at run time, use the [**TDM\_NAVIGATE\_PAGE**](tdm-navigate-page.md) functionality.
 
 ## Requirements
 
@@ -81,15 +87,15 @@ If the task dialog is created without a footer (that is, the appropriate footer 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_MENUSELECT message
-description: Sent to a menu's owner window when the user selects a menu item.
-ms.assetid: '57684a19-dfaa-4e0c-a8ff-010533322cb0'
-keywords: ["WM_MENUSELECT message Menus and Other Resources"]
+description: Sent to a menus owner window when the user selects a menu item.
+ms.assetid: 57684a19-dfaa-4e0c-a8ff-010533322cb0
+keywords:
+- WM_MENUSELECT message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MENUSELECT message
@@ -31,7 +37,7 @@ Sent to a menu's owner window when the user selects a menu item.
 *wParam* 
 </dt> <dd>
 
-The low-order word specifies the menu item or submenu index. If the selected item is a command item, this parameter contains the identifier of the menu item. If the selected item opens a drop-down menu or submenu, this parameter contains the index of the drop-down menu or submenu in the main menu, and the *lParam* parameter contains the handle to the main (clicked) menu; use the [**GetSubMenu**](getsubmenu.md) function to get the menu handle to the drop-down menu or submenu.
+The low-order word specifies the menu item or submenu index. If the selected item is a command item, this parameter contains the identifier of the menu item. If the selected item opens a drop-down menu or submenu, this parameter contains the index of the drop-down menu or submenu in the main menu, and the *lParam* parameter contains the handle to the main (clicked) menu; use the [**GetSubMenu**](/windows/win32/Winuser/nf-winuser-getsubmenu?branch=master) function to get the menu handle to the drop-down menu or submenu.
 
 The high-order word specifies one or more menu flags. This parameter can be one or more of the following values.
 
@@ -51,7 +57,7 @@ The high-order word specifies one or more menu flags. This parameter can be one 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,7 +76,7 @@ If an application processes this message, it should return zero.
 
 If the high-order word of *wParam* contains 0xFFFF and the *lParam* parameter contains **NULL**, the system has closed the menu.
 
-Do not use the value –1 for the high-order word of *wParam*, because this value is specified as (**UINT**) [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)(*wParam*). If the value is 0xFFFF, it would be interpreted as 0x0000FFFF, not –1, because of the cast to a **UINT**.
+Do not use the value  1 for the high-order word of *wParam*, because this value is specified as (**UINT**) [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)(*wParam*). If the value is 0xFFFF, it would be interpreted as 0x0000FFFF, not  1, because of the cast to a **UINT**.
 
 ## Requirements
 
@@ -78,8 +84,8 @@ Do not use the value –1 for the high-order word of *wParam*, because this value 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -91,7 +97,7 @@ Do not use the value –1 for the high-order word of *wParam*, because this value 
 **Reference**
 </dt> <dt>
 
-[**GetSubMenu**](getsubmenu.md)
+[**GetSubMenu**](/windows/win32/Winuser/nf-winuser-getsubmenu?branch=master)
 </dt> <dt>
 
 [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657)
@@ -106,9 +112,9 @@ Do not use the value –1 for the high-order word of *wParam*, because this value 
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

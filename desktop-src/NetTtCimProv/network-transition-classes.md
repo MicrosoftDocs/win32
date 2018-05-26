@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for NetTtCim provider classes defined in NetTtCim.mof and implemented in NetTtCim.dll.'
-ms.assetid: 'E4040E49-7BAF-4E5D-B779-6A7247B63979'
+Description: This section provides reference information for NetTtCim provider classes defined in NetTtCim.mof and implemented in NetTtCim.dll.
+ms.assetid: E4040E49-7BAF-4E5D-B779-6A7247B63979
 title: NetTtCim Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetTtCim Provider
@@ -32,11 +37,11 @@ This section provides reference information for **NetTtCim** provider classes de
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Retrieves an integer property for the deployment settings of a virt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6b8174bb-ffb7-4699-a3fb-d32ab0b202fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6b8174bb-ffb7-4699-a3fb-d32ab0b202fc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetInt32Property method Remote Desktop Services", "GetInt32Property method Remote Desktop Services , Win32_RDMSDeploymentSettings class", "Win32_RDMSDeploymentSettings class Remote Desktop Services , GetInt32Property method"]
+keywords:
+- GetInt32Property method Remote Desktop Services
+- GetInt32Property method Remote Desktop Services , Win32_RDMSDeploymentSettings class
+- Win32_RDMSDeploymentSettings class Remote Desktop Services , GetInt32Property method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetInt32Property method of the Win32\_RDMSDeploymentSettings class
@@ -28,8 +34,8 @@ Retrieves an integer property for the deployment settings of a virtual desktop c
 
 ```mof
 uint32 GetInt32Property(
-  [in]  string Key,
-  [out] sint32 Value
+  [in]  string Key,
+  [out] sint32 Value
 );
 ```
 
@@ -60,7 +66,7 @@ An integer that receives the retrieved value.
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                      |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                 |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                 |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                                   |
 | Header<br/>                   | <dl> <dt>Microsoft.diagnostics.appanalysis.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl>                    |
@@ -75,9 +81,9 @@ An integer that receives the retrieved value.
 [**Win32\_RDMSDeploymentSettings**](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

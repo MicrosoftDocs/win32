@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the template extension is marked critical.'
-ms.assetid: '37e2000a-d3c8-46b5-84e5-a3904fdbaeea'
-title: 'Template.IsCritical property'
+---
+Description: Retrieves a Boolean value that indicates whether the template extension is marked critical.
+ms.assetid: 37e2000a-d3c8-46b5-84e5-a3904fdbaeea
+title: Template.IsCritical property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Template.IsCritical property

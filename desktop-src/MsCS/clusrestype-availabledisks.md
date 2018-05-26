@@ -4,11 +4,14 @@ description: Returns the collection representing the Physical Disks available to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc700541-793b-423b-bea6-ad04deddb16a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fc700541-793b-423b-bea6-ad04deddb16a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AvailableDisks property Failover Cluster", "AvailableDisks property Failover Cluster , ClusResType object", "ClusResType object Failover Cluster , AvailableDisks property"]
+keywords:
+- AvailableDisks property Failover Cluster
+- AvailableDisks property Failover Cluster , ClusResType object
+- ClusResType object Failover Cluster , AvailableDisks property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResType.AvailableDisks property
@@ -49,7 +55,7 @@ Read-only
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -68,9 +74,9 @@ Read-only
 [**ClusDisks**](clusdisks-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

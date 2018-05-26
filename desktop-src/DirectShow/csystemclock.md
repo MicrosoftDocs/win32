@@ -1,7 +1,12 @@
 ---
-Description: 'The CSystemClock class implements a clock that returns the system time.'
-ms.assetid: '22f8b641-6472-433f-bff4-4e62eae25c9b'
+Description: The CSystemClock class implements a clock that returns the system time.
+ms.assetid: 22f8b641-6472-433f-bff4-4e62eae25c9b
 title: CSystemClock class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSystemClock class
@@ -10,7 +15,7 @@ title: CSystemClock class
 
 The `CSystemClock` class implements a clock that returns the system time.
 
-This class derives from the [**CBaseReferenceClock**](cbasereferenceclock.md) class, and adds support for the **IPersist** and [**IAMClockAdjust**](iamclockadjust.md) interfaces.
+This class derives from the [**CBaseReferenceClock**](cbasereferenceclock.md) class, and adds support for the **IPersist** and [**IAMClockAdjust**](/windows/win32/Strmif/nn-strmif-iamclockadjust?branch=master) interfaces.
 
 
 

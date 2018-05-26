@@ -1,8 +1,19 @@
 ---
 title: Brightness Effects
 description: Brightness Effects
-ms.assetid: 'a702351e-7aed-4880-981f-f9450657ed90'
-keywords: ["Windows Movie Maker,brightness effects", "Movie Maker,brightness effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "brightness effects", "effects,brightness"]
+ms.assetid: a702351e-7aed-4880-981f-f9450657ed90
+keywords:
+- Windows Movie Maker,brightness effects
+- Movie Maker,brightness effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- brightness effects
+- effects,brightness
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Brightness Effects
@@ -55,7 +66,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Parameters
 
@@ -63,12 +74,12 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 | Parameter or element | Type  | Range/Options | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------|-------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *PercentBrightness*  | float | -1.0 – 8      | The degree of brightness of the video. The higher the number, the brighter the picture.                                                                                                                                                                                                                                                                                                                               |
-| **Point**            | float | 0.0 – 1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
+| *PercentBrightness*  | float | -1.0   8      | The degree of brightness of the video. The higher the number, the brighter the picture.                                                                                                                                                                                                                                                                                                                               |
+| **Point**            | float | 0.0   1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +88,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Effects**](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

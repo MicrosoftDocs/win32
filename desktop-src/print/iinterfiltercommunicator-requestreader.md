@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RequestReader method retrieves the reader interface for an IInterFilterCommunicator object.'
-ms.assetid: '2b38b1b7-0d65-4457-bc7d-c52ff11aba48'
-title: 'IInterFilterCommunicator::RequestReader method'
+---
+Description: The RequestReader method retrieves the reader interface for an IInterFilterCommunicator object.
+ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
+title: IInterFilterCommunicatorRequestReader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInterFilterCommunicator::RequestReader method

@@ -1,7 +1,12 @@
 ---
 title: IAgentCommands SetCaption
 description: IAgentCommands SetCaption
-ms.assetid: '042f7366-0071-40a5-a47c-81c02cdbe3a9'
+ms.assetid: 042f7366-0071-40a5-a47c-81c02cdbe3a9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommands::SetCaption

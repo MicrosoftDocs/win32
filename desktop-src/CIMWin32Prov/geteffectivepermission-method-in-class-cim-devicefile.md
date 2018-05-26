@@ -1,15 +1,18 @@
 ---
-Description: 'Determines whether the caller has the aggregated permissions on the CIM\_DeviceFile object, and the share on which the file or directory resides, as specified by the Permission argument.'
+Description: Determines whether the caller has the aggregated permissions on the CIM\_DeviceFile object, and the share on which the file or directory resides, as specified by the Permission argument.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e566f1f6-773e-4ecb-8145-369afaad0f99'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e566f1f6-773e-4ecb-8145-369afaad0f99
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetEffectivePermission method of the CIM\_DeviceFile class'
+title: GetEffectivePermission method of the CIM\_DeviceFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetEffectivePermission method of the CIM\_DeviceFile class
@@ -19,7 +22,7 @@ The **GetEffectivePermission** method determines whether the caller has the aggr
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,7 +31,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 boolean GetEffectivePermission(
-  [in] uint32 Permissions
+  [in] uint32 Permissions
 );
 ```
 
@@ -102,7 +105,7 @@ Grants the right to write extended attributes.
 
 <span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>
 
-<span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))
+<span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))
 
 
 </dt> <dd>
@@ -215,8 +218,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Aclui.h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -234,9 +237,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_DeviceFile**](cim-devicefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

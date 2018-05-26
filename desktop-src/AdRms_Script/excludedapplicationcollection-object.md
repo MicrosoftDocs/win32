@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of ExcludedApplication objects that represent applications prohibited from decrypting RMS-protected content. You can retrieve this collection by calling the Applications property on the ExclusionPolicy object.'
+Description: Contains a collection of ExcludedApplication objects that represent applications prohibited from decrypting RMS-protected content. You can retrieve this collection by calling the Applications property on the ExclusionPolicy object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '9b92040f-918f-4e42-aecb-f14e31729b83'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 9b92040f-918f-4e42-aecb-f14e31729b83
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExcludedApplicationCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExcludedApplicationCollection object
@@ -41,7 +44,7 @@ The **ExcludedApplicationCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +60,7 @@ The **ExcludedApplicationCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -177,7 +180,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -192,9 +195,9 @@ END SUB
 [**ExcludedApplication**](excludedapplication-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

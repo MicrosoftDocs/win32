@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the Windows Property System constants, enumerations, and flags.'
-ms.assetid: 'ff735b9c-e444-4e6f-8e80-0b2a5d770386'
-title: 'Constants, Enumerations, and Flags'
+---
+Description: This section describes the Windows Property System constants, enumerations, and flags.
+ms.assetid: ff735b9c-e444-4e6f-8e80-0b2a5d770386
+title: Constants, Enumerations, and Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants, Enumerations, and Flags
@@ -12,7 +17,7 @@ This section describes the Windows Property System constants, enumerations, and 
 
 | Topic                                                                              | Contents                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GETPROPERTYSTOREFLAGS**](getpropertystoreflags.md)                             | Indicates flags that modify the property store object retrieved by methods that create a property store, such as [**IShellItem2::GetPropertyStore**](shell.IShellItem2_GetPropertyStore) or [**IPropertyStoreFactory::GetPropertyStore**](shell.IPropertyStoreFactory_GetPropertyStore).<br/>                                                                                        |
+| [**GETPROPERTYSTOREFLAGS**](/windows/win32/Propsys/ne-propsys-getpropertystoreflags?branch=master)                             | Indicates flags that modify the property store object retrieved by methods that create a property store, such as [**IShellItem2::GetPropertyStore**](shell.IShellItem2_GetPropertyStore) or [**IPropertyStoreFactory::GetPropertyStore**](shell.IPropertyStoreFactory_GetPropertyStore).<br/>                                                                                        |
 | [**PDOPSTATUS**](shell.PDOPSTATUS)                                                 | Provides operation status flags.<br/>                                                                                                                                                                                                                                                                                                                                                |
 | [**PKA\_FLAGS**](shell.PKA_FLAGS)                                                  | Describes property change array behavior.<br/>                                                                                                                                                                                                                                                                                                                                       |
 | [**PROPDESC\_AGGREGATION\_TYPE**](shell.PROPDESC_AGGREGATION_TYPE)                 | Describes how property values are displayed when multiple items are selected. For a particular property, PROPDESC\_AGGREGATION\_TYPE describes how the property should be displayed when multiple items that have a value for the property are selected, such as whether the values should be summed, or averaged, or just displayed with the default "Multiple Values" string.<br/> |

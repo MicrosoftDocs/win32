@@ -4,11 +4,14 @@ description: Retrieves the count of objects in the collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dc44f3b8-52c4-4e5f-a633-ea7555fd01dd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: dc44f3b8-52c4-4e5f-a633-ea7555fd01dd
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeviceCount property Remote Desktop Services", "DeviceCount property Remote Desktop Services , IMsRdpDeviceCollection interface", "IMsRdpDeviceCollection interface Remote Desktop Services , DeviceCount property"]
+keywords:
+- DeviceCount property Remote Desktop Services
+- DeviceCount property Remote Desktop Services , IMsRdpDeviceCollection interface
+- IMsRdpDeviceCollection interface Remote Desktop Services , DeviceCount property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection::DeviceCount property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DeviceCount(
-  [out] ULONG *pDeviceCount
+  [out] ULONG *pDeviceCount
 );
 ```
 
@@ -51,8 +57,8 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsRdpDeviceCollection is defined as 56540617-d281-488c-8738-6a8fdf64a118<br/> |
@@ -66,9 +72,9 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

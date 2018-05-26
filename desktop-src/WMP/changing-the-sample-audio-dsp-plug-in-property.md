@@ -1,8 +1,18 @@
 ---
 title: Changing the Sample Audio DSP Plug-in Property
 description: Changing the Sample Audio DSP Plug-in Property
-ms.assetid: '9e742bcd-cff8-422f-ad91-d8d46f15bdc4'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,audio properties", "DSP plug-ins,audio properties", "audio DSP plug-ins,properties"]
+ms.assetid: 9e742bcd-cff8-422f-ad91-d8d46f15bdc4
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,audio properties
+- DSP plug-ins,audio properties
+- audio DSP plug-ins,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the Sample Audio DSP Plug-in Property

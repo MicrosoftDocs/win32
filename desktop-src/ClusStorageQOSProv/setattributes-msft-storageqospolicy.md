@@ -4,13 +4,16 @@ description: Sets the attributes on a policy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bfdc2c37-8acf-4916-9d8c-ca4578284c28'
-ms.prod: 'windows-server-dev'
+ms.assetid: bfdc2c37-8acf-4916-9d8c-ca4578284c28
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-storage-qos'
-- 'windows-management-instrumentation'
+- failover-cluster-storage-qos
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetAttributes method", "SetAttributes method, MSFT_StorageQoSPolicy class", "MSFT_StorageQoSPolicy class, SetAttributes method"]
+keywords:
+- SetAttributes method
+- SetAttributes method, MSFT_StorageQoSPolicy class
+- MSFT_StorageQoSPolicy class, SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - StorageQOS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetAttributes method of the MSFT\_StorageQoSPolicy class
@@ -30,10 +36,10 @@ Sets the attributes on a policy.
 
 ```mof
 sint32 SetAttributes(
-  [in] string NewName,
-  [in] uint64 Limit,
-  [in] uint64 Reservation,
-  [in] uint64 BandwidthLimit
+  [in] string NewName,
+  [in] uint64 Limit,
+  [in] uint64 Reservation,
+  [in] uint64 BandwidthLimit
 );
 ```
 
@@ -179,7 +185,7 @@ Reserved.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>StorageQOS.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StorageQOS.dll</dt> </dl> |
@@ -193,9 +199,9 @@ Reserved.
 [**MSFT\_StorageQoSPolicy**](msft-storageqospolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETCOLOR message
 description: Retrieves the color for a given portion of a month calendar control. You can send this message explicitly or by using the MonthCal\_GetColor macro.
-ms.assetid: '6c30ad0d-7584-402a-9c27-3c12c49c87f3'
-keywords: ["MCM_GETCOLOR message Windows Controls"]
+ms.assetid: 6c30ad0d-7584-402a-9c27-3c12c49c87f3
+keywords:
+- MCM_GETCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETCOLOR message
 
-Retrieves the color for a given portion of a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetColor**](monthcal-getcolor.md) macro.
+Retrieves the color for a given portion of a month calendar control. You can send this message explicitly or by using the [**MonthCal\_GetColor**](/windows/win32/Commctrl/nf-commctrl-monthcal_getcolor?branch=master) macro.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ Value of type **int** specifying which month calendar color to retrieve. This va
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,15 +62,15 @@ Returns a **COLORREF** value that represents the color setting for the specified
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

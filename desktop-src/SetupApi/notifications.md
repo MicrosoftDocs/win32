@@ -1,7 +1,12 @@
 ---
-Description: 'Notifications are values that a setup function sends to a callback routine to specify a state or event. Two parameters, Param1 and Param2, are sent with the notification, and contain additional information relevant to the notification.'
-ms.assetid: '5a362a93-ebe8-4995-aacc-13ee10d3407a'
+Description: Notifications are values that a setup function sends to a callback routine to specify a state or event. Two parameters, Param1 and Param2, are sent with the notification, and contain additional information relevant to the notification.
+ms.assetid: 5a362a93-ebe8-4995-aacc-13ee10d3407a
 title: Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications

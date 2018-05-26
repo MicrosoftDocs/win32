@@ -1,8 +1,15 @@
 ---
 title: Design Philosophy of Command Queues and Command Lists
 description: The goals of enabling reuse of rendering work and of multi-threaded scaling, required fundamental changes to how Direct3D apps submit rendering work to the GPU.
-ms.assetid: 'C85C8C41-2306-4568-8FAE-F57EDA624298'
-keywords: ["command list", "bundle"]
+ms.assetid: C85C8C41-2306-4568-8FAE-F57EDA624298
+keywords:
+- command list
+- bundle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Design Philosophy of Command Queues and Command Lists

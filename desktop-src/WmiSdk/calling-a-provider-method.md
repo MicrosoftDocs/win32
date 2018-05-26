@@ -1,13 +1,16 @@
 ---
-Description: 'A provider method is a method that is implemented by a Windows Management Instrumentation (WMI) provider.'
+Description: A provider method is a method that is implemented by a Windows Management Instrumentation (WMI) provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9c692bc7-246b-4619-a371-cc9e0e2d5a6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9c692bc7-246b-4619-a371-cc9e0e2d5a6e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Calling a Provider Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Calling a Provider Method
@@ -18,7 +21,7 @@ Provider methods should not be confused with the following types of methods:
 
 -   Methods on [WMI system classes](wmi-system-classes.md), such as the [**GetSD**](--systemsecurity-getsd.md) method on [**\_\_SystemSecurity**](--systemsecurity.md).
 -   Methods on objects in the [Scripting API for WMI](scripting-api-for-wmi.md), such as [**SWbemServices.InstancesOf**](swbemservices-instancesof.md).
--   Methods in the [COM API for WMI](com-api-for-wmi.md), such as [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md).
+-   Methods in the [COM API for WMI](com-api-for-wmi.md), such as [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master).
 
 ## Calling a Provider Method Using Scripting
 
@@ -179,9 +182,9 @@ The following procedure describes how to call a provider method using C++.
 
     
 
-2.  Call [**IWbemServices::GetObject**](iwbemservices-getobject.md) to retrieve the definition of the class of the method you want to call.
+2.  Call [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) to retrieve the definition of the class of the method you want to call.
 
-    The [**GetObject**](iwbemservices-getobject.md) method returns an [**IWbemClassObject**](iwbemclassobject.md) pointer that points to the class definition.
+    The [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) method returns an [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointer that points to the class definition.
 
     ```C++
     hr = pNamespace->GetObject(ClassPath, 0, NULL, &amp;pClass, NULL);
@@ -189,9 +192,9 @@ The following procedure describes how to call a provider method using C++.
 
     
 
-3.  For methods that require input parameters, call the [**IWbemClassObject::GetMethod**](iwbemclassobject-getmethod.md) method to get the input parameter class object.
+3.  For methods that require input parameters, call the [**IWbemClassObject::GetMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-getmethod?branch=master) method to get the input parameter class object.
 
-    [**GetMethod**](iwbemclassobject-getmethod.md) returns an [**IWbemClassObject**](iwbemclassobject.md) pointer that points to the input parameter class.
+    [**GetMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-getmethod?branch=master) returns an [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) pointer that points to the input parameter class.
 
     ```C++
     hr = pClass->GetMethod(MethodName, 0, &amp;pInClass, NULL);
@@ -199,7 +202,7 @@ The following procedure describes how to call a provider method using C++.
 
     
 
-4.  Generate an instance of the input parameter class with a call to the [**IWbemClassObject::SpawnInstance**](iwbemclassobject-spawninstance.md) method.
+4.  Generate an instance of the input parameter class with a call to the [**IWbemClassObject::SpawnInstance**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-spawninstance?branch=master) method.
 
     ```C++
     hr = pInClass->SpawnInstance(0, &amp;pInInst);
@@ -207,7 +210,7 @@ The following procedure describes how to call a provider method using C++.
 
     
 
-5.  Set the properties of the input parameter class with a call to the [**IWbemClassObject::Put**](iwbemclassobject-put.md) method.
+5.  Set the properties of the input parameter class with a call to the [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master) method.
 
     ```C++
     VARIANT var;
@@ -219,9 +222,9 @@ The following procedure describes how to call a provider method using C++.
 
     
 
-6.  Invoke the method with a call to [**IWbemServices::ExecMethod**](iwbemservices-execmethod.md) or [**IWbemServices::ExecMethodAsync**](iwbemservices-execmethodasync.md).
+6.  Invoke the method with a call to [**IWbemServices::ExecMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethod?branch=master) or [**IWbemServices::ExecMethodAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethodasync?branch=master).
 
-    For [**ExecMethod**](iwbemservices-execmethod.md), WMI returns any output parameters in the call. For [**ExecMethodAsync**](iwbemservices-execmethodasync.md), WMI returns any output parameters through a call to [**IWbemObjectSink**](iwbemobjectsink.md). For more information, see [Calling a Method](calling-a-method.md).
+    For [**ExecMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethod?branch=master), WMI returns any output parameters in the call. For [**ExecMethodAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethodasync?branch=master), WMI returns any output parameters through a call to [**IWbemObjectSink**](iwbemobjectsink.md). For more information, see [Calling a Method](calling-a-method.md).
 
     ```C++
     hr = pNamespace->ExecMethod(ClassPath, MethodName, 0, NULL, pInInst, &amp;pOutInst, NULL);

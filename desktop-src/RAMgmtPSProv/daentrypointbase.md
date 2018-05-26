@@ -2,13 +2,15 @@
 title: DAEntryPointBase class
 description: DirectAccess Entry Point Base Settings object.
 audience: developer
-ms.assetid: '688cc48d-37e9-4b0e-b145-db42d2bbfcca'
-ms.prod: 'windows-server-dev'
+ms.assetid: 688cc48d-37e9-4b0e-b145-db42d2bbfcca
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DAEntryPointBase class", "DAEntryPointBase class, described"]
+keywords:
+- DAEntryPointBase class
+- DAEntryPointBase class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DAEntryPointBase class
@@ -83,16 +88,16 @@ The names of the servers
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

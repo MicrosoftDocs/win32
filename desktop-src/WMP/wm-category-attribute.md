@@ -1,14 +1,20 @@
 ---
 title: WM/Category Attribute
 description: The WM/Category attribute is the category of the content.
-ms.assetid: 'ca7d9d77-7b17-4617-82ec-70aa04e95022'
-keywords: ["WM/Category Attribute Windows Media Player"]
+ms.assetid: ca7d9d77-7b17-4617-82ec-70aa04e95022
+keywords:
+- WM/Category Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Category
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Category Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

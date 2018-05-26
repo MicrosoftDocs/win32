@@ -1,12 +1,18 @@
 ---
 title: Texture1D Sample methods
 description: Samples a Texture1D.
-ms.assetid: '852BC190-E370-4B55-AB64-F0771B1D2D19'
-keywords: ["Sample methods HLSL"]
+ms.assetid: 852BC190-E370-4B55-AB64-F0771B1D2D19
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1D::Sample methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture1D](sm5-object-texture1d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

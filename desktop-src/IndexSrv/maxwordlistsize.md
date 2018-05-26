@@ -1,7 +1,12 @@
 ---
 title: MaxWordlistSize
 description: MaxWordlistSize
-ms.assetid: '106261dc-1687-4226-b8d1-8c0a58cb0c98'
+ms.assetid: 106261dc-1687-4226-b8d1-8c0a58cb0c98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxWordlistSize

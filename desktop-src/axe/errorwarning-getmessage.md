@@ -1,8 +1,11 @@
 ---
 title: ErrorWarning GetMessage method
 description: Gets the text message of this item.
-ms.assetid: 'AF0053CF-9A1D-45D8-86C4-B857A1E20BB0'
-keywords: ["GetMessage method Access Execution Engine", "GetMessage method Access Execution Engine , ErrorWarning interface", "ErrorWarning interface Access Execution Engine , GetMessage method"]
+ms.assetid: AF0053CF-9A1D-45D8-86C4-B857A1E20BB0
+keywords:
+- GetMessage method Access Execution Engine
+- GetMessage method Access Execution Engine , ErrorWarning interface
+- ErrorWarning interface Access Execution Engine , GetMessage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorWarning::GetMessage method
@@ -22,7 +30,7 @@ Gets the text message of this item.
 
 ```C++
 virtual HRESULT GetMessage(
-  [out] LPCWSTR *message
+  [out] LPCWSTR *message
 ) const = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**ErrorWarning**](errorwarning.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

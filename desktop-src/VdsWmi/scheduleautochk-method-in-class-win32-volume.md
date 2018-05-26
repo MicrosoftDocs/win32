@@ -1,8 +1,11 @@
 ---
 title: ScheduleAutoChk method of the Win32\_Volume class
-description: Schedules AutoChk to be run at the next reboot if the volume's dirty bit has been set.
-ms.assetid: '15acca0b-c009-4355-8132-cdcd335675d6'
-keywords: ["ScheduleAutoChk method", "ScheduleAutoChk method, Win32_Volume class", "Win32_Volume class, ScheduleAutoChk method"]
+description: Schedules AutoChk to be run at the next reboot if the volumes dirty bit has been set.
+ms.assetid: 15acca0b-c009-4355-8132-cdcd335675d6
+keywords:
+- ScheduleAutoChk method
+- ScheduleAutoChk method, Win32_Volume class
+- Win32_Volume class, ScheduleAutoChk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScheduleAutoChk method of the Win32\_Volume class
@@ -24,7 +32,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ScheduleAutoChk(
-  [in] string Volume[]
+  [in] string Volume[]
 );
 ```
 
@@ -55,7 +63,7 @@ List of volumes scheduled for AutoChk at the next reboot. The string consists of
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +72,7 @@ List of volumes scheduled for AutoChk at the next reboot. The string consists of
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -78,9 +86,9 @@ List of volumes scheduled for AutoChk at the next reboot. The string consists of
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

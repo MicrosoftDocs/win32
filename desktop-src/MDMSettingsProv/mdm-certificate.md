@@ -1,8 +1,10 @@
 ---
 title: MDM\_Certificate class
 description: Provides the ability to install and delete the certificates on the device.
-ms.assetid: '78b6ee97-9f67-451d-ba53-6af0d2e31800'
-keywords: ["MDM_Certificate class MDM Settings", "MDM_Certificate class MDM Settings , described"]
+ms.assetid: 78b6ee97-9f67-451d-ba53-6af0d2e31800
+keywords:
+- MDM_Certificate class MDM Settings
+- MDM_Certificate class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Certificate class
@@ -30,11 +37,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_Certificate
 {
-  uint8   StoreLocation;
-  string  StoreName;
-  string  Thumbprint;
+  uint8   StoreLocation;
+  string  StoreName;
+  string  Thumbprint;
   boolean IsInstalled;
-  string  Blob;
+  string  Blob;
 };
 ```
 
@@ -148,7 +155,7 @@ The thumbprint of the certificate.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -163,9 +170,9 @@ The thumbprint of the certificate.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

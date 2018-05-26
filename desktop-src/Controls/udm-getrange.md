@@ -1,8 +1,9 @@
 ---
 title: UDM\_GETRANGE message
 description: Retrieves the minimum and maximum positions (range) for an up-down control.
-ms.assetid: 'fd42538a-8d96-4a9c-a1db-07c3e9afef84'
-keywords: ["UDM_GETRANGE message Windows Controls"]
+ms.assetid: fd42538a-8d96-4a9c-a1db-07c3e9afef84
+keywords:
+- UDM_GETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_GETRANGE message
@@ -37,15 +43,15 @@ The return value is a 32-bit value that contains the minimum and maximum positio
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

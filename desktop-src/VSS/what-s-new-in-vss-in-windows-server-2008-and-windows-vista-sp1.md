@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Server 2008.'
-ms.assetid: '2f7b62f8-ba1e-42d2-8872-38d4475e4a2a'
-title: 'What''s New in VSS in Windows Server 2008 and Windows Vista SP1'
+Description: Windows Server 2008.
+ms.assetid: 2f7b62f8-ba1e-42d2-8872-38d4475e4a2a
+title: Whats New in VSS in Windows Server 2008 and Windows Vista SP1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in VSS in Windows Server 2008 and Windows Vista SP1
@@ -24,31 +29,31 @@ Windows Server 2008 and Windows Vista with Service Pack 1 (SP1) introduce the
 
 <dl>
 
-[**IVssDifferentialSoftwareSnapshotMgmt3**](ivssdifferentialsoftwaresnapshotmgmt3.md)  
-[**IVssHardwareSnapshotProviderEx**](ivsshardwaresnapshotproviderex.md)  
+[**IVssDifferentialSoftwareSnapshotMgmt3**](/windows/win32/VsMgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3?branch=master)  
+[**IVssHardwareSnapshotProviderEx**](/windows/win32/VsProv/nn-vsprov-ivsshardwaresnapshotproviderex?branch=master)  
 </dl>
 
 ## New VSS Enumerations
 
 <dl>
 
-[**\_VSS\_HARDWARE\_OPTIONS**](-vss-hardware-options.md)  
-[**VSS\_PROTECTION\_FAULT**](vss-protection-fault.md)  
-[**VSS\_PROTECTION\_LEVEL**](vss-protection-level.md)  
+[**\_VSS\_HARDWARE\_OPTIONS**](/windows/win32/Vss/ne-vss-_vss_hardware_options?branch=master)  
+[**VSS\_PROTECTION\_FAULT**](/windows/win32/VsMgmt/ne-vsmgmt-_vss_protection_fault?branch=master)  
+[**VSS\_PROTECTION\_LEVEL**](/windows/win32/VsMgmt/ne-vsmgmt-_vss_protection_level?branch=master)  
 </dl>
 
 ## New VSS Structures
 
 <dl>
 
-[**VSS\_VOLUME\_PROTECTION\_INFO**](vss-volume-protection-info.md)  
+[**VSS\_VOLUME\_PROTECTION\_INFO**](/windows/win32/VsMgmt/ns-vsmgmt-_vss_volume_protection_info?branch=master)  
 </dl>
 
 ## Existing VSS Enumeration Modifications
 
 <dl> <dt>
 
-<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](vss-backup-schema.md) enumeration
+<span id="VSS_BACKUP_SCHEMA_enumeration"></span><span id="vss_backup_schema_enumeration"></span><span id="VSS_BACKUP_SCHEMA_ENUMERATION"></span>[**VSS\_BACKUP\_SCHEMA**](/windows/win32/Vss/ne-vss-_vss_backup_schema?branch=master) enumeration
 </dt> <dd>
 
 <dl> <dt>
@@ -62,7 +67,7 @@ VSS\_BS\_WRITER\_SUPPORTS\_PARALLEL\_RESTORES
 
 <dl> <dt>
 
-<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](-vss-volume-snapshot-attributes.md) enumeration
+<span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_enumeration"></span><span id="_vss_volume_snapshot_attributes_enumeration"></span><span id="_VSS_VOLUME_SNAPSHOT_ATTRIBUTES_ENUMERATION"></span>[**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/win32/Vss/ne-vss-_vss_volume_snapshot_attributes?branch=master) enumeration
 </dt> <dd>
 
 <dl> <dt>
@@ -80,7 +85,7 @@ VSS\_VOLSNAP\_ATTR\_TXF\_RECOVERY
 
 <dl> <dt>
 
-<span id="IVssBackupComponentsEx2_interface"></span><span id="ivssbackupcomponentsex2_interface"></span><span id="IVSSBACKUPCOMPONENTSEX2_INTERFACE"></span>[**IVssBackupComponentsEx2**](ivssbackupcomponentsex2.md) interface
+<span id="IVssBackupComponentsEx2_interface"></span><span id="ivssbackupcomponentsex2_interface"></span><span id="IVSSBACKUPCOMPONENTSEX2_INTERFACE"></span>[**IVssBackupComponentsEx2**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponentsex2?branch=master) interface
 </dt> <dd>
 
 <dl> <dt>
@@ -88,7 +93,7 @@ VSS\_VOLSNAP\_ATTR\_TXF\_RECOVERY
 <span id="Added_method_"></span><span id="added_method_"></span><span id="ADDED_METHOD_"></span>Added method:
 </dt> <dd>
 
-[**BreakSnapshotSetEx**](ivssbackupcomponentsex2-breaksnapshotsetex.md)
+[**BreakSnapshotSetEx**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex?branch=master)
 
 </dd> </dl> </dd> </dl>
 

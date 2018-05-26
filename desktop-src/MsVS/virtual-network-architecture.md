@@ -1,7 +1,12 @@
 ---
 title: Virtual Network Architecture
 description: Virtual networks in Microsoft Virtual Server allow virtual machines running in the same Virtual Server session to communicate with each other at data rates which are not limited by physical hardware.
-ms.assetid: '75a5408e-1515-4e26-b679-051340a8081e'
+ms.assetid: 75a5408e-1515-4e26-b679-051340a8081e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Network Architecture

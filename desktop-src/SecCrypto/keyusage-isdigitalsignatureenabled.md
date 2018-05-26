@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the digitalSignature bit is set.'
-ms.assetid: '561eea86-ff23-4a26-adf2-b43009566eaa'
-title: 'KeyUsage.IsDigitalSignatureEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the digitalSignature bit is set.
+ms.assetid: 561eea86-ff23-4a26-adf2-b43009566eaa
+title: KeyUsage.IsDigitalSignatureEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsDigitalSignatureEnabled property

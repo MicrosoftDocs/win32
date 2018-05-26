@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of DXVA 2 and its relation to DXVA 1.'
-ms.assetid: '190ed399-a8a8-4087-8d18-b1a715690e4c'
-title: 'About DXVA 2.0'
+Description: Overview of DXVA 2 and its relation to DXVA 1.
+ms.assetid: 190ed399-a8a8-4087-8d18-b1a715690e4c
+title: About DXVA 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About DXVA 2.0
@@ -28,7 +33,7 @@ The following table shows the operating system requirements and the supported vi
 
  
 
-In DXVA 1, the software decoder must access the API through the video renderer. There is no way to use the DXVA 1 API without calling into the video renderer. This limitation has been removed with DXVA 2. Using DXVA 2, the host decoder (or any application) can access the API directly, through the [**IDirectXVideoDecoderService**](idirectxvideodecoderservice.md) interface.
+In DXVA 1, the software decoder must access the API through the video renderer. There is no way to use the DXVA 1 API without calling into the video renderer. This limitation has been removed with DXVA 2. Using DXVA 2, the host decoder (or any application) can access the API directly, through the [**IDirectXVideoDecoderService**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideodecoderservice?branch=master) interface.
 
 The DXVA 1 documentation describes the decoding structures used for the following video standards:
 

@@ -1,7 +1,12 @@
 ---
 title: Storage Firmware Update I/O Control Codes
 description: The storage firmware update IOCTLs are used to update the storage firmware on a storage device.
-ms.assetid: 'F614BA71-F402-49D9-968E-C53DA6DA748D'
+ms.assetid: F614BA71-F402-49D9-968E-C53DA6DA748D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage Firmware Update I/O Control Codes

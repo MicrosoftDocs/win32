@@ -1,13 +1,21 @@
 ---
 title: About BITS
 description: Use Background Intelligent Transfer Service (BITS) to transfer files asynchronously between a client and a server.
-ms.assetid: '056007f4-6a71-4f8e-bf7d-17ed87088edf'
-keywords: ["Background Intelligent Transfer Service, described", "transfer queue BITS", "transfer queue BITS , throttle"]
+ms.assetid: 056007f4-6a71-4f8e-bf7d-17ed87088edf
+keywords:
+- Background Intelligent Transfer Service, described
+- transfer queue BITS
+- transfer queue BITS , throttle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About BITS
 
-Use Background Intelligent Transfer Service (BITS) to transfer files asynchronously between a client and a server. There are three types of [**transfer jobs**](bg-job-type.md). A download job downloads files to the client, an upload job uploads a file to the server, and an upload-reply job uploads a file to the server and receives a reply file from the server application.
+Use Background Intelligent Transfer Service (BITS) to transfer files asynchronously between a client and a server. There are three types of [**transfer jobs**](/windows/win32/Bits/ne-bits-__midl_ibackgroundcopyjob_0003?branch=master). A download job downloads files to the client, an upload job uploads a file to the server, and an upload-reply job uploads a file to the server and receives a reply file from the server application.
 
 **BITS 1.2 and earlier:** Upload and upload-reply jobs are not supported.
 
@@ -17,7 +25,7 @@ BITS suspends the transfer if a connection is lost or if the user logs off. BITS
 
 When the user logs on again, BITS resumes the user's transfer job. For more information, see [Users and Network Connections](users-and-network-connections.md).
 
-BITS provides one foreground and three background [priority levels](bg-job-priority.md) that you use to prioritize transfer jobs. Higher priority jobs preempt lower priority jobs. Jobs at the same priority level share transfer time, which prevents a large job from blocking small jobs in the transfer queue. Lower priority jobs do not receive transfer time until all higher priority jobs are complete or in an error state.
+BITS provides one foreground and three background [priority levels](/windows/win32/Bits/ne-bits-__midl_ibackgroundcopyjob_0001?branch=master) that you use to prioritize transfer jobs. Higher priority jobs preempt lower priority jobs. Jobs at the same priority level share transfer time, which prevents a large job from blocking small jobs in the transfer queue. Lower priority jobs do not receive transfer time until all higher priority jobs are complete or in an error state.
 
 Background transfers are optimal in that BITS uses idle [network bandwidth](network-bandwidth.md) to transfer the files and will increase or decrease the rate at which files are transferred based on the amount of idle network bandwidth available. If a network application begins to consume more bandwidth, BITS decreases its transfer rate to preserve the user's interactive experience.
 

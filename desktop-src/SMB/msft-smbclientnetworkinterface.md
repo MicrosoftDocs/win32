@@ -4,13 +4,15 @@ description: Represents a network interface used by SMB client.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '16854425-54c5-4d56-9f72-2e4672a9f580'
-ms.prod: 'windows-server-dev'
+ms.assetid: 16854425-54c5-4d56-9f72-2e4672a9f580
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbClientNetworkInterface class SMB", "MSFT_SmbClientNetworkInterface class SMB , described"]
+keywords:
+- MSFT_SmbClientNetworkInterface class SMB
+- MSFT_SmbClientNetworkInterface class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbClientNetworkInterface class
@@ -39,10 +44,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("smbwmiv2"), ClassVersion("7")]
 class MSFT_SmbClientNetworkInterface
 {
-  uint32  InterfaceIndex;
-  string  IpAddresses[];
-  string  FriendlyName;
-  uint64  LinkSpeed;
+  uint32  InterfaceIndex;
+  string  IpAddresses[];
+  string  FriendlyName;
+  uint64  LinkSpeed;
   boolean RdmaCapable;
   boolean RssCapable;
 };
@@ -147,17 +152,17 @@ Indicates whether this network interface is RSS capable.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalShareSecuritySetting&\#32;WMI class represents security settings for a logical file.'
+Description: The Win32\_LogicalShareSecuritySetting&\#32;WMI class represents security settings for a logical file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7fb8e9a5-62fd-419c-b0a3-f75269b27b62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7fb8e9a5-62fd-419c-b0a3-f75269b27b62
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalShareSecuritySetting class'
+title: Win32\_LogicalShareSecuritySetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalShareSecuritySetting class
@@ -50,7 +53,7 @@ The **Win32\_LogicalShareSecuritySetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -186,7 +189,7 @@ Requests that the provider for the object protected by the SD automatically prop
 
 </dt> <dd>
 
-Windows 2000 only. Indicates an SD in which the DACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
+Windows 2000 only. Indicates an SD in which the DACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
 
 </dd> <dt>
 
@@ -197,7 +200,7 @@ Windows 2000 only. Indicates an SD in which the DACL is set up to support automa
 
 </dt> <dd>
 
-Windows 2000: Indicates an SD in which the SACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
+Windows 2000: Indicates an SD in which the SACL is set up to support automatic propagation of inheritable ACEs to existing child objects. The system sets this bit when it performs the automatic inheritance algorithm for the object and its existing child objects. This bit is not set in SDs for Windows NT versions 4.0 and earlier, which do not support automatic propagation of inheritable ACEs.
 
 </dd> <dt>
 
@@ -208,7 +211,7 @@ Windows 2000: Indicates an SD in which the SACL is set up to support automatic p
 
 </dt> <dd>
 
-Windows 2000: Prevents the DACL of the SD from being modified by inheritable ACEs.
+Windows 2000: Prevents the DACL of the SD from being modified by inheritable ACEs.
 
 </dd> <dt>
 
@@ -219,7 +222,7 @@ Windows 2000: Prevents the DACL of the SD from being modified by inheritable ACE
 
 </dt> <dd>
 
-Windows 2000: Prevents the SACL of the SD from being modified by inheritable ACEs.
+Windows 2000: Prevents the SACL of the SD from being modified by inheritable ACEs.
 
 </dd> <dt>
 
@@ -294,7 +297,7 @@ The values in **ControlFlags** indicate the elements of the descriptor that WMI 
 > [!Note]  
 > A **NULL** DACL creates a security risk because it gives full access to everyone. For more information, see [Creating a DACL](https://msdn.microsoft.com/library/windows/desktop/ms717798).
 
- 
+ 
 
 The **ControlFlags** property contains individual bit positions that indicate the specific flags that are set. To combine these flags, add the associated values. For example, to specify both **SE\_DACL\_PRESENT** and **SE\_DACL\_AUTO\_INHERITED** you can add the associated values 4 and 1024 to make the value of the **ControlFlags** property 1028.
 
@@ -329,8 +332,8 @@ $ACL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -347,9 +350,9 @@ $ACL
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

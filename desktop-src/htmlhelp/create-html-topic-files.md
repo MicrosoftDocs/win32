@@ -1,7 +1,12 @@
 ---
 title: Create HTML Topic Files
 description: Create HTML Topic Files
-ms.assetid: 'E86CD3F3-A25B-48b6-9CE3-CA77E9D8AC03'
+ms.assetid: E86CD3F3-A25B-48b6-9CE3-CA77E9D8AC03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create HTML Topic Files

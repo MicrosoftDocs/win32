@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a user-provided function to fill each texel of each mip level of a given texture.'
-ms.assetid: '9c822472-2bbf-4629-bdb3-6491573e8de2'
+---
+Description: Uses a user-provided function to fill each texel of each mip level of a given texture.
+ms.assetid: 9c822472-2bbf-4629-bdb3-6491573e8de2
 title: D3DXFillTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFillTexture function
@@ -28,9 +33,9 @@ HRESULT D3DXFillTexture(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface, representing the filled texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface, representing the filled texture.
 
 </dd> <dt>
 

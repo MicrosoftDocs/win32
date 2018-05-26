@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves an integer value that identifies the type of authentication required.'
+Description: Specifies or retrieves an integer value that identifies the type of authentication required.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '56ff9e20-0912-48bc-b84e-832b420ad93d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 56ff9e20-0912-48bc-b84e-832b420ad93d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ProxyAuthentication.Scheme property'
+title: ProxyAuthentication.Scheme property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProxyAuthentication.Scheme property
@@ -145,7 +148,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -157,9 +160,9 @@ END FUNCTION
 [**ProxyAuthentication**](proxyauthentication-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

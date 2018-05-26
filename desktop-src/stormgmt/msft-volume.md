@@ -1,8 +1,10 @@
 ---
 title: MSFT\_Volume class
 description: Represents a volume on a computer.
-ms.assetid: '007dd46a-4812-4273-beaa-74fbe9520c7d'
-keywords: ["MSFT_Volume class Windows Storage Management API", "MSFT_Volume class Windows Storage Management API , described"]
+ms.assetid: 007dd46a-4812-4273-beaa-74fbe9520c7d
+keywords:
+- MSFT_Volume class Windows Storage Management API
+- MSFT_Volume class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_Volume class
@@ -80,7 +87,7 @@ The **MSFT\_Volume** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -97,7 +104,7 @@ Data type: **UInt32**
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** Indicates whether deduplication is available, disabled, or the deduplication mode of the volume.
+**Starting in Windows 10:** Indicates whether deduplication is available, disabled, or the deduplication mode of the volume.
 
 <dl> <dt>
 
@@ -207,7 +214,7 @@ Data type: **UInt16**
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** The underlying file system on the volume. It can have one of the following values:
+**Starting in Windows 10:** The underlying file system on the volume. It can have one of the following values:
 
 <dl> <dt>
 
@@ -344,7 +351,7 @@ The total space, in bytes, that is currently free on the volume.
 
 ## Remarks
 
-**Starting in Windows 10:** **MSFT\_Volume** derives from [**MSFT\_StorageObject**](msft-storageobject.md). It now inherits the property *ObjectId*, which was formerly a property of **MSFT\_Volume**.
+**Starting in Windows 10:** **MSFT\_Volume** derives from [**MSFT\_StorageObject**](msft-storageobject.md). It now inherits the property *ObjectId*, which was formerly a property of **MSFT\_Volume**.
 
 ## Requirements
 
@@ -352,16 +359,16 @@ The total space, in bytes, that is currently free on the volume.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

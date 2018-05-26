@@ -1,8 +1,21 @@
 ---
 title: How Windows Movie Maker Interacts with Your Transform
 description: How Windows Movie Maker Interacts with Your Transform
-ms.assetid: '0b594967-cf6a-4b76-83de-569487f85887'
-keywords: ["Windows Movie Maker,transform interaction", "Movie Maker,transform interaction", "programming guide,Windows Movie Maker and transform interaction", "transforms,Windows Movie Maker interaction", "custom transforms,Windows Movie Maker interaction", "IMediaTransform interface", "INotifySeek interface", "IControlOutputSize interface"]
+ms.assetid: 0b594967-cf6a-4b76-83de-569487f85887
+keywords:
+- Windows Movie Maker,transform interaction
+- Movie Maker,transform interaction
+- programming guide,Windows Movie Maker and transform interaction
+- transforms,Windows Movie Maker interaction
+- custom transforms,Windows Movie Maker interaction
+- IMediaTransform interface
+- INotifySeek interface
+- IControlOutputSize interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Windows Movie Maker Interacts with Your Transform

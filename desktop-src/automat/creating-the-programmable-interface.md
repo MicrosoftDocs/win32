@@ -1,7 +1,12 @@
 ---
 title: Creating the Programmable Interface
-description: An object's programmable interface comprises the properties, methods, and events that it defines.
-ms.assetid: '4184e5b8-2740-4a1d-87fa-fe4bbd0628b0'
+description: An objects programmable interface comprises the properties, methods, and events that it defines.
+ms.assetid: 4184e5b8-2740-4a1d-87fa-fe4bbd0628b0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Programmable Interface

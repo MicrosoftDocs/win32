@@ -1,14 +1,20 @@
 ---
 title: THEME.version
 description: The version attribute specifies or retrieves the Windows Media Player version number for which the skin was authored.
-ms.assetid: '74405b82-96a3-4ac2-aba2-24daceb0a429'
-keywords: ["THEME.version Windows Media Player"]
+ms.assetid: 74405b82-96a3-4ac2-aba2-24daceb0a429
+keywords:
+- THEME.version Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.version
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.version
@@ -40,9 +46,9 @@ This attribute is a **Number** (**float**). Specifying a value for this attribut
 [**THEME Element**](theme-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

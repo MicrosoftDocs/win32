@@ -4,11 +4,15 @@ description: Provides test considerations that apply only to C/C++ developers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69365c65-e445-4a54-8ed2-8294e331d7b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 69365c65-e445-4a54-8ed2-8294e331d7b1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in testing MMC , C++"]
+keywords:
+- snap-in testing MMC , C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # C++ Code Only

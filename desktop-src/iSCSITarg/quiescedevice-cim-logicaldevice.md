@@ -4,13 +4,16 @@ description: The QuiesceDevice method has been deprecated in lieu of the more ge
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dd817c63-14a6-4b2f-a11d-e11f4fd69854'
-ms.prod: 'windows-server-dev'
+ms.assetid: dd817c63-14a6-4b2f-a11d-e11f4fd69854
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["QuiesceDevice method iSCSI Software Target API", "QuiesceDevice method iSCSI Software Target API , CIM_LogicalDevice class", "CIM_LogicalDevice class iSCSI Software Target API , QuiesceDevice method"]
+keywords:
+- QuiesceDevice method iSCSI Software Target API
+- QuiesceDevice method iSCSI Software Target API , CIM_LogicalDevice class
+- CIM_LogicalDevice class iSCSI Software Target API , QuiesceDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QuiesceDevice method of the CIM\_LogicalDevice class
@@ -30,7 +36,7 @@ The QuiesceDevice method has been deprecated in lieu of the more general Request
 
 ```mof
 uint32 QuiesceDevice(
-  [in] boolean Quiesce
+  [in] boolean Quiesce
 );
 ```
 
@@ -54,7 +60,7 @@ If set to TRUE then cleanly cease all activity, if FALSE resume activity.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -68,9 +74,9 @@ If set to TRUE then cleanly cease all activity, if FALSE resume activity.
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

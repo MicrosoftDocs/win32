@@ -1,7 +1,12 @@
 ---
-Description: 'The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.'
-ms.assetid: 'c39f669c-ff40-40ed-ba47-798474ec2de4'
+Description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
+ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
 title: ControlTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlTrace function
@@ -13,10 +18,10 @@ The **ControlTrace** function flushes, queries, updates, or stops the specified 
 
 ```C++
 ULONG ControlTrace(
-  _In_    TRACEHANDLE             SessionHandle,
-  _In_    LPCTSTR                 SessionName,
-  _Inout_ PEVENT_TRACE_PROPERTIES Properties,
-  _In_    ULONG                   ControlCode
+  _In_    TRACEHANDLE             SessionHandle,
+  _In_    LPCTSTR                 SessionName,
+  _Inout_ PEVENT_TRACE_PROPERTIES Properties,
+  _In_    ULONG                   ControlCode
 );
 ```
 
@@ -63,7 +68,7 @@ If *ControlCode* specifies **EVENT\_TRACE\_CONTROL\_UPDATE**, on input, the memb
 
 
 
- 
+ 
 
 For private logger sessions, you can update only the **LogFileNameOffset** and **FlushTimer** members.
 
@@ -73,7 +78,7 @@ If you use the property structure you passed to [**StartTrace**](starttrace.md),
 
 If you call the **ControlTrace** function to query the current session properties and then update those properties to update the session, make sure you set **LogFileNameOffset** to 0 (unless you are changing the log file name) and set [**EVENT\_TRACE\_PROPERTIES.Wnode.Flags**](event-trace-properties.md) to **WNODE\_FLAG\_TRACED\_GUID**.
 
-**Starting with Windows 10, version 1703:** For better performance in cross process scenarios, you can now pass filtering in to **ControlTrace** for system wide private loggers. You will need to pass in the new [**EVENT\_TRACE\_PROPERTIES\_V2**](event-trace-properties-v2.md) structure to include filtering information. See [Configuring and Starting a Private Logger Session](configuring-and-starting-a-private-logger-session.md) for more details.
+**Starting with Windows 10, version 1703:** For better performance in cross process scenarios, you can now pass filtering in to **ControlTrace** for system wide private loggers. You will need to pass in the new [**EVENT\_TRACE\_PROPERTIES\_V2**](event-trace-properties-v2.md) structure to include filtering information. See [Configuring and Starting a Private Logger Session](configuring-and-starting-a-private-logger-session.md) for more details.
 
 </dd> <dt>
 
@@ -93,7 +98,7 @@ Requested control function. You can specify one of the following values.
 
 
 
- 
+ 
 
 Note that it is not safe to flush buffers or stop a trace session from DllMain.
 
@@ -149,7 +154,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users running with elevated administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group. Only users with administrative privileges and services running as LocalSystem can control an NT Kernel Logger session.<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can control a trace session.<br/></td>
+<td>Only users running with elevated administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group. Only users with administrative privileges and services running as LocalSystem can control an NT Kernel Logger session.<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can control a trace session.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_WMI_INSTANCE_NOT_FOUND</strong></dt> </dl></td>
@@ -160,7 +165,7 @@ If the function fails, the return value is one of the [system error codes](https
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -174,12 +179,12 @@ This function supersedes the [**FlushTrace**](flushtrace.md), [**QueryTrace**](q
 
 |                                     |                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                                  |
 | Minimum supported phone<br/>  | Windows Phone 8.1<br/>                                                                                                                                                                                                                                                                                                 |
 | Header<br/>                   | <dl> <dt>Evntrace.h</dt> </dl>                                                                                                                                                                                                                                        |
-| Library<br/>                  | <dl> <dt>Sechost.lib on Windows 8.1 and Windows Server 2012 R2; </dt> <dt>Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>Sechost.dll on Windows 8.1 and Windows Server 2012; </dt> <dt>Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl>    |
+| Library<br/>                  | <dl> <dt>Sechost.lib on Windows 8.1 and Windows Server 2012 R2; </dt> <dt>Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Sechost.dll on Windows 8.1 and Windows Server 2012; </dt> <dt>Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl>    |
 | Unicode and ANSI names<br/>   | **ControlTraceW** (Unicode) and **ControlTraceA** (ANSI)<br/>                                                                                                                                                                                                                                                          |
 
 
@@ -197,9 +202,9 @@ This function supersedes the [**FlushTrace**](flushtrace.md), [**QueryTrace**](q
 [**StartTrace**](starttrace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

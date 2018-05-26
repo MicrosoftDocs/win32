@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the list of wireless LAN networks to which any machine must be allowed to connect.'
-ms.assetid: 'e24557d8-dedf-4381-bba0-cdb7ea26083b'
-title: 'allowList (networkFilter) Element'
+---
+Description: Specifies the list of wireless LAN networks to which any machine must be allowed to connect.
+ms.assetid: e24557d8-dedf-4381-bba0-cdb7ea26083b
+title: allowList (networkFilter) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # allowList (networkFilter) Element

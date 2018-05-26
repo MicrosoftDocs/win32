@@ -1,8 +1,11 @@
 ---
 title: CalculateVideoMemoryRequirements method of the Msvm\_Synth3dVideoPool class
 description: Calculates the amount of video memory required for a RemoteFX virtual machine.
-ms.assetid: 'FF664228-989F-4820-BD70-117C092BB26C'
-keywords: ["CalculateVideoMemoryRequirements method Hyper-V", "CalculateVideoMemoryRequirements method Hyper-V , Msvm_Synth3dVideoPool class", "Msvm_Synth3dVideoPool class Hyper-V , CalculateVideoMemoryRequirements method"]
+ms.assetid: FF664228-989F-4820-BD70-117C092BB26C
+keywords:
+- CalculateVideoMemoryRequirements method Hyper-V
+- CalculateVideoMemoryRequirements method Hyper-V , Msvm_Synth3dVideoPool class
+- Msvm_Synth3dVideoPool class Hyper-V , CalculateVideoMemoryRequirements method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CalculateVideoMemoryRequirements method of the Msvm\_Synth3dVideoPool class
@@ -22,9 +30,9 @@ Calculates the amount of video memory required for a RemoteFX virtual machine.
 
 ```mof
 uint32 CalculateVideoMemoryRequirements(
-  [in]  uint32 monitorResolution,
-  [in]  uint32 numberOfMonitors,
-  [out] uint64 requiredVideoMemory
+  [in]  uint32 monitorResolution,
+  [in]  uint32 numberOfMonitors,
+  [out] uint64 requiredVideoMemory
 );
 ```
 
@@ -43,14 +51,14 @@ The maximum monitor resolution for the virtual machine. This must be one of the 
 
 | Value                                                                        | Meaning                                           |
 |------------------------------------------------------------------------------|---------------------------------------------------|
-| <dl> <dt>0</dt> </dl> | The maximum resolution is 1024 × 768.<br/>  |
-| <dl> <dt>1</dt> </dl> | The maximum resolution is 1280 × 1024.<br/> |
-| <dl> <dt>2</dt> </dl> | The maximum resolution is 1600 × 1200.<br/> |
-| <dl> <dt>3</dt> </dl> | The maximum resolution is 1920 × 1200.<br/> |
+| <dl> <dt>0</dt> </dl> | The maximum resolution is 1024   768.<br/>  |
+| <dl> <dt>1</dt> </dl> | The maximum resolution is 1280   1024.<br/> |
+| <dl> <dt>2</dt> </dl> | The maximum resolution is 1600   1200.<br/> |
+| <dl> <dt>3</dt> </dl> | The maximum resolution is 1920   1200.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -63,14 +71,14 @@ The maximum number of monitors for the virtual machine. The minimum number of mo
 
 | Resolution             | Maximum monitors |
 |------------------------|------------------|
-| 1024 × 768<br/>  | 4<br/>     |
-| 1280 × 1024<br/> | 4<br/>     |
-| 1600 × 1200<br/> | 3<br/>     |
-| 1920 × 1200<br/> | 2<br/>     |
+| 1024   768<br/>  | 4<br/>     |
+| 1280   1024<br/> | 4<br/>     |
+| 1600   1200<br/> | 3<br/>     |
+| 1920   1200<br/> | 2<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -105,7 +113,7 @@ Returns a status code, which can be one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -118,9 +126,9 @@ This method is typically called on the host system to determine if the host has 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -136,9 +144,9 @@ This method is typically called on the host system to determine if the host has 
 [**Msvm\_Synth3dVideoPool**](msvm-synth3dvideopool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

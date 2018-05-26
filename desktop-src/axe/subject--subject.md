@@ -1,8 +1,11 @@
 ---
 title: Subject ~Subject destructor
 description: Destructor method.
-ms.assetid: '728FE2AA-7ADE-4AA2-BF34-27911316815E'
-keywords: ["~Subject destructor Access Execution Engine", "~Subject destructor Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , ~Subject destructor"]
+ms.assetid: 728FE2AA-7ADE-4AA2-BF34-27911316815E
+keywords:
+- ~Subject destructor Access Execution Engine
+- ~Subject destructor Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , ~Subject destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::~Subject destructor
@@ -36,8 +44,8 @@ The **Subject** objects hold information from the **Iteration/TestCases/TestCase
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ The **Subject** objects hold information from the **Iteration/TestCases/TestCase
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

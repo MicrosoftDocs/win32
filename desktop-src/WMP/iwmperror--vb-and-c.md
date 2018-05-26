@@ -1,8 +1,10 @@
 ---
 title: IWMPError (VB and C\ ) interface
 description: Provides properties and methods for accessing a collection of IWMPErrorItem interfaces for retrieving error information.The IWMPError interface exposes the following properties.
-ms.assetid: 'c7d9f834-43ed-40a2-95a3-b1633f025118'
-keywords: ["IWMPError (VB and C ) interface Windows Media Player", "IWMPError (VB and C ) interface Windows Media Player , described"]
+ms.assetid: c7d9f834-43ed-40a2-95a3-b1633f025118
+keywords:
+- IWMPError (VB and C ) interface Windows Media Player
+- IWMPError (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPError (VB and C#) interface
@@ -39,7 +46,7 @@ The **IWMPError (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -54,7 +61,7 @@ The **IWMPError (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPError** interface by using the following property.
 
@@ -66,7 +73,7 @@ Get an **IWMPError** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,9 +95,9 @@ Get an **IWMPError** interface by using the following property.
 [**IWMPErrorItem Interface (VB and C#)**](iwmperroritem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

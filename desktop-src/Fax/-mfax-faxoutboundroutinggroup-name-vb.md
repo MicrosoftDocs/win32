@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Name property is a null-terminated string that specifies the name of the outbound routing group.'
-ms.assetid: 'c6540a72-fc97-4fb9-824f-ccc8c05cb89a'
-title: 'FaxOutboundRoutingGroup.Name property'
+---
+Description: The Name property is a null-terminated string that specifies the name of the outbound routing group.
+ms.assetid: c6540a72-fc97-4fb9-824f-ccc8c05cb89a
+title: FaxOutboundRoutingGroup.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingGroup.Name property
@@ -46,7 +51,7 @@ A **String** that receives the name of the outbound routing group.
 [**FaxOutboundRoutingGroup**](-mfax-faxoutboundroutinggroup.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingGroup**](-mfax-faxoutboundroutinggroup-cpp.md)
+[**IFaxOutboundRoutingGroup**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutinggroup?branch=master)
 </dt> </dl>
 
  

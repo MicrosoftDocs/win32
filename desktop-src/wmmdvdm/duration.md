@@ -1,14 +1,20 @@
 ---
 title: Duration element
 description: Specifies the duration of the parent menu or transition.
-ms.assetid: '1e11d513-3967-4c8f-b8dc-fae9a8b297ee'
-keywords: ["Duration element Windows Movie Maker and DVD Maker"]
+ms.assetid: 1e11d513-3967-4c8f-b8dc-fae9a8b297ee
+keywords:
+- Duration element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Duration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duration element
@@ -53,7 +59,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -65,9 +71,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

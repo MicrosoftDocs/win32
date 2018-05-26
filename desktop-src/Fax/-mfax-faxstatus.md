@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxStatus object permits a fax client application to retrieve status information for a specific port on a connected fax server.'
-ms.assetid: '88f02cb1-df32-4fb8-9fe7-6c3abe1948dc'
+Description: The FaxStatus object permits a fax client application to retrieve status information for a specific port on a connected fax server.
+ms.assetid: 88f02cb1-df32-4fb8-9fe7-6c3abe1948dc
 title: FaxStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxPort::GetStatus**](-mfax-ifaxport-mfax-ifaxport-getstatus-cpp.md) method.
--   Supports the [**IFaxStatus**](-mfax-ifaxstatus.md) interface.
+-   Create by calling the [**IFaxPort::GetStatus**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxport-getstatus?branch=master) method.
+-   Supports the [**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master) interface.
 
-For more information about creating an instance of a FaxStatus object, and for a list of the object's properties and methods, see [**IFaxStatus**](-mfax-ifaxstatus.md).
+For more information about creating an instance of a FaxStatus object, and for a list of the object's properties and methods, see [**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master).
 
 ## Visual Basic
 

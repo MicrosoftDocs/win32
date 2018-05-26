@@ -1,7 +1,12 @@
 ---
-Description: 'The FeatureComponents table defines the relationship between features and components. For each feature, this table lists all the components that make up that feature.'
-ms.assetid: 'aff16483-a9ed-4675-8e87-8adf695605ee'
+Description: The FeatureComponents table defines the relationship between features and components. For each feature, this table lists all the components that make up that feature.
+ms.assetid: aff16483-a9ed-4675-8e87-8adf695605ee
 title: FeatureComponents Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FeatureComponents Table

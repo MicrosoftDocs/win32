@@ -1,7 +1,12 @@
 ---
-Description: 'Method to move, migrate or relocate a virtual system to a target system.'
-ms.assetid: '210d31f1-093f-4fd5-afd7-5f028b4cb343'
-title: 'MigrateVirtualSystemToSystem method of the CIM\_VirtualSystemMigrationService class'
+Description: Method to move, migrate or relocate a virtual system to a target system.
+ms.assetid: 210d31f1-093f-4fd5-afd7-5f028b4cb343
+title: MigrateVirtualSystemToSystem method of the CIM\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MigrateVirtualSystemToSystem method of the CIM\_VirtualSystemMigrationService class
@@ -15,13 +20,13 @@ Return code description:
 
 ```mof
 uint32 MigrateVirtualSystemToSystem(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  CIM_System         REF DestinationSystem,
-  [in]  string                 MigrationSettingData,
-  [in]  string                 NewSystemSettingData,
-  [in]  string                 NewResourceSettingData[],
-  [out] CIM_ComputerSystem REF NewComputerSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  CIM_System         REF DestinationSystem,
+  [in]  string                 MigrationSettingData,
+  [in]  string                 NewSystemSettingData,
+  [in]  string                 NewResourceSettingData[],
+  [out] CIM_ComputerSystem REF NewComputerSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -102,7 +107,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -110,8 +115,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -125,9 +130,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_VirtualSystemMigrationService**](cim-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

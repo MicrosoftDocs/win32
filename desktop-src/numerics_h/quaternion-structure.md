@@ -1,8 +1,9 @@
 ---
 title: quaternion Structure
 description: A four dimensional vector, used to represent a rotation.
-ms.assetid: 'A6B25885-8ECB-4039-9DC6-41D5F3A02489'
-keywords: ["quaternion Structure"]
+ms.assetid: A6B25885-8ECB-4039-9DC6-41D5F3A02489
+keywords:
+- quaternion Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # quaternion Structure
@@ -36,7 +42,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Quat
 
 
 
- 
+ 
 
 ## Functions
 
@@ -60,7 +66,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Quat
 
 
 
- 
+ 
 
 ## Operators
 
@@ -85,7 +91,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Quat
 
 
 
- 
+ 
 
 ## Fields
 
@@ -100,7 +106,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Quat
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -120,9 +126,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Quat
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

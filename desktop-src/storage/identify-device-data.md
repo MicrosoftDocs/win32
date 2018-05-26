@@ -1,8 +1,10 @@
 ---
 title: IDENTIFY\_DEVICE\_DATA structure
 description: The IDENTIFY\_DEVICE\_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
-ms.assetid: '7f2edd6f-16bf-47a6-8546-7871435a56ac'
-keywords: ["IDENTIFY_DEVICE_DATA structure Storage Devices", "PIDENTIFY_DEVICE_DATA structure pointer Storage Devices"]
+ms.assetid: 7f2edd6f-16bf-47a6-8546-7871435a56ac
+keywords:
+- IDENTIFY_DEVICE_DATA structure Storage Devices
+- PIDENTIFY_DEVICE_DATA structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ata.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDENTIFY\_DEVICE\_DATA structure
@@ -20,7 +27,7 @@ The IDENTIFY\_DEVICE\_DATA structure contains the data retrieved by an ATA ident
 > [!Note]  
 > The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
@@ -36,43 +43,43 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT RemovableMedia  :1;
     USHORT Retired1  :7;
     USHORT DeviceType  :1;
-  } GeneralConfiguration;
+  } GeneralConfiguration;
   USHORT NumCylinders;
   USHORT ReservedWord2;
   USHORT NumHeads;
   USHORT Retired1[2];
   USHORT NumSectorsPerTrack;
   USHORT VendorUnique1[3];
-  UCHAR  SerialNumber[20];
+  UCHAR  SerialNumber[20];
   USHORT Retired2[2];
   USHORT Obsolete1;
-  UCHAR  FirmwareRevision[8];
-  UCHAR  ModelNumber[40];
-  UCHAR  MaximumBlockTransfer;
-  UCHAR  VendorUnique2;
+  UCHAR  FirmwareRevision[8];
+  UCHAR  ModelNumber[40];
+  UCHAR  MaximumBlockTransfer;
+  UCHAR  VendorUnique2;
   USHORT ReservedWord48;
   struct {
-    UCHAR  ReservedByte49;
-    UCHAR  DmaSupported  :1;
-    UCHAR  LbaSupported  :1;
-    UCHAR  IordyDisable  :1;
-    UCHAR  IordySupported  :1;
-    UCHAR  Reserved1  :1;
-    UCHAR  StandybyTimerSupport  :1;
-    UCHAR  Reserved2  :2;
+    UCHAR  ReservedByte49;
+    UCHAR  DmaSupported  :1;
+    UCHAR  LbaSupported  :1;
+    UCHAR  IordyDisable  :1;
+    UCHAR  IordySupported  :1;
+    UCHAR  Reserved1  :1;
+    UCHAR  StandybyTimerSupport  :1;
+    UCHAR  Reserved2  :2;
     USHORT ReservedWord50;
-  } Capabilities;
+  } Capabilities;
   USHORT ObsoleteWords51[2];
   USHORT TranslationFieldsValid  :3;
   USHORT Reserved3  :13;
   USHORT NumberOfCurrentCylinders;
   USHORT NumberOfCurrentHeads;
   USHORT CurrentSectorsPerTrack;
-  ULONG  CurrentSectorCapacity;
-  UCHAR  CurrentMultiSectorSetting;
-  UCHAR  MultiSectorSettingValid  :1;
-  UCHAR  ReservedByte59  :7;
-  ULONG  UserAddressableSectors;
+  ULONG  CurrentSectorCapacity;
+  UCHAR  CurrentMultiSectorSetting;
+  UCHAR  MultiSectorSettingValid  :1;
+  UCHAR  ReservedByte59  :7;
+  ULONG  UserAddressableSectors;
   USHORT ObsoleteWord62;
   USHORT MultiWordDMASupport  :8;
   USHORT MultiWordDMAActive  :8;
@@ -134,7 +141,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT ReservedForTechReport  :2;
     USHORT IdleWithUnloadFeature  :1;
     USHORT Reserved4  :2;
-  } CommandSetSupport;
+  } CommandSetSupport;
   struct {
     USHORT SmartCommands  :1;
     USHORT SecurityMode  :1;
@@ -181,7 +188,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT ReservedForTechReport  :2;
     USHORT IdleWithUnloadFeature  :1;
     USHORT Reserved4  :2;
-  } CommandSetActive;
+  } CommandSetActive;
   USHORT UltraDMASupport  :8;
   USHORT UltraDMAActive  :8;
   USHORT ReservedWord89[4];
@@ -189,7 +196,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
   USHORT CurrentAcousticValue  :8;
   USHORT RecommendedAcousticValue  :8;
   USHORT ReservedWord95[5];
-  ULONG  Max48BitLBA[2];
+  ULONG  Max48BitLBA[2];
   USHORT StreamingTransferTime;
   USHORT ReservedWord105;
   struct {
@@ -198,7 +205,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT LogicalSectorLongerThan256Words  :1;
     USHORT MultipleLogicalSectorsPerPhysicalSector  :1;
     USHORT Reserved1  :2;
-  } PhysicalLogicalSectorSize;
+  } PhysicalLogicalSectorSize;
   USHORT InterSeekDelay;
   USHORT WorldWideName[4];
   USHORT ReservedForWorldWideName128[4];
@@ -209,13 +216,13 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT WriteReadVerifySupported  :1;
     USHORT Reserved01  :11;
     USHORT Reserved1  :2;
-  } CommandSetSupportExt;
+  } CommandSetSupportExt;
   struct {
     USHORT ReservedForDrqTechnicalReport  :1;
     USHORT WriteReadVerifyEnabled  :1;
     USHORT Reserved01  :11;
     USHORT Reserved1  :2;
-  } CommandSetActiveExt;
+  } CommandSetActiveExt;
   USHORT ReservedForExpandedSupportandActive[6];
   USHORT MsnSupport  :2;
   USHORT ReservedWord1274  :14;
@@ -229,7 +236,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT Reserved0  :2;
     USHORT SecurityLevel  :1;
     USHORT Reserved1  :7;
-  } SecurityStatus;
+  } SecurityStatus;
   USHORT ReservedWord129[31];
   struct {
     USHORT MaximumCurrentInMA2  :12;
@@ -237,12 +244,12 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT CfaPowerMode1Required  :1;
     USHORT Reserved0  :1;
     USHORT Word160Supported  :1;
-  } CfaPowerModel;
+  } CfaPowerModel;
   USHORT ReservedForCfaWord161[8];
   struct {
     USHORT SupportsTrim  :1;
     USHORT Reserved0  :15;
-  } DataSetManagementFeature;
+  } DataSetManagementFeature;
   USHORT ReservedForCfaWord170[6];
   USHORT CurrentMediaSerialNumber[30];
   USHORT ReservedWord206;
@@ -251,7 +258,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT AlignmentOfLogicalWithinPhysical  :14;
     USHORT Word209Supported  :1;
     USHORT Reserved0  :1;
-  } BlockAlignment;
+  } BlockAlignment;
   USHORT WriteReadVerifySectorCountMode3Only[2];
   USHORT WriteReadVerifySectorCountMode2Only[2];
   struct {
@@ -261,7 +268,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
     USHORT Reserved1  :3;
     USHORT NVCachePowerModeVersion  :4;
     USHORT NVCacheFeatureSetVersion  :4;
-  } NVCacheCapabilities;
+  } NVCacheCapabilities;
   USHORT NVCacheSizeLSW;
   USHORT NVCacheSizeMSW;
   USHORT NominalMediaRotationRate;
@@ -269,7 +276,7 @@ typedef struct _IDENTIFY_DEVICE_DATA {
   struct {
     UCHAR NVCacheEstimatedTimeToSpinUpInSeconds;
     UCHAR Reserved;
-  } NVCacheOptions;
+  } NVCacheOptions;
   USHORT ReservedWord220[35];
   USHORT Signature  :8;
   USHORT CheckSum  :8;
@@ -1328,9 +1335,9 @@ Indicates the checksum.
 
 
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20IDENTIFY_DEVICE_DATA%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

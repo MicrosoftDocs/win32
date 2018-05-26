@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowOn class
 description: The Win32\_ShadowOn class associates a shadow copy and the volume on which the differential data is written.
-ms.assetid: '7ab39296-d888-4857-8d38-d4d50665954c'
-keywords: ["Win32_ShadowOn class", "Win32_ShadowOn class, described"]
+ms.assetid: 7ab39296-d888-4857-8d38-d4d50665954c
+keywords:
+- Win32_ShadowOn class
+- Win32_ShadowOn class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowOn class
@@ -26,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_ShadowOn : CIM_Dependency
 {
-  Win32_Volume     REF Antecedent;
+  Win32_Volume     REF Antecedent;
   Win32_ShadowCopy REF Dependent;
 };
 ```
@@ -82,7 +89,7 @@ Reference to the shadow copy.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -117,9 +124,9 @@ Reference to the shadow copy.
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

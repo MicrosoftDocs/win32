@@ -1,11 +1,16 @@
-﻿---
-Description: 'Notifies the callback object that an event has taken place that affects one of its items. Used by IShellFolderViewCB::MessageSFVCB.'
-title: 'SFVM\_FSNOTIFY message'
+---
+Description: Notifies the callback object that an event has taken place that affects one of its items. Used by IShellFolderViewCBMessageSFVCB.
+title: SFVM\_FSNOTIFY message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_FSNOTIFY message
 
-Notifies the callback object that an event has taken place that affects one of its items. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Notifies the callback object that an event has taken place that affects one of its items. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++
@@ -34,7 +39,7 @@ The PIDL of the affected item.
 *lEvent* \[in\]
 </dt> <dd>
 
-A SHCNE value that indicates which event occurred. For a list of possible values, see [**SHChangeNotify**](shchangenotify.md).
+A SHCNE value that indicates which event occurred. For a list of possible values, see [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master).
 
 </dd> </dl>
 

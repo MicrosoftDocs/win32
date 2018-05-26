@@ -1,8 +1,11 @@
 ---
 title: IVMDVDDriveCollection Item property
 description: Retrieves the CD or DVD drive object that corresponds to the specified index.
-ms.assetid: 'ecc94eea-9ddc-46c8-87e2-e67aca83eecc'
-keywords: ["Item property Virtual PC", "Item property Virtual PC , IVMDVDDriveCollection interface", "IVMDVDDriveCollection interface Virtual PC , Item property"]
+ms.assetid: ecc94eea-9ddc-46c8-87e2-e67aca83eecc
+keywords:
+- Item property Virtual PC
+- Item property Virtual PC , IVMDVDDriveCollection interface
+- IVMDVDDriveCollection interface Virtual PC , Item property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDriveCollection::Item property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the CD or DVD drive object that corresponds to the specified index.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]          long        index,
-  [out, retval] IVMDVDDrive **dvdDrive
+  [in]          long        index,
+  [out, retval] IVMDVDDrive **dvdDrive
 );
 ```
 
@@ -59,9 +67,9 @@ The [**IVMDVDDrive**](ivmdvddrive.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDVDDriveCollection is defined as bc86e297-e55f-4742-9614-ad11d3131f68<br/>      |
@@ -78,9 +86,9 @@ The [**IVMDVDDrive**](ivmdvddrive.md) object.
 [**IVMDVDDriveCollection**](ivmdvddrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

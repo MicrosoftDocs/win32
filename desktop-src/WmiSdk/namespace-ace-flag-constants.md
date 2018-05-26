@@ -1,13 +1,16 @@
 ---
-Description: 'The following list lists the possible values of the Flags field in a WMI Access Control Entry (ACE).'
+Description: The following list lists the possible values of the Flags field in a WMI Access Control Entry (ACE).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bd09691d-e285-40e0-8686-edd5a132a06e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bd09691d-e285-40e0-8686-edd5a132a06e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Namespace ACE Flag Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Namespace ACE Flag Constants
@@ -107,9 +110,9 @@ This is not set by clients, but is reported to clients when the source of an ACE
 [**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

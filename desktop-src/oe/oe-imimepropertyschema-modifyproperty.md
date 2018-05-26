@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySchema ModifyProperty method
 description: Modifies an existing property in the MimeOLE global property schema.
-ms.assetid: '25ea8db6-403e-404b-b2d0-27915168c39b'
-keywords: ["ModifyProperty method Windows Mail (formerly Outlook Express)", "ModifyProperty method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface", "IMimePropertySchema interface Windows Mail (formerly Outlook Express) , ModifyProperty method"]
+ms.assetid: 25ea8db6-403e-404b-b2d0-27915168c39b
+keywords:
+- ModifyProperty method Windows Mail (formerly Outlook Express)
+- ModifyProperty method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface
+- IMimePropertySchema interface Windows Mail (formerly Outlook Express) , ModifyProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySchema::ModifyProperty method
@@ -22,10 +30,10 @@ Modifies an existing property in the MimeOLE global property schema.
 
 ```C++
 HRESULT ModifyProperty(
-  [in] LPCSTR  pszName,
-  [in] DWORD   dwFlags,
-  [in] DWORD   dwRowNumber,
-  [in] VARTYPE vtDefault
+  [in] LPCSTR  pszName,
+  [in] DWORD   dwFlags,
+  [in] DWORD   dwRowNumber,
+  [in] VARTYPE vtDefault
 );
 ```
 
@@ -120,7 +128,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -128,8 +136,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -137,9 +145,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

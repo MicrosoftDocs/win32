@@ -1,8 +1,9 @@
 ---
 title: ExecutionState enumeration
 description: Represents the current state of a job or assessment execution.
-ms.assetid: '13F91205-35F0-40CE-9C4D-ACCD05F02260'
-keywords: ["ExecutionState enumeration Access Execution Engine"]
+ms.assetid: 13F91205-35F0-40CE-9C4D-ACCD05F02260
+keywords:
+- ExecutionState enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExecutionState enumeration
@@ -22,10 +28,10 @@ Represents the current state of a job or assessment execution.
 
 ```C++
 enum ExecutionState {
-  None       = 0, 
-  NotYetRun  = 1, 
-  Running    = 2, 
-  Completed  = 3 
+  None       = 0, 
+  NotYetRun  = 1, 
+  Running    = 2, 
+  Completed  = 3 
 
 };
 ```
@@ -70,8 +76,8 @@ The job or assessment has been completed. The *OnJobEnd* or *OnAssessmentEnd* ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ The job or assessment has been completed. The *OnJobEnd* or *OnAssessmentEnd* ca
 [**GetStatus**](https://msdn.microsoft.com/library/windows/desktop/hh707403)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

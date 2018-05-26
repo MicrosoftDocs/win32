@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls API Overview
-ms.assetid: '647e5df8-7c6d-466a-a3d4-eac13efa797d'
+ms.assetid: 647e5df8-7c6d-466a-a3d4-eac13efa797d
 title: Parental Controls API Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls API Overview

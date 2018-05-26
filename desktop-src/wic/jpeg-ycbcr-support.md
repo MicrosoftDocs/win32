@@ -1,7 +1,12 @@
 ---
-Description: 'Starting with Windows 8.1, the Windows Imaging Component (WIC) JPEG codec supports reading and writing image data in its native YCbCr form.'
-ms.assetid: '50B89A96-72E8-4771-9109-207F4CDD06CB'
+Description: Starting with Windows 8.1, the Windows Imaging Component (WIC) JPEG codec supports reading and writing image data in its native YCbCr form.
+ms.assetid: 50B89A96-72E8-4771-9109-207F4CDD06CB
 title: JPEG YCbCr Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JPEG YCbCr Support
@@ -121,15 +126,15 @@ WIC in Windows 8.1 adds three new interfaces to provide access to JPEG YC<sub>b<
 
 ### IWICPlanarBitmapSourceTransform
 
-[**IWICPlanarBitmapSourceTransform**](iwicplanarbitmapsourcetransform.md) is analogous to [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md), except that it produces pixels in a planar configuration, including YC<sub>b</sub>C<sub>r</sub> data. You can obtain this interface by calling QueryInterface on an implementation of [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) that supports planar access. This includes the JPEG codec’s implementation of [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) as well as [**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md), [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md), and [**IWICColorTransform**](-wic-codec-iwiccolortransform.md).
+[**IWICPlanarBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform?branch=master) is analogous to [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master), except that it produces pixels in a planar configuration, including YC<sub>b</sub>C<sub>r</sub> data. You can obtain this interface by calling QueryInterface on an implementation of [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) that supports planar access. This includes the JPEG codec’s implementation of [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) as well as [**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master), [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master), and [**IWICColorTransform**](/windows/win32/Wincodec/nn-wincodec-iwiccolortransform?branch=master).
 
 ### IWICPlanarBitmapFrameEncode
 
-[**IWICPlanarBitmapFrameEncode**](iwicplanarbitmapframeencode.md) provides the ability to encode planar pixel data, including YC<sub>b</sub>C<sub>r</sub> data. You can obtain this interface by calling QueryInterface on the JPEG codec’s implementation of [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md).
+[**IWICPlanarBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapframeencode?branch=master) provides the ability to encode planar pixel data, including YC<sub>b</sub>C<sub>r</sub> data. You can obtain this interface by calling QueryInterface on the JPEG codec’s implementation of [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master).
 
 ### IWICPlanarFormatConverter
 
-[**IWICPlanarFormatConverter**](iwicplanarformatconverter.md) allows [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md) to consume planar pixel data, including YC<sub>b</sub>C<sub>r</sub>, and convert it to an interleaved pixel format. It does not expose the ability to convert interleaved pixel data to a planar format. You can obtain this interface by calling QueryInterface on the Windows provided implementation of **IWICFormatConverter**.
+[**IWICPlanarFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicplanarformatconverter?branch=master) allows [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master) to consume planar pixel data, including YC<sub>b</sub>C<sub>r</sub>, and convert it to an interleaved pixel format. It does not expose the ability to convert interleaved pixel data to a planar format. You can obtain this interface by calling QueryInterface on the Windows provided implementation of **IWICFormatConverter**.
 
 ### Direct2D APIs
 
@@ -149,9 +154,9 @@ To obtain one of the planar YC<sub>b</sub>C<sub>r</sub> interfaces, call QueryIn
 
 ### Is the requested WIC transform supported for YC<sub>b</sub>C<sub>r</sub>?
 
-After obtaining an [**IWICPlanarBitmapSourceTransform**](iwicplanarbitmapsourcetransform.md), you should first call [**DoesSupportTransform**](iwicplanarbitmapsourcetransform-doessupporttransform.md). This method takes as input parameters the complete set of transforms that you want to be applied to the planar YC<sub>b</sub>C<sub>r</sub> data, and returns a Boolean indicating support, as well as the closest dimensions to the requested size that can be returned. You should check all three values before accessing the pixel data with [**IWICPlanarBitmapSourceTransform::CopyPixels**](iwicplanarbitmapsourcetransform-copypixels.md).
+After obtaining an [**IWICPlanarBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform?branch=master), you should first call [**DoesSupportTransform**](/windows/win32/Wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform?branch=master). This method takes as input parameters the complete set of transforms that you want to be applied to the planar YC<sub>b</sub>C<sub>r</sub> data, and returns a Boolean indicating support, as well as the closest dimensions to the requested size that can be returned. You should check all three values before accessing the pixel data with [**IWICPlanarBitmapSourceTransform::CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels?branch=master).
 
-This pattern is similar to how [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) is used.
+This pattern is similar to how [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) is used.
 
 ### Does the graphics driver support the features necessary to use YC<sub>b</sub>C<sub>r</sub> with Direct2D?
 
@@ -213,11 +218,11 @@ bool DirectXSampleRenderer::DoesDriverSupportYCbCr()
 
 ### Decoding YC<sub>b</sub>C<sub>r</sub> Pixel Data
 
-If you want to obtain YC<sub>b</sub>C<sub>r</sub> pixel data you should call [**IWICPlanarBitmapSourceTransform::CopyPixels**](iwicplanarbitmapsourcetransform-copypixels.md). This method copies pixel data into an array of filled-out [**WICBitmapPlane**](wicbitmapplane.md) structures, one for each plane of data you want (for example, Y and C<sub>b</sub>C<sub>r</sub>). A **WICBitmapPlane** contains info about the pixel data and points to the memory buffer that will receive the data.
+If you want to obtain YC<sub>b</sub>C<sub>r</sub> pixel data you should call [**IWICPlanarBitmapSourceTransform::CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels?branch=master). This method copies pixel data into an array of filled-out [**WICBitmapPlane**](/windows/win32/Wincodec/ns-wincodec-wicbitmapplane?branch=master) structures, one for each plane of data you want (for example, Y and C<sub>b</sub>C<sub>r</sub>). A **WICBitmapPlane** contains info about the pixel data and points to the memory buffer that will receive the data.
 
-If you want to use the YC<sub>b</sub>C<sub>r</sub> pixel data with other WIC APIs you should create an appropriately configured [**IWICBitmap**](-wic-codec-iwicbitmap.md), call [**Lock**](-wic-codec-iwicbitmap-lock.md) to obtain the underlying memory buffer, and associate the buffer with the [**WICBitmapPlane**](wicbitmapplane.md) used to receive the YC<sub>b</sub>C<sub>r</sub> pixel data. You can then use the [IWICBitmap](-wic-imp-iwicbitmapdecoder.md) normally.
+If you want to use the YC<sub>b</sub>C<sub>r</sub> pixel data with other WIC APIs you should create an appropriately configured [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master), call [**Lock**](/windows/win32/Wincodec/nf-wincodec-iwicbitmap-lock?branch=master) to obtain the underlying memory buffer, and associate the buffer with the [**WICBitmapPlane**](/windows/win32/Wincodec/ns-wincodec-wicbitmapplane?branch=master) used to receive the YC<sub>b</sub>C<sub>r</sub> pixel data. You can then use the [IWICBitmap](-wic-imp-iwicbitmapdecoder.md) normally.
 
-Finally, if you want to render the YC<sub>b</sub>C<sub>r</sub> data in Direct2D, you should create an [**ID2D1Bitmap**](direct2d.ID2D1Bitmap) from each [**IWICBitmap**](-wic-codec-iwicbitmap.md) and use them as source for the YC<sub>b</sub>C<sub>r</sub> image effect. WIC allows you to request multiple planar configurations. When interoperating with Direct2D you should request two planes, one using GUID\_WICPixelFormat8bppY and the other using GUID\_WICPixelFormat16bppCbCr, as this is the configuration expected by Direct2D.
+Finally, if you want to render the YC<sub>b</sub>C<sub>r</sub> data in Direct2D, you should create an [**ID2D1Bitmap**](direct2d.ID2D1Bitmap) from each [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master) and use them as source for the YC<sub>b</sub>C<sub>r</sub> image effect. WIC allows you to request multiple planar configurations. When interoperating with Direct2D you should request two planes, one using GUID\_WICPixelFormat8bppY and the other using GUID\_WICPixelFormat16bppCbCr, as this is the configuration expected by Direct2D.
 
 ### Code Sample
 
@@ -302,7 +307,7 @@ void DirectXSampleRenderer::LockBitmap(
 
 ### Transforming YC<sub>b</sub>C<sub>r</sub> Pixel Data
 
-Transforming YC<sub>b</sub>C<sub>r</sub> data is nearly identical to decoding, as both involve [**IWICPlanarBitmapSourceTransform**](iwicplanarbitmapsourcetransform.md). The only difference is which WIC object you obtained the interface from. The Windows provided scaler, flip rotator and color transform all support YC<sub>b</sub>C<sub>r</sub> access.
+Transforming YC<sub>b</sub>C<sub>r</sub> data is nearly identical to decoding, as both involve [**IWICPlanarBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform?branch=master). The only difference is which WIC object you obtained the interface from. The Windows provided scaler, flip rotator and color transform all support YC<sub>b</sub>C<sub>r</sub> access.
 
 ### Chaining Transforms Together
 
@@ -310,29 +315,29 @@ WIC supports the notion of chaining together multiple transforms. For example, y
 
 ![a diagram of a wic pipeline starting with a jpeg decoder.](graphics/ycbcr5.png)
 
-You can then call QueryInterface on the [**IWICColorTransform**](-wic-codec-iwiccolortransform.md) to obtain [**IWICPlanarBitmapSourceTransform**](iwicplanarbitmapsourcetransform.md). The color transform can communicate with the preceding transforms and can expose the aggregate capabilities of every stage in the pipeline. WIC ensures that the YC<sub>b</sub>C<sub>r</sub> data is preserved through the entire process. This chaining only works when using components that support YC<sub>b</sub>C<sub>r</sub> access.
+You can then call QueryInterface on the [**IWICColorTransform**](/windows/win32/Wincodec/nn-wincodec-iwiccolortransform?branch=master) to obtain [**IWICPlanarBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform?branch=master). The color transform can communicate with the preceding transforms and can expose the aggregate capabilities of every stage in the pipeline. WIC ensures that the YC<sub>b</sub>C<sub>r</sub> data is preserved through the entire process. This chaining only works when using components that support YC<sub>b</sub>C<sub>r</sub> access.
 
 ### JPEG Codec Optimizations
 
-Similar to the JPEG frame decode implementation of [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md), the JPEG frame decode implementation of [**IWICPlanarBitmapSourceTransform**](iwicplanarbitmapsourcetransform.md) supports native JPEG DCT domain scaling and rotation. You can request a power of two downscale or a rotation directly from the JPEG decoder. This typically results in higher quality and performance than using the discrete transforms.
+Similar to the JPEG frame decode implementation of [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master), the JPEG frame decode implementation of [**IWICPlanarBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapsourcetransform?branch=master) supports native JPEG DCT domain scaling and rotation. You can request a power of two downscale or a rotation directly from the JPEG decoder. This typically results in higher quality and performance than using the discrete transforms.
 
 In addition, when you chain one or more WIC transforms after the JPEG decoder, it can leverage native JPEG scaling and rotation to satisfy the aggregate requested operation.
 
 ### Format Conversions
 
-Use [**IWICPlanarFormatConverter**](iwicplanarformatconverter.md) to convert planar YC<sub>b</sub>C<sub>r</sub> pixel data to an interleaved pixel format such as GUID\_WICPixelFormat32bppPBGRA. WIC in Windows 8.1 does not provide the ability to convert to a planar YC<sub>b</sub>C<sub>r</sub> pixel format.
+Use [**IWICPlanarFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicplanarformatconverter?branch=master) to convert planar YC<sub>b</sub>C<sub>r</sub> pixel data to an interleaved pixel format such as GUID\_WICPixelFormat32bppPBGRA. WIC in Windows 8.1 does not provide the ability to convert to a planar YC<sub>b</sub>C<sub>r</sub> pixel format.
 
 ### Encoding YC<sub>b</sub>C<sub>r</sub> Pixel Data
 
-Use [**IWICPlanarBitmapFrameEncode**](iwicplanarbitmapframeencode.md) to encode YC<sub>b</sub>C<sub>r</sub> pixel data to the JPEG encoder. Encoding YC<sub>b</sub>C<sub>r</sub> data **IWICPlanarBitmapFrameEncode** is similar but not identical to encoding interleaved data using [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md). The planar interface only exposes the ability to write planar frame image data, and you should continue to use the frame encode interface to set metadata or a thumbnail and to commit at the end of the operation.
+Use [**IWICPlanarBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapframeencode?branch=master) to encode YC<sub>b</sub>C<sub>r</sub> pixel data to the JPEG encoder. Encoding YC<sub>b</sub>C<sub>r</sub> data **IWICPlanarBitmapFrameEncode** is similar but not identical to encoding interleaved data using [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master). The planar interface only exposes the ability to write planar frame image data, and you should continue to use the frame encode interface to set metadata or a thumbnail and to commit at the end of the operation.
 
 For the typical case, you should follow these steps:
 
-1.  Obtain the [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) as normal. If you want to configure chroma subsampling, set the [**JpegYCrCbSubsampling**](-wic-codec-wicjpegycrcbsubsamplingoption.md) encoder option when creating the frame.
-2.  If you need to set metadata or a thumbnail, do this using [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) as normal.
-3.  QueryInterface for the [**IWICPlanarBitmapFrameEncode**](iwicplanarbitmapframeencode.md).
-4.  Set the YC<sub>b</sub>C<sub>r</sub> pixel data using [**IWICPlanarBitmapFrameEncode::WriteSource**](iwicplanarbitmapframeencode-writesource.md) or [**IWICPlanarBitmapFrameEncode::WritePixels**](iwicplanarbitmapframeencode-writepixels.md). Unlike with their [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) counterparts, you provide these methods with an array of [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) or [**WICBitmapPlane**](wicbitmapplane.md) which contain the YC<sub>b</sub>C<sub>r</sub> pixel planes.
-5.  When you are finished, call [**IWICBitmapFrameEncode::Commit**](-wic-codec-iwicbitmapframeencode-commit.md).
+1.  Obtain the [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) as normal. If you want to configure chroma subsampling, set the [**JpegYCrCbSubsampling**](/windows/win32/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption?branch=master) encoder option when creating the frame.
+2.  If you need to set metadata or a thumbnail, do this using [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) as normal.
+3.  QueryInterface for the [**IWICPlanarBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicplanarbitmapframeencode?branch=master).
+4.  Set the YC<sub>b</sub>C<sub>r</sub> pixel data using [**IWICPlanarBitmapFrameEncode::WriteSource**](/windows/win32/Wincodec/nf-wincodec-iwicplanarbitmapframeencode-writesource?branch=master) or [**IWICPlanarBitmapFrameEncode::WritePixels**](/windows/win32/Wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels?branch=master). Unlike with their [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) counterparts, you provide these methods with an array of [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) or [**WICBitmapPlane**](/windows/win32/Wincodec/ns-wincodec-wicbitmapplane?branch=master) which contain the YC<sub>b</sub>C<sub>r</sub> pixel planes.
+5.  When you are finished, call [**IWICBitmapFrameEncode::Commit**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-commit?branch=master).
 
 ### Decoding YC<sub>b</sub>C<sub>r</sub> pixel data in Windows 10
 

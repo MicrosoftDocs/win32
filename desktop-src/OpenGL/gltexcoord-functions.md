@@ -1,8 +1,21 @@
 ---
 title: glTexCoord Functions
 description: These functions set the current texture coordinates.
-ms.assetid: '71eb39f1-e1ad-4b97-83e0-d2670f5a7545'
-keywords: ["OpenGL,glTexCoord functions", "OpenGL reference,glTexCoord functions", "reference for OpenGL,glTexCoord functions", "glTexCoord functions", "OpenGL,texture functions", "OpenGL reference,texture functions", "reference for OpenGL,texture functions", "texture functions"]
+ms.assetid: 71eb39f1-e1ad-4b97-83e0-d2670f5a7545
+keywords:
+- OpenGL,glTexCoord functions
+- OpenGL reference,glTexCoord functions
+- reference for OpenGL,glTexCoord functions
+- glTexCoord functions
+- OpenGL,texture functions
+- OpenGL reference,texture functions
+- reference for OpenGL,texture functions
+- texture functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexCoord Functions

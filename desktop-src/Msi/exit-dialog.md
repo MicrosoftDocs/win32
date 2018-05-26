@@ -1,7 +1,12 @@
 ---
-Description: 'The Exit dialog box is displayed at the end of a successful installation.'
-ms.assetid: '06cf7f0b-b509-4865-ad8f-321ad2a2ce27'
+Description: The Exit dialog box is displayed at the end of a successful installation.
+ms.assetid: 06cf7f0b-b509-4865-ad8f-321ad2a2ce27
 title: Exit Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exit Dialog

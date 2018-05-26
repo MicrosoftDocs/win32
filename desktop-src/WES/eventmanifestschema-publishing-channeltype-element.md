@@ -1,14 +1,20 @@
 ---
 title: publishing (ChannelType) Element
 description: Defines the logging properties for the session that the channel uses.
-ms.assetid: '032b5888-550b-4771-bd30-3195602811a7'
-keywords: ["publishing element EventLog"]
+ms.assetid: 032b5888-550b-4771-bd30-3195602811a7
+keywords:
+- publishing element EventLog
 topic_type:
 - apiref
 api_name:
 - publishing
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # publishing (ChannelType) Element
@@ -29,8 +35,8 @@ The **publishing** element is defined by the [**ChannelType**](eventmanifestsche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **publishing** element is defined by the [**ChannelType**](eventmanifestsche
 [**channel (ChannelListType)**](eventmanifestschema-channel-channellisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

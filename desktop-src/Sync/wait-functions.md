@@ -1,7 +1,12 @@
 ---
-Description: 'Wait functions allow a thread to block its own execution.'
-ms.assetid: '9c66c71d-fdfd-42ae-895c-2fc842b5bc7a'
+Description: Wait functions allow a thread to block its own execution.
+ms.assetid: 9c66c71d-fdfd-42ae-895c-2fc842b5bc7a
 title: Wait Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wait Functions
@@ -19,21 +24,21 @@ title: Wait Functions
 
 ## Single-object Wait Functions
 
-The [**SignalObjectAndWait**](signalobjectandwait.md), [**WaitForSingleObject**](waitforsingleobject.md), and [**WaitForSingleObjectEx**](waitforsingleobjectex.md) functions require a handle to one synchronization object. These functions return when one of the following occurs:
+The [**SignalObjectAndWait**](/windows/win32/WinBase/nf-winbase-signalobjectandwait?branch=master), [**WaitForSingleObject**](/windows/win32/WinBase/nf-synchapi-waitforsingleobject?branch=master), and [**WaitForSingleObjectEx**](/windows/win32/WinBase/nf-synchapi-waitforsingleobjectex?branch=master) functions require a handle to one synchronization object. These functions return when one of the following occurs:
 
 -   The specified object is in the signaled state.
 -   The time-out interval elapses. The time-out interval can be set to **INFINITE** to specify that the wait will not time out.
 
-The [**SignalObjectAndWait**](signalobjectandwait.md) function enables the calling thread to atomically set the state of an object to signaled and wait for the state of another object to be set to signaled.
+The [**SignalObjectAndWait**](/windows/win32/WinBase/nf-winbase-signalobjectandwait?branch=master) function enables the calling thread to atomically set the state of an object to signaled and wait for the state of another object to be set to signaled.
 
 ## Multiple-object Wait Functions
 
-The [**WaitForMultipleObjects**](waitformultipleobjects.md), [**WaitForMultipleObjectsEx**](waitformultipleobjectsex.md), [**MsgWaitForMultipleObjects**](msgwaitformultipleobjects.md), and [**MsgWaitForMultipleObjectsEx**](msgwaitformultipleobjectsex.md) functions enable the calling thread to specify an array containing one or more synchronization object handles. These functions return when one of the following occurs:
+The [**WaitForMultipleObjects**](/windows/win32/WinBase/wdm-irqlkewaitformultipleobjects?branch=master), [**WaitForMultipleObjectsEx**](/windows/win32/WinBase/nf-synchapi-waitformultipleobjectsex?branch=master), [**MsgWaitForMultipleObjects**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjects?branch=master), and [**MsgWaitForMultipleObjectsEx**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjectsex?branch=master) functions enable the calling thread to specify an array containing one or more synchronization object handles. These functions return when one of the following occurs:
 
 -   The state of any one of the specified objects is set to signaled or the states of all objects have been set to signaled. You control whether one or all of the states will be used in the function call.
 -   The time-out interval elapses. The time-out interval can be set to **INFINITE** to specify that the wait will not time out.
 
-The [**MsgWaitForMultipleObjects**](msgwaitformultipleobjects.md) and [**MsgWaitForMultipleObjectsEx**](msgwaitformultipleobjectsex.md) function allow you to specify input event objects in the object handle array. This is done when you specify the type of input to wait for in the thread's input queue. For example, a thread could use **MsgWaitForMultipleObjects** to block its execution until the state of a specified object has been set to signaled and there is mouse input available in the thread's input queue. The thread can use the [**GetMessage**](_win32_getmessage_cpp) or [**PeekMessage**](_win32_peekmessage_cpp) function to retrieve the input.
+The [**MsgWaitForMultipleObjects**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjects?branch=master) and [**MsgWaitForMultipleObjectsEx**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjectsex?branch=master) function allow you to specify input event objects in the object handle array. This is done when you specify the type of input to wait for in the thread's input queue. For example, a thread could use **MsgWaitForMultipleObjects** to block its execution until the state of a specified object has been set to signaled and there is mouse input available in the thread's input queue. The thread can use the [**GetMessage**](_win32_getmessage_cpp) or [**PeekMessage**](_win32_peekmessage_cpp) function to retrieve the input.
 
 When waiting for the states of all objects to be set to signaled, these multiple-object functions do not modify the states of the specified objects until the states of all objects have been set signaled. For example, the state of a mutex object can be signaled, but the calling thread does not get ownership until the states of the other objects specified in the array have also been set to signaled. In the meantime, some other thread may get ownership of the mutex object, thereby setting its state to nonsignaled.
 
@@ -41,21 +46,21 @@ When waiting for the state of a single object to be set to signaled, these multi
 
 ## Alertable Wait Functions
 
-The [**MsgWaitForMultipleObjectsEx**](msgwaitformultipleobjectsex.md), [**SignalObjectAndWait**](signalobjectandwait.md), [**WaitForMultipleObjectsEx**](waitformultipleobjectsex.md), and [**WaitForSingleObjectEx**](waitforsingleobjectex.md) functions differ from the other wait functions in that they can optionally perform an *alertable wait operation*. In an alertable wait operation, the function can return when the specified conditions are met, but it can also return if the system queues an I/O completion routine or an APC for execution by the waiting thread. For more information about alertable wait operations and I/O completion routines, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md). For more information about APCs, see [Asynchronous Procedure Calls](asynchronous-procedure-calls.md).
+The [**MsgWaitForMultipleObjectsEx**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjectsex?branch=master), [**SignalObjectAndWait**](/windows/win32/WinBase/nf-winbase-signalobjectandwait?branch=master), [**WaitForMultipleObjectsEx**](/windows/win32/WinBase/nf-synchapi-waitformultipleobjectsex?branch=master), and [**WaitForSingleObjectEx**](/windows/win32/WinBase/nf-synchapi-waitforsingleobjectex?branch=master) functions differ from the other wait functions in that they can optionally perform an *alertable wait operation*. In an alertable wait operation, the function can return when the specified conditions are met, but it can also return if the system queues an I/O completion routine or an APC for execution by the waiting thread. For more information about alertable wait operations and I/O completion routines, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md). For more information about APCs, see [Asynchronous Procedure Calls](asynchronous-procedure-calls.md).
 
 ## Registered Wait Functions
 
-The [**RegisterWaitForSingleObject**](registerwaitforsingleobject.md) function differs from the other wait functions in that the wait operation is performed by a thread from the [thread pool](base.thread_pooling). When the specified conditions are met, the callback function is executed by a worker thread from the thread pool.
+The [**RegisterWaitForSingleObject**](/windows/win32/WinBase/nf-winbase-registerwaitforsingleobject?branch=master) function differs from the other wait functions in that the wait operation is performed by a thread from the [thread pool](base.thread_pooling). When the specified conditions are met, the callback function is executed by a worker thread from the thread pool.
 
-By default, a registered wait operation is a multiple-wait operation. The system resets the timer every time the event is signaled (or the time-out interval elapses) until you call the [**UnregisterWaitEx**](unregisterwaitex.md) function to cancel the operation. To specify that a wait operation should be executed only once, set the *dwFlags* parameter of [**RegisterWaitForSingleObject**](registerwaitforsingleobject.md) to **WT\_EXECUTEONLYONCE**.
+By default, a registered wait operation is a multiple-wait operation. The system resets the timer every time the event is signaled (or the time-out interval elapses) until you call the [**UnregisterWaitEx**](unregisterwaitex.md) function to cancel the operation. To specify that a wait operation should be executed only once, set the *dwFlags* parameter of [**RegisterWaitForSingleObject**](/windows/win32/WinBase/nf-winbase-registerwaitforsingleobject?branch=master) to **WT\_EXECUTEONLYONCE**.
 
-If the thread calls functions that use APCs, set the *dwFlags* parameter of [**RegisterWaitForSingleObject**](registerwaitforsingleobject.md) to **WT\_EXECUTEINPERSISTENTTHREAD**.
+If the thread calls functions that use APCs, set the *dwFlags* parameter of [**RegisterWaitForSingleObject**](/windows/win32/WinBase/nf-winbase-registerwaitforsingleobject?branch=master) to **WT\_EXECUTEINPERSISTENTTHREAD**.
 
 ## Waiting on an Address
 
-A thread can use the [**WaitOnAddress**](waitonaddress.md) function to wait for the value of a target address to change from some undesired value to any other value. This enables threads to wait for a value to change without having to spin or handle the synchronization problems that can arise when the thread captures an undesired value but the value changes before the thread can wait.
+A thread can use the [**WaitOnAddress**](/windows/win32/SynchAPI/nf-synchapi-waitonaddress?branch=master) function to wait for the value of a target address to change from some undesired value to any other value. This enables threads to wait for a value to change without having to spin or handle the synchronization problems that can arise when the thread captures an undesired value but the value changes before the thread can wait.
 
-[**WaitOnAddress**](waitonaddress.md) returns when code that modifies the target value signals the change by calling [**WakeByAddressSingle**](wakebyaddresssingle.md) to wake a single waiting thread or [**WakeByAddressAll**](wakebyaddressall.md) to wake all waiting threads. If a time-out interval is specified with **WaitOnAddress** and no thread calls a wake function, the function returns when the time-out interval elapses. If no time-out interval is specified, the thread waits indefinitely.
+[**WaitOnAddress**](/windows/win32/SynchAPI/nf-synchapi-waitonaddress?branch=master) returns when code that modifies the target value signals the change by calling [**WakeByAddressSingle**](/windows/win32/SynchAPI/nf-synchapi-wakebyaddresssingle?branch=master) to wake a single waiting thread or [**WakeByAddressAll**](/windows/win32/SynchAPI/nf-synchapi-wakebyaddressall?branch=master) to wake all waiting threads. If a time-out interval is specified with **WaitOnAddress** and no thread calls a wake function, the function returns when the time-out interval elapses. If no time-out interval is specified, the thread waits indefinitely.
 
 ## Wait Functions and Time-out Intervals
 
@@ -74,7 +79,7 @@ The wait functions can modify the states of some types of [synchronization objec
 
 ## Wait Functions and Creating Windows
 
-You have to be careful when using the wait functions and code that directly or indirectly creates windows. If a thread creates any windows, it must process messages. Message broadcasts are sent to all windows in the system. If you have a thread that uses a wait function with no time-out interval, the system will deadlock. Two examples of code that indirectly creates windows are DDE and the **CoInitialize** function. Therefore, if you have a thread that creates windows, use [**MsgWaitForMultipleObjects**](msgwaitformultipleobjects.md) or [**MsgWaitForMultipleObjectsEx**](msgwaitformultipleobjectsex.md), rather than the other wait functions.
+You have to be careful when using the wait functions and code that directly or indirectly creates windows. If a thread creates any windows, it must process messages. Message broadcasts are sent to all windows in the system. If you have a thread that uses a wait function with no time-out interval, the system will deadlock. Two examples of code that indirectly creates windows are DDE and the **CoInitialize** function. Therefore, if you have a thread that creates windows, use [**MsgWaitForMultipleObjects**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjects?branch=master) or [**MsgWaitForMultipleObjectsEx**](/windows/win32/Winuser/nf-winuser-msgwaitformultipleobjectsex?branch=master), rather than the other wait functions.
 
  
 

@@ -1,16 +1,21 @@
 ---
 Description: Enumerating and Freeing Services
-ms.assetid: '526e51c7-9ff2-4590-b092-172f4942ce8e'
+ms.assetid: 526e51c7-9ff2-4590-b092-172f4942ce8e
 title: Enumerating and Freeing Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating and Freeing Services
 
-The ELS application calls the [**MappingGetServices**](mappinggetservices.md) function to determine the services that are available on the operating system. The function can be used either to enumerate all available ELS services, or to filter the services based on application-provided search criteria. When services are no longer needed, the application calls [**MappingFreeServices**](mappingfreeservices.md).
+The ELS application calls the [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master) function to determine the services that are available on the operating system. The function can be used either to enumerate all available ELS services, or to filter the services based on application-provided search criteria. When services are no longer needed, the application calls [**MappingFreeServices**](/windows/win32/Elscore/nf-elscore-mappingfreeservices?branch=master).
 
 ## Get All Supported Services
 
-This code example illustrates the use of [**MappingGetServices**](mappinggetservices.md) and [**MappingFreeServices**](mappingfreeservices.md) to enumerate and then free all available services on the operating system. To do this, the application passes **NULL** for the *pOptions* parameter of **MappingGetServices**.
+This code example illustrates the use of [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master) and [**MappingFreeServices**](/windows/win32/Elscore/nf-elscore-mappingfreeservices?branch=master) to enumerate and then free all available services on the operating system. To do this, the application passes **NULL** for the *pOptions* parameter of **MappingGetServices**.
 
 
 ```C++
@@ -47,7 +52,7 @@ int __cdecl main()
 
 ## Get Specific Services
 
-The next example illustrates the use of [**MappingGetServices**](mappinggetservices.md) and [**MappingFreeServices**](mappingfreeservices.md) to enumerate and then free all services of category "Language Detection". For more information about this service category, see [**Microsoft Language Detection**](microsoft-language-detection.md).
+The next example illustrates the use of [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master) and [**MappingFreeServices**](/windows/win32/Elscore/nf-elscore-mappingfreeservices?branch=master) to enumerate and then free all services of category "Language Detection". For more information about this service category, see [**Microsoft Language Detection**](microsoft-language-detection.md).
 
 
 ```C++
@@ -97,10 +102,10 @@ int __cdecl main()
 [Using Extended Linguistic Services](using-extended-linguistic-services.md)
 </dt> <dt>
 
-[**MappingFreeServices**](mappingfreeservices.md)
+[**MappingFreeServices**](/windows/win32/Elscore/nf-elscore-mappingfreeservices?branch=master)
 </dt> <dt>
 
-[**MappingGetServices**](mappinggetservices.md)
+[**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master)
 </dt> </dl>
 
  

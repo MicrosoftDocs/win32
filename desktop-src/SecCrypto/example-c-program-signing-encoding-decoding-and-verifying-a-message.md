@@ -1,7 +1,12 @@
 ---
-Description: 'The following example combines signing and encoding a message, and decoding a signed message and verifying the signature.'
-ms.assetid: '2cad11a8-75ad-4726-a7bb-82870b71c721'
-title: 'Example C Program: Signing, Encoding, Decoding, and Verifying a Message'
+Description: The following example combines signing and encoding a message, and decoding a signed message and verifying the signature.
+ms.assetid: 2cad11a8-75ad-4726-a7bb-82870b71c721
+title: Example C Program Signing, Encoding, Decoding, and Verifying a Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Signing, Encoding, Decoding, and Verifying a Message
@@ -12,20 +17,20 @@ Signing and encoding a message does not ensure privacy for that message. Rather 
 
 This example illustrates the following tasks and CryptoAPI functions for encoding a message:
 
--   Opening a certificate store using [**CertOpenStore**](certopenstore.md).
--   Retrieving a certificate with a specific subject name using [**CertFindCertificateInStore**](certfindcertificateinstore.md).
--   Getting and printing a certificate's subject name using [**CertGetNameString**](certgetnamestring.md).
--   Initializing a [**CRYPT\_SIGN\_MESSAGE\_PARA**](crypt-sign-message-para.md) structure to be used in a call to [**CryptSignMessage**](cryptsignmessage.md).
--   Signing and encoding a message with [**CryptSignMessage**](cryptsignmessage.md).
+-   Opening a certificate store using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master).
+-   Retrieving a certificate with a specific subject name using [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master).
+-   Getting and printing a certificate's subject name using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   Initializing a [**CRYPT\_SIGN\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_sign_message_para?branch=master) structure to be used in a call to [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master).
+-   Signing and encoding a message with [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master).
 
 This example illustrates the following tasks and CryptoAPI functions for decoding a message and verifying the signature:
 
--   Opening a message for decoding with [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md).
--   Adding the encoded [*BLOB*](security.b_gly#-security-blob-gly) to the message to be decoded by using [**CryptMsgUpdate**](cryptmsgupdate.md).
--   Decoding the message using [**CryptMsgGetParam**](cryptmsggetparam.md).
--   Opening a certificate store in memory with [**CertOpenStore**](certopenstore.md) using the message received and decoded.
--   Using [**CertGetSubjectCertificateFromStore**](certgetsubjectcertificatefromstore.md) to get the certificate of the message's signer.
--   Verifying a message's signature using [**CryptMsgControl**](cryptmsgcontrol.md).
+-   Opening a message for decoding with [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master).
+-   Adding the encoded [*BLOB*](security.b_gly#-security-blob-gly) to the message to be decoded by using [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master).
+-   Decoding the message using [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master).
+-   Opening a certificate store in memory with [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master) using the message received and decoded.
+-   Using [**CertGetSubjectCertificateFromStore**](/windows/win32/Wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore?branch=master) to get the certificate of the message's signer.
+-   Verifying a message's signature using [**CryptMsgControl**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcontrol?branch=master).
 -   Freeing memory, closing [*certificate stores*](security.c_gly#-security-certificate-store-gly), and freeing [*certificate context*](security.c_gly#-security-certificate-context-gly).
 
 For an example of how to perform these similar operations using a stream callback, see [Example C Program: Encoding and Decoding a Message Using a Stream](example-c-program--encoding-and-decoding-a-message-using-a-stream.md).

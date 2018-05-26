@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a 4-byte array that contains four 8-bit ASCII values of space, A-Z, or a-z to identify OpenType script, language, and font feature tags.'
-ms.assetid: '188ad9a1-e0eb-411f-b6df-8c394d122d6f'
-title: 'OPENTYPE\_TAG'
+---
+Description: Defines a 4-byte array that contains four 8-bit ASCII values of space, A-Z, or a-z to identify OpenType script, language, and font feature tags.
+ms.assetid: 188ad9a1-e0eb-411f-b6df-8c394d122d6f
+title: OPENTYPE\_TAG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPENTYPE\_TAG
@@ -48,31 +53,31 @@ For more information on OpenType feature tags and the OpenType specification, se
 [Uniscribe Structures](uniscribe-structures.md)
 </dt> <dt>
 
-[**ScriptGetFontAlternateGlyphs**](scriptgetfontalternateglyphs.md)
+[**ScriptGetFontAlternateGlyphs**](/windows/win32/Usp10/nf-usp10-scriptgetfontalternateglyphs?branch=master)
 </dt> <dt>
 
-[**ScriptGetFontFeatureTags**](scriptgetfontfeaturetags.md)
+[**ScriptGetFontFeatureTags**](/windows/win32/Usp10/nf-usp10-scriptgetfontfeaturetags?branch=master)
 </dt> <dt>
 
-[**ScriptGetFontLanguageTags**](scriptgetfontlanguagetags.md)
+[**ScriptGetFontLanguageTags**](/windows/win32/Usp10/nf-usp10-scriptgetfontlanguagetags?branch=master)
 </dt> <dt>
 
-[**ScriptGetFontScriptTags**](scriptgetfontscripttags.md)
+[**ScriptGetFontScriptTags**](/windows/win32/Usp10/nf-usp10-scriptgetfontscripttags?branch=master)
 </dt> <dt>
 
-[**ScriptItemizeOpenType**](scriptitemizeopentype.md)
+[**ScriptItemizeOpenType**](/windows/win32/usp10/nf-usp10-scriptitemizeopentype?branch=master)
 </dt> <dt>
 
-[**ScriptPlaceOpenType**](scriptplaceopentype.md)
+[**ScriptPlaceOpenType**](/windows/win32/Usp10/nf-usp10-scriptplaceopentype?branch=master)
 </dt> <dt>
 
-[**ScriptPositionSingleGlyph**](scriptpositionsingleglyph.md)
+[**ScriptPositionSingleGlyph**](/windows/win32/Usp10/nf-usp10-scriptpositionsingleglyph?branch=master)
 </dt> <dt>
 
-[**ScriptShapeOpenType**](scriptshapeopentype.md)
+[**ScriptShapeOpenType**](/windows/win32/Usp10/nf-usp10-scriptshapeopentype?branch=master)
 </dt> <dt>
 
-[**ScriptSubstituteSingleGlyph**](scriptsubstitutesingleglyph.md)
+[**ScriptSubstituteSingleGlyph**](/windows/win32/Usp10/nf-usp10-scriptsubstitutesingleglyph?branch=master)
 </dt> </dl>
 
  

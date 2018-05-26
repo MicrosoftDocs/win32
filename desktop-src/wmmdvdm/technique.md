@@ -1,14 +1,20 @@
 ---
 title: Technique element
 description: Specifies the effect technique that the specified button will use.
-ms.assetid: 'efed6130-06e8-45c7-a1ca-3d4e85dfad52'
-keywords: ["Technique element Windows Movie Maker and DVD Maker"]
+ms.assetid: efed6130-06e8-45c7-a1ca-3d4e85dfad52
+keywords:
+- Technique element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Technique
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Technique element
@@ -51,7 +57,7 @@ This element is required within each **DVDButton** element.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ This element is required within each **DVDButton** element.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

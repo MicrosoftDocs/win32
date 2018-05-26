@@ -1,14 +1,20 @@
 ---
 title: TEXT.cursor
 description: The cursor attribute specifies or retrieves a value indicating which cursor appears when the mouse is over the Text control.
-ms.assetid: '360d4ed1-9c4f-4210-8e77-2dfbe7573869'
-keywords: ["TEXT.cursor Windows Media Player"]
+ms.assetid: 360d4ed1-9c4f-4210-8e77-2dfbe7573869
+keywords:
+- TEXT.cursor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.cursor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.cursor
@@ -40,7 +46,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 See the [value](text-value.md) attribute for a sample illustrating how the attributes of the **TEXT** element are used.
 
@@ -61,9 +67,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT Element**](text-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

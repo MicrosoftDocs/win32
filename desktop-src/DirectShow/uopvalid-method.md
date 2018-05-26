@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UOPValid method retrieves a value that indicates whether the specified user operation (UOP) is currently valid.'
-ms.assetid: '0d2c4693-95eb-4cc8-a8f6-61fd0b6d57be'
+---
+Description: The UOPValid method retrieves a value that indicates whether the specified user operation (UOP) is currently valid.
+ms.assetid: 0d2c4693-95eb-4cc8-a8f6-61fd0b6d57be
 title: UOPValid Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UOPValid Method

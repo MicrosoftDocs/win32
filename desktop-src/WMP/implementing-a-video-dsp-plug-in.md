@@ -1,8 +1,23 @@
 ---
 title: Implementing a Video DSP Plug-in
 description: Implementing a Video DSP Plug-in
-ms.assetid: '36c06c57-7623-430b-8280-9dba7b0a2e9b'
-keywords: ["Windows Media Player plug-ins,video DSP", "plug-ins,video DSP", "digital signal processing plug-ins,implementing code", "DSP plug-ins,implementing code", "digital signal processing plug-ins,modifying sample code", "DSP plug-ins,modifying sample code", "digital signal processing plug-ins,video implementation", "DSP plug-ins,video implementation", "video DSP plug-ins,implementing code", "video DSP plug-ins,modifying sample code"]
+ms.assetid: 36c06c57-7623-430b-8280-9dba7b0a2e9b
+keywords:
+- Windows Media Player plug-ins,video DSP
+- plug-ins,video DSP
+- digital signal processing plug-ins,implementing code
+- DSP plug-ins,implementing code
+- digital signal processing plug-ins,modifying sample code
+- DSP plug-ins,modifying sample code
+- digital signal processing plug-ins,video implementation
+- DSP plug-ins,video implementation
+- video DSP plug-ins,implementing code
+- video DSP plug-ins,modifying sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Video DSP Plug-in

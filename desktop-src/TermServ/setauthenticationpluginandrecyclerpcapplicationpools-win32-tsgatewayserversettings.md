@@ -1,14 +1,17 @@
 ---
 title: SetAuthenticationPluginAndRecycleRpcApplicationPools method of the Win32\_TSGatewayServerSettings class
-description: Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server and recycles the RPC application pools in IIS.
+description: Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server and recycles the RPC application pools in IIS.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cdceaf50-3d0a-4af0-9ad5-fb43760fcf7b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cdceaf50-3d0a-4af0-9ad5-fb43760fcf7b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetAuthenticationPluginAndRecycleRpcApplicationPools method Remote Desktop Services", "SetAuthenticationPluginAndRecycleRpcApplicationPools method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , SetAuthenticationPluginAndRecycleRpcApplicationPools method"]
+keywords:
+- SetAuthenticationPluginAndRecycleRpcApplicationPools method Remote Desktop Services
+- SetAuthenticationPluginAndRecycleRpcApplicationPools method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , SetAuthenticationPluginAndRecycleRpcApplicationPools method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetAuthenticationPluginAndRecycleRpcApplicationPools method of the Win32\_TSGatewayServerSettings class
 
-Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server and recycles the RPC application pools in IIS.
+Sets the current authentication plug-in for the Remote Desktop Gateway (RD Gateway) server and recycles the RPC application pools in IIS.
 
 This method is equivalent to calling the [**SetAuthenticationPlugin**](setauthenticationplugin-win32-tsgatewayserversettings.md) and [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md) methods in sequence.
 
@@ -30,7 +36,7 @@ This method is equivalent to calling the [**SetAuthenticationPlugin**](setauthen
 
 ```mof
 uint32 SetAuthenticationPluginAndRecycleRpcApplicationPools(
-  [in] string PluginName
+  [in] string PluginName
 );
 ```
 
@@ -70,7 +76,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -90,9 +96,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

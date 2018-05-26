@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for process events. The following syntax is simplified from MOF code.'
-ms.assetid: 'e517cd2d-5870-4666-93e9-6870b2f4a447'
-title: 'Process\_V1 class'
+---
+Description: This class is the parent class for process events. The following syntax is simplified from MOF code.
+ms.assetid: e517cd2d-5870-4666-93e9-6870b2f4a447
+title: Process\_V1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process\_V1 class

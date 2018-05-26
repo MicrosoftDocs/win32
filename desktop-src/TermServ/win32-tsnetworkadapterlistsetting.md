@@ -4,11 +4,13 @@ description: Enumerates the list of network adapters that can be configured for 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'affe440a-1a7b-49be-a4aa-d792811c59ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: affe440a-1a7b-49be-a4aa-d792811c59ea
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSNetworkAdapterListSetting class Remote Desktop Services", "Win32_TSNetworkAdapterListSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSNetworkAdapterListSetting class Remote Desktop Services
+- Win32_TSNetworkAdapterListSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSNetworkAdapterListSetting class
@@ -39,14 +44,14 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, overwrite, provider("Win32_WIN32_TSNETWORKADAPTERLISTSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSNetworkAdapterListSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  string   NetworkAdapterID;
-  string   NetworkAdapterIP;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  string   NetworkAdapterID;
+  string   NetworkAdapterIP;
 };
 ```
 
@@ -269,8 +274,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -287,9 +292,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSNetworkAdapterSetting**](win32-tsnetworkadaptersetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

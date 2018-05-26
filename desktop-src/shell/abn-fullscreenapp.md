@@ -1,6 +1,11 @@
 ---
-Description: 'Notifies an appbar when a full-screen application is opening or closing. This notification is sent in the form of an application-defined message that is set by the ABM\_NEW message.'
-title: 'ABN\_FULLSCREENAPP message'
+Description: Notifies an appbar when a full-screen application is opening or closing. This notification is sent in the form of an application-defined message that is set by the ABM\_NEW message.
+title: ABN\_FULLSCREENAPP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABN\_FULLSCREENAPP message
@@ -44,15 +49,15 @@ When a full-screen application is opening, an appbar must drop to the bottom of 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Shellapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

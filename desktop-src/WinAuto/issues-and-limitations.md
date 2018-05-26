@@ -1,7 +1,12 @@
 ---
 title: Issues and Limitations
 description: This section describes the issues and limitations that you should consider before using Dynamic Annotation.
-ms.assetid: '906054a1-3627-4cac-8baf-f3543226f2d8'
+ms.assetid: 906054a1-3627-4cac-8baf-f3543226f2d8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issues and Limitations

@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr CloseGlobalPort method
 description: The CloseGlobalPort method modifies the global firewall configuration to disallow inbound connection attempts for the specified port and protocol.
-ms.assetid: '8b899fec-a111-4937-a7be-0f35b7d4b79c'
-keywords: ["CloseGlobalPort method ICS/ICF", "CloseGlobalPort method ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , CloseGlobalPort method"]
+ms.assetid: 8b899fec-a111-4937-a7be-0f35b7d4b79c
+keywords:
+- CloseGlobalPort method ICS/ICF
+- CloseGlobalPort method ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , CloseGlobalPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::CloseGlobalPort method
@@ -24,8 +32,8 @@ The [**CloseGlobalPort**](inetfwv6mgr-openglobalport.md) method modifies the glo
 
 ```C++
 HRESULT CloseGlobalPort(
-  [in] USHORT        usPort,
-  [in] PORT_PROTOCOL Protocol
+  [in] USHORT        usPort,
+  [in] PORT_PROTOCOL Protocol
 );
 ```
 
@@ -38,7 +46,7 @@ HRESULT CloseGlobalPort(
 *usPort* \[in\]
 </dt> <dd>
 
-Defines port ID, in host byte order. Must be in the range 1 – 65535.
+Defines port ID, in host byte order. Must be in the range 1   65535.
 
 </dd> <dt>
 
@@ -69,7 +77,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,10 +91,10 @@ Calling [**CloseGlobalPort**](inetfwv6mgr-openglobalport.md) does not guarantee 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -99,9 +107,9 @@ Calling [**CloseGlobalPort**](inetfwv6mgr-openglobalport.md) does not guarantee 
 [**INetFwV6Mgr**](inetfwv6mgr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: The list of top quota users currently in the directory database, or
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c52db8c8-233c-495f-b3fe-edbe1d723677'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c52db8c8-233c-495f-b3fe-edbe1d723677
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Top-Quota-Usage attribute AD Schema", "msDS-TopQuotaUsage attribute AD Schema"]
+keywords:
+- ms-DS-Top-Quota-Usage attribute AD Schema
+- msDS-TopQuotaUsage attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Top-Quota-Usage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Top-Quota-Usage attribute
@@ -38,12 +43,12 @@ The list of top quota users currently in the directory database, ordered by decr
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ The list of top quota users currently in the directory database, ordered by decr
 
 
 
- 
+ 
 
- 
+ 
 
 
 

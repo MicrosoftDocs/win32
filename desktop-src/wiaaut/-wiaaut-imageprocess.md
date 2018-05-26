@@ -1,8 +1,10 @@
 ---
 title: ImageProcess object
 description: Manages the Filter chain. An ImageProcess object can be created using \ 0034;WIA.ImageProcess \ 0034; as the ProgID in a call to CreateObject.
-ms.assetid: '98594336-34d1-4184-a1a4-fbdb71c17f00'
-keywords: ["ImageProcess object WIA Automation", "ImageProcess object WIA Automation , described"]
+ms.assetid: 98594336-34d1-4184-a1a4-fbdb71c17f00
+keywords:
+- ImageProcess object WIA Automation
+- ImageProcess object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageProcess object
@@ -36,7 +43,7 @@ The **ImageProcess** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -51,7 +58,7 @@ The **ImageProcess** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,8 +72,8 @@ For example code, see [Convert Filter: Create a Compressed JPEG File from Anothe
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -79,9 +86,9 @@ For example code, see [Convert Filter: Create a Compressed JPEG File from Anothe
 [**Apply**](-wiaaut-iimageprocess-apply.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

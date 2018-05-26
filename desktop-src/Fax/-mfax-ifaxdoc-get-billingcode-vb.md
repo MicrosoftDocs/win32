@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the BillingCode property of a FaxDoc object. The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax transmission.'
-ms.assetid: 'c451f98e-7e9d-4dec-a534-663d8b36ce1c'
-title: 'FaxDoc.BillingCode property'
+---
+Description: Sets or retrieves the BillingCode property of a FaxDoc object. The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax transmission.
+ms.assetid: c451f98e-7e9d-4dec-a534-663d8b36ce1c
+title: FaxDoc.BillingCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.BillingCode property
@@ -55,7 +60,7 @@ The **get\_BillingCode** method allocates the memory required for the buffer poi
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

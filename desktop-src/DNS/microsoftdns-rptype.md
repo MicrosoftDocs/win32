@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_RPType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Responsible Person (RP) record.
-ms.assetid: '2b1c1bbc-a69f-4480-a7f2-6420240d4ad8'
-keywords: ["MicrosoftDNS_RPType class DNS", "MicrosoftDNS_RPType class DNS , described"]
+ms.assetid: 2b1c1bbc-a69f-4480-a7f2-6420240d4ad8
+keywords:
+- MicrosoftDNS_RPType class DNS
+- MicrosoftDNS_RPType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_RPType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_RPType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ FQDN for which TXT Resource Records exist.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ FQDN for which TXT Resource Records exist.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

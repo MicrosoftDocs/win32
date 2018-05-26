@@ -4,10 +4,13 @@ description: To access an Active Directory object, you must find a Windows domai
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '07dc8bdb-700d-4f83-970c-7cb50267796c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 07dc8bdb-700d-4f83-970c-7cb50267796c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing an Active Directory User Object

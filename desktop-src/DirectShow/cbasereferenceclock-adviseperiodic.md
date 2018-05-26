@@ -1,22 +1,27 @@
 ---
-Description: 'The AdvisePeriodic method creates a periodic advise request. This method implements the IReferenceClock::AdvisePeriodic method.'
-ms.assetid: 'ddaf0861-df11-4008-8e9c-a0c53929cd3f'
-title: 'CBaseReferenceClock.AdvisePeriodic method'
+Description: The AdvisePeriodic method creates a periodic advise request. This method implements the IReferenceClockAdvisePeriodic method.
+ms.assetid: ddaf0861-df11-4008-8e9c-a0c53929cd3f
+title: CBaseReferenceClock.AdvisePeriodic method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.AdvisePeriodic method
 
-The `AdvisePeriodic` method creates a periodic advise request. This method implements the [**IReferenceClock::AdvisePeriodic**](ireferenceclock-adviseperiodic.md) method.
+The `AdvisePeriodic` method creates a periodic advise request. This method implements the [**IReferenceClock::AdvisePeriodic**](/windows/win32/Strmif/nf-strmif-ireferenceclock-adviseperiodic?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT AdvisePeriodic(
-   REFERENCE_TIME StartTime,
-   REFERENCE_TIME PeriodTime,
-   HSEMAPHORE     hSemaphore,
-   DWORD_PTR      *pdwAdviseToken
+   REFERENCE_TIME StartTime,
+   REFERENCE_TIME PeriodTime,
+   HSEMAPHORE     hSemaphore,
+   DWORD_PTR      *pdwAdviseToken
 );
 ```
 
@@ -69,7 +74,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,9 +98,9 @@ At each notification time, the clock releases the semaphore specified in the *hS
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings GatewayUserSelectedCredsSource property
-description: Sets or retrieves the user-specified Remote Desktop Gateway (RD Gateway) credential source.
+description: Sets or retrieves the user-specified Remote Desktop Gateway (RD Gateway) credential source.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0c12ddf6-52c2-40a2-af2b-effd4e8bbdb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0c12ddf6-52c2-40a2-af2b-effd4e8bbdb6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayUserSelectedCredsSource property Remote Desktop Services", "GatewayUserSelectedCredsSource property Remote Desktop Services , IMsRdpClientTransportSettings interface", "IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayUserSelectedCredsSource property"]
+keywords:
+- GatewayUserSelectedCredsSource property Remote Desktop Services
+- GatewayUserSelectedCredsSource property Remote Desktop Services , IMsRdpClientTransportSettings interface
+- IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayUserSelectedCredsSource property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings::GatewayUserSelectedCredsSource property
 
-Sets or retrieves the user-specified Remote Desktop Gateway (RD Gateway) credential source.
+Sets or retrieves the user-specified Remote Desktop Gateway (RD Gateway) credential source.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayUserSelectedCredsSource(
-  [in]  ULONG ulProxyCredsSource
+  [in]  ULONG ulProxyCredsSource
 );
 
 HRESULT get_GatewayUserSelectedCredsSource(
-  [out] ULONG *pulProxyCredsSource
+  [out] ULONG *pulProxyCredsSource
 );
 ```
 
@@ -44,7 +50,7 @@ HRESULT get_GatewayUserSelectedCredsSource(
 
 ## Property value
 
-A **ULONG** variable that specifies the RD Gateway authentication method. This parameter can be one of the following values.
+A **ULONG** variable that specifies the RD Gateway authentication method. This parameter can be one of the following values.
 
 <dt>
 
@@ -55,7 +61,7 @@ A **ULONG** variable that specifies the RD Gateway authentication method. This p
 
 </dt> <dd>
 
-Use a password (NTLM) as the authentication method for RD Gateway.
+Use a password (NTLM) as the authentication method for RD Gateway.
 
 </dd> <dt>
 
@@ -66,7 +72,7 @@ Use a password (NTLM) as the authentication method for RD Gateway.
 
 </dt> <dd>
 
-Use a smart card as the authentication method for RD Gateway.
+Use a smart card as the authentication method for RD Gateway.
 
 </dd> <dt>
 
@@ -77,7 +83,7 @@ Use a smart card as the authentication method for RD Gateway.
 
 </dt> <dd>
 
-Use any authentication method for RD Gateway.
+Use any authentication method for RD Gateway.
 
 </dd> </dl>
 
@@ -91,8 +97,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings is defined as 720298C0-A099-46f5-9F82-96921BAE4701<br/> |
@@ -106,9 +112,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings**](imsrdpclienttransportsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the DiagnosticTraceTransfer event.'
+---
+Description: The event type class for the DiagnosticTraceTransfer event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '65d55198-4ae8-496b-b57d-f28a3a3460f9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 65d55198-4ae8-496b-b57d-f28a3a3460f9
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetModuleDiagTransferEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetModuleDiagTransferEvent class

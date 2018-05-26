@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DATA\_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).'
-ms.assetid: '8c7b6d2f-d2d9-49a5-8137-13d71dfd2611'
-title: 'DATA\_HEADER structure'
+---
+Description: The DATA\_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
+ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
+title: DATA\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DATA\_HEADER structure

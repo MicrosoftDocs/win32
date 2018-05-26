@@ -1,8 +1,14 @@
 ---
 title: Common Commands for NetShell Helper Administration
 description: To provide a common experience for NetShell users, certain commands should be common among NetShell contexts.
-ms.assetid: '190ec65a-ef13-489f-a7cb-83332f64f232'
-keywords: ["helper NetSh , command syntax, helper administration"]
+ms.assetid: 190ec65a-ef13-489f-a7cb-83332f64f232
+keywords:
+- helper NetSh , command syntax, helper administration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Commands for NetShell Helper Administration

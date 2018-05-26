@@ -1,7 +1,12 @@
 ---
 title: Create a Help Web Site
 description: Create a Help Web Site
-ms.assetid: '73BEE45E-42C5-43d3-B77A-79BC0E91BCA5'
+ms.assetid: 73BEE45E-42C5-43d3-B77A-79BC0E91BCA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Help Web Site

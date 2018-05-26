@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an Automation SAFEARRAY of unsigned characters (bytes).'
-ms.assetid: '67cc8cd1-95be-4498-ac25-6c418089af27'
-title: 'ISCardTypeConv::CreateSafeArray method'
+---
+Description: Creates an Automation SAFEARRAY of unsigned characters (bytes).
+ms.assetid: 67cc8cd1-95be-4498-ac25-6c418089af27
+title: ISCardTypeConvCreateSafeArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardTypeConv::CreateSafeArray method

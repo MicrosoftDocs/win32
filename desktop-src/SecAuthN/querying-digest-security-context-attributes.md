@@ -1,12 +1,17 @@
 ---
-Description: 'The QueryContextAttributes (Digest) function provides information about the current settings of a security context.'
-ms.assetid: '36863f1d-ed4e-40ec-8831-1f8b9918f2d8'
+Description: The QueryContextAttributes (Digest) function provides information about the current settings of a security context.
+ms.assetid: 36863f1d-ed4e-40ec-8831-1f8b9918f2d8
 title: Querying Digest Security Context Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying Digest Security Context Attributes
 
-The [**QueryContextAttributes (Digest)**](querycontextattributes--digest-.md) function provides information about the current settings of a [*security context*](security.s_gly#-security-security-context-gly).
+The [**QueryContextAttributes (Digest)**](/windows/win32/Sspi/?branch=master) function provides information about the current settings of a [*security context*](security.s_gly#-security-security-context-gly).
 
 Microsoft Digest supports querying the following security context attributes.
 

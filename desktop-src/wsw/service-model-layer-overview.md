@@ -1,8 +1,16 @@
 ---
 title: Service Model Layer Overview
 description: The WWSAPI Service Model API models the communication between a client and a service as method calls, rather than as data messages.
-ms.assetid: 'a1ed1e3c-94ae-4383-9251-83caf2e3ebf3'
-keywords: ["Service Model Layer Overview Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: a1ed1e3c-94ae-4383-9251-83caf2e3ebf3
+keywords:
+- Service Model Layer Overview Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Model Layer Overview

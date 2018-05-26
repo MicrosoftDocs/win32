@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the size of the video access units, in bytes. This property applies only to variable bit rate (VBR) control modes.'
-ms.assetid: 'bb46b171-d70a-4e01-88c4-321a210a0220'
+Description: Specifies the size of the video access units, in bytes. This property applies only to variable bit rate (VBR) control modes.
+ms.assetid: bb46b171-d70a-4e01-88c4-321a210a0220
 title: AVEncVideoCodedVideoAccessUnitSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoCodedVideoAccessUnitSize property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-This property is returned as a range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](icodecapi-getparameterrange.md).
+This property is returned as a range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](/windows/win32/Strmif/nf-strmif-icodecapi-getparameterrange?branch=master).
 
 ## Requirements
 
@@ -28,8 +33,8 @@ This property is returned as a range of values. To get the supported range, call
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ This property is returned as a range of values. To get the supported range, call
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,25 @@
 ---
 title: sign.cpp
 description: sign.cpp
-ms.assetid: 'c2954145-fa34-4ff7-a968-43b6047e6f94'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle signature sample", "packaging,music bundle signature sample", "packages,music bundle signature sample", "music bundle signature sample,sign.cpp", "Packaging APIs,sign.cpp", "packaging,sign.cpp", "packages,sign.cpp", "sign.cpp", "sample applications,music bundle signature"]
+ms.assetid: c2954145-fa34-4ff7-a968-43b6047e6f94
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle signature sample
+- packaging,music bundle signature sample
+- packages,music bundle signature sample
+- music bundle signature sample,sign.cpp
+- Packaging APIs,sign.cpp
+- packaging,sign.cpp
+- packages,sign.cpp
+- sign.cpp
+- sample applications,music bundle signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sign.cpp

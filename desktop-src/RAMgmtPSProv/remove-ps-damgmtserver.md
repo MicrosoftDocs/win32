@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DAMgmtServer class
 description: This cmdlet removes the specified Management servers from the DA deployment. Management server here refers to patch servers, Domain Controllers and other servers.
 audience: developer
-ms.assetid: '1718ebbd-6eec-4780-a13e-6e36a5802bc9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1718ebbd-6eec-4780-a13e-6e36a5802bc9
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DAMgmtServer class", "PS_DAMgmtServer class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DAMgmtServer class
+- PS_DAMgmtServer class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DAMgmtServer class
@@ -28,10 +34,10 @@ This cmdlet removes the specified Management servers from the DA deployment. Man
 
 ```mof
 uint32 Remove(
-  [in]  string  MgmtServer[],
-  [in]  string  ComputerName,
-  [in]  boolean PassThru,
-  [out] string  cmdletOutput[]
+  [in]  string  MgmtServer[],
+  [in]  string  ComputerName,
+  [in]  boolean PassThru,
+  [out] string  cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ List of management servers that were successfully removed from the DA deployment
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ List of management servers that were successfully removed from the DA deployment
 [**PS\_DAMgmtServer**](ps-damgmtserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

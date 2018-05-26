@@ -1,8 +1,18 @@
 ---
 title: MIDI Event Types
 description: MIDI Event Types
-ms.assetid: '0b0984b7-3087-461e-90f2-a899dc1a88c6'
-keywords: ["Musical Instrument Digital Interface (MIDI),event types", "MIDI (Musical Instrument Digital Interface),event types", "MIDIEVENT structure", "stream buffers,MIDI event types", "MIDI event types"]
+ms.assetid: 0b0984b7-3087-461e-90f2-a899dc1a88c6
+keywords:
+- Musical Instrument Digital Interface (MIDI),event types
+- MIDI (Musical Instrument Digital Interface),event types
+- MIDIEVENT structure
+- stream buffers,MIDI event types
+- MIDI event types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Event Types

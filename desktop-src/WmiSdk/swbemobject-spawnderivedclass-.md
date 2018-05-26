@@ -1,13 +1,16 @@
 ---
-Description: 'Use the SpawnDerivedClass\_ method of the SWbemObject object to create a derived class object from the current object. The object must be a class definition that becomes the parent class of the spawned object.'
+Description: Use the SpawnDerivedClass\_ method of the SWbemObject object to create a derived class object from the current object. The object must be a class definition that becomes the parent class of the spawned object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1b5aaea7-50f4-40bd-ab2a-f4ff55cc22fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1b5aaea7-50f4-40bd-ab2a-f4ff55cc22fc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.SpawnDerivedClass\_ method'
+title: SWbemObject.SpawnDerivedClass\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.SpawnDerivedClass\_ method
@@ -88,8 +91,8 @@ You cannot create a derived class from a class that is local to your own client 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -98,9 +101,9 @@ You cannot create a derived class from a class that is local to your own client 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

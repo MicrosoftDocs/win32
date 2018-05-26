@@ -4,11 +4,14 @@ description: The SymbolString property returns a null-terminated string that con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '34b22109-e7bb-473e-a62c-c354fc39dc5d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 34b22109-e7bb-473e-a62c-c354fc39dc5d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["SymbolString property MMC", "SymbolString property MMC , MMCDisplayObject class", "MMCDisplayObject class MMC , SymbolString property"]
+keywords:
+- SymbolString property MMC
+- SymbolString property MMC , MMCDisplayObject class
+- MMCDisplayObject class MMC , SymbolString property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCDisplayObject.SymbolString property
@@ -47,9 +53,9 @@ MMCDisplayObject.SymbolString
 
 
 
- 
+ 
 
- 
+ 
 
 
 

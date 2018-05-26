@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager Init method
 description: Initializes the new IImnAccountManager object using the ACCT\_INIT\_ATHENA initialization flag.
-ms.assetid: '85293ebc-5c3b-4e2f-a350-f917fc4d2f69'
-keywords: ["Init method Windows Mail (formerly Outlook Express)", "Init method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , Init method"]
+ms.assetid: 85293ebc-5c3b-4e2f-a350-f917fc4d2f69
+keywords:
+- Init method Windows Mail (formerly Outlook Express)
+- Init method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , Init method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::Init method
@@ -24,7 +32,7 @@ Initializes the new [**IImnAccountManager**](oe-iimnaccountmanager.md) object us
 
 ```C++
 HRESULT Init(
-  [in] IImnAdviseMigrateServer *pAdviseMigrateServer
+  [in] IImnAdviseMigrateServer *pAdviseMigrateServer
 );
 ```
 
@@ -61,7 +69,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,8 +81,8 @@ A client application should call this method immediately after calling [CoCreate
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -82,9 +90,9 @@ A client application should call this method immediately after calling [CoCreate
 
 
 
- 
+ 
 
- 
+ 
 
 
 

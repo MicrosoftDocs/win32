@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a data object as a child object. Deprecated.'
-ms.assetid: '43771dd6-c17f-4376-9b0a-459ba61ff4c5'
-title: 'IDirectXFileData::AddDataObject method'
+---
+Description: Adds a data object as a child object. Deprecated.
+ms.assetid: 43771dd6-c17f-4376-9b0a-459ba61ff4c5
+title: IDirectXFileDataAddDataObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileData::AddDataObject method

@@ -1,8 +1,10 @@
 ---
 title: BITS\_FILE\_PROPERTY\_ID enumeration
 description: The BITS\_FILE\_PROPERTY\_ID enumeration specifies values that define ID values corresponding to BackgroundCopyFile properties.
-ms.assetid: '47EFD160-7CA8-48E6-A18E-38D85F7C6E47'
-keywords: ["BITS_FILE_PROPERTY_ID enumeration", "BITS_FILE_PROPERTY_ID enumeration"]
+ms.assetid: 47EFD160-7CA8-48E6-A18E-38D85F7C6E47
+keywords:
+- BITS_FILE_PROPERTY_ID enumeration
+- BITS_FILE_PROPERTY_ID enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS\_FILE\_PROPERTY\_ID enumeration
@@ -22,7 +29,7 @@ The **BITS\_FILE\_PROPERTY\_ID** enumeration specifies values that define ID val
 
 ```C++
 typedef enum _BITS_FILE_PROPERTY_ID { 
-  BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS  = 1
+  BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS  = 1
 } BITS_FILE_PROPERTY_ID;
 ```
 
@@ -45,15 +52,15 @@ The full set of HTTP response headers from the server's last HTTP response packe
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

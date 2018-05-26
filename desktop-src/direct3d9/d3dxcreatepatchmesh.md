@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a mesh from a control-patch mesh.'
-ms.assetid: '50e4f7aa-a6b8-4a2b-9813-a9448f408d06'
+---
+Description: Creates a mesh from a control-patch mesh.
+ms.assetid: 50e4f7aa-a6b8-4a2b-9813-a9448f408d06
 title: D3DXCreatePatchMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreatePatchMesh function
@@ -77,9 +82,9 @@ Array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, describing the 
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer the device that creates the patch mesh. See [**IDirect3DDevice9**](idirect3ddevice9.md).
+Pointer the device that creates the patch mesh. See [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master).
 
 </dd> <dt>
 

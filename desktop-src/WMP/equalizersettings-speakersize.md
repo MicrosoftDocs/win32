@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.speakerSize
 description: The speakerSize attribute specifies or retrieves the index number of the current speaker size.
-ms.assetid: '454d07bf-49cd-48a5-9724-6415a925367a'
-keywords: ["EQUALIZERSETTINGS.speakerSize Windows Media Player"]
+ms.assetid: 454d07bf-49cd-48a5-9724-6415a925367a
+keywords:
+- EQUALIZERSETTINGS.speakerSize Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.speakerSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.speakerSize
@@ -33,7 +39,7 @@ This attribute is a read/write **Number** (long) containing one of the following
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,9 +70,9 @@ This attribute is ignored if **enhancedAudio** is set to false.
 [**EQUALIZERSETTINGS.enhancedAudio**](equalizersettings-enhancedaudio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

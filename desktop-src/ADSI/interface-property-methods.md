@@ -4,11 +4,16 @@ description: Many ADSI interfaces are designed to support Automation and thus ar
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2831fa4-b58d-4b65-8deb-5fb7cd50c724'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b2831fa4-b58d-4b65-8deb-5fb7cd50c724
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Interface Property Methods", "ADSI ADSI , reference, property methods explained"]
+keywords:
+- Interface Property Methods
+- ADSI ADSI , reference, property methods explained
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Interface Property Methods

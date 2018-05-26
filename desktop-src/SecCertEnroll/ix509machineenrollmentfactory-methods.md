@@ -1,16 +1,21 @@
 ---
-Description: 'The IX509MachineEnrollmentFactory interface exposes the following methods.'
-ms.assetid: 'A462B3DE-AF06-457E-8F2B-3025CC263B46'
+Description: The IX509MachineEnrollmentFactory interface exposes the following methods.
+ms.assetid: A462B3DE-AF06-457E-8F2B-3025CC263B46
 title: IX509MachineEnrollmentFactory Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IX509MachineEnrollmentFactory Methods
 
-The [**IX509MachineEnrollmentFactory**](ix509machineenrollmentfactory.md) interface exposes the following methods.
+The [**IX509MachineEnrollmentFactory**](/windows/win32/Certenroll/nn-certenroll-ix509machineenrollmentfactory?branch=master) interface exposes the following methods.
 
 ## In this section
 
--   [**CreateObject Method**](ix509machineenrollmentfactory-createobject.md)
+-   [**CreateObject Method**](/windows/win32/Certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject?branch=master)
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the ID3DXBaseMesh interface to manipulate and query mesh and progressive mesh objects.'
-ms.assetid: 'ec4ccd77-e370-470c-9325-3d794a8f7f16'
+---
+Description: Applications use the methods of the ID3DXBaseMesh interface to manipulate and query mesh and progressive mesh objects.
+ms.assetid: ec4ccd77-e370-470c-9325-3d794a8f7f16
 title: ID3DXBaseMesh interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh interface

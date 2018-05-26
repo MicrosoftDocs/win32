@@ -1,7 +1,12 @@
 ---
-Description: 'A patch that should no longer be used can be eliminated from the patching sequence.'
-ms.assetid: 'b1d499d9-4fd3-4996-84a1-c32acefbb98f'
+Description: A patch that should no longer be used can be eliminated from the patching sequence.
+ms.assetid: b1d499d9-4fd3-4996-84a1-c32acefbb98f
 title: Eliminating Patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Eliminating Patches
@@ -21,7 +26,7 @@ For example, Patch1, Patch2, and Patch3 can be three patches that do not have th
 **Windows Installer 2.0:** Not supported. The only method available is to specify the list of patches to be eliminated from the patching sequence in the [**Revision Number Summary**](revision-number-summary.md) property.
 
 > [!Note]  
-> Patch authors should use the [**MsiDeterminePatchSequence**](msideterminepatchsequence.md) and [**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md) functions to determine the sequence of patches that actually get applied to the product because the elimination of some patches can render other patches inapplicable.
+> Patch authors should use the [**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master) and [**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master) functions to determine the sequence of patches that actually get applied to the product because the elimination of some patches can render other patches inapplicable.
 
  
 

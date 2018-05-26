@@ -4,10 +4,13 @@ description: User Access Logging (UAL) is a common framework for Windows Server 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60d5662e-d921-4cf2-89b1-c7d7fd1f82e3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 60d5662e-d921-4cf2-89b1-c7d7fd1f82e3
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Access Logging

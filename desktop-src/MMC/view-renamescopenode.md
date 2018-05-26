@@ -4,11 +4,16 @@ description: The RenameScopeNode method renames a node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b5034924-fa90-41ec-8d02-02a2c294eae9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b5034924-fa90-41ec-8d02-02a2c294eae9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["RenameScopeNode method MMC", "RenameScopeNode method MMC , View object", "View object MMC , RenameScopeNode method", "RenameScopeNode method MMC , View interface", "View interface MMC , RenameScopeNode method"]
+keywords:
+- RenameScopeNode method MMC
+- RenameScopeNode method MMC , View object
+- View object MMC , RenameScopeNode method
+- RenameScopeNode method MMC , View interface
+- View interface MMC , RenameScopeNode method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::RenameScopeNode method
@@ -86,8 +94,8 @@ Set var1 = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -102,9 +110,9 @@ Set var1 = Nothing
 [**View.RenameSelectedItem**](view-renameselecteditem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

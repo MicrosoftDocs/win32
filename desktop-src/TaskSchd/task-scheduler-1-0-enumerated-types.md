@@ -1,7 +1,12 @@
 ---
 title: Task Scheduler 1.0 Enumerated Types
 description: Describes the enumerated types that define the constants that are used by the Task Scheduler 1.0 APIs.
-ms.assetid: '7c85dd3c-d901-4ca6-957e-2f5e4a159b80'
+ms.assetid: 7c85dd3c-d901-4ca6-957e-2f5e4a159b80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler 1.0 Enumerated Types
@@ -18,8 +23,8 @@ The following enumerated types are introduced by Task Scheduler 1.0.
 
 | Name                                             | Description                                                                        |
 |--------------------------------------------------|------------------------------------------------------------------------------------|
-| [**TASK\_TRIGGER\_TYPE**](task-trigger-type.md) | Defines the types of [*triggers*](t.md#-msb-triggers-gly) associated with a task. |
-| [**TASKPAGE**](taskpage.md)                     | Defines the type of task page to be retrieved.                                     |
+| [**TASK\_TRIGGER\_TYPE**](/windows/win32/Mstask/ne-mstask-_task_trigger_type?branch=master) | Defines the types of [*triggers*](t.md#-msb-triggers-gly) associated with a task. |
+| [**TASKPAGE**](/windows/win32/Mstask/ne-mstask-_taskpage?branch=master)                     | Defines the type of task page to be retrieved.                                     |
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the type deallocator to be used by an operation's stub function.'
-ms.assetid: '52e6235d-90e6-4559-b17c-14ca3be896ff'
+Description: Specifies the type deallocator to be used by an operations stub function.
+ms.assetid: 52e6235d-90e6-4559-b17c-14ca3be896ff
 title: operationDeallocator element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operationDeallocator element
@@ -47,14 +52,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows typical Diffie-Hellman/Schannel server-side code for creating a master key.'
-ms.assetid: '1ef0a2ea-8684-425c-abfe-9f65d8df7bbd'
-title: 'Diffie-Hellman Server Code for Creating the Master Key'
+Description: The following example shows typical Diffie-Hellman/Schannel server-side code for creating a master key.
+ms.assetid: 1ef0a2ea-8684-425c-abfe-9f65d8df7bbd
+title: Diffie-Hellman Server Code for Creating the Master Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diffie-Hellman Server Code for Creating the Master Key

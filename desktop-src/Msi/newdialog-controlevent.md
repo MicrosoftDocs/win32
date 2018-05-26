@@ -1,7 +1,12 @@
 ---
-Description: 'This event notifies the installer to transition a modal dialog box to another dialog box. The installer removes the present dialog box and creates the new one with the name indicated in the argument.'
-ms.assetid: 'bd1aa465-55a0-4983-8c71-7e7075ee9dfb'
+Description: This event notifies the installer to transition a modal dialog box to another dialog box. The installer removes the present dialog box and creates the new one with the name indicated in the argument.
+ms.assetid: bd1aa465-55a0-4983-8c71-7e7075ee9dfb
 title: NewDialog ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NewDialog ControlEvent

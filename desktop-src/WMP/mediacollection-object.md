@@ -1,14 +1,20 @@
 ---
 title: MediaCollection Object
 description: The MediaCollection object provides a way to organize a large collection of media items. It can be queried to generate playlists automatically.
-ms.assetid: 'afcb2c51-3ecb-4529-8f3e-56aa6d0ec2b4'
-keywords: ["MediaCollection Object Windows Media Player"]
+ms.assetid: afcb2c51-3ecb-4529-8f3e-56aa6d0ec2b4
+keywords:
+- MediaCollection Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MediaCollection Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection Object

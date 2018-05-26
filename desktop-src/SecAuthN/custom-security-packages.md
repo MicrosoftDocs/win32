@@ -1,12 +1,17 @@
 ---
-Description: 'Explains how to create custom security packages by using the custom security package API.'
-ms.assetid: 'af8b9796-77e7-43c1-8f8e-acee01a62bf9'
+Description: Explains how to create custom security packages by using the custom security package API.
+ms.assetid: af8b9796-77e7-43c1-8f8e-acee01a62bf9
 title: Custom Security Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Security Packages
 
-To implement new security protocols that are integrated with the Windows Server and Windows operating systems, use the custom security package API and the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) functions.
+To implement new security protocols that are integrated with the Windows Server and Windows operating systems, use the custom security package API and the [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) functions.
 
 The custom security package API supports combined development of custom [*security support providers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-support-provider-gly) (SSPs), which provide [Noninteractive Authentication](noninteractive-authentication.md) services and secure message exchange to client/server applications, with the development of custom [*authentication packages*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-authentication-package-gly), which provide services for applications that perform [Interactive Authentication](interactive-authentication.md). These services, when combined in a single package, are called a security support provider/authentication package (SSP/AP).
 
@@ -26,11 +31,11 @@ For more information about custom security packages, see the following topics.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: WsUtil Compiler tool
 description: The Windows Web Services compiler tool, WsUtil.exe, supports the service model and serialization of data types. It processes WSDL, XML schema and policy documents, and generates C headers and source files.
-ms.assetid: '7fc3f1bd-ead2-4095-9592-d2ad88d56e7a'
-keywords: ["WsUtil Compiler tool Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 7fc3f1bd-ead2-4095-9592-d2ad88d56e7a
+keywords:
+- WsUtil Compiler tool Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WsUtil Compiler tool

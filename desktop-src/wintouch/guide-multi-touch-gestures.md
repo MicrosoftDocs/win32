@@ -1,8 +1,15 @@
 ---
 title: Windows Touch Gestures
 description: This section contains topics about Windows Touch gestures.
-ms.assetid: 'afd61b18-4e54-44c5-9b71-74908c76c7ac'
-keywords: ["Windows Touch,gestures", "gestures,about"]
+ms.assetid: afd61b18-4e54-44c5-9b71-74908c76c7ac
+keywords:
+- Windows Touch,gestures
+- gestures,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Gestures

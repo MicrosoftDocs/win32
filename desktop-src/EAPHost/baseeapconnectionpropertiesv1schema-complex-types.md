@@ -1,7 +1,12 @@
 ---
 title: baseeapconnectionpropertiesv1 Schema Complex Types
 description: Is defines the following complex types.
-ms.assetid: '536dbc56-1811-4b51-95ee-cf1e3f4b0a2d'
+ms.assetid: 536dbc56-1811-4b51-95ee-cf1e3f4b0a2d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # baseeapconnectionpropertiesv1 Schema Complex Types

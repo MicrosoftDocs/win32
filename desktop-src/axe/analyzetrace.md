@@ -1,14 +1,20 @@
 ---
 title: AnalyzeTrace element
 description: Describes how AXE executes an assessment trace analysis.
-ms.assetid: '517C36AD-6FAC-4A1E-B1D2-BA1B9438DC2A'
-keywords: ["AnalyzeTrace element Access Execution Engine"]
+ms.assetid: 517C36AD-6FAC-4A1E-B1D2-BA1B9438DC2A
+keywords:
+- AnalyzeTrace element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AnalyzeTrace
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalyzeTrace element

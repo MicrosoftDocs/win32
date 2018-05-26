@@ -1,14 +1,20 @@
 ---
 title: smartPlaylist Element
 description: The smartPlaylist element contains the dynamically defined portion of a playlist.
-ms.assetid: '05912849-7475-4eb9-a7bd-00f20b80b1cf'
-keywords: ["smartPlaylist Element Windows Media Player"]
+ms.assetid: 05912849-7475-4eb9-a7bd-00f20b80b1cf
+keywords:
+- smartPlaylist Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - smartPlaylist Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # smartPlaylist Element
@@ -32,7 +38,7 @@ The **smartPlaylist** element contains the dynamically defined portion of a play
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -45,7 +51,7 @@ The **smartPlaylist** element contains the dynamically defined portion of a play
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -110,9 +116,9 @@ A **smartPlaylist** element typically contains a **querySet** element and can al
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

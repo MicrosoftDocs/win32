@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETSELRANGE message
 description: Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can send this message explicitly or by using the MonthCal\_GetSelRange macro.
-ms.assetid: 'a0d0a0d5-a519-4495-a87a-2438c4590e4c'
-keywords: ["MCM_GETSELRANGE message Windows Controls"]
+ms.assetid: a0d0a0d5-a519-4495-a87a-2438c4590e4c
+keywords:
+- MCM_GETSELRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETSELRANGE message
 
-Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can send this message explicitly or by using the [**MonthCal\_GetSelRange**](monthcal-getselrange.md) macro.
+Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can send this message explicitly or by using the [**MonthCal\_GetSelRange**](/windows/win32/Commctrl/nf-commctrl-monthcal_getselrange?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ Returns nonzero if successful, or zero otherwise. **MCM\_GETSELRANGE** will fail
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns nonzero if successful, or zero otherwise. **MCM\_GETSELRANGE** will fail
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

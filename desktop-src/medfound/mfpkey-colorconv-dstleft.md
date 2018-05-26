@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the left edge of the destination rectangle, in pixels.'
-ms.assetid: '9411a7f7-0ce6-43b7-b50d-54489a7bb864'
-title: 'MFPKEY\_COLORCONV\_DSTLEFT Property'
+---
+Description: Specifies the left edge of the destination rectangle, in pixels.
+ms.assetid: 9411a7f7-0ce6-43b7-b50d-54489a7bb864
+title: MFPKEY\_COLORCONV\_DSTLEFT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLORCONV\_DSTLEFT Property

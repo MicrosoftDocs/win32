@@ -1,8 +1,14 @@
 ---
 title: Interprocess Communication Between 32-bit and 64-bit Applications
 description: The following techniques can be used for communication between 32-bit and 64-bit applications.
-ms.assetid: '9a60ccfe-4ccf-44d7-9522-42609d95217b'
-keywords: ["interprocess communication 64-bit Windows Programming"]
+ms.assetid: 9a60ccfe-4ccf-44d7-9522-42609d95217b
+keywords:
+- interprocess communication 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interprocess Communication Between 32-bit and 64-bit Applications

@@ -1,7 +1,12 @@
 ---
-Description: 'The following list gives descriptions of the property items supported by Windows GDI+.'
-ms.assetid: 'fc95aa3f-8381-430d-8cbf-6d23816a738d'
+Description: The following list gives descriptions of the property items supported by Windows GDI+.
+ms.assetid: fc95aa3f-8381-430d-8cbf-6d23816a738d
 title: Property Item Descriptions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Item Descriptions
@@ -1659,7 +1664,7 @@ Null-terminated character string that identifies an ICC profile.
 
 ## PropertyTagSRGBRenderingIntent
 
-How the image should be displayed as defined by the International Color Consortium (ICC). If a GDI+  [**Image**](-gdiplus-class-image-class.md) object is constructed with the *useEmbeddedColorManagement* parameter set to **TRUE**, then GDI+ renders the image according to the specified rendering intent. The intent can be set to perceptual, relative colorimetric, saturation, or absolute colorimetric.
+How the image should be displayed as defined by the International Color Consortium (ICC). If a GDI+  [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object is constructed with the *useEmbeddedColorManagement* parameter set to **TRUE**, then GDI+ renders the image according to the specified rendering intent. The intent can be set to perceptual, relative colorimetric, saturation, or absolute colorimetric.
 
 -   Perceptual intent, which is suitable for photographs, gives good adaptation to the display device gamut at the expense of colorimetric accuracy.
 -   Relative colorimetric intent is suitable for images (for example, logos) that require color appearance matching that is relative to the display device white point.

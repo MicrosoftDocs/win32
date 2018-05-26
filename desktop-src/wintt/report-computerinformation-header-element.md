@@ -1,14 +1,20 @@
 ---
 title: ComputerInformation (Header) Element
 description: Identifies the computer on which the troubleshooting package ran.
-ms.assetid: '9dc12622-f1a9-4379-ba1d-0274507ce579'
-keywords: ["ComputerInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 9dc12622-f1a9-4379-ba1d-0274507ce579
+keywords:
+- ComputerInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ComputerInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComputerInformation (Header) Element
@@ -33,8 +39,8 @@ The children of this node are [**Data (ComputerInformation)**](https://msdn.micr
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ The children of this node are [**Data (ComputerInformation)**](https://msdn.micr
 [**Header (ResultReport)**](report-header-resultreport-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

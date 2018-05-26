@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo.Author property
 description: For scripting, gets or sets the author of the task.
-ms.assetid: '7a71924b-47d6-4aea-b384-09874f85976b'
-keywords: ["Author property Task Scheduler", "Author property Task Scheduler , RegistrationInfo object", "RegistrationInfo object Task Scheduler , Author property"]
+ms.assetid: 7a71924b-47d6-4aea-b384-09874f85976b
+keywords:
+- Author property Task Scheduler
+- Author property Task Scheduler , RegistrationInfo object
+- RegistrationInfo object Task Scheduler , Author property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo.Author property
@@ -42,8 +50,8 @@ When setting this property value, the value can be text that is retrieved from a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When setting this property value, the value can be text that is retrieved from a
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: GetSamplePosition function
 description: Samples a texture and returns all four components.
-ms.assetid: 'e04717be-58b0-4242-87dd-d769834ae1c2'
-keywords: ["GetSamplePosition function HLSL"]
+ms.assetid: e04717be-58b0-4242-87dd-d769834ae1c2
+keywords:
+- GetSamplePosition function HLSL
 topic_type:
 - apiref
 api_name:
 - GetSamplePosition
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSamplePosition function

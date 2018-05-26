@@ -4,17 +4,22 @@ description: Stores the security descriptor of a cluster. The following table su
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2a416bc-891e-42b0-a67f-04d0b257ffac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d2a416bc-891e-42b0-a67f-04d0b257ffac
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Security Descriptor Failover Cluster ,for clusters", "Security Descriptor Failover Cluster"]
+keywords:
+- Security Descriptor Failover Cluster ,for clusters
+- Security Descriptor Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Security Descriptor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Descriptor
@@ -27,13 +32,13 @@ Stores the [security descriptor](https://msdn.microsoft.com/library/windows/desk
 |-----------|------------------------------------------------------------------|
 | Data type | Byte array                                                       |
 | Access    | [Read/write](read-write-properties.md) (see Remarks)            |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,7 +58,7 @@ Although the property value is read/write, the underlying security descriptor ca
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -64,7 +69,7 @@ Although the property value is read/write, the underlying security descriptor ca
 [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860)
 </dt> <dt>
 
-[**CLUSPROP\_BINARY**](clusprop-binary.md)
+[**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)
 </dt> <dt>
 
 [Network Management](https://msdn.microsoft.com/library/windows/desktop/aa370672)
@@ -79,9 +84,9 @@ Although the property value is read/write, the underlying security descriptor ca
 [**SetSecurityDescriptorDacl**](https://msdn.microsoft.com/library/windows/desktop/aa379583)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

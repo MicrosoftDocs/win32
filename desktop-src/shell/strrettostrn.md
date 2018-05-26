@@ -1,11 +1,16 @@
-﻿---
-Description: 'Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf, converts it to a string, and places the result in a buffer.'
+---
+Description: Takes an STRRET structure returned by IShellFolderGetDisplayNameOf, converts it to a string, and places the result in a buffer.
 title: StrRetToStrN function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StrRetToStrN function
 
-Takes an [**STRRET**](strret.md) structure returned by [**IShellFolder::GetDisplayNameOf**](ishellfolder-getdisplaynameof.md), converts it to a string, and places the result in a buffer.
+Takes an [**STRRET**](/windows/win32/Shtypes/ns-shtypes-_strret?branch=master) structure returned by [**IShellFolder::GetDisplayNameOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof?branch=master), converts it to a string, and places the result in a buffer.
 
 ## Syntax
 
@@ -48,7 +53,7 @@ Size of *pszOut*, in characters. If *cchOut* is too small, the string will be tr
 
 Type: **LPSTRRET**
 
-Pointer to an [**STRRET**](strret.md) structure. When the function returns, this pointer will no longer be valid.
+Pointer to an [**STRRET**](/windows/win32/Shtypes/ns-shtypes-_strret?branch=master) structure. When the function returns, this pointer will no longer be valid.
 
 </dd> <dt>
 
@@ -57,7 +62,7 @@ Pointer to an [**STRRET**](strret.md) structure. When the function returns, this
 
 Type: **LPCITEMIDLIST**
 
-Pointer to the item's [**ITEMIDLIST**](itemidlist.md) structure.
+Pointer to the item's [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure.
 
 </dd> </dl>
 
@@ -70,7 +75,7 @@ Type: **BOOL**
 ## Remarks
 
 > [!Note]  
-> As of Shell32.dll version 5.0, calling this function is equivalent to calling [**StrRetToBuf**](strrettobuf.md).
+> As of Shell32.dll version 5.0, calling this function is equivalent to calling [**StrRetToBuf**](/windows/win32/Shlwapi/nf-shlwapi-strrettobufa?branch=master).
 
  
 
@@ -96,10 +101,10 @@ Note that this function is exported from Shell32.dll rather than Shlwapi.dll. It
 
 <dl> <dt>
 
-[**StrRetToStr**](strrettostr.md)
+[**StrRetToStr**](/windows/win32/Shlwapi/nf-shlwapi-strrettostra?branch=master)
 </dt> <dt>
 
-[**StrRetToBuf**](strrettobuf.md)
+[**StrRetToBuf**](/windows/win32/Shlwapi/nf-shlwapi-strrettobufa?branch=master)
 </dt> </dl>
 
  

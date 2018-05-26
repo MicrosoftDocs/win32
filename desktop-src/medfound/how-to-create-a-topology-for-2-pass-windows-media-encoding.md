@@ -1,7 +1,12 @@
-﻿---
-Description: 'Two-pass encoding modes are supported by certain Windows Media encoders and Media Foundation at the pipeline layer.'
-ms.assetid: '3fd5baff-142f-453e-bb97-b355ee6678fc'
-title: 'How to Create a Topology for Two-Pass Windows Media Encoding'
+---
+Description: Two-pass encoding modes are supported by certain Windows Media encoders and Media Foundation at the pipeline layer.
+ms.assetid: 3fd5baff-142f-453e-bb97-b355ee6678fc
+title: How to Create a Topology for Two-Pass Windows Media Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Topology for Two-Pass Windows Media Encoding
@@ -15,7 +20,7 @@ Media Foundation supports the following two-pass encoding modes:
 
 Building an encoding topology for two-pass encoding is similar to single pass modes. The following list shows the key differences.
 
--   Encoder configuration must include the [**MFPKEY\_PASSESUSED**](mfpkey-passesusedproperty.md) property that is set to 2 and the [**MFPKEY\_VBRENABLED**](mfpkey-vbrenabledproperty.md) property to VARIANT\_TRUE. This filters the encoder’s capabilities to two-pass modes. If you are using activation objects, pass these properties to [**MFCreateWMAEncoderActivate**](mfcreatewmaencoderactivate.md) or [**MFCreateWMVEncoderActivate**](mfcreatewmvencoderactivate.md).
+-   Encoder configuration must include the [**MFPKEY\_PASSESUSED**](mfpkey-passesusedproperty.md) property that is set to 2 and the [**MFPKEY\_VBRENABLED**](mfpkey-vbrenabledproperty.md) property to VARIANT\_TRUE. This filters the encoder’s capabilities to two-pass modes. If you are using activation objects, pass these properties to [**MFCreateWMAEncoderActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate?branch=master) or [**MFCreateWMVEncoderActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate?branch=master).
 -   For the first pass, use a dummy media sink in the output node because the samples that are generated in this pass are not added to the final file.
 -   For the second pass, query the encoder for the required post-encoding properties and replace the dummy media sink node with the ASF media sink with these properties set.
 

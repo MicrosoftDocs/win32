@@ -1,7 +1,12 @@
 ---
-Description: 'Client-Side Requirements for Impersonation'
-ms.assetid: 'c2d20233-93c6-4d2d-946d-8abccbeb3c5e'
-title: 'Client-Side Requirements for Impersonation'
+Description: Client-Side Requirements for Impersonation
+ms.assetid: c2d20233-93c6-4d2d-946d-8abccbeb3c5e
+title: Client-Side Requirements for Impersonation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client-Side Requirements for Impersonation

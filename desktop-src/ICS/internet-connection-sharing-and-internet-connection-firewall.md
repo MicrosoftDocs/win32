@@ -1,7 +1,12 @@
 ---
 title: Diagram of Internet Connection Sharing and Internet Connection Firewall
 description: The Internet Connection Sharing (ICS) API should be used for applications that run on the computer that has Internet Connection Sharing enabled. Such computers are typically performing the role of an Internet gateway for a home or small business LAN.
-ms.assetid: '8a376ed0-7c00-4e7a-801a-8b439867ae28'
+ms.assetid: 8a376ed0-7c00-4e7a-801a-8b439867ae28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diagram of Internet Connection Sharing and Internet Connection Firewall

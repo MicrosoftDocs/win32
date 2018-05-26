@@ -1,8 +1,20 @@
 ---
 title: Application Recovery and Restart
 description: Write custom installers to automatically restart an application that has been shut down to complete an update. Save data and configure application recovery before exiting programs.
-ms.assetid: '60b057dd-9724-4bc4-b1b0-eea7e8380ecb'
-keywords: ["restart", "recover", "recovery", "reliability", "software reliability", "application recovery", "application restart"]
+ms.assetid: 60b057dd-9724-4bc4-b1b0-eea7e8380ecb
+keywords:
+- restart
+- recover
+- recovery
+- reliability
+- software reliability
+- application recovery
+- application restart
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Recovery and Restart
@@ -19,7 +31,7 @@ ARR is designed for C and C++ developers.
 
 ## Run-time requirements
 
-ARR is available starting with the Windows Vista operating system.
+ARR is available starting with the Windows Vista operating system.
 
 ## In this section
 
@@ -32,11 +44,11 @@ ARR is available starting with the Windows Vista operating system.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

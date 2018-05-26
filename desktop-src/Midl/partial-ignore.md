@@ -2,13 +2,19 @@
 title: partial\_ignore attribute
 description: The ACF attribute \ partial\_ignore\ defines a specialized version of \ unique\ pointers that provides optional-out semantics.
 ms.assetid: 8a8f88b0-4a12-496d-bf77-ee57241b577b
-keywords: ["partial_ignore attribute MIDL"]
+keywords:
+- partial_ignore attribute MIDL
 topic_type:
 - apiref
 api_name:
 - partial_ignore
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # partial\_ignore attribute

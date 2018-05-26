@@ -4,11 +4,13 @@ description: This is a class of property qualifiers that provides profile detail
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ef28fe87-8f09-49cd-ae93-7040f5cc732e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: ef28fe87-8f09-49cd-ae93-7040f5cc732e
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
-keywords: ["MsftUal_SystemId class User Access Logging", "MsftUal_SystemId class User Access Logging , described"]
+keywords:
+- MsftUal_SystemId class User Access Logging
+- MsftUal_SystemId class User Access Logging , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - UALProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftUal\_SystemId class
@@ -56,29 +61,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MsftUal_SystemId
 {
   datetime CreationTime;
-  string   SystemManufacturer;
-  string   SystemProductName;
-  uint32   PhysicalProcessorCount;
-  uint32   CoresPerPhysicalProcessor;
-  uint32   LogicalProcessorsPerPhysicalProcessor;
-  uint64   MaximumMemory;
-  string   SystemSMBIOSUUID;
-  string   SystemSerialNumber;
-  string   SystemDNSHostName;
-  string   SystemDomainName;
-  uint32   OSMajor;
-  uint32   OSMinor;
-  uint32   OSBuildNumber;
-  uint32   OSPlatformId;
-  uint32   OSSuiteMask;
-  uint32   OSProductType;
-  string   OSSerialNumber;
-  string   OSCountryCode;
-  sint16   OSCurrentTimeZone;
-  boolean  OSDaylightInEffect;
-  string   OSLastBootUpTime;
-  uint32   ServicePackMajor;
-  uint32   ServicePackMinor;
+  string   SystemManufacturer;
+  string   SystemProductName;
+  uint32   PhysicalProcessorCount;
+  uint32   CoresPerPhysicalProcessor;
+  uint32   LogicalProcessorsPerPhysicalProcessor;
+  uint64   MaximumMemory;
+  string   SystemSMBIOSUUID;
+  string   SystemSerialNumber;
+  string   SystemDNSHostName;
+  string   SystemDomainName;
+  uint32   OSMajor;
+  uint32   OSMinor;
+  uint32   OSBuildNumber;
+  uint32   OSPlatformId;
+  uint32   OSSuiteMask;
+  uint32   OSProductType;
+  string   OSSerialNumber;
+  string   OSCountryCode;
+  sint16   OSCurrentTimeZone;
+  boolean  OSDaylightInEffect;
+  string   OSLastBootUpTime;
+  uint32   ServicePackMajor;
+  uint32   ServicePackMinor;
 };
 ```
 
@@ -415,17 +420,17 @@ The SMBIOS reported universally unique identifier for this server unit.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\AccessLogging<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>Sum.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>UALProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

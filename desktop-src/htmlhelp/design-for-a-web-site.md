@@ -1,7 +1,12 @@
 ---
 title: Design for a Web Site
 description: Design for a Web Site
-ms.assetid: '3F139872-4851-4894-9F64-4E23810894D1'
+ms.assetid: 3F139872-4851-4894-9F64-4E23810894D1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Design for a Web Site

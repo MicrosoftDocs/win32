@@ -1,8 +1,14 @@
 ---
 title: Shell
 description: Provides Windows 3.1 shell printing and File Open information.
-ms.assetid: '15e329f2-ed64-4940-aa00-63edbd283b07'
-keywords: ["Shell registry key COM"]
+ms.assetid: 15e329f2-ed64-4940-aa00-63edbd283b07
+keywords:
+- Shell registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell

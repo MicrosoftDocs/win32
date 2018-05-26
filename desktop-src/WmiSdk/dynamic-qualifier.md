@@ -1,22 +1,25 @@
 ---
-Description: 'The Dynamic qualifier indicates a class whose instances are created dynamically. The value of this qualifier must be set to TRUE.'
+Description: The Dynamic qualifier indicates a class whose instances are created dynamically. The value of this qualifier must be set to TRUE.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '63286687-abbf-49f0-8061-3b47fba75806'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 63286687-abbf-49f0-8061-3b47fba75806
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Dynamic Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Qualifier
 
 The **Dynamic** qualifier indicates a class whose instances are created dynamically. The value of this qualifier must be set to **TRUE**.
 
-The **Dynamic** qualifier must be specified on all classes that contain data and for which instances are created dynamically. The [**Provider**](provider.md) qualifier is typically also specified to identify the provider responsible for supplying the data.
+The **Dynamic** qualifier must be specified on all classes that contain data and for which instances are created dynamically. The [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier is typically also specified to identify the provider responsible for supplying the data.
 
-Classes that contain only methods that need implementation do not require the **Dynamic** qualifier. Only the [**Provider**](provider.md) qualifier is required to specify the name of the provider to supply the implementation.
+Classes that contain only methods that need implementation do not require the **Dynamic** qualifier. Only the [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier is required to specify the name of the provider to supply the implementation.
 
 All classes derived from a dynamic class must be dynamic. You cannot derive a static class from a dynamic class.
 
@@ -28,8 +31,8 @@ When **Dynamic** is specified on a property of an instance, the **PropertyContex
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -46,9 +49,9 @@ When **Dynamic** is specified on a property of an instance, the **PropertyContex
 [Adding a Qualifier](adding-a-qualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

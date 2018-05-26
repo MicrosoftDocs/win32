@@ -1,8 +1,9 @@
 ---
 title: BM\_SETCHECK message
 description: Sets the check state of a radio button or check box. You can send this message explicitly or by using the Button\_SetCheck macro.
-ms.assetid: '8294e6c4-caac-4c60-85ff-38698a1d2ae4'
-keywords: ["BM_SETCHECK message Windows Controls"]
+ms.assetid: 8294e6c4-caac-4c60-85ff-38698a1d2ae4
+keywords:
+- BM_SETCHECK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_SETCHECK message
 
-Sets the check state of a radio button or check box. You can send this message explicitly or by using the [**Button\_SetCheck**](button-setcheck.md) macro.
+Sets the check state of a radio button or check box. You can send this message explicitly or by using the [**Button\_SetCheck**](/windows/win32/Windowsx/nf-windowsx-button_setcheck?branch=master) macro.
 
 ## Parameters
 
@@ -36,7 +42,7 @@ The check state. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -61,8 +67,8 @@ The **BM\_SETCHECK** message has no effect on push buttons.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ The **BM\_SETCHECK** message has no effect on push buttons.
 [**BM\_SETSTATE**](bm-setstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

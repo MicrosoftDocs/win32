@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnAppShutdown event
 description: Indicates that the client application is about to shut down for purposes of a client upgrade initiated either by the server or client user.
-ms.assetid: 'd6c859a8-9fad-4313-a8f8-9e928718e237'
-keywords: ["OnAppShutdown event Windows Messenger", "OnAppShutdown event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnAppShutdown event"]
+ms.assetid: d6c859a8-9fad-4313-a8f8-9e928718e237
+keywords:
+- OnAppShutdown event Windows Messenger
+- OnAppShutdown event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnAppShutdown event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnAppShutdown event
 
-\[**OnAppShutdown** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnAppShutdown** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the client application is about to shut down for purposes of a client upgrade initiated either by the server or client user.
 
@@ -45,7 +53,7 @@ This event is generally sent only if the client is forced to shut down in order 
 > [!Note]  
 > This event is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -53,10 +61,10 @@ This event is generally sent only if the client is forced to shut down in order 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -64,9 +72,9 @@ This event is generally sent only if the client is forced to shut down in order 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

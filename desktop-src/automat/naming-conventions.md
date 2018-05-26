@@ -1,20 +1,25 @@
 ---
 title: Naming Conventions
 description: Choose names for exposed objects, properties, and methods that can be easily understood by users of the application.
-ms.assetid: '479c9e2d-b345-4099-bfe0-1e4ebdb17459'
+ms.assetid: 479c9e2d-b345-4099-bfe0-1e4ebdb17459
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Naming Conventions
 
 Choose names for exposed objects, properties, and methods that can be easily understood by users of the application. The guidelines in this section apply to all of the following exposed items:
 
--   Objects — implemented as classes in an application.
+-   Objects   implemented as classes in an application.
 
--   Properties and methods — implemented as members of a class.
+-   Properties and methods   implemented as members of a class.
 
--   Named arguments — implemented as named parameters in a member function.
+-   Named arguments   implemented as named parameters in a member function.
 
--   Constants and enumerations — implemented as settings for properties and methods.
+-   Constants and enumerations   implemented as settings for properties and methods.
 
 ## In this section
 
@@ -29,11 +34,11 @@ Choose names for exposed objects, properties, and methods that can be easily und
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

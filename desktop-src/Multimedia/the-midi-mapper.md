@@ -1,8 +1,22 @@
 ---
 title: The MIDI Mapper
 description: The MIDI Mapper
-ms.assetid: '92cffc67-b4a4-4807-94d2-02fbbdba5abf'
-keywords: ["Windows multimedia,MIDI Mapper", "multimedia,MIDI Mapper", "multimedia audio,MIDI Mapper", "audio,MIDI Mapper", "Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,about", "MIDI Mapper,source", "MIDI Mapper,destination"]
+ms.assetid: 92cffc67-b4a4-4807-94d2-02fbbdba5abf
+keywords:
+- Windows multimedia,MIDI Mapper
+- multimedia,MIDI Mapper
+- multimedia audio,MIDI Mapper
+- audio,MIDI Mapper
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,about
+- MIDI Mapper,source
+- MIDI Mapper,destination
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The MIDI Mapper

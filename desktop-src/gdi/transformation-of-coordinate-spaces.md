@@ -1,7 +1,12 @@
 ---
-Description: 'A coordinate space is a planar space based on the Cartesian coordinate system.'
-ms.assetid: '1a232030-8561-4b57-b274-dca0a8b3e3a1'
+Description: A coordinate space is a planar space based on the Cartesian coordinate system.
+ms.assetid: 1a232030-8561-4b57-b274-dca0a8b3e3a1
 title: Transformation of Coordinate Spaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transformation of Coordinate Spaces
@@ -27,9 +32,9 @@ The system supports four coordinate spaces, as described in the following table.
 
 Page space works with device space to provide applications with device-independent units, such as millimeters and inches. This overview refers to both world space and page space as logical space.
 
-To depict output on a physical device, the system copies (or maps) a rectangular region from one coordinate space into the next using a transformation until the output appears in its entirety on the physical device. Mapping begins in the application's world space if the application has called the [**SetWorldTransform**](setworldtransform.md) function; otherwise, mapping occurs in page space. As the system copies each point within the rectangular region from one space into another, it applies an algorithm called a transformation. A *transformation* alters (or transforms) the size, orientation, and shape of objects that are copied from one coordinate space into another. Although a transformation affects an object as a whole, it is applied to each point, or to each line, in the object.
+To depict output on a physical device, the system copies (or maps) a rectangular region from one coordinate space into the next using a transformation until the output appears in its entirety on the physical device. Mapping begins in the application's world space if the application has called the [**SetWorldTransform**](/windows/win32/Wingdi/nf-wingdi-setworldtransform?branch=master) function; otherwise, mapping occurs in page space. As the system copies each point within the rectangular region from one space into another, it applies an algorithm called a transformation. A *transformation* alters (or transforms) the size, orientation, and shape of objects that are copied from one coordinate space into another. Although a transformation affects an object as a whole, it is applied to each point, or to each line, in the object.
 
-The following illustration shows a typical transformation performed by using the [**SetWorldTransform**](setworldtransform.md) function.
+The following illustration shows a typical transformation performed by using the [**SetWorldTransform**](/windows/win32/Wingdi/nf-wingdi-setworldtransform?branch=master) function.
 
 ![illustration showing a rectangle that changes size and position as it appears in the world space, page space, device space, and the device](images/cstrn-08.png)
 

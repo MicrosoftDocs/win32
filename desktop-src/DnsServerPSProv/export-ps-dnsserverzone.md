@@ -2,13 +2,16 @@
 title: Export method of the PS\_DnsServerZone class
 description: Exports Zone information.
 audience: developer
-ms.assetid: 'b591b20f-15b6-4787-b94e-b6206db4a956'
-ms.prod: 'windows-server-dev'
+ms.assetid: b591b20f-15b6-4787-b94e-b6206db4a956
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Export method", "Export method, PS_DnsServerZone class", "PS_DnsServerZone class, Export method"]
+keywords:
+- Export method
+- Export method, PS_DnsServerZone class
+- PS_DnsServerZone class, Export method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Export method of the PS\_DnsServerZone class
@@ -28,11 +34,11 @@ Exports Zone information.
 
 ```mof
 uint32 Export(
-  [in]  string        FileName,
-  [in]  string        Name,
-  [in]  string        ComputerName,
-  [in]  boolean       PassThru,
-  [out] DnsServerZone cmdletOutput
+  [in]  string        FileName,
+  [in]  string        Name,
+  [in]  string        ComputerName,
+  [in]  boolean       PassThru,
+  [out] DnsServerZone cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ Receives and embedded instance of the [**DnsServerZone**](dnsserverzone.md) clas
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ Receives and embedded instance of the [**DnsServerZone**](dnsserverzone.md) clas
 [**PS\_DnsServerZone**](ps-dnsserverzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

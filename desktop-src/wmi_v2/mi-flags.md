@@ -4,9 +4,9 @@ description: The following flags are used by various functions in the MI API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24E82AC6-A2E3-4EC6-931F-26AC54D5CAA7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 24E82AC6-A2E3-4EC6-931F-26AC54D5CAA7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -28,6 +28,9 @@ api_location:
 - Mi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MI Flags
@@ -41,7 +44,7 @@ The following flags are used by various functions in the MI API.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -53,7 +56,7 @@ The following flags are used by various functions in the MI API.
 
 The following RTTI bitmasks specify what options are acceptable to the client.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -128,7 +131,7 @@ The protocol handler will pick the best option.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -140,7 +143,7 @@ The protocol handler will pick the best option.
 
 The following polymorphism bitmasks specify what options are acceptable to the client.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -176,7 +179,7 @@ Contains detailed polymorphism for base properties only.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -188,7 +191,7 @@ Contains detailed polymorphism for base properties only.
 
 The following flags specify the other options that are acceptable to the client.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -238,16 +241,16 @@ Requires a report to be issued whenever an operation has started.
 
 |                                     |                                                                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                                       |
-| Redistributable<br/>          | Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2<br/> |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                                                 |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                                       |
+| Redistributable<br/>          | Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2<br/> |
 | Header<br/>                   | <dl> <dt>Mi.h</dt> </dl>                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

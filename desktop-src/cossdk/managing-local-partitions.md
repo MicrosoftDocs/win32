@@ -1,7 +1,12 @@
 ---
-Description: 'As an alternative to creating and configuring local partitions through the Component Services administrative tool, you can manage partitions programmatically by using partition-specific COM+ administration collections and properties.'
-ms.assetid: '82f790cf-3f94-44d9-b722-89a6013d0300'
+Description: As an alternative to creating and configuring local partitions through the Component Services administrative tool, you can manage partitions programmatically by using partition-specific COM+ administration collections and properties.
+ms.assetid: 82f790cf-3f94-44d9-b722-89a6013d0300
 title: Managing Local Partitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Local Partitions

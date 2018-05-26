@@ -1,7 +1,12 @@
 ---
-Description: 'The RegisterTypeLibraries action registers type libraries with the system. This action is applied to each file referred to in the TypeLib table that is scheduled for install.'
-ms.assetid: '374450bb-316c-4fe6-abb1-cd8a8a31f284'
+Description: The RegisterTypeLibraries action registers type libraries with the system. This action is applied to each file referred to in the TypeLib table that is scheduled for install.
+ms.assetid: 374450bb-316c-4fe6-abb1-cd8a8a31f284
 title: RegisterTypeLibraries Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterTypeLibraries Action

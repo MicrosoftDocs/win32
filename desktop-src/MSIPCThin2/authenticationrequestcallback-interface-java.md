@@ -4,17 +4,21 @@ description: AuthenticationRequestCallback interface definition.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '1C29304E-9EE4-4305-AA1A-4BC543DB9285'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 1C29304E-9EE4-4305-AA1A-4BC543DB9285
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AuthenticationRequestCallback interface"]
+keywords:
+- AuthenticationRequestCallback interface
 topic_type:
 - apiref
 api_name:
 - AuthenticationRequestCallback interface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationRequestCallback interface
@@ -39,7 +43,7 @@ public interface AuthenticationRequestCallback
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,7 +59,7 @@ AuthenticationRequestCallback.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -78,9 +82,9 @@ Members of this class are not guaranteed to be thread safe.
 [Azure AD Authentication Library](https://msdn.microsoft.com/library/jj573266.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

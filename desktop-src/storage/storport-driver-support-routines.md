@@ -1,7 +1,12 @@
 ---
 title: Storport Driver Support Routines
 description: Storport Driver Support Routines
-ms.assetid: 'a52ee6bf-6556-4481-a64d-ea6b5bbc787b'
+ms.assetid: a52ee6bf-6556-4481-a64d-ea6b5bbc787b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storport Driver Support Routines

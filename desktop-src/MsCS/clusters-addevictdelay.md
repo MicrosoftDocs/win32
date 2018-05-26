@@ -4,17 +4,23 @@ description: Specifies how many seconds after a node is evicted that the failove
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4de1dddd-ee4b-4770-8ff0-42aa0ae22e91'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4de1dddd-ee4b-4770-8ff0-42aa0ae22e91
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddEvictDelay Failover Cluster ,for clusters", "AddEvictDelay Failover Cluster ,for failover clusters", "AddEvictDelay Failover Cluster"]
+keywords:
+- AddEvictDelay Failover Cluster ,for clusters
+- AddEvictDelay Failover Cluster ,for failover clusters
+- AddEvictDelay Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AddEvictDelay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddEvictDelay
@@ -27,14 +33,14 @@ Specifies how many seconds after a node is evicted that the failover cluster ser
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 600<br/>                                       |
 | Default<br/>   | 60<br/>                                        |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +70,7 @@ AddEvictDelayValue.dw        = 15;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -75,15 +81,15 @@ AddEvictDelayValue.dw        = 15;
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**MSCluster\_Cluster**](https://msdn.microsoft.com/library/aa371422)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

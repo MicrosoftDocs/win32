@@ -2,7 +2,13 @@
 title: C-Compiler Definitions for Proxy/Stubs
 description: The header file Rpcproxy.h includes the following macro definitions, each of which may be convenient when building distributed COM application. These macros are invoked with the /D (or -D) preprocessor switch at the C-compile time.
 ms.assetid: 697f0b63-76ae-410d-8bbf-bb95295ffba9
-keywords: ["MIDL compiler MIDL , C-compiler, definitions for proxy/stubs"]
+keywords:
+- MIDL compiler MIDL , C-compiler, definitions for proxy/stubs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C-Compiler Definitions for Proxy/Stubs

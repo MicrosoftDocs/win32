@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_ACE abstract WMI class specifies an access control entry (ACE).'
+Description: The Win32\_ACE abstract WMI class specifies an access control entry (ACE).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dfeea7cd-6e24-486a-99d3-f54597bf6d27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dfeea7cd-6e24-486a-99d3-f54597bf6d27
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ACE class'
+title: Win32\_ACE class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ACE class
@@ -22,12 +25,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{8502C58A-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_ACE : __ACE
 {
-  uint64        TIME_CREATED;
-  uint32        AccessMask;
-  uint32        AceFlags;
-  uint32        AceType;
-  string        GuidInheritedObjectType;
-  string        GuidObjectType;
+  uint64        TIME_CREATED;
+  uint32        AccessMask;
+  uint32        AceFlags;
+  uint32        AceType;
+  string        GuidInheritedObjectType;
+  string        GuidObjectType;
   Win32_Trustee Trustee;
 };
 ```
@@ -435,8 +438,8 @@ Some values have different meanings depending on whether the **AccessMask** prop
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -465,9 +468,9 @@ Some values have different meanings depending on whether the **AccessMask** prop
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

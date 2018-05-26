@@ -1,7 +1,12 @@
 ---
 title: Windows Defender Enumerations
 description: Enumerations used by apps when calling to request scans, signature updates, or information from Windows Defender.
-ms.assetid: 'AC84ED57-6221-4A19-8A1D-E4E2811B027E'
+ms.assetid: AC84ED57-6221-4A19-8A1D-E4E2811B027E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Defender Enumerations
@@ -36,11 +41,11 @@ Enumerations used by apps when calling to request scans, signature updates, or i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: The IMsRdpDeviceCollection2 interface exposes the following methods
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D46F5106-1A14-4C48-8438-9BC1C006BA7C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: D46F5106-1A14-4C48-8438-9BC1C006BA7C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection2 methods

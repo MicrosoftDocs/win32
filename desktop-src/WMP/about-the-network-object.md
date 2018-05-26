@@ -1,8 +1,21 @@
 ---
 title: About the Network Object
 description: About the Network Object
-ms.assetid: '367a51d4-2db8-4c9e-82b7-85b2b631c721'
-keywords: ["Windows Media Player,Network object", "Windows Media Player object model,Network object", "object model,Network object", "Windows Media Player ActiveX control,Network object", "ActiveX control,Network object", "Windows Media Player Mobile ActiveX control,Network object", "Windows Media Player Mobile,Network object", "Network object"]
+ms.assetid: 367a51d4-2db8-4c9e-82b7-85b2b631c721
+keywords:
+- Windows Media Player,Network object
+- Windows Media Player object model,Network object
+- object model,Network object
+- Windows Media Player ActiveX control,Network object
+- ActiveX control,Network object
+- Windows Media Player Mobile ActiveX control,Network object
+- Windows Media Player Mobile,Network object
+- Network object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Network Object

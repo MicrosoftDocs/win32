@@ -1,16 +1,20 @@
 ---
-title: What's New
+title: Whats New
 description: Windows Server 2012 R2 introduces the following changes to the Data Deduplication API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3316A9B5-60A1-47DE-B361-5745514A944A'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3316A9B5-60A1-47DE-B361-5745514A944A
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Data Deduplication API Data Deduplication API , what's new"]
+keywords:
+- Data Deduplication API Data Deduplication API , whats new
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New
@@ -34,7 +38,7 @@ For more information about requirements, see [About Data Deduplication](about-da
 
 <dl>
 
-[**IDedupBackupSupport**](idedupbackupsupport.md) interface  
+[**IDedupBackupSupport**](/windows/previous-versions/DdpBackup/nn-ddpbackup-idedupbackupsupport?branch=master) interface  
 Changed methods:  
 <dl>
 

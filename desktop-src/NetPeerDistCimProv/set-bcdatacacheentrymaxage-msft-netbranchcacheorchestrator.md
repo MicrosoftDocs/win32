@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the maximum age of an entry in the data cache.'
-ms.assetid: '54a5ff3e-5f5c-4258-b1d3-19986d3cb047'
-title: 'Set\_BCDataCacheEntryMaxAge method of the MSFT\_NetBranchCacheOrchestrator class'
+Description: Sets the maximum age of an entry in the data cache.
+ms.assetid: 54a5ff3e-5f5c-4258-b1d3-19986d3cb047
+title: Set\_BCDataCacheEntryMaxAge method of the MSFT\_NetBranchCacheOrchestrator class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set\_BCDataCacheEntryMaxAge method of the MSFT\_NetBranchCacheOrchestrator class
@@ -13,9 +18,9 @@ Sets the maximum age of an entry in the data cache.
 
 ```mof
 uint32 Set_BCDataCacheEntryMaxAge(
-  [in] uint32  TimeDays,
-  [in] string  PolicyStore,
-  [in] boolean Force
+  [in] uint32  TimeDays,
+  [in] string  PolicyStore,
+  [in] boolean Force
 );
 ```
 
@@ -52,8 +57,8 @@ Indicates the operation should not prompt for confirmation.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ Indicates the operation should not prompt for confirmation.
 [**MSFT\_NetBranchCacheOrchestrator**](msft-netbranchcacheorchestrator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

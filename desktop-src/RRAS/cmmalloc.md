@@ -1,8 +1,9 @@
 ---
 title: CmMalloc function
 description: Allocates a block of memory from a heap.
-ms.assetid: '0a03b6e9-417d-4b31-9ddf-83534557d93b'
-keywords: ["CmMalloc function RAS"]
+ms.assetid: 0a03b6e9-417d-4b31-9ddf-83534557d93b
+keywords:
+- CmMalloc function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - CmUtil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CmMalloc function
@@ -22,7 +28,7 @@ The **CmMalloc** function allocates a block of memory from a heap.
 
 ```C++
 void* CmMalloc(
-   size_t nBytes
+   size_t nBytes
 );
 ```
 
@@ -61,8 +67,8 @@ To free a block of memory allocated by **CmMalloc**, use the [**CmFree**](cmfree
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>CmUtil.dll</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ To free a block of memory allocated by **CmMalloc**, use the [**CmFree**](cmfree
 [**CmFree**](cmfree.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

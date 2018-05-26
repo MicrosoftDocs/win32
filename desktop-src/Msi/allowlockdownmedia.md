@@ -1,7 +1,12 @@
 ---
-Description: 'Setting the value of this per-machine system policy to &\#0034;1&\#0034;, enables nonadministrative users to install managed applications from sources stored on media, such as a CD-ROM.'
-ms.assetid: '9eac7520-0ba3-4529-a80b-010447a5b5e7'
+Description: Setting the value of this per-machine system policy to &\#0034;1&\#0034;, enables nonadministrative users to install managed applications from sources stored on media, such as a CD-ROM.
+ms.assetid: 9eac7520-0ba3-4529-a80b-010447a5b5e7
 title: AllowLockdownMedia
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllowLockdownMedia

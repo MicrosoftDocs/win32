@@ -1,7 +1,12 @@
 ---
-Description: 'The LABELED\_DWORD structure defines a label that is displayed when a specific DWORD property value is detected.'
-ms.assetid: '1aed3226-6d69-41b0-860b-4ffb5b905f1a'
-title: 'LABELED\_DWORD structure'
+Description: The LABELED\_DWORD structure defines a label that is displayed when a specific DWORD property value is detected.
+ms.assetid: 1aed3226-6d69-41b0-860b-4ffb5b905f1a
+title: LABELED\_DWORD structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LABELED\_DWORD structure
@@ -48,8 +53,8 @@ The **lpLabeledDwordTable** member of the [SET](set.md) structure points to an a
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The **lpLabeledDwordTable** member of the [SET](set.md) structure points to an a
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

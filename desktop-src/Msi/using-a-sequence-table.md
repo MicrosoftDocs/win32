@@ -1,7 +1,12 @@
 ---
-Description: 'The authoring of the sequence tables is an essential part of developing an installer package because these tables specify the order of execution for the standard actions that control the installation process and display the user interface dialog boxes.'
-ms.assetid: 'db9a9cae-2a66-4e0d-a981-8de66d7c2a13'
+Description: The authoring of the sequence tables is an essential part of developing an installer package because these tables specify the order of execution for the standard actions that control the installation process and display the user interface dialog boxes.
+ms.assetid: db9a9cae-2a66-4e0d-a981-8de66d7c2a13
 title: Using a Sequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Sequence Table
@@ -18,7 +23,7 @@ The three separate installation modes currently supported by the installer are:
 
 The sequence tables each have three fields: Action, Condition, and Sequence. The Action field names either a standard or custom action or a user defined dialog box or sequence the installer executes. The Condition field allows the author to specify a logical expression that controls whether an action or user-defined dialog is executed or displayed. If the Condition field is blank or contains an expression that evaluates to True, the action or dialog is executed or displayed. The action or dialog is skipped if the expression evaluates to False. The Sequence field specifies the order of execution of each action or user-defined dialog in the table.
 
-Each of these installation modes processes the user interface sequence tables and the execute sequence tables. The user interface sequence tables are only processed if the installer was initialized with the user interface display level set to Reduced or Full. See the [**MsiSetInternalUI**](msisetinternalui.md) reference for more information about user interface display levels.
+Each of these installation modes processes the user interface sequence tables and the execute sequence tables. The user interface sequence tables are only processed if the installer was initialized with the user interface display level set to Reduced or Full. See the [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master) reference for more information about user interface display levels.
 
 The user interface sequence tables typically contains standard actions related to collecting system information that are displayed to the user through the user interface. The user interface is displayed by recording the foreign keys to the names of dialog boxes in the [dialog table](dialog-table.md) in the Action field of the user interface sequence table. The user then has the opportunity to modify or accept the system information and begin the installation, which occurs when the execute sequence table is processed.
 

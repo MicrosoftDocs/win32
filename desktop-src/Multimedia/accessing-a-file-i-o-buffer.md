@@ -1,8 +1,20 @@
 ---
 title: Accessing a File I/O Buffer
 description: Accessing a File I/O Buffer
-ms.assetid: 'b829d8ef-8e0b-4c30-b8cf-e9feccc63bbf'
-keywords: ["multimedia file I/O,accessing buffers", "file I/O,accessing buffers", "input and output (I/O),accessing buffers", "I/O (input and output),accessing buffers", "accessing I/O buffers", "buffered I/O", "mmioSetInfo function"]
+ms.assetid: b829d8ef-8e0b-4c30-b8cf-e9feccc63bbf
+keywords:
+- multimedia file I/O,accessing buffers
+- file I/O,accessing buffers
+- input and output (I/O),accessing buffers
+- I/O (input and output),accessing buffers
+- accessing I/O buffers
+- buffered I/O
+- mmioSetInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing a File I/O Buffer

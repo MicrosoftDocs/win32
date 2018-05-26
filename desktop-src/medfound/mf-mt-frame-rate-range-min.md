@@ -1,7 +1,12 @@
-﻿---
-Description: 'The minimum frame rate that is supported by a video capture device, in frames per second.'
-ms.assetid: 'd3725796-f683-4ca1-a37f-22c40fff0b76'
-title: 'MF\_MT\_FRAME\_RATE\_RANGE\_MIN attribute'
+---
+Description: The minimum frame rate that is supported by a video capture device, in frames per second.
+ms.assetid: d3725796-f683-4ca1-a37f-22c40fff0b76
+title: MF\_MT\_FRAME\_RATE\_RANGE\_MIN attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_FRAME\_RATE\_RANGE\_MIN attribute
@@ -14,9 +19,9 @@ The minimum frame rate that is supported by a video capture device, in frames pe
 
 ## Get/set
 
-To get this attribute, call [**MFGetAttributeRatio**](mfgetattributeratio.md).
+To get this attribute, call [**MFGetAttributeRatio**](/windows/win32/mfapi/nf-mfapi-mfgetattributeratio?branch=master).
 
-To set this attribute, call [**MFSetAttributeRatio**](mfsetattributeratio.md).
+To set this attribute, call [**MFSetAttributeRatio**](/windows/win32/mfapi/nf-mfapi-mfsetattributeratio?branch=master).
 
 ## Remarks
 

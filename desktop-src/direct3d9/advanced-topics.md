@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Direct3D provides a powerful set of tools that you can use to increase the realistic appearance of a 3D scene.'
-ms.assetid: '567dea5e-92f4-4c5b-8027-32de93fb2c55'
-title: 'Advanced Topics (Direct3D 9)'
+Description: Microsoft Direct3D provides a powerful set of tools that you can use to increase the realistic appearance of a 3D scene.
+ms.assetid: 567dea5e-92f4-4c5b-8027-32de93fb2c55
+title: Advanced Topics (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Topics (Direct3D 9)

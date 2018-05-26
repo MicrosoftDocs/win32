@@ -1,13 +1,20 @@
 ---
 title: Capturing Data
 description: Capturing Data
-ms.assetid: 'de029673-9929-40f9-b29b-2598e1e5c988'
-keywords: ["capCaptureSequence macro", "capFileSaveAs macro"]
+ms.assetid: de029673-9929-40f9-b29b-2598e1e5c988
+keywords:
+- capCaptureSequence macro
+- capFileSaveAs macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing Data
 
-The following example uses the [**capCaptureSequence**](capcapturesequence.md) macro to start video capture and the [**capFileSaveAs**](capfilesaveas.md) macro to copy the captured data from the capture file to the file NEWFILE.AVI.
+The following example uses the [**capCaptureSequence**](/windows/win32/Vfw/nf-vfw-capcapturesequence?branch=master) macro to start video capture and the [**capFileSaveAs**](/windows/win32/Vfw/nf-vfw-capfilesaveas?branch=master) macro to copy the captured data from the capture file to the file NEWFILE.AVI.
 
 
 ```C++

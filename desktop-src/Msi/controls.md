@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of installation packages can author a user interface containing the controls discussed in this topic.'
-ms.assetid: 'ed9fa158-9dad-4d2d-8153-78122b19a34e'
+Description: Developers of installation packages can author a user interface containing the controls discussed in this topic.
+ms.assetid: ed9fa158-9dad-4d2d-8153-78122b19a34e
 title: Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls
@@ -44,11 +49,11 @@ In some cases a control may be redrawn incorrectly when canceling out of a dialo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

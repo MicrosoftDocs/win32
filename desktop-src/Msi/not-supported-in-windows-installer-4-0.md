@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.0 and earlier versions.'
-ms.assetid: '7256b759-3fb5-4195-b0e4-a1631327ebb7'
-title: 'Not Supported in Windows Installer 4.0'
+Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;4.0 and earlier versions.
+ms.assetid: 7256b759-3fb5-4195-b0e4-a1631327ebb7
+title: Not Supported in Windows Installer 4.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Not Supported in Windows Installer 4.0
@@ -14,9 +19,9 @@ The following features are not supported in Windows Installer 4.0 and earlier v
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiBeginTransaction**](msibegintransaction.md)
--   [**MsiEndTransaction**](msiendtransaction.md)
--   [**MsiJoinTransaction**](msijointransaction.md)
+-   [**MsiBeginTransaction**](/windows/win32/Msi/nf-msi-msibegintransactiona?branch=master)
+-   [**MsiEndTransaction**](/windows/win32/Msi/nf-msi-msiendtransaction?branch=master)
+-   [**MsiJoinTransaction**](/windows/win32/Msi/nf-msi-msijointransaction?branch=master)
 
 [Properties](properties.md)
 

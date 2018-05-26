@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '5EA31AC4-FFAF-4AB8-B471-32B823F35D2F'
+---
+Description: .
+ms.assetid: 5EA31AC4-FFAF-4AB8-B471-32B823F35D2F
 title: SpoolerFreePrinterNotifyInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpoolerFreePrinterNotifyInfo function

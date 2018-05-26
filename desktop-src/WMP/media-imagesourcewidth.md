@@ -1,8 +1,9 @@
 ---
 title: Media.imageSourceWidth
 description: The imageSourceWidth property retrieves the width of the current media item in pixels.
-ms.assetid: '6559bd51-cec2-4fc6-aab8-f2fdd1d59bae'
-keywords: ["Media.imageSourceWidth Windows Media Player"]
+ms.assetid: 6559bd51-cec2-4fc6-aab8-f2fdd1d59bae
+keywords:
+- Media.imageSourceWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.imageSourceWidth
@@ -89,9 +95,9 @@ if (NewState == 13){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,17 @@ description: The Group Policy Management Console (GPMC) unifies Group Policy man
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a8e14771-0a8a-4329-bb8d-d6aa0ec6307c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: a8e14771-0a8a-4329-bb8d-d6aa0ec6307c
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["GPMC", "GPMC, start page", "Group Policy Management Console, (See GPMC)"]
+keywords:
+- GPMC
+- GPMC, start page
+- Group Policy Management Console, (See GPMC)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Policy Management Console

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the maximum number of events the animation controller can support.'
-ms.assetid: 'f76fe7e5-1173-403b-8af4-825476a851f1'
-title: 'ID3DXAnimationController::GetMaxNumEvents method'
+---
+Description: Gets the maximum number of events the animation controller can support.
+ms.assetid: f76fe7e5-1173-403b-8af4-825476a851f1
+title: ID3DXAnimationControllerGetMaxNumEvents method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetMaxNumEvents method

@@ -1,7 +1,12 @@
 ---
-Description: 'The WmiMonitorBrightnessMethods class exposes the following methods.'
-ms.assetid: '26BD3B90-16FC-4B44-8037-F5D8782F6E49'
+Description: The WmiMonitorBrightnessMethods class exposes the following methods.
+ms.assetid: 26BD3B90-16FC-4B44-8037-F5D8782F6E49
 title: WmiMonitorBrightnessMethods Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorBrightnessMethods Methods

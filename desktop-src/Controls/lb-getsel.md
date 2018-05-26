@@ -1,8 +1,9 @@
 ---
 title: LB\_GETSEL message
 description: Gets the selection state of an item.
-ms.assetid: 'f92c02e7-3c6d-4649-8798-42eb4a0c51b6'
-keywords: ["LB_GETSEL message Windows Controls"]
+ms.assetid: f92c02e7-3c6d-4649-8798-42eb4a0c51b6
+keywords:
+- LB_GETSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETSEL message
@@ -26,7 +32,7 @@ Gets the selection state of an item.
 
 The zero-based index of the item.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -47,8 +53,8 @@ If an item is selected, the return value is greater than zero; otherwise, it is 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ If an item is selected, the return value is greater than zero; otherwise, it is 
 [**LB\_SETSEL**](lb-setsel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

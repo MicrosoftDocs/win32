@@ -1,7 +1,12 @@
 ---
-Description: 'The suggested action sequences for a basic AdminUISequence table in a Windows Installer database.'
-ms.assetid: 'a5371133-7d55-4041-8e1f-ecc8245c8d3a'
+Description: The suggested action sequences for a basic AdminUISequence table in a Windows Installer database.
+ms.assetid: a5371133-7d55-4041-8e1f-ecc8245c8d3a
 title: Suggested AdminUISequence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Suggested AdminUISequence

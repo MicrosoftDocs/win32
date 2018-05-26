@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frees the value that is retrieved using GetJobNamedPropertyValue function.'
-ms.assetid: '38B760D9-CB6E-45AD-A83F-3C26D1B31A30'
+---
+Description: Frees the value that is retrieved using GetJobNamedPropertyValue function.
+ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 title: FreePrintPropertyValue function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreePrintPropertyValue function

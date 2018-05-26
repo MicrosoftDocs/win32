@@ -4,10 +4,13 @@ description: Your application should explicitly add \ 0034;Owner \ 0034; rights 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EF43FAC4-ABB4-459D-B173-972B5716F816'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EF43FAC4-ABB4-459D-B173-972B5716F816
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How-to: add explicit owner rights

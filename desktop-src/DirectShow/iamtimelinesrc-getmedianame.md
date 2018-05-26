@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMediaName method retrieves the name of the source file represented by this source object.'
-ms.assetid: '6f468628-10e1-4746-9c3a-6dae9aa3f6ad'
-title: 'IAMTimelineSrc::GetMediaName method'
+---
+Description: The GetMediaName method retrieves the name of the source file represented by this source object.
+ms.assetid: 6f468628-10e1-4746-9c3a-6dae9aa3f6ad
+title: IAMTimelineSrcGetMediaName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::GetMediaName method

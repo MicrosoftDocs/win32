@@ -2,13 +2,15 @@
 title: RemoteAccessS2SConfiguration class
 description: Retrieves and Updates a Remote Access site-to-site (S2S) interface configuration.
 audience: developer
-ms.assetid: '9d7a22a6-b489-4166-bf67-50da6fd2c043'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9d7a22a6-b489-4166-bf67-50da6fd2c043
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessS2SConfiguration class", "RemoteAccessS2SConfiguration class, described"]
+keywords:
+- RemoteAccessS2SConfiguration class
+- RemoteAccessS2SConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessS2SConfiguration class
@@ -37,8 +42,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class RemoteAccessS2SConfiguration
 {
   object S2SInterfaceConfiguration;
-  uint8  Ipv4TransportInfo[];
-  uint8  Ipv6TransportInfo[];
+  uint8  Ipv4TransportInfo[];
+  uint8  Ipv6TransportInfo[];
   string SharedSecret;
   string Password;
 };
@@ -131,7 +136,7 @@ The shared secret of the S2S interface
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -145,9 +150,9 @@ The shared secret of the S2S interface
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Requests deallocation of a frame object.'
-ms.assetid: 'b2793744-1bba-4a2b-938c-44ed316358fd'
-title: 'ID3DXAllocateHierarchy::DestroyFrame method'
+---
+Description: Requests deallocation of a frame object.
+ms.assetid: b2793744-1bba-4a2b-938c-44ed316358fd
+title: ID3DXAllocateHierarchyDestroyFrame method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAllocateHierarchy::DestroyFrame method

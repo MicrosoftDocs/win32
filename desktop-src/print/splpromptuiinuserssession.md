@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SplPromptUIInUsersSession function displays a standard message box in the session indicated by the printer handle and job ID.'
-ms.assetid: '5e458e3b-cfe2-4d48-b386-34d2a6c1d15e'
+---
+Description: The SplPromptUIInUsersSession function displays a standard message box in the session indicated by the printer handle and job ID.
+ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 title: SplPromptUIInUsersSession function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplPromptUIInUsersSession function

@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the Id properties for the IInkStrokeDisp objects of the coresponding word, line, paragraph, or drawing determined by ink analysis.'
-ms.assetid: 'f05ffa3b-2a47-46fe-bb8f-e682aa094b69'
+Description: Retrieves the Id properties for the IInkStrokeDisp objects of the coresponding word, line, paragraph, or drawing determined by ink analysis.
+ms.assetid: f05ffa3b-2a47-46fe-bb8f-e682aa094b69
 title: CallDivideResultsStrokeIds function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CallDivideResultsStrokeIds function
 
-Retrieves the [**Id**](iinkstrokedisp-id.md) properties for the [**IInkStrokeDisp**](iinkstrokedisp.md) objects of the coresponding word, line, paragraph, or drawing determined by ink analysis.
+Retrieves the [**Id**](/windows/win32/msinkaut/nf-msinkaut-iinkstrokedisp-get_id?branch=master) properties for the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects of the coresponding word, line, paragraph, or drawing determined by ink analysis.
 
 This function is not intended to be used by application code.
 
@@ -15,11 +20,11 @@ This function is not intended to be used by application code.
 
 ```C++
 HRESULT WINAPI CallDivideResultsStrokeIds(
-  _In_  INT_PTR hDivider,
-  _Out_ int     aWordStrokeIds[],
-  _Out_ int     aLineStrokeIds[],
-  _Out_ int     aParagraphStrokeIds[],
-  _Out_ int     aDrawingStrokeIds[]
+  _In_  INT_PTR hDivider,
+  _Out_ int     aWordStrokeIds[],
+  _Out_ int     aLineStrokeIds[],
+  _Out_ int     aParagraphStrokeIds[],
+  _Out_ int     aDrawingStrokeIds[]
 );
 ```
 
@@ -77,7 +82,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -85,15 +90,15 @@ This function can return one of these values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Library<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

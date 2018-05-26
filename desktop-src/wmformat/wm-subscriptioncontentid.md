@@ -1,14 +1,20 @@
 ---
 title: WM/SubscriptionContentID
 description: The WM/SubscriptionContentID attribute contains the subscription content identifier.
-ms.assetid: 'c287c324-aa48-48ee-8699-d30e5b30117b'
-keywords: ["WM/SubscriptionContentID windows Media Format"]
+ms.assetid: c287c324-aa48-48ee-8699-d30e5b30117b
+keywords:
+- WM/SubscriptionContentID windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/SubscriptionContentID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/SubscriptionContentID

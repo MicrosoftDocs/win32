@@ -1,7 +1,12 @@
 ---
-Description: 'Sets various battery information.'
-ms.assetid: 'b827983d-5fb8-43f2-b732-541d16b3eb7b'
-title: 'IOCTL\_BATTERY\_SET\_INFORMATION control code'
+Description: Sets various battery information.
+ms.assetid: b827983d-5fb8-43f2-b732-541d16b3eb7b
+title: IOCTL\_BATTERY\_SET\_INFORMATION control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_BATTERY\_SET\_INFORMATION control code
@@ -114,9 +119,9 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -145,9 +150,9 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

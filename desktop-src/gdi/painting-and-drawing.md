@@ -1,7 +1,12 @@
 ---
-Description: 'This overview describes how the system manages output to the screen and explains what applications must do to draw in a window.'
-ms.assetid: '97d606a0-11d3-49c3-b045-8397f4bcfa54'
+Description: This overview describes how the system manages output to the screen and explains what applications must do to draw in a window.
+ms.assetid: 97d606a0-11d3-49c3-b045-8397f4bcfa54
 title: Painting and Drawing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Painting and Drawing

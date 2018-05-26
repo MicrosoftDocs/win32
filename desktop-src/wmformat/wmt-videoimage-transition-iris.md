@@ -1,8 +1,9 @@
 ---
 title: WMT\_VIDEOIMAGE\_TRANSITION\_IRIS
 description: The iris transition reveals the new image along an x-axis and a y-axis. The visual effect of this transition is that the new image appears in a widening cross reaching to all sides of the frame.
-ms.assetid: '7390d959-a566-43e7-937d-1e617bc98a6e'
-keywords: ["WMT_VIDEOIMAGE_TRANSITION_IRIS windows Media Format"]
+ms.assetid: 7390d959-a566-43e7-937d-1e617bc98a6e
+keywords:
+- WMT_VIDEOIMAGE_TRANSITION_IRIS windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_IRIS
@@ -19,7 +25,7 @@ The iris transition reveals the new image along an x-axis and a y-axis. The visu
 
 ## Parameters
 
-The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md) structure to which they are assigned.
+The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master) structure to which they are assigned.
 
 
 
@@ -71,7 +77,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -90,9 +96,9 @@ The following table describes the parameters used by this transition and lists t
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

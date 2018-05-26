@@ -1,8 +1,11 @@
 ---
 title: Hide method of the MSFT\_VirtualDisk class
 description: Hides a virtual disk from an initiator.
-ms.assetid: 'E47716E5-9397-4AAB-B33F-CB39188A683A'
-keywords: ["Hide method Windows Storage Management API", "Hide method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , Hide method"]
+ms.assetid: E47716E5-9397-4AAB-B33F-CB39188A683A
+keywords:
+- Hide method Windows Storage Management API
+- Hide method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , Hide method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hide method of the MSFT\_VirtualDisk class
@@ -24,11 +32,11 @@ This operation is also known as "unexposing" or "masking" a virtual disk.
 
 ```mof
 UInt32 Hide(
-  [in]  String              TargetPortAddresses[],
-  [in]  String              InitiatorAddress,
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              TargetPortAddresses[],
+  [in]  String              InitiatorAddress,
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -64,7 +72,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -141,8 +149,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -155,9 +163,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

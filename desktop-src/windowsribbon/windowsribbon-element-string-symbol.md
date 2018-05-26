@@ -1,14 +1,20 @@
 ---
 title: String.Symbol property
 description: Represents the name of a string resource.
-ms.assetid: '7c1d0197-2c9b-4f42-afba-73fd1c366deb'
-keywords: ["String.Symbol property Windows Ribbon"]
+ms.assetid: 7c1d0197-2c9b-4f42-afba-73fd1c366deb
+keywords:
+- String.Symbol property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - String.Symbol
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String.Symbol property
@@ -74,14 +80,14 @@ The following example demonstrates the markup for a [**Command.LabelTitle**](win
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

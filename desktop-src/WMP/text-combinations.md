@@ -1,8 +1,17 @@
 ---
 title: Text Combinations
 description: Text Combinations
-ms.assetid: '0220b77e-5f1e-4569-a8fe-5085e0c16338'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "reference for skins,marquees", "marquees in skins,text combinations"]
+ms.assetid: 0220b77e-5f1e-4569-a8fe-5085e0c16338
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- reference for skins,marquees
+- marquees in skins,text combinations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Combinations

@@ -2,13 +2,19 @@
 title: aggregatable attribute
 description: The \ aggregatable\ attribute indicates that the class supports aggregation.
 ms.assetid: 3b680692-fbf7-4aeb-b11a-c3a87ddaea67
-keywords: ["aggregatable attribute MIDL"]
+keywords:
+- aggregatable attribute MIDL
 topic_type:
 - apiref
 api_name:
 - aggregatable
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # aggregatable attribute

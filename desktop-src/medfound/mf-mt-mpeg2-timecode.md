@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a media type that describes an MPEG-2 transport stream (TS), specifies the transport packets contain a 4-byte time code.'
-ms.assetid: 'B172E7A8-5757-49B7-A784-FAFC7E904A4C'
-title: 'MF\_MT\_MPEG2\_TIMECODE attribute'
+---
+Description: For a media type that describes an MPEG-2 transport stream (TS), specifies the transport packets contain a 4-byte time code.
+ms.assetid: B172E7A8-5757-49B7-A784-FAFC7E904A4C
+title: MF\_MT\_MPEG2\_TIMECODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_MPEG2\_TIMECODE attribute

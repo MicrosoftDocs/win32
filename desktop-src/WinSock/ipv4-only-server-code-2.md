@@ -1,7 +1,12 @@
 ---
-Description: 'The following code is the Simples.c file, which is an IPv4-only Windows Sockets server (an IPv6-enabled version of the Simples.c file can be found in Appendix B).'
-ms.assetid: '02e599e9-8652-4ca1-9355-b989dadedcdf'
-title: 'IPv4-only Server Code'
+Description: The following code is the Simples.c file, which is an IPv4-only Windows Sockets server (an IPv6-enabled version of the Simples.c file can be found in Appendix B).
+ms.assetid: 02e599e9-8652-4ca1-9355-b989dadedcdf
+title: IPv4-only Server Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv4-only Server Code

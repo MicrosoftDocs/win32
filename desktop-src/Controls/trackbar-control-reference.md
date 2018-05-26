@@ -1,7 +1,12 @@
 ---
 title: Trackbar
 description: This section contains information about the programming elements used with trackbar controls.
-ms.assetid: '0940bc3a-c19e-4bfa-9635-32ac92dea24b'
+ms.assetid: 0940bc3a-c19e-4bfa-9635-32ac92dea24b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbar
@@ -19,7 +24,7 @@ This section contains information about the programming elements used with track
 
 
 
- 
+ 
 
 ### Messages
 
@@ -66,7 +71,7 @@ This section contains information about the programming elements used with track
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -80,7 +85,7 @@ This section contains information about the programming elements used with track
 
 
 
- 
+ 
 
 ### Constants
 
@@ -93,11 +98,11 @@ This section contains information about the programming elements used with track
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

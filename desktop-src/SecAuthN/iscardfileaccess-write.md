@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Write method writes data to a current opened file.'
-ms.assetid: '0c92af34-a9db-4242-8b6e-d1010a0d7afa'
-title: 'ISCardFileAccess::Write method'
+---
+Description: The Write method writes data to a current opened file.
+ms.assetid: 0c92af34-a9db-4242-8b6e-d1010a0d7afa
+title: ISCardFileAccessWrite method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::Write method

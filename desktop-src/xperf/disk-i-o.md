@@ -1,8 +1,14 @@
 ---
 title: Disk I/O
 description: Disk I/O
-ms.assetid: 'f6f989f3-079c-443c-b697-44bf3f10c0b9'
-keywords: ["histogram graph"]
+ms.assetid: f6f989f3-079c-443c-b697-44bf3f10c0b9
+keywords:
+- histogram graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk I/O

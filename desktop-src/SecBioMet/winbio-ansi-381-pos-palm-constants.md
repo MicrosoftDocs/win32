@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ANSI\_381\_POS Palm Constants
 description: Specify the palm and palm areas scanned by a sensor.
-ms.assetid: 'FD0B731C-81FB-41F0-8D1E-99AB2DE98773'
+ms.assetid: FD0B731C-81FB-41F0-8D1E-99AB2DE98773
 topic_type:
 - apiref
 api_name:
@@ -26,6 +26,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANSI\_381\_POS Palm Constants
@@ -57,8 +62,8 @@ The following constants can be used to specify the palm and palm areas scanned b
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -70,9 +75,9 @@ The following constants can be used to specify the palm and palm areas scanned b
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

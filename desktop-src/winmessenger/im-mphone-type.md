@@ -1,8 +1,10 @@
 ---
 title: MPHONE\_TYPE enumeration
 description: Do not use. Specifies which phone number of a given contact is used.
-ms.assetid: 'c43925f7-1c43-43f2-860f-b41773bae378'
-keywords: ["MPHONE_TYPE enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: c43925f7-1c43-43f2-860f-b41773bae378
+keywords:
+- MPHONE_TYPE enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrua.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPHONE\_TYPE enumeration
 
-\[**MPHONE\_TYPE** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MPHONE\_TYPE** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Specifies which phone number of a given contact is used.
 
@@ -24,11 +31,11 @@ Do not use. Specifies which phone number of a given contact is used.
 
 ```C++
 typedef enum  { 
-  MPHONE_TYPE_ALL     = -1,
+  MPHONE_TYPE_ALL     = -1,
   MPHONE_TYPE_HOME,
-  MPHONE_TYPE_WORK    = 1,
-  MPHONE_TYPE_MOBILE  = 2,
-  MPHONE_TYPE_CUSTOM  = 3
+  MPHONE_TYPE_WORK    = 1,
+  MPHONE_TYPE_MOBILE  = 2,
+  MPHONE_TYPE_CUSTOM  = 3
 } LockError;
 ```
 
@@ -83,16 +90,16 @@ This constant is used as an index for APIs that get or set phone number informat
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

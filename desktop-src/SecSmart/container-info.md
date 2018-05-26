@@ -1,8 +1,10 @@
 ---
 title: CONTAINER\_INFO structure
 description: Contains information about a key container on a smart card.
-ms.assetid: '061aefe0-89e0-4d47-af1f-674b06bd761d'
-keywords: ["CONTAINER_INFO structure Security", "PCONTAINER_INFO structure pointer Security"]
+ms.assetid: 061aefe0-89e0-4d47-af1f-674b06bd761d
+keywords:
+- CONTAINER_INFO structure Security
+- PCONTAINER_INFO structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTAINER\_INFO structure
@@ -91,8 +98,8 @@ This structure is initialized by the [**CardGetContainerInfo**](cardgetcontainer
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -110,9 +117,9 @@ This structure is initialized by the [**CardGetContainerInfo**](cardgetcontainer
 [**CardGetContainerInfo**](cardgetcontainerinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

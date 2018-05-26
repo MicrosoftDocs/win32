@@ -1,13 +1,16 @@
 ---
-Description: 'The System Registry provider attempts to send one notification for every event that occurs.'
+Description: The System Registry provider attempts to send one notification for every event that occurs.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '51ef0ccb-02d5-4dac-9c71-a7f4e25a0d00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 51ef0ccb-02d5-4dac-9c71-a7f4e25a0d00
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Registry Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Registry Events

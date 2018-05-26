@@ -1,7 +1,7 @@
 ---
 title: DirectDraw Return Codes
 description: Errors are represented by negative values and cannot be combined.
-ms.assetid: 'F713193E-3614-4741-B293-D312C170270A'
+ms.assetid: F713193E-3614-4741-B293-D312C170270A
 topic_type:
 - apiref
 api_name:
@@ -127,6 +127,11 @@ api_location:
 - Ddraw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectDraw Return Codes
@@ -160,7 +165,7 @@ The object has already been initialized.
 
 
 
-A DirectDrawClipper object is attached to a source surface that has passed into a call to the [**IDirectDrawSurface7::BltFast**](idirectdrawsurface7-bltfast.md) method.
+A DirectDrawClipper object is attached to a source surface that has passed into a call to the [**IDirectDrawSurface7::BltFast**](/windows/win32/Ddraw/nf-ddraw-idirectdrawsurface7-bltfast?branch=master) method.
 
 
 </dt> </dl> </dd> <dt>
@@ -420,7 +425,7 @@ DirectDraw does not support the provided clip list.
 
 
 
-The globally unique identifier (GUID) passed to the [**DirectDrawCreate**](directdrawcreate.md) function is not a valid DirectDraw driver identifier.
+The globally unique identifier (GUID) passed to the [**DirectDrawCreate**](/windows/win32/Ddraw/nf-ddraw-directdrawcreate?branch=master) function is not a valid DirectDraw driver identifier.
 
 
 </dt> </dl> </dd> <dt>
@@ -530,7 +535,7 @@ There is more data available than the specified buffer size can hold.
 
 
 
-New for DirectX 7.0. When [**IDirectDraw7::StartModeTest**](idirectdraw7-startmodetest.md) is called with the DDSMT\_ISTESTREQUIRED flag, it might return this value to denote that some or all of the resolutions can and should be tested. [**IDirectDraw7::EvaluateMode**](idirectdraw7-evaluatemode.md) returns this value to indicate that the test has switched to a new display mode.
+New for DirectX 7.0. When [**IDirectDraw7::StartModeTest**](/windows/win32/Ddraw/nf-ddraw-idirectdraw7-startmodetest?branch=master) is called with the DDSMT\_ISTESTREQUIRED flag, it might return this value to denote that some or all of the resolutions can and should be tested. [**IDirectDraw7::EvaluateMode**](/windows/win32/Ddraw/nf-ddraw-idirectdraw7-evaluatemode?branch=master) returns this value to indicate that the test has switched to a new display mode.
 
 
 </dt> </dl> </dd> <dt>
@@ -620,7 +625,7 @@ There is no hardware support for the destination color key.
 
 
 
-A create function was called without the [**IDirectDraw7::SetCooperativeLevel**](idirectdraw7-setcooperativelevel.md) method.
+A create function was called without the [**IDirectDraw7::SetCooperativeLevel**](/windows/win32/Ddraw/nf-ddraw-idirectdraw7-setcooperativelevel?branch=master) method.
 
 
 </dt> </dl> </dd> <dt>
@@ -790,7 +795,7 @@ The device does not support optimized surfaces.
 
 
 
-The [**IDirectDrawSurface7::GetOverlayPosition**](idirectdrawsurface7-getoverlayposition.md) method is called on an overlay that the [**IDirectDrawSurface7::UpdateOverlay**](idirectdrawsurface7-updateoverlay.md) method has not been called on to establish as a destination.
+The [**IDirectDrawSurface7::GetOverlayPosition**](/windows/win32/Ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition?branch=master) method is called on an overlay that the [**IDirectDrawSurface7::UpdateOverlay**](/windows/win32/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay?branch=master) method has not been called on to establish as a destination.
 
 
 </dt> </dl> </dd> <dt>
@@ -1000,7 +1005,7 @@ The surface being used is not a palette-based surface.
 
 
 
-There is no hardware support for vertical blank–synchronized operations.
+There is no hardware support for vertical blank synchronized operations.
 
 
 </dt> </dl> </dd> <dt>
@@ -1090,7 +1095,7 @@ An attempt was made to have more than one color key active on an overlay.
 
 
 
-The [**IDirectDrawSurface7::GetOverlayPosition**](idirectdrawsurface7-getoverlayposition.md) method was called on a hidden overlay.
+The [**IDirectDrawSurface7::GetOverlayPosition**](/windows/win32/Ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition?branch=master) method was called on a hidden overlay.
 
 
 </dt> </dl> </dd> <dt>
@@ -1120,7 +1125,7 @@ This process has already created a primary surface.
 
 
 
-The region passed to the [**IDirectDrawClipper::GetClipList**](idirectdrawclipper-getcliplist.md) method is too small.
+The region passed to the [**IDirectDrawClipper::GetClipList**](/windows/win32/Ddraw/nf-ddraw-idirectdrawclipper-getcliplist?branch=master) method is too small.
 
 
 </dt> </dl> </dd> <dt>
@@ -1170,7 +1175,7 @@ Access to the surface is refused because the surface is obscured.
 
 
 
-Access to the surface is refused because the surface memory is gone. Call the [**IDirectDrawSurface7::Restore**](idirectdrawsurface7-restore.md) method on this surface to restore the memory associated with it.
+Access to the surface is refused because the surface memory is gone. Call the [**IDirectDrawSurface7::Restore**](/windows/win32/Ddraw/nf-ddraw-idirectdrawsurface7-restore?branch=master) method on this surface to restore the memory associated with it.
 
 
 </dt> </dl> </dd> <dt>
@@ -1190,7 +1195,7 @@ The requested surface is not attached.
 
 
 
-New for DirectX 7.0. When returned by the [**IDirectDraw7::StartModeTest**](idirectdraw7-startmodetest.md) method, this value means that no test could be initiated because all the resolutions chosen for testing already have refresh rate information in the registry. When returned by [**IDirectDraw7::EvaluateMode**](idirectdraw7-evaluatemode.md), the value means that DirectDraw has completed a refresh rate test.
+New for DirectX 7.0. When returned by the [**IDirectDraw7::StartModeTest**](/windows/win32/Ddraw/nf-ddraw-idirectdraw7-startmodetest?branch=master) method, this value means that no test could be initiated because all the resolutions chosen for testing already have refresh rate information in the registry. When returned by [**IDirectDraw7::EvaluateMode**](/windows/win32/Ddraw/nf-ddraw-idirectdraw7-evaluatemode?branch=master), the value means that DirectDraw has completed a refresh rate test.
 
 
 </dt> </dl> </dd> <dt>
@@ -1325,9 +1330,9 @@ The provided rectangle was not horizontally aligned on a required boundary.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

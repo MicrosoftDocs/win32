@@ -1,7 +1,12 @@
 ---
-Description: 'MPEG-2 Demux Run-Time Modes'
-ms.assetid: 'b0d0c725-9220-43a5-af1c-d3c5c72e1ef3'
-title: 'MPEG-2 Demux Run-Time Modes'
+Description: MPEG-2 Demux Run-Time Modes
+ms.assetid: b0d0c725-9220-43a5-af1c-d3c5c72e1ef3
+title: MPEG-2 Demux Run-Time Modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Demux Run-Time Modes
@@ -13,8 +18,8 @@ The [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md) ("demux") can operate in pus
 
 The demux therefore supports three possible modes: Program streams in pull mode, program streams in push mode, and transport streams in push mode. The demux determines which mode to use at run time. The mode is determined when the input pin connects, or when the first output pin is configured, whichever happens first:
 
--   When the input pin connects: On Windows XP and later, the demux queries the upstream filter for the [**IAsyncReader**](iasyncreader.md) interface; if the upstream filter exposes that interface, the demux configures itself for program streams in pull mode. Otherwise, the demux uses push mode, and the media type determines the stream type (program stream or transport stream). See [**MPEG-2 Demultiplexer Media Types**](mpeg-2-demultiplexer-media-types.md) for a list of input types.
--   When the first output pin is configured: If you create an output pin and query it for [**IMPEG2PIDMap**](impeg2pidmap.md), the demux configures itself for transport streams in push mode. If you query the pin for [**IMPEG2StreamIdMap**](impeg2streamidmap.md), the demux configures itself for program streams, also in push mode. Any subsequent queries for the other interface fail, because the demux cannot operate in two modes at once.
+-   When the input pin connects: On Windows XP and later, the demux queries the upstream filter for the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface; if the upstream filter exposes that interface, the demux configures itself for program streams in pull mode. Otherwise, the demux uses push mode, and the media type determines the stream type (program stream or transport stream). See [**MPEG-2 Demultiplexer Media Types**](mpeg-2-demultiplexer-media-types.md) for a list of input types.
+-   When the first output pin is configured: If you create an output pin and query it for [**IMPEG2PIDMap**](/windows/win32/Bdaiface/nn-bdaiface-impeg2pidmap?branch=master), the demux configures itself for transport streams in push mode. If you query the pin for [**IMPEG2StreamIdMap**](/windows/win32/Strmif/nn-strmif-impeg2streamidmap?branch=master), the demux configures itself for program streams, also in push mode. Any subsequent queries for the other interface fail, because the demux cannot operate in two modes at once.
 
 Once the demux has configured itself for a particular mode, it remains in that mode. To use a different mode, you must create a new instance of the demux.
 

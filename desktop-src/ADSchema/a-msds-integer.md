@@ -4,17 +4,22 @@ description: An attribute for storing an integer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a5a5dd7c-a070-45c4-a6ab-c931d2fb68ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a5a5dd7c-a070-45c4-a6ab-c931d2fb68ff
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Integer attribute AD Schema", "msDS-Integer attribute AD Schema"]
+keywords:
+- ms-DS-Integer attribute AD Schema
+- msDS-Integer attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Integer
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Integer attribute
@@ -38,11 +43,11 @@ An attribute for storing an integer.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ An attribute for storing an integer.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

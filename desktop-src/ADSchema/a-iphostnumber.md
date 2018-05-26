@@ -4,17 +4,21 @@ description: Contains the IP address of the host in dotted decimal notation, omi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0ac29b9c-17eb-483e-9c1b-1c853a197cfc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0ac29b9c-17eb-483e-9c1b-1c853a197cfc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ipHostNumber attribute AD Schema"]
+keywords:
+- ipHostNumber attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ipHostNumber
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ipHostNumber attribute
@@ -38,10 +42,10 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -134,9 +138,9 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 [RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

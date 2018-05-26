@@ -1,7 +1,12 @@
 ---
-Description: 'This topic explains how to create new file types and how to associate your app with your file type and other well-defined file types.'
-ms.assetid: '055648cd-46ce-4e61-80b2-bcf1d1823e20'
+Description: This topic explains how to create new file types and how to associate your app with your file type and other well-defined file types.
+ms.assetid: 055648cd-46ce-4e61-80b2-bcf1d1823e20
 title: File Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Types
@@ -115,8 +120,8 @@ Important considerations about file types include:
 
     Subkeys of the verb subkey include the command line and the drop target method: **command** and **DropTarget**.
 
--   When you create or change a file association, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](shchangenotify.md) and specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change may not be recognized until after the system is rebooted.
--   To retrieve registry information regarding a file association, use the [**IQueryAssociations**](iqueryassociations.md) interface. For a scenario that illustrates this procedure, see [File Association Sample Scenario](fa-sample-scenarios.md).
+-   When you create or change a file association, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master) and specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change may not be recognized until after the system is rebooted.
+-   To retrieve registry information regarding a file association, use the [**IQueryAssociations**](/windows/win32/Shlwapi/?branch=master) interface. For a scenario that illustrates this procedure, see [File Association Sample Scenario](fa-sample-scenarios.md).
 
 > [!Note]  
 > Both the **App Paths** and **Applications** registry subkeys are used to register and control the behavior of the system on behalf of applications. For more detailed information about this functionality, see [Application Registration](app-registration.md).

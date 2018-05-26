@@ -1,7 +1,12 @@
 ---
 title: Selecting Time Intervals
 description: Selecting Time Intervals
-ms.assetid: '0388be5b-d2e1-44a8-baa2-cffcebd6ce83'
+ms.assetid: 0388be5b-d2e1-44a8-baa2-cffcebd6ce83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting Time Intervals

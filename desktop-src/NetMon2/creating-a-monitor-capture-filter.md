@@ -1,7 +1,12 @@
 ---
-Description: 'Creating a capture filter that works with Network Monitor is a five-step process.'
-ms.assetid: '04be791c-43c5-44c2-8ab0-799a99974bf6'
+Description: Creating a capture filter that works with Network Monitor is a five-step process.
+ms.assetid: 04be791c-43c5-44c2-8ab0-799a99974bf6
 title: Creating a Monitor Capture Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Monitor Capture Filter

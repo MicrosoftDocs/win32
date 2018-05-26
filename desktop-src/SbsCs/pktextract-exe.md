@@ -1,7 +1,12 @@
 ---
-Description: 'Pktextract.exe is a tool that extracts the publicKeyToken attribute from a certificate file.'
-ms.assetid: '195ff5bd-bb60-4053-9308-ceacd29853c0'
-title: 'Pktextract.exe'
+Description: Pktextract.exe is a tool that extracts the publicKeyToken attribute from a certificate file.
+ms.assetid: 195ff5bd-bb60-4053-9308-ceacd29853c0
+title: Pktextract.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pktextract.exe

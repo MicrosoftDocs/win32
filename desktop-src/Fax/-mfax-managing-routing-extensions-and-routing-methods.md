@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to access information about routing extensions and routing methods.'
-ms.assetid: 'cef24608-cab1-4090-aa94-3a1b76733e98'
+Description: The following Microsoft Visual Basic code example demonstrates how to access information about routing extensions and routing methods.
+ms.assetid: cef24608-cab1-4090-aa94-3a1b76733e98
 title: Managing Routing Extensions and Routing Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Routing Extensions and Routing Methods

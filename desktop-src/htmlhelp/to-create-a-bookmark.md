@@ -1,7 +1,12 @@
 ---
 title: To create a bookmark
 description: To create a bookmark
-ms.assetid: 'D954DC6A-24AB-4c5d-ADC3-74E8C8B64BB6'
+ms.assetid: D954DC6A-24AB-4c5d-ADC3-74E8C8B64BB6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a bookmark

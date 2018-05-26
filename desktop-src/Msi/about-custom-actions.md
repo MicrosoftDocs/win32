@@ -1,7 +1,12 @@
 ---
-Description: 'Although standard actions are sufficient to execute an installation in most cases, custom actions enable the author of an installation package to extend the capabilities of standard actions by including executables, dynamic-link libraries, and script.'
-ms.assetid: '2cbb60ff-dd41-4699-82a4-77b217dc1228'
+Description: Although standard actions are sufficient to execute an installation in most cases, custom actions enable the author of an installation package to extend the capabilities of standard actions by including executables, dynamic-link libraries, and script.
+ms.assetid: 2cbb60ff-dd41-4699-82a4-77b217dc1228
 title: About Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Custom Actions

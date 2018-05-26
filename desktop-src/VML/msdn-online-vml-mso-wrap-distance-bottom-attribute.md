@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Wrap-Distance-Bottom Attribute
 description: VML MSO-Wrap-Distance-Bottom Attribute
-ms.assetid: 'b096fc67-dd99-4833-bb82-73de7b06f43c'
+ms.assetid: b096fc67-dd99-4833-bb82-73de7b06f43c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Wrap-Distance-Bottom Attribute

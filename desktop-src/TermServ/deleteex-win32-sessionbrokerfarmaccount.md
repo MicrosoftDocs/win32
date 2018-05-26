@@ -1,14 +1,17 @@
 ---
 title: DeleteEx method of the Win32\_SessionBrokerFarmAccount class
-description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
+description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd30c5d3e-f63c-4b21-85ae-a0b8d5868d64'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d30c5d3e-f63c-4b21-85ae-a0b8d5868d64
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeleteEx method Remote Desktop Services", "DeleteEx method Remote Desktop Services , Win32_SessionBrokerFarmAccount class", "Win32_SessionBrokerFarmAccount class Remote Desktop Services , DeleteEx method"]
+keywords:
+- DeleteEx method Remote Desktop Services
+- DeleteEx method Remote Desktop Services , Win32_SessionBrokerFarmAccount class
+- Win32_SessionBrokerFarmAccount class Remote Desktop Services , DeleteEx method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteEx method of the Win32\_SessionBrokerFarmAccount class
 
-\[The [**Win32\_SessionBrokerFarmAccount**](win32-sessionbrokerfarmaccount.md) class is no longer available for use as of Windows Server 2012.\]
+\[The [**Win32\_SessionBrokerFarmAccount**](win32-sessionbrokerfarmaccount.md) class is no longer available for use as of Windows Server 2012.\]
 
 Deletes the farm account.
 
@@ -30,7 +36,7 @@ Deletes the farm account.
 
 ```mof
 uint32 DeleteEx(
-  [in] boolean DeleteComputerObject
+  [in] boolean DeleteComputerObject
 );
 ```
 
@@ -58,9 +64,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | End of client support<br/>    | None supported<br/>                                                              |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                      |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_SessionBrokerFarmAccount**](win32-sessionbrokerfarmaccount.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

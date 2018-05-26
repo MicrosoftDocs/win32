@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the DirectAccess client experience settings.'
-ms.assetid: '8199c7dc-8ab3-48cd-b23f-1333b2f243d4'
-title: 'Reset method of the MSFT\_DAClientExperienceConfiguration class'
+Description: Resets the DirectAccess client experience settings.
+ms.assetid: 8199c7dc-8ab3-48cd-b23f-1333b2f243d4
+title: Reset method of the MSFT\_DAClientExperienceConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_DAClientExperienceConfiguration class
@@ -13,18 +18,18 @@ Resets the DirectAccess client experience settings.
 
 ```mof
 uint32 Reset(
-  [in]  boolean                              CorporateResources,
-  [in]  boolean                              IPsecTunnelEndpoints,
-  [in]  boolean PreferLocalNamesAllowed      In,
-  [in]  boolean                              SupportEmail,
-  [in]  boolean                              FriendlyName,
-  [in]  boolean                              PassiveMode,
-  [in]  boolean                              CustomCommands,
-  [in]  boolean                              ManualEntryPointSelectionAllowed,
-  [in]  boolean                              GslbFqdn,
-  [in]  boolean                              ForceTunneling,
-  [in]  boolean                              PassThru,
-  [out] MSFT_DAClientExperienceConfiguration OutputObject
+  [in]  boolean                              CorporateResources,
+  [in]  boolean                              IPsecTunnelEndpoints,
+  [in]  boolean PreferLocalNamesAllowed      In,
+  [in]  boolean                              SupportEmail,
+  [in]  boolean                              FriendlyName,
+  [in]  boolean                              PassiveMode,
+  [in]  boolean                              CustomCommands,
+  [in]  boolean                              ManualEntryPointSelectionAllowed,
+  [in]  boolean                              GslbFqdn,
+  [in]  boolean                              ForceTunneling,
+  [in]  boolean                              PassThru,
+  [out] MSFT_DAClientExperienceConfiguration OutputObject
 );
 ```
 
@@ -124,8 +129,8 @@ Receives a [**MSFT\_DAClientExperienceConfiguration**](msft-daclientexperienceco
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetDACim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetDACim.dll</dt> </dl> |
@@ -139,9 +144,9 @@ Receives a [**MSFT\_DAClientExperienceConfiguration**](msft-daclientexperienceco
 [**MSFT\_DAClientExperienceConfiguration**](msft-daclientexperienceconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The ActivateAtPosition method activates the menu button at the specified position.'
-ms.assetid: 'eddc4880-dd78-4d96-8bff-c5c883a19927'
+Description: The ActivateAtPosition method activates the menu button at the specified position.
+ms.assetid: eddc4880-dd78-4d96-8bff-c5c883a19927
 title: ActivateAtPosition Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivateAtPosition Method

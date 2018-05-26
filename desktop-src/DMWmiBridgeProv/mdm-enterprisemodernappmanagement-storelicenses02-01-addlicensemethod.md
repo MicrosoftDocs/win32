@@ -1,8 +1,11 @@
 ---
 title: AddLicenseMethod method of the MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class
 description: Method for adding license. See also, AddLicense.
-ms.assetid: '325d284d-10ac-4786-8b04-8184ac43b53f'
-keywords: ["AddLicenseMethod method", "AddLicenseMethod method, MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class", "MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class, AddLicenseMethod method"]
+ms.assetid: 325d284d-10ac-4786-8b04-8184ac43b53f
+keywords:
+- AddLicenseMethod method
+- AddLicenseMethod method, MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class
+- MDM_EnterpriseModernAppManagement_StoreLicenses02_01 class, AddLicenseMethod method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddLicenseMethod method of the MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class
@@ -24,7 +32,7 @@ Method for adding license. See also, [AddLicense](https://msdn.microsoft.com/win
 
 ```mof
 uint32 AddLicenseMethod(
-  [in] string param
+  [in] string param
 );
 ```
 
@@ -43,7 +51,7 @@ uint32 AddLicenseMethod(
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -61,9 +69,9 @@ uint32 AddLicenseMethod(
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

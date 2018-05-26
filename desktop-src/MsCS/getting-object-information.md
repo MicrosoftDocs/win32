@@ -1,14 +1,18 @@
 ---
 title: Getting Object Information
-description: Each cluster object is associated with several sets of information that describe the object's identity, configuration, and relationships to other objects.
+description: Each cluster object is associated with several sets of information that describe the objects identity, configuration, and relationships to other objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4aaadd2e-2b72-4b28-93c2-f73ef3e9a2fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4aaadd2e-2b72-4b28-93c2-f73ef3e9a2fe
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,retrieving information"]
+keywords:
+- cluster objects Failover Cluster ,retrieving information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Object Information

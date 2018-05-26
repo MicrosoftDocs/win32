@@ -1,7 +1,12 @@
-﻿---
-Description: 'RouterFreeBidiResponseContainer frees a BIDI\_RESPONSE\_CONTAINER structure previously allocated by RouterAllocBidiResponseContainer.'
-ms.assetid: '3998eed5-398e-4835-b917-54f5ae814ddf'
+---
+Description: RouterFreeBidiResponseContainer frees a BIDI\_RESPONSE\_CONTAINER structure previously allocated by RouterAllocBidiResponseContainer.
+ms.assetid: 3998eed5-398e-4835-b917-54f5ae814ddf
 title: RouterFreeBidiResponseContainer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterFreeBidiResponseContainer function

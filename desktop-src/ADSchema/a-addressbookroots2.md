@@ -4,17 +4,22 @@ description: Used by Exchange. Exchange configures trees of address book contain
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1ca41a60-b8ba-4489-9238-b469811d68ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1ca41a60-b8ba-4489-9238-b469811d68ac
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Address-Book-Roots2 attribute AD Schema", "addressBookRoots2 attribute AD Schema"]
+keywords:
+- Address-Book-Roots2 attribute AD Schema
+- addressBookRoots2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Address-Book-Roots2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Address-Book-Roots2 attribute
@@ -38,9 +43,9 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
- 
+ 
 
- 
+ 
 
 
 

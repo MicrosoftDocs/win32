@@ -1,12 +1,18 @@
 ---
 title: TextureCubeArray GatherCmpBlue methods
 description: Samples and compares a texture and returns the blue component.
-ms.assetid: '52A0B3F2-C86D-4B3C-9160-5BB0126782DC'
-keywords: ["GatherCmpBlue methods HLSL"]
+ms.assetid: 52A0B3F2-C86D-4B3C-9160-5BB0126782DC
+keywords:
+- GatherCmpBlue methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray::GatherCmpBlue methods
@@ -30,9 +36,9 @@ Samples and compares a texture and returns the blue component.
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

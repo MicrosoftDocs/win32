@@ -1,7 +1,12 @@
 ---
-Description: 'KTM defines the following transaction access masks to be used when opening a transaction.'
-ms.assetid: '93ef3098-b3cc-4b24-ae82-1c10d937f14f'
+Description: KTM defines the following transaction access masks to be used when opening a transaction.
+ms.assetid: 93ef3098-b3cc-4b24-ae82-1c10d937f14f
 title: Transaction Access Masks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transaction Access Masks
@@ -163,15 +168,15 @@ It is recommended that resource managers, when enlisting in a transaction, speci
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinNT.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

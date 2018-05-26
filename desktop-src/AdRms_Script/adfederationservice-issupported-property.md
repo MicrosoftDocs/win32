@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a Boolean value that specifies whether the Active Directory Federation Services (ADFS) component and the external and internal certification services are installed.'
+Description: Retrieves a Boolean value that specifies whether the Active Directory Federation Services (ADFS) component and the external and internal certification services are installed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2a4df1af-2442-419c-a100-c07e9062320e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2a4df1af-2442-419c-a100-c07e9062320e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ADFederationService.IsSupported property'
+title: ADFederationService.IsSupported property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADFederationService.IsSupported property
@@ -125,7 +128,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -137,9 +140,9 @@ END SUB
 [**ADFederationService**](adfederationservice-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

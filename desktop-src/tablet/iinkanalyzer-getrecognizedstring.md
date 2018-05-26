@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the best-result string of the recognition operation for the entire context node tree in the IInkAnalyzer.'
-ms.assetid: '4aa57f41-3122-47a9-a60d-4a229e23f63c'
-title: 'IInkAnalyzer::GetRecognizedString method'
+Description: Retrieves the best-result string of the recognition operation for the entire context node tree in the IInkAnalyzer.
+ms.assetid: 4aa57f41-3122-47a9-a60d-4a229e23f63c
+title: IInkAnalyzerGetRecognizedString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetRecognizedString method
@@ -13,7 +18,7 @@ Retrieves the best-result string of the recognition operation for the entire con
 
 ```C++
 HRESULT GetRecognizedString(
-  [out] BSTR *pbstrRecognizedString
+  [out] BSTR *pbstrRecognizedString
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**SysFreeString**](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) for *pbstrRecognizedString* when you no longer need to use the string.
 
- 
+ 
 
 This method returns the same value as the root node's property data for the recognized string. (See [**IInkAnalyzer::GetRootNode Method**](iinkanalyzer-getrootnode.md), [**IContextNode::GetPropertyData**](icontextnode-getpropertydata.md), and [Context Node Properties](context-node-properties.md).)
 
@@ -111,7 +116,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -128,9 +133,9 @@ HRESULT CMyClass::ExploreAnalysisResults(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

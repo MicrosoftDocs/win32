@@ -1,12 +1,17 @@
 ---
-Description: 'The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method.'
-ms.assetid: 'db9896eb-3db2-4d58-a787-4d80ce8f0d0e'
-title: 'CTransformInputPin.EndOfStream method'
+Description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPinEndOfStream method.
+ms.assetid: db9896eb-3db2-4d58-a787-4d80ce8f0d0e
+title: CTransformInputPin.EndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.EndOfStream method
 
-The `EndOfStream` method notifies the pin that no additional data is expected. This method implements the [**IPin::EndOfStream**](ipin-endofstream.md) method.
+The `EndOfStream` method notifies the pin that no additional data is expected. This method implements the [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) method.
 
 ## Syntax
 
@@ -37,7 +42,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,9 +59,9 @@ This method calls the filter's [**CTransformFilter::EndOfStream**](ctransformfil
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Resource Schema
-ms.assetid: 'f58d68c2-bed0-4057-87ca-e038496028c9'
+ms.assetid: f58d68c2-bed0-4057-87ca-e038496028c9
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Schema

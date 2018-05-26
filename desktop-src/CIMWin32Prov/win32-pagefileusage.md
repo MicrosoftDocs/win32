@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_PageFileUsage&\#8194;WMI class represents the file used for handling virtual memory file swapping on a Win32 system. Information contained within objects instantiated from this class specify the run-time state of the page file.'
+---
+Description: The Win32\_PageFileUsage&\#8194;WMI class represents the file used for handling virtual memory file swapping on a Win32 system. Information contained within objects instantiated from this class specify the run-time state of the page file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '635d7bd0-3738-4092-8b76-5e9583e079a9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 635d7bd0-3738-4092-8b76-5e9583e079a9
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PageFileUsage class'
+title: Win32\_PageFileUsage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PageFileUsage class

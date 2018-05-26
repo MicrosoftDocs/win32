@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices defines the following constants.'
-ms.assetid: 'ad7ad1d1-53da-41b7-a847-852ecfeaff20'
+Description: Windows Portable Devices defines the following constants.
+ms.assetid: ad7ad1d1-53da-41b7-a847-852ecfeaff20
 title: General Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Constants
@@ -34,9 +39,9 @@ Windows Portable Devices defines the following constants.
 [Constants](constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

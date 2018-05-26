@@ -1,13 +1,20 @@
 ---
 title: Obtaining and Setting the Video Format
 description: Obtaining and Setting the Video Format
-ms.assetid: '0e6baf24-7a79-45ab-9fc7-69334419956d'
-keywords: ["capGetVideoFormat macro", "capGetVideoFormatSize macro"]
+ms.assetid: 0e6baf24-7a79-45ab-9fc7-69334419956d
+keywords:
+- capGetVideoFormat macro
+- capGetVideoFormatSize macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining and Setting the Video Format
 
-The [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure is of variable length to accommodate standard and compressed data formats. Because this structure is of variable length, applications must always query the size of the structure and allocate memory before retrieving the current video format. The following example uses the [**capGetVideoFormatSize**](capgetvideoformatsize.md) macro to retrieve the buffer size and then calls the [**capGetVideoFormat**](capgetvideoformat.md) macro to retrieve the current video format.
+The [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure is of variable length to accommodate standard and compressed data formats. Because this structure is of variable length, applications must always query the size of the structure and allocate memory before retrieving the current video format. The following example uses the [**capGetVideoFormatSize**](/windows/win32/Vfw/nf-vfw-capgetvideoformatsize?branch=master) macro to retrieve the buffer size and then calls the [**capGetVideoFormat**](/windows/win32/Vfw/nf-vfw-capgetvideoformat?branch=master) macro to retrieve the current video format.
 
 
 ```C++
@@ -24,7 +31,7 @@ capGetVideoFormat(hWndC, lpbi, dwSize);
 
 
 
-Applications can use the [**capSetVideoFormat**](capsetvideoformat.md) macro (or the [**WM\_CAP\_SET\_VIDEOFORMAT**](wm-cap-set-videoformat.md) message) to send a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) header structure to the capture window. Because video formats are device specific, your application should check the return value to determine if the format was accepted.
+Applications can use the [**capSetVideoFormat**](/windows/win32/Vfw/nf-vfw-capsetvideoformat?branch=master) macro (or the [**WM\_CAP\_SET\_VIDEOFORMAT**](wm-cap-set-videoformat.md) message) to send a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) header structure to the capture window. Because video formats are device specific, your application should check the return value to determine if the format was accepted.
 
 ## Related topics
 

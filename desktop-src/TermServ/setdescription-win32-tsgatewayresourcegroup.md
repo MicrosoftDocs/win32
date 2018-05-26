@@ -4,11 +4,14 @@ description: Sets the Description property for the resource group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab1280c7-ce53-4807-9537-953b597dd636'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ab1280c7-ce53-4807-9537-953b597dd636
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetDescription method Remote Desktop Services", "SetDescription method Remote Desktop Services , Win32_TSGatewayResourceGroup class", "Win32_TSGatewayResourceGroup class Remote Desktop Services , SetDescription method"]
+keywords:
+- SetDescription method Remote Desktop Services
+- SetDescription method Remote Desktop Services , Win32_TSGatewayResourceGroup class
+- Win32_TSGatewayResourceGroup class Remote Desktop Services , SetDescription method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDescription method of the Win32\_TSGatewayResourceGroup class
@@ -28,7 +34,7 @@ Sets the **Description** property for the resource group.
 
 ```mof
 uint32 SetDescription(
-  [in] string Description
+  [in] string Description
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayResourceGroup**](win32-tsgatewayresourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

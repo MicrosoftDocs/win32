@@ -1,7 +1,12 @@
 ---
 title: Toolbar Control Messages
 description: .
-ms.assetid: '0af20ecd-b473-4c3b-8b66-2d177105bf89'
+ms.assetid: 0af20ecd-b473-4c3b-8b66-2d177105bf89
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar Control Messages

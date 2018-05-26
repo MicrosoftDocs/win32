@@ -1,7 +1,12 @@
-﻿---
-Description: 'NtGdiDdDeleteSurfaceObject deletes a previously created kernel-mode surface object.'
-ms.assetid: '95ce6c73-7e41-4ac3-b849-9b8f53aa3ac3'
+---
+Description: NtGdiDdDeleteSurfaceObject deletes a previously created kernel-mode surface object.
+ms.assetid: 95ce6c73-7e41-4ac3-b849-9b8f53aa3ac3
 title: NtGdiDdDeleteSurfaceObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdDeleteSurfaceObject function
@@ -59,7 +64,7 @@ Applications are advised to use the DirectDraw and [Direct3D](http://msdn.micros
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdDeleteSurfaceObject**](-dxgkernel-dddeletesurfaceobject.md)
+[**DdDeleteSurfaceObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-dddeletesurfaceobject?branch=master)
 </dt> <dt>
 
 [**NtGdiDdCreateSurfaceObject**](-dxgkernel-ntgdiddcreatesurfaceobject.md)

@@ -1,8 +1,22 @@
 ---
 title: Transform Helper Functions
 description: Transform Helper Functions
-ms.assetid: '21e36aac-68cf-4d11-996d-dbcf02857e49'
-keywords: ["Windows Movie Maker,helper functions", "Movie Maker,helper functions", "programming reference,Windows Movie Maker helper functions", "reference for Windows Movie Maker,helper functions", "Windows Movie Maker,transform helper functions", "Movie Maker,transform helper functions", "programming reference,Windows Movie Maker transform helper functions", "reference for Windows Movie Maker,transform helper functions", "transforms,helper functions"]
+ms.assetid: 21e36aac-68cf-4d11-996d-dbcf02857e49
+keywords:
+- Windows Movie Maker,helper functions
+- Movie Maker,helper functions
+- programming reference,Windows Movie Maker helper functions
+- reference for Windows Movie Maker,helper functions
+- Windows Movie Maker,transform helper functions
+- Movie Maker,transform helper functions
+- programming reference,Windows Movie Maker transform helper functions
+- reference for Windows Movie Maker,transform helper functions
+- transforms,helper functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transform Helper Functions

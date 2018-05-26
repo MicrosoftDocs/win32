@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the WsdCodeGen configuration file.'
-ms.assetid: '6dc340db-221e-4389-ba76-9f189f91866b'
+Description: Describes the WsdCodeGen configuration file.
+ms.assetid: 6dc340db-221e-4389-ba76-9f189f91866b
 title: WsdCodeGen Configuration File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WsdCodeGen Configuration File

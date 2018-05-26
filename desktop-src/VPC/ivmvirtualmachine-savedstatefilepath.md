@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine SavedStateFilePath property
 description: Retrieves the full path to the saved state file.
-ms.assetid: '01bd5491-4d08-4558-ac33-01b096f057a2'
-keywords: ["SavedStateFilePath property Virtual PC", "SavedStateFilePath property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , SavedStateFilePath property"]
+ms.assetid: 01bd5491-4d08-4558-ac33-01b096f057a2
+keywords:
+- SavedStateFilePath property Virtual PC
+- SavedStateFilePath property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , SavedStateFilePath property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SavedStateFilePath property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the full path to the saved state file.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SavedStateFilePath(
-  [out, retval] BSTR *savedStateFilePath
+  [out, retval] BSTR *savedStateFilePath
 );
 ```
 
@@ -57,9 +65,9 @@ The fully qualified path to the virtual machine's saved state file.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -73,9 +81,9 @@ The fully qualified path to the virtual machine's saved state file.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

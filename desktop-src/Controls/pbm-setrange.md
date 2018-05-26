@@ -1,8 +1,9 @@
 ---
 title: PBM\_SETRANGE message
 description: Sets the minimum and maximum values for a progress bar and redraws the bar to reflect the new range.
-ms.assetid: '251eb8c5-bedc-4e2c-90c2-e1626cb00420'
-keywords: ["PBM_SETRANGE message Windows Controls"]
+ms.assetid: 251eb8c5-bedc-4e2c-90c2-e1626cb00420
+keywords:
+- PBM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_SETRANGE message
@@ -51,8 +57,8 @@ To set a larger range, call [**PBM\_SETRANGE32**](pbm-setrange32.md).
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ To set a larger range, call [**PBM\_SETRANGE32**](pbm-setrange32.md).
 [**PBM\_SETRANGE32**](pbm-setrange32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

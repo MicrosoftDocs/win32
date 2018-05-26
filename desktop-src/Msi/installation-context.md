@@ -1,7 +1,12 @@
-﻿---
-Description: 'Windows Installer can install a package on a computer into two installation contexts: per-machine and per-user.'
-ms.assetid: '162bda20-0c62-4eac-8c1f-fd107e42c528'
+---
+Description: Windows Installer can install a package on a computer into two installation contexts per-machine and per-user.
+ms.assetid: 162bda20-0c62-4eac-8c1f-fd107e42c528
 title: Installation Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation Context
@@ -91,7 +96,7 @@ The following table compares the locations of folders that are used when Windows
  
 
 > [!Note]  
-> An application can call the [**MsiEnumProducts**](msienumproducts.md) or [**MsiEnumProductsEx**](msienumproductsex.md) functions to enumerate all the products installed on the system. The application can then retrieve information about the installation context of these products by calling the [**MsiGetProductInfoEx**](msigetproductinfoex.md) or [**MsiGetProductInfo**](msigetproductinfo.md) functions. For information see [Determining Installation Context](determining-installation-context.md).
+> An application can call the [**MsiEnumProducts**](/windows/win32/Msi/nf-msi-msienumproductsa?branch=master) or [**MsiEnumProductsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master) functions to enumerate all the products installed on the system. The application can then retrieve information about the installation context of these products by calling the [**MsiGetProductInfoEx**](/windows/win32/Msi/nf-msi-msigetproductinfoexa?branch=master) or [**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master) functions. For information see [Determining Installation Context](determining-installation-context.md).
 
  
 

@@ -4,11 +4,15 @@ description: This example show how to display cluster events by creating a notif
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c3c8ead5-236b-42b3-9413-80df7c71653b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c3c8ead5-236b-42b3-9413-80df7c71653b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["notification ports Failover Cluster , example"]
+keywords:
+- notification ports Failover Cluster , example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Notification Port Example

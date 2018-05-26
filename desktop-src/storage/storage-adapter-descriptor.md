@@ -1,8 +1,10 @@
 ---
 title: STORAGE\_ADAPTER\_DESCRIPTOR structure
 description: The STORAGE\_ADAPTER\_DESCRIPTOR structure is used in conjunction with the IOCTL\_STORAGE\_QUERY\_PROPERTY request to retrieve the storage adapter descriptor data for a device.
-ms.assetid: '83ef2a1a-f95e-4b05-8911-e5e900192630'
-keywords: ["STORAGE_ADAPTER_DESCRIPTOR structure Storage Devices", "PSTORAGE_ADAPTER_DESCRIPTOR structure pointer Storage Devices"]
+ms.assetid: 83ef2a1a-f95e-4b05-8911-e5e900192630
+keywords:
+- STORAGE_ADAPTER_DESCRIPTOR structure Storage Devices
+- PSTORAGE_ADAPTER_DESCRIPTOR structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_ADAPTER\_DESCRIPTOR structure
@@ -22,20 +29,20 @@ The **STORAGE\_ADAPTER\_DESCRIPTOR** structure is used in conjunction with the [
 
 ```C++
 typedef struct _STORAGE_ADAPTER_DESCRIPTOR {
-  ULONG   Version;
-  ULONG   Size;
-  ULONG   MaximumTransferLength;
-  ULONG   MaximumPhysicalPages;
-  ULONG   AlignmentMask;
+  ULONG   Version;
+  ULONG   Size;
+  ULONG   MaximumTransferLength;
+  ULONG   MaximumPhysicalPages;
+  ULONG   AlignmentMask;
   BOOLEAN AdapterUsesPio;
   BOOLEAN AdapterScansDown;
   BOOLEAN CommandQueueing;
   BOOLEAN AcceleratedTransfer;
-  UCHAR   BusType;
-  USHORT  BusMajorVersion;
-  USHORT  BusMinorVersion;
-  UCHAR   SrbType;
-  UCHAR   AddressType;
+  UCHAR   BusType;
+  USHORT  BusMajorVersion;
+  USHORT  BusMinorVersion;
+  UCHAR   SrbType;
+  UCHAR   AddressType;
 } STORAGE_ADAPTER_DESCRIPTOR, *PSTORAGE_ADAPTER_DESCRIPTOR;
 ```
 
@@ -143,9 +150,9 @@ Specifies the SCSI request block (SRB) type used by the HBA.
 
 
 
- 
+ 
 
-This member is valid starting with Windows 8.
+This member is valid starting with Windows 8.
 
 </dd> <dt>
 
@@ -162,9 +169,9 @@ Specifies the address type of the HBA.
 
 
 
- 
+ 
 
-This member is valid starting with Windows 8.
+This member is valid starting with Windows 8.
 
 </dd> </dl>
 
@@ -206,9 +213,9 @@ If excessive protocol errors occur on an HBA that supports synchronous transfers
 [**STORAGE\_ADAPTER\_DESCRIPTOR**](storage-adapter-descriptor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20STORAGE_ADAPTER_DESCRIPTOR%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

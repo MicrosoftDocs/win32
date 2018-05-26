@@ -1,6 +1,11 @@
-﻿---
-ms.assetid: '20049071-0a14-421e-8bc5-04af9c7117b0'
-title: 'PKEY\_AudioEndpoint\_PhysicalSpeakers'
+---
+ms.assetid: 20049071-0a14-421e-8bc5-04af9c7117b0
+title: PKEY\_AudioEndpoint\_PhysicalSpeakers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEndpoint\_PhysicalSpeakers

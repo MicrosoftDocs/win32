@@ -1,7 +1,12 @@
 ---
 title: TraceLogging Reference
 description: The following topics provide information about the native TraceLogging API.TraceLogging builds on Event Tracing for Windows (ETW) and provides a simplified way to instrument code.
-ms.assetid: '9E3F2140-DDB0-4C30-B7D0-A81F11823AA6'
+ms.assetid: 9E3F2140-DDB0-4C30-B7D0-A81F11823AA6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceLogging Reference
@@ -13,7 +18,7 @@ TraceLogging builds on Event Tracing for Windows (ETW) and provides a simplified
 <span class="underline">For WinRT developers</span>
 
 -   [**LoggingChannel**](https://msdn.microsoft.com/library/windows/apps/dn264202) has been extended in Windows 10 to log self-describing Event Tracing for Windows (ETW) events without the need for a manifest.
--   [**LoggingActivity**](traceloggingactivity.md) has been extended in Windows 10 to provide activity start and stop methods that provide control over the format and contents of the Start and Stop events. Additionally, activities can be nested.
+-   [**LoggingActivity**](/windows/win32/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1?branch=master) has been extended in Windows 10 to provide activity start and stop methods that provide control over the format and contents of the Start and Stop events. Additionally, activities can be nested.
 
 <span class="underline">For managed code (Microsoft .NET Framework) developers</span>
 

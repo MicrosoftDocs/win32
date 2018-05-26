@@ -2,13 +2,15 @@
 title: VpnRoutingDomainDefaultConfig class
 description: Represents the default routing domain IPsec configuration.
 audience: developer
-ms.assetid: '5c2dcfc9-ff84-42c6-a9ca-759bdcd9661b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5c2dcfc9-ff84-42c6-a9ca-759bdcd9661b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnRoutingDomainDefaultConfig class", "VpnRoutingDomainDefaultConfig class, described"]
+keywords:
+- VpnRoutingDomainDefaultConfig class
+- VpnRoutingDomainDefaultConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnRoutingDomainDefaultConfig class
@@ -389,7 +394,7 @@ This property is inherited from [**RoutingDomainConfiguration**](routingdomainco
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -406,9 +411,9 @@ This property is inherited from [**RoutingDomainConfiguration**](routingdomainco
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Last 5 characters of CSVLK product-key used to create the Activatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6209326f-1b95-43c6-824a-43eb893ef1e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6209326f-1b95-43c6-824a-43eb893ef1e1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-CSVLK-Partial-Product-Key attribute AD Schema", "msSPP-CSVLKPartialProductKey attribute AD Schema"]
+keywords:
+- ms-SPP-CSVLK-Partial-Product-Key attribute AD Schema
+- msSPP-CSVLKPartialProductKey attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-CSVLK-Partial-Product-Key
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-CSVLK-Partial-Product-Key attribute
@@ -38,7 +43,7 @@ Last 5 characters of CSVLK product-key used to create the Activation Object
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Last 5 characters of CSVLK product-key used to create the Activation Object
 
 
 
- 
+ 
 
- 
+ 
 
 
 

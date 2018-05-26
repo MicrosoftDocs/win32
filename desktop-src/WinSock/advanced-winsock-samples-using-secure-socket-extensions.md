@@ -1,7 +1,12 @@
 ---
 Description: Advanced Winsock Samples Using Secure Socket Extensions
-ms.assetid: '9c429363-f9bb-4394-89be-f87507f5cbdd'
+ms.assetid: 9c429363-f9bb-4394-89be-f87507f5cbdd
 title: Advanced Winsock Samples Using Secure Socket Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Winsock Samples Using Secure Socket Extensions

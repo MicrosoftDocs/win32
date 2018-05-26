@@ -1,7 +1,12 @@
 ---
 title: Using the Help Viewer for Topics
 description: Using the Help Viewer for Topics
-ms.assetid: '8E04E1AE-E2B5-4646-BDD0-5FDD8541FAA5'
+ms.assetid: 8E04E1AE-E2B5-4646-BDD0-5FDD8541FAA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Help Viewer for Topics

@@ -1,8 +1,9 @@
 ---
 title: D3D11Reflect function
 description: Gets a pointer to a reflection interface.
-ms.assetid: '855097c7-988b-4ab6-90c5-e5dd0bc9e1e0'
-keywords: ["D3D11Reflect function HLSL"]
+ms.assetid: 855097c7-988b-4ab6-90c5-e5dd0bc9e1e0
+keywords:
+- D3D11Reflect function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D11Reflect function
@@ -21,9 +27,9 @@ Gets a pointer to a reflection interface.
 
 ``` syntax
 HRESULT D3D11Reflect(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  out ID3D11ShaderReflection ppReflector
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  out ID3D11ShaderReflection ppReflector
 );
 ```
 
@@ -103,9 +109,9 @@ D3D11Reflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBuf
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

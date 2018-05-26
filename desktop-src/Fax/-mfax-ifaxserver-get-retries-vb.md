@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the Retries property for a FaxServer object. The Retries property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.'
-ms.assetid: '8fe0debc-f54c-421b-bfef-9e3c7bbf072c'
-title: 'FaxServer.Retries property'
+---
+Description: Sets or retrieves the Retries property for a FaxServer object. The Retries property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.
+ms.assetid: 8fe0debc-f54c-421b-bfef-9e3c7bbf072c
+title: FaxServer.Retries property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Retries property

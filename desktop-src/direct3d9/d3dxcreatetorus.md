@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a left-handed coordinate system to create a mesh containing a torus.'
-ms.assetid: '68df7650-8a87-4762-8b57-5704c419b0d7'
+---
+Description: Uses a left-handed coordinate system to create a mesh containing a torus.
+ms.assetid: 68df7650-8a87-4762-8b57-5704c419b0d7
 title: D3DXCreateTorus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateTorus function
@@ -32,9 +37,9 @@ HRESULT D3DXCreateTorus(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the created torus mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the created torus mesh.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
 Description: ASFParser Sample
-ms.assetid: '6be1e12f-7d4a-4564-88ae-14fd71fd2cf9'
+ms.assetid: 6be1e12f-7d4a-4564-88ae-14fd71fd2cf9
 title: ASFParser Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASFParser Sample
@@ -18,9 +23,9 @@ Shows how to parse data from an Advanced Systems Format (ASF) file by using the 
 
 This sample demonstrates the following Microsoft Media Foundation interfaces:
 
--   [**IMFASFContentInfo**](imfasfcontentinfo.md)
--   [**IMFASFIndexer**](imfasfindexer.md)
--   [**IMFASFSplitter**](imfasfsplitter.md)
+-   [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master)
+-   [**IMFASFIndexer**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfindexer?branch=master)
+-   [**IMFASFSplitter**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfsplitter?branch=master)
 
 ## Usage
 

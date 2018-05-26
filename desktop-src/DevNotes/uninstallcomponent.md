@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes an exception package.'
-ms.assetid: 'd590d0f8-c9b2-4973-999b-99bbf94d4928'
+---
+Description: Removes an exception package.
+ms.assetid: d590d0f8-c9b2-4973-999b-99bbf94d4928
 title: UninstallComponent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UninstallComponent function

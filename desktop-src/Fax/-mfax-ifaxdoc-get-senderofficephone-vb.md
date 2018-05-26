@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SenderOfficePhone property of a FaxDoc object. The SenderOfficePhone property is a null-terminated string that contains the office telephone number of the sender of the fax transmission.'
-ms.assetid: '249f56b8-75ca-42fd-867a-ad13acd1443d'
-title: 'FaxDoc.SenderOfficePhone property'
+---
+Description: Sets or retrieves the SenderOfficePhone property of a FaxDoc object. The SenderOfficePhone property is a null-terminated string that contains the office telephone number of the sender of the fax transmission.
+ms.assetid: 249f56b8-75ca-42fd-867a-ad13acd1443d
+title: FaxDoc.SenderOfficePhone property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SenderOfficePhone property
@@ -55,7 +60,7 @@ The **SenderOfficePhone** method allocates the memory required for the buffer po
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

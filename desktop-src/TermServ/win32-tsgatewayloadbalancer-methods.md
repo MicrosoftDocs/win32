@@ -4,10 +4,13 @@ description: The Win32\_TSGatewayLoadBalancer class exposes the following method
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '869AA5ED-4C93-45B9-BD57-FE4B98A9BD87'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 869AA5ED-4C93-45B9-BD57-FE4B98A9BD87
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayLoadBalancer Methods

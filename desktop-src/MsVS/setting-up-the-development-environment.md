@@ -1,7 +1,12 @@
 ---
 title: Setting up the Development Environment
-description: Developing applications using the Virtual Server COM API requires a minimal amount of setup for the development environment. The Virtual Server's type library is automatically installed when Virtual Server is installed.
-ms.assetid: '997bf9d9-8ba2-41cf-845e-dca46a8139a0'
+description: Developing applications using the Virtual Server COM API requires a minimal amount of setup for the development environment. The Virtual Servers type library is automatically installed when Virtual Server is installed.
+ms.assetid: 997bf9d9-8ba2-41cf-845e-dca46a8139a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting up the Development Environment

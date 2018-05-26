@@ -1,7 +1,12 @@
 ---
 title: Check Boxes
 description: With a check box, users make a decision between two clearly opposite choices.
-ms.assetid: '7c39987d-807b-41c1-9788-65c3d468b976'
+ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Check Boxes
@@ -15,7 +20,7 @@ A typical group of check boxes.
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) are presented in a separate article.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -74,7 +79,7 @@ Check boxes have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -102,7 +107,7 @@ Check boxes have several usage patterns:
 
     In this example, the horizontal alignment is harder to read.
 
--   **Don't use the mixed state to represent a third state.** The mixed state is used to indicate that an option is set for some, but not all, child objects. Users shouldn't be able to set a mixed state directly—rather the mixed state is a reflection of the child objects. The mixed state isn't used as a third state for an individual item. To represent a third state, use radio buttons or a drop-down list instead.
+-   **Don't use the mixed state to represent a third state.** The mixed state is used to indicate that an option is set for some, but not all, child objects. Users shouldn't be able to set a mixed state directly rather the mixed state is a reflection of the child objects. The mixed state isn't used as a third state for an individual item. To represent a third state, use radio buttons or a drop-down list instead.
 
     **Incorrect:**
 
@@ -234,7 +239,7 @@ Recommended sizing and spacing for check boxes.
     >
     > Adding an explanation to one check box in a group doesn't mean that you have to provide explanations for all check boxes in the group. Provide the relevant information in the label if you can, and use explanations only when necessary. Don't merely restate the label for consistency.
 
-     
+     
 
     ![screen shot of checkbox, label, and description ](images/ctrl-check-boxes-image26.png)
 
@@ -280,9 +285,9 @@ When referring to check boxes:
 
     Example: Select the **Underline** check box.
 
- 
+ 
 
- 
+ 
 
 
 

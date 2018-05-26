@@ -1,7 +1,12 @@
 ---
 title: ShowPopupMenu Method
 description: ShowPopupMenu Method
-ms.assetid: '7f964d53-2594-41b1-9450-1ba7e9f85882'
+ms.assetid: 7f964d53-2594-41b1-9450-1ba7e9f85882
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowPopupMenu Method

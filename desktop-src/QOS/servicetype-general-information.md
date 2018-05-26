@@ -1,13 +1,19 @@
 ---
 title: SERVICETYPE\_GENERAL\_INFORMATION
 description: The SERVICETYPE\_GENERAL\_INFORMATION service type is used in the SendingFlowspec parameter of a QOS structure to indicate that the sender can operate properly within any of the services.
-ms.assetid: '8c12c5eb-01ac-4aa5-80ec-4d86a80a620b'
-keywords: ["SERVICETYPE_GENERAL_INFORMATION service type"]
+ms.assetid: 8c12c5eb-01ac-4aa5-80ec-4d86a80a620b
+keywords:
+- SERVICETYPE_GENERAL_INFORMATION service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SERVICETYPE\_GENERAL\_INFORMATION
 
-The SERVICETYPE\_GENERAL\_INFORMATION service type is used in the SendingFlowspec parameter of a [**QOS**](qos.md) structure to indicate that the sender can operate properly within any of the services. Note that SERVICETYPE\_GENERAL\_INFORMATION does not include any indication regarding the availability of the [QUALITATIVE](qualitative.md) service type.
+The SERVICETYPE\_GENERAL\_INFORMATION service type is used in the SendingFlowspec parameter of a [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure to indicate that the sender can operate properly within any of the services. Note that SERVICETYPE\_GENERAL\_INFORMATION does not include any indication regarding the availability of the [QUALITATIVE](qualitative.md) service type.
 
 SERVICETYPE\_GENERAL\_INFORMATION is only available to the sender; the RSVP SP returns an error if the receiver attempts to use the SERVICETYPE\_GENERAL\_INFORMATION service type.
 

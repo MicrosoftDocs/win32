@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_Fan WMI class represents the properties of a fan device in the computer system. For example, the CPU cooling fan.'
+Description: The Win32\_Fan WMI class represents the properties of a fan device in the computer system. For example, the CPU cooling fan.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ff48b788-d759-45cf-812f-a80dba0c9192'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ff48b788-d759-45cf-812f-a80dba0c9192
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Fan class'
+title: Win32\_Fan class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Fan class
@@ -24,28 +27,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{464FFAB5-946F-11d2-AAE2-006008C78BC7}"), AMENDMENT]
 class Win32_Fan : CIM_Fan
 {
-  boolean  ActiveCooling;
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  uint64   DesiredSpeed;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  boolean  ActiveCooling;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  uint64   DesiredSpeed;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  boolean  VariableSpeed;
+  uint32   LastErrorCode;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  boolean  VariableSpeed;
 };
 ```
 
@@ -70,7 +73,7 @@ The **Win32\_Fan** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -308,7 +311,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1254,8 +1257,8 @@ foreach ($objItem in $colItems)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1272,9 +1275,9 @@ foreach ($objItem in $colItems)
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

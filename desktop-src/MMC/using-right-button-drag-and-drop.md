@@ -4,10 +4,13 @@ description: MMC 2.0 offers right-button drag-and-drop functionality consistent 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5c0ff574-2bc4-4fbb-ac73-b1d0ca3791d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5c0ff574-2bc4-4fbb-ac73-b1d0ca3791d1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Right-Button Drag-and-Drop Operations

@@ -1,7 +1,12 @@
 ---
 title: MinorVersion
 description: MinorVersion
-ms.assetid: 'd06d3710-b93c-49f9-b883-d7dc7caa5230'
+ms.assetid: d06d3710-b93c-49f9-b883-d7dc7caa5230
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinorVersion

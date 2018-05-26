@@ -4,13 +4,15 @@ description: A cluster shared volume has a node hosting the resource. This lists
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64f3a9ae-16bf-40d8-9115-17c4cfd42bdd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64f3a9ae-16bf-40d8-9115-17c4cfd42bdd
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterSharedVolumeToNode class", "MSCluster_ClusterSharedVolumeToNode class, described"]
+keywords:
+- MSCluster_ClusterSharedVolumeToNode class
+- MSCluster_ClusterSharedVolumeToNode class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterSharedVolumeToNode class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSCluster_ClusterSharedVolumeToNode : CIM_Component
 {
   MSCluster_ClusterSharedVolume REF GroupComponent;
-  MSCluster_Node                REF PartComponent;
+  MSCluster_Node                REF PartComponent;
 };
 ```
 
@@ -91,7 +96,7 @@ The cluster node hosting the cluster shared volume resource.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The cluster node hosting the cluster shared volume resource.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

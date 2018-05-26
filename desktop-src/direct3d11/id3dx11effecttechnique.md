@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectTechnique interface
 description: An ID3DX11EffectTechnique interface is a collection of passes.The lifetime of an ID3DX11EffectTechnique object is equal to the lifetime of its parent ID3DX11Effect object.
-ms.assetid: '63d52cac-287d-4432-bf2b-7b4e67e525e6'
-keywords: ["ID3DX11EffectTechnique interface Direct3D 11", "ID3DX11EffectTechnique interface Direct3D 11 , described"]
+ms.assetid: 63d52cac-287d-4432-bf2b-7b4e67e525e6
+keywords:
+- ID3DX11EffectTechnique interface Direct3D 11
+- ID3DX11EffectTechnique interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectTechnique interface
@@ -40,7 +47,7 @@ The **ID3DX11EffectTechnique** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +58,7 @@ To get an effect-technique interface, call a method such as [**ID3DX11Effect::Ge
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -74,9 +81,9 @@ To get an effect-technique interface, call a method such as [**ID3DX11Effect::Ge
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

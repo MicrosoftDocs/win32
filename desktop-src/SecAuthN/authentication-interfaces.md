@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the interfaces in authentication APIs.'
-ms.assetid: 'bde3bcae-2152-4589-92a0-b44d98f233ef'
+Description: Lists the interfaces in authentication APIs.
+ms.assetid: bde3bcae-2152-4589-92a0-b44d98f233ef
 title: Authentication Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Interfaces
@@ -43,10 +48,10 @@ The Identity Sharing SDK provides the following COM interfaces. The methods for 
 
 | Interface                                                          | Description                                                                              |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [**IAssociatedIdentityProvider**](iassociatedidentityprovider.md) | Allows an identity provider to associate identities with local user accounts.            |
-| [**IIdentityAdvise**](iidentityadvise.md)                         | Allows an identity provider to notify a calling application when an identity is updated. |
-| [**IIdentityProvider**](iidentityprovider.md)                     | Represents an identity provider.                                                         |
-| [**IIdentityStore**](iidentitystore.md)                           | Provides methods to enumerate and manage identities and identity providers.              |
+| [**IAssociatedIdentityProvider**](/windows/win32/IdentityProvider/nn-identityprovider-iassociatedidentityprovider?branch=master) | Allows an identity provider to associate identities with local user accounts.            |
+| [**IIdentityAdvise**](/windows/win32/IdentityProvider/nn-identityprovider-iidentityadvise?branch=master)                         | Allows an identity provider to notify a calling application when an identity is updated. |
+| [**IIdentityProvider**](/windows/win32/Identityprovider/nn-identityprovider-iidentityprovider?branch=master)                     | Represents an identity provider.                                                         |
+| [**IIdentityStore**](/windows/win32/Identitystore/nn-identitystore-iidentitystore?branch=master)                           | Provides methods to enumerate and manage identities and identity providers.              |
 
 
 

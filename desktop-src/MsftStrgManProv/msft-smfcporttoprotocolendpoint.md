@@ -4,11 +4,13 @@ description: Represents a relationship between a Fibre Channel (FC) port and a p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e5769627-9922-46ef-9cf8-715e1e62d3ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e5769627-9922-46ef-9cf8-715e1e62d3ad
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMFCPortToProtocolEndpoint class", "MSFT_SMFCPortToProtocolEndpoint class, described"]
+keywords:
+- MSFT_SMFCPortToProtocolEndpoint class
+- MSFT_SMFCPortToProtocolEndpoint class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMFCPortToProtocolEndpoint class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, dynamic, provider("WMIStorage")]
 class MSFT_SMFCPortToProtocolEndpoint
 {
-  MSFT_SMFCPort           REF Parent;
+  MSFT_SMFCPort           REF Parent;
   MSFT_SMProtocolEndpoint REF Child;
 };
 ```
@@ -89,7 +94,7 @@ A reference to the [**MSFT\_SMFCPort**](msft-smfcport.md) object that represents
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ A reference to the [**MSFT\_SMFCPort**](msft-smfcport.md) object that represents
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

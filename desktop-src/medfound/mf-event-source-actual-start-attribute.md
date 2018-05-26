@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the start time at which a media source restarts from its current position.'
-ms.assetid: 'b598b4d1-40e1-4282-b312-5aa6ca3a6733'
-title: 'MF\_EVENT\_SOURCE\_ACTUAL\_START attribute'
+---
+Description: Contains the start time at which a media source restarts from its current position.
+ms.assetid: b598b4d1-40e1-4282-b312-5aa6ca3a6733
+title: MF\_EVENT\_SOURCE\_ACTUAL\_START attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_SOURCE\_ACTUAL\_START attribute
@@ -46,10 +51,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> </dl>
 
  

@@ -2,13 +2,19 @@
 title: unsigned attribute
 description: The unsigned keyword indicates that the most significant bit of an integer variable represents a data bit rather than a signed bit.
 ms.assetid: bfcc6bec-895e-45e1-b162-b79651662aa6
-keywords: ["unsigned attribute MIDL"]
+keywords:
+- unsigned attribute MIDL
 topic_type:
 - apiref
 api_name:
 - unsigned
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # unsigned attribute

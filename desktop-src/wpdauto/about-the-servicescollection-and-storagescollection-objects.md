@@ -1,8 +1,25 @@
 ---
 title: About the servicesCollection and storagesCollection Objects
 description: The Device object makes available the Services and Storages properties that provide access to a servicesCollection that contains all of the services on a device, and a storagesCollection that contains all of the storages on a device.
-ms.assetid: '8bd864a5-068a-47f7-9483-cf64406c5f02'
-keywords: ["WPD Automation,Device object", "WPD Automation,servicesCollection object", "WPD Automation,storagesCollection object", "WPD Automation,Services properties", "WPD Automation,Storages properties", "WPD Automation,GetServicesByType method", "Device object", "servicesCollection object", "storagesCollection object", "Storages properties", "Services properties", "GetServicesByType"]
+ms.assetid: 8bd864a5-068a-47f7-9483-cf64406c5f02
+keywords:
+- WPD Automation,Device object
+- WPD Automation,servicesCollection object
+- WPD Automation,storagesCollection object
+- WPD Automation,Services properties
+- WPD Automation,Storages properties
+- WPD Automation,GetServicesByType method
+- Device object
+- servicesCollection object
+- storagesCollection object
+- Storages properties
+- Services properties
+- GetServicesByType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the servicesCollection and storagesCollection Objects

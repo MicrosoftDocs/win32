@@ -4,11 +4,28 @@ description: Specifies or retrieves whether the prompt for credentials dialog is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '252ec5bd-bd52-40d4-ae48-b2c00c0720c0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 252ec5bd-bd52-40d4-ae48-b2c00c0720c0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PromptForCredentials property Remote Desktop Services", "PromptForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , MsRdpClient5 object", "MsRdpClient5 object Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , PromptForCredentials property", "PromptForCredentials property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , PromptForCredentials property"]
+keywords:
+- PromptForCredentials property Remote Desktop Services
+- PromptForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , MsRdpClient5 object
+- MsRdpClient5 object Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , PromptForCredentials property
+- PromptForCredentials property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , PromptForCredentials property
 topic_type:
 - apiref
 api_name:
@@ -30,6 +47,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable3::PromptForCredentials property
@@ -43,11 +63,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_PromptForCredentials(
-  [in]  VARIANT_BOOL fPrompt
+  [in]  VARIANT_BOOL fPrompt
 );
 
 HRESULT get_PromptForCredentials(
-  [out] VARIANT_BOOL *pfPrompt
+  [out] VARIANT_BOOL *pfPrompt
 );
 ```
 
@@ -65,8 +85,8 @@ Specifies whether the prompt for credentials dialog is enabled for the connectio
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Wuapi.h</dt> </dl>            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
@@ -87,9 +107,9 @@ Specifies whether the prompt for credentials dialog is enabled for the connectio
 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: LVN\_INCREMENTALSEARCH notification code
-description: Notifies a list-view control's parent window that an incremental search has started. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '34517250-a6ba-490b-b87e-b09048543339'
-keywords: ["LVN_INCREMENTALSEARCH notification code Windows Controls"]
+description: Notifies a list-view controls parent window that an incremental search has started. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 34517250-a6ba-490b-b87e-b09048543339
+keywords:
+- LVN_INCREMENTALSEARCH notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_INCREMENTALSEARCH notification code
@@ -35,7 +41,7 @@ LVN_INCREMENTALSEARCH
 *lParam* \[in\]
 </dt> <dd>
 
-Pointer to a [**NMLVFINDITEM**](nmlvfinditem.md) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](nmhdr.md) and [**LVFINDINFO**](lvfindinfo.md) structures. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_INCREMENTALSEARCH.
+Pointer to a [**NMLVFINDITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmlvfinditema?branch=master) structure that describes the notification code. The caller is responsible for allocating this structure, including the contained [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) and [**LVFINDINFO**](/windows/win32/Commctrl/ns-commctrl-taglvfindinfoa?branch=master) structures. Set the members of the **NMHDR** structure. The **code** member must be set to LVN\_INCREMENTALSEARCH.
 
 </dd> </dl>
 
@@ -45,11 +51,11 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVFINDITEM**](nmlvfinditem.md) structure. The *wParam* parameter contains the ID of the control that sends this notification code.
+The notification receiver casts *lParam* to retrieve the [**NMLVFINDITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmlvfinditema?branch=master) structure. The *wParam* parameter contains the ID of the control that sends this notification code.
 
 This notification code gives an application (or the notification receiver) the opportunity to customize an incremental search. For example, if the search items are numeric, the application can perform a numerical search instead of a string search.
 
-The application sets the **lParam** member of the [**LVFINDINFO**](lvfindinfo.md) structure—contained in [**NMLVFINDITEM**](nmlvfinditem.md) structure— to the result of the search, or to another application defined value to fail the search and indicate to the control how to proceed.
+The application sets the **lParam** member of the [**LVFINDINFO**](/windows/win32/Commctrl/ns-commctrl-taglvfindinfoa?branch=master) structure contained in [**NMLVFINDITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmlvfinditema?branch=master) structure  to the result of the search, or to another application defined value to fail the search and indicate to the control how to proceed.
 
 ## Requirements
 
@@ -57,16 +63,16 @@ The application sets the **lParam** member of the [**LVFINDINFO**](lvfindinfo.md
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl>   |
 | Unicode and ANSI names<br/>   | **LVN\_INCREMENTALSEARCHW** (Unicode) and **LVN\_INCREMENTALSEARCHA** (ANSI)<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

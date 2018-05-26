@@ -4,13 +4,16 @@ description: The GetDescriptor method returns the USB hub descriptor as specifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4df2821c-686c-466d-9323-7e42243a4296'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4df2821c-686c-466d-9323-7e42243a4296
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDescriptor method", "GetDescriptor method, Win32_USBHub class", "Win32_USBHub class, GetDescriptor method"]
+keywords:
+- GetDescriptor method
+- GetDescriptor method, Win32_USBHub class
+- Win32_USBHub class, GetDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - CIMWin32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDescriptor method of the Win32\_USBHub class
@@ -28,7 +34,7 @@ The [**GetDescriptor**](https://msdn.microsoft.com/library/aa390443) method retu
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -37,11 +43,11 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetDescriptor(
-  [in]      uint8  RequestType,
-  [in]      uint16 RequestValue,
-  [in]      uint16 RequestIndex,
-  [in, out] uint16 RequestLength,
-  [out]     uint8  Buffer[]
+  [in]      uint8  RequestType,
+  [in]      uint16 RequestValue,
+  [in]      uint16 RequestIndex,
+  [in, out] uint16 RequestLength,
+  [out]     uint8  Buffer[]
 );
 ```
 
@@ -104,8 +110,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -123,9 +129,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**Win32\_USBHub**](win32-usbhub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

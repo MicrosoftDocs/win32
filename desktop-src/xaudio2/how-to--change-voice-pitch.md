@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows you how you can raise or lower the pitch of audio data by changing its rate of playback using the SetFrequencyRatio function on a source voice.'
-ms.assetid: '93408116-1c1f-307f-7e1f-090f2663ff0b'
-title: 'How to: Change Voice Pitch'
+Description: This topic shows you how you can raise or lower the pitch of audio data by changing its rate of playback using the SetFrequencyRatio function on a source voice.
+ms.assetid: 93408116-1c1f-307f-7e1f-090f2663ff0b
+title: How to Change Voice Pitch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Change Voice Pitch
@@ -10,7 +15,7 @@ This topic shows you how you can raise or lower the pitch of audio data by chang
 
 ## To change the pitch of a source voice
 
-1.  Determine the desired frequency ratio for the [**source voice**](ixaudio2sourcevoice.md).
+1.  Determine the desired frequency ratio for the [**source voice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master).
 
     See [XAudio2 Volume and Pitch Control](xaudio2-volume-and-pitch-control.md) for more information about calculating the frequency ratio.
 

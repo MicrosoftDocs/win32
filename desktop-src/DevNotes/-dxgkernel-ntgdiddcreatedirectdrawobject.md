@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a kernel-side representation of the Microsoft DirectDraw object.'
-ms.assetid: 'e380f948-35a0-4cf0-9b69-ab2bd4f9a161'
+---
+Description: Creates a kernel-side representation of the Microsoft DirectDraw object.
+ms.assetid: e380f948-35a0-4cf0-9b69-ab2bd4f9a161
 title: NtGdiDdCreateDirectDrawObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdCreateDirectDrawObject function
@@ -59,7 +64,7 @@ Applications are advised to use the DirectDraw and [Direct3D](http://msdn.micros
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdCreateDirectDrawObject**](-dxgkernel-ddcreatedirectdrawobject.md)
+[**DdCreateDirectDrawObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddcreatedirectdrawobject?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Nickname of the contact.'
-ms.assetid: 'c4470744-0f07-425e-a782-c12ec98af53d'
-title: 'System.Contact.NickName'
+Description: Nickname of the contact.
+ms.assetid: c4470744-0f07-425e-a782-c12ec98af53d
+title: System.Contact.NickName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.NickName

@@ -1,7 +1,12 @@
 ---
-Description: 'Product ID from the USB device''s USB Device Descriptor.'
-ms.assetid: '74246827-8f32-4292-9ca1-ecbf7c08299e'
-title: 'System.DeviceInterface.WinUsb.UsbProductId'
+Description: Product ID from the USB devices USB Device Descriptor.
+ms.assetid: 74246827-8f32-4292-9ca1-ecbf7c08299e
+title: System.DeviceInterface.WinUsb.UsbProductId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.WinUsb.UsbProductId

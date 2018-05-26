@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_Search02 class
 description: The MDM\_Policy\_Result01\_Search02 class represents the search policies available.
-ms.assetid: '3025753f-a3cc-430c-bc73-438085ef5c51'
-keywords: ["MDM_Policy_Result01_Search02 class", "MDM_Policy_Result01_Search02 class, described"]
+ms.assetid: 3025753f-a3cc-430c-bc73-438085ef5c51
+keywords:
+- MDM_Policy_Result01_Search02 class
+- MDM_Policy_Result01_Search02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_Search02 class
@@ -216,7 +223,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -231,9 +238,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

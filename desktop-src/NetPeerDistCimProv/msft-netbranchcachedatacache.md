@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a BranchCache data cache.'
-ms.assetid: '4afafaf7-abf9-4290-9801-6bc47bf67521'
-title: 'MSFT\_NetBranchCacheDataCache class'
+Description: Represents a BranchCache data cache.
+ms.assetid: 4afafaf7-abf9-4290-9801-6bc47bf67521
+title: MSFT\_NetBranchCacheDataCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheDataCache class
@@ -51,17 +56,17 @@ DataCacheExtensions
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Startup setting.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0EEF5C78-61C8-4316-976F-EE2495E4CFB5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0EEF5C78-61C8-4316-976F-EE2495E4CFB5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["StartupSetting Failover Cluster"]
+keywords:
+- StartupSetting Failover Cluster
 topic_type:
 - apiref
 api_name:
 - StartupSetting
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartupSetting
@@ -27,14 +31,14 @@ Startup setting.
 |-----------|--------------------------------------------------|
 | Data type | **DWORD**                                        |
 | Access    | [Read/write](read-write-properties.md)          |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)        |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)        |
 | Minimum   | **GROUPSET\_READY\_SETTING\_DELAY**              |
 | Maximum   | **GROUPSET\_READY\_SETTING\_APPLICATION\_READY** |
 | Default   | **GROUPSET\_READY\_SETTING\_DELAY**              |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_STARTUP\_SETTING**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_STARTUP\_SETTING**.
 [Groupset Common Properties](collection-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

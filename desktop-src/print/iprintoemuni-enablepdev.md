@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::EnablePDEV method allows a rendering plug-in for Unidrv to create its own PDEV structure.'
-ms.assetid: '93028b21-7995-42cd-af14-97e74ae75092'
-title: 'IPrintOemUni::EnablePDEV method'
+---
+Description: The IPrintOemUniEnablePDEV method allows a rendering plug-in for Unidrv to create its own PDEV structure.
+ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
+title: IPrintOemUniEnablePDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::EnablePDEV method

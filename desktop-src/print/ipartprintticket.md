@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartPrintTicket interface is the abstraction for a print ticket in an XPS document.'
-ms.assetid: '16dda4bb-69ff-420f-9802-7d7e0598928f'
+---
+Description: The IPartPrintTicket interface is the abstraction for a print ticket in an XPS document.
+ms.assetid: 16dda4bb-69ff-420f-9802-7d7e0598928f
 title: IPartPrintTicket interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartPrintTicket interface

@@ -4,11 +4,14 @@ description: Creates a new resource type in the cluster and adds it to a ClusRes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7fc79b1-1803-4060-bf1f-39a253bccab6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f7fc79b1-1803-4060-bf1f-39a253bccab6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreateItem method Failover Cluster", "CreateItem method Failover Cluster , ClusResTypes collection", "ClusResTypes collection Failover Cluster , CreateItem method"]
+keywords:
+- CreateItem method Failover Cluster
+- CreateItem method Failover Cluster , ClusResTypes collection
+- ClusResTypes collection Failover Cluster , CreateItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResTypes.CreateItem method
@@ -68,14 +74,14 @@ String containing the file name of the library containing the new resource type.
 *lLooksAlivePollInterval* 
 </dt> <dd>
 
-Length of time in milliseconds that should occur between calls to the new resource type's [**LooksAlive**](looksalive.md) entry point function.
+Length of time in milliseconds that should occur between calls to the new resource type's [**LooksAlive**](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master) entry point function.
 
 </dd> <dt>
 
 *lIsAlivePollInterval* 
 </dt> <dd>
 
-Length of time in milliseconds that should occur between calls to the new resource type's [**IsAlive**](isalive.md) entry point function.
+Length of time in milliseconds that should occur between calls to the new resource type's [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) entry point function.
 
 </dd> </dl>
 
@@ -94,7 +100,7 @@ The new resource type must be supported by a [resource DLL](resource-dlls.md). F
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -113,15 +119,15 @@ The new resource type must be supported by a [resource DLL](resource-dlls.md). F
 [**ClusResTypes**](clusrestypes-collection.md)
 </dt> <dt>
 
-[**IsAlive**](isalive.md)
+[**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master)
 </dt> <dt>
 
-[**LooksAlive**](looksalive.md)
+[**LooksAlive**](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

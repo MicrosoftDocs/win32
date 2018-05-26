@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetExtensionProperty method retrieves an extension configuration property stored at the server level.'
-ms.assetid: 'f5c5df93-9bd3-43c3-8a5d-c97d890b2fa1'
-title: 'FaxServer.GetExtensionProperty method'
+---
+Description: The GetExtensionProperty method retrieves an extension configuration property stored at the server level.
+ms.assetid: f5c5df93-9bd3-43c3-8a5d-c97d890b2fa1
+title: FaxServer.GetExtensionProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.GetExtensionProperty method
@@ -46,7 +51,7 @@ Type: **Variant\***
 
 The returned data is a blob of bytes represented as a variant safe array of unsigned chars (VT\_UI1 \| VT\_ARRAY). The data is only relevant to the specific extension that uses it. For more information see [About the Fax Extension Configuration API](-mfax-about-the-fax-extension-configuration-api.md).
 
-To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -71,7 +76,7 @@ To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

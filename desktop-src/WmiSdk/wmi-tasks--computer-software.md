@@ -1,13 +1,16 @@
 ---
-Description: 'WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.'
+Description: WMI tasks for computer software obtain information such as which software is installed by the Microsoft Windows Installer (MSI) and software versions. For other examples, see the TechNet ScriptCenter at http//www.microsoft.com/technet.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '65a61be3-7870-4178-9e96-78b82898271f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Computer Software'
+title: WMI Tasks Computer Software
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Computer Software
@@ -30,12 +33,12 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 > [!Note]  
 > Running a "Select \* from Win32\_Product" query may result in unexpected behavior. This is because the provider that supports Win32\_Product is not query optimized. For more information, see [KB Article 974524](http://support.microsoft.com/kb/974524).
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -219,7 +222,7 @@ foreach ($colItem in $colSoftware)
 
 
 
- 
+ 
 
 ## Examples
 
@@ -238,9 +241,9 @@ The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a CMC certificate request on behalf of another user and enrolls the user in a certificate hierarchy.'
-ms.assetid: '14cc76c9-0e2b-498f-b058-244af6e9111e'
+Description: Creates a CMC certificate request on behalf of another user and enrolls the user in a certificate hierarchy.
+ms.assetid: 14cc76c9-0e2b-498f-b058-244af6e9111e
 title: enrollEOBOCMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enrollEOBOCMC
@@ -22,12 +27,12 @@ The enrollEOBOCMC sample:
     -   The name of a Personal Information Exchange (PFX) file in which to save the request.
     -   A password to use with the PFX file.
     -   An optional enrollment agent template name. The template is used to create an enrollment agent certificate if none exists in the certificate store.
-2.  Creates an [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) object and initializes it by using the certificate template specified on the command line.
+2.  Creates an [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) object and initializes it by using the certificate template specified on the command line.
 3.  Adds the name of the requester to the CMC request object.
 4.  Retrieves an existing enrollment agent certificate or, if one cannot be found, creates a certificate request from the enrollment agent template specified on the command line and attempts to enroll it.
 5.  Verifies the certificate chain that contains the enrollment agent certificate.
-6.  Creates an [**ISignerCertificate**](isignercertificate.md) object, initializes it by using the enrollment agent certificate, retrieves the [**ISignerCertificates**](isignercertificates.md) collection from the CMC request object, and adds the enrollment agent signing certificate object to the collection. The [**IX509Enrollment**](ix509enrollment.md) object discussed in the next step uses the certificate to sign the CMC request.
-7.  Creates an [**IX509Enrollment**](ix509enrollment.md) object, initializes it by using the CMC request, attempts to enroll it, and checks the progress of the enrollment process.
+6.  Creates an [**ISignerCertificate**](/windows/win32/CertEnroll/nn-certenroll-isignercertificate?branch=master) object, initializes it by using the enrollment agent certificate, retrieves the [**ISignerCertificates**](/windows/win32/CertEnroll/nn-certenroll-isignercertificates?branch=master) collection from the CMC request object, and adds the enrollment agent signing certificate object to the collection. The [**IX509Enrollment**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) object discussed in the next step uses the certificate to sign the CMC request.
+7.  Creates an [**IX509Enrollment**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) object, initializes it by using the CMC request, attempts to enroll it, and checks the progress of the enrollment process.
 8.  Exports the installed certificate to a PFX file. The file is protected by using the password specified on the command line. The EncodeToFileW function is defined in enrollCommon.cpp.
 9.  Deletes the certificate from the certificate store. The functions used in the following code example can be found in the CryptoAPI documentation.
 10. Deletes the private key from the computer.

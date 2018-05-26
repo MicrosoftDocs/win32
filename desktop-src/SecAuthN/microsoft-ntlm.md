@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Challenge/Response (NTLM) is the authentication protocol used on networks that include systems running the Windows operating system and on stand-alone systems.'
-ms.assetid: '35a38858-d36f-45c9-95f4-2541a182f5ac'
+Description: Windows Challenge/Response (NTLM) is the authentication protocol used on networks that include systems running the Windows operating system and on stand-alone systems.
+ms.assetid: 35a38858-d36f-45c9-95f4-2541a182f5ac
 title: Microsoft NTLM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft NTLM

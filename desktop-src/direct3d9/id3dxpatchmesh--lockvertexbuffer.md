@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lock the vertex buffer.'
-ms.assetid: 'f7e4f27d-1b40-4b0d-8173-48a0b15cfc95'
-title: 'ID3DXPatchMesh::LockVertexBuffer method'
+---
+Description: Lock the vertex buffer.
+ms.assetid: f7e4f27d-1b40-4b0d-8173-48a0b15cfc95
+title: ID3DXPatchMeshLockVertexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::LockVertexBuffer method

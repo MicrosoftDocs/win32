@@ -1,7 +1,12 @@
 ---
 title: To store HTML tags or text for later use
 description: To store HTML tags or text for later use
-ms.assetid: '2D778D25-19FB-4474-A1E4-589901EDA5D8'
+ms.assetid: 2D778D25-19FB-4474-A1E4-589901EDA5D8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To store HTML tags or text for later use

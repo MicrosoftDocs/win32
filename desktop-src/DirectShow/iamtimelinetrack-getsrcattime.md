@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetSrcAtTime method retrieves the source object nearest to the specified time, according to the specified boundary conditions.'
-ms.assetid: '0469c0c2-13df-49f7-95b2-15d3069c5b1c'
-title: 'IAMTimelineTrack::GetSrcAtTime method'
+---
+Description: The GetSrcAtTime method retrieves the source object nearest to the specified time, according to the specified boundary conditions.
+ms.assetid: 0469c0c2-13df-49f7-95b2-15d3069c5b1c
+title: IAMTimelineTrackGetSrcAtTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::GetSrcAtTime method

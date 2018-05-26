@@ -1,8 +1,11 @@
 ---
 title: SetCredentials method of the BitsClientJob class
 description: The SetCredentials method identifies the Target parameter, the authentication scheme, and the user credentials to use for user authentication requests.
-ms.assetid: '69ae8c36-11e6-4030-9b38-006c4a5bfc07'
-keywords: ["SetCredentials method", "SetCredentials method, BitsClientJob class", "BitsClientJob class, SetCredentials method"]
+ms.assetid: 69ae8c36-11e6-4030-9b38-006c4a5bfc07
+keywords:
+- SetCredentials method
+- SetCredentials method, BitsClientJob class
+- BitsClientJob class, SetCredentials method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetCredentials method of the BitsClientJob class
@@ -22,10 +30,10 @@ The **SetCredentials** method identifies the *Target* parameter, the authenticat
 
 ```mof
 uint32 SetCredentials(
-  [in] Uint16 Target,
-  [in] Uint16 Scheme,
-  [in] string UserName,
-  [in] string Password
+  [in] Uint16 Target,
+  [in] Uint16 Scheme,
+  [in] string UserName,
+  [in] string Password
 );
 ```
 
@@ -49,7 +57,7 @@ Specifies whether the destination is either a server or a proxy. The *Target* pa
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,7 +78,7 @@ Specifies the authentication scheme to use. The *Scheme* parameter can be set to
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,8 +103,8 @@ A **null**-terminated string that contains the password in clear text. The *pass
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ A **null**-terminated string that contains the password in clear text. The *pass
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,24 @@ description: Controls the publisher certificate chain. The chain is stored in a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '27ab0aff-1aef-4701-abe0-849bf32c9773'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 27ab0aff-1aef-4701-abe0-849bf32c9773
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PublisherCertificateChain property Remote Desktop Services", "PublisherCertificateChain property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , PublisherCertificateChain property", "PublisherCertificateChain property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , PublisherCertificateChain property", "PublisherCertificateChain property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , PublisherCertificateChain property", "PublisherCertificateChain property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , PublisherCertificateChain property", "PublisherCertificateChain property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , PublisherCertificateChain property", "PublisherCertificateChain property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , PublisherCertificateChain property"]
+keywords:
+- PublisherCertificateChain property Remote Desktop Services
+- PublisherCertificateChain property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , PublisherCertificateChain property
+- PublisherCertificateChain property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , PublisherCertificateChain property
+- PublisherCertificateChain property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , PublisherCertificateChain property
+- PublisherCertificateChain property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , PublisherCertificateChain property
+- PublisherCertificateChain property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , PublisherCertificateChain property
+- PublisherCertificateChain property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , PublisherCertificateChain property
 topic_type:
 - apiref
 api_name:
@@ -26,6 +39,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable4::PublisherCertificateChain property
@@ -39,11 +55,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_PublisherCertificateChain(
-  [in]  VARIANT *pVarCert
+  [in]  VARIANT *pVarCert
 );
 
 HRESULT get_PublisherCertificateChain(
-  [out] VARIANT *pVarCert
+  [out] VARIANT *pVarCert
 );
 ```
 
@@ -63,8 +79,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IMsRdpClientNonScriptable4 is defined as f50fa8aa-1c7d-4f59-b15c-a90cacae1fcb<br/> |
@@ -81,9 +97,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

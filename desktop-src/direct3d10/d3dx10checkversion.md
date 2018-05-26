@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verify that the version of D3DX you compiled with is the version that you are running.'
-ms.assetid: '57085b07-f77b-425e-a889-22c3071d7143'
+---
+Description: Verify that the version of D3DX you compiled with is the version that you are running.
+ms.assetid: 57085b07-f77b-425e-a889-22c3071d7143
 title: D3DX10CheckVersion function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CheckVersion function

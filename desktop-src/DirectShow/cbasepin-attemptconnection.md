@@ -1,7 +1,12 @@
 ---
-Description: 'The AttemptConnection method connects to another pin using a specified media type.'
-ms.assetid: 'b80cf2c0-7266-4dac-8633-d30a871c57d9'
-title: 'CBasePin.AttemptConnection method'
+Description: The AttemptConnection method connects to another pin using a specified media type.
+ms.assetid: b80cf2c0-7266-4dac-8633-d30a871c57d9
+title: CBasePin.AttemptConnection method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.AttemptConnection method
@@ -13,8 +18,8 @@ The `AttemptConnection` method connects to another pin using a specified media t
 
 ```C++
 virtual HRESULT AttemptConnection(
-         IPin       *pReceivePin,
-   const CMediaType *pmt
+         IPin       *pReceivePin,
+   const CMediaType *pmt
 );
 ```
 
@@ -27,7 +32,7 @@ virtual HRESULT AttemptConnection(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the receiving pin's [**IPin**](ipin.md) interface.
+Pointer to the receiving pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> <dt>
 
@@ -51,13 +56,13 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
 This method attempts to connect the two pins with a specific media type. If the type is not acceptable, the method fails without trying other media types.
 
-If the media type is acceptable, this method calls the receiving pin's [**IPin::ReceiveConnection**](ipin-receiveconnection.md) method. Then it calls the [**CBasePin::CompleteConnect**](cbasepin-completeconnect.md) method to complete the connection.
+If the media type is acceptable, this method calls the receiving pin's [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) method. Then it calls the [**CBasePin::CompleteConnect**](cbasepin-completeconnect.md) method to complete the connection.
 
 ## Requirements
 
@@ -77,9 +82,9 @@ If the media type is acceptable, this method calls the receiving pin's [**IPin::
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

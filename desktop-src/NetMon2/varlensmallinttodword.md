@@ -1,7 +1,12 @@
 ---
-Description: 'The VarLenSmallIntToDword function converts a variable-length, small integer to a DWORD.'
-ms.assetid: 'e26dc206-ac85-4346-9fcf-93ebc8948ced'
+Description: The VarLenSmallIntToDword function converts a variable-length, small integer to a DWORD.
+ms.assetid: e26dc206-ac85-4346-9fcf-93ebc8948ced
 title: VarLenSmallIntToDword function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VarLenSmallIntToDword function
@@ -13,10 +18,10 @@ The **VarLenSmallIntToDword** function converts a variable-length, small integer
 
 ```C++
 LPDWORD WINAPI VarLenSmallIntToDword(
-   LPBYTE  pValue,
-   WORD    ValueLen,
-   BOOL    fIsByteswapped,
-   LPDWORD lpDword
+   LPBYTE  pValue,
+   WORD    ValueLen,
+   BOOL    fIsByteswapped,
+   LPDWORD lpDword
 );
 ```
 
@@ -64,17 +69,17 @@ The return value is a pointer to the **DWORD**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Parser.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

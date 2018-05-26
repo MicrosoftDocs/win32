@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RegisterDeviceProvider method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.'
-ms.assetid: '04cbf53b-2fc5-4f7a-8430-988b5cfa8f52'
-title: 'FaxServer.RegisterDeviceProvider method'
+---
+Description: The RegisterDeviceProvider method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.
+ms.assetid: 04cbf53b-2fc5-4f7a-8430-988b5cfa8f52
+title: FaxServer.RegisterDeviceProvider method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.RegisterDeviceProvider method
@@ -76,7 +81,7 @@ A **Long** value that indicates the version of the FSP. Should be equal to 0x000
 
 Only an administrator can register a FSP.
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -98,7 +103,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

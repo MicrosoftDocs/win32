@@ -4,11 +4,16 @@ description: Describes AD DS support for the inheritance of permissions down the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'db9cf8d9-6831-4456-b2a5-9f5b4f3e9100'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: db9cf8d9-6831-4456-b2a5-9f5b4f3e9100
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["administration inheritance and delegation Active Directory", "Active Directory Active Directory ,permissions inheritance"]
+keywords:
+- administration inheritance and delegation Active Directory
+- Active Directory Active Directory ,permissions inheritance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Inheritance and Delegation of Administration
@@ -27,7 +32,7 @@ Inheritance can be set on a per-ACE basis. The following table lists flags that 
 
 
 
- 
+ 
 
 In addition to setting inheritance, Active Directory Domain Services supports object-specific inheritance. This allows the inheritable ACEs to be inherited down the tree, but be effective only on a specific type of object. This is extremely useful in delegating administration. For example, this can be used to set an object-specific inheritable ACE at an organizational unit that enables a group to have full control on all user objects in the organizational unit, but nothing else. Thereby, the management of users in that organizational unit gets delegated to the users in that group.
 
@@ -39,9 +44,9 @@ Use Security groups to define and delegate administrative roles associated with 
 
 Use security groups to define the set of computers that are granted access to your service's objects in the directory. For example, your service may be associated with a group MyService Servers. All computers running the MyService server are added to MyService Servers group and this group can then be given access to parts of the directory where MyService servers need to read/write data. The setup program for MyService can set ACLs on the directory to enable MyService Servers sufficient permissions to read/write MyService-related attributes or create MyService-specific objects for example.
 
- 
+ 
 
- 
+ 
 
 
 

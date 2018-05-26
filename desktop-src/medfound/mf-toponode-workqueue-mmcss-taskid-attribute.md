@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a Multimedia Class Scheduler Service (MMCSS) task identifier for a topology branch.'
-ms.assetid: 'ccecc1e6-2d30-4e89-849f-c3acad97f312'
-title: 'MF\_TOPONODE\_WORKQUEUE\_MMCSS\_TASKID attribute'
+---
+Description: Specifies a Multimedia Class Scheduler Service (MMCSS) task identifier for a topology branch.
+ms.assetid: ccecc1e6-2d30-4e89-849f-c3acad97f312
+title: MF\_TOPONODE\_WORKQUEUE\_MMCSS\_TASKID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_WORKQUEUE\_MMCSS\_TASKID attribute
@@ -46,16 +51,16 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
-[**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginregistertopologyworkqueueswithmmcss.md)
+[**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss?branch=master)
 </dt> <dt>
 
 [Topology Node Attributes](topology-node-attributes.md)

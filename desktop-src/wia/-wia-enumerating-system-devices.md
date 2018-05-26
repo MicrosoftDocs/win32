@@ -1,14 +1,19 @@
 ---
-Description: 'Use the IWiaDevMgr::EnumDeviceInfo (or IWiaDevMgr2::EnumDeviceInfo) method to enumerate the Windows Image Acquisition (WIA) devices installed on a system.'
-ms.assetid: '6465a33e-1b3b-4142-a58f-b27e9c95cd3e'
+Description: Use the IWiaDevMgrEnumDeviceInfo (or IWiaDevMgr2EnumDeviceInfo) method to enumerate the Windows Image Acquisition (WIA) devices installed on a system.
+ms.assetid: 6465a33e-1b3b-4142-a58f-b27e9c95cd3e
 title: Enumerating System Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating System Devices
 
-Use the [**IWiaDevMgr::EnumDeviceInfo**](-wia-iwiadevmgr-enumdeviceinfo.md) (or [**IWiaDevMgr2::EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)) method to enumerate the Windows Image Acquisition (WIA) devices installed on a system. This method creates an enumeration object for the properties of the devices, and returns a pointer to the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) interface that the enumeration object supports.
+Use the [**IWiaDevMgr::EnumDeviceInfo**](/windows/win32/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo?branch=master) (or [**IWiaDevMgr2::EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)) method to enumerate the Windows Image Acquisition (WIA) devices installed on a system. This method creates an enumeration object for the properties of the devices, and returns a pointer to the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) interface that the enumeration object supports.
 
-You can then use the methods of the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) interface to obtain an [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface pointer for each device installed on the system.
+You can then use the methods of the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) interface to obtain an [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface pointer for each device installed on the system.
 
 The following code from the WiaSSamp sample application demonstrates how to create an enumeration object for the devices on a system and iterate through those devices:
 
@@ -91,15 +96,15 @@ The following code from the WiaSSamp sample application demonstrates how to crea
 
 WIA\_DEVINFO\_ENUM\_LOCAL is a WIA constant that represents the only valid value for this parameter.
 
-In the example, the parameter **pWiaDevMgr** points to an instance of the [**IWiaDevMgr**](-wia-iwiadevmgr.md) (or [**IWiaDevMgr2**](-wia-iwiadevmgr2.md)) interface after a previous call to [CoCreateInstance](com.cocreateinstance).
+In the example, the parameter **pWiaDevMgr** points to an instance of the [**IWiaDevMgr**](/windows/win32/wia_xp/nn-wia_xp-iwiadevmgr?branch=master) (or [**IWiaDevMgr2**](-wia-iwiadevmgr2.md)) interface after a previous call to [CoCreateInstance](com.cocreateinstance).
 
-The application calls the [**IWiaDevMgr::EnumDeviceInfo**](-wia-iwiadevmgr-enumdeviceinfo.md) (or [**IWiaDevMgr2::EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)) method of the [**IWiaDevMgr**](-wia-iwiadevmgr.md) (or [**IWiaDevMgr2**](-wia-iwiadevmgr2.md)) pointer **pWiaDevMgr** that fills **pWiaEnumDevInfo** with the address of a pointer to the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) interface.
+The application calls the [**IWiaDevMgr::EnumDeviceInfo**](/windows/win32/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo?branch=master) (or [**IWiaDevMgr2::EnumDeviceInfo**](-wia-iwiadevmgr2-enumdeviceinfo.md)) method of the [**IWiaDevMgr**](/windows/win32/wia_xp/nn-wia_xp-iwiadevmgr?branch=master) (or [**IWiaDevMgr2**](-wia-iwiadevmgr2.md)) pointer **pWiaDevMgr** that fills **pWiaEnumDevInfo** with the address of a pointer to the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) interface.
 
-If the call succeeds, the application then calls the [**IEnumWIA\_DEV\_INFO::Reset**](-wia-ienumwia-dev-info-reset.md) method of the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) pointer. The **pWiaEnumDevInfo** variable ensures that the enumeration starts at the beginning.
+If the call succeeds, the application then calls the [**IEnumWIA\_DEV\_INFO::Reset**](/windows/win32/wia_xp/nf-wia_xp-ienumwia_dev_info-reset?branch=master) method of the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) pointer. The **pWiaEnumDevInfo** variable ensures that the enumeration starts at the beginning.
 
-If this call succeeds, the application iterates through the devices on the system by repeatedly calling the [**IEnumWIA\_DEV\_INFO::Next**](-wia-ienumwia-dev-info-next.md) method of the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) pointer **pWiaEnumDevInfo** until the method no longer returns S\_OK, indicating that the enumeration is complete.
+If this call succeeds, the application iterates through the devices on the system by repeatedly calling the [**IEnumWIA\_DEV\_INFO::Next**](/windows/win32/wia_xp/nf-wia_xp-ienumwia_dev_info-next?branch=master) method of the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) pointer **pWiaEnumDevInfo** until the method no longer returns S\_OK, indicating that the enumeration is complete.
 
-Each call to **pWiaEnumDevInfo-&gt;Next** fills **pWiaPropertyStorage** with a pointer to the [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface that contains property information for a specific device.
+Each call to **pWiaEnumDevInfo-&gt;Next** fills **pWiaPropertyStorage** with a pointer to the [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface that contains property information for a specific device.
 
  
 

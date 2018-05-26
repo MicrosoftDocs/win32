@@ -4,11 +4,13 @@ description: The base class for all system components that represent abstract sy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21e4a2ba-7bc5-4e33-a888-198299137da6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 21e4a2ba-7bc5-4e33-a888-198299137da6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CIM_LogicalElement class Remote Desktop Services", "CIM_LogicalElement class Remote Desktop Services , described"]
+keywords:
+- CIM_LogicalElement class Remote Desktop Services
+- CIM_LogicalElement class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalElement class
@@ -36,11 +41,11 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, UUID("{8502C518-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_LogicalElement : CIM_ManagedSystemElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -204,8 +209,8 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -219,9 +224,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

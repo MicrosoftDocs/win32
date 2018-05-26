@@ -1,8 +1,11 @@
 ---
 title: IRangeList MinOfRange method
 description: Finds the range in the message range list that the specified value belongs to, and returns the minimum value of that range.
-ms.assetid: '322c37c1-b8f8-4a1d-a876-43808fe84bc5'
-keywords: ["MinOfRange method Windows Mail (formerly Outlook Express)", "MinOfRange method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , MinOfRange method"]
+ms.assetid: 322c37c1-b8f8-4a1d-a876-43808fe84bc5
+keywords:
+- MinOfRange method Windows Mail (formerly Outlook Express)
+- MinOfRange method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , MinOfRange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::MinOfRange method
@@ -24,8 +32,8 @@ Finds the range in the message range list that the specified value belongs to, a
 
 ```C++
 HRESULT MinOfRange(
-  [in]  const ULONG value,
-  [out]       ULONG *pulMinOfRange
+  [in]  const ULONG value,
+  [out]       ULONG *pulMinOfRange
 );
 ```
 
@@ -50,7 +58,7 @@ Specifies a **ULONG** that contains a value within the range whose minimum value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +77,7 @@ Receives a pointer to a **ULONG** that contains the minimum value in the range t
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,7 +89,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-For example, for the range list "10–20,30,40–50", **MinOfRange**(45) returns 40.
+For example, for the range list "10 20,30,40 50", **MinOfRange**(45) returns 40.
 
 ## Requirements
 
@@ -89,8 +97,8 @@ For example, for the range list "10–20,30,40–50", **MinOfRange**(45) returns 40.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -98,9 +106,9 @@ For example, for the range list "10–20,30,40–50", **MinOfRange**(45) returns 40.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

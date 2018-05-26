@@ -1,8 +1,25 @@
 ---
 title: Describing Color
 description: Color can be described in terms of components.
-ms.assetid: '441d4f8d-57ef-4ecb-90b4-9d7d0e804ea2'
-keywords: ["Windows Color System (WCS),color components", "WCS (Windows Color System),color components", "image color management,color components", "color management,color components", "colors,components", "hue", "chroma", "lightness", "tint", "tone", "shade", "zero saturation"]
+ms.assetid: 441d4f8d-57ef-4ecb-90b4-9d7d0e804ea2
+keywords:
+- Windows Color System (WCS),color components
+- WCS (Windows Color System),color components
+- image color management,color components
+- color management,color components
+- colors,components
+- hue
+- chroma
+- lightness
+- tint
+- tone
+- shade
+- zero saturation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Describing Color

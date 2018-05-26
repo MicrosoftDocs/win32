@@ -4,17 +4,21 @@ description: Options for placing the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '704DD1EB-5763-46B0-9B53-5B37A2AE2299'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 704DD1EB-5763-46B0-9B53-5B37A2AE2299
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PlacementOptions Failover Cluster"]
+keywords:
+- PlacementOptions Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PlacementOptions
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PlacementOptions
@@ -27,20 +31,20 @@ Options for placing the cluster.
 |-----------|-----------------------------------------------------|
 | Data type | **DWORD**                                           |
 | Access    | [Read/write](read-write-properties.md)             |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)           |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)           |
 | Minimum   | **PLACEMENT\_OPTIONS\_MIN\_VALUE**                  |
 | Maximum   | **PLACEMENT\_OPTIONS\_ALL**                         |
 | Default   | **PLACEMENT\_OPTIONS\_DEFAULT\_PLACEMENT\_OPTIONS** |
 
 
 
- 
+ 
 
 ## Remarks
 
 The constant for this property is **CLUSREG\_NAME\_PLACEMENT\_OPTIONS**.
 
-This property can contain a bitwise combination of the following [**PLACEMENT\_OPTIONS**](placement-options.md) values.
+This property can contain a bitwise combination of the following [**PLACEMENT\_OPTIONS**](/windows/previous-versions/clusapi/ne-clusapi-placement_options?branch=master) values.
 
 
 
@@ -54,7 +58,7 @@ This property can contain a bitwise combination of the following [**PLACEMENT\_O
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,7 +67,7 @@ This property can contain a bitwise combination of the following [**PLACEMENT\_O
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -74,9 +78,9 @@ This property can contain a bitwise combination of the following [**PLACEMENT\_O
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

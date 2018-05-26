@@ -1,8 +1,11 @@
 ---
 title: RemoveSslCertificate method of the BitsCompactServerUrlGroup class
 description: The RemoveSslCertificate method removes the SSL certificate for a port.
-ms.assetid: '31ee32b1-4859-4e4e-bc8c-d997225accd8'
-keywords: ["RemoveSslCertificate method", "RemoveSslCertificate method, BitsCompactServerUrlGroup class", "BitsCompactServerUrlGroup class, RemoveSslCertificate method"]
+ms.assetid: 31ee32b1-4859-4e4e-bc8c-d997225accd8
+keywords:
+- RemoveSslCertificate method
+- RemoveSslCertificate method, BitsCompactServerUrlGroup class
+- BitsCompactServerUrlGroup class, RemoveSslCertificate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveSslCertificate method of the BitsCompactServerUrlGroup class
@@ -22,7 +30,7 @@ The **RemoveSslCertificate** method removes the SSL certificate for a port.
 
 ```mof
 uint32 RemoveSslCertificate(
-  [in] uint16 Port
+  [in] uint16 Port
 );
 ```
 
@@ -46,8 +54,8 @@ Specifies the port on which the certificate to be removed is bound.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -60,9 +68,9 @@ Specifies the port on which the certificate to be removed is bound.
 [**BitsCompactServerUrlGroup**](bitslightweightserverurlgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

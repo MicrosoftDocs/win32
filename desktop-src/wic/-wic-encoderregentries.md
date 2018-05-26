@@ -1,7 +1,12 @@
 ---
-Description: 'Encoder-Specific Registry Entries'
-ms.assetid: 'bbb78d70-bd3e-4d5a-ba59-2e17d2d1cf30'
-title: 'Encoder-Specific Registry Entries'
+Description: Encoder-Specific Registry Entries
+ms.assetid: bbb78d70-bd3e-4d5a-ba59-2e17d2d1cf30
+title: Encoder-Specific Registry Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoder-Specific Registry Entries

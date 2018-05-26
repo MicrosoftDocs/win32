@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when printer queues are enumerated.'
-ms.assetid: '947063C6-563A-4BB7-918E-479941B4583F'
-title: 'IPrinterExtensionEvent::OnPrinterQueuesEnumerated method'
+---
+Description: Called when printer queues are enumerated.
+ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
+title: IPrinterExtensionEventOnPrinterQueuesEnumerated method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEvent::OnPrinterQueuesEnumerated method

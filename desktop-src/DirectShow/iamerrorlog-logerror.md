@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LogError method logs an error. Applications do not need to call this method. It is called internally in response to rendering errors.'
-ms.assetid: '08765c8a-21ca-4c40-84a8-d13da87d9c5f'
-title: 'IAMErrorLog::LogError method'
+---
+Description: The LogError method logs an error. Applications do not need to call this method. It is called internally in response to rendering errors.
+ms.assetid: 08765c8a-21ca-4c40-84a8-d13da87d9c5f
+title: IAMErrorLogLogError method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMErrorLog::LogError method

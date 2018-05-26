@@ -1,15 +1,18 @@
 ---
-Description: 'Deletes IP address audit events that occurred before the specified date.'
+Description: Deletes IP address audit events that occurred before the specified date.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ccc723ca-7d33-4d39-bda3-b3bf39562bf5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ccc723ca-7d33-4d39-bda3-b3bf39562bf5
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RemoveIpAuditLog method of the MSFT\_IPAM\_IpAuditLogEntry class'
+title: RemoveIpAuditLog method of the MSFT\_IPAM\_IpAuditLogEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveIpAuditLog method of the MSFT\_IPAM\_IpAuditLogEntry class
@@ -21,8 +24,8 @@ Deletes IP address audit events that occurred before the specified date.
 
 ```mof
 uint32 RemoveIpAuditLog(
-  [in]  datetime                  EndDate,
-  [out] MSFT_IPAM_IpAuditLogEntry Output[]
+  [in]  datetime                  EndDate,
+  [out] MSFT_IPAM_IpAuditLogEntry Output[]
 );
 ```
 
@@ -57,7 +60,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -71,9 +74,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_IpAuditLogEntry**](msft-ipam-ipauditlogentry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

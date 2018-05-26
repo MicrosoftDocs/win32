@@ -1,8 +1,10 @@
 ---
 title: RTM\_IP\_ROUTE structure
 description: The RTM\_IP\_ROUTE structure contains information that describes a route owned by the IP protocol family.
-ms.assetid: 'e752a4ae-a6bf-4cd3-9638-7615ff3901b7'
-keywords: ["RTM_IP_ROUTE structure RAS", "PRTM_IP_ROUTE structure pointer RAS"]
+ms.assetid: e752a4ae-a6bf-4cd3-9638-7615ff3901b7
+keywords:
+- RTM_IP_ROUTE structure RAS
+- PRTM_IP_ROUTE structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RTM\_IP\_ROUTE structure
@@ -24,13 +31,13 @@ The **RTM\_IP\_ROUTE** structure contains information that describes a route own
 
 ```C++
 typedef struct _RTM_IP_ROUTE {
-  FILETIME               RR_TimeStamp;
-  DWORD                  RR_RoutingProtocol;
-  DWORD                  RR_InterfaceID;
+  FILETIME               RR_TimeStamp;
+  DWORD                  RR_RoutingProtocol;
+  DWORD                  RR_InterfaceID;
   PROTOCOL_SPECIFIC_DATA RR_ProtocolSpecificData;
-  IP_NETWORK             RR_Network;
-  IP_NEXT_HOP_ADDRESS    RR_NextHopAddress;
-  IP_SPECIFIC_DATA       RR_FamilySpecificData;
+  IP_NETWORK             RR_Network;
+  IP_NEXT_HOP_ADDRESS    RR_NextHopAddress;
+  IP_SPECIFIC_DATA       RR_FamilySpecificData;
 } RTM_IP_ROUTE, *PRTM_IP_ROUTE;
 ```
 
@@ -100,8 +107,8 @@ The members of the **RTM\_IP\_ROUTE** structure are all **DWORD** aligned.
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -125,9 +132,9 @@ The members of the **RTM\_IP\_ROUTE** structure are all **DWORD** aligned.
 [**IP\_SPECIFIC\_DATA**](ip-specific-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

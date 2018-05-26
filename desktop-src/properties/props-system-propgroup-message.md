@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.'
-ms.assetid: 'bbb475f3-f5da-42f1-be8f-396c5be86417'
-title: 'System.PropGroup.Message'
+Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+ms.assetid: bbb475f3-f5da-42f1-be8f-396c5be86417
+title: System.PropGroup.Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.Message

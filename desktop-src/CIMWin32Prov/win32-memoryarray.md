@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_MemoryArray WMI class represents the properties of the computer system memory array and mapped addresses.'
+Description: The Win32\_MemoryArray WMI class represents the properties of the computer system memory array and mapped addresses.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '56ff6960-cde3-4e34-b4df-d2993bafaa62'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 56ff6960-cde3-4e34-b4df-d2993bafaa62
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_MemoryArray class'
+title: Win32\_MemoryArray class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_MemoryArray class
@@ -24,45 +27,45 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{FAF76B9A-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class Win32_MemoryArray : Win32_SMBIOSMemory
 {
-  uint16   Access;
-  uint8    AdditionalErrorData[];
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  boolean  CorrectableError;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  uint64   EndingAddress;
-  uint16   ErrorAccess;
-  uint64   ErrorAddress;
-  boolean  ErrorCleared;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  string   ErrorDescription;
-  uint16   ErrorGranularity;
-  uint16   ErrorInfo;
-  string   ErrorMethodology;
-  uint64   ErrorResolution;
+  uint16   Access;
+  uint8    AdditionalErrorData[];
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  boolean  CorrectableError;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  uint64   EndingAddress;
+  uint16   ErrorAccess;
+  uint64   ErrorAddress;
+  boolean  ErrorCleared;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  string   ErrorDescription;
+  uint16   ErrorGranularity;
+  uint16   ErrorInfo;
+  string   ErrorMethodology;
+  uint64   ErrorResolution;
   datetime ErrorTime;
-  uint32   ErrorTransferSize;
+  uint32   ErrorTransferSize;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   OtherErrorDescription;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Purpose;
-  uint64   StartingAddress;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  boolean  SystemLevelAddress;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   OtherErrorDescription;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Purpose;
+  uint64   StartingAddress;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  boolean  SystemLevelAddress;
+  string   SystemName;
 };
 ```
 
@@ -86,7 +89,7 @@ The **Win32\_MemoryArray** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -403,7 +406,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1819,8 +1822,8 @@ The **Win32\_MemoryArray** class is derived from [**Win32\_SMBIOSMemory**](win32
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1837,9 +1840,9 @@ The **Win32\_MemoryArray** class is derived from [**Win32\_SMBIOSMemory**](win32
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

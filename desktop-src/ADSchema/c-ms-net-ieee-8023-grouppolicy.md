@@ -4,17 +4,21 @@ description: This class represents an 802.3 wired network Group Policy object. T
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ca213f8b-99d4-48c9-8104-bb982f0c077a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ca213f8b-99d4-48c9-8104-bb982f0c077a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-net-ieee-8023-GroupPolicy class AD Schema"]
+keywords:
+- ms-net-ieee-8023-GroupPolicy class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-net-ieee-8023-GroupPolicy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-net-ieee-8023-GroupPolicy class
@@ -35,9 +39,9 @@ This class represents an 802.3 wired network Group Policy object. This class con
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -64,7 +68,7 @@ This class represents an 802.3 wired network Group Policy object. This class con
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -206,7 +210,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -355,7 +359,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -485,9 +489,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

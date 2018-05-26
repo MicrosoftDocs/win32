@@ -1,7 +1,12 @@
-﻿---
-Description: 'Load a series of glyphs into video memory to improve the efficiency of rendering to the device.'
-ms.assetid: '7d063d52-af2c-44a6-9019-3d546acfbd4a'
-title: 'ID3DX10Font::PreloadGlyphs method'
+---
+Description: Load a series of glyphs into video memory to improve the efficiency of rendering to the device.
+ms.assetid: 7d063d52-af2c-44a6-9019-3d546acfbd4a
+title: ID3DX10FontPreloadGlyphs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Font::PreloadGlyphs method

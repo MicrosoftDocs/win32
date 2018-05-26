@@ -1,7 +1,12 @@
 ---
-Description: 'The vertical size of the image, in pixels.'
-ms.assetid: '0befbe4e-ac30-4823-b687-dd236b6dd7ab'
-title: 'System.Image.VerticalSize'
+Description: The vertical size of the image, in pixels.
+ms.assetid: 0befbe4e-ac30-4823-b687-dd236b6dd7ab
+title: System.Image.VerticalSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.VerticalSize

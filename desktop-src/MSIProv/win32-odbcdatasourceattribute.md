@@ -1,8 +1,10 @@
 ---
 title: Win32\_ODBCDataSourceAttribute class
 description: The Win32\_ODBCDataSourceAttribute association WMI class relates an Installer check with any setting information it requires.
-ms.assetid: '3c4bd01e-ed3a-49e8-8148-c7e99748c5ed'
-keywords: ["Win32_ODBCDataSourceAttribute class", "Win32_ODBCDataSourceAttribute class, described"]
+ms.assetid: 3c4bd01e-ed3a-49e8-8148-c7e99748c5ed
+keywords:
+- Win32_ODBCDataSourceAttribute class
+- Win32_ODBCDataSourceAttribute class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ODBCDataSourceAttribute class
@@ -22,7 +29,7 @@ The **Win32\_ODBCDataSourceAttribute** association [WMI class](https://msdn.micr
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -33,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ODBCDataSourceAttribute : Win32_SettingCheck
 {
   Win32_ODBCDataSourceSpecification REF Check;
-  Win32_ODBCSourceAttribute         REF Setting;
+  Win32_ODBCSourceAttribute         REF Setting;
 };
 ```
 
@@ -91,8 +98,8 @@ The **Win32\_ODBCDataSourceAttribute** class is derived from [**Win32\_SettingCh
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -106,9 +113,9 @@ The **Win32\_ODBCDataSourceAttribute** class is derived from [**Win32\_SettingCh
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

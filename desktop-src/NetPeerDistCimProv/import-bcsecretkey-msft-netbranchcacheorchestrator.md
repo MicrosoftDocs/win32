@@ -1,7 +1,12 @@
 ---
-Description: 'Imports the cryptographic key used in the generation of segment secrets.'
-ms.assetid: '366eca8d-ce16-4f94-a43a-916c0be98b8b'
-title: 'Import\_BCSecretKey method of the MSFT\_NetBranchCacheOrchestrator class'
+Description: Imports the cryptographic key used in the generation of segment secrets.
+ms.assetid: 366eca8d-ce16-4f94-a43a-916c0be98b8b
+title: Import\_BCSecretKey method of the MSFT\_NetBranchCacheOrchestrator class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Import\_BCSecretKey method of the MSFT\_NetBranchCacheOrchestrator class
@@ -13,9 +18,9 @@ Imports the cryptographic key used in the generation of segment secrets.
 
 ```mof
 uint32 Import_BCSecretKey(
-  [in] string  Filename,
-  [in] string  FilePassphrase,
-  [in] boolean Force
+  [in] string  Filename,
+  [in] string  FilePassphrase,
+  [in] boolean Force
 );
 ```
 
@@ -52,8 +57,8 @@ Indicates the operation should not prompt for confirmation
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ Indicates the operation should not prompt for confirmation
 [**MSFT\_NetBranchCacheOrchestrator**](msft-netbranchcacheorchestrator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

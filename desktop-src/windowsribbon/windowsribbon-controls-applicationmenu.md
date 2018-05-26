@@ -1,7 +1,12 @@
 ---
 title: Application Menu
 description: The Application Menu is the main menu for an application that implements the Windows Ribbon framework.
-ms.assetid: '5be93a5b-277b-44c1-be24-a0598a140bfc'
+ms.assetid: 5be93a5b-277b-44c1-be24-a0598a140bfc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Menu

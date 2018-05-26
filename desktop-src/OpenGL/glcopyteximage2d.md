@@ -1,8 +1,9 @@
 ---
 title: glCopyTexImage2D function
 description: The glCopyTexImage2D function copies pixels from the framebuffer into a two-dimensional texture image.
-ms.assetid: '4b9d7be6-054d-4590-b3f0-a2a670786c4b'
-keywords: ["glCopyTexImage2D function OpenGL"]
+ms.assetid: 4b9d7be6-054d-4590-b3f0-a2a670786c4b
+keywords:
+- glCopyTexImage2D function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glCopyTexImage2D function
@@ -22,14 +28,14 @@ The **glCopyTexImage2D** function copies pixels from the framebuffer into a two-
 
 ```C++
 void WINAPI glCopyTexImage2D(
-   GLenum  target,
-   GLint   level,
-   GLenum  internalFormat,
-   GLint   x,
-   GLint   y,
-   GLsizei width,
-   GLsizei height,
-   GLint   border
+   GLenum  target,
+   GLint   level,
+   GLenum  internalFormat,
+   GLint   x,
+   GLint   y,
+   GLsizei width,
+   GLsizei height,
+   GLint   border
 );
 ```
 
@@ -103,7 +109,7 @@ The internal format and resolution of the texture data. The values 1, 2, 3, and 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -124,14 +130,14 @@ The window y-plane coordinate of the lower-left corner of the rectangular region
 *width* 
 </dt> <dd>
 
-The width of the texture image. Must be 2n + 2 \* *border* for some integer *n*.
+The width of the texture image. Must be 2n + 2 \* *border* for some integer *n*.
 
 </dd> <dt>
 
 *height* 
 </dt> <dd>
 
-The height of the texture image. Must be 2n + 2 \* *border* for some integer *n*.
+The height of the texture image. Must be 2n + 2 \* *border* for some integer *n*.
 
 </dd> <dt>
 
@@ -155,9 +161,9 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | Name                                                                                                  | Meaning                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                                               |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                               |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                               |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not zero or 1.<br/>                                                                                                                       |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero, greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or *width* cannot be represented as 2n + 2 \* *border* for some integer *n*.<br/> |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero, greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or *width* cannot be represented as 2n + 2 \* *border* for some integer *n*.<br/> |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                        |
 
 
@@ -171,9 +177,9 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | Name                                                                                                  | Meaning                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                                               |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                               |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                               |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not zero or 1.<br/>                                                                                                                       |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero, greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or *width* cannot be represented as 2n + 2 \* *border* for some integer *n*.<br/> |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than zero, greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or *width* cannot be represented as 2n + 2 \* *border* for some integer *n*.<br/> |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                        |
 
 
@@ -191,7 +197,7 @@ You cannot include calls to **glCopyTexImage2D** in display lists.
 > [!Note]  
 > The **glCopyTexImage2D** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 Texturing has no effect in color-index mode. The [**glPixelStore**](glpixelstore-functions.md) and [**glPixelTransfer**](glpixeltransfer.md) functions affect texture images in exactly the way they affect [**glDrawPixels**](gldrawpixels.md).
 
@@ -205,8 +211,8 @@ The following function retrieves information related to **glCopyTexImage2D**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -253,9 +259,9 @@ The following function retrieves information related to **glCopyTexImage2D**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

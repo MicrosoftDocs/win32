@@ -1,8 +1,11 @@
 ---
 title: IVMTask Result property
 description: Retrieves the result of the task.
-ms.assetid: '640279ef-94b8-4e8f-88f3-a97cec54c121'
-keywords: ["Result property Virtual PC", "Result property Virtual PC , IVMTask interface", "IVMTask interface Virtual PC , Result property"]
+ms.assetid: 640279ef-94b8-4e8f-88f3-a97cec54c121
+keywords:
+- Result property Virtual PC
+- Result property Virtual PC , IVMTask interface
+- IVMTask interface Virtual PC , Result property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::Result property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the result of the task.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Result(
-  [out, retval] VMTaskResult *result
+  [out, retval] VMTaskResult *result
 );
 ```
 
@@ -55,9 +63,9 @@ The result of the task. For a list of values, see [**VMTaskResult**](vmtaskresul
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMTask is defined as ab72b222-6e9c-48ae-aa54-85e3e635767c<br/>                    |
@@ -71,9 +79,9 @@ The result of the task. For a list of values, see [**VMTaskResult**](vmtaskresul
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

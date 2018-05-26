@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves information about the logging database.'
+Description: Retrieves information about the logging database.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'b7b8709c-2cdf-40b7-8a4d-a28628047531'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: b7b8709c-2cdf-40b7-8a4d-a28628047531
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'LoggingSystemInformation.DatabaseInformation property'
+title: LoggingSystemInformation.DatabaseInformation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LoggingSystemInformation.DatabaseInformation property
@@ -112,7 +115,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -124,9 +127,9 @@ END SUB
 [**LoggingSystemInformation**](loggingsysteminformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

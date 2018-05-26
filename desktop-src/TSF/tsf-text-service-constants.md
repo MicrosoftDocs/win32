@@ -1,8 +1,18 @@
 ---
 title: TSF Text Service Constants
 description: The text service constants consist of the following categories.Lattice TypesMiscellaneous TSF Text Service ConstantsPredefined Category ValuesPredefined CompartmentsPredefined Font AttributesPredefined List AttributesPredefined Text AttributesOther Predefined AttributesSpeech Recognition ConstantsFlags for Conversion ModeValues for GUID\_COMPARTMENT\_TRANSITORYEXTENSION
-ms.assetid: '38110314-1638-4963-92b6-4ba2f81fb7c2'
-keywords: ["Text Services Framework (TSF),text services", "TSF (Text Services Framework),text services", "text services,constants", "TSF reference,text services", "reference for TSF,text services"]
+ms.assetid: 38110314-1638-4963-92b6-4ba2f81fb7c2
+keywords:
+- Text Services Framework (TSF),text services
+- TSF (Text Services Framework),text services
+- text services,constants
+- TSF reference,text services
+- reference for TSF,text services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TSF Text Service Constants

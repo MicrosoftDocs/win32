@@ -1,7 +1,12 @@
 ---
 title: Using MFC to Host the Video Control
 description: Using MFC to Host the Video Control
-ms.assetid: '6a360368-e5e6-4fee-a455-17553a222136'
+ms.assetid: 6a360368-e5e6-4fee-a455-17553a222136
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using MFC to Host the Video Control

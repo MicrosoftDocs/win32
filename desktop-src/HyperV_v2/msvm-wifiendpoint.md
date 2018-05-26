@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the logical connection point for a network adapter. When the Wi-Fi endpoint is connected to a switch port, the network adapter connected to the Wi-Fi endpoint has network connectivity.'
-ms.assetid: '66ed1503-9c11-4a51-a3a5-21e5d7021197'
-title: 'Msvm\_WiFiEndpoint class'
+Description: Represents the logical connection point for a network adapter. When the Wi-Fi endpoint is connected to a switch port, the network adapter connected to the Wi-Fi endpoint has network connectivity.
+ms.assetid: 66ed1503-9c11-4a51-a3a5-21e5d7021197
+title: Msvm\_WiFiEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_WiFiEndpoint class
@@ -16,50 +21,50 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_WiFiEndpoint : CIM_WiFiEndpoint
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType = 71;
-  string   OtherTypeDescription;
-  string   LANID;
-  uint16   LANType;
-  string   OtherLANType;
-  string   MACAddress;
-  string   AliasAddresses[];
-  string   GroupAddresses[];
-  uint32   MaxDataSize;
-  boolean  Connected;
-  uint16   EncryptionMethod;
-  string   OtherEncryptionMethod;
-  uint16   AuthenticationMethod;
-  string   OtherAuthenticationMethod;
-  uint16   IEEE8021xAuthenticationProtocol;
-  string   AccessPointAddress;
-  uint16   BSSType;
-  boolean  Associated;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType = 71;
+  string   OtherTypeDescription;
+  string   LANID;
+  uint16   LANType;
+  string   OtherLANType;
+  string   MACAddress;
+  string   AliasAddresses[];
+  string   GroupAddresses[];
+  uint32   MaxDataSize;
+  boolean  Connected;
+  uint16   EncryptionMethod;
+  string   OtherEncryptionMethod;
+  uint16   AuthenticationMethod;
+  string   OtherAuthenticationMethod;
+  uint16   IEEE8021xAuthenticationProtocol;
+  string   AccessPointAddress;
+  uint16   BSSType;
+  boolean  Associated;
 };
 ```
 
@@ -82,7 +87,7 @@ The **Msvm\_WiFiEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -245,7 +250,7 @@ Indicates the Basic Service Set (BSS) type of the network that corresponds to th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -388,7 +393,7 @@ Specifies the enabled state of the planned system. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -742,7 +747,7 @@ The property is used to categorize and classify instances of this class. If the 
 > [!Note]  
 > **ProtocolIFType** is an enumeration that is synchronized with the [IANA ifType MIB](http://www.iana.org/assignments/ianaiftype-mib). Additional values defined by the DMTF are also included.
 
- 
+ 
 
 <dl> <dt>
 
@@ -900,17 +905,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Setting Up the Form (.Htm File)
 description: Setting Up the Form (.Htm File)
-ms.assetid: '9ab712bf-7c36-41f0-ba05-172810a8e6ab'
+ms.assetid: 9ab712bf-7c36-41f0-ba05-172810a8e6ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up the Form (.Htm File)

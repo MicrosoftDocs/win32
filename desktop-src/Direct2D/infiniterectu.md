@@ -1,8 +1,9 @@
 ---
 title: InfiniteRectU function
 description: Creates a rectangle that has its upper-left corner set to (0u, 0u) and its lower-right corner set to (infinity, infinity).
-ms.assetid: '9d8b7874-5fa3-d7aa-3289-303e88c2f744'
-keywords: ["InfiniteRectU function Direct2D"]
+ms.assetid: 9d8b7874-5fa3-d7aa-3289-303e88c2f744
+keywords:
+- InfiniteRectU function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InfiniteRectU function
@@ -48,9 +54,9 @@ The new rectangle.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

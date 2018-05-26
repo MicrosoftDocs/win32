@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the association between managed elements and their capabilities.'
-ms.assetid: 'F083E6D2-CC74-4DAD-8FF7-3FE3CA4EEFFF'
-title: 'Msvm\_ElementCapabilities class'
+Description: Represents the association between managed elements and their capabilities.
+ms.assetid: F083E6D2-CC74-4DAD-8FF7-3FE3CA4EEFFF
+title: Msvm\_ElementCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ElementCapabilities class
@@ -17,8 +22,8 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ElementCapabilities : CIM_ElementCapabilities
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_Capabilities   REF Capabilities;
-  uint16                 Characteristics[];
+  CIM_Capabilities   REF Capabilities;
+  uint16                 Characteristics[];
 };
 ```
 
@@ -70,7 +75,7 @@ Provides descriptive information about the capabilities. This property is inheri
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -100,8 +105,8 @@ Access to the **Msvm\_ElementCapabilities** class might be restricted by UAC Fil
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -121,9 +126,9 @@ Access to the **Msvm\_ElementCapabilities** class might be restricted by UAC Fil
 [**Msvm\_ElementCapabilities (V1)**](https://msdn.microsoft.com/library/cc136833)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

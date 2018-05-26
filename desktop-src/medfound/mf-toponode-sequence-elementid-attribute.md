@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the element that contains this source node.'
-ms.assetid: 'f5fa5c10-8f30-43bd-8054-a39996f807a3'
-title: 'MF\_TOPONODE\_SEQUENCE\_ELEMENTID attribute'
+---
+Description: Specifies the element that contains this source node.
+ms.assetid: f5fa5c10-8f30-43bd-8054-a39996f807a3
+title: MF\_TOPONODE\_SEQUENCE\_ELEMENTID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_SEQUENCE\_ELEMENTID attribute
@@ -25,7 +30,7 @@ When the pipeline queues up a new topology that contains source nodes that are p
 
  
 
-A media source that can provide topologies should implement the [**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md) interface or the [**IMFSequencerSource**](imfsequencersource.md) interface. A media source that provides topologies should set the **MF\_TOPONODE\_SEQUENCE\_ELEMENTID** attribute on every source node that it creates.
+A media source that can provide topologies should implement the [**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master) interface or the [**IMFSequencerSource**](/windows/win32/mfidl/nn-mfidl-imfsequencersource?branch=master) interface. A media source that provides topologies should set the **MF\_TOPONODE\_SEQUENCE\_ELEMENTID** attribute on every source node that it creates.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -48,19 +53,19 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md)
+[**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master)
 </dt> <dt>
 
-[**IMFSequencerSource**](imfsequencersource.md)
+[**IMFSequencerSource**](/windows/win32/mfidl/nn-mfidl-imfsequencersource?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Topology Node Attributes](topology-node-attributes.md)

@@ -1,8 +1,11 @@
 ---
 title: IWMPControls playItem method
 description: The playItem method plays the specified media item.
-ms.assetid: 'ddd4e4f7-475c-4964-a623-9123ed66be8e'
-keywords: ["playItem method Windows Media Player", "playItem method Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , playItem method"]
+ms.assetid: ddd4e4f7-475c-4964-a623-9123ed66be8e
+keywords:
+- playItem method Windows Media Player
+- playItem method Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , playItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::playItem method
@@ -151,9 +159,9 @@ player.Ctlcontrols.playItem(Media)</code></pre></td>
 [**IWMPSettings.autoStart (VB and C#)**](wmplibiwmpsettings-iwmpsettings-autostart--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

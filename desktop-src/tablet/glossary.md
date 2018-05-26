@@ -1,8 +1,13 @@
 ---
-Description: 'This topic provides the definitions of terms that are used by the Tablet PC API.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'c55e4881-ca98-4393-a72e-f3ced687b7ca'
+Description: This topic provides the definitions of terms that are used by the Tablet PC API.
+Robots: noindex, nofollow
+ms.assetid: c55e4881-ca98-4393-a72e-f3ced687b7ca
 title: Tablet PC API Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tablet PC API Glossary

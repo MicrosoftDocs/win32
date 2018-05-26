@@ -1,7 +1,12 @@
 ---
-Description: 'The VirtualFree function decommits and releases pages according to the following rules.'
-ms.assetid: '8fbd7960-f3f0-4326-ad1d-12b636c0039e'
+Description: The VirtualFree function decommits and releases pages according to the following rules.
+ms.assetid: 8fbd7960-f3f0-4326-ad1d-12b636c0039e
 title: Freeing Virtual Memory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Freeing Virtual Memory

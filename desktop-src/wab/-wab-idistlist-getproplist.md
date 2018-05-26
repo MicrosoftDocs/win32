@@ -1,8 +1,11 @@
 ---
 title: IDistList GetPropList method
 description: Retrieves a list of the object property tags.
-ms.assetid: '509a7a2e-41a4-49b5-bd16-c747a99932ea'
-keywords: ["GetPropList method Windows Address Book", "GetPropList method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , GetPropList method"]
+ms.assetid: 509a7a2e-41a4-49b5-bd16-c747a99932ea
+keywords:
+- GetPropList method Windows Address Book
+- GetPropList method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , GetPropList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::GetPropList method
@@ -22,8 +30,8 @@ Retrieves a list of the object property tags.
 
 ```C++
 HRESULT GetPropList(
-   ULONG         ulFlags,
-   SPropTagArray **lppPropTagArray
+   ULONG         ulFlags,
+   SPropTagArray **lppPropTagArray
 );
 ```
 
@@ -45,7 +53,7 @@ Value of type **ULONG** that specifies MAPI\_UNICODE to return a Unicode-based P
 *lppPropTagArray* 
 </dt> <dd>
 
-Type: **[**SPropTagArray**](-wab-sproptagarray.md)\*\***
+Type: **[**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master)\*\***
 
 Address of a pointer to a returned property tag array. Must be freed by the caller if a non-NULL value is returned.
 
@@ -66,7 +74,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,17 +82,17 @@ This method can return one of these values.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

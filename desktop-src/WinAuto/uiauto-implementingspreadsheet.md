@@ -1,8 +1,23 @@
 ---
 title: Spreadsheet Control Pattern
 description: Describes guidelines and conventions for implementing ISpreadsheetProvider, including information about methods.
-ms.assetid: '4004D867-8367-486A-96ED-DE5B41D24935'
-keywords: ["UI Automation,implementing spreadsheet control pattern", "UI Automation,spreadsheet control pattern", "UI Automation,ISpreadsheetProvider", "ISpreadsheetProvider", "implementing UI Automation spreadsheet control pattern", "spreadsheet control pattern", "control patterns,ISpreadsheetProvider", "control patterns,implementing UI Automation spreadsheet", "control patterns,spreadsheet", "interfaces,ISpreadsheetProvider"]
+ms.assetid: 4004D867-8367-486A-96ED-DE5B41D24935
+keywords:
+- UI Automation,implementing spreadsheet control pattern
+- UI Automation,spreadsheet control pattern
+- UI Automation,ISpreadsheetProvider
+- ISpreadsheetProvider
+- implementing UI Automation spreadsheet control pattern
+- spreadsheet control pattern
+- control patterns,ISpreadsheetProvider
+- control patterns,implementing UI Automation spreadsheet
+- control patterns,spreadsheet
+- interfaces,ISpreadsheetProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spreadsheet Control Pattern

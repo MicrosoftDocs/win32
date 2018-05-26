@@ -1,7 +1,12 @@
 ---
 Description: Object Format GUIDs
-ms.assetid: 'b668f1c3-eed0-44c5-921f-e92c016130f0'
+ms.assetid: b668f1c3-eed0-44c5-921f-e92c016130f0
 title: Object Format GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Format GUIDs

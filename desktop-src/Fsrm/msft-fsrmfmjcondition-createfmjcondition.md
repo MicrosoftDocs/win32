@@ -4,11 +4,14 @@ description: Creates an MSFT\_FSRMFMJCondition instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '56c507a6-be3c-4a51-8db0-3dccea8071b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 56c507a6-be3c-4a51-8db0-3dccea8071b1
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["CreateFMJCondition method File Server Resource Manager", "CreateFMJCondition method File Server Resource Manager , MSFT_FSRMFMJCondition class", "MSFT_FSRMFMJCondition class File Server Resource Manager , CreateFMJCondition method"]
+keywords:
+- CreateFMJCondition method File Server Resource Manager
+- CreateFMJCondition method File Server Resource Manager , MSFT_FSRMFMJCondition class
+- MSFT_FSRMFMJCondition class File Server Resource Manager , CreateFMJCondition method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateFMJCondition method of the MSFT\_FSRMFMJCondition class
@@ -28,11 +34,11 @@ Creates an [**MSFT\_FSRMFMJCondition**](msft-fsrmfmjcondition.md) instance.
 
 ```mof
 uint64 CreateFMJCondition(
-  [in]  string                Property,
-  [in]  uint32                Condition,
-  [in]  string                Value,
-  [in]  sint32                DateOffset,
-  [out] MSFT_FSRMFMJCondition FmjCondition
+  [in]  string                Property,
+  [in]  uint32                Condition,
+  [in]  string                Value,
+  [in]  sint32                DateOffset,
+  [out] MSFT_FSRMFMJCondition FmjCondition
 );
 ```
 
@@ -313,7 +319,7 @@ When the *Property* parameter refers to a classification property, the type of t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -322,7 +328,7 @@ When the *Property* parameter refers to a classification property, the type of t
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -336,9 +342,9 @@ When the *Property* parameter refers to a classification property, the type of t
 [**MSFT\_FSRMFMJCondition**](msft-fsrmfmjcondition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

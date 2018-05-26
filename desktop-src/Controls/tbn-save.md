@@ -1,8 +1,9 @@
 ---
 title: TBN\_SAVE notification code
-description: Notifies a toolbar's parent window that a toolbar is in the process of being saved. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '31622f5e-2e33-4a42-8c49-cc3028a6fa62'
-keywords: ["TBN_SAVE notification code Windows Controls"]
+description: Notifies a toolbars parent window that a toolbar is in the process of being saved. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 31622f5e-2e33-4a42-8c49-cc3028a6fa62
+keywords:
+- TBN_SAVE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_SAVE notification code
@@ -33,7 +39,7 @@ TBN_SAVE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBSAVE**](nmtbsave.md) structure.
+Pointer to an [**NMTBSAVE**](/windows/win32/Commctrl/ns-commctrl-tagnmtbsave?branch=master) structure.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ The application will receive this notification code once at the start of the sav
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ The application will receive this notification code once at the start of the sav
 [TBN\_RESTORE](tbn-restore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

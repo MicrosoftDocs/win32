@@ -1,7 +1,12 @@
 ---
-Description: 'The SetNPPAddressFilterInBlob function sets the given address filter in the BLOB.'
-ms.assetid: 'bdd1482d-8be0-4999-9a7a-16b0400412fb'
+Description: The SetNPPAddressFilterInBlob function sets the given address filter in the BLOB.
+ms.assetid: bdd1482d-8be0-4999-9a7a-16b0400412fb
 title: SetNPPAddressFilterInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetNPPAddressFilterInBlob function
@@ -13,8 +18,8 @@ The **SetNPPAddressFilterInBlob** function sets the given address filter in the 
 
 ```C++
 DWORD SetNPPAddressFilterInBlob(
-  _In_ HBLOB          hBlob,
-  _In_ LPADDRESSTABLE pAddressTable
+  _In_ HBLOB          hBlob,
+  _In_ LPADDRESSTABLE pAddressTable
 );
 ```
 
@@ -50,8 +55,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -89,9 +94,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [SetStringInBlob](setstringinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

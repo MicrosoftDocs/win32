@@ -1,7 +1,12 @@
 ---
-Description: 'If VARIANT\_TRUE, the device is not working properly.'
-ms.assetid: '9a87ed78-902c-4c6b-a1e6-88fce53ce42f'
-title: 'System.Devices.NotWorkingProperly'
+Description: If VARIANT\_TRUE, the device is not working properly.
+ms.assetid: 9a87ed78-902c-4c6b-a1e6-88fce53ce42f
+title: System.Devices.NotWorkingProperly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.NotWorkingProperly

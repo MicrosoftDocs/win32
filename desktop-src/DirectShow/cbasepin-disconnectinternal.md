@@ -1,7 +1,12 @@
 ---
-Description: 'The DisconnectInternal method breaks the current pin connection.'
-ms.assetid: '070301ad-d079-4ad3-abdf-d5de88872e52'
-title: 'CBasePin.DisconnectInternal method'
+Description: The DisconnectInternal method breaks the current pin connection.
+ms.assetid: 070301ad-d079-4ad3-abdf-d5de88872e52
+title: CBasePin.DisconnectInternal method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.DisconnectInternal method
@@ -35,7 +40,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +64,9 @@ The [**CBasePin::Disconnect**](cbasepin-disconnect.md) method delegates the disc
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

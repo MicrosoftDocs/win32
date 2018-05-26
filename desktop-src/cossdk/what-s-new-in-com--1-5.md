@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ version 1.5 adds new features that are designed to increase the overall scalability, availability, and manageability of COM+ applications both for developers and for system administrators.'
-ms.assetid: 'e7073ba5-6b19-4d94-8cc0-b4e16bb44afd'
-title: 'What's New in COM+ 1.5'
+Description: COM+ version 1.5 adds new features that are designed to increase the overall scalability, availability, and manageability of COM+ applications both for developers and for system administrators.
+ms.assetid: e7073ba5-6b19-4d94-8cc0-b4e16bb44afd
+title: Whats New in COM+ 1.5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in COM+ 1.5
@@ -16,7 +21,7 @@ As part of the enhanced security of the system, access checks are enabled by def
 
 ## Application Pooling
 
-With the new ConcurrentApps property of the [**COMAdminCatalogObject**](comadmincatalogobject.md) object in the [**Applications**](applications.md) collection, COM+ Application Pooling adds scalability for single-threaded processes and integrates with the new COM+ Application Recycling service. See [COM+ Application Pooling](com--application-pooling.md) for detailed information.
+With the new ConcurrentApps property of the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object in the [**Applications**](applications.md) collection, COM+ Application Pooling adds scalability for single-threaded processes and integrates with the new COM+ Application Recycling service. See [COM+ Application Pooling](com--application-pooling.md) for detailed information.
 
 ## Application Recycling
 
@@ -108,7 +113,7 @@ It's not easy troubleshooting applications in a production environment. How do y
 
 ## Process Initialization
 
-Many server applications need to do specific initialization and cleanup when they are started and shut down. When running on Windows Server 2003, you can create a class that implements the [**IProcessInitializer**](iprocessinitializer.md) interface. When the process starts up, it calls [**IProcessInitializer::Startup**](iprocessinitializer-startup.md) and when shutting down, it calls [**IProcessInitializer::Shutdown**](iprocessinitializer-shutdown.md). This gives your component the opportunity to do needed tasks, such as initializing connections, files, and caches.
+Many server applications need to do specific initialization and cleanup when they are started and shut down. When running on Windows Server 2003, you can create a class that implements the [**IProcessInitializer**](/windows/win32/ComSvcs/nn-comsvcs-iprocessinitializer?branch=master) interface. When the process starts up, it calls [**IProcessInitializer::Startup**](/windows/win32/ComSvcs/nf-comsvcs-iprocessinitializer-startup?branch=master) and when shutting down, it calls [**IProcessInitializer::Shutdown**](/windows/win32/ComSvcs/nf-comsvcs-iprocessinitializer-shutdown?branch=master). This gives your component the opportunity to do needed tasks, such as initializing connections, files, and caches.
 
 ## Running COM+ Applications as NT Services
 

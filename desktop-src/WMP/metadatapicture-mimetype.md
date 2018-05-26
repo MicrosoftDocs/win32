@@ -1,8 +1,9 @@
 ---
 title: MetadataPicture.mimeType
 description: The mimeType property retrieves the standard MIME type of the metadata image.
-ms.assetid: 'dde541e3-ddbc-437e-a3a8-64a116e122e0'
-keywords: ["MetadataPicture.mimeType Windows Media Player"]
+ms.assetid: dde541e3-ddbc-437e-a3a8-64a116e122e0
+keywords:
+- MetadataPicture.mimeType Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataPicture.mimeType
@@ -55,9 +61,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

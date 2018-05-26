@@ -1,8 +1,11 @@
 ---
 title: Parameter ToDateTime method
 description: Retrieve the value of the parameter as a specific data type.
-ms.assetid: '8D7AE63A-C37D-41C1-B19A-E72FFDF4054B'
-keywords: ["ToDateTime method Access Execution Engine", "ToDateTime method Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ToDateTime method"]
+ms.assetid: 8D7AE63A-C37D-41C1-B19A-E72FFDF4054B
+keywords:
+- ToDateTime method Access Execution Engine
+- ToDateTime method Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ToDateTime method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::ToDateTime method
@@ -22,7 +30,7 @@ Retrieve the value of the parameter as a specific data type.
 
 ```C++
 virtual HRESULT ToDateTime(
-  [out] SYSTEMTIME *paramValue
+  [out] SYSTEMTIME *paramValue
 ) const = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses the [**Parameter.ToDateTime**](axe-parameter_todatetime_om) me
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -75,9 +83,9 @@ Managed code uses the [**Parameter.ToDateTime**](axe-parameter_todatetime_om) me
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

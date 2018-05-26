@@ -1,8 +1,11 @@
 ---
 title: Trigger.Repetition property
 description: For scripting, gets or sets a value that indicates how often the task is run and how long the repetition pattern is repeated after the task is started.
-ms.assetid: '8c3c5cc8-64aa-4706-a00a-0218fc1ae62b'
-keywords: ["Repetition property Task Scheduler", "Repetition property Task Scheduler , Trigger object", "Trigger object Task Scheduler , Repetition property"]
+ms.assetid: 8c3c5cc8-64aa-4706-a00a-0218fc1ae62b
+keywords:
+- Repetition property Task Scheduler
+- Repetition property Task Scheduler , Trigger object
+- Trigger object Task Scheduler , Repetition property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger.Repetition property
@@ -40,8 +48,8 @@ When reading or writing your own XML for a task, the repetition pattern for a tr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing your own XML for a task, the repetition pattern for a tr
 [**RepetitionPattern**](repetitionpattern.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

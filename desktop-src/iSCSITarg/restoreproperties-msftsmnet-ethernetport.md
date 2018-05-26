@@ -4,13 +4,16 @@ description: Requests that the device return its configuration, setup, and/or st
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9252bb7c-c1e1-4b85-83c6-4a3a743810a5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9252bb7c-c1e1-4b85-83c6-4a3a743810a5
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RestoreProperties method iSCSI Software Target API", "RestoreProperties method iSCSI Software Target API , MSFTSMNET_EthernetPort class", "MSFTSMNET_EthernetPort class iSCSI Software Target API , RestoreProperties method"]
+keywords:
+- RestoreProperties method iSCSI Software Target API
+- RestoreProperties method iSCSI Software Target API , MSFTSMNET_EthernetPort class
+- MSFTSMNET_EthernetPort class iSCSI Software Target API , RestoreProperties method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestoreProperties method of the MSFTSMNET\_EthernetPort class
@@ -78,7 +84,7 @@ Undefined error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -95,9 +101,9 @@ Undefined error.
 [**SaveProperties**](saveproperties-msftsmnet-ethernetport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Detach method of the MSFT\_VirtualDisk class
 description: Detaches a storage spaces-based virtual disk from a computer.
-ms.assetid: 'ED70182D-C5FF-4BB7-9CDC-FDA4C60BB36D'
-keywords: ["Detach method Windows Storage Management API", "Detach method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , Detach method"]
+ms.assetid: ED70182D-C5FF-4BB7-9CDC-FDA4C60BB36D
+keywords:
+- Detach method Windows Storage Management API
+- Detach method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , Detach method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detach method of the MSFT\_VirtualDisk class
@@ -22,8 +30,8 @@ Detaches a storage spaces-based virtual disk from a computer.
 
 ```mof
 UInt32 Detach(
-  [in]  String StorageNodeName,
-  [out] String ExtendedStatus
+  [in]  String StorageNodeName,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -108,8 +116,8 @@ This operation is similar to [**Hide**](msft-virtualdisk-hide.md). However, ther
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -122,9 +130,9 @@ This operation is similar to [**Hide**](msft-virtualdisk-hide.md). However, ther
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

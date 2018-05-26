@@ -1,7 +1,12 @@
 ---
 Description: DV Muxer Filter
-ms.assetid: '4dd57202-f4de-40d9-b720-efaba8a60a7c'
+ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: DV Muxer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DV Muxer Filter
@@ -12,11 +17,11 @@ This filter combines a digital video (DV)—encoded video stream with one or two
 
 |                                          |                                                                                                                                        |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md), [**IMediaSeeking**](imediaseeking.md)                                                             |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)                                                             |
 | Input Pin Media Types                    | **Video**: MEDIATYPE\_Video, MEDIASUBTYPE\_dvsd, FORMAT\_VideoInfo**Audio**: MEDIATYPE\_Audio, MEDIASUBTYPE\_PCM, FORMAT\_WaveFormatEx |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                 |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                 |
 | Output Pin Media Types                   | MEDIATYPE\_Interleaved, MEDIASUBTYPE\_dvsd, FORMAT\_DvInfo                                                                             |
-| Output Pin Interfaces                    | [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                       |
+| Output Pin Interfaces                    | [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                       |
 | Filter CLSID                             | CLSID\_DVMux                                                                                                                           |
 | Property Page CLSID                      | No property page                                                                                                                       |
 | Executable                               | qdv.dll                                                                                                                                |
@@ -179,9 +184,9 @@ Audio supplied to pin 1 is recorded to the first audio block of the DV frames (C
 
 For SD 4-channel output: If the input is stereo, the left track is recorded to CHa or CHc, and the right track is recorded to CHb or CHd. If the input is mono, the audio is recorded to CHa or CHc, and CHb and CHd are silent.
 
-By connecting and disconnecting audio pin 1, it is possible to reach a disallowed format. In that case, the filter's [**IMediaFilter::Pause**](imediafilter-pause.md) method returns VFW\_E\_NOT\_CONNECTED. This limitation prevents a situation in which the first audio block has no audio, but the second audio block does have audio. The second block should have audio only if the first block also has audio.
+By connecting and disconnecting audio pin 1, it is possible to reach a disallowed format. In that case, the filter's [**IMediaFilter::Pause**](/windows/win32/Strmif/nf-strmif-imediafilter-pause?branch=master) method returns VFW\_E\_NOT\_CONNECTED. This limitation prevents a situation in which the first audio block has no audio, but the second audio block does have audio. The second block should have audio only if the first block also has audio.
 
-The DV Muxer does not permit audio inputs with different sampling rates. However, graph-building methods such as [**IGraphBuilder::Connect**](igraphbuilder-connect.md) will typically add the [ACM Wrapper](acm-wrapper-filter.md) filter, which will convert the second audio stream to match the first stream's sampling rate.
+The DV Muxer does not permit audio inputs with different sampling rates. However, graph-building methods such as [**IGraphBuilder::Connect**](/windows/win32/Strmif/nf-strmif-igraphbuilder-connect?branch=master) will typically add the [ACM Wrapper](acm-wrapper-filter.md) filter, which will convert the second audio stream to match the first stream's sampling rate.
 
 If the audio input is 48 kHz or 32 kHz, the audio output is locked. (It is not possible to lock 44.1-kHz audio.)
 

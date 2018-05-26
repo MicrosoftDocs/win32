@@ -1,7 +1,12 @@
 ---
-Description: 'Model Name of the device.'
-ms.assetid: '41248816-a55a-4c41-bcf9-f2f6d6c1d04a'
-title: 'System.Devices.AepContainer.ModelName'
+Description: Model Name of the device.
+ms.assetid: 41248816-a55a-4c41-bcf9-f2f6d6c1d04a
+title: System.Devices.AepContainer.ModelName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.ModelName

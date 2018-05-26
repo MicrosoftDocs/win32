@@ -1,14 +1,22 @@
 ---
 title: IReferenceClock Unadvise method
 description: The Unadvise method cancels a notification request.
-ms.assetid: '9817a054-0c6c-402f-afb1-54748ff46a4b'
-keywords: ["Unadvise method windows Media Format", "Unadvise method windows Media Format , IReferenceClock interface", "IReferenceClock interface windows Media Format , Unadvise method"]
+ms.assetid: 9817a054-0c6c-402f-afb1-54748ff46a4b
+keywords:
+- Unadvise method windows Media Format
+- Unadvise method windows Media Format , IReferenceClock interface
+- IReferenceClock interface windows Media Format , Unadvise method
 topic_type:
 - apiref
 api_name:
 - IReferenceClock.Unadvise
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IReferenceClock::Unadvise method
@@ -20,7 +28,7 @@ The **Unadvise** method cancels a notification request.
 
 ```C++
 HRESULT Unadvise(
-   DWORD dwAdviseCookie
+   DWORD dwAdviseCookie
 );
 ```
 
@@ -50,7 +58,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -59,9 +67,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IReferenceClock Interface**](ireferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

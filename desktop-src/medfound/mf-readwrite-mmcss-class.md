@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a Multimedia Class Scheduler Service (MMCSS) class for the Source Reader or Sink Writer.'
-ms.assetid: 'A3A295E8-AC9C-4641-ADDA-B97D5AB13A9A'
-title: 'MF\_READWRITE\_MMCSS\_CLASS attribute'
+---
+Description: Specifies a Multimedia Class Scheduler Service (MMCSS) class for the Source Reader or Sink Writer.
+ms.assetid: A3A295E8-AC9C-4641-ADDA-B97D5AB13A9A
+title: MF\_READWRITE\_MMCSS\_CLASS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_READWRITE\_MMCSS\_CLASS attribute
@@ -14,9 +19,9 @@ Specifies a [Multimedia Class Scheduler Service](base.multimedia_class_scheduler
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetString**](imfattributes-getstring.md).
+To get this attribute, call [**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetString**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Remarks
 

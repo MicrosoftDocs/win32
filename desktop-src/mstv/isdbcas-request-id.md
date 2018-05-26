@@ -1,8 +1,9 @@
 ---
 title: ISDBCAS\_REQUEST\_ID enumeration
 description: Contains command codes for conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
-ms.assetid: '5c8a97bb-9d8b-4f4f-aeab-e8bf199a652e'
-keywords: ["ISDBCAS_REQUEST_ID enumeration Microsoft TV Technologies"]
+ms.assetid: 5c8a97bb-9d8b-4f4f-aeab-e8bf199a652e
+keywords:
+- ISDBCAS_REQUEST_ID enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISDBCAS\_REQUEST\_ID enumeration
@@ -22,8 +28,8 @@ Contains command codes for conditional access system (CAS) commands for Integrat
 
 ```C++
 typedef enum ISDBCAS_REQUEST_ID { 
-  ISDBCAS_REQUEST_ID_EMG  = 0x38,
-  ISDBCAS_REQUEST_ID_EMD  = 0x3A
+  ISDBCAS_REQUEST_ID_EMG  = 0x38,
+  ISDBCAS_REQUEST_ID_EMD  = 0x3A
 } ISDBCAS_REQUEST_ID;
 ```
 
@@ -53,7 +59,7 @@ Acquire automatic display message.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
@@ -63,12 +69,12 @@ Acquire automatic display message.
 
 <dl> <dt>
 
-[**IBDA\_ISDBConditionalAccess::SetIsdbCasRequest**](ibda-isdbconditionalaccess-setisdbcasrequest.md)
+[**IBDA\_ISDBConditionalAccess::SetIsdbCasRequest**](/windows/win32/bdaiface/nf-bdaiface-ibda_isdbconditionalaccess-setisdbcasrequest?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

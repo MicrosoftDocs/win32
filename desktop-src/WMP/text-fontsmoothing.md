@@ -1,14 +1,20 @@
 ---
 title: TEXT.fontSmoothing
 description: The fontSmoothing attribute specifies or retrieves a value indicating whether font smoothing is enabled.
-ms.assetid: 'bd6f0468-285e-44b3-a5e8-361744c5ce4a'
-keywords: ["TEXT.fontSmoothing Windows Media Player"]
+ms.assetid: bd6f0468-285e-44b3-a5e8-361744c5ce4a
+keywords:
+- TEXT.fontSmoothing Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.fontSmoothing
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.fontSmoothing
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +65,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT Element**](text-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

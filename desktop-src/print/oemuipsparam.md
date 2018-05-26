@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMUIPSPARAM structure is passed to a user interface plug-in''s IPrintOemUI::DevicePropertySheets and IPrintOemUI::DocumentPropertySheets methods.'
-ms.assetid: 'e7708b33-b032-41b9-84f9-6c5b38044f9c'
+---
+Description: The OEMUIPSPARAM structure is passed to a user interface plug-ins IPrintOemUIDevicePropertySheets and IPrintOemUIDocumentPropertySheets methods.
+ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
 title: OEMUIPSPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMUIPSPARAM structure

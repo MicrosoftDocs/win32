@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Routing property for a FaxTiff object. The Routing property is a null-terminated string that contains the inbound routing string for a specified fax file.'
-ms.assetid: 'e39e0e99-0812-4226-9118-e0e072bf3084'
-title: 'FaxTiff.Routing property'
+---
+Description: Retrieves the Routing property for a FaxTiff object. The Routing property is a null-terminated string that contains the inbound routing string for a specified fax file.
+ms.assetid: e39e0e99-0812-4226-9118-e0e072bf3084
+title: FaxTiff.Routing property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.Routing property
@@ -61,7 +66,7 @@ The [**get\_Image**](-mfax-ifaxtiff-get-image-vb.md) method allocates the memory
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

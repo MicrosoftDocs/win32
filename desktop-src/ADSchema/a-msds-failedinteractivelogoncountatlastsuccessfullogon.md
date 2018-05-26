@@ -4,17 +4,22 @@ description: The total number of failed interactive logons up until the last suc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8ad62fea-7b65-4948-9256-f48bdb792e39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8ad62fea-7b65-4948-9256-f48bdb792e39
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon attribute AD Schema", "msDS-FailedInteractiveLogonCountAtLastSuccessfulLogon attribute AD Schema"]
+keywords:
+- ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon attribute AD Schema
+- msDS-FailedInteractiveLogonCountAtLastSuccessfulLogon attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon attribute
@@ -38,9 +43,9 @@ The total number of failed interactive logons up until the last successful C-A-D
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ The total number of failed interactive logons up until the last successful C-A-D
 
 
 
- 
+ 
 
- 
+ 
 
 
 

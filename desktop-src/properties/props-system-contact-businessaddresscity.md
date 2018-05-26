@@ -1,7 +1,12 @@
 ---
-Description: 'Business address city of the contact.'
-ms.assetid: '13e95222-e94f-44d1-939d-26646d932a32'
-title: 'System.Contact.BusinessAddressCity'
+Description: Business address city of the contact.
+ms.assetid: 13e95222-e94f-44d1-939d-26646d932a32
+title: System.Contact.BusinessAddressCity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddressCity

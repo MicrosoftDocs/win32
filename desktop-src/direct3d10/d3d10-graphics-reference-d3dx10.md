@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the following sections:'
-ms.assetid: '27bd0b8a-fece-4db1-a954-ff91c2a919e6'
+Description: This section contains the following sections
+ms.assetid: 27bd0b8a-fece-4db1-a954-ff91c2a919e6
 title: D3DX Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the supported backlight levels.'
-ms.assetid: 'b4c1ee3f-af75-477e-b7ed-53be905374d7'
-title: 'IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS control code'
+Description: Retrieves the supported backlight levels.
+ms.assetid: b4c1ee3f-af75-477e-b7ed-53be905374d7
+title: IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_VIDEO\_QUERY\_SUPPORTED\_BRIGHTNESS control code
@@ -123,8 +128,8 @@ Alternatively, you can define this control code as follows:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP1 \[desktop apps only\]<br/>                   |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista, Windows XP with SP1 \[desktop apps only\]<br/>                   |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Ntddvdeo.h</dt> </dl> |
 
 
@@ -139,9 +144,9 @@ Alternatively, you can define this control code as follows:
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETPOS message
-description: Retrieves the current logical position of the slider in a trackbar. The logical positions are the integer values in the trackbar's range of minimum to maximum slider positions.
-ms.assetid: '6f082ab2-2f9a-4bc0-bfca-56f7b1a2d921'
-keywords: ["TBM_GETPOS message Windows Controls"]
+description: Retrieves the current logical position of the slider in a trackbar. The logical positions are the integer values in the trackbars range of minimum to maximum slider positions.
+ms.assetid: 6f082ab2-2f9a-4bc0-bfca-56f7b1a2d921
+keywords:
+- TBM_GETPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETPOS message
@@ -37,8 +43,8 @@ Returns a 32-bit value that specifies the current logical position of the trackb
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a 32-bit value that specifies the current logical position of the trackb
 [**TBM\_SETPOS**](tbm-setpos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Issue GetCategories method
 description: Returns the CategoryCollection of the Issue.
-ms.assetid: '90ADE17F-0F82-4FE3-8DB1-8C6F6E828E97'
-keywords: ["GetCategories method Access Execution Engine", "GetCategories method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetCategories method"]
+ms.assetid: 90ADE17F-0F82-4FE3-8DB1-8C6F6E828E97
+keywords:
+- GetCategories method Access Execution Engine
+- GetCategories method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetCategories method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetCategories method
@@ -22,7 +30,7 @@ Returns the [**CategoryCollection**](categorycollection.md) of the **Issue**.
 
 ```C++
 virtual HRESULT GetCategories(
-  [out] CategoryCollection **categories
+  [out] CategoryCollection **categories
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The **CategoryCollection** holds data from element **Issue/Categories**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The **CategoryCollection** holds data from element **Issue/Categories**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

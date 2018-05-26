@@ -1,7 +1,12 @@
 ---
-Description: 'The NotReady method signals that a state transition is not yet complete.'
-ms.assetid: '85529a22-5343-4c22-b282-31c0e7ff0f5f'
-title: 'CBaseRenderer.NotReady method'
+Description: The NotReady method signals that a state transition is not yet complete.
+ms.assetid: 85529a22-5343-4c22-b282-31c0e7ff0f5f
+title: CBaseRenderer.NotReady method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.NotReady method
@@ -53,9 +58,9 @@ This method causes the [**CBaseRenderer::GetState**](cbaserenderer-getstate.md) 
 [**Ready**](cbaserenderer-ready.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

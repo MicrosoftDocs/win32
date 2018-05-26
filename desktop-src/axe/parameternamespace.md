@@ -1,8 +1,9 @@
 ---
 title: ParameterNamespace enumeration
 description: Specifies which set of parameters to retrieve.
-ms.assetid: '7BC209BC-0F9D-40A2-9649-CB0658325F58'
-keywords: ["ParameterNamespace enumeration Access Execution Engine"]
+ms.assetid: 7BC209BC-0F9D-40A2-9649-CB0658325F58
+keywords:
+- ParameterNamespace enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterNamespace enumeration
@@ -22,7 +28,7 @@ Specifies which set of parameters to retrieve.
 
 ```C++
 enum ParameterNamespace {
-  ParameterNamespaceNone        = 0, 
+  ParameterNamespaceNone        = 0, 
   ParameterNamespaceAssessment, 
   ParameterNamespaceJob, 
   ParameterNamespaceSession, 
@@ -100,15 +106,15 @@ Session Parameters:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

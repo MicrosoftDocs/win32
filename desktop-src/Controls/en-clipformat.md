@@ -1,8 +1,9 @@
 ---
 title: EN\_CLIPFORMAT notification code
-description: Notifies a rich edit control's parent window that a paste occurred with a particular clipboard format. A windowless rich edit control sends this notification by using the ITextHost TxNotify method.
-ms.assetid: '79FE1350-4D45-447B-B705-63E966AC7F0E'
-keywords: ["EN_CLIPFORMAT notification code Windows Controls"]
+description: Notifies a rich edit controls parent window that a paste occurred with a particular clipboard format. A windowless rich edit control sends this notification by using the ITextHost TxNotify method.
+ms.assetid: 79FE1350-4D45-447B-B705-63E966AC7F0E
+keywords:
+- EN_CLIPFORMAT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_CLIPFORMAT notification code
 
-Notifies a rich edit control's parent window that a paste occurred with a particular clipboard format. A windowless rich edit control sends this notification by using the [**ITextHost::TxNotify**](itexthost-txnotify.md) method.
+Notifies a rich edit control's parent window that a paste occurred with a particular clipboard format. A windowless rich edit control sends this notification by using the [**ITextHost::TxNotify**](/windows/win32/Textserv/nf-textserv-itexthost-txnotify?branch=master) method.
 
 
 ```C++
@@ -40,7 +46,7 @@ The window ID retrieved by calling the [**GetWindowLong**](https://msdn.microsof
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CLIPBOARDFORMAT**](clipboardformat.md) structure that contains information about the clipboard format.
+A pointer to a [**CLIPBOARDFORMAT**](/windows/win32/Richedit/ns-richedit-_clipboardformat?branch=master) structure that contains information about the clipboard format.
 
 </dd> </dl>
 
@@ -58,8 +64,8 @@ To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](rich
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ To receive EN\_CLIPFORMAT notification codes, specify [**ENM\_CLIPFORMAT**](rich
 
 <dl> <dt>
 
-[**CLIPBOARDFORMAT**](clipboardformat.md)
+[**CLIPBOARDFORMAT**](/windows/win32/Richedit/ns-richedit-_clipboardformat?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

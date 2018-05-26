@@ -1,14 +1,20 @@
 ---
 title: SampleLevel(S,float,float,int,uint) function
 description: Samples a Texture2D on the specified mipmap level and returns status about the operation.
-ms.assetid: 'B021D42E-9F63-4CCE-939B-F93D91F7CB80'
-keywords: ["SampleLevel function HLSL"]
+ms.assetid: B021D42E-9F63-4CCE-939B-F93D91F7CB80
+keywords:
+- SampleLevel function HLSL
 topic_type:
 - apiref
 api_name:
 - SampleLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleLevel(S,float,float,int,uint) function

@@ -1,7 +1,12 @@
 ---
-Description: 'Each type of securable object has a set of access rights that correspond to operations specific to that type of object.'
-ms.assetid: 'f43bccce-0f8c-4732-b678-5fd3218a9f84'
+Description: Each type of securable object has a set of access rights that correspond to operations specific to that type of object.
+ms.assetid: f43bccce-0f8c-4732-b678-5fd3218a9f84
 title: Standard Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard Access Rights

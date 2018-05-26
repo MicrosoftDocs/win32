@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDVDTextString method retrieves the specified text string.'
-ms.assetid: '2b8cea1e-b0b7-4ef7-90a5-aef2978e8098'
+Description: The GetDVDTextString method retrieves the specified text string.
+ms.assetid: 2b8cea1e-b0b7-4ef7-90a5-aef2978e8098
 title: GetDVDTextString Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDVDTextString Method

@@ -1,7 +1,12 @@
 ---
 title: To assign an alternate location for a contents or index entry
 description: To assign an alternate location for a contents or index entry
-ms.assetid: 'F00E20DC-CCCB-49ed-9EE5-C09F582DF7CB'
+ms.assetid: F00E20DC-CCCB-49ed-9EE5-C09F582DF7CB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To assign an alternate location for a contents or index entry
@@ -15,7 +20,7 @@ ms.assetid: 'F00E20DC-CCCB-49ed-9EE5-C09F582DF7CB'
 
     
 
-     
+     
 
 3.  In the **File or URL** box, enter the alternate location.
 
@@ -30,9 +35,9 @@ You can use this feature to link from a contents or index entry to a Web site. I
 [About Working with Links](work-with-links.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Sample Video Section
 description: Sample Video Section
-ms.assetid: '04ccfb64-886f-4bb7-9505-f0b74092270a'
-keywords: ["Windows Media Player Mobile skins,video", "skins,video", "reference for skins,video", "video in skins,Video section", "skin definition files,Video section"]
+ms.assetid: 04ccfb64-886f-4bb7-9505-f0b74092270a
+keywords:
+- Windows Media Player Mobile skins,video
+- skins,video
+- reference for skins,video
+- video in skins,Video section
+- skin definition files,Video section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Video Section

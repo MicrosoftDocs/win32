@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine ConfigID property
 description: The ConfigID property contains the unique ID that identifies the virtual machine.
-ms.assetid: '7783b8ae-d025-4bd9-86e4-48462415562f'
-keywords: ["ConfigID property Virtual Server", "ConfigID property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , ConfigID property", "ConfigID property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , ConfigID property"]
+ms.assetid: 7783b8ae-d025-4bd9-86e4-48462415562f
+keywords:
+- ConfigID property Virtual Server
+- ConfigID property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , ConfigID property
+- ConfigID property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , ConfigID property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ConfigID property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ConfigID(
-  [out] BSTR *virtualMachineConfigID
+  [out] BSTR *virtualMachineConfigID
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "Configuration ID: " & objVM.ConfigID
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ WScript.Echo "Configuration ID: " & objVM.ConfigID
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

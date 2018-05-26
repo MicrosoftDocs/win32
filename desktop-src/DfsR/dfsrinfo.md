@@ -4,13 +4,15 @@ description: The DFSR monitoring provider class. This singleton class has provid
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8197c9f1-3882-4483-a985-59e9ba41164a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8197c9f1-3882-4483-a985-59e9ba41164a
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrInfo class Distributed File System Replication", "DfsrInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrInfo class Distributed File System Replication
+- DfsrInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrInfo class
@@ -37,12 +42,12 @@ The DFSR monitoring provider class. This singleton class has provider-specific s
 [Dynamic, Provider("DfsrMonitorProv"), Singleton]
 class DfsrInfo
 {
-  string   ProviderVersion;
+  string   ProviderVersion;
   datetime ServiceStartTime;
   datetime LastDsPollTime;
-  uint8    State;
-  uint32   LastErrorCode;
-  uint32   LastErrorMessageId;
+  uint8    State;
+  uint32   LastErrorCode;
+  uint32   LastErrorMessageId;
 };
 ```
 
@@ -218,9 +223,9 @@ The following state diagram illustrates the transitions between the service stat
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                     |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -234,9 +239,9 @@ The following state diagram illustrates the transitions between the service stat
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

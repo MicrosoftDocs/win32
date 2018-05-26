@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETICONSPACING message
 description: Sets the spacing between icons in list-view controls that have the LVS\_ICON style. You can send this message explicitly or by using the ListView\_SetIconSpacing macro.
-ms.assetid: '2dd3d9df-5b0d-445e-9201-d766fa218f90'
-keywords: ["LVM_SETICONSPACING message Windows Controls"]
+ms.assetid: 2dd3d9df-5b0d-445e-9201-d766fa218f90
+keywords:
+- LVM_SETICONSPACING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETICONSPACING message
 
-Sets the spacing between icons in list-view controls that have the [**LVS\_ICON**](list-view-window-styles.md#lvs-icon) style. You can send this message explicitly or by using the [**ListView\_SetIconSpacing**](listview-seticonspacing.md) macro.
+Sets the spacing between icons in list-view controls that have the [**LVS\_ICON**](list-view-window-styles.md#lvs-icon) style. You can send this message explicitly or by using the [**ListView\_SetIconSpacing**](/windows/win32/Commctrl/nf-commctrl-listview_seticonspacing?branch=master) macro.
 
 ## Parameters
 
@@ -51,15 +57,15 @@ When defining the icon spacing, the *lParam* values must set to 4 or larger. Sma
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

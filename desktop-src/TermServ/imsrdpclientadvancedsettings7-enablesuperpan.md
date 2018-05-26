@@ -4,11 +4,16 @@ description: Specifies or retrieves a Boolean value that indicates whether Super
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0d0ef89e-75f5-460a-ad55-01f8d9478df5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0d0ef89e-75f5-460a-ad55-01f8d9478df5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnableSuperPan property Remote Desktop Services", "EnableSuperPan property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , EnableSuperPan property", "EnableSuperPan property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , EnableSuperPan property"]
+keywords:
+- EnableSuperPan property Remote Desktop Services
+- EnableSuperPan property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , EnableSuperPan property
+- EnableSuperPan property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , EnableSuperPan property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7::EnableSuperPan property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_EnableSuperPan(
-  [in]          VARIANT_BOOL fEnableSuperPan
+  [in]          VARIANT_BOOL fEnableSuperPan
 );
 
 HRESULT get_EnableSuperPan(
-  [out, retval] VARIANT_BOOL *pfEnableSuperPan
+  [out, retval] VARIANT_BOOL *pfEnableSuperPan
 );
 ```
 
@@ -55,8 +63,8 @@ A **VARIANT\_BOOL** value that specifies whether SuperPan is enabled. A value of
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -73,9 +81,9 @@ A **VARIANT\_BOOL** value that specifies whether SuperPan is enabled. A value of
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

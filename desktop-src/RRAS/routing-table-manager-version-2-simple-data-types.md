@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 2 Simple Data Types
 description: The RTMv2 API defines several simple data types. The following table lists these data types.
-ms.assetid: 'e935518e-b8d8-47fb-b2b2-c9750c2b540e'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,simple data types", "Routing Table Manager Version 2 RRAS ,simple data types"]
+ms.assetid: e935518e-b8d8-47fb-b2b2-c9750c2b540e
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,simple data types
+- Routing Table Manager Version 2 RRAS ,simple data types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 2 Simple Data Types

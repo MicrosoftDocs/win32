@@ -1,14 +1,19 @@
 ---
-Description: 'Windows GDI+ provides various quality levels for drawing text. Typically, higher quality rendering takes more processing time than lower quality rendering.'
-ms.assetid: '780d97ec-f446-4d19-837f-517a7d6dd27d'
+Description: Windows GDI+ provides various quality levels for drawing text. Typically, higher quality rendering takes more processing time than lower quality rendering.
+ms.assetid: 780d97ec-f446-4d19-837f-517a7d6dd27d
 title: Antialiasing with Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Antialiasing with Text
 
 Windows GDI+ provides various quality levels for drawing text. Typically, higher quality rendering takes more processing time than lower quality rendering.
 
-The quality level is a property of the [**Graphics**](-gdiplus-class-graphics-class.md) class. To set the quality level, call the [**Graphics::SetTextRenderingHint**](-gdiplus-class-graphics-settextrenderinghint-newmode-.md) method of a **Graphics** object. The **Graphics::SetTextRenderingHint** method receives one of the elements of the [**TextRenderingHint**](-gdiplus-enum-textrenderinghint.md) enumeration, which is declared in Gdiplusenums.h.
+The quality level is a property of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class. To set the quality level, call the [**Graphics::SetTextRenderingHint**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settextrenderinghint?branch=master) method of a **Graphics** object. The **Graphics::SetTextRenderingHint** method receives one of the elements of the [**TextRenderingHint**](/windows/win32/Gdiplusenums/ne-gdiplusenums-textrenderinghint?branch=master) enumeration, which is declared in Gdiplusenums.h.
 
 GDI+ provides traditional antialiasing and a new kind of antialiasing based on Microsoft ClearType display technology only available on Windows XP and Windows Server 2003 and later versions of Windows. ClearType smoothing improves readability on color LCD monitors that have a digital interface, such as the monitors in laptops and high-quality flat desktop displays. Readability on CRT screens is also somewhat improved.
 

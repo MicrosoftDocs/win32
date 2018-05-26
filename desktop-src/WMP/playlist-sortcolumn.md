@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.sortColumn
 description: The sortColumn method sorts the data in the specified column.
-ms.assetid: '1563fee8-044a-4cb4-a9c2-11d4533536da'
-keywords: ["PLAYLIST.sortColumn Windows Media Player"]
+ms.assetid: 1563fee8-044a-4cb4-a9c2-11d4533536da
+keywords:
+- PLAYLIST.sortColumn Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.sortColumn
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.sortColumn
@@ -60,9 +66,9 @@ For this method to work, the **allowColumnSorting** attribute must be set to tru
 [**PLAYLIST.allowColumnSorting**](playlist-allowcolumnsorting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: WinSNMP API
 description: The Microsoft Windows SNMP Application Programming Interface (the WinSNMP API) versions 1.1a and 2.0 allow you to develop SNMP-based network management applications that execute in the Windows environment.
-ms.assetid: 'cd8b045a-2992-453a-b22e-4c3dc29a8c78'
-keywords: ["WinSNMP API"]
+ms.assetid: cd8b045a-2992-453a-b22e-4c3dc29a8c78
+keywords:
+- WinSNMP API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSNMP API

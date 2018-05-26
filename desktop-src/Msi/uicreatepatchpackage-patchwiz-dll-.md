@@ -1,7 +1,12 @@
 ---
-Description: 'The UiCreatePatchPackage function takes a package creation file (.pcp file) and generates a Windows Installer patch package (.msp package).'
-ms.assetid: '77fedb80-b664-417d-879b-846e74cc4c23'
-title: 'UiCreatePatchPackage (Patchwiz.dll)'
+Description: The UiCreatePatchPackage function takes a package creation file (.pcp file) and generates a Windows Installer patch package (.msp package).
+ms.assetid: 77fedb80-b664-417d-879b-846e74cc4c23
+title: UiCreatePatchPackage (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UiCreatePatchPackage (Patchwiz.dll)

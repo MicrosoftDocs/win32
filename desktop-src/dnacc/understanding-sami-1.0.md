@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '1a94f822-30f1-4198-ac33-f63ed5026c9f'
-title: 'Understanding SAMI 1.0'
+ms.assetid: 1a94f822-30f1-4198-ac33-f63ed5026c9f
+title: Understanding SAMI 1.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding SAMI 1.0

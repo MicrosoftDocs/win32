@@ -1,7 +1,12 @@
 ---
-Description: 'Is the root element of an WSDAPI code generator XML script file.'
-ms.assetid: '990511ca-a918-460b-91e0-c1454e242f17'
+Description: Is the root element of an WSDAPI code generator XML script file.
+ms.assetid: 990511ca-a918-460b-91e0-c1454e242f17
 title: wsdCodeGen element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wsdCodeGen element
@@ -79,14 +84,14 @@ In general, [**file**](file.md) elements should occur last because they generate
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

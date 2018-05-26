@@ -4,10 +4,13 @@ description: The following validated writes are defined by Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '80af710f-3feb-4708-af86-8be07475a61a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 80af710f-3feb-4708-af86-8be07475a61a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Validated Writes

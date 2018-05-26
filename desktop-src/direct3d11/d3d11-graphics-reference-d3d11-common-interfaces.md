@@ -1,7 +1,12 @@
 ---
 title: Common Version Interfaces
 description: This section contains information about the common version interfaces.
-ms.assetid: 'd228c3c2-e2ff-4723-aec1-5c3ce82c321d'
+ms.assetid: d228c3c2-e2ff-4723-aec1-5c3ce82c321d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Version Interfaces
@@ -16,14 +21,14 @@ This section contains information about the common version interfaces.
 
 | Topic                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ID3D10Blob**](id3d10blob.md)<br/>                               | This interface is used to return arbitrary-length data. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [**ID3DBlob**](id3dblob.md)<br/>                                   | This interface is used to return data of arbitrary length. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [**ID3DInclude**](id3dinclude.md)<br/>                             | [**ID3DInclude**](id3dinclude.md) is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader \#include files. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**ID3DUserDefinedAnnotation**](id3duserdefinedannotation.md)<br/> | The [**ID3DUserDefinedAnnotation**](id3duserdefinedannotation.md) interface enables an application to describe conceptual sections and markers within the application's code flow. An appropriately enabled tool, such as Microsoft Visual Studio Ultimate 2012, can display these sections and markers visually along the tool's Microsoft Direct3D time line, while the tool debugs the application. These visual notes allow users of such a tool to navigate to parts of the time line that are of interest, or to understand what set of Direct3D calls are produced by certain sections of the application's code.<br/> |
+| [**ID3D10Blob**](/windows/win32/d3dcommon/?branch=master)<br/>                               | This interface is used to return arbitrary-length data. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**ID3DBlob**](/windows/win32/D3Dcommon/?branch=master)<br/>                                   | This interface is used to return data of arbitrary length. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [**ID3DInclude**](/windows/win32/D3Dcommon/nn-d3dcommon-id3dinclude?branch=master)<br/>                             | [**ID3DInclude**](/windows/win32/D3Dcommon/nn-d3dcommon-id3dinclude?branch=master) is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader \#include files. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [**ID3DUserDefinedAnnotation**](/windows/win32/D3D11_1/nn-d3d11_1-id3duserdefinedannotation?branch=master)<br/> | The [**ID3DUserDefinedAnnotation**](/windows/win32/D3D11_1/nn-d3d11_1-id3duserdefinedannotation?branch=master) interface enables an application to describe conceptual sections and markers within the application's code flow. An appropriately enabled tool, such as Microsoft Visual Studio Ultimate 2012, can display these sections and markers visually along the tool's Microsoft Direct3D time line, while the tool debugs the application. These visual notes allow users of such a tool to navigate to parts of the time line that are of interest, or to understand what set of Direct3D calls are produced by certain sections of the application's code.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ This section contains information about the common version interfaces.
 [Common Version Reference](d3d11-graphics-reference-d3d11-common.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

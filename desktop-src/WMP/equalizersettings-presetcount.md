@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.presetCount
 description: The presetCount attribute retrieves the number of presets available.
-ms.assetid: '6186746c-294f-486e-b054-969d235b7e6c'
-keywords: ["EQUALIZERSETTINGS.presetCount Windows Media Player"]
+ms.assetid: 6186746c-294f-486e-b054-969d235b7e6c
+keywords:
+- EQUALIZERSETTINGS.presetCount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.presetCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.presetCount
@@ -40,9 +46,9 @@ This attribute is a read-only **Number** (**long**).
 [**EQUALIZERSETTINGS Element**](equalizersettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A thread is the entity within a process that can be scheduled for execution.'
-ms.assetid: 'a78c17dc-d5d9-4baf-8770-597b04fa3fa8'
+Description: A thread is the entity within a process that can be scheduled for execution.
+ms.assetid: a78c17dc-d5d9-4baf-8770-597b04fa3fa8
 title: Multiple Threads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Threads

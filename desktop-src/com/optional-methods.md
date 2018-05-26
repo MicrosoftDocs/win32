@@ -1,7 +1,12 @@
 ---
 title: Optional Methods
 description: Optional Methods
-ms.assetid: '8cdb5686-177c-48c9-8315-e5921520007c'
+ms.assetid: 8cdb5686-177c-48c9-8315-e5921520007c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optional Methods
@@ -16,12 +21,12 @@ The table below describes optional methods; note that the method must still exis
 
 | Method                                                     | Comments                                                                                                 |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [**SaveObject**](ioleclientsite-saveobject.md)<br/> | Necessary for persistence to be successfully supported.<br/>                                       |
-| [**GetMoniker**](ioleclientsite-getmoniker.md)<br/> | Necessary only if the container supports linking to controls within its own form or document.<br/> |
+| [**SaveObject**](/windows/win32/OleIdl/nf-oleidl-ioleclientsite-saveobject?branch=master)<br/> | Necessary for persistence to be successfully supported.<br/>                                       |
+| [**GetMoniker**](/windows/win32/OleIdl/nf-oleidl-ioleclientsite-getmoniker?branch=master)<br/> | Necessary only if the container supports linking to controls within its own form or document.<br/> |
 
 
 
- 
+ 
 
 ## IOleInPlaceSite
 
@@ -29,14 +34,14 @@ The table below describes optional methods; note that the method must still exis
 
 | Method                                                                     | Comments                                                 |
 |----------------------------------------------------------------------------|----------------------------------------------------------|
-| [**ContextSensitiveHelp**](iolewindow-contextsensitivehelp.md)<br/> | Optional<br/>                                      |
-| [**Scroll**](ioleinplacesite-scroll.md)<br/>                        | May return S\_FALSE with no action.<br/>           |
-| [**DiscardUndoState**](ioleinplacesite-discardundostate.md)<br/>    | Can return S\_OK with no action.<br/>              |
-| [**DeactivateAndUndo**](ioleinplacesite-deactivateandundo.md)<br/>  | Deactivation is mandatory; Undo is optional. <br/> |
+| [**ContextSensitiveHelp**](/windows/win32/OleIdl/nf-oleidl-iolewindow-contextsensitivehelp?branch=master)<br/> | Optional<br/>                                      |
+| [**Scroll**](/windows/win32/OleIdl/nf-oleidl-ioleinplacesite-scroll?branch=master)<br/>                        | May return S\_FALSE with no action.<br/>           |
+| [**DiscardUndoState**](/windows/win32/OleIdl/nf-oleidl-ioleinplacesite-discardundostate?branch=master)<br/>    | Can return S\_OK with no action.<br/>              |
+| [**DeactivateAndUndo**](/windows/win32/OleIdl/nf-oleidl-ioleinplacesite-deactivateandundo?branch=master)<br/>  | Deactivation is mandatory; Undo is optional. <br/> |
 
 
 
- 
+ 
 
 ## IOleControlSite
 
@@ -44,14 +49,14 @@ The table below describes optional methods; note that the method must still exis
 
 | Method                                                                          | Comments                                                                                                                                                            |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetExtendedControl**](iolecontrolsite-getextendedcontrol.md)<br/>     | Necessary for containers that support extended controls.<br/>                                                                                                 |
-| [**ShowPropertyFrame**](iolecontrolsite-showpropertyframe.md)<br/>       | Necessary for containers that wish to include their own property pages to handle extended control properties in addition to those provided by a control.<br/> |
-| [**TranslateAccelerator**](iolecontrolsite-translateaccelerator.md)<br/> | May return S\_FALSE with no action.<br/>                                                                                                                      |
-| [**LockInPlaceActive**](iolecontrolsite-lockinplaceactive.md)<br/>       | Optional<br/>                                                                                                                                                 |
+| [**GetExtendedControl**](/windows/win32/OCIdl/nf-ocidl-iolecontrolsite-getextendedcontrol?branch=master)<br/>     | Necessary for containers that support extended controls.<br/>                                                                                                 |
+| [**ShowPropertyFrame**](/windows/win32/OCIdl/nf-ocidl-iolecontrolsite-showpropertyframe?branch=master)<br/>       | Necessary for containers that wish to include their own property pages to handle extended control properties in addition to those provided by a control.<br/> |
+| [**TranslateAccelerator**](/windows/win32/OCIdl/nf-ocidl-iolecontrolsite-translateaccelerator?branch=master)<br/> | May return S\_FALSE with no action.<br/>                                                                                                                      |
+| [**LockInPlaceActive**](/windows/win32/OCIdl/nf-ocidl-iolecontrolsite-lockinplaceactive?branch=master)<br/>       | Optional<br/>                                                                                                                                                 |
 
 
 
- 
+ 
 
 ## IDispatch (Ambient properties)
 
@@ -65,7 +70,7 @@ The table below describes optional methods; note that the method must still exis
 
 
 
- 
+ 
 
 ## IDispatch (Event sink)
 
@@ -79,7 +84,7 @@ The table below describes optional methods; note that the method must still exis
 
 
 
- 
+ 
 
 ## IOleInPlaceFrame
 
@@ -87,20 +92,20 @@ The table below describes optional methods; note that the method must still exis
 
 | Method                                                                           | Comments                                                                |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| [**ContextSensitiveHelp**](iolewindow-contextsensitivehelp.md)<br/>       |                                                                         |
-| [**GetBorder**](ioleinplaceuiwindow-getborder.md)<br/>                    | Necessary for containers with toolbar UI (which is optional)<br/> |
-| [**RequestBorderSpace**](ioleinplaceuiwindow-requestborderspace.md)<br/>  | Necessary for containers with toolbar UI (which is optional)<br/> |
-| [**SetBorderSpace**](ioleinplaceuiwindow-setborderspace.md)<br/>          | Necessary for containers with toolbar UI (which is optional)<br/> |
-| [**InsertMenus**](ioleinplaceframe-insertmenus.md)<br/>                   | Necessary for containers with menu UI (which is optional)<br/>    |
-| [**SetMenu**](ioleinplaceframe-setmenu.md)<br/>                           | Necessary for containers with menu UI (which is optional)<br/>    |
-| [**RemoveMenus**](ioleinplaceframe-removemenus.md)<br/>                   | Necessary for containers with menu UI (which is optional)<br/>    |
-| [**SetStatusText**](ioleinplaceframe-setstatustext.md)<br/>               | Necessary only for containers that have a status line<br/>        |
-| [**EnableModeless**](ioleinplaceframe-enablemodeless.md)<br/>             | Optional<br/>                                                     |
-| [**TranslateAccelerator**](ioleinplaceframe-translateaccelerator.md)<br/> | Optional<br/>                                                     |
+| [**ContextSensitiveHelp**](/windows/win32/OleIdl/nf-oleidl-iolewindow-contextsensitivehelp?branch=master)<br/>       |                                                                         |
+| [**GetBorder**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceuiwindow-getborder?branch=master)<br/>                    | Necessary for containers with toolbar UI (which is optional)<br/> |
+| [**RequestBorderSpace**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceuiwindow-requestborderspace?branch=master)<br/>  | Necessary for containers with toolbar UI (which is optional)<br/> |
+| [**SetBorderSpace**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceuiwindow-setborderspace?branch=master)<br/>          | Necessary for containers with toolbar UI (which is optional)<br/> |
+| [**InsertMenus**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-insertmenus?branch=master)<br/>                   | Necessary for containers with menu UI (which is optional)<br/>    |
+| [**SetMenu**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-setmenu?branch=master)<br/>                           | Necessary for containers with menu UI (which is optional)<br/>    |
+| [**RemoveMenus**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-removemenus?branch=master)<br/>                   | Necessary for containers with menu UI (which is optional)<br/>    |
+| [**SetStatusText**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-setstatustext?branch=master)<br/>               | Necessary only for containers that have a status line<br/>        |
+| [**EnableModeless**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-enablemodeless?branch=master)<br/>             | Optional<br/>                                                     |
+| [**TranslateAccelerator**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-translateaccelerator?branch=master)<br/> | Optional<br/>                                                     |
 
 
 
- 
+ 
 
 ## IOleContainer
 
@@ -108,13 +113,13 @@ The table below describes optional methods; note that the method must still exis
 
 | Method                                                                    | Comments                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ParseDisplayName**](iparsedisplayname-parsedisplayname.md)<br/> | Only if linking to controls or other embeddings in the container is supported, as this is necessary for moniker binding.<br/>                                                                                                                  |
-| [**LockContainer**](iolecontainer-lockcontainer.md)<br/>           | As for ParseDisplayName<br/>                                                                                                                                                                                                                   |
-| [**EnumObjects**](iolecontainer-enumobjects.md)<br/>               | Returns all ActiveX controls through an enumerator with [**IEnumUnknown**](ienumunknown.md), but not necessarily all objects (because there's no guarantee that all objects are ActiveX controls; some may be regular Windows controls).<br/> |
+| [**ParseDisplayName**](/windows/win32/OleIdl/nf-oleidl-iparsedisplayname-parsedisplayname?branch=master)<br/> | Only if linking to controls or other embeddings in the container is supported, as this is necessary for moniker binding.<br/>                                                                                                                  |
+| [**LockContainer**](/windows/win32/OleIdl/nf-oleidl-iolecontainer-lockcontainer?branch=master)<br/>           | As for ParseDisplayName<br/>                                                                                                                                                                                                                   |
+| [**EnumObjects**](/windows/win32/OleIdl/nf-oleidl-iolecontainer-enumobjects?branch=master)<br/>               | Returns all ActiveX controls through an enumerator with [**IEnumUnknown**](/windows/win32/objidlbase/nn-objidl-ienumunknown?branch=master), but not necessarily all objects (because there's no guarantee that all objects are ActiveX controls; some may be regular Windows controls).<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -123,9 +128,9 @@ The table below describes optional methods; note that the method must still exis
 [Containers](containers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

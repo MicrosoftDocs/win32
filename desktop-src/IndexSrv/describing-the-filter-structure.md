@@ -1,7 +1,12 @@
 ---
 title: Describing the Filter Structure
 description: Describing the Filter Structure
-ms.assetid: '988c11ee-73e8-4494-aa19-050321cdd63e'
+ms.assetid: 988c11ee-73e8-4494-aa19-050321cdd63e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Describing the Filter Structure

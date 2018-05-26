@@ -1,14 +1,22 @@
 ---
 title: IAccessibilityDockingService GetAvailableSize method
 description: Gets the dimensions available for docking an accessibility window on a monitor.
-ms.assetid: '1C838B01-EF26-4FCC-878F-A36DEFBA3142'
-keywords: ["GetAvailableSize method COM", "GetAvailableSize method COM , IAccessibilityDockingService interface", "IAccessibilityDockingService interface COM , GetAvailableSize method"]
+ms.assetid: 1C838B01-EF26-4FCC-878F-A36DEFBA3142
+keywords:
+- GetAvailableSize method COM
+- GetAvailableSize method COM , IAccessibilityDockingService interface
+- IAccessibilityDockingService interface COM , GetAvailableSize method
 topic_type:
 - apiref
 api_name:
 - IAccessibilityDockingService.GetAvailableSize
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAccessibilityDockingService::GetAvailableSize method
@@ -20,9 +28,9 @@ Gets the dimensions available for docking an accessibility window on a monitor.
 
 ```C++
 HRESULT GetAvailableSize(
-  [in]  HMONITOR hMonitor,
-  [out] UINT     *puMaxHeight,
-  [out] UINT     *puFixedWidth
+  [in]  HMONITOR hMonitor,
+  [out] UINT     *puMaxHeight,
+  [out] UINT     *puFixedWidth
 );
 ```
 
@@ -68,7 +76,7 @@ On failure, set to zero.
 
 
 
- 
+ 
 
 If either *puMaxHeight* or *puFixedWidth* are null, an access violation will occur.
 
@@ -101,12 +109,12 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IAccessibilityDockingService**](iaccessibilitydockingservice.md)
+[**IAccessibilityDockingService**](/windows/win32/shobjidl/nn-shobjidl-iaccessibilitydockingservice?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

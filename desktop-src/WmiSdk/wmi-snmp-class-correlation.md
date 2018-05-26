@@ -1,13 +1,16 @@
 ---
-Description: 'Correlation affects the set of classes returned from the SMIR.'
+Description: Correlation affects the set of classes returned from the SMIR.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '799a0866-e7a0-492f-956e-b13bf591babe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 799a0866-e7a0-492f-956e-b13bf591babe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI SNMP Class Correlation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI SNMP Class Correlation

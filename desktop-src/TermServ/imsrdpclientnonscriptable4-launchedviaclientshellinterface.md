@@ -1,14 +1,29 @@
 ---
 title: IMsRdpClientNonScriptable4 LaunchedViaClientShellInterface property
-description: Specifies whether the user launched the client control by using the Remote Desktop Web Access (RD Web Access) interface.
+description: Specifies whether the user launched the client control by using the Remote Desktop Web Access (RD Web Access) interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf72c375-0eec-49c7-9f9a-c7545a95bdce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: bf72c375-0eec-49c7-9f9a-c7545a95bdce
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["LaunchedViaClientShellInterface property Remote Desktop Services", "LaunchedViaClientShellInterface property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , LaunchedViaClientShellInterface property", "LaunchedViaClientShellInterface property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , LaunchedViaClientShellInterface property", "LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient5 object", "MsRdpClient5 object Remote Desktop Services , LaunchedViaClientShellInterface property", "LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , LaunchedViaClientShellInterface property", "LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , LaunchedViaClientShellInterface property", "LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , LaunchedViaClientShellInterface property", "LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , LaunchedViaClientShellInterface property"]
+keywords:
+- LaunchedViaClientShellInterface property Remote Desktop Services
+- LaunchedViaClientShellInterface property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , LaunchedViaClientShellInterface property
+- LaunchedViaClientShellInterface property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , LaunchedViaClientShellInterface property
+- LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient5 object
+- MsRdpClient5 object Remote Desktop Services , LaunchedViaClientShellInterface property
+- LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , LaunchedViaClientShellInterface property
+- LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , LaunchedViaClientShellInterface property
+- LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , LaunchedViaClientShellInterface property
+- LaunchedViaClientShellInterface property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , LaunchedViaClientShellInterface property
 topic_type:
 - apiref
 api_name:
@@ -27,11 +42,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable4::LaunchedViaClientShellInterface property
 
-Specifies whether the user launched the client control by using the Remote Desktop Web Access (RD Web Access) interface.
+Specifies whether the user launched the client control by using the Remote Desktop Web Access (RD Web Access) interface.
 
 This property is read/write.
 
@@ -40,11 +58,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_LaunchedViaClientShellInterface(
-  [in]  VARIANT_BOOL fLaunchedViaClientShellInterface
+  [in]  VARIANT_BOOL fLaunchedViaClientShellInterface
 );
 
 HRESULT get_LaunchedViaClientShellInterface(
-  [out]  VARIANT_BOOL *pfLaunchedViaClientShellInterface
+  [out]  VARIANT_BOOL *pfLaunchedViaClientShellInterface
 );
 ```
 
@@ -64,8 +82,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IMsRdpClientNonScriptable4 is defined as f50fa8aa-1c7d-4f59-b15c-a90cacae1fcb<br/> |
@@ -82,9 +100,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

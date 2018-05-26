@@ -1,7 +1,12 @@
 ---
-Description: 'Whether the Device Association Endpoint can be paired with the system or not.'
-ms.assetid: '2c7f9d86-509f-48c5-8cc6-0f3dd5d1fc12'
-title: 'System.Devices.Aep.CanPair'
+Description: Whether the Device Association Endpoint can be paired with the system or not.
+ms.assetid: 2c7f9d86-509f-48c5-8cc6-0f3dd5d1fc12
+title: System.Devices.Aep.CanPair
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.CanPair

@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSLicenseServer class
-description: Provides methods and properties to view and configure Remote Desktop Licensing (RD Licensing) on a Remote Desktop license server.
+description: Provides methods and properties to view and configure Remote Desktop Licensing (RD Licensing) on a Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '699ddd9f-a91a-450c-b131-a7471252a4cc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 699ddd9f-a91a-450c-b131-a7471252a4cc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLicenseServer class Remote Desktop Services", "Win32_TSLicenseServer class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLicenseServer class Remote Desktop Services
+- Win32_TSLicenseServer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -32,11 +34,14 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseServer class
 
-Provides methods and properties to view and configure Remote Desktop Licensing (RD Licensing) on a Remote Desktop license server.
+Provides methods and properties to view and configure Remote Desktop Licensing (RD Licensing) on a Remote Desktop license server.
 
 ## Syntax
 
@@ -81,32 +86,32 @@ The **Win32\_TSLicenseServer** class has these methods.
 | [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md)         | Activates the Remote Desktop license server automatically over the Internet. The **FirstName**, **LastName**, **Company**, and **CountryRegion** properties must not be empty when this method is called, or the method will fail.<br/> |
 | [**AddLStoTSLSGroup**](addlstotslsgroup-win32-tslicenseserver.md)                       | Adds the Remote Desktop license server to the Remote Desktop License Servers group on a domain controller in the same domain as the license server.<br/>                                                                                |
 | [**ChangeRole**](changerole-win32-tslicenseserver.md)                                   | Changes the discovery scope of the Remote Desktop license server.<br/>                                                                                                                                                                  |
-| [**CreateTSCGroup**](createtscgroup-win32-tslicenseserver.md)                           | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Creates the Terminal Server Computers local group on the Remote Desktop license server.<br/>                                               |
+| [**CreateTSCGroup**](createtscgroup-win32-tslicenseserver.md)                           | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Creates the Terminal Server Computers local group on the Remote Desktop license server.<br/>                                               |
 | [**DeactivateServer**](deactivateserver-win32-tslicenseserver.md)                       | Deactivates the Remote Desktop license server by using a confirmation code that is received over the phone.<br/>                                                                                                                        |
 | [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md)     | Deactivates the Remote Desktop license server over the Internet. The **FirstName** and **LastName** properties must not be empty when this method is called, or the method will fail.<br/>                                              |
 | [**GetActivationStatus**](getactivationstatus-win32-tslicenseserver.md)                 | Retrieves the current activation status.<br/>                                                                                                                                                                                           |
 | [**GetLicenseServerId**](getlicenseserverid-win32-tslicenseserver.md)                   | Retrieves a Remote Desktop license server ID if the server is currently activated.<br/>                                                                                                                                                 |
 | [**IsLSinTSLSGroup**](islsintslsgroup-win32-tslicenseserver.md)                         | Retrieves whether the Remote Desktop license server is a member of the Remote Desktop License Servers group on a domain controller in a given domain.<br/>                                                                              |
-| [**IsLSonDC**](islsondc-win32-tslicenseserver.md)                                       | Retrieves whether RD Licensing is installed on a domain controller.<br/>                                                                                                                                                                |
+| [**IsLSonDC**](islsondc-win32-tslicenseserver.md)                                       | Retrieves whether RD Licensing is installed on a domain controller.<br/>                                                                                                                                                                |
 | [**IsLSPreventUpgradeGPEnabled**](islspreventupgradegpenabled-win32-tslicenseserver.md) | Retrieves whether the "prevent license upgrade" group policy setting is enabled on the Remote Desktop license server.<br/>                                                                                                              |
-| [**IsLSPublished**](islspublished-win32-tslicenseserver.md)                             | Retrieves whether the Remote Desktop license server is published in Active Directory Domain Services (AD DS).<br/>                                                                                                                      |
+| [**IsLSPublished**](islspublished-win32-tslicenseserver.md)                             | Retrieves whether the Remote Desktop license server is published in Active Directory Domain Services (AD DS).<br/>                                                                                                                      |
 | [**IsLSRegisteredToSCP**](win32-tslicenseserver-islsregisteredtoscp.md)                 | Retrieves whether the Remote Desktop license server is registered as a service connection point in Active Directory Domain Services.<br/>                                                                                               |
 | [**IsLSSecGrpGPEnabled**](islssecgrpgpenabled-win32-tslicenseserver.md)                 | Retrieves whether the "license server security group" group policy setting is enabled on the Remote Desktop license server.<br/>                                                                                                        |
-| [**IsSecureAccessAllowed**](issecureaccessallowed-win32-tslicenseserver.md)             | Retrieves whether an RD Session Host server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from the Remote Desktop license server.<br/>                                                                |
-| [**IsTSCGroupPresent**](istscgrouppresent-win32-tslicenseserver.md)                     | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Retrieves whether the Terminal Server Computers local group exists on the Remote Desktop license server.<br/>                              |
-| [**IsTSinTSCGroup**](istsintscgroup-win32-tslicenseserver.md)                           | Retrieves whether an RD Session Host server is a member of the Terminal Server Computers local group on the Remote Desktop license server.<br/>                                                                                         |
-| [**PublishLS**](publishls-win32-tslicenseserver.md)                                     | Publishes the Remote Desktop license server in AD DS.<br/>                                                                                                                                                                              |
+| [**IsSecureAccessAllowed**](issecureaccessallowed-win32-tslicenseserver.md)             | Retrieves whether an RD Session Host server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from the Remote Desktop license server.<br/>                                                                |
+| [**IsTSCGroupPresent**](istscgrouppresent-win32-tslicenseserver.md)                     | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Retrieves whether the Terminal Server Computers local group exists on the Remote Desktop license server.<br/>                              |
+| [**IsTSinTSCGroup**](istsintscgroup-win32-tslicenseserver.md)                           | Retrieves whether an RD Session Host server is a member of the Terminal Server Computers local group on the Remote Desktop license server.<br/>                                                                                         |
+| [**PublishLS**](publishls-win32-tslicenseserver.md)                                     | Publishes the Remote Desktop license server in AD DS.<br/>                                                                                                                                                                              |
 | [**ReactivateServer**](reactivateserver-win32-tslicenseserver.md)                       | Reactivates the Remote Desktop license server by using a new Remote Desktop license server ID that is obtained over the phone or the Internet.<br/>                                                                                     |
 | [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md)     | Reactivates the Remote Desktop license server over the Internet. The **FirstName** and **LastName** properties must not be empty when this method is called, or the method will fail.<br/>                                              |
 | [**RegisterLSToSCP**](win32-tslicenseserver-registerlstoscp.md)                         | Registers the Remote Desktop license server as a service connection point in Active Directory Domain Services.<br/>                                                                                                                     |
 | [**RemoveLSfromTSLSGroup**](removelsfromtslsgroup-win32-tslicenseserver.md)             | Removes the Remote Desktop license server from the Remote Desktop License Servers group on a domain controller in the same domain as the license server.<br/>                                                                           |
-| [**RemoveTSCGroup**](removetscgroup-win32-tslicenseserver.md)                           | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Removes the Terminal Server Computers local group from the Remote Desktop license server.<br/>                                             |
-| [**UnpublishLS**](unpublishls-win32-tslicenseserver.md)                                 | Unpublishes a Remote Desktop license server from AD DS.<br/>                                                                                                                                                                            |
+| [**RemoveTSCGroup**](removetscgroup-win32-tslicenseserver.md)                           | This method is not supported.<br/> **Windows Server 2008 R2 and Windows Server 2008:** Removes the Terminal Server Computers local group from the Remote Desktop license server.<br/>                                             |
+| [**UnpublishLS**](unpublishls-win32-tslicenseserver.md)                                 | Unpublishes a Remote Desktop license server from AD DS.<br/>                                                                                                                                                                            |
 | [**UnRegisterLSFromSCP**](win32-tslicenseserver-unregisterlsfromscp.md)                 | Removes the Remote Desktop license server as a service connection point in Active Directory Domain Services.<br/>                                                                                                                       |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -123,7 +128,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Street address of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
+Street address of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
 
 </dd> <dt>
 
@@ -136,7 +141,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-City of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
+City of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
 
 </dd> <dt>
 
@@ -149,7 +154,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Company of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called.
+Company of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called.
 
 </dd> <dt>
 
@@ -162,7 +167,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Country/region of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called.
+Country/region of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called.
 
 </dd> <dt>
 
@@ -175,7 +180,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Path of the RDS Licensing database.
+Path of the RDS Licensing database.
 
 </dd> <dt>
 
@@ -188,7 +193,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Email address of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md), [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md), or [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md) methods are called. (This property is optional for these method calls.)
+Email address of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md), [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md), or [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md) methods are called. (This property is optional for these method calls.)
 
 </dd> <dt>
 
@@ -201,7 +206,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-First name of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md), [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md), or [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md) methods are called.
+First name of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md), [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md), or [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md) methods are called.
 
 </dd> <dt>
 
@@ -214,7 +219,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Last name of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md), [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md), or [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md) methods are called.
+Last name of the contact for RD Licensing. This property is used (and required) when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md), [**ReactivateServerAutomatic**](reactivateserverautomatic-win32-tslicenseserver.md), or [**DeactivateServerAutomatic**](deactivateserverautomatic-win32-tslicenseserver.md) methods are called.
 
 </dd> <dt>
 
@@ -227,7 +232,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Organizational unit of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) is called. (This property is optional when using the **ActivateServerAutomatic** method.)
+Organizational unit of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) is called. (This property is optional when using the **ActivateServerAutomatic** method.)
 
 </dd> <dt>
 
@@ -240,7 +245,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Postal code of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
+Postal code of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
 
 </dd> <dt>
 
@@ -273,21 +278,21 @@ Describes the licensing scope for the Remote Desktop license server within the o
 0
 </dt> <dd>
 
-RD Session Host servers in the same workgroup can discover the license server.
+RD Session Host servers in the same workgroup can discover the license server.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-RD Session Host servers in the same domain can discover the license server.
+RD Session Host servers in the same domain can discover the license server.
 
 </dd> <dt>
 
 2
 </dt> <dd>
 
-RD Session Host servers from multiple domains in the same forest can discover the license server.
+RD Session Host servers from multiple domains in the same forest can discover the license server.
 
 </dd> </dl>
 
@@ -302,7 +307,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-State of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
+State of the contact for RD Licensing. This property is used when the [**ActivateServerAutomatic**](activateserverautomatic-win32-tslicenseserver.md) method is called. (This property is optional when using the **ActivateServerAutomatic** method.)
 
 </dd> <dt>
 
@@ -347,7 +352,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -370,9 +375,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseReportEntry**](win32-tslicensereportentry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

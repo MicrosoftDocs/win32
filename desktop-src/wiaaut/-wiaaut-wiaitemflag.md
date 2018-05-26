@@ -1,8 +1,10 @@
 ---
 title: WiaItemFlag enumeration
-description: Supplies the bits that make up an Item's type. You can test an Item's type by using the AND operation with Item.Properties( \ 0034;Item Flags \ 0034;) and a member from the WiaItemFlag enumeration.
-ms.assetid: '45ff1f7b-8080-4e79-95ad-bd3355816a8e'
-keywords: ["WiaItemFlag enumeration WIA Automation", "WiaDeviceType enumeration WIA Automation"]
+description: Supplies the bits that make up an Items type. You can test an Items type by using the AND operation with Item.Properties( \ 0034;Item Flags \ 0034;) and a member from the WiaItemFlag enumeration.
+ms.assetid: 45ff1f7b-8080-4e79-95ad-bd3355816a8e
+keywords:
+- WiaItemFlag enumeration WIA Automation
+- WiaDeviceType enumeration WIA Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WiaItemFlag enumeration
@@ -57,16 +64,16 @@ For example code, see [Count Root Level Images for Transfer](-wiaaut-shared-samp
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

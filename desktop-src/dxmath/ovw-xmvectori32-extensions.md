@@ -1,7 +1,12 @@
-﻿---
-Description: 'The XMVECTORI32 type supports the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.'
-ms.assetid: '7f903e9c-a1c2-4d6d-b1e0-c61d285a035c'
+---
+Description: The XMVECTORI32 type supports the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.
+ms.assetid: 7f903e9c-a1c2-4d6d-b1e0-c61d285a035c
 title: XMVECTORI32 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVECTORI32 Extensions

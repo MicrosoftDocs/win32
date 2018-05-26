@@ -1,8 +1,15 @@
 ---
 title: Components of the Routing Table Manager Architecture
 description: This section describes the major components of the Routing Table Manager Version 2 (RTMv2) technology
-ms.assetid: 'afe496b6-7add-4d6d-bafb-7701c5bdeb83'
-keywords: ["RTM components", "Routing Table Manager components"]
+ms.assetid: afe496b6-7add-4d6d-bafb-7701c5bdeb83
+keywords:
+- RTM components
+- Routing Table Manager components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components of the Routing Table Manager Architecture

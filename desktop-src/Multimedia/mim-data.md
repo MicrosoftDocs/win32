@@ -1,8 +1,9 @@
 ---
 title: MIM\_DATA message
 description: The MIM\_DATA message is sent to a MIDI input callback function when a MIDI message is received by a MIDI input device.
-ms.assetid: '966aab84-420a-42ce-9989-da5910ced9c0'
-keywords: ["MIM_DATA message Windows Multimedia"]
+ms.assetid: 966aab84-420a-42ce-9989-da5910ced9c0
+keywords:
+- MIM_DATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIM\_DATA message
@@ -46,7 +52,7 @@ MIDI message that was received. The message is packed into a doubleword value as
 
 
 
- 
+ 
 
 The two MIDI data bytes are optional, depending on the MIDI status byte.
 
@@ -75,8 +81,8 @@ This message is not sent when a MIDI system-exclusive message is received.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -91,9 +97,9 @@ This message is not sent when a MIDI system-exclusive message is received.
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Metadata Area Plug-ins (deprecated)
 description: Metadata Area Plug-ins (deprecated)
-ms.assetid: 'b0905cc8-33a5-4f9c-84ac-cc118c38287f'
-keywords: ["Windows Media Player plug-ins,metadata area", "plug-ins,metadata area", "user interface plug-ins,metadata area", "UI plug-ins,metadata area", "metadata area plug-ins"]
+ms.assetid: b0905cc8-33a5-4f9c-84ac-cc118c38287f
+keywords:
+- Windows Media Player plug-ins,metadata area
+- plug-ins,metadata area
+- user interface plug-ins,metadata area
+- UI plug-ins,metadata area
+- metadata area plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Area Plug-ins (deprecated)

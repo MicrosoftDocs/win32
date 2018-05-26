@@ -4,17 +4,21 @@ description: MSProtectedData and its mutable subclass MSMutableProtectedData pro
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '586ac0f1-43d3-4111-b7e2-f9ffbe4606a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 586ac0f1-43d3-4111-b7e2-f9ffbe4606a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtectedData class"]
+keywords:
+- MSProtectedData class
 topic_type:
 - apiref
 api_name:
 - MSProtectedData class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtectedData class
@@ -38,7 +42,7 @@ api_type:
 
 
 
- 
+ 
 
 ## Methods
 
@@ -47,15 +51,15 @@ api_type:
 | Name                                                                                                                            | Description                                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**protectedDataWithProtectedFile**](msprotecteddata-protecteddatawithprotectedfile-completionblock-method-objc.md)<br/> | Asynchronously creates and returns a protected file data object that can be used to read (and decrypt) data from a file protected with Microsoft Protected File format.<br/>                                                    |
-| [**getBytes:length**](msprotecteddata-getbytes-length-error-method-objc.md)<br/>                                         | Copies the specified number of plaintext bytes from the start of the receiver’s data into a given buffer. Decryption is transparently performed during the execution of the method.<br/>                                        |
-| [**getBytes:range**](msprotecteddata-getbytes-range-error-method-objc.md)<br/>                                           | Copies a range of plaintext bytes from the receiver’s data into a given buffer. Decryption is transparently performed during the execution of the method.<br/>                                                                  |
+| [**getBytes:length**](msprotecteddata-getbytes-length-error-method-objc.md)<br/>                                         | Copies the specified number of plaintext bytes from the start of the receiver s data into a given buffer. Decryption is transparently performed during the execution of the method.<br/>                                        |
+| [**getBytes:range**](msprotecteddata-getbytes-range-error-method-objc.md)<br/>                                           | Copies a range of plaintext bytes from the receiver s data into a given buffer. Decryption is transparently performed during the execution of the method.<br/>                                                                  |
 | [**length**](msprotecteddata-length-method-objc.md)<br/>                                                                 | Returns the number of bytes contained in the receiver.<br/>                                                                                                                                                                     |
-| [**retrieveData**](msprotecteddata-retrievedata-method-objc.md)<br/>                                                     | Returns an **NSData** data object that contains a copy of all of the receiver’s plaintext bytes. Decryption is transparently performed during the execution of the method.<br/>                                                 |
-| [**subdataWithRange**](msprotecteddata-subdatawithrange-method-objc.md)<br/>                                             | Returns an **NSData** data object that contains a copy of the receiver’s plaintext bytes that fall within the limits specified by a given range. Decryption is transparently performed during the execution of the method.<br/> |
+| [**retrieveData**](msprotecteddata-retrievedata-method-objc.md)<br/>                                                     | Returns an **NSData** data object that contains a copy of all of the receiver s plaintext bytes. Decryption is transparently performed during the execution of the method.<br/>                                                 |
+| [**subdataWithRange**](msprotecteddata-subdatawithrange-method-objc.md)<br/>                                             | Returns an **NSData** data object that contains a copy of the receiver s plaintext bytes that fall within the limits specified by a given range. Decryption is transparently performed during the execution of the method.<br/> |
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -71,13 +75,13 @@ MSProtectedData.h
 
 
 
- 
+ 
 
 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,9 +93,9 @@ The methods of the **MSProtectedData** class that read data transparently decryp
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

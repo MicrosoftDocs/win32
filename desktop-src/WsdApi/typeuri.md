@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a type to include from an XSD file.'
-ms.assetid: 'dd3894a8-1848-4ae0-ba6c-42ac4fe36ff3'
+Description: Specifies a type to include from an XSD file.
+ms.assetid: dd3894a8-1848-4ae0-ba6c-42ac4fe36ff3
 title: typeUri element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # typeUri element
@@ -47,14 +52,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

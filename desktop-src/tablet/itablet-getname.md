@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a string containing the name of the tablet device.'
-ms.assetid: '025620b5-ab68-4e36-ae26-2226a2fdeb61'
-title: 'ITablet::GetName method'
+Description: Returns a string containing the name of the tablet device.
+ms.assetid: 025620b5-ab68-4e36-ae26-2226a2fdeb61
+title: ITabletGetName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::GetName method
@@ -13,7 +18,7 @@ Returns a string containing the name of the tablet device.
 
 ```C++
 HRESULT GetName(
-  [out] LPWSTR *ppwszName
+  [out] LPWSTR *ppwszName
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ It is the caller's responsibility to free the memory returned from this method b
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -68,9 +73,9 @@ It is the caller's responsibility to free the memory returned from this method b
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

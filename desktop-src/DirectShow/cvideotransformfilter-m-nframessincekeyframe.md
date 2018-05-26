@@ -1,7 +1,12 @@
 ---
-Description: 'The number of frames that the filter has received since the last key frame.'
-ms.assetid: '6320e8fe-606b-4ca3-aeb7-c583145c0b77'
-title: 'CVideoTransformFilter::m\_nFramesSinceKeyFrame member'
+Description: The number of frames that the filter has received since the last key frame.
+ms.assetid: 6320e8fe-606b-4ca3-aeb7-c583145c0b77
+title: CVideoTransformFilterm\_nFramesSinceKeyFrame member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter::m\_nFramesSinceKeyFrame member
@@ -35,9 +40,9 @@ int m_nFramesSinceKeyFrame;
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the full name of the item as it appears in the UI. Read-only.'
-ms.assetid: 'efe8de99-fe66-4472-8ca3-f45373d03f81'
-title: 'Item.FullName property'
+---
+Description: Retrieves the full name of the item as it appears in the UI. Read-only.
+ms.assetid: efe8de99-fe66-4472-8ca3-f45373d03f81
+title: Item.FullName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.FullName property

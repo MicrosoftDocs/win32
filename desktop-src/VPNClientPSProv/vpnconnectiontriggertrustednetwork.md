@@ -2,11 +2,13 @@
 title: VpnConnectionTriggerTrustedNetwork class
 description: The VpnConnectionTriggerTrustedNetwork class represents the trusted network configuration for VPN triggering.
 audience: developer
-ms.assetid: '71B4F04D-1B88-433D-BBB1-870D4781F70D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 71B4F04D-1B88-433D-BBB1-870D4781F70D
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnConnectionTriggerTrustedNetwork class", "VpnConnectionTriggerTrustedNetwork class, described"]
+keywords:
+- VpnConnectionTriggerTrustedNetwork class
+- VpnConnectionTriggerTrustedNetwork class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnConnectionTriggerTrustedNetwork class
@@ -80,17 +85,17 @@ The list of DNS suffixes (the trusted network list).
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

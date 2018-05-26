@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether MFSampleExtension\_ROIRectangle attribute set on the input sample will be honored or not.'
-ms.assetid: '6B3CB513-43E8-4D30-B5A0-CD2E9C9F46BA'
-title: 'CODECAPI\_AVEncVideoROIEnabled property'
+Description: Indicates whether MFSampleExtension\_ROIRectangle attribute set on the input sample will be honored or not.
+ms.assetid: 6B3CB513-43E8-4D30-B5A0-CD2E9C9F46BA
+title: CODECAPI\_AVEncVideoROIEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncVideoROIEnabled property
@@ -28,8 +33,8 @@ If an encoder MFT accepts a non-zero value, it is expected that the encoder will
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,9 +46,9 @@ If an encoder MFT accepts a non-zero value, it is expected that the encoder will
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

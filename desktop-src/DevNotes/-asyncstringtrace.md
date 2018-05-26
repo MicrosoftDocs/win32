@@ -1,7 +1,12 @@
 ---
-Description: 'Finishes setting up a trace buffer with optional fields for sprintf-style traces.'
-ms.assetid: 'a5f3ecbe-d335-4fd0-99aa-4d5a748ca4e1'
+Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
+ms.assetid: a5f3ecbe-d335-4fd0-99aa-4d5a748ca4e1
 title: AsyncStringTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AsyncStringTrace function
@@ -13,9 +18,9 @@ Finishes setting up a trace buffer with optional fields for **sprintf**-style tr
 
 ```C++
 int AsyncStringTrace(
-   LPARAM  lParam,
-   LPCSTR  szFormat,
-   va_list marker
+   LPARAM  lParam,
+   LPCSTR  szFormat,
+   va_list marker
 );
 ```
 
@@ -68,9 +73,9 @@ This function has no associated import library or header file; you must call it 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

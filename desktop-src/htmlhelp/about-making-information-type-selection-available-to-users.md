@@ -1,7 +1,12 @@
 ---
 title: About Making Information Type Selection Available to Users
 description: About Making Information Type Selection Available to Users
-ms.assetid: '1216AC4A-29A2-428a-8CEB-1262A0CAD41F'
+ms.assetid: 1216AC4A-29A2-428a-8CEB-1262A0CAD41F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Making Information Type Selection Available to Users

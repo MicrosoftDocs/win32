@@ -1,8 +1,11 @@
 ---
 title: IImnEnumAccounts GetCount method
 description: Determines the number of accounts in the enumeration.
-ms.assetid: '0fc577fd-f2a8-4600-b391-f55059e1b31e'
-keywords: ["GetCount method Windows Mail (formerly Outlook Express)", "GetCount method Windows Mail (formerly Outlook Express) , IImnEnumAccounts interface", "IImnEnumAccounts interface Windows Mail (formerly Outlook Express) , GetCount method"]
+ms.assetid: 0fc577fd-f2a8-4600-b391-f55059e1b31e
+keywords:
+- GetCount method Windows Mail (formerly Outlook Express)
+- GetCount method Windows Mail (formerly Outlook Express) , IImnEnumAccounts interface
+- IImnEnumAccounts interface Windows Mail (formerly Outlook Express) , GetCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnEnumAccounts::GetCount method
@@ -24,7 +32,7 @@ Determines the number of accounts in the enumeration.
 
 ```C++
 HRESULT GetCount(
-  [out] ULONG *pcItems
+  [out] ULONG *pcItems
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,8 +80,8 @@ This method always returns the total number of accounts, not the number of remai
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -81,9 +89,9 @@ This method always returns the total number of accounts, not the number of remai
 
 
 
- 
+ 
 
- 
+ 
 
 
 

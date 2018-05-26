@@ -1,8 +1,16 @@
 ---
 title: Boot Configuration Data WMI Provider
 description: The Boot Configuration Data (BCD) WMI provider provides a store that is used to describe boot applications and boot application settings.
-ms.assetid: '3a0267d2-2779-45cb-82f2-e94ab758251b'
-keywords: ["Boot Configuration Data WMI Provider Boot Config", "Boot Configuration Data WMI Provider Boot Config , home page", "BCD WMI Provider Boot Config See Boot Configuration Data WMI Provider"]
+ms.assetid: 3a0267d2-2779-45cb-82f2-e94ab758251b
+keywords:
+- Boot Configuration Data WMI Provider Boot Config
+- Boot Configuration Data WMI Provider Boot Config , home page
+- BCD WMI Provider Boot Config See Boot Configuration Data WMI Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Boot Configuration Data WMI Provider

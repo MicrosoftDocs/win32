@@ -1,8 +1,19 @@
 ---
 title: Trackbars Section
 description: Trackbars Section
-ms.assetid: 'b336a034-12ad-480e-8ec8-9c6d2bd9196f'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "creating skins,Trackbars section", "writing code for skins,Trackbars section", "trackbars in skins,Trackbars section", "skin definition files,Trackbars section"]
+ms.assetid: b336a034-12ad-480e-8ec8-9c6d2bd9196f
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- creating skins,Trackbars section
+- writing code for skins,Trackbars section
+- trackbars in skins,Trackbars section
+- skin definition files,Trackbars section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbars Section

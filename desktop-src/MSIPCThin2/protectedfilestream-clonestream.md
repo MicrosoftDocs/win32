@@ -4,11 +4,14 @@ description: Creates a new instance of ProtectedFileStream over the protected fi
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.ProtectedFileStream.CloneStream'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.ProtectedFileStream.CloneStream
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CloneStream method", "CloneStream method, ProtectedFileStream class", "ProtectedFileStream class, CloneStream method"]
+keywords:
+- CloneStream method
+- CloneStream method, ProtectedFileStream class
+- ProtectedFileStream class, CloneStream method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.CloneStream method
@@ -64,9 +70,9 @@ A [**ProtectedFileStream**](protectedfilestream.md) object that represents the n
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

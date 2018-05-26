@@ -1,7 +1,12 @@
 ---
 title: case (sm4 - asm)
 description: A label in a switch instruction.
-ms.assetid: '456BB918-327E-4E15-8D38-F53850CAF666'
+ms.assetid: 456BB918-327E-4E15-8D38-F53850CAF666
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # case (sm4 - asm)

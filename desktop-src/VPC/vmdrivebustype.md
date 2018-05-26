@@ -1,8 +1,9 @@
 ---
 title: VMDriveBusType enumeration
 description: Specifies the type of bus.
-ms.assetid: '7e0926f3-8218-49c9-8d3a-27214c111a77'
-keywords: ["VMDriveBusType enumeration Virtual PC"]
+ms.assetid: 7e0926f3-8218-49c9-8d3a-27214c111a77
+keywords:
+- VMDriveBusType enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMDriveBusType enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the type of bus.
 
@@ -24,9 +30,9 @@ Specifies the type of bus.
 
 ```C++
 typedef enum  { 
-  vmDriveBusType_Invalid  = -1,
-  vmDriveBusType_IDE      = 0,
-  vmDriveBusType_SCSI     = 1
+  vmDriveBusType_Invalid  = -1,
+  vmDriveBusType_IDE      = 0,
+  vmDriveBusType_SCSI     = 1
 } VMDriveBusType;
 ```
 
@@ -63,17 +69,17 @@ SCSI bus type.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

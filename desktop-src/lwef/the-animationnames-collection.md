@@ -1,7 +1,12 @@
 ---
 title: The AnimationNames Collection
 description: The AnimationNames Collection
-ms.assetid: '3b06e497-1d03-43be-8d33-e69ef2972237'
+ms.assetid: 3b06e497-1d03-43be-8d33-e69ef2972237
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The AnimationNames Collection

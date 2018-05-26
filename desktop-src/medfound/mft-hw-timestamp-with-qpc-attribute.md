@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a hardware device source uses the system time for time stamps.'
-ms.assetid: '54cdfa13-955a-4e92-b337-f645d526a1b8'
-title: 'MFT\_HW\_TIMESTAMP\_WITH\_QPC\_Attribute attribute'
+---
+Description: Specifies whether a hardware device source uses the system time for time stamps.
+ms.assetid: 54cdfa13-955a-4e92-b337-f645d526a1b8
+title: MFT\_HW\_TIMESTAMP\_WITH\_QPC\_Attribute attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_HW\_TIMESTAMP\_WITH\_QPC\_Attribute attribute
@@ -14,9 +19,9 @@ Specifies whether a hardware device source uses the system time for time stamps.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 

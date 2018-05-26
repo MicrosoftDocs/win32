@@ -1,14 +1,20 @@
 ---
 title: SmartCard (CredentialsSourceParameters) Element
 description: Indicates that EAP-TLS should read the certificate from the Smart Card.
-ms.assetid: '0755b0bf-520a-4ae6-a8fc-2f69ae12b066'
-keywords: ["SmartCard element EAPHost"]
+ms.assetid: 0755b0bf-520a-4ae6-a8fc-2f69ae12b066
+keywords:
+- SmartCard element EAPHost
 topic_type:
 - apiref
 api_name:
 - SmartCard
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SmartCard (CredentialsSourceParameters) Element
@@ -33,8 +39,8 @@ The [**CertificateStore**](eaptlsconnectionpropertiesv1schema-certificatestore-c
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ The [**CertificateStore**](eaptlsconnectionpropertiesv1schema-certificatestore-c
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

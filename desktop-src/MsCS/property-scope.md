@@ -4,11 +4,16 @@ description: Given an object with a particular property, the scope of the proper
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '091df17c-c356-4b7c-a796-1424c73dc3d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 091df17c-c356-4b7c-a796-1424c73dc3d2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property scope Failover Cluster", "properties Failover Cluster ,scope"]
+keywords:
+- property scope Failover Cluster
+- properties Failover Cluster ,scope
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Scope

@@ -1,8 +1,9 @@
 ---
 title: MpThreatEnumerate function
 description: Returns information about the next threat in the enumeration list. This function can be called repeatedly until the enumeration of all the threats is complete.
-ms.assetid: '33244F4F-4FB7-4FA7-BC56-B9A30ABC3644'
-keywords: ["MpThreatEnumerate function Legacy Windows Environment Features"]
+ms.assetid: 33244F4F-4FB7-4FA7-BC56-B9A30ABC3644
+keywords:
+- MpThreatEnumerate function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpThreatEnumerate function
@@ -22,8 +28,8 @@ Returns information about the next threat in the enumeration list. This function
 
 ```C++
 HRESULT WINAPI MpThreatEnumerate(
-  _In_  MPHANDLE       hThreatEnumHandle,
-  _Out_ PMPTHREAT_INFO *ppThreatInfo
+  _In_  MPHANDLE       hThreatEnumHandle,
+  _Out_ PMPTHREAT_INFO *ppThreatInfo
 );
 ```
 
@@ -67,8 +73,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -87,9 +93,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPTHREAT\_INFO**](mpthreat-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

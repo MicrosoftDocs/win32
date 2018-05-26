@@ -4,17 +4,22 @@ description: Provides the AutoMetric of the network in the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3961413d-7d87-42c1-ade2-64ffb8324eb3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3961413d-7d87-42c1-ade2-64ffb8324eb3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AutoMetric Failover Cluster ,for networks", "AutoMetric Failover Cluster"]
+keywords:
+- AutoMetric Failover Cluster ,for networks
+- AutoMetric Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AutoMetric
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AutoMetric
@@ -27,14 +32,14 @@ Provides the **AutoMetric** of the [network](networks.md) in the [*cluster*](c-g
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 1<br/>                                         |
 | Default<br/>   | 1<br/>                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +68,7 @@ AutoMetricValue.dw        = AutoMetricData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -74,15 +79,15 @@ AutoMetricValue.dw        = AutoMetricData;
 [Network Common Properties](common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**Metric**](networks-metric.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the PKEYs associated with the WSD Provider.'
-ms.assetid: '7b0dfbc5-9295-4658-8ca9-0bda88f562c0'
+Description: Defines the PKEYs associated with the WSD Provider.
+ms.assetid: 7b0dfbc5-9295-4658-8ca9-0bda88f562c0
 title: WSD Provider PKEYs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSD Provider PKEYs
@@ -120,8 +125,8 @@ Not used. PROVARIANT type VT\_LPWSTR or VT\_VECTOR \| VT\_LPWSTR.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h</dt> </dl> |
 
 
@@ -136,9 +141,9 @@ Not used. PROVARIANT type VT\_LPWSTR or VT\_VECTOR \| VT\_LPWSTR.
 [WSD Provider](wsd-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

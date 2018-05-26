@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts the specified attribute data to XML format.'
-ms.assetid: '7a75726d-f1ec-4137-89c1-eccb4a78fc22'
+---
+Description: Converts the specified attribute data to XML format.
+ms.assetid: 7a75726d-f1ec-4137-89c1-eccb4a78fc22
 title: SdbFormatAttribute function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbFormatAttribute function

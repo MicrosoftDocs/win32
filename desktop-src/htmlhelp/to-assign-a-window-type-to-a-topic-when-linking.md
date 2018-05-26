@@ -1,7 +1,12 @@
 ---
 title: To assign a window type to a topic when linking
 description: To assign a window type to a topic when linking
-ms.assetid: 'C640549D-C058-467c-9B0D-FD1C8A43076A'
+ms.assetid: C640549D-C058-467c-9B0D-FD1C8A43076A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To assign a window type to a topic when linking
@@ -15,7 +20,7 @@ ms.assetid: 'C640549D-C058-467c-9B0D-FD1C8A43076A'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **Related Topics**, and then, if you have already used the HTML Help ActiveX control in this file, enter an ID name for this instance of the control.
 4.  Click **Next**, and then, because you most likely do not want a button associated with the link text, click **Hidden** to specify that you will be scripting this use of the HTML Help ActiveX control.
@@ -45,9 +50,9 @@ ms.assetid: 'C640549D-C058-467c-9B0D-FD1C8A43076A'
 [About Creating Help Windows](create-help-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

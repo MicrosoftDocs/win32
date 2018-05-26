@@ -1,8 +1,17 @@
 ---
 title: Creating the Art
 description: Creating the Art
-ms.assetid: '326483d5-faae-439b-8519-61f2f502c950'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "creating skins,art", "art files for skins,creating"]
+ms.assetid: 326483d5-faae-439b-8519-61f2f502c950
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- creating skins,art
+- art files for skins,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Art

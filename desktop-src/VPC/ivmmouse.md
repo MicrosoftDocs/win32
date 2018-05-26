@@ -1,8 +1,10 @@
 ---
 title: IVMMouse interface
 description: Controls the mouse device within a VM.
-ms.assetid: '13bbf980-aafd-4c63-b1cb-60f00b738d1f'
-keywords: ["IVMMouse interface Virtual PC", "IVMMouse interface Virtual PC , described"]
+ms.assetid: 13bbf980-aafd-4c63-b1cb-60f00b738d1f
+keywords:
+- IVMMouse interface Virtual PC
+- IVMMouse interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Controls the mouse device within a virtual machine (VM). The **IVMMouse** for a virtual machine can be retrieved using the [**IVMVirtualMachine::Mouse**](ivmvirtualmachine-mouse.md) property. Coordinates for the mouse device can be represented either in absolute coordinates or in delta coordinates. Use the [**UsingAbsoluteCoordinates**](ivmmouse-usingabsolutecoordinates.md) property to distinguish between the two methods of coordinate representation. Note that retrieving the current cursor position and the use of absolute coordinates are only supported if the guest operating system has the integration components installed.
 
@@ -40,7 +47,7 @@ The **IVMMouse** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +64,7 @@ The **IVMMouse** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,18 +72,18 @@ The **IVMMouse** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMmouse is defined as ac903f6d-6346-4f29-8875-5d511a13895e<br/>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Network.getProxySettings method
 description: The getProxySettings method retrieves the proxy setting for a given protocol.
-ms.assetid: '103e0d53-943d-4aba-9db1-20cdc1d75d52'
-keywords: ["getProxySettings method Windows Media Player", "getProxySettings method Windows Media Player , Network class", "Network class Windows Media Player , getProxySettings method"]
+ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
+keywords:
+- getProxySettings method Windows Media Player
+- getProxySettings method Windows Media Player , Network class
+- Network class Windows Media Player , getProxySettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.getProxySettings method
@@ -54,7 +62,7 @@ This method returns a **Number** (**long**) containing one of the following valu
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -116,9 +124,9 @@ case 3:
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

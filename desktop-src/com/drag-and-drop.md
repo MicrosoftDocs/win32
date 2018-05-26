@@ -1,7 +1,12 @@
 ---
 title: Drag and Drop
 description: Drag and drop refers to data transfers in which a mouse or other pointing device is used to specify both the data source and its destination.
-ms.assetid: 'bba0ddf8-fcf9-4827-bf85-7ac597d33b4b'
+ms.assetid: bba0ddf8-fcf9-4827-bf85-7ac597d33b4b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drag and Drop
@@ -14,17 +19,17 @@ During an OLE drag and drop operation, the following three separate pieces of co
 
 | Drag-and-drop code source                               | Implementation and use                                                                                                                                                                      |
 |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDropSource**](idropsource.md) interface<br/> | Implemented by the object containing the dragged data, referred to as the *drag source*.<br/>                                                                                         |
-| [**IDropTarget**](idroptarget.md) interface<br/> | Implemented by the object that is intended to accept the drop, referred to as the *drop target*.<br/>                                                                                 |
-| [**DoDragDrop**](dodragdrop.md) function<br/>    | Implemented by OLE and used to initiate a drag and drop operation. After the operation is in progress, it facilitates communication between the drag source and the drop target.<br/> |
+| [**IDropSource**](/windows/win32/OleIdl/nn-oleidl-idropsource?branch=master) interface<br/> | Implemented by the object containing the dragged data, referred to as the *drag source*.<br/>                                                                                         |
+| [**IDropTarget**](/windows/win32/OleIdl/nn-oleidl-idroptarget?branch=master) interface<br/> | Implemented by the object that is intended to accept the drop, referred to as the *drop target*.<br/>                                                                                 |
+| [**DoDragDrop**](/windows/win32/Ole2/nf-ole2-dodragdrop?branch=master) function<br/>    | Implemented by OLE and used to initiate a drag and drop operation. After the operation is in progress, it facilitates communication between the drag source and the drop target.<br/> |
 
 
 
- 
+ 
 
-The [**IDropSource**](idropsource.md) and [**IDropTarget**](idroptarget.md) interfaces can be implemented in either a container or in an object application. The role of drag source or drop target is not limited to any one type of OLE application.
+The [**IDropSource**](/windows/win32/OleIdl/nn-oleidl-idropsource?branch=master) and [**IDropTarget**](/windows/win32/OleIdl/nn-oleidl-idroptarget?branch=master) interfaces can be implemented in either a container or in an object application. The role of drag source or drop target is not limited to any one type of OLE application.
 
-The OLE function [**DoDragDrop**](dodragdrop.md) implements a loop that tracks mouse and keyboard movement until such time as the drag is canceled or a drop occurs. **DoDragDrop** is the key function in the drag and drop process, facilitating communication between the drag source and drop target.
+The OLE function [**DoDragDrop**](/windows/win32/Ole2/nf-ole2-dodragdrop?branch=master) implements a loop that tracks mouse and keyboard movement until such time as the drag is canceled or a drop occurs. **DoDragDrop** is the key function in the drag and drop process, facilitating communication between the drag source and drop target.
 
 During a drag and drop operation, three types of feedback can be displayed to the user.
 
@@ -38,7 +43,7 @@ During a drag and drop operation, three types of feedback can be displayed to th
 
 
 
- 
+ 
 
 For more information, see [Drag Source Responsibilities](drag-source-responsibilities.md).
 
@@ -49,9 +54,9 @@ For more information, see [Drag Source Responsibilities](drag-source-responsibil
 [Data Transfer](data-transfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

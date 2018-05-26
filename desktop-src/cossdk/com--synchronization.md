@@ -1,7 +1,12 @@
 ---
 Description: COM+ Synchronization
-ms.assetid: 'a348959a-fa23-495c-ba1c-85bc3ae92396'
+ms.assetid: a348959a-fa23-495c-ba1c-85bc3ae92396
 title: COM+ Synchronization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Synchronization
@@ -19,11 +24,11 @@ The topics described in the following table provide background and task informat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

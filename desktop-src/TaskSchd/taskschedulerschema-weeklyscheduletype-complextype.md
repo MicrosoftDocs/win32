@@ -1,14 +1,20 @@
 ---
 title: weeklyScheduleType Complex Type
 description: Defines the child elements and sequencing information for the ScheduleByWeek element.
-ms.assetid: '048832fa-2262-4461-9cfc-823a4eb7a1df'
-keywords: ["weeklyScheduleType complex type Task Scheduler"]
+ms.assetid: 048832fa-2262-4461-9cfc-823a4eb7a1df
+keywords:
+- weeklyScheduleType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - weeklyScheduleType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # weeklyScheduleType Complex Type
@@ -59,8 +65,8 @@ Defines the child elements and sequencing information for the [**ScheduleByWeek*
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -71,9 +77,9 @@ Defines the child elements and sequencing information for the [**ScheduleByWeek*
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

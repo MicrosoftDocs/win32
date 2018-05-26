@@ -1,8 +1,20 @@
 ---
 title: Color Palettes
 description: Color Palettes
-ms.assetid: '3054a846-5830-4923-a546-0575a06c4530'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,color palettes", "Windows Media Player Mobile skins,color palettes", "skins,color palettes", "color palettes for skins"]
+ms.assetid: 3054a846-5830-4923-a546-0575a06c4530
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,color palettes
+- Windows Media Player Mobile skins,color palettes
+- skins,color palettes
+- color palettes for skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Palettes

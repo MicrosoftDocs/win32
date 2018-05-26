@@ -4,10 +4,13 @@ description: Describes the use of windows installer for deployment.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '39e54e73-7ef3-4519-a174-ce6b68558318'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 39e54e73-7ef3-4519-a174-ce6b68558318
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Windows Installer

@@ -1,7 +1,12 @@
 ---
 title: Programmability Interfaces
 description: Embeddable objects, including ActiveX controls, often require access to the programmability interfaces of their containers.
-ms.assetid: '15377f73-e55d-4d29-9c99-fa3a31a56b13'
+ms.assetid: 15377f73-e55d-4d29-9c99-fa3a31a56b13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programmability Interfaces
@@ -21,7 +26,7 @@ The following sections describe the standards for exposing the programmability i
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ The following sections describe the standards for exposing the programmability i
 [Standard Objects and Naming Guidelines for Automation](standard-objects-and-naming-guidelines.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

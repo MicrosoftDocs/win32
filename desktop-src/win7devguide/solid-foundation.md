@@ -1,7 +1,12 @@
 ---
 title: Solid Foundation
 description: Windows 7 provides a highly productive developer platform and tools that deliver on core operating system fundamentals.
-ms.assetid: '2ca82ec9-639d-4122-b9ce-b1d5b397f880'
+ms.assetid: 2ca82ec9-639d-4122-b9ce-b1d5b397f880
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solid Foundation

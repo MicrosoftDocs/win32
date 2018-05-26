@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a binary object and adds it as a child object. Deprecated.'
-ms.assetid: '6164951d-dd87-4318-ac08-b97c22f58d45'
-title: 'IDirectXFileData::AddBinaryObject method'
+---
+Description: Creates a binary object and adds it as a child object. Deprecated.
+ms.assetid: 6164951d-dd87-4318-ac08-b97c22f58d45
+title: IDirectXFileDataAddBinaryObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileData::AddBinaryObject method

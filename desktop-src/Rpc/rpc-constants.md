@@ -1,8 +1,14 @@
 ---
 title: RPC Constants
 description: Navigation page for Remote Procedure Call (RPC) constants.
-ms.assetid: 'bd851224-3c68-4699-ad52-452caa80f309'
-keywords: ["Remote Procedure Call RPC , reference, constants"]
+ms.assetid: bd851224-3c68-4699-ad52-452caa80f309
+keywords:
+- Remote Procedure Call RPC , reference, constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Constants

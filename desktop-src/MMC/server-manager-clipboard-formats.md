@@ -4,10 +4,13 @@ description: The following table lists the clipboard formats that are supported 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d6e5f02-8dcb-4976-a613-41a650f8a2aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4d6e5f02-8dcb-4976-a613-41a650f8a2aa
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server Manager Clipboard Formats

@@ -4,17 +4,22 @@ description: Indicates whether a password is required for the account that this 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '86779c6f-d05c-409a-afe4-99ebf7c0593e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 86779c6f-d05c-409a-afe4-99ebf7c0593e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-User-Password-Not-Required attribute AD Schema", "ms-DS-UserPasswordNotRequired attribute AD Schema"]
+keywords:
+- ms-DS-User-Password-Not-Required attribute AD Schema
+- ms-DS-UserPasswordNotRequired attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-User-Password-Not-Required
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-User-Password-Not-Required attribute
@@ -65,9 +70,9 @@ Indicates whether a password is required for the account that this attribute ref
 
 In ADAM, this attribute replaces the [**ADS\_UF\_PASSWD\_NOTREQD**](https://msdn.microsoft.com/library/aa772300) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
- 
+ 
 
- 
+ 
 
 
 

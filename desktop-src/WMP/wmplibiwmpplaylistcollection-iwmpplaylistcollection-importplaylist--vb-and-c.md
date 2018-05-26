@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistCollection importPlaylist method
 description: The importPlaylist method adds a static playlist to the library.
-ms.assetid: '7a64e618-920d-419d-8769-612ab5dff49b'
-keywords: ["importPlaylist method Windows Media Player", "importPlaylist method Windows Media Player , IWMPPlaylistCollection interface", "IWMPPlaylistCollection interface Windows Media Player , importPlaylist method"]
+ms.assetid: 7a64e618-920d-419d-8769-612ab5dff49b
+keywords:
+- importPlaylist method Windows Media Player
+- importPlaylist method Windows Media Player , IWMPPlaylistCollection interface
+- IWMPPlaylistCollection interface Windows Media Player , importPlaylist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistCollection::importPlaylist method
@@ -106,9 +114,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPPlaylistCollection.newPlaylist (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-newplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

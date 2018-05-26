@@ -1,8 +1,19 @@
 ---
 title: Porting Spheres
 description: When porting spheres to OpenGL, keep the following points in mind
-ms.assetid: 'ca6bb515-076d-45fc-bcdd-3d71877560fb'
-keywords: ["IRIS GL porting,spheres", "porting from IRIS GL,spheres", "porting to OpenGL from IRIS GL,spheres", "OpenGL porting from IRIS GL,spheres", "drawing functions,spheres", "spheres"]
+ms.assetid: ca6bb515-076d-45fc-bcdd-3d71877560fb
+keywords:
+- IRIS GL porting,spheres
+- porting from IRIS GL,spheres
+- porting to OpenGL from IRIS GL,spheres
+- OpenGL porting from IRIS GL,spheres
+- drawing functions,spheres
+- spheres
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Spheres

@@ -1,14 +1,20 @@
 ---
 title: mark
 description: Displays mark and mark-flush options.
-ms.assetid: 'a5f9046f-41e8-47a7-8f2b-830b14d154e4'
-keywords: ["mark Windows Performance Analyzer"]
+ms.assetid: a5f9046f-41e8-47a7-8f2b-830b14d154e4
+keywords:
+- mark Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - mark
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mark

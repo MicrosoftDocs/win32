@@ -1,14 +1,22 @@
 ---
 title: Storage.onGetChildrenByFormatComplete event
 description: The onGetChildrenByFormatComplete event occurs, and a callback handler is invoked, when a Storage.GetChildrenByFormat method operation has completed.
-ms.assetid: '8cf8d353-6de2-4107-9b9d-c62e7da2a2fe'
-keywords: ["onGetChildrenByFormatComplete event WPD Automation", "onGetChildrenByFormatComplete event WPD Automation , Storage object", "Storage object WPD Automation , onGetChildrenByFormatComplete event"]
+ms.assetid: 8cf8d353-6de2-4107-9b9d-c62e7da2a2fe
+keywords:
+- onGetChildrenByFormatComplete event WPD Automation
+- onGetChildrenByFormatComplete event WPD Automation , Storage object
+- Storage object WPD Automation , onGetChildrenByFormatComplete event
 topic_type:
 - apiref
 api_name:
 - Storage.onGetChildrenByFormatComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.onGetChildrenByFormatComplete event
@@ -79,8 +87,8 @@ Storage.onGetChildrenByFormatComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -97,9 +105,9 @@ Storage.onGetChildrenByFormatComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

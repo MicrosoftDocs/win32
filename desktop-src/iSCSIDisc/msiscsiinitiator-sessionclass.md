@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MSIscsiInitiator\_SessionClass structure describes the characteristics of a session and provides methods that allow the creation and management of connections within the session established by the Initiator.'
-ms.assetid: '6f116e76-7c62-46ba-bb8f-ea23e1d8fa87'
-title: 'MSIscsiInitiator\_SessionClass class'
+---
+Description: The MSIscsiInitiator\_SessionClass structure describes the characteristics of a session and provides methods that allow the creation and management of connections within the session established by the Initiator.
+ms.assetid: 6f116e76-7c62-46ba-bb8f-ea23e1d8fa87
+title: MSIscsiInitiator\_SessionClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_SessionClass class

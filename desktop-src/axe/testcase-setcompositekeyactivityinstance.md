@@ -1,8 +1,11 @@
 ---
 title: TestCase SetCompositeKeyActivityInstance method
 description: Sets the composite key activity instance of the TestCase.
-ms.assetid: '8D703D5E-A7B1-4B64-9A0B-51F1CA449972'
-keywords: ["SetCompositeKeyActivityInstance method Access Execution Engine", "SetCompositeKeyActivityInstance method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , SetCompositeKeyActivityInstance method"]
+ms.assetid: 8D703D5E-A7B1-4B64-9A0B-51F1CA449972
+keywords:
+- SetCompositeKeyActivityInstance method Access Execution Engine
+- SetCompositeKeyActivityInstance method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , SetCompositeKeyActivityInstance method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::SetCompositeKeyActivityInstance method
@@ -22,7 +30,7 @@ Sets the composite key activity instance of the **TestCase.**
 
 ```C++
 virtual HRESULT SetCompositeKeyActivityInstance(
-  [in] LPCWSTR compositeKeyActivityInstance
+  [in] LPCWSTR compositeKeyActivityInstance
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ This method is deprecated.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ This method is deprecated.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

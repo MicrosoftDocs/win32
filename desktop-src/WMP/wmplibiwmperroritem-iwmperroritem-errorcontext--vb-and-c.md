@@ -1,8 +1,11 @@
 ---
 title: IWMPErrorItem errorContext property
 description: The errorContext property gets a value indicating the context of the error.
-ms.assetid: 'e9ebd636-e611-49c6-9533-a02ff74db7bc'
-keywords: ["errorContext property Windows Media Player", "errorContext property Windows Media Player , IWMPErrorItem interface", "IWMPErrorItem interface Windows Media Player , errorContext property"]
+ms.assetid: e9ebd636-e611-49c6-9533-a02ff74db7bc
+keywords:
+- errorContext property Windows Media Player
+- errorContext property Windows Media Player , IWMPErrorItem interface
+- IWMPErrorItem interface Windows Media Player , errorContext property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem::errorContext property
@@ -71,9 +79,9 @@ The error context is information that is used by Microsoft to provide additional
 [**IWMPErrorItem Interface (VB and C#)**](iwmperroritem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

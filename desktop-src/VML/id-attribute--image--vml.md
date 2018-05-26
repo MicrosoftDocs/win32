@@ -1,7 +1,12 @@
 ---
 title: ID Attribute (Image)(VML)
 description: ID Attribute (Image)(VML)
-ms.assetid: 'd85a6d56-5896-4ac0-85c7-0edc72928c62'
+ms.assetid: d85a6d56-5896-4ac0-85c7-0edc72928c62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID Attribute (Image)(VML)

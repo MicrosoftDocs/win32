@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to represent Windows Live ID user domains in the trust policy of an enterprise.'
+Description: Can be used to represent Windows Live ID user domains in the trust policy of an enterprise.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '6e445049-062e-4820-bab1-b6148521d114'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 6e445049-062e-4820-bab1-b6148521d114
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: OnlineTrustedServiceUserDomain object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # OnlineTrustedServiceUserDomain object
@@ -17,7 +20,7 @@ The **OnlineTrustedServiceUserDomain** object can be used to represent Windows L
 > [!Note]  
 > You must specify proxy server settings by using the [**ProxySettings**](proxysettings-object.md) object before enabling a Windows Live ID domain.
 
- 
+ 
 
 ## Members
 
@@ -41,7 +44,7 @@ The **OnlineTrustedServiceUserDomain** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -141,7 +144,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -153,9 +156,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

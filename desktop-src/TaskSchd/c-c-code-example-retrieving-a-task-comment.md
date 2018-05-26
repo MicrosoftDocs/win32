@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving a Task Comment
 description: This example retrieves the comment string of a known task and displays the comment string on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'f6f558d8-2e34-4314-9583-f815921aac7e'
-keywords: ["retrieving task comment Task Scheduler", "retrieving work item properties Task Scheduler , task comment"]
+ms.assetid: f6f558d8-2e34-4314-9583-f815921aac7e
+keywords:
+- retrieving task comment Task Scheduler
+- retrieving work item properties Task Scheduler , task comment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving a Task Comment

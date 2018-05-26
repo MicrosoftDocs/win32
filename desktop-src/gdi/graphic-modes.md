@@ -1,7 +1,12 @@
 ---
-Description: 'Windows supports five graphic modes that allow an application to specify how colors are mixed, where output appears, how the output is scaled, and so on. These modes, which are stored in a DC, are described in the following table.'
-ms.assetid: '061af47e-fd49-4eb4-9b1b-03eb9c841622'
+Description: Windows supports five graphic modes that allow an application to specify how colors are mixed, where output appears, how the output is scaled, and so on. These modes, which are stored in a DC, are described in the following table.
+ms.assetid: 061af47e-fd49-4eb4-9b1b-03eb9c841622
 title: Graphic Modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphic Modes
@@ -28,11 +33,11 @@ As it does with graphic objects, the system initializes a DC with default graphi
 
 | Graphics mode | Function                                       |
 |---------------|------------------------------------------------|
-| Background    | [**GetBkMode**](getbkmode.md)                 |
-| Drawing       | [**GetROP2**](getrop2.md)                     |
-| Mapping       | [**GetMapMode**](getmapmode.md)               |
-| Polygon-fill  | [**GetPolyFillMode**](getpolyfillmode.md)     |
-| Stretching    | [**GetStretchBltMode**](getstretchbltmode.md) |
+| Background    | [**GetBkMode**](/windows/win32/Wingdi/nf-wingdi-getbkmode?branch=master)                 |
+| Drawing       | [**GetROP2**](/windows/win32/Wingdi/nf-wingdi-getrop2?branch=master)                     |
+| Mapping       | [**GetMapMode**](/windows/win32/Wingdi/nf-wingdi-getmapmode?branch=master)               |
+| Polygon-fill  | [**GetPolyFillMode**](/windows/win32/Wingdi/nf-wingdi-getpolyfillmode?branch=master)     |
+| Stretching    | [**GetStretchBltMode**](/windows/win32/Wingdi/nf-wingdi-getstretchbltmode?branch=master) |
 
 
 
@@ -44,11 +49,11 @@ An application can change the default modes by calling one of the following func
 
 | Graphics mode | Function                                       |
 |---------------|------------------------------------------------|
-| Background    | [**SetBkMode**](setbkmode.md)                 |
-| Drawing       | [**SetROP2**](setrop2.md)                     |
-| Mapping       | [**SetMapMode**](setmapmode.md)               |
-| Polygon-fill  | [**SetPolyFillMode**](setpolyfillmode.md)     |
-| Stretching    | [**SetStretchBltMode**](setstretchbltmode.md) |
+| Background    | [**SetBkMode**](/windows/win32/Wingdi/nf-wingdi-setbkmode?branch=master)                 |
+| Drawing       | [**SetROP2**](/windows/win32/Wingdi/nf-wingdi-setrop2?branch=master)                     |
+| Mapping       | [**SetMapMode**](/windows/win32/Wingdi/nf-wingdi-setmapmode?branch=master)               |
+| Polygon-fill  | [**SetPolyFillMode**](/windows/win32/Wingdi/nf-wingdi-setpolyfillmode?branch=master)     |
+| Stretching    | [**SetStretchBltMode**](/windows/win32/Wingdi/nf-wingdi-setstretchbltmode?branch=master) |
 
 
 

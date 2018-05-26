@@ -4,13 +4,18 @@ description: The Network Load Balancing Provider is defined in WlbsProv.mof.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ae8c95f6-23b4-4cf9-830c-28b4f8cd635f'
-ms.prod: 'windows-server-dev'
+ms.assetid: ae8c95f6-23b4-4cf9-830c-28b4f8cd635f
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Network Load Balancing Provider Failover Cluster ,reference", "Windows Clustering Failover Cluster ,Network Load Balancing Provider,reference"]
+keywords:
+- Network Load Balancing Provider Failover Cluster ,reference
+- Windows Clustering Failover Cluster ,Network Load Balancing Provider,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Load Balancing Provider Reference
@@ -22,15 +27,15 @@ The Network Load Balancing [*Provider*](https://msdn.microsoft.com/library/aa371
 | Section                                                                                 | Contents                                                                                                                    |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [Network Load Balancing WMI Classes](network-load-balancing-wmi-classes.md)<br/> | WMI classes for Network Load Balancing, along with their methods and properties<br/>                                  |
-| [Standard Return Values](standard-return-values.md)<br/>                         | Describes Network Load Balancing–specific return values associated with certain class methods and thrown errors.<br/> |
+| [Standard Return Values](standard-return-values.md)<br/>                         | Describes Network Load Balancing specific return values associated with certain class methods and thrown errors.<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,18 @@
 ---
 title: Texture2D GatherGreen methods
 description: Samples a Texture2D and returns the green component.
-ms.assetid: '97e1fb52-75f4-4e73-93f1-98b7a5925efc'
-keywords: ["GatherGreen methods HLSL"]
+ms.assetid: 97e1fb52-75f4-4e73-93f1-98b7a5925efc
+keywords:
+- GatherGreen methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::GatherGreen methods
@@ -33,9 +39,9 @@ Samples a [**Texture2D**](sm5-object-texture2d.md) and returns the green compone
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

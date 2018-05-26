@@ -1,7 +1,12 @@
 ---
-Description: 'You can create outbound routing rules using C++ programs.'
-ms.assetid: '56dbd5e4-5c0b-4729-8f19-c03bb78a87c1'
-title: 'Creating Outbound Routing Rules (C++)'
+Description: You can create outbound routing rules using C++ programs.
+ms.assetid: 56dbd5e4-5c0b-4729-8f19-c03bb78a87c1
+title: Creating Outbound Routing Rules (C++)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Outbound Routing Rules (C++)

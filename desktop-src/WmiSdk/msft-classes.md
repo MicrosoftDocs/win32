@@ -1,13 +1,16 @@
 ---
-Description: 'MSFT classes are specific to the Windows implementation of the Common Information Model (CIM).'
+Description: MSFT classes are specific to the Windows implementation of the Common Information Model (CIM).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8173ba8f-81f2-4fb9-8c14-b021425d8ea0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8173ba8f-81f2-4fb9-8c14-b021425d8ea0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: MSFT Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT Classes

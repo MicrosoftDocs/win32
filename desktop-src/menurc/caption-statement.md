@@ -1,14 +1,20 @@
 ---
 title: CAPTION statement
-description: Defines the title for a dialog box. The title appears in the box's caption bar (if it has one).
-ms.assetid: '7713395f-4887-43a5-8a75-d2db6caf3984'
-keywords: ["CAPTION statement Menus and Other Resources"]
+description: Defines the title for a dialog box. The title appears in the boxs caption bar (if it has one).
+ms.assetid: 7713395f-4887-43a5-8a75-d2db6caf3984
+keywords:
+- CAPTION statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CAPTION
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPTION statement

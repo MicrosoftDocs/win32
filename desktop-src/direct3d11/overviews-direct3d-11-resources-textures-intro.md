@@ -1,7 +1,12 @@
 ---
 title: Introduction To Textures in Direct3D 11
 description: A texture resource is a structured collection of data designed to store texels.
-ms.assetid: 'd745093e-2d51-4d45-a88a-caa0ca58b2ba'
+ms.assetid: d745093e-2d51-4d45-a88a-caa0ca58b2ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction To Textures in Direct3D 11
@@ -21,7 +26,7 @@ There are several types of textures: 1D, 2D, 3D, each of which can be created wi
 
 ### 1D Textures
 
-A 1D texture in its simplest form contains texture data that can be addressed with a single texture coordinate; it can be visualized as an array of texels, as shown in the following illustration. 1D textures are represented by the [**ID3D11Texture1D**](id3d11texture1d.md) interface.
+A 1D texture in its simplest form contains texture data that can be addressed with a single texture coordinate; it can be visualized as an array of texels, as shown in the following illustration. 1D textures are represented by the [**ID3D11Texture1D**](/windows/win32/D3D11/nn-d3d11-id3d11texture1d?branch=master) interface.
 
 ![illustration of a 1d texture](images/d3d10-1d-texture.png)
 
@@ -33,7 +38,7 @@ A mipmap level is a texture that is a power-of-two smaller than the level above 
 
 ### 1D Texture Arrays
 
-Direct3D 11 also supports arrays of textures. A 1D texture array is also represented by the [**ID3D11Texture1D**](id3d11texture1d.md) interface. An array of 1D textures looks conceptually like the following illustration.
+Direct3D 11 also supports arrays of textures. A 1D texture array is also represented by the [**ID3D11Texture1D**](/windows/win32/D3D11/nn-d3d11-id3d11texture1d?branch=master) interface. An array of 1D textures looks conceptually like the following illustration.
 
 ![illustration of an array of 1d textures](images/d3d10-resource-texture1darray.png)
 
@@ -43,13 +48,13 @@ All texture arrays in Direct3D are a homogeneous array of textures; this means t
 
 ### 2D Textures and 2D Texture Arrays
 
-A Texture2D resource contains a 2D grid of texels. Each texel is addressable by a u, v vector. Since it is a texture resource, it may contain mipmap levels, and subresources. 2D textures are represented by the [**ID3D11Texture2D**](id3d11texture2d.md) interface. A fully populated 2D texture resource looks like the following illustration.
+A Texture2D resource contains a 2D grid of texels. Each texel is addressable by a u, v vector. Since it is a texture resource, it may contain mipmap levels, and subresources. 2D textures are represented by the [**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master) interface. A fully populated 2D texture resource looks like the following illustration.
 
 ![illustration of a 2d texture resource](images/d3d10-resource-texture2d.png)
 
 This texture resource contains a single 3x5 texture with three mipmap levels.
 
-A 2D texture array resource is a homogeneous array of 2D textures; that is, each texture has the same data format and dimensions (including mipmap levels). A 2D texture array is also represented by the [**ID3D11Texture2D**](id3d11texture2d.md) interface. It has a similar layout as the 1D texture array except that the textures now contain 2D data, as shown in the following illustration.
+A 2D texture array resource is a homogeneous array of 2D textures; that is, each texture has the same data format and dimensions (including mipmap levels). A 2D texture array is also represented by the [**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master) interface. It has a similar layout as the 1D texture array except that the textures now contain 2D data, as shown in the following illustration.
 
 ![illustration of an array of 2d textures](images/d3d10-resource-texture2darray.png)
 
@@ -70,7 +75,7 @@ A 2D texture array that contains 6 textures may be read from within shaders with
 
 ### 3D Textures
 
-A 3D texture resource (also known as a volume texture) contains a 3D volume of texels. Because it is a texture resource, it may contain mipmap levels. 3D textures are represented by the [**ID3D11Texture3D**](id3d11texture3d.md) interface. A fully populated 3D texture looks like the following illustration.
+A 3D texture resource (also known as a volume texture) contains a 3D volume of texels. Because it is a texture resource, it may contain mipmap levels. 3D textures are represented by the [**ID3D11Texture3D**](/windows/win32/D3D11/nn-d3d11-id3d11texture3d?branch=master) interface. A fully populated 3D texture looks like the following illustration.
 
 ![illustration of a 3d texture resource](images/d3d10-resource-texture3d.png)
 

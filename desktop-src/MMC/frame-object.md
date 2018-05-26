@@ -4,11 +4,13 @@ description: The Frame object encapsulates the frame (for the MMC main window) f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2040aaa9-5e09-4624-a8a4-66c4d449bcb2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2040aaa9-5e09-4624-a8a4-66c4d449bcb2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Frame Object object MMC", "Frame Object object MMC , described"]
+keywords:
+- Frame Object object MMC
+- Frame Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Frame Object object
@@ -44,7 +49,7 @@ The **Frame Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +66,7 @@ The **Frame Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,8 +74,8 @@ The **Frame Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -78,9 +83,9 @@ The **Frame Object** object has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

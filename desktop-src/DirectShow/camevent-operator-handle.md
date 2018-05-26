@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the event handle. This operator is not supported as an L-value.'
-ms.assetid: '9000d6d1-bbca-44ac-8808-0b3b827086c5'
-title: 'CAMEvent.operator HANDLE method'
+Description: Retrieves the event handle. This operator is not supported as an L-value.
+ms.assetid: 9000d6d1-bbca-44ac-8808-0b3b827086c5
+title: CAMEvent.operator HANDLE method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent.operator HANDLE method
@@ -43,9 +48,9 @@ Returns the [**CAMEvent::m\_hEvent**](camevent-m-hevent.md) member variable.
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

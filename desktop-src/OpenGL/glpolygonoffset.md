@@ -1,8 +1,9 @@
 ---
 title: glPolygonOffset function
 description: The glPolygonOffset function sets the scale and units OpenGL uses to calculate depth values.
-ms.assetid: '06bc1aba-1692-40f0-8535-2cb65b487490'
-keywords: ["glPolygonOffset function OpenGL"]
+ms.assetid: 06bc1aba-1692-40f0-8535-2cb65b487490
+keywords:
+- glPolygonOffset function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPolygonOffset function
@@ -22,8 +28,8 @@ The **glPolygonOffset** function sets the scale and units OpenGL uses to calcula
 
 ```C++
 void WINAPI glPolygonOffset(
-   GLfloat factor,
-   GLfloat units
+   GLfloat factor,
+   GLfloat units
 );
 ```
 
@@ -94,7 +100,7 @@ The following functions retrieve information related to **glPolygonOffset**:
 > [!Note]  
 > The **glPolygonOffset** function is only available in OpenGl version 1.1 or greater.
 
- 
+ 
 
 ## Requirements
 
@@ -102,8 +108,8 @@ The following functions retrieve information related to **glPolygonOffset**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -138,9 +144,9 @@ The following functions retrieve information related to **glPolygonOffset**:
 [**glTexEnv**](gltexenv-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

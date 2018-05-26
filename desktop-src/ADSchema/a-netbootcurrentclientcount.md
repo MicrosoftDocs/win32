@@ -4,17 +4,22 @@ description: The netboot-Current-Client-Count attribute is reserved for internal
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c9f088ff-e5f6-4a5e-b6c4-ab869a8ed67e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c9f088ff-e5f6-4a5e-b6c4-ab869a8ed67e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["netboot-Current-Client-Count attribute AD Schema", "netbootCurrentClientCount attribute AD Schema"]
+keywords:
+- netboot-Current-Client-Count attribute AD Schema
+- netbootCurrentClientCount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - netboot-Current-Client-Count
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # netboot-Current-Client-Count attribute
@@ -38,12 +43,12 @@ The **netboot-Current-Client-Count** attribute is reserved for internal use.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The **netboot-Current-Client-Count** attribute is reserved for internal use.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

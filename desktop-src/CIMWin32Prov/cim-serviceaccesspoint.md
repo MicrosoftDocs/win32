@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ServiceAccessPoint class represents the ability to use or invoke a service. Access points represent services that are available for use by other entities.'
+Description: The CIM\_ServiceAccessPoint class represents the ability to use or invoke a service. Access points represent services that are available for use by other entities.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'caf828a1-c9a7-4ae8-9734-d77e4ba90b09'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: caf828a1-c9a7-4ae8-9734-d77e4ba90b09
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ServiceAccessPoint class'
+title: CIM\_ServiceAccessPoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ServiceAccessPoint class
@@ -19,7 +22,7 @@ The **CIM\_ServiceAccessPoint** class represents the ability to use or invoke a 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,15 +32,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{F126ACC2-E3D4-11d2-8601-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_ServiceAccessPoint : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   Type;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   Type;
 };
 ```
 
@@ -346,8 +349,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -361,9 +364,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

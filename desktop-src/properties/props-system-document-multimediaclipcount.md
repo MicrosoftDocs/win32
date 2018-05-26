@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'bc9af024-19b0-4bd2-827a-a4ac9c05dc05'
-title: 'System.Document.MultimediaClipCount'
+Description: .
+ms.assetid: bc9af024-19b0-4bd2-827a-a4ac9c05dc05
+title: System.Document.MultimediaClipCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.MultimediaClipCount

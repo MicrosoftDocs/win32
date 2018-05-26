@@ -1,8 +1,22 @@
 ---
 title: Detailed Walkthrough
 description: Detailed Walkthrough
-ms.assetid: 'b736b027-2760-46f4-943f-055622da11e0'
-keywords: ["control tracing", "trace merging", "actions", "elevated command prompt", "administrative privileges", "run as administrator", "kernel tracing", "image loading", "disk I/O"]
+ms.assetid: b736b027-2760-46f4-943f-055622da11e0
+keywords:
+- control tracing
+- trace merging
+- actions
+- elevated command prompt
+- administrative privileges
+- run as administrator
+- kernel tracing
+- image loading
+- disk I/O
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detailed Walkthrough

@@ -1,8 +1,29 @@
 ---
 title: TreeItem Control Type
 description: This topic provides information about Microsoft UI Automation support for the TreeItem control type.
-ms.assetid: '03d8a2a7-0b9a-41f8-a9d3-cebba9c25c63'
-keywords: ["UI Automation,support for TreeItem control type", "UI Automation,TreeItem control type", "UI Automation,tree structure for TreeItem control type", "UI Automation,properties for TreeItem control type", "UI Automation,control patterns for TreeItem control type", "UI Automation,events for TreeItem control type", "tree structures,TreeItem control type", "properties,TreeItem control type", "control patterns,TreeItem control type", "events,TreeItem control type", "support for TreeItem control type", "TreeItem control type", "control types,tree structure for TreeItem control type", "control types,control patterns for TreeItem control type", "control types,support for TreeItem", "control types,TreeItem"]
+ms.assetid: 03d8a2a7-0b9a-41f8-a9d3-cebba9c25c63
+keywords:
+- UI Automation,support for TreeItem control type
+- UI Automation,TreeItem control type
+- UI Automation,tree structure for TreeItem control type
+- UI Automation,properties for TreeItem control type
+- UI Automation,control patterns for TreeItem control type
+- UI Automation,events for TreeItem control type
+- tree structures,TreeItem control type
+- properties,TreeItem control type
+- control patterns,TreeItem control type
+- events,TreeItem control type
+- support for TreeItem control type
+- TreeItem control type
+- control types,tree structure for TreeItem control type
+- control types,control patterns for TreeItem control type
+- control types,support for TreeItem
+- control types,TreeItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TreeItem Control Type
@@ -70,7 +91,7 @@ Collapsed tree items do not appear in the control view or content view until the
 
 The control view can contain additional details for a control, including an associated image or a button. For example, an item in an outline view might contain an image as well as a button to expand or collapse the outline. These detail objects do not appear in the content view because the information is already represented by the parent tree item.
 
-Tree items that are scrolled off the screen appear in both the control and content views of the UI Automation tree and should have the [**IUIAutomationElement::CurrentIsOffscreen**](uiauto-iuiautomationelement-currentisoffscreen.md) (or [**CachedIsOffscreen**](uiauto-iuiautomationelement-cachedisoffscreen.md)) property set to **TRUE**.
+Tree items that are scrolled off the screen appear in both the control and content views of the UI Automation tree and should have the [**IUIAutomationElement::CurrentIsOffscreen**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentisoffscreen?branch=master) (or [**CachedIsOffscreen**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedisoffscreen?branch=master)) property set to **TRUE**.
 
 ## Relevant Properties
 
@@ -106,12 +127,12 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                                  | Support/Value                     | Notes                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md)                 | Required                          | All tree items must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern because all items can be expanded or collapsed.                                           |
-| [**ExpandCollapseState**](uiauto-iexpandcollapseprovider-expandcollapsestate.md) | Expanded, Collapsed, or Leaf Node | Tree items are leaf nodes when they are not expanded or collapsed.                                                                                                                                |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)                                 | Depends                           | Implement the [Invoke](uiauto-implementinginvoke.md) control pattern if the tree item can perform a command.                                                                                     |
-| [**IScrollItemProvider**](uiauto-iscrollitemprovider.md)                         | Depends                           | Implement the [ScrollItem](uiauto-implementingscrollitem.md) control pattern if the tree container supports the [Scroll](uiauto-implementingscroll.md) control pattern.                         |
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md)                   | Depends                           | Implement the [SelectionItem](uiauto-implementingselectionitem.md) control pattern if it is possible to have an active selection that is maintained when the user returns to the tree container. |
-| [**SelectionContainer**](uiauto-iselectionitemprovider-selectioncontainer.md)    | Required                          | This property exposes the same container for all items within the container.                                                                                                                      |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master)                 | Required                          | All tree items must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern because all items can be expanded or collapsed.                                           |
+| [**ExpandCollapseState**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate?branch=master) | Expanded, Collapsed, or Leaf Node | Tree items are leaf nodes when they are not expanded or collapsed.                                                                                                                                |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)                                 | Depends                           | Implement the [Invoke](uiauto-implementinginvoke.md) control pattern if the tree item can perform a command.                                                                                     |
+| [**IScrollItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollitemprovider?branch=master)                         | Depends                           | Implement the [ScrollItem](uiauto-implementingscrollitem.md) control pattern if the tree container supports the [Scroll](uiauto-implementingscroll.md) control pattern.                         |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master)                   | Depends                           | Implement the [SelectionItem](uiauto-implementingselectionitem.md) control pattern if it is possible to have an active selection that is maintained when the user returns to the tree container. |
+| [**SelectionContainer**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer?branch=master)    | Required                          | This property exposes the same container for all items within the container.                                                                                                                      |
 
 
 

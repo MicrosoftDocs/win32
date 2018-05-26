@@ -1,8 +1,9 @@
 ---
 title: WM\_SYSCOMMAND message
 description: A window receives this message when the user chooses a command from the Window menu (formerly known as the system or control menu) or when the user chooses the maximize button, minimize button, restore button, or close button.
-ms.assetid: '82c7cc95-82d5-4f0f-8c78-ab325561b04e'
-keywords: ["WM_SYSCOMMAND message Menus and Other Resources"]
+ms.assetid: 82c7cc95-82d5-4f0f-8c78-ab325561b04e
+keywords:
+- WM_SYSCOMMAND message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SYSCOMMAND message
@@ -133,7 +139,7 @@ The type of system command requested. This parameter can be one of the following
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -142,7 +148,7 @@ The type of system command requested. This parameter can be one of the following
 
 The low-order word specifies the horizontal position of the cursor, in screen coordinates, if a window menu command is chosen with the mouse. Otherwise, this parameter is not used.
 
-The high-order word specifies the vertical position of the cursor, in screen coordinates, if a window menu command is chosen with the mouse. This parameter is –1 if the command is chosen using a system accelerator, or zero if using a mnemonic.
+The high-order word specifies the vertical position of the cursor, in screen coordinates, if a window menu command is chosen with the mouse. This parameter is  1 if the command is chosen using a system accelerator, or zero if using a mnemonic.
 
 </dd> </dl>
 
@@ -166,11 +172,11 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 
 In **WM\_SYSCOMMAND** messages, the four low-order bits of the *wParam* parameter are used internally by the system. To obtain the correct result when testing the value of *wParam*, an application must combine the value 0xFFF0 with the *wParam* value by using the bitwise AND operator.
 
-The menu items in a window menu can be modified by using the [**GetSystemMenu**](getsystemmenu.md), [**AppendMenu**](appendmenu.md), [**InsertMenu**](insertmenu.md), [**ModifyMenu**](modifymenu.md), [**InsertMenuItem**](insertmenuitem.md), and [**SetMenuItemInfo**](setmenuiteminfo.md) functions. Applications that modify the window menu must process **WM\_SYSCOMMAND** messages.
+The menu items in a window menu can be modified by using the [**GetSystemMenu**](/windows/win32/Winuser/nf-winuser-getsystemmenu?branch=master), [**AppendMenu**](/windows/win32/Winuser/nf-winuser-appendmenua?branch=master), [**InsertMenu**](/windows/win32/Winuser/nf-winuser-insertmenua?branch=master), [**ModifyMenu**](/windows/win32/Winuser/nf-winuser-modifymenua?branch=master), [**InsertMenuItem**](/windows/win32/Winuser/nf-winuser-insertmenuitema?branch=master), and [**SetMenuItemInfo**](/windows/win32/Winuser/nf-winuser-setmenuiteminfoa?branch=master) functions. Applications that modify the window menu must process **WM\_SYSCOMMAND** messages.
 
 An application can carry out any system command at any time by passing a **WM\_SYSCOMMAND** message to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572). Any **WM\_SYSCOMMAND** messages not handled by the application must be passed to **DefWindowProc**. Any command values added by an application must be processed by the application and cannot be passed to **DefWindowProc**.
 
-If password protection is enabled by policy, the screen saver is started regardless of what an application does with the **SC\_SCREENSAVE** notification—even if fails to pass it to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+If password protection is enabled by policy, the screen saver is started regardless of what an application does with the **SC\_SCREENSAVE** notification even if fails to pass it to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
 
 Accelerator keys that are defined to choose items from the window menu are translated into **WM\_SYSCOMMAND** messages; all other accelerator keystrokes are translated into [**WM\_COMMAND**](wm-command.md) messages.
 
@@ -182,8 +188,8 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -195,7 +201,7 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 **Reference**
 </dt> <dt>
 
-[**AppendMenu**](appendmenu.md)
+[**AppendMenu**](/windows/win32/Winuser/nf-winuser-appendmenua?branch=master)
 </dt> <dt>
 
 [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572)
@@ -207,13 +213,13 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 [**GET\_Y\_LPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632655)
 </dt> <dt>
 
-[**GetSystemMenu**](getsystemmenu.md)
+[**GetSystemMenu**](/windows/win32/Winuser/nf-winuser-getsystemmenu?branch=master)
 </dt> <dt>
 
-[**InsertMenu**](insertmenu.md)
+[**InsertMenu**](/windows/win32/Winuser/nf-winuser-insertmenua?branch=master)
 </dt> <dt>
 
-[**ModifyMenu**](modifymenu.md)
+[**ModifyMenu**](/windows/win32/Winuser/nf-winuser-modifymenua?branch=master)
 </dt> <dt>
 
 [**WM\_COMMAND**](wm-command.md)
@@ -225,9 +231,9 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

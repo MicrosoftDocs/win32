@@ -1,8 +1,14 @@
 ---
 title: Components
 description: Components
-ms.assetid: '9fbd957d-ee6b-475f-8a04-51effa206ad5'
-keywords: ["OpenGL on Windows,components"]
+ms.assetid: 9fbd957d-ee6b-475f-8a04-51effa206ad5
+keywords:
+- OpenGL on Windows,components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components

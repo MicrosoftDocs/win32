@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.fontStyle
 description: The fontStyle attribute specifies or retrieves the font style for the edit box control.
-ms.assetid: 'bc71359d-2b75-4134-99e8-52b2ca48dcde'
-keywords: ["EDITBOX.fontStyle Windows Media Player"]
+ms.assetid: bc71359d-2b75-4134-99e8-52b2ca48dcde
+keywords:
+- EDITBOX.fontStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.fontStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.fontStyle
@@ -35,7 +41,7 @@ This attribute is a read/write **String** containing one or more of the followin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +72,9 @@ For rendering purposes, Normal is the default font style. The default value retr
 [**EDITBOX.fontSize**](editbox-fontsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

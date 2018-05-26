@@ -1,7 +1,12 @@
 ---
 title: About Creating a New Icon Image Strip for a Contents File
 description: About Creating a New Icon Image Strip for a Contents File
-ms.assetid: 'A3D7131D-2490-4ffc-B93F-A2DEBC8ED608'
+ms.assetid: A3D7131D-2490-4ffc-B93F-A2DEBC8ED608
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Creating a New Icon Image Strip for a Contents File

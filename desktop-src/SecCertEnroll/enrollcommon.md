@@ -1,7 +1,12 @@
 ---
-Description: 'The enrollCommon folder contains the following helper functions and macros used by the samples provided with the Certificate Enrollment SDK.'
-ms.assetid: 'a9b3532d-9640-4373-a6c6-7828cb6f55c7'
+Description: The enrollCommon folder contains the following helper functions and macros used by the samples provided with the Certificate Enrollment SDK.
+ms.assetid: a9b3532d-9640-4373-a6c6-7828cb6f55c7
 title: enrollCommon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enrollCommon
@@ -56,7 +61,7 @@ The enrollCommon folder contains the following helper functions and macros used 
 </tr>
 <tr class="odd">
 <td>checkEnrollStatus</td>
-<td>Checks the status of the certificate enrollment process by using the [<strong>IX509Enrollment</strong>](ix509enrollment.md) and [<strong>IX509EnrollmentStatus</strong>](ix509enrollmentstatus.md) interfaces. This function is used by the enrollEOBOCMC, enrollPKCS7, enrollRenewalPKCS7, enrollSimpleMachineCert, and enrollSimpleUserCert samples.</td>
+<td>Checks the status of the certificate enrollment process by using the [<strong>IX509Enrollment</strong>](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) and [<strong>IX509EnrollmentStatus</strong>](/windows/win32/CertEnroll/nn-certenroll-ix509enrollmentstatus?branch=master) interfaces. This function is used by the enrollEOBOCMC, enrollPKCS7, enrollRenewalPKCS7, enrollSimpleMachineCert, and enrollSimpleUserCert samples.</td>
 </tr>
 <tr class="even">
 <td>findCertByKeyUsage</td>
@@ -74,7 +79,7 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 </tr>
 <tr class="odd">
 <td>findCertByEKU</td>
-<td>Enumerates the personal certificate store of the current user to find the first certificate for which the Enhanced Key Usage (EKU) extension matches that specified on input. For more information about the EKU extension, see the [<strong>IX509ExtensionEnhancedKeyUsage</strong>](ix509extensionenhancedkeyusage.md) interface. This function is used by the enrollEOBOCMC sample.</td>
+<td>Enumerates the personal certificate store of the current user to find the first certificate for which the Enhanced Key Usage (EKU) extension matches that specified on input. For more information about the EKU extension, see the [<strong>IX509ExtensionEnhancedKeyUsage</strong>](/windows/win32/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage?branch=master) interface. This function is used by the enrollEOBOCMC sample.</td>
 </tr>
 <tr class="even">
 <td>findCertByTemplate</td>
@@ -82,7 +87,7 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 </tr>
 <tr class="odd">
 <td>enrollCertByTemplate</td>
-<td>Initializes an [<strong>IX509Enrollment</strong>](ix509enrollment.md) object by using a template, attempts to enroll the implicitly created certificate request, and monitors the status of the enrollment process. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
+<td>Initializes an [<strong>IX509Enrollment</strong>](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) object by using a template, attempts to enroll the implicitly created certificate request, and monitors the status of the enrollment process. This function is used by the enrollEOBOCMC, enrollFromPublicKey, enrollPKCS7, and enrollRenewalPKCS7 samples.</td>
 </tr>
 <tr class="even">
 <td>verifyCertContext</td>
@@ -109,7 +114,7 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -118,9 +123,9 @@ This function is used by the enrollFromPublicKey sample.<br/></td>
 [Using the Included Samples](using-the-included-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

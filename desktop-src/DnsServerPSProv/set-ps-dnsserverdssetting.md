@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerDsSetting class
 description: Sets Active Directory settings.
 audience: developer
-ms.assetid: 'd5d1cd59-9be9-49b7-93ba-17c91cac0473'
-ms.prod: 'windows-server-dev'
+ms.assetid: d5d1cd59-9be9-49b7-93ba-17c91cac0473
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerDsSetting class", "PS_DnsServerDsSetting class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerDsSetting class
+- PS_DnsServerDsSetting class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerDsSetting class
@@ -28,15 +34,15 @@ Sets Active Directory settings.
 
 ```mof
 uint32 Set(
-  [in]  datetime           DirectoryPartitionAutoEnlistInterval,
-  [in]  uint32             LazyUpdateInterval,
-  [in]  uint32             MinimumBackgroundLoadThreads,
-  [in]  uint32             RemoteReplicationDelay,
-  [in]  string             ComputerName,
-  [in]  uint32             PollingInterval,
-  [in]  datetime           TombstoneInterval,
-  [in]  boolean            PassThru,
-  [out] DnsServerDsSetting cmdletOutput
+  [in]  datetime           DirectoryPartitionAutoEnlistInterval,
+  [in]  uint32             LazyUpdateInterval,
+  [in]  uint32             MinimumBackgroundLoadThreads,
+  [in]  uint32             RemoteReplicationDelay,
+  [in]  string             ComputerName,
+  [in]  uint32             PollingInterval,
+  [in]  datetime           TombstoneInterval,
+  [in]  boolean            PassThru,
+  [out] DnsServerDsSetting cmdletOutput
 );
 ```
 
@@ -116,7 +122,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -130,9 +136,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerDsSetting**](ps-dnsserverdssetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

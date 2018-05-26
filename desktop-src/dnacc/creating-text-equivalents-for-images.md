@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '824e98a7-f9bc-438d-b989-1dd9eef4ea47'
+ms.assetid: 824e98a7-f9bc-438d-b989-1dd9eef4ea47
 title: Creating Text Equivalents for Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Text Equivalents for Images

@@ -4,13 +4,16 @@ description: This method provides for modification of an existing iSCSIProtocolE
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '44c6f895-a837-49de-8f87-07bd9d769a6c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 44c6f895-a837-49de-8f87-07bd9d769a6c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BindiSCSIProtocolEndPoint method iSCSI Software Target API", "BindiSCSIProtocolEndPoint method iSCSI Software Target API , CIM_iSCSIConfigurationService class", "CIM_iSCSIConfigurationService class iSCSI Software Target API , BindiSCSIProtocolEndPoint method"]
+keywords:
+- BindiSCSIProtocolEndPoint method iSCSI Software Target API
+- BindiSCSIProtocolEndPoint method iSCSI Software Target API , CIM_iSCSIConfigurationService class
+- CIM_iSCSIConfigurationService class iSCSI Software Target API , BindiSCSIProtocolEndPoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BindiSCSIProtocolEndPoint method of the CIM\_iSCSIConfigurationService class
@@ -30,8 +36,8 @@ This method provides for modification of an existing iSCSIProtocolEndpoint by as
 
 ```mof
 uint32 BindiSCSIProtocolEndPoint(
-  [in] CIM_iSCSIProtocolEndpoint REF iSCSIPort,
-  [in] CIM_ProtocolEndpoint      REF NetworkPortal
+  [in] CIM_iSCSIProtocolEndpoint REF iSCSIPort,
+  [in] CIM_ProtocolEndpoint      REF NetworkPortal
 );
 ```
 
@@ -77,7 +83,7 @@ The ProtocolEndpoint instance. If an iSCSI Initiator Port is being modified this
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ProtocolEndpoint Non-Existent** (4096)
@@ -92,10 +98,10 @@ The ProtocolEndpoint instance. If an iSCSI Initiator Port is being modified this
 **ProtocolEndpoint Not From Same Endpoint Collection** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -105,7 +111,7 @@ The ProtocolEndpoint instance. If an iSCSI Initiator Port is being modified this
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -119,9 +125,9 @@ The ProtocolEndpoint instance. If an iSCSI Initiator Port is being modified this
 [**CIM\_iSCSIConfigurationService**](cim-iscsiconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

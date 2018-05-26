@@ -1,7 +1,12 @@
 ---
 title: Wide-Character Types
 description: Microsoft RPC supports the wide-character type wchar\_t.
-ms.assetid: '1a601461-df34-456d-93e8-4cf0b655cf2c'
+ms.assetid: 1a601461-df34-456d-93e8-4cf0b655cf2c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wide-Character Types

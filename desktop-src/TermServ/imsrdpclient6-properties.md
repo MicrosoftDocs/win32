@@ -4,10 +4,13 @@ description: The IMsRdpClient6 interface exposes the following properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EB959BD9-6BE8-43C2-A26F-DFA03CD85022'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: EB959BD9-6BE8-43C2-A26F-DFA03CD85022
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient6 Properties

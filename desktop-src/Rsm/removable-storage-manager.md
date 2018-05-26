@@ -1,7 +1,12 @@
 ---
-Description: 'Facilitates communication among applications, robotic changers, and media libraries. Enables multiple applications to share local robotic media libraries and tape or disk drives, and manage removable media within a single-server system.'
-ms.assetid: '9009c55d-9a65-4713-9c14-b4444c52a4b9'
+Description: Facilitates communication among applications, robotic changers, and media libraries. Enables multiple applications to share local robotic media libraries and tape or disk drives, and manage removable media within a single-server system.
+ms.assetid: 9009c55d-9a65-4713-9c14-b4444c52a4b9
 title: Removable Storage Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removable Storage Manager

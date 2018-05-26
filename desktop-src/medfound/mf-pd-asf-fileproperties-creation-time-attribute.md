@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the date and time when an Advanced Systems Format (ASF) file was created.'
-ms.assetid: '97f80584-9d74-4ba5-80f4-ddb6f2bc4625'
-title: 'MF\_PD\_ASF\_FILEPROPERTIES\_CREATION\_TIME attribute'
+---
+Description: Specifies the date and time when an Advanced Systems Format (ASF) file was created.
+ms.assetid: 97f80584-9d74-4ba5-80f4-ddb6f2bc4625
+title: MF\_PD\_ASF\_FILEPROPERTIES\_CREATION\_TIME attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_FILEPROPERTIES\_CREATION\_TIME attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content. The value of the attribute is a **FILETIME** structure, which is documented in the Windows SDK.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute from the ASF metadata.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute from the ASF metadata.
 
 ## Requirements
 
@@ -37,13 +42,13 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-ge
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Fills an array with callback key data used for key frame animation.'
-ms.assetid: '2a2aa04a-a889-415b-8aa2-cc5f2bed1f9a'
-title: 'ID3DXKeyframedAnimationSet::GetCallbackKeys method'
+---
+Description: Fills an array with callback key data used for key frame animation.
+ms.assetid: 2a2aa04a-a889-415b-8aa2-cc5f2bed1f9a
+title: ID3DXKeyframedAnimationSetGetCallbackKeys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetCallbackKeys method

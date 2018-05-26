@@ -1,7 +1,12 @@
 ---
-Description: 'The Clear method deletes all items from the collection.'
-ms.assetid: '4350ae43-16be-4cf2-816d-719349b12654'
-title: 'IPortableDeviceValues::Clear method'
+Description: The Clear method deletes all items from the collection.
+ms.assetid: 4350ae43-16be-4cf2-816d-719349b12654
+title: IPortableDeviceValuesClear method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::Clear method
@@ -33,7 +38,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +62,9 @@ This method frees the memory for all dynamically allocated items in the collecti
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: glScaled function
 description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix.
-ms.assetid: '3846289f-5c7b-4bb6-95a8-90a58dd8b9d9'
-keywords: ["glScaled function OpenGL"]
+ms.assetid: 3846289f-5c7b-4bb6-95a8-90a58dd8b9d9
+keywords:
+- glScaled function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glScaled function
@@ -22,9 +28,9 @@ The **glScaled** and [**glScalef**](glscalef.md) functions multiply the current 
 
 ```C++
 void WINAPI glScaled(
-   GLdouble x,
-   GLdouble y,
-   GLdouble z
+   GLdouble x,
+   GLdouble y,
+   GLdouble z
 );
 ```
 
@@ -89,7 +95,7 @@ The **glScaled** function produces a general scaling along the *x*, *y*, and *z*
 
 ![](images/scale01.png)
 
-The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M • S.
+The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M   S.
 
 If the matrix mode is either GL\_MODELVIEW or GL\_PROJECTION, all objects drawn after **glScaled** is called are scaled. Use [**glPushMatrix**](glpushmatrix.md) and [**glPopMatrix**](glpopmatrix.md) to save and restore the unscaled coordinate system.
 
@@ -111,8 +117,8 @@ The following functions retrieve information related to **glScaled**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -150,9 +156,9 @@ The following functions retrieve information related to **glScaled**:
 [**glTranslate**](gltranslate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

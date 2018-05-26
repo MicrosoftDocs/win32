@@ -4,17 +4,22 @@ description: ms-DS-SCP-container attribute.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9d48b757-0ae9-4c96-819a-f135e3e5c35a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9d48b757-0ae9-4c96-819a-f135e3e5c35a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-SCP-Container attribute AD Schema", "msDS-SCPContainer attribute AD Schema"]
+keywords:
+- ms-DS-SCP-Container attribute AD Schema
+- msDS-SCPContainer attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-SCP-Container
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-SCP-Container attribute
@@ -61,9 +66,9 @@ ms-DS-SCP-container attribute.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

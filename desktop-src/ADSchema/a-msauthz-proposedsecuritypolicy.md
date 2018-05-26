@@ -4,17 +4,22 @@ description: For a Central Access Policy Entry, defines the proposed security po
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cba0e725-ddb2-4ae1-b975-3c17dd99edf9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cba0e725-ddb2-4ae1-b975-3c17dd99edf9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Proposed-Security-Policy attribute AD Schema", "msAuthz-ProposedSecurityPolicy attribute AD Schema"]
+keywords:
+- ms-Authz-Proposed-Security-Policy attribute AD Schema
+- msAuthz-ProposedSecurityPolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Proposed-Security-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Proposed-Security-Policy attribute
@@ -38,7 +43,7 @@ For a Central Access Policy Entry, defines the proposed security policy of the o
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a Central Access Policy Entry, defines the proposed security policy of the o
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the selected option for a feature in IPrintSchemaTicket.'
-ms.assetid: '6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5'
-title: 'IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket method'
+---
+Description: Gets the selected option for a feature in IPrintSchemaTicket.
+ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
+title: IPrintSchemaCapabilitiesGetSelectedOptionInPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket method

@@ -1,8 +1,29 @@
 ---
 title: TabItem Control Type
 description: This topic provides information about Microsoft UI Automation support for the TabItem control type.
-ms.assetid: '97b8c043-1ac5-4e14-be80-8687300a10a2'
-keywords: ["UI Automation,support for TabItem control type", "UI Automation,TabItem control type", "UI Automation,tree structure for TabItem control type", "UI Automation,properties for TabItem control type", "UI Automation,control patterns for TabItem control type", "UI Automation,events for TabItem control type", "tree structures,TabItem control type", "properties,TabItem control type", "control patterns,TabItem control type", "events,TabItem control type", "support for TabItem control type", "TabItem control type", "control types,tree structure for TabItem control type", "control types,control patterns for TabItem control type", "control types,support for TabItem", "control types,TabItem"]
+ms.assetid: 97b8c043-1ac5-4e14-be80-8687300a10a2
+keywords:
+- UI Automation,support for TabItem control type
+- UI Automation,TabItem control type
+- UI Automation,tree structure for TabItem control type
+- UI Automation,properties for TabItem control type
+- UI Automation,control patterns for TabItem control type
+- UI Automation,events for TabItem control type
+- tree structures,TabItem control type
+- properties,TabItem control type
+- control patterns,TabItem control type
+- events,TabItem control type
+- support for TabItem control type
+- TabItem control type
+- control types,tree structure for TabItem control type
+- control types,control patterns for TabItem control type
+- control types,support for TabItem
+- control types,TabItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TabItem Control Type
@@ -100,8 +121,8 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                 | Support  | Notes                                                                                                                    |
 |-----------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------|
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md) | Required | The tab item control must support [**IUIAutomationSelectionItemPattern**](uiauto-iuiautomationselectionitempattern.md). |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)               | Never    | The tab item control never supports [**IUIAutomationInvokePattern**](uiauto-iuiautomationinvokepattern.md).             |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master) | Required | The tab item control must support [**IUIAutomationSelectionItemPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationselectionitempattern?branch=master). |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)               | Never    | The tab item control never supports [**IUIAutomationInvokePattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern?branch=master).             |
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Item.invokeVerb method
 description: Invokes a verb associated with the item.
-ms.assetid: 'c44f0d49-1635-442c-b626-199789c59013'
-keywords: ["invokeVerb method Windows Sidebar", "invokeVerb method Windows Sidebar , System.Shell.Item object", "System.Shell.Item object Windows Sidebar , invokeVerb method"]
+ms.assetid: c44f0d49-1635-442c-b626-199789c59013
+keywords:
+- invokeVerb method Windows Sidebar
+- invokeVerb method Windows Sidebar , System.Shell.Item object
+- System.Shell.Item object Windows Sidebar , invokeVerb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item.invokeVerb method
@@ -42,7 +50,7 @@ System.Shell.Item.invokeVerb(
 > [!Note]  
 > The default verb is typically "open".
 
- 
+ 
 
 </dd> </dl>
 
@@ -87,19 +95,19 @@ function GetItemFromPath(itemPath)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Shldisp.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

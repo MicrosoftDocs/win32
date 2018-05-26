@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSwitchManagementService class
 description: Controls the definition, modification, and destruction of global networking resources such as virtual switches, switch ports, and internal Ethernet ports.
-ms.assetid: 'a6c8a685-9c1c-45f2-8a24-d42120912883'
-keywords: ["Msvm_VirtualSwitchManagementService class Hyper-V", "Msvm_VirtualSwitchManagementService class Hyper-V , described"]
+ms.assetid: a6c8a685-9c1c-45f2-8a24-d42120912883
+keywords:
+- Msvm_VirtualSwitchManagementService class Hyper-V
+- Msvm_VirtualSwitchManagementService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSwitchManagementService class
@@ -49,27 +56,27 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSwitchManagementService : CIM_Service
 {
-  string   Caption = "Hyper-V Networking Management Service";
-  string   Description = "Provides Hyper-V Networking WMI management";
-  string   ElementName = "Hyper-V Networking Management Service";
+  string   Caption = "Hyper-V Networking Management Service";
+  string   Description = "Provides Hyper-V Networking WMI management";
+  string   ElementName = "Hyper-V Networking Management Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   Name = "nvspwmi";
-  string   PrimaryOwnerName;
-  string   StartMode = "Automatic";
-  boolean  Started = TRUE;
-  string   StatusDescriptions[] = { "OK" };
-  uint16   EnabledDefault = 2;
-  string   CreationClassName = "Msvm_VirtualSwitchManagementService";
-  string   PrimaryOwnerContact;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   Name = "nvspwmi";
+  string   PrimaryOwnerName;
+  string   StartMode = "Automatic";
+  boolean  Started = TRUE;
+  string   StatusDescriptions[] = { "OK" };
+  uint16   EnabledDefault = 2;
+  string   CreationClassName = "Msvm_VirtualSwitchManagementService";
+  string   PrimaryOwnerContact;
 };
 ```
 
@@ -107,7 +114,7 @@ The **Msvm\_VirtualSwitchManagementService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -500,9 +507,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -521,9 +528,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

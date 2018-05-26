@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE command sends an MTP command block. There is no subsequent data phase associated with this command.'
-ms.assetid: '308550d0-1399-4b64-8f8e-dc16d5044086'
-title: 'WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE Command'
+Description: The WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE command sends an MTP command block. There is no subsequent data phase associated with this command.
+ms.assetid: 308550d0-1399-4b64-8f8e-dc16d5044086
+title: WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE Command
@@ -25,7 +30,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -40,11 +45,11 @@ The driver returns the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly by using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly by using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](iportabl
 [Supporting MTP Extensions](supporting-mtp-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

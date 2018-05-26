@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine AttachScriptToEvent method
 description: The AttachScriptToEvent method specifies a script to run when an event occurs.
-ms.assetid: '8663440c-35cc-4d77-a499-afb879227118'
-keywords: ["AttachScriptToEvent method Virtual Server", "AttachScriptToEvent method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AttachScriptToEvent method"]
+ms.assetid: 8663440c-35cc-4d77-a499-afb879227118
+keywords:
+- AttachScriptToEvent method Virtual Server
+- AttachScriptToEvent method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AttachScriptToEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AttachScriptToEvent method
@@ -22,8 +30,8 @@ The **AttachScriptToEvent** method specifies a script to run when an event occur
 
 ```C++
 HRESULT AttachScriptToEvent(
-  [in] VMEventType eventType,
-  [in] BSTR        scriptCommandLine
+  [in] VMEventType eventType,
+  [in] BSTR        scriptCommandLine
 );
 ```
 
@@ -65,7 +73,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,8 +85,8 @@ Scripts attached to an event will be launched automatically by Virtual Server wh
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +101,9 @@ Scripts attached to an event will be launched automatically by Virtual Server wh
 [**VMEventType**](vmeventtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'An abstract class that represents settings for a specific feature of a system or component.'
-ms.assetid: 'f55eacdd-a802-4374-8756-a59733af6d2c'
-title: 'Msvm\_FeatureSettingData class'
+Description: An abstract class that represents settings for a specific feature of a system or component.
+ms.assetid: f55eacdd-a802-4374-8756-a59733af6d2c
+title: Msvm\_FeatureSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_FeatureSettingData class
@@ -96,17 +101,17 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

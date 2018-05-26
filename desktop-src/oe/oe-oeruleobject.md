@@ -1,8 +1,10 @@
 ---
 title: OERule object
-description: OERule is no longer available for use as of Windows Vista.
-ms.assetid: 'edb8fd9c-17b2-4bdb-b5be-66986cbc6646'
-keywords: ["OERule object Windows Mail (formerly Outlook Express)", "OERule object Windows Mail (formerly Outlook Express) , described"]
+description: OERule is no longer available for use as of Windows Vista.
+ms.assetid: edb8fd9c-17b2-4bdb-b5be-66986cbc6646
+keywords:
+- OERule object Windows Mail (formerly Outlook Express)
+- OERule object Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OERule object
 
-\[**OERule** is no longer available for use as of Windows Vista.\]
+\[**OERule** is no longer available for use as of Windows Vista.\]
 
 The **OERule** object implements the [**IOERule**](oe-ioerule.md) interface. It represents a message rule.
 
@@ -31,7 +38,7 @@ The **OERule** object implements the [**IOERule**](oe-ioerule.md) interface. It 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,10 +46,10 @@ The **OERule** object implements the [**IOERule**](oe-ioerule.md) interface. It 
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
@@ -51,9 +58,9 @@ The **OERule** object implements the [**IOERule**](oe-ioerule.md) interface. It 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

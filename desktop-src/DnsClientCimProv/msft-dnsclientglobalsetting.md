@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a set of global DNS client settings.'
-ms.assetid: 'fb50dbb6-084c-4ff4-98a7-93a0fe97d031'
-title: 'MSFT\_DNSClientGlobalSetting class'
+Description: Represents a set of global DNS client settings.
+ms.assetid: fb50dbb6-084c-4ff4-98a7-93a0fe97d031
+title: MSFT\_DNSClientGlobalSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DNSClientGlobalSetting class
@@ -15,19 +20,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_DNSClientGlobalSetting : CIM_DNSGeneralSettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceId;
-  string  ElementName;
-  uint16  ProtocolIFType;
-  uint16  AddressOrigin;
+  string  Caption;
+  string  Description;
+  string  InstanceId;
+  string  ElementName;
+  uint16  ProtocolIFType;
+  uint16  AddressOrigin;
   boolean AppendPrimarySuffixes;
   boolean AppendParentSuffixes;
-  string  DNSSuffixesToAppend[];
+  string  DNSSuffixesToAppend[];
   boolean UseSuffixSearchList;
   boolean UseDevolution;
-  string  SuffixSearchList[];
-  uint32  DevolutionLevel;
+  string  SuffixSearchList[];
+  uint32  DevolutionLevel;
 };
 ```
 
@@ -65,14 +70,14 @@ This property can contain one of the following values. The default value is "2" 
 
 | Value                                                                                | Meaning                    |
 |--------------------------------------------------------------------------------------|----------------------------|
-| <dl> <dt>0–1</dt> </dl>       | DMTF Reserved<br/>   |
+| <dl> <dt>0 1</dt> </dl>       | DMTF Reserved<br/>   |
 | <dl> <dt>2</dt> </dl>         | Not Applicable<br/>  |
-| <dl> <dt>3–32767</dt> </dl>   | DMTF Reserved<br/>   |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>3 32767</dt> </dl>   | DMTF Reserved<br/>   |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -230,14 +235,14 @@ This property is inherited from **CIM\_IPAssignmentSettingData**.
 | Value                                                                                | Meaning                    |
 |--------------------------------------------------------------------------------------|----------------------------|
 | <dl> <dt>0</dt> </dl>         | Unknown<br/>         |
-| <dl> <dt>1–4095</dt> </dl>    | DMTF Reserved<br/>   |
+| <dl> <dt>1 4095</dt> </dl>    | DMTF Reserved<br/>   |
 | <dl> <dt>4096</dt> </dl>      | IPv4<br/>            |
 | <dl> <dt>4097</dt> </dl>      | IPv6<br/>            |
-| <dl> <dt>32768–...</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>32768 ...</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -286,8 +291,8 @@ Gets and sets a value that indicates whether DNS clients use the global suffix s
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported client<br/> | Windows 8<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DnsClientCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientCim.dll</dt> </dl> |
@@ -301,9 +306,9 @@ Gets and sets a value that indicates whether DNS clients use the global suffix s
 [Dnsclientcim Provider Classes](dns-client-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

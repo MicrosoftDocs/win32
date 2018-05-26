@@ -1,13 +1,16 @@
 ---
-Description: 'Contains information about the server licensor private key used to encrypt the content encryption key and sign all certificates and licenses issued by the server.'
+Description: Contains information about the server licensor private key used to encrypt the content encryption key and sign all certificates and licenses issued by the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '269293e6-f2c5-4446-b651-e1295b230025'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 269293e6-f2c5-4446-b651-e1295b230025
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ServicePrivateKeyProtectionInformation object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ServicePrivateKeyProtectionInformation object
@@ -34,7 +37,7 @@ The **ServicePrivateKeyProtectionInformation** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -117,7 +120,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -129,9 +132,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

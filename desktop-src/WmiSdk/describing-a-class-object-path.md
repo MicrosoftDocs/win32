@@ -1,13 +1,16 @@
 ---
-Description: 'A class object path describes the location of a class within a namespace.'
+Description: A class object path describes the location of a class within a namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5ae95707-d023-4102-9b41-140c54b0c5b7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5ae95707-d023-4102-9b41-140c54b0c5b7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing a Class Object Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Describing a Class Object Path
@@ -66,9 +69,9 @@ You can retrieve a class definition in C++ by specifying only the class name and
 
 **To retrieve a class definition in C++**
 
--   Make a call to the [**IWbemServices::GetObject**](iwbemservices-getobject.md) or [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md) functions.
+-   Make a call to the [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) functions.
 
-    The following example shows how to call the[**IWbemServices::GetObject**](iwbemservices-getobject.md) function.
+    The following example shows how to call the[**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) function.
 
     ```C++
     IWbemServices* pSvcs = 0;

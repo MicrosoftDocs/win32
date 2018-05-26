@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_SwapSpaceCheck class exposes the following methods.'
+Description: The CIM\_SwapSpaceCheck class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '09149D0A-9AB8-4582-9976-371278E851D0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 09149D0A-9AB8-4582-9976-371278E851D0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SwapSpaceCheck Methods'
+title: CIM\_SwapSpaceCheck Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SwapSpaceCheck Methods

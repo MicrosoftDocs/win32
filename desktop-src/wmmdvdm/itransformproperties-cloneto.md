@@ -1,8 +1,11 @@
 ---
 title: ITransformProperties CloneTo method
 description: The CloneTo method copies the current ITransformProperties interface into a submitted ITransformProperties interface.
-ms.assetid: '03aa1c23-547a-42dc-b1b4-22b93ea6fdd3'
-keywords: ["CloneTo method Windows Movie Maker and DVD Maker", "CloneTo method Windows Movie Maker and DVD Maker , ITransformProperties interface", "ITransformProperties interface Windows Movie Maker and DVD Maker , CloneTo method"]
+ms.assetid: 03aa1c23-547a-42dc-b1b4-22b93ea6fdd3
+keywords:
+- CloneTo method Windows Movie Maker and DVD Maker
+- CloneTo method Windows Movie Maker and DVD Maker , ITransformProperties interface
+- ITransformProperties interface Windows Movie Maker and DVD Maker , CloneTo method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperties::CloneTo method
@@ -25,7 +33,7 @@ The **CloneTo** method copies the current **ITransformProperties** interface int
 
 ```C++
 HRESULT CloneTo(
-  [in, out] ITransformProperties *pDestProps
+  [in, out] ITransformProperties *pDestProps
 );
 ```
 
@@ -56,8 +64,8 @@ This method does not clear any existing properties in the destination collection
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -70,9 +78,9 @@ This method does not clear any existing properties in the destination collection
 [**ITransformProperties Interface**](itransformproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

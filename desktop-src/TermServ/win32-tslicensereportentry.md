@@ -4,11 +4,13 @@ description: Provides details of the issued Remote Desktop Services Per User cli
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '75fa7f39-af5b-45a0-ba2b-5c667edfec16'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 75fa7f39-af5b-45a0-ba2b-5c667edfec16
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLicenseReportEntry class Remote Desktop Services", "Win32_TSLicenseReportEntry class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLicenseReportEntry class Remote Desktop Services
+- Win32_TSLicenseReportEntry class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -22,11 +24,14 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseReportEntry class
 
-Provides details of the issued Remote Desktop Services Per User client access license (RDS Per User CAL).
+Provides details of the issued Remote Desktop Services Per User client access license (RDS Per User CAL).
 
 ## Syntax
 
@@ -34,11 +39,11 @@ Provides details of the issued Remote Desktop Services Per User client access li
 [AMENDMENT]
 class Win32_TSLicenseReportEntry
 {
-  string   User;
+  string   User;
   DATETIME ExpirationDate;
-  string   CALType;
-  string   ProductVersion;
-  uint32   ProductVersionID;
+  string   CALType;
+  string   ProductVersion;
+  uint32   ProductVersionID;
 };
 ```
 
@@ -65,7 +70,7 @@ Access type: Read-only
 
 Specifies the type of CAL issued. This will be one of the following values.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported.
 
 "Built-in TS Per Device CAL"
 
@@ -111,28 +116,28 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Version of Remote Desktop Services for which the RDS Per User CAL was issued.
+Version of Remote Desktop Services for which the RDS Per User CAL was issued.
 
 <dt>
 
-"Windows Server 2012"
+"Windows Server 2012"
 </dt> <dd>
 
-Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
 
 </dd> <dt>
 
 "Windows Server 7"
 </dt> <dd>
 
-Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
 
 </dd> <dt>
 
 "Windows Server 2008"
 </dt> <dd>
 
-Only servers running Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2008 are supported with this license.
 
 </dd> </dl>
 
@@ -154,21 +159,21 @@ Product version identifier for the Remote Desktop Services license key pack.
 4
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Windows Server 2008 R2
+Windows Server 2008 R2
 
 </dd> <dt>
 
 2
 </dt> <dd>
 
-Windows Server 2008
+Windows Server 2008
 
 </dd> <dt>
 
@@ -217,7 +222,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -243,9 +248,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

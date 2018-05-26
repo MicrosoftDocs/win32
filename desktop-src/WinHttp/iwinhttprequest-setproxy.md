@@ -1,7 +1,12 @@
 ---
-Description: 'Sets proxy server information.'
-ms.assetid: '279d0557-2718-4c50-b84c-cc7c8def57a6'
-title: 'IWinHttpRequest::SetProxy method'
+Description: Sets proxy server information.
+ms.assetid: 279d0557-2718-4c50-b84c-cc7c8def57a6
+title: IWinHttpRequestSetProxy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::SetProxy method
@@ -13,9 +18,9 @@ The **SetProxy** method sets proxy server information.
 
 ```C++
 HRESULT SetProxy(
-  [in]           HTTPREQUEST_PROXY_SETTING ProxySetting,
-  [in, optional] VARIANT                   ProxyServer,
-  [in, optional] VARIANT                   BypassList
+  [in]           HTTPREQUEST_PROXY_SETTING ProxySetting,
+  [in, optional] VARIANT                   ProxyServer,
+  [in, optional] VARIANT                   BypassList
 );
 ```
 
@@ -41,7 +46,7 @@ The flags that control this method. Can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,9 +75,9 @@ Enables the calling application to specify use of default proxy information (con
 [**IWinHttpRequest**](iwinhttprequest-interface.md) passes these parameters to Microsoft Windows HTTP Services (WinHTTP).
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -219,9 +224,9 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -241,9 +246,9 @@ WScript.Echo( WinHttpReq.ResponseText);
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

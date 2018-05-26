@@ -1,8 +1,16 @@
 ---
 title: BlockingServiceExample
 description: Example service application demonstrating server side call cancellation.
-ms.assetid: 'a0a862bc-521a-477a-854d-58642d497109'
-keywords: ["BlockingServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: a0a862bc-521a-477a-854d-58642d497109
+keywords:
+- BlockingServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BlockingServiceExample

@@ -4,17 +4,21 @@ description: The date until which the content license is valid.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '83e274a2-51e8-4306-a961-2a1a89db8714'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 83e274a2-51e8-4306-a961-2a1a89db8714
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy contentValidUntil property"]
+keywords:
+- MSUserPolicy contentValidUntil property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy contentValidUntil property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy contentValidUntil property
@@ -37,7 +41,7 @@ The date until which the content license is valid.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

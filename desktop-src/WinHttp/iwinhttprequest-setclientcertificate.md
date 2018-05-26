@@ -1,7 +1,12 @@
 ---
-Description: 'Selects a client certificate to send to a Secure Hypertext Transfer Protocol (HTTPS) server.'
-ms.assetid: 'e76f1e76-5efe-46f2-9a21-064aa06fb3a8'
-title: 'IWinHttpRequest::SetClientCertificate method'
+Description: Selects a client certificate to send to a Secure Hypertext Transfer Protocol (HTTPS) server.
+ms.assetid: e76f1e76-5efe-46f2-9a21-064aa06fb3a8
+title: IWinHttpRequestSetClientCertificate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::SetClientCertificate method
@@ -13,7 +18,7 @@ The **SetClientCertificate** method selects a client certificate to send to a Se
 
 ```C++
 HRESULT SetClientCertificate(
-  [in] BSTR ClientCertificate
+  [in] BSTR ClientCertificate
 );
 ```
 
@@ -45,9 +50,9 @@ Call **SetClientCertificate** to select a certificate before calling [**Send**](
 Microsoft Windows HTTP Services (WinHTTP) does not provide client certificates to proxy servers that request certificates for authentication.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -77,9 +82,9 @@ HttpReq.Send();
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -102,9 +107,9 @@ HttpReq.Send();
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

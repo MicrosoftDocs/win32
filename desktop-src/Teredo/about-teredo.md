@@ -1,7 +1,12 @@
 ---
 title: About Teredo
 description: About Teredo
-ms.assetid: '86dfc138-765f-4908-9c21-30eb1d9a16ec'
+ms.assetid: 86dfc138-765f-4908-9c21-30eb1d9a16ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Teredo

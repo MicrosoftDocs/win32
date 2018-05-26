@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_CACHE\_LOOKUP\_FILE function pointer
 description: Points to a function that reads a file that was cached by the Microsoft Base Smart Card Cryptographic Service Provider as the result of a previous call that used the PFN\_CSP\_CACHE\_ADD\_FILE function pointer.
-ms.assetid: '57868c11-94ee-4791-a115-28a4d2259241'
-keywords: ["PFN_CSP_CACHE_LOOKUP_FILE function pointer Security"]
+ms.assetid: 57868c11-94ee-4791-a115-28a4d2259241
+keywords:
+- PFN_CSP_CACHE_LOOKUP_FILE function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_CACHE\_LOOKUP\_FILE function pointer
@@ -24,11 +30,11 @@ The **PFN\_CSP\_CACHE\_LOOKUP\_FILE** function pointer points to a function that
 
 ```C++
 typedef DWORD ( WINAPI *PFN_CSP_CACHE_LOOKUP_FILE)(
-  _In_  PVOID  pvCacheContext,
-  _In_  LPWSTR wszTag,
-  _In_  DWORD  dwFlags,
-  _Out_ PBYTE  *ppbData,
-  _Out_ PDWORD pcbData
+  _In_  PVOID  pvCacheContext,
+  _In_  LPWSTR wszTag,
+  _In_  DWORD  dwFlags,
+  _Out_ PBYTE  *ppbData,
+  _Out_ PDWORD pcbData
 );
 ```
 
@@ -93,8 +99,8 @@ To improve performance by avoiding redundant read/write activity to the card, fi
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -115,9 +121,9 @@ To improve performance by avoiding redundant read/write activity to the card, fi
 [**PFN\_CSP\_FREE**](pfn-csp-free.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

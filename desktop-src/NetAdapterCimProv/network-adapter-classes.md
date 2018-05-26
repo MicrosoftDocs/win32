@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for the NetAdapterCim provider classes defined in NetAdapterCim.mof and implemented in NetAdapterCim.dll.'
-ms.assetid: 'C1E31BA0-6400-4E94-A8CD-962B8DD89509'
+Description: This section provides reference information for the NetAdapterCim provider classes defined in NetAdapterCim.mof and implemented in NetAdapterCim.dll.
+ms.assetid: C1E31BA0-6400-4E94-A8CD-962B8DD89509
 title: NetAdapterCim Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetAdapterCim Provider
@@ -86,11 +91,11 @@ This section provides reference information for the **NetAdapterCim** provider c
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

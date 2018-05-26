@@ -1,7 +1,12 @@
 ---
 Description: Eastern Europe
-ms.assetid: '0e2e81b3-52dc-451b-9734-464052128efe'
+ms.assetid: 0e2e81b3-52dc-451b-9734-464052128efe
 title: Eastern Europe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Eastern Europe

@@ -1,8 +1,21 @@
 ---
 title: Firewall Port Registry Settings
 description: Firewall Port Registry Settings
-ms.assetid: '86995f2c-8794-45da-9dca-9cdd388b2a21'
-keywords: ["Windows Media Player,firewall port registry settings", "Windows Media Player,port registry settings", "Windows Media Player,registry", "registry,firewall port settings", "registry,port settings", "registry,settings for Windows Media Player", "firewall port registry settings", "port registry settings"]
+ms.assetid: 86995f2c-8794-45da-9dca-9cdd388b2a21
+keywords:
+- Windows Media Player,firewall port registry settings
+- Windows Media Player,port registry settings
+- Windows Media Player,registry
+- registry,firewall port settings
+- registry,port settings
+- registry,settings for Windows Media Player
+- firewall port registry settings
+- port registry settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Firewall Port Registry Settings

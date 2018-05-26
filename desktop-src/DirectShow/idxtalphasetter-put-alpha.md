@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Alpha method specifies the alpha value for the entire image.'
-ms.assetid: 'ba02a9ae-b722-4771-89c6-e76369d39ed7'
-title: 'IDxtAlphaSetter::put\_Alpha method'
+---
+Description: The put\_Alpha method specifies the alpha value for the entire image.
+ms.assetid: ba02a9ae-b722-4771-89c6-e76369d39ed7
+title: IDxtAlphaSetterput\_Alpha method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtAlphaSetter::put\_Alpha method

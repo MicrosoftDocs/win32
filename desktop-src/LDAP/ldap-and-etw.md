@@ -1,19 +1,23 @@
 ---
 title: Event Tracing in LDAP Applications
-description: Windows Server 2008 and Windows Vista introduce Event Tracing for applications that use Lightweight Directory Access Protocol.
+description: Windows Server 2008 and Windows Vista introduce Event Tracing for applications that use Lightweight Directory Access Protocol.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ef640de-a563-434f-b89a-80554b4fbc60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 4ef640de-a563-434f-b89a-80554b4fbc60
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["event tracing LDAP"]
+keywords:
+- event tracing LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Event Tracing in LDAP Applications
 
-Windows Server 2008 and Windows Vista introduce [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) for applications that use [Lightweight Directory Access Protocol](lightweight-directory-access-protocol-ldap-api.md). Certain areas of the LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes diagnosis of problems in these areas more difficult. Event Tracing can be a valuable troubleshooting tool.
+Windows Server 2008 and Windows Vista introduce [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) for applications that use [Lightweight Directory Access Protocol](lightweight-directory-access-protocol-ldap-api.md). Certain areas of the LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes diagnosis of problems in these areas more difficult. Event Tracing can be a valuable troubleshooting tool.
 
 To turn on LDAP client tracing, create the following registry key:
 
@@ -46,12 +50,12 @@ To start a tracing session, execute the following command:
 <tr class="odd">
 <td><strong>DEBUG_SEARCH</strong><br/></td>
 <td>0x00000001<br/></td>
-<td>Logs search requests and the parameters passed to them. Responses are not logged here, only the search requests. (Responses to search requests can be logged by using <strong>DEBUG_SPEWSEARCH</strong>.)<br/> <strong>Windows Server 2008 and Windows Vista:</strong> The flag name was <strong>DEBUG_TRACE1</strong>.<br/></td>
+<td>Logs search requests and the parameters passed to them. Responses are not logged here, only the search requests. (Responses to search requests can be logged by using <strong>DEBUG_SPEWSEARCH</strong>.)<br/> <strong>Windows Server 2008 and Windows Vista:</strong> The flag name was <strong>DEBUG_TRACE1</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>DEBUG_WRITE</strong><br/></td>
 <td>0x00000002<br/></td>
-<td>Logs write requests and the parameters passed to them. This includes the operations: add, delete, modify, and extended.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> The flag name was <strong>DEBUG_TRACE2</strong>.<br/></td>
+<td>Logs write requests and the parameters passed to them. This includes the operations: add, delete, modify, and extended.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> The flag name was <strong>DEBUG_TRACE2</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>DEBUG_REFCNT</strong><br/></td>
@@ -76,7 +80,7 @@ To start a tracing session, execute the following command:
 <tr class="odd">
 <td><strong>DEBUG_SPEWSEARCH</strong><br/></td>
 <td>0x00000040<br/></td>
-<td>Logs all server responses to search requests. This includes attributes requested, as well as all data that was received.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> Only available in debug builds.<br/></td>
+<td>Logs all server responses to search requests. This includes attributes requested, as well as all data that was received.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> Only available in debug builds.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>DEBUG_SERVERDOWN</strong><br/></td>
@@ -166,7 +170,7 @@ If a connection is lost or the server cannot be reached, <strong>DEBUG_SERVERDOW
 <tr class="even">
 <td><strong>DEBUG_VERBOSE</strong><br/></td>
 <td>0x00200000<br/></td>
-<td>Logs general messages. This should be used for any messages that tend to generate a large amount of output, for example: end of message reached, server has not responded yet, and so on. This is also useful for generic messages.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> The flag name was <strong>DEBUG_SCRATCH</strong>.<br/></td>
+<td>Logs general messages. This should be used for any messages that tend to generate a large amount of output, for example: end of message reached, server has not responded yet, and so on. This is also useful for generic messages.<br/> <strong>Windows Server 2008 and Windows Vista:</strong> The flag name was <strong>DEBUG_SCRATCH</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>DEBUG_PARSE</strong><br/></td>
@@ -208,7 +212,7 @@ If a connection is lost or the server cannot be reached, <strong>DEBUG_SERVERDOW
 
 
 
- 
+ 
 
 You can combine flags by combining the appropriate bits in the *TraceFlags* argument. For example, to specify the **DEBUG\_SEARCH** and **DEBUG\_CACHE** flags, the appropriate *TraceFlags* value would be 0x00000011.
 
@@ -246,9 +250,9 @@ Imagine that an administrator sees an unexpected error in an application that se
 
     **tracerpt.exe .\\ldap.etl -o -report**
 
- 
+ 
 
- 
+ 
 
 
 

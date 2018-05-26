@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies an image that represents the album artwork for the object.'
-ms.assetid: '7a31ebb6-c4ab-4899-9c2e-c960aac4f0f9'
-title: 'WPD\_RESOURCE\_ALBUM\_ART'
+Description: Specifies an image that represents the album artwork for the object.
+ms.assetid: 7a31ebb6-c4ab-4899-9c2e-c960aac4f0f9
+title: WPD\_RESOURCE\_ALBUM\_ART
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_RESOURCE\_ALBUM\_ART

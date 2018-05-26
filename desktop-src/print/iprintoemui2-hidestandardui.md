@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI2::HideStandardUI method allows a user interface plug-in to specify whether the standard property sheets should be displayed or hidden.'
-ms.assetid: '144618d0-0d77-487c-a074-8bd9f6030de2'
-title: 'IPrintOemUI2::HideStandardUI method'
+---
+Description: The IPrintOemUI2HideStandardUI method allows a user interface plug-in to specify whether the standard property sheets should be displayed or hidden.
+ms.assetid: 144618d0-0d77-487c-a074-8bd9f6030de2
+title: IPrintOemUI2HideStandardUI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI2::HideStandardUI method

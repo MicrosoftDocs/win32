@@ -1,7 +1,12 @@
 ---
-Description: 'A string that indicates the user logon status of an identity.'
-ms.assetid: '8B12E452-790D-4924-98E7-9368CC525674'
-title: 'System.Identity.LogonStatusString'
+Description: A string that indicates the user logon status of an identity.
+ms.assetid: 8B12E452-790D-4924-98E7-9368CC525674
+title: System.Identity.LogonStatusString
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity.LogonStatusString

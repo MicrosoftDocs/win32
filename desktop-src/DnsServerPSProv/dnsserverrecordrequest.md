@@ -2,13 +2,15 @@
 title: DnsServerRecordRequest class
 description: Counts DNS server requests for the specified record type.
 audience: developer
-ms.assetid: 'ecda7f95-d06a-4867-a267-db89aee2dba8'
-ms.prod: 'windows-server-dev'
+ms.assetid: ecda7f95-d06a-4867-a267-db89aee2dba8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerRecordRequest class", "DnsServerRecordRequest class, described"]
+keywords:
+- DnsServerRecordRequest class
+- DnsServerRecordRequest class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerRecordRequest class
@@ -83,7 +88,7 @@ The number of WINS lookup requests received by the server for the specified reco
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -97,9 +102,9 @@ The number of WINS lookup requests received by the server for the specified reco
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

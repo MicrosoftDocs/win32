@@ -1,7 +1,12 @@
 ---
-Description: 'Given a list of media types, the TryMediaTypes method tries to complete a connection using one of those types.'
-ms.assetid: 'cc437e44-bc59-494e-8669-7f539353a794'
-title: 'CBasePin.TryMediaTypes method'
+Description: Given a list of media types, the TryMediaTypes method tries to complete a connection using one of those types.
+ms.assetid: cc437e44-bc59-494e-8669-7f539353a794
+title: CBasePin.TryMediaTypes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.TryMediaTypes method
@@ -13,9 +18,9 @@ Given a list of media types, the `TryMediaTypes` method tries to complete a conn
 
 ```C++
 virtual HRESULT TryMediaTypes(
-         IPin            *pReceivePin,
-   const CMediaType      *pmt,
-         IEnumMediaTypes *pEnum
+         IPin            *pReceivePin,
+   const CMediaType      *pmt,
+         IEnumMediaTypes *pEnum
 );
 ```
 
@@ -28,7 +33,7 @@ virtual HRESULT TryMediaTypes(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the receiving pin's [**IPin**](ipin.md) interface.
+Pointer to the receiving pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> <dt>
 
@@ -42,7 +47,7 @@ Pointer to a [**CMediaType**](cmediatype.md) object that limits the possible med
 *pEnum* 
 </dt> <dd>
 
-Pointer to an [**IEnumMediaTypes**](ienummediatypes.md) interface, used to enumerate the list of media types.
+Pointer to an [**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master) interface, used to enumerate the list of media types.
 
 </dd> </dl>
 
@@ -59,7 +64,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +90,9 @@ If the *pmt* parameter is non-**NULL**, the pin skips media types that do not ma
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

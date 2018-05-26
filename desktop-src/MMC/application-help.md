@@ -1,14 +1,19 @@
 ---
-title: \_Application Help method
+title: '\_Application Help method'
 description: The Help method displays the Help contents for the console.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b23962c2-8850-4c45-b601-76ff9d1bf9c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b23962c2-8850-4c45-b601-76ff9d1bf9c8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Help method MMC", "Help method MMC , Application object", "Application object MMC , Help method", "Help method MMC , _Application interface", "_Application interface MMC , Help method"]
+keywords:
+- Help method MMC
+- Help method MMC , Application object
+- Application object MMC , Help method
+- Help method MMC , _Application interface
+- _Application interface MMC , Help method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Help method
@@ -57,8 +65,8 @@ objMMC.Help
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -67,9 +75,9 @@ objMMC.Help
 
 
 
- 
+ 
 
- 
+ 
 
 
 

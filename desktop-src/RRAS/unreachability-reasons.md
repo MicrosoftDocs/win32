@@ -1,7 +1,12 @@
 ---
 title: Unreachability Reasons
 description: The following table lists constant values that indicate why an interface is unreachable.
-ms.assetid: '55c0519e-02c8-4a04-bed9-9fe94327a4b6'
+ms.assetid: 55c0519e-02c8-4a04-bed9-9fe94327a4b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unreachability Reasons
@@ -28,10 +33,10 @@ The following table lists constant values that indicate why an interface is unre
 
 <dl> <dt>
 
-[**MPR\_INTERFACE\_0**](mpr-interface-0.md)
+[**MPR\_INTERFACE\_0**](/windows/win32/Mprapi/ns-mprapi-_mpr_interface_0?branch=master)
 </dt> <dt>
 
-[**MPR\_INTERFACE\_1**](mpr-interface-1.md)
+[**MPR\_INTERFACE\_1**](/windows/win32/Mprapi/ns-mprapi-_mpr_interface_1?branch=master)
 </dt> <dt>
 
 [**MIB\_IFROW**](https://msdn.microsoft.com/library/windows/desktop/aa366836)

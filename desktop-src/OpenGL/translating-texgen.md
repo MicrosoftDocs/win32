@@ -1,8 +1,23 @@
 ---
 title: Translating texgen
 description: The IRIS GL function texgen is translated to glTexGen for OpenGL.
-ms.assetid: 'ddf398ed-37d4-4fb6-97be-20fe0564cb77'
-keywords: ["IRIS GL porting,texture", "porting from IRIS GL,texture", "porting to OpenGL from IRIS GL,texture", "OpenGL porting from IRIS GL,texture", "texture", "IRIS GL porting,texgen", "porting from IRIS GL,texgen", "porting to OpenGL from IRIS GL,texgen", "OpenGL porting from IRIS GL,texgen", "texgen"]
+ms.assetid: ddf398ed-37d4-4fb6-97be-20fe0564cb77
+keywords:
+- IRIS GL porting,texture
+- porting from IRIS GL,texture
+- porting to OpenGL from IRIS GL,texture
+- OpenGL porting from IRIS GL,texture
+- texture
+- IRIS GL porting,texgen
+- porting from IRIS GL,texgen
+- porting to OpenGL from IRIS GL,texgen
+- OpenGL porting from IRIS GL,texgen
+- texgen
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating texgen

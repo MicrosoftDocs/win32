@@ -1,7 +1,12 @@
 ---
-Description: 'The following table specifies the most important font metrics for applications that require portable documents and the functions that allow an application to retrieve them.'
-ms.assetid: '61f6d244-7397-42af-af58-0ab9d07bf19e'
+Description: The following table specifies the most important font metrics for applications that require portable documents and the functions that allow an application to retrieve them.
+ms.assetid: 61f6d244-7397-42af-af58-0ab9d07bf19e
 title: Metrics for Portable Documents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metrics for Portable Documents
@@ -12,10 +17,10 @@ The following table specifies the most important font metrics for applications t
 
 | Function                                               | Metric                | Use                                                                                                          |
 |--------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|
-| [**EnumFontFamilies**](enumfontfamilies.md)           | **ntmSizeEM**         | Retrieval of design metrics; conversion to device metrics.                                                   |
-| [**GetCharABCWidths**](getcharabcwidths.md)           | **ABCWidths**         | Accurate placement of characters at the start and end of margins, picture boundaries, and other text breaks. |
-| [**GetCharWidth32**](getcharwidth32.md)               | **AdvanceWidths**     | Placement of characters on a line.                                                                           |
-| [**GetOutlineTextMetrics**](getoutlinetextmetrics.md) | **otmfsType**         | Font-embedding bits.                                                                                         |
+| [**EnumFontFamilies**](/windows/win32/Wingdi/nf-wingdi-enumfontfamiliesa?branch=master)           | **ntmSizeEM**         | Retrieval of design metrics; conversion to device metrics.                                                   |
+| [**GetCharABCWidths**](/windows/win32/Wingdi/nf-wingdi-getcharabcwidthsa?branch=master)           | **ABCWidths**         | Accurate placement of characters at the start and end of margins, picture boundaries, and other text breaks. |
+| [**GetCharWidth32**](/windows/win32/Wingdi/nf-wingdi-getcharwidth32a?branch=master)               | **AdvanceWidths**     | Placement of characters on a line.                                                                           |
+| [**GetOutlineTextMetrics**](/windows/win32/Wingdi/nf-wingdi-getoutlinetextmetricsa?branch=master) | **otmfsType**         | Font-embedding bits.                                                                                         |
 |                                                        | **otmsCharSlopeRise** | Y-component for slope of cursor for italic fonts.                                                            |
 |                                                        | **otmsCharSlopeRun**  | X-component for slope of cursor for italic fonts.                                                            |
 |                                                        | **otmAscent**         | Line spacing.                                                                                                |
@@ -29,7 +34,7 @@ The following table specifies the most important font metrics for applications t
 
  
 
-The **otmsCharSlopeRise**, **otmsCharSlopeRun**, **otmAscent**, **otmDescent**, and **otmLineGap** members of the [OUTLINETEXTMETRIC](outlinetextmetric.md) structure are scaled or transformed to correspond to the current device mode and physical height (as specified in the **tmHeight** member of the [NEWTEXTMETRIC](newtextmetric.md) structure).
+The **otmsCharSlopeRise**, **otmsCharSlopeRun**, **otmAscent**, **otmDescent**, and **otmLineGap** members of the [OUTLINETEXTMETRIC](/windows/win32/Wingdi/ns-wingdi-_outlinetextmetrica?branch=master) structure are scaled or transformed to correspond to the current device mode and physical height (as specified in the **tmHeight** member of the [NEWTEXTMETRIC](/windows/win32/Wingdi/ns-wingdi-tagnewtextmetrica?branch=master) structure).
 
 Font identification is important in those instances when an application must select the same font, for example, when a document is reopened or moved to a different operating system. The font mapper always selects the correct font when an application requests a font by full name. The family and style names provide input to the standard font dialog box, which ensures that the selection bars are properly placed.
 

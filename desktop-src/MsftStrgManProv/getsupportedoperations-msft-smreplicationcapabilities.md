@@ -4,11 +4,14 @@ description: Retrieves the supported operations for the specified replication ty
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e2511e92-df05-4952-b546-768e5d085094'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e2511e92-df05-4952-b546-768e5d085094
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedOperations method", "GetSupportedOperations method, MSFT_SMReplicationCapabilities class", "MSFT_SMReplicationCapabilities class, GetSupportedOperations method"]
+keywords:
+- GetSupportedOperations method
+- GetSupportedOperations method, MSFT_SMReplicationCapabilities class
+- MSFT_SMReplicationCapabilities class, GetSupportedOperations method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedOperations method of the MSFT\_SMReplicationCapabilities class
@@ -28,11 +34,11 @@ Retrieves the supported operations for the specified replication type.
 
 ```mof
 uint32 GetSupportedOperations(
-  [in]            uint16                ReplicationType,
-  [out]           uint16                SupportedOperations[],
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            uint16                ReplicationType,
+  [out]           uint16                SupportedOperations[],
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -224,7 +230,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -413,14 +419,14 @@ An array that contains the supported operations for the replication type.
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *username* \[in, optional\]
 </dt> <dd>
@@ -470,10 +476,10 @@ The possible values are:
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–...)
+**Vendor Specific** (32768 ...)
 </dt> </dl>
 
 ## Requirements
@@ -483,7 +489,7 @@ The possible values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -497,9 +503,9 @@ The possible values are:
 [**MSFT\_SMReplicationCapabilities**](msft-smreplicationcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

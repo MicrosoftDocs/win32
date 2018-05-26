@@ -1,15 +1,18 @@
 ---
-Description: 'The SetGateways &\#32; WMI class method specifies a list of gateways for routing packets to a subnet that is different from the subnet that the network adapter is connected to.'
+Description: The SetGateways &\#32; WMI class method specifies a list of gateways for routing packets to a subnet that is different from the subnet that the network adapter is connected to.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '240f7aff-7a07-4e0d-af30-7bcabb68c736'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 240f7aff-7a07-4e0d-af30-7bcabb68c736
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetGateways method of the Win32\_NetworkAdapterConfiguration class'
+title: SetGateways method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetGateways method of the Win32\_NetworkAdapterConfiguration class
@@ -23,8 +26,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetGateways(
-  [in]           string DefaultIPGateway[],
-  [in, optional] uint16 GatewayCostMetric[]
+  [in]           string DefaultIPGateway[],
+  [in, optional] uint16 GatewayCostMetric[]
 );
 ```
 
@@ -325,7 +328,7 @@ Method not supported when the NIC is in DHCP mode.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -349,8 +352,8 @@ The [Static IP and then join to a domain](https://Gallery.TechNet.Microsoft.Com/
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -376,9 +379,9 @@ The [Static IP and then join to a domain](https://Gallery.TechNet.Microsoft.Com/
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

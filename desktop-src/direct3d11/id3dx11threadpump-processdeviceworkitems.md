@@ -1,8 +1,11 @@
 ---
 title: ID3DX11ThreadPump ProcessDeviceWorkItems method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Sets work items to the device after they have finished loading and processing.
-ms.assetid: '154e6ea5-0a88-4c8a-9c20-e7fbf95f1946'
-keywords: ["ProcessDeviceWorkItems method Direct3D 11", "ProcessDeviceWorkItems method Direct3D 11 , ID3DX11ThreadPump interface", "ID3DX11ThreadPump interface Direct3D 11 , ProcessDeviceWorkItems method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Sets work items to the device after they have finished loading and processing.
+ms.assetid: 154e6ea5-0a88-4c8a-9c20-e7fbf95f1946
+keywords:
+- ProcessDeviceWorkItems method Direct3D 11
+- ProcessDeviceWorkItems method Direct3D 11 , ID3DX11ThreadPump interface
+- ID3DX11ThreadPump interface Direct3D 11 , ProcessDeviceWorkItems method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11ThreadPump::ProcessDeviceWorkItems method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Sets work items to the device after they have finished loading and processing.
 
@@ -28,7 +36,7 @@ Sets work items to the device after they have finished loading and processing.
 
 ```C++
 HRESULT ProcessDeviceWorkItems(
-  [in] UINT iWorkItemCount
+  [in] UINT iWorkItemCount
 );
 ```
 
@@ -80,9 +88,9 @@ As an example of how one might use this API, say you are nearing the end of one 
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

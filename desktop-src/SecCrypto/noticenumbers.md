@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of Extension objects.'
-ms.assetid: 'b0d69df9-12c4-4872-b883-b029c4350502'
+---
+Description: Represents a collection of Extension objects.
+ms.assetid: b0d69df9-12c4-4872-b883-b029c4350502
 title: NoticeNumbers object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NoticeNumbers object

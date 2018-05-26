@@ -1,7 +1,12 @@
 ---
 title: Rasterizer Order Views
 description: Rasterizer ordered views (ROVs) allow pixel shader code to mark UAV bindings with a declaration that alters the normal requirements for the order of graphics pipeline results for UAVs.
-ms.assetid: '7FCFCD28-E68D-4594-8879-937F57245507'
+ms.assetid: 7FCFCD28-E68D-4594-8879-937F57245507
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rasterizer Order Views
@@ -42,9 +47,9 @@ Use these objects in the same manner as other UAV objects (such as `RWBuffer` et
 
 ROVs are an HLSL-only construct that applies different behavior semantics to UAVs. All APIs relevant to UAVs are also relevant to ROVs. Note that the following method, structures, and helper class reference the rasterizer:
 
--   [**D3D11\_RASTERIZER\_DESC2**](d3d11-rasterizer-desc2.md) : structure holding the rasterizer description, noting the CD3D12\_RASTERIZER\_DESC2 helper class for creating rasterizer descriptions.
--   [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS2**](d3d11-feature-data-d3d11-options2.md) : structure holding the boolean `ROVsSupported`, indicating the support.
--   [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) : method to access the supported features.
+-   [**D3D11\_RASTERIZER\_DESC2**](/windows/win32/D3D11_3/ns-d3d11_3-cd3d11_rasterizer_desc2?branch=master) : structure holding the rasterizer description, noting the CD3D12\_RASTERIZER\_DESC2 helper class for creating rasterizer descriptions.
+-   [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS2**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options2?branch=master) : structure holding the boolean `ROVsSupported`, indicating the support.
+-   [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) : method to access the supported features.
 
 ## Related topics
 

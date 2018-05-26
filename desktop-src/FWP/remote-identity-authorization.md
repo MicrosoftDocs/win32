@@ -1,7 +1,12 @@
 ---
 title: Remote Identity Authorization
 description: The Remote Identity Authorization IPsec policy scenario requires that inbound connections come from a specific set of remote security principals which are specified in a Windows security descriptor (SD) access control list (ACL).
-ms.assetid: '4d9f83d6-6f56-4416-8c35-d0260f9e888c'
+ms.assetid: 4d9f83d6-6f56-4416-8c35-d0260f9e888c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Identity Authorization
@@ -25,7 +30,7 @@ To implement this example programmatically, use the following WFP configuration.
     > [!Note]  
     > A common keying module will be negotiated and the corresponding MM policy will be applied. AuthIP is the preferred keying module if both IKE and AuthIP are supported.
 
-     
+     
 
 2.  For each of the contexts added in step 1, add a filter with the following properties. 
     | Filter property        | Value                                            |
@@ -33,18 +38,18 @@ To implement this example programmatically, use the following WFP configuration.
     | Filtering conditions   | Empty. All traffic will match the filter.        |
     | **providerContextKey** | GUID of the MM provider context added in step 1. |
 
-        
+        
 
 **At FWPM\_LAYER\_IPSEC\_V{4\|6} setup QM and EM negotiation policy**  
 
-1.  Add one or both of the following QM transport mode policy provider contexts and set the [**IPSEC\_POLICY\_FLAG\_ND\_SECURE**](ipsec-transport-policy0-struct.md) flag.  
+1.  Add one or both of the following QM transport mode policy provider contexts and set the [**IPSEC\_POLICY\_FLAG\_ND\_SECURE**](/windows/win32/Ipsectypes/ns-ipsectypes-ipsec_transport_policy0_?branch=master) flag.  
     -   For IKE, a policy provider context of type **FWPM\_IPSEC\_IKE\_QM\_TRANSPORT\_CONTEXT**.
     -   For AuthIP, a policy provider context of type **FWPM\_IPSEC\_AUTHIP\_QM\_TRANSPORT\_CONTEXT** that contains the AuthIP Extended Mode (EM) negotiation policy.
 
     > [!Note]  
     > A common keying module will be negotiated and the corresponding QM policy will be applied. AuthIP is the preferred keying module if both IKE and AuthIP are supported.
 
-     
+     
 
 2.  For each of the contexts added in step 1, add a filter with the following properties. 
     | Filter property        | Value                                            |
@@ -52,7 +57,7 @@ To implement this example programmatically, use the following WFP configuration.
     | Filtering conditions   | Empty. All traffic will match the filter.        |
     | **providerContextKey** | GUID of the QM provider context added in step 1. |
 
-        
+        
 
 **At FWPM\_LAYER\_INBOUND\_TRANSPORT\_V{4\|6} setup inbound per-packet filtering rules**  
 
@@ -64,7 +69,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_INBOUND\_TRANSPORT\_V{4\|6}**                                              |
     | **rawContext**                                                    | [**FWPM\_CONTEXT\_IPSEC\_INBOUND\_PERSIST\_CONNECTION\_SECURITY**](filter-context-identifiers.md) |
 
-        
+        
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
     | Filter property                                                   | Value                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -73,7 +78,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | FWP\_ACTION\_PERMIT                                                        |
     | **weight**                                                        | [**FWPM\_WEIGHT\_RANGE\_IKE\_EXEMPTIONS**](filter-weight-identifiers.md)  |
 
-        
+        
 
 **At FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V{4\|6} setup outbound per-packet filtering rules**  
 
@@ -85,7 +90,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_OUTBOUND\_TRANSPORT\_V{4\|6}**                                    |
     | **rawContext**                                                    | [**FWPM\_CONTEXT\_IPSEC\_OUTBOUND\_NEGOTIATE\_DISCOVER**](filter-context-identifiers.md) |
 
-        
+        
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
     | Filter property                                                   | Value                                                                  |
     |-------------------------------------------------------------------|------------------------------------------------------------------------|
@@ -94,7 +99,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_PERMIT**                                                |
     | **weight**                                                        | **FWPM\_WEIGHT\_RANGE\_IKE\_EXEMPTIONS**                               |
 
-        
+        
 
 **At FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6} setup inbound per-connection filtering rules**  
 
@@ -105,7 +110,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                        |
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_INBOUND\_INITIATE\_SECURE\_V{4\|6}** |
 
-        
+        
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
     | Filter property                                                   | Value                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
@@ -114,7 +119,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_PERMIT**                                                    |
     | **weight**                                                        | **FWPM\_WEIGHT\_RANGE\_IKE\_EXEMPTIONS**                                   |
 
-        
+        
 3.  Add a filter with the following properties. This filter will permit inbound connections to TCP port 5555 if the corresponding remote identities are allowed by both SD1 and SD2. 
     | Filter property                                                   | Value                                                              |
     |-------------------------------------------------------------------|--------------------------------------------------------------------|
@@ -126,7 +131,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **action.type**                                                   | **FWP\_ACTION\_CALLOUT\_TERMINATING**                              |
     | **action.calloutKey**                                             | **FWPM\_CALLOUT\_IPSEC\_INBOUND\_INITIATE\_SECURE\_V{4\|6}**       |
 
-        
+        
 4.  Add a filter with the following properties. This filter will block any other inbound connections to TCP port 5555 that did not match the previous filter. 
     | Filter property                                                   | Value                                                              |
     |-------------------------------------------------------------------|--------------------------------------------------------------------|
@@ -135,7 +140,7 @@ To implement this example programmatically, use the following WFP configuration.
     | **FWPM\_CONDITION\_IP\_LOCAL\_PORT** filtering condition          | 5555                                                               |
     | **action.type**                                                   | **FWP\_ACTION\_BLOCK**                                             |
 
-        
+        
 
 </dl>
 
@@ -158,15 +163,15 @@ To implement this example programmatically, use the following WFP configuration.
 [**Filtering Layer Identifiers**](management-filtering-layer-identifiers-.md)
 </dt> <dt>
 
-[**FWPM\_ACTION0**](fwpm-action0-struct.md)
+[**FWPM\_ACTION0**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_action0_?branch=master)
 </dt> <dt>
 
-[**FWPM\_PROVIDER\_CONTEXT\_TYPE**](fwpm-provider-context-type-enum.md)
+[**FWPM\_PROVIDER\_CONTEXT\_TYPE**](/windows/win32/Fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type_?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

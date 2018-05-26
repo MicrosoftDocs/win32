@@ -4,10 +4,13 @@ description: Provides a set of classes and enumerations that represent exception
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6606411D-65A9-48AF-B325-80D493C27B2C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6606411D-65A9-48AF-B325-80D493C27B2C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # com.microsoft.rightsmanagement.exceptions

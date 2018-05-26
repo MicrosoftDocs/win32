@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxDevice object''s data.'
-ms.assetid: 'ff5c449b-15f6-41fa-99b0-da81973b60a0'
-title: 'FaxDevice.Save method'
+---
+Description: The Save method saves the FaxDevice objects data.
+ms.assetid: ff5c449b-15f6-41fa-99b0-da81973b60a0
+title: FaxDevice.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

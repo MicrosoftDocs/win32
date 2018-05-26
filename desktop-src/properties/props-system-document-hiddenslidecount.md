@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b3951c03-e869-42ae-82d3-2616861ce361'
-title: 'System.Document.HiddenSlideCount'
+Description: .
+ms.assetid: b3951c03-e869-42ae-82d3-2616861ce361
+title: System.Document.HiddenSlideCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.HiddenSlideCount

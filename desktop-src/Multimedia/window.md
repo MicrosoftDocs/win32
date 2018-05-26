@@ -1,21 +1,27 @@
 ---
 title: window command
 description: The window command controls the display window.
-ms.assetid: 'b08785f8-9850-4d3b-acbf-b065f45910e1'
-keywords: ["window command Windows Multimedia"]
+ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
+keywords:
+- window command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - window
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # window command
 
 The window command controls the display window. You can use this command to change the display characteristics of the window or provide a destination window for the driver to use in place of the default display window. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ Flag for controlling the display window. The following table lists device types 
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszWindowFlags** parameter and their meanings.
 
@@ -84,7 +90,7 @@ The following table lists the flags that can be specified in the **lpszWindowFla
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,8 +125,8 @@ window movie text "Welcome to the Movies" state show
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -146,9 +152,9 @@ window movie text "Welcome to the Movies" state show
 [update](update.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

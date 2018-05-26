@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to the enumerants of IPrintJobCollection objects.'
-ms.assetid: '2ABABB19-5F4F-418F-AC23-ED0C5DD2D3B0'
-title: 'IPrintJobCollection::NewEnum property'
+---
+Description: Gets a pointer to the enumerants of IPrintJobCollection objects.
+ms.assetid: 2ABABB19-5F4F-418F-AC23-ED0C5DD2D3B0
+title: IPrintJobCollectionNewEnum property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJobCollection::NewEnum property

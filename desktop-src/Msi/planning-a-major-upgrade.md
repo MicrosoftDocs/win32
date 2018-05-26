@@ -1,7 +1,12 @@
 ---
-Description: 'If Windows Installer is used for the installation and setup of an application, later upgrades of that application can be handled by installing an upgrade package.'
-ms.assetid: '69ad4928-e750-47c2-8668-c9e3deff8066'
+Description: If Windows Installer is used for the installation and setup of an application, later upgrades of that application can be handled by installing an upgrade package.
+ms.assetid: 69ad4928-e750-47c2-8668-c9e3deff8066
 title: Planning a Major Upgrade
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Planning a Major Upgrade

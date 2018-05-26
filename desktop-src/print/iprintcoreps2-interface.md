@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintCorePS2 COM Interface. Method prototypes are defined in prcomoem.h.'
-ms.assetid: 'bf7e15df-49ba-4850-acf6-dab5dc137f48'
+---
+Description: This section describes the methods defined for the IPrintCorePS2 COM Interface. Method prototypes are defined in prcomoem.h.
+ms.assetid: bf7e15df-49ba-4850-acf6-dab5dc137f48
 title: IPrintCorePS2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCorePS2 interface

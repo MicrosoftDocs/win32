@@ -3,8 +3,10 @@ title: SoftwareLicensingTokenActivationLicense class
 description: This class exposes properties of installed token-based activation licenses.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a769725a-8cbe-462a-8ef7-6cc2fba06c7e'
-keywords: ["SoftwareLicensingTokenActivationLicense class Windows Management Instrumentation", "SoftwareLicensingTokenActivationLicense class Windows Management Instrumentation , described"]
+ms.assetid: a769725a-8cbe-462a-8ef7-6cc2fba06c7e
+keywords:
+- SoftwareLicensingTokenActivationLicense class Windows Management Instrumentation
+- SoftwareLicensingTokenActivationLicense class Windows Management Instrumentation , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingTokenActivationLicense class
@@ -33,13 +40,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class SoftwareLicensingTokenActivationLicense
 {
-  string   ID;
-  string   ILID;
-  uint32   ILVID;
-  uint32   AuthorizationStatus;
+  string   ID;
+  string   ILID;
+  uint32   ILVID;
+  uint32   AuthorizationStatus;
   datetime ExpirationDate;
-  string   Description;
-  string   AdditionalInfo;
+  string   Description;
+  string   AdditionalInfo;
 };
 ```
 
@@ -62,7 +69,7 @@ The **SoftwareLicensingTokenActivationLicense** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -170,17 +177,17 @@ Specifies a version number that is used along with the ILID to allow customers t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

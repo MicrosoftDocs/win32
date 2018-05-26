@@ -2,12 +2,15 @@
 title: RAMgmtPSProvider Provider
 description: This section provides reference information for RAMgmtPSProvider provider classes defined in RAMgmtPSProvider.mof and implemented in RAMgmtPSProvider.dll.
 audience: developer
-ms.assetid: '66124930-AB0B-4C44-A7B3-58E291DF69BC'
-ms.prod: 'windows-server-dev'
+ms.assetid: 66124930-AB0B-4C44-A7B3-58E291DF69BC
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RAMgmtPSProvider Provider

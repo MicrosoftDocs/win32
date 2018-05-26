@@ -1,7 +1,12 @@
 ---
 title: IVMDVDDrive Methods
 description: The IVMDVDDrive interface exposes the following methods.
-ms.assetid: '13F2C071-6972-4458-89E0-82EC4A071317'
+ms.assetid: 13F2C071-6972-4458-89E0-82EC4A071317
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive Methods

@@ -1,8 +1,15 @@
 ---
 title: Components of NetShell
 description: Some components in NetShell must be defined before a clear understanding of the process for creating a NetShell context can be obtained. This topic provides developers with information about creating NetShell contexts.
-ms.assetid: 'db9c87ad-9cf0-4297-8146-dace840a92c1'
-keywords: ["NetShell NetSh , described, components", "components NetSh"]
+ms.assetid: db9c87ad-9cf0-4297-8146-dace840a92c1
+keywords:
+- NetShell NetSh , described, components
+- components NetSh
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components of NetShell

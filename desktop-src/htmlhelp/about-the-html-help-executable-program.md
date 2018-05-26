@@ -1,7 +1,12 @@
 ---
 title: About the HTML Help Executable Program
 description: About the HTML Help Executable Program
-ms.assetid: 'DAC8FD4A-6E27-4819-B8A3-BACBC74B4DAC'
+ms.assetid: DAC8FD4A-6E27-4819-B8A3-BACBC74B4DAC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help Executable Program

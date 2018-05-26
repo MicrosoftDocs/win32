@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, enabling both surround and elevation (above or below the listener) audio cues.'
-ms.assetid: '4F962F1A-CA4A-4018-BA97-516EA3519650'
+Description: Windows Sonic is Microsoft’s platform-level solution for spatial sound support on Xbox and Windows, enabling both surround and elevation (above or below the listener) audio cues.
+ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spatial Sound
@@ -30,7 +35,7 @@ Dolby Atmos for home theater is listed as a “Bitstream format” option only w
 
 The “Turn on 7.1 virtual surround sound” (Windows) or “Use virtual surround in apps” (Xbox) checkbox allows all existing applications that were capable of rendering to 5.1 or 7.1 channel formats to now treat headphones as a virtual 7.1 device. Content that previously would have only been heard in multichannel via a multichannel home theater, and which would have utilized a linear downmix over headphones, can now be virtualized (using the format specified in the dropdown) and heard over any pair of stereo headphones.
 
-When Windows Sonic is not available (for instance, when playing to embedded laptop stereo speakers, or if the user has not explicitly enabled Windows Sonic per above), the number of available dynamic objects returned by [**ISpatialAudioClient::GetMaxDynamicObjectCount**](ispatialaudioclient-getmaxdynamicobjectcount.md) to an application will be 0.
+When Windows Sonic is not available (for instance, when playing to embedded laptop stereo speakers, or if the user has not explicitly enabled Windows Sonic per above), the number of available dynamic objects returned by [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount?branch=master) to an application will be 0.
 
 ## Windows Sonic and Audio Middleware
 
@@ -38,9 +43,9 @@ Many app and game developers use third party audio rendering engine solutions, w
 
 ## Windows Sonic for Audio Renderers
 
-Many audio renderers target a Windows Audio Session API (WASAPI) [**IAudioClient**](iaudioclient.md) endpoint, where the application feeds buffers of mixed and format-conformed audio data to a WASAPI audio sink; the delivered buffers are then consumed for mixing with other clients, final system-level processing, and rendering.
+Many audio renderers target a Windows Audio Session API (WASAPI) [**IAudioClient**](/windows/win32/Audioclient/nn-audioclient-iaudioclient?branch=master) endpoint, where the application feeds buffers of mixed and format-conformed audio data to a WASAPI audio sink; the delivered buffers are then consumed for mixing with other clients, final system-level processing, and rendering.
 
-Windows Sonic spatial endpoints are implemented as [**ISpatialAudioClient**](ispatialaudioclient.md), which has many similarities to **IAudioClient**. It supports *static* sound objects forming a channel bed, with support for up to 8.1.4.4 channels (8 channels around the listener – Left, Right, Center, Side Left, Side Right, Back Left, Back Right, and Back Center; 1 low frequency effects channel; 4 channels above the listener; 4 channels below the listener). And it supports *dynamic* sound objects, which can be arbitrarily positioned in 3D space.
+Windows Sonic spatial endpoints are implemented as [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master), which has many similarities to **IAudioClient**. It supports *static* sound objects forming a channel bed, with support for up to 8.1.4.4 channels (8 channels around the listener – Left, Right, Center, Side Left, Side Right, Back Left, Back Right, and Back Center; 1 low frequency effects channel; 4 channels above the listener; 4 channels below the listener). And it supports *dynamic* sound objects, which can be arbitrarily positioned in 3D space.
 
 The general implementation coding pattern for **ISpatialAudioClient** is:
 
@@ -52,7 +57,7 @@ Note that the current output format (speakers or headphones; Windows Sonic or Do
 
 ## Windows Sonic Integration with Audio Renderers
 
-Because [**ISpatialAudioClient**](ispatialaudioclient.md) is an audio sink that consumes data, an audio renderer has several options for how to interact with and deliver audio data to it. There are three commonly used integration techniques (and for titles using audio middleware, you may see equivalent plug-ins made available based on these options):
+Because [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) is an audio sink that consumes data, an audio renderer has several options for how to interact with and deliver audio data to it. There are three commonly used integration techniques (and for titles using audio middleware, you may see equivalent plug-ins made available based on these options):
 
 -   **7.1.4 panners and mastering voice**: Renderers that already support 7.1 endpoints may opt to simply add support for the four additional height channels that the **ISpatialAudioClient** static channel bed supports. Any channel panning they previously did (likely already leveraging x,y, z coordinates) can be updated to now include these height channels. This often offers the least disruption to renderer and app audio workflows, signal, flow, and mix control. Over headphones, note that the full app mix will be spatialized – so even stereo music may be perceived as “externalized” from the listener.
 -   **Maintain existing endpoint, plus add a 7.1.4 bus (and panners)**: Some titles may choose to maintain two endpoints: their existing stereo WASAPI endpoint (for “direct to ears” content not meant to be spatialized) alongside an **ISpatialAudioClient** static channel bed supporting 7.1.4 (or even up to 8.1.4.4). Of course, managing interactions between two mixes presents additional challenges to content creators, though synchronization is maintained, as both WASAPI and ISAC instances active at a given time do use the same buffer size and clock for processing.
@@ -100,17 +105,17 @@ Windows Sonic is focused on sound positioning simulation on an idealized sphere 
 
 | Interface                                                                              | Description                                                                                                                    |
 |----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [**ISpatialAudioClient**](ispatialaudioclient.md)                                     | Enables a client to create audio streams that emit audio from a position in 3D space.                                          |
-| [**ISpatialAudioObject**](ispatialaudioobject.md)                                     | Represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.                |
-| [**ISpatialAudioObjectRenderStream**](ispatialaudioobjectrenderstream.md)             | Provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream. |
-| [**ISpatialAudioObjectRenderStreamNotify**](ispatialaudioobjectrenderstreamnotify.md) | Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.     |
+| [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master)                                     | Enables a client to create audio streams that emit audio from a position in 3D space.                                          |
+| [**ISpatialAudioObject**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject?branch=master)                                     | Represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.                |
+| [**ISpatialAudioObjectRenderStream**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream?branch=master)             | Provides methods for controlling a spatial audio object render stream, including starting, stopping, and resetting the stream. |
+| [**ISpatialAudioObjectRenderStreamNotify**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreamnotify?branch=master) | Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.     |
 
 
 
  
 
 > [!Note]  
-> When using the [**ISpatialAudioClient**](ispatialaudioclient.md) interfaces on an Xbox One Development Kit (XDK) title, you must first call **EnableSpatialAudio** before calling [**IMMDeviceEnumerator::EnumAudioEndpoints**](immdeviceenumerator-enumaudioendpoints.md) or [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md). Failure to do so will result in an E\_NOINTERFACE error being returned from the call to Activate. **EnableSpatialAudio** is only available for XDK titles, and does not need to be called for Universal Windows Platform apps running on Xbox One, nor for any non-Xbox One devices.
+> When using the [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) interfaces on an Xbox One Development Kit (XDK) title, you must first call **EnableSpatialAudio** before calling [**IMMDeviceEnumerator::EnumAudioEndpoints**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints?branch=master) or [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master). Failure to do so will result in an E\_NOINTERFACE error being returned from the call to Activate. **EnableSpatialAudio** is only available for XDK titles, and does not need to be called for Universal Windows Platform apps running on Xbox One, nor for any non-Xbox One devices.
 
  
 
@@ -120,8 +125,8 @@ Windows Sonic is focused on sound positioning simulation on an idealized sphere 
 
 | Structure                                                                                                 | Description                                                                  |
 |-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**SpatialAudioObjectRenderStreamActivationParams**](spatialaudioobjectrenderstreamactivationparams-.md) | Represents activation parameters for a spatial audio render stream.          |
-| [**SpatialAudioClientActivationParams**](spatialaudioclientactivationparams.md)                          | Represents optional activation parameters for a spatial audio render stream. |
+| [**SpatialAudioObjectRenderStreamActivationParams**](/windows/win32/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams?branch=master) | Represents activation parameters for a spatial audio render stream.          |
+| [**SpatialAudioClientActivationParams**](/windows/win32/spatialaudioclient/ns-spatialaudioclient-spatialaudioclientactivationparams?branch=master)                          | Represents optional activation parameters for a spatial audio render stream. |
 
 
 
@@ -133,7 +138,7 @@ Windows Sonic is focused on sound positioning simulation on an idealized sphere 
 
 | Enumeration                                | Description                                   |
 |--------------------------------------------|-----------------------------------------------|
-| [**AudioObjectType**](audioobjecttype.md) | Specifies the type of an ISpatialAudioObject. |
+| [**AudioObjectType**](/windows/win32/spatialaudioclient/ne-spatialaudioclient-audioobjecttype?branch=master) | Specifies the type of an ISpatialAudioObject. |
 
 
 

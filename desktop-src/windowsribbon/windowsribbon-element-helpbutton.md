@@ -1,14 +1,20 @@
 ---
 title: HelpButton element
 description: Represents the Help Button control.
-ms.assetid: '24c709da-539e-4ea0-bd3e-d3fbd72dfb97'
-keywords: ["HelpButton element Windows Ribbon"]
+ms.assetid: 24c709da-539e-4ea0-bd3e-d3fbd72dfb97
+keywords:
+- HelpButton element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - HelpButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HelpButton element
@@ -108,7 +114,7 @@ This section of code shows the **HelpButton** control declaration.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -120,9 +126,9 @@ This section of code shows the **HelpButton** control declaration.
 [Help Button control](windowsribbon-controls-helpbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

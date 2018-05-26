@@ -4,17 +4,22 @@ description: Contains the Distributed File System (DFS) Replication content set 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '69b2a293-f80e-4af5-b06c-27d373994318'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 69b2a293-f80e-4af5-b06c-27d373994318
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-ContentSetGuid attribute AD Schema", "msDFSR-ContentSetGuid attribute AD Schema"]
+keywords:
+- ms-DFSR-ContentSetGuid attribute AD Schema
+- msDFSR-ContentSetGuid attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-ContentSetGuid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-ContentSetGuid attribute
@@ -38,10 +43,10 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 The **ms-DFSR-ContentSetGuid** attribute is a part of the DFS Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: The Shared Folders snap-in allows extensions for the following node
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '18cf0d7b-b6b8-475d-8648-d2b45d2bf140'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 18cf0d7b-b6b8-475d-8648-d2b45d2bf140
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shared Folders Extensible Node Types

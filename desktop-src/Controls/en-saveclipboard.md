@@ -1,8 +1,9 @@
 ---
 title: EN\_SAVECLIPBOARD notification code
-description: Notifies the rich edit control's parent window that the control is closing and the clipboard contains information. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: 'e8b95e80-6494-4153-8e78-ede9ed17c66f'
-keywords: ["EN_SAVECLIPBOARD notification code Windows Controls"]
+description: Notifies the rich edit controls parent window that the control is closing and the clipboard contains information. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: e8b95e80-6494-4153-8e78-ede9ed17c66f
+keywords:
+- EN_SAVECLIPBOARD notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_SAVECLIPBOARD notification code
@@ -33,7 +39,7 @@ EN_SAVECLIPBOARD
 *lParam* 
 </dt> <dd>
 
-An [**ENSAVECLIPBOARD**](ensaveclipboard.md) structure that contains information about clipboard information.
+An [**ENSAVECLIPBOARD**](/windows/win32/Richedit/ns-richedit-_ensaveclipboard?branch=master) structure that contains information about clipboard information.
 
 </dd> </dl>
 
@@ -53,8 +59,8 @@ The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -66,12 +72,12 @@ The parent window will always get a [**WM\_NOTIFY**](wm-notify.md) message for t
 **Reference**
 </dt> <dt>
 
-[**ENSAVECLIPBOARD**](ensaveclipboard.md)
+[**ENSAVECLIPBOARD**](/windows/win32/Richedit/ns-richedit-_ensaveclipboard?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

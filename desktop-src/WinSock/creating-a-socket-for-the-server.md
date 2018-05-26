@@ -1,7 +1,12 @@
 ---
-Description: 'After initialization, a SOCKET object must be instantiated for use by the server.'
-ms.assetid: '2f3a7cab-3296-41ec-ac7e-224655b92a7c'
+Description: After initialization, a SOCKET object must be instantiated for use by the server.
+ms.assetid: 2f3a7cab-3296-41ec-ac7e-224655b92a7c
 title: Creating a Socket for the Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Socket for the Server
@@ -10,15 +15,15 @@ After initialization, a **SOCKET** object must be instantiated for use by the se
 
 **To create a socket for the server**
 
-1.  The [**getaddrinfo**](getaddrinfo-2.md) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure:
+1.  The [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure:
 
     -   **AF\_INET** is used to specify the IPv4 address family.
     -   **SOCK\_STREAM** is used to specify a stream socket.
     -   **IPPROTO\_TCP** is used to specify the TCP protocol .
-    -   **AI\_PASSIVE** flag indicates the caller intends to use the returned socket address structure in a call to the [**bind**](bind-2.md) function. When the **AI\_PASSIVE** flag is set and *nodename* parameter to the [**getaddrinfo**](getaddrinfo-2.md) function is a **NULL** pointer, the IP address portion of the socket address structure is set to **INADDR\_ANY** for IPv4 addresses or **IN6ADDR\_ANY\_INIT** for IPv6 addresses.
+    -   **AI\_PASSIVE** flag indicates the caller intends to use the returned socket address structure in a call to the [**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master) function. When the **AI\_PASSIVE** flag is set and *nodename* parameter to the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function is a **NULL** pointer, the IP address portion of the socket address structure is set to **INADDR\_ANY** for IPv4 addresses or **IN6ADDR\_ANY\_INIT** for IPv6 addresses.
     -   27015 is the port number associated with the server that the client will connect to.
 
-    The [**addrinfo**](addrinfo-2.md) structure is used by the [**getaddrinfo**](getaddrinfo-2.md) function.
+    The [**addrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-freeaddrinfo?branch=master) structure is used by the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function.
 
     ```C++
     #define DEFAULT_PORT "27015"
@@ -49,7 +54,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the se
 
     
 
-3.  Call the [**socket**](socket-2.md) function and return its value to the ListenSocket variable. For this server application, use the first IP address returned by the call to [**getaddrinfo**](getaddrinfo-2.md) that matched the address family, socket type, and protocol specified in the *hints* parameter. In this example, a TCP stream socket for IPv4 was requested with an address family of IPv4, a socket type of SOCK\_STREAM and a protocol of IPPROTO\_TCP. So an IPv4 address is requested for the ListenSocket.
+3.  Call the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function and return its value to the ListenSocket variable. For this server application, use the first IP address returned by the call to [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) that matched the address family, socket type, and protocol specified in the *hints* parameter. In this example, a TCP stream socket for IPv4 was requested with an address family of IPv4, a socket type of SOCK\_STREAM and a protocol of IPPROTO\_TCP. So an IPv4 address is requested for the ListenSocket.
 
     If the server application wants to listen on IPv6, then the address family needs to be set to AF\_INET6 in the *hints* parameter. If a server wants to listen on both IPv6 and IPv4, two listen sockets must be created, one for IPv6 and one for IPv4. These two sockets must be handled separately by the application.
 

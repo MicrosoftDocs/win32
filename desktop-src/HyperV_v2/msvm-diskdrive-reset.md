@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a reset.'
-ms.assetid: '1c1de976-fa2b-4401-baa3-e5e0ed23f6ff'
-title: 'Reset method of the Msvm\_DiskDrive class'
+Description: Requests a reset.
+ms.assetid: 1c1de976-fa2b-4401-baa3-e5e0ed23f6ff
+title: Reset method of the Msvm\_DiskDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_DiskDrive class
@@ -39,8 +44,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ This method returns one of the following values:
 [**Msvm\_DiskDrive**](msvm-diskdrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

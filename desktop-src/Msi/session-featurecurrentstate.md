@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FeatureCurrentState property of the Session object is a read-only property that returns the current installed state of the designated feature. For state values, see the FeatureRequestState property.'
-ms.assetid: 'c4c325dc-6e7e-4009-8707-952c04574170'
-title: 'Session.FeatureCurrentState property'
+---
+Description: The FeatureCurrentState property of the Session object is a read-only property that returns the current installed state of the designated feature. For state values, see the FeatureRequestState property.
+ms.assetid: c4c325dc-6e7e-4009-8707-952c04574170
+title: Session.FeatureCurrentState property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.FeatureCurrentState property

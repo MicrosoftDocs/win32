@@ -1,8 +1,9 @@
 ---
 title: HDN\_FILTERBTNCLICK notification code
-description: Notifies the header control's parent window when the filter button is clicked or in response to an HDM\_SETITEM message. This notification code sent in the form of a WM\_NOTIFY message.
-ms.assetid: '36b85cdc-1022-4568-8891-0c919c850fd4'
-keywords: ["HDN_FILTERBTNCLICK notification code Windows Controls"]
+description: Notifies the header controls parent window when the filter button is clicked or in response to an HDM\_SETITEM message. This notification code sent in the form of a WM\_NOTIFY message.
+ms.assetid: 36b85cdc-1022-4568-8891-0c919c850fd4
+keywords:
+- HDN_FILTERBTNCLICK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_FILTERBTNCLICK notification code
@@ -33,7 +39,7 @@ HDN_FILTERBTNCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDFILTERBTNCLICK**](nmhdfilterbtnclick.md) structure that contains information about the header control and the header filter button.
+A pointer to an [**NMHDFILTERBTNCLICK**](/windows/win32/Commctrl/ns-commctrl-tagnmhdfilterbtnclick?branch=master) structure that contains information about the header control and the header filter button.
 
 </dd> </dl>
 
@@ -47,8 +53,8 @@ If you return **TRUE**, an [HDN\_FILTERCHANGE](hdn-filterchange.md) notification
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ If you return **TRUE**, an [HDN\_FILTERCHANGE](hdn-filterchange.md) notification
 
 <dl> <dt>
 
-[**NMHDFILTERBTNCLICK**](nmhdfilterbtnclick.md)
+[**NMHDFILTERBTNCLICK**](/windows/win32/Commctrl/ns-commctrl-tagnmhdfilterbtnclick?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

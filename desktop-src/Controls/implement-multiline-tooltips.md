@@ -1,7 +1,12 @@
 ---
 title: How to Implement Multiline Tooltips
 description: Multiline tooltips allow text to be displayed on more than one line.
-ms.assetid: '62B10B44-C1C2-4C86-8648-AE6B606BACBB'
+ms.assetid: 62B10B44-C1C2-4C86-8648-AE6B606BACBB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement Multiline Tooltips
@@ -15,7 +20,7 @@ The resulting display is shown in the following illustration.
 ![screen shot of a dialog box with a tooltip that contains text arranged like a multi-line paragraph](images/tt-multiline.png)
 
 > [!Note]  
-> The text buffer specified by the **szText** member of the [**NMTTDISPINFO**](nmttdispinfo.md) structure can accommodate only 80 characters. If you need to use a longer string, point the **lpszText** member of **NMTTDISPINFO** to a buffer containing the desired text.
+> The text buffer specified by the **szText** member of the [**NMTTDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmttdispinfoa?branch=master) structure can accommodate only 80 characters. If you need to use a longer string, point the **lpszText** member of **NMTTDISPINFO** to a buffer containing the desired text.
 
  
 

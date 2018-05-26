@@ -1,8 +1,11 @@
 ---
 title: IWMPLibrary type property
 description: The type property gets a value that indicates the library type.
-ms.assetid: '869eab74-e793-4b04-b634-079feac8cf7b'
-keywords: ["type property Windows Media Player", "type property Windows Media Player , IWMPLibrary interface", "IWMPLibrary interface Windows Media Player , type property"]
+ms.assetid: 869eab74-e793-4b04-b634-079feac8cf7b
+keywords:
+- type property Windows Media Player
+- type property Windows Media Player , IWMPLibrary interface
+- IWMPLibrary interface Windows Media Player , type property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibrary::type property
@@ -70,12 +78,12 @@ A **WMPLib.WMPLibraryType** that is a value from the **WMPLibraryType** enumerat
 [**IWMPLibrary.name (VB and C#)**](wmplibiwmplibrary-iwmplibrary-name--vb-and-c.md)
 </dt> <dt>
 
-[**WMPLibraryType**](wmplibrarytype.md)
+[**WMPLibraryType**](/windows/win32/wmp/ne-wmp-wmplibrarytype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

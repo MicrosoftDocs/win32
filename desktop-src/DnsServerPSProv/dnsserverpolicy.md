@@ -2,13 +2,15 @@
 title: DnsServerPolicy class
 description: Contains the DNS server policy.
 audience: developer
-ms.assetid: 'f7441c92-0645-4f96-8c9a-7b60c8e2374f'
-ms.prod: 'windows-server-dev'
+ms.assetid: f7441c92-0645-4f96-8c9a-7b60c8e2374f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerPolicy class", "DnsServerPolicy class, described"]
+keywords:
+- DnsServerPolicy class
+- DnsServerPolicy class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerPolicy class
@@ -41,16 +46,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerPolicy
 {
-  string                  Name;
-  string                  Level;
-  string                  AppliesOn;
-  string                  Action;
-  string                  Condition;
-  boolean                 IsEnabled;
-  uint32                  ProcessingOrder;
-  string                  ZoneName;
+  string                  Name;
+  string                  Level;
+  string                  AppliesOn;
+  string                  Action;
+  string                  Condition;
+  boolean                 IsEnabled;
+  uint32                  ProcessingOrder;
+  string                  ZoneName;
   DnsServerPolicyCriteria Criteria[];
-  DnsServerPolicyContent  Content[];
+  DnsServerPolicyContent  Content[];
 };
 ```
 
@@ -326,7 +331,7 @@ The name of the zone.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -340,9 +345,9 @@ The name of the zone.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

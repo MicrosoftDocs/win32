@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyError GetFile method
 description: Retrieves an interface pointer to the file object associated with the error.
-ms.assetid: '7E1DB3EE-0690-4D0E-BA98-70F5FBDCF12F'
-keywords: ["GetFile method", "GetFile method, IBackgroundCopyError interface", "IBackgroundCopyError interface, GetFile method"]
+ms.assetid: 7E1DB3EE-0690-4D0E-BA98-70F5FBDCF12F
+keywords:
+- GetFile method
+- GetFile method, IBackgroundCopyError interface
+- IBackgroundCopyError interface, GetFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyError::GetFile method
@@ -22,7 +30,7 @@ Retrieves an interface pointer to the file object associated with the error.
 
 ```C++
 HRESULT GetFile(
-  [out] IBackgroundCopyFile **ppFile
+  [out] IBackgroundCopyFile **ppFile
 );
 ```
 
@@ -52,7 +60,7 @@ This method returns the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,7 +68,7 @@ This method returns the following **HRESULT** values.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -80,9 +88,9 @@ This method returns the following **HRESULT** values.
 [**IBackgroundCopyError::GetError**](ibackgroundcopyerror-geterror-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

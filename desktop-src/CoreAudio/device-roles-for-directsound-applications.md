@@ -1,7 +1,12 @@
 ---
 Description: Device Roles for DirectSound Applications
-ms.assetid: '7d82d67f-aad8-4e5b-ac65-87d75774e613'
+ms.assetid: 7d82d67f-aad8-4e5b-ac65-87d75774e613
 title: Device Roles for DirectSound Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Roles for DirectSound Applications
@@ -87,14 +92,14 @@ In the preceding code example, the GetDirectSoundGuid function accepts a data-fl
 
 The preceding code example obtains the DirectSound device GUID by:
 
--   Creating an [**IMMDevice**](immdevice.md) interface instance that represents the audio endpoint device that has the specified data-flow direction and device role.
+-   Creating an [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface instance that represents the audio endpoint device that has the specified data-flow direction and device role.
 -   Opening the property store of the audio endpoint device.
 -   Getting the [**PKEY\_AudioEndpoint\_GUID**](pkey-audioendpoint-guid.md) property from the property store. The property value is a string representation of the DirectSound device GUID for the audio endpoint device.
 -   Calling the [**CLSIDFromString**](CLSIDFromString) function to convert the string representation of the device GUID to a GUID structure. For more information about **CLSIDFromString**, see the Windows SDK documentation.
 
 After obtaining a device GUID from the GetDirectSoundGuid function, the application can call **DirectSoundCreate** or **DirectSoundCaptureCreate** with this GUID to create the DirectSound rendering or capture device that encapsulates the audio endpoint device. When DirectSound creates a device in this way, it always assigns the device's audio stream to the default session—the process-specific audio session that is identified by the session GUID value GUID\_NULL.
 
-If the application requires DirectSound to assign the stream to a cross-process audio session or to a session with a non-**NULL** session GUID, it should call the [**IMMDevice::Activate**](immdevice-activate.md) method to create an **IDirectSound** or **IDirectSoundCapture** object instead of using the technique shown in the preceding code example. For a code example that shows how to use the **Activate** method to specify a cross-process audio session or a non-**NULL** session GUID for a stream, see [Device Roles for DirectShow Applications](device-roles-for-directshow-applications.md). The code example in that section shows how to create a DirectShow filter, but, with minor modifications, the code can be adapted to create a DirectSound device.
+If the application requires DirectSound to assign the stream to a cross-process audio session or to a session with a non-**NULL** session GUID, it should call the [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) method to create an **IDirectSound** or **IDirectSoundCapture** object instead of using the technique shown in the preceding code example. For a code example that shows how to use the **Activate** method to specify a cross-process audio session or a non-**NULL** session GUID for a stream, see [Device Roles for DirectShow Applications](device-roles-for-directshow-applications.md). The code example in that section shows how to create a DirectShow filter, but, with minor modifications, the code can be adapted to create a DirectSound device.
 
 The GetDirectSoundGuid function in the preceding code example calls the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function to create an enumerator for the audio endpoint devices in the system. Unless the calling program previously called either the [**CoInitialize**](https://msdn.microsoft.com/library/windows/desktop/ms678543) or [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) function to initialize the COM library, the **CoCreateInstance** call will fail. For more information about **CoCreateInstance**, **CoInitialize**, and **CoInitializeEx**, see the Windows SDK documentation.
 

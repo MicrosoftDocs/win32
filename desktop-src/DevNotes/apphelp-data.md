@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains Apphelp data information.'
-ms.assetid: '31b305e9-1f38-4952-b4fd-963df79b1346'
-title: 'APPHELP\_DATA structure'
+---
+Description: Contains Apphelp data information.
+ms.assetid: 31b305e9-1f38-4952-b4fd-963df79b1346
+title: APPHELP\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # APPHELP\_DATA structure

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_UserDevice class is a parent class from which other classes, such as CIM\_Keyboard or CIM\_DesktopMonitor, descend. User devices are logical devices that allow a computer system''s user to input, view, or hear data.'
+Description: The CIM\_UserDevice class is a parent class from which other classes, such as CIM\_Keyboard or CIM\_DesktopMonitor, descend. User devices are logical devices that allow a computer systems user to input, view, or hear data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '311a065a-df9b-4c4b-bdc4-d3de89ce2f3d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 311a065a-df9b-4c4b-bdc4-d3de89ce2f3d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_UserDevice class'
+title: CIM\_UserDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_UserDevice class
@@ -19,7 +22,7 @@ The **CIM\_UserDevice** class is a parent class from which other classes, such a
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,26 +32,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C533-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_UserDevice : CIM_LogicalDevice
 {
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsLocked;
-  uint32   LastErrorCode;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  boolean  IsLocked;
+  uint32   LastErrorCode;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -72,7 +75,7 @@ The **CIM\_UserDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1158,8 +1161,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1173,9 +1176,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

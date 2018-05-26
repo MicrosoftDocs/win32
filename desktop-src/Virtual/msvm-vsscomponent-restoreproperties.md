@@ -1,8 +1,11 @@
 ---
 title: RestoreProperties method of the Msvm\_VssComponent class
 description: Restores a previous configuration and state of the logical device.
-ms.assetid: '7c2e31cb-8344-4890-a3a9-ba95666bb398'
-keywords: ["RestoreProperties method Hyper-V", "RestoreProperties method Hyper-V , Msvm_VssComponent class", "Msvm_VssComponent class Hyper-V , RestoreProperties method"]
+ms.assetid: 7c2e31cb-8344-4890-a3a9-ba95666bb398
+keywords:
+- RestoreProperties method Hyper-V
+- RestoreProperties method Hyper-V , Msvm_VssComponent class
+- Msvm_VssComponent class Hyper-V , RestoreProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestoreProperties method of the Msvm\_VssComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_VssComponent**](msvm-vsscomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

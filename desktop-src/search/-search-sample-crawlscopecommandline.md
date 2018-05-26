@@ -1,7 +1,12 @@
 ---
-Description: 'The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.'
-ms.assetid: '8c82fe18-8676-43d2-a3da-027a733ee0a4'
+Description: The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+ms.assetid: 8c82fe18-8676-43d2-a3da-027a733ee0a4
 title: CrawlScopeCommandLine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CrawlScopeCommandLine
@@ -81,31 +86,31 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**IEnumSearchRoots**](-search-ienumsearchroots.md)
+[**IEnumSearchRoots**](/windows/win32/Searchapi/nn-searchapi-ienumsearchroots?branch=master)
 </dt> <dt>
 
-[**IEnumSearchScopeRules**](-search-ienumsearchscoperules.md)
+[**IEnumSearchScopeRules**](/windows/win32/Searchapi/nn-searchapi-ienumsearchscoperules?branch=master)
 </dt> <dt>
 
-[**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md)
+[**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master)
 </dt> <dt>
 
-[**ISearchCrawlScopeManager2**](-search-isearchcrawlscopemanager2.md)
+[**ISearchCrawlScopeManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager2?branch=master)
 </dt> <dt>
 
-[**ISearchRoot**](-search-isearchroot.md)
+[**ISearchRoot**](/windows/win32/Searchapi/nn-searchapi-isearchroot?branch=master)
 </dt> <dt>
 
-[**ISearchScopeRule**](-search-isearchscoperule.md)
+[**ISearchScopeRule**](/windows/win32/Searchapi/nn-searchapi-isearchscoperule?branch=master)
 </dt> <dt>
 
-[**ISearchCatalogManager**](-search-isearchcatalogmanager.md)
+[**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master)
 </dt> <dt>
 
-[**ISearchCatalogManager2**](-search-isearchcatalogmanager2.md)
+[**ISearchCatalogManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager2?branch=master)
 </dt> <dt>
 
-[**ISearchManager**](-search-isearchmanager.md)
+[**ISearchManager**](/windows/win32/Searchapi/nn-searchapi-isearchmanager?branch=master)
 </dt> <dt>
 
 **Conceptual**

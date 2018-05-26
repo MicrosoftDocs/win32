@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a TCP/IP network interface and a network port.'
-ms.assetid: '0a9ffc0f-15f4-4d5a-b7c8-77534a285dc7'
-title: 'MSFT\_NetIPInterfaceAdapter class'
+Description: Represents an association between a TCP/IP network interface and a network port.
+ms.assetid: 0a9ffc0f-15f4-4d5a-b7c8-77534a285dc7
+title: MSFT\_NetIPInterfaceAdapter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIPInterfaceAdapter class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetIPInterfaceAdapter : CIM_PortImplementsEndpoint
 {
   MSFT_NetIPInterface REF Antecedent;
-  CIM_NetworkPort     REF Dependent;
+  CIM_NetworkPort     REF Dependent;
 };
 ```
 
@@ -71,8 +76,8 @@ The [**CIM\_NetworkPort**](https://msdn.microsoft.com/library/cc136873) object a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -92,9 +97,9 @@ The [**CIM\_NetworkPort**](https://msdn.microsoft.com/library/cc136873) object a
 [**CIM\_NetworkPort**](https://msdn.microsoft.com/library/cc136873)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

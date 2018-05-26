@@ -4,17 +4,22 @@ description: This object contains the connection point for RRAS.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '16befdfb-d15c-4c08-b46d-480bb2f8f11f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 16befdfb-d15c-4c08-b46d-480bb2f8f11f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["RRAS-Administration-Connection-Point class AD Schema", "rRASAdministrationConnectionPoint class AD Schema"]
+keywords:
+- RRAS-Administration-Connection-Point class AD Schema
+- rRASAdministrationConnectionPoint class AD Schema
 topic_type:
 - apiref
 api_name:
 - RRAS-Administration-Connection-Point
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RRAS-Administration-Connection-Point class
@@ -35,12 +40,12 @@ This object contains the connection point for RRAS.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -67,7 +72,7 @@ This object contains the connection point for RRAS.
 
 ## Windows 2000 Server Attributes
 
-This class contains the following attributes for Windows 2000 Server:
+This class contains the following attributes for Windows 2000 Server:
 
 
 
@@ -181,7 +186,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -319,7 +324,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -460,7 +465,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -612,7 +617,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -771,7 +776,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -911,9 +916,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

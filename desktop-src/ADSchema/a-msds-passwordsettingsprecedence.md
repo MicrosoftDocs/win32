@@ -4,17 +4,22 @@ description: Password settings precedence.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cdcec1e4-87a8-4ff0-9df3-5f1cd90875f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cdcec1e4-87a8-4ff0-9df3-5f1cd90875f6
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Password-Settings-Precedence attribute AD Schema", "msDS-PasswordSettingsPrecedence attribute AD Schema"]
+keywords:
+- ms-DS-Password-Settings-Precedence attribute AD Schema
+- msDS-PasswordSettingsPrecedence attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Password-Settings-Precedence
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Password-Settings-Precedence attribute
@@ -38,9 +43,9 @@ Password settings precedence.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Password settings precedence.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

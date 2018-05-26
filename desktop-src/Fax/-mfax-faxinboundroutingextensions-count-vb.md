@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxInboundRoutingExtensions collection. This is the total number of inbound routing extensions associated with the fax server.'
-ms.assetid: 'e9ecb396-28ce-4533-abab-bd03553c57d6'
-title: 'FaxInboundRoutingExtensions.Count property'
+---
+Description: The Count property represents the number of objects in the FaxInboundRoutingExtensions collection. This is the total number of inbound routing extensions associated with the fax server.
+ms.assetid: e9ecb396-28ce-4533-abab-bd03553c57d6
+title: FaxInboundRoutingExtensions.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtensions.Count property
@@ -46,7 +51,7 @@ A **Long** that receives the number of objects in the [**FaxInboundRoutingExtens
 [**FaxInboundRoutingExtensions**](-mfax-faxinboundroutingextensions.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtensions**](-mfax-faxinboundroutingextensions-cpp.md)
+[**IFaxInboundRoutingExtensions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextensions?branch=master)
 </dt> </dl>
 
  

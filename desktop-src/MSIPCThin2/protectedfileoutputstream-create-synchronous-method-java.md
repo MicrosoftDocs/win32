@@ -4,17 +4,21 @@ description: Synchronously creates a new ProtectedFileOutputStream.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E55677B6-FA72-4ACC-BF13-D56D5F5709FB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: E55677B6-FA72-4ACC-BF13-D56D5F5709FB
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileOutputStream.create synchronous method"]
+keywords:
+- ProtectedFileOutputStream.create synchronous method
 topic_type:
 - apiref
 api_name:
 - ProtectedFileOutputStream.create synchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileOutputStream.create synchronous method
@@ -45,7 +49,7 @@ public static ProtectedFileOutputStream create(
 
 
 
- 
+ 
 
 ## Returns
 
@@ -69,11 +73,11 @@ ProtectedFileOutputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

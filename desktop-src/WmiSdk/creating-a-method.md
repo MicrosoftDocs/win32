@@ -1,13 +1,16 @@
 ---
-Description: 'To create a WMI method, define the input and output parameters for the method.'
+Description: To create a WMI method, define the input and output parameters for the method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '71cbecde-33c4-4bf1-9793-bef6d823dcac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 71cbecde-33c4-4bf1-9793-bef6d823dcac
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a WMI Method
@@ -52,10 +55,10 @@ The following list defines the elements of the method declaration.
 
 <dl> <dt>
 
-<span id="Provider"></span><span id="provider"></span><span id="PROVIDER"></span>[**Provider**](provider.md)
+<span id="Provider"></span><span id="provider"></span><span id="PROVIDER"></span>[**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master)
 </dt> <dd>
 
-Links a specific provider to your class description. The value of the [**Provider**](provider.md) qualifier is the name of the provider, which tells WMI where the code that supports your method resides. A provider should also mark with the **Dynamic** qualifier any class that has dynamic instances. In contrast, do not use the **Dynamic** qualifier to mark a class that contains a static instance with **Implemented** methods.
+Links a specific provider to your class description. The value of the [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier is the name of the provider, which tells WMI where the code that supports your method resides. A provider should also mark with the **Dynamic** qualifier any class that has dynamic instances. In contrast, do not use the **Dynamic** qualifier to mark a class that contains a static instance with **Implemented** methods.
 
 </dd> <dt>
 
@@ -173,11 +176,11 @@ The following procedure describes how to create a WMI class method programmatica
 
     You must first have a class to place the method in before you create the method.
 
-2.  Retrieve two child classes of the [**\_\_PARAMETERS**](--parameters.md) system class using either [**IWbemServices::GetObject**](iwbemservices-getobject.md) or [**GetObjectAsync**](iwbemservices-getobjectasync.md).
+2.  Retrieve two child classes of the [**\_\_PARAMETERS**](--parameters.md) system class using either [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
 
-    Use the first child class to describe the in-parameters, and the second to describe the out-parameters. If necessary, you can perform a single retrieval followed by a call to the [**IWbemClassObject::Clone**](iwbemclassobject-clone.md) method.
+    Use the first child class to describe the in-parameters, and the second to describe the out-parameters. If necessary, you can perform a single retrieval followed by a call to the [**IWbemClassObject::Clone**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-clone?branch=master) method.
 
-3.  Write the in-parameters to the first class, and the out-parameters to the second class, using one or more calls to [**IWbemClassObject::Put**](iwbemclassobject-put.md).
+3.  Write the in-parameters to the first class, and the out-parameters to the second class, using one or more calls to [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master).
 
     When describing parameters to a method, observe the following rules and restrictions:
 
@@ -195,9 +198,9 @@ The following procedure describes how to create a WMI class method programmatica
 
     -   Express any default parameter values for the property in the class.
 
-4.  Place both [**\_\_PARAMETERS**](--parameters.md) objects into the parent class with a call to [**IWbemClassObject::PutMethod**](iwbemclassobject-putmethod.md).
+4.  Place both [**\_\_PARAMETERS**](--parameters.md) objects into the parent class with a call to [**IWbemClassObject::PutMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-putmethod?branch=master).
 
-    A single call to [**PutMethod**](iwbemclassobject-putmethod.md) can place both [**\_\_PARAMETERS**](--parameters.md) objects into the class.
+    A single call to [**PutMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-putmethod?branch=master) can place both [**\_\_PARAMETERS**](--parameters.md) objects into the class.
 
 ## Related topics
 

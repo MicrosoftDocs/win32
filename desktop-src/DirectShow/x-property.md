@@ -1,7 +1,12 @@
 ---
-Description: 'The x property sets or retrieves the x position of the rectangle''s upper-left corner.'
-ms.assetid: 'de03f3e6-12c8-4a7c-a424-ef974d223e70'
+Description: The x property sets or retrieves the x position of the rectangles upper-left corner.
+ms.assetid: de03f3e6-12c8-4a7c-a424-ef974d223e70
 title: x Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # x Property

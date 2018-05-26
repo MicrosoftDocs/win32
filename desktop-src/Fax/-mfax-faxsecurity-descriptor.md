@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Descriptor property represents the security descriptor for a FaxServer object.'
-ms.assetid: '66911dcd-2c46-4ef3-ae77-cb94249e92e3'
-title: 'FaxSecurity.Descriptor property'
+---
+Description: The Descriptor property represents the security descriptor for a FaxServer object.
+ms.assetid: 66911dcd-2c46-4ef3-ae77-cb94249e92e3
+title: FaxSecurity.Descriptor property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity.Descriptor property
@@ -25,9 +30,9 @@ A **Variant** that specifies or receives the security descriptor. The security d
 
 ## Remarks
 
-The **Descriptor** property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The [**GrantedRights**](-mfax-faxsecurity-grantedrights-vb.md) property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right [****farSUBMIT\_HIGH****](-mfax-fax-access-rights-enum.md), the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right [****farSUBMIT\_NORMAL****](-mfax-fax-access-rights-enum.md), the user can send normal-priority and low-priority faxes.
+The **Descriptor** property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator. The [**GrantedRights**](-mfax-faxsecurity-grantedrights-vb.md) property reflects the user rights that the fax server grants based on the descriptor. Specifically, if a user has the access right [****farSUBMIT\_HIGH****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master), the user can send high-priority, normal-priority and low-priority faxes. If a user has the access right [****farSUBMIT\_NORMAL****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master), the user can send normal-priority and low-priority faxes.
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxSecurity**](-mfax-faxsecurity.md)
 </dt> <dt>
 
-[**IFaxSecurity::Descriptor**](-mfax-faxsecurity-descriptor-cpp.md)
+[**IFaxSecurity::Descriptor**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxsecurity-get_descriptor?branch=master)
 </dt> </dl>
 
  

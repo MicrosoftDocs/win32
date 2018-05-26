@@ -1,8 +1,17 @@
 ---
 title: About Routing Table Manager Version 1
 description: The routing table manager is a central repository of routing information for all routing protocols that operate under Routing and Remote Access Service (RRAS).
-ms.assetid: '6d0e7697-5c52-4a69-b2a1-9c893600191b'
-keywords: ["Routing and Remote Access Service RRAS , Routing Table Manager Version 1", "Routing and Remote Access Service RRAS , Routing Table Manager Version 1, described", "Routing Table Manager Version 1 RRAS", "Routing Table Manager Version 1 RRAS , described"]
+ms.assetid: 6d0e7697-5c52-4a69-b2a1-9c893600191b
+keywords:
+- Routing and Remote Access Service RRAS , Routing Table Manager Version 1
+- Routing and Remote Access Service RRAS , Routing Table Manager Version 1, described
+- Routing Table Manager Version 1 RRAS
+- Routing Table Manager Version 1 RRAS , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Routing Table Manager Version 1

@@ -1,7 +1,12 @@
 ---
-Description: 'To report events, you must first define the events in a message text file. For details on writing a message text file, see Message Text Files. The following shows the message text file used in this example.'
-ms.assetid: 'ace31e17-a638-414f-8518-9b944118047b'
+Description: To report events, you must first define the events in a message text file. For details on writing a message text file, see Message Text Files. The following shows the message text file used in this example.
+ms.assetid: ace31e17-a638-414f-8518-9b944118047b
 title: Reporting Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reporting Events
@@ -266,7 +271,7 @@ The following shows the header file that the compiler generated for the above me
 
 
 
-The following example shows how to use the [**ReportEvent**](reportevent.md) function to write the events defined in the above message text file.
+The following example shows how to use the [**ReportEvent**](/windows/win32/Winbase/nf-winbase-reporteventa?branch=master) function to write the events defined in the above message text file.
 
 
 ```C++

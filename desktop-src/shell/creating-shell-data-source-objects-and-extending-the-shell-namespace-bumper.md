@@ -1,6 +1,11 @@
 ---
 Description: Creating Shell Data Source Objects and Extending the Shell Namespace
 title: Creating Shell Data Source Objects and Extending the Shell Namespace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Shell Data Source Objects and Extending the Shell Namespace

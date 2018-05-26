@@ -1,7 +1,12 @@
 ---
-Description: 'The recommended method for generating a patch package is to use patch creation tools such as Msimsp.exe and Patchwiz.dll. The Msimsp.exe tool is only available in the Windows SDK Components for Windows Installer Developers.'
-ms.assetid: 'fa8e9d68-3db1-4d17-aa99-2ca0ed421c7a'
-title: 'Msimsp.exe'
+Description: The recommended method for generating a patch package is to use patch creation tools such as Msimsp.exe and Patchwiz.dll. The Msimsp.exe tool is only available in the Windows SDK Components for Windows Installer Developers.
+ms.assetid: fa8e9d68-3db1-4d17-aa99-2ca0ed421c7a
+title: Msimsp.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msimsp.exe

@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo.URI property
 description: For scripting, gets or sets the URI of the task.
-ms.assetid: '347898de-7960-42b8-84ff-4734137d0683'
-keywords: ["URI property Task Scheduler", "URI property Task Scheduler , RegistrationInfo object", "RegistrationInfo object Task Scheduler , URI property"]
+ms.assetid: 347898de-7960-42b8-84ff-4734137d0683
+keywords:
+- URI property Task Scheduler
+- URI property Task Scheduler , RegistrationInfo object
+- RegistrationInfo object Task Scheduler , URI property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo.URI property
@@ -42,16 +50,16 @@ When reading or writing XML for a task, the task URI is specified using the [**U
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

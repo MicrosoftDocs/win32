@@ -1,15 +1,18 @@
 ---
-Description: 'The Create&\#8194;WMI class method creates a new process.'
+Description: The Create&\#8194;WMI class method creates a new process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'be80abec-fab4-4403-bc29-d0d4a38e3c87'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: be80abec-fab4-4403-bc29-d0d4a38e3c87
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Create method of the Win32\_Process class'
+title: Create method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_Process class
@@ -23,10 +26,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in]  string               CommandLine,
-  [in]  string               CurrentDirectory,
-  [in]  Win32_ProcessStartup ProcessStartupInformation,
-  [out] uint32               ProcessId
+  [in]  string               CommandLine,
+  [in]  string               CurrentDirectory,
+  [in]  Win32_ProcessStartup ProcessStartupInformation,
+  [out] uint32               ProcessId
 );
 ```
 
@@ -88,7 +91,7 @@ Returns a value of 0 (zero) if the process was successfully created, and any oth
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -203,8 +206,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -224,9 +227,9 @@ End If
 [WMI Tasks: Processes](https://msdn.microsoft.com/library/aa394599)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

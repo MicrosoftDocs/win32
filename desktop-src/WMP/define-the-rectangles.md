@@ -1,8 +1,17 @@
 ---
 title: Define the Rectangles
 description: Define the Rectangles
-ms.assetid: '62c8aedf-f868-4c05-ba6c-4b1846fd0d5e'
-keywords: ["Windows Media Player Mobile skins,rectangles", "skins,rectangles", "creating skins,rectangles", "rectangles in skins"]
+ms.assetid: 62c8aedf-f868-4c05-ba6c-4b1846fd0d5e
+keywords:
+- Windows Media Player Mobile skins,rectangles
+- skins,rectangles
+- creating skins,rectangles
+- rectangles in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Define the Rectangles

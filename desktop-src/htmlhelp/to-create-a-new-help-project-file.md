@@ -1,7 +1,12 @@
 ---
 title: To Create a New Help Project File
 description: To Create a New Help Project File
-ms.assetid: 'DCA22F16-8E19-402e-A4F8-67C891E323A3'
+ms.assetid: DCA22F16-8E19-402e-A4F8-67C891E323A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Create a New Help Project File

@@ -4,10 +4,13 @@ description: Joe Worden, the enterprise administrator, must create a new group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a1bea695-d43f-47e6-af74-ba5abb0116a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a1bea695-d43f-47e6-af74-ba5abb0116a2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a New Group

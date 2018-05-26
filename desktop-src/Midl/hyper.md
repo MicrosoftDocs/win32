@@ -2,13 +2,19 @@
 title: hyper attribute
 description: The keyword hyper indicates a 64-bit integer that can be declared as either signed or unsigned.
 ms.assetid: cadcacc7-8eea-4ce2-b69f-98a1d8bafeaa
-keywords: ["hyper attribute MIDL"]
+keywords:
+- hyper attribute MIDL
 topic_type:
 - apiref
 api_name:
 - hyper
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hyper attribute

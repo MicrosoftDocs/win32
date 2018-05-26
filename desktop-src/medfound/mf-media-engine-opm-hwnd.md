@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a window for the Media Engine to apply Output Protection Manager (OPM) protections.'
-ms.assetid: 'E5271D72-FE16-4D28-9BBA-1440C7CE0921'
-title: 'MF\_MEDIA\_ENGINE\_OPM\_HWND attribute'
+---
+Description: Specifies a window for the Media Engine to apply Output Protection Manager (OPM) protections.
+ms.assetid: E5271D72-FE16-4D28-9BBA-1440C7CE0921
+title: MF\_MEDIA\_ENGINE\_OPM\_HWND attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_OPM\_HWND attribute
@@ -14,13 +19,13 @@ Specifies a window for the Media Engine to apply [Output Protection Manager](out
 
 ## Remarks
 
-This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md) method to initialize the Media Engine.
+This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master) method to initialize the Media Engine.
 
 To enable OPM protections for video playback, the application must do one of the following:
 
 -   Set the [MF\_MEDIA\_ENGINE\_PLAYBACK\_HWND](mf-media-engine-playback-hwnd.md) attribute when creating the Media Engine.
 -   Set the MF\_MEDIA\_ENGINE\_OPM\_HWND attribute when creating the Media Engine.
--   Call [**IMFMediaEngineProtectedContent::SetOPMWindow**](imfmediaengineprotectedcontent-setopmwindow.md) at any point after creating the Media Engine, but before protected content is displayed.
+-   Call [**IMFMediaEngineProtectedContent::SetOPMWindow**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineprotectedcontent-setopmwindow?branch=master) at any point after creating the Media Engine, but before protected content is displayed.
 
 ## Requirements
 

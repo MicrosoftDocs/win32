@@ -1,18 +1,23 @@
 ---
-Description: 'Gives an overview of the changes to the Windows Parental Controls introduced in Windows 7.'
-ms.assetid: '5723fddd-52e2-46a1-a48f-647d479b21d9'
-title: 'What's New in Windows 7 Parental Controls'
+Description: Gives an overview of the changes to the Windows Parental Controls introduced in Windows 7.
+ms.assetid: 5723fddd-52e2-46a1-a48f-647d479b21d9
+title: Whats New in Windows 7 Parental Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Windows 7 Parental Controls
 
 ## Overview of Parental Controls Changes for Windows 7
 
-The purpose of this document is to give an overview of the changes to the Windows Parental Controls introduced in Windows 7 and to enable third-party parental control solution providers to take advantage of these changes. This document assumes readers' familiarity with Parental Controls for Windows Vista and will only reflect changes made to this functionality in Windows 7 that are relevant for third-party parental control solutions development. A full update of MSDN Windows Parental Control documentation will follow at a later date.
+The purpose of this document is to give an overview of the changes to the Windows Parental Controls introduced in Windows 7 and to enable third-party parental control solution providers to take advantage of these changes. This document assumes readers' familiarity with Parental Controls for Windows Vista and will only reflect changes made to this functionality in Windows 7 that are relevant for third-party parental control solutions development. A full update of MSDN Windows Parental Control documentation will follow at a later date.
 
 ## Key Design Decisions for Windows 7 Parental Control Changes
 
-Changes to Parental Controls introduced in Windows 7 continue the overarching goal of promoting third-party parental control solutions' coexistence with the in-box functionality. The changes are:
+Changes to Parental Controls introduced in Windows 7 continue the overarching goal of promoting third-party parental control solutions' coexistence with the in-box functionality. The changes are:
 
 -   Removal of web filtering and activity reporting from the in-box parental controls functionality. The in-box parental controls provide core offline Microsoft-implemented restrictions such as time limits, application restrictions, and game restrictions. The web filtering, activity reporting, and other functionality can be provided by Microsoft or third-party parental control solutions. For example, Windows Live Family Safety solution provides web filtering, remote management, and activity monitoring, as well as contact management for all Windows Live applications.
 -   Enabling third-party solutions to replace the in-box provider's configuration user interface while still relying on the in-box implementation of time, application, and game restrictions.
@@ -20,9 +25,9 @@ Changes to Parental Controls introduced in Windows 7 continue the overarching go
 
 ## Parental Controls Top-level User Interface Changes in Windows 7
 
-Windows 7 brings the following changes to the Parental Controls Control Panel top-level user interface:
+Windows 7 brings the following changes to the Parental Controls Control Panel top-level user interface:
 
--   The Additional controls section is introduced where controls that provide additional functionality such as web filtering, activity reporting, and so on, can be selected from a drop down list box. Microsoft or third-party providers need to register their solutions with Windows 7 Parental Controls for them to be selectable from the Additional controls drop down list box. For information about registering a solution, see Provider Registration, later in this topic).
+-   The Additional controls section is introduced where controls that provide additional functionality such as web filtering, activity reporting, and so on, can be selected from a drop down list box. Microsoft or third-party providers need to register their solutions with Windows 7 Parental Controls for them to be selectable from the Additional controls drop down list box. For information about registering a solution, see Provider Registration, later in this topic).
 -   The logo image of the currently selected provider is displayed in the upper-right corner of the page.
 -   The managed user tiles can display a summary of the parental settings provided by the currently selected provider.
 
@@ -50,13 +55,13 @@ To register a new provider with Parental Controls, a registry value must be writ
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         Windows
-            CurrentVersion
-               Parental Controls
-                  Providers
-                     {45D63315-0824-4df4-B8A4-EF137D8810D1} = SOFTWARE\Microsoft\Family Safety\WPC\
+   SOFTWARE
+      Microsoft
+         Windows
+            CurrentVersion
+               Parental Controls
+                  Providers
+                     {45D63315-0824-4df4-B8A4-EF137D8810D1} = SOFTWARE\Microsoft\Family Safety\WPC\
 ```
 
 At the registry key location specified, the following values are expected.
@@ -74,27 +79,27 @@ At the registry key location specified, the following values are expected.
 
 
 
- 
+ 
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         Family Safety
-            WPC
-               LogoImage = C:\Program Files\Windows Live\Family Safety\fssui.rll,-40001
-               DisplayName = C:\Program Files\Windows Live\Family Safety\fssui.rll,-40002
-               Description = C:\Program Files\Windows Live\Family Safety\fssui.rll,-40003
-               StateCLSID = {B4BAAE4D-3D86-4fa9-86F0-CF82C94D8A6A}
-               ConfigCLSID = {B4BAAE4D-3D86-4fa9-86F0-CF82C94D8A6A}
-               GRSVisible = 0x00000001 (1)
+   SOFTWARE
+      Microsoft
+         Family Safety
+            WPC
+               LogoImage = C:\Program Files\Windows Live\Family Safety\fssui.rll,-40001
+               DisplayName = C:\Program Files\Windows Live\Family Safety\fssui.rll,-40002
+               Description = C:\Program Files\Windows Live\Family Safety\fssui.rll,-40003
+               StateCLSID = {B4BAAE4D-3D86-4fa9-86F0-CF82C94D8A6A}
+               ConfigCLSID = {B4BAAE4D-3D86-4fa9-86F0-CF82C94D8A6A}
+               GRSVisible = 0x00000001 (1)
 ```
 
 The Parental Controls Control Panel uses the **LogoImage**, **DisplayName**, and **Description** to change the main page of the Parental Controls Control Panel when that provider is selected. The **StateCLSID** value is used when the provider is enabled or disabled. The **ConfigCLSID** value is used when the user interface gets dynamic information about each user (this is only the case if the provider is currently selected).
 
- 
+ 
 
- 
+ 
 
 
 

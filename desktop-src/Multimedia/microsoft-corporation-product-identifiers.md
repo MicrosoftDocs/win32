@@ -1,8 +1,17 @@
 ---
 title: Microsoft Corporation Product Identifiers
 description: Microsoft Corporation Product Identifiers
-ms.assetid: 'ef5403ea-1aaf-4791-865a-49d9feb44a4f'
-keywords: ["Windows multimedia,product identifiers", "multimedia,product identifiers", "product identifiers", "multimedia product identifiers"]
+ms.assetid: ef5403ea-1aaf-4791-865a-49d9feb44a4f
+keywords:
+- Windows multimedia,product identifiers
+- multimedia,product identifiers
+- product identifiers
+- multimedia product identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Corporation Product Identifiers

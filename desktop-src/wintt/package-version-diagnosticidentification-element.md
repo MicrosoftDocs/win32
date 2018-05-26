@@ -1,14 +1,20 @@
 ---
 title: Version (DiagnosticIdentification) Element
 description: A string that specifies this version of the troubleshooting pack.
-ms.assetid: '336feb6c-1a35-4029-8c20-c28f2be480f4'
-keywords: ["Version element Windows Troubleshooting Toolkit"]
+ms.assetid: 336feb6c-1a35-4029-8c20-c28f2be480f4
+keywords:
+- Version element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version (DiagnosticIdentification) Element
@@ -27,14 +33,14 @@ The **Version** element is defined by the [**DiagnosticIdentification**](package
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

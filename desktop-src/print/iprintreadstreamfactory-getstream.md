@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetStream method gets the stream interface.'
-ms.assetid: '47447f00-a57d-4821-b10e-1b2cf7eaad94'
-title: 'IPrintReadStreamFactory::GetStream method'
+---
+Description: The GetStream method gets the stream interface.
+ms.assetid: 47447f00-a57d-4821-b10e-1b2cf7eaad94
+title: IPrintReadStreamFactoryGetStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintReadStreamFactory::GetStream method

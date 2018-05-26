@@ -1,7 +1,7 @@
 ---
 title: Tree-View Control Extended Styles
 description: This section lists extended styles used when creating tree-view controls. The value of extended styles is a bitwise combination of these styles.
-ms.assetid: 'b45e7b7c-2c7b-49fa-8679-57c478b2f796'
+ms.assetid: b45e7b7c-2c7b-49fa-8679-57c478b2f796
 topic_type:
 - apiref
 api_name:
@@ -20,6 +20,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tree-View Control Extended Styles
@@ -104,9 +109,9 @@ This style may not be supported in future versions of Comctl32.dll. Also, this s
 
 
 
- 
+ 
 
- 
+ 
 
 
 

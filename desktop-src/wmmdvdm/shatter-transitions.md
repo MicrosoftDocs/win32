@@ -1,8 +1,19 @@
 ---
 title: Shatter Transitions
 description: Shatter Transitions
-ms.assetid: 'c37562f6-7c6d-4d2a-9e02-9a498d7a2b15'
-keywords: ["Windows Movie Maker,shatter transitions", "Movie Maker,shatter transitions", "programming reference,Windows Movie Maker transitions", "reference for Windows Movie Maker,transitions", "shatter transitions", "transitions,shatter"]
+ms.assetid: c37562f6-7c6d-4d2a-9e02-9a498d7a2b15
+keywords:
+- Windows Movie Maker,shatter transitions
+- Movie Maker,shatter transitions
+- programming reference,Windows Movie Maker transitions
+- reference for Windows Movie Maker,transitions
+- shatter transitions
+- transitions,shatter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shatter Transitions
@@ -87,7 +98,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Parameters
 
@@ -96,16 +107,16 @@ Following the XML are tables that specify which parameters in this XML can be ch
 | Parameter                     | Type   | Range/options                                      | Description                                                                                                                                                                                                                   |
 |-------------------------------|--------|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *ScatterDirection*            | string | "in" , "out" , "left" , "right" , "up" , or "down" | The direction in which the shattered particles will move.You can combine perpendicular directions such as "up, right" or "left, down". However, you cannot combine two opposite directions such as left and right.<br/> |
-| *MaxParticles*                | int    | 10 – 8                                             | The number of particles into which the image is shattered.                                                                                                                                                                    |
+| *MaxParticles*                | int    | 10   8                                             | The number of particles into which the image is shattered.                                                                                                                                                                    |
 | *SpinDirection*               | string | "in" , "out" , "left" , "right" , "up" , or "down" | The direction in which the scattered particles spin.                                                                                                                                                                          |
-| *ParticleSpeed*               | float  | 10.0 – 1000.0                                      | The speed with which the shattered particles move.                                                                                                                                                                            |
-| *ParticleSpinSpeed*           | float  | 0.0 – 1.0                                          | The speed with which the scattered particles spin.                                                                                                                                                                            |
+| *ParticleSpeed*               | float  | 10.0   1000.0                                      | The speed with which the shattered particles move.                                                                                                                                                                            |
+| *ParticleSpinSpeed*           | float  | 0.0   1.0                                          | The speed with which the scattered particles spin.                                                                                                                                                                            |
 | *PulseMode*                   | string | "in" , "out", or "OutALittle"                      | The direction in which the particles move.                                                                                                                                                                                    |
-| *ExponentialProgressDuration* | float  | 0.0 – 1.0                                          | The duration of acceleration for the shattered particles (relative to the total duration).                                                                                                                                    |
+| *ExponentialProgressDuration* | float  | 0.0   1.0                                          | The duration of acceleration for the shattered particles (relative to the total duration).                                                                                                                                    |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -114,9 +125,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Transitions**](transitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 #[Windows Desktop Apps](/windows/desktop)
-##[Design basics](uxguide/TOC.md)
+##[Design](uxguide/TOC.md)
 ##Get Started
 ###[Choose Your Technology](choose-your-technology.md)
 ###[What's new](windows-8.md)
@@ -60,7 +60,7 @@
 #####[Windows Help](windows-help.md)
 ######vista_help_sdk
 ######[Microsoft HTML Help 1.4](htmlhelp/microsoft-html-help-1-4-sdk.md)
-#####consoles
+#####[Legacy Windows Environment Features](lwef/legacy-windows-environment.md)
 ####[Application Installation and Servicing](application-installing-and-servicing.md)
 #####gamesexplorer
 #####[Isolated Applications and Side-by-side Assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)
@@ -80,6 +80,7 @@
 #####[Media Streaming API](mediastreaming/media-streaming-api-portal.md)
 #####[Media Transport Controls](mediatransport/media-transport-controls-portal.md)
 #####wmm3sdk
+#####[Windows Multimedia](multimedia/windows-multimedia-start-page.md)
 ####[Data Access and Storage](data-access-and-storage.md)
 #####[Background Intelligent Transfer Service](bits/background-intelligent-transfer-service-portal.md)
 #####[Backup](backup.md)
@@ -103,6 +104,7 @@
 #####[Packaging](opc/packaging.md)
 #####[Remote Differential Compression](rdc/remote-differential-compression.md)
 #####vstor
+#####vds
 #####Windows Data Access Components
 ######windowsdacoverview
 ######odbc
@@ -184,6 +186,10 @@
 #####[DirectComposition](directcomp/directcomposition-portal.md)
 #####[Game Mode](gamemode/game-mode-portal.md)
 #####[Gaming Device Information](gamingdvcinfo/gaming-device-information-portal.md)
+#####[GDI+](gdiplus/-gdiplus-gdi-start.md)
+#####[Windows GDI](gdi/windows-gdi.md)
+#####[Monitor Configuration](monitor/monitor-configuration.md)
+#####[OpenGL](opengl/opengl.md)
 #####[Windows Imaging Component](wic/-wic-lh.md)
 #####[windowsnumerics.h APIs](numerics_h/windowsnumerics-h-apis-portal.md)
 ####[Networking and Internet](networking.md)
@@ -268,7 +274,7 @@
 ######RMS Scenarios, Code and Tools
 ######[Microsoft Rights Management SDK 4.2](msipcthin2/active-directory-rights-management-services-multi-platform-thin-client-sdk-portal.md)
 ######[Rights Management SDK 2.1](msipc/microsoft-information-protection-and-control-client-portal.md)
-######adrms_sdk
+######[Active Directory Rights Management Services SDK](adrms_sdk/active-directory-rights-management-services-sdk-portal.md)
 ######[Active Directory Rights Management Services Scripting API](adrms_script/adrms-script-portal.md)
 #####[Security Management](secmgmt/management-portal.md)
 #####[Security Glossary](secgloss/security-glossary.md)
@@ -295,12 +301,14 @@
 #####[Processes and Threads](procthread/processes-and-threads.md)
 #####[Remote Desktop Services](termserv/terminal-services-portal.md)
 #####[Services](services/services.md)
+#####[Setup API](setupapi/setup-api-portal.md)
 #####[Synchronization](sync/synchronization.md)
 #####[Windows Desktop Sharing](rdp/rdp-portal.md)
 #####[OOBE APIs for setup state and notification](wnf/windows-setup-and-migration-portal.md)
 #####[Windows Subsystem for Linux](wsl/windows-subsystem-for-linux-portal.md)
 #####[Windows System Information](sysinfo/windows-system-information.md)
-####machinelearning
+####[Windows Machine Learning](machinelearning/machine-learning-portal.md)
+####[Developer Notes](devnotes/developer-notes.md)
 ###[Develop with server technologies](server-and-system-technologies.md)
 ####Server Technologies
 #####[File Server Resource Manager](fsrm/file-server-resource-manager-portal.md)

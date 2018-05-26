@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a globally unique identifier type, in Registry format.'
-ms.assetid: '2be73c57-b6b6-46ab-93e1-d70f8655c30e'
+Description: Defines a globally unique identifier type, in Registry format.
+ms.assetid: 2be73c57-b6b6-46ab-93e1-d70f8655c30e
 title: GUIDType Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUIDType Simple Type
@@ -34,14 +39,14 @@ The **GUIDType** simple type is a **xs:string** that is restricted by the follow
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

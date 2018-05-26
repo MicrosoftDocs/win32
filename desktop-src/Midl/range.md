@@ -2,13 +2,19 @@
 title: range attribute
 description: The \ range\ attribute lets you specify a range of allowable values for arguments or fields whose values are set at run time. When used with a pipe type, the attribute specifies the allowable range for the count of elements in the pipe chunks.
 ms.assetid: 1609fea5-e82c-4389-b4f4-2cd8d0622cde
-keywords: ["range attribute MIDL"]
+keywords:
+- range attribute MIDL
 topic_type:
 - apiref
 api_name:
 - range
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # range attribute

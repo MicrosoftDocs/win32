@@ -4,11 +4,13 @@ description: The ScopeNamespace object is used to access the scope tree. Use the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61cb4ced-7ceb-4a15-8fcb-9fb942eeae4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 61cb4ced-7ceb-4a15-8fcb-9fb942eeae4c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ScopeNamespace Object object MMC", "ScopeNamespace Object object MMC , described"]
+keywords:
+- ScopeNamespace Object object MMC
+- ScopeNamespace Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ScopeNamespace Object object
@@ -45,7 +50,7 @@ The **ScopeNamespace Object** object has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,8 +58,8 @@ The **ScopeNamespace Object** object has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -69,9 +74,9 @@ The **ScopeNamespace Object** object has these methods.
 [**Document.ScopeNamespace property**](document-scopenamespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

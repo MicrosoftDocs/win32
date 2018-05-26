@@ -1,26 +1,31 @@
 ---
 Description: Data Flow in the DVD Navigator
-ms.assetid: '14f9cfa3-5ef6-419c-9196-2e4060549c03'
+ms.assetid: 14f9cfa3-5ef6-419c-9196-2e4060549c03
 title: Data Flow in the DVD Navigator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Flow in the DVD Navigator
 
-The DVD Navigator has methods to stop and pause playback. These methods are similar — but not identical — to the **Stop** and **Pause** methods in [**IMediaControl**](imediacontrol.md). Here is the difference between them:
+The DVD Navigator has methods to stop and pause playback. These methods are similar — but not identical — to the **Stop** and **Pause** methods in [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master). Here is the difference between them:
 
 -   The **IDvdControl2** methods change what the DVD Navigator reads from the disk. They do not change the state of the graph.
 -   The **IMediaControl** methods change the state of the graph. They do not change what the DVD Navigator reads from the disk. (There is one important exception, explained in the next section, related to the **Stop** method.)
 
-For example, [**IDvdControl2::Pause**](idvdcontrol2-pause.md) method issues the Annex J "Pause\_On" command, but does not pause the filter graph. The [**IMediaControl::Pause**](imediacontrol-pause.md) method, on the other hand, pauses the graph but does not issue any DVD command.
+For example, [**IDvdControl2::Pause**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-pause?branch=master) method issues the Annex J "Pause\_On" command, but does not pause the filter graph. The [**IMediaControl::Pause**](/windows/win32/Control/nf-control-imediacontrol-pause?branch=master) method, on the other hand, pauses the graph but does not issue any DVD command.
 
 In general, use the **IMediaControl::Pause** and **Stop** methods instead of the corresponding **IDvdControl2** methods. The **IMediaControl** methods have very small latencies, whereas the **IDvdControl2** methods can have up to two seconds of latency.
 
 Stopping Playback
 
-The behavior of [**IMediaControl::Stop**](imediacontrol-stop.md) depends on a flag that you can set with the [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) method.
+The behavior of [**IMediaControl::Stop**](/windows/win32/Control/nf-control-imediacontrol-stop?branch=master) depends on a flag that you can set with the [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) method.
 
 -   If the DVD\_ResetOnStop flag is **FALSE**, **IMediaControl::Stop** stops the graph, but does not change the DVD Navigator's domain. When you call run again, playback resumes from the current position.
--   If DVD\_ResetOnStop is **TRUE**, **IMediaControl::Stop** causes the DVD Navigator to reset. When you call [**IMediaControl::Run**](imediacontrol-run.md) again, the DVD Navigator plays from the First Play domain, as if you were inserting the DVD for the first time.
+-   If DVD\_ResetOnStop is **TRUE**, **IMediaControl::Stop** causes the DVD Navigator to reset. When you call [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) again, the DVD Navigator plays from the First Play domain, as if you were inserting the DVD for the first time.
 
 The DVD\_ResetOnStop flag is **TRUE** by default, for compatibility with older applications. Generally, however, you should override the default and set the flag to **FALSE**. The reason is that certain events can cause the graph to stop during playback. For example, if the display resolution changes, the filter graph stops, reconnects the video renderer, and restarts. If DVD\_ResetOnStop is **TRUE**, playback will restart from the beginning of the disc. That is probably not what the user expects.
 
@@ -39,7 +44,7 @@ The second rule is worth examining in more detail. Here are some specific scenar
 
     **Recommendation**: Issue the DVD command on a separate worker thread, or don't use the blocking flag.
 
--   **Scenario**: While paused, the application issues a DVD command, then calls [**IDvdCmd::WaitForEnd**](idvdcmd-waitforend.md) on the command object. This situation is equivalent to the previous example. If you call **Wait** from the UI thread, the UI thread cannot run the graph until the **Wait** method unblocks, but the **Wait** method will not unblock until the graph runs.
+-   **Scenario**: While paused, the application issues a DVD command, then calls [**IDvdCmd::WaitForEnd**](/windows/win32/Strmif/nf-strmif-idvdcmd-waitforend?branch=master) on the command object. This situation is equivalent to the previous example. If you call **Wait** from the UI thread, the UI thread cannot run the graph until the **Wait** method unblocks, but the **Wait** method will not unblock until the graph runs.
 
     **Recommendation**: Call **Wait** on a worker thread.
 
@@ -53,7 +58,7 @@ The second rule is worth examining in more detail. Here are some specific scenar
 
 Seeking a DVD to a Specified Time
 
-To accurately seek to a specified time on a disc, call [**IMediaControl::Run**](imediacontrol-run.md). Then call [**IDvdControl2::PlayAtTime**](idvdcontrol2-playattime.md), specifying the time and setting *dwFlags* to DVD\_CMD\_FLAG\_Flush.
+To accurately seek to a specified time on a disc, call [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master). Then call [**IDvdControl2::PlayAtTime**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-playattime?branch=master), specifying the time and setting *dwFlags* to DVD\_CMD\_FLAG\_Flush.
 
 ## Related topics
 

@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_CATEGORY enumeration
 description: Possible threat categories.
-ms.assetid: '478ED59E-5D3C-43B3-A89D-44A649EDD086'
-keywords: ["MPTHREAT_CATEGORY enumeration Legacy Windows Environment Features", "PMPTHREAT_CATEGORY enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 478ED59E-5D3C-43B3-A89D-44A649EDD086
+keywords:
+- MPTHREAT_CATEGORY enumeration Legacy Windows Environment Features
+- PMPTHREAT_CATEGORY enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_CATEGORY enumeration
@@ -22,53 +29,53 @@ Possible threat categories.
 
 ```C++
 typedef enum tagMPTHREAT_CATEGORY { 
-  MP_THREAT_CATEGORY_INVALID                    = 0,
-  MP_THREAT_CATEGORY_ADWARE                     = 1,
-  MP_THREAT_CATEGORY_SPYWARE                    = 2,
-  MP_THREAT_CATEGORY_PASSWORDSTEALER            = 3,
-  MP_THREAT_CATEGORY_TROJANDOWNLOADER           = 4,
-  MP_THREAT_CATEGORY_WORM                       = 5,
-  MP_THREAT_CATEGORY_BACKDOOR                   = 6,
-  MP_THREAT_CATEGORY_REMOTEACCESSTROJAN         = 7,
-  MP_THREAT_CATEGORY_TROJAN                     = 8,
-  MP_THREAT_CATEGORY_EMAILFLOODER               = 9,
-  MP_THREAT_CATEGORY_KEYLOGGER                  = 10,
-  MP_THREAT_CATEGORY_DIALER                     = 11,
-  MP_THREAT_CATEGORY_MONITORINGSOFTWARE         = 12,
-  MP_THREAT_CATEGORY_BROWSERMODIFIER            = 13,
-  MP_THREAT_CATEGORY_COOKIE                     = 14,
-  MP_THREAT_CATEGORY_BROWSERPLUGIN              = 15,
-  MP_THREAT_CATEGORY_AOLEXPLOIT                 = 16,
-  MP_THREAT_CATEGORY_NUKER                      = 17,
-  MP_THREAT_CATEGORY_SECURITYDISABLER           = 18,
-  MP_THREAT_CATEGORY_JOKEPROGRAM                = 19,
-  MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL      = 20,
-  MP_THREAT_CATEGORY_SOFTWAREBUNDLER            = 21,
-  MP_THREAT_CATEGORY_STEALTHNOTIFIER            = 22,
-  MP_THREAT_CATEGORY_SETTINGSMODIFIER           = 23,
-  MP_THREAT_CATEGORY_TOOLBAR                    = 24,
-  MP_THREAT_CATEGORY_REMOTECONTROLSOFTWARE      = 25,
-  MP_THREAT_CATEGORY_TROJANFTP                  = 26,
-  MP_THREAT_CATEGORY_POTENTIALUNWANTEDSOFTWARE  = 27,
-  MP_THREAT_CATEGORY_ICQEXPLOIT                 = 28,
-  MP_THREAT_CATEGORY_TROJANTELNET               = 29,
-  MP_THREAT_CATEGORY_EXPLOIT                    = 30,
-  MP_THREAT_CATEGORY_FILESHARINGPROGRAM         = 31,
-  MP_THREAT_CATEGORY_MALWARE_CREATION_TOOL      = 32,
-  MP_THREAT_CATEGORY_REMOTE_CONTROL_SOFTWARE    = 33,
-  MP_THREAT_CATEGORY_TOOL                       = 34,
-  MP_THREAT_CATEGORY_TROJAN_DENIALOFSERVICE     = 36,
-  MP_THREAT_CATEGORY_TROJAN_DROPPER             = 37,
-  MP_THREAT_CATEGORY_TROJAN_MASSMAILER          = 38,
-  MP_THREAT_CATEGORY_TROJAN_MONITORINGSOFTWARE  = 39,
-  MP_THREAT_CATEGORY_TROJAN_PROXYSERVER         = 40,
-  MP_THREAT_CATEGORY_VIRUS                      = 42,
-  MP_THREAT_CATEGORY_KNOWN                      = 43,
-  MP_THREAT_CATEGORY_UNKNOWN                    = 44,
-  MP_THREAT_CATEGORY_SPP                        = 45,
-  MP_THREAT_CATEGORY_BEHAVIOR                   = 46,
-  MP_THREAT_CATEGORY_VULNERABILTIY              = 47,
-  MP_THREAT_CATEGORY_POLICY                     = 48
+  MP_THREAT_CATEGORY_INVALID                    = 0,
+  MP_THREAT_CATEGORY_ADWARE                     = 1,
+  MP_THREAT_CATEGORY_SPYWARE                    = 2,
+  MP_THREAT_CATEGORY_PASSWORDSTEALER            = 3,
+  MP_THREAT_CATEGORY_TROJANDOWNLOADER           = 4,
+  MP_THREAT_CATEGORY_WORM                       = 5,
+  MP_THREAT_CATEGORY_BACKDOOR                   = 6,
+  MP_THREAT_CATEGORY_REMOTEACCESSTROJAN         = 7,
+  MP_THREAT_CATEGORY_TROJAN                     = 8,
+  MP_THREAT_CATEGORY_EMAILFLOODER               = 9,
+  MP_THREAT_CATEGORY_KEYLOGGER                  = 10,
+  MP_THREAT_CATEGORY_DIALER                     = 11,
+  MP_THREAT_CATEGORY_MONITORINGSOFTWARE         = 12,
+  MP_THREAT_CATEGORY_BROWSERMODIFIER            = 13,
+  MP_THREAT_CATEGORY_COOKIE                     = 14,
+  MP_THREAT_CATEGORY_BROWSERPLUGIN              = 15,
+  MP_THREAT_CATEGORY_AOLEXPLOIT                 = 16,
+  MP_THREAT_CATEGORY_NUKER                      = 17,
+  MP_THREAT_CATEGORY_SECURITYDISABLER           = 18,
+  MP_THREAT_CATEGORY_JOKEPROGRAM                = 19,
+  MP_THREAT_CATEGORY_HOSTILEACTIVEXCONTROL      = 20,
+  MP_THREAT_CATEGORY_SOFTWAREBUNDLER            = 21,
+  MP_THREAT_CATEGORY_STEALTHNOTIFIER            = 22,
+  MP_THREAT_CATEGORY_SETTINGSMODIFIER           = 23,
+  MP_THREAT_CATEGORY_TOOLBAR                    = 24,
+  MP_THREAT_CATEGORY_REMOTECONTROLSOFTWARE      = 25,
+  MP_THREAT_CATEGORY_TROJANFTP                  = 26,
+  MP_THREAT_CATEGORY_POTENTIALUNWANTEDSOFTWARE  = 27,
+  MP_THREAT_CATEGORY_ICQEXPLOIT                 = 28,
+  MP_THREAT_CATEGORY_TROJANTELNET               = 29,
+  MP_THREAT_CATEGORY_EXPLOIT                    = 30,
+  MP_THREAT_CATEGORY_FILESHARINGPROGRAM         = 31,
+  MP_THREAT_CATEGORY_MALWARE_CREATION_TOOL      = 32,
+  MP_THREAT_CATEGORY_REMOTE_CONTROL_SOFTWARE    = 33,
+  MP_THREAT_CATEGORY_TOOL                       = 34,
+  MP_THREAT_CATEGORY_TROJAN_DENIALOFSERVICE     = 36,
+  MP_THREAT_CATEGORY_TROJAN_DROPPER             = 37,
+  MP_THREAT_CATEGORY_TROJAN_MASSMAILER          = 38,
+  MP_THREAT_CATEGORY_TROJAN_MONITORINGSOFTWARE  = 39,
+  MP_THREAT_CATEGORY_TROJAN_PROXYSERVER         = 40,
+  MP_THREAT_CATEGORY_VIRUS                      = 42,
+  MP_THREAT_CATEGORY_KNOWN                      = 43,
+  MP_THREAT_CATEGORY_UNKNOWN                    = 44,
+  MP_THREAT_CATEGORY_SPP                        = 45,
+  MP_THREAT_CATEGORY_BEHAVIOR                   = 46,
+  MP_THREAT_CATEGORY_VULNERABILTIY              = 47,
+  MP_THREAT_CATEGORY_POLICY                     = 48
 } MPTHREAT_CATEGORY, *PMPTHREAT_CATEGORY;
 ```
 
@@ -233,15 +240,15 @@ An NIS category.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

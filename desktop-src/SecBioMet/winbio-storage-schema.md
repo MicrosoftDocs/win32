@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_STORAGE\_SCHEMA structure
 description: Describes the capabilities of a biometric storage adapter.
-ms.assetid: 'e4924803-5a1b-4e0a-b2cb-01d018d27ba1'
-keywords: ["WINBIO_STORAGE_SCHEMA structure Windows Biometric Framework API", "PWINBIO_STORAGE_SCHEMA structure pointer Windows Biometric Framework API"]
+ms.assetid: e4924803-5a1b-4e0a-b2cb-01d018d27ba1
+keywords:
+- WINBIO_STORAGE_SCHEMA structure Windows Biometric Framework API
+- PWINBIO_STORAGE_SCHEMA structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_STORAGE\_SCHEMA structure
 
-The **WINBIO\_STORAGE\_SCHEMA** structure describes the capabilities of a biometric storage adapter. This structure is used by the [**WinBioEnumDatabases**](winbioenumdatabases.md) function.
+The **WINBIO\_STORAGE\_SCHEMA** structure describes the capabilities of a biometric storage adapter. This structure is used by the [**WinBioEnumDatabases**](/windows/win32/Winbio/nf-winbio-winbioenumdatabases?branch=master) function.
 
 ## Syntax
 
@@ -23,11 +30,11 @@ The **WINBIO\_STORAGE\_SCHEMA** structure describes the capabilities of a biomet
 ```C++
 typedef struct _WINBIO_STORAGE_SCHEMA {
   WINBIO_BIOMETRIC_TYPE BiometricFactor;
-  WINBIO_UUID           DatabaseId;
-  WINBIO_UUID           DataFormat;
-  ULONG                 Attributes;
-  WINBIO_STRING         FilePath;
-  WINBIO_STRING         ConnectionString;
+  WINBIO_UUID           DatabaseId;
+  WINBIO_UUID           DataFormat;
+  ULONG                 Attributes;
+  WINBIO_STRING         FilePath;
+  WINBIO_STRING         ConnectionString;
 } WINBIO_STORAGE_SCHEMA, *PWINBIO_STORAGE_SCHEMA;
 ```
 
@@ -78,7 +85,7 @@ Information about the characteristics of the database. This can be a bitwise **O
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -102,8 +109,8 @@ A string value that can be sent to a database server to identify the database.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -115,12 +122,12 @@ A string value that can be sent to a database server to identify the database.
 [Client Application Structures](client-application-structures.md)
 </dt> <dt>
 
-[**WinBioEnumDatabases**](winbioenumdatabases.md)
+[**WinBioEnumDatabases**](/windows/win32/Winbio/nf-winbio-winbioenumdatabases?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

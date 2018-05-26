@@ -1,7 +1,12 @@
 ---
-Description: 'This attribute specifies if the given control is enabled or disabled. Most controls appear gray when disabled.'
-ms.assetid: 'd84b1b55-34e1-4173-b945-39a809014d55'
+Description: This attribute specifies if the given control is enabled or disabled. Most controls appear gray when disabled.
+ms.assetid: d84b1b55-34e1-4173-b945-39a809014d55
 title: Enabled Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabled Control Attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the free disk space.'
-ms.assetid: '4b7f4938-9918-4625-b28d-faf22de56976'
+---
+Description: Gets the free disk space.
+ms.assetid: 4b7f4938-9918-4625-b28d-faf22de56976
 title: '\_GetDiskFreeSpaceEx function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_GetDiskFreeSpaceEx function

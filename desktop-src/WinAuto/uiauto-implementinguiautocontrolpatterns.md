@@ -1,8 +1,17 @@
 ---
 title: Implementing UI Automation Control Patterns
 description: This section provides detailed information about implementing the Microsoft UI Automation provider interfaces that support control patterns.
-ms.assetid: 'd1baa245-62a1-40b1-a671-e227dd3df60a'
-keywords: ["UI Automation,implementing control patterns", "UI Automation,control patterns", "implementing UI Automation control patterns", "control patterns,implementing UI Automation"]
+ms.assetid: d1baa245-62a1-40b1-a671-e227dd3df60a
+keywords:
+- UI Automation,implementing control patterns
+- UI Automation,control patterns
+- implementing UI Automation control patterns
+- control patterns,implementing UI Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing UI Automation Control Patterns

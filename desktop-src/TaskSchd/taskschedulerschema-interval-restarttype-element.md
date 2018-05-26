@@ -1,14 +1,20 @@
 ---
 title: Interval (restartType) Element
 description: Specifies how long the Task Scheduler will attempt to restart the task.
-ms.assetid: '00b8fcbb-5be8-4bf1-92a0-2afd2a50f8e1'
-keywords: ["Interval element Task Scheduler"]
+ms.assetid: 00b8fcbb-5be8-4bf1-92a0-2afd2a50f8e1
+keywords:
+- Interval element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Interval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interval (restartType) Element
@@ -48,7 +54,7 @@ The element is defined by the [**restartType**](taskschedulerschema-restarttype-
 
 If this element is specified, the [**Count**](taskschedulerschema-count-restarttype-element.md) element must also be specified to tell the Task Scheduler how many times it should try to restart the task.
 
-For C++ development, see [**RestartInterval Property of ITaskSettings**](itasksettings-restartinterval.md).
+For C++ development, see [**RestartInterval Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_restartinterval?branch=master).
 
 For script development, see [**TaskSettings.RestartInterval**](tasksettings-restartinterval.md).
 
@@ -58,8 +64,8 @@ For script development, see [**TaskSettings.RestartInterval**](tasksettings-rest
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ For script development, see [**TaskSettings.RestartInterval**](tasksettings-rest
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

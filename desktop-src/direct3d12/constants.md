@@ -1,8 +1,9 @@
 ---
 title: Constants
 description: The following constants are declared in d3d12.h, for use by a D3D12 title.
-ms.assetid: '2F517DCE-BC0C-4678-9C25-D826036F99A8'
-keywords: ["Constants"]
+ms.assetid: 2F517DCE-BC0C-4678-9C25-D826036F99A8
+keywords:
+- Constants
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants
@@ -414,7 +420,7 @@ The following constants are declared in d3d12.h, for use by a D3D12 title.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -436,9 +442,9 @@ The following constants are declared in d3d12.h, for use by a D3D12 title.
 [Direct3D 12 Reference](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

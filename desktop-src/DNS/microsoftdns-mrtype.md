@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_MRType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mailbox Rename (MR) record.
-ms.assetid: 'fa5da18f-121b-477b-8876-6e337382e9b8'
-keywords: ["MicrosoftDNS_MRType class DNS", "MicrosoftDNS_MRType class DNS , described"]
+ms.assetid: fa5da18f-121b-477b-8876-6e337382e9b8
+keywords:
+- MicrosoftDNS_MRType class DNS
+- MicrosoftDNS_MRType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_MRType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_MRType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ FQDN specifying a mailbox that is the proper rename of the mailbox specified in 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ FQDN specifying a mailbox that is the proper rename of the mailbox specified in 
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_SMS\_SEND command initiates the sending of a short message service (SMS) message by an SMS functional object.'
-ms.assetid: '507d3237-f2dd-499c-85e4-3c6857a15f6f'
-title: 'WPD\_COMMAND\_SMS\_SEND Command'
+Description: The WPD\_COMMAND\_SMS\_SEND command initiates the sending of a short message service (SMS) message by an SMS functional object.
+ms.assetid: 507d3237-f2dd-499c-85e4-3c6857a15f6f
+title: WPD\_COMMAND\_SMS\_SEND Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_SMS\_SEND Command
@@ -28,7 +33,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -43,11 +48,11 @@ The driver should return the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -66,9 +71,9 @@ Can only be called directly using [**IPortableDevice::SendCommand**](iportablede
 [**Commands**](commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

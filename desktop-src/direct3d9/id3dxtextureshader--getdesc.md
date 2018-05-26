@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a description of the constant table.'
-ms.assetid: '91b537bb-5f7a-448b-a21f-c0ddf66d7238'
-title: 'ID3DXTextureShader::GetDesc method'
+---
+Description: Gets a description of the constant table.
+ms.assetid: 91b537bb-5f7a-448b-a21f-c0ddf66d7238
+title: ID3DXTextureShaderGetDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::GetDesc method

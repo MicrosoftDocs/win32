@@ -1,15 +1,18 @@
 ---
-Description: 'The StartService method puts the service in a &\#0034;start&\#0034; state.'
+Description: The StartService method puts the service in a &\#0034;start&\#0034; state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b2b38d64-b497-46f5-8638-a9a8ce50e888'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b2b38d64-b497-46f5-8638-a9a8ce50e888
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'StartService method of the CIM\_BootService class'
+title: StartService method of the CIM\_BootService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartService method of the CIM\_BootService class
@@ -19,7 +22,7 @@ The **StartService** method puts the service in a "start" state. In a subclass, 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -52,8 +55,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -70,9 +73,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_BootService**](cim-bootservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

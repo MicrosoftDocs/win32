@@ -4,11 +4,26 @@ description: This property is no longer available for use.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b3be7323-a75f-4ec2-9d58-e8ff3338d6ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b3be7323-a75f-4ec2-9d58-e8ff3338d6ff
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["BinaryPassword property Remote Desktop Services", "BinaryPassword property Remote Desktop Services , IMsTscNonScriptable interface", "IMsTscNonScriptable interface Remote Desktop Services , BinaryPassword property", "BinaryPassword property Remote Desktop Services , MsTscAx object", "MsTscAx object Remote Desktop Services , BinaryPassword property", "BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable interface", "IMsRdpClientNonScriptable interface Remote Desktop Services , BinaryPassword property", "BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable2 interface", "IMsRdpClientNonScriptable2 interface Remote Desktop Services , BinaryPassword property", "BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , BinaryPassword property", "BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , BinaryPassword property", "BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , BinaryPassword property"]
+keywords:
+- BinaryPassword property Remote Desktop Services
+- BinaryPassword property Remote Desktop Services , IMsTscNonScriptable interface
+- IMsTscNonScriptable interface Remote Desktop Services , BinaryPassword property
+- BinaryPassword property Remote Desktop Services , MsTscAx object
+- MsTscAx object Remote Desktop Services , BinaryPassword property
+- BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable interface
+- IMsRdpClientNonScriptable interface Remote Desktop Services , BinaryPassword property
+- BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable2 interface
+- IMsRdpClientNonScriptable2 interface Remote Desktop Services , BinaryPassword property
+- BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , BinaryPassword property
+- BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , BinaryPassword property
+- BinaryPassword property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , BinaryPassword property
 topic_type:
 - apiref
 api_name:
@@ -35,6 +50,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscNonScriptable::BinaryPassword property
@@ -48,11 +66,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_BinaryPassword(
-  [in]  BSTR newPassword
+  [in]  BSTR newPassword
 );
 
 HRESULT get_BinaryPassword(
-  [out] BSTR *pBinaryPassword
+  [out] BSTR *pBinaryPassword
 );
 ```
 
@@ -104,9 +122,9 @@ Returns **E\_NOTIMPL**.
 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

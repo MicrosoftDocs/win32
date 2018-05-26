@@ -4,13 +4,15 @@ description: Represents a group of replicas.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0858ffec-06ba-4613-a860-358e002b3582'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0858ffec-06ba-4613-a860-358e002b3582
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WvrReplicationGroup class", "MSFT_WvrReplicationGroup class, described"]
+keywords:
+- MSFT_WvrReplicationGroup class
+- MSFT_WvrReplicationGroup class, described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WvrReplicationGroup class
@@ -54,26 +59,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("wvrcimprov"), AMENDMENT]
 class MSFT_WvrReplicationGroup
 {
-  string          Name;
-  string          ComputerName;
-  string          Description;
-  string          Id;
-  string          LogVolume;
-  uint64          LogSizeInBytes;
-  string          Partitions[];
-  boolean         IsCluster;
-  boolean         IsAutoFailover;
-  boolean         IsPrimary;
-  boolean         IsSuspended;
-  boolean         IsInPartnership;
-  boolean         IsWriteConsistency;
-  uint32          AsyncRPO;
-  boolean         IsEncrypted;
-  boolean         AllowVolumeResize;
-  uint32          NumOfReplicas;
-  uint32          ReplicationMode;
-  uint32          ReplicationStatus;
-  datetime        LastInSyncTime;
+  string          Name;
+  string          ComputerName;
+  string          Description;
+  string          Id;
+  string          LogVolume;
+  uint64          LogSizeInBytes;
+  string          Partitions[];
+  boolean         IsCluster;
+  boolean         IsAutoFailover;
+  boolean         IsPrimary;
+  boolean         IsSuspended;
+  boolean         IsInPartnership;
+  boolean         IsWriteConsistency;
+  uint32          AsyncRPO;
+  boolean         IsEncrypted;
+  boolean         AllowVolumeResize;
+  uint32          NumOfReplicas;
+  uint32          ReplicationMode;
+  uint32          ReplicationStatus;
+  datetime        LastInSyncTime;
   MSFT_WvrReplica Replicas[];
 };
 ```
@@ -505,7 +510,7 @@ The possible values are.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -522,9 +527,9 @@ The possible values are.
 [**MSFT\_WvrReplica**](msft-wvrreplica.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

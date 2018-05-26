@@ -1,8 +1,14 @@
 ---
 title: About the DNS WMI Provider
 description: DNS Servers map IP addresses to computer names and computer names to IP addresses.
-ms.assetid: '59db6747-45d5-4894-96a4-ddb081f1d74c'
-keywords: ["Domain Name System, WMI provider, described"]
+ms.assetid: 59db6747-45d5-4894-96a4-ddb081f1d74c
+keywords:
+- Domain Name System, WMI provider, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the DNS WMI Provider

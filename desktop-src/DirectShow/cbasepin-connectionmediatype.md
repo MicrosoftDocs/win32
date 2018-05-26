@@ -1,19 +1,24 @@
 ---
-Description: 'The ConnectionMediaType method retrieves the media type for the current pin connection, if any. This method implements the IPin::ConnectionMediaType method.'
-ms.assetid: '57d100ba-4171-4caa-ab98-66a0a327a53b'
-title: 'CBasePin.ConnectionMediaType method'
+Description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any. This method implements the IPinConnectionMediaType method.
+ms.assetid: 57d100ba-4171-4caa-ab98-66a0a327a53b
+title: CBasePin.ConnectionMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.ConnectionMediaType method
 
-The **ConnectionMediaType** method retrieves the media type for the current pin connection, if any. This method implements the [**IPin::ConnectionMediaType**](ipin-connectionmediatype.md) method.
+The **ConnectionMediaType** method retrieves the media type for the current pin connection, if any. This method implements the [**IPin::ConnectionMediaType**](/windows/win32/Strmif/nf-strmif-ipin-connectionmediatype?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ConnectionMediaType(
-   AM_MEDIA_TYPE *pmt
+   AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT ConnectionMediaType(
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that receives the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that receives the media type.
 
 </dd> </dl>
 
@@ -44,11 +49,11 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
-If the pin is connected, this method copies the media type into the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure specified by *pmt*. The caller must free the media type's format block. You can use the [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) function, or the [**FreeMediaType**](freemediatype.md) helper function.
+If the pin is connected, this method copies the media type into the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure specified by *pmt*. The caller must free the media type's format block. You can use the [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) function, or the [**FreeMediaType**](freemediatype.md) helper function.
 
 If the pin is not connected, this method zeroes the memory block specified by *pmt* and returns an error code.
 
@@ -70,9 +75,9 @@ If the pin is not connected, this method zeroes the memory block specified by *p
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

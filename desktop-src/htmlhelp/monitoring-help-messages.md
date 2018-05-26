@@ -1,7 +1,12 @@
 ---
 title: Monitoring Help Messages
 description: You can view help messages to troubleshoot context-sensitive help.
-ms.assetid: 'FD5FFF56-DF8C-429a-85D2-2E639B7E7B86'
+ms.assetid: FD5FFF56-DF8C-429a-85D2-2E639B7E7B86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring Help Messages

@@ -4,26 +4,31 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d91757d-a65a-49f8-afdb-d6fe19d08923'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8d91757d-a65a-49f8-afdb-d6fe19d08923
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DebugPrefix Failover Cluster ,for resource types", "DebugPrefix Failover Cluster"]
+keywords:
+- DebugPrefix Failover Cluster ,for resource types
+- DebugPrefix Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DebugPrefix
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DebugPrefix
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:  **
+**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:  **
 
 Provides the path to a debugger that is used to debug all resources of the type that are running in the [Resource Monitor](resource-monitor.md) for the resource type. The following table summarizes the attributes of the **DebugPrefix** property.
 
@@ -33,13 +38,13 @@ Provides the path to a debugger that is used to debug all resources of the type 
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ A debugger can be used only if the resource type is running with a separate Reso
 
 Setting the **DebugPrefix** property causes -p &lt;process id&gt; to be appended to the end of the debug command, where &lt;process id&gt; represents the process identifier for the Resource Monitor handling the resource type.
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -74,9 +79,9 @@ StringCbCopy( DebugPrefixValue.sz,
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/>       |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/>       |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -84,15 +89,15 @@ StringCbCopy( DebugPrefixValue.sz,
 
 <dl> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

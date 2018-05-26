@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit is set the dialog is originally created as visible, otherwise it is hidden.'
-ms.assetid: 'a7aafa2f-18b1-4337-8bb2-c68d793c8c3c'
+Description: If this bit is set the dialog is originally created as visible, otherwise it is hidden.
+ms.assetid: a7aafa2f-18b1-4337-8bb2-c68d793c8c3c
 title: Visible Dialog Style Bit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Dialog Style Bit

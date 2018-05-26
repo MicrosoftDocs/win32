@@ -1,8 +1,9 @@
 ---
 title: glGetError function
 description: The glGetError function returns error information.
-ms.assetid: '18f0368f-054f-4b84-8397-3f9ee4aa07fa'
-keywords: ["glGetError function OpenGL"]
+ms.assetid: 18f0368f-054f-4b84-8397-3f9ee4aa07fa
+keywords:
+- glGetError function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetError function
@@ -48,7 +54,7 @@ The **glGetError** function returns one of the following error codes.
 
 
 
- 
+ 
 
 Note that **glGetError** returns GL\_INVALID\_OPERATION if it is called between a call to [**glBegin**](glbegin.md) and its corresponding call to [**glEnd**](glend.md).
 
@@ -68,8 +74,8 @@ When an error flag is set, results of an OpenGL operation are undefined only if 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -86,9 +92,9 @@ When an error flag is set, results of an OpenGL operation are undefined only if 
 [**glEnd**](glend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetCutPoint method retrieves the cut point.'
-ms.assetid: 'f54ef17e-3407-4164-911d-3dc7fad656ed'
-title: 'IAMTimelineTrans::GetCutPoint method'
+---
+Description: The GetCutPoint method retrieves the cut point.
+ms.assetid: f54ef17e-3407-4164-911d-3dc7fad656ed
+title: IAMTimelineTransGetCutPoint method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrans::GetCutPoint method

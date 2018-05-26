@@ -1,8 +1,9 @@
 ---
 title: WM\_PSD\_MINMARGINRECT message
 description: Notifies a PagePaintHook hook procedure of the coordinates of the margin rectangle in the sample page. A Page Setup dialog box sends this message when it is about to draw the contents of the sample page.
-ms.assetid: '14977b52-7a6f-4c55-956a-716398a71613'
-keywords: ["WM_PSD_MINMARGINRECT message Dialog Boxes"]
+ms.assetid: 14977b52-7a6f-4c55-956a-716398a71613
+keywords:
+- WM_PSD_MINMARGINRECT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PSD\_MINMARGINRECT message
@@ -59,8 +65,8 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

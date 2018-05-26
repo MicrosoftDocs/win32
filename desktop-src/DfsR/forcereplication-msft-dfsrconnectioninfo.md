@@ -4,13 +4,16 @@ description: Controls replication by either forcing or suspending replication. D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1f1a6cd-511c-4378-b5af-4b029863a8f8'
-ms.prod: 'windows-server-dev'
+ms.assetid: f1f1a6cd-511c-4378-b5af-4b029863a8f8
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ForceReplication method Distributed File System Replication", "ForceReplication method Distributed File System Replication , MSFT_DfsrConnectionInfo class", "MSFT_DfsrConnectionInfo class Distributed File System Replication , ForceReplication method"]
+keywords:
+- ForceReplication method Distributed File System Replication
+- ForceReplication method Distributed File System Replication , MSFT_DfsrConnectionInfo class
+- MSFT_DfsrConnectionInfo class Distributed File System Replication , ForceReplication method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ForceReplication method of the MSFT\_DfsrConnectionInfo class
@@ -30,9 +36,9 @@ Controls replication by either forcing or suspending replication. DFSR will reve
 
 ```mof
 uint32 ForceReplication(
-  [in] uint32 Mode,
-  [in] uint32 DurationInMin,
-  [in] uint32 Bandwidth
+  [in] uint32 Mode,
+  [in] uint32 DurationInMin,
+  [in] uint32 Bandwidth
 );
 ```
 
@@ -298,7 +304,7 @@ This method is meaningful only for inbound connections. It always fails with an 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -312,9 +318,9 @@ This method is meaningful only for inbound connections. It always fails with an 
 [**MSFT\_DfsrConnectionInfo**](msft-dfsrconnectioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

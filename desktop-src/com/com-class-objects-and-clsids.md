@@ -1,7 +1,12 @@
 ---
 title: COM Class Objects and CLSIDs
 description: A COM server is implemented as a COM class.
-ms.assetid: '0073acdf-38a8-4f1a-aa26-379456a95fca'
+ms.assetid: 0073acdf-38a8-4f1a-aa26-379456a95fca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Class Objects and CLSIDs
@@ -14,17 +19,17 @@ For clients and servers on the same computer, the CLSID of the server is all the
 
 For distributed systems, COM provides registry entries that allow a remote server to register itself for use by a client. While applications need know only a server's CLSID, because they can rely on the registry to locate the server, COM allows clients to override registry entries and to specify server locations, to take full advantage of the network. (See [Locating a Remote Object](locating-a-remote-object.md).)
 
-The basic way to create an instance of a class is through a COM *class object*. This is simply an intermediate object that supports functions common to creating new instances of a given class. Most class objects used to create objects from a CLSID support the [**IClassFactory**](iclassfactory.md) interface, an interface that includes the important [**CreateInstance**](iclassfactory-createinstance.md) method. You implement an **IClassFactory** interface for each class of object that you offer to be instantiated. (For more information about implementing **IClassFactory**, see [Implementing IClassFactory](implementing-iclassfactory.md).)
+The basic way to create an instance of a class is through a COM *class object*. This is simply an intermediate object that supports functions common to creating new instances of a given class. Most class objects used to create objects from a CLSID support the [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) interface, an interface that includes the important [**CreateInstance**](/windows/win32/Unknwn/nf-unknwn-iclassfactory-createinstance?branch=master) method. You implement an **IClassFactory** interface for each class of object that you offer to be instantiated. (For more information about implementing **IClassFactory**, see [Implementing IClassFactory](implementing-iclassfactory.md).)
 
 > [!Note]  
-> Servers that support some other custom class factory interface are not required to support [**IClassFactory**](iclassfactory.md) specifically. However, calls to activation functions other than [**CoGetClassObject**](cogetclassobject.md) (such as [**CoCreateInstanceEx**](cocreateinstanceex.md)) require that the server support **IClassFactory**.
+> Servers that support some other custom class factory interface are not required to support [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) specifically. However, calls to activation functions other than [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master) (such as [**CoCreateInstanceEx**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstanceex?branch=master)) require that the server support **IClassFactory**.
 
  
 
-When a client wants to create an instance of the server's object, it uses the desired object's CLSID in a call to [**CoGetClassObject**](cogetclassobject.md). (This call can be either direct or implicit, through one of the object creation helper functions.) This function locates the code associated with the CLSID, and creates a class object, and supplies a pointer to the interface requested. (**CoGetClassObject** takes a *riid* param that specifies the client's desired interface pointer.)
+When a client wants to create an instance of the server's object, it uses the desired object's CLSID in a call to [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master). (This call can be either direct or implicit, through one of the object creation helper functions.) This function locates the code associated with the CLSID, and creates a class object, and supplies a pointer to the interface requested. (**CoGetClassObject** takes a *riid* param that specifies the client's desired interface pointer.)
 
 > [!Note]  
-> COM has just a few functions upon which many of the others are built. The most important of these is probably [**CoGetClassObject**](cogetclassobject.md), which underlies all of the instance creation functions.
+> COM has just a few functions upon which many of the others are built. The most important of these is probably [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master), which underlies all of the instance creation functions.
 
  
 

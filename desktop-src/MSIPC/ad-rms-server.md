@@ -4,10 +4,13 @@ description: This topic describes the purpose and functions of the RMS Server; f
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '17B05780-B0EF-4805-8304-52DCDEB3AADB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 17B05780-B0EF-4805-8304-52DCDEB3AADB
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server
@@ -19,9 +22,9 @@ This topic describes the purpose and functions of the RMS Server; for Azure and 
 > \[!Tip\]  
 > We recommend developing and testing your application via Azure RMS.
 
- 
+ 
 
-**Windows Server** - For RMS on premise servers, beginning with Windows Server 2008, you can install and configure the RMS service by adding it as a role. To install the service on prior operating systems, download it from the Microsoft download center at [Microsoft Windows Rights Management Services with Service Pack 2](http://www.microsoft.com/download/en/details.aspx?id=4909).
+**Windows Server** - For RMS on premise servers, beginning with Windows Server 2008, you can install and configure the RMS service by adding it as a role. To install the service on prior operating systems, download it from the Microsoft download center at [Microsoft Windows Rights Management Services with Service Pack 2](http://www.microsoft.com/download/en/details.aspx?id=4909).
 
 Of the web services installed, the following are important for application development for RMS Server on Windows Server.
 
@@ -38,7 +41,7 @@ Of the web services installed, the following are important for application devel
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +80,9 @@ Of the web services installed, the following are important for application devel
 [*rights account certificate*](https://msdn.microsoft.com/library/aa362726#-rm-rights-account-certificate-gly)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

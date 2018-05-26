@@ -1,7 +1,12 @@
 ---
-Description: 'A version vector processes conditional comments in an HTML webpage. That is, version vectors enable you to create markup based on the browser version.'
-ms.assetid: '526080CD-CE76-48B8-AEBC-6A135FD95BB0'
+Description: A version vector processes conditional comments in an HTML webpage. That is, version vectors enable you to create markup based on the browser version.
+ms.assetid: 526080CD-CE76-48B8-AEBC-6A135FD95BB0
 title: Version Vectors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version Vectors

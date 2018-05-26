@@ -1,14 +1,19 @@
 ---
 Description: DMO Media Types
-ms.assetid: '40958e12-09c7-4ce5-aa4d-5ed8b1f40aa3'
+ms.assetid: 40958e12-09c7-4ce5-aa4d-5ed8b1f40aa3
 title: DMO Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMO Media Types
 
 A media type describes the format associated with a stream of media data. This article describes how DMOs handle media types. It is primarily intended for developers who are writing their own custom DMOs.
 
-Media types are defined using the [**DMO\_MEDIA\_TYPE**](dmo-media-type.md) structure. This structure includes the following information:
+Media types are defined using the [**DMO\_MEDIA\_TYPE**](/windows/win32/Mediaobj/ns-mediaobj-_dmomediatype?branch=master) structure. This structure includes the following information:
 
 -   The *major type* is a globally unique identifier (GUID) that defines a broad category, such as audio or video.
 -   The *subtype* is a GUID that defines more specific aspects of the type. For example, within video, the subtypes include 16-bit RGB, 24-bit RGB, UYVY, DV-encoded video, and so forth.
@@ -18,13 +23,13 @@ When a DMO is first created, the streams do not have a media type. Before the DM
 
 **Media Types in the Registry**
 
-A DMO can add a list of media types that it supports to the registry, by calling the [**DMORegister**](dmoregister.md) function. An application can use this information to search for DMOs that match a particular format. The information in the registry is not meant to be comprehensive. Typically, you would include only the main types that the DMO supports. The registry entry has separate keys for input and output types, but does not distinguish among individual streams.
+A DMO can add a list of media types that it supports to the registry, by calling the [**DMORegister**](/windows/win32/Dmoreg/nf-dmoreg-dmoregister?branch=master) function. An application can use this information to search for DMOs that match a particular format. The information in the registry is not meant to be comprehensive. Typically, you would include only the main types that the DMO supports. The registry entry has separate keys for input and output types, but does not distinguish among individual streams.
 
-The **DMORegister** function uses the [**DMO\_PARTIAL\_MEDIATYPE**](dmo-partial-mediatype.md) structure to describe media types. This structure contains a subset of the information found in the **DMO\_MEDIA\_TYPE** structure—namely the major type and the subtype. It does not include a format block, because the format block typically contains information that is too granular to include in the registry, such as the height and width of a video image.
+The **DMORegister** function uses the [**DMO\_PARTIAL\_MEDIATYPE**](/windows/win32/Dmoreg/ns-dmoreg-_dmo_partial_mediatype?branch=master) structure to describe media types. This structure contains a subset of the information found in the **DMO\_MEDIA\_TYPE** structure—namely the major type and the subtype. It does not include a format block, because the format block typically contains information that is too granular to include in the registry, such as the height and width of a video image.
 
 **Preferred Media Types**
 
-After the application has created a DMO, it can query the DMO for the media types it supports. For each stream, the DMO creates a list of media types (possibly empty), ranked in order of preference. The [**IMediaObject::GetInputType**](imediaobject-getinputtype.md) and [**IMediaObject::GetOutputType**](imediaobject-getoutputtype.md) methods enumerate the preferred types. A stream's preferred types can change dynamically when the application sets media types on other streams. For example, the list of preferred output types might change after the input type is set, or vice versa. However, the DMO is not required to update its preferred types dynamically. The application cannot assume that every type it receives is valid. For this reason, the [**IMediaObject::SetInputType**](imediaobject-setinputtype.md) and [**IMediaObject::SetOutputType**](imediaobject-setoutputtype.md) methods support a flag for testing a specific type.
+After the application has created a DMO, it can query the DMO for the media types it supports. For each stream, the DMO creates a list of media types (possibly empty), ranked in order of preference. The [**IMediaObject::GetInputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-getinputtype?branch=master) and [**IMediaObject::GetOutputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-getoutputtype?branch=master) methods enumerate the preferred types. A stream's preferred types can change dynamically when the application sets media types on other streams. For example, the list of preferred output types might change after the input type is set, or vice versa. However, the DMO is not required to update its preferred types dynamically. The application cannot assume that every type it receives is valid. For this reason, the [**IMediaObject::SetInputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-setinputtype?branch=master) and [**IMediaObject::SetOutputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-setoutputtype?branch=master) methods support a flag for testing a specific type.
 
 The **GetInputType** and **GetOutputType** methods both return a **DMO\_MEDIA\_TYPE** structure. The DMO can leave some of the information in this structure blank, to indicate a range of types. The major type or subtype can be GUID\_NULL, and the format block can be empty (zero bytes). If the format block is empty, the format type must be GUID\_NULL.
 

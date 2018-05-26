@@ -1,14 +1,18 @@
 ---
-title: Example Code for Binding to the User's Container
+title: Example Code for Binding to the Users Container
 description: This topic includes a code example that will bind to the users container in the current domain and return and IADsContainer interface for the container.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '78524b05-f57a-4816-92eb-e37be74dd245'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 78524b05-f57a-4816-92eb-e37be74dd245
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , binding to user's container"]
+keywords:
+- Active Directory examples Active Directory , binding to users container
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Binding to the User's Container

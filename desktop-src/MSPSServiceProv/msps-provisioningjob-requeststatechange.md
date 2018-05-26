@@ -4,13 +4,16 @@ description: Requests that the state of the job be changed to the value specifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '55baf3b1-9e1b-482c-a51a-1421f764353e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 55baf3b1-9e1b-482c-a51a-1421f764353e
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method", "RequestStateChange method, Msps_ProvisioningJob class", "Msps_ProvisioningJob class, RequestStateChange method"]
+keywords:
+- RequestStateChange method
+- RequestStateChange method, Msps_ProvisioningJob class
+- Msps_ProvisioningJob class, RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the Msps\_ProvisioningJob class
@@ -32,8 +38,8 @@ If 0 is returned, then the task completed successfully. Any other return code in
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -85,14 +91,14 @@ The requested state for the job.
 
 </dd> <dt>
 
-7–32767
+7 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -178,7 +184,7 @@ In Use
 
 </dt> <dd>
 
-7–4095
+7 4095
 
 DMTF Reserved
 
@@ -223,7 +229,7 @@ Busy
 
 </dt> <dd>
 
-4100–32767
+4100 32767
 
 Method Reserved
 
@@ -232,7 +238,7 @@ Method Reserved
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 Vendor Specific
 
@@ -245,7 +251,7 @@ Vendor Specific
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -259,9 +265,9 @@ Vendor Specific
 [**Msps\_ProvisioningJob**](msps-provisioningjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

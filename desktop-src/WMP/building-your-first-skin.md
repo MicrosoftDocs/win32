@@ -1,8 +1,16 @@
 ---
 title: Building Your First Skin
 description: Building Your First Skin
-ms.assetid: 'fe2d8ff4-59c0-4cda-b6db-3b3654c71c97'
-keywords: ["Windows Media Player skins,creation guide", "skins,creation guide", "creating skins,about"]
+ms.assetid: fe2d8ff4-59c0-4cda-b6db-3b3654c71c97
+keywords:
+- Windows Media Player skins,creation guide
+- skins,creation guide
+- creating skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Your First Skin

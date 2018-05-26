@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.'
-ms.assetid: '55fafcd0-29a1-468f-b3fd-c5d10601b1e9'
-title: 'FaxConfiguration.OutgoingQueueAgeLimit property'
+---
+Description: Sets or retrieves a value that indicates the length of time that an undeliverable fax message is kept on the fax server before it is deleted.
+ms.assetid: 55fafcd0-29a1-468f-b3fd-c5d10601b1e9
+title: FaxConfiguration.OutgoingQueueAgeLimit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.OutgoingQueueAgeLimit property

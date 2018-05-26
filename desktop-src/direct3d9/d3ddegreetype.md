@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the degree of the variables in the equation that describes a curve.'
-ms.assetid: '52a9c57e-a48d-4d8a-a208-97a3d09e7abf'
+---
+Description: Defines the degree of the variables in the equation that describes a curve.
+ms.assetid: 52a9c57e-a48d-4d8a-a208-97a3d09e7abf
 title: D3DDEGREETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEGREETYPE enumeration
@@ -83,7 +88,7 @@ The values in this enumeration are used to describe the curves used by rectangle
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DCAPS9**](d3dcaps9.md)
+[**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)
 </dt> <dt>
 
 [**D3DRENDERSTATETYPE**](direct3d9.d3drenderstatetype)

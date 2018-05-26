@@ -1,7 +1,12 @@
 ---
 title: VML Imagedata Element
 description: VML Imagedata Element
-ms.assetid: '91004646-b031-4973-a32d-7afdd10dab48'
+ms.assetid: 91004646-b031-4973-a32d-7afdd10dab48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Imagedata Element

@@ -1,7 +1,12 @@
 ---
 title: The CommandsWindow Object
 description: The CommandsWindow Object
-ms.assetid: 'f7f37499-f16b-47fb-85d1-23a68171bf0b'
+ms.assetid: f7f37499-f16b-47fb-85d1-23a68171bf0b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The CommandsWindow Object

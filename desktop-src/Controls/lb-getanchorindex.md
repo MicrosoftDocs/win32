@@ -1,8 +1,9 @@
 ---
 title: LB\_GETANCHORINDEX message
 description: Gets the index of the anchor item \ 8212;that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.
-ms.assetid: '2518d4ef-6cf1-4a49-aaef-85249b0aad7b'
-keywords: ["LB_GETANCHORINDEX message Windows Controls"]
+ms.assetid: 2518d4ef-6cf1-4a49-aaef-85249b0aad7b
+keywords:
+- LB_GETANCHORINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETANCHORINDEX message
 
-Gets the index of the anchor item—that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.
+Gets the index of the anchor item that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ The return value is the index of the anchor item.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The return value is the index of the anchor item.
 [**LB\_SETANCHORINDEX**](lb-setanchorindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

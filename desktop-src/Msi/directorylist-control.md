@@ -1,7 +1,12 @@
 ---
-Description: 'A DirectoryList control displays a part of the path that is currently displayed in the PathEdit control. The DirectoryList control displays the folders below the directory currently displayed by the DirectoryCombo control.'
-ms.assetid: '05e70381-28c0-4568-808e-ff2dee8ff790'
+Description: A DirectoryList control displays a part of the path that is currently displayed in the PathEdit control. The DirectoryList control displays the folders below the directory currently displayed by the DirectoryCombo control.
+ms.assetid: 05e70381-28c0-4568-808e-ff2dee8ff790
 title: DirectoryList Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectoryList Control
@@ -25,7 +30,7 @@ The DirectoryList control publishes the following ControlEvents.
 
 
 
- 
+ 
 
 The contents of the Text field of the [Control table](control-table.md) is never displayed by the DirectoryList control. Instead this field specifies the style of text to be displayed by the control and contains a description of the control used by screen review utilities. To set the font and font style of a text string, prefix the string of displayed characters with {\\style} or {&*style*}. Where style is an identifier listed in the TextStyle column of the [TextStyle table](textstyle-table.md). If neither of these are present, but the [**DefaultUIFont**](defaultuifont.md) property is defined as a valid text style, that font will be used. The information following this is read by screen review utilities as the description of the control. See [Accessibility](accessibility.md).
 
@@ -41,7 +46,7 @@ You can use the following attributes with this control. To change the value of a
 | [Position](position-control-attribute.md)                         |                                  | Position of the control in the dialog box. Enter the control's width, height, and coordinates of the control's left corner into the Width, Height, X, and Y columns of the [Control table](control-table.md). Use [installer units](installer-units.md) for length and distance.<br/>                                                                             |
 | [PropertyName](propertyname-control-attribute.md)                 |                                  | This is the name of the property associated with this control. If the Indirect attribute bit is not set, the control displays or changes the value of the property having this name. This attribute is specified in the Property column of the [Control table](control-table.md).                                                                                        |
 | [PropertyValue](propertyvalue-control-attribute.md)               |                                  | Current value of the property displayed or changed by this control. If the Indirect attribute bit is not set, this is the value of PropertyName. If the Indirect attribute bit is set, this is the value of IndirectPropertyName. If the attribute changes, the control reflects the new value.                                                                           |
-| [Text](text-control-attribute.md)                                 |                                  | To display text in screen readers, enter the text into the Text column of the [Control table](control-table.md). See [Accessibility](accessibility.md).                                                                                                                                                                                                                 |
+| [Text](text-control-attribute.md)                                 |                                  | To display text in screen readers, enter the text into the Text column of the [Control table](control-table.md). See [Accessibility](accessibility.md).                                                                                                                                                                                                                 |
 | [Visible](visible-control-attribute.md)                           | 0x00000000 0x00000001<br/> | Hidden control. Visible control.<br/> Include this bit in the bit word of the Attributes column in the [Control table](control-table.md).to make the control visible or hidden upon its creation.<br/> You can also hide or show a control by using the [ControlCondition table](controlcondition-table.md).<br/>                                     |
 | [Enabled](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Control in a disabled state. Control in an enabled state.<br/> Include this bit in the bit word in the Attributes column of the [Control](control-table.md) to enable the control on creation.<br/> You can also enable or disable a control by using the [ControlCondition table](controlcondition-table.md).<br/>                                   |
 | [Sunken](sunken-control-attribute.md)                             | 0x00000000 0x00000004<br/> | Displays the default visual style. Displays the control with a sunken, 3D, look.<br/> Include these bits in the bit word in the Attributes column of the [Control table](control-table.md).<br/>                                                                                                                                                             |
@@ -53,7 +58,7 @@ You can use the following attributes with this control. To change the value of a
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +66,9 @@ This control can be created from the WC\_LISTVIEW class by using the [**CreateWi
 
 This control lets the user select a subfolder of the current selection. With additional buttons it also lets the user select a new folder in the current selection or step up one level in the path. If the user chooses the **Create New Folder** button in a folder where a new folder already exists, a second new folder is not created and the existing new folder's name is selected for editing.
 
- 
+ 
 
- 
+ 
 
 
 

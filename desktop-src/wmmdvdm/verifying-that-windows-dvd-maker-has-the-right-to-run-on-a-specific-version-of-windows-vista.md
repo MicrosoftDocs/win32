@@ -1,8 +1,18 @@
 ---
 title: Verifying That Windows DVD Maker Has the Right to Run on a Specific Version of Windows Vista
 description: Verifying That Windows DVD Maker Has the Right to Run on a Specific Version of Windows Vista
-ms.assetid: 'f9424044-0c20-4b09-8571-6670ba411a9b'
-keywords: ["Windows DVD Maker,specific Windows Vista versions", "DVD Maker,specific Windows Vista versions", "programming guide,specific Windows Vista versions", "Windows Vista,specific versions for Windows DVD Maker", "SLGetWindowsInformationDWORD function"]
+ms.assetid: f9424044-0c20-4b09-8571-6670ba411a9b
+keywords:
+- Windows DVD Maker,specific Windows Vista versions
+- DVD Maker,specific Windows Vista versions
+- programming guide,specific Windows Vista versions
+- Windows Vista,specific versions for Windows DVD Maker
+- SLGetWindowsInformationDWORD function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying That Windows DVD Maker Has the Right to Run on a Specific Version of Windows Vista

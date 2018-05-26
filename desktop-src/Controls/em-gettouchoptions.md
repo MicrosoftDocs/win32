@@ -1,8 +1,9 @@
 ---
 title: EM\_GETTOUCHOPTIONS message
 description: Retrieves the touch options that are associated with a rich edit control.
-ms.assetid: '1D367818-5625-4A5A-A7A1-330FED516990'
-keywords: ["EM_GETTOUCHOPTIONS message Windows Controls"]
+ms.assetid: 1D367818-5625-4A5A-A7A1-330FED516990
+keywords:
+- EM_GETTOUCHOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETTOUCHOPTIONS message
@@ -42,7 +48,7 @@ The touch options to retrieve. It can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -63,8 +69,8 @@ Returns the value of the option specified by the *wParam* parameter. It is nonze
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ Returns the value of the option specified by the *wParam* parameter. It is nonze
 [**EM\_SETTOUCHOPTIONS**](em-settouchoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The NetQosCim provider supplies data for network quality of service (QoS) and QoS setting data.'
-ms.assetid: '40441478-AE3F-4C17-96EA-4D28D30BB73D'
+Description: The NetQosCim provider supplies data for network quality of service (QoS) and QoS setting data.
+ms.assetid: 40441478-AE3F-4C17-96EA-4D28D30BB73D
 title: NetQosCim Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetQosCim Provider
@@ -19,11 +24,11 @@ The NetQosCim provider supplies data for network quality of service (QoS) and Qo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

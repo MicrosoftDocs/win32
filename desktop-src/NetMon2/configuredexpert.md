@@ -1,7 +1,12 @@
 ---
-Description: 'The CONFIGUREDEXPERT structure associates an expert with its configuration data.'
-ms.assetid: '96a6650b-6d6f-495e-83bb-385d44ff015d'
+Description: The CONFIGUREDEXPERT structure associates an expert with its configuration data.
+ms.assetid: 96a6650b-6d6f-495e-83bb-385d44ff015d
 title: CONFIGUREDEXPERT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONFIGUREDEXPERT structure
@@ -13,8 +18,8 @@ The **CONFIGUREDEXPERT** structure associates an expert with its configuration d
 
 ```C++
 typedef struct {
-  HEXPERT       hExpert;
-  DWORD         StartupFlags;
+  HEXPERT       hExpert;
+  DWORD         StartupFlags;
   PEXPERTCONFIG pConfig;
 } CONFIGUREDEXPERT, *PCONFIGUREDEXPERT;
 ```
@@ -52,15 +57,15 @@ Pointer to an [**EXPERTCONFIG**](expertconfig.md) structure.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::DownloadCharGlyph method enables a rendering plug-in for Unidrv to send a character glyph for a specified soft font to the printer.'
-ms.assetid: '1ce7ebaa-759e-418a-af07-e530b1102567'
-title: 'IPrintOemUni::DownloadCharGlyph method'
+---
+Description: The IPrintOemUniDownloadCharGlyph method enables a rendering plug-in for Unidrv to send a character glyph for a specified soft font to the printer.
+ms.assetid: 1ce7ebaa-759e-418a-af07-e530b1102567
+title: IPrintOemUniDownloadCharGlyph method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::DownloadCharGlyph method

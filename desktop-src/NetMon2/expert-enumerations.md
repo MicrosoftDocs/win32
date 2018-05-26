@@ -1,7 +1,12 @@
 ---
-Description: 'The expert structures use this enumeration.'
-ms.assetid: '62a824d6-0f0d-465a-8b3a-e462104ec612'
+Description: The expert structures use this enumeration.
+ms.assetid: 62a824d6-0f0d-465a-8b3a-e462104ec612
 title: Expert Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Expert Enumerations

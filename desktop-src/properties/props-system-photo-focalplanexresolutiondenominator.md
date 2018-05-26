@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Photo\_FocalPlaneXResolution.'
-ms.assetid: '54aaf800-6685-4945-976f-a9f1c25aa523'
-title: 'System.Photo.FocalPlaneXResolutionDenominator'
+Description: The denominator of PKEY\_Photo\_FocalPlaneXResolution.
+ms.assetid: 54aaf800-6685-4945-976f-a9f1c25aa523
+title: System.Photo.FocalPlaneXResolutionDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FocalPlaneXResolutionDenominator

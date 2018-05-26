@@ -1,7 +1,12 @@
 ---
-Description: 'The ActivateButton method activates the selected menu button.'
-ms.assetid: '1da486a0-dadc-4c92-b3d3-83aeace01e39'
+Description: The ActivateButton method activates the selected menu button.
+ms.assetid: 1da486a0-dadc-4c92-b3d3-83aeace01e39
 title: ActivateButton Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivateButton Method

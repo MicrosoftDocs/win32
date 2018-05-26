@@ -1,13 +1,16 @@
 ---
-Description: 'The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.'
+Description: The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'be88670d-6f0d-4b9d-886f-3e70bf4758ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: be88670d-6f0d-4b9d-886f-3e70bf4758ed
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectPath.Namespace property'
+title: SWbemObjectPath.Namespace property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath.Namespace property
@@ -62,8 +65,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -72,9 +75,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

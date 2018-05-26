@@ -1,8 +1,9 @@
 ---
 title: TB\_SAVERESTORE message
 description: Send this message to initiate saving or restoring a toolbar state.
-ms.assetid: '59f51d07-cd08-4d6f-9d19-614064ba6f20'
-keywords: ["TB_SAVERESTORE message Windows Controls"]
+ms.assetid: 59f51d07-cd08-4d6f-9d19-614064ba6f20
+keywords:
+- TB_SAVERESTORE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SAVERESTORE message
@@ -33,7 +39,7 @@ Save or restore flag. If this parameter is **TRUE**, the information is saved. I
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBSAVEPARAMS**](tbsaveparams.md) structure that specifies the registry key, subkey, and value name for the toolbar state information.
+Pointer to a [**TBSAVEPARAMS**](/windows/win32/Commctrl/ns-commctrl-tagtbsaveparamsa?branch=master) structure that specifies the registry key, subkey, and value name for the toolbar state information.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ Version 5.80 includes a new save/restore option. At the beginning of the process
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_SAVERESTOREW** (Unicode) and **TB\_SAVERESTOREA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

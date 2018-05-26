@@ -1,14 +1,19 @@
 ---
-Description: 'The StretchDIBits function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle.'
-ms.assetid: 'd4e3f631-3852-4cee-8e97-2244c39b200e'
+Description: The StretchDIBits function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle.
+ms.assetid: d4e3f631-3852-4cee-8e97-2244c39b200e
 title: Sizing a JPEG or PNG Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sizing a JPEG or PNG Image
 
-The [**StretchDIBits**](stretchdibits.md) function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle. If the destination rectangle is larger than the source rectangle, this function stretches the rows and columns of color data to fit the destination rectangle. If the destination rectangle is smaller than the source rectangle, **StretchDIBits** compresses the rows and columns by using the specified raster operation.
+The [**StretchDIBits**](/windows/win32/Wingdi/nf-wingdi-stretchdibits?branch=master) function copies the color data for a rectangle of pixels in a DIB to the specified destination rectangle. If the destination rectangle is larger than the source rectangle, this function stretches the rows and columns of color data to fit the destination rectangle. If the destination rectangle is smaller than the source rectangle, **StretchDIBits** compresses the rows and columns by using the specified raster operation.
 
-[**StretchDIBits**](stretchdibits.md) is extended to allow a JPEG or PNG image to be passed as the source image.
+[**StretchDIBits**](/windows/win32/Wingdi/nf-wingdi-stretchdibits?branch=master) is extended to allow a JPEG or PNG image to be passed as the source image.
 
 For example:
 

@@ -1,14 +1,20 @@
 ---
 title: BcdLibrary\_SafeBoot enumeration
 description: Specifies the safe boot options.
-ms.assetid: '1739c0bd-6957-44de-8214-a4da9f9fc7df'
-keywords: ["BcdLibrary_SafeBoot enumeration Boot Config"]
+ms.assetid: 1739c0bd-6957-44de-8214-a4da9f9fc7df
+keywords:
+- BcdLibrary_SafeBoot enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdLibrary_SafeBoot
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdLibrary\_SafeBoot enumeration
@@ -20,9 +26,9 @@ Specifies the safe boot options.
 
 ```C++
 typedef enum BcdLibrary_SafeBoot { 
-  SafemodeMinimal   = 0,
-  SafemodeNetwork   = 1,
-  SafemodeDsRepair  = 2
+  SafemodeMinimal   = 0,
+  SafemodeNetwork   = 1,
+  SafemodeDsRepair  = 2
 } BcdLibrary_SafeBoot;
 ```
 
@@ -59,8 +65,8 @@ Boot the system into a repair mode that restores the Active Directory service fr
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ Boot the system into a repair mode that restores the Active Directory service fr
 [**BcdOSLoaderElementTypes**](bcdosloaderelementtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

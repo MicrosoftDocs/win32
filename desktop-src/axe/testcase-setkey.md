@@ -1,8 +1,11 @@
 ---
 title: TestCase SetKey method
 description: Sets the key of the TestCase.
-ms.assetid: 'ED88C71D-A943-4381-9E80-50A9E62088A5'
-keywords: ["SetKey method Access Execution Engine", "SetKey method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , SetKey method"]
+ms.assetid: ED88C71D-A943-4381-9E80-50A9E62088A5
+keywords:
+- SetKey method Access Execution Engine
+- SetKey method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , SetKey method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::SetKey method
@@ -22,7 +30,7 @@ Sets the key of the **TestCase.**
 
 ```C++
 virtual HRESULT SetKey(
-  [in] LPCWSTR key
+  [in] LPCWSTR key
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The key is the value of element **TestCase/Key**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The key is the value of element **TestCase/Key**.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

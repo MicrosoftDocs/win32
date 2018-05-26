@@ -1,8 +1,16 @@
 ---
 title: Displaying Contextual Tabs
 description: In a Windows Ribbon framework application, a contextual tab is a hidden Tab control that is displayed in the tab row when an object in the application workspace, such as an image, is selected or highlighted.
-ms.assetid: '2059ca42-6a99-43a2-b1f5-ce5554156993'
-keywords: ["Windows Ribbon,contextual tabs", "Ribbon,contextual tabs", "displaying Windows Ribbon contextual tabs"]
+ms.assetid: 2059ca42-6a99-43a2-b1f5-ce5554156993
+keywords:
+- Windows Ribbon,contextual tabs
+- Ribbon,contextual tabs
+- displaying Windows Ribbon contextual tabs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Contextual Tabs

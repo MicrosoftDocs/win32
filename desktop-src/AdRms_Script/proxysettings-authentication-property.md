@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object that can be used to require proxy authentication, specify the type of authentication required, and retrieve or specify account credentials.'
+Description: Retrieves an object that can be used to require proxy authentication, specify the type of authentication required, and retrieve or specify account credentials.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '729d9f6b-7214-4fe8-b6b2-74bf4320d62c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 729d9f6b-7214-4fe8-b6b2-74bf4320d62c
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ProxySettings.Authentication property'
+title: ProxySettings.Authentication property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProxySettings.Authentication property
@@ -101,7 +104,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -113,9 +116,9 @@ END FUNCTION
 [**ProxySettings**](proxysettings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

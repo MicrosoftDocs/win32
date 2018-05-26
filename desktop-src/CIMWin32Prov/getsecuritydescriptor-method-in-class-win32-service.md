@@ -1,15 +1,18 @@
 ---
-Description: 'Returns the security descriptor that controls access to the service.'
+Description: Returns the security descriptor that controls access to the service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '99c8346e-e8d6-4f3c-bbdc-437dcf852b2a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 99c8346e-e8d6-4f3c-bbdc-437dcf852b2a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSecurityDescriptor method of the Win32\_Service class'
+title: GetSecurityDescriptor method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the Win32\_Service class
@@ -21,7 +24,7 @@ The **GetSecurityDescriptor** method returns the security descriptor that contro
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -272,7 +275,7 @@ The service is currently paused in the system.
 **Other**
 </dt> <dd>
 
-22–4294967295
+22 4294967295
 
 </dd> </dl>
 
@@ -310,8 +313,8 @@ Scope.Options.EnablePrivileges = True
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -337,9 +340,9 @@ Scope.Options.EnablePrivileges = True
 [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

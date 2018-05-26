@@ -1,7 +1,12 @@
 ---
 title: Cursor Notifications
 description: .
-ms.assetid: 'e686a0f7-70f5-406f-85be-276e44c70389'
+ms.assetid: e686a0f7-70f5-406f-85be-276e44c70389
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cursor Notifications

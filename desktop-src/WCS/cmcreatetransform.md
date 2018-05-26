@@ -1,8 +1,21 @@
 ---
 title: CMCreateTransform
 description: CMCreateTransform
-ms.assetid: '3e85b142-c613-4c04-bb86-d5d33eb19210'
-keywords: ["Windows Color System (WCS),CMCreateTransform function", "WCS (Windows Color System),CMCreateTransform function", "image color management,CMCreateTransform function", "color management,CMCreateTransform function", "colors,CMCreateTransform function", "WCS reference,CMCreateTransform function", "reference for WCS,CMCreateTransform function", "CMCreateTransform function"]
+ms.assetid: 3e85b142-c613-4c04-bb86-d5d33eb19210
+keywords:
+- Windows Color System (WCS),CMCreateTransform function
+- WCS (Windows Color System),CMCreateTransform function
+- image color management,CMCreateTransform function
+- color management,CMCreateTransform function
+- colors,CMCreateTransform function
+- WCS reference,CMCreateTransform function
+- reference for WCS,CMCreateTransform function
+- CMCreateTransform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMCreateTransform

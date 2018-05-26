@@ -1,7 +1,12 @@
 ---
 title: Loading Character and Animation Data
 description: Loading Character and Animation Data
-ms.assetid: 'cd674513-fd68-49bb-a43f-12b07adddf3d'
+ms.assetid: cd674513-fd68-49bb-a43f-12b07adddf3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading Character and Animation Data

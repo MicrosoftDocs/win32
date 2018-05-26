@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_RootHints class
 description: The MicrosoftDNS\_RootHints class describes the RootHints stored in a Cache file on a DNS Server. This class simplifies visualizing the containment of DNS objects, rather than representing a real object.
-ms.assetid: 'd6dbce97-cffd-476a-ba61-c070d8245f0a'
-keywords: ["MicrosoftDNS_RootHints class DNS", "MicrosoftDNS_RootHints class DNS , described"]
+ms.assetid: d6dbce97-cffd-476a-ba61-c070d8245f0a
+keywords:
+- MicrosoftDNS_RootHints class DNS
+- MicrosoftDNS_RootHints class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_RootHints class
@@ -50,7 +57,7 @@ The **MicrosoftDNS\_RootHints** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +66,7 @@ The **MicrosoftDNS\_RootHints** class has these methods.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -78,9 +85,9 @@ The **MicrosoftDNS\_RootHints** class has these methods.
 [**GetDistinguishedName Method of the MicrosoftDNS\_RootHints Class**](microsoftdns-roothints-getdistinguishedname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

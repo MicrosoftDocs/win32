@@ -4,28 +4,33 @@ description: Specifies the order in which the cluster networks are used to creat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '78fea0cf-ba32-4932-b269-baed17f976b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 78fea0cf-ba32-4932-b269-baed17f976b9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MigrationNetworkOrder Failover Cluster ,for virtual machines", "MigrationNetworkOrder Failover Cluster"]
+keywords:
+- MigrationNetworkOrder Failover Cluster ,for virtual machines
+- MigrationNetworkOrder Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MigrationNetworkOrder
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrationNetworkOrder
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2:  **
+**Windows Server 2008 R2:  **
 
-Specifies the order in which the cluster networks are used to create the data connection during a live migration. The networks are specified by the network ID returned by the [**GetClusterNetworkId**](getclusternetworkid.md) function, separated by semicolons. The following table summarizes the attributes of the **MigrationNetworkOrder** property.
+Specifies the order in which the cluster networks are used to create the data connection during a live migration. The networks are specified by the network ID returned by the [**GetClusterNetworkId**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_network_id?branch=master) function, separated by semicolons. The following table summarizes the attributes of the **MigrationNetworkOrder** property.
 
 
 
@@ -33,19 +38,19 @@ Specifies the order in which the cluster networks are used to create the data co
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
 The system will attempt to create the network connection starting with the first network specified by the property, and stop when it could successfully set up the data connection. If the **MigrationNetworkOrder** property is empty, the networks are sorted based on the [**Metric**](networks-metric.md) and [**AutoMetric**](networks-autometric.md) properties of the available networks.
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -73,9 +78,9 @@ StringCbCopy( MigrationNetworkOrderValue.sz,
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -86,7 +91,7 @@ StringCbCopy( MigrationNetworkOrderValue.sz,
 [Virtual Machine Common Properties](virtual-machine-common-properties.md)
 </dt> <dt>
 
-[**GetClusterNetworkId**](getclusternetworkid.md)
+[**GetClusterNetworkId**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_network_id?branch=master)
 </dt> <dt>
 
 [**AutoMetric**](networks-autometric.md)
@@ -95,15 +100,15 @@ StringCbCopy( MigrationNetworkOrderValue.sz,
 [**Metric**](networks-metric.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

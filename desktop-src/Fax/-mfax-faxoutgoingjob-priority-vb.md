@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.'
-ms.assetid: 'b4583bf9-ed29-45c1-a92a-5eabe629d721'
-title: 'FaxOutgoingJob.Priority property'
+---
+Description: The Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
+ms.assetid: b4583bf9-ed29-45c1-a92a-5eabe629d721
+title: FaxOutgoingJob.Priority property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Priority property
@@ -21,7 +26,7 @@ Property Priority As Integer
 
 ## Property value
 
-A value from the [**FAX\_PRIORITY\_TYPE\_ENUM**](-mfax-fax-priority-type-enum.md) enumeration, specifying the fax job's priority.
+A value from the [**FAX\_PRIORITY\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_priority_type_enum?branch=master) enumeration, specifying the fax job's priority.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A value from the [**FAX\_PRIORITY\_TYPE\_ENUM**](-mfax-fax-priority-type-enum.md
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

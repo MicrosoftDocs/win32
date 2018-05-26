@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.'
-ms.assetid: 'F0E31AA1-47BD-4294-89BA-27B02FC8125B'
-title: 'IPrintWriteStreamFlush::FlushData method'
+---
+Description: The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
+ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
+title: IPrintWriteStreamFlushFlushData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintWriteStreamFlush::FlushData method

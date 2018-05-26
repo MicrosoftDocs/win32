@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks SampleMaskCb method
 description: Calls the sample mask subobject callback of an object that implements this interface.
-ms.assetid: '4D729414-1E04-407B-B32F-ECE1EA9FF414'
-keywords: ["SampleMaskCb method", "SampleMaskCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, SampleMaskCb method"]
+ms.assetid: 4D729414-1E04-407B-B32F-ECE1EA9FF414
+keywords:
+- SampleMaskCb method
+- SampleMaskCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, SampleMaskCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::SampleMaskCb method
@@ -22,7 +30,7 @@ Calls the sample mask subobject callback of an object that implements this inter
 
 ```C++
 void SampleMaskCb(
-   
+   
         UINT
            SampleMask
 );
@@ -69,9 +77,9 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

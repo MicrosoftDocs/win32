@@ -1,8 +1,13 @@
 ---
 title: IVMAccountant AllowableMaximumSystemCapacity property
 description: The AllowableMaximumSystemCapacity property contains the currently allowable maximum percentage of system capacity that can be assigned to this virtual machine.
-ms.assetid: 'be0d8cdf-6463-4f7c-a10b-9eabecfaf335'
-keywords: ["AllowableMaximumSystemCapacity property Virtual Server", "AllowableMaximumSystemCapacity property Virtual Server , IVMAccountant interface", "IVMAccountant interface Virtual Server , AllowableMaximumSystemCapacity property", "AllowableMaximumSystemCapacity property Virtual Server , VMAccountant interface", "VMAccountant interface Virtual Server , AllowableMaximumSystemCapacity property"]
+ms.assetid: be0d8cdf-6463-4f7c-a10b-9eabecfaf335
+keywords:
+- AllowableMaximumSystemCapacity property Virtual Server
+- AllowableMaximumSystemCapacity property Virtual Server , IVMAccountant interface
+- IVMAccountant interface Virtual Server , AllowableMaximumSystemCapacity property
+- AllowableMaximumSystemCapacity property Virtual Server , VMAccountant interface
+- VMAccountant interface Virtual Server , AllowableMaximumSystemCapacity property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::AllowableMaximumSystemCapacity property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AllowableMaximumSystemCapacity(
-  [out] VARIANT *allowableMaximumSystemCapacity
+  [out] VARIANT *allowableMaximumSystemCapacity
 );
 ```
 
@@ -95,8 +105,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -108,9 +118,9 @@ Next
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

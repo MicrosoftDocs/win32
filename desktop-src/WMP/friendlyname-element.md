@@ -1,14 +1,20 @@
 ---
 title: FriendlyName Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '9f5de0f9-609c-4b4d-8fda-4d65995aea79'
-keywords: ["FriendlyName Element Windows Media Player"]
+ms.assetid: 9f5de0f9-609c-4b4d-8fda-4d65995aea79
+keywords:
+- FriendlyName Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FriendlyName Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FriendlyName Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **FriendlyName** element specifies the text string that Windows Media Player displays to the user to identify the online store.
 
@@ -41,7 +47,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,9 +72,9 @@ This element has no attributes.
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

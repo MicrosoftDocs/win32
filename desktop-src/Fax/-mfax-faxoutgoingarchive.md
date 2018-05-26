@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutgoingArchive configuration object is used by a fax client application to access and configure the archive of outbound fax messages transmitted successfully by the fax service.'
-ms.assetid: 'ffed51b3-0a07-4667-8d8d-5054362489c4'
+---
+Description: The FaxOutgoingArchive configuration object is used by a fax client application to access and configure the archive of outbound fax messages transmitted successfully by the fax service.
+ms.assetid: ffed51b3-0a07-4667-8d8d-5054362489c4
 title: FaxOutgoingArchive object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive object

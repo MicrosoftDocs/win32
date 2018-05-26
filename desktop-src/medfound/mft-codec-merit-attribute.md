@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the merit value of a hardware codec.'
-ms.assetid: '1df40a42-4c02-473f-a87f-2ae2d42e4f4e'
-title: 'MFT\_CODEC\_MERIT\_Attribute attribute'
+---
+Description: Contains the merit value of a hardware codec.
+ms.assetid: 1df40a42-4c02-473f-a87f-2ae2d42e4f4e
+title: MFT\_CODEC\_MERIT\_Attribute attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_CODEC\_MERIT\_Attribute attribute
@@ -14,19 +19,19 @@ Contains the merit value of a hardware codec.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
 This attribute is set on the activation object for a Media Foundation transform (MFT) that represents a hardware codec. The value of the attribute is the codec's merit value.
 
-This attribute controls the order in which the [**MFTEnumEx**](mftenumex.md) function enumerates codecs, if the **MFT\_ENUM\_FLAG\_SORTANDFILTER** flag is set. MFTs with a merit value appear higher in the list than other MFTs.
+This attribute controls the order in which the [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function enumerates codecs, if the **MFT\_ENUM\_FLAG\_SORTANDFILTER** flag is set. MFTs with a merit value appear higher in the list than other MFTs.
 
-This attribute does not contain a trusted value. To verify the codec's actual merit value, call the [**MFGetMFTMerit**](mfgetmftmerit.md) function.
+This attribute does not contain a trusted value. To verify the codec's actual merit value, call the [**MFGetMFTMerit**](/windows/win32/mfapi/nf-mfapi-mfgetmftmerit?branch=master) function.
 
-If the value of the MFT\_CODEC\_MERIT\_Attribute attribute does not match the merit value retrieved by [**MFGetMFTMerit**](mfgetmftmerit.md), the [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) method fails and returns **MF\_E\_INVALID\_CODEC\_MERIT**.
+If the value of the MFT\_CODEC\_MERIT\_Attribute attribute does not match the merit value retrieved by [**MFGetMFTMerit**](/windows/win32/mfapi/nf-mfapi-mfgetmftmerit?branch=master), the [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) method fails and returns **MF\_E\_INVALID\_CODEC\_MERIT**.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

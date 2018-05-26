@@ -1,8 +1,25 @@
 ---
 title: Text Service Registration
 description: In addition to the standard COM in-proc server registry entries, a text service must register itself with the Text Services Framework (TSF) so that it can be available for use with an application.
-ms.assetid: '95676067-ab5c-470b-a4be-117ab6810d48'
-keywords: ["Text Services Framework (TSF),registration", "TSF (Text Services Framework),registration", "text services,registration", "Text Services Framework (TSF),language profiles", "TSF (Text Services Framework),language profiles", "text services,language profiles", "Text Services Framework (TSF),categories", "TSF (Text Services Framework),categories", "text services,categories", "registering text services", "registering language profiles", "registering categories"]
+ms.assetid: 95676067-ab5c-470b-a4be-117ab6810d48
+keywords:
+- Text Services Framework (TSF),registration
+- TSF (Text Services Framework),registration
+- text services,registration
+- Text Services Framework (TSF),language profiles
+- TSF (Text Services Framework),language profiles
+- text services,language profiles
+- Text Services Framework (TSF),categories
+- TSF (Text Services Framework),categories
+- text services,categories
+- registering text services
+- registering language profiles
+- registering categories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Service Registration
@@ -55,9 +72,9 @@ A language profile can be removed by calling [ITfInputProcessorProfiles::RemoveL
 
 ## Registering Categories
 
-A text service must also register the category that the text service applies to. For example, if the text service supplies display attribute information, it must register itself as a display attribute provider by calling [ITfCategoryMgr::RegisterCategory](itfcategorymgr-registercategory.md) with the class identifier of the text service for the first parameter, GUID\_TFCAT\_DISPLAYATTRIBUTEPROVIDER for the second parameter and the class identifier of the text service again for the third parameter. The possible categories are listed under [Predefined Category Values](predefined-category-values.md).
+A text service must also register the category that the text service applies to. For example, if the text service supplies display attribute information, it must register itself as a display attribute provider by calling [ITfCategoryMgr::RegisterCategory](/windows/win32/Msctf/nf-msctf-itfcategorymgr-registercategory?branch=master) with the class identifier of the text service for the first parameter, GUID\_TFCAT\_DISPLAYATTRIBUTEPROVIDER for the second parameter and the class identifier of the text service again for the third parameter. The possible categories are listed under [Predefined Category Values](predefined-category-values.md).
 
-Remove previously registered categories by calling [ITfCategoryMgr::UnregisterCategory](itfcategorymgr-unregistercategory.md). ITfInputProcessorProfiles::Unregister removes all categories for the text service; when a text service is uninstalled, it must remove the individual categories.
+Remove previously registered categories by calling [ITfCategoryMgr::UnregisterCategory](/windows/win32/Msctf/nf-msctf-itfcategorymgr-unregistercategory?branch=master). ITfInputProcessorProfiles::Unregister removes all categories for the text service; when a text service is uninstalled, it must remove the individual categories.
 
  
 

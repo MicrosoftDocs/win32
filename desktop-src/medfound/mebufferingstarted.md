@@ -1,7 +1,12 @@
-﻿---
-Description: 'Signals that a media source has started to buffer data.'
-ms.assetid: '8637dfcd-2e0c-4cf4-a216-4089c201bfc6'
+---
+Description: Signals that a media source has started to buffer data.
+ms.assetid: 8637dfcd-2e0c-4cf4-a216-4089c201bfc6
 title: MEBufferingStarted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEBufferingStarted event
@@ -10,11 +15,11 @@ Signals that a media source has started to buffer data.
 
 A media source can send this event if the source buffers data while the Media Session is running. When the Media Session receives this event, it pauses the presentation clock until the media source sends the [MEBufferingStopped](mebufferingstopped.md) event. The Media Session also forwards the MEBufferingStarted event to the application.
 
-Byte streams that implement the [**IMFByteStreamBuffering**](imfbytestreambuffering.md) interface also send this event.
+Byte streams that implement the [**IMFByteStreamBuffering**](/windows/win32/mfidl/nn-mfidl-imfbytestreambuffering?branch=master) interface also send this event.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -26,9 +31,9 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 ## Remarks
 
-If a media source sends the MEBufferingStarted event, it must send the [MEBufferingStopped](mebufferingstopped.md) event when it stops buffering data. The media source must send a matching MEBufferingStopped event for every MEBufferingStarted event. The media source should not forward these events before the source's [**IMFMediaSource::Start**](imfmediasource-start.md) method is called, or after the source's [**IMFMediaSource::Stop**](imfmediasource-stop.md) method is called.
+If a media source sends the MEBufferingStarted event, it must send the [MEBufferingStopped](mebufferingstopped.md) event when it stops buffering data. The media source must send a matching MEBufferingStopped event for every MEBufferingStarted event. The media source should not forward these events before the source's [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method is called, or after the source's [**IMFMediaSource::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasource-stop?branch=master) method is called.
 
-If you are streaming from the Media Foundation network source, you can get the buffering progress by querying the **MFNETSOURCE\_BUFFERPROGRESS\_ID** statistic. For more information, see [**MFNETSOURCE\_STATISTICS\_IDS**](mfnetsource-statistics-ids.md).
+If you are streaming from the Media Foundation network source, you can get the buffering progress by querying the **MFNETSOURCE\_BUFFERPROGRESS\_ID** statistic. For more information, see [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_statistics_ids?branch=master).
 
 ## Examples
 

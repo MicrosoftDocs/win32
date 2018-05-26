@@ -1,12 +1,17 @@
 ---
-Description: 'The Multiple Provider Router (MPR) calls NPGetCaps to find out when the network providers will start (nIndex is set to WNNC\_START).'
-ms.assetid: 'f57bd8ff-647d-42f8-abaf-7937b24416dd'
-title: 'Overriding the Default MPR Time-out Interval'
+Description: The Multiple Provider Router (MPR) calls NPGetCaps to find out when the network providers will start (nIndex is set to WNNC\_START).
+ms.assetid: f57bd8ff-647d-42f8-abaf-7937b24416dd
+title: Overriding the Default MPR Time-out Interval
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overriding the Default MPR Time-out Interval
 
-The [*Multiple Provider Router*](security.m_gly#-security-multiple-provider-router-gly) (MPR) calls [**NPGetCaps**](npgetcaps.md) to find out when the network providers will start (*nIndex* is set to WNNC\_START). The MPR then waits for the longest time-out period specified by all network providers before it presents the consolidated network to the user. If one of the network providers does not know when it will start, MPR uses a default time-out of 60 seconds for that provider.
+The [*Multiple Provider Router*](security.m_gly#-security-multiple-provider-router-gly) (MPR) calls [**NPGetCaps**](/windows/win32/Npapi/nf-npapi-npgetcaps?branch=master) to find out when the network providers will start (*nIndex* is set to WNNC\_START). The MPR then waits for the longest time-out period specified by all network providers before it presents the consolidated network to the user. If one of the network providers does not know when it will start, MPR uses a default time-out of 60 seconds for that provider.
 
 If necessary, the administrator can override the default time-out by creating the following **REG\_DWORD** registry time-out, where *n* is the time-out interval in milliseconds:
 

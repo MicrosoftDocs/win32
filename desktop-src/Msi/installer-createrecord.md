@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateRecord method of the Installer object returns a new Record object with the requested number of fields.'
-ms.assetid: '7f9adb28-87da-48dd-ab5c-e138b356b133'
-title: 'Installer.CreateRecord method'
+---
+Description: The CreateRecord method of the Installer object returns a new Record object with the requested number of fields.
+ms.assetid: 7f9adb28-87da-48dd-ab5c-e138b356b133
+title: Installer.CreateRecord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.CreateRecord method

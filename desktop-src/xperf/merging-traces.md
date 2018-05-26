@@ -1,7 +1,12 @@
 ---
 title: Merging Traces
 description: Merging Traces
-ms.assetid: 'cd592fb5-f3df-453c-a817-9571931ad0a8'
+ms.assetid: cd592fb5-f3df-453c-a817-9571931ad0a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merging Traces

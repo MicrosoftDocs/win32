@@ -4,11 +4,12 @@ description: Called when data is sent to the client.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4f01145a-16ac-452a-839b-24d01a094a42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4f01145a-16ac-452a-839b-24d01a094a42
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnChannelDataSent event RDP"]
+keywords:
+- OnChannelDataSent event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnChannelDataSent event
@@ -28,9 +32,9 @@ Called when data is sent to the client.
 
 ```C++
 void OnChannelDataSent(
-  [in] IUnknown *pChannel,
-  [in] long     lAttendeeId,
-  [in] long     BytesSent
+  [in] IUnknown *pChannel,
+  [in] long     lAttendeeId,
+  [in] long     BytesSent
 );
 ```
 
@@ -50,7 +54,7 @@ Channel that sent the data.
 *lAttendeeId* \[in\]
 </dt> <dd>
 
-Identifies the attendee who is sending the data. To get the attendee, use the identifier when accessing the [**Item Property of IRDPSRAPIAttendeeManager**](irdpsrapiattendeemanager-item.md).
+Identifies the attendee who is sending the data. To get the attendee, use the identifier when accessing the [**Item Property of IRDPSRAPIAttendeeManager**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapiattendeemanager-get_item?branch=master).
 
 </dd> <dt>
 
@@ -67,7 +71,7 @@ This event does not return a value.
 
 ## Remarks
 
-Applications use this notification to determine when to send data to the clients. After a call to [**IRDPSRAPIVirtualChannel::SendData**](irdpsrapivirtualchannel-senddata.md) fails with **E\_PENDING**, applications should stop sending data until they receive this notification.
+Applications use this notification to determine when to send data to the clients. After a call to [**IRDPSRAPIVirtualChannel::SendData**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapivirtualchannel-senddata?branch=master) fails with **E\_PENDING**, applications should stop sending data until they receive this notification.
 
 ## Requirements
 
@@ -75,8 +79,8 @@ Applications use this notification to determine when to send data to the clients
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -88,12 +92,12 @@ Applications use this notification to determine when to send data to the clients
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

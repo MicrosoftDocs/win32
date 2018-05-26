@@ -4,11 +4,14 @@ description: Creates two replication groups and then creates a replication relat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc41742e-94e2-4776-932e-c4a2cf8d923b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: bc41742e-94e2-4776-932e-c4a2cf8d923b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplicationRelationship method", "CreateReplicationRelationship method, MSFT_SMSystem class", "MSFT_SMSystem class, CreateReplicationRelationship method"]
+keywords:
+- CreateReplicationRelationship method
+- CreateReplicationRelationship method, MSFT_SMSystem class
+- MSFT_SMSystem class, CreateReplicationRelationship method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplicationRelationship method of the MSFT\_SMSystem class
@@ -28,26 +34,26 @@ Creates two replication groups and then creates a replication relationship betwe
 
 ```mof
 UInt32 CreateReplicationRelationship(
-  [in]            string                      RelationshipName,
-  [in]            uint16                      SyncType,
-  [in]            uint16                      Mode,
-  [in]            MSFT_SMReplicaPeer      REF TargetStorageSystem,
-  [in]            String                      SourceReplicationGroupFriendlyName,
-  [in]            MSFT_SMStorageObject    REF SourceStorageElements[],
-  [in, optional]  MSFT_SMReplicationSettings  SourceReplicationGroupSettings,
-  [in]            String                      TargetReplicationGroupFriendlyName,
-  [in, optional]  MSFT_SMStorageObject    REF TargetStorageElements[],
-  [in]            MSFT_SMPool             REF TargetStoragePool,
-  [in]            MSFT_SMPool             REF TargetStoragePools[],
-  [in, optional]  MSFT_SMReplicationSettings  TargetReplicationGroupSettings,
-  [in]            UInt32                      RecoveryPointObjective,
-  [in, out]       MSFT_SMReplicationGroup REF SourceGroup,
-  [in]            MSFT_SMReplicationGroup REF TargetGroup,
-  [out]           MSFT_SMReplicaPeer      REF TargetReplicaPeer,
-  [out]           MSFT_SMJob              REF Job,
-  [out, optional] MSFT_SMExtendedStatus       ExtendedStatus,
-  [in, optional]  String                      username,
-  [in, optional]  String                      password
+  [in]            string                      RelationshipName,
+  [in]            uint16                      SyncType,
+  [in]            uint16                      Mode,
+  [in]            MSFT_SMReplicaPeer      REF TargetStorageSystem,
+  [in]            String                      SourceReplicationGroupFriendlyName,
+  [in]            MSFT_SMStorageObject    REF SourceStorageElements[],
+  [in, optional]  MSFT_SMReplicationSettings  SourceReplicationGroupSettings,
+  [in]            String                      TargetReplicationGroupFriendlyName,
+  [in, optional]  MSFT_SMStorageObject    REF TargetStorageElements[],
+  [in]            MSFT_SMPool             REF TargetStoragePool,
+  [in]            MSFT_SMPool             REF TargetStoragePools[],
+  [in, optional]  MSFT_SMReplicationSettings  TargetReplicationGroupSettings,
+  [in]            UInt32                      RecoveryPointObjective,
+  [in, out]       MSFT_SMReplicationGroup REF SourceGroup,
+  [in]            MSFT_SMReplicationGroup REF TargetGroup,
+  [out]           MSFT_SMReplicaPeer      REF TargetReplicaPeer,
+  [out]           MSFT_SMJob              REF Job,
+  [out, optional] MSFT_SMExtendedStatus       ExtendedStatus,
+  [in, optional]  String                      username,
+  [in, optional]  String                      password
 );
 ```
 
@@ -78,7 +84,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -113,14 +119,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl> </dd> <dt>
+</dt> <dd>32768 ...</dd> </dl> </dd> <dt>
 
 *Mode* \[in\]
 </dt> <dd>
@@ -228,7 +234,7 @@ A [**MSFT\_SMPool**](msft-smpool.md) object that contains the storage objects of
 > [!Note]  
 > If this parameter is specified, the *TargetStoragePools* parameter must be set to **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -240,7 +246,7 @@ An array that contains [**MSFT\_SMPool**](msft-smpool.md) objects that contain s
 > [!Note]  
 > If this parameter is specified, *TargetStoragePool* parameter must be set to **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -353,7 +359,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -367,9 +373,9 @@ The possible return values are:
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

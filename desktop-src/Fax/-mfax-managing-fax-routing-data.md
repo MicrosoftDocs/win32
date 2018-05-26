@@ -1,7 +1,12 @@
 ---
-Description: 'Some routing method properties, such as a method''s priority, are set at the fax server level, and apply globally to all fax ports connected to the server.'
-ms.assetid: '356dda5c-852e-46b7-8fa4-f3a0c62d65cb'
+Description: Some routing method properties, such as a methods priority, are set at the fax server level, and apply globally to all fax ports connected to the server.
+ms.assetid: 356dda5c-852e-46b7-8fa4-f3a0c62d65cb
 title: Managing Fax Routing Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Fax Routing Data

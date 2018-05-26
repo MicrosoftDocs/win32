@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a pointer to the DXGI Device Manager for the Sink Writer.'
-ms.assetid: '0328FC02-2D32-480B-BB03-9C78BF317AF5'
-title: 'MF\_SINK\_WRITER\_D3D\_MANAGER attribute'
+---
+Description: Contains a pointer to the DXGI Device Manager for the Sink Writer.
+ms.assetid: 0328FC02-2D32-480B-BB03-9C78BF317AF5
+title: MF\_SINK\_WRITER\_D3D\_MANAGER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SINK\_WRITER\_D3D\_MANAGER attribute
@@ -14,14 +19,14 @@ Contains a pointer to the DXGI Device Manager for the [Sink Writer](sink-writer.
 
 ## Remarks
 
-The value of this attribute is a pointer to the [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) interface.
+The value of this attribute is a pointer to the [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) interface.
 
 Use this attribute to provide a Direct3D device for any video encoders or media sinks loaded by the Sink Writer.
 
 Use this attribute with the following functions:
 
--   [**MFCreateSinkWriterFromMediaSink**](mfcreatesinkwriterfrommediasink.md)
--   [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md)
+-   [**MFCreateSinkWriterFromMediaSink**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink?branch=master)
+-   [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master)
 
 ## Requirements
 

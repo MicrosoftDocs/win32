@@ -1,7 +1,12 @@
 ---
-Description: 'The DllMain export function for the parser identifies the existence of the parser, and releases resources that Network Monitor uses for the parser. DllMain must be implemented in all parser DLLs.'
-ms.assetid: '2ce79d49-3aad-461f-99cf-cf632680efcc'
+Description: The DllMain export function for the parser identifies the existence of the parser, and releases resources that Network Monitor uses for the parser. DllMain must be implemented in all parser DLLs.
+ms.assetid: 2ce79d49-3aad-461f-99cf-cf632680efcc
 title: DllMain Parser callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DllMain Parser callback function
@@ -13,9 +18,9 @@ The **DllMain** export function for the parser identifies the existence of the p
 
 ```C++
 BOOL WINAPI DllMain(
-  _In_ HANDLE hInstance,
-  _In_ ULONG  Command,
-       LPVOID Reserved
+  _In_ HANDLE hInstance,
+  _In_ ULONG  Command,
+       LPVOID Reserved
 );
 ```
 
@@ -46,7 +51,7 @@ Indicator to determine why the function is called. For a list of all possible fl
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,11 +78,11 @@ You can also use the implementation of **DllMain** to store an instance of a par
 |-----------------------------------------------------------|---------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor. | [Parsers](parsers.md)                                  |
 | Which entry points are included in the parser DLL.        | [Parser DLL Architecture](parser-dll-architecture.md)  |
-| How to implement **DllMain**— includes an example.        | [Implementing DllMain](implementing-dllmain-parser.md) |
+| How to implement **DllMain**  includes an example.        | [Implementing DllMain](implementing-dllmain-parser.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -85,8 +90,8 @@ You can also use the implementation of **DllMain** to store an instance of a par
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Process.h</dt> </dl> |
 
 
@@ -104,9 +109,9 @@ You can also use the implementation of **DllMain** to store an instance of a par
 [DllMain](https://msdn.microsoft.com/library/windows/desktop/ms682583)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

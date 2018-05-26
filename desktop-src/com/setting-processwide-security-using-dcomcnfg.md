@@ -1,14 +1,19 @@
 ---
 title: Setting Process-Wide Security Using DCOMCNFG
 description: You might want to enable security for a particular application if an application has security needs that are different from those required by other applications on the computer.
-ms.assetid: '04a7f688-78a3-490a-bcfa-862824a05422'
+ms.assetid: 04a7f688-78a3-490a-bcfa-862824a05422
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Process-Wide Security Using DCOMCNFG
 
 You might want to enable security for a particular application if an application has security needs that are different from those required by other applications on the computer. For instance, you might decide to use system-wide settings for your applications that require a low level of security while setting a higher level of security for a particular application.
 
-However, security settings in the registry that apply to a particular application are sometimes not used. For example, the process-wide settings that you set in the registry using Dcomcnfg.exe will be overridden if a client calls [**CoSetProxyBlanket**](cosetproxyblanket.md) to set security for a particular interface proxy. Similarly, if a client or server (or both) call [**CoInitializeSecurity**](coinitializesecurity.md) to set security for a process, the settings in the registry will be ignored and the parameters specified to **CoInitializeSecurity** will be used instead.
+However, security settings in the registry that apply to a particular application are sometimes not used. For example, the process-wide settings that you set in the registry using Dcomcnfg.exe will be overridden if a client calls [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master) to set security for a particular interface proxy. Similarly, if a client or server (or both) call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) to set security for a process, the settings in the registry will be ignored and the parameters specified to **CoInitializeSecurity** will be used instead.
 
 When enabling security for an application, several settings may need to be modified. These include authentication level, location, launch permissions, access permissions, and identity. For step-by-step procedures, see the following:
 

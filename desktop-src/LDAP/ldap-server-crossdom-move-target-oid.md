@@ -4,11 +4,12 @@ description: Used with an extended LDAP rename function to move an LDAP object f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e6d6d59b-741e-4fa9-b392-f1ae68ef58e6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: e6d6d59b-741e-4fa9-b392-f1ae68ef58e6
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_CROSSDOM_MOVE_TARGET_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_CROSSDOM_MOVE_TARGET_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_CROSSDOM\_MOVE\_TARGET\_OID control code
 
 The LDAP\_SERVER\_CROSSDOM\_MOVE\_TARGET\_OID control is used with an extended LDAP rename function to move an LDAP object from one domain to another. The control specifies the DNS hostname of the domain controller in the destination domain.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows:
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows:
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_CROSSDOM_MOVE_TARGET_OID;
@@ -45,7 +49,7 @@ Pointer to a wide, null-terminated string, LDAP\_SERVER\_CROSSDOM\_MOVE\_TARGET\
 **ldctl\_value**
 </dt> <dd>
 
-Specifies the DNS name of the destination DC. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to an UTF-8 string that contains the DNS name, and set **bv\_len** to the length of the string.
+Specifies the DNS name of the destination DC. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to an UTF-8 string that contains the DNS name, and set **bv\_len** to the length of the string.
 
 </dd> <dt>
 
@@ -58,7 +62,7 @@ Can be **TRUE** or **FALSE** depending on whether the results of the move is cri
 
 ## Remarks
 
-The following code example shows how to use the cross-domain control with the [**ldap\_rename\_ext\_s**](ldap-rename-ext-s.md) function.
+The following code example shows how to use the cross-domain control with the [**ldap\_rename\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_rename_ext_s?branch=master) function.
 
 
 ```C++
@@ -134,7 +138,7 @@ return ulErr;
 > [!Note]  
 > The user application must have the proper directory service access rights to successfully use this control. The user application must have permission to delete objects in the source domain and create objects in the destination domain.
 
- 
+ 
 
 ## Requirements
 
@@ -142,8 +146,8 @@ return ulErr;
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -152,15 +156,15 @@ return ulErr;
 
 <dl> <dt>
 
-[**ldap\_rename\_ext\_s**](ldap-rename-ext-s.md)
+[**ldap\_rename\_ext\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_rename_ext_s?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

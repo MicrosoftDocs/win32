@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetVendorString method retrieves the name of the vendor. For the render engine objects that are provided by DirectShow, the vendor string is &\#0034;Microsoft Corporation&\#0034;.'
-ms.assetid: 'd0a4c525-67dc-419a-b4d6-8cd51888fd8a'
-title: 'IRenderEngine::GetVendorString method'
+---
+Description: The GetVendorString method retrieves the name of the vendor. For the render engine objects that are provided by DirectShow, the vendor string is &\#0034;Microsoft Corporation&\#0034;.
+ms.assetid: d0a4c525-67dc-419a-b4d6-8cd51888fd8a
+title: IRenderEngineGetVendorString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::GetVendorString method

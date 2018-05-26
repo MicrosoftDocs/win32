@@ -1,14 +1,17 @@
 ---
 title: MMCCtrl.GetTitle method
-description: The GetTitle method returns the string to be used for the taskpad's title.
+description: The GetTitle method returns the string to be used for the taskpads title.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65a9faa8-b2ec-42a3-9521-d991aedf0ace'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 65a9faa8-b2ec-42a3-9521-d991aedf0ace
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetTitle method MMC", "GetTitle method MMC , MMCCtrl class", "MMCCtrl class MMC , GetTitle method"]
+keywords:
+- GetTitle method MMC
+- GetTitle method MMC , MMCCtrl class
+- MMCCtrl class MMC , GetTitle method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCCtrl.GetTitle method
@@ -80,9 +86,9 @@ mszTaskpadTitle = taskctrl.GetTitle (hash);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

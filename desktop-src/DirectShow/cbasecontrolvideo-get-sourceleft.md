@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_SourceLeft method retrieves the left coordinate of the current source rectangle.'
-ms.assetid: 'dbfb1850-6e49-481c-b26a-22ccb9e4455a'
-title: 'CBaseControlVideo.get\_SourceLeft method'
+Description: The get\_SourceLeft method retrieves the left coordinate of the current source rectangle.
+ms.assetid: dbfb1850-6e49-481c-b26a-22ccb9e4455a
+title: CBaseControlVideo.get\_SourceLeft method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_SourceLeft method
@@ -13,7 +18,7 @@ The `get_SourceLeft` method retrieves the left coordinate of the current source 
 
 ```C++
 HRESULT get_SourceLeft(
-   long *pSourceLeft
+   long *pSourceLeft
 );
 ```
 
@@ -45,11 +50,11 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
-An application can change the source and destination rectangles for the video through the [**IBasicVideo**](ibasicvideo.md) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
+An application can change the source and destination rectangles for the video through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
 
 ## Requirements
 
@@ -69,9 +74,9 @@ An application can change the source and destination rectangles for the video th
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

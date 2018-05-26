@@ -1,8 +1,14 @@
 ---
 title: Bluetooth and Socket Options
 description: Bluetooth for Windows supports the following socket options.
-ms.assetid: 'e2e305c2-e749-4566-8e24-c07a7a29c612'
-keywords: ["Bluetooth and Socket Options Bluetooth"]
+ms.assetid: e2e305c2-e749-4566-8e24-c07a7a29c612
+keywords:
+- Bluetooth and Socket Options Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and Socket Options
@@ -20,7 +26,7 @@ For disconnected sockets, the **SO\_BTH\_AUTHENTICATE** specifies that authentic
 
 For outgoing connections that require authentication, the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) operation fails with **WSAEACCES** if authentication is not successful. In response, the application may prompt the user to authenticate the two Bluetooth devices before connection.
 
-For incoming connections, the connection is rejected if authentication cannot be established and returns a **WSAEHOSTDOWN** error. For more information about authenticating Bluetooth devices, see [**BluetoothAuthenticateDevice**](bluetoothauthenticatedevice.md).
+For incoming connections, the connection is rejected if authentication cannot be established and returns a **WSAEHOSTDOWN** error. For more information about authenticating Bluetooth devices, see [**BluetoothAuthenticateDevice**](/windows/win32/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice?branch=master).
 
 For the **SO\_BTH\_AUTHENTICATE** socket option, *optval* is a pointer to ULONG bAuthenticate and must be **TRUE**; *optlen* is equivalent to "sizeof(ULONG)".
 
@@ -28,7 +34,7 @@ For the **SO\_BTH\_AUTHENTICATE** socket option, *optval* is a pointer to ULONG 
 
 ## SO\_BTH\_ENCRYPT
 
-On unconnected sockets, the **SO\_BTH\_ENCRYPT** socket option enforces encryption to establish a connection. Encryption is only available for authenticated connections. For incoming connections, a connection for which encryption cannot be established is automatically rejected and returns **WSAEHOSTDOWN** as the error. For outgoing connections, the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function fails with **WSAEACCES** if encryption cannot be established. In response, the application may prompt the user to authenticate the two Bluetooth devices before connection. For more information about authenticating Bluetooth devices, see [**BluetoothAuthenticateDevice**](bluetoothauthenticatedevice.md).
+On unconnected sockets, the **SO\_BTH\_ENCRYPT** socket option enforces encryption to establish a connection. Encryption is only available for authenticated connections. For incoming connections, a connection for which encryption cannot be established is automatically rejected and returns **WSAEHOSTDOWN** as the error. For outgoing connections, the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function fails with **WSAEACCES** if encryption cannot be established. In response, the application may prompt the user to authenticate the two Bluetooth devices before connection. For more information about authenticating Bluetooth devices, see [**BluetoothAuthenticateDevice**](/windows/win32/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice?branch=master).
 
 For the SO\_BTH\_ENCRYPT socket option, *optval* is a pointer to ULONG **bEncrypt** and must be **TRUE**; *optlen* is equivalent to sizeof(ULONG).
 
@@ -73,7 +79,7 @@ For the SO\_BTH\_MTU\_MIN socket option, *optval* is a pointer to ULONG min\_mtu
 [**setsockopt**](https://msdn.microsoft.com/library/windows/desktop/ms740476)
 </dt> <dt>
 
-[**BluetoothAuthenticateDevice**](bluetoothauthenticatedevice.md)
+[**BluetoothAuthenticateDevice**](/windows/win32/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice?branch=master)
 </dt> <dt>
 
 [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625)

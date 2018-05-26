@@ -4,13 +4,16 @@ description: Creates a range of World Wide Port Names (WWPN) from a Msvm\_Virtua
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a7e0a774-ef1f-4330-a3b2-65203bc0d2bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: a7e0a774-ef1f-4330-a3b2-65203bc0d2bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GenerateWwpn method", "GenerateWwpn method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, GenerateWwpn method"]
+keywords:
+- GenerateWwpn method
+- GenerateWwpn method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, GenerateWwpn method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GenerateWwpn method of the Msvm\_VirtualSystemManagementService class
@@ -32,8 +38,8 @@ The range is defined by the **MinimumWwpnAddress** and **MaximumWwpnAddress** pr
 
 ```mof
 uint32 GenerateWwpn(
-  [in]  uint32 NumberOfWwpns,
-  [out] string GeneratedWwpn[]
+  [in]  uint32 NumberOfWwpns,
+  [out] string GeneratedWwpn[]
 );
 ```
 
@@ -108,7 +114,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -122,9 +128,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

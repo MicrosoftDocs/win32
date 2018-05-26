@@ -1,7 +1,12 @@
 ---
 title: Combining Pipe and Nonpipe Parameters
 description: Combining pipe and nonpipe parameters in Remote Procedure Call (RPC).
-ms.assetid: '52109ba9-4e10-4426-8dfc-e3052d403e9a'
+ms.assetid: 52109ba9-4e10-4426-8dfc-e3052d403e9a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combining Pipe and Nonpipe Parameters

@@ -1,14 +1,20 @@
 ---
 title: TestCase SetSubject methods
 description: Sets the Subject of the TestCase.
-ms.assetid: '9BF1CBF7-A581-46B1-8A9A-94514D34905F'
-keywords: ["SetSubject methods Access Execution Engine"]
+ms.assetid: 9BF1CBF7-A581-46B1-8A9A-94514D34905F
+keywords:
+- SetSubject methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - xpsobjectmodel.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::SetSubject methods
@@ -49,9 +55,9 @@ The **Subject** holds information from element **TestCase/Subject**.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

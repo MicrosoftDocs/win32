@@ -1,8 +1,18 @@
 ---
 title: Managing Waveform-Audio Recording
 description: Managing Waveform-Audio Recording
-ms.assetid: 'a44f7c33-54d6-4ba7-bc57-b63c8b205392'
-keywords: ["waveform audio,recording", "waveform-audio interface,recording", "recording waveform audio,about", "WAVEHDR structure", "waveInAddBuffer function"]
+ms.assetid: a44f7c33-54d6-4ba7-bc57-b63c8b205392
+keywords:
+- waveform audio,recording
+- waveform-audio interface,recording
+- recording waveform audio,about
+- WAVEHDR structure
+- waveInAddBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Waveform-Audio Recording

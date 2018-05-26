@@ -1,7 +1,12 @@
 ---
 title: HH\_DISPLAY\_TEXT\_POPUP command
 description: HH\_DISPLAY\_TEXT\_POPUP command
-ms.assetid: '58FDF707-F628-4e41-9994-8B00FD1B00DB'
+ms.assetid: 58FDF707-F628-4e41-9994-8B00FD1B00DB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_DISPLAY\_TEXT\_POPUP command
@@ -39,14 +44,14 @@ To use text string from a text file contained in a compiled help file: <br/>
 <ul>
 <li>Specify the .chm file and the text file within the .chm file.</li>
 </ul></td>
-<td>Specifies a pointer to an [<strong>HH_POPUP</strong>](hh-popup-structure.md) structure.</td>
+<td>Specifies a pointer to an [<strong>HH_POPUP</strong>](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_popup?branch=master) structure.</td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Example
 
@@ -78,9 +83,9 @@ The handle (hwnd) of the pop-up window.
 [HH\_TP\_HELP\_WM\_HELP](hh-tp-help-wm-help-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

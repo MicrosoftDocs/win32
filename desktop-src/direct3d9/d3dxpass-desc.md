@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a pass for an effect object.'
-ms.assetid: '398e6120-7bdf-425b-a8aa-cc0eb74ffa3a'
-title: 'D3DXPASS\_DESC structure'
+---
+Description: Describes a pass for an effect object.
+ms.assetid: 398e6120-7bdf-425b-a8aa-cc0eb74ffa3a
+title: D3DXPASS\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPASS\_DESC structure

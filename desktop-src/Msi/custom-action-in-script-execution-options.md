@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the following option flags to specify the in-script execution of custom actions.'
-ms.assetid: '6c608151-cdbe-4424-9b16-6dbff28190ab'
-title: 'Custom Action In-Script Execution Options'
+Description: You can use the following option flags to specify the in-script execution of custom actions.
+ms.assetid: 6c608151-cdbe-4424-9b16-6dbff28190ab
+title: Custom Action In-Script Execution Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action In-Script Execution Options
@@ -27,7 +32,7 @@ Note that the **msidbCustomActionTypeInScript** must be included with each of th
 
 
 
- 
+ 
 
 For information about custom actions that run only when a patch is being uninstalled, see the [Custom Action Patch Uninstall Option](custom-action-patch-uninstall-option.md).
 
@@ -44,9 +49,9 @@ For information about custom actions that run only when a patch is being uninsta
 [Using Custom Actions](using-custom-actions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

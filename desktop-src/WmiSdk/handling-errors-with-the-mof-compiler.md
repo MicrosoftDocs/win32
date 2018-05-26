@@ -1,13 +1,16 @@
 ---
-Description: 'If the MOF compiler cannot finish compiling a MOF file, the WMI repository may be left in an undefined state.'
+Description: If the MOF compiler cannot finish compiling a MOF file, the WMI repository may be left in an undefined state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '13adc666-6588-4cfd-a5eb-17da93434468'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 13adc666-6588-4cfd-a5eb-17da93434468
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Handling Errors with the MOF Compiler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Handling Errors with the MOF Compiler

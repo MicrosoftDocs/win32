@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method notifies the pin that the filter is no longer active. This method overrides the CBaseInputPin::Inactive method.'
-ms.assetid: 'a8dd75b8-e0d1-453d-9363-82ac9a53ed63'
-title: 'CRendererInputPin.Inactive method'
+Description: The Inactive method notifies the pin that the filter is no longer active. This method overrides the CBaseInputPinInactive method.
+ms.assetid: a8dd75b8-e0d1-453d-9363-82ac9a53ed63
+title: CRendererInputPin.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.Inactive method
@@ -43,9 +48,9 @@ Returns an **HRESULT** value.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

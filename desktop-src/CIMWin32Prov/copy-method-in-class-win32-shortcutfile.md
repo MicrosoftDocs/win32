@@ -1,15 +1,18 @@
 ---
-Description: 'Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.'
+Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the input parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1c8e9eac-340b-4c37-a52e-6cfade47ccf6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1c8e9eac-340b-4c37-a52e-6cfade47ccf6
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Copy method of the Win32\_ShortcutFile class'
+title: Copy method of the Win32\_ShortcutFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Copy method of the Win32\_ShortcutFile class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Copy(
-  [in] string FileName
+  [in] string FileName
 );
 ```
 
@@ -145,8 +148,8 @@ A parameter specified is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -163,9 +166,9 @@ A parameter specified is not valid.
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

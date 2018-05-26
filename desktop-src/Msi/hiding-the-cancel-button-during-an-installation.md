@@ -1,7 +1,12 @@
 ---
-Description: 'You can hide the Cancel button that is used to cancel an installation by using a command-line option, the Windows Installer API, or a custom action. The Cancel button can be hidden for part or all of the installation depending on which method you use.'
-ms.assetid: 'de2bb788-0d19-4818-8038-cae6000b38c4'
+Description: You can hide the Cancel button that is used to cancel an installation by using a command-line option, the Windows Installer API, or a custom action. The Cancel button can be hidden for part or all of the installation depending on which method you use.
+ms.assetid: de2bb788-0d19-4818-8038-cae6000b38c4
 title: Hiding the Cancel Button During an Installation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hiding the Cancel Button During an Installation
@@ -18,7 +23,7 @@ The **Cancel** button can be hidden during installation by using the (!) command
 
 You can write an application or script to hide the **Cancel** button. This can only be done for a basic UI level installation so that the **Cancel** button is hidden for the entire installation.
 
-To hide the Cancel button from an application, set INSTALLUILEVEL\_HIDECANCEL when calling [**MsiSetInternalUI**](msisetinternalui.md). The following example hides the **Cancel** button and installs Example.msi.
+To hide the Cancel button from an application, set INSTALLUILEVEL\_HIDECANCEL when calling [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master). The following example hides the **Cancel** button and installs Example.msi.
 
 
 ```C++
@@ -58,7 +63,7 @@ Installer.InstallProduct "example.msi"
 
 Your installation can hide and unhide the **Cancel** button during parts of an installation by sending an INSTALLMESSAGE\_COMMONDATA message using a DLL custom action or scripts. For more information, see [Dynamic-Link Libraries](dynamic-link-libraries.md), [Scripts](scripts.md), [Custom Actions](custom-actions.md), and [Sending Messages to Windows Installer Using MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
 
-A call to a custom action must provide a record. Field 1 of this record must contain the value 2 (two) to specify the **Cancel** button. Field 2 must contain either the value 0 or 1. A value of 0 in Field 2 hides the button and a value of 1 in Field 2 unhides the button. Note that allocating a record of size 2 with [**MsiCreateRecord**](msicreaterecord.md) provides fields 0, 1, and 2.
+A call to a custom action must provide a record. Field 1 of this record must contain the value 2 (two) to specify the **Cancel** button. Field 2 must contain either the value 0 or 1. A value of 0 in Field 2 hides the button and a value of 1 in Field 2 unhides the button. Note that allocating a record of size 2 with [**MsiCreateRecord**](/windows/win32/Msiquery/nf-msiquery-msicreaterecord?branch=master) provides fields 0, 1, and 2.
 
 The following sample DLL custom action hides the **Cancel** button.
 

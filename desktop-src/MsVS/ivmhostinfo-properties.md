@@ -1,7 +1,12 @@
 ---
 title: IVMHostInfo Properties
 description: The IVMHostInfo interface defines the following properties
-ms.assetid: 'a77cb6bd-2d06-49b7-9499-dcfc50e88d39'
+ms.assetid: a77cb6bd-2d06-49b7-9499-dcfc50e88d39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo Properties

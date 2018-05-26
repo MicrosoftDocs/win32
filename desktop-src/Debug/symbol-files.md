@@ -1,7 +1,12 @@
 ---
-Description: 'Normally, debugging information is stored in a symbol file separate from the executable.'
-ms.assetid: '610e5cd3-9dc3-462c-98f8-6a63874464f8'
+Description: Normally, debugging information is stored in a symbol file separate from the executable.
+ms.assetid: 610e5cd3-9dc3-462c-98f8-6a63874464f8
 title: Symbol Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbol Files

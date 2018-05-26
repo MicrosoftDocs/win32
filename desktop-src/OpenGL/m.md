@@ -2,8 +2,18 @@
 title: M
 description: Definitions of OpenGL terms that begin with the letter M.
 Robots: noindex, nofollow
-ms.assetid: '8caab983-491f-46fa-b564-79191fa4a9ac'
-keywords: ["matrices", "matrix", "modelview matrix", "monitors", "motion blurring"]
+ms.assetid: 8caab983-491f-46fa-b564-79191fa4a9ac
+keywords:
+- matrices
+- matrix
+- modelview matrix
+- monitors
+- motion blurring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # M

@@ -1,15 +1,18 @@
 ---
-Description: 'Copies the logical codec file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.'
+Description: Copies the logical codec file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e9097ed-a599-44f7-a654-8622c0618c27'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e9097ed-a599-44f7-a654-8622c0618c27
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CopyEx method of the Win32\_CodecFile class'
+title: CopyEx method of the Win32\_CodecFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CopyEx method of the Win32\_CodecFile class
@@ -23,10 +26,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 CopyEx(
-  [in]           string  FileName,
-  [out]          string  StopFileName,
-  [in, optional] string  StartFileName,
-  [in, optional] boolean Recursive
+  [in]           string  FileName,
+  [out]          string  StopFileName,
+  [in, optional] string  StartFileName,
+  [in, optional] boolean Recursive
 );
 ```
 
@@ -67,7 +70,7 @@ If **true**, the change of ownership will be applied recursively to files and di
 > [!Note]  
 > For file instances, the *Recursive* input parameter is ignored.
 
- 
+ 
 
 </dd> </dl>
 
@@ -174,8 +177,8 @@ A parameter specified is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -192,9 +195,9 @@ A parameter specified is not valid.
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

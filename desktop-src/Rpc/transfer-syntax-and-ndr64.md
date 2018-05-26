@@ -1,7 +1,12 @@
 ---
 title: Transfer Syntax and NDR64
 description: The NDR wire protocol, also referred to as transfer syntax, enables RPC calls to traverse the network.
-ms.assetid: '30b3843a-172c-4d08-beed-c68bcb68daaf'
+ms.assetid: 30b3843a-172c-4d08-beed-c68bcb68daaf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transfer Syntax and NDR64

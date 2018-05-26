@@ -1,7 +1,12 @@
-﻿---
-Description: 'Queries whether a digital video interface (DVI) connector supports DVI version 1.1 or later.'
-ms.assetid: 'b6c450c0-e97f-472d-ae09-fa1e062aeb9e'
-title: 'OPM\_GET\_DVI\_CHARACTERISTICS'
+---
+Description: Queries whether a digital video interface (DVI) connector supports DVI version 1.1 or later.
+ms.assetid: b6c450c0-e97f-472d-ae09-fa1e062aeb9e
+title: OPM\_GET\_DVI\_CHARACTERISTICS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_GET\_DVI\_CHARACTERISTICS
@@ -14,7 +19,7 @@ Queries whether a digital video interface (DVI) connector supports DVI version 1
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_DVI\_CHARACTERISTICS                                              |
 | Input data   | None                                                                        |
-| Return data  | An [**OPM\_STANDARD\_INFORMATION**](opm-standard-information.md) structure |
+| Return data  | An [**OPM\_STANDARD\_INFORMATION**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_standard_information?branch=master) structure |
 
 
 
@@ -22,7 +27,7 @@ Queries whether a digital video interface (DVI) connector supports DVI version 1
 
 ## Remarks
 
-If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](opm-standard-information.md) structure contains one of the following values.
+If this query succeeds, the **ulInformation** member of the [**OPM\_STANDARD\_INFORMATION**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_standard_information?branch=master) structure contains one of the following values.
 
 
 
@@ -53,7 +58,7 @@ This query is supported only when the physical connector type is OPM\_CONNECTOR\
 
 <dl> <dt>
 
-[**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md)
+[**IOPMVideoOutput::GetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-getinformation?branch=master)
 </dt> <dt>
 
 [OPM Status Requests](opm-status-requests.md)

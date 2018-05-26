@@ -1,8 +1,15 @@
 ---
 title: Pixel Ownership Test
 description: The pixel ownership test determines whether the current OpenGL context owns the pixel in the framebuffer corresponding to a particular fragment.
-ms.assetid: 'aa9428a6-cc05-4df4-ba31-444f999006a8'
-keywords: ["OpenGL processing pipeline,pixel ownership test", "pixel ownership test OpenGL"]
+ms.assetid: aa9428a6-cc05-4df4-ba31-444f999006a8
+keywords:
+- OpenGL processing pipeline,pixel ownership test
+- pixel ownership test OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixel Ownership Test

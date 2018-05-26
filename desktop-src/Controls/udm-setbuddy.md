@@ -1,8 +1,9 @@
 ---
 title: UDM\_SETBUDDY message
 description: Sets the buddy window for an up-down control.
-ms.assetid: '66e35acc-95f6-4bc5-b654-690abf2188ba'
-keywords: ["UDM_SETBUDDY message Windows Controls"]
+ms.assetid: 66e35acc-95f6-4bc5-b654-690abf2188ba
+keywords:
+- UDM_SETBUDDY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_SETBUDDY message
@@ -41,15 +47,15 @@ The return value is the handle to the previous buddy window.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

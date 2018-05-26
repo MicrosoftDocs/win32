@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCount method retrieves the number of items in the collection.'
-ms.assetid: '89266483-4211-43d2-a306-68c70f1e7026'
-title: 'IPortableDeviceValues::GetCount method'
+Description: The GetCount method retrieves the number of items in the collection.
+ms.assetid: 89266483-4211-43d2-a306-68c70f1e7026
+title: IPortableDeviceValuesGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetCount method
@@ -13,7 +18,7 @@ The **GetCount** method retrieves the number of items in the collection.
 
 ```C++
 HRESULT GetCount(
-  [in] DWORD *pcelt
+  [in] DWORD *pcelt
 );
 ```
 
@@ -42,7 +47,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +67,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Player.enableContextMenu
 description: The enableContextMenu property specifies or retrieves a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
-ms.assetid: '736c8714-5650-4912-9e97-914a20137b91'
-keywords: ["Player.enableContextMenu Windows Media Player"]
+ms.assetid: 736c8714-5650-4912-9e97-914a20137b91
+keywords:
+- Player.enableContextMenu Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.enableContextMenu
@@ -34,7 +40,7 @@ This property is a read/write Boolean.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +66,9 @@ During full-screen playback, Windows Media Player hides the mouse cursor when **
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

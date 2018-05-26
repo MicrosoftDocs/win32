@@ -1,7 +1,12 @@
 ---
 title: Connecting to the BITS Service
 description: To connect to the BITS service, create an instance of the BackgroundCopyManager object as shown in the following example.
-ms.assetid: '2fa88277-c7a1-4f1c-a63c-e2d27a163249'
+ms.assetid: 2fa88277-c7a1-4f1c-a63c-e2d27a163249
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting to the BITS Service
@@ -60,9 +65,9 @@ The following example shows how to use one of the symbolic class identifiers.
 
 
 
-Use the methods of the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface to [create transfer jobs](creating-a-job.md), [enumerate jobs](enumerating-jobs-in-the-transfer-queue.md) in the queue, and [retrieve jobs](ibackgroundcopymanager-getjob.md).
+Use the methods of the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface to [create transfer jobs](creating-a-job.md), [enumerate jobs](enumerating-jobs-in-the-transfer-queue.md) in the queue, and [retrieve jobs](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-getjob?branch=master).
 
-To retrieve a pointer to the [**IBitsPeerCacheAdministration**](ibitspeercacheadministration.md) interface, call the **IBackgroundCopyManager::QueryInterface** method. The following example shows how to get the **IBitsPeerCacheAdministration** interface.
+To retrieve a pointer to the [**IBitsPeerCacheAdministration**](/windows/win32/Bits3_0/nn-bits3_0-ibitspeercacheadministration?branch=master) interface, call the **IBackgroundCopyManager::QueryInterface** method. The following example shows how to get the **IBitsPeerCacheAdministration** interface.
 
 
 ```C++
@@ -83,7 +88,7 @@ To retrieve a pointer to the [**IBitsPeerCacheAdministration**](ibitspeercachead
 
 BITS requires that the client's interface proxies use either the IDENTIFY or IMPERSONATE level of impersonation. If the application does not call [**CoInitializeSecurity**](_com_coinitializesecurity), COM uses IDENTIFY by default. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set. If you provide a library that exercises the BITS interfaces, and an application that calls your library sets the impersonation level below IDENTIFY, then you will need to call [**CoSetProxyBlanket**](_com_cosetproxyblanket) to set the correct impersonation level for each BITS interface that you call.
 
-Before your application exits, release your copy of the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface pointer, as shown in the following example.
+Before your application exits, release your copy of the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface pointer, as shown in the following example.
 
 
 ```C++

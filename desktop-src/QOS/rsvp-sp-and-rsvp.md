@@ -1,13 +1,19 @@
 ---
 title: RSVP SP and RSVP
 description: Below the RSVP SP sits the Resource Reservation Protocol, or RSVP.
-ms.assetid: 'c80ba73f-f33a-495a-a6fd-cd17c4265aad'
-keywords: ["Quality of Service QOS ,described, RSVP SP"]
+ms.assetid: c80ba73f-f33a-495a-a6fd-cd17c4265aad
+keywords:
+- Quality of Service QOS ,described, RSVP SP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSVP SP and RSVP
 
-Below the RSVP SP sits the Resource Reservation Protocol, or RSVP. RSVP is an IETF-standardized protocol that ferries quality of service provision requests between end nodes, and interacts with all RSVP-enabled network devices in the path between end nodes. The RSVP SP—which invokes and facilitates all aspects of Microsoft Windows 2000 QOS, not just RSVP signaling—also enables application developers to fine-tune RSVP messages through the use of the [ProviderSpecific](the-providerspecific-buffer.md) buffer. Such fine-grained control of RSVP by an application enables the fine-tuning or special service requests to be made without depending on the RSVP SP to interpret conventional requests (through members in the [**QOS**](qos.md) structure) and pass such requests down to RSVP.
+Below the RSVP SP sits the Resource Reservation Protocol, or RSVP. RSVP is an IETF-standardized protocol that ferries quality of service provision requests between end nodes, and interacts with all RSVP-enabled network devices in the path between end nodes. The RSVP SP—which invokes and facilitates all aspects of Microsoft Windows 2000 QOS, not just RSVP signaling—also enables application developers to fine-tune RSVP messages through the use of the [ProviderSpecific](the-providerspecific-buffer.md) buffer. Such fine-grained control of RSVP by an application enables the fine-tuning or special service requests to be made without depending on the RSVP SP to interpret conventional requests (through members in the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure) and pass such requests down to RSVP.
 
 RSVP signaling is the primary mechanism employed by the RSVP SP to create an end-to-end QOS connection. When [ServiceType](service-types.md) in either the SendingFlowspec or ReceivingFlowspec member of the **QOS** structure is set to initiate Quality of Service over the connection in either direction (that is, when either parameter is set to a service type other than [SERVICETYPE\_BESTEFFORT](best-effort.md) or [SERVICETYPE\_NOTRAFFIC](servicetype-notraffic.md)), the RSVP SP initiates RSVP signaling.
 

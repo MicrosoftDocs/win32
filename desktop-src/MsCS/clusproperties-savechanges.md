@@ -4,11 +4,14 @@ description: Updates the cluster database with the property data currently store
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2792025f-c434-47e0-a5e8-06a992e3a8d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2792025f-c434-47e0-a5e8-06a992e3a8d2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SaveChanges method Failover Cluster", "SaveChanges method Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , SaveChanges method"]
+keywords:
+- SaveChanges method Failover Cluster
+- SaveChanges method Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , SaveChanges method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.SaveChanges method
@@ -57,7 +63,7 @@ The **ClusProperties.SaveChanges** method will fail if the properties in the col
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -73,9 +79,9 @@ The **ClusProperties.SaveChanges** method will fail if the properties in the col
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,39 @@
 ---
 title: About Windows Media Player SDK Versions
 description: About Windows Media Player SDK Versions
-ms.assetid: 'd7ef7510-fdf5-458d-9229-b91b8e291ce3'
-keywords: ["Windows Media Player,documentation", "Windows Media Player,SDK documentation", "Windows Media Player,about", "software development kit (SDK),Windows Media Player versions", "SDK (software development kit),Windows Media Player versions", "documentation,Windows Media Player versions", "Windows Media Player,versions", "software development kit (SDK),Windows Media Player 12", "SDK (software development kit),Windows Media Player 12", "software development kit (SDK),Windows Media Player 7", "SDK (software development kit),Windows Media Player 7", "documentation,Windows Media Player 7 SDK", "documentation,Windows Media Player 12 SDK", "versions of Windows Media Player,about", "software development kit (SDK),Windows Media Player 7.1", "SDK (software development kit),Windows Media Player 7.1", "documentation,Windows Media Player 7.1 SDK", "software development kit (SDK),Windows Media Player 9", "SDK (software development kit),Windows Media Player 9", "documentation,Windows Media Player 9 SDK", "software development kit (SDK),Windows Media Player 10", "SDK (software development kit),Windows Media Player 10", "documentation,Windows Media Player 10 SDK", "software development kit (SDK),Windows Media Player 11", "SDK (software development kit),Windows Media Player 11", "documentation,Windows Media Player 11 SDK"]
+ms.assetid: d7ef7510-fdf5-458d-9229-b91b8e291ce3
+keywords:
+- Windows Media Player,documentation
+- Windows Media Player,SDK documentation
+- Windows Media Player,about
+- software development kit (SDK),Windows Media Player versions
+- SDK (software development kit),Windows Media Player versions
+- documentation,Windows Media Player versions
+- Windows Media Player,versions
+- software development kit (SDK),Windows Media Player 12
+- SDK (software development kit),Windows Media Player 12
+- software development kit (SDK),Windows Media Player 7
+- SDK (software development kit),Windows Media Player 7
+- documentation,Windows Media Player 7 SDK
+- documentation,Windows Media Player 12 SDK
+- versions of Windows Media Player,about
+- software development kit (SDK),Windows Media Player 7.1
+- SDK (software development kit),Windows Media Player 7.1
+- documentation,Windows Media Player 7.1 SDK
+- software development kit (SDK),Windows Media Player 9
+- SDK (software development kit),Windows Media Player 9
+- documentation,Windows Media Player 9 SDK
+- software development kit (SDK),Windows Media Player 10
+- SDK (software development kit),Windows Media Player 10
+- documentation,Windows Media Player 10 SDK
+- software development kit (SDK),Windows Media Player 11
+- SDK (software development kit),Windows Media Player 11
+- documentation,Windows Media Player 11 SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Media Player SDK Versions

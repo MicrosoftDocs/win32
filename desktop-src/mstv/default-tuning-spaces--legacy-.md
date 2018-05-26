@@ -1,17 +1,22 @@
 ---
 title: Default Tuning Spaces (Legacy)
-description: This topic lists the default tuning spaces that were introduced in Windows XP. The same tuning spaces are also provided with DirectX 9.0.
-ms.assetid: '24e3c32f-50c6-4e45-aed6-1727c99a5dc2'
+description: This topic lists the default tuning spaces that were introduced in Windows XP. The same tuning spaces are also provided with DirectX 9.0.
+ms.assetid: 24e3c32f-50c6-4e45-aed6-1727c99a5dc2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Tuning Spaces (Legacy)
 
-This topic lists the default tuning spaces that were introduced in Windows XP. The same tuning spaces are also provided with DirectX 9.0.
+This topic lists the default tuning spaces that were introduced in Windows XP. The same tuning spaces are also provided with DirectX 9.0.
 
 > [!Note]  
-> Starting in Windows 7, a new set of default tuning spaces is provided. See [Default Tuning Spaces](default-tuning-spaces.md).
+> Starting in Windows 7, a new set of default tuning spaces is provided. See [Default Tuning Spaces](default-tuning-spaces.md).
 
- 
+ 
 
 ## Local Analog Cable
 
@@ -30,7 +35,7 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 
 
 
- 
+ 
 
 ## Local Analog Antenna
 
@@ -49,7 +54,7 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 
 
 
- 
+ 
 
 ## ATSC Digital Antenna
 
@@ -72,7 +77,7 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 
 
 
- 
+ 
 
 ## Default Locator for ATSC Digital Antenna
 
@@ -94,14 +99,14 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 
 
 
- 
+ 
 
 ## Local ATSC-style Digital Cable
 
 > [!Note]  
 > Currently not supported.
 
- 
+ 
 
 
 
@@ -122,7 +127,7 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 
 
 
- 
+ 
 
 ## Analog Auxiliary Input
 
@@ -137,7 +142,7 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -149,9 +154,9 @@ This topic lists the default tuning spaces that were introduced in Windows XP. T
 [The Microsoft Unified Tuning Model](the-microsoft-unified-tuning-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

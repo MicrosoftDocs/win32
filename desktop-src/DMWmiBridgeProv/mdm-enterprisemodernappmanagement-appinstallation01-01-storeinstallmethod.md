@@ -1,8 +1,11 @@
 ---
 title: StoreInstallMethod method of the MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
 description: Method to perform an install of an app and a license from the Windows Store. See also, StoreInstall.
-ms.assetid: '4f8aff47-ad16-4fe5-85be-7ddb55ddff24'
-keywords: ["StoreInstallMethod method", "StoreInstallMethod method, MDM_EnterpriseModernAppManagement_AppInstallation01_01 class", "MDM_EnterpriseModernAppManagement_AppInstallation01_01 class, StoreInstallMethod method"]
+ms.assetid: 4f8aff47-ad16-4fe5-85be-7ddb55ddff24
+keywords:
+- StoreInstallMethod method
+- StoreInstallMethod method, MDM_EnterpriseModernAppManagement_AppInstallation01_01 class
+- MDM_EnterpriseModernAppManagement_AppInstallation01_01 class, StoreInstallMethod method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StoreInstallMethod method of the MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
@@ -24,7 +32,7 @@ Method to perform an install of an app and a license from the Windows Store. See
 
 ```mof
 uint32 StoreInstallMethod(
-  [in] string param
+  [in] string param
 );
 ```
 
@@ -43,7 +51,7 @@ uint32 StoreInstallMethod(
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -61,9 +69,9 @@ uint32 StoreInstallMethod(
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: MinClientIdleTime
 description: MinClientIdleTime
-ms.assetid: 'f301d03d-e6f5-4372-a549-d782164b8894'
+ms.assetid: f301d03d-e6f5-4372-a549-d782164b8894
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinClientIdleTime

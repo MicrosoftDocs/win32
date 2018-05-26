@@ -1,8 +1,9 @@
 ---
 title: PSM\_ADDPAGE message
 description: Adds a new page to the end of an existing property sheet. You can send this message explicitly or by using the PropSheet\_AddPage macro.
-ms.assetid: '41f9a09e-6de6-466b-bdfa-c8c4e8f193e4'
-keywords: ["PSM_ADDPAGE message Windows Controls"]
+ms.assetid: 41f9a09e-6de6-466b-bdfa-c8c4e8f193e4
+keywords:
+- PSM_ADDPAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_ADDPAGE message
 
-Adds a new page to the end of an existing property sheet. You can send this message explicitly or by using the [**PropSheet\_AddPage**](propsheet-addpage.md) macro.
+Adds a new page to the end of an existing property sheet. You can send this message explicitly or by using the [**PropSheet\_AddPage**](/windows/win32/Prsht/nf-prsht-propsheet_addpage?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Handle to the page to add. The page must have been created by a previous call to the [**CreatePropertySheetPage**](createpropertysheetpage.md) function.
+Handle to the page to add. The page must have been created by a previous call to the [**CreatePropertySheetPage**](/windows/win32/Prsht/nf-prsht-createpropertysheetpagea?branch=master) function.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 The new page should be no larger than the largest page currently in the property sheet because the property sheet is not resized to fit the new page.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the PSM\_ADDPAGE message in your implementation of [*PropSheetPageProc*](propsheetpageproc.md) or while handling the following notifications and Windows messages.
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the PSM\_ADDPAGE message in your implementation of [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) or while handling the following notifications and Windows messages.
 
 -   [PSN\_APPLY](psn-apply.md)
 -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -52,7 +58,7 @@ A number of messages and one function call occur while the property sheet is man
 -   [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620)
 -   [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428)
 
-If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](propsheetpageproc.md) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
+If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 
 ## Requirements
 
@@ -60,15 +66,15 @@ If you need to modify a property sheet page while you are handling one of these 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

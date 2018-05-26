@@ -4,16 +4,22 @@ description: The IADsObjectOptions interface enables direct access to setting an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b4ac114f-1a23-4be6-af02-0c0d34a8f78f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b4ac114f-1a23-4be6-af02-0c0d34a8f78f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsObjectOptions Interface ADSI", "IADsObjectOptions ADSI , using", "ADSI ADSI , example code C/C++ , using IADsObjectOptions"]
+keywords:
+- IADsObjectOptions Interface ADSI
+- IADsObjectOptions ADSI , using
+- ADSI ADSI , example code C/C++ , using IADsObjectOptions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsObjectOptions Interface
 
-The [**IADsObjectOptions**](iadsobjectoptions.md) interface enables direct access to setting and retrieving provider-specific options.
+The [**IADsObjectOptions**](/windows/win32/Iads/nn-iads-iadsobjectoptions?branch=master) interface enables direct access to setting and retrieving provider-specific options.
 
 One of the Active Directory object options is to return the host name of a server. The following code example uses the interface to retrieve the host name of the global catalog server.
 

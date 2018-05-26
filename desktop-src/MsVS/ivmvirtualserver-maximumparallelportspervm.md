@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer MaximumParallelPortsPerVM property
 description: The MaximumParallelPortsPerVM property contains the maximum number of parallel ports per virtual machine.
-ms.assetid: '8a29337d-e622-4384-9a39-40bac704f949'
-keywords: ["MaximumParallelPortsPerVM property Virtual Server", "MaximumParallelPortsPerVM property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , MaximumParallelPortsPerVM property", "MaximumParallelPortsPerVM property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , MaximumParallelPortsPerVM property"]
+ms.assetid: 8a29337d-e622-4384-9a39-40bac704f949
+keywords:
+- MaximumParallelPortsPerVM property Virtual Server
+- MaximumParallelPortsPerVM property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , MaximumParallelPortsPerVM property
+- MaximumParallelPortsPerVM property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , MaximumParallelPortsPerVM property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::MaximumParallelPortsPerVM property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaximumParallelPortsPerVM(
-  [out] long *maxPorts
+  [out] long *maxPorts
 );
 ```
 
@@ -91,8 +101,8 @@ Wscript.Echo "Maximum parallel ports per VM: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Wscript.Echo "Maximum parallel ports per VM: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

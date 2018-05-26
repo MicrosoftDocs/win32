@@ -1,8 +1,11 @@
 ---
 title: DeviceCommand.Name property
 description: Retrieves the DeviceCommand name.
-ms.assetid: 'bdd61497-073d-4ac0-99af-f90c2fed5d3b'
-keywords: ["Name property WIA Automation", "Name property WIA Automation , DeviceCommand object", "DeviceCommand object WIA Automation , Name property"]
+ms.assetid: bdd61497-073d-4ac0-99af-f90c2fed5d3b
+keywords:
+- Name property WIA Automation
+- Name property WIA Automation , DeviceCommand object
+- DeviceCommand object WIA Automation , Name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceCommand.Name property
@@ -43,8 +51,8 @@ For example code, see [Enumerate the Supported Commands](-wiaaut-shared-samples.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -81,9 +89,9 @@ For example code, see [Enumerate the Supported Commands](-wiaaut-shared-samples.
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

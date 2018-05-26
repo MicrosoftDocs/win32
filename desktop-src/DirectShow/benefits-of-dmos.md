@@ -1,7 +1,12 @@
 ---
 Description: Benefits of DMOs
-ms.assetid: '7ff3fd9c-9423-4915-8ce2-22783ed455fb'
+ms.assetid: 7ff3fd9c-9423-4915-8ce2-22783ed455fb
 title: Benefits of DMOs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Benefits of DMOs

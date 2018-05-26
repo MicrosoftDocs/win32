@@ -1,7 +1,12 @@
 ---
 title: How to Create an Owner-Drawn List Box
 description: This topic demonstrates how to implement an owner-drawn list box.
-ms.assetid: 'AE6E8943-DC03-4A21-9F0A-9C70C6BD7481'
+ms.assetid: AE6E8943-DC03-4A21-9F0A-9C70C6BD7481
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create an Owner-Drawn List Box

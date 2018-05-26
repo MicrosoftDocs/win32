@@ -1,7 +1,12 @@
 ---
 title: The SNMP Management Information Base (MIB)
 description: A Management Information Base (MIB) describes a set of managed objects. An SNMP management console application can manipulate the objects on a specific computer if the SNMP service has an extension agent DLL that supports the MIB.
-ms.assetid: '684200b6-a5e4-42bb-8a01-fcb6100967c0'
+ms.assetid: 684200b6-a5e4-42bb-8a01-fcb6100967c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The SNMP Management Information Base (MIB)

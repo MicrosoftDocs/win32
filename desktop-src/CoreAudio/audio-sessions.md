@@ -1,14 +1,19 @@
 ---
 Description: Audio Sessions
-ms.assetid: 'b8a1b656-a582-4112-99e9-bd575719ebb3'
+ms.assetid: b8a1b656-a582-4112-99e9-bd575719ebb3
 title: Audio Sessions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Sessions
 
 An *audio session* is a group of related audio streams that a WASAPI client can manage collectively. Clients can control the volume level and muting state of each individual session. The system applies client-specified volume and mute settings uniformly to all of the streams in the session.
 
-When a client initializes an audio stream, it assigns the audio stream to an audio session. For more information, see [**IAudioClient::Initialize**](iaudioclient-initialize.md).
+When a client initializes an audio stream, it assigns the audio stream to an audio session. For more information, see [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master).
 
 An audio session contains either rendering streams or capture streams, but not both. By default, the volume and mute settings for a rendering session are persistent across system restarts. The volume and mute settings for a capture session are not persistent. (A session that contains streams that operate in loopback mode is treated the same as a capture session. That is, the session settings are not persistent. For more information about loopback mode, see [Loopback Recording](loopback-recording.md).)
 

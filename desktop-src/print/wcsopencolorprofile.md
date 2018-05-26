@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsOpenColorProfile function creates a handle to a specified color profile.'
-ms.assetid: 'ecc573e6-c83c-4cf2-9dad-c3c75d9578eb'
+---
+Description: The WcsOpenColorProfile function creates a handle to a specified color profile.
+ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 title: WcsOpenColorProfileA function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsOpenColorProfileA function

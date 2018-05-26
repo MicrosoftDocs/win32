@@ -1,7 +1,12 @@
 ---
-Description: 'Set the IPsec Task Offload v2 properties on the network adapter.'
-ms.assetid: '531c876d-bfe2-4f32-a437-74e092b2252f'
-title: 'Set method of the MSFT\_NetAdapterIPsecOffloadV2SettingData class'
+Description: Set the IPsec Task Offload v2 properties on the network adapter.
+ms.assetid: 531c876d-bfe2-4f32-a437-74e092b2252f
+title: Set method of the MSFT\_NetAdapterIPsecOffloadV2SettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set method of the MSFT\_NetAdapterIPsecOffloadV2SettingData class
@@ -13,10 +18,10 @@ Set the IPsec Task Offload v2 properties on the network adapter.
 
 ```mof
 uint32 Set(
-  [in]  boolean Enabled,
-  [in]  boolean NoRestart,
-  [in]  boolean PassThru,
-  [out] string  cmdletOutput
+  [in]  boolean Enabled,
+  [in]  boolean NoRestart,
+  [in]  boolean PassThru,
+  [out] string  cmdletOutput
 );
 ```
 
@@ -61,7 +66,7 @@ if **PssThru** is **true**, returns an embedded [**MSFT\_NetAdapterIPsecOffloadV
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -75,9 +80,9 @@ if **PssThru** is **true**, returns an embedded [**MSFT\_NetAdapterIPsecOffloadV
 [**MSFT\_NetAdapterIPsecOffloadV2SettingData**](msft-netadapteripsecoffloadv2settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

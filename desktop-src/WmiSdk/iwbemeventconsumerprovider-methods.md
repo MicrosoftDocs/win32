@@ -1,22 +1,25 @@
 ---
-Description: 'The IWbemEventConsumerProvider interface exposes the following methods.'
+Description: The IWbemEventConsumerProvider interface exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '03E8E844-9A81-4252-9182-1B723E126F0D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 03E8E844-9A81-4252-9182-1B723E126F0D
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemEventConsumerProvider Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWbemEventConsumerProvider Methods
 
-The [**IWbemEventConsumerProvider**](iwbemeventconsumerprovider.md) interface exposes the following methods.
+The [**IWbemEventConsumerProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider?branch=master) interface exposes the following methods.
 
 ## In this section
 
--   [**FindConsumer method**](iwbemeventconsumerprovider-findconsumer.md)
+-   [**FindConsumer method**](/windows/win32/Wbemprov/nf-wbemprov-iwbemeventconsumerprovider-findconsumer?branch=master)
 
  
 

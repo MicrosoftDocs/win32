@@ -1,8 +1,11 @@
 ---
 title: IVMHardDisk HostFreeDiskSpace property
 description: Retrieves the amount of remaining disk space available on the host for the virtual hard disk.
-ms.assetid: '08574bd3-e96d-465c-a1fc-265085fb3847'
-keywords: ["HostFreeDiskSpace property Virtual PC", "HostFreeDiskSpace property Virtual PC , IVMHardDisk interface", "IVMHardDisk interface Virtual PC , HostFreeDiskSpace property"]
+ms.assetid: 08574bd3-e96d-465c-a1fc-265085fb3847
+keywords:
+- HostFreeDiskSpace property Virtual PC
+- HostFreeDiskSpace property Virtual PC , IVMHardDisk interface
+- IVMHardDisk interface Virtual PC , HostFreeDiskSpace property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::HostFreeDiskSpace property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the amount of remaining disk space available on the host for the virtual hard disk.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostFreeDiskSpace(
-  [out, retval] VARIANT *freeBytes
+  [out, retval] VARIANT *freeBytes
 );
 ```
 
@@ -56,9 +64,9 @@ The amount of remaining disk space available on the host computer for the curren
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHardDisk is defined as ffa14ae6-48f5-42a4-8a22-186f2e5c7db0<br/>                |
@@ -72,9 +80,9 @@ The amount of remaining disk space available on the host computer for the curren
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

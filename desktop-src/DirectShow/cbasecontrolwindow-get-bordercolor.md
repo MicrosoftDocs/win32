@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_BorderColor method retrieves the current border color.'
-ms.assetid: '4b4cae1d-bef7-4f8d-8011-c220fcfb73eb'
-title: 'CBaseControlWindow.get\_BorderColor method'
+Description: The get\_BorderColor method retrieves the current border color.
+ms.assetid: 4b4cae1d-bef7-4f8d-8011-c220fcfb73eb
+title: CBaseControlWindow.get\_BorderColor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_BorderColor method
@@ -13,7 +18,7 @@ The `get_BorderColor` method retrieves the current border color.
 
 ```C++
 HRESULT get_BorderColor(
-   long *Color
+   long *Color
 );
 ```
 
@@ -38,7 +43,7 @@ Returns an **HRESULT** value.
 
 An application can set a destination rectangle in which the video should be displayed. This rectangle is relative to the client area for the window. If this is done (the default is to always paint the entire window), there is a border surrounding the video. This property affects the color used by the border. Although the parameter is specified as a **LONG** type, it is actually a **COLORREF** value.
 
-This member function is meant to be called by external objects through the [**IVideoWindow**](ivideowindow.md) interface, and therefore locks the critical section to synchronize with the associated filter. Call the [**CBaseControlWindow::GetBorderColour**](cbasecontrolwindow-getbordercolour.md) member function to retrieve this property if not calling from an external object.
+This member function is meant to be called by external objects through the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface, and therefore locks the critical section to synchronize with the associated filter. Call the [**CBaseControlWindow::GetBorderColour**](cbasecontrolwindow-getbordercolour.md) member function to retrieve this property if not calling from an external object.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ This member function is meant to be called by external objects through the [**IV
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

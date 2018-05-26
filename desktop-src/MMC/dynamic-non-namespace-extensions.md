@@ -4,11 +4,15 @@ description: This feature is introduced in MMC 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6087bd8a-08bf-4430-be9e-258262c60900'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6087bd8a-08bf-4430-be9e-258262c60900
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["dynamic non-namespace extensions MMC"]
+keywords:
+- dynamic non-namespace extensions MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Non-Namespace Extensions

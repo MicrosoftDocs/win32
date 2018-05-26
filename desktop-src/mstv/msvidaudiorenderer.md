@@ -1,7 +1,12 @@
 ---
 title: MSVidAudioRenderer
 description: MSVidAudioRenderer
-ms.assetid: 'f822b5a6-c88e-48c9-91f4-611a3f147fe0'
+ms.assetid: f822b5a6-c88e-48c9-91f4-611a3f147fe0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidAudioRenderer
@@ -14,8 +19,8 @@ The **MSVidAudioRenderer** object represents the audio renderer.
 
 |                           |                                                              |
 |---------------------------|--------------------------------------------------------------|
-| Interfaces                | [**IMSVidAudioRenderer**](imsvidaudiorenderer.md)           |
-| Outgoing Event Interfaces | [**IMSVidAudioRendererEvent**](imsvidaudiorendererevent.md) |
+| Interfaces                | [**IMSVidAudioRenderer**](/windows/win32/segment/nn-segment-imsvidaudiorenderer?branch=master)           |
+| Outgoing Event Interfaces | [**IMSVidAudioRendererEvent**](/windows/win32/segment/?branch=master) |
 
 
 
@@ -23,7 +28,7 @@ The **MSVidAudioRenderer** object represents the audio renderer.
 
 ## Remarks
 
-To obtain this object, either call the [**IMSVidCtl::get\_AudioRendererActive**](imsvidctl-get-audiorendereractive.md) method, or call the [**IMSVidCtl::get\_AudioRenderersAvailable**](imsvidctl-get-audiorenderersavailable.md) method and enumerate the returned collection.
+To obtain this object, either call the [**IMSVidCtl::get\_AudioRendererActive**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive?branch=master) method, or call the [**IMSVidCtl::get\_AudioRenderersAvailable**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable?branch=master) method and enumerate the returned collection.
 
 ## Related topics
 

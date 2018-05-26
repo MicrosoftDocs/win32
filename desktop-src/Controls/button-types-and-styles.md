@@ -1,7 +1,12 @@
 ---
 title: Button Types
 description: There are several types of buttons and one or more button styles to distinguish between buttons of the same type.
-ms.assetid: 'bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b'
+ms.assetid: bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Types
@@ -41,7 +46,7 @@ A check box can be one of four styles: standard, automatic, three-state, and aut
 
 When the user clicks a check box (of any style), the check box receives the keyboard focus. The system sends the check box's parent window a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message containing the [BN\_CLICKED](bn-clicked.md) notification code. The parent window does not have to handle this message if it comes from an automatic check box or automatic three-state check box, because the system automatically sets the check state for those styles. But the parent window must handle the message if it comes from a non-automatic check box or three-state check box, because the parent window is responsible for setting the check state for those styles. Regardless of the check box style, the system automatically repaints the check box once its state is changed.
 
-The application can ascertain the state of a check box by using the [**IsDlgButtonChecked**](isdlgbuttonchecked.md) function.
+The application can ascertain the state of a check box by using the [**IsDlgButtonChecked**](/windows/win32/Winuser/nf-winuser-isdlgbuttonchecked?branch=master) function.
 
 ## Group Boxes
 
@@ -57,7 +62,7 @@ When the user clicks a push button, it receives the keyboard focus. The system s
 
 The *split button* is a special kind of push button introduced in Windows Vista and [Version 6.00](common-control-versions.md). A split button is divided into two parts. The main part functions like a regular or default push button. The second part has an arrow pointing downward. Typically a menu is displayed when the arrow is clicked.
 
-A split button has the [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) style, or the [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton) style if it is the default button in a dialog box. You can modify the appearance of the button by using the [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) message or the corresponding [**Button\_SetSplitInfo**](button-setsplitinfo.md) macro.
+A split button has the [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) style, or the [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton) style if it is the default button in a dialog box. You can modify the appearance of the button by using the [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) message or the corresponding [**Button\_SetSplitInfo**](/windows/win32/Commctrl/nf-commctrl-button_setsplitinfo?branch=master) macro.
 
 When the user clicks on the main part of the split button, it sends a [BN\_CLICKED](bn-clicked.md) notification just like a normal push button. But when the user clicks on the down arrow, it sends a [BCN\_DROPDOWN](bcn-dropdown.md) notification. It is the application's responsibility to display a menu in response to BCN\_DROPDOWN.
 
@@ -73,7 +78,7 @@ When the user selects either state, the radio button receives the keyboard focus
 
 Radio buttons are arranged in groups, and only one button in the group can be checked at any time. If the [**WS\_GROUP**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-group) flag is set for any radio button, that button is the first button in a group, and all buttons that follow it immediately in the tab order (but do not themselves have the **WS\_GROUP** flag) are part of its group. If no radio buttons have the **WS\_GROUP** flag, all the radio buttons in the dialog box are treated as a single group.
 
-The application can ascertain whether a radio button is checked by using the [**IsDlgButtonChecked**](isdlgbuttonchecked.md) function.
+The application can ascertain whether a radio button is checked by using the [**IsDlgButtonChecked**](/windows/win32/Winuser/nf-winuser-isdlgbuttonchecked?branch=master) function.
 
 ## Related topics
 

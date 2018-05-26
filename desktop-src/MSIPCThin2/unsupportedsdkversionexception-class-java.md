@@ -4,17 +4,21 @@ description: The operation is not supported by the version of the SDK. Extends t
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '249627cb-60cd-460b-b338-9fa6f4a29856'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 249627cb-60cd-460b-b338-9fa6f4a29856
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UnsupportedSDKVersionException class"]
+keywords:
+- UnsupportedSDKVersionException class
 topic_type:
 - apiref
 api_name:
 - UnsupportedSDKVersionException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UnsupportedSDKVersionException class
@@ -32,7 +36,7 @@ public class UnsupportedSDKVersionException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class UnsupportedSDKVersionException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class UnsupportedSDKVersionException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ The **UnsupportedSDKVersionException** class extends the [**ProtectionException*
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

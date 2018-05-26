@@ -4,11 +4,15 @@ description: To set the password for an AD LDS user, set authentication flags fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4a8a7c39-eee4-40d1-b0a2-3d2be83c3c2d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 4a8a7c39-eee4-40d1-b0a2-3d2be83c3c2d
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , setting user passwords"]
+keywords:
+- AD LDS examples ADAM , setting user passwords
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting User Passwords with Active Directory Lightweight Directory Services

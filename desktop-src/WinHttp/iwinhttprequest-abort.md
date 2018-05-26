@@ -1,12 +1,17 @@
 ---
-Description: 'The Abort method aborts a WinHTTP Send method.'
-ms.assetid: '8326feef-8611-4441-b52d-74855e6acfff'
-title: 'IWinHttpRequest::Abort method'
+Description: The Abort method aborts a WinHTTP Send method.
+ms.assetid: 8326feef-8611-4441-b52d-74855e6acfff
+title: IWinHttpRequestAbort method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::Abort method
 
-The **Abort** method aborts a [WinHTTP](about-winhttp.md) [**Send**](iwinhttprequest-send.md) method.
+The **Abort** method aborts a [WinHTTP](about-winhttp.md) [**Send**](iwinhttprequest-send.md) method.
 
 ## Syntax
 
@@ -30,9 +35,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 You can abort both asynchronous and synchronous [**Send**](iwinhttprequest-send.md) methods. To abort a synchronous [**Send**](iwinhttprequest-send.md) method, you must call **Abort** from within an [**IWinHttpRequestEvents**](iwinhttprequestevents-interface.md) event.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
 
- 
+ 
 
 ## Requirements
 
@@ -40,9 +45,9 @@ You can abort both asynchronous and synchronous [**Send**](iwinhttprequest-send.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -62,9 +67,9 @@ You can abort both asynchronous and synchronous [**Send**](iwinhttprequest-send.
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

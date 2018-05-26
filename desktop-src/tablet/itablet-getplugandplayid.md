@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a string containing the Plug and Play ID for the tablet device.'
-ms.assetid: 'a0b6619b-f80c-470b-aa3f-f0b30a9dbda8'
-title: 'ITablet::GetPlugAndPlayId method'
+Description: Returns a string containing the Plug and Play ID for the tablet device.
+ms.assetid: a0b6619b-f80c-470b-aa3f-f0b30a9dbda8
+title: ITabletGetPlugAndPlayId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::GetPlugAndPlayId method
@@ -13,7 +18,7 @@ Returns a string containing the Plug and Play ID for the tablet device.
 
 ```C++
 HRESULT GetPlugAndPlayId(
-  [out] LPWSTR *ppwszPPId
+  [out] LPWSTR *ppwszPPId
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ It is the caller's responsibility to free the memory returned from this method b
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -68,9 +73,9 @@ It is the caller's responsibility to free the memory returned from this method b
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Returns the CLSID of the snap-in that created the list view taskpad
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4f7f3b5-da5e-4bf1-ac38-ef3fb2253576'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b4f7f3b5-da5e-4bf1-ac38-ef3fb2253576
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Clsid property MMC", "Clsid property MMC , MMCListPadInfo class", "MMCListPadInfo class MMC , Clsid property"]
+keywords:
+- Clsid property MMC
+- Clsid property MMC , MMCListPadInfo class
+- MMCListPadInfo class MMC , Clsid property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCListPadInfo.Clsid property
@@ -53,9 +59,9 @@ To specify the snap-in that owns the list view taskpad, the value of the Clsid p
 
 
 
- 
+ 
 
- 
+ 
 
 
 

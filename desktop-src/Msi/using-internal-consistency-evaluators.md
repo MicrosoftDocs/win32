@@ -1,14 +1,19 @@
 ---
-Description: 'To validate a database, use a special validation tool to merge a .cub file containing the Internal Consistency Evaluators (ICEs) into your database, execute the ICEs, and report the results.'
-ms.assetid: 'bdf38673-ee3d-47d8-ad6e-562cd5626918'
+Description: To validate a database, use a special validation tool to merge a .cub file containing the Internal Consistency Evaluators (ICEs) into your database, execute the ICEs, and report the results.
+ms.assetid: bdf38673-ee3d-47d8-ad6e-562cd5626918
 title: Using Internal Consistency Evaluators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Internal Consistency Evaluators
 
 To validate a database, use a special validation tool to merge a .cub file containing the [Internal Consistency Evaluators](internal-consistency-evaluators-ices.md) (ICEs) into your database, execute the ICEs, and report the results. Several such tools are provided in the Microsoft Windows Software Development Kit (SDK). Authoring environments from third-party vendors also may incorporate the ICE validation system into their authoring environment. It is also possible to write your own tool to perform ICE validation. Most ICE validation tools merge the .cub file and your database into a third, temporary database. Windows Installer displays warnings, errors, debugging information, and API errors as it executes each ICE in the .cub file. When the installer finishes executing the ICEs it closes the .msi file, .cub file, and temporary database without saving any changes. The .msi file and .cub file remain unchanged by the validation test.
 
-ICE custom actions communicate to the user by calling [**MsiProcessMessage**](msiprocessmessage.md) and posting an INSTALLMESSAGE\_USER message. An ICE message commonly returns information such as the following:
+ICE custom actions communicate to the user by calling [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) and posting an INSTALLMESSAGE\_USER message. An ICE message commonly returns information such as the following:
 
 -   Name of the ICE that has found an error
 -   Date the ICE was created

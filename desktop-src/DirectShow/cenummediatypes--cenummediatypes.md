@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '7da81391-aaac-4cc7-9e64-856e1d13b61d'
-title: 'CEnumMediaTypes.~CEnumMediaTypes destructor'
+Description: Destructor method.
+ms.assetid: 7da81391-aaac-4cc7-9e64-856e1d13b61d
+title: CEnumMediaTypes.~CEnumMediaTypes destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumMediaTypes.~CEnumMediaTypes destructor
@@ -35,9 +40,9 @@ virtual ~CEnumMediaTypes();
 [**CEnumMediaTypes Class**](cenummediatypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

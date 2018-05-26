@@ -4,11 +4,14 @@ description: Expands system-defined environment variables.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eff0dcdf-ef98-4730-9b0c-4f44250a607b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: eff0dcdf-ef98-4730-9b0c-4f44250a607b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnvironmentVariables method Remote Desktop Services", "EnvironmentVariables method Remote Desktop Services , Win32_TSExpandEnvironmentVariables class", "Win32_TSExpandEnvironmentVariables class Remote Desktop Services , EnvironmentVariables method"]
+keywords:
+- EnvironmentVariables method Remote Desktop Services
+- EnvironmentVariables method Remote Desktop Services , Win32_TSExpandEnvironmentVariables class
+- Win32_TSExpandEnvironmentVariables class Remote Desktop Services , EnvironmentVariables method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnvironmentVariables method of the Win32\_TSExpandEnvironmentVariables class
@@ -28,8 +34,8 @@ Expands system-defined environment variables.
 
 ```mof
 uint32 EnvironmentVariables(
-  [in]  string OriginalString,
-  [out] string ExpandedString
+  [in]  string OriginalString,
+  [out] string ExpandedString
 );
 ```
 
@@ -66,7 +72,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Tsallow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
@@ -80,9 +86,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSExpandEnvironmentVariables**](win32-tsexpandenvironmentvariables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

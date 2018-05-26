@@ -1,7 +1,12 @@
 ---
 Description: COM+ Queued Components Concepts
-ms.assetid: 'ff11e251-311f-4612-8f0d-a4cbc5b4d872'
+ms.assetid: ff11e251-311f-4612-8f0d-a4cbc5b4d872
 title: COM+ Queued Components Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Queued Components Concepts
@@ -27,7 +32,7 @@ The following topics in this section contain background information about design
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ The following topics in this section contain background information about design
 [COM+ Queued Components Tasks](com--queued-components-tasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

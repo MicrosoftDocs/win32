@@ -1,7 +1,12 @@
 ---
-Description: 'Other parts of the Microsoft Internet Security Framework use the smart card subsystem, as shown in the following illustration.'
-ms.assetid: '06b66ebb-0bd3-472a-847b-66ce5edaf0c4'
+Description: Other parts of the Microsoft Internet Security Framework use the smart card subsystem, as shown in the following illustration.
+ms.assetid: 06b66ebb-0bd3-472a-847b-66ce5edaf0c4
 title: Relation to Other Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relation to Other Services

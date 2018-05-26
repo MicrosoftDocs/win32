@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a count of the number of IPrintSchemaOption objects in the collection.'
-ms.assetid: 'E849E14D-7F64-48C3-A0B1-408D848B2083'
-title: 'IPrintSchemaOptionCollection::Count property'
+---
+Description: Gets a count of the number of IPrintSchemaOption objects in the collection.
+ms.assetid: E849E14D-7F64-48C3-A0B1-408D848B2083
+title: IPrintSchemaOptionCollectionCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOptionCollection::Count property

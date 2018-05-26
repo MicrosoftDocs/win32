@@ -1,8 +1,16 @@
 ---
 title: Overview of the ASF Format
 description: Overview of the ASF Format
-ms.assetid: 'ef22a493-d6cf-40d2-ab17-d87159066d1d'
-keywords: ["Windows Media Format SDK,ASF format overview", "Advanced Systems Format (ASF),format overview", "ASF (Advanced Systems Format),format overview"]
+ms.assetid: ef22a493-d6cf-40d2-ab17-d87159066d1d
+keywords:
+- Windows Media Format SDK,ASF format overview
+- Advanced Systems Format (ASF),format overview
+- ASF (Advanced Systems Format),format overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of the ASF Format

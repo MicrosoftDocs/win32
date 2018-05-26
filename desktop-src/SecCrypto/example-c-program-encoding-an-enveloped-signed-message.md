@@ -1,22 +1,27 @@
 ---
-Description: 'Creates, signs, and envelopes a message.'
-ms.assetid: '1d9d8a7a-0088-41a7-98fe-4f0e9cb21f31'
-title: 'Example C Program: Encoding an Enveloped, Signed Message'
+Description: Creates, signs, and envelopes a message.
+ms.assetid: 1d9d8a7a-0088-41a7-98fe-4f0e9cb21f31
+title: Example C Program Encoding an Enveloped, Signed Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Encoding an Enveloped, Signed Message
 
 The following example creates, signs, and envelopes a message, and it illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Acquiring the handle of a CSP using [**CryptAcquireContext**](cryptacquirecontext.md).
--   Opening a system store using [**CertOpenStore**](certopenstore.md).
--   Finding a signer and recipient certificates using [**CertFindCertificateInStore**](certfindcertificateinstore.md).
+-   Acquiring the handle of a CSP using [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Opening a system store using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master).
+-   Finding a signer and recipient certificates using [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master).
 -   Initializing appropriate data structures for signing an enveloped message.
--   Finding the length of the enveloped message using [**CryptMsgCalculateEncodedLength**](cryptmsgcalculateencodedlength.md).
--   Creating and signs the message using [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md), [**CryptMsgUpdate**](cryptmsgupdate.md), and [**CryptMsgGetParam**](cryptmsggetparam.md).
--   Enveloping the signed and encoded message for a receiver using [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md), [**CryptMsgUpdate**](cryptmsgupdate.md), and [**CryptMsgGetParam**](cryptmsggetparam.md).
+-   Finding the length of the enveloped message using [**CryptMsgCalculateEncodedLength**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength?branch=master).
+-   Creating and signs the message using [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master), [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master), and [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master).
+-   Enveloping the signed and encoded message for a receiver using [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master), [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master), and [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master).
 
-This example will fail if a usable private key does not exist in the default [*key container*](security.k_gly#-security-key-container-gly). If the needed private key is not available, code using [**CryptAcquireCertificatePrivateKey**](cryptacquirecertificateprivatekey.md), as demonstrated in the code sample [Example C Program: Sending and Receiving a Signed and Encrypted Message](example-c-program-sending-and-receiving-a-signed-and-encrypted-message.md), can be used.
+This example will fail if a usable private key does not exist in the default [*key container*](security.k_gly#-security-key-container-gly). If the needed private key is not available, code using [**CryptAcquireCertificatePrivateKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey?branch=master), as demonstrated in the code sample [Example C Program: Sending and Receiving a Signed and Encrypted Message](example-c-program-sending-and-receiving-a-signed-and-encrypted-message.md), can be used.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

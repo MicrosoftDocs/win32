@@ -1,8 +1,10 @@
 ---
 title: System.Gadget object
 description: Defines the properties, methods, and events that provide basic gadget functionality.
-ms.assetid: '3e71e04a-5c43-4280-86d9-e1f48fcc73f3'
-keywords: ["System.Gadget object Windows Sidebar", "System.Gadget object Windows Sidebar , described"]
+ms.assetid: 3e71e04a-5c43-4280-86d9-e1f48fcc73f3
+keywords:
+- System.Gadget object Windows Sidebar
+- System.Gadget object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget object
@@ -50,7 +57,7 @@ The **System.Gadget** object has these events.
 <td style="text-align: left;">Event fired when the gadget is docked on the Sidebar. <br/>
 <blockquote>
 [!Note]<br />
-For Windows 7, because there is no Sidebar associated with the Gadget Platform, the [<strong>onDock</strong>](system-gadget-ondock.md) and [<strong>onUndock</strong>](system-gadget-onundock.md) event listeners are linked to a new gadget icon (&quot;Larger size&quot; or &quot;Smaller size&quot;). Clicking this icon resizes the gadget and raises the dock (&quot;Smaller size&quot;) or undock (&quot;Larger size&quot;) event.
+For Windows 7, because there is no Sidebar associated with the Gadget Platform, the [<strong>onDock</strong>](system-gadget-ondock.md) and [<strong>onUndock</strong>](system-gadget-onundock.md) event listeners are linked to a new gadget icon (&quot;Larger size&quot; or &quot;Smaller size&quot;). Clicking this icon resizes the gadget and raises the dock (&quot;Smaller size&quot;) or undock (&quot;Larger size&quot;) event.
 </blockquote>
 <br/></td>
 </tr>
@@ -71,7 +78,7 @@ For Windows 7, because there is no Sidebar associated with the Gadget Platform, 
 <td style="text-align: left;">Event fired when the gadget is docked on the Sidebar. <br/>
 <blockquote>
 [!Note]<br />
-For Windows 7, because there is no Sidebar associated with the Gadget Platform, the [<strong>onDock</strong>](system-gadget-ondock.md) and [<strong>onUndock</strong>](system-gadget-onundock.md) event listeners are linked to a new gadget icon (&quot;Larger size&quot; or &quot;Smaller size&quot;). Clicking this icon resizes the gadget and raises the dock (&quot;Smaller size&quot;) or undock (&quot;Larger size&quot;) event.
+For Windows 7, because there is no Sidebar associated with the Gadget Platform, the [<strong>onDock</strong>](system-gadget-ondock.md) and [<strong>onUndock</strong>](system-gadget-onundock.md) event listeners are linked to a new gadget icon (&quot;Larger size&quot; or &quot;Smaller size&quot;). Clicking this icon resizes the gadget and raises the dock (&quot;Smaller size&quot;) or undock (&quot;Larger size&quot;) event.
 </blockquote>
 <br/></td>
 </tr>
@@ -84,7 +91,7 @@ For Windows 7, because there is no Sidebar associated with the Gadget Platform, 
 
 
 
- 
+ 
 
 ### Methods
 
@@ -131,7 +138,7 @@ For Windows 7, calls to the System.Gadget.beginTransition and System.Gadget.endT
 
 
 
- 
+ 
 
 ### Properties
 
@@ -154,7 +161,7 @@ The **System.Gadget** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -162,18 +169,18 @@ The **System.Gadget** object has these properties.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

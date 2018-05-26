@@ -1,12 +1,17 @@
 ---
 title: Gadgets for Windows Sidebar - System Object Reference
 description: This section describes the Windows Sidebar scripting elements that provide access to system functionality, such as file, network, and operating system information.
-ms.assetid: 'be8fed31-6fe0-460b-85e7-18509e2bf32f'
+ms.assetid: be8fed31-6fe0-460b-85e7-18509e2bf32f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar - System Object Reference
 
-\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
+\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
 
 This section describes the Windows Sidebar scripting elements that provide access to system functionality, such as file, network, and operating system information.
 
@@ -108,7 +113,7 @@ The Windows Gadget Platform/Sidebar is available for use in the operating system
 [!Note]<br />
 The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
 </blockquote>
-<br/> Defines the properties for the Windows Mail (formerly Outlook Express) [<strong>Folders</strong>](system-messagestore-folders.md) collection. <br/>
+<br/> Defines the properties for the Windows Mail (formerly Outlook Express) [<strong>Folders</strong>](system-messagestore-folders.md) collection. <br/>
 <blockquote>
 [!Note]<br />
 Objects of type [<strong>System.MessageStore.Folder</strong>](system-messagestore-folder.md) can only be accessed through the [<strong>Folders</strong>](system-messagestore-folders.md) collection. This collection is a member of [<strong>System.MessageStore</strong>](system-messagestore.md).
@@ -134,7 +139,7 @@ Objects of type [<strong>System.MessageStore.Message</strong>](system-messagesto
 [!Note]<br />
 The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
 </blockquote>
-<br/> Defines the properties of each member of the Windows Mail [<strong>Messages</strong>](system-messagestorefolder-messages.md) collection. <br/></td>
+<br/> Defines the properties of each member of the Windows Mail [<strong>Messages</strong>](system-messagestorefolder-messages.md) collection. <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>System.Network.Wireless</strong>](system-network-wireless.md)<br/></td>
@@ -223,11 +228,11 @@ The Windows Gadget Platform/Sidebar is available for use in the operating system
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

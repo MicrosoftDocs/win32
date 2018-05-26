@@ -1,8 +1,9 @@
 ---
 title: D3D\_BLOB\_PART enumeration
 description: Values that identify parts of the content of an arbitrary length data buffer.
-ms.assetid: '333bc68a-0412-48e7-ac28-69ec5eea9ce8'
-keywords: ["D3D_BLOB_PART enumeration HLSL"]
+ms.assetid: 333bc68a-0412-48e7-ac28-69ec5eea9ce8
+keywords:
+- D3D_BLOB_PART enumeration HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3Dcompiler.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D\_BLOB\_PART enumeration
@@ -191,9 +197,9 @@ These values are passed to the [**D3DGetBlobPart**](d3dgetblobpart.md) or [**D3D
 [Enumerations](dx-graphics-d3dcompiler-reference-enums.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

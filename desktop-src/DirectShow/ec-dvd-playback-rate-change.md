@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that a rate change in DVD playback has been initiated.'
-ms.assetid: '2a1e3c21-1623-4e43-8c7b-1a34514442c9'
-title: 'EC\_DVD\_PLAYBACK\_RATE\_CHANGE'
+Description: Signals that a rate change in DVD playback has been initiated.
+ms.assetid: 2a1e3c21-1623-4e43-8c7b-1a34514442c9
+title: EC\_DVD\_PLAYBACK\_RATE\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_PLAYBACK\_RATE\_CHANGE
@@ -55,9 +60,9 @@ Playback *rate* is the inverse of playback *speed*. For example, if playback spe
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

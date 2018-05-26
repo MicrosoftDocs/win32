@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine AttachedDriveTypes property
 description: An array indicating the type of drive attached to each location in the VM.
-ms.assetid: '6896c9cd-5448-4fbb-8c8e-eef306a5cea1'
-keywords: ["AttachedDriveTypes property Virtual PC", "AttachedDriveTypes property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , AttachedDriveTypes property"]
+ms.assetid: 6896c9cd-5448-4fbb-8c8e-eef306a5cea1
+keywords:
+- AttachedDriveTypes property Virtual PC
+- AttachedDriveTypes property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , AttachedDriveTypes property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AttachedDriveTypes property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves an array indicating the type of drive attached to each location in the virtual machine (VM).
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AttachedDriveTypes(
-  [out, retval] VARIANT *driveTypes
+  [out, retval] VARIANT *driveTypes
 );
 ```
 
@@ -56,9 +64,9 @@ A variant of type **VT\_ARRAY** \| **VT\_VARIANT** containing entries of type **
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -72,9 +80,9 @@ A variant of type **VT\_ARRAY** \| **VT\_VARIANT** containing entries of type **
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

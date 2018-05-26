@@ -1,7 +1,7 @@
 ---
 title: MDM Registration Error Values
 description: The following error values are with MDM Registration.
-ms.assetid: '1f42ed5e-e221-47ec-a019-ed06c05d55d0'
+ms.assetid: 1f42ed5e-e221-47ec-a019-ed06c05d55d0
 topic_type:
 - apiref
 api_name:
@@ -66,6 +66,11 @@ api_location:
 - MDMRegistration.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM Registration Error Values
@@ -110,7 +115,7 @@ Invalid Schema, Message Format Error from server.
 
 Invalid Schema , Message Format Error from server.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -138,7 +143,7 @@ Server failed to authenticate the user.
 
 Server failed to authenticate the user.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -166,7 +171,7 @@ The user is not authorized to enroll.
 
 The user is not authorized to enroll.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -194,7 +199,7 @@ The user has no permission for the certificate template or the certificate autho
 
 The user has no permission for the certificate template or the certificate authority is unreachable.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -222,7 +227,7 @@ There was a failure at the management server, such as a database access error.
 
 There was a failure at the management server, such as a database access error.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -250,7 +255,7 @@ There was an unhandled exception on the server.
 
 There was an unhandled exception on the server.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -278,7 +283,7 @@ There was an unhandled exception on the server.
 
 There was an unhandled exception on the server.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -306,7 +311,7 @@ Unknown server error.
 
 Unknown server error.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -334,7 +339,7 @@ Another enrollment operation is currently underway.
 
 Another enrollment operation is currently underway.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -349,7 +354,7 @@ Another enrollment operation is currently underway.
 
 No longer used.
 
-**Windows 8.1:** The device is already enrolled.
+**Windows 8.1:** The device is already enrolled.
 
 
 </dt> </dl> </dd> <dt>
@@ -364,7 +369,7 @@ No longer used.
 
 The device is already enrolled.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -379,7 +384,7 @@ The device is already enrolled.
 
 No longer used.
 
-**Windows 8.1:** The device is not enrolled.
+**Windows 8.1:** The device is not enrolled.
 
 
 </dt> </dl> </dd> <dt>
@@ -394,7 +399,7 @@ No longer used.
 
 The device is not enrolled.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -409,7 +414,7 @@ The device is not enrolled.
 
 No longer used.
 
-**Windows 8.1:** Redirection is needed.
+**Windows 8.1:** Redirection is needed.
 
 
 </dt> </dl> </dd> <dt>
@@ -424,7 +429,7 @@ No longer used.
 
 No longer used.
 
-**Windows 8.1:** The device is not registered with Active Directory.
+**Windows 8.1:** The device is not registered with Active Directory.
 
 
 </dt> </dl> </dd> <dt>
@@ -439,7 +444,7 @@ No longer used.
 
 During discovery the sec cert date was invalid.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -454,7 +459,7 @@ During discovery the sec cert date was invalid.
 
 No longer used.
 
-**Windows 8.1:** Discovery failed; redirection is needed.
+**Windows 8.1:** Discovery failed; redirection is needed.
 
 
 </dt> </dl> </dd> <dt>
@@ -469,7 +474,7 @@ No longer used.
 
 A password is needed, but was not supplied.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -484,7 +489,7 @@ A password is needed, but was not supplied.
 
 An error occurred during WAB enrollment.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -499,7 +504,7 @@ An error occurred during WAB enrollment.
 
 A network error occurred, such as DNS or a network timeout.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -514,7 +519,7 @@ A network error occurred, such as DNS or a network timeout.
 
 Enrollment was suspended. No longer supported.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -529,7 +534,7 @@ Enrollment was suspended. No longer supported.
 
 The SSL cert was not valid.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -544,7 +549,7 @@ The SSL cert was not valid.
 
 The user has already enrolled too many devices. Delete or unenroll old ones to fix this error. Note that the user can resolve this error without admin assistance.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -559,7 +564,7 @@ The user has already enrolled too many devices. Delete or unenroll old ones to f
 
 A specific platform (e.g. Windows) or version is not supported. The general fix for this error is to upgrade the device.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -574,7 +579,7 @@ A specific platform (e.g. Windows) or version is not supported. The general fix 
 
 Mobile device management is generally not supported for this device - the user may call the admin, but will be unlikely to resolve this issue.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -589,7 +594,7 @@ Mobile device management is generally not supported for this device - the user m
 
 The device is attempting to renew, but the server rejected the request. Check time on device. The user may be able to resolve this error by re-enrolling.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -604,7 +609,7 @@ The device is attempting to renew, but the server rejected the request. Check ti
 
 Account is in maintenance; retry later. The user can retry later. However, the user may choose to call the admin to determine the maintenance schedule.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -619,7 +624,7 @@ Account is in maintenance; retry later. The user can retry later. However, the u
 
 The license of user is in bad state blocking enrollment; the user will need to call the admin.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -634,7 +639,7 @@ The license of user is in bad state blocking enrollment; the user will need to c
 
 The server rejected the Enrollment Data; the server may not be configured correctly.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -649,7 +654,7 @@ The server rejected the Enrollment Data; the server may not be configured correc
 
 The server requested HTTP rather than HTTPS but it was not accepted.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -664,7 +669,7 @@ The server requested HTTP rather than HTTPS but it was not accepted.
 
 An invalid operation was attempted, such trying to enroll the same device twice or unenroll an unknown device.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -679,7 +684,7 @@ An invalid operation was attempted, such trying to enroll the same device twice 
 
 The version of Windows installed on the client does not support this enrollment type.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -694,7 +699,7 @@ The version of Windows installed on the client does not support this enrollment 
 
 An unknown error occurred on the client.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -709,7 +714,7 @@ An unknown error occurred on the client.
 
 Provisioning failed in the certificate store CSP.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -724,7 +729,7 @@ Provisioning failed in the certificate store CSP.
 
 Provisioning failed in a W7/DMAcc CPP.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -739,7 +744,7 @@ Provisioning failed in a W7/DMAcc CPP.
 
 Provisioning failed in a DM client CSP.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -754,7 +759,7 @@ Provisioning failed in a DM client CSP.
 
 Provisioning failed in a Passport for Work CSP.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -769,7 +774,7 @@ Provisioning failed in a Passport for Work CSP.
 
 Provisioning failed in a CSP not listed above.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -784,7 +789,7 @@ Provisioning failed in a CSP not listed above.
 
 Provisioning failed, but a specific CSP is not indicated.
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -799,7 +804,7 @@ Provisioning failed, but a specific CSP is not indicated.
 
 When attempting to bind the public cert/private key, the public cert was not found either: when attempting to bind the public cert/private key, or when looking into provisioning payload (perhaps targeting the wrong store).
 
-**Windows 8.1:** This constant is not available before Windows 10.
+**Windows 8.1:** This constant is not available before Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -815,9 +820,9 @@ When attempting to bind the public cert/private key, the public cert was not fou
 Provisioning failed in the EnterpriseAppManagement CSP.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -830,12 +835,12 @@ Provisioning failed in the EnterpriseAppManagement CSP.
 
 
 
-Mobile Device Management (MDM) was blocked, possibly by Group Policy or the [**SetManagedExternally**](setmanagedexternally.md) function.
+Mobile Device Management (MDM) was blocked, possibly by Group Policy or the [**SetManagedExternally**](/windows/win32/MDMRegistration/nf-mdmregistration-setmanagedexternally?branch=master) function.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -851,9 +856,9 @@ Mobile Device Management (MDM) was blocked, possibly by Group Policy or the [**S
 Failed to create the private key.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -869,9 +874,9 @@ Failed to create the private key.
 Certificate Authentication was requested, but failed find a certificate to use.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -887,9 +892,9 @@ Certificate Authentication was requested, but failed find a certificate to use.
 The server responded with HTTP 200, but the message was empty.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -905,9 +910,9 @@ The server responded with HTTP 200, but the message was empty.
 The user canceled the operation.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -923,9 +928,9 @@ The user canceled the operation.
 Mobile Device Management (MDM) is not configured.
 
 > [!Note]  
-> This constant is not available before Windows 10, version 1709.
+> This constant is not available before Windows 10, version 1709.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -936,15 +941,15 @@ Mobile Device Management (MDM) is not configured.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                    |
 | Header<br/>                   | <dl> <dt>MDMRegistration.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

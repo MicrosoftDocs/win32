@@ -1,7 +1,12 @@
 ---
-Description: 'A bit mask that specifies which connection types should be included in the search.'
-ms.assetid: '3cc019b8-3dbe-4a06-8c21-f04a7ee33370'
-title: 'System.Devices.Aep.PointOfService.ConnectionTypes'
+Description: A bit mask that specifies which connection types should be included in the search.
+ms.assetid: 3cc019b8-3dbe-4a06-8c21-f04a7ee33370
+title: System.Devices.Aep.PointOfService.ConnectionTypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.PointOfService.ConnectionTypes

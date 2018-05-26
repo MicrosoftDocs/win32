@@ -1,7 +1,12 @@
 ---
-Description: 'Counters are used to provide information as to how well the operating system or an application, service, or driver is performing.'
-ms.assetid: 'd172a131-61d3-4fc1-8e0c-b07b2bd34f80'
+Description: Counters are used to provide information as to how well the operating system or an application, service, or driver is performing.
+ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: About Performance Counters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Performance Counters

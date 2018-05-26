@@ -1,8 +1,9 @@
 ---
 title: MOM\_POSITIONCB message
 description: The MOM\_POSITION message is sent when an MEVT\_F\_CALLBACK event is reached in the MIDI output stream.
-ms.assetid: 'afd2ba4c-ff6a-4e47-a7e8-a0da62650963'
-keywords: ["MOM_POSITIONCB message Windows Multimedia"]
+ms.assetid: afd2ba4c-ff6a-4e47-a7e8-a0da62650963
+keywords:
+- MOM_POSITIONCB message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MOM\_POSITIONCB message
@@ -51,8 +57,8 @@ If position callbacks are being generated more quickly than your application can
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ If position callbacks are being generated more quickly than your application can
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

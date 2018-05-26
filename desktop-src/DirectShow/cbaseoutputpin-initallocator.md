@@ -1,7 +1,12 @@
 ---
-Description: 'The InitAllocator method creates a memory allocator.'
-ms.assetid: 'a1fa0ffb-ed43-446d-811e-6c3594743592'
-title: 'CBaseOutputPin.InitAllocator method'
+Description: The InitAllocator method creates a memory allocator.
+ms.assetid: a1fa0ffb-ed43-446d-811e-6c3594743592
+title: CBaseOutputPin.InitAllocator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.InitAllocator method
@@ -13,7 +18,7 @@ The `InitAllocator` method creates a memory allocator.
 
 ```C++
 virtual HRESULT InitAllocator(
-   IMemAllocator **ppAlloc
+   IMemAllocator **ppAlloc
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT InitAllocator(
 *ppAlloc* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the allocator's [**IMemAllocator**](imemallocator.md) interface.
+Address of a variable that receives a pointer to the allocator's [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ If the input pin does not provide a memory allocator, the [**CBaseOutputPin::Dec
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

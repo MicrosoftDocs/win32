@@ -1,8 +1,9 @@
 ---
 title: MimeOleOpenFileStream function
 description: Do not use. Opens or, if non-existing, creates a file stream with specified read/write properties.
-ms.assetid: 'a30593f4-8f9c-4ff6-8986-e73312528d37'
-keywords: ["MimeOleOpenFileStream function Windows Mail (formerly Outlook Express)"]
+ms.assetid: a30593f4-8f9c-4ff6-8986-e73312528d37
+keywords:
+- MimeOleOpenFileStream function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleOpenFileStream function
@@ -22,10 +28,10 @@ Do not use. Opens or, if non-existing, creates a file stream with specified read
 
 ```C++
 HRESULT MimeOleOpenFileStream(
-  _In_  LPCSTR  pszFilePath,
-  _In_  DWORD   dwCreationDistribution,
-  _In_  DWORD   dwAccess,
-  _Out_ IStream **ppstmFile
+  _In_  LPCSTR  pszFilePath,
+  _In_  DWORD   dwCreationDistribution,
+  _In_  DWORD   dwAccess,
+  _Out_ IStream **ppstmFile
 );
 ```
 
@@ -86,14 +92,14 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > User of this function is responsible for freeing the [IStream](http://msdn.microsoft.com/library/stg/stg/istream.asp) object pointed to by *ppstmFile*.
 
- 
+ 
 
 ## Requirements
 
@@ -101,8 +107,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -110,9 +116,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

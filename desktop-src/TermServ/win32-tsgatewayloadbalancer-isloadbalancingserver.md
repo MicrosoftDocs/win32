@@ -1,14 +1,17 @@
 ---
 title: IsLoadBalancingServer method of the Win32\_TSGatewayLoadBalancer class
-description: Determines whether the Remote Desktop Gateway (RD Gateway) server can perform load balancing.
+description: Determines whether the Remote Desktop Gateway (RD Gateway) server can perform load balancing.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ae1a91c1-0b8b-4bd0-83f9-41c973247f27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ae1a91c1-0b8b-4bd0-83f9-41c973247f27
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsLoadBalancingServer method Remote Desktop Services", "IsLoadBalancingServer method Remote Desktop Services , Win32_TSGatewayLoadBalancer class", "Win32_TSGatewayLoadBalancer class Remote Desktop Services , IsLoadBalancingServer method"]
+keywords:
+- IsLoadBalancingServer method Remote Desktop Services
+- IsLoadBalancingServer method Remote Desktop Services , Win32_TSGatewayLoadBalancer class
+- Win32_TSGatewayLoadBalancer class Remote Desktop Services , IsLoadBalancingServer method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsLoadBalancingServer method of the Win32\_TSGatewayLoadBalancer class
 
-Determines whether the Remote Desktop Gateway (RD Gateway) server can perform load balancing.
+Determines whether the Remote Desktop Gateway (RD Gateway) server can perform load balancing.
 
 ## Syntax
 
 
 ```mof
 uint32 IsLoadBalancingServer(
-  [out] boolean LoadBalancing
+  [out] boolean LoadBalancing
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayLoadBalancer**](win32-tsgatewayloadbalancer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

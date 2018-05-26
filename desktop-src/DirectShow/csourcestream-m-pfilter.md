@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the filter that contains this pin.'
-ms.assetid: '3f085f21-f692-44f0-813d-6889700849db'
-title: 'CSourceStream::m\_pFilter member'
+Description: Pointer to the filter that contains this pin.
+ms.assetid: 3f085f21-f692-44f0-813d-6889700849db
+title: CSourceStreamm\_pFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream::m\_pFilter member
@@ -35,9 +40,9 @@ CSource *m_pFilter;
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

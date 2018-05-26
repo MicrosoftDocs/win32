@@ -1,7 +1,12 @@
 ---
 title: Asynchronous Monikers
 description: Asynchronous Monikers
-ms.assetid: '24c50f7b-f085-4086-aa44-81e5cab011cb'
+ms.assetid: 24c50f7b-f085-4086-aa44-81e5cab011cb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Monikers

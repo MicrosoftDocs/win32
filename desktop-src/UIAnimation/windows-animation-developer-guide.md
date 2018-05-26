@@ -1,8 +1,14 @@
 ---
 title: Windows Animation Development Guide
 description: The developer guide provides an overview of Windows Animation and provides sample code that covers the basic animation tasks.
-ms.assetid: '6d7bc6b8-0f60-408a-85a5-41213dfacdd9'
-keywords: ["Windows Animation Windows Animation ,guide"]
+ms.assetid: 6d7bc6b8-0f60-408a-85a5-41213dfacdd9
+keywords:
+- Windows Animation Windows Animation ,guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Animation Development Guide
@@ -21,7 +27,7 @@ The developer guide provides an overview of Windows Animation and provides sampl
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +42,9 @@ The developer guide provides an overview of Windows Animation and provides sampl
 [Windows Animation Samples](windows-animation-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

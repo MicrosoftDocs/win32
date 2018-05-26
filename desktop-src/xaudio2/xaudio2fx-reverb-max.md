@@ -1,12 +1,17 @@
-﻿---
-Description: 'Maximum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.'
-ms.assetid: '190d582d-651f-3174-19e6-375dc63f0540'
-title: 'XAUDIO2FX\_REVERB\_MAX'
+---
+Description: Maximum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
+ms.assetid: 190d582d-651f-3174-19e6-375dc63f0540
+title: XAUDIO2FX\_REVERB\_MAX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAUDIO2FX\_REVERB\_MAX
 
-Maximum values for use with the [**XAUDIO2FX\_REVERB\_PARAMETERS**](xaudio2fx-reverb-parameters.md) structure.
+Maximum values for use with the [**XAUDIO2FX\_REVERB\_PARAMETERS**](/windows/win32/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters?branch=master) structure.
 
 <dl> <span id="XAUDIO2FX_REVERB_MAX_WET_DRY_MIX"></span><span id="xaudio2fx_reverb_max_wet_dry_mix"></span>**XAUDIO2FX\_REVERB\_MAX\_WET\_DRY\_MIX** (100.0f)  
 <span id="XAUDIO2FX_REVERB_MAX_REFLECTIONS_DELAY"></span><span id="xaudio2fx_reverb_max_reflections_delay"></span>**XAUDIO2FX\_REVERB\_MAX\_REFLECTIONS\_DELAY** (300)  

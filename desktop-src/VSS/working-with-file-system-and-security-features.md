@@ -1,7 +1,12 @@
 ---
-Description: 'The following are hints for interoperating correctly with various file system and security features that were introduced in Windows Vista and Windows Server 2008.'
-ms.assetid: '3e8a1fd2-59e5-4f18-aafc-0ce5ac1e1cfa'
+Description: The following are hints for interoperating correctly with various file system and security features that were introduced in Windows Vista and Windows Server 2008.
+ms.assetid: 3e8a1fd2-59e5-4f18-aafc-0ce5ac1e1cfa
 title: Working with File System and Security Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with File System and Security Features
@@ -10,7 +15,7 @@ The following are hints for interoperating correctly with various file system an
 
 ## Interoperability with Transactions
 
-To support transactions, VSS ensures that both the Kernel Transaction Manager (KTM) and the Distributed Transaction Coordinator (DTC) are frozen prior to the creation of volume shadow copies. If the system fails to freeze or thaw KTM or DTC, the following timeout errors may be returned by the [**IVssBackupComponents::DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md) method:
+To support transactions, VSS ensures that both the Kernel Transaction Manager (KTM) and the Distributed Transaction Coordinator (DTC) are frozen prior to the creation of volume shadow copies. If the system fails to freeze or thaw KTM or DTC, the following timeout errors may be returned by the [**IVssBackupComponents::DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master) method:
 
 <dl> VSS\_E\_TRANSACTION\_FREEZE\_TIMEOUT  
 VSS\_E\_TRANSACTION\_THAW\_TIMEOUT  

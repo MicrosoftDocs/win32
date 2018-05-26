@@ -1,14 +1,20 @@
 ---
 title: Duration element
 description: The length of time taken to run the assessment or do the analysis of the assessment results.
-ms.assetid: '5C6DB972-7A0E-4883-B339-DCCCA5CD47BE'
-keywords: ["Duration element Access Execution Engine"]
+ms.assetid: 5C6DB972-7A0E-4883-B339-DCCCA5CD47BE
+keywords:
+- Duration element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Duration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duration element

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the size of the destination window for video playback.'
-ms.assetid: '46af4c11-042c-4580-ba9d-3aee6172de56'
-title: 'MF\_TOPOLOGY\_PLAYBACK\_MAX\_DIMS attribute'
+---
+Description: Specifies the size of the destination window for video playback.
+ms.assetid: 46af4c11-042c-4580-ba9d-3aee6172de56
+title: MF\_TOPOLOGY\_PLAYBACK\_MAX\_DIMS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_PLAYBACK\_MAX\_DIMS attribute
@@ -14,13 +19,13 @@ Specifies the size of the destination window for video playback.
 
 ## Get/set
 
-To get this attribute, call [**MFGetAttributeSize**](mfgetattributesize.md).
+To get this attribute, call [**MFGetAttributeSize**](/windows/win32/mfapi/nf-mfapi-mfgetattributesize?branch=master).
 
-To set this attribute, call [**MFSetAttributeSize**](mfsetattributesize.md).
+To set this attribute, call [**MFSetAttributeSize**](/windows/win32/mfapi/nf-mfapi-mfsetattributesize?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 

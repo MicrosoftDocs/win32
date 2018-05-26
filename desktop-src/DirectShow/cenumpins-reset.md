@@ -1,12 +1,17 @@
 ---
-Description: 'The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumPins::Reset method.'
-ms.assetid: 'b2e86304-bb14-495b-a922-8868b3898d85'
-title: 'CEnumPins.Reset method'
+Description: The Reset method resets the enumeration sequence to the beginning. This method implements the IEnumPinsReset method.
+ms.assetid: b2e86304-bb14-495b-a922-8868b3898d85
+title: CEnumPins.Reset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins.Reset method
 
-The `Reset` method resets the enumeration sequence to the beginning. This method implements the [**IEnumPins::Reset**](ienumpins-reset.md) method.
+The `Reset` method resets the enumeration sequence to the beginning. This method implements the [**IEnumPins::Reset**](/windows/win32/Strmif/nf-strmif-ienumpins-reset?branch=master) method.
 
 ## Syntax
 
@@ -43,9 +48,9 @@ Returns S\_OK.
 [**CEnumPins Class**](cenumpins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

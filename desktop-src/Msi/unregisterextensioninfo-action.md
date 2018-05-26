@@ -1,7 +1,12 @@
 ---
-Description: 'The UnregisterExtensionInfo action manages the removal of extension-related information from the system registry.'
-ms.assetid: '62bb9d17-c221-4bd2-bd7f-9930e28bb946'
+Description: The UnregisterExtensionInfo action manages the removal of extension-related information from the system registry.
+ms.assetid: 62bb9d17-c221-4bd2-bd7f-9930e28bb946
 title: UnregisterExtensionInfo Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnregisterExtensionInfo Action

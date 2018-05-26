@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_SettingCheck class specifies information needed to check a particular setting file for a specific entry that contains a value equal to the value specified. All comparisons are assumed to be case insensitive.'
+Description: The CIM\_SettingCheck class specifies information needed to check a particular setting file for a specific entry that contains a value equal to the value specified. All comparisons are assumed to be case insensitive.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e40276c-e794-4ea1-8937-c6d7f110f97d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e40276c-e794-4ea1-8937-c6d7f110f97d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SettingCheck class'
+title: CIM\_SettingCheck class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SettingCheck class
@@ -19,7 +22,7 @@ The **CIM\_SettingCheck** class specifies information needed to check a particul
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,20 +32,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{DC1D8140-DB30-11d2-85FC-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_SettingCheck : CIM_Check
 {
-  string  Caption;
-  string  CheckID;
+  string  Caption;
+  string  CheckID;
   boolean CheckMode;
-  uint16  CheckType;
-  string  Description;
-  string  EntryName;
-  string  EntryValue;
-  string  FileName;
-  string  Name;
-  string  SectionKey;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  uint16  CheckType;
+  string  Description;
+  string  EntryName;
+  string  EntryValue;
+  string  FileName;
+  string  Name;
+  string  SectionKey;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint16  TargetOperatingSystem;
+  string  Version;
 };
 ```
 
@@ -65,7 +68,7 @@ The **CIM\_SettingCheck** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -886,8 +889,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -901,9 +904,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Check**](cim-check.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

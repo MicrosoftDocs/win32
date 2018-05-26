@@ -2,13 +2,19 @@
 title: /lcid switch
 description: The /lcid MIDL compiler option lets you use international characters in your input files, file names, and directory paths.
 ms.assetid: 2ab4ba67-4414-4889-8ed7-83f4888caf8b
-keywords: ["/lcid switch MIDL"]
+keywords:
+- /lcid switch MIDL
 topic_type:
 - apiref
 api_name:
 - /lcid
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /lcid switch

@@ -1,7 +1,12 @@
 ---
 Description: Input Method Manager Reference
-ms.assetid: '28e0c84e-febd-454b-bd9c-b6446d2b001a'
+ms.assetid: 28e0c84e-febd-454b-bd9c-b6446d2b001a
 title: Input Method Manager Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Method Manager Reference

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provider-specific dialog box functions enable a provider to display and handle network-specific information by altering system dialog boxes or displaying custom dialog boxes.'
-ms.assetid: 'c9a52867-0a0b-40d8-a09d-2b7bed517e13'
-title: 'Provider-Specific Dialog Box Functions'
+---
+Description: Provider-specific dialog box functions enable a provider to display and handle network-specific information by altering system dialog boxes or displaying custom dialog boxes.
+ms.assetid: c9a52867-0a0b-40d8-a09d-2b7bed517e13
+title: Provider-Specific Dialog Box Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provider-Specific Dialog Box Functions
@@ -14,10 +19,10 @@ The following dialog box functions add buttons to the File Manager **Properties*
 
 | Function                                           | Description                                                                                                                             |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**NPGetPropertyText**](npgetpropertytext.md)     | Determines the names of buttons added to a property dialog box for a specific resource.<br/>                                      |
-| [**NPPropertyDialog**](nppropertydialog.md)       | Called when a user clicks a button added by using the [**NPGetPropertyText**](npgetpropertytext.md) function.<br/>               |
-| [**NPSearchDialog**](npsearchdialog.md)           | Enables network providers to implement their own search functionality beyond that provided in the **Connection** dialog box.<br/> |
-| [**NPFormatNetworkName**](npformatnetworkname.md) | Enables network providers to format or otherwise modify network names before they are presented to the user.<br/>                 |
+| [**NPGetPropertyText**](/windows/win32/Npapi/nf-npapi-npgetpropertytext?branch=master)     | Determines the names of buttons added to a property dialog box for a specific resource.<br/>                                      |
+| [**NPPropertyDialog**](/windows/win32/Npapi/nf-npapi-nppropertydialog?branch=master)       | Called when a user clicks a button added by using the [**NPGetPropertyText**](/windows/win32/Npapi/nf-npapi-npgetpropertytext?branch=master) function.<br/>               |
+| [**NPSearchDialog**](/windows/win32/Npapi/nf-npapi-npsearchdialog?branch=master)           | Enables network providers to implement their own search functionality beyond that provided in the **Connection** dialog box.<br/> |
+| [**NPFormatNetworkName**](/windows/win32/Npapi/nf-npapi-npformatnetworkname?branch=master) | Enables network providers to format or otherwise modify network names before they are presented to the user.<br/>                 |
 
 
 

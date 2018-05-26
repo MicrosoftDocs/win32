@@ -1,8 +1,11 @@
 ---
 title: TaskFolder.DeleteFolder method
 description: For scripting, deletes a subfolder from the parent folder.
-ms.assetid: '7758afc5-73d8-456c-98a9-89e4b7ad42b9'
-keywords: ["DeleteFolder method Task Scheduler", "DeleteFolder method Task Scheduler , TaskFolder object", "TaskFolder object Task Scheduler , DeleteFolder method"]
+ms.assetid: 7758afc5-73d8-456c-98a9-89e4b7ad42b9
+keywords:
+- DeleteFolder method Task Scheduler
+- DeleteFolder method Task Scheduler , TaskFolder object
+- TaskFolder object Task Scheduler , DeleteFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskFolder.DeleteFolder method
@@ -57,8 +65,8 @@ This method does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -74,9 +82,9 @@ This method does not return a value.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

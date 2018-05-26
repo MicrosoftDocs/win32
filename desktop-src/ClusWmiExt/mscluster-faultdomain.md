@@ -4,13 +4,15 @@ description: Describes a node in the fault domain hierarchy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43f5d4e2-0f14-4c72-b83f-a718ccecdf86'
-ms.prod: 'windows-server-dev'
+ms.assetid: 43f5d4e2-0f14-4c72-b83f-a718ccecdf86
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_FaultDomain class", "MSCluster_FaultDomain class, described"]
+keywords:
+- MSCluster_FaultDomain class
+- MSCluster_FaultDomain class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_FaultDomain class
@@ -72,7 +77,7 @@ The **MSCluster\_FaultDomain** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -199,16 +204,16 @@ The type of the current fault domain.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

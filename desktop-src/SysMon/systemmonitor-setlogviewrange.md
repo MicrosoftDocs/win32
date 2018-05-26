@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.SetLogViewRange method
 description: Sets the starting date used to retrieve counter values from the log files.
-ms.assetid: 'ced641d0-cf71-4826-8ff0-c05f20a71aaa'
-keywords: ["SetLogViewRange method SysMon", "SetLogViewRange method SysMon , SystemMonitor object", "SystemMonitor object SysMon , SetLogViewRange method"]
+ms.assetid: ced641d0-cf71-4826-8ff0-c05f20a71aaa
+keywords:
+- SetLogViewRange method SysMon
+- SetLogViewRange method SysMon , SystemMonitor object
+- SystemMonitor object SysMon , SetLogViewRange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.SetLogViewRange method
@@ -67,8 +75,8 @@ If you specify a start and stop date, you should specify the dates before settin
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -83,9 +91,9 @@ If you specify a start and stop date, you should specify the dates before settin
 [**SystemMonitor.GetLogViewRange**](systemmonitor-getlogviewrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

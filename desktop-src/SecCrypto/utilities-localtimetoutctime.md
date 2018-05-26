@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts the computer''s local time to Coordinated Universal Time (Greenwich Mean Time).'
-ms.assetid: 'ff5d40ba-7d94-4f11-9c18-e41752d1d7b9'
-title: 'Utilities.LocalTimeToUTCTime method'
+---
+Description: Converts the computers local time to Coordinated Universal Time (Greenwich Mean Time).
+ms.assetid: ff5d40ba-7d94-4f11-9c18-e41752d1d7b9
+title: Utilities.LocalTimeToUTCTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Utilities.LocalTimeToUTCTime method

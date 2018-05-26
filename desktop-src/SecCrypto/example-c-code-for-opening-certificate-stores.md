@@ -1,7 +1,12 @@
 ---
-Description: 'The following examples provide code to open a variety of common certificate stores. These examples are a series of code fragments and are not stand-alone programs.'
-ms.assetid: '975a56d1-aa45-470e-b385-753baa1911ff'
+Description: The following examples provide code to open a variety of common certificate stores. These examples are a series of code fragments and are not stand-alone programs.
+ms.assetid: 975a56d1-aa45-470e-b385-753baa1911ff
 title: Example C Code for Opening Certificate Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Code for Opening Certificate Stores

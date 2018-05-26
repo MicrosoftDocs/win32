@@ -1,8 +1,9 @@
 ---
 title: WM\_COPYDATA message
 description: An application sends the WM\_COPYDATA message to pass data to another application.
-ms.assetid: 'd937a260-9fd2-4450-a762-20120f589ab1'
-keywords: ["WM_COPYDATA message Data Exchange"]
+ms.assetid: d937a260-9fd2-4450-a762-20120f589ab1
+keywords:
+- WM_COPYDATA message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_COPYDATA message
@@ -38,7 +44,7 @@ A handle to the window passing the data.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**COPYDATASTRUCT**](copydatastruct.md) structure that contains the data to be passed.
+A pointer to a [**COPYDATASTRUCT**](/windows/win32/Winuser/ns-winuser-tagcopydatastruct?branch=master) structure that contains the data to be passed.
 
 </dd> </dl>
 
@@ -64,8 +70,8 @@ For an example, see [Using Data Copy](using-data-copy.md).
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,12 +86,12 @@ For an example, see [Using Data Copy](using-data-copy.md).
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**COPYDATASTRUCT**](copydatastruct.md)
+[**COPYDATASTRUCT**](/windows/win32/Winuser/ns-winuser-tagcopydatastruct?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

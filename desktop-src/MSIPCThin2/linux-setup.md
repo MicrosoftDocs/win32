@@ -4,10 +4,13 @@ description: Several flavors of Linux operating systems can now make use of the 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A348541C-17E0-4024-BF97-84B0099B0E69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A348541C-17E0-4024-BF97-84B0099B0E69
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Linux setup

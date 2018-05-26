@@ -1,8 +1,11 @@
 ---
 title: Iteration GetTrace method
 description: Returns the Trace object of the Iteration.
-ms.assetid: '7D132651-0F80-4351-B6E1-06B37C66E7E3'
-keywords: ["GetTrace method Access Execution Engine", "GetTrace method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , GetTrace method"]
+ms.assetid: 7D132651-0F80-4351-B6E1-06B37C66E7E3
+keywords:
+- GetTrace method Access Execution Engine
+- GetTrace method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , GetTrace method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::GetTrace method
@@ -22,7 +30,7 @@ Returns the [**Trace**](trace-struct.md) object of the **Iteration**.
 
 ```C++
 virtual HRESULT GetTrace(
-  [out] Trace **trace
+  [out] Trace **trace
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The **Trace** object holds information from element **Iteration/Trace**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **Trace** object holds information from element **Iteration/Trace**.
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

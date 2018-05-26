@@ -1,8 +1,14 @@
 ---
 title: ProxyStubClsid32
 description: Maps an IID to a CLSID in 32-bit proxy DLLs.
-ms.assetid: '8d63d2b1-c8ba-4fe8-8025-e7ceee422ee7'
-keywords: ["ProxyStubClsid32 registry value COM"]
+ms.assetid: 8d63d2b1-c8ba-4fe8-8025-e7ceee422ee7
+keywords:
+- ProxyStubClsid32 registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProxyStubClsid32
@@ -29,7 +35,7 @@ If you add interfaces, you must use this entry to register them (32-bit systems)
 
 <dl> <dt>
 
-[**IMarshal**](imarshal.md)
+[**IMarshal**](/windows/win32/objidlbase/nn-objidl-imarshal?branch=master)
 </dt> <dt>
 
 [**Interface**](interface-key.md)

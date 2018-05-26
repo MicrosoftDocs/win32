@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork BytesDropped property
 description: The BytesDropped property contains the current number of bytes dropped per second by this virtual network.
-ms.assetid: '725adae4-50d7-4698-978d-a7c317d2e167'
-keywords: ["BytesDropped property Virtual Server", "BytesDropped property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , BytesDropped property", "BytesDropped property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , BytesDropped property"]
+ms.assetid: 725adae4-50d7-4698-978d-a7c317d2e167
+keywords:
+- BytesDropped property Virtual Server
+- BytesDropped property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , BytesDropped property
+- BytesDropped property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , BytesDropped property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::BytesDropped property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_BytesDropped(
-  [out] long *bytesDropped
+  [out] long *bytesDropped
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a collection of virtual systems.'
-ms.assetid: 'acf51beb-1103-43a4-8dc5-1a7f2a0482be'
-title: 'Msvm\_VirtualSystemCollection class'
+Description: Represents a collection of virtual systems.
+ms.assetid: acf51beb-1103-43a4-8dc5-1a7f2a0482be
+title: Msvm\_VirtualSystemCollection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemCollection class
@@ -16,14 +21,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 {
-  string   CollectionID;
-  string   ElementName;
-  uint16   LastApplyConsistencyLevel;
-  String   LastApplyVirtualMachineIds[];
+  string   CollectionID;
+  string   ElementName;
+  uint16   LastApplyConsistencyLevel;
+  String   LastApplyVirtualMachineIds[];
   DateTime LastApplyTime;
-  uint16   FailedOverReplicationType;
-  uint16   ReplicationMode;
-  uint16   ReplicationState;
+  uint16   FailedOverReplicationType;
+  uint16   ReplicationMode;
+  uint16   ReplicationState;
 };
 ```
 
@@ -83,9 +88,9 @@ Access type: Read-only
 Type of failover that was performed for the virtual system collection.
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 <dt>
 
@@ -124,9 +129,9 @@ Access type: Read-only
 Consistency level of the last applied delta.
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 <dt>
 
@@ -184,9 +189,9 @@ Access type: Read-only
 The time at which the last replication is applied on recovery for the virtual system collection.
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -202,9 +207,9 @@ Access type: Read-only
 Array of Virtual Machine Ids which were successfully applied in last apply cycle.
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -220,9 +225,9 @@ Access type: Read-only
 Replication type for the virtual system collection.
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 <dt>
 
@@ -268,9 +273,9 @@ Access type: Read-only
 Replication state for the virtual system collection.
 
 > [!Note]  
-> Added in Windows 10, version 1703.
+> Added in Windows 10, version 1703.
 
- 
+ 
 
 <dt>
 
@@ -401,8 +406,8 @@ Replication state for the virtual system collection.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -416,9 +421,9 @@ Replication state for the virtual system collection.
 [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

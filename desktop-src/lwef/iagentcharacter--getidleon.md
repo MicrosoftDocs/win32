@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetIdleOn
 description: IAgentCharacter GetIdleOn
-ms.assetid: 'e5371326-33d0-4ecc-bda7-28f36f46ddeb'
+ms.assetid: e5371326-33d0-4ecc-bda7-28f36f46ddeb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetIdleOn

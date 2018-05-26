@@ -1,13 +1,16 @@
 ---
-Description: 'Describes the local installation of WMI.'
+Description: Describes the local installation of WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '907b65b2-a853-40f4-8b36-5a05a2b1cf85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 907b65b2-a853-40f4-8b36-5a05a2b1cf85
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_CIMOMIdentification class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_CIMOMIdentification class
@@ -157,8 +160,8 @@ else
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | Root<br/>                |
 
 
@@ -173,9 +176,9 @@ else
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Media.sourceURL
 description: The sourceURL property retrieves the URL of the media item.
-ms.assetid: '98ff6ed4-ad3d-44f8-893d-f016e5217ce5'
-keywords: ["Media.sourceURL Windows Media Player"]
+ms.assetid: 98ff6ed4-ad3d-44f8-893d-f016e5217ce5
+keywords:
+- Media.sourceURL Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.sourceURL
@@ -65,9 +71,9 @@ Player.controls.play();
 [**Media Object**](media-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

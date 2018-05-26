@@ -1,14 +1,20 @@
 ---
 title: EnableQuarantineChecks (EapType) Element
 description: Indicates whether to perform Network Access Protection (NAP) checks.
-ms.assetid: 'bd5c7efc-f857-4e21-9cd8-0a1cbe5a87d8'
-keywords: ["EnableQuarantineChecks element EAPHost"]
+ms.assetid: bd5c7efc-f857-4e21-9cd8-0a1cbe5a87d8
+keywords:
+- EnableQuarantineChecks element EAPHost
 topic_type:
 - apiref
 api_name:
 - EnableQuarantineChecks
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableQuarantineChecks (EapType) Element
@@ -33,8 +39,8 @@ If the **EnableQuarantineChecks** element is TRUE, then PEAP will perform NAP ch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ If the **EnableQuarantineChecks** element is TRUE, then PEAP will perform NAP ch
 [mspeapconnectionpropertiesv1 Schema Elements](mspeapconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

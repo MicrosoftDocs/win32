@@ -1,14 +1,20 @@
 ---
 title: asin
 description: Returns the arcsine of the specified value.
-ms.assetid: '49559cb2-3305-4c97-8071-1589bcca3a75'
-keywords: ["asin HLSL"]
+ms.assetid: 49559cb2-3305-4c97-8071-1589bcca3a75
+keywords:
+- asin HLSL
 topic_type:
 - apiref
 api_name:
 - asin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # asin
@@ -22,7 +28,7 @@ Returns the arcsine of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the arcsine of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ Each component of the *x* parameter should be within the range of -?/2 to ?/2.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

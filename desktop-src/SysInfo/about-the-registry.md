@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe the registry and the functions you can call to retrieve and modify the data stored there.'
-ms.assetid: '7927862d-2e32-4b56-825d-78a35f520f0d'
+Description: The following topics describe the registry and the functions you can call to retrieve and modify the data stored there.
+ms.assetid: 7927862d-2e32-4b56-825d-78a35f520f0d
 title: About the Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Registry

@@ -1,25 +1,30 @@
 ---
 title: NT-Security-Descriptor attribute
-description: The Windows NT security descriptor for the schema object. A security descriptor is a data structure that contains security information about an object, such as the ownership and permissions of the object.
+description: The Windows NT security descriptor for the schema object. A security descriptor is a data structure that contains security information about an object, such as the ownership and permissions of the object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3a17b584-97ea-441c-846e-3031aea171b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3a17b584-97ea-441c-846e-3031aea171b2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["NT-Security-Descriptor attribute AD Schema", "nTSecurityDescriptor attribute AD Schema"]
+keywords:
+- NT-Security-Descriptor attribute AD Schema
+- nTSecurityDescriptor attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - NT-Security-Descriptor
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NT-Security-Descriptor attribute
 
-The Windows NT security descriptor for the schema object. A security descriptor is a data structure that contains security information about an object, such as the ownership and permissions of the object.
+The Windows NT security descriptor for the schema object. A security descriptor is a data structure that contains security information about an object, such as the ownership and permissions of the object.
 
 For information about the format this value, see [Security Descriptor String Format (Windows)](https://msdn.microsoft.com/library(d=robot)/aa379570(d=robot,l=en-us,v=vs.85).aspx).
 
@@ -40,13 +45,13 @@ For information about the format this value, see [Security Descriptor String For
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -195,9 +200,9 @@ For information about the format this value, see [Security Descriptor String For
 
 
 
- 
+ 
 
- 
+ 
 
 
 

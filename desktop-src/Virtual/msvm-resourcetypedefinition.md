@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ResourceTypeDefinition class
 description: Defines a mapping of a resource type to its implementation classes.
-ms.assetid: '09da2ccb-86f9-4766-a784-82da4673668d'
-keywords: ["Msvm_ResourceTypeDefinition class Hyper-V", "Msvm_ResourceTypeDefinition class Hyper-V , described"]
+ms.assetid: 09da2ccb-86f9-4766-a784-82da4673668d
+keywords:
+- Msvm_ResourceTypeDefinition class Hyper-V
+- Msvm_ResourceTypeDefinition class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourceTypeDefinition class
@@ -198,10 +205,10 @@ The type of resource this allocation setting represents. There is a corresponden
 <span id="Cooling_Device"></span><span id="cooling_device"></span><span id="COOLING_DEVICE"></span>**Cooling Device** (29)
 </dt> <dt>
 
-<span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (30–32767)
+<span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (30 32767)
 </dt> <dt>
 
-<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768–65535)
+<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 </dd> <dt>
@@ -230,9 +237,9 @@ Access to the **Msvm\_ResourceTypeDefinition** class might be restricted by UAC 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -245,9 +252,9 @@ Access to the **Msvm\_ResourceTypeDefinition** class might be restricted by UAC 
 [Profile Registration Classes](profile-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

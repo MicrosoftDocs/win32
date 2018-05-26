@@ -1,8 +1,18 @@
 ---
 title: Porting Texture Functions
 description: Porting Texture Functions
-ms.assetid: '03e0b0fc-3812-4744-a0f1-3dcb466d679d'
-keywords: ["IRIS GL porting,texture", "porting from IRIS GL,texture", "porting to OpenGL from IRIS GL,texture", "OpenGL porting from IRIS GL,texture", "texture"]
+ms.assetid: 03e0b0fc-3812-4744-a0f1-3dcb466d679d
+keywords:
+- IRIS GL porting,texture
+- porting from IRIS GL,texture
+- porting to OpenGL from IRIS GL,texture
+- OpenGL porting from IRIS GL,texture
+- texture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Texture Functions
@@ -36,7 +46,7 @@ The following table lists IRIS GL texture functions and their general OpenGL equ
 
 
 
- 
+ 
 
 For more information on texturing, see the *OpenGL Programming Guide*.
 
@@ -46,9 +56,9 @@ This topic includes information on the following.
 -   [Translating texdef](translating-texdef.md)
 -   [Translating texgen](translating-texgen.md)
 
- 
+ 
 
- 
+ 
 
 
 

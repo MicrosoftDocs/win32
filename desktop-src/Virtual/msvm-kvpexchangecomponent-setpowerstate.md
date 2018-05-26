@@ -1,8 +1,11 @@
 ---
 title: SetPowerState method of the Msvm\_KvpExchangeComponent class
 description: This method is deprecated. Instead, use the SetPowerState property of the CIM\_PowerManagementService class.
-ms.assetid: '6566b811-9898-4f1b-ac91-74ad9d676125'
-keywords: ["SetPowerState method Hyper-V", "SetPowerState method Hyper-V , Msvm_KvpExchangeComponent class", "Msvm_KvpExchangeComponent class Hyper-V , SetPowerState method"]
+ms.assetid: 6566b811-9898-4f1b-ac91-74ad9d676125
+keywords:
+- SetPowerState method Hyper-V
+- SetPowerState method Hyper-V , Msvm_KvpExchangeComponent class
+- Msvm_KvpExchangeComponent class Hyper-V , SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPowerState method of the Msvm\_KvpExchangeComponent class
@@ -24,8 +32,8 @@ This method is deprecated. Instead, use the **SetPowerState** property of the **
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -145,9 +153,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_KvpExchangeComponent**](msvm-kvpexchangecomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

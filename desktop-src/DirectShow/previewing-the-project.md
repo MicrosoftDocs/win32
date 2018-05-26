@@ -1,7 +1,12 @@
 ---
 Description: Previewing the Project
-ms.assetid: '00d72a39-f848-47ea-8460-8b826684eeea'
+ms.assetid: 00d72a39-f848-47ea-8460-8b826684eeea
 title: Previewing the Project
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previewing the Project
@@ -41,7 +46,7 @@ hr = pRender->GetFilterGraph(&amp;pGraph);
 
 
 
-Query the filter graph for the [**IMediaControl**](imediacontrol.md) and [**IMediaEvent**](imediaevent.md) interfaces. Use these two interfaces to run the graph and wait for playback to complete. For an explanation of how to use these interfaces, see [How To Play a File](how-to-play-a-file.md) and [Responding to Events](responding-to-events.md). The following code shows one way to use these interfaces.
+Query the filter graph for the [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) and [**IMediaEvent**](/windows/win32/Control/nn-control-imediaevent?branch=master) interfaces. Use these two interfaces to run the graph and wait for playback to complete. For an explanation of how to use these interfaces, see [How To Play a File](how-to-play-a-file.md) and [Responding to Events](responding-to-events.md). The following code shows one way to use these interfaces.
 
 
 ```C++
@@ -57,7 +62,7 @@ pControl->Stop();
 
 
 
-The code in this example blocks program execution until playback completes, because of the INFINITE parameter in the [**IMediaEvent::WaitForCompletion**](imediaevent-waitforcompletion.md) method call. If something goes wrong during playback, however, it could cause the program to stop responding. In a real application, use a message loop to wait for playback to complete. It's also recommended that you provide the user with a way to interrupt playback.
+The code in this example blocks program execution until playback completes, because of the INFINITE parameter in the [**IMediaEvent::WaitForCompletion**](/windows/win32/Control/nf-control-imediaevent-waitforcompletion?branch=master) method call. If something goes wrong during playback, however, it could cause the program to stop responding. In a real application, use a message loop to wait for playback to complete. It's also recommended that you provide the user with a way to interrupt playback.
 
 When you finish using the render engine, always call the [**IRenderEngine::ScrapIt**](irenderengine-scrapit.md) method. This method deletes the filter graph and releases any resources held by the render engine.
 

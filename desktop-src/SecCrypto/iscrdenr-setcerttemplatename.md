@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the name of the certificate template.'
-ms.assetid: '15d22130-e614-4505-94e8-83c2efbf6d87'
-title: 'ISCrdEnr::setCertTemplateName method'
+---
+Description: Specifies the name of the certificate template.
+ms.assetid: 15d22130-e614-4505-94e8-83c2efbf6d87
+title: ISCrdEnrsetCertTemplateName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::setCertTemplateName method

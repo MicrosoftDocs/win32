@@ -1,7 +1,12 @@
-﻿---
-Description: 'The COLORPROFILETYPE enumeration is used to specify the type of color profile.'
-ms.assetid: '756ba822-ace2-4893-a989-9d355434e57c'
+---
+Description: The COLORPROFILETYPE enumeration is used to specify the type of color profile.
+ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 title: COLORPROFILETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORPROFILETYPE enumeration

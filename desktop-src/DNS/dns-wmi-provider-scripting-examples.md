@@ -1,8 +1,14 @@
 ---
 title: DNS WMI Provider Scripting Examples
 description: This section provides scripting examples that demonstrate how to script administrative tasks using the DNS WMI Provider.
-ms.assetid: '55485b95-7092-468a-b090-9f880ce61a89'
-keywords: ["Domain Name System, examples"]
+ms.assetid: 55485b95-7092-468a-b090-9f880ce61a89
+keywords:
+- Domain Name System, examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS WMI Provider Scripting Examples

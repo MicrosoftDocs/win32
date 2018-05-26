@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GROUP ON...'
-ms.assetid: '37f027c1-c2af-4d62-8b5f-918499fc2d7c'
-title: 'GROUP ON ... OVER ... Statement'
+---
+Description: The GROUP ON...
+ms.assetid: 37f027c1-c2af-4d62-8b5f-918499fc2d7c
+title: GROUP ON ... OVER ... Statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GROUP ON ... OVER ... Statement

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIID method retrieves the interface identifier (IID) of the interface on which the method will be run.'
-ms.assetid: 'd6eb7d46-294a-4169-96d3-4bed02c48c08'
-title: 'CDeferredCommand.GetIID method'
+Description: The GetIID method retrieves the interface identifier (IID) of the interface on which the method will be run.
+ms.assetid: d6eb7d46-294a-4169-96d3-4bed02c48c08
+title: CDeferredCommand.GetIID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.GetIID method
@@ -43,9 +48,9 @@ Returns the IID of the interface on which the method will be run.
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

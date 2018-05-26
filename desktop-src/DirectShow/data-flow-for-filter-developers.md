@@ -1,12 +1,17 @@
 ---
 Description: Data Flow for Filter Developers
-ms.assetid: 'cc7378c8-e268-4caa-98eb-6dc9c3b5bcad'
+ms.assetid: cc7378c8-e268-4caa-98eb-6dc9c3b5bcad
 title: Data Flow for Filter Developers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Flow for Filter Developers
 
-This section describes in detail how data moves through the filter graph. It focuses on local memory transport using the [**IMemInputPin**](imeminputpin.md) or [**IAsyncReader**](iasyncreader.md) interface. It is intended for developers who are writing their own custom filters. For a general introduction to how Microsoft DirectShow handles data flow, see [Data Flow in the Filter Graph](data-flow-in-the-filter-graph.md).
+This section describes in detail how data moves through the filter graph. It focuses on local memory transport using the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) or [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface. It is intended for developers who are writing their own custom filters. For a general introduction to how Microsoft DirectShow handles data flow, see [Data Flow in the Filter Graph](data-flow-in-the-filter-graph.md).
 
 A lot of data moves through a filter graph. It falls roughly into two categories: media data and control data. In general, media data travels downstream and control data travels upstream. Media data includes the video frames, audio samples, MPEG packets, and so forth that make up a stream, but also includes flush commands, end-of-stream notifications, and other data that travels with the stream. Control data is not part of the media stream. Examples of control data are quality-control requests and seek commands.
 

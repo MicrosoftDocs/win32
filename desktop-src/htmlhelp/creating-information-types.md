@@ -1,7 +1,12 @@
 ---
 title: Creating Information Types
 description: You can assign information types to entries in the table of contents based on which users you want topics to reach. Be sure to plan ahead because information types are difficult to remove once you add them to a help project.
-ms.assetid: 'BCA23A9B-3163-4fbd-898B-990CF1565167'
+ms.assetid: BCA23A9B-3163-4fbd-898B-990CF1565167
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Information Types

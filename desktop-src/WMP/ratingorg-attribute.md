@@ -1,14 +1,20 @@
 ---
 title: RatingOrg Attribute
 description: The RatingOrg attribute is the name of the provider of the rating value.
-ms.assetid: '166ffd00-e814-49fd-83d9-b6e931259b41'
-keywords: ["RatingOrg Attribute Windows Media Player"]
+ms.assetid: 166ffd00-e814-49fd-83d9-b6e931259b41
+keywords:
+- RatingOrg Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RatingOrg
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RatingOrg Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

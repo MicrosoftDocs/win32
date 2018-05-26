@@ -1,12 +1,17 @@
 ---
-Description: 'Example code that shows how to add a new user to an existing encrypted file by using the AddUsersToEncryptedFile function.'
-ms.assetid: '39260882-dc02-4f08-9d9b-f170c1e391df'
+Description: Example code that shows how to add a new user to an existing encrypted file by using the AddUsersToEncryptedFile function.
+ms.assetid: 39260882-dc02-4f08-9d9b-f170c1e391df
 title: Adding Users to an Encrypted File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Users to an Encrypted File
 
-The code sample in this topic adds a new user to an existing encrypted file by using the [**AddUsersToEncryptedFile**](adduserstoencryptedfile.md) function. It requires the user's Encrypting File System (EFS) certificate (from the Active Directory) to exist in the Trusted People user certificate store.
+The code sample in this topic adds a new user to an existing encrypted file by using the [**AddUsersToEncryptedFile**](/windows/win32/Winefs/nf-winefs-adduserstoencryptedfile?branch=master) function. It requires the user's Encrypting File System (EFS) certificate (from the Active Directory) to exist in the Trusted People user certificate store.
 
 This sample adds a new Data Recovery Field to the encrypted file. As a result, the newly added user can decrypt the encrypted file. The caller must already have access to the encrypted file, either as the original owner, the data recovery agent, or as a user who was previously added to the encrypted file.
 

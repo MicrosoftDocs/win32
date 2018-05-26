@@ -1,14 +1,20 @@
 ---
 title: InterlockedMin function
 description: Performs a guaranteed atomic min.
-ms.assetid: 'a6d3d81c-45d7-4e15-b8ec-fa2e30f854ce'
-keywords: ["InterlockedMin function HLSL"]
+ms.assetid: a6d3d81c-45d7-4e15-b8ec-fa2e30f854ce
+keywords:
+- InterlockedMin function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedMin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedMin function

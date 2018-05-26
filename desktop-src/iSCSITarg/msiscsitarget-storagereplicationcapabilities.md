@@ -4,13 +4,15 @@ description: Defines the replication capabilities of an associated instance of t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '37c01200-f36f-4679-94fb-48913685e1fe'
-ms.prod: 'windows-server-dev'
+ms.assetid: 37c01200-f36f-4679-94fb-48913685e1fe
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageReplicationCapabilities class iSCSI Software Target API", "MSISCSITARGET_StorageReplicationCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageReplicationCapabilities class iSCSI Software Target API
+- MSISCSITARGET_StorageReplicationCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -57,6 +59,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageReplicationCapabilities class
@@ -71,18 +76,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Static, Version("1.0.0")]
 class MSISCSITARGET_StorageReplicationCapabilities : CIM_StorageReplicationCapabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  SupportedSynchronizationType;
-  uint16  SupportedAsynchronousActions[];
-  uint16  SupportedSynchronousActions[];
-  uint16  InitialReplicationState;
-  uint16  SupportedSpecializedElements[];
-  uint16  SupportedModifyOperations[];
-  uint16  ReplicaHostAccessibility;
-  uint16  HostAccessibleState[];
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  SupportedSynchronizationType;
+  uint16  SupportedAsynchronousActions[];
+  uint16  SupportedSynchronousActions[];
+  uint16  InitialReplicationState;
+  uint16  SupportedSpecializedElements[];
+  uint16  SupportedModifyOperations[];
+  uint16  ReplicaHostAccessibility;
+  uint16  HostAccessibleState[];
   boolean SpaceLimitSupported;
   boolean SpaceReservationSupported;
   boolean LocalMirrorSnapshotSupported;
@@ -90,25 +95,25 @@ class MSISCSITARGET_StorageReplicationCapabilities : CIM_StorageReplicationCapab
   boolean IncrementalDeltasSupported;
   boolean PersistentReplicasSupported;
   boolean BidirectionalConnectionsSupported;
-  uint16  MaximumReplicasPerSource;
-  uint16  MaximumPortsPerConnection;
-  uint16  MaximumConnectionsPerPort;
-  uint16  MaximumPeerConnections;
-  uint16  MaximumLocalReplicationDepth = 1;
-  uint16  MaximumRemoteReplicationDepth = 1;
-  uint16  InitialSynchronizationDefault;
-  uint16  ReplicationPriorityDefault;
-  uint8   LowSpaceWarningThresholdDefault;
-  uint8   SpaceLimitWarningThresholdDefault;
-  uint16  RemoteReplicationServicePointAccess;
-  uint16  AlternateReplicationServicePointAccess;
-  uint16  DeltaReplicaPoolAccess;
-  uint16  RemoteBufferElementType;
-  uint16  RemoteBufferHost;
-  uint16  RemoteBufferLocation;
-  uint16  RemoteBufferSupported;
-  uint16  UseReplicationBufferDefault;
-  string  PeerConnectionProtocol;
+  uint16  MaximumReplicasPerSource;
+  uint16  MaximumPortsPerConnection;
+  uint16  MaximumConnectionsPerPort;
+  uint16  MaximumPeerConnections;
+  uint16  MaximumLocalReplicationDepth = 1;
+  uint16  MaximumRemoteReplicationDepth = 1;
+  uint16  InitialSynchronizationDefault;
+  uint16  ReplicationPriorityDefault;
+  uint8   LowSpaceWarningThresholdDefault;
+  uint8   SpaceLimitWarningThresholdDefault;
+  uint16  RemoteReplicationServicePointAccess;
+  uint16  AlternateReplicationServicePointAccess;
+  uint16  DeltaReplicaPoolAccess;
+  uint16  RemoteBufferElementType;
+  uint16  RemoteBufferHost;
+  uint16  RemoteBufferLocation;
+  uint16  RemoteBufferSupported;
+  uint16  UseReplicationBufferDefault;
+  string  PeerConnectionProtocol;
 };
 ```
 
@@ -172,14 +177,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -257,14 +262,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -422,14 +427,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -505,14 +510,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -560,14 +565,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -789,14 +794,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -847,14 +852,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -905,14 +910,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -961,14 +966,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1035,14 +1040,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1096,7 +1101,7 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>6–65535</dd> </dl>
+</dt> <dd>6 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1155,14 +1160,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1289,7 +1294,7 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>9–65535</dd> </dl>
+</dt> <dd>9 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1400,14 +1405,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1483,14 +1488,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1557,14 +1562,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>7–32767</dd> <dt>
+</dt> <dd>7 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1647,7 +1652,7 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>10–65535</dd> </dl>
+</dt> <dd>10 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1695,14 +1700,14 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -1713,7 +1718,7 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1730,9 +1735,9 @@ This property is inherited from [**CIM\_StorageReplicationCapabilities**](cim-st
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

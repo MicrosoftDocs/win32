@@ -1,15 +1,32 @@
 ---
 title: Data Management
 description: This topic discusses how memory objects pass data from one application to another.
-ms.assetid: '32919f27-4699-4831-8837-c5160b1daf4e'
-keywords: ["Windows User Interface,Dynamic Data Exchange (DDE)", "Dynamic Data Exchange (DDE),data management", "DDE (Dynamic Data Exchange),data management", "data exchange,Dynamic Data Exchange (DDE)", "Windows User Interface,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange Management Library (DDEML),data management", "DDEML (Dynamic Data Exchange Management Library),data management", "data exchange,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange (DDE),objects", "DDE (Dynamic Data Exchange),objects", "Dynamic Data Exchange Management Library (DDEML),objects", "DDEML (Dynamic Data Exchange Management Library),objects"]
+ms.assetid: 32919f27-4699-4831-8837-c5160b1daf4e
+keywords:
+- Windows User Interface,Dynamic Data Exchange (DDE)
+- Dynamic Data Exchange (DDE),data management
+- DDE (Dynamic Data Exchange),data management
+- data exchange,Dynamic Data Exchange (DDE)
+- Windows User Interface,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange Management Library (DDEML),data management
+- DDEML (Dynamic Data Exchange Management Library),data management
+- data exchange,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange (DDE),objects
+- DDE (Dynamic Data Exchange),objects
+- Dynamic Data Exchange Management Library (DDEML),objects
+- DDEML (Dynamic Data Exchange Management Library),objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Management
 
 Because Dynamic Data Exchange (DDE) uses memory objects to pass data from one application to another, the Dynamic Data Exchange Management Library (DDEML) provides a set of functions that DDE applications can use to create and manage DDE objects.
 
-All transactions that involve the exchange of data require the application supplying the data to create a local buffer containing the data and then to call the [**DdeCreateDataHandle**](ddecreatedatahandle.md) function. This function allocates a DDE object, copies the data from the buffer to the object, and returns a data handle. A data handle is a **DWORD** value that the DDEML uses to provide access to data in the DDE object. To share the data in a DDE object, an application passes the data handle to the DDEML, and the DDEML passes the handle to the DDE callback function of the application that is receiving the data transaction.
+All transactions that involve the exchange of data require the application supplying the data to create a local buffer containing the data and then to call the [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master) function. This function allocates a DDE object, copies the data from the buffer to the object, and returns a data handle. A data handle is a **DWORD** value that the DDEML uses to provide access to data in the DDE object. To share the data in a DDE object, an application passes the data handle to the DDEML, and the DDEML passes the handle to the DDE callback function of the application that is receiving the data transaction.
 
 The following example shows how to create a DDE object and obtain a handle to the object. During the [**XTYP\_ADVREQ**](xtyp-advreq.md) transaction, the callback function converts the current time to an ASCII string, copies the string to a local buffer, and then creates a DDE object that contains the string. The callback function returns the handle to the DDE object (HDDEDATA) to the DDEML, which passes the handle to the client application.
 
@@ -123,7 +140,7 @@ DWORD dwData2;
 
 
 
-The receiving application obtains a pointer to the DDE object by passing the data handle to the [**DdeAccessData**](ddeaccessdata.md) function. The pointer returned by **DdeAccessData** provides read-only access. The application should use the pointer to review the data and then call the [**DdeUnaccessData**](ddeunaccessdata.md) function to invalidate the pointer. The application can copy the data to a local buffer by using the [**DdeGetData**](ddegetdata.md) function.
+The receiving application obtains a pointer to the DDE object by passing the data handle to the [**DdeAccessData**](/windows/win32/Ddeml/nf-ddeml-ddeaccessdata?branch=master) function. The pointer returned by **DdeAccessData** provides read-only access. The application should use the pointer to review the data and then call the [**DdeUnaccessData**](/windows/win32/Ddeml/nf-ddeml-ddeunaccessdata?branch=master) function to invalidate the pointer. The application can copy the data to a local buffer by using the [**DdeGetData**](/windows/win32/Ddeml/nf-ddeml-ddegetdata?branch=master) function.
 
 The following example obtains a pointer to the DDE object identified by the *hData* parameter, copies the contents to a local buffer, and then invalidates the pointer.
 
@@ -147,11 +164,11 @@ case XTYP_ADVDATA:
 
 
 
-Usually, when an application that created a data handle passes that handle to the DDEML, the handle becomes invalid in the creating application. This situation is not a problem if the application must share data with only a single application. If an application must share the same data with multiple applications, however, the creating application should specify the HDATA\_APPOWNED flag in [**DdeCreateDataHandle**](ddecreatedatahandle.md). Doing so gives ownership of the DDE object to the creating application and prevents the DDEML from invalidating the data handle. The application can then pass the data handle any number of times after calling **DdeCreateDataHandle** only once.
+Usually, when an application that created a data handle passes that handle to the DDEML, the handle becomes invalid in the creating application. This situation is not a problem if the application must share data with only a single application. If an application must share the same data with multiple applications, however, the creating application should specify the HDATA\_APPOWNED flag in [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master). Doing so gives ownership of the DDE object to the creating application and prevents the DDEML from invalidating the data handle. The application can then pass the data handle any number of times after calling **DdeCreateDataHandle** only once.
 
-If an application specifies the HDATA\_APPOWNED flag in the *afCmd* parameter of [**DdeCreateDataHandle**](ddecreatedatahandle.md), it must call the [**DdeFreeDataHandle**](ddefreedatahandle.md) function to free the memory handle, regardless of whether it passed the handle to the DDEML. Before it terminates, an application must call **DdeFreeDataHandle** to free any data handle that it created but did not pass to the DDEML.
+If an application specifies the HDATA\_APPOWNED flag in the *afCmd* parameter of [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master), it must call the [**DdeFreeDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddefreedatahandle?branch=master) function to free the memory handle, regardless of whether it passed the handle to the DDEML. Before it terminates, an application must call **DdeFreeDataHandle** to free any data handle that it created but did not pass to the DDEML.
 
-An application that has not yet passed the handle to a DDE object to the DDEML can add data to the object or overwrite data in the object by using the [**DdeAddData**](ddeadddata.md) function. Typically, an application uses **DdeAddData** to fill an uninitialized DDE object. After an application passes a data handle to the DDEML, the DDE object identified by the handle cannot be changed; it can only be freed.
+An application that has not yet passed the handle to a DDE object to the DDEML can add data to the object or overwrite data in the object by using the [**DdeAddData**](/windows/win32/Ddeml/nf-ddeml-ddeadddata?branch=master) function. Typically, an application uses **DdeAddData** to fill an uninitialized DDE object. After an application passes a data handle to the DDEML, the DDE object identified by the handle cannot be changed; it can only be freed.
 
  
 

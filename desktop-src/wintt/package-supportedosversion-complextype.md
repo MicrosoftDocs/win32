@@ -1,14 +1,20 @@
 ---
 title: SupportedOSVersion Complex Type
 description: Specifies the minimum operating system version on which the troubleshooting pack can run.
-ms.assetid: '778e8d52-e317-4077-adca-b03abe685775'
-keywords: ["SupportedOSVersion complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 778e8d52-e317-4077-adca-b03abe685775
+keywords:
+- SupportedOSVersion complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - SupportedOSVersion
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SupportedOSVersion Complex Type
@@ -55,8 +61,8 @@ For a list of supported operating system version numbers, see the Remarks sectio
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ For a list of supported operating system version numbers, see the Remarks sectio
 [**SupportedOSVersion (LocalDiagnosticPackage) Element**](package-supportedosversion-localdiagnosticpackage-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

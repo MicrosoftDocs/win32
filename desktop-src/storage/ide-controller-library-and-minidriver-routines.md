@@ -1,8 +1,15 @@
 ---
 title: IDE Controller Library and Minidriver Routines
 description: IDE Controller Library and Minidriver Routines
-ms.assetid: 'bc80c124-bc9b-46f6-8ac6-69ef510bdbd6'
-keywords: ["IDE controllers WDK storage", "IDE controller minidrivers WDK storage , routines"]
+ms.assetid: bc80c124-bc9b-46f6-8ac6-69ef510bdbd6
+keywords:
+- IDE controllers WDK storage
+- IDE controller minidrivers WDK storage , routines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDE Controller Library and Minidriver Routines

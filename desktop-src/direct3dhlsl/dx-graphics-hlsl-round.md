@@ -1,8 +1,9 @@
 ---
 title: round
 description: Rounds the specified value to the nearest integer.
-ms.assetid: '258ce717-dca1-4ed2-ad98-1ecfdb58f939'
-keywords: ["round HLSL"]
+ms.assetid: 258ce717-dca1-4ed2-ad98-1ecfdb58f939
+keywords:
+- round HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # round
@@ -24,7 +30,7 @@ Rounds the specified value to the nearest integer.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Rounds the specified value to the nearest integer.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The *x* parameter, rounded to the nearest integer within a floating-point type.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

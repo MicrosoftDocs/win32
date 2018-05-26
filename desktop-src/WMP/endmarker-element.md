@@ -1,14 +1,20 @@
 ---
 title: ENDMARKER Element
 description: The ENDMARKER element specifies a marker at which Windows Media Player will stop rendering the stream.
-ms.assetid: '554f0612-1669-4da4-9c5f-cc8984ef897c'
-keywords: ["ENDMARKER Element Windows Media Player"]
+ms.assetid: 554f0612-1669-4da4-9c5f-cc8984ef897c
+keywords:
+- ENDMARKER Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ENDMARKER Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENDMARKER Element
@@ -43,7 +49,7 @@ The name of a named marker in the index. The default value is the end of the con
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,9 +96,9 @@ If the marker specified by an **ENDMARKER** element occurs earlier in the stream
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

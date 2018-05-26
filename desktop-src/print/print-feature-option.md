@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PRINT\_FEATURE\_OPTION structure contains information about a feature-option pair, where the option is one option of a particular feature.'
-ms.assetid: '82c9c54b-f124-46d7-a3c9-a17fd8028412'
-title: 'PRINT\_FEATURE\_OPTION structure'
+---
+Description: The PRINT\_FEATURE\_OPTION structure contains information about a feature-option pair, where the option is one option of a particular feature.
+ms.assetid: 82c9c54b-f124-46d7-a3c9-a17fd8028412
+title: PRINT\_FEATURE\_OPTION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PRINT\_FEATURE\_OPTION structure

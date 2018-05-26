@@ -1,14 +1,20 @@
 ---
 title: ASFLeakyBucketPairs
 description: The ASFLeakyBucketPairs attribute is an optional attribute that describes the buffering requirements for a variable bit rate file.
-ms.assetid: 'd1b3e8cc-c082-4283-88bc-172f58adf2d9'
-keywords: ["ASFLeakyBucketPairs windows Media Format"]
+ms.assetid: d1b3e8cc-c082-4283-88bc-172f58adf2d9
+keywords:
+- ASFLeakyBucketPairs windows Media Format
 topic_type:
 - apiref
 api_name:
 - ASFLeakyBucketPairs
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASFLeakyBucketPairs
@@ -35,7 +41,7 @@ struct
 };
 ```
 
-Where *wReserved* must equal zero, and *bucket* is an array of [**WM\_LEAKY\_BUCKET\_PAIR**](wm-leaky-bucket-pair.md) structures. The array must contain at least two entries, but can be larger. The reader object uses this attribute to determine the amount of content to buffer before playback.
+Where *wReserved* must equal zero, and *bucket* is an array of [**WM\_LEAKY\_BUCKET\_PAIR**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmleakybucketpair?branch=master) structures. The array must contain at least two entries, but can be larger. The reader object uses this attribute to determine the amount of content to buffer before playback.
 
 ## See also
 

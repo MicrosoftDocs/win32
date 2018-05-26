@@ -1,7 +1,12 @@
 ---
-Description: 'The Font table contains the information for registering font files with the system.'
-ms.assetid: '5ddff430-a6f8-473b-8006-ac0124469a99'
+Description: The Font table contains the information for registering font files with the system.
+ms.assetid: 5ddff430-a6f8-473b-8006-ac0124469a99
 title: Font Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font Table

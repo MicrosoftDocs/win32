@@ -1,8 +1,14 @@
 ---
 title: Components of the Multicast Architecture
 description: The major components of the multicast routing architecture are explained in the following topics
-ms.assetid: '34de56a6-d170-44f8-a537-d62825825c4c'
-keywords: ["Multicast architecture"]
+ms.assetid: 34de56a6-d170-44f8-a537-d62825825c4c
+keywords:
+- Multicast architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components of the Multicast Architecture

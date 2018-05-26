@@ -1,7 +1,12 @@
-﻿---
-Description: 'Duration of accelerated streaming for the network source, in milliseconds.'
-ms.assetid: '3f9cd762-f393-4130-ba25-d16da0642093'
-title: 'MFNETSOURCE\_ACCELERATEDSTREAMINGDURATION property'
+---
+Description: Duration of accelerated streaming for the network source, in milliseconds.
+ms.assetid: 3f9cd762-f393-4130-ba25-d16da0642093
+title: MFNETSOURCE\_ACCELERATEDSTREAMINGDURATION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_ACCELERATEDSTREAMINGDURATION property

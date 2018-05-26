@@ -1,7 +1,12 @@
 ---
 title: Signed and Unsigned Types
 description: Compilers that use different defaults for signed and unsigned types can cause software errors in your distributed application.
-ms.assetid: '0464d465-84b7-49fc-968e-5efe037966c2'
+ms.assetid: 0464d465-84b7-49fc-968e-5efe037966c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signed and Unsigned Types

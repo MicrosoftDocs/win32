@@ -1,7 +1,12 @@
 ---
 title: Type Libraries and the Object Description Language
 description: Type libraries enable others to use ActiveX objects you have created.
-ms.assetid: 'c4061d23-b6bd-43f4-adf0-5980dae7a059'
+ms.assetid: c4061d23-b6bd-43f4-adf0-5980dae7a059
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Libraries and the Object Description Language
@@ -10,7 +15,7 @@ When you expose ActiveX objects, it allows interoperability with the programs of
 
 -   Publish object and type definitions (for example, as printed documentation).
 
--   Code objects into a binary application so they can be accessed using [IDispatch::GetTypeInfo](CC1EC9AA-6C40-4E70-819C-A7C6DD6B8C99) or implementations of the [**ITypeInfo**](itypeinfo.md) and [**ITypeLib**](itypelib.md) interfaces.
+-   Code objects into a binary application so they can be accessed using [IDispatch::GetTypeInfo](CC1EC9AA-6C40-4E70-819C-A7C6DD6B8C99) or implementations of the [**ITypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-itypeinfo?branch=master) and [**ITypeLib**](/windows/previous-versions/oaidl/nn-oaidl-itypelib?branch=master) interfaces.
 
 -   Use the Microsoft Interface Definition Language (MIDL) compiler to create a type library that contains the objects, and then make the type library available.
 

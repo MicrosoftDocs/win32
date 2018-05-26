@@ -1,7 +1,12 @@
 ---
 title: Hit-Highlighting Syntax
 description: Hit-Highlighting Syntax
-ms.assetid: '30662363-9cf1-4bba-96f0-803eb46124ae'
+ms.assetid: 30662363-9cf1-4bba-96f0-803eb46124ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hit-Highlighting Syntax

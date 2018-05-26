@@ -1,8 +1,21 @@
 ---
 title: Retrieving the Path Where Windows Movie Maker and Windows DVD Maker are Installed
 description: Retrieving the Path Where Windows Movie Maker and Windows DVD Maker are Installed
-ms.assetid: '2e59756c-3ac3-4ab0-a744-7aa7c83d3e86'
-keywords: ["Windows Movie Maker,installation path", "Movie Maker,installation path", "Windows DVD Maker,installation path", "DVD Maker,installation path", "programming guide,Windows Movie Maker installation path", "programming guide,Windows DVD Maker installation path", "Windows Vista,Windows Movie Maker installation path", "Windows VIsta,Windows DVD Maker installation path"]
+ms.assetid: 2e59756c-3ac3-4ab0-a744-7aa7c83d3e86
+keywords:
+- Windows Movie Maker,installation path
+- Movie Maker,installation path
+- Windows DVD Maker,installation path
+- DVD Maker,installation path
+- programming guide,Windows Movie Maker installation path
+- programming guide,Windows DVD Maker installation path
+- Windows Vista,Windows Movie Maker installation path
+- Windows VIsta,Windows DVD Maker installation path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Path Where Windows Movie Maker and Windows DVD Maker are Installed

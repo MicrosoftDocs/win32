@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Name Resolution Protocol (PNRP) Namespace Provider (NSP) is a serverless name resolution technology that allows nodes to discover each other.'
-ms.assetid: 'e11d0f07-f3a0-4c0f-94ce-1d4944a34230'
+Description: The Peer Name Resolution Protocol (PNRP) Namespace Provider (NSP) is a serverless name resolution technology that allows nodes to discover each other.
+ms.assetid: e11d0f07-f3a0-4c0f-94ce-1d4944a34230
 title: About PNRP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About PNRP

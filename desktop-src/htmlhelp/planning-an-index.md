@@ -1,7 +1,12 @@
 ---
 title: Planning an Index
 description: Planning an Index
-ms.assetid: 'F03C5DD1-638B-4c07-BF6A-A2A406EA2887'
+ms.assetid: F03C5DD1-638B-4c07-BF6A-A2A406EA2887
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Planning an Index

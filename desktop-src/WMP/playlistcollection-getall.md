@@ -1,8 +1,11 @@
 ---
 title: PlaylistCollection.getAll method
 description: The getAll method retrieves a PlaylistArray object containing all the playlists in the library.
-ms.assetid: '5ebd966f-5fee-4a8a-909e-5adcbdebab54'
-keywords: ["getAll method Windows Media Player", "getAll method Windows Media Player , PlaylistCollection class", "PlaylistCollection class Windows Media Player , getAll method"]
+ms.assetid: 5ebd966f-5fee-4a8a-909e-5adcbdebab54
+keywords:
+- getAll method Windows Media Player
+- getAll method Windows Media Player , PlaylistCollection class
+- PlaylistCollection class Windows Media Player , getAll method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection.getAll method
@@ -65,9 +73,9 @@ To use this method, read access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

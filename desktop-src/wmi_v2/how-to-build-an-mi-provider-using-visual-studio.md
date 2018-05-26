@@ -1,13 +1,16 @@
 ---
 title: How to Build an MI Provider Using Visual Studio
-description: Once you've created an empty Microsoft Visual Studio project to house your MI provider and generated the source code files from your MOF file, you can insert the generated source code files into the Visual Studio project.
+description: Once youve created an empty Microsoft Visual Studio project to house your MI provider and generated the source code files from your MOF file, you can insert the generated source code files into the Visual Studio project.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '290FDDC8-B97C-4679-B302-B9C34DC80BFB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 290FDDC8-B97C-4679-B302-B9C34DC80BFB
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Build an MI Provider Using Visual Studio
@@ -54,14 +57,14 @@ Once you've created an empty Microsoft Visual Studio project to house your MI pr
 
     
 
-     
+     
 
 17. Build the project by clicking **&lt;Ctrl&gt;&lt;Shift&gt;B**. The Output window will show you the build's progress and should display a success message when the build has completed.
 18. Once the provider builds successfully, you can [register](how-to-register-an-mi-provider.md) and [test](how-to-test-an-mi-provider.md) it.
 
- 
+ 
 
- 
+ 
 
 
 

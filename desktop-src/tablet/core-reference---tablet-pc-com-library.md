@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the core reference for the Tablet PC COM Library.'
-ms.assetid: 'd6d820fc-01f3-4b27-9c1b-6d8c99198d46'
+Description: This section contains the core reference for the Tablet PC COM Library.
+ms.assetid: d6d820fc-01f3-4b27-9c1b-6d8c99198d46
 title: Core Tablet PC Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Tablet PC Reference

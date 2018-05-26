@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a self-test of the TPM and returns the result.'
-ms.assetid: '0f8fdb68-80b1-4fc4-beb9-e87f51b85031'
-title: 'SelfTest method of the Win32\_Tpm class'
+---
+Description: Performs a self-test of the TPM and returns the result.
+ms.assetid: 0f8fdb68-80b1-4fc4-beb9-e87f51b85031
+title: SelfTest method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelfTest method of the Win32\_Tpm class

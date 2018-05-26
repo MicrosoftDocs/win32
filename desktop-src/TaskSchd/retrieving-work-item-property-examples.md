@@ -1,13 +1,19 @@
 ---
 title: Retrieving Work Item Property Examples
 description: To retrieve the properties of a work item, call ITaskScheduler Activate to retrieve the interface of the work item object, then call the appropriate method to retrieve the task property you are interested in.
-ms.assetid: 'd9723dea-1a82-4993-b4d0-bc7d944e775f'
-keywords: ["retrieving work item properties Task Scheduler"]
+ms.assetid: d9723dea-1a82-4993-b4d0-bc7d944e775f
+keywords:
+- retrieving work item properties Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Work Item Property Examples
 
-To retrieve the properties of a work item, call [**ITaskScheduler::Activate**](itaskscheduler-activate.md) to retrieve the interface of the work item object, then call the appropriate method to retrieve the task property you are interested in. Currently, the only valid work items are tasks.
+To retrieve the properties of a work item, call [**ITaskScheduler::Activate**](/windows/win32/Mstask/nf-mstask-itaskscheduler-activate?branch=master) to retrieve the interface of the work item object, then call the appropriate method to retrieve the task property you are interested in. Currently, the only valid work items are tasks.
 
 The code examples listed at the bottom of this page show how to retrieve the properties that apply to all work items. For other properties that are unique to tasks, see [Setting Task Property Examples](setting-task-property-examples.md).
 
@@ -23,7 +29,7 @@ The following procedure describes how to retrieve a task property.
 **To retrieve a task property**
 
 1.  Call [**CoInitialize**](_com_coinitialize) to initialize the COM library and [**CoCreateInstance**](_com_cocreateinstance) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
-2.  Call [**ITaskScheduler::Activate**](itaskscheduler-activate.md) to get the [**ITask**](itask.md) interface of the task object. (Note that tasks are currently the only valid type of work item.)
+2.  Call [**ITaskScheduler::Activate**](/windows/win32/Mstask/nf-mstask-itaskscheduler-activate?branch=master) to get the [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface of the task object. (Note that tasks are currently the only valid type of work item.)
 3.  Call the appropriate method to retrieve the property you are interested in.
 4.  Process the property as needed. (These examples simply print the property to the screen.)
 5.  If the returned property is a string, call [**CoTaskMemFree**](_com_cotaskmemfree) to free the memory allocated for the returned string.

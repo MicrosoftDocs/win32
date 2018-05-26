@@ -4,10 +4,13 @@ description: Usage restrictions are defined by the constants listed in this topi
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '16E36039-0FD6-4A0A-82C8-2C9DB19D27DD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 16E36039-0FD6-4A0A-82C8-2C9DB19D27DD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Usage restriction reference
@@ -81,7 +84,7 @@ This right does not control <strong>File</strong> &gt; <strong>Save As</strong> 
 </blockquote>
 </div>
 <div>
- 
+ 
 </div>
 <p>Disable any keyboard shortcut that can be used to trigger a save (for example, Ctrl+S).</p>
 <div class="alert">
@@ -91,7 +94,7 @@ A best practice is to update your core <strong>File</strong> &gt; <strong>Save</
 </blockquote>
 </div>
 <div>
- 
+ 
 </div></td>
 </tr>
 <tr class="odd">
@@ -131,7 +134,7 @@ A best practice is to update your core <strong>File</strong> &gt; <strong>Save A
 </blockquote>
 </div>
 <div>
- 
+ 
 </div></td>
 </tr>
 <tr class="odd">
@@ -149,7 +152,7 @@ A best practice is to update your core <strong>File</strong> &gt; <strong>Print<
 </blockquote>
 </div>
 <div>
- 
+ 
 </div></td>
 </tr>
 <tr class="even">
@@ -168,7 +171,7 @@ A default implementation requires both <strong>IPC_GENERIC_COMMENT</strong> and 
 </blockquote>
 </div>
 <div>
- 
+ 
 </div></td>
 </tr>
 <tr class="odd">
@@ -191,11 +194,11 @@ A default implementation requires both <strong>IPC_GENERIC_COMMENT</strong> and 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

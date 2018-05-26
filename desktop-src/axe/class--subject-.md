@@ -1,14 +1,20 @@
 ---
 title: Class (Subject) element
 description: The class of the test case subject.
-ms.assetid: 'B6F0AF11-A5F3-4398-B80B-D36124E12A19'
-keywords: ["Class (Subject) element Access Execution Engine"]
+ms.assetid: B6F0AF11-A5F3-4398-B80B-D36124E12A19
+keywords:
+- Class (Subject) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Class (Subject)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Class (Subject) element

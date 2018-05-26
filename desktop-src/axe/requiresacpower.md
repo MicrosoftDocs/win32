@@ -1,14 +1,20 @@
 ---
 title: RequiresACPower element
 description: If present then this assessment requires AC power and cannot run on DC power.
-ms.assetid: '262F0F72-CA5A-49EA-BF43-2C15E572D678'
-keywords: ["RequiresACPower element Access Execution Engine"]
+ms.assetid: 262F0F72-CA5A-49EA-BF43-2C15E572D678
+keywords:
+- RequiresACPower element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresACPower
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresACPower element
@@ -51,9 +57,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

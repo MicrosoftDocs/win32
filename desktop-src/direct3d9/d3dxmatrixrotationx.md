@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a matrix that rotates around the x-axis.'
-ms.assetid: '45a2668d-787f-4354-882a-94a72edaa543'
+---
+Description: Builds a matrix that rotates around the x-axis.
+ms.assetid: 45a2668d-787f-4354-882a-94a72edaa543
 title: D3DXMatrixRotationX function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixRotationX function

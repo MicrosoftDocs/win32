@@ -1,8 +1,9 @@
 ---
 title: TB\_SETBUTTONINFO message
 description: Sets the information for an existing button in a toolbar.
-ms.assetid: 'ac9b88b9-d0d0-4669-a342-708924d97c8b'
-keywords: ["TB_SETBUTTONINFO message Windows Controls"]
+ms.assetid: ac9b88b9-d0d0-4669-a342-708924d97c8b
+keywords:
+- TB_SETBUTTONINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETBUTTONINFO message
@@ -33,7 +39,7 @@ Button identifier.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBBUTTONINFO**](tbbuttoninfo.md) structure that contains the new button information. The **cbSize** and **dwMask** members of this structure must be filled in prior to sending this message.
+Pointer to a [**TBBUTTONINFO**](/windows/win32/Commctrl/ns-commctrl-tbbuttoninfoa?branch=master) structure that contains the new button information. The **cbSize** and **dwMask** members of this structure must be filled in prior to sending this message.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ Text is commonly assigned to buttons when they are added to a toolbar by specify
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_SETBUTTONINFOW** (Unicode) and **TB\_SETBUTTONINFOA** (ANSI)<br/>         |
 
@@ -80,9 +86,9 @@ Text is commonly assigned to buttons when they are added to a toolbar by specify
 [**TB\_INSERTBUTTON**](tb-insertbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

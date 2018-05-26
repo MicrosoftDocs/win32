@@ -4,9 +4,9 @@ description: These flags specify optional behavior for the IpcGetTemplateList an
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '8787D219-AAA2-40A2-BCDC-78211E39CAEA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 8787D219-AAA2-40A2-BCDC-78211E39CAEA
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -18,6 +18,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get template list flags
@@ -52,7 +55,7 @@ Use this flag to force the download of templates from the server. Templates are 
 > [!Note]  
 > This flag should not be used under normal conditions. Using locally cached templates has better performance characteristics and will less likely cause the display of any unwanted UI.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -78,15 +81,15 @@ For usage information, see [**IpcGetTemplateIssuerList**](ipcgettemplateissuerli
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

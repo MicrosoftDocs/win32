@@ -1,7 +1,12 @@
 ---
 Description: Obsolete Printer Driver Functions
-ms.assetid: '62cd8a47-2606-44a7-a79c-d63abf2d4016'
+ms.assetid: 62cd8a47-2606-44a7-a79c-d63abf2d4016
 title: Obsolete Printer Driver Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obsolete Printer Driver Functions

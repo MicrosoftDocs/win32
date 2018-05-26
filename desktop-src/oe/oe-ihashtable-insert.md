@@ -1,8 +1,11 @@
 ---
 title: IHashTable Insert method
 description: Inserts a table entry or replaces the data of an existing entry.
-ms.assetid: '97a0bbc8-79a3-41a0-bfdc-99827d565a0b'
-keywords: ["Insert method Windows Mail (formerly Outlook Express)", "Insert method Windows Mail (formerly Outlook Express) , IHashTable interface", "IHashTable interface Windows Mail (formerly Outlook Express) , Insert method"]
+ms.assetid: 97a0bbc8-79a3-41a0-bfdc-99827d565a0b
+keywords:
+- Insert method Windows Mail (formerly Outlook Express)
+- Insert method Windows Mail (formerly Outlook Express) , IHashTable interface
+- IHashTable interface Windows Mail (formerly Outlook Express) , Insert method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHashTable::Insert method
@@ -24,9 +32,9 @@ Inserts a table entry or replaces the data of an existing entry.
 
 ```C++
 HRESULT Insert(
-  [in] LPCSTR psz,
-  [in] LPVOID pv,
-  [in] DWORD  dwFlags
+  [in] LPCSTR psz,
+  [in] LPVOID pv,
+  [in] DWORD  dwFlags
 );
 ```
 
@@ -69,7 +77,7 @@ Specifies a bitmask of HF\_xxx flags.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -88,7 +96,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,8 +104,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -105,9 +113,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

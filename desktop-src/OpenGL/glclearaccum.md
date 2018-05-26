@@ -1,8 +1,9 @@
 ---
 title: glClearAccum function
 description: The glClearAccum function specifies the clear values for the accumulation buffer.
-ms.assetid: '77d8f340-be47-43f4-96fc-31025a4c8b4e'
-keywords: ["glClearAccum function OpenGL"]
+ms.assetid: 77d8f340-be47-43f4-96fc-31025a4c8b4e
+keywords:
+- glClearAccum function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glClearAccum function
@@ -22,10 +28,10 @@ The **glClearAccum** function specifies the clear values for the accumulation bu
 
 ```C++
 void WINAPI glClearAccum(
-   GLfloat red,
-   GLfloat green,
-   GLfloat blue,
-   GLfloat alpha
+   GLfloat red,
+   GLfloat green,
+   GLfloat blue,
+   GLfloat alpha
 );
 ```
 
@@ -107,8 +113,8 @@ The following function retrieves information related to **glClearAccum**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ The following function retrieves information related to **glClearAccum**:
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

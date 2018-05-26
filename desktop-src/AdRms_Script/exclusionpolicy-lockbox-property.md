@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the minimum lockbox version that must be installed before an end-user license, certificate, or client licensor certificate (CLC) can be granted.'
+Description: Retrieves the minimum lockbox version that must be installed before an end-user license, certificate, or client licensor certificate (CLC) can be granted.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '082be71b-1ad3-4da1-b0ba-0ed23076f74e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 082be71b-1ad3-4da1-b0ba-0ed23076f74e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExclusionPolicy.Lockbox property'
+title: ExclusionPolicy.Lockbox property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExclusionPolicy.Lockbox property
@@ -121,7 +124,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -133,9 +136,9 @@ END FUNCTION
 [**ExclusionPolicy**](exclusionpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

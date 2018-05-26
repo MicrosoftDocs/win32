@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'aad47c36-fd1d-478d-ad7d-a40c3984a1d9'
+---
+Description: .
+ms.assetid: aad47c36-fd1d-478d-ad7d-a40c3984a1d9
 title: Photo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Photo

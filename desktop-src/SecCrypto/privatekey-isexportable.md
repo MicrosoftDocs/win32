@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a Boolean value that indicates whether the private key is exportable.'
-ms.assetid: '56e72747-126d-4bb4-ac10-ced0acef388b'
-title: 'PrivateKey.IsExportable method'
+---
+Description: Returns a Boolean value that indicates whether the private key is exportable.
+ms.assetid: 56e72747-126d-4bb4-ac10-ced0acef388b
+title: PrivateKey.IsExportable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.IsExportable method

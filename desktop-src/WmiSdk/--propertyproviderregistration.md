@@ -1,13 +1,16 @@
 ---
-Description: 'Registers property providers in WMI.'
+Description: Registers property providers in WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '24792884-3fb9-4974-83d5-1c5fc1fa72a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 24792884-3fb9-4974-83d5-1c5fc1fa72a1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_PropertyProviderRegistration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_PropertyProviderRegistration class
@@ -22,8 +25,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class __PropertyProviderRegistration : __ProviderRegistration
 {
   __Provider REF provider;
-  boolean        SupportsPut = False;
-  boolean        SupportsGet = False;
+  boolean        SupportsPut = False;
+  boolean        SupportsGet = False;
 };
 ```
 
@@ -68,14 +71,14 @@ Describes whether the class or instance provider supports data retrieval.
 True
 </dt> <dd>
 
-The provider supports data retrieval by implementing [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md).
+The provider supports data retrieval by implementing [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
 
 </dd> <dt>
 
 False
 </dt> <dd>
 
-The provider does not support data retrieval, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**GetObjectAsync**](iwbemservices-getobjectasync.md).
+The provider does not support data retrieval, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
 
 </dd> </dl>
 
@@ -99,15 +102,15 @@ True
 
 The provider supports class or instance modification by implementing one of the following methods:
 
--   [**IWbemServices::PutClassAsync**](iwbemservices-putclassasync.md) (class providers)
--   [**IWbemServices::PutInstanceAsync**](iwbemservices-putinstanceasync.md) (class providers)
+-   [**IWbemServices::PutClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclassasync?branch=master) (class providers)
+-   [**IWbemServices::PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master) (class providers)
 
 </dd> <dt>
 
 False
 </dt> <dd>
 
-The provider does not support data modification and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**PutClassAsync**](iwbemservices-putclassasync.md) or [**PutInstanceAsync**](iwbemservices-putinstanceasync.md).
+The provider does not support data modification and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**PutClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclassasync?branch=master) or [**PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master).
 
 </dd> </dl>
 
@@ -123,8 +126,8 @@ The **\_\_PropertyProviderRegistration** class is derived from [**\_\_ProviderRe
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -142,9 +145,9 @@ The **\_\_PropertyProviderRegistration** class is derived from [**\_\_ProviderRe
 [Registering a Property Provider](registering-a-property-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

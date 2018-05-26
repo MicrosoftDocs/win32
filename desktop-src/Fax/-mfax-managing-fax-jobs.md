@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Client API supports flexible administration of queued and active fax jobs.'
-ms.assetid: '7eb47777-cf5c-463d-bf19-5884c6fed04f'
+Description: The Fax Service Client API supports flexible administration of queued and active fax jobs.
+ms.assetid: 7eb47777-cf5c-463d-bf19-5884c6fed04f
 title: Managing Fax Jobs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Fax Jobs

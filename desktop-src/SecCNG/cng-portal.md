@@ -1,7 +1,12 @@
 ---
-Description: 'CNG is an encryption API that you can use to create encryption security software for encryption key management, cryptography and data security, and cryptography and network security.'
-ms.assetid: 'eaad88a1-4e1d-4246-9560-8eef60f8b70f'
-title: 'Cryptography API: Next Generation'
+Description: CNG is an encryption API that you can use to create encryption security software for encryption key management, cryptography and data security, and cryptography and network security.
+ms.assetid: eaad88a1-4e1d-4246-9560-8eef60f8b70f
+title: Cryptography API Next Generation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptography API: Next Generation
@@ -18,7 +23,7 @@ If you are developing a CNG cryptographic algorithm provider or key storage prov
 
 ## Run-time requirements
 
-CNG is supported beginning with Windows Server 2008 and Windows Vista. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
+CNG is supported beginning with Windows Server 2008 and Windows Vista. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
 
 ## In this section
 
@@ -32,11 +37,11 @@ CNG is supported beginning with Windows Server 2008 and Windows Vista. For infor
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

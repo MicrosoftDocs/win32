@@ -1,7 +1,12 @@
 ---
 Description: WCS Functions
-ms.assetid: '7d72f849-3be5-48c1-8c8a-54a15989cb06'
+ms.assetid: 7d72f849-3be5-48c1-8c8a-54a15989cb06
 title: WCS Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Functions

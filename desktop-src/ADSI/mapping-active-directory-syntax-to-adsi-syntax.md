@@ -4,11 +4,15 @@ description: The following table maps the Active Directory syntaxes to their cor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ffb40eff-e137-4d6a-81e7-24d2cbbdbfbf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ffb40eff-e137-4d6a-81e7-24d2cbbdbfbf
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["attributes ADSI ,mapping Active Directory syntax to ADSI syntax"]
+keywords:
+- attributes ADSI ,mapping Active Directory syntax to ADSI syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mapping Active Directory Syntax to ADSI Syntax
@@ -33,17 +37,17 @@ The following table maps the Active Directory syntaxes to their corresponding AD
 | 2.5.5.12<br/> | Unicode<br/>                       | Case Ignore String<br/>                                       |
 | 2.5.5.13<br/> | Address<br/>                       | Not Supported<br/>                                            |
 | 2.5.5.14<br/> | Distname-Address<br/>              |                                                                     |
-| 2.5.5.15<br/> | NT Security Descriptor<br/>        | [**IADsSecurityDescriptor**](iadssecuritydescriptor.md)<br/> |
-| 2.5.5.16<br/> | Large Integer<br/>                 | [**IADsLargeInteger**](iadslargeinteger.md)<br/>             |
+| 2.5.5.15<br/> | NT Security Descriptor<br/>        | [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)<br/> |
+| 2.5.5.16<br/> | Large Integer<br/>                 | [**IADsLargeInteger**](/windows/win32/Iads/nn-iads-iadslargeinteger?branch=master)<br/>             |
 | 2.5.5.17<br/> | SID<br/>                           | Octet String<br/>                                             |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

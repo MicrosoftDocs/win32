@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the horizontal distance between the origin and the bounding limit of the application media size.'
-ms.assetid: 'B30CD277-ADE2-45F7-BE73-CF738843D9B9'
-title: 'IPrintSchemaPageImageableSize::ExtentWidthInMicrons property'
+---
+Description: Gets the horizontal distance between the origin and the bounding limit of the application media size.
+ms.assetid: B30CD277-ADE2-45F7-BE73-CF738843D9B9
+title: IPrintSchemaPageImageableSizeExtentWidthInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageImageableSize::ExtentWidthInMicrons property

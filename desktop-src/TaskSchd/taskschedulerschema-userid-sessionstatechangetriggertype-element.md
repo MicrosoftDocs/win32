@@ -1,14 +1,20 @@
 ---
 title: UserId (sessionStateChangeTriggerType) Element
 description: Contains the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
-ms.assetid: '7605f444-b2c9-4bba-a035-f1307c01184f'
-keywords: ["UserId element Task Scheduler"]
+ms.assetid: 7605f444-b2c9-4bba-a035-f1307c01184f
+keywords:
+- UserId element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - UserId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserId (sessionStateChangeTriggerType) Element
@@ -37,7 +43,7 @@ The **UserId** element is defined by the [**sessionStateChangeTriggerType**](tas
 
 ## Remarks
 
-For C++ development, see [**UserId Property of ISessionStateChangeTrigger**](isessionstatechangetrigger-userid.md).
+For C++ development, see [**UserId Property of ISessionStateChangeTrigger**](/windows/win32/taskschd/nf-taskschd-isessionstatechangetrigger-get_userid?branch=master).
 
 For script development, see [**SessionStateChangeTrigger.UserId**](sessionstatechangetrigger-userid.md).
 
@@ -47,14 +53,14 @@ For script development, see [**SessionStateChangeTrigger.UserId**](sessionstatec
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

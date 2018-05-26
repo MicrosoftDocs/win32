@@ -1,14 +1,20 @@
 ---
 title: EapMethod (EapHostUserCredentials) Element
 description: Identifies the method being referred to.
-ms.assetid: '0a510f44-09ac-466e-a806-4e89909fe850'
-keywords: ["EapMethod element EAPHost"]
+ms.assetid: 0a510f44-09ac-466e-a806-4e89909fe850
+keywords:
+- EapMethod element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapMethod
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapMethod (EapHostUserCredentials) Element
@@ -29,8 +35,8 @@ The **EapMethod** element is defined by the [**EapHostUserCredentials**](eaphost
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **EapMethod** element is defined by the [**EapHostUserCredentials**](eaphost
 [eaphostusercredentials Schema](eaphostusercredentialsschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

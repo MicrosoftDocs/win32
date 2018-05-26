@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies and retrieves a Boolean value that can be used to enable Windows Live ID user domains.'
+Description: Specifies and retrieves a Boolean value that can be used to enable Windows Live ID user domains.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '26d7db23-a7b0-421c-b145-128c509001b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 26d7db23-a7b0-421c-b145-128c509001b9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'OnlineTrustedServiceUserDomain.Enabled property'
+title: OnlineTrustedServiceUserDomain.Enabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineTrustedServiceUserDomain.Enabled property
@@ -138,7 +141,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -150,9 +153,9 @@ END SUB
 [**OnlineTrustedServiceUserDomain**](onlinetrustedserviceuserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

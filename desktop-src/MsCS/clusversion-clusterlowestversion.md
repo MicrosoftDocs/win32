@@ -4,11 +4,14 @@ description: Returns a value containing the lowest version of the Cluster servic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32393f01-467f-4d73-bbe7-18c428806e7c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 32393f01-467f-4d73-bbe7-18c428806e7c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterLowestVersion property Failover Cluster", "ClusterLowestVersion property Failover Cluster , ClusVersion object", "ClusVersion object Failover Cluster , ClusterLowestVersion property"]
+keywords:
+- ClusterLowestVersion property Failover Cluster
+- ClusterLowestVersion property Failover Cluster , ClusVersion object
+- ClusVersion object Failover Cluster , ClusterLowestVersion property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusVersion.ClusterLowestVersion property
@@ -57,7 +63,7 @@ See [**ClusVersion**](clusversion-object.md) for an example.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -79,9 +85,9 @@ See [**ClusVersion**](clusversion-object.md) for an example.
 [**ClusVersion.MixedVersion**](clusversion-mixedversion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

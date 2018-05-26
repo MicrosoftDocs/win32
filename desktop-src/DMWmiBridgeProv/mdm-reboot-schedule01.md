@@ -1,8 +1,10 @@
 ---
 title: MDM\_Reboot\_Schedule01 class
 description: The MDM\_Reboot\_Schedule01class is used to configure a specific time for the reboot of a device.
-ms.assetid: 'd865609a-9f17-4256-9c69-4fea75011c1f'
-keywords: ["MDM_Reboot_Schedule01 class", "MDM_Reboot_Schedule01 class, described"]
+ms.assetid: d865609a-9f17-4256-9c69-4fea75011c1f
+keywords:
+- MDM_Reboot_Schedule01 class
+- MDM_Reboot_Schedule01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Reboot\_Schedule01 class
@@ -108,7 +115,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -116,9 +123,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

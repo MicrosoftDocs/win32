@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectDefaultSubpictureLanguage method sets the current default subpicture language in the MSWebDVD object.'
-ms.assetid: 'e83980d1-c7cd-4755-9a27-3b0c2548009e'
+Description: The SelectDefaultSubpictureLanguage method sets the current default subpicture language in the MSWebDVD object.
+ms.assetid: e83980d1-c7cd-4755-9a27-3b0c2548009e
 title: SelectDefaultSubpictureLanguage Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectDefaultSubpictureLanguage Method

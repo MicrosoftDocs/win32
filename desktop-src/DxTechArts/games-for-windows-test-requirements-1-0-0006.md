@@ -1,7 +1,12 @@
 ---
 title: Games for Windows Test Cases Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
 description: This article provides test cases for games for Windows.
-ms.assetid: 'bbe84d3f-e7ff-f14f-ec25-ae1c980749fe'
+ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Games for Windows Test Cases: Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
@@ -78,7 +83,7 @@ This section contains detailed notes on each of the test tools used to verify pa
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/></td>
+<td>Windows 7<br/> Windows Vista<br/></td>
 <td>The game must be visible within the Games Explorer on Windows Vista and Windows 7. When selected, the game must also display correct metadata. The installation must not create a shortcut to launch the game on the desktop, in the Start menu, or in any other location. Tasks and shortcuts for removal must not be created.</td>
 </tr>
 <tr class="even">
@@ -104,7 +109,7 @@ This section contains detailed notes on each of the test tools used to verify pa
 
 
 
- 
+ 
 
 ### 1.2 Windows Family Safety / Parental Controls
 
@@ -117,7 +122,7 @@ This section contains detailed notes on each of the test tools used to verify pa
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/></td>
+<td>Windows 7<br/> Windows Vista<br/></td>
 <td>Game must execute within the context of a &quot;Standard User&quot;. Parental Controls must be able to block the game. Verify that the GDF has EXE names.</td>
 </tr>
 <tr class="even">
@@ -165,7 +170,7 @@ If the game is not rated, then skip this step and move onto the next part of thi
 
 
 
- 
+ 
 
 ### 1.3 Windows Vista Rich Saved Games
 
@@ -182,7 +187,7 @@ This requirement has been retired.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Games that support gamepad controllers must support the Xbox 360 Controller for Windows using the XInput API. All references to common controller triggers and buttons must use the Xbox 360 names.</td>
 </tr>
 <tr class="even">
@@ -207,7 +212,7 @@ If the game does not support a game controller and/or only supports keyboard/mou
 
 
 
- 
+ 
 
 ### 1.5 Multiple Aspect Ratios and Resolutions
 
@@ -220,12 +225,12 @@ If the game does not support a game controller and/or only supports keyboard/mou
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>The game must support at least the following aspect ratios and associated screen resolutions: <br/>
 <ul>
-<li>4:3 &quot;normal&quot; (800×600 or 1024×768)</li>
-<li>16:9 &quot;widescreen&quot; (1280×720)</li>
-<li>16:10 &quot;widescreen&quot; (1152×720, 1680×1050, or 800×480)</li>
+<li>4:3 &quot;normal&quot; (800 600 or 1024 768)</li>
+<li>16:9 &quot;widescreen&quot; (1280 720)</li>
+<li>16:10 &quot;widescreen&quot; (1152 720, 1680 1050, or 800 480)</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -237,11 +242,11 @@ The following tests must be done on a widescreen monitor.
 </blockquote>
 <br/>
 <ol>
-<li>In the video resolution section, select 800×600 or 1024×768.</li>
+<li>In the video resolution section, select 800 600 or 1024 768.</li>
 <li>Verify that the game runs at a 4:3 Aspect Ratio resolution.</li>
-<li>In the video resolution section, select 1280×720.</li>
+<li>In the video resolution section, select 1280 720.</li>
 <li>Verify that the game runs at a 16:9 Aspect Ratio resolution.</li>
-<li>In the video resolution section, select 1680×1050, 800×480, or 1152×720.</li>
+<li>In the video resolution section, select 1680 1050, 800 480, or 1152 720.</li>
 <li>Verify that the game runs at a 16:10 Aspect Ratio resolution.</li>
 <li>Verify that the game does not stretch the picture and in turn presents a wider area of view.</li>
 <li>Verify that the game prompts the user when a change is made to the resolution.</li>
@@ -255,7 +260,7 @@ The following tests must be done on a widescreen monitor.
 
 
 
- 
+ 
 
 ### 1.6 Windows Media Center
 
@@ -267,12 +272,12 @@ This requirement has been retired.
 
 |                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows 7<br/> Windows Vista<br/> Windows XP<br/> | If the game uses Direct3D, the minimum version supported must be Direct3D 9, and Direct3D must be the default for any display configuration option.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Windows 7<br/> Windows Vista<br/> Windows XP<br/> | If the game uses Direct3D, the minimum version supported must be Direct3D 9, and Direct3D must be the default for any display configuration option.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                     | <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manual</dt> <dd> Launch the game. In the video options, check to see if there are render options, D3D and/or OpenGL. If there are, verify that the game render options default to Direct3D. If you are unable to verify that D3D9 is the version of DirectX that is being used, then proceed to Automated Test. <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Use tool: Depends.exe <br/> </dd> </dl> |
 
 
 
- 
+ 
 
 ### 1.8 Enable High-DPI Aware
 
@@ -285,14 +290,14 @@ This requirement has been retired.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/></td>
+<td>Windows 7<br/> Windows Vista<br/></td>
 <td>Games and their installers must run correctly without visual problems when DPI scaling is enabled.</td>
 </tr>
 <tr class="even">
 
 <td><dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manual</dt> <dd>
 <ol>
-<li>Set the system to DPI 150%: <br/> Windows Vista: Control Panel: Personalization, Adjust font size (DPI), Custom DPI. Set to 150%.<br/> Windows 7: Control Panel: Display, Set to Larger - 150%.<br/></li>
+<li>Set the system to DPI 150%: <br/> Windows Vista: Control Panel: Personalization, Adjust font size (DPI), Custom DPI. Set to 150%.<br/> Windows 7: Control Panel: Display, Set to Larger - 150%.<br/></li>
 <li>Run the installation process and game to verify there are no problems with clipped screens or dialog boxes.</li>
 </ol>
 </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element &lt;dpiAware&gt;true&lt;/dpiAware&gt; is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
@@ -302,7 +307,7 @@ This requirement has been retired.
 
 
 
- 
+ 
 
 ### 2. Security and Compatibility
 
@@ -317,7 +322,7 @@ This requirement has been retired.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/></td>
+<td>Windows 7<br/> Windows Vista<br/></td>
 <td>Every executable file (.EXE extension) included with an application must have an embedded manifest that defines its execution level:
 <pre class="syntax" data-space="preserve"><code>&lt;requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
               uiAccess=&quot;true|false&quot;/&gt;</code></pre>
@@ -341,7 +346,7 @@ Use tool: Mt.exe <br/></td>
 
 
 
- 
+ 
 
 ### 2.2 Support x64 Versions of Windows
 
@@ -354,7 +359,7 @@ Use tool: Mt.exe <br/></td>
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/></td>
+<td>Windows 7<br/> Windows Vista<br/></td>
 <td>To maintain compatibility with x64 versions of Windows: <br/>
 <ul>
 <li>Titles and title installers must not contain any 16-bit code or rely on any 16-bit component.</li>
@@ -362,7 +367,7 @@ Use tool: Mt.exe <br/></td>
 </ul>
 <blockquote>
 [!Note]<br />
-Support for the 64-bit Edition of Windows XP Professional is optional.
+Support for the 64-bit Edition of Windows XP Professional is optional.
 </blockquote>
 <br/></td>
 </tr>
@@ -380,7 +385,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 2.3 Sign Files
 
@@ -393,7 +398,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>All executable code files (for example, .exe and .dll extensions) must be signed with an Authenticode certificate. <br/> If you are using Windows Installer, the installer's package files (.msi files) must be signed. <br/></td>
 </tr>
 <tr class="even">
@@ -411,7 +416,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 2.4 Sign Drivers
 
@@ -424,7 +429,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Any kernel-mode driver that is installed by the game must be signed with a publicly valid Authenticode certificate. <br/> Any kernel-mode hardware device driver that is installed by the game must have a Microsoft signature obtained through the Windows Hardware Quality Labs (WHQL) or Driver Reliability Signature (DRS) program. <br/></td>
 </tr>
 <tr class="even">
@@ -440,7 +445,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 2.5 Perform Version Checking Properly
 
@@ -453,7 +458,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Games must not fail to run on future operating systems as indicated by changes in the Windows version number, unless the End User License Agreement prohibits use on future operating systems. If the game is supposed to fail, it must do so gracefully by displaying a message to the user.</td>
 </tr>
 <tr class="even">
@@ -478,7 +483,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 2.6 Support Concurrent User Sessions
 
@@ -491,7 +496,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Games must support standard Windows multitasking scenarios.</td>
 </tr>
 <tr class="even">
@@ -514,7 +519,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 2.7 Support Long Names
 
@@ -527,7 +532,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>If a game supports saving files, it must be able to save files that have long names and paths. The game must properly handle special file system characters, such as \ / : * ? &quot; &lt; or &gt; in any user input fields used to create file names or paths.</td>
 </tr>
 <tr class="even">
@@ -547,7 +552,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 3. Installation
 
@@ -562,7 +567,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Games with a traditional installation must provide a simplified path in their setup user interface.</td>
 </tr>
 <tr class="even">
@@ -583,7 +588,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 3.2 Support User Account Control for Installation
 
@@ -596,7 +601,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/></td>
+<td>Windows 7<br/> Windows Vista<br/></td>
 <td>The game installer must not assume it is running in the same context as the user. Games must therefore perform per-user tasks on first-run separately from the installation.</td>
 </tr>
 <tr class="even">
@@ -615,7 +620,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 
 
- 
+ 
 
 ### 3.3 Install to Correct Folders
 
@@ -628,7 +633,7 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Games must be installed to the Program Files folder by default. User data must be written at first run and not during the installation.</td>
 </tr>
 <tr class="even">
@@ -648,7 +653,7 @@ If this test fails, verify that the game is intended to install for All Users. I
 
 
 
- 
+ 
 
 ### 3.4 Install Windows Resources Properly
 
@@ -661,7 +666,7 @@ If this test fails, verify that the game is intended to install for All Users. I
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Applications must not attempt to install files or registry keys that are protected by Windows Resource Protection (WRP).</td>
 </tr>
 <tr class="even">
@@ -675,7 +680,7 @@ If this test fails, verify that the game is intended to install for All Users. I
 
 
 
- 
+ 
 
 ### 3.5 Avoid Reboots During Installation
 
@@ -688,7 +693,7 @@ If this test fails, verify that the game is intended to install for All Users. I
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>The game installer should not assume that installation of Windows components from redistribution packages requires a reboot, unless the reboot is indicated by a return result or by Microsoft documentation.</td>
 </tr>
 <tr class="even">
@@ -708,7 +713,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 
 
 
- 
+ 
 
 ### 3.6 Use File Versioning Correctly
 
@@ -721,7 +726,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>The game installation program must properly check to ensure that the latest file versions are installed. Installing a game must never regress any files that you do not produce or that are shared by applications that you do not produce.</td>
 </tr>
 <tr class="even">
@@ -748,7 +753,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 
 
 
- 
+ 
 
 ### 3.7 Support Autorun \[Conditional Requirement\]
 
@@ -761,7 +766,7 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>For games distributed on CD, DVD, or other removable media that support Autorun, when the disc is inserted for the first time, the application must automatically run or prompt the user to install the game. <br/>
 <blockquote>
 [!Note]<br />
@@ -774,7 +779,7 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 <td><ol>
 <li>Insert the game disc or media.</li>
 <li>Verify that the install / run dialog box comes up automatically.</li>
-<li>Windows Vista or Windows 7: Verify that the game Autorun program itself does not prompt User Jane to elevate through Administrator Credentials.</li>
+<li>Windows Vista or Windows 7: Verify that the game Autorun program itself does not prompt User Jane to elevate through Administrator Credentials.</li>
 <li>Verify that the Autorun executable doesn't need out-of-box REDIST components, such as .NET 3.5, C Run-Time libraries, and so on.</li>
 <li>Verify that re-inserting the disc in the drive after installation does not cause installation to automatically begin again.</li>
 </ol></td>
@@ -784,7 +789,7 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 
 
 
- 
+ 
 
 ### 4. Reliability
 
@@ -794,11 +799,11 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 
 |                                               |                                                                                                                                                                    |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows 7<br/> Windows Vista<br/> | All application installers must take advantage of the Restart Manager APIs to avoid system reboots (see [requirement 3.5](#35-avoid-reboots-during-installation)). |
+| Windows 7<br/> Windows Vista<br/> | All application installers must take advantage of the Restart Manager APIs to avoid system reboots (see [requirement 3.5](#35-avoid-reboots-during-installation)). |
 
 
 
- 
+ 
 
 ### 4.2 Eliminate Application Verifier Failures
 
@@ -811,7 +816,7 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>The game must generate no failures running under Microsoft Application Verifier (AppVerifier), version 4.0 or later, in the following tests: <br/>
 <ul>
 <li>Basics: Handles, Heaps, Locks, Memory, TLS</li>
@@ -841,7 +846,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 
 
- 
+ 
 
 ### 4.3 Support Windows Error Reporting
 
@@ -854,7 +859,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Games must handle only exceptions that are known and expected, and Windows Error Reporting must not be disabled. If a fault (such as an Access Violation) is injected into a game, it must allow Windows Error Reporting to report the crash.</td>
 </tr>
 <tr class="even">
@@ -869,7 +874,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 
 
- 
+ 
 
 
 
@@ -880,7 +885,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>All executable files (for example, .exe or .dll files) must contain an accurate Product Name, Company Name, and File Version.</td>
 </tr>
 <tr class="even">
@@ -903,7 +908,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 
 
- 
+ 
 
 
 
@@ -914,7 +919,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
+<td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>Normal exit of the game must not result in an unknown exception fault.</td>
 </tr>
 <tr class="even">
@@ -928,7 +933,7 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 
 
- 
+ 
 
 ## 5. Sample Test Script
 
@@ -942,7 +947,7 @@ This is an example of a typical test pass using the preceding test requirements 
 -   64-bit edition of Windows Vista SP1 and/or Windows 7 on an Intel CPU
 -   32-bit edition Windows XP SP2 on an AMD CPU
 -   32-bit edition Windows XP SP2 on an Intel CPU
--   Wide Screen Monitor that supports 1680×1050
+-   Wide Screen Monitor that supports 1680 1050
 -   Xbox 360 Controller for Windows
 
 ### 5.2 Pre-Install
@@ -1028,9 +1033,9 @@ This is an example of a typical test pass using the preceding test requirements 
 
 4.  Set the video to \[1.5\]:
 
-    1.  Verify that the game runs at a 4:3 Aspect Ratio resolution (800×600 or 1024×768)
-    2.  Verify that the game runs at a 16:9 Aspect Ratio resolution (1280×720)
-    3.  Verify that the game runs at a 16:10 Aspect Ratio resolution (1680×1050, 800×480, or 1152×720)
+    1.  Verify that the game runs at a 4:3 Aspect Ratio resolution (800 600 or 1024 768)
+    2.  Verify that the game runs at a 16:9 Aspect Ratio resolution (1280 720)
+    3.  Verify that the game runs at a 16:10 Aspect Ratio resolution (1680 1050, 800 480, or 1152 720)
     4.  Verify that the game prompts the user when a change is made to the resolution
     5.  Verify that the display reverts to the previous setting if you do not accept within 15 seconds
     6.  Verify that the game does not stretch the picture and in turn presents a wider area of view
@@ -1115,8 +1120,8 @@ This is an example of a typical test pass using the preceding test requirements 
     3.  In the search window, type \*.dll
     4.  For each file: Right-click the file and click Properties
 
-        -   In Windows XP: Click the Version tab. Verify that the Product Name, Company Name, and File Version fields are properly populated. \[4.3\]
-        -   In Windows Vista and Windows 7: Click the Details tab. Verify that the Product name and File Version fields are properly populated. Company Name is not visible in the Windows Vista or Windows 7 properties page \[4.3\]
+        -   In Windows XP: Click the Version tab. Verify that the Product Name, Company Name, and File Version fields are properly populated. \[4.3\]
+        -   In Windows Vista and Windows 7: Click the Details tab. Verify that the Product name and File Version fields are properly populated. Company Name is not visible in the Windows Vista or Windows 7 properties page \[4.3\]
 
     5.  Repeat this check for .exe files
 
@@ -1146,7 +1151,7 @@ These are notes for each of the test tools listed in the above test requirements
 > [!Note]  
 > Some applications fail to run with AppVerifier running, because of copy protection. This can be resolved by running with an unprotected release version of the game executable.
 
- 
+ 
 
 1.  Install AppVerifier 4.0 (or higher) on a computer running Windows XP
 2.  Launch AppVerifier and click File -&gt; Add Application
@@ -1208,9 +1213,9 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
     ```
 
 > [!Note]  
-> Requested execution level should be present for every file, and dpiAware should be present for at least the game’s executable file.
+> Requested execution level should be present for every file, and dpiAware should be present for at least the game s executable file.
 
- 
+ 
 
 ### 6.3 Thread Hijacker - threadhijacker.exe
 
@@ -1334,9 +1339,9 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

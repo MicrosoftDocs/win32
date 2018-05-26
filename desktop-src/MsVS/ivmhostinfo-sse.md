@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo SSE property
 description: The SSE property contains whether the host processor supports the SSE instruction set.
-ms.assetid: '2be1ee35-20ba-4050-933c-7cee0e765de7'
-keywords: ["SSE property Virtual Server", "SSE property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , SSE property", "SSE property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , SSE property"]
+ms.assetid: 2be1ee35-20ba-4050-933c-7cee0e765de7
+keywords:
+- SSE property Virtual Server
+- SSE property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , SSE property
+- SSE property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , SSE property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::SSE property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SSE(
-  [out] VARIANT_BOOL *sseEnabled
+  [out] VARIANT_BOOL *sseEnabled
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

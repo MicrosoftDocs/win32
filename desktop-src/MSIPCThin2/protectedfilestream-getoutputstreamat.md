@@ -4,11 +4,14 @@ description: Returns an output stream at the specified location in the protected
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.ProtectedFileStream.GetOutputStreamAt(System.UInt64)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.ProtectedFileStream.GetOutputStreamAt(System.UInt64)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetOutputStreamAt method", "GetOutputStreamAt method, ProtectedFileStream class", "ProtectedFileStream class, GetOutputStreamAt method"]
+keywords:
+- GetOutputStreamAt method
+- GetOutputStreamAt method, ProtectedFileStream class
+- ProtectedFileStream class, GetOutputStreamAt method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.GetOutputStreamAt method
@@ -75,9 +81,9 @@ The output stream.
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

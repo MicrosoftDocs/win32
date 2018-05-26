@@ -1,14 +1,20 @@
 ---
 title: logonTriggerType Complex Type
 description: Defines the child elements and sequencing information for the LogonTrigger element.
-ms.assetid: 'ddb1d01b-89d1-4d52-872c-4fbd90f32f4b'
-keywords: ["logonTriggerType complex type Task Scheduler"]
+ms.assetid: ddb1d01b-89d1-4d52-872c-4fbd90f32f4b
+keywords:
+- logonTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - logonTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # logonTriggerType Complex Type
@@ -58,8 +64,8 @@ In addition to the child elements defined here, the [**LogonTrigger**](tasksched
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -73,9 +79,9 @@ In addition to the child elements defined here, the [**LogonTrigger**](tasksched
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

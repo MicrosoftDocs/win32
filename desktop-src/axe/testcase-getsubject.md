@@ -1,8 +1,11 @@
 ---
 title: TestCase GetSubject method
 description: Returns the Subject of the TestCase.
-ms.assetid: 'B7E9774A-51EE-40AF-B7AC-3E782F6B9165'
-keywords: ["GetSubject method Access Execution Engine", "GetSubject method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , GetSubject method"]
+ms.assetid: B7E9774A-51EE-40AF-B7AC-3E782F6B9165
+keywords:
+- GetSubject method Access Execution Engine
+- GetSubject method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , GetSubject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::GetSubject method
@@ -22,7 +30,7 @@ Returns the [**Subject**](subject.md) of the **TestCase**.
 
 ```C++
 virtual HRESULT GetSubject(
-  [out] Subject **subject
+  [out] Subject **subject
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The **Subject** holds information from element **TestCase/Subject**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The **Subject** holds information from element **TestCase/Subject**.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

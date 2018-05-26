@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves basic attributes for the specified file object.'
-ms.assetid: '19f9a2ac-4db6-4c67-9f85-c107063e11b8'
+---
+Description: Retrieves basic attributes for the specified file object.
+ms.assetid: 19f9a2ac-4db6-4c67-9f85-c107063e11b8
 title: NtQueryAttributesFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtQueryAttributesFile function

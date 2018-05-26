@@ -1,7 +1,12 @@
 ---
-Description: 'A mailslot is a mechanism for one-way interprocess communications (IPC). Applications can store messages in a mailslot. The owner of the mailslot can retrieve messages that are stored there.'
-ms.assetid: '9a68905d-c235-4c72-bc71-1cccdf5cdadc'
+Description: A mailslot is a mechanism for one-way interprocess communications (IPC). Applications can store messages in a mailslot. The owner of the mailslot can retrieve messages that are stored there.
+ms.assetid: 9a68905d-c235-4c72-bc71-1cccdf5cdadc
 title: Mailslots
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mailslots

@@ -1,14 +1,20 @@
 ---
 title: MetaPackageInformation (Header) Element
 description: Identifies the troubleshooting package.
-ms.assetid: '0a83cfde-3626-4298-a5d7-de7aee62b41c'
-keywords: ["MetaPackageInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 0a83cfde-3626-4298-a5d7-de7aee62b41c
+keywords:
+- MetaPackageInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - MetaPackageInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetaPackageInformation (Header) Element
@@ -33,8 +39,8 @@ This node will contain three child **Data** elements that identify the propertie
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ This node will contain three child **Data** elements that identify the propertie
 [**Header (ResultReport)**](report-header-resultreport-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

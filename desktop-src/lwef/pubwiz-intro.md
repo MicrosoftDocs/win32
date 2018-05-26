@@ -1,8 +1,18 @@
 ---
 title: Publishing Wizards Introduction
 description: Windows XP introduces the Web Publishing Wizard and Online Print Ordering Wizard.
-ms.assetid: 'da3adc24-5b37-48b5-b055-d5bfa572defd'
-keywords: ["publishing wizards,about", "Web Publishing Wizard,about", "Online Print Ordering Wizard,about", "publishing wizards,Web Publishing Wizard", "publishing wizards,Online Print Ordering Wizard"]
+ms.assetid: da3adc24-5b37-48b5-b055-d5bfa572defd
+keywords:
+- publishing wizards,about
+- Web Publishing Wizard,about
+- Online Print Ordering Wizard,about
+- publishing wizards,Web Publishing Wizard
+- publishing wizards,Online Print Ordering Wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Publishing Wizards Introduction

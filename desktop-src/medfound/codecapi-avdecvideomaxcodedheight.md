@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the maximum picture height that a video decoder will accept as an input type.'
-ms.assetid: '4122B150-3415-4288-8273-AB600901808A'
-title: 'CODECAPI\_AVDecVideoMaxCodedHeight property'
+Description: Sets the maximum picture height that a video decoder will accept as an input type.
+ms.assetid: 4122B150-3415-4288-8273-AB600901808A
+title: CODECAPI\_AVDecVideoMaxCodedHeight property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVDecVideoMaxCodedHeight property
@@ -22,8 +27,8 @@ CODECAPI\_AVDecVideoMaxCodedHeight
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -38,9 +43,9 @@ CODECAPI\_AVDecVideoMaxCodedHeight
 [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

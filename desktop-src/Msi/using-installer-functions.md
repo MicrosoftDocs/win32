@@ -1,7 +1,12 @@
 ---
-Description: 'To add Windows Installer functionality to your application, use the installer service functions.'
-ms.assetid: '1cb0fd3e-5f39-4a3f-8348-93e74496903d'
+Description: To add Windows Installer functionality to your application, use the installer service functions.
+ms.assetid: 1cb0fd3e-5f39-4a3f-8348-93e74496903d
 title: Using Installer Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Installer Functions

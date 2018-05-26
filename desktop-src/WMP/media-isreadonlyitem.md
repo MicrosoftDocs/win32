@@ -1,8 +1,11 @@
 ---
 title: Media.isReadOnlyItem method
 description: The isReadOnlyItem method returns a value indicating whether the specified attribute of the media item can be edited.
-ms.assetid: 'd8b2dd45-3e3f-4325-b4d0-939abbc425e1'
-keywords: ["isReadOnlyItem method Windows Media Player", "isReadOnlyItem method Windows Media Player , Media class", "Media class Windows Media Player , isReadOnlyItem method"]
+ms.assetid: d8b2dd45-3e3f-4325-b4d0-939abbc425e1
+keywords:
+- isReadOnlyItem method Windows Media Player
+- isReadOnlyItem method Windows Media Player , Media class
+- Media class Windows Media Player , isReadOnlyItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.isReadOnlyItem method
@@ -108,9 +116,9 @@ for(var i = 0; i < cm.attributeCount; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

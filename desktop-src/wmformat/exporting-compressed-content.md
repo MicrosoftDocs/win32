@@ -1,8 +1,24 @@
 ---
 title: Exporting Compressed Content
 description: Exporting Compressed Content
-ms.assetid: 'b312aa5e-d693-4d0a-9d74-b443713cec8c'
-keywords: ["Windows Media Format SDK,DRM export", "Windows Media Format SDK,export", "Windows Media Format SDK,compressed content", "digital rights management (DRM),export", "DRM (digital rights management),export", "digital rights management (DRM),compressed content", "DRM (digital rights management),compressed content", "DRM Client Extended APIs,compressed content", "Client Extended APIs,compressed content", "DRM Client Extended APIs,export", "Client Extended APIs,export"]
+ms.assetid: b312aa5e-d693-4d0a-9d74-b443713cec8c
+keywords:
+- Windows Media Format SDK,DRM export
+- Windows Media Format SDK,export
+- Windows Media Format SDK,compressed content
+- digital rights management (DRM),export
+- DRM (digital rights management),export
+- digital rights management (DRM),compressed content
+- DRM (digital rights management),compressed content
+- DRM Client Extended APIs,compressed content
+- Client Extended APIs,compressed content
+- DRM Client Extended APIs,export
+- Client Extended APIs,export
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exporting Compressed Content

@@ -2,13 +2,15 @@
 title: DnsServerPrimaryZone class
 description: DNS Primary Zone.
 audience: developer
-ms.assetid: '94c84eed-1872-46a4-b7aa-f40a82faf6b7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 94c84eed-1872-46a4-b7aa-f40a82faf6b7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerPrimaryZone class", "DnsServerPrimaryZone class, described"]
+keywords:
+- DnsServerPrimaryZone class
+- DnsServerPrimaryZone class, described
 topic_type:
 - apiref
 api_name:
@@ -39,6 +41,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerPrimaryZone class
@@ -53,26 +58,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerPrimaryZone : DnsServerZone
 {
-  string  DistinguishedName;
-  string  ZoneName;
-  string  ZoneType;
+  string  DistinguishedName;
+  string  ZoneName;
+  string  ZoneType;
   boolean IsPaused;
   boolean IsDsIntegrated;
   boolean IsAutoCreated;
   boolean IsReverseLookupZone;
   boolean IsReadOnly;
   boolean IsShutdown;
-  string  DirectoryPartitionName;
-  string  ReplicationScope;
-  string  ZoneFile;
-  string  Notify;
-  string  NotifyServers[];
-  string  SecureSecondaries;
-  string  SecondaryServers[];
-  string  DynamicUpdate;
+  string  DirectoryPartitionName;
+  string  ReplicationScope;
+  string  ZoneFile;
+  string  Notify;
+  string  NotifyServers[];
+  string  SecureSecondaries;
+  string  SecondaryServers[];
+  string  DynamicUpdate;
   boolean IsWinsEnabled;
   boolean IsSigned;
-  string  AllowedDcForNsRecordsAutoCreation[];
+  string  AllowedDcForNsRecordsAutoCreation[];
   boolean IsPluginEnabled;
   boolean IgnorePolicies;
 };
@@ -180,7 +185,7 @@ Access type: Read-only
 
 **true** if the policies of this zone are to be ignored; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -243,9 +248,9 @@ Qualifiers: **Experimental**
 
 Not supported.
 
-**Windows Server 2012 R2:  true** if the zone is plugin enabled.
+**Windows Server 2012 R2:  true** if the zone is plugin enabled.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -563,7 +568,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -580,9 +585,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

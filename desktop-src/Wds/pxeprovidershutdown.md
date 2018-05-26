@@ -1,26 +1,32 @@
 ---
 title: PxeProviderShutdown callback function
 description: Called to shutdown the provider.
-ms.assetid: '436d7428-18f9-4b73-b346-79c9a0738c31'
-keywords: ["PxeProviderShutdown callback function Windows Deployment Services"]
+ms.assetid: 436d7428-18f9-4b73-b346-79c9a0738c31
+keywords:
+- PxeProviderShutdown callback function Windows Deployment Services
 topic_type:
 - apiref
 api_name:
 - PxeProviderShutdown
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PxeProviderShutdown callback function
 
-Called to shutdown the provider. This function is registered by calling the [**PxeRegisterCallback**](pxeregistercallback.md) function with the *CallbackType* parameter set to **PXE\_CALLBACK\_SHUTDOWN**. After this function is called, the *hProvider* handle passed to the [*PxeProviderInitialize*](pxeproviderinitialize.md) function is no longer valid.
+Called to shutdown the provider. This function is registered by calling the [**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master) function with the *CallbackType* parameter set to **PXE\_CALLBACK\_SHUTDOWN**. After this function is called, the *hProvider* handle passed to the [*PxeProviderInitialize*](pxeproviderinitialize.md) function is no longer valid.
 
 ## Syntax
 
 
 ```C++
 DWORD PXEAPI PxeProviderShutdown(
-  _In_ PVOID pContext
+  _In_ PVOID pContext
 );
 ```
 
@@ -33,7 +39,7 @@ DWORD PXEAPI PxeProviderShutdown(
 *pContext* \[in\]
 </dt> <dd>
 
-Context value passed to the [**PxeRegisterCallback**](pxeregistercallback.md) function.
+Context value passed to the [**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master) function.
 
 </dd> </dl>
 
@@ -48,7 +54,7 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
 
 
 
@@ -62,12 +68,12 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 [*PxeProviderInitialize*](pxeproviderinitialize.md)
 </dt> <dt>
 
-[**PxeRegisterCallback**](pxeregistercallback.md)
+[**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

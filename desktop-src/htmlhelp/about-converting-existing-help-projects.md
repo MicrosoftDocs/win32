@@ -1,7 +1,12 @@
 ---
 title: About Converting Existing Help Projects
 description: Microsoft HTML Help is the next-generation online authoring system from Microsoft Corporation and is based on Microsoft WinHelp 4.0.
-ms.assetid: 'AE812334-93B4-4a24-BF01-C0C4CC9FCF0F'
+ms.assetid: AE812334-93B4-4a24-BF01-C0C4CC9FCF0F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Converting Existing Help Projects

@@ -4,11 +4,13 @@ description: WMI registry event class. Includes example showing use of registry 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb0d328e-60bd-4ecb-8e26-0d14c1eddc46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: eb0d328e-60bd-4ecb-8e26-0d14c1eddc46
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RegistryTreeChangeEvent class", "RegistryTreeChangeEvent class, described"]
+keywords:
+- RegistryTreeChangeEvent class
+- RegistryTreeChangeEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StdProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RegistryTreeChangeEvent class
@@ -132,8 +137,8 @@ Loop
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StdProv.dll</dt> </dl>  |
@@ -150,9 +155,9 @@ Loop
 [Registering for System Registry Events](https://msdn.microsoft.com/library/aa393035)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

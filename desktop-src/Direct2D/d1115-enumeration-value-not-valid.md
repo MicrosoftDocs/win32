@@ -1,14 +1,20 @@
 ---
 title: D1115 Enumeration Value Not Valid
 description: D1115 Enumeration Value Not Valid
-ms.assetid: 'cfffd2b8-a7d3-4a60-8586-81d8435936a6'
-keywords: ["D1115 Enumeration Value Not Valid Direct2D"]
+ms.assetid: cfffd2b8-a7d3-4a60-8586-81d8435936a6
+keywords:
+- D1115 Enumeration Value Not Valid Direct2D
 topic_type:
 - apiref
 api_name:
 - D1115 Enumeration Value Not Valid
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1115: Enumeration Value Not Valid

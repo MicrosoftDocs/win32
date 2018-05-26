@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UpgradeCode property is a GUID representing a related set of products. The UpgradeCode is used in the Upgrade Table to search for related versions of the product that are already installed.This property is used by the RegisterProduct action.'
-ms.assetid: '6cdee5d8-8aa0-4fad-9338-152ee33b8077'
+---
+Description: The UpgradeCode property is a GUID representing a related set of products. The UpgradeCode is used in the Upgrade Table to search for related versions of the product that are already installed.This property is used by the RegisterProduct action.
+ms.assetid: 6cdee5d8-8aa0-4fad-9338-152ee33b8077
 title: UpgradeCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpgradeCode property

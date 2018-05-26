@@ -4,10 +4,13 @@ description: The following topics show you have to setup you your development en
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '296FC4C0-99C6-4997-AD97-5CEE01221B1A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 296FC4C0-99C6-4997-AD97-5CEE01221B1A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setup developer environment

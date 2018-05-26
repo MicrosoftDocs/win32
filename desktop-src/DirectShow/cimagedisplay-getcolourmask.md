@@ -1,7 +1,12 @@
 ---
-Description: 'The GetColourMask method retrieves the color masks for the current display format.'
-ms.assetid: '386d0439-8502-411d-935c-3c2153a8b5b4'
-title: 'CImageDisplay.GetColourMask method'
+Description: The GetColourMask method retrieves the color masks for the current display format.
+ms.assetid: 386d0439-8502-411d-935c-3c2153a8b5b4
+title: CImageDisplay.GetColourMask method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.GetColourMask method
@@ -13,9 +18,9 @@ The `GetColourMask` method retrieves the color masks for the current display for
 
 ```C++
 BOOL GetColourMask(
-   DWORD *pMaskRed,
-   DWORD *pMaskGreen,
-   DWORD *pMaskBlue
+   DWORD *pMaskRed,
+   DWORD *pMaskGreen,
+   DWORD *pMaskBlue
 );
 ```
 
@@ -68,9 +73,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

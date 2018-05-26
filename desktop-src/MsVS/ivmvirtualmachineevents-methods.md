@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualMachineEvents Methods
 description: The IVMVirtualMachineEvents interface defines the following methods
-ms.assetid: 'da76bc3f-0d1b-49cd-8fd3-a74e465fb3f0'
+ms.assetid: da76bc3f-0d1b-49cd-8fd3-a74e465fb3f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents Methods

@@ -1,8 +1,14 @@
 ---
 title: ActivationFailureLoggingLevel
 description: Sets the verbosity of event log entries about failed requests for component launch and activation.
-ms.assetid: 'c3981621-5826-405c-8962-edfa9c783c2d'
-keywords: ["ActivationFailureLoggingLevel registry value COM"]
+ms.assetid: c3981621-5826-405c-8962-edfa9c783c2d
+keywords:
+- ActivationFailureLoggingLevel registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivationFailureLoggingLevel
@@ -24,7 +30,7 @@ This is a **REG\_DWORD** value.
 
 | Value | Description                                                                                                                                                                                                       |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | Use discretionary logging. Log failures by default, but clients can override this behavior by specifying CLSCTX\_NO\_FAILURE\_LOG in [**CoCreateInstanceEx**](cocreateinstanceex.md). This is the default value. |
+| 0     | Use discretionary logging. Log failures by default, but clients can override this behavior by specifying CLSCTX\_NO\_FAILURE\_LOG in [**CoCreateInstanceEx**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstanceex?branch=master). This is the default value. |
 | 1     | Always log all failures no matter what the client specified.                                                                                                                                                      |
 | 2     | Never log any failures no matter what the client specified.                                                                                                                                                       |
 

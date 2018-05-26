@@ -1,12 +1,17 @@
 ---
 title: Help
 description: Use Help as a secondary mechanism to help users complete and better understand tasks \ 8212;the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find.
-ms.assetid: '82ce076e-062b-4793-a1c0-ed96c0f2b284'
+ms.assetid: 82ce076e-062b-4793-a1c0-ed96c0f2b284
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Help
 
-Use Help as a secondary mechanism to help users complete and better understand tasks—the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find.
+Use Help as a secondary mechanism to help users complete and better understand tasks the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find.
 
 A Help system is composed of various types of content designed to assist users when they are unable to complete a task, want to understand a concept in more detail, or need more technical details than are available in the UI.
 
@@ -51,7 +56,7 @@ To think in greater depth about designing your Help system, consider an analogy 
 
 The design of the city's "interface" affects your need for assistance. Well-labeled streets, explicit directions (pointers to hospitals, airports, museums, and the post office), and clear landmarks such as prominent geographical features or buildings help you find your way.
 
-You ask for help as a last resort. It's an indication that the city's "interface" has failed by being poorly designed and confusing. You are more likely to ask for help in a place that has a specific label that suggests helpfulness. For example, you are more likely to ask for help in a place labeled "Directions" or "Information" than a general place like the City Hall—even though just about anyone at City Hall could give you directions.
+You ask for help as a last resort. It's an indication that the city's "interface" has failed by being poorly designed and confusing. You are more likely to ask for help in a place that has a specific label that suggests helpfulness. For example, you are more likely to ask for help in a place labeled "Directions" or "Information" than a general place like the City Hall even though just about anyone at City Hall could give you directions.
 
 When you ask for help, chances are you are frustrated and just want to get to your intended destination. You probably aren't in the mood to spend time taking a tour of the city or learning about its history. Further, your motivation depends on the importance of the task. If you are trying to find your hotel room, you will do whatever it takes. However, if your goal is to find a place of minor importance, most likely you will just give up after a modest effort.
 
@@ -128,7 +133,7 @@ Different kinds of content serve different purposes.
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -224,7 +229,7 @@ In this example, the Help icon on the lower-left is used incorrectly with a Help
 
 **Help links**
 
--   Provide specific information about the content of the Help topic, using as much relevant, concise text as necessary. Users often ignore generic Help links. Make sure the results of the link are predictable—users shouldn't be surprised by the results.
+-   Provide specific information about the content of the Help topic, using as much relevant, concise text as necessary. Users often ignore generic Help links. Make sure the results of the link are predictable users shouldn't be surprised by the results.
 
     -   **Exception:** You can use "More information" to supplement instructions that are directly in the UI, especially if providing specific information in the Help link leads to unnecessary repetition or makes the link less compelling.
 
@@ -319,9 +324,9 @@ In this example, the Help icon on the lower-left is used incorrectly with a Help
 -   Format captions using italic. This applies to tables, art, screenshots, and other graphic elements that benefit from brief textual explanation.
 -   Refer to Help simply as Help. Generally, don't use the phrase online Help unless you are in fact referring to content on your Web site.
 
- 
+ 
 
- 
+ 
 
 
 

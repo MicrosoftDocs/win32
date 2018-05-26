@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new virtual switch.'
-ms.assetid: 'de7495e9-48c5-427a-b9bb-0821b53a9b09'
-title: 'DefineSystem method of the Msvm\_VirtualEthernetSwitchManagementService class'
+Description: Creates a new virtual switch.
+ms.assetid: de7495e9-48c5-427a-b9bb-0821b53a9b09
+title: DefineSystem method of the Msvm\_VirtualEthernetSwitchManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefineSystem method of the Msvm\_VirtualEthernetSwitchManagementService class
@@ -13,11 +18,11 @@ Creates a new virtual switch. Properties that are not specified will be populate
 
 ```mof
 uint32 DefineSystem(
-  [in]  string                           SystemSettings,
-  [in]  string                           ResourceSettings[],
-  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
-  [out] CIM_ComputerSystem           REF ResultingSystem,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  string                           SystemSettings,
+  [in]  string                           ResourceSettings[],
+  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
+  [out] CIM_ComputerSystem           REF ResultingSystem,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -101,8 +106,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -116,9 +121,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualEthernetSwitchManagementService**](msvm-virtualethernetswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

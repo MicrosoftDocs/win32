@@ -1,7 +1,12 @@
 ---
-Description: 'The time functions included in the C run-time use the time\_t type to represent the number of seconds elapsed since midnight, January 1, 1970. The following example converts a time\_t value to a file time, using the Int32x32To64 function.'
-ms.assetid: 'f626c0b2-a5a1-475d-9a24-64e7b0407278'
-title: 'Converting a time\_t Value to a File Time'
+Description: The time functions included in the C run-time use the time\_t type to represent the number of seconds elapsed since midnight, January 1, 1970. The following example converts a time\_t value to a file time, using the Int32x32To64 function.
+ms.assetid: f626c0b2-a5a1-475d-9a24-64e7b0407278
+title: Converting a time\_t Value to a File Time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Converting a time\_t Value to a File Time
@@ -23,7 +28,7 @@ void TimetToFileTime( time_t t, LPFILETIME pft )
 
 
 
-After you have obtained a file time, you can convert this value to system time using the [**FileTimeToSystemTime**](filetimetosystemtime.md) function.
+After you have obtained a file time, you can convert this value to system time using the [**FileTimeToSystemTime**](/windows/win32/FileAPI/?branch=master) function.
 
  
 

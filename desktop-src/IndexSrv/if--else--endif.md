@@ -1,7 +1,12 @@
 ---
 title: if, else, endif
 description: if, else, endif
-ms.assetid: '2717f3ca-d578-4e86-bc8b-c4d76022d4db'
+ms.assetid: 2717f3ca-d578-4e86-bc8b-c4d76022d4db
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if, else, endif

@@ -1,7 +1,12 @@
 ---
-Description: 'The Add method adds an item to the collection.'
-ms.assetid: '3b06abc4-f0ab-4b02-b3a7-360615f86a2a'
-title: 'IPortableDeviceValuesCollection::Add method'
+Description: The Add method adds an item to the collection.
+ms.assetid: 3b06abc4-f0ab-4b02-b3a7-360615f86a2a
+title: IPortableDeviceValuesCollectionAdd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValuesCollection::Add method
@@ -13,7 +18,7 @@ The **Add** method adds an item to the collection.
 
 ```C++
 HRESULT Add(
-  [in] IPortableDeviceValues *pValues
+  [in] IPortableDeviceValues *pValues
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +68,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValuesCollection Interface**](iportabledevicevaluescollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

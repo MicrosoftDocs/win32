@@ -1,7 +1,12 @@
 ---
 title: About Tab Controls
 description: A tab control is analogous to the dividers in a notebook or the labels in a file cabinet. By using a tab control, an application can define multiple pages for the same area of a window or dialog box.
-ms.assetid: '55ed2863-7f8d-43ce-a0f9-6f6d41e3f947'
+ms.assetid: 55ed2863-7f8d-43ce-a0f9-6f6d41e3f947
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Tab Controls
@@ -27,7 +32,7 @@ This topic includes the following sections.
 
 ## Creating Tab Controls
 
-You can create a tab control by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_TABCONTROL**](common-control-window-classes.md#wc-tabcontrol) window class. This window class is registered when the common controls DLL is loaded. To ensure that the DLL is loaded, use the [**InitCommonControlsEx**](initcommoncontrolsex.md) function.
+You can create a tab control by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying the [**WC\_TABCONTROL**](common-control-window-classes.md#wc-tabcontrol) window class. This window class is registered when the common controls DLL is loaded. To ensure that the DLL is loaded, use the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function.
 
 In Microsoft Visual Studio, you can create a tab control by using the Toolbox.
 
@@ -51,17 +56,17 @@ You can specify that a tab control will create a tooltip control by using the [*
 
 ## Tabs and Tab Attributes
 
-Each tab in a tab control consists of an icon, a label, and application-defined data. This information is specified by a [**TCITEM**](tcitem.md) structure. You can add tabs to a tab control, retrieve the number of tabs, retrieve and set the contents of a tab, and delete tabs. Tabs are identified by their zero-based index.
+Each tab in a tab control consists of an icon, a label, and application-defined data. This information is specified by a [**TCITEM**](/windows/win32/Commctrl/ns-commctrl-tagtcitema?branch=master) structure. You can add tabs to a tab control, retrieve the number of tabs, retrieve and set the contents of a tab, and delete tabs. Tabs are identified by their zero-based index.
 
-To add tabs to a tab control, use the [**TCM\_INSERTITEM**](tcm-insertitem.md) message, specifying the position of the item and the address of a [**TCITEM**](tcitem.md) structure. You can retrieve and set the contents of an existing tab by using the [**TCM\_GETITEM**](tcm-getitem.md) and [**TCM\_SETITEM**](tcm-setitem.md) messages. For each tab, you can specify an icon, a label, or both. You can also specify application-defined data to associate with the tab.
+To add tabs to a tab control, use the [**TCM\_INSERTITEM**](tcm-insertitem.md) message, specifying the position of the item and the address of a [**TCITEM**](/windows/win32/Commctrl/ns-commctrl-tagtcitema?branch=master) structure. You can retrieve and set the contents of an existing tab by using the [**TCM\_GETITEM**](tcm-getitem.md) and [**TCM\_SETITEM**](tcm-setitem.md) messages. For each tab, you can specify an icon, a label, or both. You can also specify application-defined data to associate with the tab.
 
 You can retrieve the current number of tabs by using the [**TCM\_GETITEMCOUNT**](tcm-getitemcount.md) message, delete a tab by using the [**TCM\_DELETEITEM**](tcm-deleteitem.md) message, and delete all tabs in a tab control by using the [**TCM\_DELETEALLITEMS**](tcm-deleteallitems.md) message.
 
 You can associate application-defined data with each tab. For example, you might save information about each page with its corresponding tab. By default, a tab control allocates four extra bytes per tab for application-defined data. You can change the number of extra bytes per tab by using the [**TCM\_SETITEMEXTRA**](tcm-setitemextra.md) message. You can only use this message when the tab control is empty.
 
-The application-defined data is specified by the **lParam** member of the [**TCITEM**](tcitem.md) structure. If you use more than 4 bytes of application-defined data, you need to define your own structure and use it instead of **TCITEM**. You can retrieve and set application-defined data the same way you retrieve and set other information about a tab—by using the [**TCM\_GETITEM**](tcm-getitem.md) and [**TCM\_SETITEM**](tcm-setitem.md) messages.
+The application-defined data is specified by the **lParam** member of the [**TCITEM**](/windows/win32/Commctrl/ns-commctrl-tagtcitema?branch=master) structure. If you use more than 4 bytes of application-defined data, you need to define your own structure and use it instead of **TCITEM**. You can retrieve and set application-defined data the same way you retrieve and set other information about a tab—by using the [**TCM\_GETITEM**](tcm-getitem.md) and [**TCM\_SETITEM**](tcm-setitem.md) messages.
 
-The first member of your structure must be a [**TCITEMHEADER**](tcitemheader.md) structure, and the remaining members must specify application-defined data. **TCITEMHEADER** is identical to [**TCITEM**](tcitem.md), except it does not have the **lParam** member. The difference between the size of your structure and the size of **TCITEMHEADER** should equal the number of extra bytes per tab.
+The first member of your structure must be a [**TCITEMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagtcitemheadera?branch=master) structure, and the remaining members must specify application-defined data. **TCITEMHEADER** is identical to [**TCITEM**](/windows/win32/Commctrl/ns-commctrl-tagtcitema?branch=master), except it does not have the **lParam** member. The difference between the size of your structure and the size of **TCITEMHEADER** should equal the number of extra bytes per tab.
 
 ## Display Area
 
@@ -81,9 +86,9 @@ You can retrieve and set the current selection by using the [**TCM\_GETCURSEL**]
 
 ## Tab Control Image Lists
 
-Each tab can have an icon associated with it, which is specified by an index in the image list for the tab control. When a tab control is created, it has no image list associated with it. An application can create an image list by using the [**ImageList\_Create**](imagelist-create.md) function and then assign it to a tab control by using the [**TCM\_SETIMAGELIST**](tcm-setimagelist.md) message.
+Each tab can have an icon associated with it, which is specified by an index in the image list for the tab control. When a tab control is created, it has no image list associated with it. An application can create an image list by using the [**ImageList\_Create**](/windows/win32/Commctrl/nf-commctrl-imagelist_create?branch=master) function and then assign it to a tab control by using the [**TCM\_SETIMAGELIST**](tcm-setimagelist.md) message.
 
-You can add images to a tab control's image list just as you would to any other image list. However, an application should remove images by using the [**TCM\_REMOVEIMAGE**](tcm-removeimage.md) message instead of the [**ImageList\_Remove**](imagelist-remove.md) function. This message ensures that each tab remains associated with the same image as before.
+You can add images to a tab control's image list just as you would to any other image list. However, an application should remove images by using the [**TCM\_REMOVEIMAGE**](tcm-removeimage.md) message instead of the [**ImageList\_Remove**](/windows/win32/Commctrl/nf-commctrl-imagelist_remove?branch=master) function. This message ensures that each tab remains associated with the same image as before.
 
 Destroying a tab control does not destroy an image list that is associated with it. You must destroy the image list separately. This is useful if you want to assign the same image list to multiple tab controls.
 
@@ -101,9 +106,9 @@ In a tab control with the [**TCS\_MULTILINE**](tab-control-styles.md#tcs-multili
 
 ## Owner-Drawn Tabs
 
-If a tab control has the [**TCS\_OWNERDRAWFIXED**](tab-control-styles.md#tcs-ownerdrawfixed) style, the parent window must paint tabs by processing the [**WM\_DRAWITEM**](wm-drawitem.md) message. The tab control sends this message whenever a tab needs to be painted. The *lParam* parameter specifies the address of a [**DRAWITEMSTRUCT**](drawitemstruct.md) structure, which contains the index of the tab, its bounding rectangle, and the device context (DC) in which to draw.
+If a tab control has the [**TCS\_OWNERDRAWFIXED**](tab-control-styles.md#tcs-ownerdrawfixed) style, the parent window must paint tabs by processing the [**WM\_DRAWITEM**](wm-drawitem.md) message. The tab control sends this message whenever a tab needs to be painted. The *lParam* parameter specifies the address of a [**DRAWITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure, which contains the index of the tab, its bounding rectangle, and the device context (DC) in which to draw.
 
-By default, the **itemData** member of [**DRAWITEMSTRUCT**](drawitemstruct.md) contains the value of the **lParam** member of the [**TCITEM**](tcitem.md) structure. However, if you change the amount of application-defined data per tab, **itemData** contains the address of the data instead. You can change the amount of application-defined data per tab by using the [**TCM\_SETITEMEXTRA**](tcm-setitemextra.md) message.
+By default, the **itemData** member of [**DRAWITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) contains the value of the **lParam** member of the [**TCITEM**](/windows/win32/Commctrl/ns-commctrl-tagtcitema?branch=master) structure. However, if you change the amount of application-defined data per tab, **itemData** contains the address of the data instead. You can change the amount of application-defined data per tab by using the [**TCM\_SETITEMEXTRA**](tcm-setitemextra.md) message.
 
 To specify the size of items in a tab control, the parent window must process the [**WM\_MEASUREITEM**](wm-measureitem.md) message. Because all tabs in an owner-drawn tab control are the same size, this message is sent only once. There is no tab control style for owner-drawn tabs of varying size. You can also set the width and height of tabs by using the [**TCM\_SETITEMSIZE**](tcm-setitemsize.md) message.
 

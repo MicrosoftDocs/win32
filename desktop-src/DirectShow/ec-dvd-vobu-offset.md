@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the DVD Navigator parses a PCI packet.'
-ms.assetid: 'e2e65007-7c34-4be4-86b9-9491061891e5'
-title: 'EC\_DVD\_VOBU\_Offset'
+Description: Sent when the DVD Navigator parses a PCI packet.
+ms.assetid: e2e65007-7c34-4be4-86b9-9491061891e5
+title: EC\_DVD\_VOBU\_Offset
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_VOBU\_Offset
@@ -28,7 +33,7 @@ The current video title set number (VTSN).
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
 
 ## Requirements
 
@@ -53,9 +58,9 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

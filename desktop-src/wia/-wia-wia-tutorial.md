@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial provides step-by-step instructions to use Windows Image Acquisition (WIA) in real-world applications.'
-ms.assetid: '157b72ef-7bb2-44aa-b5c9-40e5ff90f67d'
+Description: This tutorial provides step-by-step instructions to use Windows Image Acquisition (WIA) in real-world applications.
+ms.assetid: 157b72ef-7bb2-44aa-b5c9-40e5ff90f67d
 title: WIA Tutorial
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Tutorial

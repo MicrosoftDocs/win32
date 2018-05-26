@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice IsMuteSupported property
 description: Gets a value that indicates if the device supports muting the audio.
-ms.assetid: 'FF4B533F-B416-4DBE-BF86-FA34E785FFA2'
-keywords: ["IsMuteSupported property Media Streaming API", "IsMuteSupported property Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , IsMuteSupported property"]
+ms.assetid: FF4B533F-B416-4DBE-BF86-FA34E785FFA2
+keywords:
+- IsMuteSupported property Media Streaming API
+- IsMuteSupported property Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , IsMuteSupported property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::IsMuteSupported property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsMuteSupported(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -43,8 +51,8 @@ A pointer to a **boolean** that indicates if the device supports muting the audi
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -58,9 +66,9 @@ A pointer to a **boolean** that indicates if the device supports muting the audi
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

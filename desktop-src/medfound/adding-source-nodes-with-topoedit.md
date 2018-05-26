@@ -1,7 +1,12 @@
 ---
 Description: Adding Source Nodes with TopoEdit
-ms.assetid: 'f42227eb-a988-4eaa-9c18-b3ac270cd7a2'
+ms.assetid: f42227eb-a988-4eaa-9c18-b3ac270cd7a2
 title: Adding Source Nodes with TopoEdit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Source Nodes with TopoEdit

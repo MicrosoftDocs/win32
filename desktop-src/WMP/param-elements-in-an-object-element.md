@@ -1,8 +1,23 @@
 ---
 title: PARAM Elements in an OBJECT Element
 description: PARAM Elements in an OBJECT Element
-ms.assetid: 'f9229d92-3a7e-4ba4-a84c-20e60f2482dc'
-keywords: ["Windows Media Player,PARAM elements in OBJECT element", "Windows Media Player object model,PARAM elements in OBJECT element", "object model,PARAM elements in OBJECT element", "Windows Media Player Mobile,PARAM elements in OBJECT element", "Windows Media Player ActiveX control,PARAM elements in OBJECT element", "Windows Media Player Mobile ActiveX control,PARAM elements in OBJECT element", "ActiveX control,PARAM elements in OBJECT element", "embedding,Web pages", "Web page embedding,PARAM elements in OBJECT element", "PARAM elements in OBJECT element"]
+ms.assetid: f9229d92-3a7e-4ba4-a84c-20e60f2482dc
+keywords:
+- Windows Media Player,PARAM elements in OBJECT element
+- Windows Media Player object model,PARAM elements in OBJECT element
+- object model,PARAM elements in OBJECT element
+- Windows Media Player Mobile,PARAM elements in OBJECT element
+- Windows Media Player ActiveX control,PARAM elements in OBJECT element
+- Windows Media Player Mobile ActiveX control,PARAM elements in OBJECT element
+- ActiveX control,PARAM elements in OBJECT element
+- embedding,Web pages
+- Web page embedding,PARAM elements in OBJECT element
+- PARAM elements in OBJECT element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PARAM Elements in an OBJECT Element

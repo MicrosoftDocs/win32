@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandGROUP method
 description: Issues an GROUP command to the server.
-ms.assetid: '2f290580-c72d-4773-8c5c-6e19b7e0bffe'
-keywords: ["CommandGROUP method Windows Mail (formerly Outlook Express)", "CommandGROUP method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandGROUP method"]
+ms.assetid: 2f290580-c72d-4773-8c5c-6e19b7e0bffe
+keywords:
+- CommandGROUP method Windows Mail (formerly Outlook Express)
+- CommandGROUP method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandGROUP method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandGROUP method
@@ -24,7 +32,7 @@ Issues an GROUP command to the server. The server's response string will be retu
 
 ```C++
 HRESULT CommandGROUP(
-  [in] LPSTR pszGroup
+  [in] LPSTR pszGroup
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

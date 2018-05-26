@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the value of the attribute.'
-ms.assetid: 'aaf0c07c-756f-48c8-b4cd-def40f7cb1a3'
-title: 'Attribute.Value property'
+---
+Description: Sets or retrieves the value of the attribute.
+ms.assetid: aaf0c07c-756f-48c8-b4cd-def40f7cb1a3
+title: Attribute.Value property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute.Value property

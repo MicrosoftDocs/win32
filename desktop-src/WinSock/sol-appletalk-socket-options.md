@@ -1,14 +1,19 @@
-﻿---
-Description: 'The following table describes SOL\_APPLETALK socket options that apply to sockets created for the AppleTalk address family (AF\_APPLETALK).'
-ms.assetid: '1a6b18e3-1fea-4ba2-8076-c38e7f679e9e'
-title: 'SOL\_APPLETALK Socket Options'
+---
+Description: The following table describes SOL\_APPLETALK socket options that apply to sockets created for the AppleTalk address family (AF\_APPLETALK).
+ms.assetid: 1a6b18e3-1fea-4ba2-8076-c38e7f679e9e
+title: SOL\_APPLETALK Socket Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SOL\_APPLETALK Socket Options
 
-The following table describes **SOL\_APPLETALK** socket options that apply to sockets created for the AppleTalk address family (AF\_APPLETALK). See the [**getsockopt**](getsockopt-2.md) and [**setsockopt**](setsockopt-2.md) function reference pages for more information on getting and setting socket options.
+The following table describes **SOL\_APPLETALK** socket options that apply to sockets created for the AppleTalk address family (AF\_APPLETALK). See the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) and [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function reference pages for more information on getting and setting socket options.
 
-To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](wsaenumprotocols-2.md), [**WSCEnumProtocols**](wscenumprotocols-2.md), or [**WSCEnumProtocols32**](wscenumprotocols32.md) function.
+To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master), [**WSCEnumProtocols**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols?branch=master), or [**WSCEnumProtocols32**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols32?branch=master) function.
 
 <dl> <dt><span id="SOL_APPLETALK_Socket_Options"></span><span id="sol_appletalk_socket_options"></span><span id="SOL_APPLETALK_SOCKET_OPTIONS"></span>**SOL\_APPLETALK Socket Options**</dt> <dd> <dl> <dt> 
 

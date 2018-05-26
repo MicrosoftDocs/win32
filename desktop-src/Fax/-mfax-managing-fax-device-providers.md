@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to manage fax device providers.'
-ms.assetid: '422003a1-7db2-4eff-97bd-8ca889a3e5f6'
+Description: The following Microsoft Visual Basic code example demonstrates how to manage fax device providers.
+ms.assetid: 422003a1-7db2-4eff-97bd-8ca889a3e5f6
 title: Managing Fax Device Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Fax Device Providers

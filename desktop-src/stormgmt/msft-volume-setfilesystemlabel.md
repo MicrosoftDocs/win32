@@ -1,8 +1,11 @@
 ---
 title: SetFileSystemLabel method of the MSFT\_Volume class
 description: Sets the file system label for the volume.
-ms.assetid: 'BD93DE04-A779-49DC-8764-75A98F8B8AF8'
-keywords: ["SetFileSystemLabel method Windows Storage Management API", "SetFileSystemLabel method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , SetFileSystemLabel method"]
+ms.assetid: BD93DE04-A779-49DC-8764-75A98F8B8AF8
+keywords:
+- SetFileSystemLabel method Windows Storage Management API
+- SetFileSystemLabel method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , SetFileSystemLabel method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetFileSystemLabel method of the MSFT\_Volume class
@@ -22,8 +30,8 @@ Sets the file system label for the volume.
 
 ```mof
 UInt32 SetFileSystemLabel(
-  [in]  String FileSystemLabel,
-  [out] String ExtendedStatus
+  [in]  String FileSystemLabel,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -77,8 +85,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -91,9 +99,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

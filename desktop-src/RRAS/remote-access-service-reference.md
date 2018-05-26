@@ -1,8 +1,14 @@
 ---
 title: Remote Access Service Reference
 description: The following functions, structures, messages, and enumeration types are used to implement Remote Access Service (RAS) client applications.
-ms.assetid: '238420a7-6a18-43bc-8225-6581f0fd4d63'
-keywords: ["Remote Access Service RAS ,reference"]
+ms.assetid: 238420a7-6a18-43bc-8225-6581f0fd4d63
+keywords:
+- Remote Access Service RAS ,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Access Service Reference

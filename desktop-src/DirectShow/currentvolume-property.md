@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentVolume property retrieves the volume number for the current root directory.'
-ms.assetid: 'f8d06a30-d6d5-43b9-b838-741d781f8d01'
+Description: The CurrentVolume property retrieves the volume number for the current root directory.
+ms.assetid: f8d06a30-d6d5-43b9-b838-741d781f8d01
 title: CurrentVolume Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentVolume Property

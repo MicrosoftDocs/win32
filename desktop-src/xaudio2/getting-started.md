@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section provides a list of key topics about XAudio2.'
-ms.assetid: 'e9a1a384-39e3-c87a-d718-a6a4ea6785ec'
+---
+Description: This section provides a list of key topics about XAudio2.
+ms.assetid: e9a1a384-39e3-c87a-d718-a6a4ea6785ec
 title: Getting Started
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started

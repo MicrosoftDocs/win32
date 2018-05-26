@@ -1,8 +1,21 @@
 ---
 title: DRM Individualization Example
 description: DRM Individualization Example
-ms.assetid: '665a5005-d435-4783-b48e-2d8400aa7638'
-keywords: ["Windows Media Format SDK,DRM individualization", "Windows Media Format SDK,individualization", "digital rights management (DRM),individualization", "DRM (digital rights management),individualization", "digital rights management (DRM),DRM individualization", "DRM (digital rights management),DRM individualization", "DRM Client Extended APIs,individualization", "Client Extended APIs,individualization"]
+ms.assetid: 665a5005-d435-4783-b48e-2d8400aa7638
+keywords:
+- Windows Media Format SDK,DRM individualization
+- Windows Media Format SDK,individualization
+- digital rights management (DRM),individualization
+- DRM (digital rights management),individualization
+- digital rights management (DRM),DRM individualization
+- DRM (digital rights management),DRM individualization
+- DRM Client Extended APIs,individualization
+- Client Extended APIs,individualization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Individualization Example

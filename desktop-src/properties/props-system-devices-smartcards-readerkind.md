@@ -1,7 +1,12 @@
 ---
-Description: 'Smart card reader kind.'
-ms.assetid: '380599cb-da28-4f64-8c72-13b79a18d0e0'
-title: 'System.Devices.SmartCards.ReaderKind'
+Description: Smart card reader kind.
+ms.assetid: 380599cb-da28-4f64-8c72-13b79a18d0e0
+title: System.Devices.SmartCards.ReaderKind
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.SmartCards.ReaderKind

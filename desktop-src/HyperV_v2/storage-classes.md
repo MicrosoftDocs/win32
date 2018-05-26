@@ -1,7 +1,12 @@
 ---
-Description: 'The storage objects are separated into three types: controllers, drives, and media.'
-ms.assetid: 'CF38F6E8-A43D-4A97-8055-6B17E323524C'
+Description: The storage objects are separated into three types controllers, drives, and media.
+ms.assetid: CF38F6E8-A43D-4A97-8055-6B17E323524C
 title: Storage classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage classes
@@ -40,11 +45,11 @@ The following are virtualization WMI classes related to storage. There is also s
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

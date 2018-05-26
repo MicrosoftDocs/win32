@@ -1,12 +1,17 @@
-﻿---
-Description: 'Defines values for use with the FXEQ\_PARAMETERS structure.'
-ms.assetid: '2e77ac36-95e7-3a15-f5a6-6576e3c69d75'
+---
+Description: Defines values for use with the FXEQ\_PARAMETERS structure.
+ms.assetid: 2e77ac36-95e7-3a15-f5a6-6576e3c69d75
 title: FXEQ Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FXEQ Constants
 
-Defines values for use with the [**FXEQ\_PARAMETERS**](fxeq-parameters.md) structure.
+Defines values for use with the [**FXEQ\_PARAMETERS**](/windows/win32/xapofx/ns-xapofx-fxeq_parameters?branch=master) structure.
 
 
 

@@ -1,8 +1,20 @@
 ---
 title: Exploring a Device
 description: Exploring a Device
-ms.assetid: '8b171b8a-00b7-4873-a4f7-1a0f29ad5cc0'
-keywords: ["Windows Media Device Manager,exploring devices", "Device Manager,exploring devices", "programming guide,exploring devices", "desktop applications,exploring devices", "creating Windows Media Device Manager applications,exploring devices", "exploring devices", "storages"]
+ms.assetid: 8b171b8a-00b7-4873-a4f7-1a0f29ad5cc0
+keywords:
+- Windows Media Device Manager,exploring devices
+- Device Manager,exploring devices
+- programming guide,exploring devices
+- desktop applications,exploring devices
+- creating Windows Media Device Manager applications,exploring devices
+- exploring devices
+- storages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exploring a Device
@@ -11,10 +23,10 @@ Exploring a device is similar to exploring a disk drive. All objects on a device
 
 The following steps describe how to explore a device:
 
-1.  Get the [**IWMDMDevice**](iwmdmdevice.md) interface of a device as described in [Enumerating Devices](enumerating-devices.md).
-2.  Call [**IWMDMDevice::EnumStorage**](iwmdmdevice-enumstorage.md) to retrieve an [**IWMDMEnumStorage**](iwmdmenumstorage.md) interface. This interface is used to get all child objects of the storage that returns this interface. When getting this interface from the device, as we are here, it will hold only one storage: the root device storage.
-3.  Call [**IWMDMEnumStorage::Next**](iwmdmenumstorage-next.md) with a count of 1 to retrieve the [**IWMDMStorage**](iwmdmstorage.md) interface for the root device storage. (You cannot request more than one child from the device.)
-4.  Examine all storages on the device by recursively calling [**IWMDMStorage::EnumStorage**](iwmdmstorage-enumstorage.md) and then **IWMDMEnumStorage::Next** to get children of a storage. To see if a storage has children to avoid the calls to **EnumStorage** and **Next**, you can call [**IWMDMStorage::GetAttributes**](iwmdmstorage-getattributes.md) to check for the flags WMDM\_STORAGE\_ATTR\_HAS\_FILES or WMDM\_STORAGE\_ATTR\_HAS\_FOLDERS. For more information about how to get the properties of a storage, see [Getting and Setting Metadata and Attributes](getting-and-setting-metadata-and-attributes.md) and [Getting and Setting Metadata and Attributes in the Application](getting-and-setting-metadata-and-attributes-in-the-application.md).
+1.  Get the [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) interface of a device as described in [Enumerating Devices](enumerating-devices.md).
+2.  Call [**IWMDMDevice::EnumStorage**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice-enumstorage?branch=master) to retrieve an [**IWMDMEnumStorage**](/windows/win32/mswmdm/nn-mswmdm-iwmdmenumstorage?branch=master) interface. This interface is used to get all child objects of the storage that returns this interface. When getting this interface from the device, as we are here, it will hold only one storage: the root device storage.
+3.  Call [**IWMDMEnumStorage::Next**](/windows/win32/mswmdm/nf-mswmdm-iwmdmenumstorage-next?branch=master) with a count of 1 to retrieve the [**IWMDMStorage**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage?branch=master) interface for the root device storage. (You cannot request more than one child from the device.)
+4.  Examine all storages on the device by recursively calling [**IWMDMStorage::EnumStorage**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-enumstorage?branch=master) and then **IWMDMEnumStorage::Next** to get children of a storage. To see if a storage has children to avoid the calls to **EnumStorage** and **Next**, you can call [**IWMDMStorage::GetAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getattributes?branch=master) to check for the flags WMDM\_STORAGE\_ATTR\_HAS\_FILES or WMDM\_STORAGE\_ATTR\_HAS\_FOLDERS. For more information about how to get the properties of a storage, see [Getting and Setting Metadata and Attributes](getting-and-setting-metadata-and-attributes.md) and [Getting and Setting Metadata and Attributes in the Application](getting-and-setting-metadata-and-attributes-in-the-application.md).
 
 Windows Media Device Manager does not expose a standard set of folders to hold media of a specific type (for example, a "My Playlists" folder for playlists). Every device has a unique file system, and you will have to decide on an appropriate place to look for, or to send, a specific file.
 

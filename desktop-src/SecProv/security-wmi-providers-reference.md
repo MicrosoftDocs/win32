@@ -1,7 +1,12 @@
 ---
-Description: 'Contain detailed descriptions.'
-ms.assetid: 'c8850bc8-b3a8-4b63-b0a4-d8af61a4f761'
+Description: Contain detailed descriptions.
+ms.assetid: c8850bc8-b3a8-4b63-b0a4-d8af61a4f761
 title: Security WMI Providers Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security WMI Providers Reference

@@ -4,10 +4,13 @@ description: To maximize CPU availability for all users, either disable backgrou
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c3688319-dbe7-4be5-8895-622a8f8797d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c3688319-dbe7-4be5-8895-622a8f8797d2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Guidelines for background tasks in Remote Desktop Services

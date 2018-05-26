@@ -1,7 +1,12 @@
-﻿---
-Description: 'Percent of time processing shader data.'
-ms.assetid: '388bb943-c25f-4b50-b7e4-d6259f1186c2'
-title: 'D3DDEVINFO\_D3D9STAGETIMINGS structure'
+---
+Description: Percent of time processing shader data.
+ms.assetid: 388bb943-c25f-4b50-b7e4-d6259f1186c2
+title: D3DDEVINFO\_D3D9STAGETIMINGS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVINFO\_D3D9STAGETIMINGS structure
@@ -67,7 +72,7 @@ For best performance, a balanced load is recommended.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](idirect3dquery9--getdata.md)
+[**GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master)
 </dt> </dl>
 
  

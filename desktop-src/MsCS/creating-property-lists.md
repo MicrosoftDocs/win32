@@ -4,18 +4,22 @@ description: How to create a property list using the Failover Cluster API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15d08ce0-070a-47cd-bf0c-71fdc98d6d7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 15d08ce0-070a-47cd-bf0c-71fdc98d6d7f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property lists Failover Cluster ,creating"]
+keywords:
+- property lists Failover Cluster ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Property Lists
 
 There are two recommended ways of creating a [property list](property-lists.md):
 
--   [*Cluster-aware applications*](c-gly.md#-wolf-cluster-aware-application-gly) should use [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md) to build the property list as a series of value lists. For procedures and examples, see [Building with CLUSPROP\_BUFFER\_HELPER](building-with-clusprop-buffer-helper.md).
+-   [*Cluster-aware applications*](c-gly.md#-wolf-cluster-aware-application-gly) should use [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master) to build the property list as a series of value lists. For procedures and examples, see [Building with CLUSPROP\_BUFFER\_HELPER](building-with-clusprop-buffer-helper.md).
 -   [Resource DLLs](resource-dlls.md) should store local copies of property data in [parameter blocks](parameter-blocks.md) and [property tables](property-tables.md), and use the property structure construction functions to generate [property lists](property-lists.md). For procedures and examples, see [Using Parameter Blocks](using-parameter-blocks.md) and [Using Lists and Tables](using-lists-and-tables.md).
 
 This distinction is based on the fact that many property table operations require direct access to the [cluster database](cluster-database.md). Resource DLLs are expected to have such access. However, cluster-aware applications should avoid direct cluster database manipulation. See the [standard order of preference](standard-order-of-preference.md).

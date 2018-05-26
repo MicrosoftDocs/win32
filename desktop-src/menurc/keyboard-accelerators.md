@@ -1,8 +1,19 @@
 ---
 title: Keyboard Accelerators
 description: This section discusses keyboard accelerators. A keyboard accelerator is a keystroke or combination of keystrokes that generates a command message for an application.
-ms.assetid: 'cbf7619d-289d-40c9-9a06-6ce47026d43f'
-keywords: ["user input,keyboard accelerators", "capturing user input,keyboard accelerators", "keyboard accelerators", "accelerators", "WM_COMMAND message", "WM_SYS COMMAND message"]
+ms.assetid: cbf7619d-289d-40c9-9a06-6ce47026d43f
+keywords:
+- user input,keyboard accelerators
+- capturing user input,keyboard accelerators
+- keyboard accelerators
+- accelerators
+- WM_COMMAND message
+- WM_SYS COMMAND message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard Accelerators
@@ -21,7 +32,7 @@ A *keyboard accelerator* (or, simply, accelerator) is a keystroke or combination
 
 
 
- 
+ 
 
 ### Keyboard Accelerator Functions
 
@@ -29,15 +40,15 @@ A *keyboard accelerator* (or, simply, accelerator) is a keystroke or combination
 
 | Name                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CopyAcceleratorTable**](copyacceleratortable.md)       | Copies the specified accelerator table. This function is used to obtain the accelerator-table data that corresponds to an accelerator-table handle, or to determine the size of the accelerator-table data. <br/>                                                                                                                                                                                                                                                                                                                                                                    |
-| [**CreateAcceleratorTable**](createacceleratortable.md)   | Creates an accelerator table. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [**DestroyAcceleratorTable**](destroyacceleratortable.md) | Destroys an accelerator table.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [**LoadAccelerators**](loadaccelerators.md)               | Loads the specified accelerator table. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [**TranslateAccelerator**](translateaccelerator.md)       | Processes accelerator keys for menu commands. The function translates a [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) or [**WM\_SYSKEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646286) message to a [**WM\_COMMAND**](wm-command.md) or [**WM\_SYSCOMMAND**](wm-syscommand.md) message (if there is an entry for the key in the specified accelerator table) and then sends the **WM\_COMMAND** or **WM\_SYSCOMMAND** message directly to the specified window procedure. [**TranslateAccelerator**](translateaccelerator.md) does not return until the window procedure has processed the message. <br/> |
+| [**CopyAcceleratorTable**](/windows/win32/Winuser/nf-winuser-copyacceleratortablea?branch=master)       | Copies the specified accelerator table. This function is used to obtain the accelerator-table data that corresponds to an accelerator-table handle, or to determine the size of the accelerator-table data. <br/>                                                                                                                                                                                                                                                                                                                                                                    |
+| [**CreateAcceleratorTable**](/windows/win32/Winuser/nf-winuser-createacceleratortablea?branch=master)   | Creates an accelerator table. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**DestroyAcceleratorTable**](/windows/win32/Winuser/nf-winuser-destroyacceleratortable?branch=master) | Destroys an accelerator table.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**LoadAccelerators**](/windows/win32/Winuser/nf-winuser-loadacceleratorsa?branch=master)               | Loads the specified accelerator table. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| [**TranslateAccelerator**](/windows/win32/Winuser/nf-winuser-translateacceleratora?branch=master)       | Processes accelerator keys for menu commands. The function translates a [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) or [**WM\_SYSKEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646286) message to a [**WM\_COMMAND**](wm-command.md) or [**WM\_SYSCOMMAND**](wm-syscommand.md) message (if there is an entry for the key in the specified accelerator table) and then sends the **WM\_COMMAND** or **WM\_SYSCOMMAND** message directly to the specified window procedure. [**TranslateAccelerator**](/windows/win32/Winuser/nf-winuser-translateacceleratora?branch=master) does not return until the window procedure has processed the message. <br/> |
 
 
 
- 
+ 
 
 ### Keyboard Accelerator Messages
 
@@ -52,7 +63,7 @@ A *keyboard accelerator* (or, simply, accelerator) is a keystroke or combination
 
 
 
- 
+ 
 
 ### Keyboard Accelerator Notifications
 
@@ -63,12 +74,12 @@ A *keyboard accelerator* (or, simply, accelerator) is a keystroke or combination
 | [**WM\_INITMENUPOPUP**](wm-initmenupopup.md) | Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu. <br/>                                                                                                                                              |
 | [**WM\_MENUCHAR**](wm-menuchar.md)           | Sent when a menu is active and the user presses a key that does not correspond to any mnemonic or accelerator key. This message is sent to the window that owns the menu. <br/>                                                                                                                                             |
 | [**WM\_MENUSELECT**](wm-menuselect.md)       | Sent to a menu's owner window when the user selects a menu item. <br/>                                                                                                                                                                                                                                                      |
-| [**WM\_SYSCHAR**](wm-syschar.md)             | Posted to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646286) message is translated by the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function. It specifies the character code of a system character key—that is, a character key that is pressed while the ALT key is down. <br/> |
+| [**WM\_SYSCHAR**](wm-syschar.md)             | Posted to the window with the keyboard focus when a [**WM\_SYSKEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646286) message is translated by the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) function. It specifies the character code of a system character key that is, a character key that is pressed while the ALT key is down. <br/> |
 | [**WM\_SYSCOMMAND**](wm-syscommand.md)       | A window receives this message when the user chooses a command from the **Window** menu or when the user chooses the maximize button, minimize button, restore button, or close button.<br/>                                                                                                                                |
 
 
 
- 
+ 
 
 ### Keyboard Accelerator Structures
 
@@ -76,15 +87,15 @@ A *keyboard accelerator* (or, simply, accelerator) is a keystroke or combination
 
 | Name                   | Description                                                          |
 |------------------------|----------------------------------------------------------------------|
-| [**ACCEL**](accel.md) | Defines an accelerator key used in an accelerator table. <br/> |
+| [**ACCEL**](/windows/win32/Winuser/ns-winuser-tagaccel?branch=master) | Defines an accelerator key used in an accelerator table. <br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

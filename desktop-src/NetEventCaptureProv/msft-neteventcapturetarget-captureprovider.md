@@ -1,8 +1,10 @@
 ---
 title: MSFT\_NetEventCaptureTarget\_CaptureProvider class
 description: This class encapsulates the association between the packet capture provider and a packet capture target.
-ms.assetid: 'ad06fa95-977d-41bd-96c0-511651d1bb4e'
-keywords: ["MSFT_NetEventCaptureTarget_CaptureProvider class", "MSFT_NetEventCaptureTarget_CaptureProvider class, described"]
+ms.assetid: ad06fa95-977d-41bd-96c0-511651d1bb4e
+keywords:
+- MSFT_NetEventCaptureTarget_CaptureProvider class
+- MSFT_NetEventCaptureTarget_CaptureProvider class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetEventCaptureTarget\_CaptureProvider class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetEventCaptureTarget_CaptureProvider : CIM_Component
 {
   MSFT_NetEventPacketCaptureProvider REF GroupComponent;
-  MSFT_NetEventPacketCaptureTarget   REF PartComponent;
+  MSFT_NetEventPacketCaptureTarget   REF PartComponent;
 };
 ```
 
@@ -82,8 +89,8 @@ Identifies the packet capture target.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -97,9 +104,9 @@ Identifies the packet capture target.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

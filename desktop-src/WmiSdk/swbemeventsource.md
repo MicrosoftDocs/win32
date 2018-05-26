@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemEventSource object retrieves events from an event query in conjunction with SWbemServices.ExecNotificationQuery.'
+Description: The SWbemEventSource object retrieves events from an event query in conjunction with SWbemServices.ExecNotificationQuery.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7efd5e6a-4311-4d20-8b05-e9208eec098a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7efd5e6a-4311-4d20-8b05-e9208eec098a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemEventSource object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemEventSource object
@@ -33,7 +36,7 @@ The **SWbemEventSource** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -47,7 +50,7 @@ The **SWbemEventSource** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -85,8 +88,8 @@ wend
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -102,9 +105,9 @@ wend
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

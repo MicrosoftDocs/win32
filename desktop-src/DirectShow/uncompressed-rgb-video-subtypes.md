@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following subtypes define uncompressed RGB formats with no alpha channel.'
-ms.assetid: '49c91c8c-6889-48c6-8fa5-84929c03d951'
+---
+Description: The following subtypes define uncompressed RGB formats with no alpha channel.
+ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: Uncompressed RGB Video Subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uncompressed RGB Video Subtypes
@@ -38,7 +43,7 @@ The following subtypes define uncompressed RGB formats with alpha channel.
 
 ## Remarks
 
-For palettized formats, the color of each pixel is specified as an index into a palette. The palette must be included in the format block, following the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure. For non-palettized formats, the color of each pixel is specified directly; the memory layout depends on the bit depth:
+For palettized formats, the color of each pixel is specified as an index into a palette. The palette must be included in the format block, following the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure. For non-palettized formats, the color of each pixel is specified directly; the memory layout depends on the bit depth:
 
 -   RGB 555 uses the following memory layout:
     ```C++

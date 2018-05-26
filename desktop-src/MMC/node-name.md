@@ -4,11 +4,16 @@ description: The Name property returns the display name of the node. This proper
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3e93c163-01bd-4cd7-90f5-45a77b510ff4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3e93c163-01bd-4cd7-90f5-45a77b510ff4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Name property MMC", "Name property MMC , Node object", "Node object MMC , Name property", "Name property MMC , Node interface", "Node interface MMC , Name property"]
+keywords:
+- Name property MMC
+- Name property MMC , Node object
+- Node object MMC , Name property
+- Name property MMC , Node interface
+- Node interface MMC , Name property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node::Name property
@@ -55,8 +63,8 @@ MsgBox ("Name: " & strName)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -71,9 +79,9 @@ MsgBox ("Name: " & strName)
 [**Node.Nodetype**](node-nodetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

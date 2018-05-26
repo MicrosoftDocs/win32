@@ -1,12 +1,17 @@
 ---
 title: Games for Windows Technical Requirements Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
 description: This article provides technical requirements and best practices for games that run on Windows.
-ms.assetid: '8b816e9f-de68-cf84-1501-a9c36c6b75d8'
+ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Games for Windows Technical Requirements: Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
 
-This article provides technical requirements and best practices for games that run on Windows. We wrote these technical requirements and best practices primarily to cover Windows Vista and Windows 7, as well as the legacy Windows XP operating system. These best practices also generally apply to desktop Win32 games on Windows 8.
+This article provides technical requirements and best practices for games that run on Windows. We wrote these technical requirements and best practices primarily to cover Windows Vista and Windows 7, as well as the legacy Windows XP operating system. These best practices also generally apply to desktop Win32 games on Windows 8.
 
 This articles contains these sections:
 
@@ -57,21 +62,21 @@ Here is a summary of the key differences when applying these technical requireme
 <span id="The_Games_Explorer_UI_is_not_visible"></span><span id="the_games_explorer_ui_is_not_visible"></span><span id="THE_GAMES_EXPLORER_UI_IS_NOT_VISIBLE"></span>**The Games Explorer UI is not visible**
 </dt> <dd>
 
-All games that you register with the [Games Explorer](e01f5313-be50-4d12-8a8f-816d45878e5c) are surfaced as tiles in new Windows UI, but much of the metadata that is associated with the title is no longer visible. You still use the Games Definition File Maker tool (GDFMAKER.EXE), which is now available in the Windows Software Development Kit (SDK), to author the metadata. You also use the existing mechanisms for deploying the metadata. Continue to test your Games Explorer registration by using Windows 7, and verify that the new Windows UI tile shows up when you install it on Windows 8 (see [1.1 Games Explorer Integration](#11-games-explorer-integration)).
+All games that you register with the [Games Explorer](e01f5313-be50-4d12-8a8f-816d45878e5c) are surfaced as tiles in new Windows UI, but much of the metadata that is associated with the title is no longer visible. You still use the Games Definition File Maker tool (GDFMAKER.EXE), which is now available in the Windows Software Development Kit (SDK), to author the metadata. You also use the existing mechanisms for deploying the metadata. Continue to test your Games Explorer registration by using Windows 7, and verify that the new Windows UI tile shows up when you install it on Windows 8 (see [1.1 Games Explorer Integration](#11-games-explorer-integration)).
 
-To download the Windows 8 SDK, see [Downloads for developing desktop apps](http://go.microsoft.com/fwlink/p/?linkid=253588).
+To download the Windows 8 SDK, see [Downloads for developing desktop apps](http://go.microsoft.com/fwlink/p/?linkid=253588).
 
 </dd> <dt>
 
 <span id="Registration_with_the_Game_Explorer_APIs_continues_to_be_the_mechanism_for_registering_your_game_with_Windows_Parental_Controls"></span><span id="registration_with_the_game_explorer_apis_continues_to_be_the_mechanism_for_registering_your_game_with_windows_parental_controls"></span><span id="REGISTRATION_WITH_THE_GAME_EXPLORER_APIS_CONTINUES_TO_BE_THE_MECHANISM_FOR_REGISTERING_YOUR_GAME_WITH_WINDOWS_PARENTAL_CONTROLS"></span>**Registration with the Game Explorer APIs continues to be the mechanism for registering your game with Windows Parental Controls**
 </dt> <dd>
 
-We recommend that you run the Windows SDK version of GDFMAKER on the released version of Windows 8 to ensure that it can populate all currently supported rating systems.
+We recommend that you run the Windows SDK version of GDFMAKER on the released version of Windows 8 to ensure that it can populate all currently supported rating systems.
 
 > [!Note]  
 > This version of GDFMAKER requires .NET 4.0.
 
- 
+ 
 
 See [1.2 Support Family Safety / Parental Controls](#12-support-family-safety-parental-controls).
 
@@ -80,16 +85,16 @@ See [1.2 Support Family Safety / Parental Controls](#12-support-family-safety-pa
 <span id="There_are_now_three_choices_for_using_the_XINPUT_API_depending_on_your_requirements"></span><span id="there_are_now_three_choices_for_using_the_xinput_api_depending_on_your_requirements"></span><span id="THERE_ARE_NOW_THREE_CHOICES_FOR_USING_THE_XINPUT_API_DEPENDING_ON_YOUR_REQUIREMENTS"></span>**There are now three choices for using the XINPUT API depending on your requirements**
 </dt> <dd>
 
-XINPUT 1.4 is built into Windows 8. Both Windows Store apps and desktop Win32 apps can use XINPUT 1.4. All versions of Windows can use XINPUT 9.1.0 for simplified common controllers, but there is no redistribution package with XINPUT 9.1.0. All versions of Windows can also use the existing DirectX SDK version XINPUT 1.3, which requires DirectSetup to deploy.
+XINPUT 1.4 is built into Windows 8. Both Windows Store apps and desktop Win32 apps can use XINPUT 1.4. All versions of Windows can use XINPUT 9.1.0 for simplified common controllers, but there is no redistribution package with XINPUT 9.1.0. All versions of Windows can also use the existing DirectX SDK version XINPUT 1.3, which requires DirectSetup to deploy.
 
 See [1.4 Support the Xbox 360 Common Controller for Windows](#14-support-the-xbox-360-common-controller-for-windows-conditional-requirement).
 
 </dd> <dt>
 
-<span id="Only_a_limited_set_of_desktop_Win32_apps_are_supported_on_"></span><span id="only_a_limited_set_of_desktop_win32_apps_are_supported_on_"></span><span id="ONLY_A_LIMITED_SET_OF_DESKTOP_WIN32_APPS_ARE_SUPPORTED_ON_"></span>**Only a limited set of desktop Win32 apps are supported on Windows RT**
+<span id="Only_a_limited_set_of_desktop_Win32_apps_are_supported_on_"></span><span id="only_a_limited_set_of_desktop_win32_apps_are_supported_on_"></span><span id="ONLY_A_LIMITED_SET_OF_DESKTOP_WIN32_APPS_ARE_SUPPORTED_ON_"></span>**Only a limited set of desktop Win32 apps are supported on Windows RT**
 </dt> <dd>
 
-Games that run on Windows 7 can and should run correctly on Windows 8 x86 and x64 platforms.
+Games that run on Windows 7 can and should run correctly on Windows 8 x86 and x64 platforms.
 
 See [2.2 Support Windows x64 Versions](#22-support-windows-x64-versions).
 
@@ -98,37 +103,37 @@ See [2.2 Support Windows x64 Versions](#22-support-windows-x64-versions).
 <span id="Ensure_any_OS_checks_are_done_correctly"></span><span id="ensure_any_os_checks_are_done_correctly"></span><span id="ENSURE_ANY_OS_CHECKS_ARE_DONE_CORRECTLY"></span>**Ensure any OS checks are done correctly**
 </dt> <dd>
 
-The Windows 8 OS version is “6.2”. Windows 8 passes the current ‘minimum bar’ tests that we recommend for game deployment.
+The Windows 8 OS version is  6.2 . Windows 8 passes the current  minimum bar  tests that we recommend for game deployment.
 
 </dd> <dt>
 
-<span id="The__DirectX_End-User_Redistribution__package_runs_successfully_on_Windows_8__as_it_does_on_Windows_7__to_deploy_D3DX9__D3DX10__D3DX11__XINPUT_1.3__XAUDIO_2.7__XACTEngine__and_so_on"></span><span id="the__directx_end-user_redistribution__package_runs_successfully_on_windows_8__as_it_does_on_windows_7__to_deploy_d3dx9__d3dx10__d3dx11__xinput_1.3__xaudio_2.7__xactengine__and_so_on"></span><span id="THE__DIRECTX_END-USER_REDISTRIBUTION__PACKAGE_RUNS_SUCCESSFULLY_ON_WINDOWS_8__AS_IT_DOES_ON_WINDOWS_7__TO_DEPLOY_D3DX9__D3DX10__D3DX11__XINPUT_1.3__XAUDIO_2.7__XACTENGINE__AND_SO_ON"></span>**The “DirectX End-User Redistribution” package runs successfully on Windows 8, as it does on Windows 7, to deploy D3DX9, D3DX10, D3DX11, XINPUT 1.3, XAUDIO 2.7, XACTEngine, and so on**
+<span id="The__DirectX_End-User_Redistribution__package_runs_successfully_on_Windows_8__as_it_does_on_Windows_7__to_deploy_D3DX9__D3DX10__D3DX11__XINPUT_1.3__XAUDIO_2.7__XACTEngine__and_so_on"></span><span id="the__directx_end-user_redistribution__package_runs_successfully_on_windows_8__as_it_does_on_windows_7__to_deploy_d3dx9__d3dx10__d3dx11__xinput_1.3__xaudio_2.7__xactengine__and_so_on"></span><span id="THE__DIRECTX_END-USER_REDISTRIBUTION__PACKAGE_RUNS_SUCCESSFULLY_ON_WINDOWS_8__AS_IT_DOES_ON_WINDOWS_7__TO_DEPLOY_D3DX9__D3DX10__D3DX11__XINPUT_1.3__XAUDIO_2.7__XACTENGINE__AND_SO_ON"></span>**The  DirectX End-User Redistribution  package runs successfully on Windows 8, as it does on Windows 7, to deploy D3DX9, D3DX10, D3DX11, XINPUT 1.3, XAUDIO 2.7, XACTEngine, and so on**
 </dt> <dd>
 
-But, a known issue exists with DirectSetup on systems with only .NET 4.0 installed due to the deployment handling of the legacy Managed DirectX 1.1 assemblies. This issue applies to both Windows 8, which comes with .NET 4.5 by default, and ‘fresh’ Windows XP computers with the .NET 4.0 runtime installed. But, this issue does not apply to any version of .NET prior to .NET 4.0. While Windows 8 has an application compatibility behavior to resolve this issue automatically (which requires network access), we recommend that games that continue to deploy DirectSetup update to the DirectX SDK (June 2010) refreshed version of the REDIST files. As always, if you use DirectSetup for your title, trim your title down to the minimum required set of CABs.
+But, a known issue exists with DirectSetup on systems with only .NET 4.0 installed due to the deployment handling of the legacy Managed DirectX 1.1 assemblies. This issue applies to both Windows 8, which comes with .NET 4.5 by default, and  fresh  Windows XP computers with the .NET 4.0 runtime installed. But, this issue does not apply to any version of .NET prior to .NET 4.0. While Windows 8 has an application compatibility behavior to resolve this issue automatically (which requires network access), we recommend that games that continue to deploy DirectSetup update to the DirectX SDK (June 2010) refreshed version of the REDIST files. As always, if you use DirectSetup for your title, trim your title down to the minimum required set of CABs.
 
 See [3.4 Install Windows Resources Properly](#34-install-windows-resources-properly).
 
 </dd> <dt>
 
-<span id="Games_that_require_the_.NET__2.0__compatible_runtime__2.0__3.0__3.5__continue_to_use_existing_deployment_mechanisms"></span><span id="games_that_require_the_.net__2.0__compatible_runtime__2.0__3.0__3.5__continue_to_use_existing_deployment_mechanisms"></span><span id="GAMES_THAT_REQUIRE_THE_.NET__2.0__COMPATIBLE_RUNTIME__2.0__3.0__3.5__CONTINUE_TO_USE_EXISTING_DEPLOYMENT_MECHANISMS"></span>**Games that require the .NET “2.0” compatible runtime (2.0, 3.0, 3.5) continue to use existing deployment mechanisms**
+<span id="Games_that_require_the_.NET__2.0__compatible_runtime__2.0__3.0__3.5__continue_to_use_existing_deployment_mechanisms"></span><span id="games_that_require_the_.net__2.0__compatible_runtime__2.0__3.0__3.5__continue_to_use_existing_deployment_mechanisms"></span><span id="GAMES_THAT_REQUIRE_THE_.NET__2.0__COMPATIBLE_RUNTIME__2.0__3.0__3.5__CONTINUE_TO_USE_EXISTING_DEPLOYMENT_MECHANISMS"></span>**Games that require the .NET  2.0  compatible runtime (2.0, 3.0, 3.5) continue to use existing deployment mechanisms**
 </dt> <dd>
 
-These games trigger an application compatibility behavior on Windows 8 to enable the .NET 3.5 runtime automatically (which requires network access). But, we recommend that .NET developers move to the .NET 4.0 runtime.
+These games trigger an application compatibility behavior on Windows 8 to enable the .NET 3.5 runtime automatically (which requires network access). But, we recommend that .NET developers move to the .NET 4.0 runtime.
 
 > [!Note]  
 > The legacy Managed DirectX 1.1 assemblies are not compatible with the .NET 4.x runtime.
 
- 
+ 
 
 See [3.4 Install Windows Resources Properly](#34-install-windows-resources-properly).
 
 </dd> <dt>
 
-<span id="Use_of_an__autorunner__or_other_pre-install_technology_that_relies_on_.NET_is_not_recommended"></span><span id="use_of_an__autorunner__or_other_pre-install_technology_that_relies_on_.net_is_not_recommended"></span><span id="USE_OF_AN__AUTORUNNER__OR_OTHER_PRE-INSTALL_TECHNOLOGY_THAT_RELIES_ON_.NET_IS_NOT_RECOMMENDED"></span>**Use of an ‘autorunner’ or other pre-install technology that relies on .NET is not recommended**
+<span id="Use_of_an__autorunner__or_other_pre-install_technology_that_relies_on_.NET_is_not_recommended"></span><span id="use_of_an__autorunner__or_other_pre-install_technology_that_relies_on_.net_is_not_recommended"></span><span id="USE_OF_AN__AUTORUNNER__OR_OTHER_PRE-INSTALL_TECHNOLOGY_THAT_RELIES_ON_.NET_IS_NOT_RECOMMENDED"></span>**Use of an  autorunner  or other pre-install technology that relies on .NET is not recommended**
 </dt> <dd>
 
-You can assume that only .NET 2.0 compatible runtimes (2.0, 3.0, 3.5) are present on Windows Vista and Windows 7. Only the .NET 4.0 compatible runtime is present on Windows 8 by default.
+You can assume that only .NET 2.0 compatible runtimes (2.0, 3.0, 3.5) are present on Windows Vista and Windows 7. Only the .NET 4.0 compatible runtime is present on Windows 8 by default.
 
 See [3.7 Support Autorun](#37-support-autorun-conditional-requirement).
 
@@ -137,7 +142,7 @@ See [3.7 Support Autorun](#37-support-autorun-conditional-requirement).
 <span id="There_is_an_updated_Application_Verifier_for_Windows_8"></span><span id="there_is_an_updated_application_verifier_for_windows_8"></span><span id="THERE_IS_AN_UPDATED_APPLICATION_VERIFIER_FOR_WINDOWS_8"></span>**There is an updated Application Verifier for Windows 8**
 </dt> <dd>
 
-The Windows 8 SDK includes this updated Application Verifier.
+The Windows 8 SDK includes this updated Application Verifier.
 
 See [4.2 Eliminate Application Verifier Failures](#42-eliminate-application-verifier-failures).
 
@@ -192,7 +197,7 @@ Windows Games Explorer is similar in concept to the Windows XP folders **My Docu
 
 Integration with Games Explorer requires that you author a game definition file (GDF), which is an XML text file that is embedded within a binary file (an executable file or a DLL) as a resource, along with a Windows icon. The game must then be registered with Games Explorer. The GDF also enables the exposure of supplied information such as the game title, publisher, developer, links to websites and optional tasks. Note that support tasks can be only links to Web sites, but play tasks can be used for optional support tasks as well.
 
-Games Explorer can make use of a thumbnail bitmap image, but it is recommended that, instead, you provide a Windows icon resource with large icons (256×256). The icon resource should include image sizes of 256×256 48×48, 32×32, and 16×16 in both 24-bit (True Color) and 8-bit (256) color depths. The icon editor provided in Visual Studio 2008 and 2010 supports these large icon formats, as does IconWorkshop Lite.
+Games Explorer can make use of a thumbnail bitmap image, but it is recommended that, instead, you provide a Windows icon resource with large icons (256 256). The icon resource should include image sizes of 256 256 48 48, 32 32, and 16 16 in both 24-bit (True Color) and 8-bit (256) color depths. The icon editor provided in Visual Studio 2008 and 2010 supports these large icon formats, as does IconWorkshop Lite.
 
 Details on integrating with **Windows Games Explorer** are provided in the DirectX SDK. The DirectX SDK includes a game definition file (GDF) editor, as well as an example GDF that is included in GDFExampleBinary, a sample. Another sample, GameUxInstallHelper, provides routines for integrating the required functionality into existing installation systems. The Game Definition File Validator (gdftrace.exe) provides debugging support for evaluating a GDF. Also see "Windows Games Explorer Integration" in the DirectX SDK Documentation for C++.
 
@@ -306,12 +311,12 @@ Windows 8 retires support for the following now deprecated systems:<br/>
 
 
 
- 
+ 
 
 > [!Note]  
-> Any title that includes new ESRB Windows Vista Service Pack 1 (SP1) content descriptors will show as “Unrated” on Windows Vista without a service pack.
+> Any title that includes new ESRB Windows Vista Service Pack 1 (SP1) content descriptors will show as  Unrated  on Windows Vista without a service pack.
 
- 
+ 
 
 Newer ratings data are ignored on versions of operating systems without support for them. The PEGI (Finland) variant is now deprecated in favor of the standard PEGI (Europe) rating system. The OFLC system is now deprecated in favor of COB-AU for Australia.
 
@@ -378,9 +383,9 @@ It is recommended that DirectInput not be used to implement keyboard or mouse co
 
 The game must support at least the following aspect ratios and associated screen resolutions:
 
--   4:3 normal (800×600 or 1024×768)
--   16:9 widescreen (1280×720)
--   16:10 widescreen (1152×720 or 1680×1050 or 800×480)
+-   4:3 normal (800 600 or 1024 768)
+-   16:9 widescreen (1280 720)
+-   16:10 widescreen (1152 720 or 1680 1050 or 800 480)
 
 For screen resolution configuration and detection, the game must adhere to the following rules:
 
@@ -442,7 +447,7 @@ Use of versions of Direct3D newer than Direct3D 9 is strongly encouraged. See th
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**Requirement**
 </dt> <dd>
 
-Games and their installers must run correctly without visual problems when dots-per-inch (DPI) scaling is enabled (tested with 144 DPI for 150% scaling at display resolution of 1600×1200) on Windows Vista and Windows 7.
+Games and their installers must run correctly without visual problems when dots-per-inch (DPI) scaling is enabled (tested with 144 DPI for 150% scaling at display resolution of 1600 1200) on Windows Vista and Windows 7.
 
 This typically requires the game executable to declare being DPI-aware. This is accomplished by embedding a manifest element: &lt;dpiAware&gt;true&lt;dpiAware&gt; .
 
@@ -451,7 +456,7 @@ This typically requires the game executable to declare being DPI-aware. This is 
 <span id="Rationale"></span><span id="rationale"></span><span id="RATIONALE"></span>**Rationale**
 </dt> <dd>
 
-High-quality LCD monitors are commonplace as computer displays, and they look best when driven at their native resolutions (typically 1280×1024, 1600×1200, and so on). Customers who have difficulty reading text and seeing images at this resolution often set their computer desktops to a lower resolution and suffer visual artifacts from LCD scaling. Instead, customers can leave the resolution at the native size and change the DPI of the Windows display, thus making item and text appearance larger without sacrificing image quality.
+High-quality LCD monitors are commonplace as computer displays, and they look best when driven at their native resolutions (typically 1280 1024, 1600 1200, and so on). Customers who have difficulty reading text and seeing images at this resolution often set their computer desktops to a lower resolution and suffer visual artifacts from LCD scaling. Instead, customers can leave the resolution at the native size and change the DPI of the Windows display, thus making item and text appearance larger without sacrificing image quality.
 
 While this feature has been available in some form since Windows XP, it is seldom enabled by customers or by OEMs. More than half of all computer displays today are set to a lower resolution than the monitor's native resolution, based on customer feedback. Windows 7 makes this feature much more visible to customers during initial setup and when changing display settings, encouraging them to use DPI scaling rather than change the desktop resolution.
 
@@ -808,7 +813,7 @@ For more information about game installation, non-traditional game installation 
 > [!Note]  
 > Removing user-specific generated data files should be performed only for the current user and for common shared user locations. There is no robust way to scan the system to remove user-specific files for other users, even if the removal requires administrative credentials.
 
- 
+ 
 
 </dd> </dl>
 
@@ -1147,7 +1152,7 @@ For more information about the Windows Error Reporting APIs, and how to analyze 
 
 
 
- 
+ 
 
 ## Guidelines for Game Middleware Products
 
@@ -1166,7 +1171,7 @@ Beyond ensuring that your component supports the creation of titles that are com
     > [!Note]  
     > For the Visual Studio 2012 graphics diagnostics functionality, these D3DX and PIX routines are replaced by the [**ID3DUserDefinedAnnotation**](https://msdn.microsoft.com/library/windows/desktop/hh446881) interface.
 
-     
+     
 
 -   For networking libraries, provide IP-neutral implementations and avoid deprecated IPv4 only routines to support the IPv6 and Teredo technologies in Windows XP with Service Pack 2, Windows Vista, and Windows 7.
 -   Game service providers should register themselves with Games Explorer using version 2 of the GDF schema, and make use of the RSS feature to provide service-related news.
@@ -1268,7 +1273,7 @@ For more information, see [64-bit programming for Game Developers](https://msdn.
 > [!Note]  
 > A key challenge for this showcase is ensuring any third-party libraries or components your game relies on are available for 64-bit native development. Many legacy Microsoft APIs also have been eliminated from the 64-bit native environment, which can prove a challenge for engine code bases containing older implementations of key systems.
 
- 
+ 
 
 </dd> </dl>
 
@@ -1355,7 +1360,7 @@ For more information, see the Windows Touch SDK.
 
 Games that support High Color use a 10:10:10:2 (DXGI\_FORMAT\_R10G10B10A2, D3DFMT\_A2B10G10R10) or a 16:16:16:16 (DXGI\_FORMAT\_R16G16B16A16, D3DFMT\_A16B16G16R16) format for the rendering back-buffer and full-screen display mode.
 
-By using a “High Color” render target, High-Dynamic Range (HDR) content can be rendered with an extended or wide gamut when performing tone mapping to a 10-bit or 16-bit range.
+By using a  High Color  render target, High-Dynamic Range (HDR) content can be rendered with an extended or wide gamut when performing tone mapping to a 10-bit or 16-bit range.
 
 </dd> <dt>
 
@@ -1406,11 +1411,11 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

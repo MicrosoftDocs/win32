@@ -1,7 +1,12 @@
 ---
 title: Creating a Contents File
 description: You make a table of contents by creating a contents (.hhc) file.
-ms.assetid: '93B8E23F-F303-4fd8-95E2-CBD75FBA32EE'
+ms.assetid: 93B8E23F-F303-4fd8-95E2-CBD75FBA32EE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Contents File

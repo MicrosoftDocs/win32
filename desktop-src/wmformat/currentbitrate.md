@@ -1,14 +1,20 @@
 ---
 title: CurrentBitrate
 description: The CurrentBitrate attribute contains the current total bit rate of the active streams in the file.
-ms.assetid: '961f36d5-a408-40d9-9ca1-0ed7c484858f'
-keywords: ["CurrentBitrate windows Media Format"]
+ms.assetid: 961f36d5-a408-40d9-9ca1-0ed7c484858f
+keywords:
+- CurrentBitrate windows Media Format
 topic_type:
 - apiref
 api_name:
 - CurrentBitrate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentBitrate

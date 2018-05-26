@@ -1,7 +1,12 @@
 ---
 Description: Encoding Methods
-ms.assetid: '17ab5ecc-0173-4c5c-9d65-40e506ab7e07'
+ms.assetid: 17ab5ecc-0173-4c5c-9d65-40e506ab7e07
 title: Encoding Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoding Methods

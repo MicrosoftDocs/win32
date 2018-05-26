@@ -1,13 +1,16 @@
 ---
-Description: 'Several consumers, such as the Active Script Event Consumer or the Command Line Event Consumer, have string properties with the Template qualifier.'
+Description: Several consumers, such as the Active Script Event Consumer or the Command Line Event Consumer, have string properties with the Template qualifier.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd734c226-e160-4834-a5e8-62390905dfde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d734c226-e160-4834-a5e8-62390905dfde
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Using Standard String Templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Standard String Templates
@@ -22,7 +25,7 @@ The following list shows some examples of the template language:
 -   "%TargetInstance.CPUUtilization%" retrieves the value of the **CPUUtilization** property in the embedded instance of the **TargetInstance** property.
 -   "%%" produces a single % sign.
 -   If the property being retrieved is an array, the entire array is produced in the following format: "(1,5,10,1024)". If there is only one element in the array, the parentheses are omitted. If there are no elements in the array, "()" is produced.
--   If a property is an embedded object, the MOF representation of the object is produced (similar to the [**IWbemClassObject::GetObjectText**](iwbemclassobject-getobjecttext.md) method).
+-   If a property is an embedded object, the MOF representation of the object is produced (similar to the [**IWbemClassObject::GetObjectText**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-getobjecttext?branch=master) method).
 -   If a property of an embedded array of objects is requested, it is treated as a property with an array value. For example: %MyEvents.TargetInstance.DriverLetter% could produce '("C:","D:")' if MyEvents is an array of embedded instance modification events.
 
 ## String Literals

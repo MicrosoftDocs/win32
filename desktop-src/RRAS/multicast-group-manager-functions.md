@@ -1,56 +1,61 @@
 ---
 title: Multicast Group Manager Functions
 description: The following functions are used to register with the multicast group manager
-ms.assetid: 'd4374ced-06ea-49dd-8f52-0d06612aa4c3'
+ms.assetid: d4374ced-06ea-49dd-8f52-0d06612aa4c3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Group Manager Functions
 
 The following functions are used to register with the multicast group manager:
 
-[**MgmRegisterMProtocol**](mgmregistermprotocol.md)
+[**MgmRegisterMProtocol**](/windows/win32/Mgm/nf-mgm-mgmregistermprotocol?branch=master)
 
-[**MgmDeRegisterMProtocol**](mgmderegistermprotocol.md)
+[**MgmDeRegisterMProtocol**](/windows/win32/Mgm/nf-mgm-mgmderegistermprotocol?branch=master)
 
 The following functions are used to manage interface ownership:
 
-[**MgmGetProtocolOnInterface**](mgmgetprotocoloninterface.md)
+[**MgmGetProtocolOnInterface**](/windows/win32/Mgm/nf-mgm-mgmgetprotocoloninterface?branch=master)
 
-[**MgmTakeInterfaceOwnership**](mgmtakeinterfaceownership.md)
+[**MgmTakeInterfaceOwnership**](/windows/win32/Mgm/nf-mgm-mgmtakeinterfaceownership?branch=master)
 
-[**MgmReleaseInterfaceOwnership**](mgmreleaseinterfaceownership.md)
+[**MgmReleaseInterfaceOwnership**](/windows/win32/Mgm/nf-mgm-mgmreleaseinterfaceownership?branch=master)
 
 The following functions are used to manage group membership:
 
-[**MgmAddGroupMembershipEntry**](mgmaddgroupmembershipentry.md)
+[**MgmAddGroupMembershipEntry**](/windows/win32/Mgm/nf-mgm-mgmaddgroupmembershipentry?branch=master)
 
-[**MgmDeleteGroupMembershipEntry**](mgmdeletegroupmembershipentry.md)
+[**MgmDeleteGroupMembershipEntry**](/windows/win32/Mgm/nf-mgm-mgmdeletegroupmembershipentry?branch=master)
 
 The following functions are used to obtain multicast forwarding entries (MFEs) and MFE statistics:
 
-[**MgmGetFirstMfe**](mgmgetfirstmfe.md)
+[**MgmGetFirstMfe**](/windows/win32/Mgm/nf-mgm-mgmgetfirstmfe?branch=master)
 
-[**MgmGetNextMfe**](mgmgetnextmfe.md)
+[**MgmGetNextMfe**](/windows/win32/Mgm/nf-mgm-mgmgetnextmfe?branch=master)
 
-[**MgmGetMfe**](mgmgetmfe.md)
+[**MgmGetMfe**](/windows/win32/Mgm/nf-mgm-mgmgetmfe?branch=master)
 
-[**MgmGetFirstMfeStats**](mgmgetfirstmfestats.md)
+[**MgmGetFirstMfeStats**](/windows/win32/Mgm/nf-mgm-mgmgetfirstmfestats?branch=master)
 
-[**MgmGetNextMfeStats**](mgmgetnextmfestats.md)
+[**MgmGetNextMfeStats**](/windows/win32/Mgm/nf-mgm-mgmgetnextmfestats?branch=master)
 
-[**MgmGetMfeStats**](mgmgetmfestats.md)
+[**MgmGetMfeStats**](/windows/win32/Mgm/nf-mgm-mgmgetmfestats?branch=master)
 
 The following function is used to modify MFEs:
 
-[**MgmSetMfe**](mgmsetmfe.md)
+[**MgmSetMfe**](/windows/win32/Mgm/nf-mgm-mgmsetmfe?branch=master)
 
 The following functions are used obtain a list of groups that have been joined:
 
-[**MgmGroupEnumerationStart**](mgmgroupenumerationstart.md)
+[**MgmGroupEnumerationStart**](/windows/win32/Mgm/nf-mgm-mgmgroupenumerationstart?branch=master)
 
-[**MgmGroupEnumerationGetNext**](mgmgroupenumerationgetnext.md)
+[**MgmGroupEnumerationGetNext**](/windows/win32/Mgm/nf-mgm-mgmgroupenumerationgetnext?branch=master)
 
-[**MgmGroupEnumerationEnd**](mgmgroupenumerationend.md)
+[**MgmGroupEnumerationEnd**](/windows/win32/Mgm/nf-mgm-mgmgroupenumerationend?branch=master)
 
  
 

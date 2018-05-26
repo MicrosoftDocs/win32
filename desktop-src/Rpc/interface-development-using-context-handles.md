@@ -1,7 +1,12 @@
 ---
 title: Interface Development Using Context Handles
 description: Typically, you create a context handle by specifying the \ context\_handle\ attribute on a type definition in the IDL file.
-ms.assetid: 'e4caf91f-f92d-4aef-a20f-0a3073230640'
+ms.assetid: e4caf91f-f92d-4aef-a20f-0a3073230640
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Development Using Context Handles

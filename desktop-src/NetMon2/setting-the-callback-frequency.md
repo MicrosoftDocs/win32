@@ -1,7 +1,12 @@
 ---
-Description: 'Use the following code to set the callback frequency.'
-ms.assetid: 'fdcad3c2-7e36-4194-83c7-dccbd50762d5'
+Description: Use the following code to set the callback frequency.
+ms.assetid: fdcad3c2-7e36-4194-83c7-dccbd50762d5
 title: Setting the Callback Frequency
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Callback Frequency

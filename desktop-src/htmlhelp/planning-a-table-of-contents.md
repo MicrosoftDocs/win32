@@ -1,7 +1,12 @@
 ---
 title: Planning a Table of Contents
 description: Planning a Table of Contents
-ms.assetid: '7809F337-D1FF-4983-9DB4-657AD5189E33'
+ms.assetid: 7809F337-D1FF-4983-9DB4-657AD5189E33
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Planning a Table of Contents

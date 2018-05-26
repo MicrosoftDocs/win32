@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section lists the overview topics for the XAudio2 application programming interface (API).'
-ms.assetid: '3d366a18-290d-5de8-4bcc-2178bd7c4c2c'
+---
+Description: This section lists the overview topics for the XAudio2 application programming interface (API).
+ms.assetid: 3d366a18-290d-5de8-4bcc-2178bd7c4c2c
 title: Programming Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

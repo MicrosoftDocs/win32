@@ -1,7 +1,12 @@
 ---
 Description: Enumerated Types
-ms.assetid: '74467006-b077-49c0-8573-f939ac3d3444'
+ms.assetid: 74467006-b077-49c0-8573-f939ac3d3444
 title: Enumerated Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerated Types

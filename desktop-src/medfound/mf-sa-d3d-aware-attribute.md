@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) supports DirectX Video Acceleration (DXVA). This attribute applies only to video MFTs.'
-ms.assetid: 'db6a8b20-fda0-4ffe-b1b5-a77b7604d290'
-title: 'MF\_SA\_D3D\_AWARE attribute'
+---
+Description: Specifies whether a Media Foundation transform (MFT) supports DirectX Video Acceleration (DXVA). This attribute applies only to video MFTs.
+ms.assetid: db6a8b20-fda0-4ffe-b1b5-a77b7604d290
+title: MF\_SA\_D3D\_AWARE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SA\_D3D\_AWARE attribute
@@ -14,11 +19,11 @@ Specifies whether a Media Foundation transform (MFT) supports DirectX Video Acce
 
 ## Remarks
 
-To query this attribute, call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) to get the global attribute store of the MFT. If **GetAttributes** succeeds, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To query this attribute, call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) to get the global attribute store of the MFT. If **GetAttributes** succeeds, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
 This attribute tells the client whether the MFT can use Direct3D 9 video:
 
--   If the attribute is nonzero, the client can give the MFT a pointer to the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md) interface before streaming starts. To do so, the client sends the [**MFT\_MESSAGE\_SET\_D3D\_MANAGER**](mft-message-set-d3d-manager.md) message to the MFT. The client is not required to send this message.
+-   If the attribute is nonzero, the client can give the MFT a pointer to the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master) interface before streaming starts. To do so, the client sends the [**MFT\_MESSAGE\_SET\_D3D\_MANAGER**](mft-message-set-d3d-manager.md) message to the MFT. The client is not required to send this message.
 -   If this attribute is zero (**FALSE**), the MFT does not support Direct3D 9 video, and the client should not send the [**MFT\_MESSAGE\_SET\_D3D\_MANAGER**](mft-message-set-d3d-manager.md) message to the MFT.
 
 The default value of this attribute is **FALSE**. Treat this attribute as read-only. Do not change the value; the MFT will ignore any changes to the value.
@@ -84,10 +89,10 @@ BOOL IsTransformD3DAware(IMFTransform *pMFT)
 [Transform Attributes](transform-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
 [MF\_TOPOLOGY\_DXVA\_MODE](mf-topology-dxva-mode.md)

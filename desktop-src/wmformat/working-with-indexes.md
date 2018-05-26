@@ -1,8 +1,17 @@
 ---
 title: Working with Indexes
 description: Working with Indexes
-ms.assetid: '7daa4b29-0597-462d-ad65-135d0ef7362d'
-keywords: ["Windows Media Format SDK,indexes", "Advanced Systems Format (ASF),indexes", "ASF (Advanced Systems Format),indexes", "indexes,about"]
+ms.assetid: 7daa4b29-0597-462d-ad65-135d0ef7362d
+keywords:
+- Windows Media Format SDK,indexes
+- Advanced Systems Format (ASF),indexes
+- ASF (Advanced Systems Format),indexes
+- indexes,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Indexes

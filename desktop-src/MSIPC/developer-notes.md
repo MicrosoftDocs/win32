@@ -4,11 +4,15 @@ description: This section covers specific guidance for several important develop
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '5A9F04FD-0FCD-482F-8671-36FE93B783B0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 5A9F04FD-0FCD-482F-8671-36FE93B783B0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["RMS SDK Active Directory Rights Management Services SDK 2.0 , development scenarios"]
+keywords:
+- RMS SDK Active Directory Rights Management Services SDK 2.0 , development scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Developer guidance and information

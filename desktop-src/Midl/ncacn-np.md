@@ -2,13 +2,19 @@
 title: ncacn\_np attribute
 description: The ncacn\_np keyword identifies named pipes as the protocol family for the endpoint.
 ms.assetid: 02961bb8-faf0-42e5-b134-dd2983e6d146
-keywords: ["ncacn_np attribute MIDL"]
+keywords:
+- ncacn_np attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncacn_np
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncacn\_np attribute

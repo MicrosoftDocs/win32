@@ -1,13 +1,16 @@
 ---
-Description: 'Initializes the administration environment, connects to the AD RMS server, and retrieves the appropriate role.'
+Description: Initializes the administration environment, connects to the AD RMS server, and retrieves the appropriate role.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'ba642a40-3dd6-406c-b26b-d544541c0a23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: ba642a40-3dd6-406c-b26b-d544541c0a23
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ConfigurationManager.Initialize method'
+title: ConfigurationManager.Initialize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConfigurationManager.Initialize method
@@ -133,7 +136,7 @@ The following objects are configured during the initialization process depending
 
 
 
- 
+ 
 
 ## Examples
 
@@ -192,7 +195,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -204,9 +207,9 @@ END SUB
 [**ConfigurationManager**](configurationmanager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

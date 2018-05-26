@@ -1,14 +1,20 @@
 ---
 title: Codec DMO Class Identifiers
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: '2e0f52b0-da22-4e1d-8ed5-842125a2daa7'
-keywords: ["Codec DMO Class Identifiers windows Media Format"]
+ms.assetid: 2e0f52b0-da22-4e1d-8ed5-842125a2daa7
+keywords:
+- Codec DMO Class Identifiers windows Media Format
 topic_type:
 - apiref
 api_name:
 - Codec DMO Class Identifiers
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Codec DMO Class Identifiers

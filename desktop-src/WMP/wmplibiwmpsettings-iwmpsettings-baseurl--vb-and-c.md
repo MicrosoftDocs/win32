@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings baseURL property
 description: The baseURL property gets or sets the base URL used for relative path resolution with URL script commands that are embedded in digital media content.
-ms.assetid: 'e136303f-ba08-434f-ad7e-9fffa66785c4'
-keywords: ["baseURL property Windows Media Player", "baseURL property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , baseURL property"]
+ms.assetid: e136303f-ba08-434f-ad7e-9fffa66785c4
+keywords:
+- baseURL property Windows Media Player
+- baseURL property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , baseURL property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::baseURL property
@@ -83,9 +91,9 @@ The Windows Media Player control does not support the use of two periods (..) in
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

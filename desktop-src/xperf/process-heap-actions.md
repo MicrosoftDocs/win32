@@ -1,7 +1,12 @@
 ---
 title: Process Heap Actions
 description: Process Heap Actions
-ms.assetid: 'b555f1e6-14ae-4381-b3b9-1d9a1e47f4ba'
+ms.assetid: b555f1e6-14ae-4381-b3b9-1d9a1e47f4ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Heap Actions

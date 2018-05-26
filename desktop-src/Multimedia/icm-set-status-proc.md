@@ -1,8 +1,9 @@
 ---
 title: ICM\_SET\_STATUS\_PROC message
 description: The ICM\_SET\_STATUS\_PROC message provides a status callback function with the status of a lengthy operation.
-ms.assetid: 'a1bcd840-b94b-487e-91d6-67411a8a3a2d'
-keywords: ["ICM_SET_STATUS_PROC message Windows Multimedia"]
+ms.assetid: a1bcd840-b94b-487e-91d6-67411a8a3a2d
+keywords:
+- ICM_SET_STATUS_PROC message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_SET\_STATUS\_PROC message
@@ -33,7 +39,7 @@ lParam = sizeof(ICSETSTATUSPROC);
 <span id="icsetstatusProc"></span><span id="icsetstatusproc"></span><span id="ICSETSTATUSPROC"></span>*icsetstatusProc*
 </dt> <dd>
 
-Pointer to an [**ICSETSTATUSPROC**](icsetstatusproc-struct.md) structure.
+Pointer to an [**ICSETSTATUSPROC**](/windows/win32/Vfw/ns-vfw-icsetstatusproc?branch=master) structure.
 
 </dd> <dt>
 
@@ -60,8 +66,8 @@ An application can send this message periodically to a status callback function 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ An application can send this message periodically to a status callback function 
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

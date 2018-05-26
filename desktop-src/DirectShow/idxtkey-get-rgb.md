@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_RGB method retrieves the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.'
-ms.assetid: '7b1b22ff-457a-48c8-9221-ca38601874a9'
-title: 'IDxtKey::get\_RGB method'
+---
+Description: The get\_RGB method retrieves the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.
+ms.assetid: 7b1b22ff-457a-48c8-9221-ca38601874a9
+title: IDxtKeyget\_RGB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::get\_RGB method

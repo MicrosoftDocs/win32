@@ -1,12 +1,17 @@
 ---
-Description: 'You create a cubic environment map texture by calling the CreateCubeTexture method. Cubic environment map textures must be square, with dimensions that are a power of two.'
-ms.assetid: '3879d215-064b-4d7d-afae-2ed46569c8bf'
-title: 'Creating Cubic Environment Map Surfaces (Direct3D 9)'
+Description: You create a cubic environment map texture by calling the CreateCubeTexture method. Cubic environment map textures must be square, with dimensions that are a power of two.
+ms.assetid: 3879d215-064b-4d7d-afae-2ed46569c8bf
+title: Creating Cubic Environment Map Surfaces (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Cubic Environment Map Surfaces (Direct3D 9)
 
-You create a cubic environment map texture by calling the [**CreateCubeTexture**](idirect3ddevice9--createcubetexture.md) method. Cubic environment map textures must be square, with dimensions that are a power of two.
+You create a cubic environment map texture by calling the [**CreateCubeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture?branch=master) method. Cubic environment map textures must be square, with dimensions that are a power of two.
 
 The following code example shows how your C++ application might create a simple cubic environment map.
 
@@ -24,9 +29,9 @@ m_d3dDevice->CreateCubeTexture(256, 1, D3DUSAGE_RENDERTARGET, D3DFMT_R8G8B8,
 
 ## Accessing Cubic Environment Map Faces
 
-You can navigate between faces of a cubic environment map by using the [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) method.
+You can navigate between faces of a cubic environment map by using the [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) method.
 
-The following code example uses [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) to retrieve the cube-map surface used for the positive y-face (face 2).
+The following code example uses [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) to retrieve the cube-map surface used for the positive y-face (face 2).
 
 
 ```
@@ -38,11 +43,11 @@ m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &amp;pFace2);
 
 
 
-The first parameter that [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) accepts is a [**D3DCUBEMAP\_FACES**](direct3d9.d3dcubemap_faces) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](idirect3dsurface9.md) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
+The first parameter that [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) accepts is a [**D3DCUBEMAP\_FACES**](direct3d9.d3dcubemap_faces) enumerated value that describes the attached surface that the method should retrieve. The second parameter tells Direct3D which level of a mipmapped cube texture to retrieve. The third parameter accepted is the address of the [**IDirect3DSurface9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master) interface, representing the returned cube texture surface. Because this cube-map is not mipmapped, 0 is used here.
 
 > [!Note]
 >
-> After calling this method, the internal reference count on the [**IDirect3DSurface9**](idirect3dsurface9.md) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](com.iunknown) method on this **IDirect3DSurface9** interface or you will have a memory leak.
+> After calling this method, the internal reference count on the [**IDirect3DSurface9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master) interface is increased. When you are done using this surface, be sure to call the [**IUnknown**](com.iunknown) method on this **IDirect3DSurface9** interface or you will have a memory leak.
 
  
 
@@ -154,7 +159,7 @@ When the camera is in position and the projection matrix set, you can render the
 
 
 
-Note the call to the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. When rendering to the cube map faces, you must assign the face as the current render-target surface. Applications that use depth buffers can explicitly create a depth-buffer for the render-target, or reassign an existing depth-buffer to the render-target surface. The code sample above uses the latter approach.
+Note the call to the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. When rendering to the cube map faces, you must assign the face as the current render-target surface. Applications that use depth buffers can explicitly create a depth-buffer for the render-target, or reassign an existing depth-buffer to the render-target surface. The code sample above uses the latter approach.
 
 ## Related topics
 

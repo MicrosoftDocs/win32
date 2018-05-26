@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a customized, right-handed perspective projection matrix.'
-ms.assetid: 'e6826e46-fc80-41fa-b0d8-45b6797df76f'
+---
+Description: Builds a customized, right-handed perspective projection matrix.
+ms.assetid: e6826e46-fc80-41fa-b0d8-45b6797df76f
 title: D3DXMatrixPerspectiveOffCenterRH function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixPerspectiveOffCenterRH function

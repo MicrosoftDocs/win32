@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deprecated.'
-ms.assetid: 'eb2622bc-a98d-42bd-ab59-7a849000d79d'
+---
+Description: Deprecated.
+ms.assetid: eb2622bc-a98d-42bd-ab59-7a849000d79d
 title: GetCalendarDateFormatEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCalendarDateFormatEx function
@@ -140,13 +145,13 @@ This function does not have an associated header file or library file. The appli
 [NLS: Name-based APIs Sample](nls--name-based-apis-sample.md)
 </dt> <dt>
 
-[**EnumDateFormatsExEx**](enumdateformatsexex.md)
+[**EnumDateFormatsExEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexex?branch=master)
 </dt> <dt>
 
-[**GetDateFormat**](getdateformat.md)
+[**GetDateFormat**](/windows/win32/datetimeapi/nf-datetimeapi-getdateformata?branch=master)
 </dt> <dt>
 
-[**GetDateFormatEx**](getdateformatex.md)
+[**GetDateFormatEx**](/windows/win32/datetimeapi/nf-datetimeapi-getdateformatex?branch=master)
 </dt> <dt>
 
 [**CALDATETIME**](caldatetime.md)

@@ -1,8 +1,9 @@
 ---
 title: glPushClientAttrib function
 description: The glPushClientAttrib and glPopClientAttrib functions save and restore groups of client-state variables on the client-attribute stack.
-ms.assetid: '69f28af6-1023-4546-95ff-169525c23b07'
-keywords: ["glPushClientAttrib function OpenGL"]
+ms.assetid: 69f28af6-1023-4546-95ff-169525c23b07
+keywords:
+- glPushClientAttrib function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPushClientAttrib function
@@ -22,7 +28,7 @@ The **glPushClientAttrib** and [**glPopClientAttrib**](glpopclientattrib.md) fun
 
 ```C++
 void WINAPI glPushClientAttrib(
-   GLbitfield mask
+   GLbitfield mask
 );
 ```
 
@@ -47,7 +53,7 @@ A mask that indicates which attributes to save. The following are the symbolic m
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -94,7 +100,7 @@ The **glPushClientAttrib** and **glPopClientAttrib** functions can only push and
 > [!Note]  
 > The **glPushClientAttrib** and **glPopClientAttrib** functions are only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 The following functions retrieve information related to **glPushClientAttrib** and **glPopClientAttrib**:
 
@@ -108,8 +114,8 @@ The following functions retrieve information related to **glPushClientAttrib** a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -159,9 +165,9 @@ The following functions retrieve information related to **glPushClientAttrib** a
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

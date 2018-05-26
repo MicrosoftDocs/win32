@@ -1,7 +1,12 @@
 ---
-Description: 'Windows XP user accounts enable multiple users to be logged on simultaneously, each with his or her own settings and each running his or her own applications.'
-ms.assetid: 'bc404afc-f73e-404d-854d-faab5cf205a5'
+Description: Windows XP user accounts enable multiple users to be logged on simultaneously, each with his or her own settings and each running his or her own applications.
+ms.assetid: bc404afc-f73e-404d-854d-faab5cf205a5
 title: User Accounts with Fast User Switching and Remote Desktop
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Accounts with Fast User Switching and Remote Desktop
@@ -26,7 +31,7 @@ Underlying infrastructure inherited from Windows 2000 supports state separation
 -   Classify and store application data correctly.
 -   Degrade gracefully on "Access Denied" messages.
 
-Temporary files, memory-mapped files, and documents should all be stored in the appropriate subdirectory of the user's profile directory. Use [**SHGetFolderLocation**](shgetfolderlocation.md) or [**SHGetFolderPath**](shgetfolderpath.md) to determine the appropriate storage location for these files. Passing the [**CSIDL\_APPDATA**](csidl.md) flag to these functions returns the path of a file system directory that serves as a common repository for application-specific data. Use the flag [**CSIDL\_LOCAL\_APPDATA**](csidl.md) in place of **CSIDL\_APPDATA** for data that should change when the user changes, such as temporary files.
+Temporary files, memory-mapped files, and documents should all be stored in the appropriate subdirectory of the user's profile directory. Use [**SHGetFolderLocation**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderlocation?branch=master) or [**SHGetFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderpatha?branch=master) to determine the appropriate storage location for these files. Passing the [**CSIDL\_APPDATA**](csidl.md) flag to these functions returns the path of a file system directory that serves as a common repository for application-specific data. Use the flag [**CSIDL\_LOCAL\_APPDATA**](csidl.md) in place of **CSIDL\_APPDATA** for data that should change when the user changes, such as temporary files.
 
 The requirements listed above are a subset of those in the Microsoft Certification program. For more information, see the **Certified for Windows Program** page at http://www.microsoft.com/windowsserver2003/partners/isvs/cfw.mspx.
 

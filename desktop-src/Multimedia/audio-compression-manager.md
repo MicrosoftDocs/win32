@@ -1,8 +1,19 @@
 ---
 title: Audio Compression Manager
 description: Audio Compression Manager
-ms.assetid: 'f78fb580-87b3-48ec-9e76-3649a80ee1f2'
-keywords: ["Windows multimedia,audio compression manager (ACM)", "multimedia,audio compression manager (ACM)", "multimedia audio,audio compression manager (ACM)", "audio,audio compression manager (ACM)", "audio compression manager (ACM),about", "ACM (audio compression manager),about"]
+ms.assetid: f78fb580-87b3-48ec-9e76-3649a80ee1f2
+keywords:
+- Windows multimedia,audio compression manager (ACM)
+- multimedia,audio compression manager (ACM)
+- multimedia audio,audio compression manager (ACM)
+- audio,audio compression manager (ACM)
+- audio compression manager (ACM),about
+- ACM (audio compression manager),about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Compression Manager

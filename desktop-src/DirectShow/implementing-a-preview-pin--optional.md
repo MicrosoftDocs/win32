@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to implement a preview pin on a DirectShow capture filter.'
-ms.assetid: '60306702-97d4-4627-8fbe-e7c8750f3902'
-title: 'Implementing a Preview Pin (Optional)'
+Description: This topic describes how to implement a preview pin on a DirectShow capture filter.
+ms.assetid: 60306702-97d4-4627-8fbe-e7c8750f3902
+title: Implementing a Preview Pin (Optional)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Preview Pin (Optional)
@@ -10,7 +15,7 @@ This topic describes how to implement a preview pin on a DirectShow capture filt
 
 If your filter has a preview pin, the preview pin must send a copy of the data delivered by the capture pin. Only send data from the preview pin when doing so will not cause the capture pin to drop frames. The capture pin always has priority over the preview pin.
 
-The capture pin and the preview pin must send data with the same format. Therefore, they must connect using identical media types. If the capture pin connects first, the preview pin should offer the same media type, and reject any others types. If the preview pin connects first, and the capture pin connects with a different media type, the preview pin should reconnect using the new media type. If the filter downstream from the preview pin rejects the new type, the capture pin should also reject the type. Use the [**IPin::QueryAccept**](ipin-queryaccept.md) method to query the filter downstream from the preview pin, and use the [**IFilterGraph::Reconnect**](ifiltergraph-reconnect.md) method to reconnect the pin. These rules also apply if the Filter Graph Manager reconnects the capture pin.
+The capture pin and the preview pin must send data with the same format. Therefore, they must connect using identical media types. If the capture pin connects first, the preview pin should offer the same media type, and reject any others types. If the preview pin connects first, and the capture pin connects with a different media type, the preview pin should reconnect using the new media type. If the filter downstream from the preview pin rejects the new type, the capture pin should also reject the type. Use the [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) method to query the filter downstream from the preview pin, and use the [**IFilterGraph::Reconnect**](/windows/win32/Strmif/nf-strmif-ifiltergraph-reconnect?branch=master) method to reconnect the pin. These rules also apply if the Filter Graph Manager reconnects the capture pin.
 
 The following example shows an outline of this process:
 

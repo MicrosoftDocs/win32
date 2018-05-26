@@ -4,11 +4,12 @@ description: The property method of the IADsPath interface sets the property des
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6fc7ce1a-575b-48c4-9f66-3ea22d60c96b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6fc7ce1a-575b-48c4-9f66-3ea22d60c96b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPath Property Methods ADSI"]
+keywords:
+- IADsPath Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -26,11 +27,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPath Property Methods
 
-The property method of the [**IADsPath**](iadspath.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsPath**](/windows/win32/Iads/nn-iads-iadspath?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -120,7 +124,7 @@ HRESULT put_VolumeName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -128,8 +132,8 @@ HRESULT put_VolumeName(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsPath is defined as B287FCD5-4080-11D1-A3AC-00C04FB950DC<br/>             |
@@ -140,15 +144,15 @@ HRESULT put_VolumeName(
 
 <dl> <dt>
 
-[**IADsPath**](iadspath.md)
+[**IADsPath**](/windows/win32/Iads/nn-iads-iadspath?branch=master)
 </dt> <dt>
 
-[**ADS\_PATH**](ads-path.md)
+[**ADS\_PATH**](/windows/win32/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0005?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

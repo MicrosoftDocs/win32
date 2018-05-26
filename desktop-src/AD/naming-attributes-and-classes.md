@@ -4,11 +4,15 @@ description: This topic includes guidelines for naming attributes and classes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ccbc2859-332f-4ded-9125-5bf507cad960'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ccbc2859-332f-4ded-9125-5bf507cad960
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Naming Attributes and Classes"]
+keywords:
+- Naming Attributes and Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Naming Attributes and Classes

@@ -1,8 +1,11 @@
 ---
 title: Iteration GetTraceToolTip method
 description: Returns the trace tooltip for the Iteration.
-ms.assetid: 'D2463665-C2EB-4731-B742-EA4BCBA44CB8'
-keywords: ["GetTraceToolTip method Access Execution Engine", "GetTraceToolTip method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , GetTraceToolTip method"]
+ms.assetid: D2463665-C2EB-4731-B742-EA4BCBA44CB8
+keywords:
+- GetTraceToolTip method Access Execution Engine
+- GetTraceToolTip method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , GetTraceToolTip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::GetTraceToolTip method
@@ -22,7 +30,7 @@ Returns the trace tooltip for the **Iteration**.
 
 ```C++
 virtual HRESULT GetTraceToolTip(
-  [out] const LPCWSTR *traceToolTip
+  [out] const LPCWSTR *traceToolTip
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The trace tooltip is the value of element **Iteration/Trace/Description/ToolTip*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The trace tooltip is the value of element **Iteration/Trace/Description/ToolTip*
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

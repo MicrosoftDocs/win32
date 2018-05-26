@@ -1,11 +1,14 @@
 ---
-Description: 'Represents a system service that is managed by a server component.'
+Description: Represents a system service that is managed by a server component.
 audience: developer
-ms.assetid: '8679f2ce-a7fe-48ec-a6b1-7741280c4b81'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8679f2ce-a7fe-48ec-a6b1-7741280c4b81
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_ServiceToMonitor class'
+title: MSFT\_ServiceToMonitor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServiceToMonitor class
@@ -20,7 +23,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("deploymentprovider")]
 class MSFT_ServiceToMonitor
 {
-  String  Name;
+  String  Name;
   Boolean DefaultMonitoring;
 };
 ```
@@ -70,7 +73,7 @@ The name of the system service.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -84,9 +87,9 @@ The name of the system service.
 [ServerManager Deploymentprovider Provider Classes](server-manager-deployment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

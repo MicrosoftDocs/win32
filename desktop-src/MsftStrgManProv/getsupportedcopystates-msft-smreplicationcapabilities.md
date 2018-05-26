@@ -4,11 +4,14 @@ description: Retrieves the supported copy states for the specified replication t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7d2e871e-3638-4fcb-8043-6692e341c89c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7d2e871e-3638-4fcb-8043-6692e341c89c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedCopyStates method", "GetSupportedCopyStates method, MSFT_SMReplicationCapabilities class", "MSFT_SMReplicationCapabilities class, GetSupportedCopyStates method"]
+keywords:
+- GetSupportedCopyStates method
+- GetSupportedCopyStates method, MSFT_SMReplicationCapabilities class
+- MSFT_SMReplicationCapabilities class, GetSupportedCopyStates method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedCopyStates method of the MSFT\_SMReplicationCapabilities class
@@ -28,11 +34,11 @@ Retrieves the supported copy states for the specified replication type.
 
 ```mof
 uint32 GetSupportedCopyStates(
-  [in]            uint16                ReplicationType,
-  [out]           uint16                SupportedCopyStates[],
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            uint16                ReplicationType,
+  [out]           uint16                SupportedCopyStates[],
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -224,7 +230,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -288,10 +294,10 @@ The possible return values are:
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -301,7 +307,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -315,9 +321,9 @@ The possible return values are:
 [**MSFT\_SMReplicationCapabilities**](msft-smreplicationcapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

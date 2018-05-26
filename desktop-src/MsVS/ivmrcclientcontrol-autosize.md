@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl AutoSize property
 description: The AutoSize property indicates whether the control determines its own size.
-ms.assetid: 'ad825bd7-f124-4e79-b5cd-58a031e2c255'
-keywords: ["AutoSize property Virtual Server", "AutoSize property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , AutoSize property", "AutoSize property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , AutoSize property"]
+ms.assetid: ad825bd7-f124-4e79-b5cd-58a031e2c255
+keywords:
+- AutoSize property Virtual Server
+- AutoSize property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , AutoSize property
+- AutoSize property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , AutoSize property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::AutoSize property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AutoSize(
-  [in]  VARIANT_BOOL autoSize
+  [in]  VARIANT_BOOL autoSize
 );
 
 HRESULT get_AutoSize(
-  [out] VARIANT_BOOL *autoSize
+  [out] VARIANT_BOOL *autoSize
 );
 ```
 
@@ -86,8 +96,8 @@ The current implementation of the VMRC Client control ignores attempts to enable
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -100,9 +110,9 @@ The current implementation of the VMRC Client control ignores attempts to enable
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

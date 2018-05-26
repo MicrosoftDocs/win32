@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the context of a CAPICOM X.509v3 Certificate object. This context allows the CAPICOM certificate to be used in other derivations of CryptoAPI.'
-ms.assetid: '084a3a7b-7523-419f-a504-6fd397030d78'
+---
+Description: Provides access to the context of a CAPICOM X.509v3 Certificate object. This context allows the CAPICOM certificate to be used in other derivations of CryptoAPI.
+ms.assetid: 084a3a7b-7523-419f-a504-6fd397030d78
 title: ICertContext interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertContext interface

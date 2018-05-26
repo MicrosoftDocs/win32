@@ -1,7 +1,12 @@
 ---
-Description: 'The Pause method pauses the filter.'
-ms.assetid: '9dfd23d1-bf07-424b-9952-13719358d0a5'
-title: 'CBaseRenderer.Pause method'
+Description: The Pause method pauses the filter.
+ms.assetid: 9dfd23d1-bf07-424b-9952-13719358d0a5
+title: CBaseRenderer.Pause method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Pause method
@@ -34,14 +39,14 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
 This method overrides the [**CBaseFilter::Pause**](cbasefilter-pause.md) method. It performs the following steps:
 
 -   Calls the **CBaseFilter::Pause** method.
--   Commits the allocator. (See [**IMemAllocator::Commit**](imemallocator-commit.md).)
+-   Commits the allocator. (See [**IMemAllocator::Commit**](/windows/win32/Strmif/nf-strmif-imemallocator-commit?branch=master).)
 -   If the previous state was stopped, the filter releases any sample it is holding. (The sample is no longer valid.)
 -   Calls the [**CBaseRenderer::CompleteStateChange**](cbaserenderer-completestatechange.md) method and returns the value.
 
@@ -63,9 +68,9 @@ This method overrides the [**CBaseFilter::Pause**](cbasefilter-pause.md) method.
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: The user has not given consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.USER\_NOT\_CONSENTED'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.USER\_NOT\_CONSENTED
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["USER_NOT_CONSENTED property", "USER_NOT_CONSENTED property, ErrorInfomation class", "ErrorInfomation class, USER_NOT_CONSENTED property"]
+keywords:
+- USER_NOT_CONSENTED property
+- USER_NOT_CONSENTED property, ErrorInfomation class
+- ErrorInfomation class, USER_NOT_CONSENTED property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.USER\_NOT\_CONSENTED property
@@ -61,9 +67,9 @@ static property ErrorInfomation USER_NOT_CONSENTED {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

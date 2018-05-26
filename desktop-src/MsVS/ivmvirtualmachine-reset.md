@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Reset method
 description: The Reset method resets the virtual machine (like hitting the reset button on a real machine).
-ms.assetid: '037e8d9d-492a-4d2d-a0c2-49a3e98f4148'
-keywords: ["Reset method Virtual Server", "Reset method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Reset method"]
+ms.assetid: 037e8d9d-492a-4d2d-a0c2-49a3e98f4148
+keywords:
+- Reset method Virtual Server
+- Reset method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Reset method
@@ -22,7 +30,7 @@ The **Reset** method resets the virtual machine (like hitting the reset button o
 
 ```C++
 HRESULT Reset(
-  [out] IVMTask **resetTask
+  [out] IVMTask **resetTask
 );
 ```
 
@@ -55,7 +63,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +71,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -76,9 +84,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

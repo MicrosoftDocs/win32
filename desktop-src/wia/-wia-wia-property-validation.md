@@ -1,7 +1,12 @@
 ---
-Description: 'When an application performs an IPropertyStorage::WriteMultiple operation on any writeable Windows Image Acquisition (WIA) property, the WIA driver performs a validation on the new property value.'
-ms.assetid: '61ab2b8b-4c0a-40f4-87f0-2dd3ceea70ab'
+Description: When an application performs an IPropertyStorageWriteMultiple operation on any writeable Windows Image Acquisition (WIA) property, the WIA driver performs a validation on the new property value.
+ms.assetid: 61ab2b8b-4c0a-40f4-87f0-2dd3ceea70ab
 title: WIA Property Validation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Property Validation
@@ -24,7 +29,7 @@ Multiple properties can be written simultaneously using the [IPropertyStorage::W
 
 <dl> <dt>
 
-[**IWiaPropertyStorage**](-wia-iwiapropertystorage.md)
+[**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of a GPU partition device.'
-ms.assetid: '33ec4ea2-4e79-4c84-8abe-da8308ad6702'
-title: 'Msvm\_GpuPartitionSettingData class'
+Description: Represents the configured state of a GPU partition device.
+ms.assetid: 33ec4ea2-4e79-4c84-8abe-da8308ad6702
+title: Msvm\_GpuPartitionSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GpuPartitionSettingData class
@@ -205,8 +210,8 @@ The optimal amount of VRAM which will appear in the GPU partition.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -220,9 +225,9 @@ The optimal amount of VRAM which will appear in the GPU partition.
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

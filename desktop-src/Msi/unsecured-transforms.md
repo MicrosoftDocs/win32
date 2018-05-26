@@ -1,7 +1,12 @@
 ---
-Description: 'Transforms that have not been secured as described in Secured Transforms are unsecured transforms by default.'
-ms.assetid: 'feace6c3-7828-44d0-8d2b-482a02e8e0c0'
+Description: Transforms that have not been secured as described in Secured Transforms are unsecured transforms by default.
+ms.assetid: feace6c3-7828-44d0-8d2b-482a02e8e0c0
 title: Unsecured Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unsecured Transforms

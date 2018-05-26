@@ -4,10 +4,13 @@ description: Describes the use of MMC as a computer administration solution.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1d492e59-d492-4280-8b2c-e89d638f86ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1d492e59-d492-4280-8b2c-e89d638f86ba
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # A Computer Administration Solution

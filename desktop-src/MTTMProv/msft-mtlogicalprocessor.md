@@ -4,11 +4,13 @@ description: The Logical Processor data object. Statistic data is calculated bas
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c6700cd4-19d2-444f-a4b7-d5055087531f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c6700cd4-19d2-444f-a4b7-d5055087531f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTLogicalProcessor class", "MSFT_MTLogicalProcessor class, described"]
+keywords:
+- MSFT_MTLogicalProcessor class
+- MSFT_MTLogicalProcessor class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTLogicalProcessor class
@@ -42,17 +47,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), dynamic, provider("mttmprov"), AMENDMENT]
 class MSFT_MTLogicalProcessor : CIM_ManagedElement
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  uint16  NodeId;
-  uint16  CpuId;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  uint16  NodeId;
+  uint16  CpuId;
   boolean Parking;
-  uint16  IntervalSeconds;
-  uint16  CurrentIndex;
-  real32  Utilization[];
-  real32  Privileged[];
+  uint16  IntervalSeconds;
+  uint16  CurrentIndex;
+  real32  Utilization[];
+  real32  Privileged[];
 };
 ```
 
@@ -235,7 +240,7 @@ Gets a list of historical statistics of percentage of utilization on the logical
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -252,9 +257,9 @@ Gets a list of historical statistics of percentage of utilization on the logical
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

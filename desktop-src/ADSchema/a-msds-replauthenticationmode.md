@@ -4,17 +4,22 @@ description: The ms-DS-Repl-Authentication-Mode attribute is used to specify whi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b7e77b40-7aa7-4990-93fd-c8068e35fcf9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b7e77b40-7aa7-4990-93fd-c8068e35fcf9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Repl-Authentication-Mode attribute AD Schema", "msDS-ReplAuthenticationMode attribute AD Schema"]
+keywords:
+- ms-DS-Repl-Authentication-Mode attribute AD Schema
+- msDS-ReplAuthenticationMode attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Repl-Authentication-Mode
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Repl-Authentication-Mode attribute
@@ -31,7 +36,7 @@ The following values are the possible values for this attribute.
 
 
 
- 
+ 
 
 The following table contains the programmatic identifiers for the values of this attribute.
 
@@ -43,7 +48,7 @@ The following table contains the programmatic identifiers for the values of this
 
 
 
- 
+ 
 
 
 
@@ -85,9 +90,9 @@ The following table contains the programmatic identifiers for the values of this
 
 
 
- 
+ 
 
- 
+ 
 
 
 

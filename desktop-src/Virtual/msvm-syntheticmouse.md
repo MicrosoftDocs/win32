@@ -1,8 +1,13 @@
 ---
 title: Msvm\_SyntheticMouse class
 description: Represents a synthetic mouse device.
-ms.assetid: '0d97b94d-8820-420e-9087-005bd14f9d9e'
-keywords: ["RequestStateChange method Hyper-V", "RequestStateChange method Hyper-V , Msvm_SyntheticMouse class", "Msvm_SyntheticMouse class Hyper-V , RequestStateChange method", "Msvm_SyntheticMouse class Hyper-V", "Msvm_SyntheticMouse class Hyper-V , described"]
+ms.assetid: 0d97b94d-8820-420e-9087-005bd14f9d9e
+keywords:
+- RequestStateChange method Hyper-V
+- RequestStateChange method Hyper-V , Msvm_SyntheticMouse class
+- Msvm_SyntheticMouse class Hyper-V , RequestStateChange method
+- Msvm_SyntheticMouse class Hyper-V
+- Msvm_SyntheticMouse class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -60,6 +65,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticMouse class
@@ -74,47 +84,47 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticMouse : CIM_PointingDevice
 {
-  string   Caption = "Mouse";
-  string   Description = "Microsoft Synthetic Mouse";
+  string   Caption = "Mouse";
+  string   Description = "Microsoft Synthetic Mouse";
   datetime InstallDate;
-  string   Name = "Mouse";
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Mouse";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName = "GUID";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  boolean  IsLocked = False;
-  uint16   PointingType = 3;
-  uint8    NumberOfButtons = 5;
-  uint32   Resolution;
-  string   ElementName = "Mouse";
-  string   StatusDescriptions[] = "OK";
-  string   CreationClassName = "Msvm_SyntheticMouse";
-  string   DeviceID = "Microsoft:GUID";
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Handedness = 2;
-  boolean  AbsoluteCoordinates = True;
-  sint32   HorizontalPosition;
-  sint32   VerticalPosition;
-  sint32   ScrollPosition;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName = "GUID";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  boolean  IsLocked = False;
+  uint16   PointingType = 3;
+  uint8    NumberOfButtons = 5;
+  uint32   Resolution;
+  string   ElementName = "Mouse";
+  string   StatusDescriptions[] = "OK";
+  string   CreationClassName = "Msvm_SyntheticMouse";
+  string   DeviceID = "Microsoft:GUID";
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Handedness = 2;
+  boolean  AbsoluteCoordinates = True;
+  sint32   HorizontalPosition;
+  sint32   VerticalPosition;
+  sint32   ScrollPosition;
 };
 ```
 
@@ -149,7 +159,7 @@ The **Msvm\_SyntheticMouse** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -853,9 +863,9 @@ Access to the **Msvm\_SyntheticMouse** class might be restricted by UAC Filterin
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -874,9 +884,9 @@ Access to the **Msvm\_SyntheticMouse** class might be restricted by UAC Filterin
 [Input Classes](input-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

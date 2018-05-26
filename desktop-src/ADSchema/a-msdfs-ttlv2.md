@@ -4,17 +4,22 @@ description: TTL associated with the DFS root or link. For use at DFS referral t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1c41567e-72f5-48fd-a2f8-33e3c8e35794'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1c41567e-72f5-48fd-a2f8-33e3c8e35794
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Ttl-v2 attribute AD Schema", "msDFS-Ttlv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Ttl-v2 attribute AD Schema
+- msDFS-Ttlv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Ttl-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Ttl-v2 attribute
@@ -38,9 +43,9 @@ TTL associated with the DFS root or link. For use at DFS referral time.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ TTL associated with the DFS root or link. For use at DFS referral time.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

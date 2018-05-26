@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the transport or physical connection on which the device is discovered.'
-ms.assetid: '1201630e-95e5-41e5-9b91-6f60cd8a5d7b'
-title: 'System.Devices.DiscoveryMethod'
+Description: Indicates the transport or physical connection on which the device is discovered.
+ms.assetid: 1201630e-95e5-41e5-9b91-6f60cd8a5d7b
+title: System.Devices.DiscoveryMethod
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DiscoveryMethod

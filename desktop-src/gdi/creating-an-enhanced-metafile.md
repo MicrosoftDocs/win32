@@ -1,18 +1,23 @@
 ---
-Description: 'This section contains an example that demonstrates the creation of an enhanced metafile that is stored on a disk, using a file name specified by the user.'
-ms.assetid: '084b2737-eb55-4587-b8e8-3eb3fa3688c4'
+Description: This section contains an example that demonstrates the creation of an enhanced metafile that is stored on a disk, using a file name specified by the user.
+ms.assetid: 084b2737-eb55-4587-b8e8-3eb3fa3688c4
 title: Creating an Enhanced Metafile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Enhanced Metafile
 
 This section contains an example that demonstrates the creation of an enhanced metafile that is stored on a disk, using a file name specified by the user.
 
-The example uses a device context for the application window as the reference device context. (The system stores the resolution data for this device in the enhanced-metafile's header.) The application retrieves a handle identifying this device context by calling the [**GetDC**](getdc.md) function.
+The example uses a device context for the application window as the reference device context. (The system stores the resolution data for this device in the enhanced-metafile's header.) The application retrieves a handle identifying this device context by calling the [**GetDC**](/windows/win32/Winuser/nf-winuser-getdc?branch=master) function.
 
-The example uses the dimensions of the application's client area to define the dimensions of the picture frame. Using the rectangle dimensions returned by the [**GetClientRect**](_win32_getclientrect_cpp) function, the application converts the device units to .01-millimeter units and passes the converted values to the [**CreateEnhMetaFile**](createenhmetafile.md) function.
+The example uses the dimensions of the application's client area to define the dimensions of the picture frame. Using the rectangle dimensions returned by the [**GetClientRect**](_win32_getclientrect_cpp) function, the application converts the device units to .01-millimeter units and passes the converted values to the [**CreateEnhMetaFile**](/windows/win32/Wingdi/nf-wingdi-createenhmetafilea?branch=master) function.
 
-The example displays a **Save As** common dialog box that enables the user to specify the file name of the new enhanced metafile. The system appends the three-character .emf extension to this file name and passes the name to the [**CreateEnhMetaFile**](createenhmetafile.md) function.
+The example displays a **Save As** common dialog box that enables the user to specify the file name of the new enhanced metafile. The system appends the three-character .emf extension to this file name and passes the name to the [**CreateEnhMetaFile**](/windows/win32/Wingdi/nf-wingdi-createenhmetafilea?branch=master) function.
 
 The example also embeds a text description of the picture in the enhanced-metafile header. This description is specified as a resource in the string table of the application's resource file. However, in a working application, this string would be retrieved from a custom control in a common dialog box or from a separate dialog box displayed solely for this purpose.
 

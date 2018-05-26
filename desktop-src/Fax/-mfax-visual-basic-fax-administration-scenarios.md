@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides several scenarios for the use of Microsoft Visual Basic programs or Microsoft Visual Basic Scripting Edition (VBScript) scripts to perform administrative tasks.'
-ms.assetid: 'fc6d277f-a32d-415e-8550-558d92ddba60'
+Description: This section provides several scenarios for the use of Microsoft Visual Basic programs or Microsoft Visual Basic Scripting Edition (VBScript) scripts to perform administrative tasks.
+ms.assetid: fc6d277f-a32d-415e-8550-558d92ddba60
 title: Visual Basic Fax Administration Scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Basic Fax Administration Scenarios

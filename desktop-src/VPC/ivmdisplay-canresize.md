@@ -1,8 +1,11 @@
 ---
 title: IVMDisplay CanResize property
 description: Determines whether the Guest allows resolution changes.
-ms.assetid: '97f2aad9-aa27-4db2-ac5d-fa9645f0e674'
-keywords: ["CanResize property Virtual PC", "CanResize property Virtual PC , IVMDisplay interface", "IVMDisplay interface Virtual PC , CanResize property"]
+ms.assetid: 97f2aad9-aa27-4db2-ac5d-fa9645f0e674
+keywords:
+- CanResize property Virtual PC
+- CanResize property Virtual PC , IVMDisplay interface
+- IVMDisplay interface Virtual PC , CanResize property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::CanResize property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the Guest allows resolution changes.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CanResize(
-  [out, retval] VARIANT_BOOL *canResize
+  [out, retval] VARIANT_BOOL *canResize
 );
 ```
 
@@ -59,9 +67,9 @@ HRESULT get_CanResize(
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDisplay is defined as 960895e9-f743-4498-96aa-261f867e7fc5<br/>                 |
@@ -75,9 +83,9 @@ HRESULT get_CanResize(
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

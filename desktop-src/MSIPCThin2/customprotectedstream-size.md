@@ -4,11 +4,14 @@ description: Gets or sets the size of the protected data in bytes. Implements th
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.Size'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.Size
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Size property", "Size property, CustomProtectedStream class", "CustomProtectedStream class, Size property"]
+keywords:
+- Size property
+- Size property, CustomProtectedStream class
+- CustomProtectedStream class, Size property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.Size property
@@ -49,7 +55,7 @@ The size of the protected data in bytes.
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](customprotectedstream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +78,9 @@ The size of the protected data in bytes.
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

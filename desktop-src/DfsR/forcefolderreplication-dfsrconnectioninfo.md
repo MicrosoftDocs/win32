@@ -4,13 +4,16 @@ description: Controls replication by forcing a designated folder to replicate. A
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ed2c8660-c405-41e0-a9b6-5a44ba8ee6f8'
-ms.prod: 'windows-server-dev'
+ms.assetid: ed2c8660-c405-41e0-a9b6-5a44ba8ee6f8
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ForceFolderReplication method Distributed File System Replication", "ForceFolderReplication method Distributed File System Replication , DfsrConnectionInfo class", "DfsrConnectionInfo class Distributed File System Replication , ForceFolderReplication method"]
+keywords:
+- ForceFolderReplication method Distributed File System Replication
+- ForceFolderReplication method Distributed File System Replication , DfsrConnectionInfo class
+- DfsrConnectionInfo class Distributed File System Replication , ForceFolderReplication method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ForceFolderReplication method of the DfsrConnectionInfo class
@@ -30,9 +36,9 @@ Controls replication by forcing a designated folder to replicate. After the dura
 
 ```mof
 uint32 ForceFolderReplication(
-  [in] uint32 DurationInMin,
-  [in] uint32 Bandwidth,
-  [in] string ReplicatedFolderGuid
+  [in] uint32 DurationInMin,
+  [in] uint32 Bandwidth,
+  [in] string ReplicatedFolderGuid
 );
 ```
 
@@ -245,9 +251,9 @@ The unique identifier of the replicated folder to force replication on.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -261,9 +267,9 @@ The unique identifier of the replicated folder to force replication on.
 [**DfsrConnectionInfo**](dfsrconnectioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,24 +1,29 @@
 ---
 title: How To Get the Device Feature Level
 description: This topics shows how to get the highest feature level supported by a device.
-ms.assetid: '5eb7dd5b-3be3-4b7f-bcc7-20027fdfe6b5'
+ms.assetid: 5eb7dd5b-3be3-4b7f-bcc7-20027fdfe6b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Get the Device Feature Level
 
-This topics shows how to get the highest [feature level](overviews-direct3d-11-devices-downlevel-intro.md) supported by a [device](overviews-direct3d-11-devices-intro.md). Direct3D 11 devices support a fixed set of feature levels that are defined in the [**D3D\_FEATURE\_LEVEL**](d3d-feature-level.md) enumeration. When you know the highest [feature level](overviews-direct3d-11-devices-downlevel-intro.md) supported by a device, you can run code paths that are appropriate for that device.
+This topics shows how to get the highest [feature level](overviews-direct3d-11-devices-downlevel-intro.md) supported by a [device](overviews-direct3d-11-devices-intro.md). Direct3D 11 devices support a fixed set of feature levels that are defined in the [**D3D\_FEATURE\_LEVEL**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_feature_level?branch=master) enumeration. When you know the highest [feature level](overviews-direct3d-11-devices-downlevel-intro.md) supported by a device, you can run code paths that are appropriate for that device.
 
 **To get the device feature level**
 
-1.  Call either the [**D3D11CreateDevice**](d3d11createdevice.md) function or the [**D3D11CreateDeviceAndSwapChain**](d3d11createdeviceandswapchain.md) functions while specifying **NULL** for the *ppDevice* parameter. You can do this before device creation.
+1.  Call either the [**D3D11CreateDevice**](/windows/win32/D3D11/nf-d3d11-d3d11createdevice?branch=master) function or the [**D3D11CreateDeviceAndSwapChain**](/windows/win32/D3D11/nf-d3d11-d3d11createdeviceandswapchain?branch=master) functions while specifying **NULL** for the *ppDevice* parameter. You can do this before device creation.
 
     \- or -
 
-    Call [**ID3D11Device::GetFeatureLevel**](id3d11device-getfeaturelevel.md) after device creation.
+    Call [**ID3D11Device::GetFeatureLevel**](/windows/win32/D3D11/nf-d3d11-id3d11device-getfeaturelevel?branch=master) after device creation.
 
-2.  Examine the value of the returned [**D3D\_FEATURE\_LEVEL**](d3d-feature-level.md) enumeration from the last step to determine the supported feature level.
+2.  Examine the value of the returned [**D3D\_FEATURE\_LEVEL**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_feature_level?branch=master) enumeration from the last step to determine the supported feature level.
 
-The following code example demonstrates how to determine the highest supported feature level by calling the [**D3D11CreateDevice**](d3d11createdevice.md) function. **D3D11CreateDevice** stores the highest supported feature level in the FeatureLevel variable. You can use this code to examine the value of the [**D3D\_FEATURE\_LEVEL**](d3d-feature-level.md) enumerated type that **D3D11CreateDevice** returns. Note that this code lists all feature levels explicitly (for Direct3D 11.1 and Direct3D 11.2).
+The following code example demonstrates how to determine the highest supported feature level by calling the [**D3D11CreateDevice**](/windows/win32/D3D11/nf-d3d11-d3d11createdevice?branch=master) function. **D3D11CreateDevice** stores the highest supported feature level in the FeatureLevel variable. You can use this code to examine the value of the [**D3D\_FEATURE\_LEVEL**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_feature_level?branch=master) enumerated type that **D3D11CreateDevice** returns. Note that this code lists all feature levels explicitly (for Direct3D 11.1 and Direct3D 11.2).
 
 > [!Note]  
 > If the Direct3D 11.1 runtime is present on the computer and *pFeatureLevels* is set to **NULL**, this function won't create a [**D3D\_FEATURE\_LEVEL\_11\_1**](d3d-feature-level.md#d3d-feature-level-11-1) device. To create a **D3D\_FEATURE\_LEVEL\_11\_1** device, you must explicitly provide a **D3D\_FEATURE\_LEVEL** array that includes **D3D\_FEATURE\_LEVEL\_11\_1**. If you provide a **D3D\_FEATURE\_LEVEL** array that contains **D3D\_FEATURE\_LEVEL\_11\_1** on a computer that doesn't have the Direct3D 11.1 runtime installed, this function immediately fails with E\_INVALIDARG.
@@ -60,7 +65,7 @@ if(FAILED(hr))
 
 
 
-The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](id3d11device.md) and [**ID3D11DeviceContext**](id3d11devicecontext.md) methods behave at various 10Level9 feature levels.
+The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) and [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) methods behave at various 10Level9 feature levels.
 
 ## Related topics
 

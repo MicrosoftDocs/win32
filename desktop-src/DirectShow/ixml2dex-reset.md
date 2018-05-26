@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: 'f51972fe-e095-4ce2-93b6-841ed24c6ce7'
-title: 'IXml2Dex::Reset method'
+Description: Not implemented.
+ms.assetid: f51972fe-e095-4ce2-93b6-841ed24c6ce7
+title: IXml2DexReset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::Reset method

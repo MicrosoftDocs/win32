@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clones, or copies, an animation controller.'
-ms.assetid: '9836653c-9ea5-4fbc-89ac-0b46054a12d7'
-title: 'ID3DXAnimationController::CloneAnimationController method'
+---
+Description: Clones, or copies, an animation controller.
+ms.assetid: 9836653c-9ea5-4fbc-89ac-0b46054a12d7
+title: ID3DXAnimationControllerCloneAnimationController method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::CloneAnimationController method

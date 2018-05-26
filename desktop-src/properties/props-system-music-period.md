@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '141ea422-d844-4e1c-9ef5-3b5ff27024f7'
-title: 'System.Music.Period'
+Description: .
+ms.assetid: 141ea422-d844-4e1c-9ef5-3b5ff27024f7
+title: System.Music.Period
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.Period

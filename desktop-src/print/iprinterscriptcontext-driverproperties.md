@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the driver property bag, if the property bag is present.'
-ms.assetid: '73BE6E2A-0C46-4C3F-8888-5FE8386A1F50'
-title: 'IPrinterScriptContext::DriverProperties property'
+---
+Description: Provides access to the driver property bag, if the property bag is present.
+ms.assetid: 73BE6E2A-0C46-4C3F-8888-5FE8386A1F50
+title: IPrinterScriptContextDriverProperties property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptContext::DriverProperties property

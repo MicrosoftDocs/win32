@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'dfe19c2c-b07e-4752-94c5-b770a14250e0'
-title: 'System.Music.DiscNumber'
+Description: .
+ms.assetid: dfe19c2c-b07e-4752-94c5-b770a14250e0
+title: System.Music.DiscNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.DiscNumber

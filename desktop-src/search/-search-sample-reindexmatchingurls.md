@@ -1,7 +1,12 @@
 ---
-Description: 'The ReindexMatchingUrls code sample demonstrates how to provide three ways to specify the files to re-index: URLs that match a file type, mime type, or a specified WHERE clause.'
-ms.assetid: 'f7b3a8a6-b464-46d4-a99c-fc56eea9b1ec'
+Description: The ReindexMatchingUrls code sample demonstrates how to provide three ways to specify the files to re-index URLs that match a file type, mime type, or a specified WHERE clause.
+ms.assetid: f7b3a8a6-b464-46d4-a99c-fc56eea9b1ec
 title: ReindexMatchingUrls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReindexMatchingUrls
@@ -81,22 +86,22 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**ISearchCatalogManager**](-search-isearchcatalogmanager.md)
+[**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master)
 </dt> <dt>
 
-[**ISearchCatalogManager2**](-search-isearchcatalogmanager2.md)
+[**ISearchCatalogManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager2?branch=master)
 </dt> <dt>
 
-[**ISearchManager**](-search-isearchmanager.md)
+[**ISearchManager**](/windows/win32/Searchapi/nn-searchapi-isearchmanager?branch=master)
 </dt> <dt>
 
-[**ISearchPersistentItemsChangedSink**](-search-isearchpersistentitemschangedsink.md)
+[**ISearchPersistentItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchpersistentitemschangedsink?branch=master)
 </dt> <dt>
 
-[**ISearchViewChangedSink**](-search-isearchviewchangedsink.md)
+[**ISearchViewChangedSink**](/windows/win32/searchapi/nn-searchapi-isearchviewchangedsink?branch=master)
 </dt> <dt>
 
-[**PRIORITIZE\_FLAGS**](-search-prioritize-flags.md)
+[**PRIORITIZE\_FLAGS**](/windows/win32/Searchapi/ne-searchapi-tagprioritize_flags?branch=master)
 </dt> <dt>
 
 **Conceptual**

@@ -1,7 +1,12 @@
 ---
 title: SoftwareLicensingService Methods
 description: The SoftwareLicensingService class exposes the following methods.
-ms.assetid: '6CC3002D-24BD-434D-832C-0B32DB0E91A8'
+ms.assetid: 6CC3002D-24BD-434D-832C-0B32DB0E91A8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingService Methods

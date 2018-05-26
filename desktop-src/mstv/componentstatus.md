@@ -1,8 +1,9 @@
 ---
 title: ComponentStatus enumeration
 description: Specifies the status of a sub-stream (component).
-ms.assetid: '687ae778-0c25-47ca-bec9-9e6c28f22249'
-keywords: ["ComponentStatus enumeration Microsoft TV Technologies"]
+ms.assetid: 687ae778-0c25-47ca-bec9-9e6c28f22249
+keywords:
+- ComponentStatus enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComponentStatus enumeration
@@ -22,9 +28,9 @@ Specifies the status of a sub-stream (component).
 
 ```C++
 enum ComponentStatus {
-  StatusActive       = 0, 
-  StatusInactive     = 1, 
-  StatusUnavailable  = 2 
+  StatusActive       = 0, 
+  StatusInactive     = 1, 
+  StatusUnavailable  = 2 
 
 };
 ```
@@ -70,15 +76,15 @@ The component is not available.
 
 <dl> <dt>
 
-[**IComponent::get\_Status**](icomponent-get-status.md)
+[**IComponent::get\_Status**](/windows/previous-versions/tuner/nf-tuner-icomponent-get_status?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

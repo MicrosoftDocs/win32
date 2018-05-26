@@ -1,14 +1,20 @@
 ---
 title: RWTexture2D
 description: A read/write resource.
-ms.assetid: '19b383f1-c787-4c20-b77a-60ef9f212b9f'
-keywords: ["RWTexture2D HLSL"]
+ms.assetid: 19b383f1-c787-4c20-b77a-60ef9f212b9f
+keywords:
+- RWTexture2D HLSL
 topic_type:
 - apiref
 api_name:
 - RWTexture2D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWTexture2D

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables a debugger to examine dynamic function table information.'
-ms.assetid: '32fd0dfd-ca7c-45e4-9d59-2b3318d7e13d'
+---
+Description: Enables a debugger to examine dynamic function table information.
+ms.assetid: 32fd0dfd-ca7c-45e4-9d59-2b3318d7e13d
 title: RtlGetFunctionTableListHead function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlGetFunctionTableListHead function

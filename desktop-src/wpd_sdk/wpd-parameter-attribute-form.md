@@ -1,7 +1,12 @@
 ---
-Description: 'Describes how a (method or event) parameter stores its value.'
-ms.assetid: '066196af-7805-4823-8ab7-cb95c17bba2a'
+Description: Describes how a (method or event) parameter stores its value.
+ms.assetid: 066196af-7805-4823-8ab7-cb95c17bba2a
 title: WpdParameterAttributeForm enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WpdParameterAttributeForm enumeration
@@ -13,11 +18,11 @@ The [**WpdParameterAttributeForm**](https://msdn.microsoft.com/library/windows/h
 
 ```C++
 typedef enum tagWpdParameterAttributeForm { 
-  WPD_PARAMETER_ATTRIBUTE_FORM_UNSPECIFIED         = 0,
-  WPD_PARAMETER_ATTRIBUTE_FORM_RANGE               = 1,
-  WPD_PARAMETER_ATTRIBUTE_FORM_ENUMERATION         = 2,
-  WPD_PARAMETER_ATTRIBUTE_FORM_REGULAR_EXPRESSION  = 3,
-  WPD_PARAMETER_ATTRIBUTE_OBJECT_IDENTIFIER        = 4
+  WPD_PARAMETER_ATTRIBUTE_FORM_UNSPECIFIED         = 0,
+  WPD_PARAMETER_ATTRIBUTE_FORM_RANGE               = 1,
+  WPD_PARAMETER_ATTRIBUTE_FORM_ENUMERATION         = 2,
+  WPD_PARAMETER_ATTRIBUTE_FORM_REGULAR_EXPRESSION  = 3,
+  WPD_PARAMETER_ATTRIBUTE_OBJECT_IDENTIFIER        = 4
 } WpdParameterAttributeForm;
 ```
 
@@ -72,9 +77,9 @@ The parameter is an object identifier.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

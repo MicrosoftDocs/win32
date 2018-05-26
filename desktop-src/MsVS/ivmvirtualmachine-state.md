@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine State property
 description: Contains the current state of the virtual machine.
-ms.assetid: '897f19d2-c5f0-4004-8bf6-4343a421d5b9'
-keywords: ["State property Virtual Server", "State property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , State property", "State property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , State property"]
+ms.assetid: 897f19d2-c5f0-4004-8bf6-4343a421d5b9
+keywords:
+- State property Virtual Server
+- State property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , State property
+- State property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , State property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::State property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_State(
-  [out] VMVMState *virtualMachineState
+  [out] VMVMState *virtualMachineState
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "State: " & objVM.State
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -108,9 +118,9 @@ WScript.Echo "State: " & objVM.State
 [**VMVMState**](vmvmstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a FolderItem object that represents the item that has the input focus.'
-ms.assetid: 'ca88801d-c8fa-4c1c-9294-f52eada40ff6'
-title: 'ShellFolderView.FocusedItem property'
+---
+Description: Gets a FolderItem object that represents the item that has the input focus.
+ms.assetid: ca88801d-c8fa-4c1c-9294-f52eada40ff6
+title: ShellFolderView.FocusedItem property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderView.FocusedItem property

@@ -1,7 +1,12 @@
 ---
-Description: 'The CloseTrace function closes a trace.'
-ms.assetid: '25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec'
+Description: The CloseTrace function closes a trace.
+ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 title: CloseTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CloseTrace function
@@ -13,7 +18,7 @@ The **CloseTrace** function closes a trace.
 
 ```C++
 ULONG CloseTrace(
-  _In_ TRACEHANDLE TraceHandle
+  _In_ TRACEHANDLE TraceHandle
 );
 ```
 
@@ -60,7 +65,7 @@ If the function fails, the return value is one of the [system error codes](https
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_BUSY</strong></dt> </dl></td>
-<td>Prior to Windows Vista, you cannot close the trace until the [<strong>ProcessTrace</strong>](processtrace.md) function completes. <br/></td>
+<td>Prior to Windows Vista, you cannot close the trace until the [<strong>ProcessTrace</strong>](processtrace.md) function completes. <br/></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_CTX_CLOSE_PENDING</strong></dt> </dl></td>
@@ -71,7 +76,7 @@ If the function fails, the return value is one of the [system error codes](https
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,7 +84,7 @@ Consumers call this function.
 
 If you are processing events from a log file, you call this function only after the [**ProcessTrace**](processtrace.md) function returns. However, if you are processing real-time events, you can call this function before **ProcessTrace** returns. If you call this function before **ProcessTrace** returns, the **CloseTrace** function returns ERROR\_CTX\_CLOSE\_PENDING. The ERROR\_CTX\_CLOSE\_PENDING code indicates that the **CloseTrace** function call was successful; the **ProcessTrace** function will stop processing events after it processes all events in its buffers (**ProcessTrace** will not receive any new events after you call the **CloseTrace** function). You can call the **CloseTrace** function from your [*BufferCallback*](buffercallback.md), [*EventCallback*](eventcallback.md), or [*EventClassCallback*](eventclasscallback.md) callback.
 
-**Prior to Windows Vista:** You can call **CloseTrace** only after [**ProcessTrace**](processtrace.md) returns.
+**Prior to Windows Vista:** You can call **CloseTrace** only after [**ProcessTrace**](processtrace.md) returns.
 
 ## Examples
 
@@ -91,11 +96,11 @@ For an example that uses **CloseTrace**, see [Retrieving Event Data Using MOF](r
 
 |                                     |                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                                  |
 | Header<br/>                   | <dl> <dt>Evntrace.h</dt> </dl>                                                                                                                                                                                                                                        |
-| Library<br/>                  | <dl> <dt>Sechost.lib on Windows 8.1 and Windows Server 2012 R2; </dt> <dt>Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>Sechost.dll on Windows 8.1 and Windows Server 2012 R2; </dt> <dt>Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl> |
+| Library<br/>                  | <dl> <dt>Sechost.lib on Windows 8.1 and Windows Server 2012 R2; </dt> <dt>Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Sechost.dll on Windows 8.1 and Windows Server 2012 R2; </dt> <dt>Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP</dt> </dl> |
 
 
 
@@ -109,9 +114,9 @@ For an example that uses **CloseTrace**, see [Retrieving Event Data Using MOF](r
 [**ProcessTrace**](processtrace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

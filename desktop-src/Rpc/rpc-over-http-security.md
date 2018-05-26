@@ -1,7 +1,12 @@
 ---
 title: RPC over HTTP Security
 description: RPC over HTTP provides three types of security in addition to standard RPC security, which results in RPC over HTTP traffic being protected once by RPC, and then doubly protected by the tunneling mechanism provided by RPC over HTTP.
-ms.assetid: '3a44c72b-b74c-433a-8826-1f76ca019f40'
+ms.assetid: 3a44c72b-b74c-433a-8826-1f76ca019f40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC over HTTP Security
@@ -57,7 +62,7 @@ The **ValidPorts** entry is a REG\_SZ entry containing a list of computers to wh
 
 In this example, IIS can forward RPC over HTTP calls to the server "Rosco" on ports 593 and 2000 through 8000. It can also send calls to any server whose name begins with "Data". It will connect on ports 4000 through 8000. In addition, before forwarding traffic to a given port on the RPC over HTTP server, the RPC proxy performs a special packet exchange with the RPC service listening on that port to verify it is willing to accept requests over HTTP.
 
-For an example based on these example settings, if an RPC service listens on port 4500 on server "Data1" but has not called one of the [**RpcServerUseProtseq\***](rpcserveruseprotseq.md) functions with **ncacn\_http**, it will reject the request. This behavior provides additional protection for servers that listen on an opened port due to configuration error; unless the server specifically requested to listen on RPC over HTTP, it will not receive calls originating from outside the firewall.
+For an example based on these example settings, if an RPC service listens on port 4500 on server "Data1" but has not called one of the [**RpcServerUseProtseq\***](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseq?branch=master) functions with **ncacn\_http**, it will reject the request. This behavior provides additional protection for servers that listen on an opened port due to configuration error; unless the server specifically requested to listen on RPC over HTTP, it will not receive calls originating from outside the firewall.
 
 Entries in the **ValidPorts** key must be an exact match of the RPC over HTTP server asked for by the client (it is not case-sensitive). To streamline processing, the RPC proxy does not perform canonicalization of the name provided by the RPC over HTTP client. Therefore, if the client asks for rosco.microsoft.com, and in **ValidPorts** contain Rosco only, the RPC proxy will not match the names, even though both names may refer to the same machine. Additionally, if the IP address of Rosco is 66.77.88.99, and the client asks for 66.77.88.99 but the **ValidPorts** key contains Rosco only, the RPC proxy will refuse the connection. If a client may ask for the RPC over HTTP server by name, or by IP address, insert both in the **ValidPorts** key.
 

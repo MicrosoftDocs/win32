@@ -2,13 +2,19 @@
 title: /cstub switch
 description: The /cstub switch specifies the name of the client stub file for an RPC interface.
 ms.assetid: f2c9e083-3511-4e72-b1d1-14a3a662ffaf
-keywords: ["/cstub switch MIDL"]
+keywords:
+- /cstub switch MIDL
 topic_type:
 - apiref
 api_name:
 - /cstub
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /cstub switch

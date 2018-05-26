@@ -1,7 +1,12 @@
 ---
 title: library
 description: This statement describes a type library. This description contains all of the information in a MIDL input file (ODL).
-ms.assetid: '089eb146-9f24-4b15-a768-1706614667a9'
+ms.assetid: 089eb146-9f24-4b15-a768-1706614667a9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # library

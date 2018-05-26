@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to a critical section that is used to serialize state changes.'
-ms.assetid: '4fecd9a6-54df-49d7-bf2f-5dcaef919ad7'
-title: 'CBaseFilter::m\_pLock member'
+Description: Pointer to a critical section that is used to serialize state changes.
+ms.assetid: 4fecd9a6-54df-49d7-bf2f-5dcaef919ad7
+title: CBaseFilterm\_pLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter::m\_pLock member
@@ -55,9 +60,9 @@ Do not hold this critical section during streaming operations (that is, when del
 [Threads and Critical Sections](threads-and-critical-sections.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

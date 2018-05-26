@@ -1,7 +1,12 @@
 ---
 title: Write-DiagProgress Cmdlet
 description: Writes a progress string to the troubleshooting client.
-ms.assetid: 'a674d2b4-9d67-46cd-9136-3e6e8bb2f7dd'
+ms.assetid: a674d2b4-9d67-46cd-9136-3e6e8bb2f7dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Write-DiagProgress Cmdlet

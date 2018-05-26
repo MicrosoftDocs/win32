@@ -1,8 +1,30 @@
 ---
 title: About the Text and TextRange Control Patterns
 description: The textual content of a control is exposed by using the Text control pattern, which represents the contents of a text container as a text stream.
-ms.assetid: 'acc2b513-9367-416a-b0d9-3c2bcc14a8a7'
-keywords: ["UI Automation,textual content support", "UI Automation,text pattern overview", "UI Automation,text controls overview", "UI Automation,Text control pattern", "UI Automation,Text Services Framework (TSF)", "UI Automation,TSF", "UI Automation,performance", "text patterns,about", "text patterns,Text Services Framework (TSF)", "text controls,about", "textual content,support for", "text controls,performance", "Text control pattern", "control patterns,Text", "Text Services Framework (TSF)", "TSF (Text Services Framework)", "performance"]
+ms.assetid: acc2b513-9367-416a-b0d9-3c2bcc14a8a7
+keywords:
+- UI Automation,textual content support
+- UI Automation,text pattern overview
+- UI Automation,text controls overview
+- UI Automation,Text control pattern
+- UI Automation,Text Services Framework (TSF)
+- UI Automation,TSF
+- UI Automation,performance
+- text patterns,about
+- text patterns,Text Services Framework (TSF)
+- text controls,about
+- textual content,support for
+- text controls,performance
+- Text control pattern
+- control patterns,Text
+- Text Services Framework (TSF)
+- TSF (Text Services Framework)
+- performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Text and TextRange Control Patterns
@@ -14,7 +36,7 @@ The textual content of a control is exposed by using the [Text](uiauto-implement
 
  
 
-The functionality described in this topic is vital to assistive technology vendors and their end users. Assistive technologies can use UI Automation to gather complete text formatting information for the user and provide programmatic navigation and selection of text by [**TextUnit**](uiauto-textunitenum.md) (character, word, line, or paragraph).
+The functionality described in this topic is vital to assistive technology vendors and their end users. Assistive technologies can use UI Automation to gather complete text formatting information for the user and provide programmatic navigation and selection of text by [**TextUnit**](/windows/win32/UIAutomationCore/ne-uiautomationcore-textunit?branch=master) (character, word, line, or paragraph).
 
 This topic contains the following sections:
 
@@ -44,34 +66,34 @@ The UI Automation [Edit](uiauto-supporteditcontroltype.md) control type and [Doc
 
 ## Provider Interfaces
 
-UI Automation providers support the [Text](uiauto-implementingtextandtextrange.md) control pattern for a control by implementing the [**ITextProvider**](uiauto-itextprovider.md) and [**ITextRangeProvider**](uiauto-itextrangeprovider.md) interfaces. These interfaces expose detailed attribute information for text in the control and provide robust navigational capabilities.
+UI Automation providers support the [Text](uiauto-implementingtextandtextrange.md) control pattern for a control by implementing the [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master) and [**ITextRangeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextrangeprovider?branch=master) interfaces. These interfaces expose detailed attribute information for text in the control and provide robust navigational capabilities.
 
 A provider does not need to support all text attributes if the control lacks support for any particular attribute.
 
-A provider must support the [**ITextProvider::GetSelection**](uiauto-itextprovider-getselection.md) and [**ITextRangeProvider::Select**](uiauto-itextrangeprovider-select.md) methods if the control supports text selection or placement of the text cursor (or system caret) within the text area. If the control does not support this functionality, it does not need to support either of these methods. However, the control must expose the type of text selection it supports by implementing the [**ITextProvider::SupportedTextSelection**](uiauto-itextprovider-supportedtextselection.md) property.
+A provider must support the [**ITextProvider::GetSelection**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextprovider-getselection?branch=master) and [**ITextRangeProvider::Select**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-select?branch=master) methods if the control supports text selection or placement of the text cursor (or system caret) within the text area. If the control does not support this functionality, it does not need to support either of these methods. However, the control must expose the type of text selection it supports by implementing the [**ITextProvider::SupportedTextSelection**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextprovider-get_supportedtextselection?branch=master) property.
 
-A provider must always support the [**TextUnit**](uiauto-textunitenum.md) constants, **TextUnit\_Character** and **TextUnit\_Document**, as well as any others it is capable of supporting.
+A provider must always support the [**TextUnit**](/windows/win32/UIAutomationCore/ne-uiautomationcore-textunit?branch=master) constants, **TextUnit\_Character** and **TextUnit\_Document**, as well as any others it is capable of supporting.
 
 > [!Note]  
-> The provider may skip support for a specific [**TextUnit**](uiauto-textunitenum.md) by deferring to the next largest unit supported in the following order: **TextUnit\_Character**, **TextUnit\_Format**, **TextUnit\_Word**, **TextUnit\_Line**, **TextUnit\_Paragraph**, **TextUnit\_Page**, and **TextUnit\_Document**.
+> The provider may skip support for a specific [**TextUnit**](/windows/win32/UIAutomationCore/ne-uiautomationcore-textunit?branch=master) by deferring to the next largest unit supported in the following order: **TextUnit\_Character**, **TextUnit\_Format**, **TextUnit\_Word**, **TextUnit\_Line**, **TextUnit\_Paragraph**, **TextUnit\_Page**, and **TextUnit\_Document**.
 
  
 
 ## Client Interfaces
 
-UI Automation client applications use the [**IUIAutomationTextPattern**](uiauto-iuiautomationtextpattern.md) and [**IUIAutomationTextRange**](uiauto-iuiautomationtextrange.md) interfaces to access the textual content of a text control. Clients use **IUIAutomationTextPattern** to select spans of text called *text ranges*, and to retrieve pointers to **IUIAutomationTextRange** interfaces for the ranges. The **IUIAutomationTextRange** interface enables clients to manipulate the text range, and to retrieve information about the text in the range, including attributes such as font name, foreground color, underline style, and so on. For more information, see [Text Attribute Identifiers](uiauto-textattribute-ids.md).
+UI Automation client applications use the [**IUIAutomationTextPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtextpattern?branch=master) and [**IUIAutomationTextRange**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange?branch=master) interfaces to access the textual content of a text control. Clients use **IUIAutomationTextPattern** to select spans of text called *text ranges*, and to retrieve pointers to **IUIAutomationTextRange** interfaces for the ranges. The **IUIAutomationTextRange** interface enables clients to manipulate the text range, and to retrieve information about the text in the range, including attributes such as font name, foreground color, underline style, and so on. For more information, see [Text Attribute Identifiers](uiauto-textattribute-ids.md).
 
 ## Performance
 
-The **Text** control pattern relies on cross-process calls for most of its functionality, so it does not provide a caching mechanism to improve performance when it processes content. Other control patterns in Microsoft UI Automation can be accessed by using the [**IUIAutomationElement::GetCachedPattern**](uiauto-iuiautomationelement-getcachedpattern.md) method.
+The **Text** control pattern relies on cross-process calls for most of its functionality, so it does not provide a caching mechanism to improve performance when it processes content. Other control patterns in Microsoft UI Automation can be accessed by using the [**IUIAutomationElement::GetCachedPattern**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedpattern?branch=master) method.
 
-One technique for improving performance is to ensure that UI Automation clients attempt to retrieve moderately sized blocks of text by using the [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md) method. For example, using **GetText** to retrieve single characters will incur cross-process hits for each character, whereas not specifying a maximum length when calling **GetText** will incur one cross-process hit, but can have high latency depending on the size of the text range.
+One technique for improving performance is to ensure that UI Automation clients attempt to retrieve moderately sized blocks of text by using the [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master) method. For example, using **GetText** to retrieve single characters will incur cross-process hits for each character, whereas not specifying a maximum length when calling **GetText** will incur one cross-process hit, but can have high latency depending on the size of the text range.
 
 ## Text Pattern and Virtualized Embedded Objects
 
-Whenever possible, a provider implementation of [**ITextProvider**](uiauto-itextprovider.md) and [**ITextRangeProvider**](uiauto-itextrangeprovider.md) should support the entire text of a document, including any text outside of the viewport. For off-screen text or embedded objects that are virtualized, providers should support the [VirtualizedItem control pattern](uiauto-implementingvirtualizeditem.md) ([**IVirtualizedItemProvider**](uiauto-ivirtualizeditemprovider.md)).
+Whenever possible, a provider implementation of [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master) and [**ITextRangeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextrangeprovider?branch=master) should support the entire text of a document, including any text outside of the viewport. For off-screen text or embedded objects that are virtualized, providers should support the [VirtualizedItem control pattern](uiauto-implementingvirtualizeditem.md) ([**IVirtualizedItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivirtualizeditemprovider?branch=master)).
 
-If a document is virtualized while the entire text stream is still available, the [**ITextProvider::DocumentRange**](uiauto-itextprovider-documentrange.md) property will retrieve a text range that includes the entire document. However, calling the [**ITextRangeProvider**](uiauto-itextrangeprovider-getchildren.md) method will retrieve a collection of virtualized objects that represent all embedded objects in the document. To interact with a virtualized embedded object, clients must call the [**IVirtualizedItemProvider::Realize**](uiauto-ivirtualizeditemprovider-realize.md) method, which makes the items fully accessible as UI Automation elements. Clients must follow a similar process to work with grid elements in an embedded table where a portion of the table is off-screen and virtualized.
+If a document is virtualized while the entire text stream is still available, the [**ITextProvider::DocumentRange**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextprovider-get_documentrange?branch=master) property will retrieve a text range that includes the entire document. However, calling the [**ITextRangeProvider**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-getchildren?branch=master) method will retrieve a collection of virtualized objects that represent all embedded objects in the document. To interact with a virtualized embedded object, clients must call the [**IVirtualizedItemProvider::Realize**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivirtualizeditemprovider-realize?branch=master) method, which makes the items fully accessible as UI Automation elements. Clients must follow a similar process to work with grid elements in an embedded table where a portion of the table is off-screen and virtualized.
 
 ## Using the Custom Control Type with the Text Control Pattern
 

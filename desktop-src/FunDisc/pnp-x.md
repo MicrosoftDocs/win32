@@ -1,7 +1,12 @@
 ---
-Description: 'Plug and Play Extensions (PnP-X) enable a computer system to discover networked devices and to install them on the local system using Plug and Play (PnP).'
-ms.assetid: 'd6d158bb-6e81-4ccc-8324-b06dab5d8b9c'
-title: 'PnP-X'
+Description: Plug and Play Extensions (PnP-X) enable a computer system to discover networked devices and to install them on the local system using Plug and Play (PnP).
+ms.assetid: d6d158bb-6e81-4ccc-8324-b06dab5d8b9c
+title: PnP-X
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PnP-X

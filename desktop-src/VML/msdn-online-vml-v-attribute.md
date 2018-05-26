@@ -1,7 +1,12 @@
 ---
 title: VML V Attribute
 description: VML V Attribute
-ms.assetid: 'be55704f-71f3-4c0b-8a1b-d7de5efa85dc'
+ms.assetid: be55704f-71f3-4c0b-8a1b-d7de5efa85dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML V Attribute

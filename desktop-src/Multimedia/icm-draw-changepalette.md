@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_CHANGEPALETTE message
 description: The ICM\_DRAW\_CHANGEPALETTE message notifies a rendering driver that the movie palette is changing. You can send this message explicitly or by using the ICDrawChangePalette macro.
-ms.assetid: '974fc0d8-d0c7-4a82-af84-68b53f753259'
-keywords: ["ICM_DRAW_CHANGEPALETTE message Windows Multimedia"]
+ms.assetid: 974fc0d8-d0c7-4a82-af84-68b53f753259
+keywords:
+- ICM_DRAW_CHANGEPALETTE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_CHANGEPALETTE message
 
-The **ICM\_DRAW\_CHANGEPALETTE** message notifies a rendering driver that the movie palette is changing. You can send this message explicitly or by using the [**ICDrawChangePalette**](icdrawchangepalette.md) macro.
+The **ICM\_DRAW\_CHANGEPALETTE** message notifies a rendering driver that the movie palette is changing. You can send this message explicitly or by using the [**ICDrawChangePalette**](/windows/win32/Vfw/nf-vfw-icdrawchangepalette?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ This message should be supported by installable rendering handlers that draw DIB
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ This message should be supported by installable rendering handlers that draw DIB
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

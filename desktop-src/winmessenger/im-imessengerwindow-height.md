@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow Height property
 description: Sets or retrieves the height of a Messenger window.
-ms.assetid: '97e49f04-18ec-443e-aae2-1ba5784a1f82'
-keywords: ["Height property Windows Messenger", "Height property Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , Height property"]
+ms.assetid: 97e49f04-18ec-443e-aae2-1ba5784a1f82
+keywords:
+- Height property Windows Messenger
+- Height property Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , Height property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::Height property
 
-\[**Height** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Height** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves the height of a Messenger window.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Height(
-           LONG lHeight
+           LONG lHeight
 );
 
 HRESULT get_Height(
-  [retval] LONG *plHeight
+  [retval] LONG *plHeight
 );
 ```
 
@@ -72,14 +80,14 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 If the Messenger window is closed (only available from the taskbar), not responding, or if the HWND could not be found, this method will fail.
 
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -106,17 +114,17 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

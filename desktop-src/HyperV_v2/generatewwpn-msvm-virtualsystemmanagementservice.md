@@ -1,7 +1,12 @@
 ---
-Description: 'Generates a set of World Wide Port Names (WWPNs).'
-ms.assetid: '36f393eb-6f34-4ae3-a976-c5da60211f3e'
-title: 'GenerateWwpn method of the Msvm\_VirtualSystemManagementService class'
+Description: Generates a set of World Wide Port Names (WWPNs).
+ms.assetid: 36f393eb-6f34-4ae3-a976-c5da60211f3e
+title: GenerateWwpn method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GenerateWwpn method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Generates a set of World Wide Port Names (WWPNs). The WWPNs are generated from w
 
 ```mof
 uint32 GenerateWwpn(
-  [in]  uint32 NumberOfWwpns,
-  [out] string GeneratedWwpn[]
+  [in]  uint32 NumberOfWwpns,
+  [out] string GeneratedWwpn[]
 );
 ```
 
@@ -86,8 +91,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -101,9 +106,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMessenger Signout method
 description: Signs the current client user out of all Mesenger services.
-ms.assetid: 'd6ea6bb0-3730-44b2-8a03-2aa7e1af1799'
-keywords: ["Signout method Windows Messenger", "Signout method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , Signout method"]
+ms.assetid: d6ea6bb0-3730-44b2-8a03-2aa7e1af1799
+keywords:
+- Signout method Windows Messenger
+- Signout method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , Signout method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::Signout method
 
-\[**Signout** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Signout** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Signs the current client user out of all Mesenger services.
 
@@ -48,7 +56,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,7 +67,7 @@ If successful, invoking this method will result in a [**OnSignout**](im-dmesseng
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ If successful, invoking this method will result in a [**OnSignout**](im-dmesseng
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -85,9 +93,9 @@ If successful, invoking this method will result in a [**OnSignout**](im-dmesseng
 [**OnAppShutdown**](im-dmessengerevents-onappshutdown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

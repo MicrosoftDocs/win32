@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint Service Friendly Name.'
-ms.assetid: 'c1b8a9c0-e97c-4748-a801-0cb617f3f972'
-title: 'System.Devices.AepService.FriendlyName'
+Description: Device Association Endpoint Service Friendly Name.
+ms.assetid: c1b8a9c0-e97c-4748-a801-0cb617f3f972
+title: System.Devices.AepService.FriendlyName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.FriendlyName

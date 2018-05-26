@@ -1,7 +1,12 @@
 ---
 title: deriv\_rty (sm4 - asm)
 description: Render-target y equivalent of deriv\_rtx.
-ms.assetid: 'F78F2DBD-9428-4F34-85AD-276DF54C52D1'
+ms.assetid: F78F2DBD-9428-4F34-85AD-276DF54C52D1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # deriv\_rty (sm4 - asm)
@@ -15,7 +20,7 @@ Render-target y equivalent of [deriv\_rtx](deriv-rtx--sm4---asm-.md).
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Render-target y equivalent of [deriv\_rtx](deriv-rtx--sm4---asm-.md).
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +57,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -80,9 +85,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

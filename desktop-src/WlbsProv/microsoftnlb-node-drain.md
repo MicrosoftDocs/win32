@@ -4,13 +4,16 @@ description: Drains a range of ports on the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1d03d68b-e1cd-4ed5-8731-7bbf29ec8f4d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1d03d68b-e1cd-4ed5-8731-7bbf29ec8f4d
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Drain method", "Drain method, MicrosoftNLB_Node class", "MicrosoftNLB_Node class, Drain method"]
+keywords:
+- Drain method
+- Drain method, MicrosoftNLB_Node class
+- MicrosoftNLB_Node class, Drain method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Drain method of the MicrosoftNLB\_Node class
@@ -30,7 +36,7 @@ api_type:
 
 ```mof
 uint32 Drain(
-  [in] uint32 Port
+  [in] uint32 Port
 );
 ```
 
@@ -82,7 +88,7 @@ This method will fail if called on an instance of a [**MicrosoftNLB\_Node**](htt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Ddpchunk.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
@@ -103,9 +109,9 @@ This method will fail if called on an instance of a [**MicrosoftNLB\_Node**](htt
 [**DrainEx Method of the MicrosoftNLB\_Node Class**](microsoftnlb-node-drainex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

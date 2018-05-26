@@ -4,13 +4,16 @@ description: Removes an existing replication partnership.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '802af940-1fca-4929-abae-340464839c7f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 802af940-1fca-4929-abae-340464839c7f
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrRemoveReplicationPartnership method", "WvrRemoveReplicationPartnership method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrRemoveReplicationPartnership method"]
+keywords:
+- WvrRemoveReplicationPartnership method
+- WvrRemoveReplicationPartnership method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrRemoveReplicationPartnership method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrRemoveReplicationPartnership method of the MSFT\_WvrAdminTasks class
@@ -30,9 +36,9 @@ Removes an existing replication partnership.
 
 ```mof
 uint32 WvrRemoveReplicationPartnership(
-  [in] string SourceReplicationGroupName,
-  [in] string TargetReplicationGroupName,
-  [in] string TargetComputerName
+  [in] string SourceReplicationGroupName,
+  [in] string TargetReplicationGroupName,
+  [in] string TargetComputerName
 );
 ```
 
@@ -70,7 +76,7 @@ The FQDN or NetBIOS name of the target computer.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ The FQDN or NetBIOS name of the target computer.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

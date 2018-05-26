@@ -1,7 +1,12 @@
 ---
-Description: 'A typical use for transitive components is to prepare a product to reinstall during a system upgrade.'
-ms.assetid: '73677573-945f-4646-89d8-93e28f7856fe'
+Description: A typical use for transitive components is to prepare a product to reinstall during a system upgrade.
+ms.assetid: 73677573-945f-4646-89d8-93e28f7856fe
 title: Using Transitive Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Transitive Components
@@ -29,7 +34,7 @@ A reinstallation of the product is necessary to switch the transitive components
 
 -   Run and configure the reinstallation through the user interface by authoring a package that uses the [*full UI*](f-gly.md#-msi-full-ui-gly).
 -   Run the reinstallation from the command line by using **msiexec /f** and select the modes from the list for the **/f** [command line option](command-line-options.md).
--   Have the application call [**MsiReInstallProduct**](msireinstallproduct.md) or [**MsiReInstallFeature**](msireinstallfeature.md).
+-   Have the application call [**MsiReInstallProduct**](/windows/win32/Msi/nf-msi-msireinstallproducta?branch=master) or [**MsiReInstallFeature**](/windows/win32/Msi/nf-msi-msireinstallfeaturea?branch=master).
 
 The bit should only be used with conditions based on computer states. Do not use with conditions based on user states or properties set on the command line because this can cause the installer to require a reinstallation of the product on each use by a different user.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PROTOCOLTABLE structure contains a list of protocols.'
-ms.assetid: 'dad2b228-5916-44fe-b78e-ebc6507dc555'
+Description: The PROTOCOLTABLE structure contains a list of protocols.
+ms.assetid: dad2b228-5916-44fe-b78e-ebc6507dc555
 title: PROTOCOLTABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROTOCOLTABLE structure
@@ -13,7 +18,7 @@ The **PROTOCOLTABLE** structure contains a list of protocols.
 
 ```C++
 typedef struct _PROTOCOLTABLE {
-  DWORD     nProtocols;
+  DWORD     nProtocols;
   HPROTOCOL hProtocol[1];
 } PROTOCOLTABLE;
 ```
@@ -44,15 +49,15 @@ Array of handles to enabled protocols.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service extended Component Object Model (COM) objects fall into the following functional groupings. For a list of the objects, see Alphabetic List of COM Objects.'
-ms.assetid: 'e68f6ef6-a126-4fce-b1b3-4611080f3ace'
+Description: The fax service extended Component Object Model (COM) objects fall into the following functional groupings. For a list of the objects, see Alphabetic List of COM Objects.
+ms.assetid: e68f6ef6-a126-4fce-b1b3-4611080f3ace
 title: Fax Service Extended COM Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Extended COM Objects
@@ -21,10 +26,10 @@ For more information, see [Fax Service Extended COM Object Model](-mfax-fax-serv
 
  
 
--   [**ConnectedSubmit**](-mfax-faxdocument-connectedsubmit.md) and [**IFaxDocument::Submit**](-mfax-faxdocument-cpp-mfax-faxdocument-submit-cpp.md) are not supported for a remote connection to a fax server that is running on Windows XP Home Edition or Windows XP Professional, Windows Vista Business, Windows Vista Enterprise or Windows Vista Ultimate.
--   Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate, Windows XP Home Edition and Windows XP Professional do not support the sending of delivery receipts. If you set [**IFaxReceiptOptions::get\_UseForInboundRouting**](-mfax-faxreceiptoptions-cpp-mfax-faxreceiptoptions-useforinboundrouting-cpp.md) equal to **TRUE**, the [**IFaxReceiptOptions::Save**](-mfax-faxreceiptoptions-cpp-mfax-faxreceiptoptions-save-cpp.md) method will fail.
+-   [**ConnectedSubmit**](-mfax-faxdocument-connectedsubmit.md) and [**IFaxDocument::Submit**](/windows/previous-versions/FaxComex/?branch=master) are not supported for a remote connection to a fax server that is running on Windows XP Home Edition or Windows XP Professional, Windows Vista Business, Windows Vista Enterprise or Windows Vista Ultimate.
+-   Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate, Windows XP Home Edition and Windows XP Professional do not support the sending of delivery receipts. If you set [**IFaxReceiptOptions::get\_UseForInboundRouting**](/windows/previous-versions/FaxComex/?branch=master) equal to **TRUE**, the [**IFaxReceiptOptions::Save**](/windows/previous-versions/FaxComex/?branch=master) method will fail.
 -   Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate, Windows XP Home Edition and Windows XP Professional do not support outbound routing features. The [**FaxOutboundRouting**](-mfax-faxoutboundrouting.md) object and its subordinate objects are therefore not available for programmatic use.
--   You cannot add inbound routing extensions to the fax service running on Windows XP Home Edition or Windows XP Professional, Windows Vista Business, Windows Vista Enterprise or Windows Vista Ultimate. Therefore, [**IFaxServer::RegisterInboundRoutingExtension**](-mfax-faxserver-cpp-mfax-faxserver-registerinboundroutingextension-cpp.md) is not available.
+-   You cannot add inbound routing extensions to the fax service running on Windows XP Home Edition or Windows XP Professional, Windows Vista Business, Windows Vista Enterprise or Windows Vista Ultimate. Therefore, [**IFaxServer::RegisterInboundRoutingExtension**](/windows/previous-versions/FaxComex/?branch=master) is not available.
 -   You cannot reassign inbox faxes on Windows Vista Business, Windows Vista Enterprise or Windows Vista Ultimate.
 
 If you use any of the methods that are unavailable, you will receive a [FAX\_E\_NOT\_SUPPORTED\_ON\_THIS\_SKU](-mfax-fax-error-codes.md) error.
@@ -118,10 +123,10 @@ Includes objects for event notification callbacks.
 
 | Object                                               | Description                                                                                                                                                                                |
 |------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IFaxServerNotify**](-mfax-ifaxservernotify.md)   | [**FaxServer**](-mfax-faxserver.md) interface used for fax notifications. For more information, see [Registering for Event Notifications](-mfax-registering-for-event-notifications.md). |
+| [**IFaxServerNotify**](/windows/previous-versions/FaxComex/?branch=master)   | [**FaxServer**](-mfax-faxserver.md) interface used for fax notifications. For more information, see [Registering for Event Notifications](-mfax-registering-for-event-notifications.md). |
 | [**FaxJobStatus**](-mfax-faxjobstatus.md)           | Retrieves dynamic information about a fax job.                                                                                                                                             |
-| [**IFaxServerNotify2**](-mfax-ifaxservernotify2.md) | Used for fax notifications. For more information, see Registering for Event Notifications.                                                                                                 |
-| [**IFaxAccountNotify**](-mfax-ifaxaccountnotify.md) | [**FaxAccount**](-mfax-faxaccount.md) interface used for fax account notifications. For more information, see Registering for Event Notifications.                                        |
+| [**IFaxServerNotify2**](/windows/previous-versions/FaxComex/?branch=master) | Used for fax notifications. For more information, see Registering for Event Notifications.                                                                                                 |
+| [**IFaxAccountNotify**](/windows/previous-versions/FaxComex/?branch=master) | [**FaxAccount**](-mfax-faxaccount.md) interface used for fax account notifications. For more information, see Registering for Event Notifications.                                        |
 
 
 
@@ -135,7 +140,7 @@ The fax service extended COM object model includes the following objects, listed
 -   [**FaxAccountFolders**](-mfax-faxaccountfolders.md)
 -   [**FaxAccountIncomingArchive**](-mfax-faxaccountincomingarchive.md)
 -   [**FaxAccountIncomingQueue**](-mfax-faxaccountincomingqueue.md)
--   [**FaxAccountNotify (interface)**](-mfax-ifaxaccountnotify.md)
+-   [**FaxAccountNotify (interface)**](/windows/previous-versions/FaxComex/?branch=master)
 -   [**FaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive.md)
 -   [**FaxAccountOutgoingQueue**](-mfax-faxaccountoutgoingqueue.md)
 -   [**FaxAccounts**](-mfax-faxaccounts.md)
@@ -181,8 +186,8 @@ The fax service extended COM object model includes the following objects, listed
 -   [**FaxSecurity2**](-mfax-faxsecurity2.md)
 -   [**FaxSender**](-mfax-faxsender.md)
 -   [**FaxServer**](-mfax-faxserver.md)
--   [**FaxServerNotify (interface)**](-mfax-ifaxservernotify.md)
--   [**FaxServerNotify2 (interface)**](-mfax-ifaxservernotify2.md)
+-   [**FaxServerNotify (interface)**](/windows/previous-versions/FaxComex/?branch=master)
+-   [**FaxServerNotify2 (interface)**](/windows/previous-versions/FaxComex/?branch=master)
 
  
 

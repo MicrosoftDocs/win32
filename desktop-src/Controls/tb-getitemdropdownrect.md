@@ -1,8 +1,9 @@
 ---
 title: TB\_GETITEMDROPDOWNRECT message
 description: Gets the bounding rectangle of the dropdown window for a toolbar item with style BTNS\_DROPDOWN.
-ms.assetid: '4b59c96b-8d75-44c1-b771-c1d62502a2c2'
-keywords: ["TB_GETITEMDROPDOWNRECT message Windows Controls"]
+ms.assetid: 4b59c96b-8d75-44c1-b771-c1d62502a2c2
+keywords:
+- TB_GETITEMDROPDOWNRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETITEMDROPDOWNRECT message
@@ -45,15 +51,15 @@ The item must have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

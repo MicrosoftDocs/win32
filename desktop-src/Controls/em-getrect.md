@@ -1,8 +1,9 @@
 ---
 title: EM\_GETRECT message
 description: Gets the formatting rectangle of an edit control.
-ms.assetid: 'eef0150d-9b7a-4247-acbf-6fea2efd1dc3'
-keywords: ["EM_GETRECT message Windows Controls"]
+ms.assetid: eef0150d-9b7a-4247-acbf-6fea2efd1dc3
+keywords:
+- EM_GETRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETRECT message
@@ -43,9 +49,9 @@ The return value is not meaningful.
 
 You can modify the formatting rectangle of a multiline edit control by using the [**EM\_SETRECT**](em-setrect.md) and [**EM\_SETRECTNP**](em-setrectnp.md) messages.
 
-Under certain conditions, **EM\_GETRECT** might not return the exact values that [**EM\_SETRECT**](em-setrect.md) or [**EM\_SETRECTNP**](em-setrectnp.md) set—it will be approximately correct, but it can be off by a few pixels.
+Under certain conditions, **EM\_GETRECT** might not return the exact values that [**EM\_SETRECT**](em-setrect.md) or [**EM\_SETRECTNP**](em-setrectnp.md) set it will be approximately correct, but it can be off by a few pixels.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. The formatting rectangle does not include the selection bar, which is an unmarked area to the left of each paragraph. When clicked, the selection bar selects the line. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. The formatting rectangle does not include the selection bar, which is an unmarked area to the left of each paragraph. When clicked, the selection bar selects the line. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -53,8 +59,8 @@ Under certain conditions, **EM\_GETRECT** might not return the exact values that
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ Under certain conditions, **EM\_GETRECT** might not return the exact values that
 [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the ServiceID, Types,PnPXHardwareId, and PnPXCompatibleId elements for the services defined by the service host.'
-ms.assetid: 'f901a88f-7e01-4e7f-a0f2-59f2a01b03cd'
+Description: Defines the ServiceID, Types,PnPXHardwareId, and PnPXCompatibleId elements for the services defined by the service host.
+ms.assetid: f901a88f-7e01-4e7f-a0f2-59f2a01b03cd
 title: hosted element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hosted element
@@ -68,14 +73,14 @@ If a [**PnPXDeviceCategory**](pnpxdevicecategory.md) element is present, then at
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

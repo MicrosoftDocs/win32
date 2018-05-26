@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxActivityLogging object''s data.'
-ms.assetid: '42a84b1b-31ba-412f-9ae7-a2a48a9e567b'
-title: 'FaxActivityLogging.Save method'
+---
+Description: The Save method saves the FaxActivityLogging objects data.
+ms.assetid: 42a84b1b-31ba-412f-9ae7-a2a48a9e567b
+title: FaxActivityLogging.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivityLogging.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) and [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxActivityLogging**](-mfax-faxactivitylogging.md)
 </dt> <dt>
 
-[**IFaxActivityLogging**](-mfax-faxactivitylogging-cpp.md)
+[**IFaxActivityLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivitylogging?branch=master)
 </dt> </dl>
 
  

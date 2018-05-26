@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.backgroundImage
 description: The backgroundImage attribute specifies or retrieves the background image.
-ms.assetid: 'd4efa774-d42e-4415-a487-1e858d984075'
-keywords: ["PLAYLIST.backgroundImage Windows Media Player"]
+ms.assetid: d4efa774-d42e-4415-a487-1e858d984075
+keywords:
+- PLAYLIST.backgroundImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.backgroundImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.backgroundImage
@@ -46,9 +52,9 @@ Specifying a value of "gradient" for the background image causes the background 
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

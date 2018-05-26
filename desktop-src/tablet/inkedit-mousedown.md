@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the user presses a mouse button while the mouse is over the InkEdit control.'
-ms.assetid: '8985fee5-7b63-46ab-b229-046e2f0ee004'
-title: 'InkEdit.MouseDown event'
+Description: Occurs when the user presses a mouse button while the mouse is over the InkEdit control.
+ms.assetid: 8985fee5-7b63-46ab-b229-046e2f0ee004
+title: InkEdit.MouseDown event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.MouseDown event
@@ -13,10 +18,10 @@ Occurs when the user presses a mouse button while the mouse is over the [InkEdit
 
 ```C++
 HRESULT MouseDown(
-   short Button,
-   short ShiftKey,
-   long  xMouse,
-   long  yMouse
+   short Button,
+   short ShiftKey,
+   long  xMouse,
+   long  yMouse
 );
 ```
 
@@ -29,7 +34,7 @@ HRESULT MouseDown(
 *Button* 
 </dt> <dd>
 
-A member of the [**MouseButton**](mousebutton.md) enumeration that indicates which mouse buttons were pressed.
+A member of the [**MouseButton**](/windows/win32/inked/ne-inked-mousebutton?branch=master) enumeration that indicates which mouse buttons were pressed.
 
 
 
@@ -42,14 +47,14 @@ A member of the [**MouseButton**](mousebutton.md) enumeration that indicates whi
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *ShiftKey* 
 </dt> <dd>
 
-A member of the [**InkShiftKeyModifierFlags**](inkshiftkeymodifierflags.md) enumeration that indicates which modifier keys are depressed at the time of the event.
+A member of the [**InkShiftKeyModifierFlags**](/windows/win32/msinkaut/ne-msinkaut-inkshiftkeymodifierflags?branch=master) enumeration that indicates which modifier keys are depressed at the time of the event.
 
 
 
@@ -61,7 +66,7 @@ A member of the [**InkShiftKeyModifierFlags**](inkshiftkeymodifierflags.md) enum
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +102,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -111,10 +116,10 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [InkEdit](inkedit-control-reference.md)
 </dt> <dt>
 
-[**InkMouseButton Enumeration**](inkmousebutton.md)
+[**InkMouseButton Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkmousebutton?branch=master)
 </dt> <dt>
 
-[**InkShiftKeyModifierFlags Enumeration**](inkshiftkeymodifierflags.md)
+[**InkShiftKeyModifierFlags Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkshiftkeymodifierflags?branch=master)
 </dt> <dt>
 
 [**MouseMove Event \[InkEdit Control\]**](inkedit-mousemove.md)
@@ -123,9 +128,9 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [**MouseUp Event \[InkEdit Control\]**](inkedit-mouseup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

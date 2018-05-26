@@ -1,7 +1,12 @@
 ---
 title: How to Create a Tabbed Dialog Box
 description: The example in this section demonstrates how to create a dialog box that uses tabs to provide multiple pages of controls.
-ms.assetid: 'DBF7FBDF-AADC-45CE-833E-F893C1129FC0'
+ms.assetid: DBF7FBDF-AADC-45CE-833E-F893C1129FC0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Tabbed Dialog Box
@@ -48,7 +53,7 @@ typedef struct tag_dlghdr {
 
 The following function processes the [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428) message for the main dialog box. The function allocates the `DLGHDR` structure, loads the dialog box template resources for the child dialog boxes, and creates the tab control.
 
-The size of each child dialog box is specified by the [**DLGTEMPLATEEX**](https://msdn.microsoft.com/library/windows/desktop/ms645398) structure. The function examines the size of each dialog box and uses the macro for the [**TCM\_ADJUSTRECT**](tcm-adjustrect.md) message to calculate an appropriate size for the tab control. Then it sizes the dialog box and positions the two buttons accordingly. This example sends **TCM\_ADJUSTRECT** by using the [**TabCtrl\_AdjustRect**](tabctrl-adjustrect.md) macro.
+The size of each child dialog box is specified by the [**DLGTEMPLATEEX**](https://msdn.microsoft.com/library/windows/desktop/ms645398) structure. The function examines the size of each dialog box and uses the macro for the [**TCM\_ADJUSTRECT**](tcm-adjustrect.md) message to calculate an appropriate size for the tab control. Then it sizes the dialog box and positions the two buttons accordingly. This example sends **TCM\_ADJUSTRECT** by using the [**TabCtrl\_AdjustRect**](/windows/win32/Commctrl/nf-commctrl-tabctrl_adjustrect?branch=master) macro.
 
 
 ```C++

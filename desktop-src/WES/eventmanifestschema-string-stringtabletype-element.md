@@ -1,14 +1,20 @@
 ---
 title: string (StringTableType) Element
 description: Defines a localized string.
-ms.assetid: '845476a9-bcf4-4821-824c-06c9a9f64649'
-keywords: ["string element EventLog"]
+ms.assetid: 845476a9-bcf4-4821-824c-06c9a9f64649
+keywords:
+- string element EventLog
 topic_type:
 - apiref
 api_name:
 - string
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # string (StringTableType) Element
@@ -54,8 +60,8 @@ The **string** element is defined by the [**StringTableType**](eventmanifestsche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The **string** element is defined by the [**StringTableType**](eventmanifestsche
 [**stringTable (LocalizationType)**](eventmanifestschema-stringtable-localizationtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

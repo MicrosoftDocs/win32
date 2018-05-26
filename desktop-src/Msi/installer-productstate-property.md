@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductState property is a read-only property that returns the install state information for a product.'
-ms.assetid: '9ae3bc86-aa13-41b3-b058-4037607f7dd5'
-title: 'Installer.ProductState Property method'
+---
+Description: The ProductState property is a read-only property that returns the install state information for a product.
+ms.assetid: 9ae3bc86-aa13-41b3-b058-4037607f7dd5
+title: Installer.ProductState Property method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ProductState Property method
@@ -69,7 +74,7 @@ Returns one of the values shown in the following table.
 
 <dl> <dt>
 
-[**MsiQueryProductState**](msiqueryproductstate.md)
+[**MsiQueryProductState**](/windows/win32/Msi/nf-msi-msiqueryproductstatea?branch=master)
 </dt> </dl>
 
  

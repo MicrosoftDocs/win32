@@ -4,17 +4,22 @@ description: Specifies the integer component of the version of the operating sys
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9bd16289-e98a-4a8b-92cc-ee37d6f9f059'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9bd16289-e98a-4a8b-92cc-ee37d6f9f059
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MajorVersion Failover Cluster ,for nodes", "MajorVersion Failover Cluster"]
+keywords:
+- MajorVersion Failover Cluster ,for nodes
+- MajorVersion Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MajorVersion
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MajorVersion
@@ -27,14 +32,14 @@ Specifies the integer component of the version of the operating system installed
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0x00000004                                |
 | Maximum   | 0xFFFFFFF                                 |
 | Default   | Varies                                    |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,13 +56,13 @@ For information about the values in OS version numbers, see [OSVERSIONINFOEX](ht
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

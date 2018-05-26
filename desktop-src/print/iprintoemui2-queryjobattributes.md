@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI2::QueryJobAttributes method allows a UI plug-in to postprocess the core driver''s results after a call to the DrvQueryJobAttributes DDI.'
-ms.assetid: 'cb510aa6-7156-4b02-bab1-6951becbc1a0'
-title: 'IPrintOemUI2::QueryJobAttributes method'
+---
+Description: The IPrintOemUI2QueryJobAttributes method allows a UI plug-in to postprocess the core drivers results after a call to the DrvQueryJobAttributes DDI.
+ms.assetid: cb510aa6-7156-4b02-bab1-6951becbc1a0
+title: IPrintOemUI2QueryJobAttributes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI2::QueryJobAttributes method

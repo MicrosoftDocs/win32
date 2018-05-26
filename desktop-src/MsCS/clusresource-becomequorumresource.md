@@ -4,11 +4,14 @@ description: Establishes a resource as the quorum resource for the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd316586-8553-4c4a-824e-ee5b7bf48184'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fd316586-8553-4c4a-824e-ee5b7bf48184
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["BecomeQuorumResource method Failover Cluster", "BecomeQuorumResource method Failover Cluster , ClusResource object", "ClusResource object Failover Cluster , BecomeQuorumResource method"]
+keywords:
+- BecomeQuorumResource method Failover Cluster
+- BecomeQuorumResource method Failover Cluster , ClusResource object
+- ClusResource object Failover Cluster , BecomeQuorumResource method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.BecomeQuorumResource method
@@ -70,7 +76,7 @@ Failover clusters only allow [Physical Disk](physical-disk.md) resources to oper
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -86,9 +92,9 @@ Failover clusters only allow [Physical Disk](physical-disk.md) resources to oper
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

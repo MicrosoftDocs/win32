@@ -1,7 +1,12 @@
 ---
 title: Using Server Annotation
 description: This topic provides information about using server annotation to specify a callback object.
-ms.assetid: 'eeeebddc-2752-4d8f-b4fa-38ce156acc08'
+ms.assetid: eeeebddc-2752-4d8f-b4fa-38ce156acc08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Server Annotation
@@ -10,21 +15,21 @@ This topic provides information about using server annotation to specify a callb
 
 **To override a property that specifies a callback object**
 
-1.  Obtain an [**IAccessible**](iaccessible.md) interface pointer to the accessible element that is to be annotated.
-2.  Call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the accessible element to get an [**IAccIdentity**](iaccidentity.md) interface pointer.
-3.  Call [**IAccIdentity::GetIdentityString()**](iaccidentity-iaccidentity--getidentitystring.md) on the [**IAccIdentity**](iaccidentity.md) interface pointer to obtain a string that uniquely identifies the accessible element that is to be annotated.
-4.  Use [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) or [**CoCreateInstanceEx**](https://msdn.microsoft.com/library/windows/desktop/ms680701) to create the [**IAccPropServices**](iaccpropservices.md) object.
-5.  Create a Component Object Model (COM) object that implements [**IAccPropServer**](iaccpropserver.md).
-6.  Call [**IAccPropServices::SetPropServer**](iaccpropservices-iaccpropservices--setpropserver.md), passing the identity string, a GUID indicating the property to be overridden, and a pointer to the [**IAccPropServer**](iaccpropserver.md) callback object.
+1.  Obtain an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer to the accessible element that is to be annotated.
+2.  Call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the accessible element to get an [**IAccIdentity**](/windows/win32/oleacc/nn-oleacc-iaccidentity?branch=master) interface pointer.
+3.  Call [**IAccIdentity::GetIdentityString()**](/windows/win32/Oleacc/nf-oleacc-iaccidentity-getidentitystring?branch=master) on the [**IAccIdentity**](/windows/win32/oleacc/nn-oleacc-iaccidentity?branch=master) interface pointer to obtain a string that uniquely identifies the accessible element that is to be annotated.
+4.  Use [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) or [**CoCreateInstanceEx**](https://msdn.microsoft.com/library/windows/desktop/ms680701) to create the [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master) object.
+5.  Create a Component Object Model (COM) object that implements [**IAccPropServer**](/windows/win32/oleacc/nn-oleacc-iaccpropserver?branch=master).
+6.  Call [**IAccPropServices::SetPropServer**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-setpropserver?branch=master), passing the identity string, a GUID indicating the property to be overridden, and a pointer to the [**IAccPropServer**](/windows/win32/oleacc/nn-oleacc-iaccpropserver?branch=master) callback object.
 7.  Release interface pointers and free memory.
 
 When a client requests the property of the accessible element, the callback object will be called and will return the value to the client.
 
-As when specifying a value, server developers can alternatively use the [**IAccPropServices::ComposeHwndIdentityString**](iaccpropservices-iaccpropservices--composehwndidentitystring.md) method to obtain an identity string; or they can use the [**IAccPropServices::SetHwndPropServer**](iaccpropservices-iaccpropservices--sethwndpropserver.md) method and specify the *hwnd*, *idObject*, or *idChild* parameters instead of an identity string.
+As when specifying a value, server developers can alternatively use the [**IAccPropServices::ComposeHwndIdentityString**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-composehwndidentitystring?branch=master) method to obtain an identity string; or they can use the [**IAccPropServices::SetHwndPropServer**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndpropserver?branch=master) method and specify the *hwnd*, *idObject*, or *idChild* parameters instead of an identity string.
 
-When using either [**SetPropServer**](iaccpropservices-iaccpropservices--setpropserver.md) or [**SetHwndPropServer**](iaccpropservices-iaccpropservices--sethwndpropserver.md) on a container object, server developers can optionally specify that the overriding information should also apply to all element children of that container.
+When using either [**SetPropServer**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-setpropserver?branch=master) or [**SetHwndPropServer**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndpropserver?branch=master) on a container object, server developers can optionally specify that the overriding information should also apply to all element children of that container.
 
-Servers can explicitly clear the annotation at any time by using [**IAccPropServices::ClearProps**](iaccpropservices-iaccpropservices--clearprops.md). This is usually not required, as the annotation service will automatically clean up and release annotation information when the accessible element being annotated disappears.
+Servers can explicitly clear the annotation at any time by using [**IAccPropServices::ClearProps**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-clearprops?branch=master). This is usually not required, as the annotation service will automatically clean up and release annotation information when the accessible element being annotated disappears.
 
 Below is a list of properties that can be annotated using this procedure.
 
@@ -60,11 +65,11 @@ When specifying a callback, the following properties can be annotated. Currently
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

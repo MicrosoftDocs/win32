@@ -1,7 +1,12 @@
 ---
 title: IDE I/O Control Codes
 description: IDE I/O Control Codes
-ms.assetid: '5bacfd2d-1d9e-4afb-bba7-5e4538fb35fe'
+ms.assetid: 5bacfd2d-1d9e-4afb-bba7-5e4538fb35fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDE I/O Control Codes

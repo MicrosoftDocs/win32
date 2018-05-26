@@ -1,8 +1,9 @@
 ---
 title: WM\_KEYUP message
 description: Posted to the window with the keyboard focus when a nonsystem key is released. A nonsystem key is a key that is pressed when the ALT key is not pressed, or a keyboard key that is pressed when a window has the keyboard focus.
-ms.assetid: '67d9d82d-fab0-4aec-a337-7a9cb2b0b586'
-keywords: ["WM_KEYUP message Keyboard and Mouse Input"]
+ms.assetid: 67d9d82d-fab0-4aec-a337-7a9cb2b0b586
+keywords:
+- WM_KEYUP message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_KEYUP message
@@ -54,7 +60,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,8 +82,8 @@ Applications must pass *wParam* to [**TranslateMessage**](https://msdn.microsoft
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -107,9 +113,9 @@ Applications must pass *wParam* to [**TranslateMessage**](https://msdn.microsoft
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

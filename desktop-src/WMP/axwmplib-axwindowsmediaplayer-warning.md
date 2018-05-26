@@ -1,8 +1,9 @@
 ---
 title: Warning Event of the AxWindowsMediaPlayer Object
 description: The Warning event is reserved for future use.
-ms.assetid: '3de63756-2726-4864-8988-fd614f23bcad'
-keywords: ["Warning Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 3de63756-2726-4864-8988-fd614f23bcad
+keywords:
+- Warning Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Warning Event of the AxWindowsMediaPlayer Object
@@ -45,7 +51,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_War
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +76,9 @@ This event is reserved for future use.
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

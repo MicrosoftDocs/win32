@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers a window class that allows for the SysLink common control to be used in a window.'
-ms.assetid: '1e6dd741-81be-40bb-a8b5-d565f593c4e9'
-title: 'LinkWindow\_RegisterClass function'
+---
+Description: Registers a window class that allows for the SysLink common control to be used in a window.
+ms.assetid: 1e6dd741-81be-40bb-a8b5-d565f593c4e9
+title: LinkWindow\_RegisterClass function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkWindow\_RegisterClass function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the policy''s OID. This is the default property.'
-ms.assetid: 'c78bbbcb-befd-491c-afbd-80c3ba124d29'
-title: 'PolicyInformation.OID property'
+---
+Description: Retrieves the policys OID. This is the default property.
+ms.assetid: c78bbbcb-befd-491c-afbd-80c3ba124d29
+title: PolicyInformation.OID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PolicyInformation.OID property

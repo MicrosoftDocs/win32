@@ -1,8 +1,26 @@
 ---
 title: Using Cursors
 description: This section provides code samples that show how to perform tasks related to cursors.
-ms.assetid: 'eab7b781-783e-4fc5-868d-6ff773c40a21'
-keywords: ["resources,cursors", "cursors,custom", "custom cursors", "hourglass cursor", "cursors,creating", "cursors,hourglass", "creating cursors", "destroying cursors", "displaying cursors", "confining cursors", "cursors,destroying", "cursors,displaying", "cursors,confining"]
+ms.assetid: eab7b781-783e-4fc5-868d-6ff773c40a21
+keywords:
+- resources,cursors
+- cursors,custom
+- custom cursors
+- hourglass cursor
+- cursors,creating
+- cursors,hourglass
+- creating cursors
+- destroying cursors
+- displaying cursors
+- confining cursors
+- cursors,destroying
+- cursors,displaying
+- cursors,confining
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Cursors
@@ -35,9 +53,9 @@ hCurs2 = LoadCursor(hinst, MAKEINTRESOURCE(240));
 
 
 
-You should implement custom cursors as resources. Rather than create the cursors at run time, use the [**LoadCursor**](loadcursor.md), [**LoadCursorFromFile**](loadcursorfromfile.md), or [**LoadImage**](loadimage.md) function to avoid device dependence, to simplify localization, and to enable applications to share cursor designs.
+You should implement custom cursors as resources. Rather than create the cursors at run time, use the [**LoadCursor**](/windows/win32/Winuser/nf-winuser-loadcursora?branch=master), [**LoadCursorFromFile**](/windows/win32/Winuser/nf-winuser-loadcursorfromfilea?branch=master), or [**LoadImage**](/windows/win32/Winuser/nf-winuser-loadimagea?branch=master) function to avoid device dependence, to simplify localization, and to enable applications to share cursor designs.
 
-The following example uses the [**CreateCursor**](createcursor.md) function to create a custom cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
+The following example uses the [**CreateCursor**](/windows/win32/Winuser/nf-winuser-createcursor?branch=master) function to create a custom cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
 
 
 ```
@@ -149,7 +167,7 @@ hCurs3 = CreateCursor( hinst,   // app. instance
 
 
 
-To create the cursor, [**CreateCursor**](createcursor.md) applies the following truth table to the **AND** and **XOR** masks.
+To create the cursor, [**CreateCursor**](/windows/win32/Winuser/nf-winuser-createcursor?branch=master) applies the following truth table to the **AND** and **XOR** masks.
 
 
 
@@ -166,7 +184,7 @@ To create the cursor, [**CreateCursor**](createcursor.md) applies the following 
 
 For more information, see [Bitmaps](https://msdn.microsoft.com/library/windows/desktop/dd183377).
 
-Before closing, you must use the [**DestroyCursor**](destroycursor.md) function to destroy any cursors you created with [**CreateCursor**](createcursor.md). It is not necessary to destroy cursors created by other functions.
+Before closing, you must use the [**DestroyCursor**](/windows/win32/Winuser/nf-winuser-destroycursor?branch=master) function to destroy any cursors you created with [**CreateCursor**](/windows/win32/Winuser/nf-winuser-createcursor?branch=master). It is not necessary to destroy cursors created by other functions.
 
 ## Displaying a Cursor
 
@@ -199,7 +217,7 @@ return RegisterClass(&amp;wc);
 
 When the window class is registered, the cursor identified by 230 in the application's resource-definition file is the default cursor for all windows based on the class.
 
-Your application can change the design of the cursor by using the [**SetCursor**](setcursor.md) function and specifying a different cursor handle. However, when the cursor moves, the system redraws the class cursor at the new location. To prevent the class cursor from being redrawn, you must process the [**WM\_SETCURSOR**](wm-setcursor.md) message. Each time the cursor moves and mouse input is not captured, the system sends this message to the window in which the cursor is moving.
+Your application can change the design of the cursor by using the [**SetCursor**](/windows/win32/Winuser/nf-winuser-setcursor?branch=master) function and specifying a different cursor handle. However, when the cursor moves, the system redraws the class cursor at the new location. To prevent the class cursor from being redrawn, you must process the [**WM\_SETCURSOR**](wm-setcursor.md) message. Each time the cursor moves and mouse input is not captured, the system sends this message to the window in which the cursor is moving.
 
 You can specify different cursors for different conditions while processing [**WM\_SETCURSOR**](wm-setcursor.md). For example, the following example shows how to display the cursor whenever the cursor moves over the icon of a minimized application.
 
@@ -239,7 +257,7 @@ For more information, see [Window Classes](https://msdn.microsoft.com/library/wi
 
 ## Confining a Cursor
 
-The following example confines the cursor to the application's window and then restores the cursor to its previous window. The example uses the [**GetClipCursor**](getclipcursor.md) function to record the area in which the cursor can move and the [**ClipCursor**](clipcursor.md) function to confine and restore the cursor.
+The following example confines the cursor to the application's window and then restores the cursor to its previous window. The example uses the [**GetClipCursor**](/windows/win32/Winuser/nf-winuser-getclipcursor?branch=master) function to record the area in which the cursor can move and the [**ClipCursor**](/windows/win32/Winuser/nf-winuser-clipcursor?branch=master) function to confine and restore the cursor.
 
 
 ```
@@ -273,9 +291,9 @@ Because there is only one cursor at a time available in the system, an applicati
 
 ## Using Cursor Functions to Create a Mousetrap
 
-The following example uses the [**SetCursorPos**](setcursorpos.md), [**GetCursorPos**](getcursorpos.md), [**CreateCursor**](createcursor.md), [**LoadCursor**](loadcursor.md), and [**SetCursor**](setcursor.md) functions to create a simple mousetrap. It also uses cursor and timer functions to monitor the cursor's position every 10 seconds. If the cursor position has not changed in the last 10 seconds and the application's main window is minimized, the application changes the cursor and moves it to the mousetrap icon.
+The following example uses the [**SetCursorPos**](/windows/win32/Winuser/nf-winuser-setcursorpos?branch=master), [**GetCursorPos**](/windows/win32/Winuser/nf-winuser-getcursorpos?branch=master), [**CreateCursor**](/windows/win32/Winuser/nf-winuser-createcursor?branch=master), [**LoadCursor**](/windows/win32/Winuser/nf-winuser-loadcursora?branch=master), and [**SetCursor**](/windows/win32/Winuser/nf-winuser-setcursor?branch=master) functions to create a simple mousetrap. It also uses cursor and timer functions to monitor the cursor's position every 10 seconds. If the cursor position has not changed in the last 10 seconds and the application's main window is minimized, the application changes the cursor and moves it to the mousetrap icon.
 
-An example for a similar mousetrap is included in [Icons](icons.md). It uses the [**LoadCursor**](loadcursor.md) and [**LoadIcon**](loadicon.md) functions instead of the more device-dependent [**CreateCursor**](createcursor.md) and [**CreateIcon**](createicon.md) functions.
+An example for a similar mousetrap is included in [Icons](icons.md). It uses the [**LoadCursor**](/windows/win32/Winuser/nf-winuser-loadcursora?branch=master) and [**LoadIcon**](/windows/win32/Winuser/nf-winuser-loadicona?branch=master) functions instead of the more device-dependent [**CreateCursor**](/windows/win32/Winuser/nf-winuser-createcursor?branch=master) and [**CreateIcon**](/windows/win32/Winuser/nf-winuser-createicon?branch=master) functions.
 
 
 ```
@@ -482,7 +500,7 @@ LONG APIENTRY MainWndProc(
 
 ## Using the Keyboard to Move the Cursor
 
-Because the system does not require a mouse, an application should be able to simulate mouse actions with the keyboard. The following example shows how to achieve this by using the [**GetCursorPos**](getcursorpos.md) and [**SetCursorPos**](setcursorpos.md) functions and by processing input from the arrow keys.
+Because the system does not require a mouse, an application should be able to simulate mouse actions with the keyboard. The following example shows how to achieve this by using the [**GetCursorPos**](/windows/win32/Winuser/nf-winuser-getcursorpos?branch=master) and [**SetCursorPos**](/windows/win32/Winuser/nf-winuser-setcursorpos?branch=master) functions and by processing input from the arrow keys.
 
 
 ```

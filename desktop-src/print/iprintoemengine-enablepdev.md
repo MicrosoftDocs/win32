@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F84B7A8F-5B75-4E2F-93EB-AFFE24637647'
-title: 'IPrintOemEngine::EnablePDEV method'
+---
+Description: .
+ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
+title: IPrintOemEngineEnablePDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemEngine::EnablePDEV method

@@ -1,7 +1,12 @@
 ---
 Description: Specifying an Object Constructor String for a Component
-ms.assetid: '0c5aaaae-368e-4b3e-a483-b3a23c353e6e'
+ms.assetid: 0c5aaaae-368e-4b3e-a483-b3a23c353e6e
 title: Specifying an Object Constructor String for a Component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying an Object Constructor String for a Component

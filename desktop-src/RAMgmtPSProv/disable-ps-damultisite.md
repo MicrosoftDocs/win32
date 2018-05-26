@@ -2,13 +2,16 @@
 title: Disable method of the PS\_DAMultiSite class
 description: Disables a multisite deployment that contains a single entry point. After disabling, servers in the entry point will be configured with the remote access settings that were configured before the servers were joined to the multisite deployment.
 audience: developer
-ms.assetid: '4fd21f3b-060b-464f-bbb8-fecc554d5d3c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4fd21f3b-060b-464f-bbb8-fecc554d5d3c
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Disable method", "Disable method, PS_DAMultiSite class", "PS_DAMultiSite class, Disable method"]
+keywords:
+- Disable method
+- Disable method, PS_DAMultiSite class
+- PS_DAMultiSite class, Disable method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disable method of the PS\_DAMultiSite class
@@ -28,10 +34,10 @@ Disables a multisite deployment that contains a single entry point. After disabl
 
 ```mof
 uint32 Disable(
-  [in]  string      ComputerName,
-  [in]  boolean     Force,
-  [in]  boolean     PassThru,
-  [out] DAMultiSite cmdletOutput
+  [in]  string      ComputerName,
+  [in]  boolean     Force,
+  [in]  boolean     PassThru,
+  [out] DAMultiSite cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ None unless PassThru is passed. If passthru is passed then the [**PS\_DAMultiSit
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ None unless PassThru is passed. If passthru is passed then the [**PS\_DAMultiSit
 [**PS\_DAMultiSite**](ps-damultisite.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

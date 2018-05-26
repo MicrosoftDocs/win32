@@ -1,8 +1,11 @@
 ---
 title: Chkdsk method of the Win32\_Volume class
 description: The Chkdsk method invokes the Chkdsk operation on the volume.
-ms.assetid: '9ddbf5e5-4a1c-4e1c-8a86-72d5ec7210f6'
-keywords: ["Chkdsk method", "Chkdsk method, Win32_Volume class", "Win32_Volume class, Chkdsk method"]
+ms.assetid: 9ddbf5e5-4a1c-4e1c-8a86-72d5ec7210f6
+keywords:
+- Chkdsk method
+- Chkdsk method, Win32_Volume class
+- Win32_Volume class, Chkdsk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Chkdsk method of the Win32\_Volume class
@@ -24,12 +32,12 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Chkdsk(
-  [in] boolean FixErrors = FALSE,
-  [in] boolean VigorousIndexCheck = TRUE,
-  [in] boolean SkipFolderCycle = TRUE,
-  [in] boolean ForceDismount = FALSE,
-  [in] boolean RecoverBadSectors = FALSE,
-  [in] boolean OkToRunAtBootUp = FALSE
+  [in] boolean FixErrors = FALSE,
+  [in] boolean VigorousIndexCheck = TRUE,
+  [in] boolean SkipFolderCycle = TRUE,
+  [in] boolean ForceDismount = FALSE,
+  [in] boolean RecoverBadSectors = FALSE,
+  [in] boolean OkToRunAtBootUp = FALSE
 );
 ```
 
@@ -96,7 +104,7 @@ If **true**, the Chkdsk operation is performed at the next boot up, in case the 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -186,7 +194,7 @@ Elapsed time            4.59 minutes
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -200,9 +208,9 @@ Elapsed time            4.59 minutes
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

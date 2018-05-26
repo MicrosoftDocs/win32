@@ -1,7 +1,12 @@
 ---
 title: Displaying Closed Captioning in C
 description: Displaying Closed Captioning in C
-ms.assetid: '699f4021-1c9c-4855-8295-5b84bc512252'
+ms.assetid: 699f4021-1c9c-4855-8295-5b84bc512252
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Closed Captioning in C
@@ -14,24 +19,24 @@ To activate the closed captioning feature, perform the following steps:
 
 Using **CoCreateInstance**, create an empty features collection as an [MSVidFeatures](msvidfeatures.md) object.
 
-Retrieve the available features from the Video Control, by calling the [**IMSVidCtl::get\_FeaturesAvailable**](imsvidctl-get-featuresavailable.md) method.
+Retrieve the available features from the Video Control, by calling the [**IMSVidCtl::get\_FeaturesAvailable**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_featuresavailable?branch=master) method.
 
-Loop through the returned collection, comparing each feature's CLSID against the CLSID of the CC feature. With analog TV, do the same for the data services feature. Call the [**IMSVidDevice::get\_\_ClassID**](imsviddevice-get--classid.md) method to obtain the CLSID of each feature.
+Loop through the returned collection, comparing each feature's CLSID against the CLSID of the CC feature. With analog TV, do the same for the data services feature. Call the [**IMSVidDevice::get\_\_ClassID**](/windows/win32/segment/nf-segment-imsviddevice-get__classid?branch=master) method to obtain the CLSID of each feature.
 
-When you find a matching feature, add it to the features collection created in Step 1. Also, query the CC feature for the [**IMSVidClosedCaptioning**](imsvidclosedcaptioning.md) interface and store this for later use.
+When you find a matching feature, add it to the features collection created in Step 1. Also, query the CC feature for the [**IMSVidClosedCaptioning**](/windows/win32/segment/nn-segment-imsvidclosedcaptioning?branch=master) interface and store this for later use.
 
-Set the new features collection as the Video Control's active features collection, by calling the [**IMSVidCtl::put\_FeaturesActive**](imsvidctl-put-featuresactive.md) method.
+Set the new features collection as the Video Control's active features collection, by calling the [**IMSVidCtl::put\_FeaturesActive**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-put_featuresactive?branch=master) method.
 
-Perform these steps before building the graph; that is, before calling [**IMSVidCtl::Build**](imsvidctl-build.md) or [**IMSVidCtl::Run**](imsvidctl-run.md). If the graph is already built, call [**IMSVidCtl::Decompose**](imsvidctl-decompose.md) to tear it down, and build it again afterward.
+Perform these steps before building the graph; that is, before calling [**IMSVidCtl::Build**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-build?branch=master) or [**IMSVidCtl::Run**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-run?branch=master). If the graph is already built, call [**IMSVidCtl::Decompose**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-decompose?branch=master) to tear it down, and build it again afterward.
 
-Once the CC feature is in the active features collection, you can build the graph. Enable or disable closed captioning at any time by calling the [**IMSVidClosedCaptioning::put\_Enable**](imsvidclosedcaptioning-put-enable.md) method. By default, the feature is disabled.
+Once the CC feature is in the active features collection, you can build the graph. Enable or disable closed captioning at any time by calling the [**IMSVidClosedCaptioning::put\_Enable**](/windows/win32/segment/nf-segment-imsvidclosedcaptioning-put_enable?branch=master) method. By default, the feature is disabled.
 
 > [!Note]  
 > *Activating* the CC feature causes the Video Control to build a filter graph that is capable of receiving and displaying closed captions. *Enabling* the CC feature causes the captions to be displayed.
 
  
 
-The following code example activates and enables CC. It assumes that **m\_pVidControl** is a member variable in the control container, which holds a pointer to the Video Control's [**IMSVidCtl**](imsvidctl.md) interface. The *bWantDataSvc* parameter specifies whether to include data services. For brevity, the example performs only minimal error checking.
+The following code example activates and enables CC. It assumes that **m\_pVidControl** is a member variable in the control container, which holds a pointer to the Video Control's [**IMSVidCtl**](/windows/previous-versions/msvidctl/nn-msvidctl-imsvidctl?branch=master) interface. The *bWantDataSvc* parameter specifies whether to include data services. For brevity, the example performs only minimal error checking.
 
 
 ```C++

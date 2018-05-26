@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SecureCustomProperties is a list of public properties delimited by semi-colons.'
-ms.assetid: '5f4cc2ad-76d0-4ed9-a59e-9dd59a4d4613'
+---
+Description: The SecureCustomProperties is a list of public properties delimited by semi-colons.
+ms.assetid: 5f4cc2ad-76d0-4ed9-a59e-9dd59a4d4613
 title: SecureCustomProperties property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SecureCustomProperties property

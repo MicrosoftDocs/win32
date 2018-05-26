@@ -4,11 +4,12 @@ description: Removes the registration of the provider DLL when Mofcomp.exe or Re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c8abdeb8-c695-4149-a624-58204d3db74d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c8abdeb8-c695-4149-a624-58204d3db74d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Adapter_UnRegisterDLL function Windows Management Infrastructure (MI)"]
+keywords:
+- Adapter_UnRegisterDLL function Windows Management Infrastructure (MI)
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - WmiToMi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adapter\_UnRegisterDLL function
@@ -26,14 +30,14 @@ Removes the registration of the provider DLL when Mofcomp.exe or Register-CimPro
 > \[!Important\]  
 > This function is only used by generated code and should not be used by developers.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 STDAPI Adapter_UnRegisterDLL(
-   GUID classId
+   GUID classId
 );
 ```
 
@@ -60,8 +64,8 @@ This function always returns **S\_OK**.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>WmiToMi.dll</dt> </dl> |
 
 
@@ -73,9 +77,9 @@ This function always returns **S\_OK**.
 [Adapter Functions](adapter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

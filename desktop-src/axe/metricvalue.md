@@ -1,14 +1,20 @@
 ---
 title: MetricValue element
 description: Describes a single metric value.
-ms.assetid: '8CEC3D70-A064-42DF-8B4D-FDAAFB8BF0B8'
-keywords: ["MetricValue element Access Execution Engine"]
+ms.assetid: 8CEC3D70-A064-42DF-8B4D-FDAAFB8BF0B8
+keywords:
+- MetricValue element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricValue
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue element
@@ -92,9 +98,9 @@ Metrics can have many different data types as described in the &lt;MetricDefinti
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

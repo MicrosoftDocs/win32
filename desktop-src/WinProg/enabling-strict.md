@@ -1,7 +1,12 @@
 ---
 title: Enabling STRICT
 description: When you define the STRICT symbol, you enable features that require more care in declaring and using types.
-ms.assetid: '4029c7a7-108a-40cb-8600-eb23968e9d8a'
+ms.assetid: 4029c7a7-108a-40cb-8600-eb23968e9d8a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling STRICT

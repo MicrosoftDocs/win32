@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the configuration of IP-HTTPs.'
-ms.assetid: '64bd2391-72c3-4209-b2e5-588577bccfb7'
-title: 'Reset method of the MSFT\_NetIPHttpsConfiguration class'
+Description: Resets the configuration of IP-HTTPs.
+ms.assetid: 64bd2391-72c3-4209-b2e5-588577bccfb7
+title: Reset method of the MSFT\_NetIPHttpsConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_NetIPHttpsConfiguration class
@@ -13,11 +18,11 @@ Resets the configuration of IP-HTTPs.
 
 ```mof
 uint32 Reset(
-  [in]  boolean                      State,
-  [in]  boolean                      AuthMode,
-  [in]  boolean                      StrongCRLRequired,
-  [in]  boolean                      PassThru,
-  [out] MSFT_NetIPHttpsConfiguration OutputObject
+  [in]  boolean                      State,
+  [in]  boolean                      AuthMode,
+  [in]  boolean                      StrongCRLRequired,
+  [in]  boolean                      PassThru,
+  [out] MSFT_NetIPHttpsConfiguration OutputObject
 );
 ```
 
@@ -68,8 +73,8 @@ Receives the reset [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfigurat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -83,9 +88,9 @@ Receives the reset [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfigurat
 [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

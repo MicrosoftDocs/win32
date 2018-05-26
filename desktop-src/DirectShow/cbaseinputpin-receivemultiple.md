@@ -1,21 +1,26 @@
 ---
-Description: 'The ReceiveMultiple method receives an array of samples. This method implements the IMemInputPin::ReceiveMultiple method.'
-ms.assetid: '21e757c7-f623-4ccb-8e37-512ee4dd7aa7'
-title: 'CBaseInputPin.ReceiveMultiple method'
+Description: The ReceiveMultiple method receives an array of samples. This method implements the IMemInputPinReceiveMultiple method.
+ms.assetid: 21e757c7-f623-4ccb-8e37-512ee4dd7aa7
+title: CBaseInputPin.ReceiveMultiple method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.ReceiveMultiple method
 
-The `ReceiveMultiple` method receives an array of samples. This method implements the [**IMemInputPin::ReceiveMultiple**](imeminputpin-receivemultiple.md) method.
+The `ReceiveMultiple` method receives an array of samples. This method implements the [**IMemInputPin::ReceiveMultiple**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivemultiple?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ReceiveMultiple(
-   IMediaSample **pSamples,
-   long         nSamples,
-   long         *nSamplesProcessed
+   IMediaSample **pSamples,
+   long         nSamples,
+   long         *nSamplesProcessed
 );
 ```
 
@@ -28,7 +33,7 @@ HRESULT ReceiveMultiple(
 *pSamples* 
 </dt> <dd>
 
-Address of an array of [**IMediaSample**](imediasample.md) pointers, of size *nSamples*.
+Address of an array of [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) pointers, of size *nSamples*.
 
 </dd> <dt>
 
@@ -63,7 +68,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +92,9 @@ This method behaves like the [**CBaseInputPin::Receive**](cbaseinputpin-receive.
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Running a Visual Basic Scripting Edition Query
 description: Running a Visual Basic Scripting Edition Query
-ms.assetid: 'c77eec47-1ed2-47b6-a710-8d8b3d4365e5'
+ms.assetid: c77eec47-1ed2-47b6-a710-8d8b3d4365e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running a Visual Basic Scripting Edition Query

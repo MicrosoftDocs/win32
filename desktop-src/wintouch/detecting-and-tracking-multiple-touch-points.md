@@ -1,8 +1,16 @@
 ---
 title: Detecting and Tracking Multiple Touch Points
 description: Detecting and Tracking Multiple Touch Points
-ms.assetid: '7a5c7595-f341-4e11-805f-ed0b9c63cbff'
-keywords: ["Windows Touch,multiple touch points", "detecting multiple touch points", "tracking multiple touch points"]
+ms.assetid: 7a5c7595-f341-4e11-805f-ed0b9c63cbff
+keywords:
+- Windows Touch,multiple touch points
+- detecting multiple touch points
+- tracking multiple touch points
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting and Tracking Multiple Touch Points
@@ -175,9 +183,9 @@ case WM_TOUCH:
 
  
 
-Now when a user touches the screen, the positions that he or she is touching will be stored in the points array. The **dwID** member of the [**TOUCHINPUT**](touchinput.md) structure stores an identifier that will be hardware dependent.
+Now when a user touches the screen, the positions that he or she is touching will be stored in the points array. The **dwID** member of the [**TOUCHINPUT**](/windows/win32/winuser/ns-winuser-tagtouchinput?branch=master) structure stores an identifier that will be hardware dependent.
 
-To address the issue of the dwID member being dependent on hardware, the [**WM\_TOUCH**](wm-touchdown.md) case handler uses a function, **GetContactIndex**, that maps the **dwID** member of the [**TOUCHINPUT**](touchinput.md) structure to a point that is drawn on the screen. The following code shows an implementation of this function.
+To address the issue of the dwID member being dependent on hardware, the [**WM\_TOUCH**](wm-touchdown.md) case handler uses a function, **GetContactIndex**, that maps the **dwID** member of the [**TOUCHINPUT**](/windows/win32/winuser/ns-winuser-tagtouchinput?branch=master) structure to a point that is drawn on the screen. The following code shows an implementation of this function.
 
 
 ```C++

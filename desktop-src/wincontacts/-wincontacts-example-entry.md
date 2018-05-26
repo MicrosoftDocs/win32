@@ -1,8 +1,26 @@
 ---
 title: Programming Windows Contacts
-description: This topic provides practical programming examples using the Windows ContactsÂ API.
-ms.assetid: '94a79ca6-4579-433e-abdb-7354c1471048'
-keywords: ["Windows Contacts,examples", "Windows Contacts,programming examples", "Windows Contacts,backward compatibility", "Windows Contacts,creating contacts", "Windows Contacts,reading contacts", "Windows Contacts,writing contacts", "Windows Contacts,adding labels to properties", "Windows Contacts,adding properties to contacts", "creating contacts", "reading contacts", "writing contacts", "adding labels to properties", "adding properties to contacts"]
+description: This topic provides practical programming examples using the Windows Contacts  API.
+ms.assetid: 94a79ca6-4579-433e-abdb-7354c1471048
+keywords:
+- Windows Contacts,examples
+- Windows Contacts,programming examples
+- Windows Contacts,backward compatibility
+- Windows Contacts,creating contacts
+- Windows Contacts,reading contacts
+- Windows Contacts,writing contacts
+- Windows Contacts,adding labels to properties
+- Windows Contacts,adding properties to contacts
+- creating contacts
+- reading contacts
+- writing contacts
+- adding labels to properties
+- adding properties to contacts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Windows Contacts
@@ -25,7 +43,7 @@ This topic contains the following examples:
 
 ## Creating a New Contact
 
-This example uses [**IContact**](-wincontacts-icontact.md) and [**IContactProperties**](-wincontacts-icontactproperties.md) to create a new Contact, enter a value for its Title property, and save it to file. For a list of the application-supplied properties, see [Windows Contact Schema](-wincontacts-schema-entry.md).
+This example uses [**IContact**](/windows/previous-versions/icontact/nn-icontact-icontact?branch=master) and [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) to create a new Contact, enter a value for its Title property, and save it to file. For a list of the application-supplied properties, see [Windows Contact Schema](-wincontacts-schema-entry.md).
 
 
 ```C++
@@ -77,7 +95,7 @@ HRESULT CreateNewContact(IClassFactory* pFactory)
 
 ## Reading and Writing in an Existing Contact
 
-This example uses [**IContactProperties**](-wincontacts-icontactproperties.md) to open an existing Contact, read an existing property, and write a new property value. This example also demonstrates attempting to read a nonexistent Contact property.
+This example uses [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) to open an existing Contact, read an existing property, and write a new property value. This example also demonstrates attempting to read a nonexistent Contact property.
 
 > [!Note]  
 > To retrieve the value from a multi-value (hierarchical) property, this example includes the desired index as part of the property name in the form: toplevel/secondlevel\[1\]/thirdlevel. The first element of a set is at index 1.
@@ -135,7 +153,7 @@ HRESULT ReadWriteExistingContact(IContact* pContact)
 
 ## Adding Your Own Label to a Property
 
-This example uses [**IContactProperties**](-wincontacts-icontactproperties.md) to add a unique outside label to an existing property of an existing contact. This approach assumes that the text of the label is contained in the specified Uniform Resource Identifier (URI).
+This example uses [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) to add a unique outside label to an existing property of an existing contact. This approach assumes that the text of the label is contained in the specified Uniform Resource Identifier (URI).
 
 
 ```C++
@@ -170,7 +188,7 @@ HRESULT AddLabel(IContact* pContact, LPCWSTR pszProperty)
 
 ## Adding Your Own Property to a Contact
 
-This example uses [**IContactProperties**](-wincontacts-icontactproperties.md) to add an outside single-value property to an existing contact. This approach is more complicated; it requires creating a unique namespace and can imply that you supply your own schema.
+This example uses [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) to add an outside single-value property to an existing contact. This approach is more complicated; it requires creating a unique namespace and can imply that you supply your own schema.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
-Description: 'How symbolic links affect standard file functions that use path names to specify one or more files.'
-ms.assetid: 'afda53eb-d0db-4844-9dd0-8a7d93ca341f'
+Description: How symbolic links affect standard file functions that use path names to specify one or more files.
+ms.assetid: afda53eb-d0db-4844-9dd0-8a7d93ca341f
 title: Symbolic Link Effects on File Systems Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbolic Link Effects on File Systems Functions
@@ -37,7 +42,7 @@ In the descriptions below, the following terms are used:
 -   Target—The entity that a symbolic link points to.
 
 > [!Note]  
-> The behavior of functions that accept a handle created using the [**CreateFile**](createfile.md) function, such as the [**GetFileTime**](https://msdn.microsoft.com/library/windows/desktop/ms724320) function, will differ based on whether or not the **CreateFile** function was called using the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag. For more information, see [**CreateFile**](createfile.md) and the following [CreateFile and CreateFileTransacted](#createfile-and-createfiletransacted) section.
+> The behavior of functions that accept a handle created using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function, such as the [**GetFileTime**](https://msdn.microsoft.com/library/windows/desktop/ms724320) function, will differ based on whether or not the **CreateFile** function was called using the **FILE\_FLAG\_OPEN\_REPARSE\_POINT** flag. For more information, see [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) and the following [CreateFile and CreateFileTransacted](#createfile-and-createfiletransacted) section.
 
  
 
@@ -83,7 +88,7 @@ If the path points to a symbolic link, the function creates a hard link to the t
 
 ## DeleteFile and DeleteFileTransacted
 
-If the path points to a symbolic link, the symbolic link is deleted, not the target. To delete a target, you must call [**CreateFile**](createfile.md) and specify **FILE\_FLAG\_DELETE\_ON\_CLOSE**.
+If the path points to a symbolic link, the symbolic link is deleted, not the target. To delete a target, you must call [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) and specify **FILE\_FLAG\_DELETE\_ON\_CLOSE**.
 
 ## FindFirstChangeNotification
 
@@ -91,15 +96,15 @@ If the path points to a symbolic link, the notification handle is created for th
 
 ## FindFirstFile and FindFirstFileTransacted
 
-If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](win32-find-data-str.md) buffer contains information about the symbolic link, not the target.
+If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/win32/MinWinBase/ns-minwinbase-_win32_find_dataa?branch=master) buffer contains information about the symbolic link, not the target.
 
 ## FindFirstFileEx
 
-If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](win32-find-data-str.md) buffer contains information about the symbolic link, not the target.
+If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/win32/MinWinBase/ns-minwinbase-_win32_find_dataa?branch=master) buffer contains information about the symbolic link, not the target.
 
 ## FindNextFile
 
-If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](win32-find-data-str.md) buffer contains information about the symbolic link, not the target.
+If the path points to a symbolic link, the [**WIN32\_FIND\_DATA**](/windows/win32/MinWinBase/ns-minwinbase-_win32_find_dataa?branch=master) buffer contains information about the symbolic link, not the target.
 
 ## GetBinaryType
 
@@ -149,79 +154,79 @@ If the path points to a symbolic link, the function returns attributes for the s
 
 <dl> <dt>
 
-[**CopyFile**](copyfile.md)
+[**CopyFile**](/windows/win32/WinBase/nf-winbase-copyfile?branch=master)
 </dt> <dt>
 
-[**CopyFileTransacted**](copyfiletransacted.md)
+[**CopyFileTransacted**](/windows/win32/WinBase/nf-winbase-copyfiletransacteda?branch=master)
 </dt> <dt>
 
-[**CopyFileEx**](copyfileex.md)
+[**CopyFileEx**](/windows/win32/WinBase/nf-winbase-copyfileexa?branch=master)
 </dt> <dt>
 
-[**CreateFile**](createfile.md)
+[**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master)
 </dt> <dt>
 
-[**CreateFileTransacted**](createfiletransacted.md)
+[**CreateFileTransacted**](/windows/win32/WinBase/nf-winbase-createfiletransacteda?branch=master)
 </dt> <dt>
 
-[**CreateHardLink**](createhardlink.md)
+[**CreateHardLink**](/windows/win32/WinBase/nf-winbase-createhardlinka?branch=master)
 </dt> <dt>
 
-[**CreateHardLinkTransacted**](createhardlinktransacted.md)
+[**CreateHardLinkTransacted**](/windows/win32/WinBase/nf-winbase-createhardlinktransacteda?branch=master)
 </dt> <dt>
 
-[**DeleteFile**](deletefile.md)
+[**DeleteFile**](/windows/win32/FileAPI/nf-fileapi-deletefilea?branch=master)
 </dt> <dt>
 
-[**DeleteFileTransacted**](deletefiletransacted.md)
+[**DeleteFileTransacted**](/windows/win32/WinBase/nf-winbase-deletefiletransacteda?branch=master)
 </dt> <dt>
 
-[**FindFirstChangeNotification**](findfirstchangenotification.md)
+[**FindFirstChangeNotification**](/windows/win32/FileAPI/nf-fileapi-findfirstchangenotificationa?branch=master)
 </dt> <dt>
 
-[**FindFirstFile**](findfirstfile.md)
+[**FindFirstFile**](/windows/win32/FileAPI/nf-fileapi-findfirstfilea?branch=master)
 </dt> <dt>
 
-[**FindFirstFileEx**](findfirstfileex.md)
+[**FindFirstFileEx**](/windows/win32/FileAPI/nf-fileapi-findfirstfileexa?branch=master)
 </dt> <dt>
 
-[**FindFirstFileTransacted**](findfirstfiletransacted.md)
+[**FindFirstFileTransacted**](/windows/win32/WinBase/nf-winbase-findfirstfiletransacteda?branch=master)
 </dt> <dt>
 
-[**FindNextFile**](findnextfile.md)
+[**FindNextFile**](/windows/win32/FileAPI/nf-fileapi-findnextfilea?branch=master)
 </dt> <dt>
 
-[**GetBinaryType**](getbinarytype.md)
+[**GetBinaryType**](/windows/win32/WinBase/nf-winbase-getbinarytypea?branch=master)
 </dt> <dt>
 
-[**GetCompressedFileSize**](getcompressedfilesize.md)
+[**GetCompressedFileSize**](/windows/win32/fileapi/nf-fileapi-getcompressedfilesizea?branch=master)
 </dt> <dt>
 
-[**GetCompressedFileSizeTransacted**](getcompressedfilesizetransacted.md)
+[**GetCompressedFileSizeTransacted**](/windows/win32/WinBase/nf-winbase-getcompressedfilesizetransacteda?branch=master)
 </dt> <dt>
 
-[**GetDiskFreeSpace**](getdiskfreespace.md)
+[**GetDiskFreeSpace**](/windows/win32/FileAPI/nf-fileapi-getdiskfreespacea?branch=master)
 </dt> <dt>
 
-[**GetDiskFreeSpaceEx**](getdiskfreespaceex.md)
+[**GetDiskFreeSpaceEx**](/windows/win32/FileAPI/nf-fileapi-getdiskfreespaceexa?branch=master)
 </dt> <dt>
 
-[**GetFileAttributes**](getfileattributes.md)
+[**GetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-getfileattributesa?branch=master)
 </dt> <dt>
 
-[**GetFileAttributesEx**](getfileattributesex.md)
+[**GetFileAttributesEx**](/windows/win32/FileAPI/nf-fileapi-getfileattributesexa?branch=master)
 </dt> <dt>
 
 [**GetFileSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa446639)
 </dt> <dt>
 
-[**GetTempPath**](gettemppath.md)
+[**GetTempPath**](/windows/win32/FileAPI/nf-fileapi-gettemppatha?branch=master)
 </dt> <dt>
 
-[**GetVolumeInformation**](getvolumeinformation.md)
+[**GetVolumeInformation**](/windows/win32/FileAPI/nf-fileapi-getvolumeinformationa?branch=master)
 </dt> <dt>
 
-[**SetFileAttributes**](setfileattributes.md)
+[**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master)
 </dt> <dt>
 
 [**SetFileSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379577)

@@ -4,17 +4,21 @@ description: Asynchronously creates an OutputStream for writing protected conten
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'FE3A1E48-5929-40EA-8DC9-7B1C40C0D4CC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: FE3A1E48-5929-40EA-8DC9-7B1C40C0D4CC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedOutputStream.create asynchronous method"]
+keywords:
+- CustomProtectedOutputStream.create asynchronous method
 topic_type:
 - apiref
 api_name:
 - CustomProtectedOutputStream.create asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedOutputStream.create asynchronous method
@@ -46,7 +50,7 @@ public static IAsyncControl create(OutputStream backingOutputStream,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -70,11 +74,11 @@ CustomProtectedOutputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

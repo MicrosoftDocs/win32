@@ -1,8 +1,9 @@
 ---
 title: CardEnumFiles function
 description: Receives an array of the names of files available in a specified directory of a smart card.
-ms.assetid: 'e3d868d7-b160-4c67-a57b-54c0fc1e0152'
-keywords: ["CardEnumFiles function Security"]
+ms.assetid: e3d868d7-b160-4c67-a57b-54c0fc1e0152
+keywords:
+- CardEnumFiles function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardEnumFiles function
@@ -24,11 +30,11 @@ The **CardEnumFiles** function, defined by a smart card module, receives an arra
 
 ```C++
 DWORD WINAPI CardEnumFiles(
-  _In_  PCARD_DATA pCardData,
-  _In_  LPSTR      pszDirectoryName,
-  _Out_ LPSTR      *pmszFileNames,
-  _Out_ LPDWORD    pdwcbFileName,
-  _In_  DWORD      dwFlags
+  _In_  PCARD_DATA pCardData,
+  _In_  LPSTR      pszDirectoryName,
+  _Out_ LPSTR      *pmszFileNames,
+  _Out_ LPDWORD    pdwcbFileName,
+  _In_  DWORD      dwFlags
 );
 ```
 
@@ -89,7 +95,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +103,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -122,9 +128,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CardCreateFile**](cardcreatefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

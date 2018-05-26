@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates how long a fax message is kept on the server.'
-ms.assetid: 'a8fcdfca-1989-408b-919b-086a15345b4e'
-title: 'FaxConfiguration.ArchiveAgeLimit property'
+---
+Description: Sets or retrieves a value that indicates how long a fax message is kept on the server.
+ms.assetid: a8fcdfca-1989-408b-919b-086a15345b4e
+title: FaxConfiguration.ArchiveAgeLimit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.ArchiveAgeLimit property

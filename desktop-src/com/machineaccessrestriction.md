@@ -1,8 +1,14 @@
 ---
 title: MachineAccessRestriction
 description: Sets the computer-wide restriction policy for component access.
-ms.assetid: 'aeb37e49-6425-4058-968e-f9d00acf4fc2'
-keywords: ["MachineAccessRestriction registry value COM"]
+ms.assetid: aeb37e49-6425-4058-968e-f9d00acf4fc2
+keywords:
+- MachineAccessRestriction registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MachineAccessRestriction
@@ -25,7 +31,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 This is a **REG\_BINARY** value.
 
-Principals not given permissions here cannot obtain them even if the permissions are granted by the [DefaultAccessPermission](defaultaccesspermission.md) registry value or by the [**CoInitializeSecurity**](coinitializesecurity.md) function.
+Principals not given permissions here cannot obtain them even if the permissions are granted by the [DefaultAccessPermission](defaultaccesspermission.md) registry value or by the [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) function.
 
 By default, members of the Everyone group can obtain local and remote access permissions, and anonymous users can obtain local access permissions.
 

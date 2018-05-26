@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the name to be used to identify the namespace in generated code.'
-ms.assetid: '4e476be2-fa73-4b3e-b0cc-799c8d16b5de'
+Description: Defines the name to be used to identify the namespace in generated code.
+ms.assetid: 4e476be2-fa73-4b3e-b0cc-799c8d16b5de
 title: codeName element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # codeName element
@@ -44,14 +49,14 @@ This element overrides the default code name used for generated code. By default
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

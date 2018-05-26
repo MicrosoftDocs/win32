@@ -1,7 +1,12 @@
 ---
 title: To assign an information type to a contents entry
 description: To assign an information type to a contents entry
-ms.assetid: 'E64CFF58-E547-4650-8F8D-17B7AFA74E63'
+ms.assetid: E64CFF58-E547-4650-8F8D-17B7AFA74E63
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To assign an information type to a contents entry
@@ -14,7 +19,7 @@ ms.assetid: 'E64CFF58-E547-4650-8F8D-17B7AFA74E63'
 
     
 
-     
+     
 
 2.  In the **Available information types** box, select the name of the information type you want to associate with the table of contents entry.
 
@@ -31,9 +36,9 @@ ms.assetid: 'E64CFF58-E547-4650-8F8D-17B7AFA74E63'
 [About Assigning Information Types](assign-information-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

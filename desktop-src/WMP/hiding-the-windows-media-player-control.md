@@ -1,8 +1,36 @@
 ---
 title: Hiding the Windows Media Player Control
 description: Hiding the Windows Media Player Control
-ms.assetid: '754896af-b80d-4552-82c6-3fb65359accd'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "embedding,Web pages", "Windows Media Player,hiding ActiveX control", "Windows Media Player object model,hiding ActiveX control", "object model,hiding ActiveX control", "Windows Media Player Mobile,hidingActiveX control", "Windows Media Player ActiveX control,hiding", "Windows Media Player Mobile ActiveX control,hiding", "ActiveX control,hiding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Web page embedding,hiding ActiveX control", "hiding Windows Media Player ActiveX control"]
+ms.assetid: 754896af-b80d-4552-82c6-3fb65359accd
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- embedding,Web pages
+- Windows Media Player,hiding ActiveX control
+- Windows Media Player object model,hiding ActiveX control
+- object model,hiding ActiveX control
+- Windows Media Player Mobile,hidingActiveX control
+- Windows Media Player ActiveX control,hiding
+- Windows Media Player Mobile ActiveX control,hiding
+- ActiveX control,hiding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Web page embedding,hiding ActiveX control
+- hiding Windows Media Player ActiveX control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hiding the Windows Media Player Control

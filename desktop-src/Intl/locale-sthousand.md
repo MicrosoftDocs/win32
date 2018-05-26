@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_STHOUSAND'
-ms.assetid: '20898656-d9e3-47cb-9f0f-ea997633aa88'
-title: 'LOCALE\_STHOUSAND'
+Description: LOCALE\_STHOUSAND
+ms.assetid: 20898656-d9e3-47cb-9f0f-ea997633aa88
+title: LOCALE\_STHOUSAND
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_STHOUSAND

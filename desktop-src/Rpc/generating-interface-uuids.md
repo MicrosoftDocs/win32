@@ -1,7 +1,12 @@
 ---
 title: Generating Interface UUIDs
 description: Generating interface Universal Unique Identifiers (UUIDs) and using Uuidgen.
-ms.assetid: 'a973b7f9-71c5-46a0-aa0c-51f150560dbc'
+ms.assetid: a973b7f9-71c5-46a0-aa0c-51f150560dbc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating Interface UUIDs

@@ -1,7 +1,12 @@
 ---
 title: max - vs
 description: Calculates the maximum of the sources.
-ms.assetid: '93fb8fb2-c722-43e5-bfe4-a2e9d3cd2049'
+ms.assetid: 93fb8fb2-c722-43e5-bfe4-a2e9d3cd2049
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # max - vs

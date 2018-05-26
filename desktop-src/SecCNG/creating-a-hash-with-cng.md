@@ -1,7 +1,12 @@
 ---
-Description: 'Hashes are most useful to verify the integrity of the data when used with an asymmetric signing algorithm.'
-ms.assetid: 'f36b7e36-4377-4940-8951-6caba6e3ce8a'
+Description: Hashes are most useful to verify the integrity of the data when used with an asymmetric signing algorithm.
+ms.assetid: f36b7e36-4377-4940-8951-6caba6e3ce8a
 title: Creating a Hash with CNG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Hash with CNG
@@ -20,25 +25,25 @@ The size of the hash value is fixed for a particular hashing algorithm. What thi
 
 To create a hash using CNG, perform the following steps:
 
-1.  Open an algorithm provider that supports the desired algorithm. Typical hashing algorithms include MD2, MD4, MD5, SHA-1, and SHA256. Call the [**BCryptOpenAlgorithmProvider**](bcryptopenalgorithmprovider-func.md) function and specify the appropriate algorithm identifier in the *pszAlgId* parameter. The function returns a handle to the provider.
+1.  Open an algorithm provider that supports the desired algorithm. Typical hashing algorithms include MD2, MD4, MD5, SHA-1, and SHA256. Call the [**BCryptOpenAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider?branch=master) function and specify the appropriate algorithm identifier in the *pszAlgId* parameter. The function returns a handle to the provider.
 2.  Perform the following steps to create the hashing object:
 
-    1.  Obtain the size of the object by calling the [**BCryptGetProperty**](bcryptgetproperty-func.md) function to retrieve the **BCRYPT\_OBJECT\_LENGTH** property.
+    1.  Obtain the size of the object by calling the [**BCryptGetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgetproperty?branch=master) function to retrieve the **BCRYPT\_OBJECT\_LENGTH** property.
     2.  Allocate memory to hold the hash object.
-    3.  Create the object by calling the [**BCryptCreateHash**](bcryptcreatehash-func.md) function.
+    3.  Create the object by calling the [**BCryptCreateHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptcreatehash?branch=master) function.
 
-3.  Hash the data. This involves calling the [**BCryptHashData**](bcrypthashdata-func.md) function one or more times. Each call appends the specified data to the hash.
+3.  Hash the data. This involves calling the [**BCryptHashData**](/windows/win32/Bcrypt/nf-bcrypt-bcrypthashdata?branch=master) function one or more times. Each call appends the specified data to the hash.
 4.  Perform the following steps to obtain the hash value:
 
-    1.  Retrieve the size of the value by calling the [**BCryptGetProperty**](bcryptgetproperty-func.md) function to get the **BCRYPT\_HASH\_LENGTH** property.
+    1.  Retrieve the size of the value by calling the [**BCryptGetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgetproperty?branch=master) function to get the **BCRYPT\_HASH\_LENGTH** property.
     2.  Allocate memory to hold the value.
-    3.  Retrieve the hash value by calling the [**BCryptFinishHash**](bcryptfinishhash-func.md) function. After this function has been called, the hash object is no longer valid.
+    3.  Retrieve the hash value by calling the [**BCryptFinishHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptfinishhash?branch=master) function. After this function has been called, the hash object is no longer valid.
 
 5.  To complete this procedure, you must perform the following cleanup steps:
 
-    1.  Close the hash object by passing the hash handle to the [**BCryptDestroyHash**](bcryptdestroyhash-func.md) function.
+    1.  Close the hash object by passing the hash handle to the [**BCryptDestroyHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptdestroyhash?branch=master) function.
     2.  Free the memory you allocated for the hash object.
-    3.  If you will not be creating any more hash objects, close the algorithm provider by passing the provider handle to the [**BCryptCloseAlgorithmProvider**](bcryptclosealgorithmprovider-func.md) function.
+    3.  If you will not be creating any more hash objects, close the algorithm provider by passing the provider handle to the [**BCryptCloseAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptclosealgorithmprovider?branch=master) function.
 
         If you will be creating more hash objects, we suggest you reuse the algorithm provider rather than creating and destroying the same type of algorithm provider many times.
 
@@ -219,33 +224,33 @@ Cleanup:
 
 ## Creating a Reusable Hashing Object
 
-Beginning with Windows 8 and Windows Server 2012, you can create a reusable hashing object for scenarios that require you to compute multiple hashes or HMACs in rapid succession. Do this by specifying the **BCRYPT\_HASH\_REUSABLE\_FLAG** when calling the [**BCryptOpenAlgorithmProvider**](bcryptopenalgorithmprovider-func.md) function. All Microsoft hash algorithm providers support this flag. A hashing object created by using this flag can be reused immediately after calling [**BCryptFinishHash**](bcryptfinishhash-func.md) just as if it had been freshly created by calling [**BCryptCreateHash**](bcryptcreatehash-func.md). Perform the following steps to create a reusable hashing object:
+Beginning with Windows 8 and Windows Server 2012, you can create a reusable hashing object for scenarios that require you to compute multiple hashes or HMACs in rapid succession. Do this by specifying the **BCRYPT\_HASH\_REUSABLE\_FLAG** when calling the [**BCryptOpenAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider?branch=master) function. All Microsoft hash algorithm providers support this flag. A hashing object created by using this flag can be reused immediately after calling [**BCryptFinishHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptfinishhash?branch=master) just as if it had been freshly created by calling [**BCryptCreateHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptcreatehash?branch=master). Perform the following steps to create a reusable hashing object:
 
-1.  Open an algorithm provider that supports the desired hashing algorithm. Call the [**BCryptOpenAlgorithmProvider**](bcryptopenalgorithmprovider-func.md) function and specify the appropriate algorithm identifier in the *pszAlgId* parameter and **BCRYPT\_HASH\_REUSABLE\_FLAG** in the *dwFlags* parameter. The function returns a handle to the provider.
+1.  Open an algorithm provider that supports the desired hashing algorithm. Call the [**BCryptOpenAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider?branch=master) function and specify the appropriate algorithm identifier in the *pszAlgId* parameter and **BCRYPT\_HASH\_REUSABLE\_FLAG** in the *dwFlags* parameter. The function returns a handle to the provider.
 2.  Perform the following steps to create the hashing object:
 
-    1.  Obtain the size of the object by calling the [**BCryptGetProperty**](bcryptgetproperty-func.md) function to retrieve the **BCRYPT\_OBJECT\_LENGTH** property.
+    1.  Obtain the size of the object by calling the [**BCryptGetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgetproperty?branch=master) function to retrieve the **BCRYPT\_OBJECT\_LENGTH** property.
     2.  Allocate memory to hold the hash object.
-    3.  Create the object by calling the [**BCryptCreateHash**](bcryptcreatehash-func.md) function. Specify **BCRYPT\_HASH\_REUSABLE\_FLAG** in the *dwFlags* parameter.
+    3.  Create the object by calling the [**BCryptCreateHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptcreatehash?branch=master) function. Specify **BCRYPT\_HASH\_REUSABLE\_FLAG** in the *dwFlags* parameter.
 
-3.  Hash the data by calling the [**BCryptHashData**](bcrypthashdata-func.md) function.
+3.  Hash the data by calling the [**BCryptHashData**](/windows/win32/Bcrypt/nf-bcrypt-bcrypthashdata?branch=master) function.
 4.  Perform the following steps to obtain the hash value:
 
-    1.  Obtain the size of the hash value by calling the [**BCryptGetProperty**](bcryptgetproperty-func.md) function to get the **BCRYPT\_HASH\_LENGTH** property.
+    1.  Obtain the size of the hash value by calling the [**BCryptGetProperty**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgetproperty?branch=master) function to get the **BCRYPT\_HASH\_LENGTH** property.
     2.  Allocate memory to hold the value.
-    3.  Get the hash value by calling [**BCryptFinishHash**](bcryptfinishhash-func.md).
+    3.  Get the hash value by calling [**BCryptFinishHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptfinishhash?branch=master).
 
 5.  To reuse the hashing object with new data, go to step 3.
 6.  To complete this procedure, you must perform the following cleanup steps:
 
-    1.  Close the hash object by passing the hash handle to the [**BCryptDestroyHash**](bcryptdestroyhash-func.md) function.
+    1.  Close the hash object by passing the hash handle to the [**BCryptDestroyHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptdestroyhash?branch=master) function.
     2.  Free the memory you allocated for the hash object.
-    3.  If you will not be creating any more hash objects, close the algorithm provider by passing the provider handle to the [**BCryptCloseAlgorithmProvider**](bcryptclosealgorithmprovider-func.md) function.
+    3.  If you will not be creating any more hash objects, close the algorithm provider by passing the provider handle to the [**BCryptCloseAlgorithmProvider**](/windows/win32/Bcrypt/nf-bcrypt-bcryptclosealgorithmprovider?branch=master) function.
     4.  When you have finished using the hash value memory, free it.
 
 ## Duplicating a Hash Object
 
-In some circumstances, it may be useful to hash some amount of common data and then create two separate hash objects from the common data. You do not have to create two separate hash objects and hash the common data twice to accomplish this. You can create a single hash object and add all of the common data to the hash object. Then, you can use the [**BCryptDuplicateHash**](bcryptduplicatehash-func.md) function to create a duplicate of the original hash object. The duplicate hash object contains all of the same state information and hashed data as the original, but it is a completely independent hash object. You can now add the unique data to each of the hash objects and obtain the hash value as shown in the example. This technique is useful when hashing a possibly large amount of common data. You only have to add the common data to the original hash one time, and then you can duplicate the hash object to obtain a unique hash object.
+In some circumstances, it may be useful to hash some amount of common data and then create two separate hash objects from the common data. You do not have to create two separate hash objects and hash the common data twice to accomplish this. You can create a single hash object and add all of the common data to the hash object. Then, you can use the [**BCryptDuplicateHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptduplicatehash?branch=master) function to create a duplicate of the original hash object. The duplicate hash object contains all of the same state information and hashed data as the original, but it is a completely independent hash object. You can now add the unique data to each of the hash objects and obtain the hash value as shown in the example. This technique is useful when hashing a possibly large amount of common data. You only have to add the common data to the original hash one time, and then you can duplicate the hash object to obtain a unique hash object.
 
  
 

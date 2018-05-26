@@ -1,7 +1,12 @@
 ---
 title: Adding a Search Tab
 description: A Search tab allows a user to search through every word in a compiled help (.chm) file.
-ms.assetid: '7C6D9F6D-4A03-4c89-8067-9AC66BD1FADE'
+ms.assetid: 7C6D9F6D-4A03-4c89-8067-9AC66BD1FADE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Search Tab

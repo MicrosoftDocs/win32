@@ -1,8 +1,14 @@
 ---
 title: Creating a Binding Handle
 description: The client program of a distributed application needs to create a binding handle that tells the RPC run time which server should be contacted, and how the server should be contacted.
-ms.assetid: '52c5d0bd-f9b4-4d3f-ac7f-f9b4fb919846'
-keywords: ["Remote Procedure Call RPC , tasks, creating a binding handle"]
+ms.assetid: 52c5d0bd-f9b4-4d3f-ac7f-f9b4fb919846
+keywords:
+- Remote Procedure Call RPC , tasks, creating a binding handle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Binding Handle

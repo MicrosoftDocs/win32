@@ -1,8 +1,11 @@
 ---
 title: ITopic DisplayVersion property
 description: Returns display version
-ms.assetid: '5eb2002b-bbfc-45c2-90d7-98bd797a186b'
-keywords: ["DisplayVersion property HelpAPI", "DisplayVersion property HelpAPI , ITopic interface", "ITopic interface HelpAPI , DisplayVersion property"]
+ms.assetid: 5eb2002b-bbfc-45c2-90d7-98bd797a186b
+keywords:
+- DisplayVersion property HelpAPI
+- DisplayVersion property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , DisplayVersion property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::DisplayVersion property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DisplayVersion(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The display version.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The display version.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

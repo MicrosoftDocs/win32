@@ -1,11 +1,14 @@
 ---
-Description: 'Updates the state of a deployment request.'
+Description: Updates the state of a deployment request.
 audience: developer
-ms.assetid: '277b2ab1-3e2a-4c08-9c0b-0c94b6f4481a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 277b2ab1-3e2a-4c08-9c0b-0c94b6f4481a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetEnumerationRequestState method of the MSFT\_ServerManagerDeploymentTasks class'
+title: GetEnumerationRequestState method of the MSFT\_ServerManagerDeploymentTasks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetEnumerationRequestState method of the MSFT\_ServerManagerDeploymentTasks class
@@ -17,9 +20,9 @@ Updates the state of a deployment request.
 
 ```mof
 uint32 GetEnumerationRequestState(
-  [in]  MSFT_ServerManagerRequestGuid     RequestGuid,
-  [out] MSFT_ServerManagerRequestState    EnumerationState,
-  [out] MSFT_ServerManagerServerComponent ServerComponents[]
+  [in]  MSFT_ServerManagerRequestGuid     RequestGuid,
+  [out] MSFT_ServerManagerRequestState    EnumerationState,
+  [out] MSFT_ServerManagerServerComponent ServerComponents[]
 );
 ```
 
@@ -57,7 +60,7 @@ An array that receives the unique names of the server components for the request
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -71,9 +74,9 @@ An array that receives the unique names of the server components for the request
 [**MSFT\_ServerManagerDeploymentTasks**](msft-servermanagerdeploymenttasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

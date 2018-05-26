@@ -1,8 +1,14 @@
 ---
 title: Overview of NetShell
 description: NetShell is a scriptable command line-based tool that enables administrators to remotely administer and configure critical network services.
-ms.assetid: '237f46e1-c4ce-4dd0-a516-23675bb2e521'
-keywords: ["NetShell NetSh , described"]
+ms.assetid: 237f46e1-c4ce-4dd0-a516-23675bb2e521
+keywords:
+- NetShell NetSh , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of NetShell

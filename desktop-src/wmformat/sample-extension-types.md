@@ -1,17 +1,34 @@
 ---
 title: Sample Extension Types
 description: Sample Extension Types
-ms.assetid: '8de2e003-cb21-4be9-bcde-7f5909b6260a'
-keywords: ["Windows Media Format SDK,sample extensions", "Advanced Systems Format (ASF),sample extensions", "ASF (Advanced Systems Format),sample extensions", "Windows Media Format SDK,data unit extensions", "Advanced Systems Format (ASF),data unit extensions", "ASF (Advanced Systems Format),data unit extensions", "Windows Media Format SDK,buffer properties", "Advanced Systems Format (ASF),buffer properties", "ASF (Advanced Systems Format),buffer properties", "sample extensions,types", "data unit extensions,types", "buffer properties"]
+ms.assetid: 8de2e003-cb21-4be9-bcde-7f5909b6260a
+keywords:
+- Windows Media Format SDK,sample extensions
+- Advanced Systems Format (ASF),sample extensions
+- ASF (Advanced Systems Format),sample extensions
+- Windows Media Format SDK,data unit extensions
+- Advanced Systems Format (ASF),data unit extensions
+- ASF (Advanced Systems Format),data unit extensions
+- Windows Media Format SDK,buffer properties
+- Advanced Systems Format (ASF),buffer properties
+- ASF (Advanced Systems Format),buffer properties
+- sample extensions,types
+- data unit extensions,types
+- buffer properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Extension Types
 
 Sample extensions, also called data unit extensions (DUEs) or buffer properties, are items of data that are attached to the media samples in the data section of the ASF file. Several types of sample extensions are defined in the Windows Media Format SDK. You can also create your own extension types.
 
-To use sample extensions, you must identify the extension type in the stream configuration data of the profile. Call the [**IWMStreamConfig2::AddDataUnitExtension**](iwmstreamconfig2-adddataunitextension.md) method to configure a stream to accept samples with extended data.
+To use sample extensions, you must identify the extension type in the stream configuration data of the profile. Call the [**IWMStreamConfig2::AddDataUnitExtension**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension?branch=master) method to configure a stream to accept samples with extended data.
 
-Individual sample extensions must be added to the input samples by calling the [**INSSBuffer3::SetProperty**](inssbuffer3-setproperty.md) method. When reading samples, you can call the [**INSSBuffer3::GetProperty**](inssbuffer3-getproperty.md) method to retrieve the extension data. You can also use the methods of the [**INSSBuffer4**](inssbuffer4.md) interface to enumerate the data unit extensions attached to a sample.
+Individual sample extensions must be added to the input samples by calling the [**INSSBuffer3::SetProperty**](/windows/win32/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty?branch=master) method. When reading samples, you can call the [**INSSBuffer3::GetProperty**](/windows/win32/Wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty?branch=master) method to retrieve the extension data. You can also use the methods of the [**INSSBuffer4**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer4?branch=master) interface to enumerate the data unit extensions attached to a sample.
 
 The following table lists the predefined data unit extension identifiers, and describes the data that is attached to samples for each.
 
@@ -35,7 +52,7 @@ The following table lists the predefined data unit extension identifiers, and de
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_Timecode</td>
-<td>The data is a [<strong>WMT_TIMECODE_EXTENSION_DATA</strong>](wmt-timecode-extension-data.md) structure containing SMPTE time code data associated with the sample.The size for this DUE is always WM_SampleExtension_Timecode_Size, which is 14 bytes.<br/></td>
+<td>The data is a [<strong>WMT_TIMECODE_EXTENSION_DATA</strong>](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmt_timecode_extension_data?branch=master) structure containing SMPTE time code data associated with the sample.The size for this DUE is always WM_SampleExtension_Timecode_Size, which is 14 bytes.<br/></td>
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_FileName</td>
@@ -64,7 +81,7 @@ This data unit extension is not configured in the profile. It is included in sam
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_ColorSpaceInfo</td>
-<td>The data provides information about the color space used for the current video frame.The value of this extension is a [<strong>WMT_COLORSPACEINFO_EXTENSION_DATA</strong>](wmt-colorspaceinfo-extension-data.md) structure.<br/> This data unit extension is not configured in the profile. It is included in samples output from the decoder.<br/> The size of this DUE is always WM_SampleExtension_ColorSpaceInfo_Size, which is 3 bytes.<br/></td>
+<td>The data provides information about the color space used for the current video frame.The value of this extension is a [<strong>WMT_COLORSPACEINFO_EXTENSION_DATA</strong>](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmt_colorspaceinfo_extension_data?branch=master) structure.<br/> This data unit extension is not configured in the profile. It is included in samples output from the decoder.<br/> The size of this DUE is always WM_SampleExtension_ColorSpaceInfo_Size, which is 3 bytes.<br/></td>
 </tr>
 <tr class="odd">
 <td>WM_SampleExtensionGUID_UserDataInfo</td>
@@ -87,7 +104,7 @@ The sixth and subsequent bytes contain the user data. There are as many bytes of
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -96,9 +113,9 @@ The sixth and subsequent bytes contain the user data. There are as many bytes of
 [**Programming Reference**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

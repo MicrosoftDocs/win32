@@ -4,11 +4,16 @@ description: It is uncommon that two extensions expose the same interface to ADS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '87cb1a17-04f7-4ad0-989a-a9506dfdca05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 87cb1a17-04f7-4ad0-989a-a9506dfdca05
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Resolution of Multiple Aggregation Components Supporting the Same Interface ADSI", "resolution of multiple aggregation components supporting the same interface ADSI"]
+keywords:
+- Resolution of Multiple Aggregation Components Supporting the Same Interface ADSI
+- resolution of multiple aggregation components supporting the same interface ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resolution of Multiple Aggregation Components Supporting the Same Interface

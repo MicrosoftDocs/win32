@@ -1,7 +1,12 @@
 ---
 title: Example Annotate an Image
 description: Example Annotate an Image
-ms.assetid: 'C4ACC2D8-D402-4ba3-8D52-1FA643FDBF7A'
+ms.assetid: C4ACC2D8-D402-4ba3-8D52-1FA643FDBF7A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Annotate an Image

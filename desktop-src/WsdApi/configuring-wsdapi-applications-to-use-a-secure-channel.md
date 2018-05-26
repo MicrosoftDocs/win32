@@ -1,7 +1,12 @@
 ---
-Description: 'Describes certificate configuration for WSDAPI client and host applications that communicate over a secure channel.'
-ms.assetid: 'ae3be598-3230-4e5e-a084-d407d17489e6'
+Description: Describes certificate configuration for WSDAPI client and host applications that communicate over a secure channel.
+ms.assetid: ae3be598-3230-4e5e-a084-d407d17489e6
 title: Configuring WSDAPI Applications to Use a Secure Channel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring WSDAPI Applications to Use a Secure Channel
@@ -20,7 +25,7 @@ If the device host requires client authentication, then a certificate on the cli
 
 Certificates are also required for eventing. The client computer must have a server certificate installed. The server certificate is used by the event sink. The event source on the device host must trust the server certificate used by the event sink. By default, the event sink on the client computer receives event notifications on port 5358. The HTTP Server API must be used to configure port 5358 with the server certificate for the event sink.
 
-It is possible to specify a port other than 5358 for secure communications. You can specify this port when calling [**WSDCreateDeviceProxy**](wsdcreatedeviceproxy.md) or [**WSDCreateDeviceProxyAdvanced**](wsdcreatedeviceproxyadvanced.md). If a port other than 5358 is used, the HTTP Server API must be configured to reserve the URL for this port, unless the application has full administrative rights. For more information, see [Configuring the HTTP Server API](#binding-certificates-using-the-http-server-api).
+It is possible to specify a port other than 5358 for secure communications. You can specify this port when calling [**WSDCreateDeviceProxy**](/windows/win32/WsdClient/nf-wsdclient-wsdcreatedeviceproxy?branch=master) or [**WSDCreateDeviceProxyAdvanced**](/windows/win32/WsdClient/nf-wsdclient-wsdcreatedeviceproxyadvanced?branch=master). If a port other than 5358 is used, the HTTP Server API must be configured to reserve the URL for this port, unless the application has full administrative rights. For more information, see [Configuring the HTTP Server API](#binding-certificates-using-the-http-server-api).
 
 Authentication of the device sending the event is done after the secure channel is established. Therefore, it is not necessary to configure the certificate to request a client certificate for accepting events or for the certificate to be trusted.
 
@@ -28,7 +33,7 @@ Authentication of the device sending the event is done after the secure channel 
 
 If an application uses the WSDAPI hosting feature to implement a device that has a secure channel, then the appropriate and valid X.509 certificate must be installed on the computer. The certificate chain must extend to a root authority that is trusted by the client.
 
-It is possible to specify a port other than 5358 for secure communications. You can specify this port when calling [**WSDCreateDeviceHost**](wsdcreatedevicehost.md) or [**WSDCreateDeviceHostAdvanced**](wsdcreatedevicehostadvanced.md). If a port other than 5358 is used, the HTTP Server API must be configured to reserve the URL for this port, unless the application has full administrative rights. If no port is specified, then port 443 is used for secure communications, and that port must be configured using the HTTP Server API. For more information, see [Configuring the HTTP Server API](#binding-certificates-using-the-http-server-api).
+It is possible to specify a port other than 5358 for secure communications. You can specify this port when calling [**WSDCreateDeviceHost**](/windows/win32/WsdHost/nf-wsdhost-wsdcreatedevicehost?branch=master) or [**WSDCreateDeviceHostAdvanced**](/windows/win32/WsdHost/nf-wsdhost-wsdcreatedevicehostadvanced?branch=master). If a port other than 5358 is used, the HTTP Server API must be configured to reserve the URL for this port, unless the application has full administrative rights. If no port is specified, then port 443 is used for secure communications, and that port must be configured using the HTTP Server API. For more information, see [Configuring the HTTP Server API](#binding-certificates-using-the-http-server-api).
 
 If the device host is used for eventing and the event sinks require authentication of the event source, then the event sink must trust the event source certificate installed on the device host.
 

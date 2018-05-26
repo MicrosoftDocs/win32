@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'e0a04d93-fb77-4dc1-9bc8-7d3965bc6803'
-title: 'CMemAllocator.~CMemAllocator destructor'
+Description: Destructor method.
+ms.assetid: e0a04d93-fb77-4dc1-9bc8-7d3965bc6803
+title: CMemAllocator.~CMemAllocator destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.~CMemAllocator destructor
@@ -39,9 +44,9 @@ This method overrides the base-class destructor to call [**CBaseAllocator::Decom
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

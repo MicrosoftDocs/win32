@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Image\_CompressedBitsPerPixel.'
-ms.assetid: '934f045a-0e41-42df-b588-770851718890'
-title: 'System.Image.CompressedBitsPerPixelNumerator'
+Description: The numerator of PKEY\_Image\_CompressedBitsPerPixel.
+ms.assetid: 934f045a-0e41-42df-b588-770851718890
+title: System.Image.CompressedBitsPerPixelNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.CompressedBitsPerPixelNumerator

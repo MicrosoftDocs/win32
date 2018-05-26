@@ -4,11 +4,15 @@ description: Supports the publishing of user-specific resources in RemoteApp and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69c03f60-11e0-454b-a661-e608e7ca7254'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 69c03f60-11e0-454b-a661-e608e7ca7254
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , web access control interfaces"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , web access control interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services Web Access Control interfaces

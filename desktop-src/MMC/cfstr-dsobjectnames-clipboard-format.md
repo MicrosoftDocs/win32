@@ -4,11 +4,12 @@ description: The snap-ins for Active Directory Users and Computers, the Active D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9be96d2a-6545-4986-b47b-1eab6a02ac26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9be96d2a-6545-4986-b47b-1eab6a02ac26
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CFSTR_DSOBJECTNAMES clipboard format MMC"]
+keywords:
+- CFSTR_DSOBJECTNAMES clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - DsClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DSOBJECTNAMES clipboard format
@@ -41,9 +45,9 @@ An extension snap-in uses this format by calling the **GetData** member on the [
 
 
 
- 
+ 
 
- 
+ 
 
 
 

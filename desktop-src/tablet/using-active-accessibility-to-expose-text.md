@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of using active accessibility to expose text.'
-ms.assetid: 'c04ade90-5f17-4e16-b82b-c99230000954'
+Description: Overview of using active accessibility to expose text.
+ms.assetid: c04ade90-5f17-4e16-b82b-c99230000954
 title: Using Active Accessibility to Expose Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Active Accessibility to Expose Text

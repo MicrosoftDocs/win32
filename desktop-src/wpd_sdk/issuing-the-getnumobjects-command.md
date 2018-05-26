@@ -1,7 +1,12 @@
 ---
 Description: Issuing the GetNumObjects Command
-ms.assetid: 'd06690e4-f592-4b17-a5f1-baec2accc8dd'
+ms.assetid: d06690e4-f592-4b17-a5f1-baec2accc8dd
 title: Issuing the GetNumObjects Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issuing the GetNumObjects Command

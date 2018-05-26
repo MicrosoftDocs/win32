@@ -1,7 +1,12 @@
 ---
-Description: 'The WriteIPortableDeviceValuesToBuffer method serializes an IPortableDeviceValues interface to a caller-allocated byte array.'
-ms.assetid: '4d0108f1-563e-42df-897b-7cc0e9ff5b3a'
-title: 'IWpdSerializer::WriteIPortableDeviceValuesToBuffer method'
+Description: The WriteIPortableDeviceValuesToBuffer method serializes an IPortableDeviceValues interface to a caller-allocated byte array.
+ms.assetid: 4d0108f1-563e-42df-897b-7cc0e9ff5b3a
+title: IWpdSerializerWriteIPortableDeviceValuesToBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWpdSerializer::WriteIPortableDeviceValuesToBuffer method
@@ -13,10 +18,10 @@ The **WriteIPortableDeviceValuesToBuffer** method serializes an **IPortableDevic
 
 ```C++
 HRESULT WriteIPortableDeviceValuesToBuffer(
-  [in]  DWORD                 dwOutputBufferLength,
-  [in]  IPortableDeviceValues *pResults,
-  [out] BYTE                  *pBuffer,
-  [out] DWORD                 *pdwBytesWritten
+  [in]  DWORD                 dwOutputBufferLength,
+  [in]  IPortableDeviceValues *pResults,
+  [out] BYTE                  *pBuffer,
+  [out] DWORD                 *pdwBytesWritten
 );
 ```
 
@@ -68,7 +73,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,9 +97,9 @@ This method copies an **IPortableDeviceValues** interface into an existing buffe
 [**IWpdSerializer Interface**](iwpdserializer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

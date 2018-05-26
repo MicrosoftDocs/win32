@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a byte array property.'
-ms.assetid: '419BCBB6-634A-421D-A940-8690BCCF1AC6'
-title: 'IPrinterScriptablePropertyBag::GetBytes method'
+---
+Description: Gets a byte array property.
+ms.assetid: 419BCBB6-634A-421D-A940-8690BCCF1AC6
+title: IPrinterScriptablePropertyBagGetBytes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::GetBytes method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes parameters used to load a texture from another texture.'
-ms.assetid: 'dee693ce-afa7-479b-a76a-00816e30d5cf'
-title: 'D3DX10\_TEXTURE\_LOAD\_INFO structure'
+---
+Description: Describes parameters used to load a texture from another texture.
+ms.assetid: dee693ce-afa7-479b-a76a-00816e30d5cf
+title: D3DX10\_TEXTURE\_LOAD\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_TEXTURE\_LOAD\_INFO structure
@@ -35,22 +40,22 @@ typedef struct _D3DX10_TEXTURE_LOAD_INFO {
 **pSrcBox**
 </dt> <dd>
 
-Type: **[**D3D10\_BOX**](d3d10-box.md)\***
+Type: **[**D3D10\_BOX**](/windows/win32/D3D10/ns-d3d10-d3d10_box?branch=master)\***
 
 </dd> <dd>
 
-Source texture box (see [**D3D10\_BOX**](d3d10-box.md)).
+Source texture box (see [**D3D10\_BOX**](/windows/win32/D3D10/ns-d3d10-d3d10_box?branch=master)).
 
 </dd> <dt>
 
 **pDstBox**
 </dt> <dd>
 
-Type: **[**D3D10\_BOX**](d3d10-box.md)\***
+Type: **[**D3D10\_BOX**](/windows/win32/D3D10/ns-d3d10-d3d10_box?branch=master)\***
 
 </dd> <dd>
 
-Destination texture box (see [**D3D10\_BOX**](d3d10-box.md)).
+Destination texture box (see [**D3D10\_BOX**](/windows/win32/D3D10/ns-d3d10-d3d10_box?branch=master)).
 
 </dd> <dt>
 
@@ -61,7 +66,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Source texture mipmap level, see [**D3D10CalcSubresource**](d3d10calcsubresource.md) for more detail.
+Source texture mipmap level, see [**D3D10CalcSubresource**](/windows/win32/D3D10/nf-d3d10-d3d10calcsubresource?branch=master) for more detail.
 
 </dd> <dt>
 
@@ -72,7 +77,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Destination texture mipmap level, see [**D3D10CalcSubresource**](d3d10calcsubresource.md) for more detail.
+Destination texture mipmap level, see [**D3D10CalcSubresource**](/windows/win32/D3D10/nf-d3d10-d3d10calcsubresource?branch=master) for more detail.
 
 </dd> <dt>
 

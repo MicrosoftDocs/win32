@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a volume texture from a file.'
-ms.assetid: 'e68ac4bb-a89a-41a1-b2ba-40a1ac519e3d'
+---
+Description: Creates a volume texture from a file.
+ms.assetid: e68ac4bb-a89a-41a1-b2ba-40a1ac519e3d
 title: D3DXCreateVolumeTextureFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateVolumeTextureFromFile function
@@ -28,9 +33,9 @@ HRESULT D3DXCreateVolumeTextureFromFile(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 
@@ -46,9 +51,9 @@ Pointer to a string that specifies the file name. If the compiler settings requi
 *ppVolumeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUMETEXTURE9**](idirect3dvolumetexture9.md)\***
+Type: **[**LPDIRECT3DVOLUMETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolumetexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DVolumeTexture9**](idirect3dvolumetexture9.md) interface representing the created texture object.
+Address of a pointer to an [**IDirect3DVolumeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolumetexture9?branch=master) interface representing the created texture object.
 
 </dd> </dl>
 

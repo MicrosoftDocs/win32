@@ -1,8 +1,31 @@
 ---
 title: Visual Basic Script Constants
 description: When using the Windows Image Acquisition (WIA) Library from an HTML Page or HTML Application (HTA) as illustrated in the examples, you need a file named Wiaaut.vbs that contains the following Microsoft Visual Basic Scripting Edition (VBScript) code.
-ms.assetid: 'ff3e1ed9-ad60-4124-8433-f6061d1369ec'
-keywords: ["Windows Image Acquisition (WIA),Visual Basic", "WIA (Windows Image Acquisition),Visual Basic", "Windows Image Acquisition Automation Layer,Visual Basic", "WIA Automation Layer,Visual Basic", "Image Acquisition Automation Layer,Visual Basic", "Windows Image Acquisition (WIA),Visual Basic Scripting Edition (VBScript)", "WIA (Windows Image Acquisition),Visual Basic Scripting Edition (VBScript)", "Windows Image Acquisition Automation Layer,Visual Basic Scripting Edition (VBScript)", "WIA Automation Layer,Visual Basic Scripting Edition (VBScript)", "Image Acquisition Automation Layer,Visual Basic Scripting Edition (VBScript)", "Windows Image Acquisition (WIA),HTML Application (HTA)", "WIA (Windows Image Acquisition),HTML Application (HTA)", "Windows Image Acquisition Automation Layer,HTML Application (HTA)", "WIA Automation Layer,HTML Application (HTA)", "Image Acquisition Automation Layer,HTML Application (HTA)", "Wiaaut.vbs", "Visual Basic Scripting Edition (VBScript)", "VBScript (Visual Basic Scripting Edition)"]
+ms.assetid: ff3e1ed9-ad60-4124-8433-f6061d1369ec
+keywords:
+- Windows Image Acquisition (WIA),Visual Basic
+- WIA (Windows Image Acquisition),Visual Basic
+- Windows Image Acquisition Automation Layer,Visual Basic
+- WIA Automation Layer,Visual Basic
+- Image Acquisition Automation Layer,Visual Basic
+- Windows Image Acquisition (WIA),Visual Basic Scripting Edition (VBScript)
+- WIA (Windows Image Acquisition),Visual Basic Scripting Edition (VBScript)
+- Windows Image Acquisition Automation Layer,Visual Basic Scripting Edition (VBScript)
+- WIA Automation Layer,Visual Basic Scripting Edition (VBScript)
+- Image Acquisition Automation Layer,Visual Basic Scripting Edition (VBScript)
+- Windows Image Acquisition (WIA),HTML Application (HTA)
+- WIA (Windows Image Acquisition),HTML Application (HTA)
+- Windows Image Acquisition Automation Layer,HTML Application (HTA)
+- WIA Automation Layer,HTML Application (HTA)
+- Image Acquisition Automation Layer,HTML Application (HTA)
+- Wiaaut.vbs
+- Visual Basic Scripting Edition (VBScript)
+- VBScript (Visual Basic Scripting Edition)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Basic Script Constants

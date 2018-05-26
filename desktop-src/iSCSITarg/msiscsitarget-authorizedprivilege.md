@@ -4,13 +4,15 @@ description: Defines static copies of authorization policy rules. It is the base
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a43e6081-ac3d-4e9b-8e70-e580be425eea'
-ms.prod: 'windows-server-dev'
+ms.assetid: a43e6081-ac3d-4e9b-8e70-e580be425eea
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_AuthorizedPrivilege class iSCSI Software Target API", "MSISCSITARGET_AuthorizedPrivilege class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_AuthorizedPrivilege class iSCSI Software Target API
+- MSISCSITARGET_AuthorizedPrivilege class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - WTWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_AuthorizedPrivilege class
@@ -42,14 +47,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Version("1.0.0")]
 class MSISCSITARGET_AuthorizedPrivilege : CIM_AuthorizedPrivilege
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean PrivilegeGranted = TRUE;
-  uint16  Activities[];
-  string  ActivityQualifiers[];
-  uint16  QualifierFormats[];
+  uint16  Activities[];
+  string  ActivityQualifiers[];
+  uint16  QualifierFormats[];
   boolean RepresentsAuthorizationRights = FALSE;
 };
 ```
@@ -138,14 +143,14 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 **DMTF Reserved**
 
 
-</dt> <dd>8–15999</dd> <dt>
+</dt> <dd>8 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -367,14 +372,14 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 **DMTF Reserved**
 
 
-</dt> <dd>12–15999</dd> <dt>
+</dt> <dd>12 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -400,7 +405,7 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WTWmiProv.dll</dt> </dl>     |
@@ -426,9 +431,9 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

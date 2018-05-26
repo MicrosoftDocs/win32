@@ -1,7 +1,7 @@
 ---
 title: D3DCOMPILE\_EFFECT Constants
 description: These constants direct how the compiler compiles an effect file or how the runtime processes the effect file.
-ms.assetid: 'AA46E5ED-92DD-4327-B852-8DD23A878562'
+ms.assetid: AA46E5ED-92DD-4327-B852-8DD23A878562
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - D3DCompiler.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOMPILE\_EFFECT Constants
@@ -32,7 +37,7 @@ Compile the effects (.fx) file to a child effect. Child effects have no initiali
 > [!Note]  
 > Effect pools are supported by Effects 10 (FX10) but not by Effects 11 (FX11). For more info about differences between effect pools in Direct3D 10 and effect groups in Direct3D 11, see [Effect Pools and Groups](https://msdn.microsoft.com/library/windows/desktop/ff476141#effect-pools-groups).
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -69,9 +74,9 @@ By default, performance mode is enabled. Performance mode disallows mutable stat
 [D3DCompiler Constants](dx-graphics-d3dcompiler-reference-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,22 @@
 ---
 title: Service.AddChild method
 description: The AddChild method adds a WPDObject obtained from the Service.CreateNewObject method, as a child of this Service object.
-ms.assetid: 'fe8a0f15-cf1d-439f-a8a0-ec4c40df671f'
-keywords: ["AddChild method WPD Automation", "AddChild method WPD Automation , Service object", "Service object WPD Automation , AddChild method"]
+ms.assetid: fe8a0f15-cf1d-439f-a8a0-ec4c40df671f
+keywords:
+- AddChild method WPD Automation
+- AddChild method WPD Automation , Service object
+- Service object WPD Automation , AddChild method
 topic_type:
 - apiref
 api_name:
 - Service.AddChild
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.AddChild method
@@ -79,8 +87,8 @@ ringtoneFolder.AddChild(ringtone);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -97,9 +105,9 @@ ringtoneFolder.AddChild(ringtone);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

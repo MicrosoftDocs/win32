@@ -1,7 +1,12 @@
 ---
 title: Create Training Card Help
 description: Create Training Card Help
-ms.assetid: '21CAFF93-4288-48ff-BE52-921CC0EC8AB3'
+ms.assetid: 21CAFF93-4288-48ff-BE52-921CC0EC8AB3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Training Card Help

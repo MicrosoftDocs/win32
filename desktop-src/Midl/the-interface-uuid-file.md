@@ -2,7 +2,14 @@
 title: The Interface UUID File
 description: The interface UUID file collects the definitions of the interface identifiers from all interfaces in the processed IDL file.
 ms.assetid: 8e7198e9-8166-426d-a6cc-e9a0a798811b
-keywords: ["MIDL and COM MIDL , interfaces, proxy UUID files", "interface UUID file MIDL"]
+keywords:
+- MIDL and COM MIDL , interfaces, proxy UUID files
+- interface UUID file MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Interface UUID File

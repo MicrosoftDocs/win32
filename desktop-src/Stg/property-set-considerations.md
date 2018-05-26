@@ -1,8 +1,14 @@
 ---
 title: Property Set Considerations
 description: It is strongly recommended that property sets be kept small because the property set stream is read into memory before a single property can be read or written.
-ms.assetid: '520db05e-81cd-40ef-af89-471d7194c634'
-keywords: ["Property Set Considerations"]
+ms.assetid: 520db05e-81cd-40ef-af89-471d7194c634
+keywords:
+- Property Set Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Set Considerations

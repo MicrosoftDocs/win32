@@ -1,8 +1,14 @@
 ---
 title: Insertable
 description: Indicates that objects of this class should appear in the Insert Object dialog box list box when used by COM container applications.
-ms.assetid: '908cbfc4-ebf8-454e-b2e5-34449de60e7f'
-keywords: ["Insertable registry key COM"]
+ms.assetid: 908cbfc4-ebf8-454e-b2e5-34449de60e7f
+keywords:
+- Insertable registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Insertable

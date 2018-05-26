@@ -1,7 +1,12 @@
 ---
-Description: 'A server with the SE\_TCB\_NAME privilege, such as a Windows service running in the LocalSystem Account, can call the LogonUser function to authenticate a client on the computer that the server is running on.'
-ms.assetid: '27328497-8f04-42e8-aadd-4c33b9907b94'
+Description: A server with the SE\_TCB\_NAME privilege, such as a Windows service running in the LocalSystem Account, can call the LogonUser function to authenticate a client on the computer that the server is running on.
+ms.assetid: 27328497-8f04-42e8-aadd-4c33b9907b94
 title: Client Logon Sessions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Logon Sessions

@@ -4,11 +4,15 @@ description: The following code example queries an LDAP server for extended cont
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '076562a6-edc9-4e5d-9e7c-9b1077aa006b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 076562a6-edc9-4e5d-9e7c-9b1077aa006b
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Displaying Extended Controls Support LDAP"]
+keywords:
+- Example Code for Displaying Extended Controls Support LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Displaying Extended Controls Support

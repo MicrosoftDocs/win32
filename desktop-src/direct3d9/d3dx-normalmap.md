@@ -1,7 +1,12 @@
 ---
-Description: 'Normal maps generation constants.'
-ms.assetid: 'edf4c3e4-1af4-43b4-80c7-6fab02575f7b'
-title: 'D3DX\_NORMALMAP'
+Description: Normal maps generation constants.
+ms.assetid: edf4c3e4-1af4-43b4-80c7-6fab02575f7b
+title: D3DX\_NORMALMAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_NORMALMAP

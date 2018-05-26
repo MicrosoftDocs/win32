@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to implement a Shell verb using the CreateProcess method.'
+Description: Demonstrates how to implement a Shell verb using the CreateProcess method.
 title: CreateProcess Verb Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateProcess Verb Sample

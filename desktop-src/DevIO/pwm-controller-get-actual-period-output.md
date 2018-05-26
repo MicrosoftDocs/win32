@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.'
-ms.assetid: '280F564F-FF7F-4121-B726-9F9AF9E98EB7'
-title: 'PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure'
+Description: Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.
+ms.assetid: 280F564F-FF7F-4121-B726-9F9AF9E98EB7
+title: PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD\_OUTPUT structure
@@ -38,8 +43,8 @@ The effective output signal period as it would be measured on the output channel
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |
 | Minimum KMDF version<br/>     | 1.19<br/>                                                                                  |
 | Minimum UMDF version<br/>     | 2.19<br/>                                                                                  |
 | Header<br/>                   | <dl> <dt>Pwm.h (include Pwm.h)</dt> </dl> |
@@ -53,9 +58,9 @@ The effective output signal period as it would be measured on the output channel
 [**IOCTL\_PWM\_CONTROLLER\_GET\_ACTUAL\_PERIOD**](base-ioctl_ioctl_pwm_controller_get_actual_period)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

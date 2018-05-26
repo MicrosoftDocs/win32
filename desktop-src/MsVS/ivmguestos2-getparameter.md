@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS2 GetParameter method
 description: Retrieves a configuration parameter inside the guest operating system.
-ms.assetid: 'e8051245-f063-49b6-bb5e-90e5a79cd4ea'
-keywords: ["GetParameter method Virtual Server", "GetParameter method Virtual Server , IVMGuestOS2 interface", "IVMGuestOS2 interface Virtual Server , GetParameter method", "GetParameter method Virtual Server , VMGuestOS2 interface", "VMGuestOS2 interface Virtual Server , GetParameter method"]
+ms.assetid: e8051245-f063-49b6-bb5e-90e5a79cd4ea
+keywords:
+- GetParameter method Virtual Server
+- GetParameter method Virtual Server , IVMGuestOS2 interface
+- IVMGuestOS2 interface Virtual Server , GetParameter method
+- GetParameter method Virtual Server , VMGuestOS2 interface
+- VMGuestOS2 interface Virtual Server , GetParameter method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS2::GetParameter method
@@ -23,8 +33,8 @@ Retrieves a configuration parameter inside the guest operating system.
 
 ```C++
 HRESULT GetParameter(
-  [in]  BSTR inParameterName,
-  [out] BSTR *outParameterValue
+  [in]  BSTR inParameterName,
+  [out] BSTR *outParameterValue
 );
 ```
 
@@ -65,7 +75,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,7 +98,7 @@ When the guest operating system starts, the following registry string values are
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -103,9 +113,9 @@ When the guest operating system starts, the following registry string values are
 [**IVMGuestOS::SetParameter**](ivmguestos-setparameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: UserPlaycountWeekday Attribute
 description: The UserPlaycountWeekday attribute is the number of times the item has been played on a Monday, Tuesday, Wednesday, Thursday, or Friday.
-ms.assetid: 'bab55c4f-391e-4087-b99b-e1f57b88e024'
-keywords: ["UserPlaycountWeekday Attribute Windows Media Player"]
+ms.assetid: bab55c4f-391e-4087-b99b-e1f57b88e024
+keywords:
+- UserPlaycountWeekday Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserPlaycountWeekday
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserPlaycountWeekday Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

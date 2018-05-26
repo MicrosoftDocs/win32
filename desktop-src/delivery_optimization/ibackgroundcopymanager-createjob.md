@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyManager CreateJob method
 description: Creates a job.
-ms.assetid: 'BDE5BE4D-9AE9-463D-B900-850D255EAB58'
-keywords: ["CreateJob method", "CreateJob method, IBackgroundCopyManager interface", "IBackgroundCopyManager interface, CreateJob method"]
+ms.assetid: BDE5BE4D-9AE9-463D-B900-850D255EAB58
+keywords:
+- CreateJob method
+- CreateJob method, IBackgroundCopyManager interface
+- IBackgroundCopyManager interface, CreateJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyManager::CreateJob method
@@ -22,10 +30,10 @@ Creates a job.
 
 ```C++
 HRESULT CreateJob(
-  [in]  LPCWSTR            pDisplayName,
-  [in]  BG_JOB_TYPE        Type,
-  [out] GUID               *pJobID,
-  [out] IBackgroundCopyJob **ppJob
+  [in]  LPCWSTR            pDisplayName,
+  [in]  BG_JOB_TYPE        Type,
+  [out] GUID               *pJobID,
+  [out] IBackgroundCopyJob **ppJob
 );
 ```
 
@@ -75,7 +83,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,7 +95,7 @@ Only the user who creates the job or a user with administrator privileges can [a
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -110,9 +118,9 @@ Only the user who creates the job or a user with administrator privileges can [a
 [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

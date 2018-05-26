@@ -1,8 +1,14 @@
 ---
 title: Error Logging in Windows Server 2003 SP1
 description: Error Logging in Windows Server 2003 SP1
-ms.assetid: '8c7fcc66-5446-4e25-8e6d-1a9260c55e36'
-keywords: ["Error Logging in Windows Server 2003 with Service Pack 1 (SP1)"]
+ms.assetid: 8c7fcc66-5446-4e25-8e6d-1a9260c55e36
+keywords:
+- Error Logging in Windows Server 2003 with Service Pack 1 (SP1)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Logging in Windows Server 2003 SP1

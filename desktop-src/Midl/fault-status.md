@@ -2,13 +2,19 @@
 title: fault\_status attribute
 description: The \ fault\_status\ ACF attribute specifies that an error code of type error\_status\_t indicates a failure of the remote procedure, rather than other types of problems such as communication errors.
 ms.assetid: 9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0
-keywords: ["fault_status attribute MIDL"]
+keywords:
+- fault_status attribute MIDL
 topic_type:
 - apiref
 api_name:
 - fault_status
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fault\_status attribute

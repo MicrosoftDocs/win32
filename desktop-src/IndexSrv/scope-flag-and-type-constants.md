@@ -1,7 +1,12 @@
 ---
 title: Scope Flag and Type Constants
 description: Scope Flag and Type Constants
-ms.assetid: '1385982d-ebf7-48a3-9697-2f348f5d13e8'
+ms.assetid: 1385982d-ebf7-48a3-9697-2f348f5d13e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scope Flag and Type Constants

@@ -1,7 +1,12 @@
 ---
-Description: 'In a client/server application model, clients are programs acting on behalf of users who need something done.'
-ms.assetid: 'c3e38cd3-3749-4384-80ff-0551acfe1eec'
+Description: In a client/server application model, clients are programs acting on behalf of users who need something done.
+ms.assetid: c3e38cd3-3749-4384-80ff-0551acfe1eec
 title: Basic Authentication Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Authentication Concepts

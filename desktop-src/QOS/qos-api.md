@@ -1,8 +1,14 @@
 ---
 title: QOS API
 description: The QOS API is the programmatic interface to the RSVP SP.
-ms.assetid: '921b1f68-be29-4223-992b-411319660f28'
-keywords: ["Quality of Service QOS , described, QOS API"]
+ms.assetid: 921b1f68-be29-4223-992b-411319660f28
+keywords:
+- Quality of Service QOS , described, QOS API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS API

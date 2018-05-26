@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains information about the interfaces and classes used in the real time stylus.'
-ms.assetid: 'fc0900b4-f08b-4a93-bbc0-d3db067d7917'
+---
+Description: This section contains information about the interfaces and classes used in the real time stylus.
+ms.assetid: fc0900b4-f08b-4a93-bbc0-d3db067d7917
 title: RealTimeStylus Classes and Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RealTimeStylus Classes and Interfaces
@@ -19,10 +24,10 @@ This section contains information about the interfaces and classes used in the r
 
 | Class                                                      | Description                                                                                     |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**RealTimeStylus Class**](realtimestylus-class.md)       | Implements the [**IRealTimeStylus**](irealtimestylus.md) interface.<br/>                 |
-| [**DynamicRenderer Class**](dynamicrenderer-class.md)     | Implements the [**IDynamicRenderer Interface**](idynamicrenderer.md) interface.<br/>     |
-| [**GestureRecognizer Class**](gesturerecognizer-class.md) | Implements the [**IGestureRecognizer Interface**](igesturerecognizer.md) interface.<br/> |
-| [**StrokeBuilder Class**](strokebuilder-class.md)         | Implements the [**IStrokeBuilder Interface**](istrokebuilder.md) interface.<br/>         |
+| [**RealTimeStylus Class**](/windows/win32/RTSCom/?branch=master)       | Implements the [**IRealTimeStylus**](/windows/win32/RTSCom/nn-rtscom-irealtimestylus?branch=master) interface.<br/>                 |
+| [**DynamicRenderer Class**](/windows/win32/RTSCom/?branch=master)     | Implements the [**IDynamicRenderer Interface**](/windows/win32/RTSCom/nn-rtscom-idynamicrenderer?branch=master) interface.<br/>     |
+| [**GestureRecognizer Class**](/windows/win32/RTSCom/?branch=master) | Implements the [**IGestureRecognizer Interface**](/windows/win32/RTSCom/nn-rtscom-igesturerecognizer?branch=master) interface.<br/> |
+| [**StrokeBuilder Class**](/windows/win32/RTSCom/?branch=master)         | Implements the [**IStrokeBuilder Interface**](/windows/win32/RTSCom/nn-rtscom-istrokebuilder?branch=master) interface.<br/>         |
 
 
 
@@ -34,16 +39,16 @@ This section contains information about the interfaces and classes used in the r
 
 | Interface                                                                          | Description                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDynamicRenderer Interface**](idynamicrenderer.md)                             | Exposes methods enabling you to control the display of stylus data in real time as the data is being handled by the [**RealTimeStylus Class**](realtimestylus-class.md) object.<br/> |
-| [**IGestureRecognizer Interface**](igesturerecognizer.md)                         | Exposes methods enabling you to react to events by recognizing stylus gestures and enabling you to add data to the input queue.<br/>                                                  |
-| [**IRealTimeStylus**](irealtimestylus.md)                                         | Handles the stylus packet data from a digitizer in real time.<br/>                                                                                                                    |
-| [**IRealTimeStylus2**](irealtimestylus2.md)                                       | Extends the IRealTimeStylus interface.<br/>                                                                                                                                           |
-| [**IRealTimeStylus3**](irealtimestylus3.md)                                       | Extends the IRealTimeStylus interface.<br/>                                                                                                                                           |
-| [**IRealTimeStylusSynchronization Interface**](irealtimestylussynchronization.md) | Synchronizes access to the [**RealTimeStylus Class**](realtimestylus-class.md) object.<br/>                                                                                          |
-| [**IStrokeBuilder Interface**](istrokebuilder.md)                                 | Exposes methods that enable you to programmatically create strokes.<br/>                                                                                                              |
-| [**IStylusPlugin Interface**](istylusplugin.md)                                   | Exposes methods enabling you to receive notifications of events and to perform custom processing based on those events.<br/>                                                          |
-| [**IStylusAsyncPlugin**](istylusasyncplugin.md)                                   | Represents an asynchronous plug-in that can be added to the [**RealTimeStylus Class**](realtimestylus-class.md) asynchronous plug-in collection.<br/>                                |
-| [**IStylusSyncPlugin**](istylussyncplugin.md)                                     | Represents a synchronous plug-in that can be added to the [**RealTimeStylus Class**](realtimestylus-class.md) synchronous plug-in collection.<br/>                                   |
+| [**IDynamicRenderer Interface**](/windows/win32/RTSCom/nn-rtscom-idynamicrenderer?branch=master)                             | Exposes methods enabling you to control the display of stylus data in real time as the data is being handled by the [**RealTimeStylus Class**](/windows/win32/RTSCom/?branch=master) object.<br/> |
+| [**IGestureRecognizer Interface**](/windows/win32/RTSCom/nn-rtscom-igesturerecognizer?branch=master)                         | Exposes methods enabling you to react to events by recognizing stylus gestures and enabling you to add data to the input queue.<br/>                                                  |
+| [**IRealTimeStylus**](/windows/win32/RTSCom/nn-rtscom-irealtimestylus?branch=master)                                         | Handles the stylus packet data from a digitizer in real time.<br/>                                                                                                                    |
+| [**IRealTimeStylus2**](/windows/win32/RTSCom/nn-rtscom-irealtimestylus2?branch=master)                                       | Extends the IRealTimeStylus interface.<br/>                                                                                                                                           |
+| [**IRealTimeStylus3**](/windows/win32/rtscom/nn-rtscom-irealtimestylus3?branch=master)                                       | Extends the IRealTimeStylus interface.<br/>                                                                                                                                           |
+| [**IRealTimeStylusSynchronization Interface**](/windows/win32/RTSCom/nn-rtscom-irealtimestylussynchronization?branch=master) | Synchronizes access to the [**RealTimeStylus Class**](/windows/win32/RTSCom/?branch=master) object.<br/>                                                                                          |
+| [**IStrokeBuilder Interface**](/windows/win32/RTSCom/nn-rtscom-istrokebuilder?branch=master)                                 | Exposes methods that enable you to programmatically create strokes.<br/>                                                                                                              |
+| [**IStylusPlugin Interface**](/windows/win32/RTSCom/nn-rtscom-istylusplugin?branch=master)                                   | Exposes methods enabling you to receive notifications of events and to perform custom processing based on those events.<br/>                                                          |
+| [**IStylusAsyncPlugin**](/windows/win32/RTSCom/?branch=master)                                   | Represents an asynchronous plug-in that can be added to the [**RealTimeStylus Class**](/windows/win32/RTSCom/?branch=master) asynchronous plug-in collection.<br/>                                |
+| [**IStylusSyncPlugin**](/windows/win32/RTSCom/?branch=master)                                     | Represents a synchronous plug-in that can be added to the [**RealTimeStylus Class**](/windows/win32/RTSCom/?branch=master) synchronous plug-in collection.<br/>                                   |
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Player.CurrentPlaylistItemAvailable event
 description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available.
-ms.assetid: '4894e2fc-3464-413f-8abf-8b5e91899946'
-keywords: ["CurrentPlaylistItemAvailable event Windows Media Player", "CurrentPlaylistItemAvailable event Windows Media Player , Player class", "Player class Windows Media Player , CurrentPlaylistItemAvailable event"]
+ms.assetid: 4894e2fc-3464-413f-8abf-8b5e91899946
+keywords:
+- CurrentPlaylistItemAvailable event Windows Media Player
+- CurrentPlaylistItemAvailable event Windows Media Player , Player class
+- Player class Windows Media Player , CurrentPlaylistItemAvailable event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.CurrentPlaylistItemAvailable event
@@ -75,9 +83,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**PlaylistCollection.getByName**](playlistcollection-getbyname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

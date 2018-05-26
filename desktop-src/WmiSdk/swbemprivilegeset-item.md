@@ -1,13 +1,16 @@
 ---
-Description: 'The Item method of the SWbemPrivilegeSet object returns an SWbemPrivilege object from the collection. The Item method is the default method of an SWbemPrivilegeSet object.'
+Description: The Item method of the SWbemPrivilegeSet object returns an SWbemPrivilege object from the collection. The Item method is the default method of an SWbemPrivilegeSet object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '93a35e65-99ee-40da-9415-4151ac635091'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 93a35e65-99ee-40da-9415-4151ac635091
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPrivilegeSet.Item method'
+title: SWbemPrivilegeSet.Item method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilegeSet.Item method
@@ -34,7 +37,7 @@ objPrivilege = .Item( _
 *iPrivilege* 
 </dt> <dd>
 
-Required. One of the WMI constants from the [**WbemPrivilegeEnum**](wbemprivilegeenum.md) group. These constants are essentially integers that represent specific privileges. For example, to get the privilege that allows you to shut down a Windows system, use the **wbemPrivilegeShutdown** constant or the numeric equivalent of 23 (0x17).
+Required. One of the WMI constants from the [**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master) group. These constants are essentially integers that represent specific privileges. For example, to get the privilege that allows you to shut down a Windows system, use the **wbemPrivilegeShutdown** constant or the numeric equivalent of 23 (0x17).
 
 </dd> </dl>
 
@@ -87,8 +90,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -110,9 +113,9 @@ Next
 [**SWbemPrivilege**](swbemprivilege.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

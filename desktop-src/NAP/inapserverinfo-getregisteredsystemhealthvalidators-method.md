@@ -1,8 +1,11 @@
 ---
 title: INapServerInfo GetRegisteredSystemHealthValidators method
 description: Retrieves a list of registered SHVs.
-ms.assetid: '029c7d5c-b397-415c-a530-0096de1ef771'
-keywords: ["GetRegisteredSystemHealthValidators method NAP", "GetRegisteredSystemHealthValidators method NAP , INapServerInfo interface", "INapServerInfo interface NAP , GetRegisteredSystemHealthValidators method"]
+ms.assetid: 029c7d5c-b397-415c-a530-0096de1ef771
+keywords:
+- GetRegisteredSystemHealthValidators method NAP
+- GetRegisteredSystemHealthValidators method NAP , INapServerInfo interface
+- INapServerInfo interface NAP , GetRegisteredSystemHealthValidators method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerInfo::GetRegisteredSystemHealthValidators method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerInfo::GetRegisteredSystemHealthValidators** method retrieves a list of registered SHVs.
 
@@ -27,9 +35,9 @@ The **INapServerInfo::GetRegisteredSystemHealthValidators** method retrieves a l
 
 ```C++
 HRESULT GetRegisteredSystemHealthValidators(
-  [out] SystemHealthEntityCount      *count,
-  [out] NapComponentRegistrationInfo **validators,
-  [out] CLSID                        **validatorClsids
+  [out] SystemHealthEntityCount      *count,
+  [out] NapComponentRegistrationInfo **validators,
+  [out] CLSID                        **validatorClsids
 );
 ```
 
@@ -49,7 +57,7 @@ A pointer to a [**SystemHealthEntityCount**](nap-type-constants.md) that contain
 *validators* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) structure that contains the SHV registration information.
+A pointer to a pointer to a [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) structure that contains the SHV registration information.
 
 </dd> <dt>
 
@@ -74,7 +82,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,7 +91,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -94,15 +102,15 @@ Other COM-specific error codes also may be returned.
 
 <dl> <dt>
 
-[**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md)
+[**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master)
 </dt> <dt>
 
 [**INapServerInfo**](inapserverinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

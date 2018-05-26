@@ -4,17 +4,22 @@ description: Contains the returned status code from the last Kerberos operation 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '559A7EF8-27BD-4CBB-BFF5-24FD085E4267'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 559A7EF8-27BD-4CBB-BFF5-24FD085E4267
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["StatusKerberos Failover Cluster , for distributed network names", "StatusKerberos Failover Cluster"]
+keywords:
+- StatusKerberos Failover Cluster , for distributed network names
+- StatusKerberos Failover Cluster
 topic_type:
 - apiref
 api_name:
 - StatusKerberos
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StatusKerberos
@@ -28,14 +33,14 @@ Contains the returned status code from the last Kerberos operation that the reso
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0                                         |
 | Default   | 0xFFFFFFFF                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +53,7 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_STATUS\_KERBEROS**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,12 +64,12 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_STATUS\_KERBEROS**.
 [Distributed Network Name Private Properties](distributed-net-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

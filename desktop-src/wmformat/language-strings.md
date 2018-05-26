@@ -1,8 +1,17 @@
 ---
 title: Language Strings
 description: Language Strings
-ms.assetid: '625f7e95-0d21-4e16-8323-0f6301a04b30'
-keywords: ["Windows Media Format SDK,language strings", "Advanced Systems Format (ASF),language strings", "ASF (Advanced Systems Format),language strings", "language strings"]
+ms.assetid: 625f7e95-0d21-4e16-8323-0f6301a04b30
+keywords:
+- Windows Media Format SDK,language strings
+- Advanced Systems Format (ASF),language strings
+- ASF (Advanced Systems Format),language strings
+- language strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Strings

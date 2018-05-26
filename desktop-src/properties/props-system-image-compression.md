@@ -1,7 +1,12 @@
 ---
-Description: 'The algorithm used to compress the image.'
-ms.assetid: 'b355351d-b0b4-4f5d-a440-fc408a29e700'
-title: 'System.Image.Compression'
+Description: The algorithm used to compress the image.
+ms.assetid: b355351d-b0b4-4f5d-a440-fc408a29e700
+title: System.Image.Compression
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.Compression

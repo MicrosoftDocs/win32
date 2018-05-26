@@ -1,8 +1,11 @@
 ---
 title: IMessenger AutoSignin method
 description: Signs the local client in automatically using the last sign-in name and saved password information.
-ms.assetid: '6a82a1f7-0dc8-4275-a4df-6a02afbc5462'
-keywords: ["AutoSignin method Windows Messenger", "AutoSignin method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , AutoSignin method"]
+ms.assetid: 6a82a1f7-0dc8-4275-a4df-6a02afbc5462
+keywords:
+- AutoSignin method Windows Messenger
+- AutoSignin method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , AutoSignin method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::AutoSignin method
 
-\[**AutoSignin** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**AutoSignin** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Signs the local client in automatically using the last sign-in name and saved password information.
 
@@ -86,11 +94,11 @@ For a table of MSGR\_E\_\* constants, see [**MSGRConstants**](im-msgrconstants.m
 
 
 
- 
+ 
 
 ## Remarks
 
-This method always signs the user in to the primary service. This method's behavior depends on the primary service on the client. The Microsoft Exchange Instant Messaging Service (IM) client offers users the option to use Exchange as the primary service. The **AutoSignin** method will not launch the secondary sign-in dialog box for any configured secondary services on any client. Only the primary service can be signed into using this method. To sign in to all services, use [**Signin**](im-imessenger-signin.md). This method will always display the **Sign In** dialog box, even with cached credentials.
+This method always signs the user in to the primary service. This method's behavior depends on the primary service on the client. The Microsoft Exchange Instant Messaging Service (IM) client offers users the option to use Exchange as the primary service. The **AutoSignin** method will not launch the secondary sign-in dialog box for any configured secondary services on any client. Only the primary service can be signed into using this method. To sign in to all services, use [**Signin**](im-imessenger-signin.md). This method will always display the **Sign In** dialog box, even with cached credentials.
 
 If saving the password locally is not enabled by a specific user option, this method will fail.
 
@@ -107,7 +115,7 @@ Because sign-in relies on server authentication, several possible error conditio
 > -   You should not return MSGR\_E\_NOT\_LOGGED\_ON to avoid an exception.
 > -   Clear the value returned to the user.
 
- 
+ 
 
 ## Requirements
 
@@ -115,17 +123,17 @@ Because sign-in relies on server authentication, several possible error conditio
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

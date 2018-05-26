@@ -1,8 +1,11 @@
 ---
 title: EmailAction.Server property
 description: For scripting, gets or sets the name of the SMTP server that you use to send email from.
-ms.assetid: 'a6e03144-ae3e-4c4c-aad8-884be5ab324f'
-keywords: ["Server property Task Scheduler", "Server property Task Scheduler , EmailAction object", "EmailAction object Task Scheduler , Server property"]
+ms.assetid: a6e03144-ae3e-4c4c-aad8-884be5ab324f
+keywords:
+- Server property Task Scheduler
+- Server property Task Scheduler , EmailAction object
+- EmailAction object Task Scheduler , Server property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmailAction.Server property
@@ -44,10 +52,10 @@ Make sure the SMTP server that sends the email is setup correctly. E-mail is sen
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -63,9 +71,9 @@ Make sure the SMTP server that sends the email is setup correctly. E-mail is sen
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

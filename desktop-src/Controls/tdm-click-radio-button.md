@@ -1,8 +1,9 @@
 ---
 title: TDM\_CLICK\_RADIO\_BUTTON message
 description: Simulates the action of a radio button click in a task dialog.
-ms.assetid: 'ad1616fc-f64d-4575-8bd1-7ce63185d725'
-keywords: ["TDM_CLICK_RADIO_BUTTON message Windows Controls"]
+ms.assetid: ad1616fc-f64d-4575-8bd1-7ce63185d725
+keywords:
+- TDM_CLICK_RADIO_BUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_CLICK\_RADIO\_BUTTON message
@@ -41,7 +47,7 @@ The return value is ignored.
 
 ## Remarks
 
-The specified radio button ID is sent to the [**TaskDialogCallbackProc**](taskdialogcallbackproc.md) callback function as part of a [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md) notification code. After the callback function returns, the radio button will be selected.
+The specified radio button ID is sent to the [**TaskDialogCallbackProc**](/windows/win32/Commctrl/nc-commctrl-pftaskdialogcallback?branch=master) callback function as part of a [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md) notification code. After the callback function returns, the radio button will be selected.
 
 ## Requirements
 
@@ -49,15 +55,15 @@ The specified radio button ID is sent to the [**TaskDialogCallbackProc**](taskdi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

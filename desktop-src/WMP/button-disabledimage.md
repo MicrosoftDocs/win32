@@ -1,14 +1,20 @@
 ---
 title: BUTTON.disabledImage
 description: The disabledImage attribute specifies or retrieves the image that displays when the BUTTON is disabled.
-ms.assetid: 'b5654323-589a-45da-9534-6fa67c3a4c4b'
-keywords: ["BUTTON.disabledImage Windows Media Player"]
+ms.assetid: b5654323-589a-45da-9534-6fa67c3a4c4b
+keywords:
+- BUTTON.disabledImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.disabledImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.disabledImage
@@ -48,9 +54,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

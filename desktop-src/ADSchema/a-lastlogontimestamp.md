@@ -4,17 +4,22 @@ description: This is the time that the user last logged into the domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6c94bccb-1e0a-421c-a00c-5f6e6389690f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6c94bccb-1e0a-421c-a00c-5f6e6389690f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Last-Logon-Timestamp attribute AD Schema", "lastLogonTimestamp attribute AD Schema"]
+keywords:
+- Last-Logon-Timestamp attribute AD Schema
+- lastLogonTimestamp attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Last-Logon-Timestamp
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Last-Logon-Timestamp attribute
@@ -38,12 +43,12 @@ This is the time that the user last logged into the domain. This value is stored
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ This is the time that the user last logged into the domain. This value is stored
 
 
 
- 
+ 
 
- 
+ 
 
 
 

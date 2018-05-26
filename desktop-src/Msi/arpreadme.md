@@ -1,7 +1,12 @@
 ---
-Description: 'The ARPREADME property provides the Add or Remove Programs Control Panel ReadMe for the application that is written under the Uninstall Registry Key. This property can by set by the command line or a transform.'
-ms.assetid: '5a3232b0-8194-4df5-9e6b-a1c7df5a216c'
+Description: The ARPREADME property provides the Add or Remove Programs Control Panel ReadMe for the application that is written under the Uninstall Registry Key. This property can by set by the command line or a transform.
+ms.assetid: 5a3232b0-8194-4df5-9e6b-a1c7df5a216c
 title: ARPREADME property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARPREADME property
@@ -14,7 +19,7 @@ The **ARPREADME** property provides the Add or Remove Programs Control Panel Rea
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -25,9 +30,9 @@ The **ARPREADME** property provides the Add or Remove Programs Control Panel Rea
 [Properties](properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

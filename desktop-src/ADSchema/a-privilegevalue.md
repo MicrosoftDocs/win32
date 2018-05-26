@@ -4,17 +4,22 @@ description: A value that represents an Windows NT privilege.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dd76840f-5fb9-48db-a60c-62144e09134b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dd76840f-5fb9-48db-a60c-62144e09134b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Privilege-Value attribute AD Schema", "privilegeValue attribute AD Schema"]
+keywords:
+- Privilege-Value attribute AD Schema
+- privilegeValue attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Privilege-Value
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Privilege-Value attribute

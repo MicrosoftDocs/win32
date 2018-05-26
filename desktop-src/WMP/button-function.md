@@ -1,8 +1,17 @@
 ---
 title: Button Function
 description: Button Function
-ms.assetid: '6dfcf639-5989-4da8-b78d-8e393aba641a'
-keywords: ["Windows Media Player Mobile skins,button functions", "skins,button functions", "reference for skins,buttons", "buttons in skins,functions"]
+ms.assetid: 6dfcf639-5989-4da8-b78d-8e393aba641a
+keywords:
+- Windows Media Player Mobile skins,button functions
+- skins,button functions
+- reference for skins,buttons
+- buttons in skins,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Function

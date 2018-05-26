@@ -1,7 +1,12 @@
 ---
-Description: 'The ODBCSourceAttribute table contains information about the attributes of data sources.'
-ms.assetid: '8ee50fd7-507e-484f-9a16-de5449470562'
+Description: The ODBCSourceAttribute table contains information about the attributes of data sources.
+ms.assetid: 8ee50fd7-507e-484f-9a16-de5449470562
 title: ODBCSourceAttribute Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODBCSourceAttribute Table

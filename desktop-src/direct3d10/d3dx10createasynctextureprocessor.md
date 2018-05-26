@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a data processor to be used with a thread pump.'
-ms.assetid: 'c96b0ebb-7b9c-47d0-ad4f-fa62ddb74fa1'
+---
+Description: Create a data processor to be used with a thread pump.
+ms.assetid: c96b0ebb-7b9c-47d0-ad4f-fa62ddb74fa1
 title: D3DX10CreateAsyncTextureProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncTextureProcessor function
@@ -28,9 +33,9 @@ HRESULT D3DX10CreateAsyncTextureProcessor(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-A pointer to the devive (see [**ID3D10Device Interface**](id3d10device.md)).
+A pointer to the devive (see [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)).
 
 </dd> <dt>
 

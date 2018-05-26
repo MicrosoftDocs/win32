@@ -1,8 +1,14 @@
 ---
 title: Writing Backward Compatible Clients and Servers
 description: In theory, the versioning scheme of RPC helps prevent miscommunication between modified servers and clients and their deployed counterparts.
-ms.assetid: '0c7d6716-e4ed-447e-bf64-906d55bec907'
-keywords: ["Remote Procedure Call RPC , best practices, backward compatibility"]
+ms.assetid: 0c7d6716-e4ed-447e-bf64-906d55bec907
+keywords:
+- Remote Procedure Call RPC , best practices, backward compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Backward Compatible Clients and Servers

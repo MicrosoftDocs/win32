@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the size, in bytes, of the data section of an Advanced Systems Format (ASF) file.'
-ms.assetid: '93a0bf27-23db-4e8a-b471-a42122e8f9aa'
-title: 'MF\_PD\_ASF\_DATA\_LENGTH attribute'
+---
+Description: Specifies the size, in bytes, of the data section of an Advanced Systems Format (ASF) file.
+ms.assetid: 93a0bf27-23db-4e8a-b471-a42122e8f9aa
+title: MF\_PD\_ASF\_DATA\_LENGTH attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_DATA\_LENGTH attribute
@@ -16,7 +21,7 @@ Specifies the size, in bytes, of the data section of an Advanced Systems Format 
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute from the ASF metadata.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute from the ASF metadata.
 
 ## Requirements
 
@@ -37,13 +42,13 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-ge
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

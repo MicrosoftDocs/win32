@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Export class represents an association between a local file system and its directories, which indicate that the specified directories are available for mount.'
+Description: The CIM\_Export class represents an association between a local file system and its directories, which indicate that the specified directories are available for mount.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4c43ba5a-e003-4985-85b3-68ecf13a4bf5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4c43ba5a-e003-4985-85b3-68ecf13a4bf5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Export class'
+title: CIM\_Export class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Export class
@@ -19,7 +22,7 @@ The **CIM\_Export** class represents an association between a local file system 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,8 +32,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, UUID("{75BCF4F8-DB46-11D2-B4C8-80080C7B6371}"), AMENDMENT]
 class CIM_Export
 {
-  CIM_Directory       REF Directory;
-  string                  ExportedDirectoryName;
+  CIM_Directory       REF Directory;
+  string                  ExportedDirectoryName;
   CIM_LocalFileSystem REF LocalFS;
 };
 ```
@@ -101,17 +104,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

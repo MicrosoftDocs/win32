@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a SYNTAX clause that defines the data and type for the MIB object.'
+Description: Contains a SYNTAX clause that defines the data and type for the MIB object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '24c483c8-db50-492f-9c2e-72620395331a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 24c483c8-db50-492f-9c2e-72620395331a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SYNTAX Clause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SYNTAX Clause
@@ -17,7 +20,7 @@ The [OBJECT-TYPE](object-type-macro.md) macro contains a SYNTAX clause that defi
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).
 
- 
+ 
 
 The following mapping rules apply to all of the data types described in the table below:
 
@@ -39,7 +42,7 @@ The following table lists data types that have specific rules that govern the pr
 
 
 
- 
+ 
 
 ## Primitive Type
 
@@ -62,7 +65,7 @@ The primitive type is one of the basic data types defined in the Structure of Ma
 
 
 
- 
+ 
 
 The provider ignores the OBJECT-TYPE macro when the SYNTAX clause refers to **NULL**, either explicitly or through a named type assignment. The following table lists the mapping that occurs when the SYNTAX clause explicitly refers to a primitive type for SNMPv2. The **textual\_convention**, **encoding**, and **object\_syntax** qualifiers are always the same as the MIB type and the default value is always **NULL**.
 
@@ -84,7 +87,7 @@ The provider ignores the OBJECT-TYPE macro when the SYNTAX clause refers to **NU
 
 
 
- 
+ 
 
 ## Named Type
 
@@ -101,7 +104,7 @@ SNMP named types map to CIM-defined types. When the SYNTAX clause refers to a [p
 > [!Note]  
 > Classes containing property types that do not conform to the mapping described above are not valid. In this case, the provider returns an error if and when the provider requests the retrieval of a class definition while executing an instance retrieval function.
 
- 
+ 
 
 ## Constrained Type
 
@@ -121,7 +124,7 @@ Subtypes may follow any of the following formats:
 
 
 
- 
+ 
 
 -   BITS
 
@@ -135,7 +138,7 @@ Subtypes may follow any of the following formats:
 
 
 
- 
+ 
 
 -   Variable-length
 
@@ -243,9 +246,9 @@ This example maps to:
 variable_value("10..20,8")
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: D3DX11GetImageInfoFromMemory function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GetMetadataFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Get information about an image already loaded into memory.
-ms.assetid: 'b13192fa-4235-4c38-ba46-e14ffab2f653'
-keywords: ["D3DX11GetImageInfoFromMemory function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GetMetadataFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesnt support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Get information about an image already loaded into memory.
+ms.assetid: b13192fa-4235-4c38-ba46-e14ffab2f653
+keywords:
+- D3DX11GetImageInfoFromMemory function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11GetImageInfoFromMemory function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **GetMetadataFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 
- 
+ 
 
 Get information about an image already loaded into memory.
 
@@ -33,11 +39,11 @@ Get information about an image already loaded into memory.
 
 ```C++
 HRESULT D3DX11GetImageInfoFromMemory(
-  _In_  LPCVOID           pSrcData,
-  _In_  SIZE_T            SrcDataSize,
-  _In_  ID3DX11ThreadPump *pPump,
-  _In_  D3DX11_IMAGE_INFO *pSrcInfo,
-  _Out_ HRESULT           *pHResult
+  _In_  LPCVOID           pSrcData,
+  _In_  SIZE_T            SrcDataSize,
+  _In_  ID3DX11ThreadPump *pPump,
+  _In_  D3DX11_IMAGE_INFO *pSrcInfo,
+  _Out_ HRESULT           *pHResult
 );
 ```
 
@@ -116,9 +122,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

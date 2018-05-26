@@ -4,11 +4,13 @@ description: Represents a single property value associated with a multi-value pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6a8ffae6-c4f3-42fb-9703-eeb695902877'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6a8ffae6-c4f3-42fb-9703-eeb695902877
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusPropertyValue object Failover Cluster", "ClusPropertyValue object Failover Cluster , described"]
+keywords:
+- ClusPropertyValue object Failover Cluster
+- ClusPropertyValue object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusPropertyValue object
@@ -49,7 +54,7 @@ The **ClusPropertyValue** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +67,7 @@ A **ClusPropertyValue** object can only be obtained from [**ClusPropertyValues.I
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>              |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>  |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>  |
@@ -78,9 +83,9 @@ A **ClusPropertyValue** object can only be obtained from [**ClusPropertyValues.I
 [Property Management Objects](property-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

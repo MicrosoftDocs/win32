@@ -1,14 +1,20 @@
 ---
 title: media Element
 description: The media element specifies one of the media items in a playlist.
-ms.assetid: '7329bf48-3b23-4bc6-8488-506efca284bb'
-keywords: ["media Element Windows Media Player"]
+ms.assetid: 7329bf48-3b23-4bc6-8488-506efca284bb
+keywords:
+- media Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - media Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # media Element
@@ -36,7 +42,7 @@ The **media** element specifies one of the media items in a playlist.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -49,7 +55,7 @@ The **media** element specifies one of the media items in a playlist.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,9 +95,9 @@ The **cid** attribute (the content ID) is populated by the Windows Media Player 
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

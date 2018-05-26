@@ -4,11 +4,16 @@ description: You can perform a search to determine what type of data is availabl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '47e78b79-2063-420b-aa41-f4f0c35f87ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 47e78b79-2063-420b-aa41-f4f0c35f87ea
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Returning Only Attribute Names with IDirectorySearch ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options, Returning Only Attribute Names"]
+keywords:
+- Returning Only Attribute Names with IDirectorySearch ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options, Returning Only Attribute Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Returning Only Attribute Names with IDirectorySearch
@@ -33,7 +38,7 @@ phone
 
 The default is for both attribute values and names to be returned.
 
-To retrieve only attribute names, set an **ADS\_SEARCHPREF\_ATTRIBTYPES\_ONLY** search option with an **ADSTYPE\_BOOLEAN** value of **TRUE** in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method.
+To retrieve only attribute names, set an **ADS\_SEARCHPREF\_ATTRIBTYPES\_ONLY** search option with an **ADSTYPE\_BOOLEAN** value of **TRUE** in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method.
 
 The following code example shows how to retrieve attribute names only.
 

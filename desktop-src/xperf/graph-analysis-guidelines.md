@@ -1,7 +1,12 @@
 ---
 title: Graph Analysis Guidelines
 description: Graph Analysis Guidelines
-ms.assetid: 'f2804bdd-2040-4e6f-9a9a-88cc123265dd'
+ms.assetid: f2804bdd-2040-4e6f-9a9a-88cc123265dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graph Analysis Guidelines

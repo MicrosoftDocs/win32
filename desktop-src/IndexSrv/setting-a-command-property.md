@@ -1,7 +1,12 @@
 ---
 title: Setting a Command Property
 description: Setting a Command Property
-ms.assetid: 'eddc827b-929e-42ee-a81f-c4e0c96d1bcf'
+ms.assetid: eddc827b-929e-42ee-a81f-c4e0c96d1bcf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting a Command Property

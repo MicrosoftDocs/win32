@@ -1,14 +1,20 @@
 ---
 title: instrumentation (instrumentationManifest) Element
 description: Defines the types of instrumentation that the manifest contains (for example, event or counter instrumentation).
-ms.assetid: 'a1737af5-2bf2-4841-bd37-450809e59b8e'
-keywords: ["instrumentation element EventLog"]
+ms.assetid: a1737af5-2bf2-4841-bd37-450809e59b8e
+keywords:
+- instrumentation element EventLog
 topic_type:
 - apiref
 api_name:
 - instrumentation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # instrumentation (instrumentationManifest) Element
@@ -29,8 +35,8 @@ The **instrumentation** element is defined by the [**instrumentationManifest**](
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **instrumentation** element is defined by the [**instrumentationManifest**](
 [**instrumentationManifest**](eventmanifestschema-instrumentationmanifest-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

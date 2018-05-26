@@ -1,8 +1,18 @@
 ---
 title: Registering DSP Plug-ins
 description: Registering DSP Plug-ins
-ms.assetid: 'af264ff7-702b-4a49-a14d-ab8563a40c4e'
-keywords: ["Windows Media Player plug-ins,registry entries", "plug-ins,registry entries", "digital signal processing plug-ins,registry entries", "DSP plug-ins,registry entries", "registry,DSP plug-ins"]
+ms.assetid: af264ff7-702b-4a49-a14d-ab8563a40c4e
+keywords:
+- Windows Media Player plug-ins,registry entries
+- plug-ins,registry entries
+- digital signal processing plug-ins,registry entries
+- DSP plug-ins,registry entries
+- registry,DSP plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering DSP Plug-ins
@@ -34,7 +44,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 
 
 
- 
+ 
 
 If your DSP plug-in implements a custom interface and if your plug-in is going to run in Windows Media Player 11 on Windows Vista, you must create the following registry subkeys and entries on the user's computer.
 
@@ -73,7 +83,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 
 
 
- 
+ 
 
 If your DSP plug-in provides a property page, you must create the following registry subkeys and entries on the user's computer.
 
@@ -101,13 +111,13 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 
 
 
- 
+ 
 
 **Calling IWMPPluginRegistrar**
 
-In addition to the registry subkeys and entries described in the preceding lists and tables, you must create some registry keys and entries by calling [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](iwmpmediapluginregistrar--wmpregisterplayerplugin.md). This method performs the necessary registration to enable Windows Media Player to recognize your plug-in and present it as an option to the user.
+In addition to the registry subkeys and entries described in the preceding lists and tables, you must create some registry keys and entries by calling [IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin](/windows/win32/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin?branch=master). This method performs the necessary registration to enable Windows Media Player to recognize your plug-in and present it as an option to the user.
 
-Call **IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin** in your plug-in's **DllRegisterServer** function, and call [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](iwmpmediapluginregistrar--wmpunregisterplayerplugin.md) in your plug-in's **DllUnregisterServer** function. To get a pointer to an **IWMPMediaPluginRegistrar** interface, call **CoCreateInstance**, passing CLSID\_WMPMediaPluginRegistrar as the Class ID. The constant CLSID\_WMPMediaPluginRegistrar is defined in wmpservices.h.
+Call **IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin** in your plug-in's **DllRegisterServer** function, and call [IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin](/windows/win32/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin?branch=master) in your plug-in's **DllUnregisterServer** function. To get a pointer to an **IWMPMediaPluginRegistrar** interface, call **CoCreateInstance**, passing CLSID\_WMPMediaPluginRegistrar as the Class ID. The constant CLSID\_WMPMediaPluginRegistrar is defined in wmpservices.h.
 
 **Registration in the DSP Plug-in Wizard**
 
@@ -122,12 +132,12 @@ The DSP plug-in wizard also generates code for a proxy-stub component that is a 
 [**DSP Plug-in Developer Overview**](dsp-plug-in-developer-overview.md)
 </dt> <dt>
 
-[**IWMPMediaPluginRegistrar**](iwmpmediapluginregistrar.md)
+[**IWMPMediaPluginRegistrar**](/windows/win32/wmpservices/nn-wmpservices-iwmpmediapluginregistrar?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

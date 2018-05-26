@@ -4,17 +4,22 @@ description: Additional names for a user. For example, middle name, patronymic, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '539de593-e879-4b4a-bf75-c022f53e80de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 539de593-e879-4b4a-bf75-c022f53e80de
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Other-Name attribute AD Schema", "middleName attribute AD Schema"]
+keywords:
+- Other-Name attribute AD Schema
+- middleName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Other-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Other-Name attribute
@@ -38,12 +43,12 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
- 
+ 
 
- 
+ 
 
 
 

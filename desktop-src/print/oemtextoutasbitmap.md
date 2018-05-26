@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMTextOutAsBitmap function
-ms.assetid: '37bf1cbe-9200-4d3e-b5e6-746f18293c1a'
+ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 title: OEMTextOutAsBitmap function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMTextOutAsBitmap function

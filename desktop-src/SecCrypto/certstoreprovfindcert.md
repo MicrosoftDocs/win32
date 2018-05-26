@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates or finds the first or next certificate in an external store that matches specified criteria.'
-ms.assetid: '1129a372-4d7c-454e-969b-26a1d6037bc0'
+---
+Description: Enumerates or finds the first or next certificate in an external store that matches specified criteria.
+ms.assetid: 1129a372-4d7c-454e-969b-26a1d6037bc0
 title: CertStoreProvFindCert callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvFindCert callback function
@@ -38,14 +43,14 @@ BOOL WINAPI CertStoreProvFindCert(
 *pFindInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](cert-store-prov-find-info.md) structure containing all the parameters passed to the [**CertFindCertificateInStore**](certfindcertificateinstore.md) function.
+A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_store_prov_find_info?branch=master) structure containing all the parameters passed to the [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master) function.
 
 </dd> <dt>
 
 *pPrevCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](cert-context.md) of the certificate found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCertContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
+A pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) of the certificate found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCertContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
 
 </dd> <dt>
 
@@ -89,13 +94,13 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_CONTEXT**](cert-context.md)
+[**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master)
 </dt> <dt>
 
-[**CERT\_STORE\_PROV\_FIND\_INFO**](cert-store-prov-find-info.md)
+[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_store_prov_find_info?branch=master)
 </dt> <dt>
 
-[**CertFindCertificateInStore**](certfindcertificateinstore.md)
+[**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: String Manipulation Functions
 description: To handle strings that are allocated by one component and freed by another, Automation defines a special set of functions.
-ms.assetid: '323cefbf-836c-4c9d-bcbe-f2663a57d2b5'
+ms.assetid: 323cefbf-836c-4c9d-bcbe-f2663a57d2b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String Manipulation Functions
@@ -27,25 +32,25 @@ For example, if the application allocates a BSTR and frees it, the free block of
 
 | Topic                                                             | Description                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SysAddRefString**](sysaddrefstring.md)<br/>             | Increases the pinning reference count for the specified string by one.<br/>                                                                                                                                                                                                                              |
-| [**SysAllocString**](sysallocstring.md)<br/>               | Allocates a new string and copies the passed string into it.<br/>                                                                                                                                                                                                                                        |
-| [**SysAllocStringByteLen**](sysallocstringbytelen.md)<br/> | Takes an ANSI string as input, and returns a BSTR that contains an ANSI string. Does not perform any ANSI-to-Unicode translation.<br/>                                                                                                                                                                   |
-| [**SysAllocStringLen**](sysallocstringlen.md)<br/>         | Allocates a new string, copies the specified number of characters from the passed string, and appends a null-terminating character.<br/>                                                                                                                                                                 |
-| [**SysFreeString**](sysfreestring.md)<br/>                 | Deallocates a string allocated previously by [**SysAllocString**](sysallocstring.md), [**SysAllocStringByteLen**](sysallocstringbytelen.md), [**SysReAllocString**](sysreallocstring.md), [**SysAllocStringLen**](sysallocstringlen.md), or [**SysReAllocStringLen**](sysreallocstringlen.md).<br/> |
-| [**SysReAllocString**](sysreallocstring.md)<br/>           | Reallocates a previously allocated string to be the size of a second string and copies the second string into the reallocated memory.<br/>                                                                                                                                                               |
-| [**SysReAllocStringLen**](sysreallocstringlen.md)<br/>     | Creates a new BSTR containing a specified number of characters from an old BSTR, and frees the old BSTR.<br/>                                                                                                                                                                                            |
-| [**SysReleaseString**](sysreleasestring.md)<br/>           | Decreases the pinning reference count for the specified string by one. When that count reaches 0, the memory for that string is no longer prevented from being freed.<br/>                                                                                                                               |
-| [**SysStringByteLen**](sysstringbytelen.md)<br/>           | Returns the length (in bytes) of a BSTR.<br/>                                                                                                                                                                                                                                                            |
-| [**SysStringLen**](sysstringlen.md)<br/>                   | Returns the length of a BSTR.<br/>                                                                                                                                                                                                                                                                       |
+| [**SysAddRefString**](/windows/previous-versions/Oleauto/nf-oleauto-sysaddrefstring?branch=master)<br/>             | Increases the pinning reference count for the specified string by one.<br/>                                                                                                                                                                                                                              |
+| [**SysAllocString**](/windows/previous-versions/OleAuto/nf-oleauto-sysallocstring?branch=master)<br/>               | Allocates a new string and copies the passed string into it.<br/>                                                                                                                                                                                                                                        |
+| [**SysAllocStringByteLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysallocstringbytelen?branch=master)<br/> | Takes an ANSI string as input, and returns a BSTR that contains an ANSI string. Does not perform any ANSI-to-Unicode translation.<br/>                                                                                                                                                                   |
+| [**SysAllocStringLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysallocstringlen?branch=master)<br/>         | Allocates a new string, copies the specified number of characters from the passed string, and appends a null-terminating character.<br/>                                                                                                                                                                 |
+| [**SysFreeString**](/windows/previous-versions/OleAuto/nf-oleauto-sysfreestring?branch=master)<br/>                 | Deallocates a string allocated previously by [**SysAllocString**](/windows/previous-versions/OleAuto/nf-oleauto-sysallocstring?branch=master), [**SysAllocStringByteLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysallocstringbytelen?branch=master), [**SysReAllocString**](/windows/previous-versions/OleAuto/nf-oleauto-sysreallocstring?branch=master), [**SysAllocStringLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysallocstringlen?branch=master), or [**SysReAllocStringLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysreallocstringlen?branch=master).<br/> |
+| [**SysReAllocString**](/windows/previous-versions/OleAuto/nf-oleauto-sysreallocstring?branch=master)<br/>           | Reallocates a previously allocated string to be the size of a second string and copies the second string into the reallocated memory.<br/>                                                                                                                                                               |
+| [**SysReAllocStringLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysreallocstringlen?branch=master)<br/>     | Creates a new BSTR containing a specified number of characters from an old BSTR, and frees the old BSTR.<br/>                                                                                                                                                                                            |
+| [**SysReleaseString**](/windows/previous-versions/Oleauto/nf-oleauto-sysreleasestring?branch=master)<br/>           | Decreases the pinning reference count for the specified string by one. When that count reaches 0, the memory for that string is no longer prevented from being freed.<br/>                                                                                                                               |
+| [**SysStringByteLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysstringbytelen?branch=master)<br/>           | Returns the length (in bytes) of a BSTR.<br/>                                                                                                                                                                                                                                                            |
+| [**SysStringLen**](/windows/previous-versions/OleAuto/nf-oleauto-sysstringlen?branch=master)<br/>                   | Returns the length of a BSTR.<br/>                                                                                                                                                                                                                                                                       |
 
 
 
- 
+ 
 
 > [!Note]  
 > A null pointer is a valid value for a BSTR variable. By convention, it is always treated the same as a pointer to a BSTR that contains zero characters. Also by convention, calls to functions that take a BSTR reference parameter must pass either a null pointer, or a pointer to an allocated BSTR. If the implementation of a function that takes a BSTR reference parameter assigns a new BSTR to the parameter, it must free the previously referenced BSTR.
 
- 
+ 
 
 ## Related topics
 
@@ -54,9 +59,9 @@ For example, if the application allocates a BSTR and frees it, the free block of
 [Conversion and Manipulation Functions](conversion-and-manipulation-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

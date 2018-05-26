@@ -1,12 +1,17 @@
 ---
-Description: 'The patch sequencing and applicability information that is returned by the MsiExtractPatchXMLData function or the ExtractPatchXMLData method is in the format of an XML blob that contains the elements and attributes that are identified in this topic.'
-ms.assetid: 'ea40ed1d-1ef9-44f3-8ae8-3d854e308a49'
+Description: The patch sequencing and applicability information that is returned by the MsiExtractPatchXMLData function or the ExtractPatchXMLData method is in the format of an XML blob that contains the elements and attributes that are identified in this topic.
+ms.assetid: ea40ed1d-1ef9-44f3-8ae8-3d854e308a49
 title: Extracting Patch Information as XML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extracting Patch Information as XML
 
-The patch sequencing and applicability information that is returned by the [**MsiExtractPatchXMLData**](msiextractpatchxmldata.md) function or the [**ExtractPatchXMLData**](installer-extractpatchxmldata.md) method is in the format of an XML blob that contains the elements and attributes that are identified in this topic. The XML blob can be provided to [**MsiDeterminePatchSequence**](msideterminepatchsequence.md) and [**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md) instead of the full patch file.
+The patch sequencing and applicability information that is returned by the [**MsiExtractPatchXMLData**](/windows/win32/Msi/nf-msi-msiextractpatchxmldataa?branch=master) function or the [**ExtractPatchXMLData**](installer-extractpatchxmldata.md) method is in the format of an XML blob that contains the elements and attributes that are identified in this topic. The XML blob can be provided to [**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master) and [**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master) instead of the full patch file.
 
 -   The MsiPatch element is the top element of the XML blob, and contains information about the patch.
 
@@ -42,7 +47,7 @@ The patch sequencing and applicability information that is returned by the [**Ms
 
 ## Extracting Applicability Information
 
-The following example shows you how to extract the applicability information for a Windows Installer Patch (.msp file) using [**MsiExtractPatchXMLData**](msiextractpatchxmldata.md). The extracted XML blob is based on the schema definition in MSIPatchApplicability.xsd and returned to szXMLData.
+The following example shows you how to extract the applicability information for a Windows Installer Patch (.msp file) using [**MsiExtractPatchXMLData**](/windows/win32/Msi/nf-msi-msiextractpatchxmldataa?branch=master). The extracted XML blob is based on the schema definition in MSIPatchApplicability.xsd and returned to szXMLData.
 
 
 ```C++
@@ -215,13 +220,13 @@ Copy the following text into Notepad or another text editor to create the schema
 [**ExtractPatchXMLData**](installer-extractpatchxmldata.md)
 </dt> <dt>
 
-[**MsiDeterminePatchSequence**](msideterminepatchsequence.md)
+[**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master)
 </dt> <dt>
 
-[**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md)
+[**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master)
 </dt> <dt>
 
-[**MsiExtractPatchXMLData**](msiextractpatchxmldata.md)
+[**MsiExtractPatchXMLData**](/windows/win32/Msi/nf-msi-msiextractpatchxmldataa?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: XTYP\_REGISTER transaction
 description: A Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_REGISTER transaction type whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the DdeNameService function to register a service name, or whenever a non-DDEML application that supports the System topic is started.
-ms.assetid: '465e9c10-1526-4e2a-8a46-5984043f5a93'
-keywords: ["XTYP_REGISTER transaction Data Exchange"]
+ms.assetid: 465e9c10-1526-4e2a-8a46-5984043f5a93
+keywords:
+- XTYP_REGISTER transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_REGISTER transaction
 
-A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_REGISTER** transaction type whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the [**DdeNameService**](ddenameservice.md) function to register a service name, or whenever a non-DDEML application that supports the System topic is started.
+A Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_REGISTER** transaction type whenever a Dynamic Data Exchange Management Library (DDEML) server application uses the [**DdeNameService**](/windows/win32/Ddeml/nf-ddeml-ddenameservice?branch=master) function to register a service name, or whenever a non-DDEML application that supports the System topic is started.
 
 
 ```C++
@@ -88,7 +94,7 @@ Not used.
 
 ## Remarks
 
-This transaction is filtered if the application specified the **CBF\_SKIP\_REGISTRATIONS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the application specified the **CBF\_SKIP\_REGISTRATIONS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 A application cannot block this transaction type; the **CBR\_BLOCK** return code is ignored.
 
@@ -100,8 +106,8 @@ An application should use the *hsz1* parameter to add the service name to the li
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -113,10 +119,10 @@ An application should use the *hsz1* parameter to add the service name to the li
 **Reference**
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**DdeNameService**](ddenameservice.md)
+[**DdeNameService**](/windows/win32/Ddeml/nf-ddeml-ddenameservice?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -125,9 +131,9 @@ An application should use the *hsz1* parameter to add the service name to the li
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

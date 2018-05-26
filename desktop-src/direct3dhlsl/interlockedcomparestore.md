@@ -1,14 +1,20 @@
 ---
 title: InterlockedCompareStore function
 description: Atomically compares the destination to the comparison value. If they are identical, the destination is overwritten with the input value.
-ms.assetid: 'eaf7e669-5240-40c9-9840-f4e7916e51b4'
-keywords: ["InterlockedCompareStore function HLSL"]
+ms.assetid: eaf7e669-5240-40c9-9840-f4e7916e51b4
+keywords:
+- InterlockedCompareStore function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedCompareStore
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedCompareStore function

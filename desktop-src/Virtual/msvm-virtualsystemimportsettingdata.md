@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSystemImportSettingData class
 description: Represents settings of a virtual system to import.
-ms.assetid: 'd121369f-9b97-48af-ba84-3349ea4e48c5'
-keywords: ["Msvm_VirtualSystemImportSettingData class Hyper-V", "Msvm_VirtualSystemImportSettingData class Hyper-V , described"]
+ms.assetid: d121369f-9b97-48af-ba84-3349ea4e48c5
+keywords:
+- Msvm_VirtualSystemImportSettingData class Hyper-V
+- Msvm_VirtualSystemImportSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemImportSettingData class
@@ -44,25 +51,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Msvm_VirtualSystemImportSettingData : CIM_SettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean GenerateNewId;
   boolean CreateCopy;
-  string  Name;
-  string  SourceVmDataRoot;
-  string  SourceSnapshotDataRoot;
-  string  SourceVhdDataRoot;
-  string  TargetVmDataRoot;
-  string  TargetSnapshotDataRoot;
-  string  TargetVhdDataRoot;
-  string  SecurityScope;
-  string  CurrentResourcePaths[];
-  string  SourceResourcePaths[];
-  string  TargetResourcePaths[];
-  string  SourceNetworkConnections[];
-  string  TargetNetworkConnections[];
+  string  Name;
+  string  SourceVmDataRoot;
+  string  SourceSnapshotDataRoot;
+  string  SourceVhdDataRoot;
+  string  TargetVmDataRoot;
+  string  TargetSnapshotDataRoot;
+  string  TargetVhdDataRoot;
+  string  SecurityScope;
+  string  CurrentResourcePaths[];
+  string  SourceResourcePaths[];
+  string  TargetResourcePaths[];
+  string  SourceNetworkConnections[];
+  string  TargetNetworkConnections[];
 };
 ```
 
@@ -114,7 +121,7 @@ Indicates whether the VM will be copied when imported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -183,7 +190,7 @@ Indicates whether new IDs will be generated for VMs that are imported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -382,9 +389,9 @@ Access to the **Msvm\_VirtualSystemImportSettingData** class might be restricted
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -403,9 +410,9 @@ Access to the **Msvm\_VirtualSystemImportSettingData** class might be restricted
 [**ImportVirtualSystemEx**](msvm-virtualsystemmanagementservice-importvirtualsystemex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

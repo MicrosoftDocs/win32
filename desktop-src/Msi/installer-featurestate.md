@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only FeatureState property returns the installed state of a feature.'
-ms.assetid: 'a3d30296-191e-4446-b5b1-a92f8991926a'
-title: 'Installer.FeatureState property'
+---
+Description: The read-only FeatureState property returns the installed state of a feature.
+ms.assetid: a3d30296-191e-4446-b5b1-a92f8991926a
+title: Installer.FeatureState property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.FeatureState property
@@ -61,7 +66,7 @@ The **FeatureState** property does not validate that the feature is accessible.
 
 <dl> <dt>
 
-[**MsiQueryFeatureState**](msiqueryfeaturestate.md)
+[**MsiQueryFeatureState**](/windows/win32/Msi/nf-msi-msiqueryfeaturestatea?branch=master)
 </dt> </dl>
 
  

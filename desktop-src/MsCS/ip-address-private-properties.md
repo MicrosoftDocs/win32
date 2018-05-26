@@ -4,11 +4,16 @@ description: IP Address resources have the following private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ee0c5ae4-5701-419f-9ddf-eb9188fed751'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ee0c5ae4-5701-419f-9ddf-eb9188fed751
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["IP Address resource type Failover Cluster ,properties", "properties Failover Cluster ,IP Address (private) properties"]
+keywords:
+- IP Address resource type Failover Cluster ,properties
+- properties Failover Cluster ,IP Address (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IP Address Private Properties
@@ -33,13 +38,13 @@ keywords: ["IP Address resource type Failover Cluster ,properties", "properties 
 
 
 
- 
+ 
 
 [Cluster Administrator](cluster-administrator.md) presents the IP Address private properties on the property page associated with the **Parameters** tab for IP Address resources.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,11 +1,16 @@
-﻿---
-Description: 'Gets the name of the default view. Call GetDisplayNameOf to retrieve the names of the other views.'
-title: 'IShellFolderViewType::GetDefaultViewName method'
+---
+Description: Gets the name of the default view. Call GetDisplayNameOf to retrieve the names of the other views.
+title: IShellFolderViewTypeGetDefaultViewName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderViewType::GetDefaultViewName method
 
-Gets the name of the default view. Call [**GetDisplayNameOf**](ishellfolder-getdisplaynameof.md) to retrieve the names of the other views.
+Gets the name of the default view. Call [**GetDisplayNameOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof?branch=master) to retrieve the names of the other views.
 
 ## Syntax
 
@@ -37,7 +42,7 @@ Optional flags; should be set to 0.
 
 Type: **LPWSTR\***
 
-The address of a string pointer that receives the default view name. The memory for the string is allocated with [**SHStrDup**](shstrdup.md).
+The address of a string pointer that receives the default view name. The memory for the string is allocated with [**SHStrDup**](/windows/win32/Shlwapi/nf-shlwapi-shstrdupa?branch=master).
 
 </dd> </dl>
 

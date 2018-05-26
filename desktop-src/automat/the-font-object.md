@@ -1,7 +1,12 @@
 ---
 title: The Font Object
 description: The standard font object supports a number of read-write properties as well as a set of methods through its IFont interface.
-ms.assetid: 'd56c2f8a-498e-4b70-a0d8-ff562c00ed8e'
+ms.assetid: d56c2f8a-498e-4b70-a0d8-ff562c00ed8e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Font Object
@@ -27,7 +32,7 @@ The standard font object has the following properties:
 
 
 
- 
+ 
 
 The standard font object implementation exposes a new event interface, **IFontEventsDisp**. This event contains **FontChanged**, which notifies the font object that its font resource has changed:
 
@@ -39,15 +44,15 @@ The standard font object implementation exposes a new event interface, **IFontEv
 
 
 
- 
+ 
 
 For more information on font object properties, see [**IFont**](https://msdn.microsoft.com/library/windows/desktop/ms680673).
 
 For more information on **IFontDisp**, see [**IFontDisp**](https://msdn.microsoft.com/library/windows/desktop/ms692695).
 
- 
+ 
 
- 
+ 
 
 
 

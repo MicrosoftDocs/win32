@@ -1,7 +1,12 @@
 ---
-Description: 'Naming mailslots and putting messages into mailslots.'
-ms.assetid: '1ef522a4-9786-427c-a18a-ae1f0a05cc50'
+Description: Naming mailslots and putting messages into mailslots.
+ms.assetid: 1ef522a4-9786-427c-a18a-ae1f0a05cc50
 title: Mailslot Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mailslot Names

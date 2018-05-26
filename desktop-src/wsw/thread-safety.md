@@ -1,8 +1,16 @@
 ---
 title: Thread Safety
 description: All functions in this API are safe to call concurrently from different threads. However, each object passed as a parameter to the functions have specific threading behavior, as described below.
-ms.assetid: '712d6750-884e-421a-8ecf-efcd4ec9b21d'
-keywords: ["Thread Safety Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 712d6750-884e-421a-8ecf-efcd4ec9b21d
+keywords:
+- Thread Safety Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread Safety
@@ -35,7 +43,7 @@ The following handles are free threaded and do support concurrent operations for
 For all these handles, threading is defined in terms of operations (not function calls). An operation is defined differently for functions invoked synchronously versus functions invoked asynchronously:
 
 -   For functions invoked synchronously, the operation is pending during the execution of the function.
--   For functions invoked asynchronously, if the function returns a return code other than **WS\_S\_ASYNC** the operation is pending during the execution of the function. If the function returns **WS\_S\_ASYNC** , however, the operation is pending until the [**WS\_ASYNC\_CALLBACK**](ws-async-callback.md) is invoked. For more information about invoking functions asynchronously, see the [Asynchronous Model](asynchronous-model.md) topic. For error codes, see [Windows Web Services Return Values](windows-web-services-return-values.md).
+-   For functions invoked asynchronously, if the function returns a return code other than **WS\_S\_ASYNC** the operation is pending during the execution of the function. If the function returns **WS\_S\_ASYNC** , however, the operation is pending until the [**WS\_ASYNC\_CALLBACK**](/windows/win32/WebServices/nc-webservices-ws_async_callback?branch=master) is invoked. For more information about invoking functions asynchronously, see the [Asynchronous Model](asynchronous-model.md) topic. For error codes, see [Windows Web Services Return Values](windows-web-services-return-values.md).
 
 Failure to follow the threading contract for an object will result in undefined behavior.
 

@@ -1,22 +1,27 @@
 ---
-Description: 'Queuing the file operations is useful because it enables you to process the installation as a whole, instead of by INF section.'
-ms.assetid: '6519c2fb-142d-4071-865f-c00a98c2fe35'
+Description: Queuing the file operations is useful because it enables you to process the installation as a whole, instead of by INF section.
+ms.assetid: 6519c2fb-142d-4071-865f-c00a98c2fe35
 title: Creating a Queue and Queuing File Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Queue and Queuing File Operations
 
 Queuing the file operations is useful because it enables you to process the installation as a whole, instead of by INF section.
 
-To create a file queue, declare a variable to store the queue handle, then call the [**SetupOpenFileQueue**](setupopenfilequeue.md) function. After the queue is created, you can queue copy, rename, and delete operations, as well as scan the file queue to verify enqueued operations.
+To create a file queue, declare a variable to store the queue handle, then call the [**SetupOpenFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupopenfilequeue?branch=master) function. After the queue is created, you can queue copy, rename, and delete operations, as well as scan the file queue to verify enqueued operations.
 
-To add single file operations to the queue, use the [**SetupQueueCopy**](setupqueuecopy.md), [**SetupQueueRename**](setupqueuerename.md), and [**SetupQueueDelete**](setupqueuedelete.md) functions.
+To add single file operations to the queue, use the [**SetupQueueCopy**](/windows/win32/Setupapi/nf-setupapi-setupqueuecopya?branch=master), [**SetupQueueRename**](/windows/win32/Setupapi/nf-setupapi-setupqueuerenamea?branch=master), and [**SetupQueueDelete**](/windows/win32/Setupapi/nf-setupapi-setupqueuedeletea?branch=master) functions.
 
-All the file operations listed in a **Copy Files**, **Delete Files**, or **Rename Files** section can be added to the queue by using [**SetupQueueCopySection**](setupqueuecopysection.md), [**SetupQueueDeleteSection**](setupqueuedeletesection.md), or [**SetupQueueRenameSection**](setupqueuerenamesection.md), respectively.
+All the file operations listed in a **Copy Files**, **Delete Files**, or **Rename Files** section can be added to the queue by using [**SetupQueueCopySection**](/windows/win32/Setupapi/nf-setupapi-setupqueuecopysectiona?branch=master), [**SetupQueueDeleteSection**](/windows/win32/Setupapi/nf-setupapi-setupqueuedeletesectiona?branch=master), or [**SetupQueueRenameSection**](/windows/win32/Setupapi/nf-setupapi-setupqueuerenamesectiona?branch=master), respectively.
 
-Another way to queue all the files in the **Copy Files** sections listed in an **Install** section of an INF is to use the function, [**SetupInstallFilesFromInfSection**](setupinstallfilesfrominfsection.md).
+Another way to queue all the files in the **Copy Files** sections listed in an **Install** section of an INF is to use the function, [**SetupInstallFilesFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfilesfrominfsectiona?branch=master).
 
-The following example uses the [**SetupQueueCopySection**](setupqueuecopysection.md) function to enqueue copy operations for all the files listed in a **Copy Files** section of an INF file.
+The following example uses the [**SetupQueueCopySection**](/windows/win32/Setupapi/nf-setupapi-setupqueuecopysectiona?branch=master) function to enqueue copy operations for all the files listed in a **Copy Files** section of an INF file.
 
 ``` syntax
 test = SetupQueueCopySection(

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '00198aec-d05d-4aaf-b63e-1625d8befe06'
+---
+Description: .
+ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contact

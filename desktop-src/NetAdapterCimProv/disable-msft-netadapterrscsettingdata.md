@@ -1,7 +1,12 @@
 ---
-Description: 'Disables the Receive Segment Coalescing (RSC) properties on the network adapter.'
-ms.assetid: 'c720e56f-6bf0-4744-ba71-57c50126db4f'
-title: 'Disable method of the MSFT\_NetAdapterRscSettingData class'
+Description: Disables the Receive Segment Coalescing (RSC) properties on the network adapter.
+ms.assetid: c720e56f-6bf0-4744-ba71-57c50126db4f
+title: Disable method of the MSFT\_NetAdapterRscSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the MSFT\_NetAdapterRscSettingData class
@@ -13,9 +18,9 @@ Disables the Receive Segment Coalescing (RSC) properties on the network adapter.
 
 ```mof
 uint32 Disable(
-  [in]  boolean IPv4,
-  [in]  boolean IPv6,
-  [out] string  cmdletOutput
+  [in]  boolean IPv4,
+  [in]  boolean IPv6,
+  [out] string  cmdletOutput
 );
 ```
 
@@ -53,7 +58,7 @@ Returns an embedded instance of the [**MSFT\_NetAdapterRscSettingData**](msft-ne
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ Returns an embedded instance of the [**MSFT\_NetAdapterRscSettingData**](msft-ne
 [**MSFT\_NetAdapterRscSettingData**](msft-netadapterrscsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

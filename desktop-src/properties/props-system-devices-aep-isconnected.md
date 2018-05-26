@@ -1,7 +1,12 @@
 ---
-Description: 'Whether the device is currently connected to the system or or not.'
-ms.assetid: '67562a20-19d3-495b-9618-f13603946ecc'
-title: 'System.Devices.Aep.IsConnected'
+Description: Whether the device is currently connected to the system or or not.
+ms.assetid: 67562a20-19d3-495b-9618-f13603946ecc
+title: System.Devices.Aep.IsConnected
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.IsConnected

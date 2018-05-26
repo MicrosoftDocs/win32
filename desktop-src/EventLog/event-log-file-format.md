@@ -1,7 +1,12 @@
 ---
-Description: 'Each event log contains a header (represented by the ELF\_LOGFILE\_HEADER structure) that has a fixed size, followed by a variable number of event records (represented by EVENTLOGRECORD structures), and an end-of-file record (represented by the ELF\_EOF\_RECORD structure).'
-ms.assetid: '2b62b807-4ffd-4a8f-afe4-34e109d01856'
+Description: Each event log contains a header (represented by the ELF\_LOGFILE\_HEADER structure) that has a fixed size, followed by a variable number of event records (represented by EVENTLOGRECORD structures), and an end-of-file record (represented by the ELF\_EOF\_RECORD structure).
+ms.assetid: 2b62b807-4ffd-4a8f-afe4-34e109d01856
 title: Event Log File Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Log File Format
@@ -10,7 +15,7 @@ Each event log contains a header (represented by the [**ELF\_LOGFILE\_HEADER**](
 
 The **ELF\_LOGFILE\_HEADER** structure and the **ELF\_EOF\_RECORD** structure are written in the event log when the event log is created and are updated each time an event is written to the log.
 
-When an application calls the [**ReportEvent**](reportevent.md) function to write an entry to the event log, the system passes the parameters to the event-logging service. The event-logging service uses the information to write an **EVENTLOGRECORD** structure to the event log. The following diagram illustrates this process.
+When an application calls the [**ReportEvent**](/windows/win32/Winbase/nf-winbase-reporteventa?branch=master) function to write an entry to the event log, the system passes the parameters to the event-logging service. The event-logging service uses the information to write an **EVENTLOGRECORD** structure to the event log. The following diagram illustrates this process.
 
 ![writing a log file](images/evreport.png)
 

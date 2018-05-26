@@ -1,7 +1,12 @@
 ---
 title: Linking Between Merged Help Files
 description: You need to use a special link when linking between merged compiled help (.chm) files.
-ms.assetid: '84EF69C8-4062-4eb1-95ED-8249AAB3D6BA'
+ms.assetid: 84EF69C8-4062-4eb1-95ED-8249AAB3D6BA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linking Between Merged Help Files

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsEnumColorProfilesSize function returns the size, in bytes, of the buffer required by the WcsEnumColorProfiles function to enumerate color profiles.'
-ms.assetid: 'bcd9c781-aa44-4e90-9290-c9f13b192cae'
+---
+Description: The WcsEnumColorProfilesSize function returns the size, in bytes, of the buffer required by the WcsEnumColorProfiles function to enumerate color profiles.
+ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 title: WcsEnumColorProfilesSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsEnumColorProfilesSize function

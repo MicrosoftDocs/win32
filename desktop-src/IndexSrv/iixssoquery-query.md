@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery Query property
 description: Retrieves or sets the query string (also known as the restriction or query restriction).
-ms.assetid: 'e4a2a88f-9f1c-4dce-8dd3-3015dceebe8e'
-keywords: ["Query property Indexing Service", "Query property Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , Query property"]
+ms.assetid: e4a2a88f-9f1c-4dce-8dd3-3015dceebe8e
+keywords:
+- Query property Indexing Service
+- Query property Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , Query property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::Query property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Retrieves or sets the query string (also known as the restriction or query restriction).
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Query(
-  [in]          BSTR val
+  [in]          BSTR val
 );
 
 HRESULT get_Query(
-  [out, retval] BSTR *val
+  [out, retval] BSTR *val
 );
 ```
 
@@ -64,10 +72,10 @@ objQuery.Query = "#filename *.htm and dog near cat"
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -79,9 +87,9 @@ objQuery.Query = "#filename *.htm and dog near cat"
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents global ISATAP Configuration shared across all ISATAP interfaces.'
-ms.assetid: '35f5dd82-58db-47d1-b5ca-6d4b5f88fc03'
-title: 'MSFT\_NetISATAPConfiguration class'
+Description: Represents global ISATAP Configuration shared across all ISATAP interfaces.
+ms.assetid: 35f5dd82-58db-47d1-b5ca-6d4b5f88fc03
+title: MSFT\_NetISATAPConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetISATAPConfiguration class
@@ -43,7 +48,7 @@ The **MSFT\_NetISATAPConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -150,17 +155,17 @@ Describes the ISATAP service state using one of the following values:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

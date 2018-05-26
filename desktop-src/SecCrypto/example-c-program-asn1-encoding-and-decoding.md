@@ -1,12 +1,17 @@
 ---
-Description: 'Shows using CryptEncodeObjectEx and CryptDecodeObjectEx.'
-ms.assetid: '78108cd5-531e-4d0c-96cf-6f6264b7716c'
-title: 'Example C Program: ASN.1 Encoding and Decoding'
+Description: Shows using CryptEncodeObjectEx and CryptDecodeObjectEx.
+ms.assetid: 78108cd5-531e-4d0c-96cf-6f6264b7716c
+title: Example C Program ASN.1 Encoding and Decoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: ASN.1 Encoding and Decoding
 
-The following example shows using [**CryptEncodeObjectEx**](cryptencodeobjectex.md) and [**CryptDecodeObjectEx**](cryptdecodeobjectex.md). This example can easily be modified to use [**CryptEncodeObject**](cryptencodeobject.md) and [**CryptDecodeObject**](cryptdecodeobject.md).
+The following example shows using [**CryptEncodeObjectEx**](/windows/win32/Wincrypt/nf-wincrypt-cryptencodeobjectex?branch=master) and [**CryptDecodeObjectEx**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecodeobjectex?branch=master). This example can easily be modified to use [**CryptEncodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptencodeobject?branch=master) and [**CryptDecodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecodeobject?branch=master).
 
 This example also uses a modified version of the function [**ByteToStr**](bytetostr.md) to print an [*Abstract Syntax Notation One*](security.a_gly#-security-abstract-syntax-notation-one-gly) (ASN.1) encoded series of octets. It also uses [**MyHandleError**](myhandleerror.md). Code for these functions is included with the sample.
 

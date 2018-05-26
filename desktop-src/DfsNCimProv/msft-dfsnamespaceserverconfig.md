@@ -4,13 +4,15 @@ description: Represents the configuration of a DFS namespace (DFS-N) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '53b6d005-4d13-4c2c-8278-a514ff4a886f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 53b6d005-4d13-4c2c-8278-a514ff4a886f
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DFSNamespaceServerConfig class", "MSFT_DFSNamespaceServerConfig class, described"]
+keywords:
+- MSFT_DFSNamespaceServerConfig class
+- MSFT_DFSNamespaceServerConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DFSNamespaceServerConfig class
@@ -42,10 +47,10 @@ class MSFT_DFSNamespaceServerConfig
 {
   boolean EnableInsiteReferrals;
   boolean EnableSiteCostedReferrals;
-  uint32  LdapTimeout;
-  string  NamespaceServer;
+  uint32  LdapTimeout;
+  string  NamespaceServer;
   boolean PreferLogonDC;
-  uint32  SyncInterval;
+  uint32  SyncInterval;
   boolean UseFullyQualifiedDomainNames;
 };
 ```
@@ -70,7 +75,7 @@ The **MSFT\_DFSNamespaceServerConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -181,16 +186,16 @@ Access type: Read-only
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

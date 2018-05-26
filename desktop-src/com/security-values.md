@@ -1,7 +1,12 @@
 ---
 title: Security Values
 description: Several values affect security for COM applications, including authentication level, impersonation level, cloaking, application identity, software restriction policy configuration, and reference tracking.
-ms.assetid: 'c5b6b821-6bc9-43a3-b540-d187efe2533d'
+ms.assetid: c5b6b821-6bc9-43a3-b540-d187efe2533d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Values

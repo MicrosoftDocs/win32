@@ -1,8 +1,19 @@
 ---
 title: Windows Movie Maker APIs
 description: Windows Movie Maker APIs
-ms.assetid: '32885365-5c3a-4c68-920e-7946de9ba208'
-keywords: ["Windows Movie Maker,APIs", "Movie Maker,APIs", "programming reference,Windows Movie Maker APIs", "reference for Windows Movie Maker,APIs", "Windows Movie Maker APIs", "Movie Maker APIs"]
+ms.assetid: 32885365-5c3a-4c68-920e-7946de9ba208
+keywords:
+- Windows Movie Maker,APIs
+- Movie Maker,APIs
+- programming reference,Windows Movie Maker APIs
+- reference for Windows Movie Maker,APIs
+- Windows Movie Maker APIs
+- Movie Maker APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Movie Maker APIs

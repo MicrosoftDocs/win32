@@ -1,14 +1,19 @@
 ---
-Description: 'The DoAction ControlEvent notifies the installer to execute a custom action. This event can be published by a PushButton control, CheckBox control, or a SelectionTree control. This event should be authored into the ControlEvent table.'
-ms.assetid: '9a855330-8241-4912-84da-4fca43f1d240'
+Description: The DoAction ControlEvent notifies the installer to execute a custom action. This event can be published by a PushButton control, CheckBox control, or a SelectionTree control. This event should be authored into the ControlEvent table.
+ms.assetid: 9a855330-8241-4912-84da-4fca43f1d240
 title: DoAction ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DoAction ControlEvent
 
 The DoAction ControlEvent notifies the installer to execute a custom action. This event can be published by a [PushButton](pushbutton-control.md) control, [CheckBox](checkbox-control.md) control, or a [SelectionTree](selectiontree-control.md) control. This event should be authored into the [ControlEvent](controlevent-table.md) table.
 
-Note that custom actions launched by a DoAction ControlEvent can send a message with the [**Message Method**](session-message.md), but cannot send a message with [**MsiProcessMessage**](msiprocessmessage.md). On systems prior to Windows Server 2003, custom actions launched by a DoAction ControlEvent cannot send messages with **MsiProcessMessage** or **Message Method**. For more information, see [Sending Messages to Windows Installer Using MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
+Note that custom actions launched by a DoAction ControlEvent can send a message with the [**Message Method**](session-message.md), but cannot send a message with [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master). On systems prior to Windows Server 2003, custom actions launched by a DoAction ControlEvent cannot send messages with **MsiProcessMessage** or **Message Method**. For more information, see [Sending Messages to Windows Installer Using MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
 
 This ControlEvent requires the user interface to be run at the [*full UI*](f-gly.md#-msi-full-ui-gly) level. This event will not work with a [*reduced UI*](r-gly.md#-msi-reduced-ui-gly) or [*basic UI*](b-gly.md#-msi-basic-ui-gly). For more information, see [User Interface Levels](user-interface-levels.md).
 

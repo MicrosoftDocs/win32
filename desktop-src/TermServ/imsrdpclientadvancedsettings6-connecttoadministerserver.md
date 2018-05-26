@@ -4,11 +4,18 @@ description: Retrieves or specifies whether the ActiveX control should attempt t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b98f9b9b-a3e7-4a3c-a7e3-e388ce53c5c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b98f9b9b-a3e7-4a3c-a7e3-e388ce53c5c9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ConnectToAdministerServer property Remote Desktop Services", "ConnectToAdministerServer property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , ConnectToAdministerServer property", "ConnectToAdministerServer property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , ConnectToAdministerServer property", "ConnectToAdministerServer property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ConnectToAdministerServer property"]
+keywords:
+- ConnectToAdministerServer property Remote Desktop Services
+- ConnectToAdministerServer property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , ConnectToAdministerServer property
+- ConnectToAdministerServer property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , ConnectToAdministerServer property
+- ConnectToAdministerServer property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ConnectToAdministerServer property
 topic_type:
 - apiref
 api_name:
@@ -25,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings6::ConnectToAdministerServer property
@@ -38,11 +48,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ConnectToAdministerServer(
-  [in]  VARIANT_BOOL connectToAdministerServer
+  [in]  VARIANT_BOOL connectToAdministerServer
 );
 
 HRESULT get_ConnectToAdministerServer(
-  [out] VARIANT_BOOL *pConnectToAdministerServer
+  [out] VARIANT_BOOL *pConnectToAdministerServer
 );
 ```
 
@@ -57,15 +67,15 @@ HRESULT get_ConnectToAdministerServer(
 To use **ConnectToAdministerServer**, you must be running Remote Desktop Connection (RDC) client version 6.1 or later.
 
 > [!Note]  
-> RDC version 6.1 (6.0.6001) supports Remote Desktop Protocol 6.1. RDC 6.1 is included with Windows Server 2008 and Windows Vista with Service Pack 1 (SP1).
+> RDC version 6.1 (6.0.6001) supports Remote Desktop Protocol 6.1. RDC 6.1 is included with Windows Server 2008 and Windows Vista with Service Pack 1 (SP1).
 
- 
+ 
 
-**ConnectToAdministerServer** connects you to a session that is used for administrative purposes on the remote server. If the Remote Desktop Session Host (RD Session Host) role service is installed on the remote server, **ConnectToAdministerServer** does the following:
+**ConnectToAdministerServer** connects you to a session that is used for administrative purposes on the remote server. If the Remote Desktop Session Host (RD Session Host) role service is installed on the remote server, **ConnectToAdministerServer** does the following:
 
 -   Disables Remote Desktop Services client access licensing for the session.
 -   Disables time zone redirection for the session.
--   Disables Remote Desktop Connection Broker (RD Connection Broker) redirection for the session.
+-   Disables Remote Desktop Connection Broker (RD Connection Broker) redirection for the session.
 -   Disables Plug and Play device redirection for the session.
 -   Changes the remote session theme to Windows Classic for the session.
 
@@ -75,8 +85,8 @@ To use **ConnectToAdministerServer**, you must be running Remote Desktop Connect
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings6 is defined as 222c4b5d-45d9-4df0-a7c6-60cf9089d285<br/> |
@@ -96,9 +106,9 @@ To use **ConnectToAdministerServer**, you must be running Remote Desktop Connect
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

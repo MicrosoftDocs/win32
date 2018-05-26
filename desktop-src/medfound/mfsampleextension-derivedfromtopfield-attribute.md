@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a deinterlaced video frame was derived from the upper field or the lower field.'
-ms.assetid: '3710ab94-afb3-44d3-a680-b4a716810ec1'
-title: 'MFSampleExtension\_DerivedFromTopField attribute'
+---
+Description: Specifies whether a deinterlaced video frame was derived from the upper field or the lower field.
+ms.assetid: 3710ab94-afb3-44d3-a680-b4a716810ec1
+title: MFSampleExtension\_DerivedFromTopField attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_DerivedFromTopField attribute
@@ -14,13 +19,13 @@ Specifies whether a deinterlaced video frame was derived from the upper field or
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 

@@ -1,7 +1,12 @@
 ---
-Description: 'KTM uses the following constants:'
-ms.assetid: 'e0284716-fc21-403f-8188-70a08595dd2a'
+Description: KTM uses the following constants
+ms.assetid: e0284716-fc21-403f-8188-70a08595dd2a
 title: Kernel Transaction Manager Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kernel Transaction Manager Constants

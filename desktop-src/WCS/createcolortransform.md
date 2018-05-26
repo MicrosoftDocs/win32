@@ -1,8 +1,9 @@
 ---
 title: CreateColorTransform function
 description: The CreateColorTransform function creates a color transform that applications can use to perform color management.
-ms.assetid: '900c97a8-d466-4ecb-86a9-4a92b0e27b44'
-keywords: ["CreateColorTransform function Windows Color System"]
+ms.assetid: 900c97a8-d466-4ecb-86a9-4a92b0e27b44
+keywords:
+- CreateColorTransform function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateColorTransform function
@@ -24,10 +30,10 @@ The **CreateColorTransform** function creates a color transform that application
 
 ```C++
 HTRANSFORM WINAPI CreateColorTransform(
-   LPLOGCOLORSPACE pLogColorSpace,
-   HPROFILE        hDestProfile,
-   HPROFILE        hTargetProfile,
-   DWORD           dwFlags
+   LPLOGCOLORSPACE pLogColorSpace,
+   HPROFILE        hDestProfile,
+   HPROFILE        hTargetProfile,
+   DWORD           dwFlags
 );
 ```
 
@@ -40,7 +46,7 @@ HTRANSFORM WINAPI CreateColorTransform(
 *pLogColorSpace* 
 </dt> <dd>
 
-Pointer to the input [**LOGCOLORSPACE**](logcolorspace.md).
+Pointer to the input [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master).
 
 </dd> <dt>
 
@@ -89,12 +95,12 @@ The values in *dwFlags* are intended as hints only. The color management module 
 
 
 
- 
+ 
 
 > [!Note]  
 > **SEQUENTIAL\_TRANSFORM** was inadvertently omitted from the icm.h header in the Windows Vista SDK. If you wish to use the **SEQUENTIAL\_TRANSFORM** flag, define it in your application as follows:\#define SEQUENTIAL\_TRANSFORM 0x80800000
 
- 
+ 
 
 For details, see [CMM Transform Creation Flags](cmm-transform-creation-flags.md). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE, which only works in a pure ICC-to-ICC transform.
 
@@ -116,8 +122,8 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -135,9 +141,9 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

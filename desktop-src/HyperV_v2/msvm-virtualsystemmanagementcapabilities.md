@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities of the associated Msvm\_VirtualSystemManagementService.'
-ms.assetid: '3a167b06-bddd-4bac-95c0-ecf14e01eec0'
-title: 'Msvm\_VirtualSystemManagementCapabilities class'
+Description: Describes the capabilities of the associated Msvm\_VirtualSystemManagementService.
+ms.assetid: 3a167b06-bddd-4bac-95c0-ecf14e01eec0
+title: Msvm\_VirtualSystemManagementCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemManagementCapabilities class
@@ -16,18 +21,18 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemManagementCapabilities : CIM_VirtualSystemManagementCapabilities
 {
-  string  InstanceID;
-  string  Caption = "Hyper-V Virtual System Management Service Capabilities";
-  string  Description = "Defines Virtual System Management Service Capabilities";
-  string  ElementName = "Hyper-V Virtual System Management Service Capabilities";
+  string  InstanceID;
+  string  Caption = "Hyper-V Virtual System Management Service Capabilities";
+  string  Description = "Defines Virtual System Management Service Capabilities";
+  string  ElementName = "Hyper-V Virtual System Management Service Capabilities";
   boolean ElementNameEditSupported;
-  unit16  MaxElementNameLen;
-  unit16  RequestedStatesSupported[];
-  string  ElementNameMask;
-  string  VirtualSystemTypesSupported[];
-  uint16  SynchronousMethodsSupported[];
-  uint16  AsynchronousMethodsSupported[];
-  uint16  IndicationsSupported[];
+  unit16  MaxElementNameLen;
+  unit16  RequestedStatesSupported[];
+  string  ElementNameMask;
+  string  VirtualSystemTypesSupported[];
+  uint16  SynchronousMethodsSupported[];
+  uint16  AsynchronousMethodsSupported[];
+  uint16  IndicationsSupported[];
 };
 ```
 
@@ -441,7 +446,7 @@ Indicates the possible states that can be requested when using the **RequestStat
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -671,17 +676,17 @@ An array of strings each designating a type of virtual system that the implement
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

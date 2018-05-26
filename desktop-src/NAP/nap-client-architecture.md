@@ -1,7 +1,12 @@
 ---
 title: NAP Client Architecture
 description: A NAP client is a computer running Windows XP with Service Pack 3 (SP3), Windows Vista, or Windows Server 2008 that includes the NAP platform.
-ms.assetid: '163c33c9-b18b-49f9-a2a1-fd90a1dc0826'
+ms.assetid: 163c33c9-b18b-49f9-a2a1-fd90a1dc0826
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Client Architecture
@@ -35,7 +40,7 @@ The NAP client architecture consists of the following:
 
     Provides a set of functions that allow SHAs to register with the NAP Agent, to indicate system health status, respond to queries for system health status from the NAP Agent, and for the NAP Agent to pass system health remediation information to an SHA. The SHA API allows vendors to create and install additional SHAs. The SHA API is provided with the NAP platform. See the following NAP interfaces: [**INapSystemHealthAgentBinding2**](inapsystemhealthagentbinding2.md), [**INapSystemHealthAgentCallback**](inapsystemhealthagentcallback.md), and [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md).
 
-To indicate the health state of a specific SHA, an SHA creates a statement of health ([**SoH**](soh-struct.md)) and passes it to the NAP Agent. An SoH can contain one or multiple elements of system health. For example, the SHA for an antivirus program can create an SoH containing the state of the antivirus software running on the computer, its version, and the last antivirus signature update received. Whenever an SHA updates its status, it creates a new SoH and passes it to the NAP Agent. To indicate the overall health state of a NAP client, the NAP Agent uses a system statement of health (SSoH), which includes version information for the NAP client and the set of SoHs for the installed SHAs.
+To indicate the health state of a specific SHA, an SHA creates a statement of health ([**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master)) and passes it to the NAP Agent. An SoH can contain one or multiple elements of system health. For example, the SHA for an antivirus program can create an SoH containing the state of the antivirus software running on the computer, its version, and the last antivirus signature update received. Whenever an SHA updates its status, it creates a new SoH and passes it to the NAP Agent. To indicate the overall health state of a NAP client, the NAP Agent uses a system statement of health (SSoH), which includes version information for the NAP client and the set of SoHs for the installed SHAs.
 
 The following sections describe the components of the NAP client architecture in further detail.
 

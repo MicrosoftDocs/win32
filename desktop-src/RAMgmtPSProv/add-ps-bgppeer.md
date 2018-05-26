@@ -2,13 +2,16 @@
 title: Add method of the PS\_BgpPeer class
 description: Adds a BGP peer to a BGP router.
 audience: developer
-ms.assetid: '2acd3cba-7a37-45e4-b5cd-6d40bd861af6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2acd3cba-7a37-45e4-b5cd-6d40bd861af6
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_BgpPeer class", "PS_BgpPeer class, Add method"]
+keywords:
+- Add method
+- Add method, PS_BgpPeer class
+- PS_BgpPeer class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_BgpPeer class
@@ -28,21 +34,21 @@ Adds a BGP peer to a BGP router.
 
 ```mof
 uint32 Add(
-  [in]  string        Name,
-  [in]  string        LocalIPAddress,
-  [in]  string        PeerIPAddress,
-  [in]  uint32        LocalASN,
-  [in]  uint32        PeerASN,
-  [in]  uint32        OperationMode,
-  [in]  uint32        PeeringMode,
-  [in]  uint16        HoldTimeSec,
-  [in]  uint16        IdleHoldTimeSec,
-  [in]  uint16        Weight,
-  [in]  boolean       RouteReflectorClient,
-  [in]  uint32        MaxAllowedPrefix,
-  [in]  boolean       PassThru,
-  [in]  string        RoutingDomain,
-  [out] BgpPeerConfig cmdletOutput
+  [in]  string        Name,
+  [in]  string        LocalIPAddress,
+  [in]  string        PeerIPAddress,
+  [in]  uint32        LocalASN,
+  [in]  uint32        PeerASN,
+  [in]  uint32        OperationMode,
+  [in]  uint32        PeeringMode,
+  [in]  uint16        HoldTimeSec,
+  [in]  uint16        IdleHoldTimeSec,
+  [in]  uint16        Weight,
+  [in]  boolean       RouteReflectorClient,
+  [in]  uint32        MaxAllowedPrefix,
+  [in]  boolean       PassThru,
+  [in]  string        RoutingDomain,
+  [out] BgpPeerConfig cmdletOutput
 );
 ```
 
@@ -127,7 +133,7 @@ The duration, in seconds, before a BGP session expires after a BGP message is re
 
 The duration, in seconds, before a BGP session expires due to inactivity.
 
-**Windows Server 2012:** This parameter is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -143,7 +149,7 @@ The administrative preference assigned to the routes of the new peer.
 
 Whether the peer is a client peer or non-client peer.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -182,7 +188,7 @@ The [**BgpPeerConfig**](bgppeerconfig.md) object that receives the additional BG
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -196,9 +202,9 @@ The [**BgpPeerConfig**](bgppeerconfig.md) object that receives the additional BG
 [**PS\_BgpPeer**](ps-bgppeer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

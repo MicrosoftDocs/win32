@@ -1,8 +1,17 @@
 ---
 title: Overlay, Underlay, and Main Planes
 description: You can use hardware layer planes (overlay and underlay planes) in your applications.
-ms.assetid: 'fd9401b3-f2a8-4384-92e8-61b346216542'
-keywords: ["OpenGL on Windows,hardware layer planes", "hardware layer planes OpenGL", "overlay planes OpenGL", "underlay planes OpenGL"]
+ms.assetid: fd9401b3-f2a8-4384-92e8-61b346216542
+keywords:
+- OpenGL on Windows,hardware layer planes
+- hardware layer planes OpenGL
+- overlay planes OpenGL
+- underlay planes OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overlay, Underlay, and Main Planes
@@ -19,13 +28,13 @@ You can copy the state of a rendering context to another rendering context in a 
 
 The following functions are used with layer planes:
 
--   [**wglCopyContext**](wglcopycontext.md)
--   [**wglCreateLayerContext**](wglcreatelayercontext.md)
--   [**wglDescribeLayerPlane**](wgldescribelayerplane.md)
--   [**wglGetLayerPaletteEntries**](wglgetlayerpaletteentries.md)
--   [**wglRealizeLayerPalette**](wglrealizelayerpalette.md)
--   [**wglSetLayerPaletteEntries**](wglsetlayerpaletteentries.md)
--   [**wglSwapLayerBuffers**](wglswaplayerbuffers.md)
+-   [**wglCopyContext**](/windows/win32/wingdi/nf-wingdi-wglcopycontext?branch=master)
+-   [**wglCreateLayerContext**](/windows/win32/wingdi/nf-wingdi-wglcreatelayercontext?branch=master)
+-   [**wglDescribeLayerPlane**](/windows/win32/wingdi/nf-wingdi-wgldescribelayerplane?branch=master)
+-   [**wglGetLayerPaletteEntries**](/windows/win32/wingdi/nf-wingdi-wglgetlayerpaletteentries?branch=master)
+-   [**wglRealizeLayerPalette**](/windows/win32/wingdi/nf-wingdi-wglrealizelayerpalette?branch=master)
+-   [**wglSetLayerPaletteEntries**](/windows/win32/wingdi/nf-wingdi-wglsetlayerpaletteentries?branch=master)
+-   [**wglSwapLayerBuffers**](/windows/win32/wingdi/nf-wingdi-wglswaplayerbuffers?branch=master)
 
  
 

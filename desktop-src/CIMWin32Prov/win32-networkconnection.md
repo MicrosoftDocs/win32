@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents an active network connection in a Windows-based environment.'
+---
+Description: Represents an active network connection in a Windows-based environment.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e16e5f13-ea28-4d75-9978-4ff2ef5e5506'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NetworkConnection class'
+title: Win32\_NetworkConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NetworkConnection class

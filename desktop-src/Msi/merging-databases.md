@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the installer to add the information in one database into another database by performing a merge.'
-ms.assetid: 'c53ef3d2-b3dc-4cd1-bd98-a856a223917f'
+Description: You can use the installer to add the information in one database into another database by performing a merge.
+ms.assetid: c53ef3d2-b3dc-4cd1-bd98-a856a223917f
 title: Merging Databases
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merging Databases
@@ -11,7 +16,7 @@ You can use the installer to add the information in one database into another da
 **To merge several component databases into a single complete database**
 
 1.  Develop the partial component databases separately.
-2.  Merge each component database into the main product database by calling the [**MsiDatabaseMerge**](msidatabasemerge.md) function.
+2.  Merge each component database into the main product database by calling the [**MsiDatabaseMerge**](/windows/win32/Msiquery/nf-msiquery-msidatabasemergea?branch=master) function.
 
  
 

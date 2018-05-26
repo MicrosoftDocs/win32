@@ -1,6 +1,11 @@
 ---
-Description: 'The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.'
+Description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
 title: CRUMB Argument
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRUMB Argument
@@ -107,7 +112,7 @@ crumb=location:shell%3a<LocationName>&amp;
 
 
 
-The following table lists the CSIDL values. Refer to [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) for more information.
+The following table lists the CSIDL values. Refer to [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) for more information.
 
 
 

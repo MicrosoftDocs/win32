@@ -4,11 +4,14 @@ description: SCSI Lun of the Physical Disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47ac3714-fe5c-4b3b-9271-57980981785d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 47ac3714-fe5c-4b3b-9271-57980981785d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Lun property Failover Cluster", "Lun property Failover Cluster , ClusScsiAddress object", "ClusScsiAddress object Failover Cluster , Lun property"]
+keywords:
+- Lun property Failover Cluster
+- Lun property Failover Cluster , ClusScsiAddress object
+- ClusScsiAddress object Failover Cluster , Lun property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusScsiAddress.Lun property
@@ -47,7 +53,7 @@ A **Variant** that contains the Lun of the disk.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -75,9 +81,9 @@ A **Variant** that contains the Lun of the disk.
 [**ClusScsiAddress.TargetId**](clusscsiaddress-targetid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

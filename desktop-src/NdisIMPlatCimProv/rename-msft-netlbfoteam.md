@@ -1,7 +1,12 @@
 ---
-Description: 'Renames a team.'
-ms.assetid: 'f678acf2-eb3a-40c1-9bf7-1fe3c63947bf'
-title: 'Rename method of the MSFT\_NetLbfoTeam class'
+Description: Renames a team.
+ms.assetid: f678acf2-eb3a-40c1-9bf7-1fe3c63947bf
+title: Rename method of the MSFT\_NetLbfoTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_NetLbfoTeam class
@@ -13,9 +18,9 @@ Renames a team.
 
 ```mof
 uint32 Rename(
-  [in]  string           Name,
-  [in]  string           NewName,
-  [out] MSFT_NetLbfoTeam CmdletOutput
+  [in]  string           Name,
+  [in]  string           NewName,
+  [out] MSFT_NetLbfoTeam CmdletOutput
 );
 ```
 
@@ -52,8 +57,8 @@ Receives a [**MSFT\_NetLbfoTeam**](msft-netlbfoteam.md) object that represents t
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>Corecrt\_io.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>MsNetImPlatform.mof</dt> </dl> |
@@ -68,9 +73,9 @@ Receives a [**MSFT\_NetLbfoTeam**](msft-netlbfoteam.md) object that represents t
 [**MSFT\_NetLbfoTeam**](msft-netlbfoteam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

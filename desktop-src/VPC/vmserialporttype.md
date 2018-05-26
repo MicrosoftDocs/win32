@@ -1,8 +1,9 @@
 ---
 title: VMSerialPortType enumeration
 description: Specifies the type of serial port.
-ms.assetid: '1385292b-ee3c-41f0-805a-df126f33cabb'
-keywords: ["VMSerialPortType enumeration Virtual PC"]
+ms.assetid: 1385292b-ee3c-41f0-805a-df126f33cabb
+keywords:
+- VMSerialPortType enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMSerialPortType enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the type of serial port.
 
@@ -24,10 +30,10 @@ Specifies the type of serial port.
 
 ```C++
 typedef enum  { 
-  vmSerialPort_HostPort   = 0,
-  vmSerialPort_TextFile   = 1,
-  vmSerialPort_NamedPipe  = 2,
-  vmSerialPort_Null       = 3
+  vmSerialPort_HostPort   = 0,
+  vmSerialPort_TextFile   = 1,
+  vmSerialPort_NamedPipe  = 2,
+  vmSerialPort_Null       = 3
 } VMSerialPortType;
 ```
 
@@ -71,9 +77,9 @@ A **NULL** serial port (discards all bits sent to it).
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -86,9 +92,9 @@ A **NULL** serial port (discards all bits sent to it).
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

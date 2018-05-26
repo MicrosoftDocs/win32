@@ -1,8 +1,11 @@
 ---
 title: System.Debug.outputString method
 description: Writes a string to the console.
-ms.assetid: 'b74fa757-3368-4395-bb39-6bb45d962e98'
-keywords: ["outputString method Windows Sidebar", "outputString method Windows Sidebar , System.Debug object", "System.Debug object Windows Sidebar , outputString method"]
+ms.assetid: b74fa757-3368-4395-bb39-6bb45d962e98
+keywords:
+- outputString method Windows Sidebar
+- outputString method Windows Sidebar , System.Debug object
+- System.Debug object Windows Sidebar , outputString method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Debug.outputString method
@@ -93,10 +101,10 @@ function SaveFile()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -109,9 +117,9 @@ function SaveFile()
 [**System.Debug**](system-debug.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b6e1b229-e86f-4417-9db2-b3fb3eab419f'
-title: 'System.RecordedTV.IsRepeatBroadcast'
+Description: .
+ms.assetid: b6e1b229-e86f-4417-9db2-b3fb3eab419f
+title: System.RecordedTV.IsRepeatBroadcast
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.IsRepeatBroadcast

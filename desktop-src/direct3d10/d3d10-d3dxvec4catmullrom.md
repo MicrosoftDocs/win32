@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a Catmull-Rom interpolation, using the specified 4D vectors.'
-ms.assetid: 'e3a10989-e25e-46fa-b72e-bade936cacf1'
+---
+Description: Performs a Catmull-Rom interpolation, using the specified 4D vectors.
+ms.assetid: e3a10989-e25e-46fa-b72e-bade936cacf1
 title: D3DXVec4CatmullRom function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4CatmullRom function

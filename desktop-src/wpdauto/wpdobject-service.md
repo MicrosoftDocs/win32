@@ -1,14 +1,22 @@
 ---
 title: WPDObject.Service property
 description: The Service property gets the Service object that contains this WPDObject.
-ms.assetid: '0efacca7-8471-47de-95c5-85fc8c7b5bd2'
-keywords: ["Service property WPD Automation", "Service property WPD Automation , WPDObject object", "WPDObject object WPD Automation , Service property"]
+ms.assetid: 0efacca7-8471-47de-95c5-85fc8c7b5bd2
+keywords:
+- Service property WPD Automation
+- Service property WPD Automation , WPDObject object
+- WPDObject object WPD Automation , Service property
 topic_type:
 - apiref
 api_name:
 - WPDObject.Service
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.Service property
@@ -40,8 +48,8 @@ This method is useful for determining which service a given object belongs to.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -55,9 +63,9 @@ This method is useful for determining which service a given object belongs to.
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: SB\_SETTIPTEXT message
 description: Sets the tooltip text for a part in a status bar. The status bar must have been created with the SBT\_TOOLTIPS style to enable tooltips.
-ms.assetid: '8fc3cc00-9742-4861-b2c2-b8aa30f75aaa'
-keywords: ["SB_SETTIPTEXT message Windows Controls"]
+ms.assetid: 8fc3cc00-9742-4861-b2c2-b8aa30f75aaa
+keywords:
+- SB_SETTIPTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SETTIPTEXT message
@@ -54,16 +60,16 @@ This tooltip text is displayed in two situations:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **SB\_SETTIPTEXTW** (Unicode) and **SB\_SETTIPTEXTA** (ANSI)<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

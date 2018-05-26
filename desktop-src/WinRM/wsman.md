@@ -4,11 +4,13 @@ description: Provides methods and properties used to create a session, represent
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45895a4e-b7de-4469-ae78-6d1d3f9d6145'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 45895a4e-b7de-4469-ae78-6d1d3f9d6145
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["WSMan object Windows Remote Management", "WSMan object Windows Remote Management , described"]
+keywords:
+- WSMan object Windows Remote Management
+- WSMan object Windows Remote Management , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # WSMan object
@@ -146,7 +151,7 @@ The **WSMan** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -161,11 +166,11 @@ The **WSMan** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-The **WSMan** object corresponds to the [**IWSMan**](iwsman.md) and [**IWSManEx**](iwsmanex.md) interfaces. **WSMan** is the only object that can be created directly using [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx).
+The **WSMan** object corresponds to the [**IWSMan**](/windows/win32/WSManDisp/nn-wsmandisp-iwsman?branch=master) and [**IWSManEx**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanex?branch=master) interfaces. **WSMan** is the only object that can be created directly using [CreateObject](https://msdn.microsoft.com/library/xzysf6hc.aspx).
 
 ## Examples
 
@@ -188,8 +193,8 @@ strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_Op
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -219,9 +224,9 @@ strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_Op
 [Obtaining Data from a Remote Computer](obtaining-data-from-a-remote-computer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

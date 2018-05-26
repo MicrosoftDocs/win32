@@ -1,7 +1,12 @@
 ---
-Description: 'The OnStopStreaming method is called when the filter stops streaming.'
-ms.assetid: 'd882fec8-09e1-4d36-a09c-44568e743da3'
-title: 'CBaseRenderer.OnStopStreaming method'
+Description: The OnStopStreaming method is called when the filter stops streaming.
+ms.assetid: d882fec8-09e1-4d36-a09c-44568e743da3
+title: CBaseRenderer.OnStopStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnStopStreaming method
@@ -47,9 +52,9 @@ The [**CBaseRenderer::StopStreaming**](cbaserenderer-stopstreaming.md) method ca
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

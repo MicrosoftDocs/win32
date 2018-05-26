@@ -1,8 +1,17 @@
 ---
 title: RGBA Mode and Windows Palette Management
 description: While most GDI applications tend to use color-indexing with logical palettes, the RGBA mode is usually preferable for OpenGL applications. It works better than color mapping for several effects, such as shading, lighting, fog, and texture mapping.
-ms.assetid: '68c35173-e792-4770-9404-5503344f475b'
-keywords: ["OpenGL on Windows,RGBA mode", "OpenGL on Windows,palette management", "RGBA mode OpenGL", "palette management OpenGL"]
+ms.assetid: 68c35173-e792-4770-9404-5503344f475b
+keywords:
+- OpenGL on Windows,RGBA mode
+- OpenGL on Windows,palette management
+- RGBA mode OpenGL
+- palette management OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RGBA Mode and Windows Palette Management

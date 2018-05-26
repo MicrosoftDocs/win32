@@ -1,8 +1,11 @@
 ---
 title: GetAttributes method of the MSFT\_Volume class
 description: Retrieves the volume attributes.
-ms.assetid: '82CA68FB-0394-4816-A8EA-510D8D926B1E'
-keywords: ["GetAttributes method Windows Storage Management API", "GetAttributes method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , GetAttributes method"]
+ms.assetid: 82CA68FB-0394-4816-A8EA-510D8D926B1E
+keywords:
+- GetAttributes method Windows Storage Management API
+- GetAttributes method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , GetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetAttributes method of the MSFT\_Volume class
@@ -24,7 +32,7 @@ Only one attribute can be retrieved.
 
 ```mof
 UInt32 GetAttributes(
-  [out] Boolean VolumeScrubEnabled
+  [out] Boolean VolumeScrubEnabled
 );
 ```
 
@@ -71,8 +79,8 @@ Indicates whether the automatic data integrity scanner should scrub files.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -85,9 +93,9 @@ Indicates whether the automatic data integrity scanner should scrub files.
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

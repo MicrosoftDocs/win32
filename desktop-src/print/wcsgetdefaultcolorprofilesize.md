@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsGetDefaultColorProfileSize function returns the size, in bytes, of the default color profile name for a device, including the NULL terminator.'
-ms.assetid: 'd04306e2-3479-4ba4-ac4d-bf3715487fcf'
+---
+Description: The WcsGetDefaultColorProfileSize function returns the size, in bytes, of the default color profile name for a device, including the NULL terminator.
+ms.assetid: d04306e2-3479-4ba4-ac4d-bf3715487fcf
 title: WcsGetDefaultColorProfileSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetDefaultColorProfileSize function

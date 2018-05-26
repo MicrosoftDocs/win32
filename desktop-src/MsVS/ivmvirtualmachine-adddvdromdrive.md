@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine AddDVDROMDrive method
 description: The AddDVDROMDrive method adds a new CD or DVD drive to the virtual machine.
-ms.assetid: '3f4fa53a-c80b-4cb0-b170-aa3b3b84ea0c'
-keywords: ["AddDVDROMDrive method Virtual Server", "AddDVDROMDrive method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AddDVDROMDrive method"]
+ms.assetid: 3f4fa53a-c80b-4cb0-b170-aa3b3b84ea0c
+keywords:
+- AddDVDROMDrive method Virtual Server
+- AddDVDROMDrive method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AddDVDROMDrive method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AddDVDROMDrive method
@@ -22,10 +30,10 @@ The **AddDVDROMDrive** method adds a new CD or DVD drive to the virtual machine.
 
 ```C++
 HRESULT AddDVDROMDrive(
-  [in]  VMDriveBusType busType,
-  [in]  long           busNumber,
-  [in]  long           deviceNumber,
-  [out] IVMDVDDrive    **dvdDrive
+  [in]  VMDriveBusType busType,
+  [in]  long           busNumber,
+  [in]  long           deviceNumber,
+  [out] IVMDVDDrive    **dvdDrive
 );
 ```
 
@@ -82,7 +90,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -107,8 +115,8 @@ Set objDVD = objVM.AddDVDROMDrive(0,1,0)
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -123,9 +131,9 @@ Set objDVD = objVM.AddDVDROMDrive(0,1,0)
 [**VMDriveBusType**](vmdrivebustype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

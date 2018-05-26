@@ -1,8 +1,9 @@
 ---
 title: EM\_GETUNDONAME message
-description: Microsoft Rich Edit 2.0 and later Retrieves the type of the next undo action, if any.Microsoft Rich Edit 1.0 This message is not supported.
-ms.assetid: '43351909-f8bc-425a-9d9b-655e3b47eb75'
-keywords: ["EM_GETUNDONAME message Windows Controls"]
+description: Microsoft Rich Edit 2.0 and later Retrieves the type of the next undo action, if any.Microsoft Rich Edit 1.0 This message is not supported.
+ms.assetid: 43351909-f8bc-425a-9d9b-655e3b47eb75
+keywords:
+- EM_GETUNDONAME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETUNDONAME message
 
-Microsoft Rich Edit 2.0 and later: Retrieves the type of the next undo action, if any.
+Microsoft Rich Edit 2.0 and later: Retrieves the type of the next undo action, if any.
 
-Microsoft Rich Edit 1.0: This message is not supported.
+Microsoft Rich Edit 1.0: This message is not supported.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ Not used; must be zero.
 
 ## Return value
 
-If there is an undo action, the value returned is an [**UNDONAMEID**](undonameid.md) enumeration value that indicates the type of the next action in the control's undo queue.
+If there is an undo action, the value returned is an [**UNDONAMEID**](/windows/win32/Richedit/ne-richedit-_undonameid?branch=master) enumeration value that indicates the type of the next action in the control's undo queue.
 
 If there are no actions that can be undone or the type of the next undo action is unknown, the return value is zero.
 
@@ -53,8 +59,8 @@ The types of actions that can be undone or redone include typing, delete, drag, 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -75,12 +81,12 @@ The types of actions that can be undone or redone include typing, delete, drag, 
 [**EM\_UNDO**](em-undo.md)
 </dt> <dt>
 
-[**UNDONAMEID**](undonameid.md)
+[**UNDONAMEID**](/windows/win32/Richedit/ne-richedit-_undonameid?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

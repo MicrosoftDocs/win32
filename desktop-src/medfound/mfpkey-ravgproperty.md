@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the average bit rate, in bits per second, used for 2-pass, variable-bit-rate (VBR) encoding.'
-ms.assetid: '88a1888f-7bfb-4e24-9d48-92cfde02a14f'
-title: 'MFPKEY\_RAVG Property'
+---
+Description: Specifies the average bit rate, in bits per second, used for 2-pass, variable-bit-rate (VBR) encoding.
+ms.assetid: 88a1888f-7bfb-4e24-9d48-92cfde02a14f
+title: MFPKEY\_RAVG Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RAVG Property

@@ -1,8 +1,15 @@
 ---
 title: Listening for Ribbon Events
-description: The Windows Ribbon framework uses the Event Tracing for Windows (ETW) infrastructure to enable developers to learn how users are interacting with their application's ribbon.
-ms.assetid: 'F29A8E41-C902-410E-BD28-653E078320E9'
-keywords: ["Windows Ribbon,events", "Ribbon,events"]
+description: The Windows Ribbon framework uses the Event Tracing for Windows (ETW) infrastructure to enable developers to learn how users are interacting with their applications ribbon.
+ms.assetid: F29A8E41-C902-410E-BD28-653E078320E9
+keywords:
+- Windows Ribbon,events
+- Ribbon,events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listening for Ribbon Events
@@ -117,7 +124,7 @@ The application is responsible for unpacking this integer to determine which mod
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -135,9 +142,9 @@ The application is responsible for unpacking this integer to determine which mod
 [Ribbon Design Process](http://go.microsoft.com/fwlink/p/?linkid=129234)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

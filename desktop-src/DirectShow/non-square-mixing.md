@@ -1,7 +1,12 @@
 ---
-Description: 'Non-Square Mixing'
-ms.assetid: '8d27a921-5638-43ac-807d-e3bd7b9b2de8'
-title: 'Non-Square Mixing'
+Description: Non-Square Mixing
+ms.assetid: 8d27a921-5638-43ac-807d-e3bd7b9b2de8
+title: Non-Square Mixing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Non-Square Mixing
@@ -16,7 +21,7 @@ Previous versions of the VMR-9 always composited the input streams using a squar
 
 Starting in Windows XP Service Pack 2, the VMR-9 supports two different ways to avoid the problem of double scaling:
 
--   Implement a custom allocator-presenter and support the [**IVMRSurfaceAllocatorEx9**](ivmrsurfaceallocatorex9.md) interface.
+-   Implement a custom allocator-presenter and support the [**IVMRSurfaceAllocatorEx9**](/windows/win32/Vmr9/nn-vmr9-ivmrsurfaceallocatorex9?branch=master) interface.
 -   Use non-square mixing mode.
 
 This section describes non-square mixing mode. Applications can combine both techniques.
@@ -55,7 +60,7 @@ Non-square mixing mode is recommended if either of the following conditions are 
 
 If your application mixes multiple video streams that may have varying image sizes or pixel aspect ratios, the default square mixing mode is recommended.
 
-To configure non-square mixing mode, the filter graph must be stopped and all input pins disconnected on the VMR-9. Then call [**IVMRMixerControl9::SetMixingPrefs**](ivmrmixercontrol9-setmixingprefs.md) with the MixerPref9\_NonSquareMixing flag:
+To configure non-square mixing mode, the filter graph must be stopped and all input pins disconnected on the VMR-9. Then call [**IVMRMixerControl9::SetMixingPrefs**](/windows/win32/Vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs?branch=master) with the MixerPref9\_NonSquareMixing flag:
 
 
 ```C++
@@ -76,7 +81,7 @@ If your application uses a custom allocator-presenter with non-square mixing mod
 
 **Static Bitmaps**
 
-If you use the [**IVMRMixerBitmap9**](ivmrmixerbitmap9.md) interface to blend a static bitmap onto the video, you should consider the bitmap to be a second video stream for purposes of the VMR mixing mode.
+If you use the [**IVMRMixerBitmap9**](/windows/win32/Vmr9/nn-vmr9-ivmrmixerbitmap9?branch=master) interface to blend a static bitmap onto the video, you should consider the bitmap to be a second video stream for purposes of the VMR mixing mode.
 
 The VMR treats the bitmap as having the same PAR as the target. It does not scale the bitmap to adjust for the target's pixel aspect ratio. In the VMR's default configuration, the target has a 1:1 PAR, which matches most bitmaps. In non-square mixing mode, the target might have non-square pixels. To ensure that the bitmap is displayed correctly, the application should supply an image whose PAR matches the target PAR.
 

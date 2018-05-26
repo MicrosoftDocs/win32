@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a collection of objects that implement the IContextLink interface.'
-ms.assetid: '34d1bbbb-85c0-4209-97ca-c22f22a1b625'
+Description: Contains a collection of objects that implement the IContextLink interface.
+ms.assetid: 34d1bbbb-85c0-4209-97ca-c22f22a1b625
 title: IContextLinks interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextLinks interface
@@ -27,7 +32,7 @@ The **IContextLinks** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This is usually accessed through the [**IContextNode::GetContextLinks**](icontex
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -65,9 +70,9 @@ This is usually accessed through the [**IContextNode::GetContextLinks**](icontex
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

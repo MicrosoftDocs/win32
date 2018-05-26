@@ -1,8 +1,11 @@
 ---
 title: IWMPMetadataText text property
 description: The text property gets the metadata text.
-ms.assetid: '9e91178a-219a-4b0c-a410-9b4feb84e9e3'
-keywords: ["text property Windows Media Player", "text property Windows Media Player , IWMPMetadataText interface", "IWMPMetadataText interface Windows Media Player , text property"]
+ms.assetid: 9e91178a-219a-4b0c-a410-9b4feb84e9e3
+keywords:
+- text property Windows Media Player
+- text property Windows Media Player , IWMPMetadataText interface
+- IWMPMetadataText interface Windows Media Player , text property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMetadataText::text property
@@ -71,9 +79,9 @@ Before using this property, you must have read access to the library. For more i
 [**IWMPMetadataText Interface (VB and C#)**](iwmpmetadatatext--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

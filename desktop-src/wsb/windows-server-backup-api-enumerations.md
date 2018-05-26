@@ -4,10 +4,13 @@ description: The following enumerations are used with the Cloud Backup Provider 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '27CDCBA3-9BBB-4A94-8F4E-57842C31F6CE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: 27CDCBA3-9BBB-4A94-8F4E-57842C31F6CE
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cloud Backup Provider API Enumerations
@@ -18,7 +21,7 @@ The following enumerations are used with the Cloud Backup Provider API.
 
 <dl> <dt>
 
-[**WSB\_OB\_STATUS\_ENTRY\_PAIR\_TYPE**](wsb-ob-status-entry-pair-type.md)
+[**WSB\_OB\_STATUS\_ENTRY\_PAIR\_TYPE**](/windows/previous-versions/WsbOnline/ne-wsbonline-_wsb_ob_status_entry_pair_type?branch=master)
 </dt> <dd>
 
 Indicates the type of the parameter value.

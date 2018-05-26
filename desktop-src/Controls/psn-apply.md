@@ -1,8 +1,9 @@
 ---
 title: PSN\_APPLY notification code
 description: Sent to every page in the property sheet to indicate that the user has clicked the OK, Close, or Apply button and wants all changes to take effect. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '18da6bdb-9409-49b6-8116-580fedd99a02'
-keywords: ["PSN_APPLY notification code Windows Controls"]
+ms.assetid: 18da6bdb-9409-49b6-8116-580fedd99a02
+keywords:
+- PSN_APPLY notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_APPLY notification code
@@ -33,7 +39,7 @@ PSN_APPLY
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](pshnotify.md) structure that contains information about the notification code, including the ID of the page.
+Pointer to a [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure that contains information about the notification code, including the ID of the page.
 
 </dd> </dl>
 
@@ -53,11 +59,11 @@ When the user clicks the OK, Apply, or Close button, the property sheet sends a 
 > [!Note]  
 > The property sheet is in the process of manipulating the list of pages when the PSN\_APPLY notification code is sent. Do not attempt to add, remove, or insert pages while handling this notification. Doing so will have unpredictable results.
 
- 
+ 
 
-The **lParam** member of the [**PSHNOTIFY**](pshnotify.md) structure pointed to by *lParam* is set to **TRUE** if the user clicks the OK button. It is also set to **TRUE** if the [**PSM\_CANCELTOCLOSE**](psm-canceltoclose.md) message has been sent and the user clicks the Close button. It is set to **FALSE** if the user clicks the Apply button.
+The **lParam** member of the [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure pointed to by *lParam* is set to **TRUE** if the user clicks the OK button. It is also set to **TRUE** if the [**PSM\_CANCELTOCLOSE**](psm-canceltoclose.md) message has been sent and the user clicks the Close button. It is set to **FALSE** if the user clicks the Apply button.
 
-The [**PSHNOTIFY**](pshnotify.md) structure contains an [**NMHDR**](nmhdr.md) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
+The [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
 Do not call the [**EndDialog**](https://msdn.microsoft.com/library/windows/desktop/ms645472) function when processing this notification code.
 
@@ -66,9 +72,9 @@ A modal property sheet is destroyed if the user clicks the OK button and every p
 To receive this notification code, a page must set the DWL\_MSGRESULT value to **FALSE** in response to the [PSN\_KILLACTIVE](psn-killactive.md) notification code.
 
 > [!Note]  
-> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -76,15 +82,15 @@ To receive this notification code, a page must set the DWL\_MSGRESULT value to *
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

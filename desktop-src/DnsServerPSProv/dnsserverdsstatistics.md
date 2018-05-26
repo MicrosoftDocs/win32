@@ -2,13 +2,15 @@
 title: DnsServerDsStatistics class
 description: Represents DNS server statistics related to directory server processing.
 audience: developer
-ms.assetid: '9e265dd0-7495-433d-a0fe-50001c77ddb8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9e265dd0-7495-433d-a0fe-50001c77ddb8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerDsStatistics class", "DnsServerDsStatistics class, described"]
+keywords:
+- DnsServerDsStatistics class
+- DnsServerDsStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -65,6 +67,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerDsStatistics class
@@ -79,53 +84,53 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerDsStatistics
 {
-  uint32                 DsTotalNodesRead;
-  uint32                 DsTotalRecordsRead;
-  uint32                 DsNodesLoaded;
-  uint32                 DsRecordsLoaded;
-  uint32                 DsTombstonesRead;
-  uint32                 DsUpdateSearches;
-  uint32                 DsUpdateNodesRead;
-  uint32                 DsUpdateRecordsRead;
-  uint32                 UpdateLists;
-  uint32                 UpdateNodes;
-  uint32                 UpdateSuppressed;
-  uint32                 UpdateWrites;
-  uint32                 UpdateTombstones;
-  uint32                 UpdateRecordChange;
-  uint32                 UpdateAginRefresh;
-  uint32                 UpdateAgingOn;
-  uint32                 UpdateAgingOff;
-  uint32                 UpdatePacket;
-  uint32                 UpdatePacketPrecon;
-  uint32                 UpdateAdmin;
-  uint32                 UpdateAutoConfig;
-  uint32                 UpdateScavenge;
-  uint32                 DsNodesAdded;
-  uint32                 DsNodesModified;
-  uint32                 DsNodesTombstoned;
-  uint32                 DsNodesDeleted;
-  uint32                 DsRecordsAdded;
-  uint32                 DsRecordsReplaced;
-  uint32                 DsWriteSuppressed;
-  uint32                 DsSerialWrites;
-  uint32                 LdapTimedWrites;
-  uint32                 LdapWriteTimeTotal;
-  uint32                 LdapWriteAverage;
-  uint32                 LdapWriteMax;
-  uint32                 LdapWriteBucket0;
-  uint32                 LdapWriteBucket1;
-  uint32                 LdapWriteBucket2;
-  uint32                 LdapWriteBucket3;
-  uint32                 LdapWriteBucket4;
-  uint32                 LdapWriteBucket5;
-  uint32                 LdapSearchTime;
-  uint32                 FailedDeleteDsEntries;
-  uint32                 FailedReadRecords;
-  uint32                 FailedLdapModify;
-  uint32                 FailedLdapAdd;
-  uint32                 PollingPassesWithDsErrors;
-  uint32                 LdapReconnects;
+  uint32                 DsTotalNodesRead;
+  uint32                 DsTotalRecordsRead;
+  uint32                 DsNodesLoaded;
+  uint32                 DsRecordsLoaded;
+  uint32                 DsTombstonesRead;
+  uint32                 DsUpdateSearches;
+  uint32                 DsUpdateNodesRead;
+  uint32                 DsUpdateRecordsRead;
+  uint32                 UpdateLists;
+  uint32                 UpdateNodes;
+  uint32                 UpdateSuppressed;
+  uint32                 UpdateWrites;
+  uint32                 UpdateTombstones;
+  uint32                 UpdateRecordChange;
+  uint32                 UpdateAginRefresh;
+  uint32                 UpdateAgingOn;
+  uint32                 UpdateAgingOff;
+  uint32                 UpdatePacket;
+  uint32                 UpdatePacketPrecon;
+  uint32                 UpdateAdmin;
+  uint32                 UpdateAutoConfig;
+  uint32                 UpdateScavenge;
+  uint32                 DsNodesAdded;
+  uint32                 DsNodesModified;
+  uint32                 DsNodesTombstoned;
+  uint32                 DsNodesDeleted;
+  uint32                 DsRecordsAdded;
+  uint32                 DsRecordsReplaced;
+  uint32                 DsWriteSuppressed;
+  uint32                 DsSerialWrites;
+  uint32                 LdapTimedWrites;
+  uint32                 LdapWriteTimeTotal;
+  uint32                 LdapWriteAverage;
+  uint32                 LdapWriteMax;
+  uint32                 LdapWriteBucket0;
+  uint32                 LdapWriteBucket1;
+  uint32                 LdapWriteBucket2;
+  uint32                 LdapWriteBucket3;
+  uint32                 LdapWriteBucket4;
+  uint32                 LdapWriteBucket5;
+  uint32                 LdapSearchTime;
+  uint32                 FailedDeleteDsEntries;
+  uint32                 FailedReadRecords;
+  uint32                 FailedLdapModify;
+  uint32                 FailedLdapAdd;
+  uint32                 PollingPassesWithDsErrors;
+  uint32                 LdapReconnects;
   DnsServerRecordRequest DsWriteType[];
 };
 ```
@@ -776,7 +781,7 @@ The number of in-memory nodes that required writing to the directory server.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -790,9 +795,9 @@ The number of in-memory nodes that required writing to the directory server.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

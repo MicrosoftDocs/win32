@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the number of items in each of the three queues inside the thread pump.'
-ms.assetid: 'b5b829a5-5ef7-4ef5-afb4-efe1bb22ae70'
-title: 'ID3DX10ThreadPump::GetQueueStatus method'
+---
+Description: Get the number of items in each of the three queues inside the thread pump.
+ms.assetid: b5b829a5-5ef7-4ef5-afb4-efe1bb22ae70
+title: ID3DX10ThreadPumpGetQueueStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10ThreadPump::GetQueueStatus method

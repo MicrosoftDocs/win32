@@ -1,14 +1,19 @@
 ---
-Description: 'Although an application can use color without regard to the color capabilities of the device, the resulting output may not be as informative and pleasing as output for which color is carefully chosen.'
-ms.assetid: '008c8a8e-3456-4727-9b27-00b20ae880a2'
+Description: Although an application can use color without regard to the color capabilities of the device, the resulting output may not be as informative and pleasing as output for which color is carefully chosen.
+ms.assetid: 008c8a8e-3456-4727-9b27-00b20ae880a2
 title: Color Approximations and Dithering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Approximations and Dithering
 
 Although an application can use color without regard to the color capabilities of the device, the resulting output may not be as informative and pleasing as output for which color is carefully chosen. Few, if any, devices guarantee an exact match for every possible color value; therefore, if an application requests a color that the device cannot generate, the system approximates that color by using a color that the device can generate. For example, if an application attempts to create a red pen for a black and white printer, it will receive a black pen instead the system uses black as the approximation for red.
 
-An application can discover whether the system will approximate a given color by using the [**GetNearestColor**](getnearestcolor.md) function. The function takes a color value and returns the color value of the closest matching color the device can generate. The method the system uses to determine this approximation depends on the device driver and its color capabilities. In most cases, the approximated color's overall intensity is closest to that of the requested color.
+An application can discover whether the system will approximate a given color by using the [**GetNearestColor**](/windows/win32/Wingdi/nf-wingdi-getnearestcolor?branch=master) function. The function takes a color value and returns the color value of the closest matching color the device can generate. The method the system uses to determine this approximation depends on the device driver and its color capabilities. In most cases, the approximated color's overall intensity is closest to that of the requested color.
 
 When an application creates a pen or sets the color for text, the system always approximates a color if no exact match exists. When an application creates a solid brush, the system may attempt to simulate the requested color by dithering. *Dithering* simulates a color by alternating two or more colors in a pattern. For example, different shades of pink can be simulated by alternating different combinations of red and white. Depending on the colors and the pattern, dithering can produce reasonable simulations. It is most useful for monochrome devices, because it expands the number of available "colors" well beyond simple black and white.
 

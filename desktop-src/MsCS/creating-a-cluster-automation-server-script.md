@@ -4,11 +4,16 @@ description: The following example illustrates a basic Windows Script Host shell
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ca508c9-c34a-4af5-a6c0-3d710171f3df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2ca508c9-c34a-4af5-a6c0-3d710171f3df
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Cluster Automation Server Failover Cluster ,scripts", "Failover Cluster Automation Server Failover Cluster ,scripts"]
+keywords:
+- Cluster Automation Server Failover Cluster ,scripts
+- Failover Cluster Automation Server Failover Cluster ,scripts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Failover Cluster Automation Server Script

@@ -1,14 +1,19 @@
 ---
-Description: 'Describes two disk storage types and discusses partition styles.'
-ms.assetid: '5d511654-92e0-4236-80e7-bb2417403186'
+Description: Describes two disk storage types and discusses partition styles.
+ms.assetid: 5d511654-92e0-4236-80e7-bb2417403186
 title: Basic and Dynamic Disks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic and Dynamic Disks
 
 Before partitioning a drive or getting information about the partition layout of a drive, you must first understand the features and limitations of basic and dynamic disk storage types.
 
-For the purposes of this topic, the term *volume* is used to refer to the concept of a disk partition formatted with a valid file system, most commonly NTFS, that is used by the Windows operating system to store files. A volume has a Win32 path name, can be enumerated by the [**FindFirstVolume**](findfirstvolume.md) and [**FindNextVolume**](findnextvolume.md) functions, and usually has a drive letter assigned to it, such as C:. For more information about volumes and file systems, see [File Systems](file-systems.md).
+For the purposes of this topic, the term *volume* is used to refer to the concept of a disk partition formatted with a valid file system, most commonly NTFS, that is used by the Windows operating system to store files. A volume has a Win32 path name, can be enumerated by the [**FindFirstVolume**](/windows/win32/FileAPI/nf-fileapi-findfirstvolumew?branch=master) and [**FindNextVolume**](/windows/win32/FileAPI/nf-fileapi-findnextvolumew?branch=master) functions, and usually has a drive letter assigned to it, such as C:. For more information about volumes and file systems, see [File Systems](file-systems.md).
 
 In this topic:
 
@@ -105,7 +110,7 @@ Dynamic disk **GPT** partition layouts looks similar to this basic disk example,
 
 There is no specific function to programmatically detect the type of disk a particular file or directory is located on. There is an indirect method.
 
-First, call [**GetVolumePathName**](getvolumepathname.md). Then, call [**CreateFile**](createfile.md) to open the volume using the path. Next, use [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](ioctl-volume-get-volume-disk-extents.md) with the volume handle to obtain the disk number and use the disk number to construct the disk path, such as "\\\\?\\PhysicalDrive*X*". Finally, use [**IOCTL\_DISK\_GET\_DRIVE\_LAYOUT\_EX**](ioctl-disk-get-drive-layout-ex.md) to obtain the partition list, and check the **PartitionType** for each entry in the partition list.
+First, call [**GetVolumePathName**](/windows/win32/FileAPI/nf-fileapi-getvolumepathnamew?branch=master). Then, call [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to open the volume using the path. Next, use [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_volume_get_volume_disk_extents?branch=master) with the volume handle to obtain the disk number and use the disk number to construct the disk path, such as "\\\\?\\PhysicalDrive*X*". Finally, use [**IOCTL\_DISK\_GET\_DRIVE\_LAYOUT\_EX**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_disk_get_drive_layout_ex?branch=master) to obtain the partition list, and check the **PartitionType** for each entry in the partition list.
 
 ## Related topics
 

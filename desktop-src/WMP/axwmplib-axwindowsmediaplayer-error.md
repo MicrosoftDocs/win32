@@ -1,8 +1,9 @@
 ---
 title: Error Event of the AxWindowsMediaPlayer Object
 description: The Error event occurs when the Windows Media Player control has an error condition.
-ms.assetid: 'd28c18a9-c650-4169-989b-8727b7a5a831'
-keywords: ["Error Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: d28c18a9-c650-4169-989b-8727b7a5a831
+keywords:
+- Error Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Event of the AxWindowsMediaPlayer Object
@@ -107,9 +113,9 @@ End Sub</code></pre></td>
 [**IWMPErrorItem.errorDescription (VB and C#)**](wmplibiwmperroritem-iwmperroritem-errordescription--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

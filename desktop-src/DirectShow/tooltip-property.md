@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ToolTip property sets the text for the ToolTip that appears when the mouse pointer is over the MSWebDVD video rectangle.'
-ms.assetid: 'b71ec573-6585-4b0c-8171-9f9c8fdb7394'
+---
+Description: The ToolTip property sets the text for the ToolTip that appears when the mouse pointer is over the MSWebDVD video rectangle.
+ms.assetid: b71ec573-6585-4b0c-8171-9f9c8fdb7394
 title: ToolTip Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ToolTip Property

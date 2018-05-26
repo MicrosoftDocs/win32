@@ -1,14 +1,21 @@
 ---
 title: RESTORABLE\_FILE\_INFO structure
 description: Provides information about a restorable file. This structure is used when calling ScanRestorableFiles.
-ms.assetid: 'c54eb086-159e-4649-a92d-cb2a026d6ec2'
-keywords: ["RESTORABLE_FILE_INFO structure Files", "PRESTORABLE_FILE_INFO structure pointer Files"]
+ms.assetid: c54eb086-159e-4649-a92d-cb2a026d6ec2
+keywords:
+- RESTORABLE_FILE_INFO structure Files
+- PRESTORABLE_FILE_INFO structure pointer Files
 topic_type:
 - apiref
 api_name:
 - RESTORABLE_FILE_INFO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RESTORABLE\_FILE\_INFO structure
@@ -16,27 +23,27 @@ api_type:
 Provides information about a restorable file. This structure is used when calling [**ScanRestorableFiles**](scanrestorablefiles.md).
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef struct _RESTORABLE_FILE_INFO {
-  ULONG     Size;
-  DWORD     Version;
+  ULONG     Size;
+  DWORD     Version;
   ULONGLONG FileSize;
-  FILETIME  CreationTime;
-  FILETIME  LastAccessTime;
-  FILETIME  LastWriteTime;
-  DWORD     Attributes;
-  BOOL      IsRemoved;
-  LONGLONG  ClustersUsedByFile;
-  LONGLONG  ClustersCurrentlyInUse;
-  ULONG     RestoreDataOffset;
-  WCHAR     FileName[1];
+  FILETIME  CreationTime;
+  FILETIME  LastAccessTime;
+  FILETIME  LastWriteTime;
+  DWORD     Attributes;
+  BOOL      IsRemoved;
+  LONGLONG  ClustersUsedByFile;
+  LONGLONG  ClustersCurrentlyInUse;
+  ULONG     RestoreDataOffset;
+  WCHAR     FileName[1];
 } RESTORABLE_FILE_INFO, *PRESTORABLE_FILE_INFO;
 ```
 
@@ -113,7 +120,7 @@ The attributes for the file. This member can be a combination of one or more of 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -164,8 +171,8 @@ The **FileName** member is variable in length. An additional implementation-spec
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -179,9 +186,9 @@ The **FileName** member is variable in length. An additional implementation-spec
 [**ScanRestorableFiles**](scanrestorablefiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

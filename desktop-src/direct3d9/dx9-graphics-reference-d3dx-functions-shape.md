@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX supplies the following shape-drawing functions.'
-ms.assetid: '3bebc321-3053-4056-a0a7-5cd5031f7302'
+Description: D3DX supplies the following shape-drawing functions.
+ms.assetid: 3bebc321-3053-4056-a0a7-5cd5031f7302
 title: Shape Drawing Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shape Drawing Functions

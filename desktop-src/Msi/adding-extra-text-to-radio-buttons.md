@@ -1,7 +1,12 @@
 ---
-Description: 'Screen reader programs can only read the text of a RadioButtonGroup control that has been authored into the Text column of the RadioButton table.'
-ms.assetid: '92ad70ec-a3a4-4ea7-8888-40c78d73e58a'
+Description: Screen reader programs can only read the text of a RadioButtonGroup control that has been authored into the Text column of the RadioButton table.
+ms.assetid: 92ad70ec-a3a4-4ea7-8888-40c78d73e58a
 title: Adding Extra Text to Radio Buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Extra Text to Radio Buttons

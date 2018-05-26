@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the active technique.'
-ms.assetid: '18f19773-a9f8-47f9-9334-acc95e0f0eb7'
-title: 'ID3DXEffect::SetTechnique method'
+---
+Description: Sets the active technique.
+ms.assetid: 18f19773-a9f8-47f9-9334-acc95e0f0eb7
+title: ID3DXEffectSetTechnique method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::SetTechnique method

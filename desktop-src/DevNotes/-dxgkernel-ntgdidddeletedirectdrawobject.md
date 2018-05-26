@@ -1,7 +1,12 @@
-﻿---
-Description: 'Destroys a previously created kernel-mode Microsoft DirectDraw device object.'
-ms.assetid: '0b2e1bae-8291-4fe4-9528-980680906e0a'
+---
+Description: Destroys a previously created kernel-mode Microsoft DirectDraw device object.
+ms.assetid: 0b2e1bae-8291-4fe4-9528-980680906e0a
 title: NtGdiDdDeleteDirectDrawObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdDeleteDirectDrawObject function
@@ -62,7 +67,7 @@ Applications are advised to use the DirectDraw and [Direct3D](http://msdn.micros
 [**NtGdiDdCreateDirectDrawObject**](-dxgkernel-ntgdiddcreatedirectdrawobject.md)
 </dt> <dt>
 
-[**DdDeleteDirectDrawObject**](-dxgkernel-dddeletedirectdrawobject.md)
+[**DdDeleteDirectDrawObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-dddeletedirectdrawobject?branch=master)
 </dt> </dl>
 
  

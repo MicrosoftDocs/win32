@@ -1,7 +1,12 @@
 ---
 title: VML ConnectAngles Attribute
 description: VML ConnectAngles Attribute
-ms.assetid: '282c2f75-8f1d-464d-925e-e3f7ad211659'
+ms.assetid: 282c2f75-8f1d-464d-925e-e3f7ad211659
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML ConnectAngles Attribute

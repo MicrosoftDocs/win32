@@ -1,7 +1,12 @@
 ---
-Description: 'Moves stroke data from this IContextNode to the specified IContextNode.'
-ms.assetid: '583f2de9-d32e-4177-83d1-4abbd0f9f960'
-title: 'IContextNode::ReparentStrokeByIdToNode method'
+Description: Moves stroke data from this IContextNode to the specified IContextNode.
+ms.assetid: 583f2de9-d32e-4177-83d1-4abbd0f9f960
+title: IContextNodeReparentStrokeByIdToNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::ReparentStrokeByIdToNode method
@@ -13,8 +18,8 @@ Moves stroke data from this [**IContextNode**](icontextnode.md) to the specified
 
 ```C++
 HRESULT ReparentStrokeByIdToNode(
-  [in] LONG         lStrokeId,
-  [in] IContextNode *pContextNodeDestination
+  [in] LONG         lStrokeId,
+  [in] IContextNode *pContextNodeDestination
 );
 ```
 
@@ -63,7 +68,7 @@ An empty node generates errors if it is in the tree during an ink analysis opera
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -83,9 +88,9 @@ An empty node generates errors if it is in the tree during an ink analysis opera
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'An attribute is a key/value pair, where the key is a GUID and the value is a PROPVARIANT. Attributes are used throughout Microsoft Media Foundation to configure objects, describe media formats, query object properties, and other purposes.'
-ms.assetid: '44af5e03-5f0a-4564-b9d6-b8c935df35b2'
+Description: An attribute is a key/value pair, where the key is a GUID and the value is a PROPVARIANT. Attributes are used throughout Microsoft Media Foundation to configure objects, describe media formats, query object properties, and other purposes.
+ms.assetid: 44af5e03-5f0a-4564-b9d6-b8c935df35b2
 title: Attributes in Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes in Media Foundation
@@ -27,9 +32,9 @@ An attribute is a key/value pair, where the key is a GUID and the value is a **P
 -   Byte array.
 -   **IUnknown** pointer.
 
-These types are defined in the [**MF\_ATTRIBUTE\_TYPE**](mf-attribute-type.md) enumeration. To set or retrieve attribute values, use the [**IMFAttributes**](imfattributes.md) interface. This interface contains type-safe methods to get and set values by data type. For example, to set a 32-bit integer, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md). Attribute keys are unique within an object. If you set two different values with the same key, the second value overwrites the first.
+These types are defined in the [**MF\_ATTRIBUTE\_TYPE**](/windows/win32/mfobjects/ne-mfobjects-_mf_attribute_type?branch=master) enumeration. To set or retrieve attribute values, use the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface. This interface contains type-safe methods to get and set values by data type. For example, to set a 32-bit integer, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master). Attribute keys are unique within an object. If you set two different values with the same key, the second value overwrites the first.
 
-Several Media Foundation interfaces inherit the [**IMFAttributes**](imfattributes.md) interface. Objects that expose this interface have optional or mandatory attributes that the application should set on the object, or have attributes that the application can retrieve. Also, some methods and functions take an **IMFAttributes** pointer as a parameter, which enables the application to set configuration information. The application must create an attribute store to hold the configuration attributes. To create an empty attribute store, call [**MFCreateAttributes**](mfcreateattributes.md).
+Several Media Foundation interfaces inherit the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface. Objects that expose this interface have optional or mandatory attributes that the application should set on the object, or have attributes that the application can retrieve. Also, some methods and functions take an **IMFAttributes** pointer as a parameter, which enables the application to set configuration information. The application must create an attribute store to hold the configuration attributes. To create an empty attribute store, call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master).
 
 The following code shows two functions. The first creates a new attribute store and sets a hypothetical attribute named MY\_ATTRIBUTE with a string value. The second function retrieves the value of this attribute.
 
@@ -104,24 +109,24 @@ Media Foundation has two functions for serializing attribute stores. One writes 
 
 | Operation | Byte Array                                                   | IStream                                                                        |
 |-----------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Save      | [**MFGetAttributesAsBlob**](mfgetattributesasblob.md)       | [**MFSerializeAttributesToStream**](mfserializeattributestostream.md)         |
-| Load      | [**MFInitAttributesFromBlob**](mfinitattributesfromblob.md) | [**MFDeserializeAttributesFromStream**](mfdeserializeattributesfromstream.md) |
+| Save      | [**MFGetAttributesAsBlob**](/windows/win32/mfapi/nf-mfapi-mfgetattributesasblob?branch=master)       | [**MFSerializeAttributesToStream**](/windows/win32/mfobjects/nf-mfobjects-mfserializeattributestostream?branch=master)         |
+| Load      | [**MFInitAttributesFromBlob**](/windows/win32/mfapi/nf-mfapi-mfinitattributesfromblob?branch=master) | [**MFDeserializeAttributesFromStream**](/windows/win32/mfobjects/nf-mfobjects-mfdeserializeattributesfromstream?branch=master) |
 
 
 
  
 
-To write the contents of an attribute store into a byte array, call [**MFGetAttributesAsBlob**](mfgetattributesasblob.md). Attributes with **IUnknown** pointer values are ignored. To load the attributes back into an attribute store, call [**MFInitAttributesFromBlob**](mfinitattributesfromblob.md).
+To write the contents of an attribute store into a byte array, call [**MFGetAttributesAsBlob**](/windows/win32/mfapi/nf-mfapi-mfgetattributesasblob?branch=master). Attributes with **IUnknown** pointer values are ignored. To load the attributes back into an attribute store, call [**MFInitAttributesFromBlob**](/windows/win32/mfapi/nf-mfapi-mfinitattributesfromblob?branch=master).
 
-To write an attribute store to a stream, call [**MFSerializeAttributesToStream**](mfserializeattributestostream.md). This function can marshal **IUnknown** pointer values. The caller must provide a stream object that implements the **IStream** interface. To load an attribute store from a stream, call [**MFDeserializeAttributesFromStream**](mfdeserializeattributesfromstream.md).
+To write an attribute store to a stream, call [**MFSerializeAttributesToStream**](/windows/win32/mfobjects/nf-mfobjects-mfserializeattributestostream?branch=master). This function can marshal **IUnknown** pointer values. The caller must provide a stream object that implements the **IStream** interface. To load an attribute store from a stream, call [**MFDeserializeAttributesFromStream**](/windows/win32/mfobjects/nf-mfobjects-mfdeserializeattributesfromstream?branch=master).
 
 ## Implementing IMFAttributes
 
-Media Foundation provides a stock implementation of [**IMFAttributes**](imfattributes.md), which is obtained by calling the [**MFCreateAttributes**](mfcreateattributes.md) function. In most situations, you should use this implementation, and not provide your own custom implementation.
+Media Foundation provides a stock implementation of [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master), which is obtained by calling the [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) function. In most situations, you should use this implementation, and not provide your own custom implementation.
 
-There is one situation when you might need to implement the [**IMFAttributes**](imfattributes.md) interface: If you implement a second interface that inherits **IMFAttributes**. In that case, you must provide implementations for the **IMFAttributes** methods inherited by the second interface.
+There is one situation when you might need to implement the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface: If you implement a second interface that inherits **IMFAttributes**. In that case, you must provide implementations for the **IMFAttributes** methods inherited by the second interface.
 
-In this situation, it is recommended to wrap the existing Media Foundation implementation of [**IMFAttributes**](imfattributes.md). The following code shows a class template that holds an **IMFAttributes** pointer and wraps every **IMFAttributes** method, except for the **IUnknown** methods.
+In this situation, it is recommended to wrap the existing Media Foundation implementation of [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master). The following code shows a class template that holds an **IMFAttributes** pointer and wraps every **IMFAttributes** method, except for the **IUnknown** methods.
 
 
 ```C++
@@ -571,7 +576,7 @@ public:
 
 You must call `CBaseAttributes::Initialize` to create the attribute store. In the previous example, that is done inside a static creation function.
 
-The template argument is an interface type, which defaults to [**IMFAttributes**](imfattributes.md). If your object implements an interface that inherits **IMFAttributes**, such as [**IMFActivate**](imfactivate.md), set the template argument equal to name of the derived interface.
+The template argument is an interface type, which defaults to [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master). If your object implements an interface that inherits **IMFAttributes**, such as [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master), set the template argument equal to name of the derived interface.
 
 ## Related topics
 

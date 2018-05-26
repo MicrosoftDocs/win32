@@ -1,7 +1,7 @@
 ---
 title: DirectComposition error codes
 description: This section describes the error codes that are specific to DirectComposition.
-ms.assetid: '8DFBFC34-DBD0-4731-8305-B33E90C96C54'
+ms.assetid: 8DFBFC34-DBD0-4731-8305-B33E90C96C54
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Dcomp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectComposition error codes
@@ -29,7 +34,7 @@ If an error occurs, Microsoft DirectComposition returns a code as an **HRESULT**
 
 
 
-The window handle that was specified in a call to the [**IDCompositionDevice::CreateTargetForHwnd**](idcompositiondevice-createhwndtarget.md) method belongs to a different process from the one that created the device object.
+The window handle that was specified in a call to the [**IDCompositionDevice::CreateTargetForHwnd**](/windows/win32/Dcomp/?branch=master) method belongs to a different process from the one that created the device object.
 
 
 </dt> </dl> </dd> <dt>
@@ -42,7 +47,7 @@ The window handle that was specified in a call to the [**IDCompositionDevice::Cr
 
 
 
-The surface was already being rendered when the application called the [**IDCompositionSurface::BeginDraw**](idcompositionsurface-begindraw.md), [**IDCompositionSurface::SuspendDraw**](idcompositionsurface-suspenddraw.md), or [**IDCompositionSurface::ResumeDraw**](idcompositionsurface-resumedraw.md) method. For more information, see Remarks.
+The surface was already being rendered when the application called the [**IDCompositionSurface::BeginDraw**](/windows/win32/Dcomp/?branch=master), [**IDCompositionSurface::SuspendDraw**](/windows/win32/Dcomp/?branch=master), or [**IDCompositionSurface::ResumeDraw**](/windows/win32/Dcomp/?branch=master) method. For more information, see Remarks.
 
 
 </dt> </dl> </dd> <dt>
@@ -55,7 +60,7 @@ The surface was already being rendered when the application called the [**IDComp
 
 
 
-The application called the [**IDCompositionSurface::SuspendDraw**](idcompositionsurface-suspenddraw.md), [**IDCompositionSurface::ResumeDraw**](idcompositionsurface-resumedraw.md), or [**IDCompositionSurface::EndDraw**](idcompositionsurface-enddraw.md) method for a surface that is not being rendered. For more information, see Remarks.
+The application called the [**IDCompositionSurface::SuspendDraw**](/windows/win32/Dcomp/?branch=master), [**IDCompositionSurface::ResumeDraw**](/windows/win32/Dcomp/?branch=master), or [**IDCompositionSurface::EndDraw**](/windows/win32/Dcomp/?branch=master) method for a surface that is not being rendered. For more information, see Remarks.
 
 
 </dt> </dl> </dd> <dt>
@@ -68,72 +73,72 @@ The application called the [**IDCompositionSurface::SuspendDraw**](idcomposition
 
 
 
-The [**IDCompositionDevice::CreateTargetForHwnd**](idcompositiondevice-createhwndtarget.md) method was called with *hwnd* and *topmost* parameters for which a visual tree already exists.
+The [**IDCompositionDevice::CreateTargetForHwnd**](/windows/win32/Dcomp/?branch=master) method was called with *hwnd* and *topmost* parameters for which a visual tree already exists.
 
 
 </dt> </dl> </dd> </dl>
 
 ## Remarks
 
-If a call to the [**IDCompositionSurface::BeginDraw**](idcompositionsurface-begindraw.md) was the most recent action:
+If a call to the [**IDCompositionSurface::BeginDraw**](/windows/win32/Dcomp/?branch=master) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                               |
 |---------------------------------------------------------|---------------------------------------------------|
-| [**BeginDraw**](idcompositionsurface-begindraw.md)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
-| [**EndDraw**](idcompositionsurface-enddraw.md)         | S\_OK                                             |
-| [**SuspendDraw**](idcompositionsurface-suspenddraw.md) | S\_OK                                             |
-| [**ResumeDraw**](idcompositionsurface-resumedraw.md)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**BeginDraw**](/windows/win32/Dcomp/?branch=master)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**EndDraw**](/windows/win32/Dcomp/?branch=master)         | S\_OK                                             |
+| [**SuspendDraw**](/windows/win32/Dcomp/?branch=master) | S\_OK                                             |
+| [**ResumeDraw**](/windows/win32/Dcomp/?branch=master)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
 
 
 
- 
+ 
 
-If a call to the [**IDCompositionSurface::SuspendDraw**](idcompositionsurface-suspenddraw.md) was the most recent action:
+If a call to the [**IDCompositionSurface::SuspendDraw**](/windows/win32/Dcomp/?branch=master) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                               |
 |---------------------------------------------------------|---------------------------------------------------|
-| [**BeginDraw**](idcompositionsurface-begindraw.md)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
-| [**EndDraw**](idcompositionsurface-enddraw.md)         | S\_OK                                             |
-| [**SuspendDraw**](idcompositionsurface-suspenddraw.md) | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
-| [**ResumeDraw**](idcompositionsurface-resumedraw.md)   | S\_OK                                             |
+| [**BeginDraw**](/windows/win32/Dcomp/?branch=master)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**EndDraw**](/windows/win32/Dcomp/?branch=master)         | S\_OK                                             |
+| [**SuspendDraw**](/windows/win32/Dcomp/?branch=master) | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED** |
+| [**ResumeDraw**](/windows/win32/Dcomp/?branch=master)   | S\_OK                                             |
 
 
 
- 
+ 
 
-If a call to the [**IDCompositionSurface::ResumeDraw**](idcompositionsurface-resumedraw.md) was the most recent action:
+If a call to the [**IDCompositionSurface::ResumeDraw**](/windows/win32/Dcomp/?branch=master) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                                |
 |---------------------------------------------------------|----------------------------------------------------|
-| [**BeginDraw**](idcompositionsurface-begindraw.md)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED**  |
-| [**EndDraw**](idcompositionsurface-enddraw.md)         | S\_OK                                              |
-| [**SuspendDraw**](idcompositionsurface-suspenddraw.md) | S\_OK                                              |
-| [**ResumeDraw**](idcompositionsurface-resumedraw.md)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED.** |
+| [**BeginDraw**](/windows/win32/Dcomp/?branch=master)     | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED**  |
+| [**EndDraw**](/windows/win32/Dcomp/?branch=master)         | S\_OK                                              |
+| [**SuspendDraw**](/windows/win32/Dcomp/?branch=master) | S\_OK                                              |
+| [**ResumeDraw**](/windows/win32/Dcomp/?branch=master)   | **DCOMPOSITION\_ERROR\_SURFACE\_BEING\_RENDERED.** |
 
 
 
- 
+ 
 
-If a call to the [**IDCompositionSurface::EndDraw**](idcompositionsurface-enddraw.md) was the most recent action:
+If a call to the [**IDCompositionSurface::EndDraw**](/windows/win32/Dcomp/?branch=master) was the most recent action:
 
 
 
 | Calling this method:                                    | Returns this value:                                     |
 |---------------------------------------------------------|---------------------------------------------------------|
-| [**BeginDraw**](idcompositionsurface-begindraw.md)     | S\_OK                                                   |
-| [**EndDraw**](idcompositionsurface-enddraw.md)         | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
-| [**SuspendDraw**](idcompositionsurface-suspenddraw.md) | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
-| [**ResumeDraw**](idcompositionsurface-resumedraw.md)   | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
+| [**BeginDraw**](/windows/win32/Dcomp/?branch=master)     | S\_OK                                                   |
+| [**EndDraw**](/windows/win32/Dcomp/?branch=master)         | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
+| [**SuspendDraw**](/windows/win32/Dcomp/?branch=master) | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
+| [**ResumeDraw**](/windows/win32/Dcomp/?branch=master)   | **DCOMPOSITION\_ERROR\_SURFACE\_NOT\_BEING\_RENDERED.** |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -141,8 +146,8 @@ If a call to the [**IDCompositionSurface::EndDraw**](idcompositionsurface-enddra
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Dcomp.h</dt> </dl> |
 
 
@@ -154,9 +159,9 @@ If a call to the [**IDCompositionSurface::EndDraw**](idcompositionsurface-enddra
 [DirectComposition Reference](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

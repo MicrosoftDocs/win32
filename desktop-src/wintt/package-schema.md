@@ -1,7 +1,12 @@
 ---
 title: Package Schema
-ms.assetid: '5e475d28-bc38-4855-8149-a0aecf1b2955'
+ms.assetid: 5e475d28-bc38-4855-8149-a0aecf1b2955
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package Schema

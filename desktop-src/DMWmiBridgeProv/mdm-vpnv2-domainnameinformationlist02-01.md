@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_DomainNameInformationList02\_01 class
 description: The MDM\_VPNv2\_DomainNameInformationList02\_01 class describes the Name Resolution Policy Table (NRPT) rules for the VPN profile.
-ms.assetid: 'ed6863aa-f85e-4f65-9312-ddf60a8c0d5a'
-keywords: ["MDM_VPNv2_DomainNameInformationList02_01 class", "MDM_VPNv2_DomainNameInformationList02_01 class, described"]
+ms.assetid: ed6863aa-f85e-4f65-9312-ddf60a8c0d5a
+keywords:
+- MDM_VPNv2_DomainNameInformationList02_01 class
+- MDM_VPNv2_DomainNameInformationList02_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_DomainNameInformationList02\_01 class
@@ -134,7 +141,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -149,9 +156,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

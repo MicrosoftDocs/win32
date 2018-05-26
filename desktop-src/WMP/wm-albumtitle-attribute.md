@@ -1,14 +1,20 @@
 ---
 title: WM/AlbumTitle Attribute
 description: The WM/AlbumTitle attribute is the title of the album on which the content was originally released.
-ms.assetid: '8c9609c7-3953-4c5b-8cfd-4766e37a2046'
-keywords: ["WM/AlbumTitle Attribute Windows Media Player"]
+ms.assetid: 8c9609c7-3953-4c5b-8cfd-4766e37a2046
+keywords:
+- WM/AlbumTitle Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/AlbumTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AlbumTitle Attribute
@@ -52,9 +58,9 @@ The Windows Media Format SDK constant for this attribute is g\_wszWMAlbumTitle.
 [Commonly Used Windows Media File Attributes](commonly-used-windows-media-file-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

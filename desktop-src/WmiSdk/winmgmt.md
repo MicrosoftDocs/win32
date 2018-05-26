@@ -1,13 +1,16 @@
 ---
-Description: 'Winmgmt is the WMI service within the SVCHOST process running under the &\#0034;LocalSystem&\#0034; account.'
+Description: Winmgmt is the WMI service within the SVCHOST process running under the &\#0034;LocalSystem&\#0034; account.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3923322a-3acb-407e-8a07-09c59d252e8b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3923322a-3acb-407e-8a07-09c59d252e8b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: winmgmt
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # winmgmt
@@ -19,7 +22,7 @@ In all cases, the WMI service automatically starts when the first management app
 > [!Note]  
 > WMI is a core component of the Windows operating system that allows developers and IT administrators to write scripts and applications to automate certain tasks. Winmgmt.exe is the service that allows WMI to run on your local computer. For more information on using WMI, see [Using WMI](using-wmi.md). If you have received an error message regarding winmgmt.exe, see [WMI Troubleshooting](wmi-troubleshooting.md). For more information on Winmgmt.exe, see [Using WMI Management Tools](https://TechNet.Microsoft.Com/library/cc180468.aspx).
 
- 
+ 
 
 When run from the command prompt, the WMI service has the following switches.
 
@@ -53,7 +56,7 @@ If you do not specify a path for the file, it is put in the %Windir%\\System32 d
 
 Manually restores the WMI repository from the specified backup file. The *filename* argument should contain the full path to the backup file location. To perform the restore operation, WMI saves the existing repository to write back if the operation fails. Then the repository is restored from the backup file that is specified in the *filename* argument. If exclusive access to the repository cannot be achieved, existing clients are disconnected from WMI.
 
-The *flag* argument must be a 1 (force — disconnect users and restore) or 0 (default — restore if no users connected) and specifies the restore mode.
+The *flag* argument must be a 1 (force   disconnect users and restore) or 0 (default   restore if no users connected) and specifies the restore mode.
 
 </dd> <dt>
 
@@ -73,7 +76,7 @@ Moves the Winmgmt service to a standalone Svchost process that has a fixed DCOM 
 
 The *level* argument is the authentication level for the Svchost process. WMI normally runs as part of a shared service host and you cannot increase the authentication level for WMI alone. If *level* is not specified, the default is 4 (**RPC\_C\_AUTHN\_LEVEL\_PKT** or **WbemAuthenticationLevelPkt**).
 
-You can run WMI more securely by increasing the authentication level to Packet Privacy (**RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** or **WbemAuthenticationLevelPktPrivacy**). The authentication levels for Visual Basic and scripting are described in [**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md). For C++, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md). For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
+You can run WMI more securely by increasing the authentication level to Packet Privacy (**RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** or **WbemAuthenticationLevelPktPrivacy**). The authentication levels for Visual Basic and scripting are described in [**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master). For C++, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md). For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
 
 </dd> <dt>
 
@@ -121,7 +124,7 @@ WMI returns the error **ERROR\_INTERNAL\_DB\_CORRUPTION** (net helpmsg 1358) if 
 >
 > For more information about the source of the problem, download and run the [WMI Diagnosis Utility](Http://go.microsoft.com/fwlink/p/?linkid=84435) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the [WMI Diagnosis Utility](Http://go.microsoft.com/fwlink/p/?linkid=84419).
 
- 
+ 
 
 ## Requirements
 
@@ -129,8 +132,8 @@ WMI returns the error **ERROR\_INTERNAL\_DB\_CORRUPTION** (net helpmsg 1358) if 
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -144,9 +147,9 @@ WMI returns the error **ERROR\_INTERNAL\_DB\_CORRUPTION** (net helpmsg 1358) if 
 [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

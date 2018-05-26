@@ -4,13 +4,15 @@ description: This class supports the iSCSIStorageSubsystem noun.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c89794d-d827-4d62-ad76-bb6a440f3df3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9c89794d-d827-4d62-ad76-bb6a440f3df3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_iSCSIStorageSubsystem class iSCSI Software Target API", "WT_iSCSIStorageSubsystem class iSCSI Software Target API , described"]
+keywords:
+- WT_iSCSIStorageSubsystem class iSCSI Software Target API
+- WT_iSCSIStorageSubsystem class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - StrgPrvdMgmt.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_iSCSIStorageSubsystem class
@@ -57,7 +62,7 @@ The **WT\_iSCSIStorageSubsystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -88,7 +93,7 @@ Instance property.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>StrgPrvdMgmt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StrgPrvdMgmt.dll</dt> </dl> |
@@ -102,9 +107,9 @@ Instance property.
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.'
-ms.assetid: '5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD'
+---
+Description: The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
+ms.assetid: 5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD
 title: Window Styles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Styles

@@ -1,7 +1,12 @@
 ---
-Description: 'The DuplicateHandle function creates a duplicate handle that can be used by another specified process.'
-ms.assetid: 'b79d2b8f-931e-4cab-9bbe-9ead1b102132'
+Description: The DuplicateHandle function creates a duplicate handle that can be used by another specified process.
+ms.assetid: b79d2b8f-931e-4cab-9bbe-9ead1b102132
 title: Object Duplication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Duplication

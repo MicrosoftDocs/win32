@@ -1,8 +1,21 @@
 ---
 title: Opening MIDI Output Devices
 description: Opening MIDI Output Devices
-ms.assetid: '0a06611b-c0cd-4884-bc17-761c4aec4418'
-keywords: ["Musical Instrument Digital Interface (MIDI),output devices", "MIDI (Musical Instrument Digital Interface),output devices", "playing MIDI files,output devices", "MIDI output devices", "Musical Instrument Digital Interface (MIDI),opening output devices", "MIDI (Musical Instrument Digital Interface),opening output devices", "playing MIDI files,opening output devices", "opening MIDI output devices"]
+ms.assetid: 0a06611b-c0cd-4884-bc17-761c4aec4418
+keywords:
+- Musical Instrument Digital Interface (MIDI),output devices
+- MIDI (Musical Instrument Digital Interface),output devices
+- playing MIDI files,output devices
+- MIDI output devices
+- Musical Instrument Digital Interface (MIDI),opening output devices
+- MIDI (Musical Instrument Digital Interface),opening output devices
+- playing MIDI files,opening output devices
+- opening MIDI output devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening MIDI Output Devices

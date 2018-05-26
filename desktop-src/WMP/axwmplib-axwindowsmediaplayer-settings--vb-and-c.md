@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.settings property
 description: The settings property gets an IWMPSettings interface that provides a way to modify various Windows Media Player settings.
-ms.assetid: 'f9009239-3308-4ef6-8818-0267dfa97b65'
-keywords: ["settings property Windows Media Player", "settings property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , settings property"]
+ms.assetid: f9009239-3308-4ef6-8818-0267dfa97b65
+keywords:
+- settings property Windows Media Player
+- settings property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , settings property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.settings property
@@ -72,9 +80,9 @@ The WMPLib.IWMPSettings interface.
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: In MMC 2.0, a snap-in can enable its result pane (or leaf) item as 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a48823af-2de6-465b-913c-7cdcdbd04040'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a48823af-2de6-465b-913c-7cdcdbd04040
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Drag to Result Pane Items

@@ -1,7 +1,12 @@
 ---
 title: Resource Reference
 description: .
-ms.assetid: '977021bf-fd1a-44d9-bfa1-6a727661fde7'
+ms.assetid: 977021bf-fd1a-44d9-bfa1-6a727661fde7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Reference

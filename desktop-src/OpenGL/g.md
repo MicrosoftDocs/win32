@@ -3,7 +3,18 @@ title: G
 description: Definitions of OpenGL terms that begin with the letter G.
 Robots: noindex, nofollow
 ms.assetid: 588df117-d03c-4a1f-9666-84004cb3d97b
-keywords: ["gamma correction", "geometric model", "geometric objects", "geometric primitives", "Gouraud shading", "groups"]
+keywords:
+- gamma correction
+- geometric model
+- geometric objects
+- geometric primitives
+- Gouraud shading
+- groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # G

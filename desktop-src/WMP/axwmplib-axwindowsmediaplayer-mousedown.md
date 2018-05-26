@@ -1,8 +1,9 @@
 ---
 title: MouseDown Event of the AxWindowsMediaPlayer Object
 description: The MouseDown event occurs when the user presses a mouse button.
-ms.assetid: '3dfbd034-67d4-4b7e-88d8-a77d301c5df7'
-keywords: ["MouseDown Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 3dfbd034-67d4-4b7e-88d8-a77d301c5df7
+keywords:
+- MouseDown Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MouseDown Event of the AxWindowsMediaPlayer Object
@@ -46,7 +52,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Mou
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,9 +73,9 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Mou
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,18 +1,21 @@
 ---
-Description: 'Can be used to specify when AD RMS&\#8211;protected content expires and can no longer be opened.'
+Description: Can be used to specify when AD RMS&\#8211;protected content expires and can no longer be opened.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'dd4b2928-9ffc-4cb0-89a9-3e9e4bdd9de3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: dd4b2928-9ffc-4cb0-89a9-3e9e4bdd9de3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExpirationData object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExpirationData object
 
-The **ExpirationData** object can be used to specify when AD RMS–protected content expires and can no longer be opened. This object specifies both the type of expiration and the value associated with that type as shown by the following table.
+The **ExpirationData** object can be used to specify when AD RMS protected content expires and can no longer be opened. This object specifies both the type of expiration and the value associated with that type as shown by the following table.
 
 | ExpirationData.ExpirationType                                                                       | ExpirationData.Value                                                        | Description                                                                 |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -22,7 +25,7 @@ The **ExpirationData** object can be used to specify when AD RMS–protected conte
 
 
 
- 
+ 
 
 You can retrieve this object by calling the [**ExpirationData**](expirationcondition-expirationdata-property.md) property on the [**ExpirationCondition**](expirationcondition-object.md) object.
 
@@ -45,7 +48,7 @@ The **ExpirationData** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -138,7 +141,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -150,9 +153,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

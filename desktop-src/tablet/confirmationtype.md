@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the type of confirmation that can occur on an IContextNode object.'
-ms.assetid: '5c906548-dbf5-4448-b248-070bd43b054e'
+Description: Specifies the type of confirmation that can occur on an IContextNode object.
+ms.assetid: 5c906548-dbf5-4448-b248-070bd43b054e
 title: ConfirmationType enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfirmationType enumeration
@@ -13,9 +18,9 @@ Specifies the type of confirmation that can occur on an [**IContextNode**](icont
 
 ```C++
 typedef enum ConfirmationType { 
-  ConfirmationType_None                   = 0,
-  ConfirmationType_NodeTypeAndProperties  = 1,
-  ConfirmationType_TopBoundary            = 4
+  ConfirmationType_None                   = 0,
+  ConfirmationType_NodeTypeAndProperties  = 1,
+  ConfirmationType_TopBoundary            = 4
 } ConfirmationType;
 ```
 
@@ -63,7 +68,7 @@ You can use the **NodeTypeAndProperties** value only for ink word and ink drawin
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 
@@ -79,9 +84,9 @@ You can use the **NodeTypeAndProperties** value only for ink word and ink drawin
 [**IContextNode::IsConfirmed**](icontextnode-isconfirmed.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

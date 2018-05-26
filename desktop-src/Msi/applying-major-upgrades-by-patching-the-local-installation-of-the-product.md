@@ -1,7 +1,12 @@
 ---
-Description: 'A major upgrade can be applied to an application by patching the local installation of the application from the command line or by using an executable.'
-ms.assetid: 'be651457-5c66-478b-89d5-3d7607702b8e'
+Description: A major upgrade can be applied to an application by patching the local installation of the application from the command line or by using an executable.
+ms.assetid: be651457-5c66-478b-89d5-3d7607702b8e
 title: Applying Major Upgrades by Patching the Local Installation of the Product
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Major Upgrades by Patching the Local Installation of the Product
@@ -15,7 +20,7 @@ A major upgrade can be applied to an application by patching the local installat
 
 **To apply a major upgrade patch to a local installation of the product**
 
-1.  Launch the installation of the patch from the command line or by using an executable. To launch from the command line, use msiexec /p patch.msp. To launch from an executable, call [**MsiApplyPatch**](msiapplypatch.md) or the [**ApplyPatch Method**](installer-applypatch.md) and provide the same command line arguments.
+1.  Launch the installation of the patch from the command line or by using an executable. To launch from the command line, use msiexec /p patch.msp. To launch from an executable, call [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master) or the [**ApplyPatch Method**](installer-applypatch.md) and provide the same command line arguments.
 2.  When patching a client installation, the installer ignores the installation source and proceeds to patch the files that are already installed on the user's computer.
 3.  The installer changes any patched components marked as run-from-source to run-locally. Users are unable to run these components from the source as long as the patch remains on the computer.
 4.  The installer adds any transforms used to update the .msi file or adds patch-specific information to the user's profile.

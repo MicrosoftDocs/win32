@@ -1,14 +1,20 @@
 ---
 title: sessionStateChangeTriggerType Complex Type
 description: Defines the elements used to create a task trigger for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
-ms.assetid: '0d452476-1e1f-417d-a97a-5f39d80145f2'
-keywords: ["sessionStateChangeTriggerType complex type Task Scheduler"]
+ms.assetid: 0d452476-1e1f-417d-a97a-5f39d80145f2
+keywords:
+- sessionStateChangeTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - sessionStateChangeTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sessionStateChangeTriggerType Complex Type
@@ -60,14 +66,14 @@ Defines the elements used to create a task trigger for console connect or discon
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

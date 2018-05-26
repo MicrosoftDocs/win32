@@ -1,14 +1,20 @@
 ---
 title: ContextMenu element
 description: Represents a context menu control.
-ms.assetid: '08cc0514-0795-4e6b-b80c-33d920783032'
-keywords: ["ContextMenu element Windows Ribbon"]
+ms.assetid: 08cc0514-0795-4e6b-b80c-33d920783032
+keywords:
+- ContextMenu element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ContextMenu
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextMenu element
@@ -63,7 +69,7 @@ May occur one or more times for each [**ContextPopup.ContextMenus**](windowsribb
 > \[!Important\]  
 > A **ContextMenu** cannot host [Combo Box](windowsribbon-controls-combobox.md) or [Spinner](windowsribbon-controls-spinner.md) controls.
 
- 
+ 
 
 ## Examples
 
@@ -162,7 +168,7 @@ This section of code shows a set of **ContextMenu** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -174,9 +180,9 @@ This section of code shows a set of **ContextMenu** control declarations.
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

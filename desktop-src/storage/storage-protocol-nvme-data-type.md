@@ -1,8 +1,10 @@
 ---
 title: STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE enumeration
-description: Describes the type of NVMe protocol-specific data that's to be queried during an IOCTL\_STORAGE\_QUERY\_PROPERTY request.
-ms.assetid: '02DB004B-F5B9-4CA2-9CA8-9C7BFB9BA5CD'
-keywords: ["STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration Storage Devices", "PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer Storage Devices"]
+description: Describes the type of NVMe protocol-specific data thats to be queried during an IOCTL\_STORAGE\_QUERY\_PROPERTY request.
+ms.assetid: 02DB004B-F5B9-4CA2-9CA8-9C7BFB9BA5CD
+keywords:
+- STORAGE_PROTOCOL_NVME_DATA_TYPE enumeration Storage Devices
+- PSTORAGE_PROTOCOL_NVME_DATA_TYPE enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_PROTOCOL\_NVME\_DATA\_TYPE enumeration
@@ -22,7 +29,7 @@ Describes the type of NVMe protocol-specific data that's to be queried during an
 
 ```C++
 typedef enum _STORAGE_PROTOCOL_NVME_DATA_TYPE { 
-  NVMeDataTypeUnknown   = 0,
+  NVMeDataTypeUnknown   = 0,
   NVMeDataTypeIdentify,
   NVMeDataTypeLogPage,
   NVMeDataTypeFeature
@@ -91,8 +98,8 @@ To specify a type of NVMe protocol-specific information, configure the [**STORAG
 
 |                   |                                                                                                            |
 |-------------------|------------------------------------------------------------------------------------------------------------|
-| Client<br/> | Windows 10<br/>                                                                                      |
-| Server<br/> | Windows Server 2016<br/>                                                                             |
+| Client<br/> | Windows 10<br/>                                                                                      |
+| Server<br/> | Windows Server 2016<br/>                                                                             |
 | Header<br/> | <dl> <dt>Ntddstor.h (include Ntddstor.h)</dt> </dl> |
 
 
@@ -113,9 +120,9 @@ To specify a type of NVMe protocol-specific information, configure the [**STORAG
 [**STORAGE\_PROTOCOL\_SPECIFIC\_DATA**](storage-protocol-specific-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20STORAGE_PROTOCOL_NVME_DATA_TYPE%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -1,14 +1,20 @@
 ---
 title: WM/Producer Attribute
 description: The WM/Producer attribute is the name of the producer of the content.
-ms.assetid: 'b7c0dbea-ed57-4243-be76-90b2998304ba'
-keywords: ["WM/Producer Attribute Windows Media Player"]
+ms.assetid: b7c0dbea-ed57-4243-be76-90b2998304ba
+keywords:
+- WM/Producer Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Producer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Producer Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

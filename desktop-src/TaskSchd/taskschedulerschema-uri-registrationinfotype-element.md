@@ -1,14 +1,20 @@
 ---
 title: URI (registrationInfoType) Element
 description: Specifies the URI of the task.
-ms.assetid: '5b438e00-ed8a-4ec8-854f-e8eda48d1cfc'
-keywords: ["URI element Task Scheduler"]
+ms.assetid: 5b438e00-ed8a-4ec8-854f-e8eda48d1cfc
+keywords:
+- URI element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - URI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # URI (registrationInfoType) Element
@@ -38,7 +44,7 @@ The **URI** element is defined by the [**registrationInfoType**](taskschedulersc
 
 For scripting development, the URI of the task is specified using the [**RegistrationInfo.URI**](registrationinfo-uri.md) property.
 
-For C++ development, the URI of the task is specified using the [**IRegistrationInfo::URI**](iregistrationinfo-uri.md) property.
+For C++ development, the URI of the task is specified using the [**IRegistrationInfo::URI**](/windows/win32/taskschd/nf-taskschd-iregistrationinfo-get_uri?branch=master) property.
 
 ## Requirements
 
@@ -46,8 +52,8 @@ For C++ development, the URI of the task is specified using the [**IRegistration
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ For C++ development, the URI of the task is specified using the [**IRegistration
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

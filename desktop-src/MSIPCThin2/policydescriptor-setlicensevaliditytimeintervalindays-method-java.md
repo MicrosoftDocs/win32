@@ -4,17 +4,21 @@ description: Sets the time a user policy can be cached offline.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F02A0B96-41A5-4E1A-9E89-C1F6C2E65439'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F02A0B96-41A5-4E1A-9E89-C1F6C2E65439
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor.setOfflineCacheLifetimeInDays method"]
+keywords:
+- PolicyDescriptor.setOfflineCacheLifetimeInDays method
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor.setOfflineCacheLifetimeInDays method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.setOfflineCacheLifetimeInDays method
@@ -37,7 +41,7 @@ public void setOfflineCacheLifetimeInDays(int offlineCacheLifetimeInDays)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

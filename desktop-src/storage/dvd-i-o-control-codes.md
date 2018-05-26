@@ -1,7 +1,12 @@
 ---
 title: DVD I/O Control Codes
 description: DVD I/O Control Codes
-ms.assetid: 'bcaea7c5-66f6-4df1-8d17-ada34733739b'
+ms.assetid: bcaea7c5-66f6-4df1-8d17-ada34733739b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD I/O Control Codes

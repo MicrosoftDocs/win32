@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WIDTHRUN structure is used to define the contents of Unidrv font metrics files (.ufm files).'
-ms.assetid: '18cc608e-b94d-4588-98e9-c22a7949a3b6'
+---
+Description: The WIDTHRUN structure is used to define the contents of Unidrv font metrics files (.ufm files).
+ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 title: WIDTHRUN structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIDTHRUN structure

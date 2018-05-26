@@ -1,8 +1,14 @@
 ---
 title: Schedule a Storyboard
 description: After a storyboard is created, it is scheduled by the animation manager.
-ms.assetid: 'f3c8fe34-8bca-4421-a390-9e0ba9af27b4'
-keywords: ["storyboards Windows Animation ,scheduling"]
+ms.assetid: f3c8fe34-8bca-4421-a390-9e0ba9af27b4
+keywords:
+- storyboards Windows Animation ,scheduling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schedule a Storyboard
@@ -17,7 +23,7 @@ After a storyboard has been scheduled, it can no longer be altered. However, aft
 
 ## Example Code
 
-The following example code is taken from MainWindow.cpp in the Windows Animation samples [Application-Driven Animation](application-driven-animation-sample.md) and [Timer-Driven Animation](timer-driven-animation-sample.md). It uses the [**IUIAnimationStoryboard::Schedule**](iuianimationstoryboard-schedule.md) method to schedule the storyboard. This method requires the current time as a parameter.
+The following example code is taken from MainWindow.cpp in the Windows Animation samples [Application-Driven Animation](application-driven-animation-sample.md) and [Timer-Driven Animation](timer-driven-animation-sample.md). It uses the [**IUIAnimationStoryboard::Schedule**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule?branch=master) method to schedule the storyboard. This method requires the current time as a parameter.
 
 
 ```
@@ -45,10 +51,10 @@ Before starting this step, you should have completed this step: [Create a Storyb
 
 <dl> <dt>
 
-[**IUIAnimationStoryboard::Schedule**](iuianimationstoryboard-schedule.md)
+[**IUIAnimationStoryboard::Schedule**](/windows/win32/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule?branch=master)
 </dt> <dt>
 
-[**IUIAnimationTimer::GetTime**](iuianimationtimer-gettime.md)
+[**IUIAnimationTimer::GetTime**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtimer-gettime?branch=master)
 </dt> <dt>
 
 [Storyboard Overview](storyboard-construction.md)

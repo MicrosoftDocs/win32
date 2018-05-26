@@ -1,12 +1,17 @@
 ---
-Description: 'Explains the security descriptor definition language (SDDL).'
-ms.assetid: '2b15325e-34ed-497b-ae6d-3ec3ac168232'
+Description: Explains the security descriptor definition language (SDDL).
+ms.assetid: 2b15325e-34ed-497b-ae6d-3ec3ac168232
 title: Security Descriptor Definition Language
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Descriptor Definition Language
 
-The security descriptor definition language (SDDL) defines the string format that the [**ConvertSecurityDescriptorToStringSecurityDescriptor**](convertsecuritydescriptortostringsecuritydescriptor.md) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](convertstringsecuritydescriptortosecuritydescriptor.md) functions use to describe a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) as a text string. The language also defines string elements for describing information in the components of a security descriptor.
+The security descriptor definition language (SDDL) defines the string format that the [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora?branch=master) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/win32/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora?branch=master) functions use to describe a [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) as a text string. The language also defines string elements for describing information in the components of a security descriptor.
 
 > [!Note]  
 > Conditional [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) have a different SDDL format than other ACE types. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).

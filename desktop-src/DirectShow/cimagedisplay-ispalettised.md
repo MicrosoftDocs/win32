@@ -1,7 +1,12 @@
 ---
-Description: 'The IsPalettised method determines whether the current display format is palettized.'
-ms.assetid: '837c67a2-2438-4779-bdf7-31ee135532ff'
-title: 'CImageDisplay.IsPalettised method'
+Description: The IsPalettised method determines whether the current display format is palettized.
+ms.assetid: 837c67a2-2438-4779-bdf7-31ee135532ff
+title: CImageDisplay.IsPalettised method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.IsPalettised method
@@ -43,9 +48,9 @@ Returns **TRUE** if the format is palettized, or **FALSE** otherwise.
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

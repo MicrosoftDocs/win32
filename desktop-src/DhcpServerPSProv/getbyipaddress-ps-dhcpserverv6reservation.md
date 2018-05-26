@@ -4,13 +4,16 @@ description: Returns the reserved IPv6 addresses on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '466abae9-85f7-4564-beb6-35bcbf2c5d7c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 466abae9-85f7-4564-beb6-35bcbf2c5d7c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByIPAddress method", "GetByIPAddress method, PS_DhcpServerv6Reservation class", "PS_DhcpServerv6Reservation class, GetByIPAddress method"]
+keywords:
+- GetByIPAddress method
+- GetByIPAddress method, PS_DhcpServerv6Reservation class
+- PS_DhcpServerv6Reservation class, GetByIPAddress method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByIPAddress method of the PS\_DhcpServerv6Reservation class
@@ -30,9 +36,9 @@ Returns the reserved IPv6 addresses on the server.
 
 ```mof
 uint32 GetByIPAddress(
-  [in]  string                  ComputerName,
-  [in]  string                  IPAddress[],
-  [out] DhcpServerv6Reservation cmdletOutput[]
+  [in]  string                  ComputerName,
+  [in]  string                  IPAddress[],
+  [out] DhcpServerv6Reservation cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of the [**DhcpServerv6Reservation**](dhcpserverv6reservatio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of the [**DhcpServerv6Reservation**](dhcpserverv6reservatio
 [**PS\_DhcpServerv6Reservation**](ps-dhcpserverv6reservation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

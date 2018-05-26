@@ -4,13 +4,19 @@ description: Sets one or more SMB client configuration settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '55bb0493-9481-48ed-92df-97accc33202d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 55bb0493-9481-48ed-92df-97accc33202d
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetConfiguration method SMB", "SetConfiguration method SMB , MSFT_SmbClientConfiguration class", "MSFT_SmbClientConfiguration class SMB , SetConfiguration method"]
+keywords:
+- SetConfiguration method SMB
+- SetConfiguration method SMB , MSFT_SmbClientConfiguration class
+- MSFT_SmbClientConfiguration class SMB , SetConfiguration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetConfiguration method of the MSFT\_SmbClientConfiguration class
@@ -22,31 +28,31 @@ Sets one or more SMB client configuration settings.
 
 ```mof
 uint32 SetConfiguration(
-  [in] uint32  ConnectionCountPerRssNetworkInterface,
-  [in] uint32  DirectoryCacheEntriesMax,
-  [in] uint32  DirectoryCacheEntrySizeMax,
-  [in] uint32  DirectoryCacheLifetime,
-  [in] boolean EnableBandwidthThrottling,
-  [in] boolean EnableByteRangeLockingOnReadOnlyFiles,
-  [in] boolean EnableLargeMtu,
-  [in] boolean EnableMultiChannel,
-  [in] uint32  DormantFileLimit,
-  [in] boolean EnableSecuritySignature,
-  [in] uint32  ExtendedSessionTimeout,
-  [in] uint32  FileInfoCacheEntriesMax,
-  [in] uint32  FileInfoCacheLifetime,
-  [in] uint32  FileNotFoundCacheEntriesMax,
-  [in] uint32  FileNotFoundCacheLifetime,
-  [in] uint32  KeepConn,
-  [in] uint32  MaxCmds,
-  [in] uint32  MaximumConnectionCountPerServer,
-  [in] boolean OplocksDisabled,
-  [in] boolean RequireSecuritySignature,
-  [in] uint32  SessionTimeout,
-  [in] boolean UseOpportunisticLocking,
-  [in] uint32  WindowSizeThreshold,
-  [in] boolean EnableLoadBalanceScaleOut,
-  [in] boolean EnableInsecureGuestLogons
+  [in] uint32  ConnectionCountPerRssNetworkInterface,
+  [in] uint32  DirectoryCacheEntriesMax,
+  [in] uint32  DirectoryCacheEntrySizeMax,
+  [in] uint32  DirectoryCacheLifetime,
+  [in] boolean EnableBandwidthThrottling,
+  [in] boolean EnableByteRangeLockingOnReadOnlyFiles,
+  [in] boolean EnableLargeMtu,
+  [in] boolean EnableMultiChannel,
+  [in] uint32  DormantFileLimit,
+  [in] boolean EnableSecuritySignature,
+  [in] uint32  ExtendedSessionTimeout,
+  [in] uint32  FileInfoCacheEntriesMax,
+  [in] uint32  FileInfoCacheLifetime,
+  [in] uint32  FileNotFoundCacheEntriesMax,
+  [in] uint32  FileNotFoundCacheLifetime,
+  [in] uint32  KeepConn,
+  [in] uint32  MaxCmds,
+  [in] uint32  MaximumConnectionCountPerServer,
+  [in] boolean OplocksDisabled,
+  [in] boolean RequireSecuritySignature,
+  [in] uint32  SessionTimeout,
+  [in] boolean UseOpportunisticLocking,
+  [in] uint32  WindowSizeThreshold,
+  [in] boolean EnableLoadBalanceScaleOut,
+  [in] boolean EnableInsecureGuestLogons
 );
 ```
 
@@ -222,7 +228,7 @@ The minimum window size before Multichannel will trigger the use of multiple con
 
 Specifies whether load balancing is enabled with scale out clusters. **True** to enable load balancing with scale out clusters; **False** to disable it.
 
-**Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2012 R2 and Windows 8.1.
 
 </dd> <dt>
 
@@ -231,7 +237,7 @@ Specifies whether load balancing is enabled with scale out clusters. **True** to
 
 TBD
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2016 and Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2016 and Windows 10.
 
 </dd> </dl>
 
@@ -241,8 +247,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -256,9 +262,9 @@ TBD
 [**MSFT\_SmbClientConfiguration**](msft-smbclientconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

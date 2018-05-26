@@ -1,7 +1,12 @@
 ---
 title: What Is a COM Interface
 description: What Is a COM Interface
-ms.assetid: '36f27a58-cc63-4b67-bdcb-8f9a19650c6a'
+ms.assetid: 36f27a58-cc63-4b67-bdcb-8f9a19650c6a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What Is a COM Interface?

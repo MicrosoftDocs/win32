@@ -4,17 +4,22 @@ description: An attribute that defines the length in bytes of the random salt us
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b8c53765-e6fd-499c-8003-e02a903a059c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b8c53765-e6fd-499c-8003-e02a903a059c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-NSEC3-Random-Salt-Length attribute AD Schema", "msDNS-NSEC3RandomSaltLength attribute AD Schema"]
+keywords:
+- ms-DNS-NSEC3-Random-Salt-Length attribute AD Schema
+- msDNS-NSEC3RandomSaltLength attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-NSEC3-Random-Salt-Length
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-NSEC3-Random-Salt-Length attribute
@@ -38,7 +43,7 @@ An attribute that defines the length in bytes of the random salt used when signi
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that defines the length in bytes of the random salt used when signi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

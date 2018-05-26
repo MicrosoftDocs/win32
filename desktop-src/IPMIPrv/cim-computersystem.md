@@ -4,13 +4,15 @@ description: Provides scope for a collection of managed system elements associat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f3708b5d-d667-46ae-9807-5d930d878453'
-ms.prod: 'windows-server-dev'
+ms.assetid: f3708b5d-d667-46ae-9807-5d930d878453
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ComputerSystem class", "CIM_ComputerSystem class, described"]
+keywords:
+- CIM_ComputerSystem class
+- CIM_ComputerSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -44,6 +46,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ComputerSystem class
@@ -58,31 +63,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.1000"), UUID("{6e0e9528-e2d9-42e4-82f9-124727330ed9}"), AMENDMENT]
 class CIM_ComputerSystem : CIM_System
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
-  string   OtherDedicatedDescriptions[];
-  uint16   ResetCapability;
-  uint16   PowerManagementCapabilities[];
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
+  string   OtherDedicatedDescriptions[];
+  uint16   ResetCapability;
+  uint16   PowerManagementCapabilities[];
 };
 ```
 
@@ -106,7 +111,7 @@ The **CIM\_ComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -369,14 +374,14 @@ Whether the computer system is a special-purpose System, that is dedicated to a 
 **DMTF Reserved**
 
 
-</dt> <dd>28–32567</dd> <dt>
+</dt> <dd>28 32567</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32568–65535</dd> </dl>
+</dt> <dd>32568 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -463,14 +468,14 @@ An administrator's default or startup configuration for the **EnabledState** of 
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -1306,14 +1311,14 @@ The last requested or desired state for the element. The actual state of the ele
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -1490,8 +1495,8 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -1505,9 +1510,9 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 [**CIM\_System**](cim-system.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

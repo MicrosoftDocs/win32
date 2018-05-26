@@ -1,7 +1,12 @@
 ---
-Description: 'The NMEVENTDATA structure contains information about an event condition that is passed to Network Monitor to insert a line in the expert viewer.'
-ms.assetid: '35cda410-d45a-4a51-91b7-8bd4a0c9957f'
+Description: The NMEVENTDATA structure contains information about an event condition that is passed to Network Monitor to insert a line in the expert viewer.
+ms.assetid: 35cda410-d45a-4a51-91b7-8bd4a0c9957f
 title: NMEVENTDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NMEVENTDATA structure
@@ -13,18 +18,18 @@ The **NMEVENTDATA** structure contains information about an event condition that
 
 ```C++
 typedef struct {
-  BYTE         Version;
-  DWORD        EventIdent;
-  DWORD        Flags;
-  DWORD        Severity;
-  BYTE         NumColumns;
-  LPSTR        szSourceName;
-  LPSTR        szEventName;
-  LPSTR        szDescription;
-  LPSTR        szMachine;
-  JTYPE        Justification;
-  LPSTR        szUrl;
-  SYSTEMTIME   SysTime;
+  BYTE         Version;
+  DWORD        EventIdent;
+  DWORD        Flags;
+  DWORD        Severity;
+  BYTE         NumColumns;
+  LPSTR        szSourceName;
+  LPSTR        szEventName;
+  LPSTR        szDescription;
+  LPSTR        szMachine;
+  JTYPE        Justification;
+  LPSTR        szUrl;
+  SYSTEMTIME   SysTime;
   NMCOLUMNINFO Column[];
 } NMEVENTDATA, *PNMEVENTDATA;
 ```
@@ -69,7 +74,7 @@ A set of flags that describes who sends the event data, and how the event is dis
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -151,15 +156,15 @@ Table of column structures that appears in the top pane of the Event Viewer.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

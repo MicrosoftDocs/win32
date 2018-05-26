@@ -1,7 +1,12 @@
 ---
 title: On Attribute (TextPath)(VML)
 description: On Attribute (TextPath)(VML)
-ms.assetid: 'b4a88473-6d5f-42b3-afd6-86f602c83724'
+ms.assetid: b4a88473-6d5f-42b3-afd6-86f602c83724
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On Attribute (TextPath)(VML)

@@ -1,13 +1,19 @@
 ---
 title: AuthenticationLevel
 description: Sets the authentication level for applications that do not call CoInitializeSecurity or for applications that call CoInitializeSecurity and specify an AppID.
-ms.assetid: '137cbffe-6f45-43f4-bf35-b064b3607fcc'
-keywords: ["AuthenticationLevel registry value COM"]
+ms.assetid: 137cbffe-6f45-43f4-bf35-b064b3607fcc
+keywords:
+- AuthenticationLevel registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthenticationLevel
 
-Sets the authentication level for applications that do not call [**CoInitializeSecurity**](coinitializesecurity.md) or for applications that call **CoInitializeSecurity** and specify an AppID.
+Sets the authentication level for applications that do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or for applications that call **CoInitializeSecurity** and specify an AppID.
 
 ## Registry Entry
 
@@ -38,7 +44,7 @@ This is a **REG\_DWORD** value that is equivalent to the RPC\_C\_AUTHN\_LEVEL co
 
 The **AuthenticationLevel** value is similar to the [**LegacyAuthenticationLevel**](legacyauthenticationlevel.md) value. If the **AuthenticationLevel** value is present, it is used instead of the **LegacyAuthenticationLevel** value for that AppID.
 
-If the **AuthenticationLevel** value is of the wrong type or out of range, [**CoInitializeSecurity**](coinitializesecurity.md) fails, causing interface marshaling to fail. This prevents the application from making any calls at all (cross-apartment, cross-thread, cross-process, or cross-computer).
+If the **AuthenticationLevel** value is of the wrong type or out of range, [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) fails, causing interface marshaling to fail. This prevents the application from making any calls at all (cross-apartment, cross-thread, cross-process, or cross-computer).
 
 The **AuthenticationLevel** and [**AccessPermission**](accesspermission.md) values are independent. If one is not present, the default is used. The following rules list the interaction between the **AuthenticationLevel** value and the **AccessPermission** value:
 

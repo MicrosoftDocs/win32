@@ -1,8 +1,17 @@
 ---
 title: Porting Rendering Contexts
 description: Porting Rendering Contexts
-ms.assetid: '8655a81b-9f13-4ee5-ba0d-9aa9da1bfd09'
-keywords: ["rendering contexts OpenGL ,porting", "OpenGL on Windows,rendering contexts", "porting to OpenGL,rendering contexts", "OpenGL porting,rendering contexts"]
+ms.assetid: 8655a81b-9f13-4ee5-ba0d-9aa9da1bfd09
+keywords:
+- rendering contexts OpenGL ,porting
+- OpenGL on Windows,rendering contexts
+- porting to OpenGL,rendering contexts
+- OpenGL porting,rendering contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Rendering Contexts
@@ -16,11 +25,11 @@ The following table lists the GLX rendering functions and their equivalent Windo
 | GLX rendering context function                                                                            | Windows rendering context function                                      |
 |-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | GLXContext**glXCopyContext**( Display *\*dpy*,GLXContext *src*,GLXContext *dst*,GLuint *mask*)            | Not applicable.                                                         |
-| GLXContext**glXCreateContext**( Display *\*dpy*,XVisualInfo *\*vis*,GLXContext *shareList*,Bool *direct*) | HGLRC [**wglCreateContext**](wglcreatecontext.md)( HDC *hdc*)          |
-| void **glXDeleteContext**( Display *\*dpy*,GLXContext *ctx*)                                              | BOOL [**wglDeleteContext**](wgldeletecontext.md)( HGLRC *hglrc*)       |
-| GLXContext **glXGetCurrentContext**(*void*)                                                               | HGLRC [**wglGetCurrentContext**](wglgetcurrentcontext.md)(*VOID*)      |
-| GLXDrawable **glXGetCurrentDrawable**(*void*)                                                             | HDC [**wglGetCurrentDC**](wglgetcurrentdc.md)(*VOID*)                  |
-| Bool**glXMakeCurrent**( Display *\*dpy*,GLXDrawable *draw*,GLXContext *ctx*)                              | BOOL [**wglMakeCurrent**](wglmakecurrent.md)( HDC *hdc*,HGLRC *hglrc*) |
+| GLXContext**glXCreateContext**( Display *\*dpy*,XVisualInfo *\*vis*,GLXContext *shareList*,Bool *direct*) | HGLRC [**wglCreateContext**](/windows/win32/wingdi/nf-wingdi-wglcreatecontext?branch=master)( HDC *hdc*)          |
+| void **glXDeleteContext**( Display *\*dpy*,GLXContext *ctx*)                                              | BOOL [**wglDeleteContext**](/windows/win32/wingdi/nf-wingdi-wgldeletecontext?branch=master)( HGLRC *hglrc*)       |
+| GLXContext **glXGetCurrentContext**(*void*)                                                               | HGLRC [**wglGetCurrentContext**](/windows/win32/wingdi/nf-wingdi-wglgetcurrentcontext?branch=master)(*VOID*)      |
+| GLXDrawable **glXGetCurrentDrawable**(*void*)                                                             | HDC [**wglGetCurrentDC**](/windows/win32/wingdi/nf-wingdi-wglgetcurrentdc?branch=master)(*VOID*)                  |
+| Bool**glXMakeCurrent**( Display *\*dpy*,GLXDrawable *draw*,GLXContext *ctx*)                              | BOOL [**wglMakeCurrent**](/windows/win32/wingdi/nf-wingdi-wglmakecurrent?branch=master)( HDC *hdc*,HGLRC *hglrc*) |
 
 
 

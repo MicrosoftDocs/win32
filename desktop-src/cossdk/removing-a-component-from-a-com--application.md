@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the Component Services administrative tool to remove components from a COM+ application.'
-ms.assetid: '3a107cd6-ef46-42ea-9238-434d0254a7bb'
+Description: You can use the Component Services administrative tool to remove components from a COM+ application.
+ms.assetid: 3a107cd6-ef46-42ea-9238-434d0254a7bb
 title: Removing a Component from a COM+ Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removing a Component from a COM+ Application

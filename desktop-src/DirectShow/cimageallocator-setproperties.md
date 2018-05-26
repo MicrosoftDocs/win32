@@ -1,7 +1,12 @@
 ---
-Description: 'The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method overrides the CBaseAllocator::SetProperties method.'
-ms.assetid: '8d419432-a9a7-44fb-b916-8dacd08eb6ec'
-title: 'CImageAllocator.SetProperties method'
+Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method overrides the CBaseAllocatorSetProperties method.
+ms.assetid: 8d419432-a9a7-44fb-b916-8dacd08eb6ec
+title: CImageAllocator.SetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageAllocator.SetProperties method
@@ -13,8 +18,8 @@ The `SetProperties` method specifies the number of buffers to allocate and the s
 
 ```C++
 HRESULT SetProperties(
-   ALLOCATOR_PROPERTIES *pRequest,
-   ALLOCATOR_PROPERTIES *pActual
+   ALLOCATOR_PROPERTIES *pRequest,
+   ALLOCATOR_PROPERTIES *pActual
 );
 ```
 
@@ -27,7 +32,7 @@ HRESULT SetProperties(
 *pRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that contains the buffer requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that contains the buffer requirements.
 
 </dd> <dt>
 
@@ -64,9 +69,9 @@ This method calls [**CImageAllocator::CheckSizes**](cimageallocator-checksizes.m
 [**CImageAllocator Class**](cimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'You may apply the small update to an administrative source image of MNP2000.msi by installing the sample patch MNP2000.msp created in Generating a Patch Package.'
-ms.assetid: '24ae9cd6-2057-4345-90ec-943da7620cb0'
+Description: You may apply the small update to an administrative source image of MNP2000.msi by installing the sample patch MNP2000.msp created in Generating a Patch Package.
+ms.assetid: 24ae9cd6-2057-4345-90ec-943da7620cb0
 title: Applying a Patch Package to an Administrative Installation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying a Patch Package to an Administrative Installation

@@ -1,7 +1,12 @@
 ---
 title: To create a link to a command without using a button
 description: To create a link to a command without using a button
-ms.assetid: '76FA0718-4A64-4ca4-B6FD-E8F35F833A11'
+ms.assetid: 76FA0718-4A64-4ca4-B6FD-E8F35F833A11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a link to a command without using a button
@@ -15,7 +20,7 @@ ms.assetid: '76FA0718-4A64-4ca4-B6FD-E8F35F833A11'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click a command. You must enter the ID name to use for this instance of the HTML Help ActiveX control because you will use scripting to access the command.
 4.  Click **Next**, and then click **Hidden** to specify that you will be scripting this use of the control.
@@ -34,9 +39,9 @@ ms.assetid: '76FA0718-4A64-4ca4-B6FD-E8F35F833A11'
 [About Working with Links](work-with-links.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

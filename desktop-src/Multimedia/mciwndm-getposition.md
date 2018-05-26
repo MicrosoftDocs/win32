@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETPOSITION message
 description: The MCIWNDM\_GETPOSITION message retrieves the numerical value of the current position within the content of the MCI device.
-ms.assetid: '6dc5d3bd-8515-4514-a2a5-c1bee07f7acf'
-keywords: ["MCIWNDM_GETPOSITION message Windows Multimedia"]
+ms.assetid: 6dc5d3bd-8515-4514-a2a5-c1bee07f7acf
+keywords:
+- MCIWNDM_GETPOSITION message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETPOSITION message
 
-The **MCIWNDM\_GETPOSITION** message retrieves the numerical value of the current position within the content of the MCI device. This macro also provides the current position in string form in an application-defined buffer. You can send this message explicitly or by using the [**MCIWndGetPosition**](mciwndgetposition.md) or [**MCIWndGetPositionString**](mciwndgetpositionstring.md) macro.
+The **MCIWNDM\_GETPOSITION** message retrieves the numerical value of the current position within the content of the MCI device. This macro also provides the current position in string form in an application-defined buffer. You can send this message explicitly or by using the [**MCIWndGetPosition**](/windows/win32/Vfw/nf-vfw-mciwndgetposition?branch=master) or [**MCIWndGetPositionString**](/windows/win32/Vfw/nf-vfw-mciwndgetpositionstring?branch=master) macro.
 
 
 ```C++
@@ -54,8 +60,8 @@ Returns an integer corresponding to the current position. The units for the posi
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -64,15 +70,15 @@ Returns an integer corresponding to the current position. The units for the posi
 
 <dl> <dt>
 
-[**MCIWndGetPosition**](mciwndgetposition.md)
+[**MCIWndGetPosition**](/windows/win32/Vfw/nf-vfw-mciwndgetposition?branch=master)
 </dt> <dt>
 
-[**MCIWndGetPositionString**](mciwndgetpositionstring.md)
+[**MCIWndGetPositionString**](/windows/win32/Vfw/nf-vfw-mciwndgetpositionstring?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: For enhanced security, you might choose to disable Remote Desktop S
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93505e3a-a4f8-4b94-8dbb-646140b6fa58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 93505e3a-a4f8-4b94-8dbb-646140b6fa58
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disabling Remote Desktop Services features

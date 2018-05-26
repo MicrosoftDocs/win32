@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the template ID in this file data object.'
-ms.assetid: 'abc53dda-d3ed-461b-b3d8-a64845c44c81'
-title: 'ID3DXFileData::GetType method'
+---
+Description: Retrieves the template ID in this file data object.
+ms.assetid: abc53dda-d3ed-461b-b3d8-a64845c44c81
+title: ID3DXFileDataGetType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileData::GetType method

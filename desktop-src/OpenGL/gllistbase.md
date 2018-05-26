@@ -1,8 +1,9 @@
 ---
 title: glListBase function
 description: The glListBase function sets the display list base for glCallLists.
-ms.assetid: 'df82f699-b2af-471a-83f3-5620857ba45d'
-keywords: ["glListBase function OpenGL"]
+ms.assetid: df82f699-b2af-471a-83f3-5620857ba45d
+keywords:
+- glListBase function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glListBase function
@@ -22,7 +28,7 @@ The **glListBase** function sets the display list base for **glCallLists**.
 
 ```C++
 void WINAPI glListBase(
-   GLuint base
+   GLuint base
 );
 ```
 
@@ -81,8 +87,8 @@ The following function retrieves information related to **glListBase**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -102,9 +108,9 @@ The following function retrieves information related to **glListBase**:
 [**glEnd**](glend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

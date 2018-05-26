@@ -4,11 +4,14 @@ description: Used in conjunction with ClusProperties.SaveChanges to return a pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6ac19293-d489-41ee-b585-6997a29591af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6ac19293-d489-41ee-b585-6997a29591af
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["UseDefaultValue method Failover Cluster", "UseDefaultValue method Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , UseDefaultValue method"]
+keywords:
+- UseDefaultValue method Failover Cluster
+- UseDefaultValue method Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , UseDefaultValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.UseDefaultValue method
@@ -111,7 +117,7 @@ End Function
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -127,9 +133,9 @@ End Function
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

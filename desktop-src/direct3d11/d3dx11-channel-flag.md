@@ -1,8 +1,10 @@
 ---
 title: D3DX11\_CHANNEL\_FLAG enumeration
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. These flags are used by functions which operate on one or more channels in a texture.
-ms.assetid: '058a0a1e-3c1b-4397-a41a-2e47d878cd92'
-keywords: ["D3DX11_CHANNEL_FLAG enumeration Direct3D 11", "LPD3DX11_CHANNEL_FLAG enumeration pointer Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. These flags are used by functions which operate on one or more channels in a texture.
+ms.assetid: 058a0a1e-3c1b-4397-a41a-2e47d878cd92
+keywords:
+- D3DX11_CHANNEL_FLAG enumeration Direct3D 11
+- LPD3DX11_CHANNEL_FLAG enumeration pointer Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_CHANNEL\_FLAG enumeration
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 These flags are used by functions which operate on one or more channels in a texture.
 
@@ -27,11 +34,11 @@ These flags are used by functions which operate on one or more channels in a tex
 
 ```C++
 typedef enum D3DX11_CHANNEL_FLAG { 
-  D3DX11_CHANNEL_RED        = (1 << 0),
-  D3DX11_CHANNEL_BLUE       = (1 << 1),
-  D3DX11_CHANNEL_GREEN      = (1 << 2),
-  D3DX11_CHANNEL_ALPHA      = (1 << 3),
-  D3DX11_CHANNEL_LUMINANCE  = (1 << 4)
+  D3DX11_CHANNEL_RED        = (1 << 0),
+  D3DX11_CHANNEL_BLUE       = (1 << 1),
+  D3DX11_CHANNEL_GREEN      = (1 << 2),
+  D3DX11_CHANNEL_ALPHA      = (1 << 3),
+  D3DX11_CHANNEL_LUMINANCE  = (1 << 4)
 } D3DX11_CHANNEL_FLAG, *LPD3DX11_CHANNEL_FLAG;
 ```
 
@@ -93,9 +100,9 @@ Indicates the luminaces of the red, green, and blue channels should be used.
 [D3DX Enumerations](d3d11-graphics-reference-d3dx11-enums.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

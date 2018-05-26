@@ -1,7 +1,12 @@
 ---
-Description: 'When an application converts strings from ASCII or from a Windows (ANSI) code page to Unicode, it should translate escape sequences character-by-character into Unicode.'
-ms.assetid: '4be0fd47-0903-44d3-a323-0adc6e9c0cc9'
+Description: When an application converts strings from ASCII or from a Windows (ANSI) code page to Unicode, it should translate escape sequences character-by-character into Unicode.
+ms.assetid: 4be0fd47-0903-44d3-a323-0adc6e9c0cc9
 title: Using Escape Sequences and Control Characters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Escape Sequences and Control Characters

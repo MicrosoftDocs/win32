@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RetryDelay property for a FaxServer object. The RetryDelay property is a value that represents the time interval, in minutes, the fax server waits before attempting to retransmit an outbound fax job.'
-ms.assetid: '999ec37f-7516-49f6-b3ab-626a33dee65f'
-title: 'FaxServer.RetryDelay property'
+---
+Description: Sets or retrieves the RetryDelay property for a FaxServer object. The RetryDelay property is a value that represents the time interval, in minutes, the fax server waits before attempting to retransmit an outbound fax job.
+ms.assetid: 999ec37f-7516-49f6-b3ab-626a33dee65f
+title: FaxServer.RetryDelay property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.RetryDelay property

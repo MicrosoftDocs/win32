@@ -1,7 +1,12 @@
 ---
 title: retval
 description: Designates the parameter that receives the return value of the member.
-ms.assetid: '171d8eb3-ab20-4cb9-a17a-903ebc81c48d'
+ms.assetid: 171d8eb3-ab20-4cb9-a17a-903ebc81c48d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # retval

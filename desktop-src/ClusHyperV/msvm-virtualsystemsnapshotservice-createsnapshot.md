@@ -4,13 +4,16 @@ description: Creates a snapshot of a virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a1287525-83bf-4725-b7d6-b59ef6acb575'
-ms.prod: 'windows-server-dev'
+ms.assetid: a1287525-83bf-4725-b7d6-b59ef6acb575
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateSnapshot method", "CreateSnapshot method, Msvm_VirtualSystemSnapshotService class", "Msvm_VirtualSystemSnapshotService class, CreateSnapshot method"]
+keywords:
+- CreateSnapshot method
+- CreateSnapshot method, Msvm_VirtualSystemSnapshotService class
+- Msvm_VirtualSystemSnapshotService class, CreateSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class
@@ -30,11 +36,11 @@ Creates a snapshot of a virtual machine.
 
 ```mof
 uint32 CreateSnapshot(
-  [in]      CIM_ComputerSystem           REF AffectedSystem,
-  [in]      string                           SnapshotSettings,
-  [in]      uint16                           SnapshotType,
-  [in, out] CIM_VirtualSystemSettingData REF ResultingSnapshot,
-  [out]     CIM_ConcreteJob              REF Job
+  [in]      CIM_ComputerSystem           REF AffectedSystem,
+  [in]      string                           SnapshotSettings,
+  [in]      uint16                           SnapshotType,
+  [in, out] CIM_VirtualSystemSettingData REF ResultingSnapshot,
+  [out]     CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -86,14 +92,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *ResultingSnapshot* \[in, out\]
 </dt> <dd>
@@ -136,16 +142,16 @@ This method returns one of the following values.
 **Invalid Type** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -155,7 +161,7 @@ This method returns one of the following values.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Dbdaoint.h</dt> </dl>                  |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
@@ -170,9 +176,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

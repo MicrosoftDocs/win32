@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PowerSupply class represents the capabilities and management of the power supply logical device.'
+Description: The CIM\_PowerSupply class represents the capabilities and management of the power supply logical device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a9b79564-01d9-42a4-8586-782f179c179f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a9b79564-01d9-42a4-8586-782f179c179f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PowerSupply class'
+title: CIM\_PowerSupply class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PowerSupply class
@@ -19,7 +22,7 @@ The **CIM\_PowerSupply** class represents the capabilities and management of the
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,37 +32,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C547-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_PowerSupply : CIM_LogicalDevice
 {
-  uint16   ActiveInputVoltage;
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   ActiveInputVoltage;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsSwitchingSupply;
-  uint32   LastErrorCode;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   Range1InputFrequencyHigh;
-  uint32   Range1InputFrequencyLow;
-  uint32   Range1InputVoltageHigh;
-  uint32   Range1InputVoltageLow;
-  uint32   Range2InputFrequencyHigh;
-  uint32   Range2InputFrequencyLow;
-  uint32   Range2InputVoltageHigh;
-  uint32   Range2InputVoltageLow;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   TotalOutputPower;
-  uint16   TypeOfRangeSwitching;
+  boolean  IsSwitchingSupply;
+  uint32   LastErrorCode;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   Range1InputFrequencyHigh;
+  uint32   Range1InputFrequencyLow;
+  uint32   Range1InputVoltageHigh;
+  uint32   Range1InputVoltageLow;
+  uint32   Range2InputFrequencyHigh;
+  uint32   Range2InputFrequencyLow;
+  uint32   Range2InputVoltageHigh;
+  uint32   Range2InputVoltageLow;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   TotalOutputPower;
+  uint16   TypeOfRangeSwitching;
 };
 ```
 
@@ -83,7 +86,7 @@ The **CIM\_PowerSupply** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1439,8 +1442,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1454,9 +1457,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

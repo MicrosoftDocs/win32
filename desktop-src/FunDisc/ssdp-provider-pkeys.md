@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the PKEYs associated with the SSDP Provider.'
-ms.assetid: '38decada-12c4-438e-8bfe-7e2b5b8adb44'
+Description: Defines the PKEYs associated with the SSDP Provider.
+ms.assetid: 38decada-12c4-438e-8bfe-7e2b5b8adb44
 title: SSDP Provider PKEYs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSDP Provider PKEYs
@@ -50,8 +55,8 @@ The GUID of the network interface upon which the device was discovered. PROPVARI
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h</dt> </dl> |
 
 
@@ -66,9 +71,9 @@ The GUID of the network interface upon which the device was discovered. PROPVARI
 [SSDP provider](ssdp-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

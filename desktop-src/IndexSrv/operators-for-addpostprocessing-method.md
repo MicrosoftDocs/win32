@@ -1,7 +1,12 @@
 ---
 title: Operators for AddPostProcessing Method
 description: Operators for AddPostProcessing Method
-ms.assetid: '89c9da65-83bd-43a9-8c6a-27606098560d'
+ms.assetid: 89c9da65-83bd-43a9-8c6a-27606098560d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators for AddPostProcessing Method

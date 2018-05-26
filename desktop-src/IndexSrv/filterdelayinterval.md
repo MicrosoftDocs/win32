@@ -1,7 +1,12 @@
 ---
 title: FilterDelayInterval
 description: FilterDelayInterval
-ms.assetid: 'bb2cc61c-1f0c-4593-bc8e-3c3472c163ca'
+ms.assetid: bb2cc61c-1f0c-4593-bc8e-3c3472c163ca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterDelayInterval

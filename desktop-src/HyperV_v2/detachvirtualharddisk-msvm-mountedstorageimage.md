@@ -1,7 +1,12 @@
 ---
-Description: 'Detaches the mounted storage image that is associated with this class.'
-ms.assetid: 'C3AB0EEE-71FE-4049-90AB-01F5D77E3B97'
-title: 'DetachVirtualHardDisk method of the Msvm\_MountedStorageImage class'
+Description: Detaches the mounted storage image that is associated with this class.
+ms.assetid: C3AB0EEE-71FE-4049-90AB-01F5D77E3B97
+title: DetachVirtualHardDisk method of the Msvm\_MountedStorageImage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetachVirtualHardDisk method of the Msvm\_MountedStorageImage class
@@ -93,8 +98,8 @@ public static void DetachVirtualHardDisk(string path)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -108,9 +113,9 @@ public static void DetachVirtualHardDisk(string path)
 [**Msvm\_MountedStorageImage**](msvm-mountedstorageimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

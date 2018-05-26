@@ -1,7 +1,12 @@
 ---
-Description: 'Width of the client area, in pixels.'
-ms.assetid: 'b4970e1a-a358-4cf0-9ae6-2b221b332f6f'
-title: 'CBaseWindow::m\_Width member'
+Description: Width of the client area, in pixels.
+ms.assetid: b4970e1a-a358-4cf0-9ae6-2b221b332f6f
+title: CBaseWindowm\_Width member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_Width member
@@ -35,9 +40,9 @@ LONG m_Width;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

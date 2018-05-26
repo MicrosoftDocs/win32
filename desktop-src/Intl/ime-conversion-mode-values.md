@@ -1,12 +1,17 @@
 ---
-Description: 'These values are used with the ImmGetConversionStatus and ImmSetConversionStatus functions.'
-ms.assetid: '0b0afb4e-f7aa-4ca6-9174-21983b2a422b'
+Description: These values are used with the ImmGetConversionStatus and ImmSetConversionStatus functions.
+ms.assetid: 0b0afb4e-f7aa-4ca6-9174-21983b2a422b
 title: IME Conversion Mode Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IME Conversion Mode Values
 
-These values are used with the [**ImmGetConversionStatus**](immgetconversionstatus.md) and [**ImmSetConversionStatus**](immsetconversionstatus.md) functions.
+These values are used with the [**ImmGetConversionStatus**](/windows/win32/Imm/nf-imm-immgetconversionstatus?branch=master) and [**ImmSetConversionStatus**](/windows/win32/Imm/nf-imm-immsetconversionstatus?branch=master) functions.
 
 
 

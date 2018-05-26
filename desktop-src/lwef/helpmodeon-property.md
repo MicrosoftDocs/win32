@@ -1,7 +1,12 @@
 ---
 title: HelpModeOn Property
 description: HelpModeOn Property
-ms.assetid: '4a9b5fd3-12e2-489b-8ce0-9b66b01f517a'
+ms.assetid: 4a9b5fd3-12e2-489b-8ce0-9b66b01f517a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HelpModeOn Property
@@ -30,7 +35,7 @@ Returns or sets whether context-sensitive Help mode is on for the character.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -47,9 +52,9 @@ This property applies only to your client application's use of the character; th
 [**HelpComplete event**](helpcomplete-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The InputPin method retrieves a pointer to the filter''s input pin.'
-ms.assetid: '533a962e-225d-4f10-a9c3-1464bea512ba'
-title: 'CTransInPlaceFilter.InputPin method'
+Description: The InputPin method retrieves a pointer to the filters input pin.
+ms.assetid: 533a962e-225d-4f10-a9c3-1464bea512ba
+title: CTransInPlaceFilter.InputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.InputPin method
@@ -43,9 +48,9 @@ Returns the [**CTransformFilter::m\_pInput**](ctransformfilter-m-pinput.md) memb
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

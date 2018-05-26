@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DMAChannel WMI class represents a direct memory access (DMA) channel on a computer system running Windows.'
+Description: The Win32\_DMAChannel WMI class represents a direct memory access (DMA) channel on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cc517aac-7bd4-4937-8b07-2597076fca2c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cc517aac-7bd4-4937-8b07-2597076fca2c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DMAChannel class'
+title: Win32\_DMAChannel class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DMAChannel class
@@ -24,25 +27,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4D1-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_DMAChannel : CIM_DMA
 {
-  uint16   AddressSize;
-  uint16   Availability;
-  boolean  BurstMode;
-  uint16   ByteMode;
-  string   Caption;
-  uint16   ChannelTiming;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  uint32   DMAChannel;
+  uint16   AddressSize;
+  uint16   Availability;
+  boolean  BurstMode;
+  uint16   ByteMode;
+  string   Caption;
+  uint16   ChannelTiming;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  uint32   DMAChannel;
   datetime InstallDate;
-  uint32   MaxTransferSize;
-  string   Name;
-  uint32   Port;
-  string   Status;
-  uint16   TransferWidths[];
-  uint16   TypeCTiming;
-  uint16   WordMode;
+  uint32   MaxTransferSize;
+  string   Name;
+  uint32   Port;
+  string   Status;
+  uint16   TransferWidths[];
+  uint16   TypeCTiming;
+  uint16   WordMode;
 };
 ```
 
@@ -70,7 +73,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("MIF.DMTF\|System Resource DMA Info\|001.3"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("bits")
 </dt> </dl>
 
-DMA channel address size—in bits. Permissible values are 8, 16, 32, or 64 bits. If unknown, enter 0 (zero).
+DMA channel address size in bits. Permissible values are 8, 16, 32, or 64 bits. If unknown, enter 0 (zero).
 
 This property is inherited from [**CIM\_DMA**](cim-dma.md).
 
@@ -260,7 +263,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -779,8 +782,8 @@ The **Win32\_DMAChannel** class is derived from [**CIM\_DMA**](cim-dma.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -797,9 +800,9 @@ The **Win32\_DMAChannel** class is derived from [**CIM\_DMA**](cim-dma.md).
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The Group Policy Management Console (GPMC) provides a set of sample
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'df712beb-49ee-4688-859d-a857747e45f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: df712beb-49ee-4688-859d-a857747e45f1
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["scripting overview"]
+keywords:
+- scripting overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Policy Management Console Scripting Samples Overview

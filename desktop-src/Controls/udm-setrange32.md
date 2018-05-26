@@ -1,8 +1,9 @@
 ---
 title: UDM\_SETRANGE32 message
 description: Sets the 32-bit range of an up-down control.
-ms.assetid: '6167db8f-a823-44d3-a515-888b6d1a39c2'
-keywords: ["UDM_SETRANGE32 message Windows Controls"]
+ms.assetid: 6167db8f-a823-44d3-a515-888b6d1a39c2
+keywords:
+- UDM_SETRANGE32 message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_SETRANGE32 message
@@ -45,15 +51,15 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

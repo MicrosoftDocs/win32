@@ -1,7 +1,12 @@
 ---
-Description: 'The AutoLogger event tracing session records events that occur early in the operating system boot process.'
-ms.assetid: 'df5a79f4-abbf-4b83-afc3-cbd14b166067'
+Description: The AutoLogger event tracing session records events that occur early in the operating system boot process.
+ms.assetid: df5a79f4-abbf-4b83-afc3-cbd14b166067
 title: Configuring and Starting an AutoLogger Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring and Starting an AutoLogger Session
@@ -17,49 +22,49 @@ The AutoLogger differs from the Global Logger in the following ways:
 For more information on the Global Logger seesion, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
 
 > [!Note]  
-> ETW supports the AutoLogger on Windows Vista and later. Use the [Global Logger](configuring-and-starting-the-global-logger-session.md) on earlier operating systems.
+> ETW supports the AutoLogger on Windows Vista and later. Use the [Global Logger](configuring-and-starting-the-global-logger-session.md) on earlier operating systems.
 
- 
+ 
 
 You use the registry to configure the AutoLogger session. Add the following registry key, if it is not already present:
 
 ```
 HKEY_LOCAL_MACHINE
-   \SYSTEM
-      \CurrentControlSet
-         \Control
-            \WMI
-               \Autologger
+   \SYSTEM
+      \CurrentControlSet
+         \Control
+            \WMI
+               \Autologger
 ```
 
 Under the **Autologger** key create a key for each AutoLogger session that you want to configure as shown in the following example.
 
 ```
 HKEY_LOCAL_MACHINE
-   \SYSTEM
-      \CurrentControlSet
-         \Control
-            \WMI
-               \Autologger
-                  \Logger Session A
-                  \Logger Session B
-                  \Logger Session C
+   \SYSTEM
+      \CurrentControlSet
+         \Control
+            \WMI
+               \Autologger
+                  \Logger Session A
+                  \Logger Session B
+                  \Logger Session C
 ```
 
 For each session, create a key for each provider that you want to enable to the session. Use the provider's GUID as the key.
 
 ```
 HKEY_LOCAL_MACHINE
-   \SYSTEM
-      \CurrentControlSet
-         \Control
-            \WMI
-               \Autologger
-                  \Logger Session A
-                     \{ProviderGuid1}
-                     \{ProviderGuid2}
-                  \Logger Session B
-                  \Logger Session C
+   \SYSTEM
+      \CurrentControlSet
+         \Control
+            \WMI
+               \Autologger
+                  \Logger Session A
+                     \{ProviderGuid1}
+                     \{ProviderGuid2}
+                  \Logger Session B
+                  \Logger Session C
 ```
 
 The following table describes the values that you can define for each AutoLogger session. You must have administrator privileges to specify these registry values. The **Start** and **Guid** value are the only values required to start the AutoLogger session; all other values have default settings that are used if the value is not present in the registry. Typically, you should use the default values. If you specify a value that ETW cannot support, ETW will override the value.
@@ -94,7 +99,7 @@ The following table describes the values that you can define for each AutoLogger
 <li>2 = System timer</li>
 <li>3 = CPU cycle counter</li>
 </ul>
-For a description of each clock type, see the <strong>ClientContext</strong> member of [<strong>WNODE_HEADER</strong>](wnode-header.md).<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
+For a description of each clock type, see the <strong>ClientContext</strong> member of [<strong>WNODE_HEADER</strong>](wnode-header.md).<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>DisableRealtimePersistence</strong></td>
@@ -161,7 +166,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 
 
 
- 
+ 
 
 The following table describes the values that you can define for each provider that you want to enable to your session. You must have administrator privileges to specify these registry values. If you specify a value that ETW cannot support, ETW will override the value.
 
@@ -203,7 +208,7 @@ The following table describes the values that you can define for each provider t
 <ul>
 <li><strong>EVENT_ENABLE_PROPERTY_SID</strong> (0x00000001) = Include in the extended data the security identifier (SID) of the user.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_TS_ID</strong> (0x00000002) = Include in the extended data the terminal session identifier.</li>
-<li><strong>EVENT_ENABLE_PROPERTY_STACK_TRACE</strong> (0x00000004) = Include in the extended data a call stack trace for events written using [<strong>EventWrite</strong>](eventwrite-func.md).</li>
+<li><strong>EVENT_ENABLE_PROPERTY_STACK_TRACE</strong> (0x00000004) = Include in the extended data a call stack trace for events written using [<strong>EventWrite</strong>](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master).</li>
 <li><strong>EVENT_ENABLE_PROPERTY_IGNORE_KEYWORD_0</strong> (0x00000010) = Filters out all events that do not have a non-zero keyword specified.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_PROVIDER_GROUP</strong> (0x00000020) = Indicates that this call to [<strong>EnableTraceEx2</strong>](enabletraceex2.md) should enable a [Provider Group](provider-traits.md) rather than an individual Event Provider.</li>
 <li><strong>EVENT_ENABLE_PROPERTY_PROCESS_START_KEY</strong> (0x00000080) = Include the Process Start Key in the extended data.</li>
@@ -227,7 +232,7 @@ For more information about these items, see the <strong>EnableProperty</strong> 
 
 
 
- 
+ 
 
 After the registry has been modified, the AutoLogger session is started the next time the computer is restarted. The AutoLogger session calls the [**EnableTraceEx**](enabletraceex-func.md) function to enable the providers.
 
@@ -235,7 +240,7 @@ The AutoLogger sessions increase the system boot time and should be used sparing
 
 To stop an AutoLogger session, call the [**ControlTrace**](controltrace.md) function. The session name that you pass to the function is the name of the registry key that you used to define the session in the registry.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md), and [**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](payload-filter-predicate.md) structures.
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function and the [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md) and [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structures to filter on specific conditions in a logger session. For more information on event payload filters, see the [**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master), and [**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master) functions and the **ENABLE\_TRACE\_PARAMETERS**, **EVENT\_FILTER\_DESCRIPTOR**, and [**PAYLOAD\_FILTER\_PREDICATE**](/windows/win32/Tdh/ns-tdh-_payload_filter_predicate?branch=master) structures.
 
 For details on starting an event tracing session, see [Configuring and Starting an Event Tracing Session](configuring-and-starting-an-event-tracing-session.md).
 
@@ -265,24 +270,24 @@ For details on starting an NT Kernel Logger session, see [Configuring and Starti
 [**ENABLE\_TRACE\_PARAMETERS**](enable-trace-parameters.md)
 </dt> <dt>
 
-[**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md)
+[**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master)
 </dt> <dt>
 
-[**PAYLOAD\_FILTER\_PREDICATE**](payload-filter-predicate.md)
+[**PAYLOAD\_FILTER\_PREDICATE**](/windows/win32/Tdh/ns-tdh-_payload_filter_predicate?branch=master)
 </dt> <dt>
 
-[**TdhAggregatePayloadFilters**](tdhaggregatepayloadfilters.md)
+[**TdhAggregatePayloadFilters**](/windows/win32/Tdh/nf-tdh-tdhaggregatepayloadfilters?branch=master)
 </dt> <dt>
 
-[**TdhCreatePayloadFilter**](tdhcreatepayloadfilter.md)
+[**TdhCreatePayloadFilter**](/windows/win32/Tdh/nf-tdh-tdhcreatepayloadfilter?branch=master)
 </dt> <dt>
 
 [Updating an Event Tracing Session](updating-an-event-tracing-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

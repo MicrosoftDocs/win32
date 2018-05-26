@@ -1,8 +1,9 @@
 ---
 title: Player.windowlessVideo
 description: The windowlessVideo property specifies or retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
-ms.assetid: '314a75a3-d096-4cd4-a747-e31367e0e265'
-keywords: ["Player.windowlessVideo Windows Media Player"]
+ms.assetid: 314a75a3-d096-4cd4-a747-e31367e0e265
+keywords:
+- Player.windowlessVideo Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.windowlessVideo
@@ -34,7 +40,7 @@ This property is a **Boolean** that is specified at design time and is read-only
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +63,9 @@ The **windowlessVideo** property is not supported for Netscape Navigator. Settin
 
 
 
- 
+ 
 
- 
+ 
 
 
 

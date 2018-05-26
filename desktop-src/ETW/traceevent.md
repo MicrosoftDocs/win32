@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TraceEvent function sends an event to an event tracing session.'
-ms.assetid: 'fb507d9a-6ed2-4cb1-8cea-85c0a3832e51'
+---
+Description: The TraceEvent function sends an event to an event tracing session.
+ms.assetid: fb507d9a-6ed2-4cb1-8cea-85c0a3832e51
 title: TraceEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceEvent function
@@ -118,7 +123,7 @@ The trace events are written in the order in which they occur.
 
 To trace a set of related events, use the [**TraceEventInstance**](traceeventinstance.md) function.
 
-On Windows Vista, you should use the [**EventWrite**](eventwrite-func.md) function to log events.
+On Windows Vista, you should use the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) function to log events.
 
 ## Examples
 

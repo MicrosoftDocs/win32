@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a value indicating whether the IAnalysisRegion represents an empty region.'
-ms.assetid: '3a536b01-e7ee-4103-88c4-d83377ea9fdb'
-title: 'IAnalysisRegion::IsEmpty method'
+Description: Retrieves a value indicating whether the IAnalysisRegion represents an empty region.
+ms.assetid: 3a536b01-e7ee-4103-88c4-d83377ea9fdb
+title: IAnalysisRegionIsEmpty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::IsEmpty method
@@ -13,7 +18,7 @@ Retrieves a value indicating whether the [**IAnalysisRegion**](ianalysisregion.m
 
 ```C++
 HRESULT IsEmpty(
-  [out] VARIANT_BOOL *pfIsEmpty
+  [out] VARIANT_BOOL *pfIsEmpty
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -66,9 +71,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

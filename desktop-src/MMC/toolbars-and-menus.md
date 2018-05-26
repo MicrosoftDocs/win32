@@ -4,11 +4,15 @@ description: Describes how toolbar buttons get created from menu items.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '26eae90d-8b00-4490-bed4-595c60c63d9e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 26eae90d-8b00-4490-bed4-595c60c63d9e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in UI MMC , toolbars and menus"]
+keywords:
+- snap-in UI MMC , toolbars and menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Toolbars and Menus

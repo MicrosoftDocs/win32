@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether a device requires safe removal.'
-ms.assetid: '584ec98a-b60f-426d-befe-fafcea983f42'
-title: 'System.Devices.SafeRemovalRequired'
+Description: Indicates whether a device requires safe removal.
+ms.assetid: 584ec98a-b60f-426d-befe-fafcea983f42
+title: System.Devices.SafeRemovalRequired
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.SafeRemovalRequired

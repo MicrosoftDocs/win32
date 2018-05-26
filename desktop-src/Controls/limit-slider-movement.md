@@ -1,7 +1,12 @@
 ---
 title: How to Limit Slider Movement
 description: As described in About Trackbar Controls, it is possible to set off part of the trackbar range as a selection range. One purpose of a selection range might be to limit movement of the slider, making some parts of the full range off limits.
-ms.assetid: '9DD8BB11-EC6F-4695-BA56-5061F6EA5436'
+ms.assetid: 9DD8BB11-EC6F-4695-BA56-5061F6EA5436
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Limit Slider Movement

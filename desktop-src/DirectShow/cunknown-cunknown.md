@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed'
-title: 'CUnknown.CUnknown constructor'
+Description: Constructor method.
+ms.assetid: dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed
+title: CUnknown.CUnknown constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUnknown.CUnknown constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CUnknown(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk
 );
 ```
 
@@ -53,9 +58,9 @@ The object is initialized with a reference count of zero.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,30 @@
 ---
 title: Device-Independent Color Spaces
-description: Recognizing the need for standard, device-independent color measurements, the Commission International de l'Eclairage (International Commission on Illumination), or CIE, created a color space based on \ 0034;imaginary \ 0034; primary colors.
-ms.assetid: '8597dad3-1eb8-49f9-9843-1f9068a65925'
-keywords: ["Windows Color System (WCS),device-independent color spaces", "WCS (Windows Color System),device-independent color spaces", "image color management,device-independent color spaces", "color management,device-independent color spaces", "colors,device-independent color spaces", "color spaces,device-independent", "device-independent color spaces", "Commission International de l'Eclairage (CIE)", "International Commission on Illumination (CIE)", "CIE (Commission International de l'Eclairage)", "CIE (International Commission on Illumination)", "CIEXYZ color space", "XYZ color space", "sRGB color space", "color spaces,CIEXYZ", "color spaces,sRGB", "color spaces,XYZ"]
+description: Recognizing the need for standard, device-independent color measurements, the Commission International de lEclairage (International Commission on Illumination), or CIE, created a color space based on \ 0034;imaginary \ 0034; primary colors.
+ms.assetid: 8597dad3-1eb8-49f9-9843-1f9068a65925
+keywords:
+- Windows Color System (WCS),device-independent color spaces
+- WCS (Windows Color System),device-independent color spaces
+- image color management,device-independent color spaces
+- color management,device-independent color spaces
+- colors,device-independent color spaces
+- color spaces,device-independent
+- device-independent color spaces
+- Commission International de lEclairage (CIE)
+- International Commission on Illumination (CIE)
+- CIE (Commission International de lEclairage)
+- CIE (International Commission on Illumination)
+- CIEXYZ color space
+- XYZ color space
+- sRGB color space
+- color spaces,CIEXYZ
+- color spaces,sRGB
+- color spaces,XYZ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device-Independent Color Spaces

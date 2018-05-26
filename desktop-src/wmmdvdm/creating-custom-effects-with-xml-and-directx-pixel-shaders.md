@@ -1,8 +1,29 @@
 ---
 title: Creating Custom Effects with XML and DirectX Pixel Shaders
 description: Creating Custom Effects with XML and DirectX Pixel Shaders
-ms.assetid: 'be2c5440-80d7-4a34-bdc2-452588ba5023'
-keywords: ["Windows Movie Maker,XML pixel shaders", "Movie Maker,XML pixel shaders", "programming guide,XML pixel shaders", "creating custom effects using pixel shaders", "XML,effects", "XML,pixel shaders", "custom effects,XML pixel shaders", "Windows Movie Maker,DirectX pixel shaders", "Movie Maker,DirectX pixel shaders", "programming guide,DirectX pixel shaders", "creating custom effects using pixel shaders", "custom effects,DirectX pixel shaders", "DirectX,effects", "DirectX,pixel shaders", "effects,custom", "pixel shaders"]
+ms.assetid: be2c5440-80d7-4a34-bdc2-452588ba5023
+keywords:
+- Windows Movie Maker,XML pixel shaders
+- Movie Maker,XML pixel shaders
+- programming guide,XML pixel shaders
+- creating custom effects using pixel shaders
+- XML,effects
+- XML,pixel shaders
+- custom effects,XML pixel shaders
+- Windows Movie Maker,DirectX pixel shaders
+- Movie Maker,DirectX pixel shaders
+- programming guide,DirectX pixel shaders
+- creating custom effects using pixel shaders
+- custom effects,DirectX pixel shaders
+- DirectX,effects
+- DirectX,pixel shaders
+- effects,custom
+- pixel shaders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Custom Effects with XML and DirectX Pixel Shaders

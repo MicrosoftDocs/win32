@@ -1,8 +1,10 @@
 ---
 title: Win32\_RoamingProfileSlowLinkParams class
 description: Represents the slow-link parameters for roaming profiles.
-ms.assetid: '3c170e41-218e-44f7-80c4-6c5494575671'
-keywords: ["Win32_RoamingProfileSlowLinkParams class User State Manageability API", "Win32_RoamingProfileSlowLinkParams class User State Manageability API , described"]
+ms.assetid: 3c170e41-218e-44f7-80c4-6c5494575671
+keywords:
+- Win32_RoamingProfileSlowLinkParams class User State Manageability API
+- Win32_RoamingProfileSlowLinkParams class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RoamingProfileSlowLinkParams class
@@ -82,8 +89,8 @@ This property applies to non-IP networks.
 
 |                                     |                                                                                                                    |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                             |
 | MOF<br/>                      | <dl> <dt>UserProfileConfigurationWmiProvider.mof</dt> </dl> |
 
@@ -96,9 +103,9 @@ This property applies to non-IP networks.
 [**Win32\_RoamingProfileMachineConfiguration**](win32-roamingprofilemachineconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

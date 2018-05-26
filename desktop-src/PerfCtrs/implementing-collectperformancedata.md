@@ -1,14 +1,19 @@
 ---
-Description: 'After the system successfully calls your your OpenPerformanceData function, it calls your CollectPerformanceData function to collect the counter data.'
-ms.assetid: '73b022df-0148-4afc-8536-8b1c766b1ee6'
+Description: After the system successfully calls your your OpenPerformanceData function, it calls your CollectPerformanceData function to collect the counter data.
+ms.assetid: 73b022df-0148-4afc-8536-8b1c766b1ee6
 title: Implementing CollectPerformanceData
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing CollectPerformanceData
 
-After the system successfully calls your your [**OpenPerformanceData**](openperformancedata.md) function, it calls your [**CollectPerformanceData**](collectperformancedata.md) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
+After the system successfully calls your your [**OpenPerformanceData**](/windows/win32/Winperf/?branch=master) function, it calls your [**CollectPerformanceData**](/windows/win32/Winperf/nc-winperf-pm_collect_proc?branch=master) function to collect the counter data. If the provider supports the queried objects, it contacts the service, driver, or application with which it is associated and asks it for the counter data.
 
-The following example shows an implementation of the [*CollectPerformanceData*](collectperformancedata.md) function. The header file that contains the definition of the counters used in this function is shown in [Implementing OpenPerformanceData](implementing-openperformancedata.md). If you use C++ to implement this function, be sure to use extern "C" when you declare your function.
+The following example shows an implementation of the [*CollectPerformanceData*](/windows/win32/Winperf/nc-winperf-pm_collect_proc?branch=master) function. The header file that contains the definition of the counters used in this function is shown in [Implementing OpenPerformanceData](implementing-openperformancedata.md). If you use C++ to implement this function, be sure to use extern "C" when you declare your function.
 
 
 ```C++

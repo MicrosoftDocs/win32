@@ -1,8 +1,24 @@
 ---
 title: Transitions
 description: Transitions
-ms.assetid: '92ccf172-f516-419c-94d9-40a6ee7b8153'
-keywords: ["Windows Movie Maker,transitions", "Movie Maker,transitions", "programming reference,Windows Movie Maker transitions", "reference for Windows Movie Maker,transitions", "transitions,built-in", "built-in transitions", "transitions,customizable parameters", "wipe transitions", "shatter transitions", "transitions,wipe", "transitions,shatter"]
+ms.assetid: 92ccf172-f516-419c-94d9-40a6ee7b8153
+keywords:
+- Windows Movie Maker,transitions
+- Movie Maker,transitions
+- programming reference,Windows Movie Maker transitions
+- reference for Windows Movie Maker,transitions
+- transitions,built-in
+- built-in transitions
+- transitions,customizable parameters
+- wipe transitions
+- shatter transitions
+- transitions,wipe
+- transitions,shatter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transitions

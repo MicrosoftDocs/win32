@@ -1,16 +1,19 @@
 ---
 title: RevokeAccess method of the MSFT\_SmbShare class
-description: Updates a share's security descriptor to revoke permission to access a share from a set of accounts.
+description: Updates a shares security descriptor to revoke permission to access a share from a set of accounts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '76a4fa1d-cfe7-4f88-aabe-49240e66c41f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 76a4fa1d-cfe7-4f88-aabe-49240e66c41f
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RevokeAccess method SMB", "RevokeAccess method SMB , MSFT_SmbShare class", "MSFT_SmbShare class SMB , RevokeAccess method"]
+keywords:
+- RevokeAccess method SMB
+- RevokeAccess method SMB , MSFT_SmbShare class
+- MSFT_SmbShare class SMB , RevokeAccess method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RevokeAccess method of the MSFT\_SmbShare class
@@ -30,8 +36,8 @@ Updates a share's security descriptor to revoke permission to access a share fro
 
 ```mof
 uint32 RevokeAccess(
-  [in]  string                          AccountName[],
-  [out] MSFT_SmbShareAccessControlEntry Output[]
+  [in]  string                          AccountName[],
+  [out] MSFT_SmbShareAccessControlEntry Output[]
 );
 ```
 
@@ -65,8 +71,8 @@ To revoke access, all existing access-allowed access control entries (ACE) for t
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -80,9 +86,9 @@ To revoke access, all existing access-allowed access control entries (ACE) for t
 [**MSFT\_SmbShare**](msft-smbshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

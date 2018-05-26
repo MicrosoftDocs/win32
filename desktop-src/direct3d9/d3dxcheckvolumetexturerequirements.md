@@ -1,7 +1,12 @@
-﻿---
-Description: 'Checks volume-texture-creation parameters.'
-ms.assetid: '1a02cb99-2582-4d8f-aacf-67ed75f6deb8'
+---
+Description: Checks volume-texture-creation parameters.
+ms.assetid: 1a02cb99-2582-4d8f-aacf-67ed75f6deb8
 title: D3DXCheckVolumeTextureRequirements function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCheckVolumeTextureRequirements function
@@ -33,9 +38,9 @@ HRESULT D3DXCheckVolumeTextureRequirements(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the volume texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the volume texture.
 
 </dd> <dt>
 

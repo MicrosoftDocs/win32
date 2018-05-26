@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for video configuration events.'
-ms.assetid: '06aab3a3-a55e-4eb8-897a-2ad8349e5900'
-title: 'SystemConfig\_V0\_Video class'
+---
+Description: This class is the event type class for video configuration events.
+ms.assetid: 06aab3a3-a55e-4eb8-897a-2ad8349e5900
+title: SystemConfig\_V0\_Video class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_V0\_Video class

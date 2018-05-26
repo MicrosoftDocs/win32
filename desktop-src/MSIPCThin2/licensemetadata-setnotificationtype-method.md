@@ -4,17 +4,21 @@ description: Sets the notification type of the document to be tracked.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '83171AC4-F021-4A64-A857-18E6196B2268'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 83171AC4-F021-4A64-A857-18E6196B2268
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata setNotificationType method"]
+keywords:
+- LicenseMetadata setNotificationType method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata setNotificationType method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata setNotificationType method
@@ -37,7 +41,7 @@ public void setNotificationType(NotificationType notificationType)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

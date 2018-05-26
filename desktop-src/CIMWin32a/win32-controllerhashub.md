@@ -4,13 +4,15 @@ description: The Win32\_ControllerHasHub association WMI class represents the hu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64e5a2d9-a653-4269-b965-b29e07940773'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64e5a2d9-a653-4269-b965-b29e07940773
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ControllerHasHub class", "Win32_ControllerHasHub class, described"]
+keywords:
+- Win32_ControllerHasHub class
+- Win32_ControllerHasHub class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ControllerHasHub class
@@ -40,12 +45,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32a"), AMENDMENT]
 class Win32_ControllerHasHub : CIM_USBControllerHasHub
 {
-  uint16                  AccessState;
-  uint32                  NegotiatedDataWidth;
-  uint64                  NegotiatedSpeed;
-  uint32                  NumberOfHardResets;
-  uint32                  NumberOfSoftResets;
-  Win32_USBHub        REF Dependent;
+  uint16                  AccessState;
+  uint32                  NegotiatedDataWidth;
+  uint64                  NegotiatedSpeed;
+  uint32                  NumberOfHardResets;
+  uint32                  NumberOfSoftResets;
+  Win32_USBHub        REF Dependent;
   Win32_USBController REF Antecedent;
 };
 ```
@@ -194,8 +199,8 @@ The **Win32\_ControllerHasHub** class is inherited from [**CIM\_ControlledBy**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -212,9 +217,9 @@ The **Win32\_ControllerHasHub** class is inherited from [**CIM\_ControlledBy**](
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

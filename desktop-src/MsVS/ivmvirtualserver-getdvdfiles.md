@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer GetDVDFiles method
 description: The GetDVDFiles method returns an array of known virtual DVD files.
-ms.assetid: '142e28a9-f9db-481e-bd30-1b4361b2c3fa'
-keywords: ["GetDVDFiles method Virtual Server", "GetDVDFiles method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , GetDVDFiles method"]
+ms.assetid: 142e28a9-f9db-481e-bd30-1b4361b2c3fa
+keywords:
+- GetDVDFiles method Virtual Server
+- GetDVDFiles method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , GetDVDFiles method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::GetDVDFiles method
@@ -22,8 +30,8 @@ The **GetDVDFiles** method returns an array of known virtual DVD files.
 
 ```C++
 HRESULT GetDVDFiles(
-  [in]  VARIANT inAdditionalSearchPaths,
-  [out] VARIANT *outDVDFileList
+  [in]  VARIANT inAdditionalSearchPaths,
+  [out] VARIANT *outDVDFileList
 );
 ```
 
@@ -62,7 +70,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,8 +82,8 @@ The search paths used to retrieve the array of files will include those set prev
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -87,9 +95,9 @@ The search paths used to retrieve the array of files will include those set prev
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: GetPS2ColorSpaceArray function
 description: The GetPS2ColorSpaceArray function retrieves the PostScript Level 2 color space array from an ICC color profile.
-ms.assetid: '2d7178e0-1535-48ce-8dbe-abd0d95cc294'
-keywords: ["GetPS2ColorSpaceArray function Windows Color System"]
+ms.assetid: 2d7178e0-1535-48ce-8dbe-abd0d95cc294
+keywords:
+- GetPS2ColorSpaceArray function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPS2ColorSpaceArray function
@@ -22,12 +28,12 @@ The **GetPS2ColorSpaceArray** function retrieves the PostScript Level 2 [color s
 
 ```C++
 BOOL WINAPI GetPS2ColorSpaceArray(
-   HPROFILE hProfile,
-   DWORD    dwIntent,
-   DWORD    dwCSAType,
-   PBYTE    pBuffer,
-   PDWORD   pcbSize,
-   PBOOL    pbBinary
+   HPROFILE hProfile,
+   DWORD    dwIntent,
+   DWORD    dwCSAType,
+   PBYTE    pBuffer,
+   PDWORD   pcbSize,
+   PBOOL    pbBinary
 );
 ```
 
@@ -51,15 +57,15 @@ Specifies the desired rendering intent for the color space array. This field may
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
@@ -113,8 +119,8 @@ This method does not support WCS profiles.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -131,9 +137,9 @@ This method does not support WCS profiles.
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

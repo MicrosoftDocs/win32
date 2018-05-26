@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSettingDataIndexInPlan class
 description: Represents the association between the power plan and the power setting data index.
-ms.assetid: 'bb799299-998b-4a8c-9610-0312b2cd5d18'
-keywords: ["Win32_PowerSettingDataIndexInPlan class", "Win32_PowerSettingDataIndexInPlan class, described"]
+ms.assetid: bb799299-998b-4a8c-9610-0312b2cd5d18
+keywords:
+- Win32_PowerSettingDataIndexInPlan class
+- Win32_PowerSettingDataIndexInPlan class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSettingDataIndexInPlan class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("PowerWmiProvider"), Dynamic]
 class Win32_PowerSettingDataIndexInPlan : CIM_ConcreteComponent
 {
-  Win32_PowerPlan             REF GroupComponent;
+  Win32_PowerPlan             REF GroupComponent;
   Win32_PowerSettingDataIndex REF PartComponent;
 };
 ```
@@ -76,17 +83,17 @@ The **InstanceID** power setting data index.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

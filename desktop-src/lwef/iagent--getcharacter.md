@@ -1,7 +1,12 @@
 ---
 title: IAgent GetCharacter
 description: IAgent GetCharacter
-ms.assetid: 'c54e3aa3-49ea-475c-831c-03865438e1d3'
+ms.assetid: c54e3aa3-49ea-475c-831c-03865438e1d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgent::GetCharacter

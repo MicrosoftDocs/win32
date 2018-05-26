@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.'
-ms.assetid: 'af962d0d-5f20-4cc4-b28d-986f16689f23'
-title: 'System.PropGroup.Advanced'
+Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+ms.assetid: af962d0d-5f20-4cc4-b28d-986f16689f23
+title: System.PropGroup.Advanced
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.Advanced

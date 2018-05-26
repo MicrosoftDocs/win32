@@ -1,8 +1,9 @@
 ---
 title: TB\_GETPADDING message
 description: Retrieves the padding for a toolbar control.
-ms.assetid: 'dde0f44d-5d22-4cab-a7f8-48d84b8995d3'
-keywords: ["TB_GETPADDING message Windows Controls"]
+ms.assetid: dde0f44d-5d22-4cab-a7f8-48d84b8995d3
+keywords:
+- TB_GETPADDING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETPADDING message
@@ -37,8 +43,8 @@ Returns a **DWORD** value that contains the horizontal padding in the low word a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a **DWORD** value that contains the horizontal padding in the low word a
 [**TB\_SETPADDING**](tb-setpadding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

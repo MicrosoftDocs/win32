@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_ErrorLog method retrieves the current error log for this object.'
-ms.assetid: '580b8a06-6bf2-49ef-a5fb-5e6df2f09793'
-title: 'IAMSetErrorLog::get\_ErrorLog method'
+---
+Description: The get\_ErrorLog method retrieves the current error log for this object.
+ms.assetid: 580b8a06-6bf2-49ef-a5fb-5e6df2f09793
+title: IAMSetErrorLogget\_ErrorLog method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMSetErrorLog::get\_ErrorLog method

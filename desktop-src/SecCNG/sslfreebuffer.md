@@ -1,7 +1,12 @@
 ---
-Description: 'Used to free memory that was allocated by one of the Secure Sockets Layer protocol (SSL) provider functions.'
-ms.assetid: '75a85013-c745-43cb-85b5-e13a2778ec1d'
+Description: Used to free memory that was allocated by one of the Secure Sockets Layer protocol (SSL) provider functions.
+ms.assetid: 75a85013-c745-43cb-85b5-e13a2778ec1d
 title: SslFreeBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslFreeBuffer function
@@ -13,7 +18,7 @@ The **SslFreeBuffer** function is used to free memory that was allocated by one 
 
 ```C++
 SECURITY_STATUS WINAPI SslFreeBuffer(
-  _In_ PVOID pvInput
+  _In_ PVOID pvInput
 );
 ```
 
@@ -46,7 +51,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,16 +59,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

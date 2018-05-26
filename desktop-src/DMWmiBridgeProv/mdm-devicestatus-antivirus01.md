@@ -1,8 +1,10 @@
 ---
 title: MDM\_DeviceStatus\_Antivirus01 class
 description: The MDM\_DeviceStatus\_Antivirus01 class is used by the enterprise to query the state of antivirus compliance of devices with their enterprise policies.
-ms.assetid: '8b3145a6-b836-4750-a0c3-88472f9a12c5'
-keywords: ["MDM_DeviceStatus_Antivirus01 class", "MDM_DeviceStatus_Antivirus01 class, described"]
+ms.assetid: 8b3145a6-b836-4750-a0c3-88472f9a12c5
+keywords:
+- MDM_DeviceStatus_Antivirus01 class
+- MDM_DeviceStatus_Antivirus01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_DeviceStatus\_Antivirus01 class
@@ -108,7 +115,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -116,9 +123,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

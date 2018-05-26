@@ -1,7 +1,12 @@
 ---
-Description: 'The storage provider''s remote Uri for this file.'
-ms.assetid: 'fbc06a83-230d-448d-8379-8933dcacd8ee'
-title: 'System.StorageProviderFileRemoteUri'
+Description: The storage providers remote Uri for this file.
+ms.assetid: fbc06a83-230d-448d-8379-8933dcacd8ee
+title: System.StorageProviderFileRemoteUri
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderFileRemoteUri

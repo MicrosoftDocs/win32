@@ -1,8 +1,9 @@
 ---
 title: MimeOleIsTnefStream function
 description: Do not use. Reads the first four bytes to determine whether data stream is Transport Neutral Encapsulation Format (TNEF).
-ms.assetid: '93dada0f-f56c-4fb6-a19b-d2afaca8b1fc'
-keywords: ["MimeOleIsTnefStream function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 93dada0f-f56c-4fb6-a19b-d2afaca8b1fc
+keywords:
+- MimeOleIsTnefStream function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleIsTnefStream function
@@ -22,7 +28,7 @@ Do not use. Reads the first four bytes to determine whether data stream is Trans
 
 ```C++
 HRESULT MimeOleIsTnefStream(
-  _In_ IStream *pStream
+  _In_ IStream *pStream
 );
 ```
 
@@ -57,7 +63,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +71,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -74,9 +80,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

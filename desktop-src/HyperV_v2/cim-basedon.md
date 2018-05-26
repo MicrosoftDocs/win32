@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a higher level CIM\_StorageExtent object and a lower level CIM\_StorageExtent object. For example a CIM\_ProtectedSpaceExtent object is a part of a CIM\_PhysicalExtent object.'
-ms.assetid: '40a88927-981b-4fc4-af5f-be91d9933284'
-title: 'CIM\_BasedOn class'
+Description: Represents an association between a higher level CIM\_StorageExtent object and a lower level CIM\_StorageExtent object. For example a CIM\_ProtectedSpaceExtent object is a part of a CIM\_PhysicalExtent object.
+ms.assetid: 40a88927-981b-4fc4-af5f-be91d9933284
+title: CIM\_BasedOn class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BasedOn class
@@ -16,9 +21,9 @@ class CIM_BasedOn : CIM_Dependency
 {
   CIM_StorageExtent REF Antecedent;
   CIM_StorageExtent REF Dependent;
-  uint64                StartingAddress;
-  uint64                EndingAddress;
-  uint16                OrderIndex;
+  uint64                StartingAddress;
+  uint64                EndingAddress;
+  uint16                OrderIndex;
 };
 ```
 
@@ -113,8 +118,8 @@ The address that indicates where in lower level storage, the higher level **CIM\
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -128,9 +133,9 @@ The address that indicates where in lower level storage, the higher level **CIM\
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

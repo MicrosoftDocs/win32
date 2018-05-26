@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.fontFace
 description: The fontFace attribute specifies or retrieves the font for text in the edit box control.
-ms.assetid: '5fb5e6d2-8535-402e-9ca1-d43e334e94e3'
-keywords: ["EDITBOX.fontFace Windows Media Player"]
+ms.assetid: 5fb5e6d2-8535-402e-9ca1-d43e334e94e3
+keywords:
+- EDITBOX.fontFace Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.fontFace
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.fontFace
@@ -52,9 +58,9 @@ If the **fontFace** specified is not available on the user's system, the edit bo
 [**EDITBOX.fontStyle**](editbox-fontstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

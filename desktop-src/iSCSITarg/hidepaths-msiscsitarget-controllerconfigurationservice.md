@@ -4,13 +4,16 @@ description: Hides a list of SCSI logical units such as a RAID volume or tape dr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dda1ef6e-3103-4773-9804-e5bd7bd07f6f'
-ms.prod: 'windows-server-dev'
+ms.assetid: dda1ef6e-3103-4773-9804-e5bd7bd07f6f
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["HidePaths method iSCSI Software Target API", "HidePaths method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , HidePaths method"]
+keywords:
+- HidePaths method iSCSI Software Target API
+- HidePaths method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , HidePaths method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HidePaths method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -32,11 +38,11 @@ This method overrides the method inherited from the **CIM\_ControllerConfigurati
 
 ```mof
 uint32 HidePaths(
-  [out]     CIM_ConcreteJob            REF Job,
-  [in]      string                         LUNames[],
-  [in]      string                         InitiatorPortIDs[],
-  [in]      string                         TargetPortIDs[],
-  [in, out] CIM_SCSIProtocolController REF ProtocolControllers[]
+  [out]     CIM_ConcreteJob            REF Job,
+  [in]      string                         LUNames[],
+  [in]      string                         InitiatorPortIDs[],
+  [in]      string                         TargetPortIDs[],
+  [in, out] CIM_SCSIProtocolController REF ProtocolControllers[]
 );
 ```
 
@@ -109,7 +115,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -127,10 +133,10 @@ This method returns one of the following values.
 **Target/initiator combination not exposed** (4100)
 </dt> <dt>
 
-**Method Reserved** (4101–32767)
+**Method Reserved** (4101 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Remarks
@@ -158,7 +164,7 @@ The SPC may be automatically deleted when the last logical unit, initiator ID, o
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -175,9 +181,9 @@ The SPC may be automatically deleted when the last logical unit, initiator ID, o
 [**CIM\_SCSIProtocolController**](https://msdn.microsoft.com/library/cc136905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

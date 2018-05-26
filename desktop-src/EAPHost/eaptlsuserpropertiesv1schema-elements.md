@@ -1,7 +1,12 @@
 ---
 title: eaptlsuserpropertiesv1 Schema Elements
 description: Is made up of the following schema elements.
-ms.assetid: 'b83eaa2e-76fd-43ed-94df-68d72664d98b'
+ms.assetid: b83eaa2e-76fd-43ed-94df-68d72664d98b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eaptlsuserpropertiesv1 Schema Elements

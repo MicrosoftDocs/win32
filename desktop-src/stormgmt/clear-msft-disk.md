@@ -1,8 +1,11 @@
 ---
 title: Clear method of the MSFT\_Disk class
 description: Removes partition information and uninitializes a disk, returning it to a RAW state.
-ms.assetid: 'a3703b30-5e32-4bcf-9abd-fd3fb67fa6b6'
-keywords: ["Clear method Windows Storage Management API", "Clear method Windows Storage Management API , MSFT_Disk class", "MSFT_Disk class Windows Storage Management API , Clear method"]
+ms.assetid: a3703b30-5e32-4bcf-9abd-fd3fb67fa6b6
+keywords:
+- Clear method Windows Storage Management API
+- Clear method Windows Storage Management API , MSFT_Disk class
+- MSFT_Disk class Windows Storage Management API , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clear method of the MSFT\_Disk class
@@ -22,10 +30,10 @@ Removes partition information and uninitializes a disk, returning it to a RAW st
 
 ```mof
 UInt32 Clear(
-  [in]  Boolean RemoveData,
-  [in]  Boolean RemoveOEM,
-  [in]  Boolean ZeroOutEntireDisk,
-  [out] String  ExtendedStatus
+  [in]  Boolean RemoveData,
+  [in]  Boolean RemoveOEM,
+  [in]  Boolean ZeroOutEntireDisk,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -133,8 +141,8 @@ The caller must specify *RemoveData*, *RemoveOEM*, or both, unless it first dele
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -147,9 +155,9 @@ The caller must specify *RemoveData*, *RemoveOEM*, or both, unless it first dele
 [**MSFT\_Disk**](msft-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

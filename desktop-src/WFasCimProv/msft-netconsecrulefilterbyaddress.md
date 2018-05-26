@@ -1,7 +1,12 @@
 ---
-Description: 'Filters a connection security rule by address.'
-ms.assetid: '4675c606-abed-4906-b5b9-932c990e413e'
-title: 'MSFT\_NetConSecRuleFilterByAddress class'
+Description: Filters a connection security rule by address.
+ms.assetid: 4675c606-abed-4906-b5b9-932c990e413e
+title: MSFT\_NetConSecRuleFilterByAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetConSecRuleFilterByAddress class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetConSecRuleFilterByAddress : MSFT_NetConSecRuleFilters
 {
-  MSFT_NetConSecRule    REF GroupComponent;
+  MSFT_NetConSecRule    REF GroupComponent;
   MSFT_NetAddressFilter REF PartComponent;
 };
 ```
@@ -70,17 +75,17 @@ The address filter applied to the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

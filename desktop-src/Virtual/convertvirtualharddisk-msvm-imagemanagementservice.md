@@ -1,8 +1,11 @@
 ---
 title: ConvertVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Converts the type of an existing virtual hard disk.
-ms.assetid: 'bd424b72-4b08-47b4-931e-ad80ef85bdc8'
-keywords: ["ConvertVirtualHardDisk method Hyper-V", "ConvertVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , ConvertVirtualHardDisk method"]
+ms.assetid: bd424b72-4b08-47b4-931e-ad80ef85bdc8
+keywords:
+- ConvertVirtualHardDisk method Hyper-V
+- ConvertVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , ConvertVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,10 +30,10 @@ Converts the type of an existing virtual hard disk.
 
 ```mof
 uint32 ConvertVirtualHardDisk(
-  [in]  string              SourcePath,
-  [in]  string              DestinationPath,
-  [in]  uint16              Type,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SourcePath,
+  [in]  string              DestinationPath,
+  [in]  uint16              Type,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -413,9 +421,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -434,9 +442,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

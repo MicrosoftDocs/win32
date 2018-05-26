@@ -1,14 +1,20 @@
 ---
 title: WM/TrackNumber
 description: The WM/TrackNumber attribute contains the track number of the content. This attribute is 1-based.
-ms.assetid: 'cd338cd9-a5de-4311-8089-1d5d90570f69'
-keywords: ["WM/TrackNumber windows Media Format"]
+ms.assetid: cd338cd9-a5de-4311-8089-1d5d90570f69
+keywords:
+- WM/TrackNumber windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/TrackNumber
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/TrackNumber

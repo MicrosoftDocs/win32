@@ -1,19 +1,24 @@
 ---
 Description: Requesting Text Recognition
-ms.assetid: '9db9045d-b289-4c6c-9b17-ddbc2c1d3089'
+ms.assetid: 9db9045d-b289-4c6c-9b17-ddbc2c1d3089
 title: Requesting Text Recognition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requesting Text Recognition
 
-The application calls the [**MappingRecognizeText**](mappingrecognizetext.md) function to request text recognition from a specific ELS service. The service must have been discovered in a previous call to [**MappingGetServices**](mappinggetservices.md), as described in [**Enumerating and Freeing Services**](enumerating-and-freeing-services.md).
+The application calls the [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) function to request text recognition from a specific ELS service. The service must have been discovered in a previous call to [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master), as described in [**Enumerating and Freeing Services**](enumerating-and-freeing-services.md).
 
 > [!Note]  
-> The platform can process [**MappingRecognizeText**](mappingrecognizetext.md) calls either synchronously or asynchronously.
+> The platform can process [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) calls either synchronously or asynchronously.
 
  
 
-[**MappingRecognizeText**](mappingrecognizetext.md) handles the following types of text:
+[**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) handles the following types of text:
 
 -   Microsoft language detection. UTF-16, normalization form C, text for which to determine the language.
 -   Microsoft script detection. UTF-16 text for which to determine script ranges.
@@ -25,7 +30,7 @@ This section provides instructions for several ways to perform synchronous text 
 
 **Synchronous Text Recognition with Microsoft Language Detection Service**
 
-The following example illustrates the use of [**MappingRecognizeText**](mappingrecognizetext.md) with the Microsoft Language Detection service, and prints all the results retrieved by the service. The output format of this service is a single [**MAPPING\_DATA\_RANGE**](mappingdatarange.md) structure with its **pData** member pointing to a Unicode double-null-terminated, registry-formatted array of strings. Every string of the array is null-terminated and an empty string is used to specify the end of the array. The contents of the array are language names sorted by confidence.
+The following example illustrates the use of [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) with the Microsoft Language Detection service, and prints all the results retrieved by the service. The output format of this service is a single [**MAPPING\_DATA\_RANGE**](/windows/win32/Elscore/ns-elscore-_mapping_data_range?branch=master) structure with its **pData** member pointing to a Unicode double-null-terminated, registry-formatted array of strings. Every string of the array is null-terminated and an empty string is used to specify the end of the array. The contents of the array are language names sorted by confidence.
 
 
 ```C++
@@ -117,7 +122,7 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
 
 **Synchronous Text Recognition with Microsoft Script Detection Service**
 
-The next example illustrates the use of [**MappingRecognizeText**](mappingrecognizetext.md) with the Microsoft Script Detection service, and prints all the retrieved results. The output format of this service is an array of [**MAPPING\_DATA\_RANGE**](mappingdatarange.md) structures, each specifying text written in the same script. Common (Zyyy) characters are added to the previous range, or to the next range if the previous range does not exist. The **pData** member of each structure points to a Unicode null-terminated string containing the standard Unicode name of the script for the particular range.
+The next example illustrates the use of [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) with the Microsoft Script Detection service, and prints all the retrieved results. The output format of this service is an array of [**MAPPING\_DATA\_RANGE**](/windows/win32/Elscore/ns-elscore-_mapping_data_range?branch=master) structures, each specifying text written in the same script. Common (Zyyy) characters are added to the previous range, or to the next range if the previous range does not exist. The **pData** member of each structure points to a Unicode null-terminated string containing the standard Unicode name of the script for the particular range.
 
 > [!Note]  
 > As of Windows 7, the Microsoft Script Detection service complies with Unicode 5.1.
@@ -219,9 +224,9 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
 
 **Synchronous Text Recognition with Microsoft Cyrillic to Latin Transliteration Service**
 
-The following example illustrates the use of [**MappingRecognizeText**](mappingrecognizetext.md) with the Microsoft Cyrillic to Latin transliteration service, and prints the retrieved results. Note the two different ways to enumerate this service, either by GUID or by category and input script.
+The following example illustrates the use of [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) with the Microsoft Cyrillic to Latin transliteration service, and prints the retrieved results. Note the two different ways to enumerate this service, either by GUID or by category and input script.
 
-The output format is the same for all available transliteration services. It is a single [**MAPPING\_DATA\_RANGE**](mappingdatarange.md) structure with its **pData** member pointing to an array of Unicode characters representing the original text transliterated into the output script by applying only the rules of the specific transliteration service. This service does not null-terminate its output if the input does not contain the terminating null character.
+The output format is the same for all available transliteration services. It is a single [**MAPPING\_DATA\_RANGE**](/windows/win32/Elscore/ns-elscore-_mapping_data_range?branch=master) structure with its **pData** member pointing to an array of Unicode characters representing the original text transliterated into the output script by applying only the rules of the specific transliteration service. This service does not null-terminate its output if the input does not contain the terminating null character.
 
 
 ```C++
@@ -334,7 +339,7 @@ void PrintAllResults(PMAPPING_PROPERTY_BAG pBag)
 
 **Synchronous Text Recognition with a Call to All Available Services**
 
-The following example shows the use of [**MappingRecognizeText**](mappingrecognizetext.md) with all available services, and prints the retrieved results for all the services. This example provides a good illustration of the operation of each service. By looking at the output of the example application, it is easy to find out what is happening internally with the services. This example also shows that almost all code used to call any of the ELS services is the same.
+The following example shows the use of [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) with all available services, and prints the retrieved results for all the services. This example provides a good illustration of the operation of each service. By looking at the output of the example application, it is easy to find out what is happening internally with the services. This example also shows that almost all code used to call any of the ELS services is the same.
 
 
 ```C++
@@ -478,9 +483,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 ## Use Asynchronous Text Recognition
 
-The following example shows the use of [**MappingRecognizeText**](mappingrecognizetext.md) for asynchronous text recognition. When the callback is used, the application must make sure that the property bag, the input text, the options, and the service are all valid until after the callback has finished executing.
+The following example shows the use of [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) for asynchronous text recognition. When the callback is used, the application must make sure that the property bag, the input text, the options, and the service are all valid until after the callback has finished executing.
 
-The application must call [**MappingFreePropertyBag**](mappingfreepropertybag.md) immediately after the bag is consumed by the callback function. For more information, see [Providing Callbacks for ELS Services](providing-callbacks-for-els-services.md).
+The application must call [**MappingFreePropertyBag**](/windows/win32/Elscore/nf-elscore-mappingfreepropertybag?branch=master) immediately after the bag is consumed by the callback function. For more information, see [Providing Callbacks for ELS Services](providing-callbacks-for-els-services.md).
 
 
 ```C++
@@ -612,13 +617,13 @@ void RecognizeCallback(PMAPPING_PROPERTY_BAG pBag, LPVOID data, DWORD dwDataSize
 [Providing Callbacks for ELS Services](providing-callbacks-for-els-services.md)
 </dt> <dt>
 
-[**MappingFreePropertyBag**](mappingfreepropertybag.md)
+[**MappingFreePropertyBag**](/windows/win32/Elscore/nf-elscore-mappingfreepropertybag?branch=master)
 </dt> <dt>
 
-[**MappingGetServices**](mappinggetservices.md)
+[**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master)
 </dt> <dt>
 
-[**MappingRecognizeText**](mappingrecognizetext.md)
+[**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master)
 </dt> </dl>
 
  

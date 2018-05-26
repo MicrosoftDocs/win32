@@ -1,7 +1,12 @@
 ---
-Description: 'Folder depth predicates control the scope of a search by specifying a path and whether to perform a deep or shallow traversal.'
-ms.assetid: '8eadbd42-3538-412e-9bf8-b2355d23437e'
+Description: Folder depth predicates control the scope of a search by specifying a path and whether to perform a deep or shallow traversal.
+ms.assetid: 8eadbd42-3538-412e-9bf8-b2355d23437e
 title: SCOPE and DIRECTORY Predicates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCOPE and DIRECTORY Predicates

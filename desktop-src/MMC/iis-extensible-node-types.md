@@ -4,10 +4,13 @@ description: The Internet Information Services (IIS) snap-in allows extensions f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5cd0294d-f58d-4ca3-bcb0-84064ff11413'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5cd0294d-f58d-4ca3-bcb0-84064ff11413
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IIS Extensible Node Types

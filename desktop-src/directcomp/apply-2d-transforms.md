@@ -1,8 +1,15 @@
 ---
 title: How to apply 2D transforms
 description: This topic demonstrates how to apply 2D transforms to a visual by using Microsoft DirectComposition.
-ms.assetid: 'DED74416-C85A-4220-89BD-3F9BEF786B7D'
-keywords: ["how to apply DirectComposition 2D transforms", "DirectComposition 2D transforms"]
+ms.assetid: DED74416-C85A-4220-89BD-3F9BEF786B7D
+keywords:
+- how to apply DirectComposition 2D transforms
+- DirectComposition 2D transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to apply 2D transforms
@@ -51,8 +58,8 @@ IDCompositionTransform *pTransforms[3];
 
 ### Step 3: Create the transform objects, set their properties, and add them to the transform group array
 
-1.  Use the [**IDCompositionDevice::CreateRotateTransform**](idcompositiondevice-createrotatetransform.md), [**::CreateScaleTransform**](idcompositiondevice-createscaletransform.md), and [**::CreateTranslateTransform**](idcompositiondevice-createtranslatetransform.md) methods to create the transform objects.
-2.  Use the member functions of the [**IDCompositionRotateTransform**](idcompositionrotatetransform.md), [**IDCompositionScaleTransform**](idcompositionscaletransform.md), and [**IDCompositionTranslateTransform**](idcompositiontranslatetransform.md) interfaces to set the properties of the transforms.
+1.  Use the [**IDCompositionDevice::CreateRotateTransform**](/windows/win32/Dcomp/?branch=master), [**::CreateScaleTransform**](/windows/win32/Dcomp/?branch=master), and [**::CreateTranslateTransform**](/windows/win32/Dcomp/?branch=master) methods to create the transform objects.
+2.  Use the member functions of the [**IDCompositionRotateTransform**](/windows/win32/Dcomp/?branch=master), [**IDCompositionScaleTransform**](/windows/win32/Dcomp/?branch=master), and [**IDCompositionTranslateTransform**](/windows/win32/Dcomp/?branch=master) interfaces to set the properties of the transforms.
 3.  Copy the transform interface pointers to the transform group array.
 
 
@@ -130,7 +137,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Create the transform group object
 
-Call the [**IDCompositionDevice::CreateTransformGroup**](idcompositiondevice-createtransformgroup.md) method to create the transform group object.
+Call the [**IDCompositionDevice::CreateTransformGroup**](/windows/win32/Dcomp/?branch=master) method to create the transform group object.
 
 
 ```C++
@@ -145,7 +152,7 @@ if (SUCCEEDED(hr))
 
 ### Step 5: Apply the transform group object to the visual
 
-Use the [**IDCompositionVisual::SetTransform**](idcompositionvisual-settransform-d2d1-matrix-3x2-f.md) method to associate the Transform property of the visual with the transform group object.
+Use the [**IDCompositionVisual::SetTransform**](/windows/win32/Dcomp/?branch=master) method to associate the Transform property of the visual with the transform group object.
 
 
 ```C++
@@ -160,7 +167,7 @@ if (SUCCEEDED(hr))
 
 ### Step 6: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) method to commit the updates to the visual to DirectComposition for processing. The result of applying the group of 2D transforms appears in the target window.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) method to commit the updates to the visual to DirectComposition for processing. The result of applying the group of 2D transforms appears in the target window.
 
 
 ```C++

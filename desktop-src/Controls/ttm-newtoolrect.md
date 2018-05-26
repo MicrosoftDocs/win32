@@ -1,8 +1,9 @@
 ---
 title: TTM\_NEWTOOLRECT message
 description: Sets a new bounding rectangle for a tool.
-ms.assetid: '81d1b745-310e-482e-8c6e-6e98e1e67b66'
-keywords: ["TTM_NEWTOOLRECT message Windows Controls"]
+ms.assetid: 81d1b745-310e-482e-8c6e-6e98e1e67b66
+keywords:
+- TTM_NEWTOOLRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_NEWTOOLRECT message
@@ -29,7 +35,7 @@ Sets a new bounding rectangle for a tool.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TOOLINFO**](toolinfo.md) structure. The **hwnd** and **uId** members identify a tool, and the **rect** member specifies the new bounding rectangle. The **cbSize** member of this structure must be filled in before sending this message.
+Pointer to a [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure. The **hwnd** and **uId** members identify a tool, and the **rect** member specifies the new bounding rectangle. The **cbSize** member of this structure must be filled in before sending this message.
 
 </dd> </dl>
 
@@ -43,16 +49,16 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TTM\_NEWTOOLRECTW** (Unicode) and **TTM\_NEWTOOLRECTA** (ANSI)<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

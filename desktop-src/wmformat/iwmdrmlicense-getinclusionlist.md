@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense GetInclusionList method
 description: The GetInclusionList method retrieves the entire inclusion list for the current license or license chain.
-ms.assetid: 'a3cb70c5-7d20-413c-aeb8-66c9233b384e'
-keywords: ["GetInclusionList method windows Media Format", "GetInclusionList method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , GetInclusionList method"]
+ms.assetid: a3cb70c5-7d20-413c-aeb8-66c9233b384e
+keywords:
+- GetInclusionList method windows Media Format
+- GetInclusionList method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , GetInclusionList method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::GetInclusionList method
@@ -23,8 +31,8 @@ The **GetInclusionList** method retrieves the entire inclusion list for the curr
 
 ```C++
 HRESULT GetInclusionList(
-  [out] GUID  **ppGuids,
-  [out] DWORD *pcGuids
+  [out] GUID  **ppGuids,
+  [out] DWORD *pcGuids
 );
 ```
 
@@ -60,7 +68,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +95,9 @@ The license issuer can specify other protection systems to which the encrypted c
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

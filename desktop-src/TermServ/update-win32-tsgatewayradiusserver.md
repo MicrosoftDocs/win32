@@ -4,11 +4,14 @@ description: Updates the current Remote Authentication Dial-In User Service (RAD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '38a15768-66eb-40d6-a079-16555f2bf96a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 38a15768-66eb-40d6-a079-16555f2bf96a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Update method Remote Desktop Services", "Update method Remote Desktop Services , Win32_TSGatewayRADIUSServer class", "Win32_TSGatewayRADIUSServer class Remote Desktop Services , Update method"]
+keywords:
+- Update method Remote Desktop Services
+- Update method Remote Desktop Services , Win32_TSGatewayRADIUSServer class
+- Win32_TSGatewayRADIUSServer class Remote Desktop Services , Update method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Update method of the Win32\_TSGatewayRADIUSServer class
@@ -28,8 +34,8 @@ Updates the current Remote Authentication Dial-In User Service (RADIUS) server.
 
 ```mof
 uint32 Update(
-  [in] string Name,
-  [in] string SharedSecret
+  [in] string Name,
+  [in] string SharedSecret
 );
 ```
 
@@ -70,7 +76,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -84,9 +90,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayRADIUSServer**](win32-tsgatewayradiusserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

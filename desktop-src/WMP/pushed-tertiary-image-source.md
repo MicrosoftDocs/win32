@@ -1,8 +1,18 @@
 ---
 title: Pushed Tertiary Image Source
 description: Pushed Tertiary Image Source
-ms.assetid: 'e2d41729-87c5-4cec-931c-8702585930f2'
-keywords: ["Windows Media Player Mobile skins,button image source", "skins,button image source", "reference for skins,buttons", "buttons in skins,image source", "image source for skins,buttons"]
+ms.assetid: e2d41729-87c5-4cec-931c-8702585930f2
+keywords:
+- Windows Media Player Mobile skins,button image source
+- skins,button image source
+- reference for skins,buttons
+- buttons in skins,image source
+- image source for skins,buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pushed Tertiary Image Source

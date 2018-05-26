@@ -1,7 +1,12 @@
 ---
 title: VML EndCap Attribute
 description: VML EndCap Attribute
-ms.assetid: 'd8669a34-0fec-461e-90de-d9d5f7749a15'
+ms.assetid: d8669a34-0fec-461e-90de-d9d5f7749a15
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML EndCap Attribute

@@ -1,7 +1,12 @@
 ---
 title: How to Use Pager Controls
 description: This section describes how to implement the pager control in your application.
-ms.assetid: '5703FE4B-987E-49DA-9741-F8B45AD26467'
+ms.assetid: 5703FE4B-987E-49DA-9741-F8B45AD26467
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Pager Controls
@@ -23,7 +28,7 @@ This section describes how to implement the pager control in your application.
 
 ### Initialize a Pager Control
 
-To use the pager control, you must call the [**InitCommonControlsEx**](initcommoncontrolsex.md) function with the ICC\_PAGESCROLLER\_CLASS flag set in the **dwICC** member of the [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure.
+To use the pager control, you must call the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function with the ICC\_PAGESCROLLER\_CLASS flag set in the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure.
 
 ### Create a Pager Control
 
@@ -35,7 +40,7 @@ After the pager control is created, you will most likely want to assign a contai
 
 At a minimum, it is necessary to process the [PGN\_CALCSIZE](pgn-calcsize.md) notification. If you do not process this notification and enter a value for the width or height, the scroll arrows in the pager control will not be displayed. This is because the pager control uses the width or height supplied in the PGN\_CALCSIZE notification to determine the "ideal" size of the contained window.
 
-The following example demonstrates how to process the [PGN\_CALCSIZE](pgn-calcsize.md) notification case. In this example, the contained window is a toolbar control that contains an unknown number of buttons at an unknown size. The example shows how to use the [**TB\_GETMAXSIZE**](tb-getmaxsize.md) message to determine the size of all of the items in the toolbar. The example then places the width of all of the items into the **iWidth** member of the [**NMPGCALCSIZE**](nmpgcalcsize.md) structure that is passed to the notification.
+The following example demonstrates how to process the [PGN\_CALCSIZE](pgn-calcsize.md) notification case. In this example, the contained window is a toolbar control that contains an unknown number of buttons at an unknown size. The example shows how to use the [**TB\_GETMAXSIZE**](tb-getmaxsize.md) message to determine the size of all of the items in the toolbar. The example then places the width of all of the items into the **iWidth** member of the [**NMPGCALCSIZE**](/windows/win32/Commctrl/ns-commctrl-nmpgcalcsize?branch=master) structure that is passed to the notification.
 
 
 ```C++

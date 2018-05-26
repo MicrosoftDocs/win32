@@ -1,14 +1,20 @@
 ---
 title: DRM\_IsDRM
 description: The DRM\_IsDRM property indicates whether a file is a DRM-protected file.
-ms.assetid: '1d728135-25e9-4ab8-873d-b7df3e8cae83'
-keywords: ["DRM_IsDRM windows Media Format"]
+ms.assetid: 1d728135-25e9-4ab8-873d-b7df3e8cae83
+keywords:
+- DRM_IsDRM windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_IsDRM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_IsDRM
@@ -23,7 +29,7 @@ g\_wszWMDRM\_IsDRM
 
 **WMT\_TYPE\_BOOL**
 
-This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](iwmdrmreader-getdrmproperty.md).
+This is a read-only property that is retrieved using [**IWMDRMReader::GetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty?branch=master).
 
 ## See also
 

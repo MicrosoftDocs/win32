@@ -1,7 +1,12 @@
 ---
 title: Header Control Messages
 description: .
-ms.assetid: '77743235-fba5-472c-8a86-065e280c6eeb'
+ms.assetid: 77743235-fba5-472c-8a86-065e280c6eeb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Control Messages

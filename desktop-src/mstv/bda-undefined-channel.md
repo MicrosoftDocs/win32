@@ -1,8 +1,9 @@
 ---
 title: BDA\_Channel enumeration
 description: Specifies an undefined channel in a channel tune request.
-ms.assetid: '43373e48-303d-4b5a-928e-a0796da57bbe'
-keywords: ["enumeration Microsoft TV Technologies"]
+ms.assetid: 43373e48-303d-4b5a-928e-a0796da57bbe
+keywords:
+- enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA\_Channel enumeration
@@ -22,7 +28,7 @@ Specifies an undefined channel in a channel tune request.
 
 ```C++
 typedef enum BDA_Channel { 
-  BDA_UNDEFINED_CHANNEL  = -1
+  BDA_UNDEFINED_CHANNEL  = -1
 } BDA_Channel;
 ```
 
@@ -56,9 +62,9 @@ Indicates that the channel is undefined.
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

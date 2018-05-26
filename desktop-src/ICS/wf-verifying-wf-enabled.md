@@ -1,8 +1,15 @@
 ---
 title: Verifying Windows Firewall is Enabled
 description: Verifying Windows Firewall is Enabled
-ms.assetid: 'ff3bbe5f-0fe6-40a1-bf65-8406a5aa2e5a'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: ff3bbe5f-0fe6-40a1-bf65-8406a5aa2e5a
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying Windows Firewall is Enabled

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetCountOfType method retrieves the number of objects of a given type contained in this composition and all its virtual tracks, recursively.'
-ms.assetid: '2d14ccf7-77bc-4095-bfb8-12a52b4b9595'
-title: 'IAMTimelineComp::GetCountOfType method'
+---
+Description: The GetCountOfType method retrieves the number of objects of a given type contained in this composition and all its virtual tracks, recursively.
+ms.assetid: 2d14ccf7-77bc-4095-bfb8-12a52b4b9595
+title: IAMTimelineCompGetCountOfType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineComp::GetCountOfType method

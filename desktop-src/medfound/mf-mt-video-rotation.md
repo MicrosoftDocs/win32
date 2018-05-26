@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the rotation of a video frame in the counter-clockwise direction.'
-ms.assetid: '7C0911A6-6D7C-4510-891F-A6F56CE1EC2B'
-title: 'MF\_MT\_VIDEO\_ROTATION attribute'
+---
+Description: Specifies the rotation of a video frame in the counter-clockwise direction.
+ms.assetid: 7C0911A6-6D7C-4510-891F-A6F56CE1EC2B
+title: MF\_MT\_VIDEO\_ROTATION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_ROTATION attribute
@@ -18,7 +23,7 @@ Video from a handheld device, such as a mobile phone, is often rotated by 90, 18
 
 If this attribute set to **MFVideoRotationFormat\_90**, it means that the content has been rotated 90 degrees in the counter-clockwise direction. If the content was rotated 90 degrees in the clockwise direction, the attribute value would be **MFVideoRotationFormat\_270**.
 
-The supported values for this attribute are enumerated in [**MFVideoRotationFormat**](mfvideorotationformat.md).
+The supported values for this attribute are enumerated in [**MFVideoRotationFormat**](/windows/win32/mfapi/ne-mfapi-_mfvideorotationformat?branch=master).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

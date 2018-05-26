@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_Sso03 class
 description: The MDM\_VPNv2\_Sso03 class can be used to select a certificate different from the VPN Authentication certificate for the Kerberos Authentication in the case of Device Compliance.
-ms.assetid: '179b6b69-1319-4310-aebc-f61550af6c77'
-keywords: ["MDM_VPNv2_Sso03 class", "MDM_VPNv2_Sso03 class, described"]
+ms.assetid: 179b6b69-1319-4310-aebc-f61550af6c77
+keywords:
+- MDM_VPNv2_Sso03 class
+- MDM_VPNv2_Sso03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_Sso03 class
@@ -29,11 +36,11 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system", "local-user"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_VPNv2_Sso03
 {
-  string  InstanceID;
-  string  ParentID;
+  string  InstanceID;
+  string  ParentID;
   boolean Enabled;
-  string  IssuerHash;
-  string  Eku;
+  string  IssuerHash;
+  string  Eku;
 };
 ```
 
@@ -120,7 +127,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -135,9 +142,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

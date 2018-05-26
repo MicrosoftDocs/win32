@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates a type of service status change for monitoring and reporting.'
-ms.assetid: '7508526c-02ce-4ac2-8616-491390a4afad'
-title: 'SC\_EVENT\_TYPE enumeration'
+Description: Indicates a type of service status change for monitoring and reporting.
+ms.assetid: 7508526c-02ce-4ac2-8616-491390a4afad
+title: SC\_EVENT\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SC\_EVENT\_TYPE enumeration
@@ -13,9 +18,9 @@ Indicates a type of service status change for monitoring and reporting.
 
 ```C++
 typedef enum _SC_EVENT_TYPE { 
-  SC_EVENT_DATABASE_CHANGE  = 0,
-  SC_EVENT_PROPERTY_CHANGE  = 1,
-  SC_EVENT_STATUS_CHANGE    = 2
+  SC_EVENT_DATABASE_CHANGE  = 0,
+  SC_EVENT_PROPERTY_CHANGE  = 1,
+  SC_EVENT_STATUS_CHANGE    = 2
 } SC_EVENT_TYPE, *PSC_EVENT_TYPE;
 ```
 
@@ -52,15 +57,15 @@ The status of a service has changed. The *hService* parameter of the [**Subscrib
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported client<br/> | Windows 8<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winsvcp.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Delay (sessionStateChangeTriggerType) Element
 description: Contains a value that indicates the delay length for a task start time, when a Terminal Server session state change is detected.
-ms.assetid: '7fb87c4c-0b69-4c5b-b038-d61fb7c4ab9a'
-keywords: ["Delay element Task Scheduler"]
+ms.assetid: 7fb87c4c-0b69-4c5b-b038-d61fb7c4ab9a
+keywords:
+- Delay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Delay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delay (sessionStateChangeTriggerType) Element
@@ -37,7 +43,7 @@ The **Delay** element is defined by the [**sessionStateChangeTriggerType**](task
 
 For scripting development, the session state change trigger delay is specified using the [**SessionStateChangeTrigger.Delay**](sessionstatechangetrigger-delay.md) property.
 
-For C++ development, the session state change trigger delay is specified using the [**Delay property of ISessionStateChangeTrigger**](isessionstatechangetrigger-delay.md).
+For C++ development, the session state change trigger delay is specified using the [**Delay property of ISessionStateChangeTrigger**](/windows/win32/taskschd/nf-taskschd-isessionstatechangetrigger-get_delay?branch=master).
 
 ## Requirements
 
@@ -45,14 +51,14 @@ For C++ development, the session state change trigger delay is specified using t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

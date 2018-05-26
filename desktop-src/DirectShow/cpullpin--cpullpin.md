@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '06167630-3b75-4433-8b2f-2127ffb4d389'
-title: 'CPullPin.~CPullPin destructor'
+Description: Destructor method.
+ms.assetid: 06167630-3b75-4433-8b2f-2127ffb4d389
+title: CPullPin.~CPullPin destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.~CPullPin destructor
@@ -35,9 +40,9 @@ Destructor method.
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

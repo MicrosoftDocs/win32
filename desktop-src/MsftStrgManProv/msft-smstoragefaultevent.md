@@ -4,11 +4,13 @@ description: Represents a storage fault event.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8e357e50-f218-4a15-88ef-d2e037c397f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8e357e50-f218-4a15-88ef-d2e037c397f0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageFaultEvent class", "MSFT_SMStorageFaultEvent class, described"]
+keywords:
+- MSFT_SMStorageFaultEvent class
+- MSFT_SMStorageFaultEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageFaultEvent class
@@ -45,20 +50,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageFaultEvent : MSFT_SMStorageEvent
 {
-  string                   StorageSubsystemObjectId;
-  MSFT_SMStorageObject     SourceInstance;
-  string                   Description;
-  datetime                 EventTime;
-  uint16                   PerceivedSeverity;
-  string                   SourceClassName;
-  UInt16                   ChangeType;
-  String                   FaultId;
-  String                   FaultType;
-  String                   FaultingObjectDescription;
-  String                   FaultingObjectLocation;
+  string                   StorageSubsystemObjectId;
+  MSFT_SMStorageObject     SourceInstance;
+  string                   Description;
+  datetime                 EventTime;
+  uint16                   PerceivedSeverity;
+  string                   SourceClassName;
+  UInt16                   ChangeType;
+  String                   FaultId;
+  String                   FaultType;
+  String                   FaultingObjectDescription;
+  String                   FaultingObjectLocation;
   MSFT_SMStorageObject REF FaultingObject;
-  String                   Reason;
-  String                   RecommendedActions[];
+  String                   Reason;
+  String                   RecommendedActions[];
 };
 ```
 
@@ -399,7 +404,7 @@ This property is inherited from [**MSFT\_SMStorageEvent**](msft-smstorageevent.m
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -416,9 +421,9 @@ This property is inherited from [**MSFT\_SMStorageEvent**](msft-smstorageevent.m
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

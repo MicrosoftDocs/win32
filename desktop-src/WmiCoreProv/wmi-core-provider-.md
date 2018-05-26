@@ -1,7 +1,12 @@
 ---
-Description: 'The WMI Core provider defines classes that compose the core functionality of WMI.'
-ms.assetid: '6EEA4284-CCFE-4206-9EAA-B4BCF988DE03'
+Description: The WMI Core provider defines classes that compose the core functionality of WMI.
+ms.assetid: 6EEA4284-CCFE-4206-9EAA-B4BCF988DE03
 title: WMI Core Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMI Core Provider
@@ -39,11 +44,11 @@ A majority of the WMI Core provider classes contain data supplied by the [WDM Pr
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

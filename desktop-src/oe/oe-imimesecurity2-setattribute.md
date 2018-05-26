@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity2 SetAttribute method
 description: Sets the specified attribute data for the specified signer.
-ms.assetid: '1237847e-0e13-48f8-86a6-5bcee80c8761'
-keywords: ["SetAttribute method Windows Mail (formerly Outlook Express)", "SetAttribute method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface", "IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , SetAttribute method"]
+ms.assetid: 1237847e-0e13-48f8-86a6-5bcee80c8761
+keywords:
+- SetAttribute method Windows Mail (formerly Outlook Express)
+- SetAttribute method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface
+- IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , SetAttribute method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity2::SetAttribute method
@@ -22,10 +30,10 @@ Sets the specified attribute data for the specified signer.
 
 ```C++
 HRESULT SetAttribute(
-  [in]       DWORD           dwFlags,
-  [in]       DWORD           iSigner,
-  [in]       DWORD           iAttributeSet,
-  [in] const CRYPT_ATTRIBUTE *pattr
+  [in]       DWORD           dwFlags,
+  [in]       DWORD           iSigner,
+  [in]       DWORD           iAttributeSet,
+  [in] const CRYPT_ATTRIBUTE *pattr
 );
 ```
 
@@ -97,7 +105,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -105,8 +113,8 @@ This method can return one of these values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -114,9 +122,9 @@ This method can return one of these values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'When you configure a component to be pooled, COM+ will maintain instances of it in a pool, ready to be activated for any client requesting the component. Any object creation requests will be handled through the pool manager.'
-ms.assetid: '34978b50-cd20-42fd-ad46-410190478ef8'
+Description: When you configure a component to be pooled, COM+ will maintain instances of it in a pool, ready to be activated for any client requesting the component. Any object creation requests will be handled through the pool manager.
+ms.assetid: 34978b50-cd20-42fd-ad46-410190478ef8
 title: How Object Pooling Works
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Object Pooling Works
@@ -14,15 +19,15 @@ When the application starts, the pool will be populated up to the minimum level 
 
 When the pool reaches its maximum level, client requests are queued and will receive the first available object from the pool. The number of objects, including both activated and deactivated, will never exceed the maximum pool value. Object creation requests will time out after an administratively specified period so that you can control how long clients will wait for object creation. Upon a time-out failure, the client will get back the error E\_TIMEOUT from [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
 
-Whenever possible, COM+ will attempt to reuse an object after a client releases it, until the pool reaches its maximum level. The object is responsible for monitoring its state to determine whether it can be reused and should return an appropriate value for [**IObjectControl::CanBePooled**](iobjectcontrol-canbepooled.md).
+Whenever possible, COM+ will attempt to reuse an object after a client releases it, until the pool reaches its maximum level. The object is responsible for monitoring its state to determine whether it can be reused and should return an appropriate value for [**IObjectControl::CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master).
 
-When a pooled object is created, it is aggregated into a larger object that will manage the object's lifetime. The outer object calls methods on [**IObjectControl**](iobjectcontrol.md) at appropriate times in the object's life cycle, as follows:
+When a pooled object is created, it is aggregated into a larger object that will manage the object's lifetime. The outer object calls methods on [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master) at appropriate times in the object's life cycle, as follows:
 
--   The [**Activate**](iobjectcontrol-activate.md) method is called whenever the object is returned to a client, activated in a specific context.
--   The [**Deactivate**](iobjectcontrol-deactivate.md) method is called whenever an object is released by the client or, in the case of a JIT-activated object, when it is deactivated.
--   The [**CanBePooled**](iobjectcontrol-canbepooled.md) method is called whenever an object is to be returned to the general pool. If the object detects that some reusable resource is in a bad state, it should return **FALSE** for this method and the pool manager will discard the object.
+-   The [**Activate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-activate?branch=master) method is called whenever the object is returned to a client, activated in a specific context.
+-   The [**Deactivate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate?branch=master) method is called whenever an object is released by the client or, in the case of a JIT-activated object, when it is deactivated.
+-   The [**CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master) method is called whenever an object is to be returned to the general pool. If the object detects that some reusable resource is in a bad state, it should return **FALSE** for this method and the pool manager will discard the object.
 
-An object does not necessarily need to implement [**IObjectControl**](iobjectcontrol.md). If it does not, instances will always be reused, until the pool maximum level is reached.
+An object does not necessarily need to implement [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master). If it does not, instances will always be reused, until the pool maximum level is reached.
 
 For details about how to configure components to be pooled, see [Configuring a Component to Be Pooled](configuring-a-component-to-be-pooled.md).
 

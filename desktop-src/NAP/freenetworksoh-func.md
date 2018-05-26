@@ -1,8 +1,9 @@
 ---
 title: FreeNetworkSoH function
 description: Frees a NetworkSoH data structure.
-ms.assetid: 'a27d54a0-8b9c-4bf7-909c-1de5db55f429'
-keywords: ["FreeNetworkSoH function NAP"]
+ms.assetid: a27d54a0-8b9c-4bf7-909c-1de5db55f429
+keywords:
+- FreeNetworkSoH function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,23 +12,28 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeNetworkSoH function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **FreeNetworkSoH** function frees a [**NetworkSoH**](networksoh-struct.md) data structure.
+The **FreeNetworkSoH** function frees a [**NetworkSoH**](/windows/win32/NapTypes/ns-naptypes-tagnetworksoh?branch=master) data structure.
 
 ## Syntax
 
 
 ```C++
 NAPAPI VOID WINAPI FreeNetworkSoH(
-  _In_ NetworkSoH *networkSoh
+  _In_ NetworkSoH *networkSoh
 );
 ```
 
@@ -40,7 +46,7 @@ NAPAPI VOID WINAPI FreeNetworkSoH(
 *networkSoh* \[in\]
 </dt> <dd>
 
-A pointer to the [**NetworkSoH**](networksoh-struct.md) data structure to free.
+A pointer to the [**NetworkSoH**](/windows/win32/NapTypes/ns-naptypes-tagnetworksoh?branch=master) data structure to free.
 
 </dd> </dl>
 
@@ -60,16 +66,16 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

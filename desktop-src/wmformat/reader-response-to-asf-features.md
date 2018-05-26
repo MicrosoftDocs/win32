@@ -1,8 +1,17 @@
 ---
 title: Reader Response to ASF Features
 description: Reader Response to ASF Features
-ms.assetid: '0cf800ca-63e8-47e2-a2fc-7ba6789fb4bb'
-keywords: ["Windows Media Format SDK,reader responses to ASF features", "Advanced Systems Format (ASF),reader responses to features", "ASF (Advanced Systems Format),reader responses to features", "reader responses to ASF features"]
+ms.assetid: 0cf800ca-63e8-47e2-a2fc-7ba6789fb4bb
+keywords:
+- Windows Media Format SDK,reader responses to ASF features
+- Advanced Systems Format (ASF),reader responses to features
+- ASF (Advanced Systems Format),reader responses to features
+- reader responses to ASF features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reader Response to ASF Features

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCurrentSample method retrieves the current sample.'
-ms.assetid: 'cfdc66e3-7d32-47b7-87f6-99dd9513c93b'
-title: 'CBaseRenderer.GetCurrentSample method'
+Description: The GetCurrentSample method retrieves the current sample.
+ms.assetid: cfdc66e3-7d32-47b7-87f6-99dd9513c93b
+title: CBaseRenderer.GetCurrentSample method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.GetCurrentSample method
@@ -23,11 +28,11 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to the sample's [**IMediaSample**](imediasample.md) interface, or **NULL** if no sample is available.
+Returns a pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface, or **NULL** if no sample is available.
 
 ## Remarks
 
-Unless the method returns **NULL**, the method calls **AddRef** on the [**IMediaSample**](imediasample.md) pointer before returning it. The caller must release the pointer. (By implication, you must assign the return value to a variable, so that you can release it later.)
+Unless the method returns **NULL**, the method calls **AddRef** on the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) pointer before returning it. The caller must release the pointer. (By implication, you must assign the return value to a variable, so that you can release it later.)
 
 ## Requirements
 
@@ -47,9 +52,9 @@ Unless the method returns **NULL**, the method calls **AddRef** on the [**IMedia
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

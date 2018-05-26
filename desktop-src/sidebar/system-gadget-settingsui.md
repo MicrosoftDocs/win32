@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.settingsUI property
 description: Gets or sets the HTML filename for the gadget Settings dialog UI.
-ms.assetid: 'fd8c1b46-7c59-441a-b2f3-78babe26ed15'
-keywords: ["settingsUI property Windows Sidebar", "settingsUI property Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , settingsUI property"]
+ms.assetid: fd8c1b46-7c59-441a-b2f3-78babe26ed15
+keywords:
+- settingsUI property Windows Sidebar
+- settingsUI property Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , settingsUI property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.settingsUI property
@@ -57,10 +65,10 @@ System.Gadget.settingsUI = "Example.html";
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -100,9 +108,9 @@ System.Gadget.settingsUI = "Example.html";
 [Developing a Gadget for Windows Sidebar Part 1: The Basics](-sidebar-overview-gdo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

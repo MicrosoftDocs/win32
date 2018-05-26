@@ -1,8 +1,9 @@
 ---
 title: glLightModelfv function
 description: The glLightModelfv function sets lighting model parameters.
-ms.assetid: 'a62bcf3b-1769-48a3-8121-8f2b41266183'
-keywords: ["glLightModelfv function OpenGL"]
+ms.assetid: a62bcf3b-1769-48a3-8121-8f2b41266183
+keywords:
+- glLightModelfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLightModelfv function
@@ -22,8 +28,8 @@ The [**glLightModelfv**](gllightfv.md) function sets lighting model parameters.
 
 ```C++
 void WINAPI glLightModelfv(
-         GLenum  pname,
-   const GLfloat *params
+         GLenum  pname,
+   const GLfloat *params
 );
 ```
 
@@ -48,7 +54,7 @@ A lighting model parameter. The following values are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,8 +125,8 @@ The following functions retrieve information related to the **glLightModelfv** f
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -143,9 +149,9 @@ The following functions retrieve information related to the **glLightModelfv** f
 [**glMaterial**](glmaterial-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

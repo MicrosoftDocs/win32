@@ -1,14 +1,19 @@
 ---
-Description: 'Implements an allocator that supports the IMemAllocator interface.'
-ms.assetid: 'c40eccef-d915-4bf3-81b2-b20e000718fb'
+Description: Implements an allocator that supports the IMemAllocator interface.
+ms.assetid: c40eccef-d915-4bf3-81b2-b20e000718fb
 title: CMemAllocator class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator class
 
 ![cmemallocator class hierarchy](images/filter10.png)
 
-Implements an allocator that supports the [**IMemAllocator**](imemallocator.md) interface.
+Implements an allocator that supports the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 This class derives from [**CBaseAllocator**](cbaseallocator.md). For more information about allocators, refer to the documentation for [**CBaseAllocator**](cbaseallocator.md).
 
@@ -30,7 +35,7 @@ This class derives from [**CBaseAllocator**](cbaseallocator.md). For more inform
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,9 +55,9 @@ This class derives from [**CBaseAllocator**](cbaseallocator.md). For more inform
 [Providing a Custom Allocator](providing-a-custom-allocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

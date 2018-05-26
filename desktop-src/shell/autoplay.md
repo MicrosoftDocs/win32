@@ -1,6 +1,11 @@
 ---
-Description: 'AutoRun is a feature of the Windows operating system.'
-title: 'Creating an AutoRun-enabled CD-ROM Application'
+Description: AutoRun is a feature of the Windows operating system.
+title: Creating an AutoRun-enabled CD-ROM Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an AutoRun-enabled CD-ROM Application

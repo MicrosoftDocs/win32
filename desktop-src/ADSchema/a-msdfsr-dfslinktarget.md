@@ -4,17 +4,22 @@ description: Contains the link target for the subscription.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '42f55602-21b8-4f80-8b12-6183cf598857'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 42f55602-21b8-4f80-8b12-6183cf598857
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-DfsLinkTarget attribute AD Schema", "msDFSR-DfsLinkTarget attribute AD Schema"]
+keywords:
+- ms-DFSR-DfsLinkTarget attribute AD Schema
+- msDFSR-DfsLinkTarget attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-DfsLinkTarget
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-DfsLinkTarget attribute
@@ -38,10 +43,10 @@ Contains the link target for the subscription.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the link target for the subscription.
 
 The **ms-DFSR-DfsLinkTarget** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

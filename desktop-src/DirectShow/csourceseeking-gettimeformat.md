@@ -1,19 +1,24 @@
 ---
-Description: 'The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeeking::GetTimeFormat method.'
-ms.assetid: 'c90804f7-9a0a-423c-8b26-87abf15eddc5'
-title: 'CSourceSeeking.GetTimeFormat method'
+Description: The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeekingGetTimeFormat method.
+ms.assetid: c90804f7-9a0a-423c-8b26-87abf15eddc5
+title: CSourceSeeking.GetTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetTimeFormat method
 
-The `GetTimeFormat` method retrieves the current time format. This method implements the [**IMediaSeeking::GetTimeFormat**](imediaseeking-gettimeformat.md) method.
+The `GetTimeFormat` method retrieves the current time format. This method implements the [**IMediaSeeking::GetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-gettimeformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetTimeFormat(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

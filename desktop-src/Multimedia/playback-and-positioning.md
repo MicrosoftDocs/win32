@@ -1,7 +1,12 @@
 ---
 title: Playback and Positioning
 description: Playback and Positioning
-ms.assetid: 'fbf9294e-c644-45c7-ab60-dd903409a44f'
+ms.assetid: fbf9294e-c644-45c7-ab60-dd903409a44f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playback and Positioning

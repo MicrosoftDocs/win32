@@ -1,7 +1,12 @@
 ---
-Description: 'The FNumber value when the photo was taken, as read from the Exchangeable Image File (EXIF) information.'
-ms.assetid: '914dc34d-34e9-4283-be26-203da945d3e9'
-title: 'System.Photo.FNumber'
+Description: The FNumber value when the photo was taken, as read from the Exchangeable Image File (EXIF) information.
+ms.assetid: 914dc34d-34e9-4283-be26-203da945d3e9
+title: System.Photo.FNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FNumber

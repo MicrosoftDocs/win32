@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the topology loader enumerates the media types provided by the media source.'
-ms.assetid: '2675ef16-2018-47e8-bb22-2fc0d62e6681'
-title: 'MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute'
+---
+Description: Specifies whether the topology loader enumerates the media types provided by the media source.
+ms.assetid: 2675ef16-2018-47e8-bb22-2fc0d62e6681
+title: MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute
@@ -27,17 +32,17 @@ Use one of the following values.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 
-Each stream on a media source can offer more than one media type. The list of types is enumerated through the [**IMFMediaTypeHandler**](imfmediatypehandler.md) interface on the stream descriptor.
+Each stream on a media source can offer more than one media type. The list of types is enumerated through the [**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master) interface on the stream descriptor.
 
 The order in which the topology loader tries a media source's media types is controlled by two attributes:
 

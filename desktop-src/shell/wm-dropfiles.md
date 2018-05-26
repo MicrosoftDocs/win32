@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent when the user drops a file on the window of an application that has registered itself as a recipient of dropped files.'
-ms.assetid: '07dc2df7-4699-4e9c-b1a5-4ce877116268'
-title: 'WM\_DROPFILES message'
+---
+Description: Sent when the user drops a file on the window of an application that has registered itself as a recipient of dropped files.
+ms.assetid: 07dc2df7-4699-4e9c-b1a5-4ce877116268
+title: WM\_DROPFILES message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DROPFILES message
@@ -35,7 +40,7 @@ Sent when the user drops a file on the window of an application that has registe
 *hDrop* 
 </dt> <dd>
 
-A handle to an internal structure describing the dropped files. Pass this handle [**DragFinish**](dragfinish.md), [**DragQueryFile**](dragqueryfile.md), or [**DragQueryPoint**](dragquerypoint.md) to retrieve information about the dropped files.
+A handle to an internal structure describing the dropped files. Pass this handle [**DragFinish**](/windows/win32/Shellapi/nf-shellapi-dragfinish?branch=master), [**DragQueryFile**](/windows/win32/Shellapi/nf-shellapi-dragqueryfilea?branch=master), or [**DragQueryPoint**](/windows/win32/Shellapi/nf-shellapi-dragquerypoint?branch=master) to retrieve information about the dropped files.
 
 </dd> <dt>
 
@@ -73,7 +78,7 @@ The HDROP handle is declared in Shellapi.h. You must include this header in your
 [**PostMessage**](winmsg.postmessage)
 </dt> <dt>
 
-[**DragAcceptFiles**](dragacceptfiles.md)
+[**DragAcceptFiles**](/windows/win32/Shellapi/nf-shellapi-dragacceptfiles?branch=master)
 </dt> </dl>
 
  

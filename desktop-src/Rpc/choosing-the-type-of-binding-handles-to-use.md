@@ -1,7 +1,12 @@
 ---
 title: Choosing the Type of Binding Handles to Use
 description: Choosing the Type of Binding Handles to Use
-ms.assetid: 'b0c2c71d-c6c9-4a58-83f9-10ac9b6b214b'
+ms.assetid: b0c2c71d-c6c9-4a58-83f9-10ac9b6b214b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing the Type of Binding Handles to Use

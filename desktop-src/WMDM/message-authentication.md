@@ -1,8 +1,21 @@
 ---
 title: Message Authentication
 description: Message Authentication
-ms.assetid: '6cb49f6b-e303-4840-9343-9891e75e07a4'
-keywords: ["Windows Media Device Manager,message authentication", "Device Manager,message authentication", "desktop applications,message authentication", "service providers,message authentication", "programming guide,message authentication", "message authentication", "message authentication code (MAC)", "MAC (message authentication code)"]
+ms.assetid: 6cb49f6b-e303-4840-9343-9891e75e07a4
+keywords:
+- Windows Media Device Manager,message authentication
+- Device Manager,message authentication
+- desktop applications,message authentication
+- service providers,message authentication
+- programming guide,message authentication
+- message authentication
+- message authentication code (MAC)
+- MAC (message authentication code)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Authentication
@@ -29,7 +42,7 @@ When performing MAC authentication, it is important that both the sender and the
 
 In this method, the MAC would include *pData* and *pdwSize*. If you do not include both the parameters, the MAC you create will not match the MAC passed to *abMac*. A service provider must be sure to put all the required parameters in the application method into the MAC value.
 
-The following C++ code demonstrates creating a MAC in a service provider's implementation of [**IMDSPStorageGlobals::GetSerialNumber**](imdspstorageglobals-getserialnumber.md).
+The following C++ code demonstrates creating a MAC in a service provider's implementation of [**IMDSPStorageGlobals::GetSerialNumber**](/windows/win32/mswmdm/nf-mswmdm-imdspstorageglobals-getserialnumber?branch=master).
 
 
 ```C++
@@ -82,7 +95,7 @@ HRESULT CMyDevice::GetSerialNumber(
 
 The receiver (typically the application):
 
-If the receiver has not implemented the [**IWMDMOperation3**](iwmdmoperation3.md) interface, it should perform the same steps as the sender, and then compare the two MAC values. The following C++ code example shows how an application would check the MAC received in a call to [**IWMDMStorageGlobals::GetSerialNumber**](iwmdmstorageglobals-getserialnumber.md) to ensure that the serial number was not tampered with in transit.
+If the receiver has not implemented the [**IWMDMOperation3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmoperation3?branch=master) interface, it should perform the same steps as the sender, and then compare the two MAC values. The following C++ code example shows how an application would check the MAC received in a call to [**IWMDMStorageGlobals::GetSerialNumber**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorageglobals-getserialnumber?branch=master) to ensure that the serial number was not tampered with in transit.
 
 
 ```C++

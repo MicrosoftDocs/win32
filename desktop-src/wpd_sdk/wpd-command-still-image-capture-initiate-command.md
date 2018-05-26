@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_STILL\_IMAGE\_CAPTURE\_INITIATE command initiates a still image capture by a still image functional object. If a new object is created as a result of taking a picture, the driver should send the WPD\_EVENT\_OBJECT\_ADDED event.'
-ms.assetid: '2968b96e-c9d8-42a7-a32a-dea5fdf064b5'
-title: 'WPD\_COMMAND\_STILL\_IMAGE\_CAPTURE\_INITIATE Command'
+Description: The WPD\_COMMAND\_STILL\_IMAGE\_CAPTURE\_INITIATE command initiates a still image capture by a still image functional object. If a new object is created as a result of taking a picture, the driver should send the WPD\_EVENT\_OBJECT\_ADDED event.
+ms.assetid: 2968b96e-c9d8-42a7-a32a-dea5fdf064b5
+title: WPD\_COMMAND\_STILL\_IMAGE\_CAPTURE\_INITIATE Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_STILL\_IMAGE\_CAPTURE\_INITIATE Command
@@ -24,7 +29,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -39,11 +44,11 @@ The driver should return the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -62,9 +67,9 @@ Can only be called directly using [**IPortableDevice::SendCommand**](iportablede
 [**Commands**](commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

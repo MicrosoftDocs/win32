@@ -1,8 +1,9 @@
 ---
 title: MMIOM\_WRITEFLUSH message
 description: The MMIOM\_WRITEFLUSH message is sent to an I/O procedure by the mmioWrite function to request that data be written to an open file and that any internal buffers used by the I/O procedure be flushed to disk.
-ms.assetid: 'e04acaef-9584-410c-a020-af09fb888490'
-keywords: ["MMIOM_WRITEFLUSH message Windows Multimedia"]
+ms.assetid: e04acaef-9584-410c-a020-af09fb888490
+keywords:
+- MMIOM_WRITEFLUSH message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMIOM\_WRITEFLUSH message
@@ -46,7 +52,7 @@ Number of bytes to write to file.
 
 ## Return Value
 
-Returns the number of bytes actually written to the file. If there is an error, the return value is –1.
+Returns the number of bytes actually written to the file. If there is an error, the return value is  1.
 
 ## Remarks
 
@@ -60,15 +66,15 @@ This message is equivalent to the [**MMIOM\_WRITE**](mmiom-write.md) message exc
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

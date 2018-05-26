@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.SerialNumber property
 description: Gets the serial number of the device.
-ms.assetid: '3B290778-F3AE-4390-B90F-ED727649AF80'
-keywords: ["SerialNumber property Media Streaming API", "SerialNumber property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , SerialNumber property"]
+ms.assetid: 3B290778-F3AE-4390-B90F-ED727649AF80
+keywords:
+- SerialNumber property Media Streaming API
+- SerialNumber property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , SerialNumber property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.SerialNumber
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.SerialNumber property

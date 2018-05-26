@@ -1,14 +1,21 @@
 ---
 title: IWMDRMLicenseManagement interface
 description: The IWMDRMLicenseManagement interface provides methods that perform general operations related to the local license store.To obtain an instance of this interface, call IWMDRMProvider CreateObject. Pass IID\_IWMDRMLicenseManagement as the riid parameter.
-ms.assetid: '254bf54e-8ea6-4fd1-8abd-9d32539d529b'
-keywords: ["IWMDRMLicenseManagement interface windows Media Format", "IWMDRMLicenseManagement interface windows Media Format , described"]
+ms.assetid: 254bf54e-8ea6-4fd1-8abd-9d32539d529b
+keywords:
+- IWMDRMLicenseManagement interface windows Media Format
+- IWMDRMLicenseManagement interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMLicenseManagement
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement interface
@@ -45,7 +52,7 @@ The **IWMDRMLicenseManagement** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -57,9 +64,9 @@ The **IWMDRMLicenseManagement** interface has these methods.
 [**IWMDRMEventGenerator**](iwmdrmeventgenerator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: text.left property
 description: Gets or sets the number of pixels from the left edge of the gadget to position the g text element.
-ms.assetid: '280dd9de-cce5-4b9c-84f0-f22f1d6d497a'
-keywords: ["left property Windows Sidebar", "left property Windows Sidebar , text object", "text object Windows Sidebar , left property"]
+ms.assetid: 280dd9de-cce5-4b9c-84f0-f22f1d6d497a
+keywords:
+- left property Windows Sidebar
+- left property Windows Sidebar , text object
+- text object Windows Sidebar , left property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.left property
@@ -58,10 +66,10 @@ txtLeft.left = 0;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -83,9 +91,9 @@ txtLeft.left = 0;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Properties
 description: .
-ms.assetid: '0c6a6ff1-c28a-4a99-a5f3-710e3dc232b3'
+ms.assetid: 0c6a6ff1-c28a-4a99-a5f3-710e3dc232b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties

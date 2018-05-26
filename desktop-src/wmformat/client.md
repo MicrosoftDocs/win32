@@ -1,19 +1,32 @@
 ---
 title: Client Logging
 description: Client Logging
-ms.assetid: '3e0d0fea-4370-41f8-b461-73a37de8d8bc'
-keywords: ["Windows Media Format SDK,client logging", "Windows Media Format SDK,logging", "Advanced Systems Format (ASF),client logging", "ASF (Advanced Systems Format),client logging", "Advanced Systems Format (ASF),logging", "ASF (Advanced Systems Format),logging", "client logging", "logging clients"]
+ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
+keywords:
+- Windows Media Format SDK,client logging
+- Windows Media Format SDK,logging
+- Advanced Systems Format (ASF),client logging
+- ASF (Advanced Systems Format),client logging
+- Advanced Systems Format (ASF),logging
+- ASF (Advanced Systems Format),logging
+- client logging
+- logging clients
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Logging
 
 When the reader object reads data from a server, it sends logging information to the server. Content providers typically use this information to measure quality of service, generate billing information, or track advertising. The logging information contains no personal data.
 
-The application can specify some of the information that is logged, by calling the [**IWMReaderAdvanced::SetClientInfo**](iwmreaderadvanced-setclientinfo.md) method on the reader object. For example, you can specify the user-agent string, the name of the player application, or the Web page that hosts the player.
+The application can specify some of the information that is logged, by calling the [**IWMReaderAdvanced::SetClientInfo**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setclientinfo?branch=master) method on the reader object. For example, you can specify the user-agent string, the name of the player application, or the Web page that hosts the player.
 
-The logging information includes a GUID that identifies the session. By default, the reader generates an anonymous session ID. Optionally, the reader can instead send an ID that uniquely identifies the current user. To enable this feature, call the [**IWMReaderAdvanced2::SetLogClientID**](iwmreaderadvanced2-setlogclientid.md) method with the value **TRUE**.
+The logging information includes a GUID that identifies the session. By default, the reader generates an anonymous session ID. Optionally, the reader can instead send an ID that uniquely identifies the current user. To enable this feature, call the [**IWMReaderAdvanced2::SetLogClientID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid?branch=master) method with the value **TRUE**.
 
-You can configure the reader object to send the logging information to another server, in addition to the originating server. To do so, call the [**IWMReaderNetworkConfig::AddLoggingUrl**](iwmreadernetworkconfig-addloggingurl.md) method with the URL of the server. This URL should point to a script or executable that can handle HTTP GET and POST requests. You can use the Multicast and Logging Advertisement Agent (wmsiislog.dll), or you can write a custom ASP or CGI script to receive the log data.
+You can configure the reader object to send the logging information to another server, in addition to the originating server. To do so, call the [**IWMReaderNetworkConfig::AddLoggingUrl**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-addloggingurl?branch=master) method with the URL of the server. This URL should point to a script or executable that can handle HTTP GET and POST requests. You can use the Multicast and Logging Advertisement Agent (wmsiislog.dll), or you can write a custom ASP or CGI script to receive the log data.
 
 > [!Note]  
 > You can get the same functionality by creating a server-side playlist with a **logURL** attribute.
@@ -58,7 +71,7 @@ The following code shows an example ASP script that receives the logging informa
 
 
 
-You can specify multiple servers to receive logging information; just call **AddLoggingUrl** once with each URL. To clear the list of servers that receive logs, call the [**IWMReaderNetworkConfig::ResetLoggingUrlList**](iwmreadernetworkconfig-resetloggingurllist.md) method.
+You can specify multiple servers to receive logging information; just call **AddLoggingUrl** once with each URL. To clear the list of servers that receive logs, call the [**IWMReaderNetworkConfig::ResetLoggingUrlList**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-resetloggingurllist?branch=master) method.
 
 ## Related topics
 
@@ -67,10 +80,10 @@ You can specify multiple servers to receive logging information; just call **Add
 [**Implementing Network Functionality**](implementing-network-functionality.md)
 </dt> <dt>
 
-[**IWMReaderAdvanced Interface**](iwmreaderadvanced.md)
+[**IWMReaderAdvanced Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced?branch=master)
 </dt> <dt>
 
-[**IWMReaderAdvanced2 Interface**](iwmreaderadvanced2.md)
+[**IWMReaderAdvanced2 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2?branch=master)
 </dt> </dl>
 
  

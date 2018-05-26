@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an ExtendedKeyUsage object that indicates the valid uses of the certificate.'
-ms.assetid: 'e974e9e2-1011-48b7-9ebc-e754e4990286'
-title: 'ICertificate2::ExtendedKeyUsage method'
+---
+Description: Returns an ExtendedKeyUsage object that indicates the valid uses of the certificate.
+ms.assetid: e974e9e2-1011-48b7-9ebc-e754e4990286
+title: ICertificate2ExtendedKeyUsage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::ExtendedKeyUsage method

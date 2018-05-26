@@ -1,12 +1,17 @@
 ---
 Description: Handling Repaint Events in Video Capture
-ms.assetid: '80739be7-fa38-409d-a827-d788d3044abe'
+ms.assetid: 80739be7-fa38-409d-a827-d788d3044abe
 title: Handling Repaint Events in Video Capture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Repaint Events in Video Capture
 
-If you build a video capture graph without using the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface, and you preview the video using the old Video Renderer filter, then you should override the default handling for [**EC\_REPAINT**](ec-repaint.md) events. Query the Filter Graph Manager for the [**IMediaEvent**](imediaevent.md) interface and call the [**IMediaEvent::CancelDefaultHandling**](imediaevent-canceldefaulthandling.md) method with the value EC\_REPAINT:
+If you build a video capture graph without using the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface, and you preview the video using the old Video Renderer filter, then you should override the default handling for [**EC\_REPAINT**](ec-repaint.md) events. Query the Filter Graph Manager for the [**IMediaEvent**](/windows/win32/Control/nn-control-imediaevent?branch=master) interface and call the [**IMediaEvent::CancelDefaultHandling**](/windows/win32/Control/nf-control-imediaevent-canceldefaulthandling?branch=master) method with the value EC\_REPAINT:
 
 
 ```C++

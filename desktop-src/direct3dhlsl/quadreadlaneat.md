@@ -1,14 +1,20 @@
 ---
 title: QuadReadLaneAt function
 description: Returns the specified source value from the lane identified by the lane ID within the current quad.
-ms.assetid: '5CD7EE4C-E64E-46A3-ABDC-1BF65D0F96BE'
-keywords: ["QuadReadLaneAt function HLSL"]
+ms.assetid: 5CD7EE4C-E64E-46A3-ABDC-1BF65D0F96BE
+keywords:
+- QuadReadLaneAt function HLSL
 topic_type:
 - apiref
 api_name:
 - QuadReadLaneAt
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuadReadLaneAt function

@@ -4,13 +4,15 @@ description: A subclass of Capabilities that defines the Capabilities of a Repli
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2cfd97be-a199-4ed9-819d-5c7c95df45c3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2cfd97be-a199-4ed9-819d-5c7c95df45c3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ReplicationServiceCapabilities class iSCSI Software Target API", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ReplicationServiceCapabilities class
@@ -90,7 +95,7 @@ The **CIM\_ReplicationServiceCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -307,14 +312,14 @@ Enumeration indicating what operations will be executed as asynchronous jobs. If
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -420,14 +425,14 @@ Enumeration indicating the supported SyncType/Mode/Local-or-Remote combinations.
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -470,14 +475,14 @@ Enumeration indicating the supported storage objects.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -670,14 +675,14 @@ Enumeration indicating what operations will be executed synchronously -- without
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -688,16 +693,16 @@ Enumeration indicating what operations will be executed synchronously -- without
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

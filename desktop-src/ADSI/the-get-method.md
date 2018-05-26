@@ -4,18 +4,23 @@ description: The IADs Get method is used to retrieve individual named attributes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e3754663-fe31-46f3-9dc1-a9c96ed53fde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e3754663-fe31-46f3-9dc1-a9c96ed53fde
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Get ADSI , using IADs Get", "ADSI ADSI ,using,using the IADs Get method"]
+keywords:
+- Get ADSI , using IADs Get
+- ADSI ADSI ,using,using the IADs Get method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The Get Method
 
-The [**IADs::Get**](iads-get.md) method is used to retrieve individual named attributes from a directory object.
+The [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) method is used to retrieve individual named attributes from a directory object.
 
-The following code example uses the [**IADs::Get**](iads-get.md) method to retrieve a named attribute from an object.
+The following code example uses the [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) method to retrieve a named attribute from an object.
 
 
 ```VB
@@ -65,7 +70,7 @@ Cleanup:
 
 
 
-If a value is not set on the object, the [**IADs::Get**](iads-get.md) method will return the error "Property not found in cache".
+If a value is not set on the object, the [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) method will return the error "Property not found in cache".
 
  
 

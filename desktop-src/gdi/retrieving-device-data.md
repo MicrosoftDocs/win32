@@ -1,14 +1,19 @@
 ---
-Description: 'Applications can use the following functions to retrieve device data using a device context: GetDeviceCaps and DeviceCapabilities.'
-ms.assetid: 'eed6a323-b7eb-41a2-adb9-592f3f912884'
+Description: Applications can use the following functions to retrieve device data using a device context GetDeviceCaps and DeviceCapabilities.
+ms.assetid: eed6a323-b7eb-41a2-adb9-592f3f912884
 title: Retrieving Device Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Device Data
 
-Applications can use the following functions to retrieve device data using a device context: [**GetDeviceCaps**](getdevicecaps.md) and [**DeviceCapabilities**](gdi.devicecapabilities).
+Applications can use the following functions to retrieve device data using a device context: [**GetDeviceCaps**](/windows/win32/Wingdi/nf-wingdi-getdevicecaps?branch=master) and [**DeviceCapabilities**](gdi.devicecapabilities).
 
-[**GetDeviceCaps**](getdevicecaps.md) retrieves general device data for the following devices:
+[**GetDeviceCaps**](/windows/win32/Wingdi/nf-wingdi-getdevicecaps?branch=master) retrieves general device data for the following devices:
 
 -   Raster displays
 -   Dot-matrix printers

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the protectors used to secure the volume''s encryption key.'
-ms.assetid: 'ea88f128-c835-49e3-a395-c5ba472fff4b'
-title: 'GetKeyProtectors method of the Win32\_EncryptableVolume class'
+---
+Description: Lists the protectors used to secure the volumes encryption key.
+ms.assetid: ea88f128-c835-49e3-a395-c5ba472fff4b
+title: GetKeyProtectors method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetKeyProtectors method of the Win32\_EncryptableVolume class

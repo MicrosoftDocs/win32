@@ -1,14 +1,22 @@
 ---
 title: createContainer.Data property
 description: The Data property assigns an IStream returned by IXMLHttpRequest.getResponseStream to add data to this Creation Container Object.
-ms.assetid: '10ae9243-8838-46f3-b7bc-b73f2742ae1b'
-keywords: ["Data property WPD Automation", "Data property WPD Automation , createContainer object", "createContainer object WPD Automation , Data property"]
+ms.assetid: 10ae9243-8838-46f3-b7bc-b73f2742ae1b
+keywords:
+- Data property WPD Automation
+- Data property WPD Automation , createContainer object
+- createContainer object WPD Automation , Data property
 topic_type:
 - apiref
 api_name:
 - createContainer.Data
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # createContainer.Data property
@@ -89,8 +97,8 @@ serviceObject.AddChild(createContainer);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -116,9 +124,9 @@ serviceObject.AddChild(createContainer);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

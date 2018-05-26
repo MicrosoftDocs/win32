@@ -1,12 +1,17 @@
-﻿---
-Description: 'The Security2 property returns a IFaxSecurity2 object used to configure security on the fax server.'
-ms.assetid: '2e030439-3edd-49b2-99bf-56cc3900beef'
-title: 'FaxServer.Security2 property'
+---
+Description: The Security2 property returns a IFaxSecurity2 object used to configure security on the fax server.
+ms.assetid: 2e030439-3edd-49b2-99bf-56cc3900beef
+title: FaxServer.Security2 property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Security2 property
 
-The **Security2** property returns a [**IFaxSecurity2**](-mfax-faxsecurity2-cpp.md) object used to configure security on the fax server.
+The **Security2** property returns a [**IFaxSecurity2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity2?branch=master) object used to configure security on the fax server.
 
 This property is read-only.
 
@@ -21,7 +26,7 @@ Property Security2 As IFaxSecurity2
 
 ## Property value
 
-The address of a pointer to an [**IFaxSecurity2**](-mfax-faxsecurity2-cpp.md) object.
+The address of a pointer to an [**IFaxSecurity2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity2?branch=master) object.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ The address of a pointer to an [**IFaxSecurity2**](-mfax-faxsecurity2-cpp.md) ob
 
 <dl> <dt>
 
-[**IFaxServer2**](-mfax-faxserver2-cpp.md)
+[**IFaxServer2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver2?branch=master)
 </dt> <dt>
 
 [**FaxServer**](-mfax-faxserver.md)

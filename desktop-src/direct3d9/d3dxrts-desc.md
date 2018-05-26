@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a render surface.'
-ms.assetid: 'cffa1555-1fa2-427d-8bcb-da0e61d82152'
-title: 'D3DXRTS\_DESC structure'
+---
+Description: Describes a render surface.
+ms.assetid: cffa1555-1fa2-427d-8bcb-da0e61d82152
+title: D3DXRTS\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXRTS\_DESC structure

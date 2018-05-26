@@ -1,8 +1,11 @@
 ---
 title: IVMAccountant CPUUtilization property
 description: Retrieves the percentage of current CPU utilization for this virtual machine.
-ms.assetid: '69bb61ec-af41-4bd0-95bd-4698a1d33098'
-keywords: ["CPUUtilization property Virtual PC", "CPUUtilization property Virtual PC , IVMAccountant interface", "IVMAccountant interface Virtual PC , CPUUtilization property"]
+ms.assetid: 69bb61ec-af41-4bd0-95bd-4698a1d33098
+keywords:
+- CPUUtilization property Virtual PC
+- CPUUtilization property Virtual PC , IVMAccountant interface
+- IVMAccountant interface Virtual PC , CPUUtilization property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::CPUUtilization property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the percentage of current CPU utilization for this virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CPUUtilization(
-  [out, retval] long *percentageUtilization
+  [out, retval] long *percentageUtilization
 );
 ```
 
@@ -56,9 +64,9 @@ The percentage of current CPU utilization.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMAccountant is defined as 6376c067-7f57-4d63-b754-06e2e4f51d73<br/>              |
@@ -72,9 +80,9 @@ The percentage of current CPU utilization.
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

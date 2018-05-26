@@ -1,8 +1,13 @@
 ---
 Description: Glossary page
-Robots: 'noindex, nofollow'
-ms.assetid: '08951f9f-d03d-4720-8f18-1413ba72e93d'
+Robots: noindex, nofollow
+ms.assetid: 08951f9f-d03d-4720-8f18-1413ba72e93d
 title: Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

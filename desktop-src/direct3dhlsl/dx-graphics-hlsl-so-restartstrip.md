@@ -1,7 +1,12 @@
 ---
 title: RestartStrip (DirectX HLSL Stream-Output Object)
 description: Ends the current primitive strip and starts a new strip. If the current strip does not have enough vertices emitted to fill the primitive topology, the incomplete primitive at the end will be discarded.
-ms.assetid: 'ca8eb7cf-1b4a-4082-b768-01390c5f8b47'
+ms.assetid: ca8eb7cf-1b4a-4082-b768-01390c5f8b47
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestartStrip (DirectX HLSL Stream-Output Object)
@@ -16,7 +21,7 @@ Ends the current primitive strip and starts a new strip. If the current strip do
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -28,7 +33,7 @@ Ends the current primitive strip and starts a new strip. If the current strip do
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -36,12 +41,12 @@ None
 
 ## Remarks
 
-A strip cut causes the current strip to end, and a new strip to start. A strip cut can be done by explicitly calling this method, or just by rendering up to the maximum index value (–1, which is 0xffffffff for 32-bit indices or 0xffff for 16-bit indices). Each instance of an indexed-instanced draw generates a strip cut automatically. This is true even if the topology is not a triangle strip.
+A strip cut causes the current strip to end, and a new strip to start. A strip cut can be done by explicitly calling this method, or just by rendering up to the maximum index value ( 1, which is 0xffffffff for 32-bit indices or 0xffff for 16-bit indices). Each instance of an indexed-instanced draw generates a strip cut automatically. This is true even if the topology is not a triangle strip.
 
 > [!Note]  
-> Support for restart and the –1 'magic value' for a cut is only available on [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 10.0 or higher devices.
+> Support for restart and the  1 'magic value' for a cut is only available on [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) 10.0 or higher devices.
 
- 
+ 
 
 The output is always assumed to be a triangle strip. To make the output a triangle list, you must call RestartStrip between each triangle. Triangle fans are unsupported.
 
@@ -60,7 +65,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This function is supported in the following shader models.
 [Stream-Output Object](dx-graphics-hlsl-so-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

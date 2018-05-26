@@ -1,7 +1,12 @@
 ---
 title: out
 description: Specifies an output parameter.
-ms.assetid: '3880aad3-8a6f-43e6-8420-25c4d1b9a71a'
+ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # out

@@ -1,7 +1,12 @@
 ---
 title: HH\_HELP\_CONTEXT command
 description: Displays a help topic based on a mapped topic ID.
-ms.assetid: '09C20812-FD9A-4e07-AC7F-0C85DFB7A7E6'
+ms.assetid: 09C20812-FD9A-4e07-AC7F-0C85DFB7A7E6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_HELP\_CONTEXT command
@@ -18,7 +23,7 @@ If a window type is not specified, a default window type is used. If the window 
 
 
 
- 
+ 
 
 ## Example
 
@@ -47,9 +52,9 @@ HtmlHelp(
 [HH\_DISPLAY\_TOPIC](hh-display-topic-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

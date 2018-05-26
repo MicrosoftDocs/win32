@@ -1,8 +1,14 @@
 ---
 title: Starting an Executable When a Task is Registered
 description: Writing a task that starts an executable when a task is registered is done by defining a registration trigger and an executable action.
-ms.assetid: '426fa79d-7f0d-42fb-a8c4-15981d13be71'
-keywords: ["Task Scheduler examples Task Scheduler , registration trigger"]
+ms.assetid: 426fa79d-7f0d-42fb-a8c4-15981d13be71
+keywords:
+- Task Scheduler examples Task Scheduler , registration trigger
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting an Executable When a Task is Registered
@@ -11,7 +17,7 @@ Writing a task that starts an executable when a task is registered is done by de
 
 ## Registration Trigger
 
-Registration triggers start a task as soon as it is registered. You can also specify a delay for the registration trigger, which starts a task after a specific amount of time (the delay) after the task is registered. The delay is specified in the [**Delay**](iregistrationtrigger-delay.md) property of the [**IRegistrationTrigger**](iregistrationtrigger.md) interface ([**RegistrationTrigger**](registrationtrigger.md) for scripting).
+Registration triggers start a task as soon as it is registered. You can also specify a delay for the registration trigger, which starts a task after a specific amount of time (the delay) after the task is registered. The delay is specified in the [**Delay**](/windows/win32/taskschd/nf-taskschd-iregistrationtrigger-get_delay?branch=master) property of the [**IRegistrationTrigger**](/windows/win32/taskschd/nn-taskschd-iregistrationtrigger?branch=master) interface ([**RegistrationTrigger**](registrationtrigger.md) for scripting).
 
 > [!Note]  
 > When a task with a registration trigger is updated, the task will execute after the update occurs.

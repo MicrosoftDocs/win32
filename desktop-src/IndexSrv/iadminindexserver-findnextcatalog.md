@@ -1,8 +1,11 @@
 ---
 title: IAdminIndexServer FindNextCatalog method
 description: Enumerates the collection of catalogs for Indexing Service from the current location and checks whether another catalog exists. Before calling this method, call FindFirstCatalog to initialize catalog enumeration.
-ms.assetid: '7c95f766-9388-46bb-8159-a13a7a891d33'
-keywords: ["FindNextCatalog method Indexing Service", "FindNextCatalog method Indexing Service , IAdminIndexServer interface", "IAdminIndexServer interface Indexing Service , FindNextCatalog method"]
+ms.assetid: 7c95f766-9388-46bb-8159-a13a7a891d33
+keywords:
+- FindNextCatalog method Indexing Service
+- FindNextCatalog method Indexing Service , IAdminIndexServer interface
+- IAdminIndexServer interface Indexing Service , FindNextCatalog method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ciodm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAdminIndexServer::FindNextCatalog method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Enumerates the collection of catalogs for Indexing Service from the current location and checks whether another catalog exists. Before calling this method, call [**FindFirstCatalog**](iadminindexserver-findfirstcatalog.md) to initialize catalog enumeration.
 
@@ -24,7 +32,7 @@ Enumerates the collection of catalogs for Indexing Service from the current loca
 
 ```C++
 HRESULT FindNextCatalog(
-  [out, retval] VARIANT_BOOL *pfFound
+  [out, retval] VARIANT_BOOL *pfFound
 );
 ```
 
@@ -70,10 +78,10 @@ Loop
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -85,9 +93,9 @@ Loop
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

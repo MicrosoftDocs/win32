@@ -1,14 +1,17 @@
 ---
 title: Disconnect method of the Win32\_TSGatewayConnection class
-description: Disconnects the connection from the Remote Desktop Gateway (RD Gateway) server.
+description: Disconnects the connection from the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8c424e58-aa89-4ec6-acea-5b571d3f4c21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8c424e58-aa89-4ec6-acea-5b571d3f4c21
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Disconnect method Remote Desktop Services", "Disconnect method Remote Desktop Services , Win32_TSGatewayConnection class", "Win32_TSGatewayConnection class Remote Desktop Services , Disconnect method"]
+keywords:
+- Disconnect method Remote Desktop Services
+- Disconnect method Remote Desktop Services , Win32_TSGatewayConnection class
+- Win32_TSGatewayConnection class Remote Desktop Services , Disconnect method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disconnect method of the Win32\_TSGatewayConnection class
 
-Disconnects the connection from the Remote Desktop Gateway (RD Gateway) server.
+Disconnects the connection from the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
@@ -53,7 +59,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -67,9 +73,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnection**](win32-tsgatewayconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The VTrackSwapPriorities method switches the priority levels of two tracks.'
-ms.assetid: '87085060-5165-4c32-b5b0-895ae487e7ef'
-title: 'IAMTimelineComp::VTrackSwapPriorities method'
+---
+Description: The VTrackSwapPriorities method switches the priority levels of two tracks.
+ms.assetid: 87085060-5165-4c32-b5b0-895ae487e7ef
+title: IAMTimelineCompVTrackSwapPriorities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineComp::VTrackSwapPriorities method

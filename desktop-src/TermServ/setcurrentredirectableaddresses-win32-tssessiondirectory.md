@@ -4,11 +4,14 @@ description: Sets the configured list of DNS eligible addresses that can be used
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cad6a8a8-fdf1-406e-abeb-37acb396ac16'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cad6a8a8-fdf1-406e-abeb-37acb396ac16
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetCurrentRedirectableAddresses method Remote Desktop Services", "SetCurrentRedirectableAddresses method Remote Desktop Services , Win32_TSSessionDirectory class", "Win32_TSSessionDirectory class Remote Desktop Services , SetCurrentRedirectableAddresses method"]
+keywords:
+- SetCurrentRedirectableAddresses method Remote Desktop Services
+- SetCurrentRedirectableAddresses method Remote Desktop Services , Win32_TSSessionDirectory class
+- Win32_TSSessionDirectory class Remote Desktop Services , SetCurrentRedirectableAddresses method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetCurrentRedirectableAddresses method of the Win32\_TSSessionDirectory class
@@ -28,8 +34,8 @@ The **SetCurrentRedirectableAddresses** method sets the configured list of DNS e
 
 ```mof
 uint32 SetCurrentRedirectableAddresses(
-  [in] uint32 fTokenRedirection,
-  [in] string IPAddresses[]
+  [in] uint32 fTokenRedirection,
+  [in] string IPAddresses[]
 );
 ```
 
@@ -74,7 +80,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -88,9 +94,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

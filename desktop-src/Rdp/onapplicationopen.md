@@ -4,11 +4,12 @@ description: Called when a new application is created.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ab21b33-ff02-4e7a-b6b9-17bc5596d9c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3ab21b33-ff02-4e7a-b6b9-17bc5596d9c1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnApplicationOpen event RDP"]
+keywords:
+- OnApplicationOpen event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnApplicationOpen event
@@ -28,7 +32,7 @@ Called when a new application is created.
 
 ```C++
 void OnApplicationOpen(
-  [in] IDispatch *pApplication
+  [in] IDispatch *pApplication
 );
 ```
 
@@ -41,7 +45,7 @@ void OnApplicationOpen(
 *pApplication* \[in\]
 </dt> <dd>
 
-The application that was created. Query the **IDispatch** interface for the [**IRDPSRAPIApplication**](irdpsrapiapplication.md) interface that you use to retrieve information about the application.
+The application that was created. Query the **IDispatch** interface for the [**IRDPSRAPIApplication**](/windows/win32/RdpEncomAPI/nn-rdpencomapi-irdpsrapiapplication?branch=master) interface that you use to retrieve information about the application.
 
 </dd> </dl>
 
@@ -59,8 +63,8 @@ You should process this event and update your user interface accordingly. Note t
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -72,12 +76,12 @@ You should process this event and update your user interface accordingly. Note t
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

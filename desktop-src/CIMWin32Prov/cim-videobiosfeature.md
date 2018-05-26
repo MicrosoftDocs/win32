@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_VideoBIOSFeature class represents the capabilities of the low-level software used to configure and access a computer system''s video controller and display.'
+Description: The CIM\_VideoBIOSFeature class represents the capabilities of the low-level software used to configure and access a computer systems video controller and display.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a12ca387-5b12-487f-84fd-381afe266338'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a12ca387-5b12-487f-84fd-381afe266338
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_VideoBIOSFeature class'
+title: CIM\_VideoBIOSFeature class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VideoBIOSFeature class
@@ -19,7 +22,7 @@ The **CIM\_VideoBIOSFeature** class represents the capabilities of the low-level
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,17 +32,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{BAE20634-E3D4-11d2-8601-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_VideoBIOSFeature : CIM_SoftwareFeature
 {
-  string   Caption;
-  string   CharacteristicDescriptions[];
-  uint16   Characteristics[];
-  string   Description;
-  string   IdentifyingNumber;
+  string   Caption;
+  string   CharacteristicDescriptions[];
+  uint16   Characteristics[];
+  string   Description;
+  string   IdentifyingNumber;
   datetime InstallDate;
-  string   Name;
-  string   ProductName;
-  string   Status;
-  string   Vendor;
-  string   Version;
+  string   Name;
+  string   ProductName;
+  string   Status;
+  string   Vendor;
+  string   Version;
 };
 ```
 
@@ -90,7 +93,7 @@ Free-form strings that provide detailed descriptions for the video BIOS features
 > [!Note]  
 > Each entry of this array is related to the entry in the **Characteristics** array that is located at the same index.
 
- 
+ 
 
 </dd> <dt>
 
@@ -417,8 +420,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -432,9 +435,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_SoftwareFeature**](cim-softwarefeature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

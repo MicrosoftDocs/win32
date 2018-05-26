@@ -1,14 +1,20 @@
 ---
 title: WM/MediaIsRepeat
 description: The WM/MediaIsRepeat attribute indicates whether the content is a repeated episode of a series.
-ms.assetid: 'f52b70f5-a5af-45bd-9d05-1bc7f480467d'
-keywords: ["WM/MediaIsRepeat windows Media Format"]
+ms.assetid: f52b70f5-a5af-45bd-9d05-1bc7f480467d
+keywords:
+- WM/MediaIsRepeat windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaIsRepeat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaIsRepeat

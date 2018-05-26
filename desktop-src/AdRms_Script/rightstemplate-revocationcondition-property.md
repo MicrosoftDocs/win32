@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a RevocationCondition object that contains information about template revocation.'
+Description: Retrieves a RevocationCondition object that contains information about template revocation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '1c751dd2-1e29-42ba-92b9-f58dfd63732f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 1c751dd2-1e29-42ba-92b9-f58dfd63732f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplate.RevocationCondition property'
+title: RightsTemplate.RevocationCondition property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplate.RevocationCondition property
@@ -131,7 +134,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -143,9 +146,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

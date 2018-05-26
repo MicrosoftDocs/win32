@@ -1,8 +1,25 @@
 ---
 title: Handling Protected Content in the Service Provider
 description: Handling Protected Content in the Service Provider
-ms.assetid: '5c18c8ec-d579-41df-8c25-c143fb9cdbef'
-keywords: ["Windows Media Device Manager,certificates", "Device Manager,certificates", "programming guide,certificates", "service providers,certificates", "creating service providers,certificates", "certificates", "Windows Media Device Manager,DRM-protected content", "Device Manager,DRM-protected content", "programming guide,DRM-protected content", "service providers,DRM-protected content", "creating service providers,DRM-protected content", "DRM-protected content"]
+ms.assetid: 5c18c8ec-d579-41df-8c25-c143fb9cdbef
+keywords:
+- Windows Media Device Manager,certificates
+- Device Manager,certificates
+- programming guide,certificates
+- service providers,certificates
+- creating service providers,certificates
+- certificates
+- Windows Media Device Manager,DRM-protected content
+- Device Manager,DRM-protected content
+- programming guide,DRM-protected content
+- service providers,DRM-protected content
+- creating service providers,DRM-protected content
+- DRM-protected content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Protected Content in the Service Provider

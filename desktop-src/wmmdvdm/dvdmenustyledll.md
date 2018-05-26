@@ -1,14 +1,20 @@
 ---
 title: DVDMenuStyleDLL element
 description: The boundary tag for a single DVD menu style object.
-ms.assetid: '0390177d-e06f-4ae2-b4e6-04a733ba587c'
-keywords: ["DVDMenuStyleDLL element Windows Movie Maker and DVD Maker"]
+ms.assetid: 0390177d-e06f-4ae2-b4e6-04a733ba587c
+keywords:
+- DVDMenuStyleDLL element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - DVDMenuStyleDLL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDMenuStyleDLL element
@@ -49,7 +55,7 @@ This object can hold one or more DVD menu styles.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ This object can hold one or more DVD menu styles.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

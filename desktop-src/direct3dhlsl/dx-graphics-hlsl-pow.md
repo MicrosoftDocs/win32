@@ -1,14 +1,20 @@
 ---
 title: pow
 description: Returns the specified value raised to the specified power.
-ms.assetid: '1d64452c-81c7-4ef5-a332-13e0263c2cd1'
-keywords: ["pow HLSL"]
+ms.assetid: 1d64452c-81c7-4ef5-a332-13e0263c2cd1
+keywords:
+- pow HLSL
 topic_type:
 - apiref
 api_name:
 - pow
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pow
@@ -22,7 +28,7 @@ Returns the specified value raised to the specified power.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Returns the specified value raised to the specified power.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -58,7 +64,7 @@ The **pow** HLSL intrinsic function calculates *x*<sup>y</sup>.
 
 
 
- 
+ 
 
 ## Type Description
 
@@ -72,7 +78,7 @@ The **pow** HLSL intrinsic function calculates *x*<sup>y</sup>.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -87,7 +93,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -96,9 +102,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

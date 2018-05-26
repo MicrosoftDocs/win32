@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect GetVariableBySemantic method
 description: Get a variable by semantic.
-ms.assetid: 'fe731af6-3e9b-4f3e-9761-121796ac8c48'
-keywords: ["GetVariableBySemantic method Direct3D 11", "GetVariableBySemantic method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , GetVariableBySemantic method"]
+ms.assetid: fe731af6-3e9b-4f3e-9761-121796ac8c48
+keywords:
+- GetVariableBySemantic method Direct3D 11
+- GetVariableBySemantic method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , GetVariableBySemantic method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::GetVariableBySemantic method
@@ -23,7 +31,7 @@ Get a variable by semantic.
 
 ```C++
 ID3DX11EffectVariable* GetVariableBySemantic(
-   LPCSTR Semantic
+   LPCSTR Semantic
 );
 ```
 
@@ -57,7 +65,7 @@ The method returns a pointer to an [**effect-variable interface**](id3dx11effect
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -77,9 +85,9 @@ The method returns a pointer to an [**effect-variable interface**](id3dx11effect
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

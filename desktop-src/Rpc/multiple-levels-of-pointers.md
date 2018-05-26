@@ -1,7 +1,12 @@
 ---
 title: Multiple Levels of Pointers
 description: Using multiple levels of pointers in Remote Procedure Call (RPC).
-ms.assetid: 'd45b9b20-3b21-4d46-9097-8aacb4e4e921'
+ms.assetid: d45b9b20-3b21-4d46-9097-8aacb4e4e921
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Levels of Pointers

@@ -1,14 +1,19 @@
-﻿---
-Description: 'Assigns vector component data to the current instance of XMXDECN4.'
-ms.assetid: 'd60f196b-281a-428c-bdae-f2d4ad1e206d'
+---
+Description: Assigns vector component data to the current instance of XMXDECN4.
+ms.assetid: d60f196b-281a-428c-bdae-f2d4ad1e206d
 title: operator = operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator = operators
 
 Assigns vector component data to the current instance of `XMXDECN4`.
 
-Assigns vector component data to the current instance of [**XMXDECN4**](xmxdecn4.md).
+Assigns vector component data to the current instance of [**XMXDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master).
 
 ### Overload list
 
@@ -28,7 +33,7 @@ Assigns vector component data to the current instance of [**XMXDECN4**](xmxdecn4
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMXDECN4::operator = (const uint32_t)</strong>](xmxdecn4-operator-eq-2.md)</td>
-<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMXDECN4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMXDECN4</strong>](xmxdecn4.md). <br/>
+<td style="text-align: left;">Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMXDECN4</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMXDECN4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master). <br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -59,7 +64,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMXDECN4**](xmxdecn4.md)
+[**XMXDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master)
 </dt> </dl>
 
  

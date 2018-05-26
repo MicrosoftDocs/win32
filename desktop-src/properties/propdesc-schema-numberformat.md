@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies how IPropertyDescription::FormatForDisplay should format the property''s value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;Number&\#0034;&gt;.'
-ms.assetid: '9e8cfe5c-e17a-40d6-958f-a1bd1130c699'
+Description: Specifies how IPropertyDescriptionFormatForDisplay should format the propertys value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;Number&\#0034;&gt;.
+ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: numberFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # numberFormat

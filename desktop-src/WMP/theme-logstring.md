@@ -1,14 +1,20 @@
 ---
 title: THEME.logString
 description: The logString method logs a user-defined string to the error file, if logging is enabled.
-ms.assetid: 'ce187ac9-170f-41b0-8a86-18fc6a1b22b5'
-keywords: ["THEME.logString Windows Media Player"]
+ms.assetid: ce187ac9-170f-41b0-8a86-18fc6a1b22b5
+keywords:
+- THEME.logString Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.logString
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.logString
@@ -51,9 +57,9 @@ This method does not return a value.
 [**THEME Element**](theme-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

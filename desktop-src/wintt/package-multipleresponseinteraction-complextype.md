@@ -1,14 +1,20 @@
 ---
 title: MultipleResponseInteraction Complex Type
 description: Defines an interaction used to let the user select more than one choice from a list of choices.
-ms.assetid: '44f7eb2b-37cd-430c-bb20-30d4e27bf023'
-keywords: ["MultipleResponseInteraction complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 44f7eb2b-37cd-430c-bb20-30d4e27bf023
+keywords:
+- MultipleResponseInteraction complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - MultipleResponseInteraction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MultipleResponseInteraction Complex Type
@@ -125,7 +131,7 @@ Defines an interaction used to let the user select more than one choice from a l
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>ID</td>
@@ -143,8 +149,8 @@ Defines an interaction used to let the user select more than one choice from a l
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -161,9 +167,9 @@ Defines an interaction used to let the user select more than one choice from a l
 [**SingleResponseInteraction Complex Type**](package-singleresponseinteraction-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

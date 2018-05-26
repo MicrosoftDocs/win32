@@ -1,7 +1,12 @@
 ---
 title: usubb (sm5 - asm)
 description: Unsigned integer subtract with borrow.
-ms.assetid: '6D42E3CA-5A37-4194-AB42-7A2337C5AB9D'
+ms.assetid: 6D42E3CA-5A37-4194-AB42-7A2337C5AB9D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # usubb (sm5 - asm)
@@ -15,7 +20,7 @@ Unsigned integer subtract with borrow.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Unsigned integer subtract with borrow.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +53,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -67,7 +72,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -76,9 +81,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

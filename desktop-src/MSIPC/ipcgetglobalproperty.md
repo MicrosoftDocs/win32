@@ -4,11 +4,12 @@ description: Returns information about environment properties.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'acb97e42-9883-463f-af53-929810e11e89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: acb97e42-9883-463f-af53-929810e11e89
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcGetGlobalProperty function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcGetGlobalProperty function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,19 +18,22 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcGetGlobalProperty function
 
-Returns information about environment properties of the Rights Management Services SDK 2.1 system.
+Returns information about environment properties of the Rights Management Services SDK 2.1 system.
 
 ## Syntax
 
 
 ```C++
 HRESULT WINAPI IpcGetGlobalProperty(
-        DWORD  dwPropID,
-  _Out_ LPVOID *ppvProperty
+        DWORD  dwPropID,
+  _Out_ LPVOID *ppvProperty
 );
 ```
 
@@ -59,7 +63,7 @@ A pointer to a variable that receives a pointer to the buffer that contains the 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Requirements
 
@@ -67,8 +71,8 @@ For more information, see [**Error codes**](error-codes.md) for a description of
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -91,9 +95,9 @@ For more information, see [**Error codes**](error-codes.md) for a description of
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

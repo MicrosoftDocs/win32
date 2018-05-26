@@ -1,22 +1,27 @@
 ---
-Description: 'An application-defined function that handles callback access control entries (ACEs) during an access check.'
-ms.assetid: 'e8a510e6-0739-4765-ad07-3bcb1b9c905c'
+Description: An application-defined function that handles callback access control entries (ACEs) during an access check.
+ms.assetid: e8a510e6-0739-4765-ad07-3bcb1b9c905c
 title: AuthzAccessCheckCallback callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthzAccessCheckCallback callback function
 
-The **AuthzAccessCheckCallback** function is an application-defined function that handles callback [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) during an access check. **AuthzAccessCheckCallback** is a placeholder for the application-defined function name. The application registers this callback by calling [**AuthzInitializeResourceManager**](authzinitializeresourcemanager.md).
+The **AuthzAccessCheckCallback** function is an application-defined function that handles callback [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) during an access check. **AuthzAccessCheckCallback** is a placeholder for the application-defined function name. The application registers this callback by calling [**AuthzInitializeResourceManager**](/windows/win32/Authz/nf-authz-authzinitializeresourcemanager?branch=master).
 
 ## Syntax
 
 
 ```C++
 BOOL CALLBACK AuthzAccessCheckCallback(
-  _In_     AUTHZ_CLIENT_CONTEXT_HANDLE hAuthzClientContext,
-  _In_     PACE_HEADER                 pAce,
-  _In_opt_ PVOID                       pArgs,
-  _Inout_  PBOOL                       pbAceApplicable
+  _In_     AUTHZ_CLIENT_CONTEXT_HANDLE hAuthzClientContext,
+  _In_     PACE_HEADER                 pAce,
+  _In_opt_ PVOID                       pArgs,
+  _Inout_  PBOOL                       pbAceApplicable
 );
 ```
 
@@ -36,14 +41,14 @@ A handle to a client context.
 *pAce* \[in\]
 </dt> <dd>
 
-A pointer to the ACE to evaluate for inclusion in the call to the [**AuthzAccessCheck**](authzaccesscheck.md) function.
+A pointer to the ACE to evaluate for inclusion in the call to the [**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master) function.
 
 </dd> <dt>
 
 *pArgs* \[in, optional\]
 </dt> <dd>
 
-Data passed in the *DynamicGroupArgs* parameter of the call to [**AuthzAccessCheck**](authzaccesscheck.md) or [**AuthzCachedAccessCheck**](authzcachedaccesscheck.md).
+Data passed in the *DynamicGroupArgs* parameter of the call to [**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master) or [**AuthzCachedAccessCheck**](/windows/win32/Authz/nf-authz-authzcachedaccesscheck?branch=master).
 
 </dd> <dt>
 
@@ -52,7 +57,7 @@ Data passed in the *DynamicGroupArgs* parameter of the call to [**AuthzAccessChe
 
 A pointer to a Boolean variable that receives the results of the evaluation of the logic defined by the application.
 
-The results are **TRUE** if the logic determines that the ACE is applicable and will be included in the call to [**AuthzAccessCheck**](authzaccesscheck.md); otherwise, the results are **FALSE**.
+The results are **TRUE** if the logic determines that the ACE is applicable and will be included in the call to [**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master); otherwise, the results are **FALSE**.
 
 </dd> </dl>
 
@@ -74,9 +79,9 @@ For more information, see the [How AccessCheck Works](how-dacls-control-access-t
 
 |                                     |                                                                        |
 |-------------------------------------|------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
-| Redistributable<br/>          | Windows Server 2003 Administration Tools Pack on Windows XP<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |
+| Redistributable<br/>          | Windows Server 2003 Administration Tools Pack on Windows XP<br/> |
 
 
 
@@ -93,21 +98,21 @@ For more information, see the [How AccessCheck Works](how-dacls-control-access-t
 [How AccessCheck Works](how-dacls-control-access-to-an-object.md)
 </dt> <dt>
 
-[**AuthzAccessCheck**](authzaccesscheck.md)
+[**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master)
 </dt> <dt>
 
-[**AuthzCachedAccessCheck**](authzcachedaccesscheck.md)
+[**AuthzCachedAccessCheck**](/windows/win32/Authz/nf-authz-authzcachedaccesscheck?branch=master)
 </dt> <dt>
 
-[**AuthzInitializeRemoteResourceManager**](authzinitializeremoteresourcemanager.md)
+[**AuthzInitializeRemoteResourceManager**](/windows/win32/Authz/nf-authz-authzinitializeremoteresourcemanager?branch=master)
 </dt> <dt>
 
-[**AuthzInitializeResourceManager**](authzinitializeresourcemanager.md)
+[**AuthzInitializeResourceManager**](/windows/win32/Authz/nf-authz-authzinitializeresourcemanager?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

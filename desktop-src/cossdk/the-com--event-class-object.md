@@ -1,7 +1,12 @@
 ---
-Description: 'The COM+ Events service uses an event class object to manage the connection between publisher and subscriber.'
-ms.assetid: '877c5890-588d-4978-8fb2-b4ecf4134068'
+Description: The COM+ Events service uses an event class object to manage the connection between publisher and subscriber.
+ms.assetid: 877c5890-588d-4978-8fb2-b4ecf4134068
 title: The COM+ Event Class Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The COM+ Event Class Object
@@ -10,7 +15,7 @@ The COM+ Events service uses an *event class object* to manage the connection be
 
 To fire an event, the publisher instantiates the event class object by calling [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) or the Microsoft Visual Basic **CreateObject** method and requesting the event interface be returned. The instantiated event class object contains the event system's implementation of the requested interface. An interested subscriber must also implement the event class interface to receive events from a given publisher. When the event class object is instantiated, the event system associates it with the appropriate subscribers. The list of subscribers is maintained for the lifetime of the event class object. An event can be delivered to multiple subscribers either serially or in parallel.
 
-When you implement an event class object, you should provide a self-registering DLL that exports the [**DllRegisterServer**](https://msdn.microsoft.com/library/windows/desktop/ms682162) and [**DllUnregisterServer**](https://msdn.microsoft.com/library/windows/desktop/ms691457) functions. The **DllRegisterServer** function registers a COM class, and the **DllUnregisterServer** function unregisters the component. Event class objects are stored in the COM+ catalog, either by using the Component Services administration tool or programmatically by using the methods of the [**ICOMAdminCatalog::InstallEventClass**](icomadmincatalog-installeventclass.md) or [**ICOMAdminCatalog::InstallMultipleEventClasses**](icomadmincatalog-installmultipleeventclasses.md) interfaces. For detailed information about registering event class objects, see [Registering an Event Class](registering-an-event-class.md).
+When you implement an event class object, you should provide a self-registering DLL that exports the [**DllRegisterServer**](https://msdn.microsoft.com/library/windows/desktop/ms682162) and [**DllUnregisterServer**](https://msdn.microsoft.com/library/windows/desktop/ms691457) functions. The **DllRegisterServer** function registers a COM class, and the **DllUnregisterServer** function unregisters the component. Event class objects are stored in the COM+ catalog, either by using the Component Services administration tool or programmatically by using the methods of the [**ICOMAdminCatalog::InstallEventClass**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-installeventclass?branch=master) or [**ICOMAdminCatalog::InstallMultipleEventClasses**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-installmultipleeventclasses?branch=master) interfaces. For detailed information about registering event class objects, see [Registering an Event Class](registering-an-event-class.md).
 
 Because event class objects are configured components, other attributes, such as queuing, transactions, security, and so on, can be configured for them by using either the Component Services administration tool or the COM+ Administrative SDK functions.
 

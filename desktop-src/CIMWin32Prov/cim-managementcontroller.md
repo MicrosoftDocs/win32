@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ManagementController class relates to the capabilities and management of a management controller.'
+Description: The CIM\_ManagementController class relates to the capabilities and management of a management controller.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '47ad29d1-5021-4469-87c0-bd9403faa70c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 47ad29d1-5021-4469-87c0-bd9403faa70c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ManagementController class'
+title: CIM\_ManagementController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagementController class
@@ -19,7 +22,7 @@ The **CIM\_ManagementController** class relates to the capabilities and manageme
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,27 +32,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{7250D62E-E3D0-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_ManagementController : CIM_Controller
 {
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint32   MaxNumberControlled;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   ProtocolSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  uint32   MaxNumberControlled;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   ProtocolSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
   datetime TimeOfLastReset;
 };
 ```
@@ -74,7 +77,7 @@ The **CIM\_ManagementController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1531,8 +1534,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1546,9 +1549,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Controller**](cim-controller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that the DVD disc does not have a FP\_PGC (First Play Program Chain) and that the DVD Navigator will not automatically load any PGC and start playback.'
-ms.assetid: 'c6b37256-5f99-41bb-98f0-b9519d260c8a'
-title: 'EC\_DVD\_NO\_FP\_PGC'
+Description: Signals that the DVD disc does not have a FP\_PGC (First Play Program Chain) and that the DVD Navigator will not automatically load any PGC and start playback.
+ms.assetid: c6b37256-5f99-41bb-98f0-b9519d260c8a
+title: EC\_DVD\_NO\_FP\_PGC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_NO\_FP\_PGC
@@ -35,9 +40,9 @@ This event is raised from the First Play domain.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

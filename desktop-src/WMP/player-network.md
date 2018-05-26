@@ -1,8 +1,9 @@
 ---
 title: Player.network
 description: The network property retrieves the Network object.
-ms.assetid: '83de787c-5071-40fa-bed4-df8aa6f78380'
-keywords: ["Player.network Windows Media Player"]
+ms.assetid: 83de787c-5071-40fa-bed4-df8aa6f78380
+keywords:
+- Player.network Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.network
@@ -46,9 +52,9 @@ This property is a read-only Network object.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MajorVersion property is a value that specifies the major part of the version number for the fax service provider (FSP) DLL.'
-ms.assetid: '9c0b6457-7515-41d8-aff8-74cb21fcbd1e'
-title: 'FaxDeviceProvider.MajorVersion property'
+---
+Description: The MajorVersion property is a value that specifies the major part of the version number for the fax service provider (FSP) DLL.
+ms.assetid: 9c0b6457-7515-41d8-aff8-74cb21fcbd1e
+title: FaxDeviceProvider.MajorVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.MajorVersion property
@@ -50,7 +55,7 @@ The standard format for version numbers is MajorVersion.MinorVersion.MajorBuild.
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

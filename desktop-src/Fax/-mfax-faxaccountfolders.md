@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used by a fax client application to access the folders, queued jobs, and archived messages for a particular fax account.'
-ms.assetid: 'd8ac7e92-45eb-49f8-a885-0e7cb47a0e6d'
+---
+Description: Used by a fax client application to access the folders, queued jobs, and archived messages for a particular fax account.
+ms.assetid: d8ac7e92-45eb-49f8-a885-0e7cb47a0e6d
 title: FaxAccountFolders object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountFolders object
@@ -69,7 +74,7 @@ To create a **FaxAccountFolders** object in C++, call the [**Folders**](-mfax-fa
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxAccountFolders**](-mfax-faxaccountfolders-cpp.md)
+[**IFaxAccountFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountfolders?branch=master)
 </dt> </dl>
 
  

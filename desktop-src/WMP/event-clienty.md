@@ -1,14 +1,20 @@
 ---
 title: event.clientY
 description: The clientY attribute retrieves the y-coordinate of the mouse pointer with respect to the client region of the application window.
-ms.assetid: '2510f140-8d46-4fb2-80f5-98064c2b838c'
-keywords: ["event.clientY Windows Media Player"]
+ms.assetid: 2510f140-8d46-4fb2-80f5-98064c2b838c
+keywords:
+- event.clientY Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.clientY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.clientY
@@ -43,9 +49,9 @@ This attribute is a read-only **Number** (**long**).
 [**event.clientX**](event-clientx.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

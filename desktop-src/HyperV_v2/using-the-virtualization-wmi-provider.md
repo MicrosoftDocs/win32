@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe how to use the Hyper-V WMI provider.'
-ms.assetid: 'CFA20688-53A0-47F9-B64C-58A311160BDC'
-title: 'Using the Hyper-V WMI provider'
+Description: The following topics describe how to use the Hyper-V WMI provider.
+ms.assetid: CFA20688-53A0-47F9-B64C-58A311160BDC
+title: Using the Hyper-V WMI provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Hyper-V WMI provider
@@ -23,11 +28,11 @@ The following topics describe how to use the Hyper-V WMI provider.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

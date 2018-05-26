@@ -1,8 +1,14 @@
 ---
 title: DBCONTENTSCOPE
 description: DBCONTENTSCOPE
-ms.assetid: '22621088-3361-4128-810e-e6c4cefbbd81'
-keywords: ["DBCONTENTSCOPE"]
+ms.assetid: 22621088-3361-4128-810e-e6c4cefbbd81
+keywords:
+- DBCONTENTSCOPE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCONTENTSCOPE

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instmsi.exe is the redistributable package for installing Windows Installer&\#160;2.0, and earlier versions of Windows Installer. See Windows Installer Redistributables for the redistributables for Windows Installer&\#160;3.0 and later versions.'
-ms.assetid: '74ea4530-3a73-4169-b0b7-f0272229192d'
-title: 'Instmsi.exe'
+---
+Description: Instmsi.exe is the redistributable package for installing Windows Installer&\#160;2.0, and earlier versions of Windows Installer. See Windows Installer Redistributables for the redistributables for Windows Installer&\#160;3.0 and later versions.
+ms.assetid: 74ea4530-3a73-4169-b0b7-f0272229192d
+title: Instmsi.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Instmsi.exe
@@ -68,7 +73,7 @@ Developers should do the following in their setup application to use the delayed
     This value is of type **REG\_SZ**.
 
 4.  Set the current directory to the path obtained in step 3.
-5.  Invoke Msiexec on the application's package and run other setup code specific to the application. If the setup application uses [**MsiInstallProduct**](msiinstallproduct.md), then the application must load MSI.DLL from the location obtained in step 3.
+5.  Invoke Msiexec on the application's package and run other setup code specific to the application. If the setup application uses [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master), then the application must load MSI.DLL from the location obtained in step 3.
     > [!Note]  
     > Applications that call **LoadLibrary** on the new MSI.DLL in the location obtained in step 3 must ensure that an older version of MSI.DLL has not already been loaded within the process. If an older version of MSI.DLL was loaded within the process, it must be unloaded from the process address space prior to the **LoadLibrary** call for the new MSI.DLL.
 

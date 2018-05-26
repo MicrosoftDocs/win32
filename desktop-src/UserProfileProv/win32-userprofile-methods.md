@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_UserProfile class exposes the following methods.'
-ms.assetid: '6D919015-8B2A-4E25-8163-29F418171A1B'
-title: 'Win32\_UserProfile Methods'
+Description: The Win32\_UserProfile class exposes the following methods.
+ms.assetid: 6D919015-8B2A-4E25-8163-29F418171A1B
+title: Win32\_UserProfile Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_UserProfile Methods

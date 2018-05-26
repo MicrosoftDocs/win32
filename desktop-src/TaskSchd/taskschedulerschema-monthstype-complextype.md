@@ -1,14 +1,20 @@
 ---
 title: monthsType Complex Type
 description: Defines the child elements and sequencing information for the Months (monthlyDayOfWeekScheduleType) and Months (monthlyScheduleType) elements.
-ms.assetid: 'f1faa67a-2f5f-4a00-a1df-2d44e218278b'
-keywords: ["monthsType complex type Task Scheduler"]
+ms.assetid: f1faa67a-2f5f-4a00-a1df-2d44e218278b
+keywords:
+- monthsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - monthsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # monthsType Complex Type
@@ -109,8 +115,8 @@ Defines the child elements and sequencing information for the [**Months (monthly
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -124,9 +130,9 @@ Defines the child elements and sequencing information for the [**Months (monthly
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

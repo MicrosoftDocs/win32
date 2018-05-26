@@ -1,8 +1,9 @@
 ---
 title: CBEN\_DRAGBEGIN notification code
 description: Sent when the user begins dragging the image of the item displayed in the edit portion of the control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'bdab2700-a605-48af-aee3-bbf573408e3f'
-keywords: ["CBEN_DRAGBEGIN notification code Windows Controls"]
+ms.assetid: bdab2700-a605-48af-aee3-bbf573408e3f
+keywords:
+- CBEN_DRAGBEGIN notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEN\_DRAGBEGIN notification code
@@ -35,7 +41,7 @@ CBEN_DRAGBEGIN
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMCBEDRAGBEGIN**](nmcbedragbegin.md) structure that contains information about the notification code.
+A pointer to a [**NMCBEDRAGBEGIN**](/windows/win32/Commctrl/ns-commctrl-nmcbedragbegina?branch=master) structure that contains information about the notification code.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ If the receiving application implements drag-and-drop functionality from the con
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **CBEN\_DRAGBEGINW** (Unicode) and **CBEN\_DRAGBEGINA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

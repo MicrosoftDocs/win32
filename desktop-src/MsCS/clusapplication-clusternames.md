@@ -4,11 +4,14 @@ description: Names of all the clusters in a domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5c4d64e1-d8cb-4abb-b157-3ecdf02a6219'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5c4d64e1-d8cb-4abb-b157-3ecdf02a6219
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterNames property Failover Cluster", "ClusterNames property Failover Cluster , ClusApplication object", "ClusApplication object Failover Cluster , ClusterNames property"]
+keywords:
+- ClusterNames property Failover Cluster
+- ClusterNames property Failover Cluster , ClusApplication object
+- ClusApplication object Failover Cluster , ClusterNames property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusApplication.ClusterNames property
@@ -49,7 +55,7 @@ A [**ClusterNames**](clusternames-collection.md) collection that receives the na
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -68,9 +74,9 @@ A [**ClusterNames**](clusternames-collection.md) collection that receives the na
 [**ClusterNames**](clusternames-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

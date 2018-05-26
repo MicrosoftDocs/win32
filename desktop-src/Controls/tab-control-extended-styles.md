@@ -1,7 +1,7 @@
 ---
 title: Tab Control Extended Styles
 description: The tab control now supports extended styles. These styles are manipulated using the TCM\_GETEXTENDEDSTYLE and TCM\_SETEXTENDEDSTYLE messages and should not be confused with extended window styles that are passed to CreateWindowEx.
-ms.assetid: '24294037-598c-4fcd-8a7c-8647ccfb1d81'
+ms.assetid: 24294037-598c-4fcd-8a7c-8647ccfb1d81
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Extended Styles
@@ -36,9 +41,9 @@ The tab control now supports extended styles. These styles are manipulated using
 
 
 
- 
+ 
 
- 
+ 
 
 
 

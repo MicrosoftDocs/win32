@@ -1,6 +1,11 @@
 ---
-Description: 'This section on application guidelines for file associations and default programs is organized as follows:'
+Description: This section on application guidelines for file associations and default programs is organized as follows
 title: Guidelines for File Associations and Default Programs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for File Associations and Default Programs

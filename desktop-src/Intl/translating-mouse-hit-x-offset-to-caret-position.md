@@ -1,7 +1,12 @@
 ---
-Description: 'Conventionally, the user can select caret position (cp) by clicking either the trailing half of character &\#0034;cp-1&\#0034; or the leading half of character &\#0034;cp&\#0034;.'
-ms.assetid: '36b6ff00-7ea8-40e5-90f7-917cef117d4a'
+Description: Conventionally, the user can select caret position (cp) by clicking either the trailing half of character &\#0034;cp-1&\#0034; or the leading half of character &\#0034;cp&\#0034;.
+ms.assetid: 36b6ff00-7ea8-40e5-90f7-917cef117d4a
 title: Translating Mouse Hit X Offset to Caret Position
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating Mouse Hit X Offset to Caret Position
@@ -20,7 +25,7 @@ iCaretPos = iCharPos + fTrailing;
 
 
 
-For scripts that snap the caret to cluster boundaries, a call to [**ScriptXtoCP**](scriptxtocp.md) returns with *fTrailing* set to either 0 or the width of the cluster in code points.
+For scripts that snap the caret to cluster boundaries, a call to [**ScriptXtoCP**](/windows/win32/Usp10/nf-usp10-scriptxtocp?branch=master) returns with *fTrailing* set to either 0 or the width of the cluster in code points.
 
 ## Related topics
 

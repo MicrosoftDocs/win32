@@ -2,7 +2,14 @@
 title: MIDL Language Reference
 description: This section provides a reference entry for each keyword in the Microsoft Interface Definition Language (MIDL). Reference entries are also included for important language productions and concepts.
 ms.assetid: ca49c9ed-95b5-4d02-9a98-457ddc3399e3
-keywords: ["Microsoft Interface Definition Language MIDL , reference, language", "MIDL language reference MIDL"]
+keywords:
+- Microsoft Interface Definition Language MIDL , reference, language
+- MIDL language reference MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Language Reference

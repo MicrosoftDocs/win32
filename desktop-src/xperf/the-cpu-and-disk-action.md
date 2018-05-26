@@ -1,7 +1,12 @@
 ---
 title: The CPU and Disk Action
 description: The CPU and Disk Action
-ms.assetid: '86371865-858a-4119-be91-42207db22c03'
+ms.assetid: 86371865-858a-4119-be91-42207db22c03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The CPU and Disk Action
@@ -24,7 +29,7 @@ The CPU and disk action produces a text report that summarizes the various metri
 
 
 
- 
+ 
 
 DPC/ISR times are excluded from process/thread time if DPC/ISR events are present in the trace. For process filtering, the options in the following table are available.
 
@@ -37,7 +42,7 @@ DPC/ISR times are excluded from process/thread time if DPC/ISR events are presen
 
 
 
- 
+ 
 
 If no **-pids** or **-exes** is specified, all processes will be included in the report. For time filtering, the options in the following table are available.
 
@@ -50,13 +55,13 @@ If no **-pids** or **-exes** is specified, all processes will be included in the
 
 
 
- 
+ 
 
 If no **-marks** or **-times** are specified, all marks in the traces, or the trace start and end time if less than two marks are present in the trace, will be used to determine the report time intervals.
 
- 
+ 
 
- 
+ 
 
 
 

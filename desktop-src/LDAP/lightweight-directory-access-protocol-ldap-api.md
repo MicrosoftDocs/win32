@@ -4,11 +4,16 @@ description: The Lightweight Directory Access Protocol (LDAP) is a directory ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '32bc9909-e476-423c-bbb5-3978234457fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 32bc9909-e476-423c-bbb5-3978234457fd
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Lightweight Directory Access Protocol LDAP", "LDAP LDAP , Lightweight Directory Access Protocol LDAP , start page LDAP , introduction to LDAP"]
+keywords:
+- Lightweight Directory Access Protocol LDAP
+- LDAP LDAP , Lightweight Directory Access Protocol LDAP , start page LDAP , introduction to LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Lightweight Directory Access Protocol

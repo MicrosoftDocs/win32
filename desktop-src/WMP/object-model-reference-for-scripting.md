@@ -1,8 +1,29 @@
 ---
 title: Object Model Reference for Scripting
 description: Object Model Reference for Scripting
-ms.assetid: 'a900fd55-2213-46db-84ad-93f199c60182'
-keywords: ["Windows Media Player,object model", "Windows Media Player Mobile,object model", "Windows Media Player object model,reference", "object model,reference", "ActiveX control,reference", "Windows Media Player ActiveX control,reference", "Windows Media Player Mobile ActiveX control,reference", "reference for object model,scripting", "Windows Media Player,scripting reference", "Windows Media Player Mobile,scripting reference", "Windows Media Player object model,scripting reference", "object model,scripting reference", "Windows Media Player ActiveX control,scripting reference", "Windows Media Player Mobile ActiveX control,scripting reference", "ActiveX control,scripting reference", "scripting object model reference"]
+ms.assetid: a900fd55-2213-46db-84ad-93f199c60182
+keywords:
+- Windows Media Player,object model
+- Windows Media Player Mobile,object model
+- Windows Media Player object model,reference
+- object model,reference
+- ActiveX control,reference
+- Windows Media Player ActiveX control,reference
+- Windows Media Player Mobile ActiveX control,reference
+- reference for object model,scripting
+- Windows Media Player,scripting reference
+- Windows Media Player Mobile,scripting reference
+- Windows Media Player object model,scripting reference
+- object model,scripting reference
+- Windows Media Player ActiveX control,scripting reference
+- Windows Media Player Mobile ActiveX control,scripting reference
+- ActiveX control,scripting reference
+- scripting object model reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Model Reference for Scripting

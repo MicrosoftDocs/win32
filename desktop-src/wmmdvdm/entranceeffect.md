@@ -1,14 +1,20 @@
 ---
 title: EntranceEffect element
 description: Defines the entrance effect for the specified text media node.
-ms.assetid: '46f0b669-1a32-4505-a6bf-96e6f6a55733'
-keywords: ["EntranceEffect element Windows Movie Maker and DVD Maker"]
+ms.assetid: 46f0b669-1a32-4505-a6bf-96e6f6a55733
+keywords:
+- EntranceEffect element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - EntranceEffect
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EntranceEffect element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ There are no child elements.
 [**EntrancePosition Element**](entranceposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

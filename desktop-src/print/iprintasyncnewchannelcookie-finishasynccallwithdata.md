@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '6103FBCB-C89F-4FE9-BD04-6129AEAA97EE'
-title: 'IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method'
+---
+Description: .
+ms.assetid: 6103FBCB-C89F-4FE9-BD04-6129AEAA97EE
+title: IPrintAsyncNewChannelCookieFinishAsyncCallWithData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method

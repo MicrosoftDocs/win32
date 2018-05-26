@@ -1,8 +1,17 @@
 ---
 title: Color Space Conversion
 description: Color Space Conversion
-ms.assetid: 'f5f1ec99-b3b9-4420-bf64-3872d9bbe650'
-keywords: ["Windows Media Format SDK,color space conversion", "Advanced Systems Format (ASF),color space conversion", "ASF (Advanced Systems Format),color space conversion", "color space conversion"]
+ms.assetid: f5f1ec99-b3b9-4420-bf64-3872d9bbe650
+keywords:
+- Windows Media Format SDK,color space conversion
+- Advanced Systems Format (ASF),color space conversion
+- ASF (Advanced Systems Format),color space conversion
+- color space conversion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Space Conversion

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This control enables a user to change the selection state of features listed in the Feature table.'
-ms.assetid: '0daf5b44-ba07-47f1-95d9-28c59f7cf985'
+---
+Description: This control enables a user to change the selection state of features listed in the Feature table.
+ms.assetid: 0daf5b44-ba07-47f1-95d9-28c59f7cf985
 title: SelectionTree Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectionTree Control

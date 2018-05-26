@@ -1,8 +1,10 @@
 ---
 title: IWMPPlaylist (VB and C\ ) interface
 description: Provides properties and methods to organize, manage, and manipulate media items in a playlist.The IWMPPlaylist interface exposes the following properties.
-ms.assetid: 'c3f4f9dd-eb5f-493a-b8d0-22e70c63a2d1'
-keywords: ["IWMPPlaylist (VB and C ) interface Windows Media Player", "IWMPPlaylist (VB and C ) interface Windows Media Player , described"]
+ms.assetid: c3f4f9dd-eb5f-493a-b8d0-22e70c63a2d1
+keywords:
+- IWMPPlaylist (VB and C ) interface Windows Media Player
+- IWMPPlaylist (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist (VB and C#) interface
@@ -44,7 +51,7 @@ The **IWMPPlaylist (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -63,7 +70,7 @@ The **IWMPPlaylist (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPPlaylist** interface by using the following properties or methods accessed through the following object or interface.
 
@@ -72,14 +79,14 @@ Get an **IWMPPlaylist** interface by using the following properties or methods a
 | Object or interface                                                | Property or method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMPCdrom**](iwmpcdrom--vb-and-c.md)                           | [**Playlist**](wmplibiwmpcdrom-iwmpcdrom-playlist--vb-and-c.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [**IWMPMediaCollection**](iwmpmediacollection--vb-and-c.md)       | [**getAll**](wmplibiwmpmediacollection-iwmpmediacollection-getall--vb-and-c.md), [**getByAlbum**](iwmpmediacollection-getbyalbum.md), [**getByAttribute**](wmplibiwmpmediacollection-iwmpmediacollection-getbyattribute--vb-and-c.md), [**getByAuthor**](wmplibiwmpmediacollection-iwmpmediacollection-getbyauthor--vb-and-c.md), [**getByGenre**](wmplibiwmpmediacollection-iwmpmediacollection-getbygenre--vb-and-c.md), [**getByName**](wmplibiwmpmediacollection-iwmpmediacollection-getbyname--vb-and-c.md) |
+| [**IWMPMediaCollection**](iwmpmediacollection--vb-and-c.md)       | [**getAll**](wmplibiwmpmediacollection-iwmpmediacollection-getall--vb-and-c.md), [**getByAlbum**](/windows/win32/wmp/nf-wmp-iwmpmediacollection-getbyalbum?branch=master), [**getByAttribute**](wmplibiwmpmediacollection-iwmpmediacollection-getbyattribute--vb-and-c.md), [**getByAuthor**](wmplibiwmpmediacollection-iwmpmediacollection-getbyauthor--vb-and-c.md), [**getByGenre**](wmplibiwmpmediacollection-iwmpmediacollection-getbygenre--vb-and-c.md), [**getByName**](wmplibiwmpmediacollection-iwmpmediacollection-getbyname--vb-and-c.md) |
 | [AxWindowsMediaPlayer](axwindowsmediaplayer-object--vb-and-c.md)  | [**currentPlaylist**](axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md), [**newPlaylist**](axwmplib-axwindowsmediaplayer-newplaylist.md)                                                                                                                                                                                                                                                                                                                                                                   |
-| [**IWMPPlaylistArray**](iwmpplaylistarray--vb-and-c.md)           | [**Item**](iwmpplaylistarray-item.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [**IWMPPlaylistCollection**](iwmpplaylistcollection--vb-and-c.md) | [**newPlaylist**](iwmpplaylistcollection-newplaylist.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [**IWMPPlaylistArray**](iwmpplaylistarray--vb-and-c.md)           | [**Item**](/windows/win32/wmp/nf-wmp-iwmpplaylistarray-item?branch=master)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [**IWMPPlaylistCollection**](iwmpplaylistcollection--vb-and-c.md) | [**newPlaylist**](/windows/win32/wmp/nf-wmp-iwmpplaylistcollection-newplaylist?branch=master)                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -98,9 +105,9 @@ Get an **IWMPPlaylist** interface by using the following properties or methods a
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

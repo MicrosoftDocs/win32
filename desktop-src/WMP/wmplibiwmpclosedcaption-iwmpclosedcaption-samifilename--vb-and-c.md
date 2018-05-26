@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption SAMIFileName property
 description: The SAMIFileName property gets or sets the name of a file containing the information needed for closed captioning.
-ms.assetid: 'c3162c5f-9d66-41d4-920c-ed9840742d9d'
-keywords: ["SAMIFileName property Windows Media Player", "SAMIFileName property Windows Media Player , IWMPClosedCaption interface", "IWMPClosedCaption interface Windows Media Player , SAMIFileName property"]
+ms.assetid: c3162c5f-9d66-41d4-920c-ed9840742d9d
+keywords:
+- SAMIFileName property Windows Media Player
+- SAMIFileName property Windows Media Player , IWMPClosedCaption interface
+- IWMPClosedCaption interface Windows Media Player , SAMIFileName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption::SAMIFileName property
@@ -86,9 +94,9 @@ To cause Windows Media Player to use the default SAMI file associated with a par
 [**IWMPClosedCaption2 Interface (VB and C#)**](iwmpclosedcaption2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

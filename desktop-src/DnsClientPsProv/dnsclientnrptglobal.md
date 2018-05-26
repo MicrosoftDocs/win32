@@ -4,13 +4,15 @@ description: DNS Client Name Resolution Policy Table Global Settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa69bcd3-bf84-4916-a1d0-2b98615997b0'
-ms.prod: 'windows-server-dev'
+ms.assetid: fa69bcd3-bf84-4916-a1d0-2b98615997b0
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsClientNrptGlobal class", "DnsClientNrptGlobal class, described"]
+keywords:
+- DnsClientNrptGlobal class
+- DnsClientNrptGlobal class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - DnsClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsClientNrptGlobal class
@@ -182,17 +187,17 @@ Property for controlling DNS Client Name resolution fallback policy
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

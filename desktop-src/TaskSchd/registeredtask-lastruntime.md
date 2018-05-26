@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.LastRunTime property
 description: For scripting, gets the time the registered task was last run.
-ms.assetid: 'c7ac7fea-35c7-4336-9142-6c97caa1dea0'
-keywords: ["LastRunTime property Task Scheduler", "LastRunTime property Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , LastRunTime property"]
+ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
+keywords:
+- LastRunTime property Task Scheduler
+- LastRunTime property Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , LastRunTime property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.LastRunTime property
@@ -36,8 +44,8 @@ The time the registered task was last run.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -53,9 +61,9 @@ The time the registered task was last run.
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

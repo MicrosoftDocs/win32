@@ -1,7 +1,12 @@
 ---
 title: The Boot Prefetch Action
 description: The Boot Prefetch Action
-ms.assetid: '29d15d03-d901-4104-b3f1-c2b621f4a17d'
+ms.assetid: 29d15d03-d901-4104-b3f1-c2b621f4a17d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Boot Prefetch Action
@@ -25,7 +30,7 @@ The Boot Prefetch action collates and summarizes events relevant to boot when us
 
 
 
- 
+ 
 
 If the -events option is used the -pattern option may be used
 
@@ -37,7 +42,7 @@ If the -events option is used the -pattern option may be used
 
 
 
- 
+ 
 
 If the -pattern option is used, -type name may be used.
 
@@ -49,7 +54,7 @@ If the -pattern option is used, -type name may be used.
 
 
 
- 
+ 
 
 If the -events option is used the -range option may be used.
 
@@ -61,13 +66,13 @@ If the -events option is used the -range option may be used.
 
 
 
- 
+ 
 
 If no report type is selected, default is to show the summary.
 
- 
+ 
 
- 
+ 
 
 
 

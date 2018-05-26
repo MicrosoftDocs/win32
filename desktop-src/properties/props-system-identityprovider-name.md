@@ -1,7 +1,12 @@
 ---
-Description: 'Identity provider name.'
-ms.assetid: '5fce02b0-d91e-4280-a3a2-3f1ecacb15e0'
-title: 'System.IdentityProvider.Name'
+Description: Identity provider name.
+ms.assetid: 5fce02b0-d91e-4280-a3a2-3f1ecacb15e0
+title: System.IdentityProvider.Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IdentityProvider.Name

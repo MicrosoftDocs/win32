@@ -1,7 +1,12 @@
 ---
-Description: 'The CoInitializeHelper method calls the CoInitializeEx function at the start of the thread.'
-ms.assetid: '1a981e1e-c059-4e51-81d8-33bcb39ee580'
-title: 'CAMThread.CoInitializeHelper method'
+Description: The CoInitializeHelper method calls the CoInitializeEx function at the start of the thread.
+ms.assetid: 1a981e1e-c059-4e51-81d8-33bcb39ee580
+title: CAMThread.CoInitializeHelper method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.CoInitializeHelper method
@@ -35,7 +40,7 @@ Returns an **HRESULT** value. The following are possible values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +64,9 @@ The [**CAMThread::InitialThreadProc**](camthread-initialthreadproc.md) method ca
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

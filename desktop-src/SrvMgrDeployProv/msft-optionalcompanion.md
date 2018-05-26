@@ -1,11 +1,14 @@
 ---
-Description: 'Represents an optional companion for a server component.'
+Description: Represents an optional companion for a server component.
 audience: developer
-ms.assetid: '1f5ad17f-fa0e-42f9-b451-6269f728da29'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 1f5ad17f-fa0e-42f9-b451-6269f728da29
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_OptionalCompanion class'
+title: MSFT\_OptionalCompanion class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_OptionalCompanion class
@@ -20,8 +23,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("deploymentprovider")]
 class MSFT_OptionalCompanion
 {
-  string  CompanionComponentName;
-  uint8   CompanionType;
+  string  CompanionComponentName;
+  uint8   CompanionType;
   Boolean PrerequisiteEnabled;
 };
 ```
@@ -95,7 +98,7 @@ Indicates whether the prerequisites for the companion are enabled. True if the p
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -109,9 +112,9 @@ Indicates whether the prerequisites for the companion are enabled. True if the p
 [ServerManager Deploymentprovider Provider Classes](server-manager-deployment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stop capturing effect parameter state changes.'
-ms.assetid: 'b6ca2917-2df0-4f3a-9ee3-23e9d2501ff4'
-title: 'ID3DXEffect::EndParameterBlock method'
+---
+Description: Stop capturing effect parameter state changes.
+ms.assetid: b6ca2917-2df0-4f3a-9ee3-23e9d2501ff4
+title: ID3DXEffectEndParameterBlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::EndParameterBlock method

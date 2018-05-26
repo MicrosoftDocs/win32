@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray SampleCmpLevelZero methods
 description: Samples a Texture2DArray on mipmap level 0 only, using a comparison value to reject samples.
-ms.assetid: '3648859C-3932-46B1-B83C-A05EFEFE5EEE'
-keywords: ["SampleCmpLevelZero methods HLSL"]
+ms.assetid: 3648859C-3932-46B1-B83C-A05EFEFE5EEE
+keywords:
+- SampleCmpLevelZero methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::SampleCmpLevelZero methods
@@ -31,9 +37,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md) on mipmap level 0 o
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

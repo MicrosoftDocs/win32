@@ -1,7 +1,12 @@
-﻿---
+---
 Description: DRM
-ms.assetid: 'c131cf72-8b01-4430-94d2-13b7f2a32aff'
+ms.assetid: c131cf72-8b01-4430-94d2-13b7f2a32aff
 title: DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM

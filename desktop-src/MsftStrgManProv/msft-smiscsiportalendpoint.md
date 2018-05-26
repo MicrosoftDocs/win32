@@ -4,11 +4,13 @@ description: Represents an endpoint of an iSCSI portal.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6dbadfea-5786-4627-bcd8-e781a7939264'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 6dbadfea-5786-4627-bcd8-e781a7939264
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMiSCSIPortalEndpoint class", "MSFT_SMiSCSIPortalEndpoint class, described"]
+keywords:
+- MSFT_SMiSCSIPortalEndpoint class
+- MSFT_SMiSCSIPortalEndpoint class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMiSCSIPortalEndpoint class
@@ -33,7 +38,7 @@ Represents an endpoint of an iSCSI portal.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
 
 ## Syntax
 
@@ -80,7 +85,7 @@ The ID of the logical instance of the object. This ID must be unique within the 
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -285,7 +290,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -481,7 +486,7 @@ The possible values are.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -498,9 +503,9 @@ The possible values are.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

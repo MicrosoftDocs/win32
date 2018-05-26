@@ -1,15 +1,20 @@
 ---
 Description: Credential Management API
-ms.assetid: 'e393041b-f10c-4053-bc6c-65a89f40e74f'
+ms.assetid: e393041b-f10c-4053-bc6c-65a89f40e74f
 title: Credential Management API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Credential Management API
 
 The credential management functions constitute the set of functions that a credential manager must implement. These are:
 
--   [**NPLogonNotify**](nplogonnotify.md), an event-handler function that the MPR calls when a user logs on.
--   [**NPPasswordChangeNotify**](nppasswordchangenotify.md), an event-handler function the MPR calls when an account password is changed.
+-   [**NPLogonNotify**](/windows/win32/Npapi/nf-npapi-nplogonnotify?branch=master), an event-handler function that the MPR calls when a user logs on.
+-   [**NPPasswordChangeNotify**](/windows/win32/Npapi/nf-npapi-nppasswordchangenotify?branch=master), an event-handler function the MPR calls when an account password is changed.
 
 The credential management functions are always called in the system context (LocalSystem) rather than the user context.
 

@@ -1,7 +1,12 @@
 ---
 title: Support for USB 3.0
 description: Support for USB 3.0
-ms.assetid: 'AACE4B57-A03F-40C7-AFDD-514D29F24521'
+ms.assetid: AACE4B57-A03F-40C7-AFDD-514D29F24521
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support for USB 3.0

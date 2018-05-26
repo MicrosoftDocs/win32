@@ -1,7 +1,12 @@
 ---
-Description: 'Generates IDL declarations for proxy functions for port type operations.'
-ms.assetid: 'e56fdd68-b72d-4167-9e4c-b5bbf103880b'
+Description: Generates IDL declarations for proxy functions for port type operations.
+ms.assetid: e56fdd68-b72d-4167-9e4c-b5bbf103880b
 title: idlFunctionDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # idlFunctionDeclarations element
@@ -74,14 +79,14 @@ Example:
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

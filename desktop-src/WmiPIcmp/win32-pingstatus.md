@@ -4,11 +4,13 @@ description: Represents the values returned by the standard ping command.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e271877-2f49-46cc-9c95-9e67ef5c9735'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4e271877-2f49-46cc-9c95-9e67ef5c9735
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_PingStatus class", "Win32_PingStatus class, described"]
+keywords:
+- Win32_PingStatus class
+- Win32_PingStatus class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - Wmipicmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PingStatus class
@@ -55,30 +60,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIPingProvider"), AMENDMENT]
 class Win32_PingStatus
 {
-  string  Address;
-  uint32  BufferSize = 32;
+  string  Address;
+  uint32  BufferSize = 32;
   boolean NoFragmentation = FALSE;
-  uint32  PrimaryAddressResolutionStatus;
-  string  ProtocolAddress = "";
-  string  ProtocolAddressResolved = "";
-  uint32  RecordRoute = 0;
+  uint32  PrimaryAddressResolutionStatus;
+  string  ProtocolAddress = "";
+  string  ProtocolAddressResolved = "";
+  uint32  RecordRoute = 0;
   boolean ReplyInconsistency;
-  uint32  ReplySize;
+  uint32  ReplySize;
   boolean ResolveAddressNames = FALSE;
-  uint32  ResponseTime;
-  uint32  ResponseTimeToLive;
-  string  RouteRecord[];
-  string  RouteRecordResolved[];
-  String  SourceRoute = "";
-  uint32  SourceRouteType = 0;
-  uint32  StatusCode;
-  uint32  Timeout = 1000;
-  uint32  TimeStampRecord[];
-  string  TimeStampRecordAddress[];
-  string  TimeStampRecordAddressResolved[];
-  uint32  TimeStampRoute = 0;
-  uint32  TimeToLive = 80;
-  uint32  TypeofService = 0;
+  uint32  ResponseTime;
+  uint32  ResponseTimeToLive;
+  string  RouteRecord[];
+  string  RouteRecordResolved[];
+  String  SourceRoute = "";
+  uint32  SourceRouteType = 0;
+  uint32  StatusCode;
+  uint32  Timeout = 1000;
+  uint32  TimeStampRecord[];
+  string  TimeStampRecordAddress[];
+  string  TimeStampRecordAddressResolved[];
+  uint32  TimeStampRoute = 0;
+  uint32  TimeToLive = 80;
+  uint32  TypeofService = 0;
 };
 ```
 
@@ -167,7 +172,7 @@ Status of the address resolution process. If successful, the value is 0 (zero). 
 **Other**
 
 
-</dt> <dd>1–4294967295</dd> </dl>
+</dt> <dd>1 4294967295</dd> </dl>
 
 </dd> <dt>
 
@@ -916,8 +921,8 @@ End Function
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipicmp.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipicmp.dll</dt> </dl> |
@@ -934,9 +939,9 @@ End Function
 [WMI Tasks: Networking](https://msdn.microsoft.com/library/aa394595)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

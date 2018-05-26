@@ -4,17 +4,22 @@ description: This is used to hold the epoch under which all the DCs are replicat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd8a3c4fd-f416-483f-820f-7b3182d0bfc3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d8a3c4fd-f416-483f-820f-7b3182d0bfc3
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-ReplicationEpoch attribute AD Schema", "msDS-ReplicationEpoch attribute AD Schema"]
+keywords:
+- ms-DS-ReplicationEpoch attribute AD Schema
+- msDS-ReplicationEpoch attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-ReplicationEpoch
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-ReplicationEpoch attribute
@@ -38,12 +43,12 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
- 
+ 
 
- 
+ 
 
 
 

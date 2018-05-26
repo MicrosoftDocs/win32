@@ -1,7 +1,12 @@
-﻿---
-Description: 'The sample PUASample.msi is an example of a dual-purpose Windows Installer 5.0 package that is capable of being installed in either the per-user or per-machine installation context on Windows Server 2008 R2 and Windows 7.'
-ms.assetid: 'be018e8a-ca5f-4135-a019-970ec4173f23'
+---
+Description: The sample PUASample.msi is an example of a dual-purpose Windows Installer 5.0 package that is capable of being installed in either the per-user or per-machine installation context on Windows Server 2008 R2 and Windows 7.
+ms.assetid: be018e8a-ca5f-4135-a019-970ec4173f23
 title: Single Package Authoring Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Single Package Authoring Example

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a device context (DC) for the specified surface.'
-ms.assetid: 'c2eaaed6-db19-4dab-ac12-6b4e7eeb58e4'
+---
+Description: Creates a device context (DC) for the specified surface.
+ms.assetid: c2eaaed6-db19-4dab-ac12-6b4e7eeb58e4
 title: NtGdiDdGetDC function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdGetDC function
@@ -69,7 +74,7 @@ Applications are advised to call [IDirectDrawSurface7::GetDC](directdraw.idirect
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdGetDC**](-dxgkernel-ddgetdc.md)
+[**DdGetDC**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddgetdc?branch=master)
 </dt> </dl>
 
  

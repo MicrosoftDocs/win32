@@ -1,8 +1,11 @@
 ---
 title: Reset method of the MSFT\_StorageReliabilityCounter class
 description: Resets reliability values.
-ms.assetid: 'EA32E7A8-1758-4176-BE8A-952C4A3783F8'
-keywords: ["Reset method Windows Storage Management API", "Reset method Windows Storage Management API , MSFT_StorageReliabilityCounter class", "MSFT_StorageReliabilityCounter class Windows Storage Management API , Reset method"]
+ms.assetid: EA32E7A8-1758-4176-BE8A-952C4A3783F8
+keywords:
+- Reset method Windows Storage Management API
+- Reset method Windows Storage Management API , MSFT_StorageReliabilityCounter class
+- MSFT_StorageReliabilityCounter class Windows Storage Management API , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_StorageReliabilityCounter class
@@ -58,8 +66,8 @@ This method has no parameters.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -72,9 +80,9 @@ This method has no parameters.
 [**MSFT\_StorageReliabilityCounter**](msft-storagereliabilitycounter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

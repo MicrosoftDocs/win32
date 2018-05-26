@@ -1,14 +1,20 @@
 ---
 title: CardChangeAuthenticatorEx function
 description: Changes the authentication data associated with a smart card and a specified user type, using a specified personal identification number (PIN).
-ms.assetid: '7d4fa201-1553-4e78-8972-54530decf978'
-keywords: ["CardChangeAuthenticatorEx function Smart Card"]
+ms.assetid: 7d4fa201-1553-4e78-8972-54530decf978
+keywords:
+- CardChangeAuthenticatorEx function Smart Card
 topic_type:
 - apiref
 api_name:
 - CardChangeAuthenticatorEx
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardChangeAuthenticatorEx function
@@ -22,16 +28,16 @@ The **CardChangeAuthenticatorEx** function, defined by a smart card module, chan
 
 ```C++
 DWORD WINAPI CardChangeAuthenticatorEx(
-  _In_      PCARD_DATA pCardData,
-  _In_      DWORD      dwFlags,
-  _In_      PIN_ID     dwAuthenticatingPinId,
-  _In_      PBYTE      pbAuthenticatingPinData,
-  _In_      DWORD      cbAuthenticatingPinData,
-  _In_      PIN_ID     dwTargetPinId,
-  _In_      PBYTE      pbTargetData,
-  _In_      DWORD      cbTargetData,
-  _In_      DWORD      cRetryCount,
-  _Out_opt_ PDWORD     pcAttemptsRemaining
+  _In_      PCARD_DATA pCardData,
+  _In_      DWORD      dwFlags,
+  _In_      PIN_ID     dwAuthenticatingPinId,
+  _In_      PBYTE      pbAuthenticatingPinData,
+  _In_      DWORD      cbAuthenticatingPinData,
+  _In_      PIN_ID     dwTargetPinId,
+  _In_      PBYTE      pbTargetData,
+  _In_      DWORD      cbTargetData,
+  _In_      DWORD      cRetryCount,
+  _Out_opt_ PDWORD     pcAttemptsRemaining
 );
 ```
 
@@ -62,7 +68,7 @@ The type of authentication that this function performs. This parameter can be on
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -128,7 +134,7 @@ If this function has already returned a zero as the value of this parameter and 
 
 If the value of this parameter is **NULL**, the smart card module ignores it.
 
-Card modules that do not support a count of remaining authentication attempts should return a value of –1 for this parameter if the value of the parameter on input is not **NULL**.
+Card modules that do not support a count of remaining authentication attempts should return a value of  1 for this parameter if the value of the parameter on input is not **NULL**.
 
 </dd> </dl>
 
@@ -142,14 +148,14 @@ If the function succeeds, it returns zero.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

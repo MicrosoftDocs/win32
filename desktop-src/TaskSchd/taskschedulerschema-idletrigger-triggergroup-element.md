@@ -1,14 +1,21 @@
 ---
 title: IdleTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when the computer goes into an idle state.
-ms.assetid: 'c3e317b5-d1a7-46de-ace5-e066452583d3'
-keywords: ["idle trigger, XML element", "IdleTrigger element Task Scheduler"]
+ms.assetid: c3e317b5-d1a7-46de-ace5-e066452583d3
+keywords:
+- idle trigger, XML element
+- IdleTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - IdleTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleTrigger (triggerGroup) Element
@@ -61,7 +68,7 @@ The **IdleTrigger** element is defined by the [**triggerGroup**](taskschedulersc
 
 For scripting development, an idle trigger is specified using the [**IdleTrigger**](idletrigger.md) object.
 
-For C++ development, an idle trigger is specified using the [**IIdleTrigger**](iidletrigger.md) interface.
+For C++ development, an idle trigger is specified using the [**IIdleTrigger**](/windows/win32/taskschd/?branch=master) interface.
 
 The child elements listed above are defined by the [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) complex element types. These elements must be added in the sequence shown below.
 
@@ -94,8 +101,8 @@ The following XML defines an idle trigger.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -109,9 +116,9 @@ The following XML defines an idle trigger.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

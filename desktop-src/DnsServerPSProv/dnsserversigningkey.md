@@ -2,13 +2,15 @@
 title: DnsServerSigningKey class
 description: Represents a signing key for zone signing and key signing on a DNS server.
 audience: developer
-ms.assetid: '4c72a317-31aa-4833-9328-532c082141c6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4c72a317-31aa-4833-9328-532c082141c6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerSigningKey class", "DnsServerSigningKey class, described"]
+keywords:
+- DnsServerSigningKey class
+- DnsServerSigningKey class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerSigningKey class
@@ -52,27 +57,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerSigningKey
 {
-  String   ZoneName;
-  String   KeyId;
-  String   KeyType;
-  String   CurrentState;
-  String   KeyStorageProvider;
-  boolean  StoreKeysInAD;
-  String   CryptoAlgorithm;
-  Uint32   KeyLength;
+  String   ZoneName;
+  String   KeyId;
+  String   KeyType;
+  String   CurrentState;
+  String   KeyStorageProvider;
+  boolean  StoreKeysInAD;
+  String   CryptoAlgorithm;
+  Uint32   KeyLength;
   datetime DnsKeySignatureValidityPeriod;
   datetime DSSignatureValidityPeriod;
   datetime ZoneSignatureValidityPeriod;
   datetime InitialRolloverOffset;
   datetime RolloverPeriod;
-  String   RolloverType;
-  String   NextRolloverAction;
+  String   RolloverType;
+  String   NextRolloverAction;
   datetime LastRolloverTime;
   datetime NextRolloverTime;
-  String   CurrentRolloverStatus;
-  String   ActiveKey;
-  String   StandbyKey;
-  String   NextKey;
+  String   CurrentRolloverStatus;
+  String   ActiveKey;
+  String   StandbyKey;
+  String   NextKey;
 };
 ```
 
@@ -560,7 +565,7 @@ The duration in which the signatures that cover all other record sets are valid.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -574,9 +579,9 @@ The duration in which the signatures that cover all other record sets are valid.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

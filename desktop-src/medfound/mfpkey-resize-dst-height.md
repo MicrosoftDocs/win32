@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the height of the destination rectangle, in pixels.'
-ms.assetid: 'c6d47caa-59e1-440c-ab67-955cb8547950'
-title: 'MFPKEY\_RESIZE\_DST\_HEIGHT Property'
+---
+Description: Specifies the height of the destination rectangle, in pixels.
+ms.assetid: c6d47caa-59e1-440c-ab67-955cb8547950
+title: MFPKEY\_RESIZE\_DST\_HEIGHT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_DST\_HEIGHT Property

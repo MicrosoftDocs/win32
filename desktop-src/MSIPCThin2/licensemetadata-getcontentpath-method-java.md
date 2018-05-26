@@ -4,17 +4,21 @@ description: Gets the path of the content to be tracked. This property does not 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F9E8C1B8-5765-4BA0-AFAE-B0F72D3F2C93'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F9E8C1B8-5765-4BA0-AFAE-B0F72D3F2C93
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata getContentPath method"]
+keywords:
+- LicenseMetadata getContentPath method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata getContentPath method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata getContentPath method
@@ -45,11 +49,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

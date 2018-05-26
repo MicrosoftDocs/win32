@@ -4,11 +4,15 @@ description: Dual-mode snap-ins must implement the interfaces required by both s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fdce9e42-9074-4c90-94b3-93a91ef22db1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fdce9e42-9074-4c90-94b3-93a91ef22db1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["dual-mode snap-ins MMC"]
+keywords:
+- dual-mode snap-ins MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dual-Mode Snap-ins

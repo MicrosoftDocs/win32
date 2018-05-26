@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '48C5F80F-64AB-415A-AAF5-8B06505B02BF'
+---
+Description: .
+ms.assetid: 48C5F80F-64AB-415A-AAF5-8B06505B02BF
 title: IPrintAsyncNewChannelCookie interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncNewChannelCookie interface

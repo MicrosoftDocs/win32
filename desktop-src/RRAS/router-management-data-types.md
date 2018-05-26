@@ -1,7 +1,7 @@
 ---
 title: Router Management Data Types
 description: The version of the Router Management data structures depends on the operating system.
-ms.assetid: '6CF919BD-E1E9-423F-8186-C992A5E6AB89'
+ms.assetid: 6CF919BD-E1E9-423F-8186-C992A5E6AB89
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - mprapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Router Management Data Types
@@ -27,7 +32,7 @@ The version of the Router Management data structures depends on the operating sy
 
 
 
-The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS2**](ikev2-tunnel-config-params2.md) structure is supported on Windows Server 2012.
+The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS2**](/windows/win32/mprapi/ns-mprapi-_ikev2_tunnel_config_params2?branch=master) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -37,7 +42,7 @@ The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS2**](ikev2-tunnel-config-params2.md) structu
 
 
 
-The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS1**](ikev2-tunnel-config-params1.md) structure is supported on Windows Server 2008 R2 and earlier versions.
+The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS1**](/windows/win32/mprapi/ns-mprapi-_ikev2_tunnel_config_params1?branch=master) structure is supported on Windows Server 2008 R2 and earlier versions.
 
 
 </dt> </dl> </dd> <dt>
@@ -47,7 +52,7 @@ The [**IKEV2\_TUNNEL\_CONFIG\_PARAMS1**](ikev2-tunnel-config-params1.md) structu
 
 
 
-The [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](router-ikev2-if-custom-config0.md) structure is supported on Windows Server 2012.
+The [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](/windows/win32/mprapi/ns-mprapi-_router_ikev2_if_custom_config0?branch=master) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -57,7 +62,7 @@ The [**ROUTER\_IKEv2\_IF\_CUSTOM\_CONFIG0**](router-ikev2-if-custom-config0.md) 
 
 
 
-The [**MPR\_IF\_CUSTOMINFOEX0**](mpr-if-custominfoex0.md) structure is supported on Windows Server 2012.
+The [**MPR\_IF\_CUSTOMINFOEX0**](/windows/win32/mprapi/ns-mprapi-_mpr_if_custominfoex0?branch=master) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -67,7 +72,7 @@ The [**MPR\_IF\_CUSTOMINFOEX0**](mpr-if-custominfoex0.md) structure is supported
 
 
 
-The [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](router-custom-ikev2-policy0.md) structure is supported on Windows Server 2012.
+The [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](/windows/win32/mprapi/ns-mprapi-_router_custom_ikev2_policy0?branch=master) structure is supported on Windows Server 2012.
 
 
 </dt> </dl> </dd> </dl>
@@ -82,9 +87,9 @@ The [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](router-custom-ikev2-policy0.md) structu
 
 
 
- 
+ 
 
- 
+ 
 
 
 

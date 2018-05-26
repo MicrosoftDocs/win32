@@ -4,17 +4,22 @@ description: Terminal Services managing license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '657f005e-0f89-4df4-b0f8-00752827bece'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 657f005e-0f89-4df4-b0f8-00752827bece
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-ManagingLS attribute AD Schema", "msTSManagingLS attribute AD Schema"]
+keywords:
+- MS-TS-ManagingLS attribute AD Schema
+- msTSManagingLS attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-ManagingLS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-ManagingLS attribute

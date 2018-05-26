@@ -1,7 +1,12 @@
 ---
-Description: 'This sample shows how to use Ink Analysis to create a form-filling application, where the form is based on a scanned paper form.'
-ms.assetid: '1eae5962-b4e0-4947-a6d2-63713a68198c'
+Description: This sample shows how to use Ink Analysis to create a form-filling application, where the form is based on a scanned paper form.
+ms.assetid: 1eae5962-b4e0-4947-a6d2-63713a68198c
 title: Ink Analysis Scanned Paper Form
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis Scanned Paper Form

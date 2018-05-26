@@ -1,14 +1,20 @@
 ---
 title: settingsType Complex Type
 description: Defines the child elements and sequencing information for the Settings (taskType) element.
-ms.assetid: 'dba6b82d-aaa4-4f77-aeb1-c5a8f81aec25'
-keywords: ["settingsType complex type Task Scheduler"]
+ms.assetid: dba6b82d-aaa4-4f77-aeb1-c5a8f81aec25
+keywords:
+- settingsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - settingsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # settingsType Complex Type
@@ -152,8 +158,8 @@ Defines the child elements and sequencing information for the [**Settings (taskT
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -167,9 +173,9 @@ Defines the child elements and sequencing information for the [**Settings (taskT
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

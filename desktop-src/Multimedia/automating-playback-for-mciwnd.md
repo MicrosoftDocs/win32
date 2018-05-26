@@ -1,15 +1,21 @@
 ---
 title: Automating Playback for MCIWnd
 description: Automating Playback for MCIWnd
-ms.assetid: '7e38e8b1-f56d-4008-83a7-4fba8333e328'
-keywords: ["MCIWndCreate macro"]
+ms.assetid: 7e38e8b1-f56d-4008-83a7-4fba8333e328
+keywords:
+- MCIWndCreate macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automating Playback for MCIWnd
 
-You can automate playback for MCIWnd by specifying certain window styles in the [**MCIWndCreate**](mciwndcreate.md) function. To play the device, the window needs a parent window to process notification messages, a playback area to play AVI files, and notification of device mode changes to identify when playback stops. The window does not need a toolbar. You can set these characteristics by specifying the appropriate styles in **MCIWndCreate**.
+You can automate playback for MCIWnd by specifying certain window styles in the [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master) function. To play the device, the window needs a parent window to process notification messages, a playback area to play AVI files, and notification of device mode changes to identify when playback stops. The window does not need a toolbar. You can set these characteristics by specifying the appropriate styles in **MCIWndCreate**.
 
-The following example uses menu commands to create an MCIWnd window to play content from several different types of devices. The **MCIWndCreate** function creates the MCIWnd window, and devices and files are loaded by using the [**MCIWndOpen**](mciwndopen.md) macro in the device-specific commands. When a device finishes playing, you close the device by trapping the [**MCIWNDM\_NOTIFYMODE**](mciwndm-notifymode.md) message and issuing the [**MCIWndClose**](mciwndclose.md) macro.
+The following example uses menu commands to create an MCIWnd window to play content from several different types of devices. The **MCIWndCreate** function creates the MCIWnd window, and devices and files are loaded by using the [**MCIWndOpen**](/windows/win32/Vfw/nf-vfw-mciwndopen?branch=master) macro in the device-specific commands. When a device finishes playing, you close the device by trapping the [**MCIWNDM\_NOTIFYMODE**](mciwndm-notifymode.md) message and issuing the [**MCIWndClose**](/windows/win32/Vfw/nf-vfw-mciwndclose?branch=master) macro.
 
 
 ```C++

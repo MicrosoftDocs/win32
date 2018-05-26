@@ -1,12 +1,17 @@
 ---
-Description: 'Network DDE provides functions that allow you to delete a share, get or set share information, or enumerate shares.'
-ms.assetid: 'd7924e93-75e4-4f94-b159-02408535170d'
+Description: Network DDE provides functions that allow you to delete a share, get or set share information, or enumerate shares.
+ms.assetid: d7924e93-75e4-4f94-b159-02408535170d
 title: Managing DDE Shares
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing DDE Shares
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Network DDE provides functions that allow you to delete a share, get or set share information, or enumerate shares.
 
@@ -60,11 +65,11 @@ Network DDE provides functions that allow you to delete a share, get or set shar
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Meta qualifiers refine the definition of meta-constructs in the CIM model by clarifying the actual usage of a class or property declaration within the MOF syntax.'
+Description: Meta qualifiers refine the definition of meta-constructs in the CIM model by clarifying the actual usage of a class or property declaration within the MOF syntax.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3674a051-3756-4d09-a70e-46a57b442104'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3674a051-3756-4d09-a70e-46a57b442104
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Meta Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Meta Qualifiers
@@ -44,8 +47,8 @@ Indicates whether the object class defines an indication. This qualifier is mutu
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -59,9 +62,9 @@ Indicates whether the object class defines an indication. This qualifier is mutu
 [Adding a Qualifier](adding-a-qualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

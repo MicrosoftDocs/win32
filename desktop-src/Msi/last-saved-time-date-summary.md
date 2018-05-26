@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Last Saved Time/Date Summary property conveys the last time when this installation package, transform, or patch package was modified.Initially, an author should set the value of the Last Saved Time/Date Summary property to Null to indicate that no changes have yet been made to the package. An author should then update the Last Saved Time/Date Summary property to the current system time/date each time a modified installation database, transform, or patch package is saved.'
-ms.assetid: 'be3957fa-463a-4eb2-8b9d-93a16e95a8cf'
-title: 'Last Saved Time/Date Summary property'
+---
+Description: The Last Saved Time/Date Summary property conveys the last time when this installation package, transform, or patch package was modified.Initially, an author should set the value of the Last Saved Time/Date Summary property to Null to indicate that no changes have yet been made to the package. An author should then update the Last Saved Time/Date Summary property to the current system time/date each time a modified installation database, transform, or patch package is saved.
+ms.assetid: be3957fa-463a-4eb2-8b9d-93a16e95a8cf
+title: Last Saved Time/Date Summary property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Last Saved Time/Date Summary property

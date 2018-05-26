@@ -4,11 +4,14 @@ description: Describes the basic information about a protected file.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'B514EBF7-B932-47DC-B08C-F6CE1C3DB42F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: B514EBF7-B932-47DC-B08C-F6CE1C3DB42F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPCF_FILE_BASIC_INFORMATION structure Active Directory Rights Management Services SDK 2.0", "IPCF_FILE_BASC_INFORMATION structure Active Directory Rights Management Services SDK 2.0", "PIPCF_FILE_BASC_INFORMATION structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPCF_FILE_BASIC_INFORMATION structure Active Directory Rights Management Services SDK 2.0
+- IPCF_FILE_BASC_INFORMATION structure Active Directory Rights Management Services SDK 2.0
+- PIPCF_FILE_BASC_INFORMATION structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcfile.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPCF\_FILE\_BASIC\_INFORMATION structure
@@ -28,10 +34,10 @@ Describes the basic information about a protected file. For more information on 
 
 ```C++
 typedef struct _IPCF_FILE_BASC_INFORMATION {
-  DWORD               cbSize;
-  LPCWSTR             wszDecryptedFileName;
-  DWORD64             qwDecryptedFileSize;
-  FILETIME            ftDateModified;
+  DWORD               cbSize;
+  LPCWSTR             wszDecryptedFileName;
+  DWORD64             qwDecryptedFileSize;
+  FILETIME            ftDateModified;
   IPC_NAME_VALUE_LIST pAppSpecificProperties;
 } IPCF_FILE_BASC_INFORMATION, *PIPCF_FILE_BASC_INFORMATION;
 ```
@@ -85,8 +91,8 @@ Custom application specific properties as name-value pairs.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 
 
@@ -101,9 +107,9 @@ Custom application specific properties as name-value pairs.
 [Structures](msipc-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

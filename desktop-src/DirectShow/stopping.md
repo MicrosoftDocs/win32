@@ -1,7 +1,12 @@
 ---
 Description: Stopping
-ms.assetid: 'e2796b69-05e5-4ced-b238-257952d81211'
+ms.assetid: e2796b69-05e5-4ced-b238-257952d81211
 title: Stopping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stopping

@@ -1,7 +1,12 @@
 ---
-Description: 'Records are a way to communicate between nodes in a graph or members in a group.'
-ms.assetid: '073ee4e9-0e97-451a-a808-8265575d073c'
+Description: Records are a way to communicate between nodes in a graph or members in a group.
+ms.assetid: 073ee4e9-0e97-451a-a808-8265575d073c
 title: Records
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Records

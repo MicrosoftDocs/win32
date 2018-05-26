@@ -1,7 +1,12 @@
 ---
 title: Ribbon Properties
 description: Reference documentation on property keys for the Ribbon view of the Ribbon framework.
-ms.assetid: '1cd690a5-d283-4fb4-ac76-48b014ac2394'
+ms.assetid: 1cd690a5-d283-4fb4-ac76-48b014ac2394
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon Properties
@@ -18,7 +23,7 @@ Reference documentation on property keys for the Ribbon view of the Ribbon frame
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ Reference documentation on property keys for the Ribbon view of the Ribbon frame
 [Declaring Commands and Controls with Ribbon Markup](windowsribbon-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

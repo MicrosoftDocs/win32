@@ -1,8 +1,10 @@
 ---
 title: SystemRestore class
 description: Provides methods for disabling and enabling monitoring, listing available restore points, and initiating a restore on the local system.
-ms.assetid: '30e1ff03-816c-463f-9f80-6d84149f0e0b'
-keywords: ["SystemRestore class System Restore", "SystemRestore class System Restore , described"]
+ms.assetid: 30e1ff03-816c-463f-9f80-6d84149f0e0b
+keywords:
+- SystemRestore class System Restore
+- SystemRestore class System Restore , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\Default
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemRestore class
@@ -58,7 +65,7 @@ The **SystemRestore** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -114,7 +121,7 @@ The type of event. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -141,7 +148,7 @@ The type of restore point. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -190,7 +197,7 @@ next
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\Default<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -204,9 +211,9 @@ next
 [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

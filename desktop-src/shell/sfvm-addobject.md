@@ -1,11 +1,16 @@
-﻿---
-Description: 'Adds an object to the Shell view. Used by SHShellFolderView\_Message.'
-title: 'SFVM\_ADDOBJECT message'
+---
+Description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
+title: SFVM\_ADDOBJECT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_ADDOBJECT message
 
-Adds an object to the Shell view. Used by [**SHShellFolderView\_Message**](shshellfolderview-message.md).
+Adds an object to the Shell view. Used by [**SHShellFolderView\_Message**](/windows/win32/shlobj_core/nf-shlobj_core-shshellfolderview_message?branch=master).
 
 
 ```C++

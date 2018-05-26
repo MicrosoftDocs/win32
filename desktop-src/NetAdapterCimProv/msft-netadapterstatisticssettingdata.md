@@ -1,7 +1,12 @@
 ---
-Description: 'Network adapter statistics.'
-ms.assetid: '4e7b2657-d9f2-488c-a22e-e6aaea7d4842'
-title: 'MSFT\_NetAdapterStatisticsSettingData class'
+Description: Network adapter statistics.
+ms.assetid: 4e7b2657-d9f2-488c-a22e-e6aaea7d4842
+title: MSFT\_NetAdapterStatisticsSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterStatisticsSettingData class
@@ -466,16 +471,16 @@ The scoping System\\'s Name. This property inherits from [**MSFT\_NetAdapterSett
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

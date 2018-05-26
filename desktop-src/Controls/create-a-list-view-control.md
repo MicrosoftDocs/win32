@@ -1,14 +1,19 @@
 ---
 title: How to Create a List-View Control
 description: This topic demonstrates how to create a list-view control. To create a list-view control, you use the CreateWindow or CreateWindowEx function and specify the WC\_LISTVIEW window class.
-ms.assetid: 'FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3'
+ms.assetid: FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a List-View Control
 
 This topic demonstrates how to create a list-view control. To create a list-view control, you use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md#wc-listview) window class.
 
-A list-view control can also be created as part of a dialog box template. You must specify [**WC\_LISTVIEW**](common-control-window-classes.md#wc-listview) as the class name. To use a list-view control as part of a dialog box template, you must call [**InitCommonControls**](initcommoncontrols.md) or [**InitCommonControlsEx**](initcommoncontrolsex.md) before you create an instance of the dialog box.
+A list-view control can also be created as part of a dialog box template. You must specify [**WC\_LISTVIEW**](common-control-window-classes.md#wc-listview) as the class name. To use a list-view control as part of a dialog box template, you must call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) or [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) before you create an instance of the dialog box.
 
 ## What you need to know
 
@@ -25,7 +30,7 @@ A list-view control can also be created as part of a dialog box template. You mu
 
 ### 
 
-First register the window class by calling the [**InitCommonControlsEx**](initcommoncontrolsex.md) function and specifying the [**ICC\_LISTVIEW\_CLASSES**](initcommoncontrolsex-4vvx.md#icc-listview-classes) bit in the accompanying **INITCOMMONCONTROLSEX** structure. This ensures that the common controls DLL is loaded. Next, use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md#wc-listview) window class.
+First register the window class by calling the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function and specifying the [**ICC\_LISTVIEW\_CLASSES**](initcommoncontrolsex-4vvx.md#icc-listview-classes) bit in the accompanying **INITCOMMONCONTROLSEX** structure. This ensures that the common controls DLL is loaded. Next, use the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md#wc-listview) window class.
 
 > [!Note]  
 > By default, a list-view control uses the icon title font. However, you can use a [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642) message to specify the font to be used for the text. You should send this message before inserting any items. The control uses the dimensions of the font that is specified by the **WM\_SETFONT** message to determine spacing and layout. You can also customize the font for each item. For more information, see [Custom Draw](custom-draw.md).

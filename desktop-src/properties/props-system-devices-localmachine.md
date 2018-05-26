@@ -1,7 +1,12 @@
 ---
-Description: 'If true, the device in question is the computer.'
-ms.assetid: '6f90c4b5-e3f0-4a60-b942-fead336ab48a'
-title: 'System.Devices.LocalMachine'
+Description: If true, the device in question is the computer.
+ms.assetid: 6f90c4b5-e3f0-4a60-b942-fead336ab48a
+title: System.Devices.LocalMachine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.LocalMachine

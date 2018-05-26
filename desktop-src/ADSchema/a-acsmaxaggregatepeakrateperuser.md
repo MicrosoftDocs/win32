@@ -4,17 +4,22 @@ description: The maximum peak rate any user may have for all flows.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0efd69a9-56e9-4098-845f-fab842f23c6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0efd69a9-56e9-4098-845f-fab842f23c6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ACS-Max-Aggregate-Peak-Rate-Per-User attribute AD Schema", "aCSMaxAggregatePeakRatePerUser attribute AD Schema"]
+keywords:
+- ACS-Max-Aggregate-Peak-Rate-Per-User attribute AD Schema
+- aCSMaxAggregatePeakRatePerUser attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ACS-Max-Aggregate-Peak-Rate-Per-User
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ACS-Max-Aggregate-Peak-Rate-Per-User attribute
@@ -38,12 +43,12 @@ The maximum peak rate any user may have for all flows.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The maximum peak rate any user may have for all flows.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

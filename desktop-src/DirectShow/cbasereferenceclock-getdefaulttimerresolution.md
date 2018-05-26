@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDefaultTimerResolution method returns the current resolution of the reference clock''s timer.'
-ms.assetid: '14176f9c-7fa1-47f6-a261-9c66e271a3f2'
-title: 'CBaseReferenceClock.GetDefaultTimerResolution method'
+Description: The GetDefaultTimerResolution method returns the current resolution of the reference clocks timer.
+ms.assetid: 14176f9c-7fa1-47f6-a261-9c66e271a3f2
+title: CBaseReferenceClock.GetDefaultTimerResolution method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.GetDefaultTimerResolution method
@@ -13,7 +18,7 @@ The `GetDefaultTimerResolution` method returns the current resolution of the ref
 
 ```C++
 STDMETHODIMP GetDefaultTimerResolution(
-   REFERENCE_TIME *pTimerResolution
+   REFERENCE_TIME *pTimerResolution
 );
 ```
 
@@ -36,7 +41,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This method implements the [**IReferenceClockTimerControl::GetDefaultTimerResolution**](ireferenceclocktimercontrol-getdefaulttimerresolution.md) method.
+This method implements the [**IReferenceClockTimerControl::GetDefaultTimerResolution**](/windows/win32/Strmif/nf-strmif-ireferenceclocktimercontrol-getdefaulttimerresolution?branch=master) method.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This method implements the [**IReferenceClockTimerControl::GetDefaultTimerResolu
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

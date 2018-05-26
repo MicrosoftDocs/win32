@@ -1,8 +1,11 @@
 ---
 title: Activity SetActivityClassDisplayName method
 description: Sets the activity class display name of the Activity.
-ms.assetid: 'B0E943A6-68E8-4F5C-B1A6-4CB38E74074E'
-keywords: ["SetActivityClassDisplayName method Access Execution Engine", "SetActivityClassDisplayName method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetActivityClassDisplayName method"]
+ms.assetid: B0E943A6-68E8-4F5C-B1A6-4CB38E74074E
+keywords:
+- SetActivityClassDisplayName method Access Execution Engine
+- SetActivityClassDisplayName method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetActivityClassDisplayName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetActivityClassDisplayName method
@@ -22,7 +30,7 @@ Sets the activity class display name of the **Activity**.
 
 ```C++
 virtual HRESULT SetActivityClassDisplayName(
-  [in] LPCWSTR activityClassDisplayName
+  [in] LPCWSTR activityClassDisplayName
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity class display name is the value of element **Activity/ActivityClass
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity class display name is the value of element **Activity/ActivityClass
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

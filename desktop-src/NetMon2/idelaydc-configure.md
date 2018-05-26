@@ -1,7 +1,12 @@
 ---
-Description: 'The Configure method submits configuration information used for a capture.'
-ms.assetid: '6418c465-c339-44b6-84eb-36c7b89231f8'
-title: 'IDelaydC::Configure method'
+Description: The Configure method submits configuration information used for a capture.
+ms.assetid: 6418c465-c339-44b6-84eb-36c7b89231f8
+title: IDelaydCConfigure method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDelaydC::Configure method
@@ -13,8 +18,8 @@ The **Configure** method submits configuration information used for a capture.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Configure(
-  [in]  HBLOB hConfigurationBlob,
-  [out] HBLOB hErrorBlob
+  [in]  HBLOB hConfigurationBlob,
+  [out] HBLOB hErrorBlob
 );
 ```
 
@@ -56,7 +61,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +75,8 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -93,9 +98,9 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 [IDelaydC::Stop](idelaydc-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

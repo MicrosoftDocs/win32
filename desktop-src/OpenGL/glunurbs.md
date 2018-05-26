@@ -1,8 +1,9 @@
 ---
 title: gluNurbsCallback function
 description: The gluNurbsCallback function defines a callback for a Non-Uniform Rational B-Spline (NURBS) object.
-ms.assetid: '1e9afc00-57c6-459e-a9fc-463f45df2084'
-keywords: ["gluNurbsCallback function OpenGL"]
+ms.assetid: 1e9afc00-57c6-459e-a9fc-463f45df2084
+keywords:
+- gluNurbsCallback function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluNurbsCallback function
@@ -22,9 +28,9 @@ The **gluNurbsCallback** function defines a callback for a Non-Uniform Rational 
 
 ```C++
 void WINAPI gluNurbsCallback(
-   GLUnurbs *nobj,
-   GLenum   which,
-   void (CALLBACK *fn)()
+   GLUnurbs *nobj,
+   GLenum   which,
+   void (CALLBACK *fn)()
 );
 ```
 
@@ -69,8 +75,8 @@ Use **gluNurbsCallback** to define a callback to be used by a NURBS object. If t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -87,9 +93,9 @@ Use **gluNurbsCallback** to define a callback to be used by a NURBS object. If t
 [**gluNewNurbsRenderer**](glunewnurbsrenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

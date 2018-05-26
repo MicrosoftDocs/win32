@@ -4,11 +4,12 @@ description: Sets the backup mode for a CSV.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ee69873-e562-4bac-bfed-119d56082095'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2ee69873-e562-4bac-bfed-119d56082095
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_SET\_SHARED\_VOLUME\_BACKUP\_MODE control code
 
-Sets the backup mode for a cluster shared volume (CSV). Applications use this control code as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [*ResourceControl*](resourcecontrol.md) callback function.
+Sets the backup mode for a cluster shared volume (CSV). Applications use this control code as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) callback function.
 
 
 ```C++
@@ -39,14 +43,14 @@ ClusterResourceControl( hResource,               // resource handle
 
 ## Parameters
 
-The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md).
+The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master).
 
 <dl> <dt>
 
 *lpInBuffer* \[in, optional\]
 </dt> <dd>
 
-Address of a [**CLUS\_SHARED\_VOLUME\_BACKUP\_MODE**](clus-shared-volume-backup-mode.md) structure.
+Address of a [**CLUS\_SHARED\_VOLUME\_BACKUP\_MODE**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_shared_volume_backup_mode?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +63,7 @@ The allocated size (in bytes) of the input buffer.
 
 ## Return value
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) returns one of the following values.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -96,17 +100,17 @@ The 32 bits of CLUSCTL\_RESOURCE\_SET\_SHARED\_VOLUME\_BACKUP\_MODE (0x0140029a)
 
 | Component                 | Bit location     | Value                                                              |
 |---------------------------|------------------|--------------------------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>                        |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>                        |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                             |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_MODIFY** (0x1)<br/>                                  |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>                          |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                                          |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_SET\_SHARED\_VOLUME\_BACKUP\_MODE** (0x40029a)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>                           |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_SET\_SHARED\_VOLUME\_BACKUP\_MODE** (0x40029a)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>                           |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -117,7 +121,7 @@ For more information, see [Control Code Architecture](control-code-architecture.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -129,21 +133,21 @@ For more information, see [Control Code Architecture](control-code-architecture.
 [External Resource Control Codes](external-resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterClearBackupStateForSharedVolume**](clusterclearbackupstateforsharedvolume.md)
+[**ClusterClearBackupStateForSharedVolume**](/windows/previous-versions/ResApi/nc-resapi-pcluster_clear_backup_state_for_shared_volume?branch=master)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dt>
 
-[*ResourceControl*](resourcecontrol.md)
+[*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master)
 </dt> <dt>
 
-[**CLUS\_SHARED\_VOLUME\_BACKUP\_MODE**](clus-shared-volume-backup-mode.md)
+[**CLUS\_SHARED\_VOLUME\_BACKUP\_MODE**](/windows/previous-versions/ClusAPI/ns-clusapi-_clus_shared_volume_backup_mode?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

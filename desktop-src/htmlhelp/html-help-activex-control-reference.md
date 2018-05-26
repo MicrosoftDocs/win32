@@ -1,7 +1,12 @@
 ---
 title: HTML Help ActiveX Control Reference
 description: The HTML Help ActiveX control reference provides information about how to use the control in an HTML file and how to set its commands and parameters.
-ms.assetid: 'A2B94863-E0C5-433e-8DE7-9DDF3B3CF034'
+ms.assetid: A2B94863-E0C5-433e-8DE7-9DDF3B3CF034
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help ActiveX Control Reference

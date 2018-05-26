@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_STILL\_IMAGE\_CAPTURE'
-ms.assetid: 'fb434927-1548-4c6e-bfb7-3a99eef62a4a'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_STILL\_IMAGE\_CAPTURE'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_STILL\_IMAGE\_CAPTURE
+ms.assetid: fb434927-1548-4c6e-bfb7-3a99eef62a4a
+title: WPD\_FUNCTIONAL\_CATEGORY\_STILL\_IMAGE\_CAPTURE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_STILL\_IMAGE\_CAPTURE

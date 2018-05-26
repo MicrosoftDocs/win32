@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Cancel method cancels the outbound fax job.'
-ms.assetid: '0d9e5a61-fde1-4527-89e8-c70abbc8aef5'
-title: 'FaxOutgoingJob.Cancel method'
+---
+Description: The Cancel method cancels the outbound fax job.
+ms.assetid: 0d9e5a61-fde1-4527-89e8-c70abbc8aef5
+title: FaxOutgoingJob.Cancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Cancel method
@@ -25,7 +30,7 @@ This method has no parameters.
 
 When you cancel a job that is not part of a broadcast or when you cancel an entire broadcast, the [**Count**](-mfax-faxoutgoingjobs-count-vb.md) property is updated to reflect the change in the number of outgoing jobs. However, if you cancel a single fax from a broadcast, the **Count** property does not reflect the change. The canceled fax remains in the outgoing queue, so that you can view the status of all faxes from the broadcast.
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farMANAGE\_JOBS** access right. With the **farSUBMIT\_LOW** access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_JOBS** access right, users will be able to use this method for all faxes on the server.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farMANAGE\_JOBS** access right. With the **farSUBMIT\_LOW** access right, users will be able to use this method only for their own faxes. With the **farMANAGE\_JOBS** access right, users will be able to use this method for all faxes on the server.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

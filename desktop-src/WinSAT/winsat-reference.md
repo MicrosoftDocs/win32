@@ -1,7 +1,12 @@
 ---
 title: WinSAT Reference
 description: The Windows System Assessment Tool (WinSAT) reference section contains detailed information about the following API elements.
-ms.assetid: 'e7776f7f-bfe0-4bf7-8266-8d4b82f94626'
+ms.assetid: e7776f7f-bfe0-4bf7-8266-8d4b82f94626
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSAT Reference

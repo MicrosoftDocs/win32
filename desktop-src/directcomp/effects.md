@@ -1,7 +1,12 @@
 ---
 title: Effects
 description: This topic discusses the basics of Microsoft DirectComposition effects, and describes the types of effects that DirectComposition supports.
-ms.assetid: '805B17D2-2F6B-4C25-8C6D-41FFA5DFC774'
+ms.assetid: 805B17D2-2F6B-4C25-8C6D-41FFA5DFC774
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects
@@ -78,27 +83,27 @@ The DirectComposition coordinate space for 3D transform effects locates the orig
 
 A 3D rotation transform effect rotates a visual in three dimensions by the specified angle about a rotation axis vector \[x,y,z\] located at the specified center point (x,y,z). The angle is specified in degrees. The default rotation axis vector is \[0,0,-1\], and the default center point is (0,0,0).
 
-Use the [**IDCompositionDevice::CreateRotateTransform3D**](idcompositiondevice-createrotatetransform3d.md) method to create a 3D rotation transform object. The method retrieves an [**IDCompositionRotateTransform3D**](idcompositionrotatetransform3d.md) interface that you can use to set the properties of the object.
+Use the [**IDCompositionDevice::CreateRotateTransform3D**](/windows/win32/Dcomp/?branch=master) method to create a 3D rotation transform object. The method retrieves an [**IDCompositionRotateTransform3D**](/windows/win32/Dcomp/?branch=master) interface that you can use to set the properties of the object.
 
 ### 3D scaling transform effect
 
 A 3D scaling transform effect makes a visual larger or smaller. It scales a visual in the \[x,y,z\] direction about the center point (x,y,z). The default center point is (0,0,0).
 
-Use the [**IDCompositionDevice::CreateScaleTransform3D**](idcompositiondevice-createscaletransform3d.md) method to create a 3D scaling transform object. The method retrieves an [**IDCompositionScaleTransform3D**](idcompositionscaletransform3d.md) interface that you can use to set the properties of the object.
+Use the [**IDCompositionDevice::CreateScaleTransform3D**](/windows/win32/Dcomp/?branch=master) method to create a 3D scaling transform object. The method retrieves an [**IDCompositionScaleTransform3D**](/windows/win32/Dcomp/?branch=master) interface that you can use to set the properties of the object.
 
 ### 3D translation transform effect
 
 A 3D translation transform effect changes the position of a visual in the \[x,y,z\] direction.
 
-Use the [**IDCompositionDevice::CreateTranslateTransform3D**](idcompositiondevice-createtranslatetransform3d.md) method to create a 3D translation transform object. The method retrieves an [**IDCompositionTranslateTransform3D**](idcompositiontranslatetransform3d.md) interface that you can use to set the properties of the object.
+Use the [**IDCompositionDevice::CreateTranslateTransform3D**](/windows/win32/Dcomp/?branch=master) method to create a 3D translation transform object. The method retrieves an [**IDCompositionTranslateTransform3D**](/windows/win32/Dcomp/?branch=master) interface that you can use to set the properties of the object.
 
 ### 3D matrix transform effect
 
-The [**IDCompositionMatrixTransform3D**](idcompositionmatrixtransform.md) interface enables you to define your own 4-by-4 transformation matrix and apply it to a visual. This interface is useful if you need to apply a type of 3D perspective transform effect that is not available through the other DirectComposition 3D transform effect interfaces. You define the matrix by filling a [**D3DMATRIX**](https://msdn.microsoft.com/library/windows/desktop/bb204912) structure and passing it to the [**IDCompositionMatrixTransform3D::SetMatrix**](idcompositionmatrixtransform-setmatrix.md) method. Alternatively, you can set each element of the matrix by using the [**IDCompositionMatrixTransform3D::SetMatrixElement**](idcompositionmatrixtransform3d-setmatrixelement-overloaded.md) method.
+The [**IDCompositionMatrixTransform3D**](/windows/win32/Dcomp/?branch=master) interface enables you to define your own 4-by-4 transformation matrix and apply it to a visual. This interface is useful if you need to apply a type of 3D perspective transform effect that is not available through the other DirectComposition 3D transform effect interfaces. You define the matrix by filling a [**D3DMATRIX**](https://msdn.microsoft.com/library/windows/desktop/bb204912) structure and passing it to the [**IDCompositionMatrixTransform3D::SetMatrix**](/windows/win32/Dcomp/?branch=master) method. Alternatively, you can set each element of the matrix by using the [**IDCompositionMatrixTransform3D::SetMatrixElement**](/windows/win32/Dcomp/?branch=master) method.
 
 ### 3D transform effect group
 
-The [**IDCompositionDevice::CreateTransform3DGroup**](idcompositiondevice-createtransform3dgroup.md) creates a collection of 3D transform effects that you can apply to a visual as a group. The array can include any number of transform objects, and can include matrix, rotate, scale, and translate transforms. The collection of 3D transform objects results in a transform whose value is the matrix multiplication of the individual transform matrices in the collection.
+The [**IDCompositionDevice::CreateTransform3DGroup**](/windows/win32/Dcomp/?branch=master) creates a collection of 3D transform effects that you can apply to a visual as a group. The array can include any number of transform objects, and can include matrix, rotate, scale, and translate transforms. The collection of 3D transform objects results in a transform whose value is the matrix multiplication of the individual transform matrices in the collection.
 
 The order of individual transforms in the group is important. For example, if you first rotate, then scale, then translate, you get a different result than if you first translate, then rotate, then scale. DirectComposition respects the order in which you specify 3D transforms within a transform 3D group the same way it does for 2D transforms. Additionally, 3D perspective transforms result in flattening of the visual tree after all 3D transforms in the current visual have been applied. This is done to ensure that the scene looks as close to 3D as possible.
 
@@ -106,20 +111,20 @@ The order of individual transforms in the group is important. For example, if yo
 
 To apply an effect to a visual, you first need to create and set the properties of an effect object that represents the type of effect that you want to produce on the visual. Then, you need to apply the effect object to the visual's Effect property.
 
-To create an effect object, use one of the following [**IDCompositionDevice**](idcompositiondevice.md) interface methods to create an effect object for the type of effect that you want. The following methods create effect objects:
+To create an effect object, use one of the following [**IDCompositionDevice**](/windows/win32/Dcomp/?branch=master) interface methods to create an effect object for the type of effect that you want. The following methods create effect objects:
 
--   [**CreateMatrixTransform3D**](idcompositiondevice-creatematrixtransform3d.md)
--   [**CreateRotateTransform3D**](idcompositiondevice-createrotatetransform3d.md)
--   [**CreateScaleTransform3D**](idcompositiondevice-createscaletransform3d.md)
--   [**CreateTranslateTransform3D**](idcompositiondevice-createtranslatetransform3d.md)
+-   [**CreateMatrixTransform3D**](/windows/win32/Dcomp/?branch=master)
+-   [**CreateRotateTransform3D**](/windows/win32/Dcomp/?branch=master)
+-   [**CreateScaleTransform3D**](/windows/win32/Dcomp/?branch=master)
+-   [**CreateTranslateTransform3D**](/windows/win32/Dcomp/?branch=master)
 
 Each of the preceding methods retrieves an interface that you can use to set the properties of the newly created effect object. Use the interface methods to set the properties as necessary to produce the visual effect that you want.
 
 Most properties of an effect object can be animated. To animate a particular property, create an animation object and apply it to the property that you want to animate; otherwise, set the property to a static value that produces the effect that you want. For more information about animating properties, see [Animation](animation.md).
 
-To apply an effect object to visual, call the [**IDCompositionVisual::SetEffect**](idcompositionvisual-seteffect.md) method. When you apply an effect to a visual, the effect is applied to the entire visual subtree rooted at that visual. So, for example, if you set the opacity of a visual to 50 percent, the opacity of all child visuals in the visual subtree will be reduced by 50 percent. You can apply the same effect object to one or more visuals. If you modify the properties of an effect object after applying it to visuals, all of the visuals are re-composed to reflect the change.
+To apply an effect object to visual, call the [**IDCompositionVisual::SetEffect**](/windows/win32/Dcomp/?branch=master) method. When you apply an effect to a visual, the effect is applied to the entire visual subtree rooted at that visual. So, for example, if you set the opacity of a visual to 50 percent, the opacity of all child visuals in the visual subtree will be reduced by 50 percent. You can apply the same effect object to one or more visuals. If you modify the properties of an effect object after applying it to visuals, all of the visuals are re-composed to reflect the change.
 
-By using an effect group object, you can simultaneously apply multiple effects to a visual. First call [**IDCompositionDevice::CreateEffectGroup**](idcompositiondevice-createeffectgroup.md) to create the effect group object, and then add effects to the group by using the object's [**IDCompositionEffectGroup**](idcompositioneffectgroup.md) interface.
+By using an effect group object, you can simultaneously apply multiple effects to a visual. First call [**IDCompositionDevice::CreateEffectGroup**](/windows/win32/Dcomp/?branch=master) to create the effect group object, and then add effects to the group by using the object's [**IDCompositionEffectGroup**](/windows/win32/Dcomp/?branch=master) interface.
 
 ## Related topics
 

@@ -4,11 +4,14 @@ description: Starts a job to create an associated un-synced snapshot of the MSFT
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '590be8be-769b-46f5-96c9-436457d09a03'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 590be8be-769b-46f5-96c9-436457d09a03
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateSnapshot method", "CreateSnapshot method, MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, CreateSnapshot method"]
+keywords:
+- CreateSnapshot method
+- CreateSnapshot method, MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, CreateSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateSnapshot method of the MSFT\_SMStorageVolume class
@@ -28,13 +34,13 @@ Starts a job to create an associated un-synced snapshot of the [**MSFT\_SMStorag
 
 ```mof
 uint32 CreateSnapshot(
-  [in, optional]  string                   ElementName,
-  [out, optional] MSFT_SMStorageVolume REF TargetStorageVolume,
-  [in, optional]  MSFT_SMPool          REF TargetPool,
-  [in, optional]  String                   username,
-  [in, optional]  String                   password,
-  [out]           MSFT_SMJob           REF Job,
-  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
+  [in, optional]  string                   ElementName,
+  [out, optional] MSFT_SMStorageVolume REF TargetStorageVolume,
+  [in, optional]  MSFT_SMPool          REF TargetPool,
+  [in, optional]  String                   username,
+  [in, optional]  String                   password,
+  [out]           MSFT_SMJob           REF Job,
+  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
 );
 ```
 
@@ -326,7 +332,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 43021
 
-**Windows Server 2012 R2:** Unavailable for Windows Server 2012.
+**Windows Server 2012 R2:** Unavailable for Windows Server 2012.
 
 </dd> <dt>
 
@@ -414,7 +420,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | Header<br/>                   | <dl> <dt>Dbdaoint.h</dt> </dl>         |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
@@ -429,9 +435,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageVolume**](msft-smstoragevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

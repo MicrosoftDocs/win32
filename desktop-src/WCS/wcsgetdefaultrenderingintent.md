@@ -1,8 +1,9 @@
 ---
 title: WcsGetDefaultRenderingIntent function
 description: Retrieves the default rendering intent in the specified profile management scope.
-ms.assetid: '1bb1c09d-1d8a-4568-bdb3-c051781495fa'
-keywords: ["WcsGetDefaultRenderingIntent function Windows Color System"]
+ms.assetid: 1bb1c09d-1d8a-4568-bdb3-c051781495fa
+keywords:
+- WcsGetDefaultRenderingIntent function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetDefaultRenderingIntent function
@@ -22,8 +28,8 @@ Retrieves the default rendering intent in the specified profile management scope
 
 ```C++
 BOOL WINAPI WcsGetDefaultRenderingIntent(
-  _In_  WCS_PROFILE_MANAGEMENT_SCOPE scope,
-  _Out_ PDWORD                       pdwRenderingIntent
+  _In_  WCS_PROFILE_MANAGEMENT_SCOPE scope,
+  _Out_ PDWORD                       pdwRenderingIntent
 );
 ```
 
@@ -65,8 +71,8 @@ This function does not revert to the system-wide scope if you do not set the per
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -86,9 +92,9 @@ This function does not revert to the system-wide scope if you do not set the per
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

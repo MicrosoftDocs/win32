@@ -1,8 +1,11 @@
 ---
 title: IDatabase FindRecord method
 description: Finds one record in the database based on the index and number of keys provided.
-ms.assetid: 'c395053b-32d2-45fe-a36f-5e4e06cc6229'
-keywords: ["FindRecord method Windows Mail (formerly Outlook Express)", "FindRecord method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , FindRecord method"]
+ms.assetid: c395053b-32d2-45fe-a36f-5e4e06cc6229
+keywords:
+- FindRecord method Windows Mail (formerly Outlook Express)
+- FindRecord method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , FindRecord method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::FindRecord method
@@ -22,10 +30,10 @@ Finds one record in the database based on the index and number of keys provided.
 
 ```C++
 HRESULT FindRecord(
-  [in]      INDEXORDNIAL iIndex,
-  [in]      DWORD        cColumns,
-  [in, out] LPVOID       pRecord,
-  [out]     LPROWORDINAL piRow
+  [in]      INDEXORDNIAL iIndex,
+  [in]      DWORD        cColumns,
+  [in, out] LPVOID       pRecord,
+  [out]     LPROWORDINAL piRow
 );
 ```
 
@@ -86,7 +94,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -94,17 +102,17 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

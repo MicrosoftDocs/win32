@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the sampler names referenced in a shader.'
-ms.assetid: 'fe769917-daac-43b8-bf63-fb337915ff53'
+---
+Description: Get the sampler names referenced in a shader.
+ms.assetid: fe769917-daac-43b8-bf63-fb337915ff53
 title: D3DXGetShaderSamplers function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetShaderSamplers function

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e5f91abd-6a3e-4492-9342-63518aa1ca6f'
-title: 'System.Document.PresentationFormat'
+Description: .
+ms.assetid: e5f91abd-6a3e-4492-9342-63518aa1ca6f
+title: System.Document.PresentationFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.PresentationFormat

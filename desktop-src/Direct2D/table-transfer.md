@@ -1,8 +1,14 @@
 ---
 title: Table transfer effect
 description: Use the table transfer effect to map the color intensities of an image using a transfer function created from interpolating a list of values you provide.
-ms.assetid: 'FB426909-3C91-4709-9E3A-E45C7AE345A3'
-keywords: ["table transfer effect"]
+ms.assetid: FB426909-3C91-4709-9E3A-E45C7AE345A3
+keywords:
+- table transfer effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Table transfer effect
@@ -30,7 +36,7 @@ The image here shows the input and output of the table transfer effect.
 
 
 
- 
+ 
 
 
 ```C++
@@ -49,13 +55,13 @@ m_d2dContext->EndDraw();
 
 
 
-The transfer function is based on a list of inputs V=(V0,V1,V2,V3, V?…,V<sub>N</sub>) where N is the number of elements - 1.
+The transfer function is based on a list of inputs V=(V0,V1,V2,V3, V? ,V<sub>N</sub>) where N is the number of elements - 1.
 
-The input pixel intensity is represented as C. The output pixel intensity, C‘ can be calculated with the equation.
+The input pixel intensity is represented as C. The output pixel intensity, C  can be calculated with the equation.
 
 For a value C, pick a value k, such that: k/N = C &lt; (k+1)/N
 
-The output C’ is calculated using the following equation: C' = V? + (C - ×k/N) \* N \* (V???1? - V?)
+The output C  is calculated using the following equation: C' = V? + (C -  k/N) \* N \* (V???1? - V?)
 
 This effect works on straight and premultiplied alpha images. The effect outputs premultiplied alpha bitmaps.
 
@@ -68,7 +74,7 @@ Here is what the graph of table transfer function looks like if the table proper
 > [!Note]  
 > The values of all channels of the table transfer properties are unitless and have a minimum of 0.0 and a maximum 1.0.
 
- 
+ 
 
 
 
@@ -86,7 +92,7 @@ Here is what the graph of table transfer function looks like if the table proper
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -94,25 +100,25 @@ Here is what the graph of table transfer function looks like if the table proper
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

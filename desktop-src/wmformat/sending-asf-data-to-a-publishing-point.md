@@ -1,8 +1,20 @@
 ---
 title: Sending ASF Data to a Publishing Point
 description: Sending ASF Data to a Publishing Point
-ms.assetid: '8f01beae-4270-4cf5-afff-3f7014cae90f'
-keywords: ["Windows Media Format SDK,sending ASF data", "Windows Media Format SDK,publishing points", "Advanced Systems Format (ASF),sending data", "ASF (Advanced Systems Format),sending data", "Advanced Systems Format (ASF),publishing points", "ASF (Advanced Systems Format),publishing points", "publishing points"]
+ms.assetid: 8f01beae-4270-4cf5-afff-3f7014cae90f
+keywords:
+- Windows Media Format SDK,sending ASF data
+- Windows Media Format SDK,publishing points
+- Advanced Systems Format (ASF),sending data
+- ASF (Advanced Systems Format),sending data
+- Advanced Systems Format (ASF),publishing points
+- ASF (Advanced Systems Format),publishing points
+- publishing points
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending ASF Data to a Publishing Point
@@ -18,13 +30,13 @@ To push data to the publishing point, attach the push sink object to the writer 
 
 Perform the following steps:
 
-1.  Create the writer object by calling the [**WMCreateWriter**](wmcreatewriter.md) function, which returns an [**IWMWriter**](iwmwriter.md) pointer.
-2.  Create the push sink object by calling the [**WMCreateWriterPushSink**](wmcreatewriterpushsink.md) function, which returns an [**IWMWriterPushSink**](iwmwriterpushsink.md) pointer.
-3.  Attach the network sink to the writer by calling [**IWMWriterAdvanced::AddSink**](iwmwriteradvanced-addsink.md) on the writer, with a pointer to the network sink's **IWMWriterPushSink** interface.
-4.  Connect to the server by calling [**IWMWriterPushSink::Connect**](iwmwriterpushsink-connect.md).
+1.  Create the writer object by calling the [**WMCreateWriter**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriter?branch=master) function, which returns an [**IWMWriter**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriter?branch=master) pointer.
+2.  Create the push sink object by calling the [**WMCreateWriterPushSink**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink?branch=master) function, which returns an [**IWMWriterPushSink**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink?branch=master) pointer.
+3.  Attach the network sink to the writer by calling [**IWMWriterAdvanced::AddSink**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink?branch=master) on the writer, with a pointer to the network sink's **IWMWriterPushSink** interface.
+4.  Connect to the server by calling [**IWMWriterPushSink::Connect**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriterpushsink-connect?branch=master).
 5.  Write the stream. This step involves setting the profile on the writer object, sending samples to the writer, and possibly other tasks. For more information, see [Writing ASF Files](writing-asf-files.md). Additional tasks might include setting metadata attributes (as described in [Working with Metadata](working-with-metadata.md)) or setting live-DRM on the stream (as described in [Enabling DRM Support](enabling-drm-support.md)). These tasks are performed exactly as they are for ASF file writing.
-6.  After you are done writing, call [**IWMWriterAdvanced::RemoveSink**](iwmwriteradvanced-removesink.md) on the writer to detach the push sink object.
-7.  Call [**IWMWriterPushSink::EndSession**](iwmwriterpushsink-endsession.md) on the push sink to end the session with the server.
+6.  After you are done writing, call [**IWMWriterAdvanced::RemoveSink**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink?branch=master) on the writer to detach the push sink object.
+7.  Call [**IWMWriterPushSink::EndSession**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriterpushsink-endsession?branch=master) on the push sink to end the session with the server.
 
 These steps are illustrated in the WMVNetWrite sample application.
 
@@ -37,11 +49,11 @@ These steps are illustrated in the WMVNetWrite sample application.
 
 Authentication to the server is automatically handled by the push sink object. However, the application may need to supply credentials. This is done through the **IWMCredentialCallback** callback interface, as follows:
 
-1.  Implement the [**IWMStatusCallback**](iwmstatuscallback.md) and [**IWMCredentialCallback**](iwmcredentialcallback.md) interface in your application.
-2.  Query the push sink object for the [**IWMRegisterCallback**](iwmregistercallback.md) interface.
-3.  Call [**IWMRegisterCallback::Advise**](iwmregistercallback-advise.md) with a pointer to your application's **IWMStatusCallback** interface.
-4.  If the push sink needs to get credentials from the application, it queries the **IWMStatusCallback** pointer for the **IWMCredentialCallback** interface and calls [**IWMCredentialCallback::AcquireCredentials**](iwmcredentialcallback-acquirecredentials.md). For information about this method, see [Authentication](authentication.md).
-5.  When you are done, call [**IWMRegisterCallback::Unadvise**](iwmregistercallback-unadvise.md) to stop getting event notifications from the push sink.
+1.  Implement the [**IWMStatusCallback**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstatuscallback?branch=master) and [**IWMCredentialCallback**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback?branch=master) interface in your application.
+2.  Query the push sink object for the [**IWMRegisterCallback**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmregistercallback?branch=master) interface.
+3.  Call [**IWMRegisterCallback::Advise**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-advise?branch=master) with a pointer to your application's **IWMStatusCallback** interface.
+4.  If the push sink needs to get credentials from the application, it queries the **IWMStatusCallback** pointer for the **IWMCredentialCallback** interface and calls [**IWMCredentialCallback::AcquireCredentials**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmcredentialcallback-acquirecredentials?branch=master). For information about this method, see [Authentication](authentication.md).
+5.  When you are done, call [**IWMRegisterCallback::Unadvise**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise?branch=master) to stop getting event notifications from the push sink.
 
 ## Related topics
 

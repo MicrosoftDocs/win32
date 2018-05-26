@@ -1,8 +1,9 @@
 ---
 title: TBM\_CLEARTICS message
 description: Removes the current tick marks from a trackbar. This message does not remove the first and last tick marks, which are created automatically by the trackbar.
-ms.assetid: '2830497c-2cf0-4068-810c-c05d4e0abb8b'
-keywords: ["TBM_CLEARTICS message Windows Controls"]
+ms.assetid: 2830497c-2cf0-4068-810c-c05d4e0abb8b
+keywords:
+- TBM_CLEARTICS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_CLEARTICS message
@@ -41,15 +47,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

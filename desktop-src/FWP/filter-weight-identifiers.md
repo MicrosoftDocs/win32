@@ -1,7 +1,7 @@
 ---
 title: Filter Weight Identifiers
 description: Filter weight identifiers used by the Base Filtering Engine (BFE) to compute auto-generated filter weights.
-ms.assetid: '73d2e9e0-0d3a-474e-b660-f91675f9000e'
+ms.assetid: 73d2e9e0-0d3a-474e-b660-f91675f9000e
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Weight Identifiers
@@ -94,7 +99,7 @@ Maximum allowed filter weight range value.
 > [!Note]  
 > **MAXUINT64** represents the largest possible value of **UINT64**. The value of this constant is 0xFFFFFFFFFFFFFFFF.
 
- 
+ 
 
 ## Requirements
 
@@ -102,15 +107,15 @@ Maximum allowed filter weight range value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

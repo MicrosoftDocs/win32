@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3354af97-df38-42ed-bd0c-3fc70f296882'
-title: 'System.Link.TargetUrl'
+Description: .
+ms.assetid: 3354af97-df38-42ed-bd0c-3fc70f296882
+title: System.Link.TargetUrl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.TargetUrl

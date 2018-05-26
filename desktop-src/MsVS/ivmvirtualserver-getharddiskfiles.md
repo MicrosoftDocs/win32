@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer GetHardDiskFiles method
 description: The GetHardDiskFiles method returns an array of known virtual hard disk files.
-ms.assetid: '0686453a-a531-485c-8ed6-5ceb60ff27bf'
-keywords: ["GetHardDiskFiles method Virtual Server", "GetHardDiskFiles method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , GetHardDiskFiles method"]
+ms.assetid: 0686453a-a531-485c-8ed6-5ceb60ff27bf
+keywords:
+- GetHardDiskFiles method Virtual Server
+- GetHardDiskFiles method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , GetHardDiskFiles method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::GetHardDiskFiles method
@@ -22,8 +30,8 @@ The **GetHardDiskFiles** method returns an array of known virtual hard disk file
 
 ```C++
 HRESULT GetHardDiskFiles(
-  [in]  VARIANT inAdditionalSearchPaths,
-  [out] VARIANT *outHardDiskFileList
+  [in]  VARIANT inAdditionalSearchPaths,
+  [out] VARIANT *outHardDiskFileList
 );
 ```
 
@@ -62,7 +70,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,8 +82,8 @@ The search paths used to retrieve the array of files will include those set prev
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -87,9 +95,9 @@ The search paths used to retrieve the array of files will include those set prev
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

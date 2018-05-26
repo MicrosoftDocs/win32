@@ -4,11 +4,13 @@ description: The Property object encapsulates a single property and contains no 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24c9cabe-463f-4e3a-a862-75608801ff10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 24c9cabe-463f-4e3a-a862-75608801ff10
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Property Object object MMC", "Property Object object MMC , described"]
+keywords:
+- Property Object object MMC
+- Property Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Property Object object
@@ -42,7 +47,7 @@ The **Property Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,8 +55,8 @@ The **Property Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -66,9 +71,9 @@ The **Property Object** object has these properties.
 [**Properties collection**](properties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

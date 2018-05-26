@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_SoftwareElementVersionCheck class represents a type of software element that must exist in the environment.'
+Description: The CIM\_SoftwareElementVersionCheck class represents a type of software element that must exist in the environment.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a1c0f0d5-2586-499c-bd82-bbb107570d81'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a1c0f0d5-2586-499c-bd82-bbb107570d81
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SoftwareElementVersionCheck class'
+title: CIM\_SoftwareElementVersionCheck class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SoftwareElementVersionCheck class
@@ -19,7 +22,7 @@ The **CIM\_SoftwareElementVersionCheck** class represents a type of software ele
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,20 +32,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{4D23FBD0-DB31-11d2-85FC-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_SoftwareElementVersionCheck : CIM_Check
 {
-  string  Caption;
-  string  CheckID;
+  string  Caption;
+  string  CheckID;
   boolean CheckMode;
-  string  Description;
-  string  LowerSoftwareElementVersion;
-  string  Name;
-  string  SoftwareElementID;
-  string  SoftwareElementName;
-  uint16  SoftwareElementState;
-  uint16  SoftwareElementStateDesired;
-  uint16  TargetOperatingSystem;
-  uint16  TargetOperatingSystemDesired;
-  string  UpperSoftwareElementVersion;
-  string  Version;
+  string  Description;
+  string  LowerSoftwareElementVersion;
+  string  Name;
+  string  SoftwareElementID;
+  string  SoftwareElementName;
+  uint16  SoftwareElementState;
+  uint16  SoftwareElementStateDesired;
+  uint16  TargetOperatingSystem;
+  uint16  TargetOperatingSystemDesired;
+  string  UpperSoftwareElementVersion;
+  string  Version;
 };
 ```
 
@@ -65,7 +68,7 @@ The **CIM\_SoftwareElementVersionCheck** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1434,8 +1437,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1449,9 +1452,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Check**](cim-check.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

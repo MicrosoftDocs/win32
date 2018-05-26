@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerZoneScope class
 description: Adds a zone scope to a DNS zone.
 audience: developer
-ms.assetid: '8245318b-d2b1-4ba5-b2b4-a91c69487f25'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8245318b-d2b1-4ba5-b2b4-a91c69487f25
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerZoneScope class", "PS_DnsServerZoneScope class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerZoneScope class
+- PS_DnsServerZoneScope class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerZoneScope class
@@ -28,12 +34,12 @@ Adds a zone scope to a DNS zone.
 
 ```mof
 uint32 Add(
-  [in]  string       ZoneName,
-  [in]  string       Name,
-  [in]  boolean      LoadExisting,
-  [in]  boolean      PassThru,
-  [in]  string       ComputerName,
-  [out] DnsZoneScope cmdletOutput
+  [in]  string       ZoneName,
+  [in]  string       Name,
+  [in]  boolean      LoadExisting,
+  [in]  boolean      PassThru,
+  [in]  string       ComputerName,
+  [out] DnsZoneScope cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ The [**DnsZoneScope**](dnszonescope.md) object that receives the zone scope.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ The [**DnsZoneScope**](dnszonescope.md) object that receives the zone scope.
 [**PS\_DnsServerZoneScope**](ps-dnsserverzonescope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Id property is a null-terminated string that contains a unique ID for the inbound fax message.'
-ms.assetid: '42003b93-f9ed-4337-9c5b-daf22320fb41'
-title: 'FaxIncomingMessage.Id property'
+---
+Description: The Id property is a null-terminated string that contains a unique ID for the inbound fax message.
+ms.assetid: 42003b93-f9ed-4337-9c5b-daf22320fb41
+title: FaxIncomingMessage.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.Id property
@@ -50,7 +55,7 @@ Note that this is the same value that identified the associated fax job when the
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

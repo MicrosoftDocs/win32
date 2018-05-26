@@ -1,8 +1,19 @@
 ---
 title: Description Section
 description: Description Section
-ms.assetid: '280a9a4d-935f-440d-a606-94aeba0007db'
-keywords: ["Windows Media Player Mobile skins,Description section", "skins,Description section", "creating skins,Description section", "writing code for skins,Description section", "Description section in skins", "skin definition files,Description section"]
+ms.assetid: 280a9a4d-935f-440d-a606-94aeba0007db
+keywords:
+- Windows Media Player Mobile skins,Description section
+- skins,Description section
+- creating skins,Description section
+- writing code for skins,Description section
+- Description section in skins
+- skin definition files,Description section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description Section

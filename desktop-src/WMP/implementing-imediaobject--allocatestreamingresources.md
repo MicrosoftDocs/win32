@@ -1,8 +1,19 @@
 ---
 title: Implementing IMediaObject AllocateStreamingResources
 description: Implementing IMediaObject AllocateStreamingResources
-ms.assetid: '630550fe-2cca-4bfa-a824-a355f7fc5e02'
-keywords: ["Windows Media Player plug-ins,Echo sample streaming resources", "plug-ins,Echo sample streaming resources", "digital signal processing plug-ins,Echo sample streaming resources", "DSP plug-ins,Echo sample streaming resources", "Echo DSP plug-in sample,streaming resources", "Echo DSP plug-in sample,delay buffer"]
+ms.assetid: 630550fe-2cca-4bfa-a824-a355f7fc5e02
+keywords:
+- Windows Media Player plug-ins,Echo sample streaming resources
+- plug-ins,Echo sample streaming resources
+- digital signal processing plug-ins,Echo sample streaming resources
+- DSP plug-ins,Echo sample streaming resources
+- Echo DSP plug-in sample,streaming resources
+- Echo DSP plug-in sample,delay buffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IMediaObject::AllocateStreamingResources

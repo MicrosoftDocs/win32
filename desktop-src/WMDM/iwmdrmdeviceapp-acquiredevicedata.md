@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDeviceApp AcquireDeviceData method
 description: The AcquireDeviceData method initializes or resets a device secure clock.
-ms.assetid: '2f1cfdb9-0f07-4bee-94aa-b33b039453d0'
-keywords: ["AcquireDeviceData method windows Media Device Manager", "AcquireDeviceData method windows Media Device Manager , IWMDRMDeviceApp interface", "IWMDRMDeviceApp interface windows Media Device Manager , AcquireDeviceData method"]
+ms.assetid: 2f1cfdb9-0f07-4bee-94aa-b33b039453d0
+keywords:
+- AcquireDeviceData method windows Media Device Manager
+- AcquireDeviceData method windows Media Device Manager , IWMDRMDeviceApp interface
+- IWMDRMDeviceApp interface windows Media Device Manager , AcquireDeviceData method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp::AcquireDeviceData method
@@ -23,10 +31,10 @@ The **AcquireDeviceData** method initializes or resets a device secure clock.
 
 ```C++
 HRESULT AcquireDeviceData(
-  [in]  IWMDMDevice    *pDevice,
-  [in]  IWMDMProgress3 *pProgressCallback,
-  [in]  DWORD          dwFlags,
-  [out] DWORD          *pdwStatus
+  [in]  IWMDMDevice    *pDevice,
+  [in]  IWMDMProgress3 *pProgressCallback,
+  [in]  DWORD          dwFlags,
+  [out] DWORD          *pdwStatus
 );
 ```
 
@@ -39,14 +47,14 @@ HRESULT AcquireDeviceData(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to an [**IWMDMDevice**](iwmdmdevice.md) interface for the device that will report metering data.
+Pointer to an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) interface for the device that will report metering data.
 
 </dd> <dt>
 
 *pProgressCallback* \[in\]
 </dt> <dd>
 
-Progress callback through which the application can track the progress of the event, or cancel the event. The progress is identified by the *EventId* parameter of [**IWMDMProgress3**](iwmdmprogress3.md) methods.
+Progress callback through which the application can track the progress of the event, or cancel the event. The progress is identified by the *EventId* parameter of [**IWMDMProgress3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress3?branch=master) methods.
 
 </dd> <dt>
 
@@ -64,7 +72,7 @@ A logical **OR** of one or both of the following flags, specifying what action t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -84,7 +92,7 @@ One of the following **DWORD** values specifying the status returned by the devi
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -98,18 +106,18 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S\_OK**</dt> </dl>                                                    | The method succeeded.<br/>                                                                                                    |
 | <dl> <dt>**DRM\_E\_INVALIDARG**</dt> </dl>                                       | One or more arguments are not valid.<br/>                                                                                     |
-| <dl> <dt>**NS\_E\_DEVICE\_NOT\_WMDRM\_DEVICE**</dt> </dl>                        | The specified device is not a Windows Media DRM–compatible device.<br/>                                                       |
+| <dl> <dt>**NS\_E\_DEVICE\_NOT\_WMDRM\_DEVICE**</dt> </dl>                        | The specified device is not a Windows Media DRM compatible device.<br/>                                                       |
 | <dl> <dt>**NS\_E\_DRM\_UNABLE\_TO\_GET\_SECURE\_CLOCK**</dt> </dl>               | Failed to retrieve secure clock challenge from the device or unable to retrieve the secure clock URL from the challenge.<br/> |
 | <dl> <dt>**NS\_E\_DRM\_UNABLE\_TO\_GET\_SECURE\_CLOCK\_FROM\_SERVER**</dt> </dl> | Failed to retrieve the secure clock response from the secure clock server.<br/>                                               |
 | <dl> <dt>**NS\_E\_DRM\_UNABLE\_TO\_SET\_SECURE\_CLOCK**</dt> </dl>               | Failed to send the secure clock challenge to the device, or the device failed to set the clock.<br/>                          |
 
 
 
- 
+ 
 
 ## Remarks
 
-This is an asynchronous method; the device must await the [**IWMDMProgress::End**](iwmdmprogress-end.md) callback for this operation before attempting to play any licensed content.
+This is an asynchronous method; the device must await the [**IWMDMProgress::End**](/windows/win32/mswmdm/nf-mswmdm-iwmdmprogress-end?branch=master) callback for this operation before attempting to play any licensed content.
 
 An application can learn if the device must have its clock reset or updated by calling [**IWMDRMDeviceApp::QueryDeviceStatus**](iwmdrmdeviceapp-querydevicestatus.md) or [**IWMDRMDeviceApp2::QueryDeviceStatus2**](iwmdrmdeviceapp2-querydevicestatus2.md).
 
@@ -133,18 +141,18 @@ Your application must have an Internet connection to enable it to acquire or res
 [**Handling Protected Content in the Application**](handling-protected-content-in-the-application.md)
 </dt> <dt>
 
-[**IWMDMDevice Interface**](iwmdmdevice.md)
+[**IWMDMDevice Interface**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master)
 </dt> <dt>
 
-[**IWMDMProgress3 Interface**](iwmdmprogress3.md)
+[**IWMDMProgress3 Interface**](/windows/win32/mswmdm/nn-mswmdm-iwmdmprogress3?branch=master)
 </dt> <dt>
 
 [**IWMDRMDeviceApp Interface**](iwmdrmdeviceapp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

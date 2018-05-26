@@ -1,8 +1,11 @@
 ---
 title: IMessengerGroup Name property
 description: Sets or retrieves the name of the group.
-ms.assetid: 'e68c27b7-b836-4757-9002-aeaed3fc2fa0'
-keywords: ["Name property Windows Messenger", "Name property Windows Messenger , IMessengerGroup interface", "IMessengerGroup interface Windows Messenger , Name property"]
+ms.assetid: e68c27b7-b836-4757-9002-aeaed3fc2fa0
+keywords:
+- Name property Windows Messenger
+- Name property Windows Messenger , IMessengerGroup interface
+- IMessengerGroup interface Windows Messenger , Name property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerGroup::Name property
 
-\[**Name** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Name** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves
 
@@ -30,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Name(
-                BSTR bstrName
+                BSTR bstrName
 );
 
 HRESULT get_Name(
-  [out, retval] BSTR *bstrName
+  [out, retval] BSTR *bstrName
 );
 ```
 
@@ -77,12 +85,12 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -90,8 +98,8 @@ The following table lists the error codes returned by this property.
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -105,9 +113,9 @@ The following table lists the error codes returned by this property.
 [**IMessengerGroup**](im-imessengergroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

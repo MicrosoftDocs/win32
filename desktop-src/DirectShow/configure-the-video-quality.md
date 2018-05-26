@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how an application can programmatically change the image and camera settings on a video capture device.'
-ms.assetid: 'f789db78-292e-4092-a5dc-1906845fb1dd'
+Description: This topic describes how an application can programmatically change the image and camera settings on a video capture device.
+ms.assetid: f789db78-292e-4092-a5dc-1906845fb1dd
 title: Configure the Video Quality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configure the Video Quality
@@ -26,13 +31,13 @@ Windows Driver Model (WDM) video cameras can support properties that control the
 -   Sharpness
 -   White balance
 
-These properties are controlled through the [**IAMVideoProcAmp**](iamvideoprocamp.md) interface. Use this interface as follows:
+These properties are controlled through the [**IAMVideoProcAmp**](/windows/win32/Strmif/nn-strmif-iamvideoprocamp?branch=master) interface. Use this interface as follows:
 
-1.  Call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the capture filter for the [**IAMVideoProcAmp**](iamvideoprocamp.md) interface.
-2.  For each property that you want to set, call the [**IAMVideoProcAmp::GetRange**](iamvideoprocamp-getrange.md) method. Properties are specified by the [**VideoProcAmpProperty**](videoprocampproperty.md) enumeration. If the **GetRange** method fails, it means the camera does not support that particular property.
-3.  If [**GetRange**](iamvideoprocamp-getrange.md) succeeds, it returns the range of supported values for the property, the default value, and the minimum increment.
-4.  To get the current value of a property, call [**IAMVideoProcAmp::Get**](iamvideoprocamp-get.md).
-5.  To set a property, call the [**IAMVideoProcAmp::Set**](iamvideoprocamp-set.md) method. To restore a property to its default value, call [**GetRange**](iamvideoprocamp-getrange.md) to find the default and pass that value to the **Set** method.
+1.  Call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the capture filter for the [**IAMVideoProcAmp**](/windows/win32/Strmif/nn-strmif-iamvideoprocamp?branch=master) interface.
+2.  For each property that you want to set, call the [**IAMVideoProcAmp::GetRange**](/windows/win32/Strmif/nf-strmif-iamvideoprocamp-getrange?branch=master) method. Properties are specified by the [**VideoProcAmpProperty**](/windows/win32/strmif/ne-strmif-tagvideoprocampproperty?branch=master) enumeration. If the **GetRange** method fails, it means the camera does not support that particular property.
+3.  If [**GetRange**](/windows/win32/Strmif/nf-strmif-iamvideoprocamp-getrange?branch=master) succeeds, it returns the range of supported values for the property, the default value, and the minimum increment.
+4.  To get the current value of a property, call [**IAMVideoProcAmp::Get**](/windows/win32/Strmif/nf-strmif-iamvideoprocamp-get?branch=master).
+5.  To set a property, call the [**IAMVideoProcAmp::Set**](/windows/win32/Strmif/nf-strmif-iamvideoprocamp-set?branch=master) method. To restore a property to its default value, call [**GetRange**](/windows/win32/Strmif/nf-strmif-iamvideoprocamp-getrange?branch=master) to find the default and pass that value to the **Set** method.
 
 You do not have to stop the filter graph when you set the properties.
 
@@ -82,7 +87,7 @@ else
 
 ## Camera Settings
 
-The [**IAMCameraControl**](iamcameracontrol.md) interface is similar to [**IAMVideoProcAmp**](iamvideoprocamp.md), but controls various setttings on the camera itself:
+The [**IAMCameraControl**](/windows/win32/Strmif/nn-strmif-iamcameracontrol?branch=master) interface is similar to [**IAMVideoProcAmp**](/windows/win32/Strmif/nn-strmif-iamvideoprocamp?branch=master), but controls various setttings on the camera itself:
 
 -   Exposure
 -   Focus
@@ -92,12 +97,12 @@ The [**IAMCameraControl**](iamcameracontrol.md) interface is similar to [**IAMVi
 -   Tilt
 -   Zoom
 
-To use this interface, follow the same steps used for [**IAMVideoProcAmp**](iamvideoprocamp.md):
+To use this interface, follow the same steps used for [**IAMVideoProcAmp**](/windows/win32/Strmif/nn-strmif-iamvideoprocamp?branch=master):
 
-1.  Query the capture filter for the [**IAMCameraControl**](iamcameracontrol.md).
-2.  Call [**IAMCameraControl::GetRange**](iamcameracontrol-getrange.md) to find which settings are supported, and the possible range for each settings.
-3.  Call [**IAMCameraControl::Get**](iamcameracontrol-get.md) to get the current value of a setting.
-4.  Call [**IAMCameraControl::Set**](iamcameracontrol-set.md) to set the value.
+1.  Query the capture filter for the [**IAMCameraControl**](/windows/win32/Strmif/nn-strmif-iamcameracontrol?branch=master).
+2.  Call [**IAMCameraControl::GetRange**](/windows/win32/Strmif/nf-strmif-iamcameracontrol-getrange?branch=master) to find which settings are supported, and the possible range for each settings.
+3.  Call [**IAMCameraControl::Get**](/windows/win32/Strmif/nf-strmif-iamcameracontrol-get?branch=master) to get the current value of a setting.
+4.  Call [**IAMCameraControl::Set**](/windows/win32/Strmif/nf-strmif-iamcameracontrol-set?branch=master) to set the value.
 
 ## Related topics
 

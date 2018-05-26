@@ -1,12 +1,18 @@
 ---
 title: TextureCubeArray GatherBlue methods
 description: Samples a texture and returns the blue component.
-ms.assetid: '709EF549-20F6-44E1-8E8C-1FF71C259FC7'
-keywords: ["GatherBlue methods HLSL"]
+ms.assetid: 709EF549-20F6-44E1-8E8C-1FF71C259FC7
+keywords:
+- GatherBlue methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray::GatherBlue methods
@@ -30,9 +36,9 @@ Samples a texture and returns the blue component.
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

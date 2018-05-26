@@ -1,8 +1,11 @@
 ---
 title: DeleteObject method of the MSFT\_StorageTier class
 description: Deletes the storage tier.
-ms.assetid: '4F78C506-173D-4747-BC81-C18D9AA4BF72'
-keywords: ["DeleteObject method Windows Storage Management API", "DeleteObject method Windows Storage Management API , MSFT_StorageTier class", "MSFT_StorageTier class Windows Storage Management API , DeleteObject method"]
+ms.assetid: 4F78C506-173D-4747-BC81-C18D9AA4BF72
+keywords:
+- DeleteObject method Windows Storage Management API
+- DeleteObject method Windows Storage Management API , MSFT_StorageTier class
+- MSFT_StorageTier class Windows Storage Management API , DeleteObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteObject method of the MSFT\_StorageTier class
@@ -22,9 +30,9 @@ Deletes the storage tier. This method is available only when the **SupportsStora
 
 ```mof
 UInt32 DeleteObject(
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -42,7 +50,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -105,8 +113,8 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -119,9 +127,9 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 [**MSFT\_StorageTier**](msft-storagetier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

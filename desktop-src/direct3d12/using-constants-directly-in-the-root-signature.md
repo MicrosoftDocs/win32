@@ -1,7 +1,12 @@
 ---
 title: Using Constants Directly in the Root Signature
 description: Applications can define root constants in the root signature, each as a set of 32-bit values. They appear in High Level Shading Language (HLSL) as a constant buffer. Note that constant buffers for historical reasons are viewed as sets of 4x32-bit values.
-ms.assetid: 'F9A2640F-D1FA-481C-BDF1-B15372E3C512'
+ms.assetid: F9A2640F-D1FA-481C-BDF1-B15372E3C512
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Constants Directly in the Root Signature
@@ -26,14 +31,14 @@ Constants can be partially set. For example, if the root signature defines four 
 
 When setting constants be careful of the constant buffer layout expected by the shader. It is possible that constants are padded to `vec4` boundaries, for example. To verify the layout expected, check the reflection information from the HLSL shader.
 
-The following APIs (from the [**ID3D12GraphicsCommandList**](id3d12graphicscommandlist.md) interface) are for setting constants directly on the root signature:
+The following APIs (from the [**ID3D12GraphicsCommandList**](/windows/win32/d3d12/nn-d3d12-id3d12graphicscommandlist?branch=master) interface) are for setting constants directly on the root signature:
 
--   [**SetGraphicsRoot32BitConstant**](id3d12graphicscommandlist-setgraphicsroot32bitconstant.md)
--   [**SetGraphicsRoot32BitConstants**](id3d12graphicscommandlist-setgraphicsroot32bitconstants.md)
--   [**SetComputeRoot32BitConstant**](id3d12graphicscommandlist-setcomputeroot32bitconstant.md)
--   [**SetComputeRoot32BitConstants**](id3d12graphicscommandlist-setcomputeroot32bitconstants.md)
+-   [**SetGraphicsRoot32BitConstant**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstant?branch=master)
+-   [**SetGraphicsRoot32BitConstants**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsroot32bitconstants?branch=master)
+-   [**SetComputeRoot32BitConstant**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstant?branch=master)
+-   [**SetComputeRoot32BitConstants**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstants?branch=master)
 
-Also, refer to the [**D3D12\_ROOT\_CONSTANTS**](d3d12-root-constants.md) structure.
+Also, refer to the [**D3D12\_ROOT\_CONSTANTS**](/windows/win32/D3D12/ns-d3d12-d3d12_root_constants?branch=master) structure.
 
 ## Related topics
 

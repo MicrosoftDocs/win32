@@ -1,12 +1,17 @@
 ---
 title: Traversing the Thread List
 description: The following example function lists running threads for a specified process.
-ms.assetid: '67194627-8239-46d2-93e7-eb8e5f6c56e6'
+ms.assetid: 67194627-8239-46d2-93e7-eb8e5f6c56e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Traversing the Thread List
 
-The following example function lists running threads for a specified process. First, the `ListProcessThreads` function takes a snapshot of the currently executing threads in the system using [**CreateToolhelp32Snapshot**](createtoolhelp32snapshot.md), and then it walks through the list recorded in the snapshot using the [**Thread32First**](thread32first.md) and [**Thread32Next**](thread32next.md) functions. The parameter for `ListProcessThreads` is the process identifier of the process whose threads are to be listed.
+The following example function lists running threads for a specified process. First, the `ListProcessThreads` function takes a snapshot of the currently executing threads in the system using [**CreateToolhelp32Snapshot**](/windows/win32/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot?branch=master), and then it walks through the list recorded in the snapshot using the [**Thread32First**](/windows/win32/TlHelp32/nf-tlhelp32-thread32first?branch=master) and [**Thread32Next**](/windows/win32/TlHelp32/nf-tlhelp32-thread32next?branch=master) functions. The parameter for `ListProcessThreads` is the process identifier of the process whose threads are to be listed.
 
 
 ```C++

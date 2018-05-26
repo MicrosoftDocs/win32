@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6c5ceb65-128c-4fb1-b6a5-1af298656f69'
-title: 'System.Music.Mood'
+Description: .
+ms.assetid: 6c5ceb65-128c-4fb1-b6a5-1af298656f69
+title: System.Music.Mood
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.Mood

@@ -4,10 +4,13 @@ description: This topic describes a Central Access Rule (CAR).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0CE32378-C583-45D2-9960-F2AF3F78D84B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 0CE32378-C583-45D2-9960-F2AF3F78D84B
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to setup a central access rule

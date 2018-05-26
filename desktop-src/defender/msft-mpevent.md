@@ -1,8 +1,10 @@
 ---
 title: MSFT\_MpEvent class
 description: Windows Defender Event Indication Class.
-ms.assetid: 'a565e4e7-b7b7-45ce-90b4-f69f3ef9bc58'
-keywords: ["MSFT_MpEvent class", "MSFT_MpEvent class, described"]
+ms.assetid: a565e4e7-b7b7-45ce-90b4-f69f3ef9bc58
+keywords:
+- MSFT_MpEvent class
+- MSFT_MpEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpEvent class
@@ -31,13 +38,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_MpEvent
 {
-  uint32   CategoryDiscriminant;
-  uint32   ScanNotificationsValue;
-  uint32   ThreatNotificationsValue;
-  uint32   SignatureNotificationsValue;
-  uint32   ComputerNotificationsValue;
+  uint32   CategoryDiscriminant;
+  uint32   ScanNotificationsValue;
+  uint32   ThreatNotificationsValue;
+  uint32   SignatureNotificationsValue;
+  uint32   ComputerNotificationsValue;
   DateTime NotificationTime;
-  uint32   AdditionalData;
+  uint32   AdditionalData;
 };
 ```
 
@@ -150,17 +157,17 @@ Detailed Threat Notifications.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

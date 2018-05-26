@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C constant declarations for XML schema tables for message types.'
-ms.assetid: '17556708-9350-444f-84a3-d982270b31d1'
+Description: Generates C constant declarations for XML schema tables for message types.
+ms.assetid: 17556708-9350-444f-84a3-d982270b31d1
 title: messageTypeDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # messageTypeDeclarations element
@@ -60,14 +65,14 @@ Schema tables are referenced by port type definitions. This element is therefore
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

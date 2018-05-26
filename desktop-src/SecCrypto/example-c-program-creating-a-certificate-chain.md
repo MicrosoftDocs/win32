@@ -1,7 +1,12 @@
 ---
-Description: 'The following example creates and installs a nondefault certificate chain engine. The engine is used to build certificate chains for each of the certificates in a certificate store.'
-ms.assetid: '960f2bb9-130f-494f-9af0-0ab8ae3eb6e2'
-title: 'Example C Program: Creating a Certificate Chain'
+Description: The following example creates and installs a nondefault certificate chain engine. The engine is used to build certificate chains for each of the certificates in a certificate store.
+ms.assetid: 960f2bb9-130f-494f-9af0-0ab8ae3eb6e2
+title: Example C Program Creating a Certificate Chain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Creating a Certificate Chain
@@ -10,14 +15,14 @@ The following example creates and installs a nondefault certificate chain engine
 
 This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Preparing to create a nondefault certificate chain engine by declaring and initializing a [**CERT\_CHAIN\_ENGINE\_CONFIG**](cert-chain-engine-config.md) data structure.
--   Creating the search engine using [**CertCreateCertificateChainEngine**](certcreatecertificatechainengine.md).
--   Using [**CertOpenSystemStore**](certopensystemstore.md) to open the My system store.
--   Retrieving all of the certificates from the open store using [**CertEnumCertificatesInStore**](certenumcertificatesinstore.md) in a loop.
--   For each certificate in the open store, retrieving the subject name from the certificate using [**CertGetNameString**](certgetnamestring.md).
--   Building a certificate chain for each certificate using [**CertGetCertificateChain**](certgetcertificatechain.md).
--   Creating a duplicate of the certificate chain using [**CertDuplicateCertificateChain**](certduplicatecertificatechain.md).
--   Using [**CertFreeCertificateChain**](certfreecertificatechain.md) to release each chain before the next chain is built.
+-   Preparing to create a nondefault certificate chain engine by declaring and initializing a [**CERT\_CHAIN\_ENGINE\_CONFIG**](/windows/win32/Wincrypt/ns-wincrypt-_cert_chain_engine_config?branch=master) data structure.
+-   Creating the search engine using [**CertCreateCertificateChainEngine**](/windows/win32/Wincrypt/nf-wincrypt-certcreatecertificatechainengine?branch=master).
+-   Using [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master) to open the My system store.
+-   Retrieving all of the certificates from the open store using [**CertEnumCertificatesInStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatesinstore?branch=master) in a loop.
+-   For each certificate in the open store, retrieving the subject name from the certificate using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   Building a certificate chain for each certificate using [**CertGetCertificateChain**](/windows/win32/Wincrypt/nf-wincrypt-certgetcertificatechain?branch=master).
+-   Creating a duplicate of the certificate chain using [**CertDuplicateCertificateChain**](/windows/win32/Wincrypt/nf-wincrypt-certduplicatecertificatechain?branch=master).
+-   Using [**CertFreeCertificateChain**](/windows/win32/Wincrypt/nf-wincrypt-certfreecertificatechain?branch=master) to release each chain before the next chain is built.
 
 
 ```C++

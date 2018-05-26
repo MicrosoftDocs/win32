@@ -1,16 +1,19 @@
 ---
 title: CreateShare method of the MSFT\_SmbShare class
-description: Creates a new share and allows the creator to specify initial access rights that determine who can and can’t access the newly created share.
+description: Creates a new share and allows the creator to specify initial access rights that determine who can and can t access the newly created share.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d411f1f-e167-4bb6-aaf9-22ced0e43508'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5d411f1f-e167-4bb6-aaf9-22ced0e43508
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateShare method SMB", "CreateShare method SMB , MSFT_SmbShare class", "MSFT_SmbShare class SMB , CreateShare method"]
+keywords:
+- CreateShare method SMB
+- CreateShare method SMB , MSFT_SmbShare class
+- MSFT_SmbShare class SMB , CreateShare method
 topic_type:
 - apiref
 api_name:
@@ -19,34 +22,37 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateShare method of the MSFT\_SmbShare class
 
-Creates a new share and allows the creator to specify initial access rights that determine who can and can’t access the newly created share.
+Creates a new share and allows the creator to specify initial access rights that determine who can and can t access the newly created share.
 
 ## Syntax
 
 
 ```mof
 uint32 CreateShare(
-  [in]  string        Name,
-  [in]  string        ScopeName,
-  [in]  string        Path,
-  [in]  string        Description,
-  [in]  uint32        ConcurrentUserLimit,
-  [in]  uint32        FolderEnumerationMode,
-  [in]  uint32        CachingMode,
-  [in]  boolean       Temporary,
-  [in]  boolean       ContinuouslyAvailable,
-  [in]  uint32        CATimeout,
-  [in]  boolean       EncryptData,
-  [in]  string        FullAccess[],
-  [in]  string        ChangeAccess[],
-  [in]  string        ReadAccess[],
-  [in]  string        NoAccess[],
-  [in]  string        SecurityDescriptor,
-  [out] MSFT_SmbShare CreatedShare
+  [in]  string        Name,
+  [in]  string        ScopeName,
+  [in]  string        Path,
+  [in]  string        Description,
+  [in]  uint32        ConcurrentUserLimit,
+  [in]  uint32        FolderEnumerationMode,
+  [in]  uint32        CachingMode,
+  [in]  boolean       Temporary,
+  [in]  boolean       ContinuouslyAvailable,
+  [in]  uint32        CATimeout,
+  [in]  boolean       EncryptData,
+  [in]  string        FullAccess[],
+  [in]  string        ChangeAccess[],
+  [in]  string        ReadAccess[],
+  [in]  string        NoAccess[],
+  [in]  string        SecurityDescriptor,
+  [out] MSFT_SmbShare CreatedShare
 );
 ```
 
@@ -230,7 +236,7 @@ An array of strings containing the account names of users to be granted no acces
 
 The name of the security descriptor of the share.
 
-**Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2012 R2 and Windows 8.1.
 
 </dd> <dt>
 
@@ -247,8 +253,8 @@ An instance of the [**MSFT\_SmbShare**](msft-smbshare.md) class that represents 
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported client<br/> | Windows 8<br/>                                                                        |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Shobjidl\_core.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl>     |
@@ -266,9 +272,9 @@ An instance of the [**MSFT\_SmbShare**](msft-smbshare.md) class that represents 
 [**NetShareAdd**](https://msdn.microsoft.com/library/windows/desktop/bb525384)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

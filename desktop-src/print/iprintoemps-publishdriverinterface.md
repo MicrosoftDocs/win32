@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::PublishDriverInterface method allows a rendering plug-in for Pscript5 to obtain the Pscript5 driver''s IPrintCorePS2, IPrintOemDriverPS, or IPrintCoreHelperPS interface.'
-ms.assetid: 'f878a674-7c08-4a7a-ab00-6c79f02566be'
-title: 'IPrintOemPS::PublishDriverInterface method'
+---
+Description: The IPrintOemPSPublishDriverInterface method allows a rendering plug-in for Pscript5 to obtain the Pscript5 drivers IPrintCorePS2, IPrintOemDriverPS, or IPrintCoreHelperPS interface.
+ms.assetid: f878a674-7c08-4a7a-ab00-6c79f02566be
+title: IPrintOemPSPublishDriverInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::PublishDriverInterface method

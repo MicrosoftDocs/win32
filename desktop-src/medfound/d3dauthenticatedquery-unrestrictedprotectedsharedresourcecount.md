@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of protected shared resources that can be opened by any process without restrictions.'
-ms.assetid: 'afbd7bb9-de71-4992-919e-e1517228dc69'
-title: 'D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT'
+---
+Description: Returns the number of protected shared resources that can be opened by any process without restrictions.
+ms.assetid: afbd7bb9-de71-4992-919e-e1517228dc69
+title: D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT
@@ -46,7 +51,7 @@ The only channel type that supports this query is **D3DAUTHENTICATEDCHANNEL\_DRI
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

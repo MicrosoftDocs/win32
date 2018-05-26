@@ -1,13 +1,16 @@
 ---
-Description: 'Manages a collection of TemplateLocaleName objects.'
+Description: Manages a collection of TemplateLocaleName objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '440b7e05-efe8-4fc4-974e-1312edbba406'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 440b7e05-efe8-4fc4-974e-1312edbba406
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TemplateLocaleNameCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TemplateLocaleNameCollection object
@@ -40,7 +43,7 @@ The **TemplateLocaleNameCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +58,7 @@ The **TemplateLocaleNameCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -163,7 +166,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -181,9 +184,9 @@ END SUB
 [**TemplateLocaleName**](templatelocalename-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

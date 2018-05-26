@@ -1,15 +1,18 @@
 ---
-Description: 'Note  This method is deprecated. Instead we recommend that you use the RequestStateChange method. Shuts down a job.'
+Description: Note  This method is deprecated. Instead we recommend that you use the RequestStateChange method. Shuts down a job.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1c218da9-49c2-4f6e-9484-ad5a3efdb89c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1c218da9-49c2-4f6e-9484-ad5a3efdb89c
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'KillJob method of the CIM\_Job class'
+title: KillJob method of the CIM\_Job class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the CIM\_Job class
@@ -17,7 +20,7 @@ title: 'KillJob method of the CIM\_Job class'
 > [!Note]  
 > This method is deprecated. Instead we recommend that you use the **RequestStateChange** method.
 
- 
+ 
 
 Shuts down a job.
 
@@ -26,7 +29,7 @@ Shuts down a job.
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -44,7 +47,7 @@ uint32 KillJob(
 > [!Note]  
 > This parameter takes precedence of the **DeleteOnCompletion** property of the **CIM\_Job** class.
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,10 +78,10 @@ Returns 0 on success, otherwise returns a WMI error code.
 **Not Found** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -88,7 +91,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -102,9 +105,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_Job**](cim-job.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

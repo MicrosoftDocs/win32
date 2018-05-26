@@ -1,7 +1,12 @@
 ---
-Description: 'The following API elements are new for Windows 7 and Windows Server 2008 R2.'
-ms.assetid: '0c2152cf-cea3-4682-9acd-8dd57d5e33ca'
-title: 'V (New for Windows 7)'
+Description: The following API elements are new for Windows 7 and Windows Server 2008 R2.
+ms.assetid: 0c2152cf-cea3-4682-9acd-8dd57d5e33ca
+title: V (New for Windows 7)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # V (New for Windows 7)

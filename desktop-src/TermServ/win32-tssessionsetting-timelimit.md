@@ -4,11 +4,14 @@ description: Sets the maximum time allocated to the specified session-limit type
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '55194197-ffb6-49ae-827a-478ced867ab0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 55194197-ffb6-49ae-827a-478ced867ab0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TimeLimit method Remote Desktop Services", "TimeLimit method Remote Desktop Services , Win32_TSSessionSetting class", "Win32_TSSessionSetting class Remote Desktop Services , TimeLimit method"]
+keywords:
+- TimeLimit method Remote Desktop Services
+- TimeLimit method Remote Desktop Services , Win32_TSSessionSetting class
+- Win32_TSSessionSetting class Remote Desktop Services , TimeLimit method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TimeLimit method of the Win32\_TSSessionSetting class
@@ -28,8 +34,8 @@ Sets the maximum time allocated to the specified session-limit type.
 
 ```mof
 uint32 TimeLimit(
-  [in] string SessionLimitType,
-  [in] uint32 ValueLimit
+  [in] string SessionLimitType,
+  [in] uint32 ValueLimit
 );
 ```
 
@@ -100,8 +106,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -115,9 +121,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionSetting**](win32-tssessionsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Packing Rules for Constant Variables
 description: Packing rules dictate how tightly data can be arranged when it is stored.
-ms.assetid: '5c399342-06e1-47d2-8ecf-e093ed04be50'
+ms.assetid: 5c399342-06e1-47d2-8ecf-e093ed04be50
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packing Rules for Constant Variables

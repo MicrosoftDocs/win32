@@ -1,8 +1,11 @@
 ---
 title: ReferenceCollection AddItem method
 description: Creates an IssueReference and adds it to the ReferenceCollection.
-ms.assetid: 'F737C445-9386-4BAA-9D46-2571E91DCB97'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , ReferenceCollection interface", "ReferenceCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: F737C445-9386-4BAA-9D46-2571E91DCB97
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , ReferenceCollection interface
+- ReferenceCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReferenceCollection::AddItem method
@@ -22,8 +30,8 @@ Creates an [**IssueReference**](issuereference-struct.md) and adds it to the **R
 
 ```C++
 virtual HRESULT AddItem(
-  [in, optional]  LPCWSTR        attributeIssueID,
-  [out, optional] IssueReference **issueReference
+  [in, optional]  LPCWSTR        attributeIssueID,
+  [out, optional] IssueReference **issueReference
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ The issue ID is the value of attribute **IssueID** of element **IssueReference**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ The issue ID is the value of attribute **IssueID** of element **IssueReference**
 [**ReferenceCollection**](referencecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

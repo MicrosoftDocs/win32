@@ -1,7 +1,12 @@
 ---
-Description: 'Pixel shader capability flags.'
-ms.assetid: '41a8939f-eba5-47ca-8628-94b606b6f43d'
-title: 'D3DD3DPSHADERCAPS2\_0'
+Description: Pixel shader capability flags.
+ms.assetid: 41a8939f-eba5-47ca-8628-94b606b6f43d
+title: D3DD3DPSHADERCAPS2\_0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DD3DPSHADERCAPS2\_0
@@ -31,7 +36,7 @@ Pixel shader capability flags.
 
  
 
-These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 
@@ -53,7 +58,7 @@ These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](d3dc
 [Direct3D Constants](dx9-graphics-reference-d3d-constants.md)
 </dt> <dt>
 
-[**D3DPSHADERCAPS2\_0**](d3dpshadercaps2-0.md)
+[**D3DPSHADERCAPS2\_0**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0?branch=master)
 </dt> </dl>
 
  

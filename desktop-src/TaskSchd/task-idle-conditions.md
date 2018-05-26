@@ -1,8 +1,17 @@
 ---
 title: Task Idle Conditions
 description: A task can be handled in several ways when the computer enters an idle state. This includes defining an idle trigger or setting the idle conditions for when the task starts.
-ms.assetid: '1e480681-b77a-48fe-a732-dd1591eaa08d'
-keywords: ["idle conditions Task Scheduler", "idle conditions Task Scheduler , discussion", "creating idle triggers Task Scheduler", "idle triggers Task Scheduler"]
+ms.assetid: 1e480681-b77a-48fe-a732-dd1591eaa08d
+keywords:
+- idle conditions Task Scheduler
+- idle conditions Task Scheduler , discussion
+- creating idle triggers Task Scheduler
+- idle triggers Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Idle Conditions
@@ -35,7 +44,7 @@ A task can be started when the computer enters an idle state by defining an idle
 
 An idle trigger will only trigger a task action if the computer enters an idle state after the start boundary of the trigger.
 
-An application can define an idle trigger by using the [**IIdleTrigger**](iidletrigger.md) interface.
+An application can define an idle trigger by using the [**IIdleTrigger**](/windows/win32/taskschd/?branch=master) interface.
 
 If reading or writing XML, the idle trigger is specified by the [**IdleTrigger**](taskschedulerschema-idletrigger-triggergroup-element.md) element of the Task Scheduler schema.
 
@@ -56,11 +65,11 @@ The following list describes the idle conditions:
 
 For example, if a task is set to start only if the computer is idle for 30 minutes, and the task waits for the computer to be idle for 10 minutes, then the task will launch in 5 minutes only if the computer has been idle for 25 minutes prior to the time the trigger was activated. The task will not start if the computer enters an idle state 5 minutes after the trigger is activated.
 
-By default, a task [**DisallowStartIfOnBatteries**](itasksettings-disallowstartifonbatteries.md) property is set to true, which means the Task Scheduler service will not run tasks that are triggered by an idle trigger (or a trigger with idle conditions) when a computer is running on battery power. You can change this behavior by setting the **DisallowStartIfOnBatteries** property to false.
+By default, a task [**DisallowStartIfOnBatteries**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_disallowstartifonbatteries?branch=master) property is set to true, which means the Task Scheduler service will not run tasks that are triggered by an idle trigger (or a trigger with idle conditions) when a computer is running on battery power. You can change this behavior by setting the **DisallowStartIfOnBatteries** property to false.
 
-If a task is triggered by an idle trigger, then the [**WaitTimeout**](iidlesettings-waittimeout.md) property of the [**IIdleSettings**](iidlesettings.md) interface ([**IdleSettings**](idlesettings.md) for scripting) is ignored.
+If a task is triggered by an idle trigger, then the [**WaitTimeout**](/windows/win32/taskschd/nf-taskschd-iidlesettings-get_waittimeout?branch=master) property of the [**IIdleSettings**](/windows/win32/taskschd/nn-taskschd-iidlesettings?branch=master) interface ([**IdleSettings**](idlesettings.md) for scripting) is ignored.
 
-Applications can control the idle conditions by setting the properties in the [**IIdleSettings**](iidlesettings.md) and [**IIdleTrigger**](iidletrigger.md) interfaces.
+Applications can control the idle conditions by setting the properties in the [**IIdleSettings**](/windows/win32/taskschd/nn-taskschd-iidlesettings?branch=master) and [**IIdleTrigger**](/windows/win32/taskschd/?branch=master) interfaces.
 
 If reading or writing XML, these conditions are specified in the [**Settings**](taskschedulerschema-settings-tasktype-element.md) element of the Task Scheduler schema.
 
@@ -68,8 +77,8 @@ If reading or writing XML, these conditions are specified in the [**Settings**](
 
 If the computer is cycling in and out of the idle state, you can terminate and restart the task using the following idle conditions. To terminate and restart a task, both properties and elements must be set to True:
 
--   To terminate the task when the idle condition ends, set the [**StopOnIdleEnd**](iidlesettings-stoponidleend.md) property or the [**StopOnIdleEnd**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md) element to True.
--   To restart the task when the computer cycles into the idle condition again, set the [**RestartOnIdle**](iidlesettings-restartonidle.md) property or the [**RestartOnIdle**](taskschedulerschema-restartonidle-idlesettingstype-element.md) element to True.
+-   To terminate the task when the idle condition ends, set the [**StopOnIdleEnd**](/windows/win32/taskschd/nf-taskschd-iidlesettings-get_stoponidleend?branch=master) property or the [**StopOnIdleEnd**](taskschedulerschema-terminateonidleend-idlesettingstype-element.md) element to True.
+-   To restart the task when the computer cycles into the idle condition again, set the [**RestartOnIdle**](/windows/win32/taskschd/nf-taskschd-iidlesettings-get_restartonidle?branch=master) property or the [**RestartOnIdle**](taskschedulerschema-restartonidle-idlesettingstype-element.md) element to True.
 
  
 

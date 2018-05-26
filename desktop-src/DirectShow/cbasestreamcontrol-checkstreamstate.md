@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckStreamState method determines whether a media sample should be delivered or discarded.'
-ms.assetid: '1533f4b9-e13e-458b-9614-96d733cef4ed'
-title: 'CBaseStreamControl.CheckStreamState method'
+Description: The CheckStreamState method determines whether a media sample should be delivered or discarded.
+ms.assetid: 1533f4b9-e13e-458b-9614-96d733cef4ed
+title: CBaseStreamControl.CheckStreamState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.CheckStreamState method
@@ -13,7 +18,7 @@ The `CheckStreamState` method determines whether a media sample should be delive
 
 ```C++
 enum CheckStreamState(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ enum CheckStreamState(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,15 +48,15 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 Call this method when your pin receives a sample. Deliver the sample only if the return value is STREAM\_FLOWING. If the return value is STREAM\_DISCARDING, discard the sample.
 
-If the pin discards any samples, it should mark the next sample that it delivers as a discontinuity, by calling the [**IMediaSample::SetDiscontinuity**](imediasample-setdiscontinuity.md) method.
+If the pin discards any samples, it should mark the next sample that it delivers as a discontinuity, by calling the [**IMediaSample::SetDiscontinuity**](/windows/win32/Strmif/nf-strmif-imediasample-setdiscontinuity?branch=master) method.
 
-If your filter implements the [**IAMDroppedFrames**](iamdroppedframes.md) interface to count how many frames it drops, do not count a discarded frame as a dropped frame.
+If your filter implements the [**IAMDroppedFrames**](/windows/win32/Strmif/nn-strmif-iamdroppedframes?branch=master) interface to count how many frames it drops, do not count a discarded frame as a dropped frame.
 
 When the return value is STREAM\_DISCARDING, the method blocks until the reference time reaches the sample's start time. This prevents your pin from discarding samples too quickly. If the filter is paused, the wait time is infinite, until the filter runs, stops, or flushes data. (Filter state changes and streaming happen on separate threads, so this does not cause any deadlock.)
 
@@ -113,9 +118,9 @@ CMyPin::Receive(IMediaSample *pSample)
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

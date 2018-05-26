@@ -1,7 +1,12 @@
 ---
-title: New features and enhancement in Windows 8.1 and Windows Server 2012 R2
-description: New features and enhancement in Windows 8.1 and Windows Server 2012 R2
-ms.assetid: '24473B59-330A-41B1-BCC0-0DDDF06D9D1D'
+title: New features and enhancement in Windows 8.1 and Windows Server 2012 R2
+description: New features and enhancement in Windows 8.1 and Windows Server 2012 R2
+ms.assetid: 24473B59-330A-41B1-BCC0-0DDDF06D9D1D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New features and enhancement in Windows 8.1 and Windows Server 2012 R2
@@ -21,11 +26,11 @@ This section of the document describes enhancements and new features that can im
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

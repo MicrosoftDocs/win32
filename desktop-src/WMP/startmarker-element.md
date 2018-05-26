@@ -1,14 +1,20 @@
 ---
 title: STARTMARKER Element
 description: The STARTMARKER element specifies a marker from which Windows Media Player will start rendering the stream.
-ms.assetid: 'b5c2422b-a59c-43f7-bac3-5722418192dc'
-keywords: ["STARTMARKER Element Windows Media Player"]
+ms.assetid: b5c2422b-a59c-43f7-bac3-5722418192dc
+keywords:
+- STARTMARKER Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - STARTMARKER Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STARTMARKER Element
@@ -43,7 +49,7 @@ The name of a named marker in the index. The default value is the beginning of o
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +93,9 @@ If the marker specified by a **STARTMARKER** element occurs later in the stream 
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

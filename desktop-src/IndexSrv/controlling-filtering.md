@@ -1,7 +1,12 @@
 ---
 title: Controlling Filtering
 description: Controlling Filtering
-ms.assetid: 'b33015d6-1eee-4df8-a9c7-834724b96ef2'
+ms.assetid: b33015d6-1eee-4df8-a9c7-834724b96ef2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling Filtering

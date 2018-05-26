@@ -1,7 +1,12 @@
 ---
 title: Microsoft TV Technologies System Requirements
 description: Microsoft TV Technologies System Requirements
-ms.assetid: '974df6c6-eb11-4ec0-8a22-c755d0f553d2'
+ms.assetid: 974df6c6-eb11-4ec0-8a22-c755d0f553d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft TV Technologies System Requirements

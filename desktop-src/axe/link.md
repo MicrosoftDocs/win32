@@ -1,14 +1,20 @@
 ---
 title: Link element
 description: A hyperlink to more information about this solution.
-ms.assetid: '2BBF6382-514E-4F04-AA2A-C62C7C824F05'
-keywords: ["Link element Access Execution Engine"]
+ms.assetid: 2BBF6382-514E-4F04-AA2A-C62C7C824F05
+keywords:
+- Link element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Link
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link element
@@ -83,9 +89,9 @@ A hyperlink to more information about this solution. Source for this element is 
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

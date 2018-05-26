@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '9f0b91c4-0364-4c73-b97f-86703ca3ef74'
-title: 'CBaseWindow.CBaseWindow constructor'
+Description: Constructor method.
+ms.assetid: 9f0b91c4-0364-4c73-b97f-86703ca3ef74
+title: CBaseWindow.CBaseWindow constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.CBaseWindow constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CBaseWindow(
-   BOOL bDoGetDC = TRUE,
-   BOOL bPostToDestroy = FALSE
+   BOOL bDoGetDC = TRUE,
+   BOOL bPostToDestroy = FALSE
 );
 ```
 
@@ -62,9 +67,9 @@ If the value of the *bDoGetDC* parameter is **TRUE**, the `CBaseWindow` object r
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

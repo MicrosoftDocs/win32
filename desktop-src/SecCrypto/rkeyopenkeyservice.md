@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RKeyOpenKeyService function is not supported.'
-ms.assetid: '3af18cf7-bc98-4ebc-a62c-7234e9fbddaa'
+---
+Description: The RKeyOpenKeyService function is not supported.
+ms.assetid: 3af18cf7-bc98-4ebc-a62c-7234e9fbddaa
 title: RKeyOpenKeyService function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RKeyOpenKeyService function

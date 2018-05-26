@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer is the recommended solution for the installation and setup of applications on Windows.'
-ms.assetid: '13f41020-5275-44cd-b26b-f45483700d8a'
-title: 'Role-based Guide to Windows Installer Documentation'
+Description: Windows Installer is the recommended solution for the installation and setup of applications on Windows.
+ms.assetid: 13f41020-5275-44cd-b26b-f45483700d8a
+title: Role-based Guide to Windows Installer Documentation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Role-based Guide to Windows Installer Documentation
@@ -70,7 +75,7 @@ Application developers create applications that call the Windows Installer appli
     -   [Installing Win32 Assemblies for the Private Use of an Application on Windows XP](installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md)
     -   [MsiAssembly Table](msiassembly-table.md)
     -   [MsiAssemblyName Table](msiassemblyname-table.md)
-    -   [**MsiProvideAssembly**](msiprovideassembly.md)
+    -   [**MsiProvideAssembly**](/windows/win32/Msi/nf-msi-msiprovideassemblya?branch=master)
     -   [**MsiWin32AssemblySupport Property**](msiwin32assemblysupport.md)
     -   [**MsiNetAssemblySupport Property**](msinetassemblysupport.md)
     -   [**Isolated Components**](isolated-components.md)
@@ -379,17 +384,17 @@ Setup Authors create Windows Installer packages (.msi files) that contain the se
     -   [Authoring a Conditional "Please Wait . . ." Message Box](authoring-a-conditional-please-wait-------message-box.md)
     -   [Previewing the User Interface](previewing-the-user-interface.md)
     -   [Adding Text Stored in a Property](adding-text-stored-in-a-property.md)
-    -   [**MsiSetInternalUI**](msisetinternalui.md)
+    -   [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master)
 
 -   Create an external user interface to present a custom user interface to configure the installation and obtain information from the user about the pending installation process.
 
     For more information, see the following:
 
-    -   [**MsiSetExternalUI**](msisetexternalui.md)
+    -   [**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master)
     -   [Monitoring an Installation Using MsiSetExternalUIRecord](monitoring-an-installation-using-msisetexternaluirecord.md)
     -   [Parsing Windows Installer Messages](parsing-windows-installer-messages.md)
     -   [Returning Values from an External User Interface Handler](returning-values-from-an-external-user-interface-handler.md)
-    -   [INSTALLUI\_HANDLER](installui-handler.md)
+    -   [INSTALLUI\_HANDLER](/windows/win32/Msi/nc-msi-installui_handlera?branch=master)
     -   [Handling Progress Messages Using MsiSetExternalUI](handling-progress-messages-using-msisetexternalui.md)
     -   [Monitoring an Installation Using MsiSetExternalUI](monitoring-an-installation-using-msisetexternalui.md)
 

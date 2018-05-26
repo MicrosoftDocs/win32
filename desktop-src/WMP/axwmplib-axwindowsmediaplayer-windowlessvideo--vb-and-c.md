@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.windowlessVideo property
 description: The windowlessVideo property gets or sets a value indicating whether the Windows Media Player control renders video in windowless mode.
-ms.assetid: '70386aae-cd30-405d-90dd-9b3fa63dad17'
-keywords: ["windowlessVideo property Windows Media Player", "windowlessVideo property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , windowlessVideo property"]
+ms.assetid: 70386aae-cd30-405d-90dd-9b3fa63dad17
+keywords:
+- windowlessVideo property Windows Media Player
+- windowlessVideo property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , windowlessVideo property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.windowlessVideo property
@@ -75,9 +83,9 @@ Getting a value for this property is not supported for Netscape Navigator. Setti
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

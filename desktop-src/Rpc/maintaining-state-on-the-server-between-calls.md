@@ -1,8 +1,14 @@
 ---
 title: Maintaining State on the Server Between Calls
 description: It is often necessary to maintain state on the server between separate RPC calls \ 8212;using context handles is the best way to do so. A few words about how context handles operate internally helps in understanding when context handles work best.
-ms.assetid: 'f76ec489-f48e-473d-b519-3ac143d41fa4'
-keywords: ["Remote Procedure Call RPC , best practices, maintaining state between calls"]
+ms.assetid: f76ec489-f48e-473d-b519-3ac143d41fa4
+keywords:
+- Remote Procedure Call RPC , best practices, maintaining state between calls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Maintaining State on the Server Between Calls

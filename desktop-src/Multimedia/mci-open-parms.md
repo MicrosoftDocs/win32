@@ -1,8 +1,9 @@
 ---
 title: MCI\_OPEN\_PARMS structure
 description: The MCI\_OPEN\_PARMS structure contains information for the MCI\_OPEN command.
-ms.assetid: 'd22cefeb-3d49-47cf-a946-f73c77ae43fd'
-keywords: ["MCI_OPEN_PARMS structure Windows Multimedia"]
+ms.assetid: d22cefeb-3d49-47cf-a946-f73c77ae43fd
+keywords:
+- MCI_OPEN_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_OPEN\_PARMS structure
@@ -22,11 +28,11 @@ The **MCI\_OPEN\_PARMS** structure contains information for the [**MCI\_OPEN**](
 
 ```C++
 typedef struct {
-  DWORD_PTR   dwCallback;
+  DWORD_PTR   dwCallback;
   MCIDEVICEID wDeviceID;
-  LPCTSTR     lpstrDeviceType;
-  LPCTSTR     lpstrElementName;
-  LPCTSTR     lpstrAlias;
+  LPCTSTR     lpstrDeviceType;
+  LPCTSTR     lpstrElementName;
+  LPCTSTR     lpstrAlias;
 } MCI_OPEN_PARMS;
 ```
 
@@ -73,7 +79,7 @@ Optional device alias.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -81,8 +87,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -100,12 +106,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_OPEN**](mci-open.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Indexing Text-Type and Value-Type Properties
 description: Indexing Text-Type and Value-Type Properties
-ms.assetid: '187e0142-8508-4779-96af-e8c60a8a0b8d'
+ms.assetid: 187e0142-8508-4779-96af-e8c60a8a0b8d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Text-Type and Value-Type Properties

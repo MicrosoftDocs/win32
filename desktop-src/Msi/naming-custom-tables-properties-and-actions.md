@@ -1,7 +1,12 @@
 ---
-Description: 'Package authors should ensure that the names of any custom tables, properties, or actions defined in their package will not conflict with the names of standard tables, properties, or actions that are native to the Windows Installer.'
-ms.assetid: 'f86b51c5-161a-4218-987d-f17116e4f668'
-title: 'Naming Custom Tables, Properties, and Actions'
+Description: Package authors should ensure that the names of any custom tables, properties, or actions defined in their package will not conflict with the names of standard tables, properties, or actions that are native to the Windows Installer.
+ms.assetid: f86b51c5-161a-4218-987d-f17116e4f668
+title: Naming Custom Tables, Properties, and Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Naming Custom Tables, Properties, and Actions

@@ -1,8 +1,9 @@
 ---
 title: SB\_SETICON message
 description: Sets the icon for a part in a status bar.
-ms.assetid: 'd8528cd1-54d2-44ba-b0d6-29111f75616a'
-keywords: ["SB_SETICON message Windows Controls"]
+ms.assetid: d8528cd1-54d2-44ba-b0d6-29111f75616a
+keywords:
+- SB_SETICON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SETICON message
@@ -49,15 +55,15 @@ The status bar will not destroy the icon. It is the calling application's respon
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

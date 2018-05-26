@@ -1,8 +1,10 @@
 ---
 title: MDM\_WNSChannel class
 description: Represents the Windows Notification Service (WNS) channel used for notifications to the MDM agent.
-ms.assetid: '20a72a55-8d0a-4c99-b6d2-450ab318b439'
-keywords: ["MDM_WNSChannel class MDM Settings", "MDM_WNSChannel class MDM Settings , described"]
+ms.assetid: 20a72a55-8d0a-4c99-b6d2-450ab318b439
+keywords:
+- MDM_WNSChannel class MDM Settings
+- MDM_WNSChannel class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WNSChannel class
@@ -31,12 +38,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_WNSChannel
 {
-  string   AppId;
-  string   UserSID;
-  string   Channel;
+  string   AppId;
+  string   UserSID;
+  string   Channel;
   datetime ExpirationTime;
-  uint32   ChannelStatus;
-  uint32   LastError;
+  uint32   ChannelStatus;
+  uint32   LastError;
 };
 ```
 
@@ -155,7 +162,7 @@ The security identifier (SID) of the enrolled user.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -170,9 +177,9 @@ The security identifier (SID) of the enrolled user.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

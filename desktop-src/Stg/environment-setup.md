@@ -1,7 +1,12 @@
 ---
 title: Environment Setup
 description: The installed Platform Software Development Kit (SDK) provides a Setenv.bat file located in the root directory of the Platform SDK that you can run to set up your environment for building applications that use the Platform SDK.
-ms.assetid: '2dec3d7a-acac-4ff7-9d4a-d3540e6d441d'
+ms.assetid: 2dec3d7a-acac-4ff7-9d4a-d3540e6d441d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Environment Setup

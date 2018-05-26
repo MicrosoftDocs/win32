@@ -1,14 +1,20 @@
 ---
 title: EvaluateAttributeAtCentroid function
 description: Evaluates at the pixel centroid.
-ms.assetid: '6735b3f4-765f-4cd9-9f38-326a52709021'
-keywords: ["EvaluateAttributeAtCentroid function HLSL"]
+ms.assetid: 6735b3f4-765f-4cd9-9f38-326a52709021
+keywords:
+- EvaluateAttributeAtCentroid function HLSL
 topic_type:
 - apiref
 api_name:
 - EvaluateAttributeAtCentroid
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EvaluateAttributeAtCentroid function

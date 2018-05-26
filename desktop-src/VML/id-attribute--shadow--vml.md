@@ -1,7 +1,12 @@
 ---
 title: ID Attribute (Shadow)(VML)
 description: ID Attribute (Shadow)(VML)
-ms.assetid: 'ca20b6b9-a41c-4073-9178-77eb0f918327'
+ms.assetid: ca20b6b9-a41c-4073-9178-77eb0f918327
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID Attribute (Shadow)(VML)

@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ provides an administration object model that exposes all of the functionality of the Component Services administrative tool, itself a graphical front end written on top of the administrative objects.'
-ms.assetid: 'f302eb02-2ef5-42ee-a18f-59f7e60b38df'
+Description: COM+ provides an administration object model that exposes all of the functionality of the Component Services administrative tool, itself a graphical front end written on top of the administrative objects.
+ms.assetid: f302eb02-2ef5-42ee-a18f-59f7e60b38df
 title: Automating COM+ Administration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automating COM+ Administration
@@ -31,13 +36,13 @@ To automate administration effectively, you should be familiar with administrati
 
 For full descriptions of the COMAdmin objects and the corresponding interfaces, see the COM+ Reference documentation for the following classes and interfaces:
 
--   [**COMAdminCatalog**](comadmincatalog.md)
--   [**COMAdminCatalogCollection**](comadmincatalogcollection.md)
--   [**COMAdminCatalogObject**](comadmincatalogobject.md)
--   [**ICOMAdminCatalog**](icomadmincatalog.md)
--   [**ICOMAdminCatalog2**](icomadmincatalog2.md)
--   [**ICatalogCollection**](icatalogcollection.md)
--   [**ICatalogObject**](icatalogobject.md)
+-   [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master)
+-   [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master)
+-   [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master)
+-   [**ICOMAdminCatalog**](/windows/win32/ComAdmin/nn-comadmin-icomadmincatalog?branch=master)
+-   [**ICOMAdminCatalog2**](/windows/win32/ComAdmin/nn-comadmin-icomadmincatalog2?branch=master)
+-   [**ICatalogCollection**](/windows/win32/ComAdmin/nn-comadmin-icatalogcollection?branch=master)
+-   [**ICatalogObject**](/windows/win32/ComAdmin/nn-comadmin-icatalogobject?branch=master)
 
 The following topics in this section provide an overview for automating administration using the COMAdmin objects:
 

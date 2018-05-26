@@ -1,7 +1,12 @@
 ---
-Description: 'The update region identifies the portion of a window that is out-of-date or invalid and in need of redrawing.'
-ms.assetid: 'e652122b-a3b7-4d1b-8afd-9648d5ee3d42'
+Description: The update region identifies the portion of a window that is out-of-date or invalid and in need of redrawing.
+ms.assetid: e652122b-a3b7-4d1b-8afd-9648d5ee3d42
 title: The Update Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Update Region

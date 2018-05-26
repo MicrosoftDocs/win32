@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_RENDER\_TARGET\_FORMATS structure
 description: A helper structure used to describe the render target formats as a single object suitable for a stream description.
-ms.assetid: '8C5C2279-7985-41B6-87EA-ABB0007DAFD4'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS structure"]
+ms.assetid: 8C5C2279-7985-41B6-87EA-ABB0007DAFD4
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_RENDER\_TARGET\_FORMATS structure
@@ -22,10 +28,10 @@ A helper structure used to describe the render target formats as a single object
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS {
-                                                      CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS;
-                                                      CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS(D3D12_RT_FORMAT_ARRAY const &amp;i);
+                                                      CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS;
+                                                      CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS(D3D12_RT_FORMAT_ARRAY const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS operator=(D3D12_RT_FORMAT_ARRAY const&amp; i);
-                                                      operator D3D12_RT_FORMAT_ARRAY() const;
+                                                      operator D3D12_RT_FORMAT_ARRAY() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_RE
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_RENDER\_TARGET\_FORMATS(D3D12\_RT\_FORMAT\_ARRAY const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_RENDER\_TARGET\_FORMATS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_RENDER\_TARGET\_FORMATS** and subobject data copied from *i*, a [**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_RENDER\_TARGET\_FORMATS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_RENDER\_TARGET\_FORMATS** and subobject data copied from *i*, a [**D3D12\_RT\_FORMAT\_ARRAY**](/windows/win32/d3d12/ns-d3d12-d3d12_rt_format_array?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Copy-assignment operator.
 **operator D3D12\_RT\_FORMAT\_ARRAY() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_RT\_FORMAT\_ARRAY**](d3d12-rt-format-array.md) structure.
+Implicit conversion to a [**D3D12\_RT\_FORMAT\_ARRAY**](/windows/win32/d3d12/ns-d3d12-d3d12_rt_format_array?branch=master) structure.
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_RT_FORMAT_ARRAY, D3D12_PIP
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

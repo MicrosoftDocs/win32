@@ -1,7 +1,12 @@
 ---
 Description: Automatic Resource Reclamation
-ms.assetid: 'c889dd3f-82d1-4bc3-ac2c-6f468d5b2c7f'
+ms.assetid: c889dd3f-82d1-4bc3-ac2c-6f468d5b2c7f
 title: Automatic Resource Reclamation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Resource Reclamation

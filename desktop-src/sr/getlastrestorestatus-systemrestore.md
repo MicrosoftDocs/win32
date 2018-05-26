@@ -1,8 +1,11 @@
 ---
 title: GetLastRestoreStatus method of the SystemRestore class
 description: Retrieves the status of the last system restore.
-ms.assetid: '03f9fd71-9f20-428e-bdca-4692e838581a'
-keywords: ["GetLastRestoreStatus method System Restore", "GetLastRestoreStatus method System Restore , SystemRestore class", "SystemRestore class System Restore , GetLastRestoreStatus method"]
+ms.assetid: 03f9fd71-9f20-428e-bdca-4692e838581a
+keywords:
+- GetLastRestoreStatus method System Restore
+- GetLastRestoreStatus method System Restore , SystemRestore class
+- SystemRestore class System Restore , GetLastRestoreStatus method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Default
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetLastRestoreStatus method of the SystemRestore class
@@ -44,7 +52,7 @@ The method returns one of the following status values.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -71,7 +79,7 @@ End If
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\Default<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -85,9 +93,9 @@ End If
 [**SystemRestore**](systemrestore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

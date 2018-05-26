@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads the specified data item from protected storage.'
-ms.assetid: 'e565a0ea-5d8e-4706-a176-2305a95f0d67'
-title: 'IPStore::ReadItem method'
+---
+Description: Reads the specified data item from protected storage.
+ms.assetid: e565a0ea-5d8e-4706-a176-2305a95f0d67
+title: IPStoreReadItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::ReadItem method

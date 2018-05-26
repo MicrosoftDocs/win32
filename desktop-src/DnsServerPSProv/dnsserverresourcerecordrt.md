@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordRt class
 description: Represents an route through (RT) resource record on a DNS server.
 audience: developer
-ms.assetid: 'ac0911d0-7b1f-4b3f-aa3b-044d50d92c9a'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac0911d0-7b1f-4b3f-aa3b-044d50d92c9a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordRt class", "DnsServerResourceRecordRt class, described"]
+keywords:
+- DnsServerResourceRecordRt class
+- DnsServerResourceRecordRt class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordRt class
@@ -83,7 +88,7 @@ Indicates the preference setting of the RT resource record.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -100,9 +105,9 @@ Indicates the preference setting of the RT resource record.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

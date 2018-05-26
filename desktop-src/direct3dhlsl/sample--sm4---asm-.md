@@ -1,7 +1,12 @@
 ---
 title: sample (sm4 - asm)
 description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler.
-ms.assetid: '9055D3EE-FD4A-418C-A743-D12E8BDF69FF'
+ms.assetid: 9055D3EE-FD4A-418C-A743-D12E8BDF69FF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sample (sm4 - asm)
@@ -15,7 +20,7 @@ Samples data from the specified Element/texture using the specified address and 
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Samples data from the specified Element/texture using the specified address and 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -103,7 +108,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -122,7 +127,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -131,9 +136,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

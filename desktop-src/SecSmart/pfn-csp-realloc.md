@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_REALLOC function pointer
 description: Points to a function that changes the size of a previously allocated block of memory. The existing contents of the memory block are copied to the reallocated block.
-ms.assetid: '6239e313-f62c-4375-96c7-eca0763b343f'
-keywords: ["PFN_CSP_REALLOC function pointer Security"]
+ms.assetid: 6239e313-f62c-4375-96c7-eca0763b343f
+keywords:
+- PFN_CSP_REALLOC function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_REALLOC function pointer
@@ -24,8 +30,8 @@ The **PFN\_CSP\_REALLOC** function pointer points to a function that changes the
 
 ```C++
 typedef LPVOID ( WINAPI *PFN_CSP_REALLOC)(
-  _In_ LPVOID Address,
-  _In_ SIZE_T Size
+  _In_ LPVOID Address,
+  _In_ SIZE_T Size
 );
 ```
 
@@ -67,8 +73,8 @@ This function pointer is passed to a card module in a [**CARD\_DATA**](card-data
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ This function pointer is passed to a card module in a [**CARD\_DATA**](card-data
 [**PFN\_CSP\_FREE**](pfn-csp-free.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

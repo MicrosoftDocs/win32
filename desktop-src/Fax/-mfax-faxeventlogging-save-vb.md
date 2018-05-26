@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxEventLogging object''s data.'
-ms.assetid: '8ab1a36a-875c-44b6-ae01-d82a1f6f2e2a'
-title: 'FaxEventLogging.Save method'
+---
+Description: The Save method saves the FaxEventLogging objects data.
+ms.assetid: 8ab1a36a-875c-44b6-ae01-d82a1f6f2e2a
+title: FaxEventLogging.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxEventLogging.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) and [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -51,7 +56,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

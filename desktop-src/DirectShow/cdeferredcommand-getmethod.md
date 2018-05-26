@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMethod method retrieves the dispatch identifier (DISPID) of the method to be run.'
-ms.assetid: '93b48e04-7a47-4112-ae9d-dfda6adf100a'
-title: 'CDeferredCommand.GetMethod method'
+Description: The GetMethod method retrieves the dispatch identifier (DISPID) of the method to be run.
+ms.assetid: 93b48e04-7a47-4112-ae9d-dfda6adf100a
+title: CDeferredCommand.GetMethod method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.GetMethod method
@@ -43,9 +48,9 @@ Returns the DISPID of the method to run.
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

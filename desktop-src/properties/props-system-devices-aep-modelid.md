@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint''s Model Id.'
-ms.assetid: 'b6f2dd19-2425-44fe-b976-c531736793bf'
-title: 'System.Devices.Aep.ModelId'
+Description: Device Association Endpoints Model Id.
+ms.assetid: b6f2dd19-2425-44fe-b976-c531736793bf
+title: System.Devices.Aep.ModelId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.ModelId

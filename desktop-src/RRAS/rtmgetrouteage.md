@@ -1,8 +1,9 @@
 ---
 title: RtmGetRouteAge function
 description: The RtmGetRouteAge function returns the age of a route. The age is the time, in seconds, since it was created or last updated.
-ms.assetid: '93052412-227f-4c9e-978b-3ec4bde4a256'
-keywords: ["RtmGetRouteAge function RAS"]
+ms.assetid: 93052412-227f-4c9e-978b-3ec4bde4a256
+keywords:
+- RtmGetRouteAge function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmGetRouteAge function
@@ -24,7 +30,7 @@ The **RtmGetRouteAge** function returns the age of a route. The age is the time,
 
 ```C++
 ULONG RtmGetRouteAge(
-  _In_ PVOID Route
+  _In_ PVOID Route
 );
 ```
 
@@ -54,7 +60,7 @@ The return value is one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +73,8 @@ The route age is computed from the RR\_TimeStamp member of the structure that is
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -94,9 +100,9 @@ The route age is computed from the RR\_TimeStamp member of the structure that is
 [**RTM\_IPX\_ROUTE**](rtm-ipx-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

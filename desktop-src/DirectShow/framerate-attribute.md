@@ -1,7 +1,12 @@
 ---
-Description: 'The framerate attribute specifies a framerate, in frames per second.'
-ms.assetid: '541a86e3-7736-4de4-b509-f8d61ef9bc58'
+Description: The framerate attribute specifies a framerate, in frames per second.
+ms.assetid: 541a86e3-7736-4de4-b509-f8d61ef9bc58
 title: framerate Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # framerate Attribute

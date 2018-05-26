@@ -1,8 +1,11 @@
 ---
 title: IMimeEnumAddressTypes Skip method
 description: Skips over the next specified number of elements in the enumeration sequence.
-ms.assetid: '91fa008b-9882-43b3-8e6e-4266004ecf1b'
-keywords: ["Skip method Windows Mail (formerly Outlook Express)", "Skip method Windows Mail (formerly Outlook Express) , IMimeEnumAddressTypes interface", "IMimeEnumAddressTypes interface Windows Mail (formerly Outlook Express) , Skip method"]
+ms.assetid: 91fa008b-9882-43b3-8e6e-4266004ecf1b
+keywords:
+- Skip method Windows Mail (formerly Outlook Express)
+- Skip method Windows Mail (formerly Outlook Express) , IMimeEnumAddressTypes interface
+- IMimeEnumAddressTypes interface Windows Mail (formerly Outlook Express) , Skip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEnumAddressTypes::Skip method
@@ -22,7 +30,7 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 ```C++
 HRESULT Skip(
-  [in] ULONG cItems
+  [in] ULONG cItems
 );
 ```
 
@@ -56,7 +64,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +72,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -73,9 +81,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

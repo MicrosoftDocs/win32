@@ -1,8 +1,9 @@
 ---
 title: CmFree function
 description: Frees a memory block allocated from a heap by the CmMalloc function.
-ms.assetid: '962bfc33-a8b3-4598-aabf-94de26d1fdb5'
-keywords: ["CmFree function RAS"]
+ms.assetid: 962bfc33-a8b3-4598-aabf-94de26d1fdb5
+keywords:
+- CmFree function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - CmUtil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CmFree function
@@ -22,7 +28,7 @@ The **CmFree** function frees a memory block allocated from a heap by the [**CmM
 
 ```C++
 void* CmFree(
-   void *pvPtr
+   void *pvPtr
 );
 ```
 
@@ -57,8 +63,8 @@ Attempting to **CmFree** a pointer to a memory block that was not allocated by [
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>CmUtil.dll</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ Attempting to **CmFree** a pointer to a memory block that was not allocated by [
 [**CmMalloc**](cmmalloc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

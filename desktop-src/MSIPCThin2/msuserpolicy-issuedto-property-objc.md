@@ -4,17 +4,21 @@ description: The email address of the original content owner.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '52A1433A-CF06-44CA-BA5D-7E8B107C1F5A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 52A1433A-CF06-44CA-BA5D-7E8B107C1F5A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy issuedTo property"]
+keywords:
+- MSUserPolicy issuedTo property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy issuedTo property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy issuedTo property
@@ -37,7 +41,7 @@ The email address of the original content owner. The **issuedTo** content owner 
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

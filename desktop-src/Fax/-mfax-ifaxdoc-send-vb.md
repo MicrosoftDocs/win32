@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Send method transmits the document specified by the FileName property of a FaxDoc object. The method can send the fax to the fax number specified by the FaxNumber property.'
-ms.assetid: 'efe70850-ad4e-4e64-b3a8-40d3ce2535f8'
-title: 'FaxDoc.Send method'
+---
+Description: The Send method transmits the document specified by the FileName property of a FaxDoc object. The method can send the fax to the fax number specified by the FaxNumber property.
+ms.assetid: efe70850-ad4e-4e64-b3a8-40d3ce2535f8
+title: FaxDoc.Send method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.Send method
@@ -57,7 +62,7 @@ The [**FileName**](-mfax-ifaxdoc-get-filename-vb.md) property is required to sen
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> </dl>
 
  

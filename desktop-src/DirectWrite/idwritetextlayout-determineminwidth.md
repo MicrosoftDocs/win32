@@ -1,8 +1,11 @@
 ---
 title: IDWriteTextLayout DetermineMinWidth method
 description: Determines the minimum possible width the layout can be set to without emergency breaking between the characters of whole words occurring.
-ms.assetid: '8efa1471-1b74-46d4-ac6d-fb1839ce2e74'
-keywords: ["DetermineMinWidth method Direct Write", "DetermineMinWidth method Direct Write , IDWriteTextLayout interface", "IDWriteTextLayout interface Direct Write , DetermineMinWidth method"]
+ms.assetid: 8efa1471-1b74-46d4-ac6d-fb1839ce2e74
+keywords:
+- DetermineMinWidth method Direct Write
+- DetermineMinWidth method Direct Write , IDWriteTextLayout interface
+- IDWriteTextLayout interface Direct Write , DetermineMinWidth method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteTextLayout::DetermineMinWidth method
@@ -22,7 +30,7 @@ Determines the minimum possible width the layout can be set to without emergency
 
 ```C++
 virtual HRESULT DetermineMinWidth(
-  [out] FLOAT *minWidth
+  [out] FLOAT *minWidth
 ) = 0;
 ```
 
@@ -62,15 +70,15 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteTextLayout**](idwritetextlayout.md)
+[**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master)
 </dt> <dt>
 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

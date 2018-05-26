@@ -4,11 +4,16 @@ description: An application directory partition is represented by a domainDNS ob
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5e90f316-9d67-484d-98b8-0632dd3c2c43'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5e90f316-9d67-484d-98b8-0632dd3c2c43
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Creating an Application Directory Partition AD", "Application Directory Partitions AD , Creating"]
+keywords:
+- Creating an Application Directory Partition AD
+- Application Directory Partitions AD , Creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating an Application Directory Partition

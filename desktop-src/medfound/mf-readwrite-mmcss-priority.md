@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the base thread priority for the Source Reader or Sink Writer.'
-ms.assetid: '9513AE28-2AF4-45EC-AC19-C0718540E26F'
-title: 'MF\_READWRITE\_MMCSS\_PRIORITY attribute'
+---
+Description: Sets the base thread priority for the Source Reader or Sink Writer.
+ms.assetid: 9513AE28-2AF4-45EC-AC19-C0718540E26F
+title: MF\_READWRITE\_MMCSS\_PRIORITY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_READWRITE\_MMCSS\_PRIORITY attribute
@@ -14,9 +19,9 @@ Sets the base thread priority for the Source Reader or Sink Writer.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 

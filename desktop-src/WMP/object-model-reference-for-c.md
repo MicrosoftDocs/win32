@@ -1,8 +1,29 @@
 ---
 title: Object Model Reference for C++
 description: Object Model Reference for C++
-ms.assetid: '4215947a-4a12-42da-b1a0-599a4d382147'
-keywords: ["Windows Media Player,object model", "Windows Media Player Mobile,object model", "Windows Media Player object model,reference", "object model,reference", "ActiveX control,reference", "Windows Media Player ActiveX control,reference", "Windows Media Player Mobile ActiveX control,reference", "reference for object model,C++", "Windows Media Player,C++", "Windows Media Player Mobile,C++", "Windows Media Player object model,C++", "object model,C++", "Windows Media Player ActiveX control,C++", "Windows Media Player Mobile ActiveX control,C++", "ActiveX control,C++", "C++ object model reference"]
+ms.assetid: 4215947a-4a12-42da-b1a0-599a4d382147
+keywords:
+- Windows Media Player,object model
+- Windows Media Player Mobile,object model
+- Windows Media Player object model,reference
+- object model,reference
+- ActiveX control,reference
+- Windows Media Player ActiveX control,reference
+- Windows Media Player Mobile ActiveX control,reference
+- reference for object model,C++
+- Windows Media Player,C++
+- Windows Media Player Mobile,C++
+- Windows Media Player object model,C++
+- object model,C++
+- Windows Media Player ActiveX control,C++
+- Windows Media Player Mobile ActiveX control,C++
+- ActiveX control,C++
+- C++ object model reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Model Reference for C++

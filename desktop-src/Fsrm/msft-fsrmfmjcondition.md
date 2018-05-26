@@ -4,11 +4,13 @@ description: Represents the file management job conditions.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'deb5be80-4255-4d56-8db5-31239e2872ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: deb5be80-4255-4d56-8db5-31239e2872ef
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFMJCondition class File Server Resource Manager", "MSFT_FSRMFMJCondition class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFMJCondition class File Server Resource Manager
+- MSFT_FSRMFMJCondition class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFMJCondition class
@@ -61,7 +66,7 @@ The **MSFT\_FSRMFMJCondition** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -357,7 +362,7 @@ When the **Property** property refers to a classification property, the type of 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -366,7 +371,7 @@ When the **Property** property refers to a classification property, the type of 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -380,9 +385,9 @@ When the **Property** property refers to a classification property, the type of 
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

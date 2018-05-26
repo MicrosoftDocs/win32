@@ -1,7 +1,12 @@
 ---
-Description: 'High Dynamic Range (HDR) displays a greater difference in light intensity from white to black, and Wide Color Gamut (WCG) provides a greater range of colors.'
-ms.assetid: 'DF3B892E-B858-417F-A746-397F2EC490ED'
+Description: High Dynamic Range (HDR) displays a greater difference in light intensity from white to black, and Wide Color Gamut (WCG) provides a greater range of colors.
+ms.assetid: DF3B892E-B858-417F-A746-397F2EC490ED
 title: High Dynamic Range and Wide Color Gamut
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # High Dynamic Range and Wide Color Gamut
@@ -73,10 +78,10 @@ As displays support greater ranges of color and luminance (e.g. HDR), apps shoul
 
 In order to enable HDR and WCG in your app, refer to the following APIs.
 
--   [**IDXGISwapChain4::SetHDRMetaData**](idxgiswapchain4-sethdrmetadata.md) : sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.
--   [**DXGI\_HDR\_METADATA\_HDR10**](dxgi-hdr-metadata-hdr10.md) : structure containing the metadata settings.
--   [**DXGI\_HDR\_METADATA\_TYPE**](dxgi-hdr-metadata-type.md) : enum identifying the type of header metadata.
--   [**DXGI\_COLOR\_SPACE\_TYPE**](dxgi-color-space-type.md) : defines the colorspace (sRGB, YCbCr), color range, gamma settings, and other details of the color format.
+-   [**IDXGISwapChain4::SetHDRMetaData**](/windows/win32/dxgi1_5/nf-dxgi1_5-idxgiswapchain4-sethdrmetadata?branch=master) : sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.
+-   [**DXGI\_HDR\_METADATA\_HDR10**](/windows/win32/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10?branch=master) : structure containing the metadata settings.
+-   [**DXGI\_HDR\_METADATA\_TYPE**](/windows/win32/dxgi1_5/ne-dxgi1_5-dxgi_hdr_metadata_type?branch=master) : enum identifying the type of header metadata.
+-   [**DXGI\_COLOR\_SPACE\_TYPE**](/windows/win32/dxgicommon/ne-dxgicommon-dxgi_color_space_type?branch=master) : defines the colorspace (sRGB, YCbCr), color range, gamma settings, and other details of the color format.
 
 ## Related topics
 

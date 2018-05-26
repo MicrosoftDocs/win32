@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an OIDs collection that represents the application policies used to create the Chain object.'
-ms.assetid: 'dca0acbf-e369-4216-a4f6-44ed965011d0'
-title: 'CertificateStatus.ApplicationPolicies method'
+---
+Description: Returns an OIDs collection that represents the application policies used to create the Chain object.
+ms.assetid: dca0acbf-e369-4216-a4f6-44ed965011d0
+title: CertificateStatus.ApplicationPolicies method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.ApplicationPolicies method

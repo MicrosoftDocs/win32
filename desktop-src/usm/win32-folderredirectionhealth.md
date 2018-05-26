@@ -1,8 +1,10 @@
 ---
 title: Win32\_FolderRedirectionHealth class
 description: Represents the health of a known folder that is being redirected.
-ms.assetid: 'aa33db6f-201b-474f-9c2f-6792585c73e5'
-keywords: ["Win32_FolderRedirectionHealth class User State Manageability API", "Win32_FolderRedirectionHealth class User State Manageability API , described"]
+ms.assetid: aa33db6f-201b-474f-9c2f-6792585c73e5
+keywords:
+- Win32_FolderRedirectionHealth class User State Manageability API
+- Win32_FolderRedirectionHealth class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FolderRedirectionHealth class
@@ -31,13 +38,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_FolderRedirectionHealth
 {
-  string   OfflineFileNameFolderGUID;
-  boolean  Redirected;
-  boolean  OfflineAccessEnabled;
+  string   OfflineFileNameFolderGUID;
+  boolean  Redirected;
+  boolean  OfflineAccessEnabled;
   DATETIME LastSuccessfulSyncTime;
   DATETIME LastSyncTime;
-  uint8    LastSyncStatus;
-  uint8    HealthStatus;
+  uint8    LastSyncStatus;
+  uint8    HealthStatus;
 };
 ```
 
@@ -152,7 +159,7 @@ The GUID for the known folder. One of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -175,8 +182,8 @@ If **true**, the folder is being redirected.
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>UserProfileWmiProvider.mof</dt> </dl> |
 
@@ -195,9 +202,9 @@ If **true**, the folder is being redirected.
 [**Win32\_FolderRedirectionUserConfiguration**](win32-folderredirectionuserconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

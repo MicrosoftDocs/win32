@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Identity Manager API allows you to create, enumerate, and manipulate peer identities in a peer application.'
-ms.assetid: 'c1b2a587-71c7-4623-a318-4624dad7feba'
+Description: The Peer Identity Manager API allows you to create, enumerate, and manipulate peer identities in a peer application.
+ms.assetid: c1b2a587-71c7-4623-a318-4624dad7feba
 title: About Identity Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Identity Manager

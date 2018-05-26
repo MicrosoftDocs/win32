@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.'
-ms.assetid: '359f1a4b-8bcc-4c4a-97d7-6515993765e3'
-title: 'IPrintOemPrintTicketProvider::ValidatePrintTicket method'
+---
+Description: The IPrintOemPrintTicketProviderValidatePrintTicket method validates a print ticket.
+ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
+title: IPrintOemPrintTicketProviderValidatePrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider::ValidatePrintTicket method

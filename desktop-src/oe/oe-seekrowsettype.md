@@ -1,8 +1,10 @@
 ---
 title: SEEKROWSETTYPE enumeration
 description: Do not use. Used as a parameter to IDatabase SeekRowset to specify the starting location of the seek.
-ms.assetid: 'cddd8f37-261e-4c54-9df0-d194cb7593b2'
-keywords: ["SEEKROWSETTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: cddd8f37-261e-4c54-9df0-d194cb7593b2
+keywords:
+- SEEKROWSETTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Directdb.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SEEKROWSETTYPE enumeration
@@ -61,16 +68,16 @@ The cursor is repositioned relative to the end of the database.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

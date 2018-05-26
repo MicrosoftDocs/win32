@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.tabStop
 description: The tabStop attribute specifies or retrieves a value indicating whether the control is in the tabbing order. You set the tabbing order by placing the control in the overall script before or after other control tags.
-ms.assetid: '3d4b7fe4-1032-44e1-bae5-f253d00881bf'
-keywords: ["AmbientAttributes.tabStop Windows Media Player"]
+ms.assetid: 3d4b7fe4-1032-44e1-bae5-f253d00881bf
+keywords:
+- AmbientAttributes.tabStop Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.tabStop
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.tabStop
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +63,9 @@ The default value for this attribute is true for all elements except **AUTOMENU*
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The AlignUp method rounds a value up to a specified alignment boundary.Note  Removed in Windows 7. .'
-ms.assetid: 'fa2a6567-3eb1-4aa9-b966-2e88b15c67b1'
-title: 'CPullPin.AlignUp method'
+Description: The AlignUp method rounds a value up to a specified alignment boundary.Note  Removed in Windows 7. .
+ms.assetid: fa2a6567-3eb1-4aa9-b966-2e88b15c67b1
+title: CPullPin.AlignUp method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.AlignUp method
@@ -9,17 +14,17 @@ title: 'CPullPin.AlignUp method'
 The **AlignUp** method rounds a value up to a specified alignment boundary.
 
 > [!Note]  
-> Removed in Windows 7.
+> Removed in Windows 7.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 LONGLONG AlignUp(
-   LONGLONG ll,
-   LONG     lAlign
+   LONGLONG ll,
+   LONG     lAlign
 );
 ```
 
@@ -52,7 +57,7 @@ Returns the aligned result.
 > \[!Caution\]  
 > This method can cause numeric overflow if *ll* + (*lAlign* - 1) overflows.
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +77,9 @@ Returns the aligned result.
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: KillJob method of the CIM\_Job class
 description: This method is deprecated. Instead, use the RequestStateChange method.
-ms.assetid: '931f4505-b87e-4ab4-bfb2-7befa4482b69'
-keywords: ["KillJob method Hyper-V", "KillJob method Hyper-V , CIM_Job class", "CIM_Job class Hyper-V , KillJob method"]
+ms.assetid: 931f4505-b87e-4ab4-bfb2-7befa4482b69
+keywords:
+- KillJob method Hyper-V
+- KillJob method Hyper-V , CIM_Job class
+- CIM_Job class Hyper-V , KillJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KillJob method of the CIM\_Job class
@@ -20,14 +28,14 @@ This method is deprecated. Instead, use the **RequestStateChange** method.
 > [!Note]  
 > Deprecated description: Shuts down a job.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -45,7 +53,7 @@ uint32 KillJob(
 > [!Note]  
 > This parameter takes precedence over the **DeleteOnCompletion** property of the **CIM\_Job** class.
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,10 +82,10 @@ uint32 KillJob(
 **Not Found** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -98,9 +106,9 @@ uint32 KillJob(
 [**CIM\_Job**](cim-job.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

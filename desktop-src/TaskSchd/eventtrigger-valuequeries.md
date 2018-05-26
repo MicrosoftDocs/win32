@@ -1,8 +1,11 @@
 ---
 title: EventTrigger.ValueQueries property
 description: For scripting, gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML that is returned from the subscription query specified in the Subscription property.
-ms.assetid: '9ff92b66-f63c-4736-b086-df7dd8cd2b10'
-keywords: ["ValueQueries property Task Scheduler", "ValueQueries property Task Scheduler , EventTrigger object", "EventTrigger object Task Scheduler , ValueQueries property"]
+ms.assetid: 9ff92b66-f63c-4736-b086-df7dd8cd2b10
+keywords:
+- ValueQueries property Task Scheduler
+- ValueQueries property Task Scheduler , EventTrigger object
+- EventTrigger object Task Scheduler , ValueQueries property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTrigger.ValueQueries property
@@ -66,8 +74,8 @@ For more information about writing a query string for certain events, see [Event
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -83,9 +91,9 @@ For more information about writing a query string for certain events, see [Event
 [**EventTrigger**](eventtrigger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'How can a video stream encoded using quality-based VBR have fewer frames than the original stream?'
-ms.assetid: 'acce9c88-2ee1-4628-9fd5-ccb441f8b43e'
-title: 'How can a video stream encoded using quality-based VBR have fewer frames than the original stream?'
+Description: How can a video stream encoded using quality-based VBR have fewer frames than the original stream?
+ms.assetid: acce9c88-2ee1-4628-9fd5-ccb441f8b43e
+title: How can a video stream encoded using quality-based VBR have fewer frames than the original stream?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How can a video stream encoded using quality-based VBR have fewer frames than the original stream?

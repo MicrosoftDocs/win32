@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the average buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.'
-ms.assetid: '9e9259a2-6fb7-4a24-8d14-841f2cc8c3ef'
-title: 'MF\_SD\_ASF\_EXTSTRMPROP\_AVG\_BUFFERSIZE attribute'
+---
+Description: Specifies the average buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.
+ms.assetid: 9e9259a2-6fb7-4a24-8d14-841f2cc8c3ef
+title: MF\_SD\_ASF\_EXTSTRMPROP\_AVG\_BUFFERSIZE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SD\_ASF\_EXTSTRMPROP\_AVG\_BUFFERSIZE attribute
@@ -16,7 +21,7 @@ Specifies the average buffer size, in bytes, needed for a stream in an Advanced 
 
 This attribute applies to stream descriptors for ASF content. It corresponds to the Buffer Size field in the Extended Stream Properties object, and defines the bucket size used in the "leaky bucket" model. For more information, refer to the ASF specification.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute from the ASF metadata. The application can create the stream descriptor for the stream from the presentation descriptor by calling [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](imfpresentationdescriptor-getstreamdescriptorbyindex.md).
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute from the ASF metadata. The application can create the stream descriptor for the stream from the presentation descriptor by calling [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex?branch=master).
 
 ## Requirements
 
@@ -37,13 +42,13 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-ge
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFStreamDescriptor**](imfstreamdescriptor.md)
+[**IMFStreamDescriptor**](/windows/win32/mfidl/nn-mfidl-imfstreamdescriptor?branch=master)
 </dt> <dt>
 
 [Stream Descriptor Attributes](stream-descriptor-attributes.md)

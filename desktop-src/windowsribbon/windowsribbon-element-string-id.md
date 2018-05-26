@@ -1,14 +1,20 @@
 ---
 title: String.Id property
 description: Represents the unique ID of a string resource.
-ms.assetid: '393da279-bdf6-4796-a546-1931cbe49113'
-keywords: ["String.Id property Windows Ribbon"]
+ms.assetid: 393da279-bdf6-4796-a546-1931cbe49113
+keywords:
+- String.Id property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - String.Id
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String.Id property
@@ -76,14 +82,14 @@ The following example demonstrates the markup for a [**Command.LabelTitle**](win
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

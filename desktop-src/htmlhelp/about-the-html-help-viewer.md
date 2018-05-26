@@ -1,12 +1,17 @@
 ---
 title: About the HTML Help Viewer
 description: About the HTML Help Viewer
-ms.assetid: '9865D3D7-351D-4df6-B1BC-DAF2D725D298'
+ms.assetid: 9865D3D7-351D-4df6-B1BC-DAF2D725D298
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help Viewer
 
-The HTML Help Viewer is the standard three-pane help window in which a compiled help (.chm) file appears. Each pane of the Help Viewer can be manipulated through an [**HH\_WINTYPE**](hh-wintype-structure.md) structure.
+The HTML Help Viewer is the standard three-pane help window in which a compiled help (.chm) file appears. Each pane of the Help Viewer can be manipulated through an [**HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master) structure.
 
 The Help Viewer is shown below:
 

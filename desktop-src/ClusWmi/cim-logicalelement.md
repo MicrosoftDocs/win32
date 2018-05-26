@@ -4,13 +4,15 @@ description: CIM\_LogicalElement is a base class for all the components of a Sys
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e563c63a-c294-45ec-8b2f-629caca317d6'
-ms.prod: 'windows-server-dev'
+ms.assetid: e563c63a-c294-45ec-8b2f-629caca317d6
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_LogicalElement class", "CIM_LogicalElement class, described"]
+keywords:
+- CIM_LogicalElement class
+- CIM_LogicalElement class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalElement class
@@ -38,11 +43,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{F6D42C79-DC86-4847-80A7-36CA4A5E36C8}"), AMENDMENT]
 class CIM_LogicalElement : CIM_ManagedSystemElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -224,7 +229,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -238,9 +243,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

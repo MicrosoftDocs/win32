@@ -1,7 +1,12 @@
-﻿---
-Description: 'Re-enables a Microsoft DirectDraw kernel-mode device object after a mode switch.'
-ms.assetid: '26451881-cebf-4db1-aeed-365f0dae6704'
+---
+Description: Re-enables a Microsoft DirectDraw kernel-mode device object after a mode switch.
+ms.assetid: 26451881-cebf-4db1-aeed-365f0dae6704
 title: NtGdiDdReenableDirectDrawObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdReenableDirectDrawObject function
@@ -69,7 +74,7 @@ Applications are advised to use the DirectDraw or [Direct3D](http://msdn.microso
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdReenableDirectDrawObject**](-dxgkernel-ddreenabledirectdrawobject.md)
+[**DdReenableDirectDrawObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddreenabledirectdrawobject?branch=master)
 </dt> </dl>
 
  

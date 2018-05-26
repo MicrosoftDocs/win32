@@ -1,8 +1,9 @@
 ---
 title: WMT\_VIDEOIMAGE\_TRANSITION\_REVEAL
 description: The reveal transition reveals the new image along a straight line originating from one side of the frame.
-ms.assetid: '75ff6155-6b28-474a-b5d1-c3f1b3873b8e'
-keywords: ["WMT_VIDEOIMAGE_TRANSITION_REVEAL windows Media Format"]
+ms.assetid: 75ff6155-6b28-474a-b5d1-c3f1b3873b8e
+keywords:
+- WMT_VIDEOIMAGE_TRANSITION_REVEAL windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_REVEAL
@@ -19,7 +25,7 @@ The reveal transition reveals the new image along a straight line originating fr
 
 ## Parameters
 
-The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md) structure to which they are assigned.
+The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master) structure to which they are assigned.
 
 
 
@@ -67,7 +73,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,9 +92,9 @@ The following table describes the parameters used by this transition and lists t
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

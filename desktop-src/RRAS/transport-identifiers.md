@@ -1,7 +1,12 @@
 ---
 title: Transport Identifiers
 description: The following transport (or protocol family) identifiers are also listed in Mprapi.h.
-ms.assetid: '7720c34f-0558-49de-8f82-13a67e2c8c69'
+ms.assetid: 7720c34f-0558-49de-8f82-13a67e2c8c69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transport Identifiers

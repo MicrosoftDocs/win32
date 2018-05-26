@@ -1,8 +1,20 @@
 ---
 title: sRGB A Standard Color Space
 description: As a result of Internet bandwidth considerations, Hewlett-Packard and Microsoft have proposed the adoption of a standard predefined color space known as sRGB (IEC 61966-2-1), so as to allow accurate color mapping with very little data overhead.
-ms.assetid: 'b9017702-7dca-4d79-bed0-936f97cb6109'
-keywords: ["Windows Color System (WCS),sRGB color space", "WCS (Windows Color System),sRGB color space", "image color management,sRGB color space", "color management,sRGB color space", "colors,sRGB color space", "sRGB color space", "color spaces,sRGB"]
+ms.assetid: b9017702-7dca-4d79-bed0-936f97cb6109
+keywords:
+- Windows Color System (WCS),sRGB color space
+- WCS (Windows Color System),sRGB color space
+- image color management,sRGB color space
+- color management,sRGB color space
+- colors,sRGB color space
+- sRGB color space
+- color spaces,sRGB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sRGB: A Standard Color Space
@@ -18,12 +30,12 @@ WCS 1.0 provides native support for sRGB. There are two ways to use WCS 1.0 for 
 **To render an image inside the device context**
 
 1.  Create a device context (DC) on the display device.
-2.  Set color management using the [**SetICMMode**](seticmmode.md) function.
+2.  Set color management using the [**SetICMMode**](/windows/win32/Wingdi/nf-wingdi-seticmmode?branch=master) function.
 3.  Use the [**SetDIBitsToDevice**](https://msdn.microsoft.com/library/windows/desktop/dd162974) function to transfer the DIB into the DC. As long as the **bV5CSMType** member of the DIBs [**BITMAPV5HEADER**](using-structures-in-wcs-1-0.md#-color-windows-bitmap-header-structures) structure is set to **LCS\_sRGB**, the system will perform the appropriate color management.
 
 **To render an image outside the device context**
 
-1.  Create a transform using [**CreateColorTransform**](createcolortransform.md). The **lcsCSType** member of the [**LOGCOLORSPACE**](logcolorspace.md) structure pointed to by the *pLogColorSpace* parameter should be set to **LCS\_sRGB**. The *hDestProfile* parameter indicates the display device's color space.
+1.  Create a transform using [**CreateColorTransform**](createcolortransform.md). The **lcsCSType** member of the [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master) structure pointed to by the *pLogColorSpace* parameter should be set to **LCS\_sRGB**. The *hDestProfile* parameter indicates the display device's color space.
 2.  Use the created color transform to color match the image before displaying it on the device.
 
 ## WCS 1.0 Defaults for Input Color Space and Output Profile
@@ -51,7 +63,7 @@ Beginning with ICM version 2.0, applications that utilize WCS can embed profiles
 
 Images that use the sRGB color space do not need an embedded color profile. Because they have no embedded profile, sRGB-based images are smaller and more readily transferable across data channels with limited bandwidth.
 
-Applications should set the **LCS\_sRGB** flag in the image's bitmap header to indicate that the image uses the sRGB color space. For details, see [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md#-color-windows-bitmap-header-structures) and [**LOGCOLORSPACE**](logcolorspace.md).
+Applications should set the **LCS\_sRGB** flag in the image's bitmap header to indicate that the image uses the sRGB color space. For details, see [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md#-color-windows-bitmap-header-structures) and [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master).
 
  
 

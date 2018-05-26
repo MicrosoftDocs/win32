@@ -1,13 +1,24 @@
 ---
 title: Using PlaySound to Loop Sounds
 description: Using PlaySound to Loop Sounds
-ms.assetid: '747b9a76-5ff3-488e-ba85-c4d926e1e723'
-keywords: ["waveform audio,PlaySound function", "waveform audio,looping sounds", "waveform audio,fdwSound parameter", "PlaySound function,looping sounds", "PlaySound function,fdwSound parameter", "looping waveform-audio sounds"]
+ms.assetid: 747b9a76-5ff3-488e-ba85-c4d926e1e723
+keywords:
+- waveform audio,PlaySound function
+- waveform audio,looping sounds
+- waveform audio,fdwSound parameter
+- PlaySound function,looping sounds
+- PlaySound function,fdwSound parameter
+- looping waveform-audio sounds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using PlaySound to Loop Sounds
 
-If you specify the SND\_LOOP and SND\_ASYNC flags for the *fdwSound* parameter of the [**PlaySound**](playsound.md) function, the sound will continue to play repeatedly as shown in the following example:
+If you specify the SND\_LOOP and SND\_ASYNC flags for the *fdwSound* parameter of the [**PlaySound**](/windows/win32/Mmsystem/?branch=master) function, the sound will continue to play repeatedly as shown in the following example:
 
 
 ```C++

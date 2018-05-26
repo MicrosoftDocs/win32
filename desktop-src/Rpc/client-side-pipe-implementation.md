@@ -1,7 +1,12 @@
 ---
 title: Client-Side Pipe Implementation
 description: Client-side pipe implementation in Remote Procedure Call (RPC).
-ms.assetid: 'd790f859-47a9-4b6c-a218-8cbe05db21b6'
+ms.assetid: d790f859-47a9-4b6c-a218-8cbe05db21b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client-Side Pipe Implementation

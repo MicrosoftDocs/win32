@@ -1,8 +1,17 @@
 ---
 title: Attributes for Video Files
 description: Attributes for Video Files
-ms.assetid: '4250ad27-075e-4daa-bc04-d24ddd2e8252'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,video files"]
+ms.assetid: 4250ad27-075e-4daa-bc04-d24ddd2e8252
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,video files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes for Video Files

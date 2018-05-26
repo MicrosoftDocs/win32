@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdValue SetValueType method
 description: Sets the value type of the MetricThresholdValue.
-ms.assetid: '68AA8319-2EAC-4186-A195-1C2B77383D88'
-keywords: ["SetValueType method Access Execution Engine", "SetValueType method Access Execution Engine , MetricThresholdValue interface", "MetricThresholdValue interface Access Execution Engine , SetValueType method"]
+ms.assetid: 68AA8319-2EAC-4186-A195-1C2B77383D88
+keywords:
+- SetValueType method Access Execution Engine
+- SetValueType method Access Execution Engine , MetricThresholdValue interface
+- MetricThresholdValue interface Access Execution Engine , SetValueType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValue::SetValueType method
@@ -22,7 +30,7 @@ Sets the value type of the **MetricThresholdValue**.
 
 ```C++
 virtual HRESULT SetValueType(
-  [in] MetricThresholdValueValueType valueType
+  [in] MetricThresholdValueValueType valueType
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The value type is the value of element **MetricThresholdValue/ValueType**. See [
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The value type is the value of element **MetricThresholdValue/ValueType**. See [
 [**MetricThresholdValue**](metricthresholdvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

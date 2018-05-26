@@ -1,12 +1,17 @@
-﻿---
-Description: 'Name properties are properties of certificates and certificate requests that represent data about the subject, that is, the owner of the certificate or the individual for whom a certificate is requested.'
-ms.assetid: 'c32756f7-4431-410e-ab3a-c7b748a43829'
+---
+Description: Name properties are properties of certificates and certificate requests that represent data about the subject, that is, the owner of the certificate or the individual for whom a certificate is requested.
+ms.assetid: c32756f7-4431-410e-ab3a-c7b748a43829
 title: Name Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Properties
 
-Name properties are properties of certificates and certificate requests that represent data about the subject, that is, the owner of the certificate or the individual for whom a certificate is requested. Each name property is identified by a property name. These names are not localizable; however, name properties typically correspond to a Certificate Services database column, and you can use the Certification Authority MMC snap-in, the command line tool 'certutil -schema', or the [**IEnumCERTVIEWCOLUMN::GetDisplayName**](ienumcertviewcolumn-getdisplayname.md) method to display localized versions of the database column names.
+Name properties are properties of certificates and certificate requests that represent data about the subject, that is, the owner of the certificate or the individual for whom a certificate is requested. Each name property is identified by a property name. These names are not localizable; however, name properties typically correspond to a Certificate Services database column, and you can use the Certification Authority MMC snap-in, the command line tool 'certutil -schema', or the [**IEnumCERTVIEWCOLUMN::GetDisplayName**](/windows/win32/Certview/nf-certview-ienumcertviewcolumn-getdisplayname?branch=master) method to display localized versions of the database column names.
 
 The property name (but not the aliases) may have "Subject." as an optional prefix. For example, to refer to the subject's common name, you can use either "CommonName" or "Subject.CommonName".
 
@@ -43,9 +48,9 @@ The following properties are related to the subject, although they are not name 
 
 | Property                    | Data type                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| "Request.DistinguishedName" | **String** (max 8192 chars) | The [*relative distinguished name*](security.r_gly#-security-relative-distinguished-name-gly) for the request, a textual representation of the subject in the request. This representation consists of name properties, for example, "CN=MyName, OU=MyOrgUnit, C=US". The Certificate Services application sets this property before calling the policy module, by calling [**CertNameToStr**](certnametostr.md) using the RawRequest's Subject. |
+| "Request.DistinguishedName" | **String** (max 8192 chars) | The [*relative distinguished name*](security.r_gly#-security-relative-distinguished-name-gly) for the request, a textual representation of the subject in the request. This representation consists of name properties, for example, "CN=MyName, OU=MyOrgUnit, C=US". The Certificate Services application sets this property before calling the policy module, by calling [**CertNameToStr**](/windows/win32/Wincrypt/nf-wincrypt-certnametostra?branch=master) using the RawRequest's Subject. |
 | "Request.RawName"           | **Binary** (max 4096 bytes) | [*Abstract Syntax Notation One*](security.a_gly#-security-abstract-syntax-notation-one-gly) (ASN.1) binary subject [*BLOB*](security.b_gly#-security-blob-gly) extracted from the request. The Certificate Services application sets this property before calling the policy module; its value is determined by the RawRequest's Subject.                                                                                     |
-| "DistinguishedName"         | **String** (max 8192 chars) | The relative distinguished name for the certificate, a textual representation of the subject in the certificate. This representation consists of name properties, for example, "CN=MyName, OU=MyOrgUnit, C=US". The Certificate Services application sets this property after calling the policy module, by calling [**CertNameToStr**](certnametostr.md) using the RawName.                                                                                                               |
+| "DistinguishedName"         | **String** (max 8192 chars) | The relative distinguished name for the certificate, a textual representation of the subject in the certificate. This representation consists of name properties, for example, "CN=MyName, OU=MyOrgUnit, C=US". The Certificate Services application sets this property after calling the policy module, by calling [**CertNameToStr**](/windows/win32/Wincrypt/nf-wincrypt-certnametostra?branch=master) using the RawName.                                                                                                               |
 | "RawName"                   | **Binary** (max 4096 bytes) | ASN.1 binary subject [*BLOB*](security.b_gly#-security-blob-gly) used to construct the certificate. The Certificate Services application sets this property after calling the policy module; its value is determined by the values of specific name properties (Subject.CommonName and so on) as directed by the SubjectTemplate.                                                                                                                                        |
 
 
@@ -75,19 +80,19 @@ All of the preceding properties except DistinguishedName, RawName, and Subject.C
 [Certificate Properties](certificate-properties.md)
 </dt> <dt>
 
-[**ICertServerExit::GetCertificateProperty**](icertserverexit-getcertificateproperty.md)
+[**ICertServerExit::GetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverexit-getcertificateproperty?branch=master)
 </dt> <dt>
 
-[**ICertServerExit::GetRequestProperty**](icertserverexit-getrequestproperty.md)
+[**ICertServerExit::GetRequestProperty**](/windows/win32/Certif/nf-certif-icertserverexit-getrequestproperty?branch=master)
 </dt> <dt>
 
-[**ICertServerPolicy::GetCertificateProperty**](icertserverpolicy-getcertificateproperty.md)
+[**ICertServerPolicy::GetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-getcertificateproperty?branch=master)
 </dt> <dt>
 
-[**ICertServerPolicy::GetRequestProperty**](icertserverpolicy-getrequestproperty.md)
+[**ICertServerPolicy::GetRequestProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-getrequestproperty?branch=master)
 </dt> <dt>
 
-[**ICertServerPolicy::SetCertificateProperty**](icertserverpolicy-setcertificateproperty.md)
+[**ICertServerPolicy::SetCertificateProperty**](/windows/win32/Certif/nf-certif-icertserverpolicy-setcertificateproperty?branch=master)
 </dt> </dl>
 
  

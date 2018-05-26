@@ -4,11 +4,12 @@ description: Updates the account access settings for a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '84AED831-0E32-46A8-881C-FDF391BFE8F4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 84AED831-0E32-46A8-881C-FDF391BFE8F4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS control code Failover Cluster"]
+keywords:
+- CLUSCTL_CLUSTER_SET_ACCOUNT_ACCESS control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -18,6 +19,9 @@ api_location:
 - MSClus.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_CLUSTER\_SET\_ACCOUNT\_ACCESS control code
@@ -40,7 +44,7 @@ ClusterControl( hCluster,       // cluster handle
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterControl**](clustercontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master).
 
 <dl> <dt>
 
@@ -53,7 +57,7 @@ A pointer to a [property list](property-lists.md) that contains the new values f
 
 ## Return value
 
-[**ClusterControl**](clustercontrol.md) returns one of the following values.
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -94,17 +98,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_CLUSTER\_SET\_ACCOUNT\_ACCESS (0x07400
 
 | Component      | Bit location | Value                                                 |
 |----------------|--------------|-------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>            |
+| Object code    | 24 31        | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>            |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                |
 | Modify bit     | 22           | **CLUS\_MODIFY** (0x1)<br/>                     |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>             |
 | Type bit       | 20           | External (0x0)<br/>                             |
-| Operation code | 0–23         | **CLCTL\_SET\_ACCOUNT\_ACCESS** (0x4000F2)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_WRITE** (0x2)<br/>              |
+| Operation code | 0 23         | **CLCTL\_SET\_ACCOUNT\_ACCESS** (0x4000F2)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_WRITE** (0x2)<br/>              |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -113,7 +117,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_CLUSTER\_SET\_ACCOUNT\_ACCESS (0x07400
 |                                     |                                                                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                                                                       |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                                                                       |
 | Header<br/>                   | <dl> <dt>ClusAPI.h; </dt> <dt>MSClus.h</dt> </dl> |
 
 
@@ -122,7 +126,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_CLUSTER\_SET\_ACCOUNT\_ACCESS (0x07400
 
 <dl> <dt>
 
-[**ClusterSetAccountAccess**](clustersetaccountaccess.md)
+[**ClusterSetAccountAccess**](/windows/previous-versions/ClusAPI/nc-clusapi-pcluster_set_account_access?branch=master)
 </dt> <dt>
 
 [External Resource Control Codes](external-resource-control-codes.md)
@@ -131,9 +135,9 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_CLUSTER\_SET\_ACCOUNT\_ACCESS (0x07400
 [Control Codes](about-control-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Tuning with the Video Control
 description: Tuning with the Video Control
-ms.assetid: 'e0f8845c-d651-4e33-9a60-b96a3c55a243'
+ms.assetid: e0f8845c-d651-4e33-9a60-b96a3c55a243
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tuning with the Video Control

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines whether the current tessellation mode is discrete or continuous.'
-ms.assetid: 'd8055a25-6a8e-4018-a993-762f6f0e0cd3'
+---
+Description: Defines whether the current tessellation mode is discrete or continuous.
+ms.assetid: d8055a25-6a8e-4018-a993-762f6f0e0cd3
 title: D3DPATCHEDGESTYLE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPATCHEDGESTYLE enumeration

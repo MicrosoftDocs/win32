@@ -1,7 +1,12 @@
 ---
-Description: 'The SET statement specifies PROPERTYNAME and RANKMETHOD options for the query.'
-ms.assetid: '14b833a5-5e6a-4f1a-b15e-3b32d7e0df37'
+Description: The SET statement specifies PROPERTYNAME and RANKMETHOD options for the query.
+ms.assetid: 14b833a5-5e6a-4f1a-b15e-3b32d7e0df37
 title: SET Statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SET Statement

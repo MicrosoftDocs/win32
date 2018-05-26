@@ -1,7 +1,12 @@
 ---
 title: Changes to COM in Windows Vista
-ms.assetid: 'b0f843ff-b50f-4cff-8e74-89bfcea8ce62'
+ms.assetid: b0f843ff-b50f-4cff-8e74-89bfcea8ce62
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changes to COM in Windows Vista

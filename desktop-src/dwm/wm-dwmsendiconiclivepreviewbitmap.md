@@ -1,8 +1,9 @@
 ---
 title: WM\_DWMSENDICONICLIVEPREVIEWBITMAP message
 description: Instructs a window to provide a static bitmap to use as a live preview (also known as a Peek preview) of that window.
-ms.assetid: '24bf3b42-a850-4aa5-966a-29baab6b4d21'
-keywords: ["WM_DWMSENDICONICLIVEPREVIEWBITMAP message Desktop Window Manager"]
+ms.assetid: 24bf3b42-a850-4aa5-966a-29baab6b4d21
+keywords:
+- WM_DWMSENDICONICLIVEPREVIEWBITMAP message Desktop Window Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DWMSENDICONICLIVEPREVIEWBITMAP message
@@ -46,14 +52,14 @@ A *live preview* (also known as a *Peek preview*) of a window appears when a use
 Desktop Window Manager (DWM) sends this message to a window if all of the following situations are true:
 
 -   Live preview has been invoked on the window.
--   The [**DWMWA\_HAS\_ICONIC\_BITMAP**](dwmwindowattribute.md) attribute is set on the window.
+-   The [**DWMWA\_HAS\_ICONIC\_BITMAP**](/windows/win32/Dwmapi/ne-dwmapi-dwmwindowattribute?branch=master) attribute is set on the window.
 -   An iconic representation is the only one that exists for this window.
 
-The window that receives this message should respond by generating a full-scale bitmap. The window then calls the [**DwmSetIconicLivePreviewBitmap**](dwmseticoniclivepreviewbitmap.md) function to set the live preview. If the window does not set a bitmap in a given amount of time, DWM uses its own default iconic representation for the window.
+The window that receives this message should respond by generating a full-scale bitmap. The window then calls the [**DwmSetIconicLivePreviewBitmap**](/windows/win32/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap?branch=master) function to set the live preview. If the window does not set a bitmap in a given amount of time, DWM uses its own default iconic representation for the window.
 
 ## Examples
 
-The following example demonstrates a response to the **WM\_DWMSENDICONICLIVEPREVIEWBITMAP** message. The example calls the [**DwmSetIconicLivePreviewBitmap**](dwmseticoniclivepreviewbitmap.md) function with a handle to a customized, device-independent bitmap to use as the window's representation.
+The following example demonstrates a response to the **WM\_DWMSENDICONICLIVEPREVIEWBITMAP** message. The example calls the [**DwmSetIconicLivePreviewBitmap**](/windows/win32/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap?branch=master) function with a handle to a customized, device-independent bitmap to use as the window's representation.
 
 
 ```C++
@@ -88,8 +94,8 @@ For the complete code, see the [Customize an Iconic Thumbnail and a Live Preview
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Dwmapi.h</dt> </dl> |
 
 
@@ -101,12 +107,12 @@ For the complete code, see the [Customize an Iconic Thumbnail and a Live Preview
 [**WM\_DWMSENDICONICTHUMBNAIL**](wm-dwmsendiconicthumbnail.md)
 </dt> <dt>
 
-[**DwmInvalidateIconicBitmaps**](dwminvalidateiconicbitmaps.md)
+[**DwmInvalidateIconicBitmaps**](/windows/win32/Dwmapi/nf-dwmapi-dwminvalidateiconicbitmaps?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

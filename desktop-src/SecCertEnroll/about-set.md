@@ -1,12 +1,17 @@
 ---
-Description: 'A SET contains an unordered series of fields of one or more types.'
-ms.assetid: '6bbe89da-1177-4cfa-9515-03b271e5ef6b'
+Description: A SET contains an unordered series of fields of one or more types.
+ms.assetid: 6bbe89da-1177-4cfa-9515-03b271e5ef6b
 title: SET
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SET
 
-A **SET** contains an unordered series of fields of one or more types. It is encoded into a TLV triplet that begins with a **Tag** byte of 0x31. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how a **ClientId** attribute is encoded in a **SET** data structure. The attribute can be specified by using the [**IX509AttributeClientId**](ix509attributeclientid.md) interface.
+A **SET** contains an unordered series of fields of one or more types. It is encoded into a TLV triplet that begins with a **Tag** byte of 0x31. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how a **ClientId** attribute is encoded in a **SET** data structure. The attribute can be specified by using the [**IX509AttributeClientId**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeclientid?branch=master) interface.
 
 ``` syntax
 31 59                                     ; SET (59 Bytes)

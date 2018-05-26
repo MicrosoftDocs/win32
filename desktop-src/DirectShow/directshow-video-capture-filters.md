@@ -1,7 +1,12 @@
 ---
 Description: DirectShow Video Capture Filters
-ms.assetid: 'e4d1452d-ceac-4b5c-b9ba-ad4722ecff76'
+ms.assetid: e4d1452d-ceac-4b5c-b9ba-ad4722ecff76
 title: DirectShow Video Capture Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow Video Capture Filters
@@ -12,7 +17,7 @@ Capture filters in DirectShow have some features that distinguish them from othe
 
 A capture filter often has two or more output pins that deliver the same kind of data—for example, a preview pin and a capture pin. Therefore, media types are not a good way to distinguish the pins. Instead, the pins are distinguished by their functionality, which is identified using a GUID, called the *pin category*.
 
-For a discussion of how to query pins for their category, see [Working with Pin Categories](working-with-pin-categories.md). For most applications, however, you will not have to query pins directly. Instead, various [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) methods take parameters that specify the pin category on which to operate. The Capture Graph Builder automatically locates the correct pin.
+For a discussion of how to query pins for their category, see [Working with Pin Categories](working-with-pin-categories.md). For most applications, however, you will not have to query pins directly. Instead, various [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) methods take parameters that specify the pin category on which to operate. The Capture Graph Builder automatically locates the correct pin.
 
 **Preview Pins and Capture Pins**
 

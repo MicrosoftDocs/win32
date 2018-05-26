@@ -1,8 +1,11 @@
 ---
 title: Vector.Date property
 description: Sets or retrieves the Vector of integers from a date.
-ms.assetid: '0059cee2-c60d-438c-ab03-67a99cec7e09'
-keywords: ["Date property WIA Automation", "Date property WIA Automation , Vector object", "Vector object WIA Automation , Date property"]
+ms.assetid: 0059cee2-c60d-438c-ab03-67a99cec7e09
+keywords:
+- Date property WIA Automation
+- Date property WIA Automation , Vector object
+- Vector object WIA Automation , Date property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.Date property
@@ -45,8 +53,8 @@ For example code, see [Enumerate Root Level Items and Display Their Names](-wiaa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -59,9 +67,9 @@ For example code, see [Enumerate Root Level Items and Display Their Names](-wiaa
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

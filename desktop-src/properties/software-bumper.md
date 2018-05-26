@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '53f71cab-9d5a-431b-92f8-a0172856a94f'
+---
+Description: .
+ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: Software
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Software

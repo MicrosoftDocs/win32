@@ -1,7 +1,12 @@
 ---
 title: Type Attribute (Fill)(VML)
 description: Type Attribute (Fill)(VML)
-ms.assetid: '5dcc53cd-a156-48cd-ae32-951660d91556'
+ms.assetid: 5dcc53cd-a156-48cd-ae32-951660d91556
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Attribute (Fill)(VML)

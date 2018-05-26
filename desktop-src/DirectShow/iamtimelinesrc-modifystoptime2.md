@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ModifyStopTime2 method sets the stop time. This method is equivalent to IAMTimelineSrc::ModifyStopTime, but takes a REFTIME value.'
-ms.assetid: '8bebda47-3e52-42a2-870c-acc14561fa25'
-title: 'IAMTimelineSrc::ModifyStopTime2 method'
+---
+Description: The ModifyStopTime2 method sets the stop time. This method is equivalent to IAMTimelineSrcModifyStopTime, but takes a REFTIME value.
+ms.assetid: 8bebda47-3e52-42a2-870c-acc14561fa25
+title: IAMTimelineSrcModifyStopTime2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::ModifyStopTime2 method

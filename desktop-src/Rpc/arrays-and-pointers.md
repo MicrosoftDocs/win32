@@ -1,8 +1,14 @@
 ---
 title: Arrays and Pointers
 description: Remote Procedure Call (RPC) is designed to be mostly transparent to developers.
-ms.assetid: '5ad5a51d-a821-44a5-bbc3-14409cb42cb4'
-keywords: ["Remote Procedure Call RPC , described, arrays and pointers"]
+ms.assetid: 5ad5a51d-a821-44a5-bbc3-14409cb42cb4
+keywords:
+- Remote Procedure Call RPC , described, arrays and pointers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arrays and Pointers

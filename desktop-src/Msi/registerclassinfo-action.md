@@ -1,7 +1,12 @@
 ---
-Description: 'The RegisterClassInfo action manages the registration of COM class information with the system. It uses the AppId table.'
-ms.assetid: 'f8b60a75-9c0e-41c5-b6af-6a05a26b2d71'
+Description: The RegisterClassInfo action manages the registration of COM class information with the system. It uses the AppId table.
+ms.assetid: f8b60a75-9c0e-41c5-b6af-6a05a26b2d71
 title: RegisterClassInfo Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterClassInfo Action

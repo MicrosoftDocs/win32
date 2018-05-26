@@ -1,7 +1,12 @@
 ---
-Description: 'The following code examples demonstrate how to perform the following tasks associated with Windows messages and message queues.'
-ms.assetid: '62b4616c-37bf-4d9f-8891-7010c7035d18'
+Description: The following code examples demonstrate how to perform the following tasks associated with Windows messages and message queues.
+ms.assetid: 62b4616c-37bf-4d9f-8891-7010c7035d18
 title: Using Messages and Message Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Messages and Message Queues
@@ -19,7 +24,7 @@ The system does not automatically create a message queue for each thread. Instea
 
 Because the system directs messages to individual windows in an application, a thread must create at least one window before starting its message loop. Most applications contain a single thread that creates windows. A typical application registers the window class for its main window, creates and shows the main window, and then starts its message loop — all in the [**WinMain**](winmain.md) function.
 
-You create a message loop by using the [**GetMessage**](getmessage.md) and [**DispatchMessage**](dispatchmessage.md) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](translatemessage.md) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](winmain.md) function of a simple Windows-based application.
+You create a message loop by using the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) and [**DispatchMessage**](dispatchmessage.md) functions. If your application must obtain character input from the user, include the [**TranslateMessage**](translatemessage.md) function in the loop. **TranslateMessage** translates virtual-key messages into character messages. The following example shows the message loop in the [**WinMain**](winmain.md) function of a simple Windows-based application.
 
 
 ```
@@ -137,7 +142,7 @@ while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
 
 Occasionally, an application needs to examine the contents of a thread's message queue from outside the thread's message loop. For example, if an application's window procedure performs a lengthy drawing operation, you may want the user to be able to interrupt the operation. Unless your application periodically examines the message queue during the operation for mouse and keyboard messages, it will not respond to user input until after the operation has completed. The reason for this is that the [**DispatchMessage**](dispatchmessage.md) function in the thread's message loop does not return until the window procedure finishes processing a message.
 
-You can use the [**PeekMessage**](peekmessage.md) function to examine a message queue during a lengthy operation. **PeekMessage** is similar to the [**GetMessage**](getmessage.md) function; both check a message queue for a message that matches the filter criteria and then copy the message to an [**MSG**](msg.md) structure. The main difference between the two functions is that **GetMessage** does not return until a message matching the filter criteria is placed in the queue, whereas **PeekMessage** returns immediately regardless of whether a message is in the queue.
+You can use the [**PeekMessage**](peekmessage.md) function to examine a message queue during a lengthy operation. **PeekMessage** is similar to the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function; both check a message queue for a message that matches the filter criteria and then copy the message to an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure. The main difference between the two functions is that **GetMessage** does not return until a message matching the filter criteria is placed in the queue, whereas **PeekMessage** returns immediately regardless of whether a message is in the queue.
 
 The following example shows how to use [**PeekMessage**](peekmessage.md) to examine a message queue for mouse clicks and keyboard input during a lengthy operation.
 
@@ -181,7 +186,7 @@ Other functions, including [**GetQueueStatus**](getqueuestatus.md) and [**GetInp
 
 ## Posting a Message
 
-You can post a message to a message queue by using the [**PostMessage**](postmessage.md) function. **PostMessage** places a message at the end of a thread's message queue and returns immediately, without waiting for the thread to process the message. The function's parameters include a window handle, a message identifier, and two message parameters. The system copies these parameters to an [**MSG**](msg.md) structure, fills the **time** and **pt** members of the structure, and places the structure in the message queue.
+You can post a message to a message queue by using the [**PostMessage**](postmessage.md) function. **PostMessage** places a message at the end of a thread's message queue and returns immediately, without waiting for the thread to process the message. The function's parameters include a window handle, a message identifier, and two message parameters. The system copies these parameters to an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure, fills the **time** and **pt** members of the structure, and places the structure in the message queue.
 
 The system uses the window handle passed with the [**PostMessage**](postmessage.md) function to determine which thread message queue should receive the message. If the handle is **HWND\_TOPMOST**, the system posts the message to the thread message queues of all top-level windows.
 

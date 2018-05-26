@@ -1,8 +1,11 @@
 ---
 title: CopyObject method of the BcdStore class
 description: Copies the specified object from another store.
-ms.assetid: '398dbf15-aeec-4984-8fde-6231b230c589'
-keywords: ["CopyObject method Boot Config", "CopyObject method Boot Config , BcdStore class", "BcdStore class Boot Config , CopyObject method"]
+ms.assetid: 398dbf15-aeec-4984-8fde-6231b230c589
+keywords:
+- CopyObject method Boot Config
+- CopyObject method Boot Config , BcdStore class
+- BcdStore class Boot Config , CopyObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CopyObject method of the BcdStore class
@@ -22,10 +30,10 @@ Copies the specified object from another store.
 
 ```mof
 boolean CopyObject(
-  [in]  string    SourceStoreFile,
-  [in]  string    SourceId,
-  [in]  uint32    Flags,
-  [out] BcdObject Object
+  [in]  string    SourceStoreFile,
+  [in]  string    SourceId,
+  [in]  uint32    Flags,
+  [out] BcdObject Object
 );
 ```
 
@@ -63,7 +71,7 @@ This parameter can be neither, one, or both of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,8 +88,8 @@ A Bcdobject instance that represents the copied object in the target store.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -94,9 +102,9 @@ A Bcdobject instance that represents the copied object in the target store.
 [**BcdStore**](bcdstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

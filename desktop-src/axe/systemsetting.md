@@ -1,8 +1,9 @@
 ---
 title: SystemSetting enumeration
 description: Specifies the type of system settings to retrieve or set.
-ms.assetid: '8EA9EA90-543D-4127-938B-68E2F363BB6A'
-keywords: ["SystemSetting enumeration Access Execution Engine"]
+ms.assetid: 8EA9EA90-543D-4127-938B-68E2F363BB6A
+keywords:
+- SystemSetting enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemSetting enumeration
@@ -22,60 +28,60 @@ Specifies the type of system settings to retrieve or set.
 
 ```C++
 enum SystemSetting {
-  SystemSettingNone                       = 0, 
-  SystemSettingFlagGetBool                = 65536,                                                                                          // 0x10000
-  SystemSettingFlagSetBoolFalse           = 16777216,                                                                                       // 0x1000000
-  SystemSettingFlagSetBoolTrue            = 33554432,                                                                                       // 0x2000000
-  SystemSettingBatteryPresent             = 1 | SystemSettingFlagGetBool, 
-  SystemSettingOnACPower                  = 2 | SystemSettingFlagGetBool, 
-  SystemSettingElevated                   = 3 | SystemSettingFlagGetBool, 
-  SystemSettingPioModeOnSystemDrive       = 4 | SystemSettingFlagGetBool, 
-  SystemSettingUsingBasicDisplay          = 5 | SystemSettingFlagGetBool, 
-  SystemSettingIEPresent                  = 6 | SystemSettingFlagGetBool, 
-  SystemSettingAutoLogOnEnabled           = 7 | SystemSettingFlagGetBool, 
-  SystemSettingAntivirusActive            = 8 | SystemSettingFlagGetBool, 
-  SystemSettingKernelDebuggerEnabled      = 9 | SystemSettingFlagGetBool, 
-  SystemSettingDriverVerifierEnabled      = 10 | SystemSettingFlagGetBool, 
-  SystemSettingProblemDevicesExist        = 11 | SystemSettingFlagGetBool, 
-  SystemSettingPowerProfileMinSavings     = 12 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolTrue, 
-  SystemSettingPowerProfileBalanced       = 13 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolTrue, 
-  SystemSettingPowerProfileMaxSavings     = 14 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolTrue, 
-  SystemSettingLowBatteryAction           = 15 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingScreensaver                = 16 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingCriticalBatteryAction      = 17 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingAutoSleepAC                = 18 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingAutoSleepDC                = 19 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingAutoHibernateAC            = 20 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingAutoHibernateDC            = 21 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingDisplayTimeoutAC           = 22 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingDisplayTimeoutDC           = 23 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingDisplayDimAC               = 24 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingDisplayDimDC               = 25 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingVolumeShadowCopy           = 26 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingWindowsAutoUpdate          = 27 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingWirelessAdaptersConnected  = 28 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingLockOnWakeAC               = 29 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingLockOnWakeDC               = 30 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
-  SystemSettingWakeOnTimerAC              = 31 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingWakeOnTimerDC              = 32 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingHibernateOn                = 33 | SystemSettingFlagGetBool, 
-  SystemSettingSuspendOn                  = 34 | SystemSettingFlagGetBool, 
-  SystemSettingFastStartupOn              = 35 | SystemSettingFlagGetBool, 
-  SystemSettingShowExtensions             = 36 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingShowAllObjects             = 37 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingScreenBackground           = 38 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingIEFirstRun                 = 39 | SystemSettingFlagSetBoolFalse, 
-  SystemSettingScreensaverSecure          = 40 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingTracingRunning             = 41 | SystemSettingFlagGetBool, 
-  SystemSettingAudioRenderDevicePresent   = 42 | SystemSettingFlagGetBool, 
-  SystemSettingDisplayBootMenu            = 43 | SystemSettingFlagGetBool, 
-  SystemSettingConnectedStandbyOn         = 44 | SystemSettingFlagGetBool, 
-  SystemSettingAllowDisplayRequiredAC     = 45 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingAllowDisplayRequiredDC     = 46 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingAllowExecutionRequiredAC   = 47  | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingAllowExecutionRequiredDC   = 48  | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingIEWarnOnIntranet           = 49  | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
-  SystemSettingLockScreen                 = 50 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue 
+  SystemSettingNone                       = 0, 
+  SystemSettingFlagGetBool                = 65536,                                                                                          // 0x10000
+  SystemSettingFlagSetBoolFalse           = 16777216,                                                                                       // 0x1000000
+  SystemSettingFlagSetBoolTrue            = 33554432,                                                                                       // 0x2000000
+  SystemSettingBatteryPresent             = 1 | SystemSettingFlagGetBool, 
+  SystemSettingOnACPower                  = 2 | SystemSettingFlagGetBool, 
+  SystemSettingElevated                   = 3 | SystemSettingFlagGetBool, 
+  SystemSettingPioModeOnSystemDrive       = 4 | SystemSettingFlagGetBool, 
+  SystemSettingUsingBasicDisplay          = 5 | SystemSettingFlagGetBool, 
+  SystemSettingIEPresent                  = 6 | SystemSettingFlagGetBool, 
+  SystemSettingAutoLogOnEnabled           = 7 | SystemSettingFlagGetBool, 
+  SystemSettingAntivirusActive            = 8 | SystemSettingFlagGetBool, 
+  SystemSettingKernelDebuggerEnabled      = 9 | SystemSettingFlagGetBool, 
+  SystemSettingDriverVerifierEnabled      = 10 | SystemSettingFlagGetBool, 
+  SystemSettingProblemDevicesExist        = 11 | SystemSettingFlagGetBool, 
+  SystemSettingPowerProfileMinSavings     = 12 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolTrue, 
+  SystemSettingPowerProfileBalanced       = 13 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolTrue, 
+  SystemSettingPowerProfileMaxSavings     = 14 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolTrue, 
+  SystemSettingLowBatteryAction           = 15 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingScreensaver                = 16 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingCriticalBatteryAction      = 17 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingAutoSleepAC                = 18 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingAutoSleepDC                = 19 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingAutoHibernateAC            = 20 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingAutoHibernateDC            = 21 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingDisplayTimeoutAC           = 22 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingDisplayTimeoutDC           = 23 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingDisplayDimAC               = 24 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingDisplayDimDC               = 25 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingVolumeShadowCopy           = 26 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingWindowsAutoUpdate          = 27 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingWirelessAdaptersConnected  = 28 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingLockOnWakeAC               = 29 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingLockOnWakeDC               = 30 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse, 
+  SystemSettingWakeOnTimerAC              = 31 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingWakeOnTimerDC              = 32 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingHibernateOn                = 33 | SystemSettingFlagGetBool, 
+  SystemSettingSuspendOn                  = 34 | SystemSettingFlagGetBool, 
+  SystemSettingFastStartupOn              = 35 | SystemSettingFlagGetBool, 
+  SystemSettingShowExtensions             = 36 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingShowAllObjects             = 37 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingScreenBackground           = 38 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingIEFirstRun                 = 39 | SystemSettingFlagSetBoolFalse, 
+  SystemSettingScreensaverSecure          = 40 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingTracingRunning             = 41 | SystemSettingFlagGetBool, 
+  SystemSettingAudioRenderDevicePresent   = 42 | SystemSettingFlagGetBool, 
+  SystemSettingDisplayBootMenu            = 43 | SystemSettingFlagGetBool, 
+  SystemSettingConnectedStandbyOn         = 44 | SystemSettingFlagGetBool, 
+  SystemSettingAllowDisplayRequiredAC     = 45 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingAllowDisplayRequiredDC     = 46 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingAllowExecutionRequiredAC   = 47  | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingAllowExecutionRequiredDC   = 48  | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingIEWarnOnIntranet           = 49  | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue, 
+  SystemSettingLockScreen                 = 50 | SystemSettingFlagGetBool | SystemSettingFlagSetBoolFalse | SystemSettingFlagSetBoolTrue 
 
 };
 ```
@@ -476,15 +482,15 @@ Managed code uses the [**SystemSetting**](axe-systemsetting_om) enum.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

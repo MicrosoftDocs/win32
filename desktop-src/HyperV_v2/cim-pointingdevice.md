@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a device used to point to regions of a display.'
-ms.assetid: 'ffc675c3-29bd-4c54-8e54-8b6212daf66d'
-title: 'CIM\_PointingDevice class'
+Description: Represents a device used to point to regions of a display.
+ms.assetid: ffc675c3-29bd-4c54-8e54-8b6212daf66d
+title: CIM\_PointingDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_PointingDevice class
@@ -15,7 +20,7 @@ Represents a device used to point to regions of a display.
 class CIM_PointingDevice : CIM_UserDevice
 {
   uint16 PointingType;
-  uint8  NumberOfButtons;
+  uint8  NumberOfButtons;
   uint16 Handedness;
   uint32 Resolution;
 };
@@ -195,8 +200,8 @@ The tracking resolution of the pointing device, in counts per inch.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -210,9 +215,9 @@ The tracking resolution of the pointing device, in counts per inch.
 [**CIM\_UserDevice**](cim-userdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

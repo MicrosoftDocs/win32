@@ -1,7 +1,12 @@
 ---
 title: baseeapmethodusercredentials Schema Complex Types
 description: Defines the following complex type.
-ms.assetid: '2ebb2030-90bb-404e-b10c-009d06599e4e'
+ms.assetid: 2ebb2030-90bb-404e-b10c-009d06599e4e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # baseeapmethodusercredentials Schema Complex Types

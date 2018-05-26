@@ -1,17 +1,22 @@
 ---
-Description: 'QueryAccept (Downstream)'
-ms.assetid: '3ca30f62-c320-40ea-9bf5-022abad912c4'
-title: 'QueryAccept (Downstream)'
+Description: QueryAccept (Downstream)
+ms.assetid: 3ca30f62-c320-40ea-9bf5-022abad912c4
+title: QueryAccept (Downstream)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryAccept (Downstream)
 
 This mechanism enables an output pin to propose a new format to its downstream peer. The new format must not require a larger buffer size. The output pin does the following:
 
-1.  Calls [**IPin::QueryAccept**](ipin-queryaccept.md) or [**IPinConnection::DynamicQueryAccept**](ipinconnection-dynamicqueryaccept.md) on the downstream pin, to verify whether the other pin can accept the new media type (see illustration, step A).
-2.  If the return value from step 1 is S\_OK, the pin attaches the media type to the next sample. To do this, first it calls [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) to obtain the sample (B). Then it calls [**IMediaSample::SetMediaType**](imediasample-setmediatype.md) to attach the media type to that sample (C). By attaching the media type to the sample, the filter indicates that the format has changed, starting with that sample.
+1.  Calls [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) or [**IPinConnection::DynamicQueryAccept**](/windows/win32/Strmif/nf-strmif-ipinconnection-dynamicqueryaccept?branch=master) on the downstream pin, to verify whether the other pin can accept the new media type (see illustration, step A).
+2.  If the return value from step 1 is S\_OK, the pin attaches the media type to the next sample. To do this, first it calls [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) to obtain the sample (B). Then it calls [**IMediaSample::SetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-setmediatype?branch=master) to attach the media type to that sample (C). By attaching the media type to the sample, the filter indicates that the format has changed, starting with that sample.
 3.  The pin delivers the sample (D).
-4.  When the downstream filter receives the sample, it calls [**IMediaSample::GetMediaType**](imediasample-getmediatype.md) to retrieve the new media type.
+4.  When the downstream filter receives the sample, it calls [**IMediaSample::GetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatype?branch=master) to retrieve the new media type.
 
     ![queryaccept (downstream)](images/dynformat3.png)
 

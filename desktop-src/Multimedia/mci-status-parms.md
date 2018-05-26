@@ -1,8 +1,9 @@
 ---
 title: MCI\_STATUS\_PARMS structure
 description: The MCI\_STATUS\_PARMS structure contains information for the MCI\_STATUS command.
-ms.assetid: 'c4897b34-4184-46aa-af17-2127edfbf82d'
-keywords: ["MCI_STATUS_PARMS structure Windows Multimedia"]
+ms.assetid: c4897b34-4184-46aa-af17-2127edfbf82d
+keywords:
+- MCI_STATUS_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_STATUS\_PARMS structure
@@ -24,8 +30,8 @@ The **MCI\_STATUS\_PARMS** structure contains information for the [**MCI\_STATUS
 typedef struct {
   DWORD_PTR dwCallback;
   DWORD_PTR dwReturn;
-  DWORD     dwItem;
-  DWORD     dwTrack;
+  DWORD     dwItem;
+  DWORD     dwTrack;
 } MCI_STATUS_PARMS;
 ```
 
@@ -65,7 +71,7 @@ Length or number of tracks.
 
 ## Remarks
 
-The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the **dwItem** member, which should contain one of the constants indicating what status information is being requested.
+The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the **dwItem** member, which should contain one of the constants indicating what status information is being requested.
 
 ## Requirements
 
@@ -73,8 +79,8 @@ The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**m
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -92,12 +98,12 @@ The MCI\_STATUS\_ITEM flag must be set in the *fdwCommand* parameter of the [**m
 [**MCI\_STATUS**](mci-status.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Writing Files to the Device
 description: Writing Files to the Device
-ms.assetid: '66eaed16-032b-4ac0-a768-aded80f10255'
-keywords: ["Windows Media Device Manager,writing files to devices", "Device Manager,writing files to devices", "programming guide,writing files to devices", "desktop applications,writing files to devices", "creating Windows Media Device Manager applications,writing files to devices", "writing files to devices,about"]
+ms.assetid: 66eaed16-032b-4ac0-a768-aded80f10255
+keywords:
+- Windows Media Device Manager,writing files to devices
+- Device Manager,writing files to devices
+- programming guide,writing files to devices
+- desktop applications,writing files to devices
+- creating Windows Media Device Manager applications,writing files to devices
+- writing files to devices,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Files to the Device
@@ -17,8 +28,8 @@ The following steps show how to send an existing file down to the device. To cre
     -   Find an acceptable format that the application can create from the original file.
     -   If the file needs to be transcoded, transcode it.
 3.  Find a parent storage for the new object. Windows Media Device Manager does not provide a way to discover the standard storage location for any particular file types (video or audio files, WMV or BMP, a "Favorites" folder, and so on), so you will have to examine each device to try to figure out where best to store the new object. (Other applications enforce a certain folder structure, for example, Windows Media Player creates Albums, Playlists and Music folders where the Music folder contains an Artist and AlbumName heirarchy. For this reason, and because some devices may not have been tested with software other than Windows Media Player, be aware that the placement of playlist or album objects in any folder other than the Playlists or Albums folders may sometimes lead to nonfunctioning objects on some devices.)
-4.  If the target storage supports [**IWMDMStorageControl3**](iwmdmstoragecontrol3.md), create a new metadata interface by calling [**IWMDMStorage3::CreateEmptyMetadataObject**](iwmdmstorage3-createemptymetadataobject.md). Set metadata on an [**IWMDMMetaData**](iwmdmmetadata.md) interface. For more information, see [Setting Metadata on a File](setting-metadata-on-a-file.md). The only required metadata is g\_wszWMDMFormatCode (a [**WMDM\_FORMATCODE**](wmdm-formatcode.md) value describing the content), but the more metadata you can provide, the more efficient the transfer will be for the service provider.
-5.  Send the file to the device by using the [**Insert**](iwmdmstoragecontrol-insert.md), [**Insert2**](iwmdmstoragecontrol2-insert2.md), or [**Insert3**](iwmdmstoragecontrol3-insert3.md) method. **Insert3** allows you to include the metadata on the device as part of the method. For more information, see [Sending the File to the Device](sending-the-file-to-the-device.md).
+4.  If the target storage supports [**IWMDMStorageControl3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstoragecontrol3?branch=master), create a new metadata interface by calling [**IWMDMStorage3::CreateEmptyMetadataObject**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject?branch=master). Set metadata on an [**IWMDMMetaData**](/windows/win32/mswmdm/nn-mswmdm-iwmdmmetadata?branch=master) interface. For more information, see [Setting Metadata on a File](setting-metadata-on-a-file.md). The only required metadata is g\_wszWMDMFormatCode (a [**WMDM\_FORMATCODE**](wmdm-formatcode.md) value describing the content), but the more metadata you can provide, the more efficient the transfer will be for the service provider.
+5.  Send the file to the device by using the [**Insert**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert?branch=master), [**Insert2**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2?branch=master), or [**Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master) method. **Insert3** allows you to include the metadata on the device as part of the method. For more information, see [Sending the File to the Device](sending-the-file-to-the-device.md).
 
 Code demonstrating each of these steps is provided on the linked topic pages.
 

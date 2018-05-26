@@ -1,7 +1,12 @@
 ---
 title: DirectX Installation for Game Developers
 description: This article is intended to address some of the common questions about the DirectX runtime, and using DirectSetup to install DirectX.
-ms.assetid: '2ab439be-8d99-bcf8-89af-d4274e044c88'
+ms.assetid: 2ab439be-8d99-bcf8-89af-d4274e044c88
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectX Installation for Game Developers
@@ -48,7 +53,7 @@ While ensuring that DLLs are installed on a system isn't as easy as simply linki
 > [!Note]  
 > See [Direct3D 11 Deployment for Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee416644) and the [D3D11InstallHelper sample](http://go.microsoft.com/fwlink/p/?LinkId=262642).
 
- 
+ 
 
 The following are the best practices for adding installation of DirectX to a game's installer:
 
@@ -93,7 +98,7 @@ or by calling DirectSetup and not showing any UI. <br/></td>
 
 
 
- 
+ 
 
 ## Small Installation Packages
 
@@ -113,7 +118,7 @@ Add to these the cabinet files for the components that you want to install. If y
 > [!Note]  
 > You can assume that users of your application already have DirectX 9.0c if it was installed by a previous version of your application, you force users to manually update via the Web Installer, or you assume that they have Windows XP SP2 or later.
 
- 
+ 
 
 Continuing with this example, if you are using only the 32-bit version of D3DX for April 2006, you can add Apr2006\_d3dx9\_30\_x86.cab. If you are using the 32-bit August 2006 32-bit version of XINPUT, you add Aug2006\_xinput\_x86.cab.
 
@@ -131,9 +136,9 @@ However, we strongly recommend that you do not simply copy the released run-time
 
 The user is expected to obtain the XInput driver for Xbox 360 controller from Windows Update or from the controller packaging. The XInput driver is included with Windows Vista.
 
- 
+ 
 
- 
+ 
 
 
 

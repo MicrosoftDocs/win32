@@ -4,11 +4,15 @@ description: A resource structure is a user-defined structure for storing instan
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24aa082d-9cb0-4e32-8cfa-da801ab3eb52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 24aa082d-9cb0-4e32-8cfa-da801ab3eb52
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLLs Failover Cluster ,resource structures"]
+keywords:
+- resource DLLs Failover Cluster ,resource structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Structures
@@ -95,7 +99,7 @@ Stores the name of the cluster database key under which the resource's private p
 <span id="hResourceHandle"></span><span id="hresourcehandle"></span><span id="HRESOURCEHANDLE"></span>**hResourceHandle**
 </dt> <dd>
 
-Stores the Resource Monitor's handle to the instance, which is used to identify the instance in the [**LogEvent**](logevent.md) and [**SetResourceStatus**](setresourcestatus.md) callback functions.
+Stores the Resource Monitor's handle to the instance, which is used to identify the instance in the [**LogEvent**](/windows/previous-versions/ResApi/nc-resapi-plog_event_routine?branch=master) and [**SetResourceStatus**](/windows/previous-versions/ResApi/nc-resapi-pset_resource_status_routine?branch=master) callback functions.
 
 </dd> <dt>
 
@@ -109,14 +113,14 @@ Stores the name of the resource.
 <span id="cwWorkerThread"></span><span id="cwworkerthread"></span><span id="CWWORKERTHREAD"></span>**cwWorkerThread**
 </dt> <dd>
 
-A [**CLUS\_WORKER**](clus-worker.md) thread used to handle pending operations.
+A [**CLUS\_WORKER**](/windows/previous-versions/ResApi/ns-resapi-clus_worker?branch=master) thread used to handle pending operations.
 
 </dd> <dt>
 
 <span id="state"></span><span id="STATE"></span>**state**
 </dt> <dd>
 
-Stores the state of the resource. The value of this member is taken from the [**CLUSTER\_RESOURCE\_STATE**](cluster-resource-state.md) enumeration. The possible values are as follows.
+Stores the state of the resource. The value of this member is taken from the [**CLUSTER\_RESOURCE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_state?branch=master) enumeration. The possible values are as follows.
 
 
 
@@ -134,7 +138,7 @@ Stores the state of the resource. The value of this member is taken from the [**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -147,12 +151,12 @@ For more information on instance management, see [Implementing Instance Manageme
 [Managing Instances](managing-instances.md)
 </dt> <dt>
 
-[**CLUSTER\_RESOURCE\_STATE**](cluster-resource-state.md)
+[**CLUSTER\_RESOURCE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

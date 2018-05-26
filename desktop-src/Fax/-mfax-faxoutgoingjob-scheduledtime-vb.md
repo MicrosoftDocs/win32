@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ScheduledTime property indicates the time to submit the fax for processing to the fax service.'
-ms.assetid: '31a21a6f-587e-40d4-864d-43c834b91d1b'
-title: 'FaxOutgoingJob.ScheduledTime property'
+---
+Description: The ScheduledTime property indicates the time to submit the fax for processing to the fax service.
+ms.assetid: 31a21a6f-587e-40d4-864d-43c834b91d1b
+title: FaxOutgoingJob.ScheduledTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.ScheduledTime property
@@ -45,7 +50,7 @@ For more information about the **Date** data type, see the *Microsoft Visual C++
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

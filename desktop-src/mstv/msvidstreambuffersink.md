@@ -1,7 +1,12 @@
 ---
 title: MSVidStreamBufferSink
 description: MSVidStreamBufferSink
-ms.assetid: '80f6cd3a-8cb8-4bda-9b66-33e7d214015a'
+ms.assetid: 80f6cd3a-8cb8-4bda-9b66-33e7d214015a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidStreamBufferSink
@@ -14,8 +19,8 @@ The **MSVidStreamBufferSink** object represents a stream buffer output device.
 
 |                           |                                                                                                                                          |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Interfaces                | [**IMSVidStreamBufferSink**](imsvidstreambuffersink.md), [**IMSVidStreamBufferSink2**](imsvidstreambuffersink2.md)                     |
-| Outgoing Event Interfaces | [**IMSVidStreamBufferSinkEvent**](imsvidstreambuffersinkevent.md), [**IMSVidStreamBufferSinkEvent2**](imsvidstreambuffersinkevent2.md) |
+| Interfaces                | [**IMSVidStreamBufferSink**](/windows/win32/segment/nn-segment-imsvidstreambuffersink?branch=master), [**IMSVidStreamBufferSink2**](/windows/win32/segment/nn-segment-imsvidstreambuffersink2?branch=master)                     |
+| Outgoing Event Interfaces | [**IMSVidStreamBufferSinkEvent**](/windows/win32/segment/nn-segment-imsvidstreambuffersinkevent?branch=master), [**IMSVidStreamBufferSinkEvent2**](/windows/win32/segment/nn-segment-imsvidstreambuffersinkevent2?branch=master) |
 
 
 

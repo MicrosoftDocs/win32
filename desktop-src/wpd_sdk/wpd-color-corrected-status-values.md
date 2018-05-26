@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration type describes the color correction status of an image or video file.'
-ms.assetid: 'af129a1b-7760-4339-adf7-3f3c17cebde2'
-title: 'WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration'
+Description: The WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration type describes the color correction status of an image or video file.
+ms.assetid: af129a1b-7760-4339-adf7-3f3c17cebde2
+title: WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration
@@ -13,9 +18,9 @@ The **WPD\_COLOR\_CORRECTED\_STATUS\_VALUES** enumeration type describes the col
 
 ```C++
 typedef enum WPD_COLOR_CORRECTED_STATUS_VALUES { 
-  WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED            = 0,
-  WPD_COLOR_CORRECTED_STATUS_CORRECTED                = 1,
-  WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED  = 2
+  WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED            = 0,
+  WPD_COLOR_CORRECTED_STATUS_CORRECTED                = 1,
+  WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED  = 2
 } ;
 ```
 
@@ -67,9 +72,9 @@ Indicates the color corrected status of an image. This enumeration is used by th
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

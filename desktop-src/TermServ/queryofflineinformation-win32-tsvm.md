@@ -4,11 +4,14 @@ description: Retrieves the properties of the current virtual desktop server (VDS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6ce74cb-a4a4-4e05-a0a7-bac0b7f52c45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f6ce74cb-a4a4-4e05-a0a7-bac0b7f52c45
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["QueryOfflineInformation method Remote Desktop Services", "QueryOfflineInformation method Remote Desktop Services , Win32_TSVm class", "Win32_TSVm class Remote Desktop Services , QueryOfflineInformation method"]
+keywords:
+- QueryOfflineInformation method Remote Desktop Services
+- QueryOfflineInformation method Remote Desktop Services , Win32_TSVm class
+- Win32_TSVm class Remote Desktop Services , QueryOfflineInformation method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QueryOfflineInformation method of the Win32\_TSVm class
@@ -28,15 +34,15 @@ Retrieves the properties of the current virtual desktop server (VDS), but only w
 
 ```mof
 uint32 QueryOfflineInformation(
-  [out] string  Build,
-  [out] string  CurrentVersion,
-  [out] string  InstallationType,
-  [out] string  EditionId,
-  [out] string  SysPrepImageState,
-  [out] string  SysPrepMode,
-  [out] sint32  ProcArch,
-  [out] boolean fIsVmbusCapable,
-  [out] boolean fIsRdvIcInstalled
+  [out] string  Build,
+  [out] string  CurrentVersion,
+  [out] string  InstallationType,
+  [out] string  EditionId,
+  [out] string  SysPrepImageState,
+  [out] string  SysPrepMode,
+  [out] sint32  ProcArch,
+  [out] boolean fIsVmbusCapable,
+  [out] boolean fIsRdvIcInstalled
 );
 ```
 
@@ -134,7 +140,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
@@ -148,9 +154,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSVm**](win32-tsvm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

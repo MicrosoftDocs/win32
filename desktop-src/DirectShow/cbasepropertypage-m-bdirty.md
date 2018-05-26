@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_bDirty flag indicates whether any of the properties have changed. Set this flag to TRUE if the user changes any properties through the dialog controls.'
-ms.assetid: '7455a45b-4d6d-410a-aed6-7003d4ed2183'
-title: 'CBasePropertyPage::m\_bDirty member'
+Description: The m\_bDirty flag indicates whether any of the properties have changed. Set this flag to TRUE if the user changes any properties through the dialog controls.
+ms.assetid: 7455a45b-4d6d-410a-aed6-7003d4ed2183
+title: CBasePropertyPagem\_bDirty member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage::m\_bDirty member
@@ -35,9 +40,9 @@ BOOL m_bDirty;
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

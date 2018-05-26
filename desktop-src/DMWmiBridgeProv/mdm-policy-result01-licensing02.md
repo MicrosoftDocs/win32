@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_Licensing02 class
 description: The MDM\_Policy\_Result01\_Licensing02 class represents the licensing policies available.
-ms.assetid: '0f3faa78-c9ed-4166-a860-b5096b33772a'
-keywords: ["MDM_Policy_Result01_Licensing02 class", "MDM_Policy_Result01_Licensing02 class, described"]
+ms.assetid: 0f3faa78-c9ed-4166-a860-b5096b33772a
+keywords:
+- MDM_Policy_Result01_Licensing02 class
+- MDM_Policy_Result01_Licensing02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_Licensing02 class
@@ -108,7 +115,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl>       |
@@ -116,9 +123,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
 
- 
+ 
 
- 
+ 
 
 
 

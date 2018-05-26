@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd ShowSoftKeyboard method
 description: The ISoftKbd ShowSoftKeyboard method displays a soft keyboard.
-ms.assetid: '7e24bef1-accb-40f6-a549-fb676abf9971'
-keywords: ["ShowSoftKeyboard method Text Services Framework", "ShowSoftKeyboard method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , ShowSoftKeyboard method"]
+ms.assetid: 7e24bef1-accb-40f6-a549-fb676abf9971
+keywords:
+- ShowSoftKeyboard method Text Services Framework
+- ShowSoftKeyboard method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , ShowSoftKeyboard method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::ShowSoftKeyboard method
@@ -22,7 +30,7 @@ The **ISoftKbd::ShowSoftKeyboard** method displays a soft keyboard.
 
 ```C++
 HRESULT ShowSoftKeyboard(
-  [in] INT iShow
+  [in] INT iShow
 );
 ```
 
@@ -51,7 +59,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +67,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -75,9 +83,9 @@ This method can return one of these values.
 [**ISoftKbd**](isoftkbd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

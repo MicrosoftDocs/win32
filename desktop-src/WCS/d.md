@@ -1,8 +1,34 @@
 ---
 title: D
 description: D
-ms.assetid: '3b4ce918-fa51-48a1-9026-c8e76e7015a5'
-keywords: ["Windows Color System (WCS),glossary", "WCS (Windows Color System),glossary", "image color management,glossary", "color management,glossary", "colors,glossary", "Windows Color System (WCS),definitions", "WCS (Windows Color System),definitions", "image color management,definitions", "color management,definitions", "colors,definitions", "Windows Color System (WCS),terms", "WCS (Windows Color System),terms", "image color management,terms", "color management,terms", "colors,terms", "digital analog converter (DAC)", "DAC (digital analog converter)", "device link profiles", "device profiles", "device model profile (DMP)", "DMP (device model profile)"]
+ms.assetid: 3b4ce918-fa51-48a1-9026-c8e76e7015a5
+keywords:
+- Windows Color System (WCS),glossary
+- WCS (Windows Color System),glossary
+- image color management,glossary
+- color management,glossary
+- colors,glossary
+- Windows Color System (WCS),definitions
+- WCS (Windows Color System),definitions
+- image color management,definitions
+- color management,definitions
+- colors,definitions
+- Windows Color System (WCS),terms
+- WCS (Windows Color System),terms
+- image color management,terms
+- color management,terms
+- colors,terms
+- digital analog converter (DAC)
+- DAC (digital analog converter)
+- device link profiles
+- device profiles
+- device model profile (DMP)
+- DMP (device model profile)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D

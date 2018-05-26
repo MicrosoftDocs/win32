@@ -1,7 +1,12 @@
 ---
-Description: 'The PatchSequence Table is used to generate the MsiPatchSequence Table in a patch. The table requires the version of PATCHWIZ.DLL that is available with Windows Installer&\#160;3.0.'
-ms.assetid: 'bdeccb3b-57c0-4424-9602-348b8048fd46'
-title: 'PatchSequence Table (PATCHWIZ.DLL)'
+Description: The PatchSequence Table is used to generate the MsiPatchSequence Table in a patch. The table requires the version of PATCHWIZ.DLL that is available with Windows Installer&\#160;3.0.
+ms.assetid: bdeccb3b-57c0-4424-9602-348b8048fd46
+title: PatchSequence Table (PATCHWIZ.DLL)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PatchSequence Table (PATCHWIZ.DLL)

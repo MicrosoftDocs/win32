@@ -1,8 +1,29 @@
 ---
 title: Calendar Control Type
 description: This topic provides information about Microsoft UI Automation support for the Calendar control type. A calendar control allows the user to easily determine the date and select other dates.
-ms.assetid: '886cf1a4-0e6f-4ae1-9dc4-e97ac6a22359'
-keywords: ["UI Automation,support for Calendar control type", "UI Automation,Calendar control type", "UI Automation,tree structure for Calendar control type", "UI Automation,properties for Calendar control type", "UI Automation,control patterns for Calendar control type", "UI Automation,events for Calendar control type", "tree structures,Calendar control type", "properties,Calendar control type", "control patterns,Calendar control type", "events,Calendar control type", "support for Calendar control type", "Calendar control type", "control types,tree structure for Calendar control type", "control types,control patterns for Calendar control type", "control types,support for Calendar", "control types,Calendar"]
+ms.assetid: 886cf1a4-0e6f-4ae1-9dc4-e97ac6a22359
+keywords:
+- UI Automation,support for Calendar control type
+- UI Automation,Calendar control type
+- UI Automation,tree structure for Calendar control type
+- UI Automation,properties for Calendar control type
+- UI Automation,control patterns for Calendar control type
+- UI Automation,events for Calendar control type
+- tree structures,Calendar control type
+- properties,Calendar control type
+- control patterns,Calendar control type
+- events,Calendar control type
+- support for Calendar control type
+- Calendar control type
+- control types,tree structure for Calendar control type
+- control types,control patterns for Calendar control type
+- control types,support for Calendar
+- control types,Calendar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calendar Control Type
@@ -99,11 +120,11 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                        | Support/Value | Notes                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridProvider**](uiauto-igridprovider.md)           | Required      | The calendar control always supports the [Grid](uiauto-implementinggrid.md) control pattern because the days within a month are items that can be navigated spatially.                                                                                                                                                        |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)       | Depends       | Most calendar controls support flipping the view by page. The [Scroll](uiauto-implementingscroll.md) control pattern is recommended in order to support paging navigation.                                                                                                                                                    |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md) | Depends       | Most of calendar controls retain a specific day, month, or year as a selection of the subelement. Some calendars are multi-selectable and other only single-selectable. Calendar control with selectable subelements should support the [Selection](uiauto-implementingselection.md) control pattern.                         |
-| [**ITableProvider**](uiauto-itableprovider.md)         | Required      | Because the calendar control always has a header within its subtree for the days of the week, the [Table](uiauto-implementingtable.md) control pattern must be supported.                                                                                                                                                     |
-| [**IValueProvider**](uiauto-ivalueprovider.md)         | No            | The [Value](uiauto-implementingvalue.md) control pattern is not necessary for calendar controls because the element cannot set the value directly on the control. If a specific date is associated with the control, the information should be provided by the [Selection](uiauto-implementingselection.md) control pattern. |
+| [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master)           | Required      | The calendar control always supports the [Grid](uiauto-implementinggrid.md) control pattern because the days within a month are items that can be navigated spatially.                                                                                                                                                        |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)       | Depends       | Most calendar controls support flipping the view by page. The [Scroll](uiauto-implementingscroll.md) control pattern is recommended in order to support paging navigation.                                                                                                                                                    |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master) | Depends       | Most of calendar controls retain a specific day, month, or year as a selection of the subelement. Some calendars are multi-selectable and other only single-selectable. Calendar control with selectable subelements should support the [Selection](uiauto-implementingselection.md) control pattern.                         |
+| [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master)         | Required      | Because the calendar control always has a header within its subtree for the days of the week, the [Table](uiauto-implementingtable.md) control pattern must be supported.                                                                                                                                                     |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)         | No            | The [Value](uiauto-implementingvalue.md) control pattern is not necessary for calendar controls because the element cannot set the value directly on the control. If a specific date is associated with the control, the information should be provided by the [Selection](uiauto-implementingselection.md) control pattern. |
 
 
 
@@ -122,7 +143,7 @@ The following table lists the UI Automation events that calendar controls are re
 | [**UIA\_IsEnabledPropertyId**](uiauto-automation-element-propids.md#uia-isenabledpropertyid) property-changed event.                                      | If the control supports the [**IsEnabled**](uiauto-automation-element-propids.md) property, it must support this event.                                                                                     |
 | [**UIA\_IsOffscreenPropertyId**](uiauto-automation-element-propids.md#uia-isoffscreenpropertyid) property-changed event.                                  | If the control supports the [**IsOffscreen**](uiauto-automation-element-propids.md) property, it must support this event.                                                                                   |
 | [**UIA\_LayoutInvalidatedEventId**](uiauto-event-ids.md#uia-layoutinvalidatedeventid)                                                                     |                                                                                                                                                                                                              |
-| [**UIA\_MultipleViewCurrentViewPropertyId**](uiauto-control-pattern-propids.md#uia-multipleviewcurrentviewpropertyid) property-changed event.             | If the control supports the [**CurrentView**](uiauto-imultipleviewprovider-currentview.md) property of the [MultipleView](uiauto-implementingmultipleview.md) control pattern, it must support this event. |
+| [**UIA\_MultipleViewCurrentViewPropertyId**](uiauto-control-pattern-propids.md#uia-multipleviewcurrentviewpropertyid) property-changed event.             | If the control supports the [**CurrentView**](/windows/win32/UIAutomationCore/nf-uiautomationcore-imultipleviewprovider-get_currentview?branch=master) property of the [MultipleView](uiauto-implementingmultipleview.md) control pattern, it must support this event. |
 | [**UIA\_StructureChangedEventId**](uiauto-event-ids.md#uia-structurechangedeventid)                                                                       |                                                                                                                                                                                                              |
 | [**UIA\_ScrollHorizontallyScrollablePropertyId**](uiauto-control-pattern-propids.md#uia-scrollhorizontallyscrollablepropertyid) property-changed event.   | If the control supports the [Scroll](uiauto-implementingscroll.md) control pattern, it must support this event.                                                                                             |
 | [**UIA\_ScrollHorizontalScrollPercentPropertyId**](uiauto-control-pattern-propids.md#uia-scrollhorizontalscrollpercentpropertyid) property-changed event. | If the control supports the [Scroll](uiauto-implementingscroll.md) control pattern, it must support this event.                                                                                             |

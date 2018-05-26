@@ -1,7 +1,12 @@
 ---
-Description: 'To collect tracing information for the VSS infrastructure, you can use the VssTrace tool, the Logman tool, or the Tracelog tool.'
-ms.assetid: 'afe2a0ed-1a8e-4f8b-be9e-241d55cd9ef6'
+Description: To collect tracing information for the VSS infrastructure, you can use the VssTrace tool, the Logman tool, or the Tracelog tool.
+ms.assetid: afe2a0ed-1a8e-4f8b-be9e-241d55cd9ef6
 title: Using Tracing Tools with VSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Tracing Tools with VSS

@@ -1,8 +1,9 @@
 ---
 title: ExtTextOutWrap function
 description: Draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opacity, or both. This function wraps a call to ExtTextOut.
-ms.assetid: '0804c231-53f9-4de6-b703-0077cdcebcb5'
-keywords: ["ExtTextOutWrap function Windows Controls"]
+ms.assetid: 0804c231-53f9-4de6-b703-0077cdcebcb5
+keywords:
+- ExtTextOutWrap function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Comctl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExtTextOutWrap function
 
-\[**ExtTextOutWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713) directly instead.\]
+\[**ExtTextOutWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713) directly instead.\]
 
 Draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opacity, or both. This function wraps a call to [**ExtTextOut**](https://msdn.microsoft.com/library/windows/desktop/dd162713).
 
@@ -24,14 +30,14 @@ Draws text using the currently selected font, background color, and text color. 
 
 ```C++
 BOOL ExtTextOutWrap(
-  _In_       HDC     hdc,
-  _In_       int     X,
-  _In_       int     Y,
-  _In_       UINT    uOptions,
-  _In_ const RECT    *lprc,
-  _In_       LPCTSTR lpString,
-  _In_       UINT    cbCount,
-  _In_ const INT     *lpDx
+  _In_       HDC     hdc,
+  _In_       int     X,
+  _In_       int     Y,
+  _In_       UINT    uOptions,
+  _In_ const RECT    *lprc,
+  _In_       LPCTSTR lpString,
+  _In_       UINT    cbCount,
+  _In_ const INT     *lpDx
 );
 ```
 
@@ -135,15 +141,15 @@ For additional remarks, please see [**ExtTextOut**](https://msdn.microsoft.com/l
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
 title: Calling WDS Programmatically
-description: Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the ExecuteQuery and ExecuteSQLQuery methods in the ISearchDesktop interface.
-ms.assetid: '38426f63-2039-410e-8c70-ebd9fc269d74'
+description: Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the ExecuteQuery and ExecuteSQLQuery methods in the ISearchDesktop interface.
+ms.assetid: 38426f63-2039-410e-8c70-ebd9fc269d74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling WDS Programmatically
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](-search-2x-isearchdesktop.md) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
+Microsoft Windows Desktop Search (WDS) 2.x can be queried programmatically using the **ExecuteQuery** and **ExecuteSQLQuery** methods in the [**ISearchDesktop**](/windows/win32/Searchapi/?branch=master) interface. The **ExecuteQuery** method returns a record set from the index based on the query text, columns, and restrictions passed as parameters. The **ExecuteSQLQuery** method also returns a record set of results but requires the exact Structured Query Language (SQL) command to be passed in. **ExecuteQuery** should be used in most scenarios.
 
 ## Regular Queries
 
@@ -30,7 +35,7 @@ The method has the form:
 
 
 
- 
+ 
 
 ## SQL Queries
 
@@ -51,7 +56,7 @@ The method has the form:
 
 
 
- 
+ 
 
 Resources:
 
@@ -66,7 +71,7 @@ Resources:
 >
 > Copyright (C) Microsoft. All rights reserved.
 
- 
+ 
 
 
 ```
@@ -140,9 +145,9 @@ extern "C" int __cdecl wmain( int argc, WCHAR * argv[] )
 [Calling WDS from Web Pages](-search-2x-wds-browserhelpobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

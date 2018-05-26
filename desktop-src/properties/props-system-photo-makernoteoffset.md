@@ -1,7 +1,12 @@
 ---
-Description: 'The offset for the maker note specified in System.Photo.MakerNote.'
-ms.assetid: '473ee0c7-af11-4492-ac54-4723a103a389'
-title: 'System.Photo.MakerNoteOffset'
+Description: The offset for the maker note specified in System.Photo.MakerNote.
+ms.assetid: 473ee0c7-af11-4492-ac54-4723a103a389
+title: System.Photo.MakerNoteOffset
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MakerNoteOffset

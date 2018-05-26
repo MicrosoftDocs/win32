@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowContext class
 description: Specifies how a shadow copy is to be created, queried, or deleted, and the degree of writer involvement.
-ms.assetid: 'efc9210e-f9e6-4f5d-a343-e6371eeed355'
-keywords: ["Win32_ShadowContext class", "Win32_ShadowContext class, described"]
+ms.assetid: efc9210e-f9e6-4f5d-a343-e6371eeed355
+keywords:
+- Win32_ShadowContext class
+- Win32_ShadowContext class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowContext class
@@ -37,7 +44,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_ShadowContext : CIM_Setting
 {
-  string  Name;
+  string  Name;
   boolean Persistent;
   boolean ClientAccessible;
   boolean NoAutoRelease;
@@ -248,7 +255,7 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -283,9 +290,9 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

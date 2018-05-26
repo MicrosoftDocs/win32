@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer NetworkMask property
 description: The NetworkMask property contains the mask used to calculate the base TCP/IP address for the given network.
-ms.assetid: 'b8c36cfe-5b76-485b-9894-47c7a2898098'
-keywords: ["NetworkMask property Virtual Server", "NetworkMask property Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , NetworkMask property", "NetworkMask property Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , NetworkMask property"]
+ms.assetid: b8c36cfe-5b76-485b-9894-47c7a2898098
+keywords:
+- NetworkMask property Virtual Server
+- NetworkMask property Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , NetworkMask property
+- NetworkMask property Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , NetworkMask property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::NetworkMask property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_NetworkMask(
-  [out] BSTR *networkMask
+  [out] BSTR *networkMask
 );
 ```
 
@@ -80,8 +90,8 @@ The **NetworkMask** and the [**Network**](ivmdhcpvirtualnetworkserver-network.md
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ The **NetworkMask** and the [**Network**](ivmdhcpvirtualnetworkserver-network.md
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

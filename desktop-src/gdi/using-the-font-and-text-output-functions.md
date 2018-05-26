@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes how you can use the font and text-output functions to draw normal text, draw text from different fonts on the same line, rotate lines of text, display the font-selection common dialog-box, enumerate fonts, and so on:'
-ms.assetid: 'b59f3a1e-48fe-465c-b958-1beac1ba90fe'
-title: 'Using the Font and Text-Output Functions'
+Description: This section describes how you can use the font and text-output functions to draw normal text, draw text from different fonts on the same line, rotate lines of text, display the font-selection common dialog-box, enumerate fonts, and so on
+ms.assetid: b59f3a1e-48fe-465c-b958-1beac1ba90fe
+title: Using the Font and Text-Output Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Font and Text-Output Functions

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateSourceImage method of the Merge object allows the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.'
-ms.assetid: 'c3e3465a-d5a7-4fcc-b26a-5a8c763c23d9'
-title: 'Merge.CreateSourceImage method'
+---
+Description: The CreateSourceImage method of the Merge object allows the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
+ms.assetid: c3e3465a-d5a7-4fcc-b26a-5a8c763c23d9
+title: Merge.CreateSourceImage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.CreateSourceImage method
@@ -56,7 +61,7 @@ Any files in the destination directory with the same name are overwritten. The p
 
 ### C++
 
-See [**CreateSourceImage**](imsmmerge2-createsourceimage.md) function.
+See [**CreateSourceImage**](/windows/win32/Mergemod/nf-mergemod-imsmmerge2-createsourceimage?branch=master) function.
 
 ## Requirements
 

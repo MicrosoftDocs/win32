@@ -2,13 +2,19 @@
 title: vararg attribute
 description: The \ vararg\ attribute specifies that the function takes a variable number of parameters. To accomplish this, the last parameter must be a safe array of VARIANT type that contains all the remaining parameters.
 ms.assetid: df0995d3-5266-4a13-90aa-d78bfa753e0e
-keywords: ["vararg attribute MIDL"]
+keywords:
+- vararg attribute MIDL
 topic_type:
 - apiref
 api_name:
 - vararg
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # vararg attribute

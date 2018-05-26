@@ -1,8 +1,9 @@
 ---
 title: Controls.currentPositionString
 description: The currentPositionString property retrieves the current position in the media item as a String formatted as HH MM SS (hours, minutes, and seconds).
-ms.assetid: '2b360cdb-3cf8-4d3c-82c2-7eb621f82f4c'
-keywords: ["Controls.currentPositionString Windows Media Player"]
+ms.assetid: 2b360cdb-3cf8-4d3c-82c2-7eb621f82f4c
+keywords:
+- Controls.currentPositionString Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.currentPositionString
@@ -33,7 +39,7 @@ If the media item is less than an hour long, the HH: portion is not included.
 > [!Note]  
 > You should include code to stop the timer when the media item is stopped or paused.
 
- 
+ 
 
 ## Examples
 
@@ -64,9 +70,9 @@ var timer = window.setInterval("MyText.value = Player.controls.currentPositionSt
 [**Controls Object**](controls-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

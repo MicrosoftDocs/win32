@@ -4,11 +4,14 @@ description: Adds initiator IDs to a storage group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a8c8099e-2806-46c0-943d-5157334cd2d7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a8c8099e-2806-46c0-943d-5157334cd2d7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddInitiators method", "AddInitiators method, MSFT_SMStorageGroup class", "MSFT_SMStorageGroup class, AddInitiators method"]
+keywords:
+- AddInitiators method
+- AddInitiators method, MSFT_SMStorageGroup class
+- MSFT_SMStorageGroup class, AddInitiators method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddInitiators method of the MSFT\_SMStorageGroup class
@@ -28,12 +34,12 @@ Adds initiator IDs to a storage group.
 
 ```mof
 Uint32 AddInitiators(
-  [in]            String                InitiatorIDs[],
-  [in, optional]  Uint16                HostType,
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                InitiatorIDs[],
+  [in, optional]  Uint16                HostType,
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -218,14 +224,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *username* \[in, optional\]
 </dt> <dd>
@@ -246,7 +252,7 @@ Used to authenticate with the SMI-S provider. If not provided, the storage servi
 
 A reference to the [**MSFT\_SMJob**](msft-smjob.md) instance. May be **NULL** if the job is completed.
 
-**Windows Server 2012:** This parameter is not supported.
+**Windows Server 2012:** This parameter is not supported.
 
 </dd> <dt>
 
@@ -308,7 +314,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 4096
 
-**Windows Server 2012:** This value is unavailable prior to Windows Server 2012 R2.
+**Windows Server 2012:** This value is unavailable prior to Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -669,7 +675,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -683,9 +689,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageGroup**](msft-smstoragegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

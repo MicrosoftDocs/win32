@@ -1,8 +1,10 @@
 ---
 title: System.Shell.Folder object
 description: Defines the properties and methods for performing file management operations as well as the properties for the Items collection.
-ms.assetid: '62d32b81-6055-45b6-ba17-eaf7bdd7cc0a'
-keywords: ["System.Shell.Folder object Windows Sidebar", "System.Shell.Folder object Windows Sidebar , described"]
+ms.assetid: 62d32b81-6055-45b6-ba17-eaf7bdd7cc0a
+keywords:
+- System.Shell.Folder object Windows Sidebar
+- System.Shell.Folder object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Folder object
@@ -22,7 +29,7 @@ Defines the properties and methods for performing file management operations as 
 > [!Note]  
 > Objects of type [**System.Shell.Item**](system-shell-item.md) can only be accessed through the [**Items**](system-shell-folder-items.md) collection. This collection is a member of **System.Shell.Folder**.
 
- 
+ 
 
 ## Members
 
@@ -64,7 +71,7 @@ Objects of type [<strong>System.Shell.Item</strong>](system-shell-item.md) can o
 
 
 
- 
+ 
 
 ### Methods
 
@@ -81,7 +88,7 @@ The **System.Shell.Folder** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -96,7 +103,7 @@ The **System.Shell.Folder** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,18 +115,18 @@ Each [**System.Shell.Item**](system-shell-item.md) in the [**Items**](system-she
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

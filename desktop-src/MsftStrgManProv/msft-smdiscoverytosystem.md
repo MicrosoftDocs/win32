@@ -4,11 +4,13 @@ description: Represents a relationship between a set of discovery information an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ad27144-3929-4835-8bf9-897ec90b8deb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4ad27144-3929-4835-8bf9-897ec90b8deb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMDiscoveryToSystem class", "MSFT_SMDiscoveryToSystem class, described"]
+keywords:
+- MSFT_SMDiscoveryToSystem class
+- MSFT_SMDiscoveryToSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMDiscoveryToSystem class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_SMDiscoveryToSystem
 {
   MSFT_SMDiscovery REF Parent;
-  MSFT_SMSystem    REF Child;
+  MSFT_SMSystem    REF Child;
 };
 ```
 
@@ -89,7 +94,7 @@ A reference to the [**MSFT\_SMDiscovery**](msft-smdiscovery.md) object that repr
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ A reference to the [**MSFT\_SMDiscovery**](msft-smdiscovery.md) object that repr
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether a media sink supports hardware data flow.'
-ms.assetid: '15838467-D253-4ECE-B9E7-AFD3A21B3AF2'
-title: 'MF\_STREAM\_SINK\_SUPPORTS\_HW\_CONNECTION attribute'
+---
+Description: Indicates whether a media sink supports hardware data flow.
+ms.assetid: 15838467-D253-4ECE-B9E7-AFD3A21B3AF2
+title: MF\_STREAM\_SINK\_SUPPORTS\_HW\_CONNECTION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_STREAM\_SINK\_SUPPORTS\_HW\_CONNECTION attribute
@@ -23,9 +28,9 @@ In this scenario, the decoder and the sink are still represented in the Microsof
 The connection between the MFT and the media sink is negotiated as follows.
 
 1.  The pipeline checks if the MFT is a hardware proxy, by checking for the [MFT\_ENUM\_HARDWARE\_URL\_Attribute](mft-enum-hardware-url-attribute.md) attribute on the MFT. For details, see [Hardware MFTs](hardware-mfts.md).
-2.  The pipeline gets a pointer to the [**IMFStreamSink**](imfstreamsink.md) interface of the stream sink on the media sink.
-3.  The pipeline uses the [**IMFStreamSink**](imfstreamsink.md) pointer to query for the MF\_STREAM\_SINK\_SUPPORTS\_HW\_CONNECTION attribute. If this attribute is present and equal to **TRUE**, the media source supports hardware connections.
-4.  The pipeline sets the [MFT\_CONNECTED\_STREAM\_ATTRIBUTE](mft-connected-stream-attribute.md) attribute on the stream sink. The value of this attribute is the [**IMFAttribute**](imfattributes.md) pointer from the MFT.
+2.  The pipeline gets a pointer to the [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) interface of the stream sink on the media sink.
+3.  The pipeline uses the [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) pointer to query for the MF\_STREAM\_SINK\_SUPPORTS\_HW\_CONNECTION attribute. If this attribute is present and equal to **TRUE**, the media source supports hardware connections.
+4.  The pipeline sets the [MFT\_CONNECTED\_STREAM\_ATTRIBUTE](mft-connected-stream-attribute.md) attribute on the stream sink. The value of this attribute is the [**IMFAttribute**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer from the MFT.
 5.  The pipeline sets the [MFT\_CONNECTED\_TO\_HW\_STREAM](mft-connected-to-hw-stream.md) attribute to **TRUE** on both the stream sink and the MFT.
 
 ## Requirements

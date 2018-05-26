@@ -4,13 +4,15 @@ description: Authorized Dhcp Server In DC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22ba819b-e183-4212-88c2-844e8c424f66'
-ms.prod: 'windows-server-dev'
+ms.assetid: 22ba819b-e183-4212-88c2-844e8c424f66
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerInDC class", "DhcpServerInDC class, described"]
+keywords:
+- DhcpServerInDC class
+- DhcpServerInDC class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerInDC class
@@ -85,16 +90,16 @@ IP Address of the Dhcp server.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EapHostConfig Element
 description: Contains the EapMethod element and Config or ConfigBlob element. The Config and ConfigBlob elements cannot both be used simultaneously.
-ms.assetid: '6c42d71e-0c61-48e4-a447-cfd1eae90297'
-keywords: ["EapHostConfig element EAPHost"]
+ms.assetid: 6c42d71e-0c61-48e4-a447-cfd1eae90297
+keywords:
+- EapHostConfig element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapHostConfig
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapHostConfig Element
@@ -65,8 +71,8 @@ The **processContents** element enables future enhancements to the schema. The *
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -80,9 +86,9 @@ The **processContents** element enables future enhancements to the schema. The *
 [eaphostconfig Schema](eaphostconfigschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

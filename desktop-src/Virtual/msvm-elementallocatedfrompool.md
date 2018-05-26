@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ElementAllocatedFromPool class
 description: Associates an instance of an allocated resource with the resource pool from which it was allocated.
-ms.assetid: 'c729bda9-20a5-4adb-a4d7-adab808a249b'
-keywords: ["Msvm_ElementAllocatedFromPool class Hyper-V", "Msvm_ElementAllocatedFromPool class Hyper-V , described"]
+ms.assetid: c729bda9-20a5-4adb-a4d7-adab808a249b
+keywords:
+- Msvm_ElementAllocatedFromPool class Hyper-V
+- Msvm_ElementAllocatedFromPool class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ElementAllocatedFromPool class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ElementAllocatedFromPool : CIM_ElementAllocatedFromPool
 {
-  CIM_ResourcePool   REF Antecedent;
+  CIM_ResourcePool   REF Antecedent;
   CIM_LogicalElement REF Dependent;
 };
 ```
@@ -88,9 +95,9 @@ Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UA
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -112,9 +119,9 @@ Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UA
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

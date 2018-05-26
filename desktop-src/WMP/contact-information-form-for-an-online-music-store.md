@@ -1,8 +1,14 @@
 ---
 title: Contact Information Form for an Online Music Store
 description: Contact Information Form for an Online Music Store
-ms.assetid: '06142bd0-ac8a-4ca3-a620-af6bc406c14d'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: 06142bd0-ac8a-4ca3-a620-af6bc406c14d
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contact Information Form for an Online Music Store

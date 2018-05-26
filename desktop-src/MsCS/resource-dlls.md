@@ -4,11 +4,16 @@ description: Resource DLLs are responsible for carrying out most operations on c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1434102-afaf-4a35-887e-a434c628bd90'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e1434102-afaf-4a35-887e-a434c628bd90
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLLs Failover Cluster", "resource DLLs Failover Cluster ,described"]
+keywords:
+- resource DLLs Failover Cluster
+- resource DLLs Failover Cluster ,described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource DLLs

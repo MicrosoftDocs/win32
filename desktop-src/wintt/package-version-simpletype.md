@@ -1,14 +1,20 @@
 ---
 title: Version Simple Type
 description: Defines a string that you use to specify a version value.
-ms.assetid: '33ccc068-e21e-44a1-8a17-ae82f37c40b1'
-keywords: ["Version simple type Windows Troubleshooting Toolkit"]
+ms.assetid: 33ccc068-e21e-44a1-8a17-ae82f37c40b1
+keywords:
+- Version simple type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version Simple Type
@@ -51,8 +57,8 @@ The version string is limited to 256 characters.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -72,9 +78,9 @@ The version string is limited to 256 characters.
 [**SupportedOSVersion**](package-supportedosversion-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

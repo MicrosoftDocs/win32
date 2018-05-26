@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains the reference for Hyper-V management.'
-ms.assetid: '87588AE3-54DF-4415-BA24-1D6E8B46E758'
-title: 'Hyper-V management reference'
+Description: This section contains the reference for Hyper-V management.
+ms.assetid: 87588AE3-54DF-4415-BA24-1D6E8B46E758
+title: Hyper-V management reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V management reference
@@ -19,11 +24,11 @@ This section contains the reference for Hyper-V management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

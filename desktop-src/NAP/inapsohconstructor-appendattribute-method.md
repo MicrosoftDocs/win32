@@ -1,8 +1,11 @@
 ---
 title: INapSoHConstructor AppendAttribute method
 description: Adds a TLV to the end of the SoH buffer.
-ms.assetid: '5706ceaa-757f-49d2-90e0-011415853875'
-keywords: ["AppendAttribute method NAP", "AppendAttribute method NAP , INapSoHConstructor interface", "INapSoHConstructor interface NAP , AppendAttribute method"]
+ms.assetid: 5706ceaa-757f-49d2-90e0-011415853875
+keywords:
+- AppendAttribute method NAP
+- AppendAttribute method NAP , INapSoHConstructor interface
+- INapSoHConstructor interface NAP , AppendAttribute method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHConstructor::AppendAttribute method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSoHConstructor::AppendAttribute** method adds a TLV to the end of the SoH buffer.
 
@@ -27,8 +35,8 @@ The **INapSoHConstructor::AppendAttribute** method adds a TLV to the end of the 
 
 ```C++
 HRESULT AppendAttribute(
-  [in]       SoHAttributeType  type,
-  [in] const SoHAttributeValue *value
+  [in]       SoHAttributeType  type,
+  [in] const SoHAttributeValue *value
 );
 ```
 
@@ -66,7 +74,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ When appending an attribute which will be consumed by the Nap System, it should 
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -95,9 +103,9 @@ When appending an attribute which will be consumed by the Nap System, it should 
 [**INapSoHConstructor**](inapsohconstructor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

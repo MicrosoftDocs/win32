@@ -1,14 +1,20 @@
 ---
 title: guidType Simple Type
 description: Defines the pattern for valid GUIDs.
-ms.assetid: '1aa3f08b-4b3e-4e72-8ac4-d859a8da4c32'
-keywords: ["guidType simple type Task Scheduler"]
+ms.assetid: 1aa3f08b-4b3e-4e72-8ac4-d859a8da4c32
+keywords:
+- guidType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - guidType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # guidType Simple Type
@@ -41,8 +47,8 @@ The **guidType** simple type is a **string** that is restricted by the following
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **guidType** simple type is a **string** that is restricted by the following
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'An m&\#215;n matrix is a set of numbers arranged in m rows and n columns. The following illustration shows several matrices.'
-ms.assetid: '62215ae0-b095-42b2-911c-aa7607a8b61a'
+Description: An m&\#215;n matrix is a set of numbers arranged in m rows and n columns. The following illustration shows several matrices.
+ms.assetid: 62215ae0-b095-42b2-911c-aa7607a8b61a
 title: Matrix Representation of Transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix Representation of Transformations
@@ -48,7 +53,7 @@ In the previous example, the point (2, 1) is mapped to the point (2, 6). Note th
 
 ![illustration showing that the first two columns are most significant for a 3x3 matrix of an affine transformation](images/aboutgdip05-art10.png)
 
-In Windows GDI+ you can store an affine transformation in a [**Matrix**](-gdiplus-class-matrix-class.md) object. Because the third column of a matrix that represents an affine transformation is always (0, 0, 1), you specify only the six numbers in the first two columns when you construct a **Matrix** object. The statement `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` constructs the matrix shown in the previous figure.
+In Windows GDI+ you can store an affine transformation in a [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) object. Because the third column of a matrix that represents an affine transformation is always (0, 0, 1), you specify only the six numbers in the first two columns when you construct a **Matrix** object. The statement `Matrix myMatrix(0.0f, 1.0f, -1.0f, 0.0f, 3.0f, 4.0f);` constructs the matrix shown in the previous figure.
 
 ## Composite Transformations
 
@@ -70,14 +75,14 @@ The following illustration shows the matrices A, B, C, and D.
 
 ![illustration showing how to perform multiple transformations by multiplying the constituent matrices](images/aboutgdip05-art12.png)
 
-The fact that the matrix of a composite transformation can be formed by multiplying the individual transformation matrices means that any sequence of affine transformations can be stored in a single [**Matrix**](-gdiplus-class-matrix-class.md) object.
+The fact that the matrix of a composite transformation can be formed by multiplying the individual transformation matrices means that any sequence of affine transformations can be stored in a single [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) object.
 
 > [!Note]  
 > The order of a composite transformation is important. In general, rotate, then scale, then translate is not the same as scale, then rotate, then translate. Similarly, the order of matrix multiplication is important. In general, ABC is not the same as BAC.
 
  
 
-The [**Matrix**](-gdiplus-class-matrix-class.md) class provides several methods for building a composite transformation: [**Matrix::Multiply**](-gdiplus-class-matrix-multiply-matrix-order-.md), [**Matrix::Rotate**](-gdiplus-class-matrix-rotate-angle-order-.md), [**Matrix::RotateAt**](-gdiplus-class-matrix-rotateat-angle-center-order-.md), [**Matrix::Scale**](-gdiplus-class-matrix-scale-scalex-scaley-order-.md), [**Matrix::Shear**](-gdiplus-class-matrix-shear-shearx-sheary-order-.md), and [**Matrix::Translate**](-gdiplus-class-matrix-translate-offsetx-offsety-order-.md). The following example creates the matrix of a composite transformation that first rotates 30 degrees, then scales by a factor of 2 in the y direction, and then translates 5 units in the x direction.
+The [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) class provides several methods for building a composite transformation: [**Matrix::Multiply**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-multiply?branch=master), [**Matrix::Rotate**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-rotate?branch=master), [**Matrix::RotateAt**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-rotateat?branch=master), [**Matrix::Scale**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-scale?branch=master), [**Matrix::Shear**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-shear?branch=master), and [**Matrix::Translate**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-translate?branch=master). The following example creates the matrix of a composite transformation that first rotates 30 degrees, then scales by a factor of 2 in the y direction, and then translates 5 units in the x direction.
 
 
 ```

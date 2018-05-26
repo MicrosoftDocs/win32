@@ -1,14 +1,20 @@
 ---
 title: ID Simple Type
 description: Defines a string that you use to specify an identifier value.
-ms.assetid: '1cd58767-032b-4d09-9e34-4016a611728e'
-keywords: ["ID simple type Windows Troubleshooting Toolkit"]
+ms.assetid: 1cd58767-032b-4d09-9e34-4016a611728e
+keywords:
+- ID simple type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID Simple Type
@@ -43,8 +49,8 @@ The **ID** simple type is a [**Name**](package-name-simpletype.md) that is restr
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -76,9 +82,9 @@ The **ID** simple type is a [**Name**](package-name-simpletype.md) that is restr
 [**TextInteraction**](package-textinteraction-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

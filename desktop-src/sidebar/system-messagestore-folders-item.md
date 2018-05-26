@@ -1,8 +1,11 @@
 ---
 title: Folders.item property
 description: Gets a System.MessageStore.Folder object from the Folders collection.
-ms.assetid: '773e4664-0b84-43e0-a1f6-5bd40cb7e56f'
-keywords: ["item property Windows Sidebar", "item property Windows Sidebar , Folders collection", "Folders collection Windows Sidebar , item property"]
+ms.assetid: 773e4664-0b84-43e0-a1f6-5bd40cb7e56f
+keywords:
+- item property Windows Sidebar
+- item property Windows Sidebar , Folders collection
+- Folders collection Windows Sidebar , item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folders.item property
@@ -75,10 +83,10 @@ function Init()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -109,9 +117,9 @@ function Init()
 [**System.MessageStore.Message**](system-messagestore-message.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

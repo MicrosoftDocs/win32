@@ -1,7 +1,12 @@
 ---
-Description: 'This example illustrates how to create a URL-based installation of a Windows Installer package.'
-ms.assetid: 'a38a1132-43b4-449d-b134-f351ce370223'
-title: 'A URL-Based Windows Installer Installation Example'
+Description: This example illustrates how to create a URL-based installation of a Windows Installer package.
+ms.assetid: a38a1132-43b4-449d-b134-f351ce370223
+title: A URL-Based Windows Installer Installation Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A URL-Based Windows Installer Installation Example

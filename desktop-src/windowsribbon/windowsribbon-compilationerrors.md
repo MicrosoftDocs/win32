@@ -1,8 +1,25 @@
 ---
 title: Understanding Markup Compiler Messages
 description: The Windows Ribbon framework (Ribbon) markup compiler, UI Command Compiler (UICC.exe), validates the Ribbon markup against both the Ribbon schema and an additional set of rules defined by the Ribbon framework.
-ms.assetid: 'ef033c39-adc2-48e8-8ee2-f5f59383de92'
-keywords: ["Windows Ribbon,markup compiler messages", "Ribbon,markup compiler messages", "Windows Ribbon,UI Command Compiler (UICC.exe)", "Ribbon,UI Command Compiler (UICC.exe)", "Windows Ribbon,validation errors", "Ribbon,validation errors", "Windows Ribbon,errors", "Ribbon,errors", "Windows Ribbon,information messages", "Ribbon,information messages", "UI Command Compiler (UICC.exe)", "UICC.exe (UI Command Compiler)"]
+ms.assetid: ef033c39-adc2-48e8-8ee2-f5f59383de92
+keywords:
+- Windows Ribbon,markup compiler messages
+- Ribbon,markup compiler messages
+- Windows Ribbon,UI Command Compiler (UICC.exe)
+- Ribbon,UI Command Compiler (UICC.exe)
+- Windows Ribbon,validation errors
+- Ribbon,validation errors
+- Windows Ribbon,errors
+- Ribbon,errors
+- Windows Ribbon,information messages
+- Ribbon,information messages
+- UI Command Compiler (UICC.exe)
+- UICC.exe (UI Command Compiler)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Markup Compiler Messages
@@ -22,7 +39,7 @@ The following validation messages are generated during compilation. See [Compili
 > [!Note]  
 > The `/W{0\1\2}` command-line option can be specified to filter event messages based on severity.
 
- 
+ 
 
 ### Validation Errors
 
@@ -108,7 +125,7 @@ The following validation messages are generated during compilation. See [Compili
 
 
 
- 
+ 
 
 ### Validation Warnings
 
@@ -128,7 +145,7 @@ The following validation messages are generated during compilation. See [Compili
 
 
 
- 
+ 
 
 ### Information Messages
 
@@ -145,7 +162,7 @@ The following validation messages are generated during compilation. See [Compili
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -157,9 +174,9 @@ The following validation messages are generated during compilation. See [Compili
 [Declaring Commands and Controls with Ribbon Markup](windowsribbon-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

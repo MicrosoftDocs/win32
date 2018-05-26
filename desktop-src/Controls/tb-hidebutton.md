@@ -1,8 +1,9 @@
 ---
 title: TB\_HIDEBUTTON message
 description: Hides or shows the specified button in a toolbar.
-ms.assetid: '57941a40-279a-426e-baf9-115429c62839'
-keywords: ["TB_HIDEBUTTON message Windows Controls"]
+ms.assetid: 57941a40-279a-426e-baf9-115429c62839
+keywords:
+- TB_HIDEBUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_HIDEBUTTON message
@@ -47,15 +53,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

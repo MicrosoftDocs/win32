@@ -1,8 +1,14 @@
 ---
 title: DBID
 description: DBID
-ms.assetid: '076f4603-8621-4c32-b4d7-cf8507d240a8'
-keywords: ["DBID"]
+ms.assetid: 076f4603-8621-4c32-b4d7-cf8507d240a8
+keywords:
+- DBID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBID

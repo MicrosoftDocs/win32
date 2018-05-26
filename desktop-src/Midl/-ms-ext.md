@@ -2,13 +2,19 @@
 title: /ms\_ext switch
 description: Effective with MIDL version 3.0, the features enabled by the ms\_ext switch are now the default mode for the MIDL compiler.
 ms.assetid: 175894c9-fa7e-4907-966d-e9df5a8e2745
-keywords: ["/ms_ext switch MIDL"]
+keywords:
+- /ms_ext switch MIDL
 topic_type:
 - apiref
 api_name:
 - /ms_ext
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /ms\_ext switch

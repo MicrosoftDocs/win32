@@ -1,8 +1,23 @@
 ---
 title: Radio Item Attributes
 description: Radio Item Attributes
-ms.assetid: 'a36b6867-ab40-4fce-b3d0-149d53a9b87b'
-keywords: ["Windows Media Player,radio item attributes", "Windows Media Player Mobile,radio item attributes", "Windows Media Player object model,radio item attributes", "object model,radio item attributes", "ActiveX control,radio item attributes", "Windows Media Player ActiveX control,radio item attributes", "Windows Media Player Mobile ActiveX control,radio item attributes", "reference for object model,radio item attributes", "attributes,radio items", "radio item attributes"]
+ms.assetid: a36b6867-ab40-4fce-b3d0-149d53a9b87b
+keywords:
+- Windows Media Player,radio item attributes
+- Windows Media Player Mobile,radio item attributes
+- Windows Media Player object model,radio item attributes
+- object model,radio item attributes
+- ActiveX control,radio item attributes
+- Windows Media Player ActiveX control,radio item attributes
+- Windows Media Player Mobile ActiveX control,radio item attributes
+- reference for object model,radio item attributes
+- attributes,radio items
+- radio item attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Radio Item Attributes

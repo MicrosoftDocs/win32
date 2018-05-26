@@ -1,7 +1,12 @@
 ---
-Description: 'The class that represents configured settings for an Msvm\_VirtualSystemCollection.'
-ms.assetid: '6592a551-e80a-4bf5-8808-c859cb6c2b4f'
-title: 'Msvm\_CollectionSettingData class'
+Description: The class that represents configured settings for an Msvm\_VirtualSystemCollection.
+ms.assetid: 6592a551-e80a-4bf5-8808-c859cb6c2b4f
+title: Msvm\_CollectionSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectionSettingData class
@@ -29,8 +34,8 @@ The **Msvm\_CollectionSettingData** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -44,9 +49,9 @@ The **Msvm\_CollectionSettingData** class does not define any members.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Begins enumeration of licenses that are issued by the Remote Deskto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ec575632-b828-49c0-b326-1ab420381875'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ec575632-b828-49c0-b326-1ab420381875
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TLSLicenseEnumBegin function Remote Desktop Services"]
+keywords:
+- TLSLicenseEnumBegin function Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TLSLicenseEnumBegin function
@@ -26,18 +30,18 @@ Begins enumeration of licenses that are issued by the Remote Desktop license ser
 > [!Note]  
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions to dynamically link to Mstlsapi.dll.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 DWORD WINAPI TLSLicenseEnumBegin(
-  _In_  TLS_HANDLE hHandle,
-  _In_  DWORD      dwSearchParm,
-  _In_  BOOL       bMatchAll,
-  _In_  LSLicense  *lpSearchParm,
-  _Out_ PDWORD     pdwErrCode
+  _In_  TLS_HANDLE hHandle,
+  _In_  DWORD      dwSearchParm,
+  _In_  BOOL       bMatchAll,
+  _In_  LSLicense  *lpSearchParm,
+  _Out_ PDWORD     pdwErrCode
 );
 ```
 
@@ -284,8 +288,8 @@ The argument was not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Mstlsapi.dll</dt> </dl> |
 
 
@@ -306,9 +310,9 @@ The argument was not valid.
 [**TLSLicenseEnumEnd**](tlslicenseenumend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

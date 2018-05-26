@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Encapsulate method encapsulates the given command application protocol data unit (APDU) into another command APDU for transmission to a smart card.'
-ms.assetid: 'dfffad09-046b-46cb-b6fd-286a4bbf1066'
-title: 'ISCardCmd::Encapsulate method'
+---
+Description: The Encapsulate method encapsulates the given command application protocol data unit (APDU) into another command APDU for transmission to a smart card.
+ms.assetid: dfffad09-046b-46cb-b6fd-286a4bbf1066
+title: ISCardCmdEncapsulate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::Encapsulate method

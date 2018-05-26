@@ -4,13 +4,16 @@ description: Returns true if all the tests are run and no errors occur otherwise
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EDE6AB74-BB31-49C1-A7FA-45BB8A522B2D'
-ms.prod: 'windows-server-dev'
+ms.assetid: EDE6AB74-BB31-49C1-A7FA-45BB8A522B2D
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IsValidationSuccessful method", "IsValidationSuccessful method, MSCluster_ValidationStatus interface", "MSCluster_ValidationStatus interface, IsValidationSuccessful method"]
+keywords:
+- IsValidationSuccessful method
+- IsValidationSuccessful method, MSCluster_ValidationStatus interface
+- MSCluster_ValidationStatus interface, IsValidationSuccessful method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsValidationSuccessful method of the MSCluster\_ValidationStatus class
@@ -49,7 +55,7 @@ Returns **True** if all the tests are run and no errors occur otherwise **false*
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -63,9 +69,9 @@ Returns **True** if all the tests are run and no errors occur otherwise **false*
 [**MSCluster\_ValidationStatus**](mscluster-validationstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

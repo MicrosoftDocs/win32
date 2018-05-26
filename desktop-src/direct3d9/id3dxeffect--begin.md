@@ -1,7 +1,12 @@
-﻿---
-Description: 'Starts an active technique.'
-ms.assetid: '6598d77b-8b53-4f2d-aa43-adf358ad486d'
-title: 'ID3DXEffect::Begin method'
+---
+Description: Starts an active technique.
+ms.assetid: 6598d77b-8b53-4f2d-aa43-adf358ad486d
+title: ID3DXEffectBegin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::Begin method

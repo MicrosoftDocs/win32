@@ -1,7 +1,12 @@
 ---
 title: Shadow Copy Provider
 description: The Shadow Copy provider supplies management functions for the Shadow Copies of the Shared Folders feature.
-ms.assetid: '084c6e75-065e-4a36-ba8a-7f8ce50c6670'
+ms.assetid: 084c6e75-065e-4a36-ba8a-7f8ce50c6670
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shadow Copy Provider

@@ -1,8 +1,32 @@
 ---
 title: Using PARAM Elements in a Web Page Displayed by Firefox
 description: Using PARAM Elements in a Web Page Displayed by Firefox
-ms.assetid: '8403c6f4-f221-4411-b49c-f0c9c22943df'
-keywords: ["Windows Media Player,PARAM elements in OBJECT element", "Windows Media Player object model,PARAM elements in OBJECT element", "object model,PARAM elements in OBJECT element", "Windows Media Player Mobile,PARAM elements in OBJECT element", "Windows Media Player ActiveX control,PARAM elements in OBJECT element", "Windows Media Player Mobile ActiveX control,PARAM elements in OBJECT element", "ActiveX control,PARAM elements in OBJECT element", "embedding,Web pages", "Web page embedding,PARAM elements in OBJECT element", "PARAM elements in OBJECT element", "Windows Media Player,Firefox", "Windows Media Player object model,Firefox", "object model,Firefox", "Windows Media Player Mobile,Firefox", "Windows Media Player ActiveX control,Firefox", "Windows Media Player Mobile ActiveX control,Firefox", "ActiveX control,Firefox", "Firefox,PARAM elements in OBJECT element", "Web page embedding,Firefox"]
+ms.assetid: 8403c6f4-f221-4411-b49c-f0c9c22943df
+keywords:
+- Windows Media Player,PARAM elements in OBJECT element
+- Windows Media Player object model,PARAM elements in OBJECT element
+- object model,PARAM elements in OBJECT element
+- Windows Media Player Mobile,PARAM elements in OBJECT element
+- Windows Media Player ActiveX control,PARAM elements in OBJECT element
+- Windows Media Player Mobile ActiveX control,PARAM elements in OBJECT element
+- ActiveX control,PARAM elements in OBJECT element
+- embedding,Web pages
+- Web page embedding,PARAM elements in OBJECT element
+- PARAM elements in OBJECT element
+- Windows Media Player,Firefox
+- Windows Media Player object model,Firefox
+- object model,Firefox
+- Windows Media Player Mobile,Firefox
+- Windows Media Player ActiveX control,Firefox
+- Windows Media Player Mobile ActiveX control,Firefox
+- ActiveX control,Firefox
+- Firefox,PARAM elements in OBJECT element
+- Web page embedding,Firefox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using PARAM Elements in a Web Page Displayed by Firefox

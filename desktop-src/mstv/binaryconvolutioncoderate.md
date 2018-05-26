@@ -1,8 +1,9 @@
 ---
 title: BinaryConvolutionCodeRate enumeration
 description: Specifies the binary convolution code rate used in the forward error correction scheme.
-ms.assetid: '161c963f-55b2-4a17-a537-47de3326df0e'
-keywords: ["BinaryConvolutionCodeRate enumeration Microsoft TV Technologies"]
+ms.assetid: 161c963f-55b2-4a17-a537-47de3326df0e
+keywords:
+- BinaryConvolutionCodeRate enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BinaryConvolutionCodeRate enumeration
@@ -22,9 +28,9 @@ Specifies the binary convolution code rate used in the forward error correction 
 
 ```C++
 typedef enum BinaryConvolutionCodeRate { 
-  BDA_BCC_RATE_NOT_SET      = -1,
-  BDA_BCC_RATE_NOT_DEFINED  = 0,
-  BDA_BCC_RATE_1_2          = 1,
+  BDA_BCC_RATE_NOT_SET      = -1,
+  BDA_BCC_RATE_NOT_DEFINED  = 0,
+  BDA_BCC_RATE_1_2          = 1,
   BDA_BCC_RATE_2_3,
   BDA_BCC_RATE_3_4,
   BDA_BCC_RATE_3_5,
@@ -184,9 +190,9 @@ Reserved; do not use.
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

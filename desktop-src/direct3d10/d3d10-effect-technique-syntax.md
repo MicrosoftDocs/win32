@@ -1,7 +1,12 @@
 ---
-Description: 'An effect technique is declared with the following syntax.'
-ms.assetid: '84f9b74d-8397-4cd5-91a0-7f910ba7b19e'
-title: 'Effect Technique Syntax (Direct3D 10)'
+Description: An effect technique is declared with the following syntax.
+ms.assetid: 84f9b74d-8397-4cd5-91a0-7f910ba7b19e
+title: Effect Technique Syntax (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Technique Syntax (Direct3D 10)
@@ -94,7 +99,7 @@ Required keyword.
 </tbody>
 </table>
 
-<p>See [<strong>OMSetBlendState</strong>](id3d10device-omsetblendstate.md) for the argument list.</p></td>
+<p>See [<strong>OMSetBlendState</strong>](/windows/win32/D3D10/nf-d3d10-id3d10device-omsetblendstate?branch=master) for the argument list.</p></td>
 </tr>
 <tr class="even">
 <td>Depth-stencil State</td>
@@ -112,7 +117,7 @@ Required keyword.
 </table>
 
 </div>
-<p>See [<strong>OMSetDepthStencilState</strong>](id3d10device-omsetdepthstencilstate.md) for the argument list.</p></td>
+<p>See [<strong>OMSetDepthStencilState</strong>](/windows/win32/D3D10/nf-d3d10-id3d10device-omsetdepthstencilstate?branch=master) for the argument list.</p></td>
 </tr>
 <tr class="odd">
 <td>Rasterizer State</td>
@@ -130,7 +135,7 @@ Required keyword.
 </table>
 
 </div>
-<p>See [<strong>RSSetState</strong>](id3d10device-rssetstate.md) for the argument list.</p></td>
+<p>See [<strong>RSSetState</strong>](/windows/win32/D3D10/nf-d3d10-id3d10device-rssetstate?branch=master) for the argument list.</p></td>
 </tr>
 <tr class="even">
 <td>Shader State</td>
@@ -178,7 +183,7 @@ Required keyword.
 </table>
 
 </div>
-<p>SetXXXShader is one of <strong>SetVertexShader</strong>, <strong>SetGeometryShader</strong>, or <strong>SetPixelShader</strong> (which are similar to the API methods [<strong>VSSetShader</strong>](id3d10device-vssetshader.md), [<strong>GSSetShader</strong>](id3d10device-gssetshader.md), and [<strong>PSSetShader</strong>](id3d10device-pssetshader.md)).</p></td>
+<p>SetXXXShader is one of <strong>SetVertexShader</strong>, <strong>SetGeometryShader</strong>, or <strong>SetPixelShader</strong> (which are similar to the API methods [<strong>VSSetShader</strong>](/windows/win32/D3D10/nf-d3d10-id3d10device-vssetshader?branch=master), [<strong>GSSetShader</strong>](/windows/win32/D3D10/nf-d3d10-id3d10device-gssetshader?branch=master), and [<strong>PSSetShader</strong>](/windows/win32/D3D10/nf-d3d10-id3d10device-pssetshader?branch=master)).</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,8 +1,9 @@
 ---
 title: D3DDecompressShaders function
 description: Decompresses one or more shaders from a compressed set.
-ms.assetid: '9b62026f-0658-405c-8f45-ee921213148a'
-keywords: ["D3DDecompressShaders function HLSL"]
+ms.assetid: 9b62026f-0658-405c-8f45-ee921213148a
+keywords:
+- D3DDecompressShaders function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDecompressShaders function
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
 
- 
+ 
 
 Decompresses one or more shaders from a compressed set.
 
@@ -26,14 +32,14 @@ Decompresses one or more shaders from a compressed set.
 
 ``` syntax
 HRESULT WINAPI D3DDecompressShaders(
-  in      LPCVOID pSrcData,
-  in      SIZE_T SrcDataSize,
-  in      UINT uNumShaders,
-  in      UINT uStartIndex,
-  in_opt  UINT pIndices,
-  in      UINT uFlags,
-  out     ID3DBlob ppShaders,
-  out_opt UINT pTotalShaders
+  in      LPCVOID pSrcData,
+  in      SIZE_T SrcDataSize,
+  in      UINT uNumShaders,
+  in      UINT uStartIndex,
+  in_opt  UINT pIndices,
+  in      UINT uFlags,
+  out     ID3DBlob ppShaders,
+  out_opt UINT pTotalShaders
 );
 ```
 
@@ -138,9 +144,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

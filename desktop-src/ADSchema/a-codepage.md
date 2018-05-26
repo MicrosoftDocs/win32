@@ -1,25 +1,30 @@
 ---
 title: Code-Page attribute
-description: Specifies the code page for the user's language of choice. This value is not used by Windows 2000.
+description: Specifies the code page for the users language of choice. This value is not used by Windows 2000.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f98e6fbe-0c9a-4ee0-8158-3eaaca359675'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f98e6fbe-0c9a-4ee0-8158-3eaaca359675
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Code-Page attribute AD Schema", "codePage attribute AD Schema"]
+keywords:
+- Code-Page attribute AD Schema
+- codePage attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Code-Page
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Code-Page attribute
 
-Specifies the code page for the user's language of choice. This value is not used by Windows 2000.
+Specifies the code page for the user's language of choice. This value is not used by Windows 2000.
 
 
 
@@ -38,12 +43,12 @@ Specifies the code page for the user's language of choice. This value is not use
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Specifies the code page for the user's language of choice. This value is not use
 
 
 
- 
+ 
 
- 
+ 
 
 
 

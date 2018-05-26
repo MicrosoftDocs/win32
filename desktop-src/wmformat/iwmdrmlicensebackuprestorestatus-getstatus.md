@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseBackupRestoreStatus GetStatus method
 description: The GetStatus method retrieves detailed status information about a license backup or restore operation.
-ms.assetid: '1a695baf-0971-4dbf-90fa-1b10178a3348'
-keywords: ["GetStatus method windows Media Format", "GetStatus method windows Media Format , IWMDRMLicenseBackupRestoreStatus interface", "IWMDRMLicenseBackupRestoreStatus interface windows Media Format , GetStatus method"]
+ms.assetid: 1a695baf-0971-4dbf-90fa-1b10178a3348
+keywords:
+- GetStatus method windows Media Format
+- GetStatus method windows Media Format , IWMDRMLicenseBackupRestoreStatus interface
+- IWMDRMLicenseBackupRestoreStatus interface windows Media Format , GetStatus method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseBackupRestoreStatus::GetStatus method
@@ -23,7 +31,7 @@ The **GetStatus** method retrieves detailed status information about a license b
 
 ```C++
 HRESULT GetStatus(
-  [out] WM_BACKUP_RESTORE_STATUS *pStatus
+  [out] WM_BACKUP_RESTORE_STATUS *pStatus
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +84,9 @@ None.
 [**IWMDRMLicenseBackupRestoreStatus Interface**](iwmdrmlicensebackuprestorestatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

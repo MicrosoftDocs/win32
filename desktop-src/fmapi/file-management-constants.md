@@ -1,7 +1,7 @@
 ---
 title: File Management Constants
 description: File Management contains the following constants.
-ms.assetid: '4c81dded-3864-4fc8-b06e-0d13fa04f63a'
+ms.assetid: 4c81dded-3864-4fc8-b06e-0d13fa04f63a
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_name:
 - VOLUME_INFO_LOCKED
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management Constants
@@ -23,9 +28,9 @@ api_type:
 File Management contains the following constants.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 <dl> <dt>
 
@@ -156,14 +161,14 @@ Note that there is no associated header file for these constants.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

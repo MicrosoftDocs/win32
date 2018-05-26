@@ -1,8 +1,14 @@
 ---
 title: 3D transform effect
 description: Use the 3D transform effect to apply an arbitrary 4x4 transform matrix to an image.
-ms.assetid: 'BC2F2837-40F0-4293-A190-8B5F81BB01B6'
-keywords: ["3d transform effect"]
+ms.assetid: BC2F2837-40F0-4293-A190-8B5F81BB01B6
+keywords:
+- 3d transform effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 3D transform effect
@@ -36,7 +42,7 @@ The CLSID for this effect is CLSID\_D2D13DTransform.
 
 
 
- 
+ 
 
 
 ```C++
@@ -84,7 +90,7 @@ m_d2dContext->EndDraw();
 <td>TransformMatrix<br/> D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
 <td>A 4x4 transform matrix applied to the projection plane. The following matrix calculation is used to map points from one 3D coordinate system to the transformed 2D coordinate system. <br/><img src="images/3d-transform-matrix1.png" alt="3D Depth Matrix" />Where:<dl> X, Y, Z = Input projection plane coordinates<br />
 M<sub>x,y</sub> = Transform Matrix elements<br />
-X’, Y’, Z’ =Output projection plane coordinates<br />
+X , Y , Z  =Output projection plane coordinates<br />
 </dl> <br/> The individual matrix elements are not bounded and are unitless. <br/> Type is D2D1_MATRIX_4X4_F.<br/> Default value is Matrix4x4F(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1).<br/></td>
 </tr>
 </tbody>
@@ -92,7 +98,7 @@ X’, Y’, Z’ =Output projection plane coordinates<br />
 
 
 
- 
+ 
 
 ### Interpolation modes
 
@@ -108,17 +114,17 @@ X’, Y’, Z’ =Output projection plane coordinates<br />
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_3DTRANSFORM\_INTERPOLATION\_MODE\_LINEAR.
 
- 
+ 
 
 > [!Note]  
 > Anisotropic mode generates mipmaps when scaling, however, if you set the **Cached** property to true on the effects that are input to this effect, the mipmaps won't be generated every time for sufficiently small images.
 
- 
+ 
 
 ### Border modes
 
@@ -131,11 +137,11 @@ X’, Y’, Z’ =Output projection plane coordinates<br />
 
 
 
- 
+ 
 
 ## 4x4 Transform Matrix Class
 
-Direct2D provides a 4x4 matrix class to provide helper functions for transforming the image in 3 dimensions. See the [**Matrix4x4F**](matrix4x4f.md) topic for more info and a description of all the class members.
+Direct2D provides a 4x4 matrix class to provide helper functions for transforming the image in 3 dimensions. See the [**Matrix4x4F**](/windows/win32/d2d1_1helper/nl-d2d1_1helper-matrix4x4f?branch=master) topic for more info and a description of all the class members.
 
 
 
@@ -153,7 +159,7 @@ Direct2D provides a 4x4 matrix class to provide helper functions for transformin
 
 
 
- 
+ 
 
 ## Sample code
 
@@ -165,25 +171,25 @@ For an example of this effect, download the [Direct2D 3D transform effect sample
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

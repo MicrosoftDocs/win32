@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IXpsDocument interface represents the root of an XPS document.'
-ms.assetid: '1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d'
+---
+Description: The IXpsDocument interface represents the root of an XPS document.
+ms.assetid: 1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d
 title: IXpsDocument interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocument interface

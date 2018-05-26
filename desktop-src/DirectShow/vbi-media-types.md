@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following subtypes are defined for MEDIATYPE\_VBI.'
-ms.assetid: '31ea89c5-fb09-48ae-878f-724a2cbd4772'
+---
+Description: The following subtypes are defined for MEDIATYPE\_VBI.
+ms.assetid: 31ea89c5-fb09-48ae-878f-724a2cbd4772
 title: VBI Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBI Media Types

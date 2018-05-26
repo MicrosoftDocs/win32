@@ -1,7 +1,12 @@
 ---
-Description: 'This section explains how to perform the following tasks associated with window properties.'
-ms.assetid: 'cdf196ec-300c-4c7b-8a4f-68088c4a2507'
+Description: This section explains how to perform the following tasks associated with window properties.
+ms.assetid: cdf196ec-300c-4c7b-8a4f-68088c4a2507
 title: Using Window Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Window Properties
@@ -15,7 +20,7 @@ This section explains how to perform the following tasks associated with window 
 
 ## Adding a Window Property
 
-The following example loads an icon and then a cursor and allocates memory for a buffer. The example then uses the [**SetProp**](setprop.md) function to assign the resulting icon, cursor, and memory handles as window properties for the window identified by the application-defined hwndSubclass variable. The properties are identified by the strings PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER.
+The following example loads an icon and then a cursor and allocates memory for a buffer. The example then uses the [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master) function to assign the resulting icon, cursor, and memory handles as window properties for the window identified by the application-defined hwndSubclass variable. The properties are identified by the strings PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER.
 
 
 ```
@@ -60,7 +65,7 @@ SetProp(hwndSubclass, "PROP_BUFFER", hMem);
 
 ## Retrieving a Window Property
 
-A window can create handles to its window property data and use the data for any purpose. The following example uses [**GetProp**](getprop.md) to obtain handles to the window properties identified by PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER. The example then displays the contents of the newly obtained memory buffer, cursor, and icon in the window's client area.
+A window can create handles to its window property data and use the data for any purpose. The following example uses [**GetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-getpropertyattributes?branch=master) to obtain handles to the window properties identified by PROP\_ICON, PROP\_CURSOR, and PROP\_BUFFER. The example then displays the contents of the newly obtained memory buffer, cursor, and icon in the window's client area.
 
 
 ```

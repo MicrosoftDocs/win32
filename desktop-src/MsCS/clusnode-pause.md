@@ -4,11 +4,14 @@ description: Suspends the cluster activity of a node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2fd16dda-b554-47fa-a040-15c7685d6392'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2fd16dda-b554-47fa-a040-15c7685d6392
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Pause method Failover Cluster", "Pause method Failover Cluster , ClusNode object", "ClusNode object Failover Cluster , Pause method"]
+keywords:
+- Pause method Failover Cluster
+- Pause method Failover Cluster , ClusNode object
+- ClusNode object Failover Cluster , Pause method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNode.Pause method
@@ -57,7 +63,7 @@ Groups that are owned by a paused node remain owned by that node. A paused node'
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -79,9 +85,9 @@ Groups that are owned by a paused node remain owned by that node. A paused node'
 [**ClusNode.State**](clusnode-state.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

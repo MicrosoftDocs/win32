@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.'
-ms.assetid: '857af3d6-aa7b-429a-a056-72573232f72c'
+---
+Description: Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
+ms.assetid: 857af3d6-aa7b-429a-a056-72573232f72c
 title: Qualifier object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifier object

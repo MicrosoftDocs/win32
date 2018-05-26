@@ -1,8 +1,20 @@
 ---
 title: Pushed File
 description: Pushed File
-ms.assetid: '3b72171a-f235-4eb3-ae1a-3c9ece569edd'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,Pushed files", "Windows Media Player Mobile skins,Pushed files", "skins,Pushed files", "Pushed files in skins"]
+ms.assetid: 3b72171a-f235-4eb3-ae1a-3c9ece569edd
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,Pushed files
+- Windows Media Player Mobile skins,Pushed files
+- skins,Pushed files
+- Pushed files in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pushed File

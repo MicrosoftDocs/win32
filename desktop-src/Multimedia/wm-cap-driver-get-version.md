@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_DRIVER\_GET\_VERSION message
 description: The WM\_CAP\_DRIVER\_GET\_VERSION message returns the version information of the capture driver connected to a capture window. You can send this message explicitly or by using the capDriverGetVersion macro.
-ms.assetid: '762ebe7e-0d09-46ea-ab17-86061f0bd8f9'
-keywords: ["WM_CAP_DRIVER_GET_VERSION message Windows Multimedia"]
+ms.assetid: 762ebe7e-0d09-46ea-ab17-86061f0bd8f9
+keywords:
+- WM_CAP_DRIVER_GET_VERSION message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_DRIVER\_GET\_VERSION message
 
-The **WM\_CAP\_DRIVER\_GET\_VERSION** message returns the version information of the capture driver connected to a capture window. You can send this message explicitly or by using the [**capDriverGetVersion**](capdrivergetversion.md) macro.
+The **WM\_CAP\_DRIVER\_GET\_VERSION** message returns the version information of the capture driver connected to a capture window. You can send this message explicitly or by using the [**capDriverGetVersion**](/windows/win32/Vfw/nf-vfw-capdrivergetversion?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ The version information is a text string retrieved from the driver's resource ar
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The version information is a text string retrieved from the driver's resource ar
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

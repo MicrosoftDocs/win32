@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree GetMessageSize method
 description: Gets the size of the message in bytes.
-ms.assetid: 'ce5495cf-98a9-4bf8-b00c-5eed746fffda'
-keywords: ["GetMessageSize method Windows Mail (formerly Outlook Express)", "GetMessageSize method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetMessageSize method"]
+ms.assetid: ce5495cf-98a9-4bf8-b00c-5eed746fffda
+keywords:
+- GetMessageSize method Windows Mail (formerly Outlook Express)
+- GetMessageSize method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetMessageSize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::GetMessageSize method
@@ -22,8 +30,8 @@ Gets the size of the message in bytes.
 
 ```C++
 HRESULT GetMessageSize(
-  [out] ULONG *pcbSize,
-  [in]  DWORD dwFlags
+  [out] ULONG *pcbSize,
+  [in]  DWORD dwFlags
 );
 ```
 
@@ -59,7 +67,7 @@ Specifies how an [**IMimeMessageTree**](oe-imimemessagetree.md) object should be
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -82,7 +90,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -90,8 +98,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -99,9 +107,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Using Pause Interactions
 description: A pause interaction lets you provide instructions to the user (for example, asking the user to connect the network cable to the computer).
-ms.assetid: '4ddc7fb3-b58c-4005-bfd3-9933134c89b9'
+ms.assetid: 4ddc7fb3-b58c-4005-bfd3-9933134c89b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Pause Interactions

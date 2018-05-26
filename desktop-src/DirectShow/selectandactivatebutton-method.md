@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectAndActivateButton method selects and activates the specified button.'
-ms.assetid: 'fa6239ea-0478-41f1-9515-d67a7fad11db'
+Description: The SelectAndActivateButton method selects and activates the specified button.
+ms.assetid: fa6239ea-0478-41f1-9515-d67a7fad11db
 title: SelectAndActivateButton Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectAndActivateButton Method

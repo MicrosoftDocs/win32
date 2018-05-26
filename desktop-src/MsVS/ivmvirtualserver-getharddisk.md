@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer GetHardDisk method
 description: The GetHardDisk method returns a IVMHardDisk object corresponding to an existing disk image file.
-ms.assetid: '41960ce7-8e7b-4eeb-baed-490ec36ce996'
-keywords: ["GetHardDisk method Virtual Server", "GetHardDisk method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , GetHardDisk method"]
+ms.assetid: 41960ce7-8e7b-4eeb-baed-490ec36ce996
+keywords:
+- GetHardDisk method Virtual Server
+- GetHardDisk method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , GetHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::GetHardDisk method
@@ -22,8 +30,8 @@ The **GetHardDisk** method returns a [**IVMHardDisk**](ivmharddisk.md) object co
 
 ```C++
 HRESULT GetHardDisk(
-  [in]  BSTR        imagePath,
-  [out] IVMHardDisk **hardDisk
+  [in]  BSTR        imagePath,
+  [out] IVMHardDisk **hardDisk
 );
 ```
 
@@ -66,7 +74,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +82,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -87,9 +95,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

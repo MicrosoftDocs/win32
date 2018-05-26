@@ -1,8 +1,9 @@
 ---
 title: MrmCreateResourceFileInMemory function
 description: Creates PRI info as a blob in memory, not as a file on disk.
-ms.assetid: '68BDAD27-545A-4DC6-B909-4242A0863690'
-keywords: ["MrmCreateResourceFileInMemory function Menus and Other Resources"]
+ms.assetid: 68BDAD27-545A-4DC6-B909-4242A0863690
+keywords:
+- MrmCreateResourceFileInMemory function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateResourceFileInMemory function
@@ -24,11 +30,11 @@ Creates PRI info as a blob in memory, not as a file on disk. The function alloca
 
 ```C++
 HRESULT HRESULT MrmCreateResourceFileInMemory(
-  _In_  MrmResourceIndexerHandle indexer,
-  _In_  MrmPackagingMode         packagingMode,
-  _In_  MrmPackagingOptions      packagingOptions,
-  _Out_ BYTE                     **outputPriData,
-  _Out_ ULONG                    *outputPriSize
+  _In_  MrmResourceIndexerHandle indexer,
+  _In_  MrmPackagingMode         packagingMode,
+  _In_  MrmPackagingOptions      packagingOptions,
+  _Out_ BYTE                     **outputPriData,
+  _Out_ ULONG                    *outputPriSize
 );
 ```
 
@@ -99,7 +105,7 @@ If you pass *outputPriData* to [**MrmCreateResourceIndexerFromPreviousPriData**]
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -114,9 +120,9 @@ If you pass *outputPriData* to [**MrmCreateResourceIndexerFromPreviousPriData**]
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

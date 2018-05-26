@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement BackupLicenses method
 description: The BackupLicenses method creates a backup of the licenses in the local license store.
-ms.assetid: 'f265254d-b240-4a9f-9c67-de9c92e8a14d'
-keywords: ["BackupLicenses method windows Media Format", "BackupLicenses method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , BackupLicenses method"]
+ms.assetid: f265254d-b240-4a9f-9c67-de9c92e8a14d
+keywords:
+- BackupLicenses method windows Media Format
+- BackupLicenses method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , BackupLicenses method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::BackupLicenses method
@@ -23,9 +31,9 @@ The **BackupLicenses** method creates a backup of the licenses in the local lice
 
 ```C++
 HRESULT BackupLicenses(
-  [in]  BSTR     bstrBackupDirectory,
-  [in]  DWORD    dwFlags,
-  [out] IUnknown **ppunkCancelationCookie
+  [in]  BSTR     bstrBackupDirectory,
+  [in]  DWORD    dwFlags,
+  [out] IUnknown **ppunkCancelationCookie
 );
 ```
 
@@ -68,7 +76,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,9 +104,9 @@ Not all licenses are permitted to be backed up. This method only backs up licens
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

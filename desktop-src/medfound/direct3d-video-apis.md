@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Direct3D 9 Video APIs
-ms.assetid: '2f5f46a0-f21f-4e57-9297-bad2b791da52'
+ms.assetid: 2f5f46a0-f21f-4e57-9297-bad2b791da52
 title: Direct3D 9 Video APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 9 Video APIs
@@ -23,8 +28,8 @@ title: Direct3D 9 Video APIs
 | [Direct3D Video Interfaces](direct3d-video-interfaces.md)<br/>       | Describes the Microsoft Direct3D 9 video interfaces.<br/>                                                                             |
 | [Direct3D Video Structures](direct3d-video-structures.md)<br/>       | Describes the structures used by the Direct3D 9 video interfaces.<br/>                                                                |
 | [Direct3D Video Enumerations](direct3d-video-enumerations.md)<br/>   | Describes the enumerations used by the Direct3D 9 video interfaces.<br/>                                                              |
-| [Content Protection Commands](content-protection-commands.md)<br/>   | Lists the commands for the [**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md) method.<br/> |
-| [Content Protection Queries](content-protection-queries.md)<br/>     | Lists the queries for the [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md) method.<br/>          |
+| [Content Protection Commands](content-protection-commands.md)<br/>   | Lists the commands for the [**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master) method.<br/> |
+| [Content Protection Queries](content-protection-queries.md)<br/>     | Lists the queries for the [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master) method.<br/>          |
 
 
 

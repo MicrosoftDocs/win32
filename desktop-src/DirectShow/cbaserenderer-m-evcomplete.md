@@ -1,7 +1,12 @@
 ---
-Description: 'Event that is signaled when a state transition is complete.'
-ms.assetid: '96d236a3-dfba-49a6-95a9-812f7b6a5b68'
-title: 'CBaseRenderer::m\_evComplete member'
+Description: Event that is signaled when a state transition is complete.
+ms.assetid: 96d236a3-dfba-49a6-95a9-812f7b6a5b68
+title: CBaseRendererm\_evComplete member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_evComplete member
@@ -35,9 +40,9 @@ CAMEvent m_evComplete;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

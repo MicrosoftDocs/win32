@@ -4,11 +4,12 @@ description: Used to pass virtual list view (VLV) data from the server to the cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bd7906bd-9e2d-4941-9a63-3e530cb9583b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: bd7906bd-9e2d-4941-9a63-3e530cb9583b
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_CONTROL_VLVRESPONSE control code LDAP"]
+keywords:
+- LDAP_CONTROL_VLVRESPONSE control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Winldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_CONTROL\_VLVRESPONSE control code
 
 The LDAP\_CONTROL\_VLVRESPONSE control is used to pass virtual list view (VLV) data from the server to the client.
 
-This control cannot be sent; it can only be received. The [**LDAPControl**](ldapcontrol.md) structure will have its members set to the following:
+This control cannot be sent; it can only be received. The [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure will have its members set to the following:
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_CONTROL_VLVRESPONSE;
@@ -45,7 +49,7 @@ LDAP\_CONTROL\_VLVRESPONSE defined as "2.16.840.1.113730.3.4.10".
 **ldctl\_value**
 </dt> <dd>
 
-Returns a **controlValue** that is an OCTET STRING whose value is the BER-encoded sequence of parameters that the application uses to specify the LDAP\_CONTROL\_VLVRESPONSE control. The [**berval**](berval.md) structure returns a pointer in **bv\_val** to the sequence that contains the virtual list view data, and sets **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Returns a **controlValue** that is an OCTET STRING whose value is the BER-encoded sequence of parameters that the application uses to specify the LDAP\_CONTROL\_VLVRESPONSE control. The [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure returns a pointer in **bv\_val** to the sequence that contains the virtual list view data, and sets **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -131,7 +135,7 @@ For example, the server could exceed an administration limit while processing a 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,8 +143,8 @@ For example, the server could exceed an administration limit while processing a 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winldap.h</dt> </dl> |
 
 
@@ -152,15 +156,15 @@ For example, the server could exceed an administration limit while processing a 
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPMessage**](ldapmessage.md)
+[**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

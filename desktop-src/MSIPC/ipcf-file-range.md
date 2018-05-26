@@ -4,11 +4,12 @@ description: Describes the logical file range in a protected file.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7A1CC338-FB40-4D63-9556-966454745791'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7A1CC338-FB40-4D63-9556-966454745791
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPCF_FILE_RANGE structure Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPCF_FILE_RANGE structure Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Ipcfile.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPCF\_FILE\_RANGE structure
@@ -59,8 +63,8 @@ Size of the data of interest.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 
 
@@ -75,9 +79,9 @@ Size of the data of interest.
 [Structures](msipc-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

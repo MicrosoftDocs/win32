@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_MoreColorsLabel
 description: Identifies the UI\_PKEY\_MoreColorsLabel property.
-ms.assetid: '69057320-b9b4-4022-baf2-f44247bfdae2'
+ms.assetid: 69057320-b9b4-4022-baf2-f44247bfdae2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_MoreColorsLabel

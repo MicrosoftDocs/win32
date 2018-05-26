@@ -1,13 +1,22 @@
 ---
 title: Bandwidth Sharing Types
 description: Bandwidth Sharing Types
-ms.assetid: '2da15981-65d4-4d77-a68c-810ded18670c'
-keywords: ["Windows Media Format SDK,bandwidth sharing", "Advanced Systems Format (ASF),bandwidth sharing", "ASF (Advanced Systems Format),bandwidth sharing", "bandwidth sharing,types"]
+ms.assetid: 2da15981-65d4-4d77-a68c-810ded18670c
+keywords:
+- Windows Media Format SDK,bandwidth sharing
+- Advanced Systems Format (ASF),bandwidth sharing
+- ASF (Advanced Systems Format),bandwidth sharing
+- bandwidth sharing,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bandwidth Sharing Types
 
-You can use bandwidth sharing types to identify the nature of a bandwidth sharing object in a profile. Bandwidth sharing types are used as parameters for [**IWMBandwidthSharing::GetType**](iwmbandwidthsharing-gettype.md) and [**IWMBandwidthSharing::SetType**](iwmbandwidthsharing-settype.md).
+You can use bandwidth sharing types to identify the nature of a bandwidth sharing object in a profile. Bandwidth sharing types are used as parameters for [**IWMBandwidthSharing::GetType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype?branch=master) and [**IWMBandwidthSharing::SetType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype?branch=master).
 
 The following table lists the identifiers for bandwidth sharing types.
 

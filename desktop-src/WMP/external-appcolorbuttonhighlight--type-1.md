@@ -1,8 +1,9 @@
 ---
 title: External.appColorButtonHighlight (Type 1)
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '7325a5ca-3752-4051-80e4-78619b58b255'
-keywords: ["External.appColorButtonHighlight (Type 1) Windows Media Player"]
+ms.assetid: 7325a5ca-3752-4051-80e4-78619b58b255
+keywords:
+- External.appColorButtonHighlight (Type 1) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.appColorButtonHighlight (Type 1)
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **appColorButtonHighlight** property retrieves the current button highlight color for the Windows Media Player user interface.
 
@@ -53,9 +59,9 @@ Users can change the color of the Windows Media Player user interface. You can u
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

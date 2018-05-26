@@ -1,7 +1,12 @@
 ---
-Description: 'The size of a Digest Access challenge must be less than 2048 bytes.'
-ms.assetid: '16c6728a-966b-436f-902d-3e12368986b6'
+Description: The size of a Digest Access challenge must be less than 2048 bytes.
+ms.assetid: 16c6728a-966b-436f-902d-3e12368986b6
 title: Contents of a Digest Challenge
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contents of a Digest Challenge

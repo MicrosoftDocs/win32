@@ -1,7 +1,12 @@
 ---
 title: Descriptor Tables
 description: A descriptor table is logically an array of descriptors.
-ms.assetid: 'BB0CA29C-65CB-48B1-8351-EE13CC470B54'
+ms.assetid: BB0CA29C-65CB-48B1-8351-EE13CC470B54
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Descriptor Tables
@@ -20,7 +25,7 @@ A descriptor table is logically an array of descriptors.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +40,9 @@ A descriptor table is logically an array of descriptors.
 [Root Signatures](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

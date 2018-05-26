@@ -1,7 +1,12 @@
 ---
 title: Video-Overlay Command Set
 description: Video-Overlay Command Set
-ms.assetid: 'e1f9da94-00c2-472e-a78d-1b65e656c8ea'
+ms.assetid: e1f9da94-00c2-472e-a78d-1b65e656c8ea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video-Overlay Command Set

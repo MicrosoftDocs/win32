@@ -4,11 +4,14 @@ description: The GetHalfLightHex method derives a \ 0034;lighter \ 0034; color b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e3962093-7f08-4831-ab33-b893bb5d1bea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e3962093-7f08-4831-ab33-b893bb5d1bea
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetHalfLightHex method MMC", "GetHalfLightHex method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetHalfLightHex method"]
+keywords:
+- GetHalfLightHex method MMC
+- GetHalfLightHex method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetHalfLightHex method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetHalfLightHex method
@@ -101,9 +107,9 @@ A string that contains the hexadecimal value for the derived color specified by 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

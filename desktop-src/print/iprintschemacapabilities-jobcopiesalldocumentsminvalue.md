@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the JobCopiesAllDocuments parameter minimum value.'
-ms.assetid: '181D085C-65C5-4D7E-9A1B-8641CC9B799B'
-title: 'IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue property'
+---
+Description: Gets the JobCopiesAllDocuments parameter minimum value.
+ms.assetid: 181D085C-65C5-4D7E-9A1B-8641CC9B799B
+title: IPrintSchemaCapabilitiesJobCopiesAllDocumentsMinValue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue property

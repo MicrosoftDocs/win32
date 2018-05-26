@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the handle of an annotation by looking up its name.'
-ms.assetid: 'da4e2805-5f06-4a9b-836f-85a8c154c502'
-title: 'ID3DXBaseEffect::GetAnnotationByName method'
+---
+Description: Gets the handle of an annotation by looking up its name.
+ms.assetid: da4e2805-5f06-4a9b-836f-85a8c154c502
+title: ID3DXBaseEffectGetAnnotationByName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetAnnotationByName method

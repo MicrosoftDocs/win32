@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Patch object represents a unique instance of a patch that has been registered or applied.The object can be instantiated with the Patch property as &\#0034;WindowsInstaller.Installer.Patch(PatchCode, ProductCode, UserSid, Context)&\#0034;.'
-ms.assetid: 'c1283179-f2c8-42b8-a713-1c82e456f97c'
+---
+Description: The Patch object represents a unique instance of a patch that has been registered or applied.The object can be instantiated with the Patch property as &\#0034;WindowsInstaller.Installer.Patch(PatchCode, ProductCode, UserSid, Context)&\#0034;.
+ms.assetid: c1283179-f2c8-42b8-a713-1c82e456f97c
 title: Patch object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch object

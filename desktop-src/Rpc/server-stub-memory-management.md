@@ -1,8 +1,14 @@
 ---
 title: Server Stub Memory Management
 description: Server Stub Memory Management
-ms.assetid: '99e3ee56-5adb-4b25-bcf2-316d1bbdbdba'
-keywords: ["Server Stub Memory Management"]
+ms.assetid: 99e3ee56-5adb-4b25-bcf2-316d1bbdbdba
+keywords:
+- Server Stub Memory Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Stub Memory Management

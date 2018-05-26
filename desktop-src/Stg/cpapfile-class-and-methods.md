@@ -1,7 +1,12 @@
 ---
 title: CPapFile Class and Methods
 description: StoClien encapsulates its compound file operations in a CPapFile C++ object.
-ms.assetid: '21a3e170-0a73-4744-8cfc-3a04e0571792'
+ms.assetid: 21a3e170-0a73-4744-8cfc-3a04e0571792
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPapFile Class and Methods
@@ -33,7 +38,7 @@ class CPapFile
 
 The CPapFile object keeps a current file name in member **m\_szCurFileName**. This file name is used as a default in the [**Load**](load-method---cpapfile.md) and [**Save**](save-method---cpapfile.md) methods when they do not explicitly receive a file name.
 
-Member **m\_pIPaper** keeps an interface pointer to the COPaper [**IPaper**](ipaper-methods.md) interface. Member **m\_pIStorage** keeps a pointer to the [**IStorage**](istorage.md) interface for the current compound file that **StoClien** is using for structured storage.
+Member **m\_pIPaper** keeps an interface pointer to the COPaper [**IPaper**](ipaper-methods.md) interface. Member **m\_pIStorage** keeps a pointer to the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface for the current compound file that **StoClien** is using for structured storage.
 
 The following is a summary of CPapFile's methods.
 

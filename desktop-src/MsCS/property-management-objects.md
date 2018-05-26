@@ -4,11 +4,15 @@ description: Store and retrieve properties for groups, networks, network interfa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '386405da-1f57-46a2-b913-b946d7574ede'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 386405da-1f57-46a2-b913-b946d7574ede
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property management objects Failover Cluster"]
+keywords:
+- property management objects Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Management Objects

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Puts a word and its position in the IWordSink object.'
-ms.assetid: '3D645BF6-895E-46E2-92A3-3E301CD228D8'
-title: 'IWordSink::PutWord method'
+---
+Description: Puts a word and its position in the IWordSink object.
+ms.assetid: 3D645BF6-895E-46E2-92A3-3E301CD228D8
+title: IWordSinkPutWord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWordSink::PutWord method

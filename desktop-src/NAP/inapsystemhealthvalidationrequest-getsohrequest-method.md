@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthValidationRequest GetSoHRequest method
 description: Allows System Health Validators (SHVs) to retrieve and validate the SoHRequest information sent by their System Health Agent (SHA) counterparts on the client.
-ms.assetid: 'e06e07c6-7305-4171-b94e-19c360e94c67'
-keywords: ["GetSoHRequest method NAP", "GetSoHRequest method NAP , INapSystemHealthValidationRequest interface", "INapSystemHealthValidationRequest interface NAP , GetSoHRequest method"]
+ms.assetid: e06e07c6-7305-4171-b94e-19c360e94c67
+keywords:
+- GetSoHRequest method NAP
+- GetSoHRequest method NAP , INapSystemHealthValidationRequest interface
+- INapSystemHealthValidationRequest interface NAP , GetSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,24 +14,29 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthValidationRequest::GetSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **INapSystemHealthValidationRequest::GetSoHRequest** method allows System Health Validators (SHVs) to retrieve and validate the [**SoHRequest**](soh-struct.md) information sent by their System Health Agent (SHA) counterparts on the client.
+The **INapSystemHealthValidationRequest::GetSoHRequest** method allows System Health Validators (SHVs) to retrieve and validate the [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) information sent by their System Health Agent (SHA) counterparts on the client.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetSoHRequest(
-  [out] SoHRequest **sohRequest,
-  [out] BOOL       *napSystemGenerated
+  [out] SoHRequest **sohRequest,
+  [out] BOOL       *napSystemGenerated
 );
 ```
 
@@ -41,7 +49,7 @@ HRESULT GetSoHRequest(
 *sohRequest* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**SoHRequest**](soh-struct.md) structure.
+A pointer to a pointer to an [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) structure.
 
 </dd> <dt>
 
@@ -66,16 +74,16 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
-The *sohRequest* parameter may return **NULL** if the client did not send an [**SoHRequest**](soh-struct.md) to the SHV. In that scenario the SHV can populate an **SoHResponse** with the error code of [**NAP\_E\_MISSING\_SOH**](nap-error-constants.md).
+The *sohRequest* parameter may return **NULL** if the client did not send an [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) to the SHV. In that scenario the SHV can populate an **SoHResponse** with the error code of [**NAP\_E\_MISSING\_SOH**](nap-error-constants.md).
 
 If the *napSystemGenerated* parameter is **TRUE**, the format of *SoHRequest* is as follows:
 
 -   [**sohAttributeTypeSystemHealthId**](sohattributetype-enum.md)= &lt;id&gt;
--   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](failurecategory-enum.md)
+-   [**sohAttributeTypeFailureCategory**](sohattributetype-enum.md)= [**failureCategoryClientComponent**](/windows/win32/NapTypes/ne-naptypes-tagfailurecategory?branch=master)
 -   [**sohAttributeTypeErrorCodes**](sohattributetype-enum.md) = [**&lt;sha-failure-error-code&gt;**](nap-error-constants.md)
 
 ## Requirements
@@ -85,7 +93,7 @@ If the *napSystemGenerated* parameter is **TRUE**, the format of *SoHRequest* is
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -99,9 +107,9 @@ If the *napSystemGenerated* parameter is **TRUE**, the format of *SoHRequest* is
 [**INapSystemHealthValidationRequest**](inapsystemhealthvalidationrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

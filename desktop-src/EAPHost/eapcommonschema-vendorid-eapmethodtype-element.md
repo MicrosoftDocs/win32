@@ -1,14 +1,20 @@
 ---
 title: VendorId (EapMethodType) Element
 description: Refers to the vendor who defined the method if the Type (EapMethodType) element is 254 (an expanded EAP method).
-ms.assetid: '14992940-2fe5-4f85-91c0-1f61345ee90f'
-keywords: ["VendorId element EAPHost"]
+ms.assetid: 14992940-2fe5-4f85-91c0-1f61345ee90f
+keywords:
+- VendorId element EAPHost
 topic_type:
 - apiref
 api_name:
 - VendorId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VendorId (EapMethodType) Element
@@ -35,8 +41,8 @@ The [**AuthorId**](eapcommonschema-authorid-eapmethodtype-element.md) and **Vend
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The [**AuthorId**](eapcommonschema-authorid-eapmethodtype-element.md) and **Vend
 [eapcommon Schema](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

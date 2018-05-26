@@ -1,7 +1,12 @@
 ---
 title: How to Use Virtual List-View Controls
 description: This topic demonstrates how to work with virtual list-view controls.
-ms.assetid: 'DA32D7B3-5FDB-4D73-9A72-0D4EEB2A0C4F'
+ms.assetid: DA32D7B3-5FDB-4D73-9A72-0D4EEB2A0C4F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Virtual List-View Controls

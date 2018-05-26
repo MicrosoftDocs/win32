@@ -4,11 +4,17 @@ description: A file screen exception defines a list of file groups that are allo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a046f092-5b6d-452d-826b-fd4b83c774fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: a046f092-5b6d-452d-826b-fd4b83c774fb
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , defining a file screen exception", "file screen exceptions File Server Resource Manager", "defining file screen exceptions File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , defining a file screen exception
+- file screen exceptions File Server Resource Manager
+- defining file screen exceptions File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining a File Screen Exception

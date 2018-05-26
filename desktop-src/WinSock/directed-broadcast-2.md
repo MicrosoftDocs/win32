@@ -1,7 +1,12 @@
 ---
-Description: 'Generally considered more network friendly than an all-routes broadcast, a directed broadcast limits itself to the local network that you specify.'
-ms.assetid: 'e2358580-5a65-434d-ba4c-a6b0615bccc3'
+Description: Generally considered more network friendly than an all-routes broadcast, a directed broadcast limits itself to the local network that you specify.
+ms.assetid: e2358580-5a65-434d-ba4c-a6b0615bccc3
 title: Directed Broadcast
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directed Broadcast

@@ -4,17 +4,22 @@ description: Staging clean-up trigger in percent of free disk space.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b9a1a8ca-10e8-4f7d-aa86-ae7472a7c961'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b9a1a8ca-10e8-4f7d-aa86-ae7472a7c961
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-StagingCleanupTriggerInPercent attribute AD Schema", "msDFSR-StagingCleanupTriggerInPercent attribute AD Schema"]
+keywords:
+- ms-DFSR-StagingCleanupTriggerInPercent attribute AD Schema
+- msDFSR-StagingCleanupTriggerInPercent attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-StagingCleanupTriggerInPercent
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-StagingCleanupTriggerInPercent attribute
@@ -38,9 +43,9 @@ Staging clean-up trigger in percent of free disk space.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Staging clean-up trigger in percent of free disk space.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

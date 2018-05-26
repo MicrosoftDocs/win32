@@ -1,8 +1,10 @@
 ---
 title: OEExecRules object
-description: OEExecRules is no longer available for use as of Windows Vista.
-ms.assetid: '86d47e6e-6f03-4949-85df-9f24885bb26d'
-keywords: ["OEExecRules object Windows Mail (formerly Outlook Express)", "OEExecRules object Windows Mail (formerly Outlook Express) , described"]
+description: OEExecRules is no longer available for use as of Windows Vista.
+ms.assetid: 86d47e6e-6f03-4949-85df-9f24885bb26d
+keywords:
+- OEExecRules object Windows Mail (formerly Outlook Express)
+- OEExecRules object Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEExecRules object
 
-\[**OEExecRules** is no longer available for use as of Windows Vista.\]
+\[**OEExecRules** is no longer available for use as of Windows Vista.\]
 
 The **OEExecRules** object implements the [**IOEExecRules**](oe-ioeexecrules.md) interface.
 
@@ -25,10 +32,10 @@ The **OEExecRules** object implements the [**IOEExecRules**](oe-ioeexecrules.md)
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
@@ -37,9 +44,9 @@ The **OEExecRules** object implements the [**IOEExecRules**](oe-ioeexecrules.md)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

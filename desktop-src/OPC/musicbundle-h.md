@@ -1,8 +1,25 @@
 ---
 title: musicbundle.h
 description: musicbundle.h
-ms.assetid: '0186f3e6-ab12-4388-a7e3-cd3244c3d3ac'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle sample", "packaging,music bundle sample", "packages,music bundle sample", "music bundle sample,musicbundle.h", "Packaging APIs,musicbundle.h", "packaging,musicbundle.h", "packages,musicbundle.h", "musicbundle.h", "sample applications,music bundle"]
+ms.assetid: 0186f3e6-ab12-4388-a7e3-cd3244c3d3ac
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle sample
+- packaging,music bundle sample
+- packages,music bundle sample
+- music bundle sample,musicbundle.h
+- Packaging APIs,musicbundle.h
+- packaging,musicbundle.h
+- packages,musicbundle.h
+- musicbundle.h
+- sample applications,music bundle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # musicbundle.h

@@ -1,8 +1,9 @@
 ---
 title: PBM\_STEPIT message
 description: Advances the current position for a progress bar by the step increment and redraws the bar to reflect the new position. An application sets the step increment by sending the PBM\_SETSTEP message.
-ms.assetid: 'fd9947f6-7a48-4207-b691-b7db78eb8a85'
-keywords: ["PBM_STEPIT message Windows Controls"]
+ms.assetid: fd9947f6-7a48-4207-b691-b7db78eb8a85
+keywords:
+- PBM_STEPIT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_STEPIT message
@@ -41,15 +47,15 @@ When the position exceeds the maximum range value, this message resets the curre
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

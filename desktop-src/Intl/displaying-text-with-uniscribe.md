@@ -1,7 +1,12 @@
 ---
-Description: 'Your applications can use Uniscribe API functions to support typography and the display and editing of international text. Uniscribe uses the paragraph as the unit for text display, and the Uniscribe functionality must be used for the entire paragraph.'
-ms.assetid: 'e1adc567-0445-4deb-8634-25653f82127c'
+Description: Your applications can use Uniscribe API functions to support typography and the display and editing of international text. Uniscribe uses the paragraph as the unit for text display, and the Uniscribe functionality must be used for the entire paragraph.
+ms.assetid: e1adc567-0445-4deb-8634-25653f82127c
 title: Displaying Text with Uniscribe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Text with Uniscribe
@@ -38,9 +43,9 @@ As shown in the following table, Uniscribe version 1.6 or greater supports sever
 
 | Regular Uniscribe function             | Equivalent OpenType function                           |
 |----------------------------------------|--------------------------------------------------------|
-| [**ScriptItemize**](scriptitemize.md) | [**ScriptItemizeOpenType**](scriptitemizeopentype.md) |
-| [**ScriptShape**](scriptshape.md)     | [**ScriptShapeOpenType**](scriptshapeopentype.md)     |
-| [**ScriptPlace**](scriptplace.md)     | [**ScriptPlaceOpenType**](scriptplaceopentype.md)     |
+| [**ScriptItemize**](/windows/win32/Usp10/nf-usp10-scriptitemize?branch=master) | [**ScriptItemizeOpenType**](/windows/win32/usp10/nf-usp10-scriptitemizeopentype?branch=master) |
+| [**ScriptShape**](/windows/win32/Usp10/nf-usp10-scriptshape?branch=master)     | [**ScriptShapeOpenType**](/windows/win32/Usp10/nf-usp10-scriptshapeopentype?branch=master)     |
+| [**ScriptPlace**](/windows/win32/Usp10/nf-usp10-scriptplace?branch=master)     | [**ScriptPlaceOpenType**](/windows/win32/Usp10/nf-usp10-scriptplaceopentype?branch=master)     |
 
 
 
@@ -50,27 +55,27 @@ As shown in the following table, Uniscribe version 1.6 or greater supports sever
 
 Your application can use the following steps to lay out out a text paragraph with Uniscribe. This procedure assumes that the application has already divided the paragraph into runs.
 
-1.  Call [**ScriptRecordDigitSubstitution**](scriptrecorddigitsubstitution.md) only when starting or when receiving a [**WM\_SETTINGCHANGE**](_win32_wm_settingchange_cpp) message.
-2.  (Optional) Call [**ScriptIsComplex**](scriptiscomplex.md) to determine if the paragraph requires complex processing.
-3.  (Optional) If using Uniscribe to handle bidirectional text and/or digit substitution, call [**ScriptApplyDigitSubstitution**](scriptapplydigitsubstitution.md) to prepare the [**SCRIPT\_CONTROL**](script-control.md) and [**SCRIPT\_STATE**](script-state.md) structures as inputs to [**ScriptItemize**](scriptitemize.md). If skipping this step, but still requiring digit substitution, substitute national digits for Unicode U+0030 through U+0039 (European digits). For information about digit substitution, see [Digit Shapes](digit-shapes.md).
-4.  Call [**ScriptItemize**](scriptitemize.md) to divide the paragraph into items. If not using Uniscribe for digit substitution and the bidirectional order is known, for example, because of the keyboard layout used to enter the character, call **ScriptItemize**. In the call, provide null pointers for the [**SCRIPT\_CONTROL**](script-control.md) and [**SCRIPT\_STATE**](script-state.md) structures. This technique generates items by use of the shaping engine only, and the items can be reordered using the engine information.
+1.  Call [**ScriptRecordDigitSubstitution**](/windows/win32/Usp10/nf-usp10-scriptrecorddigitsubstitution?branch=master) only when starting or when receiving a [**WM\_SETTINGCHANGE**](_win32_wm_settingchange_cpp) message.
+2.  (Optional) Call [**ScriptIsComplex**](/windows/win32/Usp10/nf-usp10-scriptiscomplex?branch=master) to determine if the paragraph requires complex processing.
+3.  (Optional) If using Uniscribe to handle bidirectional text and/or digit substitution, call [**ScriptApplyDigitSubstitution**](/windows/win32/Usp10/nf-usp10-scriptapplydigitsubstitution?branch=master) to prepare the [**SCRIPT\_CONTROL**](/windows/win32/Usp10/ns-usp10-tag_script_control?branch=master) and [**SCRIPT\_STATE**](/windows/win32/Usp10/ns-usp10-tag_script_state?branch=master) structures as inputs to [**ScriptItemize**](/windows/win32/Usp10/nf-usp10-scriptitemize?branch=master). If skipping this step, but still requiring digit substitution, substitute national digits for Unicode U+0030 through U+0039 (European digits). For information about digit substitution, see [Digit Shapes](digit-shapes.md).
+4.  Call [**ScriptItemize**](/windows/win32/Usp10/nf-usp10-scriptitemize?branch=master) to divide the paragraph into items. If not using Uniscribe for digit substitution and the bidirectional order is known, for example, because of the keyboard layout used to enter the character, call **ScriptItemize**. In the call, provide null pointers for the [**SCRIPT\_CONTROL**](/windows/win32/Usp10/ns-usp10-tag_script_control?branch=master) and [**SCRIPT\_STATE**](/windows/win32/Usp10/ns-usp10-tag_script_state?branch=master) structures. This technique generates items by use of the shaping engine only, and the items can be reordered using the engine information.
     > [!Note]  
-    > Typically, applications that work only with left-to-right scripts and without any digit substitution should pass null pointers for the [**SCRIPT\_CONTROL**](script-control.md) and [**SCRIPT\_STATE**](script-state.md) structures.
+    > Typically, applications that work only with left-to-right scripts and without any digit substitution should pass null pointers for the [**SCRIPT\_CONTROL**](/windows/win32/Usp10/ns-usp10-tag_script_control?branch=master) and [**SCRIPT\_STATE**](/windows/win32/Usp10/ns-usp10-tag_script_state?branch=master) structures.
 
      
 
 5.  Merge the item information with the run information to produce ranges.
-6.  Call [**ScriptShape**](scriptshape.md) to identify clusters and generate glyphs.
-7.  If [**ScriptShape**](scriptshape.md) returns the code USP\_E\_SCRIPT\_NOT\_IN\_FONT or S\_OK with the output containing missing glyphs, select characters from a different font. Either substitute another font or disable shaping by setting the **eScript** member of the [**SCRIPT\_ANALYSIS**](script-analysis.md) structure passed to **ScriptShape** to SCRIPT\_UNDEFINED. For more information, see [Using Font Fallback](using-font-fallback.md).
-8.  Call [**ScriptPlace**](scriptplace.md) to generate [advance widths](uniscribe-glossary.md#advance-width) and x and y positions for the glyphs in each successive range. This is the first step for which text size becomes a consideration.
+6.  Call [**ScriptShape**](/windows/win32/Usp10/nf-usp10-scriptshape?branch=master) to identify clusters and generate glyphs.
+7.  If [**ScriptShape**](/windows/win32/Usp10/nf-usp10-scriptshape?branch=master) returns the code USP\_E\_SCRIPT\_NOT\_IN\_FONT or S\_OK with the output containing missing glyphs, select characters from a different font. Either substitute another font or disable shaping by setting the **eScript** member of the [**SCRIPT\_ANALYSIS**](/windows/win32/Usp10/ns-usp10-tag_script_analysis?branch=master) structure passed to **ScriptShape** to SCRIPT\_UNDEFINED. For more information, see [Using Font Fallback](using-font-fallback.md).
+8.  Call [**ScriptPlace**](/windows/win32/Usp10/nf-usp10-scriptplace?branch=master) to generate [advance widths](uniscribe-glossary.md#advance-width) and x and y positions for the glyphs in each successive range. This is the first step for which text size becomes a consideration.
 9.  Sum the range sizes until the line overflows.
-10. Break the range on a word boundary by using the **fSoftBreak** and **fWhiteSpace** members in the logical attributes. To break a single character cluster off the run, use the information returned by calling [**ScriptBreak**](scriptbreak.md).
+10. Break the range on a word boundary by using the **fSoftBreak** and **fWhiteSpace** members in the logical attributes. To break a single character cluster off the run, use the information returned by calling [**ScriptBreak**](/windows/win32/Usp10/nf-usp10-scriptbreak?branch=master).
     > [!Note]  
     > Decide if the first code point of a range should be a word break point because the last character of the previous range requires it. For example, if one range ends in a comma, consider the first character of the next range to be a word break point.
 
      
 
-11. Repeat steps 6 through 10 for each line in the paragraph. However, if breaking the last run on the line, call [**ScriptShape**](scriptshape.md) to reshape the remaining part of the run as the first run on the next line.
+11. Repeat steps 6 through 10 for each line in the paragraph. However, if breaking the last run on the line, call [**ScriptShape**](/windows/win32/Usp10/nf-usp10-scriptshape?branch=master) to reshape the remaining part of the run as the first run on the next line.
 
 ## Display Text Using Uniscribe
 
@@ -83,15 +88,15 @@ Your application can use the following steps to display a text paragraph. This p
 
 1.  For each run, do the following:
     1.  If the style has changed since the last run, update the handle to the device context by releasing and getting it again.
-    2.  Call [**ScriptShape**](scriptshape.md) to generate glyphs for the run.
-    3.  Call [**ScriptPlace**](scriptplace.md) to generate an advance width and an x,y offset for each glyph.
+    2.  Call [**ScriptShape**](/windows/win32/Usp10/nf-usp10-scriptshape?branch=master) to generate glyphs for the run.
+    3.  Call [**ScriptPlace**](/windows/win32/Usp10/nf-usp10-scriptplace?branch=master) to generate an advance width and an x,y offset for each glyph.
 2.  Do the following to establish the correct visual order for the runs in the line:
     1.  Extract an array of bidirectional [embedding levels](uniscribe-glossary.md#embedding-level), one per range. The embedding level is given by (SCRIPT\_ITEM) si.(SCRIPT\_ANALYSIS) a. (SCRIPT\_STATE) s.uBidiLevel.
-    2.  Pass this array to [**ScriptLayout**](scriptlayout.md) to generate a map of visual positions to logical positions.
-3.  (Optional) To justify the text, either call [**ScriptJustify**](scriptjustify.md) or use specialized knowledge of the text.
-4.  Use the visual-to-logical map to display the runs in visual order. Starting at the left end of the line, call [**ScriptTextOut**](scripttextout.md) to display the run given by the first entry in the map. For each subsequent entry in the map, call **ScriptTextOut** to display the indicated run to the right of the previously displayed run.
+    2.  Pass this array to [**ScriptLayout**](/windows/win32/Usp10/nf-usp10-scriptlayout?branch=master) to generate a map of visual positions to logical positions.
+3.  (Optional) To justify the text, either call [**ScriptJustify**](/windows/win32/Usp10/nf-usp10-scriptjustify?branch=master) or use specialized knowledge of the text.
+4.  Use the visual-to-logical map to display the runs in visual order. Starting at the left end of the line, call [**ScriptTextOut**](/windows/win32/Usp10/nf-usp10-scripttextout?branch=master) to display the run given by the first entry in the map. For each subsequent entry in the map, call **ScriptTextOut** to display the indicated run to the right of the previously displayed run.
 
-    If omitting step 2, start at the left end of the line and call [**ScriptTextOut**](scripttextout.md) to display the first logical run, and then to display each logical run to the right of the previous run.
+    If omitting step 2, start at the left end of the line and call [**ScriptTextOut**](/windows/win32/Usp10/nf-usp10-scripttextout?branch=master) to display the first logical run, and then to display each logical run to the right of the previous run.
 
 5.  Repeat the steps above for all lines in the paragraph.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth device product version.'
-ms.assetid: '30f3bfe5-a78c-41c0-a579-5c0f6bfd2388'
-title: 'System.DeviceInterface.Bluetooth.ProductVersion'
+Description: Bluetooth device product version.
+ms.assetid: 30f3bfe5-a78c-41c0-a579-5c0f6bfd2388
+title: System.DeviceInterface.Bluetooth.ProductVersion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Bluetooth.ProductVersion

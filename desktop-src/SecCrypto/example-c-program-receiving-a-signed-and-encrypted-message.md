@@ -1,7 +1,12 @@
 ---
-Description: 'The following example works in conjunction with the program in Example C Program: Sending and Receiving a Signed and Encrypted Message. It reads the signed and encrypted message, then decrypts and verifies the message.'
-ms.assetid: '65ca30ba-a184-46ef-808c-e2fedcc86079'
-title: 'Example C Program: Receiving a Signed and Encrypted Message'
+Description: The following example works in conjunction with the program in Example C Program Sending and Receiving a Signed and Encrypted Message. It reads the signed and encrypted message, then decrypts and verifies the message.
+ms.assetid: 65ca30ba-a184-46ef-808c-e2fedcc86079
+title: Example C Program Receiving a Signed and Encrypted Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Receiving a Signed and Encrypted Message
@@ -19,9 +24,9 @@ This example illustrates the following tasks:
 
 This example uses the following CryptoAPI functions:
 
--   [**CertOpenStore**](certopenstore.md)
--   [**CryptDecryptAndVerifyMessageSignature**](cryptdecryptandverifymessagesignature.md)
--   [**CertCloseStore**](certclosestore.md)
+-   [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master)
+-   [**CryptDecryptAndVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature?branch=master)
+-   [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master)
 
 This example uses [**MyHandleError**](myhandleerror.md) to exit the program gracefully in case of any failure. The code **MyHandleError** is included with the sample and can also be found along with other auxiliary functions under [General Purpose Functions](general-purpose-functions.md).
 

@@ -4,11 +4,16 @@ description: On member servers and computers running on Windows 2000 Professiona
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '17a651e2-3650-4e12-b17e-badd3d479515'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 17a651e2-3650-4e12-b17e-badd3d479515
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Groups on Member Servers and Windows 2000 Professional AD", "groups AD , groups on member servers and Windows 2000 Professional"]
+keywords:
+- Groups on Member Servers and Windows 2000 Professional AD
+- groups AD , groups on member servers and Windows 2000 Professional
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Groups on Member Servers and Windows 2000 Professional

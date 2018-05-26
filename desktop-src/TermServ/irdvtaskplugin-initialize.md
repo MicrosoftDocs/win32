@@ -4,17 +4,23 @@ description: Called to initialize the task agent.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eef813e6-ecca-400a-a9f3-efca6bd81161'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: eef813e6-ecca-400a-a9f3-efca6bd81161
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Initialize method Remote Desktop Services", "Initialize method Remote Desktop Services , IRDVTaskPlugin interface", "IRDVTaskPlugin interface Remote Desktop Services , Initialize method"]
+keywords:
+- Initialize method Remote Desktop Services
+- Initialize method Remote Desktop Services , IRDVTaskPlugin interface
+- IRDVTaskPlugin interface Remote Desktop Services , Initialize method
 topic_type:
 - apiref
 api_name:
 - IRDVTaskPlugin.Initialize
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPlugin::Initialize method
@@ -26,7 +32,7 @@ Called to initialize the task agent.
 
 ```C++
 HRESULT Initialize(
-  [in] IRDVTaskPluginNotifySink *pNotifySink
+  [in] IRDVTaskPluginNotifySink *pNotifySink
 );
 ```
 
@@ -57,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -69,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IRDVTaskPlugin**](irdvtaskplugin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

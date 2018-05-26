@@ -1,8 +1,26 @@
 ---
 title: Using the Textpath Element
 description: Using the Textpath Element
-ms.assetid: '7728cdd6-d291-4ec5-b5e0-4a44a7d72eae'
-keywords: ["Web workshop,textpath element", "designing Web pages,textpath element", "Vector Markup Language (VML),textpath element", "VML (Vector Markup Language),textpath element", "vector graphics,textpath element", "textpath element", "VML elements,textpath", "VML shapes,textpath element", "Vector Markup Language (VML),drawing text", "VML (Vector Markup Language),drawing text", "vector graphics,drawing VML text", "drawing text", "VML shapes,drawing text"]
+ms.assetid: 7728cdd6-d291-4ec5-b5e0-4a44a7d72eae
+keywords:
+- Web workshop,textpath element
+- designing Web pages,textpath element
+- Vector Markup Language (VML),textpath element
+- VML (Vector Markup Language),textpath element
+- vector graphics,textpath element
+- textpath element
+- VML elements,textpath
+- VML shapes,textpath element
+- Vector Markup Language (VML),drawing text
+- VML (Vector Markup Language),drawing text
+- vector graphics,drawing VML text
+- drawing text
+- VML shapes,drawing text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Textpath Element

@@ -1,7 +1,12 @@
 ---
 title: IsapiQueryCachePurgeInterval
 description: IsapiQueryCachePurgeInterval
-ms.assetid: '5a104e3d-d5c0-4950-9bcb-93b46610d426'
+ms.assetid: 5a104e3d-d5c0-4950-9bcb-93b46610d426
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiQueryCachePurgeInterval

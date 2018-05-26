@@ -1,13 +1,16 @@
 ---
-Description: 'Returns a collection of all association classes or instances that refer to a specific source class or instance.'
+Description: Returns a collection of all association classes or instances that refer to a specific source class or instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '33425b1c-13f5-4c3d-8f8a-2922f3e95264'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 33425b1c-13f5-4c3d-8f8a-2922f3e95264
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.ReferencesTo method'
+title: SWbemServices.ReferencesTo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.ReferencesTo method
@@ -162,7 +165,7 @@ After the completion of the **ReferencesTo** method, the **Err** object may cont
 > [!Note]  
 > A returned collection with zero elements is not an error.
 
- 
+ 
 
 <dl> <dt>
 
@@ -211,8 +214,8 @@ For more information about the REFERENCES OF associated WQL query, source instan
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -237,9 +240,9 @@ For more information about the REFERENCES OF associated WQL query, source instan
 [**SWbemServices.AssociatorsOf**](swbemservices-associatorsof.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

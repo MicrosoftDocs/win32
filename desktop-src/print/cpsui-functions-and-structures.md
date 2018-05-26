@@ -1,7 +1,12 @@
 ---
 Description: CPSUI Functions and Structures
-ms.assetid: '9540f5b0-c998-4e91-b2bd-e6db078837b9'
+ms.assetid: 9540f5b0-c998-4e91-b2bd-e6db078837b9
 title: CPSUI Functions and Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPSUI Functions and Structures

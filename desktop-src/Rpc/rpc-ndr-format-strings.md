@@ -1,7 +1,12 @@
 ---
 title: RPC NDR Format Strings
 description: Remote Procedure Call (RPC) NDR format strings.
-ms.assetid: '9c83a039-49d3-491d-8110-29d1548730de'
+ms.assetid: 9c83a039-49d3-491d-8110-29d1548730de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC NDR Format Strings

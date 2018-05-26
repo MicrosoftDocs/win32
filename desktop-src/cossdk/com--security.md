@@ -1,7 +1,12 @@
 ---
 Description: COM+ Security
-ms.assetid: '561593c0-d897-4c3a-a4f5-f25351d2c05c'
+ms.assetid: 561593c0-d897-4c3a-a4f5-f25351d2c05c
 title: COM+ Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Security
@@ -19,11 +24,11 @@ The following topics provide background and task information about setting secur
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

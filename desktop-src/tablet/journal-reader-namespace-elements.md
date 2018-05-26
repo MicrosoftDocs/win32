@@ -1,7 +1,12 @@
 ---
-Description: 'This section documents the XML namespace elements used by the Journal Reader component.'
-ms.assetid: '18fe7f81-a039-44e4-9a98-1dd137e4e97a'
+Description: This section documents the XML namespace elements used by the Journal Reader component.
+ms.assetid: 18fe7f81-a039-44e4-9a98-1dd137e4e97a
 title: Journal Reader Namespace Elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Journal Reader Namespace Elements
@@ -30,7 +35,7 @@ This section documents the XML namespace elements used by the Journal Reader com
 | [Horizontal element](horizontal-element.md)                              | Contains formatting information for the horizontal lines used for the stationery in a Journal note.<br/>                                                                                                                                                                                                             |
 | [Image element](image-element.md)                                        | Contains encoded binary data for an image in the Journal document, if present.<br/>                                                                                                                                                                                                                                  |
 | [InkClass element](inkclass-element.md)                                  | Represents the collected strokes of ink within an ink space.<br/>                                                                                                                                                                                                                                                    |
-| [InkObject element](inkobject-element.md)                                | Contains the Base64 encoded binary data of the [**Ink**](inkdisp-class.md) object for an [InkWord element](inkword-element.md) or [Drawing element](drawing-element.md).<br/>                                                                                                                                     |
+| [InkObject element](inkobject-element.md)                                | Contains the Base64 encoded binary data of the [**Ink**](/windows/win32/msinkaut/?branch=master) object for an [InkWord element](inkword-element.md) or [Drawing element](drawing-element.md).<br/>                                                                                                                                     |
 | [InkWord element](inkword-element.md)                                    | Contains information about a given ink word in the Journal note, including position, alternates, and the actual ink data.<br/>                                                                                                                                                                                       |
 | [JournalDocument element](journaldocument-element.md)                    | The top-level element in a Journal note XML file.<br/>                                                                                                                                                                                                                                                               |
 | [JournalPage element](journalpage-element.md)                            | Contains the details about an individual page in a Journal note.<br/>                                                                                                                                                                                                                                                |
@@ -51,11 +56,11 @@ This section documents the XML namespace elements used by the Journal Reader com
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

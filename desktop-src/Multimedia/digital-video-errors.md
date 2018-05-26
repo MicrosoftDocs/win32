@@ -1,8 +1,26 @@
 ---
 title: Digital-Video Errors
 description: Digital-Video Errors
-ms.assetid: '177436fc-543f-4692-8281-1555c1fa21b0'
-keywords: ["MCIERR return values,digital-video errors", "multimedia reference,digital-video errors", "reference for multimedia,digital-video errors", "Media Control Interface (MCI),digital-video errors", "MCI (Media Control Interface),digital-video errors", "reference for MCI,digital-video errors", "MCI reference,digital-video errors", "Media Control Interface (MCI),errors", "MCI (Media Control Interface),errors", "reference for MCI,errors", "MCI reference,errors", "digital-video errors", "MCI digital-video errors"]
+ms.assetid: 177436fc-543f-4692-8281-1555c1fa21b0
+keywords:
+- MCIERR return values,digital-video errors
+- multimedia reference,digital-video errors
+- reference for multimedia,digital-video errors
+- Media Control Interface (MCI),digital-video errors
+- MCI (Media Control Interface),digital-video errors
+- reference for MCI,digital-video errors
+- MCI reference,digital-video errors
+- Media Control Interface (MCI),errors
+- MCI (Media Control Interface),errors
+- reference for MCI,errors
+- MCI reference,errors
+- digital-video errors
+- MCI digital-video errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital-Video Errors

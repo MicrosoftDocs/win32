@@ -4,11 +4,16 @@ description: A common property is an attribute possessed by every instance of a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5341d390-69dd-4e84-a443-f35a4b6c0bab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5341d390-69dd-4e84-a443-f35a4b6c0bab
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster , common", "properties Failover Cluster ,common,described"]
+keywords:
+- properties Failover Cluster , common
+- properties Failover Cluster ,common,described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Common Properties of a Cluster Object

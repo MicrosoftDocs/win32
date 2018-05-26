@@ -1,8 +1,27 @@
 ---
 title: Maintaining Session Information
 description: Maintaining Session Information
-ms.assetid: '2ab862dc-62e1-44d6-ac81-7d3c574a779f'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player online stores,maintaining session information", "online stores,maintaining session information", "type 2 online stores,maintaining session information", "Windows Media Player online stores,session information", "online stores,session information", "type 2 online stores,session information", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "maintaining session information", "session information"]
+ms.assetid: 2ab862dc-62e1-44d6-ac81-7d3c574a779f
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player online stores,maintaining session information
+- online stores,maintaining session information
+- type 2 online stores,maintaining session information
+- Windows Media Player online stores,session information
+- online stores,session information
+- type 2 online stores,session information
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- maintaining session information
+- session information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Maintaining Session Information

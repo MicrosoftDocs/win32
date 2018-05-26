@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '19b0eba6-63af-482d-8ca6-18cb8db67169'
-title: 'System.RecordedTV.ProgramDescription'
+Description: .
+ms.assetid: 19b0eba6-63af-482d-8ca6-18cb8db67169
+title: System.RecordedTV.ProgramDescription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.ProgramDescription

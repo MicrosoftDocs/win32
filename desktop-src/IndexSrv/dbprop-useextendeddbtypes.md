@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_USEEXTENDEDDBTYPES
 description: DBPROP\_USEEXTENDEDDBTYPES
-ms.assetid: '8c62a64d-5cb1-4c96-a727-b72e270b17d4'
-keywords: ["DBPROP_USEEXTENDEDDBTYPES"]
+ms.assetid: 8c62a64d-5cb1-4c96-a727-b72e270b17d4
+keywords:
+- DBPROP_USEEXTENDEDDBTYPES
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_USEEXTENDEDDBTYPES

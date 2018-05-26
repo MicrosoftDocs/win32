@@ -1,8 +1,11 @@
 ---
 title: GetSecurityDescriptor method of the MSFT\_VirtualDisk class
 description: Retrieves the security descriptor that controls access to the virtual disk object instance.
-ms.assetid: '430EAAFF-96B4-45E4-9D4F-0713B4094B5B'
-keywords: ["GetSecurityDescriptor method Windows Storage Management API", "GetSecurityDescriptor method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , GetSecurityDescriptor method"]
+ms.assetid: 430EAAFF-96B4-45E4-9D4F-0713B4094B5B
+keywords:
+- GetSecurityDescriptor method Windows Storage Management API
+- GetSecurityDescriptor method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , GetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSecurityDescriptor method of the MSFT\_VirtualDisk class
@@ -22,8 +30,8 @@ Retrieves the security descriptor that controls access to the virtual disk objec
 
 ```mof
 UInt32 GetSecurityDescriptor(
-  [out] String SecurityDescriptor,
-  [out] String ExtendedStatus
+  [out] String SecurityDescriptor,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -92,8 +100,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -106,9 +114,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

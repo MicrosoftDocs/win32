@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ROOTDRIVE property specifies the default drive for the destination directory of the installation.'
-ms.assetid: '9f36dc2a-2fb5-4787-a630-c7cc93ef51ec'
+---
+Description: The ROOTDRIVE property specifies the default drive for the destination directory of the installation.
+ms.assetid: 9f36dc2a-2fb5-4787-a630-c7cc93ef51ec
 title: ROOTDRIVE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ROOTDRIVE property

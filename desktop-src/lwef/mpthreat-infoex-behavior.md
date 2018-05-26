@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_INFOEX\_BEHAVIOR structure
 description: Contains behavior modification-specific information.
-ms.assetid: '762E755F-5BA1-476D-B395-6617093309C5'
-keywords: ["MPTHREAT_INFOEX_BEHAVIOR structure Legacy Windows Environment Features", "PMPTHREAT_INFOEX_BEHAVIOR structure pointer Legacy Windows Environment Features"]
+ms.assetid: 762E755F-5BA1-476D-B395-6617093309C5
+keywords:
+- MPTHREAT_INFOEX_BEHAVIOR structure Legacy Windows Environment Features
+- PMPTHREAT_INFOEX_BEHAVIOR structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_INFOEX\_BEHAVIOR structure
@@ -22,12 +29,12 @@ Contains behavior modification-specific information.
 
 ```C++
 typedef struct tagMPTHREAT_INFOEX_BEHAVIOR {
-  ULARGE_INTEGER         SignatureID;
-  ULONGLONG              EngineVersion;
-  ULONGLONG              ASDeltaSignatureVersion;
-  ULONGLONG              AVDeltaSignatureVersion;
-  MP_HASH_TYPE           HashType;
-  DWORD                  FidelityValue;
+  ULARGE_INTEGER         SignatureID;
+  ULONGLONG              EngineVersion;
+  ULONGLONG              ASDeltaSignatureVersion;
+  ULONGLONG              AVDeltaSignatureVersion;
+  MP_HASH_TYPE           HashType;
+  DWORD                  FidelityValue;
   MP_MIDL_STRING  LPWSTR HashValue;
   MP_MIDL_STRING  LPWSTR TargetFileName;
   MP_MIDL_STRING  LPWSTR TargetFileHash;
@@ -145,8 +152,8 @@ The hash of the targeted file.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -158,9 +165,9 @@ The hash of the targeted file.
 [**MP\_HASH\_TYPE**](mp-hash-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

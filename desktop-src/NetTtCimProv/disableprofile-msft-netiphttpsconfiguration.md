@@ -1,7 +1,12 @@
 ---
-Description: 'Turns off the manual activation of the IP-HTTPs profile.'
-ms.assetid: '1ac47f01-85b6-429e-bda8-58f762c88288'
-title: 'DisableProfile method of the MSFT\_NetIPHttpsConfiguration class'
+Description: Turns off the manual activation of the IP-HTTPs profile.
+ms.assetid: 1ac47f01-85b6-429e-bda8-58f762c88288
+title: DisableProfile method of the MSFT\_NetIPHttpsConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableProfile method of the MSFT\_NetIPHttpsConfiguration class
@@ -27,8 +32,8 @@ This method has no parameters.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Rtccore.h</dt> </dl>    |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
@@ -43,9 +48,9 @@ This method has no parameters.
 [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

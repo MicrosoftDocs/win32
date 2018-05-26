@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pBaseWindow member variable is a pointer to the owning CBaseWindow object.'
-ms.assetid: '123b020e-cdd6-4db0-93a8-cecef5ff5012'
-title: 'CDrawImage::m\_pBaseWindow member'
+Description: The m\_pBaseWindow member variable is a pointer to the owning CBaseWindow object.
+ms.assetid: 123b020e-cdd6-4db0-93a8-cecef5ff5012
+title: CDrawImagem\_pBaseWindow member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage::m\_pBaseWindow member
@@ -35,9 +40,9 @@ CBaseWindow *m_pBaseWindow;
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

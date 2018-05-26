@@ -1,16 +1,21 @@
 ---
-Description: 'Windows Portable Devices supports the following property attributes.'
-ms.assetid: '129ee2b8-075c-457a-85ef-658a56eed541'
+Description: Windows Portable Devices supports the following property attributes.
+ms.assetid: 129ee2b8-075c-457a-85ef-658a56eed541
 title: Property Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Attributes
 
 Windows Portable Devices supports the following property attributes. These attributes are returned by the following methods:
 
--   [**IPortableDeviceCapabilities::GetFixedPropertyAttributes**](iportabledevicecapabilities-getfixedpropertyattributes.md)
--   [**IPortableDeviceProperties::GetPropertyAttributes**](iportabledeviceproperties-getpropertyattributes.md)
--   [**IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes**](iportabledeviceservicecapabilities-getformatpropertyattributes.md)
+-   [**IPortableDeviceCapabilities::GetFixedPropertyAttributes**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfixedpropertyattributes?branch=master)
+-   [**IPortableDeviceProperties::GetPropertyAttributes**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes?branch=master)
+-   [**IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatpropertyattributes?branch=master)
 
 
 
@@ -33,7 +38,7 @@ Windows Portable Devices supports the following property attributes. These attri
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,9 +57,9 @@ Windows Portable Devices supports the following property attributes. These attri
 [**Properties**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

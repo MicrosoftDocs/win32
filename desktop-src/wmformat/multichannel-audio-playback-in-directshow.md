@@ -1,8 +1,26 @@
 ---
 title: Multichannel Audio Playback in DirectShow
 description: Multichannel Audio Playback in DirectShow
-ms.assetid: '5123854a-0f1f-40f4-bf57-47622b91103f'
-keywords: ["Windows Media Format SDK,DirectShow", "Windows Media Format SDK,multichannel audio playback", "Windows Media Format SDK,audio playback", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),multichannel audio playback", "ASF (Advanced Systems Format),multichannel audio playback", "Advanced Systems Format (ASF),audio playback", "ASF (Advanced Systems Format),audio playback", "DirectShow,multichannel audio playback", "DirectShow,audio playback", "multichannel audio,playback", "audio playback"]
+ms.assetid: 5123854a-0f1f-40f4-bf57-47622b91103f
+keywords:
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,multichannel audio playback
+- Windows Media Format SDK,audio playback
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),multichannel audio playback
+- ASF (Advanced Systems Format),multichannel audio playback
+- Advanced Systems Format (ASF),audio playback
+- ASF (Advanced Systems Format),audio playback
+- DirectShow,multichannel audio playback
+- DirectShow,audio playback
+- multichannel audio,playback
+- audio playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multichannel Audio Playback in DirectShow

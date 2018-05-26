@@ -2,7 +2,12 @@
 title: T
 description: Words starting with T in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: 'cdcc7c11-697d-4c54-8ecf-513e2e2649aa'
+ms.assetid: cdcc7c11-697d-4c54-8ecf-513e2e2649aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # T

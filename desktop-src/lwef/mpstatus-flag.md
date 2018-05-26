@@ -1,8 +1,10 @@
 ---
 title: MPSTATUS\_FLAG enumeration
 description: Possible overall product status bit flags.
-ms.assetid: 'BF2E6506-E76A-4785-8E91-99937B413548'
-keywords: ["MPSTATUS_FLAG enumeration Legacy Windows Environment Features", "PMPSTATUS_FLAG enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: BF2E6506-E76A-4785-8E91-99937B413548
+keywords:
+- MPSTATUS_FLAG enumeration Legacy Windows Environment Features
+- PMPSTATUS_FLAG enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSTATUS\_FLAG enumeration
@@ -22,33 +29,33 @@ Possible overall product status bit flags.
 
 ```C++
 typedef enum tagMPSTATUS_FLAG { 
-  MP_STATUS_FLAG_NONE                           = 0,
-  MP_STATUS_FLAG_SERVICE_UNAVAILABLE            = 1 << 0,
-  MP_STATUS_FLAG_MPENGINE_UNAVAILABLE           = 1 << 1,
-  MP_STATUS_FLAG_THREAT_FULLSCAN_REQUIRED       = 1 << 2,
-  MP_STATUS_FLAG_THREAT_REBOOT_REQUIRED         = 1 << 3,
-  MP_STATUS_FLAG_THREAT_MANUAL_STEPS_REQUIRED   = 1 << 4,
-  MP_STATUS_FLAG_DUE_AV_SIGNATURE               = 1 << 5,
-  MP_STATUS_FLAG_DUE_AS_SIGNATURE               = 1 << 6,
-  MP_STATUS_FLAG_DUE_QUICK_SCAN                 = 1 << 7,
-  MP_STATUS_FLAG_DUE_FULL_SCAN                  = 1 << 8,
-  MP_STATUS_FLAG_INPROGRESS_SYSTEM_SCAN         = 1 << 9,
-  MP_STATUS_FLAG_INPROGRESS_ROUTINE_CLEANING    = 1 << 10,
-  MP_STATUS_FLAG_DUE_SAMPLES                    = 1 << 11,
-  MP_STATUS_FLAG_EVALUATION_MODE                = 1 << 12,
-  MP_STATUS_FLAG_NONGENUINE                     = 1 << 13,
-  MP_STATUS_FLAG_PRODUCT_EXPIRED                = 1 << 14,
-  MP_STATUS_FLAG_THREAT_CALLISTO_REQUIRED       = 1 << 15,
-  MP_STATUS_FLAG_SERVICE_ON_SYSTEM_SHUTDOWN     = 1 << 16,
-  MP_STATUS_FLAG_SERVICE_CRITICAL_FAILURE       = 1 << 17,
-  MP_STATUS_FLAG_SERVICE_NON_CRITICAL_FAILURE   = 1 << 18,
-  MP_STATUS_FLAG_HEALTH_INITIALIZED             = 1 << 19,
-  MP_STATUS_FLAG_DUE_PLATFORM_UPDATE            = 1 << 20,
-  MP_STATUS_FLAG_INPROGRESS_PLATFORM_UPDATE     = 1 << 21,
-  MP_STATUS_FLAG_PLATFORM_ABOUT_TO_BE_OUTDATED  = 1 << 22,
-  MP_STATUS_FLAG_END_OF_LIFE                    = 1 << 23,
-  MP_STATUS_FLAG_MAX                            = 1 << 23,
-  MP_STATUS_FLAG_ALL                            = (1 << 24)-1
+  MP_STATUS_FLAG_NONE                           = 0,
+  MP_STATUS_FLAG_SERVICE_UNAVAILABLE            = 1 << 0,
+  MP_STATUS_FLAG_MPENGINE_UNAVAILABLE           = 1 << 1,
+  MP_STATUS_FLAG_THREAT_FULLSCAN_REQUIRED       = 1 << 2,
+  MP_STATUS_FLAG_THREAT_REBOOT_REQUIRED         = 1 << 3,
+  MP_STATUS_FLAG_THREAT_MANUAL_STEPS_REQUIRED   = 1 << 4,
+  MP_STATUS_FLAG_DUE_AV_SIGNATURE               = 1 << 5,
+  MP_STATUS_FLAG_DUE_AS_SIGNATURE               = 1 << 6,
+  MP_STATUS_FLAG_DUE_QUICK_SCAN                 = 1 << 7,
+  MP_STATUS_FLAG_DUE_FULL_SCAN                  = 1 << 8,
+  MP_STATUS_FLAG_INPROGRESS_SYSTEM_SCAN         = 1 << 9,
+  MP_STATUS_FLAG_INPROGRESS_ROUTINE_CLEANING    = 1 << 10,
+  MP_STATUS_FLAG_DUE_SAMPLES                    = 1 << 11,
+  MP_STATUS_FLAG_EVALUATION_MODE                = 1 << 12,
+  MP_STATUS_FLAG_NONGENUINE                     = 1 << 13,
+  MP_STATUS_FLAG_PRODUCT_EXPIRED                = 1 << 14,
+  MP_STATUS_FLAG_THREAT_CALLISTO_REQUIRED       = 1 << 15,
+  MP_STATUS_FLAG_SERVICE_ON_SYSTEM_SHUTDOWN     = 1 << 16,
+  MP_STATUS_FLAG_SERVICE_CRITICAL_FAILURE       = 1 << 17,
+  MP_STATUS_FLAG_SERVICE_NON_CRITICAL_FAILURE   = 1 << 18,
+  MP_STATUS_FLAG_HEALTH_INITIALIZED             = 1 << 19,
+  MP_STATUS_FLAG_DUE_PLATFORM_UPDATE            = 1 << 20,
+  MP_STATUS_FLAG_INPROGRESS_PLATFORM_UPDATE     = 1 << 21,
+  MP_STATUS_FLAG_PLATFORM_ABOUT_TO_BE_OUTDATED  = 1 << 22,
+  MP_STATUS_FLAG_END_OF_LIFE                    = 1 << 23,
+  MP_STATUS_FLAG_MAX                            = 1 << 23,
+  MP_STATUS_FLAG_ALL                            = (1 << 24)-1
 } MPSTATUS_FLAG, *PMPSTATUS_FLAG;
 ```
 
@@ -253,15 +260,15 @@ Maximum value possible.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

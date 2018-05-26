@@ -1,8 +1,14 @@
 ---
 title: IrDA and accept
 description: After an IrDA server application puts its server socket into listen mode, the IrDA server application calls the Windows Sockets accept function and blocks until an incoming connection is received.
-ms.assetid: '9d39d89a-a209-4b8d-8869-a7c45caf7356'
-keywords: ["IrDA and accept"]
+ms.assetid: 9d39d89a-a209-4b8d-8869-a7c45caf7356
+keywords:
+- IrDA and accept
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and accept

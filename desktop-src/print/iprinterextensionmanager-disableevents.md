@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disallows events to be generated.'
-ms.assetid: '3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4'
-title: 'IPrinterExtensionManager::DisableEvents method'
+---
+Description: Disallows events to be generated.
+ms.assetid: 3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4
+title: IPrinterExtensionManagerDisableEvents method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionManager::DisableEvents method

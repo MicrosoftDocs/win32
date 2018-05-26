@@ -1,8 +1,9 @@
 ---
 title: D2DSampleInput function
 description: Samples input N at position uv. Only available for complex inputs.
-ms.assetid: '8C1E3B23-D05B-4FCC-B32F-A5870A7C3FEF'
-keywords: ["D2DSampleInput function Direct2D"]
+ms.assetid: 8C1E3B23-D05B-4FCC-B32F-A5870A7C3FEF
+keywords:
+- D2DSampleInput function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2DSampleInput function
@@ -21,8 +27,8 @@ Samples input N at position uv. Only available for complex inputs.
 
 ``` syntax
 float4 WINAPI D2DSampleInput(
-  in uint N,
-  in float2 uv
+  in uint N,
+  in float2 uv
 );
 ```
 
@@ -93,9 +99,9 @@ float3 CalculateSurfaceNormal(TAPARGS)
 [HLSL Helpers](hlsl-helpers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

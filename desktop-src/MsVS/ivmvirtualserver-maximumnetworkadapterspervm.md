@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer MaximumNetworkAdaptersPerVM property
 description: The MaximumNetworkAdaptersPerVM property contains the maximum number of network interfaces per virtual machine.
-ms.assetid: '30a742df-3fb9-4c47-b05d-10436adb7e25'
-keywords: ["MaximumNetworkAdaptersPerVM property Virtual Server", "MaximumNetworkAdaptersPerVM property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , MaximumNetworkAdaptersPerVM property", "MaximumNetworkAdaptersPerVM property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , MaximumNetworkAdaptersPerVM property"]
+ms.assetid: 30a742df-3fb9-4c47-b05d-10436adb7e25
+keywords:
+- MaximumNetworkAdaptersPerVM property Virtual Server
+- MaximumNetworkAdaptersPerVM property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , MaximumNetworkAdaptersPerVM property
+- MaximumNetworkAdaptersPerVM property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , MaximumNetworkAdaptersPerVM property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::MaximumNetworkAdaptersPerVM property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaximumNetworkAdaptersPerVM(
-  [out] long *maxNetworkAdapters
+  [out] long *maxNetworkAdapters
 );
 ```
 
@@ -91,8 +101,8 @@ Wscript.Echo "Maximum network adapters per VM: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Wscript.Echo "Maximum network adapters per VM: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

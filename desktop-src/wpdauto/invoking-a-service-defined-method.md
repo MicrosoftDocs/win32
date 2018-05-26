@@ -1,7 +1,12 @@
 ---
 title: Invoking a Service-Defined Method
 description: Services are represented by Service objects, which are a specialized type of WPDObject that supports methods.
-ms.assetid: '9c9eeaa2-4407-43ee-8222-d795821315f9'
+ms.assetid: 9c9eeaa2-4407-43ee-8222-d795821315f9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Invoking a Service-Defined Method

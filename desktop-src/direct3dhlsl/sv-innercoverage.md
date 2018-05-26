@@ -1,14 +1,20 @@
 ---
 title: SV\_InnerCoverage
 description: SV\_InputCoverage represents underestimated conservative rasterization information (i.e. whether a pixel is guaranteed-to-be-fully covered).
-ms.assetid: '5BB3C3FB-E5ED-4395-B389-300DE67C984B'
-keywords: ["SV_InnerCoverage HLSL"]
+ms.assetid: 5BB3C3FB-E5ED-4395-B389-300DE67C984B
+keywords:
+- SV_InnerCoverage HLSL
 topic_type:
 - apiref
 api_name:
 - SV_InnerCoverage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_InnerCoverage

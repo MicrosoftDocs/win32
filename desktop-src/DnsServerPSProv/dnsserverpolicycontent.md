@@ -2,13 +2,15 @@
 title: DnsServerPolicyContent class
 description: Describes the DNS server policy content.
 audience: developer
-ms.assetid: 'fa93e9a0-1b45-4e62-be68-e4b76371daea'
-ms.prod: 'windows-server-dev'
+ms.assetid: fa93e9a0-1b45-4e62-be68-e4b76371daea
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerPolicyContent class", "DnsServerPolicyContent class, described"]
+keywords:
+- DnsServerPolicyContent class
+- DnsServerPolicyContent class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerPolicyContent class
@@ -83,7 +88,7 @@ Weight of the scope.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -97,9 +102,9 @@ Weight of the scope.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

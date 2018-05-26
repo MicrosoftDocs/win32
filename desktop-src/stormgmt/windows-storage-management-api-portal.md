@@ -1,7 +1,12 @@
 ---
 title: Windows Storage Management Provider
 description: The Windows Storage Management provider can be used to manage a wide range of storage configurations, from single-disk desktops to external storage arrays.
-ms.assetid: 'ff5e492d-5e62-4c9b-8f55-07859c9fee83'
+ms.assetid: ff5e492d-5e62-4c9b-8f55-07859c9fee83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Storage Management Provider

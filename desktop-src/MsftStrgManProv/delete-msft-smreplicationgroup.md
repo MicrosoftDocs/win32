@@ -4,11 +4,14 @@ description: Deletes an empty replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '944c1afa-8c92-485f-99bd-d93f7bc92cd5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 944c1afa-8c92-485f-99bd-d93f7bc92cd5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Delete method", "Delete method, MSFT_SMReplicationGroup class", "MSFT_SMReplicationGroup class, Delete method"]
+keywords:
+- Delete method
+- Delete method, MSFT_SMReplicationGroup class
+- MSFT_SMReplicationGroup class, Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the MSFT\_SMReplicationGroup class
@@ -26,16 +32,16 @@ Deletes an empty replication group.
 > [!Note]  
 > In order to use this method, you must first remove all replicas from the replication group.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 Uint32 Delete(
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -121,7 +127,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -135,9 +141,9 @@ The possible return values are:
 [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

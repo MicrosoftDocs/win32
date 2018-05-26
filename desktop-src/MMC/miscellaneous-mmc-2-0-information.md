@@ -4,11 +4,15 @@ description: The following information is provided for developers programming fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '31b8c6ee-be02-403f-b5ac-04e7c34c4bc3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 31b8c6ee-be02-403f-b5ac-04e7c34c4bc3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Management Console 2.0 MMC , miscellaneous information"]
+keywords:
+- Microsoft Management Console 2.0 MMC , miscellaneous information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Miscellaneous MMC 2.0 Information

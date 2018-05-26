@@ -4,11 +4,14 @@ description: Retrieves the context bytes associated with the task.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce55ce2a-957f-4b50-b632-42079277102b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ce55ce2a-957f-4b50-b632-42079277102b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Context property Remote Desktop Services", "Context property Remote Desktop Services , ITsSbTaskInfo interface", "ITsSbTaskInfo interface Remote Desktop Services , Context property"]
+keywords:
+- Context property Remote Desktop Services
+- Context property Remote Desktop Services , ITsSbTaskInfo interface
+- ITsSbTaskInfo interface Remote Desktop Services , Context property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbTaskInfo::Context property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Context(
-  [out, retval] SAFEARRAY(BYTE) *pContext
+  [out, retval] SAFEARRAY(BYTE) *pContext
 );
 ```
 
@@ -48,7 +54,7 @@ The context of the task.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ The context of the task.
 
 <dl> <dt>
 
-[**ITsSbTaskInfo**](itssbtaskinfo.md)
+[**ITsSbTaskInfo**](/windows/win32/sbtsv/nn-sbtsv-itssbtaskinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the number of IContextNode objects contained in this collection.'
-ms.assetid: '7cc60bea-9a4c-4ac8-ad1a-0fca5e941c5e'
-title: 'IContextNodes::GetCount method'
+Description: Retrieves the number of IContextNode objects contained in this collection.
+ms.assetid: 7cc60bea-9a4c-4ac8-ad1a-0fca5e941c5e
+title: IContextNodesGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNodes::GetCount method
@@ -13,7 +18,7 @@ Retrieves the number of [**IContextNode**](icontextnode.md) objects contained in
 
 ```C++
 HRESULT GetCount(
-  [out] ULONG *pulCount
+  [out] ULONG *pulCount
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -57,9 +62,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Gets the scope of the authentication request.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.AuthenticationParameters.Scope'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.AuthenticationParameters.Scope
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Scope property", "Scope property, AuthenticationParameters class", "AuthenticationParameters class, Scope property"]
+keywords:
+- Scope property
+- Scope property, AuthenticationParameters class
+- AuthenticationParameters class, Scope property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationParameters.Scope property
@@ -63,9 +69,9 @@ Scope of the authentication request
 [**AuthenticationParameters**](authenticationparameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

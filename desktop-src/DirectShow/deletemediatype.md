@@ -1,19 +1,24 @@
 ---
-Description: 'The DeleteMediaType function deletes an allocated AM\_MEDIA\_TYPE structure, including the format block.'
-ms.assetid: '970f6b2b-2bf5-418d-b4ae-637561cd6765'
+Description: The DeleteMediaType function deletes an allocated AM\_MEDIA\_TYPE structure, including the format block.
+ms.assetid: 970f6b2b-2bf5-418d-b4ae-637561cd6765
 title: DeleteMediaType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteMediaType function
 
-The **DeleteMediaType** function deletes an allocated [**AM\_MEDIA\_TYPE**](am-media-type.md) structure, including the format block.
+The **DeleteMediaType** function deletes an allocated [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure, including the format block.
 
 ## Syntax
 
 
 ```C++
 void WINAPI DeleteMediaType(
-   AM_MEDIA_TYPE *pmt
+   AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -26,7 +31,7 @@ void WINAPI DeleteMediaType(
 *pmt* 
 </dt> <dd>
 
-A pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure.
+A pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure.
 
 </dd> </dl>
 
@@ -110,9 +115,9 @@ void _DeleteMediaType(AM_MEDIA_TYPE *pmt)
 [**Media Type Functions**](media-type-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

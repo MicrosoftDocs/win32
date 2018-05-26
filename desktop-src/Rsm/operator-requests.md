@@ -1,7 +1,12 @@
 ---
-Description: 'An RSM operator request is a request for a person (often an administrator, but can be a user) to perform a task.'
-ms.assetid: '68f25f92-bf59-4e3c-8caa-6e87ce95ac15'
+Description: An RSM operator request is a request for a person (often an administrator, but can be a user) to perform a task.
+ms.assetid: 68f25f92-bf59-4e3c-8caa-6e87ce95ac15
 title: Operator Requests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operator Requests

@@ -1,8 +1,14 @@
 ---
 title: SRPRunningObjectChecks
 description: Determines whether attempts to connect to running objects are screened for compatible software restriction policy (SRP) trust levels.
-ms.assetid: 'ab5e74f0-d167-4fb2-af1b-03704039e87c'
-keywords: ["SRPRunningObjectChecks registry value COM"]
+ms.assetid: ab5e74f0-d167-4fb2-af1b-03704039e87c
+keywords:
+- SRPRunningObjectChecks registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SRPRunningObjectChecks

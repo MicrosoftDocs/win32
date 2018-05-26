@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a right-handed, look-at matrix.'
-ms.assetid: '10198bb9-a77e-4482-be6e-cc5f76eff30b'
+---
+Description: Builds a right-handed, look-at matrix.
+ms.assetid: 10198bb9-a77e-4482-be6e-cc5f76eff30b
 title: D3DXMatrixLookAtRH function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixLookAtRH function

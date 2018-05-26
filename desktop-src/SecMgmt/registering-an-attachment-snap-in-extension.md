@@ -1,7 +1,12 @@
 ---
-Description: 'After you create an attachment snap-in extension, you must register it in order for the MMC and the Security Configuration snap-ins to locate and use it.'
-ms.assetid: '176a658c-b1fd-40c5-a2ac-c9a2b7060c55'
-title: 'Registering an Attachment Snap-in Extension'
+Description: After you create an attachment snap-in extension, you must register it in order for the MMC and the Security Configuration snap-ins to locate and use it.
+ms.assetid: 176a658c-b1fd-40c5-a2ac-c9a2b7060c55
+title: Registering an Attachment Snap-in Extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering an Attachment Snap-in Extension

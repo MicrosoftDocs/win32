@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartColorProfile interface is the abstraction for an XPS color profile.'
-ms.assetid: '1421fae5-1c90-47da-ae9c-fc9eb4d47a05'
+---
+Description: The IPartColorProfile interface is the abstraction for an XPS color profile.
+ms.assetid: 1421fae5-1c90-47da-ae9c-fc9eb4d47a05
 title: IPartColorProfile interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartColorProfile interface

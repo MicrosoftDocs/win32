@@ -3,8 +3,10 @@ title: SoftwareLicensingService class
 description: This class exposes the product-independent properties and methods of the Software Licensing service.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '36b1cbfb-374c-4937-a225-d9c61cfab9d0'
-keywords: ["SoftwareLicensingService class Windows Management Instrumentation", "SoftwareLicensingService class Windows Management Instrumentation , described"]
+ms.assetid: 36b1cbfb-374c-4937-a225-d9c61cfab9d0
+keywords:
+- SoftwareLicensingService class Windows Management Instrumentation
+- SoftwareLicensingService class Windows Management Instrumentation , described
 topic_type:
 - apiref
 api_name:
@@ -44,6 +46,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingService class
@@ -57,36 +64,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class SoftwareLicensingService
 {
-  string  Version;
-  string  KeyManagementServiceMachine;
-  uint32  IsKeyManagementServiceMachine;
-  uint32  VLActivationInterval;
-  uint32  VLRenewalInterval;
-  uint32  KeyManagementServiceCurrentCount;
-  uint32  RequiredClientCount;
-  string  KeyManagementServiceProductKeyID;
-  string  DiscoveredKeyManagementServiceMachineName;
-  uint32  DiscoveredKeyManagementServiceMachinePort;
-  uint32  PolicyCacheRefreshRequired;
-  string  ClientMachineID;
-  uint32  RemainingWindowsReArmCount;
-  uint32  KeyManagementServiceListeningPort;
+  string  Version;
+  string  KeyManagementServiceMachine;
+  uint32  IsKeyManagementServiceMachine;
+  uint32  VLActivationInterval;
+  uint32  VLRenewalInterval;
+  uint32  KeyManagementServiceCurrentCount;
+  uint32  RequiredClientCount;
+  string  KeyManagementServiceProductKeyID;
+  string  DiscoveredKeyManagementServiceMachineName;
+  uint32  DiscoveredKeyManagementServiceMachinePort;
+  uint32  PolicyCacheRefreshRequired;
+  string  ClientMachineID;
+  uint32  RemainingWindowsReArmCount;
+  uint32  KeyManagementServiceListeningPort;
   boolean KeyManagementServiceDnsPublishing;
   boolean KeyManagementServiceLowPriority;
   boolean KeyManagementServiceHostCaching;
-  uint32  KeyManagementServiceUnlicensedRequests;
-  uint32  KeyManagementServiceLicensedRequests;
-  uint32  KeyManagementServiceOOBGraceRequests;
-  uint32  KeyManagementServiceOOTGraceRequests;
-  uint32  KeyManagementServiceNonGenuineGraceRequests;
-  uint32  KeyManagementServiceTotalRequests;
-  uint32  KeyManagementServiceFailedRequests;
-  uint32  KeyManagementServiceNotificationRequests;
-  string  TokenActivationILID;
-  uint32  TokenActivationILVID;
-  uint32  TokenActivationGrantNumber;
-  string  TokenActivationCertificateThumbprint;
-  string  TokenActivationAdditionalInfo;
+  uint32  KeyManagementServiceUnlicensedRequests;
+  uint32  KeyManagementServiceLicensedRequests;
+  uint32  KeyManagementServiceOOBGraceRequests;
+  uint32  KeyManagementServiceOOTGraceRequests;
+  uint32  KeyManagementServiceNonGenuineGraceRequests;
+  uint32  KeyManagementServiceTotalRequests;
+  uint32  KeyManagementServiceFailedRequests;
+  uint32  KeyManagementServiceNotificationRequests;
+  string  TokenActivationILID;
+  uint32  TokenActivationILVID;
+  uint32  TokenActivationGrantNumber;
+  string  TokenActivationCertificateThumbprint;
+  string  TokenActivationAdditionalInfo;
   boolean KeyManagementServiceActivationDisabled;
 };
 ```
@@ -128,7 +135,7 @@ The **SoftwareLicensingService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -195,7 +202,7 @@ Indicates whether the machine has a key management service (KMS) enabled. The fo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -245,7 +252,7 @@ Indicates the DNS publishing status of a KMS host. The following values are poss
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -282,7 +289,7 @@ Indicates the caching status of the KMS host name and port. The following values
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -332,7 +339,7 @@ Indicates the thread priority status of the KMS. The following values are possib
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -460,7 +467,7 @@ Indicates whether the licensing policy cache needs to be updated. The following 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -603,8 +610,8 @@ Specifies the frequency, in minutes, of how often the current machine should con
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -618,9 +625,9 @@ Specifies the frequency, in minutes, of how often the current machine should con
 [Software Licensing Classes for Windows Vista](https://msdn.microsoft.com/library/ee957720)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

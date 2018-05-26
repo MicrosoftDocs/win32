@@ -1,7 +1,12 @@
 ---
-Description: 'After you write and name an event reference page (ERP), you must install it.'
-ms.assetid: '438bce7b-5a88-4e80-bdf9-6affdcbd169b'
-title: 'Installing Existing ERPs to Network Monitor 2.1'
+Description: After you write and name an event reference page (ERP), you must install it.
+ms.assetid: 438bce7b-5a88-4e80-bdf9-6affdcbd169b
+title: Installing Existing ERPs to Network Monitor 2.1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Existing ERPs to Network Monitor 2.1

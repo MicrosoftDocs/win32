@@ -4,13 +4,16 @@ description: Modifies key-value pairs on a virtual system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '78a7e53a-d16a-4810-9a30-8c11de3b4c49'
-ms.prod: 'windows-server-dev'
+ms.assetid: 78a7e53a-d16a-4810-9a30-8c11de3b4c49
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifyKvpItems method", "ModifyKvpItems method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, ModifyKvpItems method"]
+keywords:
+- ModifyKvpItems method
+- ModifyKvpItems method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, ModifyKvpItems method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifyKvpItems method of the Msvm\_VirtualSystemManagementService class
@@ -30,9 +36,9 @@ Modifies key-value pairs on a virtual system.
 
 ```mof
 uint32 ModifyKvpItems(
-  [in]  CIM_ComputerSystem REF TargetSystem,
-  [in]  string                 DataItems[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF TargetSystem,
+  [in]  string                 DataItems[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -115,7 +121,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -129,9 +135,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

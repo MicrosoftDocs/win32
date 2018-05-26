@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2da04c74-c657-49da-b1bb-098bdcf6e974'
-title: 'System.StorageProviderStatus'
+Description: .
+ms.assetid: 2da04c74-c657-49da-b1bb-098bdcf6e974
+title: System.StorageProviderStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.StorageProviderStatus

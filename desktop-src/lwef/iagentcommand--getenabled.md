@@ -1,7 +1,12 @@
 ---
 title: IAgentCommand GetEnabled
 description: IAgentCommand GetEnabled
-ms.assetid: 'b4ec25d2-b2e0-4b1b-8dc5-10fbb44149b5'
+ms.assetid: b4ec25d2-b2e0-4b1b-8dc5-10fbb44149b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommand::GetEnabled

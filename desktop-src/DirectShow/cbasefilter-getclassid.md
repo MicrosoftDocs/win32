@@ -1,7 +1,12 @@
 ---
-Description: 'The GetClassID method retrieves the class identifier of the filter. This method implements the IPersist::GetClassID method.'
-ms.assetid: 'c3a8b6ab-b36f-493e-9436-6784e25e2511'
-title: 'CBaseFilter.GetClassID method'
+Description: The GetClassID method retrieves the class identifier of the filter. This method implements the IPersistGetClassID method.
+ms.assetid: c3a8b6ab-b36f-493e-9436-6784e25e2511
+title: CBaseFilter.GetClassID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.GetClassID method
@@ -13,7 +18,7 @@ The `GetClassID` method retrieves the class identifier of the filter. This metho
 
 ```C++
 HRESULT GetClassID(
-   CLSID *pClsID
+   CLSID *pClsID
 );
 ```
 
@@ -52,9 +57,9 @@ Returns S\_OK or E\_POINTER.
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

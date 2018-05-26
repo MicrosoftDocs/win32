@@ -1,7 +1,12 @@
 ---
-Description: 'Provides information about a VHD Set file.'
-ms.assetid: 'a975c131-d3f3-4be3-bc69-e277e3ce4d28'
-title: 'Msvm\_VHDSetInformation class'
+Description: Provides information about a VHD Set file.
+ms.assetid: a975c131-d3f3-4be3-bc69-e277e3ce4d28
+title: Msvm\_VHDSetInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VHDSetInformation class
@@ -79,17 +84,17 @@ A list of GUIDs representing all of the snapshots contained by this VHD Set file
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

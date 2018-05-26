@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense CreateSecureDecryptor method
 description: The CreateSecureDecryptor method creates a secure decryptor object. The secure decryptor differs from the normal decryptor in that it decrypts the content and then re-encrypts it according to the settings specified in the parameters of this method.
-ms.assetid: 'f3fe8d47-ec7b-4ba5-b5ae-6262cb455ffc'
-keywords: ["CreateSecureDecryptor method windows Media Format", "CreateSecureDecryptor method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , CreateSecureDecryptor method"]
+ms.assetid: f3fe8d47-ec7b-4ba5-b5ae-6262cb455ffc
+keywords:
+- CreateSecureDecryptor method windows Media Format
+- CreateSecureDecryptor method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , CreateSecureDecryptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::CreateSecureDecryptor method
@@ -22,13 +30,13 @@ The **CreateSecureDecryptor** method creates a secure decryptor object. The secu
 
 ```C++
 HRESULT CreateSecureDecryptor(
-  [in]      BYTE          *pbCertificate,
-  [in]      DWORD         cbCertificate,
-  [in]      DWORD         dwCertificateType,
-  [in]      DWORD         dwFlags,
-  [out]     BYTE          *pbInitializationVector,
-  [in, out] DWORD         *pcbInitializationVector,
-  [out]     IWMDRMDecrypt **ppDecryptor
+  [in]      BYTE          *pbCertificate,
+  [in]      DWORD         cbCertificate,
+  [in]      DWORD         dwCertificateType,
+  [in]      DWORD         dwFlags,
+  [out]     BYTE          *pbInitializationVector,
+  [in, out] DWORD         *pcbInitializationVector,
+  [out]     IWMDRMDecrypt **ppDecryptor
 );
 ```
 
@@ -72,7 +80,7 @@ The type of session protection to use for re-encoding. Must be set to one of the
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -109,7 +117,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -132,9 +140,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

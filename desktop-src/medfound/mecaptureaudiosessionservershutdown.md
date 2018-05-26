@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an audio capture source when the capture audio session is disconnected due to the audio server being shutdown.'
-ms.assetid: '43284B3E-3018-44F3-8D6C-8C3041DCCD3E'
+---
+Description: Sent by an audio capture source when the capture audio session is disconnected due to the audio server being shutdown.
+ms.assetid: 43284B3E-3018-44F3-8D6C-8C3041DCCD3E
 title: MECaptureAudioSessionServerShutdown event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MECaptureAudioSessionServerShutdown event
@@ -10,7 +15,7 @@ Sent by an audio capture source when the capture audio session is disconnected d
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

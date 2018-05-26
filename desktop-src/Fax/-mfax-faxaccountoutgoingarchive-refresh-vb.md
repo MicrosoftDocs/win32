@@ -1,7 +1,12 @@
-﻿---
-Description: 'Refreshes FaxAccountOutgoingArchive object information for a particular fax account from the fax server.'
-ms.assetid: 'ac08fc54-b65f-4a79-b38b-622b832bbda3'
-title: 'FaxAccountOutgoingArchive.Refresh method'
+---
+Description: Refreshes FaxAccountOutgoingArchive object information for a particular fax account from the fax server.
+ms.assetid: ac08fc54-b65f-4a79-b38b-622b832bbda3
+title: FaxAccountOutgoingArchive.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountOutgoingArchive.Refresh method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****far2QUERY\_CONFIG****](-mfax-fax-access-rights-enum-2.md) access right.
+To use this method, a user must have the [****far2QUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access right.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ To use this method, a user must have the [****far2QUERY\_CONFIG****](-mfax-fax-a
 [**FaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive-cpp.md)
+[**IFaxAccountOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingarchive?branch=master)
 </dt> </dl>
 
  

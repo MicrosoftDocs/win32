@@ -4,11 +4,15 @@ description: The following code example deletes the DSMLTesting container object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e37a302a-8bc7-403a-85d5-81d6968b7ebb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e37a302a-8bc7-403a-85d5-81d6968b7ebb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Deleting an Entire Directory Subtree DSML"]
+keywords:
+- Deleting an Entire Directory Subtree DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting an Entire Directory Subtree

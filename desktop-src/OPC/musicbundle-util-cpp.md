@@ -1,8 +1,25 @@
 ---
 title: util.cpp
 description: util.cpp
-ms.assetid: '70b7bec7-0f6a-4087-a21a-1a1923554a0e'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle sample", "packaging,music bundle sample", "packages,music bundle sample", "music bundle sample,util.cpp", "Packaging APIs,util.cpp", "packaging,util.cpp", "packages,util.cpp", "util.cpp,music bundle sample", "sample applications,music bundle"]
+ms.assetid: 70b7bec7-0f6a-4087-a21a-1a1923554a0e
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle sample
+- packaging,music bundle sample
+- packages,music bundle sample
+- music bundle sample,util.cpp
+- Packaging APIs,util.cpp
+- packaging,util.cpp
+- packages,util.cpp
+- util.cpp,music bundle sample
+- sample applications,music bundle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # util.cpp

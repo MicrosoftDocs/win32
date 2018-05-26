@@ -1,21 +1,27 @@
 ---
 title: delete command
 description: The delete command deletes a data segment from a file. Digital-video and waveform-audio devices recognize this command.
-ms.assetid: '9cf084f6-d64e-4487-9407-b68502b7cec9'
-keywords: ["delete command Windows Multimedia"]
+ms.assetid: 9cf084f6-d64e-4487-9407-b68502b7cec9
+keywords:
+- delete command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - delete
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # delete command
 
 The delete command deletes a data segment from a file. Digital-video and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -81,7 +87,7 @@ Flag that identifies a data segment to delete. The following table lists device 
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the *lpszPosition* parameter and their meanings.
 
@@ -97,7 +103,7 @@ The following table lists the flags that can be specified in the *lpszPosition* 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,8 +136,8 @@ delete mysound from 1 to 900
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -148,9 +154,9 @@ delete mysound from 1 to 900
 [set](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

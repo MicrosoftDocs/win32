@@ -1,8 +1,15 @@
 ---
 title: Fragments Reference
 description: Fragments Reference
-ms.assetid: '576cf98a-dbe3-4cfd-b3cf-1065893b6721'
-keywords: ["OpenGL processing pipeline,fragments reference", "OpenGL,fragments reference"]
+ms.assetid: 576cf98a-dbe3-4cfd-b3cf-1065893b6721
+keywords:
+- OpenGL processing pipeline,fragments reference
+- OpenGL,fragments reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fragments Reference

@@ -1,7 +1,12 @@
 ---
 title: Rendering an Effect (Direct3D 11)
 description: An effect can be used to store information, or to render using a group of state.
-ms.assetid: '7af239de-812d-4295-b599-b9deb371b01b'
+ms.assetid: 7af239de-812d-4295-b599-b9deb371b01b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering an Effect (Direct3D 11)
@@ -27,7 +32,7 @@ Naturally there are performance considerations for using effects. These consider
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ Naturally there are performance considerations for using effects. These consider
 [Effects (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Boolean value that indicates whether the filter has dropped frames. This member variable controls when the filter sends EC\_QUALITY\_CHANGE events.'
-ms.assetid: 'fc85c6a8-b849-4acd-bcd7-49274c8ceb58'
-title: 'CVideoTransformFilter::m\_bQualityChanged member'
+Description: Boolean value that indicates whether the filter has dropped frames. This member variable controls when the filter sends EC\_QUALITY\_CHANGE events.
+ms.assetid: fc85c6a8-b849-4acd-bcd7-49274c8ceb58
+title: CVideoTransformFilterm\_bQualityChanged member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter::m\_bQualityChanged member
@@ -35,9 +40,9 @@ BOOL m_bQualityChanged;
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

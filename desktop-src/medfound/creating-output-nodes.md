@@ -1,7 +1,12 @@
 ---
 Description: Creating Output Nodes
-ms.assetid: '6e548f2a-77cd-460e-9ffd-c098f6ee75eb'
+ms.assetid: 6e548f2a-77cd-460e-9ffd-c098f6ee75eb
 title: Creating Output Nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Output Nodes
@@ -18,11 +23,11 @@ If you are going to load the topology inside the protected media path (PMP), you
 To create an output node from a stream sink, do the following:
 
 1.  Create an instance of the media sink.
-2.  Use the media sink's [**IMFMediaSink**](imfmediasink.md) interface to get a pointer to the desired stream sink. (The **IMFMediaSink** interface has several methods that return pointers to a stream sink.)
-3.  Call [**MFCreateTopologyNode**](mfcreatetopologynode.md) with the **MF\_TOPOLOGY\_OUTPUT\_NODE** flag to create the output node.
-4.  Call [**IMFTopologyNode::SetObject**](imftopologynode-setobject.md) and pass in a pointer to the stream sink's [**IMFStreamSink**](imfstreamsink.md) interface.
+2.  Use the media sink's [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) interface to get a pointer to the desired stream sink. (The **IMFMediaSink** interface has several methods that return pointers to a stream sink.)
+3.  Call [**MFCreateTopologyNode**](/windows/win32/mfidl/nf-mfidl-mfcreatetopologynode?branch=master) with the **MF\_TOPOLOGY\_OUTPUT\_NODE** flag to create the output node.
+4.  Call [**IMFTopologyNode::SetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-setobject?branch=master) and pass in a pointer to the stream sink's [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) interface.
 5.  Set the [**MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE**](mf-toponode-noshutdown-on-remove-attribute.md) attribute to **FALSE** (optional but recommended).
-6.  Call [**IMFTopology::AddNode**](imftopology-addnode.md) to add the node to the topology.
+6.  Call [**IMFTopology::AddNode**](/windows/win32/mfidl/nf-mfidl-imftopology-addnode?branch=master) to add the node to the topology.
 
 The following example creates and initializes an output node from a stream sink.
 
@@ -82,12 +87,12 @@ Any trusted media sink must provide an activation object, so that the media sink
 
 To create an output node from an activation object, do the following:
 
-1.  Create the activation object and get a pointer to the activation object's [**IMFActivate**](imfactivate.md) interface.
-2.  Call [**MFCreateTopologyNode**](mfcreatetopologynode.md) with the **MF\_TOPOLOGY\_OUTPUT\_NODE** flag to create the output node.
+1.  Create the activation object and get a pointer to the activation object's [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface.
+2.  Call [**MFCreateTopologyNode**](/windows/win32/mfidl/nf-mfidl-mfcreatetopologynode?branch=master) with the **MF\_TOPOLOGY\_OUTPUT\_NODE** flag to create the output node.
 3.  Optionally, set the [**MF\_TOPONODE\_STREAMID**](mf-toponode-streamid-attribute.md) attribute on the node to specify the stream identifier of the stream sink. If you omit this attribute, the node defaults to using stream sink 0.
 4.  Set the [**MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE**](mf-toponode-noshutdown-on-remove-attribute.md) attribute to **TRUE** (optional but recommended).
-5.  Call [**IMFTopologyNode::SetObject**](imftopologynode-setobject.md) and pass in the [**IMFActivate**](imfactivate.md) pointer.
-6.  Call [**IMFTopology::AddNode**](imftopology-addnode.md) to add the node to the topology.
+5.  Call [**IMFTopologyNode::SetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-setobject?branch=master) and pass in the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer.
+6.  Call [**IMFTopology::AddNode**](/windows/win32/mfidl/nf-mfidl-imftopology-addnode?branch=master) to add the node to the topology.
 
 The following example creates and initializes an output node from an activation object.
 
@@ -152,7 +157,7 @@ done:
 
 <dl> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Creating Topologies](creating-topologies.md)

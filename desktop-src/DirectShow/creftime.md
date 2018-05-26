@@ -1,7 +1,12 @@
 ---
-Description: 'The CRefTime class is a helper class for managing reference times.'
-ms.assetid: '4be0fc23-77fb-4c45-a899-c1dfc6ee89b9'
+Description: The CRefTime class is a helper class for managing reference times.
+ms.assetid: 4be0fc23-77fb-4c45-a899-c1dfc6ee89b9
 title: CRefTime class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime class
@@ -25,11 +30,11 @@ A *reference time* is a unit of time represented in 100-nanosecond units. This c
 | [**operator REFERENCE\_TIME()**](creftime-operator-reference-time-.md) | Casts the object to a **REFERENCE\_TIME** data type.  |
 | [**operator=**](creftime-operator-assign.md)                           | Assigns a new reference time.                         |
 | [**operator+=**](creftime-operator-plus-assign.md)                     | Adds two reference times.                             |
-| [**operator–=**](creftime-operator-minus-assign.md)                    | Subtracts one reference time from another.            |
+| [**operator =**](creftime-operator-minus-assign.md)                    | Subtracts one reference time from another.            |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +71,9 @@ rt = rt + val; // CRefTime, rt.m_time is 20.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

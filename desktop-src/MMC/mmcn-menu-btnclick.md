@@ -4,11 +4,12 @@ description: Sent to the snap-in IExtendControlbar interface when the user click
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b0455eb0-a773-4b03-a44a-339b48d5d57d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b0455eb0-a773-4b03-a44a-339b48d5d57d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_MENU_BTNCLICK message MMC"]
+keywords:
+- MMCN_MENU_BTNCLICK message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_MENU\_BTNCLICK message
@@ -78,8 +82,8 @@ The snap-in should display a context menu at the specified position and perform 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -94,9 +98,9 @@ The snap-in should display a context menu at the specified position and perform 
 [**IMenuButton::SetButtonState**](imenubutton-setbuttonstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Heap Extents
 description: Heap Extents
-ms.assetid: '4ddf2be0-61a5-44ff-b73e-cdc7cf37e626'
+ms.assetid: 4ddf2be0-61a5-44ff-b73e-cdc7cf37e626
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heap Extents

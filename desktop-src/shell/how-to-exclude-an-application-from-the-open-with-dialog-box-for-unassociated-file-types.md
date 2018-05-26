@@ -1,6 +1,11 @@
 ---
-Description: 'How to exclude an application from the open with dialog box for unassociated file type.'
+Description: How to exclude an application from the open with dialog box for unassociated file type.
 title: How to Exclude an Application from the Open With Dialog Box for Unassociated File Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Exclude an Application from the Open With Dialog Box for Unassociated File Types
@@ -42,13 +47,13 @@ HKEY_CLASSES_ROOT
 Setting the NoOpenWith entry also has these effects:
 
 -   Prevents pinning a file to the application's Jump List through drag-and-drop, unless the application is specifically registered to handle that file type.
--   Prevents the common file dialog box and any call to the [**SHAddToRecentDocs**](shaddtorecentdocs.md) function from adding any file to the application's Jump List, unless the application is specifically registered to handle that file type.
+-   Prevents the common file dialog box and any call to the [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master) function from adding any file to the application's Jump List, unless the application is specifically registered to handle that file type.
 
 ### Step 2:
 
 The second way to prevent an application from appearing in the **Open with** dialog box is to use the **SupportedTypes** subkey to explicitly list the extensions of file types that the application can open. This prevents the application from appearing in the **Open with** dialog box for file types that it cannot open. It also causes the application to appear in the **Recommended Programs** list as discussed previously.
 
-This method is particularly useful if an application can save a file as a certain file type but cannot open that file type. An application should also set the FOS\_DONTADDTORECENT flag through [**IFileDialog::SetOptions**](ifiledialog-setoptions.md) when calling the **Save** dialog box. This keeps the item from being added to the **Recent** or **Frequent** portions of a Jump List. It also blocks the application from being tracked under [OpenWithList](fa-file-types.md#setting-optional-subkeys-and-file-type-extension-attributes).
+This method is particularly useful if an application can save a file as a certain file type but cannot open that file type. An application should also set the FOS\_DONTADDTORECENT flag through [**IFileDialog::SetOptions**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions?branch=master) when calling the **Save** dialog box. This keeps the item from being added to the **Recent** or **Frequent** portions of a Jump List. It also blocks the application from being tracked under [OpenWithList](fa-file-types.md#setting-optional-subkeys-and-file-type-extension-attributes).
 
 Each supported extension is added as an entry under the **SupportedTypes** subkey as shown in the following example. The entries are of type **REG\_SZ** or **REG\_NULL**, with no associated values.
 

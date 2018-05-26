@@ -1,7 +1,12 @@
 ---
 title: Determining shim status
 description: Determining shim status
-ms.assetid: '8D0B633F-9117-4F90-BF8C-AC5F57FCD30B'
+ms.assetid: 8D0B633F-9117-4F90-BF8C-AC5F57FCD30B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining shim status

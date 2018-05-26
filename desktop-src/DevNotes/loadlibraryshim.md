@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a specified version of a .NET Framework library DLL.'
-ms.assetid: 'f001774d-ea9a-4820-aec0-99ce958b1e1d'
+---
+Description: Loads a specified version of a .NET Framework library DLL.
+ms.assetid: f001774d-ea9a-4820-aec0-99ce958b1e1d
 title: LoadLibraryShim function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadLibraryShim function

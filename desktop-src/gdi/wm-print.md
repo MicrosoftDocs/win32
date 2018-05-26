@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.'
-ms.assetid: 'e6be2ecd-603a-405f-8a48-68d971e1f6de'
-title: 'WM\_PRINT message'
+---
+Description: The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
+ms.assetid: e6be2ecd-603a-405f-8a48-68d971e1f6de
+title: WM\_PRINT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PRINT message

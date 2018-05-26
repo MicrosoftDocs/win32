@@ -1,8 +1,19 @@
 ---
 title: Implementing Network Functionality
 description: Implementing Network Functionality
-ms.assetid: '908e269b-63be-4666-a364-a894f6dcd86f'
-keywords: ["Windows Media Format SDK,implementing network functionality", "Windows Media Format SDK,network functionality", "Advanced Systems Format (ASF),implementing network functionality", "ASF (Advanced Systems Format),implementing network functionality", "Advanced Systems Format (ASF),network functionality", "ASF (Advanced Systems Format),network functionality"]
+ms.assetid: 908e269b-63be-4666-a364-a894f6dcd86f
+keywords:
+- Windows Media Format SDK,implementing network functionality
+- Windows Media Format SDK,network functionality
+- Advanced Systems Format (ASF),implementing network functionality
+- ASF (Advanced Systems Format),implementing network functionality
+- Advanced Systems Format (ASF),network functionality
+- ASF (Advanced Systems Format),network functionality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Network Functionality

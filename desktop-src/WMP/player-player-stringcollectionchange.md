@@ -1,8 +1,11 @@
 ---
 title: Player.StringCollectionChange event
 description: The StringCollectionChange event occurs when a string collection changes.
-ms.assetid: '465ec694-afd1-4baa-b559-3ab75874388f'
-keywords: ["StringCollectionChange event Windows Media Player", "StringCollectionChange event Windows Media Player , Player class", "Player class Windows Media Player , StringCollectionChange event"]
+ms.assetid: 465ec694-afd1-4baa-b559-3ab75874388f
+keywords:
+- StringCollectionChange event Windows Media Player
+- StringCollectionChange event Windows Media Player , Player class
+- Player class Windows Media Player , StringCollectionChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.StringCollectionChange event
@@ -61,7 +69,7 @@ Number (long)indicating the type of change that occurred to the string collectio
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -101,9 +109,9 @@ This event does not return a value.
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

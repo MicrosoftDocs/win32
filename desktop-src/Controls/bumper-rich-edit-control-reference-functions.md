@@ -1,7 +1,12 @@
 ---
 title: Rich Edit Functions
 description: .
-ms.assetid: '5e913cb6-d561-447f-b33e-9160a8f46cda'
+ms.assetid: 5e913cb6-d561-447f-b33e-9160a8f46cda
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rich Edit Functions
@@ -23,39 +28,39 @@ ms.assetid: '5e913cb6-d561-447f-b33e-9160a8f46cda'
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<em>AutoCorrectProc</em>](autocorrectproc.md)<br/></td>
-<td>The [<em>AutoCorrectProc</em>](autocorrectproc.md) function is an application-defined callback function that is used with the [<strong>EM_SETAUTOCORRECTPROC</strong>](em-setautocorrectproc.md) message.<br/></td>
+<td>[<em>AutoCorrectProc</em>](/windows/win32/Richedit/nc-richedit-autocorrectproc?branch=master)<br/></td>
+<td>The [<em>AutoCorrectProc</em>](/windows/win32/Richedit/nc-richedit-autocorrectproc?branch=master) function is an application-defined callback function that is used with the [<strong>EM_SETAUTOCORRECTPROC</strong>](em-setautocorrectproc.md) message.<br/></td>
 </tr>
 <tr class="even">
-<td>[<em>EditStreamCallback</em>](editstreamcallback.md)<br/></td>
-<td>The [<em>EditStreamCallback</em>](editstreamcallback.md) function is an application defined callback function used with the [<strong>EM_STREAMIN</strong>](em-streamin.md) and [<strong>EM_STREAMOUT</strong>](em-streamout.md) messages. It is used to transfer a stream of data into or out of a rich edit control. The <strong>EDITSTREAMCALLBACK</strong> type defines a pointer to this callback function. <em>EditStreamCallback</em> is a placeholder for the application-defined function name. <br/></td>
+<td>[<em>EditStreamCallback</em>](/windows/win32/Richedit/nc-richedit-editstreamcallback?branch=master)<br/></td>
+<td>The [<em>EditStreamCallback</em>](/windows/win32/Richedit/nc-richedit-editstreamcallback?branch=master) function is an application defined callback function used with the [<strong>EM_STREAMIN</strong>](em-streamin.md) and [<strong>EM_STREAMOUT</strong>](em-streamout.md) messages. It is used to transfer a stream of data into or out of a rich edit control. The <strong>EDITSTREAMCALLBACK</strong> type defines a pointer to this callback function. <em>EditStreamCallback</em> is a placeholder for the application-defined function name. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<em>EditWordBreakProcEx</em>](editwordbreakprocex.md)<br/></td>
-<td>The [<em>EditWordBreakProcEx</em>](editwordbreakprocex.md) function is an application defined callback function used with the [<strong>EM_SETWORDBREAKPROCEX</strong>](em-setwordbreakprocex.md) message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The <strong>EDITWORDBREAKPROCEX</strong> type defines a pointer to this callback function. <em>EditWordBreakProcEx</em> is a placeholder for the application-defined function name. <br/></td>
+<td>[<em>EditWordBreakProcEx</em>](/windows/win32/Richedit/nc-richedit-editwordbreakprocex?branch=master)<br/></td>
+<td>The [<em>EditWordBreakProcEx</em>](/windows/win32/Richedit/nc-richedit-editwordbreakprocex?branch=master) function is an application defined callback function used with the [<strong>EM_SETWORDBREAKPROCEX</strong>](em-setwordbreakprocex.md) message. It determines the character index of the word break or the character class and word-break flags of the characters in the specified text. The <strong>EDITWORDBREAKPROCEX</strong> type defines a pointer to this callback function. <em>EditWordBreakProcEx</em> is a placeholder for the application-defined function name. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetMathAlphanumeric</strong>](getmathalphanumeric.md)<br/></td>
+<td>[<strong>GetMathAlphanumeric</strong>](/windows/win32/Tom/?branch=master)<br/></td>
 <td>Retrieves the Unicode Transformation Format (UTF)-32 math alphanumeric character that corresponds to the specified Basic Multilingual Plane (BMP) character and math style. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetMathAlphanumericCode</strong>](getmathalphanumericcode.md)<br/></td>
+<td>[<strong>GetMathAlphanumericCode</strong>](/windows/win32/Tom/?branch=master)<br/></td>
 <td>Retrieves the math style and the upright Basic Multilingual Plane (BMP) character code that corresponds to the specified trailing byte of a math surrogate pair.<br/></td>
 </tr>
 <tr class="even">
-<td>[<em>HyphenateProc</em>](hyphenateproc.md)<br/></td>
-<td>The [<em>HyphenateProc</em>](hyphenateproc.md) function is an application–defined callback function used with the [<strong>EM_SETHYPHENATEINFO</strong>](em-sethyphenateinfo.md) message. It determines how hyphenation is done in a Microsoft Rich Edit control.<br/></td>
+<td>[<em>HyphenateProc</em>](/windows/win32/Richedit/nf-richedit-hyphenateproc?branch=master)<br/></td>
+<td>The [<em>HyphenateProc</em>](/windows/win32/Richedit/nf-richedit-hyphenateproc?branch=master) function is an application defined callback function used with the [<strong>EM_SETHYPHENATEINFO</strong>](em-sethyphenateinfo.md) message. It determines how hyphenation is done in a Microsoft Rich Edit control.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MathBuildDown</strong>](mathbuilddown.md)<br/></td>
+<td>[<strong>MathBuildDown</strong>](/windows/win32/Tom/?branch=master)<br/></td>
 <td>Translates the built-up math, ruby, and other inline objects in the specified range to linear form.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MathBuildUp</strong>](mathbuildup.md)<br/></td>
+<td>[<strong>MathBuildUp</strong>](/windows/win32/Tom/?branch=master)<br/></td>
 <td>Converts the linear-format math in a range to a built-up form, or modifies the current built-up form. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MathTranslate</strong>](mathtranslate.md)<br/></td>
+<td>[<strong>MathTranslate</strong>](/windows/win32/Tom/?branch=master)<br/></td>
 <td>Translates the math characters in the specified range.<br/></td>
 </tr>
 <tr class="even">
@@ -72,11 +77,11 @@ Intended for internal use; not recommended for use in applications. This functio
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

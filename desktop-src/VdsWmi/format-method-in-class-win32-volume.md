@@ -1,8 +1,11 @@
 ---
 title: Format method of the Win32\_Volume class
 description: The Format method formats the volume.This topic uses Managed Object Format (MOF) syntax.
-ms.assetid: 'b8c325d7-3d78-4989-8209-2dad359ca9bb'
-keywords: ["Format method", "Format method, Win32_Volume class", "Win32_Volume class, Format method"]
+ms.assetid: b8c325d7-3d78-4989-8209-2dad359ca9bb
+keywords:
+- Format method
+- Format method, Win32_Volume class
+- Win32_Volume class, Format method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format method of the Win32\_Volume class
@@ -24,11 +32,11 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Format(
-  [in] string FileSystem = "NTFS",
-  [in] boolean QuickFormat,
-  [in] uint32 ClusterSize = 4096,
-  [in] string Label = "",
-  [in] boolean EnableCompression = false
+  [in] string FileSystem = "NTFS",
+  [in] boolean QuickFormat,
+  [in] uint32 ClusterSize = 4096,
+  [in] string Label = "",
+  [in] boolean EnableCompression = false
 );
 ```
 
@@ -63,7 +71,7 @@ If **true**, formats the volume with a quick format by removing files from the d
 *ClusterSize* \[in\]
 </dt> <dd>
 
-Disk allocation unit size—cluster size. All of the file systems used by this version of Windows organize the hard disk based on cluster size, which represents the smallest amount of disk space that can be allocated to hold a file. The smaller the cluster size you use, the more efficiently your disk stores information. If no cluster size is specified during format, Windows picks defaults based on the size of the volume. These defaults have been selected to reduce the amount of space lost and to reduce fragmentation. For general use, the default settings are strongly recommended.
+Disk allocation unit size cluster size. All of the file systems used by this version of Windows organize the hard disk based on cluster size, which represents the smallest amount of disk space that can be allocated to hold a file. The smaller the cluster size you use, the more efficiently your disk stores information. If no cluster size is specified during format, Windows picks defaults based on the size of the volume. These defaults have been selected to reduce the amount of space lost and to reduce fragmentation. For general use, the default settings are strongly recommended.
 
 </dd> <dt>
 
@@ -109,7 +117,7 @@ Not implemented.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -118,7 +126,7 @@ Not implemented.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -132,9 +140,9 @@ Not implemented.
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

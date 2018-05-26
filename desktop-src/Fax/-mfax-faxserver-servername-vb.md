@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ServerName property retrieves the name of the active fax server to which the fax client is connected.'
-ms.assetid: 'b07d1885-ba7a-438b-8692-833683ba4775'
-title: 'FaxServer.ServerName property'
+---
+Description: The ServerName property retrieves the name of the active fax server to which the fax client is connected.
+ms.assetid: b07d1885-ba7a-438b-8692-833683ba4775
+title: FaxServer.ServerName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.ServerName property
@@ -46,7 +51,7 @@ A **String** that receives the name of the active fax server to which the fax cl
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree GetBodyProp method
 description: Gets the value of a property for a specified body.
-ms.assetid: '94d68db5-14b1-489e-8b87-5864490553d3'
-keywords: ["GetBodyProp method Windows Mail (formerly Outlook Express)", "GetBodyProp method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetBodyProp method"]
+ms.assetid: 94d68db5-14b1-489e-8b87-5864490553d3
+keywords:
+- GetBodyProp method Windows Mail (formerly Outlook Express)
+- GetBodyProp method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetBodyProp method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::GetBodyProp method
@@ -22,10 +30,10 @@ Gets the value of a property for a specified body.
 
 ```C++
 HRESULT GetBodyProp(
-  [in]      HBODY         hBody,
-  [in]      LPCSTR        pszName,
-  [in]      DWORD         dwFlags,
-  [in, out] LPPROPVARIANT pValue
+  [in]      HBODY         hBody,
+  [in]      LPCSTR        pszName,
+  [in]      DWORD         dwFlags,
+  [in, out] LPPROPVARIANT pValue
 );
 ```
 
@@ -72,7 +80,7 @@ Specifies a bitmask that affects how to get the property value.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -105,7 +113,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -125,8 +133,8 @@ pPropertySet-&gt;[**GetProp**](oe-imimepropertyset-getprop.md)(*pszName*, *dwFla
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -134,9 +142,9 @@ pPropertySet-&gt;[**GetProp**](oe-imimepropertyset-getprop.md)(*pszName*, *dwFla
 
 
 
- 
+ 
 
- 
+ 
 
 
 

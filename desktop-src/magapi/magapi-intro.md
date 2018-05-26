@@ -1,8 +1,20 @@
 ---
 title: Magnification API Overview
 description: This topic describes the Magnification API and explains how to use it in an application.
-ms.assetid: '8dcecb73-db73-4043-b922-0b92f299eb1d'
-keywords: ["Magnification", "screen magnification applications", "Magnification", "custom image processing", "Magnification.dll", "creating magnifier controls", "selective magnification"]
+ms.assetid: 8dcecb73-db73-4043-b922-0b92f299eb1d
+keywords:
+- Magnification
+- screen magnification applications
+- Magnification
+- custom image processing
+- Magnification.dll
+- creating magnifier controls
+- selective magnification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Magnification API Overview
@@ -80,7 +92,7 @@ The full-screen magnifier does not support a filter list; it always magnifies al
 
 ### Input Transform
 
-Normally, magnified screen content is "invisible" to user pen or touch input. For example, if the user taps the magnified image of a control, the system does not necessarily pass the input to the control. Instead, the system passes the input to whatever item (if any) resides at the tapped screen coordinates on the unmagnified desktop. The [**MagSetInputTransform**](magapi-magsetinputtransform.md) function enables you to specify an *input transformation* that maps the coordinate space of the magnified screen content to the actual (unmagnified) screen coordinate space. This enables the system to pass pen or touch input that is entered in magnified screen content, to the correct UI element on the screen.
+Normally, magnified screen content is "invisible" to user pen or touch input. For example, if the user taps the magnified image of a control, the system does not necessarily pass the input to the control. Instead, the system passes the input to whatever item (if any) resides at the tapped screen coordinates on the unmagnified desktop. The [**MagSetInputTransform**](/windows/previous-versions/Magnification/nf-magnification-magsetinputtransform?branch=master) function enables you to specify an *input transformation* that maps the coordinate space of the magnified screen content to the actual (unmagnified) screen coordinate space. This enables the system to pass pen or touch input that is entered in magnified screen content, to the correct UI element on the screen.
 
 > [!Note]  
 > The calling process must have UIAccess privileges to set the input transform. For more information, see [UI Automation Security Considerations](https://msdn.microsoft.com/library/windows/desktop/ee671610) and [/MANIFESTUAC (Embeds UAC information in manifest)](http://go.microsoft.com/fwlink/p/?linkid=207612).
@@ -89,19 +101,19 @@ Normally, magnified screen content is "invisible" to user pen or touch input. Fo
 
 ### System Cursor
 
-The [**MagShowSystemCursor**](magapi-magshowsystemcursor.md) function enables you to show or hide the system cursor. If you show the system cursor when the full-screen magnifier is active, the system cursor is always magnified along with the rest of the screen content. If you hide the system cursor when the full-screen magnifier is active, the system cursor is not visible at all.
+The [**MagShowSystemCursor**](/windows/previous-versions/Magnification/nf-magnification-magshowsystemcursor?branch=master) function enables you to show or hide the system cursor. If you show the system cursor when the full-screen magnifier is active, the system cursor is always magnified along with the rest of the screen content. If you hide the system cursor when the full-screen magnifier is active, the system cursor is not visible at all.
 
-With the magnifier control, the [**MagShowSystemCursor**](magapi-magshowsystemcursor.md) function shows or hides the unmagnified system cursor, but has no effect on the magnified system cursor. The visibility of the magnified system cursor depends on whether the magnifier control has the [**MS\_SHOWMAGNIFIEDCURSOR**](magapi-magnifier-styles.md#ms-showmagnifiedcursor) style. If it has this style, the magnifier control displays the magnified system cursor, along with the magnified screen content, whenever the system cursor enters the source rectangle.
+With the magnifier control, the [**MagShowSystemCursor**](/windows/previous-versions/Magnification/nf-magnification-magshowsystemcursor?branch=master) function shows or hides the unmagnified system cursor, but has no effect on the magnified system cursor. The visibility of the magnified system cursor depends on whether the magnifier control has the [**MS\_SHOWMAGNIFIEDCURSOR**](magapi-magnifier-styles.md#ms-showmagnifiedcursor) style. If it has this style, the magnifier control displays the magnified system cursor, along with the magnified screen content, whenever the system cursor enters the source rectangle.
 
 ## Initializing the Magnifier Run-time Library
 
-Before you can call any other magnifier API functions, you must create and initialize the magnifier run-time objects by calling the [**MagInitialize**](magapi-maginitialize.md) function. Similarly, after you finish using the magnifier API, call the [**MagUninitialize**](magapi-maguninitialize.md) function to destroy the magnifier run-time objects and free the associated system resources.
+Before you can call any other magnifier API functions, you must create and initialize the magnifier run-time objects by calling the [**MagInitialize**](/windows/previous-versions/Magnification/nf-magnification-maginitialize?branch=master) function. Similarly, after you finish using the magnifier API, call the [**MagUninitialize**](/windows/previous-versions/Magnification/nf-magnification-maguninitialize?branch=master) function to destroy the magnifier run-time objects and free the associated system resources.
 
 ## Using the Full-Screen Magnifier
 
-To use the full-screen magnifier, call the [**MagSetFullscreenTransform**](magapi-magsetfullscreentransform.md) function. The *magLevel* parameter specifies the magnification factor. The *xOffset* and *yOffset* parameters specify how the magnified screen content is positioned relative to the screen.
+To use the full-screen magnifier, call the [**MagSetFullscreenTransform**](/windows/previous-versions/Magnification/nf-magnification-magsetfullscreentransform?branch=master) function. The *magLevel* parameter specifies the magnification factor. The *xOffset* and *yOffset* parameters specify how the magnified screen content is positioned relative to the screen.
 
-When the screen content is magnified, it becomes larger than the screen itself. Some portion of the content extends beyond the edges of the screen and becomes invisible to the user. The *xOffset* and *yOffset* parameters of the [**MagSetFullscreenTransform**](magapi-magsetfullscreentransform.md) function determine which portion of the magnified screen content appears on the screen. Together, the parameters specify the coordinates of a point in the unmagnified screen content. When the content is magnified, it is positioned with the specified point at the upper-left corner of the screen.
+When the screen content is magnified, it becomes larger than the screen itself. Some portion of the content extends beyond the edges of the screen and becomes invisible to the user. The *xOffset* and *yOffset* parameters of the [**MagSetFullscreenTransform**](/windows/previous-versions/Magnification/nf-magnification-magsetfullscreentransform?branch=master) function determine which portion of the magnified screen content appears on the screen. Together, the parameters specify the coordinates of a point in the unmagnified screen content. When the content is magnified, it is positioned with the specified point at the upper-left corner of the screen.
 
 The following example sets the magnification factor for the full-screen magnifier and places the center of the magnified screen content at the center of the screen.
 
@@ -129,7 +141,7 @@ BOOL SetZoom(float magnificationFactor)
 
 
 
-Use the [**MagSetFullscreenColorEffect**](magapi-magsetfullscreencoloreffect.md) function to apply color effects to the full-screen content by setting an application-defined color transformation matrix. For example, the following example sets a color transformation matrix that converts colors to grayscale.
+Use the [**MagSetFullscreenColorEffect**](/windows/previous-versions/Magnification/nf-magnification-magsetfullscreencoloreffect?branch=master) function to apply color effects to the full-screen content by setting an application-defined color transformation matrix. For example, the following example sets a color transformation matrix that converts colors to grayscale.
 
 
 ```C++
@@ -160,7 +172,7 @@ BOOL SetColorGrayscale(__in BOOL fGrayscaleOn)
 
 
 
-You can retrieve the current magnification factor and offset values by calling the [**MagGetFullscreenTransform**](magapi-maggetfullscreentransform.md) function. You can retrieve the current color transformation matrix by calling the [**MagGetFullscreenColorEffect**](magapi-maggetfullscreencoloreffect.md) function.
+You can retrieve the current magnification factor and offset values by calling the [**MagGetFullscreenTransform**](/windows/previous-versions/Magnification/nf-magnification-maggetfullscreentransform?branch=master) function. You can retrieve the current color transformation matrix by calling the [**MagGetFullscreenColorEffect**](/windows/previous-versions/Magnification/nf-magnification-maggetfullscreencoloreffect?branch=master) function.
 
 ## Using the Magnifier Control
 
@@ -257,7 +269,7 @@ BOOL CreateMagnifier(HINSTANCE hInstance)
 
 ### Initializing the Control
 
-After creating the magnifier control, you must call the [**MagSetWindowTransform**](magapi-magsetwindowtransform.md) function to specify the magnification factor. This is simply a matter of specifying a matrix of
+After creating the magnifier control, you must call the [**MagSetWindowTransform**](/windows/previous-versions/Magnification/nf-magnification-magsetwindowtransform?branch=master) function to specify the magnification factor. This is simply a matter of specifying a matrix of
 
 (*n*, 0.0, 0.0)
 
@@ -293,7 +305,7 @@ BOOL SetMagnificationFactor(HWND hwndMag, float magFactor)
 
 ### Setting the Source Rectangle
 
-As the user moves the mouse cursor around the screen, your application calls the [**MagSetWindowSource**](magapi-magsetwindowsource.md) function to specify the part of the underlying screen that is to be magnified.
+As the user moves the mouse cursor around the screen, your application calls the [**MagSetWindowSource**](/windows/previous-versions/Magnification/nf-magnification-magsetwindowsource?branch=master) function to specify the part of the underlying screen that is to be magnified.
 
 The following example function calculates the position and dimensions of the source rectangle (based on the mouse position and the dimensions of the magnifier window divided by the magnification factor) and sets the source rectangle accordingly. The function also centers the client area of the host window at the mouse position. This function would be called at intervals to update the magnification window.
 
@@ -355,7 +367,7 @@ A magnifier control that has the [**MS\_INVERTCOLORS**](magapi-magnifier-styles.
 
 ![screen shot of magnified content with colors inverted](images/color-inversion.png)
 
-The [**MagSetColorEffect**](magapi-magsetcoloreffect.md) function enables you to apply other color effects by setting an application-defined color transformation matrix. For example, the following function sets a color transformation matrix that converts colors to grayscale.
+The [**MagSetColorEffect**](/windows/previous-versions/Magnification/nf-magnification-magsetcoloreffect?branch=master) function enables you to apply other color effects by setting an application-defined color transformation matrix. For example, the following function sets a color transformation matrix that converts colors to grayscale.
 
 
 ```C++
@@ -397,7 +409,7 @@ For more information about how color transformations work, see [Using a Color Ma
 
 ### Selective Magnification
 
-By default, magnification is applied to all windows other than the magnification window itself. To specify which windows are to be magnified, call the [**MagSetWindowFilterList**](magapi-magsetwindowfilterlist.md) function. This method takes either a list of windows to magnify, or a list of windows to exclude from magnification.
+By default, magnification is applied to all windows other than the magnification window itself. To specify which windows are to be magnified, call the [**MagSetWindowFilterList**](/windows/previous-versions/Magnification/nf-magnification-magsetwindowfilterlist?branch=master) function. This method takes either a list of windows to magnify, or a list of windows to exclude from magnification.
 
 ## Related topics
 

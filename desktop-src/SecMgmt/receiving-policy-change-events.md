@@ -1,16 +1,21 @@
 ---
-Description: 'The LSA provides functions you can use to receive notification when there is a change in policy on the local system.'
-ms.assetid: '29c693f5-db2b-4fda-847c-4e5220eadfd3'
+Description: The LSA provides functions you can use to receive notification when there is a change in policy on the local system.
+ms.assetid: 29c693f5-db2b-4fda-847c-4e5220eadfd3
 title: Receiving Policy Change Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Policy Change Events
 
 The LSA provides functions you can use to receive notification when there is a change in policy on the local system.
 
-To receive notification, create a new event object by calling the [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396) function, and then call the [**LsaRegisterPolicyChangeNotification**](lsaregisterpolicychangenotification.md) function. Your application can then call a wait function such as [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036), or [**RegisterWaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms685061) to wait for the event to occur. The wait function returns when the event occurs, or when the time-out period expires. Typically, notification events are used in multithreaded applications, in which one thread waits for an event, while other threads continue processing.
+To receive notification, create a new event object by calling the [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396) function, and then call the [**LsaRegisterPolicyChangeNotification**](/windows/win32/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification?branch=master) function. Your application can then call a wait function such as [**WaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms687032), [**WaitForSingleObjectEx**](https://msdn.microsoft.com/library/windows/desktop/ms687036), or [**RegisterWaitForSingleObject**](https://msdn.microsoft.com/library/windows/desktop/ms685061) to wait for the event to occur. The wait function returns when the event occurs, or when the time-out period expires. Typically, notification events are used in multithreaded applications, in which one thread waits for an event, while other threads continue processing.
 
-When your application no longer needs to receive notifications, it should call [**LsaUnregisterPolicyChangeNotification**](lsaunregisterpolicychangenotification.md) and then call [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) to free the event object handle.
+When your application no longer needs to receive notifications, it should call [**LsaUnregisterPolicyChangeNotification**](/windows/win32/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification?branch=master) and then call [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) to free the event object handle.
 
 The following example shows how a single-threaded application can receive notification events when the system's auditing policy changes.
 

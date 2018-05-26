@@ -1,13 +1,16 @@
 ---
-Description: 'Illustration shows the objects that can be retrieved, directly or indirectly, by using the Enterprise object.'
+Description: Illustration shows the objects that can be retrieved, directly or indirectly, by using the Enterprise object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'a2b785ed-cdc9-4275-acf0-d169d2fef60b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: a2b785ed-cdc9-4275-acf0-d169d2fef60b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Enterprise Architectural Illustration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enterprise Architectural Illustration

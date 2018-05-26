@@ -1,7 +1,12 @@
 ---
-Description: 'Primary address street of the contact.'
-ms.assetid: '6205e0c9-41bf-49a4-86e2-1d6bef3e984c'
-title: 'System.Contact.PrimaryAddressStreet'
+Description: Primary address street of the contact.
+ms.assetid: 6205e0c9-41bf-49a4-86e2-1d6bef3e984c
+title: System.Contact.PrimaryAddressStreet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PrimaryAddressStreet

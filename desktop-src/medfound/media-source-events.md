@@ -1,7 +1,12 @@
 ---
 Description: Media Source Events
-ms.assetid: 'c7b6ea86-e919-45b8-a1f9-bd18c3aed163'
+ms.assetid: c7b6ea86-e919-45b8-a1f9-bd18c3aed163
 title: Media Source Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Source Events

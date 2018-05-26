@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DnsServerZoneScope class
 description: Removes a zone scope from an existing DNS zone.
 audience: developer
-ms.assetid: '02e022ee-edfd-4100-b12c-828f5d589c0a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 02e022ee-edfd-4100-b12c-828f5d589c0a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DnsServerZoneScope class", "PS_DnsServerZoneScope class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DnsServerZoneScope class
+- PS_DnsServerZoneScope class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DnsServerZoneScope class
@@ -28,12 +34,12 @@ Removes a zone scope from an existing DNS zone.
 
 ```mof
 uint32 Remove(
-  [in]  string       ZoneName,
-  [in]  string       Name,
-  [in]  boolean      PassThru,
-  [in]  boolean      Force,
-  [in]  string       ComputerName,
-  [out] DnsZoneScope cmdletOutput
+  [in]  string       ZoneName,
+  [in]  string       Name,
+  [in]  boolean      PassThru,
+  [in]  boolean      Force,
+  [in]  string       ComputerName,
+  [out] DnsZoneScope cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ The [**DnsZoneScope**](dnszonescope.md) object that receives the zone scope to r
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ The [**DnsZoneScope**](dnszonescope.md) object that receives the zone scope to r
 [**PS\_DnsServerZoneScope**](ps-dnsserverzonescope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The CLUSCTL\_RESOURCE\_STORAGE\_GET\_DISK\_NUMBER \ 32;control code
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2dd2eca9-7792-4bb4-a87a-5f5bd0106dc7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2dd2eca9-7792-4bb4-a87a-5f5bd0106dc7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_STORAGE_GET_DISK_NUMBER control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_STORAGE_GET_DISK_NUMBER control code Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_STORAGE\_GET\_DISK\_NUMBER control code

@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSourceRect method sets the current source video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle changes.'
-ms.assetid: '13bb594b-b154-40a2-ad00-f1e86781074d'
-title: 'CBaseControlVideo.SetSourceRect method'
+Description: The SetSourceRect method sets the current source video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle changes.
+ms.assetid: 13bb594b-b154-40a2-ad00-f1e86781074d
+title: CBaseControlVideo.SetSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.SetSourceRect method
@@ -13,7 +18,7 @@ The `SetSourceRect` method sets the current source video rectangle (pure virtual
 
 ```C++
 virtual HRESULT SetSourceRect(
-   RECT *pSourceRect
+   RECT *pSourceRect
 ) = 0;
 ```
 
@@ -77,9 +82,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

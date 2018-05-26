@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method notifies the pin that the filter is no longer active.'
-ms.assetid: '71847578-2271-4243-87c4-9f14b33f770c'
-title: 'CBasePin.Inactive method'
+Description: The Inactive method notifies the pin that the filter is no longer active.
+ms.assetid: 71847578-2271-4243-87c4-9f14b33f770c
+title: CBasePin.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.Inactive method
@@ -51,9 +56,9 @@ The filter graph manager's internal state is not updated until after this method
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

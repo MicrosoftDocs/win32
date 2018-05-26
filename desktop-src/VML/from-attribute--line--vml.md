@@ -1,7 +1,12 @@
 ---
 title: From Attribute (Line)(VML)
 description: From Attribute (Line)(VML)
-ms.assetid: '37cc9b2e-c18d-48ea-bac5-a2d2ea10d3d2'
+ms.assetid: 37cc9b2e-c18d-48ea-bac5-a2d2ea10d3d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # From Attribute (Line)(VML)

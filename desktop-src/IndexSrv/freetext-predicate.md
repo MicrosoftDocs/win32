@@ -1,7 +1,12 @@
 ---
 title: FREETEXT Predicate
 description: FREETEXT Predicate
-ms.assetid: '14039562-4dea-44d1-9610-b23efbe7a255'
+ms.assetid: 14039562-4dea-44d1-9610-b23efbe7a255
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FREETEXT Predicate

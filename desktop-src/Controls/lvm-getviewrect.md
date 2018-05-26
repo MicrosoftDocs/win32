@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETVIEWRECT message
 description: Retrieves the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can send this message explicitly or by using the ListView\_GetViewRect macro.
-ms.assetid: '69b96f86-8b7e-42c1-ad73-f9b2732ab9f9'
-keywords: ["LVM_GETVIEWRECT message Windows Controls"]
+ms.assetid: 69b96f86-8b7e-42c1-ad73-f9b2732ab9f9
+keywords:
+- LVM_GETVIEWRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETVIEWRECT message
 
-Retrieves the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can send this message explicitly or by using the [**ListView\_GetViewRect**](listview-getviewrect.md) macro.
+Retrieves the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can send this message explicitly or by using the [**ListView\_GetViewRect**](/windows/win32/Commctrl/nf-commctrl-listview_getviewrect?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

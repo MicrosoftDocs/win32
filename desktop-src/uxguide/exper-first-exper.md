@@ -1,7 +1,12 @@
 ---
 title: First Experience
 description: In the ideal first experience, users install your program and use it productively immediately, without answering a bunch of questions or learning a bunch of things.
-ms.assetid: 'd925f71c-fc5a-4ff2-8f5d-9434c162b4b4'
+ms.assetid: d925f71c-fc5a-4ff2-8f5d-9434c162b4b4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # First Experience
@@ -63,13 +68,13 @@ If so, consider presenting the tasks and settings during the first use experienc
 
 ## Design concepts
 
-In the ideal first experience, users install your program (or even just start it if it doesn't require installation) and use it productively immediately—without answering a bunch of questions or learning a bunch of things.
+In the ideal first experience, users install your program (or even just start it if it doesn't require installation) and use it productively immediately without answering a bunch of questions or learning a bunch of things.
 
 This ideal is obtainable for most programs, so you should strive for this ideal experience whenever you can. However, this goal is often not obtainable for programs that require significant system integration, have many optional features, or have privacy implications. For example, if your program has features that might reveal personal information to untrusted parties, the tenets of [trustworthy computing](http://www.microsoft.com/mscorp/twc/default.mspx) require that you obtain user consent before enabling these features.
 
 ### Questions aren't choices
 
-Questions require responses—they must be answered before users can proceed. Questions during the first experience are hurdles that users must jump over before they can use your program productively. By contrast, choices are optional. Users don't have to respond to them, or can choose to see them only when they want to.
+Questions require responses they must be answered before users can proceed. Questions during the first experience are hurdles that users must jump over before they can use your program productively. By contrast, choices are optional. Users don't have to respond to them, or can choose to see them only when they want to.
 
 Thus, settings presented in the main flow of a setup wizard are questions, whereas settings outside the main setup flow or in a program options dialog box are choices. Unnecessary questions make your program's first experience cumbersome and long, effectively eliminating the positive anticipation and excitement users have about getting started with your program.
 
@@ -91,7 +96,7 @@ Present settings and tasks to users during the first experiences when you must, 
 
 
 
- 
+ 
 
 **If you do only one thing...**
 
@@ -179,9 +184,9 @@ Windows asks users for the computer name and choice of background during setup b
 -   **Don't use feature advertisement notifications in the first experience.** Instead of using a [feature advertisement notification](mess-notif.md#usage-patterns), design the feature to be easier to discover in contexts where it is needed, or don't do anything special and let users discover the feature on their own.
 -   **Don't use any notifications during the initial Windows experience.** To improve its first experience, Windows 7 suppresses all notifications displayed during the first few hours of usage. Design your program assuming users won't see any such notifications.
 
- 
+ 
 
- 
+ 
 
 
 

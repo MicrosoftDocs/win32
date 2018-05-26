@@ -1,30 +1,35 @@
 ---
-Description: 'The sample application described in this topic demonstrates some of the NLS &\#0034;locale name&\#0034; functions. Your applications should use locale names instead of locale identifiers when possible.'
-ms.assetid: '0502dba0-a26f-4238-b68e-bb41ef17ff08'
-title: 'NLS: Name-based APIs Sample'
+Description: The sample application described in this topic demonstrates some of the NLS &\#0034;locale name&\#0034; functions. Your applications should use locale names instead of locale identifiers when possible.
+ms.assetid: 0502dba0-a26f-4238-b68e-bb41ef17ff08
+title: NLS Name-based APIs Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NLS: Name-based APIs Sample
 
 The sample application described in this topic demonstrates some of the NLS ["locale name" functions](calling-the--locale-name--functions.md). Your applications should use [locale names](locale-names.md) instead of [locale identifiers](locale-identifiers.md) when possible.
 
-The sample application uses [**EnumSystemLocalesEx**](enumsystemlocalesex.md) to enumerate all locales on the operating system, including [supplemental locales](custom-locales.md).
+The sample application uses [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master) to enumerate all locales on the operating system, including [supplemental locales](custom-locales.md).
 
-The enumeration callback function supported by the application can take one or more locale names as parameters. [**EnumSystemLocalesEx**](enumsystemlocalesex.md) passes these names to the callback function in the optional *lparam* value. If the user enters the locales on the command line, the callback function only displays the specified locales instead of displaying all locales.
+The enumeration callback function supported by the application can take one or more locale names as parameters. [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master) passes these names to the callback function in the optional *lparam* value. If the user enters the locales on the command line, the callback function only displays the specified locales instead of displaying all locales.
 
 For each displayed locale, the callback function reports whether it is the system locale, prints the current date using the default formats of the locale, and displays all data for the locale in each [locale information constant](locale-information-constants.md) introduced in Windows Vista, for example, [LOCALE\_SSCRIPTS](locale-sscripts.md).
 
-The sample application parses any input locales to see if they are valid by using [**IsValidLocaleName**](isvalidlocalename.md).
+The sample application parses any input locales to see if they are valid by using [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master).
 
 This sample demonstrates the following functions:
 
--   [CompareStringEx](comparestringex.md)
--   [**EnumSystemLocalesEx**](enumsystemlocalesex.md)
--   [**GetDateFormatEx**](getdateformatex.md)
--   [**GetLocaleInfoEx**](getlocaleinfoex.md)
--   [**GetSystemDefaultLocaleName**](getsystemdefaultlocalename.md)
--   [**IsValidLocaleName**](isvalidlocalename.md)
--   [**LocaleNameToLCID**](localenametolcid.md)
+-   [CompareStringEx](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master)
+-   [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master)
+-   [**GetDateFormatEx**](/windows/win32/datetimeapi/nf-datetimeapi-getdateformatex?branch=master)
+-   [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master)
+-   [**GetSystemDefaultLocaleName**](/windows/win32/Winnls/nf-winnls-getsystemdefaultlocalename?branch=master)
+-   [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master)
+-   [**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master)
 
 
 ```C++
@@ -234,7 +239,7 @@ Date: Wednesday, February 03, 2010
   LOCALE_SSCRIPTS has value Latn;
 Locale fr-FR (French)
 LCID for fr-FR is 40c
-Date: mercredi 3 f�vrier 2010
+Date: mercredi 3 f vrier 2010
   LOCALE_SNAME has value fr-FR
   LOCALE_SDURATION has value HH:mm:ss
   LOCALE_SKEYBOARDSTOINSTALL has value 040c:0000040c;0409:00000409
@@ -247,13 +252,13 @@ Date: mercredi 3 f�vrier 2010
   LOCALE_SSHORTESTDAYNAME7 has value di
   LOCALE_SISO639LANGNAME2 has value fra
   LOCALE_SISO3166CTRYNAME2 has value FRA
-  LOCALE_SNAN has value Non Num�rique
+  LOCALE_SNAN has value Non Num rique
   LOCALE_SPOSINFINITY has value +Infini
   LOCALE_SNEGINFINITY has value -Infini
   LOCALE_SSCRIPTS has value Latn;
 Locale es-ES (Spanish)
 LCID for es-ES is c0a
-Date: mi�rcoles, 03 de febrero de 2010
+Date: mi rcoles, 03 de febrero de 2010
   LOCALE_SNAME has value es-ES
   LOCALE_SDURATION has value H:mm:ss
   LOCALE_SKEYBOARDSTOINSTALL has value 0c0a:0000040a;0409:00000409
@@ -262,7 +267,7 @@ Date: mi�rcoles, 03 de febrero de 2010
   LOCALE_SSHORTESTDAYNAME3 has value mi
   LOCALE_SSHORTESTDAYNAME4 has value ju
   LOCALE_SSHORTESTDAYNAME5 has value vi
-  LOCALE_SSHORTESTDAYNAME6 has value s�
+  LOCALE_SSHORTESTDAYNAME6 has value s 
   LOCALE_SSHORTESTDAYNAME7 has value do
   LOCALE_SISO639LANGNAME2 has value spa
   LOCALE_SISO3166CTRYNAME2 has value ESP

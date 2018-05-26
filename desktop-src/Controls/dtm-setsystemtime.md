@@ -1,8 +1,9 @@
 ---
 title: DTM\_SETSYSTEMTIME message
 description: Sets the time in a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_SetSystemtime macro.
-ms.assetid: 'aab023ac-22ef-485b-be2f-2aa76dfcf57f'
-keywords: ["DTM_SETSYSTEMTIME message Windows Controls"]
+ms.assetid: aab023ac-22ef-485b-be2f-2aa76dfcf57f
+keywords:
+- DTM_SETSYSTEMTIME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_SETSYSTEMTIME message
 
-Sets the time in a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetSystemtime**](datetime-setsystemtime.md) macro.
+Sets the time in a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetSystemtime**](/windows/win32/Commctrl/nf-commctrl-datetime_setsystemtime?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ A value specifying the action that should be performed. This value must be set t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,15 +62,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

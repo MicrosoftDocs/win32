@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes the named property for the specified print job on the specified printer.'
-ms.assetid: '14F8C0A2-0D19-446E-8C2B-530A3AEDA879'
+---
+Description: Deletes the named property for the specified print job on the specified printer.
+ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 title: DeleteJobNamedProperty function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteJobNamedProperty function

@@ -1,7 +1,12 @@
 ---
 Description: Writing DirectShow Filters
-ms.assetid: 'ffbc92b2-4f45-439b-b140-49a66fc4d914'
+ms.assetid: ffbc92b2-4f45-439b-b140-49a66fc4d914
 title: Writing DirectShow Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing DirectShow Filters

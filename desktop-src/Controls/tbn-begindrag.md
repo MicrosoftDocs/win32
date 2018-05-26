@@ -1,8 +1,9 @@
 ---
 title: TBN\_BEGINDRAG notification code
-description: Notifies a toolbar's parent window that the user has begun dragging a button in a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '244406e5-e13d-4c80-81fa-81b018b29ec1'
-keywords: ["TBN_BEGINDRAG notification code Windows Controls"]
+description: Notifies a toolbars parent window that the user has begun dragging a button in a toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 244406e5-e13d-4c80-81fa-81b018b29ec1
+keywords:
+- TBN_BEGINDRAG notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_BEGINDRAG notification code
@@ -33,7 +39,7 @@ TBN_BEGINDRAG
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](nmtoolbar.md) structure. The **iItem** member contains the command identifier of the button being dragged.
+Pointer to an [**NMTOOLBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmtoolbara?branch=master) structure. The **iItem** member contains the command identifier of the button being dragged.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

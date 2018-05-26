@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a method to disable specific power management capabilities on the adapter.'
-ms.assetid: '525c5657-ebf4-4807-bd55-9fbf3f82458a'
-title: 'Disable method of the MSFT\_NetAdapterPowerManagementSettingData class'
+Description: Provides a method to disable specific power management capabilities on the adapter.
+ms.assetid: 525c5657-ebf4-4807-bd55-9fbf3f82458a
+title: Disable method of the MSFT\_NetAdapterPowerManagementSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the MSFT\_NetAdapterPowerManagementSettingData class
@@ -13,15 +18,15 @@ Provides a method to disable specific power management capabilities on the adapt
 
 ```mof
 uint32 Disable(
-  [out] string  cmdletOutput,
-  [in]  boolean ArpOffload,
-  [in]  boolean D0PacketCoalescing,
-  [in]  boolean DeviceSleepOnDisconnect,
-  [in]  boolean NSOffload,
-  [in]  boolean RsnRekeyOffload,
-  [in]  boolean SelectiveSuspend,
-  [in]  boolean WakeOnMagicPacket,
-  [in]  boolean WakeOnPattern
+  [out] string  cmdletOutput,
+  [in]  boolean ArpOffload,
+  [in]  boolean D0PacketCoalescing,
+  [in]  boolean DeviceSleepOnDisconnect,
+  [in]  boolean NSOffload,
+  [in]  boolean RsnRekeyOffload,
+  [in]  boolean SelectiveSuspend,
+  [in]  boolean WakeOnMagicPacket,
+  [in]  boolean WakeOnPattern
 );
 ```
 
@@ -101,7 +106,7 @@ Returns an embedded instance of the [**MSFT\_NetAdapterPowerManagementSettingDat
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -115,9 +120,9 @@ Returns an embedded instance of the [**MSFT\_NetAdapterPowerManagementSettingDat
 [**MSFT\_NetAdapterPowerManagementSettingData**](msft-netadapterpowermanagementsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

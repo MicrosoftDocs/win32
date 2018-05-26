@@ -4,17 +4,22 @@ description: The operating system type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e1ba4309-3cff-496f-8780-20fd66495465'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e1ba4309-3cff-496f-8780-20fd66495465
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-OS-Type attribute AD Schema", "mSMQOSType attribute AD Schema"]
+keywords:
+- MSMQ-OS-Type attribute AD Schema
+- mSMQOSType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-OS-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-OS-Type attribute
@@ -38,12 +43,12 @@ The operating system type.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The operating system type.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

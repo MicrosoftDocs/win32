@@ -4,11 +4,14 @@ description: You, the app developer, will implement this method to prompt the us
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.IConsentCallback.ConsentAsync'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.IConsentCallback.ConsentAsync
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentAsync method", "ConsentAsync method, IConsentCallback class", "IConsentCallback class, ConsentAsync method"]
+keywords:
+- ConsentAsync method
+- ConsentAsync method, IConsentCallback class
+- IConsentCallback class, ConsentAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IConsentCallback.ConsentAsync method
@@ -80,9 +86,9 @@ The asynchronous operation. Upon completion, [IAsyncOperation](https://msdn.micr
 [**IConsent**](iconsent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Player.MediaError event
 description: The MediaError event occurs when the Media object has an error condition.
-ms.assetid: 'b2e0176a-cc52-4f59-8894-440f426a1b6e'
-keywords: ["MediaError event Windows Media Player", "MediaError event Windows Media Player , Player class", "Player class Windows Media Player , MediaError event"]
+ms.assetid: b2e0176a-cc52-4f59-8894-440f426a1b6e
+keywords:
+- MediaError event Windows Media Player
+- MediaError event Windows Media Player , Player class
+- Player class Windows Media Player , MediaError event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaError event
@@ -65,9 +73,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of the Volume Shadow Copy Service (VSS) service.'
-ms.assetid: 'FAE8E8F7-525A-4E5A-91B3-B73343337352'
-title: 'Msvm\_VssComponentSettingData class'
+Description: Represents the configured state of the Volume Shadow Copy Service (VSS) service.
+ms.assetid: FAE8E8F7-525A-4E5A-91B3-B73343337352
+title: Msvm\_VssComponentSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VssComponentSettingData class
@@ -16,30 +21,30 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VssComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "VSS";
-  string  Description = "Microsoft VSS Service Setting Data";
-  string  ElementName = "VSS";
-  uint16  ResourceType = 1;
-  string  OtherResourceType = "Microsoft:Hyper-V:VSS Component";
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource;
-  string  AllocationUnits = "count";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  InstanceID;
+  string  Caption = "VSS";
+  string  Description = "Microsoft VSS Service Setting Data";
+  string  ElementName = "VSS";
+  uint16  ResourceType = 1;
+  string  OtherResourceType = "Microsoft:Hyper-V:VSS Component";
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource;
+  string  AllocationUnits = "count";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  uint16  EnabledState = 2;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  uint16  EnabledState = 2;
 };
 ```
 
@@ -165,7 +170,7 @@ The consumers visibility to the allocated resource. This property is inherited f
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -369,7 +374,7 @@ The type of resource this allocation setting represents. This property is inheri
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -422,8 +427,8 @@ Access to the **Msvm\_VssComponentSettingData** class might be restricted by UAC
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -440,9 +445,9 @@ Access to the **Msvm\_VssComponentSettingData** class might be restricted by UAC
 [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

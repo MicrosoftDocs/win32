@@ -4,11 +4,15 @@ description: A forest is a set of one or more domain trees that do not form a co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b7beb305-0022-477a-85bf-779821202b26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b7beb305-0022-477a-85bf-779821202b26
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["forests Active Directory"]
+keywords:
+- forests Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Forests

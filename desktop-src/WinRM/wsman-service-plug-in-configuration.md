@@ -4,10 +4,13 @@ description: A Windows Remote Management (WinRM) plug-in must be registered in t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd71cd244-3f10-40e3-a756-36cdf41b9cad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: d71cd244-3f10-40e3-a756-36cdf41b9cad
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WinRM Service Plug-in Configuration
@@ -89,7 +92,7 @@ Specifies whether the operations plug-in is 32-bit or 64-bit. If this element is
 <span id="PlugInConfiguration_XmlRenderingType"></span><span id="pluginconfiguration_xmlrenderingtype"></span><span id="PLUGINCONFIGURATION_XMLRENDERINGTYPE"></span>**PlugInConfiguration**/**XmlRenderingType**
 </dt> <dd>
 
-Configures the format in which XML is passed to plug-ins through the [**WSMAN\_DATA**](wsman-data.md) object. The following types are available:
+Configures the format in which XML is passed to plug-ins through the [**WSMAN\_DATA**](/windows/win32/Wsman/ns-wsman-_wsman_data?branch=master) object. The following types are available:
 
 <dl> <dt>
 
@@ -110,7 +113,7 @@ Incoming XML data is contained in a WSMAN\_DATA\_TYPE\_WS\_XML\_READER structure
 <span id="PlugInConfiguration_InitializationXml"></span><span id="pluginconfiguration_initializationxml"></span><span id="PLUGINCONFIGURATION_INITIALIZATIONXML"></span>**PlugInConfiguration**/**InitializationXml**
 </dt> <dd>
 
-This node is optional and allows a plug-in to configure extra XML that will be passed in to the [**WSManPluginStartup**](wsman-plugin-startup.md)method. Most plug-ins will not need this extra information, but if a plug-in needs to be used under more than one scenario that requires different run-time semantics, this XML will give the plug-in the flexibility to do this.
+This node is optional and allows a plug-in to configure extra XML that will be passed in to the [**WSManPluginStartup**](/windows/win32/Wsman/nc-wsman-wsman_plugin_startup?branch=master)method. Most plug-ins will not need this extra information, but if a plug-in needs to be used under more than one scenario that requires different run-time semantics, this XML will give the plug-in the flexibility to do this.
 
 </dd> <dt>
 

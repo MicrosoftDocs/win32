@@ -4,13 +4,16 @@ description: Creates a MSISCSITARGET\_StorageSynchronized relationship between t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '66859569-701a-4da6-ae27-6e522c5825fa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 66859569-701a-4da6-ae27-6e522c5825fa
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AttachReplica method iSCSI Software Target API", "AttachReplica method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class", "MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , AttachReplica method"]
+keywords:
+- AttachReplica method iSCSI Software Target API
+- AttachReplica method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class
+- MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , AttachReplica method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AttachReplica method of the MSISCSITARGET\_StorageConfigurationService class
@@ -32,10 +38,10 @@ This method is inherited from the **CIM\_StorageConfigurationService** class.
 
 ```mof
 uint32 AttachReplica(
-  [out] CIM_ConcreteJob Ref    Job,
-  [in]  CIM_ManagedElement Ref SourceElement,
-  [in]  CIM_ManagedElement Ref TargetElement,
-  [in]  uint16                 CopyType
+  [out] CIM_ConcreteJob Ref    Job,
+  [in]  CIM_ManagedElement Ref SourceElement,
+  [in]  CIM_ManagedElement Ref TargetElement,
+  [in]  uint16                 CopyType
 );
 ```
 
@@ -166,16 +172,16 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–0x0FFF)
+**DMTF Reserved** (7 0x0FFF)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (0x1000)
 </dt> <dt>
 
-**Method Reserved** (0x1001–0x7FFF)
+**Method Reserved** (0x1001 0x7FFF)
 </dt> <dt>
 
-**Vendor Specific** (0x8000–0xFFFF)
+**Vendor Specific** (0x8000 0xFFFF)
 </dt> </dl>
 
 ## Requirements
@@ -185,7 +191,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -199,9 +205,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_StorageConfigurationService**](msiscsitarget-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

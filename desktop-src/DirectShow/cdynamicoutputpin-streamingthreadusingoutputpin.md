@@ -1,7 +1,12 @@
 ---
-Description: 'The StreamingThreadUsingOutputPin method determines whether any thread is performing a streaming operation on the pin.'
-ms.assetid: 'b6432a11-4e8b-4eb4-ad8e-aaff9398641b'
-title: 'CDynamicOutputPin.StreamingThreadUsingOutputPin method'
+Description: The StreamingThreadUsingOutputPin method determines whether any thread is performing a streaming operation on the pin.
+ms.assetid: b6432a11-4e8b-4eb4-ad8e-aaff9398641b
+title: CDynamicOutputPin.StreamingThreadUsingOutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.StreamingThreadUsingOutputPin method
@@ -47,9 +52,9 @@ If any threads have successfully returned from the [**CDynamicOutputPin::StartUs
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

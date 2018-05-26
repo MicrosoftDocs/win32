@@ -1,7 +1,12 @@
 ---
-Description: 'The Edit control is an edit field that is associated with a string or integer value property. Enter the property''s name into the Property column of the Control table.'
-ms.assetid: '1b4fb5d1-49d3-40fb-8557-db16eea880aa'
+Description: The Edit control is an edit field that is associated with a string or integer value property. Enter the propertys name into the Property column of the Control table.
+ms.assetid: 1b4fb5d1-49d3-40fb-8557-db16eea880aa
 title: Edit Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit Control
@@ -35,7 +40,7 @@ You can use the following attributes with this control. To change the value of a
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,9 +52,9 @@ For compatibility with screen readers, when authoring a dialog box with an Edit 
 
 The property associated with the Edit control is only set when the control loses focus. Therefore you must tab from the control or select a different control for the property to be updated.
 
- 
+ 
 
- 
+ 
 
 
 

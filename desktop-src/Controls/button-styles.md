@@ -1,7 +1,7 @@
 ---
 title: Button Styles
 description: Specifies a combination of button styles. If you create a button using the BUTTON class with the CreateWindow or CreateWindowEx function, you can specify any of the button styles listed below.
-ms.assetid: '30254cb5-43cd-407f-8ad6-bd7f9ec3edc7'
+ms.assetid: 30254cb5-43cd-407f-8ad6-bd7f9ec3edc7
 topic_type:
 - apiref
 api_name:
@@ -40,6 +40,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Styles
@@ -101,7 +106,7 @@ The appearance of text or an icon or both on a button control depends on the BS\
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -113,9 +118,9 @@ The appearance of text or an icon or both on a button control depends on the BS\
 
 
 
- 
+ 
 
- 
+ 
 
 
 

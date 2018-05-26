@@ -1,7 +1,12 @@
 ---
 title: Decrypter/Detagger Filter
 description: Decrypter/Detagger Filter
-ms.assetid: 'a16eac70-49d7-4ff3-baaf-9f29c3efef0f'
+ms.assetid: a16eac70-49d7-4ff3-baaf-9f29c3efef0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decrypter/Detagger Filter
@@ -16,7 +21,7 @@ This filter reads ratings information from the encrypted samples and passes them
 
 |                                            |                                                                                                                                                              |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IDTFilter**](idtfilter.md), [**IDTFilterConfig**](idtfilterconfig.md), [**IBroadcastEvent**](ibroadcastevent.md) |
+| Filter interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IDTFilter**](/windows/previous-versions/EncDec/nn-encdec-idtfilter?branch=master), [**IDTFilterConfig**](/windows/previous-versions/EncDec/nn-encdec-idtfilterconfig?branch=master), [**IBroadcastEvent**](/windows/previous-versions/tuner/nn-tuner-ibroadcastevent?branch=master) |
 | Input pin media types                      | MEDIASUBTYPE\_ETDTFilter\_Tagged                                                                                                                             |
 | Input pin interfaces                       | [**IKsPropertySet**](https://msdn.microsoft.com/library/windows/desktop/dd390144), [**IMemInputPin**](https://msdn.microsoft.com/library/windows/desktop/dd407073), [**IPin**](https://msdn.microsoft.com/library/windows/desktop/dd390397), [**IQualityControl**](https://msdn.microsoft.com/library/windows/desktop/dd376912)     |
 | Output pin media types                     | See Remarks                                                                                                                                                  |

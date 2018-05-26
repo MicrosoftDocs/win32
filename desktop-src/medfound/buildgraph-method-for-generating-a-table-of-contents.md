@@ -1,7 +1,12 @@
 ---
 Description: BuildGraph Function for Generating a Table of Contents
-ms.assetid: 'f70740ef-4c58-4944-9be6-dd056e12ad93'
+ms.assetid: f70740ef-4c58-4944-9be6-dd056e12ad93
 title: BuildGraph Function for Generating a Table of Contents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BuildGraph Function for Generating a Table of Contents

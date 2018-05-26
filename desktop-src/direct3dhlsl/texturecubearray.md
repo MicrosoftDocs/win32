@@ -1,14 +1,21 @@
 ---
 title: TextureCubeArray object
 description: TextureCubeArray type (as it exists in Shader Model 4) plus resource variables. This texture object supports these methods in addition to the methods in Shader Model 4.
-ms.assetid: '62AAF0F9-D552-4FFA-B681-749D6DC205BD'
-keywords: ["TextureCubeArray object HLSL", "TextureCubeArray object HLSL , described"]
+ms.assetid: 62AAF0F9-D552-4FFA-B681-749D6DC205BD
+keywords:
+- TextureCubeArray object HLSL
+- TextureCubeArray object HLSL , described
 topic_type:
 - apiref
 api_name:
 - TextureCubeArray
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCubeArray object
@@ -44,7 +51,7 @@ The **TextureCubeArray** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,7 +67,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders:
 
@@ -72,7 +79,7 @@ This object is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +88,9 @@ This object is supported for the following types of shaders:
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

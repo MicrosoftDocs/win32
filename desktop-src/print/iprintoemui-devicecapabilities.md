@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::DeviceCapabilities method enables a user interface plug-in to specify customized device capabilities.'
-ms.assetid: 'a3d3e986-41ab-489a-a930-b10e9989553f'
-title: 'IPrintOemUI::DeviceCapabilities method'
+---
+Description: The IPrintOemUIDeviceCapabilities method enables a user interface plug-in to specify customized device capabilities.
+ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
+title: IPrintOemUIDeviceCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::DeviceCapabilities method

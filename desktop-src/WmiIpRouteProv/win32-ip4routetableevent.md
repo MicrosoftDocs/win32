@@ -4,11 +4,13 @@ description: The Win32\_IP4RouteTableEvent \ 32; WMI class represents IP route c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a700467b-4535-4197-8aed-bae7e84e7962'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a700467b-4535-4197-8aed-bae7e84e7962
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_IP4RouteTableEvent class", "Win32_IP4RouteTableEvent class, described"]
+keywords:
+- Win32_IP4RouteTableEvent class
+- Win32_IP4RouteTableEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Wmipiprt.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_IP4RouteTableEvent class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{1C385E29-A5B4-40F0-96CF-929FC00958B}"), AMENDMENT]
 class Win32_IP4RouteTableEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -90,8 +95,8 @@ The **Win32\_IP4RouteTableEvent** class is derived from the WMI [**\_\_Extrinsic
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipiprt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipiprt.dll</dt> </dl> |
@@ -108,9 +113,9 @@ The **Win32\_IP4RouteTableEvent** class is derived from the WMI [**\_\_Extrinsic
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

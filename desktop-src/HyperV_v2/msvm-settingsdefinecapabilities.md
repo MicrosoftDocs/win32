@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a link between the capabilities instance and the minimum, maximum, incremental, and default settings for a resource.'
-ms.assetid: '3B09ED8A-D4D0-41E2-B807-96AD8E990773'
-title: 'Msvm\_SettingsDefineCapabilities class'
+Description: Provides a link between the capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
+ms.assetid: 3B09ED8A-D4D0-41E2-B807-96AD8E990773
+title: Msvm\_SettingsDefineCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SettingsDefineCapabilities class
@@ -16,12 +21,12 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SettingsDefineCapabilities : CIM_SettingsDefineCapabilities
 {
-  uint16               SupportStatement;
+  uint16               SupportStatement;
   CIM_Capabilities REF GroupComponent;
-  CIM_SettingData  REF PartComponent;
-  uint16               PropertyPolicy = 0;
-  uint16               ValueRole = 3;
-  uint16               ValueRange = 0;
+  CIM_SettingData  REF PartComponent;
+  uint16               PropertyPolicy = 0;
+  uint16               ValueRole = 3;
+  uint16               ValueRange = 0;
 };
 ```
 
@@ -88,9 +93,9 @@ Access type: Read-only
 Identifies the support statement.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 <dt>
 
@@ -109,9 +114,9 @@ Identifies the support statement.
 </dt> <dd>
 
 > [!Note]  
-> Was **NonProduction** in Windows 10, version 1703.
+> Was **NonProduction** in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -173,8 +178,8 @@ Access to the **Msvm\_SettingsDefineCapabilities** class might be restricted by 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -197,9 +202,9 @@ Access to the **Msvm\_SettingsDefineCapabilities** class might be restricted by 
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

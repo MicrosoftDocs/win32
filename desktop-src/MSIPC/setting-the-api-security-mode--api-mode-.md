@@ -4,10 +4,13 @@ description: You can choose which security mode your File API application runs i
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '3B088F14-81C5-4C78-8DED-F5F153353EE0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 3B088F14-81C5-4C78-8DED-F5F153353EE0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How-to: set the API security mode

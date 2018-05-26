@@ -4,13 +4,16 @@ description: Create (or start a job to create) a new point-in-time representatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '036d6ab2-c834-491f-a9eb-4d9c9d96118e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 036d6ab2-c834-491f-a9eb-4d9c9d96118e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateSynchronizationAspect method iSCSI Software Target API", "CreateSynchronizationAspect method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , CreateSynchronizationAspect method"]
+keywords:
+- CreateSynchronizationAspect method iSCSI Software Target API
+- CreateSynchronizationAspect method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , CreateSynchronizationAspect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateSynchronizationAspect method of the CIM\_ReplicationService class
@@ -30,16 +36,16 @@ Create (or start a job to create) a new point-in-time representation of a source
 
 ```mof
 uint32 CreateSynchronizationAspect(
-  [in]  string                      Name,
-  [in]  uint16                      SyncType,
-  [in]  uint16                      Mode,
-  [in]  CIM_ReplicationGroup    REF SourceGroup,
-  [in]  CIM_LogicalElement      REF SourceElement,
-  [in]  CIM_ServiceAccessPoint  REF SourceAccessPoint,
-  [in]  uint16                      Consistency,
-  [in]  string                      ReplicationSettingData,
-  [out] CIM_ConcreteJob         REF Job,
-  [out] CIM_SettingsDefineState REF SettingsState
+  [in]  string                      Name,
+  [in]  uint16                      SyncType,
+  [in]  uint16                      Mode,
+  [in]  CIM_ReplicationGroup    REF SourceGroup,
+  [in]  CIM_LogicalElement      REF SourceElement,
+  [in]  CIM_ServiceAccessPoint  REF SourceAccessPoint,
+  [in]  uint16                      Consistency,
+  [in]  string                      ReplicationSettingData,
+  [out] CIM_ConcreteJob         REF Job,
+  [out] CIM_SettingsDefineState REF SettingsState
 );
 ```
 
@@ -68,7 +74,7 @@ SyncType describes the type of copy that will be made.
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -96,14 +102,14 @@ SyncType describes the type of copy that will be made.
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Mode* \[in\]
 </dt> <dd>
@@ -131,14 +137,14 @@ Mode describes whether the target elements will be updated synchronously or asyn
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *SourceGroup* \[in\]
 </dt> <dd>
@@ -187,14 +193,14 @@ Overrides the default group consistency.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *ReplicationSettingData* \[in\]
 </dt> <dd>
@@ -242,16 +248,16 @@ Reference to the created association between the source element or group and an 
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -261,7 +267,7 @@ Reference to the created association between the source element or group and an 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -275,9 +281,9 @@ Reference to the created association between the source element or group and an 
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

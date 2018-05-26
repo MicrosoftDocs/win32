@@ -1,14 +1,20 @@
 ---
 title: event.offsetY
 description: The offsetY attribute retrieves the y-coordinate of the mouse pointer with respect to the element firing the event.
-ms.assetid: 'c8970d22-3498-4bb3-9212-fe2e0cc4c8b5'
-keywords: ["event.offsetY Windows Media Player"]
+ms.assetid: c8970d22-3498-4bb3-9212-fe2e0cc4c8b5
+keywords:
+- event.offsetY Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.offsetY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.offsetY
@@ -43,9 +49,9 @@ This attribute is a read-only **Number** (**long**).
 [**event.offsetX**](event-offsetx.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

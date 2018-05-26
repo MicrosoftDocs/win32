@@ -1,8 +1,18 @@
 ---
 title: IRIS GL and OpenGL Differences
 description: IRIS GL and OpenGL Differences
-ms.assetid: '1682bcbb-3bfb-4ea3-9ba9-4f4654238169'
-keywords: ["OpenGL,IRIS GL differences", "IRIS GL porting,OpenGL differences", "porting from IRIS GL,OpenGL differences", "porting to OpenGL from IRIS GL,IRIS GL differences", "OpenGL porting from IRIS GL,IRIS GL differences"]
+ms.assetid: 1682bcbb-3bfb-4ea3-9ba9-4f4654238169
+keywords:
+- OpenGL,IRIS GL differences
+- IRIS GL porting,OpenGL differences
+- porting from IRIS GL,OpenGL differences
+- porting to OpenGL from IRIS GL,IRIS GL differences
+- OpenGL porting from IRIS GL,IRIS GL differences
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRIS GL and OpenGL Differences

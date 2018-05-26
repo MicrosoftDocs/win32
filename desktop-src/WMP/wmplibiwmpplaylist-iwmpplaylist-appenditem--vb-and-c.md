@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylist appendItem method
 description: The appendItem method adds a media item to the end of a playlist.
-ms.assetid: 'd659298b-ec4e-4771-8e9b-8cfd7b3e0eb2'
-keywords: ["appendItem method Windows Media Player", "appendItem method Windows Media Player , IWMPPlaylist interface", "IWMPPlaylist interface Windows Media Player , appendItem method"]
+ms.assetid: d659298b-ec4e-4771-8e9b-8cfd7b3e0eb2
+keywords:
+- appendItem method Windows Media Player
+- appendItem method Windows Media Player , IWMPPlaylist interface
+- IWMPPlaylist interface Windows Media Player , appendItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist::appendItem method
@@ -133,9 +141,9 @@ plThreeList.appendItem(currMedia)</code></pre></td>
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

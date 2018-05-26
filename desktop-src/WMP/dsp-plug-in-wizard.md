@@ -1,8 +1,19 @@
 ---
 title: DSP Plug-in Wizard
 description: DSP Plug-in Wizard
-ms.assetid: '3d1ae5ef-12c4-4db3-815a-2adc73353f20'
-keywords: ["Windows Media Player plug-ins,plug-in wizard", "plug-ins,plug-in wizard", "digital signal processing plug-ins,plug-in wizard", "DSP plug-ins,plug-in wizard", "plug-in wizard", "Visual Studio,DSP plug-in wizard"]
+ms.assetid: 3d1ae5ef-12c4-4db3-815a-2adc73353f20
+keywords:
+- Windows Media Player plug-ins,plug-in wizard
+- plug-ins,plug-in wizard
+- digital signal processing plug-ins,plug-in wizard
+- DSP plug-ins,plug-in wizard
+- plug-in wizard
+- Visual Studio,DSP plug-in wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSP Plug-in Wizard

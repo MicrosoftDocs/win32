@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback for the user to save a .x file template.'
-ms.assetid: 'c2e29495-5eeb-42b8-826e-1a60c1c6bda2'
-title: 'ID3DXSaveUserData::SaveTemplates method'
+---
+Description: A callback for the user to save a .x file template.
+ms.assetid: c2e29495-5eeb-42b8-826e-1a60c1c6bda2
+title: ID3DXSaveUserDataSaveTemplates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSaveUserData::SaveTemplates method

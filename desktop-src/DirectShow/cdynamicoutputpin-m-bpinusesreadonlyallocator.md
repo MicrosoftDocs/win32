@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether samples from the pin''s allocator are read-only. If the value is TRUE, the sample are read-only. The default value is FALSE.'
-ms.assetid: 'c2c6247c-4b37-416c-99a2-847d35f48358'
-title: 'CDynamicOutputPin::m\_bPinUsesReadOnlyAllocator member'
+Description: Flag that specifies whether samples from the pins allocator are read-only. If the value is TRUE, the sample are read-only. The default value is FALSE.
+ms.assetid: c2c6247c-4b37-416c-99a2-847d35f48358
+title: CDynamicOutputPinm\_bPinUsesReadOnlyAllocator member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin::m\_bPinUsesReadOnlyAllocator member
@@ -35,9 +40,9 @@ BOOL m_bPinUsesReadOnlyAllocator;
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new virtual machine instance.'
-ms.assetid: '15BC967D-F392-45A6-ACF6-5C2F2334AAE6'
-title: 'DefineSystem method of the Msvm\_VirtualSystemManagementService class'
+Description: Creates a new virtual machine instance.
+ms.assetid: 15BC967D-F392-45A6-ACF6-5C2F2334AAE6
+title: DefineSystem method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefineSystem method of the Msvm\_VirtualSystemManagementService class
@@ -13,11 +18,11 @@ Creates a new virtual machine instance. Properties that are not specified will b
 
 ```mof
 uint32 DefineSystem(
-  [in]  string                           SystemSettings,
-  [in]  string                           ResourceSettings[],
-  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
-  [out] CIM_ComputerSystem           REF ResultingSystem,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  string                           SystemSettings,
+  [in]  string                           ResourceSettings[],
+  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
+  [out] CIM_ComputerSystem           REF ResultingSystem,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -117,8 +122,8 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -132,9 +137,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

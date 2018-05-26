@@ -1,7 +1,12 @@
 ---
-Description: 'Only the administrator of the computer or users in the Performance Logs User Group can log and view counter data.'
-ms.assetid: '85c5f38f-d8d7-4203-adc0-4869d6078351'
+Description: Only the administrator of the computer or users in the Performance Logs User Group can log and view counter data.
+ms.assetid: 85c5f38f-d8d7-4203-adc0-4869d6078351
 title: Limited User Access Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Limited User Access Support

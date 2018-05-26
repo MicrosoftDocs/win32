@@ -1,7 +1,12 @@
 ---
 title: Enumerated Types
 description: Enumerated Types
-ms.assetid: 'ea915ff5-5bbb-48e5-9a8a-2dd188047538'
+ms.assetid: ea915ff5-5bbb-48e5-9a8a-2dd188047538
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerated Types
@@ -13,11 +18,11 @@ ms.assetid: 'ea915ff5-5bbb-48e5-9a8a-2dd188047538'
 
 Indexing Service defines several enumerated types for use with interfaces and functions. The enumerations include:
 
--   [**CHUNK\_BREAKTYPE**](chunk-breaktype.md)
--   [**CHUNKSTATE**](chunkstate.md)
--   [**IFILTER\_FLAGS**](ifilter-flags.md)
--   [**IFILTER\_INIT**](ifilter-init-enum.md)
--   [**WORDREP\_BREAK\_TYPE**](wordrep-break-type.md)
+-   [**CHUNK\_BREAKTYPE**](/windows/win32/Filter/ne-filter-tagchunk_breaktype?branch=master)
+-   [**CHUNKSTATE**](/windows/win32/Filter/ne-filter-tagchunkstate?branch=master)
+-   [**IFILTER\_FLAGS**](/windows/win32/Filter/ne-filter-tagifilter_flags?branch=master)
+-   [**IFILTER\_INIT**](/windows/win32/Filter/ne-filter-tagifilter_init?branch=master)
+-   [**WORDREP\_BREAK\_TYPE**](/windows/win32/Indexsrv/ne-indexsrv-tagwordrep_break_type?branch=master)
 
  
 

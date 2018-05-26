@@ -1,7 +1,12 @@
 ---
 title: Fog Register
 description: This vertex shader output register contains a per-vertex fog color.
-ms.assetid: 'b2b06aa9-ad75-48df-857d-fd8719176713'
+ms.assetid: b2b06aa9-ad75-48df-857d-fd8719176713
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fog Register

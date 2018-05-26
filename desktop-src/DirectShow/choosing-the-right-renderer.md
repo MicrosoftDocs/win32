@@ -1,7 +1,12 @@
 ---
 Description: Choosing the Right Video Renderer
-ms.assetid: 'c57c4c68-ea1c-4198-94b4-e9b6e53bb625'
+ms.assetid: c57c4c68-ea1c-4198-94b4-e9b6e53bb625
 title: Choosing the Right Video Renderer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing the Right Video Renderer
@@ -28,7 +33,7 @@ Which renderer to use depends largely on which versions of Windows you need to s
 -   Prior to Windows Vista, use the VMR-9 if the hardware supports it and video port functionality is not required. Otherwise, use the VMR-7.
 -   On older systems, you might need to use the Overlay Mixer (for video port or hardware overlay support) or the legacy Video Renderer filter.
 
-The [**IGraphBuilder::Render**](igraphbuilder-render.md) and [**RenderFile**](igraphbuilder-renderfile.md) methods use the VMR-7 by default. If the hardware does not support the VMR-7, these methods fall back to the legacy Video Renderer filter. The EVR and VMR-9 are never the default renderers.
+The [**IGraphBuilder::Render**](/windows/win32/Strmif/nf-strmif-igraphbuilder-render?branch=master) and [**RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) methods use the VMR-7 by default. If the hardware does not support the VMR-7, these methods fall back to the legacy Video Renderer filter. The EVR and VMR-9 are never the default renderers.
 
 ## Related topics
 

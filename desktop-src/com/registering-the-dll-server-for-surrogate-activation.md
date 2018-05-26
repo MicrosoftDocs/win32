@@ -1,7 +1,12 @@
 ---
 title: Registering the DLL Server for Surrogate Activation
 description: Registering the DLL Server for Surrogate Activation
-ms.assetid: '7133daa4-43b2-402e-a8ac-b357bea745d9'
+ms.assetid: 7133daa4-43b2-402e-a8ac-b357bea745d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering the DLL Server for Surrogate Activation
@@ -9,7 +14,7 @@ ms.assetid: '7133daa4-43b2-402e-a8ac-b357bea745d9'
 A DLL server will be loaded into a surrogate process under the following conditions:
 
 -   There must be an AppID value specified under the CLSID key in the registry, and a corresponding [AppID](appid-key.md) key.
--   In an activation call, the [**CLSCTX\_LOCAL\_SERVER**](clsctx.md) bit is set and the CLSID key does not specify [LocalServer32](localserver32.md), [LocalServer](localserver.md), or [LocalService](localservice.md). If other **CLSCTX** bits are set, the [**processing algorithm**](clsctx.md)for the in-process, local, or remote execution flags is followed.
+-   In an activation call, the [**CLSCTX\_LOCAL\_SERVER**](/windows/win32/WTypes/ne-wtypesbase-tagclsctx?branch=master) bit is set and the CLSID key does not specify [LocalServer32](localserver32.md), [LocalServer](localserver.md), or [LocalService](localservice.md). If other **CLSCTX** bits are set, the [**processing algorithm**](/windows/win32/WTypes/ne-wtypesbase-tagclsctx?branch=master)for the in-process, local, or remote execution flags is followed.
 -   The CLSID key contains the [InprocServer32](inprocserver32.md) subkey.
 -   The proxy/stub DLL specified in the **InprocServer32** key exists.
 -   The [DllSurrogate](dllsurrogate.md) value exists under the **AppID** key.
@@ -18,11 +23,11 @@ If there is a **LocalServer**, **LocalServer32**, or **LocalService**, indicatin
 
 The **DllSurrogate** named-value must be specified for surrogate activation to occur. Activation refers to calls to any of the following activation functions:
 
--   [**CoGetClassObject**](cogetclassobject.md)
--   [**CoCreateInstanceEx**](cocreateinstanceex.md)
--   [**CoGetInstanceFromFile**](cogetinstancefromfile.md)
--   [**CoGetInstanceFromIStorage**](cogetinstancefromistorage.md)
--   [**IMoniker::BindToObject**](imoniker-bindtoobject.md)
+-   [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master)
+-   [**CoCreateInstanceEx**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstanceex?branch=master)
+-   [**CoGetInstanceFromFile**](/windows/win32/Objbase/nf-objbase-cogetinstancefromfile?branch=master)
+-   [**CoGetInstanceFromIStorage**](/windows/win32/Objbase/nf-objbase-cogetinstancefromistorage?branch=master)
+-   [**IMoniker::BindToObject**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtoobject?branch=master)
 
 To launch an instance of the system-supplied surrogate, set the value of **DllSurrogate** either to an empty string or to **NULL**. To specify the launch of a custom surrogate, set the value to the path of the surrogate.
 

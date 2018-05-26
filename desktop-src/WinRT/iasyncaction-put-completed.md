@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the method that is called when the asynchronous action completes.'
-ms.assetid: '632800E4-D02B-4D45-8A9B-B373AC938558'
-title: 'IAsyncAction::put\_Completed method'
+---
+Description: Sets the method that is called when the asynchronous action completes.
+ms.assetid: 632800E4-D02B-4D45-8A9B-B373AC938558
+title: IAsyncActionput\_Completed method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAsyncAction::put\_Completed method

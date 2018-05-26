@@ -1,8 +1,9 @@
 ---
 title: LVN\_ITEMACTIVATE notification code
 description: Sent by a list-view control when the user activates an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '475c8e6a-8e2e-4182-8ccc-a4bc6fc891a8'
-keywords: ["LVN_ITEMACTIVATE notification code Windows Controls"]
+ms.assetid: 475c8e6a-8e2e-4182-8ccc-a4bc6fc891a8
+keywords:
+- LVN_ITEMACTIVATE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_ITEMACTIVATE notification code
@@ -37,9 +43,9 @@ LVN_ITEMACTIVATE
 *lParam* 
 </dt> <dd>
 
-[Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](nmitemactivate.md) structure that contains information about this notification code.
+[Version 4.71](common-control-versions.md). Pointer to an [**NMITEMACTIVATE**](/windows/win32/Commctrl/ns-commctrl-tagnmitemactivate?branch=master) structure that contains information about this notification code.
 
-[Version 4.70](common-control-versions.md) and earlier. Pointer to an [**NMHDR**](nmhdr.md) structure that contains information about this notification code.
+[Version 4.70](common-control-versions.md) and earlier. Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains information about this notification code.
 
 </dd> </dl>
 
@@ -57,15 +63,15 @@ To obtain the items being activated, the receiving application should use the [*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

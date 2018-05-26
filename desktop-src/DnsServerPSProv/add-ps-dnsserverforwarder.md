@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerForwarder class
 description: Add specified DNS server forwarders to the end of the list.
 audience: developer
-ms.assetid: 'd584e8f3-8eb2-4376-a45f-6b8e747acccb'
-ms.prod: 'windows-server-dev'
+ms.assetid: d584e8f3-8eb2-4376-a45f-6b8e747acccb
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerForwarder class", "PS_DnsServerForwarder class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerForwarder class
+- PS_DnsServerForwarder class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerForwarder class
@@ -28,10 +34,10 @@ Add specified DNS server forwarders to the end of the list.
 
 ```mof
 uint32 Add(
-  [in]  string             IPAddress[],
-  [in]  string             ComputerName,
-  [in]  boolean            PassThru,
-  [out] DnsServerForwarder cmdletOutput
+  [in]  string             IPAddress[],
+  [in]  string             ComputerName,
+  [in]  boolean            PassThru,
+  [out] DnsServerForwarder cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ Receives and embedded instance of the [**DnsServerForwarder**](dnsserverforwarde
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Receives and embedded instance of the [**DnsServerForwarder**](dnsserverforwarde
 [**PS\_DnsServerForwarder**](ps-dnsserverforwarder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

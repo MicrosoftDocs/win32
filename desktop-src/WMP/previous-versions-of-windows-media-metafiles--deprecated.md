@@ -1,8 +1,18 @@
 ---
 title: Previous Versions of Windows Media Metafiles (deprecated)
 description: Previous Versions of Windows Media Metafiles (deprecated)
-ms.assetid: 'f93b9735-6aa3-48ed-ae80-0485acea3167'
-keywords: ["Windows Media metafiles,versions", "metafiles,versions", "Windows Media metafiles,previous versions", "metafiles,previous versions", "versions of Windows Media metafiles"]
+ms.assetid: f93b9735-6aa3-48ed-ae80-0485acea3167
+keywords:
+- Windows Media metafiles,versions
+- metafiles,versions
+- Windows Media metafiles,previous versions
+- metafiles,previous versions
+- versions of Windows Media metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previous Versions of Windows Media Metafiles (deprecated)

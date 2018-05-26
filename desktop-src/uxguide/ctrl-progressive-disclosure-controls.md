@@ -1,7 +1,12 @@
 ---
 title: Progressive Disclosure Controls
 description: With a progressive disclosure control, users can show or hide additional information including data, options, or commands.
-ms.assetid: '0ca00c49-f897-49a6-926a-cc65f3155c6c'
+ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progressive Disclosure Controls
@@ -15,7 +20,7 @@ Examples of progressive disclosure controls.
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md), [menus](cmd-menus.md), and [toolbars](cmd-toolbars.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -97,7 +102,7 @@ Progressive disclosure controls have a fairly weak [affordances](glossary.md#glo
 
 
 
- 
+ 
 
 **If you do only one thing...**
 
@@ -123,7 +128,7 @@ Chevrons are used in the following ways:
 
 
 
- 
+ 
 
 ### Arrows
 
@@ -142,7 +147,7 @@ Arrows are used in the following ways:
 
 
 
- 
+ 
 
 ### Plus and minus controls
 
@@ -161,7 +166,7 @@ Plus and minus controls are used in the following ways:
 
 
 
- 
+ 
 
 ### Rotating triangles
 
@@ -180,7 +185,7 @@ Rotating triangles are used in the following ways:
 
 
 
- 
+ 
 
 ### Preview arrows
 
@@ -354,9 +359,9 @@ Examples:
 -   (For an arrow) To see all the options, click the arrow next to the **Search** box.
 -   (For plus/minus) To view your picture, click **Pictures**.
 
- 
+ 
 
- 
+ 
 
 
 

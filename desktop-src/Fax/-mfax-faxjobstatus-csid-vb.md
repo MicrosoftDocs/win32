@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job.'
-ms.assetid: '33fe8ba9-9836-4951-a934-e451b83a61ab'
-title: 'FaxJobStatus.CSID property'
+---
+Description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job.
+ms.assetid: 33fe8ba9-9836-4951-a934-e451b83a61ab
+title: FaxJobStatus.CSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.CSID property
@@ -46,7 +51,7 @@ A **String** that receives the CSID for the fax job.
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

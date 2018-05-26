@@ -1,7 +1,12 @@
 ---
 title: Capture and Audio Drivers
 description: Capture and Audio Drivers
-ms.assetid: 'b4e18499-6d2e-49be-bef6-83b9a109519b'
+ms.assetid: b4e18499-6d2e-49be-bef6-83b9a109519b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture and Audio Drivers

@@ -4,11 +4,12 @@ description: Called when an attendee connects to the session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cf3c41c9-d572-433a-ba80-960d38296749'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cf3c41c9-d572-433a-ba80-960d38296749
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnAttendeeConnected event RDP"]
+keywords:
+- OnAttendeeConnected event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnAttendeeConnected event
@@ -28,7 +32,7 @@ Called when an attendee connects to the session.
 
 ```C++
 void OnAttendeeConnected(
-  [in] IDispatch *pAttendee
+  [in] IDispatch *pAttendee
 );
 ```
 
@@ -41,7 +45,7 @@ void OnAttendeeConnected(
 *pAttendee* \[in\]
 </dt> <dd>
 
-The attendee that connected to the session. Query the **IDispatch** interface for the [**IRDPSRAPIAttendee**](irdpsrapiattendee.md) interface that you use to retrieve information about the attendee.
+The attendee that connected to the session. Query the **IDispatch** interface for the [**IRDPSRAPIAttendee**](/windows/win32/RdpEncomAPI/nn-rdpencomapi-irdpsrapiattendee?branch=master) interface that you use to retrieve information about the attendee.
 
 </dd> </dl>
 
@@ -51,7 +55,7 @@ This event does not return a value.
 
 ## Remarks
 
-This event means that the attendee has gone through the connection sequence and the client is ready to receive graphics data. The client is already authenticated based on the ticket and password sent in the security data. The client though is not able to view or control the session at this point because its [**control level property**](irdpsrapiattendee-controllevel.md) is set to CTRL\_LEVEL\_NONE.
+This event means that the attendee has gone through the connection sequence and the client is ready to receive graphics data. The client is already authenticated based on the ticket and password sent in the security data. The client though is not able to view or control the session at this point because its [**control level property**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapiattendee-get_controllevel?branch=master) is set to CTRL\_LEVEL\_NONE.
 
 ## Requirements
 
@@ -59,8 +63,8 @@ This event means that the attendee has gone through the connection sequence and 
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -72,12 +76,12 @@ This event means that the attendee has gone through the connection sequence and 
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

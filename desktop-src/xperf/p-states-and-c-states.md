@@ -1,7 +1,12 @@
 ---
 title: P-states and C-States
 description: P-states and C-States
-ms.assetid: 'fd784653-0cef-4b86-9d93-53117d654571'
+ms.assetid: fd784653-0cef-4b86-9d93-53117d654571
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # P-states and C-States

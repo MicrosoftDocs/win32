@@ -1,7 +1,12 @@
 ---
-Description: 'It is recommended that you use native Component Object Model (COM) support (using the \#import compiler directive) when programming with the fax objects in C++. For more information, see Fax Extended COM Visual C++ Programming.'
-ms.assetid: '0c7f2397-f88b-4de3-9dd3-2de50361d914'
+Description: It is recommended that you use native Component Object Model (COM) support (using the \#import compiler directive) when programming with the fax objects in C++. For more information, see Fax Extended COM Visual C++ Programming.
+ms.assetid: 0c7f2397-f88b-4de3-9dd3-2de50361d914
 title: Creating the Root Object in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Root Object in C++

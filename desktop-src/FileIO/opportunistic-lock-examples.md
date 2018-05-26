@@ -1,7 +1,12 @@
 ---
-Description: 'Diagrams of network-traffic views for a level 1 opportunistic lock, a batch opportunistic lock, and a filter opportunistic lock.'
-ms.assetid: '78830113-b18e-40c7-8ec4-8896dbc58030'
+Description: Diagrams of network-traffic views for a level 1 opportunistic lock, a batch opportunistic lock, and a filter opportunistic lock.
+ms.assetid: 78830113-b18e-40c7-8ec4-8896dbc58030
 title: Opportunistic Lock Examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opportunistic Lock Examples

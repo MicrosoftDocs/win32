@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service.'
-ms.assetid: 'fba4144b-833f-469f-93df-e8a79aa37811'
-title: 'CIM\_SAPSAPDependency class'
+Description: Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service.
+ms.assetid: fba4144b-833f-469f-93df-e8a79aa37811
+title: CIM\_SAPSAPDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SAPSAPDependency class
@@ -69,8 +74,8 @@ A reference to the dependant SAP.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A reference to the dependant SAP.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

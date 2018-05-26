@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that either the number of available angles changed or that the current angle number changed.'
-ms.assetid: '0564b0e3-6434-448b-80fb-5362ab67fef7'
-title: 'EC\_DVD\_ANGLE\_CHANGE'
+Description: Signals that either the number of available angles changed or that the current angle number changed.
+ms.assetid: 0564b0e3-6434-448b-80fb-5362ab67fef7
+title: EC\_DVD\_ANGLE\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_ANGLE\_CHANGE
@@ -30,7 +35,7 @@ Signals that either the number of available angles changed or that the current a
 
 Angle numbers range from 1 to 9.
 
-The current angle number can change automatically with a navigation command authored on the disc as well as through application control by using the [**IDvdControl2**](idvdcontrol2.md) interface.
+The current angle number can change automatically with a navigation command authored on the disc as well as through application control by using the [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) interface.
 
 This event is raised in all domains.
 
@@ -57,9 +62,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

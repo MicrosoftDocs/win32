@@ -4,11 +4,15 @@ description: To delete an AD LDS user, bind to the object that contains the user
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3fa4711b-8c39-4559-8acc-c435c0829d2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 3fa4711b-8c39-4559-8acc-c435c0829d2b
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , deleting users"]
+keywords:
+- AD LDS examples ADAM , deleting users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting Users with Active Directory Lightweight Directory Services

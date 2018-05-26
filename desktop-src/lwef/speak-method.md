@@ -1,7 +1,12 @@
 ---
 title: Speak Method
 description: Speak Method
-ms.assetid: '6267e04c-feb5-4f48-8a88-4e6ca3388bf3'
+ms.assetid: 6267e04c-feb5-4f48-8a88-4e6ca3388bf3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Speak Method

@@ -1,8 +1,9 @@
 ---
 title: VMDisplayVideoMode enumeration
 description: The VMDisplayVideoMode enumeration specifies the display video mode.
-ms.assetid: 'd1ca8b31-1aff-4d21-b1dc-0bcf868d9733'
-keywords: ["VMDisplayVideoMode enumeration Virtual Server"]
+ms.assetid: d1ca8b31-1aff-4d21-b1dc-0bcf868d9733
+keywords:
+- VMDisplayVideoMode enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMDisplayVideoMode enumeration
@@ -22,10 +28,10 @@ The **VMDisplayVideoMode** enumeration specifies the display video mode.
 
 ```C++
 typedef enum  { 
-  vmVideoMode_TextMode  = 0,
-  vmVideoMode_CGAMode   = 1,
-  vmVideoMode_VGAMode   = 2,
-  vmVideoMode_SVGAMode  = 3
+  vmVideoMode_TextMode  = 0,
+  vmVideoMode_CGAMode   = 1,
+  vmVideoMode_VGAMode   = 2,
+  vmVideoMode_SVGAMode  = 3
 } VMDisplayVideoMode;
 ```
 
@@ -69,15 +75,15 @@ SVGA mode.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

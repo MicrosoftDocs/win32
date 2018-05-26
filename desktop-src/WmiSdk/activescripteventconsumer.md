@@ -1,13 +1,16 @@
 ---
-Description: 'Runs a predefined script in an arbitrary scripting language when an event is delivered to it.'
+Description: Runs a predefined script in an arbitrary scripting language when an event is delivered to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2c0aa216-4255-49ff-9bbd-d6c62b5b9139'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2c0aa216-4255-49ff-9bbd-d6c62b5b9139
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ActiveScriptEventConsumer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ActiveScriptEventConsumer class
@@ -29,7 +32,7 @@ You can configure the performance of all instances of **ActiveScriptEventConsume
 [AMENDMENT]
 class ActiveScriptEventConsumer : __EventConsumer
 {
-  uint8  CreatorSID[] = {1,1,0,0,0,0,0,5,18,0,0,0};
+  uint8  CreatorSID[] = {1,1,0,0,0,0,0,5,18,0,0,0};
   uint32 KillTimeout = 0;
   string MachineName;
   uint32 MaximumQueueSize;
@@ -134,7 +137,7 @@ Name of the file from which the script text is read, intended as an alternative 
 > [!Note]  
 > When you specify the **ScriptFileName**, it is important to secure the executable that you are launching. If the executable is not in a secure location or secured with a strong access control list (ACL), anyone can replace the executable with a different one. For more information about ACLs, see [Creating a Security Descriptor (SD) for a New Object in C++](https://msdn.microsoft.com/library/windows/desktop/aa446595).
 
- 
+ 
 
 </dd> <dt>
 
@@ -188,8 +191,8 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\subscription<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Scrcons.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scrcons.exe</dt> </dl> |
@@ -218,9 +221,9 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 [**ScriptingStandardConsumerSetting**](scriptingstandardconsumersetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

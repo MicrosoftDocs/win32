@@ -1,7 +1,12 @@
 ---
-Description: 'This topic explains how to set up the Windows Installer, formerly the Microsoft Software Installer (MSI), keys for your MAPI dynamic link-library (DLL).'
-ms.assetid: '5888EF22-C056-4e3a-8313-8B5821074DEB'
+Description: This topic explains how to set up the Windows Installer, formerly the Microsoft Software Installer (MSI), keys for your MAPI dynamic link-library (DLL).
+ms.assetid: 5888EF22-C056-4e3a-8313-8B5821074DEB
 title: Setting Up the MSI Keys for Your MAPI DLL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up the MSI Keys for Your MAPI DLL
@@ -15,7 +20,7 @@ If your mail client supports on-demand installation using the Windows Installer,
 > [!Note]  
 > It is recommended that you install the MSI DLL (along with the mail client files) in a private installation location on the file system and provide full paths to the various DLLs.
 
- 
+ 
 
 If **MSIComponentID** is set, it has precedence over the **DLLPath** and **DLLPathEx** values, and the application installs the component on demand using the Windows Installer, loads the DLL and calls the specific function.
 
@@ -31,7 +36,7 @@ Your application can also set additional values in *MyMailClient* if your mail c
 
 
 
- 
+ 
 
 The order of precedence for the subkeys is **MSIApplicationLCID**, **MSIOfficeLCID**, the default user or system LCIDs, and then finally English. When using **MSIApplicationLCID** or **MSIOfficeLCID**, the stub library first checks **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Policies** and then **HKEY\_LOCAL\_MACHINE**\\**Software**.
 
@@ -42,9 +47,9 @@ The order of precedence for the subkeys is **MSIApplicationLCID**, **MSIOfficeLC
 [Mapi32 Stub Library](mapi32-stub-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

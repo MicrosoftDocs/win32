@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the element be changed to the value specified in the RequestedState parameter.'
-ms.assetid: '0c9a4d09-83ef-4e9e-b635-8722a8501a2c'
-title: 'RequestStateChange method of the MSFT\_NetIPAddress class'
+Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+ms.assetid: 0c9a4d09-83ef-4e9e-b635-8722a8501a2c
+title: RequestStateChange method of the MSFT\_NetIPAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the MSFT\_NetIPAddress class
@@ -13,9 +18,9 @@ Requests that the state of the element be changed to the value specified in the 
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16          RequestedState,
-  [out] CIM_ConcreteJob Job,
-  [in]  datetime        TimeoutPeriod
+  [in]  uint16          RequestedState,
+  [out] CIM_ConcreteJob Job,
+  [in]  datetime        TimeoutPeriod
 );
 ```
 
@@ -59,10 +64,10 @@ The state requested for the element. This information will be placed into the Re
 <span id="Reset"></span><span id="reset"></span><span id="RESET"></span>**Reset** (11)
 </dt> <dt>
 
-<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (12–32767)
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (12 32767)
 </dt> <dt>
 
-<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768–65535)
+<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768 65535)
 </dt> </dl> </dd> <dt>
 
 *Job* \[out\]
@@ -104,7 +109,7 @@ A time-out period that specifies the maximum amount of time that the client expe
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -119,10 +124,10 @@ A time-out period that specifies the maximum amount of time that the client expe
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -131,8 +136,8 @@ A time-out period that specifies the maximum amount of time that the client expe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -146,9 +151,9 @@ A time-out period that specifies the maximum amount of time that the client expe
 [**MSFT\_NetIPAddress**](msft-netipaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

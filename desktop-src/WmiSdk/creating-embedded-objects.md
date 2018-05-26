@@ -1,13 +1,16 @@
 ---
-Description: 'When creating an instance with embedded objects, perform the following tasks:'
+Description: When creating an instance with embedded objects, perform the following tasks
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2abf6197-8b95-4c04-b154-508aa85fe12f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2abf6197-8b95-4c04-b154-508aa85fe12f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Embedded Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Embedded Objects

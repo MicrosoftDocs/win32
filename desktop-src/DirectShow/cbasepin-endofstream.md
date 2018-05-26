@@ -1,12 +1,17 @@
 ---
-Description: 'The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method. Call this method only on input pins.'
-ms.assetid: '52a71c30-bd68-4152-8901-71ef2e65913a'
-title: 'CBasePin.EndOfStream method'
+Description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPinEndOfStream method. Call this method only on input pins.
+ms.assetid: 52a71c30-bd68-4152-8901-71ef2e65913a
+title: CBasePin.EndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.EndOfStream method
 
-The `EndOfStream` method notifies the pin that no additional data is expected. This method implements the [**IPin::EndOfStream**](ipin-endofstream.md) method. Call this method only on input pins.
+The `EndOfStream` method notifies the pin that no additional data is expected. This method implements the [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) method. Call this method only on input pins.
 
 ## Syntax
 
@@ -49,9 +54,9 @@ In the base class, this method does nothing. Derived classes should override thi
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

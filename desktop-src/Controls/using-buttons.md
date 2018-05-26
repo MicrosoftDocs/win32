@@ -1,7 +1,12 @@
 ---
 title: Using Buttons
 description: This section gives implementation details and example code for button controls. The following topics are discussed.
-ms.assetid: '0c56f6ee-984d-47b8-9066-e14f13396eb9'
+ms.assetid: 0c56f6ee-984d-47b8-9066-e14f13396eb9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Buttons
@@ -20,11 +25,11 @@ This section gives implementation details and example code for button controls. 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The INVOC structure is used for describing printer command strings in Unidrv font metrics files (.ufm files) and glyph translation table files (.gtt files).'
-ms.assetid: '5eeaa7f7-dc99-4cf7-846c-801954cc9040'
+---
+Description: The INVOC structure is used for describing printer command strings in Unidrv font metrics files (.ufm files) and glyph translation table files (.gtt files).
+ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 title: INVOC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INVOC structure

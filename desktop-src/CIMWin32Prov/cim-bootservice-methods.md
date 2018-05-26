@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_BootService class exposes the following methods.'
+Description: The CIM\_BootService class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'EEB082F8-A807-4154-BE5E-8CC0553698D1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: EEB082F8-A807-4154-BE5E-8CC0553698D1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_BootService Methods'
+title: CIM\_BootService Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BootService Methods

@@ -1,8 +1,10 @@
 ---
 title: MSiSCSI\_HBAInformation structure
 description: The MSiSCSI\_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
-ms.assetid: 'ee2951e0-2632-44b0-870d-33d4d48ac8e8'
-keywords: ["MSiSCSI_HBAInformation structure Storage Devices", "PMSiSCSI_HBAInformation structure pointer Storage Devices"]
+ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
+keywords:
+- MSiSCSI_HBAInformation structure Storage Devices
+- PMSiSCSI_HBAInformation structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - iscsimgt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSiSCSI\_HBAInformation structure
@@ -23,26 +30,26 @@ The MSiSCSI\_HBAInformation structure is used by storage miniport drivers to rep
 ```C++
 typedef struct _MSiSCSI_HBAInformation {
   ULONGLONG UniqueAdapterId;
-  BOOLEAN   IntegratedTCPIP;
-  BOOLEAN   RequiresBinaryIpAddresses;
-  UCHAR     VersionMin;
-  UCHAR     VersionMax;
-  BOOLEAN   MultifunctionDevice;
-  BOOLEAN   CacheValid;
-  ULONG     NumberOfPorts;
-  ULONG     Status;
-  ULONG     FunctionalitySupported;
-  UCHAR     GenerationalGuid[16];
-  ULONG     MaxCDBLength;
-  BOOLEAN   BiDiScsiCommands;
-  WCHAR     VendorID[255 + 1];
-  WCHAR     VendorModel[255 + 1];
-  WCHAR     VendorVersion[255 + 1];
-  WCHAR     FirmwareVersion[255 + 1];
-  WCHAR     AsicVersion[255 + 1];
-  WCHAR     OptionRomVersion[255 + 1];
-  WCHAR     SerialNumber[255 + 1];
-  WCHAR     DriverName[255 + 1];
+  BOOLEAN   IntegratedTCPIP;
+  BOOLEAN   RequiresBinaryIpAddresses;
+  UCHAR     VersionMin;
+  UCHAR     VersionMax;
+  BOOLEAN   MultifunctionDevice;
+  BOOLEAN   CacheValid;
+  ULONG     NumberOfPorts;
+  ULONG     Status;
+  ULONG     FunctionalitySupported;
+  UCHAR     GenerationalGuid[16];
+  ULONG     MaxCDBLength;
+  BOOLEAN   BiDiScsiCommands;
+  WCHAR     VendorID[255 + 1];
+  WCHAR     VendorModel[255 + 1];
+  WCHAR     VendorVersion[255 + 1];
+  WCHAR     FirmwareVersion[255 + 1];
+  WCHAR     AsicVersion[255 + 1];
+  WCHAR     OptionRomVersion[255 + 1];
+  WCHAR     SerialNumber[255 + 1];
+  WCHAR     DriverName[255 + 1];
 } MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation;
 ```
 
@@ -124,7 +131,7 @@ The current status of HBA. This member can hold any of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -146,7 +153,7 @@ A bitwise OR of the flags that define the functionality that the HBA supports. T
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -254,9 +261,9 @@ You must implement this class.
 [SetGenerationalGuid](https://msdn.microsoft.com/library/windows/hardware/ff565678)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20MSiSCSI_HBAInformation%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

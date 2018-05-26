@@ -1,14 +1,20 @@
 ---
 title: RunOnlyIfIdle (settingsType) Element
 description: Specifies that the task is run only when the computer is in an idle state.
-ms.assetid: '2ef3dd19-4d5c-4399-89b8-d737be4ef85e'
-keywords: ["RunOnlyIfIdle element Task Scheduler"]
+ms.assetid: 2ef3dd19-4d5c-4399-89b8-d737be4ef85e
+keywords:
+- RunOnlyIfIdle element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RunOnlyIfIdle
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunOnlyIfIdle (settingsType) Element
@@ -35,7 +41,7 @@ The **RunOnlyIfIdle** element is defined by the [**settingsType**](taskscheduler
 
 ## Remarks
 
-For C++ development, see [**RunOnlyIfIdle Property of ITaskSettings**](itasksettings-runonlyifidle.md).
+For C++ development, see [**RunOnlyIfIdle Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_runonlyifidle?branch=master).
 
 For script development, see [**TaskSettings.RunOnlyIfIdle**](tasksettings-runonlyifidle.md).
 
@@ -45,8 +51,8 @@ For script development, see [**TaskSettings.RunOnlyIfIdle**](tasksettings-runonl
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For script development, see [**TaskSettings.RunOnlyIfIdle**](tasksettings-runonl
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

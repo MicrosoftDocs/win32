@@ -1,8 +1,11 @@
 ---
 title: IHelpKeyValuePair key property
 description: property Key - get the key of a key/value pair
-ms.assetid: '2ce6fe03-7d50-4729-8163-9e6f9b92951c'
-keywords: ["key property HelpAPI", "key property HelpAPI , IHelpKeyValuePair interface", "IHelpKeyValuePair interface HelpAPI , key property"]
+ms.assetid: 2ce6fe03-7d50-4729-8163-9e6f9b92951c
+keywords:
+- key property HelpAPI
+- key property HelpAPI , IHelpKeyValuePair interface
+- IHelpKeyValuePair interface HelpAPI , key property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHelpKeyValuePair::key property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_key(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The key of a key/value pair.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The key of a key/value pair.
 [**IHelpKeyValuePair**](ihelpkeyvaluepair.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: CIM\_DeviceConnection class
 description: A relationship that indicates that two or more devices are connected together.
-ms.assetid: 'cfc02b21-14f6-4810-8cd3-4985a7fef3ba'
-keywords: ["CIM_DeviceConnection class Hyper-V", "CIM_DeviceConnection class Hyper-V , described"]
+ms.assetid: cfc02b21-14f6-4810-8cd3-4985a7fef3ba
+keywords:
+- CIM_DeviceConnection class Hyper-V
+- CIM_DeviceConnection class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DeviceConnection class
@@ -31,8 +38,8 @@ class CIM_DeviceConnection : CIM_Dependency
 {
   CIM_LogicalDevice REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint64                NegotiatedSpeed;
-  uint32                NegotiatedDataWidth;
+  uint64                NegotiatedSpeed;
+  uint32                NegotiatedDataWidth;
 };
 ```
 
@@ -119,9 +126,9 @@ When several bus and connection speeds are possible, this property defines the s
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -134,9 +141,9 @@ When several bus and connection speeds are possible, this property defines the s
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

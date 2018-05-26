@@ -1,8 +1,11 @@
 ---
 title: INapComponentInfo GetFriendlyName method
 description: Is used by the NAP System to get the friendly name of a health client.
-ms.assetid: '28614f06-a250-4f92-abf2-422675efd8a0'
-keywords: ["GetFriendlyName method NAP", "GetFriendlyName method NAP , INapComponentInfo interface", "INapComponentInfo interface NAP , GetFriendlyName method"]
+ms.assetid: 28614f06-a250-4f92-abf2-422675efd8a0
+keywords:
+- GetFriendlyName method NAP
+- GetFriendlyName method NAP , INapComponentInfo interface
+- INapComponentInfo interface NAP , GetFriendlyName method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentInfo::GetFriendlyName method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentInfo::GetFriendlyName** callback method is used by the NAP System to get the friendly name of a health client.
 
@@ -27,7 +35,7 @@ The **INapComponentInfo::GetFriendlyName** callback method is used by the NAP Sy
 
 ```C++
 HRESULT GetFriendlyName(
-  [out] MessageId *friendlyName
+  [out] MessageId *friendlyName
 );
 ```
 
@@ -58,7 +66,7 @@ Return one of these error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Return one of these error codes based on the result of this operation.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -83,9 +91,9 @@ Return one of these error codes based on the result of this operation.
 [**INapComponentInfo**](inapcomponentinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

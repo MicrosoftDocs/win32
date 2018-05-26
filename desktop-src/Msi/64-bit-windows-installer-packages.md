@@ -1,7 +1,12 @@
 ---
-Description: 'A 64-bit package consists partially or entirely of 64-bit Windows Installer components.'
-ms.assetid: '615a5534-7c9e-4240-9a23-35f224122d0e'
-title: '64-bit Windows Installer Packages'
+Description: A 64-bit package consists partially or entirely of 64-bit Windows Installer components.
+ms.assetid: 615a5534-7c9e-4240-9a23-35f224122d0e
+title: 64-bit Windows Installer Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 64-bit Windows Installer Packages

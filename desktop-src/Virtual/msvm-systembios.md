@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SystemBIOS class
 description: Used to associate a virtual system with its BIOS.
-ms.assetid: '99403b20-d39b-4f25-8b7a-cea8d13bbecf'
-keywords: ["Msvm_SystemBIOS class Hyper-V", "Msvm_SystemBIOS class Hyper-V , described"]
+ms.assetid: 99403b20-d39b-4f25-8b7a-cea8d13bbecf
+keywords:
+- Msvm_SystemBIOS class Hyper-V
+- Msvm_SystemBIOS class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemBIOS class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_SystemBIOS : CIM_SystemBIOS
 {
   Msvm_ComputerSystem REF GroupComponent;
-  Msvm_BIOSElement    REF PartComponent;
+  Msvm_BIOSElement    REF PartComponent;
 };
 ```
 
@@ -87,9 +94,9 @@ Access to the **Msvm\_SystemBIOS** class might be restricted by UAC Filtering. F
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -105,9 +112,9 @@ Access to the **Msvm\_SystemBIOS** class might be restricted by UAC Filtering. F
 [BIOS Classes](bios-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

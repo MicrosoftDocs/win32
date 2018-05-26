@@ -1,7 +1,12 @@
 ---
-Description: 'The GetStdDev method estimates the standard deviation in milliseconds between when each frame is due and when it is actually rendered, for per-frame statistics.'
-ms.assetid: '1a4d5c8d-38de-434f-b218-412d45976b8c'
-title: 'CBaseVideoRenderer.GetStdDev method'
+Description: The GetStdDev method estimates the standard deviation in milliseconds between when each frame is due and when it is actually rendered, for per-frame statistics.
+ms.assetid: 1a4d5c8d-38de-434f-b218-412d45976b8c
+title: CBaseVideoRenderer.GetStdDev method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.GetStdDev method
@@ -13,10 +18,10 @@ The `GetStdDev` method estimates the standard deviation in milliseconds between 
 
 ```C++
 HRESULT GetStdDev(
-   int      nSamples,
-   int      *piResult,
-   LONGLONG llSumSq,
-   LONGLONG iTot
+   int      nSamples,
+   int      *piResult,
+   LONGLONG llSumSq,
+   LONGLONG iTot
 );
 ```
 
@@ -76,9 +81,9 @@ Returns NOERROR.
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.newMedia method
 description: The newMedia method returns an IWMPMedia interface for a new media item.
-ms.assetid: 'd10a517e-b4da-4f0b-9d51-9d387578d7dd'
-keywords: ["newMedia method Windows Media Player", "newMedia method Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , newMedia method"]
+ms.assetid: d10a517e-b4da-4f0b-9d51-9d387578d7dd
+keywords:
+- newMedia method Windows Media Player
+- newMedia method Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , newMedia method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.newMedia method
@@ -89,9 +97,9 @@ The *bstrURL* parameter must not be a zero-length string ("") or null.
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

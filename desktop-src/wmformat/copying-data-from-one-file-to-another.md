@@ -1,8 +1,17 @@
 ---
 title: Copying Data from One File to Another
 description: Copying Data from One File to Another
-ms.assetid: '1403c396-46ea-48b1-a535-922ffca31bc2'
-keywords: ["Windows Media Format SDK,copying data", "Advanced Systems Format (ASF),copying data", "ASF (Advanced Systems Format),copying data", "streams,copying data"]
+ms.assetid: 1403c396-46ea-48b1-a535-922ffca31bc2
+keywords:
+- Windows Media Format SDK,copying data
+- Advanced Systems Format (ASF),copying data
+- ASF (Advanced Systems Format),copying data
+- streams,copying data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copying Data from One File to Another

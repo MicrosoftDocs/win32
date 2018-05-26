@@ -1,7 +1,12 @@
 ---
 Description: How to Configure the Proxy Locator
-ms.assetid: 'ddc28add-ebf5-4a68-bdf4-dc5f33ab74da'
+ms.assetid: ddc28add-ebf5-4a68-bdf4-dc5f33ab74da
 title: How to Configure the Proxy Locator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Configure the Proxy Locator
@@ -10,18 +15,18 @@ The application can change the default configuration of the proxy locator by set
 
 ## To change the default configuration setting of the proxy locator
 
-1.  Implement the [**IMFNetProxyLocatorFactory**](imfnetproxylocatorfactory.md) interface.
-2.  In the [**IMFNetProxyLocatorFactory::CreateProxyLocator**](imfnetproxylocatorfactory-createproxylocator.md) method, do the following:
+1.  Implement the [**IMFNetProxyLocatorFactory**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocatorfactory?branch=master) interface.
+2.  In the [**IMFNetProxyLocatorFactory::CreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator?branch=master) method, do the following:
     1.  Create a property store.
     2.  Set the configuration settings for the proxy locator. For information about these settings, see [Proxy Locator Configuration Settings](proxy-locator-configuration-settings.md).
-    3.  Call the [**MFCreateProxyLocator**](mfcreateproxylocator.md) function. Pass in the property store and the protocol. The protocol is specified in the *pszProtocol* parameter of [**CreateProxyLocator**](imfnetproxylocatorfactory-createproxylocator.md).
-3.  Create an instance of your proxy locator factory class and get a pointer to its [**IMFNetProxyLocatorFactory**](imfnetproxylocatorfactory.md) interface.
-4.  Create another property store and set the value of the [**MFNETSOURCE\_PROXYLOCATORFACTORY**](mfnetsource-proxylocatorfactory-property.md) property equal to the [**IMFNetProxyLocatorFactory**](imfnetproxylocatorfactory.md) pointer from step 3.
-5.  When you create the network source, pass the property store in the *pProps* parameter of the source resolver methods such as [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md).
+    3.  Call the [**MFCreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-mfcreateproxylocator?branch=master) function. Pass in the property store and the protocol. The protocol is specified in the *pszProtocol* parameter of [**CreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator?branch=master).
+3.  Create an instance of your proxy locator factory class and get a pointer to its [**IMFNetProxyLocatorFactory**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocatorfactory?branch=master) interface.
+4.  Create another property store and set the value of the [**MFNETSOURCE\_PROXYLOCATORFACTORY**](mfnetsource-proxylocatorfactory-property.md) property equal to the [**IMFNetProxyLocatorFactory**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocatorfactory?branch=master) pointer from step 3.
+5.  When you create the network source, pass the property store in the *pProps* parameter of the source resolver methods such as [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master).
 
 ## Example
 
-The following code example implements the [**IMFNetProxyLocatorFactory**](imfnetproxylocatorfactory.md) interface. The [**IMFNetProxyLocatorFactory::CreateProxyLocator**](imfnetproxylocatorfactory-createproxylocator.md) method creates an instance of the default proxy locator, and configures it to operate in auto-detect mode.
+The following code example implements the [**IMFNetProxyLocatorFactory**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocatorfactory?branch=master) interface. The [**IMFNetProxyLocatorFactory::CreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator?branch=master) method creates an instance of the default proxy locator, and configures it to operate in auto-detect mode.
 
 
 ```C++
@@ -102,7 +107,7 @@ public:
 
 
 
-The next example shows how to pass the [**IMFNetProxyLocatorFactory**](imfnetproxylocatorfactory.md) pointer to the network source.
+The next example shows how to pass the [**IMFNetProxyLocatorFactory**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocatorfactory?branch=master) pointer to the network source.
 
 
 ```C++

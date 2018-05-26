@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a callback function to be used during line recognition.'
-ms.assetid: '0b07ec80-328a-471b-b554-fa66f56a2871'
+---
+Description: Sets a callback function to be used during line recognition.
+ms.assetid: 0b07ec80-328a-471b-b554-fa66f56a2871
 title: SetLineRecoCallback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetLineRecoCallback function
@@ -29,14 +34,14 @@ HRESULT WINAPI SetLineRecoCallback(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *pfn* 
 </dt> <dd>
 
-A pointer to a function that is called when recognition occurs on the [**InkDivider**](inkdivider-class.md) passed in.
+A pointer to a function that is called when recognition occurs on the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) passed in.
 
 </dd> </dl>
 

@@ -1,8 +1,11 @@
 ---
 title: IDatabase CopyStream method
 description: Copies a stream to the specified database and stream.
-ms.assetid: 'dd7b8bf6-811c-49a5-92fa-01e6fa88568f'
-keywords: ["CopyStream method Windows Mail (formerly Outlook Express)", "CopyStream method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , CopyStream method"]
+ms.assetid: dd7b8bf6-811c-49a5-92fa-01e6fa88568f
+keywords:
+- CopyStream method Windows Mail (formerly Outlook Express)
+- CopyStream method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , CopyStream method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::CopyStream method
@@ -24,9 +32,9 @@ Copies a stream to the specified database and stream.
 
 ```C++
 HRESULT CopyStream(
-  [in]  IDatabase     iDest,
-  [in]  FILEADDRESS   faStream,
-  [out] LPFILEADDRESS pfaNew
+  [in]  IDatabase     iDest,
+  [in]  FILEADDRESS   faStream,
+  [out] LPFILEADDRESS pfaNew
 );
 ```
 
@@ -78,7 +86,7 @@ Use the SUCCEEDED macro to determine whether the operation succeeded.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,17 +94,17 @@ Use the SUCCEEDED macro to determine whether the operation succeeded.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

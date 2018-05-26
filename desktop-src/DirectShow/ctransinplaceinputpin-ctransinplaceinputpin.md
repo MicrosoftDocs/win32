@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'db0a3f78-ddb9-43b5-aab5-da2faaebb527'
-title: 'CTransInPlaceInputPin.CTransInPlaceInputPin constructor'
+Description: Constructor method.
+ms.assetid: db0a3f78-ddb9-43b5-aab5-da2faaebb527
+title: CTransInPlaceInputPin.CTransInPlaceInputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceInputPin.CTransInPlaceInputPin constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CTransInPlaceInputPin(
-   TCHAR               *pObjectName,
-   CTransInPlaceFilter *pFilter,
-   HRESULT             *phr,
-   LPCWSTR             pName
+   TCHAR               *pObjectName,
+   CTransInPlaceFilter *pFilter,
+   HRESULT             *phr,
+   LPCWSTR             pName
 );
 ```
 
@@ -56,7 +61,7 @@ Wide-character string containing the pin name.
 
 ## Remarks
 
-The *pName* parameter specifies the pin name, which is returned by the [**IPin::QueryPinInfo**](ipin-querypininfo.md) method. However, this string is not used for the pin identifier. The pin identifier for this class is always In. For more information, see [**CTransformInputPin::QueryId**](ctransforminputpin-queryid.md).
+The *pName* parameter specifies the pin name, which is returned by the [**IPin::QueryPinInfo**](/windows/win32/Strmif/nf-strmif-ipin-querypininfo?branch=master) method. However, this string is not used for the pin identifier. The pin identifier for this class is always In. For more information, see [**CTransformInputPin::QueryId**](ctransforminputpin-queryid.md).
 
 ## Requirements
 
@@ -76,9 +81,9 @@ The *pName* parameter specifies the pin name, which is returned by the [**IPin::
 [**CTransInPlaceInputPin Class**](ctransinplaceinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

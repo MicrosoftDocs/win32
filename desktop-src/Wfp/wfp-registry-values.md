@@ -1,7 +1,12 @@
 ---
-Description: 'WFP registry values are located in the following registry key: HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon.'
-ms.assetid: 'd4da7f24-1e5d-4ea2-98e8-049e7eaefae1'
+Description: WFP registry values are located in the following registry key HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon.
+ms.assetid: d4da7f24-1e5d-4ea2-98e8-049e7eaefae1
 title: WFP Registry Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Registry Values

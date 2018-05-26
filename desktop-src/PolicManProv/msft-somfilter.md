@@ -1,15 +1,18 @@
 ---
-Description: 'The MSFT\_SomFilter class represents a list of rules, expressed as a query, which are evaluated on a target computer.'
+Description: The MSFT\_SomFilter class represents a list of rules, expressed as a query, which are evaluated on a target computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'da743886-0726-47b9-afc6-dff84b3dde1f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: da743886-0726-47b9-afc6-dff84b3dde1f
+ms.prod: windows-server-dev
 ms.technology:
-- 'group-policy'
-- 'windows-management-instrumentation'
+- group-policy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_SomFilter class'
+title: MSFT\_SomFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SomFilter class
@@ -24,15 +27,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("PolicSOM"), UUID("{AE7B614F-AFE0-41ea-807E-3BD3F83CAF66}"), AMENDMENT]
 class MSFT_SomFilter
 {
-  string    ID;
-  string    Domain;
-  string    Name;
-  string    Description;
+  string    ID;
+  string    Domain;
+  string    Name;
+  string    Description;
   MSFT_Rule Rules[];
-  string    Author;
-  string    SourceOrganization;
-  datetime  ChangeDate;
-  datetime  CreationDate;
+  string    Author;
+  string    SourceOrganization;
+  datetime  ChangeDate;
+  datetime  CreationDate;
 };
 ```
 
@@ -56,7 +59,7 @@ The **MSFT\_SomFilter** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -199,8 +202,8 @@ Organization of the author.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\policy<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>PolicMan.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PolicMan.dll</dt> </dl> |
@@ -214,9 +217,9 @@ Organization of the author.
 [**MSFT\_Rule**](msft-rule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

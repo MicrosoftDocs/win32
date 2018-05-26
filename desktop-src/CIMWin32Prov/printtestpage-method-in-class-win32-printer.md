@@ -1,15 +1,18 @@
 ---
-Description: 'Prints a test page.'
+Description: Prints a test page.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7968e637-9817-4111-89f5-d3c6961395e5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7968e637-9817-4111-89f5-d3c6961395e5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'PrintTestPage method of the Win32\_Printer class'
+title: PrintTestPage method of the Win32\_Printer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PrintTestPage method of the Win32\_Printer class
@@ -80,8 +83,8 @@ $printer.PrintTestPage()
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
@@ -98,9 +101,9 @@ $printer.PrintTestPage()
 [**Win32\_Printer**](win32-printer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

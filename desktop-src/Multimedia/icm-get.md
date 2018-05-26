@@ -1,8 +1,9 @@
 ---
 title: ICM\_GET message
 description: The ICM\_GET message retrieves an application-defined DWORD value from a video compression driver.
-ms.assetid: '288c0053-16a1-4547-b748-da218a0b588c'
-keywords: ["ICM_GET message Windows Multimedia"]
+ms.assetid: 288c0053-16a1-4547-b748-da218a0b588c
+keywords:
+- ICM_GET message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_GET message
@@ -58,8 +64,8 @@ The structure used to represent state information is driver specific and is defi
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The structure used to represent state information is driver specific and is defi
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

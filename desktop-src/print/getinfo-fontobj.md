@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GETINFO\_FONTOBJ structure is used as input to the UNIFONTOBJ\_GetInfo callback function.'
-ms.assetid: 'f5116986-aa0c-4cc3-9893-c93e83e922f7'
-title: 'GETINFO\_FONTOBJ structure'
+---
+Description: The GETINFO\_FONTOBJ structure is used as input to the UNIFONTOBJ\_GetInfo callback function.
+ms.assetid: f5116986-aa0c-4cc3-9893-c93e83e922f7
+title: GETINFO\_FONTOBJ structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GETINFO\_FONTOBJ structure

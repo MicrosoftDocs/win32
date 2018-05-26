@@ -4,11 +4,16 @@ description: The Name property sets or returns the name of the console file. The
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1bb4ce77-9779-499c-967f-b485c846435b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1bb4ce77-9779-499c-967f-b485c846435b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Name property MMC", "Name property MMC , Document object", "Document object MMC , Name property", "Name property MMC , Document interface", "Document interface MMC , Name property"]
+keywords:
+- Name property MMC
+- Name property MMC , Document object
+- Document object MMC , Name property
+- Name property MMC , Document interface
+- Document interface MMC , Name property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::Name property
@@ -58,8 +66,8 @@ objDoc.Name = "d:\console44.msc"
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -77,9 +85,9 @@ objDoc.Name = "d:\console44.msc"
 [**Document.SaveAs**](document-saveas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

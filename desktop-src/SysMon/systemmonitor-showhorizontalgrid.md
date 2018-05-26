@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.ShowHorizontalGrid property
 description: Retrieves or sets a value that determines whether horizontal grid lines are displayed in the graph.
-ms.assetid: '0208666b-1966-49a2-b30b-f03195b8fc81'
-keywords: ["ShowHorizontalGrid property SysMon", "ShowHorizontalGrid property SysMon , SystemMonitor class", "SystemMonitor class SysMon , ShowHorizontalGrid property"]
+ms.assetid: 0208666b-1966-49a2-b30b-f03195b8fc81
+keywords:
+- ShowHorizontalGrid property SysMon
+- ShowHorizontalGrid property SysMon , SystemMonitor class
+- SystemMonitor class SysMon , ShowHorizontalGrid property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.ShowHorizontalGrid property
@@ -38,8 +46,8 @@ True indicates that horizontal grid lines are displayed in the graph; otherwise,
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -57,9 +65,9 @@ True indicates that horizontal grid lines are displayed in the graph; otherwise,
 [**SystemMonitor.ShowVerticalGrid**](systemmonitor-showverticalgrid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

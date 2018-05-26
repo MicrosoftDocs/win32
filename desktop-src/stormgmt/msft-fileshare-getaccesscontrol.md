@@ -1,8 +1,11 @@
 ---
 title: GetAccessControlEntries method of the MSFT\_FileShare class
 description: Gets the access control entries for specified accounts.
-ms.assetid: '252AD23C-4951-4C1D-A9FD-42E35A2ED81F'
-keywords: ["GetAccessControlEntries method Windows Storage Management API", "GetAccessControlEntries method Windows Storage Management API , MSFT_FileShare class", "MSFT_FileShare class Windows Storage Management API , GetAccessControlEntries method"]
+ms.assetid: 252AD23C-4951-4C1D-A9FD-42E35A2ED81F
+keywords:
+- GetAccessControlEntries method Windows Storage Management API
+- GetAccessControlEntries method Windows Storage Management API , MSFT_FileShare class
+- MSFT_FileShare class Windows Storage Management API , GetAccessControlEntries method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetAccessControlEntries method of the MSFT\_FileShare class
@@ -22,8 +30,8 @@ Gets the access control entries for specified accounts.
 
 ```mof
 UInt32 GetAccessControlEntries(
-  [out] String AccessControlEntries[],
-  [out] String ExtendedStatus
+  [out] String AccessControlEntries[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -86,8 +94,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -100,9 +108,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileShare**](msft-fileshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

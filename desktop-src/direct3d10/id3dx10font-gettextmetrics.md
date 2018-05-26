@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieve font characteristics.'
-ms.assetid: 'ef7e0d18-492b-476b-945a-bfc0232a939a'
-title: 'ID3DX10Font::GetTextMetrics method'
+---
+Description: Retrieve font characteristics.
+ms.assetid: ef7e0d18-492b-476b-945a-bfc0232a939a
+title: ID3DX10FontGetTextMetrics method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Font::GetTextMetrics method

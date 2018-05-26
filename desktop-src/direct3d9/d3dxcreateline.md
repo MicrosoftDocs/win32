@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a left-handed coordinate system to create a line.'
-ms.assetid: '0d2ef331-9edf-4b0a-ace4-ecb8bb2f7352'
+---
+Description: Uses a left-handed coordinate system to create a line.
+ms.assetid: 0d2ef331-9edf-4b0a-ace4-ecb8bb2f7352
 title: D3DXCreateLine function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateLine function
@@ -27,9 +32,9 @@ HRESULT D3DXCreateLine(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the created box mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the created box mesh.
 
 </dd> <dt>
 

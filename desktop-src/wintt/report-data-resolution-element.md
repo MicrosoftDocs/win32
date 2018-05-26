@@ -1,14 +1,20 @@
 ---
 title: Data (Resolution) Element
 description: Identifies a property of a resolver.
-ms.assetid: '3468740f-4267-43c7-9130-ab0910786e87'
-keywords: ["Data element Windows Troubleshooting Toolkit"]
+ms.assetid: 3468740f-4267-43c7-9130-ab0910786e87
+keywords:
+- Data element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (Resolution) Element
@@ -33,8 +39,8 @@ The [**Resolution (ResolutionInformation)**](report-resolution-resolutioninforma
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ The [**Resolution (ResolutionInformation)**](report-resolution-resolutioninforma
 [**Resolution (ResolutionInformation)**](report-resolution-resolutioninformation-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: show sslcert
 description: Lists SSL server certificate bindings and the corresponding client certificate policies for an IP address and port.
-ms.assetid: '8e20f55e-a357-4f9c-a24e-e234607c3196'
-keywords: ["show sslcert HTTP"]
+ms.assetid: 8e20f55e-a357-4f9c-a24e-e234607c3196
+keywords:
+- show sslcert HTTP
 topic_type:
 - apiref
 api_name:
 - show sslcert
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # show sslcert

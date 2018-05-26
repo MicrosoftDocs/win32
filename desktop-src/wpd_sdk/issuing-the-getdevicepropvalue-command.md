@@ -1,7 +1,12 @@
 ---
 Description: Issuing the GetDevicePropValue Command
-ms.assetid: '60294ac6-06e0-4546-bbe9-da48d250e31e'
+ms.assetid: 60294ac6-06e0-4546-bbe9-da48d250e31e
 title: Issuing the GetDevicePropValue Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issuing the GetDevicePropValue Command

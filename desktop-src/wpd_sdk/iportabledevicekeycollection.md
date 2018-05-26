@@ -1,7 +1,12 @@
 ---
-Description: 'The IPortableDeviceKeyCollection interface holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID\_PortableDeviceKeyCollection.'
-ms.assetid: '2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd'
+Description: The IPortableDeviceKeyCollection interface holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID\_PortableDeviceKeyCollection.
+ms.assetid: 2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd
 title: IPortableDeviceKeyCollection interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceKeyCollection interface
@@ -30,7 +35,7 @@ The **IPortableDeviceKeyCollection** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,9 +55,9 @@ The **IPortableDeviceKeyCollection** interface has these methods.
 [**Collection Interfaces**](collection-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

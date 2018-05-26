@@ -1,7 +1,12 @@
 ---
 title: Debug Messages
 description: Lists the debug messages from the Direct2D Debug Layer.
-ms.assetid: 'ea7bfed8-370f-4aca-a483-a4a81890da17'
+ms.assetid: ea7bfed8-370f-4aca-a483-a4a81890da17
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debug Messages

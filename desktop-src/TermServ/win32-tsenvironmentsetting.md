@@ -4,11 +4,13 @@ description: Defines the configuration settings for the Win32\_Terminal class in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2d310a1e-a1bd-4ccb-965e-8389aaa2e4c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2d310a1e-a1bd-4ccb-965e-8389aaa2e4c1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSEnvironmentSetting class Remote Desktop Services", "Win32_TSEnvironmentSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSEnvironmentSetting class Remote Desktop Services
+- Win32_TSEnvironmentSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSEnvironmentSetting class
@@ -44,19 +49,19 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSENVIRONMENTSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSEnvironmentSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  uint32   ClientWallPaper;
-  string   InitialProgramPath;
-  uint32   InitialProgramPolicy;
-  uint32   PolicySourceClientWallPaper;
-  uint32   PolicySourceInitialProgramPath;
-  uint32   PolicySourceStartIn;
-  string   Startin;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  uint32   ClientWallPaper;
+  string   InitialProgramPath;
+  uint32   InitialProgramPolicy;
+  uint32   PolicySourceClientWallPaper;
+  uint32   PolicySourceInitialProgramPath;
+  uint32   PolicySourceStartIn;
+  string   Startin;
 };
 ```
 
@@ -80,7 +85,7 @@ The **Win32\_TSEnvironmentSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -167,7 +172,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The name and the path of the program the user will run immediately after logging on to the RD Session Host server.
+The name and the path of the program the user will run immediately after logging on to the RD Session Host server.
 
 </dd> <dt>
 
@@ -369,7 +374,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The path of the working directory of the program the user will run immediately after logging on to the RD Session Host server.
+The path of the working directory of the program the user will run immediately after logging on to the RD Session Host server.
 
 </dd> <dt>
 
@@ -487,8 +492,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -502,9 +507,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalSetting**](win32-terminalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

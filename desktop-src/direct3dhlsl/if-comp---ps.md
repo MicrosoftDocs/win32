@@ -1,7 +1,12 @@
 ---
 title: if\_comp - ps
 description: Start an if bool - ps...else - ps...endif - ps block, with a condition based on values that could be computed in a shader. This instruction is used to skip a block of code, based on a condition.
-ms.assetid: 'a641e347-df28-4a3f-a461-0b6aee758e59'
+ms.assetid: a641e347-df28-4a3f-a461-0b6aee758e59
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if\_comp - ps

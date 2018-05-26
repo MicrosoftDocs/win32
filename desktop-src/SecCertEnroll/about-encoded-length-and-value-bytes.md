@@ -1,7 +1,12 @@
 ---
-Description: 'The Length field in a TLV triplet identifies the number of bytes encoded in the Value field.'
-ms.assetid: 'd72371f9-fe55-468d-b15b-0f8948674619'
+Description: The Length field in a TLV triplet identifies the number of bytes encoded in the Value field.
+ms.assetid: d72371f9-fe55-468d-b15b-0f8948674619
 title: Encoded Length and Value Bytes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoded Length and Value Bytes

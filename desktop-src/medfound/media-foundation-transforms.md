@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Media Foundation Transforms
-ms.assetid: 'cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0'
+ms.assetid: cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0
 title: Media Foundation Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation Transforms
@@ -36,7 +41,7 @@ This section describes the MFT programming model and how to implement an MFT, wi
 [Media Foundation Architecture](media-foundation-architecture.md)
 </dt> <dt>
 
-[**IMFTransform**](imftransform.md)
+[**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 </dt> </dl>
 
  

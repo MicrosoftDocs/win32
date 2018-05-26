@@ -1,7 +1,12 @@
 ---
 title: The Default Handler and Custom Handlers
 description: The Default Handler and Custom Handlers
-ms.assetid: 'b64617e8-3a71-449d-8948-fd997c1550b3'
+ms.assetid: b64617e8-3a71-449d-8948-fd997c1550b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Default Handler and Custom Handlers

@@ -1,7 +1,12 @@
 ---
 title: User Modal Functions
 description: The network management user modal functions get and set system-wide parameters related to security system behavior.
-ms.assetid: 'e655b9f6-2808-4bd4-998c-c8a2e980920b'
+ms.assetid: e655b9f6-2808-4bd4-998c-c8a2e980920b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Modal Functions
@@ -14,8 +19,8 @@ The user modal functions are listed following.
 
 | Function                                     | Description                                                                                                                                                                                             |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NetUserModalsGet**](netusermodalsget.md) | Returns global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory. |
-| [**NetUserModalsSet**](netusermodalsset.md) | Sets global information for all users and global groups in the security database.                                                                                                                       |
+| [**NetUserModalsGet**](/windows/win32/Lmaccess/nf-lmaccess-netusermodalsget?branch=master) | Returns global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory. |
+| [**NetUserModalsSet**](/windows/win32/Lmaccess/nf-lmaccess-netusermodalsset?branch=master) | Sets global information for all users and global groups in the security database.                                                                                                                       |
 
 
 
@@ -25,20 +30,20 @@ The **NetUserModalsGet** and **NetUserModalsSet** functions examine and modify t
 
 User modal information is available at the following levels:
 
--   [**USER\_MODALS\_INFO\_0**](user-modals-info-0-str.md)
--   [**USER\_MODALS\_INFO\_1**](user-modals-info-1-str.md)
--   [**USER\_MODALS\_INFO\_2**](user-modals-info-2-str.md)
--   [**USER\_MODALS\_INFO\_3**](user-modals-info-3-str.md)
+-   [**USER\_MODALS\_INFO\_0**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_0?branch=master)
+-   [**USER\_MODALS\_INFO\_1**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1?branch=master)
+-   [**USER\_MODALS\_INFO\_2**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_2?branch=master)
+-   [**USER\_MODALS\_INFO\_3**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_3?branch=master)
 
-The following information levels are valid only for [**NetUserModalsSet**](netusermodalsset.md) and replace the older way of passing in a *Parmnum* to set a specific field:
+The following information levels are valid only for [**NetUserModalsSet**](/windows/win32/Lmaccess/nf-lmaccess-netusermodalsset?branch=master) and replace the older way of passing in a *Parmnum* to set a specific field:
 
--   [**USER\_MODALS\_INFO\_1001**](user-modals-info-1001-str.md)
--   [**USER\_MODALS\_INFO\_1002**](user-modals-info-1002-str.md)
--   [**USER\_MODALS\_INFO\_1003**](user-modals-info-1003-str.md)
--   [**USER\_MODALS\_INFO\_1004**](user-modals-info-1004-str.md)
--   [**USER\_MODALS\_INFO\_1005**](user-modals-info-1005-str.md)
--   [**USER\_MODALS\_INFO\_1006**](user-modals-info-1006-str.md)
--   [**USER\_MODALS\_INFO\_1007**](user-modals-info-1007-str.md)
+-   [**USER\_MODALS\_INFO\_1001**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1001?branch=master)
+-   [**USER\_MODALS\_INFO\_1002**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1002?branch=master)
+-   [**USER\_MODALS\_INFO\_1003**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1003?branch=master)
+-   [**USER\_MODALS\_INFO\_1004**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1004?branch=master)
+-   [**USER\_MODALS\_INFO\_1005**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1005?branch=master)
+-   [**USER\_MODALS\_INFO\_1006**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1006?branch=master)
+-   [**USER\_MODALS\_INFO\_1007**](/windows/win32/Lmaccess/ns-lmaccess-_user_modals_info_1007?branch=master)
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see [**IADsDomain**](https://msdn.microsoft.com/library/aa706002).
 

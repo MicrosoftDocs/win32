@@ -1,8 +1,14 @@
 ---
 title: KEYARRAY
 description: KEYARRAY specifies a type used to define an array of keys.
-ms.assetid: 'af1a1d2f-4558-4374-93ab-5a705fc879ca'
-keywords: ["KEYARRAY MIDIPATCHSIZE"]
+ms.assetid: af1a1d2f-4558-4374-93ab-5a705fc879ca
+keywords:
+- KEYARRAY MIDIPATCHSIZE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KEYARRAY
@@ -31,8 +37,8 @@ Each element in the array corresponds to a key-based percussion patch with each 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Version<br/>                  | Musical Instrument Digital Interface (MIDI), MIDI Types<br/>                                        |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
@@ -45,9 +51,9 @@ Each element in the array corresponds to a key-based percussion patch with each 
 [MIDI Types](midi-event-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

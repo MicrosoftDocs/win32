@@ -1,8 +1,9 @@
 ---
 title: TranslateBitmapBits function
 description: The TranslateBitmapBits function translates the colors of a bitmap having a defined format so as to produce another bitmap in a requested format.
-ms.assetid: 'c37f821c-fb03-4b98-9ee0-c0ad7fff4685'
-keywords: ["TranslateBitmapBits function Windows Color System"]
+ms.assetid: c37f821c-fb03-4b98-9ee0-c0ad7fff4685
+keywords:
+- TranslateBitmapBits function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TranslateBitmapBits function
@@ -22,17 +28,17 @@ The **TranslateBitmapBits** function translates the colors of a bitmap having a 
 
 ```C++
 BOOL WINAPI TranslateBitmapBits(
-   HTRANSFORM    hColorTransform,
-   PVOID         pSrcBits,
-   BMFORMAT      bmInput,
-   DWORD         dwWidth,
-   DWORD         dwHeight,
-   DWORD         dwInputStride,
-   PVOID         pDestBits,
-   BMFORMAT      bmOutput,
-   DWORD         dwOutputStride,
-   PBMCALLBACKFN pfnCallback,
-   LPARAM        ulCallbackData
+   HTRANSFORM    hColorTransform,
+   PVOID         pSrcBits,
+   BMFORMAT      bmInput,
+   DWORD         dwWidth,
+   DWORD         dwHeight,
+   DWORD         dwInputStride,
+   PVOID         pDestBits,
+   BMFORMAT      bmOutput,
+   DWORD         dwOutputStride,
+   PBMCALLBACKFN pfnCallback,
+   LPARAM        ulCallbackData
 );
 ```
 
@@ -64,7 +70,7 @@ Specifies the format of the input bitmap. Must be set to one of the values of th
 > [!Note]  
 > This function does not support [**BM\_XYZTRIPLETS**](bmformat.md) or **BM\_YxyTRIPLETS** as inputs.
 
- 
+ 
 
 </dd> <dt>
 
@@ -142,8 +148,8 @@ When either of the floating point BMFORMATs, BM\_32b\_scARGB or BM\_32b\_scRGB a
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -169,9 +175,9 @@ When either of the floating point BMFORMATs, BM\_32b\_scARGB or BM\_32b\_scRGB a
 [**BMFORMAT**](bmformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

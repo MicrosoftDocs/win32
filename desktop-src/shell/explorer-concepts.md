@@ -1,6 +1,11 @@
 ---
-Description: 'The Shell namespace organizes the file system and other objects managed by the Shell into a single tree-structured hierarchy. Conceptually, it is a larger and more inclusive version of the file system.'
+Description: The Shell namespace organizes the file system and other objects managed by the Shell into a single tree-structured hierarchy. Conceptually, it is a larger and more inclusive version of the file system.
 title: Common Explorer Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Explorer Concepts
@@ -53,7 +58,7 @@ In the context of the namespace, paths are still quite useful for identifying ob
 
 ### Item IDs
 
-Within a folder, each object has an *item ID*, which is the functional equivalent of a file or folder name. The item ID is actually a [**SHITEMID**](shitemid.md) structure:
+Within a folder, each object has an *item ID*, which is the functional equivalent of a file or folder name. The item ID is actually a [**SHITEMID**](/windows/win32/Shtypes/ns-shtypes-_shitemid?branch=master) structure:
 
 
 ```
@@ -65,21 +70,21 @@ typedef struct _SHITEMID {
 
 
 
-The **abID** member is the object's identifier. The length of **abID** is not defined, and its value is determined by the folder that contains the object. Because there is no standard definition for how **abID** values are assigned by folders, they are only meaningful to the associated folder object. Applications should simply treat them as a token that identifies an object in a particular folder. Because the length of **abID** varies, the **cb** member holds the size of the [**SHITEMID**](shitemid.md) structure, in bytes.
+The **abID** member is the object's identifier. The length of **abID** is not defined, and its value is determined by the folder that contains the object. Because there is no standard definition for how **abID** values are assigned by folders, they are only meaningful to the associated folder object. Applications should simply treat them as a token that identifies an object in a particular folder. Because the length of **abID** varies, the **cb** member holds the size of the [**SHITEMID**](/windows/win32/Shtypes/ns-shtypes-_shitemid?branch=master) structure, in bytes.
 
 Because item IDs aren't useful for display purposes, the folder that contains the object normally assigns it a display name. This is the name that is used by Windows Explorer when it displays the contents of a folder. For more information on how display names are handled, see [Getting Information From a Folder](folder-info.md).
 
 ### Item ID Lists
 
-The item ID is rarely used by itself. Normally, it is part of an item ID list, which serves the same purpose as a file system path. However, instead of the character string used for paths, an item ID list is an [**ITEMIDLIST**](itemidlist.md) structure. This structure is an ordered sequence of one or more item IDs, terminated by a two-byte **NULL**. Each item ID in the item ID list corresponds to a namespace object. Their order defines a path in the namespace, much like a file system path.
+The item ID is rarely used by itself. Normally, it is part of an item ID list, which serves the same purpose as a file system path. However, instead of the character string used for paths, an item ID list is an [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure. This structure is an ordered sequence of one or more item IDs, terminated by a two-byte **NULL**. Each item ID in the item ID list corresponds to a namespace object. Their order defines a path in the namespace, much like a file system path.
 
-The following illustration shows a schematic representation of the [**ITEMIDLIST**](itemidlist.md) structure that corresponds to C:\\MyDocs\\MyFile.htm. The display name of each item ID is shown above it. The varying widths of the **abID** members are arbitrary; they illustrate the fact that the size of this member can vary.
+The following illustration shows a schematic representation of the [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure that corresponds to C:\\MyDocs\\MyFile.htm. The display name of each item ID is shown above it. The varying widths of the **abID** members are arbitrary; they illustrate the fact that the size of this member can vary.
 
 ![a schematic illustration of a pidl](images/shell2.png)
 
 ### PIDLs
 
-For the Shell API, namespace objects are usually identified by a pointer to their [**ITEMIDLIST**](itemidlist.md) structure, or pointer to an item identifier list (PIDL). For convenience, the term PIDL will generally refer in this documentation to the structure itself rather than the pointer to it.
+For the Shell API, namespace objects are usually identified by a pointer to their [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure, or pointer to an item identifier list (PIDL). For convenience, the term PIDL will generally refer in this documentation to the structure itself rather than the pointer to it.
 
 The PIDL shown in the preceding illustration is referred to as a *full*, or *absolute*, PIDL. A full PIDL starts from the desktop, and contains the item IDs of all intermediate folders in the path. It ends with the object's item ID followed by a terminating two-byte **NULL**. A full PIDL is similar to a fully qualified path and uniquely identifies the object in the Shell namespace.
 
@@ -93,7 +98,7 @@ As discussed in [Getting a Folder's ID](folder-id.md), the Shell API provides a 
 
 Although PIDLs have some similarity to paths, using them requires a somewhat different approach. The primary difference is in how to allocate and deallocate memory for them.
 
-Like the string used for a path, memory must be allocated for a PIDL. If an application creates a PIDL, it must allocate sufficient memory for the [**ITEMIDLIST**](itemidlist.md) structure. For most of the cases discussed here, the Shell creates the PIDL and handles memory allocation. Regardless of what allocated the PIDL, the application is usually responsible for deallocating the PIDL when it is no longer needed.
+Like the string used for a path, memory must be allocated for a PIDL. If an application creates a PIDL, it must allocate sufficient memory for the [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure. For most of the cases discussed here, the Shell creates the PIDL and handles memory allocation. Regardless of what allocated the PIDL, the application is usually responsible for deallocating the PIDL when it is no longer needed.
 
 Use the [**CoTaskMemAlloc**](com.cotaskmemalloc) function to allocate the PIDL, and the [**CoTaskMemFree**](com.cotaskmemfree) function to deallocate it.
 

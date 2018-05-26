@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.Photo.ExposureProgram. Not intended to be parsed programmatically.'
-ms.assetid: 'ea9c9a56-595b-4fdc-a2ea-f06b915b1754'
-title: 'System.Photo.ExposureProgramText'
+Description: The user-friendly form of System.Photo.ExposureProgram. Not intended to be parsed programmatically.
+ms.assetid: ea9c9a56-595b-4fdc-a2ea-f06b915b1754
+title: System.Photo.ExposureProgramText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureProgramText

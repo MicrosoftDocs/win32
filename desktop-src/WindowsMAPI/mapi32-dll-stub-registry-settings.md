@@ -1,7 +1,12 @@
 ---
-Description: 'The stub library uses values under the default mail key to dispatch Simple MAPI and MAPI calls.'
-ms.assetid: '4CDD0CB1-81EE-458c-8B3B-82AC4FA49BD0'
-title: 'Mapi32.dll Stub Registry Settings'
+Description: The stub library uses values under the default mail key to dispatch Simple MAPI and MAPI calls.
+ms.assetid: 4CDD0CB1-81EE-458c-8B3B-82AC4FA49BD0
+title: Mapi32.dll Stub Registry Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapi32.dll Stub Registry Settings
@@ -32,7 +37,7 @@ The registry values used under a particular mail client key are listed in the fo
 
 
 
- 
+ 
 
 Depending on the type of MAPI call received, the stub library loads the appropriate DLL as defined by the registry keys and values for the default mail client and then dispatches the call. Simple MAPI calls are dispatched to the DLL pointed to by **DLLPath**, and MAPI calls are dispatched to the DLL pointed to by **DLLPathEx**. However, if the **MSIComponentID** registry key is listed under the mail client key, the stub library installs the component on demand using the Windows Installer, loads the DLL, and dispatches the calls.
 
@@ -47,9 +52,9 @@ If the DLLs defined in the default mail client key cannot handle a MAPI call and
 [Mapi32 Stub Library](mapi32-stub-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

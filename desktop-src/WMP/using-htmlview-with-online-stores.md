@@ -1,8 +1,18 @@
 ---
 title: Using HTMLView with Online Stores
 description: Using HTMLView with Online Stores
-ms.assetid: '78de7ef3-400c-4411-8ade-35c421805df8'
-keywords: ["Windows Media Player online stores,HTMLView", "online stores,HTMLView", "type 1 online stores,HTMLView", "type 2 online stores,HTMLView", "HTMLView,online stores"]
+ms.assetid: 78de7ef3-400c-4411-8ade-35c421805df8
+keywords:
+- Windows Media Player online stores,HTMLView
+- online stores,HTMLView
+- type 1 online stores,HTMLView
+- type 2 online stores,HTMLView
+- HTMLView,online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using HTMLView with Online Stores

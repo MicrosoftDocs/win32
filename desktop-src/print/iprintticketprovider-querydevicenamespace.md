@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintTicketProvider::QueryDeviceNamespace method queries the device for its default namespace uniform resource identifier (URI).'
-ms.assetid: 'd4a36a33-f8b8-4b8c-8ff7-918cb8ba79cb'
-title: 'IPrintTicketProvider::QueryDeviceNamespace method'
+---
+Description: The IPrintTicketProviderQueryDeviceNamespace method queries the device for its default namespace uniform resource identifier (URI).
+ms.assetid: d4a36a33-f8b8-4b8c-8ff7-918cb8ba79cb
+title: IPrintTicketProviderQueryDeviceNamespace method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintTicketProvider::QueryDeviceNamespace method

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMFontInstallerDlgProc function
-ms.assetid: '6007723b-c7db-42da-bc50-328e19f80448'
+ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 title: OEMFontInstallerDlgProc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMFontInstallerDlgProc function

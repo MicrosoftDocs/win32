@@ -1,14 +1,15 @@
 ---
 title: MMCN\_RENAME message
-description: The MMCN\_RENAME notification message is sent to either the snap-in's IComponentData or IComponent implementation depending on the type of item (scope or result) that must be renamed.
+description: The MMCN\_RENAME notification message is sent to either the snap-ins IComponentData or IComponent implementation depending on the type of item (scope or result) that must be renamed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1a77e563-e469-466e-b61a-e127dfb19c1a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1a77e563-e469-466e-b61a-e127dfb19c1a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_RENAME message MMC"]
+keywords:
+- MMCN_RENAME message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_RENAME message
 
-The **MMCN\_RENAME** notification message is sent to either the snap-in's [**IComponentData**](icomponentdata.md) or [**IComponent**](icomponent.md) implementation depending on the type of item (scope or result) that must be renamed.
+The **MMCN\_RENAME** notification message is sent to either the snap-in's [**IComponentData**](icomponentdata.md) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation depending on the type of item (scope or result) that must be renamed.
 
 ## Parameters
 
@@ -74,15 +78,15 @@ To disallow the rename.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

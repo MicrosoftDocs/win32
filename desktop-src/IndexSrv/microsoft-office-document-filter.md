@@ -1,7 +1,12 @@
 ---
 title: Microsoft Office Document Filter
 description: Microsoft Office Document Filter
-ms.assetid: 'f2d2a0a6-5a92-4d11-ae87-2fe053b025dc'
+ms.assetid: f2d2a0a6-5a92-4d11-ae87-2fe053b025dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Office Document Filter
@@ -11,7 +16,7 @@ ms.assetid: 'f2d2a0a6-5a92-4d11-ae87-2fe053b025dc'
 
  
 
-This [IFilter](ifilter.md) implementation (in offilt.dll) filters files for the documents in Microsoft Office, including the documents for Word, Excel, and PowerPoint. These include files with the extensions .doc, .mdb, .ppt, and .xlt.
+This [IFilter](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementation (in offilt.dll) filters files for the documents in Microsoft Office, including the documents for Word, Excel, and PowerPoint. These include files with the extensions .doc, .mdb, .ppt, and .xlt.
 
  
 

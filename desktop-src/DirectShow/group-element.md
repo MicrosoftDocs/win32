@@ -1,7 +1,12 @@
 ---
-Description: 'The group element defines a group, the top-level object in a timeline.'
-ms.assetid: 'db2f1fdd-bcb1-4401-91f4-5e167e4da215'
+Description: The group element defines a group, the top-level object in a timeline.
+ms.assetid: db2f1fdd-bcb1-4401-91f4-5e167e4da215
 title: group Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # group Element

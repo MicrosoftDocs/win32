@@ -1,8 +1,11 @@
 ---
 title: INapServerManagement UnregisterSystemHealthValidator method
 description: Is used to unregister an SHV with the NAP server.
-ms.assetid: 'f4148df1-a230-4845-ac8b-9e04be9e0d6c'
-keywords: ["UnregisterSystemHealthValidator method NAP", "UnregisterSystemHealthValidator method NAP , INapServerManagement interface", "INapServerManagement interface NAP , UnregisterSystemHealthValidator method"]
+ms.assetid: f4148df1-a230-4845-ac8b-9e04be9e0d6c
+keywords:
+- UnregisterSystemHealthValidator method NAP
+- UnregisterSystemHealthValidator method NAP , INapServerManagement interface
+- INapServerManagement interface NAP , UnregisterSystemHealthValidator method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerManagement::UnregisterSystemHealthValidator method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerManagement::UnregisterSystemHealthValidator** method is used to unregister an SHV with the NAP server.
 
@@ -27,7 +35,7 @@ The **INapServerManagement::UnregisterSystemHealthValidator** method is used to 
 
 ```C++
 HRESULT UnregisterSystemHealthValidator(
-  [in] SystemHealthEntityId id
+  [in] SystemHealthEntityId id
 );
 ```
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,7 +79,7 @@ If there are any asynchronous calls pending on the SHV, they will complete at a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -85,9 +93,9 @@ If there are any asynchronous calls pending on the SHV, they will complete at a 
 [**INapServerManagement**](inapservermanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

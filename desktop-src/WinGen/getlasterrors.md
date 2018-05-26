@@ -1,8 +1,9 @@
 ---
 title: GetLastErrors function
 description: Retrieves the trace output of the most recent validation session.
-ms.assetid: '4e6cd937-8ba3-4e88-81ee-cc572e9c48eb'
-keywords: ["GetLastErrors function Windows Genuine"]
+ms.assetid: 4e6cd937-8ba3-4e88-81ee-cc572e9c48eb
+keywords:
+- GetLastErrors function Windows Genuine
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - LegitLib.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetLastErrors function
 
-\[This function is no longer available for use as of Windows 7.\]
+\[This function is no longer available for use as of Windows 7.\]
 
 Retrieves the trace output of the most recent validation session.
 
@@ -26,7 +32,7 @@ The **GetLastErrors** function is not declared in a public header and has no ass
 
 ```C++
 HRESULT WINAPI GetLastErrors(
-  _Out_ WCHAR **ppwszTrace
+  _Out_ WCHAR **ppwszTrace
 );
 ```
 
@@ -51,7 +57,7 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 ## Remarks
 
-The Windows Genuine Advantage (WGA) functions are available only on Windows Vista and Windows XP installations that have been validated by clicking **Validate Windows** on [http://www.microsoft.com/genuine](http://go.microsoft.com/fwlink/p/?linkid=157937).
+The Windows Genuine Advantage (WGA) functions are available only on Windows Vista and Windows XP installations that have been validated by clicking **Validate Windows** on [http://www.microsoft.com/genuine](http://go.microsoft.com/fwlink/p/?linkid=157937).
 
 ## Requirements
 
@@ -59,9 +65,9 @@ The Windows Genuine Advantage (WGA) functions are available only on Windows Vist
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | None supported<br/>                                                               |
-| End of client support<br/>    | Windows Vista<br/>                                                                |
+| End of client support<br/>    | Windows Vista<br/>                                                                |
 | End of server support<br/>    | None supported<br/>                                                               |
 | DLL<br/>                      | <dl> <dt>LegitLib.dll</dt> </dl> |
 
@@ -74,9 +80,9 @@ The Windows Genuine Advantage (WGA) functions are available only on Windows Vist
 [Windows Genuine Advantage API Functions](windows-genuine-advantage-api-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Represents a change to a session broker target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ee3ae0ed-eb8b-4777-9b9e-0e50722cf52a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ee3ae0ed-eb8b-4777-9b9e-0e50722cf52a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionBrokerTargetEvent class Remote Desktop Services", "Win32_SessionBrokerTargetEvent class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionBrokerTargetEvent class Remote Desktop Services
+- Win32_SessionBrokerTargetEvent class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionBrokerTargetEvent class
@@ -39,7 +44,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Win32_SessionBrokerTargetEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 ChangeType;
   string PluginName;
@@ -137,7 +142,7 @@ Access type: Read-only
 
 The environment name. In the case of a virtual machine (VM) target, this could be the VM host name.
 
-**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
+**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
 
 </dd> <dt>
 
@@ -152,7 +157,7 @@ Access type: Read-only
 
 The name of the farm the target belongs to.
 
-**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
+**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
 
 </dd> <dt>
 
@@ -167,7 +172,7 @@ Access type: Read-only
 
 The GUID of the target.
 
-**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
+**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
 
 </dd> <dt>
 
@@ -182,7 +187,7 @@ Access type: Read-only
 
 The name of the plug-in.
 
-**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
+**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
 
 </dd> <dt>
 
@@ -210,7 +215,7 @@ Access type: Read-only
 
 The name of the target.
 
-**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
+**Windows Server 2008 R2:** This property is unavailable prior to Windows Server 2012
 
 </dd> <dt>
 
@@ -236,16 +241,16 @@ For more information about using **uint64** values in scripts, see [Scripting in
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

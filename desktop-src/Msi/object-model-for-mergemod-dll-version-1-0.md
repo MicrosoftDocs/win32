@@ -1,7 +1,12 @@
 ---
-Description: 'The object model for Mergemod.dll version 1.0.'
-ms.assetid: 'f4180fd6-23a2-4cd9-b309-016f7333e381'
-title: 'Object Model for Mergemod.dll Version 1.0'
+Description: The object model for Mergemod.dll version 1.0.
+ms.assetid: f4180fd6-23a2-4cd9-b309-016f7333e381
+title: Object Model for Mergemod.dll Version 1.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Model for Mergemod.dll Version 1.0

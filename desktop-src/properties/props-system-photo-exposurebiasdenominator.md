@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Photo\_ExposureBias.'
-ms.assetid: 'fafeb942-1eba-4209-a1eb-00c3f00bbace'
-title: 'System.Photo.ExposureBiasDenominator'
+Description: The denominator of PKEY\_Photo\_ExposureBias.
+ms.assetid: fafeb942-1eba-4209-a1eb-00c3f00bbace
+title: System.Photo.ExposureBiasDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureBiasDenominator

@@ -1,12 +1,17 @@
 ---
-Description: 'The following example can be used as the entry point for a service program that supports a single service.'
-ms.assetid: '7fdfc20a-9148-4ae1-8101-7a387c0d0edc'
-title: 'Writing a Service Program's main Function'
+Description: The following example can be used as the entry point for a service program that supports a single service.
+ms.assetid: 7fdfc20a-9148-4ae1-8101-7a387c0d0edc
+title: Writing a Service Programs main Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Service Program's main Function
 
-The **main** function of a [service program](service-programs.md) calls the [**StartServiceCtrlDispatcher**](startservicectrldispatcher.md) function to connect to the [service control manager](service-control-manager.md) (SCM) and start the control dispatcher thread. The dispatcher thread loops, waiting for incoming control requests for the services specified in the dispatch table. This thread returns when there is an error or when all of the services in the process have terminated. When all services in the process have terminated, the SCM sends a control request to the dispatcher thread telling it to exit. This thread then returns from the **StartServiceCtrlDispatcher** call and the process can terminate.
+The **main** function of a [service program](service-programs.md) calls the [**StartServiceCtrlDispatcher**](/windows/win32/Winsvc/nf-winsvc-startservicectrldispatchera?branch=master) function to connect to the [service control manager](service-control-manager.md) (SCM) and start the control dispatcher thread. The dispatcher thread loops, waiting for incoming control requests for the services specified in the dispatch table. This thread returns when there is an error or when all of the services in the process have terminated. When all services in the process have terminated, the SCM sends a control request to the dispatcher thread telling it to exit. This thread then returns from the **StartServiceCtrlDispatcher** call and the process can terminate.
 
 The following global definitions are used in this sample.
 

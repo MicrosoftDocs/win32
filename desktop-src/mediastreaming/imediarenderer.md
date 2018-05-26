@@ -1,14 +1,21 @@
 ---
 title: IMediaRenderer interface
 description: Encapsulates the methods and events needed to represent a DLNA Digital Media Renderer (DMR) device.
-ms.assetid: 'FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB'
-keywords: ["IMediaRenderer interface Media Streaming API", "IMediaRenderer interface Media Streaming API , described"]
+ms.assetid: FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB
+keywords:
+- IMediaRenderer interface Media Streaming API
+- IMediaRenderer interface Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - IMediaRenderer
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRenderer interface
@@ -57,7 +64,7 @@ The **IMediaRenderer** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -66,9 +73,9 @@ The **IMediaRenderer** interface has these methods.
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The people tags on an image.'
-ms.assetid: '7778abb3-7a1c-4963-8793-ff9d326226d9'
-title: 'System.Photo.PeopleNames'
+Description: The people tags on an image.
+ms.assetid: 7778abb3-7a1c-4963-8793-ff9d326226d9
+title: System.Photo.PeopleNames
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.PeopleNames

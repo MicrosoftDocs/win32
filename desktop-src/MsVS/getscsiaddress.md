@@ -1,8 +1,9 @@
 ---
 title: GetSCSIAddress function
 description: Retrieves the SCSI address of the virtual hard disk (VHD) mounted using the MountVHD function.
-ms.assetid: '880b9ef9-6264-4909-8c24-5772e1963074'
-keywords: ["GetSCSIAddress function Virtual Server"]
+ms.assetid: 880b9ef9-6264-4909-8c24-5772e1963074
+keywords:
+- GetSCSIAddress function Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VHDMount.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSCSIAddress function
@@ -22,10 +28,10 @@ Retrieves the SCSI address of the virtual hard disk (VHD) mounted using the [**M
 
 ```C++
 ULONG WINAPI GetSCSIAddress(
-  _In_  PWCHAR VHDFileName,
-  _In_  ULONG  Flags,
-  _In_  ULONG  SCSIAddressLength,
-  _Out_ PWCHAR SCSIAddress
+  _In_  PWCHAR VHDFileName,
+  _In_  ULONG  Flags,
+  _In_  ULONG  SCSIAddressLength,
+  _Out_ PWCHAR SCSIAddress
 );
 ```
 
@@ -77,7 +83,7 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -85,7 +91,7 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VHDMount.h</dt> </dl>             |
 | Library<br/>  | <dl> <dt>VHDMount.lib</dt> </dl>           |
 | DLL<br/>      | <dl> <dt>VHDMount.dll</dt> </dl>           |
@@ -105,9 +111,9 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 [**VHD\_FLAGS**](vhd-flags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

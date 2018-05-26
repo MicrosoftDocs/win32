@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the setting that indicates whether or not to show the print UI.'
-ms.assetid: '47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4'
-title: 'IPrintSchemaFeature::DisplayUI property'
+---
+Description: Gets the setting that indicates whether or not to show the print UI.
+ms.assetid: 47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4
+title: IPrintSchemaFeatureDisplayUI property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaFeature::DisplayUI property

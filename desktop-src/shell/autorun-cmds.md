@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is a reference for the entries that can be used in an Autorun.inf file. An entry consists of a key and a value.'
-ms.assetid: '5b8fd559-b1be-4552-a7be-19ad107855af'
-title: 'Autorun.inf Entries'
+Description: This topic is a reference for the entries that can be used in an Autorun.inf file. An entry consists of a key and a value.
+ms.assetid: 5b8fd559-b1be-4552-a7be-19ad107855af
+title: Autorun.inf Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Autorun.inf Entries
@@ -262,7 +267,7 @@ Once again, the action taken by the Shell when this CD is inserted depends on th
 
 ### shellexecute
 
-[Version 5.0.](versions.md) The **shellexecute** entry specifies an application or data file that AutoRun will use to call [**ShellExecuteEx**](shellexecuteex.md).
+[Version 5.0.](versions.md) The **shellexecute** entry specifies an application or data file that AutoRun will use to call [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master).
 
 
 ```
@@ -279,11 +284,11 @@ shellexecute=[filepath\]filename[param1, [param2]...]
 
 -   *filename*
 
-    A string that contains the file's name. If it is an executable file, it is launched. If it is a data file, it must be a member of a [file type](fa-file-types.md). [**ShellExecuteEx**](shellexecuteex.md) launches the default command associated with the file type.
+    A string that contains the file's name. If it is an executable file, it is launched. If it is a data file, it must be a member of a [file type](fa-file-types.md). [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) launches the default command associated with the file type.
 
 -   *paramx*
 
-    Contains any additional parameters that should be passed to [**ShellExecuteEx**](shellexecuteex.md).
+    Contains any additional parameters that should be passed to [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master).
 
 ### Remarks
 

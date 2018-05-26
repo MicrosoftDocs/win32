@@ -1,13 +1,16 @@
 ---
-Description: 'When a user application requests data from objects on the system through a WMI provider, impersonation means the provider presents credentials that represent the client's security level rather than the provider's.'
+Description: When a user application requests data from objects on the system through a WMI provider, impersonation means the provider presents credentials that represent the clients security level rather than the providers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6d54f234-45aa-445b-ad50-7d5a9946c134'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6d54f234-45aa-445b-ad50-7d5a9946c134
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Impersonating a Client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Impersonating a Client
@@ -69,20 +72,20 @@ instance of __Win32Provider
 
 ## Setting Impersonation Levels Within a Provider
 
-If you register a provider with the [**\_\_Win32Provider**](--win32provider.md) class property [**ImpersonationLevel**](swbemsecurity-impersonationlevel.md) set to 1, then WMI calls your provider to impersonate various clients. To handle these calls, use the [**CoImpersonateClient**](_com_coimpersonateclient) and [**CoRevertToSelf**](_com_coreverttoself) COM functions in your implementation of the [**IWbemServices**](iwbemservices.md) interface.
+If you register a provider with the [**\_\_Win32Provider**](--win32provider.md) class property [**ImpersonationLevel**](swbemsecurity-impersonationlevel.md) set to 1, then WMI calls your provider to impersonate various clients. To handle these calls, use the [**CoImpersonateClient**](_com_coimpersonateclient) and [**CoRevertToSelf**](_com_coreverttoself) COM functions in your implementation of the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface.
 
-The [**CoImpersonateClient**](_com_coimpersonateclient) function allows a server to impersonate the client that made the call. By placing a call to **CoImpersonateClient** into your implementation of [**IWbemServices**](iwbemservices.md), you allow your provider to set the thread token of the provider to match the thread token of the client, and thus impersonate the client. If you do not call **CoImpersonateClient**, your provider executes code at an administrator level of security, thereby creating a potential security vulnerability. If your provider temporarily needs to act as an administrator or perform the access check manually, then call [**CoRevertToSelf**](_com_coreverttoself).
+The [**CoImpersonateClient**](_com_coimpersonateclient) function allows a server to impersonate the client that made the call. By placing a call to **CoImpersonateClient** into your implementation of [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master), you allow your provider to set the thread token of the provider to match the thread token of the client, and thus impersonate the client. If you do not call **CoImpersonateClient**, your provider executes code at an administrator level of security, thereby creating a potential security vulnerability. If your provider temporarily needs to act as an administrator or perform the access check manually, then call [**CoRevertToSelf**](_com_coreverttoself).
 
 In contrast to [**CoImpersonateClient**](_com_coimpersonateclient), [**CoRevertToSelf**](_com_coreverttoself) is a COM function that handles thread impersonation levels. In this case, **CoRevertToSelf** changes the impersonation level back to the original impersonation setting. In general, the provider is initially an administrator and alternates between **CoImpersonateClient** and **CoRevertToSelf** depending on whether it is making a call that represents the caller or its own calls. It is the responsibility of the provider to place these calls correctly so as not to expose a security hole to the end user. For example, the provider should only call native Windows functions within the impersonated code sequence.
 
 > [!Note]  
-> The purpose of [**CoImpersonateClient**](_com_coimpersonateclient) and [**CoRevertToSelf**](_com_coreverttoself) is to set security for a provider. If you determine that your impersonation has failed, you should return an appropriate completion code to WMI through [**IWbemObjectSink::SetStatus**](iwbemobjectsink-setstatus.md). For more information, see [Handling Access Denied Messages in a Provider](#handling-access-denied-messages-in-a-provider).
+> The purpose of [**CoImpersonateClient**](_com_coimpersonateclient) and [**CoRevertToSelf**](_com_coreverttoself) is to set security for a provider. If you determine that your impersonation has failed, you should return an appropriate completion code to WMI through [**IWbemObjectSink::SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master). For more information, see [Handling Access Denied Messages in a Provider](#handling-access-denied-messages-in-a-provider).
 
  
 
 ## Maintaining Security Levels in a Provider
 
-Providers cannot call [**CoImpersonateClient**](_com_coimpersonateclient) one time in an implementation of [**IWbemServices**](iwbemservices.md) and assume that the impersonation credentials remain in place for the duration of the provider. Instead, call **CoImpersonateClient** multiple times during the course of an implementation to keep WMI from changing the credentials.
+Providers cannot call [**CoImpersonateClient**](_com_coimpersonateclient) one time in an implementation of [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) and assume that the impersonation credentials remain in place for the duration of the provider. Instead, call **CoImpersonateClient** multiple times during the course of an implementation to keep WMI from changing the credentials.
 
 The main concern for setting impersonation for a provider is reentrancy. In this context, reentrancy is when a provider makes a call to WMI for information and waits until WMI calls back into the provider. In essence, the thread of execution leaves the provider code, only to reenter the code at a later date. Reentry is a part of the design of COM, and is generally not a concern. However, when the thread of execution enters WMI, the thread takes on the impersonation levels of WMI. When the thread returns to the provider, you must reset the impersonation levels with another call to [**CoImpersonateClient**](_com_coimpersonateclient).
 

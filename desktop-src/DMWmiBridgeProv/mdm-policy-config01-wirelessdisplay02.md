@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_WirelessDisplay02 class
 description: The MDM\_Policy\_Config01\_WirelessDisplay02 class represents the wireless display policies available.
-ms.assetid: '24b72ed9-cc14-4318-a9d1-597976083242'
-keywords: ["MDM_Policy_Config01_WirelessDisplay02 class", "MDM_Policy_Config01_WirelessDisplay02 class, described"]
+ms.assetid: 24b72ed9-cc14-4318-a9d1-597976083242
+keywords:
+- MDM_Policy_Config01_WirelessDisplay02 class
+- MDM_Policy_Config01_WirelessDisplay02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_WirelessDisplay02 class
@@ -180,7 +187,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl>       |
@@ -188,9 +195,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

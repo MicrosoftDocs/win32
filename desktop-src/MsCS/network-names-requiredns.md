@@ -4,26 +4,31 @@ description: This property is not supported. DNS registration is not required fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '892487c7-ee96-4598-84ad-e69c37b0f910'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 892487c7-ee96-4598-84ad-e69c37b0f910
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RequireDNS Failover Cluster ,for network names", "RequireDNS Failover Cluster"]
+keywords:
+- RequireDNS Failover Cluster ,for network names
+- RequireDNS Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RequireDNS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequireDNS
 
-\[This property is available for use only in Windows Server 2003.\]
+\[This property is available for use only in Windows Server 2003.\]
 
 This property is not supported. DNS registration is not required for a [Network Name](network-name.md) resource.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 The **RequireDNS** property determines whether DNS registration is required for a [Network Name](network-name.md) resource. The following table summarizes the attributes of the **RequireDNS** property.
 
@@ -34,14 +39,14 @@ The **RequireDNS** property determines whether DNS registration is required for 
 | Data type<br/> | **DWORD**<br/>                                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>                   |
 | Status<br/>    | Optional<br/>                                                  |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/>                 |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                 |
 | Minimum<br/>   | 0 (DNS registration not required)<br/>                         |
 | Maximum<br/>   | 1 (DNS registration required for resource to come online)<br/> |
 | Default<br/>   | 0<br/>                                                         |
 
 
 
- 
+ 
 
 If **RequireDNS** is set to 1, the [Network Name](network-name.md) resource cannot come online if DNS registration fails.
 
@@ -68,8 +73,8 @@ RequireDNSValue.dw        = RequireDNSData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -86,9 +91,9 @@ RequireDNSValue.dw        = RequireDNSData;
 [**ResourceData**](network-names-resourcedata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

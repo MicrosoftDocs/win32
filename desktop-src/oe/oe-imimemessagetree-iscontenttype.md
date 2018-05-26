@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree IsContentType method
 description: Queries the Content-Type of a specified body.
-ms.assetid: '5ef72e1a-ee97-4994-8ca1-da44b47cc6e3'
-keywords: ["IsContentType method Windows Mail (formerly Outlook Express)", "IsContentType method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , IsContentType method"]
+ms.assetid: 5ef72e1a-ee97-4994-8ca1-da44b47cc6e3
+keywords:
+- IsContentType method Windows Mail (formerly Outlook Express)
+- IsContentType method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , IsContentType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::IsContentType method
@@ -22,9 +30,9 @@ Queries the [Content-Type](http://msdn.microsoft.com/library/cdosys/html/48f7ae1
 
 ```C++
 HRESULT IsContentType(
-  [in] HBODY  hBody,
-  [in] LPCSTR pszPriType,
-  [in] LPCSTR pszSubType
+  [in] HBODY  hBody,
+  [in] LPCSTR pszPriType,
+  [in] LPCSTR pszSubType
 );
 ```
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,8 +103,8 @@ pPropertySet-&gt;[**IsContentType**](oe-imimepropertyset-iscontenttype.md)(*pszP
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -104,9 +112,9 @@ pPropertySet-&gt;[**IsContentType**](oe-imimepropertyset-iscontenttype.md)(*pszP
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational ConvertBuffer method
 description: Converts the buffer from one code page to another code page.
-ms.assetid: '4b24dd80-0e7a-4391-bec3-decea0814f75'
-keywords: ["ConvertBuffer method Windows Mail (formerly Outlook Express)", "ConvertBuffer method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , ConvertBuffer method"]
+ms.assetid: 4b24dd80-0e7a-4391-bec3-decea0814f75
+keywords:
+- ConvertBuffer method Windows Mail (formerly Outlook Express)
+- ConvertBuffer method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , ConvertBuffer method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::ConvertBuffer method
@@ -22,11 +30,11 @@ Converts the buffer from one code page to another code page.
 
 ```C++
 HRESULT ConvertBuffer(
-  [in]      CODEPAGEID cpiSource,
-  [in]      CODEPAGEID cpiDest,
-  [in]      LPBLOB     pIn,
-  [in, out] LPBLOB     pOut,
-  [out]     ULONG      *pcbRead
+  [in]      CODEPAGEID cpiSource,
+  [in]      CODEPAGEID cpiDest,
+  [in]      LPBLOB     pIn,
+  [in, out] LPBLOB     pOut,
+  [out]     ULONG      *pcbRead
 );
 ```
 
@@ -99,7 +107,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -113,8 +121,8 @@ On successful return, *pcbRead* contains the number of bytes read from *pIn*-&gt
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -122,9 +130,9 @@ On successful return, *pcbRead* contains the number of bytes read from *pIn*-&gt
 
 
 
- 
+ 
 
- 
+ 
 
 
 

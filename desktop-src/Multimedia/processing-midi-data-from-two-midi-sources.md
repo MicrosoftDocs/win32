@@ -1,8 +1,20 @@
 ---
 title: Processing MIDI Data from Two MIDI Sources
 description: Processing MIDI Data from Two MIDI Sources
-ms.assetid: 'd8b605d9-a12a-4830-8f29-ea700aefb41d'
-keywords: ["Windows multimedia,processing MIDI data from two sources", "multimedia,processing MIDI data from two sources", "multimedia audio,processing MIDI data from two sources", "audio,processing MIDI data from two sources", "Musical Instrument Digital Interface (MIDI),processing data from two sources", "MIDI (Musical Instrument Digital Interface),processing data from two sources", "processing MIDI data from two sources"]
+ms.assetid: d8b605d9-a12a-4830-8f29-ea700aefb41d
+keywords:
+- Windows multimedia,processing MIDI data from two sources
+- multimedia,processing MIDI data from two sources
+- multimedia audio,processing MIDI data from two sources
+- audio,processing MIDI data from two sources
+- Musical Instrument Digital Interface (MIDI),processing data from two sources
+- MIDI (Musical Instrument Digital Interface),processing data from two sources
+- processing MIDI data from two sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing MIDI Data from Two MIDI Sources

@@ -4,18 +4,26 @@ description: If the quota derives from a template, you should update the templat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fce6ce55-3fb5-46bc-8f26-3071df54767e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: fce6ce55-3fb5-46bc-8f26-3071df54767e
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , updating a quota", "quotas File Server Resource Manager", "templates for quotas File Server Resource Manager", "updating quotas File Server Resource Manager", "updating templates File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , updating a quota
+- quotas File Server Resource Manager
+- templates for quotas File Server Resource Manager
+- updating quotas File Server Resource Manager
+- updating templates File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Updating a Quota
 
 If the quota derives from a template, you should update the template and then apply the changes to all derived quotas. If you update the quota directly, you may lose your changes if later, the template is updated.
 
-When you update a template, you can apply the updates to only those quotas that match the template, or you can force the updates on all derived quotas. To determine if a quota matches the template from which it derives, access the [**IFsrmQuotaObject::MatchesSourceTemplate**](ifsrmquotaobject-matchessourcetemplate.md) property.
+When you update a template, you can apply the updates to only those quotas that match the template, or you can force the updates on all derived quotas. To determine if a quota matches the template from which it derives, access the [**IFsrmQuotaObject::MatchesSourceTemplate**](/windows/previous-versions/FsrmQuota/nf-fsrmquota-ifsrmquotaobject-get_matchessourcetemplate?branch=master) property.
 
 The following example shows how to update a template and apply the changes to derived quotas. The example updates the template that you created for the example in [Defining and Using Automatic Quotas](defining-and-using-automatic-quotas.md).
 

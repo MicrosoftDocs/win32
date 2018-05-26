@@ -1,8 +1,24 @@
 ---
 title: Programming Guide
 description: Programming Guide
-ms.assetid: '8834cc4e-0e2d-4776-8676-f4b6e1614a4b'
-keywords: ["Windows Media Device Manager,programming guide", "Device Manager,programming guide", "Windows Media Device Manager,desktop applications", "Device Manager,desktop applications", "Windows Media Device Manager,service providers", "Device Manager,service providers", "desktop applications,programming guide", "service providers,programming guide", "programming guide,desktop applications", "programming guide,service providers", "programming guide,Windows Media Device Manager"]
+ms.assetid: 8834cc4e-0e2d-4776-8676-f4b6e1614a4b
+keywords:
+- Windows Media Device Manager,programming guide
+- Device Manager,programming guide
+- Windows Media Device Manager,desktop applications
+- Device Manager,desktop applications
+- Windows Media Device Manager,service providers
+- Device Manager,service providers
+- desktop applications,programming guide
+- service providers,programming guide
+- programming guide,desktop applications
+- programming guide,service providers
+- programming guide,Windows Media Device Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

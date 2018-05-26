@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the horizontal and vertical position of the mouse cursor.'
-ms.assetid: '7845E10A-7F61-4134-BF81-AED5483F36AD'
-title: 'SetAbsolutePosition method of the Msvm\_SyntheticMouse class'
+Description: Sets the horizontal and vertical position of the mouse cursor.
+ms.assetid: 7845E10A-7F61-4134-BF81-AED5483F36AD
+title: SetAbsolutePosition method of the Msvm\_SyntheticMouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAbsolutePosition method of the Msvm\_SyntheticMouse class
@@ -13,8 +18,8 @@ Sets the horizontal and vertical position of the mouse cursor.
 
 ```mof
 uint32 SetAbsolutePosition(
-  [in] sint32 horizontalPosition,
-  [in] sint32 verticalPosition
+  [in] sint32 horizontalPosition,
+  [in] sint32 verticalPosition
 );
 ```
 
@@ -99,8 +104,8 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Dbdao.h</dt> </dl>                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
@@ -115,9 +120,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

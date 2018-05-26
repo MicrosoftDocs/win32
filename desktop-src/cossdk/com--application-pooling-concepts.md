@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ application pooling allows single-threaded processes to scale, similar to the way that thread pooling allows single-threaded objects to scale.'
-ms.assetid: '28bd13d9-ff5c-456e-ab98-d2ff3a499f1c'
+Description: COM+ application pooling allows single-threaded processes to scale, similar to the way that thread pooling allows single-threaded objects to scale.
+ms.assetid: 28bd13d9-ff5c-456e-ab98-d2ff3a499f1c
 title: COM+ Application Pooling Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Application Pooling Concepts
@@ -13,9 +18,9 @@ COM+ application pooling allows single-threaded processes to scale, similar to t
 
  
 
-All methods of the [**ICOMAdminCatalog2**](icomadmincatalog2.md) interface support application pooling.
+All methods of the [**ICOMAdminCatalog2**](/windows/win32/ComAdmin/nn-comadmin-icomadmincatalog2?branch=master) interface support application pooling.
 
-COM+ application pooling is configurable per application by using the ConcurrentApps property of the [**COMAdminCatalogObject**](comadmincatalogobject.md) object in the [**Applications**](applications.md) collection. ConcurrentApps is an integer value that specifies the maximum number of simultaneous Dllhost processes that should be started to service activations for an application. This property can be set by using the Component Services administration tool or programmatically.
+COM+ application pooling is configurable per application by using the ConcurrentApps property of the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object in the [**Applications**](applications.md) collection. ConcurrentApps is an integer value that specifies the maximum number of simultaneous Dllhost processes that should be started to service activations for an application. This property can be set by using the Component Services administration tool or programmatically.
 
 If the ConcurrentApps property is set to 1, which is the default value, the COM+ Application Pooling service is disabled.
 

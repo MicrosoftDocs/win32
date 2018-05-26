@@ -1,8 +1,9 @@
 ---
 title: EM\_EXLIMITTEXT message
 description: Sets an upper limit to the amount of text the user can type or paste into a rich edit control.
-ms.assetid: '66fcdbb9-99ac-4122-b89c-be4aef80fbae'
-keywords: ["EM_EXLIMITTEXT message Windows Controls"]
+ms.assetid: 66fcdbb9-99ac-4122-b89c-be4aef80fbae
+keywords:
+- EM_EXLIMITTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_EXLIMITTEXT message
@@ -51,8 +57,8 @@ Before **EM\_EXLIMITTEXT** is called, the default limit to the amount of text a 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ Before **EM\_EXLIMITTEXT** is called, the default limit to the amount of text a 
 [**EM\_STREAMIN**](em-streamin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

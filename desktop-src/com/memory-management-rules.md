@@ -1,12 +1,17 @@
 ---
 title: Memory Management Rules
 description: Memory Management Rules
-ms.assetid: '769127a1-1a14-4ed4-9d38-7cf3e571b661'
+ms.assetid: 769127a1-1a14-4ed4-9d38-7cf3e571b661
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management Rules
 
-The lifetime of pointers to interfaces is always managed through the [**AddRef**](iunknown-addref.md) and [**Release**](iunknown-release.md) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
+The lifetime of pointers to interfaces is always managed through the [**AddRef**](/windows/win32/unknwnbase/nf-unknwn-iunknown-addref?branch=master) and [**Release**](/windows/win32/unknwnbase/nf-unknwn-iunknown-release?branch=master) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
 
 For all other parameters, it is important to adhere to certain rules for managing memory. The following rules apply to all parameters of interface methodsâ€”including the return valueâ€”that are not passed by value:
 

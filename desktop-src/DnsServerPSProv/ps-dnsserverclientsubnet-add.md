@@ -2,13 +2,16 @@
 title: Add method of the Ps\_DnsServerClientSubnet class
 description: Adds a client subnet record to the client subnet database on the DNS server.
 audience: developer
-ms.assetid: '649B3E41-1EFC-4B9C-97E8-1632DCCC3E4A'
-ms.prod: 'windows-server-dev'
+ms.assetid: 649B3E41-1EFC-4B9C-97E8-1632DCCC3E4A
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, Ps_DnsServerClientSubnet class", "Ps_DnsServerClientSubnet class, Add method"]
+keywords:
+- Add method
+- Add method, Ps_DnsServerClientSubnet class
+- Ps_DnsServerClientSubnet class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the Ps\_DnsServerClientSubnet class
@@ -28,12 +34,12 @@ Adds a client subnet record to the client subnet database on the DNS server.
 
 ```mof
 uint32 Add(
-  [in]  string                Name,
-  [in]  string                IPv4Subnet[],
-  [in]  string                IPv6Subnet[],
-  [in]  boolean               PassThru,
-  [in]  string                ComputerName,
-  [out] DnsServerClientSubnet cmdletOutput
+  [in]  string                Name,
+  [in]  string                IPv4Subnet[],
+  [in]  string                IPv6Subnet[],
+  [in]  boolean               PassThru,
+  [in]  string                ComputerName,
+  [out] DnsServerClientSubnet cmdletOutput
 );
 ```
 
@@ -96,7 +102,7 @@ If this operation succeeds, this method returns "0"; otherwise, it returns a WMI
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -110,9 +116,9 @@ If this operation succeeds, this method returns "0"; otherwise, it returns a WMI
 [**Ps\_DnsServerClientSubnet**](ps-dnsserverclientsubnet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

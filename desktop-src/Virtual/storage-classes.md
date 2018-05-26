@@ -1,7 +1,12 @@
 ---
 title: Storage Classes
 description: The storage objects are separated into three types controllers, drives, and media.
-ms.assetid: 'c1b6c8f7-049e-4cb1-8423-969cb230ffbe'
+ms.assetid: c1b6c8f7-049e-4cb1-8423-969cb230ffbe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage Classes
@@ -36,7 +41,7 @@ The following are virtualization WMI classes related to storage. There is also s
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +50,9 @@ The following are virtualization WMI classes related to storage. There is also s
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

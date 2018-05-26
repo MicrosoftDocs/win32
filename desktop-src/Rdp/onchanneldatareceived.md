@@ -4,11 +4,12 @@ description: Called when data is received from an attendee.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6bd71aad-66a0-46e4-8e0e-c59cae694de7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6bd71aad-66a0-46e4-8e0e-c59cae694de7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnChannelDataReceived event RDP"]
+keywords:
+- OnChannelDataReceived event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnChannelDataReceived event
@@ -28,9 +32,9 @@ Called when data is received from an attendee.
 
 ```C++
 void OnChannelDataReceived(
-  [in] IUnknown *pChannel,
-  [in] long     lAttendeeId,
-  [in] BSTR     bstrData
+  [in] IUnknown *pChannel,
+  [in] long     lAttendeeId,
+  [in] BSTR     bstrData
 );
 ```
 
@@ -50,7 +54,7 @@ Channel that received the data.
 *lAttendeeId* \[in\]
 </dt> <dd>
 
-Identifies the attendee who sent the data. To get the attendee, use the identifier when accessing the [**Item Property of IRDPSRAPIAttendeeManager**](irdpsrapiattendeemanager-item.md).
+Identifies the attendee who sent the data. To get the attendee, use the identifier when accessing the [**Item Property of IRDPSRAPIAttendeeManager**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapiattendeemanager-get_item?branch=master).
 
 </dd> <dt>
 
@@ -71,8 +75,8 @@ This event does not return a value.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -84,12 +88,12 @@ This event does not return a value.
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

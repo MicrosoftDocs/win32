@@ -1,8 +1,9 @@
 ---
 title: External.OnChangeViewError Event
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'd6370629-5f50-434d-8eb5-5b43d1b2f7fe'
-keywords: ["External.OnChangeViewError Event Windows Media Player"]
+ms.assetid: d6370629-5f50-434d-8eb5-5b43d1b2f7fe
+keywords:
+- External.OnChangeViewError Event Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.OnChangeViewError Event
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **OnChangeViewError** event occurs when a call to the [External.changeView](external-changeview.md) method results in an error.
 
@@ -89,9 +95,9 @@ The same string that was passed in the **ViewParams** parameter of **changeView*
 [**ExternalObject for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

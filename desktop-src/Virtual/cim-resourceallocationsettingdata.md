@@ -1,8 +1,10 @@
 ---
 title: CIM\_ResourceAllocationSettingData class
 description: Represents settings for an allocated resource that are outside the scope of the CIM class typically used to represent the resource itself.
-ms.assetid: 'e0aa95dc-765f-4689-a5aa-9d90e48cc0c2'
-keywords: ["CIM_ResourceAllocationSettingData class Hyper-V", "CIM_ResourceAllocationSettingData class Hyper-V , described"]
+ms.assetid: e0aa95dc-765f-4689-a5aa-9d90e48cc0c2
+keywords:
+- CIM_ResourceAllocationSettingData class Hyper-V
+- CIM_ResourceAllocationSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourceAllocationSettingData class
@@ -48,27 +55,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Experimental, Version("2.13.0"), AMENDMENT]
 class CIM_ResourceAllocationSettingData : CIM_SettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
 };
 ```
 
@@ -213,14 +220,14 @@ The consumers visibility to the allocated resource.
 **DMTF reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -297,7 +304,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -369,14 +376,14 @@ Indicates how the resource maps to underlying resources.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -670,14 +677,14 @@ The type of resource that is represented by the allocation settings.
 **DMTF reserved**
 
 
-</dt> <dd>34–32767</dd> <dt>
+</dt> <dd>34 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–35535</dd> </dl>
+</dt> <dd>32768 35535</dd> </dl>
 
 </dd> <dt>
 
@@ -714,9 +721,9 @@ The relative priority for this allocation in relation to other allocations from 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -729,9 +736,9 @@ The relative priority for this allocation in relation to other allocations from 
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

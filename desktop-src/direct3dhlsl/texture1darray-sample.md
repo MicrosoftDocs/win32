@@ -1,12 +1,18 @@
 ---
 title: Texture1DArray Sample methods
 description: Samples a texture.
-ms.assetid: '3BCE2D4F-24F8-427C-A23B-18E26CCE6392'
-keywords: ["Sample methods HLSL"]
+ms.assetid: 3BCE2D4F-24F8-427C-A23B-18E26CCE6392
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1DArray::Sample methods
@@ -35,9 +41,9 @@ Samples a texture.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

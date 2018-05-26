@@ -1,8 +1,11 @@
 ---
 title: Error.clearErrorQueue method
 description: The clearErrorQueue method clears the errors from the error queue.
-ms.assetid: '306f0700-88b1-4433-8abb-7d225e82060a'
-keywords: ["clearErrorQueue method Windows Media Player", "clearErrorQueue method Windows Media Player , Error class", "Error class Windows Media Player , clearErrorQueue method"]
+ms.assetid: 306f0700-88b1-4433-8abb-7d225e82060a
+keywords:
+- clearErrorQueue method Windows Media Player
+- clearErrorQueue method Windows Media Player , Error class
+- Error class Windows Media Player , clearErrorQueue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.clearErrorQueue method
@@ -87,9 +95,9 @@ Player.error.clearErrorQueue();
 [**Error Object**](error-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

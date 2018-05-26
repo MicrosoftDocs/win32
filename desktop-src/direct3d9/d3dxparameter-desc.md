@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a parameter used for an effect object.'
-ms.assetid: '60d19b52-67ef-4903-bbde-922a8fac1ad8'
-title: 'D3DXPARAMETER\_DESC structure'
+---
+Description: Describes a parameter used for an effect object.
+ms.assetid: 60d19b52-67ef-4903-bbde-922a8fac1ad8
+title: D3DXPARAMETER\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPARAMETER\_DESC structure

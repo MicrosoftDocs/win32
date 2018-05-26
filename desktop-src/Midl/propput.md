@@ -2,13 +2,19 @@
 title: propput attribute
 description: The \ propput\ attribute specifies a property-setting function. The property must have the same name as the function.
 ms.assetid: ffd8af15-42a4-4852-a29b-1fc66f673978
-keywords: ["propput attribute MIDL"]
+keywords:
+- propput attribute MIDL
 topic_type:
 - apiref
 api_name:
 - propput
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propput attribute

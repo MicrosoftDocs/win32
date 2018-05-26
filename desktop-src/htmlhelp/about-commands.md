@@ -1,7 +1,12 @@
 ---
 title: About Commands
 description: The HTML Help API supports a set of commands (uCommand values) that enable you to access functionality programmatically.
-ms.assetid: 'F5919FDD-48CD-48f2-B8F1-DBEAD660C447'
+ms.assetid: F5919FDD-48CD-48f2-B8F1-DBEAD660C447
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Commands

@@ -1,8 +1,11 @@
 ---
 title: External.showPopup method
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '17958543-dbed-45a5-9b02-4800a07cb820'
-keywords: ["showPopup method Windows Media Player", "showPopup method Windows Media Player , External class", "External class Windows Media Player , showPopup method"]
+ms.assetid: 17958543-dbed-45a5-9b02-4800a07cb820
+keywords:
+- showPopup method Windows Media Player
+- showPopup method Windows Media Player , External class
+- External class Windows Media Player , showPopup method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.showPopup method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **showPopup** method instructs Windows Media Player to display a pop-up webpage; that is, a webpage that appears in a separate window.
 
@@ -64,7 +72,7 @@ The following steps show how Windows Media Player uses the parameters of the **s
 
 1.  Script on a discovery page calls **showPopup**, passing an integer in *PopupIndex* and a string in *Parameters*.
 
-2.  Windows Media Player passes the index to [IWMPContentPartner::GetItemInfo](iwmpcontentpartner-getiteminfo.md) to retrieve the URL of the webpage to be displayed.
+2.  Windows Media Player passes the index to [IWMPContentPartner::GetItemInfo](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo?branch=master) to retrieve the URL of the webpage to be displayed.
 
 3.  Windows Media Player appends *Parameters* to the URL as a query string. For example, if **GetItemInfo** returns "http://www.Proseware.com/Pages/Popup1.htm" and *Parameters* is equal to "DlgX=800&DlgY=400&Greeting=Hi", Windows Media Player creates the following URL:
 
@@ -90,9 +98,9 @@ You can use *Parameters* to specify the size of the pop-up window. For example, 
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

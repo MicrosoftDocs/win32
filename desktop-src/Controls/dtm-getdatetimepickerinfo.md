@@ -1,8 +1,9 @@
 ---
 title: DTM\_GETDATETIMEPICKERINFO message
 description: Gets information on a date and time picker (DTP) control.
-ms.assetid: '04847b68-ac45-4b28-8f62-2cd68ffe48d4'
-keywords: ["DTM_GETDATETIMEPICKERINFO message Windows Controls"]
+ms.assetid: 04847b68-ac45-4b28-8f62-2cd68ffe48d4
+keywords:
+- DTM_GETDATETIMEPICKERINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_GETDATETIMEPICKERINFO message
@@ -29,7 +35,7 @@ Must be zero.
 </dd> <dt>
 
 *lParam* \[in\]
-</dt> <dd> A pointer to [**DATETIMEPICKERINFO**](datetimepickerinfo.md) to receive the information. The caller is responsible for allocating the memory for this structure. Set the **cbSize** member of the structure to sizeof(DATETIMEPICKERINFO) before sending this message.</dd> </dl>
+</dt> <dd> A pointer to [**DATETIMEPICKERINFO**](/windows/win32/Commctrl/ns-commctrl-tagdatetimepickerinfo?branch=master) to receive the information. The caller is responsible for allocating the memory for this structure. Set the **cbSize** member of the structure to sizeof(DATETIMEPICKERINFO) before sending this message.</dd> </dl>
 
 ## Return value
 
@@ -41,15 +47,15 @@ Return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

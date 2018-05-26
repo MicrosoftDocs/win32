@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI2::DocumentEvent method allows a UI plug-in to replace the core driver UI module''s default implementation of the DrvDocumentEvent DDI.'
-ms.assetid: 'c98d1510-7db8-4fd6-a95f-1906f553d1c5'
-title: 'IPrintOemUI2::DocumentEvent method'
+---
+Description: The IPrintOemUI2DocumentEvent method allows a UI plug-in to replace the core driver UI modules default implementation of the DrvDocumentEvent DDI.
+ms.assetid: c98d1510-7db8-4fd6-a95f-1906f553d1c5
+title: IPrintOemUI2DocumentEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI2::DocumentEvent method

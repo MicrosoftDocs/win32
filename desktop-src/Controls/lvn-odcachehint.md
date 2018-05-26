@@ -1,8 +1,9 @@
 ---
 title: LVN\_ODCACHEHINT notification code
 description: Sent by a virtual list-view control when the contents of its display area have changed.
-ms.assetid: '2fac6a16-f65e-402f-9295-f2beb23db924'
-keywords: ["LVN_ODCACHEHINT notification code Windows Controls"]
+ms.assetid: 2fac6a16-f65e-402f-9295-f2beb23db924
+keywords:
+- LVN_ODCACHEHINT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_ODCACHEHINT notification code
@@ -33,7 +39,7 @@ LVN_ODCACHEHINT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVCACHEHINT**](nmlvcachehint.md) structure containing information about the range of items to be cached.
+Pointer to an [**NMLVCACHEHINT**](/windows/win32/Commctrl/ns-commctrl-tagnmlvcachehint?branch=master) structure containing information about the range of items to be cached.
 
 </dd> </dl>
 
@@ -53,15 +59,15 @@ Note that this notification code is not always an exact representation of the it
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

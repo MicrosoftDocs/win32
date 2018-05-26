@@ -2,13 +2,19 @@
 title: custom attribute
 description: The \ custom\ attribute creates a user-defined attribute.
 ms.assetid: 63c93eca-c9c1-4c14-9f46-aa78b01d9ff8
-keywords: ["custom attribute MIDL"]
+keywords:
+- custom attribute MIDL
 topic_type:
 - apiref
 api_name:
 - custom
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # custom attribute

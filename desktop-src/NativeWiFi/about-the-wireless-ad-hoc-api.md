@@ -1,7 +1,12 @@
 ---
 Description: About the Wireless Ad Hoc API
-ms.assetid: '9e6e32c5-454b-41c8-b00e-70a2e82266f1'
+ms.assetid: 9e6e32c5-454b-41c8-b00e-70a2e82266f1
 title: About the Wireless Ad Hoc API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Wireless Ad Hoc API

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The shutdown reason codes are used by the ExitWindowsEx and InitiateSystemShutdownEx functions in the dwReason parameter. A maximum of MAX\_NUM\_REASONS reason codes will be processed by the system. MAX\_NUM\_REASONS is defined in reason.h.'
-ms.assetid: 'db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf'
+---
+Description: The shutdown reason codes are used by the ExitWindowsEx and InitiateSystemShutdownEx functions in the dwReason parameter. A maximum of MAX\_NUM\_REASONS reason codes will be processed by the system. MAX\_NUM\_REASONS is defined in reason.h.
+ms.assetid: db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf
 title: System Shutdown Reason Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Shutdown Reason Codes
 
-The shutdown reason codes are used by the [**ExitWindowsEx**](exitwindowsex.md) and [**InitiateSystemShutdownEx**](initiatesystemshutdownex.md) functions in the *dwReason* parameter.
+The shutdown reason codes are used by the [**ExitWindowsEx**](/windows/win32/Winuser/nf-winuser-exitwindowsex?branch=master) and [**InitiateSystemShutdownEx**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdownexa?branch=master) functions in the *dwReason* parameter.
 
 A maximum of MAX\_NUM\_REASONS reason codes will be processed by the system. MAX\_NUM\_REASONS is defined in reason.h.
 
@@ -18,7 +23,7 @@ The following are the major reason flags. They indicate the general issue type.
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SHTDN_REASON_MAJOR_APPLICATION"></span><span id="shtdn_reason_major_application"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_APPLICATION**</dt> <dt>0x00040000</dt> </dl>             | Application issue.<br/>                                                                                                                                      |
 | <span id="SHTDN_REASON_MAJOR_HARDWARE"></span><span id="shtdn_reason_major_hardware"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_HARDWARE**</dt> <dt>0x00010000</dt> </dl>                      | Hardware issue.<br/>                                                                                                                                         |
-| <span id="SHTDN_REASON_MAJOR_LEGACY_API"></span><span id="shtdn_reason_major_legacy_api"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_LEGACY\_API**</dt> <dt>0x00070000</dt> </dl>               | The [**InitiateSystemShutdown**](initiatesystemshutdown.md) function was used instead of [**InitiateSystemShutdownEx**](initiatesystemshutdownex.md).<br/> |
+| <span id="SHTDN_REASON_MAJOR_LEGACY_API"></span><span id="shtdn_reason_major_legacy_api"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_LEGACY\_API**</dt> <dt>0x00070000</dt> </dl>               | The [**InitiateSystemShutdown**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdowna?branch=master) function was used instead of [**InitiateSystemShutdownEx**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdownexa?branch=master).<br/> |
 | <span id="SHTDN_REASON_MAJOR_OPERATINGSYSTEM"></span><span id="shtdn_reason_major_operatingsystem"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_OPERATINGSYSTEM**</dt> <dt>0x00020000</dt> </dl> | Operating system issue.<br/>                                                                                                                                 |
 | <span id="SHTDN_REASON_MAJOR_OTHER"></span><span id="shtdn_reason_major_other"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_OTHER**</dt> <dt>0x00000000</dt> </dl>                               | Other issue.<br/>                                                                                                                                            |
 | <span id="SHTDN_REASON_MAJOR_POWER"></span><span id="shtdn_reason_major_power"></span><dl> <dt>**SHTDN\_REASON\_MAJOR\_POWER**</dt> <dt>0x00060000</dt> </dl>                               | Power failure.<br/>                                                                                                                                          |
@@ -91,7 +96,7 @@ The following combinations are recognized by the system. The table indicates the
 | SHTDN\_REASON\_MAJOR\_HARDWARE \| SHTDN\_REASON\_MINOR\_INSTALLATION \| SHTDN\_REASON\_FLAG\_PLANNED       | "Hardware: Installation (Planned)" A planned restart or shutdown to begin or complete hardware installation.<br/>                                                                                                                          |
 | SHTDN\_REASON\_MAJOR\_HARDWARE \| SHTDN\_REASON\_MINOR\_MAINTENANCE                                        | "Hardware: Maintenance (Unplanned)" An unplanned restart or shutdown to service hardware on the system.<br/>                                                                                                                               |
 | SHTDN\_REASON\_MAJOR\_HARDWARE \| SHTDN\_REASON\_MINOR\_MAINTENANCE \| SHTDN\_REASON\_FLAG\_PLANNED        | "Hardware: Maintenance (Planned)" A planned restart or shutdown to service hardware on the system.<br/>                                                                                                                                    |
-| SHTDN\_REASON\_MAJOR\_LEGACY\_API                                                                          | "Legacy API shutdown" This shutdown was initiated by the legacy [**InitiateSystemShutdown**](initiatesystemshutdown.md) function. Applications should use the [**InitiateSystemShutdownEx**](initiatesystemshutdownex.md) function.<br/> |
+| SHTDN\_REASON\_MAJOR\_LEGACY\_API                                                                          | "Legacy API shutdown" This shutdown was initiated by the legacy [**InitiateSystemShutdown**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdowna?branch=master) function. Applications should use the [**InitiateSystemShutdownEx**](/windows/win32/Winreg/nf-winreg-initiatesystemshutdownexa?branch=master) function.<br/> |
 | SHTDN\_REASON\_MAJOR\_OPERATINGSYSTEM \| SHTDN\_REASON\_MINOR\_HOTFIX                                      | "Operating System: Hot fix (Unplanned)" An unplanned restart or shutdown to install a hot fix.<br/>                                                                                                                                        |
 | SHTDN\_REASON\_MAJOR\_OPERATINGSYSTEM \| SHTDN\_REASON\_MINOR\_HOTFIX \| SHTDN\_REASON\_FLAG\_PLANNED      | "Operating System: Hot fix (Planned)" A planned restart or shutdown to install a hot fix.<br/>                                                                                                                                             |
 | SHTDN\_REASON\_MAJOR\_OPERATINGSYSTEM \| SHTDN\_REASON\_MINOR\_RECONFIG                                    | "Operating System: Reconfiguration (Unplanned)" An unplanned restart or shutdown to change the operating system configuration.<br/>                                                                                                        |

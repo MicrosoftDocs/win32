@@ -1,7 +1,12 @@
 ---
-Description: 'The GetClassWindowStyles method retrieves the window''s class styles and window styles.'
-ms.assetid: '6eec7912-c654-4e4f-b6f1-ec94c7284575'
-title: 'CBaseWindow.GetClassWindowStyles method'
+Description: The GetClassWindowStyles method retrieves the windows class styles and window styles.
+ms.assetid: 6eec7912-c654-4e4f-b6f1-ec94c7284575
+title: CBaseWindow.GetClassWindowStyles method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetClassWindowStyles method
@@ -13,9 +18,9 @@ The `GetClassWindowStyles` method retrieves the window's class styles and window
 
 ```C++
 virtual LPTSTR GetClassWindowStyles(
-   DWORD *pClassStyles,
-   DWORD *pWindowStyles,
-   DWORD *pWindowStylesEx
+   DWORD *pClassStyles,
+   DWORD *pWindowStyles,
+   DWORD *pWindowStylesEx
 ) = 0;
 ```
 
@@ -91,9 +96,9 @@ The object uses the class style for the **lpszClassName** member of a WNDCLASS s
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

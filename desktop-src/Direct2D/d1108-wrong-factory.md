@@ -1,14 +1,20 @@
 ---
 title: D1108 Wrong Factory
-ms.assetid: 'eb851118-0541-4c9a-a22d-b98f041852bb'
+ms.assetid: eb851118-0541-4c9a-a22d-b98f041852bb
 description: 
-keywords: ["D1108 Wrong Factory Direct2D"]
+keywords:
+- D1108 Wrong Factory Direct2D
 topic_type:
 - apiref
 api_name:
 - D1108 Wrong Factory
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1108: Wrong Factory
@@ -50,7 +56,7 @@ The address of the factory with which *resource* was used.
 
 ## Examples
 
-The following example first creates two debug-enabled [**ID2D1Factory**](id2d1factory.md) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](id2d1rendertarget-fillgeometry.md), passing in the geometry and the brush.
+The following example first creates two debug-enabled [**ID2D1Factory**](/windows/win32/d2d1/?branch=master) objects; it then creates a geometry from the first factory, and a brush from the second factory. Lastly, it calls [**FillGeometry**](/windows/win32/d2d1/?branch=master), passing in the geometry and the brush.
 
 
 ```C++

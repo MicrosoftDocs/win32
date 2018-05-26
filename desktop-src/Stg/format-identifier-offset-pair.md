@@ -1,7 +1,12 @@
 ---
 title: Format Identifier/Offset Pair
 description: The second part of the property set stream contains one Format Identifier/Offset Pair.
-ms.assetid: 'cc3a748d-e81c-45da-b04f-ea986158a4d1'
+ms.assetid: cc3a748d-e81c-45da-b04f-ea986158a4d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format Identifier/Offset Pair

@@ -1,14 +1,20 @@
 ---
 title: BitMapType Complex Type
 description: Defines a list of name/value mappings between bit values and string values.
-ms.assetid: '65dc6a48-878c-415c-872c-41dc27691b7f'
-keywords: ["BitMapType complex type EventLog"]
+ms.assetid: 65dc6a48-878c-415c-872c-41dc27691b7f
+keywords:
+- BitMapType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - BitMapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BitMapType Complex Type
@@ -60,14 +66,14 @@ Defines a list of name/value mappings between bit values and string values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

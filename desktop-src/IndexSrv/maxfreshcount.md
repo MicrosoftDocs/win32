@@ -1,7 +1,12 @@
 ---
 title: MaxFreshCount
 description: MaxFreshCount
-ms.assetid: '1fbc10de-e7c1-476a-b72b-43618e1fae3a'
+ms.assetid: 1fbc10de-e7c1-476a-b72b-43618e1fae3a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxFreshCount

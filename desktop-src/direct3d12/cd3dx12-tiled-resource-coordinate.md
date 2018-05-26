@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_TILED\_RESOURCE\_COORDINATE structure
 description: A helper structure to enable easy initialization of a D3D12\_TILED\_RESOURCE\_COORDINATE structure.
-ms.assetid: 'B337ED04-E2C6-4B89-80F1-92C0854A6AF2'
-keywords: ["CD3DX12_TILED_RESOURCE_COORDINATE structure"]
+ms.assetid: B337ED04-E2C6-4B89-80F1-92C0854A6AF2
+keywords:
+- CD3DX12_TILED_RESOURCE_COORDINATE structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_TILED\_RESOURCE\_COORDINATE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_TILED\_RESOURCE\_COORDINATE**](d3d12-tiled-resource-coordinate.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_TILED\_RESOURCE\_COORDINATE**](/windows/win32/D3D12/ns-d3d12-d3d12_tiled_resource_coordinate?branch=master) structure.
 
 ## Syntax
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_TILED\_RESOURCE\_COORDINATE
 **explicit CD3DX12\_TILED\_RESOURCE\_COORDINATE(const D3D12\_TILED\_RESOURCE\_COORDINATE &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_TILED\_RESOURCE\_COORDINATE, initialized with the contents of another [**D3D12\_TILED\_RESOURCE\_COORDINATE**](d3d12-tiled-resource-coordinate.md) structure.
+Creates a new instance of a CD3DX12\_TILED\_RESOURCE\_COORDINATE, initialized with the contents of another [**D3D12\_TILED\_RESOURCE\_COORDINATE**](/windows/win32/D3D12/ns-d3d12-d3d12_tiled_resource_coordinate?branch=master) structure.
 
 </dd> <dt>
 
@@ -85,15 +91,15 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_TILED\_RESOURCE\_COORDINATE**](d3d12-tiled-resource-coordinate.md)
+[**D3D12\_TILED\_RESOURCE\_COORDINATE**](/windows/win32/D3D12/ns-d3d12-d3d12_tiled_resource_coordinate?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CAPTUREFILTER structure contains capture filter data.'
-ms.assetid: '773187c6-31c7-4439-850d-1dd43d42f701'
+Description: The CAPTUREFILTER structure contains capture filter data.
+ms.assetid: 773187c6-31c7-4439-850d-1dd43d42f701
 title: CAPTUREFILTER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPTUREFILTER structure
@@ -13,16 +18,16 @@ The **CAPTUREFILTER** structure contains capture filter data.
 
 ```C++
 typedef struct _CAPTUREFILTER {
-  DWORD          FilterFlags;
-  LPBYTE         lpSapTable;
-  LPWORD         lpEtypeTable;
-  WORD           nSaps;
-  WORD           nEtypes;
+  DWORD          FilterFlags;
+  LPBYTE         lpSapTable;
+  LPWORD         lpEtypeTable;
+  WORD           nSaps;
+  WORD           nEtypes;
   LPADDRESSTABLE AddressTable;
-  EXPRESSION     FilterExpression;
-  TRIGGER        Trigger;
-  DWORD          nFrameBytesToCopy;
-  RESERVED       Reserved;
+  EXPRESSION     FilterExpression;
+  TRIGGER        Trigger;
+  DWORD          nFrameBytesToCopy;
+  RESERVED       Reserved;
 } CAPTUREFILTER, *LPCAPTUREFILTER;
 ```
 
@@ -48,7 +53,7 @@ Flags that describe the contents of the capture filter.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -125,8 +130,8 @@ The combination of flags, values, and expressions determine which frames will be
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -150,9 +155,9 @@ The combination of flags, values, and expressions determine which frames will be
 [PATTERNMATCH](patternmatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

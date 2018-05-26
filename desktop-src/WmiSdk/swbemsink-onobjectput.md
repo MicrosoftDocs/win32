@@ -1,13 +1,16 @@
 ---
-Description: 'The OnObjectPut event of an SWbemSink object is triggered when an asynchronous Put operation is complete. This event returns the object path of the instance or the saved class.'
+Description: The OnObjectPut event of an SWbemSink object is triggered when an asynchronous Put operation is complete. This event returns the object path of the instance or the saved class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2046dd03-ac2c-49fa-b1ad-a458967709e5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2046dd03-ac2c-49fa-b1ad-a458967709e5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ISWbemSinkEvents::OnObjectPut event'
+title: ISWbemSinkEventsOnObjectPut event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISWbemSinkEvents::OnObjectPut event
@@ -82,7 +85,7 @@ Networking error occurred, preventing normal operation.
 > [!Note]  
 > An asynchronous callback allows a non-authenticated user to provide data to the sink. This poses security risks to your scripts and applications. To eliminate the risks, use either semi-synchronous communication or synchronous communication. For more information, see [Calling a Method](calling-a-method.md).
 
- 
+ 
 
 ## Requirements
 
@@ -90,8 +93,8 @@ Networking error occurred, preventing normal operation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -107,9 +110,9 @@ Networking error occurred, preventing normal operation.
 [**SWbemSink**](swbemsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

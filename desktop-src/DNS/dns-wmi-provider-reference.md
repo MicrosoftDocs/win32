@@ -1,8 +1,14 @@
 ---
 title: DNS WMI Provider Reference
 description: The DNS WMI Provider is defined in Dnsprov.mof, which is included on the Windows Server CD.
-ms.assetid: '0258fa1d-dc22-4e20-a454-cfa4427c2215'
-keywords: ["Domain Name System, reference, WMI provider"]
+ms.assetid: 0258fa1d-dc22-4e20-a454-cfa4427c2215
+keywords:
+- Domain Name System, reference, WMI provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS WMI Provider Reference

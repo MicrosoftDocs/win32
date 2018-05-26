@@ -1,7 +1,12 @@
 ---
 title: Using EAPHost
 description: Describes common programmatic procedures and patterns used in writing applications that call or implement the EAPHost API elements.
-ms.assetid: 'd2dbf149-995e-4d56-8115-ff476e65308c'
+ms.assetid: d2dbf149-995e-4d56-8115-ff476e65308c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using EAPHost

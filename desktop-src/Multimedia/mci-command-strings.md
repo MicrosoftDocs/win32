@@ -1,8 +1,15 @@
 ---
 title: MCI Command Strings
 description: MCI Command Strings
-ms.assetid: '8677aed7-ee7d-4fc7-bc83-f42498f07902'
-keywords: ["MCI command strings,reference", "MCI reference,command strings"]
+ms.assetid: 8677aed7-ee7d-4fc7-bc83-f42498f07902
+keywords:
+- MCI command strings,reference
+- MCI reference,command strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI Command Strings

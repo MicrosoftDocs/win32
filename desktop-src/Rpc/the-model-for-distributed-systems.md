@@ -1,7 +1,12 @@
 ---
 title: The Model for Distributed Systems
 description: Traditionally, having a monolithic system run across multiple computers meant splitting the system into separate client and server components.
-ms.assetid: '6055bcef-e34c-4f2d-92b9-9aec75cf3cec'
+ms.assetid: 6055bcef-e34c-4f2d-92b9-9aec75cf3cec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Model for Distributed Systems

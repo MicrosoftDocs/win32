@@ -1,14 +1,20 @@
 ---
 title: VIDEO.fullScreen
 description: The fullScreen attribute specifies or retrieves a value indicating whether the video is displayed in full-screen mode.
-ms.assetid: 'de74d95a-31a2-4f65-811c-4e8018ee484a'
-keywords: ["VIDEO.fullScreen Windows Media Player"]
+ms.assetid: de74d95a-31a2-4f65-811c-4e8018ee484a
+keywords:
+- VIDEO.fullScreen Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.fullScreen
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.fullScreen
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,9 +70,9 @@ This property can be specified only at run time, after a file has been loaded. I
 [**VIDEO.stretchToFit**](video-stretchtofit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

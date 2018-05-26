@@ -1,13 +1,16 @@
 ---
-Description: 'The DisplayName property of an SWbemPrivilege object is a string that displays a description of an SWbemPrivilege object.'
+Description: The DisplayName property of an SWbemPrivilege object is a string that displays a description of an SWbemPrivilege object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9ed91a6a-e513-4a72-b8a9-3180e42b811f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9ed91a6a-e513-4a72-b8a9-3180e42b811f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPrivilege.DisplayName property'
+title: SWbemPrivilege.DisplayName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilege.DisplayName property
@@ -35,8 +38,8 @@ SWbemPrivilege.DisplayName As
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemPrivilege.DisplayName As
 
 
 
- 
+ 
 
- 
+ 
 
 
 

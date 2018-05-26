@@ -1,8 +1,15 @@
 ---
 title: Update the Animation Manager and Draw Frames
 description: Each time an application schedules a storyboard, the application must supply the current time to the animation manager.
-ms.assetid: 'c4f746c3-e47c-4b82-a41b-e2c0d177d097'
-keywords: ["animation manager objects Windows Animation ,updating", "animation timer objects Windows Animation ,connecting"]
+ms.assetid: c4f746c3-e47c-4b82-a41b-e2c0d177d097
+keywords:
+- animation manager objects Windows Animation ,updating
+- animation timer objects Windows Animation ,connecting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update the Animation Manager and Draw Frames
@@ -15,7 +22,7 @@ There are two configurations supported by Windows Animation: application-driven 
 
 To use application-driven animation in your application, you must update the animation manager before drawing each frame and use an appropriate mechanism to draw frames frequently enough for animation. An application using application-driven animation can use any mechanism to determine the current time, but the Windows Animation timer object returns a precise time in the units accepted by the animation manager. To avoid unnecessary drawing when no animations are playing, you should also provide a manager event handler to start redrawing when animations are scheduled and check after each frame whether redrawing can be suspended. For more information, see [Application-Driven Animation](scenic-animation-api-overview.md#application-driven-animation).
 
-In the application-driven configuration, an application can call the [**IUIAnimationManager::GetStatus**](iuianimationmanager-getstatus.md) method to verify that animations are currently scheduled and continue to draw frames if they are. Because redrawing stops when there are no animations scheduled, it is necessary to restart it the next time an animation is scheduled. An application can register a manager event handler to be notified when the status of the animation manager changes from idle (no animations are currently scheduled) to busy.
+In the application-driven configuration, an application can call the [**IUIAnimationManager::GetStatus**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-getstatus?branch=master) method to verify that animations are currently scheduled and continue to draw frames if they are. Because redrawing stops when there are no animations scheduled, it is necessary to restart it the next time an animation is scheduled. An application can register a manager event handler to be notified when the status of the animation manager changes from idle (no animations are currently scheduled) to busy.
 
 To use timer-driven animation in your application, you must connect the animation manager to an animation timer and provide a timer event handler. When the animation manager is connected to a timer, the timer can tell the manager when the animation state should be updated as time progresses. The application should draw a frame for each timer tick. The animation manager can in turn tell the timer when there are animations playing, so the timer can shut itself off during idle periods when redrawing is unnecessary. To avoid unnecessary drawing when no animations are playing, you should configure the timer to disable itself automatically. For more information, see [Timer-Driven Animation](scenic-animation-api-overview.md#timer-driven-animation).
 
@@ -85,7 +92,7 @@ public:
 
 
 
-The following example code is taken from MainWindow.cpp from the Windows Animation sample [Application-Driven Animation](application-driven-animation-sample.md); see CMainWindow::InitializeAnimation. This example creates an instance of the manager event handler using the [**CreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms682215) method and passes it to the animation manager using the [**IUIAnimationManager::SetManagerEventHandler**](iuianimationmanager-setmanagereventhandler.md) method.
+The following example code is taken from MainWindow.cpp from the Windows Animation sample [Application-Driven Animation](application-driven-animation-sample.md); see CMainWindow::InitializeAnimation. This example creates an instance of the manager event handler using the [**CreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms682215) method and passes it to the animation manager using the [**IUIAnimationManager::SetManagerEventHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-setmanagereventhandler?branch=master) method.
 
 
 ```C++
@@ -107,9 +114,9 @@ if (SUCCEEDED(hr))
 
 
 
-Because the manager event handler retains a reference to the main window object, the manager event handler should be cleared (by passing **NULL** to [**SetManagerEventHandler**](iuianimationmanager-setmanagereventhandler.md)) or the animation manager should be completely released before the main window is destroyed.
+Because the manager event handler retains a reference to the main window object, the manager event handler should be cleared (by passing **NULL** to [**SetManagerEventHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-setmanagereventhandler?branch=master)) or the animation manager should be completely released before the main window is destroyed.
 
-The following example code is taken from MainWindow.cpp in the Windows Animation sample [Application-Driven Animation](application-driven-animation-sample.md); see the CMainWindow::OnPaint method. It calls the [**IUIAnimationManager::GetTime**](iuianimationtimer-gettime.md) method to retrieve the time in the units required by the [**IUIAnimationManager::Update**](iuianimationmanager-update.md) method.
+The following example code is taken from MainWindow.cpp in the Windows Animation sample [Application-Driven Animation](application-driven-animation-sample.md); see the CMainWindow::OnPaint method. It calls the [**IUIAnimationManager::GetTime**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtimer-gettime?branch=master) method to retrieve the time in the units required by the [**IUIAnimationManager::Update**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-update?branch=master) method.
 
 
 ```C++
@@ -133,7 +140,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following example code is taken from MainWindow.cpp from the Windows Animation samples [Application-Driven Animation](application-driven-animation-sample.md) and [Grid Layout](https://msdn.microsoft.com/library/windows/desktop/dd940512); see the CMainWindow::OnPaint method. It assumes that the application is using a graphics API that automatically synchronizes to the monitor refresh rate (such as Direct2D with its default settings), in which case a call to the [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) function is enough to ensure that the painting code will be called again when it is time to draw the next frame. Rather than call **InvalidateRect** unconditionally, it is better to check if there are still any animations scheduled using [**GetStatus**](iuianimationmanager-getstatus.md).
+The following example code is taken from MainWindow.cpp from the Windows Animation samples [Application-Driven Animation](application-driven-animation-sample.md) and [Grid Layout](https://msdn.microsoft.com/library/windows/desktop/dd940512); see the CMainWindow::OnPaint method. It assumes that the application is using a graphics API that automatically synchronizes to the monitor refresh rate (such as Direct2D with its default settings), in which case a call to the [**InvalidateRect**](https://msdn.microsoft.com/library/windows/desktop/dd145002) function is enough to ensure that the painting code will be called again when it is time to draw the next frame. Rather than call **InvalidateRect** unconditionally, it is better to check if there are still any animations scheduled using [**GetStatus**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-getstatus?branch=master).
 
 
 ```C++
@@ -231,7 +238,7 @@ public:
 
 
 
-The following example code is taken from MainWindow.cpp from the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see CMainWindow::InitializeAnimation. This example creates an instance of the timer event handler using the [**CreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms682215) method and passes it to the timer using the [**IUIAnimationTimer::SetTimerEventHandler**](iuianimationtimer-settimereventhandler.md) method. Because the timer event handler retains a reference to the main window object, the timer event handler should be cleared (by passing **NULL** to **SetTimerEventHandler**) or the timer completely released before the main window is destroyed.
+The following example code is taken from MainWindow.cpp from the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see CMainWindow::InitializeAnimation. This example creates an instance of the timer event handler using the [**CreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms682215) method and passes it to the timer using the [**IUIAnimationTimer::SetTimerEventHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtimer-settimereventhandler?branch=master) method. Because the timer event handler retains a reference to the main window object, the timer event handler should be cleared (by passing **NULL** to **SetTimerEventHandler**) or the timer completely released before the main window is destroyed.
 
 
 ```C++
@@ -253,7 +260,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::InitializeAnimation method. It calls the [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) method on the animation manager object to get a pointer to [**IUIAnimationTimerUpdateHandler**](iuianimationtimerupdatehandler.md), then connects the [**UIAnimationManager**](uianimationmanager.md) and [**UIAnimationTimer**](uianimationtimer.md) objects by setting the animation manager as the timer's update handler using the [**IUIAnimationTimer::SetTimerUpdateHandler**](iuianimationtimer-settimerupdatehandler.md) method. Note that it is not necessary to explicitly clear this connection; the connection is cleared safely after the application releases both the animation manager and the animation timer.
+The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::InitializeAnimation method. It calls the [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) method on the animation manager object to get a pointer to [**IUIAnimationTimerUpdateHandler**](/windows/win32/UIAnimation/nn-uianimation-iuianimationtimerupdatehandler?branch=master), then connects the [**UIAnimationManager**](/windows/win32/UIAnimation/?branch=master) and [**UIAnimationTimer**](/windows/win32/UIAnimation/?branch=master) objects by setting the animation manager as the timer's update handler using the [**IUIAnimationTimer::SetTimerUpdateHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtimer-settimerupdatehandler?branch=master) method. Note that it is not necessary to explicitly clear this connection; the connection is cleared safely after the application releases both the animation manager and the animation timer.
 
 
 ```C++
@@ -297,25 +304,25 @@ After completing this step, the next step is: [Read the Animation Variable Value
 
 <dl> <dt>
 
-[**IUIAnimationManager::GetStatus**](iuianimationmanager-getstatus.md)
+[**IUIAnimationManager::GetStatus**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-getstatus?branch=master)
 </dt> <dt>
 
-[**IUIAnimationManager::SetManagerEventHandler**](iuianimationmanager-setmanagereventhandler.md)
+[**IUIAnimationManager::SetManagerEventHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-setmanagereventhandler?branch=master)
 </dt> <dt>
 
-[**IUIAnimationManager::Update**](iuianimationmanager-update.md)
+[**IUIAnimationManager::Update**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-update?branch=master)
 </dt> <dt>
 
-[**IUIAnimationTimer::GetTime**](iuianimationtimer-gettime.md)
+[**IUIAnimationTimer::GetTime**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtimer-gettime?branch=master)
 </dt> <dt>
 
-[**IUIAnimationTimer::SetTimerUpdateHandler**](iuianimationtimer-settimerupdatehandler.md)
+[**IUIAnimationTimer::SetTimerUpdateHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationtimer-settimerupdatehandler?branch=master)
 </dt> <dt>
 
-[**UIAnimationManager**](uianimationmanager.md)
+[**UIAnimationManager**](/windows/win32/UIAnimation/?branch=master)
 </dt> <dt>
 
-[**UIAnimationTimer**](uianimationtimer.md)
+[**UIAnimationTimer**](/windows/win32/UIAnimation/?branch=master)
 </dt> <dt>
 
 [Windows Animation Overview](scenic-animation-api-overview.md)

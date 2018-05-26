@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefreshableItem object exposes the following methods.'
+Description: The SWbemRefreshableItem object exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7EB4D659-D5CB-4F91-91C9-0DD5B90CC5A3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7EB4D659-D5CB-4F91-91C9-0DD5B90CC5A3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem Methods

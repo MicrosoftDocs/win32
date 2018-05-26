@@ -1,7 +1,12 @@
 ---
 title: breakc (sm4 - asm)
 description: Conditionally moves the point of execution to the instruction after the next endloop or endswitch.
-ms.assetid: '5735EF88-1E8C-4142-8442-9328D78999A7'
+ms.assetid: 5735EF88-1E8C-4142-8442-9328D78999A7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # breakc (sm4 - asm)
@@ -15,7 +20,7 @@ Conditionally moves the point of execution to the instruction after the next [en
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Conditionally moves the point of execution to the instruction after the next [en
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,7 +65,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -79,7 +84,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -88,9 +93,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

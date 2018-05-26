@@ -1,7 +1,12 @@
 ---
-Description: 'The DELETE\_OBJECT\_OPTIONS enumeration type describes options that are supported by a device when deleting an object.'
-ms.assetid: 'd0e46e77-d333-498f-b2f5-26be1461a116'
-title: 'DELETE\_OBJECT\_OPTIONS enumeration'
+Description: The DELETE\_OBJECT\_OPTIONS enumeration type describes options that are supported by a device when deleting an object.
+ms.assetid: d0e46e77-d333-498f-b2f5-26be1461a116
+title: DELETE\_OBJECT\_OPTIONS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DELETE\_OBJECT\_OPTIONS enumeration
@@ -13,8 +18,8 @@ The **DELETE\_OBJECT\_OPTIONS** enumeration type describes options that are supp
 
 ```C++
 typedef enum DELETE_OBJECT_OPTIONS { 
-  PORTABLE_DEVICE_DELETE_NO_RECURSION    = 0,
-  PORTABLE_DEVICE_DELETE_WITH_RECURSION  = 1
+  PORTABLE_DEVICE_DELETE_NO_RECURSION    = 0,
+  PORTABLE_DEVICE_DELETE_WITH_RECURSION  = 1
 } ;
 ```
 
@@ -40,7 +45,7 @@ Delete the object and all its children.
 
 ## Remarks
 
-The application can retrieve the deletion options that the device supports by calling [**IPortableDeviceCapabilities::GetCommandOptions**](iportabledevicecapabilities-getcommandoptions.md) for the **WPD\_COMMAND\_OBJECT\_MANAGEMENT\_DELETE\_OBJECTS** command. It should examine the **WPD\_OPTION\_OBJECT\_MANAGEMENT\_RECURSIVE\_DELETE\_SUPPORTED** option value that this method returns in an [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md) object.
+The application can retrieve the deletion options that the device supports by calling [**IPortableDeviceCapabilities::GetCommandOptions**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions?branch=master) for the **WPD\_COMMAND\_OBJECT\_MANAGEMENT\_DELETE\_OBJECTS** command. It should examine the **WPD\_OPTION\_OBJECT\_MANAGEMENT\_RECURSIVE\_DELETE\_SUPPORTED** option value that this method returns in an [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md) object.
 
 ## Requirements
 
@@ -59,9 +64,9 @@ The application can retrieve the deletion options that the device supports by ca
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

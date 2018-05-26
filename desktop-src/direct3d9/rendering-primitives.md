@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics provide information about drawing primitives in your application.'
-ms.assetid: '2dae21f9-4509-40c0-8a72-486add26e769'
-title: 'Rendering Primitives (Direct3D 9)'
+Description: The following topics provide information about drawing primitives in your application.
+ms.assetid: 2dae21f9-4509-40c0-8a72-486add26e769
+title: Rendering Primitives (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Primitives (Direct3D 9)

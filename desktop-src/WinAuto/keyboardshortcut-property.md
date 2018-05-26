@@ -1,14 +1,19 @@
 ---
 title: KeyboardShortcut Property
 description: The KeyboardShortcut property describes a key or key combination that activates a specified accessible object.
-ms.assetid: '42587468-f069-4ef1-868e-ac6a285e1715'
+ms.assetid: 42587468-f069-4ef1-868e-ac6a285e1715
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyboardShortcut Property
 
 The **KeyboardShortcut** property describes a key or key combination that activates a specified accessible object.
 
-The **KeyboardShortcut** property is retrieved by calling [**IAccessible::get\_accKeyboardShortcut**](iaccessible-iaccessible--get-acckeyboardshortcut.md).
+The **KeyboardShortcut** property is retrieved by calling [**IAccessible::get\_accKeyboardShortcut**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut?branch=master).
 
 The retrieved string describes a *shortcut key* (also called a *keyboard accelerator*) or an *access key* (also called a *mnemonic*). An access key is an underlined character in the text of a menu, menu item, or label of a control such as a push button.
 

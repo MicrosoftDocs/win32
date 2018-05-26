@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Austria.'
-ms.assetid: '200355f8-e472-4497-8d36-c77f6b2cf5c7'
+Description: This topic lists the frequency tables used for analog TV tuning for Austria.
+ms.assetid: 200355f8-e472-4497-8d36-c77f6b2cf5c7
 title: Austria Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Austria Channel Assignments

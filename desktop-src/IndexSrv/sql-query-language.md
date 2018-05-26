@@ -1,7 +1,12 @@
 ---
 title: SQL Query Language
 description: SQL Query Language
-ms.assetid: 'ba3f329c-3aa0-4417-b597-41b6671b42ee'
+ms.assetid: ba3f329c-3aa0-4417-b597-41b6671b42ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SQL Query Language

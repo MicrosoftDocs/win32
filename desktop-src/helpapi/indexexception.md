@@ -1,8 +1,10 @@
 ---
 title: IndexException interface
 description: An interface that inherits from the IDispatch interface.
-ms.assetid: '7edeb894-4355-438e-b9fd-cffeb44c0077'
-keywords: ["IndexException interface HelpAPI", "IndexException interface HelpAPI , described"]
+ms.assetid: 7edeb894-4355-438e-b9fd-cffeb44c0077
+keywords:
+- IndexException interface HelpAPI
+- IndexException interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IndexException interface
@@ -27,15 +34,15 @@ The **IndexException** interface inherits from the [**IDispatch**](ebbff4bc-36b2
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

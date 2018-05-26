@@ -1,7 +1,12 @@
 ---
-Description: 'Present code fragments and example C programs for certificate store operations.'
-ms.assetid: 'ba07e9dc-e20d-4024-85bf-64327ae896ad'
+Description: Present code fragments and example C programs for certificate store operations.
+ms.assetid: ba07e9dc-e20d-4024-85bf-64327ae896ad
 title: Working with Certificate Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Certificate Stores

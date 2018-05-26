@@ -1,8 +1,11 @@
 ---
 title: Network.getProxyPort method
 description: The getProxyPort method retrieves the proxy port being used.
-ms.assetid: '0d636e61-a5c1-495a-8d1d-ce2937dd3f18'
-keywords: ["getProxyPort method Windows Media Player", "getProxyPort method Windows Media Player , Network class", "Network class Windows Media Player , getProxyPort method"]
+ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18
+keywords:
+- getProxyPort method Windows Media Player
+- getProxyPort method Windows Media Player , Network class
+- Network class Windows Media Player , getProxyPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.getProxyPort method
@@ -98,9 +106,9 @@ document.write("The current MMS proxy port is: " + proxyPortMMS);
 [**Network.getProxySettings**](network-getproxysettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

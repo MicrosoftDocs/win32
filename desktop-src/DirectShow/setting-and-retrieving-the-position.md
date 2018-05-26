@@ -1,7 +1,12 @@
 ---
 Description: Setting and Retrieving the Position
-ms.assetid: '06b0e2d7-9539-41ad-a631-7e8da556feeb'
+ms.assetid: 06b0e2d7-9539-41ad-a631-7e8da556feeb
 title: Setting and Retrieving the Position
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting and Retrieving the Position
@@ -11,9 +16,9 @@ The filter graph maintains two position values, current position and stop positi
 -   When the graph is running, the current position is the current playback position, relative to the beginning of the source. When the graph is stopped or paused, the current position is the point where streaming will begin on the next run command.
 -   The stop position is the point where the stream will end. When the graph reaches the stop position, no more data is streamed, and the filter graph manager posts an [**EC\_COMPLETE**](ec-complete.md) event. (The graph does not automatically switch to a stopped state, however. For more information, see [Responding to Events](responding-to-events.md).)
 
-To retrieve these values, call the [**IMediaSeeking::GetPositions**](imediaseeking-getpositions.md) method. The returned values are always relative to the original media source. By default, the values are in reference time units. In some cases, you can change the time units; for more information, see [Time Formats For Seek Commands](time-formats-for-seek-commands.md).
+To retrieve these values, call the [**IMediaSeeking::GetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-getpositions?branch=master) method. The returned values are always relative to the original media source. By default, the values are in reference time units. In some cases, you can change the time units; for more information, see [Time Formats For Seek Commands](time-formats-for-seek-commands.md).
 
-To seek to a new position or set a new stop position, call the [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) method, as shown in the following example:
+To seek to a new position or set a new stop position, call the [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) method, as shown in the following example:
 
 
 ```C++
@@ -49,7 +54,7 @@ hr = pSeek->SetPositions(
 
 
 
-If the filter graph is stopped, the video renderer does not update the image after a seek operation. To the user, it will appear as if the seek did not happen. To update the image, pause the graph after the seek operation. Pausing the graph cues a new video frame for the video renderer. You can use the [**IMediaControl::StopWhenReady**](imediacontrol-stopwhenready.md) method, which pauses the graph and then stops it.
+If the filter graph is stopped, the video renderer does not update the image after a seek operation. To the user, it will appear as if the seek did not happen. To update the image, pause the graph after the seek operation. Pausing the graph cues a new video frame for the video renderer. You can use the [**IMediaControl::StopWhenReady**](/windows/win32/Control/nf-control-imediacontrol-stopwhenready?branch=master) method, which pauses the graph and then stops it.
 
  
 

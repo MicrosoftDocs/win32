@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the size of the mesh buffer, in bytes.'
-ms.assetid: '6c958190-fb43-4e7b-924d-89bb2d92981d'
-title: 'ID3DX10MeshBuffer::GetSize method'
+---
+Description: Get the size of the mesh buffer, in bytes.
+ms.assetid: 6c958190-fb43-4e7b-924d-89bb2d92981d
+title: ID3DX10MeshBufferGetSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10MeshBuffer::GetSize method

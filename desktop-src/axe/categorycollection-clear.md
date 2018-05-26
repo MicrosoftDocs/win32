@@ -1,8 +1,11 @@
 ---
 title: CategoryCollection Clear method
 description: Deletes all categories from the CategoryCollection.
-ms.assetid: '1B98A867-0CB0-4D70-AE57-818003447F5F'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , CategoryCollection interface", "CategoryCollection interface Access Execution Engine , Clear method"]
+ms.assetid: 1B98A867-0CB0-4D70-AE57-818003447F5F
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , CategoryCollection interface
+- CategoryCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CategoryCollection::Clear method
@@ -46,8 +54,8 @@ A category is the value of an **Issue/Categories/Category** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ A category is the value of an **Issue/Categories/Category** element.
 [**CategoryCollection**](categorycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: MSVidXDS
 description: MSVidXDS
-ms.assetid: 'ddd172fe-2f93-4b1b-b325-81be024bf74c'
+ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidXDS
@@ -14,8 +19,8 @@ The **MSVidXDS** object represents the extended data services feature.
 
 |                           |                                          |
 |---------------------------|------------------------------------------|
-| Interfaces                | [**IMSVidXDS**](imsvidxds.md)           |
-| Outgoing Event Interfaces | [**IMSVidXDSEvent**](imsvidxdsevent.md) |
+| Interfaces                | [**IMSVidXDS**](/windows/win32/segment/nn-segment-imsvidxds?branch=master)           |
+| Outgoing Event Interfaces | [**IMSVidXDSEvent**](/windows/win32/segment/nn-segment-imsvidxdsevent?branch=master) |
 
 
 

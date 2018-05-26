@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes the specified offline registry hive to a file.'
-ms.assetid: '26f2eed9-e6e0-4dc0-8b91-212cde072744'
+---
+Description: Writes the specified offline registry hive to a file.
+ms.assetid: 26f2eed9-e6e0-4dc0-8b91-212cde072744
 title: ORSaveHive function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORSaveHive function

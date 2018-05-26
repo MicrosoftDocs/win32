@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_INFO structure
 description: Contains information about a threat.
-ms.assetid: 'ED2A0BDB-0E7C-479D-ADA1-95B9A259F57E'
-keywords: ["MPTHREAT_INFO structure Legacy Windows Environment Features", "PMPTHREAT_INFO structure pointer Legacy Windows Environment Features"]
+ms.assetid: ED2A0BDB-0E7C-479D-ADA1-95B9A259F57E
+keywords:
+- MPTHREAT_INFO structure Legacy Windows Environment Features
+- PMPTHREAT_INFO structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_INFO structure
@@ -22,51 +29,51 @@ Contains information about a threat.
 
 ```C++
 typedef struct tagMPTHREAT_INFO {
-  MPTHREAT_ID           ThreatID;
-  GUID                  DetectionID;
+  MPTHREAT_ID           ThreatID;
+  GUID                  DetectionID;
   MP_MIDL_STRING LPWSTR Name;
-  MPTHREAT_TYPE         ThreatType;
-  MPTHREAT_SEVERITY     ThreatCriticality;
-  MPTHREAT_CATEGORY     ThreatCategory;
-  DWORD                 ThreatShortDescriptionID;
-  DWORD                 ThreatAdviseDescriptionID;
-  MPTHREAT_STATUS       ThreatStatus;
-  DWORD                 SuggestedActionCount;
-  MPTHREAT_ACTION       SuggestedActionArray[MP_MAX_SUGGESTIONS];
-  DWORD                 ResourceCount;
-  PMPRESOURCE_INFO      *ResourceList[ResourceCount];
-  ULARGE_INTEGER        ThreatStatusTime;
-  HRESULT               ThreatStatusCode;
-  MPTHREAT_DETECTION    ThreatDetection;
-  GUID                  QuarantineGuid;
-  MPEXECUTION_STATUS    ExecutionStatus;
+  MPTHREAT_TYPE         ThreatType;
+  MPTHREAT_SEVERITY     ThreatCriticality;
+  MPTHREAT_CATEGORY     ThreatCategory;
+  DWORD                 ThreatShortDescriptionID;
+  DWORD                 ThreatAdviseDescriptionID;
+  MPTHREAT_STATUS       ThreatStatus;
+  DWORD                 SuggestedActionCount;
+  MPTHREAT_ACTION       SuggestedActionArray[MP_MAX_SUGGESTIONS];
+  DWORD                 ResourceCount;
+  PMPRESOURCE_INFO      *ResourceList[ResourceCount];
+  ULARGE_INTEGER        ThreatStatusTime;
+  HRESULT               ThreatStatusCode;
+  MPTHREAT_DETECTION    ThreatDetection;
+  GUID                  QuarantineGuid;
+  MPEXECUTION_STATUS    ExecutionStatus;
   union {
-    PMPTHREAT_INFOEX_UNUSED   pKnownBad;
+    PMPTHREAT_INFOEX_UNUSED   pKnownBad;
     PMPTHREAT_INFOEX_BEHAVIOR pBehavior;
-    PMPTHREAT_INFOEX_UNUSED   pUnknown;
-    PMPTHREAT_INFOEX_UNUSED   pKnownGood;
-    PMPTHREAT_INFOEX_NIS      pNis;
-  } Data;
-  MPDETECTION_STATE     State;
+    PMPTHREAT_INFOEX_UNUSED   pUnknown;
+    PMPTHREAT_INFOEX_UNUSED   pKnownGood;
+    PMPTHREAT_INFOEX_NIS      pNis;
+  } Data;
+  MPDETECTION_STATE     State;
   MP_MIDL_STRING LPWSTR DetectionUser;
-  MPSOURCE              DetectionSource;
+  MPSOURCE              DetectionSource;
   MP_MIDL_STRING LPWSTR ProcessName;
-  MPDETECTION_ORIGIN    DetectionOrigin;
-  DWORD                 reserved1;
-  ULARGE_INTEGER        DetectionTime;
-  MPEXECUTION_STATUS    PreExecutionStatus;
-  ULARGE_INTEGER        RemediationTime;
-  MPEXECUTION_STATUS    PostExecutionStatus;
-  BOOL                  CriticalFailure;
-  DWORD                 NonCriticalReason;
+  MPDETECTION_ORIGIN    DetectionOrigin;
+  DWORD                 reserved1;
+  ULARGE_INTEGER        DetectionTime;
+  MPEXECUTION_STATUS    PreExecutionStatus;
+  ULARGE_INTEGER        RemediationTime;
+  MPEXECUTION_STATUS    PostExecutionStatus;
+  BOOL                  CriticalFailure;
+  DWORD                 NonCriticalReason;
   MP_MIDL_STRING LPWSTR RemediationUser;
-  DWORD                 RemediationResourceCount;
-  PMPRESOURCE_INFO      RemediationResourceList[RemediationResourceCount];
-  BOOL                  FailureResolved;
-  MPRESOLVED_REASON     ResolvedReason;
-  DWORD                 AdditionalActions;
-  DWORD                 ResolvedActions;
-  DWORD                 dwThreatStatusFlag;
+  DWORD                 RemediationResourceCount;
+  PMPRESOURCE_INFO      RemediationResourceList[RemediationResourceCount];
+  BOOL                  FailureResolved;
+  MPRESOLVED_REASON     ResolvedReason;
+  DWORD                 AdditionalActions;
+  DWORD                 ResolvedActions;
+  DWORD                 dwThreatStatusFlag;
 } MPTHREAT_INFO, *PMPTHREAT_INFO;
 ```
 
@@ -562,8 +569,8 @@ Additonal information about the threat detection.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -626,9 +633,9 @@ Additonal information about the threat detection.
 [**MPTHREAT\_TYPE**](mpthreat-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

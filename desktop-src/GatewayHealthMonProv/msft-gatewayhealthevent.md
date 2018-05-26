@@ -4,13 +4,15 @@ description: Gateway health event notifications.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba492657-eb6e-459f-93bd-490c8071507e'
-ms.prod: 'windows-server-dev'
+ms.assetid: ba492657-eb6e-459f-93bd-490c8071507e
+ms.prod: windows-server-dev
 ms.technology:
-- 'gateway-health-monitor'
-- 'windows-management-instrumentation'
+- gateway-health-monitor
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_GatewayHealthEvent class", "MSFT_GatewayHealthEvent class, described"]
+keywords:
+- MSFT_GatewayHealthEvent class
+- MSFT_GatewayHealthEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - GatewayHealthMonitorProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_GatewayHealthEvent class
@@ -36,8 +41,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), Indication, dynamic, provider("GatewayHealthMonitorProvider"), AMENDMENT]
 class MSFT_GatewayHealthEvent
 {
-  string                    Id;
-  boolean                   HealthStatus;
+  string                    Id;
+  boolean                   HealthStatus;
   MSFT_GatewayHealthContext Values[];
 };
 ```
@@ -103,16 +108,16 @@ Contains an array of instances of the [**MSFT\_GatewayHealthContext**](msft-gate
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\GatewayHealthMonitor<br/>                                     |
 | MOF<br/>                      | <dl> <dt>GatewayHealthMonitorProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>GatewayHealthMonitorProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

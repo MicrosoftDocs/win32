@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether HTTP protocol is enabled in the network source.'
-ms.assetid: 'dcc4db5c-0274-4a8a-89a4-66cda62e1520'
-title: 'MFNETSOURCE\_ENABLE\_HTTP property'
+---
+Description: Specifies whether HTTP protocol is enabled in the network source.
+ms.assetid: dcc4db5c-0274-4a8a-89a4-66cda62e1520
+title: MFNETSOURCE\_ENABLE\_HTTP property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_ENABLE\_HTTP property

@@ -1,8 +1,9 @@
 ---
 title: Copyright Attribute
 description: The Copyright attribute is the copyright message for the item.
-ms.assetid: '617272cb-883f-46d6-b0a9-29ac32c63148'
-keywords: ["Copyright Attribute Windows Media Player"]
+ms.assetid: 617272cb-883f-46d6-b0a9-29ac32c63148
+keywords:
+- Copyright Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - msfeeds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copyright Attribute
@@ -52,9 +58,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

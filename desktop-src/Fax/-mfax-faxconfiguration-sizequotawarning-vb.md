@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether the size quota warning is turned on.'
-ms.assetid: '541abd86-8edb-4d52-a323-5bdafab24653'
-title: 'FaxConfiguration.SizeQuotaWarning property'
+---
+Description: Sets or retrieves a value that indicates whether the size quota warning is turned on.
+ms.assetid: 541abd86-8edb-4d52-a323-5bdafab24653
+title: FaxConfiguration.SizeQuotaWarning property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.SizeQuotaWarning property

@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_FocalPlaneXResolution.'
-ms.assetid: '386f434a-22c3-4f72-8981-f99e1c9b2722'
-title: 'System.Photo.FocalPlaneXResolutionNumerator'
+Description: The numerator of PKEY\_Photo\_FocalPlaneXResolution.
+ms.assetid: 386f434a-22c3-4f72-8981-f99e1c9b2722
+title: System.Photo.FocalPlaneXResolutionNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FocalPlaneXResolutionNumerator

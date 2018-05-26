@@ -1,22 +1,27 @@
 ---
-Description: 'The Tablet PC includes technology for interacting with tablet pen data as it is being gathered.'
-ms.assetid: 'e026f860-be4d-40a5-b951-15b8be3cd626'
+Description: The Tablet PC includes technology for interacting with tablet pen data as it is being gathered.
+ms.assetid: e026f860-be4d-40a5-b951-15b8be3cd626
 title: Accessing and Manipulating Stylus Input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing and Manipulating Stylus Input
 
-The Tablet PC includes technology for interacting with tablet pen data as it is being gathered. The [**RealTimeStylus**](realtimestylus-class.md) class is part of the StylusInput application programming interfaces (API), which provide access to the tablet pen data stream. These APIs allow you to capture, interrupt, and modify the stream independently from rendering and collecting ink.
+The Tablet PC includes technology for interacting with tablet pen data as it is being gathered. The [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) class is part of the StylusInput application programming interfaces (API), which provide access to the tablet pen data stream. These APIs allow you to capture, interrupt, and modify the stream independently from rendering and collecting ink.
 
 The StylusInput APIs are designed to:
 
 -   Provide real-time access to the tablet pen data stream.
 -   Keep the user interface (UI) thread from blocking dynamic ink rendering by queuing the packet data on the UI thread and making ink collection single threaded.
--   Increase the performance and lower the overall thread usage over using the [**InkCollector**](inkcollector-class.md) object, [**InkOverlay**](inkoverlay-class.md) object, [InkPicture](inkpicture-control-reference.md) control, or [InkEdit](inkedit-control-reference.md) control to collect ink.
+-   Increase the performance and lower the overall thread usage over using the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, [InkPicture](inkpicture-control-reference.md) control, or [InkEdit](inkedit-control-reference.md) control to collect ink.
 
-The StylusInput APIs are not designed to work with the [**InkCollector**](inkcollector-class.md) object, [**InkOverlay**](inkoverlay-class.md) object, [InkPicture](inkpicture-control-reference.md) control, or [InkEdit](inkedit-control-reference.md) control.
+The StylusInput APIs are not designed to work with the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, [InkPicture](inkpicture-control-reference.md) control, or [InkEdit](inkedit-control-reference.md) control.
 
-When you need to interact directly with the tablet pen data stream or when your application may block real-time inking, use the [**RealTimeStylus**](realtimestylus-class.md) object. Use the [**InkCollector**](inkcollector-class.md) object, [**InkOverlay**](inkoverlay-class.md) object, [InkPicture](inkpicture-control-reference.md) control, or [InkEdit](inkedit-control-reference.md) control when the default behavior of these objects provides the behavior you need.
+When you need to interact directly with the tablet pen data stream or when your application may block real-time inking, use the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) object. Use the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, [InkPicture](inkpicture-control-reference.md) control, or [InkEdit](inkedit-control-reference.md) control when the default behavior of these objects provides the behavior you need.
 
 ## In This Section
 

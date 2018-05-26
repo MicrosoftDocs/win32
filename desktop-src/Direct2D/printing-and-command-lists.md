@@ -1,14 +1,19 @@
 ---
 title: Printing and command lists
 description: The Direct2D \ 32;print control is a new component in the Direct2D module in Windows 8.
-ms.assetid: 'C51ACCDE-B205-4F79-A2FD-D112BAAD1616'
+ms.assetid: C51ACCDE-B205-4F79-A2FD-D112BAAD1616
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printing and command lists
 
-The [Direct2D](direct2d.direct2d_portal.xml) [**print control**](id2d1printcontrol.md) is a new component in the Direct2D module in Windows 8. This component lets Direct2D apps reuse their Direct2D drawing calls (in terms of state changes and rending primitives) to deliver printing results that are similar to what you see on the screen.
+The [Direct2D](direct2d.direct2d_portal.xml) [**print control**](/windows/win32/D2d1_1/?branch=master) is a new component in the Direct2D module in Windows 8. This component lets Direct2D apps reuse their Direct2D drawing calls (in terms of state changes and rending primitives) to deliver printing results that are similar to what you see on the screen.
 
-The [**ID2D1PrintControl**](id2d1printcontrol.md) interface represents a virtual print job: you can create a [Direct2D](direct2d.direct2d_portal.xml) print control to initiate a new print job, pass in Direct2D contents for each page you want to print, then close the print control to complete a print job.
+The [**ID2D1PrintControl**](/windows/win32/D2d1_1/?branch=master) interface represents a virtual print job: you can create a [Direct2D](direct2d.direct2d_portal.xml) print control to initiate a new print job, pass in Direct2D contents for each page you want to print, then close the print control to complete a print job.
 
 > [!Note]  
 > A print control maps to one and exactly one print job, and you can't reuse it.
@@ -75,10 +80,10 @@ d2dPrintControl->Close();
 
 <dl> <dt>
 
-[**ID2D1CommandList**](id2d1commandlist.md)
+[**ID2D1CommandList**](/windows/win32/D2d1_1/?branch=master)
 </dt> <dt>
 
-[**ID2D1PrintControl**](id2d1printcontrol.md)
+[**ID2D1PrintControl**](/windows/win32/D2d1_1/?branch=master)
 </dt> <dt>
 
 [Direct2D Printing for Windows Store apps Sample](http://go.microsoft.com/fwlink/p/?linkid=231613)

@@ -1,7 +1,12 @@
 ---
 title: Application Inventory Classes
 description: .
-ms.assetid: 'f5816782-d0d8-405c-b212-a45a3869e2bd'
+ms.assetid: f5816782-d0d8-405c-b212-a45a3869e2bd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Inventory Classes
@@ -22,15 +27,15 @@ The WMI classes for Application Inventory enable discovery of the installed Win3
 
 
 
- 
+ 
 
 ## Developer audience
 
 The WMI classes for Application Inventory are designed for use by developers of Enterprise management solutions and local or remote administration tools that need to generate an inventory of applications on a system.
 
- 
+ 
 
- 
+ 
 
 
 

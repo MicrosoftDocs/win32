@@ -4,11 +4,14 @@ description: The FontFamilyName property returns a null-terminated string that c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a365d592-f599-4177-a1ca-0f9d9d210528'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a365d592-f599-4177-a1ca-0f9d9d210528
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["FontFamilyName property MMC", "FontFamilyName property MMC , MMCDisplayObject class", "MMCDisplayObject class MMC , FontFamilyName property"]
+keywords:
+- FontFamilyName property MMC
+- FontFamilyName property MMC , MMCDisplayObject class
+- MMCDisplayObject class MMC , FontFamilyName property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCDisplayObject.FontFamilyName property
@@ -47,9 +53,9 @@ MMCDisplayObject.FontFamilyName
 
 
 
- 
+ 
 
- 
+ 
 
 
 

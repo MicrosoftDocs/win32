@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The constrained attribute appears only in a PrintCapabilities document.'
-ms.assetid: '637A210F-9FD7-49BD-AF71-8A77E07D5C20'
+---
+Description: The PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The constrained attribute appears only in a PrintCapabilities document.
+ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 title: PrintSchemaConstrainedSetting enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintSchemaConstrainedSetting enumeration

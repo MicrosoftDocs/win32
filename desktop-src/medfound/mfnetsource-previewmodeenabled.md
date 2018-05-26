@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables preview mode, which enables the application to overwrite the initial buffering logic.'
-ms.assetid: '8aa8c6ac-8746-4bf6-9f57-b1426495a275'
-title: 'MFNETSOURCE\_PREVIEWMODEENABLED property'
+---
+Description: Enables or disables preview mode, which enables the application to overwrite the initial buffering logic.
+ms.assetid: 8aa8c6ac-8746-4bf6-9f57-b1426495a275
+title: MFNETSOURCE\_PREVIEWMODEENABLED property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PREVIEWMODEENABLED property

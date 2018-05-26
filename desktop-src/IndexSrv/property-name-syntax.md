@@ -1,7 +1,12 @@
 ---
 title: Property-Name Syntax
 description: Property-Name Syntax
-ms.assetid: '46c21368-3426-4dd1-9e52-41639c631690'
+ms.assetid: 46c21368-3426-4dd1-9e52-41639c631690
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property-Name Syntax

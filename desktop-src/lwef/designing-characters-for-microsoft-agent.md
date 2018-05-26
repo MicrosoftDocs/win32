@@ -1,7 +1,12 @@
 ---
 title: Designing Characters for Microsoft Agent
 description: Designing Characters for Microsoft Agent
-ms.assetid: 'c424a4c6-6a36-4f0b-a3f1-2c91a513df75'
+ms.assetid: c424a4c6-6a36-4f0b-a3f1-2c91a513df75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Characters for Microsoft Agent

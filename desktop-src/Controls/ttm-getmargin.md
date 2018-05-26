@@ -1,8 +1,9 @@
 ---
 title: TTM\_GETMARGIN message
 description: Retrieves the top, left, bottom, and right margins set for a tooltip window. A margin is the distance, in pixels, between the tooltip window border and the text contained within the tooltip window.
-ms.assetid: 'c33ee1de-5fbd-4c7e-a703-576c2ffd3052'
-keywords: ["TTM_GETMARGIN message Windows Controls"]
+ms.assetid: c33ee1de-5fbd-4c7e-a703-576c2ffd3052
+keywords:
+- TTM_GETMARGIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_GETMARGIN message
@@ -40,7 +46,7 @@ Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,8 +64,8 @@ All four margins default to zero when you create the tooltip control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ All four margins default to zero when you create the tooltip control.
 [**TTM\_SETMARGIN**](ttm-setmargin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

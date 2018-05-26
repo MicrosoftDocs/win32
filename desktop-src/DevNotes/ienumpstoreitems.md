@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the COM-standard enumeration methods for the IPStore interface.'
-ms.assetid: 'f5290e6c-8752-4380-9210-c96a87f000ba'
+---
+Description: Provides the COM-standard enumeration methods for the IPStore interface.
+ms.assetid: f5290e6c-8752-4380-9210-c96a87f000ba
 title: IEnumPStoreItems interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreItems interface

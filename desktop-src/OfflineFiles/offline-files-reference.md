@@ -1,13 +1,16 @@
 ---
-Description: 'The Offline Files Reference includes the following sections.'
+Description: The Offline Files Reference includes the following sections.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5d3b861c-f973-4e75-bca1-a78033dc36d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5d3b861c-f973-4e75-bca1-a78033dc36d2
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: Offline Files Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Offline Files Reference

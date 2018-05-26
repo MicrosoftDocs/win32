@@ -1,14 +1,20 @@
 ---
 title: context\_handle\_noserialize attribute
-description: The \ context\_handle\_noserialize\ ACF attribute guarantees that a context handle will never be serialized, regardless of the application's default behavior.
+description: The \ context\_handle\_noserialize\ ACF attribute guarantees that a context handle will never be serialized, regardless of the applications default behavior.
 ms.assetid: aff2484e-639b-41d2-94a9-f34ca4f2343c
-keywords: ["context_handle_noserialize attribute MIDL"]
+keywords:
+- context_handle_noserialize attribute MIDL
 topic_type:
 - apiref
 api_name:
 - context_handle_noserialize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # context\_handle\_noserialize attribute

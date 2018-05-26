@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: '43f422ff-d46f-403a-a343-7cd247129159'
-title: 'IAMTimelineGroup::ClearRecompressFormatDirty method'
+---
+Description: Not supported.
+ms.assetid: 43f422ff-d46f-403a-a343-7cd247129159
+title: IAMTimelineGroupClearRecompressFormatDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::ClearRecompressFormatDirty method

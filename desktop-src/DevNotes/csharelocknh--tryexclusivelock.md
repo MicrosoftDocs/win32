@@ -1,7 +1,12 @@
-﻿---
-Description: 'Obtains a lock exclusively if no others are currently hold it.'
-ms.assetid: 'd655b89c-f2c8-4965-a21b-f539b1598296'
-title: 'CShareLockNH::TryExclusiveLock method'
+---
+Description: Obtains a lock exclusively if no others are currently hold it.
+ms.assetid: d655b89c-f2c8-4965-a21b-f539b1598296
+title: CShareLockNHTryExclusiveLock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CShareLockNH::TryExclusiveLock method

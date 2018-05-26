@@ -4,13 +4,15 @@ description: Verifies whether a node is configured to support clustering.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4cde9dfa-62f1-4fe0-8e3b-a83ef6a52f91'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4cde9dfa-62f1-4fe0-8e3b-a83ef6a52f91
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterUtilities class", "MSCluster_ClusterUtilities class, described"]
+keywords:
+- MSCluster_ClusterUtilities class
+- MSCluster_ClusterUtilities class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterUtilities class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Singleton, Provider("MS_CLUSTER_PROVIDER"), UUID("{6FE4D3D2-4593-4B39-A14A-86EB3E69087F}"), AMENDMENT]
 class MSCluster_ClusterUtilities
 {
-  string  Fqdn;
+  string  Fqdn;
   boolean HasSystemAccess;
 };
 ```
@@ -61,7 +66,7 @@ The **MSCluster\_ClusterUtilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -102,16 +107,16 @@ Access type: Read-only
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the camera extrinsics for the sample.'
-ms.assetid: 'C970E958-3866-491A-9806-DB300834360E'
-title: 'MFSampleExtension\_CameraExtrinsics attribute'
+---
+Description: Contains the camera extrinsics for the sample.
+ms.assetid: C970E958-3866-491A-9806-DB300834360E
+title: MFSampleExtension\_CameraExtrinsics attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_CameraExtrinsics attribute
@@ -14,17 +19,17 @@ Byte array
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetBlob**](imfattributes-setblob.md).
+To set this attribute, call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 
-The value of the attribute is a [**MFCameraExtrinsics**](mfcameraextrinsics.md).
+The value of the attribute is a [**MFCameraExtrinsics**](/windows/win32/mfapi/ns-mfapi-_mfcameraextrinsics?branch=master).
 
 This attribute is optional to support cameras that are not calibrated.
 

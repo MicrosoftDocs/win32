@@ -1,7 +1,12 @@
 ---
 title: Testing Filters
 description: Testing Filters
-ms.assetid: '66f596d0-3416-4792-9e84-dba46dbf85ce'
+ms.assetid: 66f596d0-3416-4792-9e84-dba46dbf85ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing Filters
@@ -11,7 +16,7 @@ ms.assetid: '66f596d0-3416-4792-9e84-dba46dbf85ce'
 
  
 
-You can test your filter implementations using the programs of the IFilter Test Suite. The IFilter Test Suite can validate [**IFilter**](ifilter.md) interface implementations by calling **IFilter** methods and checking the returned values for compliance with the **IFilter** interface specification. Programs of the Test Suite will, for example, check that chunk identifiers are unique and increasing, that the **IFilter** interface behaves consistently after reinitialization, and that **IFilter**method calls with invalid parameters return expected error codes. The programs will also dump the output of a file filtered by an **IFilter** interface implementation and check the filter registration information in the registry.
+You can test your filter implementations using the programs of the IFilter Test Suite. The IFilter Test Suite can validate [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface implementations by calling **IFilter** methods and checking the returned values for compliance with the **IFilter** interface specification. Programs of the Test Suite will, for example, check that chunk identifiers are unique and increasing, that the **IFilter** interface behaves consistently after reinitialization, and that **IFilter**method calls with invalid parameters return expected error codes. The programs will also dump the output of a file filtered by an **IFilter** interface implementation and check the filter registration information in the registry.
 
 The IFilter Test Suite consists of three programs, ifilttst.exe, filtdump.exe, and filtreg.exe, plus an initialization file, ifilttst.ini. The programs are all command-line applications. The IFilter Test Suite requires Indexing Service and Internet Information Services (IIS).
 

@@ -1,7 +1,12 @@
 ---
 title: TypeDef Syntax for Complex Data Types
 description: In MIDL, the first definition will generate a TKIND\_RECORD for \ 0034;myStruct \ 0034; and a TKIND\_ALIAS for \ 0034;testStruct \ 0034; (defining \ 0034;testStruct \ 0034; as an alias for \ 0034;myStruct \ 0034;).
-ms.assetid: '9251b327-2125-4301-b8ea-cde178d424d5'
+ms.assetid: 9251b327-2125-4301-b8ea-cde178d424d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeDef Syntax for Complex Data Types

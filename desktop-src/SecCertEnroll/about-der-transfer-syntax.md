@@ -1,7 +1,12 @@
 ---
-Description: 'Applying an encoding rule to the data structures described by an abstract syntax provides a transfer syntax that governs how bytes in a stream are organized when sent between computers.'
-ms.assetid: '674e88f9-4b65-4b42-8c44-d24fc03ae2f3'
+Description: Applying an encoding rule to the data structures described by an abstract syntax provides a transfer syntax that governs how bytes in a stream are organized when sent between computers.
+ms.assetid: 674e88f9-4b65-4b42-8c44-d24fc03ae2f3
 title: DER Transfer Syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DER Transfer Syntax

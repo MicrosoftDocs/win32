@@ -4,17 +4,21 @@ description: A date until which the content is valid.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'CC7FE1A6-3799-4514-B68E-EBB7A556DA1E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: CC7FE1A6-3799-4514-B68E-EBB7A556DA1E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor contentValidUntil property"]
+keywords:
+- MSPolicyDescriptor contentValidUntil property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor contentValidUntil property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor contentValidUntil property
@@ -37,7 +41,7 @@ A date until which the content is valid.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

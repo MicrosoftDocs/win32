@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a pipeline component when the configuration changes for one of the output protection schemes. This event applies only to protected content.'
-ms.assetid: '0a13fc08-2bbe-46d8-a076-6165cca6ea36'
+---
+Description: Raised by a pipeline component when the configuration changes for one of the output protection schemes. This event applies only to protected content.
+ms.assetid: 0a13fc08-2bbe-46d8-a076-6165cca6ea36
 title: MEContentProtectionMessage event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEContentProtectionMessage event
@@ -10,7 +15,7 @@ Raised by a pipeline component when the configuration changes for one of the out
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -22,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 ## Remarks
 
-All trusted outputs must handle this event. Media Foundation transforms (MFTs) receive this event through the [**IMFTransform::ProcessEvent**](imftransform-processevent.md) method. Media sinks receive this event through the [**IMFStreamSink::PlaceMarker**](imfstreamsink-placemarker.md) method.
+All trusted outputs must handle this event. Media Foundation transforms (MFTs) receive this event through the [**IMFTransform::ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master) method. Media sinks receive this event through the [**IMFStreamSink::PlaceMarker**](/windows/win32/mfidl/nf-mfidl-imfstreamsink-placemarker?branch=master) method.
 
 The trusted output must apply the policy changes or return the error code MF\_E\_POLICY\_UNSUPPORTED.
 

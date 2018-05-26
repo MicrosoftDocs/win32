@@ -4,11 +4,12 @@ description: Used to specify the type of a device.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B6356217-814E-462F-9DBC-F6D3C0CE129F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: B6356217-814E-462F-9DBC-F6D3C0CE129F
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RedirectDeviceType enumeration Remote Desktop Services"]
+keywords:
+- RedirectDeviceType enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # RedirectDeviceType enumeration
@@ -28,7 +32,7 @@ Used to specify the type of a device.
 
 ```C++
 typedef enum  { 
-  UsbDevice  = 0
+  UsbDevice  = 0
 } RedirectDeviceType;
 ```
 
@@ -51,8 +55,8 @@ A USB device.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
 
@@ -67,9 +71,9 @@ A USB device.
 [**RedirectNow**](imsrdpdevicecollection2-redirectnow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

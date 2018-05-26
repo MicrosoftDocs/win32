@@ -1,8 +1,9 @@
 ---
 title: SetupColorMatching function
 description: The SetupColorMatching function creates a Color Management dialog box that lets the user choose whether to enable color management, and if so, provides control over the color profiles used and over the rendering intent.
-ms.assetid: '7d3b6d3f-49f4-46f5-a43b-868e53965d8f'
-keywords: ["SetupColorMatching function Windows Color System"]
+ms.assetid: 7d3b6d3f-49f4-46f5-a43b-868e53965d8f
+keywords:
+- SetupColorMatching function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - icmui.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetupColorMatching function
@@ -24,7 +30,7 @@ The **SetupColorMatching** function creates a Color Management dialog box that l
 
 ```C++
 BOOL WINAPI SetupColorMatching(
-   PCOLORMATCHSETUP pcms
+   PCOLORMATCHSETUP pcms
 );
 ```
 
@@ -55,8 +61,8 @@ If this function fails, the return value is **FALSE** indicating that an error o
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Icmui.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Icmui.dll</dt> </dl> |
@@ -74,9 +80,9 @@ If this function fails, the return value is **FALSE** indicating that an error o
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Working with Outputs
 description: Working with Outputs
-ms.assetid: 'e2e14e88-dddc-496d-8087-1455da0821e3'
-keywords: ["Windows Media Format SDK,working with outputs", "Advanced Systems Format (ASF),working with outputs", "ASF (Advanced Systems Format),working with outputs", "Advanced Systems Format (ASF),output numbers and formats", "ASF (Advanced Systems Format),output numbers and formats", "output numbers and formats,about"]
+ms.assetid: e2e14e88-dddc-496d-8087-1455da0821e3
+keywords:
+- Windows Media Format SDK,working with outputs
+- Advanced Systems Format (ASF),working with outputs
+- ASF (Advanced Systems Format),working with outputs
+- Advanced Systems Format (ASF),output numbers and formats
+- ASF (Advanced Systems Format),output numbers and formats
+- output numbers and formats,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Outputs
@@ -22,10 +33,10 @@ The following topics explain how to work with outputs:
 
 <dl> <dt>
 
-[**IWMReader Interface**](iwmreader.md)
+[**IWMReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreader?branch=master)
 </dt> <dt>
 
-[**IWMSyncReader Interface**](iwmsyncreader.md)
+[**IWMSyncReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmsyncreader?branch=master)
 </dt> <dt>
 
 [**Reading ASF Files**](reading-asf-files.md)

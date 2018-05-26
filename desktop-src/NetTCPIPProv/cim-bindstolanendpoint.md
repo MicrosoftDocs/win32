@@ -1,7 +1,12 @@
 ---
-Description: 'This association makes explicit the dependency of a SAP or protocol endpoint on an underlying LAN endpoint, on the same system.'
-ms.assetid: 'a24168ee-9100-44ee-8877-c3fb1952f4b5'
-title: 'CIM\_BindsToLANEndpoint class'
+Description: This association makes explicit the dependency of a SAP or protocol endpoint on an underlying LAN endpoint, on the same system.
+ms.assetid: a24168ee-9100-44ee-8877-c3fb1952f4b5
+title: CIM\_BindsToLANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BindsToLANEndpoint class
@@ -16,9 +21,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, UMLPackagePath("CIM::Network::ProtocolEndpoints"), Version("2.6.0"), AMENDMENT]
 class CIM_BindsToLANEndpoint : CIM_BindsTo
 {
-  CIM_LANEndpoint        REF Antecedent;
+  CIM_LANEndpoint        REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
-  uint16                     FrameType;
+  uint16                     FrameType;
 };
 ```
 
@@ -102,8 +107,8 @@ This describes the framing method for the upper layer SAP or Endpoint that is bo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -117,9 +122,9 @@ This describes the framing method for the upper layer SAP or Endpoint that is bo
 [**CIM\_BindsTo**](cim-bindsto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

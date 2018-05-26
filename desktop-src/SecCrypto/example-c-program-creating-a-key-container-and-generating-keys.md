@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a named key container and adds a signature key pair and an exchange key pair to the container.'
-ms.assetid: 'b9d13024-0e53-4930-9962-a2a0d0cb88de'
-title: 'Example C Program: Creating a Key Container and Generating Keys'
+Description: Creates a named key container and adds a signature key pair and an exchange key pair to the container.
+ms.assetid: b9d13024-0e53-4930-9962-a2a0d0cb88de
+title: Example C Program Creating a Key Container and Generating Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Creating a Key Container and Generating Keys
@@ -23,11 +28,11 @@ These operations only need to be performed once for each user on each computer. 
 
 This example uses the following CryptoAPI functions:
 
--   [**CryptAcquireContext**](cryptacquirecontext.md)
--   [**CryptDestroyKey**](cryptdestroykey.md)
--   [**CryptGenKey**](cryptgenkey.md)
--   [**CryptGetUserKey**](cryptgetuserkey.md)
--   [**CryptReleaseContext**](cryptreleasecontext.md)
+-   [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master)
+-   [**CryptDestroyKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptdestroykey?branch=master)
+-   [**CryptGenKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgenkey?branch=master)
+-   [**CryptGetUserKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetuserkey?branch=master)
+-   [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master)
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about the native JPEG codec available through the Windows Imaging Component (WIC).'
-ms.assetid: '9DCBCE9B-965B-4C18-992C-EFFFF32FCE5E'
+Description: This topic provides information about the native JPEG codec available through the Windows Imaging Component (WIC).
+ms.assetid: 9DCBCE9B-965B-4C18-992C-EFFFF32FCE5E
 title: JPEG Format Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JPEG Format Overview
@@ -54,10 +59,10 @@ The JPEG codec uses basic WIC options. The following table lists the WIC encoder
 | Property Name                                        | VARTYPE           | Value Range                                                                       | Default Value                                                                  |
 |------------------------------------------------------|-------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [ImageQuality](#imagequality-option)                 | VT\_R4            | 0 - 1.0                                                                           | 0.9                                                                            |
-| [BitmapTransform](#bitmaptransform-option)           | VT\_UI1           | [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md)         | [**WICBitmapTransformRotate0**](-wic-codec-wicbitmaptransformoptions.md)      |
+| [BitmapTransform](#bitmaptransform-option)           | VT\_UI1           | [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master)         | [**WICBitmapTransformRotate0**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master)      |
 | [Luminance](#luminance-option)                       | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | Default luminance table.                                                       |
 | [Chrominance](#chrominance-option)                   | VT\_UI4/VT\_ARRAY | 64 Entries (DCT)                                                                  | Default chrominance table.                                                     |
-| [JpegYCrCbSubsampling](#jpegycrcbsubsampling-option) | VT\_UI1           | [**WICJpegYCrCbSubsamplingOption**](-wic-codec-wicjpegycrcbsubsamplingoption.md) | [**WICJpegYCrCbSubsampling420**](-wic-codec-wicjpegycrcbsubsamplingoption.md) |
+| [JpegYCrCbSubsampling](#jpegycrcbsubsampling-option) | VT\_UI1           | [**WICJpegYCrCbSubsamplingOption**](/windows/win32/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption?branch=master) | [**WICJpegYCrCbSubsampling420**](/windows/win32/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption?branch=master) |
 | [SuppressApp0](#-suppressapp0)                       | VT\_BOOL          | **TRUE**/**FALSE**                                                                | **FALSE**                                                                      |
 
 
@@ -74,9 +79,9 @@ The default value is 0.9.
 
 ### BitmapTransform Option
 
-Specifies how the image is to be transformed during image decoding. This option must be set to one of the [**WICBitmapTransformOptions**](-wic-codec-wicbitmaptransformoptions.md) enumeration values.
+Specifies how the image is to be transformed during image decoding. This option must be set to one of the [**WICBitmapTransformOptions**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master) enumeration values.
 
-The default value is [**WICBitmapTransformRotate0**](-wic-codec-wicbitmaptransformoptions.md).
+The default value is [**WICBitmapTransformRotate0**](/windows/win32/Wincodec/ne-wincodec-wicbitmaptransformoptions?branch=master).
 
 ### Luminance Option
 
@@ -90,7 +95,7 @@ Specifies the chrominance table to use for encoding.
 
 Specifies the subsampling ratio to use for YCrCb encoding.
 
-The default value is [**WICJpegYCrCbSubsampling420**](-wic-codec-wicjpegycrcbsubsamplingoption.md).
+The default value is [**WICJpegYCrCbSubsampling420**](/windows/win32/Wincodec/ne-wincodec-wicjpegycrcbsubsamplingoption?branch=master).
 
 ### SuppressApp0 Option
 
@@ -102,7 +107,7 @@ The default value is **FALSE**.
 
 The WIC decoding API are designed to be codec-independent and image decoding for WIC-enabled codecs is essentially the same. For more information about image decoding, see the [Decoding Overview](-wic-creating-decoder.md). For more information about using decoded image data, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
-The native JPEG codec also supports the [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) on frame decoding adding advaced options for decoding an image stream. For more information about these advanced options, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
+The native JPEG codec also supports the [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) on frame decoding adding advaced options for decoding an image stream. For more information about these advanced options, see the [Bitmap Sources Overview](-wic-bitmapsources.md).
 
  
 

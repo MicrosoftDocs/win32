@@ -1,7 +1,12 @@
 ---
 title: How to Ensure Text is Displayed with the Correct Reading Direction
 description: Some languages, such as Arabic and Hebrew, require a right-to-left reading direction.
-ms.assetid: 'fa9a3dd6-575a-4877-a488-22845c6726c8'
+ms.assetid: fa9a3dd6-575a-4877-a488-22845c6726c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Ensure Text is Displayed with the Correct Reading Direction
@@ -42,7 +47,7 @@ BOOL bWSReading = dwStyle & WS_EX_RTLREADING;
 
 
 
-Set the reading direction by using the [**IDWriteTextFormat::SetReadingDirection**](idwritetextformat-setreadingdirection.md) method. The default is left-to-right, so you only need to set the reading direction if it is right-to-left.
+Set the reading direction by using the [**IDWriteTextFormat::SetReadingDirection**](/windows/win32/dwrite/?branch=master) method. The default is left-to-right, so you only need to set the reading direction if it is right-to-left.
 
 > [!Note]  
 > WS\_EX\_LAYOUTRTL mirrors the whole layout and implies right-to-left reading direction, so set the reading direction only if one of these flags is present. If both are present, they cancel one another out and the reading direction for the text format should be left-to-right.

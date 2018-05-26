@@ -1,8 +1,11 @@
 ---
 title: ActivityCollection AddItem method
 description: Creates an Activity and adds it to the ActivityCollection.
-ms.assetid: '50C570F4-2C54-4D65-9312-AEDA87CD8ABC'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , ActivityCollection interface", "ActivityCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: 50C570F4-2C54-4D65-9312-AEDA87CD8ABC
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , ActivityCollection interface
+- ActivityCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityCollection::AddItem method
@@ -22,7 +30,7 @@ Creates an [**Activity**](activity-struct.md) and adds it to the **ActivityColle
 
 ```C++
 virtual HRESULT AddItem(
-  [out] Activity **activity
+  [out] Activity **activity
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 [**ActivityCollection**](activitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

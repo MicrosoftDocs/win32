@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the IMM commands.'
-ms.assetid: 'd76207c7-94d0-4e11-9a6e-fc5c90af58fd'
+Description: This section describes the IMM commands.
+ms.assetid: d76207c7-94d0-4e11-9a6e-fc5c90af58fd
 title: Input Method Manager Commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Method Manager Commands

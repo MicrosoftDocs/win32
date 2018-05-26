@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig2 IsRemoteConfigSupported method
 description: Is implemented by system health validators (SHVs) to indicate whether remote configuration is supported.
-ms.assetid: 'c4b8e60b-ed60-49ec-b4d6-4e1575e4d1a5'
-keywords: ["IsRemoteConfigSupported method NAP", "IsRemoteConfigSupported method NAP , INapComponentConfig2 interface", "INapComponentConfig2 interface NAP , IsRemoteConfigSupported method"]
+ms.assetid: c4b8e60b-ed60-49ec-b4d6-4e1575e4d1a5
+keywords:
+- IsRemoteConfigSupported method NAP
+- IsRemoteConfigSupported method NAP , INapComponentConfig2 interface
+- INapComponentConfig2 interface NAP , IsRemoteConfigSupported method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig2::IsRemoteConfigSupported method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **IsRemoteConfigSupported** method is implemented by system health validators (SHVs) to indicate whether remote configuration is supported.
 
@@ -27,8 +35,8 @@ The **IsRemoteConfigSupported** method is implemented by system health validator
 
 ```C++
 HRESULT IsRemoteConfigSupported(
-  [out] BOOL  *isSupported,
-  [out] UINT8 *remoteConfigType
+  [out] BOOL  *isSupported,
+  [out] UINT8 *remoteConfigType
 );
 ```
 
@@ -48,7 +56,7 @@ A pointer to a BOOL that is set to **TRUE** if the component supports remote con
 *remoteConfigType* \[out\]
 </dt> <dd>
 
-Indicates the type of remote configuration supported using value from the [**RemoteConfigurationType**](remoteconfigurationtype.md) enumeration:
+Indicates the type of remote configuration supported using value from the [**RemoteConfigurationType**](/windows/win32/NapTypes/ne-naptypes-tagremoteconfigurationtype?branch=master) enumeration:
 
 
 
@@ -59,7 +67,7 @@ Indicates the type of remote configuration supported using value from the [**Rem
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -78,7 +86,7 @@ If neither [**InvokeUIForMachine**](inapcomponentconfig2-invokeuiformachine.md) 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -91,9 +99,9 @@ If neither [**InvokeUIForMachine**](inapcomponentconfig2-invokeuiformachine.md) 
 [**INapComponentConfig2**](inapcomponentconfig2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

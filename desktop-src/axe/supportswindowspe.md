@@ -1,14 +1,20 @@
 ---
 title: SupportsWindowsPE element
 description: If present this assessment can run in Windows PE.
-ms.assetid: 'D3E7B27E-A59E-4E56-B797-5029FE7EA547'
-keywords: ["SupportsWindowsPE element Access Execution Engine"]
+ms.assetid: D3E7B27E-A59E-4E56-B797-5029FE7EA547
+keywords:
+- SupportsWindowsPE element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - SupportsWindowsPE
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SupportsWindowsPE element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

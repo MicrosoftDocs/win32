@@ -1,8 +1,9 @@
 ---
 title: CardCreateContainer function
 description: Creates a new key container on a smart card.
-ms.assetid: 'e9718b0d-1ee1-4f9f-8ef3-1c1966db6c80'
-keywords: ["CardCreateContainer function Security"]
+ms.assetid: e9718b0d-1ee1-4f9f-8ef3-1c1966db6c80
+keywords:
+- CardCreateContainer function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardCreateContainer function
@@ -24,12 +30,12 @@ The **CardCreateContainer** function, defined by a smart card module, creates a 
 
 ```C++
 DWORD WINAPI CardCreateContainer(
-  _In_ PCARD_DATA pCardData,
-  _In_ BYTE       bContainerIndex,
-  _In_ DWORD      dwFlags,
-  _In_ DWORD      dwKeySpec,
-  _In_ DWORD      dwKeySize,
-  _In_ PBYTE      pbKeyData
+  _In_ PCARD_DATA pCardData,
+  _In_ BYTE       bContainerIndex,
+  _In_ DWORD      dwFlags,
+  _In_ DWORD      dwKeySpec,
+  _In_ DWORD      dwKeySize,
+  _In_ PBYTE      pbKeyData
 );
 ```
 
@@ -69,7 +75,7 @@ A **DWORD** value that specifies the source of the keys in the new container. Th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -93,7 +99,7 @@ The purpose or type of the keys in the new container. This parameter can be one 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -131,7 +137,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,8 +145,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -164,9 +170,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CryptExportKey**](https://msdn.microsoft.com/library/windows/desktop/aa379931)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

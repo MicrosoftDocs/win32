@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransitionsEnabled method determines whether transitions are enabled.'
-ms.assetid: 'c961d8d7-4509-444b-a49f-6ab79fc31f7e'
-title: 'IAMTimeline::TransitionsEnabled method'
+---
+Description: The TransitionsEnabled method determines whether transitions are enabled.
+ms.assetid: c961d8d7-4509-444b-a49f-6ab79fc31f7e
+title: IAMTimelineTransitionsEnabled method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::TransitionsEnabled method

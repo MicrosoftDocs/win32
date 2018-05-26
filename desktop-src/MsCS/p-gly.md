@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd1052185-c938-4054-9308-8c6213f029ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d1052185-c938-4054-9308-8c6213f029ec
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # P
@@ -129,7 +132,7 @@ A characteristic of a [*private property*](#-wolf-private-property-gly) that det
 <span id="_wolf_property_table_gly"></span><span id="_WOLF_PROPERTY_TABLE_GLY"></span>**property table**
 </dt> <dd>
 
-An array of [**RESUTIL\_PROPERTY\_ITEM**](resutil-property-item.md) structures used to store multiple properties.
+An array of [**RESUTIL\_PROPERTY\_ITEM**](/windows/previous-versions/ResApi/ns-resapi-resutil_property_item?branch=master) structures used to store multiple properties.
 
 </dd> <dt>
 

@@ -4,11 +4,14 @@ description: Returns the number of objects in the ClusterNames collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e67f64d2-89e1-423d-94a1-fa5d734c7194'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e67f64d2-89e1-423d-94a1-fa5d734c7194
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Count property Failover Cluster", "Count property Failover Cluster , ClusterNames collection", "ClusterNames collection Failover Cluster , Count property"]
+keywords:
+- Count property Failover Cluster
+- Count property Failover Cluster , ClusterNames collection
+- ClusterNames collection Failover Cluster , Count property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterNames.Count property
@@ -47,7 +53,7 @@ ClusterNames.Count As Long
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -63,9 +69,9 @@ ClusterNames.Count As Long
 [**ClusterNames**](clusternames-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

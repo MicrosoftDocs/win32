@@ -1,8 +1,14 @@
 ---
 title: Preventing Client-side Hangs
 description: There are two ways your client can hang network connectivity can cause server requests to become lost, or the server itself can crash. With default options, RPC will never time out a call, and your client thread will wait forever for a response.
-ms.assetid: '2c201e29-9d9c-48e6-b0b5-68e4b25c3fb7'
-keywords: ["Remote Procedure Call RPC , best practices, preventing client hangs"]
+ms.assetid: 2c201e29-9d9c-48e6-b0b5-68e4b25c3fb7
+keywords:
+- Remote Procedure Call RPC , best practices, preventing client hangs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preventing Client-side Hangs
@@ -13,9 +19,9 @@ There are two methods to prevent this: keep alives and time outs.
 
 ## TCP Keep Alives
 
-The client can be set up to periodically ping the server to ensure the server is alive and running. The pings are TCP keep-alives for the [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104) and [**ncacn\_http**](https://msdn.microsoft.com/library/windows/desktop/aa367103) protocol sequences, and as such, they are efficient in CPU utilization and network bandwidth. To enable keep alives on a given remote procedure call, use the [**RpcMgmtSetComTimeout**](rpcmgmtsetcomtimeout.md) function before the call is initiated. This function takes a binding handle and a time out as arguments. Every remote procedure call on this binding handle after **RpcMgmtSetComTimeout** uses the supplied time out.
+The client can be set up to periodically ping the server to ensure the server is alive and running. The pings are TCP keep-alives for the [**ncacn\_ip\_tcp**](https://msdn.microsoft.com/library/windows/desktop/aa367104) and [**ncacn\_http**](https://msdn.microsoft.com/library/windows/desktop/aa367103) protocol sequences, and as such, they are efficient in CPU utilization and network bandwidth. To enable keep alives on a given remote procedure call, use the [**RpcMgmtSetComTimeout**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout?branch=master) function before the call is initiated. This function takes a binding handle and a time out as arguments. Every remote procedure call on this binding handle after **RpcMgmtSetComTimeout** uses the supplied time out.
 
-The Timeout parameter for the [**RpcMgmtSetComTimeout**](rpcmgmtsetcomtimeout.md) function specifies how long the RPC run time waits before it turns on keep alives. The time out is a value between 0 and 10, where 0 is the minimal time out, and 10 is infinite time out (no time out). The time out itself is not in seconds; the translation from the time-out value supplied to the **RpcMgmtSetComTimeout** function to seconds is done by the RPC run time, and is implementation specific.
+The Timeout parameter for the [**RpcMgmtSetComTimeout**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout?branch=master) function specifies how long the RPC run time waits before it turns on keep alives. The time out is a value between 0 and 10, where 0 is the minimal time out, and 10 is infinite time out (no time out). The time out itself is not in seconds; the translation from the time-out value supplied to the **RpcMgmtSetComTimeout** function to seconds is done by the RPC run time, and is implementation specific.
 
 The following table provides the translation to seconds for Windows 2000 and Windows XP. Future versions of Windows may change the mapping between the Timeout parameter and the time-out value in seconds:
 

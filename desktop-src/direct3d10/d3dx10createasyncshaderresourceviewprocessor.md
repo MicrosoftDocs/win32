@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX10 that uses thread pumps.'
-ms.assetid: '6e5a6138-c218-4200-a24e-d906d34933b8'
+---
+Description: Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX10 that uses thread pumps.
+ms.assetid: 6e5a6138-c218-4200-a24e-d906d34933b8
 title: D3DX10CreateAsyncShaderResourceViewProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncShaderResourceViewProcessor function
@@ -28,9 +33,9 @@ HRESULT D3DX10CreateAsyncShaderResourceViewProcessor(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-Pointer to the Direct3D device (see [**ID3D10Device Interface**](id3d10device.md)) that will be used to create a resource and a shader-resource view for that resource.
+Pointer to the Direct3D device (see [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)) that will be used to create a resource and a shader-resource view for that resource.
 
 </dd> <dt>
 

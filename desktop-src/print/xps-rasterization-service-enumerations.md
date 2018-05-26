@@ -1,7 +1,12 @@
 ---
 Description: XPS Rasterization Service Enumerations
-ms.assetid: '256885b3-e7bb-4533-a509-16b8d04884ef'
+ms.assetid: 256885b3-e7bb-4533-a509-16b8d04884ef
 title: XPS Rasterization Service Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPS Rasterization Service Enumerations

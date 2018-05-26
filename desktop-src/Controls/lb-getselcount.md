@@ -1,8 +1,9 @@
 ---
 title: LB\_GETSELCOUNT message
 description: Gets the total number of selected items in a multiple-selection list box.
-ms.assetid: '1597f6d0-e8f2-4e10-8a0e-ef76192e6238'
-keywords: ["LB_GETSELCOUNT message Windows Controls"]
+ms.assetid: 1597f6d0-e8f2-4e10-8a0e-ef76192e6238
+keywords:
+- LB_GETSELCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETSELCOUNT message
@@ -45,8 +51,8 @@ The return value is the count of selected items in the list box. If the list box
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The return value is the count of selected items in the list box. If the list box
 [**LB\_SETSEL**](lb-setsel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

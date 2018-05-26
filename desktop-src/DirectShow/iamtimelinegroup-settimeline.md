@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported. Call the IAMTimeline::AddGroup method instead.'
-ms.assetid: 'dd671fa5-ed5a-46e2-b4bd-a37f0e7458ca'
-title: 'IAMTimelineGroup::SetTimeline method'
+---
+Description: Not supported. Call the IAMTimelineAddGroup method instead.
+ms.assetid: dd671fa5-ed5a-46e2-b4bd-a37f0e7458ca
+title: IAMTimelineGroupSetTimeline method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetTimeline method

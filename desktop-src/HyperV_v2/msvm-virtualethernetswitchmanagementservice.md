@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtualization service present on a single host system. Msvm\_VirtualEthernetSwitchManagementService is used to control the definition, modification, and deletion of virtual Ethernet switches.'
-ms.assetid: '628a6546-cc78-4fde-be0c-533a2c3f9483'
-title: 'Msvm\_VirtualEthernetSwitchManagementService class'
+Description: Represents the virtualization service present on a single host system. Msvm\_VirtualEthernetSwitchManagementService is used to control the definition, modification, and deletion of virtual Ethernet switches.
+ms.assetid: 628a6546-cc78-4fde-be0c-533a2c3f9483
+title: Msvm\_VirtualEthernetSwitchManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchManagementService class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualEthernetSwitchManagementService : CIM_VirtualSystemManagementService
 {
-  string   InstanceID;
-  string   Caption = "Virtual Networking Management Service";
-  string   Description = "Provides Hyper-V Networking WMI management";
-  string   ElementName = "Hyper-V Networking Management Service";
+  string   InstanceID;
+  string   Caption = "Virtual Networking Management Service";
+  string   Description = "Provides Hyper-V Networking WMI management";
+  string   ElementName = "Hyper-V Networking Management Service";
   datetime InstallDate;
-  string   Name = "nvspwmi";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status = { "OK" };
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "nvspwmi";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status = { "OK" };
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VirtualEthernetSwitchManagementService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started = True;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VirtualEthernetSwitchManagementService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started = True;
 };
 ```
 
@@ -77,7 +82,7 @@ The **Msvm\_VirtualEthernetSwitchManagementService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -247,7 +252,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -283,7 +288,7 @@ The current health of the element. This attribute expresses the health of this e
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -514,7 +519,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -637,17 +642,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

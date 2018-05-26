@@ -1,14 +1,20 @@
 ---
 title: DIALOGEX resource
 description: Defines a dialog box.
-ms.assetid: '3ff28b68-e8b4-444d-8e26-5119ed30e44e'
-keywords: ["DIALOGEX resource Menus and Other Resources"]
+ms.assetid: 3ff28b68-e8b4-444d-8e26-5119ed30e44e
+keywords:
+- DIALOGEX resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - DIALOGEX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIALOGEX resource

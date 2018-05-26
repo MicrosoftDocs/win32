@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer Version property
 description: The Version property contains the version of this instance of Virtual Server.
-ms.assetid: 'f4f90fda-d74c-401c-8eea-947cd6060498'
-keywords: ["Version property Virtual Server", "Version property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , Version property", "Version property Virtual Server , VMVirtualServer object", "VMVirtualServer object Virtual Server , Version property"]
+ms.assetid: f4f90fda-d74c-401c-8eea-947cd6060498
+keywords:
+- Version property Virtual Server
+- Version property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , Version property
+- Version property Virtual Server , VMVirtualServer object
+- VMVirtualServer object Virtual Server , Version property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::Version property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Version(
-  [out] BSTR *version
+  [out] BSTR *version
 );
 ```
 
@@ -98,8 +108,8 @@ Wscript.Echo "Version: " & objVS.Version
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -111,9 +121,9 @@ Wscript.Echo "Version: " & objVS.Version
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

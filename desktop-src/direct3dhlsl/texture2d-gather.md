@@ -1,12 +1,18 @@
 ---
 title: Texture2D Gather methods
 description: Samples a Texture2D and returns all four components.
-ms.assetid: '5d196c1c-8cc9-4add-9d33-654294314ee2'
-keywords: ["Gather methods HLSL"]
+ms.assetid: 5d196c1c-8cc9-4add-9d33-654294314ee2
+keywords:
+- Gather methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::Gather methods
@@ -31,9 +37,9 @@ Samples a [**Texture2D**](sm5-object-texture2d.md) and returns all four componen
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

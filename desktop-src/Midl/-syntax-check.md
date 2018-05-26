@@ -2,13 +2,19 @@
 title: /syntax\_check switch
 description: The /syntax\_check switch indicates that the compiler checks only syntax and does not generate output files.
 ms.assetid: 8d9139d3-6018-48a7-bea5-0c843b6273d3
-keywords: ["/syntax_check switch MIDL"]
+keywords:
+- /syntax_check switch MIDL
 topic_type:
 - apiref
 api_name:
 - /syntax_check
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /syntax\_check switch

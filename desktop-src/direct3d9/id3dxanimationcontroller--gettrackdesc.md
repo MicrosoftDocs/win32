@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the track description.'
-ms.assetid: '7663a26f-5ad3-4a17-a502-c0dcfa730db2'
-title: 'ID3DXAnimationController::GetTrackDesc method'
+---
+Description: Gets the track description.
+ms.assetid: 7663a26f-5ad3-4a17-a502-c0dcfa730db2
+title: ID3DXAnimationControllerGetTrackDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetTrackDesc method

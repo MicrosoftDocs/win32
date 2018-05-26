@@ -1,7 +1,12 @@
 ---
 title: IVMSCSIControllerCollection Properties
 description: The IVMSCSIControllerCollection interface defines the following properties
-ms.assetid: '5702e153-f968-4cee-acc7-907547d45ee0'
+ms.assetid: 5702e153-f968-4cee-acc7-907547d45ee0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIControllerCollection Properties

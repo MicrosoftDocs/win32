@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientDepartment property of a FaxDoc object. The RecipientDepartment property is a null-terminated string that contains the department of the recipient of the fax transmission.'
-ms.assetid: 'd0109a4b-8f2c-41fb-b3f5-509feae1bd1d'
-title: 'FaxDoc.RecipientDepartment property'
+---
+Description: Sets or retrieves the RecipientDepartment property of a FaxDoc object. The RecipientDepartment property is a null-terminated string that contains the department of the recipient of the fax transmission.
+ms.assetid: d0109a4b-8f2c-41fb-b3f5-509feae1bd1d
+title: FaxDoc.RecipientDepartment property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientDepartment property
@@ -55,7 +60,7 @@ The **get\_RecipientDepartment** method allocates the memory required for the bu
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

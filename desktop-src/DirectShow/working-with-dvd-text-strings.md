@@ -1,23 +1,28 @@
 ---
 Description: Working with DVD Text Strings
-ms.assetid: '6d415ebb-5cd0-4631-9404-f2ebabef2476'
+ms.assetid: 6d415ebb-5cd0-4631-9404-f2ebabef2476
 title: Working with DVD Text Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with DVD Text Strings
 
 Some DVD discs, especially karaoke discs, might contain a list of text strings to supplement the video or audio content. These text strings contain metadata about the content, such as song titles, artist names, genre information, and so on. Text strings can be present in more than one language. These strings are optional, and many discs do not have them.
 
-To retrieve text strings from a DVD, use the [**IDvdInfo2**](idvdinfo2.md) interface, which is exposed by the [DVD Navigator](dvd-navigator-filter.md). You do not actually need to build a DVD playback graph to retrieve the text strings. You can simply create the DVD Navigator, set the DVD volume, and then call the relevant text-string methods:
+To retrieve text strings from a DVD, use the [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master) interface, which is exposed by the [DVD Navigator](dvd-navigator-filter.md). You do not actually need to build a DVD playback graph to retrieve the text strings. You can simply create the DVD Navigator, set the DVD volume, and then call the relevant text-string methods:
 
 
 
 | Method                                                                                  | Description                                                                                                                                                                                     |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDvdInfo2::GetDVDTextNumberOfLanguages**](idvdinfo2-getdvdtextnumberoflanguages.md) | Gets the number of languages for which there are text strings.                                                                                                                                  |
-| [**IDvdInfo2::GetDVDTextLanguageInfo**](idvdinfo2-getdvdtextlanguageinfo.md)           | Gets information about the text strings for one language.                                                                                                                                       |
-| [**IDvdInfo2::GetDVDTextStringAsUnicode**](idvdinfo2-getdvdtextstringasunicode.md)     | Gets a text string for a specified language, by index.                                                                                                                                          |
-| [**IDvdInfo2::GetDVDTextStringAsNative**](idvdinfo2-getdvdtextstringasnative.md)       | Gets a text string as a raw byte array. Use this method if the text string uses a character encoding not supported by [**GetDVDTextStringAsUnicode**](idvdinfo2-getdvdtextstringasunicode.md). |
+| [**IDvdInfo2::GetDVDTextNumberOfLanguages**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages?branch=master) | Gets the number of languages for which there are text strings.                                                                                                                                  |
+| [**IDvdInfo2::GetDVDTextLanguageInfo**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextlanguageinfo?branch=master)           | Gets information about the text strings for one language.                                                                                                                                       |
+| [**IDvdInfo2::GetDVDTextStringAsUnicode**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode?branch=master)     | Gets a text string for a specified language, by index.                                                                                                                                          |
+| [**IDvdInfo2::GetDVDTextStringAsNative**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative?branch=master)       | Gets a text string as a raw byte array. Use this method if the text string uses a character encoding not supported by [**GetDVDTextStringAsUnicode**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode?branch=master). |
 
 
 
@@ -25,11 +30,11 @@ To retrieve text strings from a DVD, use the [**IDvdInfo2**](idvdinfo2.md) inter
 
 Here is the basic procedure for getting text strings:
 
-1.  Call [**IDvdInfo2::GetDVDTextNumberOfLanguages**](idvdinfo2-getdvdtextnumberoflanguages.md) to find the total number of languages in which the text strings appear. If the number is zero, it means the DVD does not have any text strings. (This is perhaps the most common case, in fact.)
-2.  If the number of languages is at least one, call [**IDvdInfo2::GetDVDTextLanguageInfo**](idvdinfo2-getdvdtextlanguageinfo.md) to get information about each language. The language is specified by index. The method returns the total number of text strings in that language, the locale identifier (**LCID**) for the language, and the character encoding (Unicode or other). DVD text strings can use several different character sets; these are listed in [**DVD\_TextCharSet Enumeration**](dvd-textcharset.md).
-3.  To get a text string, call [**IDvdInfo2::GetDVDTextStringAsUnicode**](idvdinfo2-getdvdtextstringasunicode.md) or [**IDvdInfo2::GetDVDTextStringAsNative**](idvdinfo2-getdvdtextstringasnative.md). The first method returns a wide-character string, but does not support every character set. The second method returns a byte array containing the raw text data. For both methods, you can call the method with a **NULL** buffer pointer to find the size of the string and the text type. Then allocate a buffer and call the method again to get the string.
+1.  Call [**IDvdInfo2::GetDVDTextNumberOfLanguages**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages?branch=master) to find the total number of languages in which the text strings appear. If the number is zero, it means the DVD does not have any text strings. (This is perhaps the most common case, in fact.)
+2.  If the number of languages is at least one, call [**IDvdInfo2::GetDVDTextLanguageInfo**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextlanguageinfo?branch=master) to get information about each language. The language is specified by index. The method returns the total number of text strings in that language, the locale identifier (**LCID**) for the language, and the character encoding (Unicode or other). DVD text strings can use several different character sets; these are listed in [**DVD\_TextCharSet Enumeration**](/windows/win32/strmif/ne-strmif-dvd_textcharset?branch=master).
+3.  To get a text string, call [**IDvdInfo2::GetDVDTextStringAsUnicode**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode?branch=master) or [**IDvdInfo2::GetDVDTextStringAsNative**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative?branch=master). The first method returns a wide-character string, but does not support every character set. The second method returns a byte array containing the raw text data. For both methods, you can call the method with a **NULL** buffer pointer to find the size of the string and the text type. Then allocate a buffer and call the method again to get the string.
 
-Each text string has an associated identifier code, which indicates the meaning of the text string. The identifier is returned as a [**DVD\_TextStringType**](dvd-textstringtype.md) value. There are two categories of identifier: *structure identifiers* and *content identifiers*. Structure identifiers have numeric codes in the range 0x00–0x02F. Content identifiers have a range of 0x30 and higher. (The **DVD\_TextStringType** enumeration defines a subset of the most common identifiers, but the [**IDvdInfo2**](idvdinfo2.md) methods can return any identifier code.) A structure identifier describes a logical portion of the DVD, such as volume, title, or part of title (PTT). A content identifier indicates the meaning of a particular text string, such as movie title, song title, or genre.
+Each text string has an associated identifier code, which indicates the meaning of the text string. The identifier is returned as a [**DVD\_TextStringType**](/windows/win32/strmif/ne-strmif-dvd_textstringtype?branch=master) value. There are two categories of identifier: *structure identifiers* and *content identifiers*. Structure identifiers have numeric codes in the range 0x00–0x02F. Content identifiers have a range of 0x30 and higher. (The **DVD\_TextStringType** enumeration defines a subset of the most common identifiers, but the [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master) methods can return any identifier code.) A structure identifier describes a logical portion of the DVD, such as volume, title, or part of title (PTT). A content identifier indicates the meaning of a particular text string, such as movie title, song title, or genre.
 
 Structure identifiers do not have associated text strings. When a structure identifier appears in the text-string data, it signals that the following text strings apply to that logical portion of the DVD, up until the next structure identifier. The position of the structure identifiers within the text data corresponds to the logical hierarchy of the DVD volume. For example, the first occurrence of the DVD\_Struct\_Title identifier (0x02) represents the first title in the volume, and the next occurrence represents the second title.
 
@@ -50,7 +55,7 @@ The following table shows how the text strings might be defined for a DVD with t
 
  
 
-The [**GetDVDTextStringAsUnicode**](idvdinfo2-getdvdtextstringasunicode.md) and [**GetDVDTextStringAsNative**](idvdinfo2-getdvdtextstringasnative.md) methods treat structure identifiers and content identifiers the same. The only difference is that for structure identifiers, the associated text buffer is empty. It is up to the application to keep track of the relationship between the text strings and the logical portions of the DVD.
+The [**GetDVDTextStringAsUnicode**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode?branch=master) and [**GetDVDTextStringAsNative**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative?branch=master) methods treat structure identifiers and content identifiers the same. The only difference is that for structure identifiers, the associated text buffer is empty. It is up to the application to keep track of the relationship between the text strings and the logical portions of the DVD.
 
 The following example shows how to get text strings from a DVD. This example ignores some details that a real application would require. (For example, it ignores structure identifiers.) The example is only meant to show the correct sequence of calls.
 

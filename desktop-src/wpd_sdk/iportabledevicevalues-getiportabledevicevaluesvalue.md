@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIPortableDeviceValuesValue method retrieves an IPortableDeviceValues value (type VT\_UNKNOWN) specified by a key.'
-ms.assetid: 'bf62c6a9-560b-4667-94d0-2dea6657eed1'
-title: 'IPortableDeviceValues::GetIPortableDeviceValuesValue method'
+Description: The GetIPortableDeviceValuesValue method retrieves an IPortableDeviceValues value (type VT\_UNKNOWN) specified by a key.
+ms.assetid: bf62c6a9-560b-4667-94d0-2dea6657eed1
+title: IPortableDeviceValuesGetIPortableDeviceValuesValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetIPortableDeviceValuesValue method
@@ -13,8 +18,8 @@ The **GetIPortableDeviceValuesValue** method retrieves an **IPortableDeviceValue
 
 ```C++
 HRESULT GetIPortableDeviceValuesValue(
-  [in]  REFPROPERTYKEY        key,
-  [out] IPortableDeviceValues **ppValue
+  [in]  REFPROPERTYKEY        key,
+  [out] IPortableDeviceValues **ppValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -85,9 +90,9 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 [Retrieving the Rendering Capabilities Supported by a Device](retrieving-the-rendering-capabilities-supported-by-a-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

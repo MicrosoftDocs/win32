@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a binary-packed string to a hexadecimal string.'
-ms.assetid: 'fead5950-3494-4869-ae5b-0394b73c5ba4'
-title: 'Utilities.BinaryToHex method'
+---
+Description: Converts a binary-packed string to a hexadecimal string.
+ms.assetid: fead5950-3494-4869-ae5b-0394b73c5ba4
+title: Utilities.BinaryToHex method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Utilities.BinaryToHex method

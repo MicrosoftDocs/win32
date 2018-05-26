@@ -1,13 +1,16 @@
 ---
-Description: 'The COOKER\_MAX counter type formula identifies the largest value from a set of observations of a property in a Win32\_PerfRawData instance.'
+Description: The COOKER\_MAX counter type formula identifies the largest value from a set of observations of a property in a Win32\_PerfRawData instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9e4a2b9a-cc1a-4a01-8587-9a65d7d9ec05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9e4a2b9a-cc1a-4a01-8587-9a65d7d9ec05
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'COOKER\_MAX'
+title: COOKER\_MAX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # COOKER\_MAX

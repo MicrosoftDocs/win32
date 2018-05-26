@@ -1,14 +1,22 @@
 ---
 title: Service.onMethodComplete event
 description: The onMethodComplete event occurs after a service-defined method has completed.
-ms.assetid: '76c70090-dcf5-44bf-acdd-f7c0f685b262'
-keywords: ["onMethodComplete event WPD Automation", "onMethodComplete event WPD Automation , Service object", "Service object WPD Automation , onMethodComplete event"]
+ms.assetid: 76c70090-dcf5-44bf-acdd-f7c0f685b262
+keywords:
+- onMethodComplete event WPD Automation
+- onMethodComplete event WPD Automation , Service object
+- Service object WPD Automation , onMethodComplete event
 topic_type:
 - apiref
 api_name:
 - Service.onMethodComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onMethodComplete event
@@ -70,8 +78,8 @@ Service.onDoSomethingComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +90,9 @@ Service.onDoSomethingComplete = HandlerFunction;
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Using BITS
 description: Using BITS
-ms.assetid: 'f4a09a80-2a85-4b59-b0fd-c23c128973f7'
-keywords: ["Background Intelligent Transfer Service", "Background Intelligent Transfer Service,tasks", "file transfer BITS", "Using BITS BITS"]
+ms.assetid: f4a09a80-2a85-4b59-b0fd-c23c128973f7
+keywords:
+- Background Intelligent Transfer Service
+- Background Intelligent Transfer Service,tasks
+- file transfer BITS
+- Using BITS BITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using BITS
@@ -14,7 +23,7 @@ The following steps show how to perform a file transfer using the Background Int
 1.  [Connect to the BITS service](connecting-to-the-bits-service.md)
 2.  [Create a transfer job](creating-a-job.md)
 3.  [Add files to the job](adding-files-to-a-job.md)
-4.  [Start the job](ibackgroundcopyjob-resume.md)
+4.  [Start the job](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-resume?branch=master)
 5.  [Determine if BITS successfully transferred the files](determining-the-status-of-a-job.md)
 6.  [Complete the job](completing-and-canceling-a-job.md)
 

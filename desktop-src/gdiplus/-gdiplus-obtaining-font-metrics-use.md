@@ -1,25 +1,30 @@
 ---
-Description: 'The FontFamily class provides the following methods that retrieve various metrics for a particular family/style combination:'
-ms.assetid: '3be485d0-9e0d-43e0-813e-668102ebc010'
+Description: The FontFamily class provides the following methods that retrieve various metrics for a particular family/style combination
+ms.assetid: 3be485d0-9e0d-43e0-813e-668102ebc010
 title: Obtaining Font Metrics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining Font Metrics
 
-The [**FontFamily**](-gdiplus-class-fontfamily-class.md) class provides the following methods that retrieve various metrics for a particular family/style combination:
+The [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) class provides the following methods that retrieve various metrics for a particular family/style combination:
 
--   [**FontFamily::GetEmHeight**](-gdiplus-class-fontfamily-getemheight-style-.md)(FontStyle)
--   [**FontFamily::GetCellAscent**](-gdiplus-class-fontfamily-getcellascent-style-.md)(FontStyle)
--   [**FontFamily::GetCellDescent**](-gdiplus-class-fontfamily-getcelldescent-style-.md)(FontStyle)
--   [**FontFamily::GetLineSpacing**](-gdiplus-class-fontfamily-getlinespacing-style-.md)(FontStyle)
+-   [**FontFamily::GetEmHeight**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontfamily-getemheight?branch=master)(FontStyle)
+-   [**FontFamily::GetCellAscent**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontfamily-getcellascent?branch=master)(FontStyle)
+-   [**FontFamily::GetCellDescent**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontfamily-getcelldescent?branch=master)(FontStyle)
+-   [**FontFamily::GetLineSpacing**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontfamily-getlinespacing?branch=master)(FontStyle)
 
-The numbers returned by these methods are in font design units, so they are independent of the size and units of a particular [**Font**](-gdiplus-class-font-class.md) object.
+The numbers returned by these methods are in font design units, so they are independent of the size and units of a particular [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object.
 
 The following illustration shows ascent, descent, and line spacing.
 
 ![diagram of two characters on adjacent lines, showing cell ascent, cell descent, and line spacing](images/fontstext7a.png)
 
-The following example displays the metrics for the regular style of the Arial font family. The code also creates a [**Font**](-gdiplus-class-font-class.md) object (based on the Arial family) with size 16 pixels and displays the metrics (in pixels) for that particular **Font** object.
+The following example displays the metrics for the regular style of the Arial font family. The code also creates a [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object (based on the Arial family) with size 16 pixels and displays the metrics (in pixels) for that particular **Font** object.
 
 
 ```
@@ -123,13 +128,13 @@ The following illustration shows the output of the preceding code.
 
 ![screen shot of a window with text that states font size and height, and the ascent, descent, and line spacing](images/fontstext8.png)
 
-Note the first two lines of output in the preceding illustration. The [**Font**](-gdiplus-class-font-class.md) object returns a size of 16, and the [**FontFamily**](-gdiplus-class-fontfamily-class.md) object returns an em height of 2,048. These two numbers (16 and 2,048) are the key to converting between font design units and the units (in this case pixels) of the **Font** object.
+Note the first two lines of output in the preceding illustration. The [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object returns a size of 16, and the [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) object returns an em height of 2,048. These two numbers (16 and 2,048) are the key to converting between font design units and the units (in this case pixels) of the **Font** object.
 
 For example, you can convert the ascent from design units to pixels as follows:
 
 ![equation that multiplies 1854 design units by 16 pixels divided by 2048 design units, equaling 14.484375 pixels](images/fontstext9.png)
 
-The preceding code positions text vertically by setting the *y* data member of a [**PointF**](-gdiplus-class-pointf-class.md) object. The y-coordinate is increased by `font.GetHeight(0.0f)` for each new line of text. The [**Font::GetHeight**](-gdiplus-class-font-getheight-dpi-.md) method of a [**Font**](-gdiplus-class-font-class.md) object returns the line spacing (in pixels) for that particular **Font** object. In this example, the number returned by **Font::GetHeight** is 18.398438. Note that this is the same as the number obtained by converting the line spacing metric to pixels.
+The preceding code positions text vertically by setting the *y* data member of a [**PointF**](/windows/win32/gdiplustypes/nl-gdiplustypes-pointf?branch=master) object. The y-coordinate is increased by `font.GetHeight(0.0f)` for each new line of text. The [**Font::GetHeight**](/windows/win32/Gdiplusheaders/?branch=master) method of a [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object returns the line spacing (in pixels) for that particular **Font** object. In this example, the number returned by **Font::GetHeight** is 18.398438. Note that this is the same as the number obtained by converting the line spacing metric to pixels.
 
  
 

@@ -1,14 +1,19 @@
 ---
 title: Extension Name property
-description: The Name property returns the extension's name. This property is read-only.
+description: The Name property returns the extensions name. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e3e5338d-ffdd-4608-b333-cf3ce1027b8b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e3e5338d-ffdd-4608-b333-cf3ce1027b8b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Name property MMC", "Name property MMC , Extension object", "Extension object MMC , Name property", "Name property MMC , Extension interface", "Extension interface MMC , Name property"]
+keywords:
+- Name property MMC
+- Name property MMC , Extension object
+- Extension object MMC , Name property
+- Name property MMC , Extension interface
+- Extension interface MMC , Name property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extension::Name property
@@ -55,8 +63,8 @@ MsgBox ("Name: " & strName)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -77,9 +85,9 @@ MsgBox ("Name: " & strName)
 [**Extension.Version**](extension-version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

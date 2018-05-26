@@ -1,7 +1,12 @@
 ---
 title: IDeliveryOptimizationFile Methods
 description: The IDeliveryOptimizationFile interface exposes the following methods.
-ms.assetid: '53F77318-3C57-469A-8AD4-5621D1DFDFAD'
+ms.assetid: 53F77318-3C57-469A-8AD4-5621D1DFDFAD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeliveryOptimizationFile Methods
@@ -18,11 +23,11 @@ The [**IDeliveryOptimizationFile**](ideliveryoptimizationfile.md) interface expo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

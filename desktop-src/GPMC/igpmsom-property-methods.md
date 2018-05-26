@@ -4,11 +4,12 @@ description: The property methods of the IGPMSOM interface get and set the prope
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '733be6ee-47bd-4599-93f3-989aeac67ed5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 733be6ee-47bd-4599-93f3-989aeac67ed5
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMSOM Property Methods GPMC"]
+keywords:
+- IGPMSOM Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -26,6 +27,9 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMSOM Property Methods
@@ -142,7 +146,7 @@ HRESULT get_Type(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -150,8 +154,8 @@ HRESULT get_Type(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -163,12 +167,12 @@ HRESULT get_Type(
 
 <dl> <dt>
 
-[**IGPMSOM**](igpmsom.md)
+[**IGPMSOM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsom?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

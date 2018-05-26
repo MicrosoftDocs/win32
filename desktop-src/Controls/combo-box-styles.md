@@ -1,7 +1,7 @@
 ---
 title: Combo Box Styles
 description: To create a combo box using the CreateWindow or CreateWindowEx function, specify the COMBOBOX class, appropriate window style constants, and a combination of the following combo box styles.
-ms.assetid: '4dc347b2-7da7-4aa0-b61f-781acf652d84'
+ms.assetid: 4dc347b2-7da7-4aa0-b61f-781acf652d84
 topic_type:
 - apiref
 api_name:
@@ -22,6 +22,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combo Box Styles
@@ -58,9 +63,9 @@ To create a combo box using the [**CreateWindow**](https://msdn.microsoft.com/li
 
 
 
- 
+ 
 
- 
+ 
 
 
 

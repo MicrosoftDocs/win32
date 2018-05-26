@@ -1,7 +1,12 @@
 ---
 title: XDSToRat Object
 description: XDSToRat Object
-ms.assetid: 'bda34c12-0eb8-4d3a-867e-f7215f70c7c7'
+ms.assetid: bda34c12-0eb8-4d3a-867e-f7215f70c7c7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XDSToRat Object
@@ -17,7 +22,7 @@ This object is created by third parties. It must support the **IXDSToRat** inter
 |            |                                |
 |------------|--------------------------------|
 | CLSID      | CLSID\_XDSToRat                |
-| Interfaces | [**IXDSToRat**](ixdstorat.md) |
+| Interfaces | [**IXDSToRat**](/windows/previous-versions/Tvratings/nn-tvratings-ixdstorat?branch=master) |
 
 
 

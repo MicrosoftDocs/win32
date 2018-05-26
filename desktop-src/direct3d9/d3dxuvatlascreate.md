@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a UV atlas for a mesh.'
-ms.assetid: '70256990-b177-451e-b42a-84799fdc2a17'
+---
+Description: Create a UV atlas for a mesh.
+ms.assetid: 70256990-b177-451e-b42a-84799fdc2a17
 title: D3DXUVAtlasCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXUVAtlasCreate function

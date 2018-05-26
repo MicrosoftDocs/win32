@@ -4,13 +4,16 @@ description: Sets an IPv4 Option Value at the Server, Scope or Reservation level
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '23142cc3-7d6f-479c-acc6-66d494ee9424'
-ms.prod: 'windows-server-dev'
+ms.assetid: 23142cc3-7d6f-479c-acc6-66d494ee9424
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByOptionId method", "SetByOptionId method, PS_DhcpServerv4OptionValue class", "PS_DhcpServerv4OptionValue class, SetByOptionId method"]
+keywords:
+- SetByOptionId method
+- SetByOptionId method, PS_DhcpServerv4OptionValue class
+- PS_DhcpServerv4OptionValue class, SetByOptionId method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByOptionId method of the PS\_DhcpServerv4OptionValue class
@@ -30,17 +36,17 @@ Sets an IPv4 Option Value at the Server, Scope or Reservation level. Any previou
 
 ```mof
 uint32 SetByOptionId(
-  [in]  string                  PolicyName,
-  [in]  boolean                 PassThru,
-  [in]  boolean                 Force,
-  [in]  string                  VendorClass,
-  [in]  string                  Value[],
-  [in]  uint32                  OptionId,
-  [in]  string                  ReservedIP,
-  [in]  string                  ScopeId,
-  [in]  string                  UserClass,
-  [in]  string                  ComputerName,
-  [out] DhcpServerv4OptionValue cmdletOutput
+  [in]  string                  PolicyName,
+  [in]  boolean                 PassThru,
+  [in]  boolean                 Force,
+  [in]  string                  VendorClass,
+  [in]  string                  Value[],
+  [in]  uint32                  OptionId,
+  [in]  string                  ReservedIP,
+  [in]  string                  ScopeId,
+  [in]  string                  UserClass,
+  [in]  string                  ComputerName,
+  [out] DhcpServerv4OptionValue cmdletOutput
 );
 ```
 
@@ -134,7 +140,7 @@ An embedded instance of the [**DhcpServerv4OptionValue**](dhcpserverv4optionvalu
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -148,9 +154,9 @@ An embedded instance of the [**DhcpServerv4OptionValue**](dhcpserverv4optionvalu
 [**PS\_DhcpServerv4OptionValue**](ps-dhcpserverv4optionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

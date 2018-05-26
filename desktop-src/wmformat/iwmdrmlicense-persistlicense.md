@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense PersistLicense method
 description: The PersistLicense method saves the current license from the temporary store into the permanent local license store.
-ms.assetid: '80a0f932-2800-416b-9dfe-97654a76c19b'
-keywords: ["PersistLicense method windows Media Format", "PersistLicense method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , PersistLicense method"]
+ms.assetid: 80a0f932-2800-416b-9dfe-97654a76c19b
+keywords:
+- PersistLicense method windows Media Format
+- PersistLicense method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , PersistLicense method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::PersistLicense method
@@ -42,7 +50,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +75,9 @@ You can call [**CanPersist**](iwmdrmlicense-canpersist.md) to query whether the 
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

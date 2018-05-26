@@ -1,15 +1,18 @@
 ---
-Description: 'Creates a new service managed by the system driver.'
+Description: Creates a new service managed by the system driver.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '212c88eb-f26d-4b07-b8fe-8508050c97fc'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 212c88eb-f26d-4b07-b8fe-8508050c97fc
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Create method of the Win32\_SystemDriver class'
+title: Create method of the Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_SystemDriver class
@@ -23,18 +26,18 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in] string  Name,
-  [in] string  DisplayName,
-  [in] string  PathName,
-  [in] uint8   ServiceType,
-  [in] uint8   ErrorControl,
-  [in] string  StartMode,
-  [in] boolean DesktopInteract,
-  [in] string  StartName,
-  [in] string  StartPassword,
-  [in] string  LoadOrderGroup,
-  [in] string  LoadOrderGroupDependencies[],
-  [in] string  ServiceDependencies[]
+  [in] string  Name,
+  [in] string  DisplayName,
+  [in] string  PathName,
+  [in] uint8   ServiceType,
+  [in] uint8   ErrorControl,
+  [in] string  StartMode,
+  [in] boolean DesktopInteract,
+  [in] string  StartName,
+  [in] string  StartPassword,
+  [in] string  LoadOrderGroup,
+  [in] string  LoadOrderGroupDependencies[],
+  [in] string  ServiceDependencies[]
 );
 ```
 
@@ -288,8 +291,8 @@ Returns a value of 0 (zero) if the service was successfully created, 1 (one) if 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -306,9 +309,9 @@ Returns a value of 0 (zero) if the service was successfully created, 1 (one) if 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

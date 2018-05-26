@@ -1,7 +1,12 @@
 ---
 title: IAgentAudioOutputProperties GetEnabled
 description: IAgentAudioOutputProperties GetEnabled
-ms.assetid: 'a1e555e1-98f1-4a3d-b6ba-4cd35348db2b'
+ms.assetid: a1e555e1-98f1-4a3d-b6ba-4cd35348db2b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentAudioOutputProperties::GetEnabled

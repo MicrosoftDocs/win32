@@ -1,12 +1,17 @@
 ---
-Description: 'Transactional NTFS (TxF) integrates transactions into the NTFS file system, which makes it easier for application developers and administrators to gracefully handle errors and preserve data integrity.'
-ms.assetid: '52341315-0412-4a87-aca0-9adea7aae62f'
+Description: Transactional NTFS (TxF) integrates transactions into the NTFS file system, which makes it easier for application developers and administrators to gracefully handle errors and preserve data integrity.
+ms.assetid: 52341315-0412-4a87-aca0-9adea7aae62f
 title: About Transactional NTFS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Transactional NTFS
 
-\[Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](deprecation-of-txf.md).\]
+\[Microsoft strongly recommends developers utilize alternative means to achieve your application s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](deprecation-of-txf.md).\]
 
 Transactional NTFS (TxF) integrates transactions into the NTFS file system, which makes it easier for application developers and administrators to gracefully handle errors and preserve data integrity.
 
@@ -30,11 +35,11 @@ TxF can participate in distributed transactions that the [Distributed Transactio
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

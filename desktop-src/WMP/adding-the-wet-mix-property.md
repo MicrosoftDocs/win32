@@ -1,8 +1,19 @@
 ---
 title: Adding the Wet Mix Property
 description: Adding the Wet Mix Property
-ms.assetid: '4605d893-8ac0-42fd-a1ac-51430561f174'
-keywords: ["Windows Media Player plug-ins,Echo sample properties", "plug-ins,Echo sample properties", "digital signal processing plug-ins,Echo sample properties", "DSP plug-ins,Echo sample properties", "Echo DSP plug-in sample,properties", "Echo DSP plug-in sample,wet mix property"]
+ms.assetid: 4605d893-8ac0-42fd-a1ac-51430561f174
+keywords:
+- Windows Media Player plug-ins,Echo sample properties
+- plug-ins,Echo sample properties
+- digital signal processing plug-ins,Echo sample properties
+- DSP plug-ins,Echo sample properties
+- Echo DSP plug-in sample,properties
+- Echo DSP plug-in sample,wet mix property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding the Wet Mix Property

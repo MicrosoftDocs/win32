@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe several of the new features in Windows GDI+.'
-ms.assetid: '0257a23c-560e-472e-863a-6ab5881dc156'
+Description: The following sections describe several of the new features in Windows GDI+.
+ms.assetid: 0257a23c-560e-472e-863a-6ab5881dc156
 title: New Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Features
@@ -34,11 +39,11 @@ GDI+ supports cardinal splines, which are not supported in GDI. A cardinal splin
 
 ## Independent Path Objects
 
-In GDI, a path belongs to a device context, and the path is destroyed as it is drawn. With GDI+, drawing is performed by a [**Graphics**](-gdiplus-class-graphics-class.md) object, and you can create and maintain several [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) objects that are separate from the **Graphics** object. A **GraphicsPath** object is not destroyed by the drawing action, so you can use the same **GraphicsPath** object to draw a path several times.
+In GDI, a path belongs to a device context, and the path is destroyed as it is drawn. With GDI+, drawing is performed by a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object, and you can create and maintain several [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) objects that are separate from the **Graphics** object. A **GraphicsPath** object is not destroyed by the drawing action, so you can use the same **GraphicsPath** object to draw a path several times.
 
 ## Transformations and the Matrix Object
 
-GDI+ provides the [**Matrix**](-gdiplus-class-matrix-class.md) object, a powerful tool that makes transformations (rotations, translations, and so on) easy and flexible. A matrix object works in conjunction with the objects that are transformed. For example, a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object has a [**GraphicsPath::Transform**](-gdiplus-class-graphicspath-transform-matrix-.md) method that receives the address of a **Matrix** object as an argument. A single 3×3 matrix can store one transformation or a sequence of transformations. The following illustration shows a path before and after a sequence of two transformations (first scale, then rotate).
+GDI+ provides the [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) object, a powerful tool that makes transformations (rotations, translations, and so on) easy and flexible. A matrix object works in conjunction with the objects that are transformed. For example, a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object has a [**GraphicsPath::Transform**](/windows/win32/Gdipluspath/nf-gdipluspath-graphicspath-transform?branch=master) method that receives the address of a **Matrix** object as an argument. A single 3×3 matrix can store one transformation or a sequence of transformations. The following illustration shows a path before and after a sequence of two transformations (first scale, then rotate).
 
 ![illustration showing the outline of a shape, then the same outline but narrower and rotated](images/aboutgdip01-art04.png)
 
@@ -56,7 +61,7 @@ Note that in the previous figure, you can see the untransformed region (filled w
 
 ## Support for Multiple Image Formats
 
-GDI+ provides the [**Image**](-gdiplus-class-image-class.md), [**Bitmap**](-gdiplus-class-bitmap-class.md), and [**Metafile**](-gdiplus-class-metafile-class.md) classes, which allow you to load, save and manipulate images in a variety of formats. The following formats are supported:
+GDI+ provides the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master), [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master), and [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) classes, which allow you to load, save and manipulate images in a variety of formats. The following formats are supported:
 
 -   BMP
 -   Graphics Interchange Format (GIF)

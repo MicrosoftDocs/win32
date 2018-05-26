@@ -4,17 +4,21 @@ description: The referral information.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E5C8FF03-612A-4B9F-9B87-B5DDC8BCACBB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: E5C8FF03-612A-4B9F-9B87-B5DDC8BCACBB
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy referrer property"]
+keywords:
+- MSUserPolicy referrer property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy referrer property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy referrer property
@@ -37,7 +41,7 @@ The referral information.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

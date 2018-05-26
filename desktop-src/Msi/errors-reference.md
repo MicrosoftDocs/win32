@@ -1,7 +1,12 @@
 ---
-Description: 'For a complete list of the error codes returned by Windows Installer functions MsiExec.exe and InstMsi.exe, see MsiExec.exe and InstMsi.exe Error Messages.'
-ms.assetid: '468cec68-2f3b-4530-9036-760bb19eeaa2'
+Description: For a complete list of the error codes returned by Windows Installer functions MsiExec.exe and InstMsi.exe, see MsiExec.exe and InstMsi.exe Error Messages.
+ms.assetid: 468cec68-2f3b-4530-9036-760bb19eeaa2
 title: Errors Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Errors Reference

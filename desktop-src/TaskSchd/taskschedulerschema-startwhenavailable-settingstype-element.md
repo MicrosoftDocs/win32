@@ -1,14 +1,20 @@
 ---
 title: StartWhenAvailable (settingsType) Element
 description: Specifies that the Task Scheduler can start the task at any time after its scheduled time has passed.
-ms.assetid: '1d65fd51-3a94-4083-8e38-2a652383656a'
-keywords: ["StartWhenAvailable element Task Scheduler"]
+ms.assetid: 1d65fd51-3a94-4083-8e38-2a652383656a
+keywords:
+- StartWhenAvailable element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - StartWhenAvailable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartWhenAvailable (settingsType) Element
@@ -39,7 +45,7 @@ The **StartWhenAvailable** element is defined by the [**settingsType**](tasksche
 
 This property applies only to timed tasks.
 
-For C++ development, see [**StartWhenAvailable Property of ITaskSettings**](itasksettings-startwhenavailable.md).
+For C++ development, see [**StartWhenAvailable Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_startwhenavailable?branch=master).
 
 For script development, see [**TaskSettings.StartWhenAvailable**](tasksettings-startwhenavailable.md).
 
@@ -62,8 +68,8 @@ The following XML defines a settings element that allows the Task Scheduler to s
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ The following XML defines a settings element that allows the Task Scheduler to s
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

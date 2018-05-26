@@ -1,7 +1,12 @@
 ---
-Description: 'The application GUID of the event class object.'
-ms.assetid: '0d19183a-429c-4564-b6a5-f06481d27e00'
-title: 'IEventSubscription3::EventClassApplicationID property'
+Description: The application GUID of the event class object.
+ms.assetid: 0d19183a-429c-4564-b6a5-f06481d27e00
+title: IEventSubscription3EventClassApplicationID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEventSubscription3::EventClassApplicationID property
@@ -15,11 +20,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_EventClassApplicationID(
-  [in]          BSTR bstrEventClassApplicationID
+  [in]          BSTR bstrEventClassApplicationID
 );
 
 HRESULT get_EventClassApplicationID(
-  [out, retval] BSTR *pbstrEventClassApplicationID
+  [out, retval] BSTR *pbstrEventClassApplicationID
 );
 ```
 
@@ -39,8 +44,8 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -51,9 +56,9 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 [**IEventSubscription3**](ieventsubscription3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

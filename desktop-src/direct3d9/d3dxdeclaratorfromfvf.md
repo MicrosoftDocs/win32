@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a declarator from a flexible vertex format (FVF) code.'
-ms.assetid: '0272239c-0873-4a5c-b046-541f4ba603f4'
+---
+Description: Returns a declarator from a flexible vertex format (FVF) code.
+ms.assetid: 0272239c-0873-4a5c-b046-541f4ba603f4
 title: D3DXDeclaratorFromFVF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXDeclaratorFromFVF function

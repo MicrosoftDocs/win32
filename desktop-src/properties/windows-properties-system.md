@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c2094bbe-a4ca-4f30-b16e-14dced2912bc'
+Description: .
+ms.assetid: c2094bbe-a4ca-4f30-b16e-14dced2912bc
 title: Windows Property System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Property System

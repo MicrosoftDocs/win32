@@ -1,8 +1,11 @@
 ---
 title: Device.GetItem method
 description: Retrieves the specified item.
-ms.assetid: '6f2a66dd-2bde-4434-9910-71de694240f1'
-keywords: ["GetItem method WIA Automation", "GetItem method WIA Automation , Device object", "Device object WIA Automation , GetItem method"]
+ms.assetid: 6f2a66dd-2bde-4434-9910-71de694240f1
+keywords:
+- GetItem method WIA Automation
+- GetItem method WIA Automation , Device object
+- Device object WIA Automation , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.GetItem method
@@ -57,8 +65,8 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -98,9 +106,9 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 [**Item (Items)**](-wiaaut-iitems-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

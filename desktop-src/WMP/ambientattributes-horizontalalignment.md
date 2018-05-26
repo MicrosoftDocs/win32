@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.horizontalAlignment
 description: The horizontalAlignment attribute specifies or retrieves a value that indicates the horizontal placement of the control when the VIEW or parent SUBVIEW is resized.
-ms.assetid: '97ca23b9-2046-45ee-b2da-ea388e7ab8d8'
-keywords: ["AmbientAttributes.horizontalAlignment Windows Media Player"]
+ms.assetid: 97ca23b9-2046-45ee-b2da-ea388e7ab8d8
+keywords:
+- AmbientAttributes.horizontalAlignment Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.horizontalAlignment
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.horizontalAlignment
@@ -34,7 +40,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +71,9 @@ You can set any combination of **horizontalAlignment** and **verticalAlignment**
 [**AmbientAttributes.clippingImage**](ambientattributes-clippingimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

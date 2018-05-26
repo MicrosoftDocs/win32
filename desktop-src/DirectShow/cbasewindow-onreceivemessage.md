@@ -1,7 +1,12 @@
 ---
-Description: 'The OnReceiveMessage method handles window messages.'
-ms.assetid: '0f074f9b-00e5-42ff-a491-020d441acad1'
-title: 'CBaseWindow.OnReceiveMessage method'
+Description: The OnReceiveMessage method handles window messages.
+ms.assetid: 0f074f9b-00e5-42ff-a491-020d441acad1
+title: CBaseWindow.OnReceiveMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.OnReceiveMessage method
@@ -13,10 +18,10 @@ The `OnReceiveMessage` method handles window messages.
 
 ```C++
 virtual LRESULT OnReceiveMessage(
-   HWND   hwnd,
-   INT    uMsg,
-   WPARAM wParam,
-   LPARAM lParam
+   HWND   hwnd,
+   INT    uMsg,
+   WPARAM wParam,
+   LPARAM lParam
 );
 ```
 
@@ -89,9 +94,9 @@ A derived class can override this method to handle other messages. The derived c
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

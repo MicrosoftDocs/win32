@@ -4,11 +4,13 @@ description: Describes a Remote Authentication Dial-In User Service (RADIUS) ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40254354-f446-4e17-b7ec-649c98dd94f9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 40254354-f446-4e17-b7ec-649c98dd94f9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSGatewayRADIUSServer class Remote Desktop Services", "Win32_TSGatewayRADIUSServer class Remote Desktop Services , described"]
+keywords:
+- Win32_TSGatewayRADIUSServer class Remote Desktop Services
+- Win32_TSGatewayRADIUSServer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -20,11 +22,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayRADIUSServer class
 
-Describes a Remote Authentication Dial-In User Service (RADIUS) server, which has a set of Remote Desktop Services connection authorization policies (RD CAPs).
+Describes a Remote Authentication Dial-In User Service (RADIUS) server, which has a set of Remote Desktop Services connection authorization policies (RD CAPs).
 
 RADIUS is an industry-standard protocol that is used to transmit authentication, authorization, and configuration information between a server computer and an authenticating server, called a RADIUS server, with a database that stores user information. For more information, see [RADIUS Protocol](Http://Go.Microsoft.Com/FWLink/p/?LinkID=5919).
 
@@ -65,7 +70,7 @@ The **Win32\_TSGatewayRADIUSServer** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -98,7 +103,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Priority of the RADIUS server. The RD Gateway server looks for RD CAPs on RADIUS servers based on the priority. This property can be changed with the [**MoveUp**](moveup-win32-tsgatewayradiusserver.md), [**MoveDown**](movedown-win32-tsgatewayradiusserver.md), [**Add**](win32-tsgatewayradiusserver-add.md), and [**Remove**](win32-tsgatewayradiusserver-remove.md) methods.
+Priority of the RADIUS server. The RD Gateway server looks for RD CAPs on RADIUS servers based on the priority. This property can be changed with the [**MoveUp**](moveup-win32-tsgatewayradiusserver.md), [**MoveDown**](movedown-win32-tsgatewayradiusserver.md), [**Add**](win32-tsgatewayradiusserver-add.md), and [**Remove**](win32-tsgatewayradiusserver-remove.md) methods.
 
 </dd> <dt>
 
@@ -128,7 +133,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -157,9 +162,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IPOS\* Constants'
-ms.assetid: '5bee509f-0392-402c-b396-0380e1dcfe2c'
-title: 'LOCALE\_IPOS\* Constants'
+Description: LOCALE\_IPOS\* Constants
+ms.assetid: 5bee509f-0392-402c-b396-0380e1dcfe2c
+title: LOCALE\_IPOS\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IPOS\* Constants

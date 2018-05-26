@@ -1,7 +1,12 @@
 ---
 title: Digital Signatures How-To Topics
 description: Provides examples of tasks related to package digital signatures.
-ms.assetid: '92cf075b-815b-46f0-9ca0-f734af0c15e7'
+ms.assetid: 92cf075b-815b-46f0-9ca0-f734af0c15e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Signatures How-To Topics

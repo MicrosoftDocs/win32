@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::DisablePDEV method allows a rendering plug-in for Pscript5 to delete the private PDEV structure that was allocated by its IPrintOemPS::EnablePDEV method.'
-ms.assetid: '131a3113-1d65-44e7-8752-bf4cdc20129d'
-title: 'IPrintOemPS::DisablePDEV method'
+---
+Description: The IPrintOemPSDisablePDEV method allows a rendering plug-in for Pscript5 to delete the private PDEV structure that was allocated by its IPrintOemPSEnablePDEV method.
+ms.assetid: 131a3113-1d65-44e7-8752-bf4cdc20129d
+title: IPrintOemPSDisablePDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::DisablePDEV method

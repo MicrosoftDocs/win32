@@ -4,11 +4,13 @@ description: Represent the synchronization status of a storage object and its re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4fb53a8-cf24-4089-8649-77f2119108ee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a4fb53a8-cf24-4089-8649-77f2119108ee
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageSynchronized class", "MSFT_SMStorageSynchronized class, described"]
+keywords:
+- MSFT_SMStorageSynchronized class
+- MSFT_SMStorageSynchronized class, described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +49,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageSynchronized class
@@ -55,7 +60,7 @@ Represent the synchronization status of a storage object and its replicas.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) which is new for Windows Server 2016.
 
 ## Syntax
 
@@ -63,34 +68,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Dynamic, Provider("WMIStorage")]
 class MSFT_SMStorageSynchronized : MSFT_SMStorageSynchronizedBase
 {
-  datetime                 WhenSynced;
-  boolean                  SyncMaintained;
-  uint16                   CopyState;
-  string                   CopyStateDescription;
-  uint16                   RequestedCopyState = 15;
-  uint16                   SyncType;
-  string                   SyncTypeDescription;
-  uint16                   Mode;
-  string                   ModeDescription;
-  uint16                   ProgressStatus;
-  string                   ProgressStatusDescription;
-  uint16                   PercentSynced;
-  datetime                 WhenEstablished;
-  datetime                 WhenSynchronized;
-  datetime                 WhenActivated;
-  datetime                 WhenDeactivated;
-  datetime                 WhenSuspended;
-  uint16                   CopyType;
-  string                   CopyTypeDescription;
-  uint16                   ReplicaType;
-  string                   ReplicaTypeDescription;
-  uint16                   SyncState;
-  string                   SyncStateDescription;
-  uint16                   CopyPriority;
-  string                   CopyPriorityDescription;
-  uint16                   CopyMethodology;
-  string                   CopyMethodologyDescription;
-  UInt32                   RecoveryPointObjective;
+  datetime                 WhenSynced;
+  boolean                  SyncMaintained;
+  uint16                   CopyState;
+  string                   CopyStateDescription;
+  uint16                   RequestedCopyState = 15;
+  uint16                   SyncType;
+  string                   SyncTypeDescription;
+  uint16                   Mode;
+  string                   ModeDescription;
+  uint16                   ProgressStatus;
+  string                   ProgressStatusDescription;
+  uint16                   PercentSynced;
+  datetime                 WhenEstablished;
+  datetime                 WhenSynchronized;
+  datetime                 WhenActivated;
+  datetime                 WhenDeactivated;
+  datetime                 WhenSuspended;
+  uint16                   CopyType;
+  string                   CopyTypeDescription;
+  uint16                   ReplicaType;
+  string                   ReplicaTypeDescription;
+  uint16                   SyncState;
+  string                   SyncStateDescription;
+  uint16                   CopyPriority;
+  string                   CopyPriorityDescription;
+  uint16                   CopyMethodology;
+  string                   CopyMethodologyDescription;
+  UInt32                   RecoveryPointObjective;
   MSFT_SMStorageVolume REF SourceStorageVolume;
   MSFT_SMStorageVolume REF TargetStorageVolume;
 };
@@ -245,7 +250,7 @@ Reserved
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -262,7 +267,7 @@ A description of the current value of the **CopyMethodology** property.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -317,7 +322,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -328,7 +333,7 @@ The possible values are.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -345,7 +350,7 @@ A description of the current value of the **CopyPriority** property.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -470,18 +475,18 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -498,7 +503,7 @@ A description of the **CopyState** property value.
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -550,18 +555,18 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -578,7 +583,7 @@ A description of the **CopyType** value.
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -624,18 +629,18 @@ The update mode of the target elements. If the value is set to **NULL**, the imp
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -652,7 +657,7 @@ A description of the **Mode** value.
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -672,7 +677,7 @@ The percent of synchronization work that is complete. This value must be set to 
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -846,18 +851,18 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -874,7 +879,7 @@ A description of the **ProgressStatus** value.
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -891,7 +896,7 @@ Indicates the maximum interval in which data from copy operations might be lost.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -985,7 +990,7 @@ Reserved.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1002,7 +1007,7 @@ A description of the current value of the **ReplicaType** property.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1127,18 +1132,18 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1171,7 +1176,7 @@ Access type: Read-only
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1293,7 +1298,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -1304,7 +1309,7 @@ The possible values are.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1321,7 +1326,7 @@ A description of the current value of the **SyncState** property.
 
 This property is inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageSynchronizedBase**](msft-smstoragesynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1348,7 +1353,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -1376,18 +1381,18 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl>
+</dt> <dd>32768 ...</dd> </dl>
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1404,7 +1409,7 @@ A description of the **SyncType** property value.
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1440,7 +1445,7 @@ A **datetime** value that indicates when the association was activated. This val
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1460,7 +1465,7 @@ A **datetime** value that indicates when the association was deactivated. This v
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1480,7 +1485,7 @@ A **datetime** value that indicates when the association was established. This v
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1500,7 +1505,7 @@ A **datetime** value that indicates when the association was suspended. This val
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1517,7 +1522,7 @@ A **datetime** value that indicates when the elements were synchronized.
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> <dt>
 
@@ -1537,7 +1542,7 @@ A **datetime** value that indicates when the **CopyState** property is set to "S
 
 This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchronizedbase.md) .
 
 </dd> </dl>
 
@@ -1548,7 +1553,7 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -1565,9 +1570,9 @@ This property is inherited from [**MSFT\_SMSynchronizedBase**](msft-smsynchroniz
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

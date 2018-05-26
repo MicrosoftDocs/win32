@@ -1,8 +1,9 @@
 ---
 title: TB\_COMMANDTOINDEX message
 description: Retrieves the zero-based index for the button associated with the specified command identifier.
-ms.assetid: '079d318e-56b2-4890-ac4a-c1798fc2f62a'
-keywords: ["TB_COMMANDTOINDEX message Windows Controls"]
+ms.assetid: 079d318e-56b2-4890-ac4a-c1798fc2f62a
+keywords:
+- TB_COMMANDTOINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_COMMANDTOINDEX message
@@ -41,15 +47,15 @@ Returns the zero-based index for the button or -1 if the specified command ident
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

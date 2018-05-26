@@ -4,16 +4,21 @@ description: The IADs.GetInfoEx method can be used to retrieve a range of attrib
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2098862f-e5ec-4912-a941-8faceade22ee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2098862f-e5ec-4912-a941-8faceade22ee
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Using IADs GetInfoEx for Range Retrieval ADSI", "IADs GetInfoEx ADSI , using for range retrieval"]
+keywords:
+- Using IADs GetInfoEx for Range Retrieval ADSI
+- IADs GetInfoEx ADSI , using for range retrieval
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using IADs::GetInfoEx for Range Retrieval
 
-The [**IADs.GetInfoEx**](iads-getinfoex.md) method can be used to retrieve a range of attribute values. The range of values to retrieve is specified in the attribute name array passed to the method.
+The [**IADs.GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master) method can be used to retrieve a range of attribute values. The range of values to retrieve is specified in the attribute name array passed to the method.
 
 The range specifiers for a property query require the following form:
 
@@ -26,7 +31,7 @@ The range specifiers for a property query require the following form:
 
 where "&lt;property name&gt;" is the **ldapDisplayName** of the attribute, "&lt;low range&gt;" is the zero-based index of the first attribute value to retrieve and "&lt;high range&gt;" is the zero-based index of the last attribute value to retrieve. Zero is used for "&lt;low range&gt;" to specify the first entry. The wildcard character (\*) can be used for "&lt;high range&gt;" to specify all remaining entries.
 
-The following code example contains a function that shows how to use range retrieval with [**IADs::GetInfoEx**](iads-getinfoex.md) to enumerate the members of a group.
+The following code example contains a function that shows how to use range retrieval with [**IADs::GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master) to enumerate the members of a group.
 
 
 ```C++
@@ -139,7 +144,7 @@ HRESULT EnumGroupWithGetInfoEx(LPCWSTR pwszGroupDN,
 
 
 
-The following code example contains a function that shows how to use range retrieval with [**IADs.GetInfoEx**](iads-getinfoex.md) to enumerate the members of a group.
+The following code example contains a function that shows how to use range retrieval with [**IADs.GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master) to enumerate the members of a group.
 
 
 ```VB

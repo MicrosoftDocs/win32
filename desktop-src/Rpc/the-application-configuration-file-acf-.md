@@ -1,8 +1,14 @@
 ---
 title: The Application Configuration File (ACF)
 description: Navigation page for the application configuration file (ACF), which includes an ACF header and ACF body.
-ms.assetid: 'f7f2d251-da23-4005-b5b6-a1765016e931'
-keywords: ["ACF files RPC"]
+ms.assetid: f7f2d251-da23-4005-b5b6-a1765016e931
+keywords:
+- ACF files RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Application Configuration File (ACF)

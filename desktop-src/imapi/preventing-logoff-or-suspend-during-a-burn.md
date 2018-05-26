@@ -1,7 +1,12 @@
 ---
 title: Preventing Logoff or Suspend During a Burn
 description: If proper precautions are not made within an application, it is possible for a user to log off during a burn operation. This leads to the interruption of the burn process, which can result in lost data and possibly render the disc unusable.
-ms.assetid: '5223c9f6-30f6-43ce-b46c-267da0a53d4b'
+ms.assetid: 5223c9f6-30f6-43ce-b46c-267da0a53d4b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preventing Logoff or Suspend During a Burn

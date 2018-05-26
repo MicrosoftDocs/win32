@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getAll method
 description: The getAll method returns an IWMPPlaylist interface that corresponds to the playlist that contains all media items in the library.
-ms.assetid: 'f2bbb4a4-7397-4c97-afd9-e8ee380af9da'
-keywords: ["getAll method Windows Media Player", "getAll method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getAll method"]
+ms.assetid: f2bbb4a4-7397-4c97-afd9-e8ee380af9da
+keywords:
+- getAll method Windows Media Player
+- getAll method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getAll method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getAll method
@@ -136,9 +144,9 @@ player.Ctlcontrols.play()</code></pre></td>
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

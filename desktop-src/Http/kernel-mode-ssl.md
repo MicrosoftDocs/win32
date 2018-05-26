@@ -1,22 +1,28 @@
 ---
 title: Kernel Mode SSL
 description: Kernel Mode SSL
-ms.assetid: 'ada82704-cb7d-4e98-8c87-76c7bfbd098b'
-keywords: ["Kernel Mode SSL"]
+ms.assetid: ada82704-cb7d-4e98-8c87-76c7bfbd098b
+keywords:
+- Kernel Mode SSL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kernel Mode SSL
 
-Kernel mode SSL was introduced in Windows Server 2003 with Service Pack 1 (SP1) with limited support. For computers running on Windows Server 2003 with SP1 a registry key must be set to enable kernel SSL. For computers running on Windows Server 2008 and Windows Vista, full kernel mode support for SSL is provided.
+Kernel mode SSL was introduced in Windows Server 2003 with Service Pack 1 (SP1) with limited support. For computers running on Windows Server 2003 with SP1 a registry key must be set to enable kernel SSL. For computers running on Windows Server 2008 and Windows Vista, full kernel mode support for SSL is provided.
 
 The following sections describe kernel mode SSL support:
 
--   Kernel Modes SSL in Windows Server 2003 with SP1
--   Kernel Mode SSL in Windows Server 2008 and Windows Vista
+-   Kernel Modes SSL in Windows Server 2003 with SP1
+-   Kernel Mode SSL in Windows Server 2008 and Windows Vista
 
 ## Kernel Modes SSL in Windows Server 2003 with SP1
 
-In Windows Server 2003 with SP1, HTTP Server API provides the option of running SSL security in kernel mode (user mode SSL is the default). The kernel mode feature improves SSL performance by moving encryption and decryption operations to the kernel, thus reducing the number of transitions between kernel mode and user mode.
+In Windows Server 2003 with SP1, HTTP Server API provides the option of running SSL security in kernel mode (user mode SSL is the default). The kernel mode feature improves SSL performance by moving encryption and decryption operations to the kernel, thus reducing the number of transitions between kernel mode and user mode.
 
 The following features are not supported when SSL is run in kernel mode:
 
@@ -34,7 +40,7 @@ Kernel mode SSL is controlled by the **EnableKernelSSL** registry value and is e
 
 ## Kernel Mode SSL in Windows Server 2008 and Windows Vista
 
-For computers running on Windows Server 2008 and Windows Vista, the HTTP Server API features enhanced SSL functionality.
+For computers running on Windows Server 2008 and Windows Vista, the HTTP Server API features enhanced SSL functionality.
 
 The following new features are supported:
 
@@ -51,13 +57,13 @@ Kernel mode SSL is configurable through two registry values under the HTTP Param
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            HTTP
-               Parameters
-                  EnableSslCloseNotify
-                  DisableSslCertChainCacheOnlyUrlRetrieval
+   System
+      CurrentControlSet
+         Services
+            HTTP
+               Parameters
+                  EnableSslCloseNotify
+                  DisableSslCertChainCacheOnlyUrlRetrieval
 ```
 
 A user must have Administrator/Local System privileges to modify the registry values and view, or modify, the log files and the folder that contains them.
@@ -86,7 +92,7 @@ The following table lists registry configuration values.
 <tbody>
 <tr class="odd">
 <td>EnableKernelSSL</td>
-<td><strong>Windows Server 2008 and Windows Vista:</strong> This registry value is obsolete.<br/></td>
+<td><strong>Windows Server 2008 and Windows Vista:</strong> This registry value is obsolete.<br/></td>
 </tr>
 <tr class="even">
 <td>EnableSslCloseNotify</td>
@@ -106,11 +112,11 @@ Enabling close-notify helps mitigate truncation attacks against the HTTPS reques
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

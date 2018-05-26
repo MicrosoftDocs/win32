@@ -1,7 +1,12 @@
 ---
 title: About Animation Controls
 description: An animation control is a window that displays an Audio-Video Interleaved (AVI) clip. An AVI clip is a series of bitmap frames like a movie. Animation controls can only display AVI clips that do not contain audio.
-ms.assetid: '6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d'
+ms.assetid: 6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Animation Controls
@@ -30,7 +35,7 @@ This section discusses the following topics.
 
 ## Animation Control Creation
 
-An animation control belongs to the [**ANIMATE\_CLASS**](common-control-window-classes.md#animate-class) window class. You create an animation control by using the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function or the [**Animate\_Create**](animate-create.md) macro. The macro positions the animation control in the upper-left corner of the parent window and, if the [**ACS\_CENTER**](animation-control-styles.md#acs-center) style is not specified, sets the width and height of the control based on the dimensions of a frame in the AVI clip. If **ACS\_CENTER** is specified, **Animate\_Create** sets the width and height of the control to zero. You can use the [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545) function to set the position and size of the control.
+An animation control belongs to the [**ANIMATE\_CLASS**](common-control-window-classes.md#animate-class) window class. You create an animation control by using the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) or [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function or the [**Animate\_Create**](/windows/win32/Commctrl/nf-commctrl-animate_create?branch=master) macro. The macro positions the animation control in the upper-left corner of the parent window and, if the [**ACS\_CENTER**](animation-control-styles.md#acs-center) style is not specified, sets the width and height of the control based on the dimensions of a frame in the AVI clip. If **ACS\_CENTER** is specified, **Animate\_Create** sets the width and height of the control to zero. You can use the [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545) function to set the position and size of the control.
 
 If you create an animation control within a dialog box or from a dialog box resource, the control is automatically destroyed when the user closes the dialog box. If you create an animation control within a window, you must explicitly destroy the control.
 
@@ -44,7 +49,7 @@ If the animation control has the [**ACS\_AUTOPLAY**](animation-control-styles.md
 
 An animation control can send two notification codes to its parent window: [ACN\_START](acn-start.md) and [ACN\_STOP](acn-stop.md). Most applications do not handle either notification.
 
-To close the AVI file or AVI resource and remove it from memory, an application can use the [**Animate\_Close**](animate-close.md) macro, which sends [**ACM\_OPEN**](acm-open.md) with the file name or resource name set to **NULL**.
+To close the AVI file or AVI resource and remove it from memory, an application can use the [**Animate\_Close**](/windows/win32/Commctrl/nf-commctrl-animate_close?branch=master) macro, which sends [**ACM\_OPEN**](acm-open.md) with the file name or resource name set to **NULL**.
 
 ## Default Message Processing
 

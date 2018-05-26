@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the option with the given name.'
-ms.assetid: 'C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA'
-title: 'IPrintSchemaFeature::GetOption method'
+---
+Description: Gets the option with the given name.
+ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
+title: IPrintSchemaFeatureGetOption method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaFeature::GetOption method

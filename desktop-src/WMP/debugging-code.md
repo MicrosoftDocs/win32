@@ -1,8 +1,19 @@
 ---
 title: Debugging Code
 description: Debugging Code
-ms.assetid: '315bc692-86bc-481e-abe4-f35309807a58'
-keywords: ["Windows Media Player skins,debugging code", "skins,debugging code", "debugging code for skins", "Windows Media Player skins,logging", "skins,logging", "logging functionality in skins"]
+ms.assetid: 315bc692-86bc-481e-abe4-f35309807a58
+keywords:
+- Windows Media Player skins,debugging code
+- skins,debugging code
+- debugging code for skins
+- Windows Media Player skins,logging
+- skins,logging
+- logging functionality in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Code

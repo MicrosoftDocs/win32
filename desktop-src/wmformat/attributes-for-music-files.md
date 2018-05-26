@@ -1,8 +1,18 @@
 ---
 title: Attributes for Music Files
 description: Attributes for Music Files
-ms.assetid: '098d9241-c8b0-4b0c-b9c1-668497f91e8c'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,audio files", "attributes,music files"]
+ms.assetid: 098d9241-c8b0-4b0c-b9c1-668497f91e8c
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,audio files
+- attributes,music files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes for Music Files

@@ -1,7 +1,12 @@
 ---
 title: Legacy System Restore Reference
 description: This documentation describes implementation details of the repository used by a legacy version of System Restore. It does not apply to the implementation of System Restore on Windows Vista.
-ms.assetid: 'd221e83d-beb0-405c-b332-a3ab8aaef688'
+ms.assetid: d221e83d-beb0-405c-b332-a3ab8aaef688
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legacy System Restore Reference
@@ -42,7 +47,7 @@ Each RP*n* folder contains a Snapshot folder that contains the following:
 -   A snapshot of the COM+ database
 -   A snapshot of the IIS database
 
-Each RP*n* folder contains an RP.log file that contains general information about the restore point from the [**RESTOREPOINTINFOW**](restorepointinfo-str.md) structure.
+Each RP*n* folder contains an RP.log file that contains general information about the restore point from the [**RESTOREPOINTINFOW**](/windows/win32/SRRestorePtAPI/ns-srrestoreptapi-_restoreptinfoa?branch=master) structure.
 
 Each RP*n* folder may contain files used to track changes for a restore point. The first file is named change.log, the next file is named change.log.1, and so on. Each change log file contains the following structures:
 

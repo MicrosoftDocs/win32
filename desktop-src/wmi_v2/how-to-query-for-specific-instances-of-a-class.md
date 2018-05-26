@@ -4,10 +4,13 @@ description: This topic provides step-by-step instructions for querying instance
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '607010ED-7ADE-420B-873E-F9DF0ECE6B40'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 607010ED-7ADE-420B-873E-F9DF0ECE6B40
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Query for Specific Instances of a Class (C#)

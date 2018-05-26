@@ -1,15 +1,18 @@
 ---
-Description: 'Manages an IP address in IPAM.'
+Description: Manages an IP address in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '29433e49-bb8b-45c7-9e10-9e6116b1b6bd'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 29433e49-bb8b-45c7-9e10-9e6116b1b6bd
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_Address class'
+title: MSFT\_IPAM\_Address class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_Address class
@@ -24,83 +27,83 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::ProtocolEndpoints"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_Address : CIM_IPProtocolEndpoint
 {
-  string   InstanceID;
-  string   Caption;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
   datetime TimeOfLastStateChange;
-  uint16   EnabledState;
-  uint16   OperationalStatus[];
-  string   Description;
-  string   NameFormat;
-  uint16   ProtocolType;
-  string   OtherTypeDescription;
-  uint16   ProtocolIFType = 4096;
-  string   IPv4Address;
-  string   IPv6Address;
-  string   Address;
-  string   SubnetMask;
-  uint8    PrefixLength;
-  uint16   IPVersionSupport;
-  uint16   AddressOrigin = 0;
-  uint16   AddressType;
-  string   Name;
-  uint16   NetworkType;
-  uint16   AddressCategory;
-  boolean  Duplicate;
-  uint16   ExpiryStatus;
-  string   MacAddress;
-  string   ManagedByService;
-  string   ServiceInstance;
-  string   AddressSpace;
-  uint64   AddressSpaceId;
-  string   ProviderAddressSpace;
-  string   CustomerAddressSpace;
-  string   DeviceName;
-  string   DeviceType;
-  string   IPAddressState;
-  uint16   AssignmentType = 0;
-  string   IPRange;
-  string   NetworkSite;
-  string   VmmLogicalNetwork;
+  uint16   EnabledState;
+  uint16   OperationalStatus[];
+  string   Description;
+  string   NameFormat;
+  uint16   ProtocolType;
+  string   OtherTypeDescription;
+  uint16   ProtocolIFType = 4096;
+  string   IPv4Address;
+  string   IPv6Address;
+  string   Address;
+  string   SubnetMask;
+  uint8    PrefixLength;
+  uint16   IPVersionSupport;
+  uint16   AddressOrigin = 0;
+  uint16   AddressType;
+  string   Name;
+  uint16   NetworkType;
+  uint16   AddressCategory;
+  boolean  Duplicate;
+  uint16   ExpiryStatus;
+  string   MacAddress;
+  string   ManagedByService;
+  string   ServiceInstance;
+  string   AddressSpace;
+  uint64   AddressSpaceId;
+  string   ProviderAddressSpace;
+  string   CustomerAddressSpace;
+  string   DeviceName;
+  string   DeviceType;
+  string   IPAddressState;
+  uint16   AssignmentType = 0;
+  string   IPRange;
+  string   NetworkSite;
+  string   VmmLogicalNetwork;
   datetime ExpiryDate;
-  uint16   DhcpReservationSync;
-  uint16   DnsHostRecordSync;
-  uint16   DnsPtrRecordSync;
+  uint16   DhcpReservationSync;
+  uint16   DnsHostRecordSync;
+  uint16   DnsPtrRecordSync;
   datetime AssignmentDate;
   datetime LastModifiedTime;
-  string   Owner;
-  string   SerialNumber;
-  string   AssetTag;
-  string   ClientID;
-  string   Duid;
-  uint32   Iaid;
-  string   ReservationName;
-  string   ReservationDescription;
-  uint16   ReservationType;
-  string   ReservationServer;
-  string   ReservationScopeName;
-  string   ReservationScopeID;
-  string   ForwardLookupPrimaryServer;
-  string   ForwardLookupZone;
-  string   ReverseLookupPrimaryServer;
-  string   ReverseLookupZone;
-  string   CustomConfiguration;
+  string   Owner;
+  string   SerialNumber;
+  string   AssetTag;
+  string   ClientID;
+  string   Duid;
+  uint32   Iaid;
+  string   ReservationName;
+  string   ReservationDescription;
+  uint16   ReservationType;
+  string   ReservationServer;
+  string   ReservationScopeName;
+  string   ReservationScopeID;
+  string   ForwardLookupPrimaryServer;
+  string   ForwardLookupZone;
+  string   ReverseLookupPrimaryServer;
+  string   ReverseLookupZone;
+  string   CustomConfiguration;
 };
 ```
 
@@ -129,7 +132,7 @@ The **MSFT\_IPAM\_Address** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -291,14 +294,14 @@ This property is inherited from [**CIM\_IPProtocolEndpoint**](cim-ipprotocolendp
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -538,7 +541,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>12–65535</dd> </dl>
+</dt> <dd>12 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1122,14 +1125,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1251,14 +1254,14 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2129,14 +2132,14 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2312,7 +2315,7 @@ This property is inherited from [**CIM\_IPProtocolEndpoint**](cim-ipprotocolendp
 **IANA Reserved**
 
 
-</dt> <dd>225–4095</dd> <dt>
+</dt> <dd>225 4095</dd> <dt>
 
 <span id="IPv4"></span><span id="ipv4"></span><span id="IPV4"></span>
 
@@ -2340,14 +2343,14 @@ This property is inherited from [**CIM\_IPProtocolEndpoint**](cim-ipprotocolendp
 **DMTF Reserved**
 
 
-</dt> <dd>4301–32767</dd> <dt>
+</dt> <dd>4301 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2699,14 +2702,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3184,7 +3187,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–65535</dd> </dl>
+</dt> <dd>13 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3208,7 +3211,7 @@ An network abstraction defined for your environment. This property is inherited 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -3225,9 +3228,9 @@ An network abstraction defined for your environment. This property is inherited 
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

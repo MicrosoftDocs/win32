@@ -1,7 +1,12 @@
 ---
-Description: 'Transport addresses (XAddrs) included in ProbeMatches and ResolveMatches messages are subject to basic validation before WSDAPI sends an HTTP message, such as a metadata request.'
-ms.assetid: '6b5139b5-aa31-42bc-a281-8784006edfbe'
+Description: Transport addresses (XAddrs) included in ProbeMatches and ResolveMatches messages are subject to basic validation before WSDAPI sends an HTTP message, such as a metadata request.
+ms.assetid: 6b5139b5-aa31-42bc-a281-8784006edfbe
 title: XAddr Validation Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAddr Validation Rules

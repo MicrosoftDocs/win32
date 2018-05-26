@@ -1,7 +1,12 @@
 ---
 title: Priority Comparison Sample
 description: Shows how to use Windows Animation with your own Priority Comparison, using Direct2D for rendering.
-ms.assetid: 'aa09f8a7-1919-4a44-832f-be8b848d6a2e'
+ms.assetid: aa09f8a7-1919-4a44-832f-be8b848d6a2e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Priority Comparison Sample

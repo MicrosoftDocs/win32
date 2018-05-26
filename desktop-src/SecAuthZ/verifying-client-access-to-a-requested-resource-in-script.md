@@ -1,18 +1,23 @@
 ---
-Description: 'Call the IAzClientContext::AccessCheck method to check whether the client has access to one or more operations.'
-ms.assetid: 'cf1070fe-3737-4ae6-a8ef-f0782418a1d5'
+Description: Call the IAzClientContextAccessCheck method to check whether the client has access to one or more operations.
+ms.assetid: cf1070fe-3737-4ae6-a8ef-f0782418a1d5
 title: Verifying Client Access to a Requested Resource in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying Client Access to a Requested Resource in Script
 
-Call the [**AccessCheck**](iazclientcontext-accesscheck.md) method of an [**IAzClientContext**](iazclientcontext.md) object to check whether the client has access to one or more operations. For information about creating an **IAzClientContext** object, see [Establishing a Client Context in Script](establishing-a-client-context-in-script.md).
+Call the [**AccessCheck**](/windows/win32/Azroles/nf-azroles-iazclientcontext-accesscheck?branch=master) method of an [**IAzClientContext**](/windows/win32/Azroles/nn-azroles-iazclientcontext?branch=master) object to check whether the client has access to one or more operations. For information about creating an **IAzClientContext** object, see [Establishing a Client Context in Script](establishing-a-client-context-in-script.md).
 
 A client might have membership in more than one role, and an operation might be assigned to more than one task, so Authorization Manager checks for all roles and tasks. If any role to which the client belongs contains any task that contains an operation, access to that operation is granted.
 
-To check access for only a single role to which the client belongs, set the [**RoleForAccessCheck**](iazclientcontext-roleforaccesscheck.md) property of the [**IAzClientContext**](iazclientcontext.md) object.
+To check access for only a single role to which the client belongs, set the [**RoleForAccessCheck**](/windows/win32/Azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck?branch=master) property of the [**IAzClientContext**](/windows/win32/Azroles/nn-azroles-iazclientcontext?branch=master) object.
 
-When initializing the authorization policy store for access check, you must pass zero as the value of the *lFlags* parameter of the [**Initialize**](azauthorizationstore-initialize.md) method of the [**AzAuthorizationStore**](azauthorizationstore.md) object.
+When initializing the authorization policy store for access check, you must pass zero as the value of the *lFlags* parameter of the [**Initialize**](/windows/win32/Azroles/nf-azroles-iazauthorizationstore-initialize?branch=master) method of the [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object.
 
 It is also possible to apply business logic at run time to qualify access. For information about qualifying access with business logic, see [Qualifying Access with Business Logic in Script](qualifying-access-with-business-logic-in-script.md).
 

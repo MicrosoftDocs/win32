@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adjusts the contrast.'
-ms.assetid: '32ae514a-eeba-4205-b6e6-70fc01b93a95'
-title: 'MFPKEY\_COLOR\_CONTRAST Property'
+---
+Description: Adjusts the contrast.
+ms.assetid: 32ae514a-eeba-4205-b6e6-70fc01b93a95
+title: MFPKEY\_COLOR\_CONTRAST Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLOR\_CONTRAST Property

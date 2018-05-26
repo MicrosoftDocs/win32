@@ -4,11 +4,13 @@ description: Provides access to the DomainNames and ClusterNames collections and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f837658-18f5-44c9-b743-1980a616e71a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2f837658-18f5-44c9-b743-1980a616e71a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusApplication object Failover Cluster", "ClusApplication object Failover Cluster , described"]
+keywords:
+- ClusApplication object Failover Cluster
+- ClusApplication object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusApplication object
@@ -45,7 +50,7 @@ The **ClusApplication** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +65,7 @@ The **ClusApplication** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,7 +88,7 @@ Set objApplication = New ClusApplication
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -99,9 +104,9 @@ Set objApplication = New ClusApplication
 [Application Management Objects](application-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

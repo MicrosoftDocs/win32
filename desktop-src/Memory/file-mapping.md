@@ -1,7 +1,12 @@
 ---
-Description: 'File mapping is the association of a file''s contents with a portion of the virtual address space of a process.'
-ms.assetid: '86a8bc81-914d-46a2-99fd-65dfd03bbcdd'
+Description: File mapping is the association of a files contents with a portion of the virtual address space of a process.
+ms.assetid: 86a8bc81-914d-46a2-99fd-65dfd03bbcdd
 title: File Mapping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Mapping

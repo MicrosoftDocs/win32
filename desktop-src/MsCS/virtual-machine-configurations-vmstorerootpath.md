@@ -4,17 +4,22 @@ description: Provides the path that specifies the location of the virtual machin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c5cad1e2-7471-4f79-bbc5-38372186f418'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c5cad1e2-7471-4f79-bbc5-38372186f418
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VmStoreRootPath Failover Cluster ,for virtual machine configurations", "VmStoreRootPath Failover Cluster"]
+keywords:
+- VmStoreRootPath Failover Cluster ,for virtual machine configurations
+- VmStoreRootPath Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VmStoreRootPath
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VmStoreRootPath
@@ -28,18 +33,18 @@ Provides the path that specifies the location of the virtual machine (VM) config
 | Data type<br/> | Null-terminated Unicode string<br/>                     |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>            |
 | Status<br/>    | Required<br/>                                           |
-| Structure<br/> | [**CLUSPROP\_SZ**](clusprop-sz.md)<br/>                |
+| Structure<br/> | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                |
 | Minimum<br/>   | **NULL**<br/>                                           |
 | Maximum<br/>   | see [Maximum String Size](maximum-string-size.md)<br/> |
 | Default<br/>   | **NULL**<br/>                                           |
 
 
 
- 
+ 
 
 ## Remarks
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -64,7 +69,7 @@ StringCbCopy( VmStoreRootPathValue.sz, VmStoreRootPathValue.cbLength, szVmStoreR
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -75,15 +80,15 @@ StringCbCopy( VmStoreRootPathValue.sz, VmStoreRootPathValue.cbLength, szVmStoreR
 [Virtual Machine Configuration Private Properties](virtual-machine-configuration-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

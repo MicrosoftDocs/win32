@@ -1,7 +1,12 @@
-﻿---
-Description: 'MPEG-2 Demultiplexer Media Types'
-ms.assetid: '240d1753-df8c-45fe-b5a7-9faa96fc5b18'
-title: 'MPEG-2 Demultiplexer Media Types'
+---
+Description: MPEG-2 Demultiplexer Media Types
+ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
+title: MPEG-2 Demultiplexer Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Demultiplexer Media Types
@@ -75,7 +80,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 | Major type       | **MEDIATYPE\_Video**                     |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           |
 | Format Type      | **FORMAT\_MPEG2Video**                   |
-| Format Structure | [**MPEG2VIDEOINFO**](mpeg2videoinfo.md) |
+| Format Structure | [**MPEG2VIDEOINFO**](/windows/win32/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo?branch=master) |
 
 
 
@@ -90,7 +95,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 | Major type       | **MEDIATYPE\_Audio**                 |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_AUDIO**       |
 | Format Type      | **FORMAT\_WaveFormatEx**             |
-| Format Structure | [**WAVEFORMATEX**](waveformatex.md) |
+| Format Structure | [**WAVEFORMATEX**](/windows/win32/mmreg/?branch=master) |
 
 
 

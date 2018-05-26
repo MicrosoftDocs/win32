@@ -1,8 +1,15 @@
 ---
 title: Windows Installer Provider
 description: The Windows \ 160;Installer provider \ 8212; also known as the MSI provider \ 8212; allows WMI-enabled applications to access information collected from Windows Installer compliant applications.
-ms.assetid: 'd635cc67-242e-4e8a-9b31-2cdb6b0937d6'
-keywords: ["providers Windows Management Instrumentation , Windows Installer, MSI provider, Install", "Windows Installer provider Windows Management Instrumentation"]
+ms.assetid: d635cc67-242e-4e8a-9b31-2cdb6b0937d6
+keywords:
+- providers Windows Management Instrumentation , Windows Installer, MSI provider, Install
+- Windows Installer provider Windows Management Instrumentation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Installer Provider

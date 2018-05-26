@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OutgoingMessages property is a number that represents the total number of outgoing fax jobs that the fax service is in the process of sending.'
-ms.assetid: '3155080c-d891-4ff5-8fae-d77ee86a2277'
-title: 'FaxActivity.OutgoingMessages property'
+---
+Description: The OutgoingMessages property is a number that represents the total number of outgoing fax jobs that the fax service is in the process of sending.
+ms.assetid: 3155080c-d891-4ff5-8fae-d77ee86a2277
+title: FaxActivity.OutgoingMessages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivity.OutgoingMessages property
@@ -25,7 +30,7 @@ A **Long** that receives the total number of outgoing fax jobs that the fax serv
 
 ## Remarks
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxActivity**](-mfax-faxactivity.md)
 </dt> <dt>
 
-[**IFaxActivity**](-mfax-faxactivity-cpp.md)
+[**IFaxActivity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivity?branch=master)
 </dt> </dl>
 
  

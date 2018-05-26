@@ -1,7 +1,12 @@
 ---
-Description: 'This class represents a virtual system reference point export operation job.'
-ms.assetid: '3d8e117c-4863-441a-9264-c33f05fbc5ef'
-title: 'Msvm\_VirtualSystemReferencePointExportJob class'
+Description: This class represents a virtual system reference point export operation job.
+ms.assetid: 3d8e117c-4863-441a-9264-c33f05fbc5ef
+title: Msvm\_VirtualSystemReferencePointExportJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemReferencePointExportJob class
@@ -17,16 +22,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_VirtualSystemReferencePointExportJob : CIM_ConcreteJob
 {
   boolean Cancellable;
-  string  ErrorSummaryDescription;
-  string  ExportDirectory;
-  string  VirtualMachineId;
-  string  ReferencePointId;
-  string  BaseReferencePointId;
-  string  ExportedDisks[];
-  string  ExportedLogFilePaths[];
-  string  ExportedConfigFilePath;
-  string  ExportedRuntimeFilePath;
-  string  ExportedGuestStateFilePath;
+  string  ErrorSummaryDescription;
+  string  ExportDirectory;
+  string  VirtualMachineId;
+  string  ReferencePointId;
+  string  BaseReferencePointId;
+  string  ExportedDisks[];
+  string  ExportedLogFilePaths[];
+  string  ExportedConfigFilePath;
+  string  ExportedRuntimeFilePath;
+  string  ExportedGuestStateFilePath;
 };
 ```
 
@@ -51,7 +56,7 @@ The **Msvm\_VirtualSystemReferencePointExportJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -152,9 +157,9 @@ Access type: Read-only
 Path of the exported guest state file.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -216,8 +221,8 @@ GUID of the virtual machine for which log files were exported.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -231,9 +236,9 @@ GUID of the virtual machine for which log files were exported.
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

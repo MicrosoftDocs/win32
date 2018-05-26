@@ -1,7 +1,12 @@
 ---
-Description: 'To apply a major upgrade using Windows Installer, the original product installation package must specify an UpgradeCode Property, described in Preparing an Application for Future Major Upgrades, and the upgrade package must have an Upgrade table.'
-ms.assetid: '041f5bab-cb13-4e17-8465-484bcd3c6957'
+Description: To apply a major upgrade using Windows Installer, the original product installation package must specify an UpgradeCode Property, described in Preparing an Application for Future Major Upgrades, and the upgrade package must have an Upgrade table.
+ms.assetid: 041f5bab-cb13-4e17-8465-484bcd3c6957
 title: Updating Upgrade Table for an Upgrade
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Upgrade Table for an Upgrade

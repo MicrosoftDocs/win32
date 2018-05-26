@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_SourceWidth method retrieves the width of the current source rectangle.'
-ms.assetid: 'e8e27f8f-57e5-489c-aae7-86493677b380'
-title: 'CBaseControlVideo.get\_SourceWidth method'
+Description: The get\_SourceWidth method retrieves the width of the current source rectangle.
+ms.assetid: e8e27f8f-57e5-489c-aae7-86493677b380
+title: CBaseControlVideo.get\_SourceWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_SourceWidth method
@@ -13,7 +18,7 @@ The `get_SourceWidth` method retrieves the width of the current source rectangle
 
 ```C++
 HRESULT get_SourceWidth(
-   long *pSourceWidth
+   long *pSourceWidth
 );
 ```
 
@@ -45,13 +50,13 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
-This member function implements the [**IBasicVideo::get\_SourceWidth**](ibasicvideo-get-sourcewidth.md) method.
+This member function implements the [**IBasicVideo::get\_SourceWidth**](/windows/win32/Control/nf-control-ibasicvideo-get_sourcewidth?branch=master) method.
 
-An application can change the source and destination rectangles for the video through the [**IBasicVideo**](ibasicvideo.md) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
+An application can change the source and destination rectangles for the video through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface. The source rectangle affects which section of the native video source will appear on the display; the destination rectangle affects where the video will appear when played. The destination rectangle is relative to the client area of the window in which it is playing. The upper-left corner of the window is coordinate (0,0).
 
 ## Requirements
 
@@ -71,9 +76,9 @@ An application can change the source and destination rectangles for the video th
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

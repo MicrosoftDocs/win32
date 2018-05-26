@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication.'
-ms.assetid: 'fb01be74-46ad-4d8c-be4c-50ae05a0c33b'
-title: 'OneXEnforced (security) Element'
+---
+Description: Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication.
+ms.assetid: fb01be74-46ad-4d8c-be4c-50ae05a0c33b
+title: OneXEnforced (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneXEnforced (security) Element

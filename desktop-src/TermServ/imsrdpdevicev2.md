@@ -4,11 +4,13 @@ description: Contains information about a device object. This is an enhancement 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9a380a1a-d44f-4147-8917-bf1e07dbac15'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9a380a1a-d44f-4147-8917-bf1e07dbac15
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpDeviceV2 interface Remote Desktop Services", "IMsRdpDeviceV2 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpDeviceV2 interface Remote Desktop Services
+- IMsRdpDeviceV2 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceV2 interface
@@ -47,7 +52,7 @@ The **IMsRdpDeviceV2** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,17 +60,17 @@ The **IMsRdpDeviceV2** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
+| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpDeviceV2 is defined as 5fb94466-7661-42a8-98b7-01904c11668f<br/>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

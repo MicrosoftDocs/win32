@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectTechnique GetPassByIndex method
 description: Get a pass by index.
-ms.assetid: '3c9452f5-c94a-4951-bdd2-e8891b7ceb34'
-keywords: ["GetPassByIndex method Direct3D 11", "GetPassByIndex method Direct3D 11 , ID3DX11EffectTechnique interface", "ID3DX11EffectTechnique interface Direct3D 11 , GetPassByIndex method"]
+ms.assetid: 3c9452f5-c94a-4951-bdd2-e8891b7ceb34
+keywords:
+- GetPassByIndex method Direct3D 11
+- GetPassByIndex method Direct3D 11 , ID3DX11EffectTechnique interface
+- ID3DX11EffectTechnique interface Direct3D 11 , GetPassByIndex method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectTechnique::GetPassByIndex method
@@ -23,7 +31,7 @@ Get a pass by index.
 
 ```C++
 ID3DX11EffectPass* GetPassByIndex(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -55,7 +63,7 @@ A technique contains one or more passes; get a pass using a name or an index.
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ A technique contains one or more passes; get a pass using a name or an index.
 [ID3DX11EffectTechnique](id3dx11effecttechnique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

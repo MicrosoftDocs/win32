@@ -1,8 +1,14 @@
 ---
 title: D2D1\_RECT\_F
 description: Represents a rectangle defined by the coordinates of the upper-left corner (left, top) and the coordinates of the lower-right corner (right, bottom).
-ms.assetid: 'a961c0e3-fb76-4c07-b76e-47d8c09ada08'
-keywords: ["D2D1_RECT_F"]
+ms.assetid: a961c0e3-fb76-4c07-b76e-47d8c09ada08
+keywords:
+- D2D1_RECT_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_RECT\_F
@@ -18,11 +24,11 @@ typedef D2D_RECT_F D2D1_RECT_F;
 
 ## Remarks
 
-**D2D1\_RECT\_F** is a new name for the already defined [**D2D\_RECT\_F**](d2d-rect-f.md) struct.
+**D2D1\_RECT\_F** is a new name for the already defined [**D2D\_RECT\_F**](/windows/win32/dcommon/ns-dcommon-d2d_rect_f?branch=master) struct.
 
 ## Examples
 
-The following example uses an [**ID2D1HwndRenderTarget**](id2d1hwndrendertarget.md) to draw and fill several rectangles. This example produces output as shown in the following illustration.
+The following example uses an [**ID2D1HwndRenderTarget**](/windows/win32/d2d1/?branch=master) to draw and fill several rectangles. This example produces output as shown in the following illustration.
 
 ![illustration of two rectangles on a grid background](images/drawrectangleexample-small.png)
 
@@ -116,9 +122,9 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2DBaseTypes.h (include D2d1.h)</dt> </dl>                               |
 
 
@@ -127,15 +133,15 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 
 <dl> <dt>
 
-[**D2D\_RECT\_F**](d2d-rect-f.md)
+[**D2D\_RECT\_F**](/windows/win32/dcommon/ns-dcommon-d2d_rect_f?branch=master)
 </dt> <dt>
 
 [Creating a Simple Direct2D Application](direct2d-quickstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

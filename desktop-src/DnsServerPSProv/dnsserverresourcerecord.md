@@ -2,13 +2,15 @@
 title: DnsServerResourceRecord class
 description: DNS Server Resource Record.
 audience: developer
-ms.assetid: 'eb36f338-10fe-48b4-927f-7c005b960ef7'
-ms.prod: 'windows-server-dev'
+ms.assetid: eb36f338-10fe-48b4-927f-7c005b960ef7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecord class", "DnsServerResourceRecord class, described"]
+keywords:
+- DnsServerResourceRecord class
+- DnsServerResourceRecord class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecord class
@@ -39,14 +44,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerResourceRecord : DnsDomain
 {
-  string                      DistinguishedName;
-  string                      HostName;
-  string                      RecordType;
-  string                      RecordClass;
-  datetime                    TimeToLive;
+  string                      DistinguishedName;
+  string                      HostName;
+  string                      RecordType;
+  string                      RecordClass;
+  datetime                    TimeToLive;
   DnsServerResourceRecordData RecordData;
-  datetime                    Timestamp;
-  uint16                      Type;
+  datetime                    Timestamp;
+  uint16                      Type;
 };
 ```
 
@@ -509,7 +514,7 @@ The possible values are.
 
 </dt> <dd>
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -520,7 +525,7 @@ The possible values are.
 
 </dt> <dd>
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> </dl>
 
@@ -563,7 +568,7 @@ Access type: Read-only
 
 Type for Unknown record.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> </dl>
 
@@ -574,7 +579,7 @@ Type for Unknown record.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -591,9 +596,9 @@ Type for Unknown record.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

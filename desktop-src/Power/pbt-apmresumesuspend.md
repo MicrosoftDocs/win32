@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies applications that the system has resumed operation after being suspended.'
-ms.assetid: '9058a2ff-9b8e-48e5-accb-4810c8598294'
-title: 'PBT\_APMRESUMESUSPEND event'
+Description: Notifies applications that the system has resumed operation after being suspended.
+ms.assetid: 9058a2ff-9b8e-48e5-accb-4810c8598294
+title: PBT\_APMRESUMESUSPEND event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMRESUMESUSPEND event
@@ -39,7 +44,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -49,7 +54,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,8 +83,8 @@ If the system wakes due to an external wake signal (remote wake), the system bro
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -103,9 +108,9 @@ If the system wakes due to an external wake signal (remote wake), the system bro
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

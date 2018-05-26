@@ -4,11 +4,17 @@ description: The following code example is used by the Winsock service code exam
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eee9b8b0-8566-442a-9a46-b6469e5bb1fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eee9b8b0-8566-442a-9a46-b6469e5bb1fc
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Removing the RnR Connection Point AD", "Windows Sockets Registration and Resolution AD , Example Code, Removing the RnR Connection Point", "Removing the RnR Connection Point AD , Example Code"]
+keywords:
+- Example Code for Removing the RnR Connection Point AD
+- Windows Sockets Registration and Resolution AD , Example Code, Removing the RnR Connection Point
+- Removing the RnR Connection Point AD , Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Removing the RnR Connection Point

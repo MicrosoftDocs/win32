@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream.'
-ms.assetid: '93cf1299-a8ba-4a14-ad4c-09dd931e18fc'
+Description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream.
+ms.assetid: 93cf1299-a8ba-4a14-ad4c-09dd931e18fc
 title: AVEncCommonStreamEndHandling property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncCommonStreamEndHandling property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncCommonStreamEndHandling**](eavenccommonstreamendhandling.md) enumeration.
+The value of this property is a member of the [**eAVEncCommonStreamEndHandling**](/windows/win32/codecapi/?branch=master) enumeration.
 
 ## Requirements
 
@@ -28,8 +33,8 @@ The value of this property is a member of the [**eAVEncCommonStreamEndHandling**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The value of this property is a member of the [**eAVEncCommonStreamEndHandling**
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

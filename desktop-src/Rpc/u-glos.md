@@ -2,7 +2,12 @@
 title: U
 description: Words starting with U in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: 'b74acb87-030a-4263-9399-5fab6f239d02'
+ms.assetid: b74acb87-030a-4263-9399-5fab6f239d02
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # U
@@ -35,7 +40,7 @@ Pointer that can be null or point to existing data, whose value can change durin
 <span id="_rpc_uuid_glos"></span><span id="_RPC_UUID_GLOS"></span>**Universal Unique Identifier (UUID)**
 </dt> <dd>
 
-(or [**GUID**](guid.md)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](#-rpc-uuidgen-glos).
+(or [**GUID**](/windows/win32/Rpcdce/?branch=master)) 128-bit value used in cross-process communication to identify entities such as client and server interfaces, manager entry-point vectors, and RPC objects. See also [uuidgen](#-rpc-uuidgen-glos).
 
 </dd> <dt>
 

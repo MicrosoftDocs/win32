@@ -1,8 +1,9 @@
 ---
 title: Network.downloadProgress
 description: The downloadProgress property retrieves the percentage of download completed.
-ms.assetid: 'bb57ce84-babb-4dc2-bc2b-c40cbb587e91'
-keywords: ["Network.downloadProgress Windows Media Player"]
+ms.assetid: bb57ce84-babb-4dc2-bc2b-c40cbb587e91
+keywords:
+- Network.downloadProgress Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.downloadProgress
@@ -94,9 +100,9 @@ function UpdateDP(){
 [**Player.Buffering Event**](player-player-buffering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

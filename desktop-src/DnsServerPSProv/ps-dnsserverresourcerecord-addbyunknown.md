@@ -2,13 +2,16 @@
 title: AddByUnknown method of the PS\_DnsServerResourceRecord class
 description: Adds the record to a specified zone in a DNS server.
 audience: developer
-ms.assetid: '08d06d43-54cd-4192-8e09-1a90bed7124c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 08d06d43-54cd-4192-8e09-1a90bed7124c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByUnknown method", "AddByUnknown method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByUnknown method"]
+keywords:
+- AddByUnknown method
+- AddByUnknown method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByUnknown method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByUnknown method of the PS\_DnsServerResourceRecord class
@@ -28,18 +34,18 @@ Adds the record to a specified zone in a DNS server.
 
 ```mof
 uint32 AddByUnknown(
-  [in]  string                  ZoneName,
-  [in]  string                  ComputerName,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [in]  uint16                  Type,
-  [in]  string                  RecordData,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  datetime                TimeToLive,
-  [in]  string                  Name,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  ZoneName,
+  [in]  string                  ComputerName,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [in]  uint16                  Type,
+  [in]  string                  RecordData,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  datetime                TimeToLive,
+  [in]  string                  Name,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -140,7 +146,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -154,9 +160,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

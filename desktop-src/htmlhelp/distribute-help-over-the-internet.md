@@ -1,7 +1,12 @@
 ---
 title: Distribute Help over the Internet
 description: Help topics distributed over the Internet are usually accessed by users who visit a World Wide Web site.
-ms.assetid: 'FD97AA28-3451-41f0-BF7F-CA491E8E9A67'
+ms.assetid: FD97AA28-3451-41f0-BF7F-CA491E8E9A67
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distribute Help over the Internet

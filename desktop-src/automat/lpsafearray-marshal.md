@@ -1,8 +1,9 @@
 ---
 title: LPSAFEARRAY\_Marshal function
-description: Marshals a SAFEARRAY object to a user's RPC buffer on the server using information passed in by the LPSAFEARRAY\_UserMarshal function.
-ms.assetid: 'f68c86f3-afef-46ea-a15b-99e81e4383bd'
-keywords: ["LPSAFEARRAY_Marshal function Automation"]
+description: Marshals a SAFEARRAY object to a users RPC buffer on the server using information passed in by the LPSAFEARRAY\_UserMarshal function.
+ms.assetid: f68c86f3-afef-46ea-a15b-99e81e4383bd
+keywords:
+- LPSAFEARRAY_Marshal function Automation
 topic_type:
 - apiref
 api_name:
@@ -11,21 +12,26 @@ api_location:
 - OleAut32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPSAFEARRAY\_Marshal function
 
-Marshals a [**SAFEARRAY**](safearray.md) object to a user's RPC buffer on the server using information passed in by the [**LPSAFEARRAY\_UserMarshal**](lpsafearray-usermarshal.md) function.
+Marshals a [**SAFEARRAY**](/windows/previous-versions/OaIdl/ns-oaidl-tagsafearray?branch=master) object to a user's RPC buffer on the server using information passed in by the [**LPSAFEARRAY\_UserMarshal**](/windows/win32/wia_xp/nf-wia_xp-lpsafearray_usermarshal?branch=master) function.
 
 ## Syntax
 
 
 ```C++
 unsigned char* __stdcall LPSAFEARRAY_Marshal(
-  _In_          unsigned long *pFlags,
-  _Inout_       unsigned char *pBuffer,
-  _In_          LPSAFEARRAY   *ppSafeArray,
-  _In_    const IID           *piid
+  _In_          unsigned long *pFlags,
+  _Inout_       unsigned char *pBuffer,
+  _In_          LPSAFEARRAY   *ppSafeArray,
+  _In_    const IID           *piid
 );
 ```
 
@@ -59,7 +65,7 @@ The safe array that contains the data to marshal.
 *piid* \[in\]
 </dt> <dd>
 
-Points to an IID for an [**IDispatch**](idispatch.md) or [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. Used when the members of the safe array are **IDispatch** or **IUnknown**.
+Points to an IID for an [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) or [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. Used when the members of the safe array are **IDispatch** or **IUnknown**.
 
 </dd> </dl>
 
@@ -77,7 +83,7 @@ The value obtained from the returned **HRESULT** value is one of the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -90,9 +96,9 @@ The value obtained from the returned **HRESULT** value is one of the following.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

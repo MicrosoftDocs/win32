@@ -4,11 +4,15 @@ description: Provides test considerations that apply to both C++ and VB develope
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '445220f0-38d2-440b-a91f-c7f3bcc27e1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 445220f0-38d2-440b-a91f-c7f3bcc27e1f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in testing MMC , C++ and VB"]
+keywords:
+- snap-in testing MMC , C++ and VB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # C++ and Visual Basic Code

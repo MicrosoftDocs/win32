@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETERROR message
 description: The MCIWNDM\_GETERROR message retrieves the last MCI error encountered. You can send this message explicitly or by using the MCIWndGetError macro.
-ms.assetid: 'f110a9b3-5b05-4bf0-85d1-b49ce7396222'
-keywords: ["MCIWNDM_GETERROR message Windows Multimedia"]
+ms.assetid: f110a9b3-5b05-4bf0-85d1-b49ce7396222
+keywords:
+- MCIWNDM_GETERROR message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETERROR message
 
-The **MCIWNDM\_GETERROR** message retrieves the last MCI error encountered. You can send this message explicitly or by using the [**MCIWndGetError**](mciwndgeterror.md) macro.
+The **MCIWNDM\_GETERROR** message retrieves the last MCI error encountered. You can send this message explicitly or by using the [**MCIWndGetError**](/windows/win32/Vfw/nf-vfw-mciwndgeterror?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ If *lp* is a valid pointer, a null-terminated string corresponding to the error 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ If *lp* is a valid pointer, a null-terminated string corresponding to the error 
 
 <dl> <dt>
 
-[**MCIWndGetError**](mciwndgeterror.md)
+[**MCIWndGetError**](/windows/win32/Vfw/nf-vfw-mciwndgeterror?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

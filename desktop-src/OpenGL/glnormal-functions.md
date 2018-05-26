@@ -1,8 +1,21 @@
 ---
 title: glNormal Functions
 description: These functions set the current normal vector.
-ms.assetid: 'e90bfed4-ab72-43d2-b7b5-37a9fd6ecb4c'
-keywords: ["OpenGL,glNormal functions", "OpenGL reference,glNormal functions", "reference for OpenGL,glNormal functions", "OpenGL,normal vector functions", "OpenGL reference,normal vector functions", "reference for OpenGL,normal vector functions", "glNormal functions", "normal vector functions"]
+ms.assetid: e90bfed4-ab72-43d2-b7b5-37a9fd6ecb4c
+keywords:
+- OpenGL,glNormal functions
+- OpenGL reference,glNormal functions
+- reference for OpenGL,glNormal functions
+- OpenGL,normal vector functions
+- OpenGL reference,normal vector functions
+- reference for OpenGL,normal vector functions
+- glNormal functions
+- normal vector functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glNormal Functions

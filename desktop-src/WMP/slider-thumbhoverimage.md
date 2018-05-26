@@ -1,14 +1,20 @@
 ---
 title: SLIDER.thumbHoverImage
 description: The thumbHoverImage attribute specifies or retrieves the image of the thumb that appears when hovering over it with the mouse.
-ms.assetid: '128ed8c3-fb06-4f05-a639-12333f989e3f'
-keywords: ["SLIDER.thumbHoverImage Windows Media Player"]
+ms.assetid: 128ed8c3-fb06-4f05-a639-12333f989e3f
+keywords:
+- SLIDER.thumbHoverImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.thumbHoverImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.thumbHoverImage
@@ -46,9 +52,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

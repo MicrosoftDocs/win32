@@ -1,7 +1,12 @@
 ---
 title: Making Your Help System Accessible
 description: Making Your Help System Accessible
-ms.assetid: '534E63AF-A430-4d31-A8BF-FD4D317646C6'
+ms.assetid: 534E63AF-A430-4d31-A8BF-FD4D317646C6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making Your Help System Accessible

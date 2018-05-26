@@ -1,8 +1,21 @@
 ---
 title: Device Extensions for Accelerated Metadata Transfer
 description: Device Extensions for Accelerated Metadata Transfer
-ms.assetid: 'a79b54d4-dad5-411b-aaff-b58bb549d4d1'
-keywords: ["Windows Media Player,device extensions", "Windows Media Player,extensions", "Windows Media Player,accelerated metadata transfer", "Windows Media Player,metadata accelerated transfer", "accelerated metadata transfer", "metadata,accelerated transfer", "device extensions,accelerated metadata transfer", "extensions,accelerated metadata transfer"]
+ms.assetid: a79b54d4-dad5-411b-aaff-b58bb549d4d1
+keywords:
+- Windows Media Player,device extensions
+- Windows Media Player,extensions
+- Windows Media Player,accelerated metadata transfer
+- Windows Media Player,metadata accelerated transfer
+- accelerated metadata transfer
+- metadata,accelerated transfer
+- device extensions,accelerated metadata transfer
+- extensions,accelerated metadata transfer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Extensions for Accelerated Metadata Transfer

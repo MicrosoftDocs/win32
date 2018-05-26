@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintPipelineManagerControl interface is passed to each filter in the IPrintPipelineFilter::InitializeFilter method.'
-ms.assetid: '82efbe8d-0928-4550-9de1-a806a00791eb'
+---
+Description: The IPrintPipelineManagerControl interface is passed to each filter in the IPrintPipelineFilterInitializeFilter method.
+ms.assetid: 82efbe8d-0928-4550-9de1-a806a00791eb
 title: IPrintPipelineManagerControl interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineManagerControl interface

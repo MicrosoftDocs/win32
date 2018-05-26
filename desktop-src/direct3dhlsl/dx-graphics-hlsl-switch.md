@@ -1,8 +1,9 @@
 ---
 title: switch Statement
 description: Transfer control to a different statement block within the switch body depending on the value of a selector.
-ms.assetid: 'd1932ee1-d789-4536-b77d-162aacdbb115'
-keywords: ["switch Statement HLSL"]
+ms.assetid: d1932ee1-d789-4536-b77d-162aacdbb115
+keywords:
+- switch Statement HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - urlmon.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # switch Statement
@@ -21,11 +27,11 @@ Transfer control to a different statement block within the switch body depending
 
 |                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*Attribute*\] switch( *Selector* ) {   case 0 :     { *StatementBlock*; }   break;   case 1 :     { *StatementBlock*; }   break;   case n :     { *StatementBlock*; }   break;   default :     { *StatementBlock*; }   break; |
+| \[*Attribute*\] switch( *Selector* ) {   case 0 :     { *StatementBlock*; }   break;   case 1 :     { *StatementBlock*; }   break;   case n :     { *StatementBlock*; }   break;   default :     { *StatementBlock*; }   break; |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -86,7 +92,7 @@ Requires [feature level](https://msdn.microsoft.com/library/windows/desktop/ff47
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -187,9 +193,9 @@ Here are example usages of forcecase and call flow control attributes:
 [Flow Control](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

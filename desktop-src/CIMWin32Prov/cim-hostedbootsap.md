@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_HostedBootSAP class defines the hosting unitary computer system for a CIM\_BootSAP class.'
+Description: The CIM\_HostedBootSAP class defines the hosting unitary computer system for a CIM\_BootSAP class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2113de13-e7af-4a1c-ba80-27e2c57af8a0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2113de13-e7af-4a1c-ba80-27e2c57af8a0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_HostedBootSAP class'
+title: CIM\_HostedBootSAP class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedBootSAP class
@@ -19,7 +22,7 @@ The **CIM\_HostedBootSAP** class defines the hosting unitary computer system for
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{625B4512-DB36-11d2-85FC-0000F8102E5F}"), AMENDMENT]
 class CIM_HostedBootSAP : CIM_HostedAccessPoint
 {
-  CIM_BootSAP               REF Dependent;
+  CIM_BootSAP               REF Dependent;
   CIM_UnitaryComputerSystem REF Antecedent;
 };
 ```
@@ -92,8 +95,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -107,9 +110,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_HostedAccessPoint**](cim-hostedaccesspoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: The OnlineDevice method has been deprecated in lieu of the more gen
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc762f85-0c5a-4229-b66e-c6c608a6e41e'
-ms.prod: 'windows-server-dev'
+ms.assetid: cc762f85-0c5a-4229-b66e-c6c608a6e41e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["OnlineDevice method iSCSI Software Target API", "OnlineDevice method iSCSI Software Target API , CIM_LogicalDevice class", "CIM_LogicalDevice class iSCSI Software Target API , OnlineDevice method"]
+keywords:
+- OnlineDevice method iSCSI Software Target API
+- OnlineDevice method iSCSI Software Target API , CIM_LogicalDevice class
+- CIM_LogicalDevice class iSCSI Software Target API , OnlineDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineDevice method of the CIM\_LogicalDevice class
@@ -30,7 +36,7 @@ The OnlineDevice method has been deprecated in lieu of the more general RequestS
 
 ```mof
 uint32 OnlineDevice(
-  [in] boolean Online
+  [in] boolean Online
 );
 ```
 
@@ -54,7 +60,7 @@ If TRUE, take the device online, if FALSE, take the device OFFLINE.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -68,9 +74,9 @@ If TRUE, take the device online, if FALSE, take the device OFFLINE.
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

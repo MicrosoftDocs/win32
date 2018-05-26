@@ -1,7 +1,12 @@
 ---
-Description: 'Constants used in file management.'
-ms.assetid: '9c8d8ff9-4027-4198-950b-54d985c55e1e'
+Description: Constants used in file management.
+ms.assetid: 9c8d8ff9-4027-4198-950b-54d985c55e1e
 title: File Management Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management Constants
@@ -19,11 +24,11 @@ The following groups of constants are used in file management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The following code example shows how to retrieve an ADSI error mess
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c09fea2e-b6c1-4318-a7a6-b1c4c30ef4cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c09fea2e-b6c1-4318-a7a6-b1c4c30ef4cb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["error messages and example code for ADSI"]
+keywords:
+- error messages and example code for ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Code Example for Working with ADSI Error Messages

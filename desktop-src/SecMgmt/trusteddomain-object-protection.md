@@ -1,7 +1,12 @@
 ---
-Description: 'When a TrustedDomain object is created, it is assigned a standard protection.'
-ms.assetid: 'cc554630-7be7-4657-90f2-ce5fa81731b2'
+Description: When a TrustedDomain object is created, it is assigned a standard protection.
+ms.assetid: cc554630-7be7-4657-90f2-ce5fa81731b2
 title: TrustedDomain Object Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TrustedDomain Object Protection

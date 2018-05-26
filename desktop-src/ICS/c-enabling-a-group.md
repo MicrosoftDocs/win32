@@ -1,7 +1,12 @@
 ---
 title: Enabling a Group
 description: This example enables a group using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: '098c5e88-848a-455b-8107-86dd72880ff4'
+ms.assetid: 098c5e88-848a-455b-8107-86dd72880ff4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling a Group

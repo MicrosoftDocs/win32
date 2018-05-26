@@ -1,18 +1,23 @@
-﻿---
-Description: 'Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.'
-ms.assetid: '7de8cb64-122a-475f-990c-c19590a9d9d8'
+---
+Description: Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.
+ms.assetid: 7de8cb64-122a-475f-990c-c19590a9d9d8
 title: MEStreamThinMode event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEStreamThinMode event
 
 Raised by a media stream when it starts or stops thinning the stream. For information about *thinning*, see [About Rate Control](about-rate-control.md).
 
-This event can be sent in response to the [**IMFRateControl::SetRate**](imfratecontrol-setrate.md) method or the [**IMFQualityAdvise::SetDropMode**](imfqualityadvise-setdropmode.md) method.
+This event can be sent in response to the [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master) method or the [**IMFQualityAdvise::SetDropMode**](/windows/win32/mfidl/nf-mfidl-imfqualityadvise-setdropmode?branch=master) method.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

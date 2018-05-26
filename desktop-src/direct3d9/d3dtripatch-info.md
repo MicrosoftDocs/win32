@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a triangular high-order patch.'
-ms.assetid: '3f97120b-3b32-4f95-8614-7b263ff330db'
-title: 'D3DTRIPATCH\_INFO structure'
+---
+Description: Describes a triangular high-order patch.
+ms.assetid: 3f97120b-3b32-4f95-8614-7b263ff330db
+title: D3DTRIPATCH\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTRIPATCH\_INFO structure
@@ -87,7 +92,7 @@ N/A - Not available. Not supported.
 
 ## Remarks
 
-For example, the following diagram identifies the vertex order and segment numbers for a cubic Bézier triangle patch. The vertex order determines the segment numbers used by [**DrawTriPatch**](idirect3ddevice9--drawtripatch.md). The offset is the number of bytes to the first triangle patch vertex in the vertex buffer.
+For example, the following diagram identifies the vertex order and segment numbers for a cubic Bézier triangle patch. The vertex order determines the segment numbers used by [**DrawTriPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch?branch=master). The offset is the number of bytes to the first triangle patch vertex in the vertex buffer.
 
 ![diagram of a triangular high-order patch with nine vertices](images/hop-tripatch-info.png)
 
@@ -108,7 +113,7 @@ For example, the following diagram identifies the vertex order and segment numbe
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawTriPatch**](idirect3ddevice9--drawtripatch.md)
+[**DrawTriPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch?branch=master)
 </dt> <dt>
 
 [**D3DXTessellateTriPatch**](d3dxtessellatetripatch.md)

@@ -1,20 +1,25 @@
 ---
-Description: 'The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilter::FindPin method.'
-ms.assetid: 'ad593dbf-ca56-4409-ac6e-1b88908c8cee'
-title: 'CSource.FindPin method'
+Description: The FindPin method retrieves the pin with the specified identifier. This method implements the IBaseFilterFindPin method.
+ms.assetid: ad593dbf-ca56-4409-ac6e-1b88908c8cee
+title: CSource.FindPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource.FindPin method
 
-The `FindPin` method retrieves the pin with the specified identifier. This method implements the [**IBaseFilter::FindPin**](ibasefilter-findpin.md) method.
+The `FindPin` method retrieves the pin with the specified identifier. This method implements the [**IBaseFilter::FindPin**](/windows/win32/Strmif/nf-strmif-ibasefilter-findpin?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT FindPin(
-   LPCWSTR Id,
-   IPin    **ppPin
+   LPCWSTR Id,
+   IPin    **ppPin
 );
 ```
 
@@ -34,7 +39,7 @@ Pointer to a null-terminated string that identifies the pin.
 *ppPin* 
 </dt> <dd>
 
-Receives a pointer to the pin's [**IPin**](ipin.md) interface. If the method fails, \**ppPin* is set to **NULL**
+Receives a pointer to the pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface. If the method fails, \**ppPin* is set to **NULL**
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +81,9 @@ The first pin is always named "1"; the second pin is named "2"; and so forth. Fo
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

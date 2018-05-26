@@ -1,7 +1,12 @@
 ---
 title: Description Property
 description: Description Property
-ms.assetid: '81ac4bc7-ef0c-4e7c-b57e-acc4ad315515'
+ms.assetid: 81ac4bc7-ef0c-4e7c-b57e-acc4ad315515
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description Property

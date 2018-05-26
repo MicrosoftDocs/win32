@@ -1,8 +1,11 @@
 ---
 title: IWMPDVD resume method
 description: The resume method returns to playback mode from menu mode, resuming at the same position as when the menu was invoked.
-ms.assetid: '5ef3fbba-8872-42cc-aee1-4f18c11d6621'
-keywords: ["resume method Windows Media Player", "resume method Windows Media Player , IWMPDVD interface", "IWMPDVD interface Windows Media Player , resume method"]
+ms.assetid: 5ef3fbba-8872-42cc-aee1-4f18c11d6621
+keywords:
+- resume method Windows Media Player
+- resume method Windows Media Player , IWMPDVD interface
+- IWMPDVD interface Windows Media Player , resume method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD::resume method
@@ -72,9 +80,9 @@ This method does not return a value.
 [**IWMPDVD Interface (VB and C#)**](iwmpdvd--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

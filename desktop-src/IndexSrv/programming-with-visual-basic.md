@@ -1,7 +1,12 @@
 ---
 title: Programming with Visual Basic
 description: Programming with Visual Basic
-ms.assetid: '35e17239-ce60-4280-b5e4-620d6ca8a2aa'
+ms.assetid: 35e17239-ce60-4280-b5e4-620d6ca8a2aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming with Visual Basic

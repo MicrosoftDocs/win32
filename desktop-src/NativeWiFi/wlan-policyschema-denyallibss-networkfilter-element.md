@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies if access to all ad-hoc networks is blocked.'
-ms.assetid: '9001ccbb-c158-44d7-8d31-38c91881886e'
-title: 'denyAllIBSS (networkFilter) Element'
+---
+Description: Specifies if access to all ad-hoc networks is blocked.
+ms.assetid: 9001ccbb-c158-44d7-8d31-38c91881886e
+title: denyAllIBSS (networkFilter) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # denyAllIBSS (networkFilter) Element

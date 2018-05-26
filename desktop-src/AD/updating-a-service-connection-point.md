@@ -4,10 +4,13 @@ description: The following code example shows how to update a service connection
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '315fb2b5-d071-4420-95fb-ab680296b3cf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 315fb2b5-d071-4420-95fb-ab680296b3cf
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Updating a Service Connection Point

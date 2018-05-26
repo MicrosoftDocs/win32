@@ -1,8 +1,9 @@
 ---
 title: LVN\_BEGINLABELEDIT notification code
-description: Notifies a list-view control's parent window about the start of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'c13a9e95-22a9-476e-aeee-4928b8b096b0'
-keywords: ["LVN_BEGINLABELEDIT notification code Windows Controls"]
+description: Notifies a list-view controls parent window about the start of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: c13a9e95-22a9-476e-aeee-4928b8b096b0
+keywords:
+- LVN_BEGINLABELEDIT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_BEGINLABELEDIT notification code
@@ -35,7 +41,7 @@ LVN_BEGINLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVDISPINFO**](nmlvdispinfo.md) structure. The **item** member of this structure is an [**LVITEM**](lvitem.md) structure whose **iItem** member identifies the item being edited. Note that subitems cannot be edited; the **iSubItem** member is always set to zero.
+Pointer to an [**NMLVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-taglvdispinfo?branch=master) structure. The **item** member of this structure is an [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure whose **iItem** member identifies the item being edited. Note that subitems cannot be edited; the **iSubItem** member is always set to zero.
 
 </dd> </dl>
 
@@ -59,16 +65,16 @@ When the user cancels or completes the editing, the parent window receives an [L
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVN\_BEGINLABELEDITW** (Unicode) and **LVN\_BEGINLABELEDITA** (ANSI)<br/>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

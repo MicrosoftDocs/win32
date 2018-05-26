@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.clippingColor
 description: The clippingColor attribute specifies or retrieves the color to clip out from the clippingImage bitmap.
-ms.assetid: 'd6ea43d3-c118-43d3-bfdc-29ddd6ea4978'
-keywords: ["AmbientAttributes.clippingColor Windows Media Player"]
+ms.assetid: d6ea43d3-c118-43d3-bfdc-29ddd6ea4978
+keywords:
+- AmbientAttributes.clippingColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.clippingColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.clippingColor
@@ -32,7 +38,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,9 +69,9 @@ The **clippingColor** attribute is not supported by the **PLAYLIST** element.
 [**Color Reference**](color-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

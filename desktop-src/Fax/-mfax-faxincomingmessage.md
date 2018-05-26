@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxIncomingMessage messaging object is used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.'
-ms.assetid: 'ee546d4c-e580-4738-a5d2-0b10c5d8a1ab'
+---
+Description: The FaxIncomingMessage messaging object is used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.
+ms.assetid: ee546d4c-e580-4738-a5d2-0b10c5d8a1ab
 title: FaxIncomingMessage object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage object
@@ -235,7 +240,7 @@ This property is supported only in Windows Vista and later.
 
 To create a **FaxIncomingMessage** object in Microsoft Visual Basic, call the [**GetMessage**](-mfax-faxincomingarchive-getmessage-vb.md) method of the [**FaxIncomingArchive**](-mfax-faxincomingarchive.md) object or the [**Message**](-mfax-faxincomingmessageiterator-message-vb.md) property of the [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md) object.
 
-The **FaxIncomingMessage** object implements the [**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md) interface in Windows XP and earlier. It implements the [**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md) interface in Windows Vista and later.
+The **FaxIncomingMessage** object implements the [**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master) interface in Windows XP and earlier. It implements the [**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master) interface in Windows Vista and later.
 
 ## Requirements
 
@@ -264,7 +269,7 @@ The **FaxIncomingMessage** object implements the [**IFaxIncomingMessage**](-mfax
 [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

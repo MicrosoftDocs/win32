@@ -4,11 +4,12 @@ description: Sent to the CQPageProc callback function of a query form extension 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f01586dd-4ed3-45af-9e25-a596a693313d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f01586dd-4ed3-45af-9e25-a596a693313d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["CQPM_PERSIST message Active Directory"]
+keywords:
+- CQPM_PERSIST message Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CQPM\_PERSIST message
 
-The **CQPM\_PERSIST** message is sent to the [**CQPageProc**](cqpageproc.md) callback function of a query form extension page to allow the page to read or write query data from persistent memory.
+The **CQPM\_PERSIST** message is sent to the [**CQPageProc**](/windows/win32/Cmnquery/nc-cmnquery-lpcqpageproc?branch=master) callback function of a query form extension page to allow the page to read or write query data from persistent memory.
 
 ## Parameters
 
@@ -37,7 +41,7 @@ Contains nonzero to read the query data or zero to write the query data.
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**IPersistQuery**](ipersistquery.md) interface that the query data should be read from or written to.
+Pointer to an [**IPersistQuery**](/windows/win32/Cmnquery/?branch=master) interface that the query data should be read from or written to.
 
 </dd> </dl>
 
@@ -51,8 +55,8 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cmnquery.h</dt> </dl> |
 
 
@@ -61,15 +65,15 @@ Returns **S\_OK** if successful or a standard **HRESULT** error code otherwise.
 
 <dl> <dt>
 
-[**CQPageProc**](cqpageproc.md)
+[**CQPageProc**](/windows/win32/Cmnquery/nc-cmnquery-lpcqpageproc?branch=master)
 </dt> <dt>
 
-[**IPersistQuery**](ipersistquery.md)
+[**IPersistQuery**](/windows/win32/Cmnquery/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

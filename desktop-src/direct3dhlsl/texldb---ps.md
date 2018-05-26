@@ -1,7 +1,12 @@
 ---
 title: texldb - ps
 description: Biased texture load instruction. This instruction uses the fourth element (.a or .w) to bias the texture-sampling level-of-detail just before sampling.
-ms.assetid: 'cafd72c9-b7bb-4e3f-8a8c-de26a4446864'
+ms.assetid: cafd72c9-b7bb-4e3f-8a8c-de26a4446864
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texldb - ps

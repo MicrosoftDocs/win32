@@ -1,7 +1,12 @@
 ---
 title: Authorization Services
 description: An authorization service is the method that the SSP uses to authorize access to a remote procedure. SSPs can provide more than one authorization service. However, they usually select one as a default.
-ms.assetid: '5ea3cde9-96e9-4208-bb61-d0f98f23b90c'
+ms.assetid: 5ea3cde9-96e9-4208-bb61-d0f98f23b90c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authorization Services

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the debug monitor tokens.'
-ms.assetid: 'c0df4c9f-a232-45cf-b543-e95ee84a4a8d'
+---
+Description: Defines the debug monitor tokens.
+ms.assetid: c0df4c9f-a232-45cf-b543-e95ee84a4a8d
 title: D3DDEBUGMONITORTOKENS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEBUGMONITORTOKENS enumeration

@@ -1,8 +1,9 @@
 ---
 title: MrmCreateResourceIndexerFromPreviousSchemaFile function
 description: Creates a resource indexer from a schema file created with a previous call to MrmDumpPriFile. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: '2ECF355C-C6FD-4949-B455-52E3FF455005'
-keywords: ["MrmCreateResourceIndexerFromPreviousSchemaFile function Menus and Other Resources"]
+ms.assetid: 2ECF355C-C6FD-4949-B455-52E3FF455005
+keywords:
+- MrmCreateResourceIndexerFromPreviousSchemaFile function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateResourceIndexerFromPreviousSchemaFile function
@@ -24,11 +30,11 @@ Creates a resource indexer from a schema file created with a previous call to [*
 
 ```C++
 HRESULT HRESULT MrmCreateResourceIndexerFromPreviousSchemaFile(
-  _In_     PCWSTR                   projectRoot,
-  _In_     MrmPlatformVersion       platformVersion,
-  _In_opt_ PCWSTR                   defaultQualifiers,
-  _In_     PCWSTR                   schemaFile,
-  _Inout_  MrmResourceIndexerHandle *indexer
+  _In_     PCWSTR                   projectRoot,
+  _In_     MrmPlatformVersion       platformVersion,
+  _In_opt_ PCWSTR                   defaultQualifiers,
+  _In_     PCWSTR                   schemaFile,
+  _Inout_  MrmResourceIndexerHandle *indexer
 );
 ```
 
@@ -95,7 +101,7 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -110,9 +116,9 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

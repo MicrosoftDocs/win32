@@ -1,8 +1,11 @@
 ---
 title: CounterItem.LineStyle property
 description: Retrieves or sets the line style used to graph the counter value.
-ms.assetid: '5801f0f8-37e5-4b15-a13f-24c71fea550d'
-keywords: ["LineStyle property SysMon", "LineStyle property SysMon , CounterItem class", "CounterItem class SysMon , LineStyle property"]
+ms.assetid: 5801f0f8-37e5-4b15-a13f-24c71fea550d
+keywords:
+- LineStyle property SysMon
+- LineStyle property SysMon , CounterItem class
+- CounterItem class SysMon , LineStyle property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.LineStyle property
@@ -44,7 +52,7 @@ The line style used to graph the counter value. The values correspond to system 
 
 
 
- 
+ 
 
 ## Exceptions
 
@@ -56,7 +64,7 @@ The line style used to graph the counter value. The values correspond to system 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +76,8 @@ To specify a value other than DashStyle.Solid, [**CounterItem.Width**](counterit
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -81,9 +89,9 @@ To specify a value other than DashStyle.Solid, [**CounterItem.Width**](counterit
 [**CounterItem**](counteritem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

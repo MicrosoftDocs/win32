@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls Robustness
-ms.assetid: '6823da94-724b-4465-ba5f-a4361c845951'
+ms.assetid: 6823da94-724b-4465-ba5f-a4361c845951
 title: Parental Controls Robustness
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Robustness

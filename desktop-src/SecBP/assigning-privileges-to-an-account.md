@@ -1,7 +1,12 @@
 ---
-Description: 'You can assign privileges to accounts either by using the Local Security Policy Microsoft Management Console (MMC) snap-in (Secpol.msc) or by calling the LsaAddAccountRights function.'
-ms.assetid: 'F2DAB2E3-8B24-49A3-A2DD-E83B5181E9A2'
+Description: You can assign privileges to accounts either by using the Local Security Policy Microsoft Management Console (MMC) snap-in (Secpol.msc) or by calling the LsaAddAccountRights function.
+ms.assetid: F2DAB2E3-8B24-49A3-A2DD-E83B5181E9A2
 title: Assigning Privileges to an Account
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assigning Privileges to an Account

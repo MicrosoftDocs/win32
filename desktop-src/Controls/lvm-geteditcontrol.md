@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETEDITCONTROL message
-description: Gets the handle to the edit control being used to edit a list-view item's text. You can send this message explicitly or by using the ListView\_GetEditControl macro.
-ms.assetid: '70450b24-9879-4be8-9bc9-f87008b66415'
-keywords: ["LVM_GETEDITCONTROL message Windows Controls"]
+description: Gets the handle to the edit control being used to edit a list-view items text. You can send this message explicitly or by using the ListView\_GetEditControl macro.
+ms.assetid: 70450b24-9879-4be8-9bc9-f87008b66415
+keywords:
+- LVM_GETEDITCONTROL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETEDITCONTROL message
 
-Gets the handle to the edit control being used to edit a list-view item's text. You can send this message explicitly or by using the [**ListView\_GetEditControl**](listview-geteditcontrol.md) macro.
+Gets the handle to the edit control being used to edit a list-view item's text. You can send this message explicitly or by using the [**ListView\_GetEditControl**](/windows/win32/Commctrl/nf-commctrl-listview_geteditcontrol?branch=master) macro.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ To customize label editing, implement a handler for [LVN\_BEGINLABELEDIT](lvn-be
 
 When the user completes or cancels editing, the edit control is destroyed and the handle is no longer valid. You can subclass the edit control, but you should not destroy it. To cancel editing, send the list-view control a [**WM\_CANCELMODE**](https://msdn.microsoft.com/library/windows/desktop/ms632615) message.
 
-The list-view item being edited is the currently focused item—that is, the item in the focused state. To find an item based on its state, use the [**LVM\_GETNEXTITEM**](lvm-getnextitem.md) message.
+The list-view item being edited is the currently focused item that is, the item in the focused state. To find an item based on its state, use the [**LVM\_GETNEXTITEM**](lvm-getnextitem.md) message.
 
 ## Requirements
 
@@ -47,8 +53,8 @@ The list-view item being edited is the currently focused item—that is, the item 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ The list-view item being edited is the currently focused item—that is, the item 
 
 <dl> <dt>
 
-[**ListView\_GetEditControl**](listview-geteditcontrol.md)
+[**ListView\_GetEditControl**](/windows/win32/Commctrl/nf-commctrl-listview_geteditcontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

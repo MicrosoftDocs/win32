@@ -4,13 +4,16 @@ description: Defines a planned virtual system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '58d56bfc-21aa-4fad-9da6-28526557408f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 58d56bfc-21aa-4fad-9da6-28526557408f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DefinePlannedSystem method", "DefinePlannedSystem method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, DefinePlannedSystem method"]
+keywords:
+- DefinePlannedSystem method
+- DefinePlannedSystem method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, DefinePlannedSystem method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DefinePlannedSystem method of the Msvm\_VirtualSystemManagementService class
@@ -30,11 +36,11 @@ Defines a planned virtual system.
 
 ```mof
 uint32 DefinePlannedSystem(
-  [in]  string                           SystemSettings,
-  [in]  string                           ResourceSettings[],
-  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
-  [out] CIM_ComputerSystem           REF ResultingSystem,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  string                           SystemSettings,
+  [in]  string                           ResourceSettings[],
+  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
+  [out] CIM_ComputerSystem           REF ResultingSystem,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -102,16 +108,16 @@ The possible values are:
 **Invalid Parameter** (4)
 </dt> <dt>
 
-**DMTF Reserved** (5–4095)
+**DMTF Reserved** (5 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Remarks
@@ -125,7 +131,7 @@ Default values for this class can be applied to properties that aren't specified
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -139,9 +145,9 @@ Default values for this class can be applied to properties that aren't specified
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

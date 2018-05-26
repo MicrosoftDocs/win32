@@ -1,7 +1,12 @@
 ---
-Description: 'With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.'
-ms.assetid: 'b6c88fa1-53d4-40dc-803d-5d1cdfe4777b'
-title: 'Apply a Technique (Direct3D 10)'
+Description: With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.
+ms.assetid: b6c88fa1-53d4-40dc-803d-5d1cdfe4777b
+title: Apply a Technique (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Apply a Technique (Direct3D 10)

@@ -4,11 +4,16 @@ description: Specifies or retrieves a value that indicates the audio quality mod
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9945c524-ca50-41ae-a7cf-1386cd758c0f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9945c524-ca50-41ae-a7cf-1386cd758c0f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AudioQualityMode property Remote Desktop Services", "AudioQualityMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AudioQualityMode property", "AudioQualityMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AudioQualityMode property"]
+keywords:
+- AudioQualityMode property Remote Desktop Services
+- AudioQualityMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AudioQualityMode property
+- AudioQualityMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AudioQualityMode property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings7::AudioQualityMode property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AudioQualityMode(
-  [in]          UINT audioQualityMode
+  [in]          UINT audioQualityMode
 );
 
 HRESULT get_AudioQualityMode(
-  [out, retval] UINT *pAudioQualityMode
+  [out, retval] UINT *pAudioQualityMode
 );
 ```
 
@@ -80,8 +88,8 @@ High audio quality. The server provides audio output in uncompressed PCM format 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings7 is defined as 26036036-4010-4578-8091-0db9a1edf9c3<br/> |
@@ -98,9 +106,9 @@ High audio quality. The server provides audio output in uncompressed PCM format 
 [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettings7.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

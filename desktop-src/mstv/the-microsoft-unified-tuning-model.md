@@ -1,7 +1,12 @@
 ---
 title: The Microsoft Unified Tuning Model
 description: The Microsoft Unified Tuning Model
-ms.assetid: 'a0f36580-522f-48d6-989d-11e8d175ffdb'
+ms.assetid: a0f36580-522f-48d6-989d-11e8d175ffdb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Microsoft Unified Tuning Model

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the size of the tessellated mesh, given a tessellation level.'
-ms.assetid: '86d1d1a0-1934-40e9-bff9-6c435d1e5183'
-title: 'ID3DXPatchMesh::GetTessSize method'
+---
+Description: Gets the size of the tessellated mesh, given a tessellation level.
+ms.assetid: 86d1d1a0-1934-40e9-bff9-6c435d1e5183
+title: ID3DXPatchMeshGetTessSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetTessSize method

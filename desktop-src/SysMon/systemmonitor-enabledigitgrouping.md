@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.EnableDigitGrouping property
 description: Retrieves or sets a value that determines if SYSMON uses digit grouping when displaying numeric values.
-ms.assetid: '6a277960-fd01-423c-af2a-b35ed46c6d9a'
-keywords: ["EnableDigitGrouping property SysMon", "EnableDigitGrouping property SysMon , SystemMonitor object", "SystemMonitor object SysMon , EnableDigitGrouping property"]
+ms.assetid: 6a277960-fd01-423c-af2a-b35ed46c6d9a
+keywords:
+- EnableDigitGrouping property SysMon
+- EnableDigitGrouping property SysMon , SystemMonitor object
+- SystemMonitor object SysMon , EnableDigitGrouping property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.EnableDigitGrouping property
@@ -40,15 +48,15 @@ The digit grouping symbol is localized.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

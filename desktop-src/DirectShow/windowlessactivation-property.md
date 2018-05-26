@@ -1,7 +1,12 @@
 ---
-Description: 'The WindowlessActivation property initializes the MSWebDVD object at design time for either windowed or windowless mode.'
-ms.assetid: '290a9459-154a-4ec7-a013-d696e6b27341'
+Description: The WindowlessActivation property initializes the MSWebDVD object at design time for either windowed or windowless mode.
+ms.assetid: 290a9459-154a-4ec7-a013-d696e6b27341
 title: WindowlessActivation Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WindowlessActivation Property

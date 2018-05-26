@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an asynchronous-resource loader.'
-ms.assetid: '1b3eb21c-4ba6-4910-b2f0-2ffa4ae50e47'
+---
+Description: Create an asynchronous-resource loader.
+ms.assetid: 1b3eb21c-4ba6-4910-b2f0-2ffa4ae50e47
 title: D3DX10CreateAsyncResourceLoader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncResourceLoader function

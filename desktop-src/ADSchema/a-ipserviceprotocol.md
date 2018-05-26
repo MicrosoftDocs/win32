@@ -4,17 +4,21 @@ description: Contains the section of the services map that stores the protocol n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '44ab7637-c9c0-4d7c-898c-a9de45f75ccb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 44ab7637-c9c0-4d7c-898c-a9de45f75ccb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ipServiceProtocol attribute AD Schema"]
+keywords:
+- ipServiceProtocol attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ipServiceProtocol
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ipServiceProtocol attribute
@@ -38,10 +42,10 @@ Contains the section of the services map that stores the protocol number for a U
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -134,9 +138,9 @@ Contains the section of the services map that stores the protocol number for a U
 [RFC 2307](http://go.microsoft.com/fwlink/p/?linkid=84039)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

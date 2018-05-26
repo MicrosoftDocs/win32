@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the author or authors of the document.'
-ms.assetid: '07a411c2-9e88-4d14-b9f7-e3a5d8d1630e'
-title: 'System.Author'
+Description: Represents the author or authors of the document.
+ms.assetid: 07a411c2-9e88-4d14-b9f7-e3a5d8d1630e
+title: System.Author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Author

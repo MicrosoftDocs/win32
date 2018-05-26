@@ -1,8 +1,11 @@
 ---
 title: ReferenceCollection GetItem method
 description: Returns an IssueReference from the ReferenceCollection.
-ms.assetid: 'B4F3244D-239E-46C6-AB58-639F4C94FDE7'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , ReferenceCollection interface", "ReferenceCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: B4F3244D-239E-46C6-AB58-639F4C94FDE7
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , ReferenceCollection interface
+- ReferenceCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReferenceCollection::GetItem method
@@ -22,8 +30,8 @@ Returns an [**IssueReference**](issuereference-struct.md) from the **ReferenceCo
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT            index,
-  [out] IssueReference **issueReference
+  [in]  INT            index,
+  [out] IssueReference **issueReference
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ An **IssueReference** holds data from a **References/IssueReference** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ An **IssueReference** holds data from a **References/IssueReference** element.
 [**ReferenceCollection**](referencecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

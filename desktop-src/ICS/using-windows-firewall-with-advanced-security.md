@@ -1,7 +1,12 @@
 ---
 title: Using Windows Firewall with Advanced Security
 description: Using Windows Firewall with Advanced Security
-ms.assetid: 'b465ae87-6b75-40a7-afb2-e3dc3127ffca'
+ms.assetid: b465ae87-6b75-40a7-afb2-e3dc3127ffca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Firewall with Advanced Security

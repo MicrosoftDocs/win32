@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.'
-ms.assetid: 'a32b5ec9-b4f2-4f33-879d-252806bd34ed'
+---
+Description: This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.
+ms.assetid: a32b5ec9-b4f2-4f33-879d-252806bd34ed
 title: IPrintOemPrintTicketProvider interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider interface

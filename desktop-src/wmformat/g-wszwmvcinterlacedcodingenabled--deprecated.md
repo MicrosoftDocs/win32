@@ -1,8 +1,9 @@
 ---
 title: g\_wszWMVCInterlacedCodingEnabled
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: '6ce382d0-b856-44e3-a8fb-96765d2797ca'
-keywords: ["g_wszWMVCInterlacedCodingEnabled windows Media Format"]
+ms.assetid: 6ce382d0-b856-44e3-a8fb-96765d2797ca
+keywords:
+- g_wszWMVCInterlacedCodingEnabled windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # g\_wszWMVCInterlacedCodingEnabled
@@ -27,9 +33,9 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

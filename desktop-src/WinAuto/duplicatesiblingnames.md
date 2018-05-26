@@ -1,7 +1,12 @@
 ---
 title: DuplicateSiblingNames
 description: DuplicateSiblingNames
-ms.assetid: '4E9FFD16-EAC0-4778-8DEB-D179E2197411'
+ms.assetid: 4E9FFD16-EAC0-4778-8DEB-D179E2197411
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DuplicateSiblingNames
@@ -29,7 +34,7 @@ This issue can cause confusion because screen readers will read the same text fo
 
 <dl> <dt>
 
-[**IAccessible::get\_accName**](iaccessible-iaccessible--get-accname.md)
+[**IAccessible::get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)
 </dt> <dt>
 
 [Name Property](name-property.md)
@@ -38,7 +43,7 @@ This issue can cause confusion because screen readers will read the same text fo
 [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
 </dt> <dt>
 
-[**IUIAutomationElement.CurrentName**](uiauto-iuiautomationelement-currentname.md)
+[**IUIAutomationElement.CurrentName**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname?branch=master)
 </dt> </dl>
 
  

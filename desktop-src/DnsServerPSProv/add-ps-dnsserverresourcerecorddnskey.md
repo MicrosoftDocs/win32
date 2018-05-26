@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerResourceRecordDnsKey class
 description: Adds a DNSKEY record.
 audience: developer
-ms.assetid: 'dfec3ba3-1f58-475d-92c4-217a9c0f9cad'
-ms.prod: 'windows-server-dev'
+ms.assetid: dfec3ba3-1f58-475d-92c4-217a9c0f9cad
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerResourceRecordDnsKey class", "PS_DnsServerResourceRecordDnsKey class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerResourceRecordDnsKey class
+- PS_DnsServerResourceRecordDnsKey class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerResourceRecordDnsKey class
@@ -28,19 +34,19 @@ Adds a DNSKEY record.
 
 ```mof
 uint32 Add(
-  [in]  string                  Name,
-  [in]  string                  CryptoAlgorithm,
-  [in]  string                  ZoneName,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AgeRecord,
-  [in]  string                  Base64Data,
-  [in]  string                  KeyProtocol,
-  [in]  string                  ComputerName,
-  [in]  boolean                 SecureEntryPoint,
-  [in]  boolean                 ZoneKey,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  Name,
+  [in]  string                  CryptoAlgorithm,
+  [in]  string                  ZoneName,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AgeRecord,
+  [in]  string                  Base64Data,
+  [in]  string                  KeyProtocol,
+  [in]  string                  ComputerName,
+  [in]  boolean                 SecureEntryPoint,
+  [in]  boolean                 ZoneKey,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -132,7 +138,7 @@ Specifies whether this key will be used to sign the zone( either KSK or ZSK).
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -150,7 +156,7 @@ Receives and embedded instance of the [**DnsServerResourceRecordDnsKey**](dnsser
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -164,9 +170,9 @@ Receives and embedded instance of the [**DnsServerResourceRecordDnsKey**](dnsser
 [**PS\_DnsServerResourceRecordDnsKey**](ps-dnsserverresourcerecorddnskey.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

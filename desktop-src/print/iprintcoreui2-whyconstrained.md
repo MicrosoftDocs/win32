@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::WhyConstrained method determines why the specified feature/option selection is constrained.'
-ms.assetid: '3161620e-6155-4587-b978-599d526d792c'
-title: 'IPrintCoreUI2::WhyConstrained method'
+---
+Description: The IPrintCoreUI2WhyConstrained method determines why the specified feature/option selection is constrained.
+ms.assetid: 3161620e-6155-4587-b978-599d526d792c
+title: IPrintCoreUI2WhyConstrained method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::WhyConstrained method

@@ -1,7 +1,12 @@
 ---
-Description: 'Glitches can occur in XAudio2, this topic covers how they are reported and some approaches to fixing them.'
-ms.assetid: '360d1c5a-82e7-c982-82ea-5b5c7d69bc25'
+Description: Glitches can occur in XAudio2, this topic covers how they are reported and some approaches to fixing them.
+ms.assetid: 360d1c5a-82e7-c982-82ea-5b5c7d69bc25
 title: Debugging Audio Glitches in XAudio2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Audio Glitches in XAudio2
@@ -54,7 +59,7 @@ XAudio2 can communicate glitches in the debug build in several ways.
 
 Possible ways to reduce audio glitches include the following.
 
--   In the voice starvation case: Increase the amount of audio data that is queued ahead on a voice. You can use [**IXAudio2SourceVoice::GetState**](ixaudio2sourcevoice-interface-getstate.md) to discover the number of buffers queued at any moment. If you still see voice starvation errors, but can't hear any glitch, make sure you are setting [**XAUDIO2\_BUFFER**](xaudio2-buffer.md).**Flags** to XAUDIO2\_END\_OF\_STREAM on the final buffer of a sound. This tells XAudio2 not to expect any more buffers necessarily to be available as soon as this one completes.
+-   In the voice starvation case: Increase the amount of audio data that is queued ahead on a voice. You can use [**IXAudio2SourceVoice::GetState**](ixaudio2sourcevoice-interface-getstate.md) to discover the number of buffers queued at any moment. If you still see voice starvation errors, but can't hear any glitch, make sure you are setting [**XAUDIO2\_BUFFER**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_buffer?branch=master).**Flags** to XAUDIO2\_END\_OF\_STREAM on the final buffer of a sound. This tells XAudio2 not to expect any more buffers necessarily to be available as soon as this one completes.
 
     In the other cases:
 

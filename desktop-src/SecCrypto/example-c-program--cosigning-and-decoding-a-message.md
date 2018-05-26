@@ -1,14 +1,19 @@
 ---
-Description: 'You can use the CryptSignMessage function to cosign a message.'
-ms.assetid: 'b400436f-a71f-426a-ac8a-7fdcfa6d7575'
-title: 'Example C Program: Cosigning and Decoding a Message'
+Description: You can use the CryptSignMessage function to cosign a message.
+ms.assetid: b400436f-a71f-426a-ac8a-7fdcfa6d7575
+title: Example C Program Cosigning and Decoding a Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Cosigning and Decoding a Message
 
-You can use the [**CryptSignMessage**](cryptsignmessage.md) function to cosign a message. This is accomplished by calling [**CryptSignMessage**](cryptsignmessage.md) once to sign the original message, and then call **CryptSignMessage** again to cosign the signed message.
+You can use the [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master) function to cosign a message. This is accomplished by calling [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master) once to sign the original message, and then call **CryptSignMessage** again to cosign the signed message.
 
-When you verify the signature of a cosigned message, you use the [**CryptGetMessageSignerCount**](cryptgetmessagesignercount.md) function to get the number of signers of the message and then call the [**CryptVerifyMessageSignature**](cryptverifymessagesignature.md) for each signature. If all of the signatures are verified, then you know the cosigned message is valid.
+When you verify the signature of a cosigned message, you use the [**CryptGetMessageSignerCount**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetmessagesignercount?branch=master) function to get the number of signers of the message and then call the [**CryptVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptverifymessagesignature?branch=master) for each signature. If all of the signatures are verified, then you know the cosigned message is valid.
 
 The following example shows how to sign a message by more than one person (cosign the message), verify all signatures, and decode the message.
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_GET\_LICENSE\_DATA structure
 description: The WM\_GET\_LICENSE\_DATA structure contains information about where to acquire a DRM license.
-ms.assetid: '7e8053d5-f3f5-4519-97f5-6dbd89982f3a'
-keywords: ["WM_GET_LICENSE_DATA structure windows Media Format"]
+ms.assetid: 7e8053d5-f3f5-4519-97f5-6dbd89982f3a
+keywords:
+- WM_GET_LICENSE_DATA structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GET\_LICENSE\_DATA structure
@@ -22,12 +28,12 @@ The **WM\_GET\_LICENSE\_DATA** structure contains information about where to acq
 
 ```C++
 typedef struct _WMGetLicenseData {
-  DWORD   dwSize;
+  DWORD   dwSize;
   HRESULT hr;
-  WCHAR   *wszURL;
-  WCHAR   *wszLocalFilename;
-  BYTE    *pbPostData;
-  DWORD   dwPostDataSize;
+  WCHAR   *wszURL;
+  WCHAR   *wszLocalFilename;
+  BYTE    *pbPostData;
+  DWORD   dwPostDataSize;
 } WM_GET_LICENSE_DATA;
 ```
 
@@ -81,7 +87,7 @@ Pointer to a byte array containing the data to be posted to the license acquisit
 
 ## Remarks
 
-This filled-in structure is returned in the *pValue* parameter of the [**IWMStatusCallback::OnStatus**](iwmstatuscallback-onstatus.md) method if **WMT\_STATUS** equals **WMT\_NO\_RIGHTS\_EX** or **WMT\_ACQUIRE\_LICENSE**. For WMT\_NO\_RIGHTS\_EX events, the **hr** member will be NS\_E\_LICENSE\_REQUIRED, NS\_E\_LICENSE\_OUTOFDATE, or NS\_E\_LICENSE\_INCORRECT\_RIGHTS. Any of these errors indicates that a new license must be acquired by navigating to the URL in the **wszURL** member.
+This filled-in structure is returned in the *pValue* parameter of the [**IWMStatusCallback::OnStatus**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus?branch=master) method if **WMT\_STATUS** equals **WMT\_NO\_RIGHTS\_EX** or **WMT\_ACQUIRE\_LICENSE**. For WMT\_NO\_RIGHTS\_EX events, the **hr** member will be NS\_E\_LICENSE\_REQUIRED, NS\_E\_LICENSE\_OUTOFDATE, or NS\_E\_LICENSE\_INCORRECT\_RIGHTS. Any of these errors indicates that a new license must be acquired by navigating to the URL in the **wszURL** member.
 
 For WMT\_ACQUIRE\_LICENSE events, the **hr** member will pass the SUCCEEDED macro if a license was successfully acquired. If this event is received after an attempt at silent acquisition, and **hr** equals NS\_E\_DRM\_LICENSE\_NOTACQUIRED, it indicates that only non-silent acquisition is supported by the license server for this license.
 
@@ -93,8 +99,8 @@ The Audioplayer sample application demonstrates how to correctly use the informa
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
 | Version<br/>                  | Windows Media Format 7 SDK, or later versions of the SDK<br/>                       |
 | Header<br/>                   | <dl> <dt>Drmexternals.h</dt> </dl> |
 
@@ -104,15 +110,15 @@ The Audioplayer sample application demonstrates how to correctly use the informa
 
 <dl> <dt>
 
-[**IWMDRMReader::AcquireLicense**](iwmdrmreader-acquirelicense.md)
+[**IWMDRMReader::AcquireLicense**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense?branch=master)
 </dt> <dt>
 
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

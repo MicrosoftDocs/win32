@@ -1,7 +1,12 @@
 ---
-Description: 'Device LocationPaths.'
-ms.assetid: '454ee045-3abb-4ca0-bf01-b5d21ec85725'
-title: 'System.Devices.LocationPaths'
+Description: Device LocationPaths.
+ms.assetid: 454ee045-3abb-4ca0-bf01-b5d21ec85725
+title: System.Devices.LocationPaths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.LocationPaths

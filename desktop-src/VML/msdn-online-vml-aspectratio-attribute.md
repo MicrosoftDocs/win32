@@ -1,7 +1,12 @@
 ---
 title: VML AspectRatio Attribute
 description: VML AspectRatio Attribute
-ms.assetid: 'bc209218-9259-454e-bad2-58f67e211709'
+ms.assetid: bc209218-9259-454e-bad2-58f67e211709
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML AspectRatio Attribute

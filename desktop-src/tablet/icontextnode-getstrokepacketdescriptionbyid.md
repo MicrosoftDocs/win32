@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an array containing the packet property identifiers for the specified stroke.'
-ms.assetid: '169e3ce3-fb81-4ed6-b380-ef0d12444ba7'
-title: 'IContextNode::GetStrokePacketDescriptionById method'
+Description: Retrieves an array containing the packet property identifiers for the specified stroke.
+ms.assetid: 169e3ce3-fb81-4ed6-b380-ef0d12444ba7
+title: IContextNodeGetStrokePacketDescriptionById method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetStrokePacketDescriptionById method
@@ -13,9 +18,9 @@ Retrieves an array containing the packet property identifiers for the specified 
 
 ```C++
 HRESULT GetStrokePacketDescriptionById(
-  [in]      LONG  lStrokeId,
-  [in, out] ULONG *pulStrokePacketDescriptionCount,
-  [out]     GUID  **ppStrokePacketDescriptionGuids
+  [in]      LONG  lStrokeId,
+  [in, out] ULONG *pulStrokePacketDescriptionCount,
+  [out]     GUID  **ppStrokePacketDescriptionGuids
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppStrokePacketDescriptionGuids* when you no longer need the information.
 
- 
+ 
 
 \**ppStrokePacketDescriptionGuids* contains the globally unique identifiers (GUIDs) that describe the types of packet data included for each point in the stroke. For a complete list of available packet properties, see [PacketPropertyGuids Constants](packetpropertyguids-constants.md).
 
@@ -65,7 +70,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -85,9 +90,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

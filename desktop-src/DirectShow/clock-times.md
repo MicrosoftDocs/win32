@@ -1,7 +1,12 @@
 ---
 Description: Clock Times
-ms.assetid: 'ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f'
+ms.assetid: ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f
 title: Clock Times
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clock Times
@@ -17,7 +22,7 @@ DirectShow defines two related clock times: reference time and stream time.
 
 When a media sample has a time stamp *t*, it means the sample should be rendered at stream time *t*. For this reason, stream time is also called *presentation time*.
 
-When an application calls [**IMediaControl::Run**](imediacontrol-run.md) to run the filter graph, the Filter Graph Manager calls [**IMediaFilter::Run**](imediafilter-run.md) on each filter. To compensate for the slight amount of time it takes for the filters to start running, the Filter Graph Manager specifies a start time slightly in the future.
+When an application calls [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) to run the filter graph, the Filter Graph Manager calls [**IMediaFilter::Run**](/windows/win32/Strmif/nf-strmif-imediafilter-run?branch=master) on each filter. To compensate for the slight amount of time it takes for the filters to start running, the Filter Graph Manager specifies a start time slightly in the future.
 
 ## Related topics
 

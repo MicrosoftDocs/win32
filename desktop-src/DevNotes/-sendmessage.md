@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sends the specified message to a window or windows.'
-ms.assetid: 'aed898b3-bb48-4da2-aee7-834ae65a2d51'
+---
+Description: Sends the specified message to a window or windows.
+ms.assetid: aed898b3-bb48-4da2-aee7-834ae65a2d51
 title: '\_SendMessage function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_SendMessage function

@@ -1,7 +1,12 @@
 ---
-Description: 'The manufacturer name of the camera that took the photo, in a string format.'
-ms.assetid: 'cf68067a-742b-4acd-b8b1-c6758c35845f'
-title: 'System.Photo.CameraManufacturer'
+Description: The manufacturer name of the camera that took the photo, in a string format.
+ms.assetid: cf68067a-742b-4acd-b8b1-c6758c35845f
+title: System.Photo.CameraManufacturer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.CameraManufacturer

@@ -1,14 +1,17 @@
 ---
 title: SetServers method of the Win32\_TSGatewayLoadBalancer class
-description: Sets the Servers property with the list of Remote Desktop Gateway (RD Gateway) load-balancing servers.
+description: Sets the Servers property with the list of Remote Desktop Gateway (RD Gateway) load-balancing servers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c82de8e2-301b-465d-b375-038b8a480cde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c82de8e2-301b-465d-b375-038b8a480cde
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetServers method Remote Desktop Services", "SetServers method Remote Desktop Services , Win32_TSGatewayLoadBalancer class", "Win32_TSGatewayLoadBalancer class Remote Desktop Services , SetServers method"]
+keywords:
+- SetServers method Remote Desktop Services
+- SetServers method Remote Desktop Services , Win32_TSGatewayLoadBalancer class
+- Win32_TSGatewayLoadBalancer class Remote Desktop Services , SetServers method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetServers method of the Win32\_TSGatewayLoadBalancer class
 
-Sets the **Servers** property with the list of Remote Desktop Gateway (RD Gateway) load-balancing servers.
+Sets the **Servers** property with the list of Remote Desktop Gateway (RD Gateway) load-balancing servers.
 
 ## Syntax
 
 
 ```mof
 uint32 SetServers(
-  [in] string Servers
+  [in] string Servers
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 SetServers(
 *Servers* \[in\]
 </dt> <dd>
 
-Semicolon-separated list of RD Gateway load-balancing servers.
+Semicolon-separated list of RD Gateway load-balancing servers.
 
 </dd> </dl>
 
@@ -64,7 +70,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayLoadBalancer**](win32-tsgatewayloadbalancer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

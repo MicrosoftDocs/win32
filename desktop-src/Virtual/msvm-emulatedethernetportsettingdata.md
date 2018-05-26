@@ -1,8 +1,10 @@
 ---
 title: Msvm\_EmulatedEthernetPortSettingData class
 description: Represents the configured state of an emulated Ethernet adapter.
-ms.assetid: 'fbd01440-94e7-45e7-abd8-7a1914d55b38'
-keywords: ["Msvm_EmulatedEthernetPortSettingData class Hyper-V", "Msvm_EmulatedEthernetPortSettingData class Hyper-V , described"]
+ms.assetid: fbd01440-94e7-45e7-abd8-7a1914d55b38
+keywords:
+- Msvm_EmulatedEthernetPortSettingData class Hyper-V
+- Msvm_EmulatedEthernetPortSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EmulatedEthernetPortSettingData class
@@ -47,27 +54,27 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EmulatedEthernetPortSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "Ethernet Port";
-  string  Description = "Settings for the Microsoft Emulated Ethernet Port";
-  string  InstanceID = "Microsoft:VMID\VDID\device-specific-data";
-  string  ElementName = "Ethernet Port";
-  uint16  ResourceType = 10;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft Emulated Ethernet Port";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "Ports";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  Caption = "Ethernet Port";
+  string  Description = "Settings for the Microsoft Emulated Ethernet Port";
+  string  InstanceID = "Microsoft:VMID\VDID\device-specific-data";
+  string  ElementName = "Ethernet Port";
+  uint16  ResourceType = 10;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft Emulated Ethernet Port";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "Ports";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
   boolean StaticMacAddress = TRUE;
 };
 ```
@@ -453,9 +460,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -474,9 +481,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

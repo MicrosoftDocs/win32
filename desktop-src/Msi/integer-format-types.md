@@ -1,7 +1,12 @@
 ---
-Description: 'The Integer Format Types of configurable data may be used in either text or integer database fields. The msmConfigItemNonNullable attribute is implicit in this data format and does not need to be set. Null is never a valid value for this type.'
-ms.assetid: '63fb9c0d-e7f1-4c1d-bb83-2833c5fff18d'
+Description: The Integer Format Types of configurable data may be used in either text or integer database fields. The msmConfigItemNonNullable attribute is implicit in this data format and does not need to be set. Null is never a valid value for this type.
+ms.assetid: 63fb9c0d-e7f1-4c1d-bb83-2833c5fff18d
 title: Integer Format Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Integer Format Types

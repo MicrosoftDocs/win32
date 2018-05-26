@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.setCheckedState
 description: The setCheckedState method specifies that the indexed item in the playlist is checked.
-ms.assetid: 'ce5de21b-6354-485e-b6f7-f4d090c149f7'
-keywords: ["PLAYLIST.setCheckedState Windows Media Player"]
+ms.assetid: ce5de21b-6354-485e-b6f7-f4d090c149f7
+keywords:
+- PLAYLIST.setCheckedState Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.setCheckedState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.setCheckedState
@@ -36,7 +42,7 @@ This method returns a **Boolean**.
 
 ## Remarks
 
-You can set all items to the checked state by specifying –1 in the *item* parameter.
+You can set all items to the checked state by specifying  1 in the *item* parameter.
 
 This method has been replaced by **setCheckedState2**, which supports nested playlists.
 
@@ -60,9 +66,9 @@ This method has been replaced by **setCheckedState2**, which supports nested pla
 [**PLAYLIST.setCheckedState2**](playlist-setcheckedstate2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

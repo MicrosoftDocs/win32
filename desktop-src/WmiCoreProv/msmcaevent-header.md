@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.'
-ms.assetid: 'ff20522c-f805-47dc-bef2-4176211de698'
-title: 'MSMCAEvent\_Header class'
+Description: Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.
+ms.assetid: ff20522c-f805-47dc-bef2-4176211de698
+title: MSMCAEvent\_Header class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_Header class
@@ -17,7 +22,7 @@ class MSMCAEvent_Header
 {
   uint32 AdditionalErrors;
   uint32 Cpu;
-  uint8  ErrorSeverity;
+  uint8  ErrorSeverity;
   uint64 RecordId;
   uint32 Type;
   uint32 LogToEventlog;
@@ -83,7 +88,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -134,8 +139,8 @@ Type of event log message. These messages correspond to the event log message co
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -152,9 +157,9 @@ Type of event log message. These messages correspond to the event log message co
 [WMI C++ Classes](https://msdn.microsoft.com/library/aa394557)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

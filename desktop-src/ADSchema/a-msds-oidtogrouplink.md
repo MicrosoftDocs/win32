@@ -4,17 +4,22 @@ description: For an OID, identifies the group object that corresponds to the iss
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aebd0803-9c8f-4a33-8982-739941d65754'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: aebd0803-9c8f-4a33-8982-739941d65754
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-OIDToGroup-Link attribute AD Schema", "msDS-OIDToGroupLink attribute AD Schema"]
+keywords:
+- ms-DS-OIDToGroup-Link attribute AD Schema
+- msDS-OIDToGroupLink attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-OIDToGroup-Link
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-OIDToGroup-Link attribute
@@ -38,8 +43,8 @@ For an OID, identifies the group object that corresponds to the issuance policy 
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ For an OID, identifies the group object that corresponds to the issuance policy 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

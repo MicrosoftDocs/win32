@@ -1,8 +1,9 @@
 ---
 title: TB\_SETCOLORSCHEME message
 description: Sets the color scheme information for the toolbar control.
-ms.assetid: '96cf6464-b760-46af-910f-984e41dbfca5'
-keywords: ["TB_SETCOLORSCHEME message Windows Controls"]
+ms.assetid: 96cf6464-b760-46af-910f-984e41dbfca5
+keywords:
+- TB_SETCOLORSCHEME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETCOLORSCHEME message
@@ -27,7 +33,7 @@ Sets the color scheme information for the toolbar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COLORSCHEME**](colorscheme.md) structure that contains the color scheme information.
+Pointer to a [**COLORSCHEME**](/windows/win32/Commctrl/ns-commctrl-tagcolorscheme?branch=master) structure that contains the color scheme information.
 
 </dd> </dl>
 
@@ -47,8 +53,8 @@ When visual styles are enabled, this message has no effect.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ When visual styles are enabled, this message has no effect.
 [**TB\_GETCOLORSCHEME**](tb-getcolorscheme.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

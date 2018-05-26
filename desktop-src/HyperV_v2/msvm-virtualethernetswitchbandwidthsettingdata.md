@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the bandwidth settings for a virtual switch.'
-ms.assetid: 'bc6f8cd3-f74a-4f4a-9ffe-a88def3966d9'
-title: 'Msvm\_VirtualEthernetSwitchBandwidthSettingData class'
+Description: Represents the bandwidth settings for a virtual switch.
+ms.assetid: bc6f8cd3-f74a-4f4a-9ffe-a88def3966d9
+title: Msvm\_VirtualEthernetSwitchBandwidthSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchBandwidthSettingData class
@@ -130,17 +135,17 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

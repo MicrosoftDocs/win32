@@ -1,8 +1,14 @@
 ---
 title: Managing Network Connection Sets (Associations)
 description: Starting with Windows 2000, the RPC run time may maintain more than one connection between the client and the server.
-ms.assetid: '9b9c42e9-8ed5-46a6-b6ec-4093ce0128bb'
-keywords: ["Managing Network Connection Sets"]
+ms.assetid: 9b9c42e9-8ed5-46a6-b6ec-4093ce0128bb
+keywords:
+- Managing Network Connection Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Network Connection Sets (Associations)

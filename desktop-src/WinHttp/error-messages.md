@@ -1,7 +1,12 @@
 ---
-Description: 'The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.'
-ms.assetid: 'c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2'
+Description: The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.
+ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: Error Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Messages
@@ -20,7 +25,7 @@ Error values whose names begin with "ERROR\_WINHTTP\_" are specific to the WinHT
 
 
 
-Returned by [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) when a proxy for the specified URL cannot be located.
+Returned by [**WinHttpGetProxyForUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpgetproxyforurl?branch=master) when a proxy for the specified URL cannot be located.
 
 
 </dt> </dl> </dd> <dt>
@@ -33,7 +38,7 @@ Returned by [**WinHttpGetProxyForUrl**](winhttpgetproxyforurl.md) when a proxy f
 
 
 
-Returned by [**WinHttpDetectAutoProxyConfigUrl**](winhttpdetectautoproxyconfigurl.md) if WinHTTP was unable to discover the URL of the Proxy Auto-Configuration (PAC) file.
+Returned by [**WinHttpDetectAutoProxyConfigUrl**](/windows/win32/Winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl?branch=master) if WinHTTP was unable to discover the URL of the Proxy Auto-Configuration (PAC) file.
 
 
 </dt> </dl> </dd> <dt>
@@ -121,11 +126,11 @@ Returned if connection to the server failed.
 
 
 
-The server requires SSL client Authentication. The application retrieves the list of certificate issuers by calling [**WinHttpQueryOption**](winhttpqueryoption.md) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
+The server requires SSL client Authentication. The application retrieves the list of certificate issuers by calling [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option.
 
-If the server requests the client certificate, but does not require it, the application can alternately call [**WinHttpSetOption**](winhttpsetoption.md) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. In this case, the application specifies the WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT macro in the *lpBuffer* parameter of **WinHttpSetOption**. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
+If the server requests the client certificate, but does not require it, the application can alternately call [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option. In this case, the application specifies the WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT macro in the *lpBuffer* parameter of **WinHttpSetOption**. For more information, see the **WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT** option.
 
-**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
+**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -137,7 +142,7 @@ If the server requests the client certificate, but does not require it, the appl
 
 The application does not have the required privileges to access the private key associated with the client certificate.
 
-**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
+**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -149,7 +154,7 @@ The application does not have the required privileges to access the private key 
 
 The context for the SSL client certificate does not have a private key associated with it. The client certificate may have been imported to the computer without the private key.
 
-**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
+**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -162,7 +167,7 @@ The context for the SSL client certificate does not have a private key associate
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when an overflow condition is encountered in the course of parsing chunked encoding.
+Returned by [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) when an overflow condition is encountered in the course of parsing chunked encoding.
 
 
 </dt> </dl> </dd> <dt>
@@ -175,9 +180,9 @@ Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when an over
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when the server requests client authentication.
+Returned by [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) when the server requests client authentication.
 
-**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
+**Windows Server 2003 with SP1 and Windows XP with SP2:** This error is not supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -216,7 +221,7 @@ Obsolete; no longer used.
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when a larger number of headers were present in a response than WinHTTP could receive.
+Returned by [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) when a larger number of headers were present in a response than WinHTTP could receive.
 
 
 </dt> </dl> </dd> <dt>
@@ -242,7 +247,7 @@ The requested header cannot be located.
 
 
 
-Returned by [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) when the size of headers received exceeds the limit for the request handle.
+Returned by [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) when the size of headers received exceeds the limit for the request handle.
 
 
 </dt> </dl> </dd> <dt>
@@ -294,7 +299,7 @@ An internal error has occurred.
 
 
 
-A request to [**WinHttpQueryOption**](winhttpqueryoption.md) or [**WinHttpSetOption**](winhttpsetoption.md) specified an invalid option value.
+A request to [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) or [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) specified an invalid option value.
 
 
 </dt> </dl> </dd> <dt>
@@ -346,7 +351,7 @@ The URL is not valid.
 
 
 
-The login attempt failed. When this error is encountered, the request handle should be closed with [**WinHttpCloseHandle**](winhttpclosehandle.md). A new request handle must be created before retrying the function that originally produced this error.
+The login attempt failed. When this error is encountered, the request handle should be closed with [**WinHttpCloseHandle**](/windows/win32/Winhttp/nf-winhttp-winhttpclosehandle?branch=master). A new request handle must be created before retrying the function that originally produced this error.
 
 
 </dt> </dl> </dd> <dt>
@@ -554,7 +559,7 @@ Indicates that an error occurred having to do with a secure channel (equivalent 
 
 
 
-One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](internet-status-callback-prototype.md#dwinternetstatus) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](internet-status-callback-prototype.md).
+One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server. To determine what type of error was encountered, check for a [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](internet-status-callback-prototype.md#dwinternetstatus) notification in a status callback function. For more information, see [**WINHTTP\_STATUS\_CALLBACK**](/windows/win32/Winhttp/nc-winhttp-winhttp_status_callback?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -726,7 +731,7 @@ The required protocol stack is not loaded and the application cannot start WinSo
 
 ## Remarks
 
-For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
+For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
 
 ## Requirements
 
@@ -734,9 +739,9 @@ For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-p
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl>       |
 
 
@@ -748,9 +753,9 @@ For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-p
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

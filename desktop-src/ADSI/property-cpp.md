@@ -4,10 +4,13 @@ description: In the example provider component, code examples for storing differ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3cd6b5b7-48c7-4e9c-b8bf-5910b992433f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3cd6b5b7-48c7-4e9c-b8bf-5910b992433f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PROPERTY.CPP

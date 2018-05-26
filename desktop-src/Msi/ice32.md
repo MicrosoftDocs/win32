@@ -1,12 +1,17 @@
 ---
-Description: 'ICE32 validates that keys and foreign keys in the .msi file are of the same size and column definition types.'
-ms.assetid: 'cc488ec5-e17a-4829-9763-38ba3c33bfde'
+Description: ICE32 validates that keys and foreign keys in the .msi file are of the same size and column definition types.
+ms.assetid: cc488ec5-e17a-4829-9763-38ba3c33bfde
 title: ICE32
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE32
 
-ICE32 validates that keys and foreign keys in the .msi file are of the same size and column definition types. This ICE custom action makes the comparison using the [\_Validation table](-validation-table.md) and using the definition types that are returned by [**MsiViewGetColumnInfo**](msiviewgetcolumninfo.md). For more information, see [Column Definition Format](column-definition-format.md).
+ICE32 validates that keys and foreign keys in the .msi file are of the same size and column definition types. This ICE custom action makes the comparison using the [\_Validation table](-validation-table.md) and using the definition types that are returned by [**MsiViewGetColumnInfo**](/windows/win32/Msiquery/nf-msiquery-msiviewgetcolumninfo?branch=master). For more information, see [Column Definition Format](column-definition-format.md).
 
 ## Result
 

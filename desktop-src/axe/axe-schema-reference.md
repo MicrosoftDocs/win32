@@ -1,7 +1,12 @@
 ---
 title: AXE Schema Reference
 description: AXE uses XML to describe assessments, jobs, assessment results and job results.
-ms.assetid: '880399FA-D595-43A7-AC01-D1EF8AFBD55F'
+ms.assetid: 880399FA-D595-43A7-AC01-D1EF8AFBD55F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AXE Schema Reference

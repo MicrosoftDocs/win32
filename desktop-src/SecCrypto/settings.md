@@ -1,6 +1,11 @@
-﻿---
-Description: 'Used to configure CAPICOM components.'
+---
+Description: Used to configure CAPICOM components.
 title: Settings object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings object

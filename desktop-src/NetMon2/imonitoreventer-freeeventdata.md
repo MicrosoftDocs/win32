@@ -1,7 +1,12 @@
 ---
-Description: 'The FreeEventData method frees space allocated for the NMEVENTDATA structure.'
-ms.assetid: 'f86dcfd8-5a3b-4ce3-9d45-04545b030a89'
-title: 'IMonitorEventer::FreeEventData method'
+Description: The FreeEventData method frees space allocated for the NMEVENTDATA structure.
+ms.assetid: f86dcfd8-5a3b-4ce3-9d45-04545b030a89
+title: IMonitorEventerFreeEventData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitorEventer::FreeEventData method
@@ -13,7 +18,7 @@ The **FreeEventData** method frees space allocated for the [**NMEVENTDATA**](nme
 
 ```C++
 HRESULT FreeEventData(
-  [in] PNMEVENTDATA pNMEventData
+  [in] PNMEVENTDATA pNMEventData
 );
 ```
 
@@ -46,8 +51,8 @@ For more information about how to allocate memory for an [**NMEVENTDATA**](nmeve
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -65,9 +70,9 @@ For more information about how to allocate memory for an [**NMEVENTDATA**](nmeve
 [**NMEVENTDATA**](nmeventdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

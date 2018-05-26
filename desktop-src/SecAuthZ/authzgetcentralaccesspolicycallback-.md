@@ -1,7 +1,12 @@
 ---
-Description: 'The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.'
-ms.assetid: '1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0'
+Description: The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.
+ms.assetid: 1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0
 title: AuthzGetCentralAccessPolicyCallback callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthzGetCentralAccessPolicyCallback callback function
@@ -13,11 +18,11 @@ The *AuthzGetCentralAccessPolicyCallback* function is an application-defined fun
 
 ```C++
 BOOL CALLBACK AuthzGetCentralAccessPolicyCallback (
-  _In_     AUTHZ_CLIENT_CONTEXT_HANDLE hAuthzClientContext,
-  _In_     PSID                        capid,
-  _In_opt_ PVOID                       pArgs,
-  _Out_    PBOOL                       pCentralAccessPolicyApplicable,
-  _Out_    PVOID                       ppCentralAccessPolicy
+  _In_     AUTHZ_CLIENT_CONTEXT_HANDLE hAuthzClientContext,
+  _In_     PSID                        capid,
+  _In_opt_ PVOID                       pArgs,
+  _Out_    PBOOL                       pCentralAccessPolicyApplicable,
+  _Out_    PVOID                       ppCentralAccessPolicy
 );
 ```
 
@@ -44,7 +49,7 @@ ID of the central access policy to retrieve.
 *pArgs* \[in, optional\]
 </dt> <dd>
 
-Optional arguments that were passed to the [**AuthzAccessCheck**](authzaccesscheck.md) function through the **OptionalArguments** member of the [**AUTHZ\_ACCESS\_REQUEST**](authz-access-request.md) structure.
+Optional arguments that were passed to the [**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master) function through the **OptionalArguments** member of the [**AUTHZ\_ACCESS\_REQUEST**](/windows/win32/Authz/ns-authz-_authz_access_request?branch=master) structure.
 
 </dd> <dt>
 
@@ -74,9 +79,9 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
 
 |                                     |                                                                        |
 |-------------------------------------|------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                   |
-| Redistributable<br/>          | Windows Server 2003 Administration Tools Pack on Windows XP<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                   |
+| Redistributable<br/>          | Windows Server 2003 Administration Tools Pack on Windows XP<br/> |
 
 
 
@@ -84,18 +89,18 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
 
 <dl> <dt>
 
-[**AUTHZ\_ACCESS\_REQUEST**](authz-access-request.md)
+[**AUTHZ\_ACCESS\_REQUEST**](/windows/win32/Authz/ns-authz-_authz_access_request?branch=master)
 </dt> <dt>
 
-[**AUTHZ\_INIT\_INFO**](authz-init-info.md)
+[**AUTHZ\_INIT\_INFO**](/windows/win32/Authz/ns-authz-_authz_init_info?branch=master)
 </dt> <dt>
 
-[**AuthzAccessCheck**](authzaccesscheck.md)
+[**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

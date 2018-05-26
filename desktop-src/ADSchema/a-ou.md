@@ -4,17 +4,22 @@ description: The name of the organizational unit.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3f21d1ac-3583-4294-8910-311544a578c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3f21d1ac-3583-4294-8910-311544a578c9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Organizational-Unit-Name attribute AD Schema", "ou attribute AD Schema"]
+keywords:
+- Organizational-Unit-Name attribute AD Schema
+- ou attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Organizational-Unit-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Organizational-Unit-Name attribute
@@ -38,13 +43,13 @@ The name of the organizational unit.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The name of the organizational unit.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

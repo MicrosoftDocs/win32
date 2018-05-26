@@ -1,8 +1,9 @@
 ---
 title: MCI\_GETDEVCAPS command
 description: The MCI\_GETDEVCAPS command retrieves static information about a device.
-ms.assetid: 'a839006f-ea57-4595-9208-cfc465c95298'
-keywords: ["MCI_GETDEVCAPS command Windows Multimedia"]
+ms.assetid: a839006f-ea57-4595-9208-cfc465c95298
+keywords:
+- MCI_GETDEVCAPS command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_GETDEVCAPS command
 
 The MCI\_GETDEVCAPS command retrieves static information about a device. All devices recognize this command. The parameters and flags available for this command depend on the selected device. Information is returned in the **dwReturn** member of the structure identified by *lpCapsParms*.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -400,8 +406,8 @@ The **dwReturn** member is set to the total number of waveform output (playback)
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -416,9 +422,9 @@ The **dwReturn** member is set to the total number of waveform output (playback)
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

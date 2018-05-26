@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a list of the server computers in the application cluster. It contains an object for each server.'
-ms.assetid: '8722080a-cf95-4c29-9eb7-99c6df93611f'
+Description: Contains a list of the server computers in the application cluster. It contains an object for each server.
+ms.assetid: 8722080a-cf95-4c29-9eb7-99c6df93611f
 title: ApplicationCluster collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplicationCluster collection
@@ -12,7 +17,7 @@ The application cluster is defined for purposes of the component load balancing 
 
 You designate a router in the application cluster with the IsRouter property on the [**LocalComputer**](localcomputer.md) collection object, and you designate that a given component should be load balanced with the LoadBalancingSupported property on a [**Components**](components.md) collection object.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -32,7 +37,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [Name](#name)
 
@@ -42,7 +47,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                                                      |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The name of the server. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](icatalogobject-key.md) or [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | The name of the server. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) or [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                            |
 | Type           | String                                                                                                                                                                                                                                                               |
 | Default        | "New Computer"                                                                                                                                                                                                                                                       |

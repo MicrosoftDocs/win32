@@ -1,7 +1,12 @@
 ---
 title: Router Managers and Management Information Base
 description: Router Managers and Management Information Base
-ms.assetid: '9941A901-F633-48A6-9050-AB8214750AB6'
+ms.assetid: 9941A901-F633-48A6-9050-AB8214750AB6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Router Managers and Management Information Base

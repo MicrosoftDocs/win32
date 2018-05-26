@@ -2,7 +2,15 @@
 title: C-Compiler Packing Issues
 description: Packing levels affect the memory layout of types for both MIDL and the Microsoft C/C++ compiler in the same way.
 ms.assetid: 029e2f68-e68f-4627-bdf0-889939d7d3c6
-keywords: ["MIDL compiler MIDL , C-compiler packing issues", "packing MIDL", "memory layout MIDL"]
+keywords:
+- MIDL compiler MIDL , C-compiler packing issues
+- packing MIDL
+- memory layout MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C-Compiler Packing Issues

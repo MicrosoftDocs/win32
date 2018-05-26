@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_PASS\_DESC structure
 description: Describes an effect pass, which contains pipeline state.
-ms.assetid: '3695b99f-d379-403b-aa10-e3e370a6c864'
-keywords: ["D3DX11_PASS_DESC structure Direct3D 11"]
+ms.assetid: 3695b99f-d379-403b-aa10-e3e370a6c864
+keywords:
+- D3DX11_PASS_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_PASS\_DESC structure
@@ -23,12 +29,12 @@ Describes an effect pass, which contains pipeline state.
 ```C++
 typedef struct _D3DX11_PASS_DESC {
   LPCSTR Name;
-  UINT   Annotations;
-  BYTE   *pIAInputSignature;
+  UINT   Annotations;
+  BYTE   *pIAInputSignature;
   SIZE_T IAInputSignatureSize;
-  UINT   StencilRef;
-  UINT   SampleMask;
-  FLOAT  BlendFactor[4];
+  UINT   StencilRef;
+  UINT   SampleMask;
+  FLOAT  BlendFactor[4];
 } D3DX11_PASS_DESC;
 ```
 
@@ -136,9 +142,9 @@ D3DX11\_PASS\_DESC is used with [**ID3DX11EffectPass::GetDesc**](id3dx11effectpa
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

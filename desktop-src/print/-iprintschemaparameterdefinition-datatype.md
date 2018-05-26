@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.'
-ms.assetid: '82CC79A8-0281-4100-B3FB-1FFFB2454B8D'
-title: 'IPrintSchemaParameterDefinition::DataType property'
+---
+Description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
+ms.assetid: 82CC79A8-0281-4100-B3FB-1FFFB2454B8D
+title: IPrintSchemaParameterDefinitionDataType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterDefinition::DataType property

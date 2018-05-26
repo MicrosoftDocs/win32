@@ -1,8 +1,10 @@
 ---
 title: BcdDeviceQualifiedPartitionData class
 description: Represents a qualified partition device element.
-ms.assetid: '34140ed4-df47-4da7-8302-d6f93839452a'
-keywords: ["BcdDeviceQualifiedPartitionData class Boot Config", "BcdDeviceQualifiedPartitionData class Boot Config , described"]
+ms.assetid: 34140ed4-df47-4da7-8302-d6f93839452a
+keywords:
+- BcdDeviceQualifiedPartitionData class Boot Config
+- BcdDeviceQualifiedPartitionData class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceQualifiedPartitionData class
@@ -89,7 +96,7 @@ The partition style. This property can be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -105,8 +112,8 @@ To set a qualified partition device, use the [**SetQualifiedPartitionDeviceEleme
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -122,9 +129,9 @@ To set a qualified partition device, use the [**SetQualifiedPartitionDeviceEleme
 [**SetQualifiedPartitionDeviceElement**](setqualifiedpartitiondeviceelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

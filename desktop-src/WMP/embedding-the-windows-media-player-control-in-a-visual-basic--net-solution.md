@@ -1,8 +1,29 @@
 ---
 title: Embedding the Windows Media Player Control in a Visual Basic .NET Solution
 description: Embedding the Windows Media Player Control in a Visual Basic .NET Solution
-ms.assetid: 'e6428b42-5d8b-48ef-9f7a-c90a4625b745'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,Visual Basic .NET", "Windows Media Player object model,Visual Basic .NET", "object model,Visual Basic .NET", "Windows Media Player Mobile,Visual Basic .NET", "Windows Media Player ActiveX control,Visual Basic .NET", "Windows Media Player Mobile ActiveX control,Visual Basic .NET", "ActiveX control,Visual Basic .NET", "embedding,Visual Basic .NET programs", "Visual Basic .NET program embedding"]
+ms.assetid: e6428b42-5d8b-48ef-9f7a-c90a4625b745
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,Visual Basic .NET
+- Windows Media Player object model,Visual Basic .NET
+- object model,Visual Basic .NET
+- Windows Media Player Mobile,Visual Basic .NET
+- Windows Media Player ActiveX control,Visual Basic .NET
+- Windows Media Player Mobile ActiveX control,Visual Basic .NET
+- ActiveX control,Visual Basic .NET
+- embedding,Visual Basic .NET programs
+- Visual Basic .NET program embedding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedding the Windows Media Player Control in a Visual Basic .NET Solution

@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service administration console application is a Microsoft Management Console snap-in component that the system administrator can use to manage the fax service.'
-ms.assetid: 'bab76c94-e69e-4de7-b793-5655356412c2'
-title: 'Extending the Fax Service MMC Snap-in'
+Description: The fax service administration console application is a Microsoft Management Console snap-in component that the system administrator can use to manage the fax service.
+ms.assetid: bab76c94-e69e-4de7-b793-5655356412c2
+title: Extending the Fax Service MMC Snap-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending the Fax Service MMC Snap-in

@@ -1,7 +1,12 @@
 ---
 title: Power Management
 description: The TBS receives power management events.
-ms.assetid: '21f76bea-a313-46b7-99b3-422f17376a5a'
+ms.assetid: 21f76bea-a313-46b7-99b3-422f17376a5a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Power Management

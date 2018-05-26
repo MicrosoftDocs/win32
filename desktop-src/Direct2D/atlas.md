@@ -1,7 +1,12 @@
 ---
 title: Atlas effect
 description: You can use this effect to output a portion of an image but retain the region outside of the portion for use in subsequent operations.
-ms.assetid: 'D35E32CB-4DF7-408F-A717-1E421DDC8763'
+ms.assetid: D35E32CB-4DF7-408F-A717-1E421DDC8763
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Atlas effect
@@ -20,7 +25,7 @@ To create the output the effect:
 > [!Note]  
 > The *InputPaddingRect* property should only be larger if and only if the pixels between the two rectangles are transparent black on the input. This may result in Direct2D executing the graph more optimally.
 
- 
+ 
 
 Here is an example of the effect. This image is small and simple for illustration purposes.
 
@@ -62,7 +67,7 @@ The preceding code selects a rectangle that is around the second triangle. The p
 > [!Note]  
 > This is a situation where you may choose to specify a *InputPaddingRect* because the padding is transparent black. The rectangle would be `D2D1::Vector4F(size + (padding * 2), 0, size + padding, size + padding);`.
 
- 
+ 
 
 ## Effect properties
 
@@ -75,7 +80,7 @@ The preceding code selects a rectangle that is around the second triangle. The p
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,25 +88,25 @@ The preceding code selects a rectangle that is around the second triangle. The p
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

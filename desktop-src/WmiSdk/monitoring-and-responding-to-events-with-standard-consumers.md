@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the installed standard consumer classes to perform actions based on events in an operating system.'
+Description: You can use the installed standard consumer classes to perform actions based on events in an operating system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1979dc55-a440-4c31-832b-36fa84def4c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1979dc55-a440-4c31-832b-36fa84def4c9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Monitoring and Responding to Events with Standard Consumers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Monitoring and Responding to Events with Standard Consumers

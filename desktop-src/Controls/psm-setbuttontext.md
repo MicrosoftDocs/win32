@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETBUTTONTEXT message
 description: Sets the text on a button in an Aero wizard. You can send this message explicitly or by using the PropSheet\_SetButtonText macro.
-ms.assetid: '30b7afd1-5094-430f-9c48-d87832d96050'
-keywords: ["PSM_SETBUTTONTEXT message Windows Controls"]
+ms.assetid: 30b7afd1-5094-430f-9c48-d87832d96050
+keywords:
+- PSM_SETBUTTONTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -12,11 +13,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETBUTTONTEXT message
 
-Sets the text on a button in an Aero wizard. You can send this message explicitly or by using the [**PropSheet\_SetButtonText**](propsheet-setbuttontext.md) macro.
+Sets the text on a button in an Aero wizard. You can send this message explicitly or by using the [**PropSheet\_SetButtonText**](/windows/win32/Prsht/nf-prsht-propsheet_setbuttontext?branch=master) macro.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ One of the following values specifying the button whose text is set.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -60,16 +66,16 @@ No return value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **PSM\_SETBUTTONTEXTW** (Unicode)<br/>                                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

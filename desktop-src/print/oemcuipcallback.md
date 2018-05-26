@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-in''s IPrintOemUI::CommonUIProp method. The structure is defined in printoem.h.'
-ms.assetid: 'd740bed2-ba3c-4834-8bda-3512ac8da1d5'
+---
+Description: The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-ins IPrintOemUICommonUIProp method. The structure is defined in printoem.h.
+ms.assetid: d740bed2-ba3c-4834-8bda-3512ac8da1d5
 title: OEMCUIPCALLBACK callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCUIPCALLBACK callback function

@@ -1,7 +1,12 @@
 ---
-Description: 'The goal of file system recognition is to allow the Windows operating system to have an additional option for a valid but unrecognized file system other than &\#0034;RAW&\#0034;.'
-ms.assetid: 'a5b1e97c-f22a-4d90-a3f4-1589ad9d1cc3'
+Description: The goal of file system recognition is to allow the Windows operating system to have an additional option for a valid but unrecognized file system other than &\#0034;RAW&\#0034;.
+ms.assetid: a5b1e97c-f22a-4d90-a3f4-1589ad9d1cc3
 title: File System Recognition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File System Recognition
@@ -15,7 +20,7 @@ Several recent storage technologies have altered the on-disk file system format 
 File system recognition uses the following features and layers within the operating system to achieve its goals:
 
 -   Storage media, where a fixed data structure resides as a sequence of bytes arranged internally in a predefined structure called the [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md) data structure. It is the responsibility of the file system developer to create this on-disk structure properly.
--   File system recognition at the application level, achieved via the use of the [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](fsctl-query-file-system-recognition.md) device I/O control code. For an example of how to use this control code, see [Obtaining File System Recognition Information](obtaining-file-system-recognition-information.md).
+-   File system recognition at the application level, achieved via the use of the [**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/win32/WinIoCtl/?branch=master) device I/O control code. For an example of how to use this control code, see [Obtaining File System Recognition Information](obtaining-file-system-recognition-information.md).
 -   Checksum validation code, stored within the [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md) data structure. For an example of how to compute this checksum, see [Computing a File System Recognition Checksum](computing-a-file-system-recognition-checksum.md).
 -   The Windows Shell UI uses the previously listed features to provide more flexible and robust Autoplay and related support for unrecognized file systems, but it can work only if the [**FILE\_SYSTEM\_RECOGNITION\_STRUCTURE**](file-system-recognition-structure.md) data structure exists in logical disk sector zero. Developers implementing new file systems should utilize this system to ensure that their file system is not mistakenly assumed to be of type "RAW".
 

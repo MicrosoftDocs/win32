@@ -1,12 +1,17 @@
 ---
 title: Invoking Actions
 description: The IUPnPService InvokeAction method allows actions to be invoked on Service objects.
-ms.assetid: '671e9280-5ead-43f2-bb6b-12792a6a4487'
+ms.assetid: 671e9280-5ead-43f2-bb6b-12792a6a4487
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Invoking Actions
 
-The [**IUPnPService::InvokeAction**](iupnpservice-invokeaction.md) method allows actions to be invoked on Service objects. This method has two input parameters: the name of an action and an array of input arguments to that action. The method has two parameters:
+The [**IUPnPService::InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master) method allows actions to be invoked on Service objects. This method has two input parameters: the name of an action and an array of input arguments to that action. The method has two parameters:
 
 -   Parameter one — an input/output parameter: an array of output arguments for that action.
 -   Parameter two — an output parameter: a return value.
@@ -17,7 +22,7 @@ The method causes the action to be invoked on the device. The device generates e
 
 The following VBScript code example invokes two actions on a Service object. The first action, *GetTrackInfo*, takes one input argument, a track number. The *GetTrackInfo* action returns the track length as the return value. The action also has one output argument, which contains the track title if the method returns success.
 
-After invoking the *GetTrackInfo* action, the example invokes the Play action, which takes no arguments. However, because the syntax of [**InvokeAction**](iupnpservice-invokeaction.md) requires an array of both input and output arguments, the example must create an empty array, *emptyArgs*, with no elements. The example passes this array to **InvokeAction** for both the input and output arguments, along with the name of the action.
+After invoking the *GetTrackInfo* action, the example invokes the Play action, which takes no arguments. However, because the syntax of [**InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master) requires an array of both input and output arguments, the example must create an empty array, *emptyArgs*, with no elements. The example passes this array to **InvokeAction** for both the input and output arguments, along with the name of the action.
 
 
 ```VB
@@ -37,7 +42,7 @@ returnVal = service.InvokeAction("Play", emptyArgs, emptyArgs)
 
 ## C++ Example
 
-The following example defines a C++ function that invokes an action with no arguments. Because [**InvokeAction**](iupnpservice-invokeaction.md) requires a [**SAFEARRAY**](9ec8025b-4763-4526-ab45-390c5d8b3b1e) of arguments to be passed in, this example creates an empty **SAFEARRAY**. Since this action does not return a value or have output arguments, this example ignores the last two [**VARIANT**](f0940eea-077f-4b68-9dac-d49e3fc62e43) values passed to **InvokeAction**.
+The following example defines a C++ function that invokes an action with no arguments. Because [**InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master) requires a [**SAFEARRAY**](9ec8025b-4763-4526-ab45-390c5d8b3b1e) of arguments to be passed in, this example creates an empty **SAFEARRAY**. Since this action does not return a value or have output arguments, this example ignores the last two [**VARIANT**](f0940eea-077f-4b68-9dac-d49e3fc62e43) values passed to **InvokeAction**.
 
 The device generates event notifications if the action causes state variables of the device to change.
 
@@ -115,7 +120,7 @@ void InvokePlay(IUPnPService * pService)
 
 
 
-The following example invokes the fictitious *GetTrackInfo* action. It takes a track number as an argument, returns the track length as a return value, and returns the track title in an output argument. The code is similar to the previous example, except that instead of creating an empty [**SAFEARRAY**](9ec8025b-4763-4526-ab45-390c5d8b3b1e) of input arguments, this example inserts a [**VARIANT**](f0940eea-077f-4b68-9dac-d49e3fc62e43) that contains the track number. If [**InvokeAction**](iupnpservice-invokeaction.md) returns success, this example examines the return value and the array of output arguments.
+The following example invokes the fictitious *GetTrackInfo* action. It takes a track number as an argument, returns the track length as a return value, and returns the track title in an output argument. The code is similar to the previous example, except that instead of creating an empty [**SAFEARRAY**](9ec8025b-4763-4526-ab45-390c5d8b3b1e) of input arguments, this example inserts a [**VARIANT**](f0940eea-077f-4b68-9dac-d49e3fc62e43) that contains the track number. If [**InvokeAction**](/windows/win32/Upnp/nf-upnp-iupnpservice-invokeaction?branch=master) returns success, this example examines the return value and the array of output arguments.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: Windows Networking Callbacks
 description: The following function prototypes are used in Windows Networking.
-ms.assetid: '478b188e-fce4-4b72-820c-2cedc2ac2409'
+ms.assetid: 478b188e-fce4-4b72-820c-2cedc2ac2409
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Networking Callbacks

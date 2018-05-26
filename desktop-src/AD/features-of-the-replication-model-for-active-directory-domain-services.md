@@ -4,11 +4,16 @@ description: The replication model used in Active Directory Domain Services is c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8fd63871-68b4-4ed6-8165-145cbc90c213'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8fd63871-68b4-4ed6-8165-145cbc90c213
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Domain Services, Replication Model", "Replication Model Features Active Directory"]
+keywords:
+- Active Directory Domain Services, Replication Model
+- Replication Model Features Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Features of the Replication Model for Active Directory Domain Services

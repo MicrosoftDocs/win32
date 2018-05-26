@@ -2,7 +2,12 @@
 title: F
 description: IrDA glossary terms beginning with F.
 Robots: noindex, nofollow
-ms.assetid: '73e1a5f5-2c99-4bf9-adf0-c528d21af4c6'
+ms.assetid: 73e1a5f5-2c99-4bf9-adf0-c528d21af4c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # F

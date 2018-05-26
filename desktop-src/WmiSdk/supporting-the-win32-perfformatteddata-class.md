@@ -1,13 +1,16 @@
 ---
-Description: 'When writing a high-performance provider that derives classes from Win32\_PerfFormattedData, you must follow specific conventions so that WMI can calculate the property values.'
+Description: When writing a high-performance provider that derives classes from Win32\_PerfFormattedData, you must follow specific conventions so that WMI can calculate the property values.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '57912f6f-45ca-491c-8a6c-77e2a6937ccc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 57912f6f-45ca-491c-8a6c-77e2a6937ccc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Supporting the Win32\_PerfFormattedData Class'
+title: Supporting the Win32\_PerfFormattedData Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supporting the Win32\_PerfFormattedData Class

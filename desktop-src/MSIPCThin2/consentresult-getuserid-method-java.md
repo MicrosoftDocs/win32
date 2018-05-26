@@ -4,17 +4,21 @@ description: Gets the user ID.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A3FCA508-EC0D-4EAC-8E14-AB5E4BD9E47A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A3FCA508-EC0D-4EAC-8E14-AB5E4BD9E47A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentResult getUserId method"]
+keywords:
+- ConsentResult getUserId method
 topic_type:
 - apiref
 api_name:
 - ConsentResult getUserId method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult getUserId method
@@ -45,11 +49,11 @@ ConsentResult.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbCreateCounterPathList function displays the performance counter browsing dialog box, which lets the user select several performance counters. Each selected counter path must then be read using the PdhVbGetCounterPathFromList function.'
-ms.assetid: '8dda528f-2e06-4726-89a0-095781a2f80d'
+Description: The PdhVbCreateCounterPathList function displays the performance counter browsing dialog box, which lets the user select several performance counters. Each selected counter path must then be read using the PdhVbGetCounterPathFromList function.
+ms.assetid: 8dda528f-2e06-4726-89a0-095781a2f80d
 title: PdhVbCreateCounterPathList function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbCreateCounterPathList function
@@ -30,7 +35,7 @@ Types of counters to be displayed in the dialog box. Use one of the following va
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -51,8 +56,8 @@ The function returns the number of counter paths that the user selected.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -71,9 +76,9 @@ The function returns the number of counter paths that the user selected.
 [**PdhVbGetOneCounterPath**](pdhvbgetonecounterpath.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

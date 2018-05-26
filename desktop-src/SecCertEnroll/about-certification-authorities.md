@@ -1,7 +1,12 @@
 ---
-Description: 'A certification authority (CA) is responsible for attesting to the identity of users, computers, and organizations.'
-ms.assetid: 'c8ddce19-299c-45ca-9992-865928098dc3'
+Description: A certification authority (CA) is responsible for attesting to the identity of users, computers, and organizations.
+ms.assetid: c8ddce19-299c-45ca-9992-865928098dc3
 title: Certification Authorities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certification Authorities
@@ -16,7 +21,7 @@ As the population of a public key infrastructure (PKI) grows, it can become diff
 
 The term certification authority can refer to both the organization that vouches for the identity of an end user and the server used by the organization to issue and manage certificates. A Windows server can be configured to act as a CA server, and this documentation usually refers to the server when using the term CA.
 
-The Certificate Enrollment API interacts with a CA mainly by using the [**IX509Enrollment**](ix509enrollment.md) object. The [**Enroll**](ix509enrollment-enroll-method.md) method on this object can automatically encode a certificate request, submit it to the CA, and install the issued certificate. You can also use an initialized **IX509Enrollment** object for out-of-band enrollment or for delayed enrollment. In addition, you can use the [**IX509EnrollmentStatus**](ix509enrollmentstatus.md) object to monitor enrollment status.
+The Certificate Enrollment API interacts with a CA mainly by using the [**IX509Enrollment**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) object. The [**Enroll**](/windows/win32/CertEnroll/nf-certenroll-ix509enrollment-enroll?branch=master) method on this object can automatically encode a certificate request, submit it to the CA, and install the issued certificate. You can also use an initialized **IX509Enrollment** object for out-of-band enrollment or for delayed enrollment. In addition, you can use the [**IX509EnrollmentStatus**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollmentstatus?branch=master) object to monitor enrollment status.
 
 ## Related topics
 

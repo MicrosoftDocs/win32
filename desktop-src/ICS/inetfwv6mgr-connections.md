@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr Connections property
 description: Specifies a scripting collection of the IPv6 connections present in the system at the time of the method call. It has the same semantics as EnumerateConnections.
-ms.assetid: '5c31ea81-abeb-4b0e-b254-46179daa87cd'
-keywords: ["Connections property ICS/ICF", "Connections property ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , Connections property"]
+ms.assetid: 5c31ea81-abeb-4b0e-b254-46179daa87cd
+keywords:
+- Connections property ICS/ICF
+- Connections property ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , Connections property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::Connections property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Connections(
-  [out] INetFwV6ConnectionCollection **pCollection
+  [out] INetFwV6ConnectionCollection **pCollection
 );
 ```
 
@@ -64,10 +72,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -83,9 +91,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Mgr::EnumerateConnections**](inetfwv6mgr-enumerateconnections.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

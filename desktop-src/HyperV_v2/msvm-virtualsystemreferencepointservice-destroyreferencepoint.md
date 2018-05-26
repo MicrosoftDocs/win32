@@ -1,7 +1,12 @@
 ---
-Description: 'Deletes the specified reference point.'
-ms.assetid: 'cb5245b6-5984-40ec-a37e-e4a0a62e318a'
-title: 'DestroyReferencePoint method of the Msvm\_VirtualSystemReferencePointService class'
+Description: Deletes the specified reference point.
+ms.assetid: cb5245b6-5984-40ec-a37e-e4a0a62e318a
+title: DestroyReferencePoint method of the Msvm\_VirtualSystemReferencePointService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyReferencePoint method of the Msvm\_VirtualSystemReferencePointService class
@@ -13,8 +18,8 @@ Deletes the specified reference point.
 
 ```mof
 uint32 DestroyReferencePoint(
-  [in]  Msvm_VirtualSystemReferencePoint REF AffectedReferencePoint,
-  [out] CIM_ConcreteJob                  REF Job
+  [in]  Msvm_VirtualSystemReferencePoint REF AffectedReferencePoint,
+  [out] CIM_ConcreteJob                  REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 [**Msvm\_VirtualSystemReferencePointService**](msvm-virtualsystemreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

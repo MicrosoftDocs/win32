@@ -4,17 +4,22 @@ description: This class contains a Full Volume Encryption recovery password with
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38c6dee9-a5d1-47ab-b6b1-a37f18fe77c6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 38c6dee9-a5d1-47ab-b6b1-a37f18fe77c6
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-FVE-RecoveryInformation class AD Schema", "msFVE-RecoveryInformation class AD Schema"]
+keywords:
+- ms-FVE-RecoveryInformation class AD Schema
+- msFVE-RecoveryInformation class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-FVE-RecoveryInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-FVE-RecoveryInformation class
@@ -35,9 +40,9 @@ This class contains a Full Volume Encryption recovery password with its associat
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -64,7 +69,7 @@ This class contains a Full Volume Encryption recovery password with its associat
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -207,7 +212,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -357,7 +362,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -488,9 +493,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

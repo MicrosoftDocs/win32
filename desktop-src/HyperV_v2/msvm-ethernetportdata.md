@@ -1,7 +1,12 @@
 ---
-Description: 'An abstract class that represents port runtime data collected by an Ethernet switch extension.'
-ms.assetid: 'bc41ad1d-e7ab-4d04-96a8-26eb68ea6601'
-title: 'Msvm\_EthernetPortData class'
+Description: An abstract class that represents port runtime data collected by an Ethernet switch extension.
+ms.assetid: bc41ad1d-e7ab-4d04-96a8-26eb68ea6601
+title: Msvm\_EthernetPortData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetPortData class
@@ -198,17 +203,17 @@ The name of the virtual switch that scopes this port data instance.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

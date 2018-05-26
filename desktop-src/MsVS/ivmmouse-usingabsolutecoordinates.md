@@ -1,8 +1,13 @@
 ---
 title: IVMMouse UsingAbsoluteCoordinates property
 description: The UsingAbsoluteCoordinates property contains TRUE if the mouse device is set to use absolute coordinates, FALSE if set to use delta coordinates.
-ms.assetid: '15707ad2-e450-4cb4-b396-6b74e7992848'
-keywords: ["UsingAbsoluteCoordinates property Virtual Server", "UsingAbsoluteCoordinates property Virtual Server , IVMMouse interface", "IVMMouse interface Virtual Server , UsingAbsoluteCoordinates property", "UsingAbsoluteCoordinates property Virtual Server , VMMouse interface", "VMMouse interface Virtual Server , UsingAbsoluteCoordinates property"]
+ms.assetid: 15707ad2-e450-4cb4-b396-6b74e7992848
+keywords:
+- UsingAbsoluteCoordinates property Virtual Server
+- UsingAbsoluteCoordinates property Virtual Server , IVMMouse interface
+- IVMMouse interface Virtual Server , UsingAbsoluteCoordinates property
+- UsingAbsoluteCoordinates property Virtual Server , VMMouse interface
+- VMMouse interface Virtual Server , UsingAbsoluteCoordinates property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse::UsingAbsoluteCoordinates property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_UsingAbsoluteCoordinates(
-  [in]  VARIANT_BOOL usingAbsoluteCoordinates
+  [in]  VARIANT_BOOL usingAbsoluteCoordinates
 );
 
 HRESULT get_UsingAbsoluteCoordinates(
-  [out] VARIANT_BOOL *usingAbsoluteCoordinates
+  [out] VARIANT_BOOL *usingAbsoluteCoordinates
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ This property value is read/write.
 [**IVMMouse**](ivmmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

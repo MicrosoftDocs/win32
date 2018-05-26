@@ -4,11 +4,13 @@ description: Provides a summary of the installed and issued Remote Desktop Servi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0FD3BFFE-58B9-4037-969F-8C2323136C9D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0FD3BFFE-58B9-4037-969F-8C2323136C9D
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLicenseReportSummaryEntry class Remote Desktop Services", "Win32_TSLicenseReportSummaryEntry class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLicenseReportSummaryEntry class Remote Desktop Services
+- Win32_TSLicenseReportSummaryEntry class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -23,11 +25,14 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseReportSummaryEntry class
 
-Provides a summary of the installed and issued Remote Desktop Services Per User client access licenses (RDS Per User CALs).
+Provides a summary of the installed and issued Remote Desktop Services Per User client access licenses (RDS Per User CALs).
 
 ## Syntax
 
@@ -65,7 +70,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Number of RDS Per User CALs that are installed.
+Number of RDS Per User CALs that are installed.
 
 </dd> <dt>
 
@@ -78,7 +83,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Number of RDS Per User CALs that are issued.
+Number of RDS Per User CALs that are issued.
 
 </dd> <dt>
 
@@ -91,28 +96,28 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Version of Remote Desktop Services for which the RDS Per User CAL was issued.
+Version of Remote Desktop Services for which the RDS Per User CAL was issued.
 
 <dt>
 
-"Windows Server 2012"
+"Windows Server 2012"
 </dt> <dd>
 
-Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
 
 </dd> <dt>
 
 "Windows Server 7"
 </dt> <dd>
 
-Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
 
 </dd> <dt>
 
 "Windows Server 2008"
 </dt> <dd>
 
-Only servers running Windows Server 2008 are supported with this license.
+Only servers running Windows Server 2008 are supported with this license.
 
 </dd> </dl>
 
@@ -134,21 +139,21 @@ Product version identifier for the Remote Desktop Services license key pack.
 4
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Windows Server 2008 R2
+Windows Server 2008 R2
 
 </dd> <dt>
 
 2
 </dt> <dd>
 
-Windows Server 2008
+Windows Server 2008
 
 </dd> <dt>
 
@@ -177,35 +182,35 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The availability of the RDS Per User CALs. This will be one of the following values.
+The availability of the RDS Per User CALs. This will be one of the following values.
 
 <dt>
 
 "Available"
 </dt> <dd>
 
-The RDS Per User CALs are available.
+The RDS Per User CALs are available.
 
 </dd> <dt>
 
 "Limited"
 </dt> <dd>
 
-The availability of the RDS Per User CALs is limited.
+The availability of the RDS Per User CALs is limited.
 
 </dd> <dt>
 
 "None"
 </dt> <dd>
 
-The RDS Per User CALs are not available.
+The RDS Per User CALs are not available.
 
 </dd> <dt>
 
 "Not Tracking"
 </dt> <dd>
 
-The availability of the RDS Per User CALs is not being tracked.
+The availability of the RDS Per User CALs is not being tracked.
 
 </dd> </dl>
 
@@ -220,28 +225,28 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The type of RDS Per User CALs. This will be one of the following values.
+The type of RDS Per User CALs. This will be one of the following values.
 
 <dt>
 
 "Per Device"
 </dt> <dd>
 
-The RDS Per User CALs are issued per device.
+The RDS Per User CALs are issued per device.
 
 </dd> <dt>
 
 "Per User"
 </dt> <dd>
 
-The RDS Per User CALs are issued per user.
+The RDS Per User CALs are issued per user.
 
 </dd> <dt>
 
 "Unknown"
 </dt> <dd>
 
-The type of RDS Per User CALs is unknown.
+The type of RDS Per User CALs is unknown.
 
 </dd> </dl>
 
@@ -254,16 +259,16 @@ The type of RDS Per User CALs is unknown.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

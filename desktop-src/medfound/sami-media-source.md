@@ -1,7 +1,12 @@
 ---
-Description: 'Synchronized Accessible Media Interchange (SAMI) is a format for adding captions to digital media.'
-ms.assetid: '007c8181-089e-4e56-a31d-9d1942f90b07'
+Description: Synchronized Accessible Media Interchange (SAMI) is a format for adding captions to digital media.
+ms.assetid: 007c8181-089e-4e56-a31d-9d1942f90b07
 title: SAMI Media Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SAMI Media Source
@@ -51,7 +56,7 @@ The following shows an example SAMI file.
 
 The `<STYLE>` element contains style information. This example contains a base style for `<P>` elements, along with two named styles, "standard" and "hilite". The named styles are used to modify the base style. Captions are placed within `<SYNC>` elements. The start attribute gives the presentation time in milliseconds for that caption. The captions in this example are given in two languages, specified by their RFC-1766 language tags, "en-US" and "fr -FR". Within the captions, languages are identified by their class names; in this case, "ENUSCC" and "FRFRCC".
 
-The SAMI media source creates one media stream for each language. By default, the first stream is selected and the remaining streams are deselected. The application can change the stream selection by calling [**IMFPresentationDescriptor::SelectStream**](imfpresentationdescriptor-selectstream.md) and [**IMFPresentationDescriptor::DeselectStream**](imfpresentationdescriptor-deselectstream.md). Each stream descriptor contains the following attributes.
+The SAMI media source creates one media stream for each language. By default, the first stream is selected and the remaining streams are deselected. The application can change the stream selection by calling [**IMFPresentationDescriptor::SelectStream**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream?branch=master) and [**IMFPresentationDescriptor::DeselectStream**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream?branch=master). Each stream descriptor contains the following attributes.
 
 
 
@@ -91,7 +96,7 @@ The SAMI source delivers each caption in a separate media sample. The sample tim
 
 ## SAMI Styles
 
-To change the current style, use the [**IMFSAMIStyle**](imfsamistyle.md) interface. This interface is obtained by calling [**IMFGetService::GetService**](imfgetservice-getservice.md) on the SAMI media source. (If you are using the SAMI media source with the Media Session, call **GetService** on the Media Session.) The service identifier is **MF\_SAMI\_SERVICE**.
+To change the current style, use the [**IMFSAMIStyle**](/windows/win32/mfidl/nn-mfidl-imfsamistyle?branch=master) interface. This interface is obtained by calling [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) on the SAMI media source. (If you are using the SAMI media source with the Media Session, call **GetService** on the Media Session.) The service identifier is **MF\_SAMI\_SERVICE**.
 
 The following example sets the current SAMI style, specified by index.
 
@@ -141,9 +146,9 @@ done:
 
 This example calls the following methods on the SAMI media source:
 
--   [**IMFSAMIStyle::GetStyleCount**](imfsamistyle-getstylecount.md) gets the number of styles.
--   [**IMFSAMIStyle::GetStyles**](imfsamistyle-getstyles.md) gets a list of the style names, stored in a **PROPVARIANT**.
--   [**IMFSAMIStyle::SetSelectedStyle**](imfsamistyle-setselectedstyle.md) sets a style by name.
+-   [**IMFSAMIStyle::GetStyleCount**](/windows/win32/mfidl/nf-mfidl-imfsamistyle-getstylecount?branch=master) gets the number of styles.
+-   [**IMFSAMIStyle::GetStyles**](/windows/win32/mfidl/nf-mfidl-imfsamistyle-getstyles?branch=master) gets a list of the style names, stored in a **PROPVARIANT**.
+-   [**IMFSAMIStyle::SetSelectedStyle**](/windows/win32/mfidl/nf-mfidl-imfsamistyle-setselectedstyle?branch=master) sets a style by name.
 
 The list of style names is also stored on the presentation descriptor, in the [**MF\_PD\_SAMI\_STYLELIST**](mf-pd-sami-stylelist-attribute.md) attribute.
 

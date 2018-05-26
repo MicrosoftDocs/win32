@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::DriverDMS method allows a rendering plug-in for Unidrv to indicate that it uses a device-managed drawing surface.'
-ms.assetid: 'b62e6752-0804-41c4-84f4-49ad145acaf3'
-title: 'IPrintOemUni::DriverDMS method'
+---
+Description: The IPrintOemUniDriverDMS method allows a rendering plug-in for Unidrv to indicate that it uses a device-managed drawing surface.
+ms.assetid: b62e6752-0804-41c4-84f4-49ad145acaf3
+title: IPrintOemUniDriverDMS method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::DriverDMS method

@@ -1,7 +1,12 @@
 ---
-Description: 'You can specify the language used in search queries.'
-ms.assetid: '3a7ecf8f-38ae-41d1-be70-e9ab23977a01'
+Description: You can specify the language used in search queries.
+ms.assetid: 3a7ecf8f-38ae-41d1-be70-e9ab23977a01
 title: Specifying Languages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Languages

@@ -1,14 +1,20 @@
 ---
 title: ContextPopup.ContextMenus property
 description: Represents a container for ContextMenu elements.
-ms.assetid: '92633689-a892-421e-a5fb-e494f4cd1ea8'
-keywords: ["ContextPopup.ContextMenus property Windows Ribbon"]
+ms.assetid: 92633689-a892-421e-a5fb-e494f4cd1ea8
+keywords:
+- ContextPopup.ContextMenus property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ContextPopup.ContextMenus
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextPopup.ContextMenus property
@@ -150,8 +156,8 @@ This section of code shows a **ContextPopup.ContextMenus** control declaration.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -162,9 +168,9 @@ This section of code shows a **ContextPopup.ContextMenus** control declaration.
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

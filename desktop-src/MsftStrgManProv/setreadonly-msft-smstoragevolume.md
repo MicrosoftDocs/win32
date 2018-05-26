@@ -4,11 +4,14 @@ description: Changes the device access of the storage volume to Readable.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b6ca3df1-b75f-455f-a737-326f6fa5751f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b6ca3df1-b75f-455f-a737-326f6fa5751f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetReadonly method", "SetReadonly method, MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, SetReadonly method"]
+keywords:
+- SetReadonly method
+- SetReadonly method, MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, SetReadonly method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetReadonly method of the MSFT\_SMStorageVolume class
@@ -28,9 +34,9 @@ Changes the device access of the storage volume to Readable.
 
 ```mof
 Uint32 SetReadonly(
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -195,7 +201,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -209,9 +215,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageVolume**](msft-smstoragevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

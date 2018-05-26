@@ -1,12 +1,17 @@
 ---
-Description: 'The following example shows how an application can change the DC pen color by using the GetStockObject function or SetDCPenColor and the SetDCBrushColor functions.'
-ms.assetid: 'd1be1db8-e6b6-4d60-8a4a-ce218f8d52fc'
+Description: The following example shows how an application can change the DC pen color by using the GetStockObject function or SetDCPenColor and the SetDCBrushColor functions.
+ms.assetid: d1be1db8-e6b6-4d60-8a4a-ce218f8d52fc
 title: Setting the Pen or Brush Color
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Pen or Brush Color
 
-The following example shows how an application can change the DC pen color by using the [**GetStockObject**](getstockobject.md) function or [**SetDCPenColor**](setdcpencolor.md) and the [**SetDCBrushColor**](setdcbrushcolor.md) functions.
+The following example shows how an application can change the DC pen color by using the [**GetStockObject**](/windows/win32/Wingdi/nf-wingdi-getstockobject?branch=master) function or [**SetDCPenColor**](/windows/win32/Wingdi/nf-wingdi-setdcpencolor?branch=master) and the [**SetDCBrushColor**](/windows/win32/Wingdi/nf-wingdi-setdcbrushcolor?branch=master) functions.
 
 
 ```C++

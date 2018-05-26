@@ -1,8 +1,9 @@
 ---
 title: D3DX12SerializeVersionedRootSignature function
 description: Helps enable root signature 1.1 features when they are available, and does not require maintaining two code paths for building root signatures. This helper method reconstructs a version 1.0 root signature when version 1.1 is not supported.
-ms.assetid: '0F6BA6C1-9A33-4E99-BF34-4A0358E7427D'
-keywords: ["D3DX12SerializeVersionedRootSignature function"]
+ms.assetid: 0F6BA6C1-9A33-4E99-BF34-4A0358E7427D
+keywords:
+- D3DX12SerializeVersionedRootSignature function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX12SerializeVersionedRootSignature function
@@ -22,10 +28,10 @@ Helps enable root signature 1.1 features when they are available, and does not r
 
 ```C++
 HRESULT inline D3DX12SerializeVersionedRootSignature(
-  _In_      const D3D12_VERSIONED_ROOT_SIGNATURE_DESC *pRootSignatureDesc,
-                  D3D_ROOT_SIGNATURE_VERSION          MaxVersion,
-  _Out_           ID3DBlob                            **ppBlob,
-  _Out_opt_       ID3DBlob                            **ppErrorBlob
+  _In_      const D3D12_VERSIONED_ROOT_SIGNATURE_DESC *pRootSignatureDesc,
+                  D3D_ROOT_SIGNATURE_VERSION          MaxVersion,
+  _Out_           ID3DBlob                            **ppBlob,
+  _Out_opt_       ID3DBlob                            **ppErrorBlob
 );
 ```
 
@@ -40,7 +46,7 @@ HRESULT inline D3DX12SerializeVersionedRootSignature(
 
 Type: **const D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC\***
 
-Specifies a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-signature-desc.md) that contains a description of any version of a root signature.
+Specifies a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc?branch=master) that contains a description of any version of a root signature.
 
 </dd> <dt>
 
@@ -49,7 +55,7 @@ Specifies a [**D3D12\_VERSIONED\_ROOT\_SIGNATURE\_DESC**](d3d12-versioned-root-s
 
 Type: **D3D\_ROOT\_SIGNATURE\_VERSION**
 
-Specifies the maximum supported [**D3D\_ROOT\_SIGNATURE\_VERSION**](d3d-root-signature-version.md).
+Specifies the maximum supported [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/win32/D3D12/ne-d3d12-d3d_root_signature_version?branch=master).
 
 </dd> <dt>
 
@@ -97,15 +103,15 @@ This function was released to coincide with the Windows 10 Anniversary Update (1
 
 <dl> <dt>
 
-[**D3D12SerializeVersionedRootSignature**](d3d12serializeversionedrootsignature.md)
+[**D3D12SerializeVersionedRootSignature**](/windows/win32/d3d12/nf-d3d12-d3d12serializeversionedrootsignature?branch=master)
 </dt> <dt>
 
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

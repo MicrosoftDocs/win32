@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor UpdateGraph method
 description: Refreshes the contents of the System Monitor windows.
-ms.assetid: '69a5592d-1559-424a-b625-4ae1e60f2b6e'
-keywords: ["UpdateGraph method SysMon", "UpdateGraph method SysMon , SystemMonitor interface", "SystemMonitor interface SysMon , UpdateGraph method"]
+ms.assetid: 69a5592d-1559-424a-b625-4ae1e60f2b6e
+keywords:
+- UpdateGraph method SysMon
+- UpdateGraph method SysMon , SystemMonitor interface
+- SystemMonitor interface SysMon , UpdateGraph method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor::UpdateGraph method
@@ -40,8 +48,8 @@ This method does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -56,9 +64,9 @@ This method does not return a value.
 [**SystemMonitor.ManualUpdate**](systemmonitor-manualupdate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

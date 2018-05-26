@@ -1,8 +1,11 @@
 ---
 title: Disable method of the SystemRestore class
 description: Disables monitoring on a particular drive.
-ms.assetid: '2ad37dd4-7d80-4697-9dbb-abb329a34ff7'
-keywords: ["Disable method System Restore", "Disable method System Restore , SystemRestore class", "SystemRestore class System Restore , Disable method"]
+ms.assetid: 2ad37dd4-7d80-4697-9dbb-abb329a34ff7
+keywords:
+- Disable method System Restore
+- Disable method System Restore , SystemRestore class
+- SystemRestore class System Restore , Disable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Default
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the SystemRestore class
@@ -22,7 +30,7 @@ Disables monitoring on a particular drive.
 
 ```mof
 uint32 Disable(
-  [in] String Drive
+  [in] String Drive
 );
 ```
 
@@ -73,7 +81,7 @@ End If
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\Default<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -87,9 +95,9 @@ End If
 [**SystemRestore**](systemrestore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

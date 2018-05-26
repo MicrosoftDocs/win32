@@ -1,12 +1,17 @@
 ---
-Description: 'The following code demonstrates the send and recv functions used by the client once a connection is established.'
-ms.assetid: '9c6d366d-2bc6-4c92-8d0b-21c51e08ed4f'
+Description: The following code demonstrates the send and recv functions used by the client once a connection is established.
+ms.assetid: 9c6d366d-2bc6-4c92-8d0b-21c51e08ed4f
 title: Sending and Receiving Data on the Client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending and Receiving Data on the Client
 
-The following code demonstrates the [**send**](send-2.md) and [**recv**](recv-2.md) functions used by the client once a connection is established.
+The following code demonstrates the [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) and [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master) functions used by the client once a connection is established.
 
 ## Client
 
@@ -56,7 +61,7 @@ do {
 
 
 
-The [**send**](send-2.md) and [**recv**](recv-2.md) functions both return an integer value of the number of bytes sent or received, respectively, or an error. Each function also takes the same parameters: the active socket, a **char** buffer, the number of bytes to send or receive, and any flags to use.
+The [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) and [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master) functions both return an integer value of the number of bytes sent or received, respectively, or an error. Each function also takes the same parameters: the active socket, a **char** buffer, the number of bytes to send or receive, and any flags to use.
 
 Next Step: [Disconnecting the Client](disconnecting-the-client.md)
 

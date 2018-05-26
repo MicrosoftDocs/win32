@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A'
-title: 'IPrintAsyncCookie::CancelAsyncCall method'
+---
+Description: .
+ms.assetid: F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A
+title: IPrintAsyncCookieCancelAsyncCall method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncCookie::CancelAsyncCall method

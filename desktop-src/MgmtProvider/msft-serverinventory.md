@@ -4,11 +4,13 @@ description: Represents the inventory information of the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '81ed0a53-f85c-4a9b-8f4c-fea1589269e5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 81ed0a53-f85c-4a9b-8f4c-fea1589269e5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_ServerInventory class", "MSFT_ServerInventory class, described"]
+keywords:
+- MSFT_ServerInventory class
+- MSFT_ServerInventory class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerInventory class
@@ -46,21 +51,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("mgmtprovider"), AMENDMENT]
 class MSFT_ServerInventory
 {
-  string   Name;
-  string   Description;
-  string   Fqdn;
-  string   Domain;
-  boolean  IsDomainJoined;
-  uint8    Type;
-  string   ProductId;
-  uint8    CeipSetting;
-  uint8    WerSetting;
-  boolean  IsWerSettingEnforcedByGP;
-  uint8    ActivationStatus;
+  string   Name;
+  string   Description;
+  string   Fqdn;
+  string   Domain;
+  boolean  IsDomainJoined;
+  uint8    Type;
+  string   ProductId;
+  uint8    CeipSetting;
+  uint8    WerSetting;
+  boolean  IsWerSettingEnforcedByGP;
+  uint8    ActivationStatus;
   datetime CbsTimestamp;
-  uint64   TotalPhysicalMemory;
-  string   Manufacturer;
-  string   ProcessorNames[];
+  uint64   TotalPhysicalMemory;
+  string   Manufacturer;
+  string   ProcessorNames[];
 };
 ```
 
@@ -361,7 +366,7 @@ The Windows Error Reporting setting on the server.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -375,9 +380,9 @@ The Windows Error Reporting setting on the server.
 [**GetServerInventory method of MSFT\_ServerManagerTasks**](getserverinventory-msft-servermanagertasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

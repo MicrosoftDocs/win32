@@ -1,14 +1,20 @@
 ---
 title: Groups element
 description: This node is a container for one or more groups.
-ms.assetid: 'D45A37E0-AE5D-41A7-A8D9-D9CCD4DE94D0'
-keywords: ["Groups element Access Execution Engine"]
+ms.assetid: D45A37E0-AE5D-41A7-A8D9-D9CCD4DE94D0
+keywords:
+- Groups element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Groups
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Groups element
@@ -70,9 +76,9 @@ Group
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

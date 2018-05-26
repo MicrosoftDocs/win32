@@ -1,7 +1,12 @@
 ---
-Description: 'Public properties can be authored into the installation database in the same way as private properties.'
-ms.assetid: '032aa55f-d97a-4455-bd32-571b0e05763b'
+Description: Public properties can be authored into the installation database in the same way as private properties.
+ms.assetid: 032aa55f-d97a-4455-bd32-571b0e05763b
 title: Public Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Public Properties

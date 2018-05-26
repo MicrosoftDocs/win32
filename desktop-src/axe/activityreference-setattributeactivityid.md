@@ -1,8 +1,11 @@
 ---
 title: ActivityReference SetAttributeActivityID method
 description: Sets the activity ID of the ActivityReference.
-ms.assetid: '2A255094-597D-4CB8-93E2-CB23CEABD6B5'
-keywords: ["SetAttributeActivityID method Access Execution Engine", "SetAttributeActivityID method Access Execution Engine , ActivityReference interface", "ActivityReference interface Access Execution Engine , SetAttributeActivityID method"]
+ms.assetid: 2A255094-597D-4CB8-93E2-CB23CEABD6B5
+keywords:
+- SetAttributeActivityID method Access Execution Engine
+- SetAttributeActivityID method Access Execution Engine , ActivityReference interface
+- ActivityReference interface Access Execution Engine , SetAttributeActivityID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityReference::SetAttributeActivityID method
@@ -22,7 +30,7 @@ Sets the activity ID of the **ActivityReference**.
 
 ```C++
 virtual HRESULT SetAttributeActivityID(
-  [in] LPCWSTR attributeActivityID
+  [in] LPCWSTR attributeActivityID
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity ID is the value of attribute **ActivityID** of element **ActivityRe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity ID is the value of attribute **ActivityID** of element **ActivityRe
 [**ActivityReference**](activityreference-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

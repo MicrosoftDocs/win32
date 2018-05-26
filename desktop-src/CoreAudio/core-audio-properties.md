@@ -1,7 +1,12 @@
 ---
-Description: 'This programming reference for the Core Audio SDK includes the following properties.'
-ms.assetid: 'db7d68c3-5642-4238-a212-88d3479ce73d'
+Description: This programming reference for the Core Audio SDK includes the following properties.
+ms.assetid: db7d68c3-5642-4238-a212-88d3479ce73d
 title: Core Audio Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Audio Properties
@@ -32,7 +37,7 @@ The following properties are defined in Mmdeviceapi.h in Windows Vista and later
 
 
 
- 
+ 
 
 ## Device Properties
 
@@ -51,7 +56,7 @@ The following properties are defined in Functiondiscoverykeys\_devpkey.h in Wind
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -60,9 +65,9 @@ The following properties are defined in Functiondiscoverykeys\_devpkey.h in Wind
 [Programming Reference](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

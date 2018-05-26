@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SDATE'
-ms.assetid: '18b62bee-b167-4499-aae4-21e215cb6377'
-title: 'LOCALE\_SDATE'
+Description: LOCALE\_SDATE
+ms.assetid: 18b62bee-b167-4499-aae4-21e215cb6377
+title: LOCALE\_SDATE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SDATE

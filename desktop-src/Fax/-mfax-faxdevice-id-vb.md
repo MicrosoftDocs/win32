@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Id is a numeric value that uniquely identifies a fax device.'
-ms.assetid: 'e208dce9-b61c-4981-8cf1-cca5f0fbbafd'
-title: 'FaxDevice.Id property'
+---
+Description: The Id is a numeric value that uniquely identifies a fax device.
+ms.assetid: e208dce9-b61c-4981-8cf1-cca5f0fbbafd
+title: FaxDevice.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.Id property
@@ -46,7 +51,7 @@ A **Long** that receives the unique identifier for the fax device.
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

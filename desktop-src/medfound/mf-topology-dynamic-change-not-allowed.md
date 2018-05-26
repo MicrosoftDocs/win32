@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the Media Session attempts to modify the topology when the format of a stream changes.'
-ms.assetid: '8272ded7-9d27-4652-877b-40fc76426ffc'
-title: 'MF\_TOPOLOGY\_DYNAMIC\_CHANGE\_NOT\_ALLOWED attribute'
+---
+Description: Specifies whether the Media Session attempts to modify the topology when the format of a stream changes.
+ms.assetid: 8272ded7-9d27-4652-877b-40fc76426ffc
+title: MF\_TOPOLOGY\_DYNAMIC\_CHANGE\_NOT\_ALLOWED attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_DYNAMIC\_CHANGE\_NOT\_ALLOWED attribute
@@ -14,13 +19,13 @@ Specifies whether the Media Session attempts to modify the topology when the for
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 

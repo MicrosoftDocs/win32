@@ -1,7 +1,12 @@
 ---
 title: C/C++ Code Example Creating an Idle Trigger
 description: This example creates an idle trigger for an existing task. For information about idle conditions, see Task Idle Conditions.
-ms.assetid: '89fedc86-7abc-42ce-a497-b0b0c46896ad'
+ms.assetid: 89fedc86-7abc-42ce-a497-b0b0c46896ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Creating an Idle Trigger

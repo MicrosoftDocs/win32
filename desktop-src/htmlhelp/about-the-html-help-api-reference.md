@@ -1,7 +1,12 @@
 ---
 title: About the HTML Help API Reference
 description: About the HTML Help API Reference
-ms.assetid: '88CB4C43-BCB0-4272-9E4C-9583050709DC'
+ms.assetid: 88CB4C43-BCB0-4272-9E4C-9583050709DC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help API Reference

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IBidiSpl interface allows an application or other objects to send a single bidi request or a list of bidi requests.'
-ms.assetid: '7e4a30b2-ac3a-475a-b818-455cdb7a91bf'
+---
+Description: The IBidiSpl interface allows an application or other objects to send a single bidi request or a list of bidi requests.
+ms.assetid: 7e4a30b2-ac3a-475a-b818-455cdb7a91bf
 title: IBidiSpl interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl interface

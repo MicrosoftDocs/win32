@@ -1,8 +1,9 @@
 ---
 title: CardRSADecrypt function
 description: Performs an RSA decryption of the specified data by using the specified private key.
-ms.assetid: 'f66dafe1-7de9-4474-a166-3867819a50ff'
-keywords: ["CardRSADecrypt function Security"]
+ms.assetid: f66dafe1-7de9-4474-a166-3867819a50ff
+keywords:
+- CardRSADecrypt function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardRSADecrypt function
@@ -24,8 +30,8 @@ The **CardRSADecrypt** function, defined by a smart card module, performs an [*R
 
 ```C++
 DWORD WINAPI CardRSADecrypt(
-  _In_    PCARD_DATA             pCardData,
-  _Inout_ PCARD_RSA_DECRYPT_INFO pInfo
+  _In_    PCARD_DATA             pCardData,
+  _Inout_ PCARD_RSA_DECRYPT_INFO pInfo
 );
 ```
 
@@ -63,7 +69,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,15 +81,15 @@ Card modules that support only elliptic curve cryptography (ECC), do not impleme
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

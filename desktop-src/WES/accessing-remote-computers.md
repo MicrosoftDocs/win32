@@ -1,14 +1,19 @@
 ---
 title: Accessing Remote Computers
 description: You can use the Windows Event Log API to access data on the local computer or on a remote computer.
-ms.assetid: 'df789981-0e1c-4d68-9bd5-5d054f1724d4'
+ms.assetid: df789981-0e1c-4d68-9bd5-5d054f1724d4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing Remote Computers
 
-You can use the Windows Event Log API to access data on the local computer or on a remote computer. To access data on a remote computer, you need to call the [**EvtOpenSession**](evtopensession.md) function to create a remote session context. When you call this function, you specify the name of the remote computer that you want to connect to, the user credentials to use to make the connection, and the type of authentication to use to authenticate the user. To specify the current user, set the Domain, User, and Password members to **NULL**.
+You can use the Windows Event Log API to access data on the local computer or on a remote computer. To access data on a remote computer, you need to call the [**EvtOpenSession**](/windows/win32/WinEvt/nf-winevt-evtopensession?branch=master) function to create a remote session context. When you call this function, you specify the name of the remote computer that you want to connect to, the user credentials to use to make the connection, and the type of authentication to use to authenticate the user. To specify the current user, set the Domain, User, and Password members to **NULL**.
 
-When you call Windows Event Log API, you pass the handle to the remote session context that the [**EvtOpenSession**](evtopensession.md) function returns. (To access data on the local computer, you pass **NULL** to specify the default session, which is used to access the local computer.) To access data on the remote computer, the remote computer must enable the "Remote Event Log Management" Windows Firewall exception; otherwise, when you try to use the session handle, the call will error with RPC\_S\_SERVER\_UNAVAILABLE. The computer to which you are connecting must be running Windows Vista or later.
+When you call Windows Event Log API, you pass the handle to the remote session context that the [**EvtOpenSession**](/windows/win32/WinEvt/nf-winevt-evtopensession?branch=master) function returns. (To access data on the local computer, you pass **NULL** to specify the default session, which is used to access the local computer.) To access data on the remote computer, the remote computer must enable the "Remote Event Log Management" Windows Firewall exception; otherwise, when you try to use the session handle, the call will error with RPC\_S\_SERVER\_UNAVAILABLE. The computer to which you are connecting must be running Windows Vista or later.
 
 The following example shows how to connect to a remote computer.
 

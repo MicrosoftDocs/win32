@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListInfo property of the Patch object gets and sets the source information properties for a patch. This property call MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.'
-ms.assetid: 'a07f2cc8-fee2-4703-89ea-769921713268'
-title: 'Patch.SourceListInfo property'
+---
+Description: The SourceListInfo property of the Patch object gets and sets the source information properties for a patch. This property call MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
+ms.assetid: a07f2cc8-fee2-4703-89ea-769921713268
+title: Patch.SourceListInfo property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.SourceListInfo property
 
-The **SourceListInfo** property of the [**Patch**](patch-object.md) object gets and sets the source information properties for a patch. This property call [**MsiSourceListGetInfo**](msisourcelistgetinfo.md) or [**MsiSourceListSetInfo**](msisourcelistsetinfo.md). This is a read or write property.
+The **SourceListInfo** property of the [**Patch**](patch-object.md) object gets and sets the source information properties for a patch. This property call [**MsiSourceListGetInfo**](/windows/win32/Msi/nf-msi-msisourcelistgetinfoa?branch=master) or [**MsiSourceListSetInfo**](/windows/win32/Msi/nf-msi-msisourcelistsetinfoa?branch=master). This is a read or write property.
 
 This property is read-only.
 
@@ -60,10 +65,10 @@ Not all properties that can be retrieved can be set. The *szProperty* parameter 
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListGetInfo**](msisourcelistgetinfo.md)
+[**MsiSourceListGetInfo**](/windows/win32/Msi/nf-msi-msisourcelistgetinfoa?branch=master)
 </dt> <dt>
 
-[**MsiSourceListSetInfo**](msisourcelistsetinfo.md)
+[**MsiSourceListSetInfo**](/windows/win32/Msi/nf-msi-msisourcelistsetinfoa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

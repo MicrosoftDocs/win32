@@ -1,7 +1,12 @@
 ---
-Description: 'HID device Product Id.'
-ms.assetid: '84f4753d-5c77-4dbe-ba08-cab51b4f0569'
-title: 'System.DeviceInterface.Hid.ProductId'
+Description: HID device Product Id.
+ms.assetid: 84f4753d-5c77-4dbe-ba08-cab51b4f0569
+title: System.DeviceInterface.Hid.ProductId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Hid.ProductId

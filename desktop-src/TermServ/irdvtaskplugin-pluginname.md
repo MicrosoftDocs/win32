@@ -4,11 +4,14 @@ description: Contains the display name of the task agent.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f414270-e90b-4075-80fe-f918acbdd205'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6f414270-e90b-4075-80fe-f918acbdd205
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PluginName property Remote Desktop Services", "PluginName property Remote Desktop Services , IRDVTaskPlugin interface", "IRDVTaskPlugin interface Remote Desktop Services , PluginName property"]
+keywords:
+- PluginName property Remote Desktop Services
+- PluginName property Remote Desktop Services , IRDVTaskPlugin interface
+- IRDVTaskPlugin interface Remote Desktop Services , PluginName property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - tspubplugincom.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPlugin::PluginName property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_PluginName(
-  [out, retval] BSTR *pVal
+  [out, retval] BSTR *pVal
 );
 ```
 
@@ -47,8 +53,8 @@ The display name of the task agent.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Tspubplugincom.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The display name of the task agent.
 [**IRDVTaskPlugin**](irdvtaskplugin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

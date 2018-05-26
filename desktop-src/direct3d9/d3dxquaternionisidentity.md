@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines if a quaternion is an identity quaternion.'
-ms.assetid: '1cd39e1b-9b68-434d-b7b0-3ec6cddb8757'
+---
+Description: Determines if a quaternion is an identity quaternion.
+ms.assetid: 1cd39e1b-9b68-434d-b7b0-3ec6cddb8757
 title: D3DXQuaternionIsIdentity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionIsIdentity function

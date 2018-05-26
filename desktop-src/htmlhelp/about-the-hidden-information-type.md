@@ -1,7 +1,12 @@
 ---
 title: About the Hidden Information Type
 description: About the Hidden Information Type
-ms.assetid: '471DEDDA-CC1C-43f8-83F4-A2A49A8C9832'
+ms.assetid: 471DEDDA-CC1C-43f8-83F4-A2A49A8C9832
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Hidden Information Type

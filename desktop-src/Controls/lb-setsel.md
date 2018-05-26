@@ -1,8 +1,9 @@
 ---
 title: LB\_SETSEL message
 description: Selects an item in a multiple-selection list box and, if necessary, scrolls the item into view.
-ms.assetid: '643783f2-0e00-4b79-b957-47938bb9f8da'
-keywords: ["LB_SETSEL message Windows Controls"]
+ms.assetid: 643783f2-0e00-4b79-b957-47938bb9f8da
+keywords:
+- LB_SETSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETSEL message
@@ -31,7 +37,7 @@ Specifies how to set the selection. If this parameter is **TRUE**, the item is s
 *lParam* 
 </dt> <dd>
 
-Specifies the zero-based index of the item to set. If this parameter is –1, the selection is added to or removed from all items, depending on the value of *wParam*, and no scrolling occurs.
+Specifies the zero-based index of the item to set. If this parameter is  1, the selection is added to or removed from all items, depending on the value of *wParam*, and no scrolling occurs.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ Use this message only with multiple-selection list boxes.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ Use this message only with multiple-selection list boxes.
 [**LB\_SELITEMRANGE**](lb-selitemrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

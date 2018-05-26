@@ -1,7 +1,12 @@
 ---
-Description: 'The ThreadProc method is the thread procedure.'
-ms.assetid: '2d991f15-afea-4843-bc68-aeb5ca69d28b'
-title: 'CAMThread.ThreadProc method'
+Description: The ThreadProc method is the thread procedure.
+ms.assetid: 2d991f15-afea-4843-bc68-aeb5ca69d28b
+title: CAMThread.ThreadProc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.ThreadProc method
@@ -51,9 +56,9 @@ When this method returns, the thread exits.
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

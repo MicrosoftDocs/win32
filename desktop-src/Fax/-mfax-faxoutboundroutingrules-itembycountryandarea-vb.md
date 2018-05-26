@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ItemByCountryAndArea method returns an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule''s country/region code and area code.'
-ms.assetid: '9e9130b9-2176-4d99-8e67-b80fb5edb95d'
-title: 'FaxOutboundRoutingRules.ItemByCountryAndArea method'
+---
+Description: The ItemByCountryAndArea method returns an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rules country/region code and area code.
+ms.assetid: 9e9130b9-2176-4d99-8e67-b80fb5edb95d
+title: FaxOutboundRoutingRules.ItemByCountryAndArea method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules.ItemByCountryAndArea method
@@ -30,7 +35,7 @@ FaxOutboundRoutingRules.ItemByCountryAndArea( _
 
 Type: **Long**
 
-A **Long** value that specifies the country/region code of the outbound routing rule to retrieve. Specifying [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) will return a rule for any country/region code.
+A **Long** value that specifies the country/region code of the outbound routing rule to retrieve. Specifying [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) will return a rule for any country/region code.
 
 </dd> <dt>
 
@@ -39,7 +44,7 @@ A **Long** value that specifies the country/region code of the outbound routing 
 
 Type: **Long**
 
-A **Long** value that specifies the area code of the outbound routing rule to retrieve. Specifying [**frrcANY\_CODE**](-mfax-fax-routing-rule-code-enum.md) will return a rule for any area code within the specified country/region code.
+A **Long** value that specifies the area code of the outbound routing rule to retrieve. Specifying [**frrcANY\_CODE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_routing_rule_code_enum?branch=master) will return a rule for any area code within the specified country/region code.
 
 </dd> <dt>
 
@@ -75,7 +80,7 @@ A [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md) object.
 [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules-cpp.md)
+[**IFaxOutboundRoutingRules**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrules?branch=master)
 </dt> </dl>
 
  

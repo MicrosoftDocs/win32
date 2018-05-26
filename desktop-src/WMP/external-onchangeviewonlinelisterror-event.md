@@ -1,8 +1,9 @@
 ---
 title: External.OnChangeViewOnlineListError Event
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'f53dfc80-a7d7-42b1-b390-e90aa108145f'
-keywords: ["External.OnChangeViewOnlineListError Event Windows Media Player"]
+ms.assetid: f53dfc80-a7d7-42b1-b390-e90aa108145f
+keywords:
+- External.OnChangeViewOnlineListError Event Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.OnChangeViewOnlineListError Event
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **OnChangeViewOnlineListError** event occurs when a call to the [External.changeViewOnlineList](external-changeviewonlinelist.md) method results in an error.
 
@@ -103,9 +109,9 @@ The same string that was passed in the **ViewMode** parameter of **changeViewOnl
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

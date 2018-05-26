@@ -1,8 +1,14 @@
 ---
 title: EnableDCOM
 description: Controls the global activation and call policies of the machine. Only administrators and the system have full access to this portion of the registry. All other users have read-only access.
-ms.assetid: '8533270d-f1b0-42b9-a50d-b05a0dfeee22'
-keywords: ["EnableDCOM registry value COM"]
+ms.assetid: 8533270d-f1b0-42b9-a50d-b05a0dfeee22
+keywords:
+- EnableDCOM registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableDCOM

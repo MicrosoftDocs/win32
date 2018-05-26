@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IXpsRasterizer interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.'
-ms.assetid: '1ef99120-2b3b-45aa-bcf7-16bcb9656089'
+---
+Description: The IXpsRasterizer interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.
+ms.assetid: 1ef99120-2b3b-45aa-bcf7-16bcb9656089
 title: IXpsRasterizer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizer interface

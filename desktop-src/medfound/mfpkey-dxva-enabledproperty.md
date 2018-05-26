@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the decoder will use DirectX video acceleration hardware, if available.'
-ms.assetid: '6220310f-5760-4ddb-944b-752b97bf4696'
-title: 'MFPKEY\_DXVA\_ENABLED Property'
+---
+Description: Specifies whether the decoder will use DirectX video acceleration hardware, if available.
+ms.assetid: 6220310f-5760-4ddb-944b-752b97bf4696
+title: MFPKEY\_DXVA\_ENABLED Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DXVA\_ENABLED Property

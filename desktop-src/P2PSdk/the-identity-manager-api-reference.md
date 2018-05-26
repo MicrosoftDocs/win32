@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the functions and structures to use when working with the Peer Identity Manager API.'
-ms.assetid: 'b2da1578-fcbe-4c17-b908-c4bd2fb5c1ad'
+Description: Describes the functions and structures to use when working with the Peer Identity Manager API.
+ms.assetid: b2da1578-fcbe-4c17-b908-c4bd2fb5c1ad
 title: Identity Manager Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identity Manager Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Explains how to use CryptoAPI to manage and verify certificates.'
-ms.assetid: '1c26509d-5bb6-42dc-aeb0-525d7eaecf7d'
-title: 'Example C Program: Certificate Verification Operations'
+Description: Explains how to use CryptoAPI to manage and verify certificates.
+ms.assetid: 1c26509d-5bb6-42dc-aeb0-525d7eaecf7d
+title: Example C Program Certificate Verification Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Certificate Verification Operations
@@ -10,12 +15,12 @@ The following example illustrates these tasks and CryptoAPI functions:
 
 -   Opening and closing the system store.
 -   Finding a certificate by subject name.
--   Using the [**CertVerifyTimeValidity**](certverifytimevalidity.md) function to check the certificate's time validity.
--   [**CertOpenStore**](certopenstore.md)
--   [**CertFindCertificateInStore**](certfindcertificateinstore.md)
--   [**CertVerifyTimeValidity**](certverifytimevalidity.md)
--   [**CertFreeCertificateContext**](certfreecertificatecontext.md)
--   [**CertCloseStore**](certclosestore.md)
+-   Using the [**CertVerifyTimeValidity**](/windows/win32/Wincrypt/nf-wincrypt-certverifytimevalidity?branch=master) function to check the certificate's time validity.
+-   [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master)
+-   [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master)
+-   [**CertVerifyTimeValidity**](/windows/win32/Wincrypt/nf-wincrypt-certverifytimevalidity?branch=master)
+-   [**CertFreeCertificateContext**](/windows/win32/Wincrypt/nf-wincrypt-certfreecertificatecontext?branch=master)
+-   [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master)
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

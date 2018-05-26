@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ATTRIBUTE\_INFO\_1 structure is used as a parameter for a printer interface DLL''s DrvQueryJobAttributes function. All member values are function-supplied.'
-ms.assetid: '7902877c-4991-48ae-9285-82949f898af2'
-title: 'ATTRIBUTE\_INFO\_1 structure'
+---
+Description: The ATTRIBUTE\_INFO\_1 structure is used as a parameter for a printer interface DLLs DrvQueryJobAttributes function. All member values are function-supplied.
+ms.assetid: 7902877c-4991-48ae-9285-82949f898af2
+title: ATTRIBUTE\_INFO\_1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATTRIBUTE\_INFO\_1 structure

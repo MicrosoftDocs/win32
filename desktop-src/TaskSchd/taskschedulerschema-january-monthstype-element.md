@@ -1,14 +1,20 @@
 ---
 title: January (monthsType) Element
 description: Specifies that the task runs in January.
-ms.assetid: '3a0dde08-f2de-4ff4-9c5a-4368ff7a0e2c'
-keywords: ["January element Task Scheduler"]
+ms.assetid: 3a0dde08-f2de-4ff4-9c5a-4368ff7a0e2c
+keywords:
+- January element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - January
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # January (monthsType) Element
@@ -53,8 +59,8 @@ The following XML defines a months calendar that runs the task in January.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ The following XML defines a months calendar that runs the task in January.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

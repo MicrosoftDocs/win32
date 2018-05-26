@@ -1,21 +1,27 @@
 ---
 title: sysinfo command
 description: The sysinfo command retrieves MCI system information. The sysinfo command is an MCI system command; it is interpreted directly by MCI.
-ms.assetid: '605efd25-8849-42aa-99fd-b36b6fd2c7b7'
-keywords: ["sysinfo command Windows Multimedia"]
+ms.assetid: 605efd25-8849-42aa-99fd-b36b6fd2c7b7
+keywords:
+- sysinfo command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - sysinfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sysinfo command
 
 The sysinfo command retrieves MCI system information. The sysinfo command is an MCI system command; it is interpreted directly by MCI.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -55,7 +61,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,8 +92,8 @@ sysinfo waveaudio name 1 open
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -104,9 +110,9 @@ sysinfo waveaudio name 1 open
 [**capability**](capability.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

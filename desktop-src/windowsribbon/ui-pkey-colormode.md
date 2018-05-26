@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_ColorMode
 description: Identifies the UI\_PKEY\_ColorMode property.
-ms.assetid: '274B320D-5BD0-47EB-8623-3144DAA82716'
+ms.assetid: 274B320D-5BD0-47EB-8623-3144DAA82716
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_ColorMode
@@ -20,7 +25,7 @@ propertyDescription
 
 ## Remarks
 
-The property value is from the [**UI\_SWATCHCOLORMODE**](ui-swatchcolormode.md) enumeration.
+The property value is from the [**UI\_SWATCHCOLORMODE**](/windows/win32/Uiribbon/ne-uiribbon-ui_swatchcolormode?branch=master) enumeration.
 
 ## Related topics
 

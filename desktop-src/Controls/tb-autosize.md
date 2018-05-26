@@ -1,8 +1,9 @@
 ---
 title: TB\_AUTOSIZE message
 description: Causes a toolbar to be resized.
-ms.assetid: '11aff184-6f18-43a2-9bdc-462fc5ba1680'
-keywords: ["TB_AUTOSIZE message Windows Controls"]
+ms.assetid: 11aff184-6f18-43a2-9bdc-462fc5ba1680
+keywords:
+- TB_AUTOSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_AUTOSIZE message
@@ -41,15 +47,15 @@ An application sends the **TB\_AUTOSIZE** message after causing the size of a to
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

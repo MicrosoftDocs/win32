@@ -4,17 +4,22 @@ description: Flags that control the behavior of the user account.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fc81a16a-f537-44cc-957c-5d7ca66b9755'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fc81a16a-f537-44cc-957c-5d7ca66b9755
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["User-Account-Control attribute AD Schema", "userAccountControl attribute AD Schema"]
+keywords:
+- User-Account-Control attribute AD Schema
+- userAccountControl attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - User-Account-Control
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User-Account-Control attribute
@@ -38,12 +43,12 @@ Flags that control the behavior of the user account.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -316,11 +321,11 @@ You cannot assign the permission settings of PASSWD_CANT_CHANGE by directly modi
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

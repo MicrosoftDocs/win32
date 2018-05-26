@@ -1,12 +1,18 @@
 ---
 title: Texture3D SampleGrad methods
 description: Samples a texture using a gradient to influence the way the sample location is calculated.
-ms.assetid: 'AEC7BB71-7A40-40EB-9559-1AAFA29081A5'
-keywords: ["SampleGrad methods HLSL"]
+ms.assetid: AEC7BB71-7A40-40EB-9559-1AAFA29081A5
+keywords:
+- SampleGrad methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture3D::SampleGrad methods
@@ -35,9 +41,9 @@ Samples a texture using a gradient to influence the way the sample location is c
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

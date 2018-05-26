@@ -4,13 +4,15 @@ description: Models the DN\_With\_String AD syntax.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c2d9d423-c515-4bcf-8fe9-f118405490be'
-ms.prod: 'windows-server-dev'
+ms.assetid: c2d9d423-c515-4bcf-8fe9-f118405490be
+ms.prod: windows-server-dev
 ms.technology:
-- 'active-directory-domain-services'
-- 'windows-management-instrumentation'
+- active-directory-domain-services
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DN_With_String class", "DN_With_String class, described"]
+keywords:
+- DN_With_String class
+- DN_With_String class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Dsprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DN\_With\_String class
@@ -84,17 +89,17 @@ The Value component of the tuple.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Namespace<br/>                | Root\\directory\\LDAP<br/>                                                      |
 | MOF<br/>                      | <dl> <dt>DsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dsprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Windows Family Safety Solution
-ms.assetid: 'b89cf0c7-bf9f-4bcb-b008-8b7c792f3300'
+ms.assetid: b89cf0c7-bf9f-4bcb-b008-8b7c792f3300
 title: Windows Family Safety Solution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Family Safety Solution

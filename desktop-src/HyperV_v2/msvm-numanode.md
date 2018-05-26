@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a Non-Uniform Memory Access (NUMA) node of a virtual system.'
-ms.assetid: 'a2e9aa74-15e5-4a78-b7f8-ffe2883a31d0'
-title: 'Msvm\_NumaNode class'
+Description: Represents a Non-Uniform Memory Access (NUMA) node of a virtual system.
+ms.assetid: a2e9aa74-15e5-4a78-b7f8-ffe2883a31d0
+title: Msvm\_NumaNode class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_NumaNode class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_NumaNode : CIM_EnabledLogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   NodeID;
-  uint32   NumberOfProcessorCores;
-  uint32   NumberOfLogicalProcessors;
-  uint64   CurrentlyConsumableMemoryBlocks;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   NodeID;
+  uint32   NumberOfProcessorCores;
+  uint32   NumberOfLogicalProcessors;
+  uint64   CurrentlyConsumableMemoryBlocks;
 };
 ```
 
@@ -66,7 +71,7 @@ The **Msvm\_NumaNode** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -272,7 +277,7 @@ The enabled and disabled states of an element. It can also indicate the transiti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -607,17 +612,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

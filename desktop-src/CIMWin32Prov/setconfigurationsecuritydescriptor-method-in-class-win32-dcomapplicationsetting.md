@@ -1,15 +1,18 @@
 ---
-Description: 'Updates the configuration security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a Win32\_SecurityDescriptor class.'
+Description: Updates the configuration security descriptor of the DCOM application with a new security descriptor that is defined by an instance of a Win32\_SecurityDescriptor class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e0fe3d2f-7641-4cae-972d-888e800548de'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e0fe3d2f-7641-4cae-972d-888e800548de
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetConfigurationSecurityDescriptor method of the Win32\_DCOMApplicationSetting class'
+title: SetConfigurationSecurityDescriptor method of the Win32\_DCOMApplicationSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetConfigurationSecurityDescriptor method of the Win32\_DCOMApplicationSetting class
@@ -21,7 +24,7 @@ The **SetConfigurationSecurityDescriptor** method updates the configuration secu
 
 ```mof
 uint32 SetConfigurationSecurityDescriptor(
-  [in] Win32_SecurityDescriptor Descriptor
+  [in] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -84,7 +87,7 @@ A parameter specified in the method call is invalid
 **Other**
 </dt> <dd>
 
-1–4294967295
+1 4294967295
 
 </dd> </dl>
 
@@ -116,8 +119,8 @@ When a new SACL is **NULL** in a call to this method, then the security descript
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -140,9 +143,9 @@ When a new SACL is **NULL** in a call to this method, then the security descript
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

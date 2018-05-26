@@ -1,24 +1,29 @@
 ---
 Description: Using the Source Resolver
-ms.assetid: '94e2a411-96b8-4506-8491-78f4f5f286ce'
+ms.assetid: 94e2a411-96b8-4506-8491-78f4f5f286ce
 title: Using the Source Resolver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Source Resolver
 
-The source resolver takes a URL or byte stream and creates the appropriate media source for that content. To create the source resolver, call [**MFCreateSourceResolver**](mfcreatesourceresolver.md). This function returns an [**IMFSourceResolver**](imfsourceresolver.md) interface pointer.
+The source resolver takes a URL or byte stream and creates the appropriate media source for that content. To create the source resolver, call [**MFCreateSourceResolver**](/windows/win32/mfidl/nf-mfidl-mfcreatesourceresolver?branch=master). This function returns an [**IMFSourceResolver**](/windows/win32/mfidl/nn-mfidl-imfsourceresolver?branch=master) interface pointer.
 
 The source resolver has both synchronous and asynchronous methods. If you are using the source resolver from your main application thread, the asynchronous methods will make your user interface more responsive. The synchronous methods can block for a noticeable amount of time, particularly if the source resolver must open a network resource.
 
 The synchronous methods are:
 
--   [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md)
--   [**IMFSourceResolver::CreateObjectFromByteStream**](imfsourceresolver-createobjectfrombytestream.md)
+-   [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master)
+-   [**IMFSourceResolver::CreateObjectFromByteStream**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfrombytestream?branch=master)
 
 The asynchronous methods are:
 
--   [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md)
--   [**IMFSourceResolver::BeginCreateObjectFromByteStream**](imfsourceresolver-begincreateobjectfrombytestream.md)
+-   [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master)
+-   [**IMFSourceResolver::BeginCreateObjectFromByteStream**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfrombytestream?branch=master)
 
 For the asynchronous methods, each method has a corresponding **End...** method to complete the asynchronous request, and a **Cancel...** method to cancel a pending request. For more information about asynchronous methods in Media Foundation, see [Asynchronous Callback Methods](asynchronous-callback-methods.md).
 

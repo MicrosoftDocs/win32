@@ -4,16 +4,21 @@ description: The following code example shows how to use the IADsPropertyList, I
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd2ac3a1e-642c-451c-a79e-baa38dacb4a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d2ac3a1e-642c-451c-a79e-baa38dacb4a2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code ADSI , Using IADsProperty Interfaces to Access the Property Cache", "Example Code for Using IADsProperty Interfaces to Access the Property Cache ADSI"]
+keywords:
+- Example Code ADSI , Using IADsProperty Interfaces to Access the Property Cache
+- Example Code for Using IADsProperty Interfaces to Access the Property Cache ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Using IADsProperty Interfaces to Access the Property Cache
 
-The following code example shows how to use the [**IADsPropertyList**](iadspropertylist.md), [**IADsPropertyEntry**](iadspropertyentry.md), and [**IADsPropertyValue**](iadspropertyvalue.md) interfaces with C++ and ADSI.
+The following code example shows how to use the [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master), [**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master), and [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master) interfaces with C++ and ADSI.
 
 
 ```C++
@@ -89,7 +94,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following code example shows how to use the [**IADsPropertyList**](iadspropertylist.md), [**IADsPropertyEntry**](iadspropertyentry.md), and [**IADsPropertyValue**](iadspropertyvalue.md) interfaces using Visual Basic and ADSI.
+The following code example shows how to use the [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master), [**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master), and [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master) interfaces using Visual Basic and ADSI.
 
 
 ```VB

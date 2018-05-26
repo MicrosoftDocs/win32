@@ -1,7 +1,12 @@
 ---
-Description: 'The following tables list formats that are available for each factoid used in Chinese (Simplified).'
-ms.assetid: 'dfcefe69-dacf-4a55-a2fb-7a039fa737e7'
-title: 'Chinese (Simplified) Factoids'
+Description: The following tables list formats that are available for each factoid used in Chinese (Simplified).
+ms.assetid: dfcefe69-dacf-4a55-a2fb-7a039fa737e7
+title: Chinese (Simplified) Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Chinese (Simplified) Factoids
@@ -19,7 +24,7 @@ The following tables list formats that are available for each factoid used in Ch
 
 
 
- 
+ 
 
 ## Chinese (Simplified) Factoids, continued
 
@@ -32,7 +37,7 @@ The following tables list formats that are available for each factoid used in Ch
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -44,9 +49,9 @@ The following tables list formats that are available for each factoid used in Ch
 [Factoid Class (Managed code)](frlrfMicrosoftInkFactoidClassTopic)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

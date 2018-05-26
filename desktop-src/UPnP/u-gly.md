@@ -2,7 +2,12 @@
 title: U
 description: Contains UPnP-related terms that begin with the letter U.
 Robots: noindex, nofollow
-ms.assetid: '063f6252-71ab-4e4b-8972-e3e12a1a8838'
+ms.assetid: 063f6252-71ab-4e4b-8972-e3e12a1a8838
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # U

@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace CreateFolder method
 description: Creates a new message folder.
-ms.assetid: '5a71c97e-80ee-4bb3-a5b8-2f21a1225584'
-keywords: ["CreateFolder method Windows Mail (formerly Outlook Express)", "CreateFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , CreateFolder method"]
+ms.assetid: 5a71c97e-80ee-4bb3-a5b8-2f21a1225584
+keywords:
+- CreateFolder method Windows Mail (formerly Outlook Express)
+- CreateFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , CreateFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::CreateFolder method
@@ -22,10 +30,10 @@ Creates a new message folder.
 
 ```C++
 HRESULT CreateFolder(
-  [in]  STOREFOLDERID   dwParentId,
-  [in]  LPCSTR          pszName,
-  [in]  DWORD           dwReserved,
-  [out] LPSTOREFOLDERID pdwFolderId
+  [in]  STOREFOLDERID   dwParentId,
+  [in]  LPCSTR          pszName,
+  [in]  DWORD           dwReserved,
+  [out] LPSTOREFOLDERID pdwFolderId
 );
 ```
 
@@ -86,7 +94,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,8 +106,8 @@ Each created folder must be a child of an existing parent folder that is not the
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -107,9 +115,9 @@ Each created folder must be a child of an existing parent folder that is not the
 
 
 
- 
+ 
 
- 
+ 
 
 
 

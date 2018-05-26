@@ -4,26 +4,31 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e893410-f5b7-4957-a2cd-5ad95bdc5c48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0e893410-f5b7-4957-a2cd-5ad95bdc5c48
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ResourceDllDeadlockThreshold Failover Cluster ,for clusters", "ResourceDllDeadlockThreshold Failover Cluster"]
+keywords:
+- ResourceDllDeadlockThreshold Failover Cluster ,for clusters
+- ResourceDllDeadlockThreshold Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ResourceDllDeadlockThreshold
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceDllDeadlockThreshold
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:  **
+**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:  **
 
 Specifies the number of deadlock timeouts which must occur within the deadlock timeout period before a deadlocked condition is considered to have occurred.
 
@@ -33,14 +38,14 @@ Specifies the number of deadlock timeouts which must occur within the deadlock t
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 3                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -65,9 +70,9 @@ ResourceDllDeadlockThresholdValue.dw = ResourceDllDeadlockThresholdData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/>       |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/>       |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -75,7 +80,7 @@ ResourceDllDeadlockThresholdValue.dw = ResourceDllDeadlockThresholdData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**EnableResourceDllDeadlockDetection**](cluster-enableresourcedlldeadlockdetection.md)
@@ -87,9 +92,9 @@ ResourceDllDeadlockThresholdValue.dw = ResourceDllDeadlockThresholdData;
 [**ResourceDllDeadlockTimeout**](cluster-resourcedlldeadlocktimeout.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

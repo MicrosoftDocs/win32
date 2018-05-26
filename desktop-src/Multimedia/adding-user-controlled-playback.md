@@ -1,13 +1,19 @@
 ---
 title: Adding User-Controlled Playback
 description: Adding User-Controlled Playback
-ms.assetid: 'c865bbc1-f78a-4d88-ab60-fba76818d175'
-keywords: ["MCIWndCreate function"]
+ms.assetid: c865bbc1-f78a-4d88-ab60-fba76818d175
+keywords:
+- MCIWndCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding User-Controlled Playback
 
-You can add user-controlled playback to an existing application by calling the [**MCIWndCreate**](mciwndcreate.md) function as follows:
+You can add user-controlled playback to an existing application by calling the [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master) function as follows:
 
 
 ```C++
@@ -16,7 +22,7 @@ MCIWndCreate(hwndParent, hInstModule, NULL, "filename.typ");
 
 
 
-The [**MCIWndCreate**](mciwndcreate.md) parameters identify handles to the parent window and to the module instance associated with the MCIWnd window. They also specify window styles and the filename (or device name) to associate with the MCIWnd window.
+The [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master) parameters identify handles to the parent window and to the module instance associated with the MCIWnd window. They also specify window styles and the filename (or device name) to associate with the MCIWnd window.
 
 **MCIWndCreate** automatically performs the following steps that, for other window classes, you would implement in your code yourself:
 

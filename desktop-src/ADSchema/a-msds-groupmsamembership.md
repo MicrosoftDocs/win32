@@ -4,17 +4,22 @@ description: This attribute is used for access checks to determine if a requesto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1512826d-fb7e-4039-ad93-f9334fd1d485'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1512826d-fb7e-4039-ad93-f9334fd1d485
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-GroupMSAMembership attribute AD Schema", "msDS-GroupMSAMembership attribute AD Schema"]
+keywords:
+- ms-DS-GroupMSAMembership attribute AD Schema
+- msDS-GroupMSAMembership attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-GroupMSAMembership
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-GroupMSAMembership attribute
@@ -38,7 +43,7 @@ This attribute is used for access checks to determine if a requestor has permiss
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This attribute is used for access checks to determine if a requestor has permiss
 
 
 
- 
+ 
 
- 
+ 
 
 
 

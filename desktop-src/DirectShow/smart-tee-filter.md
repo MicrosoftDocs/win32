@@ -1,7 +1,12 @@
 ---
 Description: Smart Tee Filter
-ms.assetid: '25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9'
+ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Smart Tee Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Tee Filter
@@ -18,11 +23,11 @@ The following illustration shows a typical capture graph that uses the Smart Tee
 
 |                                          |                                                                                                                |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md)                                                                             |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                           |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)         |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)         |
 | Output Pin Media Types                   | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                           |
-| Output Pin Interfaces                    | [**IAMStreamControl**](iamstreamcontrol.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output Pin Interfaces                    | [**IAMStreamControl**](/windows/win32/Strmif/nn-strmif-iamstreamcontrol?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | CLSID\_SmartTee                                                                                                |
 | Property Page CLSID                      | No property page.                                                                                              |
 | Executable                               | qcap.dll                                                                                                       |

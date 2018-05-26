@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_DCOMApplicationLaunchAllowedSetting association WMI class relates the Win32\_DCOMApplication instance and the user SIDs that can launch it.'
+Description: The Win32\_DCOMApplicationLaunchAllowedSetting association WMI class relates the Win32\_DCOMApplication instance and the user SIDs that can launch it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '87896b0e-9574-4d22-ad79-c3daf28aa847'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 87896b0e-9574-4d22-ad79-c3daf28aa847
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DCOMApplicationLaunchAllowedSetting class'
+title: Win32\_DCOMApplicationLaunchAllowedSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DCOMApplicationLaunchAllowedSetting class
@@ -23,7 +26,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_DCOMApplicationLaunchAllowedSetting
 {
   Win32_DCOMApplication REF Element;
-  Win32_SID             REF Setting;
+  Win32_SID             REF Setting;
 };
 ```
 
@@ -77,8 +80,8 @@ Reference to the [**Win32\_SID**](win32-sid.md) instance representing the role o
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -92,9 +95,9 @@ Reference to the [**Win32\_SID**](win32-sid.md) instance representing the role o
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

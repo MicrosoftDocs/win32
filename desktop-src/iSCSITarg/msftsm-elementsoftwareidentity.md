@@ -4,13 +4,15 @@ description: Associates a managed element with a software asset.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88264e0b-4b3a-42a9-9833-f416658fc518'
-ms.prod: 'windows-server-dev'
+ms.assetid: 88264e0b-4b3a-42a9-9833-f416658fc518
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSM_ElementSoftwareIdentity class iSCSI Software Target API", "MSFTSM_ElementSoftwareIdentity class iSCSI Software Target API , described"]
+keywords:
+- MSFTSM_ElementSoftwareIdentity class iSCSI Software Target API
+- MSFTSM_ElementSoftwareIdentity class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSM\_ElementSoftwareIdentity class
@@ -37,10 +42,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Version("1.0.0"), Provider("MSiSCSITargetProv")]
 class MSFTSM_ElementSoftwareIdentity : CIM_ElementSoftwareIdentity
 {
-  uint16                   UpgradeCondition;
-  string                   OtherUpgradeCondition;
+  uint16                   UpgradeCondition;
+  string                   OtherUpgradeCondition;
   CIM_SoftwareIdentity REF Antecedent;
-  CIM_ManagedElement   REF Dependent;
+  CIM_ManagedElement   REF Dependent;
 };
 ```
 
@@ -171,14 +176,14 @@ This property is inherited from [**CIM\_ElementSoftwareIdentity**](cim-elementso
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -189,7 +194,7 @@ This property is inherited from [**CIM\_ElementSoftwareIdentity**](cim-elementso
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -206,9 +211,9 @@ This property is inherited from [**CIM\_ElementSoftwareIdentity**](cim-elementso
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,18 +1,23 @@
 ---
 title: The Summary Information Property Set
 description: COM defines a standard common property set for storing summary information about documents.
-ms.assetid: 'e1204de5-b712-4bd5-bffb-6a12ec8d7052'
+ms.assetid: e1204de5-b712-4bd5-bffb-6a12ec8d7052
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Summary Information Property Set
 
 COM defines a standard common property set for storing summary information about documents. The Summary Information property set must be stored in a stream object. That is, this property set must be stored as a simple property set. For more information, see [Storage and Stream Objects for a Property Set](storage-vs--stream-for-a-property-set.md).
 
-For example, to create an ANSI simple property set, you would call [**IPropertySetStorage::Create**](ipropertysetstorage-create.md) to create the property set, specifying **PROPSETFLAG\_ANSI** (simple is the default type of property set), then write to it with a call to [**IPropertyStorage::WriteMultiple**](ipropertystorage-writemultiple.md). To read the property set, you would call [**IPropertyStorage::ReadMultiple**](ipropertystorage-readmultiple.md).
+For example, to create an ANSI simple property set, you would call [**IPropertySetStorage::Create**](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-create?branch=master) to create the property set, specifying **PROPSETFLAG\_ANSI** (simple is the default type of property set), then write to it with a call to [**IPropertyStorage::WriteMultiple**](/windows/win32/Propidl/nf-propidl-ipropertystorage-writemultiple?branch=master). To read the property set, you would call [**IPropertyStorage::ReadMultiple**](/windows/win32/Propidl/nf-propidl-ipropertystorage-readmultiple?branch=master).
 
 All shared property sets are identified by a stream or storage name with the prefix "\\005" (or 0x05) to show that it is a property set that can be shared among applications. The Summary Information property set is no exception. The name of the stream that contains the Summary Information property set is: **"\\005SummaryInformation"**
 
-It is not necessary to know the stream name of the property set when accessing it by means of the [**Create**](ipropertysetstorage-create.md) or [**Open**](ipropertysetstorage-open.md) methods of the [**IPropertySetStorage**](ipropertysetstorage.md) interface; in this case only the format identifier (FMTID) need be known. The FMTID for the Summary Information property set is: **F29F85E0-4FF9-1068-AB91-08002B27B3D9**
+It is not necessary to know the stream name of the property set when accessing it by means of the [**Create**](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-create?branch=master) or [**Open**](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-open?branch=master) methods of the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface; in this case only the format identifier (FMTID) need be known. The FMTID for the Summary Information property set is: **F29F85E0-4FF9-1068-AB91-08002B27B3D9**
 
 The declaration for this value is available in the header file as **FMTID\_SummaryInformation**. For more information, see the FMTIDS in the [Predefined Property Set Format Identifiers](predefined-property-set-format-identifiers.md).
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Passes in a key value with any associated data required by the Content Decryption Module for the given key system.'
-ms.assetid: '29e66037-5f18-4724-b6f2-d85555e6af69'
-title: 'IMFMediaKeySession::Update method'
+---
+Description: Passes in a key value with any associated data required by the Content Decryption Module for the given key system.
+ms.assetid: 29e66037-5f18-4724-b6f2-d85555e6af69
+title: IMFMediaKeySessionUpdate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaKeySession::Update method
@@ -54,7 +59,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaKeySession**](imfmediakeysession.md)
+[**IMFMediaKeySession**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediakeysession?branch=master)
 </dt> </dl>
 
  

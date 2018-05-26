@@ -1,14 +1,20 @@
 ---
 title: DaysOfWeek (monthlyDayOfWeekScheduleType) Element
 description: Specifies the days of the week in which the task runs.
-ms.assetid: 'd84f0019-1369-465f-9054-0fb5a83cad6d'
-keywords: ["DaysOfWeek element Task Scheduler"]
+ms.assetid: d84f0019-1369-465f-9054-0fb5a83cad6d
+keywords:
+- DaysOfWeek element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DaysOfWeek
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DaysOfWeek (monthlyDayOfWeekScheduleType) Element
@@ -53,7 +59,7 @@ The **DaysOfWeek** element is defined by the [**monthlyDayOfWeekScheduleType**](
 
 For scripting development, the days of the week for a monthly day-of-week calendar are specified using the [**MonthlyDOWTrigger.DaysOfWeek**](monthlydowtrigger-daysofweek.md) property.
 
-For C++ development, the days of the week for a monthly day-of-week calendar are specified using the [**IMonthlyDOWTrigger::DaysOfWeek**](imonthlydowtrigger-daysofweek.md) property.
+For C++ development, the days of the week for a monthly day-of-week calendar are specified using the [**IMonthlyDOWTrigger::DaysOfWeek**](/windows/win32/taskschd/nf-taskschd-imonthlydowtrigger-get_daysofweek?branch=master) property.
 
 The child elements above are defined by the [**daysOfWeekType**](taskschedulerschema-daysofweektype-complextype.md) complex type.
 
@@ -95,8 +101,8 @@ The following XML defines a monthly day-of-week calendar that starts the task on
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -110,9 +116,9 @@ The following XML defines a monthly day-of-week calendar that starts the task on
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

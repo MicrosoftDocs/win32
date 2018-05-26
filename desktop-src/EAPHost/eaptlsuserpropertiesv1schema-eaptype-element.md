@@ -1,14 +1,20 @@
 ---
 title: EapType Element
 description: Is a derived type of the EapType element from the baseeapuserpropertiesv1 schema.
-ms.assetid: 'c9117803-dbf0-498d-8f86-f44ac2e6b2dc'
-keywords: ["EapType element EAPHost"]
+ms.assetid: c9117803-dbf0-498d-8f86-f44ac2e6b2dc
+keywords:
+- EapType element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapType Element
@@ -65,8 +71,8 @@ The **processContents** element enables future enhancements to the schema. The *
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -80,9 +86,9 @@ The **processContents** element enables future enhancements to the schema. The *
 [eaptlsuserpropertiesv1 Schema](eaptlsuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

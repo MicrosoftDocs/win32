@@ -1,7 +1,12 @@
 ---
 title: File Inclusion
 description: File Inclusion
-ms.assetid: '8320d2a8-36a7-4b7b-864e-c46945832630'
+ms.assetid: 8320d2a8-36a7-4b7b-864e-c46945832630
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Inclusion

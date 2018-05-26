@@ -1,7 +1,12 @@
 ---
 title: Setting the Cursor Image
 description: Setting the Cursor Image
-ms.assetid: 'FB223131-19AE-41DD-87DE-73992AE2A0CA'
+ms.assetid: FB223131-19AE-41DD-87DE-73992AE2A0CA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Cursor Image

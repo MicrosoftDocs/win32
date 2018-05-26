@@ -4,10 +4,13 @@ description: The MMC application places its own data object onto the clipboard; 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95cda384-d50f-4c7a-895e-418b1e3fff54'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 95cda384-d50f-4c7a-895e-418b1e3fff54
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Clipboard Information

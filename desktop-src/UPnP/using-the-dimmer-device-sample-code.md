@@ -1,7 +1,12 @@
 ---
 title: Using the Dimmer Device Sample Code
 description: The Platform Software Development Kit (SDK) includes dimmer device sample code. This sample code demonstrates a simple UPnP-based device implemented by using the Device Host API with UPnP technology.
-ms.assetid: '6f83cc8f-4634-4bfd-ace6-b9e1b83dff4d'
+ms.assetid: 6f83cc8f-4634-4bfd-ace6-b9e1b83dff4d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Dimmer Device Sample Code

@@ -1,7 +1,12 @@
 ---
 title: Software Shaders
 description: Software shaders are implemented to allow development of shaders without underlying hardware support. They support the full feature set. Because they are implemented in software, they will not produce the best performance.
-ms.assetid: '0153732d-a487-473b-ad77-32ab457979f5'
+ms.assetid: 0153732d-a487-473b-ad77-32ab457979f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Software Shaders

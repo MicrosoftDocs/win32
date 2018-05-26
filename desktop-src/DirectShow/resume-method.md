@@ -1,7 +1,12 @@
 ---
-Description: 'The Resume method resumes playback after a menu has been displayed.'
-ms.assetid: 'e16d0c05-34ca-4841-b7a2-e7878c795a40'
+Description: The Resume method resumes playback after a menu has been displayed.
+ms.assetid: e16d0c05-34ca-4841-b7a2-e7878c795a40
 title: Resume Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resume Method

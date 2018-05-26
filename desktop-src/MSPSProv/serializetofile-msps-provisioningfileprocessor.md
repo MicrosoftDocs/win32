@@ -4,13 +4,16 @@ description: Serialize a provisioning file to a file on disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6822ebe0-09ed-462e-9ddf-cb6cf3aa8b67'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6822ebe0-09ed-462e-9ddf-cb6cf3aa8b67
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SerializeToFile method", "SerializeToFile method, Msps_ProvisioningFileProcessor class", "Msps_ProvisioningFileProcessor class, SerializeToFile method"]
+keywords:
+- SerializeToFile method
+- SerializeToFile method, Msps_ProvisioningFileProcessor class
+- Msps_ProvisioningFileProcessor class, SerializeToFile method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SerializeToFile method of the Msps\_ProvisioningFileProcessor class
@@ -30,8 +36,8 @@ Serialize a provisioning file to a file on disk. May not be supported by all pro
 
 ```mof
 uint32 SerializeToFile(
-  [in] string                FilePath,
-  [in] Msps_ProvisioningFile ProvisioningFile
+  [in] string                FilePath,
+  [in] Msps_ProvisioningFile ProvisioningFile
 );
 ```
 
@@ -62,7 +68,7 @@ The [**Msps\_ProvisioningFile**](msps-provisioningfile.md) object to serialize.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ The [**Msps\_ProvisioningFile**](msps-provisioningfile.md) object to serialize.
 [**Msps\_ProvisioningFileProcessor**](msps-provisioningfileprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

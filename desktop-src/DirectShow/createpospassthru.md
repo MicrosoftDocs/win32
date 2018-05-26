@@ -1,7 +1,12 @@
 ---
-Description: 'The CreatePosPassThru function creates a CPosPassThru object or CRendererPosPassThru object.'
-ms.assetid: 'd6fccfb4-b256-40aa-b927-84c7a886f631'
+Description: The CreatePosPassThru function creates a CPosPassThru object or CRendererPosPassThru object.
+ms.assetid: d6fccfb4-b256-40aa-b927-84c7a886f631
 title: CreatePosPassThru function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreatePosPassThru function
@@ -13,10 +18,10 @@ The `CreatePosPassThru` function creates a [**CPosPassThru**](cpospassthru.md) o
 
 ```C++
 STDAPI CreatePosPassThru(
-   LPUNKNOWN pAgg,
-   BOOL      bRenderer,
-   IPin      *pPin,
-   IUnknown  **ppPassThru
+   LPUNKNOWN pAgg,
+   BOOL      bRenderer,
+   IPin      *pPin,
+   IUnknown  **ppPassThru
 );
 ```
 
@@ -43,7 +48,7 @@ Boolean value that specifies whether the filter is a renderer. Use the value **T
 *pPin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface on the filter's input pin.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface on the filter's input pin.
 
 </dd> <dt>
 
@@ -60,7 +65,7 @@ Returns S\_OK if successful. Otherwise, returns an **HRESULT** value indicating 
 
 ## Remarks
 
-This method uses the [**ISeekingPassThru**](iseekingpassthru.md) interface to create the object. The object is loaded dynamically from Quartz.dll.
+This method uses the [**ISeekingPassThru**](/windows/win32/Strmif/nn-strmif-iseekingpassthru?branch=master) interface to create the object. The object is loaded dynamically from Quartz.dll.
 
 If the function succeeds, the returned **IUnknown** interface has an outstanding reference count. The caller must release the interface.
 
@@ -82,9 +87,9 @@ If the function succeeds, the returned **IUnknown** interface has an outstanding
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

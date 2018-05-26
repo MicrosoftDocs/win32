@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SINGLE\_FRAME\_OPEN message
 description: The WM\_CAP\_SINGLE\_FRAME\_OPEN message opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can send this message explicitly or by using the capCaptureSingleFrameOpen macro.
-ms.assetid: '4814737c-4395-4c01-a68e-fac43dd291fd'
-keywords: ["WM_CAP_SINGLE_FRAME_OPEN message Windows Multimedia"]
+ms.assetid: 4814737c-4395-4c01-a68e-fac43dd291fd
+keywords:
+- WM_CAP_SINGLE_FRAME_OPEN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SINGLE\_FRAME\_OPEN message
 
-The **WM\_CAP\_SINGLE\_FRAME\_OPEN** message opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can send this message explicitly or by using the [**capCaptureSingleFrameOpen**](capcapturesingleframeopen.md) macro.
+The **WM\_CAP\_SINGLE\_FRAME\_OPEN** message opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can send this message explicitly or by using the [**capCaptureSingleFrameOpen**](/windows/win32/Vfw/nf-vfw-capcapturesingleframeopen?branch=master) macro.
 
 
 ```C++
@@ -40,8 +46,8 @@ For information about installing callback functions, see the [**WM\_CAP\_SET\_CA
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -56,9 +62,9 @@ For information about installing callback functions, see the [**WM\_CAP\_SET\_CA
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

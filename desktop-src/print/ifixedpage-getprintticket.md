@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPrintTicket method gets the print ticket object for the fixed page.'
-ms.assetid: '4a30efd9-8fef-4fef-8293-b7df5b954977'
-title: 'IFixedPage::GetPrintTicket method'
+---
+Description: The GetPrintTicket method gets the print ticket object for the fixed page.
+ms.assetid: 4a30efd9-8fef-4fef-8293-b7df5b954977
+title: IFixedPageGetPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::GetPrintTicket method

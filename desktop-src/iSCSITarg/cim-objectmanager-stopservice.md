@@ -4,13 +4,16 @@ description: The StopService method places the Service in the stopped state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ad08294c-7e07-4e60-99e3-824cdee6aa37'
-ms.prod: 'windows-server-dev'
+ms.assetid: ad08294c-7e07-4e60-99e3-824cdee6aa37
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method iSCSI Software Target API", "StopService method iSCSI Software Target API , CIM_ObjectManager class", "CIM_ObjectManager class iSCSI Software Target API , StopService method"]
+keywords:
+- StopService method iSCSI Software Target API
+- StopService method iSCSI Software Target API , CIM_ObjectManager class
+- CIM_ObjectManager class iSCSI Software Target API , StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the CIM\_ObjectManager class
@@ -45,7 +51,7 @@ This method has no parameters.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>              |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
@@ -60,9 +66,9 @@ This method has no parameters.
 [**CIM\_ObjectManager**](cim-objectmanager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

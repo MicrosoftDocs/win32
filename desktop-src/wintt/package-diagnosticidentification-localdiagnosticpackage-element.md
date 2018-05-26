@@ -1,14 +1,20 @@
 ---
 title: DiagnosticIdentification (LocalDiagnosticPackage) Element
 description: The identifier and version used to identify the pack.
-ms.assetid: 'dacc2424-e65b-4e21-9213-362ba44ee958'
-keywords: ["DiagnosticIdentification element Windows Troubleshooting Toolkit"]
+ms.assetid: dacc2424-e65b-4e21-9213-362ba44ee958
+keywords:
+- DiagnosticIdentification element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DiagnosticIdentification
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiagnosticIdentification (LocalDiagnosticPackage) Element
@@ -27,14 +33,14 @@ The **DiagnosticIdentification** element is defined by the [**LocalDiagnosticPac
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

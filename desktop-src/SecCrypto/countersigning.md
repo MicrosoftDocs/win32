@@ -1,7 +1,12 @@
 ---
-Description: 'Lists topics that explain how to countersign messages and verify countersignatures.'
-ms.assetid: '172e4f56-6dc0-460d-afe0-8da6f71a4e4c'
+Description: Lists topics that explain how to countersign messages and verify countersignatures.
+ms.assetid: 172e4f56-6dc0-460d-afe0-8da6f71a4e4c
 title: Countersigning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Countersigning

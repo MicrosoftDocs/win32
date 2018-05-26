@@ -1,8 +1,15 @@
 ---
 title: To Load a System Profile
 description: To Load a System Profile
-ms.assetid: '2398a44d-c5c7-4fa2-b0ed-1cfb75d8822c'
-keywords: ["profiles,system", "system profiles,loading"]
+ms.assetid: 2398a44d-c5c7-4fa2-b0ed-1cfb75d8822c
+keywords:
+- profiles,system
+- system profiles,loading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Load a System Profile
@@ -41,7 +48,7 @@ pProfileMgr = NULL;
 
 
 
-If you do not know which profile you want to use, you can iterate through all of the system profiles of a particular version using the [**GetSystemProfileCount**](iwmprofilemanager-getsystemprofilecount.md) and [**LoadSystemProfile**](iwmprofilemanager-loadsystemprofile.md) methods of the [**IWMProfileManager**](iwmprofilemanager.md) interface. These methods only deal with one version of the system profiles at a time. For more information about changing the system profile version, see [To Change System Profile Versions](to-change-system-profile-versions.md).
+If you do not know which profile you want to use, you can iterate through all of the system profiles of a particular version using the [**GetSystemProfileCount**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-getsystemprofilecount?branch=master) and [**LoadSystemProfile**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile?branch=master) methods of the [**IWMProfileManager**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmprofilemanager?branch=master) interface. These methods only deal with one version of the system profiles at a time. For more information about changing the system profile version, see [To Change System Profile Versions](to-change-system-profile-versions.md).
 
 ## Related topics
 

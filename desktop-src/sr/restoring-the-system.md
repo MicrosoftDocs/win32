@@ -1,7 +1,12 @@
 ---
 title: Restoring the System
 description: As the computer is used over time, restore points are collected in the data archive without any management or intervention required by the user.
-ms.assetid: '9581eff5-44d0-407e-b7cb-d3e13910a936'
+ms.assetid: 9581eff5-44d0-407e-b7cb-d3e13910a936
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restoring the System

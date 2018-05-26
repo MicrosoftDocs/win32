@@ -4,17 +4,21 @@ description: Policy type, template based or custom.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6199FAFB-8320-49BE-913C-FA3491F442A9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6199FAFB-8320-49BE-913C-FA3491F442A9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy type property"]
+keywords:
+- MSUserPolicy type property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy type property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy type property
@@ -37,7 +41,7 @@ Policy type, template based or custom.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

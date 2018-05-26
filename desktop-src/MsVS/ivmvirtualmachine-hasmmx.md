@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine HasMMX property
 description: The HasMMX property contains TRUE if the processor supports the MMX instruction set.
-ms.assetid: 'fa00f64c-77ac-430e-9b6e-f02a02d7ac9a'
-keywords: ["HasMMX property Virtual Server", "HasMMX property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , HasMMX property", "HasMMX property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , HasMMX property"]
+ms.assetid: fa00f64c-77ac-430e-9b6e-f02a02d7ac9a
+keywords:
+- HasMMX property Virtual Server
+- HasMMX property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , HasMMX property
+- HasMMX property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , HasMMX property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::HasMMX property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HasMMX(
-  [out] VARIANT_BOOL *mmxEnabled
+  [out] VARIANT_BOOL *mmxEnabled
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "HasMMX: " & objVM.HasMMX
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ WScript.Echo "HasMMX: " & objVM.HasMMX
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

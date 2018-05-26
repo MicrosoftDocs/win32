@@ -4,13 +4,16 @@ description: The use of this method is being deprecated, since Current senor rea
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8adf3820-fb40-431e-ad3a-69e5496688e0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8adf3820-fb40-431e-ad3a-69e5496688e0
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetNonLinearFactors method", "GetNonLinearFactors method, CIM_NumericSensor class", "CIM_NumericSensor class, GetNonLinearFactors method"]
+keywords:
+- GetNonLinearFactors method
+- GetNonLinearFactors method, CIM_NumericSensor class
+- CIM_NumericSensor class, GetNonLinearFactors method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetNonLinearFactors method of the CIM\_NumericSensor class
@@ -32,11 +38,11 @@ For a non-linear Sensor, the resolution, accuracy, tolerance and hysteresis vary
 
 ```mof
 uint32 GetNonLinearFactors(
-  [in]  sint32 SensorReading,
-  [out] sint32 Accuracy,
-  [out] uint32 Resolution,
-  [out] sint32 Tolerance,
-  [out] uint32 Hysteresis
+  [in]  sint32 SensorReading,
+  [out] sint32 Accuracy,
+  [out] uint32 Resolution,
+  [out] sint32 Tolerance,
+  [out] uint32 Hysteresis
 );
 ```
 
@@ -87,8 +93,8 @@ The Hysteresis of the reading.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -102,9 +108,9 @@ The Hysteresis of the reading.
 [**CIM\_NumericSensor**](cim-numericsensor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

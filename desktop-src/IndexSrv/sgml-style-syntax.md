@@ -1,7 +1,12 @@
 ---
 title: SGML-Style Syntax
 description: SGML-Style Syntax
-ms.assetid: '46bb0535-5835-4779-b9c1-66eba5860407'
+ms.assetid: 46bb0535-5835-4779-b9c1-66eba5860407
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SGML-Style Syntax

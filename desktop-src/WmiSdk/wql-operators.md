@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WQL operators used in the WHERE clause or the SELECT statement.'
+Description: Describes WQL operators used in the WHERE clause or the SELECT statement.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a62de66d-d5ba-49a1-8262-bfa10ac2db75'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a62de66d-d5ba-49a1-8262-bfa10ac2db75
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WQL Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WQL Operators

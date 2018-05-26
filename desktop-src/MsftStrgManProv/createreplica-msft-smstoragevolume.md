@@ -4,11 +4,14 @@ description: Creates a replication relationship between virtual disks.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '36905908-2e50-44cb-ac74-b4e4864dfcbc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 36905908-2e50-44cb-ac74-b4e4864dfcbc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplica method", "CreateReplica method, MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, CreateReplica method"]
+keywords:
+- CreateReplica method
+- CreateReplica method, MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, CreateReplica method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplica method of the MSFT\_SMStorageVolume class
@@ -28,19 +34,19 @@ Creates a replication relationship between virtual disks.
 
 ```mof
 UInt32 CreateReplica(
-  [in]            string                     ElementName,
-  [in]            uint16                     SyncType,
-  [in]            uint16                     Mode,
-  [in]            MSFT_SMReplicaPeer     REF TargetStorageSystem,
-  [in, out]       MSFT_SMStorageVolume   REF TargetStorageVolume,
-  [in]            MSFT_SMPool            REF TargetStoragePool,
-  [in]            UInt32                     RecoveryPointObjective,
-  [in, optional]  MSFT_SMReplicationSettings ReplicationSettings,
-  [out]           MSFT_SMReplicaPeer     REF TargetReplicaPeer,
-  [in, optional]  String                     username,
-  [in, optional]  String                     password,
-  [out]           MSFT_SMJob             REF Job,
-  [out, optional] MSFT_SMExtendedStatus      ExtendedStatus
+  [in]            string                     ElementName,
+  [in]            uint16                     SyncType,
+  [in]            uint16                     Mode,
+  [in]            MSFT_SMReplicaPeer     REF TargetStorageSystem,
+  [in, out]       MSFT_SMStorageVolume   REF TargetStorageVolume,
+  [in]            MSFT_SMPool            REF TargetStoragePool,
+  [in]            UInt32                     RecoveryPointObjective,
+  [in, optional]  MSFT_SMReplicationSettings ReplicationSettings,
+  [out]           MSFT_SMReplicaPeer     REF TargetReplicaPeer,
+  [in, optional]  String                     username,
+  [in, optional]  String                     password,
+  [out]           MSFT_SMJob             REF Job,
+  [out, optional] MSFT_SMExtendedStatus      ExtendedStatus
 );
 ```
 
@@ -71,7 +77,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -106,14 +112,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Mode* \[in\]
 </dt> <dd>
@@ -287,7 +293,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | Header<br/>                   | <dl> <dt>Adojet.h</dt> </dl>           |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
@@ -302,9 +308,9 @@ The possible return values are:
 [**MSFT\_SMStorageVolume**](msft-smstoragevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

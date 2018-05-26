@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SCARD\_IO\_REQUEST structure begins a protocol control information structure.'
-ms.assetid: '80fd7c6e-e768-42db-8302-29e92c9552f0'
-title: 'SCARD\_IO\_REQUEST structure'
+---
+Description: The SCARD\_IO\_REQUEST structure begins a protocol control information structure.
+ms.assetid: 80fd7c6e-e768-42db-8302-29e92c9552f0
+title: SCARD\_IO\_REQUEST structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCARD\_IO\_REQUEST structure
@@ -54,7 +59,7 @@ Length, in bytes, of the **SCARD\_IO\_REQUEST** structure plus any following PCI
 
 <dl> <dt>
 
-[**SCardTransmit**](scardtransmit.md)
+[**SCardTransmit**](/windows/win32/Winscard/nf-winscard-scardtransmit?branch=master)
 </dt> </dl>
 
  

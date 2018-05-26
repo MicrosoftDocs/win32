@@ -1,12 +1,17 @@
-﻿---
-Description: 'The DirectShow base classes provides helper functions for handling the AM\_MEDIA\_TYPE structure.'
-ms.assetid: '4dbea5b4-bf78-4253-be48-d81b77be6e77'
+---
+Description: The DirectShow base classes provides helper functions for handling the AM\_MEDIA\_TYPE structure.
+ms.assetid: 4dbea5b4-bf78-4253-be48-d81b77be6e77
 title: Media Type Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Type Functions
 
-The DirectShow base classes provides helper functions for handling the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure.
+The DirectShow base classes provides helper functions for handling the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure.
 
 The **AM\_MEDIA\_TYPE** structure contains a pointer (the **pbFormat** member) to another block of memory, which is called the *format block*. When you work with this structure, therefore, you must be careful about memory allocation in order to avoid memory leaks.
 

@@ -1,8 +1,14 @@
 ---
 title: HTTP Server API Features
 description: This topic supported and unsupported features of the HTTP Server API.
-ms.assetid: '448fe5a5-e79f-4c3a-aa76-94cff988f24f'
-keywords: ["HTTP Server API Features"]
+ms.assetid: 448fe5a5-e79f-4c3a-aa76-94cff988f24f
+keywords:
+- HTTP Server API Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Server API Features

@@ -1,7 +1,12 @@
 ---
 title: Property Sample
-ms.assetid: '44642d32-2cbc-4dd9-bccc-15924f310539'
+ms.assetid: 44642d32-2cbc-4dd9-bccc-15924f310539
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sample
@@ -16,7 +21,7 @@ This topic describes the Property Sample code sample. It contains the following 
 
 ## Description
 
-The Property Sample shows how to implement three different styles of property sheets: modal, modeless, and wizard. It also shows how to use the [*PropSheetProc*](propsheetproc.md) function to modify the property sheet dialog before or after it is created.
+The Property Sample shows how to implement three different styles of property sheets: modal, modeless, and wizard. It also shows how to use the [*PropSheetProc*](/windows/win32/Prsht/nc-prsht-pfnpropsheetcallback?branch=master) function to modify the property sheet dialog before or after it is created.
 
 ## Minimum Requirements
 

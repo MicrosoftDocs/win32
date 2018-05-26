@@ -1,7 +1,12 @@
 ---
-Description: 'The Render method initializes the DVD filter graph.'
-ms.assetid: '910f1e3f-b3bb-498b-93da-3a974a3117e8'
+Description: The Render method initializes the DVD filter graph.
+ms.assetid: 910f1e3f-b3bb-498b-93da-3a974a3117e8
 title: Render Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Render Method

@@ -1,8 +1,14 @@
 ---
 title: The IDL and ACF Files
 description: The syntax of the Microsoft Interface Definition Language (MIDL) is based on the syntax of the C programming language. When a language concept in this description of MIDL is not fully defined, the C-language definition of that term is implied.
-ms.assetid: 'f99f5934-750d-4c30-9970-803a891cacb7'
-keywords: ["Remote Procedure Call RPC , described, IDL and ACF files"]
+ms.assetid: f99f5934-750d-4c30-9970-803a891cacb7
+keywords:
+- Remote Procedure Call RPC , described, IDL and ACF files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The IDL and ACF Files

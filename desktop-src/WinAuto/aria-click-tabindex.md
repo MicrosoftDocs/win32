@@ -1,8 +1,14 @@
 ---
 title: ARIA Tabindex Error
 description: ARIA Tabindex Error
-ms.assetid: 'CCBC56E8-8899-4962-8315-762538CA666C'
-keywords: ["AriaTabIndexErrorId"]
+ms.assetid: CCBC56E8-8899-4962-8315-762538CA666C
+keywords:
+- AriaTabIndexErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Tabindex Error

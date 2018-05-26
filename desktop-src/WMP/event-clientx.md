@@ -1,14 +1,20 @@
 ---
 title: event.clientX
 description: The clientX attribute retrieves the x-coordinate of the mouse pointer with respect to the client region of the application window.
-ms.assetid: 'd4be2620-17c3-429b-a80b-b8aec2aaa8b7'
-keywords: ["event.clientX Windows Media Player"]
+ms.assetid: d4be2620-17c3-429b-a80b-b8aec2aaa8b7
+keywords:
+- event.clientX Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.clientX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.clientX
@@ -43,9 +49,9 @@ This attribute is a read-only **Number** (**long**).
 [**event.clientY**](event-clienty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

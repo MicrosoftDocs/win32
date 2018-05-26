@@ -1,7 +1,12 @@
 ---
-Description: 'Unregisters the associated provider.'
-ms.assetid: 'b5edc33d-dfd0-4350-b8cd-eaa30b726771'
-title: 'ITipAutocompleteClient::UnadviseProvider method'
+Description: Unregisters the associated provider.
+ms.assetid: b5edc33d-dfd0-4350-b8cd-eaa30b726771
+title: ITipAutocompleteClientUnadviseProvider method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteClient::UnadviseProvider method
@@ -13,8 +18,8 @@ Unregisters the associated provider.
 
 ```C++
 HRESULT UnadviseProvider(
-  [in] HWND                   hWndField,
-  [in] ITipAutocompleProvider *pIACProvider
+  [in] HWND                   hWndField,
+  [in] ITipAutocompleProvider *pIACProvider
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -76,9 +81,9 @@ This method can return one of these values.
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

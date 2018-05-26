@@ -1,14 +1,20 @@
 ---
 title: MaintenanceSettings (maintenanceSettingsType) Element
 description: Specifies how the Task Scheduler performs tasks during Automatic maintenance.
-ms.assetid: '6A204980-851D-4487-A6CC-01BE262A517A'
-keywords: ["MaintenanceSettings element Task Scheduler"]
+ms.assetid: 6A204980-851D-4487-A6CC-01BE262A517A
+keywords:
+- MaintenanceSettings element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - MaintenanceSettings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaintenanceSettings (maintenanceSettingsType) Element
@@ -48,7 +54,7 @@ The **MaintenanceSettings** element is defined by the [**maintenanceSettingsType
 
 ## Remarks
 
-For C++ programming, this idle setting is specified using the [**ITaskSettings3::MaintenanceSettings**](itasksettings3-maintenancesettings.md) property.
+For C++ programming, this idle setting is specified using the [**ITaskSettings3::MaintenanceSettings**](/windows/win32/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings?branch=master) property.
 
 ## Examples
 
@@ -72,8 +78,8 @@ The following XML defines a settings element that instructs Task Scheduler to ex
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
@@ -87,9 +93,9 @@ The following XML defines a settings element that instructs Task Scheduler to ex
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

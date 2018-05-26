@@ -1,7 +1,12 @@
 ---
-Description: 'Methods for Rendering Plug-Ins'
-ms.assetid: '55608502-e262-4178-a063-15a11689d8bf'
-title: 'Methods for Rendering Plug-Ins'
+Description: Methods for Rendering Plug-Ins
+ms.assetid: 55608502-e262-4178-a063-15a11689d8bf
+title: Methods for Rendering Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Methods for Rendering Plug-Ins

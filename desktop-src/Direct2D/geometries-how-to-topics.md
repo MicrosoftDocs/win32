@@ -1,7 +1,12 @@
 ---
 title: Geometries How-to Topics
 description: The topics in this section provides examples for geometry-related tasks.
-ms.assetid: '371a6662-f68f-418a-a81d-239de56877f1'
+ms.assetid: 371a6662-f68f-418a-a81d-239de56877f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Geometries How-to Topics
@@ -21,11 +26,11 @@ The topics in this section provides examples for geometry-related tasks.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

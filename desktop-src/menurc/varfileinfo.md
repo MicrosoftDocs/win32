@@ -1,14 +1,20 @@
 ---
 title: VarFileInfo structure
 description: Represents the organization of data in a file-version resource. It contains version information not dependent on a particular language and code page combination.
-ms.assetid: '3b667778-fb08-4195-a88e-ac04baf45fee'
-keywords: ["VarFileInfo structure Menus and Other Resources"]
+ms.assetid: 3b667778-fb08-4195-a88e-ac04baf45fee
+keywords:
+- VarFileInfo structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - VarFileInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VarFileInfo structure
@@ -20,12 +26,12 @@ Represents the organization of data in a file-version resource. It contains vers
 
 ```C++
 typedef struct {
-  WORD  wLength;
-  WORD  wValueLength;
-  WORD  wType;
+  WORD  wLength;
+  WORD  wValueLength;
+  WORD  wType;
   WCHAR szKey;
-  WORD  Padding;
-  Var   Children;
+  WORD  Padding;
+  Var   Children;
 } VarFileInfo;
 ```
 
@@ -113,8 +119,8 @@ The **Children** member of the [**VS\_VERSIONINFO**](vs-versioninfo.md) structur
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -137,9 +143,9 @@ The **Children** member of the [**VS\_VERSIONINFO**](vs-versioninfo.md) structur
 [Version Information](version-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

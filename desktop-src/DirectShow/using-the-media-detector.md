@@ -1,7 +1,12 @@
 ---
 Description: Using the Media Detector
-ms.assetid: '462150d5-7315-4c2b-81b0-964a788ec47d'
+ms.assetid: 462150d5-7315-4c2b-81b0-964a788ec47d
 title: Using the Media Detector
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Media Detector

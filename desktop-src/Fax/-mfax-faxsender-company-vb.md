@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Company property is a null-terminated string that contains the company name associated with the sender.'
-ms.assetid: 'bd0621c0-cdb2-452c-a747-478a4786b3fb'
-title: 'FaxSender.Company property'
+---
+Description: The Company property is a null-terminated string that contains the company name associated with the sender.
+ms.assetid: bd0621c0-cdb2-452c-a747-478a4786b3fb
+title: FaxSender.Company property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.Company property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the name of the company that is associat
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

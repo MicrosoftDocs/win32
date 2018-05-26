@@ -1,8 +1,11 @@
 ---
 title: IDistList SaveChanges method
 description: Provides the ability to save changes to the open distribution list object.
-ms.assetid: '2b1cb381-8b8b-456e-a139-aa550129f983'
-keywords: ["SaveChanges method Windows Address Book", "SaveChanges method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , SaveChanges method"]
+ms.assetid: 2b1cb381-8b8b-456e-a139-aa550129f983
+keywords:
+- SaveChanges method Windows Address Book
+- SaveChanges method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , SaveChanges method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::SaveChanges method
@@ -22,7 +30,7 @@ Provides the ability to save changes to the open distribution list object.
 
 ```C++
 HRESULT SaveChanges(
-   ULONG ulFlags
+   ULONG ulFlags
 );
 ```
 
@@ -102,7 +110,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -110,17 +118,17 @@ This method can return one of these values.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

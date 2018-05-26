@@ -4,11 +4,14 @@ description: Requests information about the target computer where the connection
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43970B06-8CBD-4204-94AE-090A63918A90'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 43970B06-8CBD-4204-94AE-090A63918A90
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetTargetInfo method Remote Desktop Services", "GetTargetInfo method Remote Desktop Services , IConnectionBrokerClient interface", "IConnectionBrokerClient interface Remote Desktop Services , GetTargetInfo method"]
+keywords:
+- GetTargetInfo method Remote Desktop Services
+- GetTargetInfo method Remote Desktop Services , IConnectionBrokerClient interface
+- IConnectionBrokerClient interface Remote Desktop Services , GetTargetInfo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cbclient.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IConnectionBrokerClient::GetTargetInfo method
@@ -28,12 +34,12 @@ Requests information about the target computer where the connection should be re
 
 ```C++
 HRESULT GetTargetInfo(
-  [in]  CB_CONNECTION_INFO       *pConnectionInfo,
-  [in]  DWORD                    Reserved,
-  [in]  HANDLE                   hStatusEvent,
-  [out] CB_TARGET_INFO           *pTargetInfo,
-  [out] DWORD                    *pResult,
-  [out] IConnectionBrokerRequest **ppCbReq
+  [in]  CB_CONNECTION_INFO       *pConnectionInfo,
+  [in]  DWORD                    Reserved,
+  [in]  HANDLE                   hStatusEvent,
+  [out] CB_TARGET_INFO           *pTargetInfo,
+  [out] DWORD                    *pResult,
+  [out] IConnectionBrokerRequest **ppCbReq
 );
 ```
 
@@ -187,8 +193,8 @@ For more information about how to use this method, see [How to use the Remote De
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Cbclient.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Cbclient.dll</dt> </dl> |
@@ -202,9 +208,9 @@ For more information about how to use this method, see [How to use the Remote De
 [**IConnectionBrokerClient**](iconnectionbrokerclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TCM\_SETPADDING message
-description: Sets the amount of space (padding) around each tab's icon and label in a tab control. You can send this message explicitly or by using the TabCtrl\_SetPadding macro.
-ms.assetid: 'c7f84c0d-8bf4-429a-b403-a0019575e72e'
-keywords: ["TCM_SETPADDING message Windows Controls"]
+description: Sets the amount of space (padding) around each tabs icon and label in a tab control. You can send this message explicitly or by using the TabCtrl\_SetPadding macro.
+ms.assetid: c7f84c0d-8bf4-429a-b403-a0019575e72e
+keywords:
+- TCM_SETPADDING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_SETPADDING message
 
-Sets the amount of space (padding) around each tab's icon and label in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetPadding**](tabctrl-setpadding.md) macro.
+Sets the amount of space (padding) around each tab's icon and label in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetPadding**](/windows/win32/Commctrl/nf-commctrl-tabctrl_setpadding?branch=master) macro.
 
 ## Parameters
 
@@ -38,15 +44,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

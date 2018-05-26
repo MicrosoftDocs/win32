@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive ReleaseHostDrive method
 description: The ReleaseHostDrive method releases a captured host drive from the DVD drive.
-ms.assetid: 'a1c1c5f3-5017-405b-9eac-0bb7b7b12d55'
-keywords: ["ReleaseHostDrive method Virtual Server", "ReleaseHostDrive method Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , ReleaseHostDrive method", "ReleaseHostDrive method Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , ReleaseHostDrive method"]
+ms.assetid: a1c1c5f3-5017-405b-9eac-0bb7b7b12d55
+keywords:
+- ReleaseHostDrive method Virtual Server
+- ReleaseHostDrive method Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , ReleaseHostDrive method
+- ReleaseHostDrive method Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , ReleaseHostDrive method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::ReleaseHostDrive method
@@ -47,7 +57,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,8 +65,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -68,9 +78,9 @@ This method can return one of these values.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

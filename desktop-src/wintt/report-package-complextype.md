@@ -1,14 +1,20 @@
 ---
 title: Package Complex Type
 description: Defines the section of the results report that contains the results from running the troubleshooting package.
-ms.assetid: '37dfd5f6-9672-44cb-bba8-ec2fd0d2aa49'
-keywords: ["Package complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 37dfd5f6-9672-44cb-bba8-ec2fd0d2aa49
+keywords:
+- Package complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Package
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package Complex Type
@@ -43,14 +49,14 @@ Defines the section of the results report that contains the results from running
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

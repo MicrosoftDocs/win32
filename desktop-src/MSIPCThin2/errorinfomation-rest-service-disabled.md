@@ -4,11 +4,14 @@ description: The REST service is disabled for this tenant.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.REST\_SERVICE\_DISABLED'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.REST\_SERVICE\_DISABLED
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["REST_SERVICE_DISABLED property", "REST_SERVICE_DISABLED property, ErrorInfomation class", "ErrorInfomation class, REST_SERVICE_DISABLED property"]
+keywords:
+- REST_SERVICE_DISABLED property
+- REST_SERVICE_DISABLED property, ErrorInfomation class
+- ErrorInfomation class, REST_SERVICE_DISABLED property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.REST\_SERVICE\_DISABLED property
@@ -61,9 +67,9 @@ static property ErrorInfomation REST_SERVICE_DISABLED {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

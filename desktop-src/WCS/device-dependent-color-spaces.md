@@ -1,8 +1,22 @@
 ---
 title: Device-Dependent Color Spaces
 description: Most color spaces are device dependent.
-ms.assetid: '657ec64b-8605-4d05-a7d6-9f8bb71e6a71'
-keywords: ["Windows Color System (WCS),device-dependent color spaces", "WCS (Windows Color System),device-dependent color spaces", "image color management,device-dependent color spaces", "color management,device-dependent color spaces", "colors,device-dependent color spaces", "color spaces,device-dependent", "device-dependent color spaces", "white point", "colorants"]
+ms.assetid: 657ec64b-8605-4d05-a7d6-9f8bb71e6a71
+keywords:
+- Windows Color System (WCS),device-dependent color spaces
+- WCS (Windows Color System),device-dependent color spaces
+- image color management,device-dependent color spaces
+- color management,device-dependent color spaces
+- colors,device-dependent color spaces
+- color spaces,device-dependent
+- device-dependent color spaces
+- white point
+- colorants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device-Dependent Color Spaces

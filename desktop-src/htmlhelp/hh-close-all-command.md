@@ -1,7 +1,12 @@
 ---
 title: HH\_CLOSE\_ALL command
 description: Closes all windows opened directly or indirectly by the calling program.
-ms.assetid: 'DFCB4403-F311-4477-A06D-35562BD311F9'
+ms.assetid: DFCB4403-F311-4477-A06D-35562BD311F9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_CLOSE\_ALL command

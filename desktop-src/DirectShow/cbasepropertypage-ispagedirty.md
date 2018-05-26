@@ -1,7 +1,12 @@
 ---
-Description: 'The IsPageDirty method indicates whether the property page has changed since it was activated or since the most recent call to IPropertyPage::Apply. This method implements the IPropertyPage::IsPageDirty method.'
-ms.assetid: '95eeec26-7dbb-4add-a827-6505b40afe48'
-title: 'CBasePropertyPage.IsPageDirty method'
+Description: The IsPageDirty method indicates whether the property page has changed since it was activated or since the most recent call to IPropertyPageApply. This method implements the IPropertyPageIsPageDirty method.
+ms.assetid: 95eeec26-7dbb-4add-a827-6505b40afe48
+title: CBasePropertyPage.IsPageDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.IsPageDirty method
@@ -43,9 +48,9 @@ Returns S\_OK if [**CBasePropertyPage::m\_bDirty**](cbasepropertypage-m-bdirty.m
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

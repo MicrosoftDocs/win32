@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the Device Association Endpoint Container Supports Positioning.'
-ms.assetid: '532bcbfb-9824-4bed-9cd6-115f6246a300'
-title: 'System.Devices.AepContainer.SupportsPositioning'
+Description: Indicates if the Device Association Endpoint Container Supports Positioning.
+ms.assetid: 532bcbfb-9824-4bed-9cd6-115f6246a300
+title: System.Devices.AepContainer.SupportsPositioning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.SupportsPositioning

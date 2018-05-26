@@ -1,14 +1,22 @@
 ---
 title: IAMWMBufferPassCallback Notify method
 description: The Notify method is called by the pin for each buffer that is delivered during streaming.
-ms.assetid: '3f252754-c784-4ffd-bcfc-fab73fa02b9a'
-keywords: ["Notify method windows Media Format", "Notify method windows Media Format , IAMWMBufferPassCallback interface", "IAMWMBufferPassCallback interface windows Media Format , Notify method"]
+ms.assetid: 3f252754-c784-4ffd-bcfc-fab73fa02b9a
+keywords:
+- Notify method windows Media Format
+- Notify method windows Media Format , IAMWMBufferPassCallback interface
+- IAMWMBufferPassCallback interface windows Media Format , Notify method
 topic_type:
 - apiref
 api_name:
 - IAMWMBufferPassCallback.Notify
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMWMBufferPassCallback::Notify method
@@ -36,7 +44,7 @@ HRESULT Notify(
 *pNSSBuffer3* \[in\]
 </dt> <dd>
 
-Pointer to the [**INSSBuffer3**](inssbuffer3.md) interface exposed on the media sample.
+Pointer to the [**INSSBuffer3**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer3?branch=master) interface exposed on the media sample.
 
 </dd> <dt>
 
@@ -76,10 +84,10 @@ This method enables an application to examine and act on information in the medi
 [**DirectShow QASF Reference**](directshow-qasf-reference.md)
 </dt> <dt>
 
-[**IAMWMBufferPassCallback Interface**](iamwmbufferpasscallback.md)
+[**IAMWMBufferPassCallback Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> <dt>
 
-[**INSSBuffer3 Interface**](inssbuffer3.md)
+[**INSSBuffer3 Interface**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer3?branch=master)
 </dt> </dl>
 
  

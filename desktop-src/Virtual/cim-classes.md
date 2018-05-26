@@ -1,7 +1,12 @@
 ---
 title: CIM Classes
 description: CIM classes are the base classes that the WMI classes are based on. While not directly used by the Hyper-V WMI provider, they provide much of the infrastructure that the implemented classes use.
-ms.assetid: '8048CD9A-51B8-457A-8E6D-50B172940DC0'
+ms.assetid: 8048CD9A-51B8-457A-8E6D-50B172940DC0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM Classes
@@ -116,11 +121,11 @@ CIM classes are the base classes that the WMI classes are based on. While not di
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

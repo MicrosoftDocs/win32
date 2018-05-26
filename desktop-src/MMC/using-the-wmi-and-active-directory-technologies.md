@@ -4,11 +4,15 @@ description: Encourages the use of WMI and active directory technologies in snap
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8557a12e-334d-4223-a6ec-e64dc58a1426'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8557a12e-334d-4223-a6ec-e64dc58a1426
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["WMI and Active Directory technologies MMC"]
+keywords:
+- WMI and Active Directory technologies MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the WMI and Active Directory Technologies

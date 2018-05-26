@@ -2,8 +2,16 @@
 title: O
 description: Definitions of OpenGL terms that begin with the letter O.
 Robots: noindex, nofollow
-ms.assetid: '5c70819f-e9b6-49e2-add5-9f6e6aba26ee'
-keywords: ["objects", "object coordinates", "orthographic"]
+ms.assetid: 5c70819f-e9b6-49e2-add5-9f6e6aba26ee
+keywords:
+- objects
+- object coordinates
+- orthographic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # O

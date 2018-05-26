@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c1adbc13-5069-4760-901c-d5ca47913695'
-title: 'System.Music.Genre'
+Description: .
+ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
+title: System.Music.Genre
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.Genre

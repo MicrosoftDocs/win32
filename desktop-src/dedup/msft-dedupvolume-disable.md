@@ -4,13 +4,16 @@ description: Disables further data deduplication activity on one or more volumes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '33426258-4D9A-44EF-AE68-1BE8C35B0460'
-ms.prod: 'windows-server-dev'
+ms.assetid: 33426258-4D9A-44EF-AE68-1BE8C35B0460
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Disable method Data Deduplication API", "Disable method Data Deduplication API , MSFT_DedupVolume interface", "MSFT_DedupVolume interface Data Deduplication API , Disable method"]
+keywords:
+- Disable method Data Deduplication API
+- Disable method Data Deduplication API , MSFT_DedupVolume interface
+- MSFT_DedupVolume interface Data Deduplication API , Disable method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disable method of the MSFT\_DedupVolume class
@@ -30,9 +36,9 @@ Disables further data deduplication activity on one or more volumes.
 
 ```mof
 uint32 Disable(
-  [in]  string           Volume[],
-  [in]  boolean          DataAccess,
-  [out] MSFT_DedupVolume DedupVolume[]
+  [in]  string           Volume[],
+  [in]  boolean          DataAccess,
+  [out] MSFT_DedupVolume DedupVolume[]
 );
 ```
 
@@ -84,7 +90,7 @@ For an example that uses the **Disable** method, please see [Data deduplication 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -101,9 +107,9 @@ For an example that uses the **Disable** method, please see [Data deduplication 
 [**MSFT\_DedupVolume::Enable**](msft-dedupvolume-enable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

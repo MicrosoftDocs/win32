@@ -1,7 +1,12 @@
 ---
 title: Emboss Effect
 description: Creates a grayscale version of the image that appears as though it has been stamped into paper.
-ms.assetid: '74f63875-35cd-f335-62cd-410a953e53ea'
+ms.assetid: 74f63875-35cd-f335-62cd-410a953e53ea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Emboss Effect
@@ -42,7 +47,7 @@ m_d2dContext->EndDraw();
 
 ## Effect Properties
 
-The properties for the emboss effect are defined by the [**D2D1\_EMBOSS\_PROP**](d2d1-emboss-prop.md) enumeration.
+The properties for the emboss effect are defined by the [**D2D1\_EMBOSS\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_emboss_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The properties for the emboss effect are defined by the [**D2D1\_EMBOSS\_PROP**]
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

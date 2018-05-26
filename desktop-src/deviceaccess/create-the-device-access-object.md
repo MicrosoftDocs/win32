@@ -1,18 +1,23 @@
 ---
 title: Implement the Device Access Object
 description: This topic explains how to instantiate the device access object and use it to access a device.
-ms.assetid: '26619A25-67FE-44DC-82DD-36076326748D'
+ms.assetid: 26619A25-67FE-44DC-82DD-36076326748D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implement the Device Access Object
 
-This topic explains how to instantiate the device access object and use it to access a device. The instantiated class implements the [**IDeviceIoControl**](ideviceiocontrol.md) and [**ICreateDeviceAccessAsync**](icreatedeviceaccessasync.md) interfaces.
+This topic explains how to instantiate the device access object and use it to access a device. The instantiated class implements the [**IDeviceIoControl**](/windows/previous-versions/Deviceaccess/nn-deviceaccess-ideviceiocontrol?branch=master) and [**ICreateDeviceAccessAsync**](/windows/previous-versions/Deviceaccess/nn-deviceaccess-icreatedeviceaccessasync?branch=master) interfaces.
 
 ## Instructions
 
 ### Step 1:
 
-To instantiate the device access object, you must first call the [**CreateDeviceAccessInstance**](createdeviceaccessinstance.md) function. If **CreateDeviceAccessInstance** succeeds, you can then call the [**Wait**](icreatedeviceaccessasync-wait.md) method to wait for the asynchronous operation to finish. If **Wait** succeeds, you can retrieve an [**IDeviceIoControl**](ideviceiocontrol.md) object (or the appropriate error) from the [**GetResult**](icreatedeviceaccessasync-getresult.md) method.
+To instantiate the device access object, you must first call the [**CreateDeviceAccessInstance**](/windows/previous-versions/deviceaccess/nf-deviceaccess-createdeviceaccessinstance?branch=master) function. If **CreateDeviceAccessInstance** succeeds, you can then call the [**Wait**](/windows/previous-versions/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-wait?branch=master) method to wait for the asynchronous operation to finish. If **Wait** succeeds, you can retrieve an [**IDeviceIoControl**](/windows/previous-versions/Deviceaccess/nn-deviceaccess-ideviceiocontrol?branch=master) object (or the appropriate error) from the [**GetResult**](/windows/previous-versions/Deviceaccess/nf-deviceaccess-icreatedeviceaccessasync-getresult?branch=master) method.
 
 
 ```C++
@@ -125,7 +130,7 @@ Return Value:
 
 ## Remarks
 
-You can also send an IOCTL asynchronously by using the [**DeviceIoControlAsync**](ideviceiocontrol-deviceiocontrolasync.md) method. In that case, you must implement the [**IDeviceRequestCompletionCallback**](idevicerequestcompletioncallback.md) interface.
+You can also send an IOCTL asynchronously by using the [**DeviceIoControlAsync**](/windows/previous-versions/Deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync?branch=master) method. In that case, you must implement the [**IDeviceRequestCompletionCallback**](/windows/previous-versions/Deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback?branch=master) interface.
 
 ## Related topics
 

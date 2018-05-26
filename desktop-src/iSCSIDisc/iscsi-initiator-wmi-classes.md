@@ -1,12 +1,17 @@
 ---
-Description: 'The iSCSI Initiator WMI API is included in Windows 8, Windows Server 2012, and later.'
-ms.assetid: '332DA05D-45DC-4451-AD29-051C0295773A'
+Description: The iSCSI Initiator WMI API is included in Windows 8, Windows Server 2012, and later.
+ms.assetid: 332DA05D-45DC-4451-AD29-051C0295773A
 title: iSCSI Initiator WMI Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI Initiator WMI Classes
 
-The iSCSI Initiator WMI API is included in Windows 8, Windows Server 2012, and later.
+The iSCSI Initiator WMI API is included in Windows 8, Windows Server 2012, and later.
 
 ## In this section
 
@@ -32,11 +37,11 @@ The iSCSI Initiator WMI API is included in Windows 8, Windows Server 2012, and l
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

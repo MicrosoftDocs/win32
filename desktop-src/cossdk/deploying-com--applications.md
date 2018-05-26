@@ -1,7 +1,12 @@
 ---
 Description: Deploying COM+ Applications
-ms.assetid: 'e6b2df9e-a536-4629-916e-4e12a0d13771'
+ms.assetid: e6b2df9e-a536-4629-916e-4e12a0d13771
 title: Deploying COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deploying COM+ Applications
@@ -11,7 +16,7 @@ This section introduces the features in COM+ that facilitate deployment of COM+ 
 > [!Note]  
 > For detailed procedures on deploying COM+ applications, see "Installing COM+ Applications," in the Component Services Administration Help.
 
- 
+ 
 
 
 
@@ -24,11 +29,11 @@ This section introduces the features in COM+ that facilitate deployment of COM+ 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

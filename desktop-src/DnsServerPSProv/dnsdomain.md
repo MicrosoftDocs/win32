@@ -2,13 +2,15 @@
 title: DnsDomain class
 description: Represents a DNS domain.
 audience: developer
-ms.assetid: '42e43817-1206-4bff-9bca-853453c345f8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 42e43817-1206-4bff-9bca-853453c345f8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsDomain class", "DnsDomain class, described"]
+keywords:
+- DnsDomain class
+- DnsDomain class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsDomain class
@@ -68,7 +73,7 @@ The Lightweight Directory Access Protocol (LDAP) name of the domain.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -82,9 +87,9 @@ The Lightweight Directory Access Protocol (LDAP) name of the domain.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

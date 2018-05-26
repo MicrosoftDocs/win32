@@ -1,7 +1,12 @@
 ---
-Description: 'The ExpertSubmitEvent function indicates that an event condition exists and provides a data structure that describes the condition.'
-ms.assetid: '2339b530-427b-4028-aef6-c2cdd1353f77'
+Description: The ExpertSubmitEvent function indicates that an event condition exists and provides a data structure that describes the condition.
+ms.assetid: 2339b530-427b-4028-aef6-c2cdd1353f77
 title: ExpertSubmitEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpertSubmitEvent function
@@ -13,8 +18,8 @@ The **ExpertSubmitEvent** function indicates that an event condition exists and 
 
 ```C++
 DWORD WINAPI ExpertSubmitEvent(
-  _In_ HEXPERTKEY   hExpertKey,
-  _In_ PNMEVENTDATA pExpertEvent
+  _In_ HEXPERTKEY   hExpertKey,
+  _In_ PNMEVENTDATA pExpertEvent
 );
 ```
 
@@ -50,17 +55,17 @@ If the function is unsuccessful, the return value indicates the reason for the f
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

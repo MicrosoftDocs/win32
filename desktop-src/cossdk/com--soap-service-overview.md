@@ -1,7 +1,12 @@
 ---
-Description: 'HTTP revolutionized computer use by allowing people to use a Web browser for easy access to information on a remote server over a network.'
-ms.assetid: '44f3ff21-4978-4902-aa74-ddeef60881db'
+Description: HTTP revolutionized computer use by allowing people to use a Web browser for easy access to information on a remote server over a network.
+ms.assetid: 44f3ff21-4978-4902-aa74-ddeef60881db
 title: COM+ SOAP Service Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ SOAP Service Overview

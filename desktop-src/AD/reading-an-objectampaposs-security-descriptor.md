@@ -1,14 +1,19 @@
 ---
-title: Reading an Object's Security Descriptor
-description: The following code example uses the IADs interfaces to enumerate the properties of a directory object's security descriptor, DACL, and the ACEs of the DACL.
+title: Reading an Objects Security Descriptor
+description: The following code example uses the IADs interfaces to enumerate the properties of a directory objects security descriptor, DACL, and the ACEs of the DACL.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a8d0a6aa-9fbd-4392-b28b-f2eadef3935c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a8d0a6aa-9fbd-4392-b28b-f2eadef3935c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Reading an Object's Security Descriptor AD", "Active Directory, example code Visual Basic , reading an object's security descriptor"]
+keywords:
+- Reading an Objects Security Descriptor AD
+- Active Directory, example code Visual Basic , reading an objects security descriptor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reading an Object's Security Descriptor

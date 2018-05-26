@@ -1,20 +1,25 @@
 ---
-Description: 'The StartAt method informs the pin when to start delivering data. This method implements the IAMStreamControl::StartAt method.'
-ms.assetid: 'fd2943e8-8d35-4122-a99e-96d12459b335'
-title: 'CBaseStreamControl.StartAt method'
+Description: The StartAt method informs the pin when to start delivering data. This method implements the IAMStreamControlStartAt method.
+ms.assetid: fd2943e8-8d35-4122-a99e-96d12459b335
+title: CBaseStreamControl.StartAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.StartAt method
 
-The `StartAt` method informs the pin when to start delivering data. This method implements the [**IAMStreamControl::StartAt**](iamstreamcontrol-startat.md) method.
+The `StartAt` method informs the pin when to start delivering data. This method implements the [**IAMStreamControl::StartAt**](/windows/win32/Strmif/nf-strmif-iamstreamcontrol-startat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT StartAt(
-   const REFERENCE_TIME *ptStart = NULL,
-         DWORD          dwCookie = 0
+   const REFERENCE_TIME *ptStart = NULL,
+         DWORD          dwCookie = 0
 );
 ```
 
@@ -60,9 +65,9 @@ Returns S\_OK.
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

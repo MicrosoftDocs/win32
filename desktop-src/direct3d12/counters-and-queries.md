@@ -1,7 +1,12 @@
 ---
 title: Stream-Output Counters, UAV Counters, Queries, and Predication
 description: Stream output and UAV counters operate in Direct3D 12 in a similar method to Direct3D 11, although now memory for the counters must be allocated by the app, the driver does not do it.
-ms.assetid: '8BDDAFEF-57D4-4EF5-BB0C-6C96AF557A45'
+ms.assetid: 8BDDAFEF-57D4-4EF5-BB0C-6C96AF557A45
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream-Output Counters, UAV Counters, Queries, and Predication
@@ -20,7 +25,7 @@ Stream output and UAV counters operate in Direct3D 12 in a similar method to Dir
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ Stream output and UAV counters operate in Direct3D 12 in a similar method to Dir
 [Performance Measurement](performance-measurement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

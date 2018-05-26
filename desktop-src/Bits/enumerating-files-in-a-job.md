@@ -1,17 +1,26 @@
 ---
 title: Enumerating Files in a Job
 description: To enumerate files in a job, call the IBackgroundCopyJob EnumFiles method. The method returns an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files.
-ms.assetid: '0e1fa024-4576-434c-bc5f-518d246b5faa'
-keywords: ["transfer job BITS , enumerating files", "enumerating files BITS", "enumerating BITS , files", "file transfer BITS , enumerating"]
+ms.assetid: 0e1fa024-4576-434c-bc5f-518d246b5faa
+keywords:
+- transfer job BITS , enumerating files
+- enumerating files BITS
+- enumerating BITS , files
+- file transfer BITS , enumerating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Files in a Job
 
-To enumerate files in a job, call the [**IBackgroundCopyJob::EnumFiles**](ibackgroundcopyjob-enumfiles.md) method. The method returns an [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles.md) interface pointer that you use to enumerate the files.
+To enumerate files in a job, call the [**IBackgroundCopyJob::EnumFiles**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-enumfiles?branch=master) method. The method returns an [**IEnumBackgroundCopyFiles**](/windows/win32/Bits/nn-bits-ienumbackgroundcopyfiles?branch=master) interface pointer that you use to enumerate the files.
 
-Note that the enumerated list is a snapshot of the files in the job at the time you call the [**EnumFiles**](ibackgroundcopyjob-enumfiles.md) method. However, the property values of those file objects reflect the current values of the file.
+Note that the enumerated list is a snapshot of the files in the job at the time you call the [**EnumFiles**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-enumfiles?branch=master) method. However, the property values of those file objects reflect the current values of the file.
 
-The following example shows how to enumerate files in a job and retrieve their properties. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer is valid.
+The following example shows how to enumerate files in a job and retrieve their properties. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer is valid.
 
 
 ```C++

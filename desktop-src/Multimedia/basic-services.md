@@ -1,8 +1,19 @@
 ---
 title: Basic Services
 description: Basic Services
-ms.assetid: '7b77ed5d-0bd9-4926-b73f-afc7070fe314'
-keywords: ["multimedia file I/O,basic services", "file I/O,basic services", "input and output (I/O),basic services", "I/O (input and output),basic services", "basic I/O", "mmioOpen function"]
+ms.assetid: 7b77ed5d-0bd9-4926-b73f-afc7070fe314
+keywords:
+- multimedia file I/O,basic services
+- file I/O,basic services
+- input and output (I/O),basic services
+- I/O (input and output),basic services
+- basic I/O
+- mmioOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Services

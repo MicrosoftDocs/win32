@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines whether a Unicode string matches the specified pattern.'
-ms.assetid: '9b220cb8-4402-4094-8209-59a9af004b4a'
+---
+Description: Determines whether a Unicode string matches the specified pattern.
+ms.assetid: 9b220cb8-4402-4094-8209-59a9af004b4a
 title: RtlIsNameInExpression function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlIsNameInExpression function

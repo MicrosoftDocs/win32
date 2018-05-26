@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the z-component by taking the cross product of two 2D vectors.'
-ms.assetid: 'daec19f2-cd0f-4a68-affc-9a42bda8912c'
+---
+Description: Returns the z-component by taking the cross product of two 2D vectors.
+ms.assetid: daec19f2-cd0f-4a68-affc-9a42bda8912c
 title: D3DXVec2CCW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2CCW function

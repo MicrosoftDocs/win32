@@ -1,7 +1,12 @@
 ---
-Description: 'The NETWORKINFO structure describes a NIC.'
-ms.assetid: '40169409-7de5-44d1-8dff-dfa9f647edc9'
+Description: The NETWORKINFO structure describes a NIC.
+ms.assetid: 40169409-7de5-44d1-8dff-dfa9f647edc9
 title: NETWORKINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NETWORKINFO structure
@@ -13,17 +18,17 @@ The NETWORKINFO structure describes a NIC.
 
 ```C++
 typedef struct _NETWORKINFO {
-  BYTE    PermanentAddr[6];
-  BYTE    CurrentAddr[6];
+  BYTE    PermanentAddr[6];
+  BYTE    CurrentAddr[6];
   ADDRESS OtherAddress;
-  DWORD   LinkSpeed;
-  DWORD   MacType;
-  DWORD   MaxFrameSize;
-  DWORD   Flags;
-  DWORD   TimestampScaleFactor;
-  BYTE    NodeName[32];
-  BOOL    PModeSupported;
-  BYTE    Comment[ADAPTER_COMMENT_LENGTH];
+  DWORD   LinkSpeed;
+  DWORD   MacType;
+  DWORD   MaxFrameSize;
+  DWORD   Flags;
+  DWORD   TimestampScaleFactor;
+  BYTE    NodeName[32];
+  BOOL    PModeSupported;
+  BYTE    Comment[ADAPTER_COMMENT_LENGTH];
 } NETWORKINFO, *LPNETWORKINFO;
 ```
 
@@ -92,7 +97,7 @@ This parameter can be one of the following informational flags:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,15 +135,15 @@ Adapter comment field.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

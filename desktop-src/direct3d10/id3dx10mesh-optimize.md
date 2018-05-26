@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generates a new mesh with reordered faces and vertices to optimize drawing performance.'
-ms.assetid: 'c03e112a-7c9b-4082-9afe-42e1c20b5f4d'
-title: 'ID3DX10Mesh::Optimize method'
+---
+Description: Generates a new mesh with reordered faces and vertices to optimize drawing performance.
+ms.assetid: c03e112a-7c9b-4082-9afe-42e1c20b5f4d
+title: ID3DX10MeshOptimize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::Optimize method
@@ -46,9 +51,9 @@ An array of UINTs, one per face, that identifies the original mesh face that cor
 *ppVertexRemap* \[out\]
 </dt> <dd>
 
-Type: **[**LPD3D10BLOB**](id3d10blob.md)\***
+Type: **[**LPD3D10BLOB**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\***
 
-Address of a pointer to an [**ID3D10Blob Interface**](id3d10blob.md), which contains a DWORD for each vertex that specifies how the new vertices map to the old vertices. This remap is useful if you need to alter external data based on the new vertex mapping.
+Address of a pointer to an [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master), which contains a DWORD for each vertex that specifies how the new vertices map to the old vertices. This remap is useful if you need to alter external data based on the new vertex mapping.
 
 </dd> </dl>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Event used to schedule rendering.'
-ms.assetid: 'c1fe0d3b-b9b1-48d1-bc54-6d2e9f03e4cd'
-title: 'CBaseRenderer::m\_RenderEvent member'
+Description: Event used to schedule rendering.
+ms.assetid: c1fe0d3b-b9b1-48d1-bc54-6d2e9f03e4cd
+title: CBaseRendererm\_RenderEvent member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_RenderEvent member
@@ -35,9 +40,9 @@ CAMEvent m_RenderEvent;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

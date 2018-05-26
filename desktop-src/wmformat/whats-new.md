@@ -1,8 +1,23 @@
 ---
-title: What's New
-description: What's New
-ms.assetid: 'af04b99a-4653-4c82-944a-7005cf1181fe'
-keywords: ["Windows Media Format SDK,what's new", "Windows Media Format SDK,features", "Windows Media Format SDK,new features", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,DRM updates", "Windows Media Format SDK,codec updates", "Windows Media Format SDK,thumbnail images", "digital rights management (DRM),new features", "DRM (digital rights management),new features", "thumbnail images"]
+title: Whats New
+description: Whats New
+ms.assetid: af04b99a-4653-4c82-944a-7005cf1181fe
+keywords:
+- Windows Media Format SDK,whats new
+- Windows Media Format SDK,features
+- Windows Media Format SDK,new features
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,DRM updates
+- Windows Media Format SDK,codec updates
+- Windows Media Format SDK,thumbnail images
+- digital rights management (DRM),new features
+- DRM (digital rights management),new features
+- thumbnail images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New

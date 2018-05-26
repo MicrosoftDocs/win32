@@ -1,7 +1,12 @@
 ---
 title: STRICT Compliance
 description: Some source code that compiles successfully might produce error messages when you enable STRICT type checking.
-ms.assetid: '88368fec-b375-4ad0-aa13-ffadf0338a44'
+ms.assetid: 88368fec-b375-4ad0-aa13-ffadf0338a44
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STRICT Compliance

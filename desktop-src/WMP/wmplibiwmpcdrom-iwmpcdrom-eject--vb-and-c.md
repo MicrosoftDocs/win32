@@ -1,8 +1,11 @@
 ---
 title: IWMPCdrom eject method
 description: The eject method ejects the CD or DVD from the drive.
-ms.assetid: 'c0a69252-fd79-452c-bc61-3c3e8bcaaf48'
-keywords: ["eject method Windows Media Player", "eject method Windows Media Player , IWMPCdrom interface", "IWMPCdrom interface Windows Media Player , eject method"]
+ms.assetid: c0a69252-fd79-452c-bc61-3c3e8bcaaf48
+keywords:
+- eject method Windows Media Player
+- eject method Windows Media Player , IWMPCdrom interface
+- IWMPCdrom interface Windows Media Player , eject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdrom::eject method
@@ -123,9 +131,9 @@ End Sub</code></pre></td>
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

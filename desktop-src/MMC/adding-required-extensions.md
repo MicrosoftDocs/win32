@@ -4,11 +4,15 @@ description: Required extensions are extension snap-ins that are automatically a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e43209ad-3155-4841-8948-cc9b008068e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e43209ad-3155-4841-8948-cc9b008068e9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["adding required extensions MMC"]
+keywords:
+- adding required extensions MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Required Extensions

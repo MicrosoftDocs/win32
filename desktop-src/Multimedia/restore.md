@@ -1,21 +1,27 @@
 ---
 title: restore command
 description: The restore command copies a still image from a file to the frame buffer. This is the reverse of the capture command. Digital-video devices recognize this command.
-ms.assetid: 'ed309cc6-72a3-4abb-aef2-40a55381d8b6'
-keywords: ["restore command Windows Multimedia"]
+ms.assetid: ed309cc6-72a3-4abb-aef2-40a55381d8b6
+keywords:
+- restore command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - restore
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # restore command
 
 The restore command copies a still image from a file to the frame buffer. This is the reverse of the [capture](capture.md) command. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One or more of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -77,8 +83,8 @@ Devices can recognize a variety of image formats; a Windows device-independent b
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -95,9 +101,9 @@ Devices can recognize a variety of image formats; a Windows device-independent b
 [capture](capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

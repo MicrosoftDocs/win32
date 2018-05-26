@@ -1,8 +1,18 @@
 ---
 title: VIDEO Element
 description: VIDEO Element
-ms.assetid: '817e0d2e-cbc3-4b61-81c0-876104125f39'
-keywords: ["Windows Media Player skins,VIDEO element", "skins,VIDEO element", "VIDEO element", "reference for skins,VIDEO element", "elements,VIDEO"]
+ms.assetid: 817e0d2e-cbc3-4b61-81c0-876104125f39
+keywords:
+- Windows Media Player skins,VIDEO element
+- skins,VIDEO element
+- VIDEO element
+- reference for skins,VIDEO element
+- elements,VIDEO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO Element

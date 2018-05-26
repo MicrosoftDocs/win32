@@ -1,8 +1,16 @@
 ---
 title: Using System Profiles
 description: Using System Profiles
-ms.assetid: '4e0f3a40-68d6-452e-8e6a-c9e79504ccb6'
-keywords: ["Windows Media Format SDK,system profiles", "profiles,system", "system profiles,about"]
+ms.assetid: 4e0f3a40-68d6-452e-8e6a-c9e79504ccb6
+keywords:
+- Windows Media Format SDK,system profiles
+- profiles,system
+- system profiles,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using System Profiles

@@ -4,10 +4,13 @@ description: The Win32\_TSRemoteControlSetting class exposes the following metho
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6AA593F6-FE93-4EB4-AE62-A64220E32149'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6AA593F6-FE93-4EB4-AE62-A64220E32149
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSRemoteControlSetting Methods

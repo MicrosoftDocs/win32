@@ -1,7 +1,12 @@
 ---
-Description: 'Checks the compatibility information for compatibility with the hosting computer system.'
-ms.assetid: '1991c58e-2d0b-4fc3-a04a-c18f358451f6'
-title: 'CheckSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class'
+Description: Checks the compatibility information for compatibility with the hosting computer system.
+ms.assetid: 1991c58e-2d0b-4fc3-a04a-c18f358451f6
+title: CheckSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckSystemCompatibilityInfo method of the Msvm\_VirtualSystemMigrationService class
@@ -13,8 +18,8 @@ Checks the compatibility information for compatibility with the hosting computer
 
 ```mof
 uint32 CheckSystemCompatibilityInfo(
-  [in]  uint8  CompatibilityInfo[],
-  [out] string Reasons[]
+  [in]  uint8  CompatibilityInfo[],
+  [out] string Reasons[]
 );
 ```
 
@@ -92,8 +97,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -107,9 +112,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Adding Output Nodes with TopoEdit
-ms.assetid: '23d60fc7-547b-4ef5-b334-5f1b38e58e92'
+ms.assetid: 23d60fc7-547b-4ef5-b334-5f1b38e58e92
 title: Adding Output Nodes with TopoEdit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Output Nodes with TopoEdit
@@ -55,7 +60,7 @@ TopoEdit expects the GUID in the format &quot;{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx
 
 
 
- 
+ 
 
 TopoEdit creates the specified output node. The **Topology Pane** shows the output node as a green box that shows the name of the stream sink.
 
@@ -77,9 +82,9 @@ For information about adding output nodes programmatically by using Media Founda
 [TopoEdit](topoedit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

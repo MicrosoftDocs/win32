@@ -1,8 +1,9 @@
 ---
 title: WM\_COMMAND message
 description: Sent when the user selects a command item from a menu, when a control sends a notification message to its parent window, or when an accelerator keystroke is translated.
-ms.assetid: '5516098e-fd90-49c8-afb0-78164b028376'
-keywords: ["WM_COMMAND message Menus and Other Resources"]
+ms.assetid: 5516098e-fd90-49c8-afb0-78164b028376
+keywords:
+- WM_COMMAND message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_COMMAND message
@@ -60,13 +66,13 @@ Use of the *wParam* and *lParam* parameters are summarized here.
 
 
 
- 
+ 
 
 ### Menus
 
 If an application enables a menu separator, the system sends a **WM\_COMMAND** message with the low-word of the *wParam* parameter set to zero when the user selects the separator.
 
-If a menu is defined with a [**MENUINFO.dwStyle**](menuinfo.md) value of **MNS\_NOTIFYBYPOS**, [**WM\_MENUCOMMAND**](wm-menucommand.md) is sent instead of **WM\_COMMAND**.
+If a menu is defined with a [**MENUINFO.dwStyle**](/windows/win32/Winuser/ns-winuser-tagmenuinfo?branch=master) value of **MNS\_NOTIFYBYPOS**, [**WM\_MENUCOMMAND**](wm-menucommand.md) is sent instead of **WM\_COMMAND**.
 
 ### Accelerators
 
@@ -80,8 +86,8 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -105,9 +111,9 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 [Menus](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

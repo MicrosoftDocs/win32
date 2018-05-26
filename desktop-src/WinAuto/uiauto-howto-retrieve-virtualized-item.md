@@ -1,7 +1,12 @@
 ---
 title: How to Retrieve a Virtualized Item
 description: This topic contains example code that shows how to find and retrieve UI information about virtualized items in a control.
-ms.assetid: '1882b8a9-0d03-4388-a1d0-1bff0ab9fc66'
+ms.assetid: 1882b8a9-0d03-4388-a1d0-1bff0ab9fc66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Retrieve a Virtualized Item
@@ -10,7 +15,7 @@ This topic contains example code that shows how to find and retrieve UI informat
 
 ## 
 
-The following example searches a container for an item that has the specified name and retrieves the [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface for the item. The example looks in the UI Automation subtree first. If the item is not there, the example uses the container [**IUIAutomationItemContainerPattern**](uiauto-iuiautomationitemcontainerpattern.md) interface to find the item, and then uses the item [**IUIAutomationVirtualizedItemPattern**](uiauto-iuiautomationvirtualizeditempattern.md) interface to realize the item.
+The following example searches a container for an item that has the specified name and retrieves the [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface for the item. The example looks in the UI Automation subtree first. If the item is not there, the example uses the container [**IUIAutomationItemContainerPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationitemcontainerpattern?branch=master) interface to find the item, and then uses the item [**IUIAutomationVirtualizedItemPattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationvirtualizeditempattern?branch=master) interface to realize the item.
 
 
 ```C++

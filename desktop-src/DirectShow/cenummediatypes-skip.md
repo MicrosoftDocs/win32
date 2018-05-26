@@ -1,19 +1,24 @@
 ---
-Description: 'The Skip method skips over a specified number of media types. This method implements the IEnumMediaTypes::Skip method.'
-ms.assetid: 'a01fb084-b227-4ca6-b5ca-c57d56e8b1aa'
-title: 'CEnumMediaTypes.Skip method'
+Description: The Skip method skips over a specified number of media types. This method implements the IEnumMediaTypesSkip method.
+ms.assetid: a01fb084-b227-4ca6-b5ca-c57d56e8b1aa
+title: CEnumMediaTypes.Skip method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumMediaTypes.Skip method
 
-The `Skip` method skips over a specified number of media types. This method implements the [**IEnumMediaTypes::Skip**](ienummediatypes-skip.md) method.
+The `Skip` method skips over a specified number of media types. This method implements the [**IEnumMediaTypes::Skip**](/windows/win32/Strmif/nf-strmif-ienummediatypes-skip?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Skip(
-   ULONG cMediaTypes
+   ULONG cMediaTypes
 );
 ```
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CEnumMediaTypes Class**](cenummediatypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

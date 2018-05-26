@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks DepthStencilStateCb method
 description: Calls the depth stencil value format subobject callback of an object that implements this interface.
-ms.assetid: 'BDD3AB24-34C6-41C8-984D-78A45867BF24'
-keywords: ["DepthStencilStateCb method", "DepthStencilStateCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, DepthStencilStateCb method"]
+ms.assetid: BDD3AB24-34C6-41C8-984D-78A45867BF24
+keywords:
+- DepthStencilStateCb method
+- DepthStencilStateCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, DepthStencilStateCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::DepthStencilStateCb method
@@ -22,7 +30,7 @@ Calls the depth stencil value format subobject callback of an object that implem
 
 ```C++
 void DepthStencilStateCb(
-   DXGI_FORMAT DepthStencilState
+   DXGI_FORMAT DepthStencilState
 );
 ```
 
@@ -70,9 +78,9 @@ Returns nothing.
 [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

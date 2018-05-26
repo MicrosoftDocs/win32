@@ -1,7 +1,12 @@
 ---
-Description: 'The DoSetWindowForeground method brings the window to the foreground.'
-ms.assetid: '5aace88b-14c0-41ce-95a3-0e255ca56ae6'
-title: 'CBaseWindow.DoSetWindowForeground method'
+Description: The DoSetWindowForeground method brings the window to the foreground.
+ms.assetid: 5aace88b-14c0-41ce-95a3-0e255ca56ae6
+title: CBaseWindow.DoSetWindowForeground method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.DoSetWindowForeground method
@@ -13,7 +18,7 @@ The `DoSetWindowForeground` method brings the window to the foreground.
 
 ```C++
 void DoSetWindowForeground(
-   BOOL bFocus
+   BOOL bFocus
 );
 ```
 
@@ -52,9 +57,9 @@ This method does not return a value.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

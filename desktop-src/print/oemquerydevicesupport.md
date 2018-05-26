@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMQueryDeviceSupport function returns requested device-specific information.'
-ms.assetid: '38e1bb07-be98-494b-a9c9-a83edef367e0'
+---
+Description: The OEMQueryDeviceSupport function returns requested device-specific information.
+ms.assetid: 38e1bb07-be98-494b-a9c9-a83edef367e0
 title: OEMQueryDeviceSupport function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMQueryDeviceSupport function

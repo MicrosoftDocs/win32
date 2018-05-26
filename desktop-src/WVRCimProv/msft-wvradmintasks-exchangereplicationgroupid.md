@@ -4,13 +4,16 @@ description: Exchanges the replication group ID between source and destination r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7a4159df-d4ac-4011-afb0-3b99b0ccb1c4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7a4159df-d4ac-4011-afb0-3b99b0ccb1c4
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExchangeReplicationGroupId method", "ExchangeReplicationGroupId method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, ExchangeReplicationGroupId method"]
+keywords:
+- ExchangeReplicationGroupId method
+- ExchangeReplicationGroupId method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, ExchangeReplicationGroupId method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExchangeReplicationGroupId method of the MSFT\_WvrAdminTasks class
@@ -30,10 +36,10 @@ Exchanges the replication group ID between source and destination replication gr
 
 ```mof
 uint32 ExchangeReplicationGroupId(
-  [in]  string SourceReplicationGroupName,
-  [in]  string SourceReplicationGroupId,
-  [in]  string TargetReplicationGroupName,
-  [out] string TargetReplicationGroupId
+  [in]  string SourceReplicationGroupName,
+  [in]  string SourceReplicationGroupId,
+  [in]  string TargetReplicationGroupName,
+  [out] string TargetReplicationGroupId
 );
 ```
 
@@ -78,7 +84,7 @@ The ID of the target replication group.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -92,9 +98,9 @@ The ID of the target replication group.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Mirrors the EnabledState property of the Msvm\_ComputerSystem class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '78d7bd69-411e-4b1d-a5b9-f2e596306920'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 78d7bd69-411e-4b1d-a5b9-f2e596306920
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VmState Failover Cluster ,for virtual machines", "VmState Failover Cluster"]
+keywords:
+- VmState Failover Cluster ,for virtual machines
+- VmState Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VmState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VmState
@@ -28,14 +33,14 @@ Mirrors the **EnabledState** property of the [**Msvm\_ComputerSystem**](https://
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | TBD                                       |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 65536                                     |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +63,7 @@ The following table summarizes the values for **VmState**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +72,7 @@ The following table summarizes the values for **VmState**.
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -78,15 +83,15 @@ The following table summarizes the values for **VmState**.
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**Msvm\_ComputerSystem**](https://msdn.microsoft.com/library/cc136822)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

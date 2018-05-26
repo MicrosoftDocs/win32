@@ -1,7 +1,12 @@
 ---
-Description: 'After your attachment snap-in extension has added itself to the Services node, it should establish communication with the Security Configuration snap-in.'
-ms.assetid: '68a0e5a7-938f-45b7-90a3-8f35e5e6bbfb'
-title: 'Establishing Communication with Configuration Snap-ins'
+Description: After your attachment snap-in extension has added itself to the Services node, it should establish communication with the Security Configuration snap-in.
+ms.assetid: 68a0e5a7-938f-45b7-90a3-8f35e5e6bbfb
+title: Establishing Communication with Configuration Snap-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Establishing Communication with Configuration Snap-ins
@@ -20,7 +25,7 @@ After your attachment snap-in extension has added itself to the Services node, i
 
     
 
-2.  Set up the context with the Security Configuration snap-ins. After the configuration name is known, or if the service node is an analysis node, the attachment snap-in extension must call [**ISceSvcAttachmentData::Initialize**](iscesvcattachmentdata-initialize.md) to set up the context, as shown in the following example.
+2.  Set up the context with the Security Configuration snap-ins. After the configuration name is known, or if the service node is an analysis node, the attachment snap-in extension must call [**ISceSvcAttachmentData::Initialize**](/windows/win32/Scesvc/nf-scesvc-iscesvcattachmentdata-initialize?branch=master) to set up the context, as shown in the following example.
 
     ```C++
     LPSCESVCATTACHMENTPERSISTINFO pSceInfo;
@@ -41,7 +46,7 @@ After your attachment snap-in extension has added itself to the Services node, i
     
 
 > [!Note]  
-> When you have finished using the handle returned by [**ISceSvcAttachmentData::Initialize**](iscesvcattachmentdata-initialize.md), close the handle by calling the [**ISceSvcAttachmentData::CloseHandle**](iscesvcattachmentdata-closehandle.md) function. This is typically done when the user closes the MMC console.
+> When you have finished using the handle returned by [**ISceSvcAttachmentData::Initialize**](/windows/win32/Scesvc/nf-scesvc-iscesvcattachmentdata-initialize?branch=master), close the handle by calling the [**ISceSvcAttachmentData::CloseHandle**](/windows/win32/Scesvc/nf-scesvc-iscesvcattachmentdata-closehandle?branch=master) function. This is typically done when the user closes the MMC console.
 
  
 

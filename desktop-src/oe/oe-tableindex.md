@@ -1,14 +1,21 @@
 ---
 title: TABLEINDEX structure
 description: Do not use. This struct represents an index on a table. It can be used to sort the records in the table by any of the columns.
-ms.assetid: '3bec3f89-6d1a-4471-b57e-da48c4ed6203'
-keywords: ["TABLEINDEX structure Windows Mail (formerly Outlook Express)", "LPTABLEINDEX structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 3bec3f89-6d1a-4471-b57e-da48c4ed6203
+keywords:
+- TABLEINDEX structure Windows Mail (formerly Outlook Express)
+- LPTABLEINDEX structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
 - TABLEINDEX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TABLEINDEX structure
@@ -20,9 +27,9 @@ Do not use. This struct represents an index on a table. It can be used to sort t
 
 ```C++
 typedef struct tagTABLEINDEX {
-  BYTE       cKeys;
+  BYTE       cKeys;
   INDEXFLAGS bFlags;
-  INDEXKEY   rgKey[CMAX_KEYS];
+  INDEXKEY   rgKey[CMAX_KEYS];
 } TABLEINDEX, *LPTABLEINDEX;
 ```
 
@@ -71,15 +78,15 @@ The array of keys that are used to build this index. Precedence is given to the 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 | Product<br/>                  | Outlook Express 6.0<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

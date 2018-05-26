@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a single item in the Offline Files cache.'
+Description: Represents a single item in the Offline Files cache.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '16b3564d-8e23-41f5-9d41-b73bf5dc4f28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 16b3564d-8e23-41f5-9d41-b73bf5dc4f28
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Win32\_OfflineFilesItem class'
+title: Win32\_OfflineFilesItem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_OfflineFilesItem class
@@ -20,18 +23,18 @@ Represents a single item in the Offline Files cache. The item may be a server, s
 [dynamic, provider("Win32_OfflineFilesProvider"), AMENDMENT]
 class Win32_OfflineFilesItem
 {
-  string                           ItemPath;
-  string                           ParentItemPath;
-  string                           ItemName;
-  uint32                           ItemType;
-  Win32_OfflineFilesFileSysInfo    FileSysInfo;
-  Win32_OfflineFilesPinInfo        PinInfo;
-  Win32_OfflineFilesChangeInfo     ChangeInfo;
+  string                           ItemPath;
+  string                           ParentItemPath;
+  string                           ItemName;
+  uint32                           ItemType;
+  Win32_OfflineFilesFileSysInfo    FileSysInfo;
+  Win32_OfflineFilesPinInfo        PinInfo;
+  Win32_OfflineFilesChangeInfo     ChangeInfo;
   Win32_OfflineFilesConnectionInfo ConnectionInfo;
-  Win32_OfflineFilesSuspendInfo    SuspendInfo;
-  boolean                          Encrypted;
-  boolean                          Sparse;
-  Win32_OfflineFilesDirtyInfo      DirtyInfo;
+  Win32_OfflineFilesSuspendInfo    SuspendInfo;
+  boolean                          Encrypted;
+  boolean                          Sparse;
+  Win32_OfflineFilesDirtyInfo      DirtyInfo;
 };
 ```
 
@@ -137,7 +140,7 @@ The file system name of the item, not including the directory path. For example,
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -166,7 +169,7 @@ A string that contains the UNC path of the item on the server.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -235,7 +238,7 @@ A string that contains the UNC path of the parent item on the server. The string
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -284,8 +287,8 @@ A [**Win32\_OfflineFilesSuspendInfo**](win32-offlinefilessuspendinfo.md) object 
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -299,9 +302,9 @@ A [**Win32\_OfflineFilesSuspendInfo**](win32-offlinefilessuspendinfo.md) object 
 [Offline Files WMI Provider Reference](offline-files-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

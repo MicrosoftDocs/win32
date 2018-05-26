@@ -4,11 +4,13 @@ description: The Nodes object is a collection of Node objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8318622b-d887-41b3-9c3a-8df031abb4d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8318622b-d887-41b3-9c3a-8df031abb4d0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Nodes Collection object MMC", "Nodes Collection object MMC , described"]
+keywords:
+- Nodes Collection object MMC
+- Nodes Collection object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Nodes Collection object
@@ -42,7 +47,7 @@ The **Nodes Collection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +61,7 @@ The **Nodes Collection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -88,8 +93,8 @@ Set objNodes = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -97,9 +102,9 @@ Set objNodes = Nothing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

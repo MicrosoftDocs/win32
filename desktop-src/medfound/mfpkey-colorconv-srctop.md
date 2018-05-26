@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the top edge of the source rectangle, in pixels.'
-ms.assetid: '1dfd5557-3f3b-4d59-9df6-e73cb1157619'
-title: 'MFPKEY\_COLORCONV\_SRCTOP Property'
+---
+Description: Specifies the top edge of the source rectangle, in pixels.
+ms.assetid: 1dfd5557-3f3b-4d59-9df6-e73cb1157619
+title: MFPKEY\_COLORCONV\_SRCTOP Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLORCONV\_SRCTOP Property

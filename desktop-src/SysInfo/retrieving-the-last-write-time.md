@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the GetFileTime function to retrieve the last-write time for a file. It converts the time to local time based on the current time-zone settings, and creates a date and time string that can be shown to the user.'
-ms.assetid: '54509a35-fa6a-4ee6-90f8-36c9ef55e1bc'
-title: 'Retrieving the Last-Write Time'
+Description: The following example uses the GetFileTime function to retrieve the last-write time for a file. It converts the time to local time based on the current time-zone settings, and creates a date and time string that can be shown to the user.
+ms.assetid: 54509a35-fa6a-4ee6-90f8-36c9ef55e1bc
+title: Retrieving the Last-Write Time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Last-Write Time
 
-The following example uses the [**GetFileTime**](getfiletime.md) function to retrieve the last-write time for a file. It converts the time to local time based on the current time-zone settings, and creates a date and time string that can be shown to the user.
+The following example uses the [**GetFileTime**](/windows/win32/FileAPI/nf-fileapi-getfiletime?branch=master) function to retrieve the last-write time for a file. It converts the time to local time based on the current time-zone settings, and creates a date and time string that can be shown to the user.
 
 
 ```C++
@@ -77,10 +82,10 @@ int _tmain(int argc, TCHAR *argv[])
 
 <dl> <dt>
 
-[**FileTimeToSystemTime**](filetimetosystemtime.md)
+[**FileTimeToSystemTime**](/windows/win32/FileAPI/?branch=master)
 </dt> <dt>
 
-[**SystemTimeToTzSpecificLocalTime**](systemtimetotzspecificlocaltime.md)
+[**SystemTimeToTzSpecificLocalTime**](/windows/win32/Winbase/?branch=master)
 </dt> </dl>
 
  

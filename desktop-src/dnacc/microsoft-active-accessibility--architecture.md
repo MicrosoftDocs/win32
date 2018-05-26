@@ -1,7 +1,12 @@
 ---
 Description: Rob Sinclair
-ms.assetid: '41938c9b-4b98-4b0e-abf3-3ddcb05817e7'
-title: 'Microsoft Active Accessibility: Architecture'
+ms.assetid: 41938c9b-4b98-4b0e-abf3-3ddcb05817e7
+title: Microsoft Active Accessibility Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Active Accessibility: Architecture

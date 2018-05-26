@@ -1,7 +1,12 @@
 ---
-Description: 'The CCHeapSize function returns the size of the memory allocated by the CCHeapAlloc function.'
-ms.assetid: '45d0fd89-bcd1-4298-8cc3-834d86301f93'
+Description: The CCHeapSize function returns the size of the memory allocated by the CCHeapAlloc function.
+ms.assetid: 45d0fd89-bcd1-4298-8cc3-834d86301f93
 title: CCHeapSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCHeapSize function
@@ -13,7 +18,7 @@ The **CCHeapSize** function returns the size of the memory allocated by the **CC
 
 ```C++
 SIZE_T WINAPI CCHeapSize(
-   LPVOID lpMem
+   LPVOID lpMem
 );
 ```
 
@@ -32,7 +37,7 @@ Pointer to the allocated memory.
 
 ## Return value
 
-If the function is successful, the return value is the size of the requested memory block — measured in bytes.
+If the function is successful, the return value is the size of the requested memory block   measured in bytes.
 
 If the function is unsuccessful, the return value is **NULL**.
 
@@ -42,8 +47,8 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -69,9 +74,9 @@ If the function is unsuccessful, the return value is **NULL**.
 [CCHeapReAlloc](ccheaprealloc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

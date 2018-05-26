@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'cbd33b60-6041-43e1-b5ff-adbba7495a14'
-title: 'System.Message.IsFwdOrReply'
+Description: .
+ms.assetid: cbd33b60-6041-43e1-b5ff-adbba7495a14
+title: System.Message.IsFwdOrReply
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.IsFwdOrReply

@@ -1,6 +1,11 @@
 ---
-Description: 'Notifies an appbar that the user has selected the Cascade, Tile Horizontally, or Tile Vertically command from the taskbar''s shortcut menu.'
-title: 'ABN\_WINDOWARRANGE message'
+Description: Notifies an appbar that the user has selected the Cascade, Tile Horizontally, or Tile Vertically command from the taskbars shortcut menu.
+title: ABN\_WINDOWARRANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABN\_WINDOWARRANGE message
@@ -35,7 +40,7 @@ No return value.
 
 ## Remarks
 
-The system sends this notification message twice—first with *lParam* set to **TRUE** and then with *lParam* set to **FALSE**. The first notification is sent before the windows are cascaded or tiled, and the second is sent after the cascade or tile operation has occurred.
+The system sends this notification message twice first with *lParam* set to **TRUE** and then with *lParam* set to **FALSE**. The first notification is sent before the windows are cascaded or tiled, and the second is sent after the cascade or tile operation has occurred.
 
 ## Requirements
 
@@ -43,15 +48,15 @@ The system sends this notification message twice—first with *lParam* set to **TR
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Shellapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

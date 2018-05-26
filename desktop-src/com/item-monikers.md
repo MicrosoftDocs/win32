@@ -1,7 +1,12 @@
 ---
 title: Item Monikers
 description: Another OLE-implemented moniker class is the item moniker, which can be used to identify an object contained in another object.
-ms.assetid: 'ddcf3669-4ad0-4a4e-80a6-eb78058cff09'
+ms.assetid: ddcf3669-4ad0-4a4e-80a6-eb78058cff09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item Monikers
@@ -12,11 +17,11 @@ An item moniker is useful primarily when concatenated, or *composed*, with anoth
 
 When combined with a file moniker, an item moniker forms a complete path. Item monikers thus extend the notion of path names beyond the file system, defining path names to identify individual objects, not just files.
 
-There is a significant difference between an item moniker and a file moniker. The path contained in a file moniker is meaningful to anyone who understands the file system, while the partial path contained in an item moniker is meaningful only to a particular container. Everyone knows what "c:\\work\\report.doc" refers to, but only one particular container object knows what "1A:7F" refers to. One container cannot interpret an item moniker created by another application; the only container that knows which object is referred to by an item moniker is the container that assigned the item moniker to the object in the first place. For this reason, the source of the object named by the combination of a file and item moniker must not only implement [**IPersistFile**](ipersistfile.md), to facilitate binding the file moniker, but also [**IOleItemContainer**](ioleitemcontainer.md) to facilitate resolving the name of the item moniker into the appropriate object, in the context of a file.
+There is a significant difference between an item moniker and a file moniker. The path contained in a file moniker is meaningful to anyone who understands the file system, while the partial path contained in an item moniker is meaningful only to a particular container. Everyone knows what "c:\\work\\report.doc" refers to, but only one particular container object knows what "1A:7F" refers to. One container cannot interpret an item moniker created by another application; the only container that knows which object is referred to by an item moniker is the container that assigned the item moniker to the object in the first place. For this reason, the source of the object named by the combination of a file and item moniker must not only implement [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master), to facilitate binding the file moniker, but also [**IOleItemContainer**](/windows/win32/OleIdl/nn-oleidl-ioleitemcontainer?branch=master) to facilitate resolving the name of the item moniker into the appropriate object, in the context of a file.
 
-The advantage of monikers is that someone using a moniker to locate an object doesn't need to understand the name contained within the item moniker, as long as the item moniker is part of a composite. Generally, it would not make sense for an item moniker to exist on its own. Instead, you would compose an item moniker onto a file moniker. You would then call [**IMoniker::BindToObject**](imoniker-bindtoobject.md) on the composite, which binds the individual monikers within it, interpreting the names.
+The advantage of monikers is that someone using a moniker to locate an object doesn't need to understand the name contained within the item moniker, as long as the item moniker is part of a composite. Generally, it would not make sense for an item moniker to exist on its own. Instead, you would compose an item moniker onto a file moniker. You would then call [**IMoniker::BindToObject**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtoobject?branch=master) on the composite, which binds the individual monikers within it, interpreting the names.
 
-To create an item moniker object and return its pointer to the moniker provider, OLE provides the helper function [**CreateItemMoniker**](createitemmoniker.md). This function creates an item moniker object and returns its pointer to the provider.
+To create an item moniker object and return its pointer to the moniker provider, OLE provides the helper function [**CreateItemMoniker**](/windows/win32/Objbase/nf-objbase-createitemmoniker?branch=master). This function creates an item moniker object and returns its pointer to the provider.
 
 ## Related topics
 

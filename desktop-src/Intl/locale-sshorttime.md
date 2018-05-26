@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SSHORTTIME'
-ms.assetid: 'd7e32d00-2e2d-4ab5-aa62-708d45f5b431'
-title: 'LOCALE\_SSHORTTIME'
+Description: LOCALE\_SSHORTTIME
+ms.assetid: d7e32d00-2e2d-4ab5-aa62-708d45f5b431
+title: LOCALE\_SSHORTTIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SSHORTTIME

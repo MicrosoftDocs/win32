@@ -1,7 +1,12 @@
 ---
 title: Indexing with Internet Information Services
 description: Indexing with Internet Information Services
-ms.assetid: '2523b97c-dc9d-4d47-b075-34988556c082'
+ms.assetid: 2523b97c-dc9d-4d47-b075-34988556c082
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing with Internet Information Services

@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_SMS\_ENCODING\_TYPES enumeration type describes the encoding type of a short message service (SMS) message.'
-ms.assetid: '5a9752e5-4e09-42a4-8fed-b4ea551fa36f'
-title: 'WPD\_SMS\_ENCODING\_TYPES enumeration'
+Description: The WPD\_SMS\_ENCODING\_TYPES enumeration type describes the encoding type of a short message service (SMS) message.
+ms.assetid: 5a9752e5-4e09-42a4-8fed-b4ea551fa36f
+title: WPD\_SMS\_ENCODING\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_SMS\_ENCODING\_TYPES enumeration
@@ -13,9 +18,9 @@ The **WPD\_SMS\_ENCODING\_TYPES** enumeration type describes the encoding type o
 
 ```C++
 typedef enum WPD_SMS_ENCODING_TYPES { 
-  SMS_ENCODING_7_BIT   = 0,
-  SMS_ENCODING_8_BIT   = 1,
-  SMS_ENCODING_UTF_16  = 2
+  SMS_ENCODING_7_BIT   = 0,
+  SMS_ENCODING_8_BIT   = 1,
+  SMS_ENCODING_UTF_16  = 2
 } ;
 ```
 
@@ -67,9 +72,9 @@ This enumeration is used by the [WPD\_SMS\_ENCODING](sms-properties.md#wpd-sms-e
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

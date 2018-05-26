@@ -1,13 +1,16 @@
 ---
-Description: 'The Security property of the SWbemObjectPath object is used to get or set the security components of an object path.'
+Description: The Security property of the SWbemObjectPath object is used to get or set the security components of an object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '26e5e990-3b78-41b6-83c4-ba0d8b0d2f00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 26e5e990-3b78-41b6-83c4-ba0d8b0d2f00
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectPath.Security\_ property'
+title: SWbemObjectPath.Security\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath.Security\_ property
@@ -17,7 +20,7 @@ The **Security** property of the [**SWbemObjectPath**](swbemobjectpath.md) objec
 > [!Note]  
 > Setting the [**Security\_**](swbemobject-security-.md) property of an [**SWbemObjectPath**](swbemobjectset.md) object to **NULL** grants unlimited access to everyone at all times. For more information, see [**SWbemSecurity**](swbemsecurity.md).
 
- 
+ 
 
 For more information, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -40,8 +43,8 @@ SWbemObjectPath.Security_ As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -63,9 +66,9 @@ SWbemObjectPath.Security_ As Object
 [Setting Client\_Application\_Process Security](setting-client-application-process-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

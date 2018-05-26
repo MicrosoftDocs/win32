@@ -1,13 +1,16 @@
 ---
-Description: 'You can model a class provider as a push or pull provider, which specifies how a provider expects to interact with WMI.'
+Description: You can model a class provider as a push or pull provider, which specifies how a provider expects to interact with WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd1852784-8440-4b8a-9cdd-896e51cdee98'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d1852784-8440-4b8a-9cdd-896e51cdee98
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Determining Push or Pull Status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Determining Push or Pull Status

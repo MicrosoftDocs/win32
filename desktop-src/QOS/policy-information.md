@@ -1,7 +1,12 @@
 ---
 title: Policy Information
 description: Microsoft provides identity policy information through a DLL installed on QOS-enabled Windows clients such as Windows 2000 Server and Windows 2000 Professional.
-ms.assetid: '1a053a7e-eff0-491e-a12c-b273b666f8ca'
+ms.assetid: 1a053a7e-eff0-491e-a12c-b273b666f8ca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Information

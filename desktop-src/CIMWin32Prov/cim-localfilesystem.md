@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LocalFileSystem class represents the file store controlled by a computer system through local means (for example, direct device-driver access).'
+Description: The CIM\_LocalFileSystem class represents the file store controlled by a computer system through local means (for example, direct device-driver access).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'eab52a25-ca24-4a69-b030-091603d3582c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: eab52a25-ca24-4a69-b030-091603d3582c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LocalFileSystem class'
+title: CIM\_LocalFileSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LocalFileSystem class
@@ -19,7 +22,7 @@ The **CIM\_LocalFileSystem** class represents the file store controlled by a com
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,25 +32,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{5B6C820A-E3D0-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_LocalFileSystem : CIM_FileSystem
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint64   AvailableSpace;
-  uint64   BlockSize;
-  boolean  CasePreserved;
-  boolean  CaseSensitive;
-  uint16   CodeSet[];
-  string   CompressionMethod;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   EncryptionMethod;
-  uint64   FileSystemSize;
-  uint32   MaxFileNameLength;
-  boolean  ReadOnly;
-  string   Root;
+  string   Name;
+  string   Status;
+  uint64   AvailableSpace;
+  uint64   BlockSize;
+  boolean  CasePreserved;
+  boolean  CaseSensitive;
+  uint16   CodeSet[];
+  string   CompressionMethod;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   EncryptionMethod;
+  uint64   FileSystemSize;
+  uint32   MaxFileNameLength;
+  boolean  ReadOnly;
+  string   Root;
 };
 ```
 
@@ -568,8 +571,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -583,9 +586,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_FileSystem**](cim-filesystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

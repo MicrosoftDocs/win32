@@ -1,14 +1,20 @@
 ---
 title: title Element (WPL)
 description: The title element specifies a title for the playlist.
-ms.assetid: '8a214b96-d507-4dbf-b5f2-8fdfc4409fb0'
-keywords: ["title Element (WPL) Windows Media Player"]
+ms.assetid: 8a214b96-d507-4dbf-b5f2-8fdfc4409fb0
+keywords:
+- title Element (WPL) Windows Media Player
 topic_type:
 - apiref
 api_name:
 - title Element (WPL)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # title Element (WPL)
@@ -36,7 +42,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +82,9 @@ When choosing a title for a Windows Media Playlist (WPL), consider that the cont
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

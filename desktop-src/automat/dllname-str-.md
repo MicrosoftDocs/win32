@@ -1,7 +1,12 @@
 ---
 title: dllname(str)
 description: Defines the name of the DLL that contains the entry points for a module.
-ms.assetid: '8a7540d3-178f-43f6-a1ab-1a82d67afcb0'
+ms.assetid: 8a7540d3-178f-43f6-a1ab-1a82d67afcb0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dllname(str)

@@ -1,14 +1,18 @@
 ---
 title: Working with the Scope Pane
-description: This section discusses how the features associated with a snap-in's scope pane are implemented.
+description: This section discusses how the features associated with a snap-ins scope pane are implemented.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e53bcfef-78a0-4abc-85e7-19ee5a392dd9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e53bcfef-78a0-4abc-85e7-19ee5a392dd9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with the scope pane MMC"]
+keywords:
+- working with the scope pane MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with the Scope Pane

@@ -1,14 +1,17 @@
 ---
-Description: 'This topic provides a glossary of technical terms used in the Offline Files API and WMI provider documentation.'
-Robots: 'noindex, nofollow'
+Description: This topic provides a glossary of technical terms used in the Offline Files API and WMI provider documentation.
+Robots: noindex, nofollow
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '05235ca5-dca0-4e6e-8686-83fc9c043306'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 05235ca5-dca0-4e6e-8686-83fc9c043306
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: Offline Files Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Offline Files Glossary

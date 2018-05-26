@@ -1,14 +1,19 @@
-﻿---
-Description: 'Contains input data for a D3DAUTHENTICATEDCONFIGURE\_INITIALIZE command.'
-ms.assetid: '08677cb3-6f08-49d5-a3b6-c48c88516273'
-title: 'D3DAUTHENTICATEDCHANNEL\_CONFIGUREINITIALIZE structure'
+---
+Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_INITIALIZE command.
+ms.assetid: 08677cb3-6f08-49d5-a3b6-c48c88516273
+title: D3DAUTHENTICATEDCHANNEL\_CONFIGUREINITIALIZE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_CONFIGUREINITIALIZE structure
 
 Contains input data for a [**D3DAUTHENTICATEDCONFIGURE\_INITIALIZE**](d3dauthenticatedconfigure-initialize.md) command.
 
-To send this query, call [**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md).
+To send this query, call [**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master).
 
 ## Syntax
 
@@ -71,7 +76,7 @@ The **StartSequenceQuery** and **StartSequenceConfigure** members each contain a
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md)
+[**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master)
 </dt> </dl>
 
  

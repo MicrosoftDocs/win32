@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.nextEffect
 description: The nextEffect method displays the first preset of the next visualization, skipping intervening presets.
-ms.assetid: 'dedd8e8b-2337-46f5-91a8-43ef54c86012'
-keywords: ["EFFECTS.nextEffect Windows Media Player"]
+ms.assetid: dedd8e8b-2337-46f5-91a8-43ef54c86012
+keywords:
+- EFFECTS.nextEffect Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.nextEffect
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.nextEffect
@@ -54,9 +60,9 @@ This method displays the first preset of the next visualization in the authoring
 [**EFFECTS.previousEffect**](effects-previouseffect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

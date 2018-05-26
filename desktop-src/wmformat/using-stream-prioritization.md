@@ -1,15 +1,23 @@
 ---
 title: Using Stream Prioritization
 description: Using Stream Prioritization
-ms.assetid: '5fff212e-b47b-49a6-817f-f0e09c895b3a'
-keywords: ["Windows Media Format SDK,stream prioritization", "profiles,stream prioritization", "streams,prioritization"]
+ms.assetid: 5fff212e-b47b-49a6-817f-f0e09c895b3a
+keywords:
+- Windows Media Format SDK,stream prioritization
+- profiles,stream prioritization
+- streams,prioritization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Stream Prioritization
 
 Stream prioritization enables you to have more control over the playback of content by allowing you to specify priority order for the streams in a profile. When the reader and streaming server encounter a bandwidth shortage during playback, samples may have to be dropped to provide uninterrupted playback. If you specify a priority order with a stream prioritization object in the profile, samples will be dropped from the lowest priority streams first.
 
-Unlike bandwidth sharing and mutual exclusion objects, a stream prioritization object does not use the [**IWMStreamList**](iwmstreamlist.md) interface to keep track of the list of streams. Instead, you must use an array of [**WM\_STREAM\_PRIORITY\_RECORD**](wm-stream-priority-record.md) structures. The structures must be organized in the array in descending order of priority. In addition to holding a stream number, the stream priority structure also enables you to specify whether a stream is mandatory. Mandatory streams will not be dropped, regardless of their position in the list.
+Unlike bandwidth sharing and mutual exclusion objects, a stream prioritization object does not use the [**IWMStreamList**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamlist?branch=master) interface to keep track of the list of streams. Instead, you must use an array of [**WM\_STREAM\_PRIORITY\_RECORD**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmstreamprioritizationrecord?branch=master) structures. The structures must be organized in the array in descending order of priority. In addition to holding a stream number, the stream priority structure also enables you to specify whether a stream is mandatory. Mandatory streams will not be dropped, regardless of their position in the list.
 
 The following example code shows how to include a stream prioritization in a profile. This profile is for a classroom presentation, with an audio stream of the lecturer speaking, a video stream of the lecturer, and a video stream capturing the presentation slides. The audio stream is the most important and will be mandatory. The presentation slides will have the lowest priority because the image will be pretty constant, so a few frames lost here and there won't make much difference.
 

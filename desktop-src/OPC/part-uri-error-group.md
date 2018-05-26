@@ -1,7 +1,7 @@
 ---
 title: Part URI Error Group
 description: When you use methods that process IOpcPartUri interfaces or take IOpcPartUri as an input parameter, the following error codes may be returned.
-ms.assetid: '877447bb-d4e1-4277-b8ce-cb7a31a33fe0'
+ms.assetid: 877447bb-d4e1-4277-b8ce-cb7a31a33fe0
 topic_type:
 - apiref
 api_name:
@@ -10,11 +10,16 @@ api_location:
 - Msopc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Part URI Error Group
 
-When you use methods that process [**IOpcPartUri**](iopcparturi.md) interfaces or take **IOpcPartUri** as an input parameter, the following error codes may be returned.
+When you use methods that process [**IOpcPartUri**](/windows/previous-versions/msopc/nn-msopc-iopcparturi?branch=master) interfaces or take **IOpcPartUri** as an input parameter, the following error codes may be returned.
 
 
 
@@ -26,7 +31,7 @@ When you use methods that process [**IOpcPartUri**](iopcparturi.md) interfaces o
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +84,9 @@ For more information about error handling in COM, see the [Error Handling (COM)]
 [RFC 3986: URI Generic Syntax](http://go.microsoft.com/fwlink/p/?linkid=143950)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

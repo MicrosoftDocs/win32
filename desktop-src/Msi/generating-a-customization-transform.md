@@ -1,12 +1,17 @@
 ---
-Description: 'You may generate a transform file by using MsiDatabaseGenerateTransform or the GenerateTransform method of the Database object.'
-ms.assetid: 'c016fcba-0d54-4b99-bcdd-36967b2c9da0'
+Description: You may generate a transform file by using MsiDatabaseGenerateTransform or the GenerateTransform method of the Database object.
+ms.assetid: c016fcba-0d54-4b99-bcdd-36967b2c9da0
 title: Generating a Customization Transform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating a Customization Transform
 
-You may generate a transform file by using [**MsiDatabaseGenerateTransform**](msidatabasegeneratetransform.md) or the [**GenerateTransform method**](database-generatetransform.md) of the [**Database object**](database-object.md). An example of this is provided in the Windows Installer SDK as the utility WiGenXfm.vbs. The following snippet, Gen.vbs, also illustrates the **GenerateTransform** method and is for use with Windows Script Host.
+You may generate a transform file by using [**MsiDatabaseGenerateTransform**](/windows/win32/Msiquery/nf-msiquery-msidatabasegeneratetransforma?branch=master) or the [**GenerateTransform method**](database-generatetransform.md) of the [**Database object**](database-object.md). An example of this is provided in the Windows Installer SDK as the utility WiGenXfm.vbs. The following snippet, Gen.vbs, also illustrates the **GenerateTransform** method and is for use with Windows Script Host.
 
 
 ```VB

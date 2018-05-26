@@ -1,13 +1,16 @@
 ---
-Description: 'WMI provides a variety of techniques to retrieve and manipulate WMI class and instance information, using Microsoft PowerShell, Visual&\#160;Basic Scripting Edition (VBScript) and C++.'
+Description: WMI provides a variety of techniques to retrieve and manipulate WMI class and instance information, using Microsoft PowerShell, Visual&\#160;Basic Scripting Edition (VBScript) and C++.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '682cbe12-1487-4681-8d2f-4caf21cb068a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 682cbe12-1487-4681-8d2f-4caf21cb068a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Manipulating Class and Instance Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Manipulating Class and Instance Information

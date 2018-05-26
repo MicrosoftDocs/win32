@@ -4,13 +4,15 @@ description: StorageSetting is roughly equivalent to a Service Level Agreement (
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a46e7d03-64d0-49d3-be0f-2a470adb2846'
-ms.prod: 'windows-server-dev'
+ms.assetid: a46e7d03-64d0-49d3-be0f-2a470adb2846
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_StorageSetting class iSCSI Software Target API", "CIM_StorageSetting class iSCSI Software Target API , described"]
+keywords:
+- CIM_StorageSetting class iSCSI Software Target API
+- CIM_StorageSetting class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageSetting class
@@ -69,28 +74,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.11.0"), UMLPackagePath("CIM::Device::StorageServices")]
 class CIM_StorageSetting : CIM_SettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean NoSinglePointOfFailure;
-  uint16  DataRedundancyMax;
-  uint16  DataRedundancyMin;
-  uint16  DataRedundancyGoal;
-  uint16  PackageRedundancyMax;
-  uint16  PackageRedundancyMin;
-  uint16  PackageRedundancyGoal;
-  uint8   DeltaReservationMax;
-  uint8   DeltaReservationMin;
-  uint8   DeltaReservationGoal;
-  uint16  ChangeableType;
-  uint16  ExtentStripeLength;
-  uint16  ExtentStripeLengthMin;
-  uint16  ExtentStripeLengthMax;
-  uint16  ParityLayout;
-  uint64  UserDataStripeDepth;
-  uint64  UserDataStripeDepthMin;
-  uint64  UserDataStripeDepthMax;
+  uint16  DataRedundancyMax;
+  uint16  DataRedundancyMin;
+  uint16  DataRedundancyGoal;
+  uint16  PackageRedundancyMax;
+  uint16  PackageRedundancyMin;
+  uint16  PackageRedundancyGoal;
+  uint8   DeltaReservationMax;
+  uint8   DeltaReservationMin;
+  uint8   DeltaReservationGoal;
+  uint16  ChangeableType;
+  uint16  ExtentStripeLength;
+  uint16  ExtentStripeLengthMin;
+  uint16  ExtentStripeLengthMax;
+  uint16  ParityLayout;
+  uint64  UserDataStripeDepth;
+  uint64  UserDataStripeDepthMin;
+  uint64  UserDataStripeDepthMax;
 };
 ```
 
@@ -508,7 +513,7 @@ UserDataStripeDepth describes the number of bytes forming a strip in common stri
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -522,9 +527,9 @@ UserDataStripeDepth describes the number of bytes forming a strip in common stri
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

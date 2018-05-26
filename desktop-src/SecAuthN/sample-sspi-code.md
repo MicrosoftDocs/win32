@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the examples for writing SSPI server and client applications.'
-ms.assetid: 'edd5c6ad-7103-4486-bd11-16ff02b68be4'
+Description: Lists the examples for writing SSPI server and client applications.
+ms.assetid: edd5c6ad-7103-4486-bd11-16ff02b68be4
 title: Sample SSPI Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample SSPI Code

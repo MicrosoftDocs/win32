@@ -2,13 +2,16 @@
 title: Set method of the PS\_BgpPeer class
 description: Updates the configuration of the specified BGP peer.
 audience: developer
-ms.assetid: '46a5d9ff-e870-480e-ad04-0cde22e0175f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 46a5d9ff-e870-480e-ad04-0cde22e0175f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_BgpPeer class", "PS_BgpPeer class, Set method"]
+keywords:
+- Set method
+- Set method, PS_BgpPeer class
+- PS_BgpPeer class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_BgpPeer class
@@ -28,23 +34,23 @@ Updates the configuration of the specified BGP peer.
 
 ```mof
 uint32 Set(
-  [in]  string        Name,
-  [in]  string        LocalIPAddress,
-  [in]  string        PeerIPAddress,
-  [in]  uint32        LocalASN,
-  [in]  uint32        PeerASN,
-  [in]  uint32        OperationMode,
-  [in]  uint32        PeeringMode,
-  [in]  uint16        HoldTimeSec,
-  [in]  uint16        IdleHoldTimeSec,
-  [in]  uint16        Weight,
-  [in]  boolean       RouteReflectorClient,
-  [in]  uint32        MaxAllowedPrefix,
-  [in]  string        RoutingDomain,
-  [in]  boolean       PassThru,
-  [in]  boolean       Force,
-  [in]  boolean       ClearPrefixLimit,
-  [out] BgpPeerConfig cmdletOutput
+  [in]  string        Name,
+  [in]  string        LocalIPAddress,
+  [in]  string        PeerIPAddress,
+  [in]  uint32        LocalASN,
+  [in]  uint32        PeerASN,
+  [in]  uint32        OperationMode,
+  [in]  uint32        PeeringMode,
+  [in]  uint16        HoldTimeSec,
+  [in]  uint16        IdleHoldTimeSec,
+  [in]  uint16        Weight,
+  [in]  boolean       RouteReflectorClient,
+  [in]  uint32        MaxAllowedPrefix,
+  [in]  string        RoutingDomain,
+  [in]  boolean       PassThru,
+  [in]  boolean       Force,
+  [in]  boolean       ClearPrefixLimit,
+  [out] BgpPeerConfig cmdletOutput
 );
 ```
 
@@ -143,7 +149,7 @@ The administrative preference assigned to the routes of the peer.
 
 Whether the peer is a client peer or non-client peer.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -196,7 +202,7 @@ The [**BgpPeerConfig**](bgppeerconfig.md) object that receives the additional BG
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -210,9 +216,9 @@ The [**BgpPeerConfig**](bgppeerconfig.md) object that receives the additional BG
 [**PS\_BgpPeer**](ps-bgppeer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

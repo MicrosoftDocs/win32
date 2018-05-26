@@ -1,8 +1,9 @@
 ---
 title: WM\_PSD\_ENVSTAMPRECT message
 description: Notifies the hook procedure of a Page Setup dialog box, PagePaintHook, that the dialog box is about to draw the envelope-stamp rectangle of the sample page.
-ms.assetid: 'f193baa0-a084-416e-90c9-9c838758a3d3'
-keywords: ["WM_PSD_ENVSTAMPRECT message Dialog Boxes"]
+ms.assetid: f193baa0-a084-416e-90c9-9c838758a3d3
+keywords:
+- WM_PSD_ENVSTAMPRECT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PSD\_ENVSTAMPRECT message
@@ -61,8 +67,8 @@ A hook procedure receives this message only if the selected paper type is an env
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ A hook procedure receives this message only if the selected paper type is an env
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

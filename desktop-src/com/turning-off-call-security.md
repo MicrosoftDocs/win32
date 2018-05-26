@@ -1,12 +1,17 @@
 ---
 title: Turning Off Call Security
-description: Call security determines whether a client has permission to call a server's methods. There are two ways to disable call security One involves using Dcomcnfg.exe to modify the registry, and the other requires calls to CoInitializeSecurity.
-ms.assetid: '7ce162d0-20e0-4385-ad9f-472f2c17b060'
+description: Call security determines whether a client has permission to call a servers methods. There are two ways to disable call security One involves using Dcomcnfg.exe to modify the registry, and the other requires calls to CoInitializeSecurity.
+ms.assetid: 7ce162d0-20e0-4385-ad9f-472f2c17b060
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Turning Off Call Security
 
-Call security determines whether a client has permission to call a server's methods. There are two ways to disable call security: One involves using Dcomcnfg.exe to modify the registry, and the other requires calls to [**CoInitializeSecurity**](coinitializesecurity.md).
+Call security determines whether a client has permission to call a server's methods. There are two ways to disable call security: One involves using Dcomcnfg.exe to modify the registry, and the other requires calls to [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master).
 
 -   [Turning Off Call Security Using DCOMCNFG](#turning-off-call-security-using-dcomcnfg)
 -   [Turning Off Call Security Programmatically](#turning-off-call-security-programmatically)
@@ -14,7 +19,7 @@ Call security determines whether a client has permission to call a server's meth
 
 ## Turning Off Call Security Using DCOMCNFG
 
-Call security can most easily be turned off by using Dcomcnfg.exe to modify the registry. However, using Dcomcnfg.exe to turn security off will work only if both the client and the server do not call [**CoInitializeSecurity**](coinitializesecurity.md). This is because when **CoInitializeSecurity** is called, DCOM ignores the registry settings and uses the values supplied to **CoInitializeSecurity** instead.
+Call security can most easily be turned off by using Dcomcnfg.exe to modify the registry. However, using Dcomcnfg.exe to turn security off will work only if both the client and the server do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master). This is because when **CoInitializeSecurity** is called, DCOM ignores the registry settings and uses the values supplied to **CoInitializeSecurity** instead.
 
 To turn off security with Dcomcnfg.exe, both the client and the server must set their Authentication Levels to None. The following steps must be completed:
 

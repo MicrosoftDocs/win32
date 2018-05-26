@@ -1,7 +1,12 @@
 ---
 Description: Configuring Codec DMOs
-ms.assetid: '431b33f1-ceb0-4f1b-a9f2-72e88b63f973'
+ms.assetid: 431b33f1-ceb0-4f1b-a9f2-72e88b63f973
 title: Configuring Codec DMOs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Codec DMOs

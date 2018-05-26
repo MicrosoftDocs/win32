@@ -1,14 +1,20 @@
 ---
 title: IMAGEBUTTON
 description: This is a predefined BUTTON with the following default value.
-ms.assetid: 'db5c1a95-d031-46d5-a210-883599236b8f'
-keywords: ["IMAGEBUTTON Windows Media Player"]
+ms.assetid: db5c1a95-d031-46d5-a210-883599236b8f
+keywords:
+- IMAGEBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - IMAGEBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAGEBUTTON
@@ -42,9 +48,9 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

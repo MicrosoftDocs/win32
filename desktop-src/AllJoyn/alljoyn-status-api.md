@@ -1,7 +1,12 @@
 ---
 title: AllJoyn Status API
 description: This API describes the helper function for converting a status code into a C string.
-ms.assetid: '764A26CD-959C-474C-BB2D-822DA56EC926'
+ms.assetid: 764A26CD-959C-474C-BB2D-822DA56EC926
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllJoyn Status API

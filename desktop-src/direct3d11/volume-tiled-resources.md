@@ -1,7 +1,12 @@
 ---
 title: Volume Tiled Resources
 description: Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
-ms.assetid: 'B6BF22A2-EDA3-4765-B545-BF825043D4C4'
+ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Tiled Resources
@@ -140,25 +145,25 @@ The same API calls are used for both 2D and 3D tiled resources:
 
 Enums
 
--   [**D3D11\_TILED\_RESOURCES\_TIER**](d3d11-tiled-resources-tier.md) : determines the level of tiled resource support.
--   [**D3D11\_FORMAT\_SUPPORT2**](d3d11-format-support2.md) : used to test for tiled resource support.
--   [**D3D11\_CHECK\_MULTISAMPLE\_QUALITY\_LEVELS\_FLAG**](d3d11-check-multisample-quality-levels-flags.md) : determines tiled resource support in a multi-sampling resource.
--   [**D3D11\_TILE\_COPY\_FLAGS**](d3d11-tile-copy-flags.md) : holds flags for copying to and from swizzled tiled resources and linear buffers.
+-   [**D3D11\_TILED\_RESOURCES\_TIER**](/windows/win32/D3D11/ne-d3d11-d3d11_tiled_resources_tier?branch=master) : determines the level of tiled resource support.
+-   [**D3D11\_FORMAT\_SUPPORT2**](/windows/win32/D3D11/ne-d3d11-d3d11_format_support2?branch=master) : used to test for tiled resource support.
+-   [**D3D11\_CHECK\_MULTISAMPLE\_QUALITY\_LEVELS\_FLAG**](/windows/win32/D3D11_2/ne-d3d11_2-d3d11_check_multisample_quality_levels_flag?branch=master) : determines tiled resource support in a multi-sampling resource.
+-   [**D3D11\_TILE\_COPY\_FLAGS**](/windows/win32/D3D11_2/ne-d3d11_2-d3d11_tile_copy_flag?branch=master) : holds flags for copying to and from swizzled tiled resources and linear buffers.
 
 Structures
 
--   [**D3D11\_TILED\_RESOURCE\_COORDINATE**](d3d11-tiled-resource-coordinate.md) : holds the x, y, and z co-ordinate, and subresource reference. Note there is a helper class: CD3D11\_TILED\_RESOURCE\_COORDINATE.
--   [**D3D11\_TILE\_REGION\_SIZE**](d3d11-tile-region-size.md) : specifies the size, and number of tiles, of the tiled region.
--   [**D3D11\_TILE\_SHAPE**](d3d11-tile-shape.md) : the tile shape as a width, height and depth in texels.
--   [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS1**](d3d11-feature-data-d3d11-options1.md): holds the supported tile resource tier level.
+-   [**D3D11\_TILED\_RESOURCE\_COORDINATE**](/windows/win32/D3D11_2/ns-d3d11_2-d3d11_tiled_resource_coordinate?branch=master) : holds the x, y, and z co-ordinate, and subresource reference. Note there is a helper class: CD3D11\_TILED\_RESOURCE\_COORDINATE.
+-   [**D3D11\_TILE\_REGION\_SIZE**](/windows/win32/D3D11_2/ns-d3d11_2-d3d11_tile_region_size?branch=master) : specifies the size, and number of tiles, of the tiled region.
+-   [**D3D11\_TILE\_SHAPE**](/windows/win32/D3D11_2/ns-d3d11_2-d3d11_tile_shape?branch=master) : the tile shape as a width, height and depth in texels.
+-   [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS1**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options1?branch=master): holds the supported tile resource tier level.
 
 Methods
 
--   [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) : used to determine what features, and at what tier, are supported by the current hardware.
--   [**ID3D11DeviceContext2::CopyTiles**](id3d11devicecontext2-copytiles.md) : copies tiles from buffer to tiled resource or vice versa.
--   [**ID3D11DeviceContext2::UpdateTileMappings**](id3d11devicecontext2-updatetilemappings.md) : updates mappings of tile locations in tiled resources to memory locations in a tile pool.
--   [**ID3D11DeviceContext2::CopyTileMappings**](id3d11devicecontext2-copytilemappings.md) : copies mappings from a source tiled resource to a destination tiled resource.
--   [**ID3D11DeviceContext2::GetResourceTiling**](id3d11device2-getresourcetiling.md) : gets info about how a tiled resource is broken into tiles.
+-   [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) : used to determine what features, and at what tier, are supported by the current hardware.
+-   [**ID3D11DeviceContext2::CopyTiles**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytiles?branch=master) : copies tiles from buffer to tiled resource or vice versa.
+-   [**ID3D11DeviceContext2::UpdateTileMappings**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings?branch=master) : updates mappings of tile locations in tiled resources to memory locations in a tile pool.
+-   [**ID3D11DeviceContext2::CopyTileMappings**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytilemappings?branch=master) : copies mappings from a source tiled resource to a destination tiled resource.
+-   [**ID3D11DeviceContext2::GetResourceTiling**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11device2-getresourcetiling?branch=master) : gets info about how a tiled resource is broken into tiles.
 
 ## Related topics
 

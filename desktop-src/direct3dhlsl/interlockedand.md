@@ -1,14 +1,20 @@
 ---
 title: InterlockedAnd function
 description: Performs a guaranteed atomic and.
-ms.assetid: '7dc5185a-ea37-493d-975d-dbb803c886d3'
-keywords: ["InterlockedAnd function HLSL"]
+ms.assetid: 7dc5185a-ea37-493d-975d-dbb803c886d3
+keywords:
+- InterlockedAnd function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedAnd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedAnd function

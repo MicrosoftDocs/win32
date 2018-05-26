@@ -1,7 +1,12 @@
 ---
-Description: 'Installing or Restoring the Mapi32.dll Stub'
-ms.assetid: 'BADC5CF9-380F-4625-8442-30ACDCB14BFF'
-title: 'Installing or Restoring the Mapi32.dll Stub'
+Description: Installing or Restoring the Mapi32.dll Stub
+ms.assetid: BADC5CF9-380F-4625-8442-30ACDCB14BFF
+title: Installing or Restoring the Mapi32.dll Stub
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing or Restoring the Mapi32.dll Stub

@@ -4,11 +4,20 @@ description: Retrieves an object that supports the IMsRdpClientAdvancedSettings7
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e3bb3b74-52db-4ec2-999c-9d12c24f65be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e3bb3b74-52db-4ec2-999c-9d12c24f65be
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AdvancedSettings8 property Remote Desktop Services", "AdvancedSettings8 property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , AdvancedSettings8 property", "AdvancedSettings8 property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings8 property", "AdvancedSettings8 property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings8 property", "AdvancedSettings8 property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings8 property"]
+keywords:
+- AdvancedSettings8 property Remote Desktop Services
+- AdvancedSettings8 property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , AdvancedSettings8 property
+- AdvancedSettings8 property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings8 property
+- AdvancedSettings8 property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings8 property
+- AdvancedSettings8 property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings8 property
 topic_type:
 - apiref
 api_name:
@@ -24,6 +33,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient7::AdvancedSettings8 property
@@ -37,7 +49,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AdvancedSettings8(
-  [out, retval] IMsRdpClientAdvancedSettings7 **ppAdvSettings
+  [out, retval] IMsRdpClientAdvancedSettings7 **ppAdvSettings
 );
 ```
 
@@ -53,8 +65,8 @@ The address of an [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettin
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient7 is defined as b2a5b5ce-3461-444a-91d4-add26d070638<br/>       |
@@ -77,9 +89,9 @@ The address of an [**IMsRdpClientAdvancedSettings7**](imsrdpclientadvancedsettin
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

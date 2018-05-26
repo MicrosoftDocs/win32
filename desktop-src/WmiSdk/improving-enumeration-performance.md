@@ -1,13 +1,16 @@
 ---
-Description: 'Enumerations tend to use a significant amount of system resources.'
+Description: Enumerations tend to use a significant amount of system resources.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4163e6c2-4ee3-4906-b297-618509666c90'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4163e6c2-4ee3-4906-b297-618509666c90
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Improving Enumeration Performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Improving Enumeration Performance
@@ -24,7 +27,7 @@ The following procedure describes how to improve enumeration performance.
 
     `WBEM_FLAG_RETURN_IMMEDIATE | WBEM_FLAG_FORWARD_ONLY`
 
-    In VBScript or Visual Basic, use the scripting flags **WbemFlagReturnImmediately** and **WbemFlagForwardOnly** from [WbemFlagEnum](wbemflagenum.md). The combined value of these flags is decimal 48.
+    In VBScript or Visual Basic, use the scripting flags **WbemFlagReturnImmediately** and **WbemFlagForwardOnly** from [WbemFlagEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master). The combined value of these flags is decimal 48.
 
     The scripting and parameter flags cause the following behavior:
 
@@ -43,9 +46,9 @@ The following procedure describes how to improve enumeration performance.
 
     
 
-2.  Whenever possible, avoid using [**CreateInstanceEnum**](iwbemservices-createinstanceenum.md) in C++ or [**SWbemServices.InstancesOf**](swbemservices-instancesof.md), and instead use **ExecQuery**.
+2.  Whenever possible, avoid using [**CreateInstanceEnum**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum?branch=master) in C++ or [**SWbemServices.InstancesOf**](swbemservices-instancesof.md), and instead use **ExecQuery**.
 
-    The **ExecQuery** method queries WMI using database technologies, while [**CreateInstanceEnum**](iwbemservices-createinstanceenum.md) or [**SWbemServices.InstancesOf**](swbemservices-instancesof.md) enumerates WMI objects. Specifically, **ExecQuery** can request specific subsets of data that the enumerating methods cannot.
+    The **ExecQuery** method queries WMI using database technologies, while [**CreateInstanceEnum**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum?branch=master) or [**SWbemServices.InstancesOf**](swbemservices-instancesof.md) enumerates WMI objects. Specifically, **ExecQuery** can request specific subsets of data that the enumerating methods cannot.
 
     Because some providers do not have querying capabilities, WMI provides a "post filter" feature that allows WMI to discard instances that do not fulfill a query's specifications. Whether a particular provider takes advantage of this feature is up to the provider author.
 

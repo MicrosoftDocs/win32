@@ -1,7 +1,12 @@
 ---
 title: Setting up an Active Server Pages Form
 description: Setting up an Active Server Pages Form
-ms.assetid: '1c7cab4f-02b4-4e51-b72a-c3cd75f65f38'
+ms.assetid: 1c7cab4f-02b4-4e51-b72a-c3cd75f65f38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting up an Active Server Pages Form

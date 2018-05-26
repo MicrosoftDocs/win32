@@ -1,7 +1,12 @@
-﻿---
-Description: 'LOCALE\_NAME\* Constants'
-ms.assetid: '63e2e368-af2f-4af0-bbea-2b27d1939394'
-title: 'LOCALE\_NAME\* Constants'
+---
+Description: LOCALE\_NAME\* Constants
+ms.assetid: 63e2e368-af2f-4af0-bbea-2b27d1939394
+title: LOCALE\_NAME\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_NAME\* Constants

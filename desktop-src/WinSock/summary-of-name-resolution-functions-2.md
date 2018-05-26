@@ -1,7 +1,12 @@
-﻿---
-Description: 'The name resolution functions can be grouped into three categories: Service installation, client queries, and helper (with macros).'
-ms.assetid: 'c16a7163-11f5-4ad6-9df1-9bad2a964e48'
+---
+Description: The name resolution functions can be grouped into three categories Service installation, client queries, and helper (with macros).
+ms.assetid: c16a7163-11f5-4ad6-9df1-9bad2a964e48
 title: Summary of Name Resolution Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary of Name Resolution Functions
@@ -10,35 +15,35 @@ The name resolution functions can be grouped into three categories: Service inst
 
 ## Service Installation
 
--   [**WSAInstallServiceClass**](wsainstallserviceclass-2.md)
--   [**WSARemoveServiceClass**](wsaremoveserviceclass-2.md)
--   [**WSASetService**](wsasetservice-2.md)
+-   [**WSAInstallServiceClass**](/windows/win32/Winsock2/nf-winsock2-wsainstallserviceclassa?branch=master)
+-   [**WSARemoveServiceClass**](/windows/win32/Winsock2/nf-winsock2-wsaremoveserviceclass?branch=master)
+-   [**WSASetService**](/windows/win32/Winsock2/nf-winsock2-wsasetservicea?branch=master)
 
-When the required service class does not already exist, an application uses [**WSAInstallServiceClass**](wsainstallserviceclass-2.md) to install a new service class by supplying a service class name, a GUID for the service class identifier, and a series of [**WSANSCLASSINFO**](wsansclassinfo.md) structures. These structures are each specific to a particular namespace, and supply common values such as recommended TCP port numbers or NetWare SAP Identifiers. A service class can be removed by calling [**WSARemoveServiceClass**](wsaremoveserviceclass-2.md) and supplying the GUID corresponding to the class identifier.
+When the required service class does not already exist, an application uses [**WSAInstallServiceClass**](/windows/win32/Winsock2/nf-winsock2-wsainstallserviceclassa?branch=master) to install a new service class by supplying a service class name, a GUID for the service class identifier, and a series of [**WSANSCLASSINFO**](/windows/win32/Winsock2/ns-winsock2-_wsansclassinfow?branch=master) structures. These structures are each specific to a particular namespace, and supply common values such as recommended TCP port numbers or NetWare SAP Identifiers. A service class can be removed by calling [**WSARemoveServiceClass**](/windows/win32/Winsock2/nf-winsock2-wsaremoveserviceclass?branch=master) and supplying the GUID corresponding to the class identifier.
 
-Once a service class exists, specific instances of a service can be installed or removed through [**WSASetService**](wsasetservice-2.md). This function takes a [**WSAQUERYSET**](wsaqueryset-2.md) structure as an input parameter along with an operation code and operation flags. The operation code indicates whether the service is being installed or removed. The **WSAQUERYSET** structure provides all of the relevant information about the service including service class identifier, service name (for this instance), applicable namespace identifier and protocol information, and a set of transport addresses at which the service listens. Services should invoke **WSASetService** when they initialize to advertise their presence in dynamic namespaces.
+Once a service class exists, specific instances of a service can be installed or removed through [**WSASetService**](/windows/win32/Winsock2/nf-winsock2-wsasetservicea?branch=master). This function takes a [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) structure as an input parameter along with an operation code and operation flags. The operation code indicates whether the service is being installed or removed. The **WSAQUERYSET** structure provides all of the relevant information about the service including service class identifier, service name (for this instance), applicable namespace identifier and protocol information, and a set of transport addresses at which the service listens. Services should invoke **WSASetService** when they initialize to advertise their presence in dynamic namespaces.
 
 ## Client Query
 
--   [**WSAEnumNameSpaceProviders**](wsaenumnamespaceproviders-2.md)
--   [**WSALookupServiceBegin**](wsalookupservicebegin-2.md)
--   [**WSALookupServiceNext**](wsalookupservicenext-2.md)
--   [**WSALookupServiceEnd**](wsalookupserviceend-2.md)
+-   [**WSAEnumNameSpaceProviders**](/windows/win32/Winsock2/nf-winsock2-wsaenumnamespaceprovidersa?branch=master)
+-   [**WSALookupServiceBegin**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicebegina?branch=master)
+-   [**WSALookupServiceNext**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicenexta?branch=master)
+-   [**WSALookupServiceEnd**](/windows/win32/Winsock2/nf-winsock2-wsalookupserviceend?branch=master)
 
-The [**WSAEnumNameSpaceProviders**](wsaenumnamespaceproviders-2.md) function allows an application to discover which namespaces are accessible through Winsock name resolution facilities. It also allows an application to determine whether a given namespace is supported by more than one namespace provider, and to discover the provider identifier for any particular namespace provider. Using a provider identifier, the application can restrict a query operation to a specified namespace provider.
+The [**WSAEnumNameSpaceProviders**](/windows/win32/Winsock2/nf-winsock2-wsaenumnamespaceprovidersa?branch=master) function allows an application to discover which namespaces are accessible through Winsock name resolution facilities. It also allows an application to determine whether a given namespace is supported by more than one namespace provider, and to discover the provider identifier for any particular namespace provider. Using a provider identifier, the application can restrict a query operation to a specified namespace provider.
 
-Winsock namespace–query operations involve a series of calls: [**WSALookupServiceBegin**](wsalookupservicebegin-2.md), followed by one or more calls to [**WSALookupServiceNext**](wsalookupservicenext-2.md) and ending with a call to [**WSALookupServiceEnd**](wsalookupserviceend-2.md). **WSALookupServiceBegin** takes a [**WSAQUERYSET**](wsaqueryset-2.md) structure as input to define the query parameters along with a set of flags to provide additional control over the search operation. It returns a query handle which is used in the subsequent calls to **WSALookupServiceNext** and **WSALookupServiceEnd**.
+Winsock namespace–query operations involve a series of calls: [**WSALookupServiceBegin**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicebegina?branch=master), followed by one or more calls to [**WSALookupServiceNext**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicenexta?branch=master) and ending with a call to [**WSALookupServiceEnd**](/windows/win32/Winsock2/nf-winsock2-wsalookupserviceend?branch=master). **WSALookupServiceBegin** takes a [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) structure as input to define the query parameters along with a set of flags to provide additional control over the search operation. It returns a query handle which is used in the subsequent calls to **WSALookupServiceNext** and **WSALookupServiceEnd**.
 
-The application invokes [**WSALookupServiceNext**](wsalookupservicenext-2.md) to obtain query results, with results supplied in an application-supplied [**WSAQUERYSET**](wsaqueryset-2.md) buffer. The application continues to call **WSALookupServiceNext** until the error code WSA\_E\_NO\_MORE is returned indicating that all results have been retrieved. The search is then terminated by a call to [**WSALookupServiceEnd**](wsalookupserviceend-2.md). The **WSALookupServiceEnd** function can also be used to cancel a currently pending **WSALookupServiceNext** when called from another thread.
+The application invokes [**WSALookupServiceNext**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicenexta?branch=master) to obtain query results, with results supplied in an application-supplied [**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master) buffer. The application continues to call **WSALookupServiceNext** until the error code WSA\_E\_NO\_MORE is returned indicating that all results have been retrieved. The search is then terminated by a call to [**WSALookupServiceEnd**](/windows/win32/Winsock2/nf-winsock2-wsalookupserviceend?branch=master). The **WSALookupServiceEnd** function can also be used to cancel a currently pending **WSALookupServiceNext** when called from another thread.
 
 In Windows Sockets 2, conflicting error codes are defined for WSAENOMORE (10102) and WSA\_E\_NO\_MORE (10110). The error code WSAENOMORE will be removed in a future version and only WSA\_E\_NO\_MORE will remain. For Windows Sockets 2, however, applications should check for both WSAENOMORE and WSA\_E\_NO\_MORE for the widest possible compatibility with namespace providers that use either one.
 
 ## Helper Functions
 
--   [**WSAGetServiceClassNameByClassId**](wsagetserviceclassnamebyclassid-2.md)
--   [**WSAAddressToString**](wsaaddresstostring-2.md)
--   [**WSAStringToAddress**](wsastringtoaddress-2.md)
--   [**WSAGetServiceClassInfo**](wsagetserviceclassinfo-2.md)
+-   [**WSAGetServiceClassNameByClassId**](/windows/win32/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida?branch=master)
+-   [**WSAAddressToString**](/windows/win32/Winsock2/nf-winsock2-wsaaddresstostringa?branch=master)
+-   [**WSAStringToAddress**](/windows/win32/Winsock2/nf-winsock2-wsastringtoaddressa?branch=master)
+-   [**WSAGetServiceClassInfo**](/windows/win32/Winsock2/nf-winsock2-wsagetserviceclassinfoa?branch=master)
 
 The name resolution helper functions include a function to retrieve a service class name given a service class identifier, a pair of functions used to translate a transport address between a [**SOCKADDR**](sockaddr-2.md) structure and an ASCII string representation, a function to retrieve the service class schema information for a given service class, and a set of macros for mapping well known services to preallocated GUIDs.
 
@@ -59,19 +64,19 @@ The following macros from Winsock2.h aid in mapping between well known service c
 
 <dl> <dt>
 
-[**getaddrinfo**](getaddrinfo-2.md)
+[**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master)
 </dt> <dt>
 
-[**GetAddrInfoEx**](getaddrinfoex.md)
+[**GetAddrInfoEx**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa?branch=master)
 </dt> <dt>
 
-[**GetAddrInfoW**](getaddrinfow.md)
+[**GetAddrInfoW**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfow?branch=master)
 </dt> <dt>
 
-[**getnameinfo**](getnameinfo-2.md)
+[**getnameinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getnameinfo?branch=master)
 </dt> <dt>
 
-[**GetNameInfoW**](getnameinfow.md)
+[**GetNameInfoW**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getnameinfow?branch=master)
 </dt> <dt>
 
 [Name Resolution Data Structures](name-resolution-data-structures-2.md)
@@ -89,34 +94,34 @@ The following macros from Winsock2.h aid in mapping between well known service c
 [**SOCKADDR**](sockaddr-2.md)
 </dt> <dt>
 
-[**WSAEnumNameSpaceProviders**](wsaenumnamespaceproviders-2.md)
+[**WSAEnumNameSpaceProviders**](/windows/win32/Winsock2/nf-winsock2-wsaenumnamespaceprovidersa?branch=master)
 </dt> <dt>
 
-[**WSAGetServiceClassNameByClassId**](wsagetserviceclassnamebyclassid-2.md)
+[**WSAGetServiceClassNameByClassId**](/windows/win32/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida?branch=master)
 </dt> <dt>
 
-[**WSAInstallServiceClass**](wsainstallserviceclass-2.md)
+[**WSAInstallServiceClass**](/windows/win32/Winsock2/nf-winsock2-wsainstallserviceclassa?branch=master)
 </dt> <dt>
 
-[**WSALookupServiceBegin**](wsalookupservicebegin-2.md)
+[**WSALookupServiceBegin**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicebegina?branch=master)
 </dt> <dt>
 
-[**WSALookupServiceEnd**](wsalookupserviceend-2.md)
+[**WSALookupServiceEnd**](/windows/win32/Winsock2/nf-winsock2-wsalookupserviceend?branch=master)
 </dt> <dt>
 
-[**WSALookupServiceNext**](wsalookupservicenext-2.md)
+[**WSALookupServiceNext**](/windows/win32/Winsock2/nf-winsock2-wsalookupservicenexta?branch=master)
 </dt> <dt>
 
-[**WSARemoveServiceClass**](wsaremoveserviceclass-2.md)
+[**WSARemoveServiceClass**](/windows/win32/Winsock2/nf-winsock2-wsaremoveserviceclass?branch=master)
 </dt> <dt>
 
-[**WSASetService**](wsasetservice-2.md)
+[**WSASetService**](/windows/win32/Winsock2/nf-winsock2-wsasetservicea?branch=master)
 </dt> <dt>
 
-[**WSAQUERYSET**](wsaqueryset-2.md)
+[**WSAQUERYSET**](/windows/win32/Winsock2/ns-winsock2-_wsaquerysetw?branch=master)
 </dt> <dt>
 
-[**WSANSCLASSINFO**](wsansclassinfo.md)
+[**WSANSCLASSINFO**](/windows/win32/Winsock2/ns-winsock2-_wsansclassinfow?branch=master)
 </dt> </dl>
 
  

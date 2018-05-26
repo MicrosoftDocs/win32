@@ -1,8 +1,11 @@
 ---
 title: MetricValue GetValue method
 description: Returns the value of the MetricValue for a type LONGLONG value.
-ms.assetid: '33695B69-6154-4C79-9320-26ABD3267402'
-keywords: ["GetValue method Access Execution Engine", "GetValue method Access Execution Engine , MetricValue interface", "MetricValue interface Access Execution Engine , GetValue method"]
+ms.assetid: 33695B69-6154-4C79-9320-26ABD3267402
+keywords:
+- GetValue method Access Execution Engine
+- GetValue method Access Execution Engine , MetricValue interface
+- MetricValue interface Access Execution Engine , GetValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue::GetValue method
@@ -22,7 +30,7 @@ Returns the value of the **MetricValue** for a type **LONGLONG** value.
 
 ```C++
 virtual HRESULT GetValue(
-  [out] LONGLONG *value
+  [out] LONGLONG *value
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The value is the value of element **MetricValue/Value**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The value is the value of element **MetricValue/Value**.
 [**MetricValue**](metricvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

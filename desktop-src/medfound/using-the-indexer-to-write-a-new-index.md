@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows how to write an index for an Advanced Systems Format (ASF) file.'
-ms.assetid: 'a14e3bef-0232-4259-930a-d860ed9230fd'
+Description: This topic shows how to write an index for an Advanced Systems Format (ASF) file.
+ms.assetid: a14e3bef-0232-4259-930a-d860ed9230fd
 title: Using the Indexer to Write a New Index
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Indexer to Write a New Index
@@ -18,13 +23,13 @@ Here is the general procedure for creating an ASF index:
 
 ## Configure the Indexer
 
-To use the indexer to write a new index object, the indexer object must have the flag MFASF\_INDEXER\_WRITE\_NEW\_INDEX set with a call to [**IMFASFIndexer::SetFlags**](imfasfindexer-setflags.md) before it is initialized with [**IMFASFIndexer::Initialize**](imfasfindexer-initialize.md).
+To use the indexer to write a new index object, the indexer object must have the flag MFASF\_INDEXER\_WRITE\_NEW\_INDEX set with a call to [**IMFASFIndexer::SetFlags**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setflags?branch=master) before it is initialized with [**IMFASFIndexer::Initialize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-initialize?branch=master).
 
 When the indexer is configured for writing an index, the caller chooses the streams to be indexed. By default, the indexer attempts to create an Index Object for all streams. The default time interval is one second.
 
-[**IMFASFIndexer::SetIndexStatus**](imfasfindexer-setindexstatus.md) can be used to override the indexer object's default choice of streams and index types.
+[**IMFASFIndexer::SetIndexStatus**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus?branch=master) can be used to override the indexer object's default choice of streams and index types.
 
-The following example code shows the initialization of an ASF\_INDEX\_DESCRIPTOR and an ASF\_INDEX\_IDENTIFIER before a call to [**SetIndexStatus**](imfasfindexer-setindexstatus.md).
+The following example code shows the initialization of an ASF\_INDEX\_DESCRIPTOR and an ASF\_INDEX\_IDENTIFIER before a call to [**SetIndexStatus**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus?branch=master).
 
 
 ```
@@ -48,13 +53,13 @@ hr = pIndexer->SetIndexStatus((BYTE*)&amp;IndexerType, sizeof(ASF_INDEX_DESCRIPT
 
 The index identifier must have its GUID index type set to GUID\_NULL to indicate that the index type will be presentation time-based. The index identifier must also be initialized with the stream number of the ASF stream to be indexed. After the index identifier is set, use it to initialize the index descriptor.
 
-The index descriptor structure has members which must be set before the call to [**SetIndexStatus**](imfasfindexer-setindexstatus.md). **Identifier** is an [**ASF\_INDEX\_IDENTIFIER**](asf-index-identifier.md) structure that identifies the stream number and the type of index. **cPerEntryBytes** is the number of bytes used for each index entry. If the value is MFASFINDEXER\_PER\_ENTRY\_BYTES\_DYNAMIC, the index entries have variable size. **dwInterval** is the indexing interval. A value of MFASFINDEXER\_NO\_FIXED\_INTERVAL indicates that there is no fixed indexing interval.
+The index descriptor structure has members which must be set before the call to [**SetIndexStatus**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus?branch=master). **Identifier** is an [**ASF\_INDEX\_IDENTIFIER**](/windows/win32/wmcontainer/ns-wmcontainer-_asf_index_identifier?branch=master) structure that identifies the stream number and the type of index. **cPerEntryBytes** is the number of bytes used for each index entry. If the value is MFASFINDEXER\_PER\_ENTRY\_BYTES\_DYNAMIC, the index entries have variable size. **dwInterval** is the indexing interval. A value of MFASFINDEXER\_NO\_FIXED\_INTERVAL indicates that there is no fixed indexing interval.
 
 ## Send ASF Data Packets to the Indexer
 
 Because the indexer is a WMContainer level object, it must be used in conjunction with the multiplexer during packet generation.
 
-Packets returned from [**GetNextPacket**](imfasfmultiplexer-getnextpacket.md) can be sent to the indexer object through calls to [**GenerateIndexEntries**](imfasfindexer-generateindexentries.md) where it creates index entries for each packet sent.
+Packets returned from [**GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master) can be sent to the indexer object through calls to [**GenerateIndexEntries**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries?branch=master) where it creates index entries for each packet sent.
 
 The following code demonstrates how this may be done:
 
@@ -128,18 +133,18 @@ For more information, see [Generating New ASF Data Packets](generating-new-asf-d
 
 ## Commit the Index
 
-After the last packet has had an index entry created for it, the index must be committed. This is done with a call to [**IMFASFIndexer::CommitIndex**](imfasfindexer-commitindex.md). **CommitIndex** takes a pointer to the ContentInfo object which describes the content of the ASF file. Committing the index finishes the indexing and updates the header with new information about file size and seekability.
+After the last packet has had an index entry created for it, the index must be committed. This is done with a call to [**IMFASFIndexer::CommitIndex**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex?branch=master). **CommitIndex** takes a pointer to the ContentInfo object which describes the content of the ASF file. Committing the index finishes the indexing and updates the header with new information about file size and seekability.
 
 ## Get the Completed Index
 
 To get the completed index from the indexer, perform the following steps:
 
-1.  Call [**IMFASFIndexer::GetIndexWriteSpace**](imfasfindexer-getindexwritespace.md) to get the size of the index.
-2.  Call [**MFCreateMemoryBuffer**](mfcreatememorybuffer.md) to create a media buffer. You can either allocate an buffer that is large enough to hold the entire index, of allocate a smaller buffer and get the index in chunks.
-3.  Call [**IMFASFIndexer::GetCompletedIndex**](imfasfindexer-getcompletedindex.md) to get the index data. On the first call, set the *cbOffsetWithinIndex* parameter to zero. If you get the index in chunks, increment *cbOffsetWithinIndex* each time by the size of the data from the previous call.
-4.  Call [**IMFMediaBuffer::Lock**](imfmediabuffer-lock.md) to get a pointer to the index data and the size of the data.
+1.  Call [**IMFASFIndexer::GetIndexWriteSpace**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace?branch=master) to get the size of the index.
+2.  Call [**MFCreateMemoryBuffer**](/windows/win32/mfapi/nf-mfapi-mfcreatememorybuffer?branch=master) to create a media buffer. You can either allocate an buffer that is large enough to hold the entire index, of allocate a smaller buffer and get the index in chunks.
+3.  Call [**IMFASFIndexer::GetCompletedIndex**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex?branch=master) to get the index data. On the first call, set the *cbOffsetWithinIndex* parameter to zero. If you get the index in chunks, increment *cbOffsetWithinIndex* each time by the size of the data from the previous call.
+4.  Call [**IMFMediaBuffer::Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master) to get a pointer to the index data and the size of the data.
 5.  Write the index data to the ASF file.
-6.  Call [**IMFMediaBuffer::Unlock**](imfmediabuffer-unlock.md) to unlock the media buffer.
+6.  Call [**IMFMediaBuffer::Unlock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-unlock?branch=master) to unlock the media buffer.
 7.  Repeat steps 3–6 until you have written the entire index.
 
 The following code shows these steps:

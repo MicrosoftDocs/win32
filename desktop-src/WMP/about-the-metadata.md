@@ -1,8 +1,16 @@
 ---
 title: About the Metadata
 description: About the Metadata
-ms.assetid: 'bdb35606-7861-4f97-aae5-4f7f3ed48106'
-keywords: ["Windows Media Player,metadata", "metadata,about", "metadata,attributes"]
+ms.assetid: bdb35606-7861-4f97-aae5-4f7f3ed48106
+keywords:
+- Windows Media Player,metadata
+- metadata,about
+- metadata,attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Metadata

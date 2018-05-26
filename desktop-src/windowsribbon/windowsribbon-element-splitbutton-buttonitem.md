@@ -1,14 +1,20 @@
 ---
 title: SplitButton.ButtonItem property
 description: Represents a container for a Button or Toggle Button that exposes the default Command of a Split Button.
-ms.assetid: '3d46d606-238d-46d4-b92e-dfd759951770'
-keywords: ["SplitButton.ButtonItem property Windows Ribbon"]
+ms.assetid: 3d46d606-238d-46d4-b92e-dfd759951770
+keywords:
+- SplitButton.ButtonItem property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - SplitButton.ButtonItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitButton.ButtonItem property
@@ -141,8 +147,8 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -153,9 +159,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [Split Button control](windowsribbon-controls-splitbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

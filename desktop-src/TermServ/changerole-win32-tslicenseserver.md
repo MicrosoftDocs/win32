@@ -1,14 +1,17 @@
 ---
 title: ChangeRole method of the Win32\_TSLicenseServer class
-description: Changes the discovery scope of the Remote Desktop license server. The discovery scope determines which Remote Desktop Session Host (RD Session Host) servers on the network can automatically discover the license server.
+description: Changes the discovery scope of the Remote Desktop license server. The discovery scope determines which Remote Desktop Session Host (RD Session Host) servers on the network can automatically discover the license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3d98fd8a-4ade-489f-8edd-5df1227f15cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3d98fd8a-4ade-489f-8edd-5df1227f15cd
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ChangeRole method Remote Desktop Services", "ChangeRole method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , ChangeRole method"]
+keywords:
+- ChangeRole method Remote Desktop Services
+- ChangeRole method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , ChangeRole method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeRole method of the Win32\_TSLicenseServer class
 
-Changes the discovery scope of the Remote Desktop license server. The discovery scope determines which Remote Desktop Session Host (RD Session Host) servers on the network can automatically discover the license server.
+Changes the discovery scope of the Remote Desktop license server. The discovery scope determines which Remote Desktop Session Host (RD Session Host) servers on the network can automatically discover the license server.
 
 ## Syntax
 
 
 ```mof
 uint32 ChangeRole(
-  [in] uint32 ServerRole
+  [in] uint32 ServerRole
 );
 ```
 
@@ -48,21 +54,21 @@ Discovery scope for the Remote Desktop license server. You can set one of the fo
 0
 </dt> <dd>
 
-RD Session Host servers in the same workgroup can discover the license server.
+RD Session Host servers in the same workgroup can discover the license server.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-RD Session Host servers in the same domain can discover the license server. You must be logged on as a domain administrator to set this value.
+RD Session Host servers in the same domain can discover the license server. You must be logged on as a domain administrator to set this value.
 
 </dd> <dt>
 
 2
 </dt> <dd>
 
-RD Session Host servers from multiple domains in the same forest can discover the license server. You must be logged on as an enterprise administrator to set this value.
+RD Session Host servers from multiple domains in the same forest can discover the license server. You must be logged on as an enterprise administrator to set this value.
 
 </dd> </dl> </dd> </dl>
 
@@ -83,7 +89,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -97,9 +103,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

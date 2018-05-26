@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sets or gets a value that controls how user security identifier (SID) are resolved to user names.'
-title: 'DiskQuotaControl.UserNameResolution property'
+---
+Description: Sets or gets a value that controls how user security identifier (SID) are resolved to user names.
+title: DiskQuotaControl.UserNameResolution property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.UserNameResolution property

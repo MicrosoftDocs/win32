@@ -4,11 +4,14 @@ description: Gets an XML representation of additional error information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd500ab29-d2d3-4a54-af2d-8729f9caf4dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: d500ab29-d2d3-4a54-af2d-8729f9caf4dc
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Error property Windows Remote Management", "Error property Windows Remote Management , ResourceLocator object", "ResourceLocator object Windows Remote Management , Error property"]
+keywords:
+- Error property Windows Remote Management
+- Error property Windows Remote Management , ResourceLocator object
+- ResourceLocator object Windows Remote Management , Error property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator.Error property
@@ -44,8 +50,8 @@ The XML representation of additional error information.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -60,9 +66,9 @@ The XML representation of additional error information.
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

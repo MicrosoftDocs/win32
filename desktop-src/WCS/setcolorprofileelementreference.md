@@ -1,8 +1,9 @@
 ---
 title: SetColorProfileElementReference function
 description: SetColorProfileElementReference creates in a specified ICC color profile a new tag which references the same data as an existing tag.
-ms.assetid: '385a291c-6c15-4b8b-8b48-62d8a6513834'
-keywords: ["SetColorProfileElementReference function Windows Color System"]
+ms.assetid: 385a291c-6c15-4b8b-8b48-62d8a6513834
+keywords:
+- SetColorProfileElementReference function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetColorProfileElementReference function
@@ -22,9 +28,9 @@ api_type:
 
 ```C++
 BOOL WINAPI SetColorProfileElementReference(
-   HPROFILE hProfile,
-   TAGTYPE  newTag,
-   TAGTYPE  refTag
+   HPROFILE hProfile,
+   TAGTYPE  newTag,
+   TAGTYPE  refTag
 );
 ```
 
@@ -77,8 +83,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -95,9 +101,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

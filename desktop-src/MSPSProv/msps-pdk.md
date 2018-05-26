@@ -4,13 +4,15 @@ description: Represents a Provisioning Data KeyFile (PDK).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ed6bf6fc-bac0-472b-b734-f28fa0c66257'
-ms.prod: 'windows-server-dev'
+ms.assetid: ed6bf6fc-bac0-472b-b734-f28fa0c66257
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_PDK class", "Msps_PDK class, described"]
+keywords:
+- Msps_PDK class
+- Msps_PDK class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_PDK class
@@ -37,10 +42,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("mspsprov"), AMENDMENT]
 class Msps_PDK : Msps_ProvisioningFile
 {
-  uint8               RawData[];
-  uint8               KeyProtector[];
+  uint8               RawData[];
+  uint8               KeyProtector[];
   Msps_VolumeIDFilter VolumeIDFilters[];
-  uint8               PolicyData[];
+  uint8               PolicyData[];
 };
 ```
 
@@ -129,7 +134,7 @@ An array of [**Msps\_VolumeIDFilter**](msps-volumeidfilter.md) objects that this
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -149,9 +154,9 @@ An array of [**Msps\_VolumeIDFilter**](msps-volumeidfilter.md) objects that this
 [**Msps\_VolumeIDFilter**](msps-volumeidfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

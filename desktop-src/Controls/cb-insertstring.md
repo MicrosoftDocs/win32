@@ -1,8 +1,9 @@
 ---
 title: CB\_INSERTSTRING message
 description: Inserts a string or item data into the list of a combo box. Unlike the CB\_ADDSTRING message, the CB\_INSERTSTRING message does not cause a list with the CBS\_SORT style to be sorted.
-ms.assetid: 'b9067b4e-afca-4c78-9ca2-c717b99c7459'
-keywords: ["CB_INSERTSTRING message Windows Controls"]
+ms.assetid: b9067b4e-afca-4c78-9ca2-c717b99c7459
+keywords:
+- CB_INSERTSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_INSERTSTRING message
@@ -24,7 +30,7 @@ Inserts a string or item data into the list of a combo box. Unlike the [**CB\_AD
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the position at which to insert the string. If this parameter is –1, the string is added to the end of the list.
+The zero-based index of the position at which to insert the string. If this parameter is  1, the string is added to the end of the list.
 
 </dd> <dt>
 
@@ -47,8 +53,8 @@ If the combo box has [**WS\_HSCROLL**](https://msdn.microsoft.com/library/window
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ If the combo box has [**WS\_HSCROLL**](https://msdn.microsoft.com/library/window
 [**CB\_DIR**](cb-dir.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

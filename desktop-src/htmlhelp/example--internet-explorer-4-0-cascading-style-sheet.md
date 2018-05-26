@@ -1,7 +1,12 @@
 ---
 title: Example Internet Explorer 4.0 Cascading Style Sheet
 description: Example Internet Explorer 4.0 Cascading Style Sheet
-ms.assetid: '0D22F1CE-640F-4ac0-99A0-E3FD6C94846C'
+ms.assetid: 0D22F1CE-640F-4ac0-99A0-E3FD6C94846C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Internet Explorer 4.0 Cascading Style Sheet

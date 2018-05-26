@@ -1,7 +1,12 @@
-﻿---
-Description: 'Texture filtering constants.'
-ms.assetid: '4434e456-670e-46a9-ba78-affdc195fe1c'
+---
+Description: Texture filtering constants.
+ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPTFILTERCAPS
@@ -88,7 +93,7 @@ Texture filtering constants.
 
  
 
-These constants are used by TextureFilterCaps, CubeTextureFilterCaps, VolumeTextureFilterCaps, and VertexTextureFilterCaps members of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by TextureFilterCaps, CubeTextureFilterCaps, VolumeTextureFilterCaps, and VertexTextureFilterCaps members of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 

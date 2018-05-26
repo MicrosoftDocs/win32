@@ -1,7 +1,12 @@
 ---
 title: Permitting and Blocking Applications and Users
 description: Following sample code demonstrates how to add a filter that evaluates by user or application ID.
-ms.assetid: 'f1ca483e-cf60-499f-8a4a-29656ed9503a'
+ms.assetid: f1ca483e-cf60-499f-8a4a-29656ed9503a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Permitting and Blocking Applications and Users

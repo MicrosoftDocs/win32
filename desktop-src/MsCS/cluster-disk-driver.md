@@ -4,11 +4,15 @@ description: Each node in the cluster runs an instance of the Cluster Disk Drive
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05482a15-8946-44f6-8705-e40c521bcbe8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 05482a15-8946-44f6-8705-e40c521bcbe8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["disk drivers Failover Cluster"]
+keywords:
+- disk drivers Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Disk Driver

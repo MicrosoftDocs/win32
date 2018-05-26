@@ -1,7 +1,12 @@
 ---
 title: ps\_1\_4 Source Register Modifiers for texld and texcrd
 description: Two pixel shader version 1\_4 texture address instructions, texld - ps\_1\_4 and texcrd - ps, have custom syntax.
-ms.assetid: 'bbc8074f-882e-4b67-ae4d-1641ceb7f3ad'
+ms.assetid: bbc8074f-882e-4b67-ae4d-1641ceb7f3ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ps\_1\_4 Source Register Modifiers for texld and texcrd

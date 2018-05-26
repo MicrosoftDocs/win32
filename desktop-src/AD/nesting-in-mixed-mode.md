@@ -4,11 +4,15 @@ description: This topic lists the restrictions of security groups in a mixed-mod
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e9f50485-db09-4d8c-8cf4-0ee7e78cb133'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e9f50485-db09-4d8c-8cf4-0ee7e78cb133
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Nesting in Mixed Mode AD"]
+keywords:
+- Nesting in Mixed Mode AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nesting in Mixed Mode

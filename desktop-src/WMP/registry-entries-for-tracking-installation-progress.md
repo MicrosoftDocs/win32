@@ -1,8 +1,24 @@
 ---
 title: Registry Entries for Tracking Installation Progress
 description: Registry Entries for Tracking Installation Progress
-ms.assetid: '898f9117-94fd-4230-9378-b8c6a4401a96'
-keywords: ["Windows Media Player,tracking installation progress", "Windows Media Player,installation progress tracking", "Windows Media Player,progress tracking of installations", "Windows Media Player,registry", "registry,tracking installation progress", "registry,installation progress tracking", "registry,progress tracking of installations", "registry,settings for Windows Media Player", "tracking installation progress", "installing progress tracking", "progress tracking of installations"]
+ms.assetid: 898f9117-94fd-4230-9378-b8c6a4401a96
+keywords:
+- Windows Media Player,tracking installation progress
+- Windows Media Player,installation progress tracking
+- Windows Media Player,progress tracking of installations
+- Windows Media Player,registry
+- registry,tracking installation progress
+- registry,installation progress tracking
+- registry,progress tracking of installations
+- registry,settings for Windows Media Player
+- tracking installation progress
+- installing progress tracking
+- progress tracking of installations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Entries for Tracking Installation Progress

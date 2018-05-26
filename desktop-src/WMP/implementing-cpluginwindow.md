@@ -1,8 +1,19 @@
 ---
 title: Implementing CPluginWindow
 description: Implementing CPluginWindow
-ms.assetid: 'b22723ce-f373-43b1-a098-86a8dbcf485e'
-keywords: ["Windows Media Player plug-ins,CPluginWindow class", "plug-ins,CPluginWindow class", "user interface plug-ins,CPluginWindow class", "UI plug-ins,CPluginWindow class", "CPluginWindow class", "programming guide,user interface plug-ins"]
+ms.assetid: b22723ce-f373-43b1-a098-86a8dbcf485e
+keywords:
+- Windows Media Player plug-ins,CPluginWindow class
+- plug-ins,CPluginWindow class
+- user interface plug-ins,CPluginWindow class
+- UI plug-ins,CPluginWindow class
+- CPluginWindow class
+- programming guide,user interface plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing CPluginWindow

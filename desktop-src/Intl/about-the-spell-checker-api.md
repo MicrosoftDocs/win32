@@ -1,7 +1,12 @@
 ---
-Description: 'For users worldwide, textual input is part of a modern computing experience, for blogging, commenting, tweeting, instant messaging, or any other kind of text typing. In Windows 8, spell checking is built-in to edit controls.'
-ms.assetid: 'ED569D4F-568B-4381-91C3-8EAEDA4DD47C'
+Description: For users worldwide, textual input is part of a modern computing experience, for blogging, commenting, tweeting, instant messaging, or any other kind of text typing. In Windows 8, spell checking is built-in to edit controls.
+ms.assetid: ED569D4F-568B-4381-91C3-8EAEDA4DD47C
 title: About the Spell Checking API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Spell Checking API
@@ -57,7 +62,7 @@ Key: <Registry hive>\SOFTWARE\Microsoft\Spelling\Spellers\<Provider id string>
 
 The [spell checking provider sample](http://go.microsoft.com/fwlink/p/?linkid=242819) provides an example of the registration needed to install a provider.
 
-If you are creating new spell checking options for a spell checking provider, see [**IOptionDescription::Id**](ioptiondescription-id.md) for guidance on naming.
+If you are creating new spell checking options for a spell checking provider, see [**IOptionDescription::Id**](/windows/win32/Spellcheck/nf-spellcheck-ioptiondescription-get_id?branch=master) for guidance on naming.
 
 ## Related topics
 
@@ -72,7 +77,7 @@ If you are creating new spell checking options for a spell checking provider, se
 [Spell checking provider sample](http://go.microsoft.com/fwlink/p/?linkid=242819)
 </dt> <dt>
 
-[**IOptionDescription::Id**](ioptiondescription-id.md)
+[**IOptionDescription::Id**](/windows/win32/Spellcheck/nf-spellcheck-ioptiondescription-get_id?branch=master)
 </dt> <dt>
 
 [**IEnumString**](com.ienumstring)

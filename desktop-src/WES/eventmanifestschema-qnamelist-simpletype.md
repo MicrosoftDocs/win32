@@ -1,14 +1,20 @@
 ---
 title: QNameList Simple Type
 description: Defines a list of qualified names.
-ms.assetid: '727d87a0-82f5-44fa-a841-4c2445f78063'
-keywords: ["QNameList simple type EventLog"]
+ms.assetid: 727d87a0-82f5-44fa-a841-4c2445f78063
+keywords:
+- QNameList simple type EventLog
 topic_type:
 - apiref
 api_name:
 - QNameList
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QNameList Simple Type
@@ -29,14 +35,14 @@ Defines a list of qualified names.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

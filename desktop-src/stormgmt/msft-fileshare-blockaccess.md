@@ -1,8 +1,11 @@
 ---
 title: BlockAccess method of the MSFT\_FileShare class
 description: Denies specified users access to the file share.
-ms.assetid: 'FA3B0467-BE7E-4847-8AA3-BF73E622E83F'
-keywords: ["BlockAccess method Windows Storage Management API", "BlockAccess method Windows Storage Management API , MSFT_FileShare class", "MSFT_FileShare class Windows Storage Management API , BlockAccess method"]
+ms.assetid: FA3B0467-BE7E-4847-8AA3-BF73E622E83F
+keywords:
+- BlockAccess method Windows Storage Management API
+- BlockAccess method Windows Storage Management API , MSFT_FileShare class
+- MSFT_FileShare class Windows Storage Management API , BlockAccess method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BlockAccess method of the MSFT\_FileShare class
@@ -22,8 +30,8 @@ Denies specified users access to the file share.
 
 ```mof
 UInt32 BlockAccess(
-  [in]  String AccountNames[],
-  [out] String ExtendedStatus
+  [in]  String AccountNames[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -86,8 +94,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -100,9 +108,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileShare**](msft-fileshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

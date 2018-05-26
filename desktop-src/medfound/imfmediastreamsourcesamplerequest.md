@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a request for a sample from a MediaStreamSource.'
-ms.assetid: '43617cda-84b1-405f-8a20-be793413c186'
+---
+Description: Represents a request for a sample from a MediaStreamSource.
+ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 title: IMFMediaStreamSourceSampleRequest interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaStreamSourceSampleRequest interface

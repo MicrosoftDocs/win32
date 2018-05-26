@@ -1,14 +1,20 @@
 ---
 title: Subject (sendEmailType) Element
 description: Contains the subject of the email message.
-ms.assetid: '2ccaa983-4dca-4e45-ba8d-2a93e23f7e8c'
-keywords: ["Subject element Task Scheduler"]
+ms.assetid: 2ccaa983-4dca-4e45-ba8d-2a93e23f7e8c
+keywords:
+- Subject element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Subject
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject (sendEmailType) Element
@@ -35,7 +41,7 @@ The **Subject** element is defined by the [**sendEmailType**](taskschedulerschem
 
 ## Remarks
 
-For C++ development, see [**Subject Property of IEmailAction**](iemailaction-subject.md).
+For C++ development, see [**Subject Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_subject?branch=master).
 
 For script development, see [**EmailAction.Subject**](emailaction-subject.md).
 
@@ -45,14 +51,14 @@ For script development, see [**EmailAction.Subject**](emailaction-subject.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

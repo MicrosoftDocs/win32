@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.'
-ms.assetid: '7b3690dc-2007-43a0-80a3-4a68e3c8464d'
+---
+Description: Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.
+ms.assetid: 7b3690dc-2007-43a0-80a3-4a68e3c8464d
 title: WebWizardHost object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebWizardHost object

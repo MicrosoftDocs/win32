@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Infrastructure provides a set of Application Programming Interfaces that are used to develop serverless applications, including peer-to-peer messaging and content sharing.'
-ms.assetid: '32402d21-3e00-4095-93b9-b0357f534342'
+Description: The Peer Infrastructure provides a set of Application Programming Interfaces that are used to develop serverless applications, including peer-to-peer messaging and content sharing.
+ms.assetid: 32402d21-3e00-4095-93b9-b0357f534342
 title: Peer Infrastructure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer Infrastructure

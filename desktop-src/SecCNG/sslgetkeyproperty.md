@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the value of a named property for a Secure Sockets Layer protocol (SSL) provider key object.'
-ms.assetid: '01a7e82a-3888-4f96-85a2-e07811f1895e'
+Description: Retrieves the value of a named property for a Secure Sockets Layer protocol (SSL) provider key object.
+ms.assetid: 01a7e82a-3888-4f96-85a2-e07811f1895e
 title: SslGetKeyProperty function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslGetKeyProperty function
@@ -13,11 +18,11 @@ The **SslGetKeyProperty** function retrieves the value of a named property for a
 
 ```C++
 SECURITY_STATUS WINAPI SslGetKeyProperty(
-  _In_  NCRYPT_KEY_HANDLE hKey,
-  _In_  LPCWSTR           pszProperty,
-  _Out_ PBYTE             ppbOutput,
-  _Out_ DWORD             *pcbOutput,
-  _In_  DWORD             dwFlags
+  _In_  NCRYPT_KEY_HANDLE hKey,
+  _In_  LPCWSTR           pszProperty,
+  _Out_ PBYTE             ppbOutput,
+  _Out_ DWORD             *pcbOutput,
+  _In_  DWORD             dwFlags
 );
 ```
 
@@ -79,7 +84,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,16 +92,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

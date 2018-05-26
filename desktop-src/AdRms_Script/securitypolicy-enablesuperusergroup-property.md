@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves a Boolean value that indicates whether a security group can be designated as the super user group.'
+Description: Specifies or retrieves a Boolean value that indicates whether a security group can be designated as the super user group.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '6828036c-cb6a-4a24-acf6-a6423dfdbdf9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 6828036c-cb6a-4a24-acf6-a6423dfdbdf9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'SecurityPolicy.EnableSuperUserGroup property'
+title: SecurityPolicy.EnableSuperUserGroup property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SecurityPolicy.EnableSuperUserGroup property
@@ -101,7 +104,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -113,9 +116,9 @@ END FUNCTION
 [**SecurityPolicy**](securitypolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

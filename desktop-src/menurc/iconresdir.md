@@ -1,14 +1,20 @@
 ---
 title: ICONRESDIR structure
 description: Contains the dimensions and color format of an individual icon image in a resource group. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '4c727369-2e90-40ad-85af-96d7e060b97a'
-keywords: ["ICONRESDIR structure Menus and Other Resources"]
+ms.assetid: 4c727369-2e90-40ad-85af-96d7e060b97a
+keywords:
+- ICONRESDIR structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - ICONRESDIR
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICONRESDIR structure
@@ -87,8 +93,8 @@ The **ICONRESDIR** structure is passed in the [**RESDIR**](resdir.md) structure 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -108,9 +114,9 @@ The **ICONRESDIR** structure is passed in the [**RESDIR**](resdir.md) structure 
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A synchronization object is an object whose handle can be specified in one of the wait functions to coordinate the execution of multiple threads.'
-ms.assetid: '11558ae9-1056-48bf-96f5-94a051df41c3'
+Description: A synchronization object is an object whose handle can be specified in one of the wait functions to coordinate the execution of multiple threads.
+ms.assetid: 11558ae9-1056-48bf-96f5-94a051df41c3
 title: Synchronization Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronization Objects
@@ -40,7 +45,7 @@ Though available for other uses, the following objects can also be used for sync
 
  
 
-In some circumstances, you can also use a file, named pipe, or communications device as a synchronization object; however, their use for this purpose is discouraged. Instead, use asynchronous I/O and wait on the event object set in the [**OVERLAPPED**](overlapped-str.md) structure. It is safer to use the event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
+In some circumstances, you can also use a file, named pipe, or communications device as a synchronization object; however, their use for this purpose is discouraged. Instead, use asynchronous I/O and wait on the event object set in the [**OVERLAPPED**](/windows/win32/WinBase/ns-minwinbase-_overlapped?branch=master) structure. It is safer to use the event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
 
 For additional information about I/O operations on files, named pipes, or communications, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md).
 

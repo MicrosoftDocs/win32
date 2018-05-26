@@ -1,15 +1,18 @@
 ---
-Description: 'The Evaluate instance method evaluates the MSFT\_SomFilter object Rules as to whether they apply to this machine.'
+Description: The Evaluate instance method evaluates the MSFT\_SomFilter object Rules as to whether they apply to this machine.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '31f489c5-aca6-49e8-96c4-b037c205edb5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 31f489c5-aca6-49e8-96c4-b037c205edb5
+ms.prod: windows-server-dev
 ms.technology:
-- 'group-policy'
-- 'windows-management-instrumentation'
+- group-policy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Evaluate method of the MSFT\_SomFilter class'
+title: Evaluate method of the MSFT\_SomFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Evaluate method of the MSFT\_SomFilter class
@@ -41,8 +44,8 @@ Returns a value of S\_OK (0) if all the queries expressed in the rules of the [*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\policy<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>PolicMan.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PolicMan.dll</dt> </dl> |
@@ -62,9 +65,9 @@ Returns a value of S\_OK (0) if all the queries expressed in the rules of the [*
 [**BatchEvaluate Method in Class MSFT\_SomFilter**](batchevaluate-method-in-class-msft-somfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

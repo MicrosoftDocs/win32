@@ -1,7 +1,12 @@
 ---
-Description: 'Client/Server Exchange'
-ms.assetid: '2449c4b3-720d-4b84-b3cf-fcc4abd05d33'
-title: 'Client/Server Exchange'
+Description: Client/Server Exchange
+ms.assetid: 2449c4b3-720d-4b84-b3cf-fcc4abd05d33
+title: Client/Server Exchange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client/Server Exchange

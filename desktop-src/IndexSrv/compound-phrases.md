@@ -1,7 +1,12 @@
 ---
 title: Compound Phrases
 description: Compound Phrases
-ms.assetid: '1d647a87-ce3c-4563-9606-318982441aaa'
+ms.assetid: 1d647a87-ce3c-4563-9606-318982441aaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compound Phrases

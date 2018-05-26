@@ -1,8 +1,21 @@
 ---
 title: Customizing the Sample Project
 description: Customizing the Sample Project
-ms.assetid: '26031971-3d1b-4175-8fb3-f13b6c17dd01'
-keywords: ["Windows Media Player online stores,customizing sample projects", "online stores,customizing sample projects", "type 2 online stores,customizing sample projects", "Windows Media Player online stores,sample projects", "online stores,sample projects", "type 2 online stores,sample projects", "customizing sample projects", "samples,type 2 online stores"]
+ms.assetid: 26031971-3d1b-4175-8fb3-f13b6c17dd01
+keywords:
+- Windows Media Player online stores,customizing sample projects
+- online stores,customizing sample projects
+- type 2 online stores,customizing sample projects
+- Windows Media Player online stores,sample projects
+- online stores,sample projects
+- type 2 online stores,sample projects
+- customizing sample projects
+- samples,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing the Sample Project

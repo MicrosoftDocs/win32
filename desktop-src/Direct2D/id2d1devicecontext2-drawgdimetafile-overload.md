@@ -1,12 +1,18 @@
 ---
 title: ID2D1DeviceContext2 DrawGdiMetafile methods
 description: Draw a metafile to the device context.
-ms.assetid: 'c093da19-9def-115c-9e2f-d8f4d98aee92'
-keywords: ["DrawGdiMetafile methods Direct2D"]
+ms.assetid: c093da19-9def-115c-9e2f-d8f4d98aee92
+keywords:
+- DrawGdiMetafile methods Direct2D
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1DeviceContext2::DrawGdiMetafile methods
@@ -19,9 +25,9 @@ Draw a metafile to the device context.
 
 | Method                                                                                                                 | Description                                       |
 |:-----------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F&)**](id2d1devicecontext2-drawgdimetafile.md)    | Draw a metafile to the device context.<br/> |
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F\*, D2D1\_RECT\_F\*)**](id2d1devicecontext2-drawgdimetafile2.md) | Draw a metafile to the device context.<br/> |
-| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F\*)**](id2d1devicecontext2-drawgdimetafile3.md)  | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F&)**](/windows/win32/D2d1_3/?branch=master)    | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F\*, D2D1\_RECT\_F\*)**](/windows/win32/D2d1_3/?branch=master) | Draw a metafile to the device context.<br/> |
+| [**DrawGdiMetafile (ID2D1GdiMetafile\*, D2D1\_RECT\_F&, D2D1\_RECT\_F\*)**](/windows/win32/D2d1_3/?branch=master)  | Draw a metafile to the device context.<br/> |
 
 
 
@@ -29,12 +35,12 @@ Draw a metafile to the device context.
 
 <dl> <dt>
 
-[**ID2D1DeviceContext2**](id2d1devicecontext2.md)
+[**ID2D1DeviceContext2**](/windows/win32/D2d1_3/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: This attribute represents the VM Name for a computer in a TSV deplo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '633ab8b6-74e2-43a3-9e7d-bf3c6b88e8b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 633ab8b6-74e2-43a3-9e7d-bf3c6b88e8b8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Endpoint-Data attribute AD Schema", "msTSEndpointData attribute AD Schema"]
+keywords:
+- ms-TS-Endpoint-Data attribute AD Schema
+- msTSEndpointData attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Endpoint-Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Endpoint-Data attribute
@@ -38,8 +43,8 @@ This attribute represents the VM Name for a computer in a TSV deployment.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ This attribute represents the VM Name for a computer in a TSV deployment.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

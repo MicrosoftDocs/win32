@@ -3,21 +3,27 @@ title: Network Control Codes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e9156fc0-688c-4a5b-9c78-91668bf2bd40'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e9156fc0-688c-4a5b-9c78-91668bf2bd40
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
 description: 
-keywords: ["network control codes Failover Cluster", "control codes Failover Cluster ,network", "networks Failover Cluster ,control codes"]
+keywords:
+- network control codes Failover Cluster
+- control codes Failover Cluster ,network
+- networks Failover Cluster ,control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Control Codes
 
 The [Failover Cluster API](the-server-cluster-api.md) defines the following [*external control codes*](e-gly.md#-wolf-external-control-code-gly) for [networks](networks.md) (there are no [*internal control codes*](i-gly.md#-wolf-internal-control-code-gly) defined for networks):
 
-Network control codes use the **CLUS\_OBJECT\_NETWORK** value of the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration to indicate that the control code applies to cluster networks. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
+Network control codes use the **CLUS\_OBJECT\_NETWORK** value of the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration to indicate that the control code applies to cluster networks. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
 
-Network control codes are enumerated by the [**CLUSCTL\_NETWORK\_CODES**](clusctl-network-codes.md) enumeration.
+Network control codes are enumerated by the [**CLUSCTL\_NETWORK\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_network_codes?branch=master) enumeration.
 
 ## In this section
 
@@ -149,13 +155,13 @@ Verifies that a [property list](property-lists.md) is properly formatted.
 [Failover Cluster Control Codes](control-codes.md)
 </dt> <dt>
 
-[**ClusterNetworkControl**](clusternetworkcontrol.md)
+[**ClusterNetworkControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetworkcontrol?branch=master)
 </dt> <dt>
 
 [**ExecuteNetworkControl Method of the MSCluster\_Network Class**](https://msdn.microsoft.com/library/cc512215)
 </dt> <dt>
 
-[**CLUSCTL\_NETWORK\_CODES**](clusctl-network-codes.md)
+[**CLUSCTL\_NETWORK\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_network_codes?branch=master)
 </dt> </dl>
 
  

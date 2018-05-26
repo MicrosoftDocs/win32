@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adjusts the brightness.'
-ms.assetid: '1b3f56eb-3f22-4120-ba6c-331eccd5d303'
-title: 'MFPKEY\_COLOR\_BRIGHTNESS Property'
+---
+Description: Adjusts the brightness.
+ms.assetid: 1b3f56eb-3f22-4120-ba6c-331eccd5d303
+title: MFPKEY\_COLOR\_BRIGHTNESS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLOR\_BRIGHTNESS Property

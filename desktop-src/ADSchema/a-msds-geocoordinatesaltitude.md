@@ -4,17 +4,22 @@ description: Geo-coordinates for location services, specifically altitude (in mi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ee7d756b-2bd4-4399-b573-794a331a1573'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ee7d756b-2bd4-4399-b573-794a331a1573
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-GeoCoordinates-Altitude attribute AD Schema", "msDS-GeoCoordinatesAltitude attribute AD Schema"]
+keywords:
+- ms-DS-GeoCoordinates-Altitude attribute AD Schema
+- msDS-GeoCoordinatesAltitude attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-GeoCoordinates-Altitude
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-GeoCoordinates-Altitude attribute
@@ -38,7 +43,7 @@ Geo-coordinates for location services, specifically altitude (in millimeters) of
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Geo-coordinates for location services, specifically altitude (in millimeters) of
 
 
 
- 
+ 
 
- 
+ 
 
 
 

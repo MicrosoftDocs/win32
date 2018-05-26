@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for the API elements for working with DirectX .x files to support legacy applications.'
-ms.assetid: '4381960a-a4e7-418f-89b9-7565cc48149a'
-title: 'X File Reference (Legacy)'
+Description: This section contains reference information for the API elements for working with DirectX .x files to support legacy applications.
+ms.assetid: 4381960a-a4e7-418f-89b9-7565cc48149a
+title: X File Reference (Legacy)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X File Reference (Legacy)

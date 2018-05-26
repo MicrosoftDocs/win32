@@ -1,14 +1,19 @@
 ---
-title: Getting and Setting a Channel's Configuration Properties
+title: Getting and Setting a Channels Configuration Properties
 description: A channel is initially configured in the manifest (see Defining Channels). To get the configurable properties of a channel, call the EvtOpenChannelConfig function to get a handle to the channel.
-ms.assetid: '4ee44dae-b390-4d98-bcef-836b53b04860'
+ms.assetid: 4ee44dae-b390-4d98-bcef-836b53b04860
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting and Setting a Channel's Configuration Properties
 
-A channel is initially configured in the manifest (see [Defining Channels](defining-channels.md)). To get the configurable properties of a channel, call the [**EvtOpenChannelConfig**](evtopenchannelconfig.md) function to get a handle to the channel. Then, call the [**EvtGetChannelConfigProperty**](evtgetchannelconfigproperty.md) function to get the value of a configurable property of the channel. For a list of configurable properties, see the [**EVT\_CHANNEL\_CONFIG\_PROPERTY\_ID**](evt-channel-config-property-id.md) enumeration. The channel's name, value, and message string properties are considered metadata and cannot be retrieved using the **EvtGetChannelConfigProperty** function. For details on getting these properties, see [Getting a Provider's Metadata](getting-a-provider-s-metadata-.md).
+A channel is initially configured in the manifest (see [Defining Channels](defining-channels.md)). To get the configurable properties of a channel, call the [**EvtOpenChannelConfig**](/windows/win32/WinEvt/nf-winevt-evtopenchannelconfig?branch=master) function to get a handle to the channel. Then, call the [**EvtGetChannelConfigProperty**](/windows/win32/WinEvt/nf-winevt-evtgetchannelconfigproperty?branch=master) function to get the value of a configurable property of the channel. For a list of configurable properties, see the [**EVT\_CHANNEL\_CONFIG\_PROPERTY\_ID**](/windows/win32/WinEvt/ne-winevt-_evt_channel_config_property_id?branch=master) enumeration. The channel's name, value, and message string properties are considered metadata and cannot be retrieved using the **EvtGetChannelConfigProperty** function. For details on getting these properties, see [Getting a Provider's Metadata](getting-a-provider-s-metadata-.md).
 
-You can configure many of the channel's properties at run time. The [**EVT\_CHANNEL\_CONFIG\_PROPERTY\_ID**](evt-channel-config-property-id.md) enumeration identifies those properties that you cannot set. To configure channel properties, the user must be in the administrators group and be running with elevated privileges. To set the configurable properties of a channel, call the [**EvtOpenChannelConfig**](evtopenchannelconfig.md) function to get a handle to the channel. Then, call the [**EvtSetChannelConfigProperty**](evtsetchannelconfigproperty.md) function to set the value of a configurable property. After setting the configurable properties, call the [**EvtSaveChannelConfig**](evtsavechannelconfig.md) function to save and apply the changes.
+You can configure many of the channel's properties at run time. The [**EVT\_CHANNEL\_CONFIG\_PROPERTY\_ID**](/windows/win32/WinEvt/ne-winevt-_evt_channel_config_property_id?branch=master) enumeration identifies those properties that you cannot set. To configure channel properties, the user must be in the administrators group and be running with elevated privileges. To set the configurable properties of a channel, call the [**EvtOpenChannelConfig**](/windows/win32/WinEvt/nf-winevt-evtopenchannelconfig?branch=master) function to get a handle to the channel. Then, call the [**EvtSetChannelConfigProperty**](/windows/win32/WinEvt/nf-winevt-evtsetchannelconfigproperty?branch=master) function to set the value of a configurable property. After setting the configurable properties, call the [**EvtSaveChannelConfig**](/windows/win32/WinEvt/nf-winevt-evtsavechannelconfig?branch=master) function to save and apply the changes.
 
 See the following sections for examples that show how to get and set channel properties:
 

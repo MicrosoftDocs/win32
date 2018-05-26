@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.MapDatum property.'
-ms.assetid: 'be31e98f-5114-4693-a9ef-37fea334875b'
-title: 'System.GPS.MapDatum Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.MapDatum property.
+ms.assetid: be31e98f-5114-4693-a9ef-37fea334875b
+title: System.GPS.MapDatum Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.MapDatum Photo Metadata Policy

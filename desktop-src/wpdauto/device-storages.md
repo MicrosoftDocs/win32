@@ -1,14 +1,22 @@
 ---
 title: Device.Storages property
 description: The Storages property provides read-only access to a collection of all the legacy storages on the device.
-ms.assetid: '6d2d78be-c823-4e2a-9bab-f485dec65724'
-keywords: ["Storages property WPD Automation", "Storages property WPD Automation , Device object", "Device object WPD Automation , Storages property"]
+ms.assetid: 6d2d78be-c823-4e2a-9bab-f485dec65724
+keywords:
+- Storages property WPD Automation
+- Storages property WPD Automation , Device object
+- Device object WPD Automation , Storages property
 topic_type:
 - apiref
 api_name:
 - Device.Storages
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.Storages property
@@ -127,8 +135,8 @@ for (i=0; i < storages.Count; i++)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -142,9 +150,9 @@ for (i=0; i < storages.Count; i++)
 [**storagesCollection Object**](storagescollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

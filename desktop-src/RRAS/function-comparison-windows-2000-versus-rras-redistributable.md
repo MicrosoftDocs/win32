@@ -1,14 +1,19 @@
 ---
 title: Function Comparison Windows 2000 vs. RRAS Redistributable
 description: The RAS API is distributed as a feature of Windows 2000 and later operating systems and is available as a redistributable for Windows NT 4.0 with Service Pack 3 (SP3) and earlier.
-ms.assetid: 'fd6c76b9-52e2-405e-b62e-055cfbdb5ad6'
+ms.assetid: fd6c76b9-52e2-405e-b62e-055cfbdb5ad6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Comparison: Windows 2000 vs. RRAS Redistributable
 
 The RAS API is distributed as a feature of Windows 2000 and later operating systems and is available as a redistributable for Windows NT 4.0 with Service Pack 3 (SP3) and earlier. RAS provides the same functionality in both of these forms but the naming convention that is used is different for the reference elements in each version of the RAS API.
 
-The RAS functions for Windows NT 4.0 with SP3 and earlier typically begin with the "RasAdmin" prefix. The analogous functions for Routing and Remote Access Service (RRAS) begin with the "MprAdmin" prefix. For example, RAS provides a function called [**RasAdminPortGetInfo**](rasadminportgetinfo.md). The analogous function in RRAS is called [**MprAdminPortGetInfo**](mpradminportgetinfo.md). As a similar example, RAS provides the callback function [**RasAdminGetIpAddressForUser**](rasadmingetipaddressforuser.md). RRAS provides a similar callback function called [**MprAdminGetIpAddressForUser**](mpradmingetipaddressforuser.md). Exceptions to this rule are [**RasAdminPortClearStatistics**](rasadminportclearstatistics.md), which under RRAS is [**MprAdminPortClearStats**](mpradminportclearstats.md), and [**RasAdminFreeBuffer**](rasadminfreebuffer.md), which under RRAS is [**MprAdminBufferFree**](mpradminbufferfree.md).
+The RAS functions for Windows NT 4.0 with SP3 and earlier typically begin with the "RasAdmin" prefix. The analogous functions for Routing and Remote Access Service (RRAS) begin with the "MprAdmin" prefix. For example, RAS provides a function called [**RasAdminPortGetInfo**](rasadminportgetinfo.md). The analogous function in RRAS is called [**MprAdminPortGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminportgetinfo?branch=master). As a similar example, RAS provides the callback function [**RasAdminGetIpAddressForUser**](rasadmingetipaddressforuser.md). RRAS provides a similar callback function called [**MprAdminGetIpAddressForUser**](/windows/win32/Mprapi/nf-mprapi-mpradmingetipaddressforuser?branch=master). Exceptions to this rule are [**RasAdminPortClearStatistics**](rasadminportclearstatistics.md), which under RRAS is [**MprAdminPortClearStats**](/windows/win32/Mprapi/nf-mprapi-mpradminportclearstats?branch=master), and [**RasAdminFreeBuffer**](rasadminfreebuffer.md), which under RRAS is [**MprAdminBufferFree**](/windows/win32/Mprapi/nf-mprapi-mpradminbufferfree?branch=master).
 
 The following table lists the Windows NT 4.0 SP3 RAS functions and the corresponding RRAS functions.
 
@@ -16,18 +21,18 @@ The following table lists the Windows NT 4.0 SP3 RAS functions and the correspo
 
 | Windows NT 4.0 RAS                                                                   | RRAS                                                                                 |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**RasAdminAcceptNewConnection**](rasadminacceptnewconnection.md)                   | [**MprAdminAcceptNewConnection**](mpradminacceptnewconnection.md)                   |
-| [**RasAdminConnectionHangupNotification**](rasadminconnectionhangupnotification.md) | [**MprAdminConnectionHangupNotification**](mpradminconnectionhangupnotification.md) |
-| [**RasAdminFreeBuffer**](rasadminfreebuffer.md)                                     | [**MprAdminBufferFree**](mpradminbufferfree.md)                                     |
-| [**RasAdminGetErrorString**](rasadmingeterrorstring.md)                             | [**MprAdminGetErrorString**](mpradmingeterrorstring.md)                             |
-| [**RasAdminGetIpAddressForUser**](rasadmingetipaddressforuser.md)                   | [**MprAdminGetIpAddressForUser**](mpradmingetipaddressforuser.md)                   |
-| [**RasAdminPortClearStatistics**](rasadminportclearstatistics.md)                   | [**MprAdminPortClearStats**](mpradminportclearstats.md)                             |
-| [**RasAdminPortDisconnect**](rasadminportdisconnect.md)                             | [**MprAdminPortDisconnect**](mpradminportdisconnect.md)                             |
-| [**RasAdminPortEnum**](rasadminportenum.md)                                         | [**MprAdminPortEnum**](mpradminportenum.md)                                         |
-| [**RasAdminPortGetInfo**](rasadminportgetinfo.md)                                   | [**MprAdminPortGetInfo**](mpradminportgetinfo.md)                                   |
-| [**RasAdminReleaseIpAddress**](rasadminreleaseipaddress.md)                         | [**MprAdminReleaseIpAddress**](mpradminreleaseipaddress.md)                         |
-| [**RasAdminUserGetInfo**](rasadminusergetinfo.md)                                   | [**MprAdminUserGetInfo**](mpradminusergetinfo.md)                                   |
-| [**RasAdminUserSetInfo**](rasadminusersetinfo.md)                                   | [**MprAdminUserSetInfo**](mpradminusersetinfo.md)                                   |
+| [**RasAdminAcceptNewConnection**](rasadminacceptnewconnection.md)                   | [**MprAdminAcceptNewConnection**](/windows/win32/Mprapi/nf-mprapi-mpradminacceptnewconnection?branch=master)                   |
+| [**RasAdminConnectionHangupNotification**](rasadminconnectionhangupnotification.md) | [**MprAdminConnectionHangupNotification**](/windows/win32/Mprapi/nf-mprapi-mpradminconnectionhangupnotification?branch=master) |
+| [**RasAdminFreeBuffer**](rasadminfreebuffer.md)                                     | [**MprAdminBufferFree**](/windows/win32/Mprapi/nf-mprapi-mpradminbufferfree?branch=master)                                     |
+| [**RasAdminGetErrorString**](rasadmingeterrorstring.md)                             | [**MprAdminGetErrorString**](/windows/win32/Mprapi/nf-mprapi-mpradmingeterrorstring?branch=master)                             |
+| [**RasAdminGetIpAddressForUser**](rasadmingetipaddressforuser.md)                   | [**MprAdminGetIpAddressForUser**](/windows/win32/Mprapi/nf-mprapi-mpradmingetipaddressforuser?branch=master)                   |
+| [**RasAdminPortClearStatistics**](rasadminportclearstatistics.md)                   | [**MprAdminPortClearStats**](/windows/win32/Mprapi/nf-mprapi-mpradminportclearstats?branch=master)                             |
+| [**RasAdminPortDisconnect**](rasadminportdisconnect.md)                             | [**MprAdminPortDisconnect**](/windows/win32/Mprapi/nf-mprapi-mpradminportdisconnect?branch=master)                             |
+| [**RasAdminPortEnum**](rasadminportenum.md)                                         | [**MprAdminPortEnum**](/windows/win32/Mprapi/nf-mprapi-mpradminportenum?branch=master)                                         |
+| [**RasAdminPortGetInfo**](rasadminportgetinfo.md)                                   | [**MprAdminPortGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminportgetinfo?branch=master)                                   |
+| [**RasAdminReleaseIpAddress**](rasadminreleaseipaddress.md)                         | [**MprAdminReleaseIpAddress**](/windows/win32/Mprapi/nf-mprapi-mpradminreleaseipaddress?branch=master)                         |
+| [**RasAdminUserGetInfo**](rasadminusergetinfo.md)                                   | [**MprAdminUserGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminusergetinfo?branch=master)                                   |
+| [**RasAdminUserSetInfo**](rasadminusersetinfo.md)                                   | [**MprAdminUserSetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminusersetinfo?branch=master)                                   |
 
 
 
@@ -37,33 +42,33 @@ Although the RRAS functions are similar to their Windows NT 4.0 with SP3 and e
 
 The RRAS redistributable for Windows NT 4.0 with SP3 and earlier adds the following functions, which have no RAS counterparts:
 
-[**MprAdminAcceptNewLink**](mpradminacceptnewlink.md)
+[**MprAdminAcceptNewLink**](/windows/win32/Mprapi/nf-mprapi-mpradminacceptnewlink?branch=master)
 
-[**MprAdminConnectionClearStats**](mpradminconnectionclearstats.md)
+[**MprAdminConnectionClearStats**](/windows/win32/Mprapi/nf-mprapi-mpradminconnectionclearstats?branch=master)
 
-[**MprAdminConnectionEnum**](mpradminconnectionenum.md)
+[**MprAdminConnectionEnum**](/windows/win32/Mprapi/nf-mprapi-mpradminconnectionenum?branch=master)
 
-[**MprAdminConnectionGetInfo**](mpradminconnectiongetinfo.md)
+[**MprAdminConnectionGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminconnectiongetinfo?branch=master)
 
-[**MprAdminGetPDCServer**](mpradmingetpdcserver.md)
+[**MprAdminGetPDCServer**](/windows/win32/Mprapi/nf-mprapi-mpradmingetpdcserver?branch=master)
 
-[**MprAdminIsServiceRunning**](mpradminisservicerunning.md)
+[**MprAdminIsServiceRunning**](/windows/win32/Mprapi/nf-mprapi-mpradminisservicerunning?branch=master)
 
-[**MprAdminLinkHangupNotification**](mpradminlinkhangupnotification.md)
+[**MprAdminLinkHangupNotification**](/windows/win32/Mprapi/nf-mprapi-mpradminlinkhangupnotification?branch=master)
 
-[**MprAdminPortReset**](mpradminportreset.md)
+[**MprAdminPortReset**](/windows/win32/Mprapi/nf-mprapi-mpradminportreset?branch=master)
 
-[**MprAdminServerConnect**](mpradminserverconnect.md)
+[**MprAdminServerConnect**](/windows/win32/Mprapi/nf-mprapi-mpradminserverconnect?branch=master)
 
-[**MprAdminServerDisconnect**](mpradminserverdisconnect.md)
+[**MprAdminServerDisconnect**](/windows/win32/Mprapi/nf-mprapi-mpradminserverdisconnect?branch=master)
 
 In addition to the preceding functions, Windows 2000 and later operating systems add the following functions:
 
-[**MprAdminSendUserMessage**](mpradminsendusermessage.md)
+[**MprAdminSendUserMessage**](/windows/win32/Mprapi/nf-mprapi-mpradminsendusermessage?branch=master)
 
-[**MprAdminAcceptNewConnection2**](mpradminacceptnewconnection2.md)
+[**MprAdminAcceptNewConnection2**](/windows/win32/Mprapi/nf-mprapi-mpradminacceptnewconnection2?branch=master)
 
-[**MprAdminConnectionHangupNotification2**](mpradminconnectionhangupnotification2.md)
+[**MprAdminConnectionHangupNotification2**](/windows/win32/Mprapi/nf-mprapi-mpradminconnectionhangupnotification2?branch=master)
 
  
 

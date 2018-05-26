@@ -1,8 +1,9 @@
 ---
 title: ICM\_DECOMPRESS message
 description: The ICM\_DECOMPRESS message notifies a video decompression driver to decompress a frame of data into an application-defined buffer.
-ms.assetid: '666f2ebf-80a5-4846-861d-c79c3001c5a0'
-keywords: ["ICM_DECOMPRESS message Windows Multimedia"]
+ms.assetid: 666f2ebf-80a5-4846-861d-c79c3001c5a0
+keywords:
+- ICM_DECOMPRESS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DECOMPRESS message
@@ -33,14 +39,14 @@ lParam = sizeof(ICDECOMPRESS);
 <span id="icd"></span><span id="ICD"></span>*icd*
 </dt> <dd>
 
-Pointer to an [**ICDECOMPRESS**](icdecompress-struct.md) structure.
+Pointer to an [**ICDECOMPRESS**](/windows/win32/Vfw/ns-vfw-icdecompress?branch=master) structure.
 
 </dd> <dt>
 
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Size, in bytes, of [**ICDECOMPRESS**](icdecompress-struct.md).
+Size, in bytes, of [**ICDECOMPRESS**](/windows/win32/Vfw/ns-vfw-icdecompress?branch=master).
 
 </dd> </dl>
 
@@ -60,8 +66,8 @@ The driver returns an error if this message is received before the [**ICM\_DECOM
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The driver returns an error if this message is received before the [**ICM\_DECOM
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

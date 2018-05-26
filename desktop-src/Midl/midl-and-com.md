@@ -2,7 +2,15 @@
 title: MIDL and COM
 description: All COM objects implement one or more interfaces.
 ms.assetid: 09990b49-cce8-4250-8008-49c40945698f
-keywords: ["MIDL compiler MIDL , MIDL and COM MIDL", "compilers MIDL , MIDL and COM MIDL", "COM MIDL"]
+keywords:
+- MIDL compiler MIDL , MIDL and COM MIDL
+- compilers MIDL , MIDL and COM MIDL
+- COM MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL and COM

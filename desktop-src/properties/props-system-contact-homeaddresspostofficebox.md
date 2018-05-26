@@ -1,7 +1,12 @@
 ---
-Description: 'Home address postal box number of the contact.'
-ms.assetid: '4a0dfbca-e3a2-4b08-bb06-86a58bef9998'
-title: 'System.Contact.HomeAddressPostOfficeBox'
+Description: Home address postal box number of the contact.
+ms.assetid: 4a0dfbca-e3a2-4b08-bb06-86a58bef9998
+title: System.Contact.HomeAddressPostOfficeBox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddressPostOfficeBox

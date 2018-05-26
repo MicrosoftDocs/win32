@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETAUTOSCROLLINFO message
 description: Sets information used to determine auto-scroll characteristics. You can send this message explicitly or by using the TreeView\_SetAutoScrollInfo macro.
-ms.assetid: 'de55933f-1caa-4193-84de-0486c41e8f1f'
-keywords: ["TVM_SETAUTOSCROLLINFO message Windows Controls"]
+ms.assetid: de55933f-1caa-4193-84de-0486c41e8f1f
+keywords:
+- TVM_SETAUTOSCROLLINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETAUTOSCROLLINFO message
 
-Sets information used to determine auto-scroll characteristics. You can send this message explicitly or by using the [**TreeView\_SetAutoScrollInfo**](treeview-setautoscrollinfo.md) macro.
+Sets information used to determine auto-scroll characteristics. You can send this message explicitly or by using the [**TreeView\_SetAutoScrollInfo**](/windows/win32/Commctrl/nf-commctrl-treeview_setautoscrollinfo?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ Autoscroll information is used to scroll a nonvisible item into view. The contro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

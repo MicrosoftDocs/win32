@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a connection that is currently turned on and configured to provide communication between two CIM\_ServiceAccessPoint objects.'
-ms.assetid: '03f8e43f-a77b-46e2-bb7d-c29758c65aee'
-title: 'CIM\_ActiveConnection class'
+Description: Defines a connection that is currently turned on and configured to provide communication between two CIM\_ServiceAccessPoint objects.
+ms.assetid: 03f8e43f-a77b-46e2-bb7d-c29758c65aee
+title: CIM\_ActiveConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ActiveConnection class
@@ -16,9 +21,9 @@ class CIM_ActiveConnection : CIM_SAPSAPDependency
 {
   CIM_ServiceAccessPoint REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
-  uint16                     TrafficType;
-  string                     OtherTrafficDescription;
-  boolean                    IsUnidirectional;
+  uint16                     TrafficType;
+  string                     OtherTrafficDescription;
+  boolean                    IsUnidirectional;
 };
 ```
 
@@ -94,7 +99,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 A description of the traffic type that is specified when the **TrafficType** property is set to "1" (Other).
 
@@ -115,7 +120,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 The type of traffic that is transmitted over this connection.
 
@@ -171,8 +176,8 @@ The type of traffic that is transmitted over this connection.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -186,9 +191,9 @@ The type of traffic that is transmitted over this connection.
 [**CIM\_SAPSAPDependency**](cim-sapsapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

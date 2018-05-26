@@ -4,17 +4,21 @@ description: An application implements a CreationCallback T .
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '10317c82-b99b-44d1-9417-d3991603b39d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 10317c82-b99b-44d1-9417-d3991603b39d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CreationCallback T interface"]
+keywords:
+- CreationCallback T interface
 topic_type:
 - apiref
 api_name:
 - CreationCallback T interface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreationCallback&lt;T&gt; interface
@@ -40,7 +44,7 @@ public interface CreationCallback<T> extends ContextCallback
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -56,7 +60,7 @@ CreationCallback.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -66,9 +70,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

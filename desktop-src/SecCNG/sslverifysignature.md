@@ -1,7 +1,12 @@
 ---
-Description: 'Verifies the specified signature by using the supplied hash and the public key.'
-ms.assetid: 'fa274851-15f2-4be0-9e2f-4cdced36daff'
+Description: Verifies the specified signature by using the supplied hash and the public key.
+ms.assetid: fa274851-15f2-4be0-9e2f-4cdced36daff
 title: SslVerifySignature function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslVerifySignature function
@@ -13,13 +18,13 @@ The **SslVerifySignature** function verifies the specified signature by using th
 
 ```C++
 SECURITY_STATUS WINAPI SslVerifySignature(
-  _In_ NCRYPT_PROV_HANDLE hSslProvider,
-  _In_ NCRYPT_KEY_HANDLE  hPublicKey,
-  _In_ PBYTE              pbHashValue,
-  _In_ DWORD              cbHashValue,
-  _In_ PBYTE              pbSignature,
-  _In_ DWORD              cbSignature,
-  _In_ DWORD              dwFlags
+  _In_ NCRYPT_PROV_HANDLE hSslProvider,
+  _In_ NCRYPT_KEY_HANDLE  hPublicKey,
+  _In_ PBYTE              pbHashValue,
+  _In_ DWORD              cbHashValue,
+  _In_ PBYTE              pbSignature,
+  _In_ DWORD              cbSignature,
+  _In_ DWORD              dwFlags
 );
 ```
 
@@ -94,13 +99,13 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
 The **SslVerifySignature** function is not currently called by Windows. This function is a required part of the SSL Provider interface and should be fully implemented to ensure forward compatibility.
 
-Current implementations of the server side of the [*Transport Layer Security protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transport-layer-security-protocol-gly) (TLS) connection call the [**NCryptVerifySignature**](ncryptverifysignature-func.md) function during the client authentication to process the certificate verify message.
+Current implementations of the server side of the [*Transport Layer Security protocol*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transport-layer-security-protocol-gly) (TLS) connection call the [**NCryptVerifySignature**](/windows/win32/Ncrypt/nf-ncrypt-ncryptverifysignature?branch=master) function during the client authentication to process the certificate verify message.
 
 ## Requirements
 
@@ -108,16 +113,16 @@ Current implementations of the server side of the [*Transport Layer Security pro
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

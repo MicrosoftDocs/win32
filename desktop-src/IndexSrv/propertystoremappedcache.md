@@ -1,7 +1,12 @@
 ---
 title: PropertyStoreMappedCache
 description: PropertyStoreMappedCache
-ms.assetid: '23cff0cf-7117-4bee-acaf-b29ce3a001e9'
+ms.assetid: 23cff0cf-7117-4bee-acaf-b29ce3a001e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PropertyStoreMappedCache

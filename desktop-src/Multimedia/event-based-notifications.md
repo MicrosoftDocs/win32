@@ -1,8 +1,18 @@
 ---
 title: Event-Based Notifications
 description: Event-Based Notifications
-ms.assetid: 'bd483865-f983-416a-9b72-475fe9679cd1'
-keywords: ["joysticks,notifications", "joysticks,messages", "joysticks,event-based notifications", "joysticks,movement threshold", "event-based joystick notifications"]
+ms.assetid: bd483865-f983-416a-9b72-475fe9679cd1
+keywords:
+- joysticks,notifications
+- joysticks,messages
+- joysticks,event-based notifications
+- joysticks,movement threshold
+- event-based joystick notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event-Based Notifications

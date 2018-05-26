@@ -1,7 +1,12 @@
-﻿---
-Description: 'Use this method to re-acquire resources and save initial state.'
-ms.assetid: 'beca7a51-e799-4e03-81a3-218552231428'
-title: 'ID3DXLine::OnResetDevice method'
+---
+Description: Use this method to re-acquire resources and save initial state.
+ms.assetid: beca7a51-e799-4e03-81a3-218552231428
+title: ID3DXLineOnResetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::OnResetDevice method
@@ -29,7 +34,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-**ID3DXLine::OnResetDevice** should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](idirect3ddevice9--reset.md)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
+**ID3DXLine::OnResetDevice** should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master)), before any other methods are called. This is a good place to re-acquire video-memory resources and capture state blocks.
 
 ## Requirements
 

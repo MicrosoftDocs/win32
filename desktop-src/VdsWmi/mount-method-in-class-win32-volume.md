@@ -1,8 +1,11 @@
 ---
 title: Mount method of the Win32\_Volume class
 description: The Mount method mounts a file system on the volume.This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see Calling a Method.
-ms.assetid: 'f1a3cd65-97e5-406f-9df4-44752af6b868'
-keywords: ["Mount method", "Mount method, Win32_Volume class", "Win32_Volume class, Mount method"]
+ms.assetid: f1a3cd65-97e5-406f-9df4-44752af6b868
+keywords:
+- Mount method
+- Mount method, Win32_Volume class
+- Win32_Volume class, Mount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mount method of the Win32\_Volume class
@@ -44,7 +52,7 @@ This method has no parameters.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,7 +61,7 @@ This method has no parameters.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Vds.h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
@@ -68,9 +76,9 @@ This method has no parameters.
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

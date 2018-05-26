@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a list of bit rates and corresponding buffer windows for a variable bit rate (VBR) Advanced Systems Format (ASF) file.'
-ms.assetid: 'e45d055f-d404-47e9-b3c8-ac743b290138'
-title: 'MF\_PD\_ASF\_METADATA\_LEAKY\_BUCKET\_PAIRS attribute'
+---
+Description: Specifies a list of bit rates and corresponding buffer windows for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
+ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
+title: MF\_PD\_ASF\_METADATA\_LEAKY\_BUCKET\_PAIRS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_METADATA\_LEAKY\_BUCKET\_PAIRS attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute that applies to the presentation descriptor for ASF content.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute that applies to the presentation descriptor for ASF content.
 
 The value of the attribute has the following format:
 
@@ -62,13 +67,13 @@ For each bit rate, the **msBufferWindow** member indicates how much content is b
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

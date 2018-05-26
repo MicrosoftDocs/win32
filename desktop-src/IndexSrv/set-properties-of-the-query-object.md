@@ -1,7 +1,12 @@
 ---
 title: Set Properties of the Query Object
 description: Set Properties of the Query Object
-ms.assetid: '539d5e25-afb3-49bf-974b-616843132c21'
+ms.assetid: 539d5e25-afb3-49bf-974b-616843132c21
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set Properties of the Query Object

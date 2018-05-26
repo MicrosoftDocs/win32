@@ -1,13 +1,16 @@
 ---
-Description: 'The first step in connecting to WMI is setting up the COM calls to CoInitializeEx and CoInitializeSecurity.'
+Description: The first step in connecting to WMI is setting up the COM calls to CoInitializeEx and CoInitializeSecurity.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c9291aa7-702c-4752-8bd0-97d7a6e6dd54'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c9291aa7-702c-4752-8bd0-97d7a6e6dd54
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Initializing COM for a WMI Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Initializing COM for a WMI Application

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The USERDATA structure is used by Unidrv and Pscript to specify additional information about printer features. A USERDATA structure pointer is supplied as the UserData member for each OPTITEM structure.'
-ms.assetid: '2a0a74cd-2dcf-4485-8941-7f205dcecede'
+---
+Description: The USERDATA structure is used by Unidrv and Pscript to specify additional information about printer features. A USERDATA structure pointer is supplied as the UserData member for each OPTITEM structure.
+ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 title: USERDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # USERDATA structure

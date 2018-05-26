@@ -1,7 +1,12 @@
 ---
 Description: Event Notification in DirectShow
-ms.assetid: '301116a5-24e3-4c6d-8c80-bec77c7d62d7'
+ms.assetid: 301116a5-24e3-4c6d-8c80-bec77c7d62d7
 title: Event Notification in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Notification in DirectShow

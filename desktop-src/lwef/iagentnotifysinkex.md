@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySinkEx
 description: IAgentNotifySinkEx
-ms.assetid: 'e79e2a9c-d374-4219-b610-c2ba1cc3bcbd'
+ms.assetid: e79e2a9c-d374-4219-b610-c2ba1cc3bcbd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySinkEx

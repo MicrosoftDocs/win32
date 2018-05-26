@@ -1,8 +1,11 @@
 ---
 title: Subject SetInstance method
 description: Sets the instance name of the Subject.
-ms.assetid: 'CBE2D890-86BF-4B0E-A046-94853A5C9C46'
-keywords: ["SetInstance method Access Execution Engine", "SetInstance method Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , SetInstance method"]
+ms.assetid: CBE2D890-86BF-4B0E-A046-94853A5C9C46
+keywords:
+- SetInstance method Access Execution Engine
+- SetInstance method Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , SetInstance method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::SetInstance method
@@ -22,7 +30,7 @@ Sets the instance name of the **Subject**.
 
 ```C++
 virtual HRESULT SetInstance(
-  [in] LPCWSTR name
+  [in] LPCWSTR name
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The instance name is the value of element **Subject/Instance/ProgrammaticName**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The instance name is the value of element **Subject/Instance/ProgrammaticName**.
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

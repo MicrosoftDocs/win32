@@ -1,7 +1,12 @@
 ---
 title: Collection Object Properties
 description: A collection provides a set of objects over which iteration can be performed.
-ms.assetid: '592dd7dc-c45f-4827-8e08-039756d0efd5'
+ms.assetid: 592dd7dc-c45f-4827-8e08-039756d0efd5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collection Object Properties

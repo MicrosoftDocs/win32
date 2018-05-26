@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMessages method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see FaxOutgoingMessageIterator.'
-ms.assetid: '8daf6fba-dd69-479c-b17d-ba2729fe6773'
-title: 'FaxOutgoingArchive.GetMessages method'
+---
+Description: The GetMessages method returns a new iterator (archive cursor) for the archive of outbound fax messages. For more information, see FaxOutgoingMessageIterator.
+ms.assetid: 8daf6fba-dd69-479c-b17d-ba2729fe6773
+title: FaxOutgoingArchive.GetMessages method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.GetMessages method
@@ -36,7 +41,7 @@ A **Long** value that specifies the size of the prefetch buffer. This value dete
 *FaxOutgoingMessageIterator* 
 </dt> <dd>
 
-Type: **[**IFaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator-cpp.md)\*\***
+Type: **[**IFaxOutgoingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessageiterator?branch=master)\*\***
 
 A [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md) object.
 
@@ -44,7 +49,7 @@ A [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) or **farQUERY\_OUT\_ARCHIVE** access right. With the **farSUBMIT\_LOW** access right, the user will be able to use this method only for his own faxes. With the **farQUERY\_OUT\_ARCHIVE** access right, he will be able to use this method for all of the faxes on the server.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or **farQUERY\_OUT\_ARCHIVE** access right. With the **farSUBMIT\_LOW** access right, the user will be able to use this method only for his own faxes. With the **farQUERY\_OUT\_ARCHIVE** access right, he will be able to use this method for all of the faxes on the server.
 
 ## Requirements
 

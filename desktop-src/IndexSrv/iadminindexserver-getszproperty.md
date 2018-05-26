@@ -1,8 +1,11 @@
 ---
 title: IAdminIndexServer GetSZProperty method
 description: Retrieves a content index registry value of type REG\_SZ, as described in Registry Entries.
-ms.assetid: 'f7124f32-dcfe-4af4-9ab8-d23e8cf59e73'
-keywords: ["GetSZProperty method Indexing Service", "GetSZProperty method Indexing Service , IAdminIndexServer interface", "IAdminIndexServer interface Indexing Service , GetSZProperty method"]
+ms.assetid: f7124f32-dcfe-4af4-9ab8-d23e8cf59e73
+keywords:
+- GetSZProperty method Indexing Service
+- GetSZProperty method Indexing Service , IAdminIndexServer interface
+- IAdminIndexServer interface Indexing Service , GetSZProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ciodm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAdminIndexServer::GetSZProperty method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Retrieves a content index registry value of type **REG\_SZ**, as described in [Registry Entries](registry-entries.md).
 
@@ -24,8 +32,8 @@ Retrieves a content index registry value of type **REG\_SZ**, as described in [R
 
 ```C++
 HRESULT GetSZProperty(
-  [in]          BSTR bstrPropName,
-  [out, retval] BSTR *pbstrVal
+  [in]          BSTR bstrPropName,
+  [out, retval] BSTR *pbstrVal
 );
 ```
 
@@ -63,10 +71,10 @@ The registry value name must already exist for the Indexing Service entry. Attem
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -78,9 +86,9 @@ The registry value name must already exist for the Indexing Service entry. Attem
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

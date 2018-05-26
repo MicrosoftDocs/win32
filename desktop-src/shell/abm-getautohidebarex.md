@@ -1,6 +1,11 @@
 ---
-Description: 'Retrieves the handle to the autohide appbar associated with an edge of the screen. This message extends ABM\_GETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.'
-title: 'ABM\_GETAUTOHIDEBAREX message'
+Description: Retrieves the handle to the autohide appbar associated with an edge of the screen. This message extends ABM\_GETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.
+title: ABM\_GETAUTOHIDEBAREX message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABM\_GETAUTOHIDEBAREX message
@@ -21,7 +26,7 @@ hwndAutoHide = (HWND) SHAppBarMessage(ABM_GETAUTOHIDEBAR, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](appbardata.md) structure that specifies the screen edge and monitor. You must specify the **cbSize**, **uEdge**, and **rc** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure that specifies the screen edge and monitor. You must specify the **cbSize**, **uEdge**, and **rc** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns the handle to the autohide appbar. The return value is **NULL** if an er
 [**ABM\_SETAUTOHIDEBAREX**](abm-setautohidebarex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

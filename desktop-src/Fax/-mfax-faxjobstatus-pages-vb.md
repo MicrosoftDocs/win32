@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Pages property is a number that indicates the total number of pages received so far in the fax transmission.'
-ms.assetid: '7a046353-8bcd-40a5-94f5-0bc82b759ab2'
-title: 'FaxJobStatus.Pages property'
+---
+Description: The Pages property is a number that indicates the total number of pages received so far in the fax transmission.
+ms.assetid: 7a046353-8bcd-40a5-94f5-0bc82b759ab2
+title: FaxJobStatus.Pages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.Pages property
@@ -46,7 +51,7 @@ A **Long** that receives the total number of pages received so far in the fax tr
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

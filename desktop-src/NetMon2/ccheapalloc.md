@@ -1,7 +1,12 @@
 ---
-Description: 'The CCHeapAlloc function allocates memory on a capture-by-capture basis.'
-ms.assetid: '6403c35f-d78f-48dc-90cc-0b76260bbab7'
+Description: The CCHeapAlloc function allocates memory on a capture-by-capture basis.
+ms.assetid: 6403c35f-d78f-48dc-90cc-0b76260bbab7
 title: CCHeapAlloc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCHeapAlloc function
@@ -13,8 +18,8 @@ The **CCHeapAlloc** function allocates memory on a capture-by-capture basis.
 
 ```C++
 LPVOID WINAPI CCHeapAlloc(
-   DWORD dwBytes,
-   BOOL  bZeroInit
+   DWORD dwBytes,
+   BOOL  bZeroInit
 );
 ```
 
@@ -50,8 +55,8 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -77,9 +82,9 @@ If the function is unsuccessful, the return value is **NULL**.
 [**CCHeapSize**](ccheapsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::EnumFeatures method enumerates a printer''s available features.'
-ms.assetid: 'e5c16b6d-555d-4360-b781-4d22be81ab56'
-title: 'IPrintCoreUI2::EnumFeatures method'
+---
+Description: The IPrintCoreUI2EnumFeatures method enumerates a printers available features.
+ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
+title: IPrintCoreUI2EnumFeatures method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::EnumFeatures method

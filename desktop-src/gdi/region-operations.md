@@ -1,7 +1,12 @@
 ---
 Description: Region Operations
-ms.assetid: '347ed2ca-b842-44bd-9ea6-f00a6e5d7941'
+ms.assetid: 347ed2ca-b842-44bd-9ea6-f00a6e5d7941
 title: Region Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Region Operations

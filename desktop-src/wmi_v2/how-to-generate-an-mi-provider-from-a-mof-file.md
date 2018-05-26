@@ -4,10 +4,13 @@ description: Once you have configured the MI development environment and created
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8FA62DD9-EEA8-4B63-B4BD-E4388D5942B5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 8FA62DD9-EEA8-4B63-B4BD-E4388D5942B5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Generate an MI Provider from a MOF File
@@ -17,7 +20,7 @@ Once you have [configured the MI development environment](how-to--configure-the-
 > [!Note]  
 > If you're new to MI provider development and/or just want to learn how to develop an MI provider and don't have a MOF file, the following steps provide a simple MOF file example.
 
- 
+ 
 
 1.  Open a command prompt.
 2.  Change directories to the source directory of the Visual Studio created in [How to: Create a Visual Studio Project for an MI Provider](how-to-create-a-visual-studio-project-for-an-mi-provider.md). If you are in the correct directory, you will see two files: *projectName*.vcxproj and *projectName*.vcxproj.filters.
@@ -59,7 +62,7 @@ Once you have [configured the MI development environment](how-to--configure-the-
     > [!Note]  
     > The following call to the Convert-MofToProvider tool is split across multiple lines for display purposes. You should enter this as a single line.
 
-     
+     
 
     ``` syntax
     convert-moftoprovider -MofFile process.mof -ClassList MSFT_WindowsProcess 
@@ -125,13 +128,13 @@ Once you have [configured the MI development environment](how-to--configure-the-
 
     
 
-     
+     
 
 5.  Once you've generated the MI provider from your MOF file, the next step is to [build an MI provider using Visual Studio](how-to-build-an-mi-provider-using-visual-studio.md).
 
- 
+ 
 
- 
+ 
 
 
 

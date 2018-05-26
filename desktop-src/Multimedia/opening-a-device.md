@@ -1,13 +1,19 @@
 ---
 title: Opening a Device
 description: Opening a Device
-ms.assetid: 'd4881d32-e8b7-45e6-b00b-b4cd69b738f1'
-keywords: ["MCI_OPEN command"]
+ms.assetid: d4881d32-e8b7-45e6-b00b-b4cd69b738f1
+keywords:
+- MCI_OPEN command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Device
 
-Before using a device, you must initialize it by using the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command. This command loads the driver into memory (if it isn't already loaded) and retrieves the device identifier you will use to identify the device in subsequent MCI commands. You should check the return value of the [**mciSendString**](mcisendstring.md) or [**mciSendCommand**](mcisendcommand.md) function before using a new device identifier to ensure that the identifier is valid. (You can also retrieve a device identifier by using the [**mciGetDeviceID**](mcigetdeviceid.md) function.)
+Before using a device, you must initialize it by using the [**open**](open.md) ([**MCI\_OPEN**](mci-open.md)) command. This command loads the driver into memory (if it isn't already loaded) and retrieves the device identifier you will use to identify the device in subsequent MCI commands. You should check the return value of the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) or [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function before using a new device identifier to ensure that the identifier is valid. (You can also retrieve a device identifier by using the [**mciGetDeviceID**](/windows/win32/Mmsystem/?branch=master) function.)
 
 Like all MCI command messages, **MCI\_OPEN** has an associated structure. These structures are sometimes called *parameter blocks*. The default structure for **MCI\_OPEN** is [**MCI\_OPEN\_PARMS**](mci-open-parms.md). Certain devices (such as *waveform* and *overlay*) have extended structures (such as [**MCI\_WAVE\_OPEN\_PARMS**](mci-wave-open-parms.md) and [**MCI\_OVLY\_OPEN\_PARMS**](mci-ovly-open-parms.md)) to accommodate additional optional parameters. Unless you need to use these additional parameters, you can use the **MCI\_OPEN\_PARMS** structure with any MCI device.
 

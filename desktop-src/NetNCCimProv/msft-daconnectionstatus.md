@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the connection status for DirectAccess.'
-ms.assetid: 'aea5bce8-791c-4df7-b7e5-cceb28a26271'
-title: 'MSFT\_DAConnectionStatus class'
+Description: Represents the connection status for DirectAccess.
+ms.assetid: aea5bce8-791c-4df7-b7e5-cceb28a26271
+title: MSFT\_DAConnectionStatus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DAConnectionStatus class
@@ -65,17 +70,17 @@ Describes the connection substatus for DirectAccess.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetNCCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetNCCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

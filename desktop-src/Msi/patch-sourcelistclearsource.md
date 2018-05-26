@@ -1,12 +1,17 @@
-﻿---
-Description: 'Removes a network or URL source.'
-ms.assetid: '76c7cc6c-740f-40e0-8385-024dcc82b79e'
-title: 'Patch.SourceListClearSource method'
+---
+Description: Removes a network or URL source.
+ms.assetid: 76c7cc6c-740f-40e0-8385-024dcc82b79e
+title: Patch.SourceListClearSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.SourceListClearSource method
 
-The **SourceListClearSource** method removes a network or URL source. This method calls [**MsiSourceListClearSource**](msisourcelistclearsource.md).
+The **SourceListClearSource** method removes a network or URL source. This method calls [**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master).
 
 ## Syntax
 
@@ -67,7 +72,7 @@ This method does not return a value.
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListClearSource**](msisourcelistclearsource.md)
+[**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

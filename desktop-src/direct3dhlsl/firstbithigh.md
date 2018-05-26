@@ -1,14 +1,20 @@
 ---
 title: firstbithigh function
 description: Gets the location of the first set bit starting from the highest order bit and working downward, per component.
-ms.assetid: '0fa89a9e-1706-44f7-8dd3-c37af5c11ddc'
-keywords: ["firstbithigh function HLSL"]
+ms.assetid: 0fa89a9e-1706-44f7-8dd3-c37af5c11ddc
+keywords:
+- firstbithigh function HLSL
 topic_type:
 - apiref
 api_name:
 - firstbithigh
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # firstbithigh function

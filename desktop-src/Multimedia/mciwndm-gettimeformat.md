@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETTIMEFORMAT message
 description: The MCIWNDM\_GETTIMEFORMAT message retrieves the current time format of an MCI device in two forms as a numerical value and as a string. You can send this message explicitly or by using the MCIWndGetTimeFormat macro.
-ms.assetid: '01844872-5444-4f3b-92a3-64f80b94d3a0'
-keywords: ["MCIWNDM_GETTIMEFORMAT message Windows Multimedia"]
+ms.assetid: 01844872-5444-4f3b-92a3-64f80b94d3a0
+keywords:
+- MCIWNDM_GETTIMEFORMAT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETTIMEFORMAT message
 
-The **MCIWNDM\_GETTIMEFORMAT** message retrieves the current time format of an MCI device in two forms: as a numerical value and as a string. You can send this message explicitly or by using the [**MCIWndGetTimeFormat**](mciwndgettimeformat.md) macro.
+The **MCIWNDM\_GETTIMEFORMAT** message retrieves the current time format of an MCI device in two forms: as a numerical value and as a string. You can send this message explicitly or by using the [**MCIWndGetTimeFormat**](/windows/win32/Vfw/nf-vfw-mciwndgettimeformat?branch=master) macro.
 
 
 ```C++
@@ -72,7 +78,7 @@ An MCI device can support one or more of the following time formats.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,8 +86,8 @@ An MCI device can support one or more of the following time formats.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -90,12 +96,12 @@ An MCI device can support one or more of the following time formats.
 
 <dl> <dt>
 
-[**MCIWndGetTimeFormat**](mciwndgettimeformat.md)
+[**MCIWndGetTimeFormat**](/windows/win32/Vfw/nf-vfw-mciwndgettimeformat?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

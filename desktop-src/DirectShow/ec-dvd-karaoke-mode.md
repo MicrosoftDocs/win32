@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates that the DVD Navigator has either begun playing or finished playing karaoke data.'
-ms.assetid: '910bf809-a56a-4d02-9c7e-429769a4ec2b'
-title: 'EC\_DVD\_KARAOKE\_MODE'
+Description: Indicates that the DVD Navigator has either begun playing or finished playing karaoke data.
+ms.assetid: 910bf809-a56a-4d02-9c7e-429769a4ec2b
+title: EC\_DVD\_KARAOKE\_MODE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_KARAOKE\_MODE
@@ -55,9 +60,9 @@ This event is raised in all DVD domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

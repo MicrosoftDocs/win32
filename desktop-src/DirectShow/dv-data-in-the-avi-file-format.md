@@ -1,7 +1,12 @@
 ---
 Description: DV Data in the AVI File Format
-ms.assetid: 'ae1ec184-afc3-4ec1-9b92-f53656293446'
+ms.assetid: ae1ec184-afc3-4ec1-9b92-f53656293446
 title: DV Data in the AVI File Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DV Data in the AVI File Format
@@ -31,7 +36,7 @@ The 'dvsl' stream handler FOURCC specifies that the DV data is as defined in Par
 
  
 
-The stream header chunk must be followed by a [**DVINFO**](dvinfo.md) stream format chunk.
+The stream header chunk must be followed by a [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) stream format chunk.
 
 The actual DV data is stored as '\#\#dc' chunks in the 'movi' chunk (the \#\# in the format represents the stream identifier). Each chunk contains one frame of data, either 10 or 12 DV DIF sequences for 525-60 or 625-50 systems, respectively. The DV SD ('dvsd') DIF sequence format is defined in Part 2 of the *Specification of Consumer-use Digital VCRs*.
 
@@ -89,7 +94,7 @@ Interleaved DV data can be split into a video stream and one to four audio strea
 
 DV data can be stored as a video stream with a separate number of audio streams in an AVI RIFF file. The video stream is specified with a standard video stream header (the **fccType** member value is 'vids'). The **fccHandler** member is specified as 'dvsd', 'dvhd', or 'dvsl'. The frames per second of the video stream must be specified in the **dwRate** and **dwScale** members and the total number of video blocks in the 'movi' chunk in the **dwLength** member.
 
-In this AVI file containing DV video as a 'vids' stream and DV audio as 'auds' streams form of DV, the video stream format chunk is a standard [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure. The stream format chunk can be optionally extended to include the [**DVINFO**](dvinfo.md) chunk, by increasing the stream format chunk size from 40 bytes (size of the **BITMAPINFOHEADER** structure) to 72 bytes (size of **BITMAPINFOHEADER** plus **DVINFO** structures) and immediately following the **BITMAPINFOHEADER** data structure with a **DVINFO** data structure.
+In this AVI file containing DV video as a 'vids' stream and DV audio as 'auds' streams form of DV, the video stream format chunk is a standard [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure. The stream format chunk can be optionally extended to include the [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) chunk, by increasing the stream format chunk size from 40 bytes (size of the **BITMAPINFOHEADER** structure) to 72 bytes (size of **BITMAPINFOHEADER** plus **DVINFO** structures) and immediately following the **BITMAPINFOHEADER** data structure with a **DVINFO** data structure.
 
 The audio stream(s) is specified with a standard audio stream header (the **fccType** member value is 'auds'). The **fccHandler** member is not used for audio streams.
 
@@ -100,7 +105,7 @@ The DV video data is stored as '\#\#dc' chunks, as defined in the preceding desc
 
  
 
-The following example shows the AIFF RIFF form for an AVI file containing DV video as a 'vids' stream and DV audio as 'auds' streams expanded with completed header chunks (including optional [**DVINFO**](dvinfo.md) data following the [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) in the 'strf' sub-chunk for the 'vids' stream).
+The following example shows the AIFF RIFF form for an AVI file containing DV video as a 'vids' stream and DV audio as 'auds' streams expanded with completed header chunks (including optional [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) data following the [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) in the 'strf' sub-chunk for the 'vids' stream).
 
 
 ```C++

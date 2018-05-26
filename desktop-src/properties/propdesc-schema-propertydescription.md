@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a single unique canonical property.'
-ms.assetid: '1a36ec83-5d8a-4fc5-be3d-a8c2f0983057'
+Description: Describes a single unique canonical property.
+ms.assetid: 1a36ec83-5d8a-4fc5-be3d-a8c2f0983057
 title: propertyDescription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propertyDescription

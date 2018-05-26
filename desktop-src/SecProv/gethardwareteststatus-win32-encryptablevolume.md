@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides status information about a hardware test of a fully decrypted operating system volume.'
-ms.assetid: 'd76bc266-3718-443e-94f9-dcaa0ec53151'
-title: 'GetHardwareTestStatus method of the Win32\_EncryptableVolume class'
+---
+Description: Provides status information about a hardware test of a fully decrypted operating system volume.
+ms.assetid: d76bc266-3718-443e-94f9-dcaa0ec53151
+title: GetHardwareTestStatus method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetHardwareTestStatus method of the Win32\_EncryptableVolume class

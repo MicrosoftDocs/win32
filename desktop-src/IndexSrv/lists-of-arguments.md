@@ -1,7 +1,12 @@
 ---
 title: Lists of Arguments
 description: Lists of Arguments
-ms.assetid: '24c8cb0a-3a69-4d05-b571-fd77b688acb8'
+ms.assetid: 24c8cb0a-3a69-4d05-b571-fd77b688acb8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lists of Arguments

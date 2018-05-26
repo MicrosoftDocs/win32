@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes an integer property.'
-ms.assetid: '9E6B55C3-C177-4C07-9AB5-7C743CE47016'
-title: 'IPrinterPropertyBag::SetInt32 method'
+---
+Description: Writes an integer property.
+ms.assetid: 9E6B55C3-C177-4C07-9AB5-7C743CE47016
+title: IPrinterPropertyBagSetInt32 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::SetInt32 method

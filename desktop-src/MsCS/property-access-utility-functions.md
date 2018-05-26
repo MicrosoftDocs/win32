@@ -4,10 +4,13 @@ description: The property access utility functions are called by resource DLLs t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94674741-1397-4036-95f4-4e8b7075feab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 94674741-1397-4036-95f4-4e8b7075feab
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Access Utility Functions

@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe implementation details for VSS backups: Generating a Backup SetIncremental and Differential BackupsBackups without Writer ParticipationWorking with Mounted Folders and Reparse PointsWorking with Alternate Paths during Backup'
-ms.assetid: 'af978044-e2ea-432c-8f62-cbc49e00ef73'
+Description: The following topics describe implementation details for VSS backups Generating a Backup SetIncremental and Differential BackupsBackups without Writer ParticipationWorking with Mounted Folders and Reparse PointsWorking with Alternate Paths during Backup
+ms.assetid: af978044-e2ea-432c-8f62-cbc49e00ef73
 title: Implementation Details for VSS Backups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementation Details for VSS Backups

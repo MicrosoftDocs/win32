@@ -4,17 +4,21 @@ description: Returns the length of the encrypted content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '8C55C908-EEC3-493E-B9AC-A96856C9D801'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 8C55C908-EEC3-493E-B9AC-A96856C9D801
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSCustomProtectedData getEncryptedContentLengthWithPolicy policy contentLength"]
+keywords:
+- MSCustomProtectedData getEncryptedContentLengthWithPolicy policy contentLength
 topic_type:
 - apiref
 api_name:
 - MSCustomProtectedData getEncryptedContentLengthWithPolicy policy contentLength
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCustomProtectedData getEncryptedContentLengthWithPolicy:policy:contentLength
@@ -39,7 +43,7 @@ Returns the length of the encrypted content.
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ MSCustomProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

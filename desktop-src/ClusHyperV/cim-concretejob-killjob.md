@@ -4,13 +4,16 @@ description: Shuts down a job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3f087663-b86e-4011-894c-d02c3bed8c0c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3f087663-b86e-4011-894c-d02c3bed8c0c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["KillJob method", "KillJob method, CIM_ConcreteJob class", "CIM_ConcreteJob class, KillJob method"]
+keywords:
+- KillJob method
+- KillJob method, CIM_ConcreteJob class
+- CIM_ConcreteJob class, KillJob method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the CIM\_ConcreteJob class
@@ -28,14 +34,14 @@ This method is deprecated. Instead, use the **RequestStateChange** method.
 > [!Note]  
 > Deprecated description: Shuts down a job.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -53,7 +59,7 @@ uint32 KillJob(
 > [!Note]  
 > This parameter takes precedence of the **DeleteOnCompletion** property of the **CIM\_Job** class.
 
- 
+ 
 
 </dd> </dl>
 
@@ -127,7 +133,7 @@ Not Found
 
 </dt> <dd>
 
-8–32767
+8 32767
 
 DMTF Reserved
 
@@ -136,7 +142,7 @@ DMTF Reserved
 
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 Vendor Specific
 
@@ -149,7 +155,7 @@ Vendor Specific
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -163,9 +169,9 @@ Vendor Specific
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

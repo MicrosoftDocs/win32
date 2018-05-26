@@ -1,7 +1,12 @@
 ---
 title: Perceived Types
 description: PerceivedType is a property that classifies an item in the index.
-ms.assetid: '47a5cf55-79f6-48e7-a585-72fc3d7d53d4'
+ms.assetid: 47a5cf55-79f6-48e7-a585-72fc3d7d53d4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Perceived Types

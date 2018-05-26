@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Csid property for the FaxStatus object of a parent FaxPort object. The Csid property is a string that contains called station identifier (CSID) information, typically the fax number of the receiving device.'
-ms.assetid: '92487616-728b-4432-8b38-a438b3186e79'
-title: 'FaxStatus.Csid property'
+---
+Description: Retrieves the Csid property for the FaxStatus object of a parent FaxPort object. The Csid property is a string that contains called station identifier (CSID) information, typically the fax number of the receiving device.
+ms.assetid: 92487616-728b-4432-8b38-a438b3186e79
+title: FaxStatus.Csid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.Csid property
@@ -55,13 +60,13 @@ The **IFaxStatus::get\_Csid** method allocates the memory required for the buffe
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

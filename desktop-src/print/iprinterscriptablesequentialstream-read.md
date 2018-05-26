@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Read method reads bytes from the stream and returns them as a JavaScript array.'
-ms.assetid: '1E13DF22-9C45-4475-8912-CC836EFC0A22'
-title: 'IPrinterScriptableSequentialStream::Read method'
+---
+Description: The Read method reads bytes from the stream and returns them as a JavaScript array.
+ms.assetid: 1E13DF22-9C45-4475-8912-CC836EFC0A22
+title: IPrinterScriptableSequentialStreamRead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableSequentialStream::Read method

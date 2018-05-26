@@ -1,7 +1,12 @@
 ---
-Description: 'Applications use the stencil buffer to determine whether a pixel is written to the rendering target surface. For details, see Stencil Buffer Techniques (Direct3D 9).'
-ms.assetid: '651c5f34-b9f1-4146-847e-c6a72a536120'
-title: 'Stencil Buffer State (Direct3D 9)'
+Description: Applications use the stencil buffer to determine whether a pixel is written to the rendering target surface. For details, see Stencil Buffer Techniques (Direct3D 9).
+ms.assetid: 651c5f34-b9f1-4146-847e-c6a72a536120
+title: Stencil Buffer State (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stencil Buffer State (Direct3D 9)

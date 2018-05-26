@@ -1,8 +1,19 @@
 ---
 title: Porting bgn/end Commands
 description: IRIS GL uses the begin/end paradigm but has a different function for each graphics primitive.
-ms.assetid: '4191344b-614a-42d6-8a31-7a708f17371e'
-keywords: ["IRIS GL porting,bgn/end commands", "porting from IRIS GL,bgn/end commands", "porting to OpenGL from IRIS GL,bgn/end commands", "OpenGL porting from IRIS GL,bgn/end commands", "drawing functions,bgn/end commands", "bgn/end commands"]
+ms.assetid: 4191344b-614a-42d6-8a31-7a708f17371e
+keywords:
+- IRIS GL porting,bgn/end commands
+- porting from IRIS GL,bgn/end commands
+- porting to OpenGL from IRIS GL,bgn/end commands
+- OpenGL porting from IRIS GL,bgn/end commands
+- drawing functions,bgn/end commands
+- bgn/end commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting bgn/end Commands

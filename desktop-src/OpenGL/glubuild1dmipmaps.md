@@ -1,8 +1,9 @@
 ---
 title: gluBuild1DMipmaps function
 description: The gluBuild1DMipmaps function creates 1-D mipmaps.
-ms.assetid: '52ed924f-7a72-4458-b1b8-8e5d3021f60a'
-keywords: ["gluBuild1DMipmaps function OpenGL"]
+ms.assetid: 52ed924f-7a72-4458-b1b8-8e5d3021f60a
+keywords:
+- gluBuild1DMipmaps function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluBuild1DMipmaps function
@@ -22,12 +28,12 @@ The **gluBuild1DMipmaps** function creates 1-D mipmaps.
 
 ```C++
 void WINAPI gluBuild1DMipmaps(
-         GLenum target,
-         GLint  components,
-         GLint  width,
-         GLenum format,
-         GLenum type,
-   const void   *data
+         GLenum target,
+         GLint  components,
+         GLint  width,
+         GLenum format,
+         GLenum type,
+   const void   *data
 );
 ```
 
@@ -97,8 +103,8 @@ For a description of the acceptable values for the *format* parameter, see **glT
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -121,9 +127,9 @@ For a description of the acceptable values for the *format* parameter, see **glT
 [**gluScaleImage**](gluscaleimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

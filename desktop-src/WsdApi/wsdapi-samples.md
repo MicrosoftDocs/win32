@@ -1,7 +1,12 @@
 ---
-Description: 'There are two WSDAPI samples included with the Windows SDK for Windows Server 2008.'
-ms.assetid: '156b79ef-1f05-4ef1-9df9-81fe81c73ca7'
+Description: There are two WSDAPI samples included with the Windows SDK for Windows Server 2008.
+ms.assetid: 156b79ef-1f05-4ef1-9df9-81fe81c73ca7
 title: WSDAPI Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSDAPI Samples
@@ -18,7 +23,7 @@ Both samples include the following types of files.
 -   Client and service implementation files.
 -   Visual Studio project and solution files.
 
-Both samples implement device hosts ([**IWSDDeviceHost**](iwsddevicehost.md)), device proxies ([**IWSDDeviceProxy**](iwsddeviceproxy.md)), and service proxies ([**IWSDServiceProxy**](iwsdserviceproxy.md)). In addition, the file service sample demonstrates the use of asynchronous messaging ([**IWSDAsyncCallback**](iwsdasynccallback.md), [**IWSDAsyncResult**](iwsdasyncresult.md)), attachments ([**IWSDInboundAttachment**](iwsdinboundattachment.md), [**IWSDOutboundAttachment**](iwsdoutboundattachment.md)) and eventing.
+Both samples implement device hosts ([**IWSDDeviceHost**](/windows/win32/WsdHost/nn-wsdhost-iwsddevicehost?branch=master)), device proxies ([**IWSDDeviceProxy**](/windows/win32/WsdClient/nn-wsdclient-iwsddeviceproxy?branch=master)), and service proxies ([**IWSDServiceProxy**](/windows/win32/WsdClient/nn-wsdclient-iwsdserviceproxy?branch=master)). In addition, the file service sample demonstrates the use of asynchronous messaging ([**IWSDAsyncCallback**](/windows/win32/WsdClient/nn-wsdclient-iwsdasynccallback?branch=master), [**IWSDAsyncResult**](/windows/win32/WsdClient/nn-wsdclient-iwsdasyncresult?branch=master)), attachments ([**IWSDInboundAttachment**](/windows/win32/WsdAttachment/nn-wsdattachment-iwsdinboundattachment?branch=master), [**IWSDOutboundAttachment**](/windows/win32/WsdAttachment/nn-wsdattachment-iwsdoutboundattachment?branch=master)) and eventing.
 
 The FileServiceContract.vcproj and StockQuoteContract.vcproj files included with the samples call [WsdCodeGen](web-services-for-devices-code-generator.md) to generate C++ header and source files from the WSDL file specified in the WsdCodeGen configuration file. This means that if the sample WSDL or WsdCodeGen configuration file is changed and the sample project is rebuilt, WsdCodeGen automatically generates new header and source files that reflect the changes. This is the preferred method for building WSDAPI applications. WsdCodeGen is usually called from the command line. Open the relevant \*.vcproj file to view the example WsdCodeGen command line calls.
 

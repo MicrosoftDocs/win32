@@ -4,11 +4,15 @@ description: When using Directory Services API elements to program for AD LDS, t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b6f0f402-e1fe-4b78-a453-bf9380420ff6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: b6f0f402-e1fe-4b78-a453-bf9380420ff6
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["Directory Services API Element Differences ADAM"]
+keywords:
+- Directory Services API Element Differences ADAM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Directory Services API Element Differences
@@ -36,7 +40,7 @@ The following table lists the differences in the Directory Services programming 
 
 
 
- 
+ 
 
 AD LDS does not support the [**userAccountControl**](https://msdn.microsoft.com/library/ms680832) attribute. Instead, AD LDS uses several individual attributes to hold the information that is contained in the flags of the **userAccountControl** attribute. The following table lists the **userAccountControl** flags and their corresponding AD LDS attributes. Any **userAccountControl** flags that are not listed below are not supported by AD LDS.
 
@@ -51,11 +55,11 @@ AD LDS does not support the [**userAccountControl**](https://msdn.microsoft.com/
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

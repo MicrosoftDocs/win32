@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyCallback interface
 description: Implement the IBackgroundCopyCallback interface to receive notification that a job is complete, has been modified, or is in error. Clients use this interface instead of polling for the status of the job.
-ms.assetid: 'CF85D852-1B4E-4BC2-B6A6-0035ED3C439C'
-keywords: ["IBackgroundCopyCallback interface", "IBackgroundCopyCallback interface, described"]
+ms.assetid: CF85D852-1B4E-4BC2-B6A6-0035ED3C439C
+keywords:
+- IBackgroundCopyCallback interface
+- IBackgroundCopyCallback interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyCallback interface
@@ -37,7 +44,7 @@ The **IBackgroundCopyCallback** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +58,7 @@ DO will call your callbacks as long as the interface pointer is valid. The notif
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -74,9 +81,9 @@ DO will call your callbacks as long as the interface pointer is valid. The notif
 [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

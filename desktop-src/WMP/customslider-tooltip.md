@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.toolTip
 description: The toolTip attribute specifies or retrieves the ToolTip text for the slider.
-ms.assetid: 'ac82b811-8396-4a02-b617-627e808b8faf'
-keywords: ["CUSTOMSLIDER.toolTip Windows Media Player"]
+ms.assetid: ac82b811-8396-4a02-b617-627e808b8faf
+keywords:
+- CUSTOMSLIDER.toolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.toolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.toolTip
@@ -48,9 +54,9 @@ See the [positionImage](customslider-positionimage.md) attribute for a sample il
 [**CUSTOMSLIDER Element**](customslider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

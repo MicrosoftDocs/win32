@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the value of the PrimaryVolumeSpaceAvailable property to a string that represents the total number of bytes available, in units of 512, on the volume referenced by the PrimaryVolumePath property.'
-ms.assetid: 'fff546d5-d26c-48cf-8d00-595a23c0a2af'
+---
+Description: The installer sets the value of the PrimaryVolumeSpaceAvailable property to a string that represents the total number of bytes available, in units of 512, on the volume referenced by the PrimaryVolumePath property.
+ms.assetid: fff546d5-d26c-48cf-8d00-595a23c0a2af
 title: PrimaryVolumeSpaceAvailable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrimaryVolumeSpaceAvailable property

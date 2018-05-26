@@ -1,8 +1,26 @@
 ---
 title: Developing a Gadget for Windows Sidebar Part 3 Settings and Flyouts
 description: The last of three overviews that describe how to create a basic gadget for the Windows Sidebar.
-ms.assetid: '481ed853-e378-478b-bedd-e32096f82dbf'
-keywords: ["Windows Sidebar,creating gadgets", "Sidebar,creating gadgets", "gadgets,creating", "creating gadgets", "Windows Sidebar,examples", "Sidebar,examples", "gadgets,examples", "Windows Sidebar,Settings dialog", "Sidebar,Settings dialog", "gadgets,Settings dialog", "Windows Sidebar,Flyouts", "Sidebar,Flyouts", "gadgets,Flyouts"]
+ms.assetid: 481ed853-e378-478b-bedd-e32096f82dbf
+keywords:
+- Windows Sidebar,creating gadgets
+- Sidebar,creating gadgets
+- gadgets,creating
+- creating gadgets
+- Windows Sidebar,examples
+- Sidebar,examples
+- gadgets,examples
+- Windows Sidebar,Settings dialog
+- Sidebar,Settings dialog
+- gadgets,Settings dialog
+- Windows Sidebar,Flyouts
+- Sidebar,Flyouts
+- gadgets,Flyouts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a Gadget for Windows Sidebar Part 3: Settings and Flyouts

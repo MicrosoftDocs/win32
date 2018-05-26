@@ -1,8 +1,10 @@
 ---
 title: DRM\_MINIMUM\_OUTPUT\_PROTECTION\_LEVELS structure
 description: The DRM\_MINIMUM\_OUTPUT\_PROTECTION\_LEVELS structure holds the minimum output protection levels (OPLs) for playback of various types of content. A device must support the minimum OPL for a type of data to receive that type of data from the reader.
-ms.assetid: '6232ecd4-9829-4de3-9810-70e3d3c129a9'
-keywords: ["DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 6232ecd4-9829-4de3-9810-70e3d3c129a9
+keywords:
+- DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_MINIMUM\_OUTPUT\_PROTECTION\_LEVELS structure
@@ -92,9 +99,9 @@ This structure is used as a member of the [**DRM\_PLAY\_OPL**](drmdrm-play-opl.m
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

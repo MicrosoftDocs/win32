@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IOCTL\_USBPRINT\_GET\_1284\_ID control code allows upper-layer software (such as a language monitor), to request and obtain the printer''s IEEE 1284 device ID string.'
-ms.assetid: 'b5c5a0e4-0fd9-4950-ac38-4bf58a0af077'
-title: 'IOCTL\_USBPRINT\_GET\_1284\_ID control code'
+---
+Description: The IOCTL\_USBPRINT\_GET\_1284\_ID control code allows upper-layer software (such as a language monitor), to request and obtain the printers IEEE 1284 device ID string.
+ms.assetid: b5c5a0e4-0fd9-4950-ac38-4bf58a0af077
+title: IOCTL\_USBPRINT\_GET\_1284\_ID control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_USBPRINT\_GET\_1284\_ID control code

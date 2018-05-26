@@ -1,31 +1,36 @@
 ---
-Description: 'This example creates a custom thread pool, creates a work item and a thread pool timer, and associates them with a cleanup group. The pool consists of one persistent thread.'
-ms.assetid: '3d349c83-8b1a-4a5b-9625-be905d613b92'
+Description: This example creates a custom thread pool, creates a work item and a thread pool timer, and associates them with a cleanup group. The pool consists of one persistent thread.
+ms.assetid: 3d349c83-8b1a-4a5b-9625-be905d613b92
 title: Using the Thread Pool Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Thread Pool Functions
 
 This example creates a custom thread pool, creates a work item and a thread pool timer, and associates them with a cleanup group. The pool consists of one persistent thread. It demonstrates the use of the following thread pool functions:
 
--   [**CloseThreadpool**](closethreadpool.md)
--   [**CloseThreadpoolCleanupGroup**](closethreadpoolcleanupgroup.md)
--   [**CloseThreadpoolCleanupGroupMembers**](closethreadpoolcleanupgroupmembers.md)
--   [**CloseThreadpoolWait**](closethreadpoolwait.md)
--   [**CreateThreadpool**](createthreadpool.md)
--   [**CreateThreadpoolCleanupGroup**](createthreadpoolcleanupgroup.md)
--   [**CreateThreadpoolTimer**](createthreadpooltimer.md)
--   [**CreateThreadpoolWait**](createthreadpoolwait.md)
+-   [**CloseThreadpool**](/windows/win32/WinBase/nf-threadpoolapiset-closethreadpool?branch=master)
+-   [**CloseThreadpoolCleanupGroup**](/windows/win32/WinBase/nf-threadpoolapiset-closethreadpoolcleanupgroup?branch=master)
+-   [**CloseThreadpoolCleanupGroupMembers**](/windows/win32/WinBase/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers?branch=master)
+-   [**CloseThreadpoolWait**](/windows/win32/WinBase/nf-threadpoolapiset-closethreadpoolwait?branch=master)
+-   [**CreateThreadpool**](/windows/win32/WinBase/nf-threadpoolapiset-createthreadpool?branch=master)
+-   [**CreateThreadpoolCleanupGroup**](/windows/win32/WinBase/nf-threadpoolapiset-createthreadpoolcleanupgroup?branch=master)
+-   [**CreateThreadpoolTimer**](/windows/win32/WinBase/nf-threadpoolapiset-createthreadpooltimer?branch=master)
+-   [**CreateThreadpoolWait**](/windows/win32/WinBase/nf-threadpoolapiset-createthreadpoolwait?branch=master)
 -   [**CreateThreadpoolWork**](createthreadpoolwork.md)
--   [**InitializeThreadpoolEnvironment**](initializethreadpoolenvironment.md)
--   [**SetThreadpoolCallbackCleanupGroup**](setthreadpoolcallbackcleanupgroup.md)
--   [**SetThreadpoolCallbackPool**](setthreadpoolcallbackpool.md)
+-   [**InitializeThreadpoolEnvironment**](/windows/win32/WinBase/nf-winbase-initializethreadpoolenvironment?branch=master)
+-   [**SetThreadpoolCallbackCleanupGroup**](/windows/win32/WinBase/nf-winbase-setthreadpoolcallbackcleanupgroup?branch=master)
+-   [**SetThreadpoolCallbackPool**](/windows/win32/WinBase/nf-winbase-setthreadpoolcallbackpool?branch=master)
 -   [**SetThreadpoolThreadMaximum**](setthreadpoolthreadmaximum.md)
--   [**SetThreadpoolThreadMinimum**](setthreadpoolthreadminimum.md)
--   [**SetThreadpoolTimer**](setthreadpooltimer.md)
--   [**SetThreadpoolWait**](setthreadpoolwait.md)
--   [**SubmitThreadpoolWork**](submitthreadpoolwork.md)
--   [**WaitForThreadpoolWaitCallbacks**](waitforthreadpoolwaitcallbacks.md)
+-   [**SetThreadpoolThreadMinimum**](/windows/win32/WinBase/nf-threadpoolapiset-setthreadpoolthreadminimum?branch=master)
+-   [**SetThreadpoolTimer**](/windows/win32/WinBase/nf-threadpoolapiset-setthreadpooltimer?branch=master)
+-   [**SetThreadpoolWait**](/windows/win32/WinBase/nf-threadpoolapiset-setthreadpoolwait?branch=master)
+-   [**SubmitThreadpoolWork**](/windows/win32/WinBase/nf-threadpoolapiset-submitthreadpoolwork?branch=master)
+-   [**WaitForThreadpoolWaitCallbacks**](/windows/win32/WinBase/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks?branch=master)
 
 
 ```C++

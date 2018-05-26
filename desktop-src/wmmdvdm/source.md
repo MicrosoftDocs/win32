@@ -1,14 +1,20 @@
 ---
 title: Source element
 description: Specifies an individual image source.
-ms.assetid: '3f17c245-0d20-446b-8f4c-b8fd0dc1d058'
-keywords: ["Source element Windows Movie Maker and DVD Maker"]
+ms.assetid: 3f17c245-0d20-446b-8f4c-b8fd0dc1d058
+keywords:
+- Source element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Source
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source element
@@ -47,7 +53,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -59,9 +65,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

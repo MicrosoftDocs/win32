@@ -1,7 +1,12 @@
 ---
-Description: 'You can store any kind of application-specific data with a surface. For example, a surface representing a map in a game might contain information about terrain.'
-ms.assetid: 'a66fe0b9-1ccd-4cbd-a3e7-78081047e378'
-title: 'Private Surface Data (Direct3D 9)'
+Description: You can store any kind of application-specific data with a surface. For example, a surface representing a map in a game might contain information about terrain.
+ms.assetid: a66fe0b9-1ccd-4cbd-a3e7-78081047e378
+title: Private Surface Data (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Private Surface Data (Direct3D 9)

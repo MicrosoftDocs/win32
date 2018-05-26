@@ -1,6 +1,11 @@
-﻿---
-Description: 'Occurs when the selection state of any item or items in the view has changed.'
-title: 'ShellFolderView.SelectionChanged event'
+---
+Description: Occurs when the selection state of any item or items in the view has changed.
+title: ShellFolderView.SelectionChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderView.SelectionChanged event

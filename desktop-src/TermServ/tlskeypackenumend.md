@@ -4,11 +4,12 @@ description: Continues from a previous call to the TLSKeyPackEnumBegin function 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3434e18d-54c9-46ed-b6a5-bc174b63a152'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3434e18d-54c9-46ed-b6a5-bc174b63a152
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TLSKeyPackEnumEnd function Remote Desktop Services"]
+keywords:
+- TLSKeyPackEnumEnd function Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mstlsapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TLSKeyPackEnumEnd function
@@ -26,15 +30,15 @@ Continues from a previous call to the [**TLSKeyPackEnumBegin**](tlskeypackenumbe
 > [!Note]  
 > This function has no associated header file or import library. To call this function, you must create a user-defined header file and use the [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) and [**GetProcAddress**](https://msdn.microsoft.com/library/windows/desktop/ms683212) functions to dynamically link to Mstlsapi.dll.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 DWORD WINAPI TLSKeyPackEnumEnd(
-  _In_  TLS_HANDLE hHandle,
-  _Out_ PDWORD     pdwErrCode
+  _In_  TLS_HANDLE hHandle,
+  _Out_ PDWORD     pdwErrCode
 );
 ```
 
@@ -106,8 +110,8 @@ The argument was not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Mstlsapi.dll</dt> </dl> |
 
 
@@ -128,9 +132,9 @@ The argument was not valid.
 [**TLSKeyPackEnumNext**](tlskeypackenumnext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

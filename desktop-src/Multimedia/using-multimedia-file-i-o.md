@@ -1,8 +1,24 @@
 ---
 title: Using Multimedia File I/O
 description: Using Multimedia File I/O
-ms.assetid: 'bc568e80-f1ca-43c8-bd45-2b4ad1dd53ed'
-keywords: ["Windows multimedia,file I/O", "multimedia,file I/O", "multimedia input,file I/O", "multimedia file I/O,about", "file I/O,about", "input and output (I/O),about", "I/O (input and output),about", "multimedia file I/O,examples", "file I/O,examples", "input and output (I/O),examples", "I/O (input and output),examples"]
+ms.assetid: bc568e80-f1ca-43c8-bd45-2b4ad1dd53ed
+keywords:
+- Windows multimedia,file I/O
+- multimedia,file I/O
+- multimedia input,file I/O
+- multimedia file I/O,about
+- file I/O,about
+- input and output (I/O),about
+- I/O (input and output),about
+- multimedia file I/O,examples
+- file I/O,examples
+- input and output (I/O),examples
+- I/O (input and output),examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multimedia File I/O

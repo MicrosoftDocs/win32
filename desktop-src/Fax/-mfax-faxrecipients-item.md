@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxRecipient object from the FaxRecipients collection.'
-ms.assetid: 'efb17932-40c9-4903-9c6e-80e4e684d063'
-title: 'FaxRecipients.Item property'
+---
+Description: The Item property returns a FaxRecipient object from the FaxRecipients collection.
+ms.assetid: efb17932-40c9-4903-9c6e-80e4e684d063
+title: FaxRecipients.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipients.Item property
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxRecipient**](-mfax-faxrecipient-cpp.md) that receives A [**FaxRecipient**](-mfax-faxrecipient.md) object.
+A variable of type [**IFaxRecipient**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipient?branch=master) that receives A [**FaxRecipient**](-mfax-faxrecipient.md) object.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ A variable of type [**IFaxRecipient**](-mfax-faxrecipient-cpp.md) that receives 
 [**FaxRecipients**](-mfax-faxrecipients.md)
 </dt> <dt>
 
-[**IFaxRecipients**](-mfax-faxrecipients-cpp.md)
+[**IFaxRecipients**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipients?branch=master)
 </dt> <dt>
 
 [Broadcasting a Fax](-mfax-broadcasting-a-fax.md)

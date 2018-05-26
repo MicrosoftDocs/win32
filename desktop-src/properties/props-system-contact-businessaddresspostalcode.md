@@ -1,7 +1,12 @@
 ---
-Description: 'Business address postal code of contact.'
-ms.assetid: 'cd16aefc-e7ae-412c-8b53-6bea20e7096e'
-title: 'System.Contact.BusinessAddressPostalCode'
+Description: Business address postal code of contact.
+ms.assetid: cd16aefc-e7ae-412c-8b53-6bea20e7096e
+title: System.Contact.BusinessAddressPostalCode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddressPostalCode

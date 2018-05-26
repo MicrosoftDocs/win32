@@ -1,14 +1,19 @@
 ---
-Description: 'An authorization policy store contains information about the security policy of an application or group of applications. The information includes the applications, operations, tasks, users, and groups of users associated with the store.'
-ms.assetid: '6fc84944-8050-4000-8856-36558d94e2fd'
+Description: An authorization policy store contains information about the security policy of an application or group of applications. The information includes the applications, operations, tasks, users, and groups of users associated with the store.
+ms.assetid: 6fc84944-8050-4000-8856-36558d94e2fd
 title: Creating an Authorization Policy Store Object in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Authorization Policy Store Object in C++
 
 An authorization policy store contains information about the security policy of an application or group of applications. The information includes the applications, operations, tasks, users, and groups of users associated with the store. When an application that uses Authorization Manager initializes, it loads this information from the store. The authorization policy store must be located on a trusted system because administrators on that system have a high degree of access to the store.
 
-Authorization Manager supports storing authorization policy either in the Active Directory directory service or in an XML file as shown in the following examples. In the Authorization Manager API, an authorization policy store is represented by an [**AzAuthorizationStore**](azauthorizationstore.md) object. The examples show how to create an **AzAuthorizationStore** object for an Active Directory store and an XML store.
+Authorization Manager supports storing authorization policy either in the Active Directory directory service or in an XML file as shown in the following examples. In the Authorization Manager API, an authorization policy store is represented by an [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object. The examples show how to create an **AzAuthorizationStore** object for an Active Directory store and an XML store.
 
 -   [Creating an Active Directory Store](#creating-an-active-directory-store)
 -   [Creating a SQL Server Store](#creating-a-sql-server-store)
@@ -18,7 +23,7 @@ Authorization Manager supports storing authorization policy either in the Active
 
 To use Active Directory to store the authorization policy, the domain must be in the **Windows Server 2003** domain functional level. The authorization policy store cannot be located in a **Non-Domain Naming Context** (also called an application partition). It is recommended that the store be located in the **Program Data** container under a new organizational unit created specifically for the authorization policy store. It is also recommended that the store be located within the same local area network as application servers that run applications that use the store.
 
-The following example shows how to create an [**AzAuthorizationStore**](azauthorizationstore.md) object that represents an authorization policy store in Active Directory. The example assumes that there is an existing Active Directory organizational unit named Program Data in a domain named authmanager.com.
+The following example shows how to create an [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object that represents an authorization policy store in Active Directory. The example assumes that there is an existing Active Directory organizational unit named Program Data in a domain named authmanager.com.
 
 
 ```C++
@@ -107,7 +112,7 @@ If the instance of SQL Server does not contain the specified Authorization Manag
 
  
 
-The following example shows how to create an [**AzAuthorizationStore**](azauthorizationstore.md) object that represents an authorization policy store in a SQL Server database.
+The following example shows how to create an [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object that represents an authorization policy store in a SQL Server database.
 
 
 ```C++
@@ -188,7 +193,7 @@ Authorization Manager supports creating an authorization policy store in XML for
 
 Authorization Manager does not support delegating administration of an XML policy store. For information about delegation, see [Delegating the Defining of Permissions in C++](delegating-the-defining-of-permissions-in-c--.md).
 
-The following example shows how to create an [**AzAuthorizationStore**](azauthorizationstore.md) object that represents an authorization policy store in an XML file.
+The following example shows how to create an [**AzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object that represents an authorization policy store in an XML file.
 
 
 ```C++

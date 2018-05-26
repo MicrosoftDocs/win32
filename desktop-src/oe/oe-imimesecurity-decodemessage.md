@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity DecodeMessage method
 description: Decodes the body of the specified IMimeMessageTree object using Secure/Multipurpose Internet Mail Extensions (S/MIME).
-ms.assetid: '18c9f682-9009-412c-b7a7-96f3281a976a'
-keywords: ["DecodeMessage method Windows Mail (formerly Outlook Express)", "DecodeMessage method Windows Mail (formerly Outlook Express) , IMimeSecurity interface", "IMimeSecurity interface Windows Mail (formerly Outlook Express) , DecodeMessage method"]
+ms.assetid: 18c9f682-9009-412c-b7a7-96f3281a976a
+keywords:
+- DecodeMessage method Windows Mail (formerly Outlook Express)
+- DecodeMessage method Windows Mail (formerly Outlook Express) , IMimeSecurity interface
+- IMimeSecurity interface Windows Mail (formerly Outlook Express) , DecodeMessage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity::DecodeMessage method
@@ -22,8 +30,8 @@ Decodes the body of the specified [**IMimeMessageTree**](oe-imimemessagetree.md)
 
 ```C++
 HRESULT DecodeMessage(
-  [in] IMimeMessageTree pTree,
-  [in] DWORD            dwFlags
+  [in] IMimeMessageTree pTree,
+  [in] DWORD            dwFlags
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,8 +85,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -86,9 +94,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Vector Type
 description: A vector contains between one and four scalar components; every component of a vector must be of the same type.
-ms.assetid: '16e66f3c-c513-4d03-8adf-463dc8d83e12'
-keywords: ["Vector Type HLSL"]
+ms.assetid: 16e66f3c-c513-4d03-8adf-463dc8d83e12
+keywords:
+- Vector Type HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - frquery.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector Type
@@ -25,7 +31,7 @@ A vector contains between one and four scalar components; every component of a v
 
 
 
- 
+ 
 
 
 ```
@@ -45,7 +51,7 @@ TypeComponents Name
 
 
 
- 
+ 
 
 ## Examples
 
@@ -96,9 +102,9 @@ vector <double, 4> dVector = { 0.2, 0.3, 0.4, 0.5 };
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

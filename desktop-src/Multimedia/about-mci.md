@@ -1,8 +1,17 @@
 ---
 title: About MCI
 description: About MCI
-ms.assetid: 'e85db00a-7bcb-445b-85ea-d60dc30a36d4'
-keywords: ["Windows multimedia,Media Control Interface (MCI)", "multimedia,Media Control Interface (MCI)", "Media Control Interface (MCI),about", "MCI (Media Control Interface),about"]
+ms.assetid: e85db00a-7bcb-445b-85ea-d60dc30a36d4
+keywords:
+- Windows multimedia,Media Control Interface (MCI)
+- multimedia,Media Control Interface (MCI)
+- Media Control Interface (MCI),about
+- MCI (Media Control Interface),about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About MCI

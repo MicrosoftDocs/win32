@@ -4,11 +4,18 @@ description: Specifies the preconnection BLOB (PCB) setting to use prior to conn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3f3e6f09-2c26-44ab-9bcc-2636b71b57e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3f3e6f09-2c26-44ab-9bcc-2636b71b57e2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PCB property Remote Desktop Services", "PCB property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , PCB property", "PCB property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , PCB property", "PCB property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , PCB property"]
+keywords:
+- PCB property Remote Desktop Services
+- PCB property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , PCB property
+- PCB property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , PCB property
+- PCB property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , PCB property
 topic_type:
 - apiref
 api_name:
@@ -25,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings6::PCB property
@@ -38,11 +48,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_PCB(
-  [in]          BSTR bstrPCB
+  [in]          BSTR bstrPCB
 );
 
 HRESULT get_PCB(
-  [out, retval] BSTR *pbstrPCB
+  [out, retval] BSTR *pbstrPCB
 );
 ```
 
@@ -64,8 +74,8 @@ The server uses the BLOB setting to identify the target process for the connecti
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
+| Minimum supported client<br/> | Windows 7<br/>                                                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings6 is defined as 222c4b5d-45d9-4df0-a7c6-60cf9089d285<br/> |
@@ -85,9 +95,9 @@ The server uses the BLOB setting to identify the target process for the connecti
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

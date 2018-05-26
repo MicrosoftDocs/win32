@@ -1,20 +1,25 @@
 ---
 title: Physical-Delivery-Office-Name attribute
-description: Contains the office location in the user's place of business.
+description: Contains the office location in the users place of business.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6be61bf-9a9a-4b97-bdf8-894c173efadd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a6be61bf-9a9a-4b97-bdf8-894c173efadd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Physical-Delivery-Office-Name attribute AD Schema", "physicalDeliveryOfficeName attribute AD Schema"]
+keywords:
+- Physical-Delivery-Office-Name attribute AD Schema
+- physicalDeliveryOfficeName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Physical-Delivery-Office-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Physical-Delivery-Office-Name attribute
@@ -38,13 +43,13 @@ Contains the office location in the user's place of business.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Contains the office location in the user's place of business.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

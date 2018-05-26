@@ -1,8 +1,18 @@
 ---
 title: BUTTONGROUP Element
 description: BUTTONGROUP Element
-ms.assetid: '4756c016-3347-4129-be5e-e822270a24de'
-keywords: ["Windows Media Player skins,BUTTONGROUP element", "skins,BUTTONGROUP element", "BUTTONGROUP element", "reference for skins,BUTTONGROUP element", "elements,BUTTONGROUP"]
+ms.assetid: 4756c016-3347-4129-be5e-e822270a24de
+keywords:
+- Windows Media Player skins,BUTTONGROUP element
+- skins,BUTTONGROUP element
+- BUTTONGROUP element
+- reference for skins,BUTTONGROUP element
+- elements,BUTTONGROUP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP Element

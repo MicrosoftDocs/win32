@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a extension plugin connection point.'
-ms.assetid: 'AA95639E-8B20-4714-AFD3-1A492F13FF12'
-title: 'MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CONNECTION\_POINT attribute'
+---
+Description: Represents a extension plugin connection point.
+ms.assetid: AA95639E-8B20-4714-AFD3-1A492F13FF12
+title: MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CONNECTION\_POINT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CONNECTION\_POINT attribute

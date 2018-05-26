@@ -4,18 +4,24 @@ description: There are several options that can be read or set prior to binding 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1447d242-b8db-4b7e-9871-2193f747be4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 1447d242-b8db-4b7e-9871-2193f747be4e
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Getting and Setting Session Options LDAP", "Getting Session Options LDAP", "Setting Session Options LDAP"]
+keywords:
+- Getting and Setting Session Options LDAP
+- Getting Session Options LDAP
+- Setting Session Options LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting and Setting Session Options
 
-There are several options that can be read or set prior to binding to an LDAP server. These range from retrieving data about the server to setting up connection parameters. For example, if [**ldap\_get\_option**](ldap-get-option.md) is called with **LDAP\_OPT\_HOST\_NAME**, it returns the name of the LDAP server to which the connection is made. If [**ldap\_set\_option**](ldap-set-option.md) is called with **LDAP\_SIZELIMIT**, it limits the number of entries to return from a search. If **ldap\_set\_option** is called with **LDAP\_TIMELIMIT**, it sets a limit on the number of seconds the server uses to wait for a bind or search request to complete before performing a timeout.
+There are several options that can be read or set prior to binding to an LDAP server. These range from retrieving data about the server to setting up connection parameters. For example, if [**ldap\_get\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_option?branch=master) is called with **LDAP\_OPT\_HOST\_NAME**, it returns the name of the LDAP server to which the connection is made. If [**ldap\_set\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_set_option?branch=master) is called with **LDAP\_SIZELIMIT**, it limits the number of entries to return from a search. If **ldap\_set\_option** is called with **LDAP\_TIMELIMIT**, it sets a limit on the number of seconds the server uses to wait for a bind or search request to complete before performing a timeout.
 
-There are some LDAP directory features only available in LDAP version 3. To verify the latest version supported on the client host, call [**ldap\_get\_option**](ldap-get-option.md) with **LDAP\_OPT\_API\_INFO**. If version 3 is supported, call [**ldap\_set\_option**](ldap-set-option.md) with **LDAP\_OPT\_PROTOCOL\_VERSION**, and **LDAP\_VERSION3** for the version parameter. The connection default is version 2.
+There are some LDAP directory features only available in LDAP version 3. To verify the latest version supported on the client host, call [**ldap\_get\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_option?branch=master) with **LDAP\_OPT\_API\_INFO**. If version 3 is supported, call [**ldap\_set\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_set_option?branch=master) with **LDAP\_OPT\_PROTOCOL\_VERSION**, and **LDAP\_VERSION3** for the version parameter. The connection default is version 2.
 
 For more information and a complete list of possible LDAP options, see [Session Options](session-options.md).
 

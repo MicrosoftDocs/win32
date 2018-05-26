@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.'
-ms.assetid: '9e2aebb4-d1ab-4975-9175-48ddc9b9a244'
-title: 'FaxPort.Tsid property'
+---
+Description: The Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
+ms.assetid: 9e2aebb4-d1ab-4975-9175-48ddc9b9a244
+title: FaxPort.Tsid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Tsid property
@@ -64,10 +69,10 @@ The T.30 specification of the International Telecommunication Union (ITU) restri
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

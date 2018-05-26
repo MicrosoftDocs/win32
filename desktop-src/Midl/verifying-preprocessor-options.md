@@ -2,7 +2,13 @@
 title: Verifying Preprocessor Options
 description: The MIDL compiler implicitly invokes the preprocessor and does not display its preprocessor switches.
 ms.assetid: 2f402af4-18d7-480c-a8d2-d16f402ef87a
-keywords: ["MIDL compiler MIDL , verifying preprocessor options"]
+keywords:
+- MIDL compiler MIDL , verifying preprocessor options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying Preprocessor Options

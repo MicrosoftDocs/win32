@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to manage the AD RMS server licensor certificate.'
+Description: Can be used to manage the AD RMS server licensor certificate.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '18809d67-87dc-4b4c-8e09-b5fdd522a8c3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 18809d67-87dc-4b4c-8e09-b5fdd522a8c3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ServerLicensorCertificate object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ServerLicensorCertificate object
@@ -30,7 +33,7 @@ The following rights can be granted by server licensor certificates. The rights 
 
 
 
- 
+ 
 
 ## Members
 
@@ -51,7 +54,7 @@ The **ServerLicensorCertificate** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +69,7 @@ The **ServerLicensorCertificate** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -152,7 +155,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -164,9 +167,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

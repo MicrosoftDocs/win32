@@ -1,14 +1,20 @@
 ---
 title: ActivityClassDisplayName element
 description: Display name for the activity class.
-ms.assetid: 'E5536F10-44BE-461E-92B3-2ECF25E6DB41'
-keywords: ["ActivityClassDisplayName element Access Execution Engine"]
+ms.assetid: E5536F10-44BE-461E-92B3-2ECF25E6DB41
+keywords:
+- ActivityClassDisplayName element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ActivityClassDisplayName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityClassDisplayName element

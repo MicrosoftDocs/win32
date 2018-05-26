@@ -1,7 +1,12 @@
-﻿---
-Description: 'Intended to set the specified parameter information.'
-ms.assetid: 'e1a5766f-a303-47f1-a4bb-33f4253a5464'
-title: 'IPStore::GetProvParam method'
+---
+Description: Intended to set the specified parameter information.
+ms.assetid: e1a5766f-a303-47f1-a4bb-33f4253a5464
+title: IPStoreGetProvParam method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::GetProvParam method

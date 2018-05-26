@@ -1,7 +1,12 @@
 ---
 Description: AmCap Sample
-ms.assetid: '611b252f-1ae0-439e-ba02-8ad9bb8cec6d'
+ms.assetid: 611b252f-1ae0-439e-ba02-8ad9bb8cec6d
 title: AmCap Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmCap Sample

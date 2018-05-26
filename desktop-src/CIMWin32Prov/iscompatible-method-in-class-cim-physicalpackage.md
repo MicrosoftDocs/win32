@@ -1,15 +1,18 @@
 ---
-Description: 'Verifies whether the referenced physical element can be contained by, or inserted into, the physical package.'
+Description: Verifies whether the referenced physical element can be contained by, or inserted into, the physical package.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '406aaa75-b48c-4377-adb5-e900676b6e36'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 406aaa75-b48c-4377-adb5-e900676b6e36
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'IsCompatible method of the CIM\_PhysicalPackage class'
+title: IsCompatible method of the CIM\_PhysicalPackage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsCompatible method of the CIM\_PhysicalPackage class
@@ -19,7 +22,7 @@ The **IsCompatible** method verifies whether the referenced physical element can
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,7 +31,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 IsCompatible(
-  [in] CIM_PhysicalElement REF ElementToCheck
+  [in] CIM_PhysicalElement REF ElementToCheck
 );
 ```
 
@@ -61,8 +64,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -79,9 +82,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalPackage**](cim-physicalpackage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

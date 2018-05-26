@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves information about a VHD Snapshot within a VHD Set file.'
-ms.assetid: '43745935-9bc3-4a87-8762-54693b2cdef6'
-title: 'GetVHDSnapshotInformation method of the Msvm\_ImageManagementService class'
+Description: Retrieves information about a VHD Snapshot within a VHD Set file.
+ms.assetid: 43745935-9bc3-4a87-8762-54693b2cdef6
+title: GetVHDSnapshotInformation method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVHDSnapshotInformation method of the Msvm\_ImageManagementService class
@@ -13,11 +18,11 @@ Retrieves information about a VHD Snapshot within a VHD Set file.
 
 ```mof
 uint32 GetVHDSnapshotInformation(
-  [in]  string              VHDSetPath,
-  [in]  string              SnapshotIds[],
-  [in]  uint32              AdditionalInformation[],
-  [out] string              SnapshotInformation[],
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              VHDSetPath,
+  [in]  string              SnapshotIds[],
+  [in]  uint32              AdditionalInformation[],
+  [out] string              SnapshotInformation[],
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -137,8 +142,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -152,9 +157,9 @@ This method returns one of the following values:
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

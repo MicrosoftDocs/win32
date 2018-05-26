@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Filter method specifies a source filter for the media detector to use.'
-ms.assetid: '59382cb0-c472-48b8-9cc5-52f9dbc61a07'
-title: 'IMediaDet::put\_Filter method'
+---
+Description: The put\_Filter method specifies a source filter for the media detector to use.
+ms.assetid: 59382cb0-c472-48b8-9cc5-52f9dbc61a07
+title: IMediaDetput\_Filter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet::put\_Filter method

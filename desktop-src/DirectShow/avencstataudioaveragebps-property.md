@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the average bits per second of the encoded audio.'
-ms.assetid: 'c90c9247-825f-4602-bb16-809969703a98'
+Description: Returns the average bits per second of the encoded audio.
+ms.assetid: c90c9247-825f-4602-bb16-809969703a98
 title: AVEncStatAudioAverageBPS property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncStatAudioAverageBPS property
@@ -30,8 +35,8 @@ This property applies only to quality-based variable bit rate (VBR) encoding
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -43,12 +48,12 @@ This property applies only to quality-based variable bit rate (VBR) encoding
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

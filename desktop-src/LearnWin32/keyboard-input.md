@@ -1,7 +1,12 @@
 ---
 title: Keyboard Input
 description: Keyboard Input
-ms.assetid: 'FC682E8B-8360-4D58-AC42-4CEFD9CB750F'
+ms.assetid: FC682E8B-8360-4D58-AC42-4CEFD9CB750F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard Input

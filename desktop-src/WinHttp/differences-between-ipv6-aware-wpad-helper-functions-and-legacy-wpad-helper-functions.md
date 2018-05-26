@@ -1,7 +1,12 @@
 ---
-Description: 'Differences Between IPv6-Aware WPAD Helper Functions and Legacy WPAD Helper Functions'
-ms.assetid: 'ea4b1c0d-ce02-477b-85c8-44e1beef90c1'
-title: 'Differences Between IPv6-Aware WPAD Helper Functions and Legacy WPAD Helper Functions'
+Description: Differences Between IPv6-Aware WPAD Helper Functions and Legacy WPAD Helper Functions
+ms.assetid: ea4b1c0d-ce02-477b-85c8-44e1beef90c1
+title: Differences Between IPv6-Aware WPAD Helper Functions and Legacy WPAD Helper Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Differences Between IPv6-Aware WPAD Helper Functions and Legacy WPAD Helper Functions

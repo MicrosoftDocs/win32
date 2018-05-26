@@ -1,15 +1,18 @@
 ---
-Description: 'The parent class for events in the System.Data.OracleClient.dll assembly.'
+Description: The parent class for events in the System.Data.OracleClient.dll assembly.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f1f627d5-e1e9-48c9-bf05-d7951df4d66f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f1f627d5-e1e9-48c9-bf05-d7951df4d66f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dotnet-ado'
-- 'windows-management-instrumentation'
+- dotnet-ado
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Bid2Etw\_System\_Data\_OracleClient\_1\_Trace class'
+title: Bid2Etw\_System\_Data\_OracleClient\_1\_Trace class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Bid2Etw\_System\_Data\_OracleClient\_1\_Trace class
@@ -26,16 +29,16 @@ class Bid2Etw_System_Data_OracleClient_1_Trace : Bid2Etw_System_Data_OracleClien
 {
   uint16 EventSize;
   uint16 ReservedHeaderField;
-  uint8  EventType;
-  uint8  TraceLevel;
+  uint8  EventType;
+  uint8  TraceLevel;
   uint16 TraceVersion;
   uint64 ThreadId;
   uint64 TimeStamp;
-  uint8  EventGuid[];
+  uint8  EventGuid[];
   uint32 KernelTime;
   uint32 UserTime;
   uint32 InstanceId;
-  uint8  ParentGuid[];
+  uint8  ParentGuid[];
   uint32 ParentInstanceId;
   uint32 MofData;
   uint32 MofLength;
@@ -300,17 +303,17 @@ Elapsed execution time for user-mode instructions, in CPU ticks.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>AdoNetDiag.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AdoNetDiag.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_AudioEndpoint\_Disable\_SysFx property specifies whether system effects are enabled in the shared-mode stream that flows to or from the audio endpoint device.'
-ms.assetid: '9e73e9b6-1864-49cb-adf8-233cc1f9bfe5'
-title: 'PKEY\_AudioEndpoint\_Disable\_SysFx'
+---
+Description: The PKEY\_AudioEndpoint\_Disable\_SysFx property specifies whether system effects are enabled in the shared-mode stream that flows to or from the audio endpoint device.
+ms.assetid: 9e73e9b6-1864-49cb-adf8-233cc1f9bfe5
+title: PKEY\_AudioEndpoint\_Disable\_SysFx
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEndpoint\_Disable\_SysFx

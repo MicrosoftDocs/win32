@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNI\_GLYPHSEDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).'
-ms.assetid: 'a2c98783-c463-435e-9d78-c10686f1c75c'
-title: 'UNI\_GLYPHSETDATA structure'
+---
+Description: The UNI\_GLYPHSEDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
+ms.assetid: a2c98783-c463-435e-9d78-c10686f1c75c
+title: UNI\_GLYPHSETDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNI\_GLYPHSETDATA structure

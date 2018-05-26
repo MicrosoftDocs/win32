@@ -1,7 +1,12 @@
 ---
 title: Volume Tiled Resources
 description: Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
-ms.assetid: 'F670D15D-BC0F-4F90-99C1-A35192FE8980'
+ms.assetid: F670D15D-BC0F-4F90-99C1-A35192FE8980
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Tiled Resources
@@ -16,7 +21,7 @@ Volume (3D) textures can be used as tiled resources, noting that tile resolution
 
 Tiled Resources decouple a D3D Resource object from its backing memory (resources in the past had a 1:1 relationship with their backing memory). This allows for a variety of interesting scenarios such as streaming in texture data and reusing or reducing memory usage.
 
-2D texture tiled resources are supported in D3D11.2. Optional support for 3D tiled textures is available for D3D12 and D3D11.3 (refer to [**D3D12\_TILED\_RESOURCES\_TIER**](d3d12-tiled-resources-tier.md)).
+2D texture tiled resources are supported in D3D11.2. Optional support for 3D tiled textures is available for D3D12 and D3D11.3 (refer to [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_tiled_resources_tier?branch=master)).
 
 The typical resource dimensions used in tiling are 4 x 4 tiles for 2D textures, and 4 x 4 x 4 tiles for 3D textures.
 
@@ -139,25 +144,25 @@ The same API calls are used for both 2D and 3D tiled resources:
 
 Enums
 
--   [**D3D12\_TILED\_RESOURCES\_TIER**](d3d12-tiled-resources-tier.md) : determines the level of tiled resource support.
--   [**D3D12\_FORMAT\_SUPPORT2**](d3d12-format-support2.md) : used to test for tiled resource support.
--   [**D3D12\_MULTISAMPLE\_QUALITY\_LEVEL\_FLAGS**](d3d12-multisample-quality-level-flags.md) : determines tiled resource support in a multi-sampling resource.
--   [**D3D12\_TILE\_COPY\_FLAGS**](d3d12-tile-copy-flags.md) : holds flags for copying to and from swizzled tiled resources and linear buffers.
+-   [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_tiled_resources_tier?branch=master) : determines the level of tiled resource support.
+-   [**D3D12\_FORMAT\_SUPPORT2**](/windows/win32/D3D12/ne-d3d12-d3d12_format_support2?branch=master) : used to test for tiled resource support.
+-   [**D3D12\_MULTISAMPLE\_QUALITY\_LEVEL\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_multisample_quality_level_flags?branch=master) : determines tiled resource support in a multi-sampling resource.
+-   [**D3D12\_TILE\_COPY\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_tile_copy_flags?branch=master) : holds flags for copying to and from swizzled tiled resources and linear buffers.
 
 Structs
 
--   [**D3D12\_TILED\_RESOURCE\_COORDINATE**](d3d12-tiled-resource-coordinate.md) : holds the x, y, and z co-ordinate, and subresource reference. Note there is a helper structure: [**CD3DX12\_TILED\_RESOURCE\_COORDINATE**](cd3dx12-tiled-resource-coordinate.md).
--   [**D3D12\_TILE\_REGION\_SIZE**](d3d12-tile-region-size.md) : specifies the size, and number of tiles, of the tiled region.
--   [**D3D12\_TILE\_SHAPE**](d3d12-tile-shape.md) : the tile shape as a width, height and depth in texels.
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](d3d12-feature-data-d3d12-options.md) : holds the supported tile resource tier level and a boolean, *VolumeTiledResourcesSupported*, indicated whether volume tiled resources are supported.
+-   [**D3D12\_TILED\_RESOURCE\_COORDINATE**](/windows/win32/D3D12/ns-d3d12-d3d12_tiled_resource_coordinate?branch=master) : holds the x, y, and z co-ordinate, and subresource reference. Note there is a helper structure: [**CD3DX12\_TILED\_RESOURCE\_COORDINATE**](cd3dx12-tiled-resource-coordinate.md).
+-   [**D3D12\_TILE\_REGION\_SIZE**](/windows/win32/D3D12/ns-d3d12-d3d12_tile_region_size?branch=master) : specifies the size, and number of tiles, of the tiled region.
+-   [**D3D12\_TILE\_SHAPE**](/windows/win32/D3D12/ns-d3d12-d3d12_tile_shape?branch=master) : the tile shape as a width, height and depth in texels.
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options?branch=master) : holds the supported tile resource tier level and a boolean, *VolumeTiledResourcesSupported*, indicated whether volume tiled resources are supported.
 
 Methods
 
--   [**ID3D12Device::CheckFeatureSupport**](id3d12device-checkfeaturesupport.md) : used to determine what features, and at what tier, are supported by the current hardware.
--   [**ID3D12GraphcisCommandList::CopyTiles**](id3d12graphicscommandlist-copytiles.md) : copies tiles from buffer to tiled resource or vice versa.
--   [**ID3D12CommandQueue::UpdateTileMappings**](id3d12commandqueue-updatetilemappings.md) : updates mappings of tile locations in tiled resources to memory locations in a resource heap.
--   [**ID3D12CommandQueue::CopyTileMappings**](id3d12commandqueue-copytilemappings.md) : copies mappings from a source tiled resource to a destination tiled resource.
--   [**ID3D12CommandQueue::GetResourceTiling**](id3d12device-getresourcetiling.md) : gets info about how a tiled resource is broken into tiles.
+-   [**ID3D12Device::CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master) : used to determine what features, and at what tier, are supported by the current hardware.
+-   [**ID3D12GraphcisCommandList::CopyTiles**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles?branch=master) : copies tiles from buffer to tiled resource or vice versa.
+-   [**ID3D12CommandQueue::UpdateTileMappings**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings?branch=master) : updates mappings of tile locations in tiled resources to memory locations in a resource heap.
+-   [**ID3D12CommandQueue::CopyTileMappings**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings?branch=master) : copies mappings from a source tiled resource to a destination tiled resource.
+-   [**ID3D12CommandQueue::GetResourceTiling**](/windows/win32/d3d12/nf-d3d12-id3d12device-getresourcetiling?branch=master) : gets info about how a tiled resource is broken into tiles.
 
 ## Related topics
 

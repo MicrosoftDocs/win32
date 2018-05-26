@@ -1,13 +1,16 @@
 ---
-Description: 'Connecting to a WMI namespace on a remote computer may require that you change the settings for Windows Firewall, User Account Control (UAC), DCOM, or Common Information Model Object Manager (CIMOM).'
+Description: Connecting to a WMI namespace on a remote computer may require that you change the settings for Windows Firewall, User Account Control (UAC), DCOM, or Common Information Model Object Manager (CIMOM).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '028b3101-0945-4288-bf32-ef4ad12a55f9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 028b3101-0945-4288-bf32-ef4ad12a55f9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting up a Remote WMI Connection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting up a Remote WMI Connection

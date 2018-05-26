@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies which bytes are encrypted in a protected video surface.'
-ms.assetid: '076f4f00-e86b-47e2-80dd-4d7434200138'
-title: 'D3DENCRYPTED\_BLOCK\_INFO structure'
+---
+Description: Specifies which bytes are encrypted in a protected video surface.
+ms.assetid: 076f4f00-e86b-47e2-80dd-4d7434200138
+title: D3DENCRYPTED\_BLOCK\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DENCRYPTED\_BLOCK\_INFO structure

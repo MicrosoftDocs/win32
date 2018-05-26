@@ -1,7 +1,12 @@
 ---
-Description: 'To edit a picture stored in an enhanced metafile, an application must perform the tasks described in the following procedure.'
-ms.assetid: '19d9c523-cff8-47e1-bbf2-16d8991dac3b'
+Description: To edit a picture stored in an enhanced metafile, an application must perform the tasks described in the following procedure.
+ms.assetid: 19d9c523-cff8-47e1-bbf2-16d8991dac3b
 title: Editing an Enhanced Metafile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Editing an Enhanced Metafile
@@ -12,7 +17,7 @@ To edit a picture stored in an enhanced metafile, an application must perform th
 
 1.  Use hit-testing to capture the cursor coordinates and retrieve the position of the object (line, arc, rectangle, ellipse, polygon, or irregular shape) that the user wants to alter.
 2.  Convert these coordinates to logical (or world) units.
-3.  Call the [**EnumEnhMetaFile**](enumenhmetafile.md) function and examine each metafile record.
+3.  Call the [**EnumEnhMetaFile**](/windows/win32/Wingdi/nf-wingdi-enumenhmetafile?branch=master) function and examine each metafile record.
 4.  Determine whether a given record corresponds to a GDI drawing function.
 5.  If it does, determine whether the coordinates stored in the record correspond to the line, arc, ellipse, or other graphics element that intersects the coordinates specified by the user.
 6.  Upon finding the record that corresponds to the output that the user wants to alter, erase the object on the screen that corresponds to the original record.

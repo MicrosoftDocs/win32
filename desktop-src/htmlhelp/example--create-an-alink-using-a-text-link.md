@@ -1,7 +1,12 @@
 ---
 title: Example Create an ALink Using a Text Link
 description: Example Create an ALink Using a Text Link
-ms.assetid: '814B5C5A-BB8F-4e21-818A-CE3CA7E3D9D9'
+ms.assetid: 814B5C5A-BB8F-4e21-818A-CE3CA7E3D9D9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create an ALink Using a Text Link
@@ -15,7 +20,7 @@ ms.assetid: '814B5C5A-BB8F-4e21-818A-CE3CA7E3D9D9'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **ALink Search** and, if you have already used the HTML Help ActiveX control in this file, enter an ID name for this instance of the control.
 4.  Click **Next** and then click **Hidden** to specify that you will be scripting this use of the HTML Help ActiveX control.
@@ -44,9 +49,9 @@ Replace "add link text here" with the words you want to use.
 [About Working with Links](work-with-links.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

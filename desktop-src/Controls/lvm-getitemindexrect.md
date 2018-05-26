@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETITEMINDEXRECT message
 description: Retrieves the bounding rectangle for all or part of a subitem in the current view of a list-view control. Send this message explicitly or by using the ListView\_GetItemIndexRect macro.
-ms.assetid: '17704d24-c029-4d41-b198-04d1e78698e0'
-keywords: ["LVM_GETITEMINDEXRECT message Windows Controls"]
+ms.assetid: 17704d24-c029-4d41-b198-04d1e78698e0
+keywords:
+- LVM_GETITEMINDEXRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETITEMINDEXRECT message
 
-Retrieves the bounding rectangle for all or part of a subitem in the current view of a list-view control. Send this message explicitly or by using the [**ListView\_GetItemIndexRect**](listview-getitemindexrect.md) macro.
+Retrieves the bounding rectangle for all or part of a subitem in the current view of a list-view control. Send this message explicitly or by using the [**ListView\_GetItemIndexRect**](/windows/win32/Commctrl/nf-commctrl-listview_getitemindexrect?branch=master) macro.
 
 ## Parameters
 
@@ -24,7 +30,7 @@ Retrieves the bounding rectangle for all or part of a subitem in the current vie
 *wParam* \[in\]
 </dt> <dd>
 
-A pointer to a [**LVITEMINDEX**](lvitemindex.md) structure for the parent item of the subitem. The calling process is responsible for allocating this structure and setting its members. *wParam* must not be **NULL**.
+A pointer to a [**LVITEMINDEX**](/windows/win32/Commctrl/ns-commctrl-taglvitemindex?branch=master) structure for the parent item of the subitem. The calling process is responsible for allocating this structure and setting its members. *wParam* must not be **NULL**.
 
 </dd> <dt>
 
@@ -43,7 +49,7 @@ A pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd1
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -57,15 +63,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

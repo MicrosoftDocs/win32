@@ -4,11 +4,16 @@ description: The GetNext method returns the next child sibling node for a given 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21d06208-e84d-4f98-9a69-56ba06004c82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 21d06208-e84d-4f98-9a69-56ba06004c82
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetNext method MMC", "GetNext method MMC , ScopeNamespace object", "ScopeNamespace object MMC , GetNext method", "GetNext method MMC , ScopeNamespace interface", "ScopeNamespace interface MMC , GetNext method"]
+keywords:
+- GetNext method MMC
+- GetNext method MMC , ScopeNamespace object
+- ScopeNamespace object MMC , GetNext method
+- GetNext method MMC , ScopeNamespace interface
+- ScopeNamespace interface MMC , GetNext method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScopeNamespace::GetNext method
@@ -90,8 +98,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -109,9 +117,9 @@ End If
 [**ScopeNamespace.GetParent**](scopenamespace-getparent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

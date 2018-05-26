@@ -1,14 +1,20 @@
 ---
 title: ICON control
 description: Defines an icon control. This control is an icon displayed in a dialog box.
-ms.assetid: 'fd2e1e7a-f386-4fdc-8b05-afce19dd3e8d'
-keywords: ["ICON control Menus and Other Resources"]
+ms.assetid: fd2e1e7a-f386-4fdc-8b05-afce19dd3e8d
+keywords:
+- ICON control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - ICON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICON control

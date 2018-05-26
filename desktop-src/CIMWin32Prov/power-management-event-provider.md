@@ -1,15 +1,18 @@
 ---
-Description: 'The Power Management provider allows WMI to model the Windows power management protocols.'
+Description: The Power Management provider allows WMI to model the Windows power management protocols.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '18ff116b-22a8-4ee3-b2fd-427eb8643e6b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 18ff116b-22a8-4ee3-b2fd-427eb8643e6b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Power Management Event Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Power Management Event Provider

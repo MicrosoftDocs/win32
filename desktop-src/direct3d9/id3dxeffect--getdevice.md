@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the device associated with the effect.'
-ms.assetid: 'acef5d0a-b185-4054-8982-0580440ab76b'
-title: 'ID3DXEffect::GetDevice method'
+---
+Description: Retrieves the device associated with the effect.
+ms.assetid: acef5d0a-b185-4054-8982-0580440ab76b
+title: ID3DXEffectGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::GetDevice method
@@ -26,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the effect.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the effect.
 
 </dd> </dl>
 
@@ -40,7 +45,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-Calling this method will increase the internal reference count for the [**IDirect3DDevice9**](idirect3ddevice9.md) interface. Be sure to call IUnknown::Release when you are done using the **IDirect3DDevice9** interface or you will have a memory leak.
+Calling this method will increase the internal reference count for the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface. Be sure to call IUnknown::Release when you are done using the **IDirect3DDevice9** interface or you will have a memory leak.
 
 ## Requirements
 

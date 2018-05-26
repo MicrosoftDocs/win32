@@ -1,8 +1,14 @@
 ---
 title: Animation Lists for the Characters Available from Microsoft
 description: Animation Lists for the Characters Available from Microsoft
-ms.assetid: 'a47514af-6ab8-4619-9f5a-2cc4b5706adc'
-keywords: ["Microsoft Agent, animations for Microsoft characters"]
+ms.assetid: a47514af-6ab8-4619-9f5a-2cc4b5706adc
+keywords:
+- Microsoft Agent, animations for Microsoft characters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animation Lists for the Characters Available from Microsoft

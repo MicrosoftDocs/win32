@@ -1,8 +1,9 @@
 ---
 title: ErrorInfo structure
 description: This structure defines an AXE error.
-ms.assetid: '52788B75-8638-47D6-A01A-10CD8F25A032'
-keywords: ["ErrorInfo structure Access Execution Engine"]
+ms.assetid: 52788B75-8638-47D6-A01A-10CD8F25A032
+keywords:
+- ErrorInfo structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorInfo structure
@@ -22,12 +28,12 @@ This structure defines an AXE error.
 
 ```C++
 struct ErrorInfo {
-  DWORD     size;
-  UINT      index;
-  UINT      assessmentIndex;
+  DWORD     size;
+  UINT      index;
+  UINT      assessmentIndex;
   ErrorType errorType;
-  HRESULT   errorValue;
-  WCHAR     file[MAX_PATH];
+  HRESULT   errorValue;
+  WCHAR     file[MAX_PATH];
 };
 ```
 
@@ -85,15 +91,15 @@ The absolute path to the file that caused the failure. If there is no file assoc
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

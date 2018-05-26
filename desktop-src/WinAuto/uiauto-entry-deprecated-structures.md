@@ -1,7 +1,12 @@
 ---
 title: Deprecated Structures
 description: Note The structures described in this section are used with the UI Automation node functions, which have been deprecated.
-ms.assetid: 'fedf7940-2052-4cd8-81fa-4dad6f6a76e0'
+ms.assetid: fedf7940-2052-4cd8-81fa-4dad6f6a76e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deprecated Structures
@@ -16,7 +21,7 @@ ms.assetid: 'fedf7940-2052-4cd8-81fa-4dad6f6a76e0'
 > -   [Proxy Factory Interfaces for Clients](uiauto-client-proxyfactoryinterfaces.md)
 > -   [UI Automation Structures](uiauto-entry-structures.md)
 
- 
+ 
 
 ## In this section
 
@@ -35,7 +40,7 @@ ms.assetid: 'fedf7940-2052-4cd8-81fa-4dad6f6a76e0'
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>UiaAndOrCondition</strong>](uiauto-uiaandorconditionstruct.md)<br/></td>
+<td>[<strong>UiaAndOrCondition</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaandorcondition?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -43,7 +48,7 @@ This structure is deprecated.
 <br/> Contains information about a complex condition.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaAsyncContentLoadedEventArgs</strong>](uiauto-uiaasynccontentloadedeventargsstruct.md)<br/></td>
+<td>[<strong>UiaAsyncContentLoadedEventArgs</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaasynccontentloadedeventargs?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -51,7 +56,7 @@ This structure is deprecated.
 <br/> Contains information about an event raised when content is being asynchronously loaded by a UI element.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaCacheRequest</strong>](uiauto-uiacacherequeststruct.md)<br/></td>
+<td>[<strong>UiaCacheRequest</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacacherequest?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -59,7 +64,7 @@ This structure is deprecated.
 <br/> Contains information about a request to cache data about UI Automation elements.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaCondition</strong>](uiauto-uiaconditionstruct.md)<br/></td>
+<td>[<strong>UiaCondition</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacondition?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -67,7 +72,7 @@ This structure is deprecated.
 <br/> Contains information about a condition.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaEventArgs</strong>](uiauto-uiaeventargsstruct.md)<br/></td>
+<td>[<strong>UiaEventArgs</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaeventargs?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -75,15 +80,15 @@ This structure is deprecated.
 <br/> Contains information about a Microsoft UI Automation event.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaFindParams</strong>](uiauto-uiafindparamsstruct.md)<br/></td>
+<td>[<strong>UiaFindParams</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiafindparams?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
 </blockquote>
-<br/> Contains parameters used in the [<strong>UiaFind</strong>](uiauto-uiafindautometh.md) function.<br/></td>
+<br/> Contains parameters used in the [<strong>UiaFind</strong>](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind?branch=master) function.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaNotCondition</strong>](uiauto-uianotconditionstruct.md)<br/></td>
+<td>[<strong>UiaNotCondition</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uianotcondition?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -91,7 +96,7 @@ This structure is deprecated.
 <br/> Contains information about a negative condition.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaPropertyChangedEventArgs</strong>](uiauto-uiapropertychangedeventargsstruct.md)<br/></td>
+<td>[<strong>UiaPropertyChangedEventArgs</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertychangedeventargs?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -99,7 +104,7 @@ This structure is deprecated.
 <br/> Contains information about an event that is raised when a UI Automation element property change occurs.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaPropertyCondition</strong>](uiauto-uiapropertyconditionstruct.md)<br/></td>
+<td>[<strong>UiaPropertyCondition</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertycondition?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -107,7 +112,7 @@ This structure is deprecated.
 <br/> Contains information about a condition used to find UI Automation elements that have a matching property.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>UiaStructureChangedEventArgs</strong>](uiauto-uiastructurechangedeventargsstruct.md)<br/></td>
+<td>[<strong>UiaStructureChangedEventArgs</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiastructurechangedeventargs?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -115,7 +120,7 @@ This structure is deprecated.
 <br/> Contains information about an event that is raised when the structure of the UI Automation tree changes.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>UiaWindowClosedEventArgs</strong>](uiauto-uiawindowclosedeventargsstruct.md)<br/></td>
+<td>[<strong>UiaWindowClosedEventArgs</strong>](/windows/win32/UIAutomationCoreApi/ns-uiautomationcoreapi-uiawindowclosedeventargs?branch=master)<br/></td>
 <td><blockquote>
 [!Note]<br />
 This structure is deprecated.
@@ -127,7 +132,7 @@ This structure is deprecated.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -136,9 +141,9 @@ This structure is deprecated.
 [Reference](entry-uiautocore-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

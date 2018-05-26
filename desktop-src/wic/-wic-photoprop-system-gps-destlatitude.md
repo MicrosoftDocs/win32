@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.DestLatitude property.'
-ms.assetid: '05284291-977d-49b8-ad92-365f68384960'
-title: 'System.GPS.DestLatitude Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.DestLatitude property.
+ms.assetid: 05284291-977d-49b8-ad92-365f68384960
+title: System.GPS.DestLatitude Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLatitude Photo Metadata Policy

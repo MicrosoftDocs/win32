@@ -1,15 +1,18 @@
 ---
-Description: 'Requests the specified state change to a concrete job.'
+Description: Requests the specified state change to a concrete job.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '565d004c-9367-44b6-ba95-0aac4d8fd39a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 565d004c-9367-44b6-ba95-0aac4d8fd39a
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RequestStateChange method of the CIM\_ConcreteJob class'
+title: RequestStateChange method of the CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_ConcreteJob class
@@ -21,8 +24,8 @@ Requests the specified state change to a concrete job.
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -179,7 +182,7 @@ Cannot complete within Timeout Period
 **DMTF Reserved**
 </dt> <dd>
 
-7–4095
+7 4095
 
 </dd> <dt>
 
@@ -216,14 +219,14 @@ Method Parameters Checked - Job Started
 **Method Reserved**
 </dt> <dd>
 
-4100–32767
+4100 32767
 
 </dd> <dt>
 
 **Vendor Specific**
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 </dd> </dl>
 
@@ -234,7 +237,7 @@ Method Parameters Checked - Job Started
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -248,9 +251,9 @@ Method Parameters Checked - Job Started
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

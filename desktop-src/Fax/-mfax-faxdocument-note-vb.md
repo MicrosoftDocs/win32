@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Note property is a null-terminated string that contains the contents of the note field on the cover page of the fax.'
-ms.assetid: '2fdf618a-c1b3-4f8c-9e63-3c1417276be4'
-title: 'FaxDocument.Note property'
+---
+Description: The Note property is a null-terminated string that contains the contents of the note field on the cover page of the fax.
+ms.assetid: 2fdf618a-c1b3-4f8c-9e63-3c1417276be4
+title: FaxDocument.Note property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Note property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the text of the note field.
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

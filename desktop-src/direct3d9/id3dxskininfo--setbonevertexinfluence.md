@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an influence value of a bone on a single vertex.'
-ms.assetid: '9283866f-3dfe-467d-a74f-77e89c2778c4'
-title: 'ID3DXSkinInfo::SetBoneVertexInfluence method'
+---
+Description: Sets an influence value of a bone on a single vertex.
+ms.assetid: 9283866f-3dfe-467d-a74f-77e89c2778c4
+title: ID3DXSkinInfoSetBoneVertexInfluence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::SetBoneVertexInfluence method

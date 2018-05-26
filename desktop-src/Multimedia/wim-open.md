@@ -1,8 +1,9 @@
 ---
 title: WIM\_OPEN message
 description: The WIM\_OPEN message is sent to a waveform-audio input callback function when a waveform-audio input device is opened.
-ms.assetid: '4c646f58-c324-467e-871b-8fc36d5b89bc'
-keywords: ["WIM_OPEN message Windows Multimedia"]
+ms.assetid: 4c646f58-c324-467e-871b-8fc36d5b89bc
+keywords:
+- WIM_OPEN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIM\_OPEN message
@@ -54,8 +60,8 @@ This message does not return a value.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ This message does not return a value.
 [Waveform Messages](waveform-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

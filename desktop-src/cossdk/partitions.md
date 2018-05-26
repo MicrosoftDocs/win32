@@ -1,14 +1,19 @@
 ---
-Description: 'Specifies the applications contained within each partition.'
-ms.assetid: 'fd22a64c-f2d8-48af-86e1-985e21b0f8fa'
+Description: Specifies the applications contained within each partition.
+ms.assetid: fd22a64c-f2d8-48af-86e1-985e21b0f8fa
 title: Partitions collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Partitions collection
 
 Specifies the applications contained within each partition.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -30,7 +35,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [Changeable](#changeable)
 -   [Deleteable](#deleteable)
@@ -92,7 +97,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                    |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A GUID representing the partition. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | A GUID representing the partition. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                          |
 | Type           | String                                                                                                                                                             |
 | Default        | &lt;Generated&gt;                                                                                                                                                  |
@@ -108,7 +113,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Represents the partition name. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | Represents the partition name. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                                                                 |
 | Default        | "New Partition"                                                                                                                                                                                                                        |

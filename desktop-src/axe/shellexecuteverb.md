@@ -1,14 +1,20 @@
 ---
 title: ShellExecuteVerb element
 description: A verb as described by the documentation for the shell execute API.
-ms.assetid: '7A7DEAD1-4469-4DD1-BB44-B7359DFA8BAE'
-keywords: ["ShellExecuteVerb element Access Execution Engine"]
+ms.assetid: 7A7DEAD1-4469-4DD1-BB44-B7359DFA8BAE
+keywords:
+- ShellExecuteVerb element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ShellExecuteVerb
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellExecuteVerb element
@@ -47,7 +53,7 @@ There are no child elements.
 
 ## Remarks
 
-This tag must contain a verb as described by the documentation for the shell execute API. Note that AXE cannot verify this as verb’s depend upon the target file. If the assessment author use an incorrect verb then AXE’s call to shell execute will fail. AXE will then report the error information using the regular AXE error reporting mechanisms (ETW and errors in results.xml).
+This tag must contain a verb as described by the documentation for the shell execute API. Note that AXE cannot verify this as verb s depend upon the target file. If the assessment author use an incorrect verb then AXE s call to shell execute will fail. AXE will then report the error information using the regular AXE error reporting mechanisms (ETW and errors in results.xml).
 
 ## Element information
 
@@ -66,9 +72,9 @@ This tag must contain a verb as described by the documentation for the shell exe
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

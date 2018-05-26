@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SCSIProtocolController class
 description: Represents a synthetic SCSI controller.
-ms.assetid: 'b3678eaa-4801-46dd-be9e-805b45b9b0c8'
-keywords: ["Msvm_SCSIProtocolController class Hyper-V", "Msvm_SCSIProtocolController class Hyper-V , described"]
+ms.assetid: b3678eaa-4801-46dd-be9e-805b45b9b0c8
+keywords:
+- Msvm_SCSIProtocolController class Hyper-V
+- Msvm_SCSIProtocolController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -54,6 +56,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SCSIProtocolController class
@@ -68,41 +75,41 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SCSIProtocolController : CIM_SCSIProtocolController
 {
-  string   Caption = "SCSI Controller";
-  string   Description = "Microsoft Virtual SCSI Controller";
-  string   ElementName = "SCSI Controller";
+  string   Caption = "SCSI Controller";
+  string   Description = "Microsoft Virtual SCSI Controller";
+  string   ElementName = "SCSI Controller";
   datetime InstallDate;
-  string   Name = "SCSI Controller";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "SCSI Controller";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_SCSIProtocolController";
-  string   DeviceID = "Microsoft:GUID\device-specific-data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  uint32   MaxUnitsControlled = 256;
-  uint16   NameFormat = 0;
-  string   OtherNameFormat;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_SCSIProtocolController";
+  string   DeviceID = "Microsoft:GUID\device-specific-data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  uint32   MaxUnitsControlled = 256;
+  uint16   NameFormat = 0;
+  string   OtherNameFormat;
 };
 ```
 
@@ -132,7 +139,7 @@ The **Msvm\_SCSIProtocolController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -745,9 +752,9 @@ Access to the **Msvm\_SCSIProtocolController** class might be restricted by UAC 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -766,9 +773,9 @@ Access to the **Msvm\_SCSIProtocolController** class might be restricted by UAC 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

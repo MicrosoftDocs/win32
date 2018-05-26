@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate music files from other types. Do not use this property for getting or setting values. It is intended only as a marker.'
-ms.assetid: '49d889b3-4827-4c00-9b0b-2082e895281a'
-title: 'System.PropGroup.Music'
+Description: The property group separator used in property lists to separate music files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+ms.assetid: 49d889b3-4827-4c00-9b0b-2082e895281a
+title: System.PropGroup.Music
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.Music

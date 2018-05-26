@@ -1,7 +1,12 @@
 ---
 title: Programming APIs
 description: Each programming language has several APIs that communicate with Indexing Service, and you can choose the API most suitable for a task.
-ms.assetid: 'ede1c59d-bf95-4a8d-9190-947b5a8a630f'
+ms.assetid: ede1c59d-bf95-4a8d-9190-947b5a8a630f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming APIs
@@ -22,7 +27,7 @@ The following table lists the APIs available for performing Indexing Service tas
 | <span id="_idxs_admin_helper_api"></span><span id="_IDXS_ADMIN_HELPER_API"></span>Admin Helper                                         | A high-level API for managing Indexing Service. It provides an [object-based interface](objects.md) to Indexing Service from automation languages.                                                                                                                                                                                                                                                |
 | <span id="_idxs_query_helper_api"></span><span id="_IDXS_QUERY_HELPER_API"></span>Query Helper                                         | A high-level API for querying Indexing Service. It provides an [object-based interface](objects.md) for accessing Indexing Service data from automation languages.                                                                                                                                                                                                                                |
 | <span id="_idxs_isapi_extensions_api"></span><span id="_IDXS_ISAPI_EXTENSIONS_API"></span>ISAPI Extensions                             | An intermediate-level, high-performance API extension to the Internet Server Applications Programming Interface (ISAPI). It provides access for managing and querying Indexing Service from Internet Information Services (IIS) applications. For information about ISAPI extensions, see the Programmer's Guide in the [Internet Information Services SDK](b1073d67-0cfd-42cb-b62b-97e670a4eafb). |
-| <span id="_idxs_ifilter_component_api"></span><span id="_IDXS_IFILTER_COMPONENT_API"></span>IFilter Component                          | A low-level, customizable [COM interface](ifilter.md), usually written in C++, for extracting text and values from documents.                                                                                                                                                                                                                                                                     |
+| <span id="_idxs_ifilter_component_api"></span><span id="_IDXS_IFILTER_COMPONENT_API"></span>IFilter Component                          | A low-level, customizable [COM interface](/windows/win32/Filter/nn-filter-ifilter?branch=master), usually written in C++, for extracting text and values from documents.                                                                                                                                                                                                                                                                     |
 | Language Resources                                                                                                                     | [IWordBreaker](iwordbreaker.md) and [IStemmer](istemmer.md) implementations that allow the Index and Querying components of Indexing Service to access documents in their native languages and locales.                                                                                                                                                                                          |
 
 

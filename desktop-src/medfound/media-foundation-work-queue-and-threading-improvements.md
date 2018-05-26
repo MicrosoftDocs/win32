@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes improvements in Windows 8 for work queues and threading in the Microsoft Media Foundation platform.'
-ms.assetid: '9E2A1D94-BF82-488E-8297-D524683ABE17'
+Description: This topic describes improvements in Windows 8 for work queues and threading in the Microsoft Media Foundation platform.
+ms.assetid: 9E2A1D94-BF82-488E-8297-D524683ABE17
 title: Work Queue and Threading Improvements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Work Queue and Threading Improvements
@@ -34,12 +39,12 @@ The Media Foundation platform creates several standard work queues. Only two are
 -   **MFASYNC\_CALLBACK\_QUEUE\_STANDARD**
 -   **MFASYNC\_CALLBACK\_QUEUE\_LONG\_FUNCTION**
 
-An application or component can allocate new work queues by calling [**MFAllocateWorkQueue**](mfallocateworkqueue.md) or [**MFAllocateWorkQueueEx**](mfallocateworkqueueex.md). The **MFAllocateWorkQueueEx** function defines two types of work queue:
+An application or component can allocate new work queues by calling [**MFAllocateWorkQueue**](/windows/win32/mfapi/nf-mfapi-mfallocateworkqueue?branch=master) or [**MFAllocateWorkQueueEx**](/windows/win32/mfapi/nf-mfapi-mfallocateworkqueueex?branch=master). The **MFAllocateWorkQueueEx** function defines two types of work queue:
 
 -   **MF\_STANDARD\_WORKQUEUE** creates a work queue without a message loop.
 -   **MF\_WINDOW\_WORKQUEUE** creates a work queue with a message loop.
 
-To queue a work item, call [**MFPutWorkItem**](mfputworkitem.md) or [**MFPutWorkItemEx**](mfputworkitemex.md). The platform executes the work item by invoking the caller-provided implementation of [**IMFAsyncCallback**](imfasynccallback.md). In Windows 7 and earlier, the platform creates one thread per work queue.
+To queue a work item, call [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) or [**MFPutWorkItemEx**](/windows/win32/mfapi/nf-mfapi-mfputworkitemex?branch=master). The platform executes the work item by invoking the caller-provided implementation of [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master). In Windows 7 and earlier, the platform creates one thread per work queue.
 
 ### MMCSS Support
 
@@ -49,14 +54,14 @@ The [Multimedia Class Scheduler Service](base.multimedia_class_scheduler_service
 -   The relative thread priority, which is set at run time by calling [**AvSetMmThreadPriority**](base.avsetmmthreadpriority).
 -   Various run-time characteristics, such as whether the application is in the foreground, and how much CPU time is being consumed by the threads in each MMCSS class.
 
-An application can register a work queue with MMCSS by calling [**MFBeginRegisterWorkQueueWithMMCSS**](mfbeginregisterworkqueuewithmmcss.md). This function takes a work queue ID, an MMCSS class (task name), and the MMCSS task identifier. Internally, it calls [**AvSetMmThreadCharacteristics**](base.avsetmmthreadcharacteristics) with the task name and task ID. After a work queue is registered with MMCSS, you can get the class and task ID by calling [**MFGetWorkQueueMMCSSClass**](mfgetworkqueuemmcssclass.md) and [**MFGetWorkQueueMMCSSTaskId**](mfgetworkqueuemmcsstaskid.md).
+An application can register a work queue with MMCSS by calling [**MFBeginRegisterWorkQueueWithMMCSS**](/windows/win32/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss?branch=master). This function takes a work queue ID, an MMCSS class (task name), and the MMCSS task identifier. Internally, it calls [**AvSetMmThreadCharacteristics**](base.avsetmmthreadcharacteristics) with the task name and task ID. After a work queue is registered with MMCSS, you can get the class and task ID by calling [**MFGetWorkQueueMMCSSClass**](/windows/win32/mfapi/nf-mfapi-mfgetworkqueuemmcssclass?branch=master) and [**MFGetWorkQueueMMCSSTaskId**](/windows/win32/mfapi/nf-mfapi-mfgetworkqueuemmcsstaskid?branch=master).
 
-The [Media Session](media-session.md) provides somewhat higher-level access to these APIs, through the [**IMFWorkQueueServices**](imfworkqueueservices.md) interface. This interface provides two primary methods:
+The [Media Session](media-session.md) provides somewhat higher-level access to these APIs, through the [**IMFWorkQueueServices**](/windows/win32/mfidl/nn-mfidl-imfworkqueueservices?branch=master) interface. This interface provides two primary methods:
 
 | Method                                                                                                            | Description                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BeginRegisterPlatformWorkQueueWithMMCSS**](imfworkqueueservices-beginregisterplatformworkqueuewithmmcss.md)   | Registers a work queue with an MMCSS task. This method is essentially a thin wrapper around [**MFBeginRegisterWorkQueueWithMMCSS**](mfbeginregisterworkqueuewithmmcss.md), but you can pass the value **MFASYNC\_CALLBACK\_QUEUE\_ALL** to register all of the platform work queues at once. |
-| [**BeginRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginregistertopologyworkqueueswithmmcss.md) | Registers a branch of the topology with a work queue.                                                                                                                                                                                                                                         |
+| [**BeginRegisterPlatformWorkQueueWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss?branch=master)   | Registers a work queue with an MMCSS task. This method is essentially a thin wrapper around [**MFBeginRegisterWorkQueueWithMMCSS**](/windows/win32/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcss?branch=master), but you can pass the value **MFASYNC\_CALLBACK\_QUEUE\_ALL** to register all of the platform work queues at once. |
+| [**BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss?branch=master) | Registers a branch of the topology with a work queue.                                                                                                                                                                                                                                         |
 
 
 
@@ -66,16 +71,16 @@ To register a topology branch, do the following.
 
 1.  Set the [MF\_TOPONODE\_WORKQUEUE\_ID](mf-toponode-workqueue-id-attribute.md) attribute on the source node for the branch. Use any application-defined value.
 2.  Optionally, set the **MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS** to join the work queue to an MMCSS task.
-3.  Call [**BeginRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginregistertopologyworkqueueswithmmcss.md) on the resolved topology.
+3.  Call [**BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss?branch=master) on the resolved topology.
 
 The Media Session allocates a new work queue for each unique value of [MF\_TOPONODE\_WORKQUEUE\_ID](mf-toponode-workqueue-id-attribute.md). For each topology branch, asynchronous pipeline operations are performed on the work queue that is assigned to the branch.
 
 ### IMFRealTimeClient
 
-The [**IMFRealTimeClient**](imfrealtimeclient.md) interface is intended for pipeline components that either create their own threads or use work queues for asynchronous operations. The Media Session uses this interface to notify the pipeline component of the correct behavior, as follows:
+The [**IMFRealTimeClient**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclient?branch=master) interface is intended for pipeline components that either create their own threads or use work queues for asynchronous operations. The Media Session uses this interface to notify the pipeline component of the correct behavior, as follows:
 
--   If the pipeline component creates a worker thread, the [**IMFRealTimeClient::RegisterThreads**](imfrealtimeclient-registerthreads.md) method notifies the component which MMCSS class to join.
--   If the pipeline component uses a work queue, the [**IMFRealTimeClient::SetWorkQueue**](imfrealtimeclient-setworkqueue.md) method tells the component which work queue to use.
+-   If the pipeline component creates a worker thread, the [**IMFRealTimeClient::RegisterThreads**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclient-registerthreads?branch=master) method notifies the component which MMCSS class to join.
+-   If the pipeline component uses a work queue, the [**IMFRealTimeClient::SetWorkQueue**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclient-setworkqueue?branch=master) method tells the component which work queue to use.
 
 Typically, a pipeline component uses either a thread or a work queue to perform asynchronous tasks, but not both.
 
@@ -89,7 +94,7 @@ In Windows 8, Media Foundation supports a new type of work queue called the *mu
 
 -   Work items are optimized to avoid context switches if an event is already set. This is more efficient than creating your own threads to wait on events.
 
-When using [**IMFRealTimeClientEx**](imfrealtimeclientex.md), applications should avoid spinning up threads and instead should use the work queues. To accomplish this, applications should implement [**SetWorkQueueEx**](imfrealtimeclientex-setworkqueueex.md) and not use [**RegisterThreads**](imfrealtimeclientex-registerthreadsex.md) and [**UnregisterThreads**](imfrealtimeclientex-unregisterthreads.md).
+When using [**IMFRealTimeClientEx**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclientex?branch=master), applications should avoid spinning up threads and instead should use the work queues. To accomplish this, applications should implement [**SetWorkQueueEx**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclientex-setworkqueueex?branch=master) and not use [**RegisterThreads**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclientex-registerthreadsex?branch=master) and [**UnregisterThreads**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclientex-unregisterthreads?branch=master).
 
 When the Media Foundation platform is initialized, it creates a multithreaded queue with the identifier **MFASYNC\_CALLBACK\_QUEUE\_MULTITHREADED**.
 
@@ -111,13 +116,13 @@ The standard work queues that existed prior to Windows 8 are now implemented as
 
 ### Shared Task Work Queues
 
-To work correctly with the kernel scheduler, there should be one multithreaded work queue for each MMCSS task that you use. The Media Foundation platform allocates these as needed, up to one per MMCSS task, per process. To get the shared work queue for a particular MMCSS task, call [**MFLockSharedWorkQueue**](mflocksharedworkqueue.md) and specify the task name. The function looks up the task name in a table. If a work queue does not already exist for this task, the function allocates a new MT work queue and immediately joins it to the MMCSS task. If a work queue already exists for that task, the function returns the identifier of the existing work queue.
+To work correctly with the kernel scheduler, there should be one multithreaded work queue for each MMCSS task that you use. The Media Foundation platform allocates these as needed, up to one per MMCSS task, per process. To get the shared work queue for a particular MMCSS task, call [**MFLockSharedWorkQueue**](/windows/win32/mfapi/nf-mfapi-mflocksharedworkqueue?branch=master) and specify the task name. The function looks up the task name in a table. If a work queue does not already exist for this task, the function allocates a new MT work queue and immediately joins it to the MMCSS task. If a work queue already exists for that task, the function returns the identifier of the existing work queue.
 
 ### Wait Queue
 
 The *wait queue* is a special platform work queue that waits on events to be signaled. If a component needs to wait for an event to be signaled, it can use the wait queue instead of creating a worker thread to wait on the event.
 
-To use the wait queue, call [**MFPutWaitingWorkItem**](mfputwaitingworkitem.md). The parameters include the event handle and an [**IMFAsyncResult**](imfasyncresult.md) pointer. When the event is signaled, the wait queue invokes your callback. There is a single platform wait queue; applications cannot create their own wait queues.
+To use the wait queue, call [**MFPutWaitingWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputwaitingworkitem?branch=master). The parameters include the event handle and an [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) pointer. When the event is signaled, the wait queue invokes your callback. There is a single platform wait queue; applications cannot create their own wait queues.
 
 ### Enhancements to MMCSS Support
 
@@ -127,9 +132,9 @@ The following new Media Foundation platform functions relate to MMCSS.
 
 | Function                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MFBeginRegisterWorkQueueWithMMCSSEx**](mfbeginregisterworkqueuewithmmcssex.md) | Registers a work queue with MMCSS. This function includes a parameter to specify relative thread priority. Internally, this value is translated into a call to [**AvSetMmThreadPriority**](base.avsetmmthreadpriority).                                                                                                                                                                               |
-| [**MFGetWorkQueueMMCSSPriority**](mfgetworkqueuemmcsspriority.md)                 | Queries the priority of a work queue.                                                                                                                                                                                                                                                                                                                                                                 |
-| [**MFRegisterPlatformWithMMCSS**](mfregisterplatformwithmmcss.md)                 | Registers all of the platform work queues with an MMCSS task. This function is similar to the [**IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS**](imfworkqueueservices-beginregisterplatformworkqueuewithmmcss.md) method, but it can be used without creating an instance of the Media Session. In addition, the function includes a parameter to specify the base thread priority. |
+| [**MFBeginRegisterWorkQueueWithMMCSSEx**](/windows/win32/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcssex?branch=master) | Registers a work queue with MMCSS. This function includes a parameter to specify relative thread priority. Internally, this value is translated into a call to [**AvSetMmThreadPriority**](base.avsetmmthreadpriority).                                                                                                                                                                               |
+| [**MFGetWorkQueueMMCSSPriority**](/windows/win32/mfapi/nf-mfapi-mfgetworkqueuemmcsspriority?branch=master)                 | Queries the priority of a work queue.                                                                                                                                                                                                                                                                                                                                                                 |
+| [**MFRegisterPlatformWithMMCSS**](/windows/win32/mfapi/nf-mfapi-mfregisterplatformwithmmcss?branch=master)                 | Registers all of the platform work queues with an MMCSS task. This function is similar to the [**IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregisterplatformworkqueuewithmmcss?branch=master) method, but it can be used without creating an instance of the Media Session. In addition, the function includes a parameter to specify the base thread priority. |
 
 
 
@@ -139,15 +144,15 @@ Applications that use the Media Session should set the [MF\_TOPONODE\_WORKQUEUE\
 
 ### IMFRealTimeClientEx
 
-The [**IMFRealTimeClientEx**](imfrealtimeclientex.md) interface to replaces IMFRealTimeClient, for pipeline components that perform asynchronous operations.
+The [**IMFRealTimeClientEx**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclientex?branch=master) interface to replaces IMFRealTimeClient, for pipeline components that perform asynchronous operations.
 
 
 
 | Method                                                             | Description                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RegisterThreadsEx**](imfrealtimeclientex-registerthreadsex.md) | Notifies the component to register its threads with MMCSS. This method is equivalent to [**IMFRealTimeClient::RegisterThreads**](imfrealtimeclient-registerthreads.md), but it adds a parameter for the base thread priority. |
-| [**SetWorkQueueEx**](imfrealtimeclientex-setworkqueueex.md)       | Notifies the component to use a specific work queue. This method is equivalent to [**IMFReadTimeClient::SetWorkQueue**](imfrealtimeclient-setworkqueue.md), but it adds a parameter for the work item priority.               |
-| [**UnregisterThreads**](imfrealtimeclientex-unregisterthreads.md) | Notifies the component to unregister its threads from MMCSS. This method is identical to the [**IMFRealTimeClient::UnregisterThreads**](imfrealtimeclient-unregisterthreads.md) method.                                       |
+| [**RegisterThreadsEx**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclientex-registerthreadsex?branch=master) | Notifies the component to register its threads with MMCSS. This method is equivalent to [**IMFRealTimeClient::RegisterThreads**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclient-registerthreads?branch=master), but it adds a parameter for the base thread priority. |
+| [**SetWorkQueueEx**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclientex-setworkqueueex?branch=master)       | Notifies the component to use a specific work queue. This method is equivalent to [**IMFReadTimeClient::SetWorkQueue**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclient-setworkqueue?branch=master), but it adds a parameter for the work item priority.               |
+| [**UnregisterThreads**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclientex-unregisterthreads?branch=master) | Notifies the component to unregister its threads from MMCSS. This method is identical to the [**IMFRealTimeClient::UnregisterThreads**](/windows/win32/mfidl/nf-mfidl-imfrealtimeclient-unregisterthreads?branch=master) method.                                       |
 
 
 
@@ -181,8 +186,8 @@ Two new attributes are defined for registering a topology branch with MMCSS.
 ## Recommendations
 
 -   Applications that use the Media Session should set [MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS](mf-toponode-workqueue-mmcss-class-attribute.md) to "Audio" for the audio rendering branch and "Playback" for the video rendering branch.
--   Applications that use the Media Session should call [**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginregistertopologyworkqueueswithmmcss.md) on the topology.
--   For pipeline components, work queues are recommended instead of worker threads. If the component uses either work queues or worker threads, implement [**IMFRealTimeClientEx**](imfrealtimeclientex.md).
+-   Applications that use the Media Session should call [**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss?branch=master) on the topology.
+-   For pipeline components, work queues are recommended instead of worker threads. If the component uses either work queues or worker threads, implement [**IMFRealTimeClientEx**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclientex?branch=master).
 -   Do not create private work queues, as this defeats the purpose of the platform work queues. Use either the platform multithreaded queue or a serial queue that wraps the platform multithreaded queue.
 -   If you need to serialize asynchronous operations, use a serial queue.
 
@@ -192,16 +197,16 @@ The following Media Foundation platform APIs that relate to threads and work que
 
 -   [MF\_TOPONODE\_WORKQUEUE\_ITEM\_PRIORITY](mf-toponode-workqueue-item-priority.md)
 -   [MF\_TOPONODE\_WORKQUEUE\_MMCSS\_PRIORITY](mf-toponode-workqueue-mmcss-priority.md)
--   [**MFAllocateSerialWorkQueue**](mfallocateserialworkqueue.md)
--   [**MFBeginRegisterWorkQueueWithMMCSSEx**](mfbeginregisterworkqueuewithmmcssex.md)
--   [**MFGetWorkQueueMMCSSPriority**](mfgetworkqueuemmcsspriority.md)
--   [**MFPutWaitingWorkItem**](mfputwaitingworkitem.md)
--   [**MFPutWorkItem2**](mfputworkitem2.md)
--   [**MFPutWorkItemEx2**](mfputworkitemex2.md)
--   [**MFRegisterPlatformWithMMCSS**](mfregisterplatformwithmmcss.md)
--   [**MFUnregisterPlatformFromMMCSS**](mfunregisterplatformfrommmcss.md)
--   [**MFLockSharedWorkQueue**](mflocksharedworkqueue.md)
--   [**IMFRealTimeClientEx**](imfrealtimeclientex.md)
+-   [**MFAllocateSerialWorkQueue**](/windows/win32/mfapi/nf-mfapi-mfallocateserialworkqueue?branch=master)
+-   [**MFBeginRegisterWorkQueueWithMMCSSEx**](/windows/win32/mfapi/nf-mfapi-mfbeginregisterworkqueuewithmmcssex?branch=master)
+-   [**MFGetWorkQueueMMCSSPriority**](/windows/win32/mfapi/nf-mfapi-mfgetworkqueuemmcsspriority?branch=master)
+-   [**MFPutWaitingWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputwaitingworkitem?branch=master)
+-   [**MFPutWorkItem2**](/windows/win32/mfapi/nf-mfapi-mfputworkitem2?branch=master)
+-   [**MFPutWorkItemEx2**](/windows/win32/mfapi/nf-mfapi-mfputworkitemex2?branch=master)
+-   [**MFRegisterPlatformWithMMCSS**](/windows/win32/mfapi/nf-mfapi-mfregisterplatformwithmmcss?branch=master)
+-   [**MFUnregisterPlatformFromMMCSS**](/windows/win32/mfapi/nf-mfapi-mfunregisterplatformfrommmcss?branch=master)
+-   [**MFLockSharedWorkQueue**](/windows/win32/mfapi/nf-mfapi-mflocksharedworkqueue?branch=master)
+-   [**IMFRealTimeClientEx**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclientex?branch=master)
 
 ## Related topics
 

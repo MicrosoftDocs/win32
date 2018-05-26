@@ -1,7 +1,12 @@
 ---
-Description: 'Your Direct3D application can assign texture coordinates to any vertex of any primitive.'
-ms.assetid: '2e23bcb3-9eba-49d9-93ce-0a4fbb15f746'
-title: 'Texture Addressing Modes (Direct3D 9)'
+Description: Your Direct3D application can assign texture coordinates to any vertex of any primitive.
+ms.assetid: 2e23bcb3-9eba-49d9-93ce-0a4fbb15f746
+title: Texture Addressing Modes (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Addressing Modes (Direct3D 9)
@@ -16,11 +21,11 @@ Enabling texture wrapping effectively makes texture coordinates outside the \[0.
 
 ## Setting the Addressing Mode
 
-You can set texture addressing modes for individual texture stages by calling the [**IDirect3DDevice9::SetSamplerState**](idirect3ddevice9--setsamplerstate.md) method. Specify the desired texture stage identifier in the *Sampler* parameter. Set the *Type* parameter to D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW values to update the u-, v-, or w-addressing modes individually. The *Value* parameter determines which mode is being set. This can be any member of the [**D3DTEXTUREADDRESS**](direct3d9.d3dtextureaddress) enumerated type. To retrieve the current texture address mode for a texture stage, call [**IDirect3DDevice9::GetSamplerState**](idirect3ddevice9--getsamplerstate.md), using the D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW members of the [**D3DSAMPLERSTATETYPE**](direct3d9.d3dsamplerstatetype) enumeration to identify the address mode about which you want information.
+You can set texture addressing modes for individual texture stages by calling the [**IDirect3DDevice9::SetSamplerState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate?branch=master) method. Specify the desired texture stage identifier in the *Sampler* parameter. Set the *Type* parameter to D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW values to update the u-, v-, or w-addressing modes individually. The *Value* parameter determines which mode is being set. This can be any member of the [**D3DTEXTUREADDRESS**](direct3d9.d3dtextureaddress) enumerated type. To retrieve the current texture address mode for a texture stage, call [**IDirect3DDevice9::GetSamplerState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getsamplerstate?branch=master), using the D3DSAMP\_ADDRESSU, D3DSAMP\_ADDRESSV, or D3DSAMP\_ADDRESSW members of the [**D3DSAMPLERSTATETYPE**](direct3d9.d3dsamplerstatetype) enumeration to identify the address mode about which you want information.
 
 ## Device Limitations
 
-Although the system generally allows texture coordinates outside the range of 0.0 and 1.0, inclusive, hardware limitations often affect how far outside that range texture coordinates can be. A rendering device communicates this limit in the **MaxTextureRepeat** member of the [**D3DCAPS9**](d3dcaps9.md) structure when you retrieve device capabilities. The value in this member describes the full range of texture coordinates allowed by the device. For instance, if this value is 128, then the input texture coordinates must be kept in the range -128.0 to +128.0. Passing vertices with texture coordinates outside this range is invalid. The same restriction applies to the texture coordinates generated as a result of automatic texture coordinate generation and texture coordinate transformations.
+Although the system generally allows texture coordinates outside the range of 0.0 and 1.0, inclusive, hardware limitations often affect how far outside that range texture coordinates can be. A rendering device communicates this limit in the **MaxTextureRepeat** member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure when you retrieve device capabilities. The value in this member describes the full range of texture coordinates allowed by the device. For instance, if this value is 128, then the input texture coordinates must be kept in the range -128.0 to +128.0. Passing vertices with texture coordinates outside this range is invalid. The same restriction applies to the texture coordinates generated as a result of automatic texture coordinate generation and texture coordinate transformations.
 
 The interpretation of **MaxTextureRepeat** is also affected by the D3DPTEXTURECAPS\_TEXREPEATNOTSCALEDBYSIZE capability bit. When this bit is set, the value in the **MaxTextureRepeat** member is used precisely as described. However, when D3DPTEXTURECAPS\_TEXREPEATNOTSCALEDBYSIZE is not set, texture repeating limitations depend on the size of the texture indexed by the texture coordinates. In this case, **MaxTextureRepeat** must be scaled by the current texture size at the largest level of detail to compute the valid texture coordinate range. For example, given a texture dimension of 32 and **MaxTextureRepeat** of 512, the actual valid texture coordinate range is 512/32 = 16, so the texture coordinates for this device must be within the range of -16.0 to +16.0.
 

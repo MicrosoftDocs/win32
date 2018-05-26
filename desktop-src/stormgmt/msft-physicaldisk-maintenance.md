@@ -1,8 +1,11 @@
 ---
 title: Maintenance method of the MSFT\_PhysicalDisk class
 description: Allows a user to perform certain maintenance tasks on the physical disk while it is part of a concrete pool.
-ms.assetid: '99730040-46E2-4886-A0FE-4C2D8980DC87'
-keywords: ["Maintenance method Windows Storage Management API", "Maintenance method Windows Storage Management API , MSFT_PhysicalDisk class", "MSFT_PhysicalDisk class Windows Storage Management API , Maintenance method"]
+ms.assetid: 99730040-46E2-4886-A0FE-4C2D8980DC87
+keywords:
+- Maintenance method Windows Storage Management API
+- Maintenance method Windows Storage Management API , MSFT_PhysicalDisk class
+- MSFT_PhysicalDisk class Windows Storage Management API , Maintenance method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Maintenance method of the MSFT\_PhysicalDisk class
@@ -22,8 +30,8 @@ Allows a user to perform certain maintenance tasks on the physical disk while it
 
 ```mof
 UInt32 Maintenance(
-  [in]  Boolean EnableIndication,
-  [out] String  ExtendedStatus
+  [in]  Boolean EnableIndication,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -97,8 +105,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -111,9 +119,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

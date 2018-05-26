@@ -4,17 +4,22 @@ description: Contains global settings for the entire forest.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd5fd990b-7bbf-4ede-a3af-7f3f7ac959b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d5fd990b-7bbf-4ede-a3af-7f3f7ac959b3
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["DS-Heuristics attribute AD Schema", "dSHeuristics attribute AD Schema"]
+keywords:
+- DS-Heuristics attribute AD Schema
+- dSHeuristics attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - DS-Heuristics
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS-Heuristics attribute
@@ -40,13 +45,13 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -224,9 +229,9 @@ If the character 4 is set to '1' then Active Directory will perform "pre-emptive
 [dSHeuristics in \[MS-ADTS\] Active Directory Technical Specification](https://msdn.microsoft.com/library/cc223560.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

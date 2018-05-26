@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the instruction set D3DX is currently optimized for.'
-ms.assetid: '5fc97028-4a9d-4bc7-9c90-236a70e570e1'
-title: 'D3DX\_CPU\_OPTIMIZATION enumeration'
+---
+Description: Specifies the instruction set D3DX is currently optimized for.
+ms.assetid: 5fc97028-4a9d-4bc7-9c90-236a70e570e1
+title: D3DX\_CPU\_OPTIMIZATION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_CPU\_OPTIMIZATION enumeration

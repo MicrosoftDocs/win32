@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport CommandPUT method
 description: Sends the PUT command to the HTTPMail server.
-ms.assetid: '9d326a2c-3523-4031-8e88-7d1f645d2f52'
-keywords: ["CommandPUT method Windows Mail (formerly Outlook Express)", "CommandPUT method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandPUT method"]
+ms.assetid: 9d326a2c-3523-4031-8e88-7d1f645d2f52
+keywords:
+- CommandPUT method Windows Mail (formerly Outlook Express)
+- CommandPUT method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandPUT method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::CommandPUT method
@@ -24,10 +32,10 @@ Sends the PUT command to the HTTPMail server.
 
 ```C++
 HRESULT CommandPUT(
-  [in] LPCSTR pszPath,
-  [in] LPVOID lpvData,
-  [in] ULONG  cbSize,
-  [in] DWORD  dwContext
+  [in] LPCSTR pszPath,
+  [in] LPVOID lpvData,
+  [in] ULONG  cbSize,
+  [in] DWORD  dwContext
 );
 ```
 
@@ -89,7 +97,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +105,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -106,9 +114,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

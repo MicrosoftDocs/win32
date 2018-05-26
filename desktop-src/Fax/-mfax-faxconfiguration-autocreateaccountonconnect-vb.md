@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether the server automatically creates a fax account once a connection is initiated.'
-ms.assetid: '7be177c1-5024-48b2-aade-945b75257566'
-title: 'FaxConfiguration.AutoCreateAccountOnConnect property'
+---
+Description: Sets or retrieves a value that indicates whether the server automatically creates a fax account once a connection is initiated.
+ms.assetid: 7be177c1-5024-48b2-aade-945b75257566
+title: FaxConfiguration.AutoCreateAccountOnConnect property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.AutoCreateAccountOnConnect property

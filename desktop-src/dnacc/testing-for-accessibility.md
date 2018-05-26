@@ -1,7 +1,12 @@
 ---
 Description: Sara Ford
-ms.assetid: '4ef78459-4578-41d0-9193-ca8da1f8ead6'
+ms.assetid: 4ef78459-4578-41d0-9193-ca8da1f8ead6
 title: Testing for Accessibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing for Accessibility

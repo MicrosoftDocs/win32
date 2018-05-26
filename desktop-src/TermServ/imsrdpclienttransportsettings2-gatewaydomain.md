@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayDomain property
-description: Specifies or retrieves the domain name of a user that is provided to the Remote Desktop Gateway (RD Gateway) server.
+description: Specifies or retrieves the domain name of a user that is provided to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '792ff7c6-afeb-4a2a-86b4-7722513a08e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 792ff7c6-afeb-4a2a-86b4-7722513a08e0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayDomain property Remote Desktop Services", "GatewayDomain property Remote Desktop Services , IMsRdpClientTransportSettings2 interface", "IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayDomain property"]
+keywords:
+- GatewayDomain property Remote Desktop Services
+- GatewayDomain property Remote Desktop Services , IMsRdpClientTransportSettings2 interface
+- IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayDomain property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings2::GatewayDomain property
 
-Specifies or retrieves the domain name of a user that is provided to the Remote Desktop Gateway (RD Gateway) server.
+Specifies or retrieves the domain name of a user that is provided to the Remote Desktop Gateway (RD Gateway) server.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayDomain(
-  [in]  BSTR proxyDomain
+  [in]  BSTR proxyDomain
 );
 
 HRESULT get_GatewayDomain(
-  [out] BSTR *pProxyDomain
+  [out] BSTR *pProxyDomain
 );
 ```
 
@@ -44,7 +50,7 @@ HRESULT get_GatewayDomain(
 
 ## Property value
 
-The domain name that is provided to connect to the RD Gateway server.
+The domain name that is provided to connect to the RD Gateway server.
 
 ## Error codes
 
@@ -56,8 +62,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings2 is defined as 67341688-D606-4c73-A5D2-2E0489009319<br/> |
@@ -74,9 +80,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

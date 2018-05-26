@@ -1,7 +1,12 @@
 ---
 title: How to Raise Events from a UI Automation Provider
 description: This topic contains example code that shows how a Microsoft UI Automation provider raises an event.
-ms.assetid: '43826258-9321-4d44-bd31-6a3b42f00d39'
+ms.assetid: 43826258-9321-4d44-bd31-6a3b42f00d39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Raise Events from a UI Automation Provider

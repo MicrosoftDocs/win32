@@ -1,8 +1,18 @@
 ---
 title: Trackbar Type
 description: Trackbar Type
-ms.assetid: 'b55df7d8-56e3-4daf-8041-10fb0d71e8b1'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "reference for skins,trackbars", "trackbars in skins,types", "thumb,trackbar type"]
+ms.assetid: b55df7d8-56e3-4daf-8041-10fb0d71e8b1
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- reference for skins,trackbars
+- trackbars in skins,types
+- thumb,trackbar type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbar Type

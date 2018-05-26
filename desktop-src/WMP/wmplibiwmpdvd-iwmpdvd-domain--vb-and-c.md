@@ -1,8 +1,11 @@
 ---
 title: IWMPDVD domain property
 description: The domain property gets the current domain of the DVD.
-ms.assetid: '0b7b39fe-2b04-44e2-aa5e-cab7be9a06b1'
-keywords: ["domain property Windows Media Player", "domain property Windows Media Player , IWMPDVD interface", "IWMPDVD interface Windows Media Player , domain property"]
+ms.assetid: 0b7b39fe-2b04-44e2-aa5e-cab7be9a06b1
+keywords:
+- domain property Windows Media Player
+- domain property Windows Media Player , IWMPDVD interface
+- IWMPDVD interface Windows Media Player , domain property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD::domain property
@@ -61,7 +69,7 @@ A **System.String** that is one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,9 +94,9 @@ Every DVD is authored differently. Some DVDs do not contain the firstPlay, video
 [**IWMPDVD Interface (VB and C#)**](iwmpdvd--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

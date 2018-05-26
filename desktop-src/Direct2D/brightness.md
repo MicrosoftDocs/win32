@@ -1,8 +1,14 @@
 ---
 title: Brightness effect
 description: Use the brightness effect to control the brightness of the image.
-ms.assetid: '5088D4D4-DFC8-45D3-B1C3-D576742D931C'
-keywords: ["brightness effect"]
+ms.assetid: 5088D4D4-DFC8-45D3-B1C3-D576742D931C
+keywords:
+- brightness effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Brightness effect
@@ -29,7 +35,7 @@ The CLSID for this effect is CLSID\_D2D1Brightness.
 
 
 
- 
+ 
 
 
 ```C++
@@ -56,7 +62,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 This effect uses the specified white and black points to generate a transfer function used to adjust the bitmap. The next equation describes the transfer function. The input intensities are defined between 0 and 1.
 
@@ -89,25 +95,25 @@ The output bitmap size is the same as the input bitmap size.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

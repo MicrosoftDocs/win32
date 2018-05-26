@@ -1,7 +1,12 @@
 ---
 title: VML Print Attribute
 description: VML Print Attribute
-ms.assetid: 'ef9f9f11-782a-40db-986c-946d9ee03071'
+ms.assetid: ef9f9f11-782a-40db-986c-946d9ee03071
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Print Attribute

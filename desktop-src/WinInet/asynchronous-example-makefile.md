@@ -1,7 +1,12 @@
 ---
 title: Asynchronous Example Makefile
 description: The following is the makefile for the asynchronous example application.
-ms.assetid: '5d5b5578-6a2e-4311-9bf7-9b7818eb23ea'
+ms.assetid: 5d5b5578-6a2e-4311-9bf7-9b7818eb23ea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Example Makefile

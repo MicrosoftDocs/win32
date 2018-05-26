@@ -1,7 +1,12 @@
 ---
-Description: 'Speech mode support for the audio device. If VARIANT\_TRUE the device supports speech mode.'
-ms.assetid: '1ed8b831-df74-4612-aeef-009160325248'
-title: 'System.Devices.AudioDevice.SpeechProcessingSupported'
+Description: Speech mode support for the audio device. If VARIANT\_TRUE the device supports speech mode.
+ms.assetid: 1ed8b831-df74-4612-aeef-009160325248
+title: System.Devices.AudioDevice.SpeechProcessingSupported
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AudioDevice.SpeechProcessingSupported

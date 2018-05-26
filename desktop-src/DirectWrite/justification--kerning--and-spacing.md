@@ -1,7 +1,12 @@
 ---
 title: Justification, Kerning, and Spacing
 description: Starting with Windows 8, DirectWrite provides a number of features that allow you to control basic typographic, layout, and spacing features, such as character spacing, pair kerning, and justification.
-ms.assetid: 'A5397132-0806-4842-8B82-E17925FBBBA9'
+ms.assetid: A5397132-0806-4842-8B82-E17925FBBBA9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Justification, Kerning, and Spacing
@@ -18,13 +23,13 @@ Here is an example of tracking. The first line applies no tracking to the text. 
 
 Starting with Windows 8, [DirectWrite](direct-write-portal.md) adds these methods here to control the spacing of characters in your text.
 
-If you are using the [DirectWrite](direct-write-portal.md) layout, you can use the [**IDWriteTextLayout1::GetCharacterSpacing**](idwritetextlayout1-getcharacterspacing.md) and [**IDWriteTextLayout1::SetCharacterSpacing**](idwritetextlayout1-setcharacterspacing.md) methods for this purpose.
+If you are using the [DirectWrite](direct-write-portal.md) layout, you can use the [**IDWriteTextLayout1::GetCharacterSpacing**](/windows/win32/dwrite_1/?branch=master) and [**IDWriteTextLayout1::SetCharacterSpacing**](/windows/win32/dwrite_1/?branch=master) methods for this purpose.
 
-Use the [**GetCharacterSpacing**](idwritetextlayout1-getcharacterspacing.md) method to determine the current character spacing and it returns the current character, the spacing before and after the character, the minimum advance width, and a [**DWRITE\_TEXT\_RANGE**](dwrite-text-range.md) structure that contains information about the starting position and length of the remaining text.
+Use the [**GetCharacterSpacing**](/windows/win32/dwrite_1/?branch=master) method to determine the current character spacing and it returns the current character, the spacing before and after the character, the minimum advance width, and a [**DWRITE\_TEXT\_RANGE**](/windows/win32/dwrite/ns-dwrite-dwrite_text_range?branch=master) structure that contains information about the starting position and length of the remaining text.
 
-Use the [**SetCharacterSpacing**](idwritetextlayout1-setcharacterspacing.md) on a [**DWriteTextLayout1**](idwritetextlayout1.md) interface to apply your own character spacing to the text in the layout. The **SetCharacterSpacing** method takes in the amount of space you want before and after the character, the minimum advance allowed, and a [**DWRITE\_TEXT\_RANGE**](dwrite-text-range.md) that defines the range to apply the spacing.
+Use the [**SetCharacterSpacing**](/windows/win32/dwrite_1/?branch=master) on a [**DWriteTextLayout1**](/windows/win32/dwrite_1/?branch=master) interface to apply your own character spacing to the text in the layout. The **SetCharacterSpacing** method takes in the amount of space you want before and after the character, the minimum advance allowed, and a [**DWRITE\_TEXT\_RANGE**](/windows/win32/dwrite/ns-dwrite-dwrite_text_range?branch=master) that defines the range to apply the spacing.
 
-If you are using a custom layout, [DirectWrite](direct-write-portal.md) has support for setting character spacing with [**IDWriteTextAnalyzer1::ApplyCharacterSpacing**](idwritetextanalyzer1-applycharacterspacing.md). Use this method if you require a custom text layout in order to have advanced control over your layout. This method allows you to provide **ApplyCharacterSpacing** with the leading and trailing spacing, minimum advance width, length of the cluster map, number of glyphs, mapping from character ranges to glyphs, and advance width of each glyph if you use a custom layout. The method returns the modified glyph advances and a [**DWRITE\_GLYPH\_OFFSET**](dwrite-glyph-offset.md) enumeration with the new offsets to the origin of each glyph.
+If you are using a custom layout, [DirectWrite](direct-write-portal.md) has support for setting character spacing with [**IDWriteTextAnalyzer1::ApplyCharacterSpacing**](/windows/win32/dwrite_1/?branch=master). Use this method if you require a custom text layout in order to have advanced control over your layout. This method allows you to provide **ApplyCharacterSpacing** with the leading and trailing spacing, minimum advance width, length of the cluster map, number of glyphs, mapping from character ranges to glyphs, and advance width of each glyph if you use a custom layout. The method returns the modified glyph advances and a [**DWRITE\_GLYPH\_OFFSET**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_offset?branch=master) enumeration with the new offsets to the origin of each glyph.
 
 ## Kerning
 
@@ -36,11 +41,11 @@ The image her is an example of kerning. The word AVATAR on the top line is kerne
 
 The character advances between pairs of characters that the font kerns are stored in the kern table and [DirectWrite](direct-write-portal.md) parses that table and returns the information to you through the kerning APIs.
 
-If you want to know whether or not a font supports pair kerning, you can use the [**IDWriteFontFace1::HasKerningPairs**](idwritefontface1-haskerningpairs.md) method. This method returns a bool value of 1 if the font supports kerning pairs.
+If you want to know whether or not a font supports pair kerning, you can use the [**IDWriteFontFace1::HasKerningPairs**](/windows/win32/dwrite_1/?branch=master) method. This method returns a bool value of 1 if the font supports kerning pairs.
 
-The [**IDWriteFontFace1**](idwritefontface1.md) also has a method that allows you to get access to the kerning pair adjustments for glyph indices. [**GetKerningPairAdjustments**](idwritefontface1-getkerningpairadjustments.md) allows you to input an array of glyph indices and [DirectWrite](direct-write-portal.md) returns an array of glyph advance adjustments. If a font doesn't support the kern table, the method returns zeroes for the glyph advance adjustments.
+The [**IDWriteFontFace1**](/windows/win32/dwrite_1/?branch=master) also has a method that allows you to get access to the kerning pair adjustments for glyph indices. [**GetKerningPairAdjustments**](/windows/win32/dwrite_1/?branch=master) allows you to input an array of glyph indices and [DirectWrite](direct-write-portal.md) returns an array of glyph advance adjustments. If a font doesn't support the kern table, the method returns zeroes for the glyph advance adjustments.
 
-If you are using the [DirectWrite](direct-write-portal.md) layout, there are two methods on the [**IDWriteTextLayout1**](idwritetextlayout1.md) interface that allow you to set pair kerning and learn more about pair kerning in the layout. The [**SetPairKerning**](idwritetextlayout1-setpairkerning.md) method takes in a Boolean representation of whether or not you want pair kerning enabled and a [**DWRITE\_TEXT\_RANGE**](dwrite-text-range.md) that defines the range of text to apply it to. If you want to learn whether or not pair kerning is enabled on a text range you can use the [**GetPairKerning**](idwritetextlayout1-getpairkerning.md) method, which takes in the current position and returns a bool corresponding to whether or not pair kerning is enabled, and the text range that the kerning setting applies to.
+If you are using the [DirectWrite](direct-write-portal.md) layout, there are two methods on the [**IDWriteTextLayout1**](/windows/win32/dwrite_1/?branch=master) interface that allow you to set pair kerning and learn more about pair kerning in the layout. The [**SetPairKerning**](/windows/win32/dwrite_1/?branch=master) method takes in a Boolean representation of whether or not you want pair kerning enabled and a [**DWRITE\_TEXT\_RANGE**](/windows/win32/dwrite/ns-dwrite-dwrite_text_range?branch=master) that defines the range of text to apply it to. If you want to learn whether or not pair kerning is enabled on a text range you can use the [**GetPairKerning**](/windows/win32/dwrite_1/?branch=master) method, which takes in the current position and returns a bool corresponding to whether or not pair kerning is enabled, and the text range that the kerning setting applies to.
 
 ## Justification
 
@@ -50,15 +55,15 @@ Justification is the process of aligning text so that it fills all the space wit
 
 Starting with Windows 8, [DirectWrite](direct-write-portal.md) has a number of methods that allow you to justify text in your apps.
 
-There is an additional value in the [**DWRITE\_TEXT\_ALIGNMENT**](dwrite-text-alignment.md) enumeration. You can use the [**SetTextAlignment**](idwritetextformat-settextalignment.md) method and pass in the **DWRITE\_TEXT\_ALIGNMENT\_JUSTIFIED** constant and [DirectWrite](direct-write-portal.md) justifies the text and inserts the appropriate justification character for the script.
+There is an additional value in the [**DWRITE\_TEXT\_ALIGNMENT**](/windows/win32/dwrite/ne-dwrite-dwrite_text_alignment?branch=master) enumeration. You can use the [**SetTextAlignment**](/windows/win32/dwrite/?branch=master) method and pass in the **DWRITE\_TEXT\_ALIGNMENT\_JUSTIFIED** constant and [DirectWrite](direct-write-portal.md) justifies the text and inserts the appropriate justification character for the script.
 
-If you are using a custom layout have a number of methods available so you can take advantage of justification. [DirectWrite](direct-write-portal.md) has three methods on the [**IDWriteTextAnalyzer1**](idwritetextanalyzer1.md) interface that you can use to add justification to a custom layout.
+If you are using a custom layout have a number of methods available so you can take advantage of justification. [DirectWrite](direct-write-portal.md) has three methods on the [**IDWriteTextAnalyzer1**](/windows/win32/dwrite_1/?branch=master) interface that you can use to add justification to a custom layout.
 
-The first method is [**GetJustificationOpportunities**](idwritetextanalyzer1-getjustificationopportunities.md), which takes in the text that you want to justify and returns a [**DWRITE\_JUSTIFICATION\_OPPORTUNITY**](dwrite-justification-opportunity.md) structure that outlines where justification characters can be added to justify the text.
+The first method is [**GetJustificationOpportunities**](/windows/win32/dwrite_1/?branch=master), which takes in the text that you want to justify and returns a [**DWRITE\_JUSTIFICATION\_OPPORTUNITY**](/windows/win32/Dwrite_1/ns-dwrite_1-dwrite_justification_opportunity?branch=master) structure that outlines where justification characters can be added to justify the text.
 
-The second function is [**JustifyGlyphAdvances**](idwritetextanalyzer1-justifyglyphadvances.md), which justifies an array of glyph advances so that they fit the line width. This method takes in the [**DWRITE\_JUSTIFICATION\_OPPORTUNITY**](dwrite-justification-opportunity.md) structure that [**GetJustificationOpportunities**](idwritetextanalyzer1-getjustificationopportunities.md) generates, the glyph advances, and the glyph offsets. It then generates the justified glyph advances and a [**DWRITE\_GLYPH\_OFFSET**](dwrite-glyph-offset.md) enumeration that contains the justified glyph offsets.
+The second function is [**JustifyGlyphAdvances**](/windows/win32/dwrite_1/?branch=master), which justifies an array of glyph advances so that they fit the line width. This method takes in the [**DWRITE\_JUSTIFICATION\_OPPORTUNITY**](/windows/win32/Dwrite_1/ns-dwrite_1-dwrite_justification_opportunity?branch=master) structure that [**GetJustificationOpportunities**](/windows/win32/dwrite_1/?branch=master) generates, the glyph advances, and the glyph offsets. It then generates the justified glyph advances and a [**DWRITE\_GLYPH\_OFFSET**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_offset?branch=master) enumeration that contains the justified glyph offsets.
 
-The third function is [**GetJustifiedGlyphs**](idwritetextanalyzer1-getjustifiedglyphs.md), which fills in the new glyphs for complex scripts where justification has increased the advances for glyphs. **GetJustifiedGlyphs** only needs to be called if the script has a specific justification character as returned by [**GetScriptProperties**](idwritetextanalyzer1-getscriptproperties.md). This method takes in information about the font, length of the text, em size of the glyphs, script of the text, number of glyphs, cluster map, original glyph advances/offsets, justified glyph advances/offsets, and glyph properties. The method returns the actual glyph count, updated cluster map, updated glyph indices with inserted justification glyphs, updated glyph offsets, and updated glyph advances.
+The third function is [**GetJustifiedGlyphs**](/windows/win32/dwrite_1/?branch=master), which fills in the new glyphs for complex scripts where justification has increased the advances for glyphs. **GetJustifiedGlyphs** only needs to be called if the script has a specific justification character as returned by [**GetScriptProperties**](/windows/win32/dwrite_1/?branch=master). This method takes in information about the font, length of the text, em size of the glyphs, script of the text, number of glyphs, cluster map, original glyph advances/offsets, justified glyph advances/offsets, and glyph properties. The method returns the actual glyph count, updated cluster map, updated glyph indices with inserted justification glyphs, updated glyph offsets, and updated glyph advances.
 
  
 

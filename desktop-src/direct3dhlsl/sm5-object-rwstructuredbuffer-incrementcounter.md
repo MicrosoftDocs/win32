@@ -1,8 +1,9 @@
 ---
 title: IncrementCounter function
-description: Increments the object's hidden counter.
-ms.assetid: '66385d4f-6db8-49ae-a73a-49089695f5ee'
-keywords: ["IncrementCounter function HLSL"]
+description: Increments the objects hidden counter.
+ms.assetid: 66385d4f-6db8-49ae-a73a-49089695f5ee
+keywords:
+- IncrementCounter function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - httpserv.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IncrementCounter function
@@ -49,7 +55,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,9 +77,9 @@ This function is supported for the following types of shaders:
 [Shader Model 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

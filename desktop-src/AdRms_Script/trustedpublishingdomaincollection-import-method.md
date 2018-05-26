@@ -1,13 +1,16 @@
 ---
-Description: 'Imports an external trusted publishing domain into the collection.'
+Description: Imports an external trusted publishing domain into the collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '9ab03770-e7aa-4f97-9203-294629df4fec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 9ab03770-e7aa-4f97-9203-294629df4fec
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedPublishingDomainCollection.Import method'
+title: TrustedPublishingDomainCollection.Import method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedPublishingDomainCollection.Import method
@@ -164,7 +167,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -176,9 +179,9 @@ END SUB
 [**TrustedPublishingDomainCollection**](trustedpublishingdomaincollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

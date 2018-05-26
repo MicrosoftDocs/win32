@@ -1,14 +1,20 @@
 ---
 title: titleNum Attribute
 description: The titleNum attribute is the DVD title number.
-ms.assetid: '9aa38d1a-0743-4c14-9d05-4f2a2068600e'
-keywords: ["titleNum Attribute Windows Media Player"]
+ms.assetid: 9aa38d1a-0743-4c14-9d05-4f2a2068600e
+keywords:
+- titleNum Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - titleNum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # titleNum Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a transparent bridging service with an entry of its forwarding database.'
-ms.assetid: '6db93e71-c9b7-4710-a9ee-99a1055cfd82'
-title: 'CIM\_TransparentBridgingDynamicForwarding class'
+Description: Associates a transparent bridging service with an entry of its forwarding database.
+ms.assetid: 6db93e71-c9b7-4710-a9ee-99a1055cfd82
+title: CIM\_TransparentBridgingDynamicForwarding class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_TransparentBridgingDynamicForwarding class
@@ -15,7 +20,7 @@ Associates a transparent bridging service with an entry of its forwarding databa
 class CIM_TransparentBridgingDynamicForwarding : CIM_Dependency
 {
   CIM_TransparentBridgingService REF Antecedent;
-  CIM_DynamicForwardingEntry     REF Dependent;
+  CIM_DynamicForwardingEntry     REF Dependent;
 };
 ```
 
@@ -69,8 +74,8 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

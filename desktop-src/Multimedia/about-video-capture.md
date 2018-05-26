@@ -1,8 +1,15 @@
 ---
 title: About Video Capture
 description: About Video Capture
-ms.assetid: '1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5'
-keywords: ["Video for Windows (VFW),video capture", "VFW (Video for Windows),video capture"]
+ms.assetid: 1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5
+keywords:
+- Video for Windows (VFW),video capture
+- VFW (Video for Windows),video capture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Video Capture

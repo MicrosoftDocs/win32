@@ -1,14 +1,20 @@
 ---
 title: abs
 description: Returns the absolute value of the specified value.
-ms.assetid: '8c4cfd8f-8aac-4db3-8247-ce2bbf501e80'
-keywords: ["abs HLSL"]
+ms.assetid: 8c4cfd8f-8aac-4db3-8247-ce2bbf501e80
+keywords:
+- abs HLSL
 topic_type:
 - apiref
 api_name:
 - abs
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # abs
@@ -22,7 +28,7 @@ Returns the absolute value of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the absolute value of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The absolute value of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

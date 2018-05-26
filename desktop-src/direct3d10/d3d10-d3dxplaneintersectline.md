@@ -1,7 +1,12 @@
-﻿---
-Description: 'Finds the intersection between a plane and a line.'
-ms.assetid: 'aea1c4e1-f8c0-46df-bb33-2b517396d69e'
+---
+Description: Finds the intersection between a plane and a line.
+ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: D3DXPlaneIntersectLine function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPlaneIntersectLine function

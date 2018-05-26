@@ -1,7 +1,12 @@
 ---
 title: Color Picker Properties
 description: Reference documentation on property keys for the Ribbon framework Drop-Down Color Picker.
-ms.assetid: 'b1c3eead-d200-46b4-92fc-47bcd5e28542'
+ms.assetid: b1c3eead-d200-46b4-92fc-47bcd5e28542
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Picker Properties
@@ -27,7 +32,7 @@ Reference documentation on property keys for the Ribbon framework [Drop-Down Col
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +44,9 @@ Reference documentation on property keys for the Ribbon framework [Drop-Down Col
 [DropDownColorPicker Sample](windowsribbon-dropdowncolorpickersample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

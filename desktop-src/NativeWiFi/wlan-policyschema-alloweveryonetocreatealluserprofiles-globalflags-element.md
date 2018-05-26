@@ -1,14 +1,19 @@
-﻿---
-Description: 'Specifies whether any user can create an all-user profile.'
-ms.assetid: 'b9bdfe85-b9d5-4dcc-a7f8-05cce9702ec3'
-title: 'allowEveryoneToCreateAllUserProfiles (globalFlags) Element'
+---
+Description: Specifies whether any user can create an all-user profile.
+ms.assetid: b9bdfe85-b9d5-4dcc-a7f8-05cce9702ec3
+title: allowEveryoneToCreateAllUserProfiles (globalFlags) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # allowEveryoneToCreateAllUserProfiles (globalFlags) Element
 
 The **allowEveryoneToCreateAllUserProfiles** (globalFlags) element specifies whether any user can create an all-user profile. An all-user profile can be used by any user on the machine to connect to the wireless network associated with the profile.
 
-If **allowEveryoneToCreateAllUserProfiles** is TRUE, than any user can create an all-user profile. If **allowEveryoneToCreateAllUserProfiles** is FALSE, then not all users can create an all-user profile, and there is a DACL associated with the wlan\_secure\_add\_new\_all\_user\_profiles security object that specifies the users or user groups with permission to create all-user profiles. The default DACL specifies that only users that are logged on as a member of the Administrators group can create an all-user profile. The default security settings can be changed by calling [**WlanSetSecuritySettings**](wlansetsecuritysettings.md). To get the current security settings, call [**WlanGetSecuritySettings**](wlangetsecuritysettings.md).
+If **allowEveryoneToCreateAllUserProfiles** is TRUE, than any user can create an all-user profile. If **allowEveryoneToCreateAllUserProfiles** is FALSE, then not all users can create an all-user profile, and there is a DACL associated with the wlan\_secure\_add\_new\_all\_user\_profiles security object that specifies the users or user groups with permission to create all-user profiles. The default DACL specifies that only users that are logged on as a member of the Administrators group can create an all-user profile. The default security settings can be changed by calling [**WlanSetSecuritySettings**](/windows/win32/wlanapi/nf-wlanapi-wlansetsecuritysettings?branch=master). To get the current security settings, call [**WlanGetSecuritySettings**](/windows/win32/wlanapi/nf-wlanapi-wlangetsecuritysettings?branch=master).
 
 This element is mandatory. When a profile is created by the AutoConfig service, this element will have the default value of TRUE.
 

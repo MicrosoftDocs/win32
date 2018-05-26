@@ -1,7 +1,12 @@
 ---
 Description: COM+ Partitions Concepts
-ms.assetid: '9fc35bef-ecc1-4764-bf69-ec89560daff4'
+ms.assetid: 9fc35bef-ecc1-4764-bf69-ec89560daff4
 title: COM+ Partitions Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Partitions Concepts

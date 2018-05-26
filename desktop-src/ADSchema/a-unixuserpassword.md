@@ -4,17 +4,21 @@ description: Contains a user password that is compatible with a UNIX system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9a5f900f-b4e2-4c95-81e9-e5a9e2823e08'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9a5f900f-b4e2-4c95-81e9-e5a9e2823e08
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["unixUserPassword attribute AD Schema"]
+keywords:
+- unixUserPassword attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - unixUserPassword
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # unixUserPassword attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckTime method determines if a specified time is due.'
-ms.assetid: '522bc7ae-f998-4a7d-8bc3-caf09b4108a6'
-title: 'CCmdQueue.CheckTime method'
+Description: The CheckTime method determines if a specified time is due.
+ms.assetid: 522bc7ae-f998-4a7d-8bc3-caf09b4108a6
+title: CCmdQueue.CheckTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.CheckTime method
@@ -13,8 +18,8 @@ The `CheckTime` method determines if a specified time is due.
 
 ```C++
 BOOL CheckTime(
-   CRefTime time,
-   BOOL     bStream
+   CRefTime time,
+   BOOL     bStream
 );
 ```
 
@@ -60,9 +65,9 @@ Returns **TRUE** if the specified time has not yet passed.
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

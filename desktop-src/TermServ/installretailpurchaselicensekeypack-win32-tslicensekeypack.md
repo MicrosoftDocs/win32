@@ -4,11 +4,14 @@ description: Installs a Remote Desktop Services license key pack that was purcha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cd33c785-7aa1-4e30-8155-4176b6f4c037'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cd33c785-7aa1-4e30-8155-4176b6f4c037
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["InstallRetailPurchaseLicenseKeyPack method Remote Desktop Services", "InstallRetailPurchaseLicenseKeyPack method Remote Desktop Services , Win32_TSLicenseKeyPack class", "Win32_TSLicenseKeyPack class Remote Desktop Services , InstallRetailPurchaseLicenseKeyPack method"]
+keywords:
+- InstallRetailPurchaseLicenseKeyPack method Remote Desktop Services
+- InstallRetailPurchaseLicenseKeyPack method Remote Desktop Services , Win32_TSLicenseKeyPack class
+- Win32_TSLicenseKeyPack class Remote Desktop Services , InstallRetailPurchaseLicenseKeyPack method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallRetailPurchaseLicenseKeyPack method of the Win32\_TSLicenseKeyPack class
@@ -28,8 +34,8 @@ Installs a Remote Desktop Services license key pack that was purchased through a
 
 ```mof
 uint32 InstallRetailPurchaseLicenseKeyPack(
-  [in]  string sLicenseCode,
-  [out] uint32 KeyPackId
+  [in]  string sLicenseCode,
+  [out] uint32 KeyPackId
 );
 ```
 
@@ -70,7 +76,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseKeyPack**](win32-tslicensekeypack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the DVD Navigator processes a DVD navigation command.'
-ms.assetid: '95e502b6-330f-4bc7-8adc-851913987370'
-title: 'EC\_DVD\_NavigationCommand'
+Description: Sent when the DVD Navigator processes a DVD navigation command.
+ms.assetid: 95e502b6-330f-4bc7-8adc-851913987370
+title: EC\_DVD\_NavigationCommand
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_NavigationCommand
@@ -28,7 +33,7 @@ The upper 32 bits of the raw navigation command.
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
 
 ## Requirements
 
@@ -53,9 +58,9 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

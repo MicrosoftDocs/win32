@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides progress and other notifications during a transfer.'
-ms.assetid: '0faba0f8-b318-4c47-85e0-5ce128fe1c82'
-title: 'IWiaTransferCallback::TransferCallback method'
+---
+Description: Provides progress and other notifications during a transfer.
+ms.assetid: 0faba0f8-b318-4c47-85e0-5ce128fe1c82
+title: IWiaTransferCallbackTransferCallback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaTransferCallback::TransferCallback method

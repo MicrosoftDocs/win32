@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '93c10b75-2071-46fa-9ff0-57b317f53af8'
-title: 'System.Contact.ConnectedServiceSupportedActions'
+Description: .
+ms.assetid: 93c10b75-2071-46fa-9ff0-57b317f53af8
+title: System.Contact.ConnectedServiceSupportedActions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.ConnectedServiceSupportedActions

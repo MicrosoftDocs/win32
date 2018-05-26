@@ -1,7 +1,12 @@
 ---
 title: MSVidAudioRendererDevices
 description: MSVidAudioRendererDevices
-ms.assetid: '2cf03260-7abe-4602-8364-447d076a4f76'
+ms.assetid: 2cf03260-7abe-4602-8364-447d076a4f76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidAudioRendererDevices
@@ -14,7 +19,7 @@ The **MSVidAudioRendererDevices** object represents a collection of audio render
 
 |                           |                                                                  |
 |---------------------------|------------------------------------------------------------------|
-| Interfaces                | [**IMSVidAudioRendererDevices**](imsvidaudiorendererdevices.md) |
+| Interfaces                | [**IMSVidAudioRendererDevices**](/windows/win32/segment/nn-segment-imsvidaudiorendererdevices?branch=master) |
 | Outgoing Event Interfaces | None.                                                            |
 
 
@@ -23,7 +28,7 @@ The **MSVidAudioRendererDevices** object represents a collection of audio render
 
 ## Remarks
 
-You can obtain this object by calling the [**IMSVidCtl::get\_AudioRenderersAvailable**](imsvidctl-get-audiorenderersavailable.md) method.
+You can obtain this object by calling the [**IMSVidCtl::get\_AudioRenderersAvailable**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable?branch=master) method.
 
 ## Related topics
 

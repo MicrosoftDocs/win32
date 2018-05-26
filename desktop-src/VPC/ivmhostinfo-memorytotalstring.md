@@ -1,8 +1,11 @@
 ---
 title: IVMHostInfo MemoryTotalString property
 description: Retrieves the total amount of physical memory in the host machine, in megabytes, as a string.
-ms.assetid: '732c62e5-2776-4551-909f-7ddab74e067d'
-keywords: ["MemoryTotalString property Virtual PC", "MemoryTotalString property Virtual PC , IVMHostInfo interface", "IVMHostInfo interface Virtual PC , MemoryTotalString property"]
+ms.assetid: 732c62e5-2776-4551-909f-7ddab74e067d
+keywords:
+- MemoryTotalString property Virtual PC
+- MemoryTotalString property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , MemoryTotalString property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::MemoryTotalString property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the total amount of physical memory in the host machine, in megabytes, as a string.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MemoryTotalString(
-  [out, retval] BSTR *megabytesOfMemory
+  [out, retval] BSTR *megabytesOfMemory
 );
 ```
 
@@ -55,9 +63,9 @@ The total amount of physical memory, in megabytes.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
@@ -71,9 +79,9 @@ The total amount of physical memory, in megabytes.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

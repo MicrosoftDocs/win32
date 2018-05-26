@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the current AC and DC backlight levels and the current power state.'
-ms.assetid: 'c7b7c302-6e92-46a7-b9a6-e3f2a3e44d1b'
-title: 'IOCTL\_VIDEO\_QUERY\_DISPLAY\_BRIGHTNESS control code'
+Description: Retrieves the current AC and DC backlight levels and the current power state.
+ms.assetid: c7b7c302-6e92-46a7-b9a6-e3f2a3e44d1b
+title: IOCTL\_VIDEO\_QUERY\_DISPLAY\_BRIGHTNESS control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_VIDEO\_QUERY\_DISPLAY\_BRIGHTNESS control code
 
-\[This control code is available for use in the operating systems specified in the Requirements section. Support for this control code was removed in Windows Server 2008 and Windows Vista. Use the [**WmiMonitorBrightness**](https://msdn.microsoft.com/library/windows/desktop/aa394536) class instead.\]
+\[This control code is available for use in the operating systems specified in the Requirements section. Support for this control code was removed in Windows Server 2008 and Windows Vista. Use the [**WmiMonitorBrightness**](https://msdn.microsoft.com/library/windows/desktop/aa394536) class instead.\]
 
 Retrieves the current AC and DC backlight levels and the current power state.
 
@@ -63,7 +68,7 @@ Not used with this operation; set to zero.
 *lpOutBuffer* 
 </dt> <dd>
 
-A pointer to a buffer that will receive a [**DISPLAY\_BRIGHTNESS**](display-brightness.md) structure.
+A pointer to a buffer that will receive a [**DISPLAY\_BRIGHTNESS**](/windows/win32/WinNT/?branch=master) structure.
 
 </dd> <dt>
 
@@ -123,10 +128,10 @@ Alternatively, you can define this control code as follows:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP with SP2<br/>                                                        |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP with SP2<br/>                                                        |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Ntddvdeo.h</dt> </dl> |
 
 
@@ -141,15 +146,15 @@ Alternatively, you can define this control code as follows:
 [**DeviceIoControl**](https://msdn.microsoft.com/library/windows/desktop/aa363216)
 </dt> <dt>
 
-[**DISPLAY\_BRIGHTNESS**](display-brightness.md)
+[**DISPLAY\_BRIGHTNESS**](/windows/win32/WinNT/?branch=master)
 </dt> <dt>
 
 [**IOCTL\_VIDEO\_SET\_DISPLAY\_BRIGHTNESS**](ioctl-video-set-display-brightness.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

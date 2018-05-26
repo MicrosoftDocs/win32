@@ -1,7 +1,12 @@
 ---
-Description: 'Links an IPsec rule to its auth and crypto sets.'
-ms.assetid: '10a0bd87-3762-4f43-b67d-22ac30db0eb1'
-title: 'MSFT\_NetSAActionInSARule class'
+Description: Links an IPsec rule to its auth and crypto sets.
+ms.assetid: 10a0bd87-3762-4f43-b67d-22ac30db0eb1
+title: MSFT\_NetSAActionInSARule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSAActionInSARule class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetSAActionInSARule : CIM_PolicyActionInPolicyRule
 {
-  CIM_SARule   REF GroupComponent;
+  CIM_SARule   REF GroupComponent;
   CIM_SAAction REF PartComponent;
-  uint16           ActionOrder;
+  uint16           ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The auth/crypto sets.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

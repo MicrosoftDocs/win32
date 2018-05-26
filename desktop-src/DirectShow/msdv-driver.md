@@ -1,7 +1,12 @@
 ---
 Description: MSDV Driver
-ms.assetid: 'f0723da5-4f53-4f83-a657-ae42815a784e'
+ms.assetid: f0723da5-4f53-4f83-a657-ae42815a784e
 title: MSDV Driver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSDV Driver
@@ -17,7 +22,7 @@ MSDV has two output pins. One pin delivers DV frames that contain interleaved au
 
 ![capturing dv data from the device](images/dv-filters4.png)
 
-Most DV camcorders have a video tape recorder (VTR) subunit, which can transmit data from tape to the computer. For the application, capturing from tape works the same as capturing live video. The only difference is that the application must control the external tape transport — start and stop the tape, rewind, and so forth. For this purpose, MSDV exposes the [**IAMExtDevice**](iamextdevice.md), [**IAMExtTransport**](iamexttransport.md), and [**IAMTimecodeReader**](iamtimecodereader.md) interfaces. For more information about controlling a VTR, see [Controlling a DV Camcorder](controlling-a-dv-camcorder.md).
+Most DV camcorders have a video tape recorder (VTR) subunit, which can transmit data from tape to the computer. For the application, capturing from tape works the same as capturing live video. The only difference is that the application must control the external tape transport — start and stop the tape, rewind, and so forth. For this purpose, MSDV exposes the [**IAMExtDevice**](/windows/win32/Strmif/nn-strmif-iamextdevice?branch=master), [**IAMExtTransport**](/windows/win32/Strmif/nn-strmif-iamexttransport?branch=master), and [**IAMTimecodeReader**](/windows/win32/Strmif/nn-strmif-iamtimecodereader?branch=master) interfaces. For more information about controlling a VTR, see [Controlling a DV Camcorder](controlling-a-dv-camcorder.md).
 
 You can also transmit DV from the computer to the camcorder. The video can then be viewed in the camcorder's onboard screen, or recorded to tape. To support this functionality, MSDV has an input pin that can receive an interleaved DV stream. When the input pin is connected, MSDV acts as a renderer filter instead of a capture filter. MSDV does not support seeking in this mode. For more information about sending DV to the device, see [Transmit DV from File to Tape](transmit-dv-from-file-to-tape.md).
 
@@ -33,8 +38,8 @@ For information about which DV formats are supported by the MSDV driver, see [**
 
 Some tips on building filter graphs with MSDV:
 
--   You cannot use [**IGraphBuilder::Render**](igraphbuilder-render.md) to render an output pin on MSDV. (The Filter Graph Manager tries to connect the output pin to MSDV's input pin, which fails.) Instead, use [**IGraphBuilder::Connect**](igraphbuilder-connect.md) or [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md).
--   When a filter graph contains MSDV, MSDV should supply the reference clock for the graph. As of DirectX 8.0, the Filter Graph Manager will automatically choose MSDV as the reference clock. With earlier versions, you should call the [**IMediaFilter::SetSyncSource**](imediafilter-setsyncsource.md) method on the Filter Graph Manager. For more information about clocks, see [Time and Clocks in DirectShow](time-and-clocks-in-directshow.md).
+-   You cannot use [**IGraphBuilder::Render**](/windows/win32/Strmif/nf-strmif-igraphbuilder-render?branch=master) to render an output pin on MSDV. (The Filter Graph Manager tries to connect the output pin to MSDV's input pin, which fails.) Instead, use [**IGraphBuilder::Connect**](/windows/win32/Strmif/nf-strmif-igraphbuilder-connect?branch=master) or [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master).
+-   When a filter graph contains MSDV, MSDV should supply the reference clock for the graph. As of DirectX 8.0, the Filter Graph Manager will automatically choose MSDV as the reference clock. With earlier versions, you should call the [**IMediaFilter::SetSyncSource**](/windows/win32/Strmif/nf-strmif-imediafilter-setsyncsource?branch=master) method on the Filter Graph Manager. For more information about clocks, see [Time and Clocks in DirectShow](time-and-clocks-in-directshow.md).
 -   Depending on the device, some methods in **IAMExtDevice**, **IAMExtTransport**, and **IAMTimeCodeReader** might return Windows error codes instead of **HRESULT** values. Possible error codes include the following.
 
     | Error Code              | Description                                                                                      |
@@ -58,7 +63,7 @@ For more information about device monikers, see [Using the System Device Enumera
 
 The MSDV driver uses the 1394 bus clock that is contained in the 1394 data packets to derive the clock. It uses these values to time stamp the DV media samples. Because this source clock is not the computer system clock, the times will eventually drift from the computer system clock. As noted above, however, by default the Filter Graph Manager will select MSDV as the graph reference clock.
 
-The [**IAMDroppedFrames**](iamdroppedframes.md) interface reports the driver's current measure of dropped frames; this value may not be perfectly synchronized with the actual number of dropped frames at a given time. If frames are dropped, it indicates that the system is not balanced (data production exceeds data consumption). For example, the user's hard disk may not be fast enough to support DV capture rates.
+The [**IAMDroppedFrames**](/windows/win32/Strmif/nn-strmif-iamdroppedframes?branch=master) interface reports the driver's current measure of dropped frames; this value may not be perfectly synchronized with the actual number of dropped frames at a given time. If frames are dropped, it indicates that the system is not balanced (data production exceeds data consumption). For example, the user's hard disk may not be fast enough to support DV capture rates.
 
 ## Related topics
 

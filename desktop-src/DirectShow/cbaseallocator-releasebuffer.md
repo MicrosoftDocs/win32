@@ -1,19 +1,24 @@
 ---
-Description: 'The ReleaseBuffer method returns a media sample to the list of free media samples. This method implements the IMemAllocator::ReleaseBuffer method.'
-ms.assetid: '35e4e426-044c-4e57-af13-2fddf8501db7'
-title: 'CBaseAllocator.ReleaseBuffer method'
+Description: The ReleaseBuffer method returns a media sample to the list of free media samples. This method implements the IMemAllocatorReleaseBuffer method.
+ms.assetid: 35e4e426-044c-4e57-af13-2fddf8501db7
+title: CBaseAllocator.ReleaseBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.ReleaseBuffer method
 
-The `ReleaseBuffer` method returns a media sample to the list of free media samples. This method implements the [**IMemAllocator::ReleaseBuffer**](imemallocator-releasebuffer.md) method.
+The `ReleaseBuffer` method returns a media sample to the list of free media samples. This method implements the [**IMemAllocator::ReleaseBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-releasebuffer?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ReleaseBuffer(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT ReleaseBuffer(
 *pSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the media sample object.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the media sample object.
 
 </dd> </dl>
 
@@ -61,9 +66,9 @@ When a media sample's reference count reaches zero, the sample calls **ReleaseBu
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

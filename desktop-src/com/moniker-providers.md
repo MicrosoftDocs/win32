@@ -1,7 +1,12 @@
 ---
 title: Moniker Providers
 description: Moniker Providers
-ms.assetid: '4d4820d2-bf5f-4543-b318-59481dcc51de'
+ms.assetid: 4d4820d2-bf5f-4543-b318-59481dcc51de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Moniker Providers
@@ -9,9 +14,9 @@ ms.assetid: '4d4820d2-bf5f-4543-b318-59481dcc51de'
 In general, a component should be a moniker provider when it allows access to one of its objects, while still controlling the object's storage. If a component is going to hand out monikers that identify its objects, it must be capable of performing the following tasks:
 
 -   On request, create a moniker that identifies an object.
--   Enable the moniker to be bound when a client calls [**IMoniker::BindToObject**](imoniker-bindtoobject.md) on it.
+-   Enable the moniker to be bound when a client calls [**IMoniker::BindToObject**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtoobject?branch=master) on it.
 
-A moniker provider must create a moniker of an appropriate *moniker class* to identify an object. The moniker class refers to a specific implementation of the [**IMoniker**](imoniker.md) interface that defines the type of moniker created. While you can implement **IMoniker** to create a new moniker class, it is frequently unnecessary because OLE provides implementations of several different moniker classes, each with its own CLSID. See [OLE Moniker Implementations](ole-moniker-implementations.md) for descriptions of moniker classes that OLE provides.
+A moniker provider must create a moniker of an appropriate *moniker class* to identify an object. The moniker class refers to a specific implementation of the [**IMoniker**](/windows/win32/ObjIdl/nn-objidl-imoniker?branch=master) interface that defines the type of moniker created. While you can implement **IMoniker** to create a new moniker class, it is frequently unnecessary because OLE provides implementations of several different moniker classes, each with its own CLSID. See [OLE Moniker Implementations](ole-moniker-implementations.md) for descriptions of moniker classes that OLE provides.
 
 ## Related topics
 

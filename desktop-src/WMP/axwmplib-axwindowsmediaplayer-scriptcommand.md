@@ -1,8 +1,9 @@
 ---
 title: ScriptCommand Event of the AxWindowsMediaPlayer Object
 description: The ScriptCommand event occurs when a synchronized command or URL is received.
-ms.assetid: 'b6c613b2-f1b0-43d3-9992-c01d1e00e644'
-keywords: ["ScriptCommand Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: b6c613b2-f1b0-43d3-9992-c01d1e00e644
+keywords:
+- ScriptCommand Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScriptCommand Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Scr
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,7 +72,7 @@ The following table lists script command types that are automatically processed 
 
 
 
- 
+ 
 
 You can embed any other type of command as long as you provide code to handle the command. Though unknown commands are ignored by the Windows Media Player control, they are still handed off to the **ScriptCommand** event.
 
@@ -130,9 +136,9 @@ The ScriptCommand event is not called if the file is being scanned (fast-forward
 [**IWMPSettings.invokeURLs (VB and C#)**](wmplibiwmpsettings-iwmpsettings-invokeurls--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

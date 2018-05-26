@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.deleteAll
 description: The deleteAll method deletes all items from the list box control.
-ms.assetid: '12b330c7-48f8-418d-b673-b33ae5273547'
-keywords: ["LISTBOX.deleteAll Windows Media Player"]
+ms.assetid: 12b330c7-48f8-418d-b673-b33ae5273547
+keywords:
+- LISTBOX.deleteAll Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.deleteAll
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.deleteAll
@@ -44,9 +50,9 @@ This method does not return a value.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Extended control access right that allows the reading of replicatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9270d4c1-123f-4809-9038-3d2c7ebad782'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9270d4c1-123f-4809-9038-3d2c7ebad782
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["DS-Replication-Monitor-Topology extended right AD Schema"]
+keywords:
+- DS-Replication-Monitor-Topology extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - DS-Replication-Monitor-Topology
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS-Replication-Monitor-Topology extended right
@@ -33,11 +37,11 @@ Extended control access right that allows the reading of replication monitoring 
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -94,9 +98,9 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

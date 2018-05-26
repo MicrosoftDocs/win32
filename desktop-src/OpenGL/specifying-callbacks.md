@@ -1,8 +1,15 @@
 ---
 title: Specifying Callbacks
 description: You can specify up to five callback functions for a tessellation.
-ms.assetid: 'b49a8400-8111-450d-a2d7-c313a898a213'
-keywords: ["OpenGL Utility (GLU),specifying callback functions", "GLU (OpenGL Utility),specifying callback functions"]
+ms.assetid: b49a8400-8111-450d-a2d7-c313a898a213
+keywords:
+- OpenGL Utility (GLU),specifying callback functions
+- GLU (OpenGL Utility),specifying callback functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Callbacks

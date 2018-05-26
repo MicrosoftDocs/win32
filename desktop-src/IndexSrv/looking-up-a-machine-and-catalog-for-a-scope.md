@@ -1,7 +1,12 @@
 ---
 title: Looking Up a Machine and Catalog for a Scope
 description: Looking Up a Machine and Catalog for a Scope
-ms.assetid: 'db25f11d-725f-493f-b014-41d74a1b5055'
+ms.assetid: db25f11d-725f-493f-b014-41d74a1b5055
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Looking Up a Machine and Catalog for a Scope
@@ -11,7 +16,7 @@ ms.assetid: 'db25f11d-725f-493f-b014-41d74a1b5055'
 
  
 
-The following code segment from the **LookupCatalog** function of the sample uses the [**LocateCatalogs**](locatecatalogs.md) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to find a catalog and machine matching the specified scope.
+The following code segment from the **LookupCatalog** function of the sample uses the [**LocateCatalogs**](/windows/win32/Ntquery/nf-ntquery-locatecatalogsa?branch=master) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to find a catalog and machine matching the specified scope.
 
 
 ```C++

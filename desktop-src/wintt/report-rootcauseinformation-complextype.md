@@ -1,14 +1,20 @@
 ---
 title: RootCauseInformation Complex Type
 description: Defines the section of the report that contains the list of root causes that the troubleshooting pack can detect.
-ms.assetid: '42b14f4f-d9d6-4b58-87b9-68e7cdac2abd'
-keywords: ["RootCauseInformation complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 42b14f4f-d9d6-4b58-87b9-68e7cdac2abd
+keywords:
+- RootCauseInformation complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - RootCauseInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RootCauseInformation Complex Type
@@ -47,14 +53,14 @@ The list contains all root causes defined in the package plus any instances of a
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

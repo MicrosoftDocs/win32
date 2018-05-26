@@ -4,13 +4,15 @@ description: Service class for the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c8510b8d-3d19-4e48-a5ae-52250cbb60fc'
-ms.prod: 'windows-server-dev'
+ms.assetid: c8510b8d-3d19-4e48-a5ae-52250cbb60fc
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterService class", "MSCluster_ClusterService class, described"]
+keywords:
+- MSCluster_ClusterService class
+- MSCluster_ClusterService class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterService class
@@ -67,7 +72,7 @@ The **MSCluster\_ClusterService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -98,16 +103,16 @@ The Id that uniquely identifies the cluster service.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

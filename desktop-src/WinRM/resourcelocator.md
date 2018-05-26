@@ -4,11 +4,13 @@ description: Supplies the path to a resource. You can use a ResourceLocator obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0904b7eb-d4ce-46a7-bf58-452e7c0d41e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 0904b7eb-d4ce-46a7-bf58-452e7c0d41e9
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["ResourceLocator object Windows Remote Management", "ResourceLocator object Windows Remote Management , described"]
+keywords:
+- ResourceLocator object Windows Remote Management
+- ResourceLocator object Windows Remote Management , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator object
@@ -53,7 +58,7 @@ The **ResourceLocator** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -63,14 +68,14 @@ The **ResourceLocator** object has these properties.
 
 | Property                                                                          | Access type           | Description                                                                                                                                                                                             |
 |:----------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**FragmentDialect**](resourcelocator-fragmentdialect.md)<br/>             | Read/write<br/> | Gets or sets the language dialect for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment).<br/> |
-| [**FragmentPath**](resourcelocator-fragmentpath.md)<br/>                   | Read/write<br/> | Gets or sets the path for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment) or property.<br/> |
+| [**FragmentDialect**](resourcelocator-fragmentdialect.md)<br/>             | Read/write<br/> | Gets or sets the language dialect for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment).<br/> |
+| [**FragmentPath**](resourcelocator-fragmentpath.md)<br/>                   | Read/write<br/> | Gets or sets the path for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) [*fragment*](windows-remote-management-glossary.md#winrm-gloss-fragment) or property.<br/> |
 | [**MustUnderstandOptions**](resourcelocator-mustunderstandoptions.md)<br/> | Read/write<br/> | Gets or sets the **MustUnderstandOptions** value for the **ResourceLocator** object.<br/>                                                                                                         |
 | [**ResourceURI**](resourcelocator-resourceuri.md)<br/>                     | Read/write<br/> | Gets or sets the [*resource URI*](windows-remote-management-glossary.md#winrm-gloss-resource-uri) in a **ResourceLocator** object.<br/>                                                          |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -135,8 +140,8 @@ End Sub
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -151,9 +156,9 @@ End Sub
 [WinRM Scripting API](winrm-scripting-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Resource Reference
 description: The Direct3D API defines several API elements to help you create and manage resources.
-ms.assetid: '03d9952d-2f70-4343-b0c6-b0ef94365c2a'
+ms.assetid: 03d9952d-2f70-4343-b0c6-b0ef94365c2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Reference
@@ -23,7 +28,7 @@ The Direct3D API defines several API elements to help you create and manage reso
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ The Direct3D API defines several API elements to help you create and manage reso
 [Direct3D 11 Reference](d3d11-graphics-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

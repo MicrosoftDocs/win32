@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetNamedCommand method returns the specified command.'
-ms.assetid: 'A9C9C69E-8C89-4131-996F-A48AD9E9D244'
-title: 'IPrintCoreHelperUni2::GetNamedCommand method'
+---
+Description: The GetNamedCommand method returns the specified command.
+ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
+title: IPrintCoreHelperUni2GetNamedCommand method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni2::GetNamedCommand method

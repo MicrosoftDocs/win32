@@ -4,13 +4,16 @@ description: Restores the database of the DHCP Server from the specified locatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '725dea28-a7ae-471c-a10f-0901e7ce8ff8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 725dea28-a7ae-471c-a10f-0901e7ce8ff8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Restore method", "Restore method, PS_DhcpServer class", "PS_DhcpServer class, Restore method"]
+keywords:
+- Restore method
+- Restore method, PS_DhcpServer class
+- PS_DhcpServer class, Restore method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Restore method of the PS\_DhcpServer class
@@ -30,9 +36,9 @@ Restores the database of the DHCP Server from the specified location.
 
 ```mof
 uint32 Restore(
-  [in] string  ComputerName,
-  [in] string  Path,
-  [in] boolean Force
+  [in] string  ComputerName,
+  [in] string  Path,
+  [in] boolean Force
 );
 ```
 
@@ -70,7 +76,7 @@ If specified, user confirmation will not be sought.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ If specified, user confirmation will not be sought.
 [**PS\_DhcpServer**](ps-dhcpserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CardDeleteDirectory function
 description: Deletes a directory from a smart card. The directory must be empty, and the caller must have permission to delete that directory.
-ms.assetid: 'c5a4e77d-fa0e-4808-8f62-e099aa3b3ecf'
-keywords: ["CardDeleteDirectory function Security"]
+ms.assetid: c5a4e77d-fa0e-4808-8f62-e099aa3b3ecf
+keywords:
+- CardDeleteDirectory function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardDeleteDirectory function
@@ -24,8 +30,8 @@ The **CardDeleteDirectory** function, defined by a smart card module, deletes a 
 
 ```C++
 DWORD WINAPI CardDeleteDirectory(
-  _In_ PCARD_DATA pCardData,
-  _In_ LPSTR      pszDirectoryName
+  _In_ PCARD_DATA pCardData,
+  _In_ LPSTR      pszDirectoryName
 );
 ```
 
@@ -63,7 +69,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,8 +77,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -93,9 +99,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CardCreateDirectory**](cardcreatedirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

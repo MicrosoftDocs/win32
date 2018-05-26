@@ -1,7 +1,12 @@
-﻿---
-Description: 'The QueuedMessages property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.'
-ms.assetid: '4b03c956-99d6-4d55-8be0-3baa8b9653c2'
-title: 'FaxActivity.QueuedMessages property'
+---
+Description: The QueuedMessages property is a number that represents the total number of fax jobs in the fax job queue that are pending processing. This does not include jobs for which the number of retries has been exceeded.
+ms.assetid: 4b03c956-99d6-4d55-8be0-3baa8b9653c2
+title: FaxActivity.QueuedMessages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivity.QueuedMessages property
@@ -25,7 +30,7 @@ A **Long** that receives the total number of pending jobs in the fax queue.
 
 ## Remarks
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxActivity**](-mfax-faxactivity.md)
 </dt> <dt>
 
-[**IFaxActivity**](-mfax-faxactivity-cpp.md)
+[**IFaxActivity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivity?branch=master)
 </dt> </dl>
 
  

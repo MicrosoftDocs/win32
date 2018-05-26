@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new switch team with initial members.'
-ms.assetid: 'a95bd48e-0bde-4706-8e08-32776cf85b78'
-title: 'Create method of the MSFT\_NetSwitchTeam class'
+Description: Creates a new switch team with initial members.
+ms.assetid: a95bd48e-0bde-4706-8e08-32776cf85b78
+title: Create method of the MSFT\_NetSwitchTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the MSFT\_NetSwitchTeam class
@@ -13,8 +18,8 @@ Creates a new switch team with initial members.
 
 ```mof
 uint32 Create(
-  [in] string Name,
-  [in] string TeamMembers[]
+  [in] string Name,
+  [in] string TeamMembers[]
 );
 ```
 
@@ -44,8 +49,8 @@ An array that contains the names of the initial members of the new switch team.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported client<br/> | Windows 8<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>NetSwitchTeam.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NetSwitchTeamCim.dll</dt> </dl> |
@@ -59,9 +64,9 @@ An array that contains the names of the initial members of the new switch team.
 [**MSFT\_NetSwitchTeam**](msft-netswitchteam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

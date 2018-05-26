@@ -1,8 +1,9 @@
 ---
 title: OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object
 description: The OpenPlaylistSwitch event occurs when a title on a DVD begins playing.
-ms.assetid: '0b9c37a3-1349-48bd-8e1a-aba286c82abf'
-keywords: ["OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 0b9c37a3-1349-48bd-8e1a-aba286c82abf
+keywords:
+- OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenPlaylistSwitch Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Ope
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,9 +73,9 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Ope
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

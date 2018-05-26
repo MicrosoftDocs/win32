@@ -1,8 +1,9 @@
 ---
 title: EM\_SHOWSCROLLBAR message
 description: Shows or hides one of the scroll bars in the host window of a rich edit control.
-ms.assetid: '0a6ec010-4870-4faf-9dc2-1da961dc8194'
-keywords: ["EM_SHOWSCROLLBAR message Windows Controls"]
+ms.assetid: 0a6ec010-4870-4faf-9dc2-1da961dc8194
+keywords:
+- EM_SHOWSCROLLBAR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SHOWSCROLLBAR message
@@ -49,8 +55,8 @@ This method is only valid when the control is in-place active. Calls made while 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ This method is only valid when the control is in-place active. Calls made while 
 [**EM\_SETSCROLLPOS**](em-setscrollpos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

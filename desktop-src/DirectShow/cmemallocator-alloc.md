@@ -1,7 +1,12 @@
 ---
-Description: 'The Alloc method allocates memory for the buffers.'
-ms.assetid: '81886163-2f7d-4d4f-be90-4491f76b8514'
-title: 'CMemAllocator.Alloc method'
+Description: The Alloc method allocates memory for the buffers.
+ms.assetid: 81886163-2f7d-4d4f-be90-4491f76b8514
+title: CMemAllocator.Alloc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.Alloc method
@@ -35,7 +40,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +64,9 @@ This method is called by the [**CBaseAllocator::Commit**](cbaseallocator-commit.
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

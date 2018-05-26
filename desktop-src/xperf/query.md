@@ -1,14 +1,20 @@
 ---
 title: query
 description: Displays trace and providers query options.
-ms.assetid: '80017d5d-21b8-450d-931b-0e8b7ef398f3'
-keywords: ["query Windows Performance Analyzer"]
+ms.assetid: 80017d5d-21b8-450d-931b-0e8b7ef398f3
+keywords:
+- query Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - query
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # query

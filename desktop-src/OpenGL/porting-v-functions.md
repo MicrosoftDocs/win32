@@ -1,8 +1,25 @@
 ---
 title: Porting v Functions
 description: In IRIS GL, you use variations on the v function to specify vertices. The equivalent OpenGL function is glVertex Below are examples of glVertex.
-ms.assetid: 'b4ac0c41-983a-4387-a69f-530c9094dc33'
-keywords: ["IRIS GL porting,vertices", "porting from IRIS GL,vertices", "porting to OpenGL from IRIS GL,vertices", "OpenGL porting from IRIS GL,vertices", "drawing functions,vertices", "vertices,porting from IRIS GL", "IRIS GL porting,v functions", "porting from IRIS GL,v functions", "porting to OpenGL from IRIS GL,v functions", "OpenGL porting from IRIS GL,v functions", "drawing functions,v functions", "v functions"]
+ms.assetid: b4ac0c41-983a-4387-a69f-530c9094dc33
+keywords:
+- IRIS GL porting,vertices
+- porting from IRIS GL,vertices
+- porting to OpenGL from IRIS GL,vertices
+- OpenGL porting from IRIS GL,vertices
+- drawing functions,vertices
+- vertices,porting from IRIS GL
+- IRIS GL porting,v functions
+- porting from IRIS GL,v functions
+- porting to OpenGL from IRIS GL,v functions
+- OpenGL porting from IRIS GL,v functions
+- drawing functions,v functions
+- v functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting v Functions

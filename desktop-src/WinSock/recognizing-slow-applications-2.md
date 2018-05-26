@@ -1,7 +1,12 @@
 ---
-Description: 'This guide identifies a slow application as a Microsoft Windows application with impaired performance.'
-ms.assetid: 'cacf55d8-ab64-47a4-a55b-59a3c4e3877b'
+Description: This guide identifies a slow application as a Microsoft Windows application with impaired performance.
+ms.assetid: cacf55d8-ab64-47a4-a55b-59a3c4e3877b
 title: Recognizing Slow Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recognizing Slow Applications

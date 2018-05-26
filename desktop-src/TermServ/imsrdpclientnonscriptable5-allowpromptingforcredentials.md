@@ -4,11 +4,14 @@ description: Specifies whether the Remote Desktop ActiveX control can prompt the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9a780886-39ee-4d3b-9a54-fa209708d9f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9a780886-39ee-4d3b-9a54-fa209708d9f8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AllowPromptingForCredentials property Remote Desktop Services", "AllowPromptingForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , AllowPromptingForCredentials property"]
+keywords:
+- AllowPromptingForCredentials property Remote Desktop Services
+- AllowPromptingForCredentials property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , AllowPromptingForCredentials property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable5::AllowPromptingForCredentials property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AllowPromptingForCredentials(
-  [in]          VARIANT_BOOL fAllow
+  [in]          VARIANT_BOOL fAllow
 );
 
 HRESULT get_AllowPromptingForCredentials(
-  [out, retval] VARIANT_BOOL *pfAllow
+  [out, retval] VARIANT_BOOL *pfAllow
 );
 ```
 
@@ -52,8 +58,8 @@ Specifies the new property value.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
+| Minimum supported client<br/> | Windows 7<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable5 is defined as 4f6996d5-d7b1-412c-b0ff-063718566907<br/> |
@@ -67,9 +73,9 @@ Specifies the new property value.
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

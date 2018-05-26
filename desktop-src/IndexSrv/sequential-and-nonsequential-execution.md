@@ -1,7 +1,12 @@
 ---
 title: Sequential and Nonsequential Execution
 description: Sequential and Nonsequential Execution
-ms.assetid: '4658699a-79a0-4f10-80bd-920b56abd0de'
+ms.assetid: 4658699a-79a0-4f10-80bd-920b56abd0de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequential and Nonsequential Execution

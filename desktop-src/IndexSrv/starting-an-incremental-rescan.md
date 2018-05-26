@@ -1,7 +1,12 @@
 ---
 title: Starting an Incremental Rescan
 description: Starting an Incremental Rescan
-ms.assetid: 'fe43fe60-4981-439b-b283-584c03aae379'
+ms.assetid: fe43fe60-4981-439b-b283-584c03aae379
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting an Incremental Rescan

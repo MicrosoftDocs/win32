@@ -1,7 +1,12 @@
 ---
-Description: 'An association between a service access point (SAP) and how it is implemented.'
-ms.assetid: '7fd1bafd-2890-4972-812e-23f50e62afe7'
-title: 'CIM\_DeviceSAPImplementation class'
+Description: An association between a service access point (SAP) and how it is implemented.
+ms.assetid: 7fd1bafd-2890-4972-812e-23f50e62afe7
+title: CIM\_DeviceSAPImplementation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DeviceSAPImplementation class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, UMLPackagePath("CIM::Core::Device"), Version("2.10.0"), AMENDMENT]
 class CIM_DeviceSAPImplementation : CIM_Dependency
 {
-  CIM_LogicalDevice      REF Antecedent;
+  CIM_LogicalDevice      REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -75,8 +80,8 @@ The cardinality of this association is many-to-many. A SAP can be provided by mo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -90,9 +95,9 @@ The cardinality of this association is many-to-many. A SAP can be provided by mo
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

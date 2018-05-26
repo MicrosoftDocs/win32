@@ -1,7 +1,12 @@
 ---
 title: Certification requirements for Windows Desktop Apps
 description: Document version 10Document date July 29, 2015This document contains the technical requirements and eligibility qualifications that a desktop app must meet in order to participate in the Windows 10 Desktop App Certification Program.
-ms.assetid: '0F19774E-5258-4152-BBD7-9C37A05C7F69'
+ms.assetid: 0F19774E-5258-4152-BBD7-9C37A05C7F69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certification requirements for Windows Desktop Apps
@@ -49,7 +54,7 @@ The times when an app crashes or stops responding cause much user frustration. A
 
 Using Windows security best practices will help avoid creating exposure to Windows attack surfaces. Attack surfaces are the entry points that a malicious attacker could use to exploit the operating system by taking advantage of vulnerabilities in the target software. One of the worst security vulnerabilities is the elevation of privilege.
 
-Note that tests 2.1 – 2.6 are applicable only for desktop apps tested on Windows 7, Windows 8 or Windows 8.1.<dl> 2.1 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure executable files  
+Note that tests 2.1   2.6 are applicable only for desktop apps tested on Windows 7, Windows 8 or Windows 8.1.<dl> 2.1 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure executable files  
 2.2 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure directories  
 2.3 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure registry keys  
 2.4 Your app must use strong and appropriate [ACLs](https://msdn.microsoft.com/library/windows/desktop/aa374872) to secure directories that contain objects  
@@ -105,7 +110,7 @@ An Authenticode digital signature allows users to be sure that the software is g
 6.3 Exceptions and Waivers <dl> Waivers will be considered only for unsigned third-party redistributables, excluding drivers. A proof of communication requesting a signed version of the redistributable(s) is required for this waiver to be granted.  
 </dl> </dd> </dl>
 
-## 7. Apps don’t block installation or app launch based on an operating system version check
+## 7. Apps don t block installation or app launch based on an operating system version check
 
 It is important that customers are not artificially blocked from installing or running their app when there are no technical limitations. In general, if apps were written for Windows Vista or later versions of Windows, they should not have to check the operating system version.<dl> 7.1 Your app must not perform version checks for equality <dl> If you need a specific feature, check whether the feature itself is available. If you need Windows 7, check for Windows 7 or later (&gt;= 6.2). This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the operating system version.  
 </dl> </dd> 7.2 Exceptions and Waivers will be considered for apps meeting the criteria below:
@@ -117,7 +122,7 @@ It is important that customers are not artificially blocked from installing or r
   
 </dl>
 
-## 8. Apps don’t load services or drivers in safe mode
+## 8. Apps don t load services or drivers in safe mode
 
 Safe mode allows users to diagnose and troubleshoot Windows. Drivers and services must not be set to load in safe mode unless they are needed for basic system operations of such as storage device drivers or for diagnostic and recovery purposes, such as anti-virus scanners,. By default, when Windows is in safe mode, it starts only the drivers and services that came preinstalled with Windows.
 
@@ -130,11 +135,11 @@ Safe mode allows users to diagnose and troubleshoot Windows. Drivers and service
 
 ## 9. Apps must follow User Account Control guidelines
 
-Some Windows apps run in the security context of an administrator account, and apps often request excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems and protect them against unwanted changes. An unwanted change can be malicious, such as a rootkit taking control of the computer, or be the result of an action made by people who have limited privileges.. The most important rule for controlling access to resources is to provide the least amount of access “standard user context” necessary for a user to perform his or her necessary tasks. Following user account control (UAC) guidelines provides an app with the necessary permissions when they are needed by the app, without leaving the system constantly exposed to security risks. Most apps do not require administrator privileges at run time, and should be just fine running as a standard-user.<dl> 9.1 Your app must have a manifest that defines execution levels and tells the operating system what privileges the app requires in order to run <dl> The app manifest marking only applies to EXEs, not DLLs. This is because UAC does not inspect DLLs during process creation. It is also worth noting that UAC rules do not apply to Microsoft services. The manifest can be either embedded or external.  
+Some Windows apps run in the security context of an administrator account, and apps often request excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems and protect them against unwanted changes. An unwanted change can be malicious, such as a rootkit taking control of the computer, or be the result of an action made by people who have limited privileges.. The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following user account control (UAC) guidelines provides an app with the necessary permissions when they are needed by the app, without leaving the system constantly exposed to security risks. Most apps do not require administrator privileges at run time, and should be just fine running as a standard-user.<dl> 9.1 Your app must have a manifest that defines execution levels and tells the operating system what privileges the app requires in order to run <dl> The app manifest marking only applies to EXEs, not DLLs. This is because UAC does not inspect DLLs during process creation. It is also worth noting that UAC rules do not apply to Microsoft services. The manifest can be either embedded or external.  
 To create a manifest, create a file with the name &lt;app\_name&gt;.exe.manifest and store it in the same directory as the EXE. Note that any external manifest is ignored if the app has an internal manifest. For example:  
 &lt;requestedExecutionLevel level=""asInvoker \| highestAvailable \| requireAdministrator"" uiAccess=""true\|false""/&gt;  
-</dl> </dd> 9.2 Your app’s main process must be run as a standard user (asInvoker). <dl> Any administrative features must be moved into a separate process that runs with administrative privileges. User facing apps, such as those accessible through the program group on the Start-Menu, and requiring elevation must be Authenticode signed.  
-</dl> </dd> 9.3 Exceptions and Waivers <dl> A waiver is required for apps that run their main process with elevated privileges (requireAdministrator or highestAvailable). The main process is identified as the user’s entry point to the app. Waivers will be considered for the following scenarios:
+</dl> </dd> 9.2 Your app s main process must be run as a standard user (asInvoker). <dl> Any administrative features must be moved into a separate process that runs with administrative privileges. User facing apps, such as those accessible through the program group on the Start-Menu, and requiring elevation must be Authenticode signed.  
+</dl> </dd> 9.3 Exceptions and Waivers <dl> A waiver is required for apps that run their main process with elevated privileges (requireAdministrator or highestAvailable). The main process is identified as the user s entry point to the app. Waivers will be considered for the following scenarios:
 
 -   Administrative or system tools with execution level set to highestAvailable, and/or requireAdministrator
 -   Only Accessibility or UI automation framework app sets the uiAccess flag to true to bypass the user interface privilege isolation (UIPI). To properly start app utilization, this flag must be Authenticode signed, and must reside in a protected location in the file system, namely Program Files.
@@ -153,18 +158,18 @@ Users should have a consistent and secure experience with the default installati
 -   Start Menu AllPrograms &gt; STARTUP
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app’s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
 10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Use the correct methods for installing files, such as fonts or drivers.  
-</dl> </dd> 10.6 Your app must write user data at first run and not during the installation in “per-machine” installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
+</dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> A waiver is required for apps that write to the global assembly cache (GAC) .NET apps should keep assembly dependencies private, and store it in the app directory unless sharing an assembly is explicitly required.  
 </dl> </dd> </dl>
 
 ## 11. Apps must support multi-user sessions
 
 Windows users should be able to run concurrent sessions without conflict or disruption.<dl> 11.1 Your app must ensure that when running in multiple sessions either locally or remotely, the normal functionality of the app is not adversely affected  
-11.2 Your app’s settings and data files must not persist across users  
-11.3 A user’s privacy and preferences must be isolated to the user’s session  
-11.4 Your app’s instances must be isolated from each other <dl> This means that user data from one instance is not visible to another instance of the app. Sound in an inactive user session should not be heard in an active user session. In cases where multiple app instances use shared resources, the app must ensure that there is not a conflict.  
+11.2 Your app s settings and data files must not persist across users  
+11.3 A user s privacy and preferences must be isolated to the user s session  
+11.4 Your app s instances must be isolated from each other <dl> This means that user data from one instance is not visible to another instance of the app. Sound in an inactive user session should not be heard in an active user session. In cases where multiple app instances use shared resources, the app must ensure that there is not a conflict.  
 </dl> </dd> 11.5 Apps that are installed for multiple users must store data in the correct folder(s) and registry locations <dl> Refer to the UAC requirements.  
 </dl> </dd> 11.6 User apps must be able to run in multiple user sessions (Fast User Switching) for both local and remote access  
 11.7 Your app must check other terminal service (TS) sessions for existing instances of the app  
@@ -174,7 +179,7 @@ Windows users should be able to run concurrent sessions without conflict or disr
 
 As 64-bit hardware becomes more common, users expect app developers to take advantage of the benefits of 64-bit architecture by migrating their apps to 64-bit, or that 32-bit versions of the app run well under 64-bit versions of Windows.<dl> 12.1 Your app must natively support 64-bit or, at a minimum, 32-bit Windows-based apps must run seamlessly on 64-bit systems to maintain compatibility with 64-bit versions of Windows  
 12.2 Your app and its installers must not contain any 16-bit code or rely on any 16-bit component  
-12.3 Your app’s setup must detect and install the proper drivers and components for the 64-bit architecture  
+12.3 Your app s setup must detect and install the proper drivers and components for the 64-bit architecture  
 12.4 Any shell plug-ins must run on 64-bit versions of Windows  
 12.5 App running under the WoW64 emulator should not attempt to subvert or bypass Wow64 virtualization mechanisms <dl> If there are specific scenarios where apps need to detect whether they are running under the WoW64 emulator, they should do so by calling IsWow64Process.  
 </dl> </dd> </dl>
@@ -203,7 +208,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
- 
+ 
 
 ## Learn more about desktop app certification
 
@@ -269,7 +274,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Follow User Account Control (UAC) Guidelines</td>
-<td>Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access “standard user context” necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks.<br/> For more information see:
+<td>Some Windows app run in the security context of an administrator account, and many require excessive user rights and Windows privileges. Controlling access to resources enables users to be in control of their systems against unwanted changes (An unwanted change can be malicious, such as a rootkit stealthily taking over the machine, or an action from people who have limited privileges, for example, an employee installing prohibited software on a work computer). The most important rule for controlling access to resources is to provide the least amount of access  standard user context  necessary for a user to perform his or her necessary tasks. Following UAC guidelines provides app with the necessary permissions when needed, without leaving the system constantly exposed to security risks.<br/> For more information see:
 <ul>
 <li>[User Account Control](https://msdn.microsoft.com/library/windows/desktop/dn742497.aspx)</li>
 <li>[UAC: Application Update Guidelines](https://msdn.microsoft.com/library/Aa480152#appcomp-topic5)</li>
@@ -293,16 +298,16 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
- 
+ 
 
 ## See also
 
 -   [Windows Hardware Certification Program](https://msdn.microsoft.com/library/windows/hardware/gg463010)
 -   [How to use the Windows App Certification Kit](http://www.microsoft.com/download/details.aspx?id=27414)
 
- 
+ 
 
- 
+ 
 
 
 

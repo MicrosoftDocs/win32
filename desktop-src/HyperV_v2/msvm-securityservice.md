@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the security service. It is used for configuring virtual system security settings.'
-ms.assetid: '00097d81-9fea-4b84-b5dd-e45af46d6e0a'
-title: 'Msvm\_SecurityService class'
+Description: Represents the security service. It is used for configuring virtual system security settings.
+ms.assetid: 00097d81-9fea-4b84-b5dd-e45af46d6e0a
+title: Msvm\_SecurityService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SecurityService class
@@ -43,7 +48,7 @@ The **Msvm\_SecurityService** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +56,8 @@ The **Msvm\_SecurityService** class has these methods.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -66,9 +71,9 @@ The **Msvm\_SecurityService** class has these methods.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

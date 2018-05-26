@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets mesh geometry displacement parameters.'
-ms.assetid: '155724ba-71be-4e9f-8c84-bb04f8eec578'
-title: 'ID3DXPatchMesh::GetDisplaceParam method'
+---
+Description: Gets mesh geometry displacement parameters.
+ms.assetid: 155724ba-71be-4e9f-8c84-bb04f8eec578
+title: ID3DXPatchMeshGetDisplaceParam method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetDisplaceParam method
@@ -31,7 +36,7 @@ HRESULT GetDisplaceParam(
 *Texture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](idirect3dbasetexture9.md)\***
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master)\***
 
 Texture containing the displacement data.
 

@@ -4,17 +4,21 @@ description: Application specific data, encrypted.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '08ABB70E-63AB-45F9-B252-91F055F86829'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 08ABB70E-63AB-45F9-B252-91F055F86829
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor encryptedAppData property"]
+keywords:
+- MSPolicyDescriptor encryptedAppData property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor encryptedAppData property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor encryptedAppData property
@@ -37,7 +41,7 @@ Application specific data, encrypted.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

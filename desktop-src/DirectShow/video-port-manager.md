@@ -1,7 +1,12 @@
 ---
 Description: Video Port Manager
-ms.assetid: 'd70558a5-9820-432a-b4f3-ccf7bb2a34d5'
+ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Video Port Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Port Manager
@@ -17,11 +22,11 @@ The Video Port Manager filter (VPM) enables the Video Mixing Renderer Filter 7 (
 
 |                                          |                                                                                                                                                                                                                      |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMVideoDecimationProperties**](iamvideodecimationproperties.md), [**IBaseFilter**](ibasefilter.md), [**IKsPropertySet**](ikspropertyset.md), [**IQualProp**](iqualprop.md), [**IVPManager**](ivpmanager.md) |
+| Filter Interfaces                        | [**IAMVideoDecimationProperties**](/windows/win32/Strmif/nn-strmif-iamvideodecimationproperties?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IKsPropertySet**](ikspropertyset.md), [**IQualProp**](/windows/win32/Amvideo/nn-amvideo-iqualprop?branch=master), [**IVPManager**](/windows/win32/Strmif/nn-strmif-ivpmanager?branch=master) |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_VPVideo or MEDIASUBTYPE\_VPVBI, FORMAT\_None                                                                                                                                         |
-| Input Pin Interfaces                     | [**IKsPin**](ikspin.md), [**IKsPropertySet**](ikspropertyset.md), [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IPinConnection**](ipinconnection.md), [**IQualityControl**](iqualitycontrol.md) |
+| Input Pin Interfaces                     | [**IKsPin**](ikspin.md), [**IKsPropertySet**](ikspropertyset.md), [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IPinConnection**](/windows/win32/Strmif/nn-strmif-ipinconnection?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Output Pin Media Types                   | MEDIATYPE\_Video, FORMAT\_VideoInfo2                                                                                                                                                                                 |
-| Output Pin Interfaces                    | [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                                                                     |
+| Output Pin Interfaces                    | [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                                                                     |
 | Filter CLSID                             | CLSID\_VideoPortManager                                                                                                                                                                                              |
 | [Merit](merit.md)                       | MERIT\_NORMAL                                                                                                                                                                                                        |
 | [Filter Category](filter-categories.md) | CLSID\_LegacyAmFilterCategory                                                                                                                                                                                        |
@@ -47,7 +52,7 @@ The fact that the VPM uses multiple surfaces for its input buffers means that it
 [DirectShow Filters](directshow-filters.md)
 </dt> <dt>
 
-[**IVPManager Interface**](ivpmanager.md)
+[**IVPManager Interface**](/windows/win32/Strmif/nn-strmif-ivpmanager?branch=master)
 </dt> </dl>
 
  

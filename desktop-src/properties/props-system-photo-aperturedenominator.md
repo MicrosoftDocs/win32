@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of System.Photo.Aperture.'
-ms.assetid: '35fed5e4-2338-4b5e-a138-b5cf587a8db8'
-title: 'System.Photo.ApertureDenominator'
+Description: The denominator of System.Photo.Aperture.
+ms.assetid: 35fed5e4-2338-4b5e-a138-b5cf587a8db8
+title: System.Photo.ApertureDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ApertureDenominator

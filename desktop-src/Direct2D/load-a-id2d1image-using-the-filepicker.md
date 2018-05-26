@@ -1,8 +1,15 @@
 ---
 title: How to load an image into Direct2D effects using the FilePicker
 description: Shows how to use the Windows Storage Pickers FileOpenPicker to load an image into Direct2D effects.
-ms.assetid: '42158EF0-2FC8-45F3-8C92-E12318D4724F'
-keywords: ["FileOpenPicker", "FilePicker"]
+ms.assetid: 42158EF0-2FC8-45F3-8C92-E12318D4724F
+keywords:
+- FileOpenPicker
+- FilePicker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to load an image into Direct2D effects using the FilePicker
@@ -19,7 +26,7 @@ Shows how to use the [**Windows::Storage::Pickers::FileOpenPicker**](https://msd
 
 ### Prerequisites
 
--   You need an [**ID2D1DeviceContext**](id2d1devicecontext.md) object for creating effects.
+-   You need an [**ID2D1DeviceContext**](/windows/win32/D2d1_1/?branch=master) object for creating effects.
 -   You need an [**IWICImagingFactory**](https://msdn.microsoft.com/library/windows/desktop/ee690281) object for creating WIC objects.
 
 ## Instructions
@@ -161,12 +168,12 @@ The [**IWICFormatConverter**](https://msdn.microsoft.com/library/windows/desktop
 
 ### Step 6: Create effect and pass in an IWICBitmapSource
 
-Use the [**CreateEffect**](id2d1devicecontext-createeffect.md) method to create a [bitmap source](bitmap-source.md) [**ID2D1Effect**](id2d1effect.md) object using the [Direct2D](getting-started-with-direct2d.md) [**device context**](id2d1devicecontext.md).
+Use the [**CreateEffect**](/windows/win32/D2d1_1/?branch=master) method to create a [bitmap source](bitmap-source.md) [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) object using the [Direct2D](getting-started-with-direct2d.md) [**device context**](/windows/win32/D2d1_1/?branch=master).
 
-Use the [**ID2D1Effect::SetValue**](id2d1properties-setvalue.md) method to set the *D2D1\_BITMAPSOURCE\_PROP\_WIC\_BITMAP\_SOURCE* property to the [WIC](https://msdn.microsoft.com/library/windows/desktop/ee719655) [**format converter**](https://msdn.microsoft.com/library/windows/desktop/ee690274).
+Use the [**ID2D1Effect::SetValue**](/windows/win32/D2d1_1/?branch=master) method to set the *D2D1\_BITMAPSOURCE\_PROP\_WIC\_BITMAP\_SOURCE* property to the [WIC](https://msdn.microsoft.com/library/windows/desktop/ee719655) [**format converter**](https://msdn.microsoft.com/library/windows/desktop/ee690274).
 
 > [!Note]  
-> The [bitmap source](bitmap-source.md) effect doesn't take an input from the [**SetInput**](id2d1effect-setinput.md) method like many [Direct2D effects](effects-overview.md). Instead, the [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171) object is specified as a property.
+> The [bitmap source](bitmap-source.md) effect doesn't take an input from the [**SetInput**](/windows/win32/D2d1_1/?branch=master) method like many [Direct2D effects](effects-overview.md). Instead, the [**IWICBitmapSource**](https://msdn.microsoft.com/library/windows/desktop/ee690171) object is specified as a property.
 
  
 
@@ -187,7 +194,7 @@ Use the [**ID2D1Effect::SetValue**](id2d1properties-setvalue.md) method to set t
 
 
 
-Now that you have the [bitmap source](bitmap-source.md) effect, you can use it as input to any [**ID2D1Effect**](id2d1effect.md) and create an effect graph.
+Now that you have the [bitmap source](bitmap-source.md) effect, you can use it as input to any [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master) and create an effect graph.
 
 ## Complete example
 

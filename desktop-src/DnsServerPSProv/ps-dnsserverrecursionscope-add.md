@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerRecursionScope class
 description: Adds a new recursion scope to a DNS server.
 audience: developer
-ms.assetid: 'D1EF62A1-0FFD-4633-BD0E-3F71B81AAD68'
-ms.prod: 'windows-server-dev'
+ms.assetid: D1EF62A1-0FFD-4633-BD0E-3F71B81AAD68
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerRecursionScope class", "PS_DnsServerRecursionScope class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerRecursionScope class
+- PS_DnsServerRecursionScope class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DNSServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerRecursionScope class
@@ -28,12 +34,12 @@ Adds a new recursion scope to a DNS server.
 
 ```mof
 uint32 Add(
-  [in]  string                  Name,
-  [in]  string                  Forwarder[],
-  [in]  boolean                 EnableRecursion,
-  [in]  boolean                 PassThru,
-  [in]  string                  ComputerName,
-  [out] DnsServerRecursionScope cmdletOutput
+  [in]  string                  Name,
+  [in]  string                  Forwarder[],
+  [in]  boolean                 EnableRecursion,
+  [in]  boolean                 PassThru,
+  [in]  string                  ComputerName,
+  [out] DnsServerRecursionScope cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ When this method returns, this parameter contains an array that contains the new
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DNSServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ When this method returns, this parameter contains an array that contains the new
 [**PS\_DnsServerRecursionScope**](ps-dnsserverrecursionscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Retrieves summary information of failed Remote Desktop Services Per
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dc9c4a36-b2a8-407e-b902-ee9d51227909'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: dc9c4a36-b2a8-407e-b902-ee9d51227909
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["FetchReportFailedPerUserSummaryEntries method Remote Desktop Services", "FetchReportFailedPerUserSummaryEntries method Remote Desktop Services , Win32_TSLicenseReport class", "Win32_TSLicenseReport class Remote Desktop Services , FetchReportFailedPerUserSummaryEntries method"]
+keywords:
+- FetchReportFailedPerUserSummaryEntries method Remote Desktop Services
+- FetchReportFailedPerUserSummaryEntries method Remote Desktop Services , Win32_TSLicenseReport class
+- Win32_TSLicenseReport class Remote Desktop Services , FetchReportFailedPerUserSummaryEntries method
 topic_type:
 - apiref
 api_name:
@@ -17,20 +20,23 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FetchReportFailedPerUserSummaryEntries method of the Win32\_TSLicenseReport class
 
-Retrieves summary information of failed Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report.
+Retrieves summary information of failed Remote Desktop Services Per User client access licenses (RDS Per User CALs) from the report.
 
 ## Syntax
 
 
 ```mof
 uint32 FetchReportFailedPerUserSummaryEntries(
-  [in]      uint32                                         StartIndex,
-  [in, out] uint32                                         Count,
-  [out]     Win32_TSLicenseReportFailedPerUserSummaryEntry ReportFailedPerUserSummaryEntries[]
+  [in]      uint32                                         StartIndex,
+  [in, out] uint32                                         Count,
+  [out]     Win32_TSLicenseReportFailedPerUserSummaryEntry ReportFailedPerUserSummaryEntries[]
 );
 ```
 
@@ -72,7 +78,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -86,9 +92,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSLicenseReport**](win32-tslicensereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

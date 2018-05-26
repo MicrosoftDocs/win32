@@ -1,7 +1,12 @@
 ---
-Description: 'Returns virtual machine summary information.'
-ms.assetid: 'CDDC2B5A-8172-4E6D-A206-CEAB9E54C69A'
-title: 'GetSummaryInformation method of the Msvm\_VirtualSystemManagementService class'
+Description: Returns virtual machine summary information.
+ms.assetid: CDDC2B5A-8172-4E6D-A206-CEAB9E54C69A
+title: GetSummaryInformation method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSummaryInformation method of the Msvm\_VirtualSystemManagementService class
@@ -13,9 +18,9 @@ Returns virtual machine summary information.
 
 ```mof
 uint32 GetSummaryInformation(
-  [in]  CIM_VirtualSystemSettingData REF SettingData[],
-  [in]  uint32                           RequestedInformation[],
-  [out] Msvm_SummaryInformationBase      SummaryInformation[]
+  [in]  CIM_VirtualSystemSettingData REF SettingData[],
+  [in]  uint32                           RequestedInformation[],
+  [out] Msvm_SummaryInformationBase      SummaryInformation[]
 );
 ```
 
@@ -105,7 +110,7 @@ This corresponds to the **NumberOfProcessors** property of the [**Msvm\_SummaryI
 
 </dt> <dd>
 
-This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class. A thumbnail image with the dimensions of 80×60 will be retrieved.
+This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class. A thumbnail image with the dimensions of 80 60 will be retrieved.
 
 </dd> <dt>
 
@@ -116,7 +121,7 @@ This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInfor
 
 </dt> <dd>
 
-This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class. A thumbnail image with the dimensions of 160×120 will be retrieved.
+This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class. A thumbnail image with the dimensions of 160 120 will be retrieved.
 
 </dd> <dt>
 
@@ -127,7 +132,7 @@ This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInfor
 
 </dt> <dd>
 
-This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class. A thumbnail image with the dimensions of 320×240 will be retrieved.
+This corresponds to the **ThumbnailImage** property of the [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) class. A thumbnail image with the dimensions of 320 240 will be retrieved.
 
 </dd> <dt>
 
@@ -157,9 +162,9 @@ This corresponds to the **AllocatedGPU** property of the [**Msvm\_SummaryInforma
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -171,9 +176,9 @@ This corresponds to the **AllocatedGPU** property of the [**Msvm\_SummaryInforma
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -468,9 +473,9 @@ An array of [**Msvm\_SummaryInformationBase**](msvm-summaryinformationbase.md) i
 Properties not specified in the *RequestedInformation* parameter will have a **Null** value.
 
 > [!Note]  
-> Datatype updated from in Windows 10, version 1703 from [**Msvm\_SummaryInformation**](msvm-summaryinformation.md).
+> Datatype updated from in Windows 10, version 1703 from [**Msvm\_SummaryInformation**](msvm-summaryinformation.md).
 
- 
+ 
 
 </dd> </dl>
 
@@ -532,7 +537,7 @@ The following C# sample displays summary information. The referenced utilities c
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -647,8 +652,8 @@ public class GetSummaryInformationClassV2
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -668,9 +673,9 @@ public class GetSummaryInformationClassV2
 [**Msvm\_SummaryInformation**](msvm-summaryinformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

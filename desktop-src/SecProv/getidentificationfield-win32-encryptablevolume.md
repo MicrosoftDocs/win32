@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the identifier string available in the volume''s metadata.'
-ms.assetid: '0573cbcd-6fb1-4648-bb06-4433796f6bb5'
-title: 'GetIdentificationField method of the Win32\_EncryptableVolume class'
+---
+Description: Returns the identifier string available in the volumes metadata.
+ms.assetid: 0573cbcd-6fb1-4648-bb06-4433796f6bb5
+title: GetIdentificationField method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetIdentificationField method of the Win32\_EncryptableVolume class

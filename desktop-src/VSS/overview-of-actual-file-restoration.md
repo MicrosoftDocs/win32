@@ -1,7 +1,12 @@
 ---
-Description: 'After performing the actions described in Overview of Restore Initialization and Overview of Preparing for Restore, the requester has sufficient information to begin restoring files.'
-ms.assetid: '15df39fa-1eb1-4e96-9e26-14470f391de4'
+Description: After performing the actions described in Overview of Restore Initialization and Overview of Preparing for Restore, the requester has sufficient information to begin restoring files.
+ms.assetid: 15df39fa-1eb1-4e96-9e26-14470f391de4
 title: Overview of Actual File Restoration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Actual File Restoration
@@ -15,10 +20,10 @@ The following table shows the sequence of actions and events that are required t
 | Requester action                                                                                                                                                                                                                                                                                                          | Event | Writer action |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------------|
 | Generate a restore set listing for files on backup media.                                                                                                                                                                                                                                                                 | None  | None          |
-| Handle [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) or [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) restoration (see [**IVssComponent::GetDirectedTarget**](ivsscomponent-getdirectedtarget.md), [**IVssComponent::GetPartialFile**](ivsscomponent-getpartialfile.md)). | None  | None          |
-| If necessary, ignore all specified restore locations and restore to a new location specified in an earlier call to [**IVssBackupComponents::AddNewTarget**](ivssbackupcomponents-addnewtarget.md).                                                                                                                       | None  | None          |
-| If the restore is incremental and further restores are needed, indicate (see [**IVssBackupComponents::SetAdditionalRestores**](ivssbackupcomponents-setadditionalrestores.md) and [Incremental and Differential Backups](incremental-and-differential-backups.md)).                                                     | None  | None          |
-| To learn whether a writer has modified the contents of the Backup Components Document, call [**IVssBackupComponents::GetWriterComponents**](ivssbackupcomponents-getwritercomponents.md). For example, the writer might have changed the restore target.                                                                 | None  | None          |
+| Handle [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) or [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) restoration (see [**IVssComponent::GetDirectedTarget**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget?branch=master), [**IVssComponent::GetPartialFile**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getpartialfile?branch=master)). | None  | None          |
+| If necessary, ignore all specified restore locations and restore to a new location specified in an earlier call to [**IVssBackupComponents::AddNewTarget**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget?branch=master).                                                                                                                       | None  | None          |
+| If the restore is incremental and further restores are needed, indicate (see [**IVssBackupComponents::SetAdditionalRestores**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores?branch=master) and [Incremental and Differential Backups](incremental-and-differential-backups.md)).                                                     | None  | None          |
+| To learn whether a writer has modified the contents of the Backup Components Document, call [**IVssBackupComponents::GetWriterComponents**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents?branch=master). For example, the writer might have changed the restore target.                                                                 | None  | None          |
 
 
 
@@ -28,9 +33,9 @@ The following table shows the sequence of actions and events that are required t
 
 For most files on the backup media, the requester needs to determine their original locations and any new locations or alternate location mappings that apply to them. (See [Generating a Restore Set](generating-a-restore-set.md) for a discussion of best practices in determining which files to restore and where to restore them.)
 
-In addition, some files may have [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) or support [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) restoration. The number of such files can be found by calling [**IVssComponent::GetDirectedTargetCount**](ivsscomponent-getdirectedtargetcount.md) and [**IVssComponent::GetPartialFileCount**](ivsscomponent-getpartialfilecount.md), and information on detailed restoration instructions can be found by calling [**IVssComponent::AddDirectedTarget**](ivsscomponent-adddirectedtarget.md) and [**IVssComponent::GetPartialFile**](ivsscomponent-getpartialfile.md). (Partial and directed files can be part of components added implicitly or explicitly to the original backup, see [Working with Selectability For Restore and Subcomponents](working-with-selectability-for-restore-and-subcomponents.md) for more information.)
+In addition, some files may have [*directed targets*](vssgloss-d.md#base-vssgloss-directed-targeting) or support [*partial file*](vssgloss-p.md#base-vssgloss-partial-file-support) restoration. The number of such files can be found by calling [**IVssComponent::GetDirectedTargetCount**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getdirectedtargetcount?branch=master) and [**IVssComponent::GetPartialFileCount**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getpartialfilecount?branch=master), and information on detailed restoration instructions can be found by calling [**IVssComponent::AddDirectedTarget**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-adddirectedtarget?branch=master) and [**IVssComponent::GetPartialFile**](/windows/win32/VsWriter/nf-vswriter-ivsscomponent-getpartialfile?branch=master). (Partial and directed files can be part of components added implicitly or explicitly to the original backup, see [Working with Selectability For Restore and Subcomponents](working-with-selectability-for-restore-and-subcomponents.md) for more information.)
 
-Success or failure of a restore is indicated on a component-by-component basis using [**IVssBackupComponents::SetFileRestoreStatus**](ivssbackupcomponents-setfilerestorestatus.md). The need for further restore operations (in the case of incremental or differential restores) is also indicated on a component-by-component basis using [**IVssBackupComponents::SetAdditionalRestores**](ivssbackupcomponents-setadditionalrestores.md).
+Success or failure of a restore is indicated on a component-by-component basis using [**IVssBackupComponents::SetFileRestoreStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setfilerestorestatus?branch=master). The need for further restore operations (in the case of incremental or differential restores) is also indicated on a component-by-component basis using [**IVssBackupComponents::SetAdditionalRestores**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores?branch=master).
 
 In general, VSS does not specify a mechanism for retrieving data from a storage media, a choice of storage medium, or how to determine which files should be restored where.
 

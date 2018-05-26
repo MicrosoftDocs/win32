@@ -4,11 +4,13 @@ description: Describes instances of Remote Desktop Services Per Device client ac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15825dc5-9ada-4c11-ac77-beb681e9b33c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 15825dc5-9ada-4c11-ac77-beb681e9b33c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSIssuedLicense class Remote Desktop Services", "Win32_TSIssuedLicense class Remote Desktop Services , described"]
+keywords:
+- Win32_TSIssuedLicense class Remote Desktop Services
+- Win32_TSIssuedLicense class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,11 +27,14 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSIssuedLicense class
 
-Describes instances of Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) that are issued from a Remote Desktop license server.
+Describes instances of Remote Desktop Services Per Device client access licenses (RDS Per Device CALs) that are issued from a Remote Desktop license server.
 
 ## Syntax
 
@@ -37,14 +42,14 @@ Describes instances of Remote Desktop Services Per Device client access licenses
 [dynamic, provider("Win32_WIN32_TERMSERVLICENSING_Prov"), AMENDMENT]
 class Win32_TSIssuedLicense
 {
-  uint32   LicenseId;
-  uint32   KeyPackId;
-  string   sIssuedToUser;
-  string   sIssuedToComputer;
-  uint32   LicenseStatus;
+  uint32   LicenseId;
+  uint32   KeyPackId;
+  string   sIssuedToUser;
+  string   sIssuedToComputer;
+  uint32   LicenseStatus;
   DATETIME IssueDate;
   DATETIME ExpirationDate;
-  string   sHardwareId;
+  string   sHardwareId;
 };
 ```
 
@@ -63,11 +68,11 @@ The **Win32\_TSIssuedLicense** class has these methods.
 
 | Method                                         | Description                                                                                               |
 |:-----------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| [**Revoke**](revoke-win32-tsissuedlicense.md) | Revokes the RDS Per Device CALs that are represented by the **Win32\_TSIssuedLicense** object.<br/> |
+| [**Revoke**](revoke-win32-tsissuedlicense.md) | Revokes the RDS Per Device CALs that are represented by the **Win32\_TSIssuedLicense** object.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -249,7 +254,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -272,9 +277,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,26 @@
 ---
-Description: 'Retrieves the next one or more IPortableDeviceConnector objects in the enumeration sequence.'
-ms.assetid: '5aed563a-5ecc-49c0-8a0c-622405453896'
-title: 'IEnumPortableDeviceConnectors::Next method'
+Description: Retrieves the next one or more IPortableDeviceConnector objects in the enumeration sequence.
+ms.assetid: 5aed563a-5ecc-49c0-8a0c-622405453896
+title: IEnumPortableDeviceConnectorsNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPortableDeviceConnectors::Next method
 
-The **Next** method retrieves the next one or more [**IPortableDeviceConnector**](iportabledeviceconnector.md) objects in the enumeration sequence.
+The **Next** method retrieves the next one or more [**IPortableDeviceConnector**](/windows/win32/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector?branch=master) objects in the enumeration sequence.
 
 ## Syntax
 
 
 ```C++
 HRESULT Next(
-  [in]      UINT32                   cRequested,
-  [out]     IPortableDeviceConnector **pConnectors,
-  [in, out] UINT32                   *pcFetched
+  [in]      UINT32                   cRequested,
+  [out]     IPortableDeviceConnector **pConnectors,
+  [in, out] UINT32                   *pcFetched
 );
 ```
 
@@ -35,14 +40,14 @@ The number of requested devices. This value also indicates the number of element
 *pConnectors* \[out\]
 </dt> <dd>
 
-An array of [**IPortableDeviceConnector**](iportabledeviceconnector.md) pointers, each specifying a paired MTP Bluetooth device. The caller must allocate an array of **IPortableDeviceConnector** pointers, with the array length specified by the *cRequested* parameter. On successful return, the caller must free both the array and the returned pointers. The **IPortableDeviceConnector** interfaces are freed by calling the **IUnknown::Release** method.
+An array of [**IPortableDeviceConnector**](/windows/win32/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector?branch=master) pointers, each specifying a paired MTP Bluetooth device. The caller must allocate an array of **IPortableDeviceConnector** pointers, with the array length specified by the *cRequested* parameter. On successful return, the caller must free both the array and the returned pointers. The **IPortableDeviceConnector** interfaces are freed by calling the **IUnknown::Release** method.
 
 </dd> <dt>
 
 *pcFetched* \[in, out\]
 </dt> <dd>
 
-The number of [**IPortableDeviceConnector**](iportabledeviceconnector.md) interfaces that are actually retrieved. If no **IPortableDeviceConnector** interfaces are retrieved and the return value is **S\_FALSE**, there are no more **IPortableDeviceConnector** interfaces to enumerate.
+The number of [**IPortableDeviceConnector**](/windows/win32/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector?branch=master) interfaces that are actually retrieved. If no **IPortableDeviceConnector** interfaces are retrieved and the return value is **S\_FALSE**, there are no more **IPortableDeviceConnector** interfaces to enumerate.
 
 </dd> </dl>
 
@@ -59,7 +64,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -105,7 +110,7 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
 
 |                                     |                                                                                                                                                                        |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>Devpkey.h; </dt> <dt>Portabledeviceconnectapi.h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi.idl</dt> </dl>                                                                |
@@ -120,9 +125,9 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
 [**IEnumPortableDeviceConnectors**](ienumportabledeviceconnectors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

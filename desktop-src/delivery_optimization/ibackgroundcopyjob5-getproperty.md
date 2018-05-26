@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob5 GetProperty method
 description: A generic method for getting Delivery Optimization (DO) job properties.
-ms.assetid: '22BA2FAB-3F24-4801-8FB7-CB6F9E8DFBB3'
-keywords: ["GetProperty method", "GetProperty method, IBackgroundCopyJob5 interface", "IBackgroundCopyJob5 interface, GetProperty method"]
+ms.assetid: 22BA2FAB-3F24-4801-8FB7-CB6F9E8DFBB3
+keywords:
+- GetProperty method
+- GetProperty method, IBackgroundCopyJob5 interface
+- IBackgroundCopyJob5 interface, GetProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob5::GetProperty method
@@ -22,8 +30,8 @@ A generic method for getting Delivery Optimization (DO) job properties.
 
 ```C++
 HRESULT GetProperty(
-  [in]  BITS_JOB_PROPERTY_ID    PropertyId,
-  [out] BITS_JOB_PROPERTY_VALUE *pPropertyValue
+  [in]  BITS_JOB_PROPERTY_ID    PropertyId,
+  [out] BITS_JOB_PROPERTY_VALUE *pPropertyValue
 );
 ```
 
@@ -59,7 +67,7 @@ The method returns the following return values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +75,7 @@ The method returns the following return values.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -87,9 +95,9 @@ The method returns the following return values.
 [**IBackgroundCopyJob5::SetProperty**](ibackgroundcopyjob5-setproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

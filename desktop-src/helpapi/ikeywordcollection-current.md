@@ -1,8 +1,11 @@
 ---
 title: IKeywordCollection Current property
 description: Gets the current IKeyword element in the collection
-ms.assetid: 'a92a74de-903b-4261-ae81-c7c737e1ec10'
-keywords: ["Current property HelpAPI", "Current property HelpAPI , IKeywordCollection interface", "IKeywordCollection interface HelpAPI , Current property"]
+ms.assetid: a92a74de-903b-4261-ae81-c7c737e1ec10
+keywords:
+- Current property HelpAPI
+- Current property HelpAPI , IKeywordCollection interface
+- IKeywordCollection interface HelpAPI , Current property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKeywordCollection::Current property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Current(
-  [out, retval] IUnknown **pRetVal
+  [out, retval] IUnknown **pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The current IKeyword element in the collection.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The current IKeyword element in the collection.
 [**IKeywordCollection**](ikeywordcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'To read from a file view, dereference the pointer returned by the MapViewOfFile function as shown in the examples below.'
-ms.assetid: 'c2a3da09-d116-4c2c-9e6c-ec9e80c88b99'
+Description: To read from a file view, dereference the pointer returned by the MapViewOfFile function as shown in the examples below.
+ms.assetid: c2a3da09-d116-4c2c-9e6c-ec9e80c88b99
 title: Reading and Writing From a File View
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading and Writing From a File View

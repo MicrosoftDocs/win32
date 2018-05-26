@@ -1,7 +1,12 @@
 ---
 title: Locators
 description: Locators
-ms.assetid: 'e2aaba05-0a1b-41d0-895d-1f54b1b9d9ce'
+ms.assetid: e2aaba05-0a1b-41d0-895d-1f54b1b9d9ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locators

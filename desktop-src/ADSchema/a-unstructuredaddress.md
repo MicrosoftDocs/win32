@@ -4,17 +4,21 @@ description: The IP address of the router (for example 100.11.22.33).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '60ca9fb4-c897-47cd-9bbe-751fff2e290a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 60ca9fb4-c897-47cd-9bbe-751fff2e290a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["unstructuredAddress attribute AD Schema"]
+keywords:
+- unstructuredAddress attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - unstructuredAddress
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # unstructuredAddress attribute

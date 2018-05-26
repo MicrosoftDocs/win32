@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryAccept method determines whether the pin accepts a specified media type. This method implements the IPin::QueryAccept method.'
-ms.assetid: '7aa25b45-5116-474b-afee-1eddc8b7fd2a'
-title: 'CBasePin.QueryAccept method'
+Description: The QueryAccept method determines whether the pin accepts a specified media type. This method implements the IPinQueryAccept method.
+ms.assetid: 7aa25b45-5116-474b-afee-1eddc8b7fd2a
+title: CBasePin.QueryAccept method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.QueryAccept method
 
-The `QueryAccept` method determines whether the pin accepts a specified media type. This method implements the [**IPin::QueryAccept**](ipin-queryaccept.md) method.
+The `QueryAccept` method determines whether the pin accepts a specified media type. This method implements the [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryAccept(
-   const AM_MEDIA_TYPE *pmt
+   const AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT QueryAccept(
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type.
 
 </dd> </dl>
 
@@ -58,9 +63,9 @@ This method does not hold the pin's critical section ([**CBasePin::m\_pLock**](c
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

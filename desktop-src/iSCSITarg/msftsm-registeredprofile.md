@@ -4,13 +4,15 @@ description: Describes a set of Common Information Model (CIM) classes, properti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20207a3f-3dcb-4df2-9a20-bef74f3c7997'
-ms.prod: 'windows-server-dev'
+ms.assetid: 20207a3f-3dcb-4df2-9a20-bef74f3c7997
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFTSM_RegisteredProfile class iSCSI Software Target API", "MSFTSM_RegisteredProfile class iSCSI Software Target API , described"]
+keywords:
+- MSFTSM_RegisteredProfile class iSCSI Software Target API
+- MSFTSM_RegisteredProfile class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFTSM\_RegisteredProfile class
@@ -58,7 +63,7 @@ The **MSFTSM\_RegisteredProfile** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +72,7 @@ The **MSFTSM\_RegisteredProfile** class has these methods.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\Interop<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -84,9 +89,9 @@ The **MSFTSM\_RegisteredProfile** class has these methods.
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

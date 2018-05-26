@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the current matrix at the top of the stack.'
-ms.assetid: 'cf379742-3e7d-4309-a7af-b97348428682'
-title: 'ID3DXMATRIXStack::GetTop method'
+---
+Description: Retrieves the current matrix at the top of the stack.
+ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
+title: ID3DXMATRIXStackGetTop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::GetTop method

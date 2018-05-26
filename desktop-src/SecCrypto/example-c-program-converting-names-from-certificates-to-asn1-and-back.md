@@ -1,7 +1,12 @@
 ---
-Description: 'Enumerates the certificates in a certificate store, displays the subject and user of each certificate, and converts the subject name from each certificate into its Abstract Syntax Notation One (ASN.1) encoded form, and then back in to its decoded form.'
-ms.assetid: '8b4771da-0996-40fb-98ce-73efe8e3534f'
-title: 'Example C Program: Converting Names from Certificates to ASN.1 and Back'
+Description: Enumerates the certificates in a certificate store, displays the subject and user of each certificate, and converts the subject name from each certificate into its Abstract Syntax Notation One (ASN.1) encoded form, and then back in to its decoded form.
+ms.assetid: 8b4771da-0996-40fb-98ce-73efe8e3534f
+title: Example C Program Converting Names from Certificates to ASN.1 and Back
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Converting Names from Certificates to ASN.1 and Back
@@ -10,12 +15,12 @@ The following example enumerates the certificates in a [*certificate store*](sec
 
 This example shows the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Opening a system store using [**CertOpenSystemStore**](certopensystemstore.md).
--   Using [**CertEnumCertificatesInStore**](certenumcertificatesinstore.md) to get the first certificate from the open store.
--   Using [**CertGetNameString**](certgetnamestring.md) to get the subject name and the user name from the certificate.
--   Using [**CertNameToStr**](certnametostr.md) to convert the subject name from the certificate into its ASN.1 encoded form.
--   Using [**CertStrToName**](certstrtoname.md) to convert an ASN.1 encoded string into its decoded form.
--   Closing a certificate store using [**CertCloseStore**](certclosestore.md) with the **CERT\_CLOSE\_STORE\_CHECK\_FLAG** flag.
+-   Opening a system store using [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master).
+-   Using [**CertEnumCertificatesInStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatesinstore?branch=master) to get the first certificate from the open store.
+-   Using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master) to get the subject name and the user name from the certificate.
+-   Using [**CertNameToStr**](/windows/win32/Wincrypt/nf-wincrypt-certnametostra?branch=master) to convert the subject name from the certificate into its ASN.1 encoded form.
+-   Using [**CertStrToName**](/windows/win32/Wincrypt/nf-wincrypt-certstrtonamea?branch=master) to convert an ASN.1 encoded string into its decoded form.
+-   Closing a certificate store using [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master) with the **CERT\_CLOSE\_STORE\_CHECK\_FLAG** flag.
 
 
 ```C++

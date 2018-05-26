@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_ISDNType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents an ISDN record.
-ms.assetid: '8925042c-65d3-465f-aedd-9f7c862620b5'
-keywords: ["MicrosoftDNS_ISDNType class DNS", "MicrosoftDNS_ISDNType class DNS , described"]
+ms.assetid: 8925042c-65d3-465f-aedd-9f7c862620b5
+keywords:
+- MicrosoftDNS_ISDNType class DNS
+- MicrosoftDNS_ISDNType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_ISDNType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_ISDNType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ Subaddress of the owner, if defined.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ Subaddress of the owner, if defined.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

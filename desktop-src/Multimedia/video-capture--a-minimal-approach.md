@@ -1,8 +1,15 @@
 ---
 title: Video Capture A Minimal Approach
 description: Video Capture A Minimal Approach
-ms.assetid: 'e39ff590-69c0-4927-90c2-786c6082068f'
-keywords: ["Video for Windows (VFW),video capture", "VFW (Video for Windows),video capture"]
+ms.assetid: e39ff590-69c0-4927-90c2-786c6082068f
+keywords:
+- Video for Windows (VFW),video capture
+- VFW (Video for Windows),video capture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Capture: A Minimal Approach
@@ -39,7 +46,7 @@ capCaptureSequence (hWndC);
 
 
 
-After your application creates a capture window of the AVICap window class and connects it to a video driver, the capture window is ready to capture data. At this point, your application can simply send the [**WM\_CAP\_SEQUENCE**](wm-cap-sequence.md) message (or the [**capCaptureSequence**](capcapturesequence.md) macro) to begin capturing.
+After your application creates a capture window of the AVICap window class and connects it to a video driver, the capture window is ready to capture data. At this point, your application can simply send the [**WM\_CAP\_SEQUENCE**](wm-cap-sequence.md) message (or the [**capCaptureSequence**](/windows/win32/Vfw/nf-vfw-capcapturesequence?branch=master) macro) to begin capturing.
 
 Using default settings, WM\_CAP\_SEQUENCE initiates the capture of video and audio input to a file named CAPTURE.AVI. Capture continues until one of the following events occurs:
 
@@ -47,7 +54,7 @@ Using default settings, WM\_CAP\_SEQUENCE initiates the capture of video and aud
 -   Your application stops or aborts capture operation.
 -   The disk becomes full.
 
-In an application, you can stop streaming captured data to a file by sending the [**WM\_CAP\_STOP**](wm-cap-stop.md) (or the [**capCaptureStop**](capcapturestop.md) macro) message to a capture window. You can also abort the capture operation by sending the [**WM\_CAP\_ABORT**](wm-cap-abort.md) message (or the [**capCaptureAbort**](capcaptureabort.md) macro) to a capture window.
+In an application, you can stop streaming captured data to a file by sending the [**WM\_CAP\_STOP**](wm-cap-stop.md) (or the [**capCaptureStop**](/windows/win32/Vfw/nf-vfw-capcapturestop?branch=master) macro) message to a capture window. You can also abort the capture operation by sending the [**WM\_CAP\_ABORT**](wm-cap-abort.md) message (or the [**capCaptureAbort**](/windows/win32/Vfw/nf-vfw-capcaptureabort?branch=master) macro) to a capture window.
 
  
 

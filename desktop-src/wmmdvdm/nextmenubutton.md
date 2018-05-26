@@ -1,14 +1,20 @@
 ---
 title: NextMenuButton element
 description: Specifies the location and size of the \ 0034;Next Menu \ 0034; button.
-ms.assetid: '6f544791-14c1-46b5-9131-9425d39dc05c'
-keywords: ["NextMenuButton element Windows Movie Maker and DVD Maker"]
+ms.assetid: 6f544791-14c1-46b5-9131-9425d39dc05c
+keywords:
+- NextMenuButton element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - NextMenuButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NextMenuButton element
@@ -49,7 +55,7 @@ When available, the "Next Menu" button sends users from the current scenes menu 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -94,9 +100,9 @@ When available, the "Next Menu" button sends users from the current scenes menu 
 [**ScenesMenu6 Element**](scenesmenu6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

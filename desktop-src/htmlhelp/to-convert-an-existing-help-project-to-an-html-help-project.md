@@ -1,7 +1,12 @@
 ---
 title: To convert an existing help project to an HTML Help project
 description: To convert an existing help project to an HTML Help project
-ms.assetid: '45402CA5-1B5E-4de9-AB4D-1D31FE4C1CBB'
+ms.assetid: 45402CA5-1B5E-4de9-AB4D-1D31FE4C1CBB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To convert an existing help project to an HTML Help project

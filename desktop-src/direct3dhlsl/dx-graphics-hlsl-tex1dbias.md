@@ -1,14 +1,20 @@
 ---
 title: tex1Dbias
 description: Samples a 1D texture after biasing the mip level by t.w.
-ms.assetid: '2619ae23-e4b2-4699-b2ac-5ee711f9569a'
-keywords: ["tex1Dbias HLSL"]
+ms.assetid: 2619ae23-e4b2-4699-b2ac-5ee711f9569a
+keywords:
+- tex1Dbias HLSL
 topic_type:
 - apiref
 api_name:
 - tex1Dbias
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex1Dbias
@@ -22,7 +28,7 @@ Samples a 1D texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 1D texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

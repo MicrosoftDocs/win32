@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Windows HTTP Services (WinHTTP) trace configuration tool, WinHttpTraceCfg.exe, is used to configure trace capabilities for debugging and packet-sniffing purposes.'
-ms.assetid: '744cae92-9c64-459e-96eb-eb609e62183c'
-title: 'WinHttpTraceCfg.exe, a Trace Configuration Tool'
+Description: The Microsoft Windows HTTP Services (WinHTTP) trace configuration tool, WinHttpTraceCfg.exe, is used to configure trace capabilities for debugging and packet-sniffing purposes.
+ms.assetid: 744cae92-9c64-459e-96eb-eb609e62183c
+title: WinHttpTraceCfg.exe, a Trace Configuration Tool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHttpTraceCfg.exe, a Trace Configuration Tool
@@ -60,7 +65,7 @@ The following table lists possible parameters for the configuration tool.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>-l</td>
@@ -85,7 +90,7 @@ The following table lists possible parameters for the configuration tool.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>-s</td>
@@ -108,7 +113,7 @@ The following table lists possible parameters for the configuration tool.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>-t</td>
@@ -127,7 +132,7 @@ The following table lists possible parameters for the configuration tool.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>-m</td>
@@ -138,14 +143,14 @@ The following table lists possible parameters for the configuration tool.
 
 
 
- 
+ 
 
 Running the trace facility configuration tool and specifying no parameters retrieves and displays the current registry settings.
 
 > [!Note]  
 > Log files grow rapidly and degrade application performance. Ensure that the required hard disk drive space is available before enabling the trace facility.
 
- 
+ 
 
 ## Interpreting Trace Data
 
@@ -165,9 +170,9 @@ When a log entry corresponds to a function call, the parameters of the function 
 
 The format of HTTP data depends on the registry settings specified with the trace facility configuration tool. When HTTP data is encrypted, the decrypted data is also shown in the trace output.
 
- 
+ 
 
- 
+ 
 
 
 

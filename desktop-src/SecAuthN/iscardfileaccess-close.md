@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Close method closes the specified file. No further access to file is allowed.'
-ms.assetid: 'fecce23e-8604-4a87-9efb-a26e2498c2f3'
-title: 'ISCardFileAccess::Close method'
+---
+Description: The Close method closes the specified file. No further access to file is allowed.
+ms.assetid: fecce23e-8604-4a87-9efb-a26e2498c2f3
+title: ISCardFileAccessClose method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::Close method

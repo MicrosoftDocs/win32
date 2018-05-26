@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetPropA function
 description: Do not use. Gets the value of the specified property.
-ms.assetid: '53e1f5d4-d73c-4ae3-b333-8650e00e61c5'
-keywords: ["MimeOleGetPropA function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 53e1f5d4-d73c-4ae3-b333-8650e00e61c5
+keywords:
+- MimeOleGetPropA function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetPropA function
@@ -23,10 +29,10 @@ Do not use. Gets the value of the specified property.
 
 ```C++
 HRESULT MimeOleGetPropA(
-  _In_  IMimePropertySet *pPropertyset,
-  _In_  LPCSTR           pszName,
-  _In_  DWORD            dwFlags,
-  _Out_ LPSTR            *ppszData
+  _In_  IMimePropertySet *pPropertyset,
+  _In_  LPCSTR           pszName,
+  _In_  DWORD            dwFlags,
+  _Out_ LPSTR            *ppszData
 );
 ```
 
@@ -92,7 +98,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,8 +106,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -117,9 +123,9 @@ Returns one of the following values.
 [**MimeOleGetPropW**](oe-mimeolegetpropw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

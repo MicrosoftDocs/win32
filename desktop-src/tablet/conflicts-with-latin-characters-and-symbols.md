@@ -1,12 +1,17 @@
 ---
-Description: 'The following table lists conflicts of this type that have been identified for Latin characters and symbols.'
-ms.assetid: '21d5f206-dc83-458b-912d-befa15160450'
+Description: The following table lists conflicts of this type that have been identified for Latin characters and symbols.
+ms.assetid: 21d5f206-dc83-458b-912d-befa15160450
 title: Conflicts with Latin characters and symbols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conflicts with Latin characters and symbols
 
-The following table lists conflicts of this type that have been identified for Latin characters and symbols. See [**ApplicationGesture**](inkapplicationgesture.md) for more information.
+The following table lists conflicts of this type that have been identified for Latin characters and symbols. See [**ApplicationGesture**](/windows/win32/msinkaut/ne-msinkaut-inkapplicationgesture?branch=master) for more information.
 
 
 
@@ -30,11 +35,11 @@ The following table lists conflicts of this type that have been identified for L
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

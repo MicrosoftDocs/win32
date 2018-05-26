@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows 7 and later, you can add verbs to a folder by using Desktop.ini. For more information about Desktop.ini files, see How to Customize Folders with Desktop.ini.'
-ms.assetid: 'F03AB35D-FBFE-46C2-A37F-F70C18219B9A'
-title: 'How to Implement Custom Verbs for Folders through Desktop.ini'
+Description: In Windows 7 and later, you can add verbs to a folder by using Desktop.ini. For more information about Desktop.ini files, see How to Customize Folders with Desktop.ini.
+ms.assetid: F03AB35D-FBFE-46C2-A37F-F70C18219B9A
+title: How to Implement Custom Verbs for Folders through Desktop.ini
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement Custom Verbs for Folders through Desktop.ini

@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_EXTENDED\_STORAGE\_INFO structure
 description: Contains information about the capabilities and enrollment requirements of the storage adapter for a biometric unit.
-ms.assetid: '7A648610-E947-4967-A9AF-C8A9C0B81D92'
-keywords: ["WINBIO_EXTENDED_STORAGE_INFO structure Windows Biometric Framework API", "PWINBIO_EXTENDED_STORAGE_INFO structure pointer Windows Biometric Framework API"]
+ms.assetid: 7A648610-E947-4967-A9AF-C8A9C0B81D92
+keywords:
+- WINBIO_EXTENDED_STORAGE_INFO structure Windows Biometric Framework API
+- PWINBIO_EXTENDED_STORAGE_INFO structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EXTENDED\_STORAGE\_INFO structure
@@ -22,23 +29,23 @@ Contains information about the capabilities and enrollment requirements of the s
 
 ```C++
 typedef struct _WINBIO_EXTENDED_STORAGE_INFO {
-  WINBIO_CAPABILITIES   GenericStorageCapabilities;
+  WINBIO_CAPABILITIES   GenericStorageCapabilities;
   WINBIO_BIOMETRIC_TYPE Factor;
   union {
     ULONG32 Null;
     struct {
       WINBIO_CAPABILITIES Capabilities;
-    } FacialFeatures;
+    } FacialFeatures;
     struct {
       WINBIO_CAPABILITIES Capabilities;
-    } Fingerprint;
+    } Fingerprint;
     struct {
       WINBIO_CAPABILITIES Capabilities;
-    } Iris;
+    } Iris;
     struct {
       WINBIO_CAPABILITIES Capabilities;
-    } Voice;
-  } Specific;
+    } Voice;
+  } Specific;
 } WINBIO_EXTENDED_STORAGE_INFO, *PWINBIO_EXTENDED_STORAGE_INFO;
 ```
 
@@ -138,8 +145,8 @@ The voice recognition capabilities of the storage component that is connected to
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -154,9 +161,9 @@ The voice recognition capabilities of the storage component that is connected to
 [**WINBIO\_CAPABILITY Constants**](winbio-capability-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

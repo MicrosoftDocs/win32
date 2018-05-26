@@ -1,7 +1,12 @@
 ---
-Description: 'There are several ways to use Windows Search to query the index.'
-ms.assetid: '2c161b7f-4e28-4e8a-add6-3c1cda00a622'
+Description: There are several ways to use Windows Search to query the index.
+ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
 title: Querying the Index Programmatically
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying the Index Programmatically
@@ -17,7 +22,7 @@ This section provides the conceptual framework for querying the index programmat
 -   [Using Advanced Query Syntax Programmatically](-search-3x-advancedquerysyntax.md)
 
 > [!Note]  
-> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and later, [**ISearchDesktop**](search._search_2x_ISearchDesktop) is deprecated. Instead, developers should use [**ISearchQueryHelper**](-search-isearchqueryhelper.md) to get a connection string and to parse the user's query into Structured Query Language (SQL), and then query through Object Linking and Embedding Database (OLE DB).
+> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and later, [**ISearchDesktop**](search._search_2x_ISearchDesktop) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master) to get a connection string and to parse the user's query into Structured Query Language (SQL), and then query through Object Linking and Embedding Database (OLE DB).
 
  
 

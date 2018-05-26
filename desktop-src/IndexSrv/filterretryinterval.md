@@ -1,7 +1,12 @@
 ---
 title: FilterRetryInterval
 description: FilterRetryInterval
-ms.assetid: '106c88d8-2c7b-4d5c-8539-31919cae9940'
+ms.assetid: 106c88d8-2c7b-4d5c-8539-31919cae9940
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterRetryInterval

@@ -1,8 +1,10 @@
 ---
 title: NNTPNEXT structure
 description: This structure will be used for the response from CommandNEXT, CommandLAST, and CommandSTAT.
-ms.assetid: '9fa6f68d-5270-4de6-a474-c8538c4c255e'
-keywords: ["NNTPNEXT structure Windows Mail (formerly Outlook Express)", "LPNNTPNEXT structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 9fa6f68d-5270-4de6-a474-c8538c4c255e
+keywords:
+- NNTPNEXT structure Windows Mail (formerly Outlook Express)
+- LPNNTPNEXT structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NNTPNEXT structure
@@ -63,17 +70,17 @@ Message ID
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The following topic describes how to retrieve the on-line programming documentation for a dynamically-created raw or formatted data object.'
+Description: The following topic describes how to retrieve the on-line programming documentation for a dynamically-created raw or formatted data object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'B3CD7E2C-9FCF-42FB-8713-01A696E905B0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: B3CD7E2C-9FCF-42FB-8713-01A696E905B0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Documentation for Raw and Formatted Performance Data Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving Documentation for Raw and Formatted Performance Data Objects

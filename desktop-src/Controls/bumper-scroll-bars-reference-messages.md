@@ -1,7 +1,12 @@
 ---
 title: Scroll Bar Messages
 description: .
-ms.assetid: '5f9b4d30-3c88-4804-82f3-1d0a6c6a2ad4'
+ms.assetid: 5f9b4d30-3c88-4804-82f3-1d0a6c6a2ad4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scroll Bar Messages

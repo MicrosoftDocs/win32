@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_POKE message
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_POKE message to a DDE server application.
-ms.assetid: '848142b7-a7ef-4206-9bb3-b511388cfaaa'
-keywords: ["WM_DDE_POKE message Data Exchange"]
+ms.assetid: 848142b7-a7ef-4206-9bb3-b511388cfaaa
+keywords:
+- WM_DDE_POKE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_POKE message
@@ -40,7 +46,7 @@ A handle to the client window posting the message.
 *lParam* 
 </dt> <dd>
 
-The low-order word is a handle to a global memory object containing a [**DDEPOKE**](ddepoke.md) structure with the data and additional information.
+The low-order word is a handle to a global memory object containing a [**DDEPOKE**](/windows/win32/Dde/ns-dde-ddepoke?branch=master) structure with the data and additional information.
 
 The high-order word contains a global atom that identifies the data item for which the data or notification is being sent.
 
@@ -55,19 +61,19 @@ The client application must allocate memory for the global memory object using t
 -   The server application responds with a negative [**WM\_DDE\_ACK**](wm-dde-ack.md) message.
 -   The **fRelease** member is **FALSE**, but the server application responds with either a positive or negative [**WM\_DDE\_ACK**](wm-dde-ack.md).
 
-The client application must create the atom using the [**GlobalAddAtom**](globaladdatom.md) function.
+The client application must create the atom using the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) function.
 
-The client application must create or reuse the **WM\_DDE\_POKE** *lParam* parameter by calling the [**PackDDElParam**](packddelparam.md) function or the [**ReuseDDElParam**](reuseddelparam.md) function.
+The client application must create or reuse the **WM\_DDE\_POKE** *lParam* parameter by calling the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function or the [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master) function.
 
 ### Receiving
 
 The server application should post the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to respond positively or negatively. When posting **WM\_DDE\_ACK**, the server can either reuse the atom, or it can delete it and create a new one.
 
-The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* parameter by calling the [**PackDDElParam**](packddelparam.md) function or the [**ReuseDDElParam**](reuseddelparam.md) function.
+The server must create or reuse the [**WM\_DDE\_ACK**](wm-dde-ack.md) *lParam* parameter by calling the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function or the [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master) function.
 
-To free the global memory object, the server should call the [**GlobalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366579) function. Also, if the data format is either [**CF\_DSPMETAFILEPICT**](clipboard-formats.md#standard-clipboard-formats) or **CF\_METAFILEPICT**, the server must also call [**DeleteMetaFile**](https://msdn.microsoft.com/library/windows/desktop/dd183537) with the embedded metafile handle. These two formats have an extra level of indirection; that is, an application must lock the object to get a pointer to a handle, then lock that handle to get a pointer to a [**METAFILEPICT**](metafilepict.md) structure, and finally call **DeleteMetaFile** with the handle from the **hMF** member of the **METAFILEPICT** structure.
+To free the global memory object, the server should call the [**GlobalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366579) function. Also, if the data format is either [**CF\_DSPMETAFILEPICT**](clipboard-formats.md#standard-clipboard-formats) or **CF\_METAFILEPICT**, the server must also call [**DeleteMetaFile**](https://msdn.microsoft.com/library/windows/desktop/dd183537) with the embedded metafile handle. These two formats have an extra level of indirection; that is, an application must lock the object to get a pointer to a handle, then lock that handle to get a pointer to a [**METAFILEPICT**](/windows/win32/Wingdi/ns-wingdi-tagmetafilepict?branch=master) structure, and finally call **DeleteMetaFile** with the handle from the **hMF** member of the **METAFILEPICT** structure.
 
-To free the object, the server should call the [**FreeDDElParam**](freeddelparam.md) function.
+To free the object, the server should call the [**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master) function.
 
 ## Requirements
 
@@ -75,8 +81,8 @@ To free the object, the server should call the [**FreeDDElParam**](freeddelparam
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -88,31 +94,31 @@ To free the object, the server should call the [**FreeDDElParam**](freeddelparam
 **Reference**
 </dt> <dt>
 
-[**DDEPOKE**](ddepoke.md)
+[**DDEPOKE**](/windows/win32/Dde/ns-dde-ddepoke?branch=master)
 </dt> <dt>
 
-[**FreeDDElParam**](freeddelparam.md)
+[**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master)
 </dt> <dt>
 
-[**GlobalAddAtom**](globaladdatom.md)
+[**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master)
 </dt> <dt>
 
-[**METAFILEPICT**](metafilepict.md)
+[**METAFILEPICT**](/windows/win32/Wingdi/ns-wingdi-tagmetafilepict?branch=master)
 </dt> <dt>
 
-[**PackDDElParam**](packddelparam.md)
+[**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
 </dt> <dt>
 
-[**ReuseDDElParam**](reuseddelparam.md)
+[**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)
 </dt> <dt>
 
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**UnpackDDElParam**](unpackddelparam.md)
+[**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)
@@ -124,9 +130,9 @@ To free the object, the server should call the [**FreeDDElParam**](freeddelparam
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

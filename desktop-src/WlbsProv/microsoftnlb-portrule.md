@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_PortRule \ 32;WMI class is an abstract base class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc019a96-17ac-4e5f-863e-444347f8b1c2'
-ms.prod: 'windows-server-dev'
+ms.assetid: fc019a96-17ac-4e5f-863e-444347f8b1c2
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_PortRule class", "MicrosoftNLB_PortRule class, described"]
+keywords:
+- MicrosoftNLB_PortRule class
+- MicrosoftNLB_PortRule class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_PortRule class
@@ -71,7 +76,7 @@ The **MicrosoftNLB\_PortRule** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -239,7 +244,7 @@ The **MicrosoftNLB\_PortRule** class is derived from the [**CIM\_Setting**](http
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -256,9 +261,9 @@ The **MicrosoftNLB\_PortRule** class is derived from the [**CIM\_Setting**](http
 [**MicrosoftNLB\_PortRuleEx**](microsoftnlb-portruleex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

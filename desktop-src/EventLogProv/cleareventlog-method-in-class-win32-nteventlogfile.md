@@ -1,7 +1,12 @@
 ---
-Description: 'The ClearEventLog method clears the specified event log.'
-ms.assetid: 'cbc15964-11b3-41d4-a82e-ab10c4947189'
-title: 'ClearEventLog method of the Win32\_NTEventlogFile class'
+Description: The ClearEventLog method clears the specified event log.
+ms.assetid: cbc15964-11b3-41d4-a82e-ab10c4947189
+title: ClearEventLog method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClearEventLog method of the Win32\_NTEventlogFile class
@@ -15,7 +20,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ClearEventLog(
-  [in] string ArchiveFileName
+  [in] string ArchiveFileName
 );
 ```
 
@@ -33,7 +38,7 @@ Path and file name of the file to be cleared.
 > [!Note]  
 > If the *ArchiveFileName* comes from a source that you do not know or trust, then this value should be verified before using it in a call to **ClearEventLog**.
 
- 
+ 
 
 </dd> </dl>
 
@@ -49,7 +54,7 @@ Path and file name of the file to be cleared.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -58,7 +63,7 @@ The following VBScript sample demonstrates how to clear the entries from the Sys
 > [!Note]  
 > A backup file can be specified to the **ClearEventLog** method if a backup of the data is desired before clearing the log.
 
- 
+ 
 
 
 ```VB
@@ -77,7 +82,7 @@ The following perl sample demonstrates how to clear the entries from the System 
 > [!Note]  
 > A backup file can be specified to the **ClearEventLog** method if a backup of the data is desired before clearing the log.
 
- 
+ 
 
 
 ```
@@ -118,8 +123,8 @@ else
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | Header<br/>                   | <dl> <dt>Winbase.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
@@ -140,9 +145,9 @@ else
 [WMI Tasks: Event Logs](https://msdn.microsoft.com/library/aa394593)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

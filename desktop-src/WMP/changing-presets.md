@@ -1,8 +1,21 @@
 ---
 title: Changing Presets
 description: Changing Presets
-ms.assetid: 'f8a5565d-676b-4679-a4cb-4bd7551cf41c'
-keywords: ["visualizations,Glow sample", "custom visualizations,Glow sample", "programming guide,visualizations", "samples,Glow visualization", "Glow visualization sample", "visualizations,presets", "custom visualizations,presets", "presets in visualizations,Glow sample"]
+ms.assetid: f8a5565d-676b-4679-a4cb-4bd7551cf41c
+keywords:
+- visualizations,Glow sample
+- custom visualizations,Glow sample
+- programming guide,visualizations
+- samples,Glow visualization
+- Glow visualization sample
+- visualizations,presets
+- custom visualizations,presets
+- presets in visualizations,Glow sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Presets

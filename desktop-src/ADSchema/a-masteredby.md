@@ -4,17 +4,22 @@ description: Backward link for Has-Master-NCs attribute. The distinguished name 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bd14998c-1691-4167-83c4-3c1ec1181b7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bd14998c-1691-4167-83c4-3c1ec1181b7f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Mastered-By attribute AD Schema", "masteredBy attribute AD Schema"]
+keywords:
+- Mastered-By attribute AD Schema
+- masteredBy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Mastered-By
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mastered-By attribute
@@ -38,13 +43,13 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

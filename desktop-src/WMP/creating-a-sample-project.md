@@ -1,8 +1,27 @@
 ---
 title: Creating a Sample Project
 description: Creating a Sample Project
-ms.assetid: '9cbbd1a7-88e7-4947-8dca-e06e364102f7'
-keywords: ["Windows Media Player online stores,creating sample projects", "online stores,creating sample projects", "type 2 online stores,creating sample projects", "Windows Media Player online stores,sample projects", "online stores,sample projects", "type 2 online stores,sample projects", "Windows Media Player online stores,project wizard", "online stores,project wizard", "type 2 online stores,project wizard", "plug-ins,project wizard", "Windows Media Player plug-ins,project wizard", "creating sample projects", "samples,type 2 online stores", "project wizard"]
+ms.assetid: 9cbbd1a7-88e7-4947-8dca-e06e364102f7
+keywords:
+- Windows Media Player online stores,creating sample projects
+- online stores,creating sample projects
+- type 2 online stores,creating sample projects
+- Windows Media Player online stores,sample projects
+- online stores,sample projects
+- type 2 online stores,sample projects
+- Windows Media Player online stores,project wizard
+- online stores,project wizard
+- type 2 online stores,project wizard
+- plug-ins,project wizard
+- Windows Media Player plug-ins,project wizard
+- creating sample projects
+- samples,type 2 online stores
+- project wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Sample Project
@@ -55,10 +74,10 @@ The wizard creates the following files for you:
 [**Building the Plug-in for a Type 2 Online Store**](building-the-plug-in-for-a-type-2-online-store.md)
 </dt> <dt>
 
-[**IWMPSubscriptionService Interface**](iwmpsubscriptionservice.md)
+[**IWMPSubscriptionService Interface**](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice?branch=master)
 </dt> <dt>
 
-[**IWMPSubscriptionService2 Interface**](iwmpsubscriptionservice2.md)
+[**IWMPSubscriptionService2 Interface**](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,23 @@
 ---
 title: About Raw Input
 description: This topic discusses user-input from devices such as joysticks, touch screens, and microphones.
-ms.assetid: '013ed309-f667-47ed-ade0-5e7ca5a0997a'
-keywords: ["user input,raw input", "capturing user input,raw input", "raw input", "registering raw input", "reading raw input", "joystick raw input", "touch screen raw input", "microphone raw input", "Human Interface Device (HID)", "HID (Human Interface Device)"]
+ms.assetid: 013ed309-f667-47ed-ade0-5e7ca5a0997a
+keywords:
+- user input,raw input
+- capturing user input,raw input
+- raw input
+- registering raw input
+- reading raw input
+- joystick raw input
+- touch screen raw input
+- microphone raw input
+- Human Interface Device (HID)
+- HID (Human Interface Device)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Raw Input

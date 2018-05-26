@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the image compression level.'
-ms.assetid: '9a7f9afd-cd12-4a8e-b9c2-3ce59a676eb2'
-title: 'System.Image.CompressedBitsPerPixel'
+Description: Indicates the image compression level.
+ms.assetid: 9a7f9afd-cd12-4a8e-b9c2-3ce59a676eb2
+title: System.Image.CompressedBitsPerPixel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.CompressedBitsPerPixel

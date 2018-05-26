@@ -1,8 +1,16 @@
 ---
 title: Windows Media Player Plug-ins
 description: Windows Media Player Plug-ins
-ms.assetid: '6265084b-e1ff-455b-aca8-dc008d94ed43'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player plug-ins,about", "plug-ins,about"]
+ms.assetid: 6265084b-e1ff-455b-aca8-dc008d94ed43
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player plug-ins,about
+- plug-ins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Plug-ins

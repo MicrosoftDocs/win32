@@ -1,13 +1,16 @@
 ---
-Description: 'To diagnose problems when using DSDE, create a log file when issuing a DSDE command. The /log option is used to generate a log file.'
+Description: To diagnose problems when using DSDE, create a log file when issuing a DSDE command. The /log option is used to generate a log file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '0efd0e60-1e8c-4c21-9d42-cbe024732463'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 0efd0e60-1e8c-4c21-9d42-cbe024732463
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Diagnosing Errors with a Log File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Diagnosing Errors with a Log File

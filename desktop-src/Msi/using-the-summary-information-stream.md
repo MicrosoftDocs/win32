@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes which functions in the Windows Installer API can call the summary information stream properties. For more information on the summary information stream and how it works with databases, see About the Summary Information Stream.'
-ms.assetid: '2c22fe52-52a9-4e3f-9482-b5e41b91b3ae'
+Description: This section describes which functions in the Windows Installer API can call the summary information stream properties. For more information on the summary information stream and how it works with databases, see About the Summary Information Stream.
+ms.assetid: 2c22fe52-52a9-4e3f-9482-b5e41b91b3ae
 title: Using the Summary Information Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Summary Information Stream
@@ -15,12 +20,12 @@ The following steps describe how to use the summary information stream functions
 
 **To use the summary information stream properties**
 
-1.  Obtain a handle to the database containing the summary information stream by calling the [**MsiGetSummaryInformation**](msigetsummaryinformation.md) function.
-2.  Call the [**MsiSummaryInfoGetPropertyCount**](msisummaryinfogetpropertycount.md) function to obtain the number of existing properties.
-3.  Call the [**MsiSummaryInfoGetProperty**](msisummaryinfogetproperty.md) function to view a single summary information property.
-4.  Call the [**MsiSummaryInfoSetProperty**](msisummaryinfosetproperty.md) function to set a single property
-5.  Call the [**MsiSummaryInfoPersist**](msisummaryinfopersist.md) function to save the summary information property.
-6.  Call the [**MsiCreateTransformSummaryInfo**](msicreatetransformsummaryinfo.md) function to create the summary information for an existing transform.
+1.  Obtain a handle to the database containing the summary information stream by calling the [**MsiGetSummaryInformation**](/windows/win32/Msiquery/nf-msiquery-msigetsummaryinformationa?branch=master) function.
+2.  Call the [**MsiSummaryInfoGetPropertyCount**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfogetpropertycount?branch=master) function to obtain the number of existing properties.
+3.  Call the [**MsiSummaryInfoGetProperty**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfogetpropertya?branch=master) function to view a single summary information property.
+4.  Call the [**MsiSummaryInfoSetProperty**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfosetpropertya?branch=master) function to set a single property
+5.  Call the [**MsiSummaryInfoPersist**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfopersist?branch=master) function to save the summary information property.
+6.  Call the [**MsiCreateTransformSummaryInfo**](/windows/win32/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa?branch=master) function to create the summary information for an existing transform.
 
 [Orca.exe](orca-exe.md) and [Msiinfo.exe](msiinfo-exe.md) are tools that can be used to edit or display the summary information stream of a database. These tools are only available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).
 

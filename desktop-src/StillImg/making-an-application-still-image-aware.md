@@ -1,7 +1,12 @@
 ---
 title: Making an Application Still Image-Aware
 description: Existing applications must be revised to make use of the Still Image (STI) push model behavior.
-ms.assetid: '6fa6af12-4aea-4143-af8e-967473b571b4'
+ms.assetid: 6fa6af12-4aea-4143-af8e-967473b571b4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making an Application Still Image-Aware

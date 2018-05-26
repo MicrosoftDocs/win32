@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Read method reads and returns the specified data from a given file.'
-ms.assetid: '697b8dfa-754b-46cf-ab5c-1ac1d8ae47f2'
-title: 'ISCardFileAccess::Read method'
+---
+Description: The Read method reads and returns the specified data from a given file.
+ms.assetid: 697b8dfa-754b-46cf-ab5c-1ac1d8ae47f2
+title: ISCardFileAccessRead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::Read method

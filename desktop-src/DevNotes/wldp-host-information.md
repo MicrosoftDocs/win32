@@ -1,7 +1,12 @@
-﻿---
-Description: 'A structure identifying the host and source file to be evaluated.'
-ms.assetid: '547EF59E-7DE5-45E4-948F-109547FAAEE7'
-title: 'WLDP\_HOST\_INFORMATION structure'
+---
+Description: A structure identifying the host and source file to be evaluated.
+ms.assetid: 547EF59E-7DE5-45E4-948F-109547FAAEE7
+title: WLDP\_HOST\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLDP\_HOST\_INFORMATION structure

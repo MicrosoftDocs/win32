@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a linear interpolation between two 4D vectors.'
-ms.assetid: 'a068a626-17cd-4df9-8f41-9b417bfda1d1'
+---
+Description: Performs a linear interpolation between two 4D vectors.
+ms.assetid: a068a626-17cd-4df9-8f41-9b417bfda1d1
 title: D3DXVec4Lerp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Lerp function

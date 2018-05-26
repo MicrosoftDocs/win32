@@ -4,10 +4,13 @@ description: The type of accounting provider to use. Currently, only one type is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9a6e379e-39d7-404c-87a1-56abeca270a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 9a6e379e-39d7-404c-87a1-56abeca270a9
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Acct-Provider-Type

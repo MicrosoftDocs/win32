@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual system with a snapshot that was captured from the virtual system.'
-ms.assetid: 'CF1C1C04-02BC-4AC3-8327-FEE54ECE8541'
-title: 'Msvm\_SnapshotOfVirtualSystem class'
+Description: Associates a virtual system with a snapshot that was captured from the virtual system.
+ms.assetid: CF1C1C04-02BC-4AC3-8327-FEE54ECE8541
+title: Msvm\_SnapshotOfVirtualSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SnapshotOfVirtualSystem class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SnapshotOfVirtualSystem : CIM_SnapshotOfVirtualSystem
 {
-  Msvm_ComputerSystem           REF Antecedent;
+  Msvm_ComputerSystem           REF Antecedent;
   Msvm_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -65,8 +70,8 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -83,9 +88,9 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 [**CreateSnapshot**](createsnapshot-msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

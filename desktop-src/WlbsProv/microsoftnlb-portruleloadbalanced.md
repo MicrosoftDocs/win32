@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_PortRuleLoadbalanced \ 32;WMI class represents a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9f1aae0d-4fea-4deb-aaf8-0742f5a66d84'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9f1aae0d-4fea-4deb-aaf8-0742f5a66d84
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_PortRuleLoadbalanced class", "MicrosoftNLB_PortRuleLoadbalanced class, described"]
+keywords:
+- MicrosoftNLB_PortRuleLoadbalanced class
+- MicrosoftNLB_PortRuleLoadbalanced class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_PortRuleLoadbalanced class
@@ -44,17 +49,17 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_PortRuleLoadbalanced : MicrosoftNLB_PortRule
 {
-  string  SettingID;
-  string  Caption;
-  string  Description;
-  string  Name;
-  string  AdapterGuid;
-  uint32  EndPort = 65535;
-  uint32  Protocol;
-  uint32  StartPort = 0;
-  uint32  Affinity;
+  string  SettingID;
+  string  Caption;
+  string  Description;
+  string  Name;
+  string  AdapterGuid;
+  uint32  EndPort = 65535;
+  uint32  Protocol;
+  uint32  StartPort = 0;
+  uint32  Affinity;
   Boolean EqualLoad = TRUE;
-  uint32  LoadWeight = 50;
+  uint32  LoadWeight = 50;
 };
 ```
 
@@ -77,7 +82,7 @@ The **MicrosoftNLB\_PortRuleLoadbalanced** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -329,7 +334,7 @@ The **MicrosoftNLB\_PortRuleLoadbalanced** class is derived from the [**Microsof
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -349,9 +354,9 @@ The **MicrosoftNLB\_PortRuleLoadbalanced** class is derived from the [**Microsof
 [**MicrosoftNLB\_PortRuleDisabled**](microsoftnlb-portruledisabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

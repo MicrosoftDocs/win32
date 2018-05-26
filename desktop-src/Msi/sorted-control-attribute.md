@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit is set, the items listed in the control are displayed in a specified order. If the bit is not set, items are displayed in alphabetical order.'
-ms.assetid: 'c55bf6bf-6625-47cb-867a-14b3ef8aea0a'
+Description: If this bit is set, the items listed in the control are displayed in a specified order. If the bit is not set, items are displayed in alphabetical order.
+ms.assetid: c55bf6bf-6625-47cb-867a-14b3ef8aea0a
 title: Sorted Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sorted Control Attribute

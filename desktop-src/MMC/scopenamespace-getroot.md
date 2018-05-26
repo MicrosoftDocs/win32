@@ -4,11 +4,16 @@ description: The GetRoot method returns the root node of the scope namespace.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb50f59d-ff5d-457b-a1a1-6496e44fdfa9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bb50f59d-ff5d-457b-a1a1-6496e44fdfa9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetRoot method MMC", "GetRoot method MMC , ScopeNamespace object", "ScopeNamespace object MMC , GetRoot method", "GetRoot method MMC , ScopeNamespace interface", "ScopeNamespace interface MMC , GetRoot method"]
+keywords:
+- GetRoot method MMC
+- GetRoot method MMC , ScopeNamespace object
+- ScopeNamespace object MMC , GetRoot method
+- GetRoot method MMC , ScopeNamespace interface
+- ScopeNamespace interface MMC , GetRoot method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScopeNamespace::GetRoot method
@@ -59,8 +67,8 @@ Set objSNSRoot = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -78,9 +86,9 @@ Set objSNSRoot = Nothing
 [**Node object**](node-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

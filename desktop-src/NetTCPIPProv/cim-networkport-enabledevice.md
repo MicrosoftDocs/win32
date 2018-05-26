@@ -1,7 +1,12 @@
 ---
-Description: 'The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.'
-ms.assetid: 'bcf7a9a2-76ca-44c8-8f0b-ad391a0cbaa5'
-title: 'EnableDevice method of the CIM\_NetworkPort class'
+Description: The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+ms.assetid: bcf7a9a2-76ca-44c8-8f0b-ad391a0cbaa5
+title: EnableDevice method of the CIM\_NetworkPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableDevice method of the CIM\_NetworkPort class
@@ -17,7 +22,7 @@ The return code should be 0 if the request was successfully executed, 1 if the r
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -44,8 +49,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -59,9 +64,9 @@ TBD
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

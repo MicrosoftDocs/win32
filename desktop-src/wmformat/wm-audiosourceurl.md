@@ -1,14 +1,20 @@
 ---
 title: WM/AudioSourceURL
 description: The WM/AudioSourceURL attribute contains the address of an official Web page of the source media. For example, a song from a soundtrack might have a link to the official page for the movie.
-ms.assetid: '73a7e56e-914f-48d2-9e71-cb1aed015fc4'
-keywords: ["WM/AudioSourceURL windows Media Format"]
+ms.assetid: 73a7e56e-914f-48d2-9e71-cb1aed015fc4
+keywords:
+- WM/AudioSourceURL windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/AudioSourceURL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AudioSourceURL

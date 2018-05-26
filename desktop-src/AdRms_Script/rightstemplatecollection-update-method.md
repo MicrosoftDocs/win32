@@ -1,13 +1,16 @@
 ---
-Description: 'Updates the template collection on the server database.'
+Description: Updates the template collection on the server database.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '7dd0018d-e545-4063-ad85-c1e90f9b7419'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 7dd0018d-e545-4063-ad85-c1e90f9b7419
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplateCollection.Update method'
+title: RightsTemplateCollection.Update method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplateCollection.Update method
@@ -123,7 +126,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -135,9 +138,9 @@ END SUB
 [**RightsTemplateCollection**](rightstemplatecollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

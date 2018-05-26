@@ -1,7 +1,7 @@
 ---
 title: Error Messages
 description: The WinINet functions return error codes where appropriate. The following errors are specific to the WinINet functions.
-ms.assetid: '338bf65f-ebe5-4434-8407-9ab2a4c8d381'
+ms.assetid: 338bf65f-ebe5-4434-8407-9ab2a4c8d381
 topic_type:
 - apiref
 api_name:
@@ -106,6 +106,11 @@ api_location:
 - Wininet.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Messages
@@ -164,9 +169,9 @@ The requested operation cannot be made on the FTP session handle because an oper
 The requested attribute could not be located.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -182,9 +187,9 @@ The requested attribute could not be located.
 An error was detected while receiving data from the Gopher server.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -200,9 +205,9 @@ An error was detected while receiving data from the Gopher server.
 The end of the data has been reached.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -218,9 +223,9 @@ The end of the data has been reached.
 The type of the locator is not correct for this operation.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -236,9 +241,9 @@ The type of the locator is not correct for this operation.
 The supplied locator is not valid.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -254,9 +259,9 @@ The supplied locator is not valid.
 The request must be made for a file locator.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -272,9 +277,9 @@ The request must be made for a file locator.
 The requested operation can be made only against a Gopher+ server, or with a locator that specifies a Gopher+ operation.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -290,9 +295,9 @@ The requested operation can be made only against a Gopher+ server, or with a loc
 An error was detected while parsing data returned from the Gopher server.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -308,9 +313,9 @@ An error was detected while parsing data returned from the Gopher server.
 The locator type is unknown.
 
 > [!Note]  
-> Windows XP and Windows Server 2003 R2 and earlier only.
+> Windows XP and Windows Server 2003 R2 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -339,9 +344,9 @@ The HTTP cookie was declined by the server.
 The HTTP cookie requires confirmation.
 
 > [!Note]  
-> Windows Vista and Windows Server 2008 and earlier only.
+> Windows Vista and Windows Server 2008 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -406,7 +411,7 @@ The supplied header is invalid.
 
 
 
-The request made to [**HttpQueryInfo**](httpqueryinfo.md) is invalid.
+The request made to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) is invalid.
 
 
 </dt> </dl> </dd> <dt>
@@ -497,7 +502,7 @@ There was an error in the automatic proxy configuration script.
 
 
 
-The length of an option supplied to [**InternetQueryOption**](internetqueryoption.md) or [**InternetSetOption**](internetsetoption.md) is incorrect for the type of option specified.
+The length of an option supplied to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) or [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) is incorrect for the type of option specified.
 
 
 </dt> </dl> </dd> <dt>
@@ -640,7 +645,7 @@ The Internet connection has been lost.
 
 
 
-An extended error was returned from the server. This is typically a string or buffer containing a verbose error message. Call [**InternetGetLastResponseInfo**](internetgetlastresponseinfo.md) to retrieve the error text.
+An extended error was returned from the server. This is typically a string or buffer containing a verbose error message. Call [**InternetGetLastResponseInfo**](/windows/win32/Wininet/nf-wininet-internetgetlastresponseinfoa?branch=master) to retrieve the error text.
 
 
 </dt> </dl> </dd> <dt>
@@ -812,9 +817,9 @@ The request to connect and log on to an FTP server could not be completed becaus
 The request requires a CD-ROM to be inserted in the CD-ROM drive to locate the resource requested.
 
 > [!Note]  
-> Windows Vista and Windows Server 2008 and earlier only.
+> Windows Vista and Windows Server 2008 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -866,7 +871,7 @@ The requested operation is invalid.
 
 
 
-A request to [**InternetQueryOption**](internetqueryoption.md) or [**InternetSetOption**](internetsetoption.md) specified an invalid option value.
+A request to [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) or [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) specified an invalid option value.
 
 
 </dt> </dl> </dd> <dt>
@@ -986,9 +991,9 @@ Not currently implemented.
 A user interface or other blocking operation has been requested.
 
 > [!Note]  
-> Windows Vista and Windows Server 2008 and earlier only.
+> Windows Vista and Windows Server 2008 and earlier only.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -1040,7 +1045,7 @@ Direct network access cannot be made at this time.
 
 
 
-Initialization of the WinINet API has not occurred. Indicates that a higher-level function, such as [**InternetOpen**](internetopen.md), has not been called yet.
+Initialization of the WinINet API has not occurred. Indicates that a higher-level function, such as [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master), has not been called yet.
 
 
 </dt> </dl> </dd> <dt>
@@ -1196,7 +1201,7 @@ The dialog box should be retried.
 
 
 
-SSL certificate common name (host name field) is incorrect—for example, if you entered www.server.com and the common name on the certificate says www.different.com.
+SSL certificate common name (host name field) is incorrect for example, if you entered www.server.com and the common name on the certificate says www.different.com.
 
 
 </dt> </dl> </dd> <dt>
@@ -1436,7 +1441,7 @@ No more items have been found.
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).
 
- 
+ 
 
 ## Requirements
 
@@ -1444,15 +1449,15 @@ No more items have been found.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Wininet.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

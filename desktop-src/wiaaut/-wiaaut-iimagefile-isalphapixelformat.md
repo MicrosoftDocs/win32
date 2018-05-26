@@ -1,8 +1,11 @@
 ---
 title: ImageFile.IsAlphaPixelFormat property
 description: Specifies whether the pixel format has an alpha component.
-ms.assetid: '49641c71-79b7-4315-9d11-c16702f1fbbb'
-keywords: ["IsAlphaPixelFormat property WIA Automation", "IsAlphaPixelFormat property WIA Automation , ImageFile object", "ImageFile object WIA Automation , IsAlphaPixelFormat property"]
+ms.assetid: 49641c71-79b7-4315-9d11-c16702f1fbbb
+keywords:
+- IsAlphaPixelFormat property WIA Automation
+- IsAlphaPixelFormat property WIA Automation , ImageFile object
+- ImageFile object WIA Automation , IsAlphaPixelFormat property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.IsAlphaPixelFormat property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Image Information](-wiaaut-shared-sample
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -57,9 +65,9 @@ For example code, see [Display Detailed Image Information](-wiaaut-shared-sample
 [**ImageFile**](-wiaaut-imagefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

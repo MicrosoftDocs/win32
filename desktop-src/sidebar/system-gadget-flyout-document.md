@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Flyout.document property
-description: Gets an object that represents the Document Object Model (DOM) of the gadget Flyout HTML file.
-ms.assetid: 'eeb6e1e6-3c48-4346-999d-14de6c027837'
-keywords: ["document property Windows Sidebar", "document property Windows Sidebar , System.Gadget.Flyout object", "System.Gadget.Flyout object Windows Sidebar , document property"]
+description: Gets an object that represents the Document Object Model (DOM) of the gadget Flyout HTML file.
+ms.assetid: eeb6e1e6-3c48-4346-999d-14de6c027837
+keywords:
+- document property Windows Sidebar
+- document property Windows Sidebar , System.Gadget.Flyout object
+- System.Gadget.Flyout object Windows Sidebar , document property
 topic_type:
 - apiref
 api_name:
@@ -11,13 +14,18 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Flyout.document property
 
 \[The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. \]
 
-Gets an object that represents the Document Object Model (DOM) of the gadget **Flyout** HTML file.
+Gets an object that represents the Document Object Model (DOM) of the gadget **Flyout** HTML file.
 
 This property is read-only.
 
@@ -120,18 +128,18 @@ function DisplayTime()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

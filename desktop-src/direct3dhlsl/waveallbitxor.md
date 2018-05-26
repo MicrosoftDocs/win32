@@ -1,14 +1,20 @@
 ---
 title: WaveActiveBitXor function
 description: Returns the bitwise XOR of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes.
-ms.assetid: 'A6807D17-1E6E-4997-AB52-32FAB5857219'
-keywords: ["WaveAllBitXor function HLSL"]
+ms.assetid: A6807D17-1E6E-4997-AB52-32FAB5857219
+keywords:
+- WaveAllBitXor function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllBitXor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveBitXor function

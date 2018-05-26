@@ -1,7 +1,12 @@
 ---
 title: CGuiPaper Class Declaration
 description: CGuiPaper Class Declaration
-ms.assetid: 'b772d056-bf89-46a8-9462-21772cf96dfa'
+ms.assetid: b772d056-bf89-46a8-9462-21772cf96dfa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGuiPaper Class Declaration

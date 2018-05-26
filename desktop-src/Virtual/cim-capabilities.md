@@ -1,8 +1,10 @@
 ---
 title: CIM\_Capabilities class
 description: An abstract class for subclasses that describes the abilities of an associated managed element, and the potential of the abilities.
-ms.assetid: '3e4ae38d-651b-4f0e-bcd0-1bfd70b416b8'
-keywords: ["CIM_Capabilities class Hyper-V", "CIM_Capabilities class Hyper-V , described"]
+ms.assetid: 3e4ae38d-651b-4f0e-bcd0-1bfd70b416b8
+keywords:
+- CIM_Capabilities class Hyper-V
+- CIM_Capabilities class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Capabilities class
@@ -57,7 +64,7 @@ The **CIM\_Capabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -140,7 +147,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> </dl>
 
@@ -151,9 +158,9 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -166,9 +173,9 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Client object represents a relationship between a component and client product.'
-ms.assetid: 'ac1fbd74-fbc4-4f76-8e14-af48443a8528'
+Description: The Client object represents a relationship between a component and client product.
+ms.assetid: ac1fbd74-fbc4-4f76-8e14-af48443a8528
 title: Client object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client object
@@ -31,7 +36,7 @@ The **Client** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,9 +60,9 @@ The **Client** object has these properties.
 [Windows Installer Scripting Examples](windows-installer-scripting-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

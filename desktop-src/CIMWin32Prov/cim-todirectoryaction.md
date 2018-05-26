@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ToDirectoryAction association identifies the target directory for the file action.'
+Description: The CIM\_ToDirectoryAction association identifies the target directory for the file action.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f4dcd99c-4da8-447d-b6f7-7e3da63ca9c4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f4dcd99c-4da8-447d-b6f7-7e3da63ca9c4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ToDirectoryAction class'
+title: CIM\_ToDirectoryAction class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ToDirectoryAction class
@@ -19,7 +22,7 @@ The **CIM\_ToDirectoryAction** association identifies the target directory for t
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ToDirectoryAction
 {
   CIM_DirectoryAction REF DestinationDirectory;
-  CIM_CopyFileAction  REF FileName;
+  CIM_CopyFileAction  REF FileName;
 };
 ```
 
@@ -90,17 +93,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

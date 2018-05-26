@@ -1,7 +1,12 @@
 ---
-Description: 'In addition to partitions, which contain one or more applications, COM+ also includes partition sets, which contain one or more partitions.'
-ms.assetid: '0b1a6daa-55e1-4a74-be01-e39473e3c0cc'
+Description: In addition to partitions, which contain one or more applications, COM+ also includes partition sets, which contain one or more partitions.
+ms.assetid: 0b1a6daa-55e1-4a74-be01-e39473e3c0cc
 title: Partitions and Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Partitions and Active Directory

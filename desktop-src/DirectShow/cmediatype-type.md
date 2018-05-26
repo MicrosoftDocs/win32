@@ -1,7 +1,12 @@
 ---
-Description: 'The Type method retrieves the major type.'
-ms.assetid: '9c3badb2-2d9f-44d8-a376-0918104ee431'
-title: 'CMediaType.Type method'
+Description: The Type method retrieves the major type.
+ms.assetid: 9c3badb2-2d9f-44d8-a376-0918104ee431
+title: CMediaType.Type method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.Type method
@@ -43,9 +48,9 @@ Returns a pointer to the **majortype** member.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

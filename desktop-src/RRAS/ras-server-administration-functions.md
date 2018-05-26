@@ -1,7 +1,12 @@
 ---
 title: RAS Server Administration Functions
 description: For Windows NT 4.0, use the following functions to implement RAS server administration functionality.Windows 95 does not provide RAS server support.
-ms.assetid: '44c000d7-2bb6-4fd8-ac5f-9d3850d857a0'
+ms.assetid: 44c000d7-2bb6-4fd8-ac5f-9d3850d857a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS Server Administration Functions

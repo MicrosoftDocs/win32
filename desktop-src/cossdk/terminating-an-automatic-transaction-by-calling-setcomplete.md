@@ -1,14 +1,19 @@
 ---
 Description: Terminating an Automatic Transaction by Calling SetComplete
-ms.assetid: '5bd06cfd-1ee0-48ac-84ab-3737d76bccc0'
+ms.assetid: 5bd06cfd-1ee0-48ac-84ab-3737d76bccc0
 title: Terminating an Automatic Transaction by Calling SetComplete
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Terminating an Automatic Transaction by Calling SetComplete
 
-To use automatic transactions effectively, each transactional component should indicate that it has completed its work. When an object instance completes its task successfully, it should set its consistent and done flags to True by calling the [**IObjectContext::SetComplete**](iobjectcontext-setcomplete.md) method, which is exposed through both the [**IObjectContext**](iobjectcontext.md) interface and the [**ObjectContext**](objectcontext.md) object.
+To use automatic transactions effectively, each transactional component should indicate that it has completed its work. When an object instance completes its task successfully, it should set its consistent and done flags to True by calling the [**IObjectContext::SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master) method, which is exposed through both the [**IObjectContext**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontext?branch=master) interface and the [**ObjectContext**](/windows/win32/ComSvcs/nn-comsvcs-objectcontext?branch=master) object.
 
-The most efficient way to complete an automatic transaction is to explicitly deactivate the root object by using the [**SetComplete**](iobjectcontext-setcomplete.md) method. By explicitly indicating that a root object has completed its work, you can reduce the length of the transaction.
+The most efficient way to complete an automatic transaction is to explicitly deactivate the root object by using the [**SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master) method. By explicitly indicating that a root object has completed its work, you can reduce the length of the transaction.
 
 The following Visual Basic example shows how to indicate that a transactional object has completed its work successfully:
 

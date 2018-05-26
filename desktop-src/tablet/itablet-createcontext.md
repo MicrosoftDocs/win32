@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a context object that describes the specified tablet device.'
-ms.assetid: '76f48485-a958-4457-9b87-73de73fa671e'
-title: 'ITablet::CreateContext method'
+Description: Creates a context object that describes the specified tablet device.
+ms.assetid: 76f48485-a958-4457-9b87-73de73fa671e
+title: ITabletCreateContext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::CreateContext method
@@ -13,15 +18,15 @@ Creates a context object that describes the specified tablet device.
 
 ```C++
 HRESULT CreateContext(
-  [in]      HWND                    hWnd,
-  [in]      RECT                    *prcInput,
-  [in]      DWORD                   dwOptions,
-  [in]      TABLET_CONTEXT_SETTINGS *pTCS,
-  [in]      CONTEXT_ENABLE_TYPE     cet,
-  [out]     ITabletContext          **ppCtx,
-  [in, out] TABLET_CONTEXT_ID       *pTcid,
-  [in, out] PACKET_DESCRIPTION      **ppPD,
-  [in]      ITabletEventSink        *pSink
+  [in]      HWND                    hWnd,
+  [in]      RECT                    *prcInput,
+  [in]      DWORD                   dwOptions,
+  [in]      TABLET_CONTEXT_SETTINGS *pTCS,
+  [in]      CONTEXT_ENABLE_TYPE     cet,
+  [out]     ITabletContext          **ppCtx,
+  [in, out] TABLET_CONTEXT_ID       *pTcid,
+  [in, out] PACKET_DESCRIPTION      **ppPD,
+  [in]      ITabletEventSink        *pSink
 );
 ```
 
@@ -111,7 +116,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -120,7 +125,7 @@ Typically, an application obtains the default values from the [**ITablet::GetDef
 > [!Note]  
 > You must implement the [**ITabletEventSink Interface**](itableteventsink.md) when calling the **ITablet::CreateContext Method**.
 
- 
+ 
 
 The *dwOptions* parameter is a set of bit flags that describe context options. The following table describes these flags.
 
@@ -144,7 +149,7 @@ The *dwOptions* parameter is a set of bit flags that describe context options. T
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -152,7 +157,7 @@ The *dwOptions* parameter is a set of bit flags that describe context options. T
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -171,7 +176,7 @@ The *dwOptions* parameter is a set of bit flags that describe context options. T
 [**TABLET\_CONTEXT\_SETTINGS Structure**](tablet-context-settings.md)
 </dt> <dt>
 
-[**PACKET\_DESCRIPTION Structure**](packet-description.md)
+[**PACKET\_DESCRIPTION Structure**](/windows/win32/tpcshrd/ns-tpcshrd-_packet_description?branch=master)
 </dt> <dt>
 
 [**ITabletContextP Interface**](itabletcontextp.md)
@@ -180,9 +185,9 @@ The *dwOptions* parameter is a set of bit flags that describe context options. T
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

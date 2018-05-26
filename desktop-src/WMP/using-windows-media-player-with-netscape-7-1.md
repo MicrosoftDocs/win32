@@ -1,8 +1,35 @@
 ---
 title: Using Windows Media Player with Netscape 7.1
 description: Using Windows Media Player with Netscape 7.1
-ms.assetid: 'd60b562a-b89e-490b-8a03-502c361df4b5'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Windows Media Player,Netscape 7.1", "Windows Media Player object model,Netscape 7.1", "object model,Netscape 7.1", "Windows Media Player Mobile,Netscape 7.1", "Windows Media Player ActiveX control,Netscape 7.1", "Windows Media Player Mobile ActiveX control,Netscape 7.1", "ActiveX control,Netscape 7.1", "Netscape 7.1", "embedding,Web pages", "Web page embedding,Netscape 7.1", "Gecko ActiveX component", "Web page embedding,Gecko ActiveX component"]
+ms.assetid: d60b562a-b89e-490b-8a03-502c361df4b5
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Windows Media Player,Netscape 7.1
+- Windows Media Player object model,Netscape 7.1
+- object model,Netscape 7.1
+- Windows Media Player Mobile,Netscape 7.1
+- Windows Media Player ActiveX control,Netscape 7.1
+- Windows Media Player Mobile ActiveX control,Netscape 7.1
+- ActiveX control,Netscape 7.1
+- Netscape 7.1
+- embedding,Web pages
+- Web page embedding,Netscape 7.1
+- Gecko ActiveX component
+- Web page embedding,Gecko ActiveX component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Media Player with Netscape 7.1

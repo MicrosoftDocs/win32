@@ -1,12 +1,17 @@
 ---
 Description: External Device Transport Property Set
-ms.assetid: '9c80cf59-054f-49b6-9456-ed5e091cbfaf'
+ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: External Device Transport Property Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External Device Transport Property Set
 
-This property set controls the transport of data to and from an external device. In most cases, applications should not use this property set directly. Use the [**IAMExtTransport**](iamexttransport.md) interface instead.
+This property set controls the transport of data to and from an external device. In most cases, applications should not use this property set directly. Use the [**IAMExtTransport**](/windows/win32/Strmif/nn-strmif-iamexttransport?branch=master) interface instead.
 
 The following table lists the properties that are relevant to user-mode applications. For a complete description of this property set, refer to the Microsoft Windows Driver Development Kit DDK.
 

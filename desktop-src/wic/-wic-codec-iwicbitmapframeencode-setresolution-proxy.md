@@ -1,21 +1,26 @@
 ---
-Description: 'Proxy function for the SetResolution method.'
-ms.assetid: 'dc8df5bb-c38b-4be3-a4c6-60e7d5e1cd1b'
-title: 'IWICBitmapFrameEncode\_SetResolution\_Proxy function'
+Description: Proxy function for the SetResolution method.
+ms.assetid: dc8df5bb-c38b-4be3-a4c6-60e7d5e1cd1b
+title: IWICBitmapFrameEncode\_SetResolution\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapFrameEncode\_SetResolution\_Proxy function
 
-Proxy function for the [**SetResolution**](-wic-codec-iwicbitmapframeencode-setresolution.md) method.
+Proxy function for the [**SetResolution**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-setresolution?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapFrameEncode_SetResolution_Proxy(
-  _In_ IWICBitmapFrameEncode *THIS_PTR,
-  _In_ double                dpiX,
-  _In_ double                dpiY
+  _In_ IWICBitmapFrameEncode *THIS_PTR,
+  _In_ double                dpiX,
+  _In_ double                dpiY
 );
 ```
 
@@ -28,9 +33,9 @@ HRESULT IWICBitmapFrameEncode_SetResolution_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md)\***
+Type: **[**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master)\***
 
-Pointer to this [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) object.
+Pointer to this [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) object.
 
 </dd> <dt>
 
@@ -66,15 +71,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

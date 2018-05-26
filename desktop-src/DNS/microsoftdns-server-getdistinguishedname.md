@@ -1,8 +1,11 @@
 ---
 title: GetDistinguishedName method of the MicrosoftDNS\_Server class
 description: The GetDistinguishedName method retrieves the DS distinguished name for the zone.
-ms.assetid: 'b8c7fc18-87d6-4653-b837-760d6584d9e7'
-keywords: ["GetDistinguishedName method DNS", "GetDistinguishedName method DNS , MicrosoftDNS_Server class", "MicrosoftDNS_Server class DNS , GetDistinguishedName method"]
+ms.assetid: b8c7fc18-87d6-4653-b837-760d6584d9e7
+keywords:
+- GetDistinguishedName method DNS
+- GetDistinguishedName method DNS , MicrosoftDNS_Server class
+- MicrosoftDNS_Server class DNS , GetDistinguishedName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDistinguishedName method of the MicrosoftDNS\_Server class
@@ -41,7 +49,7 @@ Returns the DS distinguished name for the zone.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -60,9 +68,9 @@ Returns the DS distinguished name for the zone.
 [**StartScavenging Method of the MicrosoftDNS\_Server Class**](microsoftdns-server-startscavenging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

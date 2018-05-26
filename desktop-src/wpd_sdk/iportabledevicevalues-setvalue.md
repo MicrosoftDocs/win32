@@ -1,7 +1,12 @@
 ---
-Description: 'The SetValue method adds a new PROPVARIANT value or overwrites an existing one.'
-ms.assetid: '69630a21-79e9-4c96-8ed7-9a41ebb991cd'
-title: 'IPortableDeviceValues::SetValue method'
+Description: The SetValue method adds a new PROPVARIANT value or overwrites an existing one.
+ms.assetid: 69630a21-79e9-4c96-8ed7-9a41ebb991cd
+title: IPortableDeviceValuesSetValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetValue method
@@ -13,8 +18,8 @@ The **SetValue** method adds a new **PROPVARIANT** value or overwrites an existi
 
 ```C++
 HRESULT SetValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const PROPVARIANT    *pValue
+  [in]       REFPROPERTYKEY key,
+  [in] const PROPVARIANT    *pValue
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,9 +89,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::RemoveValue**](iportabledevicevalues-removevalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

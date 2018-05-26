@@ -1,13 +1,16 @@
 ---
-Description: 'WMI tasks for computer hardware obtain information about the presence, state, or properties of hardware components.'
+Description: WMI tasks for computer hardware obtain information about the presence, state, or properties of hardware components.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'eb4c2c38-4853-4486-b889-93a843d88edb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: eb4c2c38-4853-4486-b889-93a843d88edb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Computer Hardware'
+title: WMI Tasks Computer Hardware
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Computer Hardware
@@ -30,7 +33,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -705,7 +708,7 @@ foreach ($objItem in $colItems)
 
 
 
- 
+ 
 
 ## Examples
 
@@ -728,9 +731,9 @@ The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechN
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

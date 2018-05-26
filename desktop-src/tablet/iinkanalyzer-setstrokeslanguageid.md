@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the locale identifier for the specified strokes.'
-ms.assetid: '39dd24d5-4381-4b51-8d95-7d936fd69d47'
-title: 'IInkAnalyzer::SetStrokesLanguageId method'
+Description: Changes the locale identifier for the specified strokes.
+ms.assetid: 39dd24d5-4381-4b51-8d95-7d936fd69d47
+title: IInkAnalyzerSetStrokesLanguageId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SetStrokesLanguageId method
@@ -13,9 +18,9 @@ Changes the locale identifier for the specified strokes.
 
 ```C++
 HRESULT SetStrokesLanguageId(
-  [in] ULONG ulStrokeIdCount,
-  [in] LONG  *plStrokes,
-  [in] LONG  lStrokesLCID
+  [in] ULONG ulStrokeIdCount,
+  [in] LONG  *plStrokes,
+  [in] LONG  lStrokesLCID
 );
 ```
 
@@ -74,7 +79,7 @@ For more information about language identifiers, see [Language Identifier Consta
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -109,9 +114,9 @@ For more information about language identifiers, see [Language Identifier Consta
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

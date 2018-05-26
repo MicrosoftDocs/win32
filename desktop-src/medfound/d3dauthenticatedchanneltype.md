@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the type of Direct3D authenticated channel.'
-ms.assetid: '99a7664e-b0c8-4e66-ad3b-c6ad039ef6eb'
+---
+Description: Specifies the type of Direct3D authenticated channel.
+ms.assetid: 99a7664e-b0c8-4e66-ad3b-c6ad039ef6eb
 title: D3DAUTHENTICATEDCHANNELTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNELTYPE enumeration
@@ -65,7 +70,7 @@ Hardware driver channel. This channel provides communication with a driver that 
 [Direct3D Video Enumerations](direct3d-video-enumerations.md)
 </dt> <dt>
 
-[**IDirect3DDevice9Video::CreateAuthenticatedChannel**](idirect3ddevice9video-createauthenticatedchannel.md)
+[**IDirect3DDevice9Video::CreateAuthenticatedChannel**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel?branch=master)
 </dt> </dl>
 
  

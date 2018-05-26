@@ -1,7 +1,12 @@
 ---
 title: ALink
 description: Creates Associative links (ALinks) that jump to target HTML files that contain the specified ALink names. The list of target topics appears on a pop-up menu or in a dialog box.
-ms.assetid: '00AAC497-60F6-4a64-8B55-A8A8C8601F12'
+ms.assetid: 00AAC497-60F6-4a64-8B55-A8A8C8601F12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALink

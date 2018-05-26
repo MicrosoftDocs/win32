@@ -1,7 +1,12 @@
 ---
-Description: 'A number of subtypes are defined for DV video. Each has a FOURCC code and a corresponding GUID value. Not all of these formats are supported; see the Remarks section for more information.'
-ms.assetid: 'd8390bd4-0339-4955-992c-92b8c9f6bf88'
+Description: A number of subtypes are defined for DV video. Each has a FOURCC code and a corresponding GUID value. Not all of these formats are supported; see the Remarks section for more information.
+ms.assetid: d8390bd4-0339-4955-992c-92b8c9f6bf88
 title: DV Video Subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DV Video Subtypes
@@ -20,7 +25,7 @@ A number of subtypes are defined for DV video. Each has a FOURCC code and a corr
 
 
 
- 
+ 
 
 Refer to IEC-61834 for more information about these formats.
 
@@ -36,7 +41,7 @@ Refer to IEC-61834 for more information about these formats.
 
 
 
- 
+ 
 
 Refer to SMPTE 314M for more information about dv25 and dv50, and SMPTE 370M for more information about dvh1.
 
@@ -53,7 +58,7 @@ Two additional DV subtypes are defined in the header file Uuids.h. These corresp
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,7 +73,7 @@ The following table shows the supported data rates, in megabits per second (Mbps
 
 
 
- 
+ 
 
 For 25-Mbps streams, the behavior of the MSDV driver has changed in Windows Vista Prior to Windows Vista, the MSDV driver always set the media type to MEDIASUBTYPE\_dvsd for 25-Mbps streams, regardless of whether the source was SDL-DVCR or DVCPRO 25. The 'dv25' media type was not used. Starting with Windows Vista, the MSDV driver now distinguishes between these two formats. For SDL-DVCR, it continues to use the 'dvsd' subtype. For DVCPRO 25, it now uses the 'dv25' subtype.
 
@@ -97,9 +102,9 @@ The DirectShow [DV Splitter](dv-splitter-filter.md) and [DV Video Decoder](dv-vi
 [Video Subtypes](video-subtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

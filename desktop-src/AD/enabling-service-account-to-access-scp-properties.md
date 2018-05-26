@@ -4,11 +4,15 @@ description: The following code example sets a pair of Access Control Entries (A
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '663dcf55-5f0d-49af-8b51-4c1e35b79ef1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 663dcf55-5f0d-49af-8b51-4c1e35b79ef1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Enabling Service Account to Access SCP Properties AD"]
+keywords:
+- Enabling Service Account to Access SCP Properties AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enabling Service Account to Access SCP Properties

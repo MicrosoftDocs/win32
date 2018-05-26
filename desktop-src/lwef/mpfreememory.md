@@ -1,8 +1,9 @@
 ---
 title: MpFreeMemory function
 description: Frees memory for the malware protection manager.
-ms.assetid: 'D0B43AE5-756F-4E86-B8A5-8268A41901BC'
-keywords: ["MpFreeMemory function Legacy Windows Environment Features"]
+ms.assetid: D0B43AE5-756F-4E86-B8A5-8268A41901BC
+keywords:
+- MpFreeMemory function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpFreeMemory function
@@ -22,7 +28,7 @@ Frees memory for the malware protection manager. All buffers allocated and retur
 
 ```C++
 void WINAPI MpFreeMemory(
-  _In_ PVOID pMemory
+  _In_ PVOID pMemory
 );
 ```
 
@@ -59,7 +65,7 @@ To facilitate memory management for clients, the malware protection manager also
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +73,8 @@ To facilitate memory management for clients, the malware protection manager also
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -90,9 +96,9 @@ To facilitate memory management for clients, the malware protection manager also
 [**MPTHREAT\_LOCALIZED\_INFO**](mpthreat-localized-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

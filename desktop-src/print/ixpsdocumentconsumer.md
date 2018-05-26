@@ -1,7 +1,12 @@
-﻿---
-Description: 'A filter uses the IXpsDocumentConsumer interface when it generates XPS content for the pipeline to consume.'
-ms.assetid: '98e603e6-2786-4bc8-ad8a-0e91b0d444d8'
+---
+Description: A filter uses the IXpsDocumentConsumer interface when it generates XPS content for the pipeline to consume.
+ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
 title: IXpsDocumentConsumer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer interface

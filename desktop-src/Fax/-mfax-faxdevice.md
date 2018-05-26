@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxDevice configuration object is used by a fax client application to retrieve and set fax device information, and to add and remove fax routing methods associated with a fax device.'
-ms.assetid: 'bb54b793-98e1-4862-b887-48c25099ac6d'
+---
+Description: The FaxDevice configuration object is used by a fax client application to retrieve and set fax device information, and to add and remove fax routing methods associated with a fax device.
+ms.assetid: bb54b793-98e1-4862-b887-48c25099ac6d
 title: FaxDevice object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice object
@@ -87,7 +92,7 @@ The **FaxDevice** object has these properties.
 <tr class="odd">
 <td style="text-align: left;">[<strong>ReceiveMode</strong>](-mfax-faxdevice-receivemode.md)<br/></td>
 <td style="text-align: left;">Read/write<br/></td>
-<td style="text-align: left;">The [<strong>ReceiveMode</strong>](-mfax-faxdevice-receivemode.md) property is a value from the [<strong>FAX_DEVICE_RECEIVE_MODE_ENUM</strong>](-mfax-fax-device-receive-mode-enum.md) enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.<br/></td>
+<td style="text-align: left;">The [<strong>ReceiveMode</strong>](-mfax-faxdevice-receivemode.md) property is a value from the [<strong>FAX_DEVICE_RECEIVE_MODE_ENUM</strong>](/windows/previous-versions/FaxComex/ne-faxcomex-fax_device_receive_mode_enum?branch=master) enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>ReceivingNow</strong>](-mfax-faxdevice-receivingnow-vb.md)<br/></td>
@@ -147,9 +152,9 @@ A **FaxDevice** object is accessed through a [**FaxDevices**](-mfax-faxdevices.m
 
  
 
-To create a **FaxDevice** object in Microsoft Visual Basic, call the [**Item**](-mfax-faxdevices-item.md) or [**get\_ItemById**](-mfax-faxdevices-itembyid.md) property of the [**FaxDevices**](-mfax-faxdevices.md) object.
+To create a **FaxDevice** object in Microsoft Visual Basic, call the [**Item**](-mfax-faxdevices-item.md) or [**get\_ItemById**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxdevices-get_itembyid?branch=master) property of the [**FaxDevices**](-mfax-faxdevices.md) object.
 
-To create a **FaxDevice** object in C++, call the [**Item**](-mfax-faxdevices-item.md) or [**get\_ItemById**](-mfax-faxdevices-itembyid.md) method.
+To create a **FaxDevice** object in C++, call the [**Item**](-mfax-faxdevices-item.md) or [**get\_ItemById**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxdevices-get_itembyid?branch=master) method.
 
 When the properties [**PoweredOff**](-mfax-faxdevice-poweredoff-vb.md), [**ReceivingNow**](-mfax-faxdevice-receivingnow-vb.md), [**SendingNow**](-mfax-faxdevice-sendingnow-vb.md), and [**RingingNow**](-mfax-faxdevice-ringingnow-vb.md) are all **False**, then the fax device is active and idle.
 
@@ -174,7 +179,7 @@ When the properties [**PoweredOff**](-mfax-faxdevice-poweredoff-vb.md), [**Recei
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

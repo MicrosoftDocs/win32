@@ -1,7 +1,12 @@
 ---
-Description: 'The Native Wifi API contains a set of functions that support the use of Wi-Fi Direct for desktop apps.'
-ms.assetid: 'A649EBBA-1076-4426-9C4D-85AB8C415C66'
-title: 'About the Wi-Fi Direct feature'
+Description: The Native Wifi API contains a set of functions that support the use of Wi-Fi Direct for desktop apps.
+ms.assetid: A649EBBA-1076-4426-9C4D-85AB8C415C66
+title: About the Wi-Fi Direct feature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Wi-Fi Direct feature
@@ -19,14 +24,14 @@ For a desktop app, the Wi-Fi Direct feature requires that Wi-FI Direct devices b
 
 The following functions support the Wi-Fi Direct feature.
 
--   [**WFDCancelOpenSession**](wfdcancelopensession.md) - Indicates that the app wants to cancel a pending [**WFDStartOpenSession**](wfdstartopensession.md) function that has not completed.
--   [**WFDCloseHandle**](wfdclosehandle.md) - Closes a handle to the Wi-Fi Direct service.
--   [**WFDCloseSession**](wfdclosesession.md) - Closes a session after a previously successful call to the [**WFDStartOpenSession**](wfdstartopensession.md) function.
--   [**WFDOpenHandle**](wfdopenhandle.md) - Opens a handle to the Wi-Fi Direct service and negotiates a version of the Wi-FI Direct API to use.
--   [**WFDOpenLegacySession**](wfdopenlegacysession.md) - Retrieves and applies a stored profile for a Wi-Fi Direct legacy device.
--   [**WFDStartOpenSession**](wfdstartopensession.md) - Starts an on-demand connection to a specific Wi-Fi Direct device, which has been previously paired through the Windows Pairing experience.
--   [**WFDUpdateDeviceVisibility**](wfdupdatedevicevisibility.md) - Updates device visibility for the Wi-Fi Direct device address for a given installed Wi-Fi Direct device node.
--   [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](wfd-open-session-complete-callback.md) - Defines the callback function that is called by the [**WFDStartOpenSession**](wfdstartopensession.md) function when the **WFDStartOpenSession** operation completes
+-   [**WFDCancelOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdcancelopensession?branch=master) - Indicates that the app wants to cancel a pending [**WFDStartOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdstartopensession?branch=master) function that has not completed.
+-   [**WFDCloseHandle**](/windows/win32/wlanapi/nf-wlanapi-wfdclosehandle?branch=master) - Closes a handle to the Wi-Fi Direct service.
+-   [**WFDCloseSession**](/windows/win32/wlanapi/nf-wlanapi-wfdclosesession?branch=master) - Closes a session after a previously successful call to the [**WFDStartOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdstartopensession?branch=master) function.
+-   [**WFDOpenHandle**](/windows/win32/wlanapi/nf-wlanapi-wfdopenhandle?branch=master) - Opens a handle to the Wi-Fi Direct service and negotiates a version of the Wi-FI Direct API to use.
+-   [**WFDOpenLegacySession**](/windows/win32/wlanapi/nf-wlanapi-wfdopenlegacysession?branch=master) - Retrieves and applies a stored profile for a Wi-Fi Direct legacy device.
+-   [**WFDStartOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdstartopensession?branch=master) - Starts an on-demand connection to a specific Wi-Fi Direct device, which has been previously paired through the Windows Pairing experience.
+-   [**WFDUpdateDeviceVisibility**](/windows/win32/wlanapi/nf-wlanapi-wfdupdatedevicevisibility?branch=master) - Updates device visibility for the Wi-Fi Direct device address for a given installed Wi-Fi Direct device node.
+-   [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](/windows/win32/wlanapi/nc-wlanapi-wfd_open_session_complete_callback?branch=master) - Defines the callback function that is called by the [**WFDStartOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdstartopensession?branch=master) function when the **WFDStartOpenSession** operation completes
 
 For more information on using Wi-Fi Direct in a desktop app, see [Using the Wi-Fi Direct functions](using-the-wi-fi-direct-api.md).
 
@@ -57,28 +62,28 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 [**PeerFinder**](w_net_prox.peerfinder)
 </dt> <dt>
 
-[**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](wfd-open-session-complete-callback.md)
+[**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](/windows/win32/wlanapi/nc-wlanapi-wfd_open_session_complete_callback?branch=master)
 </dt> <dt>
 
-[**WFDCancelOpenSession**](wfdcancelopensession.md)
+[**WFDCancelOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdcancelopensession?branch=master)
 </dt> <dt>
 
-[**WFDCloseHandle**](wfdclosehandle.md)
+[**WFDCloseHandle**](/windows/win32/wlanapi/nf-wlanapi-wfdclosehandle?branch=master)
 </dt> <dt>
 
-[**WFDCloseSession**](wfdclosesession.md)
+[**WFDCloseSession**](/windows/win32/wlanapi/nf-wlanapi-wfdclosesession?branch=master)
 </dt> <dt>
 
-[**WFDOpenHandle**](wfdopenhandle.md)
+[**WFDOpenHandle**](/windows/win32/wlanapi/nf-wlanapi-wfdopenhandle?branch=master)
 </dt> <dt>
 
-[**WFDOpenLegacySession**](wfdopenlegacysession.md)
+[**WFDOpenLegacySession**](/windows/win32/wlanapi/nf-wlanapi-wfdopenlegacysession?branch=master)
 </dt> <dt>
 
-[**WFDStartOpenSession**](wfdstartopensession.md)
+[**WFDStartOpenSession**](/windows/win32/wlanapi/nf-wlanapi-wfdstartopensession?branch=master)
 </dt> <dt>
 
-[**WFDUpdateDeviceVisibility**](wfdupdatedevicevisibility.md)
+[**WFDUpdateDeviceVisibility**](/windows/win32/wlanapi/nf-wlanapi-wfdupdatedevicevisibility?branch=master)
 </dt> <dt>
 
 [**Windows.Networking.Proximity**](w_net_prox.windows_networking_proximity)

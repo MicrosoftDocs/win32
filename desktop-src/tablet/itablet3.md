@@ -1,7 +1,12 @@
 ---
-Description: 'The ITablet3 interface enables multitouch querying for input.'
-ms.assetid: '949f2d83-7761-4d60-b8fe-5a9ac7567238'
+Description: The ITablet3 interface enables multitouch querying for input.
+ms.assetid: 949f2d83-7761-4d60-b8fe-5a9ac7567238
 title: ITablet3 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet3 interface
@@ -27,7 +32,7 @@ The **ITablet3** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,15 +61,15 @@ interface ITablet3 : IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

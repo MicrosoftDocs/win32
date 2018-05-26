@@ -1,7 +1,12 @@
 ---
 title: General Firewall Rule Authoring Process
 description: When planning the firewall rules for your feature, you must analyze the networking requirements and component dependencies.
-ms.assetid: 'fbb2d683-0fd3-4bcd-ade5-bd8643d4daf4'
+ms.assetid: fbb2d683-0fd3-4bcd-ade5-bd8643d4daf4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Firewall Rule Authoring Process

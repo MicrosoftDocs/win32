@@ -2,13 +2,15 @@
 title: DnsServerStatistics class
 description: Retrieves DNS server statistics.
 audience: developer
-ms.assetid: 'd256df31-22cd-4935-8722-9b5df5cf026b'
-ms.prod: 'windows-server-dev'
+ms.assetid: d256df31-22cd-4935-8722-9b5df5cf026b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerStatistics class", "DnsServerStatistics class, described"]
+keywords:
+- DnsServerStatistics class
+- DnsServerStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerStatistics class
@@ -52,27 +57,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerStatistics
 {
-  DnsServerTimeStatistics      TimeStatistics;
-  DnsServerQueryStatistics     QueryStatistics;
-  DnsServerQuery2Statistics    Query2Statistics;
+  DnsServerTimeStatistics      TimeStatistics;
+  DnsServerQueryStatistics     QueryStatistics;
+  DnsServerQuery2Statistics    Query2Statistics;
   DnsServerRecursionStatistics RecursionStatistics;
-  DnsServerDnssecStatistics    DnssecStatistics;
-  DnsServerMasterStatistics    MasterStatistics;
+  DnsServerDnssecStatistics    DnssecStatistics;
+  DnsServerMasterStatistics    MasterStatistics;
   DnsServerSecondaryStatistics SecondaryStatistics;
-  DnsServerWinsStatistics      WinsStatistics;
-  DnsServerUpdateStatistics    UpdateStatistics;
-  DnsServerSecurityStatistics  SecurityStatistics;
-  DnsServerDsStatistics        DsStatistics;
-  DnsServerMemoryStatistics    MemoryStatistics;
-  DnsServerTimeoutStatistics   TimeoutStatistics;
-  DnsServerDatabaseStatistics  DatabaseStatistics;
-  DnsServerRecordStatistics    RecordStatistics;
-  DnsServerPacketStatistics    PacketStatistics;
-  DnsServerNetBiosStatistics   NetBiosStatistics;
-  DnsServerPrivateStatistics   PrivateStatistics;
-  DnsServerErrorStatistics     ErrorStatistics;
-  DnsServerCacheStatistics     CacheStatistics;
-  DnsServerRRLStatistics       RRLStatistics;
+  DnsServerWinsStatistics      WinsStatistics;
+  DnsServerUpdateStatistics    UpdateStatistics;
+  DnsServerSecurityStatistics  SecurityStatistics;
+  DnsServerDsStatistics        DsStatistics;
+  DnsServerMemoryStatistics    MemoryStatistics;
+  DnsServerTimeoutStatistics   TimeoutStatistics;
+  DnsServerDatabaseStatistics  DatabaseStatistics;
+  DnsServerRecordStatistics    RecordStatistics;
+  DnsServerPacketStatistics    PacketStatistics;
+  DnsServerNetBiosStatistics   NetBiosStatistics;
+  DnsServerPrivateStatistics   PrivateStatistics;
+  DnsServerErrorStatistics     ErrorStatistics;
+  DnsServerCacheStatistics     CacheStatistics;
+  DnsServerRRLStatistics       RRLStatistics;
 };
 ```
 
@@ -326,7 +331,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 The DNS server statistics related to the server RRL.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -433,7 +438,7 @@ The WINS statistics for the DNS server.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -447,9 +452,9 @@ The WINS statistics for the DNS server.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the room type for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.'
-ms.assetid: 'd19b6b9d-9606-48a8-ac8e-cdbf15588a8f'
+Description: Specifies the room type for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+ms.assetid: d19b6b9d-9606-48a8-ac8e-cdbf15588a8f
 title: AVEncDDProductionRoomType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncDDProductionRoomType property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDProductionRoomType**](eavencddproductionroomtype.md) enumeration.
+The value of this property is a member of the [**eAVEncDDProductionRoomType**](/windows/win32/codecapi/?branch=master) enumeration.
 
 ## Remarks
 
@@ -32,8 +37,8 @@ The value of this property is a member of the [**eAVEncDDProductionRoomType**](e
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -45,12 +50,12 @@ The value of this property is a member of the [**eAVEncDDProductionRoomType**](e
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

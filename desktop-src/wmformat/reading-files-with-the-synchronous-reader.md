@@ -1,8 +1,22 @@
 ---
 title: Reading Files with the Synchronous Reader
 description: Reading Files with the Synchronous Reader
-ms.assetid: '18c6c0cd-478f-4325-b23e-571c33779a96'
-keywords: ["Windows Media Format SDK,reading files", "Windows Media Format SDK,synchronous readers", "Advanced Systems Format (ASF),synchronous readers", "ASF (Advanced Systems Format),synchronous readers", "Advanced Systems Format (ASF),reading files", "ASF (Advanced Systems Format),reading files", "synchronous readers,IWMReaderCallback interface", "IWMReaderCallback,synchronous readers", "synchronous readers,reading files"]
+ms.assetid: 18c6c0cd-478f-4325-b23e-571c33779a96
+keywords:
+- Windows Media Format SDK,reading files
+- Windows Media Format SDK,synchronous readers
+- Advanced Systems Format (ASF),synchronous readers
+- ASF (Advanced Systems Format),synchronous readers
+- Advanced Systems Format (ASF),reading files
+- ASF (Advanced Systems Format),reading files
+- synchronous readers,IWMReaderCallback interface
+- IWMReaderCallback,synchronous readers
+- synchronous readers,reading files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Files with the Synchronous Reader
@@ -19,7 +33,7 @@ The most basic functionality of the synchronous reader object can be broken down
 
 1.  The application passes to the synchronous reader the name of a file to read. When the synchronous reader opens the file, it assigns an output number to each stream. If the file uses mutual exclusion, the reader assigns a single output for all of the mutually exclusive streams.
 2.  The application gets information about the configuration of the various outputs from the reader. The information gathered will enable the application to properly render media samples.
-3.  The application begins requesting samples, one at a time, from the synchronous reader. The synchronous reader delivers each sample in a buffer object for which it delivers the [**INSSBuffer**](inssbuffer.md) interface.
+3.  The application begins requesting samples, one at a time, from the synchronous reader. The synchronous reader delivers each sample in a buffer object for which it delivers the [**INSSBuffer**](/windows/win32/wmsbuffer/nn-wmsbuffer-inssbuffer?branch=master) interface.
 4.  The application is responsible for rendering data after it is delivered by the reader. The Windows Media Format SDK does not provide any rendering routines. Typically, applications will use other SDKs to render data, such as the Microsoft Direct X SDK, or the multimedia functions of the Microsoft Windows Platform SDK.
 
 These steps are illustrated in the WMSyncReader sample application. For more information, see [Sample Applications](sample-applications.md).
@@ -114,7 +128,7 @@ pSyncReader = NULL;
 
 <dl> <dt>
 
-[**IWMSyncReader Interface**](iwmsyncreader.md)
+[**IWMSyncReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmsyncreader?branch=master)
 </dt> <dt>
 
 [**Reading ASF Files**](reading-asf-files.md)

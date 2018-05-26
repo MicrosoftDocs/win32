@@ -1,8 +1,10 @@
 ---
 title: MDM\_ClientCertificateInstall\_Install03 class
 description: The MDM\_ClientCertificateInstall\_Install03 class enables the enterprise to set the installation of client certificates.
-ms.assetid: '0083e54c-e621-47da-a20d-17c8bbf7dd3a'
-keywords: ["MDM_ClientCertificateInstall_Install03 class", "MDM_ClientCertificateInstall_Install03 class, described"]
+ms.assetid: 0083e54c-e621-47da-a20d-17c8bbf7dd3a
+keywords:
+- MDM_ClientCertificateInstall_Install03 class
+- MDM_ClientCertificateInstall_Install03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ClientCertificateInstall\_Install03 class
@@ -24,7 +31,7 @@ The **MDM\_ClientCertificateInstall\_Install03** class enables the enterprise to
 > [!Note]  
 > Even though the child nodes under Install support Replace commands, after the Exec command is sent to the device, the device will take the values which are set when the Exec command is accepted. The server should not expect the node value change after Exec command is accepted will impact the current undergoing enrollment. The server should check the Status node value and make sure the device is not at unknown stage before changing child node values.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -76,7 +83,7 @@ The **MDM\_ClientCertificateInstall\_Install03** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -324,7 +331,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -339,9 +346,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

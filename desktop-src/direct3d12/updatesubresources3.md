@@ -1,8 +1,9 @@
 ---
 title: UpdateSubresources (stack-allocating) function
 description: Updates subresources with a stack-allocating implementation.
-ms.assetid: '2F30FDF1-4450-473E-AEA8-C5FF54260BCE'
-keywords: ["UpdateSubresources function"]
+ms.assetid: 2F30FDF1-4450-473E-AEA8-C5FF54260BCE
+keywords:
+- UpdateSubresources function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateSubresources (stack-allocating) function
@@ -22,13 +28,13 @@ Updates subresources with a stack-allocating implementation.
 
 ```C++
 UINT64 inline UpdateSubresources(
-  _In_ ID3D12GraphicsCommandList *pCmdList,
-  _In_ ID3D12Resource            *pDestinationResource,
-  _In_ ID3D12Resource            *pIntermediate,
-       UINT64                    IntermediateOffset,
-  _In_ UINT                      FirstSubresource,
-  _In_ UINT                      NumSubresources,
-  _In_ D3D12_SUBRESOURCE_DATA    *pSrcData
+  _In_ ID3D12GraphicsCommandList *pCmdList,
+  _In_ ID3D12Resource            *pDestinationResource,
+  _In_ ID3D12Resource            *pIntermediate,
+       UINT64                    IntermediateOffset,
+  _In_ UINT                      FirstSubresource,
+  _In_ UINT                      NumSubresources,
+  _In_ D3D12_SUBRESOURCE_DATA    *pSrcData
 );
 ```
 
@@ -41,27 +47,27 @@ UINT64 inline UpdateSubresources(
 *pCmdList* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12GraphicsCommandList**](id3d12graphicscommandlist.md)\***
+Type: **[**ID3D12GraphicsCommandList**](/windows/win32/d3d12/nn-d3d12-id3d12graphicscommandlist?branch=master)\***
 
-The command list, as a pointer to an [**ID3D12GraphicsCommandList**](id3d12graphicscommandlist.md).
+The command list, as a pointer to an [**ID3D12GraphicsCommandList**](/windows/win32/d3d12/nn-d3d12-id3d12graphicscommandlist?branch=master).
 
 </dd> <dt>
 
 *pDestinationResource* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](id3d12resource.md)\***
+Type: **[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)\***
 
-The destination resource, as a pointer to an [**ID3D12Resource**](id3d12resource.md).
+The destination resource, as a pointer to an [**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master).
 
 </dd> <dt>
 
 *pIntermediate* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D12Resource**](id3d12resource.md)\***
+Type: **[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)\***
 
-The intermediate resource, as a pointer to an [**ID3D12Resource**](id3d12resource.md).
+The intermediate resource, as a pointer to an [**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master).
 
 </dd> <dt>
 
@@ -95,9 +101,9 @@ The number of subresources in the resource. Valid values range from 1 to (*MaxSu
 *pSrcData* \[in\]
 </dt> <dd>
 
-Type: **[**D3D12\_SUBRESOURCE\_DATA**](d3d12-subresource-data.md)\***
+Type: **[**D3D12\_SUBRESOURCE\_DATA**](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_data?branch=master)\***
 
-Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRESOURCE\_DATA**](d3d12-subresource-data.md) structures containing descriptions of the subresource data used for the update.
+Pointer to an array (of length *NumSubresources*) of pointers to [**D3D12\_SUBRESOURCE\_DATA**](/windows/win32/D3D12/ns-d3d12-d3d12_subresource_data?branch=master) structures containing descriptions of the subresource data used for the update.
 
 </dd> </dl>
 
@@ -133,9 +139,9 @@ The declaration of this function begins with: `template <UINT MaxSubresources>`
 [Subresources](subresources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

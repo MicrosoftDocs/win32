@@ -4,17 +4,22 @@ description: Specifies information of suggested search criteria, which may be in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '69823ef3-efa8-4732-bbec-27ed8fec81cc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 69823ef3-efa8-4732-bbec-27ed8fec81cc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Search-Guide attribute AD Schema", "searchGuide attribute AD Schema"]
+keywords:
+- Search-Guide attribute AD Schema
+- searchGuide attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Search-Guide
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Search-Guide attribute
@@ -38,13 +43,13 @@ Specifies information of suggested search criteria, which may be included in som
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Specifies information of suggested search criteria, which may be included in som
 
 
 
- 
+ 
 
- 
+ 
 
 
 

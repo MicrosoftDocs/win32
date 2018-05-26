@@ -1,7 +1,12 @@
-﻿---
-Description: 'This structure contains the necessary data for logging a branch office job failure event on a remote server. This is based on standard job-related data available to the spooler.'
-ms.assetid: '947C508E-2EB9-451D-AA8D-DCDDE27DEBE6'
+---
+Description: This structure contains the necessary data for logging a branch office job failure event on a remote server. This is based on standard job-related data available to the spooler.
+ms.assetid: 947C508E-2EB9-451D-AA8D-DCDDE27DEBE6
 title: BranchOfficeJobDataError structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeJobDataError structure

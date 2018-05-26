@@ -1,8 +1,11 @@
 ---
 title: TaskService.GetRunningTasks method
 description: For scripting, gets a collection of running tasks.
-ms.assetid: '6248cf51-acd8-4317-9837-99dcf918e816'
-keywords: ["GetRunningTasks method Task Scheduler", "GetRunningTasks method Task Scheduler , TaskService object", "TaskService object Task Scheduler , GetRunningTasks method"]
+ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
+keywords:
+- GetRunningTasks method Task Scheduler
+- GetRunningTasks method Task Scheduler , TaskService object
+- TaskService object Task Scheduler , GetRunningTasks method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskService.GetRunningTasks method
@@ -20,7 +28,7 @@ For scripting, gets a collection of running tasks.
 > [!Note]  
 > **TaskService.GetRunningTasks** will only return a collection of running tasks that are running at or below a user's security context. For example, for members of the Administrators group, **GetRunningTasks** will return a collection of all running tasks, but for members of the Users group, **GetRunningTasks** will only return a collection of tasks that are running under the Users group security context.
 
- 
+ 
 
 ## Syntax
 
@@ -54,8 +62,8 @@ A [**RunningTaskCollection**](runningtaskcollection.md) object that contains the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -68,9 +76,9 @@ A [**RunningTaskCollection**](runningtaskcollection.md) object that contains the
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

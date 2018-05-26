@@ -1,14 +1,20 @@
 ---
 title: WM/AlbumCoverURL Attribute
 description: The WM/AlbumCoverURL attribute is the uniform resource locator (URL) for album art or a thumbnail image.
-ms.assetid: '0134867a-7c11-4d50-9ab5-b48c1ca6c473'
-keywords: ["WM/AlbumCoverURL Attribute Windows Media Player"]
+ms.assetid: 0134867a-7c11-4d50-9ab5-b48c1ca6c473
+keywords:
+- WM/AlbumCoverURL Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/AlbumCoverURL Attribute
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AlbumCoverURL Attribute
@@ -25,7 +31,7 @@ The **WM/AlbumCoverURL** attribute is the uniform resource locator (URL) for alb
 
 For an audio item, this attribute is the URL of the album art. For a photo or video item, this attribute is the URL of a thumbnail image.
 
-This attribute is not available for media items in the current user's local library. It is available only for media items that belong to a remote library; that is, a library that has been made available by another user on the home network. To determine whether a media library is remote, call [**IWMPLibrary::get\_type**](iwmplibrary-get-type.md).
+This attribute is not available for media items in the current user's local library. It is available only for media items that belong to a remote library; that is, a library that has been made available by another user on the home network. To determine whether a media library is remote, call [**IWMPLibrary::get\_type**](/windows/win32/wmp/nf-wmp-iwmplibrary-get_type?branch=master).
 
 ## Requirements
 
@@ -44,9 +50,9 @@ This attribute is not available for media items in the current user's local libr
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

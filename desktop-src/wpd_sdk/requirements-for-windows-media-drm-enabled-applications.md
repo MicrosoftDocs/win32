@@ -1,7 +1,12 @@
 ---
-Description: 'Requirements for Windows Media DRM-Enabled Applications'
-ms.assetid: '67f872dc-79ef-4799-bb7b-b84d7dc11c71'
-title: 'Requirements for Windows Media DRM-Enabled Applications'
+Description: Requirements for Windows Media DRM-Enabled Applications
+ms.assetid: 67f872dc-79ef-4799-bb7b-b84d7dc11c71
+title: Requirements for Windows Media DRM-Enabled Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Windows Media DRM-Enabled Applications
@@ -21,21 +26,21 @@ The two additional properties that are required to enable Windows Media DRM-prot
 
  
 
-These properties must be supplied in the application's client information when the device is opened with the [**IPortableDevice::Open**](iportabledevice-open.md) method. When these properties are supplied, the WPD API allows protected content transfers. If the application has provided a certificate and private key, the API will create a secure channel to transfer protected WMDRM content to the device.
+These properties must be supplied in the application's client information when the device is opened with the [**IPortableDevice::Open**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open?branch=master) method. When these properties are supplied, the WPD API allows protected content transfers. If the application has provided a certificate and private key, the API will create a secure channel to transfer protected WMDRM content to the device.
 
 For information about creating and distributing Windows-based applications that support Windows Media DRM, see the following [Licensing Windows-based Applications](http://go.microsoft.com/fwlink/p/?linkid=143849) topic.
 
 ## Transferring Content
 
-To transfer WMDRM protected content, use [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](iportabledevicecontent-createobjectwithpropertiesanddata.md). This method can be used for both protected and clear content without additional options. The WPD API will automatically select the protected or clear channel depending on whether the content is protected or clear. It interfaces with the WMDRM Secure Content Provider to process the WMDRM licenses.
+To transfer WMDRM protected content, use [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata?branch=master). This method can be used for both protected and clear content without additional options. The WPD API will automatically select the protected or clear channel depending on whether the content is protected or clear. It interfaces with the WMDRM Secure Content Provider to process the WMDRM licenses.
 
 ## Transferring Known Clear Content
 
-If you've enabled your application to handle protected content, but you know that a specific file is not protected, you can tell WPD to skip the DRM processing by setting **WPD\_API\_OPTION\_USE\_CLEAR\_DATA\_STREAM** option to TRUE in the input **IPortableDeviceValues** when calling [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](iportabledevicecontent-createobjectwithpropertiesanddata.md) for clear content.
+If you've enabled your application to handle protected content, but you know that a specific file is not protected, you can tell WPD to skip the DRM processing by setting **WPD\_API\_OPTION\_USE\_CLEAR\_DATA\_STREAM** option to TRUE in the input **IPortableDeviceValues** when calling [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata?branch=master) for clear content.
 
 ## Accessing Metering Operations using IWMDRMDeviceApp
 
-WPD provides a mechanism to access the **IWMDRMDeviceApp** APIs for license updates and metering data retrieval. To access this API through WPD, call **QueryInterface** on **IID\_IWMDRMDeviceApp** from the **IStream** returned from [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](iportabledevicecontent-createobjectwithpropertiesanddata.md). This **IWMDRMDeviceApp** instance tied to the **IPortableDevice** connection to your WMDRM-compatible device, and not the specific content where the **IStream** was obtained. WPD internally wraps the metering APIs and makes it accessible to your application. Your application should use the WMDRMDEVICEAPP\_USE\_WPD\_DEVICE\_PTR constant for the *IWMDMDevice*\* parameter.
+WPD provides a mechanism to access the **IWMDRMDeviceApp** APIs for license updates and metering data retrieval. To access this API through WPD, call **QueryInterface** on **IID\_IWMDRMDeviceApp** from the **IStream** returned from [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata?branch=master). This **IWMDRMDeviceApp** instance tied to the **IPortableDevice** connection to your WMDRM-compatible device, and not the specific content where the **IStream** was obtained. WPD internally wraps the metering APIs and makes it accessible to your application. Your application should use the WMDRMDEVICEAPP\_USE\_WPD\_DEVICE\_PTR constant for the *IWMDMDevice*\* parameter.
 
 The following code snippet demonstrates this.
 

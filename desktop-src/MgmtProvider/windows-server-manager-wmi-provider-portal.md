@@ -4,10 +4,13 @@ description: The Windows Server Manager WMI provider manages the data exposed by
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '654bf6d2-3083-4def-bada-fc77a2f4a519'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 654bf6d2-3083-4def-bada-fc77a2f4a519
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Server Manager WMI provider

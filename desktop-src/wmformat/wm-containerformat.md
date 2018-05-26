@@ -1,14 +1,20 @@
 ---
 title: WM/ContainerFormat
 description: The WM/ContainerFormat attribute specifies the type of file that is loaded in the calling object.
-ms.assetid: 'fea5b2e4-f10d-4482-a7b3-7dabf58df085'
-keywords: ["WM/ContainerFormat windows Media Format"]
+ms.assetid: fea5b2e4-f10d-4482-a7b3-7dabf58df085
+keywords:
+- WM/ContainerFormat windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ContainerFormat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ContainerFormat
@@ -21,7 +27,7 @@ g\_wszWMContainerFormat
 
 ## Data Type
 
-[**WMT\_STORAGE\_FORMAT**](wmt-storage-format.md) (**WMT\_TYPE\_BINARY**)
+[**WMT\_STORAGE\_FORMAT**](/windows/win32/Wmsdkidl/ne-wmsdkidl-tagwmt_storage_format?branch=master) (**WMT\_TYPE\_BINARY**)
 
 ## Remarks
 

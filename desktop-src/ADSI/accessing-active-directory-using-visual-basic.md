@@ -4,11 +4,15 @@ description: One of the most powerful features that became available with the Mi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b5021e38-92a2-43d2-b3cb-15ff5c74c1d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b5021e38-92a2-43d2-b3cb-15ff5c74c1d8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Accessing Active Directory Using Visual Basic ADSI"]
+keywords:
+- Accessing Active Directory Using Visual Basic ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing Active Directory Using Visual Basic

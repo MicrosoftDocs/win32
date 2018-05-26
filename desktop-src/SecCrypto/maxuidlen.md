@@ -1,7 +1,12 @@
-﻿---
-Description: 'A numeric constant that specifies the maximum number of characters that some of the Microsoft cryptographic providers will use when obtaining the user ID.'
-ms.assetid: 'cc15a166-9a0c-41ce-9cb1-ecdc922565c0'
+---
+Description: A numeric constant that specifies the maximum number of characters that some of the Microsoft cryptographic providers will use when obtaining the user ID.
+ms.assetid: cc15a166-9a0c-41ce-9cb1-ecdc922565c0
 title: MAXUIDLEN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MAXUIDLEN
@@ -12,7 +17,7 @@ MAXUIDLEN is a numeric constant that specifies the maximum number of characters 
 
 | Constant/value                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                   |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="MAXUIDLEN"></span><span id="maxuidlen"></span><dl> <dt>**MAXUIDLEN**</dt> <dt>64 (0x40)</dt> </dl> | When the *pszContainer* parameter of the [**CryptAcquireContext**](cryptacquirecontext.md) function is **NULL**, some of the Microsoft cryptographic providers use the logon name of the currently logged on user as the key container name. MAXUIDLEN specifies the maximum number of characters, including the terminating **NULL** character, that these providers will use for the user name.<br/> |
+| <span id="MAXUIDLEN"></span><span id="maxuidlen"></span><dl> <dt>**MAXUIDLEN**</dt> <dt>64 (0x40)</dt> </dl> | When the *pszContainer* parameter of the [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) function is **NULL**, some of the Microsoft cryptographic providers use the logon name of the currently logged on user as the key container name. MAXUIDLEN specifies the maximum number of characters, including the terminating **NULL** character, that these providers will use for the user name.<br/> |
 
 
 
@@ -32,7 +37,7 @@ MAXUIDLEN is a numeric constant that specifies the maximum number of characters 
 
 <dl> <dt>
 
-[**CryptAcquireContext**](cryptacquirecontext.md)
+[**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master)
 </dt> <dt>
 
 [**CPAcquireContext**](seccngprov.cpacquirecontext)

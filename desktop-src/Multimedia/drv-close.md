@@ -1,8 +1,9 @@
 ---
 title: DRV\_CLOSE message
 description: Directs the driver to close the given instance. If no other instances are open, the driver should prepare for subsequent release from memory.
-ms.assetid: '98d7fe47-5194-4912-a9d6-3af3d1fa4e60'
-keywords: ["DRV_CLOSE message Windows Multimedia"]
+ms.assetid: 98d7fe47-5194-4912-a9d6-3af3d1fa4e60
+keywords:
+- DRV_CLOSE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_CLOSE message
@@ -59,8 +65,8 @@ Returns nonzero if successful or zero otherwise.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ Returns nonzero if successful or zero otherwise.
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

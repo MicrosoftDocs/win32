@@ -4,11 +4,12 @@ description: Used to finalize the metadata of the license and serialize it.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '77093E90-5A84-47C8-B8BE-4065C183C0BD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 77093E90-5A84-47C8-B8BE-4065C183C0BD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcSerializeLicenseWithMetadata function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcSerializeLicenseWithMetadata function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcSerializeLicenseWithMetadata function
@@ -28,10 +32,10 @@ Used to finalize the metadata of the license and serialize it.
 
 ```C++
 HRESULT WINAPI IpcSerializeLicenseWithMetadata(
-  _In_       IPC_LICENSE_METADATA_HANDLE hLicenseMetadata,
-  _Reserved_ LPVOID                      pvReserved,
-  _In_opt_   PCIPC_PROMPT_CTX            pContext,
-  _Out_      PIPC_BUFFER                 *ppvLicense
+  _In_       IPC_LICENSE_METADATA_HANDLE hLicenseMetadata,
+  _Reserved_ LPVOID                      pvReserved,
+  _In_opt_   PCIPC_PROMPT_CTX            pContext,
+  _Out_      PIPC_BUFFER                 *ppvLicense
 );
 ```
 
@@ -77,7 +81,7 @@ The buffer is allocated by the API and must be freed using [**IpcFreeMemory**](i
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -95,8 +99,8 @@ Possible values include, but are not limited to, those in the following list.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -134,9 +138,9 @@ Possible values include, but are not limited to, those in the following list.
 [**IpcRegisterLicense**](ipcregisterlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

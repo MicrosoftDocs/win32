@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a state change.'
-ms.assetid: '005b34c7-51ed-4ef3-934c-a6a57a878b3b'
-title: 'RequestStateChange method of the Msvm\_ImageManagementService class'
+Description: Requests a state change.
+ms.assetid: 005b34c7-51ed-4ef3-934c-a6a57a878b3b
+title: RequestStateChange method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_ImageManagementService class
@@ -13,9 +18,9 @@ Requests a state change.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -141,8 +146,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -156,9 +161,9 @@ This method returns one of the following values:
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

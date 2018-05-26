@@ -1,8 +1,11 @@
 ---
 title: LogFiles.Item property
 description: Retrieves the specified LogFileItem instance from the collection.
-ms.assetid: '518c1343-f659-4434-910c-958c09ffab6a'
-keywords: ["Item property SysMon", "Item property SysMon , LogFiles class", "LogFiles class SysMon , Item property"]
+ms.assetid: 518c1343-f659-4434-910c-958c09ffab6a
+keywords:
+- Item property SysMon
+- Item property SysMon , LogFiles class
+- LogFiles class SysMon , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogFiles.Item property
@@ -44,8 +52,8 @@ This is the default property of the [**LogFiles**](systemmonitor-logfiles.md) ob
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -63,9 +71,9 @@ This is the default property of the [**LogFiles**](systemmonitor-logfiles.md) ob
 [**LogFiles**](systemmonitor-logfiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

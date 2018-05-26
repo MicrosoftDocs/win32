@@ -1,8 +1,19 @@
 ---
 title: Adding Custom Icons to Windows Movie Maker
 description: Adding Custom Icons to Windows Movie Maker
-ms.assetid: '5dbb028a-3f96-4a4f-8caf-d3dcb80e3ab5'
-keywords: ["Windows Movie Maker,custom icons", "Movie Maker,custom icons", "programming guide,custom icons in Windows Movie Maker", "adding custom icons to Windows Movie Maker", "custom icons in Windows Movie Maker", "icons in Windows Movie Maker"]
+ms.assetid: 5dbb028a-3f96-4a4f-8caf-d3dcb80e3ab5
+keywords:
+- Windows Movie Maker,custom icons
+- Movie Maker,custom icons
+- programming guide,custom icons in Windows Movie Maker
+- adding custom icons to Windows Movie Maker
+- custom icons in Windows Movie Maker
+- icons in Windows Movie Maker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Custom Icons to Windows Movie Maker

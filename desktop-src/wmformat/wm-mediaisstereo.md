@@ -1,14 +1,20 @@
 ---
 title: WM/MediaIsStereo
 description: The WM/MediaIsStereo attribute indicates whether the content is broadcast with stereo sound.
-ms.assetid: 'd9a7ba4a-d46b-4240-92e4-19ec6ea402c7'
-keywords: ["WM/MediaIsStereo windows Media Format"]
+ms.assetid: d9a7ba4a-d46b-4240-92e4-19ec6ea402c7
+keywords:
+- WM/MediaIsStereo windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaIsStereo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaIsStereo

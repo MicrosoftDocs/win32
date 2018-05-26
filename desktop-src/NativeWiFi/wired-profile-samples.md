@@ -1,7 +1,12 @@
 ---
-Description: 'Show sample XML profiles for various wired network configurations.'
-ms.assetid: 'd96e56c3-3d38-4b4e-be31-05f825fec211'
+Description: Show sample XML profiles for various wired network configurations.
+ms.assetid: d96e56c3-3d38-4b4e-be31-05f825fec211
 title: Wired Profile Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wired Profile Samples

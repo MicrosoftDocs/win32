@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the name of the specified certification authority (CA) for a given certificate template.'
-ms.assetid: 'e921710a-7c74-4fda-91e1-fbad45889984'
-title: 'ISCrdEnr::getCAName method'
+---
+Description: Retrieves the name of the specified certification authority (CA) for a given certificate template.
+ms.assetid: e921710a-7c74-4fda-91e1-fbad45889984
+title: ISCrdEnrgetCAName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getCAName method

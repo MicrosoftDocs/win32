@@ -1,8 +1,15 @@
 ---
 title: WinSNMP Data Management Concepts
 description: The topics in this section discuss major concepts of data management that apply to programming with the WinSNMP API.
-ms.assetid: '52e911f3-9b28-4ac3-a080-44fb18f5633e'
-keywords: ["WinSNMP Data Management Concepts SNMP", "Data Management Concepts SNMP , SNMP"]
+ms.assetid: 52e911f3-9b28-4ac3-a080-44fb18f5633e
+keywords:
+- WinSNMP Data Management Concepts SNMP
+- Data Management Concepts SNMP , SNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSNMP Data Management Concepts

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceName property is a null-terminated string that contains the name of the fax device.'
-ms.assetid: 'b81f83ed-e25d-44f9-a8ad-8197a9f2784d'
-title: 'FaxDevice.DeviceName property'
+---
+Description: The DeviceName property is a null-terminated string that contains the name of the fax device.
+ms.assetid: b81f83ed-e25d-44f9-a8ad-8197a9f2784d
+title: FaxDevice.DeviceName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.DeviceName property
@@ -46,7 +51,7 @@ A **String** that receives the name of the fax device. The **String** is null-te
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

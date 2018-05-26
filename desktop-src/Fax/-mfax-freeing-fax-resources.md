@@ -1,7 +1,12 @@
 ---
-Description: 'Under certain circumstances, it is the responsibility of the calling fax client application to manage allocated resources.'
-ms.assetid: 'a8371d98-8a66-484a-9179-4894ae0a7dfc'
+Description: Under certain circumstances, it is the responsibility of the calling fax client application to manage allocated resources.
+ms.assetid: a8371d98-8a66-484a-9179-4894ae0a7dfc
 title: Freeing Fax Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Freeing Fax Resources
@@ -10,9 +15,9 @@ Under certain circumstances, it is the responsibility of the calling fax client 
 
 ## In the Win32 Environment
 
-The fax client application must deallocate the resources allocated by certain fax client function calls. This includes calls to the [**FaxCompleteJobParams**](-mfax-faxcompletejobparams.md) function and to functions that begin with **FaxEnum** or **FaxGet**. Call the [**FaxFreeBuffer**](-mfax-faxfreebuffer.md) function to deallocate these resources.
+The fax client application must deallocate the resources allocated by certain fax client function calls. This includes calls to the [**FaxCompleteJobParams**](/windows/previous-versions/Winfax/nf-winfax-faxcompletejobparamsa?branch=master) function and to functions that begin with **FaxEnum** or **FaxGet**. Call the [**FaxFreeBuffer**](/windows/previous-versions/Winfax/nc-winfax-pfaxfreebuffer?branch=master) function to deallocate these resources.
 
-Data should not be referenced if an application has dereferenced it by calling the [**FaxFreeBuffer**](-mfax-faxfreebuffer.md) function.
+Data should not be referenced if an application has dereferenced it by calling the [**FaxFreeBuffer**](/windows/previous-versions/Winfax/nc-winfax-pfaxfreebuffer?branch=master) function.
 
 ## In the COM Implementation Environment
 

@@ -1,7 +1,12 @@
 ---
 title: ListenComplete Event
 description: ListenComplete Event
-ms.assetid: '29e3f424-17b4-4287-b644-ed62b80e0035'
+ms.assetid: 29e3f424-17b4-4287-b644-ed62b80e0035
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ListenComplete Event
@@ -31,7 +36,7 @@ Occurs when Listening mode (speech recognition) has ended.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -48,9 +53,9 @@ The event returns the character to the clients that currently have this characte
 [**ListenStart event**](listenstart-event.md), [**Listen method**](listen-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

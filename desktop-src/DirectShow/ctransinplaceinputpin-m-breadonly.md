@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the input stream is read-only. The upstream filter specifies this information when it calls the NotifyAllocator method. By default, the value is FALSE.'
-ms.assetid: 'd5a71c00-326c-45b4-b9c5-b67a0fe71bf5'
-title: 'CTransInPlaceInputPin::m\_bReadOnly member'
+Description: Flag that specifies whether the input stream is read-only. The upstream filter specifies this information when it calls the NotifyAllocator method. By default, the value is FALSE.
+ms.assetid: d5a71c00-326c-45b4-b9c5-b67a0fe71bf5
+title: CTransInPlaceInputPinm\_bReadOnly member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceInputPin::m\_bReadOnly member
@@ -35,9 +40,9 @@ BOOL m_bReadOnly;
 [**CTransInPlaceInputPin Class**](ctransinplaceinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

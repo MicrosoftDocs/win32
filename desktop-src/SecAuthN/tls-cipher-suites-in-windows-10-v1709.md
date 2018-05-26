@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.'
-ms.assetid: 'E1E731F9-1F17-4252-ADDB-22742344C37B'
+---
+Description: Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
+ms.assetid: E1E731F9-1F17-4252-ADDB-22742344C37B
 title: TLS Cipher Suites in Windows 10 v1709
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLS Cipher Suites in Windows 10 v1709
@@ -101,7 +106,7 @@ The following PSK cipher suites are enabled and in this priority order by defaul
  
 
 > [!Note]  
-> No PSK cipher suites are enabled by default. Applications need to request PSK using SCH\_USE\_PRESHAREDKEY\_ONLY. For more information on Schannel flags, see [**SCHANNEL\_CRED**](schannel-cred.md).
+> No PSK cipher suites are enabled by default. Applications need to request PSK using SCH\_USE\_PRESHAREDKEY\_ONLY. For more information on Schannel flags, see [**SCHANNEL\_CRED**](/windows/win32/Schannel/ns-schannel-_schannel_cred?branch=master).
 
  
 

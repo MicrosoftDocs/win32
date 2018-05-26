@@ -1,8 +1,16 @@
 ---
 title: Implementing a Folder View
 description: Windows Shell provides a default implementation of the folder view, colloquially known as DefView, so that you can avoid much of the work of implementing your own namespace extension.
-ms.assetid: '8c6712d8-c3cb-4450-8277-3a8675622651'
-keywords: ["folder view object", "IShellView", "IShellBrowser,folder view objects"]
+ms.assetid: 8c6712d8-c3cb-4450-8277-3a8675622651
+keywords:
+- folder view object
+- IShellView
+- IShellBrowser,folder view objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Folder View

@@ -4,10 +4,13 @@ description: Describes syntax for the dynamic virtual channel (DVC) plug-in entr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cda4f8c9-867a-41ac-894a-4296d5912b2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cda4f8c9-867a-41ac-894a-4296d5912b2b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DVC plug-in registration
@@ -44,7 +47,7 @@ The plug-in is not necessarily registered in the Windows registry as a Component
 <span id="Plug-inDLLName"></span><span id="plug-indllname"></span><span id="PLUG-INDLLNAME"></span>"*Plug-inDLLName*"
 </dt> <dd>
 
-The DLL implements the [**VirtualChannelGetInstance**](virtualchannelgetinstance.md) function and exports it by name. The RDC client will use the **VirtualChannelGetInstance** function to obtain [**IWTSPlugin**](iwtsplugin.md) interface pointers for all of the plug-ins implemented by the DLL.
+The DLL implements the [**VirtualChannelGetInstance**](virtualchannelgetinstance.md) function and exports it by name. The RDC client will use the **VirtualChannelGetInstance** function to obtain [**IWTSPlugin**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsplugin?branch=master) interface pointers for all of the plug-ins implemented by the DLL.
 
 </dd> <dt>
 
@@ -62,10 +65,10 @@ The RDC client will instantiate the plug-in as a regular COM object using [**CoC
 
 When the Remote Desktop Connection (RDC) client finishes its initialization, it will perform the following for every registered plug-in:
 
-1.  Obtain an instance of the [**IWTSPlugin**](iwtsplugin.md) interface for each plug-in using one of the methods described above.
-2.  Call the [**Initialize**](iwtsplugin-initialize.md) method of each [**IWTSPlugin**](iwtsplugin.md) interface.
-3.  If the client connects multiple times to the same or to a different server, there may be multiple calls to the [**Connected**](iwtsplugin-connected.md) and [**Disconnected**](iwtsplugin-disconnected.md) methods.
-4.  The last call that the plug-in should handle is [**Terminated**](iwtsplugin-terminated.md). It is a signal that the Remote Desktop Connection (RDC) client is about to unload the plug-in.
+1.  Obtain an instance of the [**IWTSPlugin**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsplugin?branch=master) interface for each plug-in using one of the methods described above.
+2.  Call the [**Initialize**](/windows/win32/TsVirtualChannels/nf-tsvirtualchannels-iwtsplugin-initialize?branch=master) method of each [**IWTSPlugin**](/windows/win32/TsVirtualChannels/nn-tsvirtualchannels-iwtsplugin?branch=master) interface.
+3.  If the client connects multiple times to the same or to a different server, there may be multiple calls to the [**Connected**](/windows/win32/TsVirtualChannels/nf-tsvirtualchannels-iwtsplugin-connected?branch=master) and [**Disconnected**](/windows/win32/TsVirtualChannels/nf-tsvirtualchannels-iwtsplugin-disconnected?branch=master) methods.
+4.  The last call that the plug-in should handle is [**Terminated**](/windows/win32/TsVirtualChannels/nf-tsvirtualchannels-iwtsplugin-terminated?branch=master). It is a signal that the Remote Desktop Connection (RDC) client is about to unload the plug-in.
 
  
 

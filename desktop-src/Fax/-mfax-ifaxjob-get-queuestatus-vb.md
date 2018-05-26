@@ -1,7 +1,12 @@
-﻿---
-Description: 'The QueueStatus property is a null-terminated string that describes the job queue status of the fax job.'
-ms.assetid: 'c94d2da0-f304-4892-8d88-e3ff3aca67c7'
-title: 'FaxJob.QueueStatus property'
+---
+Description: The QueueStatus property is a null-terminated string that describes the job queue status of the fax job.
+ms.assetid: c94d2da0-f304-4892-8d88-e3ff3aca67c7
+title: FaxJob.QueueStatus property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.QueueStatus property
@@ -148,10 +153,10 @@ The fax server exceeded the maximum number of retransmission attempts allowed. T
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

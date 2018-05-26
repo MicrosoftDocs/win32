@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections describe how to use the setup functions to create a queue, add file operations to a queue, and commit the queue.'
-ms.assetid: 'e0687907-99c0-4d08-8df5-ad572539008a'
+Description: The following sections describe how to use the setup functions to create a queue, add file operations to a queue, and commit the queue.
+ms.assetid: e0687907-99c0-4d08-8df5-ad572539008a
 title: Using File Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using File Queues

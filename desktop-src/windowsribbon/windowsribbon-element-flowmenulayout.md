@@ -1,14 +1,20 @@
 ---
 title: FlowMenuLayout element
 description: Represents a horizontal layout with line breaks for items in a gallery.
-ms.assetid: '40c3a2e1-e58a-4d34-a237-b1bea116c82e'
-keywords: ["FlowMenuLayout element Windows Ribbon"]
+ms.assetid: 40c3a2e1-e58a-4d34-a237-b1bea116c82e
+keywords:
+- FlowMenuLayout element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - FlowMenuLayout
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FlowMenuLayout element
@@ -135,14 +141,14 @@ This section of code shows the [**DropDownGallery.MenuLayout**](windowsribbon-el
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

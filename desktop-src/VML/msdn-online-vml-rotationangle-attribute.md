@@ -1,7 +1,12 @@
 ---
 title: VML RotationAngle Attribute
 description: VML RotationAngle Attribute
-ms.assetid: 'd5432512-1ac2-497b-a415-cec3c1217120'
+ms.assetid: d5432512-1ac2-497b-a415-cec3c1217120
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML RotationAngle Attribute

@@ -1,7 +1,12 @@
 ---
 title: MaxUsnLogSize
 description: MaxUsnLogSize
-ms.assetid: '27cc616a-6dee-4593-a7b1-56fa9091ff8c'
+ms.assetid: 27cc616a-6dee-4593-a7b1-56fa9091ff8c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxUsnLogSize

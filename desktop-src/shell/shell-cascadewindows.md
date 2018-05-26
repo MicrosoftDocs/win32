@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cascades all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Cascade Windows.'
-ms.assetid: 'f73d2066-4626-455b-8ee6-f7004cc9e699'
-title: 'Shell.CascadeWindows method'
+---
+Description: Cascades all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Cascade Windows.
+ms.assetid: f73d2066-4626-455b-8ee6-f7004cc9e699
+title: Shell.CascadeWindows method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.CascadeWindows method

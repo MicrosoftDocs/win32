@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used with error handling.'
-ms.assetid: '7d08603d-7baa-4972-962c-50beaeb926f2'
+Description: The following elements are used with error handling.
+ms.assetid: 7d08603d-7baa-4972-962c-50beaeb926f2
 title: Error Handling Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling Reference

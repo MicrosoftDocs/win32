@@ -4,17 +4,22 @@ description: Service account class is used to create accounts that are used for 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6571f07d-a6ab-4406-8f70-f0cb00714ac9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6571f07d-a6ab-4406-8f70-f0cb00714ac9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Managed-Service-Account class AD Schema", "msDS-ManagedServiceAccount class AD Schema"]
+keywords:
+- ms-DS-Managed-Service-Account class AD Schema
+- msDS-ManagedServiceAccount class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Managed-Service-Account
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Managed-Service-Account class
@@ -35,8 +40,8 @@ Service account class is used to create accounts that are used for running Windo
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -66,7 +71,7 @@ Service account class is used to create accounts that are used for running Windo
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -438,7 +443,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008 R2:
+This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
@@ -454,7 +459,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Validated Writes
 
-This class contains the following validated writes for Windows Server 2008 R2:
+This class contains the following validated writes for Windows Server 2008 R2:
 
 
 
@@ -467,7 +472,7 @@ This class contains the following validated writes for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Property Sets
 
-This class contains the following property sets for Windows Server 2008 R2:
+This class contains the following property sets for Windows Server 2008 R2:
 
 
 
@@ -509,7 +514,7 @@ This class contains the following property sets for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -893,7 +898,7 @@ This class contains the following attributes for Windows Server 2012:
 
 ## Windows Server 2012 Extended Rights
 
-This class contains the following extended rights for Windows Server 2012:
+This class contains the following extended rights for Windows Server 2012:
 
 
 
@@ -909,7 +914,7 @@ This class contains the following extended rights for Windows Server 2012:
 
 ## Windows Server 2012 Validated Writes
 
-This class contains the following validated writes for Windows Server 2012:
+This class contains the following validated writes for Windows Server 2012:
 
 
 
@@ -922,7 +927,7 @@ This class contains the following validated writes for Windows Server 2012:
 
 ## Windows Server 2012 Property Sets
 
-This class contains the following property sets for Windows Server 2012:
+This class contains the following property sets for Windows Server 2012:
 
 
 
@@ -936,9 +941,9 @@ This class contains the following property sets for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,37 @@
 ---
 title: Building an XMR License
 description: Building an XMR License
-ms.assetid: 'c43e4913-82a6-4dd0-9d1f-1fb237ecbb30'
-keywords: ["Windows Media Format SDK,DRM import", "Windows Media Format SDK,import", "Windows Media Format SDK,XMR licenses", "Windows Media Format SDK,licenses", "Windows Media Format SDK,Extensible Media Rights (XMR)", "digital rights management (DRM),import", "DRM (digital rights management),import", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),XMR licenses", "DRM (digital rights management),XMR licenses", "digital rights management (DRM),Extensible Media Rights (XMR)", "DRM (digital rights management),Extensible Media Rights (XMR)", "DRM Client Extended APIs,import", "Client Extended APIs,import", "DRM Client Extended APIs,XMR licenses", "Client Extended APIs,XMR licenses", "DRM Client Extended APIs,licenses", "Client Extended APIs,licenses", "DRM Client Extended APIs,Extensible Media Rights (XMR)", "Client Extended APIs,Extensible Media Rights (XMR)", "licenses,XMR", "Extensible Media Rights (XMR)", "XMR (Extensible Media Rights)"]
+ms.assetid: c43e4913-82a6-4dd0-9d1f-1fb237ecbb30
+keywords:
+- Windows Media Format SDK,DRM import
+- Windows Media Format SDK,import
+- Windows Media Format SDK,XMR licenses
+- Windows Media Format SDK,licenses
+- Windows Media Format SDK,Extensible Media Rights (XMR)
+- digital rights management (DRM),import
+- DRM (digital rights management),import
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),XMR licenses
+- DRM (digital rights management),XMR licenses
+- digital rights management (DRM),Extensible Media Rights (XMR)
+- DRM (digital rights management),Extensible Media Rights (XMR)
+- DRM Client Extended APIs,import
+- Client Extended APIs,import
+- DRM Client Extended APIs,XMR licenses
+- Client Extended APIs,XMR licenses
+- DRM Client Extended APIs,licenses
+- Client Extended APIs,licenses
+- DRM Client Extended APIs,Extensible Media Rights (XMR)
+- Client Extended APIs,Extensible Media Rights (XMR)
+- licenses,XMR
+- Extensible Media Rights (XMR)
+- XMR (Extensible Media Rights)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building an XMR License

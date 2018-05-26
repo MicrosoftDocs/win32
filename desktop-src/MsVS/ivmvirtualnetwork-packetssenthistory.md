@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork PacketsSentHistory property
 description: The PacketsSentHistory property contains the recent number of packets sent per second by this virtual network (as an array of number of packets).
-ms.assetid: '938e9361-07b5-4227-abe5-7594bbec7afe'
-keywords: ["PacketsSentHistory property Virtual Server", "PacketsSentHistory property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , PacketsSentHistory property", "PacketsSentHistory property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , PacketsSentHistory property"]
+ms.assetid: 938e9361-07b5-4227-abe5-7594bbec7afe
+keywords:
+- PacketsSentHistory property Virtual Server
+- PacketsSentHistory property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , PacketsSentHistory property
+- PacketsSentHistory property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , PacketsSentHistory property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::PacketsSentHistory property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_PacketsSentHistory(
-  [out] VARIANT *packetsSent
+  [out] VARIANT *packetsSent
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

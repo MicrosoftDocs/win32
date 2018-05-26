@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Image Acquisition (WIA) provides automation objects for use in scripting languages, such as Microsoft JScript and Microsoft Visual Basic Scripting Edition (VBScript) development software, and high-level programming languages such as Microsoft Visual Basic development system.'
-ms.assetid: '3d294db3-3349-4b26-aae1-1e3f588a0f0e'
+Description: Windows Image Acquisition (WIA) provides automation objects for use in scripting languages, such as Microsoft JScript and Microsoft Visual Basic Scripting Edition (VBScript) development software, and high-level programming languages such as Microsoft Visual Basic development system.
+ms.assetid: 3d294db3-3349-4b26-aae1-1e3f588a0f0e
 title: WIA Scripting Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Scripting Model

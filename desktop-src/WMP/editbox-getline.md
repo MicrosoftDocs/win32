@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.getLine
 description: The getLine method retrieves the text for the line with the specified index.
-ms.assetid: 'a692c32b-86b9-419e-a3a5-464687be04da'
-keywords: ["EDITBOX.getLine Windows Media Player"]
+ms.assetid: a692c32b-86b9-419e-a3a5-464687be04da
+keywords:
+- EDITBOX.getLine Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.getLine
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.getLine
@@ -61,9 +67,9 @@ If the index is not valid, an empty string is returned. This method can only be 
 [**EDITBOX.getLineIndex**](editbox-getlineindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

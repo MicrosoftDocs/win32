@@ -1,8 +1,14 @@
 ---
 title: Defining the Interface
 description: An interface definition is a formal specification for how a client application and a server application communicate with each other.
-ms.assetid: '709ca498-4da3-4e6f-bb12-333a407b74c2'
-keywords: ["Remote Procedure Call RPC , tasks, defining the interface"]
+ms.assetid: 709ca498-4da3-4e6f-bb12-333a407b74c2
+keywords:
+- Remote Procedure Call RPC , tasks, defining the interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining the Interface

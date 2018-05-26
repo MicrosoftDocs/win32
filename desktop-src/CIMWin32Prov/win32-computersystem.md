@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a computer system running Windows.'
+Description: Represents a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fdb9fe36-1b8a-4dfa-a1cd-55065017ba2a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fdb9fe36-1b8a-4dfa-a1cd-55065017ba2a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ComputerSystem class'
+title: Win32\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ComputerSystem class
@@ -24,70 +27,70 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), SupportsUpdate, UUID("{8502C4B0-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_ComputerSystem : CIM_UnitaryComputerSystem
 {
-  uint16   AdminPasswordStatus;
-  boolean  AutomaticManagedPagefile;
-  boolean  AutomaticResetBootOption;
-  boolean  AutomaticResetCapability;
-  uint16   BootOptionOnLimit;
-  uint16   BootOptionOnWatchDog;
-  boolean  BootROMSupported;
-  string   BootupState;
-  uint16   BootStatus[];
-  string   Caption;
-  uint16   ChassisBootupState;
-  string   ChassisSKUNumber;
-  string   CreationClassName;
-  sint16   CurrentTimeZone;
-  boolean  DaylightInEffect;
-  string   Description;
-  string   DNSHostName;
-  string   Domain;
-  uint16   DomainRole;
-  boolean  EnableDaylightSavingsTime;
-  uint16   FrontPanelResetStatus;
-  boolean  HypervisorPresent;
-  boolean  InfraredSupported;
-  string   InitialLoadInfo[];
+  uint16   AdminPasswordStatus;
+  boolean  AutomaticManagedPagefile;
+  boolean  AutomaticResetBootOption;
+  boolean  AutomaticResetCapability;
+  uint16   BootOptionOnLimit;
+  uint16   BootOptionOnWatchDog;
+  boolean  BootROMSupported;
+  string   BootupState;
+  uint16   BootStatus[];
+  string   Caption;
+  uint16   ChassisBootupState;
+  string   ChassisSKUNumber;
+  string   CreationClassName;
+  sint16   CurrentTimeZone;
+  boolean  DaylightInEffect;
+  string   Description;
+  string   DNSHostName;
+  string   Domain;
+  uint16   DomainRole;
+  boolean  EnableDaylightSavingsTime;
+  uint16   FrontPanelResetStatus;
+  boolean  HypervisorPresent;
+  boolean  InfraredSupported;
+  string   InitialLoadInfo[];
   datetime InstallDate;
-  uint16   KeyboardPasswordStatus;
-  string   LastLoadInfo;
-  string   Manufacturer;
-  string   Model;
-  string   Name;
-  string   NameFormat;
-  boolean  NetworkServerModeEnabled;
-  uint32   NumberOfLogicalProcessors;
-  uint32   NumberOfProcessors;
-  uint8    OEMLogoBitmap[];
-  string   OEMStringArray[];
-  boolean  PartOfDomain;
-  sint64   PauseAfterReset;
-  uint16   PCSystemType;
-  uint16   PCSystemTypeEx;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   PowerOnPasswordStatus;
-  uint16   PowerState;
-  uint16   PowerSupplyState;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  uint16   ResetCapability;
-  sint16   ResetCount;
-  sint16   ResetLimit;
-  string   Roles[];
-  string   Status;
-  string   SupportContactDescription[];
-  string   SystemFamily;
-  string   SystemSKUNumber;
-  uint16   SystemStartupDelay;
-  string   SystemStartupOptions[];
-  uint8    SystemStartupSetting;
-  string   SystemType;
-  uint16   ThermalState;
-  uint64   TotalPhysicalMemory;
-  string   UserName;
-  uint16   WakeUpType;
-  string   Workgroup;
+  uint16   KeyboardPasswordStatus;
+  string   LastLoadInfo;
+  string   Manufacturer;
+  string   Model;
+  string   Name;
+  string   NameFormat;
+  boolean  NetworkServerModeEnabled;
+  uint32   NumberOfLogicalProcessors;
+  uint32   NumberOfProcessors;
+  uint8    OEMLogoBitmap[];
+  string   OEMStringArray[];
+  boolean  PartOfDomain;
+  sint64   PauseAfterReset;
+  uint16   PCSystemType;
+  uint16   PCSystemTypeEx;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   PowerOnPasswordStatus;
+  uint16   PowerState;
+  uint16   PowerSupplyState;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  uint16   ResetCapability;
+  sint16   ResetCount;
+  sint16   ResetLimit;
+  string   Roles[];
+  string   Status;
+  string   SupportContactDescription[];
+  string   SystemFamily;
+  string   SystemSKUNumber;
+  uint16   SystemStartupDelay;
+  string   SystemStartupOptions[];
+  uint8    SystemStartupSetting;
+  string   SystemType;
+  uint16   ThermalState;
+  uint64   TotalPhysicalMemory;
+  string   UserName;
+  uint16   WakeUpType;
+  string   Workgroup;
 };
 ```
 
@@ -113,7 +116,7 @@ The **Win32\_ComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -339,7 +342,7 @@ Status and Additional Data fields that identify the boot status.
 
 This value comes from the **Boot Status** member of the **System Boot Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -355,7 +358,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|[**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385)\|SM\_CLEANBOOT")
 </dt> </dl>
 
-System is started. Fail-safe boot bypasses the user startup files—also called SafeBoot.
+System is started. Fail-safe boot bypasses the user startup files also called SafeBoot.
 
 The following list contains the required values:
 
@@ -398,7 +401,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -482,7 +485,7 @@ The chassis or enclosure SKU number as a string.
 
 This value comes from the **SKU Number** member of the **System Enclosure or Chassis** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -587,7 +590,7 @@ Name of the domain to which a computer belongs.
 > [!Note]  
 > If the computer is not part of a domain, then the name of the workgroup is returned.
 
- 
+ 
 
 </dd> <dt>
 
@@ -726,7 +729,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("
 
 If **True**, a hypervisor is present.
 
-**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 8 and Windows Server 2012.
+**Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -759,7 +762,7 @@ Data required to find the initial load device or boot service to request that th
 
 This property is inherited from [**CIM\_UnitaryComputerSystem**](cim-unitarycomputersystem.md).
 
-**Windows Server 2008 R2:** This property is available, but empty.
+**Windows Server 2008 R2:** This property is available, but empty.
 
 </dd> <dt>
 
@@ -1125,9 +1128,9 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|Timeout"), [**Units**](https://msdn.microsoft.com/library/aa393650) ("milliseconds")
 </dt> </dl>
 
-Time delay before a reboot is initiated—in milliseconds. It is used after a system power cycle, local or remote system reset, and automatic system reset. A value of –1 (minus one) indicates that the pause value is unknown.
+Time delay before a reboot is initiated in milliseconds. It is used after a system power cycle, local or remote system reset, and automatic system reset. A value of  1 (minus one) indicates that the pause value is unknown.
 
-**Windows Vista:** This property may return an unknown number.
+**Windows Vista:** This property may return an unknown number.
 
 </dd> <dt>
 
@@ -1230,7 +1233,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("
 
 Type of the computer in use, such as laptop, desktop, or Tablet.
 
-**Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
+**Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 8.1 and Windows Server 2012 R2.
 
 <dt>
 
@@ -1543,7 +1546,7 @@ This property is inherited from [**CIM\_UnitaryComputerSystem**](cim-unitarycomp
 
 </dt> <dd>
 
-Power save — hibernate.
+Power save   hibernate.
 
 </dd> <dt>
 
@@ -1554,7 +1557,7 @@ Power save — hibernate.
 
 </dt> <dd>
 
-Power save — soft off.
+Power save   soft off.
 
 </dd> </dl>
 
@@ -1732,7 +1735,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|System Reset\|Reset Count")
 </dt> </dl>
 
-Number of automatic resets since the last reset. A value of –1 (minus one) indicates that the count is unknown.
+Number of automatic resets since the last reset. A value of  1 (minus one) indicates that the count is unknown.
 
 </dd> <dt>
 
@@ -1748,7 +1751,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("SMBIOS\|Type 23\|System Reset\| Reset Limit")
 </dt> </dl>
 
-Number of consecutive times a system reset is attempted. A value of –1 (minus one) indicates that the limit is unknown.
+Number of consecutive times a system reset is attempted. A value of  1 (minus one) indicates that the limit is unknown.
 
 </dd> <dt>
 
@@ -1905,7 +1908,7 @@ The family to which a particular computer belongs. A family refers to a set of c
 
 This value comes from the **Family** member of the **System Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1925,7 +1928,7 @@ Identifies a particular computer configuration for sale. It is sometimes also ca
 
 This value comes from the **SKU Number** member of the **System Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -2163,7 +2166,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("Win32API\|System Information Functions\|[**GetUserName**](https://msdn.microsoft.com/library/windows/desktop/ms724432)")
 </dt> </dl>
 
-Name of a user that is logged on currently. This property must have a value. In a terminal services session, **UserName** returns the name of the user that is logged on to the console—not the user logged on during the terminal service session.
+Name of a user that is logged on currently. This property must have a value. In a terminal services session, **UserName** returns the name of the user that is logged on to the console not the user logged on during the terminal service session.
 
 Example: jeffsmith
 
@@ -2359,8 +2362,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2386,9 +2389,9 @@ else
 [WMI Tasks: Desktop Management](https://msdn.microsoft.com/library/aa394591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ProgID Key
 description: A programmatic identifier (ProgID) is a registry entry that can be associated with a CLSID. Like the CLSID, the ProgID identifies a class but with less precision because it is not guaranteed to be globally unique.
-ms.assetid: 'f9ef2934-0815-4a6f-9283-8f748eee083b'
+ms.assetid: f9ef2934-0815-4a6f-9283-8f748eee083b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # &lt;ProgID&gt; Key
@@ -36,7 +41,7 @@ The format of a ProgID is &lt;*Program*&gt;.&lt;*Component*&gt;.&lt;*Version*&gt
 -   Not start with a digit.
 -   Be different from the class name of any OLE 1 application, including the OLE 1 version of the same application, if there is one.
 
-Because the ProgID should not appear in the user interface, you can obtain a displayable name by calling [**IOleObject::GetUserType**](ioleobject-getusertype.md). Also, see [**OleRegGetUserType**](olereggetusertype.md).
+Because the ProgID should not appear in the user interface, you can obtain a displayable name by calling [**IOleObject::GetUserType**](/windows/win32/OleIdl/nf-oleidl-ioleobject-getusertype?branch=master). Also, see [**OleRegGetUserType**](/windows/win32/Ole2/nf-ole2-olereggetusertype?branch=master).
 
 The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_CLASSES\_ROOT** key, which was retained for compatibility with earlier versions of COM.
 
@@ -44,10 +49,10 @@ The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_C
 
 <dl> <dt>
 
-[**IOleObject::GetUserType**](ioleobject-getusertype.md)
+[**IOleObject::GetUserType**](/windows/win32/OleIdl/nf-oleidl-ioleobject-getusertype?branch=master)
 </dt> <dt>
 
-[**OleRegGetUserType**](olereggetusertype.md)
+[**OleRegGetUserType**](/windows/win32/Ole2/nf-ole2-olereggetusertype?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: DRV\_FREE message
 description: Notifies the driver that it is being removed from memory. The driver should free any memory and other system resources that it has allocated.
-ms.assetid: '0447f8e9-4c4d-4be5-ab1f-ecd3e8cd2e67'
-keywords: ["DRV_FREE message Windows Multimedia"]
+ms.assetid: 0447f8e9-4c4d-4be5-ab1f-ecd3e8cd2e67
+keywords:
+- DRV_FREE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_FREE message
@@ -44,8 +50,8 @@ The **DRV\_FREE** message is always the last message that a device driver receiv
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The **DRV\_FREE** message is always the last message that a device driver receiv
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

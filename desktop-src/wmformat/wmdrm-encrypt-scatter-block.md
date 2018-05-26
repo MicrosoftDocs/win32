@@ -1,8 +1,10 @@
 ---
 title: WMDRM\_ENCRYPT\_SCATTER\_BLOCK structure
 description: The WMDRM\_ENCRYPT\_SCATTER\_BLOCK structure contains a block of data to be encrypted.
-ms.assetid: '73c871f0-3d0d-480f-856c-0f7d5dde5895'
-keywords: ["WMDRM_ENCRYPT_SCATTER_BLOCK structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 73c871f0-3d0d-480f-856c-0f7d5dde5895
+keywords:
+- WMDRM_ENCRYPT_SCATTER_BLOCK structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRM\_ENCRYPT\_SCATTER\_BLOCK structure
@@ -24,7 +31,7 @@ The **WMDRM\_ENCRYPT\_SCATTER\_BLOCK** structure contains a block of data to be 
 typedef struct WMDRM_ENCRYPT_SCATTER_BLOCK {
   DWORD dwStreamID;
   DWORD cbBlock;
-  BYTE  *pbBlock;
+  BYTE  *pbBlock;
 } ;
 ```
 
@@ -76,9 +83,9 @@ This structure is used by the [**IWMDRMEncryptScatter::EncryptScatter**](iwmdrme
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

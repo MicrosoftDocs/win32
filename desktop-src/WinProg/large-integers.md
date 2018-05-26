@@ -1,8 +1,14 @@
 ---
 title: Large Integers
 description: The large integer functions and structures originally provided support for 64-bit values on 32-bit Windows.
-ms.assetid: 'db4ffbd5-d9e4-4c95-83cc-6f0691c080d2'
-keywords: ["large integers"]
+ms.assetid: db4ffbd5-d9e4-4c95-83cc-6f0691c080d2
+keywords:
+- large integers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Large Integers
@@ -13,9 +19,9 @@ For information on 64-bit integers on 64-bit Windows, see [The New Data Types](h
 
 ## Large Integer Operations
 
-Applications can multiply signed or unsigned 32-bit integers, generating 64-bit results, by using the [**Int32x32To64**](int32x32to64.md) and [**UInt32x32To64**](uint32x32to64.md) functions. Applications can shift bits in 64-bit values to the left or right by using the [**Int64ShllMod32**](int64shllmod32.md), [**Int64ShraMod32**](int64shramod32.md), and [**Int64ShrlMod32**](int64shrlmod32.md) functions. These functions provide logical and arithmetic shifting.
+Applications can multiply signed or unsigned 32-bit integers, generating 64-bit results, by using the [**Int32x32To64**](/windows/win32/Winnt/nf-winnt-int32x32to64?branch=master) and [**UInt32x32To64**](/windows/win32/Winnt/nf-winnt-uint32x32to64?branch=master) functions. Applications can shift bits in 64-bit values to the left or right by using the [**Int64ShllMod32**](/windows/win32/Winnt/nf-winnt-int64shllmod32?branch=master), [**Int64ShraMod32**](/windows/win32/Winnt/nf-winnt-int64shramod32?branch=master), and [**Int64ShrlMod32**](/windows/win32/Winnt/nf-winnt-int64shrlmod32?branch=master) functions. These functions provide logical and arithmetic shifting.
 
-Applications can also multiply and divide 32-bit values in a single operation by using the [**MulDiv**](muldiv.md) function. Although the result of the operation is a 32-bit value, the function stores the intermediate result as a 64-bit value, so that information is not lost when large 32-bit values are multiplied and divided.
+Applications can also multiply and divide 32-bit values in a single operation by using the [**MulDiv**](/windows/win32/Winbase/nf-winbase-muldiv?branch=master) function. Although the result of the operation is a 32-bit value, the function stores the intermediate result as a 64-bit value, so that information is not lost when large 32-bit values are multiplied and divided.
 
 ## Large Integer Reference
 

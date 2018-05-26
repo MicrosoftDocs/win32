@@ -1,8 +1,9 @@
 ---
 title: NM\_RCLICK (tab) notification code
 description: Notifies the parent window of a tab control that the user has clicked the right mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ef2270c0-eef3-4867-8aa3-b6ff7e1a5f0f'
-keywords: ["NM_RCLICK (tab) notification code Windows Controls"]
+ms.assetid: ef2270c0-eef3-4867-8aa3-b6ff7e1a5f0f
+keywords:
+- NM_RCLICK (tab) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_RCLICK (tab) notification code
@@ -33,7 +39,7 @@ NM_RCLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure that contains additional information about this notification.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return nonzero to not allow the default processing, or zero to allow the default
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: GENERIC3CHANNEL structure
 description: TBD.
-ms.assetid: '7ec15e26-9d3f-4603-beff-5a92180bd77c'
-keywords: ["GENERIC3CHANNEL structure Windows Color System"]
+ms.assetid: 7ec15e26-9d3f-4603-beff-5a92180bd77c
+keywords:
+- GENERIC3CHANNEL structure Windows Color System
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GENERIC3CHANNEL structure
@@ -57,9 +63,9 @@ TBD
 
 
 
- 
+ 
 
- 
+ 
 
 
 

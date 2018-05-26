@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies whether a location was indexed (locally or remotely) at the time it was added to the library.'
-ms.assetid: '5BAFB5A4-33C7-4522-B9C1-2F68D7AFC31B'
-title: 'System.IsLocationSupported'
+Description: Identifies whether a location was indexed (locally or remotely) at the time it was added to the library.
+ms.assetid: 5BAFB5A4-33C7-4522-B9C1-2F68D7AFC31B
+title: System.IsLocationSupported
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsLocationSupported

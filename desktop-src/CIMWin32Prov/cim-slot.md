@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Slot class represents connectors into which packages are inserted.'
+Description: The CIM\_Slot class represents connectors into which packages are inserted.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bcb1bdb5-fb1a-47ed-9450-dca38edca0eb'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bcb1bdb5-fb1a-47ed-9450-dca38edca0eb
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Slot class'
+title: CIM\_Slot class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Slot class
@@ -19,7 +22,7 @@ The **CIM\_Slot** class represents connectors into which packages are inserted. 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,33 +32,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B86-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_Slot : CIM_PhysicalConnector
 {
-  string   Caption;
-  string   ConnectorPinout;
-  uint16   ConnectorType[];
-  string   CreationClassName;
-  string   Description;
-  real32   HeightAllowed;
+  string   Caption;
+  string   ConnectorPinout;
+  uint16   ConnectorType[];
+  string   CreationClassName;
+  string   Description;
+  real32   HeightAllowed;
   datetime InstallDate;
-  real32   LengthAllowed;
-  string   Manufacturer;
-  uint16   MaxDataWidth;
-  string   Model;
-  string   Name;
-  uint16   Number;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   PurposeDescription;
-  string   SerialNumber;
-  string   SKU;
-  boolean  SpecialPurpose;
-  string   Status;
-  boolean  SupportsHotPlug;
-  string   Tag;
-  uint32   ThermalRating;
-  uint16   VccMixedVoltageSupport[];
-  string   Version;
-  uint16   VppMixedVoltageSupport[];
+  real32   LengthAllowed;
+  string   Manufacturer;
+  uint16   MaxDataWidth;
+  string   Model;
+  string   Name;
+  uint16   Number;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   PurposeDescription;
+  string   SerialNumber;
+  string   SKU;
+  boolean  SpecialPurpose;
+  string   Status;
+  boolean  SupportsHotPlug;
+  string   Tag;
+  uint32   ThermalRating;
+  uint16   VccMixedVoltageSupport[];
+  string   Version;
+  uint16   VppMixedVoltageSupport[];
 };
 ```
 
@@ -1582,8 +1585,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1597,9 +1600,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalConnector**](cim-physicalconnector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

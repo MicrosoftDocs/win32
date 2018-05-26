@@ -1,7 +1,12 @@
-﻿---
-Description: 'Imports certificates from a file into the store.'
-ms.assetid: '884326b4-77ca-43d4-bda9-127d823ce9bc'
-title: 'Store.Load method'
+---
+Description: Imports certificates from a file into the store.
+ms.assetid: 884326b4-77ca-43d4-bda9-127d823ce9bc
+title: Store.Load method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store.Load method

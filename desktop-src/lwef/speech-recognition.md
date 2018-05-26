@@ -1,7 +1,12 @@
 ---
 title: Speech Recognition
 description: Speech Recognition
-ms.assetid: 'cb5ac509-12a4-4ca4-8776-424568cf780d'
+ms.assetid: cb5ac509-12a4-4ca4-8776-424568cf780d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Speech Recognition

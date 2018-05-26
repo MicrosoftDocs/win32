@@ -4,11 +4,15 @@ description: Permissions can be set to apply to a specific property of an object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7bafba5a-a437-4777-98a0-f478b738a8ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7bafba5a-a437-4777-98a0-f478b738a8ca
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Setting Permissions to a Specific Property AD"]
+keywords:
+- Setting Permissions to a Specific Property AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Permissions to a Specific Property

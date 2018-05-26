@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnContactPagerChange event
-description: Indicates that a contact in the local client's Contact List has changed the pager information access permissions.
-ms.assetid: '86f97c26-3936-4160-aaae-cfb87e7e072e'
-keywords: ["OnContactPagerChange event Windows Messenger", "OnContactPagerChange event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnContactPagerChange event"]
+description: Indicates that a contact in the local clients Contact List has changed the pager information access permissions.
+ms.assetid: 86f97c26-3936-4160-aaae-cfb87e7e072e
+keywords:
+- OnContactPagerChange event Windows Messenger
+- OnContactPagerChange event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnContactPagerChange event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnContactPagerChange event
 
-\[**OnContactPagerChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnContactPagerChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that a contact in the local client's Contact List has changed the pager information access permissions.
 
@@ -24,9 +32,9 @@ Indicates that a contact in the local client's Contact List has changed the page
 
 ```C++
 void OnContactPagerChange(
-  [in] LONG         hr,
-  [in] IDispatch    *pContact,
-  [in] VARIANT_BOOL pBoolBlock
+  [in] LONG         hr,
+  [in] IDispatch    *pContact,
+  [in] VARIANT_BOOL pBoolBlock
 );
 ```
 
@@ -67,7 +75,7 @@ This event does not return a value.
 
 To use this event in Windows Messenger, you must install an add-in component that supports paging.
 
-This event returns only that the allowed or disallowed state of the information has changed. Only the allow-access flag is stored by the Microsoft .NET Messenger Service. The mobile information itself is stored on servers that are not directly under the control of Windows Messenger. The mobile device or pager information query is not performed through Windows Messenger APIs.
+This event returns only that the allowed or disallowed state of the information has changed. Only the allow-access flag is stored by the Microsoft .NET Messenger Service. The mobile information itself is stored on servers that are not directly under the control of Windows Messenger. The mobile device or pager information query is not performed through Windows Messenger APIs.
 
 To be used when writing custom ::Invoke methods to handle these events.
 
@@ -81,12 +89,12 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 > [!Note]  
 > This event is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -94,10 +102,10 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -105,9 +113,9 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

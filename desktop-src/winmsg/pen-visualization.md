@@ -1,7 +1,12 @@
 ---
-Description: 'The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.'
-ms.assetid: '434DC272-DC1C-4091-BB38-DDCB1A635D8D'
+Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
+ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: Pen Visualization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pen Visualization
@@ -83,8 +88,8 @@ Specifies UI feedback for the pen cursor.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -105,9 +110,9 @@ Specifies UI feedback for the pen cursor.
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: ConvertColorNameToIndex function
 description: The ConvertColorNameToIndex function converts color names in a named color space to index numbers in an International Color Consortium (ICC) color profile.
-ms.assetid: '07d7774d-ccab-42aa-9801-2ab38435396d'
-keywords: ["ConvertColorNameToIndex function Windows Color System"]
+ms.assetid: 07d7774d-ccab-42aa-9801-2ab38435396d
+keywords:
+- ConvertColorNameToIndex function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertColorNameToIndex function
@@ -22,10 +28,10 @@ The **ConvertColorNameToIndex** function converts color names in a named color s
 
 ```C++
 BOOL WINAPI ConvertColorNameToIndex(
-   HPROFILE    hProfile,
-   PCOLOR_NAME paColorName,
-   PDWORD      paIndex,
-   DWORD       dwCount
+   HPROFILE    hProfile,
+   PCOLOR_NAME paColorName,
+   PDWORD      paIndex,
+   DWORD       dwCount
 );
 ```
 
@@ -81,8 +87,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -99,9 +105,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

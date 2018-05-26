@@ -1,8 +1,9 @@
 ---
 title: SBM\_SETPOS message
 description: The SBM\_SETPOS message is sent to set the position of the scroll box (thumb) and, if requested, redraw the scroll bar to reflect the new position of the scroll box.
-ms.assetid: '6b3c16ba-1cdf-41ff-8546-ba98477af334'
-keywords: ["SBM_SETPOS message Windows Controls"]
+ms.assetid: 6b3c16ba-1cdf-41ff-8546-ba98477af334
+keywords:
+- SBM_SETPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SBM\_SETPOS message
 
 The **SBM\_SETPOS** message is sent to set the position of the scroll box (thumb) and, if requested, redraw the scroll bar to reflect the new position of the scroll box.
 
-Applications should not send this message directly. Instead, they should use the [**SetScrollPos**](setscrollpos.md) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollPos** function to work properly.
+Applications should not send this message directly. Instead, they should use the [**SetScrollPos**](/windows/win32/Winuser/nf-winuser-setscrollpos?branch=master) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollPos** function to work properly.
 
 ## Parameters
 
@@ -53,8 +59,8 @@ If the scroll bar control is redrawn by a subsequent call to another function, s
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ If the scroll bar control is redrawn by a subsequent call to another function, s
 [**SBM\_SETRANGEREDRAW**](sbm-setrangeredraw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

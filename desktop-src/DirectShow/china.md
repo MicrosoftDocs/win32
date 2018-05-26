@@ -1,7 +1,12 @@
 ---
 Description: China
-ms.assetid: 'eff36db1-3920-4dd6-b786-c8db5c43e5ea'
+ms.assetid: eff36db1-3920-4dd6-b786-c8db5c43e5ea
 title: China
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # China

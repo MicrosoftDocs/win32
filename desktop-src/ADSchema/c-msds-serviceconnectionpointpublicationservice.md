@@ -4,17 +4,22 @@ description: Stores configuration options for the Service Connection Point publi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '30b4df70-a03b-4d42-b200-75bfa6cf8273'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 30b4df70-a03b-4d42-b200-75bfa6cf8273
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Service-Connection-Point-Publication-Service class AD Schema", "msDS-ServiceConnectionPointPublicationService class AD Schema"]
+keywords:
+- ms-DS-Service-Connection-Point-Publication-Service class AD Schema
+- msDS-ServiceConnectionPointPublicationService class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Service-Connection-Point-Publication-Service
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Service-Connection-Point-Publication-Service class
@@ -149,9 +154,9 @@ This class contains the following attributes for ADAM:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

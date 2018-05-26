@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the title or text of a control in a dialog box.'
-ms.assetid: '84d1919e-8868-412f-bcbf-d68fe8b2cee1'
+---
+Description: Sets the title or text of a control in a dialog box.
+ms.assetid: 84d1919e-8868-412f-bcbf-d68fe8b2cee1
 title: '\_SetDlgItemText function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_SetDlgItemText function

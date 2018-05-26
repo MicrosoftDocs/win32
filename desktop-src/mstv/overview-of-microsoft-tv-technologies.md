@@ -1,7 +1,12 @@
 ---
 title: Overview of Microsoft TV Technologies
 description: Overview of Microsoft TV Technologies
-ms.assetid: '68048f48-441d-46dc-9e40-332e8d671006'
+ms.assetid: 68048f48-441d-46dc-9e40-332e8d671006
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Microsoft TV Technologies

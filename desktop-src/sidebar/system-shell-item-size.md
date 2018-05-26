@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Item.size property
 description: Gets the size (in bytes) of the System.Shell.Item.
-ms.assetid: '0d583111-d46b-4507-9a87-81aca3fbccec'
-keywords: ["size property Windows Sidebar", "size property Windows Sidebar , System.Shell.Item object", "System.Shell.Item object Windows Sidebar , size property"]
+ms.assetid: 0d583111-d46b-4507-9a87-81aca3fbccec
+keywords:
+- size property Windows Sidebar
+- size property Windows Sidebar , System.Shell.Item object
+- System.Shell.Item object Windows Sidebar , size property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item.size property
@@ -82,18 +90,18 @@ function GetItemFromDrop()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

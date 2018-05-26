@@ -1,7 +1,12 @@
 ---
 Description: About the Video Mixing Render
-ms.assetid: 'ae1564c2-5084-45c7-af69-b9120c4a290c'
+ms.assetid: ae1564c2-5084-45c7-af69-b9120c4a290c
 title: About the Video Mixing Render
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Video Mixing Render

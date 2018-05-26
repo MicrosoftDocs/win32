@@ -1,7 +1,12 @@
-﻿---
-Description: 'Shows how to use DXVA Video Processing.'
-ms.assetid: '1465bd41-94f9-4e19-8236-00e7a2d6f54a'
-title: 'DXVA2\_VideoProc Sample'
+---
+Description: Shows how to use DXVA Video Processing.
+ms.assetid: 1465bd41-94f9-4e19-8236-00e7a2d6f54a
+title: DXVA2\_VideoProc Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXVA2\_VideoProc Sample
@@ -16,8 +21,8 @@ This sample programmatically generates video with a primary stream and a substre
 
 This sample demonstrates the following DXVA interfaces:
 
--   [**IDirectXVideoProcessorService**](idirectxvideoprocessorservice.md)
--   [**IDirectXVideoProcessor**](idirectxvideoprocessor.md)
+-   [**IDirectXVideoProcessorService**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessorservice?branch=master)
+-   [**IDirectXVideoProcessor**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessor?branch=master)
 
 ## Usage
 

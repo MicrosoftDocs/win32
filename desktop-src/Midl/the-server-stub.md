@@ -2,7 +2,13 @@
 title: The Server Stub
 description: The server stub provides surrogate entry points on the server for each of the operations defined in the input IDL file.
 ms.assetid: e3263543-e78b-40a8-aafa-4315850112a8
-keywords: ["MIDL compiler MIDL , MIDL and RPC MIDL , interfaces, server stub"]
+keywords:
+- MIDL compiler MIDL , MIDL and RPC MIDL , interfaces, server stub
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Server Stub

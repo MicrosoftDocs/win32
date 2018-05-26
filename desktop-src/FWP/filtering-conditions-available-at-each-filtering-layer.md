@@ -1,7 +1,7 @@
 ---
 title: Filtering Conditions Available at Each Filtering Layer
 description: The Windows Filtering Platform (WFP) filter engine supports a different set of filtering conditions at each of its filtering layers.
-ms.assetid: '6faace21-44ec-49dd-8e77-e403c258c14a'
+ms.assetid: 6faace21-44ec-49dd-8e77-e403c258c14a
 topic_type:
 - apiref
 api_name:
@@ -42,6 +42,11 @@ api_location:
 - Fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Conditions Available at Each Filtering Layer
@@ -69,7 +74,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_DESTINATION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_DESTINATION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_FORWARD\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_SOURCE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_SOURCE\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_SOURCE\_SUB\_INTERFACE\_INDEX</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_IP\_PHYSICAL\_ARRIVAL\_INTERFACE </dd> <dd>FWPM\_CONDITION\_IP\_PHYSICAL\_NEXTHOP\_INTERFACE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -79,7 +84,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -89,7 +94,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -111,7 +116,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -121,23 +126,23 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_SUB\_INTERFACE\_INDEX
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX
 
 </dd> <dd>FWPM\_CONDITION\_ARRIVAL\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_ICMP\_CODE</dd> <dd>FWPM\_CONDITION\_ICMP\_TYPE </dd> <dd>FWPM\_CONDITION\_EMBEDDED\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_EMBEDDED\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_INDEX
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_INDEX
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_INDEX
 
 </dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_TYPE
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_TYPE
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_TYPE
 
 </dd> <dd>FWPM\_CONDITION\_LOCAL\_TUNNEL\_TYPE
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_TUNNEL\_TYPE
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_TUNNEL\_TYPE
 
 </dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -147,7 +152,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_ICMP\_CODE</dd> <dd>FWPM\_CONDITION\_ICMP\_TYPE </dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -157,11 +162,11 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -171,11 +176,11 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_PROMISCUOUS\_MODE</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_SIO\_FIREWALL\_SYSTEM\_PORT</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -185,11 +190,11 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -199,11 +204,11 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -213,11 +218,11 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_SIO\_FIREWALL\_SYSTEM\_PORT</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -227,27 +232,27 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_NAP\_CONTEXT</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_MACHINE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_SIO\_FIREWALL\_SYSTEM\_PORT</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_SUB\_INTERFACE\_INDEX
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX
 
 </dd> <dd>FWPM\_CONDITION\_ARRIVAL\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_INDEX
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_INDEX
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_INDEX
 
 </dd> <dd>FWPM\_CONDITION\_LOCAL\_INTERFACE\_TYPE
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_TYPE
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_INTERFACE\_TYPE
 
 </dd> <dd>FWPM\_CONDITION\_LOCAL\_TUNNEL\_TYPE
 
-**Windows Vista / Windows 7:** FWPM\_CONDITION\_TUNNEL\_TYPE
+**Windows Vista / Windows 7:** FWPM\_CONDITION\_TUNNEL\_TYPE
 
 </dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_NEXTHOP\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_IP\_NEXTHOP\_INTERFACE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_REAUTHORIZE\_REASON</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_ICMP\_TYPE</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -257,11 +262,11 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -271,15 +276,15 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_MACHINE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_INDEX
 
-**Windows Vista with SP1 and later:** FWPM\_CONDITION\_INTERFACE\_INDEX
+**Windows Vista with SP1 and later:** FWPM\_CONDITION\_INTERFACE\_INDEX
 
 </dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_NEXTHOP\_SUB\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_IP\_NEXTHOP\_INTERFACE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_TUNNEL\_TYPE</dd> <dd>FWPM\_CONDITION\_NEXTHOP\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> <dd>FWPM\_CONDITION\_REAUTHORIZE\_REASON</dd> <dd>FWPM\_CONDITION\_PEER\_NAME</dd> <dd>FWPM\_CONDITION\_ORIGINAL\_ICMP\_TYPE</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -289,7 +294,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_MACHINE\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_REMOTE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_FLAGS</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> <dd>FWPM\_CONDITION\_TUNNEL\_TYPE</dd> </dl>
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_PACKAGE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -299,7 +304,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_ALE\_USER\_ID</dd> <dd>FWPM\_CONDITION\_ALE\_APP\_ID</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_PEER\_NAME</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -315,7 +320,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_LOCAL\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_PORT</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -325,7 +330,7 @@ The list of filtering conditions that are available at each layer are as follows
 
  <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_REMOTE\_ADDRESS</dd> </dl>
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_IP\_LOCAL\_INTERFACE</dd> <dd>FWPM\_CONDITION\_CURRENT\_PROFILE\_ID</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -365,7 +370,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 7 and later:  **
+**Windows 7 and later:  **
 
 <dl> <dd>FWPM\_CONDITION\_REMOTE\_ID</dd> <dd>FWPM\_CONDITION\_AUTHENTICATION\_TYPE</dd> <dd>FWPM\_CONDITION\_KM\_TYPE</dd> <dd>FWPM\_CONDITION\_KM\_MODE</dd> <dd>FWPM\_CONDITION\_DIRECTION</dd> <dd>FWPM\_CONDITION\_IPSEC\_POLICY\_KEY</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -375,7 +380,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_INTERFACE\_MAC\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_LOCAL\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_REMOTE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_LOCAL\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_MAC\_REMOTE\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_ETHER\_TYPE</dd> <dd>FWPM\_CONDITION\_VLAN\_ID</dd> <dd>FWPM\_CONDITION\_INTERFACE</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_NDIS\_PORT</dd> <dd>FWPM\_CONDITION\_L2\_FLAGS</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -385,7 +390,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_NDIS\_MEDIA\_TYPE</dd> <dd>FWPM\_CONDITION\_NDIS\_PHYSICAL\_MEDIA\_TYPE</dd> <dd>FWPM\_CONDITION\_INTERFACE</dd> <dd>FWPM\_CONDITION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_INTERFACE\_INDEX</dd> <dd>FWPM\_CONDITION\_NDIS\_PORT</dd> <dd>FWPM\_CONDITION\_L2\_FLAGS</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -395,7 +400,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_MAC\_SOURCE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_SOURCE\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_MAC\_DESTINATION\_ADDRESS</dd> <dd>FWPM\_CONDITION\_MAC\_DESTINATION\_ADDRESS\_TYPE</dd> <dd>FWPM\_CONDITION\_ETHER\_TYPE</dd> <dd>FWPM\_CONDITION\_VLAN\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_TENANT\_NETWORK\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_NETWORK\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_VM\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_L2\_FLAGS</dd> </dl> 
 </dt> </dl> </dd> <dt>
@@ -405,7 +410,7 @@ The list of filtering conditions that are available at each layer are as follows
 
 
 
-**Windows 8:  **
+**Windows 8:  **
 
 <dl> <dd>FWPM\_CONDITION\_IP\_SOURCE\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_ADDRESS</dd> <dd>FWPM\_CONDITION\_IP\_PROTOCOL</dd> <dd>FWPM\_CONDITION\_IP\_SOURCE\_PORT</dd> <dd>FWPM\_CONDITION\_IP\_DESTINATION\_PORT</dd> <dd>FWPM\_CONDITION\_VLAN\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_TENANT\_NETWORK\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_NETWORK\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_SOURCE\_VM\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_DESTINATION\_INTERFACE\_ID</dd> <dd>FWPM\_CONDITION\_VSWITCH\_DESTINATION\_INTERFACE\_TYPE</dd> <dd>FWPM\_CONDITION\_VSWITCH\_L2\_FLAGS</dd> </dl> 
 </dt> </dl> </dd> </dl>
@@ -420,15 +425,15 @@ The V4 and V6 suffixes at the end of the layer identifiers indicate whether the 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

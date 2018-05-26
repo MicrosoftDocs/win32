@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a pointer to the Microsoft Direct3D Device Manager for the Source Reader.'
-ms.assetid: '507d350e-da0c-42d0-8a8d-77618ee5a1dd'
-title: 'MF\_SOURCE\_READER\_D3D\_MANAGER attribute'
+---
+Description: Contains a pointer to the Microsoft Direct3D Device Manager for the Source Reader.
+ms.assetid: 507d350e-da0c-42d0-8a8d-77618ee5a1dd
+title: MF\_SOURCE\_READER\_D3D\_MANAGER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_D3D\_MANAGER attribute
@@ -14,21 +19,21 @@ Contains a pointer to the Microsoft [Direct3D Device Manager](direct3d-device-ma
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 
-The value of this attribute can be a pointer to the [**IDirect3DDeviceManager9**](idirect3ddevicemanager9.md) interface or a [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md).
+The value of this attribute can be a pointer to the [**IDirect3DDeviceManager9**](/windows/win32/dxva2api/nn-dxva2api-idirect3ddevicemanager9?branch=master) interface or a [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master).
 
 Use this attribute to provide a Direct3D device for any video decoders loaded by the source reader. If you set this attribute and the decoder supports Microsoft DirectX Video Acceleration (DXVA), the source reader uses the Direct3D device to allocate video buffers. These buffers are compatible with the DXVA 2 video processor. (See [DXVA Video Processing](dxva-video-processing.md).)
 
 Use this attribute with the following functions:
 
--   [**MFCreateSourceReaderFromByteStream**](mfcreatesourcereaderfrombytestream.md)
--   [**MFCreateSourceReaderFromMediaSource**](mfcreatesourcereaderfrommediasource.md)
--   [**MFCreateSourceReaderFromURL**](mfcreatesourcereaderfromurl.md)
+-   [**MFCreateSourceReaderFromByteStream**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrombytestream?branch=master)
+-   [**MFCreateSourceReaderFromMediaSource**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource?branch=master)
+-   [**MFCreateSourceReaderFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl?branch=master)
 
 Typically you would set this attribute if you are using the source reader to get decoded video frames and using Direct3D to display the frames. Setting this attribute enables the decoder to use DXVA.
 

@@ -4,10 +4,13 @@ description: This section describes how to extend the Active Directory Users and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bda559c4-b447-4ba6-a886-0a6f66798b22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bda559c4-b447-4ba6-a886-0a6f66798b22
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending Active Directory Users and Computers

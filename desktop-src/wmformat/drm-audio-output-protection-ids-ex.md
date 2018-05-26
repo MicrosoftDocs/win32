@@ -1,8 +1,10 @@
 ---
 title: DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS\_EX structure
 description: The DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS\_EX structure contains a list of audio output protection identifiers. This structure extends DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS by adding a version number.
-ms.assetid: 'e650ddeb-5e41-4ff8-b872-40c85ab519c1'
-keywords: ["DRM_AUDIO_OUTPUT_PROTECTION_IDS_EX structure windows Media Format", "structure windows Media Format"]
+ms.assetid: e650ddeb-5e41-4ff8-b872-40c85ab519c1
+keywords:
+- DRM_AUDIO_OUTPUT_PROTECTION_IDS_EX structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS\_EX structure
@@ -22,8 +29,8 @@ The **DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS\_EX** structure contains a list of aud
 
 ```C++
 typedef struct DRM_AUDIO_OUTPUT_PROTECTION_IDS_EX {
-  DWORD                          dwVersion;
-  WORD                           cEntries;
+  DWORD                          dwVersion;
+  WORD                           cEntries;
   DRM_AUDIO_OUTPUT_PROTECTION_EX *rgAop;
 } ;
 ```
@@ -82,9 +89,9 @@ None.
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

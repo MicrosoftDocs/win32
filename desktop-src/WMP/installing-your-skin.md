@@ -1,8 +1,16 @@
 ---
 title: Installing Your Skin
 description: Installing Your Skin
-ms.assetid: 'ed2dad6c-a84d-4244-b766-ca37e9a3574f'
-keywords: ["Windows Media Player Mobile skins,installing", "skins,installing", "installing Windows Media Player Mobile skins"]
+ms.assetid: ed2dad6c-a84d-4244-b766-ca37e9a3574f
+keywords:
+- Windows Media Player Mobile skins,installing
+- skins,installing
+- installing Windows Media Player Mobile skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Your Skin

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the AuthenticationSuccessAuditEvent event.'
+---
+Description: The event type class for the AuthenticationSuccessAuditEvent event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b45a6676-12b2-4c03-8b33-ea443022c080'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b45a6676-12b2-4c03-8b33-ea443022c080
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AuthenticationSuccessAuditEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationSuccessAuditEvent class

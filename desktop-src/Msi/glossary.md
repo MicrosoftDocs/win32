@@ -1,7 +1,12 @@
 ---
 Description: A B C D E F G I M P Q R S T U V
-ms.assetid: '58045ea3-032b-4ca0-8c0a-b1587b19bb25'
+ms.assetid: 58045ea3-032b-4ca0-8c0a-b1587b19bb25
 title: Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

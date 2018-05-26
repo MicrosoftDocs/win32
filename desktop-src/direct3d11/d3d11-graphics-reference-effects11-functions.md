@@ -1,7 +1,12 @@
 ---
 title: Effects 11 Functions
 description: This section contains information about the Effects 11 functions.
-ms.assetid: '957ba54c-133a-4350-8532-79b66eba95bb'
+ms.assetid: 957ba54c-133a-4350-8532-79b66eba95bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects 11 Functions
@@ -20,7 +25,7 @@ This section contains information about the Effects 11 functions.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section contains information about the Effects 11 functions.
 [Effects 11 Reference](d3d11-graphics-reference-effects11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

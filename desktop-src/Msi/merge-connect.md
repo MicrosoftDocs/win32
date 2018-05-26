@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Connect method of the Merge object connects a module to an additional feature. The module must have already been merged into the database or will be merged into the database. The feature must exist before calling this function.'
-ms.assetid: 'f491beb8-90f7-4e41-891d-ef674306339d'
-title: 'Merge.Connect method'
+---
+Description: The Connect method of the Merge object connects a module to an additional feature. The module must have already been merged into the database or will be merged into the database. The feature must exist before calling this function.
+ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
+title: Merge.Connect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.Connect method
@@ -42,7 +47,7 @@ Errors may be retrieved through the [**Errors**](merge-errors.md) property. Erro
 
 ### C++
 
-See [**Connect**](imsmmerge-connect.md) function.
+See [**Connect**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
-Description: 'RouteUsesEndpoint depicts the relationship between a next hop route and the local Endpoint that is used to transmit the traffic to the \\'next hop\\'.'
-ms.assetid: '800282ae-45a7-4be8-a02b-c6b553348caa'
-title: 'CIM\_RouteUsesEndpoint class'
+Description: RouteUsesEndpoint depicts the relationship between a next hop route and the local Endpoint that is used to transmit the traffic to the \\next hop\\.
+ms.assetid: 800282ae-45a7-4be8-a02b-c6b553348caa
+title: CIM\_RouteUsesEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_RouteUsesEndpoint class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_RouteUsesEndpoint : CIM_Dependency
 {
   CIM_ProtocolEndpoint REF Antecedent;
-  CIM_NextHopRoute     REF Dependent;
+  CIM_NextHopRoute     REF Dependent;
 };
 ```
 
@@ -71,8 +76,8 @@ The route using the endpoint.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -86,9 +91,9 @@ The route using the endpoint.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

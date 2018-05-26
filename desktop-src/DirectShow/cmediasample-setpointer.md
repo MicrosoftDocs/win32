@@ -1,7 +1,12 @@
 ---
-Description: 'The SetPointer method sets the pointer to the memory buffer.'
-ms.assetid: '60627600-c982-462e-b540-327a58e57615'
-title: 'CMediaSample.SetPointer method'
+Description: The SetPointer method sets the pointer to the memory buffer.
+ms.assetid: 60627600-c982-462e-b540-327a58e57615
+title: CMediaSample.SetPointer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetPointer method
@@ -13,8 +18,8 @@ The `SetPointer` method sets the pointer to the memory buffer.
 
 ```C++
 HRESULT SetPointer(
-   BYTE *ptr,
-   LONG cBytes
+   BYTE *ptr,
+   LONG cBytes
 );
 ```
 
@@ -46,7 +51,7 @@ Returns S\_OK.
 
 This method enables the allocator to set a new pointer for the sample.
 
-This method is not available through the [**IMediaSample**](imediasample.md) interface. The object that creates the sample can access this method (through **CMediaSample**), but other objects cannot.
+This method is not available through the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface. The object that creates the sample can access this method (through **CMediaSample**), but other objects cannot.
 
 ## Requirements
 
@@ -66,9 +71,9 @@ This method is not available through the [**IMediaSample**](imediasample.md) int
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

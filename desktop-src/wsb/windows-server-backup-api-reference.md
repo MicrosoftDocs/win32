@@ -4,11 +4,15 @@ description: The following elements are used with the Windows Server Backup API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb98c91f-a32c-4659-ba20-a16414d41ff6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: eb98c91f-a32c-4659-ba20-a16414d41ff6
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
-keywords: ["Windows Server Backup Windows Server Backup , reference"]
+keywords:
+- Windows Server Backup Windows Server Backup , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Server Backup API Reference

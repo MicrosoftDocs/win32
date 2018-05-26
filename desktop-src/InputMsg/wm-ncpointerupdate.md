@@ -1,8 +1,9 @@
 ---
 title: WM\_NCPOINTERUPDATE message
 description: Posted to provide an update on a pointer that made contact over the non-client area of a window or when a hovering uncaptured contact moves over the non-client area of a window.
-ms.assetid: '3bdc37da-227c-4be1-bf0b-99704caa1322'
-keywords: ["WM_NCPOINTERUPDATE message Input Messages and Notifications"]
+ms.assetid: 3bdc37da-227c-4be1-bf0b-99704caa1322
+keywords:
+- WM_NCPOINTERUPDATE message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCPOINTERUPDATE message
@@ -22,7 +28,7 @@ If a window has captured this pointer, this message is not posted. Instead, a [*
 > \[!Important\]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
 
- 
+ 
 
 
 ```C++
@@ -54,7 +60,7 @@ Contains the point location of the pointer.
 > [!Note]  
 > Because the pointer may make contact with the device over a non-trivial area, this point location may be a simplification of a more complex pointer area. Whenever possible, an application should use the complete pointer area information instead of the point location.
 
- 
+ 
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
@@ -79,8 +85,8 @@ If the application does not process this message, [**DefWindowProc**](https://ms
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -92,9 +98,9 @@ If the application does not process this message, [**DefWindowProc**](https://ms
 [Messages](messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

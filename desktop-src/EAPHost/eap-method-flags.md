@@ -1,7 +1,7 @@
 ---
 title: EAP Method Flags
 description: The EAP method flags are used within the supplicant, authenticator, and peer functions to specify behaviors of an EAP authentication session.
-ms.assetid: 'b6305349-3418-475e-8a37-2c06b399556e'
+ms.assetid: b6305349-3418-475e-8a37-2c06b399556e
 topic_type:
 - apiref
 api_name:
@@ -30,6 +30,11 @@ api_location:
 - eaptypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Method Flags
@@ -215,12 +220,12 @@ Indicates that tunnel methods should perform a full authentication instead of an
 
 
 
-Indicates credentials passed into [**EapPeerBeginSession**](eappeerbeginsession.md) are preferred to all other forms of credential retrieval, even if configuration data passed into the current function requests a different mode of credential retrieval.
+Indicates credentials passed into [**EapPeerBeginSession**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession?branch=master) are preferred to all other forms of credential retrieval, even if configuration data passed into the current function requests a different mode of credential retrieval.
 
 > [!Note]  
-> This flag is only used by [**EapPeerBeginSession**](eappeerbeginsession.md).
+> This flag is only used by [**EapPeerBeginSession**](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession?branch=master).
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -246,7 +251,7 @@ Do not use. Reserved for future use.
 
 
 
-Indicates the cause of re-authentication is a [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP) callback; NAP initiated the authentication session because the health state changed. This flag must be sent only when this function is called by a NAP-specific [*NotificationHandler*](notificationhandler.md) callback provided by a previous call to this function.
+Indicates the cause of re-authentication is a [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP) callback; NAP initiated the authentication session because the health state changed. This flag must be sent only when this function is called by a NAP-specific [*NotificationHandler*](/windows/previous-versions/eappapis/nc-eappapis-notificationhandler?branch=master) callback provided by a previous call to this function.
 
 
 </dt> </dl> </dd> <dt>
@@ -322,8 +327,8 @@ Do not use. Reserved for future use.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Eaptypes.h</dt> </dl> |
 
 
@@ -335,9 +340,9 @@ Do not use. Reserved for future use.
 [Common EAPHost Constants](common-eap-host-error-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

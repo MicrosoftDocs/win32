@@ -1,8 +1,24 @@
 ---
 title: Adding the Play BUTTONELEMENT
 description: Adding the Play BUTTONELEMENT
-ms.assetid: '895850a7-7538-4581-8348-41cbb3bc9717'
-keywords: ["creating skins,BUTTONELEMENT element", "Windows Media Player skins,BUTTONELEMENT element", "skins,BUTTONELEMENT element", "skin definition files,BUTTONELEMENT element", "BUTTONELEMENT element", "elements,BUTTONELEMENT", "creating skins,Play buttons", "Windows Media Player skins,Play buttons", "skins,Play buttons", "skin definition files,Play buttons", "Play buttons"]
+ms.assetid: 895850a7-7538-4581-8348-41cbb3bc9717
+keywords:
+- creating skins,BUTTONELEMENT element
+- Windows Media Player skins,BUTTONELEMENT element
+- skins,BUTTONELEMENT element
+- skin definition files,BUTTONELEMENT element
+- BUTTONELEMENT element
+- elements,BUTTONELEMENT
+- creating skins,Play buttons
+- Windows Media Player skins,Play buttons
+- skins,Play buttons
+- skin definition files,Play buttons
+- Play buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding the Play BUTTONELEMENT

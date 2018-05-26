@@ -1,8 +1,11 @@
 ---
 title: Player.PositionChange event
 description: The PositionChange event occurs when the current position of the media item has been changed.
-ms.assetid: '0561c58c-da5d-438e-adf8-2472405c6b9e'
-keywords: ["PositionChange event Windows Media Player", "PositionChange event Windows Media Player , Player class", "Player class Windows Media Player , PositionChange event"]
+ms.assetid: 0561c58c-da5d-438e-adf8-2472405c6b9e
+keywords:
+- PositionChange event Windows Media Player
+- PositionChange event Windows Media Player , Player class
+- Player class Windows Media Player , PositionChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.PositionChange event
@@ -77,9 +85,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

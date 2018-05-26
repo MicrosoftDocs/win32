@@ -1,8 +1,10 @@
 ---
 title: IVMSupportDriver interface
 description: The IVMSupportDriver interface defines an interface to a support driver installed on the host computer.
-ms.assetid: '16d42b51-a2fb-45a8-9ab9-be4c54bf6784'
-keywords: ["IVMSupportDriver interface Virtual Server", "IVMSupportDriver interface Virtual Server , described"]
+ms.assetid: 16d42b51-a2fb-45a8-9ab9-be4c54bf6784
+keywords:
+- IVMSupportDriver interface Virtual Server
+- IVMSupportDriver interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSupportDriver interface
@@ -40,7 +47,7 @@ The **IVMSupportDriver** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,7 +55,7 @@ The **IVMSupportDriver** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 | IID<br/>      | IID\_IVMSupportDriver is defined as D4CCAE0F-391E-4f31-A4EF-FE8B000FEFD5<br/>               |
 
@@ -64,9 +71,9 @@ The **IVMSupportDriver** interface has these properties.
 [Virtual Server Interfaces](interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

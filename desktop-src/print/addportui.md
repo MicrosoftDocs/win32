@@ -1,7 +1,12 @@
-﻿---
-Description: 'A port monitor UI DLL''s AddPortUI function adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.'
-ms.assetid: '8305ab0c-0783-4597-9e2c-dfd9cbc843d1'
+---
+Description: A port monitor UI DLLs AddPortUI function adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
+ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 title: AddPortUI function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddPortUI function

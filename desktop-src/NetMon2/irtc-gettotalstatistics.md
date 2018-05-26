@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTotalStatistics method retrieves the total statistics for the current capture.'
-ms.assetid: 'e5098984-c69e-4cd5-9143-d85dfcbd7b92'
-title: 'IRTC::GetTotalStatistics method'
+Description: The GetTotalStatistics method retrieves the total statistics for the current capture.
+ms.assetid: e5098984-c69e-4cd5-9143-d85dfcbd7b92
+title: IRTCGetTotalStatistics method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRTC::GetTotalStatistics method
@@ -13,8 +18,8 @@ The **GetTotalStatistics** method retrieves the [*total statistics*](t.md#-netmo
 
 ```C++
 HRESULT STDMETHODCALLTYPE GetTotalStatistics(
-  [out] LPSTATISTICS lpStats,
-  [in]  BOOL         fClearAfterReading
+  [out] LPSTATISTICS lpStats,
+  [in]  BOOL         fClearAfterReading
 );
 ```
 
@@ -54,7 +59,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +73,8 @@ Network Monitor also stores [*conversation statistics*](c.md#-netmon-conversatio
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -94,9 +99,9 @@ Network Monitor also stores [*conversation statistics*](c.md#-netmon-conversatio
 [STATISTICS](statistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

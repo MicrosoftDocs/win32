@@ -1,12 +1,17 @@
 ---
-Description: 'ICE custom actions communicate by calling MsiProcessMessage and posting an INSTALLMESSAGE\_USER type message.'
-ms.assetid: '36307589-de0e-4eaf-b439-e7ba3cd96fb3'
+Description: ICE custom actions communicate by calling MsiProcessMessage and posting an INSTALLMESSAGE\_USER type message.
+ms.assetid: 36307589-de0e-4eaf-b439-e7ba3cd96fb3
 title: ICE Message Guidelines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE Message Guidelines
 
-ICE custom actions communicate by calling [**MsiProcessMessage**](msiprocessmessage.md) and posting an INSTALLMESSAGE\_USER type message.
+ICE custom actions communicate by calling [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) and posting an INSTALLMESSAGE\_USER type message.
 
 When authoring a message string for an ICE custom action, format the string as follows.
 

@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_MACHINE
 description: DBPROP\_MACHINE
-ms.assetid: '05d0bf4f-2947-4384-8c5e-c176c7c6ed80'
-keywords: ["DBPROP_MACHINE"]
+ms.assetid: 05d0bf4f-2947-4384-8c5e-c176c7c6ed80
+keywords:
+- DBPROP_MACHINE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_MACHINE

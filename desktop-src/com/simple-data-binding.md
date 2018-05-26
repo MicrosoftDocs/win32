@@ -1,7 +1,12 @@
 ---
 title: Simple Data Binding
 description: Simple Data Binding
-ms.assetid: '5fbd7661-2715-4310-8490-66c67eb5519e'
+ms.assetid: 5fbd7661-2715-4310-8490-66c67eb5519e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple Data Binding

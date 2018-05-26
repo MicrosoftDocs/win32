@@ -1,14 +1,20 @@
 ---
 title: Connection (Connections) Element
 description: Defines each configuration setting and associates it with a name. The Connection element is optional.
-ms.assetid: '913263ab-0e0e-4213-947b-7bca9ba0697e'
-keywords: ["Connection element EAPHost"]
+ms.assetid: 913263ab-0e0e-4213-947b-7bca9ba0697e
+keywords:
+- Connection element EAPHost
 topic_type:
 - apiref
 api_name:
 - Connection
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connection (Connections) Element
@@ -50,8 +56,8 @@ The **Connection** element is defined by the [**Connections**](eapconnectionprop
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -77,9 +83,9 @@ The **Connection** element is defined by the [**Connections**](eapconnectionprop
 [eapconnectionpropertiesv1 Schema](eapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

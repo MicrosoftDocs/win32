@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '04bcdc5a-ba44-4b9c-ae87-fee50250d18b'
-title: 'System.Media.EncodedBy'
+Description: .
+ms.assetid: 04bcdc5a-ba44-4b9c-ae87-fee50250d18b
+title: System.Media.EncodedBy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.EncodedBy

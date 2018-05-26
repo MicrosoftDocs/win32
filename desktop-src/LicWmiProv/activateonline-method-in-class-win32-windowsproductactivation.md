@@ -1,7 +1,12 @@
 ---
-Description: 'Exchanges license-related data with the Microsoft Clearinghouse license server.'
-ms.assetid: 'fb0b6862-1466-4ef9-8231-4b287a9bdc41'
-title: 'ActivateOnline method of the Win32\_WindowsProductActivation class'
+Description: Exchanges license-related data with the Microsoft Clearinghouse license server.
+ms.assetid: fb0b6862-1466-4ef9-8231-4b287a9bdc41
+title: ActivateOnline method of the Win32\_WindowsProductActivation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivateOnline method of the Win32\_WindowsProductActivation class
@@ -30,7 +35,7 @@ You can call the [**SetProxySetting**](setproxysetting-method-in-class-win32-pro
 > [!Note]  
 > Windows Product Activation is not available on the Itanium-based versions of the Windows operating system.
 
- 
+ 
 
 ## Requirements
 
@@ -38,10 +43,10 @@ You can call the [**SetProxySetting**](setproxysetting-method-in-class-win32-pro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -58,9 +63,9 @@ You can call the [**SetProxySetting**](setproxysetting-method-in-class-win32-pro
 [Windows Product Activation Provider](windows-product-activation-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

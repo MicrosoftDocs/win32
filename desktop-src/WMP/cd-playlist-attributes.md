@@ -1,8 +1,23 @@
 ---
 title: CD Playlist Attributes
 description: CD Playlist Attributes
-ms.assetid: '3f447fa8-2d09-49c3-8efd-6bf048429a6b'
-keywords: ["Windows Media Player,CD playlist attributes", "Windows Media Player Mobile,CD playlist attributes", "Windows Media Player object model,CD playlist attributes", "object model,CD playlist attributes", "ActiveX control,CD playlist attributes", "Windows Media Player ActiveX control,CD playlist attributes", "Windows Media Player Mobile ActiveX control,CD playlist attributes", "reference for object model,CD playlist attributes", "attributes,playlists", "CD playlist attributes"]
+ms.assetid: 3f447fa8-2d09-49c3-8efd-6bf048429a6b
+keywords:
+- Windows Media Player,CD playlist attributes
+- Windows Media Player Mobile,CD playlist attributes
+- Windows Media Player object model,CD playlist attributes
+- object model,CD playlist attributes
+- ActiveX control,CD playlist attributes
+- Windows Media Player ActiveX control,CD playlist attributes
+- Windows Media Player Mobile ActiveX control,CD playlist attributes
+- reference for object model,CD playlist attributes
+- attributes,playlists
+- CD playlist attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD Playlist Attributes

@@ -1,7 +1,12 @@
 ---
 Description: Creating Source Nodes
-ms.assetid: '44c26bcd-04a9-48c3-b536-25c2b18c34c1'
+ms.assetid: 44c26bcd-04a9-48c3-b536-25c2b18c34c1
 title: Creating Source Nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Source Nodes
@@ -10,11 +15,11 @@ A source node represents one stream from a media source. The source node must co
 
 To add a source node to a topology, do the following:
 
-1.  Call [**MFCreateTopologyNode**](mfcreatetopologynode.md) with the **MF\_TOPOLOGY\_SOURCESTREAM\_NODE** flag to create the source node.
+1.  Call [**MFCreateTopologyNode**](/windows/win32/mfidl/nf-mfidl-mfcreatetopologynode?branch=master) with the **MF\_TOPOLOGY\_SOURCESTREAM\_NODE** flag to create the source node.
 2.  Set the [**MF\_TOPONODE\_SOURCE**](mf-toponode-source-attribute.md) attribute on the node, with a pointer to the media source.
 3.  Set the [**MF\_TOPONODE\_PRESENTATION\_DESCRIPTOR**](mf-toponode-presentation-descriptor-attribute.md) attribute on the node, with a pointer to the presentation descriptor of the media source.
 4.  Set the [**MF\_TOPONODE\_STREAM\_DESCRIPTOR**](mf-toponode-stream-descriptor-attribute.md) attribute on the node, with a pointer to the stream descriptor for the stream.
-5.  Call [**IMFTopology::AddNode**](imftopology-addnode.md) to add the node to the topology.
+5.  Call [**IMFTopology::AddNode**](/windows/win32/mfidl/nf-mfidl-imftopology-addnode?branch=master) to add the node to the topology.
 
 The following example creates and initializes a source node.
 
@@ -88,7 +93,7 @@ done:
 [Topologies](topologies.md)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> </dl>
 
  

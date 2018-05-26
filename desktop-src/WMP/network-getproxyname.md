@@ -1,8 +1,11 @@
 ---
 title: Network.getProxyName method
 description: The getProxyName method retrieves the name of the proxy server being used.
-ms.assetid: '7bf3adaa-a89d-4ffe-8233-a9c606b39350'
-keywords: ["getProxyName method Windows Media Player", "getProxyName method Windows Media Player , Network class", "Network class Windows Media Player , getProxyName method"]
+ms.assetid: 7bf3adaa-a89d-4ffe-8233-a9c606b39350
+keywords:
+- getProxyName method Windows Media Player
+- getProxyName method Windows Media Player , Network class
+- Network class Windows Media Player , getProxyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.getProxyName method
@@ -98,9 +106,9 @@ document.write("The current MMS proxy server name is: " + proxyNameMMS);
 [**Network.getProxySettings**](network-getproxysettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

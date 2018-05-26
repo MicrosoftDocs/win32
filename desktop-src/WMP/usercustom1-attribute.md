@@ -1,14 +1,20 @@
 ---
 title: UserCustom1 Attribute
 description: The UserCustom1 attribute is arbitrary text.
-ms.assetid: 'c8ca54df-7849-4eea-b229-5056564f984a'
-keywords: ["UserCustom1 Attribute Windows Media Player"]
+ms.assetid: c8ca54df-7849-4eea-b229-5056564f984a
+keywords:
+- UserCustom1 Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserCustom1
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserCustom1 Attribute
@@ -46,9 +52,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: MaxShadowFreeForceMerge
 description: MaxShadowFreeForceMerge
-ms.assetid: '3cbe7c90-290c-4a3b-bf4c-720eebf5f417'
+ms.assetid: 3cbe7c90-290c-4a3b-bf4c-720eebf5f417
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxShadowFreeForceMerge

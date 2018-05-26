@@ -4,11 +4,12 @@ description: The property methods of the IGPMTrustee interface get the propertie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25e0e1df-cd22-4e37-9c39-554f236f8496'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 25e0e1df-cd22-4e37-9c39-554f236f8496
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMTrustee Property Methods GPMC"]
+keywords:
+- IGPMTrustee Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -27,11 +28,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMTrustee Property Methods
 
-The property methods of the [**IGPMTrustee**](igpmtrustee.md) interface get the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation .
+The property methods of the [**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master) interface get the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation .
 
 ## Properties
 
@@ -176,7 +180,7 @@ HRESULT get_TrusteeType(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -188,8 +192,8 @@ For more information about security groups, see [How Security Groups are Used in
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -201,21 +205,21 @@ For more information about security groups, see [How Security Groups are Used in
 
 <dl> <dt>
 
-[**IGPMTrustee**](igpmtrustee.md)
+[**IGPMTrustee**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmtrustee?branch=master)
 </dt> <dt>
 
-[**IGPM**](igpm.md)
+[**IGPM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpm?branch=master)
 </dt> <dt>
 
-[**IGPMPermission**](igpmpermission.md)
+[**IGPMPermission**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmpermission?branch=master)
 </dt> <dt>
 
-[**IGPMSecurityInfo**](igpmsecurityinfo.md)
+[**IGPMSecurityInfo**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsecurityinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

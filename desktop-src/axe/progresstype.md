@@ -1,8 +1,9 @@
 ---
 title: ProgressType enumeration
 description: Describes the type of progress that is being reported from the assessment to the Axe engine.
-ms.assetid: '17199ff1-95c0-44f3-802e-4f3b59abe8ba'
-keywords: ["ProgressType enumeration Access Execution Engine"]
+ms.assetid: 17199ff1-95c0-44f3-802e-4f3b59abe8ba
+keywords:
+- ProgressType enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProgressType enumeration
@@ -22,15 +28,15 @@ Describes the type of progress that is being reported from the assessment to the
 
 ```C++
 enum ProgressType {
-  None             = 0, 
-  Percent          = 1, 
-  Message          = 2, 
-  Heartbeat        = 3, 
-  Increment        = 4, 
-  Cancelling       = 5, 
-  RemainingTime    = 6, 
-  WaitingForInput  = 7, 
-  OnOff            = 8 
+  None             = 0, 
+  Percent          = 1, 
+  Message          = 2, 
+  Heartbeat        = 3, 
+  Increment        = 4, 
+  Cancelling       = 5, 
+  RemainingTime    = 6, 
+  WaitingForInput  = 7, 
+  OnOff            = 8 
 
 };
 ```
@@ -100,7 +106,7 @@ The assessment has presented a user interface or a command line prompt and is wa
 <span id="OnOff"></span><span id="onoff"></span><span id="ONOFF"></span>**OnOff**
 </dt> <dd>
 
-The assessment reports that it is controlling a transition of the system’s power state. This lets AXE know that the next system Power On transition is intentional and not an error. The *progressMessage* parameter is an empty string.
+The assessment reports that it is controlling a transition of the system s power state. This lets AXE know that the next system Power On transition is intentional and not an error. The *progressMessage* parameter is an empty string.
 
 The *progressValue* parameter contains one of the following values :
 
@@ -114,15 +120,15 @@ The *progressValue* parameter contains one of the following values :
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

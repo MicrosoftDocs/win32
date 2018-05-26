@@ -1,14 +1,20 @@
 ---
 title: fwidth
 description: Returns the absolute value of the partial derivatives of the specified value.
-ms.assetid: '7184c3b4-1720-4176-a494-7f73322a918e'
-keywords: ["fwidth HLSL"]
+ms.assetid: 7184c3b4-1720-4176-a494-7f73322a918e
+keywords:
+- fwidth HLSL
 topic_type:
 - apiref
 api_name:
 - fwidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fwidth
@@ -22,7 +28,7 @@ Returns the absolute value of the partial derivatives of the specified value.
 
 
 
- 
+ 
 
 This function computes the following: [**abs**](dx-graphics-hlsl-abs.md)([**ddx**](dx-graphics-hlsl-ddx.md)(*x*)) + [**abs**](dx-graphics-hlsl-abs.md)([**ddy**](dx-graphics-hlsl-ddy.md)(*x*)).
 
@@ -38,7 +44,7 @@ This function is only supported in pixel shaders.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ The absolute value of the partial derivatives of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +77,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -80,9 +86,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Suspends the processes of the package if they are currently running.'
-ms.assetid: '83f44285-46ed-4968-b0af-7964dfacf602'
-title: 'IPackageDebugSettings::Suspend method'
+---
+Description: Suspends the processes of the package if they are currently running.
+ms.assetid: 83f44285-46ed-4968-b0af-7964dfacf602
+title: IPackageDebugSettingsSuspend method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPackageDebugSettings::Suspend method
@@ -69,7 +74,7 @@ Each process receives the [**Suspending**](w_appmod_core.coreapplication_suspend
 
 <dl> <dt>
 
-[**IPackageDebugSettings**](ipackagedebugsettings.md)
+[**IPackageDebugSettings**](/windows/win32/shobjidl_core/?branch=master)
 </dt> </dl>
 
  

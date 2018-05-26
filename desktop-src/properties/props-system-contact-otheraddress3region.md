@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c31a435d-2110-4147-ac28-deafa22e1030'
-title: 'System.Contact.OtherAddress3Region'
+Description: .
+ms.assetid: c31a435d-2110-4147-ac28-deafa22e1030
+title: System.Contact.OtherAddress3Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress3Region

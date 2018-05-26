@@ -4,17 +4,21 @@ description: Gets the original file extension of the file before it was protecte
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F4359182-646D-4E63-B693-9DA55A45BCBC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F4359182-646D-4E63-B693-9DA55A45BCBC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileInputStream.getOriginalFileExtension method"]
+keywords:
+- ProtectedFileInputStream.getOriginalFileExtension method
 topic_type:
 - apiref
 api_name:
 - ProtectedFileInputStream.getOriginalFileExtension method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileInputStream.getOriginalFileExtension method
@@ -45,11 +49,11 @@ ProtectedFileInputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

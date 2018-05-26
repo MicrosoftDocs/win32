@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GETINFO\_GLYPHWIDTH structure is used as input to the UNIFONTOBJ\_GetInfo callback function.'
-ms.assetid: 'bc01b363-71e9-4c50-ad14-a101abbfe6ec'
-title: 'GETINFO\_GLYPHWIDTH structure'
+---
+Description: The GETINFO\_GLYPHWIDTH structure is used as input to the UNIFONTOBJ\_GetInfo callback function.
+ms.assetid: bc01b363-71e9-4c50-ad14-a101abbfe6ec
+title: GETINFO\_GLYPHWIDTH structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GETINFO\_GLYPHWIDTH structure

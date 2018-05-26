@@ -1,7 +1,12 @@
 ---
 Description: Closed Captions and Teletext
-ms.assetid: 'faa34cdc-bee0-44c4-bd1c-84a688a27b9e'
+ms.assetid: faa34cdc-bee0-44c4-bd1c-84a688a27b9e
 title: Closed Captions and Teletext
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Closed Captions and Teletext

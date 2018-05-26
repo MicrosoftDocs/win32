@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FASTOEM property is designed to enable OEMs to reduce the time it takes to install Windows Installer applications for a specific scenario.'
-ms.assetid: '4c0af524-eb2e-4d64-bb25-3dae488d236d'
+---
+Description: The FASTOEM property is designed to enable OEMs to reduce the time it takes to install Windows Installer applications for a specific scenario.
+ms.assetid: 4c0af524-eb2e-4d64-bb25-3dae488d236d
 title: FASTOEM property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FASTOEM property

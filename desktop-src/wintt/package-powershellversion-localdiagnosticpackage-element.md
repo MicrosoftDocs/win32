@@ -1,14 +1,20 @@
 ---
 title: PowerShellVersion (LocalDiagnosticPackage) Element
 description: The minimum Windows PowerShell version required to run the pack.
-ms.assetid: '8e6aefd9-69ef-4c93-b7cd-7cddba268012'
-keywords: ["PowerShellVersion element Windows Troubleshooting Toolkit"]
+ms.assetid: 8e6aefd9-69ef-4c93-b7cd-7cddba268012
+keywords:
+- PowerShellVersion element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - PowerShellVersion
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PowerShellVersion (LocalDiagnosticPackage) Element
@@ -27,14 +33,14 @@ The **PowerShellVersion** element is defined by the [**LocalDiagnosticPackage**]
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: BoundingFrustum Methods
-ms.assetid: 'f77aac4a-7fbf-4149-a1c4-ee4c58d37222'
+ms.assetid: f77aac4a-7fbf-4149-a1c4-ee4c58d37222
 title: BoundingFrustum Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum Methods
@@ -10,14 +15,14 @@ title: BoundingFrustum Methods
 
 | Method                                                                  | Description                                                                                                    |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**Contains**](boundingfrustum-contains.md)<br/>                 | Tests whether the [**BoundingFrustum**](boundingfrustum.md) contains a specified object.<br/>           |
-| [**Intersects**](boundingfrustum-intersects.md)<br/>             | Tests the [**BoundingFrustum**](boundingfrustum.md) for intersection with another object.<br/>          |
-| [**Transform**](boundingfrustum-transform.md)<br/>               | Transforms the [**BoundingFrustum**](boundingfrustum.md).<br/>                                          |
-| [**ContainedBy**](boundingfrustum-containedby.md)<br/>           | Tests whether the [**BoundingFrustum**](boundingfrustum.md) is contained by the specified frustum.<br/> |
-| [**CreateFromMatrix**](boundingfrustum-createfrommatrix.md)<br/> | Creates a [**BoundingFrustum**](boundingfrustum.md) from the specified projection matrix.<br/>          |
-| [**GetCorners**](boundingfrustum-getcorners.md)<br/>             | Gets the corners making up the [**BoundingFrustum**](boundingfrustum.md).<br/>                          |
-| [**GetPlanes**](boundingfrustum-getplanes.md)<br/>               | Gets the planes making up the [**BoundingFrustum**](boundingfrustum.md).<br/>                           |
-| [**op\_Assignment**](boundingfrustum-op-assignment.md)<br/>      | Copies values from another [**BoundingFrustum**](boundingfrustum.md).<br/>                              |
+| [**Contains**](boundingfrustum-contains.md)<br/>                 | Tests whether the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master) contains a specified object.<br/>           |
+| [**Intersects**](boundingfrustum-intersects.md)<br/>             | Tests the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master) for intersection with another object.<br/>          |
+| [**Transform**](boundingfrustum-transform.md)<br/>               | Transforms the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).<br/>                                          |
+| [**ContainedBy**](/windows/win32/DirectXCollision/nf-directxcollision-boundingbox-containedby?branch=master)<br/>           | Tests whether the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master) is contained by the specified frustum.<br/> |
+| [**CreateFromMatrix**](/windows/win32/DirectXCollision/?branch=master)<br/> | Creates a [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master) from the specified projection matrix.<br/>          |
+| [**GetCorners**](/windows/win32/DirectXCollision/?branch=master)<br/>             | Gets the corners making up the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).<br/>                          |
+| [**GetPlanes**](/windows/win32/DirectXCollision/?branch=master)<br/>               | Gets the planes making up the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).<br/>                           |
+| [**op\_Assignment**](/windows/win32/DirectXCollision/?branch=master)<br/>      | Copies values from another [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).<br/>                              |
 
 
 
@@ -27,7 +32,7 @@ title: BoundingFrustum Methods
 
 <dl> <dt>
 
-[BoundingFrustum](boundingfrustum.md)
+[BoundingFrustum](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

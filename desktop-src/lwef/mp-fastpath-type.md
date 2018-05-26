@@ -1,8 +1,10 @@
 ---
 title: MP\_FASTPATH\_TYPE enumeration
 description: FastPath type.
-ms.assetid: 'BD72228F-DCC0-435E-A408-BD7FB02E55E1'
-keywords: ["MP_FASTPATH_TYPE enumeration Legacy Windows Environment Features", "PMP_FASTPATH_TYPE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: BD72228F-DCC0-435E-A408-BD7FB02E55E1
+keywords:
+- MP_FASTPATH_TYPE enumeration Legacy Windows Environment Features
+- PMP_FASTPATH_TYPE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MP\_FASTPATH\_TYPE enumeration
@@ -22,9 +29,9 @@ FastPath type.
 
 ```C++
 typedef enum tagMP_FASTPATH_TYPE { 
-  MP_FASTPATH_UNKNOWN   = 0,
-  MP_FASTPATH_VDM       = 1,
-  MP_FASTPATH_DISABLED  = 2
+  MP_FASTPATH_UNKNOWN   = 0,
+  MP_FASTPATH_VDM       = 1,
+  MP_FASTPATH_DISABLED  = 2
 } MP_FASTPATH_TYPE, *PMP_FASTPATH_TYPE;
 ```
 
@@ -61,15 +68,15 @@ Signature disable notification.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

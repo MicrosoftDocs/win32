@@ -1,8 +1,15 @@
 ---
 title: Host Names and IP Addresses
 description: TCP/IP networks require host names to be resolved to IP addresses before the address information can be used to create a connection.
-ms.assetid: 'f077e7d0-2e2c-4a2b-b5cd-1c7f43f7743b'
-keywords: ["Host Names and IP Addresses SNMP", "Host Names, resolving SNMP"]
+ms.assetid: f077e7d0-2e2c-4a2b-b5cd-1c7f43f7743b
+keywords:
+- Host Names and IP Addresses SNMP
+- Host Names, resolving SNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Host Names and IP Addresses

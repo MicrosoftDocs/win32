@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Fetch method of the View object retrieves the next row of column data if more rows are available in the result set, otherwise it is Null. Call the Execute method before the Fetch method.'
-ms.assetid: 'd51bf60d-5725-41eb-9002-1d0e5b9f50a3'
-title: 'View.Fetch method'
+---
+Description: The Fetch method of the View object retrieves the next row of column data if more rows are available in the result set, otherwise it is Null. Call the Execute method before the Fetch method.
+ms.assetid: d51bf60d-5725-41eb-9002-1d0e5b9f50a3
+title: View.Fetch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # View.Fetch method

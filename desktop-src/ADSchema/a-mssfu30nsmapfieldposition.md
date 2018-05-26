@@ -4,17 +4,22 @@ description: Contains the field position that is used to extract the key from a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ff5e744-8397-4ed7-8b30-26bd9a15c346'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7ff5e744-8397-4ed7-8b30-26bd9a15c346
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-NSMAP-Field-Position attribute AD Schema", "msSFU30NSMAPFieldPosition attribute AD Schema"]
+keywords:
+- msSFU-30-NSMAP-Field-Position attribute AD Schema
+- msSFU30NSMAPFieldPosition attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-NSMAP-Field-Position
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-NSMAP-Field-Position attribute
@@ -38,10 +43,10 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the field position that is used to extract the key from a nonstandard m
 
 
 
- 
+ 
 
- 
+ 
 
 
 

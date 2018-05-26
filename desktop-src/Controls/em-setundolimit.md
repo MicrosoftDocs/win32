@@ -1,8 +1,9 @@
 ---
 title: EM\_SETUNDOLIMIT message
 description: Sets the maximum number of actions that can stored in the undo queue of a rich edit control.
-ms.assetid: '485dbcda-89f4-40de-ad55-cd524958e910'
-keywords: ["EM_SETUNDOLIMIT message Windows Controls"]
+ms.assetid: 485dbcda-89f4-40de-ad55-cd524958e910
+keywords:
+- EM_SETUNDOLIMIT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETUNDOLIMIT message
@@ -51,8 +57,8 @@ Setting the limit to zero disables the **Undo** feature.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ Setting the limit to zero disables the **Undo** feature.
 [**EM\_UNDO**](em-undo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

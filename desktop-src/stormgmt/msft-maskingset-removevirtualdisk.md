@@ -1,8 +1,11 @@
 ---
 title: RemoveVirtualDisk method of the MSFT\_MaskingSet class
 description: Removes one or more virtual disks from the masking set.
-ms.assetid: '8B134FD9-E044-4DF8-812B-F6E2C8E39010'
-keywords: ["RemoveVirtualDisk method Windows Storage Management API", "RemoveVirtualDisk method Windows Storage Management API , MSFT_MaskingSet class", "MSFT_MaskingSet class Windows Storage Management API , RemoveVirtualDisk method"]
+ms.assetid: 8B134FD9-E044-4DF8-812B-F6E2C8E39010
+keywords:
+- RemoveVirtualDisk method Windows Storage Management API
+- RemoveVirtualDisk method Windows Storage Management API , MSFT_MaskingSet class
+- MSFT_MaskingSet class Windows Storage Management API , RemoveVirtualDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveVirtualDisk method of the MSFT\_MaskingSet class
@@ -24,10 +32,10 @@ After a virtual disk is removed, it will no longer be shown to the initiators co
 
 ```mof
 UInt32 RemoveVirtualDisk(
-  [in]  String                  VirtualDiskNames[],
-  [in]  Boolean                 RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String                  ExtendedStatus
+  [in]  String                  VirtualDiskNames[],
+  [in]  Boolean                 RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String                  ExtendedStatus
 );
 ```
 
@@ -116,8 +124,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -130,9 +138,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_MaskingSet**](msft-maskingset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

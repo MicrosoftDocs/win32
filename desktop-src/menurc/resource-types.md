@@ -1,7 +1,7 @@
 ---
 title: Resource Types
 description: The following are the predefined resource types.
-ms.assetid: '8d27f79a-8165-4565-a975-f25b2344efdc'
+ms.assetid: 8d27f79a-8165-4565-a975-f25b2344efdc
 topic_type:
 - apiref
 api_name:
@@ -30,6 +30,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Types
@@ -74,9 +79,9 @@ The following are the predefined resource types.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

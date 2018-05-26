@@ -1,7 +1,12 @@
 ---
-Description: 'The PrepareRender method is called before the filter renders a sample.'
-ms.assetid: '0b137da9-eac0-469f-b457-719a36569c82'
-title: 'CBaseRenderer.PrepareRender method'
+Description: The PrepareRender method is called before the filter renders a sample.
+ms.assetid: 0b137da9-eac0-469f-b457-719a36569c82
+title: CBaseRenderer.PrepareRender method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.PrepareRender method
@@ -47,9 +52,9 @@ The filter calls this method before it calls the [**CBaseRenderer::OnReceiveFirs
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseDataProtection\_Settings01 class
 description: The MDM\_EnterpriseDataProtection\_Settings01 class is used to configure Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings.
-ms.assetid: '7537f548-85fb-46b4-ab94-c9dcf2bf1447'
-keywords: ["MDM_EnterpriseDataProtection_Settings01 class", "MDM_EnterpriseDataProtection_Settings01 class, described"]
+ms.assetid: 7537f548-85fb-46b4-ab94-c9dcf2bf1447
+keywords:
+- MDM_EnterpriseDataProtection_Settings01 class
+- MDM_EnterpriseDataProtection_Settings01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseDataProtection\_Settings01 class
@@ -195,7 +202,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -203,9 +210,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

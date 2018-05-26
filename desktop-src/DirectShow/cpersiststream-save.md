@@ -1,7 +1,12 @@
 ---
-Description: 'Saves the filter''s data to the given stream.'
-ms.assetid: 'f45c8c6e-f0bb-4358-805a-da2669706d34'
-title: 'CPersistStream.Save method'
+Description: Saves the filters data to the given stream.
+ms.assetid: f45c8c6e-f0bb-4358-805a-da2669706d34
+title: CPersistStream.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.Save method
@@ -13,8 +18,8 @@ Saves the filter's data to the given stream.
 
 ```C++
 HRESULT Save(
-   LPSTREAM pStm,
-   BOOL     fClearDirty
+   LPSTREAM pStm,
+   BOOL     fClearDirty
 );
 ```
 
@@ -64,9 +69,9 @@ This member function implements the **IPersistStream::Save** method. It calls **
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

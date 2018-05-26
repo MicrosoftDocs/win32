@@ -1,8 +1,14 @@
 ---
 title: Setting L2TP and PPTP ports of local RRAS service
 description: This example gets and sets the L2TP and PPTP port configuration of the local RRAS service. It assumes the calling process has sufficient privileges to access the local RRAS service.
-ms.assetid: '9e4aa8d4-e09e-4c84-acf0-c505a58841a4'
-keywords: ["Setting RRAS service ports"]
+ms.assetid: 9e4aa8d4-e09e-4c84-acf0-c505a58841a4
+keywords:
+- Setting RRAS service ports
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting L2TP and PPTP ports of local RRAS service

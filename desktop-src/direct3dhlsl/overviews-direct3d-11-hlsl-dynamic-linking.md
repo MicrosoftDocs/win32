@@ -1,7 +1,12 @@
 ---
 title: Dynamic Linking
 description: Graphics developers sometimes create large, general-purpose shaders that can be used by a wide variety of scene items.
-ms.assetid: '2f5f7852-0f0a-4fad-a412-9a0d634c73b6'
+ms.assetid: 2f5f7852-0f0a-4fad-a412-9a0d634c73b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Linking
@@ -22,7 +27,7 @@ Shader model 5 addresses this performance problem by introducing dynamic shader 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ Shader model 5 addresses this performance problem by introducing dynamic shader 
 [HLSL](overviews-direct3d-11-hlsl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

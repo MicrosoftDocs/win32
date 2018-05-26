@@ -1,8 +1,9 @@
 ---
 title: HDM\_GETORDERARRAY message
 description: Gets the current left-to-right order of items in a header control. You can send this message explicitly or use the Header\_GetOrderArray macro.
-ms.assetid: 'b287d3c1-ae61-41a4-a884-dc008eb24ad8'
-keywords: ["HDM_GETORDERARRAY message Windows Controls"]
+ms.assetid: b287d3c1-ae61-41a4-a884-dc008eb24ad8
+keywords:
+- HDM_GETORDERARRAY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_GETORDERARRAY message
 
-Gets the current left-to-right order of items in a header control. You can send this message explicitly or use the [**Header\_GetOrderArray**](header-getorderarray.md) macro.
+Gets the current left-to-right order of items in a header control. You can send this message explicitly or use the [**Header\_GetOrderArray**](/windows/win32/Commctrl/nf-commctrl-header_getorderarray?branch=master) macro.
 
 ## Parameters
 
@@ -68,15 +74,15 @@ MessageBox(hwnd, "Out of memory.","Error", MB_OK);
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

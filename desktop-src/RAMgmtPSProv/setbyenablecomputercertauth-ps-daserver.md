@@ -2,13 +2,16 @@
 title: SetByEnableComputerCertAuth method of the PS\_DAServer class
 description: This cmdlet sets the properties specific to the DA server.
 audience: developer
-ms.assetid: '9387937c-88a3-458a-91fb-ce5f3a32b49b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9387937c-88a3-458a-91fb-ce5f3a32b49b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByEnableComputerCertAuth method", "SetByEnableComputerCertAuth method, PS_DAServer class", "PS_DAServer class, SetByEnableComputerCertAuth method"]
+keywords:
+- SetByEnableComputerCertAuth method
+- SetByEnableComputerCertAuth method, PS_DAServer class
+- PS_DAServer class, SetByEnableComputerCertAuth method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByEnableComputerCertAuth method of the PS\_DAServer class
@@ -28,19 +34,19 @@ This cmdlet sets the properties specific to the DA server.
 
 ```mof
 uint32 SetByEnableComputerCertAuth(
-  [in]  string   InternalIPv6Prefix[],
-  [in]  string   UserAuthentication,
-  [in]  string   ComputerName,
-  [in]  string   TeredoState,
-  [in]  string   ConnectToAddress,
-  [in]  uint8    IPsecRootCertificate[],
-  [in]  boolean  IntermediateRootCertificate,
-  [in]  string   EntrypointName,
-  [in]  string   ClientIPv6Prefix,
-  [in]  boolean  Force,
-  [in]  string   HealthCheck,
-  [in]  boolean  PassThru,
-  [out] DAServer cmdletOutput
+  [in]  string   InternalIPv6Prefix[],
+  [in]  string   UserAuthentication,
+  [in]  string   ComputerName,
+  [in]  string   TeredoState,
+  [in]  string   ConnectToAddress,
+  [in]  uint8    IPsecRootCertificate[],
+  [in]  boolean  IntermediateRootCertificate,
+  [in]  string   EntrypointName,
+  [in]  string   ClientIPv6Prefix,
+  [in]  boolean  Force,
+  [in]  string   HealthCheck,
+  [in]  boolean  PassThru,
+  [out] DAServer cmdletOutput
 );
 ```
 
@@ -167,9 +173,9 @@ Switch parameter used to suppress user confirmation prompts for the following co
 *HealthCheck* \[in\]
 </dt> <dd>
 
-This parameter is not supported starting with Windows Server 2016.
+This parameter is not supported starting with Windows Server 2016.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Indicates whether health check for DirectAccess clients is enabled.
+**Windows Server 2012 R2 and Windows Server 2012:** Indicates whether health check for DirectAccess clients is enabled.
 
 This parameter is used to enable/disable health checks for DirectAccess clients.
 
@@ -245,7 +251,7 @@ Common properties
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -259,9 +265,9 @@ Common properties
 [**PS\_DAServer**](ps-daserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

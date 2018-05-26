@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'dd4a9943-070b-4f84-8c0e-6c6e070d8e5b'
+ms.assetid: dd4a9943-070b-4f84-8c0e-6c6e070d8e5b
 title: COM+ Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Services

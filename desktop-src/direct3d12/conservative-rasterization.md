@@ -1,7 +1,12 @@
 ---
 title: Conservative Rasterization
 description: Conservative Rasterization adds some certainty to pixel rendering, which is helpful in particular to collision detection algorithms.
-ms.assetid: '081199AD-1702-4EC8-95AD-B1148C676199'
+ms.assetid: 081199AD-1702-4EC8-95AD-B1148C676199
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conservative Rasterization
@@ -145,7 +150,7 @@ The debug layer validation verifies applications do not use these Primitive Topo
 
 ### Query interaction
 
-For a conservatively rasterized pixel, queries behave as they do when Conservative Rasterization is not enabled when all samples are covered. For example, for a conservatively rasterized pixel, D3D12\_QUERY\_TYPE\_OCCLUSION and D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS (from [**D3D12\_QUERY\_TYPE**](d3d12-query-type.md)) must behave as they would when Conservative Rasterization is not enabled when all samples are covered.
+For a conservatively rasterized pixel, queries behave as they do when Conservative Rasterization is not enabled when all samples are covered. For example, for a conservatively rasterized pixel, D3D12\_QUERY\_TYPE\_OCCLUSION and D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS (from [**D3D12\_QUERY\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_query_type?branch=master)) must behave as they would when Conservative Rasterization is not enabled when all samples are covered.
 
 Pixel Shader invocations should increment for every conservatively rasterized pixel in Conservative Rasterization mode.
 
@@ -153,7 +158,7 @@ Pixel Shader invocations should increment for every conservatively rasterized pi
 
 All Cull States are valid in Conservative Rasterization mode and follow the same rules as when Conservative Rasterization is not enabled.
 
-When comparing Conservative Rasterization across resolutions to itself or without Conservative Rasterization enabled, there is the possibility that some primitives may have mismatched facedness (i.e. one back facing, the other front facing). Applications can avoid this uncertainty by using D3D12\_CULL\_MODE\_NONE (from [**D3D12\_CULL\_MODE**](d3d12-cull-mode.md)) and not using the `IsFrontFace` System Generated Value.
+When comparing Conservative Rasterization across resolutions to itself or without Conservative Rasterization enabled, there is the possibility that some primitives may have mismatched facedness (i.e. one back facing, the other front facing). Applications can avoid this uncertainty by using D3D12\_CULL\_MODE\_NONE (from [**D3D12\_CULL\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_cull_mode?branch=master)) and not using the `IsFrontFace` System Generated Value.
 
 ### IsFrontFace interaction
 
@@ -161,7 +166,7 @@ The `IsFrontFace` System Generated Value is valid to use in Conservative Rasteri
 
 ### Fill Modes interaction
 
-The only valid [**D3D12\_FILL\_MODE**](d3d12-fill-mode.md) for Conservative Rasterization is D3D12\_FILL\_SOLID, any other fill mode is an invalid parameter for the Rasterizer State.
+The only valid [**D3D12\_FILL\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_fill_mode?branch=master) for Conservative Rasterization is D3D12\_FILL\_SOLID, any other fill mode is an invalid parameter for the Rasterizer State.
 
 This is because D3D12 functional specification specifies that wireframe fill mode should convert triangle edges to lines and follow the line rasterization rules and conservative line rasterization behavior has not been defined.
 
@@ -187,11 +192,11 @@ There are three tiers of hardware support, in addition to the possibility that t
 
 The following methods, structures, enums, and helper classes reference Conservative Rasterization:
 
--   [**D3D12\_RASTERIZER\_DESC**](d3d12-rasterizer-desc.md) : structure holding the rasterizer description.
--   [**D3D12\_CONSERVATIVE\_RASTERIZATION\_MODE**](d3d12-conservative-rasterization-mode.md) : enum values for the mode (on or off).
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](d3d12-feature-data-d3d12-options.md) : structure holding the tier of support.
--   [**D3D12\_CONSERVATIVE\_RASTERIZATION\_TIER**](d3d12-conservative-rasterization-tier.md) : enum values for each tier of support by the hardware.
--   [**CheckFeatureSupport**](id3d12device-checkfeaturesupport.md) : method to access the supported features.
+-   [**D3D12\_RASTERIZER\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_rasterizer_desc?branch=master) : structure holding the rasterizer description.
+-   [**D3D12\_CONSERVATIVE\_RASTERIZATION\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_conservative_rasterization_mode?branch=master) : enum values for the mode (on or off).
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options?branch=master) : structure holding the tier of support.
+-   [**D3D12\_CONSERVATIVE\_RASTERIZATION\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_conservative_rasterization_tier?branch=master) : enum values for each tier of support by the hardware.
+-   [**CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master) : method to access the supported features.
 -   [**CD3DX12\_RASTERIZER\_DESC**](cd3dx12-rasterizer-desc.md) : helper class for creating rasterizer descriptions.
 
 ## Related topics

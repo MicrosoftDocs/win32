@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyFile GetProgress method
 description: Retrieves information on the progress of the file transfer.
-ms.assetid: '3D8AFD65-AF34-4000-A4A9-8A187427E85C'
-keywords: ["GetProgress method", "GetProgress method, IBackgroundCopyFile interface", "IBackgroundCopyFile interface, GetProgress method"]
+ms.assetid: 3D8AFD65-AF34-4000-A4A9-8A187427E85C
+keywords:
+- GetProgress method
+- GetProgress method, IBackgroundCopyFile interface
+- IBackgroundCopyFile interface, GetProgress method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile::GetProgress method
@@ -22,7 +30,7 @@ Retrieves information on the progress of the file transfer.
 
 ```C++
 HRESULT GetProgress(
-  [out] BG_FILE_PROGRESS *pProgress
+  [out] BG_FILE_PROGRESS *pProgress
 );
 ```
 
@@ -49,7 +57,7 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -72,9 +80,9 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 [**IBackgroundCopyJob::GetProgress**](ibackgroundcopyjob-getprogress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

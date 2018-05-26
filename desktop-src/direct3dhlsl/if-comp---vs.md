@@ -1,7 +1,12 @@
 ---
 title: if\_comp - vs
 description: Start an if bool - vs...else - vs...endif - vs block, with a condition based on values that could be computed in a shader. This instruction is used to skip a block of code, based on a condition.
-ms.assetid: 'a3fe93c6-be26-4216-a601-3be52a74be06'
+ms.assetid: a3fe93c6-be26-4216-a601-3be52a74be06
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if\_comp - vs

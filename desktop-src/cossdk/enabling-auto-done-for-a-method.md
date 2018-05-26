@@ -1,7 +1,12 @@
 ---
-Description: 'You can enable the auto-done feature for any method exposed by a component for which COM+ JIT activation is enabled. If JIT activation is disabled, auto-done is unavailable.'
-ms.assetid: 'd699b85c-441f-4ea6-8d03-d1fa9a8a357f'
-title: 'Enabling Auto-Done for a Method'
+Description: You can enable the auto-done feature for any method exposed by a component for which COM+ JIT activation is enabled. If JIT activation is disabled, auto-done is unavailable.
+ms.assetid: d699b85c-441f-4ea6-8d03-d1fa9a8a357f
+title: Enabling Auto-Done for a Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Auto-Done for a Method
@@ -13,7 +18,7 @@ You should enable auto-done only for a method that has intentionally been writte
 When you enable auto-done, you are changing the default behavior of both JIT activation and automatic transactions for that method. You may want to use this feature because it can remove the necessity to explicitly declare consistency and doneness. This can instead be done by simply returning an HRESULT when auto-done is enabled. Essentially, when you enable auto-done, you are instructing COM+ to do the following:
 
 -   Set the done bit to True by default on the context in which the object runs whenever this method is called.
--   Inspect the HRESULT returned by the method; if it indicates SUCCESS or FAILURE, set the consistency bit accordingly. This can result in an automatic call to [**IObjectContext::SetComplete**](iobjectcontext-setcomplete.md) or [**IObjectContext::SetAbort**](iobjectcontext-setabort.md), depending also on what the method does internally.
+-   Inspect the HRESULT returned by the method; if it indicates SUCCESS or FAILURE, set the consistency bit accordingly. This can result in an automatic call to [**IObjectContext::SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master) or [**IObjectContext::SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master), depending also on what the method does internally.
 
 **To enable auto-done for a method**
 

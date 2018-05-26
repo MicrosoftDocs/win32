@@ -1,19 +1,24 @@
 ---
-Description: 'The GetPreroll method retrieves the preroll time. This method implements the IMediaSeeking::GetPreroll method.'
-ms.assetid: '2395d5b2-8c1f-40cd-8d4a-48620debe7a7'
-title: 'CSourceSeeking.GetPreroll method'
+Description: The GetPreroll method retrieves the preroll time. This method implements the IMediaSeekingGetPreroll method.
+ms.assetid: 2395d5b2-8c1f-40cd-8d4a-48620debe7a7
+title: CSourceSeeking.GetPreroll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetPreroll method
 
-The `GetPreroll` method retrieves the preroll time. This method implements the [**IMediaSeeking::GetPreroll**](imediaseeking-getpreroll.md) method.
+The `GetPreroll` method retrieves the preroll time. This method implements the [**IMediaSeeking::GetPreroll**](/windows/win32/Strmif/nf-strmif-imediaseeking-getpreroll?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetPreroll(
-   LONGLONG *pPreroll
+   LONGLONG *pPreroll
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Returns one of the **HRESULT** values listed in the following table.
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

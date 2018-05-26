@@ -1,7 +1,12 @@
 ---
 Description: XPSDrv Interfaces
-ms.assetid: '820cb5e7-1c72-4a9a-ba3e-d913b46331e3'
+ms.assetid: 820cb5e7-1c72-4a9a-ba3e-d913b46331e3
 title: XPSDrv Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPSDrv Interfaces

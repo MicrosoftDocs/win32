@@ -1,7 +1,12 @@
 ---
 title: System View and Application View
 description: System View and Application View
-ms.assetid: '48993cfd-0cff-4e55-ba61-28e5d40bcd80'
+ms.assetid: 48993cfd-0cff-4e55-ba61-28e5d40bcd80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System View and Application View

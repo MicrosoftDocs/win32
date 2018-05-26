@@ -1,14 +1,19 @@
-﻿---
-Description: 'Used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service for a particular fax account.'
-ms.assetid: 'd2ae93a1-6325-4b8f-a227-4eb0678702d2'
+---
+Description: Used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service for a particular fax account.
+ms.assetid: d2ae93a1-6325-4b8f-a227-4eb0678702d2
 title: FaxAccountIncomingArchive object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountIncomingArchive object
 
 Used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service for a particular fax account. You can also use the **FaxAccountIncomingArchive** object to retrieve a message from the archive by specifying its message ID.
 
-A **FaxAccountIncomingArchive** object is accessed through a [**FaxAccountFolders**](-mfax-faxaccountfolders.md) object. **FaxAccountIncomingArchive** objects provide access to [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md) objects and [**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md) objects.
+A **FaxAccountIncomingArchive** object is accessed through a [**FaxAccountFolders**](-mfax-faxaccountfolders.md) object. **FaxAccountIncomingArchive** objects provide access to [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md) objects and [**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master) objects.
 
 ![faxaccountfolders, faxaccountincomingarchive, and faxaccountincomingmessageiterator](images/faxaccountincomingarchive.png)
 
@@ -71,7 +76,7 @@ The **FaxAccountIncomingArchive** object has these properties.
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxAccountIncomingArchive**](-mfax-faxaccountincomingarchive-cpp.md)
+[**IFaxAccountIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountincomingarchive?branch=master)
 </dt> </dl>
 
  

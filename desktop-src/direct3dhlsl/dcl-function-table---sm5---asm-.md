@@ -1,7 +1,12 @@
 ---
 title: dcl\_function\_table (sm5 - asm)
 description: Declare a function table.
-ms.assetid: '3693A03F-5E4B-40E8-B436-2FE3462C8DB8'
+ms.assetid: 3693A03F-5E4B-40E8-B436-2FE3462C8DB8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_function\_table (sm5 - asm)
@@ -15,7 +20,7 @@ Declare a function table.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare a function table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +71,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -75,9 +80,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

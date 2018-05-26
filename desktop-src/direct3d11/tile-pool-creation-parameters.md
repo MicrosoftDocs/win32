@@ -1,19 +1,24 @@
 ---
 title: Tile pool creation parameters
 description: Use the parameters in this section to define tile pools via the ID3D11Device CreateBuffer API.
-ms.assetid: '04290AAF-8517-4557-954E-1CAA3A0CA7F6'
+ms.assetid: 04290AAF-8517-4557-954E-1CAA3A0CA7F6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tile pool creation parameters
 
-Use the parameters in this section to define tile pools via the [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md) API.
+Use the parameters in this section to define tile pools via the [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master) API.
 
 <dl> <dt>
 
 <span id="Size"></span><span id="size"></span><span id="SIZE"></span>**Size**
 </dt> <dd>
 
-Allocation size, as a multiple of 64KB. 0 is valid because you can later use a [**ID3D11DeviceContext2::ResizeTilePool**](id3d11devicecontext2-resizetilepool.md) operation.
+Allocation size, as a multiple of 64KB. 0 is valid because you can later use a [**ID3D11DeviceContext2::ResizeTilePool**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-resizetilepool?branch=master) operation.
 
 </dd> <dt>
 

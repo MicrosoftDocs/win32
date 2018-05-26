@@ -1,14 +1,20 @@
 ---
 title: Properties (Child of SceneButton) element
 description: Specifies the properties of the scene button.
-ms.assetid: '75935d4f-595c-469a-af14-ee6348970b1c'
-keywords: ["Properties (Child of SceneButton) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 75935d4f-595c-469a-af14-ee6348970b1c
+keywords:
+- Properties (Child of SceneButton) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties (Child of SceneButton) element
@@ -49,7 +55,7 @@ The [**Alpha**](alpha-element.md), [Rotate](rotate.md), [Offset](offset.md), and
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -76,9 +82,9 @@ The [**Alpha**](alpha-element.md), [Rotate](rotate.md), [Offset](offset.md), and
 [**Properties Element (Parent of Color)**](properties--parent-of-color.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the maximum rate at which a decoder can process data. The value of this property is the decoder''s maximum playback speed x 10000. For example, if the maximum forward speed is 2.0, the value of this property is 20000.'
-ms.assetid: '66e6885b-7ad7-4912-85e4-ea36855bfde6'
-title: 'AM\_RATE\_MaxFullDataRate Property'
+Description: Returns the maximum rate at which a decoder can process data. The value of this property is the decoders maximum playback speed x 10000. For example, if the maximum forward speed is 2.0, the value of this property is 20000.
+ms.assetid: 66e6885b-7ad7-4912-85e4-ea36855bfde6
+title: AM\_RATE\_MaxFullDataRate Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AM\_RATE\_MaxFullDataRate Property
@@ -22,7 +27,7 @@ This property is read-only.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -41,9 +46,9 @@ This property is read-only.
 [**Rate Change Property Set**](rate-change-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

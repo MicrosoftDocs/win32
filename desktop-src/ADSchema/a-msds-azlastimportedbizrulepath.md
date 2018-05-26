@@ -4,17 +4,22 @@ description: The last imported business rule path.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'be203f13-44ad-4da0-9889-80cf4a225a89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: be203f13-44ad-4da0-9889-80cf4a225a89
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Az-Last-Imported-Biz-Rule-Path attribute AD Schema", "msDS-AzLastImportedBizRulePath attribute AD Schema"]
+keywords:
+- ms-DS-Az-Last-Imported-Biz-Rule-Path attribute AD Schema
+- msDS-AzLastImportedBizRulePath attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Az-Last-Imported-Biz-Rule-Path
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Az-Last-Imported-Biz-Rule-Path attribute
@@ -38,11 +43,11 @@ The last imported business rule path.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The last imported business rule path.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

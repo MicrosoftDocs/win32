@@ -4,17 +4,22 @@ description: The list of character sets supported by the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ab1058ad-22e3-4b49-bc19-0bd633679f1c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ab1058ad-22e3-4b49-bc19-0bd633679f1c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["rpc-Ns-Codeset attribute AD Schema", "rpcNsCodeset attribute AD Schema"]
+keywords:
+- rpc-Ns-Codeset attribute AD Schema
+- rpcNsCodeset attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - rpc-Ns-Codeset
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # rpc-Ns-Codeset attribute
@@ -38,12 +43,12 @@ The list of character sets supported by the server.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The list of character sets supported by the server.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

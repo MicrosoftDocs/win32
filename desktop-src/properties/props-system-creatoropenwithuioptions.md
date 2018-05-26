@@ -1,7 +1,12 @@
 ---
-Description: 'Provides options that influence the behavior of UI controls that launch the file with the app specified in System.CreatorAppId.'
-ms.assetid: '30351257-fa39-433d-9823-8be971d79071'
-title: 'System.CreatorOpenWithUIOptions'
+Description: Provides options that influence the behavior of UI controls that launch the file with the app specified in System.CreatorAppId.
+ms.assetid: 30351257-fa39-433d-9823-8be971d79071
+title: System.CreatorOpenWithUIOptions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.CreatorOpenWithUIOptions

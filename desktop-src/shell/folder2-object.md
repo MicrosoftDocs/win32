@@ -1,6 +1,11 @@
-﻿---
-Description: 'Extends the Folder object to support offline folders.'
+---
+Description: Extends the Folder object to support offline folders.
 title: Folder2 object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder2 object

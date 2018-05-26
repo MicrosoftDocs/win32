@@ -1,8 +1,11 @@
 ---
 title: IPropertyContainer SetPropSz method
 description: Sets the property value for a specified property ID.
-ms.assetid: '559226d3-051a-4ef0-9dbb-c5a85633456d'
-keywords: ["SetPropSz method Windows Mail (formerly Outlook Express)", "SetPropSz method Windows Mail (formerly Outlook Express) , IPropertyContainer interface", "IPropertyContainer interface Windows Mail (formerly Outlook Express) , SetPropSz method"]
+ms.assetid: 559226d3-051a-4ef0-9dbb-c5a85633456d
+keywords:
+- SetPropSz method Windows Mail (formerly Outlook Express)
+- SetPropSz method Windows Mail (formerly Outlook Express) , IPropertyContainer interface
+- IPropertyContainer interface Windows Mail (formerly Outlook Express) , SetPropSz method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyContainer::SetPropSz method
@@ -24,8 +32,8 @@ Sets the property value for a specified property ID.
 
 ```C++
 HRESULT SetPropSz(
-  [in] DWORD dwPropTag,
-  [in] LPSTR psz
+  [in] DWORD dwPropTag,
+  [in] LPSTR psz
 );
 ```
 
@@ -72,7 +80,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,8 +94,8 @@ The [**IPropertyContainer::SetPropDw**](oe-ipropertycontainer-setpropdw.md) and 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -95,9 +103,9 @@ The [**IPropertyContainer::SetPropDw**](oe-ipropertycontainer-setpropdw.md) and 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

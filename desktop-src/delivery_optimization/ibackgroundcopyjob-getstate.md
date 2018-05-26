@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetState method
 description: Retrieves the state of the job.
-ms.assetid: '975AF0FB-37AE-4CE8-9EC1-35A972E422D8'
-keywords: ["GetState method", "GetState method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetState method"]
+ms.assetid: 975AF0FB-37AE-4CE8-9EC1-35A972E422D8
+keywords:
+- GetState method
+- GetState method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetState method
@@ -22,7 +30,7 @@ Retrieves the state of the job.
 
 ```C++
 HRESULT GetState(
-  [out] BG_JOB_STATE *pJobState
+  [out] BG_JOB_STATE *pJobState
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +71,7 @@ If you want to know when a job is in error or has transferred all the files in t
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -86,9 +94,9 @@ If you want to know when a job is in error or has transferred all the files in t
 [**IBackgroundCopyCallback**](ibackgroundcopycallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

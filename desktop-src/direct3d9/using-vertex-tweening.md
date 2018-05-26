@@ -1,12 +1,17 @@
 ---
-Description: 'To determine if Direct3D supports vertex tweening, check for the D3DVTXPCAPS\_TWEENING flag in the VertexProcessingCaps member of the D3DCAPS9 structure.'
-ms.assetid: 'b60c7f96-3752-4703-9059-486d9906c508'
-title: 'Using Vertex Tweening (Direct3D 9)'
+Description: To determine if Direct3D supports vertex tweening, check for the D3DVTXPCAPS\_TWEENING flag in the VertexProcessingCaps member of the D3DCAPS9 structure.
+ms.assetid: b60c7f96-3752-4703-9059-486d9906c508
+title: Using Vertex Tweening (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Vertex Tweening (Direct3D 9)
 
-To determine if Direct3D supports vertex tweening, check for the D3DVTXPCAPS\_TWEENING flag in the VertexProcessingCaps member of the [**D3DCAPS9**](d3dcaps9.md) structure. The following code example uses the [**IDirect3DDevice9::GetDeviceCaps**](idirect3ddevice9--getdevicecaps.md) method to determine if tweening is supported.
+To determine if Direct3D supports vertex tweening, check for the D3DVTXPCAPS\_TWEENING flag in the VertexProcessingCaps member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure. The following code example uses the [**IDirect3DDevice9::GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps?branch=master) method to determine if tweening is supported.
 
 
 ```

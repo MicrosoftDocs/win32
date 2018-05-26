@@ -1,7 +1,12 @@
 ---
-Description: 'Merge Modules provide a standard method for you to deliver shared Windows Installer components, and setup logic to applications.'
-ms.assetid: '63ced106-12e3-4483-8bfe-22c54fe7a204'
+Description: Merge Modules provide a standard method for you to deliver shared Windows Installer components, and setup logic to applications.
+ms.assetid: 63ced106-12e3-4483-8bfe-22c54fe7a204
 title: Using Automation to Merge a Merge Module into a Database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Automation to Merge a Merge Module into a Database
@@ -37,7 +42,7 @@ The following procedure shows you how to merge a merge module into a Windows Ins
     The [**Merge**](merge-object.md) method or [**MergeEx**](merge-mergeex.md) method can only be called one time to merge a specific combination of [.msi](windows-installer-file-extensions.md) and .msm files.
 
     > [!Note]  
-    > The [**MergeEx**](merge-mergeex.md) method is only available in [Mergemod.dll version 2.0](merge-module-automation.md) or later, and only when using the [**IMsmMerge2**](imsmmerge2-interface.md) interface.
+    > The [**MergeEx**](merge-mergeex.md) method is only available in [Mergemod.dll version 2.0](merge-module-automation.md) or later, and only when using the [**IMsmMerge2**](/windows/win32/Mergemod/nn-mergemod-imsmmerge2?branch=master) interface.
 
      
 

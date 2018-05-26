@@ -1,7 +1,12 @@
 ---
-Description: 'Each thread has a dynamic priority.'
-ms.assetid: 'bcc6cec7-2d85-4810-98d0-7d99486f4924'
+Description: Each thread has a dynamic priority.
+ms.assetid: bcc6cec7-2d85-4810-98d0-7d99486f4924
 title: Priority Boosts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Priority Boosts
@@ -14,7 +19,7 @@ The system boosts the dynamic priority of a thread to enhance its responsiveness
 -   When a window receives input, such as timer messages, mouse messages, or keyboard input, the scheduler boosts the priority of the thread that owns the window.
 -   When the wait conditions for a blocked thread are satisfied, the scheduler boosts the priority of the thread. For example, when a wait operation associated with disk or keyboard I/O finishes, the thread receives a priority boost.
 
-    You can disable the priority-boosting feature by calling the [**SetProcessPriorityBoost**](setprocesspriorityboost.md) or [**SetThreadPriorityBoost**](setthreadpriorityboost.md) function. To determine whether this feature has been disabled, call the [**GetProcessPriorityBoost**](getprocesspriorityboost.md) or [**GetThreadPriorityBoost**](getthreadpriorityboost.md) function.
+    You can disable the priority-boosting feature by calling the [**SetProcessPriorityBoost**](setprocesspriorityboost.md) or [**SetThreadPriorityBoost**](/windows/win32/WinBase/nf-processthreadsapi-setthreadpriorityboost?branch=master) function. To determine whether this feature has been disabled, call the [**GetProcessPriorityBoost**](getprocesspriorityboost.md) or [**GetThreadPriorityBoost**](/windows/win32/WinBase/nf-processthreadsapi-getthreadpriorityboost?branch=master) function.
 
 After raising a thread's dynamic priority, the scheduler reduces that priority by one level each time the thread completes a time slice, until the thread drops back to its base priority. A thread's dynamic priority is never less than its base priority.
 

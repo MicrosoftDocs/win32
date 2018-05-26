@@ -1,8 +1,19 @@
 ---
 title: ASF File Features
 description: ASF File Features
-ms.assetid: '6e180f27-69ef-4fe0-b06c-b2ead7be8a05'
-keywords: ["Windows Media Format SDK,ASF file features", "Windows Media Format SDK,features", "Advanced Systems Format (ASF),file features", "ASF (Advanced Systems Format),file features", "Advanced Systems Format (ASF),features", "ASF (Advanced Systems Format),features"]
+ms.assetid: 6e180f27-69ef-4fe0-b06c-b2ead7be8a05
+keywords:
+- Windows Media Format SDK,ASF file features
+- Windows Media Format SDK,features
+- Advanced Systems Format (ASF),file features
+- ASF (Advanced Systems Format),file features
+- Advanced Systems Format (ASF),features
+- ASF (Advanced Systems Format),features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF File Features

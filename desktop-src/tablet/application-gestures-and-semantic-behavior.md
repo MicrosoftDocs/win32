@@ -1,7 +1,12 @@
 ---
-Description: 'The application gestures are delivered as part of the Windows Vista SDK.'
-ms.assetid: 'eefe140d-8da6-4ba3-81c6-3cd0cf559605'
+Description: The application gestures are delivered as part of the Windows Vista SDK.
+ms.assetid: eefe140d-8da6-4ba3-81c6-3cd0cf559605
 title: Application Gestures and Semantic Behavior
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Gestures and Semantic Behavior
@@ -19,7 +24,7 @@ The following table lists application gestures supported by the Microsoft gestur
     > [!Note]  
     > Some of the gestures do have a distinguishing hot point that just happens to be the starting point. These are distinguished in the table.
 
-     
+     
 
 
 
@@ -70,12 +75,12 @@ The following table lists application gestures supported by the Microsoft gestur
 
 
 
- 
+ 
 
 > [!Note]  
 > Tap and double-tap are supported as application gestures in addition to being system gestures. This is to address scenarios where you may want to enable an application gesture that has a tap or double-tap as part of it. An example of such a gesture is the Exclamation gesture. In such a case, enable the tap application gesture and do not listen to the tap system gesture. This allows you to listen to a single component that can both identify and distinguish a tap from a tap within a gesture. The case of a tap within a gesture results in just the overall gesture being recognized.
 
- 
+ 
 
 ## Related topics
 
@@ -93,9 +98,9 @@ The following table lists application gestures supported by the Microsoft gestur
 [**Gesture Event \[InkPicture Control\]**](inkpicture-gesture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

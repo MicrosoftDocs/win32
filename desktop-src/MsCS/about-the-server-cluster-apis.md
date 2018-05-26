@@ -4,11 +4,15 @@ description: This section describes the architecture of failover clusters, and t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '093c8ef3-43e3-4d7b-9789-4958b4dbe041'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 093c8ef3-43e3-4d7b-9789-4958b4dbe041
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster APIs Failover Cluster ,about"]
+keywords:
+- Failover Cluster APIs Failover Cluster ,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About the Failover Cluster APIs

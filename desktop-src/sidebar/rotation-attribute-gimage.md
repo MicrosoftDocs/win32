@@ -1,8 +1,11 @@
 ---
 title: image.rotation property
 description: Gets or sets the degree of rotation applied to the g image element.
-ms.assetid: '16628f01-1c09-4f56-ae59-050c589a3c65'
-keywords: ["rotation property Windows Sidebar", "rotation property Windows Sidebar , image object", "image object Windows Sidebar , rotation property"]
+ms.assetid: 16628f01-1c09-4f56-ae59-050c589a3c65
+keywords:
+- rotation property Windows Sidebar
+- rotation property Windows Sidebar , image object
+- image object Windows Sidebar , rotation property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # image.rotation property
@@ -80,10 +88,10 @@ The following example demonstrates how to rotate the [**g:background**](backgrou
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>D2d1helper.h</dt> </dl>                        |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -106,9 +114,9 @@ The following example demonstrates how to rotate the [**g:background**](backgrou
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

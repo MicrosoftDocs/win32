@@ -1,12 +1,17 @@
 ---
-Description: 'An external UI handler can process the list of installer messages specified by the dwMessagedFilter parameter of the MsiSetExternalUI function.'
-ms.assetid: 'c4405803-9abd-40f4-9090-c075e7dcf293'
+Description: An external UI handler can process the list of installer messages specified by the dwMessagedFilter parameter of the MsiSetExternalUI function.
+ms.assetid: c4405803-9abd-40f4-9090-c075e7dcf293
 title: Parsing Windows Installer Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parsing Windows Installer Messages
 
-An external UI handler can process the list of installer messages specified by the *dwMessagedFilter* parameter of the [**MsiSetExternalUI**](msisetexternalui.md) function. Some of these messages contain strings that can be used directly, and other messages may need to be parsed and processed by the external UI handler to be useful. Your external UI handler may only need to monitor Windows Installer messages without performing any operation that affects the installation.
+An external UI handler can process the list of installer messages specified by the *dwMessagedFilter* parameter of the [**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master) function. Some of these messages contain strings that can be used directly, and other messages may need to be parsed and processed by the external UI handler to be useful. Your external UI handler may only need to monitor Windows Installer messages without performing any operation that affects the installation.
 
 The following Windows Installer messages contain strings that can be displayed by a dialog box and need no additional processing. These messages contain a list of buttons and icons that are to be displayed by a dialog box. You can use the **MB\_ICONMASK**, **MB\_DEFMASK**, and **MB\_TYPEMASK** values to specify icons and buttons.
 
@@ -107,14 +112,14 @@ The external UI should display a [MsiRMFilesInUse dialog](msirmfilesinuse-dialog
 <span id="INSTALLMESSAGE_ACTIONSTART"></span><span id="installmessage_actionstart"></span>**INSTALLMESSAGE\_ACTIONSTART**
 </dt> <dd>
 
-This message gives information about the current action. The format is Action \[1\]: \[2\]. \[3\], where a colon is used to separate Field 1 and Field 2 and a period is used to separate Field 2 and Field 3. Field \[1\] contains the time the action was started using the [**Time**](time.md) property format. Field \[2\] contains the action's name from the sequence table. Field \[3\] gives the action's description from the [ActionText table](actiontext-table.md) or from the [**MsiProcessMessage**](msiprocessmessage.md) function.
+This message gives information about the current action. The format is Action \[1\]: \[2\]. \[3\], where a colon is used to separate Field 1 and Field 2 and a period is used to separate Field 2 and Field 3. Field \[1\] contains the time the action was started using the [**Time**](time.md) property format. Field \[2\] contains the action's name from the sequence table. Field \[3\] gives the action's description from the [ActionText table](actiontext-table.md) or from the [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) function.
 
 </dd> <dt>
 
 <span id="INSTALLMESSAGE_ACTIONDATA"></span><span id="installmessage_actiondata"></span>**INSTALLMESSAGE\_ACTIONDATA**
 </dt> <dd>
 
-The format of this string is specified by the [Template](template.md) value provided in the [ActionText table](actiontext-table.md) or by the [**MsiProcessMessage**](msiprocessmessage.md) function. There can be an unlimited number of **INSTALLMESSAGE\_ACTIONDATA** messages after the **INSTALLMESSAGE\_ACTIONSTART** message.
+The format of this string is specified by the [Template](template.md) value provided in the [ActionText table](actiontext-table.md) or by the [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) function. There can be an unlimited number of **INSTALLMESSAGE\_ACTIONDATA** messages after the **INSTALLMESSAGE\_ACTIONSTART** message.
 
 </dd> <dt>
 

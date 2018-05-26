@@ -1,7 +1,12 @@
 ---
-Description: 'There are two phases to a successful installation process: acquisition and execution. If the installation is unsuccessful, a rollback phase may occur.'
-ms.assetid: 'e9cda321-6978-4f9f-aff4-ccf609c88667'
+Description: There are two phases to a successful installation process acquisition and execution. If the installation is unsuccessful, a rollback phase may occur.
+ms.assetid: e9cda321-6978-4f9f-aff4-ccf609c88667
 title: Installation Mechanism
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation Mechanism

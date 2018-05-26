@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the transition style between values of a mesh animation.'
-ms.assetid: '4416ef28-ba6b-47ca-be7d-831daad619e5'
-title: 'D3DXTRANSITION\_TYPE enumeration'
+---
+Description: Defines the transition style between values of a mesh animation.
+ms.assetid: 4416ef28-ba6b-47ca-be7d-831daad619e5
+title: D3DXTRANSITION\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXTRANSITION\_TYPE enumeration

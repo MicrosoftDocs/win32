@@ -1,7 +1,12 @@
-﻿---
-Description: 'The \_CPSUICALLBACK function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a CPSUI message handler.'
-ms.assetid: '7d0f1609-5a24-4d38-9e9e-0c8e2de679a2'
+---
+Description: The \_CPSUICALLBACK function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a CPSUI message handler.
+ms.assetid: 7d0f1609-5a24-4d38-9e9e-0c8e2de679a2
 title: '\_CPSUICALLBACK callback function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_CPSUICALLBACK callback function

@@ -1,7 +1,12 @@
 ---
 title: Extensions to SQL for Indexing Service
 description: Extensions to SQL for Indexing Service
-ms.assetid: 'dae72fc7-e034-4814-babe-ff9570ee8208'
+ms.assetid: dae72fc7-e034-4814-babe-ff9570ee8208
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensions to SQL for Indexing Service

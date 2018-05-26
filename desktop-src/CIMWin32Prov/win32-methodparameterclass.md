@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_MethodParameterClass abstract, base WMI class derives any class defined as a container of parameter values that will be passed to a method.'
+Description: The Win32\_MethodParameterClass abstract, base WMI class derives any class defined as a container of parameter values that will be passed to a method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '293fa378-432d-4e97-a8ab-8dc4917d5476'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 293fa378-432d-4e97-a8ab-8dc4917d5476
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_MethodParameterClass class'
+title: Win32\_MethodParameterClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_MethodParameterClass class
@@ -28,8 +31,8 @@ The **Win32\_MethodParameterClass** class does not define any members.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -43,9 +46,9 @@ The **Win32\_MethodParameterClass** class does not define any members.
 [WMI Service Management Classes](https://msdn.microsoft.com/library/dn792273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

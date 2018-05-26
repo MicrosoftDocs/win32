@@ -1,8 +1,9 @@
 ---
 title: KeyUp Event of the AxWindowsMediaPlayer Object
 description: The KeyUp event occurs when a key is released.
-ms.assetid: 'db814481-6099-4dbd-8ab1-808e1875ae35'
-keywords: ["KeyUp Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: db814481-6099-4dbd-8ab1-808e1875ae35
+keywords:
+- KeyUp Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUp Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Key
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,9 +71,9 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Key
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

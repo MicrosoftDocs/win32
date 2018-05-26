@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the user''s display name.'
-title: 'DIDiskQuotaUser.DisplayName property'
+---
+Description: Gets the users display name.
+title: DIDiskQuotaUser.DisplayName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.DisplayName property

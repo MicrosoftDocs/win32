@@ -1,16 +1,21 @@
 ---
 title: File Monikers
 description: File Monikers
-ms.assetid: '923f798d-d789-4e6d-b27e-dd5a72f92abf'
+ms.assetid: 923f798d-d789-4e6d-b27e-dd5a72f92abf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Monikers
 
-*File monikers* are the simplest moniker class. File monikers can be used to identify any object that is stored in its own file. A file moniker acts as a wrapper for the path name the native file system assigns to the file. Calling [**IMoniker::BindToObject**](imoniker-bindtoobject.md) for this moniker would cause this object to be activated and then would return an interface pointer to the object. The source of the object named by the moniker must provide an implementation of the [**IPersistFile**](ipersistfile.md) interface to support binding a file moniker. File monikers can represent either a complete or a relative path.
+*File monikers* are the simplest moniker class. File monikers can be used to identify any object that is stored in its own file. A file moniker acts as a wrapper for the path name the native file system assigns to the file. Calling [**IMoniker::BindToObject**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtoobject?branch=master) for this moniker would cause this object to be activated and then would return an interface pointer to the object. The source of the object named by the moniker must provide an implementation of the [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master) interface to support binding a file moniker. File monikers can represent either a complete or a relative path.
 
-For example, the file moniker for a spreadsheet object stored as the file C:\\Work\\MySheet.xls would contain information equivalent to that path name. The moniker would not necessarily consist of the same string, however. The string is just its *displayÂ name*, a representation of the moniker's contents that is meaningful to an end user. The display name, which is available through the [**IMoniker::GetDisplayName**](imoniker-getdisplayname.md) method, is used only when displaying a moniker to an end user. This method gets the display name for any of the moniker classes. Internally, the moniker may store the same information in a format that is more efficient for performing moniker operations but isn't meaningful to users. Then, when this same object is bound through a call to the [**BindToObject**](imoniker-bindtoobject.md) method, the object would be activated, probably by loading the file into the spreadsheet.
+For example, the file moniker for a spreadsheet object stored as the file C:\\Work\\MySheet.xls would contain information equivalent to that path name. The moniker would not necessarily consist of the same string, however. The string is just its *displayÂ name*, a representation of the moniker's contents that is meaningful to an end user. The display name, which is available through the [**IMoniker::GetDisplayName**](/windows/win32/ObjIdl/nf-objidl-imoniker-getdisplayname?branch=master) method, is used only when displaying a moniker to an end user. This method gets the display name for any of the moniker classes. Internally, the moniker may store the same information in a format that is more efficient for performing moniker operations but isn't meaningful to users. Then, when this same object is bound through a call to the [**BindToObject**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtoobject?branch=master) method, the object would be activated, probably by loading the file into the spreadsheet.
 
-OLE offers moniker providers the helper function [**CreateFileMoniker**](createfilemoniker.md) that creates a file moniker object and returns its pointer to the provider.
+OLE offers moniker providers the helper function [**CreateFileMoniker**](/windows/win32/Objbase/nf-objbase-createfilemoniker?branch=master) that creates a file moniker object and returns its pointer to the provider.
 
 ## Related topics
 

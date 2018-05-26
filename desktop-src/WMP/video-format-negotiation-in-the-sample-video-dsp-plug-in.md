@@ -1,8 +1,18 @@
 ---
 title: Video Format Negotiation in the Sample Video DSP Plug-in
 description: Video Format Negotiation in the Sample Video DSP Plug-in
-ms.assetid: '3e92ce10-2b9b-4689-a181-f56c33472fea'
-keywords: ["Windows Media Player plug-ins,video DSP", "plug-ins,video DSP", "digital signal processing plug-ins,video format negotiation", "DSP plug-ins,video format negotiation", "video DSP plug-ins,format negotiation"]
+ms.assetid: 3e92ce10-2b9b-4689-a181-f56c33472fea
+keywords:
+- Windows Media Player plug-ins,video DSP
+- plug-ins,video DSP
+- digital signal processing plug-ins,video format negotiation
+- DSP plug-ins,video format negotiation
+- video DSP plug-ins,format negotiation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Format Negotiation in the Sample Video DSP Plug-in

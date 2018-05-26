@@ -1,13 +1,19 @@
 ---
 title: How to get the last set of HTTP headers received for each file in a BITS download job
-description: This sample shows how to use the new IBackgroundCopyJob5 interface's GetProperty method to obtain the last set HTTP headers received for each file in a Background Intelligent Transfer Service (BITS) download job.
-ms.assetid: '38808AB2-0D7A-46C6-A666-F3E0DB8A3009'
-keywords: ["downloading BITS , HTTP header"]
+description: This sample shows how to use the new IBackgroundCopyJob5 interfaces GetProperty method to obtain the last set HTTP headers received for each file in a Background Intelligent Transfer Service (BITS) download job.
+ms.assetid: 38808AB2-0D7A-46C6-A666-F3E0DB8A3009
+keywords:
+- downloading BITS , HTTP header
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to get the last set of HTTP headers received for each file in a BITS download job
 
-This sample shows how to use the new [**IBackgroundCopyJob5**](bits5-functions.md) interface's [**GetProperty**](ibackgroundcopyjob5-getproperty.md) method to obtain the last set HTTP headers received for each file in a Background Intelligent Transfer Service (BITS) download job. The information in the HTTP header could be used, for example, to determine the file type or when it last changed on the server. Prior to Windows 8 and Windows Server 2012, BITS did not provide a means by which the application could retrieve and inspect the HTTP response headers of a completed download. This sample shows how to use the BITS API to create a BITS job with multiple URLs to download, list the URLs in a job, and retrieve the HTTP response headers for each URL.
+This sample shows how to use the new [**IBackgroundCopyJob5**](/windows/win32/Bits5_0/nn-bits5_0-ibackgroundcopyjob5?branch=master) interface's [**GetProperty**](/windows/win32/Bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty?branch=master) method to obtain the last set HTTP headers received for each file in a Background Intelligent Transfer Service (BITS) download job. The information in the HTTP header could be used, for example, to determine the file type or when it last changed on the server. Prior to Windows 8 and Windows Server 2012, BITS did not provide a means by which the application could retrieve and inspect the HTTP response headers of a completed download. This sample shows how to use the BITS API to create a BITS job with multiple URLs to download, list the URLs in a job, and retrieve the HTTP response headers for each URL.
 
 ## What you need to know
 
@@ -32,7 +38,7 @@ Insert the following header directives at the top of the source file.
 
 ### Step 2: Initialize COM and instantiate a BITS Background Copy Manager object interface
 
-Before instantiating the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface (used to create a BITS job), you must initialize COM and set the desired COM threading model.
+Before instantiating the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface (used to create a BITS job), you must initialize COM and set the desired COM threading model.
 
 
 ```C++
@@ -108,7 +114,7 @@ for (int i=0; i < ARRAY_LENGTH(FileList); ++i)
 
 ### Step 5: Start the BITS job
 
-After setting up the BITS job, call the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface's [**Resume**](ibackgroundcopyjob-resume.md) function to start or continue the download.
+After setting up the BITS job, call the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface's [**Resume**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-resume?branch=master) function to start or continue the download.
 
 
 ```C++
@@ -120,7 +126,7 @@ hr = pBackgroundJob->Resume();
 
 ### Step 6: Monitor and display the BITS job's progress
 
-The `MonitorJobProgress` helper function takes an [**IBackgroundCopyJob**](ibackgroundcopyjob.md) object as its only parameter and polls the job for a status every 500 milliseconds. This function does not return until the job has completed or been canceled.
+The `MonitorJobProgress` helper function takes an [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) object as its only parameter and polls the job for a status every 500 milliseconds. This function does not return until the job has completed or been canceled.
 
 
 ```C++
@@ -224,7 +230,7 @@ VOID DisplayProgress(__in IBackgroundCopyJob *Job)
 
 ### Step 7: Display the downloaded file headers
 
-The `DisplayFileHeaders` helper function enumerates the jobs defined for an [**IBackgroundCopyJob**](ibackgroundcopyjob.md) object.
+The `DisplayFileHeaders` helper function enumerates the jobs defined for an [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) object.
 
 
 ```C++

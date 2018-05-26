@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics contain sample certificate requests.'
-ms.assetid: '53d25d53-2f4f-47e1-ad66-4e3ab6d06f24'
+Description: The following topics contain sample certificate requests.
+ms.assetid: 53d25d53-2f4f-47e1-ad66-4e3ab6d06f24
 title: Sample Requests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Requests

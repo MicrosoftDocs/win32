@@ -1,14 +1,19 @@
 ---
-Description: 'Explains how to validate Schannel credentials manually.'
-ms.assetid: '0229486a-5812-4a7e-98ad-446292997ee3'
+Description: Explains how to validate Schannel credentials manually.
+ms.assetid: 0229486a-5812-4a7e-98ad-446292997ee3
 title: Manually Validating Schannel Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manually Validating Schannel Credentials
 
 By default, Schannel validates the [*server certificate*](security.s_gly#-security-server-certificate-gly) by calling the [**WinVerifyTrust**](security.winverifytrust) function; however, if you have disabled this feature using the ISC\_REQ\_MANUAL\_CRED\_VALIDATION flag, you must validate the certificate provided by the server that is attempting to establish its identity.
 
-To manually validate the server certificate, you must first get it. Use the [**QueryContextAttributes (General)**](querycontextattributes--general-.md) function and specify the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT attribute value. This attribute returns a [**CERT\_CONTEXT**](security.cert_context) structure containing the certificate supplied by the server. This certificate is called the leaf certificate because it is the last certificate in the certificate chain and is farthest away from the [*root certificate*](security.r_gly#-security-root-certificate-gly).
+To manually validate the server certificate, you must first get it. Use the [**QueryContextAttributes (General)**](/windows/win32/Sspi/?branch=master) function and specify the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT attribute value. This attribute returns a [**CERT\_CONTEXT**](security.cert_context) structure containing the certificate supplied by the server. This certificate is called the leaf certificate because it is the last certificate in the certificate chain and is farthest away from the [*root certificate*](security.r_gly#-security-root-certificate-gly).
 
 Using the leaf certificate you must verify the following:
 

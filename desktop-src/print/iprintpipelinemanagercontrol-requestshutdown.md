@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RequestShutdown method requests that a pipeline be shut down.'
-ms.assetid: 'dfb0d7d1-4e82-4471-814b-4b8c4929c709'
-title: 'IPrintPipelineManagerControl::RequestShutdown method'
+---
+Description: The RequestShutdown method requests that a pipeline be shut down.
+ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
+title: IPrintPipelineManagerControlRequestShutdown method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineManagerControl::RequestShutdown method

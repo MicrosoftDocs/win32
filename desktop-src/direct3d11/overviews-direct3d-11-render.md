@@ -1,7 +1,12 @@
 ---
 title: Rendering
 description: This section contains information about several Direct3D 11 rendering technologies.
-ms.assetid: '43772cb4-731f-4f0f-b549-cd1660aece03'
+ms.assetid: 43772cb4-731f-4f0f-b549-cd1660aece03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering
@@ -19,7 +24,7 @@ This section contains information about several Direct3D 11 rendering technologi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ This section contains information about several Direct3D 11 rendering technologi
 [Programming Guide for Direct3D 11](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

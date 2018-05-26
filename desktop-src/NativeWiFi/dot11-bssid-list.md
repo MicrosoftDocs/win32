@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a list of basic service set (BSS) identifiers.'
-ms.assetid: '22907f94-1ae8-4938-a816-b406656256c0'
-title: 'DOT11\_BSSID\_LIST structure'
+---
+Description: Contains a list of basic service set (BSS) identifiers.
+ms.assetid: 22907f94-1ae8-4938-a816-b406656256c0
+title: DOT11\_BSSID\_LIST structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT11\_BSSID\_LIST structure
@@ -71,7 +76,7 @@ A list of BSS identifiers. A BSS identifier is stored as a [**DOT11\_MAC\_ADDRES
 
 <dl> <dt>
 
-[**WLAN\_CONNECTION\_PARAMETERS**](wlan-connection-parameters.md)
+[**WLAN\_CONNECTION\_PARAMETERS**](/windows/win32/wlanapi/ns-wlanapi-_wlan_connection_parameters?branch=master)
 </dt> </dl>
 
  

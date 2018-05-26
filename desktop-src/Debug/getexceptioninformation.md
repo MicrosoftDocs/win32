@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a computer-independent description of an exception, and information about the computer state that exists for the thread when the exception occurs. This function can be called only from within the filter expression of an exception handler.'
-ms.assetid: 'e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae'
+---
+Description: Retrieves a computer-independent description of an exception, and information about the computer state that exists for the thread when the exception occurs. This function can be called only from within the filter expression of an exception handler.
+ms.assetid: e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae
 title: GetExceptionInformation macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetExceptionInformation macro
@@ -28,10 +33,10 @@ This macro has no parameters.
 
 ## Return value
 
-A pointer to an [**EXCEPTION\_POINTERS**](exception-pointers-str.md) structure that contains pointers to the following two structures:
+A pointer to an [**EXCEPTION\_POINTERS**](/windows/win32/WinNT/ns-winnt-_exception_pointers?branch=master) structure that contains pointers to the following two structures:
 
--   [**EXCEPTION\_RECORD**](exception-record-str.md) structure that contains a description of the exception.
--   [**CONTEXT**](context-str.md) structure that contains the computer state information.
+-   [**EXCEPTION\_RECORD**](/windows/win32/WinNT/ns-winnt-_exception_record?branch=master) structure that contains a description of the exception.
+-   [**CONTEXT**](/windows/win32/WinNT/ns-winnt-_arm64_nt_context?branch=master) structure that contains the computer state information.
 
 ## Remarks
 
@@ -39,7 +44,7 @@ The filter expression (from which the function is called) is evaluated if an exc
 
 The filter expression can invoke a filter function. The filter function cannot call **GetExceptionInformation**. However, the return value of **GetExceptionInformation** can be passed as a parameter to a filter function.
 
-To pass the [**EXCEPTION\_POINTERS**](exception-pointers-str.md) information to the exception-handler block, the filter expression or filter function must copy the pointer or the data to safe storage that the handler can later access.
+To pass the [**EXCEPTION\_POINTERS**](/windows/win32/WinNT/ns-winnt-_exception_pointers?branch=master) information to the exception-handler block, the filter expression or filter function must copy the pointer or the data to safe storage that the handler can later access.
 
 In the case of nested handlers, each filter expression is evaluated until one is evaluated as **EXCEPTION\_EXECUTE\_HANDLER** or **EXCEPTION\_CONTINUE\_EXECUTION**. Each filter expression can invoke **GetExceptionInformation** to get exception information.
 
@@ -58,19 +63,19 @@ In the case of nested handlers, each filter expression is evaluated until one is
 
 <dl> <dt>
 
-[**CONTEXT**](context-str.md)
+[**CONTEXT**](/windows/win32/WinNT/ns-winnt-_arm64_nt_context?branch=master)
 </dt> <dt>
 
-[**EXCEPTION\_POINTERS**](exception-pointers-str.md)
+[**EXCEPTION\_POINTERS**](/windows/win32/WinNT/ns-winnt-_exception_pointers?branch=master)
 </dt> <dt>
 
-[**EXCEPTION\_RECORD**](exception-record-str.md)
+[**EXCEPTION\_RECORD**](/windows/win32/WinNT/ns-winnt-_exception_record?branch=master)
 </dt> <dt>
 
 [**GetExceptionCode**](getexceptioncode.md)
 </dt> <dt>
 
-[**GetXStateFeaturesMask**](getxstatefeaturesmask.md)
+[**GetXStateFeaturesMask**](/windows/win32/WinBase/nf-winbase-getxstatefeaturesmask?branch=master)
 </dt> <dt>
 
 [Structured Exception Handling Functions](structured-exception-handling-functions.md)

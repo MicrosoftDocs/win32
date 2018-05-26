@@ -1,8 +1,9 @@
 ---
 title: glColorMask function
 description: The glColorMask function enables and disables writing of frame-buffer color components.
-ms.assetid: '23d7f94e-f290-423c-a841-f86caf94009d'
-keywords: ["glColorMask function OpenGL"]
+ms.assetid: 23d7f94e-f290-423c-a841-f86caf94009d
+keywords:
+- glColorMask function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColorMask function
@@ -22,10 +28,10 @@ The **glColorMask** function enables and disables writing of frame-buffer color 
 
 ```C++
 void WINAPI glColorMask(
-   GLboolean red,
-   GLboolean green,
-   GLboolean blue,
-   GLboolean alpha
+   GLboolean red,
+   GLboolean green,
+   GLboolean blue,
+   GLboolean alpha
 );
 ```
 
@@ -109,8 +115,8 @@ The following functions retrieve information related to **glColorMask**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -145,9 +151,9 @@ The following functions retrieve information related to **glColorMask**:
 [**glStencilMask**](glstencilmask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

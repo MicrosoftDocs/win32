@@ -1,8 +1,20 @@
 ---
 title: Using the Audio Compression Manager
 description: Using the Audio Compression Manager
-ms.assetid: '7aee993d-aebd-42f2-8885-42719b9f75a4'
-keywords: ["Windows multimedia,audio compression manager (ACM)", "multimedia,audio compression manager (ACM)", "multimedia audio,audio compression manager (ACM)", "audio,audio compression manager (ACM)", "audio compression manager (ACM),examples", "ACM (audio compression manager),examples", "ACM examples,about"]
+ms.assetid: 7aee993d-aebd-42f2-8885-42719b9f75a4
+keywords:
+- Windows multimedia,audio compression manager (ACM)
+- multimedia,audio compression manager (ACM)
+- multimedia audio,audio compression manager (ACM)
+- audio,audio compression manager (ACM)
+- audio compression manager (ACM),examples
+- ACM (audio compression manager),examples
+- ACM examples,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Audio Compression Manager

@@ -1,8 +1,9 @@
 ---
 title: D3DGetTraceInstructionOffsets function
 description: Retrieves the byte offsets for instructions within a section of shader code.
-ms.assetid: '9E27C70C-C266-48A6-81C7-E9A5E430B48B'
-keywords: ["D3DGetTraceInstructionOffsets function HLSL"]
+ms.assetid: 9E27C70C-C266-48A6-81C7-E9A5E430B48B
+keywords:
+- D3DGetTraceInstructionOffsets function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGetTraceInstructionOffsets function
@@ -21,13 +27,13 @@ Retrieves the byte offsets for instructions within a section of shader code.
 
 ``` syntax
 HRESULT WINAPI D3DGetTraceInstructionOffsets(
-  in      LPCVOID pSrcData,
-  in      SIZE_T SrcDataSize,
-  in      UINT Flags,
-  in      SIZE_T StartInstIndex,
-  in      SIZE_T NumInsts,
-  out_opt SIZE_T pOffsets,
-  out_opt SIZE_T pTotalInsts
+  in      LPCVOID pSrcData,
+  in      SIZE_T SrcDataSize,
+  in      UINT Flags,
+  in      SIZE_T StartInstIndex,
+  in      SIZE_T NumInsts,
+  out_opt SIZE_T pOffsets,
+  out_opt SIZE_T pTotalInsts
 );
 ```
 
@@ -62,7 +68,7 @@ A combination of the following flags that are combined by using a bitwise **OR**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -105,7 +111,7 @@ A new kind of Microsoft High Level Shader Language (HLSL) debugging information 
 > [!Note]  
 > The D3dcompiler\_44.dll or later version of the file contains the **D3DGetTraceInstructionOffsets** compiler function.
 
- 
+ 
 
 ## Requirements
 
@@ -126,9 +132,9 @@ A new kind of Microsoft High Level Shader Language (HLSL) debugging information 
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

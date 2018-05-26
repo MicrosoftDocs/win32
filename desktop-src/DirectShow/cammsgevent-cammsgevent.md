@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '7871a624-70c0-4f21-b62a-2c4c2eaa762b'
-title: 'CAMMsgEvent.CAMMsgEvent constructor'
+Description: Constructor method.
+ms.assetid: 7871a624-70c0-4f21-b62a-2c4c2eaa762b
+title: CAMMsgEvent.CAMMsgEvent constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMMsgEvent.CAMMsgEvent constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CAMMsgEvent(
-   HRESULT *phr
+   HRESULT *phr
 );
 ```
 
@@ -50,9 +55,9 @@ For backward compatibility with earlier versions of strmbase.lib, this parameter
 [**CAMMsgEvent Class**](cammsgevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

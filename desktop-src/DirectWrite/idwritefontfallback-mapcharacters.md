@@ -1,8 +1,11 @@
 ---
 title: IDWriteFontFallback MapCharacters method
 description: Determines an appropriate font to use to render the beginning range of text.
-ms.assetid: '9D3DBBF7-72D4-473D-A321-E64BC94493D5'
-keywords: ["MapCharacters method Direct Write", "MapCharacters method Direct Write , IDWriteFontFallback interface", "IDWriteFontFallback interface Direct Write , MapCharacters method"]
+ms.assetid: 9D3DBBF7-72D4-473D-A321-E64BC94493D5
+keywords:
+- MapCharacters method Direct Write
+- MapCharacters method Direct Write , IDWriteFontFallback interface
+- IDWriteFontFallback interface Direct Write , MapCharacters method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFontFallback::MapCharacters method
@@ -22,17 +30,17 @@ Determines an appropriate font to use to render the beginning range of text.
 
 ```C++
 HRESULT MapCharacters(
-                       IDWriteTextAnalysisSource *source,
-                       UINT32                    textPosition,
-                       UINT32                    textLength,
-  [in, optional]       IDWriteFontCollection     *baseFontCollection,
-  [in, optional] const wchar_t                   *baseFamilyName,
-                       DWRITE_FONT_WEIGHT        baseWeight,
-                       DWRITE_FONT_STYLE         baseStyle,
-                       DWRITE_FONT_STRETCH       baseStretch,
-  [out]                UINT32                    *mappedLength,
-  [out]                IDWriteFont               **mappedFont,
-  [out]                FLOAT                     *scale
+                       IDWriteTextAnalysisSource *source,
+                       UINT32                    textPosition,
+                       UINT32                    textLength,
+  [in, optional]       IDWriteFontCollection     *baseFontCollection,
+  [in, optional] const wchar_t                   *baseFamilyName,
+                       DWRITE_FONT_WEIGHT        baseWeight,
+                       DWRITE_FONT_STYLE         baseStyle,
+                       DWRITE_FONT_STRETCH       baseStretch,
+  [out]                UINT32                    *mappedLength,
+  [out]                IDWriteFont               **mappedFont,
+  [out]                FLOAT                     *scale
 );
 ```
 
@@ -45,7 +53,7 @@ HRESULT MapCharacters(
 *source* 
 </dt> <dd>
 
-Type: **[**IDWriteTextAnalysisSource**](idwritetextanalysissource.md)\***
+Type: **[**IDWriteTextAnalysisSource**](/windows/win32/dwrite/?branch=master)\***
 
 The text source implementation holds the text and locale.
 
@@ -72,7 +80,7 @@ Length of the text to analyze.
 *baseFontCollection* \[in, optional\]
 </dt> <dd>
 
-Type: **[**IDWriteFontCollection**](idwritefontcollection.md)\***
+Type: **[**IDWriteFontCollection**](/windows/win32/dwrite/?branch=master)\***
 
 Default font collection to use.
 
@@ -90,7 +98,7 @@ Family name of the base font. If you pass null, no matching will be done against
 *baseWeight* 
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_WEIGHT**](dwrite-font-weight.md)**
+Type: **[**DWRITE\_FONT\_WEIGHT**](/windows/win32/dwrite/ne-dwrite-dwrite_font_weight?branch=master)**
 
 The desired weight.
 
@@ -99,7 +107,7 @@ The desired weight.
 *baseStyle* 
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_STYLE**](dwrite-font-style.md)**
+Type: **[**DWRITE\_FONT\_STYLE**](/windows/win32/dwrite/ne-dwrite-dwrite_font_style?branch=master)**
 
 The desired style.
 
@@ -108,7 +116,7 @@ The desired style.
 *baseStretch* 
 </dt> <dd>
 
-Type: **[**DWRITE\_FONT\_STRETCH**](dwrite-font-stretch.md)**
+Type: **[**DWRITE\_FONT\_STRETCH**](/windows/win32/dwrite/ne-dwrite-dwrite_font_stretch?branch=master)**
 
 The desired stretch.
 
@@ -126,7 +134,7 @@ Length of text mapped to the mapped font. This will always be less than or equal
 *mappedFont* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteFont**](idwritefont.md)\*\***
+Type: **[**IDWriteFont**](/windows/win32/dwrite/?branch=master)\*\***
 
 The font that should be used to render the first *mappedLength* characters of the text. If it returns NULL, that means that no font can render the text, and *mappedLength* is the number of characters to skip (rendered with a missing glyph).
 
@@ -153,9 +161,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                 |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -165,12 +173,12 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteFontFallback**](idwritefontfallback.md)
+[**IDWriteFontFallback**](/windows/win32/dwrite_2/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This method returns an interface that provides access to the audio data.'
-ms.assetid: '4FA7CC9D-D379-4C08-8D4F-5301ECCDF372'
-title: 'IAudioFrameNative::GetData method'
+Description: This method returns an interface that provides access to the audio data.
+ms.assetid: 4FA7CC9D-D379-4C08-8D4F-5301ECCDF372
+title: IAudioFrameNativeGetData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAudioFrameNative::GetData method
@@ -52,7 +57,7 @@ Returns S\_OK on successful completion. Returns E\_NOINTERFACE if the requested 
 
 <dl> <dt>
 
-[**IAudioFrameNative**](iaudioframenative.md)
+[**IAudioFrameNative**](/windows/win32/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative?branch=master)
 </dt> </dl>
 
  

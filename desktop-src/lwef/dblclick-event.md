@@ -1,7 +1,12 @@
 ---
 title: DblClick Event
 description: DblClick Event
-ms.assetid: '81ed5396-a2dc-49fe-820f-61ca0935fe85'
+ms.assetid: 81ed5396-a2dc-49fe-820f-61ca0935fe85
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DblClick Event

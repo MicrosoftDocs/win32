@@ -1,7 +1,12 @@
 ---
-Description: 'The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.'
-ms.assetid: 'd017c2a3-a832-4084-b21b-0cca428c5360'
-title: 'IRTC::Connect method'
+Description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
+ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
+title: IRTCConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRTC::Connect method
@@ -13,11 +18,11 @@ The **Connect** method connects the NPP to the network by using a specified NIC 
 
 ```C++
 HRESULT STDMETHODCALLTYPE Connect(
-  [in]  HBLOB  hInputBlob,
-  [in]  LPVOID StatusCallbackProc,
-  [in]  LPVOID FramesCallbackProc,
-  [in]  LPVOID UserContext,
-  [out] HBLOB  hErrorBlob
+  [in]  HBLOB  hInputBlob,
+  [in]  LPVOID StatusCallbackProc,
+  [in]  LPVOID FramesCallbackProc,
+  [in]  LPVOID UserContext,
+  [out] HBLOB  hErrorBlob
 );
 ```
 
@@ -85,7 +90,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -107,7 +112,7 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -115,8 +120,8 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -138,9 +143,9 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 [IRTC::Start](irtc-start.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

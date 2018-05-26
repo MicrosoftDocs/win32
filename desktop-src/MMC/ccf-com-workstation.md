@@ -4,17 +4,21 @@ description: The CCF\_COM\_WORKSTATION clipboard format returns the workstation 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25c03d95-384a-4308-87fd-865bcaa9fb50'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 25c03d95-384a-4308-87fd-865bcaa9fb50
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_COM_WORKSTATION clipboard format MMC"]
+keywords:
+- CCF_COM_WORKSTATION clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CCF_COM_WORKSTATION
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_COM\_WORKSTATION clipboard format

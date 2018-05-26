@@ -1,27 +1,33 @@
 ---
 title: PxeProviderInitialize callback function
 description: An export from a provider dynamic-link library (DLL) that initializes the provider and prepares it to receive client requests.
-ms.assetid: '433b051c-9fde-4589-92e2-58d3774826ac'
-keywords: ["PxeProviderInitialize callback function Windows Deployment Services"]
+ms.assetid: 433b051c-9fde-4589-92e2-58d3774826ac
+keywords:
+- PxeProviderInitialize callback function Windows Deployment Services
 topic_type:
 - apiref
 api_name:
 - PxeProviderInitialize
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PxeProviderInitialize callback function
 
-An export from a provider dynamic-link library (DLL) that initializes the provider and prepares it to receive client requests. Providers are required to export the *PxeProviderInitialize* function. Any callbacks to the provider must be registered with a call to the [**PxeRegisterCallback**](pxeregistercallback.md) function during the processing of *PxeProviderInitialize*. On the return of this function, the provider must be fully initialized and ready to process client requests.
+An export from a provider dynamic-link library (DLL) that initializes the provider and prepares it to receive client requests. Providers are required to export the *PxeProviderInitialize* function. Any callbacks to the provider must be registered with a call to the [**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master) function during the processing of *PxeProviderInitialize*. On the return of this function, the provider must be fully initialized and ready to process client requests.
 
 ## Syntax
 
 
 ```C++
 DWORD PXEAPI PxeProviderInitialize(
-  _In_ HANDLE hProvider,
-  _In_ HKEY   hProviderKey
+  _In_ HANDLE hProvider,
+  _In_ HKEY   hProviderKey
 );
 ```
 
@@ -56,7 +62,7 @@ If the provider initialization succeeds, the callback should return **ERROR\_SUC
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ If the provider initialization succeeds, the callback should return **ERROR\_SUC
 [*PxeProviderShutdown*](pxeprovidershutdown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

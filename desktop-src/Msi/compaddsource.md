@@ -1,7 +1,12 @@
 ---
-Description: 'The value of the COMPADDSOURCE property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are to be installed to run from the source media.'
-ms.assetid: 'ee1e0650-674d-4189-8ef7-3d2ece89cc28'
+Description: The value of the COMPADDSOURCE property is a list of component GUIDs from the ComponentId column of the Component table, delimited by commas, that are to be installed to run from the source media.
+ms.assetid: ee1e0650-674d-4189-8ef7-3d2ece89cc28
 title: COMPADDSOURCE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COMPADDSOURCE property
@@ -37,7 +42,7 @@ The installer sets the [**Preselected**](preselected.md) property to a value of 
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -48,9 +53,9 @@ The installer sets the [**Preselected**](preselected.md) property to a value of 
 [Properties](properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Cubic environment maps - sometimes referred to as cube maps - are textures that contain image data representing the scene surrounding an object, as if the object were in the center of a cube.'
-ms.assetid: '4879d59b-e6d3-4811-ab2c-bcce8f214e1c'
-title: 'Cubic Environment Mapping (Direct3D 9)'
+Description: Cubic environment maps - sometimes referred to as cube maps - are textures that contain image data representing the scene surrounding an object, as if the object were in the center of a cube.
+ms.assetid: 4879d59b-e6d3-4811-ab2c-bcce8f214e1c
+title: Cubic Environment Mapping (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cubic Environment Mapping (Direct3D 9)
@@ -20,11 +25,11 @@ The faces of a cube map don't need to contain extremely detailed renderings of t
 
 ## Mipmapped Cubic Environment Maps
 
-Cube maps can be mipmapped. To create a mipmapped cube map, set the Levels parameter of the [**CreateCubeTexture**](idirect3ddevice9--createcubetexture.md) method to the number of levels that you want. You can envision the topography of these surfaces as shown in the following diagram.
+Cube maps can be mipmapped. To create a mipmapped cube map, set the Levels parameter of the [**CreateCubeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture?branch=master) method to the number of levels that you want. You can envision the topography of these surfaces as shown in the following diagram.
 
 ![diagram of a mipmapped cube map with n mip levels](images/cubemap-mipped.png)
 
-Applications that create mipmapped cubic environment maps can access each face by calling the [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) method. Start by setting the appropriate value from the [**D3DCUBEMAP\_FACES**](direct3d9.d3dcubemap_faces) enumerated type, as discussed in [Creating Cubic Environment Map Surfaces (Direct3D 9)](creating-cubic-environment-map-surfaces.md). Next, select the level to retrieve by setting the **GetCubeMapSurface** level parameter to the mipmap level that you want. Remember that 0 corresponds with the top-level image.
+Applications that create mipmapped cubic environment maps can access each face by calling the [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) method. Start by setting the appropriate value from the [**D3DCUBEMAP\_FACES**](direct3d9.d3dcubemap_faces) enumerated type, as discussed in [Creating Cubic Environment Map Surfaces (Direct3D 9)](creating-cubic-environment-map-surfaces.md). Next, select the level to retrieve by setting the **GetCubeMapSurface** level parameter to the mipmap level that you want. Remember that 0 corresponds with the top-level image.
 
 ## Texture Coordinates for Cubic Environment Maps
 

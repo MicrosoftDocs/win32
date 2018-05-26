@@ -1,7 +1,12 @@
 ---
 title: Using Single-Response Interactions
 description: Use single-response interactions to present a list of choices to the user from which they may select a single choice.
-ms.assetid: '9b713b03-0951-4193-9c2b-0d87a4897790'
+ms.assetid: 9b713b03-0951-4193-9c2b-0d87a4897790
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Single-Response Interactions

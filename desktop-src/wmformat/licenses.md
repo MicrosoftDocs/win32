@@ -1,8 +1,21 @@
 ---
 title: Licenses
 description: Licenses
-ms.assetid: 'dde33d57-6c63-4e1a-8398-5db466fb22fa'
-keywords: ["Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,licenses for DRM", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),protected file licensing", "DRM (digital rights management),protected file licensing", "licenses,DRM"]
+ms.assetid: dde33d57-6c63-4e1a-8398-5db466fb22fa
+keywords:
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,licenses for DRM
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),protected file licensing
+- DRM (digital rights management),protected file licensing
+- licenses,DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Licenses

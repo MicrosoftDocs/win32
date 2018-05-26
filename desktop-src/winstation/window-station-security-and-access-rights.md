@@ -1,7 +1,12 @@
 ---
 title: Window Station Security and Access Rights
 description: Security enables you to control access to window station objects. For more information about security, see Access-Control Model.
-ms.assetid: 'b132da61-26b7-4457-9433-4894ca0e640a'
+ms.assetid: b132da61-26b7-4457-9433-4894ca0e640a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Station Security and Access Rights

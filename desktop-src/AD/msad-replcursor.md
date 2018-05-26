@@ -4,11 +4,13 @@ description: Provides inbound replication state information about all replicas o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5746cfe9-b113-4be3-b609-15cb937c271b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5746cfe9-b113-4be3-b609-15cb937c271b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["MSAD_ReplCursor class Active Directory", "MSAD_ReplCursor class Active Directory , described"]
+keywords:
+- MSAD_ReplCursor class Active Directory
+- MSAD_ReplCursor class Active Directory , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSAD\_ReplCursor class
@@ -34,10 +39,10 @@ Provides inbound replication state information about all replicas of a given nam
 [dynamic, provider("ReplProv1")]
 class MSAD_ReplCursor
 {
-  String   NamingContextDN;
-  String   SourceDsaInvocationID;
-  uint64   USNAttributeFilter;
-  String   SourceDsaDN;
+  String   NamingContextDN;
+  String   SourceDsaInvocationID;
+  uint64   USNAttributeFilter;
+  String   SourceDsaDN;
   datetime TimeOfLastSuccessfulSync;
 };
 ```
@@ -132,7 +137,7 @@ Gets the maximum update sequence number to which the destination server can indi
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
@@ -143,12 +148,12 @@ Gets the maximum update sequence number to which the destination server can indi
 
 <dl> <dt>
 
-[**DS\_REPL\_CURSOR**](ds-repl-cursor.md)
+[**DS\_REPL\_CURSOR**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMFLOAT3PK.'
-ms.assetid: 'da9f468c-6545-4535-a77c-96ae897c16de'
+---
+Description: Constructors exposed by XMFLOAT3PK.
+ms.assetid: da9f468c-6545-4535-a77c-96ae897c16de
 title: XMFLOAT3PK constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMFLOAT3PK constructors
 
 Constructors exposed by `XMFLOAT3PK`.
 
-Constructs instances of the [**XMFLOAT3PK**](xmfloat3pk.md) structure.
+Constructs instances of the [**XMFLOAT3PK**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMFLOAT3PK**](xmfloat3pk.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMFLOAT3PK ()</strong>](xmfloat3pk-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT3PK</code>.<br/> Default constructor for [<strong>XMFLOAT3PK</strong>](xmfloat3pk.md).<br/>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT3PK</code>.<br/> Default constructor for [<strong>XMFLOAT3PK</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk?branch=master).<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -42,7 +47,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMFLOAT3PK (uint32_t)</strong>](xmfloat3pk-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](xmfloat3pk.md) from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from a <code>uint32_t</code> variable containing component data in a packed format.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk?branch=master) from a <code>uint32_t</code> variable containing component data in a packed format.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -51,7 +56,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMFLOAT3PK (const float*)</strong>](xmfloat3pk-ctor-4.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from a three element <code>float</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](xmfloat3pk.md) from a three element <code>float</code> array argument.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from a three element <code>float</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk?branch=master) from a three element <code>float</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -60,7 +65,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMFLOAT3PK (float,float,float)</strong>](xmfloat3pk-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](xmfloat3pk.md) from three <code>float</code> arguments.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMFLOAT3PK</code> from three <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMFLOAT3PK</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk?branch=master) from three <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -82,7 +87,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT3PK**](xmfloat3pk.md)
+[**XMFLOAT3PK**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmfloat3pk?branch=master)
 </dt> </dl>
 
  

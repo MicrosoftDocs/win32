@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains input data for the IDirect3DAuthenticatedChannel9::Query method.'
-ms.assetid: '6a484652-8da2-4074-96b2-6fe49f4d4200'
-title: 'D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT structure'
+---
+Description: Contains input data for the IDirect3DAuthenticatedChannel9Query method.
+ms.assetid: 6a484652-8da2-4074-96b2-6fe49f4d4200
+title: D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT structure
 
-Contains input data for the [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md) method.
+Contains input data for the [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master) method.
 
 ## Syntax
 
@@ -35,7 +40,7 @@ A GUID that specifies the query. For a list of values, see [Content Protection Q
 **HANDLE**
 </dt> <dd>
 
-A handle to the authenticated channel. To get the handle, call [**IDirect3DDevice9Video::CreateAuthenticatedChannel**](idirect3ddevice9video-createauthenticatedchannel.md).
+A handle to the authenticated channel. To get the handle, call [**IDirect3DDevice9Video::CreateAuthenticatedChannel**](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel?branch=master).
 
 </dd> <dt>
 
@@ -65,7 +70,7 @@ The query sequence number. At the start of the session, generate a cryptographic
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

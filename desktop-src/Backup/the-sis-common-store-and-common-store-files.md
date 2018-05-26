@@ -1,8 +1,15 @@
 ---
 title: The SIS Common Store and Common-Store Files
 description: All backing files maintained by single-instance store (SIS) backup are called common-store files.
-ms.assetid: 'c6231c30-9d5a-428d-a94d-9dc8db933432'
-keywords: ["common stores Backup", "single-instance store (SIS) Backup , common stores"]
+ms.assetid: c6231c30-9d5a-428d-a94d-9dc8db933432
+keywords:
+- common stores Backup
+- single-instance store (SIS) Backup , common stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The SIS Common Store and Common-Store Files

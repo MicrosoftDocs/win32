@@ -1,14 +1,20 @@
 ---
 title: bitMap (MapType) Element
 description: Defines a list of name/value pairs that map bit values and string values.
-ms.assetid: '23e636a1-4945-4515-941a-6a2403167da9'
-keywords: ["bitMap element EventLog"]
+ms.assetid: 23e636a1-4945-4515-941a-6a2403167da9
+keywords:
+- bitMap element EventLog
 topic_type:
 - apiref
 api_name:
 - bitMap
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bitMap (MapType) Element
@@ -29,8 +35,8 @@ The **bitMap** element is defined by the [**MapType**](eventmanifestschema-mapty
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **bitMap** element is defined by the [**MapType**](eventmanifestschema-mapty
 [**maps (ProviderType)**](eventmanifestschema-maps-providertype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

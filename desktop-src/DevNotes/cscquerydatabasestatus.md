@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the status of the Offline Files cache.'
-ms.assetid: 'a8cc0dbb-0005-4e74-892e-898e2ebe0465'
+---
+Description: Retrieves the status of the Offline Files cache.
+ms.assetid: a8cc0dbb-0005-4e74-892e-898e2ebe0465
 title: CSCQueryDatabaseStatus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSCQueryDatabaseStatus function

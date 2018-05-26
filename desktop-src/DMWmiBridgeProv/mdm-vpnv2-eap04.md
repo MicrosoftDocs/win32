@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_Eap04 class
 description: The MDM\_VPNv2\_Eap04 class contains the required configuration XML information when the native profile specifies EAP authentication.
-ms.assetid: '87a78743-1ee6-4b86-bfbf-62ba9059535a'
-keywords: ["MDM_VPNv2_Eap04 class", "MDM_VPNv2_Eap04 class, described"]
+ms.assetid: 87a78743-1ee6-4b86-bfbf-62ba9059535a
+keywords:
+- MDM_VPNv2_Eap04 class
+- MDM_VPNv2_Eap04 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_Eap04 class
@@ -108,7 +115,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -123,9 +130,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

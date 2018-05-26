@@ -1,7 +1,12 @@
 ---
-Description: 'The GetEvent method retrieves an event handle, which is used to signal a change in the next advise time.'
-ms.assetid: '2548a321-df65-4a5b-9e6a-8bbc031254c7'
-title: 'CAMSchedule.GetEvent method'
+Description: The GetEvent method retrieves an event handle, which is used to signal a change in the next advise time.
+ms.assetid: 2548a321-df65-4a5b-9e6a-8bbc031254c7
+title: CAMSchedule.GetEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.GetEvent method
@@ -27,7 +32,7 @@ Returns a handle to an event.
 
 ## Remarks
 
-If the next advise time changes—in other words, if a new advise request is added to the front of the list—the scheduler signals this event. The clock should call the [**CAMSchedule::Advise**](camschedule-advise.md) method to determine the next advise time.
+If the next advise time changes in other words, if a new advise request is added to the front of the list the scheduler signals this event. The clock should call the [**CAMSchedule::Advise**](camschedule-advise.md) method to determine the next advise time.
 
 ## Requirements
 
@@ -47,9 +52,9 @@ If the next advise time changes—in other words, if a new advise request is added
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

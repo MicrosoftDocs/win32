@@ -1,7 +1,12 @@
 ---
-Description: 'Many forms of authentication are based on the idea that an entity can prove its identity if it can prove it knows a key, such as a password, that only it can know.'
-ms.assetid: 'e17e4eb7-133e-46a0-8247-00a58b88bf61'
+Description: Many forms of authentication are based on the idea that an entity can prove its identity if it can prove it knows a key, such as a password, that only it can know.
+ms.assetid: e17e4eb7-133e-46a0-8247-00a58b88bf61
 title: Key Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Authentication

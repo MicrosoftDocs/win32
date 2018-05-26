@@ -1,7 +1,12 @@
 ---
-Description: 'The QueryId method retrieves an identifier for the pin.'
-ms.assetid: '6050292e-6203-4a79-87bf-47394624cb32'
-title: 'CSourceStream.QueryId method'
+Description: The QueryId method retrieves an identifier for the pin.
+ms.assetid: 6050292e-6203-4a79-87bf-47394624cb32
+title: CSourceStream.QueryId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.QueryId method
@@ -13,7 +18,7 @@ The `QueryId` method retrieves an identifier for the pin.
 
 ```C++
 HRESULT QueryId(
-   LPWSTR *Id
+   LPWSTR *Id
 );
 ```
 
@@ -45,11 +50,11 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
-This method implements the [**IPin::QueryId**](ipin-queryid.md) method. To construct an identifier string, the pin calls the [**CSource::FindPinNumber**](csource-findpinnumber.md) method with itself as the parameter. The **FindPinNumber** method returns the pin number, indexed from zero. `QueryId` increments the return value by one and converts the result to a string. For example, the first pin becomes "1"; the second pin becomes "2"; and so forth.
+This method implements the [**IPin::QueryId**](/windows/win32/Strmif/nf-strmif-ipin-queryid?branch=master) method. To construct an identifier string, the pin calls the [**CSource::FindPinNumber**](csource-findpinnumber.md) method with itself as the parameter. The **FindPinNumber** method returns the pin number, indexed from zero. `QueryId` increments the return value by one and converts the result to a string. For example, the first pin becomes "1"; the second pin becomes "2"; and so forth.
 
 If this method returns VFW\_E\_NOT\_FOUND, it indicates that the filter's array of pins is invalid, presumably caused by a bug in the filter.
 
@@ -71,9 +76,9 @@ If this method returns VFW\_E\_NOT\_FOUND, it indicates that the filter's array 
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

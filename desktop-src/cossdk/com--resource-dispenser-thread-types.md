@@ -1,7 +1,12 @@
 ---
 Description: COM+ Resource Dispenser Thread Types
-ms.assetid: '3ab67adb-311f-404c-a3ca-d274af53f91c'
+ms.assetid: 3ab67adb-311f-404c-a3ca-d274af53f91c
 title: COM+ Resource Dispenser Thread Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Resource Dispenser Thread Types

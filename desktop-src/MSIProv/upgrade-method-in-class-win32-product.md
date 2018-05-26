@@ -1,8 +1,11 @@
 ---
 title: Upgrade method of the Win32\_Product class
 description: The Upgrade WMI class method upgrades the associated Win32\_Product instance using the upgrade package provided through the PackageLocation parameter and any supplied command line options.
-ms.assetid: '1e27128f-f7b3-4632-bca6-78de423d256d'
-keywords: ["Upgrade method", "Upgrade method, Win32_Product class", "Win32_Product class, Upgrade method"]
+ms.assetid: 1e27128f-f7b3-4632-bca6-78de423d256d
+keywords:
+- Upgrade method
+- Upgrade method, Win32_Product class
+- Win32_Product class, Upgrade method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Upgrade method of the Win32\_Product class
@@ -20,7 +28,7 @@ The **Upgrade** [WMI class](https://msdn.microsoft.com/library/aa393244) method 
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -29,8 +37,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Upgrade(
-  [in] string PackageLocation,
-  [in] string Options
+  [in] string PackageLocation,
+  [in] string Options
 );
 ```
 
@@ -65,7 +73,7 @@ Command-line options required for installing the software. If no options are req
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -107,8 +115,8 @@ Next
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>Netcfgn.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
@@ -129,9 +137,9 @@ Next
 [WMI Tasks: Computer Software](https://msdn.microsoft.com/library/aa394588)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

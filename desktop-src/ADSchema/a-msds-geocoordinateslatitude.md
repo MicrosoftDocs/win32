@@ -4,17 +4,22 @@ description: Geo-coordinates for location services, specifically, latitude (in m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ec99c5ff-bfa8-442b-bc84-3512e99b965a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ec99c5ff-bfa8-442b-bc84-3512e99b965a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-GeoCoordinates-Latitude attribute AD Schema", "msDS-GeoCoordinatesLatitude attribute AD Schema"]
+keywords:
+- ms-DS-GeoCoordinates-Latitude attribute AD Schema
+- msDS-GeoCoordinatesLatitude attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-GeoCoordinates-Latitude
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-GeoCoordinates-Latitude attribute
@@ -38,7 +43,7 @@ Geo-coordinates for location services, specifically, latitude (in microdegrees) 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Geo-coordinates for location services, specifically, latitude (in microdegrees) 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

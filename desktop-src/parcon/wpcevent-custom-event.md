@@ -1,7 +1,12 @@
 ---
-Description: 'Per-user event that supports up to three fields.'
-ms.assetid: 'e6cf8008-b896-453b-9946-a6b3d94a991a'
-title: 'WPCEVENT\_CUSTOM event'
+Description: Per-user event that supports up to three fields.
+ms.assetid: e6cf8008-b896-453b-9946-a6b3d94a991a
+title: WPCEVENT\_CUSTOM event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPCEVENT\_CUSTOM event
@@ -79,7 +84,7 @@ Custom field 3.
 *Blocked* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_ISBLOCKED**](wpcflag-isblocked.md) enumeration that indicates information about what events are blocked from use and what controls are in place.
+A value of the [**WPCFLAG\_ISBLOCKED**](/windows/win32/Wpcevent/ne-wpcevent-tagwpcflag_isblocked?branch=master) enumeration that indicates information about what events are blocked from use and what controls are in place.
 
 </dd> <dt>
 
@@ -96,7 +101,7 @@ A custom string that provides extra information about the reason for blocking or
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Wpcevent.h</dt> </dl> |
 
@@ -109,12 +114,12 @@ A custom string that provides extra information about the reason for blocking or
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](wpc-args-conversationinitevent.md)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

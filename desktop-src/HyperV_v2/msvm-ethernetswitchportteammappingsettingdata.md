@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the port team mapping feature setting data.'
-ms.assetid: '7c9a392d-c95e-4b0d-8201-e50adabd21b2'
-title: 'Msvm\_EthernetSwitchPortTeamMappingSettingData class'
+Description: Represents the port team mapping feature setting data.
+ms.assetid: 7c9a392d-c95e-4b0d-8201-e50adabd21b2
+title: Msvm\_EthernetSwitchPortTeamMappingSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortTeamMappingSettingData class
@@ -71,8 +76,8 @@ Name of the preferred mapped physical adapter.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ Name of the preferred mapped physical adapter.
 [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stores an attribute table entry.'
-ms.assetid: '81c77dc9-e078-46a1-a435-4b241e36ec13'
-title: 'D3DX10\_ATTRIBUTE\_RANGE structure'
+---
+Description: Stores an attribute table entry.
+ms.assetid: 81c77dc9-e078-46a1-a435-4b241e36ec13
+title: D3DX10\_ATTRIBUTE\_RANGE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_ATTRIBUTE\_RANGE structure

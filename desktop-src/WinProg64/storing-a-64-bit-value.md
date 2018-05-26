@@ -1,8 +1,14 @@
 ---
 title: Storing a 64-bit Value
 description: To store a 64-bit pointer value, use ULONG\_PTR. A ULONG\_PTR value is 32 bits when compiled with a 32-bit compiler and 64 bits when compiled with a 64-bit compiler.
-ms.assetid: '0712e084-cf5e-470a-8f5d-0db2ef638f42'
-keywords: ["storing 64-bit values 64-bit Windows Programming"]
+ms.assetid: 0712e084-cf5e-470a-8f5d-0db2ef638f42
+keywords:
+- storing 64-bit values 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storing a 64-bit Value

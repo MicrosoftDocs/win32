@@ -1,7 +1,12 @@
 ---
 title: HTML Help and Windows 7
 description: This topic describes an important safety feature added to HTML Help in Windows 7.
-ms.assetid: 'D289B585-E119-4059-845F-AFA4DB8BA478'
+ms.assetid: D289B585-E119-4059-845F-AFA4DB8BA478
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help and Windows 7

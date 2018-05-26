@@ -1,8 +1,29 @@
 ---
 title: Hyperlink Control Type
 description: This topic provides information about Microsoft UI Automation support for the Hyperlink control type.
-ms.assetid: '6dd16ae6-eff0-4913-8916-5092aec34f1f'
-keywords: ["UI Automation,support for Hyperlink control type", "UI Automation,Hyperlink control type", "UI Automation,tree structure for Hyperlink control type", "UI Automation,properties for Hyperlink control type", "UI Automation,control patterns for Hyperlink control type", "UI Automation,events for Hyperlink control type", "tree structures,Hyperlink control type", "properties,Hyperlink control type", "control patterns,Hyperlink control type", "events,Hyperlink control type", "support for Hyperlink control type", "Hyperlink control type", "control types,tree structure for Hyperlink control type", "control types,control patterns for Hyperlink control type", "control types,support for Hyperlink", "control types,Hyperlink"]
+ms.assetid: 6dd16ae6-eff0-4913-8916-5092aec34f1f
+keywords:
+- UI Automation,support for Hyperlink control type
+- UI Automation,Hyperlink control type
+- UI Automation,tree structure for Hyperlink control type
+- UI Automation,properties for Hyperlink control type
+- UI Automation,control patterns for Hyperlink control type
+- UI Automation,events for Hyperlink control type
+- tree structures,Hyperlink control type
+- properties,Hyperlink control type
+- control patterns,Hyperlink control type
+- events,Hyperlink control type
+- support for Hyperlink control type
+- Hyperlink control type
+- control types,tree structure for Hyperlink control type
+- control types,control patterns for Hyperlink control type
+- control types,support for Hyperlink
+- control types,Hyperlink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyperlink Control Type
@@ -86,9 +107,9 @@ The following table lists the UI Automation control patterns that hyperlink cont
 
 | Control Pattern/Pattern Property                  | Support/Value                | Notes                                                                                                                                                                                                                                                  |
 |---------------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md) | Required                     | All hyperlink controls must support the [Invoke](uiauto-implementinginvoke.md) control pattern.                                                                                                                                                       |
-| [**IValueProvider**](uiauto-ivalueprovider.md)   | Depends                      | Hyperlink controls should support the [Value](uiauto-implementingvalue.md) control pattern when the link contains information that is usable and meaningful to the user.                                                                              |
-| [**Value**](uiauto-ivalueprovider-value.md)      | For example, "http://www..." | A URL for an Internet or intranet address is an example of a hyperlink that contains information that is meaningful to the user. A programmatic link, however, is meaningful only to an application and is not recommended for the **Value** property. |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master) | Required                     | All hyperlink controls must support the [Invoke](uiauto-implementinginvoke.md) control pattern.                                                                                                                                                       |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)   | Depends                      | Hyperlink controls should support the [Value](uiauto-implementingvalue.md) control pattern when the link contains information that is usable and meaningful to the user.                                                                              |
+| [**Value**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value?branch=master)      | For example, "http://www..." | A URL for an Internet or intranet address is an example of a hyperlink that contains information that is meaningful to the user. A programmatic link, however, is meaningful only to an application and is not recommended for the **Value** property. |
 
 
 

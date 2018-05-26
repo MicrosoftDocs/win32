@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_CDROMDrive class exposes the following methods.'
+Description: The CIM\_CDROMDrive class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '870B45C9-4027-4EC9-998D-6C9E8DE1A385'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 870B45C9-4027-4EC9-998D-6C9E8DE1A385
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_CDROMDrive Methods'
+title: CIM\_CDROMDrive Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CDROMDrive Methods

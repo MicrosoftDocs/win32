@@ -1,7 +1,7 @@
 ---
 title: Constants
 description: Describes the constants that relate to the IManipulationProcessor interface.
-ms.assetid: '3b039727-0870-4918-9e97-d10b2ff55045'
+ms.assetid: 3b039727-0870-4918-9e97-d10b2ff55045
 topic_type:
 - apiref
 api_name:
@@ -12,11 +12,16 @@ api_location:
 - manipulations.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants
 
-Describes the constants that relate to the [**IManipulationProcessor**](imanipulationprocessor.md) interface.
+Describes the constants that relate to the [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) interface.
 
 <dl> <dt>
 
@@ -65,8 +70,8 @@ Indicates the value for manipulations where the return value is not a number.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                   |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                      |
 | Header<br/>                   | <dl> <dt>Manipulations.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Manipulations.idl</dt> </dl> |
 
@@ -79,9 +84,9 @@ Indicates the value for manipulations where the return value is not a number.
 [Inertia and Manipulation](inertia-and-manipulation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

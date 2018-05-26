@@ -1,8 +1,9 @@
 ---
 title: HDN\_DROPDOWN notification code
 description: Sent by a header control to its parent when the drop-down arrow on the header control is clicked. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'cacf5cb9-0593-42ff-868d-b098481f565f'
-keywords: ["HDN_DROPDOWN notification code Windows Controls"]
+ms.assetid: cacf5cb9-0593-42ff-868d-b098481f565f
+keywords:
+- HDN_DROPDOWN notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_DROPDOWN notification code
@@ -33,7 +39,7 @@ HDN_DROPDOWN
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure that contains information on the header control.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure that contains information on the header control.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ No return value.
 
 ## Remarks
 
-The example in the Syntax section shows how the notification receiver casts **LPARAM** to retrieve the [**NMHEADER**](nmheader.md) structure. **WPARAM** contains the ID of the control that sends this message.
+The example in the Syntax section shows how the notification receiver casts **LPARAM** to retrieve the [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure. **WPARAM** contains the ID of the control that sends this message.
 
 This message is sent only if style HDF\_SPLITBUTTON is set on the header item.
 
@@ -53,15 +59,15 @@ This message is sent only if style HDF\_SPLITBUTTON is set on the header item.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

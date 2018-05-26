@@ -1,8 +1,9 @@
 ---
 title: TBN\_INITCUSTOMIZE notification code
-description: Notifies a toolbar's parent window that customizing has started. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'f4b9a1b0-94f7-4b2b-81b3-772da09134d2'
-keywords: ["TBN_INITCUSTOMIZE notification code Windows Controls"]
+description: Notifies a toolbars parent window that customizing has started. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: f4b9a1b0-94f7-4b2b-81b3-772da09134d2
+keywords:
+- TBN_INITCUSTOMIZE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_INITCUSTOMIZE notification code
@@ -33,7 +39,7 @@ TBN_INITCUSTOMIZE
 *lParam* 
 </dt> <dd>
 
-Pointer to the toolbar's [**NMHDR**](nmhdr.md) structure.
+Pointer to the toolbar's [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Returns TBNRF\_HIDEHELP to suppress the Help button.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

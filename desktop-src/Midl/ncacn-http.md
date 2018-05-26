@@ -2,13 +2,19 @@
 title: ncacn\_http attribute
 description: The ncacn\_http keyword identifies the Microsoft Internet Information Server (IIS) as the protocol family for the endpoint.
 ms.assetid: 92d2b44c-2eab-4474-826b-ccafd26db124
-keywords: ["ncacn_http attribute MIDL"]
+keywords:
+- ncacn_http attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncacn_http
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncacn\_http attribute

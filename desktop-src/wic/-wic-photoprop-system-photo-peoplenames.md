@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.PeopleNames property.'
-ms.assetid: '567d5542-fc7b-4d19-bc3c-b9d6e26e3387'
-title: 'System.Photo.PeopleNames Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.PeopleNames property.
+ms.assetid: 567d5542-fc7b-4d19-bc3c-b9d6e26e3387
+title: System.Photo.PeopleNames Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.PeopleNames Photo Metadata Policy

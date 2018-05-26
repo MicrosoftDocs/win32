@@ -1,8 +1,14 @@
 ---
 title: InkDraw Method
 description: CGuiPaper also keeps an m\_bInking flag. InkStart sets it to TRUE to signal that a drawing sequence is in process. For example, the InkDraw method uses this flag to determine whether it should paint and save ink data.
-ms.assetid: '0fe9d029-1522-4caf-8efb-0a4eb2b59958'
-keywords: ["InkDraw"]
+ms.assetid: 0fe9d029-1522-4caf-8efb-0a4eb2b59958
+keywords:
+- InkDraw
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkDraw Method

@@ -1,8 +1,9 @@
 ---
 title: D3DWriteBlobToFile function
 description: Writes a memory blob to a file on disk.
-ms.assetid: 'F21FF3B4-5F69-4C93-9F93-6A12324A664A'
-keywords: ["D3DWriteBlobToFile function HLSL"]
+ms.assetid: F21FF3B4-5F69-4C93-9F93-6A12324A664A
+keywords:
+- D3DWriteBlobToFile function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DWriteBlobToFile function
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
 
- 
+ 
 
 Writes a memory blob to a file on disk.
 
@@ -26,9 +32,9 @@ Writes a memory blob to a file on disk.
 
 ``` syntax
 HRESULT WINAPI D3DWriteBlobToFile(
-  in ID3DBlob pBlob,
-  in LPCWSTR pFileName,
-  in BOOL bOverwrite
+  in ID3DBlob pBlob,
+  in LPCWSTR pFileName,
+  in BOOL bOverwrite
 );
 ```
 
@@ -74,7 +80,7 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 > [!Note]  
 > The D3dcompiler\_44.dll or later version of the file contains the **D3DWriteBlobToFile** compiler function.
 
- 
+ 
 
 ## Requirements
 
@@ -95,9 +101,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

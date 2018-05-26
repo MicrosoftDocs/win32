@@ -1,7 +1,12 @@
 ---
 title: Using COM Objects in Active Server Pages
 description: You can script COM objects in Active Server Pages (ASP) applications.
-ms.assetid: '3a074360-8b6c-4cb6-813b-73863fe11c46'
+ms.assetid: 3a074360-8b6c-4cb6-813b-73863fe11c46
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using COM Objects in Active Server Pages

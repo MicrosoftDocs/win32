@@ -1,23 +1,34 @@
 ---
 title: Enumerating Devices
 description: Enumerating Devices
-ms.assetid: 'c5935681-b530-4446-a026-7ddc74084d23'
-keywords: ["Windows Media Device Manager,enumerating devices", "Device Manager,enumerating devices", "programming guide,enumerating devices", "desktop applications,enumerating devices", "creating Windows Media Device Manager applications,enumerating devices", "enumerating devices"]
+ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
+keywords:
+- Windows Media Device Manager,enumerating devices
+- Device Manager,enumerating devices
+- programming guide,enumerating devices
+- desktop applications,enumerating devices
+- creating Windows Media Device Manager applications,enumerating devices
+- enumerating devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Devices
 
-After authenticating an application, you can begin to enumerate the devices detected by Windows Media Device Manager. Enumeration is done by using an enumeration interface, [**IWMDMEnumDevice**](iwmdmenumdevice.md), obtained by using either [**IWMDeviceManager2::EnumDevices2**](iwmdevicemanager2-enumdevices2.md) or [**IWMDeviceManager::EnumDevices**](iwmdevicemanager-enumdevices.md). If supported, use the **EnumDevices2** method, because the earlier version only returned legacy interfaces on devices, whereas the new version returns both the legacy and the new interfaces.
+After authenticating an application, you can begin to enumerate the devices detected by Windows Media Device Manager. Enumeration is done by using an enumeration interface, [**IWMDMEnumDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmenumdevice?branch=master), obtained by using either [**IWMDeviceManager2::EnumDevices2**](/windows/win32/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2?branch=master) or [**IWMDeviceManager::EnumDevices**](/windows/win32/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices?branch=master). If supported, use the **EnumDevices2** method, because the earlier version only returned legacy interfaces on devices, whereas the new version returns both the legacy and the new interfaces.
 
 Before obtaining an enumerator, you should decide what enumeration view to use. Some devices expose each storage as a different device. For example, two flash memory cards on a device will enumerate as if they were separate devices. You can specify that all storages on a device are enumerated together as a single device. You can set this preference only once in your application; if you want to change it, you must shut down the application and restart it. However, note that legacy devices will sometimes ignore a request to enumerate separate device storages as a single device, and continue to enumerate them separately.
 
 The following steps show how to enumerate connected devices:
 
-1.  Set the device enumeration preference using [**IWMDeviceManager3::SetDeviceEnumPreference**](iwmdevicemanager3-setdeviceenumpreference.md). If this method is not called, the default method is to show storages as separate devices. To determine whether individual "devices" are actually storages on the same device, call [**IWMDMDevice2::GetCanonicalName**](iwmdmdevice2-getcanonicalname.md); storages from the same device will return identical values, except for the final digit after the last "$" sign.
-2.  Query for [**IWMDeviceManager**](iwmdevicemanager.md) or [**IWMDeviceManager2**](iwmdevicemanager2.md), and then call [**IWMDeviceManager2::EnumDevices2**](iwmdevicemanager2-enumdevices2.md) to obtain the device enumerator interface, [**IWMDMEnumDevice**](iwmdmenumdevice.md). (If supported, use **EnumDevices2**, which is more efficient, as the earlier version may not return MTP devices).
-3.  Call the [**IWMDMEnumDevices::Next**](iwmdmenumdevice-next.md) method to retrieve one or more devices at a time. Continue to call this method until the method returns S\_FALSE or an error message. If retrieving only one device at a time, you do not need to allocate an array to hold the devices.
+1.  Set the device enumeration preference using [**IWMDeviceManager3::SetDeviceEnumPreference**](/windows/win32/mswmdm/nf-mswmdm-iwmdevicemanager3-setdeviceenumpreference?branch=master). If this method is not called, the default method is to show storages as separate devices. To determine whether individual "devices" are actually storages on the same device, call [**IWMDMDevice2::GetCanonicalName**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname?branch=master); storages from the same device will return identical values, except for the final digit after the last "$" sign.
+2.  Query for [**IWMDeviceManager**](/windows/win32/mswmdm/nn-mswmdm-iwmdevicemanager?branch=master) or [**IWMDeviceManager2**](/windows/win32/mswmdm/nn-mswmdm-iwmdevicemanager2?branch=master), and then call [**IWMDeviceManager2::EnumDevices2**](/windows/win32/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2?branch=master) to obtain the device enumerator interface, [**IWMDMEnumDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmenumdevice?branch=master). (If supported, use **EnumDevices2**, which is more efficient, as the earlier version may not return MTP devices).
+3.  Call the [**IWMDMEnumDevices::Next**](/windows/win32/mswmdm/nf-mswmdm-iwmdmenumdevice-next?branch=master) method to retrieve one or more devices at a time. Continue to call this method until the method returns S\_FALSE or an error message. If retrieving only one device at a time, you do not need to allocate an array to hold the devices.
 
-Because users can attach or remove devices from the computer while your application is running, it is a good idea to implement notification of device connection or removal. This is done by implementing the [**IWMDMNotification**](iwmdmnotification.md) interface and registering it. For more information on this, see [Enabling Notifications](enabling-notifications.md).
+Because users can attach or remove devices from the computer while your application is running, it is a good idea to implement notification of device connection or removal. This is done by implementing the [**IWMDMNotification**](/windows/win32/mswmdm/nn-mswmdm-iwmdmnotification?branch=master) interface and registering it. For more information on this, see [Enabling Notifications](enabling-notifications.md).
 
 The following C++ code enumerates devices and requests information about each device.
 

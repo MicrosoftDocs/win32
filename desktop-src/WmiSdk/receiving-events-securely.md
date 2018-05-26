@@ -1,13 +1,16 @@
 ---
-Description: 'Temporary and permanent consumers have different methods of securing event delivery.'
+Description: Temporary and permanent consumers have different methods of securing event delivery.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cd02e5db-f9e2-438b-9632-0a1387a6d4e3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cd02e5db-f9e2-438b-9632-0a1387a6d4e3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Receiving Events Securely
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Events Securely
@@ -29,7 +32,7 @@ The following sections are discussed in this topic:
 
 A [*temporary consumers*](gloss-t.md#wmi-gloss-temporary-consumer) runs until the system is rebooted or WMI is stopped but cannot be started if a specific event is raised. For example, a call to [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) creates a temporary consumer.
 
-The calls [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) or [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) create temporary event consumers. Temporary consumers cannot control who provides events to the event [*sink*](gloss-s.md#wmi-gloss-sink) they create.
+The calls [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) or [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) create temporary event consumers. Temporary consumers cannot control who provides events to the event [*sink*](gloss-s.md#wmi-gloss-sink) they create.
 
 Calls to [**ExecNotificationQuery**](swbemservices-execnotificationquery.md) methods can be made synchronously, [*semisynchronously*](gloss-s.md#wmi-gloss-semisynchronous), or asynchronously. For example, [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) is a synchronous method that can be called semisynchronously, depending on how the *iflags* parameter is set. [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) is an asynchronous call.
 

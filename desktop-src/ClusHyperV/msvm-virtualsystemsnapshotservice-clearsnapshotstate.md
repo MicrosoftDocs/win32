@@ -4,13 +4,16 @@ description: Clears the save state from a virtual machine snapshot.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73db151e-8e63-4824-8b3e-61e00aad19ef'
-ms.prod: 'windows-server-dev'
+ms.assetid: 73db151e-8e63-4824-8b3e-61e00aad19ef
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ClearSnapshotState method", "ClearSnapshotState method, Msvm_VirtualSystemSnapshotService class", "Msvm_VirtualSystemSnapshotService class, ClearSnapshotState method"]
+keywords:
+- ClearSnapshotState method
+- ClearSnapshotState method, Msvm_VirtualSystemSnapshotService class
+- Msvm_VirtualSystemSnapshotService class, ClearSnapshotState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClearSnapshotState method of the Msvm\_VirtualSystemSnapshotService class
@@ -30,8 +36,8 @@ Clears the save state from a virtual machine snapshot.
 
 ```mof
 uint32 ClearSnapshotState(
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -107,7 +113,7 @@ This method returns one of the following values.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

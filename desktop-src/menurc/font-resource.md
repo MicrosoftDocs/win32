@@ -1,14 +1,20 @@
 ---
 title: FONT resource
 description: Defines a file that contains a font.
-ms.assetid: '0e19edd5-6cfc-44e6-add4-7413eb94867a'
-keywords: ["FONT resource Menus and Other Resources"]
+ms.assetid: 0e19edd5-6cfc-44e6-add4-7413eb94867a
+keywords:
+- FONT resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - FONT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FONT resource

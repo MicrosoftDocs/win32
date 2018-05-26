@@ -1,6 +1,11 @@
-﻿---
-Description: 'Frees the handle associated with the most recently used (MRU) list and writes cached data to the registry.'
+---
+Description: Frees the handle associated with the most recently used (MRU) list and writes cached data to the registry.
 title: FreeMRUList function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeMRUList function

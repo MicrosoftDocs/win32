@@ -2,13 +2,15 @@
 title: RemoteAccess class
 description: Remote Access Configuration.
 audience: developer
-ms.assetid: '65c3fc93-1a39-418b-adbf-9232f56a51cb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 65c3fc93-1a39-418b-adbf-9232f56a51cb
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccess class", "RemoteAccess class, described"]
+keywords:
+- RemoteAccess class
+- RemoteAccess class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccess class
@@ -43,17 +48,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class RemoteAccess : RemoteAccessCommon
 {
-  string                             InternetInterface;
-  string                             InternalInterface;
-  uint8                              SslCertificate[];
-  string                             DAStatus;
-  string                             VpnStatus;
-  string                             VpnS2SStatus;
-  string                             LoadBalancing;
-  string                             SstpProxyStatus;
-  string                             RoutingStatus;
-  boolean                            UseHttp;
-  DirectAccessConfiguration          DAConfiguration;
+  string                             InternetInterface;
+  string                             InternalInterface;
+  uint8                              SslCertificate[];
+  string                             DAStatus;
+  string                             VpnStatus;
+  string                             VpnS2SStatus;
+  string                             LoadBalancing;
+  string                             SstpProxyStatus;
+  string                             RoutingStatus;
+  boolean                            UseHttp;
+  DirectAccessConfiguration          DAConfiguration;
   VirtualPrivateNetworkConfiguration VpnConfiguration;
 };
 ```
@@ -227,7 +232,7 @@ The possible values are.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -277,7 +282,7 @@ The possible values are.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -294,7 +299,7 @@ Access type: Read/write
 
 This property is inherited from [**RemoteAccessCommon**](remoteaccesscommon.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -387,16 +392,16 @@ The possible values are.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

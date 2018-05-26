@@ -4,11 +4,19 @@ description: When an instance of Active Directory Domain Services is installed, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a90566d9-dd68-43e2-be9e-300d57a7fbf4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a90566d9-dd68-43e2-be9e-300d57a7fbf4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["where to create a service connection point AD", "active directory, where to create a service connection point", "where to create a service connection point AD", "creating a service connection point AD", "service connection point AD"]
+keywords:
+- where to create a service connection point AD
+- active directory, where to create a service connection point
+- where to create a service connection point AD
+- creating a service connection point AD
+- service connection point AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Where to Create a Service Connection Point

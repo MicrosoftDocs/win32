@@ -4,11 +4,15 @@ description: ADSI provides interfaces to enforce both user authentication and ac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6c3ffc05-92d1-45df-9b29-11f9a7cebda2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6c3ffc05-92d1-45df-9b29-11f9a7cebda2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["security ADSI ,ADSI ADSI ,using,security"]
+keywords:
+- security ADSI ,ADSI ADSI ,using,security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Security Model

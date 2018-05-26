@@ -1,7 +1,12 @@
 ---
 title: How to Support Control Patterns in a UI Automation Provider
 description: This topic shows how a Microsoft UI Automation provider implements control patterns for a control. Control patterns enable client applications to manipulate the control and get information about it.
-ms.assetid: '504d0ed8-32c1-43ed-9f71-328a013ab350'
+ms.assetid: 504d0ed8-32c1-43ed-9f71-328a013ab350
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Support Control Patterns in a UI Automation Provider
@@ -10,10 +15,10 @@ This topic shows how a Microsoft UI Automation provider implements control patte
 
 A provider implements a control pattern by following these main steps:
 
-1.  Implement the provider interface that supports the control pattern. For example, to support the [Selection](uiauto-implementingselection.md) control pattern, a provider for a custom list control would implement the [**ISelectionProvider**](uiauto-iselectionprovider.md) interface.
-2.  Return an object that contains the control pattern provider interface when UI Automation calls the provider's [**IRawElementProviderSimple::GetPatternProvider**](uiauto-irawelementprovidersimple-getpatternprovider.md) method.
+1.  Implement the provider interface that supports the control pattern. For example, to support the [Selection](uiauto-implementingselection.md) control pattern, a provider for a custom list control would implement the [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master) interface.
+2.  Return an object that contains the control pattern provider interface when UI Automation calls the provider's [**IRawElementProviderSimple::GetPatternProvider**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpatternprovider?branch=master) method.
 
-The following example shows the [**ISelectionProvider**](uiauto-iselectionprovider.md) interface implementation for a custom, single-selection list control. The implementation includes property-retrieval methods for the IsSelectionRequired and CanSelectMultiple properties, and a method for retrieving the provider for the selected list item.
+The following example shows the [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master) interface implementation for a custom, single-selection list control. The implementation includes property-retrieval methods for the IsSelectionRequired and CanSelectMultiple properties, and a method for retrieving the provider for the selected list item.
 
 
 ```C++
@@ -66,7 +71,7 @@ IFACEMETHODIMP ListProvider::GetSelection(SAFEARRAY** pRetVal)
 
 
 
-The following example shows an implementation of [**IRawElementProviderSimple::GetPatternProvider**](uiauto-irawelementprovidersimple-getpatternprovider.md) that returns an object that implements [**ISelectionProvider**](uiauto-iselectionprovider.md). Most list controls would support other patterns as well, but this example returns a null reference for all other control pattern identifiers.
+The following example shows an implementation of [**IRawElementProviderSimple::GetPatternProvider**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpatternprovider?branch=master) that returns an object that implements [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master). Most list controls would support other patterns as well, but this example returns a null reference for all other control pattern identifiers.
 
 
 ```C++

@@ -4,10 +4,13 @@ description: This topic contains instructions about how to setup for your applic
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '74C342BF-0F79-486D-AED7-C53230DE5FA7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 74C342BF-0F79-486D-AED7-C53230DE5FA7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Testing your application

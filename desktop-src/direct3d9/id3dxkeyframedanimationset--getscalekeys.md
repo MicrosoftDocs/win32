@@ -1,7 +1,12 @@
-﻿---
-Description: 'Fills an array with scale key data used for key frame animation.'
-ms.assetid: '0d595510-6d8c-4bc9-b5ca-0d6f73be3439'
-title: 'ID3DXKeyframedAnimationSet::GetScaleKeys method'
+---
+Description: Fills an array with scale key data used for key frame animation.
+ms.assetid: 0d595510-6d8c-4bc9-b5ca-0d6f73be3439
+title: ID3DXKeyframedAnimationSetGetScaleKeys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetScaleKeys method

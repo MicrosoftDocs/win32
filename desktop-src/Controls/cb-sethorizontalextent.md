@@ -1,8 +1,9 @@
 ---
 title: CB\_SETHORIZONTALEXTENT message
 description: An application sends the CB\_SETHORIZONTALEXTENT message to set the width, in pixels, by which a list box can be scrolled horizontally (the scrollable width).
-ms.assetid: '85e8ff4f-ad9a-451c-b791-bd442b32d716'
-keywords: ["CB_SETHORIZONTALEXTENT message Windows Controls"]
+ms.assetid: 85e8ff4f-ad9a-451c-b791-bd442b32d716
+keywords:
+- CB_SETHORIZONTALEXTENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETHORIZONTALEXTENT message
@@ -41,8 +47,8 @@ This parameter is not used.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ This parameter is not used.
 [**CB\_GETHORIZONTALEXTENT**](cb-gethorizontalextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

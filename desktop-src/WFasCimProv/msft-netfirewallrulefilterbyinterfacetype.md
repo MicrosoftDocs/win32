@@ -1,7 +1,12 @@
 ---
-Description: 'Filters a Windows firewall rule by interface type.'
-ms.assetid: '0adf2432-0fa1-449c-adaf-22943e3d650c'
-title: 'MSFT\_NetFirewallRuleFilterByInterfaceType class'
+Description: Filters a Windows firewall rule by interface type.
+ms.assetid: 0adf2432-0fa1-449c-adaf-22943e3d650c
+title: MSFT\_NetFirewallRuleFilterByInterfaceType class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallRuleFilterByInterfaceType class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetFirewallRuleFilterByInterfaceType : MSFT_NetFirewallRuleFilters
 {
-  MSFT_NetFirewallRule        REF GroupComponent;
+  MSFT_NetFirewallRule        REF GroupComponent;
   MSFT_NetInterfaceTypeFilter REF PartComponent;
 };
 ```
@@ -70,17 +75,17 @@ The interface type filter applied to the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

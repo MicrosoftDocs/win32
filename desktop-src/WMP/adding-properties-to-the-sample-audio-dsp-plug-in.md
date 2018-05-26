@@ -1,8 +1,18 @@
 ---
 title: Adding Properties to the Sample Audio DSP Plug-in
 description: Adding Properties to the Sample Audio DSP Plug-in
-ms.assetid: '9c6c2a34-4844-476b-8814-a95a236e75bb'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,audio properties", "DSP plug-ins,audio properties", "audio DSP plug-ins,properties"]
+ms.assetid: 9c6c2a34-4844-476b-8814-a95a236e75bb
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,audio properties
+- DSP plug-ins,audio properties
+- audio DSP plug-ins,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Properties to the Sample Audio DSP Plug-in

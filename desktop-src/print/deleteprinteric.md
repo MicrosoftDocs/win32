@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '8D79AB9D-02BB-4032-AC5D-9099A672382F'
+---
+Description: .
+ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 title: DeletePrinterIC function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeletePrinterIC function

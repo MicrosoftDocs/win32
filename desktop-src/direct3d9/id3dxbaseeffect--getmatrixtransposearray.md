@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an array of transposed matrices.'
-ms.assetid: 'fbfcb2e4-82ca-4f79-923e-35749c5b9586'
-title: 'ID3DXBaseEffect::GetMatrixTransposeArray method'
+---
+Description: Gets an array of transposed matrices.
+ms.assetid: fbfcb2e4-82ca-4f79-923e-35749c5b9586
+title: ID3DXBaseEffectGetMatrixTransposeArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetMatrixTransposeArray method

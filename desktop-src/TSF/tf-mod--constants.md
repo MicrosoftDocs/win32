@@ -1,7 +1,7 @@
 ---
 title: TF\_MOD\_\ Constants
 description: The TF\_MOD\_\ constants specify key modifiers in the TF\_PRESERVEDKEY structure.
-ms.assetid: '4642ef17-34bd-4482-a9e9-0fbed7b574b1'
+ms.assetid: 4642ef17-34bd-4482-a9e9-0fbed7b574b1
 topic_type:
 - apiref
 api_name:
@@ -20,11 +20,16 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_MOD\_\* Constants
 
-The TF\_MOD\_\* constants specify key modifiers in the [TF\_PRESERVEDKEY](tf-preservedkey.md) structure.
+The TF\_MOD\_\* constants specify key modifiers in the [TF\_PRESERVEDKEY](/windows/win32/Msctf/ns-msctf-tf_preservedkey?branch=master) structure.
 
 
 
@@ -50,9 +55,9 @@ The TF\_MOD\_\* constants specify key modifiers in the [TF\_PRESERVEDKEY](tf-pre
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
@@ -62,12 +67,12 @@ The TF\_MOD\_\* constants specify key modifiers in the [TF\_PRESERVEDKEY](tf-pre
 
 <dl> <dt>
 
-[TF\_PRESERVEDKEY](tf-preservedkey.md)
+[TF\_PRESERVEDKEY](/windows/win32/Msctf/ns-msctf-tf_preservedkey?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the sub-sample mapping for the sample indicating the clear and encrypted bytes in the sample data.'
-ms.assetid: 'E672F53D-2083-430B-90D2-A1DA482EF9E1'
-title: 'MFSampleExtension\_Encryption\_SubSampleMappingSplit attribute'
+---
+Description: Sets the sub-sample mapping for the sample indicating the clear and encrypted bytes in the sample data.
+ms.assetid: E672F53D-2083-430B-90D2-A1DA482EF9E1
+title: MFSampleExtension\_Encryption\_SubSampleMappingSplit attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_Encryption\_SubSampleMappingSplit attribute
@@ -52,7 +57,7 @@ m_spSample->SetBlob( MFSampleExtension_Encryption_SubSampleMappingSplit,
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 </dt> <dt>
 
 [MFSampleExtension\_Content\_KeyID](mfsampleextension-content-keyid.md)

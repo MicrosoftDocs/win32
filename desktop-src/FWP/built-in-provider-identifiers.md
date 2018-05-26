@@ -1,7 +1,7 @@
 ---
 title: Built-in Provider Identifiers
 description: The identifiers for the providers that are built in to the Windows Filtering Platform (WFP) are each represented by a GUID.
-ms.assetid: '61bc1e2d-f6ee-45db-892f-c49680d27072'
+ms.assetid: 61bc1e2d-f6ee-45db-892f-c49680d27072
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Provider Identifiers
@@ -47,9 +52,9 @@ Used to identify all the filters added by IKE/AuthIP.
 Used to identify all the filters added by IPsec DoS Protection.
 
 > [!Note]  
-> Available only on Windows 7 and Windows Server 2008 R2.
+> Available only on Windows 7 and Windows Server 2008 R2.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -78,9 +83,9 @@ Used to identify all the filters added by TCP Chimney Offload.
 Used to identify all the filters added by TCP templates.
 
 > [!Note]  
-> Available only on Windows 8 and Windows Server 2012.
+> Available only on Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -91,15 +96,15 @@ Used to identify all the filters added by TCP templates.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

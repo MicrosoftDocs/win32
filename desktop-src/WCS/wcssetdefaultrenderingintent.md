@@ -1,8 +1,9 @@
 ---
 title: WcsSetDefaultRenderingIntent function
 description: Sets the default rendering intent in the specified profile management scope.
-ms.assetid: '8f0c216c-f501-4b33-92f3-8b2f953a1d2d'
-keywords: ["WcsSetDefaultRenderingIntent function Windows Color System"]
+ms.assetid: 8f0c216c-f501-4b33-92f3-8b2f953a1d2d
+keywords:
+- WcsSetDefaultRenderingIntent function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsSetDefaultRenderingIntent function
@@ -22,8 +28,8 @@ Sets the default rendering intent in the specified profile management scope.
 
 ```C++
 BOOL WINAPI WcsSetDefaultRenderingIntent(
-  _In_ WCS_PROFILE_MANAGEMENT_SCOPE scope,
-  _In_ DWORD                        dwRenderingIntent
+  _In_ WCS_PROFILE_MANAGEMENT_SCOPE scope,
+  _In_ DWORD                        dwRenderingIntent
 );
 ```
 
@@ -47,19 +53,19 @@ The rendering intent. It can be set to one of the following values:
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
- 
+ 
 
 DWORD\_MAX
 
@@ -81,8 +87,8 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -102,9 +108,9 @@ If this function fails, the return value is **FALSE**. For extended error inform
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

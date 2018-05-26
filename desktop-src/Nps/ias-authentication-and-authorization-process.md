@@ -4,10 +4,13 @@ description: Calls these function for each valid authentication or accounting pa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6d738ad7-cce5-4835-97d6-c57173c79a16'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 6d738ad7-cce5-4835-97d6-c57173c79a16
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Invoking the Extension DLLs

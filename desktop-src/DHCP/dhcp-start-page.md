@@ -1,8 +1,17 @@
 ---
 title: Dynamic Host Configuration Protocol
 description: Dynamic Host Configuration Protocol (DHCP) API, or DHCP Client Options, enables Microsoft Windows clients to query specific options from DHCP servers.
-ms.assetid: 'cce78957-4837-4493-b831-8af27ba46293'
-keywords: ["DHCP DHCP", "DHCP DHCP , (See Dynamic Host Configuration Protocol DHCP )", "Dynamic Host Configuration Protocol DHCP", "Dynamic Host Configuration Protocol DHCP , start page"]
+ms.assetid: cce78957-4837-4493-b831-8af27ba46293
+keywords:
+- DHCP DHCP
+- DHCP DHCP , (See Dynamic Host Configuration Protocol DHCP )
+- Dynamic Host Configuration Protocol DHCP
+- Dynamic Host Configuration Protocol DHCP , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Host Configuration Protocol
@@ -23,7 +32,7 @@ The DHCP API is designed for use by C/C++ programmers. Familiarity with the IP p
 
 ## Run-time requirements
 
-The DHCP Server API requires Windows Server 2003 and later operating systems. The DHCP Client API requires Windows XP and later client operating systems. The APIs can be dynamically linked through Dhcpcsvc.dll and Dhcpcsvc6.dll (for client APIs), or Dhcpsapi.dll (for server APIs).
+The DHCP Server API requires Windows Server 2003 and later operating systems. The DHCP Client API requires Windows XP and later client operating systems. The APIs can be dynamically linked through Dhcpcsvc.dll and Dhcpcsvc6.dll (for client APIs), or Dhcpsapi.dll (for server APIs).
 
 ## In this section
 
@@ -38,7 +47,7 @@ The DHCP Server API requires Windows Server 2003 and later operating systems. Th
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -50,9 +59,9 @@ The DHCP Server API requires Windows Server 2003 and later operating systems. Th
 [Internet Protocol Helper](_iphlp_ip_helper_start_page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

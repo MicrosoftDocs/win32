@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a basic service set (BSS) network type.'
-ms.assetid: '13d57339-655e-4978-974e-e7b12a83d18a'
-title: 'DOT11\_BSS\_TYPE enumeration'
+---
+Description: Defines a basic service set (BSS) network type.
+ms.assetid: 13d57339-655e-4978-974e-e7b12a83d18a
+title: DOT11\_BSS\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT11\_BSS\_TYPE enumeration
@@ -63,13 +68,13 @@ Specifies either infrastructure or IBSS network.
 
 <dl> <dt>
 
-[**WLAN\_BSS\_ENTRY**](wlan-bss-entry.md)
+[**WLAN\_BSS\_ENTRY**](/windows/win32/wlanapi/ns-wlanapi-_wlan_bss_entry?branch=master)
 </dt> <dt>
 
-[**WLAN\_CONNECTION\_PARAMETERS**](wlan-connection-parameters.md)
+[**WLAN\_CONNECTION\_PARAMETERS**](/windows/win32/wlanapi/ns-wlanapi-_wlan_connection_parameters?branch=master)
 </dt> <dt>
 
-[**WlanGetNetworkBssList**](wlangetnetworkbsslist.md)
+[**WlanGetNetworkBssList**](/windows/win32/Wlanapi/nf-wlanapi-wlangetnetworkbsslist?branch=master)
 </dt> </dl>
 
  

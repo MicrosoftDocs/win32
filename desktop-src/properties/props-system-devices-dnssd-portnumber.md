@@ -1,7 +1,12 @@
 ---
-Description: 'Port number on which the service is listening.'
-ms.assetid: 'e33814ce-f503-4037-a457-502d0adbe03a'
-title: 'System.Devices.Dnssd.PortNumber'
+Description: Port number on which the service is listening.
+ms.assetid: e33814ce-f503-4037-a457-502d0adbe03a
+title: System.Devices.Dnssd.PortNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Dnssd.PortNumber

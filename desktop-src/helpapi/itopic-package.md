@@ -1,8 +1,11 @@
 ---
 title: ITopic Package property
 description: Returns the package that the topic resides in
-ms.assetid: 'b78fefaf-0bca-4c31-9b10-ab0d1348e2de'
-keywords: ["Package property HelpAPI", "Package property HelpAPI , ITopic interface", "ITopic interface HelpAPI , Package property"]
+ms.assetid: b78fefaf-0bca-4c31-9b10-ab0d1348e2de
+keywords:
+- Package property HelpAPI
+- Package property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , Package property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::Package property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Package(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The package that contains this topic.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The package that contains this topic.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

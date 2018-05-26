@@ -1,8 +1,16 @@
 ---
 title: Playing Waveform-Audio Files
 description: Playing Waveform-Audio Files
-ms.assetid: '9bac8493-3304-46d5-ac4f-dac0f6fea173'
-keywords: ["waveform audio,playing files", "waveform-audio interface,playing files", "playing waveform-audio files,about"]
+ms.assetid: 9bac8493-3304-46d5-ac4f-dac0f6fea173
+keywords:
+- waveform audio,playing files
+- waveform-audio interface,playing files
+- playing waveform-audio files,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing Waveform-Audio Files

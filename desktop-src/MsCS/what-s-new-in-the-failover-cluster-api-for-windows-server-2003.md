@@ -1,13 +1,16 @@
 ---
-title: What's New in the Failover Cluster API for Windows Server 2003
+title: Whats New in the Failover Cluster API for Windows Server 2003
 description: This summarizes the changes in the Failover Cluster APIs for Windows Server 2003.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e83a5d5b-4cf1-464b-9637-9c7b7ff4ae8e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e83a5d5b-4cf1-464b-9637-9c7b7ff4ae8e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in the Failover Cluster API for Windows Server 2003
@@ -16,7 +19,7 @@ This summarizes the changes in the Failover Cluster APIs for Windows Server 200
 
 ## New APIs introduced in Windows Server 2003:
 
--   [**CLUS\_FORCE\_QUORUM\_INFO**](clus-force-quorum-info.md)
+-   [**CLUS\_FORCE\_QUORUM\_INFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clus_force_quorum_info?branch=master)
 -   [CLUSCTL\_CLUSTER\_GET\_COMMON\_PROPERTY\_FMTS](clusctl-cluster-get-common-property-fmts.md)
 -   [CLUSCTL\_CLUSTER\_GET\_FQDN](clusctl-cluster-get-fqdn.md)
 -   [CLUSCTL\_CLUSTER\_GET\_PRIVATE\_PROPERTY\_FMTS](clusctl-cluster-get-private-property-fmts.md)
@@ -36,16 +39,16 @@ This summarizes the changes in the Failover Cluster APIs for Windows Server 200
 -   [CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_PROPERTY\_FMTS](clusctl-resource-type-get-private-property-fmts.md)
 -   [CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_RESOURCE\_PROPERTY\_FMTS](clusctl-resource-type-get-private-resource-property-fmts.md)
 -   [CLUSCTL\_RESOURCE\_UPGRADE\_DLL](clusctl-resource-upgrade-dll.md)
--   [**CLUSPROP\_WORD**](clusprop-word.md)
+-   [**CLUSPROP\_WORD**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_word?branch=master)
 -   [Cluster Configuration Interfaces](https://msdn.microsoft.com/library/aa372941)
--   [**ClusterGetEnumCount**](clustergetenumcount.md)
--   [**ClusterGroupGetEnumCount**](clustergroupgetenumcount.md)
--   [**ClusterNetworkGetEnumCount**](clusternetworkgetenumcount.md)
--   [**ClusterNodeGetEnumCount**](clusternodegetenumcount.md)
--   [**ClusterResourceGetEnumCount**](clusterresourcegetenumcount.md)
--   [**ClusterResourceTypeGetEnumCount**](clusterresourcetypegetenumcount.md)
+-   [**ClusterGetEnumCount**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_get_enum_count?branch=master)
+-   [**ClusterGroupGetEnumCount**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_get_enum_count?branch=master)
+-   [**ClusterNetworkGetEnumCount**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_network_get_enum_count?branch=master)
+-   [**ClusterNodeGetEnumCount**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_node_get_enum_count?branch=master)
+-   [**ClusterResourceGetEnumCount**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_get_enum_count?branch=master)
+-   [**ClusterResourceTypeGetEnumCount**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_type_get_enum_count?branch=master)
 -   [**CSCCache Property for File Shares**](file-shares-csccache.md)
--   [**EvictClusterNodeEx**](evictclusternodeex.md)
+-   [**EvictClusterNodeEx**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_evict_cluster_node_ex?branch=master)
 -   [**MulticastAddress Property for Networks**](networks-multicastaddress.md)
 -   [**MulticastAddressRangeLower Property for Networks**](networks-multicastaddressrangelower.md)
 -   [**MulticastAddressRangeUpper Property for Networks**](networks-multicastaddressrangeupper.md)
@@ -55,18 +58,18 @@ This summarizes the changes in the Failover Cluster APIs for Windows Server 200
 -   [**MulticastLeaseObtained Property for Networks**](networks-multicastleaseobtained.md)
 -   [**MulticastLeaseRequestId Property for Networks**](networks-multicastleaserequestid.md)
 -   [**MulticastLeaseServer Property for Networks**](networks-multicastleaseserver.md)
--   [**ResUtilEnumResourcesEx**](resutilenumresourcesex.md)
--   [**ResUtilGetPropertyFormats**](resutilgetpropertyformats.md)
--   [**ResUtilGetCoreClusterResources**](resutilgetcoreclusterresources.md)
--   [**ResUtilGetResourceName**](resutilgetresourcename.md)
--   [**ResUtilTerminateServiceProcessFromResDll**](resutilterminateserviceprocessfromresdll.md)
+-   [**ResUtilEnumResourcesEx**](/windows/previous-versions/ResApi/nc-resapi-presutil_enum_resources_ex?branch=master)
+-   [**ResUtilGetPropertyFormats**](/windows/previous-versions/ResApi/nc-resapi-presutil_get_property_formats?branch=master)
+-   [**ResUtilGetCoreClusterResources**](/windows/previous-versions/ResApi/nc-resapi-presutil_get_core_cluster_resources?branch=master)
+-   [**ResUtilGetResourceName**](/windows/previous-versions/ResApi/nc-resapi-presutil_get_resource_name?branch=master)
+-   [**ResUtilTerminateServiceProcessFromResDll**](/windows/previous-versions/ResApi/nc-resapi-presutil_terminate_service_process_from_res_dll?branch=master)
 -   [The Generic Script Resource Type](generic-script.md)
 -   [The Failover Cluster WMI provider](https://msdn.microsoft.com/library/aa372946)
 
 ## Changed APIs for Windows Server 2003:
 
 -   New localquorum characteristics flags are defined for [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](clusctl-resource-get-characteristics.md).
--   A new event, **CLUSTER\_CHANGE\_CLUSTER\_RECONNECT**, is available to [**CreateClusterNotifyPort**](createclusternotifyport.md), [**RegisterClusterNotify**](registerclusternotify.md), and [**GetClusterNotify**](getclusternotify.md).
+-   A new event, **CLUSTER\_CHANGE\_CLUSTER\_RECONNECT**, is available to [**CreateClusterNotifyPort**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster_notify_port?branch=master), [**RegisterClusterNotify**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_register_cluster_notify?branch=master), and [**GetClusterNotify**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_notify?branch=master).
 
  
 

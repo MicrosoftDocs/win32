@@ -1,12 +1,17 @@
 ---
 title: Formatting Event Messages
 description: An event can contain localized message strings that you can format for display.
-ms.assetid: '31dd8276-1925-4a0e-9e2a-6966e8086238'
+ms.assetid: 31dd8276-1925-4a0e-9e2a-6966e8086238
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting Event Messages
 
-An event can contain localized message strings that you can format for display. To get a message string from the event, call the [**EvtFormatMessage**](evtformatmessage.md) function. An event can contain the following message strings:
+An event can contain localized message strings that you can format for display. To get a message string from the event, call the [**EvtFormatMessage**](/windows/win32/WinEvt/nf-winevt-evtformatmessage?branch=master) function. An event can contain the following message strings:
 
 -   A message string for the event itself.
 -   A message string that describes the level value assigned to the event.
@@ -15,7 +20,7 @@ An event can contain localized message strings that you can format for display. 
 -   A message string that describes the keyword values assigned to the event.
 -   A message string that describes the channel value assigned to the event.
 
-You can also use [**EvtFormatMessage**](evtformatmessage.md) to get the message string for the provider or an XML string that contains the event and all the message strings.
+You can also use [**EvtFormatMessage**](/windows/win32/WinEvt/nf-winevt-evtformatmessage?branch=master) to get the message string for the provider or an XML string that contains the event and all the message strings.
 
 In addition to getting the message strings from the events that you query, you can also get the message strings from the provider's metadata. For details on formatting a message based on a message identifier that you get from the provider's metadata, see [Getting a Provider's Metadata](getting-a-provider-s-metadata-.md).
 

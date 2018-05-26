@@ -1,7 +1,12 @@
-﻿---
-Description: 'Moves an item or items to this folder.'
-ms.assetid: '07723dc1-5d9d-4f32-ab18-52617b0988c4'
-title: 'Folder.MoveHere method'
+---
+Description: Moves an item or items to this folder.
+ms.assetid: 07723dc1-5d9d-4f32-ab18-52617b0988c4
+title: Folder.MoveHere method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder.MoveHere method
@@ -38,7 +43,7 @@ The item or items to move. This can be a string that represents a file name, a [
 
 Type: **Variant**
 
-Options for the move operation. This value can be zero or a combination of the following values. These values are based upon flags defined for use with the **fFlags** member of the C++ [**SHFILEOPSTRUCT**](shfileopstruct.md) structure. These flags are not defined as such for Visual Basic, VBScript, or JScript, so you must define them yourself or use their numeric equivalents.
+Options for the move operation. This value can be zero or a combination of the following values. These values are based upon flags defined for use with the **fFlags** member of the C++ [**SHFILEOPSTRUCT**](/windows/win32/Shellapi/ns-shellapi-_shfileopstructa?branch=master) structure. These flags are not defined as such for Visual Basic, VBScript, or JScript, so you must define them yourself or use their numeric equivalents.
 
 <dt>
 

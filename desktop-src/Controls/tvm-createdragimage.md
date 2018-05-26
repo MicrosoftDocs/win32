@@ -1,8 +1,9 @@
 ---
 title: TVM\_CREATEDRAGIMAGE message
 description: Creates a dragging bitmap for the specified item in a tree-view control.
-ms.assetid: 'fbe97921-c9d3-473c-933c-d6bc0599e24d'
-keywords: ["TVM_CREATEDRAGIMAGE message Windows Controls"]
+ms.assetid: fbe97921-c9d3-473c-933c-d6bc0599e24d
+keywords:
+- TVM_CREATEDRAGIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_CREATEDRAGIMAGE message
 
-Creates a dragging bitmap for the specified item in a tree-view control. The message also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can send this message explicitly or by using the [**TreeView\_CreateDragImage**](treeview-createdragimage.md) macro.
+Creates a dragging bitmap for the specified item in a tree-view control. The message also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can send this message explicitly or by using the [**TreeView\_CreateDragImage**](/windows/win32/Commctrl/nf-commctrl-treeview_createdragimage?branch=master) macro.
 
 ## Parameters
 
@@ -47,15 +53,15 @@ Your application is responsible for destroying the image list when it is no long
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

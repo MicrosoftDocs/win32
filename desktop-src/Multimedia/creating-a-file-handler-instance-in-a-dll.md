@@ -1,12 +1,17 @@
 ---
 title: Creating a File-Handler Instance in a DLL
 description: Creating a File-Handler Instance in a DLL
-ms.assetid: '0cf7ef72-c675-4a67-97b3-18cccfb7ddc1'
+ms.assetid: 0cf7ef72-c675-4a67-97b3-18cccfb7ddc1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a File-Handler Instance in a DLL
 
-When an application specifies your file-handler DLL or stream handler, the system looks it up in the registry by its class identifier and loaded. The system then calls the [**DllGetClassObject**](dllgetclassobject.md) function of the DLL to create an instance of the file or stream handler. The following example (written in C++) shows how a file handler creates an instance.
+When an application specifies your file-handler DLL or stream handler, the system looks it up in the registry by its class identifier and loaded. The system then calls the [**DllGetClassObject**](/windows/win32/Objbase/?branch=master) function of the DLL to create an instance of the file or stream handler. The following example (written in C++) shows how a file handler creates an instance.
 
 
 ```C++

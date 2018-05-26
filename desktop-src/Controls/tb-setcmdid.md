@@ -1,8 +1,9 @@
 ---
 title: TB\_SETCMDID message
 description: Sets the command identifier of a toolbar button.
-ms.assetid: '0674c905-2d9d-45d3-b565-2f3bcd7d6383'
-keywords: ["TB_SETCMDID message Windows Controls"]
+ms.assetid: 0674c905-2d9d-45d3-b565-2f3bcd7d6383
+keywords:
+- TB_SETCMDID message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETCMDID message
@@ -45,15 +51,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

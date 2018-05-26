@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the data for the value of a specified registry key in an offline registry hive.'
-ms.assetid: '62fd3a3a-6ce3-4313-b0e7-37ceea0ce302'
+---
+Description: Sets the data for the value of a specified registry key in an offline registry hive.
+ms.assetid: 62fd3a3a-6ce3-4313-b0e7-37ceea0ce302
 title: ORSetValue function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORSetValue function

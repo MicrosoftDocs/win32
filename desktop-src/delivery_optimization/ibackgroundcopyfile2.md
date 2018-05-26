@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyFile2 interface
 description: Use the IBackgroundCopyFile2 interface to specify a new remote name for the file and retrieve the list of ranges to download.
-ms.assetid: '28233310-9F2A-4567-B0B1-B549F862F3C8'
-keywords: ["IBackgroundCopyFile2 interface", "IBackgroundCopyFile2 interface, described"]
+ms.assetid: 28233310-9F2A-4567-B0B1-B549F862F3C8
+keywords:
+- IBackgroundCopyFile2 interface
+- IBackgroundCopyFile2 interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile2 interface
@@ -40,7 +47,7 @@ The **IBackgroundCopyFile2** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,7 +55,7 @@ The **IBackgroundCopyFile2** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -65,9 +72,9 @@ The **IBackgroundCopyFile2** interface has these methods.
 [**IBackgroundCopyFile**](ibackgroundcopyfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

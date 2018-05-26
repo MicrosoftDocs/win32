@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether the IContextNode object contains data stored under the specified identifier.'
-ms.assetid: 'ac3a85a2-abf8-4ac4-8779-d9fda89497d4'
-title: 'IContextNode::ContainsPropertyData method'
+Description: Determines whether the IContextNode object contains data stored under the specified identifier.
+ms.assetid: ac3a85a2-abf8-4ac4-8779-d9fda89497d4
+title: IContextNodeContainsPropertyData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::ContainsPropertyData method
@@ -13,8 +18,8 @@ Determines whether the [**IContextNode**](icontextnode.md) object contains data 
 
 ```C++
 HRESULT ContainsPropertyData(
-  [in]  const GUID         *pPropertyDataId,
-  [out]       VARIANT_BOOL *pbContains
+  [in]  const GUID         *pPropertyDataId,
+  [out]       VARIANT_BOOL *pbContains
 );
 ```
 
@@ -52,7 +57,7 @@ In addition to application-specific data, you can also use this method to determ
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -87,9 +92,9 @@ In addition to application-specific data, you can also use this method to determ
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

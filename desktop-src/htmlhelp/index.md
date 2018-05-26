@@ -1,7 +1,12 @@
 ---
 title: Index
 description: Creates a graphical index that displays a specified index (.hhk) file.
-ms.assetid: '29669B4F-E200-4557-A7E9-0E3245B443A3'
+ms.assetid: 29669B4F-E200-4557-A7E9-0E3245B443A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Index

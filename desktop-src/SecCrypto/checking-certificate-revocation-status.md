@@ -1,7 +1,12 @@
 ---
-Description: 'CAPICOM does not enable certificate revocation checking by default.'
-ms.assetid: 'c6e2724c-1802-4bc4-a0e4-3cb85427a445'
+Description: CAPICOM does not enable certificate revocation checking by default.
+ms.assetid: c6e2724c-1802-4bc4-a0e4-3cb85427a445
 title: Checking Certificate Revocation Status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking Certificate Revocation Status

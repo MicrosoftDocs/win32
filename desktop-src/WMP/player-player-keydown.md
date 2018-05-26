@@ -1,8 +1,11 @@
 ---
 title: Player.KeyDown event
 description: The KeyDown event occurs when a key is pressed.
-ms.assetid: 'a34dafca-5db2-4065-bcfe-d66e633b26fb'
-keywords: ["KeyDown event Windows Media Player", "KeyDown event Windows Media Player , Player class", "Player class Windows Media Player , KeyDown event"]
+ms.assetid: a34dafca-5db2-4065-bcfe-d66e633b26fb
+keywords:
+- KeyDown event Windows Media Player
+- KeyDown event Windows Media Player , Player class
+- Player class Windows Media Player , KeyDown event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.KeyDown event
@@ -79,7 +87,7 @@ Values for the main keys.
 
 
 
- 
+ 
 
 Values for the number pad keys.
 
@@ -98,7 +106,7 @@ Values for the number pad keys.
 
 
 
- 
+ 
 
 Values for the navigation keys.
 
@@ -119,7 +127,7 @@ Values for the navigation keys.
 
 
 
- 
+ 
 
 The value of event parameters is specified by Windows Media Player, and can be accessed or passed to a method in an imported JScript file using the parameter name given. This parameter name must be typed exactly as shown, including capitalization.
 
@@ -143,9 +151,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: This is the default maximum number of objects to be shown in a cont
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ee84329-4ddf-4efa-a43b-f64e6d0e7f76'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4ee84329-4ddf-4efa-a43b-f64e6d0e7f76
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["DS-UI-Admin-Maximum attribute AD Schema", "dSUIAdminMaximum attribute AD Schema"]
+keywords:
+- DS-UI-Admin-Maximum attribute AD Schema
+- dSUIAdminMaximum attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - DS-UI-Admin-Maximum
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS-UI-Admin-Maximum attribute
@@ -38,12 +43,12 @@ This is the default maximum number of objects to be shown in a container by the 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

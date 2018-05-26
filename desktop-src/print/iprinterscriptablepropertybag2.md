@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '97586B8D-D070-4DF1-AECE-50EB4D28414B'
+---
+Description: .
+ms.assetid: 97586B8D-D070-4DF1-AECE-50EB4D28414B
 title: IPrinterScriptablePropertyBag2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag2 interface

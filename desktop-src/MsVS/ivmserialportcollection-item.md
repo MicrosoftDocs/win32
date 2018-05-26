@@ -1,8 +1,13 @@
 ---
 title: IVMSerialPortCollection Item property
 description: The Item property contains the IVMSerialPort object that corresponds to the given index in this collection.
-ms.assetid: '4c81c810-b421-468f-811c-28e257df63f9'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMSerialPortCollection interface", "IVMSerialPortCollection interface Virtual Server , Item property", "Item property Virtual Server , VMSerialPortCollection interface", "VMSerialPortCollection interface Virtual Server , Item property"]
+ms.assetid: 4c81c810-b421-468f-811c-28e257df63f9
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMSerialPortCollection interface
+- IVMSerialPortCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMSerialPortCollection interface
+- VMSerialPortCollection interface Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPortCollection::Item property
@@ -26,8 +36,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long          index,
-  [out] IVMSerialPort **serialPort
+  [in]  long          index,
+  [out] IVMSerialPort **serialPort
 );
 ```
 
@@ -80,8 +90,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ This property value is read-only.
 [**IVMSerialPortCollection**](ivmserialportcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

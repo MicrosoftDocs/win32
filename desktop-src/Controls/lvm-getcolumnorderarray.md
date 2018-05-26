@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETCOLUMNORDERARRAY message
 description: Gets the current left-to-right order of columns in a list-view control. You can send this message explicitly or use the ListView\_GetColumnOrderArray macro.
-ms.assetid: 'd4636aa8-c61e-4467-abc7-eea897bf370e'
-keywords: ["LVM_GETCOLUMNORDERARRAY message Windows Controls"]
+ms.assetid: d4636aa8-c61e-4467-abc7-eea897bf370e
+keywords:
+- LVM_GETCOLUMNORDERARRAY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETCOLUMNORDERARRAY message
 
-Gets the current left-to-right order of columns in a list-view control. You can send this message explicitly or use the [**ListView\_GetColumnOrderArray**](listview-getcolumnorderarray.md) macro.
+Gets the current left-to-right order of columns in a list-view control. You can send this message explicitly or use the [**ListView\_GetColumnOrderArray**](/windows/win32/Commctrl/nf-commctrl-listview_getcolumnorderarray?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ If successful, returns nonzero, and the buffer at *lParam* receives the column i
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

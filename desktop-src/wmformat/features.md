@@ -1,8 +1,19 @@
 ---
 title: Features
 description: Features
-ms.assetid: '6e180f27-69ef-4fe0-b06c-b2ead7be8a05'
-keywords: ["Windows Media Format SDK,features", "Windows Media Format SDK,key features", "Advanced Systems Format (ASF),features", "ASF (Advanced Systems Format),features", "Advanced Systems Format (ASF),key features", "ASF (Advanced Systems Format),key features"]
+ms.assetid: 6e180f27-69ef-4fe0-b06c-b2ead7be8a05
+keywords:
+- Windows Media Format SDK,features
+- Windows Media Format SDK,key features
+- Advanced Systems Format (ASF),features
+- ASF (Advanced Systems Format),features
+- Advanced Systems Format (ASF),key features
+- ASF (Advanced Systems Format),key features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Features

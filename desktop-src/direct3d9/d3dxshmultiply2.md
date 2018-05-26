@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes the product of two functions represented using SH (f and g).'
-ms.assetid: '632400a4-2ac9-438d-85f7-869101f350c8'
+---
+Description: Computes the product of two functions represented using SH (f and g).
+ms.assetid: 632400a4-2ac9-438d-85f7-869101f350c8
 title: D3DXSHMultiply2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHMultiply2 function

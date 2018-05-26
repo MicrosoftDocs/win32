@@ -1,12 +1,17 @@
 ---
 title: 10Level9 ID3D11Device Methods
 description: This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the ID3D11Device methods.
-ms.assetid: 'c3bc32a9-8d97-430b-be6a-b4935d7ac56c'
+ms.assetid: c3bc32a9-8d97-430b-be6a-b4935d7ac56c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 10Level9 ID3D11Device Methods
 
-This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the [**ID3D11Device**](id3d11device.md) methods.
+This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) methods.
 
 -   [ID3D11Device::CheckCounter](#id3d11devicecheckcounter)
 -   [ID3D11Device::CheckFormatSupport](#id3d11devicecheckformatsupport)
@@ -50,7 +55,7 @@ This section lists the differences between each 10Level9 feature level and the D
 <tbody>
 <tr class="odd">
 <td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Device-dependent counters are optionally supported. Use [<strong>ID3D11Device::CheckCounterInfo</strong>](id3d11device-checkcounterinfo.md) to determine support.${REMOVE}$<br />
+<td rowspan="3">Device-dependent counters are optionally supported. Use [<strong>ID3D11Device::CheckCounterInfo</strong>](/windows/win32/D3D11/nf-d3d11-id3d11device-checkcounterinfo?branch=master) to determine support.${REMOVE}$<br />
 </td>
 </tr>
 <tr class="even">
@@ -66,7 +71,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CheckFormatSupport
 
@@ -98,7 +103,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CheckMultisampleQualityLevels
 
@@ -130,7 +135,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateBlendState
 
@@ -145,7 +150,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateBlendState1
 
@@ -156,11 +161,11 @@ This section lists the differences between each 10Level9 feature level and the D
 | D3D\_FEATURE\_LEVEL\_9\_1  | Unsupported<br/>                                                                                                                                                                                                                                                                                                                                       |
 | D3D\_FEATURE\_LEVEL\_9\_2  | Unsupported<br/>                                                                                                                                                                                                                                                                                                                                       |
 | D3D\_FEATURE\_LEVEL\_9\_3  | Unsupported<br/>                                                                                                                                                                                                                                                                                                                                       |
-| D3D\_FEATURE\_LEVEL\_10\_0 | The *OutputMergerLogicOp* member has been added to [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](d3d11-feature-data-d3d11-options.md), to determine support for logical operations (bitwise logic operations between pixel shader output and render target contents, refer to [**D3D11\_RENDER\_TARGET\_BLEND\_DESC1**](d3d11-render-target-blend-desc1.md)). |
+| D3D\_FEATURE\_LEVEL\_10\_0 | The *OutputMergerLogicOp* member has been added to [**D3D11\_FEATURE\_DATA\_D3D11\_OPTIONS**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options?branch=master), to determine support for logical operations (bitwise logic operations between pixel shader output and render target contents, refer to [**D3D11\_RENDER\_TARGET\_BLEND\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-d3d11_render_target_blend_desc1?branch=master)). |
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateBuffer
 
@@ -192,7 +197,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateCounter
 
@@ -224,7 +229,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateDepthStencilView
 
@@ -256,7 +261,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateDomainShader
 
@@ -296,7 +301,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateGeometryShader
 
@@ -328,7 +333,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateGeometryShaderWithStreamOutput
 
@@ -360,7 +365,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateHullShader
 
@@ -400,7 +405,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateInputLayout
 
@@ -414,7 +419,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 See the format support by [feature level chart](overviews-direct3d-11-devices-downlevel-intro.md) for details on what formats can be used for vertex data at each feature level.
 
@@ -430,7 +435,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreatePredicate
 
@@ -462,7 +467,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateQuery
 
@@ -470,13 +475,13 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 | Feature Level             | Behavior Differences                                                                                                                                  |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| D3D\_FEATURE\_LEVEL\_9\_1 | Event queries are supported. Timestamp queries are optional: call [**CreateQuery**](id3d11device-createquery.md) to determine support.               |
-| D3D\_FEATURE\_LEVEL\_9\_2 | Event and occlusion queries are supported. Timestamp queries are optional: call [**CreateQuery**](id3d11device-createquery.md) to determine support. |
-| D3D\_FEATURE\_LEVEL\_9\_3 | Event and occlusion queries are supported. Timestamp queries are optional: call [**CreateQuery**](id3d11device-createquery.md) to determine support. |
+| D3D\_FEATURE\_LEVEL\_9\_1 | Event queries are supported. Timestamp queries are optional: call [**CreateQuery**](/windows/win32/D3D11/nf-d3d11-id3d11device-createquery?branch=master) to determine support.               |
+| D3D\_FEATURE\_LEVEL\_9\_2 | Event and occlusion queries are supported. Timestamp queries are optional: call [**CreateQuery**](/windows/win32/D3D11/nf-d3d11-id3d11device-createquery?branch=master) to determine support. |
+| D3D\_FEATURE\_LEVEL\_9\_3 | Event and occlusion queries are supported. Timestamp queries are optional: call [**CreateQuery**](/windows/win32/D3D11/nf-d3d11-id3d11device-createquery?branch=master) to determine support. |
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateRasterizerState
 
@@ -508,7 +513,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateRenderTargetView
 
@@ -540,7 +545,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateSamplerState
 
@@ -572,7 +577,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateShaderResourceView
 
@@ -586,7 +591,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateTexture1D
 
@@ -618,7 +623,7 @@ See the format support by [feature level chart](overviews-direct3d-11-devices-do
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateTexture2D
 
@@ -634,7 +639,7 @@ Texture2D resources have limits on their width and height that differ across [fe
 
 
 
- 
+ 
 
 In the previous table, the full name of **MISC\_TEXTURECUBE** is [**D3D11\_RESOURCE\_MISC\_TEXTURECUBE**](d3d11-resource-misc-flag.md#d3d11-resource-misc-texturecube).
 
@@ -658,7 +663,7 @@ The following are true for all 9\_\* [feature levels](overviews-direct3d-11-devi
 
 
 
- 
+ 
 
 If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags cannot be zero.
 
@@ -692,7 +697,7 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 
 
 
- 
+ 
 
 ## ID3D11Device::CreateVertexShader
 
@@ -706,7 +711,7 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 
 
 
- 
+ 
 
 ## ID3D11Device::OpenSharedResource
 
@@ -726,7 +731,7 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 <tbody>
 <tr class="odd">
 <td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> Use [<strong>ID3D11Device::CheckFeatureSupport</strong>](id3d11device-checkfeaturesupport.md) with the [<strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong>](d3d11-feature.md#d3d11-feature-format-support2) value and the [<strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong>](d3d11-feature-data-format-support2.md) structure to determine if a format can be shared. If the format can be shared, <strong>CheckFeatureSupport</strong> returns the [<strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong>](d3d11-format-support2.md#d3d11-format-support2-shareable) flag.<br/>
+<td rowspan="3"> Use [<strong>ID3D11Device::CheckFeatureSupport</strong>](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) with the [<strong>D3D11_FEATURE_FORMAT_SUPPORT2</strong>](d3d11-feature.md#d3d11-feature-format-support2) value and the [<strong>D3D11_FEATURE_DATA_FORMAT_SUPPORT2</strong>](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_format_support2?branch=master) structure to determine if a format can be shared. If the format can be shared, <strong>CheckFeatureSupport</strong> returns the [<strong>D3D11_FORMAT_SUPPORT2_SHAREABLE</strong>](d3d11-format-support2.md#d3d11-format-support2-shareable) flag.<br/>
 <blockquote>
 [!Note]<br />
 [<strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong>](https://msdn.microsoft.com/library/windows/desktop/bb173059) and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> are never shareable when using feature level 9, even if the device indicates optional feature support for <strong>D3D11_FORMAT_SUPPORT_SHAREABLE</strong>. Attempting to create shared resources with DXGI formats <strong>DXGI_FORMAT_R8G8B8A8_UNORM</strong> and <strong>DXGI_FORMAT_R8G8B8A8_UNORM_SRGB</strong> will always fail unless the feature level is 10_0 or higher.
@@ -747,7 +752,7 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -756,9 +761,9 @@ If resource is D3D11\_USAGE\_DEFAULT or D3D11\_USAGE\_IMMUTABLE, BindFlags canno
 [10Level9 Reference](d3d11-graphics-reference-10level9.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

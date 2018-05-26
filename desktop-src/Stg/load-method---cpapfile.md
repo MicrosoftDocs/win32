@@ -1,13 +1,19 @@
 ---
 title: Load Method - CPapFile
 description: When these operations are successful, the obtained IStorage interface is released. This closes the file and indicates that the file is not held open during other client operations. It will be reopened when required.
-ms.assetid: '40f79adb-87f3-4b0e-9cfe-927a4bc9ada5'
-keywords: ["Load Method - CPapFile"]
+ms.assetid: 40f79adb-87f3-4b0e-9cfe-927a4bc9ada5
+keywords:
+- Load Method - CPapFile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load Method - CPapFile
 
-When these operations are successful, the obtained [**IStorage**](istorage.md) interface is released. This closes the file and indicates that the file is not held open during other client operations. It will be reopened when required.
+When these operations are successful, the obtained [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface is released. This closes the file and indicates that the file is not held open during other client operations. It will be reopened when required.
 
 This example is the **CPapFile** **Load** method from Papfile.cpp.
 
@@ -75,11 +81,11 @@ HRESULT CPapFile::Load(
 
 ### Remarks
 
-As with the [**Save**](save-method---cpapfile.md) method, if **NULL** is passed for the *pszFileName* parameter, the stored content of member **m\_szCurFileName** is used for the file name. Because an existing file may be opened, the APPUTIL **FileExist** function is first used to verify that the file exists. If it exists, the standard [**StgIsStorageFile**](stgisstoragefile.md) service function is called to verify the format of the file to determine if it is a valid compound file.
+As with the [**Save**](save-method---cpapfile.md) method, if **NULL** is passed for the *pszFileName* parameter, the stored content of member **m\_szCurFileName** is used for the file name. Because an existing file may be opened, the APPUTIL **FileExist** function is first used to verify that the file exists. If it exists, the standard [**StgIsStorageFile**](/windows/win32/coml2api/nf-coml2api-stgisstoragefile?branch=master) service function is called to verify the format of the file to determine if it is a valid compound file.
 
-If the file is valid, the standard [**StgOpenStorage**](stgopenstorage.md) service function is called to open the file and return a pointer to an [**IStorage**](istorage.md) interface for it.
+If the file is valid, the standard [**StgOpenStorage**](/windows/win32/coml2api/nf-coml2api-stgopenstorage?branch=master) service function is called to open the file and return a pointer to an [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface for it.
 
-The first parameter is the name of the compound file to open. As with the [**StgCreateDocfile**](stgcreatedocfile.md) call, this string is expected in the Unicode form, and during ANSI compilation an APPUTIL macro is used to ensure the ANSI parameter is converted to the expected Unicode.
+The first parameter is the name of the compound file to open. As with the [**StgCreateDocfile**](/windows/win32/coml2api/nf-coml2api-stgcreatedocfile?branch=master) call, this string is expected in the Unicode form, and during ANSI compilation an APPUTIL macro is used to ensure the ANSI parameter is converted to the expected Unicode.
 
 The second priority storage parameter is **NULL**, indicating it is not used in this sample.
 
@@ -89,11 +95,11 @@ The fourth element exclusion parameter in **NULL**, indicating it is not used in
 
 The fifth parameter is reserved for future use and must be zero.
 
-The address of pointer variable **m\_pIStorage** is passed as the sixth parameter. When the call successfully returns, **m\_pIStorage** contains a pointer to an [**IStorage**](istorage.md) interface. This is the interface that is used for any subsequent operations on the opened file.
+The address of pointer variable **m\_pIStorage** is passed as the sixth parameter. When the call successfully returns, **m\_pIStorage** contains a pointer to an [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface. This is the interface that is used for any subsequent operations on the opened file.
 
-The important operation in this case is to have the COPaper object load its drawing data from the file. This is done above using the **Load** method of COPaper's [**IPaper**](ipaper-methods.md) interface. If COPaper succeeds in loading its data using the [**IStorage**](istorage.md) provided, the name of the compound file is copied into **m\_szCurFileName** as the new current file name.
+The important operation in this case is to have the COPaper object load its drawing data from the file. This is done above using the **Load** method of COPaper's [**IPaper**](ipaper-methods.md) interface. If COPaper succeeds in loading its data using the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) provided, the name of the compound file is copied into **m\_szCurFileName** as the new current file name.
 
-When these operations are successfully completed, the [**IStorage**](istorage.md) interface that was obtained is released. This closes the file and means that the file is not held open during other client operations. It will be reopened when required.
+When these operations are successfully completed, the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface that was obtained is released. This closes the file and means that the file is not held open during other client operations. It will be reopened when required.
 
  
 

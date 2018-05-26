@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the audio stream category for the Streaming Audio Renderer (SAR).'
-ms.assetid: '88E79DE6-2062-4471-A939-D1D4DD2EC42D'
-title: 'MF\_AUDIO\_RENDERER\_ATTRIBUTE\_STREAM\_CATEGORY attribute'
+---
+Description: Specifies the audio stream category for the Streaming Audio Renderer (SAR).
+ms.assetid: 88E79DE6-2062-4471-A939-D1D4DD2EC42D
+title: MF\_AUDIO\_RENDERER\_ATTRIBUTE\_STREAM\_CATEGORY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_AUDIO\_RENDERER\_ATTRIBUTE\_STREAM\_CATEGORY attribute
@@ -20,8 +25,8 @@ You can use this attribute to configure the audio renderer. The usage depends on
 
 | Function                                                               | How to Set the attribute                                                                                                                                                                       |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md)                 | Use the [**IMFAttributes**](imfattributes.md) pointer specified in the *pAudioAttributes* parameter.                                                                                          |
-| [**MFCreateAudioRendererActivate**](mfcreateaudiorendereractivate.md) | Use the [**IMFActivate**](imfactivate.md) pointer returned in the *ppActivate* parameter. Set the attribute before calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md). |
+| [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master)                 | Use the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer specified in the *pAudioAttributes* parameter.                                                                                          |
+| [**MFCreateAudioRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorendereractivate?branch=master) | Use the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer returned in the *ppActivate* parameter. Set the attribute before calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master). |
 
 
 

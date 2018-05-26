@@ -1,7 +1,12 @@
-﻿---
-Description: 'On Windows XP and later operating systems, the installer sets the MsiNTSuitePersonal property to 1 if the operating system is Windows XP Home Edition.'
-ms.assetid: '324a4c45-bd64-4361-90ba-6a0554a9c5ef'
+---
+Description: On Windows XP and later operating systems, the installer sets the MsiNTSuitePersonal property to 1 if the operating system is Windows XP Home Edition.
+ms.assetid: 324a4c45-bd64-4361-90ba-6a0554a9c5ef
 title: MsiNTSuitePersonal property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiNTSuitePersonal property

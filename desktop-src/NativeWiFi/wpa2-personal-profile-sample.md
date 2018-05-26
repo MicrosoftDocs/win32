@@ -1,7 +1,12 @@
 ---
-Description: 'Uses a pre-shared key for network authentication.'
-ms.assetid: 'dbbadac6-1b7e-4161-a775-a934cf201c9d'
-title: 'WPA2-Personal Profile Sample'
+Description: Uses a pre-shared key for network authentication.
+ms.assetid: dbbadac6-1b7e-4161-a775-a934cf201c9d
+title: WPA2-Personal Profile Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPA2-Personal Profile Sample

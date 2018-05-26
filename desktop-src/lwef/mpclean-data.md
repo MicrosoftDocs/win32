@@ -1,8 +1,10 @@
 ---
 title: MPCLEAN\_DATA structure
 description: Notification data passed to clean callback function.
-ms.assetid: '475A6525-5BD8-4B29-A684-53EE2758C790'
-keywords: ["MPCLEAN_DATA structure Legacy Windows Environment Features", "PMPCLEAN_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 475A6525-5BD8-4B29-A684-53EE2758C790
+keywords:
+- MPCLEAN_DATA structure Legacy Windows Environment Features
+- PMPCLEAN_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCLEAN\_DATA structure
@@ -22,9 +29,9 @@ Notification data passed to clean callback function.
 
 ```C++
 typedef struct tagMPCLEAN_DATA {
-  MPTHREAT_ID      ThreatID;
-  MPTHREAT_ACTION  ThreatAction;
-  DWORD            dwStatus;
+  MPTHREAT_ID      ThreatID;
+  MPTHREAT_ACTION  ThreatAction;
+  DWORD            dwStatus;
   PMPRESOURCE_INFO ResourceInfo;
 } MPCLEAN_DATA, *PMPCLEAN_DATA;
 ```
@@ -85,8 +92,8 @@ Resource information for the **MPNOTIFY\_CLEAN\_THREAT\_START**/**MPNOTIFY\_CLEA
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -104,9 +111,9 @@ Resource information for the **MPNOTIFY\_CLEAN\_THREAT\_START**/**MPNOTIFY\_CLEA
 [**MPTHREAT\_ACTION**](mpthreat-action.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Gets the flag indicating if the current user the is the content own
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.IsIssuedToOwner'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.IsIssuedToOwner
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IsIssuedToOwner property", "IsIssuedToOwner property, UserPolicy class", "UserPolicy class, IsIssuedToOwner property"]
+keywords:
+- IsIssuedToOwner property
+- IsIssuedToOwner property, UserPolicy class
+- UserPolicy class, IsIssuedToOwner property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.IsIssuedToOwner property
@@ -63,9 +69,9 @@ Flag indicating if the current user the is the content owner.
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

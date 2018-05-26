@@ -1,7 +1,12 @@
 ---
 title: atomic\_cmp\_store (sm5 - asm)
 description: Atomic compare and write to memory.
-ms.assetid: '1B97E983-11A9-47E4-B274-E94083837C6E'
+ms.assetid: 1B97E983-11A9-47E4-B274-E94083837C6E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # atomic\_cmp\_store (sm5 - asm)
@@ -15,7 +20,7 @@ Atomic compare and write to memory.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Atomic compare and write to memory.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +67,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -74,7 +79,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -93,7 +98,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -102,9 +107,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

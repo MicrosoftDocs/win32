@@ -1,7 +1,12 @@
 ---
 title: Voice Commands Window
 description: Voice Commands Window
-ms.assetid: '4cbf1eeb-be35-46e5-87c0-08e022db621c'
+ms.assetid: 4cbf1eeb-be35-46e5-87c0-08e022db621c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Voice Commands Window
@@ -29,7 +34,7 @@ The Voice Commands Window also lists the [**VoiceCaption**](voicecaption-propert
 
 
 
- 
+ 
 
 \* A character is listed here only if it is currently visible.
 
@@ -50,9 +55,9 @@ The Voice Commands Window is included in the ALT+TAB window order. This enables 
 -   [The Listening Tip](the-listening-tip.md)
 -   [The Advanced Character Options Window](lwef-the_advance_character_options_window)
 
- 
+ 
 
- 
+ 
 
 
 

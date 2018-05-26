@@ -1,7 +1,12 @@
 ---
-Description: 'Setting up symbols correctly for debugging can be a challenging task, particularly for kernel debugging.'
-ms.assetid: '96b2c9db-58fb-4c28-b17c-3b1cc06ed96b'
+Description: Setting up symbols correctly for debugging can be a challenging task, particularly for kernel debugging.
+ms.assetid: 96b2c9db-58fb-4c28-b17c-3b1cc06ed96b
 title: Symbol Server and Symbol Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbol Server and Symbol Stores

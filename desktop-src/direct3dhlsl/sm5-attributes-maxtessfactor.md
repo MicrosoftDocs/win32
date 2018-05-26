@@ -1,7 +1,12 @@
 ---
 title: maxtessfactor
 description: Indicates the maximum value that the hull shader would return for any tessellation factor.
-ms.assetid: '2c12ed56-cd64-4143-8dda-6998aa212356'
+ms.assetid: 2c12ed56-cd64-4143-8dda-6998aa212356
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maxtessfactor

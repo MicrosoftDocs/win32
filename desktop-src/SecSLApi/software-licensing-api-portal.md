@@ -1,7 +1,12 @@
-﻿---
-Description: 'Use the Software Licensing API to write software license code that tests for Microsoft Genuine Advantage software.'
-ms.assetid: '04030f6b-47f9-4403-a519-2267d0aaac62'
+---
+Description: Use the Software Licensing API to write software license code that tests for Microsoft Genuine Advantage software.
+ms.assetid: 04030f6b-47f9-4403-a519-2267d0aaac62
 title: Software Licensing API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Software Licensing API

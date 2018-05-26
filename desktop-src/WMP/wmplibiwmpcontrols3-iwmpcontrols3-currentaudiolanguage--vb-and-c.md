@@ -1,8 +1,11 @@
 ---
 title: IWMPControls3 currentAudioLanguage property
 description: The currentAudioLanguage property gets or sets the locale identifier (LCID) of the audio language for playback.
-ms.assetid: '4adf26c7-077a-483e-8a76-accf871eca4c'
-keywords: ["currentAudioLanguage property Windows Media Player", "currentAudioLanguage property Windows Media Player , IWMPControls3 interface", "IWMPControls3 interface Windows Media Player , currentAudioLanguage property"]
+ms.assetid: 4adf26c7-077a-483e-8a76-accf871eca4c
+keywords:
+- currentAudioLanguage property Windows Media Player
+- currentAudioLanguage property Windows Media Player , IWMPControls3 interface
+- IWMPControls3 interface Windows Media Player , currentAudioLanguage property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls3::currentAudioLanguage property
@@ -90,9 +98,9 @@ When working with DVD content, specifying an LCID will cause the first available
 [**IWMPControls3.getLanguageName (VB and C#)**](wmplibiwmpcontrols3-iwmpcontrols3-getlanguagename--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

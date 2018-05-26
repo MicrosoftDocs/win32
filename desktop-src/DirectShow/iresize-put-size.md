@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Size method sets the output size and stretch mode.'
-ms.assetid: '1186eee4-b5c1-4216-abb3-86ea03b2da40'
-title: 'IResize::put\_Size method'
+---
+Description: The put\_Size method sets the output size and stretch mode.
+ms.assetid: 1186eee4-b5c1-4216-abb3-86ea03b2da40
+title: IResizeput\_Size method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResize::put\_Size method

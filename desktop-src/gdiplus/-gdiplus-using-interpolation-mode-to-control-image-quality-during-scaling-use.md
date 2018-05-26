@@ -1,12 +1,17 @@
 ---
-Description: 'The interpolation mode of a Graphics object influences the way Windows GDI+ scales (stretches and shrinks) images.'
-ms.assetid: '3aeead47-78da-4ab3-9126-2fbe9e341e48'
+Description: The interpolation mode of a Graphics object influences the way Windows GDI+ scales (stretches and shrinks) images.
+ms.assetid: 3aeead47-78da-4ab3-9126-2fbe9e341e48
 title: Using Interpolation Mode to Control Image Quality During Scaling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Interpolation Mode to Control Image Quality During Scaling
 
-The interpolation mode of a [**Graphics**](-gdiplus-class-graphics-class.md) object influences the way Windows GDI+ scales (stretches and shrinks) images. The [**InterpolationMode**](-gdiplus-enum-interpolationmode.md) enumeration in Gdiplusenums.h defines several interpolation modes, some of which are shown in the following list:
+The interpolation mode of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object influences the way Windows GDI+ scales (stretches and shrinks) images. The [**InterpolationMode**](/windows/win32/Gdiplusenums/ne-gdiplusenums-interpolationmode?branch=master) enumeration in Gdiplusenums.h defines several interpolation modes, some of which are shown in the following list:
 
 -   InterpolationModeNearestNeighbor
 -   InterpolationModeBilinear
@@ -16,7 +21,7 @@ The interpolation mode of a [**Graphics**](-gdiplus-class-graphics-class.md) obj
 
 To stretch an image, each pixel in the original image must be mapped to a group of pixels in the larger image. To shrink an image, groups of pixels in the original image must be mapped to single pixels in the smaller image. The effectiveness of the algorithms that perform these mappings determines the quality of a scaled image. Algorithms that produce higher-quality scaled images tend to require more processing time. In the preceding list, InterpolationModeNearestNeighbor is the lowest-quality mode and InterpolationModeHighQualityBicubic is the highest-quality mode.
 
-To set the interpolation mode, pass one of the members of the [**InterpolationMode**](-gdiplus-enum-interpolationmode.md) enumeration to the **SetInterpolationMode** method of a [**Graphics**](-gdiplus-class-graphics-class.md) object.
+To set the interpolation mode, pass one of the members of the [**InterpolationMode**](/windows/win32/Gdiplusenums/ne-gdiplusenums-interpolationmode?branch=master) enumeration to the **SetInterpolationMode** method of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object.
 
 The following example draws an image and then shrinks the image with three different interpolation modes:
 

@@ -1,7 +1,12 @@
 ---
-Description: 'C++ applications can use alpha testing to control when pixels are written to the render-target surface.'
-ms.assetid: '368c3d12-2c8b-43e3-94c3-bccfe6c73e66'
-title: 'Alpha Testing State (Direct3D 9)'
+Description: C++ applications can use alpha testing to control when pixels are written to the render-target surface.
+ms.assetid: 368c3d12-2c8b-43e3-94c3-bccfe6c73e66
+title: Alpha Testing State (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha Testing State (Direct3D 9)
@@ -29,7 +34,7 @@ if (pCaps.AlphaCmpCaps & D3DPCMPCAPS_GREATEREQUAL)
 
 
 
-Not all hardware supports all alpha-testing features. You can check the device capabilities by calling the [**IDirect3D9::GetDeviceCaps**](idirect3d9--getdevicecaps.md) method. After retrieving the device capabilities, check the associated [**D3DCAPS9**](d3dcaps9.md) structure's AlphaCmpCaps member for the desired comparison function. If the AlphaCmpCaps member contains only the D3DPCMPCAPS\_ALWAYS capability or only the D3DPCMPCAPS\_NEVER capability, the driver does not support alpha tests.
+Not all hardware supports all alpha-testing features. You can check the device capabilities by calling the [**IDirect3D9::GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-getdevicecaps?branch=master) method. After retrieving the device capabilities, check the associated [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure's AlphaCmpCaps member for the desired comparison function. If the AlphaCmpCaps member contains only the D3DPCMPCAPS\_ALWAYS capability or only the D3DPCMPCAPS\_NEVER capability, the driver does not support alpha tests.
 
 ## Related topics
 

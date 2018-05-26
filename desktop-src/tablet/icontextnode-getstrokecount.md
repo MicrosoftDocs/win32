@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the number of strokes associated with the IContextNode object.'
-ms.assetid: 'bb3c1cb3-dcf6-4465-b1bc-5c613e9747da'
-title: 'IContextNode::GetStrokeCount method'
+Description: Gets the number of strokes associated with the IContextNode object.
+ms.assetid: bb3c1cb3-dcf6-4465-b1bc-5c613e9747da
+title: IContextNodeGetStrokeCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetStrokeCount method
@@ -13,7 +18,7 @@ Gets the number of strokes associated with the [**IContextNode**](icontextnode.m
 
 ```C++
 HRESULT GetStrokeCount(
-  [out] ULONG *pulStrokeCount
+  [out] ULONG *pulStrokeCount
 );
 ```
 
@@ -155,7 +160,7 @@ HRESULT CMyClass::ExploreContextNode(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -178,9 +183,9 @@ HRESULT CMyClass::ExploreContextNode(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

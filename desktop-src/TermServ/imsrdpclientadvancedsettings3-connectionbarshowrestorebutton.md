@@ -4,11 +4,24 @@ description: Specifies whether to display the Restore button on the connection b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a56c3c05-d253-404a-bf49-9c1d804802e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a56c3c05-d253-404a-bf49-9c1d804802e0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ConnectionBarShowRestoreButton property Remote Desktop Services", "ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , ConnectionBarShowRestoreButton property", "ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , ConnectionBarShowRestoreButton property", "ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , ConnectionBarShowRestoreButton property", "ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , ConnectionBarShowRestoreButton property", "ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , ConnectionBarShowRestoreButton property", "ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ConnectionBarShowRestoreButton property"]
+keywords:
+- ConnectionBarShowRestoreButton property Remote Desktop Services
+- ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , ConnectionBarShowRestoreButton property
+- ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , ConnectionBarShowRestoreButton property
+- ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , ConnectionBarShowRestoreButton property
+- ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , ConnectionBarShowRestoreButton property
+- ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , ConnectionBarShowRestoreButton property
+- ConnectionBarShowRestoreButton property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , ConnectionBarShowRestoreButton property
 topic_type:
 - apiref
 api_name:
@@ -34,6 +47,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings3::ConnectionBarShowRestoreButton property
@@ -47,11 +63,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ConnectionBarShowRestoreButton(
-  [in]  VARIANT_BOOL fShowRestore
+  [in]  VARIANT_BOOL fShowRestore
 );
 
 HRESULT get_ConnectionBarShowRestoreButton(
-  [out] VARIANT_BOOL *pfShowRestore
+  [out] VARIANT_BOOL *pfShowRestore
 );
 ```
 
@@ -77,8 +93,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings3 is defined as 19cd856b-c542-4c53-acee-f127e3be1a59<br/> |
@@ -107,9 +123,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientAdvancedSettings3**](imsrdpclientadvancedsettings3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Notifies applications of changes in session state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '758a130c-b75a-40fd-8530-3766aa86c5ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 758a130c-b75a-40fd-8530-3766aa86c5ba
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["WM_WTSSESSION_CHANGE message Remote Desktop Services"]
+keywords:
+- WM_WTSSESSION_CHANGE message Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WM\_WTSSESSION\_CHANGE message
@@ -196,7 +200,7 @@ The return value is ignored.
 
 ## Remarks
 
-This message is sent only to applications that have registered to receive this message by calling [**WTSRegisterSessionNotification**](wtsregistersessionnotification.md).
+This message is sent only to applications that have registered to receive this message by calling [**WTSRegisterSessionNotification**](/windows/win32/Wtsapi32/nf-wtsapi32-wtsregistersessionnotification?branch=master).
 
 Examples of how applications can respond to this message include releasing or acquiring console-specific resources, determining how a screen is to be painted, or triggering console animation effects.
 
@@ -206,8 +210,8 @@ Examples of how applications can respond to this message include releasing or ac
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -216,15 +220,15 @@ Examples of how applications can respond to this message include releasing or ac
 
 <dl> <dt>
 
-[**WTSRegisterSessionNotification**](wtsregistersessionnotification.md)
+[**WTSRegisterSessionNotification**](/windows/win32/Wtsapi32/nf-wtsapi32-wtsregistersessionnotification?branch=master)
 </dt> <dt>
 
-[**WTSUnRegisterSessionNotification**](wtsunregistersessionnotification.md)
+[**WTSUnRegisterSessionNotification**](/windows/win32/Wtsapi32/nf-wtsapi32-wtsunregistersessionnotification?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

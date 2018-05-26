@@ -1,7 +1,12 @@
 ---
-Description: 'Starting in Windows 8, the AppInit\_DLLs infrastructure is disabled when secure boot is enabled.'
-ms.assetid: '3ADE71C7-7113-4D26-8D6D-5609CAF13397'
+Description: Starting in Windows 8, the AppInit\_DLLs infrastructure is disabled when secure boot is enabled.
+ms.assetid: 3ADE71C7-7113-4D26-8D6D-5609CAF13397
 title: AppInit DLLs and Secure Boot
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppInit DLLs and Secure Boot

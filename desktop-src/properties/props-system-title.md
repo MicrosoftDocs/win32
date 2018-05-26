@@ -1,7 +1,12 @@
 ---
-Description: 'The title of the item.'
-ms.assetid: '8fb948d6-2677-4e5d-b283-8757c3df574d'
-title: 'System.Title'
+Description: The title of the item.
+ms.assetid: 8fb948d6-2677-4e5d-b283-8757c3df574d
+title: System.Title
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Title

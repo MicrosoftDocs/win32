@@ -1,7 +1,12 @@
 ---
-Description: 'Caching control in Transactional NTFS.'
-ms.assetid: '0fd272ee-cf5f-4ba9-b8aa-ff0016f51d4b'
+Description: Caching control in Transactional NTFS.
+ms.assetid: 0fd272ee-cf5f-4ba9-b8aa-ff0016f51d4b
 title: Deploying Transactional NTFS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deploying Transactional NTFS
@@ -16,7 +21,7 @@ On commodity drives (ATA/SATA/USB), TxF has periods of vulnerability during whic
 
 Some Host Bus Adapters (HBAs) and storage controllers (for example, RAID systems) have built-in battery-backed caches. Because these devices preserve cached data if a power fault occurs, any disks connected to them are not required to honor the FUA flag. Further, a disk whose power supply is protected by an uninterruptable power supply (UPS) does not need to honor the FUA flag. This is because the UPS will maintain power long enough for the disk to flush its cache to the media.
 
-Disabling a drive's write cache eliminates the requirement for the drive to honor the FUA flag. You can disable a disk's write caching by issuing the [**IOCTL\_DISK\_SET\_CACHE\_INFORMATION**](ioctl-disk-set-cache-information.md) control code to the disk. The state of the write cache (on/off) will be preserved across system reboots. Issuing this control code will have very significant performance consequences for all I/O issued to that disk, which will most likely be a noticeable performance degradation. Use of this control code should be carefully considered prior to deployment.
+Disabling a drive's write cache eliminates the requirement for the drive to honor the FUA flag. You can disable a disk's write caching by issuing the [**IOCTL\_DISK\_SET\_CACHE\_INFORMATION**](/windows/win32/WinIoCtl/ni-winioctl-ioctl_disk_set_cache_information?branch=master) control code to the disk. The state of the write cache (on/off) will be preserved across system reboots. Issuing this control code will have very significant performance consequences for all I/O issued to that disk, which will most likely be a noticeable performance degradation. Use of this control code should be carefully considered prior to deployment.
 
 > [!Note]  
 > For TxF to be capable of consistently protecting your data's integrity through power faults, the system must satisfy at least one of the following criteria:

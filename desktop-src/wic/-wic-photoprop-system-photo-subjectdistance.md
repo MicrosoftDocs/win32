@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.SubjectDistance property.'
-ms.assetid: '8d5acd7e-7227-4a79-890a-43e6dace3864'
-title: 'System.Photo.SubjectDistance Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.SubjectDistance property.
+ms.assetid: 8d5acd7e-7227-4a79-890a-43e6dace3864
+title: System.Photo.SubjectDistance Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.SubjectDistance Photo Metadata Policy

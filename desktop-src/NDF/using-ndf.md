@@ -1,7 +1,12 @@
 ---
 title: Using NDF
 description: The Network Diagnostics Framework (NDF) ships as part of Windows Vista, Windows Server 2008, and later.
-ms.assetid: '1eccd402-5b5a-46a0-91df-98b5c70a5967'
+ms.assetid: 1eccd402-5b5a-46a0-91df-98b5c70a5967
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using NDF

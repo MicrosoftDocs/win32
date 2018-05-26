@@ -4,11 +4,14 @@ description: Contains a list of template issuers.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aa670dc0-f267-4a5e-ac53-ee46ebaba1d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: aa670dc0-f267-4a5e-ac53-ee46ebaba1d6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_TEMPLATE_ISSUER_LIST structure Active Directory Rights Management Services SDK 2.0", "PIPC_TEMPLATE_ISSUER_LIST structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_TEMPLATE_ISSUER_LIST structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_TEMPLATE_ISSUER_LIST structure Active Directory Rights Management Services SDK 2.0
+- PIPC_TEMPLATE_ISSUER_LIST structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_TEMPLATE_ISSUER_LIST structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_TEMPLATE\_ISSUER\_LIST structure
@@ -28,7 +34,7 @@ Contains a list of template issuers in the form of [**IPC\_TEMPLATE\_ISSUER**](i
 
 ```C++
 typedef struct _IPC_TEMPLATE_ISSUER_LIST {
-  DWORD               cTi;
+  DWORD               cTi;
   IPC_TEMPLATE_ISSUER aTi[ANYSIZE_ARRAY];
 } IPC_TEMPLATE_ISSUER_LIST, *PIPC_TEMPLATE_ISSUER_LIST;typedef const IPC_TEMPLATE_ISSUER_LIST *PCIPC_TEMPLATE_ISSUER_LIST;
 ```
@@ -59,8 +65,8 @@ An array of [**IPC\_TEMPLATE\_ISSUER**](ipc-template-issuer.md) structures that 
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ An array of [**IPC\_TEMPLATE\_ISSUER**](ipc-template-issuer.md) structures that 
 [**IPC\_TEMPLATE\_ISSUER**](ipc-template-issuer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

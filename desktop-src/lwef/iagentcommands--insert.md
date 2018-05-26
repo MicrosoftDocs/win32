@@ -1,7 +1,12 @@
 ---
 title: IAgentCommands Insert
 description: IAgentCommands Insert
-ms.assetid: 'f450aae4-db6f-4326-ae14-ddb68ab0953a'
+ms.assetid: f450aae4-db6f-4326-ae14-ddb68ab0953a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommands::Insert

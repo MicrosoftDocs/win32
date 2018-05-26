@@ -2,13 +2,19 @@
 title: decode attribute
 description: The \ decode\ ACF attribute specifies that a procedure or a type needs de-serialization support.
 ms.assetid: 78cd855f-6731-4ef8-9097-e8da5a9b3bdc
-keywords: ["decode attribute MIDL"]
+keywords:
+- decode attribute MIDL
 topic_type:
 - apiref
 api_name:
 - decode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # decode attribute

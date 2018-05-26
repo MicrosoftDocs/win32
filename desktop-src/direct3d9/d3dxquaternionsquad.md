@@ -1,7 +1,12 @@
-﻿---
-Description: 'Interpolates between quaternions, using spherical quadrangle interpolation.'
-ms.assetid: 'afce9afb-64cc-4059-90f5-7ed1aca9b3cb'
+---
+Description: Interpolates between quaternions, using spherical quadrangle interpolation.
+ms.assetid: afce9afb-64cc-4059-90f5-7ed1aca9b3cb
 title: D3DXQuaternionSquad function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionSquad function

@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithUserNameOverSslServiceExample
 description: This example shows how to use service host for hosting a calculator service over HTTP, with username over SSL mixed-mode security.
-ms.assetid: '92dfec48-2314-4e83-8fe9-9d25aa100043'
-keywords: ["HttpCalculatorWithUserNameOverSslServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 92dfec48-2314-4e83-8fe9-9d25aa100043
+keywords:
+- HttpCalculatorWithUserNameOverSslServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithUserNameOverSslServiceExample

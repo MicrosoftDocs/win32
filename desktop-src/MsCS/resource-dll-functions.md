@@ -4,11 +4,15 @@ description: The Resource DLL functions allow the Cluster service to manage reso
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7644a51b-a19f-4ea1-af68-baf3937b60e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7644a51b-a19f-4ea1-af68-baf3937b60e0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLL functions Failover Cluster"]
+keywords:
+- resource DLL functions Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource DLL Functions

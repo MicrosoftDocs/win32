@@ -1,7 +1,7 @@
 ---
 title: NAP Error Constants
 description: The following NAP error constants are defined in WinError.h.
-ms.assetid: 'b2fba990-75d9-4153-8058-c01e97700d00'
+ms.assetid: b2fba990-75d9-4153-8058-c01e97700d00
 topic_type:
 - apiref
 api_name:
@@ -28,14 +28,19 @@ api_location:
 - WinError.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP Error Constants
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The following NAP error constants are defined in WinError.h.
 
@@ -49,7 +54,7 @@ The following NAP error constants are defined in WinError.h.
 
 
 
-The NAP [**SoH**](soh-struct.md) packet is invalid.
+The NAP [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet is invalid.
 
 
 </dt> </dl> </dd> <dt>
@@ -62,7 +67,7 @@ The NAP [**SoH**](soh-struct.md) packet is invalid.
 
 
 
-An [**SoH**](soh-struct.md) was missing from the NAP packet.
+An [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) was missing from the NAP packet.
 
 
 </dt> </dl> </dd> <dt>
@@ -88,7 +93,7 @@ The entity ID conflicts with an already-registered entity ID.
 
 
 
-No cached [**SoH**](soh-struct.md) is present.
+No cached [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) is present.
 
 
 </dt> </dl> </dd> <dt>
@@ -140,7 +145,7 @@ The entity is not initialized with the NAP system.
 
 
 
-The correlation IDs in the [**SoH**](soh-struct.md) request and **SoH** response do not match up.
+The correlation IDs in the [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) request and **SoH** response do not match up.
 
 
 </dt> </dl> </dd> <dt>
@@ -260,9 +265,9 @@ Too many simultaneous calls.
 SHV configuration already exists.
 
 > [!Note]  
-> Supported in Windows 7 or later.
+> Supported in Windows 7 or later.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -278,9 +283,9 @@ SHV configuration already exists.
 SHV configuration is not found.
 
 > [!Note]  
-> Supported in Windows 7 or later.
+> Supported in Windows 7 or later.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -296,9 +301,9 @@ SHV configuration is not found.
 SHV timed out on the request.
 
 > [!Note]  
-> Supported in Windows 7 or later.
+> Supported in Windows 7 or later.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -309,8 +314,8 @@ SHV timed out on the request.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>WinError.h</dt> </dl> |
 
 
@@ -322,9 +327,9 @@ SHV timed out on the request.
 [**NAP Constants**](nap-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

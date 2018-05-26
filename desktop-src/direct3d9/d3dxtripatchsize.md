@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the size of the triangle patch.'
-ms.assetid: '3bfbed4c-59af-43eb-a462-478e89cfe9ae'
+---
+Description: Gets the size of the triangle patch.
+ms.assetid: 3bfbed4c-59af-43eb-a462-478e89cfe9ae
 title: D3DXTriPatchSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXTriPatchSize function

@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SecuritySettingAuditing abstract, association WMI class specifies the auditing for a given trustee on a given object. This class is modeled after EXPLICIT\_ACCESS.'
+Description: The Win32\_SecuritySettingAuditing abstract, association WMI class specifies the auditing for a given trustee on a given object. This class is modeled after EXPLICIT\_ACCESS.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'be292d63-5a62-4045-b64c-a8fe95409495'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: be292d63-5a62-4045-b64c-a8fe95409495
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecuritySettingAuditing class'
+title: Win32\_SecuritySettingAuditing class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecuritySettingAuditing class
@@ -22,13 +25,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, Association, UUID("{8502C588-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_SecuritySettingAuditing
 {
-  uint32                    AuditedAccessMask;
-  string                    GuidInheritedObjectType;
-  string                    GuidObjectType;
-  uint32                    Inheritance;
+  uint32                    AuditedAccessMask;
+  string                    GuidInheritedObjectType;
+  string                    GuidObjectType;
+  uint32                    Inheritance;
   Win32_SecuritySetting REF SecuritySetting;
-  Win32_SID             REF Trustee;
-  uint32                    Type;
+  Win32_SID             REF Trustee;
+  uint32                    Type;
 };
 ```
 
@@ -319,8 +322,8 @@ Type of access specified for the trustee.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -334,9 +337,9 @@ Type of access specified for the trustee.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

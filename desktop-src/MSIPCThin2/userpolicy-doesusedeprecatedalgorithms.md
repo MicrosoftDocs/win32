@@ -4,11 +4,14 @@ description: Gets the deprecated algorithms flag.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.DoesUseDeprecatedAlgorithms'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.DoesUseDeprecatedAlgorithms
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["DoesUseDeprecatedAlgorithms property", "DoesUseDeprecatedAlgorithms property, UserPolicy class", "UserPolicy class, DoesUseDeprecatedAlgorithms property"]
+keywords:
+- DoesUseDeprecatedAlgorithms property
+- DoesUseDeprecatedAlgorithms property, UserPolicy class
+- UserPolicy class, DoesUseDeprecatedAlgorithms property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.DoesUseDeprecatedAlgorithms property
@@ -63,9 +69,9 @@ Deprecated algorithms flag
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

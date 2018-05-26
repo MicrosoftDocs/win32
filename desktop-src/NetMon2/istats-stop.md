@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop method stops the current capture.'
-ms.assetid: '3aeeb29e-e174-46a2-82bb-44c466b8db98'
-title: 'IStats::Stop method'
+Description: The Stop method stops the current capture.
+ms.assetid: 3aeeb29e-e174-46a2-82bb-44c466b8db98
+title: IStatsStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::Stop method
@@ -37,7 +42,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,8 +54,8 @@ When restarting the capture after **IStats::Stop** has been called, make sure yo
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -72,9 +77,9 @@ When restarting the capture after **IStats::Stop** has been called, make sure yo
 [IStats::Start](istats-start.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

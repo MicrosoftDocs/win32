@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: '25300ba5-3578-4eb3-99e2-d547dbb2b9ee'
-title: 'IXml2Dex::PasteXMLFile method'
+Description: Not implemented.
+ms.assetid: 25300ba5-3578-4eb3-99e2-d547dbb2b9ee
+title: IXml2DexPasteXMLFile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::PasteXMLFile method

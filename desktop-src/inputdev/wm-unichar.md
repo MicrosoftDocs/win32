@@ -1,8 +1,9 @@
 ---
 title: WM\_UNICHAR message
 description: The WM\_UNICHAR message can be used by an application to post input to other windows.
-ms.assetid: 'edbfcf14-0371-43ce-9676-eb10d964d0b7'
-keywords: ["WM_UNICHAR message Keyboard and Mouse Input"]
+ms.assetid: edbfcf14-0371-43ce-9676-eb10d964d0b7
+keywords:
+- WM_UNICHAR message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_UNICHAR message
@@ -35,7 +41,7 @@ The character code of the key.
 
 If *wParam* is **UNICODE\_NOCHAR** and the application processes this message, then return **TRUE**. The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function will return **FALSE** (the default).
 
-If *wParam* is not **UNICODE\_NOCHAR**, return **FALSE**. The Unicode  [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) posts a [**WM\_CHAR**](wm-char.md) message with the same parameters and the ANSI **DefWindowProc** function posts either one or two **WM\_CHAR** messages with the corresponding ANSI character(s).
+If *wParam* is not **UNICODE\_NOCHAR**, return **FALSE**. The Unicode  [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) posts a [**WM\_CHAR**](wm-char.md) message with the same parameters and the ANSI **DefWindowProc** function posts either one or two **WM\_CHAR** messages with the corresponding ANSI character(s).
 
 </dd> <dt>
 
@@ -58,7 +64,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -82,8 +88,8 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -110,9 +116,9 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

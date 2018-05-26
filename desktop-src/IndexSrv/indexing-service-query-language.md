@@ -1,7 +1,12 @@
 ---
 title: Indexing Service Query Language
 description: Indexing Service Query Language
-ms.assetid: '86151e29-0c08-41fe-a33a-9d9bc4fef749'
+ms.assetid: 86151e29-0c08-41fe-a33a-9d9bc4fef749
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Service Query Language

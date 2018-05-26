@@ -4,20 +4,26 @@ description: Some entry point functions require your resource DLL to describe an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20b150b4-293f-408b-888e-bac2b2fa4fb8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 20b150b4-293f-408b-888e-bac2b2fa4fb8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["structures Failover Cluster ,defining", "constants Failover Cluster", "constants Failover Cluster ,defining"]
+keywords:
+- structures Failover Cluster ,defining
+- constants Failover Cluster
+- constants Failover Cluster ,defining
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining Structures and Constants
 
 Some entry point functions require your [resource DLL](resource-dlls.md) to describe and manage data in very specific ways. The following list describes the structures and constants that your DLL can or should define.
 
-1.  Required. Define a function table for each resource type supported by your resource DLL. See [**CLRES\_V1\_FUNCTIONS**](clres-v1-functions.md).
-2.  Required. Define global storage for the address of the [**LogEvent**](logevent.md) callback function. You need only one **LogEvent** callback per resource DLL.
-3.  Required. Define global storage for the address of the [**SetResourceStatus**](setresourcestatus.md) callback function. You only need one **SetResourceStatus** callback per resource DLL.
+1.  Required. Define a function table for each resource type supported by your resource DLL. See [**CLRES\_V1\_FUNCTIONS**](/windows/previous-versions/ResApi/ns-resapi-clres_v1_functions?branch=master).
+2.  Required. Define global storage for the address of the [**LogEvent**](/windows/previous-versions/ResApi/nc-resapi-plog_event_routine?branch=master) callback function. You need only one **LogEvent** callback per resource DLL.
+3.  Required. Define global storage for the address of the [**SetResourceStatus**](/windows/previous-versions/ResApi/nc-resapi-pset_resource_status_routine?branch=master) callback function. You only need one **SetResourceStatus** callback per resource DLL.
 4.  Required. Define a structure, class, or other object to manage instance data. The recommended way to do this is to define a [resource structure](resource-structures.md). For more information see [Implementing Instance Management](implementing-instance-management.md).
 5.  Required: Define the following objects if your resource type defines any private properties.
 

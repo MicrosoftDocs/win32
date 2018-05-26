@@ -1,7 +1,12 @@
 ---
 title: How to Use Rich Edit Text Operations
 description: An application can send messages to retrieve or find text in a rich edit control. You can retrieve either the selected text or a specified range of text.
-ms.assetid: '95D88F9A-3DD1-48E4-B6FF-3168F2D25846'
+ms.assetid: 95D88F9A-3DD1-48E4-B6FF-3168F2D25846
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Rich Edit Text Operations
@@ -10,9 +15,9 @@ An application can send messages to retrieve or find text in a rich edit control
 
 To get the selected text in a rich edit control, use the [**EM\_GETSELTEXT**](em-getseltext.md) message. The text is copied to the specified character array. You must ensure that the array is large enough to hold the selected text plus a terminating null character.
 
-To retrieve a specified range of text, use the [**EM\_GETTEXTRANGE**](em-gettextrange.md) message. The [**TEXTRANGE**](textrange.md) structure used with this message specifies the text range to retrieve and points to a character array that receives the text. Here again, the application must ensure that the array is large enough for the specified text plus a terminating null character.
+To retrieve a specified range of text, use the [**EM\_GETTEXTRANGE**](em-gettextrange.md) message. The [**TEXTRANGE**](/windows/win32/Richedit/ns-richedit-_textrange?branch=master) structure used with this message specifies the text range to retrieve and points to a character array that receives the text. Here again, the application must ensure that the array is large enough for the specified text plus a terminating null character.
 
-You can search for a string in a rich edit control by using the [**EM\_FINDTEXT**](em-findtext.md) or [**EM\_FINDTEXTEX**](em-findtextex.md) messages, or their Unicode equivalents, [**EM\_FINDTEXTW**](em-findtextw.md) and [**EM\_FINDTEXTEXW**](em-findtextexw.md). The [**FINDTEXT**](findtext.md) structure that is used with the nonextended versions specifies the text range to search and the string to search for. The extended versions use a [**FINDTEXTEX**](findtextex.md) structure, which specifies the same information and also receives the start and end points of the character range of the found text. You can also specify such options as whether the search is case sensitive.
+You can search for a string in a rich edit control by using the [**EM\_FINDTEXT**](em-findtext.md) or [**EM\_FINDTEXTEX**](em-findtextex.md) messages, or their Unicode equivalents, [**EM\_FINDTEXTW**](em-findtextw.md) and [**EM\_FINDTEXTEXW**](em-findtextexw.md). The [**FINDTEXT**](/windows/win32/Richedit/ns-richedit-_findtext?branch=master) structure that is used with the nonextended versions specifies the text range to search and the string to search for. The extended versions use a [**FINDTEXTEX**](/windows/win32/Richedit/ns-richedit-_findtextexa?branch=master) structure, which specifies the same information and also receives the start and end points of the character range of the found text. You can also specify such options as whether the search is case sensitive.
 
 ## What you need to know
 

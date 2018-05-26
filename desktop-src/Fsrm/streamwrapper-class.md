@@ -4,10 +4,13 @@ description: This class wraps an IStream interface into a System.IO.Stream class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '653ed87a-2492-47ae-a628-8ab2055fd985'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 653ed87a-2492-47ae-a628-8ab2055fd985
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StreamWrapper Class

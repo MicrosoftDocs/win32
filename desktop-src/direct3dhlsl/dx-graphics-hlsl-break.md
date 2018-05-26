@@ -1,14 +1,20 @@
 ---
 title: break Statement
 description: Exit the surrounding loop (do, for, while).
-ms.assetid: 'edd4c8d7-2338-4c63-876e-147c157aaf47'
-keywords: ["break Statement HLSL"]
+ms.assetid: edd4c8d7-2338-4c63-876e-147c157aaf47
+keywords:
+- break Statement HLSL
 topic_type:
 - apiref
 api_name:
 - break Statement
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # break Statement

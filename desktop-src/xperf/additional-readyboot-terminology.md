@@ -1,7 +1,12 @@
 ---
 title: Additional ReadyBoot Terminology
 description: Additional ReadyBoot Terminology
-ms.assetid: 'be7ec03b-025e-49fb-a96f-091c5d5d3fbb'
+ms.assetid: be7ec03b-025e-49fb-a96f-091c5d5d3fbb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Additional ReadyBoot Terminology
@@ -19,11 +24,11 @@ Additional ReadyBoot terminology necessary for analysis is provided in the table
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: Video Capture Reference
 description: Video Capture Reference
-ms.assetid: '5356c575-2a59-4459-b4eb-76967deb6877'
-keywords: ["Video for Windows (VFW),video capture reference", "VFW (Video for Windows),video capture reference", "AVICap,reference"]
+ms.assetid: 5356c575-2a59-4459-b4eb-76967deb6877
+keywords:
+- Video for Windows (VFW),video capture reference
+- VFW (Video for Windows),video capture reference
+- AVICap,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Capture Reference
@@ -11,7 +19,7 @@ This section describes the functions, structures, messages, and macros associate
 
 ## Basic Capture Operations
 
--   [**capCreateCaptureWindow**](capcreatecapturewindow.md)
+-   [**capCreateCaptureWindow**](/windows/win32/Vfw/nf-vfw-capcreatecapturewindowa?branch=master)
 -   [**WM\_CAP\_ABORT**](wm-cap-abort.md)
 -   [**WM\_CAP\_DRIVER\_CONNECT**](wm-cap-driver-connect.md)
 -   [**WM\_CAP\_SEQUENCE**](wm-cap-sequence.md)
@@ -19,15 +27,15 @@ This section describes the functions, structures, messages, and macros associate
 
 ## Capture Windows
 
--   [**CAPSTATUS**](capstatus.md)
--   [**capGetDriverDescription**](capgetdriverdescription.md)
+-   [**CAPSTATUS**](/windows/win32/Vfw/ns-vfw-tagcapstatus?branch=master)
+-   [**capGetDriverDescription**](/windows/win32/Vfw/nf-vfw-capgetdriverdescriptiona?branch=master)
 -   [**WM\_CAP\_DRIVER\_CONNECT**](wm-cap-driver-connect.md)
 -   [**WM\_CAP\_DRIVER\_DISCONNECT**](wm-cap-driver-disconnect.md)
 -   [**WM\_CAP\_GET\_STATUS**](wm-cap-get-status.md)
 
 ## Capture Drivers
 
--   [**CAPDRIVERCAPS**](capdrivercaps.md)
+-   [**CAPDRIVERCAPS**](/windows/win32/Vfw/ns-vfw-tagcapdrivercaps?branch=master)
 -   [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md)
 -   [**WM\_CAP\_DRIVER\_GET\_NAME**](wm-cap-driver-get-name.md)
 -   [**WM\_CAP\_DRIVER\_GET\_VERSION**](wm-cap-driver-get-version.md)
@@ -58,13 +66,13 @@ This section describes the functions, structures, messages, and macros associate
 
 ## Video Capture Settings
 
--   [**CAPTUREPARMS**](captureparms.md)
+-   [**CAPTUREPARMS**](/windows/win32/Vfw/ns-vfw-tagcaptureparms?branch=master)
 -   [**WM\_CAP\_GET\_SEQUENCE\_SETUP**](wm-cap-get-sequence-setup.md)
 -   [**WM\_CAP\_SET\_SEQUENCE\_SETUP**](wm-cap-set-sequence-setup.md)
 
 ## Capture File and Buffers
 
--   [**CAPTUREPARMS**](captureparms.md)
+-   [**CAPTUREPARMS**](/windows/win32/Vfw/ns-vfw-tagcaptureparms?branch=master)
 -   [**WM\_CAP\_FILE\_ALLOCATE**](wm-cap-file-allocate.md)
 -   [**WM\_CAP\_FILE\_GET\_CAPTURE\_FILE**](wm-cap-file-get-capture-file.md)
 -   [**WM\_CAP\_FILE\_SAVEAS**](wm-cap-file-saveas.md)
@@ -114,12 +122,12 @@ This section describes the functions, structures, messages, and macros associate
 
 ## AVICap Callback Functions
 
--   [**capControlCallback**](capcontrolcallback.md)
--   [**capErrorCallback**](caperrorcallback.md)
--   [**capStatusCallback**](capstatuscallback.md)
--   [**capVideoStreamCallback**](capvideostreamcallback.md)
--   [**capWaveStreamCallback**](capwavestreamcallback.md)
--   [**capYieldCallback**](capyieldcallback.md)
+-   [**capControlCallback**](/windows/win32/Vfw/nc-vfw-capcontrolcallback?branch=master)
+-   [**capErrorCallback**](/windows/win32/Vfw/nc-vfw-caperrorcallbacka?branch=master)
+-   [**capStatusCallback**](/windows/win32/Vfw/nc-vfw-capstatuscallbacka?branch=master)
+-   [**capVideoStreamCallback**](/windows/win32/Vfw/nc-vfw-capvideocallback?branch=master)
+-   [**capWaveStreamCallback**](/windows/win32/Vfw/nc-vfw-capwavecallback?branch=master)
+-   [**capYieldCallback**](/windows/win32/Vfw/nc-vfw-capyieldcallback?branch=master)
 -   [**WM\_CAP\_SET\_CALLBACK\_CAPCONTROL**](wm-cap-set-callback-capcontrol.md)
 -   [**WM\_CAP\_SET\_CALLBACK\_ERROR**](wm-cap-set-callback-error.md)
 -   [**WM\_CAP\_SET\_CALLBACK\_FRAME**](wm-cap-set-callback-frame.md)

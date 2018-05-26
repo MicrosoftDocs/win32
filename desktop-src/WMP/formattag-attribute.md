@@ -1,14 +1,20 @@
 ---
 title: FormatTag Attribute
 description: The FormatTag attribute is the format tag of the audio codec.
-ms.assetid: '67c453ee-eb58-4273-9b4b-fd48dc02e4ab'
-keywords: ["FormatTag Attribute Windows Media Player"]
+ms.assetid: 67c453ee-eb58-4273-9b4b-fd48dc02e4ab
+keywords:
+- FormatTag Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - FormatTag
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormatTag Attribute
@@ -41,9 +47,9 @@ The value is a string representation of the decimal format tag value. For exampl
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

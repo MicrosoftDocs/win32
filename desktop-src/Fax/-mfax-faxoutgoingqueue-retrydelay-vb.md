@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RetryDelay property is a value that indicates the time interval, in minutes, that the fax service waits before attempting to retransmit an outbound fax job.'
-ms.assetid: 'fc65cc57-5eee-49da-8533-c2592321d43a'
-title: 'FaxOutgoingQueue.RetryDelay property'
+---
+Description: The RetryDelay property is a value that indicates the time interval, in minutes, that the fax service waits before attempting to retransmit an outbound fax job.
+ms.assetid: fc65cc57-5eee-49da-8533-c2592321d43a
+title: FaxOutgoingQueue.RetryDelay property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.RetryDelay property
@@ -25,7 +30,7 @@ A **String** that specifies or receives the time interval, in minutes, that the 
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

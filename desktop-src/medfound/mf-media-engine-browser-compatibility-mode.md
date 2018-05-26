@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the browser compatibility mode.'
-ms.assetid: '9F850CDE-D862-4E72-8B55-5FAFDA43E399'
-title: 'MF\_MEDIA\_ENGINE\_BROWSER\_COMPATIBILITY\_MODE attribute'
+---
+Description: Specifies the browser compatibility mode.
+ms.assetid: 9F850CDE-D862-4E72-8B55-5FAFDA43E399
+title: MF\_MEDIA\_ENGINE\_BROWSER\_COMPATIBILITY\_MODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_BROWSER\_COMPATIBILITY\_MODE attribute

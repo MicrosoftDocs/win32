@@ -4,13 +4,15 @@ description: Class for Storage Spaces direct management.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95921b98-3bcb-4e69-b952-6ad287c0020f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 95921b98-3bcb-4e69-b952-6ad287c0020f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_StorageSpacesDirect class", "MSCluster_StorageSpacesDirect class, described"]
+keywords:
+- MSCluster_StorageSpacesDirect class
+- MSCluster_StorageSpacesDirect class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_StorageSpacesDirect class
@@ -80,7 +85,7 @@ The **MSCluster\_StorageSpacesDirect** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -215,16 +220,16 @@ The state of Storage Spaces Direct.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the current state of the specified device button.'
-ms.assetid: '66363AF1-E360-478D-8E62-513DE66EF130'
-title: 'GetButtonState method of the Msvm\_SyntheticMouse class'
+Description: Retrieves the current state of the specified device button.
+ms.assetid: 66363AF1-E360-478D-8E62-513DE66EF130
+title: GetButtonState method of the Msvm\_SyntheticMouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetButtonState method of the Msvm\_SyntheticMouse class
@@ -13,8 +18,8 @@ Retrieves the current state of the specified device button.
 
 ```mof
 uint32 GetButtonState(
-  [in]  uint32  buttonIndex,
-  [out] boolean isDown
+  [in]  uint32  buttonIndex,
+  [out] boolean isDown
 );
 ```
 
@@ -99,8 +104,8 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -114,9 +119,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only Installer property of the Session object returns the active Installer object.'
-ms.assetid: '86f7bafd-b3c6-423a-a866-8edafb469f48'
-title: 'Session.Installer property'
+---
+Description: The read-only Installer property of the Session object returns the active Installer object.
+ms.assetid: 86f7bafd-b3c6-423a-a866-8edafb469f48
+title: Session.Installer property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.Installer property

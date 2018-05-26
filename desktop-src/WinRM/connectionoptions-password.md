@@ -4,11 +4,14 @@ description: Sets the password of a local or a domain account on the remote comp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61ba54b6-7da0-423e-b5b2-c4dd8aacd042'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 61ba54b6-7da0-423e-b5b2-c4dd8aacd042
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Password property Windows Remote Management", "Password property Windows Remote Management , ConnectionOptions object", "ConnectionOptions object Windows Remote Management , Password property"]
+keywords:
+- Password property Windows Remote Management
+- Password property Windows Remote Management , ConnectionOptions object
+- ConnectionOptions object Windows Remote Management , Password property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConnectionOptions.Password property
@@ -71,8 +77,8 @@ objOptions.Password = "<password>"
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -87,9 +93,9 @@ objOptions.Password = "<password>"
 [**ConnectionOptions**](connectionoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

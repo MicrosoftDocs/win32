@@ -1,14 +1,20 @@
 ---
 title: WM/MediaOriginalBroadcastDateTime
 description: The WM/MediaOriginalBroadcastDateTime attribute contains the date and time that the content was broadcast.
-ms.assetid: 'facfdbc0-a0b9-4ec0-a285-932820b70e1c'
-keywords: ["WM/MediaOriginalBroadcastDateTime windows Media Format"]
+ms.assetid: facfdbc0-a0b9-4ec0-a285-932820b70e1c
+keywords:
+- WM/MediaOriginalBroadcastDateTime windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaOriginalBroadcastDateTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaOriginalBroadcastDateTime

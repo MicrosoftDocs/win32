@@ -1,7 +1,12 @@
 ---
 title: Main Registry Entries
 description: Main Registry Entries
-ms.assetid: '4efc29eb-14d7-478b-89d9-7bcb42803ba9'
+ms.assetid: 4efc29eb-14d7-478b-89d9-7bcb42803ba9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Main Registry Entries

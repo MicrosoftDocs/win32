@@ -1,7 +1,12 @@
 ---
 title: ComponentTypes Object
 description: ComponentTypes Object
-ms.assetid: 'b0a468fd-6294-4148-a727-3a4bd51df6dc'
+ms.assetid: b0a468fd-6294-4148-a727-3a4bd51df6dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComponentTypes Object
@@ -12,7 +17,7 @@ The **ComponentTypes** object represents a collection of component types.
 
 |                           |                                            |
 |---------------------------|--------------------------------------------|
-| Interfaces                | [**IComponentTypes**](icomponenttypes.md) |
+| Interfaces                | [**IComponentTypes**](/windows/previous-versions/tuner/nn-tuner-icomponenttypes?branch=master) |
 | Outgoing Event Interfaces | None                                       |
 | CLSID                     | CLSID\_ComponentTypes                      |
 

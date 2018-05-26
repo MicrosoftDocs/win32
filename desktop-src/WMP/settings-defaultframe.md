@@ -1,8 +1,9 @@
 ---
 title: Settings.defaultFrame
 description: The defaultFrame property specifies or retrieves the name of the frame used to display a URL that is received in a ScriptCommand event.
-ms.assetid: 'c2edb253-a545-4820-85aa-8fb7badf4d81'
-keywords: ["Settings.defaultFrame Windows Media Player"]
+ms.assetid: c2edb253-a545-4820-85aa-8fb7badf4d81
+keywords:
+- Settings.defaultFrame Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.defaultFrame
@@ -57,9 +63,9 @@ This property is ignored when using the Netscape Navigator Java applet. In Navig
 [**Using Windows Media Player with Netscape 7.1**](using-windows-media-player-with-netscape-7-1.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

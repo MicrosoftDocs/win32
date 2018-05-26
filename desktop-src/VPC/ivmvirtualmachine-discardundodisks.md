@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine DiscardUndoDisks method
 description: Discards the virtual undo disks.
-ms.assetid: '5c3a4b3f-ea58-498c-b7cf-54f028fa061c'
-keywords: ["DiscardUndoDisks method Virtual PC", "DiscardUndoDisks method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , DiscardUndoDisks method"]
+ms.assetid: 5c3a4b3f-ea58-498c-b7cf-54f028fa061c
+keywords:
+- DiscardUndoDisks method Virtual PC
+- DiscardUndoDisks method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , DiscardUndoDisks method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::DiscardUndoDisks method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Discards the virtual undo disks.
 
@@ -47,7 +55,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,9 +63,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -71,9 +79,9 @@ This method can return one of these values.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

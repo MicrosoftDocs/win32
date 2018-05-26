@@ -4,10 +4,13 @@ description: This topic provides step-by-step instructions for getting a specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87CB7DAB-1BF0-40C8-955C-F3D0A0B2012E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 87CB7DAB-1BF0-40C8-955C-F3D0A0B2012E
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Get a Specific Instance of a Class (C#)

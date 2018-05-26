@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies resource data.'
-ms.assetid: 'f2ace2ad-228f-4f76-ab31-16e045e09331'
-title: 'D3DXF\_FILELOADRESOURCE structure'
+---
+Description: Identifies resource data.
+ms.assetid: f2ace2ad-228f-4f76-ab31-16e045e09331
+title: D3DXF\_FILELOADRESOURCE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXF\_FILELOADRESOURCE structure

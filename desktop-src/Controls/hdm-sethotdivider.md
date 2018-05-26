@@ -1,8 +1,9 @@
 ---
 title: HDM\_SETHOTDIVIDER message
 description: Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can send this message explicitly or use the Header\_SetHotDivider macro.
-ms.assetid: '56f6e5c6-1df3-4b4d-9ad8-97fb168c5462'
-keywords: ["HDM_SETHOTDIVIDER message Windows Controls"]
+ms.assetid: 56f6e5c6-1df3-4b4d-9ad8-97fb168c5462
+keywords:
+- HDM_SETHOTDIVIDER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_SETHOTDIVIDER message
 
-Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can send this message explicitly or use the [**Header\_SetHotDivider**](header-sethotdivider.md) macro.
+Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can send this message explicitly or use the [**Header\_SetHotDivider**](/windows/win32/Commctrl/nf-commctrl-header_sethotdivider?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ The type of value represented by *lParam*. This value can be one of the followin
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,15 +70,15 @@ This message creates an effect that a header control automatically produces when
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

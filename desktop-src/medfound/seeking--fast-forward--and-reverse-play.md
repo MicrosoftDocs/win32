@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows example code to manage seeking and rate changes, when using the Media Session for playback.'
-ms.assetid: '50bf4c05-99c0-4cf0-aaca-8ee717cafd12'
-title: 'Seeking, Fast Forward, and Reverse Play'
+Description: This topic shows example code to manage seeking and rate changes, when using the Media Session for playback.
+ms.assetid: 50bf4c05-99c0-4cf0-aaca-8ee717cafd12
+title: Seeking, Fast Forward, and Reverse Play
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Seeking, Fast Forward, and Reverse Play
@@ -10,14 +15,14 @@ This topic shows example code to manage seeking and rate changes, when using the
 
 When using the Media Session for playback, an application can seek and change the playback rate as follows:
 
--   To seek, call [**IMFMediaSession::Start**](imfmediasession-start.md) and specify the seek position.
--   To change the playback rate, use the [**IMFRateControl**](imfratecontrol.md) interface as described in [Rate Control](rate-control.md).
--   To get updated video frames while seeking, set the playback rate to zero before calling [**IMFMediaSession::Start**](imfmediasession-start.md). This operation is called *scrubbing*. (See [How to Perform Scrubbing](how-to-perform-scrubbing.md).)
+-   To seek, call [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) and specify the seek position.
+-   To change the playback rate, use the [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master) interface as described in [Rate Control](rate-control.md).
+-   To get updated video frames while seeking, set the playback rate to zero before calling [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master). This operation is called *scrubbing*. (See [How to Perform Scrubbing](how-to-perform-scrubbing.md).)
 
 To create the best user experience, however, you must take the following behaviors into account:
 
 -   Seeking is asynchronous, and the Media Session queues all seek requests on a FIFO queue. If you submit multiple seek requests, the UI might run ahead of the actual playback state. For example, suppose your application implements a seek bar. If the user drags the seek bar forward and backward, there might be a lag while the forward seeks are executed. While a seek is in progress, you should cache the user's seek requests. When the current seek operation completes, submit the user's most recent seek request and discard the others.
--   Some rate transitions are not allowed in some transport states. For example, switching from forward playback to reverse playback is not allowed while playing. The supported transitions are described in [**IMFRateControl::SetRate**](imfratecontrol-setrate.md). Rate changes are also asynchronous.
+-   Some rate transitions are not allowed in some transport states. For example, switching from forward playback to reverse playback is not allowed while playing. The supported transitions are described in [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master). Rate changes are also asynchronous.
 
 The following helper class can be used to manage seek requests and rate changes. While an asynchronous operation is pending, the class caches any seek or rate-change requests. When the current operation completes, the class submits the most recent request, if any. The class also manages the transport state to avoid invalid rate changes.
 

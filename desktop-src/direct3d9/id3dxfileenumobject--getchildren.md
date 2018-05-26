@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of child objects in this file data object.'
-ms.assetid: '4409819f-a346-40b1-8e12-86e8128ece47'
-title: 'ID3DXFileEnumObject::GetChildren method'
+---
+Description: Retrieves the number of child objects in this file data object.
+ms.assetid: 4409819f-a346-40b1-8e12-86e8128ece47
+title: ID3DXFileEnumObjectGetChildren method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileEnumObject::GetChildren method

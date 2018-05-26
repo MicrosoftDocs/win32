@@ -4,10 +4,13 @@ description: The focus of Rights Management SDK 4.2 is to help you build AD RMS
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ae67523a-c094-44da-86b8-739bedba7111'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: ae67523a-c094-44da-86b8-739bedba7111
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Developer guidance and terms

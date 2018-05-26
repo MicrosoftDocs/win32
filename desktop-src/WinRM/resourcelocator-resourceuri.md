@@ -4,11 +4,14 @@ description: Gets or sets the resource URI in a ResourceLocator object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'adb1e08a-290f-4a23-a6e4-d7567a6b7eee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: adb1e08a-290f-4a23-a6e4-d7567a6b7eee
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["ResourceURI property Windows Remote Management", "ResourceURI property Windows Remote Management , ResourceLocator object", "ResourceLocator object Windows Remote Management , ResourceURI property"]
+keywords:
+- ResourceURI property Windows Remote Management
+- ResourceURI property Windows Remote Management , ResourceLocator object
+- ResourceLocator object Windows Remote Management , ResourceURI property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator.ResourceURI property
@@ -40,7 +46,7 @@ A string that identifies the resource. When setting the resource URI for a [**Re
 
 ## Remarks
 
-The following is an example of a proper path for [**ResourceURI**](iwsmanresourcelocator-resourceuri.md).
+The following is an example of a proper path for [**ResourceURI**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri?branch=master).
 
 ``` syntax
 "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service"
@@ -60,8 +66,8 @@ The following path does not work because it contains a key for a specific instan
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -76,9 +82,9 @@ The following path does not work because it contains a key for a specific instan
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

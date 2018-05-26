@@ -1,14 +1,19 @@
 ---
 title: Boot Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad when the system is booted.
-ms.assetid: '6dd7155c-6163-4408-9cef-c313134beeb0'
+ms.assetid: 6dd7155c-6163-4408-9cef-c313134beeb0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Boot Trigger Example (XML)
 
 The XML in this example defines a task that starts Notepad when the system is booted.
 
-To register a task that is defined in XML, you can use either the [**ITaskFolder::RegisterTask**](itaskfolder-registertask.md) function ([**TaskFolder.RegisterTask**](taskfolder-registertask.md) for scripting) or the Schtasks.exe command-line tool. If you use the Schtasks.exe tool (located in the C:\\Windows\\System32 directory), then you can use the following command to register the task: **schtasks /create /XML** *&lt;path to the XML file containing the task definition&gt;* **/tn** *&lt;task name&gt;*.
+To register a task that is defined in XML, you can use either the [**ITaskFolder::RegisterTask**](/windows/win32/taskschd/nf-taskschd-itaskfolder-registertask?branch=master) function ([**TaskFolder.RegisterTask**](taskfolder-registertask.md) for scripting) or the Schtasks.exe command-line tool. If you use the Schtasks.exe tool (located in the C:\\Windows\\System32 directory), then you can use the following command to register the task: **schtasks /create /XML** *&lt;path to the XML file containing the task definition&gt;* **/tn** *&lt;task name&gt;*.
 
 ## To define a task to start Notepad on system boot
 

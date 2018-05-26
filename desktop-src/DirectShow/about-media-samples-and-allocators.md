@@ -1,18 +1,23 @@
 ---
 Description: About Media Samples and Allocators
-ms.assetid: 'd6283bf0-0460-4519-9a56-fd4c78cfaabc'
+ms.assetid: d6283bf0-0460-4519-9a56-fd4c78cfaabc
 title: About Media Samples and Allocators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Media Samples and Allocators
 
-Filters deliver data across pin connections. Data moves from the output pin of one filter to the input pin of another filter. The most common way for the output pin to deliver the data is by calling the [**IMemInputPin::Receive**](imeminputpin-receive.md) method on the input, although a few other mechanisms exist as well.
+Filters deliver data across pin connections. Data moves from the output pin of one filter to the input pin of another filter. The most common way for the output pin to deliver the data is by calling the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method on the input, although a few other mechanisms exist as well.
 
-Depending on the filter, memory for the media data can be allocated in various ways: on the heap, in a DirectDraw surface, using shared GDI memory, or using some other allocation mechanism. The object responsible for allocating the memory is called an *allocator*, which is a COM object that exposes the [**IMemAllocator**](imemallocator.md) interface.
+Depending on the filter, memory for the media data can be allocated in various ways: on the heap, in a DirectDraw surface, using shared GDI memory, or using some other allocation mechanism. The object responsible for allocating the memory is called an *allocator*, which is a COM object that exposes the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 When two pins connect, one of the pins must provide an allocator. DirectShow defines a sequence of method calls that is used to establish which pin provides the allocator. The pins also agree on the number of buffers that the allocator will create, and the size of the buffers.
 
-Before streaming begins, the allocator creates a pool of buffers. During streaming, the upstream filter fills buffers with data and delivers them to the downstream filter. But the upstream filter does not give the downstream filter raw pointers to the buffers. Instead, it uses COM objects called *media samples*, which the allocator creates to manage the buffers. Media samples expose the [**IMediaSample**](imediasample.md) interface. A media sample contains:
+Before streaming begins, the allocator creates a pool of buffers. During streaming, the upstream filter fills buffers with data and delivers them to the downstream filter. But the upstream filter does not give the downstream filter raw pointers to the buffers. Instead, it uses COM objects called *media samples*, which the allocator creates to manage the buffers. Media samples expose the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface. A media sample contains:
 
 -   a pointer to the underlying buffer
 -   a time stamp

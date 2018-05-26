@@ -4,13 +4,16 @@ description: Adds volumes to an existing replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '91661b8e-27e9-4b00-b97f-1ad24185bbfb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 91661b8e-27e9-4b00-b97f-1ad24185bbfb
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetGroupAddVolumes method", "SetGroupAddVolumes method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, SetGroupAddVolumes method"]
+keywords:
+- SetGroupAddVolumes method
+- SetGroupAddVolumes method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, SetGroupAddVolumes method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetGroupAddVolumes method of the MSFT\_WvrAdminTasks class
@@ -30,9 +36,9 @@ Adds volumes to an existing replication group.
 
 ```mof
 uint32 SetGroupAddVolumes(
-  [in] string ComputerName,
-  [in] string Name,
-  [in] string AddVolumeName[]
+  [in] string ComputerName,
+  [in] string Name,
+  [in] string AddVolumeName[]
 );
 ```
 
@@ -70,7 +76,7 @@ The volume names to add.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ The volume names to add.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

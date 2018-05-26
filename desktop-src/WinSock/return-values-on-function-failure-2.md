@@ -1,7 +1,12 @@
 ---
-Description: 'The manifest constant SOCKET\_ERROR is provided for checking function failure. Although use of this constant is not mandatory, it is recommended. The following example illustrates the use of the SOCKET\_ERROR constant.'
-ms.assetid: 'b46203dc-5666-413b-90fe-8432318f3037'
+Description: The manifest constant SOCKET\_ERROR is provided for checking function failure. Although use of this constant is not mandatory, it is recommended. The following example illustrates the use of the SOCKET\_ERROR constant.
+ms.assetid: b46203dc-5666-413b-90fe-8432318f3037
 title: Return Values on Function Failure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values on Function Failure

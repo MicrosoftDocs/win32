@@ -1,7 +1,12 @@
 ---
 title: Flow Control
 description: Most hardware is designed to run shader code line by line, executing each HLSL statement once.
-ms.assetid: '94f22e39-8e71-424b-8ca1-bafc843f843f'
+ms.assetid: 94f22e39-8e71-424b-8ca1-bafc843f843f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flow Control

@@ -1,14 +1,20 @@
 ---
 title: seq Element
 description: The seq element contains elements that define a static playlist or elements that define a smart playlist.
-ms.assetid: '849f7b38-25f2-4708-a83c-e651812a1a72'
-keywords: ["seq Element Windows Media Player"]
+ms.assetid: 849f7b38-25f2-4708-a83c-e651812a1a72
+keywords:
+- seq Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - seq Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # seq Element
@@ -35,7 +41,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,9 +89,9 @@ When a **seq** element only contains **media** elements that reference specific 
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

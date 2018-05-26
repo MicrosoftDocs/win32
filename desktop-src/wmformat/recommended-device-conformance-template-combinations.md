@@ -1,8 +1,20 @@
 ---
 title: Recommended Device Conformance Template Combinations
 description: Recommended Device Conformance Template Combinations
-ms.assetid: '044f3b4c-fa81-4dac-bdde-13c47be814c6'
-keywords: ["Windows Media Format SDK,device conformance templates", "Advanced Systems Format (ASF),device conformance templates", "ASF (Advanced Systems Format),device conformance templates", "Windows Media Format SDK,recommended device conformance template combinations", "Advanced Systems Format (ASF),recommended device conformance template combinations", "ASF (Advanced Systems Format),recommended device conformance template combinations", "device conformance templates,recommended combinations"]
+ms.assetid: 044f3b4c-fa81-4dac-bdde-13c47be814c6
+keywords:
+- Windows Media Format SDK,device conformance templates
+- Advanced Systems Format (ASF),device conformance templates
+- ASF (Advanced Systems Format),device conformance templates
+- Windows Media Format SDK,recommended device conformance template combinations
+- Advanced Systems Format (ASF),recommended device conformance template combinations
+- ASF (Advanced Systems Format),recommended device conformance template combinations
+- device conformance templates,recommended combinations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recommended Device Conformance Template Combinations

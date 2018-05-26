@@ -1,14 +1,20 @@
 ---
 title: onkeypress
 description: The onkeypress event handler handles an event that occurs when an alphanumeric key is pressed.
-ms.assetid: '797732b0-faf0-4b3f-9fbe-17959646322b'
-keywords: ["onkeypress Windows Media Player"]
+ms.assetid: 797732b0-faf0-4b3f-9fbe-17959646322b
+keywords:
+- onkeypress Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onkeypress
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onkeypress
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element, the **EFFECTS*
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

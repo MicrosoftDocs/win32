@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a collection of the policy''s qualifiers.'
-ms.assetid: 'aa5e2225-0a39-40bc-868c-d96f5953edaa'
-title: 'PolicyInformation.Qualifiers property'
+---
+Description: Retrieves a collection of the policys qualifiers.
+ms.assetid: aa5e2225-0a39-40bc-868c-d96f5953edaa
+title: PolicyInformation.Qualifiers property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PolicyInformation.Qualifiers property

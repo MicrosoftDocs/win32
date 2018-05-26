@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PID\_MAP structure contains identifies the contents of an MPEG-2 transport stream packet ID.'
-ms.assetid: 'c247ec75-483d-4587-a82f-07bbf6d277b4'
-title: 'PID\_MAP structure'
+---
+Description: The PID\_MAP structure contains identifies the contents of an MPEG-2 transport stream packet ID.
+ms.assetid: c247ec75-483d-4587-a82f-07bbf6d277b4
+title: PID\_MAP structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PID\_MAP structure
@@ -55,7 +60,7 @@ Specifies the contents of the packet payload, as a [**MEDIA\_SAMPLE\_CONTENT**](
 [DirectShow Structures](directshow-structures.md)
 </dt> <dt>
 
-[**IEnumPIDMap Interface**](ienumpidmap.md)
+[**IEnumPIDMap Interface**](/windows/win32/Bdaiface/nn-bdaiface-ienumpidmap?branch=master)
 </dt> </dl>
 
  

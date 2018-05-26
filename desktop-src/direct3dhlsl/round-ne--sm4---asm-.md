@@ -1,7 +1,12 @@
 ---
 title: round\_ne (sm4 - asm)
 description: Floating-point round to integral float.
-ms.assetid: '2D1A0786-F7DB-4D69-9F56-82ECD1EE7ABA'
+ms.assetid: 2D1A0786-F7DB-4D69-9F56-82ECD1EE7ABA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # round\_ne (sm4 - asm)
@@ -15,7 +20,7 @@ Floating-point round to integral float.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Floating-point round to integral float.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ F means finite-real number.
 
 
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -57,7 +62,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -76,7 +81,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -85,9 +90,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: ATSCComponentType Object
 description: ATSCComponentType Object
-ms.assetid: '45c0c3ce-1313-4203-a5e6-af4aed8f0324'
+ms.assetid: 45c0c3ce-1313-4203-a5e6-af4aed8f0324
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATSCComponentType Object
@@ -12,7 +17,7 @@ The **ATSCComponentType** object represents an ATSC component type. The ATSC com
 
 |                           |                                                  |
 |---------------------------|--------------------------------------------------|
-| Interfaces                | [**IATSCComponentType**](iatsccomponenttype.md) |
+| Interfaces                | [**IATSCComponentType**](/windows/previous-versions/tuner/nn-tuner-iatsccomponenttype?branch=master) |
 | Outgoing Event Interfaces | None                                             |
 | CLSID                     | CLSID\_ATSCComponentType                         |
 
@@ -22,7 +27,7 @@ The **ATSCComponentType** object represents an ATSC component type. The ATSC com
 
 ## Remarks
 
-This object is obtained through the [**IComponent::get\_Type**](icomponent-get-type.md) method of a component object for an ATSC tune request. It may also be used as a default preferred component type on the tuning space, or the preferred type on a tune request. In this case, it is obtained through the Components collection object.
+This object is obtained through the [**IComponent::get\_Type**](/windows/previous-versions/tuner/nf-tuner-icomponent-get_type?branch=master) method of a component object for an ATSC tune request. It may also be used as a default preferred component type on the tuning space, or the preferred type on a tune request. In this case, it is obtained through the Components collection object.
 
 ## Related topics
 

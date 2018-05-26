@@ -1,12 +1,17 @@
-﻿---
-Description: 'Describes the relationship between the adapter refresh rate and the rate at which Present or Present operations are completed. These values also serve as flag values for the PresentationIntervals field of D3DCAPS9.'
-ms.assetid: 'a7d774c1-93c0-47d8-a8a7-e66e394726a3'
+---
+Description: Describes the relationship between the adapter refresh rate and the rate at which Present or Present operations are completed. These values also serve as flag values for the PresentationIntervals field of D3DCAPS9.
+ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPRESENT
 
-Describes the relationship between the adapter refresh rate and the rate at which [**Present**](idirect3ddevice9--present.md) or [**Present**](idirect3dswapchain9--present.md) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](d3dcaps9.md).
+Describes the relationship between the adapter refresh rate and the rate at which [**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) or [**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-present?branch=master) operations are completed. These values also serve as flag values for the PresentationIntervals field of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 
 
@@ -28,7 +33,7 @@ Describes the relationship between the adapter refresh rate and the rate at whic
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_DONOTWAIT"></span><span id="d3dpresent_donotwait"></span><dl> <dt><strong>D3DPRESENT_DONOTWAIT</strong></dt> </dl></td>
-<td style="text-align: left;">A presentation cannot be scheduled by a hal device. If this flag is set in a call to [<strong>Present</strong>](idirect3dswapchain9--present.md), and the hardware is busy processing or waiting for a vertical sync interval, then Present will return D3DERR_WASSTILLDRAWING to indicate that the blit operation is incomplete.<br/></td>
+<td style="text-align: left;">A presentation cannot be scheduled by a hal device. If this flag is set in a call to [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-present?branch=master), and the hardware is busy processing or waiting for a vertical sync interval, then Present will return D3DERR_WASSTILLDRAWING to indicate that the blit operation is incomplete.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_FLIPRESTART"></span><span id="d3dpresent_fliprestart"></span><dl> <dt><strong>D3DPRESENT_FLIPRESTART</strong></dt> </dl></td>
@@ -36,7 +41,7 @@ Describes the relationship between the adapter refresh rate and the rate at whic
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl> <dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE is enforced on this [<strong>Present</strong>](idirect3dswapchain9--present.md) call. This flag can only be specified when using D3DSWAPEFFECT_FLIPEX. Windowed and fullscreen presentation behaviors are the same. This is especially useful for media apps that want to discard frames that have been detected as late and present subsequent frames at composition time. An invalid parameter error will be returned if this flag is improperly specified. When multiple consecutive frames with D3DPRESENT_FORCEIMMEDIATEs are queued, only the last frame is displayed, for both windowed and fullscreen presentation. A sample application that uses D3DPRESENT_FORCEIMMEDIATE and D3DSWAPEFFECT_FLIPEX is the [D3D9ExFlipEx sample on the MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=179115). <br/> This flag is available in Direct3D 9Ex on Windows 7 or later operating systems.<br/> When using D3DSWAPEFFECT_FLIPEX, each frame presented using D3DPRESENT_INTERVAL_IMMEDIATE or D3DPRESENT_INTERVAL_FORCEIMMEDIATE will override the previous frame's present interval. For example, if you queue the following frames using the following swap effects: frame A (D3DPRESENT_INTERVAL_ONE), frame B(D3DPRESENT_INTERVAL_ONE), frame C(D3DPRESENT_INTERVAL_ONE), frame D(D3DPRESENT_INTERVAL_FORCEIMMEDIATE), frame D will override frame C's present interval. The displayed frames per present interval are frame A, frame B, (frame C overridden by) frame D.<br/> See Remarks.<br/></td>
+<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE is enforced on this [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-present?branch=master) call. This flag can only be specified when using D3DSWAPEFFECT_FLIPEX. Windowed and fullscreen presentation behaviors are the same. This is especially useful for media apps that want to discard frames that have been detected as late and present subsequent frames at composition time. An invalid parameter error will be returned if this flag is improperly specified. When multiple consecutive frames with D3DPRESENT_FORCEIMMEDIATEs are queued, only the last frame is displayed, for both windowed and fullscreen presentation. A sample application that uses D3DPRESENT_FORCEIMMEDIATE and D3DSWAPEFFECT_FLIPEX is the [D3D9ExFlipEx sample on the MSDN Code Gallery](http://go.microsoft.com/fwlink/p/?linkid=179115). <br/> This flag is available in Direct3D 9Ex on Windows 7 or later operating systems.<br/> When using D3DSWAPEFFECT_FLIPEX, each frame presented using D3DPRESENT_INTERVAL_IMMEDIATE or D3DPRESENT_INTERVAL_FORCEIMMEDIATE will override the previous frame's present interval. For example, if you queue the following frames using the following swap effects: frame A (D3DPRESENT_INTERVAL_ONE), frame B(D3DPRESENT_INTERVAL_ONE), frame C(D3DPRESENT_INTERVAL_ONE), frame D(D3DPRESENT_INTERVAL_FORCEIMMEDIATE), frame D will override frame C's present interval. The displayed frames per present interval are frame A, frame B, (frame C overridden by) frame D.<br/> See Remarks.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt> </dl></td>
@@ -44,31 +49,31 @@ Describes the relationship between the adapter refresh rate and the rate at whic
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_ONE"></span><span id="d3dpresent_interval_one"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_ONE</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period (the runtime will &quot;beam follow&quot; to prevent tearing). [<strong>Present</strong>](idirect3ddevice9--present.md) operations will not be affected more frequently than the screen refresh; the runtime will complete at most one Present operation per adapter refresh period. This is equivalent to using D3DSWAPEFFECT_COPYVSYNC in DirectX 8.1. This option is always available for both windowed and full-screen swap chains. See remarks.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period (the runtime will &quot;beam follow&quot; to prevent tearing). [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) operations will not be affected more frequently than the screen refresh; the runtime will complete at most one Present operation per adapter refresh period. This is equivalent to using D3DSWAPEFFECT_COPYVSYNC in DirectX 8.1. This option is always available for both windowed and full-screen swap chains. See remarks.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_TWO"></span><span id="d3dpresent_interval_two"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_TWO</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period. [<strong>Present</strong>](idirect3ddevice9--present.md) operations will not be affected more frequently than every second screen refresh. Check the PresentationIntervals cap (see [<strong>D3DCAPS9</strong>](d3dcaps9.md)) to see if D3DPRESENT_INTERVAL_TWO is supported by the driver.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period. [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) operations will not be affected more frequently than every second screen refresh. Check the PresentationIntervals cap (see [<strong>D3DCAPS9</strong>](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)) to see if D3DPRESENT_INTERVAL_TWO is supported by the driver.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_THREE"></span><span id="d3dpresent_interval_three"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_THREE</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period. [<strong>Present</strong>](idirect3ddevice9--present.md) operations will not be affected more frequently than every third screen refresh. Check the PresentationIntervals cap (see [<strong>D3DCAPS9</strong>](d3dcaps9.md)) to see if D3DPRESENT_INTERVAL_THREE is supported by the driver.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period. [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) operations will not be affected more frequently than every third screen refresh. Check the PresentationIntervals cap (see [<strong>D3DCAPS9</strong>](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)) to see if D3DPRESENT_INTERVAL_THREE is supported by the driver.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_FOUR"></span><span id="d3dpresent_interval_four"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_FOUR</strong></dt> </dl></td>
-<td style="text-align: left;">The driver will wait for the vertical retrace period. [<strong>Present</strong>](idirect3ddevice9--present.md) operations will not be affected more frequently than every fourth screen refresh. Check the PresentationIntervals member (see [<strong>D3DCAPS9</strong>](d3dcaps9.md)) to see if D3DPRESENT_INTERVAL_FOUR is supported by the driver.<br/></td>
+<td style="text-align: left;">The driver will wait for the vertical retrace period. [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) operations will not be affected more frequently than every fourth screen refresh. Check the PresentationIntervals member (see [<strong>D3DCAPS9</strong>](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)) to see if D3DPRESENT_INTERVAL_FOUR is supported by the driver.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_IMMEDIATE"></span><span id="d3dpresent_interval_immediate"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_IMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">The runtime updates the window client area immediately and might do so more than once during the adapter refresh period. This is equivalent to using D3DSWAPEFFECT_COPY in DirectX 8. [<strong>Present</strong>](idirect3ddevice9--present.md) operations might be affected immediately. This option is always available for both windowed and full-screen swap chains. See remarks.<br/></td>
+<td style="text-align: left;">The runtime updates the window client area immediately and might do so more than once during the adapter refresh period. This is equivalent to using D3DSWAPEFFECT_COPY in DirectX 8. [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) operations might be affected immediately. This option is always available for both windowed and full-screen swap chains. See remarks.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_LINEAR_CONTENT"></span><span id="d3dpresent_linear_content"></span><dl> <dt><strong>D3DPRESENT_LINEAR_CONTENT</strong></dt> </dl></td>
 <td style="text-align: left;">The content of the back buffer to be presented is in the linear color space. <br/>
 <ul>
 <li>The presentation will implicitly convert from linear space to sRGB (gamma = 2.2). This is the only conversion that is supported.</li>
-<li>Because this flag represents a property of the content of the back buffer, the flag can be specified during an [<strong>Present</strong>](idirect3dswapchain9--present.md) call. In other words, an application can present linear content in one frame, and then switch to corrected content in the next.</li>
-<li>This flag is ignored when the swap chain is full screen. (Note that this flag is available only on the explicit swap chain version of [<strong>Present</strong>](idirect3dswapchain9--present.md). The [<strong>Present</strong>](idirect3ddevice9--present.md) method does not take a flags parameter.)</li>
+<li>Because this flag represents a property of the content of the back buffer, the flag can be specified during an [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-present?branch=master) call. In other words, an application can present linear content in one frame, and then switch to corrected content in the next.</li>
+<li>This flag is ignored when the swap chain is full screen. (Note that this flag is available only on the explicit swap chain version of [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3dswapchain9-present?branch=master). The [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) method does not take a flags parameter.)</li>
 <li>This flag is always accepted, but will only take effect when the driver exposes &gt;D3DCAPS3_LINEAR_TO_SRGB_PresentATION.</li>
 <li>The only back buffer format supported is [X8R8G8B8](d3dformat.md).</li>
 </ul>

@@ -1,21 +1,26 @@
 ---
-Description: 'Proxy function for the InitializeFromMemory method.'
-ms.assetid: '737526ac-fe79-4d53-83c5-33102f5ac67b'
-title: 'IWICStream\_InitializeFromMemory\_Proxy function'
+Description: Proxy function for the InitializeFromMemory method.
+ms.assetid: 737526ac-fe79-4d53-83c5-33102f5ac67b
+title: IWICStream\_InitializeFromMemory\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICStream\_InitializeFromMemory\_Proxy function
 
-Proxy function for the [**InitializeFromMemory**](-wic-codec-iwicstream-initializefrommemory.md) method.
+Proxy function for the [**InitializeFromMemory**](/windows/win32/Wincodec/nf-wincodec-iwicstream-initializefrommemory?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICStream_InitializeFromMemory_Proxy(
-  _In_ IWICStream *THIS_PTR,
-  _In_ BYTE       *pbBuffer,
-  _In_ DWORD      cbBufferSize
+  _In_ IWICStream *THIS_PTR,
+  _In_ BYTE       *pbBuffer,
+  _In_ DWORD      cbBufferSize
 );
 ```
 
@@ -28,9 +33,9 @@ HRESULT IWICStream_InitializeFromMemory_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICStream**](-wic-codec-iwicstream.md)\***
+Type: **[**IWICStream**](/windows/win32/Wincodec/nn-wincodec-iwicstream?branch=master)\***
 
-Pointer to this [**IWICStream**](-wic-codec-iwicstream.md) object.
+Pointer to this [**IWICStream**](/windows/win32/Wincodec/nn-wincodec-iwicstream?branch=master) object.
 
 </dd> <dt>
 
@@ -66,15 +71,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

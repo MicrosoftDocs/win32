@@ -2,13 +2,15 @@
 title: VpnRoutingDomainCustomConfig class
 description: Represents a custom Internet Protocol Security (IPsec) configuration for a routing domain.
 audience: developer
-ms.assetid: '11e5b6d6-9162-4e16-9dbe-21673e35e874'
-ms.prod: 'windows-server-dev'
+ms.assetid: 11e5b6d6-9162-4e16-9dbe-21673e35e874
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnRoutingDomainCustomConfig class", "VpnRoutingDomainCustomConfig class, described"]
+keywords:
+- VpnRoutingDomainCustomConfig class
+- VpnRoutingDomainCustomConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -45,6 +47,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnRoutingDomainCustomConfig class
@@ -59,34 +64,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class VpnRoutingDomainCustomConfig : VpnRoutingDomainConfig
 {
-  string  RoutingDomain;
-  string  RoutingDomainID;
-  string  RoutingDomainStatus;
-  uint32  VpnStatus;
-  uint32  VpnS2SStatus;
-  uint32  RoutingStatus;
-  uint32  EnableQoS;
-  uint64  TxBandwidthKbps;
-  uint64  RxBandwidthKbps;
-  string  IPAddressRange[];
-  string  IPv6Prefix;
-  string  AvailabilityStatus;
-  uint32  InterimAccountingPeriodSec;
-  string  DnsIPAddress[];
-  string  NetBiosIPAddress[];
-  uint32  MaximumVpnConnections;
-  string  TenantName[];
+  string  RoutingDomain;
+  string  RoutingDomainID;
+  string  RoutingDomainStatus;
+  uint32  VpnStatus;
+  uint32  VpnS2SStatus;
+  uint32  RoutingStatus;
+  uint32  EnableQoS;
+  uint64  TxBandwidthKbps;
+  uint64  RxBandwidthKbps;
+  string  IPAddressRange[];
+  string  IPv6Prefix;
+  string  AvailabilityStatus;
+  uint32  InterimAccountingPeriodSec;
+  string  DnsIPAddress[];
+  string  NetBiosIPAddress[];
+  uint32  MaximumVpnConnections;
+  string  TenantName[];
   boolean CustomPolicy;
-  uint32  EncryptionMethod;
-  uint32  IntegrityCheckMethod;
-  uint32  CipherTransformConstant;
-  uint32  PfsGroup;
-  uint32  AuthenticationTransformConstant;
-  uint32  DHGroup;
-  uint32  IdleDisconnectSec;
-  uint32  SaLifeTimeSec;
-  uint32  SaRenegotiationDataSizeKB;
-  uint32  MMSaLifeTimeSec;
+  uint32  EncryptionMethod;
+  uint32  IntegrityCheckMethod;
+  uint32  CipherTransformConstant;
+  uint32  PfsGroup;
+  uint32  AuthenticationTransformConstant;
+  uint32  DHGroup;
+  uint32  IdleDisconnectSec;
+  uint32  SaLifeTimeSec;
+  uint32  SaRenegotiationDataSizeKB;
+  uint32  MMSaLifeTimeSec;
 };
 ```
 
@@ -309,7 +314,7 @@ Access type: Read/write
 
 Lifetime of main mode security association (SA) after which the MM SA is no longer valid, in seconds
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -509,7 +514,7 @@ This property is inherited from [**RoutingDomainConfiguration**](routingdomainco
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -526,9 +531,9 @@ This property is inherited from [**RoutingDomainConfiguration**](routingdomainco
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

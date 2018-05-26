@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies vertex colors for a mesh, instead of applying a material per face or per mesh.'
-ms.assetid: '9ffd365f-11a5-420b-af5e-6a8be79a304c'
+Description: Specifies vertex colors for a mesh, instead of applying a material per face or per mesh.
+ms.assetid: 9ffd365f-11a5-420b-af5e-6a8be79a304c
 title: MeshVertexColors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MeshVertexColors

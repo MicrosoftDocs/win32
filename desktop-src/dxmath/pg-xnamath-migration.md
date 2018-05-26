@@ -1,7 +1,12 @@
 ---
-Description: 'This overview describes the changes required to migrate existing code using the XNA Math library to the DirectXMath library.'
-ms.assetid: 'ed8463f8-8a3d-e89e-89e2-8d72a7f45cd6'
+Description: This overview describes the changes required to migrate existing code using the XNA Math library to the DirectXMath library.
+ms.assetid: ed8463f8-8a3d-e89e-89e2-8d72a7f45cd6
 title: Code Migration from the XNA Math Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Migration from the XNA Math Library
@@ -192,11 +197,11 @@ XMVECTOR XMVectorSwizzle(FXMVECTOR V, uint32_t E0, uint32_t E1, uint32_t E2, uin
 >
 > | Eliminated Function        | Replacement                                                                                                       |
 > |----------------------------|-------------------------------------------------------------------------------------------------------------------|
-> | XMStoreFloat3x3NC          | [**XMStoreFloat3x3**](xmstorefloat3x3.md)                                                                        |
-> | XMStoreFloat4NC            | [**XMStoreFloat4**](xmstorefloat4.md)                                                                            |
-> | XMStoreFloat4x3NC          | [**XMStoreFloat4x3**](xmstorefloat4x3.md)                                                                        |
-> | XMStoreFloat4x4NC          | [**XMStoreFloat4x4**](xmstorefloat4x4.md)                                                                        |
-> | XMStoreInt4NC              | [**XMStoreInt4**](xmstoreint4.md)                                                                                |
+> | XMStoreFloat3x3NC          | [**XMStoreFloat3x3**](/windows/win32/DirectXMath/?branch=master)                                                                        |
+> | XMStoreFloat4NC            | [**XMStoreFloat4**](/windows/win32/DirectXMath/?branch=master)                                                                            |
+> | XMStoreFloat4x3NC          | [**XMStoreFloat4x3**](/windows/win32/DirectXMath/?branch=master)                                                                        |
+> | XMStoreFloat4x4NC          | [**XMStoreFloat4x4**](/windows/win32/DirectXMath/?branch=master)                                                                        |
+> | XMStoreInt4NC              | [**XMStoreInt4**](/windows/win32/DirectXMath/?branch=master)                                                                                |
 > | XMVector2InBoundsR         | [**XMVector2InBounds**](xmvector2inbounds.md) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |
 > | XMVector2TransformStreamNC | [**XMVector2TransformStream**](xmvector2transformstream.md)                                                      |
 > | XMVector3InBoundsR         | [**XMVector3InBounds**](xmvector3inbounds.md) ? [XM\_CRMASK\_CR6BOUNDS](ovw-xnamath-reference-constants.md) : 0 |

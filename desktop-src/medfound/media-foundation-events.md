@@ -1,7 +1,12 @@
 ---
 Description: Media Foundation Events
-ms.assetid: 'd925f63d-3359-4ba1-802f-0c2b11a3f973'
+ms.assetid: d925f63d-3359-4ba1-802f-0c2b11a3f973
 title: Media Foundation Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation Events
@@ -48,40 +53,40 @@ title: Media Foundation Events
 | [MEPolicyChanged](mepolicychanged.md)                                                       | The output policy for a stream changed.                                                                                                                  |
 | [MEPolicyError](mepolicyerror.md)                                                           | Raised by a trusted output if an error occurs while enforcing the output policy.                                                                         |
 | [MEPolicyReport](mepolicyreport.md)                                                         | Contains status information about the enforcement of an output policy.                                                                                   |
-| [MEPolicySet](mepolicyset.md)                                                               | The [**IMFOutputTrustAuthority::SetPolicy**](imfoutputtrustauthority-setpolicy.md) method completed.                                                    |
+| [MEPolicySet](mepolicyset.md)                                                               | The [**IMFOutputTrustAuthority::SetPolicy**](/windows/win32/mfidl/nf-mfidl-imfoutputtrustauthority-setpolicy?branch=master) method completed.                                                    |
 | [MEQualityNotify](mequalitynotify.md)                                                       | Provides feedback about playback quality to the quality manager.                                                                                         |
 | [MEReconnectEnd](mereconnectend.md)                                                         | Raised by a media source at the end of a reconnection attempt.                                                                                           |
 | [MEReconnectStart](mereconnectstart.md)                                                     | Raised by a media source at the start of a reconnection attempt.                                                                                         |
 | [MERendererEvent](merendererevent.md)                                                       | Raised by the enhanced video renderer (EVR) when it receives a user event from the presenter.                                                            |
-| [MESequencerSourceTopologyUpdated](mesequencersourcetopologyupdated.md)                     | Raised by the sequencer source when the [**IMFSequencerSource::UpdateTopology**](imfsequencersource-updatetopology.md) method completes asynchronously. |
+| [MESequencerSourceTopologyUpdated](mesequencersourcetopologyupdated.md)                     | Raised by the sequencer source when the [**IMFSequencerSource::UpdateTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-updatetopology?branch=master) method completes asynchronously. |
 | [MESessionCapabilitiesChanged](mesessioncapabilitieschanged.md)                             | Raised by the Media Session when the session capabilities change.                                                                                        |
-| [MESessionClosed](mesessionclosed.md)                                                       | Raised when the [**IMFMediaSession::Close**](imfmediasession-close.md) method completes asynchronously.                                                 |
+| [MESessionClosed](mesessionclosed.md)                                                       | Raised when the [**IMFMediaSession::Close**](/windows/win32/mfidl/nf-mfidl-imfmediasession-close?branch=master) method completes asynchronously.                                                 |
 | [MESessionEnded](mesessionended.md)                                                         | Raised by the Media Session when it has finished playing the last presentation in the playback queue.                                                    |
 | [MESessionNotifyPresentationTime](mesessionnotifypresentationtime.md)                       | Raised by the Media Session when a new presentation starts.                                                                                              |
-| [MESessionPaused](mesessionpaused.md)                                                       | Raised when the [**IMFMediaSession::Pause**](imfmediasession-pause.md) method completes asynchronously.                                                 |
+| [MESessionPaused](mesessionpaused.md)                                                       | Raised when the [**IMFMediaSession::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasession-pause?branch=master) method completes asynchronously.                                                 |
 | [MESessionRateChanged](mesessionratechanged.md)                                             | Raised by the Media Session when the playback rate changes.                                                                                              |
 | [MESessionScrubSampleComplete](mesessionscrubsamplecomplete.md)                             | Raised by the Media Session when it completes a scrubbing request.                                                                                       |
-| [MESessionStarted](mesessionstarted.md)                                                     | Raised when the [**IMFMediaSession::Start**](imfmediasession-start.md) method completes asynchronously.                                                 |
-| [MESessionStopped](mesessionstopped.md)                                                     | Raised when the [**IMFMediaSession::Stop**](imfmediasession-stop.md) method completes asynchronously.                                                   |
+| [MESessionStarted](mesessionstarted.md)                                                     | Raised when the [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) method completes asynchronously.                                                 |
+| [MESessionStopped](mesessionstopped.md)                                                     | Raised when the [**IMFMediaSession::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasession-stop?branch=master) method completes asynchronously.                                                   |
 | [MESessionStreamSinkFormatChanged](mesessionstreamsinkformatchanged.md)                     | Raised by the Media Session when the format changes on a media sink.                                                                                     |
-| [MESessionTopologiesCleared](mesessiontopologiescleared.md)                                 | Raised by the Media Session when the [**IMFMediaSession::ClearTopologies**](imfmediasession-cleartopologies.md) method completes asynchronously.        |
-| [MESessionTopologySet](mesessiontopologyset.md)                                             | Raised after the [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) method completes asynchronously                                     |
+| [MESessionTopologiesCleared](mesessiontopologiescleared.md)                                 | Raised by the Media Session when the [**IMFMediaSession::ClearTopologies**](/windows/win32/mfidl/nf-mfidl-imfmediasession-cleartopologies?branch=master) method completes asynchronously.        |
+| [MESessionTopologySet](mesessiontopologyset.md)                                             | Raised after the [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) method completes asynchronously                                     |
 | [MESessionTopologyStatus](mesessiontopologystatus.md)                                       | Raised by the Media Session when the status of a topology changes.                                                                                       |
 | [MESinkInvalidated](mesinkinvalidated.md)                                                   | Raised when a media sink becomes invalid.                                                                                                                |
 | [MESourceCharacteristicsChanged](mesourcecharacteristicschanged.md)                         | Raised by a media source when the source's characteristics change.                                                                                       |
 | [MESourceMetadataChanged](mesourcemetadatachanged.md)                                       | Raised by a media source when it updates its metadata.                                                                                                   |
-| [MESourcePaused](mesourcepaused.md)                                                         | Raised by a media source when the [**IMFMediaSource::Pause**](imfmediasource-pause.md) method completes asynchronously.                                 |
+| [MESourcePaused](mesourcepaused.md)                                                         | Raised by a media source when the [**IMFMediaSource::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasource-pause?branch=master) method completes asynchronously.                                 |
 | [MESourceRateChanged](mesourceratechanged.md)                                               | Raised by a media source when the playback rate changes.                                                                                                 |
 | [MESourceRateChangeRequested](mesourceratechangerequested.md)                               | Raised by a media source to request a new playback rate.                                                                                                 |
 | [MESourceSeeked](mesourceseeked.md)                                                         | Raised when a media source seeks to a new position.                                                                                                      |
 | [MESourceStarted](mesourcestarted.md)                                                       | Raised when a media source starts without seeking.                                                                                                       |
-| [MESourceStopped](mesourcestopped.md)                                                       | Raised by a media source when the [**IMFMediaSource::Stop**](imfmediasource-stop.md) method completes asynchronously.                                   |
+| [MESourceStopped](mesourcestopped.md)                                                       | Raised by a media source when the [**IMFMediaSource::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasource-stop?branch=master) method completes asynchronously.                                   |
 | [MEStreamFormatChanged](mestreamformatchanged.md)                                           | Raised by a media stream when the media type of the stream changes.                                                                                      |
-| [MEStreamPaused](mestreampaused.md)                                                         | Raised by a media stream when the [**IMFMediaSource::Pause**](imfmediasource-pause.md) method completes asynchronously.                                 |
-| [MEStreamSeeked](mestreamseeked.md)                                                         | Raised by a media stream after a call to [**IMFMediaSource::Start**](imfmediasource-start.md) causes a seek in the stream.                              |
+| [MEStreamPaused](mestreampaused.md)                                                         | Raised by a media stream when the [**IMFMediaSource::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasource-pause?branch=master) method completes asynchronously.                                 |
+| [MEStreamSeeked](mestreamseeked.md)                                                         | Raised by a media stream after a call to [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) causes a seek in the stream.                              |
 | [MEStreamSinkDeviceChanged](mestreamsinkdevicechanged.md)                                   | Raised by the stream sinks of the EVR if the video device changes.                                                                                       |
 | [MEStreamSinkFormatChanged](mestreamsinkformatchanged.md)                                   | Raised by a stream sink when the sink's media type is no longer valid.                                                                                   |
-| [MEStreamSinkMarker](mestreamsinkmarker.md)                                                 | Raised by a stream sink after the [**IMFStreamSink::PlaceMarker**](imfstreamsink-placemarker.md) method is called.                                      |
+| [MEStreamSinkMarker](mestreamsinkmarker.md)                                                 | Raised by a stream sink after the [**IMFStreamSink::PlaceMarker**](/windows/win32/mfidl/nf-mfidl-imfstreamsink-placemarker?branch=master) method is called.                                      |
 | [MEStreamSinkPaused](mestreamsinkpaused.md)                                                 | Raised by a stream sink when it completes the transition to the paused state.                                                                            |
 | [MEStreamSinkPrerolled](mestreamsinkprerolled.md)                                           | Raised by a stream sink when the stream has received enough preroll data to begin rendering.                                                             |
 | [MEStreamSinkRateChanged](mestreamsinkratechanged.md)                                       | Raised by a stream sink when the rate has changed.                                                                                                       |
@@ -90,7 +95,7 @@ title: Media Foundation Events
 | [MEStreamSinkStarted](mestreamsinkstarted.md)                                               | Raised by a stream sink when it completes the transition to the running state.                                                                           |
 | [MEStreamSinkStopped](mestreamsinkstopped.md)                                               | Raised by a stream sink when it completes the transition to the stopped state.                                                                           |
 | [MEStreamStarted](mestreamstarted.md)                                                       | Raised by a media stream when the source starts without seeking.                                                                                         |
-| [MEStreamStopped](mestreamstopped.md)                                                       | Raised by a media stream when the [**IMFMediaSource::Stop**](imfmediasource-stop.md) method completes asynchronously.                                   |
+| [MEStreamStopped](mestreamstopped.md)                                                       | Raised by a media stream when the [**IMFMediaSource::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasource-stop?branch=master) method completes asynchronously.                                   |
 | [MEStreamThinMode](mestreamthinmode.md)                                                     | Raised by a media stream when it starts or stops thinning the stream.                                                                                    |
 | [MEStreamTick](mestreamtick.md)                                                             | Signals that a media stream does not have data available at a specified time.                                                                            |
 | [METransformDrainComplete](metransformdraincomplete.md)                                     | Sent by an asynchronous Media Foundation transform (MFT) when a drain operation is complete.                                                             |
@@ -116,7 +121,7 @@ title: Media Foundation Events
 [Media Event Generators](media-event-generators.md)
 </dt> <dt>
 
-[**IMFMediaEventGenerator**](imfmediaeventgenerator.md)
+[**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master)
 </dt> </dl>
 
  

@@ -4,17 +4,21 @@ description: Asynchronously acquires a UserPolicy object based on a serialized c
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '83998009-0E55-4B1E-8F33-5AEC66865A4C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 83998009-0E55-4B1E-8F33-5AEC66865A4C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.acquire asynchronous method"]
+keywords:
+- UserPolicy.acquire asynchronous method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.acquire asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.acquire asynchronous method
@@ -48,7 +52,7 @@ public static IAsyncControl acquire(byte[] serializedContentPolicy,
 
 
 
- 
+ 
 
 ## Throws
 
@@ -72,11 +76,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

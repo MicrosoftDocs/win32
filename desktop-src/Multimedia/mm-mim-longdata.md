@@ -1,8 +1,9 @@
 ---
 title: MM\_MIM\_LONGDATA message
 description: The MM\_MIM\_LONGDATA message is sent to a window when either a complete MIDI system-exclusive message is received or when a buffer has been filled with system-exclusive data.
-ms.assetid: '72b9eade-4224-436f-bfef-32204eaf51ae'
-keywords: ["MM_MIM_LONGDATA message Windows Multimedia"]
+ms.assetid: 72b9eade-4224-436f-bfef-32204eaf51ae
+keywords:
+- MM_MIM_LONGDATA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_MIM\_LONGDATA message
@@ -60,8 +66,8 @@ No time stamp is available with this message. For time-stamped input data, you m
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ No time stamp is available with this message. For time-stamped input data, you m
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides read-only access to key usage properties of a certificate.'
-ms.assetid: 'eda6d875-df62-4f40-8734-a91666dba289'
+---
+Description: Provides read-only access to key usage properties of a certificate.
+ms.assetid: eda6d875-df62-4f40-8734-a91666dba289
 title: KeyUsage object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage object

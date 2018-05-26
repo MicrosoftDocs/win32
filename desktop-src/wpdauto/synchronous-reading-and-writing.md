@@ -1,7 +1,12 @@
 ---
 title: Synchronous Reading and Writing
-description: This section demonstrates synchronously reading and writing resource data by downloading a ringtone to a device from a Web service, and uploading ringtone data from a device to a Web service.Note  In Windows 7, updating resource data directly is not supported. To update an existing object's data, a WPD Automation script should delete the existing object containing the old resource data, create a new object with the new resource data, and then add the new object. .
-ms.assetid: '83f09399-4b5b-4baf-ace6-97d523e0f2a1'
+description: This section demonstrates synchronously reading and writing resource data by downloading a ringtone to a device from a Web service, and uploading ringtone data from a device to a Web service.Note  In Windows 7, updating resource data directly is not supported. To update an existing objects data, a WPD Automation script should delete the existing object containing the old resource data, create a new object with the new resource data, and then add the new object. .
+ms.assetid: 83f09399-4b5b-4baf-ace6-97d523e0f2a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronous Reading and Writing

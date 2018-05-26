@@ -1,8 +1,17 @@
 ---
 title: Basic Color Management Concepts
 description: Basic Color Management Concepts
-ms.assetid: 'a0623917-0b63-4546-a71a-1e9efa9fe8e5'
-keywords: ["Windows Color System (WCS),color management concepts", "WCS (Windows Color System),color management concepts", "image color management,about", "color management,about"]
+ms.assetid: a0623917-0b63-4546-a71a-1e9efa9fe8e5
+keywords:
+- Windows Color System (WCS),color management concepts
+- WCS (Windows Color System),color management concepts
+- image color management,about
+- color management,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Color Management Concepts

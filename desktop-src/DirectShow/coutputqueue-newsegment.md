@@ -1,7 +1,12 @@
 ---
-Description: 'The NewSegment method delivers a new segment to the input pin.'
-ms.assetid: '53189729-9f47-425e-9df6-faea01dd4482'
-title: 'COutputQueue.NewSegment method'
+Description: The NewSegment method delivers a new segment to the input pin.
+ms.assetid: 53189729-9f47-425e-9df6-faea01dd4482
+title: COutputQueue.NewSegment method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.NewSegment method
@@ -13,9 +18,9 @@ The `NewSegment` method delivers a new segment to the input pin.
 
 ```C++
 HRESULT NewSegment(
-   REFERENCE_TIME tStart,
-   REFERENCE_TIME tStop,
-   double         dRate
+   REFERENCE_TIME tStart,
+   REFERENCE_TIME tStop,
+   double         dRate
 );
 ```
 
@@ -70,7 +75,7 @@ struct NewSegmentPacket {
 
 
 
-The thread calls the [**IPin::NewSegment**](ipin-newsegment.md) method on the input pin, using the data given in the structure.
+The thread calls the [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master) method on the input pin, using the data given in the structure.
 
 If the object is not using a thread, it calls the [**COutputQueue::SendAnyway**](coutputqueue-sendanyway.md) method to deliver any pending samples. Then it calls **IPin::NewSegment** on the input pin.
 
@@ -92,9 +97,9 @@ If the object is not using a thread, it calls the [**COutputQueue::SendAnyway**]
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

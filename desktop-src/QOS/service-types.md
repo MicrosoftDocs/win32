@@ -1,8 +1,14 @@
 ---
 title: Service Types
 description: Service types enable an application to specify service quality requirements for a QOS-enabled connection.
-ms.assetid: '895efcac-1b59-4f4c-a180-df26222ad212'
-keywords: ["Quality of Service QOS ,described,service types"]
+ms.assetid: 895efcac-1b59-4f4c-a180-df26222ad212
+keywords:
+- Quality of Service QOS ,described,service types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Types
@@ -14,7 +20,7 @@ Service types enable an application to specify service quality requirements for 
 
  
 
-There are four primary service types included in the RSVP SP. Applications must choose which service type is most appropriate for their transmission requirements, based on traffic characteristics, performance requirements, user preferences, or any other criterion that influences how data should be transmitted. Also note that when an application invokes the RSVP SP to initiate quality of service for a given connection, the ServiceType member of the [**FLOWSPEC**](flowspec.md) structure (where the service type is specified) for both the SendingFlowspec and ReceivingFlowspec members of the [**QOS**](qos.md) structure must be specified.
+There are four primary service types included in the RSVP SP. Applications must choose which service type is most appropriate for their transmission requirements, based on traffic characteristics, performance requirements, user preferences, or any other criterion that influences how data should be transmitted. Also note that when an application invokes the RSVP SP to initiate quality of service for a given connection, the ServiceType member of the [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) structure (where the service type is specified) for both the SendingFlowspec and ReceivingFlowspec members of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure must be specified.
 
 Specifying either [CONTROLLED LOAD](controlled-load.md) or [GUARANTEED](guaranteed.md) for the ServiceType parameter implicitly invokes QOS service for the corresponding direction of the QOS-enabled connection.
 

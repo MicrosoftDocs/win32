@@ -1,8 +1,24 @@
 ---
 title: Input Formats, Input Settings, and Data Unit Extensions
 description: Input Formats, Input Settings, and Data Unit Extensions
-ms.assetid: '8e8a0ec8-cb7c-4483-86b0-142ea9f2b835'
-keywords: ["Windows Media Format SDK,input formats and settings", "Windows Media Format SDK,data unit extensions", "Windows Media Format SDK,payload extension systems", "Advanced Systems Format (ASF),input formats and settings", "ASF (Advanced Systems Format),input formats and settings", "Advanced Systems Format (ASF),data unit extensions", "ASF (Advanced Systems Format),data unit extensions", "Advanced Systems Format (ASF),payload extension systems", "ASF (Advanced Systems Format),payload extension systems", "data unit extensions,about", "payload extension systems"]
+ms.assetid: 8e8a0ec8-cb7c-4483-86b0-142ea9f2b835
+keywords:
+- Windows Media Format SDK,input formats and settings
+- Windows Media Format SDK,data unit extensions
+- Windows Media Format SDK,payload extension systems
+- Advanced Systems Format (ASF),input formats and settings
+- ASF (Advanced Systems Format),input formats and settings
+- Advanced Systems Format (ASF),data unit extensions
+- ASF (Advanced Systems Format),data unit extensions
+- Advanced Systems Format (ASF),payload extension systems
+- ASF (Advanced Systems Format),payload extension systems
+- data unit extensions,about
+- payload extension systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Formats, Input Settings, and Data Unit Extensions

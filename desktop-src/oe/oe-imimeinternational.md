@@ -1,8 +1,10 @@
 ---
 title: IMimeInternational interface
 description: Do not use. Performs character-set conversions and queries information about character sets and codepages.
-ms.assetid: '22eaa889-928e-4b78-b874-7841f03dc66a'
-keywords: ["IMimeInternational interface Windows Mail (formerly Outlook Express)", "IMimeInternational interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: 22eaa889-928e-4b78-b874-7841f03dc66a
+keywords:
+- IMimeInternational interface Windows Mail (formerly Outlook Express)
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational interface
@@ -31,8 +38,8 @@ For the most part, other interfaces such as [**IMimeMessage**](oe-imimemessage.m
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -40,9 +47,9 @@ For the most part, other interfaces such as [**IMimeMessage**](oe-imimemessage.m
 
 
 
- 
+ 
 
- 
+ 
 
 
 

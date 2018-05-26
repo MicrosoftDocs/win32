@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a new mesh and fills it with the data of a previously loaded mesh.'
-ms.assetid: '2ce39982-abc0-444b-bc6f-24508f76fe31'
-title: 'ID3DX10Mesh::CloneMesh method'
+---
+Description: Creates a new mesh and fills it with the data of a previously loaded mesh.
+ms.assetid: 2ce39982-abc0-444b-bc6f-24508f76fe31
+title: ID3DX10MeshCloneMesh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::CloneMesh method
@@ -48,9 +53,9 @@ The semantic name for the position data.
 *pDesc* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md)\***
+Type: **const [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master)\***
 
-Array of D3D10\_INPUT\_ELEMENT\_DESC structures, describing the vertex format for the returned mesh. See [**D3D10\_INPUT\_ELEMENT\_DESC**](d3d10-input-element-desc.md).
+Array of D3D10\_INPUT\_ELEMENT\_DESC structures, describing the vertex format for the returned mesh. See [**D3D10\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_input_element_desc?branch=master).
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
 title: BDA Network Provider Filter
 description: BDA Network Provider Filter
-ms.assetid: 'f5de924f-defe-4300-a347-c9d63271dc90'
+ms.assetid: f5de924f-defe-4300-a347-c9d63271dc90
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA Network Provider Filter
@@ -35,7 +40,7 @@ The information in the following table applies to all of these filters:
 
 |                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IBDA\_EthernetFilter**](ibda-ethernetfilter.md), [**IBDA\_NetworkProvider**](ibda-networkprovider.md), [**IBDA\_TIF\_REGISTRATION**](ibda-tif-registration.md), [**IBDA\_IPV4Filter**](ibda-ipv4filter.md), [**IBDA\_IPV6Filter**](ibda-ipv6filter.md), [**IFrequencyMap**](ifrequencymap.md), [**IMPEG2\_TIF\_CONTROL**](impeg2-tif-control.md), [**IScanningTuner**](iscanningtuner.md), [**ITuner**](ituner.md) |
+| Filter Interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IBDA\_EthernetFilter**](/windows/win32/bdaiface/nn-bdaiface-ibda_ethernetfilter?branch=master), [**IBDA\_NetworkProvider**](/windows/win32/bdaiface/nn-bdaiface-ibda_networkprovider?branch=master), [**IBDA\_TIF\_REGISTRATION**](/windows/previous-versions/bdatif/nn-bdatif-ibda_tif_registration?branch=master), [**IBDA\_IPV4Filter**](/windows/win32/bdaiface/nn-bdaiface-ibda_ipv4filter?branch=master), [**IBDA\_IPV6Filter**](/windows/win32/bdaiface/nn-bdaiface-ibda_ipv6filter?branch=master), [**IFrequencyMap**](/windows/win32/bdaiface/nn-bdaiface-ifrequencymap?branch=master), [**IMPEG2\_TIF\_CONTROL**](/windows/previous-versions/Bdatif/nn-bdatif-impeg2_tif_control?branch=master), [**IScanningTuner**](/windows/previous-versions/tuner/nn-tuner-iscanningtuner?branch=master), [**ITuner**](/windows/previous-versions/tuner/nn-tuner-ituner?branch=master) |
 | Input Pin Media Types                      | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Input Pin Interfaces                       | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Output Pin Media Types                     | Major type: KSDATAFORMAT\_TYPE\_BDA\_ANTENNA                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -50,7 +55,7 @@ The information in the following table applies to all of these filters:
 
 ## Remarks
 
-The Network Provider acts as the default tuner in a BDA filter graph, by exposing the [**ITuner**](ituner.md) interface. No signals or data actually pass through this filter. It works closely with the Transport Information Filter (TIF) and the [MPEG-2 Demultiplexer](https://msdn.microsoft.com/library/windows/desktop/dd390715) to acquire transport streams and route the elementary stream to the appropriate downstream filters.
+The Network Provider acts as the default tuner in a BDA filter graph, by exposing the [**ITuner**](/windows/previous-versions/tuner/nn-tuner-ituner?branch=master) interface. No signals or data actually pass through this filter. It works closely with the Transport Information Filter (TIF) and the [MPEG-2 Demultiplexer](https://msdn.microsoft.com/library/windows/desktop/dd390715) to acquire transport streams and route the elementary stream to the appropriate downstream filters.
 
 If you are creating a digital TV graph manually (rather than using the Video Control), use **CoCreateInstance** and [**IFilterGraph::AddFilter**](https://msdn.microsoft.com/library/windows/desktop/dd390016) to add this filter to the graph. The [**ICaptureGraphBuilder2**](https://msdn.microsoft.com/library/windows/desktop/dd376359) interface does not automatically add this filter to the graph.
 

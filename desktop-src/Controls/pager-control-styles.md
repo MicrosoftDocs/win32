@@ -1,7 +1,7 @@
 ---
 title: Pager Control Styles
 description: This section lists the window styles used when creating pager controls.
-ms.assetid: '619fd8cc-e231-41af-8744-a29d14f2c6f8'
+ms.assetid: 619fd8cc-e231-41af-8744-a29d14f2c6f8
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pager Control Styles
@@ -40,9 +45,9 @@ This section lists the window styles used when creating pager controls.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

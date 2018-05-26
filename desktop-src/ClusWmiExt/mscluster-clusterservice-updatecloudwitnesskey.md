@@ -4,13 +4,16 @@ description: Updates the account key associated with the cloud witness.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '82089cf4-f461-4946-9b6c-e22572b130cd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 82089cf4-f461-4946-9b6c-e22572b130cd
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["UpdateCloudWitnessKey method", "UpdateCloudWitnessKey method, MSCluster_ClusterService class", "MSCluster_ClusterService class, UpdateCloudWitnessKey method"]
+keywords:
+- UpdateCloudWitnessKey method
+- UpdateCloudWitnessKey method, MSCluster_ClusterService class
+- MSCluster_ClusterService class, UpdateCloudWitnessKey method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UpdateCloudWitnessKey method of the MSCluster\_ClusterService class
@@ -30,7 +36,7 @@ Updates the account key associated with the cloud witness.
 
 ```mof
 uint32 UpdateCloudWitnessKey(
-  [in] string AccountKey
+  [in] string AccountKey
 );
 ```
 
@@ -54,7 +60,7 @@ The cloud witness Account key.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -68,9 +74,9 @@ The cloud witness Account key.
 [**MSCluster\_ClusterService**](mscluster-clusterservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

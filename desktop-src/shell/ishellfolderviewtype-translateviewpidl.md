@@ -1,6 +1,11 @@
-﻿---
-Description: 'Reconstructs a pointer to an item identifier list (PIDL) from one hierarchical representation of the Shell folder into a different representation.'
-title: 'IShellFolderViewType::TranslateViewPidl method'
+---
+Description: Reconstructs a pointer to an item identifier list (PIDL) from one hierarchical representation of the Shell folder into a different representation.
+title: IShellFolderViewTypeTranslateViewPidl method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderViewType::TranslateViewPidl method
@@ -59,7 +64,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-When finished, you should free the returned PIDL with [**ILFree**](ilfree.md).
+When finished, you should free the returned PIDL with [**ILFree**](/windows/win32/shlobj_core/nf-shlobj_core-ilfree?branch=master).
 
 ## Requirements
 

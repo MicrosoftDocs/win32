@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDiscardProperties method gets the properties of the discard control.'
-ms.assetid: '37f624b8-3b15-41ee-9670-84287c3e10e6'
-title: 'IPartDiscardControl::GetDiscardProperties method'
+---
+Description: The GetDiscardProperties method gets the properties of the discard control.
+ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
+title: IPartDiscardControlGetDiscardProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartDiscardControl::GetDiscardProperties method

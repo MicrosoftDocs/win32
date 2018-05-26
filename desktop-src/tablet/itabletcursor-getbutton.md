@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the specified button object from a tablet stylus.'
-ms.assetid: '83a26703-4501-4f43-9e86-c5c753347012'
-title: 'ITabletCursor::GetButton method'
+Description: Retrieves the specified button object from a tablet stylus.
+ms.assetid: 83a26703-4501-4f43-9e86-c5c753347012
+title: ITabletCursorGetButton method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursor::GetButton method
@@ -13,8 +18,8 @@ Retrieves the specified button object from a tablet stylus.
 
 ```C++
 HRESULT GetButton(
-  [in]  ULONG               iButton,
-  [out] ITabletCursorButton **ppButton
+  [in]  ULONG               iButton,
+  [out] ITabletCursorButton **ppButton
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -72,9 +77,9 @@ This method can return one of these values.
 [**ITabletCursor Interface**](itabletcursor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
-﻿---
-Description: 'Defines values that specify the properties of a recognition alternate. The Tablet PC application programming interface (API) uses globally unique identifiers (GUIDs) to identify packet properties, which in Automation are constant strings.'
-ms.assetid: '2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8'
+---
+Description: Defines values that specify the properties of a recognition alternate. The Tablet PC application programming interface (API) uses globally unique identifiers (GUIDs) to identify packet properties, which in Automation are constant strings.
+ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: RecognitionProperty Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecognitionProperty Constants
 
 Defines values that specify the properties of a recognition alternate. The Tablet PC application programming interface (API) uses globally unique identifiers (GUIDs) to identify packet properties, which in Automation are constant strings.
 
-The following table lists the available recognition alternate property globally unique identifier (GUID) fields. Use these GUIDs to access properties of an [**IInkRecognitionAlternate**](iinkrecognitionalternate.md) object by calling the [**GetPropertyValue**](iinkrecognitionalternate-getpropertyvalue.md) method.
+The following table lists the available recognition alternate property globally unique identifier (GUID) fields. Use these GUIDs to access properties of an [**IInkRecognitionAlternate**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object by calling the [**GetPropertyValue**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue?branch=master) method.
 
 
 
@@ -26,7 +31,7 @@ The following table lists the available recognition alternate property globally 
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_LINENUMBER_________"></span><span id="___________inkrecognitionproperty_linenumber_________"></span><dl> <dt> <strong>INKRECOGNITIONPROPERTY_LINENUMBER</strong> </dt> </dl></td>
-<td style="text-align: left;">The GUID that identifies the property for the line number of the [<strong>IInkRecognitionAlternate</strong>](iinkrecognitionalternate.md) object. <br/> LineNumber specifies the alternates with a particular line number.<br/>
+<td style="text-align: left;">The GUID that identifies the property for the line number of the [<strong>IInkRecognitionAlternate</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object. <br/> LineNumber specifies the alternates with a particular line number.<br/>
 <blockquote>
 [!Note]<br />
 This field is not supported for recognizers of East Asian characters.
@@ -35,7 +40,7 @@ This field is not supported for recognizers of East Asian characters.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_SEGMENTATION_________"></span><span id="___________inkrecognitionproperty_segmentation_________"></span><dl> <dt> <strong>INKRECOGNITIONPROPERTY_SEGMENTATION</strong> </dt> </dl></td>
-<td style="text-align: left;">The GUID that identifies the property for the segmentation of the [<strong>IInkRecognitionAlternate</strong>](iinkrecognitionalternate.md) object. <br/> Segmentation specifies the basic ink fragment or unit that the recognizer uses to produce a recognition result.<br/>
+<td style="text-align: left;">The GUID that identifies the property for the segmentation of the [<strong>IInkRecognitionAlternate</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object. <br/> Segmentation specifies the basic ink fragment or unit that the recognizer uses to produce a recognition result.<br/>
 <blockquote>
 [!Note]<br />
 Not implemented.
@@ -44,11 +49,11 @@ Not implemented.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_HOTPOINT_________"></span><span id="___________inkrecognitionproperty_hotpoint_________"></span><dl> <dt> <strong>INKRECOGNITIONPROPERTY_HOTPOINT</strong> </dt> </dl></td>
-<td style="text-align: left;">The GUID that identifies the property for the recognition hot point of the [<strong>IInkRecognitionAlternate</strong>](iinkrecognitionalternate.md) object. <br/></td>
+<td style="text-align: left;">The GUID that identifies the property for the recognition hot point of the [<strong>IInkRecognitionAlternate</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object. <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_MAXIMUMSTROKECOUNT_________"></span><span id="___________inkrecognitionproperty_maximumstrokecount_________"></span><dl> <dt> <strong>INKRECOGNITIONPROPERTY_MAXIMUMSTROKECOUNT</strong> </dt> </dl></td>
-<td style="text-align: left;">The GUID that identifies the property for the maximum stroke count of the recognition result for the [<strong>IInkRecognitionAlternate</strong>](iinkrecognitionalternate.md) object. <br/>
+<td style="text-align: left;">The GUID that identifies the property for the maximum stroke count of the recognition result for the [<strong>IInkRecognitionAlternate</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object. <br/>
 <blockquote>
 [!Note]<br />
 Not implemented.
@@ -57,7 +62,7 @@ Not implemented.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_POINTSPERINCH_________"></span><span id="___________inkrecognitionproperty_pointsperinch_________"></span><dl> <dt> <strong>INKRECOGNITIONPROPERTY_POINTSPERINCH</strong> </dt> </dl></td>
-<td style="text-align: left;">The GUID that identifies the property for the points-per-inch metric of the [<strong>IInkRecognitionAlternate</strong>](iinkrecognitionalternate.md) object. <br/>
+<td style="text-align: left;">The GUID that identifies the property for the points-per-inch metric of the [<strong>IInkRecognitionAlternate</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object. <br/>
 <blockquote>
 [!Note]<br />
 Not implemented.
@@ -75,7 +80,7 @@ Confidence evaluation is available only for United States English and all gestur
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_LINEMETRICS_________"></span><span id="___________inkrecognitionproperty_linemetrics_________"></span><dl> <dt> <strong>INKRECOGNITIONPROPERTY_LINEMETRICS</strong> </dt> </dl></td>
-<td style="text-align: left;">The GUID that identifies the property for the line metrics of the [<strong>IInkRecognitionAlternate</strong>](iinkrecognitionalternate.md) object, which is the line for which to retrieve metrics. <br/></td>
+<td style="text-align: left;">The GUID that identifies the property for the line metrics of the [<strong>IInkRecognitionAlternate</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object, which is the line for which to retrieve metrics. <br/></td>
 </tr>
 </tbody>
 </table>
@@ -107,16 +112,16 @@ In C++, you can access these constants in the Msinkaut.h header file, which is l
 
 <dl> <dt>
 
-[**AlternatesWithConstantPropertyValues Method**](iinkrecognitionalternate-alternateswithconstantpropertyvalues.md)
+[**AlternatesWithConstantPropertyValues Method**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues?branch=master)
 </dt> <dt>
 
-[**ConfidenceAlternates Property**](iinkrecognitionalternate-confidencealternates.md)
+[**ConfidenceAlternates Property**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates?branch=master)
 </dt> <dt>
 
-[**LineAlternates Property**](iinkrecognitionalternate-linealternates.md)
+[**LineAlternates Property**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates?branch=master)
 </dt> <dt>
 
-[**IInkRecognitionAlternates Interface**](iinkrecognitionalternates.md)
+[**IInkRecognitionAlternates Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternates?branch=master)
 </dt> </dl>
 
  

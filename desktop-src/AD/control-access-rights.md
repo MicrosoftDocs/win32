@@ -4,11 +4,15 @@ description: All objects in Active Directory Domain Services support a standard 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '27ad74bd-ad87-422e-a4a2-02c0d51c4dd4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 27ad74bd-ad87-422e-a4a2-02c0d51c4dd4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Control Access Rights"]
+keywords:
+- Control Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Control Access Rights

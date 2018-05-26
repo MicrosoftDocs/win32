@@ -1,8 +1,9 @@
 ---
 title: WcsCheckColors function
 description: Determines whether the colors in an array are within the output gamut of a specified WCS color transform.
-ms.assetid: '01b452bf-4352-4b83-863b-e9eb76121fdd'
-keywords: ["WcsCheckColors function Windows Color System"]
+ms.assetid: 01b452bf-4352-4b83-863b-e9eb76121fdd
+keywords:
+- WcsCheckColors function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsCheckColors function
@@ -22,13 +28,13 @@ Determines whether the colors in an array are within the output gamut of a speci
 
 ```C++
 BOOL WINAPI WcsCheckColors(
-  _In_  HTRANSFORM    hColorTransform,
-  _In_  DWORD         nColors,
-  _In_  DWORD         nInputChannels,
-  _In_  COLORDATATYPE cdtInput,
-  _In_  DWORD         cbInput,
-  _In_                pInputData,
-  _Out_ PBYTE         paResult
+  _In_  HTRANSFORM    hColorTransform,
+  _In_  DWORD         nColors,
+  _In_  DWORD         nInputChannels,
+  _In_  COLORDATATYPE cdtInput,
+  _In_  DWORD         cbInput,
+  _In_                pInputData,
+  _Out_ PBYTE         paResult
 );
 ```
 
@@ -105,8 +111,8 @@ This function fails if you use an International Color Consortium (ICC) transform
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -126,9 +132,9 @@ This function fails if you use an International Color Consortium (ICC) transform
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

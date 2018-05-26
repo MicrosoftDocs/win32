@@ -1,14 +1,20 @@
 ---
 title: valueMap (MapType) Element
 description: Defines a list of name/value pairs that map integer values and string values.
-ms.assetid: 'caf84ed1-8624-4163-bf31-60b9fd877220'
-keywords: ["valueMap element EventLog"]
+ms.assetid: caf84ed1-8624-4163-bf31-60b9fd877220
+keywords:
+- valueMap element EventLog
 topic_type:
 - apiref
 api_name:
 - valueMap
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # valueMap (MapType) Element
@@ -29,8 +35,8 @@ The **valueMap** element is defined by the [**MapType**](eventmanifestschema-map
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **valueMap** element is defined by the [**MapType**](eventmanifestschema-map
 [**maps (ProviderType)**](eventmanifestschema-maps-providertype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

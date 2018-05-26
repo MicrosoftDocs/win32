@@ -1,7 +1,12 @@
 ---
 title: Accessing the Control in Web Pages
 description: Accessing the Control in Web Pages
-ms.assetid: '0c799c60-c81a-44ea-a9e0-1a385208528f'
+ms.assetid: 0c799c60-c81a-44ea-a9e0-1a385208528f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the Control in Web Pages

@@ -1,8 +1,14 @@
 ---
 title: Configuring the Name Service Provider
 description: If your distributed application registers its interface with a name service, both the client and server must be using the same name service.
-ms.assetid: 'a3f201e1-1a01-4794-9026-05e51a96afc0'
-keywords: ["Remote Procedure Call RPC , tasks, configuring name service provider"]
+ms.assetid: a3f201e1-1a01-4794-9026-05e51a96afc0
+keywords:
+- Remote Procedure Call RPC , tasks, configuring name service provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Name Service Provider

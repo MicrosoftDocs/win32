@@ -1,8 +1,9 @@
 ---
 title: Player.status
 description: The status property retrieves a value indicating the status of Windows Media Player.
-ms.assetid: '781c44d0-15cf-4be2-9e83-76706ce1cb85'
-keywords: ["Player.status Windows Media Player"]
+ms.assetid: 781c44d0-15cf-4be2-9e83-76706ce1cb85
+keywords:
+- Player.status Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.status
@@ -52,9 +58,9 @@ The **StatusChange** event is fired whenever this property changes value.
 [**Player.StatusChange Event**](player-player-statuschange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

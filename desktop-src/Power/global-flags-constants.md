@@ -1,7 +1,12 @@
 ---
-Description: 'The global flags constants are used to enable or disable user power policy options.'
-ms.assetid: 'd98190ef-f70e-4796-960e-ff32d2cf6f4f'
+Description: The global flags constants are used to enable or disable user power policy options.
+ms.assetid: d98190ef-f70e-4796-960e-ff32d2cf6f4f
 title: Global Flags Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Global Flags Constants
@@ -26,8 +31,8 @@ The global flags constants are used to enable or disable user power policy optio
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>PowrProf.h</dt> </dl> |
 
 
@@ -36,12 +41,12 @@ The global flags constants are used to enable or disable user power policy optio
 
 <dl> <dt>
 
-[**GLOBAL\_USER\_POWER\_POLICY**](global-user-power-policy-str.md)
+[**GLOBAL\_USER\_POWER\_POLICY**](/windows/win32/PowrProf/ns-powrprof-_global_user_power_policy?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

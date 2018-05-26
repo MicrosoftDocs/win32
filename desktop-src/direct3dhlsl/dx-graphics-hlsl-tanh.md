@@ -1,14 +1,20 @@
 ---
 title: tanh
 description: Returns the hyperbolic tangent of the specified value.
-ms.assetid: 'e2d27aa0-5e03-4f2f-a29c-884711710c8d'
-keywords: ["tanh HLSL"]
+ms.assetid: e2d27aa0-5e03-4f2f-a29c-884711710c8d
+keywords:
+- tanh HLSL
 topic_type:
 - apiref
 api_name:
 - tanh
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tanh
@@ -22,7 +28,7 @@ Returns the hyperbolic tangent of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the hyperbolic tangent of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The hyperbolic tangent of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

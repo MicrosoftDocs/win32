@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '8c215b16-98e5-42fb-a95b-b6df1ade180e'
-title: 'CImageAllocator.CImageAllocator constructor'
+Description: Constructor method.
+ms.assetid: 8c215b16-98e5-42fb-a95b-b6df1ade180e
+title: CImageAllocator.CImageAllocator constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageAllocator.CImageAllocator constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CImageAllocator(
-   CBaseFilter *pFilter,
-   TCHAR       *pName,
-   HRESULT     *phr
+   CBaseFilter *pFilter,
+   TCHAR       *pName,
+   HRESULT     *phr
 );
 ```
 
@@ -64,9 +69,9 @@ Pointer to an **HRESULT** value. Set the value to S\_OK before creating the obje
 [**CImageAllocator Class**](cimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

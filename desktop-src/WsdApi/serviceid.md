@@ -1,7 +1,12 @@
 ---
-Description: 'A URI that represents the service identifier.'
-ms.assetid: 'ef676f02-56a7-4b3a-9ca3-e7fa3c494ec7'
+Description: A URI that represents the service identifier.
+ms.assetid: ef676f02-56a7-4b3a-9ca3-e7fa3c494ec7
 title: ServiceID element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceID element
@@ -39,14 +44,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

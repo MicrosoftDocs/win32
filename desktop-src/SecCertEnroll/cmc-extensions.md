@@ -1,7 +1,12 @@
 ---
-Description: 'Extensions are included in a CMC request by adding them to the TaggedAttributes structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.'
-ms.assetid: '3aa9175b-f889-4d5d-8eb2-a8a42f9fe750'
+Description: Extensions are included in a CMC request by adding them to the TaggedAttributes structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.
+ms.assetid: 3aa9175b-f889-4d5d-8eb2-a8a42f9fe750
 title: CMC Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMC Extensions
@@ -56,15 +61,15 @@ The following procedure discusses how to use the Certificate Enrollment API to a
 
 **To use the Certificate Enrollment API to add extensions to a CMC certificate request**
 
-1.  Create an extension by using any of the available interfaces that derive from the [**IX509Extension**](ix509extension.md) interface or use the **IX509Extension** object directly to create custom extensions.
-2.  Call the [**X509Extensions**](ix509certificaterequestcmc-x509extensions-property.md) property on the [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) object to retrieve an [**IX509Extensions**](ix509extensions.md) collection.
-3.  Add the extensions created in step 1 to the [**IX509Extensions**](ix509extensions.md) collection.
-4.  Call [**Enroll**](ix509enrollment-enroll-method.md) to automatically perform the following actions:
-    -   Retrieve an [**ICryptAttributes**](icryptattributes.md) object from the [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) object.
-    -   Create and initialize an [**IX509AttributeExtensions**](ix509attributeextensions.md) object by using the [**IX509Extensions**](ix509extensions.md) collection retrieved in step 2.
-    -   Create an [**IX509Attributes**](ix509attributes.md) collection and add the [**IX509AttributeExtensions**](ix509attributeextensions.md) object to it.
-    -   Use the [**IX509Attributes**](ix509attributes.md) collection to initialize an [**ICryptAttribute**](icryptattribute.md) object.
-    -   Add the [**ICryptAttribute**](icryptattribute.md) object to the [**ICryptAttributes**](icryptattributes.md) collection.
+1.  Create an extension by using any of the available interfaces that derive from the [**IX509Extension**](/windows/win32/CertEnroll/nn-certenroll-ix509extension?branch=master) interface or use the **IX509Extension** object directly to create custom extensions.
+2.  Call the [**X509Extensions**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_x509extensions?branch=master) property on the [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) object to retrieve an [**IX509Extensions**](/windows/win32/CertEnroll/nn-certenroll-ix509extensions?branch=master) collection.
+3.  Add the extensions created in step 1 to the [**IX509Extensions**](/windows/win32/CertEnroll/nn-certenroll-ix509extensions?branch=master) collection.
+4.  Call [**Enroll**](/windows/win32/CertEnroll/nf-certenroll-ix509enrollment-enroll?branch=master) to automatically perform the following actions:
+    -   Retrieve an [**ICryptAttributes**](/windows/win32/CertEnroll/nn-certenroll-icryptattributes?branch=master) object from the [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) object.
+    -   Create and initialize an [**IX509AttributeExtensions**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeextensions?branch=master) object by using the [**IX509Extensions**](/windows/win32/CertEnroll/nn-certenroll-ix509extensions?branch=master) collection retrieved in step 2.
+    -   Create an [**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master) collection and add the [**IX509AttributeExtensions**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeextensions?branch=master) object to it.
+    -   Use the [**IX509Attributes**](/windows/win32/CertEnroll/nn-certenroll-ix509attributes?branch=master) collection to initialize an [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master) object.
+    -   Add the [**ICryptAttribute**](/windows/win32/CertEnroll/nn-certenroll-icryptattribute?branch=master) object to the [**ICryptAttributes**](/windows/win32/CertEnroll/nn-certenroll-icryptattributes?branch=master) collection.
 
 ## Related topics
 

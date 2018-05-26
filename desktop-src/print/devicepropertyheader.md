@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL''s DrvDevicePropertySheets function.'
-ms.assetid: 'f1b9cd2f-fa5b-4f34-a237-06d00badf1d1'
+---
+Description: The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLLs DrvDevicePropertySheets function.
+ms.assetid: f1b9cd2f-fa5b-4f34-a237-06d00badf1d1
 title: DEVICEPROPERTYHEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVICEPROPERTYHEADER structure

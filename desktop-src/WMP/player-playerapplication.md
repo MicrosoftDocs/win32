@@ -1,8 +1,9 @@
 ---
 title: Player.playerApplication
 description: The playerApplication property retrieves the PlayerApplication object when a remoted Windows Media Player control is running.
-ms.assetid: '09a8a63f-455f-4f81-8fdb-7de337139dea'
-keywords: ["Player.playerApplication Windows Media Player"]
+ms.assetid: 09a8a63f-455f-4f81-8fdb-7de337139dea
+keywords:
+- Player.playerApplication Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.playerApplication
@@ -58,9 +64,9 @@ This property is only accessible in C++ code or in script code in skins through 
 [**Remoting the Windows Media Player Control**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

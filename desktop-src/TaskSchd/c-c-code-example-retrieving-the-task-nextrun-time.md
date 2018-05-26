@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving the Task NextRun Time
 description: This example retrieves the next time the task is scheduled to run and displays that time on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '2134a188-2fd4-4b55-bd9e-3363772080c0'
-keywords: ["retrieving task next run time Task Scheduler", "retrieving work item properties Task Scheduler , task next run time"]
+ms.assetid: 2134a188-2fd4-4b55-bd9e-3363772080c0
+keywords:
+- retrieving task next run time Task Scheduler
+- retrieving work item properties Task Scheduler , task next run time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving the Task NextRun Time

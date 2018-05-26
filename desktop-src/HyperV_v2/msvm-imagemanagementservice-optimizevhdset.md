@@ -1,7 +1,12 @@
 ---
-Description: 'Optimizes a VHD Set file to use less disk space.'
-ms.assetid: '2d2f4531-5d2d-4334-bcc2-d3d3c15b1f46'
-title: 'OptimizeVHDSet method of the Msvm\_ImageManagementService class'
+Description: Optimizes a VHD Set file to use less disk space.
+ms.assetid: 2d2f4531-5d2d-4334-bcc2-d3d3c15b1f46
+title: OptimizeVHDSet method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OptimizeVHDSet method of the Msvm\_ImageManagementService class
@@ -13,8 +18,8 @@ Optimizes a VHD Set file to use less disk space.
 
 ```mof
 uint32 OptimizeVHDSet(
-  [in]  string              VHDSetPath,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              VHDSetPath,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -92,8 +97,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -107,9 +112,9 @@ This method returns one of the following values:
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

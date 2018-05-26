@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes the shim database initialized using the SdbInitDatabase function.'
-ms.assetid: '8452ab14-a1e9-41b3-a1ac-7ff3a7d3a7ed'
+---
+Description: Closes the shim database initialized using the SdbInitDatabase function.
+ms.assetid: 8452ab14-a1e9-41b3-a1ac-7ff3a7d3a7ed
 title: SdbReleaseDatabase function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbReleaseDatabase function

@@ -1,8 +1,11 @@
 ---
 title: Subject GetInstance method
 description: Returns the instance name of the Subject.
-ms.assetid: '6A30B0DF-5855-41F1-92E7-0CB9343EBB31'
-keywords: ["GetInstance method Access Execution Engine", "GetInstance method Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , GetInstance method"]
+ms.assetid: 6A30B0DF-5855-41F1-92E7-0CB9343EBB31
+keywords:
+- GetInstance method Access Execution Engine
+- GetInstance method Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , GetInstance method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::GetInstance method
@@ -22,7 +30,7 @@ Returns the instance name of the **Subject**.
 
 ```C++
 virtual HRESULT GetInstance(
-  [out] LPCWSTR *name
+  [out] LPCWSTR *name
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The instance name is the value of element **Subject/Instance/ProgrammaticName**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The instance name is the value of element **Subject/Instance/ProgrammaticName**.
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

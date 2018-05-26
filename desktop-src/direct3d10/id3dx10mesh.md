@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the ID3DX10Mesh interface to manipulate mesh objects.'
-ms.assetid: '1734b8fd-e1a6-4aa4-96a0-8693019a9dac'
+---
+Description: Applications use the methods of the ID3DX10Mesh interface to manipulate mesh objects.
+ms.assetid: 1734b8fd-e1a6-4aa4-96a0-8693019a9dac
 title: ID3DX10Mesh interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh interface

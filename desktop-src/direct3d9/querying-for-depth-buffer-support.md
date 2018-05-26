@@ -1,7 +1,12 @@
 ---
-Description: 'As with any feature, the driver that your application uses might not support all types of depth buffering.'
-ms.assetid: '8bf022f6-fd97-43f5-ac19-6a75ddb45f5e'
-title: 'Querying for Depth Buffer Support (Direct3D 9)'
+Description: As with any feature, the driver that your application uses might not support all types of depth buffering.
+ms.assetid: 8bf022f6-fd97-43f5-ac19-6a75ddb45f5e
+title: Querying for Depth Buffer Support (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying for Depth Buffer Support (Direct3D 9)
@@ -10,7 +15,7 @@ As with any feature, the driver that your application uses might not support all
 
 You can check for general support for depth buffers by querying Direct3D for the display device that your application will use before you create a Direct3D device. If the Direct3D object reports that it supports depth buffering, any hardware devices you create from this Direct3D object will support z-buffering.
 
-To query for depth buffering support, you can use the [**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md) method, as shown in the following code example.
+To query for depth buffering support, you can use the [**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master) method, as shown in the following code example.
 
 
 ```
@@ -27,9 +32,9 @@ if(FAILED(m_pD3D->CheckDeviceFormat(pCaps->AdapterOrdinal,
 
 
 
-[**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md) allows you to choose a device to create based on the capabilities of that device. In this case, devices that do not support 16-bit depth buffers are rejected.
+[**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master) allows you to choose a device to create based on the capabilities of that device. In this case, devices that do not support 16-bit depth buffers are rejected.
 
-Using [**IDirect3D9::CheckDepthStencilMatch**](idirect3d9--checkdepthstencilmatch.md) to determine depth-stencil compatibility with a render target is illustrated in the following code example.
+Using [**IDirect3D9::CheckDepthStencilMatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdepthstencilmatch?branch=master) to determine depth-stencil compatibility with a render target is illustrated in the following code example.
 
 
 ```
@@ -48,7 +53,7 @@ if(FAILED(m_pD3D->CheckDepthStencilMatch(pCaps->AdapterOrdinal,
 
 When you know that the driver supports depth buffers, you can verify w-buffer support. Although depth buffers are supported for all software rasterizers, w-buffers are supported only by the reference rasterizer, which is not suited for use by real-world applications. Regardless of the type of device your application uses, verify support for w-buffers before you attempt to enable w-based depth buffering.
 
-1.  After creating your device, call the [**IDirect3DDevice9::GetDeviceCaps**](idirect3ddevice9--getdevicecaps.md) method, passing an initialized [**D3DCAPS9**](d3dcaps9.md) structure.
+1.  After creating your device, call the [**IDirect3DDevice9::GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps?branch=master) method, passing an initialized [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure.
 2.  After the call, the LineCaps member contains information about the driver's support for rendering primitives.
 3.  If the RasterCaps member of this structure contains the D3DPRASTERCAPS\_WBUFFER flag, then the driver supports w-based depth buffering for that primitive type.
 

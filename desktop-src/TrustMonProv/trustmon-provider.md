@@ -1,13 +1,16 @@
 ---
-Description: 'He Trustmon provider is an instance provider that creates classes with information about the trust relationships between domains.'
+Description: He Trustmon provider is an instance provider that creates classes with information about the trust relationships between domains.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ebb696f4-aece-4a9e-95eb-926f29787e1a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ebb696f4-aece-4a9e-95eb-926f29787e1a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Trustmon Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Trustmon Provider

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '054cef58-bba4-44be-86e9-68419089612d'
-title: 'System.ContentStatus'
+Description: .
+ms.assetid: 054cef58-bba4-44be-86e9-68419089612d
+title: System.ContentStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ContentStatus

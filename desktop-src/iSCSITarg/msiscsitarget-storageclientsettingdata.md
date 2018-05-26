@@ -4,13 +4,15 @@ description: Represents a model of host environment factors that influence the b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40d4e275-679f-4f32-b8d4-68cb53fc0a61'
-ms.prod: 'windows-server-dev'
+ms.assetid: 40d4e275-679f-4f32-b8d4-68cb53fc0a61
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageClientSettingData class iSCSI Software Target API", "MSISCSITARGET_StorageClientSettingData class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageClientSettingData class iSCSI Software Target API
+- MSISCSITARGET_StorageClientSettingData class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageClientSettingData class
@@ -259,14 +264,14 @@ This property is inherited from [**CIM\_StorageClientSettingData**](cim-storagec
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -354,7 +359,7 @@ This property is inherited from [**CIM\_StorageClientSettingData**](cim-storagec
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -380,9 +385,9 @@ This property is inherited from [**CIM\_StorageClientSettingData**](cim-storagec
 [**MSISCSITARGET\_ElementSettingData**](msiscsitarget-elementsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

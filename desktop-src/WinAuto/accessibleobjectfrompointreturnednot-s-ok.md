@@ -1,7 +1,12 @@
 ---
 title: AccessibleObjectFromPointReturnedNot\_S\_OK
 description: AccessibleObjectFromPointReturnedNot\_S\_OK
-ms.assetid: 'F5DA071A-EBB8-454C-9BC0-BC798835B7D0'
+ms.assetid: F5DA071A-EBB8-454C-9BC0-BC798835B7D0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AccessibleObjectFromPointReturnedNot\_S\_OK
@@ -16,7 +21,7 @@ Warning
 
 ## Description
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md) did not return S\_OK as expected for the given coordinates.
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master) did not return S\_OK as expected for the given coordinates.
 
 ## Possible causes
 
@@ -30,7 +35,7 @@ Warning
 [Navigation Through Hit Testing and Screen Location](navigation-through-hit-testing-and-screen-location.md)
 </dt> <dt>
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 </dt> </dl>
 
  

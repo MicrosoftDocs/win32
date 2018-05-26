@@ -1,12 +1,17 @@
 ---
-Description: 'The SPFILENOTIFY\_FILEINCABINET notification is sent to a callback routine by SetupIterateCabinet for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.'
-ms.assetid: 'c6d89759-c0d4-4741-b992-43eaa0dc4f01'
-title: 'SPFILENOTIFY\_FILEINCABINET message'
+Description: The SPFILENOTIFY\_FILEINCABINET notification is sent to a callback routine by SetupIterateCabinet for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.
+ms.assetid: c6d89759-c0d4-4741-b992-43eaa0dc4f01
+title: SPFILENOTIFY\_FILEINCABINET message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_FILEINCABINET message
 
-The **SPFILENOTIFY\_FILEINCABINET** notification is sent to a callback routine by [**SetupIterateCabinet**](setupiteratecabinet.md) for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.
+The **SPFILENOTIFY\_FILEINCABINET** notification is sent to a callback routine by [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master) for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.
 
 
 ```C++
@@ -25,7 +30,7 @@ SPFILENOTIFY_FILEINCABINET
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILE\_IN\_CABINET\_INFO**](file-in-cabinet-info-str.md) structure that contains information about the file in the cabinet.
+Pointer to a [**FILE\_IN\_CABINET\_INFO**](/windows/win32/Setupapi/ns-setupapi-_file_in_cabinet_info_a?branch=master) structure that contains information about the file in the cabinet.
 
 </dd> <dt>
 
@@ -49,14 +54,14 @@ Your callback routine should return one of the following.
 
 
 
- 
+ 
 
-If your callback routine returns FILEOP\_DOIT, the name to use for the extracted file should be specified in the **FullTargetName** member of the [**FILE\_IN\_CABINET\_INFO**](file-in-cabinet-info-str.md) structure passed to the routine in *Param1*.
+If your callback routine returns FILEOP\_DOIT, the name to use for the extracted file should be specified in the **FullTargetName** member of the [**FILE\_IN\_CABINET\_INFO**](/windows/win32/Setupapi/ns-setupapi-_file_in_cabinet_info_a?branch=master) structure passed to the routine in *Param1*.
 
 > [!Note]  
-> There is no default cabinet callback routine. The setup application should supply a callback routine to handle the notifications sent by [**SetupIterateCabinet**](setupiteratecabinet.md).
+> There is no default cabinet callback routine. The setup application should supply a callback routine to handle the notifications sent by [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master).
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +69,8 @@ If your callback routine returns FILEOP\_DOIT, the name to use for the extracted
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -80,15 +85,15 @@ If your callback routine returns FILEOP\_DOIT, the name to use for the extracted
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILE\_IN\_CABINET\_INFO**](file-in-cabinet-info-str.md)
+[**FILE\_IN\_CABINET\_INFO**](/windows/win32/Setupapi/ns-setupapi-_file_in_cabinet_info_a?branch=master)
 </dt> <dt>
 
-[**SetupIterateCabinet**](setupiteratecabinet.md)
+[**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

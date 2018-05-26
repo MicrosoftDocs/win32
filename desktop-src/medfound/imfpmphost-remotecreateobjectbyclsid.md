@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFPMPHost::CreateObjectByCLSID method.'
-ms.assetid: 'be96be6d-47de-4d2b-81fc-13079de33888'
+---
+Description: Remotable version of the IMFPMPHostCreateObjectByCLSID method.
+ms.assetid: be96be6d-47de-4d2b-81fc-13079de33888
 title: RemoteCreateObjectByCLSID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteCreateObjectByCLSID
 
-Remotable version of the [**IMFPMPHost::CreateObjectByCLSID**](imfpmphost-createobjectbyclsid.md) method.
+Remotable version of the [**IMFPMPHost::CreateObjectByCLSID**](/windows/win32/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid?branch=master) method.
 
 ``` syntax
 [call_as(CreateObjectByCLSID)]
@@ -21,7 +26,7 @@ HRESULT RemoteCreateObjectByCLSID(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**CreateObjectByCLSID**](imfpmphost-createobjectbyclsid.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**CreateObjectByCLSID**](/windows/win32/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFPMPHost**](imfpmphost.md)
+[**IMFPMPHost**](/windows/win32/mfidl/nn-mfidl-imfpmphost?branch=master)
 </dt> <dt>
 
 [PMP Media Session](pmp-media-session.md)

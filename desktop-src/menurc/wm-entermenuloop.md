@@ -1,8 +1,9 @@
 ---
 title: WM\_ENTERMENULOOP message
-description: Notifies an application's main window procedure that a menu modal loop has been entered.
-ms.assetid: '0a018b6f-fe4b-4e90-bbb6-9b5719253dc1'
-keywords: ["WM_ENTERMENULOOP message Menus and Other Resources"]
+description: Notifies an applications main window procedure that a menu modal loop has been entered.
+ms.assetid: 0a018b6f-fe4b-4e90-bbb6-9b5719253dc1
+keywords:
+- WM_ENTERMENULOOP message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_ENTERMENULOOP message
@@ -31,7 +37,7 @@ Notifies an application's main window procedure that a menu modal loop has been 
 *wParam* 
 </dt> <dd>
 
-Specifies whether the window menu was entered using the [**TrackPopupMenu**](trackpopupmenu.md) function. This parameter has a value of **TRUE** if the window menu was entered using **TrackPopupMenu**, and **FALSE** if it was not.
+Specifies whether the window menu was entered using the [**TrackPopupMenu**](/windows/win32/Winuser/nf-winuser-trackpopupmenu?branch=master) function. This parameter has a value of **TRUE** if the window menu was entered using **TrackPopupMenu**, and **FALSE** if it was not.
 
 </dd> <dt>
 
@@ -56,8 +62,8 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,9 +87,9 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 [Menus](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

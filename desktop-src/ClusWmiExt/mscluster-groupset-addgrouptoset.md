@@ -4,13 +4,16 @@ description: Adds a group to the set.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9e854b7c-43ec-4577-95ba-199e8801f132'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9e854b7c-43ec-4577-95ba-199e8801f132
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddGroupToSet method", "AddGroupToSet method, MSCluster_GroupSet class", "MSCluster_GroupSet class, AddGroupToSet method"]
+keywords:
+- AddGroupToSet method
+- AddGroupToSet method, MSCluster_GroupSet class
+- MSCluster_GroupSet class, AddGroupToSet method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddGroupToSet method of the MSCluster\_GroupSet class
@@ -30,7 +36,7 @@ Adds a group to the set.
 
 ```mof
 uint32 AddGroupToSet(
-  [in] string Group
+  [in] string Group
 );
 ```
 
@@ -54,7 +60,7 @@ The name of the group to add to the set.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -68,9 +74,9 @@ The name of the group to add to the set.
 [**MSCluster\_GroupSet**](mscluster-groupset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

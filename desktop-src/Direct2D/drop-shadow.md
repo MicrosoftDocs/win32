@@ -1,8 +1,14 @@
 ---
 title: Shadow effect
 description: Use the shadow effect to generate a shadow from the alpha channel of an image.
-ms.assetid: '53525584-10CF-46C2-9400-C4FB225D4693'
-keywords: ["shadow effect"]
+ms.assetid: 53525584-10CF-46C2-9400-C4FB225D4693
+keywords:
+- shadow effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shadow effect
@@ -32,7 +38,7 @@ The example here shows the output of the shadow effect translated down and right
 
 
 
- 
+ 
 
 
 ```C++
@@ -82,7 +88,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Optimization modes
 
@@ -96,7 +102,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -114,25 +120,25 @@ The output increases equally in all direction, so for example if the size increa
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

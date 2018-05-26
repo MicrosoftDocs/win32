@@ -1,8 +1,10 @@
 ---
 title: MSFT\_VirtualDiskToReplicaPeer class
 description: Association between replicated virtual disks (MSFT\_VirtualDisk to MSFT\_ReplicaPeer).
-ms.assetid: '751166F2-07D4-4E69-AE8D-38EAFAF78DE3'
-keywords: ["MSFT_VirtualDiskToReplicaPeer class Windows Storage Management API", "MSFT_VirtualDiskToReplicaPeer class Windows Storage Management API , described"]
+ms.assetid: 751166F2-07D4-4E69-AE8D-38EAFAF78DE3
+keywords:
+- MSFT_VirtualDiskToReplicaPeer class Windows Storage Management API
+- MSFT_VirtualDiskToReplicaPeer class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_VirtualDiskToReplicaPeer class
@@ -78,8 +85,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ Qualifiers: **Key**
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

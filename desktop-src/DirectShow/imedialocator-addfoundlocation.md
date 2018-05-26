@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AddFoundLocation method adds a directory to the directory cache.'
-ms.assetid: '0323c4ea-2e86-433b-87d0-34d1800a5627'
-title: 'IMediaLocator::AddFoundLocation method'
+---
+Description: The AddFoundLocation method adds a directory to the directory cache.
+ms.assetid: 0323c4ea-2e86-433b-87d0-34d1800a5627
+title: IMediaLocatorAddFoundLocation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaLocator::AddFoundLocation method

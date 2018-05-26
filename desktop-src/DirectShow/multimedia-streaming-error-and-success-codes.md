@@ -1,7 +1,12 @@
 ---
 Description: Multimedia Streaming Error and Success Codes
-ms.assetid: '3b7a11d2-55b9-4505-8eb2-46be423c662b'
+ms.assetid: 3b7a11d2-55b9-4505-8eb2-46be423c662b
 title: Multimedia Streaming Error and Success Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Streaming Error and Success Codes
@@ -20,16 +25,16 @@ The following list contains error messages and success notifications for applica
 | MS\_S\_PENDING              | 0x00040001       | Sample update is not yet complete.                                                                                                                                                         |
 | MS\_S\_NOUPDATE             | 0x00040002       | Sample was not updated after forced completion.                                                                                                                                            |
 | MS\_S\_ENDOFSTREAM          | 0x00040003       | End of stream. Sample not updated.                                                                                                                                                         |
-| MS\_E\_SAMPLEALLOC          | 0x80040401       | An [**IMediaStream**](imediastream.md) object could not be removed from an [**IMultiMediaStream**](imultimediastream.md) object because it still contains at least one allocated sample. |
+| MS\_E\_SAMPLEALLOC          | 0x80040401       | An [**IMediaStream**](/windows/win32/mmstream/nn-mmstream-imediastream?branch=master) object could not be removed from an [**IMultiMediaStream**](/windows/win32/mmstream/nn-mmstream-imultimediastream?branch=master) object because it still contains at least one allocated sample. |
 | MS\_E\_PURPOSEID            | 0x80040402       | The specified purpose ID can't be used for the call.                                                                                                                                       |
 | MS\_E\_NOSTREAM             | 0x80040403       | No stream can be found with the specified attributes.                                                                                                                                      |
-| MS\_E\_NOSEEKING            | 0x80040404       | Seeking not supported for this [**IMultiMediaStream**](imultimediastream.md) object.                                                                                                      |
+| MS\_E\_NOSEEKING            | 0x80040404       | Seeking not supported for this [**IMultiMediaStream**](/windows/win32/mmstream/nn-mmstream-imultimediastream?branch=master) object.                                                                                                      |
 | MS\_E\_INCOMPATIBLE         | 0x80040405       | The stream formats are not compatible.                                                                                                                                                     |
 | MS\_E\_BUSY                 | 0x80040406       | The sample is busy.                                                                                                                                                                        |
 | MS\_E\_NOTINIT              | 0x80040407       | The object can't accept the call because its initialize function or equivalent has not been called.                                                                                        |
 | MS\_E\_SOURCEALREADYDEFINED | 0x80040408       | Source already defined.                                                                                                                                                                    |
 | MS\_E\_INVALIDSTREAMTYPE    | 0x80040409       | The stream type is not valid for this operation.                                                                                                                                           |
-| MS\_E\_NOTRUNNING           | 0x8004040A       | The [**IMultiMediaStream**](imultimediastream.md) object is not in running state.                                                                                                         |
+| MS\_E\_NOTRUNNING           | 0x8004040A       | The [**IMultiMediaStream**](/windows/win32/mmstream/nn-mmstream-imultimediastream?branch=master) object is not in running state.                                                                                                         |
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Adding an Outbound Rule
 description: This example adds an outbound rule using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: '4d75f423-4951-403c-84f5-e0dacee17ae6'
+ms.assetid: 4d75f423-4951-403c-84f5-e0dacee17ae6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an Outbound Rule

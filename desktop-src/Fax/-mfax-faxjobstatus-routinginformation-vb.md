@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RoutingInformation property is a null-terminated string that specifies the routing information for the fax job.'
-ms.assetid: 'ecd730cd-09b1-45d8-9f6b-69d5adeadb77'
-title: 'FaxJobStatus.RoutingInformation property'
+---
+Description: The RoutingInformation property is a null-terminated string that specifies the routing information for the fax job.
+ms.assetid: ecd730cd-09b1-45d8-9f6b-69d5adeadb77
+title: FaxJobStatus.RoutingInformation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.RoutingInformation property
@@ -25,7 +30,7 @@ A **String** that receives the routing information for the fax job.
 
 ## Remarks
 
-For more information about routing information, see the [**RoutingInfo**](-mfax-fax-dev-status-str.md) member of the [**FAX\_DEV\_STATUS**](-mfax-fax-dev-status-str.md) structure.
+For more information about routing information, see the [**RoutingInfo**](/windows/previous-versions/FaxDev/ns-faxdev-_fax_dev_status?branch=master) member of the [**FAX\_DEV\_STATUS**](/windows/previous-versions/FaxDev/ns-faxdev-_fax_dev_status?branch=master) structure.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ For more information about routing information, see the [**RoutingInfo**](-mfax-
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

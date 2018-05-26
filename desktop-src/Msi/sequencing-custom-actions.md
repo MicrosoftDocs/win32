@@ -1,7 +1,12 @@
 ---
-Description: 'Custom actions are scheduled in sequence tables in the same way as standard actions.'
-ms.assetid: '1aea75b1-a498-405e-9208-91672455496b'
+Description: Custom actions are scheduled in sequence tables in the same way as standard actions.
+ms.assetid: 1aea75b1-a498-405e-9208-91672455496b
 title: Sequencing Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequencing Custom Actions
@@ -14,7 +19,7 @@ Custom actions are scheduled in sequence tables in the same way as standard acti
 2.  Enter the custom action's sequence relative to the other actions in the table into the Sequence column of the [Sequence](sequence-table-detailed-example.md) table. For more information about sequence tables, see [Using a Sequence Table](using-a-sequence-table.md).
 3.  To conditionally skip the action, enter a conditional expression into the Condition column of the [Sequence](sequence-table-detailed-example.md) table. The installer skips this action if the expression evaluates to FALSE.
 
-As in the case of standard actions, custom actions that are scheduled in the [InstallUISequence](installuisequence-table.md) or [AdminUISequence](adminuisequence-table.md) run only if the internal user interface is set to the full level. The UI level is set by using the [**MsiSetInternalUI**](msisetinternalui.md) function.
+As in the case of standard actions, custom actions that are scheduled in the [InstallUISequence](installuisequence-table.md) or [AdminUISequence](adminuisequence-table.md) run only if the internal user interface is set to the full level. The UI level is set by using the [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master) function.
 
 Standard and custom actions scheduled in the [InstallExecuteSequence](installexecutesequence-table.md), [AdminExecuteSequence](adminexecutesequence-table.md), or [AdvtExecuteSequence](advtexecutesequence-table.md) tables do not make system changes. Instead the installer queues up execution records in a script for subsequent execution during the install service. If there is no install service, then the actions scheduled in these tables are run in the same context as the UI sequence.
 

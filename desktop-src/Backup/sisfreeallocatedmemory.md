@@ -1,8 +1,9 @@
 ---
 title: SisFreeAllocatedMemory function
 description: Frees memory allocated by SIS API functions.
-ms.assetid: '8fab79c8-593c-46df-a885-09a59620a977'
-keywords: ["SisFreeAllocatedMemory function Backup"]
+ms.assetid: 8fab79c8-593c-46df-a885-09a59620a977
+keywords:
+- SisFreeAllocatedMemory function Backup
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sisbkup.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SisFreeAllocatedMemory function
@@ -22,7 +28,7 @@ The **SisFreeAllocatedMemory** function frees memory allocated by SIS API functi
 
 ```C++
 void SisFreeAllocatedMemory(
-  _In_ PVOID allocatedSpace
+  _In_ PVOID allocatedSpace
 );
 ```
 
@@ -55,8 +61,8 @@ This call should be used to deallocate the memory allocated for the *commonStore
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Sisbkup.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sisbkup.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
@@ -79,9 +85,9 @@ This call should be used to deallocate the memory allocated for the *commonStore
 [**SisRestoredLink**](sisrestoredlink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

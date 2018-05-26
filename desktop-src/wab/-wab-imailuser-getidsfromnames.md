@@ -1,8 +1,11 @@
 ---
 title: IMailUser GetIDsFromNames method
 description: Registers named properties with the mail user object.
-ms.assetid: '6a36e0f4-21be-4383-9618-48c26b622558'
-keywords: ["GetIDsFromNames method Windows Address Book", "GetIDsFromNames method Windows Address Book , IMailUser interface", "IMailUser interface Windows Address Book , GetIDsFromNames method"]
+ms.assetid: 6a36e0f4-21be-4383-9618-48c26b622558
+keywords:
+- GetIDsFromNames method Windows Address Book
+- GetIDsFromNames method Windows Address Book , IMailUser interface
+- IMailUser interface Windows Address Book , GetIDsFromNames method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMailUser::GetIDsFromNames method
@@ -22,10 +30,10 @@ Registers named properties with the mail user object.
 
 ```C++
 HRESULT GetIDsFromNames(
-   ULONG         cPropNames,
-   MAPINAMEID    **lppPropNames,
-   ULONG         ulFlags,
-   SPropTagArray **lppPropTags
+   ULONG         cPropNames,
+   MAPINAMEID    **lppPropNames,
+   ULONG         ulFlags,
+   SPropTagArray **lppPropTags
 );
 ```
 
@@ -76,9 +84,9 @@ Creates a property identifier for any name not already mapped.
 *lppPropTags* 
 </dt> <dd>
 
-Type: **[**SPropTagArray**](-wab-sproptagarray.md)\*\***
+Type: **[**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master)\*\***
 
-Address of a pointer to a variable of type [**SPropTagArray**](-wab-sproptagarray.md) that receives the property tags. Must be freed by the client.
+Address of a pointer to a variable of type [**SPropTagArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_sproptagarray?branch=master) that receives the property tags. Must be freed by the client.
 
 </dd> </dl>
 
@@ -99,7 +107,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -111,8 +119,8 @@ If the identifiers for the specified property names were successfully retrieved,
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
@@ -123,15 +131,15 @@ If the identifiers for the specified property names were successfully retrieved,
 
 <dl> <dt>
 
-[**IMailUser**](-wab-imailuser.md)
+[**IMailUser**](/windows/previous-versions/wabdefs/?branch=master)
 </dt> <dt>
 
 [**IMailUser::GetNamesFromIDs**](-wab-imailuser-getnamesfromids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The y property sets or retrieves the y position of the rectangle''s upper-left corner.'
-ms.assetid: 'a000a2d4-afcf-4b88-9bbc-f42758744de2'
+Description: The y property sets or retrieves the y position of the rectangles upper-left corner.
+ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
 title: y Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # y Property

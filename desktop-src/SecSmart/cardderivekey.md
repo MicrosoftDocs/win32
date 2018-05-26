@@ -1,8 +1,9 @@
 ---
 title: CardDeriveKey function
 description: Creates a session key by using the information in the specified CARD\_DERIVE\_KEY structure.
-ms.assetid: '44c487e4-7406-41de-a957-97a87038b135'
-keywords: ["CardDeriveKey function Security"]
+ms.assetid: 44c487e4-7406-41de-a957-97a87038b135
+keywords:
+- CardDeriveKey function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardDeriveKey function
@@ -24,8 +30,8 @@ The **CardDeriveKey** function, defined by a smart card module, creates a [*sess
 
 ```C++
 DWORD WINAPI CardDeriveKey(
-  _In_ PCARD_DATA       pCardData,
-  _In_ PCARD_DERIVE_KEY pAgreementInfo
+  _In_ PCARD_DATA       pCardData,
+  _In_ PCARD_DERIVE_KEY pAgreementInfo
 );
 ```
 
@@ -63,7 +69,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,15 +77,15 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

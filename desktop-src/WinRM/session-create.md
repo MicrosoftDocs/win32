@@ -4,11 +4,14 @@ description: Creates a new instance of a resource and returns the endpoint refer
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7629dfff-6c66-4b09-81a4-b1458ff977fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 7629dfff-6c66-4b09-81a4-b1458ff977fa
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Create method Windows Remote Management", "Create method Windows Remote Management , Session object", "Session object Windows Remote Management , Create method"]
+keywords:
+- Create method Windows Remote Management
+- Create method Windows Remote Management , Session object
+- Session object Windows Remote Management , Create method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session.Create method
@@ -73,9 +79,9 @@ The EPR of the new resource.
 
 ## Remarks
 
-**Session.Create** is only used for creating new instances of a resource. Use the [**Session.Put**](session-put.md) method to update existing instances of a resource. After you obtain the new resource URI, you can call [**Session.Get**](session-get.md) to retrieve the new object. The new object contains any properties that the resource provider assigns when creating the new object. For example, if you create a new WS-Management protocol [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) and retrieve the listener object using **Session.Get**, then you also obtain the **Port**, **Enabled**, and **ListeningOn** properties.
+**Session.Create** is only used for creating new instances of a resource. Use the [**Session.Put**](session-put.md) method to update existing instances of a resource. After you obtain the new resource URI, you can call [**Session.Get**](session-get.md) to retrieve the new object. The new object contains any properties that the resource provider assigns when creating the new object. For example, if you create a new WS-Management protocol [*listener*](windows-remote-management-glossary.md#winrm-gloss-listener) and retrieve the listener object using **Session.Get**, then you also obtain the **Port**, **Enabled**, and **ListeningOn** properties.
 
-Be aware that the [*WMI plug-in*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in) does not support creating any resource other than a WS-Management protocol listener.
+Be aware that the [*WMI plug-in*](windows-remote-management-glossary.md#winrm-gloss-wmi-plug-in) does not support creating any resource other than a WS-Management protocol listener.
 
 The following syntax is used to call this method.
 
@@ -135,8 +141,8 @@ End Function
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -154,9 +160,9 @@ End Function
 [WS-Management Protocol](ws-management-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

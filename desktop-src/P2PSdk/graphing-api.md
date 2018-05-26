@@ -1,7 +1,12 @@
 ---
-Description: 'This section of the Peer Infrastructure documentation describes the Peer Graphing API.'
-ms.assetid: 'c3530134-bde3-4a9a-b433-4f198430a607'
+Description: This section of the Peer Infrastructure documentation describes the Peer Graphing API.
+ms.assetid: c3530134-bde3-4a9a-b433-4f198430a607
 title: Graphing API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphing API

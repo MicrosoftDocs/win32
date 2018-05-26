@@ -1,8 +1,9 @@
 ---
 title: RB\_BEGINDRAG message
 description: Puts the rebar control in drag-and-drop mode. This message does not cause a RBN\_BEGINDRAG notification to be sent.
-ms.assetid: '1e3e4928-cb84-4fd4-8056-84de1f791d1c'
-keywords: ["RB_BEGINDRAG message Windows Controls"]
+ms.assetid: 1e3e4928-cb84-4fd4-8056-84de1f791d1c
+keywords:
+- RB_BEGINDRAG message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_BEGINDRAG message
@@ -49,15 +55,15 @@ The **RB\_BEGINDRAG**, [**RB\_DRAGMOVE**](rb-dragmove.md), and [**RB\_ENDDRAG**]
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

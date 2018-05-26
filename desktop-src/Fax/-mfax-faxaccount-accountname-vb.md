@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the name of a particular fax account on the server.'
-ms.assetid: '3f376d12-e678-401c-a32f-ee8f330363b8'
-title: 'FaxAccount.AccountName property'
+---
+Description: Retrieves the name of a particular fax account on the server.
+ms.assetid: 3f376d12-e678-401c-a32f-ee8f330363b8
+title: FaxAccount.AccountName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccount.AccountName property
@@ -51,7 +56,7 @@ If the account is on the same server as the fax server, just the &lt;user\_name&
 [**FaxAccount**](-mfax-faxaccount.md)
 </dt> <dt>
 
-[**IFaxAccount**](-mfax-faxaccount-cpp.md)
+[**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,15 @@ description: The Fabrikam company upgraded their domain from Windows NT 4.0 to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1246d3bb-16aa-4a11-a272-15134b55dd7e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1246d3bb-16aa-4a11-a272-15134b55dd7e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Scenario The Fabrikam Corporation AD"]
+keywords:
+- Scenario The Fabrikam Corporation AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scenario: The Fabrikam Corporation

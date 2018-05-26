@@ -1,7 +1,12 @@
 ---
-Description: 'Allows an application to query the available CPU Sets on the system, and their current state.'
-ms.assetid: '168B00AB-1B11-44A0-B548-903CA3F4BBDE'
+Description: Allows an application to query the available CPU Sets on the system, and their current state.
+ms.assetid: 168B00AB-1B11-44A0-B548-903CA3F4BBDE
 title: GetSystemCpuSetInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSystemCpuSetInformation function
@@ -13,11 +18,11 @@ Allows an application to query the available CPU Sets on the system, and their c
 
 ```C++
 BOOL WINAPI GetSystemCpuSetInformation(
-  _Out_opt_  PSYSTEM_CPU_SET_INFORMATION  Information,
-  _In_       ULONG                        BufferLength,
-  _Out_      PULONG                       ReturnedLength,
-  _In_opt_   HANDLE                       Process,
-  _Reserved_ ULONG                        Flags
+  _Out_opt_  PSYSTEM_CPU_SET_INFORMATION  Information,
+  _In_       ULONG                        BufferLength,
+  _Out_      PULONG                       ReturnedLength,
+  _In_opt_   HANDLE                       Process,
+  _Reserved_ ULONG                        Flags
 );
 ```
 
@@ -30,7 +35,7 @@ BOOL WINAPI GetSystemCpuSetInformation(
 *Information* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**SYSTEM\_CPU\_SET\_INFORMATION**](system-cpu-set-information.md) structure that receives the CPU Set data. Pass NULL with a buffer length of 0 to determine the required buffer size.
+A pointer to a [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/win32/winnt/ns-winnt-_system_cpu_set_information?branch=master) structure that receives the CPU Set data. Pass NULL with a buffer length of 0 to determine the required buffer size.
 
 </dd> <dt>
 
@@ -51,7 +56,7 @@ The length, in bytes, of the valid data in the output buffer if the buffer is la
 *Process* \[in, optional\]
 </dt> <dd>
 
-An optional handle to a process. This process is used to determine the value of the **AllocatedToTargetProcess** flag in the SYSTEM\_CPU\_SET\_INFORMATION structure. If a CPU Set is allocated to the specified process, the flag is set. Otherwise, it is clear. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](getcurrentprocess.md) may also be specified here.
+An optional handle to a process. This process is used to determine the value of the **AllocatedToTargetProcess** flag in the SYSTEM\_CPU\_SET\_INFORMATION structure. If a CPU Set is allocated to the specified process, the flag is set. Otherwise, it is clear. This handle must have the PROCESS\_QUERY\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/win32/WinBase/nf-processthreadsapi-getcurrentprocess?branch=master) may also be specified here.
 
 </dd> <dt>
 
@@ -72,17 +77,17 @@ If the API succeeds it returns TRUE. If it fails, the error reason is available 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Processthreadapi.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Windows.h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Sampler Type
 description: Use the following syntax to declare sampler state as well as sampler-comparison state.
-ms.assetid: '6534d343-d724-46e5-b300-2a29124a1a28'
-keywords: ["Sampler Type HLSL"]
+ms.assetid: 6534d343-d724-46e5-b300-2a29124a1a28
+keywords:
+- Sampler Type HLSL
 topic_type:
 - apiref
 api_name:
 - Sampler Type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sampler Type
@@ -27,30 +33,30 @@ Use the following syntax to declare sampler state as well as sampler-comparison 
 <table>
 <tbody>
 <tr class="odd">
-<td>sampler <em>Name</em> = <em>SamplerType</em>{   Texture = &lt;<em>texture_variable</em>&gt;;   [<em>state_name = state_value;</em>]   ... };</td>
+<td>sampler <em>Name</em> = <em>SamplerType</em>{   Texture = &lt;<em>texture_variable</em>&gt;;   [<em>state_name = state_value;</em>]   ... };</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p>
+<p> </p>
 <p>The syntax for a sampler in Direct3D 10 and later is changed slightly to support texture objects and sampler arrays.</p>
 
 <table>
 <tbody>
 <tr class="odd">
-<td><em>SamplerType Name[Index]</em>{   [<em>state_name = state_value;</em>]   ... };</td>
+<td><em>SamplerType Name[Index]</em>{   [<em>state_name = state_value;</em>]   ... };</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -90,7 +96,7 @@ Direct3D 10 and later only. Optional array size; a positive integer greater than
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -191,7 +197,7 @@ sampler_state
 
 
 
- 
+ 
 
 Here is a partial example of declaring sampler-comparison state, and calling a comparison sampler in Direct3D 10.
 
@@ -222,9 +228,9 @@ float fShadow = g_ShadowMap.SampleCmpLevelZero( ShadowSampler, vModProjUV.xy, vM
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

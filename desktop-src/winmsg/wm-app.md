@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to define private messages, usually of the form WM\_APP+x, where x is an integer value.'
-ms.assetid: 'fdb549df-426f-4af5-9c17-6e8730e4abc0'
-title: 'WM\_APP'
+---
+Description: Used to define private messages, usually of the form WM\_APP+x, where x is an integer value.
+ms.assetid: fdb549df-426f-4af5-9c17-6e8730e4abc0
+title: WM\_APP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_APP

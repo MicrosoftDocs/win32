@@ -1,8 +1,19 @@
 ---
 title: Constant Bit Rate (CBR) Encoding
 description: Constant Bit Rate (CBR) Encoding
-ms.assetid: 'f87277a5-55f1-46c7-a6a4-5824f3904d60'
-keywords: ["Windows Media Format SDK,CBR encoding", "Windows Media Format SDK,constant bit rate (CBR)", "codecs,CBR encoding", "codecs,constant bit rate (CBR)", "constant bit rate (CBR)", "CBR (constant bit rate)"]
+ms.assetid: f87277a5-55f1-46c7-a6a4-5824f3904d60
+keywords:
+- Windows Media Format SDK,CBR encoding
+- Windows Media Format SDK,constant bit rate (CBR)
+- codecs,CBR encoding
+- codecs,constant bit rate (CBR)
+- constant bit rate (CBR)
+- CBR (constant bit rate)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constant Bit Rate (CBR) Encoding

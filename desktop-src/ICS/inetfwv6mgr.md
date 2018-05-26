@@ -1,8 +1,10 @@
 ---
 title: INetFwV6Mgr interface
 description: The INetFwV6Mgr is the entry point interface for the IPv6 Internet Connection Firewall Configuration API.
-ms.assetid: '9f7f1f03-f951-4017-9112-7452b879413f'
-keywords: ["INetFwV6Mgr interface ICS/ICF", "INetFwV6Mgr interface ICS/ICF , described"]
+ms.assetid: 9f7f1f03-f951-4017-9112-7452b879413f
+keywords:
+- INetFwV6Mgr interface ICS/ICF
+- INetFwV6Mgr interface ICS/ICF , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr interface
@@ -53,7 +60,7 @@ The **INetFwV6Mgr** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -72,7 +79,7 @@ The **INetFwV6Mgr** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,10 +87,10 @@ The **INetFwV6Mgr** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -120,9 +127,9 @@ The **INetFwV6Mgr** interface has these properties.
 [IUnknown](_com_iunknown)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

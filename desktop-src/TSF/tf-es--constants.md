@@ -1,7 +1,7 @@
 ---
 title: TF\_ES\_\ Constants
 description: The following are constants used by the ITfContext RequestEditSession method.
-ms.assetid: '5498329f-3302-4f66-bdec-cab7db0cdc0e'
+ms.assetid: 5498329f-3302-4f66-bdec-cab7db0cdc0e
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_ES\_\* Constants
 
-The following are constants used by the [ITfContext::RequestEditSession](itfcontext-requesteditsession.md) method.
+The following are constants used by the [ITfContext::RequestEditSession](/windows/win32/Msctf/nf-msctf-itfcontext-requesteditsession?branch=master) method.
 
 
 
@@ -38,9 +43,9 @@ The following are constants used by the [ITfContext::RequestEditSession](itfcont
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
@@ -50,12 +55,12 @@ The following are constants used by the [ITfContext::RequestEditSession](itfcont
 
 <dl> <dt>
 
-[ITfContext::RequestEditSession](itfcontext-requesteditsession.md)
+[ITfContext::RequestEditSession](/windows/win32/Msctf/nf-msctf-itfcontext-requesteditsession?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

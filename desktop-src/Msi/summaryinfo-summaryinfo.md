@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Property property of the SummaryInfo object sets or gets the value for the specified property in the summary information stream.'
-ms.assetid: '8e8f0987-c92b-43f3-a61a-35099188c629'
-title: 'SummaryInfo.Property property'
+---
+Description: The Property property of the SummaryInfo object sets or gets the value for the specified property in the summary information stream.
+ms.assetid: 8e8f0987-c92b-43f3-a61a-35099188c629
+title: SummaryInfo.Property property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SummaryInfo.Property property
@@ -92,10 +97,10 @@ Required property ID of one of the summary properties.
 
 <dl> <dt>
 
-[**MsiSummaryInfoSetProperty**](msisummaryinfosetproperty.md)
+[**MsiSummaryInfoSetProperty**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfosetpropertya?branch=master)
 </dt> <dt>
 
-[**MsiSummaryInfoGetProperty**](msisummaryinfogetproperty.md)
+[**MsiSummaryInfoGetProperty**](/windows/win32/Msiquery/nf-msiquery-msisummaryinfogetpropertya?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a video head with the video adapter that contains it.'
-ms.assetid: 'd15f4350-1529-4246-9ea2-8453e52516c6'
-title: 'CIM\_VideoHeadOnController class'
+Description: Associates a video head with the video adapter that contains it.
+ms.assetid: d15f4350-1529-4246-9ea2-8453e52516c6
+title: CIM\_VideoHeadOnController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VideoHeadOnController class
@@ -15,7 +20,7 @@ Associates a video head with the video adapter that contains it.
 class CIM_VideoHeadOnController : CIM_HostedDependency
 {
   CIM_DisplayController REF Antecedent;
-  CIM_VideoHead         REF Dependent;
+  CIM_VideoHead         REF Dependent;
 };
 ```
 
@@ -69,8 +74,8 @@ The head on the video adapter.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The head on the video adapter.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

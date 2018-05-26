@@ -2,13 +2,19 @@
 title: /W switch
 description: The /W switch specifies the warning level of the MIDL compiler. The warning level indicates the severity of the warning.
 ms.assetid: ee894d73-cbd1-455f-9836-a6d80cfc95f9
-keywords: ["/W switch MIDL"]
+keywords:
+- /W switch MIDL
 topic_type:
 - apiref
 api_name:
 - /W
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /W switch

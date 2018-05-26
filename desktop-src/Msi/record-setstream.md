@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetStream method of the Record object copies the content of the specified file into the designated record field as stream data. Stream data cannot be inserted into temporary fields.'
-ms.assetid: 'feb79371-d0c4-4bb0-b539-2f431ee1051b'
-title: 'Record.SetStream method'
+---
+Description: The SetStream method of the Record object copies the content of the specified file into the designated record field as stream data. Stream data cannot be inserted into temporary fields.
+ms.assetid: feb79371-d0c4-4bb0-b539-2f431ee1051b
+title: Record.SetStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record.SetStream method

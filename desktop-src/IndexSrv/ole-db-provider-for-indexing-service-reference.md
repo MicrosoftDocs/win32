@@ -1,7 +1,12 @@
 ---
 title: OLE DB Provider for Indexing Service Reference
 description: OLE DB Provider for Indexing Service Reference
-ms.assetid: '51999bf4-7cb7-4eca-bc67-50d43e61d556'
+ms.assetid: 51999bf4-7cb7-4eca-bc67-50d43e61d556
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OLE DB Provider for Indexing Service Reference

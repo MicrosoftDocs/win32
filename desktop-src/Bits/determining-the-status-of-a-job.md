@@ -1,8 +1,15 @@
 ---
 title: Determining the Status of a Job
 description: The status of a job refers to changes in the state of a job (for example, the job changes state from BG\_JOB\_STATE\_TRANSFERRING to BG\_JOB\_STATE\_TRANSFERRED) and progress in transferring the files.
-ms.assetid: '7c6cdf86-196d-41b3-ae45-9728b8092c30'
-keywords: ["transfer job BITS , status", "transfer job BITS , state"]
+ms.assetid: 7c6cdf86-196d-41b3-ae45-9728b8092c30
+keywords:
+- transfer job BITS , status
+- transfer job BITS , state
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining the Status of a Job

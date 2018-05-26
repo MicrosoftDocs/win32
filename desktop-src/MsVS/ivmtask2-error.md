@@ -1,8 +1,13 @@
 ---
 title: IVMTask2 Error property
 description: The error recorded for this task.
-ms.assetid: '00886e50-d518-4b5b-bc17-f8d365ff9f18'
-keywords: ["Error property Virtual Server", "Error property Virtual Server , IVMTask2 interface", "IVMTask2 interface Virtual Server , Error property", "Error property Virtual Server , VMTask2 interface", "VMTask2 interface Virtual Server , Error property"]
+ms.assetid: 00886e50-d518-4b5b-bc17-f8d365ff9f18
+keywords:
+- Error property Virtual Server
+- Error property Virtual Server , IVMTask2 interface
+- IVMTask2 interface Virtual Server , Error property
+- Error property Virtual Server , VMTask2 interface
+- VMTask2 interface Virtual Server , Error property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask2::Error property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Error(
-  [out] long *outError
+  [out] long *outError
 );
 ```
 
@@ -78,7 +88,7 @@ For information on other return values specific to Virtual Server, see [**HRESUL
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ For information on other return values specific to Virtual Server, see [**HRESUL
 **VMTask2**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

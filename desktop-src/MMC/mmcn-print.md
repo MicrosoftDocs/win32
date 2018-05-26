@@ -1,14 +1,15 @@
 ---
 title: MMCN\_PRINT message
-description: Sent to the snap-in's IComponent implementation when the user clicks the Print button or selects the Print menu item.
+description: Sent to the snap-ins IComponent implementation when the user clicks the Print button or selects the Print menu item.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '74814817-f93b-476f-a477-e6b65ed229bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 74814817-f93b-476f-a477-e6b65ed229bb
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_PRINT message MMC"]
+keywords:
+- MMCN_PRINT message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_PRINT message
 
 The **MMCN\_PRINT** notification is introduced in MMC 1.1.
 
-The **MMCN\_PRINT** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when the user clicks the **Print** button or selects the **Print** menu item. The snap-in must print the appropriate item or data.
+The **MMCN\_PRINT** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user clicks the **Print** button or selects the **Print** menu item. The snap-in must print the appropriate item or data.
 
 ## Parameters
 
@@ -74,15 +78,15 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
-title: \ define Directive
+title: '\ define Directive'
 description: Preprocessor directive that defines a constant or a macro.
-ms.assetid: '44d98e28-868c-4403-baa1-c08d33a7b589'
-keywords: ["define Directive HLSL"]
+ms.assetid: 44d98e28-868c-4403-baa1-c08d33a7b589
+keywords:
+- define Directive HLSL
 topic_type:
 - apiref
 api_name:
 - define Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#define Directive
@@ -26,7 +32,7 @@ Preprocessor directive that defines a constant or a macro.
 
 
 
- 
+ 
 
 ## See also
 
@@ -35,9 +41,9 @@ Preprocessor directive that defines a constant or a macro.
 [Preprocessor Directives (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

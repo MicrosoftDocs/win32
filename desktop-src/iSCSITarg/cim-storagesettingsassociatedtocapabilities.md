@@ -4,13 +4,15 @@ description: This association define StorageSettings that reflect the capabiliti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b62e42e5-5457-466c-a740-5a7c2f7f3a52'
-ms.prod: 'windows-server-dev'
+ms.assetid: b62e42e5-5457-466c-a740-5a7c2f7f3a52
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API", "CIM_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API
+- CIM_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageSettingsAssociatedToCapabilities class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Version("2.11.0"), UMLPackagePath("CIM::Device::StorageServices")]
 class CIM_StorageSettingsAssociatedToCapabilities : CIM_SettingAssociatedToCapabilities
 {
-  boolean                     DefaultSetting = FALSE;
+  boolean                     DefaultSetting = FALSE;
   CIM_StorageCapabilities REF Antecedent;
-  CIM_StorageSetting      REF Dependent;
+  CIM_StorageSetting      REF Dependent;
 };
 ```
 
@@ -113,7 +118,7 @@ The fixed and predefined StorageSetting.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -127,9 +132,9 @@ The fixed and predefined StorageSetting.
 [**CIM\_SettingAssociatedToCapabilities**](cim-settingassociatedtocapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

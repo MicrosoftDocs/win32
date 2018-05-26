@@ -1,20 +1,25 @@
 ---
 title: ms-DS-Revealed-DSAs attribute
-description: Backward link for ms-DS-Revealed-Users. Identifies which RODC holds that user's secret.
+description: Backward link for ms-DS-Revealed-Users. Identifies which RODC holds that users secret.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cd84db75-d961-4290-8aa7-2805febbd842'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cd84db75-d961-4290-8aa7-2805febbd842
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Revealed-DSAs attribute AD Schema", "msDS-RevealedDSAs attribute AD Schema"]
+keywords:
+- ms-DS-Revealed-DSAs attribute AD Schema
+- msDS-RevealedDSAs attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Revealed-DSAs
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Revealed-DSAs attribute
@@ -38,9 +43,9 @@ Backward link for [**ms-DS-Revealed-Users**](a-msds-revealedusers.md). Identifie
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Backward link for [**ms-DS-Revealed-Users**](a-msds-revealedusers.md). Identifie
 
 
 
- 
+ 
 
- 
+ 
 
 
 

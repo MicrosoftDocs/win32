@@ -1,7 +1,12 @@
 ---
-Description: 'The Volume Shadow Copy Service (VSS) is a set of COM and C++ APIs that enable volume backups to be performed while applications on the system (called writers) continue to write to the volumes.'
-ms.assetid: '94d9504b-2838-4516-8031-daa7bd9d2fec'
+Description: The Volume Shadow Copy Service (VSS) is a set of COM and C++ APIs that enable volume backups to be performed while applications on the system (called writers) continue to write to the volumes.
+ms.assetid: 94d9504b-2838-4516-8031-daa7bd9d2fec
 title: Volume Shadow Copy API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Shadow Copy API Reference

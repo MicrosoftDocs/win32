@@ -1,7 +1,12 @@
 ---
 title: abs - vs
 description: Computes absolute value.
-ms.assetid: 'd3b4cf06-dc87-4c71-aa2d-5ade4cf98caa'
+ms.assetid: d3b4cf06-dc87-4c71-aa2d-5ade4cf98caa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # abs - vs

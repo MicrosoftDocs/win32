@@ -1,8 +1,16 @@
 ---
 title: HttpRawClientExample
 description: This example is the client side that sends raw HTTP requests.
-ms.assetid: 'bc9e108e-d4a0-4bdd-82c2-5486ea46364b'
-keywords: ["HttpRawClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: bc9e108e-d4a0-4bdd-82c2-5486ea46364b
+keywords:
+- HttpRawClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpRawClientExample

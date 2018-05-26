@@ -1,7 +1,12 @@
 ---
 title: File Compression
 description: HTML Help Workshop automatically compresses files during the compilation process. Each file that is included in a help project is compressed to a smaller size.
-ms.assetid: 'E31D35B3-4DE3-4790-AF43-821ED2245AE0'
+ms.assetid: E31D35B3-4DE3-4790-AF43-821ED2245AE0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Compression

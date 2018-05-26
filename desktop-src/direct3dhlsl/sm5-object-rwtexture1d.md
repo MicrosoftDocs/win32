@@ -1,14 +1,20 @@
 ---
 title: RWTexture1D
 description: A read/write resource.
-ms.assetid: '47866e5a-b26b-4264-9291-c8940882d662'
-keywords: ["RWTexture1D HLSL"]
+ms.assetid: 47866e5a-b26b-4264-9291-c8940882d662
+keywords:
+- RWTexture1D HLSL
 topic_type:
 - apiref
 api_name:
 - RWTexture1D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWTexture1D

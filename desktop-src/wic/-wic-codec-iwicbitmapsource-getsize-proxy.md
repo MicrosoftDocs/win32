@@ -1,21 +1,26 @@
 ---
-Description: 'Proxy function for the GetSize method.'
-ms.assetid: 'a9b7d01c-78d9-47b8-a373-a7c49f7bccfd'
-title: 'IWICBitmapSource\_GetSize\_Proxy function'
+Description: Proxy function for the GetSize method.
+ms.assetid: a9b7d01c-78d9-47b8-a373-a7c49f7bccfd
+title: IWICBitmapSource\_GetSize\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapSource\_GetSize\_Proxy function
 
-Proxy function for the [**GetSize**](-wic-codec-iwicbitmapsource-getsize.md) method.
+Proxy function for the [**GetSize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-getsize?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapSource_GetSize_Proxy(
-  _In_  IWICBitmapSource *THIS_PTR,
-  _Out_ UINT             *puiWidth,
-  _Out_ UINT             *puiHeight
+  _In_  IWICBitmapSource *THIS_PTR,
+  _Out_ UINT             *puiWidth,
+  _Out_ UINT             *puiHeight
 );
 ```
 
@@ -28,9 +33,9 @@ HRESULT IWICBitmapSource_GetSize_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)\***
+Type: **[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)\***
 
-Pointer to this [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) object.
+Pointer to this [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) object.
 
 </dd> <dt>
 
@@ -66,15 +71,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

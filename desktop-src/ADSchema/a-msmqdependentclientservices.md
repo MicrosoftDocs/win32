@@ -4,17 +4,22 @@ description: Indicates whether the MSMQ installed on this computer provides MSMQ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6f16db7f-f328-4fe2-9ecc-b40c1c845064'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6f16db7f-f328-4fe2-9ecc-b40c1c845064
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Dependent-Client-Services attribute AD Schema", "mSMQDependentClientServices attribute AD Schema"]
+keywords:
+- MSMQ-Dependent-Client-Services attribute AD Schema
+- mSMQDependentClientServices attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Dependent-Client-Services
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Dependent-Client-Services attribute
@@ -38,12 +43,12 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Indicates whether the MSMQ installed on this computer provides MSMQ dependent cl
 
 
 
- 
+ 
 
- 
+ 
 
 
 

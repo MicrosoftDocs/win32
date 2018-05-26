@@ -1,7 +1,12 @@
 ---
-Description: 'Adds a new analysis hint node with an infinite area to the IInkAnalyzer.'
-ms.assetid: '4cc592c4-456f-4aa5-9a87-d9427de487f3'
-title: 'IInkAnalyzer::CreateAnalysisHint method'
+Description: Adds a new analysis hint node with an infinite area to the IInkAnalyzer.
+ms.assetid: 4cc592c4-456f-4aa5-9a87-d9427de487f3
+title: IInkAnalyzerCreateAnalysisHint method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::CreateAnalysisHint method
@@ -13,7 +18,7 @@ Adds a new analysis hint node with an infinite area to the [**IInkAnalyzer**](ii
 
 ```C++
 HRESULT CreateAnalysisHint(
-  [out] IContextNode **ppAnalysisHint
+  [out] IContextNode **ppAnalysisHint
 );
 ```
 
@@ -39,7 +44,7 @@ See [Classes and Interfaces - Ink Analysis](classes-and-interfaces---ink-analysi
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppAnalysisHint* when you no longer need to use the object.
 
- 
+ 
 
 To provide extra context information for the [**IInkAnalyzer**](iinkanalyzer.md), you can add analysis hints to the ink analyzer. Analysis hints can improve recognition accuracy. For example, you can add factoid and guide information for fields in a form application.
 
@@ -61,7 +66,7 @@ For more information about ink analysis, see [Ink Analysis Overview](ink-analysi
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -93,9 +98,9 @@ For more information about ink analysis, see [Ink Analysis Overview](ink-analysi
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

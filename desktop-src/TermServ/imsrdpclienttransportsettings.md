@@ -1,14 +1,16 @@
 ---
 title: IMsRdpClientTransportSettings interface
-description: Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server.
+description: Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2573727-1dcc-4d4d-af5c-038e9467ba84'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d2573727-1dcc-4d4d-af5c-038e9467ba84
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientTransportSettings interface Remote Desktop Services", "IMsRdpClientTransportSettings interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientTransportSettings interface Remote Desktop Services
+- IMsRdpClientTransportSettings interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,11 +19,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings interface
 
-Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server.
+Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server.
 
 ## Members
 
@@ -37,17 +42,17 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 
 | Property                                                                                                          | Access type           | Description                                                 |
 |:------------------------------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------|
-| [**GatewayCredsSource**](imsrdpclienttransportsettings-gatewaycredssource.md)<br/>                         | Read/write<br/> | The RD Gateway server authentication method.<br/>     |
-| [**GatewayDefaultUsageMethod**](imsrdpclienttransportsettings-gatewaydefaultusagemethod.md)<br/>           | Read-only<br/>  | The default RD Gateway usage method.<br/>             |
-| [**GatewayHostname**](imsrdpclienttransportsettings-gatewayhostname.md)<br/>                               | Read/write<br/> | Host name of the RD Gateway server.<br/>              |
-| [**GatewayIsSupported**](imsrdpclienttransportsettings-gatewayissupported.md)<br/>                         | Read-only<br/>  | Indicates whether RD Gateway is supported.<br/>       |
-| [**GatewayProfileUsageMethod**](imsrdpclienttransportsettings-gatewayprofileusagemethod.md)<br/>           | Read/write<br/> | The RD Gateway profile usage method.<br/>             |
-| [**GatewayUsageMethod**](imsrdpclienttransportsettings-gatewayusagemethod.md)<br/>                         | Read/write<br/> | The RD Gateway server usage method.<br/>              |
-| [**GatewayUserSelectedCredsSource**](imsrdpclienttransportsettings-gatewayuserselectedcredssource.md)<br/> | Read/write<br/> | The user-specified RD Gateway credential source.<br/> |
+| [**GatewayCredsSource**](imsrdpclienttransportsettings-gatewaycredssource.md)<br/>                         | Read/write<br/> | The RD Gateway server authentication method.<br/>     |
+| [**GatewayDefaultUsageMethod**](imsrdpclienttransportsettings-gatewaydefaultusagemethod.md)<br/>           | Read-only<br/>  | The default RD Gateway usage method.<br/>             |
+| [**GatewayHostname**](imsrdpclienttransportsettings-gatewayhostname.md)<br/>                               | Read/write<br/> | Host name of the RD Gateway server.<br/>              |
+| [**GatewayIsSupported**](imsrdpclienttransportsettings-gatewayissupported.md)<br/>                         | Read-only<br/>  | Indicates whether RD Gateway is supported.<br/>       |
+| [**GatewayProfileUsageMethod**](imsrdpclienttransportsettings-gatewayprofileusagemethod.md)<br/>           | Read/write<br/> | The RD Gateway profile usage method.<br/>             |
+| [**GatewayUsageMethod**](imsrdpclienttransportsettings-gatewayusagemethod.md)<br/>                         | Read/write<br/> | The RD Gateway server usage method.<br/>              |
+| [**GatewayUserSelectedCredsSource**](imsrdpclienttransportsettings-gatewayuserselectedcredssource.md)<br/> | Read/write<br/> | The user-specified RD Gateway credential source.<br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,8 +60,8 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings is defined as 720298C0-A099-46f5-9F82-96921BAE4701<br/> |
@@ -76,9 +81,9 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

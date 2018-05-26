@@ -1,7 +1,12 @@
 ---
 title: ATA Port Routines for PCI Config Space Access
 description: ATA Port Routines for PCI Config Space Access
-ms.assetid: 'f08e3b20-7de6-43e1-84d3-1f4274c822e8'
+ms.assetid: f08e3b20-7de6-43e1-84d3-1f4274c822e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Routines for PCI Config Space Access

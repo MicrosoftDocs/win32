@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving the Task MaxRunTime
 description: This example retrieves the maximum amount of time the task can run (in milliseconds) and displays that number on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '33873fef-1b67-4010-8bda-b75e1dfa80d5'
-keywords: ["retrieving task MaxRunTime Task Scheduler", "retrieving task properties Task Scheduler , MaxRunTime"]
+ms.assetid: 33873fef-1b67-4010-8bda-b75e1dfa80d5
+keywords:
+- retrieving task MaxRunTime Task Scheduler
+- retrieving task properties Task Scheduler , MaxRunTime
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving the Task MaxRunTime

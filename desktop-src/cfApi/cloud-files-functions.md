@@ -1,7 +1,12 @@
 ---
-Description: 'The following functions are used in creating and maintaining placeholder files and directories.'
-ms.assetid: '68B667E2-E8C6-41F9-A0E2-C8CDF60D6472'
+Description: The following functions are used in creating and maintaining placeholder files and directories.
+ms.assetid: 68B667E2-E8C6-41F9-A0E2-C8CDF60D6472
 title: Cloud Filter Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cloud Filter Functions
@@ -43,18 +48,18 @@ The following functions are used in creating and maintaining placeholder files a
 | [**CfRevertPlaceholder**](https://msdn.microsoft.com/library/windows/desktop/mt827502)<br/>                                     | Reverts a placeholder back to a regular file, stripping away all special characteristics such as the reparse tag, the file identity, etc.<br/>                                                                 |
 | [**CfSetCorrelationVector**](https://msdn.microsoft.com/library/windows/desktop/mt827503)<br/>                               | Allows a sync provider to instruct the platform to use a specific correlation vector for telemetry purposes on a placeholder file. This is optional.<br/>                                                      |
 | [**CfSetInSyncState**](https://msdn.microsoft.com/library/windows/desktop/mt827504)<br/>                                           | Sets the in-sync state for a placeholder file or folder.<br/>                                                                                                                                                  |
-| [**CfSetPinState**](https://msdn.microsoft.com/library/windows/desktop/mt827505)<br/>                                                 | This sets the pin state of a placeholder, used to represent a user’s intent. Any application (not just the sync provider) can call this function.<br/>                                                         |
+| [**CfSetPinState**](https://msdn.microsoft.com/library/windows/desktop/mt827505)<br/>                                                 | This sets the pin state of a placeholder, used to represent a user s intent. Any application (not just the sync provider) can call this function.<br/>                                                         |
 | [**CfUnregisterSyncRoot**](https://msdn.microsoft.com/library/windows/desktop/mt827506)<br/>                                   | Unregisters a previously registered sync root.<br/>                                                                                                                                                            |
 | [**CfUpdatePlaceholder**](https://msdn.microsoft.com/library/windows/desktop/mt827507)<br/>                                     | Updates characteristics of the placeholder file or directory.<br/>                                                                                                                                             |
 | [**CfUpdateSyncProviderStatus**](https://msdn.microsoft.com/library/windows/desktop/mt827508)<br/>                       | Updates the current status of the sync provider.<br/>                                                                                                                                                          |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

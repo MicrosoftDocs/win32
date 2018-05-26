@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect Optimize method
 description: Minimize the amount of memory required for an effect.
-ms.assetid: 'fa1d0769-6746-44f6-9979-31a534646884'
-keywords: ["Optimize method Direct3D 11", "Optimize method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , Optimize method"]
+ms.assetid: fa1d0769-6746-44f6-9979-31a534646884
+keywords:
+- Optimize method Direct3D 11
+- Optimize method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , Optimize method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::Optimize method
@@ -56,12 +64,12 @@ The following methods will fail after Optimize has been called on an effect.
 > [!Note]  
 > References retrieved with these methods before calling **ID3DX11Effect::Optimize** are still valid after **ID3DX11Effect::Optimize** is called. This allows the application to get all the variables, techniques, and passes it will use, call Optimize, and then use the effect.
 
- 
+ 
 
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -81,9 +89,9 @@ The following methods will fail after Optimize has been called on an effect.
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

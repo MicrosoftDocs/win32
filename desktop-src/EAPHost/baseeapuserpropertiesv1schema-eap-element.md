@@ -1,14 +1,20 @@
 ---
 title: Eap Element
 description: Captures the method type selected and method-specific configuration.
-ms.assetid: '4adef133-1d18-444a-baa3-5419b8cbe298'
-keywords: ["Eap element EAPHost"]
+ms.assetid: 4adef133-1d18-444a-baa3-5419b8cbe298
+keywords:
+- Eap element EAPHost
 topic_type:
 - apiref
 api_name:
 - Eap
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Eap Element
@@ -31,8 +37,8 @@ The method can define the constituent elements inside the **Eap** element. The m
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -46,9 +52,9 @@ The method can define the constituent elements inside the **Eap** element. The m
 [baseeapuserpropertiesv1 Schema](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

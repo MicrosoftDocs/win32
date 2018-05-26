@@ -1,8 +1,24 @@
 ---
 title: Special-Purpose Command-line Options for Windows DVD Maker
 description: Special-Purpose Command-line Options for Windows DVD Maker
-ms.assetid: 'fce18bf7-88bd-4305-bf7d-48b579fc11f2'
-keywords: ["Windows DVD Maker,Windows Import Video Wizard", "DVD Maker,Windows Import Video Wizard", "programming reference,Windows Import Video Wizard", "reference for Windows DVD Maker,Windows Import Video Wizard", "command-line options for Windows DVD Maker,Windows Import Video Wizard", "Windows Import Video Wizard", "Windows DVD Maker,crash recovery scenarios", "DVD Maker,crash recovery scenarios", "programming reference,crash recovery scenarios", "reference for Windows DVD Maker,crash recovery scenarios", "command-line options for Windows DVD Maker,crash recovery scenarios"]
+ms.assetid: fce18bf7-88bd-4305-bf7d-48b579fc11f2
+keywords:
+- Windows DVD Maker,Windows Import Video Wizard
+- DVD Maker,Windows Import Video Wizard
+- programming reference,Windows Import Video Wizard
+- reference for Windows DVD Maker,Windows Import Video Wizard
+- command-line options for Windows DVD Maker,Windows Import Video Wizard
+- Windows Import Video Wizard
+- Windows DVD Maker,crash recovery scenarios
+- DVD Maker,crash recovery scenarios
+- programming reference,crash recovery scenarios
+- reference for Windows DVD Maker,crash recovery scenarios
+- command-line options for Windows DVD Maker,crash recovery scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Special-Purpose Command-line Options for Windows DVD Maker

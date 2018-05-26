@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the WebEventDeliverEnd event.WebEventDeliverEnd.'
+---
+Description: The event type class for the WebEventDeliverEnd event.WebEventDeliverEnd.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a4c0adf2-9ffb-40ac-9246-b9b6dbafe88d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a4c0adf2-9ffb-40ac-9246-b9b6dbafe88d
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetWebEventDeliverEnd class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetWebEventDeliverEnd class

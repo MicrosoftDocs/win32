@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryId method retrieves an identifier for the pin. This method implements the IPin::QueryId method.'
-ms.assetid: '3d83db3a-b919-454d-a91a-91f33a952a22'
-title: 'CTransformOutputPin.QueryId method'
+Description: The QueryId method retrieves an identifier for the pin. This method implements the IPinQueryId method.
+ms.assetid: 3d83db3a-b919-454d-a91a-91f33a952a22
+title: CTransformOutputPin.QueryId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.QueryId method
 
-The `QueryId` method retrieves an identifier for the pin. This method implements the [**IPin::QueryId**](ipin-queryid.md) method.
+The `QueryId` method retrieves an identifier for the pin. This method implements the [**IPin::QueryId**](/windows/win32/Strmif/nf-strmif-ipin-queryid?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryId(
-   LPWSTR *Id
+   LPWSTR *Id
 );
 ```
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +66,9 @@ The pin identifier is used for graph persistence. The pin identifier for this cl
 
 
 
- 
+ 
 
- 
+ 
 
 
 

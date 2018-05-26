@@ -1,14 +1,20 @@
 ---
 title: FilterListType Complex Type
 description: Defines a list of filters that an ETW controller can pass to your provider to further limit the events that it writes.
-ms.assetid: '27f7b150-1264-4a12-858e-b0b0dff5baa7'
-keywords: ["FilterListType complex type EventLog"]
+ms.assetid: 27f7b150-1264-4a12-858e-b0b0dff5baa7
+keywords:
+- FilterListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - FilterListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterListType Complex Type
@@ -47,14 +53,14 @@ An ETW controller is an application that calls the [**StartTrace**](https://msdn
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Smart Card Architecture
 description: Architecture of Microsoft smart card support.
-ms.assetid: 'bde43785-d0a9-4fb7-9eaa-a952abfa8662'
+ms.assetid: bde43785-d0a9-4fb7-9eaa-a952abfa8662
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Architecture

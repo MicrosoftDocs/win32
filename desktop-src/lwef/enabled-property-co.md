@@ -1,7 +1,12 @@
 ---
 title: Enabled Property
 description: Enabled Property
-ms.assetid: 'd9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431'
+ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabled Property
@@ -30,7 +35,7 @@ Returns or sets whether the **Command** is enabled in the specified character's 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -38,9 +43,9 @@ Returns or sets whether the **Command** is enabled in the specified character's 
 
 If the [**Enabled**](enabled-property.md) property is set to **True**, the [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) objects's caption appears as normal text in the character's pop-up menu when the client application is input-active. If the **Enabled** property is **False**, the caption appears as unavailable (disabled) text. A disabled **Command** is also not accessible for voice input.
 
- 
+ 
 
- 
+ 
 
 
 

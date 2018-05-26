@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteStateChange method determines whether a transition to the paused state is complete.'
-ms.assetid: '505a0b31-deaa-46be-91e6-f9bc8e47dd3a'
-title: 'CBaseRenderer.CompleteStateChange method'
+Description: The CompleteStateChange method determines whether a transition to the paused state is complete.
+ms.assetid: 505a0b31-deaa-46be-91e6-f9bc8e47dd3a
+title: CBaseRenderer.CompleteStateChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.CompleteStateChange method
@@ -13,7 +18,7 @@ The `CompleteStateChange` method determines whether a transition to the paused s
 
 ```C++
 virtual HRESULT CompleteStateChange(
-   FILTER_STATE OldState
+   FILTER_STATE OldState
 );
 ```
 
@@ -56,9 +61,9 @@ The [**CBaseRenderer::Pause**](cbaserenderer-pause.md) method calls this method 
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

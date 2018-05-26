@@ -1,8 +1,9 @@
 ---
 title: NM\_RCLICK (toolbar) notification code
 description: Sent by a toolbar control when the user clicks the toolbar with the right mouse button. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'e9d2d871-e922-444d-a76c-e73f249ed410'
-keywords: ["NM_RCLICK (toolbar) notification code Windows Controls"]
+ms.assetid: e9d2d871-e922-444d-a76c-e73f249ed410
+keywords:
+- NM_RCLICK (toolbar) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_RCLICK (toolbar) notification code
@@ -33,7 +39,7 @@ NM_RCLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMMOUSE**](nmmouse.md) structure that contains information about this notification code. If the mouse was clicked on a toolbar item, the **dwItemSpec** member contains the item identifier and the **dwItemData** member contains the item data. If the mouse was clicked on a separator or white space in the toolbar, the **dwItemSpec** member will contain -1.
+Pointer to an [**NMMOUSE**](/windows/win32/Commctrl/ns-commctrl-tagnmmouse?branch=master) structure that contains information about this notification code. If the mouse was clicked on a toolbar item, the **dwItemSpec** member contains the item identifier and the **dwItemData** member contains the item data. If the mouse was clicked on a separator or white space in the toolbar, the **dwItemSpec** member will contain -1.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Returns **FALSE** to allow the toolbar control to perform default processing of 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

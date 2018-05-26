@@ -1,14 +1,19 @@
-﻿---
-Description: 'Values are used by the dwOptions parameter of WlxLoggedOutSAS.'
-ms.assetid: 'a146427b-f3f1-4221-b2eb-ee7da451314a'
-title: 'WLX\_LOGON\_OPTION\_XXX'
+---
+Description: Values are used by the dwOptions parameter of WlxLoggedOutSAS.
+ms.assetid: a146427b-f3f1-4221-b2eb-ee7da451314a
+title: WLX\_LOGON\_OPTION\_XXX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLX\_LOGON\_OPTION\_XXX
 
 \[The WLX\_LOGON\_OPTION\_XXX constant is no longer available for use as of Windows Server 2008 and Windows Vista.\]
 
-The **WLX\_LOGON\_OPTION\_XXX** values are used by the *dwOptions* parameter of [**WlxLoggedOutSAS**](wlxloggedoutsas.md).
+The **WLX\_LOGON\_OPTION\_XXX** values are used by the *dwOptions* parameter of [**WlxLoggedOutSAS**](/windows/win32/Winwlx/nf-winwlx-wlxloggedoutsas?branch=master).
 
 > [!Note]  
 > GINA DLLs are ignored in Windows Vista.

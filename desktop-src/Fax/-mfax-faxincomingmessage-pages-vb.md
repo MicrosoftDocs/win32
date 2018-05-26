@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Pages property is a value that indicates the total number of pages in the inbound fax message.'
-ms.assetid: '06866296-378a-4c7f-bd60-531532664700'
-title: 'FaxIncomingMessage.Pages property'
+---
+Description: The Pages property is a value that indicates the total number of pages in the inbound fax message.
+ms.assetid: 06866296-378a-4c7f-bd60-531532664700
+title: FaxIncomingMessage.Pages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.Pages property
@@ -46,7 +51,7 @@ A **Long** that receives the total number of pages in the fax message.
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

@@ -1,11 +1,16 @@
 ---
-Description: 'Demonstrates how to use the IShellItemImageFactory interface to get the best possible image for an item.'
+Description: Demonstrates how to use the IShellItemImageFactory interface to get the best possible image for an item.
 title: Using Image Factory Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Image Factory Sample
 
-Demonstrates how to use the [**IShellItemImageFactory**](ishellitemimagefactory.md) interface to get the best possible image for an item.
+Demonstrates how to use the [**IShellItemImageFactory**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory?branch=master) interface to get the best possible image for an item.
 
 This topic contains the following sections.
 

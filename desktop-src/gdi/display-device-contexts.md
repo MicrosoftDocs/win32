@@ -1,12 +1,17 @@
 ---
-Description: 'An application obtains a display DC by calling the BeginPaint, GetDC, or GetDCEx function and identifying the window in which the corresponding output will appear.'
-ms.assetid: 'fc76abbf-68da-47f2-8145-4fad806297b4'
+Description: An application obtains a display DC by calling the BeginPaint, GetDC, or GetDCEx function and identifying the window in which the corresponding output will appear.
+ms.assetid: fc76abbf-68da-47f2-8145-4fad806297b4
 title: Display Device Contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Display Device Contexts
 
-An application obtains a display DC by calling the [**BeginPaint**](beginpaint.md), [**GetDC**](getdc.md), or [**GetDCEx**](getdcex.md) function and identifying the window in which the corresponding output will appear. Typically, an application obtains a display DC only when it must draw in the client area. However, one may obtain a [window device context](#window-device-contexts) by calling the [**GetWindowDC**](getwindowdc.md) function. When the application is finished drawing, it must release the DC by calling the [**EndPaint**](endpaint.md) or [**ReleaseDC**](releasedc.md) function.
+An application obtains a display DC by calling the [**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master), [**GetDC**](/windows/win32/Winuser/nf-winuser-getdc?branch=master), or [**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master) function and identifying the window in which the corresponding output will appear. Typically, an application obtains a display DC only when it must draw in the client area. However, one may obtain a [window device context](#window-device-contexts) by calling the [**GetWindowDC**](/windows/win32/Winuser/nf-winuser-getwindowdc?branch=master) function. When the application is finished drawing, it must release the DC by calling the [**EndPaint**](/windows/win32/Winuser/nf-winuser-endpaint?branch=master) or [**ReleaseDC**](/windows/win32/Winuser/nf-winuser-releasedc?branch=master) function.
 
 There are five types of DCs for video displays:
 
@@ -32,11 +37,11 @@ Because only a limited number of common device contexts exist, an application sh
 
 An application creates a private device context by first specifying the CS\_OWNDC window-class style when it initializes the **style** member of the [**WNDCLASS**](_win32_wndclass_str_cpp) structure and calls the [**RegisterClass**](_win32_registerclass_cpp) function. (For more information about window classes, see [Window Classes](_win32_window_classes_cpp).)
 
-After creating a window with the CS\_OWNDC style, an application can call the [**GetDC**](getdc.md), [**GetDCEx**](getdcex.md), or [**BeginPaint**](beginpaint.md) function once to obtain a handle identifying a private device context. The application can continue using this handle (and the associated DC) until it deletes the window created with this class. Any changes to graphic objects and their attributes, or graphic modes are retained by the system until the window is deleted.
+After creating a window with the CS\_OWNDC style, an application can call the [**GetDC**](/windows/win32/Winuser/nf-winuser-getdc?branch=master), [**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master), or [**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master) function once to obtain a handle identifying a private device context. The application can continue using this handle (and the associated DC) until it deletes the window created with this class. Any changes to graphic objects and their attributes, or graphic modes are retained by the system until the window is deleted.
 
 ## Window Device Contexts
 
-A *window device context* enables an application to draw anywhere in a window, including the nonclient area. Window device contexts are typically used by applications that process the [**WM\_NCPAINT**](wm-ncpaint.md) and [**WM\_NCACTIVATE**](_win32_wm_ncactivate_cpp) messages for windows with custom nonclient areas. Using a window device context is not recommended for any other purpose. For more information; see [**GetWindowDC**](getwindowdc.md).
+A *window device context* enables an application to draw anywhere in a window, including the nonclient area. Window device contexts are typically used by applications that process the [**WM\_NCPAINT**](wm-ncpaint.md) and [**WM\_NCACTIVATE**](_win32_wm_ncactivate_cpp) messages for windows with custom nonclient areas. Using a window device context is not recommended for any other purpose. For more information; see [**GetWindowDC**](/windows/win32/Winuser/nf-winuser-getwindowdc?branch=master).
 
 ## Parent Device Contexts
 

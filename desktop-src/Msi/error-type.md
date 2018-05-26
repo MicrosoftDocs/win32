@@ -1,7 +1,12 @@
 ---
-Description: 'The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.'
-ms.assetid: '5567ba71-c815-4434-962c-aa46cd171712'
-title: 'Error.Type property'
+Description: The read-only Type property returns one of the values of msmErrorType, indicating the type of error represented by this object.
+ms.assetid: 5567ba71-c815-4434-962c-aa46cd171712
+title: Error.Type property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.Type property
@@ -23,7 +28,7 @@ propVal = Error.Type
 
 ## C++
 
-See [**get\_Type Function**](imsmerror-get-type.md) function (Error Object).
+See [**get\_Type Function**](/windows/win32/Mergemod/?branch=master) function (Error Object).
 
 ## Requirements
 
@@ -37,9 +42,9 @@ See [**get\_Type Function**](imsmerror-get-type.md) function (Error Object).
 
 
 
- 
+ 
 
- 
+ 
 
 
 

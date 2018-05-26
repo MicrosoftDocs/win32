@@ -1,12 +1,17 @@
-﻿---
-Description: 'Used with the CryptAcquireContext and CryptSetProvider functions.'
-ms.assetid: '97e9a708-83b5-48b3-9d16-f7b54367dc4e'
+---
+Description: Used with the CryptAcquireContext and CryptSetProvider functions.
+ms.assetid: 97e9a708-83b5-48b3-9d16-f7b54367dc4e
 title: Cryptographic Provider Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptographic Provider Names
 
-The following [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) names are defined in Wincrypt.h. These constants are used with the [**CryptAcquireContext**](cryptacquirecontext.md) and [**CryptSetProvider**](cryptsetprovider.md) functions.
+The following [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) names are defined in Wincrypt.h. These constants are used with the [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) and [**CryptSetProvider**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetprovidera?branch=master) functions.
 
 
 

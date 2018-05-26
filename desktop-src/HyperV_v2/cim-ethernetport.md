@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an ethernet port.'
-ms.assetid: 'c9a148c2-cf02-466f-b8ca-b1bf616d75dc'
-title: 'CIM\_EthernetPort class'
+Description: Represents an ethernet port.
+ms.assetid: c9a148c2-cf02-466f-b8ca-b1bf616d75dc
+title: CIM\_EthernetPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_EthernetPort class
@@ -53,7 +58,7 @@ The capabilities of the ethernet port.
 > [!Note]  
 > If failover or load balancing capabilities are enabled, a [**CIM\_SpareGroup**](https://msdn.microsoft.com/library/aa388480) (failover) or [**CIM\_ExtraCapacityGroup**](https://msdn.microsoft.com/library/aa387268) (load balancing) object should also be defined to completely describe the capability.
 
- 
+ 
 
 <dt>
 
@@ -403,8 +408,8 @@ The mode that is enabled on the port. When set to 1 (Other), the **OtherPortType
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -418,9 +423,9 @@ The mode that is enabled on the port. When set to 1 (Other), the **OtherPortType
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

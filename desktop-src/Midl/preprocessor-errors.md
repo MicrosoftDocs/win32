@@ -2,13 +2,19 @@
 title: Preprocessor Errors
 description: MIDL error messages that are generated during preprocessing.
 ms.assetid: d6722182-518c-49f4-b1c3-855c9099b996
-keywords: ["errors MIDL , preprocessor errors"]
+keywords:
+- errors MIDL , preprocessor errors
 topic_type:
 - apiref
 api_name:
 - Preprocessor Errors
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preprocessor Errors
@@ -19,7 +25,7 @@ The following error messages are generated during preprocessing:
 
 | Return code                                                                                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="MIDL1000"></span><span id="midl1000"></span><dl> <dt>**MIDL1000**</dt> </dl> | <dl> <dt><span id="missing_source_file_name"></span><span id="MISSING_SOURCE_FILE_NAME"></span>missing source file name</dt> <dd> No input file has been specified in the MIDL compiler–command line.<br/> </dd> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <span id="MIDL1000"></span><span id="midl1000"></span><dl> <dt>**MIDL1000**</dt> </dl> | <dl> <dt><span id="missing_source_file_name"></span><span id="MISSING_SOURCE_FILE_NAME"></span>missing source file name</dt> <dd> No input file has been specified in the MIDL compiler command line.<br/> </dd> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="MIDL1001"></span><span id="midl1001"></span><dl> <dt>**MIDL1001**</dt> </dl> | <dl> <dt><span id="cannot_open_input_file"></span><span id="CANNOT_OPEN_INPUT_FILE"></span>cannot open input file</dt> <dd> The specified input file could not be opened.<br/> </dd> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | <span id="MIDL1002"></span><span id="midl1002"></span><dl> <dt>**MIDL1002**</dt> </dl> | <dl> <dt><span id="error_while_reading_input_file"></span><span id="ERROR_WHILE_READING_INPUT_FILE"></span>error while reading input file</dt> <dd> The system returned an error while reading the input file.<br/> </dd> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <span id="MIDL1003"></span><span id="midl1003"></span><dl> <dt>**MIDL1003**</dt> </dl> | <dl> <dt><span id="error_returned_by_the_C_preprocessor"></span><span id="error_returned_by_the_c_preprocessor"></span><span id="ERROR_RETURNED_BY_THE_C_PREPROCESSOR"></span>error returned by the C preprocessor</dt> <dd> The preprocessor returned an error. The error message is directed to the output stream.<br/> </dd> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -44,11 +50,11 @@ The following error messages are generated during preprocessing:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

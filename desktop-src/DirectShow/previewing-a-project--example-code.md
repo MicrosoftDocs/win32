@@ -1,7 +1,12 @@
 ---
-Description: 'Previewing a Project: Example Code'
-ms.assetid: '8a4af82a-5611-4c53-8de8-04eaefd51df9'
-title: 'Previewing a Project: Example Code'
+Description: Previewing a Project Example Code
+ms.assetid: 8a4af82a-5611-4c53-8de8-04eaefd51df9
+title: Previewing a Project Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previewing a Project: Example Code

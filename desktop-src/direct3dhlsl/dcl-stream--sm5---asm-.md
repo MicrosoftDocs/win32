@@ -1,7 +1,12 @@
 ---
 title: dcl\_stream (sm5 - asm)
 description: Declare a geometry shader output stream.
-ms.assetid: '0A8B8AB5-B7B0-46BB-91E8-B2E8E3D64B74'
+ms.assetid: 0A8B8AB5-B7B0-46BB-91E8-B2E8E3D64B74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_stream (sm5 - asm)
@@ -15,7 +20,7 @@ Declare a geometry shader output stream.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare a geometry shader output stream.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +71,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -75,9 +80,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Sets up shared memory communication for the tablet context.'
-ms.assetid: '63e6b271-d89a-4c91-9a15-9e41dcdfa363'
-title: 'ITabletContextP::UseNamedSharedMemoryCommunications method'
+Description: Sets up shared memory communication for the tablet context.
+ms.assetid: 63e6b271-d89a-4c91-9a15-9e41dcdfa363
+title: ITabletContextPUseNamedSharedMemoryCommunications method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletContextP::UseNamedSharedMemoryCommunications method
@@ -13,13 +18,13 @@ Sets up shared memory communication for the tablet context.
 
 ```C++
 HRESULT UseNamedSharedMemoryCommunications(
-  [in]  DWORD  pid,
-  [in]  LPCSTR pszCallerSid,
-  [in]  LPCSTR pszCallerIntegritySid,
-  [out] DWORD  *pdwEventMoreDataId,
-  [out] DWORD  *pdwEventClientReadyId,
-  [out] DWORD  *pdwMutexAccessId,
-  [out] DWORD  *pdwFileMappingId
+  [in]  DWORD  pid,
+  [in]  LPCSTR pszCallerSid,
+  [in]  LPCSTR pszCallerIntegritySid,
+  [out] DWORD  *pdwEventMoreDataId,
+  [out] DWORD  *pdwEventClientReadyId,
+  [out] DWORD  *pdwMutexAccessId,
+  [out] DWORD  *pdwFileMappingId
 );
 ```
 
@@ -121,7 +126,7 @@ In each definition, the %d section is replaced with the process ID, and the %u s
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -137,9 +142,9 @@ In each definition, the %d section is replaced with the process ID, and the %u s
 [**ITabletContextP**](itabletcontextp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

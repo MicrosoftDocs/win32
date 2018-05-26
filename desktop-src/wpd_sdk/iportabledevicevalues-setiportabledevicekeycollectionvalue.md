@@ -1,7 +1,12 @@
 ---
-Description: 'The SetIPortableDeviceKeyCollectionValue method adds a new SetIPortableDeviceKeyCollectionValue value (type VT\_UNKNOWN) or overwrites an existing one.'
-ms.assetid: 'f470cb89-e7a0-470d-83d1-eb643b062e45'
-title: 'IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue method'
+Description: The SetIPortableDeviceKeyCollectionValue method adds a new SetIPortableDeviceKeyCollectionValue value (type VT\_UNKNOWN) or overwrites an existing one.
+ms.assetid: f470cb89-e7a0-470d-83d1-eb643b062e45
+title: IPortableDeviceValuesSetIPortableDeviceKeyCollectionValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue method
@@ -13,8 +18,8 @@ The **SetIPortableDeviceKeyCollectionValue** method adds a new **SetIPortableDev
 
 ```C++
 HRESULT SetIPortableDeviceKeyCollectionValue(
-  [in] REFPROPERTYKEY               key,
-  [in] IPortableDeviceKeyCollection *pValue
+  [in] REFPROPERTYKEY               key,
+  [in] IPortableDeviceKeyCollection *pValue
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue**](iportabledevicevalues-getiportabledevicekeycollectionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

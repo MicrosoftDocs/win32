@@ -1,8 +1,24 @@
 ---
 title: Authoring Guidelines for MIDI Files
 description: Authoring Guidelines for MIDI Files
-ms.assetid: '57e3d260-d275-4b0c-9db0-d036dd12fdb8'
-keywords: ["Musical Instrument Digital Interface (MIDI),file authoring guidelines", "MIDI (Musical Instrument Digital Interface),file authoring guidelines", "creating MIDI files,file authoring guidelines", "standard MIDI patch assignments", "standard MIDI key assignments", "Musical Instrument Digital Interface (MIDI),standard patch assignments", "MIDI (Musical Instrument Digital Interface),standard patch assignments", "Musical Instrument Digital Interface (MIDI),standard key assignments", "MIDI (Musical Instrument Digital Interface),standard key assignments", "creating MIDI files,standard patch assignments", "creating MIDI files,standard key assignments"]
+ms.assetid: 57e3d260-d275-4b0c-9db0-d036dd12fdb8
+keywords:
+- Musical Instrument Digital Interface (MIDI),file authoring guidelines
+- MIDI (Musical Instrument Digital Interface),file authoring guidelines
+- creating MIDI files,file authoring guidelines
+- standard MIDI patch assignments
+- standard MIDI key assignments
+- Musical Instrument Digital Interface (MIDI),standard patch assignments
+- MIDI (Musical Instrument Digital Interface),standard patch assignments
+- Musical Instrument Digital Interface (MIDI),standard key assignments
+- MIDI (Musical Instrument Digital Interface),standard key assignments
+- creating MIDI files,standard patch assignments
+- creating MIDI files,standard key assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Guidelines for MIDI Files

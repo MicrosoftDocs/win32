@@ -4,17 +4,22 @@ description: Indicates the IPv6 interface identifier to be configured for the us
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a686f5d6-762b-4477-9fea-0b14288e8c6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a686f5d6-762b-4477-9fea-0b14288e8c6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-RADIUS-FramedInterfaceId attribute AD Schema", "msRADIUS-FramedInterfaceId attribute AD Schema"]
+keywords:
+- ms-RADIUS-FramedInterfaceId attribute AD Schema
+- msRADIUS-FramedInterfaceId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-RADIUS-FramedInterfaceId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-RADIUS-FramedInterfaceId attribute
@@ -38,9 +43,9 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

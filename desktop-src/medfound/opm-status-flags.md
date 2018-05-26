@@ -1,7 +1,12 @@
-﻿---
-Description: 'The flags in the following table specify the status of an Output Protection Manager (OPM) session.'
-ms.assetid: 'd6d85fd4-e735-4610-93e0-bb2b1782f11b'
+---
+Description: The flags in the following table specify the status of an Output Protection Manager (OPM) session.
+ms.assetid: d6d85fd4-e735-4610-93e0-bb2b1782f11b
 title: OPM Status Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Status Flags

@@ -1,8 +1,16 @@
 ---
 title: The Video Display
 description: The Video Display
-ms.assetid: '31d62791-bfa7-4a39-85df-b1214e7867c4'
-keywords: ["Windows Media Player Mobile skins,video", "video in skins,displays", "skins,video"]
+ms.assetid: 31d62791-bfa7-4a39-85df-b1214e7867c4
+keywords:
+- Windows Media Player Mobile skins,video
+- video in skins,displays
+- skins,video
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Video Display

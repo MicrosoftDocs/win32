@@ -1,21 +1,27 @@
 ---
 title: signal command
 description: The signal command identifies a specified position in the workspace by sending the application an MM\_MCISIGNAL message. Digital-video devices recognize this command. MCIAVI supports only one active signal at a time.
-ms.assetid: '32ca21a0-e2df-47f1-8e13-67c9d8f149db'
-keywords: ["signal command Windows Multimedia"]
+ms.assetid: 32ca21a0-e2df-47f1-8e13-67c9d8f149db
+keywords:
+- signal command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - signal
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # signal command
 
 The signal command identifies a specified position in the workspace by sending the application an [MM\_MCISIGNAL](mm-mcisignal.md) message. Digital-video devices recognize this command. MCIAVI supports only one active signal at a time.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -55,7 +61,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,8 +86,8 @@ The window handle used for notification of command completion messages is also u
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -98,9 +104,9 @@ The window handle used for notification of command completion messages is also u
 [MM\_MCISIGNAL](mm-mcisignal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

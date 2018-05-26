@@ -1,14 +1,22 @@
 ---
 title: Service.onAddChildComplete event
 description: The onAddChildComplete event occurs, and a callback handler is invoked, when a Service.AddChild operation has completed.
-ms.assetid: '8c87c5c5-df7e-483b-adec-a38156698f90'
-keywords: ["onAddChildComplete event WPD Automation", "onAddChildComplete event WPD Automation , Service object", "Service object WPD Automation , onAddChildComplete event"]
+ms.assetid: 8c87c5c5-df7e-483b-adec-a38156698f90
+keywords:
+- onAddChildComplete event WPD Automation
+- onAddChildComplete event WPD Automation , Service object
+- Service object WPD Automation , onAddChildComplete event
 topic_type:
 - apiref
 api_name:
 - Service.onAddChildComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onAddChildComplete event
@@ -78,8 +86,8 @@ Service.onAddChildComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ Service.onAddChildComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

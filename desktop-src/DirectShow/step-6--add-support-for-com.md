@@ -1,7 +1,12 @@
 ---
-Description: 'Step 6.'
-ms.assetid: '53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc'
-title: 'Step 6. Add Support for COM'
+Description: Step 6.
+ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
+title: Step 6. Add Support for COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 6. Add Support for COM
@@ -16,7 +21,7 @@ You do not have to implement [**IUnknown::AddRef**](com.iunknown_addref) or [**I
 
 ## QueryInterface
 
-All of the filter and pin classes implement [**IUnknown::QueryInterface**](com.iunknown_queryinterface) for any COM interfaces they inherit. For example, [**CTransformFilter**](ctransformfilter.md) inherits [**IBaseFilter**](ibasefilter.md) (through [**CBaseFilter**](cbasefilter.md)). If your filter does not expose any additional interfaces, you do not have to do anything else.
+All of the filter and pin classes implement [**IUnknown::QueryInterface**](com.iunknown_queryinterface) for any COM interfaces they inherit. For example, [**CTransformFilter**](ctransformfilter.md) inherits [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) (through [**CBaseFilter**](cbasefilter.md)). If your filter does not expose any additional interfaces, you do not have to do anything else.
 
 To expose additional interfaces, override the [**CUnknown::NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) method. For example, suppose your filter implements a custom interface named IMyCustomInterface. To expose this interface to clients, do the following:
 
@@ -114,7 +119,7 @@ STDAPI DllUnregisterServer()
 
 ## Filter Registry Entries
 
-The previous examples show how to register a filter's CLSID for COM. For many filters, this is sufficient. The client is then expected to create the filter using [**CoCreateInstance**](com.cocreateinstance) and add it to the filter graph by calling [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md). In some cases, however, you might want to provide additional information about the filter in the registry. This information does the following:
+The previous examples show how to register a filter's CLSID for COM. For many filters, this is sufficient. The client is then expected to create the filter using [**CoCreateInstance**](com.cocreateinstance) and add it to the filter graph by calling [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master). In some cases, however, you might want to provide additional information about the filter in the registry. This information does the following:
 
 -   Enables clients to discover the filter using the [Filter Mapper](filter-mapper.md) or the [System Device Enumerator](system-device-enumerator.md).
 -   Enables the Filter Graph Manager to discover the filter during automatic graph building.

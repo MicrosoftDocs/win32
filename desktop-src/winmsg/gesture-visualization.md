@@ -1,7 +1,12 @@
 ---
-Description: 'The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed gestures is detected.'
-ms.assetid: '76D3DFF4-7BB2-49A9-8251-0B5D9376B649'
+Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed gestures is detected.
+ms.assetid: 76D3DFF4-7BB2-49A9-8251-0B5D9376B649
 title: Gesture Visualization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gesture Visualization
@@ -10,7 +15,7 @@ The following constants are used by applications or UI frameworks to identify ho
 
 These constants are used with the **SPI\_GETGESTUREVISUALIZATION** and **SPI\_SETGESTUREVISUALIZATION** parameters and the [**SystemParametersInfo**](systemparametersinfo.md) function.
 
-**Note**  
+**Note**  
 
 For retrieving or setting pen visualization info, we recommend that you use the **SPI\_GETPENVISUALIZATION** and **SPI\_SETPENVISUALIZATION** parameters and the constants listed in [**Pen Visualization**](pen-visualization.md).
 
@@ -113,8 +118,8 @@ Specifies UI feedback for a right tap.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -135,9 +140,9 @@ Specifies UI feedback for a right tap.
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

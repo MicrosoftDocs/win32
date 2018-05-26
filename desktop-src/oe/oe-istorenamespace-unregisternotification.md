@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace UnregisterNotification method
 description: Unregisters a window from receiving WM\_FOLDERNOTIFY messages whenever folder operations are performed.
-ms.assetid: 'c77b7de3-b668-4526-a588-8da85805bf48'
-keywords: ["UnregisterNotification method Windows Mail (formerly Outlook Express)", "UnregisterNotification method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , UnregisterNotification method"]
+ms.assetid: c77b7de3-b668-4526-a588-8da85805bf48
+keywords:
+- UnregisterNotification method Windows Mail (formerly Outlook Express)
+- UnregisterNotification method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , UnregisterNotification method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::UnregisterNotification method
@@ -22,8 +30,8 @@ Unregisters a window from receiving **WM\_FOLDERNOTIFY** messages whenever folde
 
 ```C++
 HRESULT UnregisterNotification(
-  [in] DWORD dwReserved,
-  [in] HWND  hwnd
+  [in] DWORD dwReserved,
+  [in] HWND  hwnd
 );
 ```
 
@@ -66,7 +74,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +82,8 @@ Returns S\_OK if successful, or one of the following error values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -93,9 +101,9 @@ Returns S\_OK if successful, or one of the following error values.
 [**IStoreNamespace::RegisterNotification**](oe-istorenamespace-registernotification.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

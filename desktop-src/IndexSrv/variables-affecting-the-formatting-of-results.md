@@ -1,7 +1,12 @@
 ---
 title: Variables Affecting the Formatting of Results
 description: Variables Affecting the Formatting of Results
-ms.assetid: '8c6a9cf3-3022-45d3-9fe6-5e80a37eb956'
+ms.assetid: 8c6a9cf3-3022-45d3-9fe6-5e80a37eb956
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables Affecting the Formatting of Results

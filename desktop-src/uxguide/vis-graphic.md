@@ -1,7 +1,12 @@
 ---
 title: Graphic Elements
 description: Graphic elements show relationships, hierarchy, and emphasis visually. They include backgrounds, banners, glass, aggregators, separators, shadows, and handles.
-ms.assetid: 'f9e741e9-a72e-4bdb-bd95-8916c7cf344f'
+ms.assetid: f9e741e9-a72e-4bdb-bd95-8916c7cf344f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphic Elements
@@ -52,7 +57,7 @@ Graphic elements have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -92,7 +97,7 @@ Graphic elements have several usage patterns:
 
 -   **If a gradient is used, make sure that the text color has good contrast across the entire gradient.**
 -   **Always use a 16x16 pixel icon to draw attention to the banner.** Banners are too easy to overlook otherwise. For more guidelines and examples, see [Standard Icons](vis-std-icons.md).
--   **Use backgrounds and banners with caution.** While the intent of the background or banner may be to emphasize content, quite often the results are the opposite—a phenomenon known as "banner blindness."
+-   **Use backgrounds and banners with caution.** While the intent of the background or banner may be to emphasize content, quite often the results are the opposite a phenomenon known as "banner blindness."
 
 ### Glass
 
@@ -129,9 +134,9 @@ In these examples, resize pointers are shown on hover.
 
 -   **For accessibility and localization, don't use any text in graphics.** Make exceptions only to represent [branding](exper-branding.md) and text as an abstract concept.
 
- 
+ 
 
- 
+ 
 
 
 

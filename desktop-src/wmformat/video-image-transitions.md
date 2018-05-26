@@ -1,8 +1,21 @@
 ---
 title: Video Image Transitions
 description: Video Image Transitions
-ms.assetid: '201ddbfb-567b-4893-b754-569f1e7d8466'
-keywords: ["Windows Media Format SDK,video image transitions", "Advanced Systems Format (ASF),video image transitions", "ASF (Advanced Systems Format),video image transitions", "video image transitions", "Windows Media Video 9 Image v2 codec", "codecs,Windows Media Video 9 Image v2 codec", "video streams,Windows Media Video 9 Image v2 codec", "video streams,image transitions"]
+ms.assetid: 201ddbfb-567b-4893-b754-569f1e7d8466
+keywords:
+- Windows Media Format SDK,video image transitions
+- Advanced Systems Format (ASF),video image transitions
+- ASF (Advanced Systems Format),video image transitions
+- video image transitions
+- Windows Media Video 9 Image v2 codec
+- codecs,Windows Media Video 9 Image v2 codec
+- video streams,Windows Media Video 9 Image v2 codec
+- video streams,image transitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Image Transitions
@@ -46,7 +59,7 @@ Each transition is fully described in its own topic.
 [**Programming Reference**](programming-reference.md)
 </dt> <dt>
 
-[**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md)
+[**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master)
 </dt> </dl>
 
  

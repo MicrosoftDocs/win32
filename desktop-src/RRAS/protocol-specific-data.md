@@ -1,8 +1,10 @@
 ---
 title: PROTOCOL\_SPECIFIC\_DATA structure
 description: The PROTOCOL\_SPECIFIC\_DATA structure contains memory reserved for data specific to a particular routing protocol.
-ms.assetid: 'b6c3a342-4726-4f7b-9511-dbe1393faf98'
-keywords: ["PROTOCOL_SPECIFIC_DATA structure RAS", "PPROTOCOL_SPECIFIC_DATA structure pointer RAS"]
+ms.assetid: b6c3a342-4726-4f7b-9511-dbe1393faf98
+keywords:
+- PROTOCOL_SPECIFIC_DATA structure RAS
+- PPROTOCOL_SPECIFIC_DATA structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROTOCOL\_SPECIFIC\_DATA structure
@@ -48,8 +55,8 @@ Specifies an array of **DWORD** variables. This memory is reserved for data that
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -70,9 +77,9 @@ Specifies an array of **DWORD** variables. This memory is reserved for data that
 [**RTM\_IPX\_ROUTE**](rtm-ipx-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: DTM\_SETMCCOLOR message
 description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the DateTime\_SetMonthCalColor macro.
-ms.assetid: 'cee72c1d-58da-4ee5-850e-a615ec6ad079'
-keywords: ["DTM_SETMCCOLOR message Windows Controls"]
+ms.assetid: cee72c1d-58da-4ee5-850e-a615ec6ad079
+keywords:
+- DTM_SETMCCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_SETMCCOLOR message
 
-Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetMonthCalColor**](datetime-setmonthcalcolor.md) macro.
+Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetMonthCalColor**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalcolor?branch=master) macro.
 
 ## Parameters
 
@@ -39,7 +45,7 @@ A value of type **int** specifying which month calendar color to set. This value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,15 +70,15 @@ When visual styles are enabled, this message has no effect except when *wParam* 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

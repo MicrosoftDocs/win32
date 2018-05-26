@@ -1,7 +1,12 @@
 ---
 title: Setup
-description: Users don't enjoy installing software, so modern setup experiences need to be simple, efficient, and problem-free.
-ms.assetid: 'ed0265a6-4c39-4a1f-9493-e316a6519df7'
+description: Users dont enjoy installing software, so modern setup experiences need to be simple, efficient, and problem-free.
+ms.assetid: ed0265a6-4c39-4a1f-9493-e316a6519df7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setup
@@ -104,7 +109,7 @@ Because the installation phase might take a long time, this phase should be desi
 
 **Incorrect:**
 
-![screen shot of ã¢â‚¬ëœinstall auto-reporting?' dialog ](images/exper-setup-image3.png)
+![screen shot of  â‚¬ install auto-reporting?' dialog ](images/exper-setup-image3.png)
 
 In this example, the setup program interrupts progress to ask a question that should have been asked during the decision phase.
 

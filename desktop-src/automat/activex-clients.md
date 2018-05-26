@@ -1,7 +1,12 @@
 ---
 title: ActiveX Clients
 description: An ActiveX client is an application or programming tool that manipulates one or more ActiveX objects. The objects can exist in the same application or in another application.
-ms.assetid: '6f53fc16-ecfc-4dce-bd81-4e42d33a2322'
+ms.assetid: 6f53fc16-ecfc-4dce-bd81-4e42d33a2322
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveX Clients

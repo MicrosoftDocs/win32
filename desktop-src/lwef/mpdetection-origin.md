@@ -1,8 +1,10 @@
 ---
 title: MPDETECTION\_ORIGIN enumeration
 description: Detection origin.
-ms.assetid: '9FEE2FAD-3E44-4134-B968-53E971F6B092'
-keywords: ["MPDETECTION_ORIGIN enumeration Legacy Windows Environment Features", "PMPDETECTION_ORIGIN enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 9FEE2FAD-3E44-4134-B968-53E971F6B092
+keywords:
+- MPDETECTION_ORIGIN enumeration Legacy Windows Environment Features
+- PMPDETECTION_ORIGIN enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPDETECTION\_ORIGIN enumeration
@@ -22,12 +29,12 @@ Detection origin.
 
 ```C++
 typedef enum tagMPDETECTION_ORIGIN { 
-  MPDETECTION_ORIGIN_UNKNOWN        = 0,
-  MPDETECTION_ORIGIN_LOCAL_MACHINE  = 1 << 0,
-  MPDETECTION_ORIGIN_NETWORKSHARE   = 1 << 1,
-  MPDETECTION_ORIGIN_INTERNET       = 1 << 2,
-  MPDETECTION_ORIGIN_OUTBOUND       = 1 << 3,
-  MPDETECTION_ORIGIN_INBOUND        = 1 << 4
+  MPDETECTION_ORIGIN_UNKNOWN        = 0,
+  MPDETECTION_ORIGIN_LOCAL_MACHINE  = 1 << 0,
+  MPDETECTION_ORIGIN_NETWORKSHARE   = 1 << 1,
+  MPDETECTION_ORIGIN_INTERNET       = 1 << 2,
+  MPDETECTION_ORIGIN_OUTBOUND       = 1 << 3,
+  MPDETECTION_ORIGIN_INBOUND        = 1 << 4
 } MPDETECTION_ORIGIN, *PMPDETECTION_ORIGIN;
 ```
 
@@ -85,15 +92,15 @@ Threat detected on an inbound connection.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The following example locks the workstation using the LockWorkStation function. The system displays the Lock Workstation dialog box. The dialog box text says that the workstation is in use and has been locked by the user.'
-ms.assetid: '7cbf9a0a-dfab-42e6-9a71-bb240121f59f'
+Description: The following example locks the workstation using the LockWorkStation function. The system displays the Lock Workstation dialog box. The dialog box text says that the workstation is in use and has been locked by the user.
+ms.assetid: 7cbf9a0a-dfab-42e6-9a71-bb240121f59f
 title: How to Lock the Workstation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Lock the Workstation
 
-The following example locks the workstation using the [**LockWorkStation**](lockworkstation.md) function. The system displays the **Lock Workstation** dialog box. The dialog box text says that the workstation is in use and has been locked by the user.
+The following example locks the workstation using the [**LockWorkStation**](/windows/win32/Winuser/nf-winuser-lockworkstation?branch=master) function. The system displays the **Lock Workstation** dialog box. The dialog box text says that the workstation is in use and has been locked by the user.
 
 
 ```C++

@@ -2,13 +2,15 @@
 title: RemoteAccessRoutingDomainConfiguration class
 description: A Remote Access routing domain configuration.
 audience: developer
-ms.assetid: '5469f10c-34e1-43b6-924c-e399a523bef2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5469f10c-34e1-43b6-924c-e399a523bef2
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessRoutingDomainConfiguration class", "RemoteAccessRoutingDomainConfiguration class, described"]
+keywords:
+- RemoteAccessRoutingDomainConfiguration class
+- RemoteAccessRoutingDomainConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessRoutingDomainConfiguration class
@@ -35,8 +40,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class RemoteAccessRoutingDomainConfiguration
 {
   object RoutingDomainConfig;
-  uint8  Ipv4TransportInfo[];
-  uint8  Ipv6TransportInfo[];
+  uint8  Ipv4TransportInfo[];
+  uint8  Ipv6TransportInfo[];
 };
 ```
 
@@ -101,7 +106,7 @@ The configuration of the routing domain as an embedded object
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -115,9 +120,9 @@ The configuration of the routing domain as an embedded object
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

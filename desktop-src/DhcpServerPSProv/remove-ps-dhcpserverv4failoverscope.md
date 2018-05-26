@@ -4,13 +4,16 @@ description: Removes the specified scopes from the failover relationship.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13d3c83f-15b1-43b4-b793-3c5d3592e23e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 13d3c83f-15b1-43b4-b793-3c5d3592e23e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerv4FailoverScope class", "PS_DhcpServerv4FailoverScope class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerv4FailoverScope class
+- PS_DhcpServerv4FailoverScope class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerv4FailoverScope class
@@ -30,12 +36,12 @@ Removes the specified scopes from the failover relationship. For any specified s
 
 ```mof
 uint32 Remove(
-  [in]  string               ComputerName,
-  [in]  string               Name,
-  [in]  string               ScopeId[],
-  [in]  boolean              Force,
-  [in]  boolean              PassThru,
-  [out] DhcpServerv4Failover cmdletOutput
+  [in]  string               ComputerName,
+  [in]  string               Name,
+  [in]  string               ScopeId[],
+  [in]  boolean              Force,
+  [in]  boolean              PassThru,
+  [out] DhcpServerv4Failover cmdletOutput
 );
 ```
 
@@ -94,7 +100,7 @@ An embedded instance of the [**DhcpServerv4Failover**](dhcpserverv4failover.md) 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ An embedded instance of the [**DhcpServerv4Failover**](dhcpserverv4failover.md) 
 [**PS\_DhcpServerv4FailoverScope**](ps-dhcpserverv4failoverscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PDEV\_ADJUST\_GRAPHICS\_RESOLUTION structure specifies a graphics resolution value.'
-ms.assetid: 'd6cebb0d-87ca-4e40-8a87-9579a1026567'
-title: 'PDEV\_ADJUST\_GRAPHICS\_RESOLUTION structure'
+---
+Description: The PDEV\_ADJUST\_GRAPHICS\_RESOLUTION structure specifies a graphics resolution value.
+ms.assetid: d6cebb0d-87ca-4e40-8a87-9579a1026567
+title: PDEV\_ADJUST\_GRAPHICS\_RESOLUTION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDEV\_ADJUST\_GRAPHICS\_RESOLUTION structure

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a localized version of the device name.'
-ms.assetid: '67ebbca0-bdb2-4a6e-98d8-3d8d1029884f'
+Description: Specifies a localized version of the device name.
+ms.assetid: 67ebbca0-bdb2-4a6e-98d8-3d8d1029884f
 title: modelNameLS element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # modelNameLS element
@@ -47,14 +52,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

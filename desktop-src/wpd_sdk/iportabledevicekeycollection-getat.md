@@ -1,7 +1,12 @@
 ---
-Description: 'The GetAt method retrieves a PROPERTYKEY from the collection by index.'
-ms.assetid: '9a3c5c28-39b4-4d53-a8d7-0f5a0d4d89ad'
-title: 'IPortableDeviceKeyCollection::GetAt method'
+Description: The GetAt method retrieves a PROPERTYKEY from the collection by index.
+ms.assetid: 9a3c5c28-39b4-4d53-a8d7-0f5a0d4d89ad
+title: IPortableDeviceKeyCollectionGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceKeyCollection::GetAt method
@@ -13,8 +18,8 @@ The **GetAt** method retrieves a **PROPERTYKEY** from the collection by index.
 
 ```C++
 HRESULT GetAt(
-  [in]  const DWORD       dwIndex,
-  [out]       PROPERTYKEY *pKey
+  [in]  const DWORD       dwIndex,
+  [out]       PROPERTYKEY *pKey
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -82,9 +87,9 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 [Retrieving Supported Service Methods](retrieving-supported-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: When a client connects to the Windows Sockets service, the service 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '32f62fb9-41c6-4932-9b91-753174919707'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 32f62fb9-41c6-4932-9b91-753174919707
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["How a Windows Sockets Service Authenticates a Client AD"]
+keywords:
+- How a Windows Sockets Service Authenticates a Client AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How a Windows Sockets Service Authenticates a Client

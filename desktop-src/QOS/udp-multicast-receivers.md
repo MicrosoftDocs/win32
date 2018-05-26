@@ -1,7 +1,12 @@
 ---
 title: UDP Multicast Receivers
 description: UDP multicast receivers.
-ms.assetid: '894e36cd-89ee-4c86-835c-a8d85ca78231'
+ms.assetid: 894e36cd-89ee-4c86-835c-a8d85ca78231
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDP Multicast Receivers

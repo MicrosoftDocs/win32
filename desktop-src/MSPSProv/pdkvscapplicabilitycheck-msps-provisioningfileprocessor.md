@@ -4,13 +4,16 @@ description: Validates whether a Provisioning Data KeyFile (PDK) can be applied 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20e8eb88-fbde-44c4-b4f1-f72391ed2d6e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 20e8eb88-fbde-44c4-b4f1-f72391ed2d6e
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PdkVscApplicabilityCheck method", "PdkVscApplicabilityCheck method, Msps_ProvisioningFileProcessor class", "Msps_ProvisioningFileProcessor class, PdkVscApplicabilityCheck method"]
+keywords:
+- PdkVscApplicabilityCheck method
+- PdkVscApplicabilityCheck method, Msps_ProvisioningFileProcessor class
+- Msps_ProvisioningFileProcessor class, PdkVscApplicabilityCheck method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PdkVscApplicabilityCheck method of the Msps\_ProvisioningFileProcessor class
@@ -30,9 +36,9 @@ Validates whether a Provisioning Data KeyFile (PDK) can be applied to a volume r
 
 ```mof
 uint32 PdkVscApplicabilityCheck(
-  [in]  Msps_VSC Vsc,
-  [in]  Msps_PDK Pdk,
-  [out] boolean  Applicable
+  [in]  Msps_VSC Vsc,
+  [in]  Msps_PDK Pdk,
+  [out] boolean  Applicable
 );
 ```
 
@@ -70,7 +76,7 @@ True, if the PDK can be applied to a template disk of the supplied VSC.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ True, if the PDK can be applied to a template disk of the supplied VSC.
 [**Msps\_ProvisioningFileProcessor**](msps-provisioningfileprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

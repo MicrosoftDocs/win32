@@ -1,8 +1,9 @@
 ---
 title: DOSwarmStats structure
 description: Contains fields for download and upload statistics for a file.
-ms.assetid: '66B2498A-38E0-44E4-96C1-F778BD9AA593'
-keywords: ["DOSwarmStats structure"]
+ms.assetid: 66B2498A-38E0-44E4-96C1-F778BD9AA593
+keywords:
+- DOSwarmStats structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOSwarmStats structure
@@ -22,27 +28,27 @@ Contains fields for download and upload statistics for a file.
 
 ```C++
 typedef struct _DOSwarmStats {
-  LPWSTR       fileId;
-  LPWSTR       sourceURL;
-  UINT64       fileSize;
-  UINT64       totalBytesDownloaded;
-  UINT64       bytesFromLanPeers;
-  UINT64       bytesFromGroupPeers;
-  UINT64       bytesFromInternetPeers;
-  UINT64       bytesFromHttp;
-  UINT64       bytesFromDoinc;
-  UINT64       bytesToLanPeers;
-  UINT64       bytesToGroupPeers;
-  UINT64       bytesToInternetPeers;
-  UINT         httpConnectionCount;
-  UINT         doincConnectionCount;
-  UINT         lanConnectionCount;
-  UINT         groupConnectionCount;
-  UINT         internetConnectionCount;
-  UINT         downloadDuration;
+  LPWSTR       fileId;
+  LPWSTR       sourceURL;
+  UINT64       fileSize;
+  UINT64       totalBytesDownloaded;
+  UINT64       bytesFromLanPeers;
+  UINT64       bytesFromGroupPeers;
+  UINT64       bytesFromInternetPeers;
+  UINT64       bytesFromHttp;
+  UINT64       bytesFromDoinc;
+  UINT64       bytesToLanPeers;
+  UINT64       bytesToGroupPeers;
+  UINT64       bytesToInternetPeers;
+  UINT         httpConnectionCount;
+  UINT         doincConnectionCount;
+  UINT         lanConnectionCount;
+  UINT         groupConnectionCount;
+  UINT         internetConnectionCount;
+  UINT         downloadDuration;
   DownloadMode downloadMode;
-  SwarmStatus  status;
-  BOOL         isBackground;
+  SwarmStatus  status;
+  BOOL         isBackground;
 } DOSwarmStats;
 ```
 
@@ -205,15 +211,15 @@ True, if this is a background transfer.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

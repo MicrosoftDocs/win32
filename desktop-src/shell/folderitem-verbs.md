@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the item''s FolderItemVerbs object. This object is the collection of verbs that can be executed on the item.'
-ms.assetid: 'e31160cd-093a-45a6-a066-58120c44eb2c'
-title: 'FolderItem.Verbs method'
+---
+Description: Retrieves the items FolderItemVerbs object. This object is the collection of verbs that can be executed on the item.
+ms.assetid: e31160cd-093a-45a6-a066-58120c44eb2c
+title: FolderItem.Verbs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.Verbs method

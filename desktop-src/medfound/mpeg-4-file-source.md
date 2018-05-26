@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MPEG-4 file source parses MP4 and 3GPP files.'
-ms.assetid: 'e64c1554-9702-4cc0-98ad-8a33e04ed09d'
-title: 'MPEG-4 File Source'
+---
+Description: The MPEG-4 file source parses MP4 and 3GPP files.
+ms.assetid: e64c1554-9702-4cc0-98ad-8a33e04ed09d
+title: MPEG-4 File Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-4 File Source
@@ -175,7 +180,7 @@ If Platform Update Supplement for Windows Vista is installed, the MPEG-4 file s
 -   Files larger than 4 gigabytes (GB) are supported in Windows 8 MPEG-4 sink for non-fragmental MP4.
 -   Scrubbing has been optimized in Windows 8 MPEG-4 source.
 
-    To reduce latency, information for the two nearest key frames for a particular seek position are exposed through [**IMFSeekInfo::GetNearestKeyFrames**](imfseekinfo-getnearestkeyframes.md). Since the key frame does not have dependent frames, it presents the frame after decoding only one frame. Use [**IMFGetService::GetService**](imfgetservice-getservice.md) to obtain this interface through the media source, pipeline, or application.
+    To reduce latency, information for the two nearest key frames for a particular seek position are exposed through [**IMFSeekInfo::GetNearestKeyFrames**](/windows/win32/mfidl/nf-mfidl-imfseekinfo-getnearestkeyframes?branch=master). Since the key frame does not have dependent frames, it presents the frame after decoding only one frame. Use [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) to obtain this interface through the media source, pipeline, or application.
 
     Set rate to zero in MPEG-4 source. When the pipeline is in scrubbing mode, the rate is zero.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FeatureCost property of the Session object returns the total amount of disk space (in units of 512 bytes) required by the specified feature and its parent features (up to the root of the Feature table).'
-ms.assetid: '5df9912a-2722-41c8-991b-256a009e85df'
-title: 'Session.FeatureCost property'
+---
+Description: The FeatureCost property of the Session object returns the total amount of disk space (in units of 512 bytes) required by the specified feature and its parent features (up to the root of the Feature table).
+ms.assetid: 5df9912a-2722-41c8-991b-256a009e85df
+title: Session.FeatureCost property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.FeatureCost property

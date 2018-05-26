@@ -1,7 +1,12 @@
 ---
 Description: Declaring Filter Information
-ms.assetid: 'ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e'
+ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: Declaring Filter Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Declaring Filter Information
@@ -20,7 +25,7 @@ The first step is to declare the filter information, if needed. DirectShow defin
 
  
 
-These structures are nested. The **AMOVEIESETUP\_FILTER** structure has a pointer to an array of **AMOVIESETUP\_PIN** structures, and each of these has a pointer to an array of **AMOVEIESETUP\_MEDIATYPE** structures. Taken together, these structures provide enough information for the [**IFilterMapper2**](ifiltermapper2.md) interface to locate a filter. They are not a complete description of a filter. For example, if the filter creates multiple instances of the same pin, you should declare only one [**AMOVIESETUP\_PIN**](amoviesetup-pin.md) structure for that pin. Also, a filter is not required to support every combination of media types that it registers; nor is required to register every media type that it supports.
+These structures are nested. The **AMOVEIESETUP\_FILTER** structure has a pointer to an array of **AMOVIESETUP\_PIN** structures, and each of these has a pointer to an array of **AMOVEIESETUP\_MEDIATYPE** structures. Taken together, these structures provide enough information for the [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) interface to locate a filter. They are not a complete description of a filter. For example, if the filter creates multiple instances of the same pin, you should declare only one [**AMOVIESETUP\_PIN**](amoviesetup-pin.md) structure for that pin. Also, a filter is not required to support every combination of media types that it registers; nor is required to register every media type that it supports.
 
 Declare the set-up structures as global variables within your DLL. The following example shows a filter with one output pin:
 

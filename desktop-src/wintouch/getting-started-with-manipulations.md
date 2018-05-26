@@ -1,8 +1,17 @@
 ---
 title: Manipulations
 description: This section explains object manipulation for Windows Touch.
-ms.assetid: '7f905c36-7804-422c-8a60-a281e03c5e15'
-keywords: ["Windows Touch,manipulations", "manipulations,about", "manipulations,gesture differences", "gestures,manipulation differences"]
+ms.assetid: 7f905c36-7804-422c-8a60-a281e03c5e15
+keywords:
+- Windows Touch,manipulations
+- manipulations,about
+- manipulations,gesture differences
+- gestures,manipulation differences
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manipulations
@@ -19,7 +28,7 @@ The Manipulation APIs are used to simplify transformation operations on objects 
 
 | Section                                                                                            | Description                                                                                                                                          |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Adding Manipulation Support to Unmanaged Code](adding-manipulation-support-in-unmanaged-code.md) | Explains how to implement an event sink for the [**\_IManipulationEvents**](-imanipulationevents.md) interface and add event handlers to your code. |
+| [Adding Manipulation Support to Unmanaged Code](adding-manipulation-support-in-unmanaged-code.md) | Explains how to implement an event sink for the [**\_IManipulationEvents**](/windows/win32/manipulations/nn-manipulations-_imanipulationevents?branch=master) interface and add event handlers to your code. |
 | [Advanced Manipulations](advanced-manipulations.md)                                               | Explains how to perform complex manipulations.                                                                                                       |
 | [Single Finger Rotation](single-finger-rotation.md)                                               | Explains how to rotate an object by using a pivot point and the manipulation processor.                                                              |
 

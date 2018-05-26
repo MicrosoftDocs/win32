@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_SETTIME message
 description: The ICM\_DRAW\_SETTIME provides synchronization information to a rendering driver that handles the timing of drawing frames.
-ms.assetid: '211e8ecc-ef36-4598-aa1d-cb0a06e64f14'
-keywords: ["ICM_DRAW_SETTIME message Windows Multimedia"]
+ms.assetid: 211e8ecc-ef36-4598-aa1d-cb0a06e64f14
+keywords:
+- ICM_DRAW_SETTIME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_SETTIME message
 
-The **ICM\_DRAW\_SETTIME** provides synchronization information to a rendering driver that handles the timing of drawing frames. The synchronization information is the sample number of the frame to draw. You can send this message explicitly or by using the [**ICDrawSetTime**](icdrawsettime.md) macro.
+The **ICM\_DRAW\_SETTIME** provides synchronization information to a rendering driver that handles the timing of drawing frames. The synchronization information is the sample number of the frame to draw. You can send this message explicitly or by using the [**ICDrawSetTime**](/windows/win32/Vfw/nf-vfw-icdrawsettime?branch=master) macro.
 
 
 ```C++
@@ -53,8 +59,8 @@ Use this message when the hardware performs its own asynchronous decompression, 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ Use this message when the hardware performs its own asynchronous decompression, 
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

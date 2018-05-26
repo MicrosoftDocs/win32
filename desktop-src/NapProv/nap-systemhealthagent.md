@@ -1,7 +1,12 @@
 ---
-Description: 'Represents information on the NAP System Health Agent (SHA) which provides information about the registered SHAs on a Windows system.'
-ms.assetid: '9ad1451f-c56d-4324-9465-89fa62f6cd27'
-title: 'NAP\_SystemHealthAgent class'
+Description: Represents information on the NAP System Health Agent (SHA) which provides information about the registered SHAs on a Windows system.
+ms.assetid: 9ad1451f-c56d-4324-9465-89fa62f6cd27
+title: NAP\_SystemHealthAgent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP\_SystemHealthAgent class
@@ -15,16 +20,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class NAP_SystemHealthAgent
 {
-  uint32  id;
-  string  friendlyName;
-  string  description;
-  string  version;
-  string  vendorName;
-  string  infoClsid;
-  string  registrationDate;
+  uint32  id;
+  string  friendlyName;
+  string  description;
+  string  version;
+  string  vendorName;
+  string  infoClsid;
+  string  registrationDate;
   boolean isBound;
-  uint32  fixupState;
-  uint8   percentage;
+  uint32  fixupState;
+  uint8   percentage;
 };
 ```
 
@@ -179,8 +184,8 @@ The version number of the SHA.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                           |
 | Namespace<br/>                | Root\\NAP<br/>                                                                           |
 | MOF<br/>                      | <dl> <dt>Napclientschema.mof</dt> </dl> |
 
@@ -196,9 +201,9 @@ The version number of the SHA.
 [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

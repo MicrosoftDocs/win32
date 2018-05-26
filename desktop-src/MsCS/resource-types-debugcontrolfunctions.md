@@ -4,26 +4,31 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb524537-9262-466f-b56e-c6fb7e8ff746'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: bb524537-9262-466f-b56e-c6fb7e8ff746
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DebugControlFunctions Failover Cluster ,for resource types", "DebugControlFunctions Failover Cluster"]
+keywords:
+- DebugControlFunctions Failover Cluster ,for resource types
+- DebugControlFunctions Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DebugControlFunctions
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DebugControlFunctions
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:  **
+**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:  **
 
 Indicates whether the [Cluster service](cluster-service.md) should create a separate [Resource Monitor](resource-monitor.md) to use for debugging the control functions of a resource type. The following table summarizes the attributes of the **DebugControlFunctions** property.
 
@@ -33,14 +38,14 @@ Indicates whether the [Cluster service](cluster-service.md) should create a sepa
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ DebugControlFunctionsValue.dw = DebugControlFunctionsData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/>       |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/>       |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -78,12 +83,12 @@ DebugControlFunctionsValue.dw = DebugControlFunctionsData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

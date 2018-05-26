@@ -1,8 +1,11 @@
 ---
 title: IUIAutomationElement8 CachedHeadingLevel property
 description: Gets the cached heading level of the automation element.
-ms.assetid: '09D26DA8-DC15-48B3-A52B-FD7AE0FB3D61'
-keywords: ["CachedHeadingLevel property Windows Accessibility", "CachedHeadingLevel property Windows Accessibility , IUIAutomationElement8 interface", "IUIAutomationElement8 interface Windows Accessibility , CachedHeadingLevel property"]
+ms.assetid: 09D26DA8-DC15-48B3-A52B-FD7AE0FB3D61
+keywords:
+- CachedHeadingLevel property Windows Accessibility
+- CachedHeadingLevel property Windows Accessibility , IUIAutomationElement8 interface
+- IUIAutomationElement8 interface Windows Accessibility , CachedHeadingLevel property
 topic_type:
 - apiref
 api_name:
@@ -10,6 +13,11 @@ api_name:
 - IUIAutomationElement8.get_CachedHeadingLevel
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUIAutomationElement8::CachedHeadingLevel property

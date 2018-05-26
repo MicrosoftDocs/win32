@@ -2,13 +2,15 @@
 title: PS\_DnsServerResponseRateLimiting class
 description: DNS server response rate limiting.
 audience: developer
-ms.assetid: '66f7513b-4afd-4ab5-a2f3-8aca6d668475'
-ms.prod: 'windows-server-dev'
+ms.assetid: 66f7513b-4afd-4ab5-a2f3-8aca6d668475
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerResponseRateLimiting class", "PS_DnsServerResponseRateLimiting class, described"]
+keywords:
+- PS_DnsServerResponseRateLimiting class
+- PS_DnsServerResponseRateLimiting class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerResponseRateLimiting class
@@ -53,7 +58,7 @@ The **PS\_DnsServerResponseRateLimiting** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,16 +67,16 @@ The **PS\_DnsServerResponseRateLimiting** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

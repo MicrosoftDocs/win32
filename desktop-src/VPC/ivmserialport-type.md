@@ -1,8 +1,11 @@
 ---
 title: IVMSerialPort Type property
 description: Retrieves the type of the serial port.
-ms.assetid: '0ec9c9d7-9387-458e-befe-42d58c38df35'
-keywords: ["Type property Virtual PC", "Type property Virtual PC , IVMSerialPort interface", "IVMSerialPort interface Virtual PC , Type property"]
+ms.assetid: 0ec9c9d7-9387-458e-befe-42d58c38df35
+keywords:
+- Type property Virtual PC
+- Type property Virtual PC , IVMSerialPort interface
+- IVMSerialPort interface Virtual PC , Type property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort::Type property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the type of the serial port.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Type(
-  [out, retval] VMSerialPortType *portType
+  [out, retval] VMSerialPortType *portType
 );
 ```
 
@@ -56,9 +64,9 @@ The type of serial port. For a list of values, see [**VMSerialPortType**](vmseri
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMSerialPort is defined as 2ce4460d-1d3f-4458-bf8b-44084b816815<br/>              |
@@ -72,9 +80,9 @@ The type of serial port. For a list of values, see [**VMSerialPortType**](vmseri
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

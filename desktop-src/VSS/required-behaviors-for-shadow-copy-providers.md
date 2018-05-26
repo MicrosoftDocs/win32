@@ -1,7 +1,12 @@
 ---
-Description: 'A shadow copy provider must conform to guidelines to ensure requester compatibility.'
-ms.assetid: '49baeb89-1dc9-45c2-a532-071085a8e52f'
+Description: A shadow copy provider must conform to guidelines to ensure requester compatibility.
+ms.assetid: 49baeb89-1dc9-45c2-a532-071085a8e52f
 title: Required Behaviors for Shadow Copy Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Required Behaviors for Shadow Copy Providers
@@ -10,7 +15,7 @@ A shadow copy provider must conform to guidelines to ensure requester compatibil
 
 ## Automagic Resource Management
 
-It must be possible for the requester to simply add a volume to a shadow copy set. The requester can specify shadow copy attributes such as **VSS\_VOLSNAP\_ATTR\_TRANSPORTABLE**, **VSS\_VOLSNAP\_ATTR\_DIFFERENTIAL**, and/or **VSS\_VOLSNAP\_ATTR\_PLEX** in the [**\_VSS\_SNAPSHOT\_CONTEXT**](-vss-snapshot-context.md). The provider must honor those attributes. If it cannot honor those attributes, then it should indicate that the shadow copy set is unsupported by setting the \**pbIsSupported* in [**IVssHardwareSnapshotProvider::AreLunsSupported**](ivsshardwaresnapshotprovider-arelunssupported.md) to **FALSE**.
+It must be possible for the requester to simply add a volume to a shadow copy set. The requester can specify shadow copy attributes such as **VSS\_VOLSNAP\_ATTR\_TRANSPORTABLE**, **VSS\_VOLSNAP\_ATTR\_DIFFERENTIAL**, and/or **VSS\_VOLSNAP\_ATTR\_PLEX** in the [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/win32/Vss/ne-vss-_vss_snapshot_context?branch=master). The provider must honor those attributes. If it cannot honor those attributes, then it should indicate that the shadow copy set is unsupported by setting the \**pbIsSupported* in [**IVssHardwareSnapshotProvider::AreLunsSupported**](/windows/win32/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported?branch=master) to **FALSE**.
 
 The provider must never agree to support a shadow copy that it cannot create. If the requester does not specify a plex or differential attribute, the provider must include automagic logic for allocating subsystem space for the shadow copy and create the shadow copy using the most appropriate method. The hardware provider must not include a provider-specific API for managing required shadow copy properties.
 
@@ -38,17 +43,17 @@ All providers must be implemented as out-of-process COM components.
 
 ## Time-Critical Operations
 
-Long operations, such as syncing plexes, should be initiated in [**IVssHardwareSnapshotProvider::BeginPrepareSnapshot**](ivsshardwaresnapshotprovider-beginpreparesnapshot.md). This function should start the asynchronous preparation work and return quickly. [**IVssProviderCreateSnapshotSet::EndPrepareSnapshots**](ivssprovidercreatesnapshotset-endpreparesnapshots.md) serves as a "rendezvous" function—the provider can wait synchronously in this method for the completion of the preparation work that was started by **BeginPrepareSnapshot**.
+Long operations, such as syncing plexes, should be initiated in [**IVssHardwareSnapshotProvider::BeginPrepareSnapshot**](/windows/win32/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot?branch=master). This function should start the asynchronous preparation work and return quickly. [**IVssProviderCreateSnapshotSet::EndPrepareSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-endpreparesnapshots?branch=master) serves as a "rendezvous" function—the provider can wait synchronously in this method for the completion of the preparation work that was started by **BeginPrepareSnapshot**.
 
-Providers must not add delays in [**IVssProviderCreateSnapshotSet::PreCommitSnapshots**](ivssprovidercreatesnapshotset-precommitsnapshots.md), [**IVssProviderCreateSnapshotSet::CommitSnapshots**](ivssprovidercreatesnapshotset-commitsnapshots.md), or [**IVssProviderCreateSnapshotSet::PostCommitSnapshots**](ivssprovidercreatesnapshotset-postcommitsnapshots.md) as applications are frozen during these calls. **CommitSnapshots** should return within seconds, because this is called during the Flush and Hold window, and VSS Kernel Support will cancel the Flush and Hold if the release is not received within 10 seconds, which would cause VSS to fail the shadow copy creation process. If the provider takes more than a few seconds to complete this call, there is a high probability that the shadow copy creation will fail.
+Providers must not add delays in [**IVssProviderCreateSnapshotSet::PreCommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots?branch=master), [**IVssProviderCreateSnapshotSet::CommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots?branch=master), or [**IVssProviderCreateSnapshotSet::PostCommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots?branch=master) as applications are frozen during these calls. **CommitSnapshots** should return within seconds, because this is called during the Flush and Hold window, and VSS Kernel Support will cancel the Flush and Hold if the release is not received within 10 seconds, which would cause VSS to fail the shadow copy creation process. If the provider takes more than a few seconds to complete this call, there is a high probability that the shadow copy creation will fail.
 
 ## Careful I/O During CommitSnapshots
 
-Hardware providers should not need to do any I/O to the volumes involved in the shadow copy during [**CommitSnapshots**](ivssprovidercreatesnapshotset-commitsnapshots.md). If any I/O is required, providers must not initiate any I/O to an original volume while handling the **CommitSnapshots** method.
+Hardware providers should not need to do any I/O to the volumes involved in the shadow copy during [**CommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots?branch=master). If any I/O is required, providers must not initiate any I/O to an original volume while handling the **CommitSnapshots** method.
 
-During [**CommitSnapshots**](ivssprovidercreatesnapshotset-commitsnapshots.md), VSS Kernel Support drivers block I/O to the original volumes that are being shadow copied. If the provider uses synchronous I/O to a volume which is in the shadow copy set, then that I/O will be blocked and the shadow copy commit process will be deadlocked. The provider should not call any Win32 APIs during **CommitSnapshots** as they will have a high probability of causing I/O and a deadlock. The VSS Kernel Support timeout will break this deadlock after 10 seconds, but this will cause the shadow copy creation to fail.
+During [**CommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots?branch=master), VSS Kernel Support drivers block I/O to the original volumes that are being shadow copied. If the provider uses synchronous I/O to a volume which is in the shadow copy set, then that I/O will be blocked and the shadow copy commit process will be deadlocked. The provider should not call any Win32 APIs during **CommitSnapshots** as they will have a high probability of causing I/O and a deadlock. The VSS Kernel Support timeout will break this deadlock after 10 seconds, but this will cause the shadow copy creation to fail.
 
-If I/O must be attempted, it must be performed asynchronously. The I/O will not complete until after all providers have returned from their [**CommitSnapshots**](ivssprovidercreatesnapshotset-commitsnapshots.md) methods. In general, it is better to perform such operations in the [**PostCommitSnapshots**](ivssprovidercreatesnapshotset-postcommitsnapshots.md) call.
+If I/O must be attempted, it must be performed asynchronously. The I/O will not complete until after all providers have returned from their [**CommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots?branch=master) methods. In general, it is better to perform such operations in the [**PostCommitSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots?branch=master) call.
 
 ## Read/Write Shadow Copy LUNs
 

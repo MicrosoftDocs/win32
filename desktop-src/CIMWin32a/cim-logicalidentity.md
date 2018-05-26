@@ -4,13 +4,15 @@ description: CIM\_LogicalIdentity is an abstract and generic association, indica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff10263f-6b60-47e1-a2ea-c505911f41a0'
-ms.prod: 'windows-server-dev'
+ms.assetid: ff10263f-6b60-47e1-a2ea-c505911f41a0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_LogicalIdentity class", "CIM_LogicalIdentity class, described"]
+keywords:
+- CIM_LogicalIdentity class
+- CIM_LogicalIdentity class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalIdentity class
@@ -92,17 +97,17 @@ A [**CIM\_LogicalElement**](https://msdn.microsoft.com/library/aa387892) object 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

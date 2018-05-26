@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the number of passes that the encoder will use to encode the content.'
-ms.assetid: '71a21976-ed92-4cd6-946c-fa6268895531'
-title: 'MFPKEY\_PASSESUSED Property'
+---
+Description: Specifies the number of passes that the encoder will use to encode the content.
+ms.assetid: 71a21976-ed92-4cd6-946c-fa6268895531
+title: MFPKEY\_PASSESUSED Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_PASSESUSED Property

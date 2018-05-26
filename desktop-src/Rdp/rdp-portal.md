@@ -4,11 +4,16 @@ description: Windows Desktop Sharing provides remote desktop connection software
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b2e1af5-42b3-4018-96c9-5604e723ca41'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0b2e1af5-42b3-4018-96c9-5604e723ca41
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Windows Desktop Sharing RDP", "Windows Desktop Sharing RDP , home page"]
+keywords:
+- Windows Desktop Sharing RDP
+- Windows Desktop Sharing RDP , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Desktop Sharing

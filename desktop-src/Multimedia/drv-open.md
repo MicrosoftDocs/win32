@@ -1,8 +1,9 @@
 ---
 title: DRV\_OPEN message
 description: Directs the driver to open an new instance.
-ms.assetid: '6b5e21e3-dc29-4f0f-84cb-bd2d2e3c54e9'
-keywords: ["DRV_OPEN message Windows Multimedia"]
+ms.assetid: 6b5e21e3-dc29-4f0f-84cb-bd2d2e3c54e9
+keywords:
+- DRV_OPEN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_OPEN message
@@ -63,8 +69,8 @@ If the driver returns a nonzero value, the system uses that value as the driver 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ If the driver returns a nonzero value, the system uses that value as the driver 
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

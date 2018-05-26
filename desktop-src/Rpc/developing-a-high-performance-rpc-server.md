@@ -1,8 +1,14 @@
 ---
 title: Developing a High Performance RPC Server
 description: The information in this section applies to remote protocol sequences ncacn\_ip\_tcp, ncacn\_http, ncacn\_np, and to Windows 2000 and Windows XP.
-ms.assetid: '7b4239af-951b-4d1b-8ac3-224279f6929e'
-keywords: ["Remote Procedure Call RPC , best practices, developing a high performance server"]
+ms.assetid: 7b4239af-951b-4d1b-8ac3-224279f6929e
+keywords:
+- Remote Procedure Call RPC , best practices, developing a high performance server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a High Performance RPC Server

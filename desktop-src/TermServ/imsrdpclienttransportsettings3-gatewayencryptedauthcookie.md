@@ -4,11 +4,14 @@ description: The encrypted authentication cookie.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c9ab6667-327c-44f8-a10e-b048ea91980c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c9ab6667-327c-44f8-a10e-b048ea91980c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayEncryptedAuthCookie property Remote Desktop Services", "GatewayEncryptedAuthCookie property Remote Desktop Services , IMsRdpClientTransportSettings3 interface", "IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayEncryptedAuthCookie property"]
+keywords:
+- GatewayEncryptedAuthCookie property Remote Desktop Services
+- GatewayEncryptedAuthCookie property Remote Desktop Services , IMsRdpClientTransportSettings3 interface
+- IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayEncryptedAuthCookie property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings3::GatewayEncryptedAuthCookie property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayEncryptedAuthCookie(
-  [in]          BSTR bstrEncryptedAuthCookie
+  [in]          BSTR bstrEncryptedAuthCookie
 );
 
 HRESULT get_GatewayEncryptedAuthCookie(
-  [out, retval] BSTR *pbstrEncryptedAuthCookie
+  [out, retval] BSTR *pbstrEncryptedAuthCookie
 );
 ```
 
@@ -52,8 +58,8 @@ The new encrypted authentication cookie.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -69,9 +75,9 @@ The new encrypted authentication cookie.
 [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: To apply a style to one element in an HTML file
 description: To apply a style to one element in an HTML file
-ms.assetid: '6E526FA1-5458-4fac-A43B-9D5E4D2A64DD'
+ms.assetid: 6E526FA1-5458-4fac-A43B-9D5E4D2A64DD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To apply a style to one element in an HTML file

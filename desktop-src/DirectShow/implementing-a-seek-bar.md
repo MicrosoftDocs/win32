@@ -1,7 +1,12 @@
 ---
 Description: Implementing a Seek Bar
-ms.assetid: '384f0732-e0c5-4b1f-b590-195e0acf90e1'
+ms.assetid: 384f0732-e0c5-4b1f-b590-195e0acf90e1
 title: Implementing a Seek Bar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Seek Bar
@@ -36,7 +41,7 @@ hr = pGraph->QueryInterface(IID_IMediaSeeking, (void**)&amp;g_pSeek);
 
 
 
-To determine whether the file is seekable, call either the [**IMediaSeeking::CheckCapabilities**](imediaseeking-checkcapabilities.md) method or the [**IMediaSeeking::GetCapabilities**](imediaseeking-getcapabilities.md) method. These methods do almost the same thing, but their semantics are slightly different. The following example uses **CheckCapabilites**:
+To determine whether the file is seekable, call either the [**IMediaSeeking::CheckCapabilities**](/windows/win32/Strmif/nf-strmif-imediaseeking-checkcapabilities?branch=master) method or the [**IMediaSeeking::GetCapabilities**](/windows/win32/Strmif/nf-strmif-imediaseeking-getcapabilities?branch=master) method. These methods do almost the same thing, but their semantics are slightly different. The following example uses **CheckCapabilites**:
 
 
 ```C++
@@ -88,7 +93,7 @@ void StopTimer()
 
 
 
-Use the timer event to update the position of the trackbar. Call [**IMediaSeeking::GetCurrentPosition**](imediaseeking-getcurrentposition.md) to retrieve the currant playback position, and then calculate the position as a percentage of the file duration:
+Use the timer event to update the position of the trackbar. Call [**IMediaSeeking::GetCurrentPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getcurrentposition?branch=master) to retrieve the currant playback position, and then calculate the position as a percentage of the file duration:
 
 
 ```C++

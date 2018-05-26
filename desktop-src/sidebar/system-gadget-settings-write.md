@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Settings.write method
 description: Stores a value of unspecified type with an associated Settings key.
-ms.assetid: 'cbfb5a31-1d18-4f52-8156-553e8df78f75'
-keywords: ["write method Windows Sidebar", "write method Windows Sidebar , System.Gadget.Settings object", "System.Gadget.Settings object Windows Sidebar , write method"]
+ms.assetid: cbfb5a31-1d18-4f52-8156-553e8df78f75
+keywords:
+- write method Windows Sidebar
+- write method Windows Sidebar , System.Gadget.Settings object
+- System.Gadget.Settings object Windows Sidebar , write method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.write method
@@ -95,19 +103,19 @@ function SettingsClosing(event)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Corecrt\_io.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

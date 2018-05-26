@@ -1,7 +1,12 @@
 ---
 title: How to develop an OEM app that uses a custom file
 description: Learn how to develop an app that uses a custom file to pass info from the OEM to the app.
-ms.assetid: 'BCDB4B13-3644-44E4-9A70-04D8E90500EE'
+ms.assetid: BCDB4B13-3644-44E4-9A70-04D8E90500EE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to develop an OEM app that uses a custom file

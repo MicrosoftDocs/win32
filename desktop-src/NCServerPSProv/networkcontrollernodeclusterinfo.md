@@ -4,11 +4,13 @@ description: Contains information on a network controller node cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e2e1edd-bb8f-4d9f-b81d-d7e7b428c0e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 0e2e1edd-bb8f-4d9f-b81d-d7e7b428c0e7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NetworkControllerNodeClusterInfo class", "NetworkControllerNodeClusterInfo class, described"]
+keywords:
+- NetworkControllerNodeClusterInfo class
+- NetworkControllerNodeClusterInfo class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NetworkControllerNodeClusterInfo class
@@ -38,13 +43,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("NcServerPSProvider"), AMENDMENT]
 class NetworkControllerNodeClusterInfo
 {
-  string  Name;
-  string  Server;
-  string  samAccountName;
-  string  FaultDomain;
+  string  Name;
+  string  Server;
+  string  samAccountName;
+  string  FaultDomain;
   boolean IsSeedNode;
-  uint8   CertificateRawData[];
-  string  Status;
+  uint8   CertificateRawData[];
+  string  Status;
 };
 ```
 
@@ -207,16 +212,16 @@ The possible values are.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

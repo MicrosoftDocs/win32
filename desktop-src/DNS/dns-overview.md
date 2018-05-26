@@ -1,7 +1,12 @@
 ---
 title: DNS Overview
 description: DNS is an industry-standard service used to locate computers on an Internet Protocol (IP)-based network.
-ms.assetid: '98ecf24b-8bd5-4a75-a487-8af3080e8987'
+ms.assetid: 98ecf24b-8bd5-4a75-a487-8af3080e8987
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS Overview

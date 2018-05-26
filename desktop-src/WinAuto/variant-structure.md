@@ -1,12 +1,17 @@
 ---
 title: VARIANT Structure
 description: Most of the Microsoft Active Accessibility functions and the IAccessible properties and methods take a VARIANT structure as a parameter. Essentially, the VARIANT structure is a container for a large union that carries many types of data.
-ms.assetid: '774dfac8-e258-4266-b81e-072eb3961fb1'
+ms.assetid: 774dfac8-e258-4266-b81e-072eb3961fb1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VARIANT Structure
 
-Most of the Microsoft Active Accessibility functions and the [**IAccessible**](iaccessible.md) properties and methods take a [**VARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221627) structure as a parameter. Essentially, the **VARIANT** structure is a container for a large union that carries many types of data.
+Most of the Microsoft Active Accessibility functions and the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties and methods take a [**VARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221627) structure as a parameter. Essentially, the **VARIANT** structure is a container for a large union that carries many types of data.
 
 The value in the first member of the structure, **vt**, describes which of the union members is valid. Although the [**VARIANT**](https://msdn.microsoft.com/library/windows/desktop/ms221627) structure supports many different data types, Microsoft Active Accessibility uses only the following types.
 

@@ -1,8 +1,14 @@
 ---
 title: Scale effect
 description: Use this effect to scale an image up or down. The effect has six scaling modes nearest neighbor, linear, cubic, multi-sample linear, anisotropic, and high quality cubic.
-ms.assetid: '99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27'
-keywords: ["scale effect"]
+ms.assetid: 99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27
+keywords:
+- scale effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scale effect
@@ -34,7 +40,7 @@ This example shows the scale effect zooming in 2 times the input and cropping to
 
 
 
- 
+ 
 
 
 ```C++
@@ -99,7 +105,7 @@ This property affects only the high quality cubic interpolation mode.
 
 
 
- 
+ 
 
 ### Border modes
 
@@ -112,7 +118,7 @@ This property affects only the high quality cubic interpolation mode.
 
 
 
- 
+ 
 
 \`
 
@@ -131,17 +137,17 @@ This property affects only the high quality cubic interpolation mode.
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_SCALE\_INTERPOLATION\_MODE\_LINEAR.
 
- 
+ 
 
 > [!Note]  
 > Anisotropic mode generates mipmaps when scaling, however, if you set the **Cached** property to true on the effects that are input to this effect, the mipmaps won't be generated every time for sufficiently small images.
 
- 
+ 
 
 ## Output bitmap
 
@@ -165,25 +171,25 @@ For an example of this effect, download the [Direct2D interpolation modes sample
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

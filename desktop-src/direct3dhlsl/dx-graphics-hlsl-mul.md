@@ -1,14 +1,20 @@
 ---
 title: mul
 description: Multiplies x and y using matrix math. The inner dimension x-columns and y-rows must be equal.
-ms.assetid: '9945388a-d802-4dbe-bdb7-4eadb8751c39'
-keywords: ["mul HLSL"]
+ms.assetid: 9945388a-d802-4dbe-bdb7-4eadb8751c39
+keywords:
+- mul HLSL
 topic_type:
 - apiref
 api_name:
 - mul
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mul
@@ -22,7 +28,7 @@ Multiplies x and y using matrix math. The inner dimension x-columns and y-rows m
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Multiplies x and y using matrix math. The inner dimension x-columns and y-rows m
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -88,7 +94,7 @@ There are 9 overloaded versions of this function; the overloaded versions handle
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -102,7 +108,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -111,9 +117,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,20 @@
 ---
 title: About the Resource Object
 description: The Resource object has additional properties to facilitate reading data on the device and transferring it to a web service.
-ms.assetid: '219c7958-1683-4cd5-aaa4-65ebc0bb3a1b'
-keywords: ["WPD Automation,IStream", "WPD Automation,IXMLHttpRequest", "WPD Automation,Resource object", "Resource object", "IStream", "IXMLHttpRequest", "resources,Resource object"]
+ms.assetid: 219c7958-1683-4cd5-aaa4-65ebc0bb3a1b
+keywords:
+- WPD Automation,IStream
+- WPD Automation,IXMLHttpRequest
+- WPD Automation,Resource object
+- Resource object
+- IStream
+- IXMLHttpRequest
+- resources,Resource object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Resource Object

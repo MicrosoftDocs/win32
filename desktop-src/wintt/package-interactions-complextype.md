@@ -1,14 +1,20 @@
 ---
 title: Interactions Complex Type
 description: Defines the interactions that the troubleshooting pack uses.
-ms.assetid: '41d27d13-f481-4d98-a9ce-26804933fb08'
-keywords: ["Interactions complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 41d27d13-f481-4d98-a9ce-26804933fb08
+keywords:
+- Interactions complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Interactions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interactions Complex Type
@@ -67,8 +73,8 @@ Defines the interactions that the troubleshooting pack uses.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +88,9 @@ Defines the interactions that the troubleshooting pack uses.
 [**Interactions (LocalDiagnosticPackage) Element**](package-interactions-localdiagnosticpackage-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

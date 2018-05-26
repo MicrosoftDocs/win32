@@ -1,14 +1,20 @@
 ---
 title: WM/RadioStationName
 description: The WM/RadioStationName attribute contains the name of the radio station associated with the content.
-ms.assetid: '7050387a-a4c7-4d8e-8e39-bd78f6db8a67'
-keywords: ["WM/RadioStationName windows Media Format"]
+ms.assetid: 7050387a-a4c7-4d8e-8e39-bd78f6db8a67
+keywords:
+- WM/RadioStationName windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/RadioStationName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/RadioStationName

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'F2C13FEC-5537-4B0D-BFDB-E17A42A289CB'
+Description: .
+ms.assetid: F2C13FEC-5537-4B0D-BFDB-E17A42A289CB
 title: Design Updates that Impact Compatibility between Browsers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Design Updates that Impact Compatibility between Browsers

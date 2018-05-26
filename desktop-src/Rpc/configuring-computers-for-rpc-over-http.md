@@ -1,7 +1,12 @@
 ---
 title: Configuring Computers for RPC over HTTP
-description: To use HTTP as a transport protocol for RPC, RPC Proxy running within Internet Information Server (IIS) must be configured on the server program's network.
-ms.assetid: '5a67af51-924a-4f2b-b013-a4fd1bfaeddd'
+description: To use HTTP as a transport protocol for RPC, RPC Proxy running within Internet Information Server (IIS) must be configured on the server programs network.
+ms.assetid: 5a67af51-924a-4f2b-b013-a4fd1bfaeddd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Computers for RPC over HTTP

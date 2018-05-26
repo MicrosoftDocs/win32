@@ -4,11 +4,16 @@ description: You can create extensibility modules that plug into the File Classi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25175db9-9ed5-4189-b9fd-5c4102f1d287'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 25175db9-9ed5-4189-b9fd-5c4102f1d287
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , developing FCI pipeline modules", "FCI pipeline modules File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , developing FCI pipeline modules
+- FCI pipeline modules File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Developing FCI Pipeline Modules

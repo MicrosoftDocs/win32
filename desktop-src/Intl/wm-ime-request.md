@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an application to provide commands and request information. A window receives this message through its WindowProc function.'
-ms.assetid: 'c5e9f256-eed2-46cb-bb33-0e640a975f1f'
-title: 'WM\_IME\_REQUEST message'
+---
+Description: Sent to an application to provide commands and request information. A window receives this message through its WindowProc function.
+ms.assetid: c5e9f256-eed2-46cb-bb33-0e640a975f1f
+title: WM\_IME\_REQUEST message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_REQUEST message

@@ -1,19 +1,24 @@
 ---
-Description: 'The ConnectedTo method retrieves a pointer to the connected pin, if any. This method implements the IPin::ConnectedTo method.'
-ms.assetid: 'd8978c9a-e498-4411-a052-f3c2fca570ef'
-title: 'CBasePin.ConnectedTo method'
+Description: The ConnectedTo method retrieves a pointer to the connected pin, if any. This method implements the IPinConnectedTo method.
+ms.assetid: d8978c9a-e498-4411-a052-f3c2fca570ef
+title: CBasePin.ConnectedTo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.ConnectedTo method
 
-The `ConnectedTo` method retrieves a pointer to the connected pin, if any. This method implements the [**IPin::ConnectedTo**](ipin-connectedto.md) method.
+The `ConnectedTo` method retrieves a pointer to the connected pin, if any. This method implements the [**IPin::ConnectedTo**](/windows/win32/Strmif/nf-strmif-ipin-connectedto?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ConnectedTo(
-   IPin **ppPin
+   IPin **ppPin
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT ConnectedTo(
 *ppPin* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the [**IPin**](ipin.md) interface of the other pin.
+Address of a variable that receives a pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the other pin.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ If the method succeeds, the **IPin** interface that it returns has an outstandin
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

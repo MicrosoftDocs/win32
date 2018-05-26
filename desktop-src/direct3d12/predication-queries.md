@@ -1,7 +1,12 @@
 ---
 title: Predication queries
 description: The D3D12PredicationQueries sample demonstrates occlusion culling using DirectX 12 query heaps and predication. The walkthrough describes the additional code needed to extend the HelloConstBuffer sample to handle predication queries.
-ms.assetid: 'F61817BB-45BC-4977-BE4A-EE0FDAFBCB57'
+ms.assetid: F61817BB-45BC-4977-BE4A-EE0FDAFBCB57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predication queries
@@ -40,13 +45,13 @@ In the **LoadPipeline** method create a depth stencil descriptor heap.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>D3D12_DESCRIPTOR_HEAP_DESC</strong>](d3d12-descriptor-heap-desc.md)</td>
-<td><dl>[<strong>D3D12_DESCRIPTOR_HEAP_TYPE</strong>](d3d12-descriptor-heap-type.md)<br />
-[<strong>D3D12_DESCRIPTOR_HEAP_FLAG</strong>](d3d12-descriptor-heap-flags.md)<br />
+<td>[<strong>D3D12_DESCRIPTOR_HEAP_DESC</strong>](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_heap_desc?branch=master)</td>
+<td><dl>[<strong>D3D12_DESCRIPTOR_HEAP_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_descriptor_heap_type?branch=master)<br />
+[<strong>D3D12_DESCRIPTOR_HEAP_FLAG</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_descriptor_heap_flags?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>CreateDescriptorHeap</strong>](id3d12device-createdescriptorheap.md)</td>
+<td>[<strong>CreateDescriptorHeap</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createdescriptorheap?branch=master)</td>
 
 </tr>
 </tbody>
@@ -70,8 +75,8 @@ In the **LoadAssets** method create a heap for occlusion queries.
 
 | Call flow                                                 | Parameters                                                |
 |-----------------------------------------------------------|-----------------------------------------------------------|
-| [**D3D12\_QUERY\_HEAP\_DESC**](d3d12-query-heap-desc.md) | [**D3D12\_QUERY\_HEAP\_TYPE**](d3d12-query-heap-type.md) |
-| [**CreateQueryHeap**](id3d12device-createqueryheap.md)   |                                                           |
+| [**D3D12\_QUERY\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_query_heap_desc?branch=master) | [**D3D12\_QUERY\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_query_heap_type?branch=master) |
+| [**CreateQueryHeap**](/windows/win32/D3D12/nf-d3d12-id3d12device-createqueryheap?branch=master)   |                                                           |
 
 
 
@@ -107,10 +112,10 @@ This sample draws two quads and illustrates a binary occlusion query. The quad i
 <tr class="odd">
 <td>[<strong>CD3DX12_BLEND_DESC</strong>](cd3dx12-blend-desc.md)</td>
 <td><dl>[<strong>CD3DX12_DEFAULT</strong>](cd3dx12-default.md)<br />
-[<strong>D3D12_BLEND</strong>](d3d12-blend.md)<br />
-[<strong>D3D12_BLEND_OP</strong>](d3d12-blend-op.md)<br />
-[<strong>D3D12_LOGIC_OP</strong>](d3d12-logic-op.md)<br />
-[<strong>D3D12_COLOR_WRITE_ENABLE</strong>](d3d12-color-write-enable.md)<br />
+[<strong>D3D12_BLEND</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_blend?branch=master)<br />
+[<strong>D3D12_BLEND_OP</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_blend_op?branch=master)<br />
+[<strong>D3D12_LOGIC_OP</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_logic_op?branch=master)<br />
+[<strong>D3D12_COLOR_WRITE_ENABLE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_color_write_enable?branch=master)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -138,8 +143,8 @@ In the **LoadAssets** method, disable color writes and depth writes for the occl
 
 | Call flow                                                                            | Parameters                                                  |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md) | [**D3D12\_DEPTH\_WRITE\_MASK**](d3d12-depth-write-mask.md) |
-| [**CreateGraphicsPipelineState**](id3d12device-creategraphicspipelinestate.md)      |                                                             |
+| [**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master) | [**D3D12\_DEPTH\_WRITE\_MASK**](/windows/win32/D3D12/ne-d3d12-d3d12_depth_write_mask?branch=master) |
+| [**CreateGraphicsPipelineState**](/windows/win32/D3D12/nf-d3d12-id3d12device-creategraphicspipelinestate?branch=master)      |                                                             |
 
 
 
@@ -172,12 +177,12 @@ In the **LoadAssets** method a buffer needs to be created to store the results o
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateCommittedResource</strong>](id3d12device-createcommittedresource.md)</td>
+<td>[<strong>CreateCommittedResource</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master)</td>
 <td><dl>[<strong>CD3DX12_HEAP_PROPERTIES</strong>](cd3dx12-heap-properties.md)<br />
-[<strong>D3D12_HEAP_TYPE</strong>](d3d12-heap-type.md)<br />
-[<strong>D3D12_HEAP_FLAG</strong>](d3d12-heap-flags.md)<br />
+[<strong>D3D12_HEAP_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master)<br />
+[<strong>D3D12_HEAP_FLAG</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master)<br />
 [<strong>CD3DX12_RESOURCE_DESC</strong>](cd3dx12-resource-desc.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 </tbody>
@@ -244,74 +249,74 @@ Having done the setup, the main loop is updated in the **PopulateCommandLists** 
 <tbody>
 <tr class="odd">
 <td>[<strong>CD3DX12_GPU_DESCRIPTOR_HANDLE</strong>](cd3dx12-gpu-descriptor-handle.md)</td>
-<td>[<strong>GetGPUDescriptorHandleForHeapStart</strong>](id3d12descriptorheap-getgpudescriptorhandleforheapstart.md)</td>
+<td>[<strong>GetGPUDescriptorHandleForHeapStart</strong>](/windows/win32/D3D12/nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart?branch=master)</td>
 </tr>
 <tr class="even">
-<td>[<strong>IASetPrimitiveTopology</strong>](id3d12graphicscommandlist-iasetprimitivetopology.md)</td>
+<td>[<strong>IASetPrimitiveTopology</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology?branch=master)</td>
 <td>[<strong>D3D_PRIMITIVE_TOPOLOGY</strong>](https://msdn.microsoft.com/library/windows/desktop/ff728726)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>IASetVertexBuffers</strong>](id3d12graphicscommandlist-iasetvertexbuffers.md)</td>
+<td>[<strong>IASetVertexBuffers</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers?branch=master)</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>SetGraphicsRootDescriptorTable</strong>](id3d12graphicscommandlist-setgraphicsrootdescriptortable.md)</td>
+<td>[<strong>SetGraphicsRootDescriptorTable</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable?branch=master)</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>SetPredication</strong>](id3d12graphicscommandlist-setpredication.md)</td>
-<td>[<strong>D3D12_PREDICATION_OP</strong>](d3d12-predication-op.md)</td>
+<td>[<strong>SetPredication</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication?branch=master)</td>
+<td>[<strong>D3D12_PREDICATION_OP</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_predication_op?branch=master)</td>
 </tr>
 <tr class="even">
-<td>[<strong>DrawInstanced</strong>](id3d12graphicscommandlist-drawinstanced.md)</td>
+<td>[<strong>DrawInstanced</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master)</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>SetPredication</strong>](id3d12graphicscommandlist-setpredication.md)</td>
-<td>[<strong>D3D12_PREDICATION_OP</strong>](d3d12-predication-op.md)</td>
+<td>[<strong>SetPredication</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication?branch=master)</td>
+<td>[<strong>D3D12_PREDICATION_OP</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_predication_op?branch=master)</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetGraphicsRootDescriptorTable</strong>](id3d12graphicscommandlist-setgraphicsrootdescriptortable.md)</td>
+<td>[<strong>SetGraphicsRootDescriptorTable</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable?branch=master)</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>DrawInstanced</strong>](id3d12graphicscommandlist-drawinstanced.md)</td>
-
-</tr>
-<tr class="even">
-<td>[<strong>SetGraphicsRootDescriptorTable</strong>](id3d12graphicscommandlist-setgraphicsrootdescriptortable.md)</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>SetPipelineState</strong>](id3d12graphicscommandlist-setpipelinestate.md)</td>
+<td>[<strong>DrawInstanced</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master)</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>BeginQuery</strong>](id3d12graphicscommandlist-beginquery.md)</td>
-<td>[<strong>D3D12_QUERY_TYPE</strong>](d3d12-query-type.md)</td>
+<td>[<strong>SetGraphicsRootDescriptorTable</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootdescriptortable?branch=master)</td>
+
 </tr>
 <tr class="odd">
-<td>[<strong>DrawInstanced</strong>](id3d12graphicscommandlist-drawinstanced.md)</td>
+<td>[<strong>SetPipelineState</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate?branch=master)</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>EndQuery</strong>](id3d12graphicscommandlist-endquery.md)</td>
-<td>[<strong>D3D12_QUERY_TYPE</strong>](d3d12-query-type.md)</td>
+<td>[<strong>BeginQuery</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master)</td>
+<td>[<strong>D3D12_QUERY_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_query_type?branch=master)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ResourceBarrier</strong>](id3d12graphicscommandlist-resourcebarrier.md)</td>
+<td>[<strong>DrawInstanced</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master)</td>
+
+</tr>
+<tr class="even">
+<td>[<strong>EndQuery</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery?branch=master)</td>
+<td>[<strong>D3D12_QUERY_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_query_type?branch=master)</td>
+</tr>
+<tr class="odd">
+<td>[<strong>ResourceBarrier</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)</td>
 <td><dl>[<strong>CD3DX12_RESOURCE_BARRIER</strong>](cd3dx12-resource-barrier.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>ResolveQueryData</strong>](id3d12graphicscommandlist-resolvequerydata.md)</td>
-<td>[<strong>D3D12_QUERY_TYPE</strong>](d3d12-query-type.md)</td>
+<td>[<strong>ResolveQueryData</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata?branch=master)</td>
+<td>[<strong>D3D12_QUERY_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_query_type?branch=master)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ResourceBarrier</strong>](id3d12graphicscommandlist-resourcebarrier.md)</td>
+<td>[<strong>ResourceBarrier</strong>](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)</td>
 <td><dl>[<strong>CD3DX12_RESOURCE_BARRIER</strong>](cd3dx12-resource-barrier.md)<br />
-[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)<br />
+[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)<br />
 </dl></td>
 </tr>
 </tbody>

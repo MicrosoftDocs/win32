@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration indicates the units for a referenced section of data.'
-ms.assetid: 'd787d8b4-b622-4370-baf9-a2783133260f'
-title: 'WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration'
+Description: The WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration indicates the units for a referenced section of data.
+ms.assetid: d787d8b4-b622-4370-baf9-a2783133260f
+title: WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration
@@ -13,8 +18,8 @@ The **WPD\_SECTION\_DATA\_UNITS\_VALUES** enumeration indicates the units for a 
 
 ```C++
 typedef enum WPD_SECTION_DATA_UNITS_VALUES { 
-  WPD_SECTION_DATA_UNITS_BYTES         = 0,
-  WPD_SECTION_DATA_UNITS_MILLISECONDS  = 1
+  WPD_SECTION_DATA_UNITS_BYTES         = 0,
+  WPD_SECTION_DATA_UNITS_MILLISECONDS  = 1
 } ;
 ```
 
@@ -55,9 +60,9 @@ The given units are specified in milliseconds.
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

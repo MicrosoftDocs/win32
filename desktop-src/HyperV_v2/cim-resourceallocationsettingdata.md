@@ -1,7 +1,12 @@
 ---
-Description: 'Represents settings for an allocated resource that are outside the scope of the CIM class typically used to represent the resource itself.'
-ms.assetid: '6261bab9-aa51-479e-bd6a-43c4a9b294a6'
-title: 'CIM\_ResourceAllocationSettingData class'
+Description: Represents settings for an allocated resource that are outside the scope of the CIM class typically used to represent the resource itself.
+ms.assetid: 6261bab9-aa51-479e-bd6a-43c4a9b294a6
+title: CIM\_ResourceAllocationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourceAllocationSettingData class
@@ -14,25 +19,25 @@ Represents settings for an allocated resource that are outside the scope of the 
 [Abstract, Version("2.24.0"), UMLPackagePath("CIM::Core::Resource"), AMENDMENT]
 class CIM_ResourceAllocationSettingData : CIM_SettingData
 {
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
 };
 ```
 
@@ -675,8 +680,8 @@ The relative priority for this allocation in relation to other allocations from 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -690,9 +695,9 @@ The relative priority for this allocation in relation to other allocations from 
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

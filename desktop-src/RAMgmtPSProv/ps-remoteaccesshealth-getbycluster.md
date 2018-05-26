@@ -2,13 +2,16 @@
 title: GetByCluster method of the PS\_RemoteAccessHealth class
 description: This cmdlet is used to obtain the current health of a Remote Access deployment.
 audience: developer
-ms.assetid: 'dda2f546-60f1-40fa-979a-e2752abe1819'
-ms.prod: 'windows-server-dev'
+ms.assetid: dda2f546-60f1-40fa-979a-e2752abe1819
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByCluster method", "GetByCluster method, PS_RemoteAccessHealth class", "PS_RemoteAccessHealth class, GetByCluster method"]
+keywords:
+- GetByCluster method
+- GetByCluster method, PS_RemoteAccessHealth class
+- PS_RemoteAccessHealth class, GetByCluster method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByCluster method of the PS\_RemoteAccessHealth class
@@ -34,10 +40,10 @@ This cmdlet is used to obtain the current health of a Remote Access deployment.
 
 ```mof
 uint32 GetByCluster(
-  [in]  string                    ComputerName,
-  [in]  boolean                   Refresh,
-  [in]  boolean                   Cluster,
-  [out] RemoteAccessHealthMonitor cmdletOutput[]
+  [in]  string                    ComputerName,
+  [in]  boolean                   Refresh,
+  [in]  boolean                   Cluster,
+  [out] RemoteAccessHealthMonitor cmdletOutput[]
 );
 ```
 
@@ -100,7 +106,7 @@ Objects consisting of the following properties for cluster, server and component
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ Objects consisting of the following properties for cluster, server and component
 [**PS\_RemoteAccessHealth**](ps-remoteaccesshealth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

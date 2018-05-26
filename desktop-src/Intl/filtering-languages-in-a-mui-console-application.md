@@ -1,7 +1,12 @@
 ---
-Description: 'A MUI console application can support either system settings or application-specific settings for its user interface languages. This topic discusses the filtering of languages for this type of application.'
-ms.assetid: '6d3c491f-3f5e-4592-aada-49b8b415b497'
+Description: A MUI console application can support either system settings or application-specific settings for its user interface languages. This topic discusses the filtering of languages for this type of application.
+ms.assetid: 6d3c491f-3f5e-4592-aada-49b8b415b497
 title: Filtering Languages in a MUI Console Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Languages in a MUI Console Application
@@ -23,7 +28,7 @@ These console-related limitations reduce the number of user interface languages 
 
 ## Set the Language for Console Output
 
-On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](setthreadpreferreduilanguages.md). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](intl.SetThreadUILanguage) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
+On Windows Vista and later, a console application sets the language to support the console display by calling [**SetThreadPreferredUILanguages**](/windows/win32/Winnls/nf-winnls-setthreadpreferreduilanguages?branch=master). In this call, the application passes MUI\_CONSOLE\_FILTER in the *dwFlags* parameter and **NULL** for *pwszLanguagesBuffer*. An alternative is to call [**SetThreadUILanguage**](intl.SetThreadUILanguage) with a language identifier of 0. This setting causes the function to select the language that best supports the console display.
 
 On Windows XP, the application can only set the language for console output by calling [**SetThreadUILanguage**](intl.SetThreadUILanguage) with a language identifier of 0.
 

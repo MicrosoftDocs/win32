@@ -1,8 +1,9 @@
 ---
 title: LB\_ITEMFROMPOINT message
 description: Gets the zero-based index of the item nearest the specified point in a list box.
-ms.assetid: '5739eccb-e708-4ddb-ac97-d3e6c6120842'
-keywords: ["LB_ITEMFROMPOINT message Windows Controls"]
+ms.assetid: 5739eccb-e708-4ddb-ac97-d3e6c6120842
+keywords:
+- LB_ITEMFROMPOINT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_ITEMFROMPOINT message
@@ -47,8 +53,8 @@ The return value contains the index of the nearest item in the [**LOWORD**](http
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The return value contains the index of the nearest item in the [**LOWORD**](http
 [**MAKELPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632661)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

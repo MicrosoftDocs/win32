@@ -1,7 +1,7 @@
 ---
 title: Windows Event Log Error Constants
 description: The following are the error codes that Windows Event Log defines.
-ms.assetid: '889ea4ae-dede-45d5-9293-cec85d81f010'
+ms.assetid: 889ea4ae-dede-45d5-9293-cec85d81f010
 topic_type:
 - apiref
 api_name:
@@ -47,6 +47,11 @@ api_location:
 - WinError.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Event Log Error Constants
@@ -154,7 +159,7 @@ The specified channel cannot be found. Check the channel configuration.
 
 
 
-The specified XML text was not well-formed. For more information, call the [**EvtGetExtendedStatus**](evtgetextendedstatus.md) function.
+The specified XML text was not well-formed. For more information, call the [**EvtGetExtendedStatus**](/windows/win32/WinEvt/nf-winevt-evtgetextendedstatus?branch=master) function.
 
 
 </dt> </dl> </dd> <dt>
@@ -555,15 +560,15 @@ Attempted to create a numeric type that is outside of its valid range.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>WinError.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

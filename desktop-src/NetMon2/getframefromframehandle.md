@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameFromFrameHandle function returns a pointer to a frame from a frame handle.'
-ms.assetid: '790fe5fe-a857-4947-a471-d0538c0f0d61'
+Description: The GetFrameFromFrameHandle function returns a pointer to a frame from a frame handle.
+ms.assetid: 790fe5fe-a857-4947-a471-d0538c0f0d61
 title: GetFrameFromFrameHandle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameFromFrameHandle function
@@ -13,7 +18,7 @@ The **GetFrameFromFrameHandle** function returns a pointer to a frame from a fra
 
 ```C++
 ULPFRAME WINAPI GetFrameFromFrameHandle(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -63,17 +68,17 @@ The **GetFrameFromFrameHandle** function retrieves data that cannot be retrieved
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

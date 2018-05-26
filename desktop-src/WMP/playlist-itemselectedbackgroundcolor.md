@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemSelectedBackgroundColor
 description: The itemSelectedBackgroundColor attribute specifies or retrieves a value indicating the background color of a selected item in the playlist.
-ms.assetid: 'd4668cd6-1e2c-4ecb-8040-25dc474b27f5'
-keywords: ["PLAYLIST.itemSelectedBackgroundColor Windows Media Player"]
+ms.assetid: d4668cd6-1e2c-4ecb-8040-25dc474b27f5
+keywords:
+- PLAYLIST.itemSelectedBackgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemSelectedBackgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemSelectedBackgroundColor
@@ -44,9 +50,9 @@ This attribute is a read/write **String** representing a color. The default valu
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

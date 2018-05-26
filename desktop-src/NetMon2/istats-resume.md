@@ -1,7 +1,12 @@
 ---
-Description: 'The Resume method restarts a paused capture.'
-ms.assetid: '128e38c4-7459-4376-a3d7-2c6944fcf535'
-title: 'IStats::Resume method'
+Description: The Resume method restarts a paused capture.
+ms.assetid: 128e38c4-7459-4376-a3d7-2c6944fcf535
+title: IStatsResume method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::Resume method
@@ -38,7 +43,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,8 +59,8 @@ To stop the capture, call [IStats::Stop](istats-stop.md).
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -77,9 +82,9 @@ To stop the capture, call [IStats::Stop](istats-stop.md).
 [IStats::Stop](istats-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

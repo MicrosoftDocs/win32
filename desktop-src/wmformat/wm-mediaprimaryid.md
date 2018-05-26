@@ -1,14 +1,20 @@
 ---
 title: WM/MediaClassPrimaryID
 description: The WM/MediaClassPrimaryID attribute contains the GUID of the primary media class.
-ms.assetid: '1d01e273-e6ec-49f1-90af-5c2ae171b199'
-keywords: ["WM/MediaClassPrimaryID windows Media Format"]
+ms.assetid: 1d01e273-e6ec-49f1-90af-5c2ae171b199
+keywords:
+- WM/MediaClassPrimaryID windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaClassPrimaryID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaClassPrimaryID

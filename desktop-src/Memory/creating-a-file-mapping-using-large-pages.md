@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the CreateFileMapping function with the SEC\_LARGE\_PAGES flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.'
-ms.assetid: 'be2cdcbc-03e8-407d-8ae2-569f8fd8cba8'
+Description: The following example uses the CreateFileMapping function with the SEC\_LARGE\_PAGES flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.
+ms.assetid: be2cdcbc-03e8-407d-8ae2-569f8fd8cba8
 title: Creating a File Mapping Using Large Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a File Mapping Using Large Pages
 
-The following example uses the [**CreateFileMapping**](createfilemapping.md) function with the **SEC\_LARGE\_PAGES** flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.
+The following example uses the [**CreateFileMapping**](/windows/win32/WinBase/nf-winbase-createfilemappinga?branch=master) function with the **SEC\_LARGE\_PAGES** flag to use large pages. It requires Windows Server 2003 with Service Pack 1 (SP1) or later.
 
 The buffer must be large enough to contain the minimum size of a large page. This value is obtained using the [**GetLargePageMinimum**](getlargepageminimum.md) function. This feature also requires the "SeLockMemoryPrivilege" privilege.
 

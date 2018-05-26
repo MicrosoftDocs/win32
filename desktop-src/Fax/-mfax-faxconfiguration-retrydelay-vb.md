@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.'
-ms.assetid: 'e6bb8e86-41bb-46a3-9a8a-a4b218439467'
-title: 'FaxConfiguration.RetryDelay property'
+---
+Description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.
+ms.assetid: e6bb8e86-41bb-46a3-9a8a-a4b218439467
+title: FaxConfiguration.RetryDelay property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.RetryDelay property

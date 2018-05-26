@@ -1,8 +1,10 @@
 ---
 title: MDM\_RemoteAppUserCookie class
 description: Retrieves information that a device needs to subscribe to a remote application server.
-ms.assetid: '4b185a3a-6f4d-467a-8f75-19d874d9b338'
-keywords: ["MDM_RemoteAppUserCookie class MDM App Management", "MDM_RemoteAppUserCookie class MDM App Management , described"]
+ms.assetid: 4b185a3a-6f4d-467a-8f75-19d874d9b338
+keywords:
+- MDM_RemoteAppUserCookie class MDM App Management
+- MDM_RemoteAppUserCookie class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_RemoteAppUserCookie class
@@ -96,7 +103,7 @@ Gets a key that specifies the URL of the remote application server.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -111,9 +118,9 @@ Gets a key that specifies the URL of the remote application server.
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Product Identifiers
 description: Product Identifiers
-ms.assetid: 'ab68ffd2-208f-445b-9f5c-37159edb4d4b'
-keywords: ["Windows multimedia,product identifiers", "multimedia,product identifiers", "product identifiers", "multimedia product identifiers", "multimedia companies"]
+ms.assetid: ab68ffd2-208f-445b-9f5c-37159edb4d4b
+keywords:
+- Windows multimedia,product identifiers
+- multimedia,product identifiers
+- product identifiers
+- multimedia product identifiers
+- multimedia companies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product Identifiers

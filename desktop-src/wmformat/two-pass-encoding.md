@@ -1,8 +1,19 @@
 ---
 title: Two-Pass Encoding
 description: Two-Pass Encoding
-ms.assetid: '354cd0a5-9a64-4171-9604-694e60b382ad'
-keywords: ["Windows Media Format SDK,two-pass encoding", "Windows Media Format SDK,2-pass encoding", "codecs,two-pass encoding", "codecs,2-pass encoding", "two-pass encoding,about", "2-pass encoding,about"]
+ms.assetid: 354cd0a5-9a64-4171-9604-694e60b382ad
+keywords:
+- Windows Media Format SDK,two-pass encoding
+- Windows Media Format SDK,2-pass encoding
+- codecs,two-pass encoding
+- codecs,2-pass encoding
+- two-pass encoding,about
+- 2-pass encoding,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Two-Pass Encoding

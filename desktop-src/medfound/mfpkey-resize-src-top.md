@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the top edge of the source rectangle, in pixels.'
-ms.assetid: '12791b9f-4b00-4697-ae3c-8fc069568c82'
-title: 'MFPKEY\_RESIZE\_SRC\_TOP Property'
+---
+Description: Specifies the top edge of the source rectangle, in pixels.
+ms.assetid: 12791b9f-4b00-4697-ae3c-8fc069568c82
+title: MFPKEY\_RESIZE\_SRC\_TOP Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_SRC\_TOP Property

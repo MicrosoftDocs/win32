@@ -1,7 +1,12 @@
 ---
 title: How to Create a Multiline Edit Control
 description: This topic demonstrates how to implement a simple word processor by adding a multiline edit control to the client area of a window.
-ms.assetid: 'B955CC42-F89F-48EB-A19A-ADA6E5273EF6'
+ms.assetid: B955CC42-F89F-48EB-A19A-ADA6E5273EF6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Multiline Edit Control

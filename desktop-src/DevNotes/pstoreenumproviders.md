@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an enumerator object that can be used in turn to enumerate the protected storage providers that are currently installed on the system.'
-ms.assetid: 'df162086-caeb-427f-9db8-9722855cfbbf'
+---
+Description: Gets an enumerator object that can be used in turn to enumerate the protected storage providers that are currently installed on the system.
+ms.assetid: df162086-caeb-427f-9db8-9722855cfbbf
 title: PStoreEnumProviders function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PStoreEnumProviders function

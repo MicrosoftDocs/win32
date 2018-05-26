@@ -1,14 +1,19 @@
 ---
 Description: Implementing IWICBitmapDecoder
-ms.assetid: '9e316bdd-803a-47af-b004-7675478eb829'
+ms.assetid: 9e316bdd-803a-47af-b004-7675478eb829
 title: Implementing IWICBitmapDecoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapDecoder
 
 ## IWICBitmapDecoder
 
-When an application requests a decoder, the first point of interaction with the codec is through the [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) interface. This is the container-level interface that provides access to the top-level properties of the container and, most importantly, the frames it contains. This is the primary interface on your container-level decoder class.
+When an application requests a decoder, the first point of interaction with the codec is through the [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) interface. This is the container-level interface that provides access to the top-level properties of the container and, most importantly, the frames it contains. This is the primary interface on your container-level decoder class.
 
 ``` syntax
 interface IWICBitmapDecoder : IUnknown
@@ -35,15 +40,15 @@ interface IWICBitmapDecoder : IUnknown
 }
 ```
 
-Some image formats have global thumbnails, color contexts, or metadata, while many image formats provide these only on a per-frame basis. The methods for accessing these items are optional on [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md), but are required on [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md). Likewise, some codecs do not use indexed pixel formats and so do not need to implement the [CopyPalette](-wic-imp-iwicbitmapframedecode.md) methods on either interface. For more information on the optional **IWICBitmapDecoder** methods, see [Implementing IWICBitmapFrameDecode](-wic-imp-iwicbitmapframedecode.md), where they are most commonly implemented.
+Some image formats have global thumbnails, color contexts, or metadata, while many image formats provide these only on a per-frame basis. The methods for accessing these items are optional on [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master), but are required on [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master). Likewise, some codecs do not use indexed pixel formats and so do not need to implement the [CopyPalette](-wic-imp-iwicbitmapframedecode.md) methods on either interface. For more information on the optional **IWICBitmapDecoder** methods, see [Implementing IWICBitmapFrameDecode](-wic-imp-iwicbitmapframedecode.md), where they are most commonly implemented.
 
 ### QueryCapability
 
-[**QueryCapability**](-wic-codec-iwicbitmapdecoder-querycapability.md) is the method used for codec arbitration. (See [Discovery and Arbitration](-wic-howwicworks.md) in the [How The Windows Imaging Component Works](-wic-howwicworks.md) topic). If two codecs are capable of decoding the same image format, or if a pattern collision occurs in which two codecs use the same identifying pattern, this method allows you to select the codec that can best handle any specific image.
+[**QueryCapability**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability?branch=master) is the method used for codec arbitration. (See [Discovery and Arbitration](-wic-howwicworks.md) in the [How The Windows Imaging Component Works](-wic-howwicworks.md) topic). If two codecs are capable of decoding the same image format, or if a pattern collision occurs in which two codecs use the same identifying pattern, this method allows you to select the codec that can best handle any specific image.
 
-When invoking this method, Windows Imaging Component (WIC) passes you the actual stream containing the image. You must verify whether you can decode each frame within the image and enumerate through the metadata blocks, to accurately declare what capabilities this decoder has with respect to the specific file stream passed to it. This is important for all decoders, but particularly important for image formats based on Tagged Image File Format (TIFF) containers. The discovery process works by matching patterns associated with decoders in the registry to patterns in the actual image file. Declaring your identifying pattern in the registry guarantees that your decoder will always be detected for images in your image format. However, your decoder could still be detected for images in other formats. For example, all TIFF containers include the TIFF pattern, which is a valid identifying pattern for the TIFF image format. This means that, during discovery, at least two identifying patterns will be found in image files for any image format that’s based on a TIFF-style container. One will be the TIFF pattern and the other will be the actual image format pattern. While less likely, there could be pattern collisions between other unrelated image formats as well. This is why discovery and arbitration is a two-stage process. Always verify that the image stream passed to [**QueryCapability**](-wic-codec-iwicbitmapdecoder-querycapability.md) is actually a valid instance of your own image format. Also, if your codec decodes an image format for which you don’t own the specification, your **QueryCapability** implementation should check for the presence of any feature that may be valid under the image format specification that your codec doesn’t implement. This will ensure that users do not experience unnecessary decoding failures or get unexpected results with your codec.
+When invoking this method, Windows Imaging Component (WIC) passes you the actual stream containing the image. You must verify whether you can decode each frame within the image and enumerate through the metadata blocks, to accurately declare what capabilities this decoder has with respect to the specific file stream passed to it. This is important for all decoders, but particularly important for image formats based on Tagged Image File Format (TIFF) containers. The discovery process works by matching patterns associated with decoders in the registry to patterns in the actual image file. Declaring your identifying pattern in the registry guarantees that your decoder will always be detected for images in your image format. However, your decoder could still be detected for images in other formats. For example, all TIFF containers include the TIFF pattern, which is a valid identifying pattern for the TIFF image format. This means that, during discovery, at least two identifying patterns will be found in image files for any image format that’s based on a TIFF-style container. One will be the TIFF pattern and the other will be the actual image format pattern. While less likely, there could be pattern collisions between other unrelated image formats as well. This is why discovery and arbitration is a two-stage process. Always verify that the image stream passed to [**QueryCapability**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-querycapability?branch=master) is actually a valid instance of your own image format. Also, if your codec decodes an image format for which you don’t own the specification, your **QueryCapability** implementation should check for the presence of any feature that may be valid under the image format specification that your codec doesn’t implement. This will ensure that users do not experience unnecessary decoding failures or get unexpected results with your codec.
 
-Before performing any operation on the image, you must save the current position of the stream, so you can restore it to its original position before returning from the method. The [**WICBitmapDecoderCapabilities**](-wic-codec-wicbitmapdecodercapabilities.md) enumeration that specifies the capabilities is defined as follows:
+Before performing any operation on the image, you must save the current position of the stream, so you can restore it to its original position before returning from the method. The [**WICBitmapDecoderCapabilities**](/windows/win32/Wincodec/ne-wincodec-wicbitmapdecodercapabilities?branch=master) enumeration that specifies the capabilities is defined as follows:
 
 ``` syntax
 enum WICBitmapDecoderCapabilities
@@ -58,11 +63,11 @@ enum WICBitmapDecoderCapabilities
 
 You should declare **WICBitmapDecoderCapabilitySameEncoder** only if your encoder was the one that encoded the image. After verifying whether you can decode each frame in the container, declare either **WICBitmapDecoderCapabilityCanDecodeSomeImages** if you can decode some but not all of the frames, **WICBitmapDecoderCapabilityCanDecodeAllImages** if you can decode all of the frames, or neither if you cannot decode any of them. (These two enums are mutually exclusive; if you return **WICBitmapDecoderCapabilityCanDecodeAllImages**, **WICBitmapDecoderCapabilityCanDecodeSomeImages** will be ignored.) Declare **WICBitmapDecoderCapabilityCanEnumerateMetadata** after verifying that you can enumerate through the metadata blocks in the image container. You don’t have to check for a thumbnail in every frame. If there is a global thumbnail and you can decode it, you can declare **WICBitmapDecoderCapabilityCanDecodeThumbnail**. If there is no global thumbnail, then attempt to decode the thumbnail for Frame 0. If there is no thumbnail in either of these places, do not declare this capability.
 
-After determining the capabilities of the decoder with respect to the image stream passed to this method, perform an OR operation with the [**WICBitmapDecoderCapabilities**](-wic-codec-wicbitmapdecodercapabilities.md) you have verified that this decoder can perform on this image, and return the result. Remember to restore the stream to its original position before returning.
+After determining the capabilities of the decoder with respect to the image stream passed to this method, perform an OR operation with the [**WICBitmapDecoderCapabilities**](/windows/win32/Wincodec/ne-wincodec-wicbitmapdecodercapabilities?branch=master) you have verified that this decoder can perform on this image, and return the result. Remember to restore the stream to its original position before returning.
 
 ### Initialize
 
-[**Initialize**](-wic-codec-iwicbitmapdecoder-initialize.md) is invoked by an application after a decoder has been selected to decode a specific image. The image stream is passed to the decoder, and a caller may optionally specify the [**WICDecodeOptions**](-wic-codec-wicdecodeoptions.md) cache option for dealing with the metadata in the file.
+[**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-initialize?branch=master) is invoked by an application after a decoder has been selected to decode a specific image. The image stream is passed to the decoder, and a caller may optionally specify the [**WICDecodeOptions**](/windows/win32/Wincodec/ne-wincodec-wicdecodeoptions?branch=master) cache option for dealing with the metadata in the file.
 
 ``` syntax
 enum WICDecodeOptions
@@ -76,11 +81,11 @@ Some applications use metadata more than others. Most applications don’t need 
 
 ### GetContainerFormat
 
-To implement [**GetContainerFormat**](-wic-codec-iwicbitmapdecoder-getcontainerformat.md), just return the GUID of the image format of the image for which the decoder is instantiated. This method is also implemented on [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) and [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md).
+To implement [**GetContainerFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getcontainerformat?branch=master), just return the GUID of the image format of the image for which the decoder is instantiated. This method is also implemented on [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) and [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master).
 
 ### GetDecoderInfo
 
-[**GetDecoderInfo**](-wic-codec-iwicbitmapdecoder-getdecoderinfo.md) returns an [**IWICBitmapDecoderInfo**](-wic-codec-iwicbitmapdecoderinfo.md) object. To get the **IWICBitmapDecoderInfo** object, just pass the GUID of your decoder to the [**CreateComponentInfo**](-wic-codec-iwicimagingfactory-createcomponentinfo.md) method on [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md), and then request the **IWICBitmapDecoderInfo** interface on it, as shown in the following example.
+[**GetDecoderInfo**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getdecoderinfo?branch=master) returns an [**IWICBitmapDecoderInfo**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoderinfo?branch=master) object. To get the **IWICBitmapDecoderInfo** object, just pass the GUID of your decoder to the [**CreateComponentInfo**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createcomponentinfo?branch=master) method on [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master), and then request the **IWICBitmapDecoderInfo** interface on it, as shown in the following example.
 
 
 ```C++
@@ -97,17 +102,17 @@ hr = pComponentInfo->QueryInterface(IID_IWICBitmapDecoderInfo, (void**)ppIDecode
 
 ### GetFrameCount
 
-[**GetFrameCount**](-wic-codec-iwicbitmapdecoder-getframecount.md) just returns the number of frames in the container. Some container formats support multiple frames, and others support only one frame per container.
+[**GetFrameCount**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount?branch=master) just returns the number of frames in the container. Some container formats support multiple frames, and others support only one frame per container.
 
 ### GetFrame
 
-[**GetFrame**](-wic-codec-iwicbitmapdecoder-getframe.md) is an important method on the [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) interface because the frame contains the actual image bits, and the frame decoder object returned from this method is the object that does the actual decoding of the requested image. That is the other object you need to implement when writing a decoder. For more information on frame decoders, see [Implementing IWICBitmapFrameDecode](-wic-imp-iwicbitmapframedecode.md).
+[**GetFrame**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getframe?branch=master) is an important method on the [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) interface because the frame contains the actual image bits, and the frame decoder object returned from this method is the object that does the actual decoding of the requested image. That is the other object you need to implement when writing a decoder. For more information on frame decoders, see [Implementing IWICBitmapFrameDecode](-wic-imp-iwicbitmapframedecode.md).
 
 ### GetPreview
 
-[**GetPreview**](-wic-codec-iwicbitmapdecoder-getpreview.md) returns a preview of the image. For a detailed discussion of previews, see the [Implementing IWICBitmapEncoder](-wic-imp-iwicbitmapencoder.md) method on the [Implementing IWICBitmapEncoder](-wic-imp-iwicbitmapencoder.md) interface.
+[**GetPreview**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getpreview?branch=master) returns a preview of the image. For a detailed discussion of previews, see the [Implementing IWICBitmapEncoder](-wic-imp-iwicbitmapencoder.md) method on the [Implementing IWICBitmapEncoder](-wic-imp-iwicbitmapencoder.md) interface.
 
-If your image format contains an embedded JPEG preview, it is strongly recommend that, instead of writing a JPEG decoder to decode it, you delegate to the JPEG decoder that ships with the WIC platform for decoding previews and thumbnails. To do this, seek to the beginning of the preview image data in the stream and invoke the [**CreateDecoderFromStream**](-wic-codec-iwicimagingfactory-createdecoderfromstream.md) method on the [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md).
+If your image format contains an embedded JPEG preview, it is strongly recommend that, instead of writing a JPEG decoder to decode it, you delegate to the JPEG decoder that ships with the WIC platform for decoding previews and thumbnails. To do this, seek to the beginning of the preview image data in the stream and invoke the [**CreateDecoderFromStream**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream?branch=master) method on the [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master).
 
 
 ```C++
@@ -133,10 +138,10 @@ hr = pPreviewFrame->QueryInterface(IID_IWICBitmapSource, (void**)&amp;pPreview);
 **Reference**
 </dt> <dt>
 
-[**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)
+[**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)
 </dt> <dt>
 
-[**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md)
+[**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)
 </dt> <dt>
 
 **Conceptual**

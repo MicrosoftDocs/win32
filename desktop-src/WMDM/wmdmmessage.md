@@ -1,8 +1,9 @@
 ---
 title: WMDMMessage enumeration
 description: The WMDMMessage enumeration type defines message types and states.
-ms.assetid: 'e178db6b-2493-442e-95d1-04609b7726fe'
-keywords: ["WMDMMessage enumeration windows Media Device Manager"]
+ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
+keywords:
+- WMDMMessage enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDMMessage enumeration
@@ -81,9 +87,9 @@ Media has been removed from a Windows Media Device Manager device.
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

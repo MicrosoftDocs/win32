@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when the certificate returned by the CertStoreProvFindCRL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCRL.'
-ms.assetid: 'e90609f6-63cd-40eb-bd5a-289473daa5bb'
+---
+Description: Called when the certificate returned by the CertStoreProvFindCRL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCRL.
+ms.assetid: e90609f6-63cd-40eb-bd5a-289473daa5bb
 title: CertStoreProvFreeFindCRL callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvFreeFindCRL callback function
@@ -36,7 +41,7 @@ BOOL WINAPI CertStoreProvFreeFindCRL(
 *pCrlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRL\_CONTEXT**](cert-context.md).
+A pointer to a [**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master).
 
 </dd> <dt>
 
@@ -76,7 +81,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 [**CertStoreProvFindCRL**](certstoreprovfindcrl.md)
 </dt> <dt>
 
-[**CRL\_CONTEXT**](cert-context.md)
+[**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: NM\_SETCURSOR (tree view) notification code
-description: Notifies a tree-view control's parent window that the control is setting the cursor in response to a WM\_SETCURSOR message. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '2b2f2e90-edef-484d-b67a-12983a1cde29'
-keywords: ["NM_SETCURSOR (tree view) notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that the control is setting the cursor in response to a WM\_SETCURSOR message. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 2b2f2e90-edef-484d-b67a-12983a1cde29
+keywords:
+- NM_SETCURSOR (tree view) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_SETCURSOR (tree view) notification code
@@ -33,7 +39,7 @@ NM_SETCURSOR
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMMOUSE**](nmmouse.md) structure that contains additional information about this notification.
+Pointer to an [**NMMOUSE**](/windows/win32/Commctrl/ns-commctrl-tagnmmouse?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return zero to enable the control to set the cursor or nonzero to prevent the co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

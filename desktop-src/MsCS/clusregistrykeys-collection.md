@@ -4,11 +4,13 @@ description: Represents the list of registry keys that are checkpointed for a re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '888f70d9-6562-4add-895d-604f22d75307'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 888f70d9-6562-4add-895d-604f22d75307
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusRegistryKeys collection Failover Cluster", "ClusRegistryKeys collection Failover Cluster , described"]
+keywords:
+- ClusRegistryKeys collection Failover Cluster
+- ClusRegistryKeys collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusRegistryKeys collection
@@ -47,7 +52,7 @@ The **ClusRegistryKeys** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +67,7 @@ The **ClusRegistryKeys** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +83,7 @@ A **ClusRegistryKeys** collection:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -94,9 +99,9 @@ A **ClusRegistryKeys** collection:
 [Property Management Objects](property-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

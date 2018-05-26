@@ -4,13 +4,15 @@ description: The DS\_LDAP\_Class\_Containment class models the hierarchical obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '73bcec4e-0578-43c4-a42e-c9e88dbd752a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 73bcec4e-0578-43c4-a42e-c9e88dbd752a
+ms.prod: windows-server-dev
 ms.technology:
-- 'active-directory-domain-services'
-- 'windows-management-instrumentation'
+- active-directory-domain-services
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DS_LDAP_Class_Containment class", "DS_LDAP_Class_Containment class, described"]
+keywords:
+- DS_LDAP_Class_Containment class
+- DS_LDAP_Class_Containment class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Dsprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS\_LDAP\_Class\_Containment class
@@ -94,17 +99,17 @@ The association class provider supports the [**GetObjectAsync**](https://msdn.mi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Namespace<br/>                | Root\\directory\\ldap<br/>                                                      |
 | MOF<br/>                      | <dl> <dt>Dsprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dsprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

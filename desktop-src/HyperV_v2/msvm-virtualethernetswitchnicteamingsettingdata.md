@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the switch nic teaming settings.'
-ms.assetid: '7a48bdae-1953-4011-aaa8-1e3ca73494ff'
-title: 'Msvm\_VirtualEthernetSwitchNicTeamingSettingData class'
+Description: Represents the switch nic teaming settings.
+ms.assetid: 7a48bdae-1953-4011-aaa8-1e3ca73494ff
+title: Msvm\_VirtualEthernetSwitchNicTeamingSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchNicTeamingSettingData class
@@ -71,8 +76,8 @@ The teaming mode.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ The teaming mode.
 [**Msvm\_EthernetSwitchFeatureSettingData**](msvm-ethernetswitchfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

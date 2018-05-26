@@ -4,13 +4,16 @@ description: Expose a list of SCSI logical units (such as RAID volumes or tape d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6fc0c930-4084-4c8f-816f-4a7de9765ef3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6fc0c930-4084-4c8f-816f-4a7de9765ef3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExposePaths method iSCSI Software Target API", "ExposePaths method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , ExposePaths method"]
+keywords:
+- ExposePaths method iSCSI Software Target API
+- ExposePaths method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , ExposePaths method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExposePaths method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -40,13 +46,13 @@ If the instrumentation provides PrivilegeManagementService, the results of setti
 
 ```mof
 uint32 ExposePaths(
-  [out]     CIM_ConcreteJob            REF Job,
-  [in]      string                         LUNames[],
-  [in]      string                         InitiatorPortIDs[],
-  [in]      string                         TargetPortIDs[],
-  [in]      string                         DeviceNumbers[],
-  [in]      uint16                         DeviceAccesses[],
-  [in, out] CIM_SCSIProtocolController REF ProtocolControllers[]
+  [out]     CIM_ConcreteJob            REF Job,
+  [in]      string                         LUNames[],
+  [in]      string                         InitiatorPortIDs[],
+  [in]      string                         TargetPortIDs[],
+  [in]      string                         DeviceNumbers[],
+  [in]      uint16                         DeviceAccesses[],
+  [in, out] CIM_SCSIProtocolController REF ProtocolControllers[]
 );
 ```
 
@@ -131,14 +137,14 @@ A list of permissions to assign to the corresponding logical unit in the LUNames
 **DMTF Reserved**
 
 
-</dt> <dd>5–15999</dd> <dt>
+</dt> <dd>5 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl> </dd> <dt>
+</dt> <dd>16000 65535</dd> </dl> </dd> <dt>
 
 *ProtocolControllers* \[in, out\]
 </dt> <dd>
@@ -169,7 +175,7 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this can be 
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -196,10 +202,10 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this can be 
 **Maximum Map Count Exceeded** (4103)
 </dt> <dt>
 
-**Method Reserved** (4104–32767)
+**Method Reserved** (4104 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -209,7 +215,7 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this can be 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -223,9 +229,9 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this can be 
 [**MSISCSITARGET\_ControllerConfigurationService**](msiscsitarget-controllerconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

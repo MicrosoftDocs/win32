@@ -1,8 +1,11 @@
 ---
 title: ErrorWarningCollection AddItem method
 description: Adds an ErrorWarning item to the collection.
-ms.assetid: '88EA6637-036E-444E-909B-1BAA99A5A860'
-keywords: ["AddItem method Access Execution Engine", "AddItem method Access Execution Engine , ErrorWarningCollection interface", "ErrorWarningCollection interface Access Execution Engine , AddItem method"]
+ms.assetid: 88EA6637-036E-444E-909B-1BAA99A5A860
+keywords:
+- AddItem method Access Execution Engine
+- AddItem method Access Execution Engine , ErrorWarningCollection interface
+- ErrorWarningCollection interface Access Execution Engine , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorWarningCollection::AddItem method
@@ -22,9 +30,9 @@ Adds an [**ErrorWarning**](errorwarning.md) item to the collection.
 
 ```C++
 virtual HRESULT AddItem(
-  [in]      IssueType    issueType,
-  [in]      LPCWSTR      message,
-  [in, out] ErrorWarning **errorWarning
+  [in]      IssueType    issueType,
+  [in]      LPCWSTR      message,
+  [in, out] ErrorWarning **errorWarning
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**ErrorWarningCollection**](errorwarningcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_SETUIANAME message
 description: Sets the name of a rich edit control for UI Automation (UIA).
-ms.assetid: '60506FEE-9708-4668-8846-42B0B696DD9A'
-keywords: ["EM_SETUIANAME message Windows Controls"]
+ms.assetid: 60506FEE-9708-4668-8846-42B0B696DD9A
+keywords:
+- EM_SETUIANAME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETUIANAME message
@@ -52,15 +58,15 @@ TRUE if the name for UIA is successfully set, otherwise FALSE.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Architecture and components
 description: This topic describes the components that make up Microsoft DirectComposition.
-ms.assetid: '7C79B330-41EA-4BA0-9103-BB5A0C3D4CE2'
+ms.assetid: 7C79B330-41EA-4BA0-9103-BB5A0C3D4CE2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Architecture and components
@@ -33,7 +38,7 @@ The DirectComposition application library is a public COM-based API with a singl
 
 Because the composition engine is designed exclusively for asynchronous execution, object properties in the DirectComposition API are write-only. All properties have setter methods, but not getter methods. Reading properties is not only resource intensive, but can also be inaccurate because any value that the composition engine returns can immediately become invalid. This can happen if, for example, an independent animation is bound to the property that is being read.
 
-The API is thread-safe. An application can call any method from any thread at any time. However, because many API methods must be called in a particular sequence, without any synchronization an application can experience unpredictable behavior depending on how the threads interleave. For example, if two threads change the same property of the same object to different values at the same time, the application cannot predict which of the two values will be the final value of the property. Similarly, if two threads call [**Commit**](idcompositiondevice-commit.md) on the same device, neither thread gets truly transactional behavior because a call to **Commit** on one thread will submit the batch of all commands issued by both threads, not just the one that called **Commit**.
+The API is thread-safe. An application can call any method from any thread at any time. However, because many API methods must be called in a particular sequence, without any synchronization an application can experience unpredictable behavior depending on how the threads interleave. For example, if two threads change the same property of the same object to different values at the same time, the application cannot predict which of the two values will be the final value of the property. Similarly, if two threads call [**Commit**](/windows/win32/Dcomp/?branch=master) on the same device, neither thread gets truly transactional behavior because a call to **Commit** on one thread will submit the batch of all commands issued by both threads, not just the one that called **Commit**.
 
 The system maintains all internal state per device object. If an application creates two or more DirectComposition device objects, the application can maintain independent batches and other state between the two.
 
@@ -49,13 +54,13 @@ The DirectComposition composition engine runs on a dedicated process, separate f
 -   The composition engine can compose directly to the screen back buffer, avoiding the need for an extra copy that is required for per-process composition engines.
 -   All applications share a single Direct3D device for composition, which offers considerable memory savings
 
-The visual tree is a retained structure. The DirectComposition API exposes methods to edit the structure in batches of changes that are processed atomically. The root object in the DirectComposition API is the device object, which serves as the factory for all other DirectComposition objects and contains a method called [**Commit**](idcompositiondevice-commit.md). The composition engine does not reflect any changes that the application makes to the visual tree until the application calls **Commit**, at which point all changes since the last **Commit** are processed as a single transaction.
+The visual tree is a retained structure. The DirectComposition API exposes methods to edit the structure in batches of changes that are processed atomically. The root object in the DirectComposition API is the device object, which serves as the factory for all other DirectComposition objects and contains a method called [**Commit**](/windows/win32/Dcomp/?branch=master). The composition engine does not reflect any changes that the application makes to the visual tree until the application calls **Commit**, at which point all changes since the last **Commit** are processed as a single transaction.
 
-The requirement to call [**Commit**](idcompositiondevice-commit.md) is similar to the concept of a "frame" except that, because the composition engine runs asynchronously, it can present several different frames between calls to **Commit**. In DirectComposition, a *frame* is a single iteration of the composition engine, and the interval spent by an application between two calls to **Commit** is called a *batch*.
+The requirement to call [**Commit**](/windows/win32/Dcomp/?branch=master) is similar to the concept of a "frame" except that, because the composition engine runs asynchronously, it can present several different frames between calls to **Commit**. In DirectComposition, a *frame* is a single iteration of the composition engine, and the interval spent by an application between two calls to **Commit** is called a *batch*.
 
 DirectComposition batches all application calls to the DirectComposition API. The kernel object database, which is implemented in the win32k.sys session driver, stores all state information that is associated with the API calls.
 
-The composition engine produces one frame for each vertical blank in the display. The frame is started at a vertical blank and targets the subsequent vertical blank. When the frame starts, the composition engine picks up all pending batches and includes their commands in that frame. Batches are placed in a pending queue when the application calls [**Commit**](idcompositiondevice-commit.md), and the pending queue is flushed atomically at the beginning of the frame. Therefore, there is a single point in time that marks the beginning of a frame. Any batches submitted before this point are included in the frame, while any batches submitted after must wait until the next frame to be processed. The full composition loop is as follows:
+The composition engine produces one frame for each vertical blank in the display. The frame is started at a vertical blank and targets the subsequent vertical blank. When the frame starts, the composition engine picks up all pending batches and includes their commands in that frame. Batches are placed in a pending queue when the application calls [**Commit**](/windows/win32/Dcomp/?branch=master), and the pending queue is flushed atomically at the beginning of the frame. Therefore, there is a single point in time that marks the beginning of a frame. Any batches submitted before this point are included in the frame, while any batches submitted after must wait until the next frame to be processed. The full composition loop is as follows:
 
 1.  Estimate the time of the next vertical blank.
 2.  Retrieve all pending batches.

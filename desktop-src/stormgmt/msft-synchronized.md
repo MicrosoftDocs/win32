@@ -1,8 +1,10 @@
 ---
 title: MSFT\_Synchronized class
 description: Synchronized status of a storage object and its snapshots, clones, or mirrors.
-ms.assetid: '460FAAB4-9DB2-4B02-9E2B-07791E93E728'
-keywords: ["MSFT_Synchronized class Windows Storage Management API", "MSFT_Synchronized class Windows Storage Management API , described"]
+ms.assetid: 460FAAB4-9DB2-4B02-9E2B-07791E93E728
+keywords:
+- MSFT_Synchronized class Windows Storage Management API
+- MSFT_Synchronized class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_Synchronized class
@@ -39,19 +46,19 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MSFT_Synchronized
 {
   DateTime SyncTime;
-  Boolean  SyncMaintained;
-  UInt16   CopyState;
-  UInt16   RequestedCopyState;
-  UInt16   SyncType;
-  UInt16   SyncMode;
-  UInt16   ProgressStatus;
-  UInt16   PercentSynced;
-  UInt16   CopyType;
-  UInt16   ReplicaType;
-  UInt16   SyncState;
-  UInt16   CopyPriority;
-  UInt16   CopyMethodology;
-  UInt16   RecoveryPointObjective[];
+  Boolean  SyncMaintained;
+  UInt16   CopyState;
+  UInt16   RequestedCopyState;
+  UInt16   SyncType;
+  UInt16   SyncMode;
+  UInt16   ProgressStatus;
+  UInt16   PercentSynced;
+  UInt16   CopyType;
+  UInt16   ReplicaType;
+  UInt16   SyncState;
+  UInt16   CopyPriority;
+  UInt16   CopyMethodology;
+  UInt16   RecoveryPointObjective[];
 };
 ```
 
@@ -97,7 +104,7 @@ Specifies the copy methodology that the copy engine uses to create and/or mainta
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -125,7 +132,7 @@ Allows the priority of background copy engine I/O to be managed relative to host
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -163,7 +170,7 @@ Describes the state of the association with respect to replication activity.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -191,7 +198,7 @@ Describes the replication policy.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -248,7 +255,7 @@ Describes the status of the association with respect to replication activity.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -290,7 +297,7 @@ Provides information on how the replica is being maintained.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -384,7 +391,7 @@ Describes the state of the association with respect to replication activity.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -425,7 +432,7 @@ Describes the intended outcome of the replication.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -435,16 +442,16 @@ Describes the intended outcome of the replication.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

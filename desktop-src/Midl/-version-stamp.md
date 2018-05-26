@@ -2,13 +2,19 @@
 title: /version\_stamp switch
 description: The /version\_stamp switch suppresses the generation of macros that specify the minimum required version number of the RPC header file, Rpcndr.h.
 ms.assetid: ec03f68b-60f7-431e-9fba-4434ef082058
-keywords: ["/version_stamp switch MIDL"]
+keywords:
+- /version_stamp switch MIDL
 topic_type:
 - apiref
 api_name:
 - /version_stamp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /version\_stamp switch

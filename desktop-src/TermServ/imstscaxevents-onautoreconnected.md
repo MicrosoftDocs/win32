@@ -4,11 +4,14 @@ description: Called when the client control has automatically reconnected to a r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '50307002-33F9-453C-A880-AF4111412854'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 50307002-33F9-453C-A880-AF4111412854
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnAutoReconnected method Remote Desktop Services", "OnAutoReconnected method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnAutoReconnected method"]
+keywords:
+- OnAutoReconnected method Remote Desktop Services
+- OnAutoReconnected method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnAutoReconnected method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnAutoReconnected method
@@ -46,8 +52,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -60,9 +66,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

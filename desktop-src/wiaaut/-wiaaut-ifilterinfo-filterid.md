@@ -1,8 +1,11 @@
 ---
 title: FilterInfo.FilterID property
 description: Retrieves the FilterID (FilterInfo) for this filter.
-ms.assetid: 'd32b7ea8-ef30-49c1-b97f-185a174aeb6f'
-keywords: ["FilterID property WIA Automation", "FilterID property WIA Automation , FilterInfo object", "FilterInfo object WIA Automation , FilterID property"]
+ms.assetid: d32b7ea8-ef30-49c1-b97f-185a174aeb6f
+keywords:
+- FilterID property WIA Automation
+- FilterID property WIA Automation , FilterInfo object
+- FilterInfo object WIA Automation , FilterID property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterInfo.FilterID property
@@ -43,8 +51,8 @@ For example code, see [Convert Filter: Create a Compressed JPEG File from Anothe
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -66,9 +74,9 @@ For example code, see [Convert Filter: Create a Compressed JPEG File from Anothe
 [**Add (Filters)**](-wiaaut-ifilters-add.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,42 @@
 ---
 title: About the Windows Media Player SDK
 description: About the Windows Media Player SDK
-ms.assetid: '341db997-b50f-4bcb-9d73-180e8a0e6d7b'
-keywords: ["Windows Media Player,documentation", "Windows Media Player,SDK documentation", "Windows Media Player,about", "software development kit (SDK),customizing Windows Media Player", "SDK (software development kit),customizing Windows Media Player", "documentation,customizing Windows Media Player", "Windows Media Player,customizing", "Windows Media Player Mobile,customizing", "software development kit (SDK),customizing Windows Media Player Mobile", "SDK (software development kit),customizing Windows Media Player Mobile", "documentation,customizing Windows Media Player Mobile", "Windows Media Player Mobile,SDK documentation", "Windows Media Player Mobile,documentation", "Windows Media Player Mobile,about", "software development kit (SDK),Windows Media Player ActiveX control", "SDK (software development kit),Windows Media Player ActiveX control", "documentation,Windows Media Player ActiveX control", "Windows Media Player ActiveX control,SDK documentation", "Windows Media Player ActiveX control,documentation", "Windows Media Player ActiveX control,about", "software development kit (SDK),Windows Media Player Mobile ActiveX control", "SDK (software development kit),Windows Media Player Mobile ActiveX control", "documentation,Windows Media Player Mobile ActiveX control", "Windows Media Player Mobile ActiveX control,SDK documentation", "Windows Media Player Mobile ActiveX control,documentation", "Windows Media Player Mobile ActiveX control,about", "ActiveX control,SDK documentation", "ActiveX control,documentation", "ActiveX control,about"]
+ms.assetid: 341db997-b50f-4bcb-9d73-180e8a0e6d7b
+keywords:
+- Windows Media Player,documentation
+- Windows Media Player,SDK documentation
+- Windows Media Player,about
+- software development kit (SDK),customizing Windows Media Player
+- SDK (software development kit),customizing Windows Media Player
+- documentation,customizing Windows Media Player
+- Windows Media Player,customizing
+- Windows Media Player Mobile,customizing
+- software development kit (SDK),customizing Windows Media Player Mobile
+- SDK (software development kit),customizing Windows Media Player Mobile
+- documentation,customizing Windows Media Player Mobile
+- Windows Media Player Mobile,SDK documentation
+- Windows Media Player Mobile,documentation
+- Windows Media Player Mobile,about
+- software development kit (SDK),Windows Media Player ActiveX control
+- SDK (software development kit),Windows Media Player ActiveX control
+- documentation,Windows Media Player ActiveX control
+- Windows Media Player ActiveX control,SDK documentation
+- Windows Media Player ActiveX control,documentation
+- Windows Media Player ActiveX control,about
+- software development kit (SDK),Windows Media Player Mobile ActiveX control
+- SDK (software development kit),Windows Media Player Mobile ActiveX control
+- documentation,Windows Media Player Mobile ActiveX control
+- Windows Media Player Mobile ActiveX control,SDK documentation
+- Windows Media Player Mobile ActiveX control,documentation
+- Windows Media Player Mobile ActiveX control,about
+- ActiveX control,SDK documentation
+- ActiveX control,documentation
+- ActiveX control,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Windows Media Player SDK

@@ -1,7 +1,12 @@
 ---
 title: About the Microsoft WinSNMP Implementation
 description: The Microsoft WinSNMP implementation complies with WinSNMP version 2.0.
-ms.assetid: '99e11d30-d159-4d9b-94d0-baa6e49d82cf'
+ms.assetid: 99e11d30-d159-4d9b-94d0-baa6e49d82cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Microsoft WinSNMP Implementation

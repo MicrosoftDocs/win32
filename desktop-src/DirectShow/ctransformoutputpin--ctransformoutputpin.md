@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '48951e4e-b7fa-4e9d-9eec-3781fb72bae4'
-title: 'CTransformOutputPin.~CTransformOutputPin destructor'
+Description: Destructor method.
+ms.assetid: 48951e4e-b7fa-4e9d-9eec-3781fb72bae4
+title: CTransformOutputPin.~CTransformOutputPin destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.~CTransformOutputPin destructor
@@ -28,9 +33,9 @@ Destructor method.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

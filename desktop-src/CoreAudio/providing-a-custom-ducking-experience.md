@@ -1,7 +1,12 @@
 ---
-Description: 'An application can opt out of the Default Ducking Experience handled by the system and replace it with a custom implementation.'
-ms.assetid: '18290d05-b114-476b-8365-6bbb5fe6cffc'
+Description: An application can opt out of the Default Ducking Experience handled by the system and replace it with a custom implementation.
+ms.assetid: 18290d05-b114-476b-8365-6bbb5fe6cffc
 title: Providing a Custom Ducking Behavior
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing a Custom Ducking Behavior

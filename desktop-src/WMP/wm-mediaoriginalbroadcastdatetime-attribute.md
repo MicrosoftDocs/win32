@@ -1,14 +1,20 @@
 ---
 title: WM/MediaOriginalBroadcastDateTime Attribute
 description: The WM/MediaOriginalBroadcastDateTime attribute specifies the date and time on which a given show was first broadcast.
-ms.assetid: 'bf63679d-2840-4fa0-97a7-3cbc8a97ce90'
-keywords: ["WM/MediaOriginalBroadcastDateTime Attribute Windows Media Player"]
+ms.assetid: bf63679d-2840-4fa0-97a7-3cbc8a97ce90
+keywords:
+- WM/MediaOriginalBroadcastDateTime Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/MediaOriginalBroadcastDateTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaOriginalBroadcastDateTime Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

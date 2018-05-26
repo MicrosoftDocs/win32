@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics contain additional information about developing fax client applications.'
-ms.assetid: '2bafd53d-854f-45dd-a056-be6850d22836'
+Description: The following topics contain additional information about developing fax client applications.
+ms.assetid: 2bafd53d-854f-45dd-a056-be6850d22836
 title: General Fax Client Programming Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Fax Client Programming Tasks

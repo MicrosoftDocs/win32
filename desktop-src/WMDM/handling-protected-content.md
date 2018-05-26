@@ -1,8 +1,32 @@
 ---
 title: Handling Protected Content
 description: Handling Protected Content
-ms.assetid: 'f218d69e-ac80-43ba-be31-af3abf2b8de9'
-keywords: ["Windows Media Device Manager,certificates", "Device Manager,certificates", "desktop applications,certificates", "service providers,certificates", "programming guide,certificates", "certificates", "Windows Media Device Manager,secure content provider (SCP)", "Device Manager,secure content provider (SCP)", "desktop applications,secure content provider (SCP)", "service providers,secure content provider (SCP)", "programming guide,secure content provider (SCP)", "secure content provider (SCP)", "SCP (secure content provider)", "Windows Media Device Manager,DRM-protected content", "Device Manager,DRM-protected content", "programming guide,DRM-protected content", "desktop applications,DRM-protected content", "service providers,DRM-protected content", "DRM-protected content"]
+ms.assetid: f218d69e-ac80-43ba-be31-af3abf2b8de9
+keywords:
+- Windows Media Device Manager,certificates
+- Device Manager,certificates
+- desktop applications,certificates
+- service providers,certificates
+- programming guide,certificates
+- certificates
+- Windows Media Device Manager,secure content provider (SCP)
+- Device Manager,secure content provider (SCP)
+- desktop applications,secure content provider (SCP)
+- service providers,secure content provider (SCP)
+- programming guide,secure content provider (SCP)
+- secure content provider (SCP)
+- SCP (secure content provider)
+- Windows Media Device Manager,DRM-protected content
+- Device Manager,DRM-protected content
+- programming guide,DRM-protected content
+- desktop applications,DRM-protected content
+- service providers,DRM-protected content
+- DRM-protected content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Protected Content

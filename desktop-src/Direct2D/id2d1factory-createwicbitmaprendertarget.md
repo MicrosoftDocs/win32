@@ -1,14 +1,20 @@
 ---
 title: ID2D1Factory CreateWicBitmapRenderTarget methods
 description: Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.
-ms.assetid: '93141743-c11d-40b4-83c5-07c9066836c7'
-keywords: ["CreateWicBitmapRenderTarget methods Direct2D"]
+ms.assetid: 93141743-c11d-40b4-83c5-07c9066836c7
+keywords:
+- CreateWicBitmapRenderTarget methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Factory::CreateWicBitmapRenderTarget methods
@@ -21,8 +27,8 @@ Creates a render target that renders to a Microsoft Windows Imaging Component (W
 
 | Method                                                                                                                                                                                                                            | Description                                                                                            |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|
-| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES\*,ID2D1RenderTarget\*\*)**](id2d1factory-createwicbitmaprendertarget-ptr-iwicbitmap-ptr-d2d1-render-target-properties-ptr-ptr-id2d1rendertarget.md) | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
-| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES&,ID2D1RenderTarget\*\*)**](id2d1factory-createwicbitmaprendertarget-ptr-iwicbitmap-ref-d2d1-render-target-properties-ptr-ptr-id2d1rendertarget.md)  | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES\*,ID2D1RenderTarget\*\*)**](/windows/win32/d2d1/?branch=master) | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
+| [**CreateWicBitmapRenderTarget(IWICBitmap\*,D2D1\_RENDER\_TARGET\_PROPERTIES&,ID2D1RenderTarget\*\*)**](/windows/win32/d2d1/?branch=master)  | Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.<br/> |
 
 
 
@@ -32,7 +38,7 @@ Your application should create render targets once and hold onto them for the li
 
 -   ![applies to windows phone](../common/phone.png)
 
-**Note**   This method isn't supported on Windows Phone and will fail when called on a device with error code 0x8899000b (“There is no hardware rendering device available for this operation”). Because the Windows Phone Emulator supports WARP rendering, this method will fail when called on the emulator with a different error code, 0x88982f80 (wincodec\_err\_unsupportedpixelformat).
+**Note**   This method isn't supported on Windows Phone and will fail when called on a device with error code 0x8899000b ( There is no hardware rendering device available for this operation ). Because the Windows Phone Emulator supports WARP rendering, this method will fail when called on the emulator with a different error code, 0x88982f80 (wincodec\_err\_unsupportedpixelformat).
 
 ## Requirements
 
@@ -49,12 +55,12 @@ Your application should create render targets once and hold onto them for the li
 
 <dl> <dt>
 
-[**ID2D1Factory**](id2d1factory.md)
+[**ID2D1Factory**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeCurrentAngle event is sent when the disc enables or disables changing the angle.'
-ms.assetid: '432e532f-a7af-4134-b01d-46d617c76974'
+Description: The ChangeCurrentAngle event is sent when the disc enables or disables changing the angle.
+ms.assetid: 432e532f-a7af-4134-b01d-46d617c76974
 title: ChangeCurrentAngle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeCurrentAngle
@@ -9,7 +14,7 @@ title: ChangeCurrentAngle
 > [!Note]  
 > This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 
- 
+ 
 
 The `ChangeCurrentAngle` event is sent when the disc enables or disables changing the angle.
 
@@ -38,9 +43,9 @@ Specifies whether the operation is enabled or disabled as a Boolean.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

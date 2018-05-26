@@ -1,7 +1,12 @@
 ---
-Description: 'hashes and encodes a text message, and then decodes and verifies the message.'
-ms.assetid: 'effe4080-63c1-4f35-a5e3-e7e60754b28f'
-title: 'Example C Program: Encoding and Decoding a Hashed Message'
+Description: hashes and encodes a text message, and then decodes and verifies the message.
+ms.assetid: effe4080-63c1-4f35-a5e3-e7e60754b28f
+title: Example C Program Encoding and Decoding a Hashed Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Encoding and Decoding a Hashed Message
@@ -12,20 +17,20 @@ Although, for simplicity, the two different functions have been combined in this
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Calling [**CryptAcquireContext**](cryptacquirecontext.md) to acquire a CSP provider.
--   Using [**CryptMsgCalculateEncodedLength**](cryptmsgcalculateencodedlength.md) to calculate the length of the encoded message.
+-   Calling [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) to acquire a CSP provider.
+-   Using [**CryptMsgCalculateEncodedLength**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength?branch=master) to calculate the length of the encoded message.
 -   Allocating memory for a buffer to hold the encoded data.
--   Opening a message to encode using [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md).
--   Adding content to the message to encode using [**CryptMsgUpdate**](cryptmsgupdate.md).
--   Using [**CryptMsgGetParam**](cryptmsggetparam.md) to copy the encoded message to the allocated buffer.
--   Opening a message to decode using [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md).
--   Adding the encoded message to the message to decode using [**CryptMsgUpdate**](cryptmsgupdate.md).
--   Creating a duplicate pointer to the message using [**CryptMsgDuplicate**](cryptmsgduplicate.md).
--   Checking the message type with [**CryptMsgGetParam**](cryptmsggetparam.md).
--   Using [**CryptMsgGetParam**](cryptmsggetparam.md) to decode the message.
--   Verifying the hash using [**CryptMsgControl**](cryptmsgcontrol.md).
--   Using [**CryptMsgClose**](cryptmsgclose.md) to release the message handle.
--   Using [**CryptReleaseContext**](cryptreleasecontext.md) to release the CSP.
+-   Opening a message to encode using [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master).
+-   Adding content to the message to encode using [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master).
+-   Using [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master) to copy the encoded message to the allocated buffer.
+-   Opening a message to decode using [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master).
+-   Adding the encoded message to the message to decode using [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master).
+-   Creating a duplicate pointer to the message using [**CryptMsgDuplicate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgduplicate?branch=master).
+-   Checking the message type with [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master).
+-   Using [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master) to decode the message.
+-   Verifying the hash using [**CryptMsgControl**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcontrol?branch=master).
+-   Using [**CryptMsgClose**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgclose?branch=master) to release the message handle.
+-   Using [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master) to release the CSP.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). Code for this function is included with the sample.
 

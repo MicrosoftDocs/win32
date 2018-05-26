@@ -4,17 +4,22 @@ description: This attribute is used to retrieve the number of days before a mana
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9473e29e-32d2-4461-b04f-a36a7e0ab412'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9473e29e-32d2-4461-b04f-a36a7e0ab412
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-ManagedPasswordInterval attribute AD Schema", "msDS-ManagedPasswordInterval attribute AD Schema"]
+keywords:
+- ms-DS-ManagedPasswordInterval attribute AD Schema
+- msDS-ManagedPasswordInterval attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-ManagedPasswordInterval
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-ManagedPasswordInterval attribute
@@ -38,7 +43,7 @@ This attribute is used to retrieve the number of days before a managed password 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This attribute is used to retrieve the number of days before a managed password 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,25 @@
 ---
 title: Compatible A8 Render Targets Overview
 description: Describes the basics of compatible A8 render targets and provide examples showing how to use them.
-ms.assetid: '218c0123-8da9-4d73-9882-cbf7f205001f'
+ms.assetid: 218c0123-8da9-4d73-9882-cbf7f205001f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compatible A8 Render Targets Overview
 
 This topic describes the basics of a compatible A8 render target, and provides examples of how to use it.
 
-A compatible A8 render target is a compatible render target ([**ID2D1BitmapRenderTarget**](id2d1bitmaprendertarget.md)) that uses an A8 pixel format (DXGI\_FORMAT\_A8\_UNORM). You can use a compatible A8 render target to improve the application's performance and provide smoother transitions during text animation. A compatible A8 render target is particular useful when you try to improve the following:
+A compatible A8 render target is a compatible render target ([**ID2D1BitmapRenderTarget**](/windows/win32/d2d1/?branch=master)) that uses an A8 pixel format (DXGI\_FORMAT\_A8\_UNORM). You can use a compatible A8 render target to improve the application's performance and provide smoother transitions during text animation. A compatible A8 render target is particular useful when you try to improve the following:
 
 -   The frame rate of the application that renders text or anti-aliased geometry that includes only simple animations, such as translation, rotation, scale, or color changes.
 
 -   The visual continuity of the application that stretches and diminshes text during an animation.
 
-To create a compatible A8 render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](id2d1rendertarget-createcompatiblerendertarget.md) method together with the DXGI\_FORMAT\_A8\_UNORM pixel format, and specify a returned compatible render target. For more information about pixel formats, see [Supported Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md).
+To create a compatible A8 render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](/windows/win32/d2d1/nf-d2d1-createcompatiblerendertarget?branch=master) method together with the DXGI\_FORMAT\_A8\_UNORM pixel format, and specify a returned compatible render target. For more information about pixel formats, see [Supported Pixel Formats and Alpha Modes](supported-pixel-formats-and-alpha-modes.md).
 
 For example, to efficiently animate the text that is shown in the following screen shot, use a compatible A8 render target to cache the text as an opacity mask. Then, apply transformations to the opacity mask to achieve fast rendering results.
 

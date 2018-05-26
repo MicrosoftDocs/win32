@@ -1,8 +1,20 @@
 ---
 title: Porting NURBS Surfaces
 description: The following table lists the IRIS GL functions for drawing NURBS surfaces and their equivalent OpenGL functions.
-ms.assetid: 'd34ac6af-55d7-4128-bcd9-3c910607895f'
-keywords: ["IRIS GL porting,NURBS surfaces", "porting from IRIS GL,NURBS surfaces", "porting to OpenGL from IRIS GL,NURBS surfaces", "OpenGL porting from IRIS GL,NURBS surfaces", "NURBS surfaces", "NURBS (Non-Uniform Rational B-Spline)", "Non-Uniform Rational B-Spline (NURBS)"]
+ms.assetid: d34ac6af-55d7-4128-bcd9-3c910607895f
+keywords:
+- IRIS GL porting,NURBS surfaces
+- porting from IRIS GL,NURBS surfaces
+- porting to OpenGL from IRIS GL,NURBS surfaces
+- OpenGL porting from IRIS GL,NURBS surfaces
+- NURBS surfaces
+- NURBS (Non-Uniform Rational B-Spline)
+- Non-Uniform Rational B-Spline (NURBS)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting NURBS Surfaces

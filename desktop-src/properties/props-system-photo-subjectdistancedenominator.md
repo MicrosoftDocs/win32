@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Photo\_SubjectDistance.'
-ms.assetid: '8ec59d52-f79f-40d1-9b02-671b866ccd8d'
-title: 'System.Photo.SubjectDistanceDenominator'
+Description: The denominator of PKEY\_Photo\_SubjectDistance.
+ms.assetid: 8ec59d52-f79f-40d1-9b02-671b866ccd8d
+title: System.Photo.SubjectDistanceDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.SubjectDistanceDenominator

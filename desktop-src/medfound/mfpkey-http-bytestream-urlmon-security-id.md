@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the root security identifier for the Microsoft Media Foundation HTTP byte stream.'
-ms.assetid: 'DD2B9487-53B0-4753-8C47-4D6BFE113109'
-title: 'MFPKEY\_HTTP\_ByteStream\_Urlmon\_Security\_Id property'
+---
+Description: Sets the root security identifier for the Microsoft Media Foundation HTTP byte stream.
+ms.assetid: DD2B9487-53B0-4753-8C47-4D6BFE113109
+title: MFPKEY\_HTTP\_ByteStream\_Urlmon\_Security\_Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_HTTP\_ByteStream\_Urlmon\_Security\_Id property

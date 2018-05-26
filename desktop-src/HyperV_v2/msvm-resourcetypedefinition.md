@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a mapping of a resource type to its implementation classes.'
-ms.assetid: '0911454D-2494-49D5-8480-212E9ADD1B45'
-title: 'Msvm\_ResourceTypeDefinition class'
+Description: Defines a mapping of a resource type to its implementation classes.
+ms.assetid: 0911454D-2494-49D5-8480-212E9ADD1B45
+title: Msvm\_ResourceTypeDefinition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourceTypeDefinition class
@@ -183,10 +188,10 @@ The type of resource this allocation setting represents. There is a corresponden
 <span id="Cooling_Device"></span><span id="cooling_device"></span><span id="COOLING_DEVICE"></span>**Cooling Device** (29)
 </dt> <dt>
 
-<span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (30–32767)
+<span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (30 32767)
 </dt> <dt>
 
-<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768–65535)
+<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 </dd> <dt>
@@ -214,19 +219,19 @@ Access to the **Msvm\_ResourceTypeDefinition** class might be restricted by UAC 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
-| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

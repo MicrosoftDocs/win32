@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_ALLOC function pointer
 description: Points to a function that allocates a block of memory.
-ms.assetid: 'd8f5878a-0ebd-40cf-afde-07f334f2ce40'
-keywords: ["PFN_CSP_ALLOC function pointer Security"]
+ms.assetid: d8f5878a-0ebd-40cf-afde-07f334f2ce40
+keywords:
+- PFN_CSP_ALLOC function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_ALLOC function pointer
@@ -24,7 +30,7 @@ The **PFN\_CSP\_ALLOC** function pointer points to a function that allocates a b
 
 ```C++
 typedef LPVOID ( WINAPI *PFN_CSP_ALLOC)(
-  _In_ SIZE_T Size
+  _In_ SIZE_T Size
 );
 ```
 
@@ -57,8 +63,8 @@ This function pointer is passed to a card module in a [**CARD\_DATA**](card-data
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ This function pointer is passed to a card module in a [**CARD\_DATA**](card-data
 [**PFN\_CSP\_REALLOC**](pfn-csp-realloc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

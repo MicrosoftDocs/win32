@@ -1,13 +1,16 @@
 ---
-Description: 'A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection.'
+Description: A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cb477224-3117-45e4-9271-613b58e48b6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cb477224-3117-45e4-9271-613b58e48b6e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Default Process Security Level Using VBScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting the Default Process Security Level Using VBScript
@@ -96,7 +99,7 @@ SetobjWMIService = GetObject( _
 
 
 
-The following table lists the authentication levels you can set. These levels are defined in Wbemdisp.tlb in the enumeration [WbemAuthenticationLevelEnum](wbemauthenticationlevelenum.md).
+The following table lists the authentication levels you can set. These levels are defined in Wbemdisp.tlb in the enumeration [WbemAuthenticationLevelEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master).
 
 
 
@@ -112,7 +115,7 @@ The following table lists the authentication levels you can set. These levels ar
 
 
 
- 
+ 
 
 To determine a successful call, check the return value after you change the authentication level.
 
@@ -153,7 +156,7 @@ Next
 
 
 
-The following table lists the authentication levels in [WbemImpersonationLevelEnum](wbemimpersonationlevelenum.md) that use.
+The following table lists the authentication levels in [WbemImpersonationLevelEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum?branch=master) that use.
 
 
 
@@ -166,7 +169,7 @@ The following table lists the authentication levels in [WbemImpersonationLevelEn
 
 
 
- 
+ 
 
 The following example shows how to set the impersonation in a moniker string when obtaining a specific instance of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372).
 
@@ -203,9 +206,9 @@ WMI passes the security setting of a parent object to the descendants of the ori
 [Securing Scripting Clients](securing-scripting-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

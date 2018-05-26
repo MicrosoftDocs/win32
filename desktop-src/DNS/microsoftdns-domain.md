@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_Domain class
 description: The MicrosoftDNS\_Domain class represents a Domain in a DNS hierarchy.
-ms.assetid: '4b3124d6-aa5c-4950-b461-c6dd7bc96945'
-keywords: ["MicrosoftDNS_Domain class DNS", "MicrosoftDNS_Domain class DNS , described"]
+ms.assetid: 4b3124d6-aa5c-4950-b461-c6dd7bc96945
+keywords:
+- MicrosoftDNS_Domain class DNS
+- MicrosoftDNS_Domain class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_Domain class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_Domain** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -117,7 +124,7 @@ For instances of DNS Cache or RootHints, the strings \\..Cache\\ and \\..RootHin
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -130,9 +137,9 @@ For instances of DNS Cache or RootHints, the strings \\..Cache\\ and \\..RootHin
 [**GetDistinguishedName Method of the MicrosoftDNS\_Domain Class**](microsoftdns-domain-getdistinguishedname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,20 @@ description: Sets and retrieves the audio redirection mode and different audio r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c0f5762b-00fd-40bb-ac97-3351b999f38d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c0f5762b-00fd-40bb-ac97-3351b999f38d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AudioRedirectionMode property Remote Desktop Services", "AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , AudioRedirectionMode property", "AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , AudioRedirectionMode property", "AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AudioRedirectionMode property", "AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AudioRedirectionMode property"]
+keywords:
+- AudioRedirectionMode property Remote Desktop Services
+- AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , AudioRedirectionMode property
+- AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , AudioRedirectionMode property
+- AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AudioRedirectionMode property
+- AudioRedirectionMode property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AudioRedirectionMode property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +37,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings5::AudioRedirectionMode property
@@ -41,11 +53,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AudioRedirectionMode(
-  [in]  UINT uiAudioRedirectionMode
+  [in]  UINT uiAudioRedirectionMode
 );
 
 HRESULT get_AudioRedirectionMode(
-  [out] UINT *puiAudioRedirectionMode
+  [out] UINT *puiAudioRedirectionMode
 );
 ```
 
@@ -66,7 +78,7 @@ Sets different values for the audio redirection mode. This parameter has the fol
 
 <span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span>
 
-**AUDIO\_MODE\_PLAY\_ON\_SERVER 1** (Audio redirection is enabled and the option is "Leave at remote computer". The "Leave at remote computer" option is supported only when connecting remotely to a host computer that is running Windows Vista. If the connection is to a host computer that is running Windows Server 2008, the option "Leave at remote computer" is changed to "Do not play".)
+**AUDIO\_MODE\_PLAY\_ON\_SERVER 1** (Audio redirection is enabled and the option is "Leave at remote computer". The "Leave at remote computer" option is supported only when connecting remotely to a host computer that is running Windows Vista. If the connection is to a host computer that is running Windows Server 2008, the option "Leave at remote computer" is changed to "Do not play".)
 
 
 </dt> <dd></dd> <dt>
@@ -84,8 +96,8 @@ Sets different values for the audio redirection mode. This parameter has the fol
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings5 is defined as FBA7F64E-6783-4405-DA45-FA4A763DABD0<br/> |
@@ -108,9 +120,9 @@ Sets different values for the audio redirection mode. This parameter has the fol
 [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

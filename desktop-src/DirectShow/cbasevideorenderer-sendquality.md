@@ -1,7 +1,12 @@
 ---
-Description: 'The SendQuality method sends a quality message to indicate what the supplier should do about quality.'
-ms.assetid: '9ce11c35-958c-4eda-9130-1139c4074bf7'
-title: 'CBaseVideoRenderer.SendQuality method'
+Description: The SendQuality method sends a quality message to indicate what the supplier should do about quality.
+ms.assetid: 9ce11c35-958c-4eda-9130-1139c4074bf7
+title: CBaseVideoRenderer.SendQuality method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.SendQuality method
@@ -13,8 +18,8 @@ The `SendQuality` method sends a quality message to indicate what the supplier s
 
 ```C++
 virtual HRESULT SendQuality(
-   REFERENCE_TIME trLate,
-   REFERENCE_TIME trRealStream
+   REFERENCE_TIME trLate,
+   REFERENCE_TIME trRealStream
 );
 ```
 
@@ -64,9 +69,9 @@ This member function sends a quality control message upstream to control quality
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

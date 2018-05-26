@@ -4,11 +4,14 @@ description: Retrieves one or more installed ODBC drivers from the system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0a93adf-364e-47e5-a87e-6883c0a9dc79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f0a93adf-364e-47e5-a87e-6883c0a9dc79
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, MSFT_OdbcDriverTask class", "MSFT_OdbcDriverTask class, Get method"]
+keywords:
+- Get method
+- Get method, MSFT_OdbcDriverTask class
+- MSFT_OdbcDriverTask class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the MSFT\_OdbcDriverTask class
@@ -28,9 +34,9 @@ Retrieves one or more installed ODBC drivers from the system.
 
 ```mof
 uint32 Get(
-  [in]  string          Name,
-  [in]  string          Platform,
-  [out] MSFT_OdbcDriver cmdletOutput[]
+  [in]  string          Name,
+  [in]  string          Platform,
+  [out] MSFT_OdbcDriver cmdletOutput[]
 );
 ```
 
@@ -67,8 +73,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDriver**](msft-odbcdr
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
@@ -86,9 +92,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDriver**](msft-odbcdr
 [**MSFT\_OdbcDriver**](msft-odbcdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

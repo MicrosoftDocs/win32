@@ -1,7 +1,12 @@
 ---
-Description: 'A vertex declaration defines the vertex buffer layout and programs the tessellation engine.'
-ms.assetid: '09dae498-3b33-4c33-bc7e-47f2bf784e4c'
-title: 'Vertex Declaration (Direct3D 9)'
+Description: A vertex declaration defines the vertex buffer layout and programs the tessellation engine.
+ms.assetid: 09dae498-3b33-4c33-bc7e-47f2bf784e4c
+title: Vertex Declaration (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertex Declaration (Direct3D 9)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an instance of the BoundingSphere class.'
-ms.assetid: 'c733c15d-034f-4c95-bd10-f5757fc4e813'
-title: 'DirectX.BoundingSphere constructors'
+---
+Description: Creates an instance of the BoundingSphere class.
+ms.assetid: c733c15d-034f-4c95-bd10-f5757fc4e813
+title: DirectX.BoundingSphere constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectX.BoundingSphere constructors
@@ -27,7 +32,7 @@ Creates an instance of the BoundingSphere class.
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](boundingsphere.md)
+[**BoundingSphere**](/windows/win32/DirectXCollision/ns-directxcollision-boundingsphere?branch=master)
 </dt> </dl>
 
  

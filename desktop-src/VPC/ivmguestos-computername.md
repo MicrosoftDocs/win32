@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS ComputerName property
 description: The computer name of the guest operating system running in the virtual machine.
-ms.assetid: 'b35fa1a1-e105-43e6-9a2f-a5c7e71772cf'
-keywords: ["ComputerName property Virtual PC", "ComputerName property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , ComputerName property"]
+ms.assetid: b35fa1a1-e105-43e6-9a2f-a5c7e71772cf
+keywords:
+- ComputerName property Virtual PC
+- ComputerName property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , ComputerName property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::ComputerName property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the computer name of the guest operating system running in the virtual machine (VM).
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ComputerName(
-  [out, retval] BSTR *guestComputerName
+  [out, retval] BSTR *guestComputerName
 );
 ```
 
@@ -57,9 +65,9 @@ The computer name of the guest operating system.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -73,9 +81,9 @@ The computer name of the guest operating system.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

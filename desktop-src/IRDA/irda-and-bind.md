@@ -1,8 +1,14 @@
 ---
 title: IrDA and bind
 description: The Windows Sockets bind function is used by IrDA server applications to register to receive incoming connections addressed to a specified service name on the specified socket.
-ms.assetid: '686c905b-f393-4bdf-8093-23987a120773'
-keywords: ["IrDA and bind"]
+ms.assetid: 686c905b-f393-4bdf-8093-23987a120773
+keywords:
+- IrDA and bind
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and bind

@@ -1,7 +1,12 @@
 ---
-Description: 'Filter handlers, which are implementations of the IFilter interface, scan documents for text and properties.'
-ms.assetid: '2ee9ea19-ae03-4f14-8f06-f8aa670e204e'
+Description: Filter handlers, which are implementations of the IFilter interface, scan documents for text and properties.
+ms.assetid: 2ee9ea19-ae03-4f14-8f06-f8aa670e204e
 title: Understanding Filter Handlers in Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Filter Handlers in Windows Search
@@ -160,9 +165,9 @@ The class of the [**IFilter**](-search-ifilter.md) DLL is registered under the 
 
 ### IFilter::GetChunk and Locale Code Identifiers
 
-The LCID of text can change within a single file. For example, the text of an instruction manual might alternate between English (en-us) and Spanish (es) or the text may include a single word in a language other than the primary language. In either case, your [**IFilter**](-search-ifilter.md) must begin a new chunk each time the LCID changes. Because the LCID is used to choose an appropriate word breaker, it is very important that you correctly identify it. If the **IFilter** cannot determine the locale of the text, then it should return an LCID of zero with the chunk. Returning an LCID of zero causes Windows Search to use Language Auto-Detection (LAD) technology to determine the locale ID of the chunk. If Windows Search cannot find a match, it defaults to the system default locale (by calling the [GetSystemDefaultLocaleName Function](http://msdn.microsoft.com/en-us/library/dd318122(VS.85).aspx) function). For more information, see [**IFilter::GetChunk**](-search-ifilter-getchunk.md), [**CHUNK\_BREAKTYPE**](-search-chunk-breaktype.md), [**CHUNKSTATE**](-search-chunkstate.md), and [**STAT\_CHUNK**](-search-stat-chunk.md).
+The LCID of text can change within a single file. For example, the text of an instruction manual might alternate between English (en-us) and Spanish (es) or the text may include a single word in a language other than the primary language. In either case, your [**IFilter**](-search-ifilter.md) must begin a new chunk each time the LCID changes. Because the LCID is used to choose an appropriate word breaker, it is very important that you correctly identify it. If the **IFilter** cannot determine the locale of the text, then it should return an LCID of zero with the chunk. Returning an LCID of zero causes Windows Search to use Language Auto-Detection (LAD) technology to determine the locale ID of the chunk. If Windows Search cannot find a match, it defaults to the system default locale (by calling the [GetSystemDefaultLocaleName Function](http://msdn.microsoft.com/en-us/library/dd318122(VS.85).aspx) function). For more information, see [**IFilter::GetChunk**](-search-ifilter-getchunk.md), [**CHUNK\_BREAKTYPE**](/windows/win32/Filter/?branch=master), [**CHUNKSTATE**](/windows/win32/Filter/?branch=master), and [**STAT\_CHUNK**](/windows/win32/Filter/?branch=master).
 
-If you control the file format and it currently does not contain locale information, you should add a user feature to enable proper locale identification. Using a mismatched word breaker can result in a poor query experience for the user. For more information, see [**IWordBreaker**](-search-iwordbreaker.md).
+If you control the file format and it currently does not contain locale information, you should add a user feature to enable proper locale identification. Using a mismatched word breaker can result in a poor query experience for the user. For more information, see [**IWordBreaker**](/windows/win32/Indexsrv/nn-indexsrv-iwordbreaker?branch=master).
 
 > [!Note]  
 > Filters are associated with file types, as denoted by file name extensions, MIME types or CLSIDs. While one filter can handle multiple file types, each type works with only one filter.

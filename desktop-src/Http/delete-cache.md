@@ -1,14 +1,20 @@
 ---
 title: delete cache
 description: Flushes the entire URL cache or deletes entries according to the specified URL.
-ms.assetid: '499ce0f9-01db-4648-89f7-1ecafd25a805'
-keywords: ["delete cache HTTP"]
+ms.assetid: 499ce0f9-01db-4648-89f7-1ecafd25a805
+keywords:
+- delete cache HTTP
 topic_type:
 - apiref
 api_name:
 - delete cache
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # delete cache

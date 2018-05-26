@@ -1,7 +1,12 @@
 ---
 title: Check Box
 description: The Check Box is a control the user can click to provide input to an application. The control provides a toggle state that is represented visually.
-ms.assetid: 'fe07aa5c-1818-41e2-b48d-5fefe50d733f'
+ms.assetid: fe07aa5c-1818-41e2-b48d-5fefe50d733f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Check Box
@@ -31,7 +36,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Check Box control.
 
@@ -103,7 +108,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -115,9 +120,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [**CheckBox markup element**](windowsribbon-element-checkbox.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

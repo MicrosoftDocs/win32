@@ -1,8 +1,9 @@
 ---
 title: LVM\_ENSUREVISIBLE message
 description: Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can send this message explicitly or by using the ListView\_EnsureVisible macro.
-ms.assetid: '3564b6e6-b8b6-401b-85bc-8bd6261fc054'
-keywords: ["LVM_ENSUREVISIBLE message Windows Controls"]
+ms.assetid: 3564b6e6-b8b6-401b-85bc-8bd6261fc054
+keywords:
+- LVM_ENSUREVISIBLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_ENSUREVISIBLE message
 
-Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can send this message explicitly or by using the [**ListView\_EnsureVisible**](listview-ensurevisible.md) macro.
+Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can send this message explicitly or by using the [**ListView\_EnsureVisible**](/windows/win32/Commctrl/nf-commctrl-listview_ensurevisible?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ The message fails if the window style includes [**LVS\_NOSCROLL**](list-view-win
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

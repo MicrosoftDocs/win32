@@ -4,17 +4,22 @@ description: Issuer name of the third terminal server per user CAL.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bc03d162-d039-424a-8c67-cd58c1d1ac2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bc03d162-d039-424a-8c67-cd58c1d1ac2b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-ManagingLS3 attribute AD Schema", "msTSManagingLS3 attribute AD Schema"]
+keywords:
+- MS-TS-ManagingLS3 attribute AD Schema
+- msTSManagingLS3 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-ManagingLS3
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-ManagingLS3 attribute

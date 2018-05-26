@@ -1,12 +1,17 @@
 ---
 title: Other Object Roles and Supported Methods (MSAA UI Element Reference)
 description: This topic provides information about object roles that are not included in the previous topics for UI elements.
-ms.assetid: '0c3a3ccf-f02a-4aca-9380-a13774598a19'
+ms.assetid: 0c3a3ccf-f02a-4aca-9380-a13774598a19
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Object Roles and Supported Methods (MSAA UI Element Reference)
 
-This topic provides information about object roles that are not included in the previous topics for UI elements. Each object role includes a list of the [**IAccessible**](iaccessible.md) methods and properties that are supported for the object role. While other topics document supported **IAccessible** methods and properties for UI elements, this topic lists the methods and properties you can expect to be supported for a particular object role. Many of the UI elements which might have one of the roles listed here are typically seen in browsers.
+This topic provides information about object roles that are not included in the previous topics for UI elements. Each object role includes a list of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods and properties that are supported for the object role. While other topics document supported **IAccessible** methods and properties for UI elements, this topic lists the methods and properties you can expect to be supported for a particular object role. Many of the UI elements which might have one of the roles listed here are typically seen in browsers.
 
 > [!Note]  
 > Use this topic as a guideline. We strongly suggest that you use Microsoft Active Accessibility tools to verify expected behavior for an individual object role.

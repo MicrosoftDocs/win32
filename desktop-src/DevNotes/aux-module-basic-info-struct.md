@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains basic module information.'
-ms.assetid: '5cdb0b11-8bd3-46d2-b214-85cdb2f274a7'
-title: 'AUX\_MODULE\_BASIC\_INFO structure'
+---
+Description: Contains basic module information.
+ms.assetid: 5cdb0b11-8bd3-46d2-b214-85cdb2f274a7
+title: AUX\_MODULE\_BASIC\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUX\_MODULE\_BASIC\_INFO structure

@@ -1,12 +1,17 @@
 ---
 Description: Handling DVD Event Notifications
-ms.assetid: '7a12aa36-f709-4ee2-aac6-45ab273ad3f9'
+ms.assetid: 7a12aa36-f709-4ee2-aac6-45ab273ad3f9
 title: Handling DVD Event Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling DVD Event Notifications
 
-The DVD Navigator sends notifications to an application-specified window when certain events take place, such as when the DVD domain changes, when a new parental management level is encountered, and when the DVD Navigator is about to enter an angle block. The event parameters can contain additional information related to the event. Error messages and warnings are also sent in this way. The application specifies the window that will handle the event notifications by using the [**IMediaEventEx**](imediaeventex.md) pointer to call [**SetNotifyWindow**](imediaeventex-setnotifywindow.md), as follows:
+The DVD Navigator sends notifications to an application-specified window when certain events take place, such as when the DVD domain changes, when a new parental management level is encountered, and when the DVD Navigator is about to enter an angle block. The event parameters can contain additional information related to the event. Error messages and warnings are also sent in this way. The application specifies the window that will handle the event notifications by using the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) pointer to call [**SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master), as follows:
 
 
 ```C++
@@ -16,7 +21,7 @@ hr = m_pIME->SetNotifyWindow(reinterpret_cast<OAHWND>(m_hWnd), WM_DVD_EVENT, 0);
 
 
 
-In the preceding example, m\_hWnd is the HWND of the window to receive the messages and WM\_DVD\_EVENT is the application-defined message (greater than WM\_USER) that will signal that a DVD event has taken place. The event itself is retrieved by the application through a call to [**IMediaEvent::GetEvent**](imediaevent-getevent.md). Because more than one event might be in the event queue at any given time, the application must call **GetEvent** within a loop that repeats until all queued events have been retrieved, as shown in the following code example.
+In the preceding example, m\_hWnd is the HWND of the window to receive the messages and WM\_DVD\_EVENT is the application-defined message (greater than WM\_USER) that will signal that a DVD event has taken place. The event itself is retrieved by the application through a call to [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master). Because more than one event might be in the event queue at any given time, the application must call **GetEvent** within a loop that repeats until all queued events have been retrieved, as shown in the following code example.
 
 
 ```C++

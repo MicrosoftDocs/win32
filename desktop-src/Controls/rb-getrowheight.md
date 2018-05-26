@@ -1,8 +1,9 @@
 ---
 title: RB\_GETROWHEIGHT message
 description: Retrieves the height of a specified row in a rebar control.
-ms.assetid: '1ff6a32e-b344-4dbc-b4a4-fb13f11a9d8c'
-keywords: ["RB_GETROWHEIGHT message Windows Controls"]
+ms.assetid: 1ff6a32e-b344-4dbc-b4a4-fb13f11a9d8c
+keywords:
+- RB_GETROWHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_GETROWHEIGHT message
@@ -45,15 +51,15 @@ To retrieve the number of rows in a rebar control, use the [**RB\_GETROWCOUNT**]
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

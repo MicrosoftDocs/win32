@@ -1,8 +1,10 @@
 ---
 title: BcdElement class
 description: The base class for all BCD elements.
-ms.assetid: 'f8182914-2f5c-4d48-9e7c-400957a6d081'
-keywords: ["BcdElement class Boot Config", "BcdElement class Boot Config , described"]
+ms.assetid: f8182914-2f5c-4d48-9e7c-400957a6d081
+keywords:
+- BcdElement class Boot Config
+- BcdElement class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdElement class
@@ -104,8 +111,8 @@ All data in an element is byte-packed to ensure consistent unpacking by all cons
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -139,9 +146,9 @@ All data in an element is byte-packed to ensure consistent unpacking by all cons
 [**GetElement**](getelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

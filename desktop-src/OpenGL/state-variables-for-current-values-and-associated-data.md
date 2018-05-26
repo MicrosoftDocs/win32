@@ -1,14 +1,20 @@
 ---
 title: State Variables for Current Values and Associated Data
 description: State Variables for Current Values and Associated Data
-ms.assetid: '8e47b119-a065-43c5-b7f5-76deaf975ad8'
-keywords: ["State Variables for Current Values and Associated Data OpenGL"]
+ms.assetid: 8e47b119-a065-43c5-b7f5-76deaf975ad8
+keywords:
+- State Variables for Current Values and Associated Data OpenGL
 topic_type:
 - apiref
 api_name:
 - State Variables for Current Values and Associated Data
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # State Variables for Current Values and Associated Data

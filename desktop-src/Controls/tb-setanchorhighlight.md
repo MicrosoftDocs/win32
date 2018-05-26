@@ -1,8 +1,9 @@
 ---
 title: TB\_SETANCHORHIGHLIGHT message
 description: Sets the anchor highlight setting for a toolbar.
-ms.assetid: 'd31652d5-e9cf-4bf3-8f90-818eb078fa87'
-keywords: ["TB_SETANCHORHIGHLIGHT message Windows Controls"]
+ms.assetid: d31652d5-e9cf-4bf3-8f90-818eb078fa87
+keywords:
+- TB_SETANCHORHIGHLIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETANCHORHIGHLIGHT message
@@ -45,15 +51,15 @@ Anchor highlighting in a toolbar means that the last highlighted item will remai
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

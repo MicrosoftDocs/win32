@@ -1,8 +1,25 @@
 ---
 title: opclib.h
 description: opclib.h
-ms.assetid: 'dcab3b99-8657-4153-b128-ef6b7d317323'
-keywords: ["Packaging APIs,set author sample", "packaging,set author sample", "packages,set author sample", "Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "set author sample,opclib.h", "Packaging APIs,opclib.h", "packaging,opclib.h", "packages,opclib.h", "opclib.h", "sample applications,set author"]
+ms.assetid: dcab3b99-8657-4153-b128-ef6b7d317323
+keywords:
+- Packaging APIs,set author sample
+- packaging,set author sample
+- packages,set author sample
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- set author sample,opclib.h
+- Packaging APIs,opclib.h
+- packaging,opclib.h
+- packages,opclib.h
+- opclib.h
+- sample applications,set author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # opclib.h

@@ -1,8 +1,41 @@
 ---
 title: Basic Concepts
 description: This topic discusses key concepts concerning dynamic data exchange.
-ms.assetid: '37826d83-4dcd-484f-b1aa-87bf309c5c09'
-keywords: ["Windows User Interface,Dynamic Data Exchange (DDE)", "Windows User Interface,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange (DDE),client server interaction", "DDE (Dynamic Data Exchange),client server interaction", "data exchange,Dynamic Data Exchange (DDE)", "data exchange,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange (DDE),client applications", "DDE (Dynamic Data Exchange),client applications", "Dynamic Data Exchange (DDE),server applications", "DDE (Dynamic Data Exchange),server applications", "Dynamic Data Exchange (DDE),callback functions", "DDE (Dynamic Data Exchange),callback functions", "Dynamic Data Exchange (DDE),transactions", "DDE (Dynamic Data Exchange),transactions", "Dynamic Data Exchange (DDE),service names", "DDE (Dynamic Data Exchange),service names", "Dynamic Data Exchange (DDE),item names", "DDE (Dynamic Data Exchange),item names", "Dynamic Data Exchange (DDE),topic names", "DDE (Dynamic Data Exchange),topic names", "Dynamic Data Exchange (DDE),System topic", "DDE (Dynamic Data Exchange),System topic", "Dynamic Data Exchange Management Library (DDEML),initialization", "DDEML (Dynamic Data Exchange Management Library),initialization", "Dynamic Data Exchange Management Library (DDEML),callback functions", "DDEML (Dynamic Data Exchange Management Library),callback functions", "Dynamic Data Exchange Management Library (DDEML),string management", "DDEML (Dynamic Data Exchange Management Library),string management"]
+ms.assetid: 37826d83-4dcd-484f-b1aa-87bf309c5c09
+keywords:
+- Windows User Interface,Dynamic Data Exchange (DDE)
+- Windows User Interface,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange (DDE),client server interaction
+- DDE (Dynamic Data Exchange),client server interaction
+- data exchange,Dynamic Data Exchange (DDE)
+- data exchange,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange (DDE),client applications
+- DDE (Dynamic Data Exchange),client applications
+- Dynamic Data Exchange (DDE),server applications
+- DDE (Dynamic Data Exchange),server applications
+- Dynamic Data Exchange (DDE),callback functions
+- DDE (Dynamic Data Exchange),callback functions
+- Dynamic Data Exchange (DDE),transactions
+- DDE (Dynamic Data Exchange),transactions
+- Dynamic Data Exchange (DDE),service names
+- DDE (Dynamic Data Exchange),service names
+- Dynamic Data Exchange (DDE),item names
+- DDE (Dynamic Data Exchange),item names
+- Dynamic Data Exchange (DDE),topic names
+- DDE (Dynamic Data Exchange),topic names
+- Dynamic Data Exchange (DDE),System topic
+- DDE (Dynamic Data Exchange),System topic
+- Dynamic Data Exchange Management Library (DDEML),initialization
+- DDEML (Dynamic Data Exchange Management Library),initialization
+- Dynamic Data Exchange Management Library (DDEML),callback functions
+- DDEML (Dynamic Data Exchange Management Library),callback functions
+- Dynamic Data Exchange Management Library (DDEML),string management
+- DDEML (Dynamic Data Exchange Management Library),string management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Concepts
@@ -26,13 +59,13 @@ A server can have many clients at the same time, and a client can request data f
 
 ## Transactions and the DDE Callback Function
 
-The DDEML notifies an application about DDE activity that affects the application by sending transactions to the application's DDE callback function. A *DDE transaction* is similar to a message — it is a named constant accompanied by other parameters that contain additional information about the transaction.
+The DDEML notifies an application about DDE activity that affects the application by sending transactions to the application's DDE callback function. A *DDE transaction* is similar to a message   it is a named constant accompanied by other parameters that contain additional information about the transaction.
 
-The DDEML passes a transaction to an application-defined DDE callback function that carries out an action appropriate to the type of transaction. For example, when a client application attempts to establish a conversation with a server application, the client calls the [**DdeConnect**](ddeconnect.md) function. This function causes the DDEML to send an [**XTYP\_CONNECT**](xtyp-connect.md) transaction to the server's DDE callback function. The callback function can allow the conversation by returning **TRUE** to the DDEML, or it can deny the conversation by returning **FALSE**. For a detailed discussion of transactions, see [Transaction Management](transaction-management.md).
+The DDEML passes a transaction to an application-defined DDE callback function that carries out an action appropriate to the type of transaction. For example, when a client application attempts to establish a conversation with a server application, the client calls the [**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master) function. This function causes the DDEML to send an [**XTYP\_CONNECT**](xtyp-connect.md) transaction to the server's DDE callback function. The callback function can allow the conversation by returning **TRUE** to the DDEML, or it can deny the conversation by returning **FALSE**. For a detailed discussion of transactions, see [Transaction Management](transaction-management.md).
 
 ## Service Names, Topic Names, and Item Names
 
-A DDE server uses a three-level hierarchy — service name (called "application name" in previous DDE documentation), topic name, and item name — to uniquely identify a unit of data the server can exchange during a conversation.
+A DDE server uses a three-level hierarchy   service name (called "application name" in previous DDE documentation), topic name, and item name   to uniquely identify a unit of data the server can exchange during a conversation.
 
 A *service name* is a string a server application responds to when a client attempts to establish a conversation with the server. A client must specify this service name to establish a conversation with the server. Although a server can respond to many service names, most servers respond to only one name.
 
@@ -64,17 +97,17 @@ A server must support the following item names within the System topic and any o
 
 
 
- 
+ 
 
 These item names are values defined in the DDEML.H header file. To obtain string handles to these strings, an application must use the DDEML string-management functions, just as it would for any other string in a DDEML application. For more information about managing strings, see [String Management](#string-management).
 
 ## Initialization
 
-Before calling any other DDEML function, an application must call the [**DdeInitialize**](ddeinitialize.md) function. **DdeInitialize** obtains an instance identifier for the application, registers the application's DDE callback function with the DDE, and specifies the transaction filter flags for the callback function.
+Before calling any other DDEML function, an application must call the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function. **DdeInitialize** obtains an instance identifier for the application, registers the application's DDE callback function with the DDE, and specifies the transaction filter flags for the callback function.
 
 Each instance of an application or a DLL must pass its instance identifier as the *idInst* parameter to any other DDEML function that requires it. The purpose of multiple DDEML instances is to support DLLs that must use the DDEML at the same time an application is using it. An application must not use more than one instance of the DDEML.
 
-*Transaction filters* optimize system performance by preventing the DDEML from passing unwanted transactions to the application's DDE callback function. An application sets the transaction filters in the [**DdeInitialize**](ddeinitialize.md) *ufCmd* parameter. An application must specify a transaction filter flag for each type of transaction that it does not process in its callback function. An application can change its transaction filters with a subsequent call to **DdeInitialize**. For more information about transactions, see [Transaction Management](transaction-management.md).
+*Transaction filters* optimize system performance by preventing the DDEML from passing unwanted transactions to the application's DDE callback function. An application sets the transaction filters in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) *ufCmd* parameter. An application must specify a transaction filter flag for each type of transaction that it does not process in its callback function. An application can change its transaction filters with a subsequent call to **DdeInitialize**. For more information about transactions, see [Transaction Management](transaction-management.md).
 
 The following example shows how to initialize an application to use the DDEML.
 
@@ -92,11 +125,11 @@ DdeInitialize(&amp;idInst,         // receives instance identifier
 
 
 
-An application must call the [**DdeUninitialize**](ddeuninitialize.md) function when it is no longer going to use the DDEML. This function terminates any conversations currently open for the application and frees the DDEML resources the system allocated for the application.
+An application must call the [**DdeUninitialize**](/windows/win32/Ddeml/nf-ddeml-ddeuninitialize?branch=master) function when it is no longer going to use the DDEML. This function terminates any conversations currently open for the application and frees the DDEML resources the system allocated for the application.
 
 ## Callback Function
 
-An application that uses the DDEML must provide a callback function that processes the DDE events affecting the application. The DDEML notifies an application of such events by sending transactions to the application's DDE callback function. The transactions a callback function receives depend on which callback filter flags the application specified in [**DdeInitialize**](ddeinitialize.md) and whether the application is a client, a server, or both. For more information, please see [**DdeCallback**](ddecallback.md).
+An application that uses the DDEML must provide a callback function that processes the DDE events affecting the application. The DDEML notifies an application of such events by sending transactions to the application's DDE callback function. The transactions a callback function receives depend on which callback filter flags the application specified in [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) and whether the application is a client, a server, or both. For more information, please see [**DdeCallback**](ddecallback.md).
 
 The following example shows the general structure of a callback function for a typical client application.
 
@@ -152,9 +185,9 @@ The *uType* parameter specifies the transaction type sent to the callback functi
 
 ## String Management
 
-To carry out a DDE task, many DDEML functions require access to strings. For example, a client must specify a service name and a topic name when it calls the [**DdeConnect**](ddeconnect.md) function to request a conversation with a server. An application specifies a string by passing a string handle (HSZ) rather than a pointer in a DDEML function. A *string handle* is a **DWORD** value, assigned by the system, that identifies a string.
+To carry out a DDE task, many DDEML functions require access to strings. For example, a client must specify a service name and a topic name when it calls the [**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master) function to request a conversation with a server. An application specifies a string by passing a string handle (HSZ) rather than a pointer in a DDEML function. A *string handle* is a **DWORD** value, assigned by the system, that identifies a string.
 
-An application can obtain a string handle to a particular string by calling the [**DdeCreateStringHandle**](ddecreatestringhandle.md) function. This function registers the string with the system and returns a string handle to the application. The application can pass the handle to DDEML functions that must access the string. The following example obtains string handles to the System topic string and the service name string.
+An application can obtain a string handle to a particular string by calling the [**DdeCreateStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatestringhandlea?branch=master) function. This function registers the string with the system and returns a string handle to the application. The application can pass the handle to DDEML functions that must access the string. The following example obtains string handles to the System topic string and the service name string.
 
 
 ```
@@ -174,9 +207,9 @@ hszSysTopic = DdeCreateStringHandle(
 
 
 
-The *idInst* parameter in the preceding example specifies the instance identifier obtained by the [**DdeInitialize**](ddeinitialize.md) function.
+The *idInst* parameter in the preceding example specifies the instance identifier obtained by the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
-An application's DDE callback function receives one or more string handles during most DDE transactions. For example, a server receives two string handles during the [**XTYP\_REQUEST**](xtyp-request.md) transaction: one identifies a string specifying a topic name, and the other identifies a string specifying an item name. An application can obtain the length of the string that corresponds to a string handle and copy the string to an application-defined buffer by calling the [**DdeQueryString**](ddequerystring.md) function, as shown in the following example.
+An application's DDE callback function receives one or more string handles during most DDE transactions. For example, a server receives two string handles during the [**XTYP\_REQUEST**](xtyp-request.md) transaction: one identifies a string specifying a topic name, and the other identifies a string specifying an item name. An application can obtain the length of the string that corresponds to a string handle and copy the string to an application-defined buffer by calling the [**DdeQueryString**](/windows/win32/Ddeml/nf-ddeml-ddequerystringa?branch=master) function, as shown in the following example.
 
 
 ```
@@ -192,7 +225,7 @@ DdeQueryString(idInst, hszServ, pszServName, cb, CP_WINANSI);
 
 
 
-An instance-specific string handle cannot be mapped from string handle to string and back to string handle. For instance, although [**DdeQueryString**](ddequerystring.md) creates a string from a string handle and then [**DdeCreateStringHandle**](ddecreatestringhandle.md) creates a string handle from that string, the two handles are not the same, as shown in the following example.
+An instance-specific string handle cannot be mapped from string handle to string and back to string handle. For instance, although [**DdeQueryString**](/windows/win32/Ddeml/nf-ddeml-ddequerystringa?branch=master) creates a string from a string handle and then [**DdeCreateStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatestringhandlea?branch=master) creates a string handle from that string, the two handles are not the same, as shown in the following example.
 
 
 ```
@@ -207,13 +240,13 @@ hszNew = DdeCreateStringHandle(idInst, pszInst, CP_WINANSI);
 
 
 
-To compare the values of two string handles, use the [**DdeCmpStringHandles**](ddecmpstringhandles.md) function.
+To compare the values of two string handles, use the [**DdeCmpStringHandles**](/windows/win32/Ddeml/nf-ddeml-ddecmpstringhandles?branch=master) function.
 
-A string handle passed to an application's DDE callback function becomes invalid when the callback function returns. An application can save a string handle for use after the callback function returns by using the [**DdeKeepStringHandle**](ddekeepstringhandle.md) function.
+A string handle passed to an application's DDE callback function becomes invalid when the callback function returns. An application can save a string handle for use after the callback function returns by using the [**DdeKeepStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddekeepstringhandle?branch=master) function.
 
-When an application calls [**DdeCreateStringHandle**](ddecreatestringhandle.md), the system enters the specified string into a string table and generates a handle that it uses to access the string. The system also maintains a usage count for each string in the string table.
+When an application calls [**DdeCreateStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatestringhandlea?branch=master), the system enters the specified string into a string table and generates a handle that it uses to access the string. The system also maintains a usage count for each string in the string table.
 
-When an application calls [**DdeCreateStringHandle**](ddecreatestringhandle.md) and specifies a string that already exists in the table, the system increments the usage count rather than adding another occurrence of the string. (An application can also increment the usage count by using [**DdeKeepStringHandle**](ddekeepstringhandle.md).) When an application calls the [**DdeFreeStringHandle**](ddefreestringhandle.md) function, the system decrements the usage count.
+When an application calls [**DdeCreateStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatestringhandlea?branch=master) and specifies a string that already exists in the table, the system increments the usage count rather than adding another occurrence of the string. (An application can also increment the usage count by using [**DdeKeepStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddekeepstringhandle?branch=master).) When an application calls the [**DdeFreeStringHandle**](/windows/win32/Ddeml/nf-ddeml-ddefreestringhandle?branch=master) function, the system decrements the usage count.
 
 A string is removed from the table when its usage count equals zero. Because more than one application can obtain the handle to a particular string, an application must not free a string handle more times than it has created or retained the handle. Otherwise, the application can cause the string to be removed from the table, denying other applications access to the string.
 
@@ -221,13 +254,13 @@ The DDEML string-management functions are based on the atom manager and are subj
 
 ## DDEML and Threads
 
-The [**DdeInitialize**](ddeinitialize.md) function registers an application with the DDEML, creating a DDEML instance. A DDEML instance is thread-based, associated with the thread that called **DdeInitialize**.
+The [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function registers an application with the DDEML, creating a DDEML instance. A DDEML instance is thread-based, associated with the thread that called **DdeInitialize**.
 
-All DDEML function calls for objects belonging to a DDEML instance must be made from the same thread that called [**DdeInitialize**](ddeinitialize.md) to create the instance. If you call a DDEML function from a different thread, the function will fail. You cannot access a DDEML conversation from a thread other than the one that allocated the conversation.
+All DDEML function calls for objects belonging to a DDEML instance must be made from the same thread that called [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) to create the instance. If you call a DDEML function from a different thread, the function will fail. You cannot access a DDEML conversation from a thread other than the one that allocated the conversation.
 
- 
+ 
 
- 
+ 
 
 
 

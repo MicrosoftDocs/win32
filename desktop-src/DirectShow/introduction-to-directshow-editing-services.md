@@ -1,7 +1,12 @@
 ---
 Description: Introduction to DirectShow Editing Services
-ms.assetid: '247c4ba9-53c1-46ed-83ef-a454351920e3'
+ms.assetid: 247c4ba9-53c1-46ed-83ef-a454351920e3
 title: Introduction to DirectShow Editing Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to DirectShow Editing Services

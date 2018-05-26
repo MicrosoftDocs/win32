@@ -1,14 +1,20 @@
 ---
 title: RecordingTimeYearMonthDay Attribute
 description: The RecordingTimeYearMonthDay attribute is the date of the original recording (without the time of day), for items where this date is different from the release date.
-ms.assetid: '191fffd9-557f-4da7-827d-15ed8f56ece7'
-keywords: ["RecordingTimeYearMonthDay Attribute Windows Media Player"]
+ms.assetid: 191fffd9-557f-4da7-827d-15ed8f56ece7
+keywords:
+- RecordingTimeYearMonthDay Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RecordingTimeYearMonthDay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecordingTimeYearMonthDay Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves the object.'
-ms.assetid: '04084c00-a025-423b-a49d-ed98fa1dc54b'
-title: 'FaxConfiguration.Save method'
+---
+Description: Saves the object.
+ms.assetid: 04084c00-a025-423b-a49d-ed98fa1dc54b
+title: FaxConfiguration.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.Save method

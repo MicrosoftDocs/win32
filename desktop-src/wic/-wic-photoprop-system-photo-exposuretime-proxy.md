@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.Photo.ExposureTime photo metadata policy.'
-ms.assetid: 'f6b457d4-fc85-41bd-848d-04be11072042'
-title: 'System.Photo.ExposureTime Proxy'
+Description: The property proxy for the System.Photo.ExposureTime photo metadata policy.
+ms.assetid: f6b457d4-fc85-41bd-848d-04be11072042
+title: System.Photo.ExposureTime Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureTime Proxy

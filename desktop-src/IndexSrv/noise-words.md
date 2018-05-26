@@ -1,7 +1,12 @@
 ---
 title: Noise Words
 description: Noise Words
-ms.assetid: 'f1c23576-e616-4703-adbd-a77f168f5fa4'
+ms.assetid: f1c23576-e616-4703-adbd-a77f168f5fa4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Noise Words

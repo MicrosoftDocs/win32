@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the intranet or extranet AD RMS Account Certification URL.'
+Description: Retrieves the intranet or extranet AD RMS Account Certification URL.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2f07e155-4a57-497f-84ad-e445f5d92821'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2f07e155-4a57-497f-84ad-e445f5d92821
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'EnterpriseUrls.Certification property'
+title: EnterpriseUrls.Certification property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnterpriseUrls.Certification property
@@ -100,7 +103,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -112,9 +115,9 @@ END SUB
 [**EnterpriseUrls**](enterpriseurls-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

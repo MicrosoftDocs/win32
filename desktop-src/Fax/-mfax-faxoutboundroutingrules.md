@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutboundRoutingRules configuration collection is used by a fax client application to manage the fax outbound routing rules.'
-ms.assetid: '971819e1-a3cb-4e58-b533-fee15ccb4352'
+---
+Description: The FaxOutboundRoutingRules configuration collection is used by a fax client application to manage the fax outbound routing rules.
+ms.assetid: 971819e1-a3cb-4e58-b533-fee15ccb4352
 title: FaxOutboundRoutingRules object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules object

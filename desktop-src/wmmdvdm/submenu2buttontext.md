@@ -1,14 +1,20 @@
 ---
 title: Submenu2ButtonText element
-description: Specifies the text used for this menu style's \ 0034;Submenu2 \ 0034; button. This is usually the \ 0034;Notes \ 0034; button.
-ms.assetid: '7b91f002-11f1-41d4-a1cb-18384b93fe92'
-keywords: ["Submenu2ButtonText element Windows Movie Maker and DVD Maker"]
+description: Specifies the text used for this menu styles \ 0034;Submenu2 \ 0034; button. This is usually the \ 0034;Notes \ 0034; button.
+ms.assetid: 7b91f002-11f1-41d4-a1cb-18384b93fe92
+keywords:
+- Submenu2ButtonText element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Submenu2ButtonText
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Submenu2ButtonText element
@@ -49,7 +55,7 @@ This button can be used only on the main menu, but is optional and will appear o
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ This button can be used only on the main menu, but is optional and will appear o
 [**Submenu1ButtonText Element**](submenu2buttontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

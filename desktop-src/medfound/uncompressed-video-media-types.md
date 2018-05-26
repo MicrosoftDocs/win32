@@ -1,14 +1,19 @@
 ---
 Description: Uncompressed Video Media Types
-ms.assetid: '50bf2947-27ee-4092-9d3a-a1c13ee80e95'
+ms.assetid: 50bf2947-27ee-4092-9d3a-a1c13ee80e95
 title: Uncompressed Video Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uncompressed Video Media Types
 
 This topic describes how to create a media type that describes an uncompressed video format. For more information about media types generally, see [About Media Types](about-media-types.md).
 
-To create a complete uncompressed video type, set the following attributes on the [**IMFMediaType**](imfmediatype.md) interface pointer.
+To create a complete uncompressed video type, set the following attributes on the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface pointer.
 
 
 
@@ -51,12 +56,12 @@ The following functions might be useful when creating a video media type.
 
 | Function                                                                     | Description                                                                                                                                                                          |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**MFAverageTimePerFrameToFrameRate**](mfaveragetimeperframetoframerate.md) | Calculates the frame rate, given the average frame duration.                                                                                                                         |
-| [**MFCalculateImageSize**](mfcalculateimagesize.md)                         | Calculates the image size for an uncompressed video format.                                                                                                                          |
-| [**MFFrameRateToAverageTimePerFrame**](mfframeratetoaveragetimeperframe.md) | Calculates the average duration of a video frame, given the frame rate.                                                                                                              |
-| [**MFGetStrideForBitmapInfoHeader**](mfgetstrideforbitmapinfoheader.md)     | Returns the minimum surface stride for a video format. For more information, see [Image Stride](image-stride.md).                                                                   |
-| [**MFInitVideoFormat**](mfinitvideoformat.md)                               | Initializes an [**MFVIDEOFORMAT**](mfvideoformat.md) structure for some standard video formats, such as NTSC television. You can then use the structure to initialize a media type. |
-| [**MFIsFormatYUV**](mfisformatyuv.md)                                       | Queries whether a video format is a YUV format.                                                                                                                                      |
+| [**MFAverageTimePerFrameToFrameRate**](/windows/win32/mfapi/nf-mfapi-mfaveragetimeperframetoframerate?branch=master) | Calculates the frame rate, given the average frame duration.                                                                                                                         |
+| [**MFCalculateImageSize**](/windows/win32/mfapi/nf-mfapi-mfcalculateimagesize?branch=master)                         | Calculates the image size for an uncompressed video format.                                                                                                                          |
+| [**MFFrameRateToAverageTimePerFrame**](/windows/win32/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe?branch=master) | Calculates the average duration of a video frame, given the frame rate.                                                                                                              |
+| [**MFGetStrideForBitmapInfoHeader**](/windows/win32/mfapi/nf-mfapi-mfgetstrideforbitmapinfoheader?branch=master)     | Returns the minimum surface stride for a video format. For more information, see [Image Stride](image-stride.md).                                                                   |
+| [**MFInitVideoFormat**](/windows/win32/mfapi/nf-mfapi-mfinitvideoformat?branch=master)                               | Initializes an [**MFVIDEOFORMAT**](/windows/win32/mfobjects/ns-mfobjects-_mfvideoformat?branch=master) structure for some standard video formats, such as NTSC television. You can then use the structure to initialize a media type. |
+| [**MFIsFormatYUV**](/windows/win32/mfapi/nf-mfapi-mfisformatyuv?branch=master)                                       | Queries whether a video format is a YUV format.                                                                                                                                      |
 
 
 
@@ -64,7 +69,7 @@ The following functions might be useful when creating a video media type.
 
 ## Examples
 
-This example shows a function that fills in the most common information for an uncompressed video format. The function returns an [**IMFMediaType**](imfmediatype.md) interface pointer. You can then add additional attributes to the media type as needed.
+This example shows a function that fills in the most common information for an uncompressed video format. The function returns an [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface pointer. You can then add additional attributes to the media type as needed.
 
 
 ```C++

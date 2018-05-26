@@ -1,17 +1,22 @@
 ---
-Description: 'The system power status indicates whether the source of power for a computer is a system battery or AC power. For computers that use batteries, the system power status also indicates how much battery life remains and whether the battery is charging.'
-ms.assetid: 'b9a5e7de-a603-4bd9-b854-1e58572c3b2b'
+Description: The system power status indicates whether the source of power for a computer is a system battery or AC power. For computers that use batteries, the system power status also indicates how much battery life remains and whether the battery is charging.
+ms.assetid: b9a5e7de-a603-4bd9-b854-1e58572c3b2b
 title: System Power Status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Power Status
 
 The system power status indicates whether the source of power for a computer is a system battery or AC power. For computers that use batteries, the system power status also indicates how much battery life remains and whether the battery is charging.
 
-Power information is retrieved by registering for power setting notifications through the [**RegisterPowerSettingNotification**](registerpowersettingnotification.md) function. This function allows applications to register for specific power settings and be notified when they change.
+Power information is retrieved by registering for power setting notifications through the [**RegisterPowerSettingNotification**](/windows/win32/WinUser/nf-winuser-registerpowersettingnotification?branch=master) function. This function allows applications to register for specific power settings and be notified when they change.
 
 > [!Note]  
-> To query for power status information without notifications, use [**CallNtPowerInformation**](callntpowerinformation.md).
+> To query for power status information without notifications, use [**CallNtPowerInformation**](/windows/win32/Powerbase/nf-powerbase-callntpowerinformation?branch=master).
 
  
 
@@ -20,7 +25,7 @@ Applications and installable drivers typically use the system power status to de
 By default, the system does not query applications or drivers during sleep transitions.
 
 > [!Note]  
-> If power is low, an application can request user intervention or request that the system suspend itself. You can suspend system operation by using the [**SetSuspendState**](setsuspendstate.md) function.
+> If power is low, an application can request user intervention or request that the system suspend itself. You can suspend system operation by using the [**SetSuspendState**](/windows/win32/PowrProf/nf-powrprof-setsuspendstate?branch=master) function.
 
  
 

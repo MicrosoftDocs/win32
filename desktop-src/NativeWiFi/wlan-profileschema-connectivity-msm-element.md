@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains various connectivity settings.'
-ms.assetid: '2938f607-47a1-49eb-bf3f-247cab8637ec'
-title: 'connectivity (MSM) Element'
+---
+Description: Contains various connectivity settings.
+ms.assetid: 2938f607-47a1-49eb-bf3f-247cab8637ec
+title: connectivity (MSM) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # connectivity (MSM) Element

@@ -2,13 +2,19 @@
 title: dllname(str) attribute
 description: The \ dllname\ attribute defines the name of the DLL that contains the entry points for a module.
 ms.assetid: dbf062ce-9dcc-4cc6-b7cd-cdc5945e399b
-keywords: ["dllname(str) attribute MIDL"]
+keywords:
+- dllname(str) attribute MIDL
 topic_type:
 - apiref
 api_name:
 - dllname(str)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dllname(str) attribute

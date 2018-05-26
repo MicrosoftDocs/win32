@@ -1,7 +1,12 @@
 ---
 title: Example Internet Explorer 3.02 Cascading Style Sheet
 description: Example Internet Explorer 3.02 Cascading Style Sheet
-ms.assetid: 'A5A2CC7E-237F-40f8-8AC7-35907901F014'
+ms.assetid: A5A2CC7E-237F-40f8-8AC7-35907901F014
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Internet Explorer 3.02 Cascading Style Sheet

@@ -1,19 +1,26 @@
 ---
 title: CHANGE\_LOG\_ENTRY structure
 description: A change log entry.
-ms.assetid: 'adbdc6e6-895e-486d-a194-c74d2cbd0052'
-keywords: ["CHANGE_LOG_ENTRY structure System Restore", "PCHANGE_LOG_ENTRY structure pointer System Restore"]
+ms.assetid: adbdc6e6-895e-486d-a194-c74d2cbd0052
+keywords:
+- CHANGE_LOG_ENTRY structure System Restore
+- PCHANGE_LOG_ENTRY structure pointer System Restore
 topic_type:
 - apiref
 api_name:
 - CHANGE_LOG_ENTRY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CHANGE\_LOG\_ENTRY structure
 
-\[This information applies only to Windows XP with Service Pack 2 (SP2).\]
+\[This information applies only to Windows XP with Service Pack 2 (SP2).\]
 
 A change log entry.
 
@@ -23,12 +30,12 @@ A change log entry.
 ```C++
 typedef struct _CHANGE_LOG_ENTRY {
   RECORD_HEADER RecordHeader;
-  DWORD         dwMagicNum;
-  DWORD         dwEntryType;
-  DWORD         dwEntryFlags;
-  DWORD         dwAttributes;
-  INT64         i64SequenceNum;
-  WCHAR         szProcName[16];
+  DWORD         dwMagicNum;
+  DWORD         dwEntryType;
+  DWORD         dwEntryFlags;
+  DWORD         dwAttributes;
+  INT64         i64SequenceNum;
+  WCHAR         szProcName[16];
 } CHANGE_LOG_ENTRY, *PCHANGE_LOG_ENTRY;
 ```
 
@@ -174,15 +181,15 @@ The variable-length data records consist of a [**RECORD\_HEADER**](record-header
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                            |
-| End of client support<br/>    | Windows XP with SP2<br/>                       |
+| End of client support<br/>    | Windows XP with SP2<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

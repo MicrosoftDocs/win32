@@ -1,8 +1,9 @@
 ---
 title: LPSAFEARRAY\_Unmarshal function
 description: Unmarshals a SAFEARRAY object from the RPC buffer using information passed in by the LPSAFEARRAY\_UserUnmarshal function.
-ms.assetid: '70696467-23dc-4227-aa2a-2c451edb68d1'
-keywords: ["LPSAFEARRAY_Unmarshal function Automation"]
+ms.assetid: 70696467-23dc-4227-aa2a-2c451edb68d1
+keywords:
+- LPSAFEARRAY_Unmarshal function Automation
 topic_type:
 - apiref
 api_name:
@@ -11,21 +12,26 @@ api_location:
 - OleAut32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPSAFEARRAY\_Unmarshal function
 
-Unmarshals a [**SAFEARRAY**](safearray.md) object from the RPC buffer using information passed in by the [**LPSAFEARRAY\_UserUnmarshal**](lpsafearray-userunmarshal.md) function.
+Unmarshals a [**SAFEARRAY**](/windows/previous-versions/OaIdl/ns-oaidl-tagsafearray?branch=master) object from the RPC buffer using information passed in by the [**LPSAFEARRAY\_UserUnmarshal**](/windows/win32/wia_xp/nf-wia_xp-lpsafearray_userunmarshal?branch=master) function.
 
 ## Syntax
 
 
 ```C++
 unsigned char* __stdcall LPSAFEARRAY_Unmarshal(
-  _In_          unsigned long *pFlags,
-  _Inout_       unsigned char *pBuffer,
-  _In_          LPSAFEARRAY   *ppSafeArray,
-  _In_    const IID           *piid
+  _In_          unsigned long *pFlags,
+  _Inout_       unsigned char *pBuffer,
+  _In_          LPSAFEARRAY   *ppSafeArray,
+  _In_    const IID           *piid
 );
 ```
 
@@ -59,7 +65,7 @@ Receives the safe array that contains the data.
 *piid* \[in\]
 </dt> <dd>
 
-Points to an IID for an [**IDispatch**](idispatch.md) or [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. Used when the members of the safe array are **IDispatch** or **IUnknown**.
+Points to an IID for an [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) or [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface. Used when the members of the safe array are **IDispatch** or **IUnknown**.
 
 </dd> </dl>
 
@@ -75,11 +81,11 @@ The value obtained from the returned **HRESULT** value is one of the following.
 | <dl> <dt>**RPC\_X\_BAD\_STUB\_DATA** </dt> </dl> | The stub has received bad data. <br/>                                                                                                                     |
 | <dl> <dt>**E\_UNEXPECTED** </dt> </dl>           | The array could not be found.<br/>                                                                                                                        |
 | <dl> <dt>**E\_OUTOFMEMORY** </dt> </dl>          | Insufficient memory for this function to perform.<br/>                                                                                                    |
-| <dl> <dt>**DISP\_E\_BADCALLEE** </dt> </dl>      | The [**SAFEARRAY**](safearray.md) object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.<br/> |
+| <dl> <dt>**DISP\_E\_BADCALLEE** </dt> </dl>      | The [**SAFEARRAY**](/windows/previous-versions/OaIdl/ns-oaidl-tagsafearray?branch=master) object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.<br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -92,9 +98,9 @@ The value obtained from the returned **HRESULT** value is one of the following.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

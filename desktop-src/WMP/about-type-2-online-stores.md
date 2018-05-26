@@ -1,8 +1,17 @@
 ---
 title: About Type 2 Online Stores
 description: About Type 2 Online Stores
-ms.assetid: '8569dfa8-11e2-49b7-a075-0f670247eec0'
-keywords: ["Windows Media Player online stores,type 2 online stores", "online stores,type 2 online stores", "type 2 online stores,about", "Windows Media Player,type 2 online stores"]
+ms.assetid: 8569dfa8-11e2-49b7-a075-0f670247eec0
+keywords:
+- Windows Media Player online stores,type 2 online stores
+- online stores,type 2 online stores
+- type 2 online stores,about
+- Windows Media Player,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Type 2 Online Stores
@@ -10,7 +19,7 @@ keywords: ["Windows Media Player online stores,type 2 online stores", "online st
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 Windows Media Player supports two kinds of online stores: type1 and type 2. Type 1 stores are supported by Windows Media Player 11. Type 2 stores are supported by Windows Media Player 10 and Windows Media Player 11. Type 2 stores provide a basic level of integration with the Player's user interface, and type 1 stores provide a deeper integration. For more information about the difference between type 1 and type 2 stores, see [Windows Media Player Online Stores](windows-media-player-online-stores.md).
 
@@ -76,7 +85,7 @@ In Windows Media Player 11 there is only one task pane, which is displayed when 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -85,9 +94,9 @@ In Windows Media Player 11 there is only one task pane, which is displayed when 
 [**Type 2 Online Stores**](type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

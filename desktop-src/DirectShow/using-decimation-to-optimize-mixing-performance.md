@@ -1,7 +1,12 @@
 ---
 Description: Using Decimation to Optimize Mixing Performance
-ms.assetid: '94d4ce86-9d60-4fd4-ab01-851dc073680b'
+ms.assetid: 94d4ce86-9d60-4fd4-ab01-851dc073680b
 title: Using Decimation to Optimize Mixing Performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Decimation to Optimize Mixing Performance
@@ -15,9 +20,9 @@ HDTV requires a lot of processing power, which on newer systems is provided most
 
 Since this is a waste of processing power, the VMR provides a way to decimate (reduce) the image at the time it is being rendered onto the DirectDraw surface. This eliminates the extra memory copy required if the image has to be resized after it has been rendered.
 
-**VMR-7:** To enable decimation, call [**IVMRMixerControl::SetMixingPrefs**](ivmrmixercontrol-setoutputrect.md) with the MixerPref\_DecimateOutput flag.
+**VMR-7:** To enable decimation, call [**IVMRMixerControl::SetMixingPrefs**](/windows/win32/Strmif/nf-strmif-ivmrmixercontrol-setoutputrect?branch=master) with the MixerPref\_DecimateOutput flag.
 
-**VMR-9:** To enable decimation, call [**IVMRMixerControl9::SetMixingPrefs**](ivmrmixercontrol9-setmixingprefs.md) with the MixerPref9\_DecimateOutput flag.
+**VMR-9:** To enable decimation, call [**IVMRMixerControl9::SetMixingPrefs**](/windows/win32/Vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs?branch=master) with the MixerPref9\_DecimateOutput flag.
 
 The **SetMixingPrefs** method must be called before the VMR is connected. The mixing preference flags cannot be changed once the graph is running.
 

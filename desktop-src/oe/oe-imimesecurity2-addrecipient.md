@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity2 AddRecipient method
 description: Adds the specified recipient data to the message body.
-ms.assetid: '0ca95d2e-1829-47b2-ba27-1bb80c340552'
-keywords: ["AddRecipient method Windows Mail (formerly Outlook Express)", "AddRecipient method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface", "IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , AddRecipient method"]
+ms.assetid: 0ca95d2e-1829-47b2-ba27-1bb80c340552
+keywords:
+- AddRecipient method Windows Mail (formerly Outlook Express)
+- AddRecipient method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface
+- IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , AddRecipient method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity2::AddRecipient method
@@ -22,9 +30,9 @@ Adds the specified recipient data to the message body.
 
 ```C++
 HRESULT AddRecipient(
-  [in] DWORD               dwFlags,
-  [in] DWORD               cRecipData,
-  [in] PCMS_RECIPIENT_INFO recipData
+  [in] DWORD               dwFlags,
+  [in] DWORD               cRecipData,
+  [in] PCMS_RECIPIENT_INFO recipData
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

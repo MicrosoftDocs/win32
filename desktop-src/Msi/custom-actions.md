@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer provides many built-in actions for performing the installation process. For a list of these actions, see the Standard Actions Reference.'
-ms.assetid: 'fc370ab4-93f3-4e1e-9468-3454d4fee0be'
+Description: The Windows Installer provides many built-in actions for performing the installation process. For a list of these actions, see the Standard Actions Reference.
+ms.assetid: fc370ab4-93f3-4e1e-9468-3454d4fee0be
 title: Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Actions

@@ -1,8 +1,14 @@
 ---
 title: Declaring Asynchronous Functions
 description: To declare an RPC function as asynchronous, first declare the function as part of an interface definition in an Interface Definition Language (IDL) file.
-ms.assetid: '8fc627ce-ccf1-40d9-a540-14461c7fc5e1'
-keywords: ["Remote Procedure Call RPC , tasks, declaring asynchronous functions"]
+ms.assetid: 8fc627ce-ccf1-40d9-a540-14461c7fc5e1
+keywords:
+- Remote Procedure Call RPC , tasks, declaring asynchronous functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Declaring Asynchronous Functions

@@ -1,7 +1,12 @@
 ---
-Description: 'The IESP interface provides the methods that connect the NPP to the network, capture network traffic to a capture file, retrieve statistics, and disconnect the NPP from the network.'
-ms.assetid: 'e483f501-4928-4bfd-b212-e100f2b8f64f'
+Description: The IESP interface provides the methods that connect the NPP to the network, capture network traffic to a capture file, retrieve statistics, and disconnect the NPP from the network.
+ms.assetid: e483f501-4928-4bfd-b212-e100f2b8f64f
 title: IESP interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP interface
@@ -35,7 +40,7 @@ The **IESP** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,16 +48,16 @@ The **IESP** interface has these methods.
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the device.'
-ms.assetid: 'fcd47515-7be5-46ba-837c-a6d644946638'
-title: 'FaxDevice.TSID property'
+---
+Description: The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the device.
+ms.assetid: fcd47515-7be5-46ba-837c-a6d644946638
+title: FaxDevice.TSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.TSID property
@@ -53,7 +58,7 @@ A **String** that specifies or receives the TSID for the fax device. The **Strin
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

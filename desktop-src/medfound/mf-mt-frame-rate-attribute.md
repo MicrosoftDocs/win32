@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frame rate of a video media type, in frames per second.'
-ms.assetid: '8336559c-06f1-478e-b921-e9eae7425230'
-title: 'MF\_MT\_FRAME\_RATE attribute'
+---
+Description: Frame rate of a video media type, in frames per second.
+ms.assetid: 8336559c-06f1-478e-b921-e9eae7425230
+title: MF\_MT\_FRAME\_RATE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_FRAME\_RATE attribute
@@ -16,7 +21,7 @@ Frame rate of a video media type, in frames per second.
 
 The frame rate is expressed as a ratio. The upper 32 bits of the attribute value contain the numerator and the lower 32 bits contain the denominator. For example, if the frame rate is 30 frames per second (fps), the ratio is 30/1. If the frame rate is 29.97 fps, the ratio is 30,000/1001.
 
-To set the value, use the [**MFSetAttributeRatio**](mfsetattributeratio.md) function. To get the value, use the [**MFGetAttributeRatio**](mfgetattributeratio.md) function.
+To set the value, use the [**MFSetAttributeRatio**](/windows/win32/mfapi/nf-mfapi-mfsetattributeratio?branch=master) function. To get the value, use the [**MFGetAttributeRatio**](/windows/win32/mfapi/nf-mfapi-mfgetattributeratio?branch=master) function.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -85,16 +90,16 @@ inline HRESULT GetFrameRate(
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)
 </dt> <dt>
 
-[**MFAverageTimePerFrameToFrameRate**](mfaveragetimeperframetoframerate.md)
+[**MFAverageTimePerFrameToFrameRate**](/windows/win32/mfapi/nf-mfapi-mfaveragetimeperframetoframerate?branch=master)
 </dt> <dt>
 
-[**MFFrameRateToAverageTimePerFrame**](mfframeratetoaveragetimeperframe.md)
+[**MFFrameRateToAverageTimePerFrame**](/windows/win32/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe?branch=master)
 </dt> </dl>
 
  

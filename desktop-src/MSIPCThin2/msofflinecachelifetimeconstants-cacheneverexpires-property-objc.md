@@ -4,17 +4,21 @@ description: Gets the current setting for CacheNeverExpires.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4B1A9338-F1BA-4BCC-B537-0CEDEB56A505'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4B1A9338-F1BA-4BCC-B537-0CEDEB56A505
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSOfflineCacheLifetimeConstants CacheNeverExpires property"]
+keywords:
+- MSOfflineCacheLifetimeConstants CacheNeverExpires property
 topic_type:
 - apiref
 api_name:
 - MSOfflineCacheLifetimeConstants CacheNeverExpires property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSOfflineCacheLifetimeConstants CacheNeverExpires property
@@ -45,11 +49,11 @@ MSOfflineCacheLifetimeConstants.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

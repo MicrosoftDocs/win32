@@ -1,8 +1,14 @@
 ---
-title: What's New in Hyper-V WMI Provider
+title: Whats New in Hyper-V WMI Provider
 description: Windows Server 2008 R2 introduced the following changes to the Hyper-V WMI provider.
-ms.assetid: 'cfb88fe1-297e-4ece-b928-523583c19329'
-keywords: ["What's New in Hyper-V WMI Provider Hyper-V"]
+ms.assetid: cfb88fe1-297e-4ece-b928-523583c19329
+keywords:
+- Whats New in Hyper-V WMI Provider Hyper-V
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Hyper-V WMI Provider

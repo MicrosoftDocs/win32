@@ -1,8 +1,10 @@
 ---
 title: STORAGE\_BUS\_TYPE enumeration
 description: The STORAGE\_BUS\_TYPE enumeration provides a symbolic means of representing storage bus types.
-ms.assetid: '4c56f6e6-0909-447a-95f9-e131c0ac0a0c'
-keywords: ["STORAGE_BUS_TYPE enumeration Storage Devices", "PSTORAGE_BUS_TYPE enumeration pointer Storage Devices"]
+ms.assetid: 4c56f6e6-0909-447a-95f9-e131c0ac0a0c
+keywords:
+- STORAGE_BUS_TYPE enumeration Storage Devices
+- PSTORAGE_BUS_TYPE enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_BUS\_TYPE enumeration
@@ -22,25 +29,25 @@ The STORAGE\_BUS\_TYPE enumeration provides a symbolic means of representing sto
 
 ```C++
 typedef enum _STORAGE_BUS_TYPE { 
-  BusTypeUnknown            = 0x00,
-  BusTypeScsi               = 0x1,
-  BusTypeAtapi              = 0x2,
-  BusTypeAta                = 0x3,
-  BusType1394               = 0x4,
-  BusTypeSsa                = 0x5,
-  BusTypeFibre              = 0x6,
-  BusTypeUsb                = 0x7,
-  BusTypeRAID               = 0x8,
-  BusTypeiScsi              = 0x9,
-  BusTypeSas                = 0xA,
-  BusTypeSata               = 0xB,
-  BusTypeSd                 = 0xC,
-  BusTypeMmc                = 0xD,
-  BusTypeVirtual            = 0xE,
-  BusTypeFileBackedVirtual  = 0xF,
-  BusTypeSpaces             = 0x10,
-  BusTypeMax                = 0x11,
-  BusTypeMaxReserved        = 0x7F
+  BusTypeUnknown            = 0x00,
+  BusTypeScsi               = 0x1,
+  BusTypeAtapi              = 0x2,
+  BusTypeAta                = 0x3,
+  BusType1394               = 0x4,
+  BusTypeSsa                = 0x5,
+  BusTypeFibre              = 0x6,
+  BusTypeUsb                = 0x7,
+  BusTypeRAID               = 0x8,
+  BusTypeiScsi              = 0x9,
+  BusTypeSas                = 0xA,
+  BusTypeSata               = 0xB,
+  BusTypeSd                 = 0xC,
+  BusTypeMmc                = 0xD,
+  BusTypeVirtual            = 0xE,
+  BusTypeFileBackedVirtual  = 0xF,
+  BusTypeSpaces             = 0x10,
+  BusTypeMax                = 0x11,
+  BusTypeMaxReserved        = 0x7F
 } STORAGE_BUS_TYPE, *PSTORAGE_BUS_TYPE;
 ```
 
@@ -189,9 +196,9 @@ Indicates the maximum value for this value.
 
 
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20STORAGE_BUS_TYPE%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -4,17 +4,22 @@ description: Generic AzMan-specific data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dc780736-0d45-49b4-9368-ccd43436b18b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dc780736-0d45-49b4-9368-ccd43436b18b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Az-Generic-Data attribute AD Schema", "msDS-AzGenericData attribute AD Schema"]
+keywords:
+- ms-DS-Az-Generic-Data attribute AD Schema
+- msDS-AzGenericData attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Az-Generic-Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Az-Generic-Data attribute
@@ -38,9 +43,9 @@ Generic AzMan-specific data.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Generic AzMan-specific data.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

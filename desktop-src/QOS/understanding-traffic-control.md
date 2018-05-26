@@ -1,8 +1,14 @@
 ---
 title: Understanding Traffic Control
 description: Traffic control, commonly referred to as TC, regulates traffic on local hosts.
-ms.assetid: '566a5524-5af7-424a-86ab-aa3a55178c69'
-keywords: ["Quality of Service QOS , described, traffic control"]
+ms.assetid: 566a5524-5af7-424a-86ab-aa3a55178c69
+keywords:
+- Quality of Service QOS , described, traffic control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Traffic Control

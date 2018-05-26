@@ -1,8 +1,11 @@
 ---
 title: CategoryCollection ~CategoryCollection destructor
 description: Destructor method.
-ms.assetid: 'A7AB181B-A019-4AB7-B011-FA9023D2D593'
-keywords: ["~CategoryCollection destructor Access Execution Engine", "~CategoryCollection destructor Access Execution Engine , CategoryCollection interface", "CategoryCollection interface Access Execution Engine , ~CategoryCollection destructor"]
+ms.assetid: A7AB181B-A019-4AB7-B011-FA9023D2D593
+keywords:
+- ~CategoryCollection destructor Access Execution Engine
+- ~CategoryCollection destructor Access Execution Engine , CategoryCollection interface
+- CategoryCollection interface Access Execution Engine , ~CategoryCollection destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CategoryCollection::~CategoryCollection destructor
@@ -36,8 +44,8 @@ A **CategoryCollection** object holds data from element **Issue/Categories**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ A **CategoryCollection** object holds data from element **Issue/Categories**.
 [**CategoryCollection**](categorycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

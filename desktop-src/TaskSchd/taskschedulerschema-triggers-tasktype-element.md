@@ -1,14 +1,20 @@
 ---
 title: Triggers (taskType) Element
 description: Specifies the triggers that start the task.
-ms.assetid: '4bf8e85e-3742-433d-821f-736fb2ff7139'
-keywords: ["Triggers element Task Scheduler"]
+ms.assetid: 4bf8e85e-3742-433d-821f-736fb2ff7139
+keywords:
+- Triggers element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Triggers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Triggers (taskType) Element
@@ -53,7 +59,7 @@ The **Triggers** element is defined by the [**triggersType**](taskschedulerschem
 
 The child elements listed above can be added in any order.
 
-For C++ development, the triggers of a task are specified using the [**Triggers property of ITaskDefinition**](itaskdefinition-triggers.md).
+For C++ development, the triggers of a task are specified using the [**Triggers property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_triggers?branch=master).
 
 For scripting development, the triggers of a task are specified using the [**TaskDefinition.Triggers**](taskdefinition-triggers.md) property.
 
@@ -67,8 +73,8 @@ For a complete example of the XML for a task that specifies a trigger, see [Time
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +88,9 @@ For a complete example of the XML for a task that specifies a trigger, see [Time
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

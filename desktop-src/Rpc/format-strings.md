@@ -1,7 +1,12 @@
 ---
 title: Format Strings
 description: A format string is an interpreted token that the NDR engine understands. Format strings are often referred to as MOPs; this documentation uses the term format string throughout.
-ms.assetid: '548283bd-023a-41dd-b1d0-661305d019e9'
+ms.assetid: 548283bd-023a-41dd-b1d0-661305d019e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format Strings

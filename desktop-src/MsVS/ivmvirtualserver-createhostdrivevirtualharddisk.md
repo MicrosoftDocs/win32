@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer CreateHostDriveVirtualHardDisk method
 description: The CreateHostDriveVirtualHardDisk method creates a virtual hard disk that is linked to a host drive.
-ms.assetid: '78a439fb-1daf-437f-b417-db579fc54b14'
-keywords: ["CreateHostDriveVirtualHardDisk method Virtual Server", "CreateHostDriveVirtualHardDisk method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , CreateHostDriveVirtualHardDisk method"]
+ms.assetid: 78a439fb-1daf-437f-b417-db579fc54b14
+keywords:
+- CreateHostDriveVirtualHardDisk method Virtual Server
+- CreateHostDriveVirtualHardDisk method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , CreateHostDriveVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::CreateHostDriveVirtualHardDisk method
@@ -22,10 +30,10 @@ The **CreateHostDriveVirtualHardDisk** method creates a virtual hard disk that i
 
 ```C++
 HRESULT CreateHostDriveVirtualHardDisk(
-  [in]  BSTR         imagePath,
-  [in]  BSTR         hostDriveIdentifier,
-  [in]  VARIANT_BOOL mountReadOnly,
-  [out] IVMTask      **diskTask
+  [in]  BSTR         imagePath,
+  [in]  BSTR         hostDriveIdentifier,
+  [in]  VARIANT_BOOL mountReadOnly,
+  [out] IVMTask      **diskTask
 );
 ```
 
@@ -87,7 +95,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,8 +103,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -108,9 +116,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

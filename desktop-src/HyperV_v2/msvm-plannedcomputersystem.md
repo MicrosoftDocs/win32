@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a planned virtual machine.'
-ms.assetid: '4ce6d34c-66fb-4f4f-bf52-26d19bab6d4a'
-title: 'Msvm\_PlannedComputerSystem class'
+Description: Represents a planned virtual machine.
+ms.assetid: 4ce6d34c-66fb-4f4f-bf52-26d19bab6d4a
+title: Msvm\_PlannedComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_PlannedComputerSystem class
@@ -16,41 +21,41 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_PlannedComputerSystem : CIM_ComputerSystem
 {
-  string   InstanceID;
-  string   Caption = "Planned Virtual Machine";
-  string   Description = "Microsoft Planned Virtual Machine";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "Planned Virtual Machine";
+  string   Description = "Microsoft Planned Virtual Machine";
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "The service is running normally" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "The service is running normally" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   CreationClassName;
-  string   Name;
-  string   NameFormat;
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   Roles[];
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
-  string   OtherDedicatedDescriptions[];
-  uint16   ResetCapability;
-  uint16   PowerManagementCapabilities[];
-  uint16   AssignedNumaNodeList[];
-  uint64   OnTimeInMilliseconds;
-  uint32   ProcessID;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   CreationClassName;
+  string   Name;
+  string   NameFormat;
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   Roles[];
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
+  string   OtherDedicatedDescriptions[];
+  uint16   ResetCapability;
+  uint16   PowerManagementCapabilities[];
+  uint16   AssignedNumaNodeList[];
+  uint64   OnTimeInMilliseconds;
+  uint32   ProcessID;
   datetime TimeOfLastConfigurationChange;
 };
 ```
@@ -75,7 +80,7 @@ The **Msvm\_PlannedComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -249,7 +254,7 @@ This property is inherited from the [**CIM\_ComputerSystem**](https://msdn.micro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -312,7 +317,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -336,7 +341,7 @@ Specifies the enabled state of the planned system. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -359,7 +364,7 @@ The current health of the element. This property expresses the health of this el
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -611,7 +616,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -638,7 +643,7 @@ Specifies the reset capabilities of the computer system. This property is inheri
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -738,7 +743,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -748,8 +753,8 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -766,9 +771,9 @@ Indicates the target state to which the instance is transitioning. This property
 [**Msvm\_VirtualSystemManagementService .ImportSystemDefinition method**](importsystemdefinition-msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

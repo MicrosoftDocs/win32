@@ -1,8 +1,9 @@
 ---
 title: RB\_SETBANDWIDTH message
 description: Sets the width for a docked band.
-ms.assetid: 'dca9dfe9-3e5a-40bb-8de7-a296e6be7d06'
-keywords: ["RB_SETBANDWIDTH message Windows Controls"]
+ms.assetid: dca9dfe9-3e5a-40bb-8de7-a296e6be7d06
+keywords:
+- RB_SETBANDWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETBANDWIDTH message
@@ -45,15 +51,15 @@ Returns **TRUE** if the value was set and **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

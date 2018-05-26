@@ -1,14 +1,20 @@
 ---
 title: UpdateUrl element
 description: This is URL that refers to a location that solution can use to check for an update to the assessment.
-ms.assetid: '48E405DE-6315-4717-A062-785BFE18C1B4'
-keywords: ["UpdateUrl element Access Execution Engine"]
+ms.assetid: 48E405DE-6315-4717-A062-785BFE18C1B4
+keywords:
+- UpdateUrl element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - UpdateUrl
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateUrl element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

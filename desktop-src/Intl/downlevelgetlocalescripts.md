@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides a list of scripts for the specified locale.'
-ms.assetid: '0cedcf6c-bab4-4e0f-ab8f-04aa8e51602f'
+---
+Description: Provides a list of scripts for the specified locale.
+ms.assetid: 0cedcf6c-bab4-4e0f-ab8f-04aa8e51602f
 title: DownlevelGetLocaleScripts function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelGetLocaleScripts function
@@ -9,7 +14,7 @@ title: DownlevelGetLocaleScripts function
 Provides a list of scripts for the specified locale.
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetLocaleInfo**](getlocaleinfo.md) with *LCType* set to [LOCALE\_SSCRIPTS](locale-sscripts.md).
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) with *LCType* set to [LOCALE\_SSCRIPTS](locale-sscripts.md).
 
  
 
@@ -120,7 +125,7 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
 [**DownlevelVerifyScripts**](downlevelverifyscripts.md)
 </dt> <dt>
 
-[**GetLocaleInfo**](getlocaleinfo.md)
+[**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master)
 </dt> </dl>
 
  

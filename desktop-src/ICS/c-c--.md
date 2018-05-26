@@ -1,7 +1,12 @@
 ---
 title: C/C++
 description: C/C++
-ms.assetid: '54FF5C6A-3AFA-4722-9E60-F9B787A83D4F'
+ms.assetid: 54FF5C6A-3AFA-4722-9E60-F9B787A83D4F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++

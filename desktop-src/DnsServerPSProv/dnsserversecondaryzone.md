@@ -2,13 +2,15 @@
 title: DnsServerSecondaryZone class
 description: Represents a secondary DNS zone.
 audience: developer
-ms.assetid: 'f4a753e7-0b32-4622-9214-7d6823e1738a'
-ms.prod: 'windows-server-dev'
+ms.assetid: f4a753e7-0b32-4622-9214-7d6823e1738a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerSecondaryZone class", "DnsServerSecondaryZone class, described"]
+keywords:
+- DnsServerSecondaryZone class
+- DnsServerSecondaryZone class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerSecondaryZone class
@@ -48,23 +53,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerSecondaryZone : DnsServerZone
 {
-  string   DistinguishedName;
-  string   ZoneName;
-  string   ZoneType;
-  boolean  IsPaused;
-  boolean  IsDsIntegrated;
-  boolean  IsAutoCreated;
-  boolean  IsReverseLookupZone;
-  boolean  IsReadOnly;
-  boolean  IsShutdown;
-  string   ZoneFile;
-  string   MasterServers[];
-  boolean  IsWinsEnabled;
+  string   DistinguishedName;
+  string   ZoneName;
+  string   ZoneType;
+  boolean  IsPaused;
+  boolean  IsDsIntegrated;
+  boolean  IsAutoCreated;
+  boolean  IsReverseLookupZone;
+  boolean  IsReadOnly;
+  boolean  IsShutdown;
+  string   ZoneFile;
+  string   MasterServers[];
+  boolean  IsWinsEnabled;
   datetime LastSuccessfulSoaCheck;
   datetime LastZoneTransferAttempt;
   datetime LastSuccessfulZoneTransfer;
-  uint32   LastZoneTransferResult;
-  boolean  IgnorePolicies;
+  uint32   LastZoneTransferResult;
+  boolean  IgnorePolicies;
 };
 ```
 
@@ -106,7 +111,7 @@ Access type: Read-only
 
 **true** if the policies of this zone are to be ignored; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -365,7 +370,7 @@ This property is inherited from [**DnsServerZone**](dnsserverzone.md).
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -382,9 +387,9 @@ This property is inherited from [**DnsServerZone**](dnsserverzone.md).
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

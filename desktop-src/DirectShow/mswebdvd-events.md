@@ -1,7 +1,12 @@
 ---
 Description: MSWebDVD Events
-ms.assetid: 'e43ea4ad-8ebe-4096-a9f3-a8f618b46877'
+ms.assetid: e43ea4ad-8ebe-4096-a9f3-a8f618b46877
 title: MSWebDVD Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSWebDVD Events

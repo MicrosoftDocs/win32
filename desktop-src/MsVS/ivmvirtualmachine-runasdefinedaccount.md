@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine RunAsDefinedAccount property
 description: The RunAsDefinedAccount property indicates whether this virtual machine should always be run in the same account.
-ms.assetid: '4605e724-c445-4a08-898e-5f88766a86ca'
-keywords: ["RunAsDefinedAccount property Virtual Server", "RunAsDefinedAccount property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , RunAsDefinedAccount property", "RunAsDefinedAccount property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , RunAsDefinedAccount property"]
+ms.assetid: 4605e724-c445-4a08-898e-5f88766a86ca
+keywords:
+- RunAsDefinedAccount property Virtual Server
+- RunAsDefinedAccount property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , RunAsDefinedAccount property
+- RunAsDefinedAccount property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , RunAsDefinedAccount property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RunAsDefinedAccount property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RunAsDefinedAccount(
-  [in]  VARIANT_BOOL runAsDefinedAccountEnabled
+  [in]  VARIANT_BOOL runAsDefinedAccountEnabled
 );
 
 HRESULT get_RunAsDefinedAccount(
-  [out] VARIANT_BOOL *runAsDefinedAccountEnabled
+  [out] VARIANT_BOOL *runAsDefinedAccountEnabled
 );
 ```
 
@@ -98,8 +108,8 @@ WScript.Echo "Run as defined account" & objVM.RunAsDefinedAccount
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -111,9 +121,9 @@ WScript.Echo "Run as defined account" & objVM.RunAsDefinedAccount
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPV6\_PROTECTION\_LEVEL socket option enables developers to place access restrictions on IPv6 sockets.'
-ms.assetid: 'bfb934b3-1e86-431f-a21c-880048d32d35'
-title: 'IPV6\_PROTECTION\_LEVEL'
+---
+Description: The IPV6\_PROTECTION\_LEVEL socket option enables developers to place access restrictions on IPv6 sockets.
+ms.assetid: bfb934b3-1e86-431f-a21c-880048d32d35
+title: IPV6\_PROTECTION\_LEVEL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPV6\_PROTECTION\_LEVEL
@@ -30,7 +35,7 @@ The following code example provides the defined values for each:
 #define PROTECTION_LEVEL_RESTRICTED     30  /* for Intranet apps     */
 ```
 
-These values are mutually exclusive, and cannot be combined in a single [**setsockopt**](setsockopt-2.md) function call. Other values for this socket option are reserved. These protection levels apply only to incoming connections. Setting this socket option has no effect on outbound packets or connections.
+These values are mutually exclusive, and cannot be combined in a single [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function call. Other values for this socket option are reserved. These protection levels apply only to incoming connections. Setting this socket option has no effect on outbound packets or connections.
 
 On Windows 7 and Windows Server 2008 R2, the default value for IPV6\_PROTECTION\_LEVEL is unspecified and **PROTECTION\_LEVEL\_DEFAULT** is defined to -1, an illegal value for IPV6\_PROTECTION\_LEVEL.
 
@@ -39,7 +44,7 @@ On Windows Vista and Windows Server 2008, the default value for IPV6\_PROTECTI
 On Windows Server 2003 and Windows XP, the default value for IPV6\_PROTECTION\_LEVEL is **PROTECTION\_LEVEL\_EDGERESTRICTED** and **PROTECTION\_LEVEL\_DEFAULT** is defined to be **PROTECTION\_LEVEL\_EDGERESTRICTED**.
 
 > [!Note]  
-> The IPV6\_PROTECTION\_LEVEL socket option should be set before the socket is bound. Otherwise, packets received between [**bind**](bind-2.md) and [**setsockopt**](setsockopt-2.md) calls will conform to **PROTECTION\_LEVEL\_EDGERESTRICTED**, and may be delivered to the application.
+> The IPV6\_PROTECTION\_LEVEL socket option should be set before the socket is bound. Otherwise, packets received between [**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master) and [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) calls will conform to **PROTECTION\_LEVEL\_EDGERESTRICTED**, and may be delivered to the application.
 
  
 
@@ -112,13 +117,13 @@ When incoming packets or connections are refused due to the set protection level
 
 <dl> <dt>
 
-[**getsockopt**](getsockopt-2.md)
+[**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master)
 </dt> <dt>
 
 [Receiving Solicited Traffic Over Teredo](teredo.receiving_solicited_traffic_over_teredo)
 </dt> <dt>
 
-[**setsockopt**](setsockopt-2.md)
+[**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master)
 </dt> </dl>
 
  

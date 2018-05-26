@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo MemoryAvail property
 description: The MemoryAvail property contains the total quantity, in megabytes, of available RAM in the host machine.
-ms.assetid: 'f894dcdb-1fda-4158-b7ee-87e5be797931'
-keywords: ["MemoryAvail property Virtual Server", "MemoryAvail property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , MemoryAvail property", "MemoryAvail property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , MemoryAvail property"]
+ms.assetid: f894dcdb-1fda-4158-b7ee-87e5be797931
+keywords:
+- MemoryAvail property Virtual Server
+- MemoryAvail property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , MemoryAvail property
+- MemoryAvail property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , MemoryAvail property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::MemoryAvail property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MemoryAvail(
-  [out] VARIANT *megabytesOfMemory
+  [out] VARIANT *megabytesOfMemory
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

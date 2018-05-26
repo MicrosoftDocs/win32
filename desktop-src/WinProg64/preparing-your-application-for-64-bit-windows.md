@@ -1,8 +1,14 @@
 ---
 title: Preparing Your Application for 64-bit Windows
 description: There are several features that make it easier for you to develop applications that will run on both 32- and 64-bit Windows. Most of these, such as the new data types, are described in Getting Ready for 64-bit Windows.
-ms.assetid: '6559b0ab-17cf-4bec-bf2d-3a0da0a344d3'
-keywords: ["64-bit toolkit 64-bit Windows Programming"]
+ms.assetid: 6559b0ab-17cf-4bec-bf2d-3a0da0a344d3
+keywords:
+- 64-bit toolkit 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preparing Your Application for 64-bit Windows

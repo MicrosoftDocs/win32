@@ -1,7 +1,12 @@
 ---
 Description: WaaS Assessment Reference
-ms.assetid: '1B3C8EE1-607A-43F8-AF6E-855CF2D37191'
+ms.assetid: 1B3C8EE1-607A-43F8-AF6E-855CF2D37191
 title: WaaS Assessment Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaaS Assessment Reference

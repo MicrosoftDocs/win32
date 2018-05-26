@@ -4,10 +4,13 @@ description: Authentication types permitted for a connection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fbe05142-2a1b-49a0-94d2-d72cdba9cf09'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: fbe05142-2a1b-49a0-94d2-d72cdba9cf09
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NP-Authentication-Type
@@ -22,7 +25,7 @@ Authentication types permitted for a connection.
 
 **Values:  **
 
-Defined in the [**AUTHENTICATION\_TYPE**](sdo-authentication-type.md) enumerated type declared in the SdoIas.h public header file.
+Defined in the [**AUTHENTICATION\_TYPE**](/windows/win32/SdoIas/ne-sdoias-_authentication_type?branch=master) enumerated type declared in the SdoIas.h public header file.
 
 -   **IAS\_AUTH\_INVALID** (0)
 -   **IAS\_AUTH\_PAP** (1)

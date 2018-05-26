@@ -1,7 +1,12 @@
 ---
 title: Example Create a Global Script File
 description: Example Create a Global Script File
-ms.assetid: '96BB8F7A-A85D-4568-83AA-2B7BEF4CCF03'
+ms.assetid: 96BB8F7A-A85D-4568-83AA-2B7BEF4CCF03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create a Global Script File

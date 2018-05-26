@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the minimum number of progressive samples that the Microsoft Media Foundation transform (MFT) should allow to be oustanding at any given time.'
-ms.assetid: 'C1F27F39-FADA-4644-ACD6-B02EAD9CFFE7'
-title: 'MF\_SA\_MINIMUM\_OUTPUT\_SAMPLE\_COUNT\_PROGRESSIVE attribute'
+---
+Description: Indicates the minimum number of progressive samples that the Microsoft Media Foundation transform (MFT) should allow to be oustanding at any given time.
+ms.assetid: C1F27F39-FADA-4644-ACD6-B02EAD9CFFE7
+title: MF\_SA\_MINIMUM\_OUTPUT\_SAMPLE\_COUNT\_PROGRESSIVE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SA\_MINIMUM\_OUTPUT\_SAMPLE\_COUNT\_PROGRESSIVE attribute
@@ -18,8 +23,8 @@ This attribute applies only to MFTs that use a circular buffer to allocate their
 
 To set this attribute:
 
-1.  Call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) on the decoder to get an [**IMFAttributes**](imfattributes.md) pointer.
-2.  Call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md) to add the attribute.
+1.  Call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) on the decoder to get an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer.
+2.  Call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master) to add the attribute.
 
 ## Requirements
 

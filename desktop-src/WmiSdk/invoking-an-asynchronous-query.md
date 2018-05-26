@@ -1,13 +1,16 @@
 ---
-Description: 'An asynchronous query, while somewhat more complex to write, is the preferred type of query when system or network performance will be affected by querying a large group of data.'
+Description: An asynchronous query, while somewhat more complex to write, is the preferred type of query when system or network performance will be affected by querying a large group of data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b382610a-dac9-4d31-b756-aa84d16f0234'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b382610a-dac9-4d31-b756-aa84d16f0234
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Invoking an Asynchronous Query
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Invoking an Asynchronous Query
@@ -49,13 +52,13 @@ The following procedure describes how to perform an asynchronous query in C++.
 
     An **IWbemSink** object receives information about an asynchronous operation.
 
-2.  Describe your query in a call to [**IWbemServices::ExecQueryAsync**](iwbemservices-execqueryasync.md).
+2.  Describe your query in a call to [**IWbemServices::ExecQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master).
 
     WMI immediately moves the process that queries the CIM to another thread and frees up the thread that executed the query for another task.
 
-3.  Wait for WMI to call the [**IWbemObjectSink::Indicate**](iwbemobjectsink-indicate.md) method.
+3.  Wait for WMI to call the [**IWbemObjectSink::Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master) method.
 
-    When finished, WMI calls [**Indicate**](iwbemobjectsink-indicate.md) to signal your application that the query is complete. WMI also returns results of the query to the sink as a pointer to an [**IEnumWbemClassObject**](ienumwbemclassobject.md) interface pointer. As with a synchronous query, use the pointer to access the objects that make up the result of your query.
+    When finished, WMI calls [**Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master) to signal your application that the query is complete. WMI also returns results of the query to the sink as a pointer to an [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) interface pointer. As with a synchronous query, use the pointer to access the objects that make up the result of your query.
 
 The following code example does not compile without an error because the class QuerySink has not been defined. For the definition of the QuerySink class, see [**IWbemObjectSink**](iwbemobjectsink.md). The code example also requires the following reference and \#include statements.
 

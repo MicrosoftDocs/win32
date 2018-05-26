@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for the NetPeerDist Provider classes that manage the Branch Cache infrastructure. These classes are declared in NetPeerDistCim.mof and implemented in NetPeerDistCim.dll.'
-ms.assetid: '07913E3D-4F8D-4E06-BEF5-A7B054586FDC'
+Description: This section provides reference information for the NetPeerDist Provider classes that manage the Branch Cache infrastructure. These classes are declared in NetPeerDistCim.mof and implemented in NetPeerDistCim.dll.
+ms.assetid: 07913E3D-4F8D-4E06-BEF5-A7B054586FDC
 title: NetPeerDist Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetPeerDist Provider
@@ -31,11 +36,11 @@ This section provides reference information for the **NetPeerDist** Provider cla
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

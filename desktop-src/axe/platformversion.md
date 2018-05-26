@@ -1,14 +1,20 @@
 ---
 title: PlatformVersion element
 description: The version of Windows on the platform where the analysis job ran.
-ms.assetid: 'F4B5AA26-6614-49AC-95F5-884D2BA3A0C6'
-keywords: ["PlatformVersion element Access Execution Engine"]
+ms.assetid: F4B5AA26-6614-49AC-95F5-884D2BA3A0C6
+keywords:
+- PlatformVersion element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - PlatformVersion
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlatformVersion element

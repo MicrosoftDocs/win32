@@ -1,7 +1,12 @@
 ---
 title: rcp (sm5 - asm)
 description: Component-wise reciprocal.
-ms.assetid: '499A14D6-36DB-4860-94D1-887D931E60D4'
+ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # rcp (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise reciprocal.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Component-wise reciprocal.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ The following table shows the results obtained when executing the instruction wi
 
 
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -57,7 +62,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -76,7 +81,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -85,9 +90,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

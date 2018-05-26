@@ -1,15 +1,18 @@
 ---
-Description: 'The EnableDHCP WMI class method enables the Dynamic Host Configuration Protocol (DHCP) for service with this network adapter. DHCP allows IP addresses to be dynamically allocated.'
+Description: The EnableDHCP WMI class method enables the Dynamic Host Configuration Protocol (DHCP) for service with this network adapter. DHCP allows IP addresses to be dynamically allocated.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8c61d731-77a3-4ef4-bad9-26edaca60892'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8c61d731-77a3-4ef4-bad9-26edaca60892
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'EnableDHCP method of the Win32\_NetworkAdapterConfiguration class'
+title: EnableDHCP method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableDHCP method of the Win32\_NetworkAdapterConfiguration class
@@ -382,7 +385,7 @@ DHCP not enabled on the adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -399,7 +402,7 @@ The following VBScript code sample demonstrates how to enable DHCP use on an ins
 > [!Note]  
 > Supported on NT platforms only.
 
- 
+ 
 
 
 ```VB
@@ -421,7 +424,7 @@ The following Perl code sample demonstrates how to enable DHCP use on an instanc
 > [!Note]  
 > Supported on NT platforms only.
 
- 
+ 
 
 
 ```
@@ -459,8 +462,8 @@ else
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -486,9 +489,9 @@ else
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

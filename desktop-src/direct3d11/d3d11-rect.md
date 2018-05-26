@@ -1,8 +1,9 @@
 ---
 title: D3D11\_RECT
 description: D3D11\_RECT is declared as follows
-ms.assetid: '737B47A3-E609-48E4-A0B6-017206E500B1'
-keywords: ["D3D11_RECT Direct3D 11"]
+ms.assetid: 737B47A3-E609-48E4-A0B6-017206E500B1
+keywords:
+- D3D11_RECT Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - D3D11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D11\_RECT
@@ -26,7 +32,7 @@ For more information about this GDI rectangle structure, see [**RECT**](https://
 
 ## Remarks
 
-This structure is used for scissor rectangles by [**ID3D11DeviceContext::RSGetScissorRects**](id3d11devicecontext-rsgetscissorrects.md) and [**ID3D11DeviceContext::RSSetScissorRects**](id3d11devicecontext-rssetscissorrects.md).
+This structure is used for scissor rectangles by [**ID3D11DeviceContext::RSGetScissorRects**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rsgetscissorrects?branch=master) and [**ID3D11DeviceContext::RSSetScissorRects**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetscissorrects?branch=master).
 
 ## Requirements
 
@@ -46,9 +52,9 @@ This structure is used for scissor rectangles by [**ID3D11DeviceContext::RSGetSc
 [Core Structures](d3d11-graphics-reference-d3d11-core-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

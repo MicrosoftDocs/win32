@@ -1,8 +1,14 @@
 ---
 title: Bluetooth and WSALookupServiceBegin for Device Inquiry
 description: This topic describes how to use the WSALookupServiceBegin function to perform an inquiry of both visible and ghosted devices. For more information, see Discovering Bluetooth Devices and Services.
-ms.assetid: '32fa710f-8645-4cf3-a882-cc032d66d979'
-keywords: ["Bluetooth and WSALookupServiceBegin for Device Inquiry Bluetooth"]
+ms.assetid: 32fa710f-8645-4cf3-a882-cc032d66d979
+keywords:
+- Bluetooth and WSALookupServiceBegin for Device Inquiry Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and WSALookupServiceBegin for Device Inquiry
@@ -36,7 +42,7 @@ The following table lists restrictions that apply to the [**WSAQUERYSET**](https
 <td>This member contains an optional pointer to a [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure. If this member is specified, the valid device inquire parameters for <strong>LUP_FLUSHCACHE</strong> are as follows:
 <ul>
 <li>The <strong>cbSize</strong> member of the [<strong>BLOB</strong>](https://msdn.microsoft.com/library/windows/desktop/ms737551) structure must be <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li>
-<li>The <strong>pBlobData</strong> member is a pointer to a [<strong>BTH_QUERY_DEVICE</strong>](bth-query-device.md) structure, for which the <strong>LAP</strong> member is the Bluetooth inquiry access code, and the <strong>length</strong> member is the length, in seconds, of the inquiry.</li>
+<li>The <strong>pBlobData</strong> member is a pointer to a [<strong>BTH_QUERY_DEVICE</strong>](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_device?branch=master) structure, for which the <strong>LAP</strong> member is the Bluetooth inquiry access code, and the <strong>length</strong> member is the length, in seconds, of the inquiry.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -62,9 +68,9 @@ The flags listed in the following table are used in the *dwControlFlags* paramet
 | LUP\_FLUSHCACHE    | Triggers an inquiry of local devices or causes cached results from previous queries to be returned.                                                                                                                                                                                                                                                                                                                |
 | LUP\_RETURN\_TYPE  | Return the Bluetooth COD (class of device bits) directly in the **lpServiceClassId** member of the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure. The COD is mapped to the **Data1** member of the GUID.                                                                                                                                                                                                      |
 | LUP\_RES\_SERVICE  | Return information for the local Bluetooth address. This flag has an effect only if **LUP\_RETURN\_ADDR** is also specified.                                                                                                                                                                                                                                                                                       |
-| LUP\_RETURN\_NAME  | Return the display name of the device in the **lpszServiceInstanceName** member of the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure for each call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function. This flag must also be specified to retrieve the **name** member of the [**BTH\_DEVICE\_INFO**](bth-device-info.md) structure when specifying the **LUP\_RETURN\_BLOB** flag. |
-| LUP\_RETURN\_ADDR  | Return a [**SOCKADDR\_BTH**](sockaddr-bth.md) structure that contains the 48-bit address of the peer in the **lpcsaBuffer** member of the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure for each call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function. Other members in the **SOCKADDR\_BTH** structure will be empty.                                                            |
-| LUP\_RETURN\_BLOB  | Return the [**BTH\_DEVICE\_INFO**](bth-device-info.md) structure on each subsequent call to [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641).                                                                                                                                                                                                                                                           |
+| LUP\_RETURN\_NAME  | Return the display name of the device in the **lpszServiceInstanceName** member of the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure for each call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function. This flag must also be specified to retrieve the **name** member of the [**BTH\_DEVICE\_INFO**](/windows/win32/Bthdef/ns-bthdef-_bth_device_info?branch=master) structure when specifying the **LUP\_RETURN\_BLOB** flag. |
+| LUP\_RETURN\_ADDR  | Return a [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure that contains the 48-bit address of the peer in the **lpcsaBuffer** member of the [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679) structure for each call to the [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641) function. Other members in the **SOCKADDR\_BTH** structure will be empty.                                                            |
+| LUP\_RETURN\_BLOB  | Return the [**BTH\_DEVICE\_INFO**](/windows/win32/Bthdef/ns-bthdef-_bth_device_info?branch=master) structure on each subsequent call to [**WSALookupServiceNext**](https://msdn.microsoft.com/library/windows/desktop/ms741641).                                                                                                                                                                                                                                                           |
 | LUP\_FLUSHPREVIOUS | Skip the next available device, and return the device that follows it.                                                                                                                                                                                                                                                                                                                                             |
 
 
@@ -99,10 +105,10 @@ The flags listed in the following table are used in the *dwControlFlags* paramet
 [**BLOB**](https://msdn.microsoft.com/library/windows/desktop/ms737551)
 </dt> <dt>
 
-[**BTH\_QUERY\_DEVICE**](bth-query-device.md)
+[**BTH\_QUERY\_DEVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_device?branch=master)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> <dt>
 
 [**WSAQUERYSET**](https://msdn.microsoft.com/library/windows/desktop/ms741679)

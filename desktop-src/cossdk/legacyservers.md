@@ -1,14 +1,19 @@
 ---
-Description: 'Identical to the InprocServers collection except that this collection also includes local servers.'
-ms.assetid: 'b185f568-ec97-4710-b744-5d69e71d6f60'
+Description: Identical to the InprocServers collection except that this collection also includes local servers.
+ms.assetid: b185f568-ec97-4710-b744-5d69e71d6f60
 title: LegacyServers collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LegacyServers collection
 
 Identical to the [**InprocServers**](inprocservers.md) collection except that this collection also includes local servers.
 
-This collection does not support the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection does not support the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -28,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [ClassName](#classname)
 -   [CLSID](#clsid)
@@ -58,7 +63,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                           |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A GUID for the component. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | A GUID for the component. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
 | Type           | String                                                                                                                                                    |
 | Default        | N/A                                                                                                                                                       |
@@ -106,7 +111,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                     |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A name identifying the component. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | A name identifying the component. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                            |
 | Type           | String                                                                                                                                                              |
 | Default        | N/A                                                                                                                                                                 |

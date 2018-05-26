@@ -1,14 +1,17 @@
 ---
 title: PolicyDescriptor.UserRolesList property
-description: Gets the user's roles list.
+description: Gets the users roles list.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.PolicyDescriptor.UserRolesList'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.PolicyDescriptor.UserRolesList
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRolesList property", "UserRolesList property, PolicyDescriptor class", "PolicyDescriptor class, UserRolesList property"]
+keywords:
+- UserRolesList property
+- UserRolesList property, PolicyDescriptor class
+- PolicyDescriptor class, UserRolesList property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.UserRolesList property
@@ -68,9 +74,9 @@ The user's roles list.
 [**UserRoles**](userroles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

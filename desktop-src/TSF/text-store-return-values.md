@@ -1,7 +1,7 @@
 ---
 title: Text Store Return Values
 description: When a document manager processes a text store, it produces return values in the range from 0xHHHH0200 through 0xHHHH0300. The following table lists text store return values in alphabetical order.
-ms.assetid: '20b0a89f-ab52-466f-9669-c6c29ad12de0'
+ms.assetid: 20b0a89f-ab52-466f-9669-c6c29ad12de0
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Store Return Values
@@ -20,7 +25,7 @@ When a document manager processes a text store, it produces return values in the
 
 | Return code/value                                                                                                                                                                                                                          | Description                                                                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="TS_E_FORMAT"></span><span id="ts_e_format"></span><dl> <dt>**TS\_E\_FORMAT**</dt> <dt>0x8004020a</dt> </dl>                   | Application does not support the data type contained in the [**IDataObject**](https://msdn.microsoft.com/library/windows/desktop/ms688421) object to be inserted using [**ITextStoreACP::InsertEmbedded**](itextstoreacp-insertembedded.md).<br/> |
+| <span id="TS_E_FORMAT"></span><span id="ts_e_format"></span><dl> <dt>**TS\_E\_FORMAT**</dt> <dt>0x8004020a</dt> </dl>                   | Application does not support the data type contained in the [**IDataObject**](https://msdn.microsoft.com/library/windows/desktop/ms688421) object to be inserted using [**ITextStoreACP::InsertEmbedded**](/windows/win32/Textstor/nf-textstor-itextstoreacp-insertembedded?branch=master).<br/> |
 | <span id="TS_E_INVALIDPOINT"></span><span id="ts_e_invalidpoint"></span><dl> <dt>**TS\_E\_INVALIDPOINT**</dt> <dt>0x80040207</dt> </dl> | Parameter is not within the bounding box of any character.<br/>                                                                                                                                        |
 | <span id="TS_E_INVALIDPOS"></span><span id="ts_e_invalidpos"></span><dl> <dt>**TS\_E\_INVALIDPOS**</dt> <dt>0x80040200</dt> </dl>       | Range specified extends outside the document.<br/>                                                                                                                                                     |
 | <span id="TS_E_NOINTERFACE"></span><span id="ts_e_nointerface"></span><dl> <dt>**TS\_E\_NOINTERFACE**</dt> <dt>0x80040204</dt> </dl>    | Object does not support the requested interface.<br/>                                                                                                                                                  |
@@ -35,7 +40,7 @@ When a document manager processes a text store, it produces return values in the
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,9 +48,9 @@ When a document manager processes a text store, it produces return values in the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -55,12 +60,12 @@ When a document manager processes a text store, it produces return values in the
 
 <dl> <dt>
 
-[**ITextStoreACP::InsertEmbedded**](itextstoreacp-insertembedded.md)
+[**ITextStoreACP::InsertEmbedded**](/windows/win32/Textstor/nf-textstor-itextstoreacp-insertembedded?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

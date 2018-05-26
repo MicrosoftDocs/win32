@@ -1,12 +1,17 @@
 ---
-Description: 'This article describes how the Filter Graph Manager locates a source filter, given a file name.'
-ms.assetid: 'bc0d5719-6325-40fe-8261-ad00b91f272c'
+Description: This article describes how the Filter Graph Manager locates a source filter, given a file name.
+ms.assetid: bc0d5719-6325-40fe-8261-ad00b91f272c
 title: Registering a Custom File Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Custom File Type
 
-This article describes how the Filter Graph Manager locates a source filter, given a file name. You can use this mechanism to register your own custom file types. Once the file type is registered, DirectShow will automatically load the correct source filter whenever an application calls [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) or [**IGraphBuilder::AddSourceFilter**](igraphbuilder-addsourcefilter.md).
+This article describes how the Filter Graph Manager locates a source filter, given a file name. You can use this mechanism to register your own custom file types. Once the file type is registered, DirectShow will automatically load the correct source filter whenever an application calls [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) or [**IGraphBuilder::AddSourceFilter**](/windows/win32/Strmif/nf-strmif-igraphbuilder-addsourcefilter?branch=master).
 
 -   [Overview](#overview)
 -   [Protocols](#protocols)
@@ -102,7 +107,7 @@ Also, there can be multiple entries listed under a single media type. A match to
 
 ## Loading the Source Filter
 
-Assuming that the Filter Graph Manager finds a matching source filter for the file, it adds that filter to the graph, queries the filter for the [**IFileSourceFilter**](ifilesourcefilter.md) interface, and calls [**IFileSourceFilter::Load**](ifilesourcefilter-load.md). The arguments to the **Load** method are the file name and the media type, as determined from the registry.
+Assuming that the Filter Graph Manager finds a matching source filter for the file, it adds that filter to the graph, queries the filter for the [**IFileSourceFilter**](/windows/win32/Strmif/nn-strmif-ifilesourcefilter?branch=master) interface, and calls [**IFileSourceFilter::Load**](/windows/win32/Strmif/nf-strmif-ifilesourcefilter-load?branch=master). The arguments to the **Load** method are the file name and the media type, as determined from the registry.
 
 If the Filter Graph Manager cannot find anything from the registry, it defaults to using the Async File Source filter. In that case, it sets the media type to **MEDIATYPE\_Stream**, **MEDIASUBTYPE\_None**.
 

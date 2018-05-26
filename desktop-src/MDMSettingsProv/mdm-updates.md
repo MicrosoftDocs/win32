@@ -1,8 +1,10 @@
 ---
 title: MDM\_Updates class
 description: Provides access to Windows Update policies.
-ms.assetid: '61005d79-4a35-4021-9fac-b8485ef526c5'
-keywords: ["MDM_Updates class MDM Settings", "MDM_Updates class MDM Settings , described"]
+ms.assetid: 61005d79-4a35-4021-9fac-b8485ef526c5
+keywords:
+- MDM_Updates class MDM Settings
+- MDM_Updates class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Updates class
@@ -116,7 +123,7 @@ Identifies the instance of the **MDM\_Updates** class.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -124,9 +131,9 @@ Identifies the instance of the **MDM\_Updates** class.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

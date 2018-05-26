@@ -1,20 +1,24 @@
 ---
 title: MSUserRights initWithUsers method
-description: Initialize an MSUserRights object's properties.
+description: Initialize an MSUserRights objects properties.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0e609e7b-996a-46bf-b56e-f2962a8519c3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0e609e7b-996a-46bf-b56e-f2962a8519c3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRights initWithUsers method"]
+keywords:
+- MSUserRights initWithUsers method
 topic_type:
 - apiref
 api_name:
 - MSUserRights initWithUsers method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRights initWithUsers method
@@ -39,7 +43,7 @@ Initialize an [**MSUserRights**](msuserrights-interface-objc.md) object's proper
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ MSUserRights.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

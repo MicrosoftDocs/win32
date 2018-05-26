@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_MUSIC
 description: PSGUID\_MUSIC
-ms.assetid: 'a2d33ce1-f47b-44fe-a2d3-ee67985a725e'
-keywords: ["PSGUID_MUSIC"]
+ms.assetid: a2d33ce1-f47b-44fe-a2d3-ee67985a725e
+keywords:
+- PSGUID_MUSIC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_MUSIC

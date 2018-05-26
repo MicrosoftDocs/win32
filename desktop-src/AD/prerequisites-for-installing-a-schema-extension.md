@@ -4,10 +4,13 @@ description: To modify the schema, ensure you have the following rights and are 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f7795eac-2b95-4b6c-a2f5-8728316059ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f7795eac-2b95-4b6c-a2f5-8728316059ab
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Prerequisites for Installing a Schema Extension

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiGetPageCount function returns the number of pages in a print job.'
-ms.assetid: '0a101b59-c610-4158-97a8-002222a94309'
+---
+Description: The GdiGetPageCount function returns the number of pages in a print job.
+ms.assetid: 0a101b59-c610-4158-97a8-002222a94309
 title: GdiGetPageCount function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiGetPageCount function

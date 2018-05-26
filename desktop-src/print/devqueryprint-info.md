@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DEVQUERYPRINT\_INFO structure is used as an input parameter to a printer interface DLL''s DevQueryPrintEx function.'
-ms.assetid: 'c46193f2-4c69-4aed-a063-2225faba9ee1'
-title: 'DEVQUERYPRINT\_INFO structure'
+---
+Description: The DEVQUERYPRINT\_INFO structure is used as an input parameter to a printer interface DLLs DevQueryPrintEx function.
+ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
+title: DEVQUERYPRINT\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVQUERYPRINT\_INFO structure

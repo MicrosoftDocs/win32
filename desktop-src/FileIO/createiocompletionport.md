@@ -1,7 +1,12 @@
 ---
-Description: 'Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.'
-ms.assetid: '40cb47fc-7b15-47f6-bee2-2611d4686053'
+Description: Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.
+ms.assetid: 40cb47fc-7b15-47f6-bee2-2611d4686053
 title: CreateIoCompletionPort function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateIoCompletionPort function
@@ -12,19 +17,19 @@ Associating an instance of an opened file handle with an I/O completion port all
 
 > [!Note]
 >
-> The term *file handle* as used here refers to a system abstraction that represents an overlapped I/O endpoint, not only a file on disk. Any system objects that support overlapped I/O—such as network endpoints, TCP sockets, named pipes, and mail slots—can be used as file handles. For additional information, see the Remarks section.
+> The term *file handle* as used here refers to a system abstraction that represents an overlapped I/O endpoint, not only a file on disk. Any system objects that support overlapped I/O such as network endpoints, TCP sockets, named pipes, and mail slots can be used as file handles. For additional information, see the Remarks section.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HANDLE WINAPI CreateIoCompletionPort(
-  _In_     HANDLE    FileHandle,
-  _In_opt_ HANDLE    ExistingCompletionPort,
-  _In_     ULONG_PTR CompletionKey,
-  _In_     DWORD     NumberOfConcurrentThreads
+  _In_     HANDLE    FileHandle,
+  _In_opt_ HANDLE    ExistingCompletionPort,
+  _In_     ULONG_PTR CompletionKey,
+  _In_     DWORD     NumberOfConcurrentThreads
 );
 ```
 
@@ -41,7 +46,7 @@ An open file handle or **INVALID\_HANDLE\_VALUE**.
 
 The handle must be to an object that supports overlapped I/O.
 
-If a handle is provided, it has to have been opened for overlapped I/O completion. For example, you must specify the **FILE\_FLAG\_OVERLAPPED** flag when using the [**CreateFile**](createfile.md) function to obtain the handle.
+If a handle is provided, it has to have been opened for overlapped I/O completion. For example, you must specify the **FILE\_FLAG\_OVERLAPPED** flag when using the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function to obtain the handle.
 
 If **INVALID\_HANDLE\_VALUE** is specified, the function creates an I/O completion port without associating it with a file handle. In this case, the *ExistingCompletionPort* parameter must be **NULL** and the *CompletionKey* parameter is ignored.
 
@@ -100,21 +105,21 @@ An I/O completion port and its handle are associated with the process that creat
 
 To create an I/O completion port without associating it, set the *FileHandle* parameter to **INVALID\_HANDLE\_VALUE**, the *ExistingCompletionPort* parameter to **NULL**, and the *CompletionKey* parameter to zero (which is ignored in this case). Set the *NumberOfConcurrentThreads* parameter to the desired concurrency value for the new I/O completion port, or zero for the default (the number of processors in the system).
 
-The handle passed in the *FileHandle* parameter can be any handle that supports overlapped I/O. Most commonly, this is a handle opened by the [**CreateFile**](createfile.md) function using the **FILE\_FLAG\_OVERLAPPED** flag (for example, files, mail slots, and pipes). Objects created by other functions such as [**socket**](https://msdn.microsoft.com/library/windows/desktop/ms740506) can also be associated with an I/O completion port. For an example using sockets, see [**AcceptEx**](https://msdn.microsoft.com/library/windows/desktop/ms737524). A handle can be associated with only one I/O completion port, and after the association is made, the handle remains associated with that I/O completion port until it is closed.
+The handle passed in the *FileHandle* parameter can be any handle that supports overlapped I/O. Most commonly, this is a handle opened by the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function using the **FILE\_FLAG\_OVERLAPPED** flag (for example, files, mail slots, and pipes). Objects created by other functions such as [**socket**](https://msdn.microsoft.com/library/windows/desktop/ms740506) can also be associated with an I/O completion port. For an example using sockets, see [**AcceptEx**](https://msdn.microsoft.com/library/windows/desktop/ms737524). A handle can be associated with only one I/O completion port, and after the association is made, the handle remains associated with that I/O completion port until it is closed.
 
 For more information on I/O completion port theory, usage, and associated functions, see [I/O Completion Ports](i-o-completion-ports.md).
 
 Multiple file handles can be associated with a single I/O completion port by calling **CreateIoCompletionPort** multiple times with the same I/O completion port handle in the *ExistingCompletionPort* parameter and a different file handle in the *FileHandle* parameter each time.
 
-Use the *CompletionKey* parameter to help your application track which I/O operations have completed. This value is not used by **CreateIoCompletionPort** for functional control; rather, it is attached to the file handle specified in the *FileHandle* parameter at the time of association with an I/O completion port. This completion key should be unique for each file handle, and it accompanies the file handle throughout the internal completion queuing process. It is returned in the [**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md) function call when a completion packet arrives. The *CompletionKey* parameter is also used by the [**PostQueuedCompletionStatus**](postqueuedcompletionstatus.md) function to queue your own special-purpose completion packets.
+Use the *CompletionKey* parameter to help your application track which I/O operations have completed. This value is not used by **CreateIoCompletionPort** for functional control; rather, it is attached to the file handle specified in the *FileHandle* parameter at the time of association with an I/O completion port. This completion key should be unique for each file handle, and it accompanies the file handle throughout the internal completion queuing process. It is returned in the [**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master) function call when a completion packet arrives. The *CompletionKey* parameter is also used by the [**PostQueuedCompletionStatus**](postqueuedcompletionstatus.md) function to queue your own special-purpose completion packets.
 
-After an instance of an open handle is associated with an I/O completion port, it cannot be used in the [**ReadFileEx**](readfileex.md) or [**WriteFileEx**](writefileex.md) function because these functions have their own asynchronous I/O mechanisms.
+After an instance of an open handle is associated with an I/O completion port, it cannot be used in the [**ReadFileEx**](/windows/win32/FileAPI/nf-fileapi-readfileex?branch=master) or [**WriteFileEx**](/windows/win32/FileAPI/nf-fileapi-writefileex?branch=master) function because these functions have their own asynchronous I/O mechanisms.
 
 It is best not to share a file handle associated with an I/O completion port by using either handle inheritance or a call to the [**DuplicateHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724251) function. Operations performed with such duplicate handles generate completion notifications. Careful consideration is advised.
 
 The I/O completion port handle and every file handle associated with that particular I/O completion port are known as *references to the I/O completion port*. The I/O completion port is released when there are no more references to it. Therefore, all of these handles must be properly closed to release the I/O completion port and its associated system resources. After these conditions are satisfied, close the I/O completion port handle by calling the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.
 
-In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
 
 
@@ -128,7 +133,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -136,9 +141,9 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 |                                     |                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                       |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                              |
-| Header<br/>                   | <dl> <dt>IoAPI.h (include Windows.h); </dt> <dt>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h)</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                       |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                              |
+| Header<br/>                   | <dl> <dt>IoAPI.h (include Windows.h); </dt> <dt>WinBase.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP (include Windows.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 
@@ -169,13 +174,13 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 [**AcceptEx**](https://msdn.microsoft.com/library/windows/desktop/ms737524)
 </dt> <dt>
 
-[**CreateFile**](createfile.md)
+[**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master)
 </dt> <dt>
 
 [**DuplicateHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724251)
 </dt> <dt>
 
-[**GetQueuedCompletionStatus**](getqueuedcompletionstatus.md)
+[**GetQueuedCompletionStatus**](/windows/win32/WinBase/?branch=master)
 </dt> <dt>
 
 [**GetQueuedCompletionStatusEx**](getqueuedcompletionstatusex-func.md)
@@ -184,15 +189,15 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 [**PostQueuedCompletionStatus**](postqueuedcompletionstatus.md)
 </dt> <dt>
 
-[**ReadFileEx**](readfileex.md)
+[**ReadFileEx**](/windows/win32/FileAPI/nf-fileapi-readfileex?branch=master)
 </dt> <dt>
 
-[**WriteFileEx**](writefileex.md)
+[**WriteFileEx**](/windows/win32/FileAPI/nf-fileapi-writefileex?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

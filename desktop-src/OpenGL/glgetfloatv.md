@@ -1,8 +1,9 @@
 ---
 title: glGetFloatv function
 description: The glGetFloatv function returns the value or values of a selected parameter.
-ms.assetid: '1701ae76-c60d-431d-8d37-a0a388a44bbc'
-keywords: ["glGetFloatv function OpenGL"]
+ms.assetid: 1701ae76-c60d-431d-8d37-a0a388a44bbc
+keywords:
+- glGetFloatv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetFloatv function
@@ -22,8 +28,8 @@ The **glGetFloatv** function returns the value or values of a selected parameter
 
 ```C++
 void WINAPI glGetFloatv(
-   GLenum  pname,
-   GLfloat *params
+   GLenum  pname,
+   GLfloat *params
 );
 ```
 
@@ -269,7 +275,7 @@ The parameter value to be returned. The following symbolic constants are accepte
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -328,8 +334,8 @@ You can query many of the Boolean parameters more easily with [**glIsEnabled**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -565,9 +571,9 @@ You can query many of the Boolean parameters more easily with [**glIsEnabled**](
 [**glViewport**](glviewport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: dcl\_tessellator\_partitioning (sm5 - asm)
 description: Declare the tessellator partitioning in a hull shader declaration section.
-ms.assetid: '6EA00C6B-A0DE-4CE4-8B52-1337CA92CA5E'
+ms.assetid: 6EA00C6B-A0DE-4CE4-8B52-1337CA92CA5E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_tessellator\_partitioning (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the tessellator partitioning in a hull shader declaration section.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the tessellator partitioning in a hull shader declaration section.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -60,7 +65,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

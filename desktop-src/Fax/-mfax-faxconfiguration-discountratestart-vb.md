@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the time at which the discount rate period begins.'
-ms.assetid: 'bf9b9adc-aa53-43c0-a184-03379d10d9e3'
-title: 'FaxConfiguration.DiscountRateStart property'
+---
+Description: Sets or retrieves a value that indicates the time at which the discount rate period begins.
+ms.assetid: bf9b9adc-aa53-43c0-a184-03379d10d9e3
+title: FaxConfiguration.DiscountRateStart property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.DiscountRateStart property

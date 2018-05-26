@@ -2,13 +2,19 @@
 title: strict\_context\_handle attribute
 description: The \ strict\_context\_handle\ ACF attribute sets restrictions on context handles.
 ms.assetid: c34f9018-d519-4a75-ad6f-70d386a20817
-keywords: ["strict_context_handle attribute MIDL"]
+keywords:
+- strict_context_handle attribute MIDL
 topic_type:
 - apiref
 api_name:
 - strict_context_handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # strict\_context\_handle attribute

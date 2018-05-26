@@ -4,11 +4,16 @@ description: The Select method selects the specified node in the result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60ac7181-8cb6-4779-b27c-261faa2c2cc5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 60ac7181-8cb6-4779-b27c-261faa2c2cc5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Select method MMC", "Select method MMC , View object", "View object MMC , Select method", "Select method MMC , View interface", "View interface MMC , Select method"]
+keywords:
+- Select method MMC
+- Select method MMC , View object
+- View object MMC , Select method
+- Select method MMC , View interface
+- View interface MMC , Select method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::Select method
@@ -77,8 +85,8 @@ Set objNode1 = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -99,9 +107,9 @@ Set objNode1 = Nothing
 [**View.Selection**](view-selection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

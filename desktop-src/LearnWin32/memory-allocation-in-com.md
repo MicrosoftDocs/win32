@@ -1,7 +1,12 @@
 ---
 title: Memory Allocation in COM
 description: .
-ms.assetid: 'b3c318d2-1273-430e-8aca-5bd5c95c138e'
+ms.assetid: b3c318d2-1273-430e-8aca-5bd5c95c138e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Allocation in COM

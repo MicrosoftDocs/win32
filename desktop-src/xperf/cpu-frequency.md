@@ -1,8 +1,14 @@
 ---
 title: CPU Frequency
 description: CPU Frequency
-ms.assetid: '10bcb3cf-299e-4e21-ac19-a0b5dd144b4a'
-keywords: ["usage graph"]
+ms.assetid: 10bcb3cf-299e-4e21-ac19-a0b5dd144b4a
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Frequency

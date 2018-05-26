@@ -1,7 +1,12 @@
 ---
 title: Interfaces
 description: .
-ms.assetid: 'b104d913-bdaa-432e-8944-9e96f6001803'
+ms.assetid: b104d913-bdaa-432e-8944-9e96f6001803
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces

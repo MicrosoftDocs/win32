@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the video compression format.'
-ms.assetid: 'fdd3fce9-f507-4581-bd68-74a854581200'
-title: 'System.Video.Compression'
+Description: Specifies the video compression format.
+ms.assetid: fdd3fce9-f507-4581-bd68-74a854581200
+title: System.Video.Compression
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.Compression

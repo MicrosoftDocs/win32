@@ -1,8 +1,9 @@
 ---
 title: max macro
 description: The max macro compares two values and returns the larger one. The data type can be any numeric data type, signed or unsigned. The data type of the arguments and the return value is the same.
-ms.assetid: '224d2ef7-6764-49c0-9782-51bfadbfb77f'
-keywords: ["max macro Windows Multimedia"]
+ms.assetid: 224d2ef7-6764-49c0-9782-51bfadbfb77f
+keywords:
+- max macro Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - minwindef.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # max macro
@@ -22,8 +28,8 @@ The **max** macro compares two values and returns the larger one. The data type 
 
 ```C++
  max(
-    value1,
-    value2
+    value1,
+    value2
 );
 ```
 
@@ -68,15 +74,15 @@ The **max** macro is defined as follows:
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Minwindef.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

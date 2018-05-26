@@ -1,14 +1,20 @@
 ---
 title: SLIDER.useForegroundProgress
 description: The useForegroundProgress attribute specifies or retrieves a value indicating whether the foreground progress bar will be used.
-ms.assetid: '10f3b4d9-ba82-4e30-affa-50c15a809ed6'
-keywords: ["SLIDER.useForegroundProgress Windows Media Player"]
+ms.assetid: 10f3b4d9-ba82-4e30-affa-50c15a809ed6
+keywords:
+- SLIDER.useForegroundProgress Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.useForegroundProgress
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.useForegroundProgress
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +67,9 @@ This attribute allows the use of the **foregroundProgress** attribute, which is 
 [**SLIDER.value**](slider-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

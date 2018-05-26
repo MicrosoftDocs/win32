@@ -1,14 +1,22 @@
 ---
 title: Storage.onObjectUpdated event
 description: The onObjectUpdated event occurs after an object has been updated on this Storage object.
-ms.assetid: 'cecbce01-a9f2-4af3-aaa4-d43cb7c5513a'
-keywords: ["onObjectUpdated event WPD Automation", "onObjectUpdated event WPD Automation , Storage object", "Storage object WPD Automation , onObjectUpdated event"]
+ms.assetid: cecbce01-a9f2-4af3-aaa4-d43cb7c5513a
+keywords:
+- onObjectUpdated event WPD Automation
+- onObjectUpdated event WPD Automation , Storage object
+- Storage object WPD Automation , onObjectUpdated event
 topic_type:
 - apiref
 api_name:
 - Storage.onObjectUpdated
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.onObjectUpdated event
@@ -66,8 +74,8 @@ Storage.onObjectUpdated = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -81,9 +89,9 @@ Storage.onObjectUpdated = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

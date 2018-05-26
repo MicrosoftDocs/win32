@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckSizes method checks allocator properties against the current media type.'
-ms.assetid: '040b4ed0-c1cc-4995-a0f8-86efa493f84b'
-title: 'CImageAllocator.CheckSizes method'
+Description: The CheckSizes method checks allocator properties against the current media type.
+ms.assetid: 040b4ed0-c1cc-4995-a0f8-86efa493f84b
+title: CImageAllocator.CheckSizes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageAllocator.CheckSizes method
@@ -13,7 +18,7 @@ The `CheckSizes` method checks allocator properties against the current media ty
 
 ```C++
 HRESULT CheckSizes(
-   ALLOCATOR_PROPERTIES *pRequest
+   ALLOCATOR_PROPERTIES *pRequest
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT CheckSizes(
 *pRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that describes the requested allocator properties.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that describes the requested allocator properties.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ When the method returns, if the return value is S\_OK, the **cbBuffer** member o
 [**CImageAllocator Class**](cimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

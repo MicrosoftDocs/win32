@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageW AttachURLW method
 description: Attaches the contents of a URL to the message and creates an MSHTML message.
-ms.assetid: '929b3c08-b83b-4ec8-8861-22e4165370f0'
-keywords: ["AttachURLW method Windows Mail (formerly Outlook Express)", "AttachURLW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface", "IMimeMessageW interface Windows Mail (formerly Outlook Express) , AttachURLW method"]
+ms.assetid: 929b3c08-b83b-4ec8-8861-22e4165370f0
+keywords:
+- AttachURLW method Windows Mail (formerly Outlook Express)
+- AttachURLW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface
+- IMimeMessageW interface Windows Mail (formerly Outlook Express) , AttachURLW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageW::AttachURLW method
@@ -24,12 +32,12 @@ Attaches the contents of a URL to the message and creates an MSHTML message. Usu
 
 ```C++
 HRESULT AttachURLW(
-  [in]  LPCSTR  pszBase,
-  [in]  LPCSTR  pszURL,
-  [in]  DWORD   dwFlags,
-  [in]  IStream *pstmURL,
-  [out] LPWSTR  *ppwszCIDURL,
-  [out] LPHBODY phBody
+  [in]  LPCSTR  pszBase,
+  [in]  LPCSTR  pszURL,
+  [in]  DWORD   dwFlags,
+  [in]  IStream *pstmURL,
+  [out] LPWSTR  *ppwszCIDURL,
+  [out] LPHBODY phBody
 );
 ```
 
@@ -74,7 +82,7 @@ Specifies a bitmask that affects the behavior of this method.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,7 +129,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -148,8 +156,8 @@ To display an image inline with the body text of a message, a client can pass in
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -157,9 +165,9 @@ To display an image inline with the body text of a message, a client can pass in
 
 
 
- 
+ 
 
- 
+ 
 
 
 

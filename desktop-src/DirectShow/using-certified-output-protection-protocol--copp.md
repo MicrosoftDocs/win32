@@ -1,7 +1,12 @@
 ---
-Description: 'Using Certified Output Protection Protocol (COPP)'
-ms.assetid: '23eebe93-416b-48c8-a05f-019e38b9a660'
-title: 'Using Certified Output Protection Protocol (COPP)'
+Description: Using Certified Output Protection Protocol (COPP)
+ms.assetid: 23eebe93-416b-48c8-a05f-019e38b9a660
+title: Using Certified Output Protection Protocol (COPP)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Certified Output Protection Protocol (COPP)
@@ -14,7 +19,7 @@ Certified Output Protection Protocol (COPP) enables an application to protect a 
 
 If the graphics adapter supports one of these mechanisms, the application can use COPP to set the protection level.
 
-COPP defines a protocol that is used to establish a secure communications channel with the graphics driver. It uses Message Authentication Codes (MACs) to verify the integrity of the COPP commands that are passed between the application and the display driver. The application uses COPP by calling methods on the [**IAMCertifiedOutputProtection**](iamcertifiedoutputprotection.md) interface of the DirectShow Video Mixing Renderer filter (VMR-7 or VMR-9).
+COPP defines a protocol that is used to establish a secure communications channel with the graphics driver. It uses Message Authentication Codes (MACs) to verify the integrity of the COPP commands that are passed between the application and the display driver. The application uses COPP by calling methods on the [**IAMCertifiedOutputProtection**](/windows/win32/Strmif/nn-strmif-iamcertifiedoutputprotection?branch=master) interface of the DirectShow Video Mixing Renderer filter (VMR-7 or VMR-9).
 
 COPP does not define anything about the digital rights policies that might apply to digital media content. Also, COPP itself does not implement any output protection systems. The COPP protocol simply provides a way to set and query protection levels on the graphics adapter, using the protection systems provided by the adapter.
 

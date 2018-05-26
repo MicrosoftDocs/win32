@@ -1,7 +1,12 @@
 ---
 title: Designing a Help System
 description: The topics in this section describe how to design a help system.
-ms.assetid: '2CD3CD45-A317-4770-98AD-EF3FFFFE8308'
+ms.assetid: 2CD3CD45-A317-4770-98AD-EF3FFFFE8308
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing a Help System

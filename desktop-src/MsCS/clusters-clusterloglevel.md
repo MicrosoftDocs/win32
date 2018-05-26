@@ -4,17 +4,21 @@ description: Controls the level of cluster logging.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6C4F444B-E9F8-453B-9D0A-B7D13BF881AC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6C4F444B-E9F8-453B-9D0A-B7D13BF881AC
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterLogLevel Failover Cluster"]
+keywords:
+- ClusterLogLevel Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusterLogLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterLogLevel
@@ -27,14 +31,14 @@ Controls the level of cluster logging.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 5                                         |
 | Default   | 0 or 3                                    |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Controls the level of cluster logging.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Controls the level of cluster logging.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

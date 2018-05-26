@@ -1,7 +1,12 @@
 ---
 title: VML Control2 Attribute
 description: VML Control2 Attribute
-ms.assetid: 'fd0f92fa-ae70-46c9-bfbe-fad8deea34f7'
+ms.assetid: fd0f92fa-ae70-46c9-bfbe-fad8deea34f7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Control2 Attribute

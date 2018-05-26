@@ -1,12 +1,17 @@
 ---
-Description: 'A complex script is a script for which the fComplex member of SCRIPT\_PROPERTIES is set to TRUE. This topic details the properties that a complex script might have.'
-ms.assetid: 'bceeb0d6-bda3-43bf-984e-87fbfb327578'
+Description: A complex script is a script for which the fComplex member of SCRIPT\_PROPERTIES is set to TRUE. This topic details the properties that a complex script might have.
+ms.assetid: bceeb0d6-bda3-43bf-984e-87fbfb327578
 title: About Complex Scripts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Complex Scripts
 
-A [complex script](uniscribe-glossary.md#complex-script) is a script for which the **fComplex** member of [**SCRIPT\_PROPERTIES**](script-properties.md) is set to **TRUE**. This topic details the properties that a complex script might have.
+A [complex script](uniscribe-glossary.md#complex-script) is a script for which the **fComplex** member of [**SCRIPT\_PROPERTIES**](/windows/win32/Usp10/ns-usp10-script_properties?branch=master) is set to **TRUE**. This topic details the properties that a complex script might have.
 
 ## Bidirectional Rendering
 
@@ -30,7 +35,7 @@ A complex script, for example, Thai, can filter out illegal character combinatio
 
 ## Font Fallback
 
-Font fallback is the automated selection of a font other than the font selected by the user. In Uniscribe, font fallback is applied by the [**ScriptStringAnalyse**](scriptstringanalyse.md) function when all or part of the text is in a script that the user-selected font does not support. For more information, see [Using Font Fallback](using-font-fallback.md).
+Font fallback is the automated selection of a font other than the font selected by the user. In Uniscribe, font fallback is applied by the [**ScriptStringAnalyse**](/windows/win32/Usp10/nf-usp10-scriptstringanalyse?branch=master) function when all or part of the text is in a script that the user-selected font does not support. For more information, see [Using Font Fallback](using-font-fallback.md).
 
 ## Related topics
 

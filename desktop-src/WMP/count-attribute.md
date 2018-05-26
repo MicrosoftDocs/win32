@@ -1,14 +1,20 @@
 ---
 title: Count Attribute
 description: The Count attribute is the number of items in the playlist.
-ms.assetid: '33d2a7a6-ad87-4794-8008-d235b3827081'
-keywords: ["Count Attribute Windows Media Player"]
+ms.assetid: 33d2a7a6-ad87-4794-8008-d235b3827081
+keywords:
+- Count Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Count
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Count Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

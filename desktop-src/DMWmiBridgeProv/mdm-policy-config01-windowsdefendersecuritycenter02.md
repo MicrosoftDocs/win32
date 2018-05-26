@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_WindowsDefenderSecurityCenter02 class
 description: The MDM\_Policy\_Config01\_WindowsDefenderSecurityCenter02 class represents the Windows Defender Security Center policies.
-ms.assetid: '406c3992-e9ed-49c5-a4c4-97d91013d416'
-keywords: ["MDM_Policy_Config01_WindowsDefenderSecurityCenter02 class", "MDM_Policy_Config01_WindowsDefenderSecurityCenter02 class, described"]
+ms.assetid: 406c3992-e9ed-49c5-a4c4-97d91013d416
+keywords:
+- MDM_Policy_Config01_WindowsDefenderSecurityCenter02 class
+- MDM_Policy_Config01_WindowsDefenderSecurityCenter02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_WindowsDefenderSecurityCenter02 class
@@ -248,7 +255,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -256,9 +263,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

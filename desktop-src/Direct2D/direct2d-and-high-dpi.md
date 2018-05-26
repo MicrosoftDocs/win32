@@ -1,8 +1,15 @@
 ---
 title: Direct2D and High-DPI
 description: Describes how Direct2D accommodates high-DPI display.
-ms.assetid: '1809ab0e-853f-4dac-be97-563c92b9caee'
-keywords: ["Direct2D,high-DPI", "high-DPI"]
+ms.assetid: 1809ab0e-853f-4dac-be97-563c92b9caee
+keywords:
+- Direct2D,high-DPI
+- high-DPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct2D and High-DPI
@@ -30,7 +37,7 @@ The Direct2D graphics pipeline is designed to scale from 96 DPI to 1200DPI.
 
 Starting with Windows 8, there are additional features for high-DPI support.
 
-If the device context DPI is high enough, Direct2D changes the threshold it uses to enable vertical antialiasing of text. This results in faster text rendering on high-DPI displays. Additionally, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](id2d1devicecontext-setunitmode.md) method. If you set the unit mode to pixels and the device context DPI to the screen DPI, the optimization is still enabled.
+If the device context DPI is high enough, Direct2D changes the threshold it uses to enable vertical antialiasing of text. This results in faster text rendering on high-DPI displays. Additionally, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](/windows/win32/D2d1_1/?branch=master) method. If you set the unit mode to pixels and the device context DPI to the screen DPI, the optimization is still enabled.
 
 ## What is a DIP?
 
@@ -48,7 +55,7 @@ To convert a physical pixel to a DIP, use this formula:
 
 > [!Note]
 >
-> Starting with Windows 8, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](id2d1devicecontext-setunitmode.md) method.
+> Starting with Windows 8, you can switch the unit mode to pixels instead of DIPs using the [**ID2D1DeviceContext::SetUnitMode**](/windows/win32/D2d1_1/?branch=master) method.
 
  
 

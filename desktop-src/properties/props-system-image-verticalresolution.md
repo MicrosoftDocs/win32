@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the number of pixels per resolution unit in the image height.'
-ms.assetid: '51d71fa6-8057-46b6-8427-187a5e69f1f4'
-title: 'System.Image.VerticalResolution'
+Description: Indicates the number of pixels per resolution unit in the image height.
+ms.assetid: 51d71fa6-8057-46b6-8427-187a5e69f1f4
+title: System.Image.VerticalResolution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.VerticalResolution

@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetInternat function
 description: Do not use. Returns an interface used to perform character-set conversions and query information about character sets and codepages.
-ms.assetid: 'd38bf061-afc7-404a-9587-a3cd870f2fc6'
-keywords: ["MimeOleGetInternat function Windows Mail (formerly Outlook Express)"]
+ms.assetid: d38bf061-afc7-404a-9587-a3cd870f2fc6
+keywords:
+- MimeOleGetInternat function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetInternat function
@@ -22,7 +28,7 @@ Do not use. Returns an interface used to perform character-set conversions and q
 
 ```C++
 HRESULT MimeOleGetInternat(
-  _Out_ IMimeInternational **ppInternat
+  _Out_ IMimeInternational **ppInternat
 );
 ```
 
@@ -57,14 +63,14 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > Caller of function is responsible for freeing [**IMimeInternational**](oe-imimeinternational.md) object.
 
- 
+ 
 
 ## Requirements
 
@@ -72,8 +78,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -81,9 +87,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

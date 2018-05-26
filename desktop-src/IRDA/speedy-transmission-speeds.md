@@ -1,8 +1,16 @@
 ---
 title: Speedy Transmission Speeds
 description: IrDA is designed to support transmission of data between two devices over short-range point-to-point infrared at speeds between 2.4 Kbps and 16 Mbps.
-ms.assetid: 'da3a00ec-1faa-4e58-867c-dac21614dca7'
-keywords: ["Infrared Data Association IrDA , described, transmission speeds", "networking IrDA , transmission speeds", "wireless IrDA , transmission speeds"]
+ms.assetid: da3a00ec-1faa-4e58-867c-dac21614dca7
+keywords:
+- Infrared Data Association IrDA , described, transmission speeds
+- networking IrDA , transmission speeds
+- wireless IrDA , transmission speeds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Speedy Transmission Speeds

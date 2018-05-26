@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the switch bandwidth resource status.'
-ms.assetid: '9aa3e57e-9452-4c60-a052-83ae35b3607c'
-title: 'Msvm\_EthernetSwitchBandwidthData class'
+Description: Represents the switch bandwidth resource status.
+ms.assetid: 9aa3e57e-9452-4c60-a052-83ae35b3607c
+title: Msvm\_EthernetSwitchBandwidthData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchBandwidthData class
@@ -249,17 +254,17 @@ The name of the virtual switch to which the associated resource instance is boun
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

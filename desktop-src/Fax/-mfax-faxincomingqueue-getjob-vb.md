@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetJob method returns an incoming fax job in the job queue according to its ID.'
-ms.assetid: 'dab1c31e-cd46-44e0-ad0a-fcae7aa1e83e'
-title: 'FaxIncomingQueue.GetJob method'
+---
+Description: The GetJob method returns an incoming fax job in the job queue according to its ID.
+ms.assetid: dab1c31e-cd46-44e0-ad0a-fcae7aa1e83e
+title: FaxIncomingQueue.GetJob method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingQueue.GetJob method
@@ -34,13 +39,13 @@ Specifies the job ID.
 
 ## Return value
 
-Type: **[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)\*\***
+Type: **[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)\*\***
 
 A [**FaxIncomingJob**](-mfax-faxincomingjob.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_JOBS**](-mfax-fax-access-rights-enum.md) and [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [**farQUERY\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -62,7 +67,7 @@ To use this method, a user must have the [**farQUERY\_JOBS**](-mfax-fax-access-r
 [**FaxIncomingQueue**](-mfax-faxincomingqueue.md)
 </dt> <dt>
 
-[**IFaxIncomingQueue**](-mfax-faxincomingqueue-cpp.md)
+[**IFaxIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingqueue?branch=master)
 </dt> </dl>
 
  

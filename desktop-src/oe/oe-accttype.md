@@ -1,8 +1,10 @@
 ---
 title: ACCTTYPE enumeration
 description: Defines the various account types.
-ms.assetid: '02b46cff-0e81-47eb-ad88-e85c274cb985'
-keywords: ["ACCTTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 02b46cff-0e81-47eb-ad88-e85c274cb985
+keywords:
+- ACCTTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnact.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACCTTYPE enumeration
@@ -24,10 +31,10 @@ Defines the various account types.
 
 ```C++
 typedef enum  { 
-  ACCT_NEWS      = 0,
-  ACCT_MAIL      = 1,
-  ACCT_DIR_SERV  = 2,
-  ACCT_LAST      = 3
+  ACCT_NEWS      = 0,
+  ACCT_MAIL      = 1,
+  ACCT_DIR_SERV  = 2,
+  ACCT_LAST      = 3
 } ACCESSTYPE;
 ```
 
@@ -71,17 +78,17 @@ Indicates the total number of account types in this enumeration.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

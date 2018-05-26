@@ -4,11 +4,32 @@ description: Retrieves the maximum encryption strength of the current control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '94efe3e5-4074-4187-b58a-b812f37f3622'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 94efe3e5-4074-4187-b58a-b812f37f3622
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CipherStrength property Remote Desktop Services", "CipherStrength property Remote Desktop Services , IMsTscAx interface", "IMsTscAx interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , CipherStrength property", "CipherStrength property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , CipherStrength property"]
+keywords:
+- CipherStrength property Remote Desktop Services
+- CipherStrength property Remote Desktop Services , IMsTscAx interface
+- IMsTscAx interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , CipherStrength property
+- CipherStrength property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , CipherStrength property
 topic_type:
 - apiref
 api_name:
@@ -36,6 +57,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAx::CipherStrength property
@@ -49,7 +73,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CipherStrength(
-  [out] LONG *pCipherStrength
+  [out] LONG *pCipherStrength
 );
 ```
 
@@ -65,7 +89,7 @@ Return **S\_OK** if successful.
 
 ## Remarks
 
-For Remote Desktop Web Connection, the cipher strength is always 128 because the Remote Desktop ActiveX control supports encryption up to and including 128 bits. The 128-bit control can still connect to 56 bit encryption Remote Desktop Session Host (RD Session Host) servers.
+For Remote Desktop Web Connection, the cipher strength is always 128 because the Remote Desktop ActiveX control supports encryption up to and including 128 bits. The 128-bit control can still connect to 56 bit encryption Remote Desktop Session Host (RD Session Host) servers.
 
 For more information about Remote Desktop Web Connection, see [Requirements for Remote Desktop Web Connection](requirements-for-remote-desktop-web-connection.md).
 
@@ -75,8 +99,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489<br/>            |
@@ -117,9 +141,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAx**](imstscax-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

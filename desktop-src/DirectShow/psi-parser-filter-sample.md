@@ -1,7 +1,12 @@
 ---
 Description: PSI Parser Filter Sample
-ms.assetid: 'e815d57f-25e5-4a71-8f40-e7abec0db236'
+ms.assetid: e815d57f-25e5-4a71-8f40-e7abec0db236
 title: PSI Parser Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSI Parser Filter Sample
@@ -97,7 +102,7 @@ hr = pPsi->GetCountOfElementaryStreams(ProgNum, &amp;cElemStreams);
 
 
 
-For each elementary stream, the [**IMpeg2PsiParser::GetRecordElementaryPid**](impeg2psiparser-getrecordelementarypid.md) method returns the PID, and the [**IMpeg2PsiParser::GetRecordStreamType**](impeg2psiparser-getrecordstreamtype.md) method returns the stream type:
+For each elementary stream, the [**IMpeg2PsiParser::GetRecordElementaryPid**](/windows/win32/mpeg2psiparser/?branch=master) method returns the PID, and the [**IMpeg2PsiParser::GetRecordStreamType**](/windows/win32/mpeg2psiparser/?branch=master) method returns the stream type:
 
 
 ```C++

@@ -1,8 +1,11 @@
 ---
 title: RelatedActivityCollection Clear method
 description: Deletes all ActivityReference objects from the RelatedActivityCollection.
-ms.assetid: '0FCDBACC-A8E6-4C22-B8AF-6E4746E1E894'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , RelatedActivityCollection interface", "RelatedActivityCollection interface Access Execution Engine , Clear method"]
+ms.assetid: 0FCDBACC-A8E6-4C22-B8AF-6E4746E1E894
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , RelatedActivityCollection interface
+- RelatedActivityCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RelatedActivityCollection::Clear method
@@ -46,8 +54,8 @@ An **ActivityReference** holds data from a **RelatedActivities/ActivityReference
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ An **ActivityReference** holds data from a **RelatedActivities/ActivityReference
 [**RelatedActivityCollection**](relatedactivitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

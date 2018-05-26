@@ -1,8 +1,11 @@
 ---
 title: ClosedCaption.getSAMILangName method
 description: The getSAMILangName method retrieves the name of a language supported by the current SAMI file.
-ms.assetid: '20cf8faf-3a8c-4d7b-9bd1-2366672f0e67'
-keywords: ["getSAMILangName method Windows Media Player", "getSAMILangName method Windows Media Player , ClosedCaption class", "ClosedCaption class Windows Media Player , getSAMILangName method"]
+ms.assetid: 20cf8faf-3a8c-4d7b-9bd1-2366672f0e67
+keywords:
+- getSAMILangName method Windows Media Player
+- getSAMILangName method Windows Media Player , ClosedCaption class
+- ClosedCaption class Windows Media Player , getSAMILangName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.getSAMILangName method
@@ -75,9 +83,9 @@ This method cannot be used until a digital media file is open (*Player*.**openSt
 [**ClosedCaption.SAMILang**](closedcaption-samilang.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

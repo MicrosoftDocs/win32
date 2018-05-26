@@ -1,8 +1,11 @@
 ---
 title: IRASCallback OnDisconnect method
 description: Allows the client to decide if the current Remote Access Service (RAS) connection should be disconnected.
-ms.assetid: 'c2464b20-528f-4166-a5f0-8e5b7e110e67'
-keywords: ["OnDisconnect method Windows Mail (formerly Outlook Express)", "OnDisconnect method Windows Mail (formerly Outlook Express) , IRASCallback interface", "IRASCallback interface Windows Mail (formerly Outlook Express) , OnDisconnect method"]
+ms.assetid: c2464b20-528f-4166-a5f0-8e5b7e110e67
+keywords:
+- OnDisconnect method Windows Mail (formerly Outlook Express)
+- OnDisconnect method Windows Mail (formerly Outlook Express) , IRASCallback interface
+- IRASCallback interface Windows Mail (formerly Outlook Express) , OnDisconnect method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRASCallback::OnDisconnect method
@@ -24,9 +32,9 @@ Allows the client to decide if the current Remote Access Service (RAS) connectio
 
 ```C++
 HRESULT OnDisconnect(
-  [in] LPSTR         pszCurrentConnectoid,
-  [in] BOOL          fConnectionOwner,
-  [in] IRASTransport *pTransport
+  [in] LPSTR         pszCurrentConnectoid,
+  [in] BOOL          fConnectionOwner,
+  [in] IRASTransport *pTransport
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,8 +98,8 @@ On application shutdown, the user may want to leave the RAS connection establish
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -99,9 +107,9 @@ On application shutdown, the user may want to leave the RAS connection establish
 
 
 
- 
+ 
 
- 
+ 
 
 
 

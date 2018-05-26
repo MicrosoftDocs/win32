@@ -1,14 +1,20 @@
 ---
 title: context\_handle\_serialize attribute
-description: The \ context\_handle\_serialize\ ACF attribute guarantees that a context handle will always be serialized, regardless of the application's default behavior.
+description: The \ context\_handle\_serialize\ ACF attribute guarantees that a context handle will always be serialized, regardless of the applications default behavior.
 ms.assetid: e2f48582-228a-4725-9543-1e638d86ff6b
-keywords: ["context_handle_serialize attribute MIDL"]
+keywords:
+- context_handle_serialize attribute MIDL
 topic_type:
 - apiref
 api_name:
 - context_handle_serialize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # context\_handle\_serialize attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window to retrieve a handle to the large or small icon associated with a window. The system displays the large icon in the ALT+TAB dialog, and the small icon in the window caption.'
-ms.assetid: 'd3101a9b-9658-4a21-b1f6-2920b723926c'
-title: 'WM\_GETICON message'
+---
+Description: Sent to a window to retrieve a handle to the large or small icon associated with a window. The system displays the large icon in the ALT+TAB dialog, and the small icon in the window caption.
+ms.assetid: d3101a9b-9658-4a21-b1f6-2920b723926c
+title: WM\_GETICON message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GETICON message

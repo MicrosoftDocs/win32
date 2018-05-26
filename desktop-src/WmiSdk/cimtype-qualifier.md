@@ -1,20 +1,23 @@
 ---
-Description: 'The CIMType qualifier contains text describing the type of a property.'
+Description: The CIMType qualifier contains text describing the type of a property.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ae65d4c7-2150-489b-a368-fb38c0d1b3be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIMType Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIMType Qualifier
 
 The **CIMType** qualifier contains text describing the type of a property.
 
-This text can be the MOF type such as "string" and "sint32" or the CIM type such as "CIM\_STRING" and "CIM\_SINT32". There is a one-to-one correspondence between the **CIMType** qualifier and the type of the property used in the *pvtType* parameter of the [**IWbemClassObject::Get**](iwbemclassobject-get.md) method.
+This text can be the MOF type such as "string" and "sint32" or the CIM type such as "CIM\_STRING" and "CIM\_SINT32". There is a one-to-one correspondence between the **CIMType** qualifier and the type of the property used in the *pvtType* parameter of the [**IWbemClassObject::Get**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-get?branch=master) method.
 
 The two exceptions are:
 
@@ -49,8 +52,8 @@ Because WMI allows more types than can be expressed by standard constants with t
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -67,9 +70,9 @@ Because WMI allows more types than can be expressed by standard constants with t
 [Adding a Qualifier](adding-a-qualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used with the Store.Open method to indicate how a certificate store is to be opened.'
-ms.assetid: '6ec87b8c-9431-4ecc-bd90-943cfe2df1c2'
-title: 'CAPICOM\_STORE\_OPEN\_MODE enumeration'
+---
+Description: Used with the Store.Open method to indicate how a certificate store is to be opened.
+ms.assetid: 6ec87b8c-9431-4ecc-bd90-943cfe2df1c2
+title: CAPICOM\_STORE\_OPEN\_MODE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_STORE\_OPEN\_MODE enumeration

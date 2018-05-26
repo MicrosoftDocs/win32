@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.hoverImage
 description: The hoverImage attribute specifies or retrieves the image that appears when the mouse is over the custom slider.
-ms.assetid: 'b5d10289-280c-4578-83e8-6259249ff448'
-keywords: ["CUSTOMSLIDER.hoverImage Windows Media Player"]
+ms.assetid: b5d10289-280c-4578-83e8-6259249ff448
+keywords:
+- CUSTOMSLIDER.hoverImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.hoverImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.hoverImage
@@ -51,9 +57,9 @@ The supported image file types are BMP, JPG, PNG, and GIF (not including animate
 [**CUSTOMSLIDER.image**](customslider-image.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

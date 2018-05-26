@@ -1,7 +1,12 @@
 ---
 title: Stemming
 description: Stemming
-ms.assetid: '19675a8c-dea5-43eb-b9cd-004ea7ac7035'
+ms.assetid: 19675a8c-dea5-43eb-b9cd-004ea7ac7035
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stemming

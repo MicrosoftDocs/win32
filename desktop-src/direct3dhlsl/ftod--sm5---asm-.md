@@ -1,7 +1,12 @@
 ---
 title: ftod (sm5 - asm)
 description: Component-wise conversion from single-precision floating-point data to double-precision floating-point data.
-ms.assetid: '95297556-41ED-4ED0-8F9A-16B7A440AF25'
+ms.assetid: 95297556-41ED-4ED0-8F9A-16B7A440AF25
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ftod (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise conversion from single-precision floating-point data to double-pr
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Component-wise conversion from single-precision floating-point data to double-pr
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +55,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -69,7 +74,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -78,9 +83,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

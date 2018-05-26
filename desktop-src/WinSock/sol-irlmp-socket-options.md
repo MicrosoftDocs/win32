@@ -1,14 +1,19 @@
-﻿---
-Description: 'The following table describes SOL\_IRLMP socket options that apply to sockets created for the Infrared Data Association (IrDA) address family (AF\_IRDA) and the InfraRed Link Management Protocol (IRLMP).'
-ms.assetid: '0457159d-8509-435c-8f57-752530d5df65'
-title: 'SOL\_IRLMP Socket Options'
+---
+Description: The following table describes SOL\_IRLMP socket options that apply to sockets created for the Infrared Data Association (IrDA) address family (AF\_IRDA) and the InfraRed Link Management Protocol (IRLMP).
+ms.assetid: 0457159d-8509-435c-8f57-752530d5df65
+title: SOL\_IRLMP Socket Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SOL\_IRLMP Socket Options
 
-The following table describes **SOL\_IRLMP** socket options that apply to sockets created for the Infrared Data Association (IrDA) address family (AF\_IRDA) and the InfraRed Link Management Protocol (IRLMP). See the [**getsockopt**](getsockopt-2.md) and [**setsockopt**](setsockopt-2.md) function reference pages for more information on getting and setting socket options.
+The following table describes **SOL\_IRLMP** socket options that apply to sockets created for the Infrared Data Association (IrDA) address family (AF\_IRDA) and the InfraRed Link Management Protocol (IRLMP). See the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) and [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function reference pages for more information on getting and setting socket options.
 
-To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](wsaenumprotocols-2.md), [**WSCEnumProtocols**](wscenumprotocols-2.md), or [**WSCEnumProtocols32**](wscenumprotocols32.md) function.
+To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master), [**WSCEnumProtocols**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols?branch=master), or [**WSCEnumProtocols32**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols32?branch=master) function.
 
 <dl> <dt><span id="SOL_IRLMP_Socket_Options"></span><span id="sol_irlmp_socket_options"></span><span id="SOL_IRLMP_SOCKET_OPTIONS"></span>**SOL\_IRLMP Socket Options**</dt> <dd> <dl> <dt> 
 

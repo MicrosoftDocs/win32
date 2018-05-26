@@ -1,7 +1,12 @@
 ---
 title: Enabled Property
 description: Enabled Property
-ms.assetid: '6526f249-be13-4732-b79e-a9952489461f'
+ms.assetid: 6526f249-be13-4732-b79e-a9952489461f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabled Property

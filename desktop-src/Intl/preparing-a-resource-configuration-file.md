@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Preparing a Resource Configuration File
-ms.assetid: '292b57ea-1c7e-49b6-876c-4ad307a2ec43'
+ms.assetid: 292b57ea-1c7e-49b6-876c-4ad307a2ec43
 title: Preparing a Resource Configuration File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preparing a Resource Configuration File

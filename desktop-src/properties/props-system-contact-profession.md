@@ -1,7 +1,12 @@
 ---
-Description: 'Profession of the contact.'
-ms.assetid: 'fa6ff297-f42c-456b-b6d4-a465a3f3d156'
-title: 'System.Contact.Profession'
+Description: Profession of the contact.
+ms.assetid: fa6ff297-f42c-456b-b6d4-a465a3f3d156
+title: System.Contact.Profession
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Profession

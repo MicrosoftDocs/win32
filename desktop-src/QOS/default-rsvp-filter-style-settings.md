@@ -1,14 +1,19 @@
 ---
 title: Default RSVP Filter Style Settings
 description: The RSVP SP sets RSVP reservation style (also referred to as a filter style) based on the type of socket on which the reservation request is based.
-ms.assetid: 'b56162bd-6375-4b37-9ce8-307d35ff1b36'
+ms.assetid: b56162bd-6375-4b37-9ce8-307d35ff1b36
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default RSVP Filter Style Settings
 
-The RSVP SP sets RSVP reservation style (also referred to as a **filter style**) based on the type of socket on which the reservation request is based. Default settings are applied to their corresponding connection types when the RSVP SP makes RSVP signaling requests on behalf of an application when there is no reservation, and when RSVP\_DEFAULT\_STYLE is specified in the Style member of the [**RSVP\_RESERVE\_INFO**](rsvp-reserve-info.md) object.
+The RSVP SP sets RSVP reservation style (also referred to as a **filter style**) based on the type of socket on which the reservation request is based. Default settings are applied to their corresponding connection types when the RSVP SP makes RSVP signaling requests on behalf of an application when there is no reservation, and when RSVP\_DEFAULT\_STYLE is specified in the Style member of the [**RSVP\_RESERVE\_INFO**](/windows/previous-versions/Qossp/ns-qossp-_rsvp_reserve_info?branch=master) object.
 
-Note that these default settings can be overridden by setting the **Style** member of the [**RSVP\_RESERVE\_INFO**](rsvp-reserve-info.md) object to one of the other available RSVP filter styles.
+Note that these default settings can be overridden by setting the **Style** member of the [**RSVP\_RESERVE\_INFO**](/windows/previous-versions/Qossp/ns-qossp-_rsvp_reserve_info?branch=master) object to one of the other available RSVP filter styles.
 
 ## Unicast Receivers
 
@@ -20,7 +25,7 @@ Applications that request QOS service provisions for multicast sessions are assu
 
 ## Use of the RSVP\_DEFAULT\_STYLE Filter Style
 
-The RSVP\_DEFAULT\_STYLE filter style enables an application developer to specify parameters in other members of the [**RSVP\_RESERVE\_INFO**](rsvp-reserve-info.md) object without having to explicitly indicate (or override) the RSVP filter style applied by the RSVP SP.
+The RSVP\_DEFAULT\_STYLE filter style enables an application developer to specify parameters in other members of the [**RSVP\_RESERVE\_INFO**](/windows/previous-versions/Qossp/ns-qossp-_rsvp_reserve_info?branch=master) object without having to explicitly indicate (or override) the RSVP filter style applied by the RSVP SP.
 
 When the connection is TCP or connected UDP, specifying RSVP\_DEFAULT\_STYLE implements the Fixed Filter (FF) style.
 

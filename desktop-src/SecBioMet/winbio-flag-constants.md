@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_FLAG Constants
 description: Specify biometric unit configuration and access characteristics for the new session.
-ms.assetid: '82b57023-6c27-433d-bf13-f136f501fc60'
+ms.assetid: 82b57023-6c27-433d-bf13-f136f501fc60
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_FLAG Constants
 
-The following constants can be used in the [**WinBioOpenSession**](winbioopensession.md) function to specify biometric unit configuration and access characteristics for the new session.
+The following constants can be used in the [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) function to specify biometric unit configuration and access characteristics for the new session.
 
 
 
@@ -27,8 +32,8 @@ The following constants can be used in the [**WinBioOpenSession**](winbioopenses
 | <span id="WINBIO_FLAG_DEFAULT"></span><span id="winbio_flag_default"></span><dl> <dt>**WINBIO\_FLAG\_DEFAULT**</dt> </dl>             | Sensor configuration flag. The biometric units operate in the manner specified during installation.<br/>                                                                           |
 | <span id="WINBIO_FLAG_BASIC"></span><span id="winbio_flag_basic"></span><dl> <dt>**WINBIO\_FLAG\_BASIC**</dt> </dl>                   | Sensor configuration flag. The biometric units operate only as basic capture devices.<br/>                                                                                         |
 | <span id="WINBIO_FLAG_ADVANCED"></span><span id="winbio_flag_advanced"></span><dl> <dt>**WINBIO\_FLAG\_ADVANCED**</dt> </dl>          | Sensor configuration flag. The biometric units use internal processing and storage capabilities.<br/>                                                                              |
-| <span id="WINBIO_FLAG_RAW"></span><span id="winbio_flag_raw"></span><dl> <dt>**WINBIO\_FLAG\_RAW**</dt> </dl>                         | Desired access flag. The client application captures raw biometric data using [**WinBioCaptureSample**](winbiocapturesample.md).<br/>                                             |
-| <span id="WINBIO_FLAG_MAINTENANCE"></span><span id="winbio_flag_maintenance"></span><dl> <dt>**WINBIO\_FLAG\_MAINTENANCE**</dt> </dl> | Desired access flag. The client performs vendor-defined control operations on a biometric unit by calling [**WinBioControlUnitPrivileged**](winbiocontrolunitprivileged.md).<br/> |
+| <span id="WINBIO_FLAG_RAW"></span><span id="winbio_flag_raw"></span><dl> <dt>**WINBIO\_FLAG\_RAW**</dt> </dl>                         | Desired access flag. The client application captures raw biometric data using [**WinBioCaptureSample**](/windows/win32/Winbio/nf-winbio-winbiocapturesample?branch=master).<br/>                                             |
+| <span id="WINBIO_FLAG_MAINTENANCE"></span><span id="winbio_flag_maintenance"></span><dl> <dt>**WINBIO\_FLAG\_MAINTENANCE**</dt> </dl> | Desired access flag. The client performs vendor-defined control operations on a biometric unit by calling [**WinBioControlUnitPrivileged**](/windows/win32/Winbio/nf-winbio-winbiocontrolunitprivileged?branch=master).<br/> |
 
 
 
@@ -38,8 +43,8 @@ The following constants can be used in the [**WinBioOpenSession**](winbioopenses
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -51,9 +56,9 @@ The following constants can be used in the [**WinBioOpenSession**](winbioopenses
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

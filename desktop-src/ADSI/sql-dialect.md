@@ -4,11 +4,16 @@ description: The SQL dialect, derived from the Structured Query Language, uses h
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c1032268-e0f5-4d74-ab72-864cdd36851d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c1032268-e0f5-4d74-ab72-864cdd36851d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["SQL Dialect ADSI", "dialect ADSI , SQL dialect"]
+keywords:
+- SQL Dialect ADSI
+- dialect ADSI , SQL dialect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SQL Dialect

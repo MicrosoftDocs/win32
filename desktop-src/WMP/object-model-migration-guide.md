@@ -1,8 +1,23 @@
 ---
 title: Object Model Migration Guide
 description: Object Model Migration Guide
-ms.assetid: '2fd4f7ec-36b0-49da-9a11-546dd41c7a98'
-keywords: ["Windows Media Player,object model", "Windows Media Player,migration guide", "Windows Media Player object model,migration guide", "object model,migration guide", "Windows Media Player ActiveX control,migration guide", "ActiveX control,migration guide", "Windows Media Player Mobile ActiveX control,migration guide", "Windows Media Player Mobile,object model", "Windows Media Player Mobile,migration guide", "migration guide,about"]
+ms.assetid: 2fd4f7ec-36b0-49da-9a11-546dd41c7a98
+keywords:
+- Windows Media Player,object model
+- Windows Media Player,migration guide
+- Windows Media Player object model,migration guide
+- object model,migration guide
+- Windows Media Player ActiveX control,migration guide
+- ActiveX control,migration guide
+- Windows Media Player Mobile ActiveX control,migration guide
+- Windows Media Player Mobile,object model
+- Windows Media Player Mobile,migration guide
+- migration guide,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Model Migration Guide

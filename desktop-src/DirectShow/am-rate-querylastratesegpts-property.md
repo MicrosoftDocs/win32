@@ -1,7 +1,12 @@
 ---
-Description: 'This property queries the decoder for the start time of the rate change that was queued most recently, regardless of its position in the rate-change queue.'
-ms.assetid: '3c7006e7-48fd-4df8-b446-8ee2b024278b'
-title: 'AM\_RATE\_QueryLastRateSegPTS Property'
+Description: This property queries the decoder for the start time of the rate change that was queued most recently, regardless of its position in the rate-change queue.
+ms.assetid: 3c7006e7-48fd-4df8-b446-8ee2b024278b
+title: AM\_RATE\_QueryLastRateSegPTS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AM\_RATE\_QueryLastRateSegPTS Property
@@ -20,7 +25,7 @@ This property is defined for version 1.1 of this property set; see [**AM\_RATE\_
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,9 +48,9 @@ The source filter can use this property to synchronize rate changes across sever
 [**Rate Change Property Set**](rate-change-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

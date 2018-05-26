@@ -1,7 +1,7 @@
 ---
 title: Window Classes
 description: This section lists the window class names provided by the common control library.
-ms.assetid: '5ff76b33-1278-4ee8-b3a0-62bea0e9868b'
+ms.assetid: 5ff76b33-1278-4ee8-b3a0-62bea0e9868b
 topic_type:
 - apiref
 api_name:
@@ -38,6 +38,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Classes
@@ -90,9 +95,9 @@ This section lists the window class names provided by the common control library
 
 
 
- 
+ 
 
- 
+ 
 
 
 

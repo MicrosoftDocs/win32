@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the root IContextNode of the IInkAnalyzer object''s context tree.'
-ms.assetid: '6c073952-7962-4f38-89ae-f543e64e904f'
-title: 'IInkAnalyzer::GetRootNode method'
+Description: Gets the root IContextNode of the IInkAnalyzer objects context tree.
+ms.assetid: 6c073952-7962-4f38-89ae-f543e64e904f
+title: IInkAnalyzerGetRootNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetRootNode method
@@ -13,7 +18,7 @@ Gets the root [**IContextNode**](icontextnode.md) of the [**IInkAnalyzer**](iink
 
 ```C++
 HRESULT GetRootNode(
-  [out] IContextNode **ppRootNode
+  [out] IContextNode **ppRootNode
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppRootNode* when you no longer need to use the root node.
 
- 
+ 
 
 The [**IInkAnalyzer**](iinkanalyzer.md) maintains a tree of [**IContextNode**](icontextnode.md) objects. These objects contain both input for analysis and the results of analysis. When strokes are initially added to the **IInkAnalyzer**, the **IInkAnalyzer** assigns them to a **IContextNode** of type UnclassifiedInk (See [**IContextNode::GetType**](icontextnode-gettype.md) and [Context Node Types](context-node-types.md)). After the strokes are analyzed, the **IInkAnalyzer** assigns them to appropriate **IContextNode** objects in the tree. For more information about using the **IInkAnalyzer** to analyze ink, see [Ink Analysis Overview](ink-analysis-overview.md).
 
@@ -111,7 +116,7 @@ HRESULT CMyClass::ExploreAnalysisResults(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -134,9 +139,9 @@ HRESULT CMyClass::ExploreAnalysisResults(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

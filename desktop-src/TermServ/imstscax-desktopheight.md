@@ -1,14 +1,35 @@
 ---
 title: IMsTscAx DesktopHeight property
-description: Specifies the current control's height, in pixels, on the initial remote desktop.
+description: Specifies the current controls height, in pixels, on the initial remote desktop.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7071053b-bdd1-408b-ab69-965c504fafb0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7071053b-bdd1-408b-ab69-965c504fafb0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DesktopHeight property Remote Desktop Services", "DesktopHeight property Remote Desktop Services , IMsTscAx interface", "IMsTscAx interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , DesktopHeight property", "DesktopHeight property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , DesktopHeight property"]
+keywords:
+- DesktopHeight property Remote Desktop Services
+- DesktopHeight property Remote Desktop Services , IMsTscAx interface
+- IMsTscAx interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , DesktopHeight property
+- DesktopHeight property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , DesktopHeight property
 topic_type:
 - apiref
 api_name:
@@ -46,6 +67,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAx::DesktopHeight property
@@ -59,11 +83,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_DesktopHeight(
-  [in]  LONG newVal
+  [in]  LONG newVal
 );
 
 HRESULT get_DesktopHeight(
-  [out] LONG *pVal
+  [out] LONG *pVal
 );
 ```
 
@@ -83,21 +107,21 @@ Setting the **DesktopHeight** property is optional, but it must be set before ca
 
 <dl> <dt>
 
-<span id="_"></span>Windows 8/Windows Server 2012
+<span id="_"></span>Windows 8/Windows Server 2012
 </dt> <dd>
 
 200 minimum, 8192 maximum
 
 </dd> <dt>
 
-<span id="_"></span>Windows 7/Windows Server 2008
+<span id="_"></span>Windows 7/Windows Server 2008
 </dt> <dd>
 
 200 minimum, 2048 maximum
 
 </dd> <dt>
 
-Windows Vista
+Windows Vista
 </dt> <dd>
 
 200 minimum, 1200 maximum
@@ -114,8 +138,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscAx is defined as 8C11EFAE-92C3-11D1-BC1E-00C04FA31489<br/>            |
@@ -156,9 +180,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAx**](imstscax-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

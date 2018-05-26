@@ -1,8 +1,11 @@
 ---
 title: ISurface get\_VideoSize method
 description: The get\_VideoSize method retrieves the size of the video surface.
-ms.assetid: 'd52ca294-80f4-4842-8d0b-0b12cd8f0198'
-keywords: ["get_VideoSize method Windows Movie Maker and DVD Maker", "get_VideoSize method Windows Movie Maker and DVD Maker , ISurface interface", "ISurface interface Windows Movie Maker and DVD Maker , get_VideoSize method"]
+ms.assetid: d52ca294-80f4-4842-8d0b-0b12cd8f0198
+keywords:
+- get_VideoSize method Windows Movie Maker and DVD Maker
+- get_VideoSize method Windows Movie Maker and DVD Maker , ISurface interface
+- ISurface interface Windows Movie Maker and DVD Maker , get_VideoSize method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISurface::get\_VideoSize method
@@ -25,7 +33,7 @@ The **get\_VideoSize** method retrieves the size of the video surface.
 
 ```C++
 HRESULT get_VideoSize(
-  [out] VIDEO_SIZE *pSize
+  [out] VIDEO_SIZE *pSize
 );
 ```
 
@@ -52,8 +60,8 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -66,9 +74,9 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 [**ISurface Interface**](isurface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

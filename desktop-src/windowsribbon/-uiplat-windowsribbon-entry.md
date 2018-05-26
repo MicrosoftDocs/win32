@@ -1,8 +1,33 @@
 ---
 title: Windows Ribbon Framework
 description: The Windows Ribbon framework is a rich command presentation system that provides a modern alternative to the layered menus, toolbars, and task panes of traditional Windows applications.
-ms.assetid: 'c6108c38-17ef-4d8a-ab32-171bc496d44c'
-keywords: ["Windows Ribbon", "Ribbon", "Windows Ribbon documentation", "Ribbon documentation", "Windows Ribbon API", "Ribbon API", "Windows Ribbon,framework", "Ribbon,framework", "Windows Ribbon,about", "Ribbon,about", "Windows Ribbon,components", "Ribbon,components", "Windows Ribbon,views", "Ribbon,views", "Windows Ribbon,architecture", "Ribbon,architecture", "Windows Ribbon,APIs", "Ribbon,APIs", "Windows Ribbon,security", "Ribbon,security"]
+ms.assetid: c6108c38-17ef-4d8a-ab32-171bc496d44c
+keywords:
+- Windows Ribbon
+- Ribbon
+- Windows Ribbon documentation
+- Ribbon documentation
+- Windows Ribbon API
+- Ribbon API
+- Windows Ribbon,framework
+- Ribbon,framework
+- Windows Ribbon,about
+- Ribbon,about
+- Windows Ribbon,components
+- Ribbon,components
+- Windows Ribbon,views
+- Ribbon,views
+- Windows Ribbon,architecture
+- Ribbon,architecture
+- Windows Ribbon,APIs
+- Ribbon,APIs
+- Windows Ribbon,security
+- Ribbon,security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Ribbon Framework
@@ -24,7 +49,7 @@ The Windows Ribbon framework is a rich command presentation system that provides
 
 
 
- 
+ 
 
 ## Developer Audience
 
@@ -47,19 +72,19 @@ Recommended foundational knowledge:
 
 |                                        |                                                                                                                                                                          |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client               | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
-| Minimum supported server               | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
+| Minimum supported client               | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/>         |
+| Minimum supported server               | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272)<br/> |
 | Windows Software Development Kit (SDK) | 7.0                                                                                                                                                                      |
 | Header and IDL files                   | uiribbon.h, uiribbon.idl                                                                                                                                                 |
 
 
 
- 
+ 
 
 > [!Note]  
-> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
+> The [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) and [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) are sets of run-time libraries that enable developers to target Windows Ribbon applications to both Windows Vista and Windows Server 2008. The platform updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require [Platform Update for Windows Vista](http://go.microsoft.com/fwlink/p/?linkid=166272) or [Platform Update for Windows Server 2008](http://go.microsoft.com/fwlink/p/?linkid=166272) can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
 
- 
+ 
 
 ## See Also
 
@@ -72,9 +97,9 @@ Recommended foundational knowledge:
 [XAML](http://go.microsoft.com/fwlink/p/?linkid=129166)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Network Address Translation Traversal
 description: Network Address Translation (NAT) is commonly implemented in residential gateways to share an Internet connection across a private home or small office network.
-ms.assetid: '29dc9ad0-e419-4762-a8c5-aec243b52656'
-keywords: ["Network Address Translation Traversal", "Network Address Translation Traversal ,start page", "NAT", "traversal ICS/ICF"]
+ms.assetid: 29dc9ad0-e419-4762-a8c5-aec243b52656
+keywords:
+- Network Address Translation Traversal
+- Network Address Translation Traversal ,start page
+- NAT
+- traversal ICS/ICF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Address Translation Traversal
@@ -21,7 +30,7 @@ The NAT API is designed for use by programmers using C/C++, Microsoft Visual Bas
 
 ## Run-time requirements
 
-The NAT API is supported on Windows XP and later.
+The NAT API is supported on Windows XP and later.
 
 ## In this section
 
@@ -34,11 +43,11 @@ The NAT API is supported on Windows XP and later.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

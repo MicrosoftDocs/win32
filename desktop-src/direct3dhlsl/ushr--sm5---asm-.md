@@ -1,7 +1,12 @@
 ---
 title: ushr (sm5 - asm)
 description: Shift right.
-ms.assetid: 'C695CB6C-A6C9-4DC8-8EBE-70A0CFFC4981'
+ms.assetid: C695CB6C-A6C9-4DC8-8EBE-70A0CFFC4981
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ushr (sm5 - asm)
@@ -15,7 +20,7 @@ Shift right.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Shift right.
 
 
 
- 
+ 
 
 This instruction performs a component-wise shift of each 32-bit value in *src0* right by an unsigned integer bit count provided by the LSB 5 bits (0-31 range) in *src1*, inserting 0. The 32-bit per component results is placed in *dest*.
 
@@ -41,7 +46,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -60,7 +65,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

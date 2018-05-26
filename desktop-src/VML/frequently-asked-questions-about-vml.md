@@ -1,8 +1,36 @@
 ---
 title: Frequently Asked Questions About VML
 description: Frequently Asked Questions About VML
-ms.assetid: 'f7f2ce12-facf-4042-b2a7-acaa3e25816a'
-keywords: ["Vector Markup Language (VML),FAQs", "VML (Vector Markup Language),FAQs", "vector graphics,FAQs", "Vector Markup Language (VML),frequently asked questions", "VML (Vector Markup Language),frequently asked questions", "vector graphics,frequently asked questions", "Vector Markup Language (VML),GIF differences", "VML (Vector Markup Language),GIF differences", "Vector Markup Language (VML),PNG differences", "VML (Vector Markup Language),PNG differences", "vector graphics,raster format differences", "Vector Markup Language (VML),XML", "VML (Vector Markup Language),XML", "vector graphics,XML", "Vector Markup Language (VML),animation", "VML (Vector Markup Language),animation", "vector graphics,animation", "Vector Markup Language (VML),Macromedia Flash", "VML (Vector Markup Language),Macromedia Flash", "vector graphics,Macromedia Flash", "raster formats", "animation", "Macromedia Flash"]
+ms.assetid: f7f2ce12-facf-4042-b2a7-acaa3e25816a
+keywords:
+- Vector Markup Language (VML),FAQs
+- VML (Vector Markup Language),FAQs
+- vector graphics,FAQs
+- Vector Markup Language (VML),frequently asked questions
+- VML (Vector Markup Language),frequently asked questions
+- vector graphics,frequently asked questions
+- Vector Markup Language (VML),GIF differences
+- VML (Vector Markup Language),GIF differences
+- Vector Markup Language (VML),PNG differences
+- VML (Vector Markup Language),PNG differences
+- vector graphics,raster format differences
+- Vector Markup Language (VML),XML
+- VML (Vector Markup Language),XML
+- vector graphics,XML
+- Vector Markup Language (VML),animation
+- VML (Vector Markup Language),animation
+- vector graphics,animation
+- Vector Markup Language (VML),Macromedia Flash
+- VML (Vector Markup Language),Macromedia Flash
+- vector graphics,Macromedia Flash
+- raster formats
+- animation
+- Macromedia Flash
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frequently Asked Questions About VML

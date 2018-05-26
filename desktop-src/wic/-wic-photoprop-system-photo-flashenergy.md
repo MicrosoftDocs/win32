@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.FlashEnergy property.'
-ms.assetid: 'd10a4de9-16fe-4920-aa7f-b2f95fb23045'
-title: 'System.Photo.FlashEnergy Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.FlashEnergy property.
+ms.assetid: d10a4de9-16fe-4920-aa7f-b2f95fb23045
+title: System.Photo.FlashEnergy Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FlashEnergy Photo Metadata Policy

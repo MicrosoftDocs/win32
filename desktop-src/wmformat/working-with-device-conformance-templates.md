@@ -1,8 +1,22 @@
 ---
 title: Working with Device Conformance Templates
 description: Working with Device Conformance Templates
-ms.assetid: '230744d2-7c0f-4a14-8018-da88b5285add'
-keywords: ["profiles,device conformance templates", "profiles,conformance templates", "codecs,device conformance templates", "codecs,conformance templates", "device conformance templates,about", "conformance templates", "templates,device conformance templates", "Advanced Systems Format (ASF),device conformance templates", "ASF (Advanced Systems Format),device conformance templates"]
+ms.assetid: 230744d2-7c0f-4a14-8018-da88b5285add
+keywords:
+- profiles,device conformance templates
+- profiles,conformance templates
+- codecs,device conformance templates
+- codecs,conformance templates
+- device conformance templates,about
+- conformance templates
+- templates,device conformance templates
+- Advanced Systems Format (ASF),device conformance templates
+- ASF (Advanced Systems Format),device conformance templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Device Conformance Templates
@@ -20,9 +34,9 @@ The following codecs support device conformance templates:
 -   Windows Media Audio 9 Professional and later
 -   Windows Media Audio 9 Voice
 
-You do not need to take any special steps to use device conformance templates. The codec automatically writes a template string for each appropriate stream in the file. The codec will decide which template to use, based on the stream configuration settings in the profile. There is some overlap in device conformance template parameters, so you may want to request a specific template instead of letting the codec assign one for you. You can specify which template you want by setting the g\_wszDecoderComplexityRequested property with the methods of the [**IWMPropertyVault**](iwmpropertyvault.md) interface of the appropriate stream configuration object.
+You do not need to take any special steps to use device conformance templates. The codec automatically writes a template string for each appropriate stream in the file. The codec will decide which template to use, based on the stream configuration settings in the profile. There is some overlap in device conformance template parameters, so you may want to request a specific template instead of letting the codec assign one for you. You can specify which template you want by setting the g\_wszDecoderComplexityRequested property with the methods of the [**IWMPropertyVault**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master) interface of the appropriate stream configuration object.
 
-When an ASF file is written, the actual device conformance template for each stream is set to the value passed to the writer by the codec. When opening a file for reading, you can find out which template the streams of the file conform to by using the methods of the [**IWMHeaderInfo3**](iwmheaderinfo3.md) interface to retrieve the g\_wszDeviceConformanceTemplate stream-level attribute. For more information about attributes, see [Working with Metadata](working-with-metadata.md).
+When an ASF file is written, the actual device conformance template for each stream is set to the value passed to the writer by the codec. When opening a file for reading, you can find out which template the streams of the file conform to by using the methods of the [**IWMHeaderInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3?branch=master) interface to retrieve the g\_wszDeviceConformanceTemplate stream-level attribute. For more information about attributes, see [Working with Metadata](working-with-metadata.md).
 
 ## Related topics
 

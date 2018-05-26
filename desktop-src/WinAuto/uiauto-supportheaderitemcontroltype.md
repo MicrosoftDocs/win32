@@ -1,8 +1,29 @@
 ---
 title: HeaderItem Control Type
 description: This topic provides information about Microsoft UI Automation support for the HeaderItem control type.
-ms.assetid: 'c70420d6-d9f3-47c8-a09f-35ed170f815f'
-keywords: ["UI Automation,support for HeaderItem control type", "UI Automation,HeaderItem control type", "UI Automation,tree structure for HeaderItem control type", "UI Automation,properties for HeaderItem control type", "UI Automation,control patterns for HeaderItem control type", "UI Automation,events for HeaderItem control type", "tree structures,HeaderItem control type", "properties,HeaderItem control type", "control patterns,HeaderItem control type", "events,HeaderItem control type", "support for HeaderItem control type", "HeaderItem control type", "control types,tree structure for HeaderItem control type", "control types,control patterns for HeaderItem control type", "control types,support for HeaderItem", "control types,HeaderItem"]
+ms.assetid: c70420d6-d9f3-47c8-a09f-35ed170f815f
+keywords:
+- UI Automation,support for HeaderItem control type
+- UI Automation,HeaderItem control type
+- UI Automation,tree structure for HeaderItem control type
+- UI Automation,properties for HeaderItem control type
+- UI Automation,control patterns for HeaderItem control type
+- UI Automation,events for HeaderItem control type
+- tree structures,HeaderItem control type
+- properties,HeaderItem control type
+- control patterns,HeaderItem control type
+- events,HeaderItem control type
+- support for HeaderItem control type
+- HeaderItem control type
+- control types,tree structure for HeaderItem control type
+- control types,control patterns for HeaderItem control type
+- control types,support for HeaderItem
+- control types,HeaderItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HeaderItem Control Type
@@ -84,8 +105,8 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support | Notes                                                                                                                             |
 |---------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)       | Depends | Implement the [Invoke](uiauto-implementinginvoke.md) control pattern if the header item control can be clicked to sort the data. |
-| [**ITransformProvider**](uiauto-itransformprovider.md) | Depends | Implement the [Transform](uiauto-implementingtransform.md) control pattern if the header item control can be resized.            |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)       | Depends | Implement the [Invoke](uiauto-implementinginvoke.md) control pattern if the header item control can be clicked to sort the data. |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) | Depends | Implement the [Transform](uiauto-implementingtransform.md) control pattern if the header item control can be resized.            |
 
 
 

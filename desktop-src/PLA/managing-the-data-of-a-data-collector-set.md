@@ -1,16 +1,21 @@
 ---
 title: Managing the Data of a Data Collector Set
 description: To enable the data manager for a data collector set, set the IDataManager Enabled property to VARIANT\_TRUE.
-ms.assetid: '131d4e41-ef32-4058-9342-b365309333d5'
+ms.assetid: 131d4e41-ef32-4058-9342-b365309333d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Data of a Data Collector Set
 
-To enable the data manager for a data collector set, set the [**IDataManager::Enabled**](idatamanager-enabled.md) property to VARIANT\_TRUE. The data manager is used to create reports, create cabinet files, and manage the disk resources used by the data collector set.
+To enable the data manager for a data collector set, set the [**IDataManager::Enabled**](/windows/previous-versions/Pla/nf-pla-idatamanager-get_enabled?branch=master) property to VARIANT\_TRUE. The data manager is used to create reports, create cabinet files, and manage the disk resources used by the data collector set.
 
-The data manager runs after the data collectors in the set complete. To have the data manager verify available disk space before the data collector set runs, set the [**IDataCollectorSet::CheckBeforeRunning**](idatamanager-checkbeforerunning.md) property to VARIANT\_TRUE.
+The data manager runs after the data collectors in the set complete. To have the data manager verify available disk space before the data collector set runs, set the [**IDataCollectorSet::CheckBeforeRunning**](/windows/previous-versions/Pla/nf-pla-idatamanager-get_checkbeforerunning?branch=master) property to VARIANT\_TRUE.
 
-To run the data manager manually, call the [**IDataManager::Run**](idatamanager-run.md) method and specify the steps to run.
+To run the data manager manually, call the [**IDataManager::Run**](/windows/previous-versions/Pla/nf-pla-idatamanager-run?branch=master) method and specify the steps to run.
 
 The following example shows how to enable the data manager. This example builds on the example in [Creating a Data Collector Set](creating-a-data-collector-set.md).
 

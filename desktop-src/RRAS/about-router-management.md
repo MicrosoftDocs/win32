@@ -1,8 +1,17 @@
 ---
 title: About Router Management
 description: The router administration API allows developers to create applications to manage the router service on a computer running Windows 2000 Server and later operating systems.
-ms.assetid: '34a8d47b-bc01-40f5-b5b5-c7c4fedbbaa4'
-keywords: ["Routing and Remote Access Service RRAS , Router Management", "Routing and Remote Access Service RRAS , Router Management, described", "Router Management RRAS", "Router Management RRAS , described"]
+ms.assetid: 34a8d47b-bc01-40f5-b5b5-c7c4fedbbaa4
+keywords:
+- Routing and Remote Access Service RRAS , Router Management
+- Routing and Remote Access Service RRAS , Router Management, described
+- Router Management RRAS
+- Router Management RRAS , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Router Management

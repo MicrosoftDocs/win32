@@ -1,8 +1,11 @@
 ---
 title: SetProxySettings method of the BitsClientJob class
 description: The SetProxySettings method modifies the proxy settings for the BITS transfer job.
-ms.assetid: '0fed4286-1a80-4e79-a7c5-e9a542cd05a3'
-keywords: ["SetProxySettings method", "SetProxySettings method, BitsClientJob class", "BitsClientJob class, SetProxySettings method"]
+ms.assetid: 0fed4286-1a80-4e79-a7c5-e9a542cd05a3
+keywords:
+- SetProxySettings method
+- SetProxySettings method, BitsClientJob class
+- BitsClientJob class, SetProxySettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetProxySettings method of the BitsClientJob class
@@ -22,9 +30,9 @@ The **SetProxySettings** method modifies the proxy settings for the BITS transfe
 
 ```mof
 uint32 SetProxySettings(
-  [in]           uint16 ProxyUsage,
-  [in, optional] string ProxyList,
-  [in, optional] string ProxyBypassList
+  [in]           uint16 ProxyUsage,
+  [in, optional] string ProxyList,
+  [in, optional] string ProxyBypassList
 );
 ```
 
@@ -50,7 +58,7 @@ Specifies whether the user's proxy settings will be used, whether a proxy will b
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -75,8 +83,8 @@ Specifies a **null**-terminated string that contains an optional list of host na
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -89,9 +97,9 @@ Specifies a **null**-terminated string that contains an optional list of host na
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

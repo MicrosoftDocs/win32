@@ -1,7 +1,12 @@
-﻿---
-Description: 'Feature Completeness: Recommended Interfaces'
-ms.assetid: '759bf253-7450-4895-a550-9f81f3498f79'
-title: 'Feature Completeness: Recommended Interfaces'
+---
+Description: Feature Completeness Recommended Interfaces
+ms.assetid: 759bf253-7450-4895-a550-9f81f3498f79
+title: Feature Completeness Recommended Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Feature Completeness: Recommended Interfaces
@@ -25,17 +30,17 @@ The following table lists the Windows Imaging Component (WIC) interfaces RAW cod
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>IWICBitmapDecoder</strong>](-wic-codec-iwicbitmapdecoder.md)</td>
+<td>[<strong>IWICBitmapDecoder</strong>](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)</td>
 <td>Decoders</td>
 <td>Represents the starting point for decoding an image file. Provides access to container-level properties like thumbnails, frames, and palette.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IWICBitmapFrameDecode</strong>](-wic-codec-iwicbitmapframedecode.md)</td>
+<td>[<strong>IWICBitmapFrameDecode</strong>](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)</td>
 <td>Decoders</td>
 <td>Represents a specific image frame within the container that provides access to frame-level properties. This is the interface that decodes the actual image bits.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IWICMetadataBlockReader</strong>](-wic-codec-iwicmetadatablockreader.md)</td>
+<td>[<strong>IWICMetadataBlockReader</strong>](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master)</td>
 <td>Decoders</td>
 <td>Required for enumerating and iterating through metadata blocks and invoking the appropriate metadata readers when reading from an image file. <br/>
 <blockquote>
@@ -45,27 +50,27 @@ If the RAW container format is TIFF compatible or uses standard IFDs or IRBs to 
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IWICBitmapSourceTransform</strong>](-wic-codec-iwicbitmapsourcetransform.md)</td>
+<td>[<strong>IWICBitmapSourceTransform</strong>](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master)</td>
 <td>Decoders</td>
 <td>Allows the caller to specify desired scaling, cropping, rotation, or pixel format for the decoded image, which can significantly improve decoder performance. For example, Microsoft's JPEG and Wireless Datagram Protocol (WDP) decoders use a pyramid optimization scheme to achieve faster decoding when the target bitmap is smaller than the source bitmap. Windows Vista (and later) will attempt to use this interface to extract a &quot;fast&quot; preview from a RAW image whenever the embedded preview is missing or less than 1,024 pixels in its largest dimension.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IWICDevelopRaw</strong>](-wic-codec-iwicdevelopraw.md)</td>
+<td>[<strong>IWICDevelopRaw</strong>](/windows/win32/Wincodec/nn-wincodec-iwicdevelopraw?branch=master)</td>
 <td>Decoders</td>
 <td>Required for RAW formats. Exposes parameters that are specific to RAW image processing. RAW codecs should support as many of these parameters as apply to the codec.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IWICBitmapEncoder</strong>](-wic-codec-iwicbitmapencoder.md)</td>
+<td>[<strong>IWICBitmapEncoder</strong>](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master)</td>
 <td>Encoders</td>
 <td>Represents the starting point for encoding an image file. This interface is used for setting container-level properties, such as thumbnails, frames, and palette. It is also required to invoke a metadata writer to enable metadata persistence to the image file. For these reasons, this interface is necessary even if encoding the primary bitmap to the RAW format is not supported.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IWICBitmapFrameEncode</strong>](-wic-codec-iwicbitmapframeencode.md)</td>
+<td>[<strong>IWICBitmapFrameEncode</strong>](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master)</td>
 <td>Encoders</td>
 <td>Represents a specific image frame within the container. This interface is used to encode the actual image bits and to set per-frame metadata and properties.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IWICMetadataBlockWriter</strong>](-wic-codec-iwicmetadatablockwriter.md)</td>
+<td>[<strong>IWICMetadataBlockWriter</strong>](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter?branch=master)</td>
 <td>Encoders</td>
 <td>Required for iterating through metadata blocks and invoking the appropriate metadata writers when serializing an image file.<br/>
 <blockquote>

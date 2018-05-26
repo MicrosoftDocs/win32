@@ -1,8 +1,14 @@
 ---
 title: RAS Server Administration Reference
 description: The following functions, structures, messages, and enumeration types are used to administer a server running Remote Access Service (RAS).
-ms.assetid: 'e74699b2-4651-4901-ba9f-1894c86bcb0f'
-keywords: ["Remote Access Service RAS ,server administration reference"]
+ms.assetid: e74699b2-4651-4901-ba9f-1894c86bcb0f
+keywords:
+- Remote Access Service RAS ,server administration reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS Server Administration Reference

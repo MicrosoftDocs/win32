@@ -1,7 +1,12 @@
 ---
 title: Compound Document Interfaces
 description: Compound Document Interfaces
-ms.assetid: '3192ee58-55fd-43cb-b7d5-7270e91b8131'
+ms.assetid: 3192ee58-55fd-43cb-b7d5-7270e91b8131
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compound Document Interfaces
@@ -14,16 +19,16 @@ The following table lists required and optional behaviors for OLE containers and
 
 | Behavior                               | Interfaces                                                                                                                                                              |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Required behaviors<br/>          | [**IOleClientSite**](ioleclientsite.md)<br/> [**IAdviseSink**](iadvisesink.md)<br/>                                                                       |
-| Message filtering<br/>           | [**IMessageFilter**](imessagefilter.md)<br/>                                                                                                                     |
+| Required behaviors<br/>          | [**IOleClientSite**](/windows/win32/OleIdl/nn-oleidl-ioleclientsite?branch=master)<br/> [**IAdviseSink**](/windows/win32/ObjIdl/nn-objidl-iadvisesink?branch=master)<br/>                                                                       |
+| Message filtering<br/>           | [**IMessageFilter**](/windows/win32/ObjIdl/nn-objidl-imessagefilter?branch=master)<br/>                                                                                                                     |
 | Linking<br/>                     | none<br/>                                                                                                                                                         |
-| Linking to embedded objects<br/> | [**IOleItemContainer**](ioleitemcontainer.md)<br/> [**IPersistFile**](ipersistfile.md)<br/> [**IClassFactory**](iclassfactory.md)<br/>             |
-| In-place activation<br/>         | [**IOleInPlaceSite**](ioleinplacesite.md)<br/> [**IOleInPlaceFrame**](ioleinplaceframe.md)<br/> [**IOleInPlaceObject**](ioleinplaceobject.md)<br/> |
-| Drag and drop<br/>               | [**IDropSource**](idropsource.md)<br/> [**IDropTarget**](idroptarget.md)<br/> [**IDataObject**](idataobject.md)<br/>                               |
+| Linking to embedded objects<br/> | [**IOleItemContainer**](/windows/win32/OleIdl/nn-oleidl-ioleitemcontainer?branch=master)<br/> [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master)<br/> [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master)<br/>             |
+| In-place activation<br/>         | [**IOleInPlaceSite**](/windows/win32/OleIdl/nn-oleidl-ioleinplacesite?branch=master)<br/> [**IOleInPlaceFrame**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceframe?branch=master)<br/> [**IOleInPlaceObject**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceobject?branch=master)<br/> |
+| Drag and drop<br/>               | [**IDropSource**](/windows/win32/OleIdl/nn-oleidl-idropsource?branch=master)<br/> [**IDropTarget**](/windows/win32/OleIdl/nn-oleidl-idroptarget?branch=master)<br/> [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master)<br/>                               |
 
 
 
- 
+ 
 
 The following table lists required and optional behaviors for OLE servers and their compound document objects and which interfaces you must implement for each. The table distinguishes OLE servers and their objects in order to clarify which component implements which interfaces. The table also notes the different requirements of objects provided by out-of-process versus in-process servers.
 
@@ -31,15 +36,15 @@ The following table lists required and optional behaviors for OLE servers and th
 
 | Feature                        | OLE Server                                                                                                                                | Object (Out-of-process)                                                                                                                         | Object (In-process)                                                                                                                                                                                                                         |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Required behaviors             | [**IClassFactory**](iclassfactory.md)<br/>                                                                                         | [**IOleObject**](ioleobject.md)<br/> [**IDataObject**](idataobject.md)<br/> [**IPersistStorage**](ipersiststorage.md)<br/> | [**IOleObject**](ioleobject.md)<br/> [**IDataObject**](idataobject.md)<br/> [**IPersistStorage**](ipersiststorage.md)<br/> [**IViewObject2**](iviewobject2.md)<br/> [**IOleCache2**](iolecache2.md)<br/> |
-| Message filtering<br/>   | [**IMessageFilter**](imessagefilter.md)<br/>                                                                                       |                                                                                                                                                 |                                                                                                                                                                                                                                             |
-| Linking<br/>             | [**IOleItemContainer**](ioleitemcontainer.md)<br/> [**IPersistFile**](ipersistfile.md)<br/>                                 |                                                                                                                                                 | [**IOleLink**](iolelink.md)<br/> [**IExternalConnection**](iexternalconnection.md)<br/>                                                                                                                                       |
-| In-place activation<br/> |                                                                                                                                           | [**IOleInPlaceObject**](ioleinplaceobject.md)<br/> [**IOleInPlaceActiveObject**](ioleinplaceactiveobject.md)<br/>                 | [**IOleInPlaceObject**](ioleinplaceobject.md)<br/> [**IOleInPlaceActiveObject**](ioleinplaceactiveobject.md)<br/>                                                                                                             |
-| Drag and drop<br/>       | [**IDropSource**](idropsource.md)<br/> [**IDropTarget**](idroptarget.md)<br/> [**IDataObject**](idataobject.md)<br/> |                                                                                                                                                 |                                                                                                                                                                                                                                             |
+| Required behaviors             | [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master)<br/>                                                                                         | [**IOleObject**](/windows/win32/OleIdl/nn-oleidl-ioleobject?branch=master)<br/> [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master)<br/> [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master)<br/> | [**IOleObject**](/windows/win32/OleIdl/nn-oleidl-ioleobject?branch=master)<br/> [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master)<br/> [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master)<br/> [**IViewObject2**](/windows/win32/OleIdl/nn-oleidl-iviewobject2?branch=master)<br/> [**IOleCache2**](/windows/win32/OleIdl/nn-oleidl-iolecache2?branch=master)<br/> |
+| Message filtering<br/>   | [**IMessageFilter**](/windows/win32/ObjIdl/nn-objidl-imessagefilter?branch=master)<br/>                                                                                       |                                                                                                                                                 |                                                                                                                                                                                                                                             |
+| Linking<br/>             | [**IOleItemContainer**](/windows/win32/OleIdl/nn-oleidl-ioleitemcontainer?branch=master)<br/> [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master)<br/>                                 |                                                                                                                                                 | [**IOleLink**](/windows/win32/OleIdl/nn-oleidl-iolelink?branch=master)<br/> [**IExternalConnection**](/windows/win32/objidlbase/nn-objidl-iexternalconnection?branch=master)<br/>                                                                                                                                       |
+| In-place activation<br/> |                                                                                                                                           | [**IOleInPlaceObject**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceobject?branch=master)<br/> [**IOleInPlaceActiveObject**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceactiveobject?branch=master)<br/>                 | [**IOleInPlaceObject**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceobject?branch=master)<br/> [**IOleInPlaceActiveObject**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceactiveobject?branch=master)<br/>                                                                                                             |
+| Drag and drop<br/>       | [**IDropSource**](/windows/win32/OleIdl/nn-oleidl-idropsource?branch=master)<br/> [**IDropTarget**](/windows/win32/OleIdl/nn-oleidl-idroptarget?branch=master)<br/> [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master)<br/> |                                                                                                                                                 |                                                                                                                                                                                                                                             |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -48,9 +53,9 @@ The following table lists required and optional behaviors for OLE servers and th
 [Compound Documents](compound-documents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: gluGetString function
 description: The gluGetString function gets a string that describes the GLU version number or supported GLU extension calls.
-ms.assetid: 'e6d9ce03-3218-4145-8bb5-3989afe62436'
-keywords: ["gluGetString function OpenGL"]
+ms.assetid: e6d9ce03-3218-4145-8bb5-3989afe62436
+keywords:
+- gluGetString function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluGetString function
@@ -22,7 +28,7 @@ The **gluGetString** function gets a string that describes the GLU version numbe
 
 ```C++
 const GLubyte* WINAPI gluGetString(
-   GLenum name
+   GLenum name
 );
 ```
 
@@ -67,17 +73,17 @@ The **gluGetString** function is valid for GLU version 1.1 or later.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

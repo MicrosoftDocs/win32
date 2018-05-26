@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '378e346b-2067-484f-85e9-76673a35550b'
+Description: .
+ms.assetid: 378e346b-2067-484f-85e9-76673a35550b
 title: Notifications Process in Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications Process in Windows Search
@@ -44,7 +49,7 @@ With provider-managed notifications, you implement a notification strategy that 
 
 ## Notifications on Rowsets
 
-In Windows 7 and later, indexing eventing enables providers to receive notifications about their rowsets. Providers that use indexing eventing can maintain their rowsets in a manner that resembles the behavior of actual file system locations. Libraries and searches are the primary examples of non-file-system locations in Windows 7. Indexer eventing is to library views as notifications are to file-folder views. The [**IRowsetEvents**](-search-irowsetevents.md) interface must be implemented in order to receive notifications of events. The data layer is the primary client of indexer eventing, and decides what to do with events in the Items View UI. For more information, see [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md).
+In Windows 7 and later, indexing eventing enables providers to receive notifications about their rowsets. Providers that use indexing eventing can maintain their rowsets in a manner that resembles the behavior of actual file system locations. Libraries and searches are the primary examples of non-file-system locations in Windows 7. Indexer eventing is to library views as notifications are to file-folder views. The [**IRowsetEvents**](/windows/win32/Searchapi/nn-searchapi-irowsetevents?branch=master) interface must be implemented in order to receive notifications of events. The data layer is the primary client of indexer eventing, and decides what to do with events in the Items View UI. For more information, see [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md).
 
 In contrast, in Windows Vista, query based views have no associated eventing, except for the Shell cache for file property edits. When you perform a search, the results that are returned are static. Hence, if another document is added to your system that matches your search term, your view is not updated to include the new addition. This behavior is standard for static web-based results. However, static results are less acceptable when you are trying to provide a query-based view over a storage location. Users expect that content from the indexer is current. For more information, see [Notifying the Index of Changes](-search-3x-wds-notifyingofchanges.md). For reference documentation, see [Notifications Interfaces](-search-notifications-interfaces-entry-page.md).
 

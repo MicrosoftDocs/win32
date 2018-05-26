@@ -4,17 +4,21 @@ description: Initialize an MSUserRoles object with users and roles.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2A2D0567-62A7-4222-997D-DBE5338955EF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2A2D0567-62A7-4222-997D-DBE5338955EF
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRoles initWithUsers method"]
+keywords:
+- MSUserRoles initWithUsers method
 topic_type:
 - apiref
 api_name:
 - MSUserRoles initWithUsers method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRoles initWithUsers method
@@ -39,7 +43,7 @@ Initialize an [**MSUserRoles**](msuserroles-class.md) object with users and role
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ MSUserRoles.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Buttons
 description: Buttons
-ms.assetid: '1212e2d9-e8f8-45d8-8c7f-20865c9c9c94'
-keywords: ["Windows Media Player Mobile skins,button overview", "skins,button overview", "reference for skins,buttons", "buttons in skins,about"]
+ms.assetid: 1212e2d9-e8f8-45d8-8c7f-20865c9c9c94
+keywords:
+- Windows Media Player Mobile skins,button overview
+- skins,button overview
+- reference for skins,buttons
+- buttons in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buttons

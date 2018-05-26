@@ -1,7 +1,7 @@
 ---
 title: Animation Control Styles
 description: This section lists the window styles used with animation controls.
-ms.assetid: 'ad4fc4fd-166d-4871-9f60-5133a48681aa'
+ms.assetid: ad4fc4fd-166d-4871-9f60-5133a48681aa
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animation Control Styles
@@ -69,9 +74,9 @@ Comctl32.dll version 6 is not redistributable. To use Comctl32.dll version 6, sp
 
 
 
- 
+ 
 
- 
+ 
 
 
 

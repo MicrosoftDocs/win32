@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information about a tablet system event.'
-ms.assetid: '725f4b43-0bcb-4452-a87f-b24a85de0049'
-title: 'SYSTEM\_EVENT\_DATA structure'
+---
+Description: Contains information about a tablet system event.
+ms.assetid: 725f4b43-0bcb-4452-a87f-b24a85de0049
+title: SYSTEM\_EVENT\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SYSTEM\_EVENT\_DATA structure
@@ -114,7 +119,7 @@ The following system events are defined for use in the **bCursorMode** member.
 
 <dl> <dt>
 
-[**IStylusPlugin::SystemEvent Method**](istylusplugin-systemevent.md)
+[**IStylusPlugin::SystemEvent Method**](/windows/win32/RTSCom/nf-rtscom-istylusplugin-systemevent?branch=master)
 </dt> <dt>
 
 [**ITabletEventSink::SystemEvent Method**](itableteventsink-systemevent.md)

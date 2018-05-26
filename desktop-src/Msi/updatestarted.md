@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the UpdateStarted property when changes to the system have begun for this installation, including resuming a suspended installation.UI condition statements use this value to select a dialog box.'
-ms.assetid: 'aebc4a20-22b9-4a81-abed-1fed61b880da'
+---
+Description: The installer sets the UpdateStarted property when changes to the system have begun for this installation, including resuming a suspended installation.UI condition statements use this value to select a dialog box.
+ms.assetid: aebc4a20-22b9-4a81-abed-1fed61b880da
 title: UpdateStarted property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateStarted property

@@ -1,8 +1,24 @@
 ---
 title: The MIDI Mapper Architecture
 description: The MIDI Mapper Architecture
-ms.assetid: 'd08d1442-bf9f-46bb-bd44-f512ff4b6bd5'
-keywords: ["Musical Instrument Digital Interface (MIDI),MIDI Mapper", "MIDI (Musical Instrument Digital Interface),MIDI Mapper", "MIDI Mapper,architecture", "MIDI Mapper,setup map", "MIDI setup map", "MIDI Mapper,channel map", "MIDI Mapper,patch maps", "MIDI Mapper,key maps", "channel map", "patch maps", "key maps"]
+ms.assetid: d08d1442-bf9f-46bb-bd44-f512ff4b6bd5
+keywords:
+- Musical Instrument Digital Interface (MIDI),MIDI Mapper
+- MIDI (Musical Instrument Digital Interface),MIDI Mapper
+- MIDI Mapper,architecture
+- MIDI Mapper,setup map
+- MIDI setup map
+- MIDI Mapper,channel map
+- MIDI Mapper,patch maps
+- MIDI Mapper,key maps
+- channel map
+- patch maps
+- key maps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The MIDI Mapper Architecture

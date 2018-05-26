@@ -1,7 +1,12 @@
 ---
 title: Shader Model 5.1 Objects
 description: The following objects have been added to shader model 5.1.
-ms.assetid: '2958618D-54C6-4860-9910-B45AAB73CCFD'
+ms.assetid: 2958618D-54C6-4860-9910-B45AAB73CCFD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 5.1 Objects

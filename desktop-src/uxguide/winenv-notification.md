@@ -1,7 +1,12 @@
 ---
 title: Notification Area
 description: The notification area provides notifications and status. Well-designed programs use the notification area appropriately, without being annoying or distracting.
-ms.assetid: 'd30e293f-b424-4fe3-8191-1692c081245d'
+ms.assetid: d30e293f-b424-4fe3-8191-1692c081245d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notification Area
@@ -73,7 +78,7 @@ The Windows desktop has the following program access points:
 
 The Windows desktop access points include the Start button, taskbar, and notification area. Note the thumbnail feature of the taskbar button.
 
-**The desktop is a limited, shared resource that is the user's entry point to Windows.** Leave users in control. You should use the desktop areas as intended—any other usage should be considered an abuse. For example, never view desktop areas as ways to promote your program or its [Brand](exper-branding.md).
+**The desktop is a limited, shared resource that is the user's entry point to Windows.** Leave users in control. You should use the desktop areas as intended any other usage should be considered an abuse. For example, never view desktop areas as ways to promote your program or its [Brand](exper-branding.md).
 
 ### Using the notification area appropriately
 
@@ -102,7 +107,7 @@ Keeping users in control extends beyond using the notification area correctly. D
 -   **Suspend optional features.** Icons are used to display status for features without desktop presence. Such features tend to be long-running, optional background tasks, such as printing, indexing, scanning, or synchronizing. Users may want to suspend such features to increase system performance, reduce power consumption, or because they are offline.
 -   **Quit the program.** Provide the more suitable of these options:
     -   **Temporarily quit program.** The program is stopped and restarted when Windows is restarted. This approach is suitable for important system utilities such as security programs.
-    -   **Permanently quit program.** The program is stopped and not restarted when Windows is restarted (unless the user chooses to restart later). Either the user no longer wants to run the program, or wants to run the program on demand—perhaps to improve system performance.
+    -   **Permanently quit program.** The program is stopped and not restarted when Windows is restarted (unless the user chooses to restart later). Either the user no longer wants to run the program, or wants to run the program on demand perhaps to improve system performance.
 
 Although it's a good idea to provide most of these settings on the icon's context menu, the program's default experience should be suitable for most users. Don't turn everything on by default and expect users to turn features off. Rather, turn the important features on by default, and let users enable additional features as desired.
 
@@ -158,7 +163,7 @@ If all these conditions apply, minimizing to an icon eliminates having two acces
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -186,7 +191,7 @@ If all these conditions apply, minimizing to an icon eliminates having two acces
 
 
 
- 
+ 
 
 -   **For the temporary event status pattern, display the icon while the event is happening.**
 -   For all other patterns, **display the icon when the program, feature, or process is running and the icon is relevant** unless the user has cleared its **Display icon in notification area** option (for more information, see [Context menus](#context-menus)). Most icons are hidden by default in Windows 7, but can be promoted to the notification area by the user.
@@ -215,13 +220,13 @@ Windows launched from notification area icons are displayed near the notificatio
 
     
 
-     
+     
 
     ![screen shot of notification area and outlook icons ](images/winenv-notification-image15.png)
 
     In this example, Outlook uses an e-mail feature icon for a temporary notification source and its application icon for the minimized application.
 
--   **Choose an easily recognizable icon design.** Prefer icons with unique outlines over square or rectangular shaped icons. Keep the designs simple—prefer symbols over realistic images. Apply the other [Aero-style icon guidelines](vis-icons.md#guidelines) as well.
+-   **Choose an easily recognizable icon design.** Prefer icons with unique outlines over square or rectangular shaped icons. Keep the designs simple prefer symbols over realistic images. Apply the other [Aero-style icon guidelines](vis-icons.md#guidelines) as well.
 -   **Use icon variations or overlays to indicate status or status changes.** Use icon variations to show changes in quantities or strengths. For other types of status, use the following standard overlays. Use only a single overlay, and locate it bottom-right for consistency. 
 
     |                                                                                                        |                                  |
@@ -234,7 +239,7 @@ Windows launched from notification area icons are displayed near the notificatio
 
     
 
-     
+     
 
     ![screen shot of notification area and two icons ](images/winenv-notification-image20.png)
 
@@ -504,9 +509,9 @@ When referring to a notification area icon:
 
 **Example:** To check the network status quickly, click the **Network** icon in the notification area.
 
- 
+ 
 
- 
+ 
 
 
 

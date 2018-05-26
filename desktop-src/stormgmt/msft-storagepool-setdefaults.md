@@ -1,8 +1,11 @@
 ---
 title: SetDefaults method of the MSFT\_StoragePool class
 description: Sets or changes the default values for properties of the storage pool object.
-ms.assetid: 'F9435AA1-B102-4628-B664-251D35AD40F1'
-keywords: ["SetDefaults method Windows Storage Management API", "SetDefaults method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , SetDefaults method"]
+ms.assetid: F9435AA1-B102-4628-B664-251D35AD40F1
+keywords:
+- SetDefaults method Windows Storage Management API
+- SetDefaults method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , SetDefaults method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDefaults method of the MSFT\_StoragePool class
@@ -24,12 +32,12 @@ Note that not all parameters must be specified, and only those that are specifie
 
 ```mof
 UInt32 SetDefaults(
-  [in]  UInt16  ProvisioningTypeDefault,
-  [in]  String  ResiliencySettingNameDefault,
-  [in]  Boolean EnclosureAwareDefault,
-  [in]  UInt64  WriteCacheSizeDefault,
-  [in]  Boolean AutoWriteCacheSize,
-  [out] String  ExtendedStatus
+  [in]  UInt16  ProvisioningTypeDefault,
+  [in]  String  ResiliencySettingNameDefault,
+  [in]  Boolean EnclosureAwareDefault,
+  [in]  UInt64  WriteCacheSizeDefault,
+  [in]  Boolean AutoWriteCacheSize,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -53,7 +61,7 @@ The default provisioning type for virtual disks in the storage pool.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -152,8 +160,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -166,9 +174,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

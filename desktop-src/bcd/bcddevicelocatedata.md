@@ -1,8 +1,10 @@
 ---
 title: BcdDeviceLocateData class
 description: Represents the root class of all locate device data types and specifies the locate type of the device.
-ms.assetid: '2bbe2054-7eb6-4cb6-9742-3ac338ebc381'
-keywords: ["BcdDeviceLocateData class Boot Config", "BcdDeviceLocateData class Boot Config , described"]
+ms.assetid: 2bbe2054-7eb6-4cb6-9742-3ac338ebc381
+keywords:
+- BcdDeviceLocateData class Boot Config
+- BcdDeviceLocateData class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceLocateData class
@@ -60,7 +67,7 @@ The locate device type. This property can be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,8 +83,8 @@ If the VHD file's parent disk signature and partition identifier are also omitte
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -99,9 +106,9 @@ If the VHD file's parent disk signature and partition identifier are also omitte
 [**BcdDeviceLocateStringData**](bcddevicelocatestringdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

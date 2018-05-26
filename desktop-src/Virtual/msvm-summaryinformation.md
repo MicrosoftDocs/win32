@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SummaryInformation class
 description: Used in the GetSummaryInformation method in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual machine or snapshot.
-ms.assetid: '91503a84-5899-4f98-b8c9-6bfdddae2003'
-keywords: ["Msvm_SummaryInformation class Hyper-V", "Msvm_SummaryInformation class Hyper-V , described"]
+ms.assetid: 91503a84-5899-4f98-b8c9-6bfdddae2003
+keywords:
+- Msvm_SummaryInformation class Hyper-V
+- Msvm_SummaryInformation class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SummaryInformation class
@@ -46,27 +53,27 @@ The following syntax is simplified Managed Object Format (MOF) code.
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SummaryInformation
 {
-  string                       Name;
-  string                       ElementName;
-  uint16                       EnabledState;
-  uint16                       HealthState;
-  string                       Notes;
-  uint16                       NumberOfProcessors;
-  uint8                        ThumbnailImage[];
-  DateTime                     CreationTime;
-  uint16                       ProcessorLoad;
-  uint16                       ProcessorLoadHistory[];
-  uint64                       MemoryUsage;
-  sint32                       MemoryAvailable;
-  sint32                       AvailableMemoryBuffer;
-  uint16                       Heartbeat;
-  uint64                       UpTime;
-  string                       GuestOperatingSystem;
-  uint16                       OperationalStatus[];
-  string                       StatusDescriptions[];
+  string                       Name;
+  string                       ElementName;
+  uint16                       EnabledState;
+  uint16                       HealthState;
+  string                       Notes;
+  uint16                       NumberOfProcessors;
+  uint8                        ThumbnailImage[];
+  DateTime                     CreationTime;
+  uint16                       ProcessorLoad;
+  uint16                       ProcessorLoadHistory[];
+  uint64                       MemoryUsage;
+  sint32                       MemoryAvailable;
+  sint32                       AvailableMemoryBuffer;
+  uint16                       Heartbeat;
+  uint64                       UpTime;
+  string                       GuestOperatingSystem;
+  uint16                       OperationalStatus[];
+  string                       StatusDescriptions[];
   CIM_VirtualSystemSettingData Snapshots[];
-  CIM_ConcreteJob              AsynchronousTasks[];
-  string                       AllocatedGPU;
+  CIM_ConcreteJob              AsynchronousTasks[];
+  string                       AllocatedGPU;
 };
 ```
 
@@ -93,7 +100,7 @@ Access type: Read-only
 
 The identifier of the physical graphics processing unit (GPU) allocated to this virtual machine (VM). This property only applies to VMs that use RemoteFX.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported before Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported before Windows Server 2008 R2 with SP1.
 
 </dd> <dt>
 
@@ -128,7 +135,7 @@ This property is not valid for instances of the **Msvm\_SummaryInformation** cla
 
 This property is not valid for instances of the **Msvm\_SummaryInformation** class that represent a virtual system snapshot.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported before Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported before Windows Server 2008 R2 with SP1.
 
 </dd> <dt>
 
@@ -239,7 +246,7 @@ This property is not valid for instances of the **Msvm\_SummaryInformation** cla
 
 This property is not valid for instances of the **Msvm\_SummaryInformation** class that represent a virtual system snapshot.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported before Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not supported before Windows Server 2008 R2 with SP1.
 
 </dd> <dt>
 
@@ -309,7 +316,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 The current statuses of the virtual system. This corresponds to the **OperationalStatus** property of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class.
 
-**Windows Server 2008:** This property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -372,7 +379,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 Strings that describe the corresponding **OperationalStatus** array values. This corresponds to the **StatusDescriptions** property of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class.
 
-**Windows Server 2008:** This property is not supported before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -416,9 +423,9 @@ Access to the **Msvm\_SummaryInformation** class might be restricted by UAC Filt
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -431,9 +438,9 @@ Access to the **Msvm\_SummaryInformation** class might be restricted by UAC Filt
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

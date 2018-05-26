@@ -4,13 +4,16 @@ description: Creates a cloud witness quorum resource in the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '49389661-fb93-4031-b088-35264b68ffc7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 49389661-fb93-4031-b088-35264b68ffc7
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateCloudWitness method", "CreateCloudWitness method, MSCluster_ClusterService class", "MSCluster_ClusterService class, CreateCloudWitness method"]
+keywords:
+- CreateCloudWitness method
+- CreateCloudWitness method, MSCluster_ClusterService class
+- MSCluster_ClusterService class, CreateCloudWitness method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateCloudWitness method of the MSCluster\_ClusterService class
@@ -30,10 +36,10 @@ Creates a cloud witness quorum resource in the cluster.
 
 ```mof
 uint32 CreateCloudWitness(
-  [in] string AccountName,
-  [in] string AccountKey,
-  [in] string EndpointInfo,
-  [in] string CloudWitnessName
+  [in] string AccountName,
+  [in] string AccountKey,
+  [in] string EndpointInfo,
+  [in] string CloudWitnessName
 );
 ```
 
@@ -78,7 +84,7 @@ The optional cloud witness resource name.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -92,9 +98,9 @@ The optional cloud witness resource name.
 [**MSCluster\_ClusterService**](mscluster-clusterservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

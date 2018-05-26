@@ -4,11 +4,12 @@ description: Called when the graphics stream has been resumed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f0665a1-89b6-4b3d-8773-607207b76397'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6f0665a1-89b6-4b3d-8773-607207b76397
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnGraphicsStreamResumed event RDP"]
+keywords:
+- OnGraphicsStreamResumed event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnGraphicsStreamResumed event
@@ -46,8 +50,8 @@ This event does not return a value.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -59,15 +63,15 @@ This event does not return a value.
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> <dt>
 
-[**IRDPSRAPISharingSession::Resume**](irdpsrapisharingsession-resume.md)
+[**IRDPSRAPISharingSession::Resume**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapisharingsession-resume?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

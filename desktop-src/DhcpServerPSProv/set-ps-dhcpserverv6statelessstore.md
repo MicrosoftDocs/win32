@@ -4,13 +4,16 @@ description: Sets the properties of IPv6 stateless store for the specified IPv6 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc6ba3e3-2468-488c-8182-599c1fd1f83c'
-ms.prod: 'windows-server-dev'
+ms.assetid: fc6ba3e3-2468-488c-8182-599c1fd1f83c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv6StatelessStore class", "PS_DhcpServerv6StatelessStore class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv6StatelessStore class
+- PS_DhcpServerv6StatelessStore class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv6StatelessStore class
@@ -30,12 +36,12 @@ Sets the properties of IPv6 stateless store for the specified IPv6 prefix.
 
 ```mof
 uint32 Set(
-  [in]  string                     Prefix,
-  [in]  boolean                    Enabled,
-  [in]  datetime                   PurgeInterval,
-  [in]  string                     ComputerName,
-  [in]  boolean                    PassThru,
-  [out] DhcpServerv6StatelessStore cmdletOutput
+  [in]  string                     Prefix,
+  [in]  boolean                    Enabled,
+  [in]  datetime                   PurgeInterval,
+  [in]  string                     ComputerName,
+  [in]  boolean                    PassThru,
+  [out] DhcpServerv6StatelessStore cmdletOutput
 );
 ```
 
@@ -94,7 +100,7 @@ An embedded instance of the [**DhcpServerv6StatelessStore**](dhcpserverv6statele
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ An embedded instance of the [**DhcpServerv6StatelessStore**](dhcpserverv6statele
 [**PS\_DhcpServerv6StatelessStore**](ps-dhcpserverv6statelessstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

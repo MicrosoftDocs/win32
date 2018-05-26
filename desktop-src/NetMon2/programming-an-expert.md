@@ -1,7 +1,12 @@
 ---
-Description: 'The Network Monitor SDK includes the functions and sample code you need to build experts. However, you can also use existing tools, including a dialog editor.'
-ms.assetid: '6a3834b7-753f-42cc-986f-3d7e8bf79fd9'
+Description: The Network Monitor SDK includes the functions and sample code you need to build experts. However, you can also use existing tools, including a dialog editor.
+ms.assetid: 6a3834b7-753f-42cc-986f-3d7e8bf79fd9
 title: Programming an Expert
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming an Expert

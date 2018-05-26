@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a compression filter to use when rendering the specified group.'
-ms.assetid: 'ba717cac-c5a8-4821-a5f0-dd9d5fe4834e'
-title: 'ISmartRenderEngine::SetGroupCompressor method'
+---
+Description: Specifies a compression filter to use when rendering the specified group.
+ms.assetid: ba717cac-c5a8-4821-a5f0-dd9d5fe4834e
+title: ISmartRenderEngineSetGroupCompressor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISmartRenderEngine::SetGroupCompressor method
@@ -39,7 +44,7 @@ Zero-based index of the group.
 *pCompressor* 
 </dt> <dd>
 
-Pointer to the [**IBaseFilter**](ibasefilter.md) interface of the compression filter.
+Pointer to the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface of the compression filter.
 
 </dd> </dl>
 

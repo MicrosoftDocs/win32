@@ -1,13 +1,16 @@
 ---
-Description: 'Asynchronous calls present serious security risks because a callback to the sink may not be a result of the asynchronous call by the original application or script.'
+Description: Asynchronous calls present serious security risks because a callback to the sink may not be a result of the asynchronous call by the original application or script.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2b839ea9-e1e6-4123-a98a-04ebee907b3b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2b839ea9-e1e6-4123-a98a-04ebee907b3b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Security on an Asynchronous Call
@@ -18,7 +21,7 @@ The security risks for asynchronous calls exist because WMI lowers the authentic
 
 The minimum authentication level is **RPC\_C\_AUTHN\_LEVEL\_PKT** (**wbemAuthenticationLevelPkt**for scripting). However, you can specify a higher level, such as **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** (**wbemAuthenticationLevelPktPrivacy**). It is recommended that client applications or scripts set the authentication level to **RPC\_C\_AUTHN\_LEVEL\_DEFAULT** (**wbemAuthenticationLevelDefault**) which allows the authentication level to be negotiated to the level specified by the server.
 
-The **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**WBEM**\\**CIMOM**\\**UnsecAppAccessControlDefault** registry value controls whether WMI checks for an acceptable authentication level in callbacks. This is the only mechanism for protecting sink security for asynchronous calls made in scripting or Visual Basic. By default, this registry key is set to zero. If the registry key is zero then WMI does not verify authentication levels. To secure asynchronous calls in scripting, set the registry key to 1. C++ clients can call [**IWbemUnsecuredApartment::CreateSinkStub**](iwbemunsecuredapartment-createsinkstub.md) to control access to the sink. The value is created anywhere by default.
+The **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**WBEM**\\**CIMOM**\\**UnsecAppAccessControlDefault** registry value controls whether WMI checks for an acceptable authentication level in callbacks. This is the only mechanism for protecting sink security for asynchronous calls made in scripting or Visual Basic. By default, this registry key is set to zero. If the registry key is zero then WMI does not verify authentication levels. To secure asynchronous calls in scripting, set the registry key to 1. C++ clients can call [**IWbemUnsecuredApartment::CreateSinkStub**](/windows/win32/Wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub?branch=master) to control access to the sink. The value is created anywhere by default.
 
 The following topics provide examples of setting asynchronous call security:
 
@@ -27,7 +30,7 @@ The following topics provide examples of setting asynchronous call security:
 
 ## Setting Asynchronous Call Security in C++
 
-The [**IWbemUnsecuredApartment::CreateSinkStub**](iwbemunsecuredapartment-createsinkstub.md) method is similar to [**IUnsecuredApartment::CreateObjectStub**](iunsecuredapartment-createobjectstub.md) method and creates a sink in a separate process, Unsecapp.exe, to receive callbacks. However, the **CreateSinkStub** method has a *dwFlag*parameter that specifies how the separate process handles access control.
+The [**IWbemUnsecuredApartment::CreateSinkStub**](/windows/win32/Wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub?branch=master) method is similar to [**IUnsecuredApartment::CreateObjectStub**](/windows/win32/Wbemcli/nf-wbemcli-iunsecuredapartment-createobjectstub?branch=master) method and creates a sink in a separate process, Unsecapp.exe, to receive callbacks. However, the **CreateSinkStub** method has a *dwFlag*parameter that specifies how the separate process handles access control.
 
 The *dwFlag* parameter specifies one of the following actions for Unsecapp.exe:
 
@@ -44,7 +47,7 @@ The code example in this topic requires the following \#include statement to cor
 
 
 
-The following procedure describes how to perform an asynchronous call with [**IWbemUnsecuredApartment**](iwbemunsecuredapartment.md).
+The following procedure describes how to perform an asynchronous call with [**IWbemUnsecuredApartment**](/windows/win32/Wbemcli/nn-wbemcli-iwbemunsecuredapartment?branch=master).
 
 **To perform an asynchronous call with IWbemUnsecuredApartment**
 
@@ -132,7 +135,7 @@ The following procedure describes how to perform an asynchronous call with [**IW
 
 6.  Release the local reference count when you are done using the asynchronous call.
 
-    Make sure to release the *pStubSink* pointer only after you confirm that the asynchronous call does not must be canceled. Further, do not release *pStubSink* after WMI releases the *pSink* sink pointer. Releasing *pStubSink* after *pSink* creates a circular reference count in which both the sink and the stub stay in memory forever. Instead, a possible location to release the pointer is in the [**IWbemObjectSink::SetStatus**](iwbemobjectsink-setstatus.md) call, made by WMI to report that the original asynchronous call is complete.
+    Make sure to release the *pStubSink* pointer only after you confirm that the asynchronous call does not must be canceled. Further, do not release *pStubSink* after WMI releases the *pSink* sink pointer. Releasing *pStubSink* after *pSink* creates a circular reference count in which both the sink and the stub stay in memory forever. Instead, a possible location to release the pointer is in the [**IWbemObjectSink::SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master) call, made by WMI to report that the original asynchronous call is complete.
 
 7.  When finished, uninitialize COM with a call to [**Release()**](_com_iunknown_release).
 

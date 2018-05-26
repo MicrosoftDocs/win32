@@ -1,8 +1,9 @@
 ---
 title: TCM\_GETTOOLTIPS message
 description: Retrieves the handle to the tooltip control associated with a tab control. You can send this message explicitly or by using the TabCtrl\_GetToolTips macro.
-ms.assetid: 'd7dcca4f-8629-4eeb-844f-b3171438f528'
-keywords: ["TCM_GETTOOLTIPS message Windows Controls"]
+ms.assetid: d7dcca4f-8629-4eeb-844f-b3171438f528
+keywords:
+- TCM_GETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_GETTOOLTIPS message
 
-Retrieves the handle to the tooltip control associated with a tab control. You can send this message explicitly or by using the [**TabCtrl\_GetToolTips**](tabctrl-gettooltips.md) macro.
+Retrieves the handle to the tooltip control associated with a tab control. You can send this message explicitly or by using the [**TabCtrl\_GetToolTips**](/windows/win32/Commctrl/nf-commctrl-tabctrl_gettooltips?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ A tab control creates a tooltip control if it has the [**TCS\_TOOLTIPS**](tab-co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

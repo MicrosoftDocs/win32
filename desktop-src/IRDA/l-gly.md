@@ -2,7 +2,12 @@
 title: L
 description: IrDA glossary terms beginning with L.
 Robots: noindex, nofollow
-ms.assetid: '8614ec6d-9216-4b6b-8f93-cc7be8b6db8e'
+ms.assetid: 8614ec6d-9216-4b6b-8f93-cc7be8b6db8e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # L

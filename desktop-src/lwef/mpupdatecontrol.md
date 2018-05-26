@@ -1,8 +1,9 @@
 ---
 title: MpUpdateControl function
 description: Allows the control of a signature update operation that was asynchronously initiated via MpUpdateStart.
-ms.assetid: '2780E472-6E8D-4839-88EE-46E3448C6BF5'
-keywords: ["MpUpdateControl function Legacy Windows Environment Features"]
+ms.assetid: 2780E472-6E8D-4839-88EE-46E3448C6BF5
+keywords:
+- MpUpdateControl function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpUpdateControl function
@@ -22,8 +28,8 @@ Allows the control of a signature update operation that was asynchronously initi
 
 ```C++
 HRESULT WINAPI MpUpdateControl(
-  _In_ MPHANDLE  hUpdateHandle,
-  _In_ MPCONTROL UpdateControl
+  _In_ MPHANDLE  hUpdateHandle,
+  _In_ MPCONTROL UpdateControl
 );
 ```
 
@@ -57,7 +63,7 @@ Specifies the signature update control option. It must be the following value:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,8 +81,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -92,9 +98,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MpScanStart**](mpscanstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

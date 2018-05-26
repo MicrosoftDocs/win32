@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the process of a network I/O operation under Windows.'
-ms.assetid: '72dc0c57-28ae-4289-bb0d-b399d294c126'
-title: 'Description of a Network I/O Operation'
+Description: Describes the process of a network I/O operation under Windows.
+ms.assetid: 72dc0c57-28ae-4289-bb0d-b399d294c126
+title: Description of a Network I/O Operation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description of a Network I/O Operation
@@ -31,11 +36,11 @@ Windows can use a variety of networking protocols to perform a network I/O opera
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

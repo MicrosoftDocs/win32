@@ -1,19 +1,23 @@
 ---
-title: Binding to an Object's Parent
+title: Binding to an Objects Parent
 description: In ADSI, every directory object is represented by an ADSI COM object that exposes the IADs interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3740e862-4cfe-484c-8c8e-3923c64cdd47'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3740e862-4cfe-484c-8c8e-3923c64cdd47
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI ,using,binding to an object's parent"]
+keywords:
+- ADSI ADSI ,using,binding to an objects parent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to an Object's Parent
 
-In ADSI, every directory object is represented by an ADSI COM object that exposes the [**IADs**](iads.md) interface. To obtain the parent container of an object, use the [**IADs::get\_Parent**](iads-property-methods.md) method to obtain the ADsPath of the parent object, then bind to the ADsPath of the parent.
+In ADSI, every directory object is represented by an ADSI COM object that exposes the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface. To obtain the parent container of an object, use the [**IADs::get\_Parent**](iads-property-methods.md) method to obtain the ADsPath of the parent object, then bind to the ADsPath of the parent.
 
 The following C++ code example shows how to obtain the parent of an object .
 

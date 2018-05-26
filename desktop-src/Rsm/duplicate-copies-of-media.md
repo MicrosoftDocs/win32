@@ -1,7 +1,12 @@
 ---
-Description: 'Although Removable Storage Manager tries to uniquely identify each cartridge that it manages, it also handles media duplicates.'
-ms.assetid: '508e2642-67a1-46f0-9488-0071a72ddf46'
+Description: Although Removable Storage Manager tries to uniquely identify each cartridge that it manages, it also handles media duplicates.
+ms.assetid: 508e2642-67a1-46f0-9488-0071a72ddf46
 title: Duplicate Copies of Media
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duplicate Copies of Media

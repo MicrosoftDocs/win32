@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that the number of DVD menu buttons has changed, or that the button selection has changed.'
-ms.assetid: 'af6c841d-ca06-4535-b418-14409fa78c81'
-title: 'EC\_DVD\_BUTTON\_CHANGE'
+Description: Signals that the number of DVD menu buttons has changed, or that the button selection has changed.
+ms.assetid: af6c841d-ca06-4535-b418-14409fa78c81
+title: EC\_DVD\_BUTTON\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_BUTTON\_CHANGE
@@ -30,9 +35,9 @@ Signals that the number of DVD menu buttons has changed, or that the button sele
 
 Button numbers range from 1 to 36.
 
-The currently selected button can change automatically with a navigation command authored on the disc as well as through application control by using [**IDvdControl2**](idvdcontrol2.md) interface.
+The currently selected button can change automatically with a navigation command authored on the disc as well as through application control by using [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) interface.
 
-This event can signal any of the available button numbers. These numbers do not always correspond to button numbers used for [**IDvdControl2::SelectAndActivateButton**](idvdcontrol2-selectandactivatebutton.md) because that method can activate only a subset of buttons.
+This event can signal any of the available button numbers. These numbers do not always correspond to button numbers used for [**IDvdControl2::SelectAndActivateButton**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-selectandactivatebutton?branch=master) because that method can activate only a subset of buttons.
 
 This event is raised in all domains.
 
@@ -59,9 +64,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

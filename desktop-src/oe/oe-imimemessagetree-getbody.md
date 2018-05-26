@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree GetBody method
 description: Gets the handle of a body from the message tree relative to another specified body.
-ms.assetid: '27163938-f63e-4b9d-b661-a2819eb1e60a'
-keywords: ["GetBody method Windows Mail (formerly Outlook Express)", "GetBody method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetBody method"]
+ms.assetid: 27163938-f63e-4b9d-b661-a2819eb1e60a
+keywords:
+- GetBody method Windows Mail (formerly Outlook Express)
+- GetBody method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetBody method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::GetBody method
@@ -22,9 +30,9 @@ Gets the handle of a body from the message tree relative to another specified bo
 
 ```C++
 HRESULT GetBody(
-  [in]  BODYLOCATION location,
-  [in]  HBODY        hPivot,
-  [out] LPHBODY      phBody
+  [in]  BODYLOCATION location,
+  [in]  HBODY        hPivot,
+  [out] LPHBODY      phBody
 );
 ```
 
@@ -81,7 +89,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -125,8 +133,8 @@ void RecurseMessageTree(IMimeMessageTree *pTree, HBODY hBody)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -134,9 +142,9 @@ void RecurseMessageTree(IMimeMessageTree *pTree, HBODY hBody)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

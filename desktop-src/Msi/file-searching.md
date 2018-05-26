@@ -1,7 +1,12 @@
 ---
-Description: 'During installation, there is often the need to search for a specific file.'
-ms.assetid: 'cfcd7cdb-7547-45f4-bf11-c9f0edc4f7bf'
+Description: During installation, there is often the need to search for a specific file.
+ms.assetid: cfcd7cdb-7547-45f4-bf11-c9f0edc4f7bf
 title: File Searching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Searching

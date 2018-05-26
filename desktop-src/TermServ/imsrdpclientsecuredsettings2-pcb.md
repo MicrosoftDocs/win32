@@ -4,11 +4,14 @@ description: Specifies the preconnection BLOB (PCB) setting to use prior to conn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e2ddd9fd-d868-4fc5-835d-0f4db5da71e3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e2ddd9fd-d868-4fc5-835d-0f4db5da71e3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["PCB property Remote Desktop Services", "PCB property Remote Desktop Services , IMsRdpClientSecuredSettings2 interface", "IMsRdpClientSecuredSettings2 interface Remote Desktop Services , PCB property"]
+keywords:
+- PCB property Remote Desktop Services
+- PCB property Remote Desktop Services , IMsRdpClientSecuredSettings2 interface
+- IMsRdpClientSecuredSettings2 interface Remote Desktop Services , PCB property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientSecuredSettings2::PCB property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_PCB(
-  [in]          BSTR bstrPCB
+  [in]          BSTR bstrPCB
 );
 
 HRESULT get_PCB(
-  [out, retval] BSTR *bstrPCB
+  [out, retval] BSTR *bstrPCB
 );
 ```
 
@@ -52,8 +58,8 @@ The PCB setting.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -66,9 +72,9 @@ The PCB setting.
 [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

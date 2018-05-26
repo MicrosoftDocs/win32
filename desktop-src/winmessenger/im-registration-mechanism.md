@@ -1,8 +1,20 @@
 ---
 title: Using the Registration Mechanism
 description: This topic provides basic information about registering a non-Microsoft messenger application.
-ms.assetid: '0d1d87ba-a640-4448-8f23-efa45ec68e8b'
-keywords: ["Windows Messager,loading", "Windows Messager,opening", "Windows Messager,registry entries", "opening Windows Messenger", "loading Windows Messenger", "Windows Messager,calls to multiple clients", "registering non-Microsoft messenger applications"]
+ms.assetid: 0d1d87ba-a640-4448-8f23-efa45ec68e8b
+keywords:
+- Windows Messager,loading
+- Windows Messager,opening
+- Windows Messager,registry entries
+- opening Windows Messenger
+- loading Windows Messenger
+- Windows Messager,calls to multiple clients
+- registering non-Microsoft messenger applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Registration Mechanism

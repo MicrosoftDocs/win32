@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SMONTHDAY'
-ms.assetid: '24f548fd-20b6-4428-a840-900803399a5a'
-title: 'LOCALE\_SMONTHDAY'
+Description: LOCALE\_SMONTHDAY
+ms.assetid: 24f548fd-20b6-4428-a840-900803399a5a
+title: LOCALE\_SMONTHDAY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SMONTHDAY

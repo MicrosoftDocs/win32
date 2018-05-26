@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacterEx SetLanguageID
 description: IAgentCharacterEx SetLanguageID
-ms.assetid: '064f4c3c-1871-4372-9796-5b53f05c6d9a'
+ms.assetid: 064f4c3c-1871-4372-9796-5b53f05c6d9a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacterEx::SetLanguageID

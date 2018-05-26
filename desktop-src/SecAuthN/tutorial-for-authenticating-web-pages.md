@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial highlights the different aspects that web developers should care about when designing pages for the web authorization flow for Windows 8. This section This sample demonstrates a two-page authorization flow.'
-ms.assetid: 'A26E09EF-6C7A-4F75-89A7-76086F63F3B1'
+Description: This tutorial highlights the different aspects that web developers should care about when designing pages for the web authorization flow for Windows 8. This section This sample demonstrates a two-page authorization flow.
+ms.assetid: A26E09EF-6C7A-4F75-89A7-76086F63F3B1
 title: Tutorial for authenticating web pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial for authenticating web pages

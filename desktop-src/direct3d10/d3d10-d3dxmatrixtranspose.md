@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the matrix transpose of a matrix.'
-ms.assetid: '934b17cc-39c4-425c-839b-69e080f0efd7'
+---
+Description: Returns the matrix transpose of a matrix.
+ms.assetid: 934b17cc-39c4-425c-839b-69e080f0efd7
 title: D3DXMatrixTranspose function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixTranspose function

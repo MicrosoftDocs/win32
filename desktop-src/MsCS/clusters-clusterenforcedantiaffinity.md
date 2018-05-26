@@ -4,17 +4,21 @@ description: Prevents multiple cluster groups from running on the same cluster n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '29FC4B03-E295-4ADE-A844-1BCBD89C124C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 29FC4B03-E295-4ADE-A844-1BCBD89C124C
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterEnforcedAntiAffinity Failover Cluster"]
+keywords:
+- ClusterEnforcedAntiAffinity Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusterEnforcedAntiAffinity
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterEnforcedAntiAffinity
@@ -27,14 +31,14 @@ Prevents multiple cluster groups from running on the same cluster node when they
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +53,7 @@ The constant for this property is **CLUSTER\_ENFORCED\_ANTIAFFINITY**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -63,9 +67,9 @@ The constant for this property is **CLUSTER\_ENFORCED\_ANTIAFFINITY**.
 [**AntiAffinityClassNames**](groups-antiaffinityclassnames.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

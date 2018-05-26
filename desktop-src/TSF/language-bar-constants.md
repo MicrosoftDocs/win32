@@ -1,8 +1,19 @@
 ---
 title: Language Bar Constants
 description: Language Bar Constants
-ms.assetid: '582ea143-e55a-4add-8eb9-0ab25c10c2c1'
-keywords: ["Text Services Framework (TSF),language bar", "TSF (Text Services Framework),language bar", "text services,language bar", "TSF reference,language bar", "reference for TSF,language bar", "language bar"]
+ms.assetid: 582ea143-e55a-4add-8eb9-0ab25c10c2c1
+keywords:
+- Text Services Framework (TSF),language bar
+- TSF (Text Services Framework),language bar
+- text services,language bar
+- TSF reference,language bar
+- reference for TSF,language bar
+- language bar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Bar Constants

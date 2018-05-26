@@ -1,14 +1,20 @@
 ---
 title: DRMKeyID Attribute
 description: The DRMKeyID attribute identifies the media usage rights for content that is protected using digital rights management (DRM).
-ms.assetid: '37d2ddf9-9b87-42fd-84c0-0bd2a256056a'
-keywords: ["DRMKeyID Attribute Windows Media Player"]
+ms.assetid: 37d2ddf9-9b87-42fd-84c0-0bd2a256056a
+keywords:
+- DRMKeyID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - DRMKeyID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRMKeyID Attribute
@@ -43,9 +49,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

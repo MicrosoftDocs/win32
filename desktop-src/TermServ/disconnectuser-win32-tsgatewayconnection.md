@@ -1,14 +1,17 @@
 ---
 title: DisconnectUser method of the Win32\_TSGatewayConnection class
-description: Disconnects all connections of the specified user from the Remote Desktop Gateway (RD Gateway) server.
+description: Disconnects all connections of the specified user from the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3c5d66b6-c1f0-4a91-bf93-be886d8e2391'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3c5d66b6-c1f0-4a91-bf93-be886d8e2391
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DisconnectUser method Remote Desktop Services", "DisconnectUser method Remote Desktop Services , Win32_TSGatewayConnection class", "Win32_TSGatewayConnection class Remote Desktop Services , DisconnectUser method"]
+keywords:
+- DisconnectUser method Remote Desktop Services
+- DisconnectUser method Remote Desktop Services , Win32_TSGatewayConnection class
+- Win32_TSGatewayConnection class Remote Desktop Services , DisconnectUser method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisconnectUser method of the Win32\_TSGatewayConnection class
 
-Disconnects all connections of the specified user from the Remote Desktop Gateway (RD Gateway) server.
+Disconnects all connections of the specified user from the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 DisconnectUser(
-  [in] string UserName
+  [in] string UserName
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Tsgauthenticationengine.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl>             |
@@ -77,9 +83,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnection**](win32-tsgatewayconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

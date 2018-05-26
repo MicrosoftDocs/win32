@@ -1,7 +1,12 @@
 ---
-Description: 'A state block can be used to capture all device states (see State Blocks Save and Restore State (Direct3D 9)).'
-ms.assetid: 'e14077e4-1453-4aa3-b2de-4d3a829a819a'
-title: 'Saving All Device States with a StateBlock (Direct3D 9)'
+Description: A state block can be used to capture all device states (see State Blocks Save and Restore State (Direct3D 9)).
+ms.assetid: e14077e4-1453-4aa3-b2de-4d3a829a819a
+title: Saving All Device States with a StateBlock (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving All Device States with a StateBlock (Direct3D 9)
@@ -14,7 +19,7 @@ A state block can be used to capture all device states (see [State Blocks Save a
 -   Each vertex texture.
 -   Each displacement map texture.
 -   The current texture palette.
--   For each vertex stream: a pointer to the vertex buffer, each argument from [**IDirect3DDevice9::SetStreamSource**](idirect3ddevice9--setstreamsource.md), and the divider (if any) from [**IDirect3DDevice9::SetStreamSourceFreq**](idirect3ddevice9--setstreamsourcefreq.md).
+-   For each vertex stream: a pointer to the vertex buffer, each argument from [**IDirect3DDevice9::SetStreamSource**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setstreamsource?branch=master), and the divider (if any) from [**IDirect3DDevice9::SetStreamSourceFreq**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setstreamsourcefreq?branch=master).
 -   A pointer to the index buffer.
 -   The viewport.
 -   The scissors rectangle.
@@ -23,7 +28,7 @@ A state block can be used to capture all device states (see [State Blocks Save a
 -   The clipping planes (if any).
 -   The current material.
 
-To capture all device states with a state block, specify D3DSBT\_ALL when calling [**IDirect3DDevice9::CreateStateBlock**](idirect3ddevice9--createstateblock.md).
+To capture all device states with a state block, specify D3DSBT\_ALL when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createstateblock?branch=master).
 
 ## Related topics
 

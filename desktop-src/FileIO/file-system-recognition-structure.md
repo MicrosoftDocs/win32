@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the on-disk file system recognition information stored in the volume's boot sector (logical disk sector zero).'
-ms.assetid: 'd9c19e01-ff82-4bbc-9eb6-aac9dc5c34ac'
-title: 'FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure'
+Description: Contains the on-disk file system recognition information stored in the volumes boot sector (logical disk sector zero).
+ms.assetid: d9c19e01-ff82-4bbc-9eb6-aac9dc5c34ac
+title: FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILE\_SYSTEM\_RECOGNITION\_STRUCTURE structure
@@ -15,10 +20,10 @@ This is an internally-defined data structure not available in a public header an
 
 ```C++
 typedef struct _FILE_SYSTEM_RECOGNITION_STRUCTURE {
-  UCHAR  Jmp[3];
-  UCHAR  FsName[8];
-  UCHAR  MustBeZero[5];
-  ULONG  Identifier;
+  UCHAR  Jmp[3];
+  UCHAR  FsName[8];
+  UCHAR  MustBeZero[5];
+  ULONG  Identifier;
   USHORT Length;
   USHORT Checksum;
 } FILE_SYSTEM_RECOGNITION_STRUCTURE;
@@ -90,8 +95,8 @@ A two-byte checksum calculated over the bytes starting at the **FsName** data me
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -105,15 +110,15 @@ A two-byte checksum calculated over the bytes starting at the **FsName** data me
 [File System Recognition](file-system-recognition.md)
 </dt> <dt>
 
-[**FILE\_SYSTEM\_RECOGNITION\_INFORMATION**](file-system-recognition-information.md)
+[**FILE\_SYSTEM\_RECOGNITION\_INFORMATION**](/windows/win32/WinIoCtl/ns-winioctl-_file_system_recognition_information?branch=master)
 </dt> <dt>
 
-[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](fsctl-query-file-system-recognition.md)
+[**FSCTL\_QUERY\_FILE\_SYSTEM\_RECOGNITION**](/windows/win32/WinIoCtl/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Constructs a CMsg object.'
-ms.assetid: 'b7ee0643-73e4-450d-bff4-ca5006fdcc14'
-title: 'CMsg.CMsg constructor'
+Description: Constructs a CMsg object.
+ms.assetid: b7ee0643-73e4-450d-bff4-ca5006fdcc14
+title: CMsg.CMsg constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsg.CMsg constructor
@@ -13,10 +18,10 @@ Constructs a [**CMsg**](cmsg.md) object.
 
 ```C++
 CMsg(
-   UINT     u,
-   DWORD    dw,
-   LPVOID   lp,
-   CAMEvent *pEvent
+   UINT     u,
+   DWORD    dw,
+   LPVOID   lp,
+   CAMEvent *pEvent
 );
 ```
 
@@ -69,9 +74,9 @@ This member function contains a request for a [**CMsgThread**](cmsgthread.md) wo
 
 
 
- 
+ 
 
- 
+ 
 
 
 

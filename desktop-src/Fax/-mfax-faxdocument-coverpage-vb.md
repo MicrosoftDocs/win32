@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.'
-ms.assetid: 'ae883970-dfd4-4811-b5a6-c666e1289707'
-title: 'FaxDocument.CoverPage property'
+---
+Description: The CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
+ms.assetid: ae883970-dfd4-4811-b5a6-c666e1289707
+title: FaxDocument.CoverPage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.CoverPage property
@@ -52,7 +57,7 @@ To specify a local or personal cover page file, you must set the [**CoverPageTyp
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

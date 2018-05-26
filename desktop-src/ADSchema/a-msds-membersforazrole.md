@@ -4,17 +4,22 @@ description: List of member application groups or users linked to Az-Role.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c1234443-fd25-4ed8-a8ee-9853810ebe7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c1234443-fd25-4ed8-a8ee-9853810ebe7d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Members-For-Az-Role attribute AD Schema", "msDS-MembersForAzRole attribute AD Schema"]
+keywords:
+- ms-DS-Members-For-Az-Role attribute AD Schema
+- msDS-MembersForAzRole attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Members-For-Az-Role
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Members-For-Az-Role attribute
@@ -38,11 +43,11 @@ List of member application groups or users linked to Az-Role.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ List of member application groups or users linked to Az-Role.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

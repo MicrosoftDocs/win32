@@ -1,8 +1,27 @@
 ---
 title: Download Manager Overview
 description: Download Manager Overview
-ms.assetid: 'a13435ac-3784-4d4c-ba49-a51e373a2874'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player online stores,real-time downloading", "online stores,real-time downloading", "type 2 online stores,real-time downloading", "Windows Media Player online stores,background downloading", "online stores,background downloading", "type 2 online stores,background downloading", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "real-time downloading", "background downloading"]
+ms.assetid: a13435ac-3784-4d4c-ba49-a51e373a2874
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player online stores,real-time downloading
+- online stores,real-time downloading
+- type 2 online stores,real-time downloading
+- Windows Media Player online stores,background downloading
+- online stores,background downloading
+- type 2 online stores,background downloading
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- real-time downloading
+- background downloading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Download Manager Overview

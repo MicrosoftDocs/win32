@@ -1,7 +1,12 @@
 ---
 title: Destinations
 description: A destination in the routing table is a network entry represented by a network address and a network mask.
-ms.assetid: '115d86e3-f933-4601-af10-abaab287b509'
+ms.assetid: 115d86e3-f933-4601-af10-abaab287b509
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Destinations

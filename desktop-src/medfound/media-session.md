@@ -1,7 +1,12 @@
 ---
-Description: 'The Media Session is an object that manages data flow in the pipeline. It can be used for both playing and encoding files.'
-ms.assetid: '09f50b11-0e0a-42b6-a7bf-bb0135343351'
+Description: The Media Session is an object that manages data flow in the pipeline. It can be used for both playing and encoding files.
+ms.assetid: 09f50b11-0e0a-42b6-a7bf-bb0135343351
 title: Media Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Session
@@ -39,7 +44,7 @@ The following topics describe how to use the Media Session in specific applicati
 [Media Foundation Architecture](media-foundation-architecture.md)
 </dt> <dt>
 
-[**IMFMediaSession**](imfmediasession.md)
+[**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master)
 </dt> </dl>
 
  

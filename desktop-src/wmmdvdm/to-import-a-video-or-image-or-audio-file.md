@@ -1,8 +1,19 @@
 ---
 title: To Import a Video or Image or Audio File
 description: To Import a Video or Image or Audio File
-ms.assetid: '7c09c9bd-6b9f-45dd-8dc8-c85c65df60e2'
-keywords: ["Windows Movie Maker,importing media files", "Movie Maker,importing media files", "programming reference,importing media files", "reference for Windows Movie Maker,importing media files", "command-line options for Windows Movie Maker,importing media files", "importing media files"]
+ms.assetid: 7c09c9bd-6b9f-45dd-8dc8-c85c65df60e2
+keywords:
+- Windows Movie Maker,importing media files
+- Movie Maker,importing media files
+- programming reference,importing media files
+- reference for Windows Movie Maker,importing media files
+- command-line options for Windows Movie Maker,importing media files
+- importing media files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Import a Video or Image or Audio File

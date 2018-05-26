@@ -4,11 +4,15 @@ description: The LDAP API references an LDAP object by its distinguished name (D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bb936c24-9a1b-4588-bc31-18aaf2b541b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: bb936c24-9a1b-4588-bc31-18aaf2b541b3
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Distinguished Names LDAP"]
+keywords:
+- Distinguished Names LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distinguished Names
@@ -33,7 +37,7 @@ An **RDN** is an attribute with an associated value in the form **attribute**=*v
 
 
 
- 
+ 
 
 The following are examples of distinguished names.
 
@@ -50,7 +54,7 @@ The following table lists reserved characters that cannot be used in an attribut
 > [!Note]  
 > See the guidance below the table about using the escape character with these reserved characters.
 
- 
+ 
 
 
 
@@ -72,7 +76,7 @@ The following table lists reserved characters that cannot be used in an attribut
 
 
 
- 
+ 
 
 If a reserved character is part of an attribute value, it must be escaped by prefixing it with a backslash (**\\**) in the attribute string. If an attribute value contains other reserved characters, such as the equals sign (**=**) or non-printable characters, it must be encoded in hexadecimal by replacing the character with a backslash followed by two hex digits.
 
@@ -97,9 +101,9 @@ For more information about using distinguished names via the ADSI LDAP provider,
 [RFC 2253](http://go.microsoft.com/fwlink/p/?linkid=84036)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

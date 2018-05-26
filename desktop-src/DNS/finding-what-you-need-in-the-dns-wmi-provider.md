@@ -1,8 +1,14 @@
 ---
 title: Finding What You Need in the DNS WMI Provider
 description: The Domain Name System (DNS) Windows Management Instrumentation (WMI) Provider documentation is presented in the following four sections.
-ms.assetid: 'd46fae17-d084-4ccb-b2d5-21be802af2d3'
-keywords: ["Domain Name System, WMI provider, roadmap"]
+ms.assetid: d46fae17-d084-4ccb-b2d5-21be802af2d3
+keywords:
+- Domain Name System, WMI provider, roadmap
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding What You Need in the DNS WMI Provider

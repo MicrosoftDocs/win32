@@ -1,8 +1,27 @@
 ---
 title: Setup Command-line Parameters for Online Stores
 description: Setup Command-line Parameters for Online Stores
-ms.assetid: '26224d7c-ca12-43b9-9150-3d39bccb85d3'
-keywords: ["Windows Media Player online stores,setup command-line parameters", "online stores,setup command-line parameters", "type 1 online stores,setup command-line parameters", "type 2 online stores,setup command-line parameters", "setup command-line parameters", "Windows Media Player online stores,command-line parameters", "online stores,command-line parameters", "type 1 online stores,command-line parameters", "type 2 online stores,command-line parameters", "command-line parameters", "Windows Media Player online stores,parameters", "online stores,parameters", "type 1 online stores,parameters", "type 2 online stores,parameters"]
+ms.assetid: 26224d7c-ca12-43b9-9150-3d39bccb85d3
+keywords:
+- Windows Media Player online stores,setup command-line parameters
+- online stores,setup command-line parameters
+- type 1 online stores,setup command-line parameters
+- type 2 online stores,setup command-line parameters
+- setup command-line parameters
+- Windows Media Player online stores,command-line parameters
+- online stores,command-line parameters
+- type 1 online stores,command-line parameters
+- type 2 online stores,command-line parameters
+- command-line parameters
+- Windows Media Player online stores,parameters
+- online stores,parameters
+- type 1 online stores,parameters
+- type 2 online stores,parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setup Command-line Parameters for Online Stores

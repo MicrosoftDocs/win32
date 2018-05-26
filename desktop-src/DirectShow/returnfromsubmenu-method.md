@@ -1,7 +1,12 @@
 ---
-Description: 'The ReturnFromSubmenu method returns display from a submenu to its parent menu, or to the current title if the menu is a top-level menu.'
-ms.assetid: '900151e9-3fb3-4665-9169-c1cae6659e72'
+Description: The ReturnFromSubmenu method returns display from a submenu to its parent menu, or to the current title if the menu is a top-level menu.
+ms.assetid: 900151e9-3fb3-4665-9169-c1cae6659e72
 title: ReturnFromSubmenu Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReturnFromSubmenu Method

@@ -1,8 +1,9 @@
 ---
 title: LB\_SETCOUNT message
 description: Sets the count of items in a list box created with the LBS\_NODATA style and not created with the LBS\_HASSTRINGS style.
-ms.assetid: '3ebc4237-24d3-443f-86d5-bdcd66a31baf'
-keywords: ["LB_SETCOUNT message Windows Controls"]
+ms.assetid: 3ebc4237-24d3-443f-86d5-bdcd66a31baf
+keywords:
+- LB_SETCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETCOUNT message
@@ -26,7 +32,7 @@ Sets the count of items in a list box created with the [**LBS\_NODATA**](list-bo
 
 Specifies the new count of items in the list box.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ The **LB\_SETCOUNT** message is supported only by list boxes created with the [*
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ The **LB\_SETCOUNT** message is supported only by list boxes created with the [*
 [**LB\_GETCOUNT**](lb-getcount.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

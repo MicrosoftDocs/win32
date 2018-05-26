@@ -4,17 +4,22 @@ description: Specifies how long (in minutes) the system will wait before attempt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e90aab7-e89e-44ef-9730-28c5ded6025e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7e90aab7-e89e-44ef-9730-28c5ded6025e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["WitnessRestartInterval Failover Cluster , for Cluster common properties", "WitnessRestartInterval Failover Cluster"]
+keywords:
+- WitnessRestartInterval Failover Cluster , for Cluster common properties
+- WitnessRestartInterval Failover Cluster
 topic_type:
 - apiref
 api_name:
 - WitnessRestartInterval
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WitnessRestartInterval
@@ -27,14 +32,14 @@ When using a Node and File Share Majority quorum mode, specifies how long (in mi
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 5 minutes<br/>                                 |
 | Maximum<br/>   | 1,440 (24 hours)<br/>                          |
 | Default<br/>   | 15 minutes<br/>                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +54,7 @@ This property is also exposed as the **WitnessRestartInterval** property of the 
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -60,15 +65,15 @@ This property is also exposed as the **WitnessRestartInterval** property of the 
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**MSCluster\_Cluster**](https://msdn.microsoft.com/library/aa371422)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

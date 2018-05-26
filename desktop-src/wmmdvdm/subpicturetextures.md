@@ -1,14 +1,20 @@
 ---
 title: SubpictureTextures element
 description: Specifies the source files that will be created when rendering the subpicture.
-ms.assetid: 'e2078775-ce50-44b8-adde-40d4a8eba35a'
-keywords: ["SubpictureTextures element Windows Movie Maker and DVD Maker"]
+ms.assetid: e2078775-ce50-44b8-adde-40d4a8eba35a
+keywords:
+- SubpictureTextures element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - SubpictureTextures
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SubpictureTextures element
@@ -49,7 +55,7 @@ The "subpicture" refers to the "highlighting" of menu buttons you see during men
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ The "subpicture" refers to the "highlighting" of menu buttons you see during men
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

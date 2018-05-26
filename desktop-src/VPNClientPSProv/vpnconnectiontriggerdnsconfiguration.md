@@ -2,11 +2,13 @@
 title: VpnConnectionTriggerDnsConfiguration class
 description: The VpnConnectionTriggerDnsConfiguration class represents the DNS configuration for an auto-triggered VPN connection.
 audience: developer
-ms.assetid: '16D080E3-8069-431A-8A05-3FF487122CB6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 16D080E3-8069-431A-8A05-3FF487122CB6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnConnectionTriggerDnsConfiguration class", "VpnConnectionTriggerDnsConfiguration class, described"]
+keywords:
+- VpnConnectionTriggerDnsConfiguration class
+- VpnConnectionTriggerDnsConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnConnectionTriggerDnsConfiguration class
@@ -110,17 +115,17 @@ The DNS suffix search list for the auto-triggered VPN connection.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

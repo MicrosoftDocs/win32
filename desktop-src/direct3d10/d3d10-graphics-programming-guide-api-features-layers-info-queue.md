@@ -1,17 +1,22 @@
 ---
-Description: 'Customize Debug Output with ID3D10InfoQueue (Direct3D 10)'
-ms.assetid: '082c7783-c53a-4b73-b8f2-3f60e2c2689a'
-title: 'Customize Debug Output with ID3D10InfoQueue (Direct3D 10)'
+Description: Customize Debug Output with ID3D10InfoQueue (Direct3D 10)
+ms.assetid: 082c7783-c53a-4b73-b8f2-3f60e2c2689a
+title: Customize Debug Output with ID3D10InfoQueue (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customize Debug Output with ID3D10InfoQueue (Direct3D 10)
 
-The information queue is managed by an interface (see [**ID3D10InfoQueue Interface**](id3d10infoqueue.md)) that stores, retrieves, and filters debug messages. The queue consists of: a message queue, an optional storage filter stack, and a optional retrieval filter stack. The storage-filter stack can be used to filter the messages you want stored; the retrieval-filter stack can be used to filter the messages you want stored. Once you have filtered a message, the message will be printed out to the debug window and stored in the appropriate stack.
+The information queue is managed by an interface (see [**ID3D10InfoQueue Interface**](/windows/win32/D3D10SDKLayers/nn-d3d10sdklayers-id3d10infoqueue?branch=master)) that stores, retrieves, and filters debug messages. The queue consists of: a message queue, an optional storage filter stack, and a optional retrieval filter stack. The storage-filter stack can be used to filter the messages you want stored; the retrieval-filter stack can be used to filter the messages you want stored. Once you have filtered a message, the message will be printed out to the debug window and stored in the appropriate stack.
 
 In general:
 
--   Call [**ID3D10InfoQueue::AddApplicationMessage**](id3d10infoqueue-addapplicationmessage.md) to generate user-defined messages
--   Call [**ID3D10InfoQueue::GetMessage**](id3d10infoqueue-getmessage.md) is used to get messages (that pass an optional retrieval filter).
+-   Call [**ID3D10InfoQueue::AddApplicationMessage**](/windows/win32/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-addapplicationmessage?branch=master) to generate user-defined messages
+-   Call [**ID3D10InfoQueue::GetMessage**](/windows/win32/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-getmessage?branch=master) is used to get messages (that pass an optional retrieval filter).
 
 ## Registry Controls
 
@@ -49,13 +54,13 @@ Applications can be forced to break on a message using the following registry ke
 
 ### Muting Debug Output using Registry Keys
 
-Debug output can be muted using a MuteDebugOutput key. The presence of this value in the registry forces override of the InfoQueue's [**ID3D10InfoQueue::SetMuteDebugOutput**](id3d10infoqueue-setmutedebugoutput.md) method. MuteDebugOutput stops messages that pass the storage filter from being sent to debug output.
+Debug output can be muted using a MuteDebugOutput key. The presence of this value in the registry forces override of the InfoQueue's [**ID3D10InfoQueue::SetMuteDebugOutput**](/windows/win32/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-setmutedebugoutput?branch=master) method. MuteDebugOutput stops messages that pass the storage filter from being sent to debug output.
 
 ## Disabling Debug Layer Messages
 
-Debug layer messages can be disabled individualy or as a group at runtime by specifying filters using [**ID3D10InfoQueue::AddStorageFilterEntries**](id3d10infoqueue-addstoragefilterentries.md). The *pFilter* argument to **ID3D10InfoQueue::AddStorageFilterEntries** takes a [**D3D10\_INFO\_QUEUE\_FILTER**](d3d10-info-queue-filter.md) structure that contains an allow list and a deny list. The allow and deny lists are described by [**D3D10\_INFO\_QUEUE\_FILTER\_DESC**](d3d10-info-queue-filter-desc.md) structures that allow filtering to be specified by catergory, severity and individual message ID.
+Debug layer messages can be disabled individualy or as a group at runtime by specifying filters using [**ID3D10InfoQueue::AddStorageFilterEntries**](/windows/win32/D3D10SDKLayers/nf-d3d10sdklayers-id3d10infoqueue-addstoragefilterentries?branch=master). The *pFilter* argument to **ID3D10InfoQueue::AddStorageFilterEntries** takes a [**D3D10\_INFO\_QUEUE\_FILTER**](/windows/win32/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter?branch=master) structure that contains an allow list and a deny list. The allow and deny lists are described by [**D3D10\_INFO\_QUEUE\_FILTER\_DESC**](/windows/win32/d3d10sdklayers/ns-d3d10sdklayers-d3d10_info_queue_filter_desc?branch=master) structures that allow filtering to be specified by catergory, severity and individual message ID.
 
-The following code is an example of setting up the [**ID3D10InfoQueue Interface**](id3d10infoqueue.md) to deny the D3D10\_MESSAGE\_ID\_DEVICE\_DRAW\_INDEX\_BUFFER\_TOO\_SMALL message.
+The following code is an example of setting up the [**ID3D10InfoQueue Interface**](/windows/win32/D3D10SDKLayers/nn-d3d10sdklayers-id3d10infoqueue?branch=master) to deny the D3D10\_MESSAGE\_ID\_DEVICE\_DRAW\_INDEX\_BUFFER\_TOO\_SMALL message.
 
 
 ```

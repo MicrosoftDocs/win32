@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_RemoteManagement02 class
 description: The MDM\_Policy\_Result01\_RemoteManagement02 class represents the remote management policies.
-ms.assetid: 'f6eb96ff-a40e-4602-a812-786d1a89bf12'
-keywords: ["MDM_Policy_Result01_RemoteManagement02 class", "MDM_Policy_Result01_RemoteManagement02 class, described"]
+ms.assetid: f6eb96ff-a40e-4602-a812-786d1a89bf12
+keywords:
+- MDM_Policy_Result01_RemoteManagement02 class
+- MDM_Policy_Result01_RemoteManagement02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_RemoteManagement02 class
@@ -260,7 +267,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -268,9 +275,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

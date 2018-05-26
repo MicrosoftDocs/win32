@@ -1,7 +1,12 @@
 ---
 title: ActiveX Controls Architecture
 description: ActiveX controls technology builds on a foundation of many lower-level objects and interfaces in OLE. The exact interfaces available on a control vary with its capabilities. This section takes a closer look at the capabilities a control might provide.
-ms.assetid: '42959a11-8bfb-4f7e-ba27-5dc1ed49cdaa'
+ms.assetid: 42959a11-8bfb-4f7e-ba27-5dc1ed49cdaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveX Controls Architecture

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to implement an asynchronous method in Microsoft Media Foundation.'
-ms.assetid: 'cd94280d-7267-4d35-8333-aa4a5bd81b73'
+Description: This topic describes how to implement an asynchronous method in Microsoft Media Foundation.
+ms.assetid: cd94280d-7267-4d35-8333-aa4a5bd81b73
 title: Writing an Asynchronous Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing an Asynchronous Method
@@ -21,32 +26,32 @@ If you are writing a media source or media sink, it is crucial to handle asynchr
 
 In Media Foundation, there is a close relationship between [Asynchronous Callback Methods](asynchronous-callback-methods.md) and [Work Queues](work-queues.md). A work queue is an abstraction for moving work from the caller's thread to a worker thread. To perform work on a work queue, do the following:
 
-1.  Implement the [**IMFAsyncCallback**](imfasynccallback.md) interface.
-2.  Call [**MFCreateAsyncResult**](mfcreateasyncresult.md) to create a *result* object. The result object exposes the [**IMFAsyncResult**](imfasyncresult.md). The result object contains three pointers:
+1.  Implement the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
+2.  Call [**MFCreateAsyncResult**](/windows/win32/mfapi/nf-mfapi-mfcreateasyncresult?branch=master) to create a *result* object. The result object exposes the [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master). The result object contains three pointers:
 
-    -   A pointer to the caller's [**IMFAsyncCallback**](imfasynccallback.md) interface.
+    -   A pointer to the caller's [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
     -   An optional pointer to a state object. If specified, the state object must implement **IUnknown**.
     -   An optional pointer to a private object. If specified, this object also must implement **IUnknown**.
 
     The last two pointers can be **NULL**. Otherwise, use them to hold information about the asynchronous operation.
 
-3.  Call [**MFPutWorkItemEx**](mfputworkitemex.md) to queue to the work item.
-4.  The work-queue thread calls your [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md) method.
-5.  Do the work inside your [**Invoke**](imfasynccallback-invoke.md) method. The *pAsyncResult* parameter of this method is the [**IMFAsyncResult**](imfasyncresult.md) pointer from step 2. Use this pointer to get the state object and private object:
-    -   To get the state object, call [**IMFAsyncResult::GetState**](imfasyncresult-getstate.md).
-    -   To get the private object, call [**IMFAsyncResult::GetObject**](imfasyncresult-getobject.md).
+3.  Call [**MFPutWorkItemEx**](/windows/win32/mfapi/nf-mfapi-mfputworkitemex?branch=master) to queue to the work item.
+4.  The work-queue thread calls your [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method.
+5.  Do the work inside your [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method. The *pAsyncResult* parameter of this method is the [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) pointer from step 2. Use this pointer to get the state object and private object:
+    -   To get the state object, call [**IMFAsyncResult::GetState**](/windows/win32/mfobjects/nf-mfobjects-imfasyncresult-getstate?branch=master).
+    -   To get the private object, call [**IMFAsyncResult::GetObject**](/windows/win32/mfobjects/nf-mfobjects-imfasyncresult-getobject?branch=master).
 
-As an alternative, you can combine steps 2 and 3 by calling the [**MFPutWorkItem**](mfputworkitem.md) function. Internally, this function calls [**MFCreateAsyncResult**](mfcreateasyncresult.md) to create the result object.
+As an alternative, you can combine steps 2 and 3 by calling the [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) function. Internally, this function calls [**MFCreateAsyncResult**](/windows/win32/mfapi/nf-mfapi-mfcreateasyncresult?branch=master) to create the result object.
 
 The following diagram shows the relationships between the caller, the result object, the state object, and the private object.
 
 ![diagram showing an asynchronous result object](images/workqueues01.png)
 
-The following sequence diagram shows how an object queues a work item. When the work-queue thread calls [**Invoke**](imfasynccallback-invoke.md), the object performs the asynchronous operation on that thread.
+The following sequence diagram shows how an object queues a work item. When the work-queue thread calls [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master), the object performs the asynchronous operation on that thread.
 
 ![diagram showing how an object queues a work item](images/workqueues02.png)
 
-It is important to remember [**Invoke**](imfasynccallback-invoke.md) is called from a thread that is owned by the work queue. Your implementation of **Invoke** must be thread safe. In addition, if you use the platform work queue (**MFASYNC\_CALLBACK\_QUEUE\_STANDARD**), it is critical that you never block the thread, because that can block the entire Media Foundation pipeline from processing data. If you need to perform an operation that will block or take a long time to complete, use a private work queue. To create a private work queue, call [**MFAllocateWorkQueue**](mfallocateworkqueue.md). Any pipeline component that performs I/O operations should avoid blocking I/O calls for the same reason. The [**IMFByteStream**](imfbytestream.md) interface provides a useful abstraction for asynchronous file I/O.
+It is important to remember [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) is called from a thread that is owned by the work queue. Your implementation of **Invoke** must be thread safe. In addition, if you use the platform work queue (**MFASYNC\_CALLBACK\_QUEUE\_STANDARD**), it is critical that you never block the thread, because that can block the entire Media Foundation pipeline from processing data. If you need to perform an operation that will block or take a long time to complete, use a private work queue. To create a private work queue, call [**MFAllocateWorkQueue**](/windows/win32/mfapi/nf-mfapi-mfallocateworkqueue?branch=master). Any pipeline component that performs I/O operations should avoid blocking I/O calls for the same reason. The [**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master) interface provides a useful abstraction for asynchronous file I/O.
 
 ### Implementing the Begin.../End... Pattern
 
@@ -63,12 +68,12 @@ HRESULT EndX(IMFAsyncResult *pResult);
 
 To make the method truly asynchronous, the implementation of **BeginX** must perform the actual work on another thread. This is where work queues come into the picture. In the steps that follow, the *caller* is the code that calls **BeginX** and **EndX**. This might be an application or the Media Foundation pipeline. The *component* is the code that implements **BeginX** and **EndX**.
 
-1.  The caller calls **Begin...**, passing in a pointer to the caller's [**IMFAsyncCallback**](imfasynccallback.md) interface.
+1.  The caller calls **Begin...**, passing in a pointer to the caller's [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
 2.  The component creates a new asynchronous result object. This object stores the caller's callback interface and state object. Typically, it also stores any private state information that the component needs to complete the operation. The result object from this step is labeled "Result 1" in the next diagram.
 3.  The component creates a second result object. This result object stores two pointers: The first result object, and the callback interface of the callee. This result object is labeled "Result 2" in the next diagram.
-4.  The component calls [**MFPutWorkItemEx**](mfputworkitemex.md) to queue a new work item.
-5.  In the [**Invoke**](imfasynccallback-invoke.md) method, the component does the asynchronous work.
-6.  The component calls [**MFInvokeCallback**](mfinvokecallback.md) to invoke the caller's callback method.
+4.  The component calls [**MFPutWorkItemEx**](/windows/win32/mfapi/nf-mfapi-mfputworkitemex?branch=master) to queue a new work item.
+5.  In the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method, the component does the asynchronous work.
+6.  The component calls [**MFInvokeCallback**](/windows/win32/mfapi/nf-mfapi-mfinvokecallback?branch=master) to invoke the caller's callback method.
 7.  The caller calls the **EndX** method.
 
 ![diagram showing how an object implements the begin/end pattern](images/workqueues03.png)
@@ -148,7 +153,7 @@ public:
 
 
 
-The `SqrRoot` class implements [**IMFAsyncCallback**](imfasynccallback.md) so that it can put the square root operation on a work queue. The `DoCalculateSquareRoot` method is the private class method that calculates the square root. This method will be called from the work queue thread.
+The `SqrRoot` class implements [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) so that it can put the square root operation on a work queue. The `DoCalculateSquareRoot` method is the private class method that calculates the square root. This method will be called from the work queue thread.
 
 First, we need a way to store the value of *x*, so that it can be retrieved when the work queue thread calls `SqrRoot::Invoke`. Here is a simple class that stores the information:
 
@@ -238,12 +243,12 @@ HRESULT SqrRoot::BeginSquareRoot(double x, IMFAsyncCallback *pCB, IUnknown *pSta
 This code does the following:
 
 1.  Creates a new instance of the `AsyncOp` class to hold the value of *x*.
-2.  Calls [**MFCreateAsyncResult**](mfcreateasyncresult.md) to create a result object. This object holds several pointers:
-    -   A pointer to the caller's [**IMFAsyncCallback**](imfasynccallback.md) interface.
+2.  Calls [**MFCreateAsyncResult**](/windows/win32/mfapi/nf-mfapi-mfcreateasyncresult?branch=master) to create a result object. This object holds several pointers:
+    -   A pointer to the caller's [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
     -   A pointer to the caller's state object (*pState*).
     -   A pointer to the `AsyncOp` object.
-3.  Calls [**MFPutWorkItem**](mfputworkitem.md) to queue a new work item. This call implicitly creates an outer result object, which holds the following pointers:
-    -   A pointer to the `SqrRoot` object's [**IMFAsyncCallback**](imfasynccallback.md) interface.
+3.  Calls [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) to queue a new work item. This call implicitly creates an outer result object, which holds the following pointers:
+    -   A pointer to the `SqrRoot` object's [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
     -   A pointer to the inner result object from step 2.
 
 The following code implements the `SqrRoot::Invoke` method:
@@ -307,7 +312,7 @@ done:
 
 
 
-This method gets the inner result object and the `AsyncOp` object. Then it passes the `AsyncOp` object to `DoCalculateSquareRoot`. Finally, it calls [**IMFAsyncResult::SetStatus**](imfasyncresult-setstatus.md) to set the status code and [**MFInvokeCallback**](mfinvokecallback.md) to invoke the caller's callback method.
+This method gets the inner result object and the `AsyncOp` object. Then it passes the `AsyncOp` object to `DoCalculateSquareRoot`. Finally, it calls [**IMFAsyncResult::SetStatus**](/windows/win32/mfobjects/nf-mfobjects-imfasyncresult-setstatus?branch=master) to set the status code and [**MFInvokeCallback**](/windows/win32/mfapi/nf-mfapi-mfinvokecallback?branch=master) to invoke the caller's callback method.
 
 The `DoCalculateSquareRoot` method does exactly what you would expect:
 
@@ -369,7 +374,7 @@ A single method might involve several asynchronous operations, particularly when
 
 ## Cross-Thread and Cross-Process Considerations
 
-Work queues do not use COM marshaling to marshal interface pointers across thread boundaries. Therefore, even if an object is registered as apartment-threaded or the application thread has entered a single-threaded apartment (STA), [**IMFAsyncCallback**](imfasynccallback.md) callbacks will be invoked from a different thread. In any case, all Media Foundation pipeline components should use the "Both" threading model.
+Work queues do not use COM marshaling to marshal interface pointers across thread boundaries. Therefore, even if an object is registered as apartment-threaded or the application thread has entered a single-threaded apartment (STA), [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) callbacks will be invoked from a different thread. In any case, all Media Foundation pipeline components should use the "Both" threading model.
 
 Some interfaces in Media Foundation define remote versions of some asynchronous methods. When one of these methods is called across process boundaries, the Media Foundation proxy/stub DLL calls the remote version of the method, which performs custom marshaling of the method parameters. In the remote process, the stub translates the call back into the local method on the object. This process is transparent to both the application and the remote object. These custom marshaling methods are provided primarily for objects that are loaded in the protected media path (PMP). For more information about the PMP, see [Protected Media Path](protected-media-path.md).
 

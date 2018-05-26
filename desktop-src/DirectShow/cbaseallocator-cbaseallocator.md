@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'e697e377-6407-4316-9f04-fe3bdb814175'
-title: 'CBaseAllocator.CBaseAllocator constructor'
+Description: Constructor method.
+ms.assetid: e697e377-6407-4316-9f04-fe3bdb814175
+title: CBaseAllocator.CBaseAllocator constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.CBaseAllocator constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CBaseAllocator(
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   HRESULT   *phr,
-   BOOL      bEvent = TRUE,
-   BOOL      fEnableReleaseCallback = FALSE
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   HRESULT   *phr,
+   BOOL      bEvent = TRUE,
+   BOOL      fEnableReleaseCallback = FALSE
 );
 ```
 
@@ -80,9 +85,9 @@ Boolean value indicating whether the release callback mechanism is enabled. Set 
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

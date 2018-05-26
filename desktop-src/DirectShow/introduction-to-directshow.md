@@ -1,7 +1,12 @@
 ---
 Description: Introduction to DirectShow
-ms.assetid: '39a701b3-2633-426f-9733-2172ad3ea372'
+ms.assetid: 39a701b3-2633-426f-9733-2172ad3ea372
 title: Introduction to DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to DirectShow

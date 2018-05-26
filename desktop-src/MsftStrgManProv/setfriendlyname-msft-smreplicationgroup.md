@@ -4,11 +4,14 @@ description: Updates the user friendly name of a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bdb8dec8-4359-4a91-95c6-116b082f6492'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: bdb8dec8-4359-4a91-95c6-116b082f6492
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetFriendlyName method", "SetFriendlyName method, MSFT_SMReplicationGroup class", "MSFT_SMReplicationGroup class, SetFriendlyName method"]
+keywords:
+- SetFriendlyName method
+- SetFriendlyName method, MSFT_SMReplicationGroup class
+- MSFT_SMReplicationGroup class, SetFriendlyName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetFriendlyName method of the MSFT\_SMReplicationGroup class
@@ -28,11 +34,11 @@ Updates the user friendly name of a replication group.
 
 ```mof
 UInt32 SetFriendlyName(
-  [in]            String                FriendlyName,
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                FriendlyName,
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -120,7 +126,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -134,9 +140,9 @@ The possible return values are:
 [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

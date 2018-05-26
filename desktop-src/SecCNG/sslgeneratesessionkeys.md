@@ -1,7 +1,12 @@
 ---
-Description: 'Generates a set of Secure Sockets Layer protocol (SSL) session keys.'
-ms.assetid: '88465f30-8591-411e-8618-8a381d4c22e9'
+Description: Generates a set of Secure Sockets Layer protocol (SSL) session keys.
+ms.assetid: 88465f30-8591-411e-8618-8a381d4c22e9
 title: SslGenerateSessionKeys function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslGenerateSessionKeys function
@@ -13,12 +18,12 @@ The **SslGenerateSessionKeys** function generates a set of [*Secure Sockets Laye
 
 ```C++
 SECURITY_STATUS WINAPI SslGenerateSessionKeys(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  NCRYPT_KEY_HANDLE  hMasterKey,
-  _Out_ NCRYPT_KEY_HANDLE  *phReadKey,
-  _Out_ NCRYPT_KEY_HANDLE  *phWriteKey,
-  _In_  PNCryptBufferDesc  pParameterList,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  NCRYPT_KEY_HANDLE  hMasterKey,
+  _Out_ NCRYPT_KEY_HANDLE  *phReadKey,
+  _Out_ NCRYPT_KEY_HANDLE  *phWriteKey,
+  _In_  PNCryptBufferDesc  pParameterList,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -88,7 +93,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,16 +101,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

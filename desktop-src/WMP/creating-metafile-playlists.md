@@ -1,8 +1,17 @@
 ---
 title: Creating Metafile Playlists
 description: Creating Metafile Playlists
-ms.assetid: '0afe3aaa-bcd1-4060-8772-add50f3b6bac'
-keywords: ["Windows Media metafile playlists,creating", "playlists,creating", "metafile playlists,creating", "creating Windows Media metafile playlists"]
+ms.assetid: 0afe3aaa-bcd1-4060-8772-add50f3b6bac
+keywords:
+- Windows Media metafile playlists,creating
+- playlists,creating
+- metafile playlists,creating
+- creating Windows Media metafile playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Metafile Playlists

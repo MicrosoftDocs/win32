@@ -1,8 +1,14 @@
 ---
 title: About System Restore
 description: System Restore monitors system changes and saves the system state as a restore point. If a system problem develops as a result of a system change, the user can return the system to a previous state using the data from a restore point.
-ms.assetid: '84fea0f8-22aa-41a9-bb07-e98e9d9b0eee'
-keywords: ["System Restore, described"]
+ms.assetid: 84fea0f8-22aa-41a9-bb07-e98e9d9b0eee
+keywords:
+- System Restore, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About System Restore

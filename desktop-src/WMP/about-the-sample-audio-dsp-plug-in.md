@@ -1,8 +1,23 @@
 ---
 title: About the Sample Audio DSP Plug-in
 description: About the Sample Audio DSP Plug-in
-ms.assetid: 'e60b055b-77e6-470e-91f6-9882827cf238'
-keywords: ["Windows Media Player plug-ins,samples", "plug-ins,samples", "digital signal processing plug-ins,samples", "DSP plug-ins,samples", "Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,audio samples", "DSP plug-ins,audio samples", "samples,DSP plug-ins", "audio DSP plug-ins,samples"]
+ms.assetid: e60b055b-77e6-470e-91f6-9882827cf238
+keywords:
+- Windows Media Player plug-ins,samples
+- plug-ins,samples
+- digital signal processing plug-ins,samples
+- DSP plug-ins,samples
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,audio samples
+- DSP plug-ins,audio samples
+- samples,DSP plug-ins
+- audio DSP plug-ins,samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Sample Audio DSP Plug-in

@@ -4,10 +4,13 @@ description: The Network News Transport Protocol (NNTP) snap-in is used to manag
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14308afc-532d-49ed-913e-84979cb965fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 14308afc-532d-49ed-913e-84979cb965fd
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the NNTP Snap-in

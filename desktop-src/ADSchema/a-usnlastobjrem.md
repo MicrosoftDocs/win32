@@ -4,17 +4,22 @@ description: Contains the update sequence number (USN) for the last non-system o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '34718bea-fa19-4084-b97f-d72a1681c3f4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 34718bea-fa19-4084-b97f-d72a1681c3f4
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["USN-Last-Obj-Rem attribute AD Schema", "uSNLastObjRem attribute AD Schema"]
+keywords:
+- USN-Last-Obj-Rem attribute AD Schema
+- uSNLastObjRem attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - USN-Last-Obj-Rem
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # USN-Last-Obj-Rem attribute
@@ -38,13 +43,13 @@ Contains the update sequence number (USN) for the last non-system object that wa
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -200,9 +205,9 @@ Contains the update sequence number (USN) for the last non-system object that wa
 [**USN-DSA-Last-Obj-Removed**](a-usndsalastobjremoved.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

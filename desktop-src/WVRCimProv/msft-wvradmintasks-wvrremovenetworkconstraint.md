@@ -4,13 +4,16 @@ description: Performs a CIM call to remove a Network Constraint from a partnersh
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5dffbcea-884f-4248-a477-5ec34cec0a4f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5dffbcea-884f-4248-a477-5ec34cec0a4f
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrRemoveNetworkConstraint method", "WvrRemoveNetworkConstraint method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrRemoveNetworkConstraint method"]
+keywords:
+- WvrRemoveNetworkConstraint method
+- WvrRemoveNetworkConstraint method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrRemoveNetworkConstraint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrRemoveNetworkConstraint method of the MSFT\_WvrAdminTasks class
@@ -30,8 +36,8 @@ Performs a CIM call to remove a Network Constraint from a partnership.
 
 ```mof
 uint32 WvrRemoveNetworkConstraint(
-  [in] string ReplicationGroupName,
-  [in] string PartnerReplicationGroupName
+  [in] string ReplicationGroupName,
+  [in] string PartnerReplicationGroupName
 );
 ```
 
@@ -61,8 +67,8 @@ The partner replication group name.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -76,9 +82,9 @@ The partner replication group name.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

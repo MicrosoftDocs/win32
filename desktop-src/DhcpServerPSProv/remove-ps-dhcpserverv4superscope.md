@@ -4,13 +4,16 @@ description: Removes the specified scope(s) from a superscope. Superscope is del
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '023279fb-3b5a-4f10-99f2-04f65a43461c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 023279fb-3b5a-4f10-99f2-04f65a43461c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerv4Superscope class", "PS_DhcpServerv4Superscope class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerv4Superscope class
+- PS_DhcpServerv4Superscope class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerv4Superscope class
@@ -30,11 +36,11 @@ Removes the specified scope(s) from a superscope. Superscope is deleted if there
 
 ```mof
 uint32 Remove(
-  [in]  string                 ComputerName,
-  [in]  string                 SuperscopeName,
-  [in]  string                 ScopeId[],
-  [in]  boolean                Passthru,
-  [out] DhcpServerv4Superscope cmdletOutput[]
+  [in]  string                 ComputerName,
+  [in]  string                 SuperscopeName,
+  [in]  string                 ScopeId[],
+  [in]  boolean                Passthru,
+  [out] DhcpServerv4Superscope cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv4Superscope**](dhcpserverv4superscope.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv4Superscope**](dhcpserverv4superscope.
 [**PS\_DhcpServerv4Superscope**](ps-dhcpserverv4superscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

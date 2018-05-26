@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintSchemaTicket2 interface is an extension to the IPrintSchemaTicket interface, which provides wrapper methods over a print ticket document.'
-ms.assetid: '52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4'
+---
+Description: The IPrintSchemaTicket2 interface is an extension to the IPrintSchemaTicket interface, which provides wrapper methods over a print ticket document.
+ms.assetid: 52D9FA01-578B-43C2-A0B1-F3CD0BAAFAE4
 title: IPrintSchemaTicket2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket2 interface

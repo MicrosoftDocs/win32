@@ -1,7 +1,12 @@
 ---
-Description: 'Coordinate multiple threads of execution. Synchronize access to resources using wait functions. Multiple processes can have handles to the same event, mutex, semaphore, or timer object, which can be used to accomplish interprocess synchronization.'
-ms.assetid: '0930bf12-6d5f-4f2c-914d-53e6e862d3bd'
+Description: Coordinate multiple threads of execution. Synchronize access to resources using wait functions. Multiple processes can have handles to the same event, mutex, semaphore, or timer object, which can be used to accomplish interprocess synchronization.
+ms.assetid: 0930bf12-6d5f-4f2c-914d-53e6e862d3bd
 title: Synchronization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronization

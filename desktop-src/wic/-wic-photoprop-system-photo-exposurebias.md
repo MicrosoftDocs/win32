@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.ExposureBias property.'
-ms.assetid: '00ebe037-0116-4d75-868b-d75b3e58a84d'
-title: 'System.Photo.ExposureBias Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.ExposureBias property.
+ms.assetid: 00ebe037-0116-4d75-868b-d75b3e58a84d
+title: System.Photo.ExposureBias Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureBias Photo Metadata Policy

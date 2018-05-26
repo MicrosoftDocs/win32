@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CloseModule method of the Merge object closes the currently open Windows Installer merge module.'
-ms.assetid: 'bbe8ab14-3d8e-441c-a9bf-0319a9b3a5de'
-title: 'Merge.CloseModule method'
+---
+Description: The CloseModule method of the Merge object closes the currently open Windows Installer merge module.
+ms.assetid: bbe8ab14-3d8e-441c-a9bf-0319a9b3a5de
+title: Merge.CloseModule method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.CloseModule method
@@ -31,7 +36,7 @@ Closing a merge module will not affect any errors that have not been retrieved.
 
 ### C++
 
-See [**CloseModule**](imsmmerge-closemodule.md) function.
+See [**CloseModule**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 

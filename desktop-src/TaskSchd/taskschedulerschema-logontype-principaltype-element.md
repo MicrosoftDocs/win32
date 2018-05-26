@@ -1,14 +1,20 @@
 ---
 title: LogonType (principalType) Element
 description: Specifies the security logon method required to run those tasks associated with the principal.
-ms.assetid: 'e36a1755-96f3-45dc-8779-8bd0cfde886c'
-keywords: ["LogonType element Task Scheduler"]
+ms.assetid: e36a1755-96f3-45dc-8779-8bd0cfde886c
+keywords:
+- LogonType element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - LogonType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonType (principalType) Element
@@ -39,7 +45,7 @@ The **LogonType** element and the [**UserId**](taskschedulerschema-userid-princi
 
 For scripting development, the logon type for the principal is specified by the [**Principal.LogonType**](principal-logontype.md) property.
 
-For C++ development, the logon type for the principal is specified by the [**IPrincipal::LogonType**](iprincipal-logontype.md) property.
+For C++ development, the logon type for the principal is specified by the [**IPrincipal::LogonType**](/windows/win32/taskschd/nf-taskschd-iprincipal-get_logontype?branch=master) property.
 
 This element (defined by the [**logonType**](taskschedulerschema-logontype-simpletype.md) simple type) must have one of the following values.
 
@@ -55,8 +61,8 @@ For a task, that contains a message box action, the message box will be displaye
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -67,9 +73,9 @@ For a task, that contains a message box action, the message box will be displaye
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

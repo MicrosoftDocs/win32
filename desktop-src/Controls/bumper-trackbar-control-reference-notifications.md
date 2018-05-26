@@ -1,7 +1,12 @@
 ---
 title: Trackbar Control Notifications
 description: .
-ms.assetid: '82c501b2-37a3-4e15-a9d9-e978f984a3ea'
+ms.assetid: 82c501b2-37a3-4e15-a9d9-e978f984a3ea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbar Control Notifications

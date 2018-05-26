@@ -4,17 +4,21 @@ description: Provides a custom protected data object that can be used to read RM
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7445b13e-6291-4061-9e2d-f260089d5ca2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7445b13e-6291-4061-9e2d-f260089d5ca2
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSCustomProtectedData class"]
+keywords:
+- MSCustomProtectedData class
 topic_type:
 - apiref
 api_name:
 - MSCustomProtectedData class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCustomProtectedData class
@@ -24,7 +28,7 @@ Provides a custom protected data object that can be used to read RMS-protected d
 > \[!Important\]  
 > RMS applications that use **MSCustomProtectedData** may be incompatible with SharePoint, Exchange, and other RMS applications. For most applications, it is recommended that you use [**MSProtectedData**](msprotecteddata-interface-objc.md) instead.
 
- 
+ 
 
 ## Signature
 
@@ -43,7 +47,7 @@ Provides a custom protected data object that can be used to read RMS-protected d
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -59,7 +63,7 @@ MSCustomProtectedData.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +82,9 @@ These objects can be used wherever **NSData** and **NSMutableData** are required
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Called when the shared property on the application object is change
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff2229f8-9214-49df-b03d-73d89520ac06'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ff2229f8-9214-49df-b03d-73d89520ac06
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnApplicationUpdate event RDP"]
+keywords:
+- OnApplicationUpdate event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,18 +18,21 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnApplicationUpdate event
 
-Called when the [**shared**](irdpsrapiapplication-shared.md) property on the application object is changed.
+Called when the [**shared**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapiapplication-get_shared?branch=master) property on the application object is changed.
 
 ## Syntax
 
 
 ```C++
 void OnApplicationUpdate(
-  [in] IDispatch *pApplication
+  [in] IDispatch *pApplication
 );
 ```
 
@@ -41,7 +45,7 @@ void OnApplicationUpdate(
 *pApplication* \[in\]
 </dt> <dd>
 
-The application whose [**shared**](irdpsrapiapplication-shared.md) property was updated. Query the **IDispatch** interface for the [**IRDPSRAPIApplication**](irdpsrapiapplication.md) interface that you use to retrieve information about the application.
+The application whose [**shared**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapiapplication-get_shared?branch=master) property was updated. Query the **IDispatch** interface for the [**IRDPSRAPIApplication**](/windows/win32/RdpEncomAPI/nn-rdpencomapi-irdpsrapiapplication?branch=master) interface that you use to retrieve information about the application.
 
 </dd> </dl>
 
@@ -55,8 +59,8 @@ This event does not return a value.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -68,12 +72,12 @@ This event does not return a value.
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

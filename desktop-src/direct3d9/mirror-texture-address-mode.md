@@ -1,7 +1,12 @@
 ---
-Description: 'The mirror texture address mode, identified by the D3DTADDRESS\_MIRROR member of the D3DTEXTUREADDRESS enumerated type, causes Direct3D to mirror the texture at every integer boundary.'
-ms.assetid: '816efd4d-94b3-4b6c-9fc9-218cc2207b97'
-title: 'Mirror Texture Address Mode (Direct3D 9)'
+Description: The mirror texture address mode, identified by the D3DTADDRESS\_MIRROR member of the D3DTEXTUREADDRESS enumerated type, causes Direct3D to mirror the texture at every integer boundary.
+ms.assetid: 816efd4d-94b3-4b6c-9fc9-218cc2207b97
+title: Mirror Texture Address Mode (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mirror Texture Address Mode (Direct3D 9)

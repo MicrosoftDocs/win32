@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether a shared key is encrypted.'
-ms.assetid: '9206ef74-cd3e-4374-bea9-0c10505d10bf'
-title: 'protected (sharedKey) Element'
+---
+Description: Indicates whether a shared key is encrypted.
+ms.assetid: 9206ef74-cd3e-4374-bea9-0c10505d10bf
+title: protected (sharedKey) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # protected (sharedKey) Element
@@ -18,7 +23,7 @@ The element is defined by the [**sharedKey**](wlan-profileschema-sharedkey-secur
 
 ## Remarks
 
-For Windows Vista and Windows Server 2008, **protected** always has a value of TRUE if the profile was retrieved from the profile store (for example, by calling [**WlanGetProfile**](wlangetprofile.md)).
+For Windows Vista and Windows Server 2008, **protected** always has a value of TRUE if the profile was retrieved from the profile store (for example, by calling [**WlanGetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlangetprofile?branch=master)).
 
 For profiles intended for use on Windows XP with Service Pack 3 (SP3) or Wireless LAN API for Windows XP with Service Pack 2 (SP2), **protected** must have a value of FALSE.
 

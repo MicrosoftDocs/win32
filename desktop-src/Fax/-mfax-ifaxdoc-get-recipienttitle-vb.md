@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientTitle property of a FaxDoc object. The RecipientTitle property is a null-terminated string that contains the title of the recipient of the fax transmission.'
-ms.assetid: 'c764de28-4b7c-4338-b0c9-5854035fb346'
-title: 'FaxDoc.RecipientTitle property'
+---
+Description: Sets or retrieves the RecipientTitle property of a FaxDoc object. The RecipientTitle property is a null-terminated string that contains the title of the recipient of the fax transmission.
+ms.assetid: c764de28-4b7c-4338-b0c9-5854035fb346
+title: FaxDoc.RecipientTitle property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientTitle property
@@ -55,7 +60,7 @@ The [**get\_SenderFax**](-mfax-ifaxdoc-get-senderfax-vb.md) method allocates the
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

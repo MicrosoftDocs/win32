@@ -1,7 +1,12 @@
 ---
-Description: 'The maximum aperture of the lens as recorded by the camera, taken from the Exchangeable Image File (EXIF) information.'
-ms.assetid: '363ec646-be17-4616-8b22-091d7807c727'
-title: 'System.Photo.MaxAperture'
+Description: The maximum aperture of the lens as recorded by the camera, taken from the Exchangeable Image File (EXIF) information.
+ms.assetid: 363ec646-be17-4616-8b22-091d7807c727
+title: System.Photo.MaxAperture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MaxAperture

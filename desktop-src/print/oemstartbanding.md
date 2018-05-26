@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.'
-ms.assetid: 'dc9a1cf4-89d5-46d4-b914-1bc8368d3a42'
+---
+Description: The OEMStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
+ms.assetid: dc9a1cf4-89d5-46d4-b914-1bc8368d3a42
 title: OEMStartBanding function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMStartBanding function

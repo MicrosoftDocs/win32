@@ -1,7 +1,12 @@
 ---
-Description: 'The \_SummaryInformation table is a special table used with the Summary Information Stream. You can get or set the Summary Information Stream of a Windows Installer database by exporting or importing a text archive file named \_SummaryInformation.idt.'
-ms.assetid: '6892a8c0-c99e-4dcb-b6cb-d470ffceab69'
+Description: The \_SummaryInformation table is a special table used with the Summary Information Stream. You can get or set the Summary Information Stream of a Windows Installer database by exporting or importing a text archive file named \_SummaryInformation.idt.
+ms.assetid: 6892a8c0-c99e-4dcb-b6cb-d470ffceab69
 title: '\_SummaryInformation'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_SummaryInformation
@@ -35,7 +40,7 @@ _SummaryInformation PropertyId
 18  Windows Installer
 ```
 
-When you use [**MsiDatabaseImport**](msidatabaseimport.md) or the [Import](database-import.md) method of the [**Database**](database-object.md) object to import a text archive table named \_SummaryInformation into an installer database, you write the "05SummaryInformation" stream in the database.
+When you use [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master) or the [Import](database-import.md) method of the [**Database**](database-object.md) object to import a text archive table named \_SummaryInformation into an installer database, you write the "05SummaryInformation" stream in the database.
 
  
 

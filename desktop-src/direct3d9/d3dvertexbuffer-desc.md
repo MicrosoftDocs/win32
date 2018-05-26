@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a vertex buffer.'
-ms.assetid: '0ae8f976-d0ca-4d55-b6db-5be85fa3c799'
-title: 'D3DVERTEXBUFFER\_DESC structure'
+---
+Description: Describes a vertex buffer.
+ms.assetid: 0ae8f976-d0ca-4d55-b6db-5be85fa3c799
+title: D3DVERTEXBUFFER\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DVERTEXBUFFER\_DESC structure
@@ -111,7 +116,7 @@ Combination of [D3DFVF](d3dfvf.md) that describes the vertex format of the verti
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetDesc**](idirect3dvertexbuffer9--getdesc.md)
+[**GetDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvertexbuffer9-getdesc?branch=master)
 </dt> <dt>
 
 [Vertex Buffers (Direct3D 9)](vertex-buffers.md)

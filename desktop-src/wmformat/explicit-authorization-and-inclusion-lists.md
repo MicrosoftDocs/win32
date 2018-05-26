@@ -1,8 +1,32 @@
 ---
 title: Explicit Authorization and Inclusion Lists
 description: Explicit Authorization and Inclusion Lists
-ms.assetid: 'b2e1cdd4-ea3c-4b05-a53a-2cdc12440645'
-keywords: ["Windows Media Format SDK,DRM export", "Windows Media Format SDK,export", "Windows Media Format SDK,explicit authorization and inclusion lists", "Windows Media Format SDK,authorization lists", "Windows Media Format SDK,inclusion lists", "digital rights management (DRM),export", "DRM (digital rights management),export", "digital rights management (DRM),explicit authorization and inclusion lists", "DRM (digital rights management),explicit authorization and inclusion lists", "digital rights management (DRM),authorization lists", "DRM (digital rights management),authorization lists", "digital rights management (DRM),inclusion lists", "DRM (digital rights management),inclusion lists", "DRM Client Extended APIs,explicit authorization and inclusion lists", "Client Extended APIs,explicit authorization and inclusion lists", "DRM Client Extended APIs,authorization lists", "Client Extended APIs,authorization lists", "DRM Client Extended APIs,inclusion lists", "Client Extended APIs,inclusion lists"]
+ms.assetid: b2e1cdd4-ea3c-4b05-a53a-2cdc12440645
+keywords:
+- Windows Media Format SDK,DRM export
+- Windows Media Format SDK,export
+- Windows Media Format SDK,explicit authorization and inclusion lists
+- Windows Media Format SDK,authorization lists
+- Windows Media Format SDK,inclusion lists
+- digital rights management (DRM),export
+- DRM (digital rights management),export
+- digital rights management (DRM),explicit authorization and inclusion lists
+- DRM (digital rights management),explicit authorization and inclusion lists
+- digital rights management (DRM),authorization lists
+- DRM (digital rights management),authorization lists
+- digital rights management (DRM),inclusion lists
+- DRM (digital rights management),inclusion lists
+- DRM Client Extended APIs,explicit authorization and inclusion lists
+- Client Extended APIs,explicit authorization and inclusion lists
+- DRM Client Extended APIs,authorization lists
+- Client Extended APIs,authorization lists
+- DRM Client Extended APIs,inclusion lists
+- Client Extended APIs,inclusion lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Explicit Authorization and Inclusion Lists
@@ -12,7 +36,7 @@ Licenses can contain an inclusion list to explicitly authorize the exporting of 
 An inclusion list is a bounded array of globally unique identifiers (GUIDs) that each represents a specific authorized CPS to which the content can be exported. The GUIDs listed in an inclusion list are independent of the output protection levels (OPL) and content protection levels (CPL). Enforcing these restrictions is the responsibility of your application.
 
 > [!Note]  
-> When performing Windows Media DRM Export on compressed content, you access the inclusion list through the [**IWMDRMLicense::GetInclusionList**](iwmdrmlicense-getinclusionlist.md) method. When performing Windows Media DRM Export on uncompressed content, use the [**IWMDRMReader3::GetInclusionList**](iwmdrmreader3-getinclusionlist.md) method.
+> When performing Windows Media DRM Export on compressed content, you access the inclusion list through the [**IWMDRMLicense::GetInclusionList**](iwmdrmlicense-getinclusionlist.md) method. When performing Windows Media DRM Export on uncompressed content, use the [**IWMDRMReader3::GetInclusionList**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader3-getinclusionlist?branch=master) method.
 
  
 

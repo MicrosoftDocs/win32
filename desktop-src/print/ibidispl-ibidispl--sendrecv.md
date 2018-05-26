@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendRecv method sends a bidi request to the printer.'
-ms.assetid: '0c91abd0-5e49-4e23-a50f-9d1dacf9d868'
-title: 'IBidiSpl::SendRecv method'
+---
+Description: The SendRecv method sends a bidi request to the printer.
+ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
+title: IBidiSplSendRecv method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl::SendRecv method

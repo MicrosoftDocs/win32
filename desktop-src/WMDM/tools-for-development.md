@@ -1,8 +1,28 @@
 ---
 title: Tools for Development
 description: Tools for Development
-ms.assetid: '7932f599-a073-4fc8-82da-c0e7001c1809'
-keywords: ["Windows Media Device Manager,development tools", "Device Manager,development tools", "Windows Media Device Manager,certificates", "Device Manager,certificates", "Windows Media Device Manager,keys", "Device Manager,keys", "Windows Media Device Manager,libraries", "Device Manager,libraries", "Windows Media Device Manager,software development kit (SDK)", "Device Manager,software development kit (SDK)", "Windows Media Device Manager SDK", "Device Manager SDK", "Windows Media Player SDK", "Windows Media Format SDK", "Windows Media Rights Manager SDK"]
+ms.assetid: 7932f599-a073-4fc8-82da-c0e7001c1809
+keywords:
+- Windows Media Device Manager,development tools
+- Device Manager,development tools
+- Windows Media Device Manager,certificates
+- Device Manager,certificates
+- Windows Media Device Manager,keys
+- Device Manager,keys
+- Windows Media Device Manager,libraries
+- Device Manager,libraries
+- Windows Media Device Manager,software development kit (SDK)
+- Device Manager,software development kit (SDK)
+- Windows Media Device Manager SDK
+- Device Manager SDK
+- Windows Media Player SDK
+- Windows Media Format SDK
+- Windows Media Rights Manager SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tools for Development
@@ -39,7 +59,7 @@ The following Microsoft SDKs provide elements you may need in designing solution
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -48,9 +68,9 @@ The following Microsoft SDKs provide elements you may need in designing solution
 [**Getting Started**](getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

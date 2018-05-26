@@ -1,8 +1,15 @@
 ---
 title: Resource-Definition Statements
 description: The resource-definition statements define the resources that the resource compiler puts in the resource (.Res) file.
-ms.assetid: 'f96b8c1e-8188-40b7-8eda-c13b61b8fc41'
-keywords: ["resource compiler,resource-definition statements", "TEXTINCLUDE resource"]
+ms.assetid: f96b8c1e-8188-40b7-8eda-c13b61b8fc41
+keywords:
+- resource compiler,resource-definition statements
+- TEXTINCLUDE resource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource-Definition Statements

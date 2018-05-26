@@ -4,11 +4,14 @@ description: Resets all password states in the Remote Desktop ActiveX control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '889c4d41-fadf-4a5c-b4a8-0b349fd6db54'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 889c4d41-fadf-4a5c-b4a8-0b349fd6db54
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ResetPassword method Remote Desktop Services", "ResetPassword method Remote Desktop Services , IMsTscNonScriptable interface", "IMsTscNonScriptable interface Remote Desktop Services , ResetPassword method"]
+keywords:
+- ResetPassword method Remote Desktop Services
+- ResetPassword method Remote Desktop Services , IMsTscNonScriptable interface
+- IMsTscNonScriptable interface Remote Desktop Services , ResetPassword method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscNonScriptable::ResetPassword method
@@ -54,8 +60,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsTscNonScriptable is defined as c1e6743a-41c1-4a74-832a-0dd06c1c7a0e<br/> |
@@ -69,9 +75,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

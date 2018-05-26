@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IContextNode object that is the destination for this IContextLink.'
-ms.assetid: '7e185e69-821b-409b-bc58-d89a4aefeb23'
-title: 'IContextLink::GetDestinationNode method'
+Description: Retrieves the IContextNode object that is the destination for this IContextLink.
+ms.assetid: 7e185e69-821b-409b-bc58-d89a4aefeb23
+title: IContextLinkGetDestinationNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextLink::GetDestinationNode method
@@ -13,7 +18,7 @@ Retrieves the [**IContextNode**](icontextnode.md) object that is the destination
 
 ```C++
 HRESULT GetDestinationNode(
-  [out] IContextNode **ppDstContextNodeId
+  [out] IContextNode **ppDstContextNodeId
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of return values, see [Classes and Interfaces - Ink Analysis](
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppDstContextNodeId* when you no longer need to use the destination node.
 
- 
+ 
 
 If the [**IContextLink**](icontextlink.md) object links between a node that contains writing and a node that contains drawing, the destination node is generally the node that contains writing.
 
@@ -51,7 +56,7 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -74,9 +79,9 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

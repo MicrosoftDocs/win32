@@ -1,7 +1,12 @@
 ---
-Description: 'This class represents QoS settings on a network adapter.'
-ms.assetid: 'c56672e0-6921-4d00-85c4-62c630da55e7'
-title: 'MSFT\_NetAdapter\_QosSettings class'
+Description: This class represents QoS settings on a network adapter.
+ms.assetid: c56672e0-6921-4d00-85c4-62c630da55e7
+title: MSFT\_NetAdapter\_QosSettings class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_QosSettings class
@@ -17,14 +22,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetAdapter_QosSettings
 {
   boolean TransmissionSelectionEnabled;
-  uint8   PriorityAssignmentTable[];
-  uint8   TsaAssignmentTable[];
-  uint8   BandwidthAssignmentTable[];
+  uint8   PriorityAssignmentTable[];
+  uint8   TsaAssignmentTable[];
+  uint8   BandwidthAssignmentTable[];
   boolean FlowControlEnabled;
   boolean PriorityFlowControlEnableArray[];
   boolean ClassificationEnabled;
-  uint32  NumberOfClassificationElements;
-  string  ClassificationTable[];
+  uint32  NumberOfClassificationElements;
+  string  ClassificationTable[];
 };
 ```
 
@@ -163,17 +168,17 @@ Transmission Selection Algorithm assignments per Traffic Class.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

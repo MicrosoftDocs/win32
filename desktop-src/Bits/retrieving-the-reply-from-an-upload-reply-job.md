@@ -1,22 +1,27 @@
 ---
 title: Retrieving the Reply from an Upload-Reply Job
 description: To upload data to a server application and have it return data to the client, specify the job as a BG\_JOB\_TYPE\_UPLOAD\_REPLY job.
-ms.assetid: 'bab28a2c-1e2f-4b76-9dc6-57df26f7efec'
+ms.assetid: bab28a2c-1e2f-4b76-9dc6-57df26f7efec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Reply from an Upload-Reply Job
 
 If you want to upload data to a server application and have it return data to the client, specify the job as a BG\_JOB\_TYPE\_UPLOAD\_REPLY job. The reply data is available to the client after the job enters the BG\_JOB\_STATE\_TRANSFERRED state. To retrieve the reply, call one of the following methods:
 
--   [**IBackgroundCopyJob2::GetReplyData**](ibackgroundcopyjob2-getreplydata.md)
+-   [**IBackgroundCopyJob2::GetReplyData**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata?branch=master)
 
-    Provides an in-memory copy of the reply data. Use this method to read the reply data before or after calling the [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md) method. If the reply data exceeds 1 MB, the application must call the [**IBackgroundCopyJob2::GetReplyFileName**](ibackgroundcopyjob2-getreplyfilename.md) method to retrieve the name of the reply file and read its contents directly.
+    Provides an in-memory copy of the reply data. Use this method to read the reply data before or after calling the [**IBackgroundCopyJob::Complete**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-complete?branch=master) method. If the reply data exceeds 1 MB, the application must call the [**IBackgroundCopyJob2::GetReplyFileName**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename?branch=master) method to retrieve the name of the reply file and read its contents directly.
 
--   [**IBackgroundCopyJob2::GetReplyFileName**](ibackgroundcopyjob2-getreplyfilename.md)
+-   [**IBackgroundCopyJob2::GetReplyFileName**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename?branch=master)
 
     Provides the name of the file that contains the reply. You must call the **IBackgroundCopyJob::Complete** method before opening and reading the reply file; the reply file is not available to the client until you call the **Complete** method.
 
-Call these methods in your [**IBackgroundCopyCallback::JobTransferred**](ibackgroundcopycallback-jobtransferred.md) method only if the reply is small and can be processed quickly so as to not block the callback thread. If you use [**command line notification**](ibackgroundcopyjob2-setnotifycmdline.md) instead of the callback, pass the job identifier to the executable file. The executable file uses the job identifier to call the **Complete** method to make the reply file available.
+Call these methods in your [**IBackgroundCopyCallback::JobTransferred**](/windows/win32/Bits/nf-bits-ibackgroundcopycallback-jobtransferred?branch=master) method only if the reply is small and can be processed quickly so as to not block the callback thread. If you use [**command line notification**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline?branch=master) instead of the callback, pass the job identifier to the executable file. The executable file uses the job identifier to call the **Complete** method to make the reply file available.
 
 The following examples show how to use each method to retrieve the reply data.
 
@@ -25,7 +30,7 @@ The following examples show how to use each method to retrieve the reply data.
 
 ## Using GetReplyData
 
-The following example shows how to retrieve the reply data using the [**IBackgroundCopyJob2::GetReplyData**](ibackgroundcopyjob2-getreplydata.md) method. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer is valid, the type of the job is upload-reply, and the state of the job is BG\_JOB\_STATE\_TRANSFERRED.
+The following example shows how to retrieve the reply data using the [**IBackgroundCopyJob2::GetReplyData**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata?branch=master) method. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer is valid, the type of the job is upload-reply, and the state of the job is BG\_JOB\_STATE\_TRANSFERRED.
 
 
 ```C++
@@ -76,7 +81,7 @@ else
 
 ## Using GetReplyFileName
 
-The following example shows how to retrieve the reply data using the [**IBackgroundCopyJob2::GetReplyFileName**](ibackgroundcopyjob2-getreplyfilename.md) method. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer is valid, the type of job is upload-reply, and the state of the job is BG\_JOB\_STATE\_TRANSFERRED.
+The following example shows how to retrieve the reply data using the [**IBackgroundCopyJob2::GetReplyFileName**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename?branch=master) method. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer is valid, the type of job is upload-reply, and the state of the job is BG\_JOB\_STATE\_TRANSFERRED.
 
 
 ```C++

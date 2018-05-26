@@ -1,7 +1,12 @@
 ---
 Description: Choosing a Compression Filter
-ms.assetid: '9a2c3c48-771e-44db-a042-3db0fd9a6c76'
+ms.assetid: 9a2c3c48-771e-44db-a042-3db0fd9a6c76
 title: Choosing a Compression Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing a Compression Filter
@@ -20,7 +25,7 @@ For details about the system device enumerator, see [Using the System Device Enu
 To enumerate the video or audio compressors available on the user's system, do the following:
 
 1.  Call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the system device enumerator, which has a class ID of CLSID\_SystemDeviceEnum.
-2.  Call [**ICreateDevEnum::CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) with the filter category GUID. The method returns an **IEnumMoniker** interface pointer.
+2.  Call [**ICreateDevEnum::CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) with the filter category GUID. The method returns an **IEnumMoniker** interface pointer.
 3.  Use the IEnumMoniker::Next method to enumerate the device monikers. This method returns an [**IMoniker**](https://msdn.microsoft.com/library/windows/desktop/ms679705) interface, which represents the moniker.
 
 To get the friendly name from a moniker, do the following:
@@ -79,7 +84,7 @@ void OnInitDialog(HWND hDlg)
 
 
 
-To create a filter instance from the moniker, call the **IMoniker::BindToObject** method. The method returns an [**IBaseFilter**](ibasefilter.md) pointer.
+To create a filter instance from the moniker, call the **IMoniker::BindToObject** method. The method returns an [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) pointer.
 
 
 ```C++

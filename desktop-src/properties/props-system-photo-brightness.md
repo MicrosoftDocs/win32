@@ -1,7 +1,12 @@
 ---
-Description: 'The brightness value of the image, in APEX units, usually in the range of -99.99 to 99.99.'
-ms.assetid: '533f6934-dec8-455a-937c-d4e144be4335'
-title: 'System.Photo.Brightness'
+Description: The brightness value of the image, in APEX units, usually in the range of -99.99 to 99.99.
+ms.assetid: 533f6934-dec8-455a-937c-d4e144be4335
+title: System.Photo.Brightness
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Brightness

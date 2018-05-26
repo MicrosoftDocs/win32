@@ -1,11 +1,14 @@
 ---
-Description: 'This section provides reference information for ServerManager.DeploymentProvider provider classes defined in ServerManager.DeploymentProvider.mof and implemented in ServerManager.DeploymentProvider.dll.'
+Description: This section provides reference information for ServerManager.DeploymentProvider provider classes defined in ServerManager.DeploymentProvider.mof and implemented in ServerManager.DeploymentProvider.dll.
 audience: developer
-ms.assetid: 'B82FAB75-8BF4-4D2E-99CF-41BEB514588A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: B82FAB75-8BF4-4D2E-99CF-41BEB514588A
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ServerManager.DeploymentProvider Provider'
+title: ServerManager.DeploymentProvider Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServerManager.DeploymentProvider Provider

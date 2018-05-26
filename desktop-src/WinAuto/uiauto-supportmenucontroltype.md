@@ -1,8 +1,29 @@
 ---
 title: Menu Control Type
 description: This topic provides information about Microsoft UI Automation support for the Menu control type.
-ms.assetid: 'cdbb6db7-63d7-422e-952c-7b59779fefbe'
-keywords: ["UI Automation,support for Menu control type", "UI Automation,Menu control type", "UI Automation,tree structure for Menu control type", "UI Automation,properties for Menu control type", "UI Automation,control patterns for Menu control type", "UI Automation,events for Menu control type", "tree structures,Menu control type", "properties,Menu control type", "control patterns,Menu control type", "events,Menu control type", "support for Menu control type", "Menu control type", "control types,tree structure for Menu control type", "control types,control patterns for Menu control type", "control types,support for Menu", "control types,Menu"]
+ms.assetid: cdbb6db7-63d7-422e-952c-7b59779fefbe
+keywords:
+- UI Automation,support for Menu control type
+- UI Automation,Menu control type
+- UI Automation,tree structure for Menu control type
+- UI Automation,properties for Menu control type
+- UI Automation,control patterns for Menu control type
+- UI Automation,events for Menu control type
+- tree structures,Menu control type
+- properties,Menu control type
+- control patterns,Menu control type
+- events,Menu control type
+- support for Menu control type
+- Menu control type
+- control types,tree structure for Menu control type
+- control types,control patterns for Menu control type
+- control types,support for Menu
+- control types,Menu
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Menu Control Type

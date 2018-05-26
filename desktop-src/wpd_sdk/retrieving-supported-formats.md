@@ -1,7 +1,12 @@
 ---
 Description: Retrieving Supported Service Formats
-ms.assetid: 'b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec'
+ms.assetid: b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec
 title: Retrieving Supported Service Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Supported Service Formats
@@ -13,8 +18,8 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 |                                                                                      |                                                                                                       |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Interface                                                                            | Description                                                                                           |
-| [**IPortableDeviceService**](iportabledeviceservice.md)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported events. |
-| [**IPortableDeviceServiceCapabilities**](iportabledeviceservicecapabilities.md)     | Provides access to the supported events and event attributes.                                         |
+| [**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported events. |
+| [**IPortableDeviceServiceCapabilities**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities?branch=master)     | Provides access to the supported events and event attributes.                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contains the list of supported formats.                                                               |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                               | Contains the attributes for a given format.                                                           |
 
@@ -32,7 +37,7 @@ In the case of the sample application, if the WpdServiceSampleDriver is the only
 
 Two methods in the ServiceCapabilities.cpp module support the retrieval of supported formats for the Contacts service: **ListSupportedFormats** and **DisplayFormat**. The former retrieves the GUID identifier for each supported format. The latter converts this GUID into a user-friendly string.
 
-The **ListSupportedFormats** method invokes the [**IPortableDeviceService::Capabilities**](iportabledeviceservice-capabilities.md) method to retrieve an [**IPortableDeviceServiceCapabilities**](iportabledeviceservicecapabilities.md) interface. Using this interface, it retrieves the supported formats by calling the [**IPortableDeviceServiceCapabilities::GetSupportedFormats**](iportabledeviceservicecapabilities-getsupportedformats.md) method. The **GetSupportedFormats** method retrieves the GUID for each format supported by the service and copies that GUID into an [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) object.
+The **ListSupportedFormats** method invokes the [**IPortableDeviceService::Capabilities**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-capabilities?branch=master) method to retrieve an [**IPortableDeviceServiceCapabilities**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities?branch=master) interface. Using this interface, it retrieves the supported formats by calling the [**IPortableDeviceServiceCapabilities::GetSupportedFormats**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformats?branch=master) method. The **GetSupportedFormats** method retrieves the GUID for each format supported by the service and copies that GUID into an [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) object.
 
 The following code uses the **ListSupportedFormats** method.
 
@@ -113,7 +118,7 @@ void ListSupportedFormats(
 
 After the **ListSupportedFormats** method retrieves the GUID for each format supported by the given service, it invokes the **DisplayFormat** method to display the script friendly name for each format; for example, "VCard2".
 
-The **DisplayFormat** method invokes the [**IPortableDeviceServiceCapabilities::GetFormatAttributes**](iportabledeviceservicecapabilities-getformatattributes.md) method retrieve a collection of attributes for the given format GUID. It then calls the [**IPortableDeviceValues::GetStringValue**](iportabledevicevalues-getstringvalue.md) method and requests that the driver return a script-friendly name for the given format.
+The **DisplayFormat** method invokes the [**IPortableDeviceServiceCapabilities::GetFormatAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes?branch=master) method retrieve a collection of attributes for the given format GUID. It then calls the [**IPortableDeviceValues::GetStringValue**](iportabledevicevalues-getstringvalue.md) method and requests that the driver return a script-friendly name for the given format.
 
 The following code uses the **DisplayFormat** method.
 
@@ -155,10 +160,10 @@ void DisplayFormat(
 
 <dl> <dt>
 
-[**IPortableDeviceService**](iportabledeviceservice.md)
+[**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceServiceCapabilities**](iportabledeviceservicecapabilities.md)
+[**IPortableDeviceServiceCapabilities**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues**](iportabledevicevalues.md)

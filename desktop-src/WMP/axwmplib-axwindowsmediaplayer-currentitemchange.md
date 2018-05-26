@@ -1,8 +1,9 @@
 ---
 title: CurrentItemChange Event of the AxWindowsMediaPlayer Object
 description: The CurrentItemChange event occurs when the value of IWMPControls.currentItem changes.
-ms.assetid: 'c5eeafd2-405b-4808-97d1-399a2344ca42'
-keywords: ["CurrentItemChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: c5eeafd2-405b-4808-97d1-399a2344ca42
+keywords:
+- CurrentItemChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentItemChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cur
 
 
 
- 
+ 
 
 ## Examples
 
@@ -111,9 +117,9 @@ End Sub</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

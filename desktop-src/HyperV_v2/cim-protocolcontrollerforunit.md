@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a protocol controller and an exposed logical unit.'
-ms.assetid: 'e8bf2b32-b4a6-4963-8a50-2b06776965e8'
-title: 'CIM\_ProtocolControllerForUnit class'
+Description: Represents an association between a protocol controller and an exposed logical unit.
+ms.assetid: e8bf2b32-b4a6-4963-8a50-2b06776965e8
+title: CIM\_ProtocolControllerForUnit class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ProtocolControllerForUnit class
@@ -15,8 +20,8 @@ Represents an association between a protocol controller and an exposed logical u
 class CIM_ProtocolControllerForUnit : CIM_ProtocolControllerForDevice
 {
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  uint16                     DeviceAccess;
+  CIM_LogicalDevice      REF Dependent;
+  uint16                     DeviceAccess;
 };
 ```
 
@@ -127,8 +132,8 @@ The access rights granted to the logical unit through the protocol controller.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -142,9 +147,9 @@ The access rights granted to the logical unit through the protocol controller.
 [**CIM\_ProtocolControllerForDevice**](cim-protocolcontrollerfordevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

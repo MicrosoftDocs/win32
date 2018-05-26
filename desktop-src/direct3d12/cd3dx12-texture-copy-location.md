@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_TEXTURE\_COPY\_LOCATION structure
 description: A helper structure to enable easy initialization of a D3D12\_TEXTURE\_COPY\_LOCATION structure.
-ms.assetid: '8BA93729-2FFB-4C09-88B0-779049BAF385'
-keywords: ["CD3DX12_TEXTURE_COPY_LOCATION structure"]
+ms.assetid: 8BA93729-2FFB-4C09-88B0-779049BAF385
+keywords:
+- CD3DX12_TEXTURE_COPY_LOCATION structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_TEXTURE\_COPY\_LOCATION structure
 
-A helper structure to enable easy initialization of a [**D3D12\_TEXTURE\_COPY\_LOCATION**](d3d12-texture-copy-location.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_TEXTURE\_COPY\_LOCATION**](/windows/win32/D3D12/ns-d3d12-d3d12_texture_copy_location?branch=master) structure.
 
 ## Syntax
 
@@ -46,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION.
 **explicit CD3DX12\_TEXTURE\_COPY\_LOCATION(const D3D12\_TEXTURE\_COPY\_LOCATION &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initialized with the contents of another [**D3D12\_TEXTURE\_COPY\_LOCATION**](d3d12-texture-copy-location.md) structure.
+Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initialized with the contents of another [**D3D12\_TEXTURE\_COPY\_LOCATION**](/windows/win32/D3D12/ns-d3d12-d3d12_texture_copy_location?branch=master) structure.
 
 </dd> <dt>
 
@@ -55,7 +61,7 @@ Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initialized with t
 
 Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initializing the following parameters:
 
-[**ID3D12Resource**](id3d12resource.md)\* pRes
+[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)\* pRes
 
 </dd> <dt>
 
@@ -64,9 +70,9 @@ Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initializing the f
 
 Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initializing the following parameters:
 
-[**ID3D12Resource**](id3d12resource.md)\* pRes
+[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)\* pRes
 
-[**D3D12\_PLACED\_SUBRESOURCE\_FOOTPRINT**](d3d12-placed-subresource-footprint.md) const& Footprint
+[**D3D12\_PLACED\_SUBRESOURCE\_FOOTPRINT**](/windows/win32/d3d12/ns-d3d12-d3d12_placed_subresource_footprint?branch=master) const& Footprint
 
 </dd> <dt>
 
@@ -75,7 +81,7 @@ Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initializing the f
 
 Creates a new instance of a CD3DX12\_TEXTURE\_COPY\_LOCATION, initializing the following parameters:
 
-[**ID3D12Resource**](id3d12resource.md)\* pRes
+[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)\* pRes
 
 UINT Sub
 
@@ -95,15 +101,15 @@ UINT Sub
 
 <dl> <dt>
 
-[**D3D12\_TEXTURE\_COPY\_LOCATION**](d3d12-texture-copy-location.md)
+[**D3D12\_TEXTURE\_COPY\_LOCATION**](/windows/win32/D3D12/ns-d3d12-d3d12_texture_copy_location?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

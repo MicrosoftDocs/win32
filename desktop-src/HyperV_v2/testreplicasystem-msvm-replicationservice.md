@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new replica of a virtual machine with the specified snapshot for testing purposes.'
-ms.assetid: '447f3c8f-8c57-4874-9466-91c6aea533bc'
-title: 'TestReplicaSystem method of the Msvm\_ReplicationService class'
+Description: Creates a new replica of a virtual machine with the specified snapshot for testing purposes.
+ms.assetid: 447f3c8f-8c57-4874-9466-91c6aea533bc
+title: TestReplicaSystem method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestReplicaSystem method of the Msvm\_ReplicationService class
@@ -13,10 +18,10 @@ Creates a new replica of a virtual machine with the specified snapshot for testi
 
 ```mof
 uint32 TestReplicaSystem(
-  [in]  CIM_ComputerSystem           REF ComputerSystem,
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ComputerSystem           REF ResultingSystem,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_ComputerSystem           REF ComputerSystem,
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ComputerSystem           REF ResultingSystem,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -108,8 +113,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -123,9 +128,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

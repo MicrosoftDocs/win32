@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport InitNew method
 description: Initializes the new IIMAPTransport object.
-ms.assetid: '78d1b31f-27b1-455b-9942-f9a1cf0a94f2'
-keywords: ["InitNew method Windows Mail (formerly Outlook Express)", "InitNew method Windows Mail (formerly Outlook Express) , IIMAPTransport interface", "IIMAPTransport interface Windows Mail (formerly Outlook Express) , InitNew method"]
+ms.assetid: 78d1b31f-27b1-455b-9942-f9a1cf0a94f2
+keywords:
+- InitNew method Windows Mail (formerly Outlook Express)
+- InitNew method Windows Mail (formerly Outlook Express) , IIMAPTransport interface
+- IIMAPTransport interface Windows Mail (formerly Outlook Express) , InitNew method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport::InitNew method
@@ -24,8 +32,8 @@ Initializes the new [**IIMAPTransport**](oe-iimaptransport.md) object.
 
 ```C++
 HRESULT InitNew(
-  [in] LPCSTR        pszLogFilePath,
-  [in] IIMAPCallback *pCBHandler
+  [in] LPCSTR        pszLogFilePath,
+  [in] IIMAPCallback *pCBHandler
 );
 ```
 
@@ -70,7 +78,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +90,8 @@ This function should be called immediately after instantiating the new [**IIMAPT
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -91,9 +99,9 @@ This function should be called immediately after instantiating the new [**IIMAPT
 
 
 
- 
+ 
 
- 
+ 
 
 
 

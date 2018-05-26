@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instructs an IME window to retrieve the logical font used for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.'
-ms.assetid: '43db70b6-f8bc-4241-9096-5d91fd1e332b'
-title: 'IMC\_GETCOMPOSITIONFONT command'
+---
+Description: Instructs an IME window to retrieve the logical font used for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+ms.assetid: 43db70b6-f8bc-4241-9096-5d91fd1e332b
+title: IMC\_GETCOMPOSITIONFONT command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMC\_GETCOMPOSITIONFONT command

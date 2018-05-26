@@ -4,11 +4,15 @@ description: In the example provider component, the GUIDs required for the examp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '806a559d-d424-40a6-a28c-56a505605d00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 806a559d-d424-40a6-a28c-56a505605d00
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["GUID.CPP ADSI"]
+keywords:
+- GUID.CPP ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GUID.CPP

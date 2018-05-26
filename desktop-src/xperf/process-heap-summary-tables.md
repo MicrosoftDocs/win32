@@ -1,7 +1,12 @@
 ---
 title: Process Heap Summary Tables
 description: Process Heap Summary Tables
-ms.assetid: 'ed51ff69-fc61-4bef-83e0-bac4c27fbeea'
+ms.assetid: ed51ff69-fc61-4bef-83e0-bac4c27fbeea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Heap Summary Tables

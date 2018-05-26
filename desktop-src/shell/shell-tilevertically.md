@@ -1,7 +1,12 @@
-﻿---
-Description: 'Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Vertically.'
-ms.assetid: '7d0f6dbe-b5a6-431b-954f-7ef2c62c68ea'
-title: 'Shell.TileVertically method'
+---
+Description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Vertically.
+ms.assetid: 7d0f6dbe-b5a6-431b-954f-7ef2c62c68ea
+title: Shell.TileVertically method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.TileVertically method

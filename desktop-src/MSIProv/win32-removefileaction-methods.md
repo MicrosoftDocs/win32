@@ -1,7 +1,12 @@
 ---
 title: Win32\_RemoveFileAction Methods
 description: The Win32\_RemoveFileAction class exposes the following methods.
-ms.assetid: '23BB1221-C85A-4ECB-B900-BDB5E29C618D'
+ms.assetid: 23BB1221-C85A-4ECB-B900-BDB5E29C618D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RemoveFileAction Methods

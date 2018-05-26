@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section discusses window properties. A window property is any data assigned to a window.'
-ms.assetid: '67ca264e-af8e-41bf-b9d1-d3db8cf1cdc3'
+---
+Description: This section discusses window properties. A window property is any data assigned to a window.
+ms.assetid: 67ca264e-af8e-41bf-b9d1-d3db8cf1cdc3
 title: Window Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Properties
@@ -30,11 +35,11 @@ A window property is any data assigned to a window. A window property is usually
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**EnumProps**](enumprops.md)         | Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. [**EnumProps**](enumprops.md) continues until the last entry is enumerated or the callback function returns**FALSE**.<br/>                                                                                                        |
 | [**EnumPropsEx**](enumpropsex.md)     | Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. [**EnumPropsEx**](enumpropsex.md) continues until the last entry is enumerated or the callback function returns **FALSE**. <br/>                                                                                                  |
-| [**GetProp**](getprop.md)             | Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the [**SetProp**](setprop.md) function. <br/>                                                                                    |
+| [**GetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-getpropertyattributes?branch=master)             | Retrieves a data handle from the property list of the specified window. The character string identifies the handle to be retrieved. The string and handle must have been added to the property list by a previous call to the [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master) function. <br/>                                                                                    |
 | [*PropEnumProc*](propenumproc.md)     | An application-defined callback function used with the [**EnumProps**](enumprops.md) function. The function receives property entries from a window's property list. The **PROPENUMPROC** type defines a pointer to this callback function. [*PropEnumProc*](propenumproc.md) is a placeholder for the application-defined function name. <br/>           |
 | [*PropEnumProcEx*](propenumprocex.md) | An application-defined callback function used with the [**EnumPropsEx**](enumpropsex.md) function. The function receives property entries from a window's property list. The **PROPENUMPROCEX** type defines a pointer to this callback function. [*PropEnumProcEx*](propenumprocex.md) is a placeholder for the application-defined function name. <br/> |
 | [**RemoveProp**](removeprop.md)       | Removes an entry from the property list of the specified window. The specified character string identifies the entry to be removed.<br/>                                                                                                                                                                                                                    |
-| [**SetProp**](setprop.md)             | Adds a new entry or changes an existing entry in the property list of the specified window. The function adds a new entry to the list if the specified character string does not exist already in the list. The new entry contains the string and the handle. Otherwise, the function replaces the string's current handle with the specified handle. <br/> |
+| [**SetProp**](/windows/win32/Winuser/nf-wia_lh-iwiapropertystorage-setpropertystream?branch=master)             | Adds a new entry or changes an existing entry in the property list of the specified window. The function adds a new entry to the list if the specified character string does not exist already in the list. The new entry contains the string and the handle. Otherwise, the function replaces the string's current handle with the specified handle. <br/> |
 
 
 

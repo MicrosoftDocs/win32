@@ -2,13 +2,16 @@
 title: AddByDName method of the PS\_DnsServerResourceRecord class
 description: Adds a domain alias (DNAME) resource record on a DNS server. type in the specified zone.
 audience: developer
-ms.assetid: '0f92b3ce-fda2-4437-9e31-1f927ea25d53'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0f92b3ce-fda2-4437-9e31-1f927ea25d53
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByDName method", "AddByDName method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByDName method"]
+keywords:
+- AddByDName method
+- AddByDName method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByDName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByDName method of the PS\_DnsServerResourceRecord class
@@ -28,18 +34,18 @@ Adds a domain alias (DNAME) resource record on a DNS server. type in the specifi
 
 ```mof
 uint32 AddByDName(
-  [in]  string                  ZoneName,
-  [in]  string                  DomainNameAlias,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 DName,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  ZoneName,
+  [in]  string                  DomainNameAlias,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 DName,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -117,7 +123,7 @@ If specified, creates a DNS Server Resource Record DNAME.
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -126,7 +132,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -144,7 +150,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -158,9 +164,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

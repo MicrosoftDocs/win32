@@ -1,8 +1,11 @@
 ---
 title: MonthlyDOWTrigger.RunOnLastWeekOfMonth property
 description: For scripting, gets or sets a Boolean value that indicates that the task runs on the last week of the month.
-ms.assetid: 'a45d3207-6202-4aee-9ef7-c257884fcfed'
-keywords: ["RunOnLastWeekOfMonth property Task Scheduler", "RunOnLastWeekOfMonth property Task Scheduler , MonthlyDOWTrigger object", "MonthlyDOWTrigger object Task Scheduler , RunOnLastWeekOfMonth property"]
+ms.assetid: a45d3207-6202-4aee-9ef7-c257884fcfed
+keywords:
+- RunOnLastWeekOfMonth property Task Scheduler
+- RunOnLastWeekOfMonth property Task Scheduler , MonthlyDOWTrigger object
+- MonthlyDOWTrigger object Task Scheduler , RunOnLastWeekOfMonth property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MonthlyDOWTrigger.RunOnLastWeekOfMonth property
@@ -36,8 +44,8 @@ True indicates that the task runs on the last week of the month; otherwise, Fals
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -53,9 +61,9 @@ True indicates that the task runs on the last week of the month; otherwise, Fals
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

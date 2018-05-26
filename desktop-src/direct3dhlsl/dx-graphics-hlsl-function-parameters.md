@@ -1,7 +1,12 @@
 ---
 title: Function Arguments
 description: A function takes one or more input arguments; use the following syntax to declare each argument.
-ms.assetid: '80e0dbc8-26b7-4250-bb01-6856fc70f6b8'
+ms.assetid: 80e0dbc8-26b7-4250-bb01-6856fc70f6b8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Arguments
@@ -16,7 +21,7 @@ A function takes one or more input arguments; use the following syntax to declar
 
 
 
- 
+ 
 
 \[Modifier\] Type Name \[: Semantic\] \[: Interpolation Modifier\] \[= Initializer(s)\]
 
@@ -66,7 +71,7 @@ If there are multiple function arguments, they are separated by commas.
 </tbody>
 </table>
 
-<p> </p>
+<p> </p>
 <p>Parameters are always passed by value. in indicates that the value of the parameter should be copied in from the calling application before the function begins. out indicates that the last value of the parameter should be copied out, and returned to the calling application when the function returns. inout is a shorthand for specifying both.</p>
 <p>A uniform value comes from a constant register; each vertex shader or pixel shader invocation see the same initial value for a uniform variable. Global variables are treated as if they are declared uniform. For non-top-level functions, uniform is synonymous with <strong>in</strong>. If no parameter usage is specified, the parameter usage is assumed to be <strong>in</strong>.</p></td>
 </tr>
@@ -95,7 +100,7 @@ If there are multiple function arguments, they are separated by commas.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -150,9 +155,9 @@ PSBasicIn VSBasic(VSBasicIn input)
 [Functions (DirectX HLSL)](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

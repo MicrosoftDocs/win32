@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS Restart method
 description: Restarts the guest operating system.
-ms.assetid: '328c7aa1-d9bd-452d-95dd-9f6a03fa8c9e'
-keywords: ["Restart method Virtual PC", "Restart method Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , Restart method"]
+ms.assetid: 328c7aa1-d9bd-452d-95dd-9f6a03fa8c9e
+keywords:
+- Restart method Virtual PC
+- Restart method Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , Restart method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::Restart method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Restarts the guest operating system.
 
@@ -24,8 +32,8 @@ Restarts the guest operating system.
 
 ```C++
 HRESULT Restart(
-  [in]          VARIANT_BOOL inForced,
-  [out, retval] IVMTask      **outRestartTask
+  [in]          VARIANT_BOOL inForced,
+  [out, retval] IVMTask      **outRestartTask
 );
 ```
 
@@ -67,7 +75,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,7 +92,7 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -92,9 +100,9 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -108,9 +116,9 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

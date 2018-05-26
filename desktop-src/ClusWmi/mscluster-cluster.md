@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13a88f6b-1ec9-464d-adcf-a8b17341552d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 13a88f6b-1ec9-464d-adcf-a8b17341552d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_Cluster class", "MSCluster_Cluster class, described"]
+keywords:
+- MSCluster_Cluster class
+- MSCluster_Cluster class, described
 topic_type:
 - apiref
 api_name:
@@ -136,6 +138,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_Cluster class
@@ -150,123 +155,123 @@ The following syntax is simplified from MOF code in MOF order and includes all i
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{9EB9A2F9-0751-4dcf-AB59-F8341D0F60B2}"), AMENDMENT]
 class MSCluster_Cluster : CIM_Cluster
 {
-  string             Caption;
-  datetime           InstallDate;
-  string             Status;
-  string             CreationClassName;
-  string             PrimaryOwnerContact;
-  string             PrimaryOwnerName;
-  string             Roles[];
-  string             NameFormat;
-  string             OtherIdentifyingInfo[];
-  string             IdentifyingDescriptions[];
-  uint16             Dedicated[];
-  uint32             MaxNumberOfNodes;
-  string             Name;
-  string             Fqdn;
-  string             Description;
-  uint32             QuorumLogFileSize;
-  uint8              Security[];
-  string             NetworkInterfaceAdminExtensions[];
-  string             NetworkAdminExtensions[];
-  string             ResourceTypeAdminExtensions[];
-  string             ResourceAdminExtensions[];
-  string             NodeAdminExtensions[];
-  string             GroupAdminExtensions[];
-  string             AdminExtensions[];
-  string             MaintenanceFile;
-  string             QuorumType;
-  string             QuorumPath;
-  uint32             QuorumTypeValue;
-  string             NetworkPriorities[];
-  uint32             DefaultNetworkRole;
-  uint8              Security_Descriptor[];
-  uint32             QuorumArbitrationTimeMax;
-  uint32             QuorumArbitrationTimeMin;
-  uint32             DisableGroupPreferredOwnerRandomization;
-  uint32             ResourceDllDeadlockPeriod;
-  uint32             ClusSvcHangTimeout;
-  uint32             ClusSvcRegroupOpeningTimeout;
-  uint32             PlumbAllCrossSubnetRoutes;
-  uint32             ClusSvcRegroupStageTimeout;
-  uint32             ClusSvcRegroupPruningTimeout;
-  uint32             ClusSvcRegroupTickInMilliseconds;
-  uint32             ClusterLogSize;
-  uint32             ClusterLogLevel;
-  uint32             LogResourceControls;
-  uint32             HangRecoveryAction;
-  uint32             SameSubnetDelay;
-  uint32             CrossSubnetDelay;
-  uint32             CrossSiteDelay;
-  uint32             SameSubnetThreshold;
-  uint32             CrossSubnetThreshold;
-  uint32             CrossSiteThreshold;
-  uint32             BackupInProgress;
-  uint32             RequestReplyTimeout;
+  string             Caption;
+  datetime           InstallDate;
+  string             Status;
+  string             CreationClassName;
+  string             PrimaryOwnerContact;
+  string             PrimaryOwnerName;
+  string             Roles[];
+  string             NameFormat;
+  string             OtherIdentifyingInfo[];
+  string             IdentifyingDescriptions[];
+  uint16             Dedicated[];
+  uint32             MaxNumberOfNodes;
+  string             Name;
+  string             Fqdn;
+  string             Description;
+  uint32             QuorumLogFileSize;
+  uint8              Security[];
+  string             NetworkInterfaceAdminExtensions[];
+  string             NetworkAdminExtensions[];
+  string             ResourceTypeAdminExtensions[];
+  string             ResourceAdminExtensions[];
+  string             NodeAdminExtensions[];
+  string             GroupAdminExtensions[];
+  string             AdminExtensions[];
+  string             MaintenanceFile;
+  string             QuorumType;
+  string             QuorumPath;
+  uint32             QuorumTypeValue;
+  string             NetworkPriorities[];
+  uint32             DefaultNetworkRole;
+  uint8              Security_Descriptor[];
+  uint32             QuorumArbitrationTimeMax;
+  uint32             QuorumArbitrationTimeMin;
+  uint32             DisableGroupPreferredOwnerRandomization;
+  uint32             ResourceDllDeadlockPeriod;
+  uint32             ClusSvcHangTimeout;
+  uint32             ClusSvcRegroupOpeningTimeout;
+  uint32             PlumbAllCrossSubnetRoutes;
+  uint32             ClusSvcRegroupStageTimeout;
+  uint32             ClusSvcRegroupPruningTimeout;
+  uint32             ClusSvcRegroupTickInMilliseconds;
+  uint32             ClusterLogSize;
+  uint32             ClusterLogLevel;
+  uint32             LogResourceControls;
+  uint32             HangRecoveryAction;
+  uint32             SameSubnetDelay;
+  uint32             CrossSubnetDelay;
+  uint32             CrossSiteDelay;
+  uint32             SameSubnetThreshold;
+  uint32             CrossSubnetThreshold;
+  uint32             CrossSiteThreshold;
+  uint32             BackupInProgress;
+  uint32             RequestReplyTimeout;
   MSCluster_Property PrivateProperties;
-  uint32             WitnessRestartInterval;
-  uint32             SecurityLevel;
-  uint32             WitnessDatabaseWriteTimeout;
-  uint32             AddEvictDelay = 60;
-  uint32             FixQuorum = 0;
-  uint32             PreventQuorum;
-  uint32             IgnorePersistentStateOnStartup = 0;
-  string             SharedVolumesRoot;
-  uint32             WitnessDynamicWeight;
-  uint32             AdminAccessPoint;
-  uint32             ClusterFunctionalLevel;
-  uint32             ClusterUpgradeVersion;
-  uint32             ResiliencyLevel;
-  uint32             ResiliencyDefaultPeriod;
-  uint32             GroupDependencyTimeout;
-  uint32             GracePeriodEnabled;
-  uint32             GracePeriodTimeout;
-  uint32             QuarantineDuration;
-  uint32             AutoAssignedNodeSite;
-  string             PreferredSite;
-  uint32             PlacementOptions;
-  uint32             QuarantineThreshold;
-  uint32             AutoAssignNodeSite;
-  uint32             AutoBalancerLevel;
-  uint32             AutoBalancerMode;
-  uint32             EnableSharedVolumes;
-  uint32             BlockCacheSize;
-  uint32             ClusterEnforcedAntiAffinity;
-  uint32             SharedVolumeVssWriterOperationTimeout;
-  uint32             UseClientAccessNetworksForSharedVolumes;
-  string             SharedVolumeCompatibleFilters[];
-  string             SharedVolumeIncompatibleFilters[];
-  uint32             ClusterGroupWaitDelay;
-  uint32             MinimumPreemptorPriority;
-  uint32             MinimumNeverPreemptPriority;
-  uint32             ShutdownTimeoutInMinutes;
-  uint32             RootMemoryReserved;
-  uint8              SharedVolumeSecurityDescriptor[];
-  uint32             RouteHistoryLength;
-  uint64             DumpPolicy;
-  uint32             DynamicQuorumEnabled;
-  string             RecentEventsResetTime;
-  uint32             DrainOnShutdown;
-  uint32             DatabaseReadWriteMode;
-  uint32             NetftIPSecEnabled;
-  uint32             CsvBalancer;
-  uint32             MessageBufferLength;
-  uint32             S2DEnabled;
-  uint32             S2DBusTypes;
-  uint32             S2DOptimizations;
-  uint32             S2DIOLatencyThreshold;
-  uint32             S2DCacheDesiredState;
-  string             S2DCacheDeviceModel[];
-  uint64             S2DCacheMetadataReserveBytes;
-  uint32             S2DCachePageSizeKBytes;
-  uint32             S2DCacheFlashReservePercent;
-  uint64             S2DCacheBehavior;
-  uint32             LowerQuorumPriorityNodeId;
-  uint32             VirtualStorageArrayNotificationInterval;
-  uint32             VirtualStorageArrayIOLatencyThreshold;
-  uint32             VirtualStorageArrayStorageOptFlags;
-  uint32             VirtualStorageArrayStorageBusTypes;
-  uint32             VirtualStorageArrayEnabled;
+  uint32             WitnessRestartInterval;
+  uint32             SecurityLevel;
+  uint32             WitnessDatabaseWriteTimeout;
+  uint32             AddEvictDelay = 60;
+  uint32             FixQuorum = 0;
+  uint32             PreventQuorum;
+  uint32             IgnorePersistentStateOnStartup = 0;
+  string             SharedVolumesRoot;
+  uint32             WitnessDynamicWeight;
+  uint32             AdminAccessPoint;
+  uint32             ClusterFunctionalLevel;
+  uint32             ClusterUpgradeVersion;
+  uint32             ResiliencyLevel;
+  uint32             ResiliencyDefaultPeriod;
+  uint32             GroupDependencyTimeout;
+  uint32             GracePeriodEnabled;
+  uint32             GracePeriodTimeout;
+  uint32             QuarantineDuration;
+  uint32             AutoAssignedNodeSite;
+  string             PreferredSite;
+  uint32             PlacementOptions;
+  uint32             QuarantineThreshold;
+  uint32             AutoAssignNodeSite;
+  uint32             AutoBalancerLevel;
+  uint32             AutoBalancerMode;
+  uint32             EnableSharedVolumes;
+  uint32             BlockCacheSize;
+  uint32             ClusterEnforcedAntiAffinity;
+  uint32             SharedVolumeVssWriterOperationTimeout;
+  uint32             UseClientAccessNetworksForSharedVolumes;
+  string             SharedVolumeCompatibleFilters[];
+  string             SharedVolumeIncompatibleFilters[];
+  uint32             ClusterGroupWaitDelay;
+  uint32             MinimumPreemptorPriority;
+  uint32             MinimumNeverPreemptPriority;
+  uint32             ShutdownTimeoutInMinutes;
+  uint32             RootMemoryReserved;
+  uint8              SharedVolumeSecurityDescriptor[];
+  uint32             RouteHistoryLength;
+  uint64             DumpPolicy;
+  uint32             DynamicQuorumEnabled;
+  string             RecentEventsResetTime;
+  uint32             DrainOnShutdown;
+  uint32             DatabaseReadWriteMode;
+  uint32             NetftIPSecEnabled;
+  uint32             CsvBalancer;
+  uint32             MessageBufferLength;
+  uint32             S2DEnabled;
+  uint32             S2DBusTypes;
+  uint32             S2DOptimizations;
+  uint32             S2DIOLatencyThreshold;
+  uint32             S2DCacheDesiredState;
+  string             S2DCacheDeviceModel[];
+  uint64             S2DCacheMetadataReserveBytes;
+  uint32             S2DCachePageSizeKBytes;
+  uint32             S2DCacheFlashReservePercent;
+  uint64             S2DCacheBehavior;
+  uint32             LowerQuorumPriorityNodeId;
+  uint32             VirtualStorageArrayNotificationInterval;
+  uint32             VirtualStorageArrayIOLatencyThreshold;
+  uint32             VirtualStorageArrayStorageOptFlags;
+  uint32             VirtualStorageArrayStorageBusTypes;
+  uint32             VirtualStorageArrayEnabled;
 };
 ```
 
@@ -287,25 +292,25 @@ The **MSCluster\_Cluster** class has these methods.
 |:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddClusterNameAccount**](mscluster-cluster-addclusternameaccount.md)                                   | Creates a cluster name account in Active Directory Domain Services.<br/>                                                                                                                                                   |
 | [**AddNode**](mscluster-cluster-addnode.md)                                                               | Adds a node to a cluster.<br/>                                                                                                                                                                                             |
-| [**AddResourceToClusterSharedVolumes**](mscluster-cluster-addresourcetoclustersharedvolumes.md)           | Adds storage to Cluster Shared Volumes.<br/> **Windows Server 2008:** This method is not supported before Windows Server 2008 R2.<br/> <br/>                                                                   |
-| [**AddVirtualMachine**](mscluster-cluster-addvirtualmachine.md)                                           | Adds an existing virtual machine to the cluster.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                                  |
+| [**AddResourceToClusterSharedVolumes**](mscluster-cluster-addresourcetoclustersharedvolumes.md)           | Adds storage to Cluster Shared Volumes.<br/> **Windows Server 2008:** This method is not supported before Windows Server 2008 R2.<br/> <br/>                                                                   |
+| [**AddVirtualMachine**](mscluster-cluster-addvirtualmachine.md)                                           | Adds an existing virtual machine to the cluster.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>                                  |
 | [**CreateCluster**](mscluster-cluster-createcluster.md)                                                   | Creates a cluster.<br/>                                                                                                                                                                                                    |
 | [**DestroyCluster**](mscluster-cluster-destroycluster.md)                                                 | Removes the cluster.<br/>                                                                                                                                                                                                  |
 | [**EvictNode**](mscluster-cluster-evictnode.md)                                                           | Removes a specified node from the cluster.<br/>                                                                                                                                                                            |
 | [**ExecuteClusterControl**](mscluster-cluster-executeclustercontrol.md)                                   | Executes a control code on the cluster.<br/>                                                                                                                                                                               |
 | [**ForceCleanup**](mscluster-cluster-forcecleanup.md)                                                     | Forces a node to be cleaned up.<br/>                                                                                                                                                                                       |
-| [**GenerateValidationStatus**](mscluster-cluster-generatevalidationstatus.md)                             | Creates an [**MSCluster\_ValidationStatus**](mscluster-validationstatus.md) object bound to the cluster.<br/> **Windows Server 2008:** This method is not supported before Windows Server 2008 R2.<br/> <br/> |
+| [**GenerateValidationStatus**](mscluster-cluster-generatevalidationstatus.md)                             | Creates an [**MSCluster\_ValidationStatus**](mscluster-validationstatus.md) object bound to the cluster.<br/> **Windows Server 2008:** This method is not supported before Windows Server 2008 R2.<br/> <br/> |
 | [**GetNodeClusterState**](mscluster-cluster-getnodeclusterstate.md)                                       | Determines whether the Cluster service is installed and running on a node.<br/>                                                                                                                                            |
-| [**RemoveResourceFromClusterSharedVolumes**](mscluster-cluster-removeresourcefromclustersharedvolumes.md) | Removes storage from Cluster Shared Volumes.<br/> **Windows Server 2008:** This method is not supported before Windows Server 2008 R2.<br/> <br/>                                                              |
+| [**RemoveResourceFromClusterSharedVolumes**](mscluster-cluster-removeresourcefromclustersharedvolumes.md) | Removes storage from Cluster Shared Volumes.<br/> **Windows Server 2008:** This method is not supported before Windows Server 2008 R2.<br/> <br/>                                                              |
 | [**Rename**](mscluster-cluster-rename.md)                                                                 | Renames the cluster.<br/>                                                                                                                                                                                                  |
 | [**SetDiskQuorum**](mscluster-cluster-setdiskquorum.md)                                                   | Sets the quorum behavior to not be a majority and to use the passed-in disk as the quorum resource.<br/>                                                                                                                   |
 | [**SetMajorityQuorum**](mscluster-cluster-setmajorityquorum.md)                                           | Sets the quorom to a majority quorum and uses the passed-in resource as the quorum witness resource.<br/>                                                                                                                  |
 | [**SetNodeMajorityQuorum**](mscluster-cluster-setnodemajorityquorum.md)                                   | Sets the cluster to not have a node majority quorum.<br/>                                                                                                                                                                  |
-| [**VerifyPath**](mscluster-cluster-verifypath.md)                                                         | Verifies if the path is valid cluster storage for the resource group.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>             |
+| [**VerifyPath**](mscluster-cluster-verifypath.md)                                                         | Verifies if the path is valid cluster storage for the resource group.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/>             |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -324,9 +329,9 @@ Access type: Read/write
 
 Provides access to the cluster's [**AddEvictDelay**](https://msdn.microsoft.com/library/ee342504) property, which is the number a seconds that a new node is delayed after an eviction of another node.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 <dt>
 
@@ -337,7 +342,7 @@ Default
 
 </dd> <dt>
 
-0–600
+0 600
 </dt> <dd>
 
 Valid range.
@@ -357,9 +362,9 @@ Access type: Read-only
 
 The type of the cluster administrative access point.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -387,9 +392,9 @@ Access type: Read/write
 
 Determines whether or not the cluster will attempt to automatically assign nodes to sites based on networks and Active Directory Site information.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -417,9 +422,9 @@ Access type: Read/write
 
 Determines the level of aggressiveness of AutoBalancer.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -434,9 +439,9 @@ Access type: Read/write
 
 Determines whether or not the auto balancer is enabled.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -464,13 +469,13 @@ Access type: Read/write
 
 CSV BlockCache Size in MB.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
-**Windows Server 2008 R2:  **
+**Windows Server 2008 R2:  **
 
-This property is named **SharedVolumeBlockCacheSizeInMB** in Windows Server 2008 R2.
+This property is named **SharedVolumeBlockCacheSizeInMB** in Windows Server 2008 R2.
 
 <dt>
 
@@ -532,7 +537,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 Controls how long a node will wait on other nodes in the opening stage before deciding that they failed.
 
@@ -549,7 +554,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 Controls how long the membership leader will wait to reach full connectivity between cluster nodes.
 
@@ -592,9 +597,9 @@ Access type: Read/write
 
 Enables or disables hard enforcement of group anti-affinity classes.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 The possible values are.
 
@@ -627,9 +632,9 @@ Access type: Read-only
 
 The functional level the cluster is currently running in.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -644,9 +649,9 @@ Access type: Read/write
 
 Maximum time in seconds that a group waits for its preferred node to come online during cluster startup before coming online on a different node.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -687,9 +692,9 @@ Access type: Read-only
 
 Specifies the upgrade version the cluster is currently running in.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -722,9 +727,9 @@ Access type: Read/write
 
 Controls how long the cluster network driver waits in milliseconds between sending Cluster Service heartbeats across sites.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -739,9 +744,9 @@ Access type: Read/write
 
 Controls how many Cluster Service heartbeats can be missed across sites before it determines that Cluster Service has stopped responding.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -782,9 +787,9 @@ Access type: Read/write
 
 Whether automatic balancing for CSV is enabled."
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -799,9 +804,9 @@ Access type: Read/write
 
 Sets the database read and write mode.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -973,9 +978,9 @@ Access type: Read/write
 
 Whether to drain the node when cluster service is being stopped.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -990,9 +995,9 @@ Access type: Read/write
 
 Controls the cluster dump collection policy.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1007,9 +1012,9 @@ Access type: Read/write
 
 Allows cluster service to adjust node weights as needed to increase availability.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1024,9 +1029,9 @@ Access type: Read/write
 
 Enables or disables cluster shared volumes on this cluster.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 The possible values are.
 
@@ -1059,9 +1064,9 @@ Access type: Read-only
 
 Provides access to the cluster's [**FixQuorum**](https://msdn.microsoft.com/library/ee342505) property, which specifies if the cluster is in a fix quorum state.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 <dt>
 
@@ -1092,9 +1097,9 @@ Access type: Read-only
 
 The fully qualified domain name of the cluster.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1125,9 +1130,9 @@ Whether the node grace period feature of this cluster is enabled.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1142,9 +1147,9 @@ Access type: Read/write
 
 The grace period timeout in milliseconds.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1172,9 +1177,9 @@ Access type: Read/write
 
 The timeout after which a group will be brought online despite unsatisfied dependencies
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1220,9 +1225,9 @@ Access type: Read/write
 
 Provides access to the cluster's [**IgnorePersistentStateOnStartup**](https://msdn.microsoft.com/library/ee342506) property, which specifies whether the cluster will bring online groups that were online when the cluster was shut down.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2, and is read-only until Windows Server 2016.
+This property is not supported before Windows Server 2008 R2, and is read-only until Windows Server 2016.
 
 <dt>
 
@@ -1285,9 +1290,9 @@ Access type: Read/write
 Specifies the Node ID that has a lower priority when voting for quorum is performed. If the quorum vote is split 50/50%, the specified node's vote would be ignored to break the tie. If this is not set then the cluster will pick a node at random to break the tie.
 
 > [!Note]  
-> The **LowerQuorumPriorityNodeId** property is available for use in Windows Server 2012 R2. It may be altered or unavailable in subsequent versions of Windows Server.
+> The **LowerQuorumPriorityNodeId** property is available for use in Windows Server 2012 R2. It may be altered or unavailable in subsequent versions of Windows Server.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1330,9 +1335,9 @@ Access type: Read/write
 
 The maximum unacknowledged message count for GEM.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1347,9 +1352,9 @@ Access type: Read/write
 
 Groups with this priority or higher cannot be preempted.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1364,9 +1369,9 @@ Access type: Read/write
 
 Minimum priority a cluster group must have to be able to preempt another group.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1512,9 +1517,9 @@ Access type: Read/write
 
 Whether IPSec is enabled for cluster internal traffic.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -1602,9 +1607,9 @@ Access type: Read/write
 
 Various option flags to modify default placement behavior.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1632,9 +1637,9 @@ Access type: Read/write
 
 Specifies the site whose nodes will be given preference during regroup and node weight adjustment.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2016.
+This method is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1649,9 +1654,9 @@ Access type: Read-only
 
 Whether the cluster will ignore group persistent state on startup.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1715,9 +1720,9 @@ Access type: Read/write
 
 The quarantine period timeout in milliseconds.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1732,9 +1737,9 @@ Access type: Read/write
 
 Number of node failures before it will be quarantined.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2016.
+This method is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1859,9 +1864,9 @@ Possible values are.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1876,9 +1881,9 @@ Access type: Read/write
 
 Allows cluster to reset the last events displayed to clients.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -1906,9 +1911,9 @@ Access type: Read/write
 
 The default resiliency period, in seconds, for the cluster.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1926,9 +1931,9 @@ Qualifiers: [**Min**](https://msdn.microsoft.com/library/aa393650) (1), [**Max**
 
 The resiliency level for the cluster.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1997,9 +2002,9 @@ Access type: Read/write
 
 Controls the amount of memory reserved for the parent partition on all cluster nodes.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -2014,9 +2019,9 @@ Access type: Read/write
 
 The history length for routes to help finding network issues.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -2031,9 +2036,9 @@ Access type: Read/write
 
 Bus types for storage spaces direct.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2048,9 +2053,9 @@ Access type: Read/write
 
 Flags that affect the behavior of the storage spaces direct mode cache.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2016.
+This method is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2065,9 +2070,9 @@ Access type: Read/write
 
 Desired state of the storage spaces direct cache.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2016.
+This method is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2082,9 +2087,9 @@ Access type: Read/write
 
 Use this property to override the default selection of physical disks to be used for S2D cache.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2099,9 +2104,9 @@ Access type: Read/write
 
 Percentage of allocated flash space to utilize when caching.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2016.
+This method is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2116,9 +2121,9 @@ Access type: Read/write
 
 Bytes to reserve on flash devices for metadata.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This method is not supported before Windows Server 2016.
+This method is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2133,9 +2138,9 @@ Access type: Read/write
 
 Page size in KB used by S2D cache.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2150,9 +2155,9 @@ Access type: Read/write
 
 Whether direct attached storage (DAS) is enabled.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2167,9 +2172,9 @@ Access type: Read/write
 
 The I/O latency threshold for storage spaces direct.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2184,9 +2189,9 @@ Access type: Read/write
 
 Optimization flags for storage spaces direct.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -2253,9 +2258,9 @@ Access type: Read/write
 
 Controls the level of security that should apply to intracluster messages.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read-only before Windows Server 2012.
+This property is read-only before Windows Server 2012.
 
 The following are the possible values.
 
@@ -2295,9 +2300,9 @@ Access type: Read/write
 
 Certain classes of filter drivers may be flagged as incompatible with the direct I/O mode of shared volumes. This property is used to override cluster service determination of filters as incompatible. Compatible filter driver names are specified without the .sys extension.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -2312,9 +2317,9 @@ Access type: Read/write
 
 Certain classes of filter drivers may be incompatible with the direct I/O mode of shared volumes. This property is used to add filters to be deemed as incompatible for direct I/O. Incompatible filter driver names are specified without the .sys extension.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -2329,9 +2334,9 @@ Access type: Read/write
 
 Controls access to the CSV Meta Data Server volume for the user mode applications.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -2346,9 +2351,9 @@ Access type: Read-only
 
 Root directory from which the cluster shared volumes are linked.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -2363,9 +2368,9 @@ Access type: Read/write
 
 CSV VSS Writer operation timeout in seconds.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -2380,13 +2385,13 @@ Access type: Read/write
 
 The maximum time in minutes allowed for cluster resources to come offline during cluster service shutdown.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2.
+This property is not supported before Windows Server 2008 R2.
 
 This property can have the following values.
 
-Range: 0–1440
+Range: 0 1440
 
 </dd> <dt>
 
@@ -2516,15 +2521,15 @@ Possible values are.
 
 </dt> <dd>
 
-**Windows Server 2012 R2 and Windows Server 2012:  **
+**Windows Server 2012 R2 and Windows Server 2012:  **
 
-This value is not supported before Windows Server 2016.
+This value is not supported before Windows Server 2016.
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -2539,9 +2544,9 @@ Access type: Read/write
 
 Not supported.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is only supported in Windows Server 2012 R2.
+This property is only supported in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -2556,9 +2561,9 @@ Access type: Read/write
 
 Not supported.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is only supported in Windows Server 2012 R2.
+This property is only supported in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -2573,9 +2578,9 @@ Access type: Read/write
 
 Not supported.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is only supported in Windows Server 2012 R2.
+This property is only supported in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -2590,9 +2595,9 @@ Access type: Read/write
 
 Not supported.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is only supported in Windows Server 2012 R2.
+This property is only supported in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -2607,9 +2612,9 @@ Access type: Read/write
 
 Not supported.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is only supported in Windows Server 2012 R2.
+This property is only supported in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -2637,9 +2642,9 @@ Access type: Read-only
 
 The weight of the configured witness.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012 R2.
+This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -2667,7 +2672,7 @@ The **MSCluster\_Cluster** class is derived from the **CIM\_Cluster** class.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -2684,9 +2689,9 @@ The **MSCluster\_Cluster** class is derived from the **CIM\_Cluster** class.
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

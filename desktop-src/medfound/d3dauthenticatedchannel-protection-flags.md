@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the protection level for video content.'
-ms.assetid: '681c6ad9-cf55-47e4-bbb9-e7fdc499a709'
-title: 'D3DAUTHENTICATEDCHANNEL\_PROTECTION\_FLAGS structure'
+---
+Description: Specifies the protection level for video content.
+ms.assetid: 681c6ad9-cf55-47e4-bbb9-e7fdc499a709
+title: D3DAUTHENTICATEDCHANNEL\_PROTECTION\_FLAGS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_PROTECTION\_FLAGS structure

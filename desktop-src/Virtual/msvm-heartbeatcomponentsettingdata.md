@@ -1,8 +1,10 @@
 ---
 title: Msvm\_HeartbeatComponentSettingData class
 description: Represents the configured state of the heartbeat service.
-ms.assetid: '08867111-aba9-4260-90c5-4286f1ca33da'
-keywords: ["Msvm_HeartbeatComponentSettingData class Hyper-V", "Msvm_HeartbeatComponentSettingData class Hyper-V , described"]
+ms.assetid: 08867111-aba9-4260-90c5-4286f1ca33da
+keywords:
+- Msvm_HeartbeatComponentSettingData class Hyper-V
+- Msvm_HeartbeatComponentSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HeartbeatComponentSettingData class
@@ -50,31 +57,31 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_HeartbeatComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint16  EnabledState = 2;
-  uint32  Interval = 2000;
-  uint32  Latency = 1000;
-  uint32  ErrorThreshold = 2;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint16  EnabledState = 2;
+  uint32  Interval = 2000;
+  uint32  Latency = 1000;
+  uint32  ErrorThreshold = 2;
 };
 ```
 
@@ -231,14 +238,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -363,7 +370,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -469,14 +476,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF Reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -782,14 +789,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF reserved**
 
 
-</dt> <dd>34–32767</dd> <dt>
+</dt> <dd>34 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–35535</dd> </dl>
+</dt> <dd>32768 35535</dd> </dl>
 
 </dd> <dt>
 
@@ -834,9 +841,9 @@ Access to the **Msvm\_HeartbeatComponentSettingData** class might be restricted 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -858,9 +865,9 @@ Access to the **Msvm\_HeartbeatComponentSettingData** class might be restricted 
 [Integration Services Classes](integration-components-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

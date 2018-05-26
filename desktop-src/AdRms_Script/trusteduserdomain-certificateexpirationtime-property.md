@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the time at which the server licensor certificate associated with the trusted domain expires.'
+Description: Retrieves the time at which the server licensor certificate associated with the trusted domain expires.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2cb0cbb5-d95e-413e-947b-44722cfc5aad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2cb0cbb5-d95e-413e-947b-44722cfc5aad
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedUserDomain.CertificateExpirationTime property'
+title: TrustedUserDomain.CertificateExpirationTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedUserDomain.CertificateExpirationTime property
@@ -142,7 +145,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -154,9 +157,9 @@ END SUB
 [**TrustedUserDomain**](trusteduserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

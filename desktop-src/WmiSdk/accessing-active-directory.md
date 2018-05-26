@@ -1,13 +1,16 @@
 ---
-Description: 'Active Directory is the directory service for Windows and is the foundation of Windows distributed networks.'
+Description: Active Directory is the directory service for Windows and is the foundation of Windows distributed networks.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e7569754-87c3-4a18-bfed-a03a32a2ee22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e7569754-87c3-4a18-bfed-a03a32a2ee22
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing Active Directory

@@ -1,7 +1,12 @@
 ---
 title: D2D using D3D11on12
 description: The D3D1211on12 sample demonstrates how to render D2D content over D3D12 content by sharing resources between an 11 based device and a 12 based device.
-ms.assetid: 'FAEF1412-053C-4B5F-80FA-85396C2586B4'
+ms.assetid: FAEF1412-053C-4B5F-80FA-85396C2586B4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D using D3D11on12
@@ -18,7 +23,7 @@ The **D3D1211on12** sample demonstrates how to render D2D content over D3D12 con
 
 ## Create an ID3D11On12Device
 
-The first step is to create an [**ID3D11On12Device**](id3d11on12device.md) after the [**ID3D12Device**](id3d12device.md) has been created, which involves creating an [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/ff476379) that is wrapped around the **ID3D12Device** via the API [**D3D11On12CreateDevice**](d3d11on12createdevice.md). This API also takes in, among other parameters, an [**ID3D12CommandQueue**](id3d12commandqueue.md) so that the 11On12 device can submit its commands. After the **ID3D11Device** is created, you can query the **ID3D11On12Device** interface from it. This is the primary device object that will be used to set up D2D.
+The first step is to create an [**ID3D11On12Device**](/windows/win32/d3d11on12/nn-d3d11on12-id3d11on12device?branch=master) after the [**ID3D12Device**](/windows/win32/D3D12/nn-d3d12-id3d12device?branch=master) has been created, which involves creating an [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/ff476379) that is wrapped around the **ID3D12Device** via the API [**D3D11On12CreateDevice**](/windows/win32/d3d11on12/nf-d3d11on12-d3d11on12createdevice?branch=master). This API also takes in, among other parameters, an [**ID3D12CommandQueue**](/windows/win32/D3D12/nn-d3d12-id3d12commandqueue?branch=master) so that the 11On12 device can submit its commands. After the **ID3D11Device** is created, you can query the **ID3D11On12Device** interface from it. This is the primary device object that will be used to set up D2D.
 
 In the **LoadPipeline** method, setup the devices.
 
@@ -48,7 +53,7 @@ In the **LoadPipeline** method, setup the devices.
 | Call flow                                              | Parameters |
 |--------------------------------------------------------|------------|
 | [**ID3D11Device**](https://msdn.microsoft.com/library/windows/desktop/ff476379)            |            |
-| [**D3D11On12CreateDevice**](d3d11on12createdevice.md) |            |
+| [**D3D11On12CreateDevice**](/windows/win32/d3d11on12/nf-d3d11on12-d3d11on12createdevice?branch=master) |            |
 
 
 
@@ -90,7 +95,7 @@ Add to the **LoadAssets** method.
 
 ## Create a render target for D2D
 
-D3D12 owns the swap chain, so if we want to render to the back buffer using our 11On12 device (D2D content), then we need to create wrapped resources of type [**ID3D11Resource**](https://msdn.microsoft.com/library/windows/desktop/ff476584) from the back buffers of type [**ID3D12Resource**](id3d12resource.md). This links the **ID3D12Resource** with a D3D11 based interface so that it can be used with the 11On12 device. After we have a wrapped resource, we can then create a render target surface for D2D to render to, also in the **LoadAssets** method.
+D3D12 owns the swap chain, so if we want to render to the back buffer using our 11On12 device (D2D content), then we need to create wrapped resources of type [**ID3D11Resource**](https://msdn.microsoft.com/library/windows/desktop/ff476584) from the back buffers of type [**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master). This links the **ID3D12Resource** with a D3D11 based interface so that it can be used with the 11On12 device. After we have a wrapped resource, we can then create a render target surface for D2D to render to, also in the **LoadAssets** method.
 
 ``` syntax
  // Query the desktop's dpi settings, which will be used to create
@@ -171,23 +176,23 @@ D3D12 owns the swap chain, so if we want to render to the back buffer using our 
 </tr>
 <tr class="odd">
 <td>[<strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong>](cd3dx12-cpu-descriptor-handle.md)</td>
-<td>[<strong>GetCPUDescriptorHandleForHeapStart</strong>](id3d12descriptorheap-getcpudescriptorhandleforheapstart.md)</td>
+<td>[<strong>GetCPUDescriptorHandleForHeapStart</strong>](/windows/win32/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart?branch=master)</td>
 </tr>
 <tr class="even">
 <td>[<strong>IDXGISwapChain::GetBuffer</strong>](https://msdn.microsoft.com/library/windows/desktop/bb174570)</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>CreateRenderTargetView</strong>](id3d12device-createrendertargetview.md)</td>
+<td>[<strong>CreateRenderTargetView</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createrendertargetview?branch=master)</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>D3D11_RESOURCE_FLAGS</strong>](d3d11-resource-flags.md)</td>
+<td>[<strong>D3D11_RESOURCE_FLAGS</strong>](/windows/win32/d3d11on12/ns-d3d11on12-d3d11_resource_flags?branch=master)</td>
 <td>[<strong>D3D11_BIND_FLAG</strong>](https://msdn.microsoft.com/library/windows/desktop/ff476085)</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateWrappedResource</strong>](id3d11on12device-createwrappedresource.md)</td>
-<td>[<strong>D3D12_RESOURCE_STATES</strong>](d3d12-resource-states.md)</td>
+<td>[<strong>CreateWrappedResource</strong>](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource?branch=master)</td>
+<td>[<strong>D3D12_RESOURCE_STATES</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)</td>
 </tr>
 <tr class="even">
 <td>[<strong>IDXGISurface</strong>](https://msdn.microsoft.com/library/windows/desktop/bb174565)</td>
@@ -198,8 +203,8 @@ D3D12 owns the swap chain, so if we want to render to the back buffer using our 
 
 </tr>
 <tr class="even">
-<td>[<strong>CreateCommandAllocator</strong>](id3d12device-createcommandallocator.md)</td>
-<td>[<strong>D3D12_COMMAND_LIST_TYPE</strong>](d3d12-command-list-type.md)</td>
+<td>[<strong>CreateCommandAllocator</strong>](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandallocator?branch=master)</td>
+<td>[<strong>D3D12_COMMAND_LIST_TYPE</strong>](/windows/win32/D3D12/ne-d3d12-d3d12_command_list_type?branch=master)</td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +215,7 @@ D3D12 owns the swap chain, so if we want to render to the back buffer using our 
 
 ## Create basic D2D text objects
 
-Now we have an [**ID3D12Device**](id3d12device.md) to render 3D content, an [**ID2D1Device**](https://msdn.microsoft.com/library/windows/desktop/hh404478) that is shared with our 12 device via an [**ID3D11On12Device**](id3d11on12device.md) - which we can use to render 2D content - and they are both configured to render to the same swap chain. This sample simply uses the D2D device to render text over the 3D scene, similar to how games render their UI. For that, we need to create some basic D2D objects, still in the **LoadAssets** method.
+Now we have an [**ID3D12Device**](/windows/win32/D3D12/nn-d3d12-id3d12device?branch=master) to render 3D content, an [**ID2D1Device**](https://msdn.microsoft.com/library/windows/desktop/hh404478) that is shared with our 12 device via an [**ID3D11On12Device**](/windows/win32/d3d11on12/nn-d3d11on12-id3d11on12device?branch=master) - which we can use to render 2D content - and they are both configured to render to the same swap chain. This sample simply uses the D2D device to render text over the 3D scene, similar to how games render their UI. For that, we need to create some basic D2D objects, still in the **LoadAssets** method.
 
 ``` syntax
  // Create D2D/DWrite objects for rendering text.
@@ -272,8 +277,8 @@ void D3D1211on12::OnRender()
 
 | Call flow                                                              | Parameters |
 |------------------------------------------------------------------------|------------|
-| [**ID3D12CommandList**](id3d12commandlist.md)                         |            |
-| [**ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md)  |            |
+| [**ID3D12CommandList**](/windows/win32/D3D12/nn-d3d12-id3d12commandlist?branch=master)                         |            |
+| [**ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master)  |            |
 | [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797) |            |
 
 
@@ -282,7 +287,7 @@ void D3D1211on12::OnRender()
 
 The only thing new to our render loop is the **RenderUI** call, which will use D2D to render our UI. Notice that we execute all of our D3D12 command lists first to render our 3D scene, and then we render our UI on top of that. Before we dive into **RenderUI**, we must look at a change to **PopulateCommandLists**. In other samples we commonly put a resource barrier on the command list prior to closing it to transition the back buffer from the render target state to the present state. However, in this sample we remove that resource barrier, because we still need to render to the back buffers with D2D. Note that when we created our wrapped resources of the back buffer that we specified the render target state as the “IN” state and the present state as the “OUT” state.
 
-**RenderUI** is fairly straight-forward in terms of D2D usage. We set our render target and render our text. However, before using any wrapped resources on an 11On12 device, such as our back buffer render targets, we must call the [**AcquireWrappedResources**](id3d11on12device-acquirewrappedresources.md) API on the 11On12 device. After rendering we call the [**ReleaseWrappedResources**](id3d11on12device-releasewrappedresources.md) API on the 11On12 device. By calling **ReleaseWrappedResources** we incur a resource barrier behind the scenes that will transition the specified resource to the “OUT” state specified at creation time. In our case, this is the present state. Finally, in order to submit all of our commands performed on the 11On12 device to the shared [**ID3D12CommandQueue**](id3d12commandqueue.md), we must call [**Flush**](https://msdn.microsoft.com/library/windows/desktop/ff476425) on the [**ID3D11DeviceContext**](https://msdn.microsoft.com/library/windows/desktop/ff476385).
+**RenderUI** is fairly straight-forward in terms of D2D usage. We set our render target and render our text. However, before using any wrapped resources on an 11On12 device, such as our back buffer render targets, we must call the [**AcquireWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources?branch=master) API on the 11On12 device. After rendering we call the [**ReleaseWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources?branch=master) API on the 11On12 device. By calling **ReleaseWrappedResources** we incur a resource barrier behind the scenes that will transition the specified resource to the “OUT” state specified at creation time. In our case, this is the present state. Finally, in order to submit all of our commands performed on the 11On12 device to the shared [**ID3D12CommandQueue**](/windows/win32/D3D12/nn-d3d12-id3d12commandqueue?branch=master), we must call [**Flush**](https://msdn.microsoft.com/library/windows/desktop/ff476425) on the [**ID3D11DeviceContext**](https://msdn.microsoft.com/library/windows/desktop/ff476385).
 
 ``` syntax
 // Render text over D3D12 using D2D via the 11On12 device.
@@ -324,13 +329,13 @@ void D3D1211on12::RenderUI()
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [**D2D1\_SIZE\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368160)                                                                                                                                                 |                                       |
 | [**D2D1\_RECT\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368151)                                                                                                                                                 | [**RectF**](https://msdn.microsoft.com/library/windows/desktop/dd372343)           |
-| [**AcquireWrappedResources**](id3d11on12device-acquirewrappedresources.md)                                                                                                               |                                       |
+| [**AcquireWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources?branch=master)                                                                                                               |                                       |
 | [**ID2D1DeviceContext::SetTarget**](https://msdn.microsoft.com/library/windows/desktop/hh404533)                                                                                                                |                                       |
 | [**ID2D1RenderTarget::BeginDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371768)                                                                                                                  |                                       |
 | [**ID2D1RenderTarget::SetTransform**](https://msdn.microsoft.com/library/windows/desktop/dd742857)                                                                                                            | [**Matrix3x2F**](https://msdn.microsoft.com/library/windows/desktop/dd372275) |
 | [**ID2D1RenderTarget::DrawTextW**](https://msdn.microsoft.com/library/windows/desktop/dd371916) |                                       |
 | [**ID2D1RenderTarget::EndDraw**](https://msdn.microsoft.com/library/windows/desktop/dd371924)                                                                                                                      |                                       |
-| [**ReleaseWrappedResources**](id3d11on12device-releasewrappedresources.md)                                                                                                               |                                       |
+| [**ReleaseWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources?branch=master)                                                                                                               |                                       |
 | [**ID3D11DeviceContext::Flush**](https://msdn.microsoft.com/library/windows/desktop/ff476425)                                                                                                                    |                                       |
 
 

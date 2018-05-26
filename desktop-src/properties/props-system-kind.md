@@ -1,7 +1,12 @@
 ---
-Description: 'Maps extensions to various .Search folders.'
-ms.assetid: '6db93108-7d08-4493-b99a-cd4e5d4cbfbd'
-title: 'System.Kind'
+Description: Maps extensions to various .Search folders.
+ms.assetid: 6db93108-7d08-4493-b99a-cd4e5d4cbfbd
+title: System.Kind
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Kind

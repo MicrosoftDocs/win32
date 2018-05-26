@@ -1,7 +1,12 @@
-﻿---
-Description: 'The USERNAME property is a user performing installation.'
-ms.assetid: '6e2d18f6-e0f6-4d35-aa8d-35aebe60dcac'
+---
+Description: The USERNAME property is a user performing installation.
+ms.assetid: 6e2d18f6-e0f6-4d35-aa8d-35aebe60dcac
 title: USERNAME property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # USERNAME property

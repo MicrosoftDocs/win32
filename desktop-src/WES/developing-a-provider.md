@@ -1,7 +1,12 @@
 ---
 title: Developing a Provider
 description: To write the events that you define in your manifest, you use the functions included in the Event Tracing (ETW) API. For details on writing a provider, see Providing Events.
-ms.assetid: '23de19c4-5f8d-4faa-acd9-fe6208ca17a9'
+ms.assetid: 23de19c4-5f8d-4faa-acd9-fe6208ca17a9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a Provider

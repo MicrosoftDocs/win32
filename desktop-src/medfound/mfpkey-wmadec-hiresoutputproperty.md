@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the audio decoder should deliver high-resolution output.'
-ms.assetid: 'a96bd78f-982c-43fa-b2d3-8caba4aa84b6'
-title: 'MFPKEY\_WMADEC\_HIRESOUTPUT Property'
+---
+Description: Specifies whether the audio decoder should deliver high-resolution output.
+ms.assetid: a96bd78f-982c-43fa-b2d3-8caba4aa84b6
+title: MFPKEY\_WMADEC\_HIRESOUTPUT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMADEC\_HIRESOUTPUT Property

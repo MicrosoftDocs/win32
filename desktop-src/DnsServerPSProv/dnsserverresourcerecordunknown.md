@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordUnknown class
 description: Represents an unknown resource record for the DNS database.
 audience: developer
-ms.assetid: '1dcace39-6690-4709-b41a-5cb31f146651'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1dcace39-6690-4709-b41a-5cb31f146651
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordUnknown class", "DnsServerResourceRecordUnknown class, described"]
+keywords:
+- DnsServerResourceRecordUnknown class
+- DnsServerResourceRecordUnknown class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordUnknown class
@@ -68,7 +73,7 @@ The unknown data.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -82,9 +87,9 @@ The unknown data.
 [**DnsServerResourceRecordData**](dnsserverresourcerecorddata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

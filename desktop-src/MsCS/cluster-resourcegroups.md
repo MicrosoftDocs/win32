@@ -4,11 +4,14 @@ description: Returns the groups in a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '449e4432-571c-403c-81c7-da50f455224c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 449e4432-571c-403c-81c7-da50f455224c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ResourceGroups property Failover Cluster", "ResourceGroups property Failover Cluster , Cluster object", "Cluster object Failover Cluster , ResourceGroups property"]
+keywords:
+- ResourceGroups property Failover Cluster
+- ResourceGroups property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , ResourceGroups property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.ResourceGroups property
@@ -52,7 +58,7 @@ To access all of the groups for a particular [node](nodes.md), use the [**ClusNo
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -74,9 +80,9 @@ To access all of the groups for a particular [node](nodes.md), use the [**ClusNo
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

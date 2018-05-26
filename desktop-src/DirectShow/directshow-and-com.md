@@ -1,7 +1,12 @@
 ---
 Description: DirectShow and COM
-ms.assetid: '4ff0df3c-b302-4bc3-8574-caf3e5b93da7'
+ms.assetid: 4ff0df3c-b302-4bc3-8574-caf3e5b93da7
 title: DirectShow and COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow and COM

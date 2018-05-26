@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter GetCurrentProfile method
 description: The GetCurrentProfile method retrieves the application-defined profile.
-ms.assetid: '7f6e7085-982b-4234-b890-950efdcdb559'
-keywords: ["GetCurrentProfile method windows Media Format", "GetCurrentProfile method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , GetCurrentProfile method"]
+ms.assetid: 7f6e7085-982b-4234-b890-950efdcdb559
+keywords:
+- GetCurrentProfile method windows Media Format
+- GetCurrentProfile method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , GetCurrentProfile method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.GetCurrentProfile
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::GetCurrentProfile method
@@ -49,7 +57,7 @@ If the method succeeds, the **IWMProfile** pointer that it returns has an outsta
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
  

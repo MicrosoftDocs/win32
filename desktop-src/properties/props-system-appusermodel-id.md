@@ -1,14 +1,19 @@
 ---
-Description: 'An explicit Application User Model ID (AppUserModelID) used to associate processes, files, and windows with a particular application.'
-ms.assetid: '07858b3c-e601-40ec-a87a-d66612d5473a'
-title: 'System.AppUserModel.ID'
+Description: An explicit Application User Model ID (AppUserModelID) used to associate processes, files, and windows with a particular application.
+ms.assetid: 07858b3c-e601-40ec-a87a-d66612d5473a
+title: System.AppUserModel.ID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.AppUserModel.ID
 
 An explicit Application User Model ID (AppUserModelID) used to associate processes, files, and windows with a particular application. In some cases, it is sufficient to rely on the internal AppUserModelID assigned to a process by the system. However, an application that owns multiple processes or an application that is running in a host process might need to explicitly identify itself through this property so that it can group its otherwise disparate windows under a single taskbar button and control the contents of that application's Jump List.
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.ID](shell.props_System_AppUserModel_Id) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.ID](shell.props_System_AppUserModel_Id) property of that window.
 
 For more information, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs).
 
@@ -48,7 +53,7 @@ PKEY values are defined in Propkey.h.
 [Application User Model IDs (AppUserModelIDs)](shell.AppIDs)
 </dt> <dt>
 
-[**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md)
+[**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master)
 </dt> <dt>
 
 [propertyDescriptionList](shell.propdesc_schema_propertyDescriptionList)

@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemNamedValueSet object exposes the following methods.'
+Description: The SWbemNamedValueSet object exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '58FD2D10-7134-4B8C-8034-2331F58D297F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 58FD2D10-7134-4B8C-8034-2331F58D297F
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemNamedValueSet Methods

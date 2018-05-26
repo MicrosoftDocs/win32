@@ -1,7 +1,12 @@
 ---
-Description: 'The StartStreaming method is called when the filter switches to the paused state.'
-ms.assetid: '1e3bbca7-b5b1-41fd-8f70-b7ef39c9491b'
-title: 'CTransformFilter.StartStreaming method'
+Description: The StartStreaming method is called when the filter switches to the paused state.
+ms.assetid: 1e3bbca7-b5b1-41fd-8f70-b7ef39c9491b
+title: CTransformFilter.StartStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.StartStreaming method
@@ -47,9 +52,9 @@ This method does nothing in the base class, but the derived class can override i
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

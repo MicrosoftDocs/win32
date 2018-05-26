@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for UDP/IP IPv4 send and receive events. The following syntax is simplified from MOF code.'
-ms.assetid: 'f04e0b4c-6a2b-4452-9bdf-38c08b487863'
-title: 'UdpIp\_TypeGroup1 class'
+---
+Description: This class is the event type class for UDP/IP IPv4 send and receive events. The following syntax is simplified from MOF code.
+ms.assetid: f04e0b4c-6a2b-4452-9bdf-38c08b487863
+title: UdpIp\_TypeGroup1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UdpIp\_TypeGroup1 class

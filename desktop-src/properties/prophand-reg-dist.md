@@ -1,7 +1,12 @@
 ---
-Description: 'This topic explains how to create and register property handlers to work with the Windows property system.'
-ms.assetid: 'E6E81E04-9CC1-4df5-9A87-DE0CBD177356'
+Description: This topic explains how to create and register property handlers to work with the Windows property system.
+ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: Registering and Distributing Property Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering and Distributing Property Handlers

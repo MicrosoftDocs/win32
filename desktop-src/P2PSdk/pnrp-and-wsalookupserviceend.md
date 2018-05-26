@@ -1,7 +1,12 @@
 ---
-Description: 'PNRP uses the WSALookupServiceEnd function to do the following.'
-ms.assetid: '0732929e-ca03-438f-80d9-48a3da0095f7'
+Description: PNRP uses the WSALookupServiceEnd function to do the following.
+ms.assetid: 0732929e-ca03-438f-80d9-48a3da0095f7
 title: PNRP and WSALookupServiceEnd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP and WSALookupServiceEnd

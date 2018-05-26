@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission.'
-ms.assetid: 'd845ce3f-a1b4-47be-a41a-640020a794ce'
-title: 'FaxDoc.SenderHomePhone property'
+---
+Description: Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission.
+ms.assetid: d845ce3f-a1b4-47be-a41a-640020a794ce
+title: FaxDoc.SenderHomePhone property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SenderHomePhone property
@@ -55,7 +60,7 @@ The **get\_SenderHomePhone** method allocates the memory required for the buffer
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

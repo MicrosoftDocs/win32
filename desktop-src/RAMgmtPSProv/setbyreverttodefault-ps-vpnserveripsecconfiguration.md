@@ -2,13 +2,16 @@
 title: SetByRevertToDefault method of the PS\_VpnServerIPsecConfiguration class
 description: Updates an Internet Protocol Security (IPsec) VPN server configuration with default values.
 audience: developer
-ms.assetid: '98315dd8-8a25-4115-8250-632a03acc1f7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 98315dd8-8a25-4115-8250-632a03acc1f7
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByRevertToDefault method", "SetByRevertToDefault method, PS_VpnServerIPsecConfiguration class", "PS_VpnServerIPsecConfiguration class, SetByRevertToDefault method"]
+keywords:
+- SetByRevertToDefault method
+- SetByRevertToDefault method, PS_VpnServerIPsecConfiguration class
+- PS_VpnServerIPsecConfiguration class, SetByRevertToDefault method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByRevertToDefault method of the PS\_VpnServerIPsecConfiguration class
@@ -28,10 +34,10 @@ Updates an Internet Protocol Security (IPsec) VPN server configuration with defa
 
 ```mof
 uint32 SetByRevertToDefault(
-  [in]  boolean                     PassThru,
-  [in]  uint32                      TunnelType,
-  [in]  boolean                     RevertToDefault,
-  [out] VpnServerIPsecConfiguration cmdletOutput
+  [in]  boolean                     PassThru,
+  [in]  uint32                      TunnelType,
+  [in]  boolean                     RevertToDefault,
+  [out] VpnServerIPsecConfiguration cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ The [**VpnServerIPsecConfiguration**](vpnserveripsecconfiguration.md) object tha
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ The [**VpnServerIPsecConfiguration**](vpnserveripsecconfiguration.md) object tha
 [**PS\_VpnServerIPsecConfiguration**](ps-vpnserveripsecconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

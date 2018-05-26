@@ -1,8 +1,14 @@
 ---
 title: Expanding or Contracting the Vertical Scale
 description: Expanding or Contracting the Vertical Scale
-ms.assetid: '487fb0da-7f40-4235-bacd-aa45a2c4c65d'
-keywords: ["y axis"]
+ms.assetid: 487fb0da-7f40-4235-bacd-aa45a2c4c65d
+keywords:
+- y axis
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Expanding or Contracting the Vertical Scale

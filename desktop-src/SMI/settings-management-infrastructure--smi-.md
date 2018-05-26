@@ -1,7 +1,12 @@
 ---
 title: Settings Management Infrastructure
 description: Provides a standardized infrastructure to access and manipulate Windows Vista settings that are modifiable by users and applications.
-ms.assetid: '54e031cd-265e-4cd9-8aa1-a5b87d2f56bc'
+ms.assetid: 54e031cd-265e-4cd9-8aa1-a5b87d2f56bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings Management Infrastructure

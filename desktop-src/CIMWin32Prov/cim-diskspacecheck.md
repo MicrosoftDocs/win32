@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DiskSpaceCheck class checks the system''s amount of available disk space and specifies it in the AvailableDiskSpace property.'
+Description: The CIM\_DiskSpaceCheck class checks the systems amount of available disk space and specifies it in the AvailableDiskSpace property.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '51440084-7713-4106-b05b-cd2827f4cb05'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 51440084-7713-4106-b05b-cd2827f4cb05
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DiskSpaceCheck class'
+title: CIM\_DiskSpaceCheck class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DiskSpaceCheck class
@@ -19,7 +22,7 @@ The **CIM\_DiskSpaceCheck** class checks the system's amount of available disk s
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,16 +32,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{D3B1178A-DB29-11d2-85FC-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_DiskSpaceCheck : CIM_Check
 {
-  string  CheckID;
-  string  Caption;
-  string  Description;
+  string  CheckID;
+  string  Caption;
+  string  Description;
   boolean CheckMode;
-  string  Name;
-  uint16  TargetOperatingSystem;
-  string  Version;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint64  AvailableDiskSpace;
+  string  Name;
+  uint16  TargetOperatingSystem;
+  string  Version;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint64  AvailableDiskSpace;
 };
 ```
 
@@ -61,7 +64,7 @@ The **CIM\_DiskSpaceCheck** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -816,8 +819,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -831,9 +834,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Check**](cim-check.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

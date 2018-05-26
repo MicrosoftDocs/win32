@@ -1,14 +1,20 @@
 ---
 title: IssueTitle element
 description: Short name for the issue.
-ms.assetid: '73165AF9-3D33-4C62-A328-CA3A5ECDE49A'
-keywords: ["IssueTitle element Access Execution Engine"]
+ms.assetid: 73165AF9-3D33-4C62-A328-CA3A5ECDE49A
+keywords:
+- IssueTitle element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IssueTitle
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueTitle element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Locks a connected smart card for exclusive use.'
-ms.assetid: 'c39a7cfe-04b6-4298-927a-4280664cf769'
-title: 'ISCardManage::SCardLock method'
+---
+Description: Locks a connected smart card for exclusive use.
+ms.assetid: c39a7cfe-04b6-4298-927a-4280664cf769
+title: ISCardManageSCardLock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardManage::SCardLock method

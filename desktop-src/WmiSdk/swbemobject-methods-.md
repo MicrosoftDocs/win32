@@ -1,13 +1,16 @@
 ---
-Description: 'The Methods\_ property of the SWbemObject object returns an SWbemMethodSet object that is a collection of the methods for the current class or instance. This property is read-only.'
+Description: The Methods\_ property of the SWbemObject object returns an SWbemMethodSet object that is a collection of the methods for the current class or instance. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ef9abced-5126-4698-b01e-f3e9c871162f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ef9abced-5126-4698-b01e-f3e9c871162f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.Methods\_ property'
+title: SWbemObject.Methods\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.Methods\_ property
@@ -58,8 +61,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -68,9 +71,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

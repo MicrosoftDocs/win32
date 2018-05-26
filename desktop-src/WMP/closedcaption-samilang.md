@@ -1,8 +1,9 @@
 ---
 title: ClosedCaption.SAMILang
 description: The SAMILang property specifies or retrieves the language displayed for closed captioning.
-ms.assetid: '990fb180-cb37-4022-b236-03f5acfd3ad3'
-keywords: ["ClosedCaption.SAMILang Windows Media Player"]
+ms.assetid: 990fb180-cb37-4022-b236-03f5acfd3ad3
+keywords:
+- ClosedCaption.SAMILang Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.SAMILang
@@ -89,9 +95,9 @@ The following JScript example uses *ClosedCaption*.**SAMILang** in an HTML SELEC
 [**ClosedCaption Object**](closedcaption-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

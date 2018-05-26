@@ -1,8 +1,10 @@
 ---
 title: MDM\_RemoteApplication class
 description: Retrieves information about a remote application on a device that is managed by the Mobile Device Management (MDM) service.
-ms.assetid: '36f5903e-b194-42c7-8732-f3bf631fb818'
-keywords: ["MDM_RemoteApplication class MDM App Management", "MDM_RemoteApplication class MDM App Management , described"]
+ms.assetid: 36f5903e-b194-42c7-8732-f3bf631fb818
+keywords:
+- MDM_RemoteApplication class MDM App Management
+- MDM_RemoteApplication class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_RemoteApplication class
@@ -84,7 +91,7 @@ Gets a key that specifies the URL of the remote application server.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -99,9 +106,9 @@ Gets a key that specifies the URL of the remote application server.
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

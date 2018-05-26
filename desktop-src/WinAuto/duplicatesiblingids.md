@@ -1,7 +1,12 @@
 ---
 title: DuplicateSiblingIDs
 description: DuplicateSiblingIDs
-ms.assetid: '942385A4-BD14-4046-9ABC-110B32D96BB6'
+ms.assetid: 942385A4-BD14-4046-9ABC-110B32D96BB6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DuplicateSiblingIDs
@@ -32,7 +37,7 @@ This issue can cause automation problems that prevent test code from referencing
 [**UIA\_AutomationIdPropertyId**](uiauto-automation-element-propids.md#uia-automationidpropertyid)
 </dt> <dt>
 
-[**IUIAutomationElement.CurrentAutomationId**](uiauto-iuiautomationelement-currentautomationid.md)
+[**IUIAutomationElement.CurrentAutomationId**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentautomationid?branch=master)
 </dt> </dl>
 
  

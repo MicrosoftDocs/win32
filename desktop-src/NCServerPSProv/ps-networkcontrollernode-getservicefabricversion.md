@@ -4,11 +4,17 @@ description: Retrieves the Service Fabric Version.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c70b4c72-0619-4d59-814c-49664362ceab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c70b4c72-0619-4d59-814c-49664362ceab
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServiceFabricVersion method", "GetServiceFabricVersion method, PS_NetworkControllerNode class", "PS_NetworkControllerNode class, GetServiceFabricVersion method"]
+keywords:
+- GetServiceFabricVersion method
+- GetServiceFabricVersion method, PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, GetServiceFabricVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServiceFabricVersion method of the PS\_NetworkControllerNode class
@@ -20,7 +26,7 @@ Retrieves the Service Fabric Version.
 
 ```mof
 uint32 GetServiceFabricVersion(
-  [out] ServiceFabricVersion ServiceFabricVersion
+  [out] ServiceFabricVersion ServiceFabricVersion
 );
 ```
 
@@ -48,7 +54,7 @@ TBD
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -62,9 +68,9 @@ TBD
 [**PS\_NetworkControllerNode**](ps-networkcontrollernode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

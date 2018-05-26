@@ -4,17 +4,21 @@ description: Specifies the provisioning type of the virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'FF4556AA-A251-4896-84E3-7901ED8B92E3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: FF4556AA-A251-4896-84E3-7901ED8B92E3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VirtualDiskProvisioning Failover Cluster"]
+keywords:
+- VirtualDiskProvisioning Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VirtualDiskProvisioning
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VirtualDiskProvisioning
@@ -28,14 +32,14 @@ Specifies the provisioning type of the virtual disk.
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **SpProvisioningTypeUnknown** (0)         |
 | Maximum   | **SpProvisioningTypeMax** (3)             |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +58,7 @@ This property can be set to one of the following values contained in the **SP\_P
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,7 +67,7 @@ This property can be set to one of the following values contained in the **SP\_P
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -74,9 +78,9 @@ This property can be set to one of the following values contained in the **SP\_P
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

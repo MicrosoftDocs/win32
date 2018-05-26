@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GET\_DEST message
 description: The MCIWNDM\_GET\_DEST message retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndGetDest macro.
-ms.assetid: 'd4d8a3eb-aad4-4435-a23b-7a9c55fc194d'
-keywords: ["MCIWNDM_GET_DEST message Windows Multimedia"]
+ms.assetid: d4d8a3eb-aad4-4435-a23b-7a9c55fc194d
+keywords:
+- MCIWNDM_GET_DEST message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GET\_DEST message
 
-The **MCIWNDM\_GET\_DEST** message retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndGetDest**](mciwndgetdest.md) macro.
+The **MCIWNDM\_GET\_DEST** message retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndGetDest**](/windows/win32/Vfw/nf-vfw-mciwndgetdest?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndGetDest**](mciwndgetdest.md)
+[**MCIWndGetDest**](/windows/win32/Vfw/nf-vfw-mciwndgetdest?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

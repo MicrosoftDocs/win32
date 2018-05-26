@@ -1,13 +1,30 @@
 ---
 title: Switches
 description: Switches
-ms.assetid: 'ab92d30d-97ab-4229-aed8-1080b6e6dc88'
-keywords: ["audio mixers,controls", "audio mixers,switches", "mixers,controls", "mixers,switches", "switch controls", "MIXERCONTROLDETAILS_BOOLEAN structure", "Boolean control", "button control", "on/off control", "mono control", "loudness control", "stereo enhanced control"]
+ms.assetid: ab92d30d-97ab-4229-aed8-1080b6e6dc88
+keywords:
+- audio mixers,controls
+- audio mixers,switches
+- mixers,controls
+- mixers,switches
+- switch controls
+- MIXERCONTROLDETAILS_BOOLEAN structure
+- Boolean control
+- button control
+- on/off control
+- mono control
+- loudness control
+- stereo enhanced control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Switches
 
-The switch controls are two-state switches. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](mixercontroldetails-boolean.md) structure to retrieve and set control properties. The following table describes the types of switches.
+The switch controls are two-state switches. These controls use the [**MIXERCONTROLDETAILS\_BOOLEAN**](/windows/win32/mmeapi/?branch=master) structure to retrieve and set control properties. The following table describes the types of switches.
 
 
 

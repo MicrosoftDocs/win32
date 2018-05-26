@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an enumerator of property information for each available Windows Image Acquisition (WIA) 2.0 device.'
-ms.assetid: 'e37b73d5-5192-46e4-bb1c-bd1ef41f1d6c'
-title: 'IWiaDevMgr2::EnumDeviceInfo method'
+---
+Description: Creates an enumerator of property information for each available Windows Image Acquisition (WIA) 2.0 device.
+ms.assetid: e37b73d5-5192-46e4-bb1c-bd1ef41f1d6c
+title: IWiaDevMgr2EnumDeviceInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaDevMgr2::EnumDeviceInfo method
@@ -58,9 +63,9 @@ All devices are enumerated, both locally and remote, including inactive (disconn
 *ppIEnum* \[out, retval\]
 </dt> <dd>
 
-Type: **[**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md)\*\***
+Type: **[**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master)\*\***
 
-Receives the address of a pointer to the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) interface.
+Receives the address of a pointer to the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) interface.
 
 </dd> </dl>
 
@@ -72,7 +77,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-The **IWiaDevMgr2::EnumDeviceInfo** method creates an enumerator object that supports the [**IEnumWIA\_DEV\_INFO**](-wia-ienumwia-dev-info.md) interface. The method stores a pointer to the **IEnumWIA\_DEV\_INFO** interface in the parameter *ppIEnum*. Applications can use the **IEnumWIA\_DEV\_INFO** interface pointer to enumerate the properties of each WIA 2.0 device attached to the user's computer.
+The **IWiaDevMgr2::EnumDeviceInfo** method creates an enumerator object that supports the [**IEnumWIA\_DEV\_INFO**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_info?branch=master) interface. The method stores a pointer to the **IEnumWIA\_DEV\_INFO** interface in the parameter *ppIEnum*. Applications can use the **IEnumWIA\_DEV\_INFO** interface pointer to enumerate the properties of each WIA 2.0 device attached to the user's computer.
 
 Applications must call the [IUnknown::Release](com.iunknown_release) method on the interface pointers they receive through the *ppIEnum* parameter.
 

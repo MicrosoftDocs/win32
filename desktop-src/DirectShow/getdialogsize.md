@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDialogSize function retrieves the size of a resource dialog box.'
-ms.assetid: 'b6c42f96-0381-493a-9503-f3bd4c6a8e1e'
+Description: The GetDialogSize function retrieves the size of a resource dialog box.
+ms.assetid: b6c42f96-0381-493a-9503-f3bd4c6a8e1e
 title: GetDialogSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDialogSize function
@@ -13,10 +18,10 @@ The **GetDialogSize** function retrieves the size of a resource dialog box.
 
 ```C++
 BOOL WINAPI GetDialogSize(
-   int     iResourceID,
-   DLGPROC pDlgProc,
-   LPARAM  lParam,
-   SIZE    *pResult
+   int     iResourceID,
+   DLGPROC pDlgProc,
+   LPARAM  lParam,
+   SIZE    *pResult
 );
 ```
 
@@ -82,9 +87,9 @@ This function creates a temporary instance of the dialog box. To avoid having th
 [Property Page Helper Functions](property-page-helper-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

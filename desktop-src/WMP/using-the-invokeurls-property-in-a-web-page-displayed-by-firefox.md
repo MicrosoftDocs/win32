@@ -1,8 +1,32 @@
 ---
 title: Using the invokeURLs Property in a Web Page Displayed by Firefox
 description: Using the invokeURLs Property in a Web Page Displayed by Firefox
-ms.assetid: 'cec2ba89-b08f-4c83-bcb2-a4df1ce6f179'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "Windows Media Player ActiveX control,invokeURLs property", "Windows Media Player Mobile ActiveX control,invokeURLs property", "embedding,Web pages", "Web page embedding,invokeURLs property", "Windows Media Player,Firefox", "Windows Media Player object model,Firefox", "object model,Firefox", "Windows Media Player ActiveX control,Firefox", "ActiveX control,Firefox", "Firefox,invokeURLs property", "Web page embedding,Firefox"]
+ms.assetid: cec2ba89-b08f-4c83-bcb2-a4df1ce6f179
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- Windows Media Player ActiveX control,invokeURLs property
+- Windows Media Player Mobile ActiveX control,invokeURLs property
+- embedding,Web pages
+- Web page embedding,invokeURLs property
+- Windows Media Player,Firefox
+- Windows Media Player object model,Firefox
+- object model,Firefox
+- Windows Media Player ActiveX control,Firefox
+- ActiveX control,Firefox
+- Firefox,invokeURLs property
+- Web page embedding,Firefox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the invokeURLs Property in a Web Page Displayed by Firefox

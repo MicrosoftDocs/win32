@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxIncomingJob object information from the fax server.'
-ms.assetid: 'fb684a6b-2b04-4d04-9e1d-e548c638b4c0'
-title: 'FaxIncomingJob.Refresh method'
+---
+Description: The Refresh method refreshes FaxIncomingJob object information from the fax server.
+ms.assetid: fb684a6b-2b04-4d04-9e1d-e548c638b4c0
+title: FaxIncomingJob.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.Refresh method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_QUEUE**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_QUEUE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [**farQUERY\_QUEUE**](-mfax-fax-access-
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

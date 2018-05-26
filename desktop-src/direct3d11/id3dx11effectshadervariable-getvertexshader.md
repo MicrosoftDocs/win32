@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectShaderVariable GetVertexShader method
 description: Get a vertex shader.
-ms.assetid: '31a250ae-154b-43ce-97e3-6480f23dc4e2'
-keywords: ["GetVertexShader method Direct3D 11", "GetVertexShader method Direct3D 11 , ID3DX11EffectShaderVariable interface", "ID3DX11EffectShaderVariable interface Direct3D 11 , GetVertexShader method"]
+ms.assetid: 31a250ae-154b-43ce-97e3-6480f23dc4e2
+keywords:
+- GetVertexShader method Direct3D 11
+- GetVertexShader method Direct3D 11 , ID3DX11EffectShaderVariable interface
+- ID3DX11EffectShaderVariable interface Direct3D 11 , GetVertexShader method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectShaderVariable::GetVertexShader method
@@ -23,8 +31,8 @@ Get a vertex shader.
 
 ```C++
 HRESULT GetVertexShader(
-   UINT               ShaderIndex,
-   ID3D11VertexShader **ppVS
+   UINT               ShaderIndex,
+   ID3D11VertexShader **ppVS
 );
 ```
 
@@ -46,9 +54,9 @@ A zero-based index.
 *ppVS* 
 </dt> <dd>
 
-Type: **[**ID3D11VertexShader**](id3d11vertexshader.md)\*\***
+Type: **[**ID3D11VertexShader**](/windows/win32/D3D11/?branch=master)\*\***
 
-A pointer to an [**ID3D11VertexShader**](id3d11vertexshader.md) pointer that will be set to the vertex shader on return.
+A pointer to an [**ID3D11VertexShader**](/windows/win32/D3D11/?branch=master) pointer that will be set to the vertex shader on return.
 
 </dd> </dl>
 
@@ -63,7 +71,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectShaderVariable](id3dx11effectshadervariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

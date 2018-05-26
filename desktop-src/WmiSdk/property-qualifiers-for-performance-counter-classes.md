@@ -1,13 +1,16 @@
 ---
-Description: 'Property qualifiers specify information about the performance counter to which the property maps.'
+Description: Property qualifiers specify information about the performance counter to which the property maps.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f1761f71-af4e-4b89-aba7-b7f294c30ffc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f1761f71-af4e-4b89-aba7-b7f294c30ffc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Property Qualifiers for Performance Counter Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Qualifiers for Performance Counter Classes

@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink Move
 description: IAgentNotifySink Move
-ms.assetid: 'd1809fdb-df4b-4884-b9e8-2877a814dc9a'
+ms.assetid: d1809fdb-df4b-4884-b9e8-2877a814dc9a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::Move
@@ -61,7 +66,7 @@ The cause of the character move. The parameter may be one of the following:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,9 +77,9 @@ This event is sent to all clients of the character.
 [**IAgentCharacter::GetMoveCause**](iagentcharacter--getmovecause.md), [**IAgentCharacter::MoveTo**](iagentcharacter--moveto.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

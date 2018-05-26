@@ -1,8 +1,9 @@
 ---
 title: TB\_ADDBITMAP message
 description: Adds one or more images to the list of button images available for a toolbar.
-ms.assetid: '9040ab84-a5f3-4e4b-bc90-590b2ceeaa5a'
-keywords: ["TB_ADDBITMAP message Windows Controls"]
+ms.assetid: 9040ab84-a5f3-4e4b-bc90-590b2ceeaa5a
+keywords:
+- TB_ADDBITMAP message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_ADDBITMAP message
@@ -31,7 +37,7 @@ Number of button images in the bitmap. If *lParam* specifies a system-defined bi
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBADDBITMAP**](tbaddbitmap.md) structure that contains the identifier of a bitmap resource and the handle to the module instance with the executable file that contains the bitmap resource.
+Pointer to a [**TBADDBITMAP**](/windows/win32/Commctrl/ns-commctrl-tagtbaddbitmap?branch=master) structure that contains the identifier of a bitmap resource and the handle to the module instance with the executable file that contains the bitmap resource.
 
 </dd> </dl>
 
@@ -72,15 +78,15 @@ int index = SendMessage (hWndToolbar, TB_ADDBITMAP, 0, (LPARAM)&amp;tb);
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Store3 function
 description: Sets three values.
-ms.assetid: 'eaf12b5a-c9c6-413a-9646-3d14e7825460'
-keywords: ["Store3 function HLSL"]
+ms.assetid: eaf12b5a-c9c6-413a-9646-3d14e7825460
+keywords:
+- Store3 function HLSL
 topic_type:
 - apiref
 api_name:
 - Store3
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store3 function

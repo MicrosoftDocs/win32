@@ -1,8 +1,13 @@
 ---
 title: IVMFloppyDrive DriveNumber property
 description: The DriveNumber property contains the zero-based index of the controller to which this floppy drive is attached.
-ms.assetid: '48a1eb14-fc6c-4d28-987f-bac7c28c5e2a'
-keywords: ["DriveNumber property Virtual Server", "DriveNumber property Virtual Server , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual Server , DriveNumber property", "DriveNumber property Virtual Server , VMFloppyDrive interface", "VMFloppyDrive interface Virtual Server , DriveNumber property"]
+ms.assetid: 48a1eb14-fc6c-4d28-987f-bac7c28c5e2a
+keywords:
+- DriveNumber property Virtual Server
+- DriveNumber property Virtual Server , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual Server , DriveNumber property
+- DriveNumber property Virtual Server , VMFloppyDrive interface
+- VMFloppyDrive interface Virtual Server , DriveNumber property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::DriveNumber property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DriveNumber(
-  [out] long *driveNumber
+  [out] long *driveNumber
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

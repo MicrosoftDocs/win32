@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiGetSpoolFileHandle function returns a handle to a print job''s EMF file.'
-ms.assetid: 'c820ee94-29c2-4478-884c-49dd68cd713a'
+---
+Description: The GdiGetSpoolFileHandle function returns a handle to a print jobs EMF file.
+ms.assetid: c820ee94-29c2-4478-884c-49dd68cd713a
 title: GdiGetSpoolFileHandle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiGetSpoolFileHandle function

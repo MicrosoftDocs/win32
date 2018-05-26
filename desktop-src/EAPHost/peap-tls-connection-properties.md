@@ -1,7 +1,12 @@
 ---
 title: PEAP-TLS Connection Properties
 description: Is an instance of the eaptlsconnectionpropertiesv1 legacy schema.
-ms.assetid: '1128b3f7-eba7-484e-a3d8-070d37e9c57f'
+ms.assetid: 1128b3f7-eba7-484e-a3d8-070d37e9c57f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PEAP-TLS Connection Properties

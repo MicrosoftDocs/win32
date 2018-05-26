@@ -4,11 +4,17 @@ description: The Active Directory Schema defines a serviceConnectionPoint (SCP) 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3544aa64-ecb0-48a1-ae49-05247a983842'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3544aa64-ecb0-48a1-ae49-05247a983842
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Publishing with Service Connection Points AD", "service connection points AD", "service connection points AD , publishing with"]
+keywords:
+- Publishing with Service Connection Points AD
+- service connection points AD
+- service connection points AD , publishing with
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Publishing with Service Connection Points

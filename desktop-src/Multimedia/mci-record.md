@@ -1,8 +1,9 @@
 ---
 title: MCI\_RECORD command
 description: The MCI\_RECORD command starts recording from the current position or from one specified location to another specified location.
-ms.assetid: 'd3c4e8a3-7d81-428e-91d8-d8d63fc0aa02'
-keywords: ["MCI_RECORD command Windows Multimedia"]
+ms.assetid: d3c4e8a3-7d81-428e-91d8-d8d63fc0aa02
+keywords:
+- MCI_RECORD command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_RECORD command
 
 The [**MCI\_RECORD**](mci-record-parms.md) command starts recording from the current position or from one specified location to another specified location. VCR and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -128,7 +134,7 @@ A rectangle is specified in the **rc** member of the structure identified by *lp
 
 </dd> </dl>
 
-For digital-video devices, *lpRecord* points to an [**MCI\_DGV\_RECORD\_PARMS**](mci-dgv-record-parms.md) structure.
+For digital-video devices, *lpRecord* points to an [**MCI\_DGV\_RECORD\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_record_parms?branch=master) structure.
 
 The following additional flags are used with the **vcr** device type:
 
@@ -156,8 +162,8 @@ For VCR devices, *lpRecord* points to an [**MCI\_VCR\_RECORD\_PARMS**](mci-vcr-r
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -172,9 +178,9 @@ For VCR devices, *lpRecord* points to an [**MCI\_VCR\_RECORD\_PARMS**](mci-vcr-r
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

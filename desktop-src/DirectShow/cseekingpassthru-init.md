@@ -1,7 +1,12 @@
 ---
-Description: 'The Init method initializes the object.'
-ms.assetid: 'a919adfa-0ffb-4241-b709-ad0e8d55476a'
-title: 'CSeekingPassThru.Init method'
+Description: The Init method initializes the object.
+ms.assetid: a919adfa-0ffb-4241-b709-ad0e8d55476a
+title: CSeekingPassThru.Init method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSeekingPassThru.Init method
@@ -13,8 +18,8 @@ The `Init` method initializes the object.
 
 ```C++
 HRESULT Init(
-  [in] BOOL bSupportRendering,
-       IPin *pPin
+  [in] BOOL bSupportRendering,
+       IPin *pPin
 );
 ```
 
@@ -34,7 +39,7 @@ Boolean value that specifies whether the filter is a renderer. Use the value **T
 *pPin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface on the filter's input pin.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface on the filter's input pin.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +81,9 @@ If the value of *bSupportRendering* is **TRUE**, this method creates an instance
 [**CSeekingPassThru Class**](cseekingpassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

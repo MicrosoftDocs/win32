@@ -1,8 +1,10 @@
 ---
 title: INapServerInfo interface
 description: Management clients (for example, WMI providers or command-line tools) use to query the status of the NAP server system.
-ms.assetid: '3c6d3f76-ea63-4cb2-bac7-e5668e50b7a7'
-keywords: ["INapServerInfo interface NAP", "INapServerInfo interface NAP , described"]
+ms.assetid: 3c6d3f76-ea63-4cb2-bac7-e5668e50b7a7
+keywords:
+- INapServerInfo interface NAP
+- INapServerInfo interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerInfo interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerInfo** provides methods that Management clients (for example, WMI providers or command-line tools) use to query the status of the NAP server system.
 
@@ -42,7 +49,7 @@ The **INapServerInfo** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +62,7 @@ These methods provide only static information about the NAP Server and its compo
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -72,9 +79,9 @@ These methods provide only static information about the NAP Server and its compo
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

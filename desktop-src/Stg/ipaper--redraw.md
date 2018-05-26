@@ -1,7 +1,12 @@
 ---
 title: IPaper Redraw
 description: The IPaper Redraw method relies on the connection point technology.
-ms.assetid: 'd0126a47-d616-4cc0-b270-75779a51c843'
+ms.assetid: d0126a47-d616-4cc0-b270-75779a51c843
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPaper::Redraw

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings for the replication service on a recovery host. The properties for this class cannot be modified directly. The client must call the Msvm\_ReplicationService.ModifyServiceSettings method to modify any of these properties.'
-ms.assetid: 'a0c0b45a-3578-412a-910e-cd4b3ff0e262'
-title: 'Msvm\_ReplicationServiceSettingData class'
+Description: Represents the settings for the replication service on a recovery host. The properties for this class cannot be modified directly. The client must call the Msvm\_ReplicationService.ModifyServiceSettings method to modify any of these properties.
+ms.assetid: a0c0b45a-3578-412a-910e-cd4b3ff0e262
+title: Msvm\_ReplicationServiceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationServiceSettingData class
@@ -16,17 +21,17 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReplicationServiceSettingData : CIM_SettingData
 {
-  string   InstanceID;
-  string   Caption = "Replication Service Settings";
-  string   Description = "Virtual Machine Replication Service Settings Data";
-  string   ElementName = "Replication Service Settings";
-  boolean  RecoveryServerEnabled = False;
-  uint16   AllowedAuthenticationType = 0;
-  string   CertificateThumbPrint;
-  uint16   HttpsPort = 443;
-  uint16   HttpPort = 80;
+  string   InstanceID;
+  string   Caption = "Replication Service Settings";
+  string   Description = "Virtual Machine Replication Service Settings Data";
+  string   ElementName = "Replication Service Settings";
+  boolean  RecoveryServerEnabled = False;
+  uint16   AllowedAuthenticationType = 0;
+  string   CertificateThumbPrint;
+  uint16   HttpsPort = 443;
+  uint16   HttpPort = 80;
   datetime MonitoringStartTime;
-  uint32   MonitoringInterval = 43200;
+  uint32   MonitoringInterval = 43200;
 };
 ```
 
@@ -239,8 +244,8 @@ Specifies whether the Hyper-V host is enabled as a recovery server.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -257,9 +262,9 @@ Specifies whether the Hyper-V host is enabled as a recovery server.
 [**ModifyServiceSettings**](modifyservicesettings-msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

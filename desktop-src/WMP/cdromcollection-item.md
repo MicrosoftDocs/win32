@@ -1,8 +1,11 @@
 ---
 title: CdromCollection.item method
 description: The item method retrieves the Cdrom object at the given index.
-ms.assetid: 'c1efa972-736d-4fa0-9835-14ee594ae719'
-keywords: ["item method Windows Media Player", "item method Windows Media Player , CdromCollection class", "CdromCollection class Windows Media Player , item method"]
+ms.assetid: c1efa972-736d-4fa0-9835-14ee594ae719
+keywords:
+- item method Windows Media Player
+- item method Windows Media Player , CdromCollection class
+- CdromCollection class Windows Media Player , item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromCollection.item method
@@ -108,9 +116,9 @@ for (var i = 0; i < Player.cdromCollection.count; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintOemPS2 COM interface. In addition to these methods, this interface includes all of the methods defined in the IPrintOemPS COM interface.'
-ms.assetid: 'f2fb4176-c366-4cf9-bc17-59cc0c69a32b'
+---
+Description: This section describes the methods defined for the IPrintOemPS2 COM interface. In addition to these methods, this interface includes all of the methods defined in the IPrintOemPS COM interface.
+ms.assetid: f2fb4176-c366-4cf9-bc17-59cc0c69a32b
 title: IPrintOemPS2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS2 interface

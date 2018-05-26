@@ -1,6 +1,11 @@
 ---
-Description: 'Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file.'
+Description: Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file.
 title: Common Item Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Item Dialog
@@ -30,11 +35,11 @@ Windows Vista provides implementations of the **Open** and **Save** dialogs: CL
 
 ![screen shot of the save as dialog box](images/cid/savefiledialog.png)
 
-[**IFileOpenDialog**](ifileopendialog.md) and [**IFileSaveDialog**](ifilesavedialog.md) inherit from [**IFileDialog**](ifiledialog.md) and share much of their functionality. In addition, the **Open** dialog supports **IFileOpenDialog**, and the **Save** dialog supports **IFileSaveDialog**.
+[**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master) and [**IFileSaveDialog**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ifilesavedialog?branch=master) inherit from [**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master) and share much of their functionality. In addition, the **Open** dialog supports **IFileOpenDialog**, and the **Save** dialog supports **IFileSaveDialog**.
 
 The Common Item Dialog implementation found in Windows Vista provides several advantages over the implementation provided in earlier versions:
 
--   Supports direct use of the Shell namespace through [**IShellItem**](ishellitem.md) instead of using file system paths.
+-   Supports direct use of the Shell namespace through [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master) instead of using file system paths.
 -   Enables simple customization of the dialog, such as setting the label on the **OK** button, without requiring a hook procedure.
 -   Supports more extensive customization of the dialog by the addition of a set of data-driven controls that operate without a Win32 dialog template. This customization scheme frees the calling process from UI layout. Since any changes to the dialog design continue to use this data model, the dialog implementation is not tied to the specific current version of the dialog.
 -   Supports caller notification of events within the dialog, such as selection change or file type change. Also enables the calling process to hook certain events in the dialog, such as the parsing.
@@ -43,15 +48,15 @@ The Common Item Dialog implementation found in Windows Vista provides several a
 
 Additionally, developers can choose to implement the following interfaces:
 
--   [**IFileDialogEvents**](ifiledialogevents.md) to receive notifications of events within the dialog.
--   [**IFileDialogCustomize**](ifiledialogcustomize.md) to add controls to the dialog.
--   [**IFileDialogControlEvents**](ifiledialogcontrolevents.md) to be notified of events in those added controls.
+-   [**IFileDialogEvents**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogevents?branch=master) to receive notifications of events within the dialog.
+-   [**IFileDialogCustomize**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize?branch=master) to add controls to the dialog.
+-   [**IFileDialogControlEvents**](/windows/win32/Shobjidl/nn-shobjidl-ifiledialogcontrolevents?branch=master) to be notified of events in those added controls.
 
-The **Open** or **Save** dialog returns an [**IShellItem**](ishellitem.md) or [**IShellItemArray**](ishellitemarray.md) object to the calling process. The caller can then use an individual **IShellItem** object to get a file system path or to open a stream on the item to read or write information.
+The **Open** or **Save** dialog returns an [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master) or [**IShellItemArray**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitemarray?branch=master) object to the calling process. The caller can then use an individual **IShellItem** object to get a file system path or to open a stream on the item to read or write information.
 
-Flags and options available to the new dialog methods are very similar to the older **OFN** flags found in the [**OPENFILENAME**](dlgbox.openfilename_str) structure and used in [**GetOpenFileName**](dlgbox.getopenfilename) and [**GetSaveFileName**](dlgbox.getsavefilename). Many of them are exactly the same, except that they begin with an FOS prefix. The complete list can be found in the [**IFileDialog::GetOptions**](ifiledialog-getoptions.md) and [**IFileDialog::SetOptions**](ifiledialog-setoptions.md) topics. **Open** and **Save** dialogs are created by default with the most common flags. For the **Open** dialog, this is (FOS\_PATHMUSTEXIST \| FOS\_FILEMUSTEXIST \| FOS\_NOCHANGEDIR) and for the **Save** dialog this is (FOS\_OVERWRITEPROMPT \| FOS\_NOREADONLYRETURN \| FOS\_PATHMUSTEXIST \| FOS\_NOCHANGEDIR).
+Flags and options available to the new dialog methods are very similar to the older **OFN** flags found in the [**OPENFILENAME**](dlgbox.openfilename_str) structure and used in [**GetOpenFileName**](dlgbox.getopenfilename) and [**GetSaveFileName**](dlgbox.getsavefilename). Many of them are exactly the same, except that they begin with an FOS prefix. The complete list can be found in the [**IFileDialog::GetOptions**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions?branch=master) and [**IFileDialog::SetOptions**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions?branch=master) topics. **Open** and **Save** dialogs are created by default with the most common flags. For the **Open** dialog, this is (FOS\_PATHMUSTEXIST \| FOS\_FILEMUSTEXIST \| FOS\_NOCHANGEDIR) and for the **Save** dialog this is (FOS\_OVERWRITEPROMPT \| FOS\_NOREADONLYRETURN \| FOS\_PATHMUSTEXIST \| FOS\_NOCHANGEDIR).
 
-[**IFileDialog**](ifiledialog.md) and its descendant interfaces inherit from and extend [**IModalWindow**](imodalwindow.md). [**Show**](imodalwindow-show.md) takes as its only parameter the handle of the parent window. If **Show** returns successfully, there is a valid result. If it returns `HRESULT_FROM_WIN32(ERROR_CANCELLED)`, it means the user canceled the dialog. It might also legitimately return another error code such as **E\_OUTOFMEMORY**.
+[**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master) and its descendant interfaces inherit from and extend [**IModalWindow**](/windows/win32/shobjidl_core/nn-shobjidl_core-imodalwindow?branch=master). [**Show**](/windows/win32/shobjidl_core/nf-shobjidl_core-imodalwindow-show?branch=master) takes as its only parameter the handle of the parent window. If **Show** returns successfully, there is a valid result. If it returns `HRESULT_FROM_WIN32(ERROR_CANCELLED)`, it means the user canceled the dialog. It might also legitimately return another error code such as **E\_OUTOFMEMORY**.
 
 ### Sample Usage
 
@@ -72,7 +77,7 @@ Most of the sample code can be found in the Windows SDK [Common File Dialog Samp
 The following example illustrates how to launch an **Open** dialog. In this example, it is restricted to Microsoft Word documents.
 
 > [!Note]  
-> Several examples in this topic use the `CDialogEventHandler_CreateInstance` helper function to create an instance of the [**IFileDialogEvents**](ifiledialogevents.md) implementation. To use this function in your own code, copy the source code for the `CDialogEventHandler_CreateInstance` function from the [Common File Dialog Sample](samples-commonfiledialog.md), from which all of the examples in this topic are taken.
+> Several examples in this topic use the `CDialogEventHandler_CreateInstance` helper function to create an instance of the [**IFileDialogEvents**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogevents?branch=master) implementation. To use this function in your own code, copy the source code for the `CDialogEventHandler_CreateInstance` function from the [Common File Dialog Sample](samples-commonfiledialog.md), from which all of the examples in this topic are taken.
 
  
 
@@ -174,7 +179,7 @@ HRESULT BasicFileOpen()
 
 ### Limiting Results to File System Items
 
-The following example, taken from above, demonstrates how to restrict results to file system items. Note that [**IFileDialog::SetOptions**](ifiledialog-setoptions.md) adds the new flag to a value obtained through [**IFileDialog::GetOptions**](ifiledialog-getoptions.md). This is the recommended method.
+The following example, taken from above, demonstrates how to restrict results to file system items. Note that [**IFileDialog::SetOptions**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions?branch=master) adds the new flag to a value obtained through [**IFileDialog::GetOptions**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-getoptions?branch=master). This is the recommended method.
 
 
 ```C++
@@ -194,7 +199,7 @@ The following example, taken from above, demonstrates how to restrict results to
 
 ### Specifying File Types for a Dialog
 
-To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](ifiledialog-setfiletypes.md) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](comdlg-filterspec.md) structures, each of which represents a file type.
+To set specific file types that the dialog can handle, use the [**IFileDialog::SetFileTypes**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes?branch=master) method. That method accepts an array of [**COMDLG\_FILTERSPEC**](/windows/win32/Shtypes/ns-shtypes-_comdlg_filterspec?branch=master) structures, each of which represents a file type.
 
 The default extension mechanism in a dialog is unchanged from [**GetOpenFileName**](dlgbox.getopenfilename) and [**GetSaveFileName**](dlgbox.getsavefilename). The file name extension that is appended to the text the user types in the file name edit box is initialized when the dialog opens. It should match the default file type (that selected as the dialog opens). If the default file type is "\*.\*" (all files), the file can be an extension of your choice. If the user chooses a different file type, the extension automatically updates to the first file name extension associated with that file type. If the user chooses "\*.\*" (all files), then the extension reverts to its original value.
 
@@ -219,13 +224,13 @@ The following example illustrates how this was done above.
 
 ### Controlling the Default Folder
 
-Almost any folder in the Shell namespace can be used as the default folder for the dialog (the folder presented when the user chooses to open or save a file). Call [**IFileDialog::SetDefaultFolder**](ifiledialog-setdefaultfolder.md) prior to calling [**Show**](imodalwindow-show.md) to do so.
+Almost any folder in the Shell namespace can be used as the default folder for the dialog (the folder presented when the user chooses to open or save a file). Call [**IFileDialog::SetDefaultFolder**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultfolder?branch=master) prior to calling [**Show**](/windows/win32/shobjidl_core/nf-shobjidl_core-imodalwindow-show?branch=master) to do so.
 
 The default folder is the folder in which the dialog starts the first time a user opens it from your application. After that, the dialog will open in the last folder a user opened or the last folder they used to save an item. See [State Persistence](#state-persistence) for more details.
 
-You can force the dialog to always show the same folder when it opens, regardless of previous user action, by calling [**IFileDialog::SetFolder**](ifiledialog-setfolder.md). However, we do not recommended doing this. If you call **SetFolder** before you display the dialog box, the most recent location that the user saved to or opened from is not shown. Unless there is a very specific reason for this behavior, it is not a good or expected user experience and should be avoided. In almost all instances, [**IFileDialog::SetDefaultFolder**](ifiledialog-setdefaultfolder.md) is the better method.
+You can force the dialog to always show the same folder when it opens, regardless of previous user action, by calling [**IFileDialog::SetFolder**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setfolder?branch=master). However, we do not recommended doing this. If you call **SetFolder** before you display the dialog box, the most recent location that the user saved to or opened from is not shown. Unless there is a very specific reason for this behavior, it is not a good or expected user experience and should be avoided. In almost all instances, [**IFileDialog::SetDefaultFolder**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setdefaultfolder?branch=master) is the better method.
 
-When saving a document for the first time in the **Save** dialog, you should follow the same guidelines in determining the initial folder as you did in the **Open** dialog. If the user is editing a previously existing document, open the dialog in the folder where that document is stored, and populate the edit box with that document's name. Call [**IFileSaveDialog::SetSaveAsItem**](ifilesavedialog-setsaveasitem.md) with the current item prior to calling [**Show**](imodalwindow-show.md).
+When saving a document for the first time in the **Save** dialog, you should follow the same guidelines in determining the initial folder as you did in the **Open** dialog. If the user is editing a previously existing document, open the dialog in the folder where that document is stored, and populate the edit box with that document's name. Call [**IFileSaveDialog::SetSaveAsItem**](/windows/win32/Shobjidl_core/nf-shobjidl_core-ifilesavedialog-setsaveasitem?branch=master) with the current item prior to calling [**Show**](/windows/win32/shobjidl_core/nf-shobjidl_core-imodalwindow-show?branch=master).
 
 ### Adding Items to the Places Bar
 
@@ -291,11 +296,11 @@ HRESULT AddItemsToCommonPlaces()
 
 ### State Persistence
 
-Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](ifiledialog-setclientguid.md).
+Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid?branch=master).
 
 ### Multiselect Capabilities
 
-Multiselect functionality is available in the **Open** dialog using the [**GetResults**](ifileopendialog-getresults.md) method as shown here.
+Multiselect functionality is available in the **Open** dialog using the [**GetResults**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults?branch=master) method as shown here.
 
 
 ```C++
@@ -350,7 +355,7 @@ HRESULT MultiselectInvoke()
 
 ## Listening to Events from the Dialog
 
-A calling process can register an [**IFileDialogEvents**](ifiledialogevents.md) interface with the dialog by using the [**IFileDialog::Advise**](ifiledialog-advise.md) and [**IFileDialog::Unadvise**](ifiledialog-unadvise.md) methods as shown here.
+A calling process can register an [**IFileDialogEvents**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogevents?branch=master) interface with the dialog by using the [**IFileDialog::Advise**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-advise?branch=master) and [**IFileDialog::Unadvise**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-unadvise?branch=master) methods as shown here.
 
 This is taken from the [Basic Usage](#basic-usage) sample.
 
@@ -389,7 +394,7 @@ The calling process can use events for notification when the user changes the fo
 
 ### OnFileOk
 
-This method is called after the user chooses an item, just before the dialog closes. The application can then call [**IFileDialog::GetResult**](ifiledialog-getresult.md) or [**IFileOpenDialog::GetResults**](ifileopendialog-getresults.md) as would be done once the dialog had closed. If the item chosen is acceptable, they can return S\_OK. Otherwise, they return S\_FALSE and display UI that tells the user why the chosen item is not valid. If S\_FALSE is returned, the dialog does not close.
+This method is called after the user chooses an item, just before the dialog closes. The application can then call [**IFileDialog::GetResult**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult?branch=master) or [**IFileOpenDialog::GetResults**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifileopendialog-getresults?branch=master) as would be done once the dialog had closed. If the item chosen is acceptable, they can return S\_OK. Otherwise, they return S\_FALSE and display UI that tells the user why the chosen item is not valid. If S\_FALSE is returned, the dialog does not close.
 
 The calling process can use the window handle of the dialog itself as the parent of the UI. That handle can be obtained by first calling [**IOleWindow::QueryInterface**](com.iolewindow) and then calling [**IOleWindow::GetWindow**](com.iolewindow_getwindow) with the handle as shown in this example.
 
@@ -453,7 +458,7 @@ If the user chooses to overwrite a file in the **Save** dialog, or if a file bei
 
 ## Customizing the Dialog
 
-A variety of controls can be added to the dialog without supplying a Win32 dialog template. These controls include PushButton, ComboBox, EditBox, CheckButton, RadioButton lists, Groups, Separators, and Static Text controls. Call **QueryInterface** on the dialog object ([**IFileDialog**](ifiledialog.md), [**IFileOpenDialog**](ifileopendialog.md), or [**IFileSaveDialog**](ifilesavedialog.md)) to obtain an [**IFileDialogCustomize**](ifiledialogcustomize.md) pointer. Use that interface to add controls. Each control has an associated caller-supplied ID as well as a *visible* and *enabled* state that can be set by the calling process. Some controls, such as PushButton, also have text associated with them.
+A variety of controls can be added to the dialog without supplying a Win32 dialog template. These controls include PushButton, ComboBox, EditBox, CheckButton, RadioButton lists, Groups, Separators, and Static Text controls. Call **QueryInterface** on the dialog object ([**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master), [**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master), or [**IFileSaveDialog**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ifilesavedialog?branch=master)) to obtain an [**IFileDialogCustomize**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize?branch=master) pointer. Use that interface to add controls. Each control has an associated caller-supplied ID as well as a *visible* and *enabled* state that can be set by the calling process. Some controls, such as PushButton, also have text associated with them.
 
 Multiple controls can be added into a "visual group" that moves as a single unit in the layout of the dialog. Groups can have a label associated with them.
 
@@ -660,11 +665,11 @@ Similarly, choices can be added to the **Open** or **Save** buttons, which are t
 
 
 
-The user's choice can be verified after the dialog returns from the [**Show**](imodalwindow-show.md) method as you would for a ComboBox, or it can verified as part of the handling by [**IFileDialogEvents::OnFileOk**](ifiledialogevents-onfileok.md).
+The user's choice can be verified after the dialog returns from the [**Show**](/windows/win32/shobjidl_core/nf-shobjidl_core-imodalwindow-show?branch=master) method as you would for a ComboBox, or it can verified as part of the handling by [**IFileDialogEvents::OnFileOk**](/windows/win32/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onfileok?branch=master).
 
 ### Responding to Events in Added Controls
 
-The events handler provided by the calling process can implement [**IFileDialogControlEvents**](ifiledialogcontrolevents.md) in addition to [**IFileDialogEvents**](ifiledialogevents.md). **IFileDialogControlEvents** enables the calling process to react to these events:
+The events handler provided by the calling process can implement [**IFileDialogControlEvents**](/windows/win32/Shobjidl/nn-shobjidl-ifiledialogcontrolevents?branch=master) in addition to [**IFileDialogEvents**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogevents?branch=master). **IFileDialogControlEvents** enables the calling process to react to these events:
 
 -   PushButton clicked
 -   CheckButton state changed
@@ -682,7 +687,7 @@ The following are complete, downloadable C++ samples from the Windows Software D
 
 <dl> <dt>
 
-[**IID\_PPV\_ARGS**](iid-ppv-args.md)
+[**IID\_PPV\_ARGS**](/windows/win32/Objbase/?branch=master)
 </dt> </dl>
 
  

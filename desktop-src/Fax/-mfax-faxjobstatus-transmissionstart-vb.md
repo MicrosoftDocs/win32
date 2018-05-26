@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionStart property indicates the time that the fax job began transmitting.'
-ms.assetid: '9dae83de-fadb-4e8a-afa4-6d5ed364c096'
-title: 'FaxJobStatus.TransmissionStart property'
+---
+Description: The TransmissionStart property indicates the time that the fax job began transmitting.
+ms.assetid: 9dae83de-fadb-4e8a-afa4-6d5ed364c096
+title: FaxJobStatus.TransmissionStart property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.TransmissionStart property
@@ -46,7 +51,7 @@ A **Date** that receives the hour and minute, expressed in local system time, th
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

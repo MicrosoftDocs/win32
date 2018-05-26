@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetXpsPartIterator method gets an iterator to enumerate all of the parts that are associated with the page.'
-ms.assetid: 'c4605d9c-b12c-4056-bf19-a67df3ef8c8b'
-title: 'IFixedPage::GetXpsPartIterator method'
+---
+Description: The GetXpsPartIterator method gets an iterator to enumerate all of the parts that are associated with the page.
+ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
+title: IFixedPageGetXpsPartIterator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::GetXpsPartIterator method

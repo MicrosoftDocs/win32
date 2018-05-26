@@ -1,13 +1,16 @@
 ---
-Description: 'The GetObjectText\_ method of the SWbemLastError object returns a textual rendering of the object in a Managed Object Format (MOF) format.'
+Description: The GetObjectText\_ method of the SWbemLastError object returns a textual rendering of the object in a Managed Object Format (MOF) format.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'efe3f3f6-c2f2-4295-bbf3-60d5b06ef98f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: efe3f3f6-c2f2-4295-bbf3-60d5b06ef98f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemLastError.GetObjectText\_ method'
+title: SWbemLastError.GetObjectText\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemLastError.GetObjectText\_ method
@@ -75,8 +78,8 @@ Not enough memory to complete the operation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -85,9 +88,9 @@ Not enough memory to complete the operation.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

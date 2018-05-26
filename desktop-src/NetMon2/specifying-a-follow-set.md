@@ -1,7 +1,12 @@
 ---
-Description: 'A follow set specifies the protocols that follow a protocol. Network Monitor uses a follow set when the parser cannot identify the next protocol from the data in a protocol instance.'
-ms.assetid: '9e73c724-a540-42f8-b273-4f02c39d81c4'
+Description: A follow set specifies the protocols that follow a protocol. Network Monitor uses a follow set when the parser cannot identify the next protocol from the data in a protocol instance.
+ms.assetid: 9e73c724-a540-42f8-b273-4f02c39d81c4
 title: Specifying a Follow Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying a Follow Set

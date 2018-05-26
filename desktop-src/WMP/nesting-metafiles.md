@@ -1,8 +1,18 @@
 ---
 title: Nesting Metafiles
 description: Nesting Metafiles
-ms.assetid: 'fa355c98-31e2-4bb9-ad67-fd9a727300c3'
-keywords: ["Windows Media metafiles,nesting", "Windows Media metafiles,referencing other metafiles", "nesting metafiles", "metafiles,nesting", "metafiles,referencing other metafiles"]
+ms.assetid: fa355c98-31e2-4bb9-ad67-fd9a727300c3
+keywords:
+- Windows Media metafiles,nesting
+- Windows Media metafiles,referencing other metafiles
+- nesting metafiles
+- metafiles,nesting
+- metafiles,referencing other metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Nesting Metafiles

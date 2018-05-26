@@ -1,7 +1,12 @@
 ---
-Description: 'The Font Embedding Services Library provides a mechanism to bundle TrueType and Microsoft OpenType fonts into a document or file.'
-ms.assetid: '1ba019c7-9ba6-429d-bbdc-7e182d93ab75'
+Description: The Font Embedding Services Library provides a mechanism to bundle TrueType and Microsoft OpenType fonts into a document or file.
+ms.assetid: 1ba019c7-9ba6-429d-bbdc-7e182d93ab75
 title: Font Embedding Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font Embedding Reference

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_SMBIOSMemory abstract WMI class represents the properties of a computer system memory as seen through the system management BIOS (SMBIOS) interface.'
+---
+Description: The Win32\_SMBIOSMemory abstract WMI class represents the properties of a computer system memory as seen through the system management BIOS (SMBIOS) interface.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2f609fc6-f0f5-45a5-9f9a-3873da034d49'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2f609fc6-f0f5-45a5-9f9a-3873da034d49
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SMBIOSMemory class'
+title: Win32\_SMBIOSMemory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SMBIOSMemory class

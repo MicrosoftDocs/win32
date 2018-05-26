@@ -1,7 +1,12 @@
 ---
-Description: 'To successfully call the Certificate Services backup and restore API, the caller''s token must include the backup and restore privileges.'
-ms.assetid: '409a9fad-7141-4ba8-ab3d-fb590366001e'
+Description: To successfully call the Certificate Services backup and restore API, the callers token must include the backup and restore privileges.
+ms.assetid: 409a9fad-7141-4ba8-ab3d-fb590366001e
 title: Setting the Backup and Restore Privileges
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Backup and Restore Privileges

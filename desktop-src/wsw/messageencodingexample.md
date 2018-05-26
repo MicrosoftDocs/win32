@@ -1,8 +1,16 @@
 ---
 title: MessageEncodingExample
 description: This example encodes and decodes a message.
-ms.assetid: 'b1f0a1df-22be-4c86-9a7a-0a4d4f363206'
-keywords: ["MessageEncodingExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: b1f0a1df-22be-4c86-9a7a-0a4d4f363206
+keywords:
+- MessageEncodingExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MessageEncodingExample

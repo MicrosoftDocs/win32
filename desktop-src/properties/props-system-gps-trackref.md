@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates reference for the direction of the GPS receiver movement (for example, true direction, magnetic direction).'
-ms.assetid: '5335d713-015a-4960-aacc-fd0b4525672c'
-title: 'System.GPS.TrackRef'
+Description: Indicates reference for the direction of the GPS receiver movement (for example, true direction, magnetic direction).
+ms.assetid: 5335d713-015a-4960-aacc-fd0b4525672c
+title: System.GPS.TrackRef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.TrackRef

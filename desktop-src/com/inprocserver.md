@@ -1,8 +1,14 @@
 ---
 title: InprocServer
 description: Specifies the path to the in-process server DLL.
-ms.assetid: 'f14cc8f7-e93e-4db8-8b0d-ea77a6301f33'
-keywords: ["InprocServer registry key COM"]
+ms.assetid: f14cc8f7-e93e-4db8-8b0d-ea77a6301f33
+keywords:
+- InprocServer registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InprocServer

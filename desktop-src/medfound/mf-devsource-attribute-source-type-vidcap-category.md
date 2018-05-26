@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the device category for a video capture device.'
-ms.assetid: '008ff9df-ebe0-4efd-a62c-24f4a4239ebd'
-title: 'MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_CATEGORY attribute'
+---
+Description: Specifies the device category for a video capture device.
+ms.assetid: 008ff9df-ebe0-4efd-a62c-24f4a4239ebd
+title: MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_CATEGORY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_CATEGORY attribute
@@ -26,18 +31,18 @@ The following value is defined.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetGUID**](imfattributes-getguid.md).
+To get this attribute, call [**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetGUID**](imfattributes-setguid.md).
+To set this attribute, call [**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master).
 
 ## Remarks
 
-Use this attribute as input to the [**MFEnumDeviceSources**](mfenumdevicesources.md) function when enumerating video capture devices.
+Use this attribute as input to the [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master) function when enumerating video capture devices.
 
 In addition, this attribute is set on the activation objects returned by the following functions:
 
--   [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md)
--   [**MFEnumDeviceSources**](mfenumdevicesources.md)
+-   [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master)
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master)
 
 The attribute applies only to video capture devices.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when the selected IME needs information about the coordinates of a character in the composition string. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.'
-ms.assetid: 'cae7e5b3-8aaf-452d-80df-fb0ae04a342c'
-title: 'IMR\_QUERYCHARPOSITION notification code'
+---
+Description: Notifies an application when the selected IME needs information about the coordinates of a character in the composition string. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+ms.assetid: cae7e5b3-8aaf-452d-80df-fb0ae04a342c
+title: IMR\_QUERYCHARPOSITION notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMR\_QUERYCHARPOSITION notification code
@@ -29,17 +34,17 @@ Set to IMR\_QUERYCHARPOSITION.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to an [**IMECHARPOSITION**](imecharposition.md) structure that contains the position of the character in the composition window.
+Pointer to an [**IMECHARPOSITION**](/windows/win32/Imm/ns-imm-tagimecharposition?branch=master) structure that contains the position of the character in the composition window.
 
 </dd> </dl>
 
 ## Return Value
 
-Returns a nonzero value if the application fills the [**IMECHARPOSITION**](imecharposition.md) structure. Otherwise, the command returns 0.
+Returns a nonzero value if the application fills the [**IMECHARPOSITION**](/windows/win32/Imm/ns-imm-tagimecharposition?branch=master) structure. Otherwise, the command returns 0.
 
 ## Remarks
 
-An application that draws the composition string itself, instead of relying on the IME, is responsible for filling in all the members of the [**IMECHARPOSITION**](imecharposition.md) structure. Otherwise, the application should pass the command to [**DefWindowProc**](_win32_defwindowproc_cpp) or [**ImmIsUIMessage**](immisuimessage.md) if it has its own IME user interface window.
+An application that draws the composition string itself, instead of relying on the IME, is responsible for filling in all the members of the [**IMECHARPOSITION**](/windows/win32/Imm/ns-imm-tagimecharposition?branch=master) structure. Otherwise, the application should pass the command to [**DefWindowProc**](_win32_defwindowproc_cpp) or [**ImmIsUIMessage**](/windows/win32/Imm/nf-imm-immisuimessagea?branch=master) if it has its own IME user interface window.
 
 ## Requirements
 
@@ -63,10 +68,10 @@ An application that draws the composition string itself, instead of relying on t
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**IMECHARPOSITION**](imecharposition.md)
+[**IMECHARPOSITION**](/windows/win32/Imm/ns-imm-tagimecharposition?branch=master)
 </dt> <dt>
 
-[**ImmIsUIMessage**](immisuimessage.md)
+[**ImmIsUIMessage**](/windows/win32/Imm/nf-imm-immisuimessagea?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

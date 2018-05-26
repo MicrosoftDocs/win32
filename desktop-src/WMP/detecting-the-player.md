@@ -1,8 +1,23 @@
 ---
 title: Detecting the Player
 description: Detecting the Player
-ms.assetid: 'dc034226-578a-45de-9463-e1798fef874e'
-keywords: ["Windows Media Player online stores,detecting players", "online stores,detecting players", "type 1 online stores,detecting players", "type 2 online stores,detecting players", "Windows Media Player online stores,player detection", "online stores,player detection", "type 1 online stores,player detection", "type 2 online stores,player detection", "player detection", "detecting players"]
+ms.assetid: dc034226-578a-45de-9463-e1798fef874e
+keywords:
+- Windows Media Player online stores,detecting players
+- online stores,detecting players
+- type 1 online stores,detecting players
+- type 2 online stores,detecting players
+- Windows Media Player online stores,player detection
+- online stores,player detection
+- type 1 online stores,player detection
+- type 2 online stores,player detection
+- player detection
+- detecting players
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting the Player

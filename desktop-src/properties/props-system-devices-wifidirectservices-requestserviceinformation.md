@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Services Request Service Information.'
-ms.assetid: '39be864d-8e30-4554-b824-06c3e72e1b09'
-title: 'System.Devices.WiFiDirectServices.RequestServiceInformation'
+Description: Wi-Fi Direct Services Request Service Information.
+ms.assetid: 39be864d-8e30-4554-b824-06c3e72e1b09
+title: System.Devices.WiFiDirectServices.RequestServiceInformation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirectServices.RequestServiceInformation

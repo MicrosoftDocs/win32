@@ -4,17 +4,21 @@ description: Returns a reference to an audio endpoint enumerator for the specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9dd95ef7-f83f-43be-a8b2-e2b0e4a47a42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9dd95ef7-f83f-43be-a8b2-e2b0e4a47a42
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetTSAudioEndpointEnumeratorForSession callback function Remote Desktop Services"]
+keywords:
+- GetTSAudioEndpointEnumeratorForSession callback function Remote Desktop Services
 topic_type:
 - apiref
 api_name:
 - GetTSAudioEndpointEnumeratorForSession
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetTSAudioEndpointEnumeratorForSession callback function
@@ -26,8 +30,8 @@ Returns a reference to an audio endpoint enumerator for the specified session ID
 
 ```C++
 HRESULT GetTSAudioEndpointEnumeratorForSession(
-  _In_  DWORD               SessionId,
-  _Out_ IMMDeviceEnumerator **ppEndpointEnumerator
+  _In_  DWORD               SessionId,
+  _Out_ IMMDeviceEnumerator **ppEndpointEnumerator
 );
 ```
 
@@ -66,7 +70,7 @@ This function is not defined in a header file. You should implement and export t
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -80,9 +84,9 @@ This function is not defined in a header file. You should implement and export t
 [**IMMDeviceEnumerator**](https://msdn.microsoft.com/library/windows/desktop/dd371399)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

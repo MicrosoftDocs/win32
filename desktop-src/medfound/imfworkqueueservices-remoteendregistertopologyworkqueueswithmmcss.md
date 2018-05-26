@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS method.'
-ms.assetid: '94dce412-6a72-4ddf-86a3-5176ee1eb6d2'
+---
+Description: Remotable version of the IMFWorkQueueServicesEndRegisterTopologyWorkQueuesWithMMCSS method.
+ms.assetid: 94dce412-6a72-4ddf-86a3-5176ee1eb6d2
 title: RemoteEndRegisterTopologyWorkQueuesWithMMCSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteEndRegisterTopologyWorkQueuesWithMMCSS
 
-Remotable version of the [**IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-endregistertopologyworkqueueswithmmcss.md) method.
+Remotable version of the [**IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-endregistertopologyworkqueueswithmmcss?branch=master) method.
 
 ``` syntax
 [call_as(EndRegisterTopologyWorkQueuesWithMMCSS)]
@@ -17,7 +22,7 @@ HRESULT RemoteEndRegisterTopologyWorkQueuesWithMMCSS(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**EndRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-endregistertopologyworkqueueswithmmcss.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**EndRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-endregistertopologyworkqueueswithmmcss?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -36,7 +41,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFWorkQueueServices**](imfworkqueueservices.md)
+[**IMFWorkQueueServices**](/windows/win32/mfidl/nn-mfidl-imfworkqueueservices?branch=master)
 </dt> </dl>
 
  

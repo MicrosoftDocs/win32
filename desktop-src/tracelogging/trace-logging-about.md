@@ -1,7 +1,12 @@
 ---
 title: About TraceLogging
 description: TraceLogging is the new Windows 10 event tracing for user-mode applications and kernel-mode drivers.
-ms.assetid: '8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4'
+ms.assetid: 8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About TraceLogging
@@ -30,7 +35,7 @@ There are three separate TraceLogging APIs that target different developer audie
 For WinRT developers:
 
 -   [**LoggingChannel**](https://msdn.microsoft.com/library/windows/apps/dn264202) has been extended in Windows 10 to log self-describing Event Tracing for Windows (ETW) events without the need for a manifest.
--   [**LoggingActivity**](traceloggingactivity.md) has been extended in Windows 10 to provide activity start and stop methods that provide control over the format and contents of the Start and Stop events. Additionally, activities can be nested.
+-   [**LoggingActivity**](/windows/win32/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1?branch=master) has been extended in Windows 10 to provide activity start and stop methods that provide control over the format and contents of the Start and Stop events. Additionally, activities can be nested.
 
 For C/C++ developers:
 

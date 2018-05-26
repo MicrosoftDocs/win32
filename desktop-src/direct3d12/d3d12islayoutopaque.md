@@ -1,8 +1,9 @@
 ---
 title: D3D12IsLayoutOpaque function
 description: Indicates whether the layout is opaque.
-ms.assetid: '43B46A18-A725-4999-BD97-108032793A95'
-keywords: ["D3D12IsLayoutOpaque function"]
+ms.assetid: 43B46A18-A725-4999-BD97-108032793A95
+keywords:
+- D3D12IsLayoutOpaque function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D12IsLayoutOpaque function
@@ -22,7 +28,7 @@ Indicates whether the layout is opaque.
 
 ```C++
 bool inline D3D12IsLayoutOpaque(
-   D3D12_TEXTURE_LAYOUT Layout
+   D3D12_TEXTURE_LAYOUT Layout
 );
 ```
 
@@ -35,9 +41,9 @@ bool inline D3D12IsLayoutOpaque(
 *Layout* 
 </dt> <dd>
 
-Type: **[**D3D12\_TEXTURE\_LAYOUT**](d3d12-texture-layout.md)**
+Type: **[**D3D12\_TEXTURE\_LAYOUT**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_layout?branch=master)**
 
-The layout to check, as a [**D3D12\_TEXTURE\_LAYOUT**](d3d12-texture-layout.md).
+The layout to check, as a [**D3D12\_TEXTURE\_LAYOUT**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_layout?branch=master).
 
 </dd> </dl>
 
@@ -66,9 +72,9 @@ A **bool** that indicates whether the layout is opaque. A layout is opaque if it
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

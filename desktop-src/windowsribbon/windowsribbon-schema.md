@@ -1,8 +1,21 @@
 ---
 title: Declaring Commands and Controls with Ribbon Markup
 description: The Windows Ribbon framework uses a markup language based on Extensible Application Markup Language (XAML) to declaratively implement the appearance of a Ribbon application.
-ms.assetid: '76bacfb3-ecaf-47b3-be97-afa5e7e52330'
-keywords: ["Windows Ribbon,markup structure", "Ribbon,markup structure", "Windows Ribbon,separating presentation from command logic", "Ribbon,separating presentation from command logic", "Windows Ribbon,components", "Ribbon,components", "command system for Windows Ribbon", "controls for Windows Ribbon"]
+ms.assetid: 76bacfb3-ecaf-47b3-be97-afa5e7e52330
+keywords:
+- Windows Ribbon,markup structure
+- Ribbon,markup structure
+- Windows Ribbon,separating presentation from command logic
+- Ribbon,separating presentation from command logic
+- Windows Ribbon,components
+- Ribbon,components
+- command system for Windows Ribbon
+- controls for Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Declaring Commands and Controls with Ribbon Markup

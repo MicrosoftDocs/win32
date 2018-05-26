@@ -1,7 +1,12 @@
 ---
-Description: 'Poolable objects must meet certain requirements to enable a single object instance to be used by multiple clients.'
-ms.assetid: '2cd4211e-be12-4197-8b43-5cb9f2321016'
+Description: Poolable objects must meet certain requirements to enable a single object instance to be used by multiple clients.
+ms.assetid: 2cd4211e-be12-4197-8b43-5cb9f2321016
 title: Requirements for Poolable Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Poolable Objects
@@ -10,7 +15,7 @@ Poolable objects must meet certain requirements to enable a single object instan
 
 ## Stateless
 
-To maintain security, consistency, and isolation, poolable objects should hold no client-specific state from client to client. You can manage any per-client state by using [**IObjectControl**](iobjectcontrol.md), performing context-specific initialization with [**IObjectControl::Activate**](iobjectcontrol-activate.md) and cleaning up any client state with [**IObjectControl::Deactivate**](iobjectcontrol-deactivate.md). For more detail, see [Controlling Object Lifetime and State](controlling-object-lifetime-and-state.md).
+To maintain security, consistency, and isolation, poolable objects should hold no client-specific state from client to client. You can manage any per-client state by using [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master), performing context-specific initialization with [**IObjectControl::Activate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-activate?branch=master) and cleaning up any client state with [**IObjectControl::Deactivate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate?branch=master). For more detail, see [Controlling Object Lifetime and State](controlling-object-lifetime-and-state.md).
 
 ## No Thread Affinity
 
@@ -23,15 +28,15 @@ Poolable objects cannot be bound to a particular thread; otherwise, performance 
 
 ## Aggregatable
 
-Poolable objects must support aggregation—that is, they must support being created by invoking [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) with a non-NULL *pUnkOuter* argument. When COM+ activates a pooled object, it creates an aggregate to manage the lifetime of the pooled object and to call methods on [**IObjectControl**](iobjectcontrol.md). For details on writing aggregatable objects, see [Aggregation](https://msdn.microsoft.com/library/windows/desktop/ms686558).
+Poolable objects must support aggregation—that is, they must support being created by invoking [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) with a non-NULL *pUnkOuter* argument. When COM+ activates a pooled object, it creates an aggregate to manage the lifetime of the pooled object and to call methods on [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master). For details on writing aggregatable objects, see [Aggregation](https://msdn.microsoft.com/library/windows/desktop/ms686558).
 
 ## Transactional Components
 
-Poolable objects that participate in transactions must manually enlist managed resources. While it is pooled, if your object holds a managed resource such as a database connection, there will be no way for the resource manager to automatically enlist in a transaction when the object is activated in given context. Therefore, the object itself must handle the logic of detecting the transaction, turning off the resource manager's auto-enlistment and manually enlisting any resources that it holds. In addition, a transactional pooled object should reflect the current state of its resources in the parameter values of [**IObjectControl::CanBePooled**](iobjectcontrol-canbepooled.md). For more detail, see [Pooling Transactional Objects](pooling-transactional-objects.md).
+Poolable objects that participate in transactions must manually enlist managed resources. While it is pooled, if your object holds a managed resource such as a database connection, there will be no way for the resource manager to automatically enlist in a transaction when the object is activated in given context. Therefore, the object itself must handle the logic of detecting the transaction, turning off the resource manager's auto-enlistment and manually enlisting any resources that it holds. In addition, a transactional pooled object should reflect the current state of its resources in the parameter values of [**IObjectControl::CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master). For more detail, see [Pooling Transactional Objects](pooling-transactional-objects.md).
 
 ## Implement IObjectControl to Manage the Object Lifetime
 
-Poolable objects should implement [**IObjectControl**](iobjectcontrol.md), although it is not strictly necessary to do so. Transactional components that are pooled, however, must implement **IObjectControl**. These components should monitor the state of the resources they hold and indicate when they can't be reused; when [**IObjectControl::CanBePooled**](iobjectcontrol-canbepooled.md) returns false, it will doom a transaction. For more detail, see [Controlling Object Lifetime and State](controlling-object-lifetime-and-state.md).
+Poolable objects should implement [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master), although it is not strictly necessary to do so. Transactional components that are pooled, however, must implement **IObjectControl**. These components should monitor the state of the resources they hold and indicate when they can't be reused; when [**IObjectControl::CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master) returns false, it will doom a transaction. For more detail, see [Controlling Object Lifetime and State](controlling-object-lifetime-and-state.md).
 
 ## Language Restrictions
 
@@ -39,7 +44,7 @@ Components developed using Microsoft Visual Basic 6.0 and earlier cannot be pool
 
 ## Legacy Components
 
-As long as they are non-transactional and conform to the appropriate preceding requirements, components can be pooled even if they were not specifically written with pooling capability in mind. It is not necessary to implement [**IObjectControl**](iobjectcontrol.md); a component that does not do so simply won't participate in managing its lifetime. If [**IObjectControl::CanBePooled**](iobjectcontrol-canbepooled.md) is not implemented, the object will continue to be reused until the pool attains maximum size.
+As long as they are non-transactional and conform to the appropriate preceding requirements, components can be pooled even if they were not specifically written with pooling capability in mind. It is not necessary to implement [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master); a component that does not do so simply won't participate in managing its lifetime. If [**IObjectControl::CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master) is not implemented, the object will continue to be reused until the pool attains maximum size.
 
 ## Related topics
 

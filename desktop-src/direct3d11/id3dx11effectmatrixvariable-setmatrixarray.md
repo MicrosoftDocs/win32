@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectMatrixVariable SetMatrixArray method
 description: Set an array of floating-point matrices.
-ms.assetid: 'c90d621c-7500-49c3-ab40-2d0630fc4bec'
-keywords: ["SetMatrixArray method Direct3D 11", "SetMatrixArray method Direct3D 11 , ID3DX11EffectMatrixVariable interface", "ID3DX11EffectMatrixVariable interface Direct3D 11 , SetMatrixArray method"]
+ms.assetid: c90d621c-7500-49c3-ab40-2d0630fc4bec
+keywords:
+- SetMatrixArray method Direct3D 11
+- SetMatrixArray method Direct3D 11 , ID3DX11EffectMatrixVariable interface
+- ID3DX11EffectMatrixVariable interface Direct3D 11 , SetMatrixArray method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectMatrixVariable::SetMatrixArray method
@@ -23,9 +31,9 @@ Set an array of floating-point matrices.
 
 ```C++
 HRESULT SetMatrixArray(
-   float *pData,
-   UINT  Offset,
-   UINT  Count
+   float *pData,
+   UINT  Offset,
+   UINT  Count
 );
 ```
 
@@ -73,7 +81,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +101,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectMatrixVariable](id3dx11effectmatrixvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

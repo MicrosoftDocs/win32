@@ -1,8 +1,16 @@
 ---
 title: Established and Powerful Programming Interface
 description: The combination of IrDA and Windows Sockets provides a powerful programming interface that exposes multiple, fully error-corrected data streams.
-ms.assetid: '3888070c-3ee4-4cde-be2e-26f32e479aed'
-keywords: ["Infrared Data Association IrDA , described, programming interface", "programming interface IrDA", "networking IrDA , programming interface"]
+ms.assetid: 3888070c-3ee4-4cde-be2e-26f32e479aed
+keywords:
+- Infrared Data Association IrDA , described, programming interface
+- programming interface IrDA
+- networking IrDA , programming interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Established and Powerful Programming Interface

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a specified operation on a specified file.'
-ms.assetid: 'a55e804c-ed7c-4b22-b86f-8e5653976654'
-title: 'IShellDispatch2.ShellExecute method'
+---
+Description: Performs a specified operation on a specified file.
+ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
+title: IShellDispatch2.ShellExecute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch2.ShellExecute method

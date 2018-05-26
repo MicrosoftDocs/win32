@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a physical IP address of the network interface the WNV module is configured on.'
-ms.assetid: '4a3f5aa2-446e-4b9d-8422-d4b01bfcdbb9'
-title: 'MSFT\_NetVirtualizationProviderAddressSettingData class'
+Description: Represents a physical IP address of the network interface the WNV module is configured on.
+ms.assetid: 4a3f5aa2-446e-4b9d-8422-d4b01bfcdbb9
+title: MSFT\_NetVirtualizationProviderAddressSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetVirtualizationProviderAddressSettingData class
@@ -15,12 +20,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetVirtualizationProviderAddressSettingData : MSFT_NetSettingData
 {
-  string  ProviderAddress;
-  uint32  InterfaceIndex;
-  uint8   PrefixLength;
-  uint16  VlanID;
-  uint16  AddressState;
-  string  MACAddress;
+  string  ProviderAddress;
+  uint32  InterfaceIndex;
+  uint8   PrefixLength;
+  uint16  VlanID;
+  uint16  AddressState;
+  string  MACAddress;
   boolean ManagedByCluster;
 };
 ```
@@ -159,17 +164,17 @@ Optional VLAN Identifier corresponding to the Provider IP address.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>NetWNV.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetWNV.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

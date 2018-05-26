@@ -1,12 +1,17 @@
 ---
 title: Primitive Topologies
 description: Direct3D 10 and higher supports several primitive types (or topologies) that are represented by the D3D\_PRIMITIVE\_TOPOLOGY enumerated type. These types define how vertices are interpreted and rendered by the pipeline.
-ms.assetid: '357ad085-fd91-4420-abc3-1c57e8cbb517'
+ms.assetid: 357ad085-fd91-4420-abc3-1c57e8cbb517
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primitive Topologies
 
-Direct3D 10 and higher supports several primitive types (or topologies) that are represented by the [**D3D\_PRIMITIVE\_TOPOLOGY**](d3d-primitive-topology.md) enumerated type. These types define how vertices are interpreted and rendered by the pipeline.
+Direct3D 10 and higher supports several primitive types (or topologies) that are represented by the [**D3D\_PRIMITIVE\_TOPOLOGY**](/windows/win32/D3DCommon/ne-d3dcommon-d3d_primitive_topology?branch=master) enumerated type. These types define how vertices are interpreted and rendered by the pipeline.
 
 -   [Basic Primitive Types](#basic-primitive-types)
 -   [Primitive Adjacency](#primitive-adjacency)
@@ -26,7 +31,7 @@ The following basic primitive types are supported:
 
 For a visualization of each primitive type, see the diagram later in this topic in [Winding Direction and Leading Vertex Positions](#winding-direction-and-leading-vertex-positions).
 
-The input-assembler stage reads data from vertex and index buffers, assembles the data into these primitives, and then sends the data to the remaining pipeline stages. (You can use the [**ID3D11DeviceContext::IASetPrimitiveTopology**](id3d11devicecontext-iasetprimitivetopology.md) method to specify the primitive type for the input-assembler stage.)
+The input-assembler stage reads data from vertex and index buffers, assembles the data into these primitives, and then sends the data to the remaining pipeline stages. (You can use the [**ID3D11DeviceContext::IASetPrimitiveTopology**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-iasetprimitivetopology?branch=master) method to specify the primitive type for the input-assembler stage.)
 
 ## Primitive Adjacency
 
@@ -51,7 +56,7 @@ The symbols in the preceding illustration are described in the following table.
 | Symbol                                                                                   | Name              | Description                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![symbol for a vertex](images/d3d10-primitive-topologies-vertex.png)                     | Vertex            | A point in 3D space.                                                                                                                                                                               |
-| ![symbol for winding direction](images/d3d10-primitive-topologies-winding-direction.png) | Winding Direction | The vertex order when assembling a primitive. Can be clockwise or counterclockwise; specify this by calling [**ID3D11Device1::CreateRasterizerState1**](id3d11device1-createrasterizerstate1.md). |
+| ![symbol for winding direction](images/d3d10-primitive-topologies-winding-direction.png) | Winding Direction | The vertex order when assembling a primitive. Can be clockwise or counterclockwise; specify this by calling [**ID3D11Device1::CreateRasterizerState1**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11device1-createrasterizerstate1?branch=master). |
 | ![symbol for leading vertex](images/d3d10-primitive-topologies-leading-vertex.png)       | Leading Vertex    | The first non-adjacent vertex in a primitive that contains per-constant data.                                                                                                                      |
 
 

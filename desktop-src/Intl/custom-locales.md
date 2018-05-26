@@ -1,7 +1,12 @@
 ---
 Description: Custom Locales
-ms.assetid: '110efeab-c02f-4244-8950-a975cfc91e8a'
+ms.assetid: 110efeab-c02f-4244-8950-a975cfc91e8a
 title: Custom Locales
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Locales

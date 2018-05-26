@@ -1,8 +1,9 @@
 ---
 title: MCI\_PAUSE command
 description: The MCI\_PAUSE command pauses the current action. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
-ms.assetid: 'c4d0b0a2-cd7b-4641-a318-eb4b4e88b70f'
-keywords: ["MCI_PAUSE command Windows Multimedia"]
+ms.assetid: c4d0b0a2-cd7b-4641-a318-eb4b4e88b70f
+keywords:
+- MCI_PAUSE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_PAUSE command
 
 The MCI\_PAUSE command pauses the current action. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -64,7 +70,7 @@ Returns zero if successful or an error otherwise.
 
 The difference between the [MCI\_STOP](mci-stop.md) and MCI\_PAUSE commands depends on the device. If possible, MCI\_PAUSE suspends device operation but leaves the device ready to resume play immediately. With the MCICDA, MCISEQ, and MCIPIONR drivers, the MCI\_PAUSE command works the same as the MCI\_STOP command.
 
-For digital-video devices, the *lpPause* parameter points to an [**MCI\_DGV\_PAUSE\_PARMS**](mci-dgv-pause-parms.md) structure.
+For digital-video devices, the *lpPause* parameter points to an [**MCI\_DGV\_PAUSE\_PARMS**](/windows/win32/Digitalv/?branch=master) structure.
 
 ## Requirements
 
@@ -72,8 +78,8 @@ For digital-video devices, the *lpPause* parameter points to an [**MCI\_DGV\_PAU
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ For digital-video devices, the *lpPause* parameter points to an [**MCI\_DGV\_PAU
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

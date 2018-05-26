@@ -1,7 +1,12 @@
 ---
-Description: 'An effect (which is often stored in a file with a .fx file extension) declares the pipeline state set by an effect.'
-ms.assetid: '75b76d65-be97-41c2-8c45-4369fcfd69ce'
-title: 'Effect Format (Direct3D 10)'
+Description: An effect (which is often stored in a file with a .fx file extension) declares the pipeline state set by an effect.
+ms.assetid: 75b76d65-be97-41c2-8c45-4369fcfd69ce
+title: Effect Format (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Format (Direct3D 10)

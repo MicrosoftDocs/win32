@@ -1,13 +1,16 @@
 ---
-Description: 'Used to report detailed status and error information.'
+Description: Used to report detailed status and error information.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6bdff9a8-1a7c-4860-a12e-4d3162964ee4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6bdff9a8-1a7c-4860-a12e-4d3162964ee4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ExtendedStatus class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ExtendedStatus class
@@ -63,7 +66,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Operation that takes place at the time of a failure or anomaly. Typically, Windows Management Instrumentation (WMI) sets this property to the name of a COM API for WMI method such as the following: [**IWbemServices::CreateInstanceEnum**](iwbemservices-createinstanceenum.md).
+Operation that takes place at the time of a failure or anomaly. Typically, Windows Management Instrumentation (WMI) sets this property to the name of a COM API for WMI method such as the following: [**IWbemServices::CreateInstanceEnum**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum?branch=master).
 
 </dd> <dt>
 
@@ -144,8 +147,8 @@ End sub
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -160,9 +163,9 @@ End sub
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

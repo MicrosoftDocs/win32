@@ -1,13 +1,16 @@
 ---
-Description: 'The DatabaseInformation object is used to represent the logging, configuration, and directory services databases.'
+Description: The DatabaseInformation object is used to represent the logging, configuration, and directory services databases.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '062d2554-f921-436d-a2e5-be87d630ff86'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 062d2554-f921-436d-a2e5-be87d630ff86
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: DatabaseInformation object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # DatabaseInformation object
@@ -33,7 +36,7 @@ The **DatabaseInformation** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -110,7 +113,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -128,9 +131,9 @@ END SUB
 [**LoggingSystemInformation**](loggingsysteminformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

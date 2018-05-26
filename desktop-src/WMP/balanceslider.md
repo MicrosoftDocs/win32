@@ -1,14 +1,20 @@
 ---
 title: BALANCESLIDER
 description: This is a predefined SLIDER with the following default values.
-ms.assetid: '89f027bf-1c31-4bd5-bb87-ebfd62b02def'
-keywords: ["BALANCESLIDER Windows Media Player"]
+ms.assetid: 89f027bf-1c31-4bd5-bb87-ebfd62b02def
+keywords:
+- BALANCESLIDER Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BALANCESLIDER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BALANCESLIDER
@@ -44,9 +50,9 @@ This creates a **SLIDER** control that sets the audio balance. The ToolTips are 
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

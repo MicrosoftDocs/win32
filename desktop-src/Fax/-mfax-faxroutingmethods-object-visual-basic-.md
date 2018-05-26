@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxRoutingMethods object represents a collection of FaxRoutingMethod objects.'
-ms.assetid: '2172900a-c793-4a65-ac24-72d514479880'
+---
+Description: The FaxRoutingMethods object represents a collection of FaxRoutingMethod objects.
+ms.assetid: 2172900a-c793-4a65-ac24-72d514479880
 title: FaxRoutingMethods object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethods object

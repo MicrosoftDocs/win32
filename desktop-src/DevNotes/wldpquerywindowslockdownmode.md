@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the current Windows secure mode. Windows can be in locked mode, unlocked normal mode, or trial mode.'
-ms.assetid: 'FD280818-C6DE-4CEA-A772-E239A8DB891F'
+---
+Description: Retrieves the current Windows secure mode. Windows can be in locked mode, unlocked normal mode, or trial mode.
+ms.assetid: FD280818-C6DE-4CEA-A772-E239A8DB891F
 title: WldpQueryWindowsLockdownMode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WldpQueryWindowsLockdownMode function

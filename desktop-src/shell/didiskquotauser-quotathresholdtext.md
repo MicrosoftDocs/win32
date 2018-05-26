@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the user''s warning threshold as a text string.'
-ms.assetid: '55b53ad0-e7cd-4417-9087-297ac96e245f'
-title: 'DIDiskQuotaUser.QuotaThresholdText property'
+---
+Description: Gets the users warning threshold as a text string.
+ms.assetid: 55b53ad0-e7cd-4417-9087-297ac96e245f
+title: DIDiskQuotaUser.QuotaThresholdText property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.QuotaThresholdText property

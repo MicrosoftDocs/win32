@@ -1,8 +1,9 @@
 ---
 title: SETRGBSTRING message
 description: The hook procedure of a Color dialog box, CCHookProc, can send the SETRGBSTRING registered message to the dialog box to set the current color selection.
-ms.assetid: '02d36248-be75-4552-853f-6ac3ec034ebe'
-keywords: ["SETRGBSTRING message Dialog Boxes"]
+ms.assetid: 02d36248-be75-4552-853f-6ac3ec034ebe
+keywords:
+- SETRGBSTRING message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SETRGBSTRING message
 
-The hook procedure of a **Color** dialog box, [*CCHookProc*](cchookproc.md), can send the **SETRGBSTRING** registered message to the dialog box to set the current color selection.
+The hook procedure of a **Color** dialog box, [*CCHookProc*](/windows/win32/Commdlg/?branch=master), can send the **SETRGBSTRING** registered message to the dialog box to set the current color selection.
 
 
 ```C++
@@ -75,8 +81,8 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **SETRGBSTRINGW** (Unicode) and **SETRGBSTRINGA** (ANSI)<br/>                                      |
 
@@ -104,9 +110,9 @@ SendMessage(hdlg, uiSetRGB, 0, (LPARAM) RGB(0, 0, 255));
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

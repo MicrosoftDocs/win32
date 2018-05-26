@@ -1,7 +1,12 @@
 ---
-Description: 'The copyright information stored as a string.'
-ms.assetid: '95efb9c4-af3d-4a24-9670-60bacf61dfce'
-title: 'System.Copyright'
+Description: The copyright information stored as a string.
+ms.assetid: 95efb9c4-af3d-4a24-9670-60bacf61dfce
+title: System.Copyright
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Copyright

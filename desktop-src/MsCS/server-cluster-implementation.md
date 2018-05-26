@@ -4,11 +4,16 @@ description: A failover cluster consists of two or more independent Microsoft Wi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '052c0dcc-4157-430e-a42c-6c7ebae70c85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 052c0dcc-4157-430e-a42c-6c7ebae70c85
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["failover clusters Failover Cluster ,implementation", "implementation of failover clusters Failover Cluster"]
+keywords:
+- failover clusters Failover Cluster ,implementation
+- implementation of failover clusters Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Implementation

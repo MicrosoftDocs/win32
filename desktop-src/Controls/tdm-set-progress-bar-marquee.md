@@ -1,8 +1,9 @@
 ---
 title: TDM\_SET\_PROGRESS\_BAR\_MARQUEE message
 description: Starts and stops the marquee display of the progress bar in a task dialog, and sets the speed of the marquee.
-ms.assetid: 'df947171-a916-4db9-abe0-57a3bf11037f'
-keywords: ["TDM_SET_PROGRESS_BAR_MARQUEE message Windows Controls"]
+ms.assetid: df947171-a916-4db9-abe0-57a3bf11037f
+keywords:
+- TDM_SET_PROGRESS_BAR_MARQUEE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_SET\_PROGRESS\_BAR\_MARQUEE message
@@ -49,15 +55,15 @@ For information on marquee mode, see [Progress Bar Control](progress-bar-control
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

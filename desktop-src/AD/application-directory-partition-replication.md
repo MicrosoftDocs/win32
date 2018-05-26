@@ -4,11 +4,16 @@ description: Application directory partitions are most often used to store dynam
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b5fbec54-ee1a-4fe6-b4b7-67fc4e77d043'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b5fbec54-ee1a-4fe6-b4b7-67fc4e77d043
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Application Directory Partition Replication AD", "Application directory partitions AD , Replication"]
+keywords:
+- Application Directory Partition Replication AD
+- Application directory partitions AD , Replication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application Directory Partition Replication

@@ -1,8 +1,9 @@
 ---
 title: XTYP\_CONNECT\_CONFIRM transaction
 description: A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives the XTYP\_CONNECT\_CONFIRM transaction to confirm that a conversation has been established with a client and to provide the server with the conversation handle.
-ms.assetid: '4db67539-9322-44d7-bf2b-749bd6cfcbb4'
-keywords: ["XTYP_CONNECT_CONFIRM transaction Data Exchange"]
+ms.assetid: 4db67539-9322-44d7-bf2b-749bd6cfcbb4
+keywords:
+- XTYP_CONNECT_CONFIRM transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_CONNECT\_CONFIRM transaction
@@ -88,7 +94,7 @@ Specifies whether the client is the same application instance as the server. If 
 
 ## Remarks
 
-This transaction is filtered if the server application specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 A server cannot block this transaction type; the **CBR\_BLOCK** return code is ignored.
 
@@ -98,8 +104,8 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -111,13 +117,13 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 **Reference**
 </dt> <dt>
 
-[**DdeConnect**](ddeconnect.md)
+[**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master)
 </dt> <dt>
 
-[**DdeConnectList**](ddeconnectlist.md)
+[**DdeConnectList**](/windows/win32/Ddeml/nf-ddeml-ddeconnectlist?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -126,9 +132,9 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

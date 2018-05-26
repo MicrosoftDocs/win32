@@ -1,7 +1,12 @@
 ---
 title: Creating Administration Forms
 description: Creating Administration Forms
-ms.assetid: '8a2b01cc-f628-40d3-a58c-381fbb4b725b'
+ms.assetid: 8a2b01cc-f628-40d3-a58c-381fbb4b725b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Administration Forms

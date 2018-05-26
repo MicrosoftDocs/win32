@@ -1,7 +1,12 @@
 ---
 Description: Using National Language Support
-ms.assetid: '48d96954-90ca-4a4b-b62d-3dd2348fc61c'
+ms.assetid: 48d96954-90ca-4a4b-b62d-3dd2348fc61c
 title: Using National Language Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using National Language Support

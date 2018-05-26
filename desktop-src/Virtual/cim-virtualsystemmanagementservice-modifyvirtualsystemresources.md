@@ -1,8 +1,11 @@
 ---
 title: ModifyVirtualSystemResources method of the CIM\_VirtualSystemManagementService class
 description: Modifies the setting data for existing resources on a virtual computer system.
-ms.assetid: '0c90433f-0ebd-4a66-bbed-cbe4cca73d52'
-keywords: ["ModifyVirtualSystemResources method Hyper-V", "ModifyVirtualSystemResources method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , ModifyVirtualSystemResources method"]
+ms.assetid: 0c90433f-0ebd-4a66-bbed-cbe4cca73d52
+keywords:
+- ModifyVirtualSystemResources method Hyper-V
+- ModifyVirtualSystemResources method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , ModifyVirtualSystemResources method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyVirtualSystemResources method of the CIM\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Modifies the setting data for existing resources on a virtual computer system.
 
 ```mof
 uint32 ModifyVirtualSystemResources(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 ResourceSettingData[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 ResourceSettingData[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -118,9 +126,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

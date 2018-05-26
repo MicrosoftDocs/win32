@@ -1,7 +1,12 @@
 ---
 title: Optimizing and Processing Queries
 description: An end user, application, or script submits a query to Indexing Service using one of the Query Languages for Indexing Service.
-ms.assetid: '52cadea3-0152-4d8a-bdf2-811d58fbeb00'
+ms.assetid: 52cadea3-0152-4d8a-bdf2-811d58fbeb00
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optimizing and Processing Queries

@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILRESPONSE structure
 description: Contains information about an HTTPMail response.
-ms.assetid: '885374a7-42a6-42b9-b5a9-27f2092024bc'
-keywords: ["HTTPMAILRESPONSE structure Windows Mail (formerly Outlook Express)", "LPHTTPMAILRESPONSE structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 885374a7-42a6-42b9-b5a9-27f2092024bc
+keywords:
+- HTTPMAILRESPONSE structure Windows Mail (formerly Outlook Express)
+- LPHTTPMAILRESPONSE structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILRESPONSE structure
@@ -24,26 +31,26 @@ Contains information about an HTTPMail response.
 
 ```C++
 typedef struct tagHTTPMAILRESPONSE {
-  HTTPMAILCOMMAND       command;
-  DWORD                 dwContext;
-  BOOL                  fDone;
-  IXPRESULT             rIxpResult;
-  IHTTPMailTransport    *pTransport;
-  HTTPMAILGETPROP       rGetPropInfo;
-  HTTPMAILGET           rGetInfo;
-  HTTPMAILPOST          rPutInfo;
-  HTTPMAILPOST          rPostInfo;
-  HTTPMAILPROPFIND      rPropFindInfo;
-  HTTPMAILLOCATION      rMkColInfo;
-  HTTPMAILLOCATION      rCopyMoveInfo;
+  HTTPMAILCOMMAND       command;
+  DWORD                 dwContext;
+  BOOL                  fDone;
+  IXPRESULT             rIxpResult;
+  IHTTPMailTransport    *pTransport;
+  HTTPMAILGETPROP       rGetPropInfo;
+  HTTPMAILGET           rGetInfo;
+  HTTPMAILPOST          rPutInfo;
+  HTTPMAILPOST          rPostInfo;
+  HTTPMAILPROPFIND      rPropFindInfo;
+  HTTPMAILLOCATION      rMkColInfo;
+  HTTPMAILLOCATION      rCopyMoveInfo;
   HTTPMAILBCOPYMOVELIST rBCopyMoveList;
-  HTTPMEMBERINFOLIST    rMemberInfoList;
-  HTTPMEMBERERRORLIST   rMemberErrorList;
-  HTTPMAILPOST          rSendMessageInfo;
-  HTTPCONTACTIDLIST     rContactIdList;
-  HTTPCONTACTINFOLIST   rContactInfoList;
-  HTTPCONTACTID         rPostContactInfo;
-  HTTPCONTACTID         rPatchContactInfo;
+  HTTPMEMBERINFOLIST    rMemberInfoList;
+  HTTPMEMBERERRORLIST   rMemberErrorList;
+  HTTPMAILPOST          rSendMessageInfo;
+  HTTPCONTACTIDLIST     rContactIdList;
+  HTTPCONTACTINFOLIST   rContactInfoList;
+  HTTPCONTACTID         rPostContactInfo;
+  HTTPCONTACTID         rPatchContactInfo;
 } HTTPMAILRESPONSE, *LPHTTPMAILRESPONSE;
 ```
 
@@ -279,17 +286,17 @@ Occupies the union when **command** is equal to [**HTTPMAIL\_PATCHCONTACT**](oe-
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

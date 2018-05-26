@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacterEx GetActive
 description: IAgentCharacterEx GetActive
-ms.assetid: 'b14ae69a-a50e-4488-b5a7-33702e6555eb'
+ms.assetid: b14ae69a-a50e-4488-b5a7-33702e6555eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacterEx::GetActive
@@ -35,7 +40,7 @@ Address of a variable that receives one of the following values for the state se
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -48,9 +53,9 @@ Use the [**Activate**](iagentcharacter--activate.md) method to set whether your 
 [**IAgentCharacter::Activate**](iagentcharacter--activate.md), [**IAgentNotifySinkEx::ActiveClientChange**](iagentnotifysinkex--activeclientchange.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

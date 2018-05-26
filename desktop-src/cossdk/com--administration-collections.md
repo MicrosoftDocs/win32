@@ -1,19 +1,24 @@
 ---
-Description: 'The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.'
-ms.assetid: 'eed8ca97-39ad-4188-afc6-8670b5073fad'
+Description: The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.
+ms.assetid: eed8ca97-39ad-4188-afc6-8670b5073fad
 title: COM+ Administration Collections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Administration Collections
 
 The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog. The collections correspond to folders in the console tree of the Component Services administration tool. You can access these collections by using the COM+ administration objects and interfaces.
 
-You initiate programmatic administration by using objects created from the [**COMAdminCatalog**](comadmincatalog.md) class, you represent any collections in the catalog by using objects created from the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) class, and you represent items in collections by using objects created from the [**COMAdminCatalogObject**](comadmincatalogobject.md) class.
+You initiate programmatic administration by using objects created from the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) class, you represent any collections in the catalog by using objects created from the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) class, and you represent items in collections by using objects created from the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) class.
 
-The items in a given collection expose a consistent set of properties. For example, every item in the [**Components**](components.md) collection represents a component, and the items in the **Components** collection expose the same properties used to configure a component. These properties can be accessed by using the [**COMAdminCatalogObject**](comadmincatalogobject.md) class.
+The items in a given collection expose a consistent set of properties. For example, every item in the [**Components**](components.md) collection represents a component, and the items in the **Components** collection expose the same properties used to configure a component. These properties can be accessed by using the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) class.
 
 > [!Note]  
-> Properties with WriteOnce access are ReadWrite while using the [**Add**](icatalogcollection-add.md) method prior to using [**SaveChanges**](icatalogcollection-savechanges.md) and are ReadOnly afterward.
+> Properties with WriteOnce access are ReadWrite while using the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) method prior to using [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) and are ReadOnly afterward.
 
  
 
@@ -21,7 +26,7 @@ For an introduction to programmatic administration of COM+, see [Automating COM+
 
 ## Collection Hierarchy
 
-The following figure illustrates the relationships among the collections. The collections at the far left (in white and gray boxes) are top-level collections, which are accessed by calling the [**GetCollection**](icomadmincatalog-getcollection.md) method of an object created from the [**COMAdminCatalog**](comadmincatalog.md) class. The remaining collections (in yellow boxes) can only be accessed through their parent collection, by calling the [**GetCollection**](icatalogcollection-getcollection.md) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object that represents their parent. The arrows point from a parent collection to its child collections.
+The following figure illustrates the relationships among the collections. The collections at the far left (in white and gray boxes) are top-level collections, which are accessed by calling the [**GetCollection**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-getcollection?branch=master) method of an object created from the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) class. The remaining collections (in yellow boxes) can only be accessed through their parent collection, by calling the [**GetCollection**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-getcollection?branch=master) method of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object that represents their parent. The arrows point from a parent collection to its child collections.
 
 ![](images/ab61b0ab-2368-4bd8-9cfc-b7adc5beaca3.png)
 

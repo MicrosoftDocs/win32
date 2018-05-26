@@ -1,8 +1,9 @@
 ---
 title: gluQuadricTexture function
 description: The gluQuadricTexture function specifies whether quadrics are to be textured.
-ms.assetid: '11681497-f099-4856-a0ac-6a44abd3e1a1'
-keywords: ["gluQuadricTexture function OpenGL"]
+ms.assetid: 11681497-f099-4856-a0ac-6a44abd3e1a1
+keywords:
+- gluQuadricTexture function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluQuadricTexture function
@@ -22,8 +28,8 @@ The **gluQuadricTexture** function specifies whether quadrics are to be textured
 
 ```C++
 void WINAPI gluQuadricTexture(
-   GLUquadric *quadObject,
-   GLboolean  textureCoords
+   GLUquadric *quadObject,
+   GLboolean  textureCoords
 );
 ```
 
@@ -54,7 +60,7 @@ A flag indicating whether texture coordinates are to be generated. The following
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,8 +80,8 @@ The manner in which texture coordinates are generated depends upon the specific 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -95,9 +101,9 @@ The manner in which texture coordinates are generated depends upon the specific 
 [**gluQuadricNormals**](gluquadricnormals.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

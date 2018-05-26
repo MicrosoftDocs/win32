@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr GloballyOpenPorts property
 description: Specifies the set of port and protocol pairs for which inbound connection attempts are currently allowed at the time of the method call.
-ms.assetid: '50a8e41d-241f-4741-8004-a64a4e097f6d'
-keywords: ["GloballyOpenPorts property ICS/ICF", "GloballyOpenPorts property ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , GloballyOpenPorts property"]
+ms.assetid: 50a8e41d-241f-4741-8004-a64a4e097f6d
+keywords:
+- GloballyOpenPorts property ICS/ICF
+- GloballyOpenPorts property ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , GloballyOpenPorts property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::GloballyOpenPorts property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_GloballyOpenPorts(
-  [out] INetFwV6PortsCollection **pCollection
+  [out] INetFwV6PortsCollection **pCollection
 );
 ```
 
@@ -68,10 +76,10 @@ This interface has the same semantics as [**EnumerateGloballyOpenPorts**](inetfw
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -90,9 +98,9 @@ This interface has the same semantics as [**EnumerateGloballyOpenPorts**](inetfw
 [**INetFwV6Mgr**](inetfwv6mgr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

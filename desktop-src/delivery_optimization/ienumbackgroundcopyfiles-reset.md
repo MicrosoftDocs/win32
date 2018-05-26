@@ -1,8 +1,11 @@
 ---
 title: IEnumBackgroundCopyFiles Reset method
 description: Resets the enumeration sequence to the beginning.
-ms.assetid: '6A303069-105C-4053-A8C5-2ECF60E789DE'
-keywords: ["Reset method", "Reset method, IEnumBackgroundCopyFiles interface", "IEnumBackgroundCopyFiles interface, Reset method"]
+ms.assetid: 6A303069-105C-4053-A8C5-2ECF60E789DE
+keywords:
+- Reset method
+- Reset method, IEnumBackgroundCopyFiles interface
+- IEnumBackgroundCopyFiles interface, Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumBackgroundCopyFiles::Reset method
@@ -40,7 +48,7 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -57,9 +65,9 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Device Removal Notification
-ms.assetid: '0b96231a-f990-4c1c-8d00-cafeb3985ab3'
+ms.assetid: 0b96231a-f990-4c1c-8d00-cafeb3985ab3
 title: Device Removal Notification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Removal Notification

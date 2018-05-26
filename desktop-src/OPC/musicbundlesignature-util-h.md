@@ -1,8 +1,25 @@
 ---
 title: util.h
 description: util.h
-ms.assetid: 'fdbaaf21-d784-4258-863d-42417ed83108'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle signature sample", "packaging,music bundle signature sample", "packages,music bundle signature sample", "music bundle signature sample,util.h", "Packaging APIs,util.h", "packaging,util.h", "packages,util.h", "util.h,music bundle signature sample", "sample applications,music bundle signature"]
+ms.assetid: fdbaaf21-d784-4258-863d-42417ed83108
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle signature sample
+- packaging,music bundle signature sample
+- packages,music bundle signature sample
+- music bundle signature sample,util.h
+- Packaging APIs,util.h
+- packaging,util.h
+- packages,util.h
+- util.h,music bundle signature sample
+- sample applications,music bundle signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # util.h

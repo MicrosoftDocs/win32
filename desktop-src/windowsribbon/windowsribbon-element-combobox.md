@@ -1,14 +1,20 @@
 ---
 title: ComboBox element
 description: Represents a Combo Box control.
-ms.assetid: 'd796e26b-44c2-4e11-b1a5-2ede5bcff676'
-keywords: ["ComboBox element Windows Ribbon"]
+ms.assetid: d796e26b-44c2-4e11-b1a5-2ede5bcff676
+keywords:
+- ComboBox element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ComboBox
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComboBox element
@@ -121,7 +127,7 @@ There are no child elements.
 <td>[<strong>QuickAccessToolbar.ApplicationDefaults</strong>](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -186,7 +192,7 @@ This section of code shows the **ComboBox** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -201,9 +207,9 @@ This section of code shows the **ComboBox** control declarations.
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

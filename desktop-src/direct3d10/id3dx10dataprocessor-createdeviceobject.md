@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a device object.'
-ms.assetid: '5b9b00de-c744-43c7-b383-1d3358c80741'
-title: 'ID3DX10DataProcessor::CreateDeviceObject method'
+---
+Description: Create a device object.
+ms.assetid: 5b9b00de-c744-43c7-b383-1d3358c80741
+title: ID3DX10DataProcessorCreateDeviceObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10DataProcessor::CreateDeviceObject method

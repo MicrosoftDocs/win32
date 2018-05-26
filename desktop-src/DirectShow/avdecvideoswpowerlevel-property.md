@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the power-saving level of a video decoder.'
-ms.assetid: '7e2ff8be-b21f-4833-a165-0112d4220677'
+Description: Specifies the power-saving level of a video decoder.
+ms.assetid: 7e2ff8be-b21f-4833-a165-0112d4220677
 title: AVDecVideoSWPowerLevel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecVideoSWPowerLevel property
@@ -31,9 +36,9 @@ The range of possible values is \[0..100\], inclusive, with the following meanin
 
 
 
- 
+ 
 
-The [**eAVDecVideoSWPowerLevel**](eavdecvideoswpowerlevel.md) enumeration defines some specific constants within this range.
+The [**eAVDecVideoSWPowerLevel**](/windows/win32/codecapi/ne-codecapi-eavdecvideoswpowerlevel?branch=master) enumeration defines some specific constants within this range.
 
 ## Remarks
 
@@ -45,8 +50,8 @@ You can set this property during playback to change the pwoer-saving level.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -58,12 +63,12 @@ You can set this property during playback to change the pwoer-saving level.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

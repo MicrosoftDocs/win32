@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SendScsiInquiry method sends SCSI inquiry command to the specified Logical Unit Number (LUN).'
-ms.assetid: '30f3e173-93a3-485d-a48a-68ec5790efdb'
-title: 'SendScsiInquiry method of the MSIscsiInitiator\_SessionClass class'
+---
+Description: The SendScsiInquiry method sends SCSI inquiry command to the specified Logical Unit Number (LUN).
+ms.assetid: 30f3e173-93a3-485d-a48a-68ec5790efdb
+title: SendScsiInquiry method of the MSIscsiInitiator\_SessionClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SendScsiInquiry method of the MSIscsiInitiator\_SessionClass class
 
-The [**SendScsiInquiry**](sendscsiinquiry.md) method sends SCSI inquiry command to the specified Logical Unit Number (LUN).
+The [**SendScsiInquiry**](/windows/previous-versions/Iscsidsc/nf-iscsidsc-sendscsiinquiry?branch=master) method sends SCSI inquiry command to the specified Logical Unit Number (LUN).
 
 ## Syntax
 

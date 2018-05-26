@@ -1,7 +1,12 @@
 ---
 title: Date and Time Picker
 description: This section contains information about the API elements used with date and time picker controls.
-ms.assetid: '2b1a4a0e-84e6-4b65-9bf7-0384f4313aff'
+ms.assetid: 2b1a4a0e-84e6-4b65-9bf7-0384f4313aff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date and Time Picker
@@ -19,7 +24,7 @@ This section contains information about the API elements used with date and time
 
 
 
- 
+ 
 
 ### Macros
 
@@ -27,25 +32,25 @@ This section contains information about the API elements used with date and time
 
 | Topic                                                                     | Contents                                                                                                                                                                                                                                                                     |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DateTime\_CloseMonthCal**](datetime-closemonthcal.md)                 | Closes the date and time picker (DTP) control. Use this macro or send the [**DTM\_CLOSEMONTHCAL**](dtm-closemonthcal.md) message explicitly.<br/>                                                                                                                     |
-| [**DateTime\_GetDateTimePickerInfo**](datetime-getdatetimepickerinfo.md) | Gets information for a specified date and time picker (DTP) control.<br/>                                                                                                                                                                                              |
-| [**DateTime\_GetIdealSize**](datetime-getidealsize.md)                   | Gets the size needed to display the control without clipping. Use this macro or send the [**DTM\_GETIDEALSIZE**](dtm-getidealsize.md) message explicitly.<br/>                                                                                                        |
-| [**DateTime\_GetMonthCal**](datetime-getmonthcal.md)                     | Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the [**DTM\_GETMONTHCAL**](dtm-getmonthcal.md) message explicitly. <br/>                                                                               |
-| [**DateTime\_GetMonthCalColor**](datetime-getmonthcalcolor.md)           | Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the [**DTM\_GETMCCOLOR**](dtm-getmccolor.md) message explicitly. <br/>                                                           |
-| [**DateTime\_GetMonthCalFont**](datetime-getmonthcalfont.md)             | Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the [**DTM\_GETMCFONT**](dtm-getmcfont.md) message explicitly. <br/>                                                      |
-| [**DateTime\_GetMonthCalStyle**](datetime-getmonthcalstyle.md)           | Gets the style of a specified DTP control. Use this macro or send the [**DTM\_GETMCSTYLE**](dtm-getmcstyle.md) message explicitly.<br/>                                                                                                                               |
-| [**DateTime\_GetRange**](datetime-getrange.md)                           | Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the [**DTM\_GETRANGE**](dtm-getrange.md) message explicitly. <br/>                                                              |
-| [**DateTime\_GetSystemtime**](datetime-getsystemtime.md)                 | Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can use this macro, or send the [**DTM\_GETSYSTEMTIME**](dtm-getsystemtime.md) message explicitly. <br/> |
-| [**DateTime\_SetFormat**](datetime-setformat.md)                         | Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the [**DTM\_SETFORMAT**](dtm-setformat.md) message explicitly. <br/>                                                                          |
-| [**DateTime\_SetMonthCalColor**](datetime-setmonthcalcolor.md)           | Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the [**DTM\_SETMCCOLOR**](dtm-setmccolor.md) message explicitly. <br/>                                                           |
-| [**DateTime\_SetMonthCalFont**](datetime-setmonthcalfont.md)             | Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the [**DTM\_SETMCFONT**](dtm-setmcfont.md) message. <br/>                                                                |
-| [**DateTime\_SetMonthCalStyle**](datetime-setmonthcalstyle.md)           | Sets the style for a specified DTP control. Use this macro or send the [**DTM\_SETMCSTYLE**](dtm-setmcstyle.md) message explicitly.<br/>                                                                                                                              |
-| [**DateTime\_SetRange**](datetime-setrange.md)                           | Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the [**DTM\_SETRANGE**](dtm-setrange.md) message explicitly. <br/>                                                                       |
-| [**DateTime\_SetSystemtime**](datetime-setsystemtime.md)                 | Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the [**DTM\_SETSYSTEMTIME**](dtm-setsystemtime.md) message explicitly. <br/>                                                                                       |
+| [**DateTime\_CloseMonthCal**](/windows/win32/Commctrl/nf-commctrl-datetime_closemonthcal?branch=master)                 | Closes the date and time picker (DTP) control. Use this macro or send the [**DTM\_CLOSEMONTHCAL**](dtm-closemonthcal.md) message explicitly.<br/>                                                                                                                     |
+| [**DateTime\_GetDateTimePickerInfo**](/windows/win32/Commctrl/nf-commctrl-datetime_getdatetimepickerinfo?branch=master) | Gets information for a specified date and time picker (DTP) control.<br/>                                                                                                                                                                                              |
+| [**DateTime\_GetIdealSize**](/windows/win32/Commctrl/nf-commctrl-datetime_getidealsize?branch=master)                   | Gets the size needed to display the control without clipping. Use this macro or send the [**DTM\_GETIDEALSIZE**](dtm-getidealsize.md) message explicitly.<br/>                                                                                                        |
+| [**DateTime\_GetMonthCal**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcal?branch=master)                     | Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the [**DTM\_GETMONTHCAL**](dtm-getmonthcal.md) message explicitly. <br/>                                                                               |
+| [**DateTime\_GetMonthCalColor**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcalcolor?branch=master)           | Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the [**DTM\_GETMCCOLOR**](dtm-getmccolor.md) message explicitly. <br/>                                                           |
+| [**DateTime\_GetMonthCalFont**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcalfont?branch=master)             | Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the [**DTM\_GETMCFONT**](dtm-getmcfont.md) message explicitly. <br/>                                                      |
+| [**DateTime\_GetMonthCalStyle**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcalstyle?branch=master)           | Gets the style of a specified DTP control. Use this macro or send the [**DTM\_GETMCSTYLE**](dtm-getmcstyle.md) message explicitly.<br/>                                                                                                                               |
+| [**DateTime\_GetRange**](/windows/win32/Commctrl/nf-commctrl-datetime_getrange?branch=master)                           | Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the [**DTM\_GETRANGE**](dtm-getrange.md) message explicitly. <br/>                                                              |
+| [**DateTime\_GetSystemtime**](/windows/win32/Commctrl/nf-commctrl-datetime_getsystemtime?branch=master)                 | Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can use this macro, or send the [**DTM\_GETSYSTEMTIME**](dtm-getsystemtime.md) message explicitly. <br/> |
+| [**DateTime\_SetFormat**](/windows/win32/Commctrl/nf-commctrl-datetime_setformat?branch=master)                         | Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the [**DTM\_SETFORMAT**](dtm-setformat.md) message explicitly. <br/>                                                                          |
+| [**DateTime\_SetMonthCalColor**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalcolor?branch=master)           | Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the [**DTM\_SETMCCOLOR**](dtm-setmccolor.md) message explicitly. <br/>                                                           |
+| [**DateTime\_SetMonthCalFont**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalfont?branch=master)             | Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the [**DTM\_SETMCFONT**](dtm-setmcfont.md) message. <br/>                                                                |
+| [**DateTime\_SetMonthCalStyle**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalstyle?branch=master)           | Sets the style for a specified DTP control. Use this macro or send the [**DTM\_SETMCSTYLE**](dtm-setmcstyle.md) message explicitly.<br/>                                                                                                                              |
+| [**DateTime\_SetRange**](/windows/win32/Commctrl/nf-commctrl-datetime_setrange?branch=master)                           | Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the [**DTM\_SETRANGE**](dtm-setrange.md) message explicitly. <br/>                                                                       |
+| [**DateTime\_SetSystemtime**](/windows/win32/Commctrl/nf-commctrl-datetime_setsystemtime?branch=master)                 | Sets a date and time picker (DTP) control to a given date and time. You can use this macro or send the [**DTM\_SETSYSTEMTIME**](dtm-setsystemtime.md) message explicitly. <br/>                                                                                       |
 
 
 
- 
+ 
 
 ### Messages
 
@@ -53,25 +58,25 @@ This section contains information about the API elements used with date and time
 
 | Topic                                                           | Contents                                                                                                                                                                                                                                                                              |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DTM\_CLOSEMONTHCAL**](dtm-closemonthcal.md)                 | Closes a DTP control. Send this message explicitly or by using the [**DateTime\_CloseMonthCal**](datetime-closemonthcal.md) macro.<br/>                                                                                                                                        |
+| [**DTM\_CLOSEMONTHCAL**](dtm-closemonthcal.md)                 | Closes a DTP control. Send this message explicitly or by using the [**DateTime\_CloseMonthCal**](/windows/win32/Commctrl/nf-commctrl-datetime_closemonthcal?branch=master) macro.<br/>                                                                                                                                        |
 | [**DTM\_GETDATETIMEPICKERINFO**](dtm-getdatetimepickerinfo.md) | Gets information on a date and time picker (DTP) control.<br/>                                                                                                                                                                                                                  |
-| [**DTM\_GETIDEALSIZE**](dtm-getidealsize.md)                   | Gets the size needed to display the control without clipping. Send this message explicitly or by using the [**DateTime\_GetIdealSize**](datetime-getidealsize.md) macro.<br/>                                                                                                  |
-| [**DTM\_GETMCCOLOR**](dtm-getmccolor.md)                       | Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_GetMonthCalColor**](datetime-getmonthcalcolor.md) macro. <br/>                                              |
-| [**DTM\_GETMCFONT**](dtm-getmcfont.md)                         | Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can send this message explicitly or use the [**DateTime\_GetMonthCalFont**](datetime-getmonthcalfont.md) macro. <br/>                                         |
-| [**DTM\_GETMCSTYLE**](dtm-getmcstyle.md)                       | Gets the style of a DTP control. Send this message explicitly or by using the [**DateTime\_GetMonthCalStyle**](datetime-getmonthcalstyle.md) macro.<br/>                                                                                                                       |
-| [**DTM\_GETMONTHCAL**](dtm-getmonthcal.md)                     | Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the [**DateTime\_GetMonthCal**](datetime-getmonthcal.md) macro. <br/>                                                                              |
-| [**DTM\_GETRANGE**](dtm-getrange.md)                           | Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_GetRange**](datetime-getrange.md) macro. <br/>                                                              |
-| [**DTM\_GETSYSTEMTIME**](dtm-getsystemtime.md)                 | Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can send this message explicitly or use the [**DateTime\_GetSystemtime**](datetime-getsystemtime.md) macro. <br/> |
-| [**DTM\_SETFORMAT**](dtm-setformat.md)                         | Sets the display of a date and time picker (DTP) control based on a given format string. You can send this message explicitly or use the [**DateTime\_SetFormat**](datetime-setformat.md) macro. <br/>                                                                         |
-| [**DTM\_SETMCCOLOR**](dtm-setmccolor.md)                       | Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetMonthCalColor**](datetime-setmonthcalcolor.md) macro. <br/>                                              |
-| [**DTM\_SETMCFONT**](dtm-setmcfont.md)                         | Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can send this message explicitly or use the [**DateTime\_SetMonthCalFont**](datetime-setmonthcalfont.md) macro.<br/>                                                    |
-| [**DTM\_SETMCSTYLE**](dtm-setmcstyle.md)                       | Sets the style of a DTP control. Send this message explicitly or by using the [**DateTime\_SetMonthCalStyle**](datetime-setmonthcalstyle.md) macro.<br/>                                                                                                                       |
-| [**DTM\_SETRANGE**](dtm-setrange.md)                           | Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetRange**](datetime-setrange.md) macro. <br/>                                                                      |
-| [**DTM\_SETSYSTEMTIME**](dtm-setsystemtime.md)                 | Sets the time in a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetSystemtime**](datetime-setsystemtime.md) macro. <br/>                                                                                                   |
+| [**DTM\_GETIDEALSIZE**](dtm-getidealsize.md)                   | Gets the size needed to display the control without clipping. Send this message explicitly or by using the [**DateTime\_GetIdealSize**](/windows/win32/Commctrl/nf-commctrl-datetime_getidealsize?branch=master) macro.<br/>                                                                                                  |
+| [**DTM\_GETMCCOLOR**](dtm-getmccolor.md)                       | Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_GetMonthCalColor**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcalcolor?branch=master) macro. <br/>                                              |
+| [**DTM\_GETMCFONT**](dtm-getmcfont.md)                         | Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can send this message explicitly or use the [**DateTime\_GetMonthCalFont**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcalfont?branch=master) macro. <br/>                                         |
+| [**DTM\_GETMCSTYLE**](dtm-getmcstyle.md)                       | Gets the style of a DTP control. Send this message explicitly or by using the [**DateTime\_GetMonthCalStyle**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcalstyle?branch=master) macro.<br/>                                                                                                                       |
+| [**DTM\_GETMONTHCAL**](dtm-getmonthcal.md)                     | Gets the handle to a date and time picker's (DTP) child month calendar control. You can send this message explicitly or use the [**DateTime\_GetMonthCal**](/windows/win32/Commctrl/nf-commctrl-datetime_getmonthcal?branch=master) macro. <br/>                                                                              |
+| [**DTM\_GETRANGE**](dtm-getrange.md)                           | Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_GetRange**](/windows/win32/Commctrl/nf-commctrl-datetime_getrange?branch=master) macro. <br/>                                                              |
+| [**DTM\_GETSYSTEMTIME**](dtm-getsystemtime.md)                 | Gets the currently selected time from a date and time picker (DTP) control and places it in a specified [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structure. You can send this message explicitly or use the [**DateTime\_GetSystemtime**](/windows/win32/Commctrl/nf-commctrl-datetime_getsystemtime?branch=master) macro. <br/> |
+| [**DTM\_SETFORMAT**](dtm-setformat.md)                         | Sets the display of a date and time picker (DTP) control based on a given format string. You can send this message explicitly or use the [**DateTime\_SetFormat**](/windows/win32/Commctrl/nf-commctrl-datetime_setformat?branch=master) macro. <br/>                                                                         |
+| [**DTM\_SETMCCOLOR**](dtm-setmccolor.md)                       | Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetMonthCalColor**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalcolor?branch=master) macro. <br/>                                              |
+| [**DTM\_SETMCFONT**](dtm-setmcfont.md)                         | Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can send this message explicitly or use the [**DateTime\_SetMonthCalFont**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalfont?branch=master) macro.<br/>                                                    |
+| [**DTM\_SETMCSTYLE**](dtm-setmcstyle.md)                       | Sets the style of a DTP control. Send this message explicitly or by using the [**DateTime\_SetMonthCalStyle**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalstyle?branch=master) macro.<br/>                                                                                                                       |
+| [**DTM\_SETRANGE**](dtm-setrange.md)                           | Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetRange**](/windows/win32/Commctrl/nf-commctrl-datetime_setrange?branch=master) macro. <br/>                                                                      |
+| [**DTM\_SETSYSTEMTIME**](dtm-setsystemtime.md)                 | Sets the time in a date and time picker (DTP) control. You can send this message explicitly or use the [**DateTime\_SetSystemtime**](/windows/win32/Commctrl/nf-commctrl-datetime_setsystemtime?branch=master) macro. <br/>                                                                                                   |
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -91,7 +96,7 @@ This section contains information about the API elements used with date and time
 
 
 
- 
+ 
 
 ### Structures
 
@@ -99,16 +104,16 @@ This section contains information about the API elements used with date and time
 
 | Topic                                                  | Contents                                                                                                                                                                                                                                                                                                                                                                                           |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DATETIMEPICKERINFO**](datetimepickerinfo.md)       | Contains information about a DTP control. <br/>                                                                                                                                                                                                                                                                                                                                              |
-| [**NMDATETIMECHANGE**](nmdatetimechange.md)           | Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the [DTN\_DATETIMECHANGE](dtn-datetimechange.md) notification code. <br/>                                                                                                                                                                                     |
-| [**NMDATETIMEFORMAT**](nmdatetimeformat.md)           | Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control. It carries the substring that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field. This structure is used with the [DTN\_FORMAT](dtn-format.md) notification code. <br/>               |
-| [**NMDATETIMEFORMATQUERY**](nmdatetimeformatquery.md) | Contains information about a date and time picker (DTP) control callback field. It contains a substring (taken from the control's format string) that defines a callback field. The structure receives the maximum allowable size of the text that will be displayed in the callback field. This structure is used with the [DTN\_FORMATQUERY](dtn-formatquery.md) notification code. <br/> |
-| [**NMDATETIMESTRING**](nmdatetimestring.md)           | Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the [DTN\_USERSTRING](dtn-userstring.md) notification code. <br/>                                                                                                                                                                                |
-| [**NMDATETIMEWMKEYDOWN**](nmdatetimewmkeydown.md)     | Carries information used to describe and handle a [DTN\_WMKEYDOWN](dtn-wmkeydown.md) notification code. <br/>                                                                                                                                                                                                                                                                               |
+| [**DATETIMEPICKERINFO**](/windows/win32/Commctrl/ns-commctrl-tagdatetimepickerinfo?branch=master)       | Contains information about a DTP control. <br/>                                                                                                                                                                                                                                                                                                                                              |
+| [**NMDATETIMECHANGE**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimechange?branch=master)           | Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the [DTN\_DATETIMECHANGE](dtn-datetimechange.md) notification code. <br/>                                                                                                                                                                                     |
+| [**NMDATETIMEFORMAT**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimeformata?branch=master)           | Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control. It carries the substring that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field. This structure is used with the [DTN\_FORMAT](dtn-format.md) notification code. <br/>               |
+| [**NMDATETIMEFORMATQUERY**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimeformatquerya?branch=master) | Contains information about a date and time picker (DTP) control callback field. It contains a substring (taken from the control's format string) that defines a callback field. The structure receives the maximum allowable size of the text that will be displayed in the callback field. This structure is used with the [DTN\_FORMATQUERY](dtn-formatquery.md) notification code. <br/> |
+| [**NMDATETIMESTRING**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimestringa?branch=master)           | Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the [DTN\_USERSTRING](dtn-userstring.md) notification code. <br/>                                                                                                                                                                                |
+| [**NMDATETIMEWMKEYDOWN**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimewmkeydowna?branch=master)     | Carries information used to describe and handle a [DTN\_WMKEYDOWN](dtn-wmkeydown.md) notification code. <br/>                                                                                                                                                                                                                                                                               |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -120,11 +125,11 @@ This section contains information about the API elements used with date and time
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The FillBuffer method fills a media sample with data.'
-ms.assetid: 'dddad8c7-44f1-4ba3-8fb1-7e7e88e40941'
-title: 'CSourceStream.FillBuffer method'
+Description: The FillBuffer method fills a media sample with data.
+ms.assetid: dddad8c7-44f1-4ba3-8fb1-7e7e88e40941
+title: CSourceStream.FillBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.FillBuffer method
@@ -13,7 +18,7 @@ The `FillBuffer` method fills a media sample with data.
 
 ```C++
 virtual HRESULT FillBuffer(
-   IMediaSample *pSample
+   IMediaSample *pSample
 ) = 0;
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT FillBuffer(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,13 +48,13 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
 The derived class must implement this method.
 
-The media sample given to this method has no time stamps. The derived class should call the [**IMediaSample::SetTime**](imediasample-settime.md) method to set the time stamps. If appropriate for the media type, the derived class should also set the media times, by calling the [**IMediaSample::SetMediaTime**](imediasample-setmediatime.md) method. For more information, see [Time and Clocks in DirectShow](time-and-clocks-in-directshow.md).
+The media sample given to this method has no time stamps. The derived class should call the [**IMediaSample::SetTime**](/windows/win32/Strmif/nf-strmif-imediasample-settime?branch=master) method to set the time stamps. If appropriate for the media type, the derived class should also set the media times, by calling the [**IMediaSample::SetMediaTime**](/windows/win32/Strmif/nf-strmif-imediasample-setmediatime?branch=master) method. For more information, see [Time and Clocks in DirectShow](time-and-clocks-in-directshow.md).
 
 Return S\_FALSE at the end of the stream. This causes the **CSourceStream** class to send the end-of-stream notification and halt the buffer processing loop. See [**CSourceStream::DoBufferProcessingLoop**](csourcestream-dobufferprocessingloop.md) for more information.
 
@@ -71,9 +76,9 @@ Return S\_FALSE at the end of the stream. This causes the **CSourceStream** clas
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Certificate Services is one foundation for the Public Key Infrastructure (PKI) that provides the means for safeguarding and authenticating information.'
-ms.assetid: 'c18f46ca-e805-4b33-8014-79dc34c18531'
+Description: Certificate Services is one foundation for the Public Key Infrastructure (PKI) that provides the means for safeguarding and authenticating information.
+ms.assetid: c18f46ca-e805-4b33-8014-79dc34c18531
 title: Certificates and Public Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificates and Public Keys

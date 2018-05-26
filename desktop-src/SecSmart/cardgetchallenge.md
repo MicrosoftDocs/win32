@@ -1,8 +1,9 @@
 ---
 title: CardGetChallenge function
 description: Authenticates a user with a challenge and response.
-ms.assetid: '7e9b4784-eb2a-4513-8e0e-24099f4528ad'
-keywords: ["CardGetChallenge function Security"]
+ms.assetid: 7e9b4784-eb2a-4513-8e0e-24099f4528ad
+keywords:
+- CardGetChallenge function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardGetChallenge function
@@ -24,9 +30,9 @@ The **CardGetChallenge** function, defined by a smart card module, authenticates
 
 ```C++
 DWORD WINAPI CardGetChallenge(
-  _In_  PCARD_DATA pCardData,
-  _Out_ PBYTE      *ppbChallengeData,
-  _Out_ PDWORD     pcbChallengeData
+  _In_  PCARD_DATA pCardData,
+  _Out_ PBYTE      *ppbChallengeData,
+  _Out_ PDWORD     pcbChallengeData
 );
 ```
 
@@ -77,8 +83,8 @@ If the next call to the smart card module is not a call to the [**CardAuthentica
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -99,9 +105,9 @@ If the next call to the smart card module is not a call to the [**CardAuthentica
 [**CardAuthenticateChallenge**](cardauthenticatechallenge.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

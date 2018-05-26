@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorServiceExample
 description: This example shows how to use service host for hosting a calculator service over HTTP.
-ms.assetid: '898bc206-ad64-461c-a734-c8791b6b106d'
-keywords: ["HttpCalculatorServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 898bc206-ad64-461c-a734-c8791b6b106d
+keywords:
+- HttpCalculatorServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorServiceExample

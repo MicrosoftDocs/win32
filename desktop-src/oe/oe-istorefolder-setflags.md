@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder SetFlags method
 description: Adds message state flags for a specified list of messages.
-ms.assetid: 'c679601a-0459-4d1f-ba23-e8e4b2de34f9'
-keywords: ["SetFlags method Windows Mail (formerly Outlook Express)", "SetFlags method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , SetFlags method"]
+ms.assetid: c679601a-0459-4d1f-ba23-e8e4b2de34f9
+keywords:
+- SetFlags method Windows Mail (formerly Outlook Express)
+- SetFlags method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , SetFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::SetFlags method
@@ -22,10 +30,10 @@ Adds message state flags for a specified list of messages.
 
 ```C++
 HRESULT SetFlags(
-  [in]  LPMESSAGEIDLIST pMsgIdList,
-  [in]  DWORD           dwState,
-  [in]  DWORD           dwStatemask,
-  [out] LPDWORD         prgdwNewFlags
+  [in]  LPMESSAGEIDLIST pMsgIdList,
+  [in]  DWORD           dwState,
+  [in]  DWORD           dwStatemask,
+  [out] LPDWORD         prgdwNewFlags
 );
 ```
 
@@ -85,7 +93,7 @@ Returns S\_OK if successful, or the following error value.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -97,8 +105,8 @@ This method will only add flags. To remove flags, use the [**IStoreFolder::OpenM
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -106,9 +114,9 @@ This method will only add flags. To remove flags, use the [**IStoreFolder::OpenM
 
 
 
- 
+ 
 
- 
+ 
 
 
 

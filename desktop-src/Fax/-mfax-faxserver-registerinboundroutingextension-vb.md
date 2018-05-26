@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RegisterInboundRoutingExtension method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.'
-ms.assetid: 'd4edf767-32bc-4d44-af19-3ae63d68cffa'
-title: 'FaxServer.RegisterInboundRoutingExtension method'
+---
+Description: The RegisterInboundRoutingExtension method registers a fax inbound routing extension with the fax service. Registration takes place after the fax service restarts.
+ms.assetid: d4edf767-32bc-4d44-af19-3ae63d68cffa
+title: FaxServer.RegisterInboundRoutingExtension method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.RegisterInboundRoutingExtension method
@@ -68,7 +73,7 @@ Only an administrator can register a routing extension. Also, this method works 
 
 This property is not supported in Windows XP, and will return the error: [FAX\_E\_NOT\_SUPPORTED\_ON\_THIS\_SKU](-mfax-fax-error-codes.md).
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -90,7 +95,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

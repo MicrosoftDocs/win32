@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMXDECN4.'
-ms.assetid: '6b8a319d-1ffb-4a19-a27c-a692109a71e2'
+---
+Description: Constructors exposed by XMXDECN4.
+ms.assetid: 6b8a319d-1ffb-4a19-a27c-a692109a71e2
 title: XMXDECN4 constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMXDECN4 constructors
 
 Constructors exposed by `XMXDECN4`.
 
-Constructs instances of the [**XMXDECN4**](xmxdecn4.md) structure.
+Constructs instances of the [**XMXDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMXDECN4**](xmxdecn4.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMXDECN4 ()</strong>](xmxdecn4-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMXDECN4</code>. <br/> Default constructor for [<strong>XMXDECN4</strong>](xmxdecn4.md). <br/>
+<td style="text-align: left;">Default constructor for <code>XMXDECN4</code>. <br/> Default constructor for [<strong>XMXDECN4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master). <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -42,7 +47,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMXDECN4 (uint32_t)</strong>](xmxdecn4-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMXDECN4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMXDECN4</strong>](xmxdecn4.md) from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMXDECN4</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMXDECN4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master) from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -51,7 +56,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMXDECN4 (const float*)</strong>](xmxdecn4-ctor-4.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMXDECN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMXDECN4</strong>](xmxdecn4.md) from a from a four element <code>float</code> array argument. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMXDECN4</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of [<strong>XMXDECN4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master) from a from a four element <code>float</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -60,7 +65,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMXDECN4 (float,float,float,float)</strong>](xmxdecn4-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMXDECN4</code> from four normalized <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMXDECN4</strong>](xmxdecn4.md) from four normalized <code>float</code> arguments. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMXDECN4</code> from four normalized <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMXDECN4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master) from four normalized <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -82,7 +87,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMXDECN4**](xmxdecn4.md)
+[**XMXDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master)
 </dt> </dl>
 
  

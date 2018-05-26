@@ -1,7 +1,12 @@
 ---
 title: DHCP Client API
 description: The Dynamic Host Configuration Protocol (DHCP) API, or DHCP Client Options, enables Windows clients to query specific options from DHCP servers.
-ms.assetid: '7c0e99db-bd50-4d77-bbe7-bddf2ed5474d'
+ms.assetid: 7c0e99db-bd50-4d77-bbe7-bddf2ed5474d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DHCP Client API

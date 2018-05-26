@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIPortableDeviceKeyCollectionValue method retrieves an IPortableDeviceKeyCollection value (type VT\_UNKNOWN) specified by a key.'
-ms.assetid: '131c8e05-9224-4db4-bdf6-0fd9c563e049'
-title: 'IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue method'
+Description: The GetIPortableDeviceKeyCollectionValue method retrieves an IPortableDeviceKeyCollection value (type VT\_UNKNOWN) specified by a key.
+ms.assetid: 131c8e05-9224-4db4-bdf6-0fd9c563e049
+title: IPortableDeviceValuesGetIPortableDeviceKeyCollectionValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue method
@@ -13,8 +18,8 @@ The **GetIPortableDeviceKeyCollectionValue** method retrieves an **IPortableDevi
 
 ```C++
 HRESULT GetIPortableDeviceKeyCollectionValue(
-  [in]  REFPROPERTYKEY               key,
-  [out] IPortableDeviceKeyCollection **ppValue
+  [in]  REFPROPERTYKEY               key,
+  [out] IPortableDeviceKeyCollection **ppValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -85,9 +90,9 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 [Retrieving Supported Service Methods](retrieving-supported-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

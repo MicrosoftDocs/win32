@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers custom templates, given an ID3DXFileEnumObject enumeration object.'
-ms.assetid: '1b0c71db-639b-4836-8a65-7d0a2ed3ba4f'
-title: 'ID3DXFile::RegisterEnumTemplates method'
+---
+Description: Registers custom templates, given an ID3DXFileEnumObject enumeration object.
+ms.assetid: 1b0c71db-639b-4836-8a65-7d0a2ed3ba4f
+title: ID3DXFileRegisterEnumTemplates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFile::RegisterEnumTemplates method

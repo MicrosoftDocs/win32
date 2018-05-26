@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMIcmDeleteColorTransform function deletes the specified color transform.'
-ms.assetid: '820d9e28-fe06-4aa7-91d8-a90340affb94'
+---
+Description: The OEMIcmDeleteColorTransform function deletes the specified color transform.
+ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 title: OEMIcmDeleteColorTransform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMIcmDeleteColorTransform function

@@ -1,13 +1,16 @@
 ---
-Description: 'The following table lists the classes for WMI preinstalled permanent consumers.'
+Description: The following table lists the classes for WMI preinstalled permanent consumers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1239ea25-2835-4546-b66d-20a83704653e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1239ea25-2835-4546-b66d-20a83704653e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Standard Consumer Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Standard Consumer Classes
@@ -29,7 +32,7 @@ For more information, see [Monitoring and Responding to Events with Standard Con
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -47,9 +50,9 @@ For more information, see [Monitoring and Responding to Events with Standard Con
 [Sending Email Based on an Event](sending-e-mail-based-on-an-event.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

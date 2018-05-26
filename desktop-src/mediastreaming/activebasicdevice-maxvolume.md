@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice MaxVolume property
 description: Gets the maximum volume supported by the device.
-ms.assetid: 'EA0EC323-4A18-4CC1-8FA4-7BD302318863'
-keywords: ["MaxVolume property Media Streaming API", "MaxVolume property Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , MaxVolume property"]
+ms.assetid: EA0EC323-4A18-4CC1-8FA4-7BD302318863
+keywords:
+- MaxVolume property Media Streaming API
+- MaxVolume property Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , MaxVolume property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::MaxVolume property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaxVolume(
-  [out] boolean *UINT32
+  [out] boolean *UINT32
 );
 ```
 
@@ -41,8 +49,8 @@ A pointer to a**UINT32** that specifies the maximum volume supported by the devi
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -56,9 +64,9 @@ A pointer to a**UINT32** that specifies the maximum volume supported by the devi
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,25 @@
 ---
 title: ID2D1Geometry CombineWithGeometry methods
 description: Combines this geometry with the specified geometry and stores the result in an ID2D1SimplifiedGeometrySink.
-ms.assetid: '5bb45c54-c551-4b54-ae91-41d2c57b9570'
-keywords: ["CombineWithGeometry methods Direct2D"]
+ms.assetid: 5bb45c54-c551-4b54-ae91-41d2c57b9570
+keywords:
+- CombineWithGeometry methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::CombineWithGeometry methods
 
-Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md).
+Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master).
 
 ### Overload list
 
@@ -21,16 +27,16 @@ Combines this geometry with the specified geometry and stores the result in an [
 
 | Method                                                                                                                                                                                                                                                          | Description                                                                                                                                                    |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-combinewithgeometry-ptr-id2d1geometry-d2d1-combine-mode-ref-d2d-matrix-3x2-f-ptr-id2d1simplifiedgeometrysink.md)              | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md).<br/>  |
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-combinewithgeometry-ptr-id2d1geometry-d2d1-combine-mode-ptr-d2d-matrix-3x2-f-ptr-id2d1simplifiedgeometrysink.md)             | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md).<br/>  |
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-combinewithgeometry-ptr-id2d1geometry-d2d1-combine-mode-ref-d2d-matrix-3x2-f-float-ptr-id2d1simplifiedgeometrysink.md)  | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md).<br/>  |
-| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-combinewithgeometry-ptr-id2d1geometry-d2d1-combine-mode-ptr-d2d-matrix-3x2-f-float-ptr-id2d1simplifiedgeometrysink.md) | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md). <br/> |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master)              | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master).<br/>  |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master)             | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master).<br/>  |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master)  | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master).<br/>  |
+| [**CombineWithGeometry(ID2D1Geometry\*,D2D1\_COMBINE\_MODE,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master) | Combines this geometry with the specified geometry and stores the result in an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master). <br/> |
 
 
 
 ## Examples
 
-The following code uses each of the different combine modes to combine two [**ID2D1EllipseGeometry**](id2d1ellipsegeometry.md) objects.
+The following code uses each of the different combine modes to combine two [**ID2D1EllipseGeometry**](/windows/win32/d2d1/?branch=master) objects.
 
 
 ```C++
@@ -213,12 +219,12 @@ This code produces the output shown in the following illustration.
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

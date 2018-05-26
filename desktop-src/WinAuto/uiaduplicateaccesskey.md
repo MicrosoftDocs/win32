@@ -1,7 +1,12 @@
 ---
 title: UiaDuplicateAccessKey
 description: UiaDuplicateAccessKey
-ms.assetid: '83B742F7-2839-4F3B-B459-F8505ABDDFCA'
+ms.assetid: 83B742F7-2839-4F3B-B459-F8505ABDDFCA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UiaDuplicateAccessKey
@@ -24,13 +29,13 @@ This issue causes problems for people who rely on the keyboard for navigation be
 
 <dl> <dt>
 
-[**IUIAutomationElement::CurrentName**](uiauto-iuiautomationelement-currentname.md)
+[**IUIAutomationElement::CurrentName**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname?branch=master)
 </dt> <dt>
 
-[**IUIAutomationElement::CurrentAcceleratorKey**](uiauto-iuiautomationelement-currentacceleratorkey.md)
+[**IUIAutomationElement::CurrentAcceleratorKey**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentacceleratorkey?branch=master)
 </dt> <dt>
 
-[**IUIAutomationElement::CurrentAccessKey**](uiauto-iuiautomationelement-currentaccesskey.md)
+[**IUIAutomationElement::CurrentAccessKey**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentaccesskey?branch=master)
 </dt> <dt>
 
 [**UIA\_AcceleratorKeyPropertyId**](uiauto-automation-element-propids.md#uia-acceleratorkeypropertyid)

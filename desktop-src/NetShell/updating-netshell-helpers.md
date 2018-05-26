@@ -1,7 +1,12 @@
 ---
 title: Updating NetShell Helpers
 description: After a helper command has been implemented and released, updated versions should avoid changing the original syntax of the command in order to prevent errors.
-ms.assetid: '47dde8e2-36e4-4c9e-9910-e62e962b9c71'
+ms.assetid: 47dde8e2-36e4-4c9e-9910-e62e962b9c71
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating NetShell Helpers

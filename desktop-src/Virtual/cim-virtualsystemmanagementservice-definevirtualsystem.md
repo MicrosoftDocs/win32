@@ -1,8 +1,11 @@
 ---
 title: DefineVirtualSystem method of the CIM\_VirtualSystemManagementService class
 description: Creates a new virtual computer system instance.
-ms.assetid: '99f36530-0e92-4cdc-afd2-3f42e651c43e'
-keywords: ["DefineVirtualSystem method Hyper-V", "DefineVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , DefineVirtualSystem method"]
+ms.assetid: 99f36530-0e92-4cdc-afd2-3f42e651c43e
+keywords:
+- DefineVirtualSystem method Hyper-V
+- DefineVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , DefineVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefineVirtualSystem method of the CIM\_VirtualSystemManagementService class
@@ -22,11 +30,11 @@ Creates a new virtual computer system instance.
 
 ```mof
 uint32 DefineVirtualSystem(
-  [in]  string                           SystemSettingData,
-  [in]  string                           ResourceSettingData[],
-  [in]  CIM_VirtualSystemSettingData REF SourceSetting,
-  [out] CIM_ComputerSystem           REF DefinedSystem,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  string                           SystemSettingData,
+  [in]  string                           ResourceSettingData[],
+  [in]  CIM_VirtualSystemSettingData REF SourceSetting,
+  [out] CIM_ComputerSystem           REF DefinedSystem,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -89,9 +97,9 @@ An optional reference that is returned if the operation is executed asynchronous
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

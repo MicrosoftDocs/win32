@@ -1,13 +1,16 @@
 ---
-Description: 'Exports trusted publishing domain data for the current AD RMS server to a file.'
+Description: Exports trusted publishing domain data for the current AD RMS server to a file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'bee822a3-dde5-445f-8959-623a4cd28363'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: bee822a3-dde5-445f-8959-623a4cd28363
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedPublishingDomainCollection.Export method'
+title: TrustedPublishingDomainCollection.Export method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedPublishingDomainCollection.Export method
@@ -173,7 +176,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -185,9 +188,9 @@ END SUB
 [**TrustedPublishingDomainCollection**](trustedpublishingdomaincollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Windows 7 Developer Guide
 description: Building applications that are easy to use, visually appealing, and offer high performance is a challenge that developers face every day.
-ms.assetid: '0266d4bd-9793-4cc0-8253-c9376dac40b8'
+ms.assetid: 0266d4bd-9793-4cc0-8253-c9376dac40b8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 7 Developer Guide

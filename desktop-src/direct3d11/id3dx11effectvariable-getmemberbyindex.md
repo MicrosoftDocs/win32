@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVariable GetMemberByIndex method
 description: Get a structure member by index.
-ms.assetid: '256f65aa-5f49-4b83-8dde-ddb6b31c581a'
-keywords: ["GetMemberByIndex method Direct3D 11", "GetMemberByIndex method Direct3D 11 , ID3DX11EffectVariable interface", "ID3DX11EffectVariable interface Direct3D 11 , GetMemberByIndex method"]
+ms.assetid: 256f65aa-5f49-4b83-8dde-ddb6b31c581a
+keywords:
+- GetMemberByIndex method Direct3D 11
+- GetMemberByIndex method Direct3D 11 , ID3DX11EffectVariable interface
+- ID3DX11EffectVariable interface Direct3D 11 , GetMemberByIndex method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable::GetMemberByIndex method
@@ -23,7 +31,7 @@ Get a structure member by index.
 
 ```C++
 ID3DX11EffectVariable* GetMemberByIndex(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -55,7 +63,7 @@ If the effect variable is an structure, use this method to look up a member by i
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ If the effect variable is an structure, use this method to look up a member by i
 [ID3DX11EffectVariable](id3dx11effectvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

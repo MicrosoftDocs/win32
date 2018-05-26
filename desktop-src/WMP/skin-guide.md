@@ -1,8 +1,18 @@
 ---
 title: Skin Guide
 description: Skin Guide
-ms.assetid: 'e8df7781-772d-4dd3-a6bc-f66ce6bab295'
-keywords: ["Windows Media Player,skins", "Windows Media Player Mobile skins,creation guide", "skins,creation guide", "creating skins,about", "creating skins,Windows Media Player Mobile"]
+ms.assetid: e8df7781-772d-4dd3-a6bc-f66ce6bab295
+keywords:
+- Windows Media Player,skins
+- Windows Media Player Mobile skins,creation guide
+- skins,creation guide
+- creating skins,about
+- creating skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Guide

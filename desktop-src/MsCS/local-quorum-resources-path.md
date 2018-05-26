@@ -4,17 +4,22 @@ description: Indicates the default location for the quorum files on the local qu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'be7014d3-e065-4183-8b8f-369ac437b29a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: be7014d3-e065-4183-8b8f-369ac437b29a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Path Failover Cluster , for local quorums", "Path Failover Cluster"]
+keywords:
+- Path Failover Cluster , for local quorums
+- Path Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Path
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Path
@@ -30,17 +35,17 @@ Indicates the default location for the quorum files on the local quorum device. 
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -68,14 +73,14 @@ StringCbCopy( PathValue.sz,
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

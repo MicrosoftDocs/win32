@@ -4,12 +4,15 @@ description: The DhcpServerPSProvider provider supports classes that interact wi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8E391ECF-63B9-47CA-8C42-BD1AC78516B2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8E391ECF-63B9-47CA-8C42-BD1AC78516B2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerPSProvider Provider

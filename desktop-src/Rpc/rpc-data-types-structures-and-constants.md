@@ -1,7 +1,12 @@
 ---
 title: RPC Data Types, Structures, and Constants
 description: The following sections describe the structures, data types, and constants that Microsoft RPC uses.
-ms.assetid: 'cc9b823b-f214-44f6-94d1-f42ee71f203c'
+ms.assetid: cc9b823b-f214-44f6-94d1-f42ee71f203c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Data Types, Structures, and Constants

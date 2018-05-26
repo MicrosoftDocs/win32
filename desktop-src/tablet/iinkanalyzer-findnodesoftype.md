@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves all of the IContextNode objects of the specified type.'
-ms.assetid: 'e6e68d78-9697-40e6-a4ae-a187ef01a769'
-title: 'IInkAnalyzer::FindNodesOfType method'
+Description: Retrieves all of the IContextNode objects of the specified type.
+ms.assetid: e6e68d78-9697-40e6-a4ae-a187ef01a769
+title: IInkAnalyzerFindNodesOfType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::FindNodesOfType method
@@ -13,8 +18,8 @@ Retrieves all of the [**IContextNode**](icontextnode.md) objects of the specifie
 
 ```C++
 HRESULT FindNodesOfType(
-  [in]  const GUID          *pNodeType,
-  [out]       IContextNodes **ppContextNodesFound
+  [in]  const GUID          *pNodeType,
+  [out]       IContextNodes **ppContextNodesFound
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodesFound* when you no longer need to use the object.
 
- 
+ 
 
 The *pNodeType* property must contain a GUID from the [Context Node Types](context-node-types.md) constants.
 
@@ -59,7 +64,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -100,9 +105,9 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

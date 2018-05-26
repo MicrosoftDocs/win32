@@ -1,14 +1,20 @@
 ---
 title: showMessageType Complex Type
 description: Defines the elements that represent an action that shows a message box.
-ms.assetid: 'eb841d9f-0be2-433b-9002-5e41c6ee78f9'
-keywords: ["showMessageType complex type Task Scheduler"]
+ms.assetid: eb841d9f-0be2-433b-9002-5e41c6ee78f9
+keywords:
+- showMessageType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - showMessageType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # showMessageType Complex Type
@@ -51,14 +57,14 @@ Defines the elements that represent an action that shows a message box.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

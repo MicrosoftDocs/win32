@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '1afca0cb-95c1-40d6-9268-e70018973ff6'
-title: 'System.RecordedTV.IsHDContent'
+Description: .
+ms.assetid: 1afca0cb-95c1-40d6-9268-e70018973ff6
+title: System.RecordedTV.IsHDContent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.IsHDContent

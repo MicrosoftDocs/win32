@@ -4,13 +4,15 @@ description: Associates a policy to a flow.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0466776f-81e1-4e0b-964a-65762263f55e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0466776f-81e1-4e0b-964a-65762263f55e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-storage-qos'
-- 'windows-management-instrumentation'
+- failover-cluster-storage-qos
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_StorageQoSPolicyToFlow class", "MSFT_StorageQoSPolicyToFlow class, described"]
+keywords:
+- MSFT_StorageQoSPolicyToFlow class
+- MSFT_StorageQoSPolicyToFlow class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - StorageQOS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_StorageQoSPolicyToFlow class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_StorageQoSPolicyToFlow
 {
   MSFT_StorageQoSPolicy REF Policy;
-  MSFT_StorageQoSFlow   REF Flow;
+  MSFT_StorageQoSFlow   REF Flow;
 };
 ```
 
@@ -91,16 +96,16 @@ A [**MSFT\_StorageQoSPolicy**](msft-storageqospolicy.md) containing the policy t
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>StorageQOS.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StorageQOS.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

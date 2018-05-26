@@ -1,14 +1,20 @@
 ---
 title: Intrinsic Functions
 description: The following table lists the intrinsic functions available in HLSL. Each function has a brief description, and a link to a reference page that has more detail about the input argument and return type.
-ms.assetid: '7f1a3284-6053-4b6d-bd2e-5b33264fe883'
-keywords: ["Intrinsic Functions HLSL"]
+ms.assetid: 7f1a3284-6053-4b6d-bd2e-5b33264fe883
+keywords:
+- Intrinsic Functions HLSL
 topic_type:
 - apiref
 api_name:
 - Intrinsic Functions
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Intrinsic Functions

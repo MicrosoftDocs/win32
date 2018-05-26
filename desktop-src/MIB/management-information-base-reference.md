@@ -1,8 +1,15 @@
 ---
 title: Management Information Base Reference
 description: This documentation describes the reference elements used in the Management Information Base (MIB) API.
-ms.assetid: '566bf187-73d0-4d61-be8e-306dc482a005'
-keywords: ["Management Information Base MIB , reference", "Management Information Base MIB ,reference"]
+ms.assetid: 566bf187-73d0-4d61-be8e-306dc482a005
+keywords:
+- Management Information Base MIB , reference
+- Management Information Base MIB ,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Management Information Base Reference

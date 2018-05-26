@@ -1,13 +1,16 @@
 ---
-Description: 'A partial-instance retrieval is when WMI retrieves only a subset of the properties of an instance.'
+Description: A partial-instance retrieval is when WMI retrieves only a subset of the properties of an instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6cc26b26-adc9-4a8a-b51e-9db94eb4295f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6cc26b26-adc9-4a8a-b51e-9db94eb4295f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving Part of a WMI Instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving Part of a WMI Instance
@@ -43,7 +46,7 @@ You can retrieve an individual property of an instance by creating a new [Manage
 > [!Note]  
 > **System.Management** was the original .NET namespace used to access WMI; however, the APIs in this namespace generally are slower and do not scale as well relative to their more modern **Microsoft.Management.Infrastructure** counterparts.
 
- 
+ 
 
 The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class.
 
@@ -60,7 +63,7 @@ Console.WriteLine(myProperty);
 
 ## Retrieving Part of a WMI Instance Using VBScript
 
-You can retrieve an individual property of an instance by using [**GetObject**](iwbemservices-getobject.md).
+You can retrieve an individual property of an instance by using [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master).
 
 The following code example displays the volume serial number for an instance of the [**Win32\_LogicalDisk**](https://msdn.microsoft.com/library/aa394173) class.
 
@@ -77,11 +80,11 @@ The following procedure is used to request a partial-instance retrieval using C+
 
 **To request a partial-instance retrieval using C++**
 
-1.  Create an [**IWbemContext**](iwbemcontext.md) object with a call to [**CoCreateInstance**](_com_cocreateinstance).
+1.  Create an [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object with a call to [**CoCreateInstance**](_com_cocreateinstance).
 
-    A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](iwbemcontext.md) object to instruct the provider to process a partial-instance retrieval.
+    A context object is an object that WMI uses to pass in more information to a WMI provider. In this case, you are using the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object to instruct the provider to process a partial-instance retrieval.
 
-2.  Add \_\_GET\_EXTENSIONS, \_\_GET\_EXT\_CLIENT\_REQUEST, and any other named values that describe the properties you want to retrieve to the [**IWbemContext**](iwbemcontext.md) object.
+2.  Add \_\_GET\_EXTENSIONS, \_\_GET\_EXT\_CLIENT\_REQUEST, and any other named values that describe the properties you want to retrieve to the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object.
 
     The following table lists the different named values use in your retrieval call.
 
@@ -96,11 +99,11 @@ The following procedure is used to request a partial-instance retrieval using C+
 
     
 
-     
+     
 
-3.  Pass the [**IWbemContext**](iwbemcontext.md) context object into any calls to [**IWbemServices::GetObject**](iwbemservices-getobject.md), [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md), [**IWbemServices::CreateInstanceEnum**](iwbemservices-createinstanceenum.md), or [**IWbemServices::CreateInstanceEnumAsync**](iwbemservices-createinstanceenumasync.md) through the *pCtx* parameter.
+3.  Pass the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) context object into any calls to [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master), [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master), [**IWbemServices::CreateInstanceEnum**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum?branch=master), or [**IWbemServices::CreateInstanceEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master) through the *pCtx* parameter.
 
-    Passing the [**IWbemContext**](iwbemcontext.md) object instructs the provider to allow partial-instance retrievals. In a full-instance retrieval, you would set *pCtx* to a **null** value. If the provider does not support partial-instance retrieval, you will receive an error message.
+    Passing the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) object instructs the provider to allow partial-instance retrievals. In a full-instance retrieval, you would set *pCtx* to a **null** value. If the provider does not support partial-instance retrieval, you will receive an error message.
 
 If the provider cannot comply with the partial-instance operation, the provider either proceeds as if you did not enter the context object, or else returns **WBEM\_E\_UNSUPPORTED\_PARAMETER**.
 
@@ -298,7 +301,7 @@ void main(void)
 
 
 
-When executed, the previous code example writes the following information. The first object description is from the full-instance retrieval. The second object description is from the partial-instance retrieval. The last section shows that you receive a **null** value if you request a property that was not requested in the original [**GetObject**](iwbemservices-getobject.md) call.
+When executed, the previous code example writes the following information. The first object description is from the full-instance retrieval. The second object description is from the partial-instance retrieval. The last section shows that you receive a **null** value if you request a property that was not requested in the original [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) call.
 
 ``` syntax
 Successfully connected to namespace
@@ -345,9 +348,9 @@ file system variable is null - expected
 Press any key to continue
 ```
 
- 
+ 
 
- 
+ 
 
 
 

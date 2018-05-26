@@ -4,17 +4,22 @@ description: Used to store a string that contains a GUID for the filter and a WM
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ea76239b-79e2-49b2-a848-a924450d332a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ea76239b-79e2-49b2-a848-a924450d332a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["GPC-WQL-Filter attribute AD Schema", "gPCWQLFilter attribute AD Schema"]
+keywords:
+- GPC-WQL-Filter attribute AD Schema
+- gPCWQLFilter attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - GPC-WQL-Filter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GPC-WQL-Filter attribute
@@ -38,11 +43,11 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
- 
+ 
 
- 
+ 
 
 
 

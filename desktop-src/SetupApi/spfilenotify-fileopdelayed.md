@@ -1,12 +1,17 @@
 ---
-Description: 'The SPFILENOTIFY\_FILEOPDELAYED notification is sent by SetupInstallFileEx or SetupCommitFileQueue to a callback routine when a file operation was delayed because the file was in use. The operation will be processed the next time the system is rebooted.'
-ms.assetid: 'a0b38e2b-2390-49e5-b288-77c31636e696'
-title: 'SPFILENOTIFY\_FILEOPDELAYED message'
+Description: The SPFILENOTIFY\_FILEOPDELAYED notification is sent by SetupInstallFileEx or SetupCommitFileQueue to a callback routine when a file operation was delayed because the file was in use. The operation will be processed the next time the system is rebooted.
+ms.assetid: a0b38e2b-2390-49e5-b288-77c31636e696
+title: SPFILENOTIFY\_FILEOPDELAYED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_FILEOPDELAYED message
 
-The **SPFILENOTIFY\_FILEOPDELAYED** notification is sent by [**SetupInstallFileEx**](setupinstallfileex.md) or [**SetupCommitFileQueue**](setupcommitfilequeue.md) to a callback routine when a file operation was delayed because the file was in use. The operation will be processed the next time the system is rebooted.
+The **SPFILENOTIFY\_FILEOPDELAYED** notification is sent by [**SetupInstallFileEx**](/windows/win32/Setupapi/nf-setupapi-setupinstallfileexa?branch=master) or [**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master) to a callback routine when a file operation was delayed because the file was in use. The operation will be processed the next time the system is rebooted.
 
 
 ```C++
@@ -25,9 +30,9 @@ SPFILENOTIFY_FILEOPDELAYED
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](filepaths-str.md) structure.
+Pointer to a [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure.
 
-If the delayed operation is a file copy operation, the [**FILEPATHS**](filepaths-str.md) structure contains the following information.
+If the delayed operation is a file copy operation, the [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure contains the following information.
 
 
 
@@ -40,11 +45,11 @@ If the delayed operation is a file copy operation, the [**FILEPATHS**](filepaths
 
 
 
- 
+ 
 
 This temporary file will be copied to the target directory when the system is rebooted. The setup functions automatically generate a path for the temporary file.
 
-If the delayed operation is a file delete operation, the [**FILEPATHS**](filepaths-str.md) structure contains the following information.
+If the delayed operation is a file delete operation, the [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure contains the following information.
 
 
 
@@ -57,7 +62,7 @@ If the delayed operation is a file delete operation, the [**FILEPATHS**](filepat
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,8 +83,8 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -94,24 +99,24 @@ The return value is ignored.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](filepaths-str.md)
+[**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master)
 </dt> <dt>
 
-[**SetupCommitFileQueue**](setupcommitfilequeue.md)
+[**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master)
 </dt> <dt>
 
-[**SetupInstallFile**](setupinstallfile.md)
+[**SetupInstallFile**](/windows/win32/Setupapi/nf-setupapi-setupinstallfilea?branch=master)
 </dt> <dt>
 
-[**SetupInstallFileEx**](setupinstallfileex.md)
+[**SetupInstallFileEx**](/windows/win32/Setupapi/nf-setupapi-setupinstallfileexa?branch=master)
 </dt> <dt>
 
-[**SetupInstallFromInfSection**](setupinstallfrominfsection.md)
+[**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Using Multiple-Response Interactions
 description: Use multiple-response interactions to present a list of choices to the user from which they may select more than one choice.
-ms.assetid: 'd8f49246-93cf-4b02-a09b-e7295eabdd2a'
+ms.assetid: d8f49246-93cf-4b02-a09b-e7295eabdd2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multiple-Response Interactions

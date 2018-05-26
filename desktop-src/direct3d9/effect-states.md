@@ -1,7 +1,12 @@
 ---
-Description: 'Effect states are used to initialize pipeline states in preparation for vertex and pixel processing.'
-ms.assetid: 'b62a6ccc-a1ea-455c-9659-544d4bcaf6a2'
-title: 'Effect States (Direct3D 9)'
+Description: Effect states are used to initialize pipeline states in preparation for vertex and pixel processing.
+ms.assetid: b62a6ccc-a1ea-455c-9659-544d4bcaf6a2
+title: Effect States (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect States (Direct3D 9)
@@ -55,7 +60,7 @@ To enable the best performance for applying an effect, all components of a light
 | LightAttenuation2\[n\] | float  | See the Attenuation2 member of [**D3DLIGHT9**](d3dlight9.md).                                                      |
 | LightDiffuse\[n\]      | float4 | See the Diffuse member of [**D3DLIGHT9**](d3dlight9.md).                                                           |
 | LightDirection\[n\]    | float3 | See the Direction member of [**D3DLIGHT9**](d3dlight9.md).                                                         |
-| LightEnable\[n\]       | bool   | **TRUE** or **FALSE**. See the bEnable argument in [**LightEnable**](idirect3ddevice9--lightenable.md).            |
+| LightEnable\[n\]       | bool   | **TRUE** or **FALSE**. See the bEnable argument in [**LightEnable**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-lightenable?branch=master).            |
 | LightFalloff\[n\]      | float  | [**D3DCOLORVALUE**](d3dcolorvalue.md). See the Falloff member of [**D3DLIGHT9**](d3dlight9.md).                   |
 | LightPhi\[n\]          | float  | See the Phi member of [**D3DLIGHT9**](d3dlight9.md).                                                               |
 | LightPosition\[n\]     | float3 | See the Position member of [**D3DLIGHT9**](d3dlight9.md).                                                          |
@@ -331,7 +336,7 @@ Effect file render states have names similar to the fixed function pipeline stat
 | MultiSampleAntialias     | bool   | Same values as D3DRS\_MULTISAMPLEANTIALIAS.                                                                                                   |
 | MultiSampleMask          | dword  | Same values as D3DRS\_MULTISAMPLEMASK.                                                                                                        |
 | NormalizeNormals         | bool   | True or False. Same values as D3DRS\_NORMALIZENORMALS.                                                                                        |
-| PatchSegments            | float  | Same values as nSegments in [**SetNPatchMode**](idirect3ddevice9--setnpatchmode.md).                                                         |
+| PatchSegments            | float  | Same values as nSegments in [**SetNPatchMode**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setnpatchmode?branch=master).                                                         |
 | PointScale\_A            | float  | Same values as D3DRS\_POINTSCALE\_A.                                                                                                          |
 | PointScale\_B            | float  | Same values as D3DRS\_POINTSCALE\_B.                                                                                                          |
 | PointScale\_C            | float  | Same values as D3DRS\_POINTSCALE\_C.                                                                                                          |

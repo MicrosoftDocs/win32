@@ -1,7 +1,12 @@
 ---
 Description: Using Windowed Mode
-ms.assetid: '09ee4568-348b-4cf9-bb38-dada291cdef9'
+ms.assetid: 09ee4568-348b-4cf9-bb38-dada291cdef9
 title: Using Windowed Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windowed Mode
@@ -33,7 +38,7 @@ pGraph->QueryInterface(IID_IVideoWindow, (void **)&amp;pVidWin);
 
 **Set the Parent Window**
 
-To set the parent window, call the [**IVideoWindow::put\_Owner**](ivideowindow-put-owner.md) method with a handle to your application window. This method takes a variable of type [**OAHWND**](oahwnd.md), so cast the handle to this type:
+To set the parent window, call the [**IVideoWindow::put\_Owner**](/windows/win32/Control/nf-control-ivideowindow-put_owner?branch=master) method with a handle to your application window. This method takes a variable of type [**OAHWND**](oahwnd.md), so cast the handle to this type:
 
 
 ```C++
@@ -44,7 +49,7 @@ pVidWin->put_Owner((OAHWND)hwnd);
 
 **Set New Window Styles**
 
-Change the style of the video window by calling the [**IVideoWindow::put\_WindowStyle**](ivideowindow-put-windowstyle.md) method:
+Change the style of the video window by calling the [**IVideoWindow::put\_WindowStyle**](/windows/win32/Control/nf-control-ivideowindow-put_windowstyle?branch=master) method:
 
 
 ```C++
@@ -57,7 +62,7 @@ The WS\_CHILD flag sets the window to be a child window, and the WS\_CLIPSIBLING
 
 **Position the Video Window**
 
-To set the position of the video relative to the application window's client area, call the [**IVideoWindow::SetWindowPosition**](ivideowindow-setwindowposition.md) method. This method takes a rectangle that specifies the left edge, top edge, width, and height of the video window. For example, the following code stretches the video window to fit the entire client area of the parent window:
+To set the position of the video relative to the application window's client area, call the [**IVideoWindow::SetWindowPosition**](/windows/win32/Control/nf-control-ivideowindow-setwindowposition?branch=master) method. This method takes a rectangle that specifies the left edge, top edge, width, and height of the video window. For example, the following code stretches the video window to fit the entire client area of the parent window:
 
 
 ```C++
@@ -68,11 +73,11 @@ pVidWin->SetWindowPosition(0, 0, rc.right, rc.bottom);
 
 
 
-To get the native size of the video, call the [**IBasicVideo::GetVideoSize**](ibasicvideo-getvideosize.md) method on the Filter Graph Manager. You can use that information to scale the video and keep the correct aspect ratio.
+To get the native size of the video, call the [**IBasicVideo::GetVideoSize**](/windows/win32/Control/nf-control-ibasicvideo-getvideosize?branch=master) method on the Filter Graph Manager. You can use that information to scale the video and keep the correct aspect ratio.
 
 **Respond to WM\_MOVE Messages**
 
-For best performance, you should notify the video renderer whenever the window moves while the graph is paused. Call the [**IVideoWindow::NotifyOwnerMessage**](ivideowindow-notifyownermessage.md) method to forward the WM\_MOVE message:
+For best performance, you should notify the video renderer whenever the window moves while the graph is paused. Call the [**IVideoWindow::NotifyOwnerMessage**](/windows/win32/Control/nf-control-ivideowindow-notifyownermessage?branch=master) method to forward the WM\_MOVE message:
 
 
 ```C++

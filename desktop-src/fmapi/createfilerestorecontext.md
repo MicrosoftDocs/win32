@@ -1,8 +1,9 @@
 ---
 title: CreateFileRestoreContext function
 description: Initializes the context that is used to restore files. The context can be created for an existing recognized volume or for a lost (unrecognized) volume.
-ms.assetid: '0875bc51-a0d8-4490-a594-ceb6ea50c46d'
-keywords: ["CreateFileRestoreContext function Files"]
+ms.assetid: 0875bc51-a0d8-4490-a594-ceb6ea50c46d
+keywords:
+- CreateFileRestoreContext function Files
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Fmapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateFileRestoreContext function
@@ -18,21 +24,21 @@ api_type:
 Initializes the context that is used to restore files. The context can be created for an existing recognized volume or for a lost (unrecognized) volume.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI CreateFileRestoreContext(
-  _In_     PCWSTR                Volume,
-  _In_     RESTORE_CONTEXT_FLAGS Flags,
-  _In_opt_ LONGLONG              StartSector,
-  _In_     LONGLONG              BootSector,
-  _In_     DWORD                 Version,
-  _Out_    PFILE_RESTORE_CONTEXT Context
+  _In_     PCWSTR                Volume,
+  _In_     RESTORE_CONTEXT_FLAGS Flags,
+  _In_opt_ LONGLONG              StartSector,
+  _In_     LONGLONG              BootSector,
+  _In_     DWORD                 Version,
+  _Out_    PFILE_RESTORE_CONTEXT Context
 );
 ```
 
@@ -85,12 +91,12 @@ The major and minor version number. This parameter must match the version of FMA
 
 | Value                                                                                                                                                                                      | Meaning                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| <span id="FILE_RESTORE_VERSION_1"></span><span id="file_restore_version_1"></span><dl> <dt>**FILE\_RESTORE\_VERSION\_1**</dt> </dl> | Windows 7, Windows Server 2008 R2, Windows Server 2008, and Windows Vista<br/> |
-| <span id="FILE_RESTORE_VERSION_2"></span><span id="file_restore_version_2"></span><dl> <dt>**FILE\_RESTORE\_VERSION\_2**</dt> </dl> | Windows 8 and Windows Server 2012<br/>                                         |
+| <span id="FILE_RESTORE_VERSION_1"></span><span id="file_restore_version_1"></span><dl> <dt>**FILE\_RESTORE\_VERSION\_1**</dt> </dl> | Windows 7, Windows Server 2008 R2, Windows Server 2008, and Windows Vista<br/> |
+| <span id="FILE_RESTORE_VERSION_2"></span><span id="file_restore_version_2"></span><dl> <dt>**FILE\_RESTORE\_VERSION\_2**</dt> </dl> | Windows 8 and Windows Server 2012<br/>                                         |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,9 +123,9 @@ If *Flags* contains ContextFlagVolume, the **CreateFileRestoreContext** function
 
 If the files to be restored are encrypted with BitLocker, the **CreateFileRestoreContext** function does one of the following:
 
--   On Windows 8 and Windows Server 2012 (FMAPI version 2),
--   On Windows 7, Windows Server 2008 R2, and Windows Server 2008, if *Flags* contains **ContextFlagDisk**, the **CreateFileRestoreContext** function tries to retrieve all of the required BitLocker key information from the disk and the Trusted Platform Module (TPM). If the necessary information for BitLocker decryption is not available, the file restore context is created with minimal validation. In such cases, you must call the [**SupplyDecryptionInfo**](supplydecryptioninfo.md) function to provide the restore context with the keys that are needed to perform data decryption. Supplying this information is required only if BitLocker setup was completed with an external startup-key file on a USB drive without using a TPM. The call to the **SupplyDecryptionInfo** function must be completed before any call to [**ScanRestorableFiles**](scanrestorablefiles.md) or [**RestoreFile**](restorefile.md).
--   On Windows Vista, if *Flags* contains **ContextFlagVolume**, the function succeeds only if the volume is unlocked by BitLocker. If the volume is not unlocked, the function returns an error.
+-   On Windows 8 and Windows Server 2012 (FMAPI version 2),
+-   On Windows 7, Windows Server 2008 R2, and Windows Server 2008, if *Flags* contains **ContextFlagDisk**, the **CreateFileRestoreContext** function tries to retrieve all of the required BitLocker key information from the disk and the Trusted Platform Module (TPM). If the necessary information for BitLocker decryption is not available, the file restore context is created with minimal validation. In such cases, you must call the [**SupplyDecryptionInfo**](supplydecryptioninfo.md) function to provide the restore context with the keys that are needed to perform data decryption. Supplying this information is required only if BitLocker setup was completed with an external startup-key file on a USB drive without using a TPM. The call to the **SupplyDecryptionInfo** function must be completed before any call to [**ScanRestorableFiles**](scanrestorablefiles.md) or [**RestoreFile**](restorefile.md).
+-   On Windows Vista, if *Flags* contains **ContextFlagVolume**, the function succeeds only if the volume is unlocked by BitLocker. If the volume is not unlocked, the function returns an error.
 
 ## Requirements
 
@@ -127,8 +133,8 @@ If the files to be restored are encrypted with BitLocker, the **CreateFileRestor
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Fmapi.dll</dt> </dl> |
 
 
@@ -149,9 +155,9 @@ If the files to be restored are encrypted with BitLocker, the **CreateFileRestor
 [**SupplyDecryptionInfo**](supplydecryptioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

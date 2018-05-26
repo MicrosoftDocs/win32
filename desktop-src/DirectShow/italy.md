@@ -1,7 +1,12 @@
 ---
-Description: 'For an explanation of the following tables, see Tables and Assignments.'
-ms.assetid: '955fb828-4290-4e60-a5db-d3f243b86d8d'
+Description: For an explanation of the following tables, see Tables and Assignments.
+ms.assetid: 955fb828-4290-4e60-a5db-d3f243b86d8d
 title: Italy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Italy

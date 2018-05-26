@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.OnCounterSelected event
 description: Notifies you when a counter is selected.
-ms.assetid: '788a95a7-47ec-41f9-bf46-324ad3cc8a4e'
-keywords: ["OnCounterSelected event SysMon", "OnCounterSelected event SysMon , SystemMonitor class", "SystemMonitor class SysMon , OnCounterSelected event"]
+ms.assetid: 788a95a7-47ec-41f9-bf46-324ad3cc8a4e
+keywords:
+- OnCounterSelected event SysMon
+- OnCounterSelected event SysMon , SystemMonitor class
+- SystemMonitor class SysMon , OnCounterSelected event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.OnCounterSelected event
@@ -57,8 +65,8 @@ You can receive this event when
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -73,9 +81,9 @@ You can receive this event when
 [**SystemMonitor.OnCounterDeleted**](-systemmonitor-oncounterdeleted.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

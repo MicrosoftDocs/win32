@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientShell IsRemoteProgramClientInstalled property
-description: Retrieves whether the Remote Desktop Connection (RDC) client supports Windows Server 2008 R2 RemoteApp functionality.
+description: Retrieves whether the Remote Desktop Connection (RDC) client supports Windows Server 2008 R2 RemoteApp functionality.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce2fec74-c567-48e1-91d6-655c539d1fb9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ce2fec74-c567-48e1-91d6-655c539d1fb9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsRemoteProgramClientInstalled property Remote Desktop Services", "IsRemoteProgramClientInstalled property Remote Desktop Services , IMsRdpClientShell interface", "IMsRdpClientShell interface Remote Desktop Services , IsRemoteProgramClientInstalled property"]
+keywords:
+- IsRemoteProgramClientInstalled property Remote Desktop Services
+- IsRemoteProgramClientInstalled property Remote Desktop Services , IMsRdpClientShell interface
+- IMsRdpClientShell interface Remote Desktop Services , IsRemoteProgramClientInstalled property
 topic_type:
 - apiref
 api_name:
@@ -18,11 +21,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientShell::IsRemoteProgramClientInstalled property
 
-Retrieves whether the Remote Desktop Connection (RDC) client supports Windows Server 2008 R2 RemoteApp functionality.
+Retrieves whether the Remote Desktop Connection (RDC) client supports Windows Server 2008 R2 RemoteApp functionality.
 
 This property is read-only.
 
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsRemoteProgramClientInstalled(
-  [out] VARIANT_BOOL *pbClientInstalled
+  [out] VARIANT_BOOL *pbClientInstalled
 );
 ```
 
@@ -47,8 +53,8 @@ Retrieves whether the Remote Desktop Connection (RDC) client supports RemoteApp 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClientShell is defined as d012ae6d-c19a-4bfe-b367-201f8911f134<br/>   |
@@ -62,9 +68,9 @@ Retrieves whether the Remote Desktop Connection (RDC) client supports RemoteApp 
 [**IMsRdpClientShell**](imsrdpclientshell.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

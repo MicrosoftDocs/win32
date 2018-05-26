@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_WRITE.'
-ms.assetid: '40B095ED-BB8C-4FBC-BA09-A40BC70B8F9D'
-title: 'IOCTL\_DOT4\_WRITE control code'
+---
+Description: This topic describes IOCTL\_DOT4\_WRITE.
+ms.assetid: 40B095ED-BB8C-4FBC-BA09-A40BC70B8F9D
+title: IOCTL\_DOT4\_WRITE control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_WRITE control code

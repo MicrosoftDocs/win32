@@ -1,8 +1,9 @@
 ---
 title: D3DCompressShaders function
 description: Compresses a set of shaders into a more compact form.
-ms.assetid: 'e53a0d36-3cd4-4327-8969-6a864b38a15b'
-keywords: ["D3DCompressShaders function HLSL"]
+ms.assetid: e53a0d36-3cd4-4327-8969-6a864b38a15b
+keywords:
+- D3DCompressShaders function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCompressShaders function
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
 
- 
+ 
 
 Compresses a set of shaders into a more compact form.
 
@@ -26,10 +32,10 @@ Compresses a set of shaders into a more compact form.
 
 ``` syntax
 HRESULT WINAPI D3DCompressShaders(
-  in  UINT uNumShaders,
-  in  D3D_SHADER_DATA pShaderData,
-  in  UINT uFlags,
-  out ID3DBlob ppCompressedData
+  in  UINT uNumShaders,
+  in  D3D_SHADER_DATA pShaderData,
+  in  UINT uFlags,
+  out ID3DBlob ppCompressedData
 );
 ```
 
@@ -98,9 +104,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

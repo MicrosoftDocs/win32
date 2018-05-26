@@ -1,7 +1,12 @@
 ---
-Description: 'The Step method advances the DVD-Video stream by the specified number of frames.'
-ms.assetid: '21721722-0bf4-4cc7-a0e4-96b353888948'
+Description: The Step method advances the DVD-Video stream by the specified number of frames.
+ms.assetid: 21721722-0bf4-4cc7-a0e4-96b353888948
 title: Step Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step Method

@@ -1,7 +1,12 @@
 ---
 title: Setting Permissions on Virtual Directories
 description: For security reasons, Background Intelligent Transfer Service (BITS) does not upload files to a virtual directory that has scripting and execute permissions enabled.
-ms.assetid: 'cf5c8b50-066f-431e-8bdf-ed0692219b20'
+ms.assetid: cf5c8b50-066f-431e-8bdf-ed0692219b20
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Permissions on Virtual Directories

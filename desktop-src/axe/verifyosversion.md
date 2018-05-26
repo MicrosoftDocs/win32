@@ -1,14 +1,20 @@
 ---
 title: VerifyOSVersion element
 description: This node describes the minimum Windows version required for this assessment.
-ms.assetid: '104B7A46-0D5D-4466-B2E6-0183BD5D851E'
-keywords: ["VerifyOSVersion element Access Execution Engine"]
+ms.assetid: 104B7A46-0D5D-4466-B2E6-0183BD5D851E
+keywords:
+- VerifyOSVersion element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - VerifyOSVersion
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VerifyOSVersion element
@@ -95,9 +101,9 @@ AXE will issue a warning if a job is configured with assessments that do not all
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

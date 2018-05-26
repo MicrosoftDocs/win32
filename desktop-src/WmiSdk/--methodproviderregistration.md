@@ -1,13 +1,16 @@
 ---
-Description: 'Registers method providers with WMI.'
+Description: Registers method providers with WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c5a8ccd3-487e-42a3-bb31-d27da9a711c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c5a8ccd3-487e-42a3-bb31-d27da9a711c4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_MethodProviderRegistration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_MethodProviderRegistration class
@@ -60,8 +63,8 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -79,9 +82,9 @@ The **\_\_MethodProviderRegistration** class is derived from [**\_\_ProviderRegi
 [Registering a Method Provider](registering-a-method-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

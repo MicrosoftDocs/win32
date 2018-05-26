@@ -1,14 +1,20 @@
 ---
 title: registrationTriggerType Complex Type
 description: Defines child elements and sequencing information for the RegistrationTrigger element.
-ms.assetid: '3663c015-67cf-4775-a1a6-4429cce93b96'
-keywords: ["registrationTriggerType complex type Task Scheduler"]
+ms.assetid: 3663c015-67cf-4775-a1a6-4429cce93b96
+keywords:
+- registrationTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - registrationTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # registrationTriggerType Complex Type
@@ -53,8 +59,8 @@ In addition to the child elements defined here, the [**RegistrationTrigger**](ta
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ In addition to the child elements defined here, the [**RegistrationTrigger**](ta
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

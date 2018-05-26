@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GET\_MCI\_DEVICE message
 description: The WM\_CAP\_GET\_MCI\_DEVICE message retrieves the name of an MCI device previously set with the WM\_CAP\_SET\_MCI\_DEVICE message. You can send this message explicitly or by using the capGetMCIDeviceName macro.
-ms.assetid: 'c5d7d955-ab6a-4959-b79e-9ff35a282ba2'
-keywords: ["WM_CAP_GET_MCI_DEVICE message Windows Multimedia"]
+ms.assetid: c5d7d955-ab6a-4959-b79e-9ff35a282ba2
+keywords:
+- WM_CAP_GET_MCI_DEVICE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GET\_MCI\_DEVICE message
 
-The **WM\_CAP\_GET\_MCI\_DEVICE** message retrieves the name of an MCI device previously set with the [**WM\_CAP\_SET\_MCI\_DEVICE**](wm-cap-set-mci-device.md) message. You can send this message explicitly or by using the [**capGetMCIDeviceName**](capgetmcidevicename.md) macro.
+The **WM\_CAP\_GET\_MCI\_DEVICE** message retrieves the name of an MCI device previously set with the [**WM\_CAP\_SET\_MCI\_DEVICE**](wm-cap-set-mci-device.md) message. You can send this message explicitly or by using the [**capGetMCIDeviceName**](/windows/win32/Vfw/nf-vfw-capgetmcidevicename?branch=master) macro.
 
 
 ```C++
@@ -54,8 +60,8 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

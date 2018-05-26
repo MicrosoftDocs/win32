@@ -1,8 +1,11 @@
 ---
 title: Device.ExecuteCommand method
 description: Issues the command to the imaging device.
-ms.assetid: '1be9ed21-24a7-4034-8cb3-7c0e2776cb35'
-keywords: ["ExecuteCommand method WIA Automation", "ExecuteCommand method WIA Automation , Device object", "Device object WIA Automation , ExecuteCommand method"]
+ms.assetid: 1be9ed21-24a7-4034-8cb3-7c0e2776cb35
+keywords:
+- ExecuteCommand method WIA Automation
+- ExecuteCommand method WIA Automation , Device object
+- Device object WIA Automation , ExecuteCommand method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.ExecuteCommand method
@@ -59,8 +67,8 @@ For example code, see [Take a Picture](-wiaaut-shared-samples.md#take-a-picture)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -100,9 +108,9 @@ For example code, see [Take a Picture](-wiaaut-shared-samples.md#take-a-picture)
 [**Item (Items)**](-wiaaut-iitems-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

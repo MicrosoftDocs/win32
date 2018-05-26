@@ -1,8 +1,9 @@
 ---
 title: Network.bandWidth
 description: The bandWidth property retrieves the current bandwidth of the clip.
-ms.assetid: '2ef86f2a-98e9-4544-a740-c2237f06c135'
-keywords: ["Network.bandWidth Windows Media Player"]
+ms.assetid: 2ef86f2a-98e9-4544-a740-c2237f06c135
+keywords:
+- Network.bandWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.bandWidth
@@ -81,9 +87,9 @@ The following Microsoft JScript example uses *Network*.**bandWidth** to display 
 [**Player.URL**](player-url.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

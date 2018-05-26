@@ -1,14 +1,20 @@
 ---
 title: FilePath (Properties) element
 description: Describes the path to the file.
-ms.assetid: '034F718B-70AF-4E09-B9A8-8B24749264CE'
-keywords: ["FilePath (Properties) element Access Execution Engine"]
+ms.assetid: 034F718B-70AF-4E09-B9A8-8B24749264CE
+keywords:
+- FilePath (Properties) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - FilePath (Properties)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilePath (Properties) element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Reading or Copying Pixels
 description: You can read pixels from the framebuffer into memory, encode them in various ways, and store the encoded result in memory with glReadPixels.
-ms.assetid: '6a6a710e-4d19-4fbf-9f25-abf22635c806'
-keywords: ["OpenGL processing pipeline,reading pixels", "OpenGL processing pipeline,copying pixels"]
+ms.assetid: 6a6a710e-4d19-4fbf-9f25-abf22635c806
+keywords:
+- OpenGL processing pipeline,reading pixels
+- OpenGL processing pipeline,copying pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading or Copying Pixels

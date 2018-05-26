@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the type of link when crawling or indexing.'
-ms.assetid: '2a0ddb31-df35-4da5-9950-b091cd461556'
+---
+Description: Specifies the type of link when crawling or indexing.
+ms.assetid: 2a0ddb31-df35-4da5-9950-b091cd461556
 title: LINKTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LINKTYPE enumeration

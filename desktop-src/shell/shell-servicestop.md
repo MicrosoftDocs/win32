@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stops a named service.'
-ms.assetid: 'AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947'
-title: 'Shell.ServiceStop method'
+---
+Description: Stops a named service.
+ms.assetid: AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947
+title: Shell.ServiceStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.ServiceStop method

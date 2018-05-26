@@ -1,8 +1,17 @@
 ---
 title: Status Location
 description: Status Location
-ms.assetid: '9051a2f7-ae39-4004-9d8c-a61141631b23'
-keywords: ["Windows Media Player Mobile skins,status display", "skins,status display", "reference for skins,status display", "status display in skins,location"]
+ms.assetid: 9051a2f7-ae39-4004-9d8c-a61141631b23
+keywords:
+- Windows Media Player Mobile skins,status display
+- skins,status display
+- reference for skins,status display
+- status display in skins,location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Location

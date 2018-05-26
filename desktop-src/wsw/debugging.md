@@ -1,8 +1,16 @@
 ---
 title: Debugging
 description: A set of functions is only available in the DEBUG build, and are intended for testing and debugging.
-ms.assetid: '23c01420-3f51-4c3f-9ee1-2614de3a278f'
-keywords: ["Debugging Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 23c01420-3f51-4c3f-9ee1-2614de3a278f
+keywords:
+- Debugging Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging

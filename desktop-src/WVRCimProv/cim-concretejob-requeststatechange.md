@@ -4,13 +4,16 @@ description: Requests that the state of the job be changed to the specified valu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5cfa4006-0754-45cf-a1a9-e22fbd9c07ad'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5cfa4006-0754-45cf-a1a9-e22fbd9c07ad
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method", "RequestStateChange method, CIM_ConcreteJob class", "CIM_ConcreteJob class, RequestStateChange method"]
+keywords:
+- RequestStateChange method
+- RequestStateChange method, CIM_ConcreteJob class
+- CIM_ConcreteJob class, RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_ConcreteJob class
@@ -30,8 +36,8 @@ Requests that the state of the job be changed to the specified value. The allowe
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -133,7 +139,7 @@ Specifies the maximum amount of time that the client expects the transition to t
 > [!Note]  
 > If the implementation does not support this parameter and this property does not contain 0 or null, the **Use Of Timeout Parameter Not Supported** value must be returned.
 
- 
+ 
 
 </dd> </dl>
 
@@ -164,7 +170,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -179,10 +185,10 @@ This method returns one of the following values.
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -192,7 +198,7 @@ This method returns one of the following values.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -206,9 +212,9 @@ This method returns one of the following values.
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the usage mode for a UVC H.264 encoder.'
-ms.assetid: '05158F47-CE01-4C99-8FFA-6BBD4F829B59'
-title: 'MF\_MT\_H264\_USAGE attribute'
+---
+Description: Specifies the usage mode for a UVC H.264 encoder.
+ms.assetid: 05158F47-CE01-4C99-8FFA-6BBD4F829B59
+title: MF\_MT\_H264\_USAGE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_H264\_USAGE attribute
@@ -14,13 +19,13 @@ Specifies the usage mode for a UVC H.264 encoder.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

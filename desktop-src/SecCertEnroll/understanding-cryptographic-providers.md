@@ -1,7 +1,12 @@
 ---
-Description: 'Providers implement cryptographic algorithms, generate keys, provide key storage, and authenticate users. Providers can be implemented in hardware, software, or both.'
-ms.assetid: '42f76d22-1f0e-4e20-a19e-e5e926ab27f9'
+Description: Providers implement cryptographic algorithms, generate keys, provide key storage, and authenticate users. Providers can be implemented in hardware, software, or both.
+ms.assetid: 42f76d22-1f0e-4e20-a19e-e5e926ab27f9
 title: Understanding Cryptographic Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Cryptographic Providers

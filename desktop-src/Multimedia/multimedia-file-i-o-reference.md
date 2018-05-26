@@ -1,8 +1,23 @@
 ---
 title: Multimedia File I/O Reference
 description: Multimedia File I/O Reference
-ms.assetid: '1f24432e-7407-4b97-80ab-0a0c40c09253'
-keywords: ["Windows multimedia,file I/O reference", "multimedia,file I/O reference", "multimedia input,file I/O reference", "multimedia file I/O,reference", "file I/O,reference", "input and output (I/O),reference", "I/O (input and output),reference", "reference for multimedia file I/O,about", "multimedia file I/O reference,about", "file I/O reference,about"]
+ms.assetid: 1f24432e-7407-4b97-80ab-0a0c40c09253
+keywords:
+- Windows multimedia,file I/O reference
+- multimedia,file I/O reference
+- multimedia input,file I/O reference
+- multimedia file I/O,reference
+- file I/O,reference
+- input and output (I/O),reference
+- I/O (input and output),reference
+- reference for multimedia file I/O,about
+- multimedia file I/O reference,about
+- file I/O reference,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia File I/O Reference
@@ -38,7 +53,7 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Custom I/O Procedures
 
--   [**IOProc**](ioproc.md)
+-   [**IOProc**](/windows/win32/Mmsystem/?branch=master)
 -   [**mmioInstallIOProc**](mmioinstallioproc.md)
 -   [**MMIOM\_CLOSE**](mmiom-close.md)
 -   [**MMIOM\_OPEN**](mmiom-open.md)

@@ -1,8 +1,22 @@
 ---
 title: Reading Files with the Asynchronous Reader
 description: Reading Files with the Asynchronous Reader
-ms.assetid: '3cc72f8d-bf1f-416d-bc90-21dfb92a55aa'
-keywords: ["Windows Media Format SDK,reading files", "Windows Media Format SDK,asynchronous readers", "Advanced Systems Format (ASF),asynchronous readers", "ASF (Advanced Systems Format),asynchronous readers", "Advanced Systems Format (ASF),reading files", "ASF (Advanced Systems Format),reading files", "asynchronous readers,IWMReaderCallback interface", "IWMReaderCallback,asynchronous readers", "asynchronous readers,reading files"]
+ms.assetid: 3cc72f8d-bf1f-416d-bc90-21dfb92a55aa
+keywords:
+- Windows Media Format SDK,reading files
+- Windows Media Format SDK,asynchronous readers
+- Advanced Systems Format (ASF),asynchronous readers
+- ASF (Advanced Systems Format),asynchronous readers
+- Advanced Systems Format (ASF),reading files
+- ASF (Advanced Systems Format),reading files
+- asynchronous readers,IWMReaderCallback interface
+- IWMReaderCallback,asynchronous readers
+- asynchronous readers,reading files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Files with the Asynchronous Reader
@@ -11,7 +25,7 @@ The asynchronous reader reads the content from ASF files using multiple threads 
 
 The most basic functionality of the reader object can be broken down into the following steps. In these steps "the application" refers to the program you write using the Windows Media Format SDK.
 
-1.  The application implements the [**IWMReaderCallback**](iwmreadercallback.md) interface to handle messages from the reader. This includes two callback methods: **OnStatus**, which receives messages relating to the status of various aspects of the reader and **OnSample**, which receives uncompressed samples from the reader.
+1.  The application implements the [**IWMReaderCallback**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreadercallback?branch=master) interface to handle messages from the reader. This includes two callback methods: **OnStatus**, which receives messages relating to the status of various aspects of the reader and **OnSample**, which receives uncompressed samples from the reader.
 2.  The application passes to the reader the name of a file to read. When the reader opens the file, it assigns an output number to each stream. If the file uses mutual exclusion, the reader assigns a single output for all of the mutually exclusive streams.
 3.  The application gets information about the configuration of the various outputs from the reader. The information gathered will enable the application to properly render media samples.
 4.  The application instructs the reader to begin reading data from the file. The reader begins delivering uncompressed samples to the **OnSample** callback one at a time in buffers wrapped in buffer objects. The samples delivered by the reader are in presentation-time order. The reader will continue delivering samples until stopped by the application or until the end of the file is reached.

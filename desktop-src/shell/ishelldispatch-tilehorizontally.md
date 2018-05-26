@@ -1,7 +1,12 @@
-﻿---
-Description: 'Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Show windows stacked.'
-ms.assetid: '85785510-6B75-450a-A9BB-6C3B4F6194E2'
-title: 'IShellDispatch.TileHorizontally method'
+---
+Description: Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Show windows stacked.
+ms.assetid: 85785510-6B75-450a-A9BB-6C3B4F6194E2
+title: IShellDispatch.TileHorizontally method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.TileHorizontally method

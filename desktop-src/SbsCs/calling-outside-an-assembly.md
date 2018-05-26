@@ -1,12 +1,17 @@
 ---
 Description: Calling Outside An Assembly
-ms.assetid: '7a59f707-fb89-4899-891f-4cd556b62b26'
+ms.assetid: 7a59f707-fb89-4899-891f-4cd556b62b26
 title: Calling Outside An Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling Outside An Assembly
 
-Hosted components should ensure that the correct activation context is active when calling outside the component. Calls into outside code that was found by calling [**CreateActCtx**](createactctx.md) and then [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) or [**CoCreateInstance**](_com_cocreateinstance), should be called with the same context that was used to find it. Calls into code that was found outside of activation contexts, or calls back into the hosting application should be called with the application default activation context.
+Hosted components should ensure that the correct activation context is active when calling outside the component. Calls into outside code that was found by calling [**CreateActCtx**](/windows/win32/Winbase/nf-winbase-createactctxa?branch=master) and then [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) or [**CoCreateInstance**](_com_cocreateinstance), should be called with the same context that was used to find it. Calls into code that was found outside of activation contexts, or calls back into the hosting application should be called with the application default activation context.
 
 Compiling with ISOLATION\_AWARE\_ENABLED defined may be useful when calling outside of hosted components. However this means that only calls to Windows APIs are isolated to the component's activation context. This is sufficient for most cases because calls to third-party functions do not have a context activated before being called. Compiling with ISOLATION\_AWARE\_ENABLED defined does not help if your component uses several activation contexts with various platform APIs.
 

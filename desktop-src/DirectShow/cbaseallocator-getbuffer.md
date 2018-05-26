@@ -1,22 +1,27 @@
 ---
-Description: 'The GetBuffer method retrieves a media sample that contains a buffer. This method implements the IMemAllocator::GetBuffer method.'
-ms.assetid: '81694b9c-b325-47c8-94e4-f54d1329a684'
-title: 'CBaseAllocator.GetBuffer method'
+Description: The GetBuffer method retrieves a media sample that contains a buffer. This method implements the IMemAllocatorGetBuffer method.
+ms.assetid: 81694b9c-b325-47c8-94e4-f54d1329a684
+title: CBaseAllocator.GetBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.GetBuffer method
 
-The `GetBuffer` method retrieves a media sample that contains a buffer. This method implements the [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md) method.
+The `GetBuffer` method retrieves a media sample that contains a buffer. This method implements the [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetBuffer(
-   IMediaSample   **ppBuffer,
-   REFERENCE_TIME *pStartTime,
-   REFERENCE_TIME *pEndTime,
-   DWORD          dwFlags
+   IMediaSample   **ppBuffer,
+   REFERENCE_TIME *pStartTime,
+   REFERENCE_TIME *pEndTime,
+   DWORD          dwFlags
 );
 ```
 
@@ -29,7 +34,7 @@ HRESULT GetBuffer(
 *ppBuffer* 
 </dt> <dd>
 
-Receives a pointer to the buffer's [**IMediaSample**](imediasample.md) interface. The caller must release the interface.
+Receives a pointer to the buffer's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface. The caller must release the interface.
 
 </dd> <dt>
 
@@ -60,7 +65,7 @@ Bitwise combination of zero or more flags. The base class supports the following
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -78,13 +83,13 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
 Unless the caller specifies the **AM\_GBF\_NOWAIT** flag in *dwFlags*, this method blocks until the next sample is available.
 
-The retrieved media sample has a valid pointer to the allocated buffer. The caller is responsible for setting any other properties on the sample, such as the time stamps, the media times, or the sync-point property. For more information, see [**IMediaSample**](imediasample.md).
+The retrieved media sample has a valid pointer to the allocated buffer. The caller is responsible for setting any other properties on the sample, such as the time stamps, the media times, or the sync-point property. For more information, see [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master).
 
 In the base class, the *pStartTime* and *pEndTime* parameters are ignored. Derived classes can use these values. For example, the allocator for the [Video Renderer](video-renderer-filter.md) filter uses these values to synchronize switching between DirectDraw surfaces.
 
@@ -108,9 +113,9 @@ If the method needs to wait on a sample, it increments the count of waiting obje
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

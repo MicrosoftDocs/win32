@@ -1,13 +1,26 @@
 ---
 title: To Enumerate Input Formats
 description: To Enumerate Input Formats
-ms.assetid: '482adfc4-d9ed-403d-912b-1a5a70baf04c'
-keywords: ["Advanced Systems Format (ASF),enumerating input formats", "ASF (Advanced Systems Format),enumerating input formats", "profiles,enumerating input formats", "codecs,enumerating input formats", "Advanced Systems Format (ASF),input format enumerations", "ASF (Advanced Systems Format),input format enumerations", "profiles,input format enumerations", "codecs,input format enumerations"]
+ms.assetid: 482adfc4-d9ed-403d-912b-1a5a70baf04c
+keywords:
+- Advanced Systems Format (ASF),enumerating input formats
+- ASF (Advanced Systems Format),enumerating input formats
+- profiles,enumerating input formats
+- codecs,enumerating input formats
+- Advanced Systems Format (ASF),input format enumerations
+- ASF (Advanced Systems Format),input format enumerations
+- profiles,input format enumerations
+- codecs,input format enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Enumerate Input Formats
 
-Each of the Windows Media codecs accepts one or more types of input media for compression. The Windows Media Format SDK enables you to input a wider variety of formats than those supported by the codecs. The SDK does this by performing pre-processing transformations on the inputs when necessary, such as resizing video frames or resampling audio. In any case, you must ensure that the input formats for the files you write match the data you send to the writer. Each codec has a default input media format that is set in the writer when the profile is loaded. You can examine the default input format by calling [**IWMWriter::GetInputProps**](iwmwriter-getinputprops.md).
+Each of the Windows Media codecs accepts one or more types of input media for compression. The Windows Media Format SDK enables you to input a wider variety of formats than those supported by the codecs. The SDK does this by performing pre-processing transformations on the inputs when necessary, such as resizing video frames or resampling audio. In any case, you must ensure that the input formats for the files you write match the data you send to the writer. Each codec has a default input media format that is set in the writer when the profile is loaded. You can examine the default input format by calling [**IWMWriter::GetInputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops?branch=master).
 
 The video codecs support the following formats: IYUV, I420, YV12, YUY2, UYVY, YVYU, YVU9, RGB 32, RGB 24, RGB 565, RGB 555, and RGB 8. The audio codecs support PCM audio.
 
@@ -15,11 +28,11 @@ To enumerate the input formats supported by a codec, perform the following steps
 
 1.  Create a writer object and set a profile to use. For more information about setting profiles in the writer, see [To Use Profiles with the Writer](to-use-profiles-with-the-writer.md).
 2.  Identify the input number for which you want to check the formats. For more information about identifying input numbers, see [To Identify Inputs By Number](to-identify-inputs-by-number.md).
-3.  Retrieve the total number of input formats supported by the desired input by calling [**IWMWriter::GetInputFormatCount**](iwmwriter-getinputformatcount.md).
+3.  Retrieve the total number of input formats supported by the desired input by calling [**IWMWriter::GetInputFormatCount**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount?branch=master).
 4.  Loop through all of the supported input formats, performing the following steps for each.
-    -   Retrieve the [**IWMInputMediaProps**](iwminputmediaprops.md) interface for the input format by calling [**IWMWriter::GetInputFormat**](iwmwriter-getinputformat.md).
-    -   Retrieve the [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure for the input format. Call [**IWMMediaProps::GetMediaType**](iwmmediaprops-getmediatype.md), passing **NULL** for the *pType* parameter to get the size of the structure. Then allocate memory to hold the structure and call **GetMediaType** again to get the structure. [**IWMInputMediaProps**](iwminputmediaprops.md) inherits from [**IWMMediaProps**](iwmmediaprops.md), so you can make the calls to **GetMediaType** from the instance of **IWMInputMediaProps** retrieved in the previous step.
-    -   The format described in the [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure contains all of the pertinent information about the input format. The basic format of the media is identified by **WM\_MEDIA\_TYPE.subtype**. For video streams, the **pbFormat** member points to a dynamically allocated [**WMVIDEOINFOHEADER**](wmvideoinfoheader.md) structure which contains further details about the stream, including rectangle size. The size of the input frames is not required to match exactly a size supported by the codec. If they do not match, the SDK run-time components, in many cases, will automatically resize the input video frames to something the codec can accept.
+    -   Retrieve the [**IWMInputMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwminputmediaprops?branch=master) interface for the input format by calling [**IWMWriter::GetInputFormat**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat?branch=master).
+    -   Retrieve the [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure for the input format. Call [**IWMMediaProps::GetMediaType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype?branch=master), passing **NULL** for the *pType* parameter to get the size of the structure. Then allocate memory to hold the structure and call **GetMediaType** again to get the structure. [**IWMInputMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwminputmediaprops?branch=master) inherits from [**IWMMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmediaprops?branch=master), so you can make the calls to **GetMediaType** from the instance of **IWMInputMediaProps** retrieved in the previous step.
+    -   The format described in the [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure contains all of the pertinent information about the input format. The basic format of the media is identified by **WM\_MEDIA\_TYPE.subtype**. For video streams, the **pbFormat** member points to a dynamically allocated [**WMVIDEOINFOHEADER**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader?branch=master) structure which contains further details about the stream, including rectangle size. The size of the input frames is not required to match exactly a size supported by the codec. If they do not match, the SDK run-time components, in many cases, will automatically resize the input video frames to something the codec can accept.
 
 The following example code finds the input format of the subtype passed as a parameter. For more information about using this code, see [Using the Code Examples](using-the-code-examples.md).
 
@@ -105,7 +118,7 @@ Exit:
 
 <dl> <dt>
 
-[**IWMWriter Interface**](iwmwriter.md)
+[**IWMWriter Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriter?branch=master)
 </dt> <dt>
 
 [**Writing ASF Files**](writing-asf-files.md)

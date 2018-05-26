@@ -1,13 +1,16 @@
 ---
-Description: 'The Add method of the SWbemPrivilegeSet object adds an SWbemPrivilege object to the SWbemPrivilegeSet collection. If a privilege with the same name already exists in the collection, it is replaced.'
+Description: The Add method of the SWbemPrivilegeSet object adds an SWbemPrivilege object to the SWbemPrivilegeSet collection. If a privilege with the same name already exists in the collection, it is replaced.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7d44193f-60e1-4e83-8640-31d8df509d98'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7d44193f-60e1-4e83-8640-31d8df509d98
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPrivilegeSet.Add method'
+title: SWbemPrivilegeSet.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilegeSet.Add method
@@ -35,7 +38,7 @@ objPrivilege = .Add( _
 *iPrivilege* 
 </dt> <dd>
 
-Required. One of the WMI constants from the [**WbemPrivilegeEnum**](wbemprivilegeenum.md) group. These constants are essentially integers that represent specific privileges. For example, to add the privilege that allows you to shut down a computer system, use the **wbemPrivilegeShutdown** constant. In a script, you must use the numeric equivalent of 23 (0x17). For a complete list of these constants and the associated privilege strings, see [**Privilege Constants**](privilege-constants.md).
+Required. One of the WMI constants from the [**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master) group. These constants are essentially integers that represent specific privileges. For example, to add the privilege that allows you to shut down a computer system, use the **wbemPrivilegeShutdown** constant. In a script, you must use the numeric equivalent of 23 (0x17). For a complete list of these constants and the associated privilege strings, see [**Privilege Constants**](privilege-constants.md).
 
 </dd> <dt>
 
@@ -73,8 +76,8 @@ A code example using this method is described in the [**SWbemPrivilegeSet**](swb
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -102,15 +105,15 @@ A code example using this method is described in the [**SWbemPrivilegeSet**](swb
 [**SWbemPrivilegeSet.Remove**](swbemprivilegeset-remove.md)
 </dt> <dt>
 
-[**WbemPrivilegeEnum**](wbemprivilegeenum.md)
+[**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 </dt> <dt>
 
 [**Privilege Constants**](privilege-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

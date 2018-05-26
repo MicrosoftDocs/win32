@@ -1,7 +1,12 @@
 ---
-Description: 'Applications can depend on a specific version of a shared DLL and start to fail if another application is installed with a newer or older version of the same DLL.'
-ms.assetid: '3b426b6c-1ad5-43b9-81ea-5e6d3c6588c8'
-title: 'Dynamic-Link Library Redirection'
+Description: Applications can depend on a specific version of a shared DLL and start to fail if another application is installed with a newer or older version of the same DLL.
+ms.assetid: 3b426b6c-1ad5-43b9-81ea-5e6d3c6588c8
+title: Dynamic-Link Library Redirection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic-Link Library Redirection
@@ -10,7 +15,7 @@ Applications can depend on a specific version of a shared DLL and start to fail 
 
 To use DLL redirection, create a *redirection file* for your application. The redirection file must be named as follows: *App\_name*.local. For example, if the application name is Editor.exe, the redirection file should be named Editor.exe.local. You must install the .local file in the application directory. You must also install the DLLs in the application directory.
 
-The contents of a redirection file are ignored, but its presence causes Windows to check the application directory first whenever it loads a DLL, regardless of the path specified to [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md). If the DLL is not found in the application directory, then these functions use their usual search order. For example, if the application c:\\myapp\\myapp.exe calls **LoadLibrary** using the following path:
+The contents of a redirection file are ignored, but its presence causes Windows to check the application directory first whenever it loads a DLL, regardless of the path specified to [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master). If the DLL is not found in the application directory, then these functions use their usual search order. For example, if the application c:\\myapp\\myapp.exe calls **LoadLibrary** using the following path:
 
 c:\\program files\\common files\\system\\mydll.dll
 

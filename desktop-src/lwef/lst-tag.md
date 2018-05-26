@@ -1,7 +1,12 @@
 ---
 title: Lst Tag
 description: Lst Tag
-ms.assetid: '82246675-9aa1-4603-a8f7-a5fd7b3f6be2'
+ms.assetid: 82246675-9aa1-4603-a8f7-a5fd7b3f6be2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lst Tag

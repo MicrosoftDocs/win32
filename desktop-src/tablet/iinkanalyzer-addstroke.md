@@ -1,7 +1,12 @@
 ---
-Description: 'Adds stroke data for a single stroke to the IInkAnalyzer and assigns the active input thread''s culture identifier to the stroke.'
-ms.assetid: '0e603e5a-d722-4ab8-bc59-605e131c863b'
-title: 'IInkAnalyzer::AddStroke method'
+Description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns the active input threads culture identifier to the stroke.
+ms.assetid: 0e603e5a-d722-4ab8-bc59-605e131c863b
+title: IInkAnalyzerAddStroke method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::AddStroke method
@@ -13,12 +18,12 @@ Adds stroke data for a single stroke to the [**IInkAnalyzer**](iinkanalyzer.md) 
 
 ```C++
 HRESULT AddStroke(
-  [in]  LONG         lStrokeId,
-  [in]  ULONG        ulStrokePacketDataCount,
-  [in]  LONG         *plStrokePacketData,
-  [in]  ULONG        ulStrokePacketDescriptionCount,
-  [in]  GUID         *pStrokePacketDescriptionGuids,
-  [out] IContextNode **ppContextNodeStrokeAddedTo
+  [in]  LONG         lStrokeId,
+  [in]  ULONG        ulStrokePacketDataCount,
+  [in]  LONG         *plStrokePacketData,
+  [in]  ULONG        ulStrokePacketDescriptionCount,
+  [in]  GUID         *pStrokePacketDescriptionGuids,
+  [out] IContextNode **ppContextNodeStrokeAddedTo
 );
 ```
 
@@ -79,7 +84,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodeStrokeAddedTo* when you no longer need to use the object.
 
- 
+ 
 
 When *ppContextNodeStrokeAddedTo* is **NULL**, it indicates that the caller is not interested in the return value from the method.
 
@@ -99,7 +104,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -131,9 +136,9 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

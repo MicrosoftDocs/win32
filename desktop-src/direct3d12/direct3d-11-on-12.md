@@ -1,7 +1,12 @@
 ---
 title: Direct3D 11 on 12
 description: D3D11On12 is a mechanism by which developers can use D3D11 interfaces and objects to drive the D3D12 API.
-ms.assetid: '8412D8BB-B6DD-471E-AAB2-A81121FB0FFA'
+ms.assetid: 8412D8BB-B6DD-471E-AAB2-A81121FB0FFA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11 on 12
@@ -18,15 +23,15 @@ D3D11On12 is a mechanism by which developers can use D3D11 interfaces and object
 
 ## Initializing D3D11On12
 
-To begin using D3D11On12, the first step is to create a D3D12 device and command queue. These objects are provided as input to the initialization method [**D3D11On12CreateDevice**](d3d11on12createdevice.md). You can think of this method as creating a D3D11 device with the imaginary driver type D3D\_DRIVER\_TYPE\_11ON12, where the D3D11 driver is responsible for creating objects and submitting command lists to the D3D12 API.
+To begin using D3D11On12, the first step is to create a D3D12 device and command queue. These objects are provided as input to the initialization method [**D3D11On12CreateDevice**](/windows/win32/d3d11on12/nf-d3d11on12-d3d11on12createdevice?branch=master). You can think of this method as creating a D3D11 device with the imaginary driver type D3D\_DRIVER\_TYPE\_11ON12, where the D3D11 driver is responsible for creating objects and submitting command lists to the D3D12 API.
 
-After you have a D3D11 device and immediate context, you can `QueryInterface` off of the device for the [**ID3D11On12Device**](id3d11on12device.md) interface. This is the primary interface that is used for interop between D3D11 and D3D12. In order to have both the D3D11 device context and the D3D12 command lists operate on the same resources, it is necessary to create “wrapped resources” using the [**CreateWrappedResource**](id3d11on12device-createwrappedresource.md) API. This method “promotes” a D3D12 resource to be understandable in D3D11. A wrapped resource starts out in the “acquired” state, a property which is manipulated by the [**AcquireWrappedResources**](id3d11on12device-acquirewrappedresources.md) and [**ReleaseWrappedResources**](id3d11on12device-releasewrappedresources.md) methods.
+After you have a D3D11 device and immediate context, you can `QueryInterface` off of the device for the [**ID3D11On12Device**](/windows/win32/d3d11on12/nn-d3d11on12-id3d11on12device?branch=master) interface. This is the primary interface that is used for interop between D3D11 and D3D12. In order to have both the D3D11 device context and the D3D12 command lists operate on the same resources, it is necessary to create “wrapped resources” using the [**CreateWrappedResource**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource?branch=master) API. This method “promotes” a D3D12 resource to be understandable in D3D11. A wrapped resource starts out in the “acquired” state, a property which is manipulated by the [**AcquireWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources?branch=master) and [**ReleaseWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources?branch=master) methods.
 
 ## Example Usage
 
 Typical usage of D3D11On12 would be to use D2D to render text or images on top of a D3D12 back buffer. See the D3D11On12 sample for example code. Here is a rough outline of the steps to take to do so:
 
--   Create a D3D12 device ([**D3D12CreateDevice**](d3d12createdevice.md)) and a D3D12 swap chain ([**CreateSwapChain**](https://msdn.microsoft.com/library/windows/desktop/bb174537) with an [**ID3D12CommandQueue**](id3d12commandqueue.md) as an input).
+-   Create a D3D12 device ([**D3D12CreateDevice**](/windows/win32/D3D12/nf-d3d12-d3d12createdevice?branch=master)) and a D3D12 swap chain ([**CreateSwapChain**](https://msdn.microsoft.com/library/windows/desktop/bb174537) with an [**ID3D12CommandQueue**](/windows/win32/D3D12/nn-d3d12-id3d12commandqueue?branch=master) as an input).
 -   Create a D3D11On12 device using the D3D12 device and the same command queue as input.
 -   Retrieve the swap chain back buffers, and create D3D11 wrapped resources for each of them. The input state used should be the last way that D3D12 used it (e.g. RENDER\_TARGET) and the output state should be the way that D3D12 will use it after D3D11 has finished (e.g. PRESENT).
 -   Initialize D2D, and provide the D3D11 wrapped resources to D2D to prepare for rendering.
@@ -34,9 +39,9 @@ Typical usage of D3D11On12 would be to use D2D to render text or images on top o
 Then, on each frame, do the following:
 
 -   Render into the current swap chain back buffer using a D3D12 command list, and execute it.
--   Acquire the current back buffer’s wrapped resource ([**AcquireWrappedResources**](id3d11on12device-acquirewrappedresources.md)).
+-   Acquire the current back buffer’s wrapped resource ([**AcquireWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources?branch=master)).
 -   Issue D2D rendering commands.
--   Release the wrapped resource ([**ReleaseWrappedResources**](id3d11on12device-releasewrappedresources.md)).
+-   Release the wrapped resource ([**ReleaseWrappedResources**](/windows/win32/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources?branch=master)).
 -   Flush the D3D11 immediate context.
 -   Present ([**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797)).
 

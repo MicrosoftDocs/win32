@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetTimelineObject method sets the timeline for the render engine to use.'
-ms.assetid: '9b60b148-9768-43ba-a986-a96838c4d2bb'
-title: 'IRenderEngine::SetTimelineObject method'
+---
+Description: The SetTimelineObject method sets the timeline for the render engine to use.
+ms.assetid: 9b60b148-9768-43ba-a986-a96838c4d2bb
+title: IRenderEngineSetTimelineObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetTimelineObject method

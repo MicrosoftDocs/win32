@@ -1,8 +1,11 @@
 ---
 title: background.removeObjects method
 description: Removes all g text and g image elements added to the gadget background using the addTextObject and addImageObject methods.
-ms.assetid: '5f915fe1-2930-45ea-ac8c-747127fee1f5'
-keywords: ["removeObjects method Windows Sidebar", "removeObjects method Windows Sidebar , background object", "background object Windows Sidebar , removeObjects method"]
+ms.assetid: 5f915fe1-2930-45ea-ac8c-747127fee1f5
+keywords:
+- removeObjects method Windows Sidebar
+- removeObjects method Windows Sidebar , background object
+- background object Windows Sidebar , removeObjects method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # background.removeObjects method
@@ -59,10 +67,10 @@ imgBackground.removeObjects();
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -85,9 +93,9 @@ imgBackground.removeObjects();
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Support StopTracing method
 description: Finishes advanced ETW tracing using a Windows Performance Analyzer (WPA) profile.
-ms.assetid: '51355786-10B0-412C-AD66-7136D5819C61'
-keywords: ["StopTracing method Access Execution Engine", "StopTracing method Access Execution Engine , Support interface", "Support interface Access Execution Engine , StopTracing method"]
+ms.assetid: 51355786-10B0-412C-AD66-7136D5819C61
+keywords:
+- StopTracing method Access Execution Engine
+- StopTracing method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , StopTracing method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::StopTracing method
@@ -22,9 +30,9 @@ Finishes advanced ETW tracing using a Windows Performance Analyzer (WPA) profile
 
 ```C++
 virtual HRESULT StopTracing(
-  [in] LPCWSTR profileFileName,
-  [in] LPCWSTR propertyName,
-  [in] LPCWSTR outputFileName
+  [in] LPCWSTR profileFileName,
+  [in] LPCWSTR propertyName,
+  [in] LPCWSTR outputFileName
 ) = 0;
 ```
 
@@ -71,8 +79,8 @@ Managed code uses [**Support.StopTracing**](axe-support_stoptracing_om) method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -88,9 +96,9 @@ Managed code uses [**Support.StopTracing**](axe-support_stoptracing_om) method.
 [**StartTracing**](support-starttracing.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl MenuFontColor property
-description: The MenuFontColor property contains the client's menu font color specified in HTML hex string format.
-ms.assetid: '4ede9aa2-b6b7-43b8-a055-50131ff5577c'
-keywords: ["MenuFontColor property Virtual Server", "MenuFontColor property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , MenuFontColor property", "MenuFontColor property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , MenuFontColor property"]
+description: The MenuFontColor property contains the clients menu font color specified in HTML hex string format.
+ms.assetid: 4ede9aa2-b6b7-43b8-a055-50131ff5577c
+keywords:
+- MenuFontColor property Virtual Server
+- MenuFontColor property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , MenuFontColor property
+- MenuFontColor property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , MenuFontColor property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::MenuFontColor property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_MenuFontColor(
-  [in]  BSTR menuBackColor
+  [in]  BSTR menuBackColor
 );
 
 HRESULT get_MenuFontColor(
-  [out] BSTR *menuFontColor
+  [out] BSTR *menuFontColor
 );
 ```
 
@@ -87,8 +97,8 @@ The color is specified using the standard HTML six-digit hex string format. This
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -101,9 +111,9 @@ The color is specified using the standard HTML six-digit hex string format. This
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

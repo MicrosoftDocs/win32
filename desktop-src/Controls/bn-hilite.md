@@ -1,8 +1,9 @@
 ---
 title: BN\_HILITE notification code
 description: Sent when the user selects a button.
-ms.assetid: 'f20ba77e-257c-44ec-a2dd-dbf23cd78d07'
-keywords: ["BN_HILITE notification code Windows Controls"]
+ms.assetid: f20ba77e-257c-44ec-a2dd-dbf23cd78d07
+keywords:
+- BN_HILITE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BN\_HILITE notification code
@@ -18,9 +24,9 @@ api_type:
 Sent when the user selects a button.
 
 > [!Note]  
-> This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [**BS\_OWNERDRAW**](button-styles.md#bs-ownerdraw) button style and the [**DRAWITEMSTRUCT**](drawitemstruct.md) structure for this task.
+> This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [**BS\_OWNERDRAW**](button-styles.md#bs-ownerdraw) button style and the [**DRAWITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 
- 
+ 
 
 The parent window of the button receives this notification code through the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.
 
@@ -62,15 +68,15 @@ BN\_HILITE is the same as the [BN\_PUSHED](bn-pushed.md) notification code.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

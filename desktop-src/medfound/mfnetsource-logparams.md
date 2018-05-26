@@ -1,7 +1,12 @@
-﻿---
-Description: 'Array of strings with the parameters to send to the log server.'
-ms.assetid: '36d711c7-a1ff-4ef2-b633-5f9f1662801e'
-title: 'MFNETSOURCE\_LOGPARAMS property'
+---
+Description: Array of strings with the parameters to send to the log server.
+ms.assetid: 36d711c7-a1ff-4ef2-b633-5f9f1662801e
+title: MFNETSOURCE\_LOGPARAMS property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_LOGPARAMS property

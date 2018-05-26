@@ -1,7 +1,12 @@
-﻿---
-Description: 'The APP\_Auth method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a smart card.'
-ms.assetid: '0b86ce09-ca17-4d74-bc14-46b17262e669'
-title: 'ISCardAuth::APP\_Auth method'
+---
+Description: The APP\_Auth method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a smart card.
+ms.assetid: 0b86ce09-ca17-4d74-bc14-46b17262e669
+title: ISCardAuthAPP\_Auth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardAuth::APP\_Auth method

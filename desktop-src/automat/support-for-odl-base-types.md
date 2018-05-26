@@ -1,7 +1,12 @@
 ---
 title: Support for ODL Base Types
 description: There are a number of ODL base types that are not directly supported by MIDL.
-ms.assetid: 'c8e6efe1-8e39-47bc-9ba2-5dac91264666'
+ms.assetid: c8e6efe1-8e39-47bc-9ba2-5dac91264666
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support for ODL Base Types

@@ -1,8 +1,11 @@
 ---
 title: IWMPLibraryServices getCountByType method
 description: The getCountByType method returns the count of available libraries of a specified type.
-ms.assetid: '75f22e21-fbaf-45dc-b64f-1f687a3cf241'
-keywords: ["getCountByType method Windows Media Player", "getCountByType method Windows Media Player , IWMPLibraryServices interface", "IWMPLibraryServices interface Windows Media Player , getCountByType method"]
+ms.assetid: 75f22e21-fbaf-45dc-b64f-1f687a3cf241
+keywords:
+- getCountByType method Windows Media Player
+- getCountByType method Windows Media Player , IWMPLibraryServices interface
+- IWMPLibraryServices interface Windows Media Player , getCountByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibraryServices::getCountByType method
@@ -83,12 +91,12 @@ A **System.Int32** that is the library count.
 [**IWMPLibraryServices Interface (VB and C#)**](iwmplibraryservices--vb-and-c.md)
 </dt> <dt>
 
-[**WMPLibraryType**](wmplibrarytype.md)
+[**WMPLibraryType**](/windows/win32/wmp/ne-wmp-wmplibrarytype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

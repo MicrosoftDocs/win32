@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the name of the printer for this print queue.'
-ms.assetid: 'BB8CAEFC-3CD5-46EA-89A8-FAF38063A185'
-title: 'IPrinterQueue::Name property'
+---
+Description: Gets the name of the printer for this print queue.
+ms.assetid: BB8CAEFC-3CD5-46EA-89A8-FAF38063A185
+title: IPrinterQueueName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue::Name property

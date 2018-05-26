@@ -1,15 +1,18 @@
 ---
-Description: 'DHCP scope object in IPAM.'
+Description: DHCP scope object in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e514a8d3-a45a-429a-ab4f-010eed6697a7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e514a8d3-a45a-429a-ab4f-010eed6697a7
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_DhcpScope class'
+title: MSFT\_IPAM\_DhcpScope class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_DhcpScope class
@@ -24,26 +27,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_DhcpScope
 {
-  string  InstanceID;
-  string  ScopeId;
-  uint16  AddressFamily;
-  string  ScopeName;
-  string  SubnetMask;
-  string  StartRange;
-  string  EndRange;
-  uint16  Delay;
-  string  Description;
-  string  LeaseDuration;
-  string  ScopeStatus;
-  string  SuperscopeName;
-  string  ServerFqdn;
-  uint16  Utilization;
-  real64  PercentUtilized;
-  string  PolicyActivationStatus;
-  string  AccessScopePath;
+  string  InstanceID;
+  string  ScopeId;
+  uint16  AddressFamily;
+  string  ScopeName;
+  string  SubnetMask;
+  string  StartRange;
+  string  EndRange;
+  uint16  Delay;
+  string  Description;
+  string  LeaseDuration;
+  string  ScopeStatus;
+  string  SuperscopeName;
+  string  ServerFqdn;
+  uint16  Utilization;
+  real64  PercentUtilized;
+  string  PolicyActivationStatus;
+  string  AccessScopePath;
   boolean IsInheritedAccessScope;
-  string  PreferredLeaseTime;
-  string  ValidLeaseTime;
+  string  PreferredLeaseTime;
+  string  ValidLeaseTime;
 };
 ```
 
@@ -379,16 +382,16 @@ Valid lease time of IPv6 DHCP scope.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

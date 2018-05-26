@@ -1,7 +1,12 @@
 ---
 title: Creating a Presentation Web Page
 description: The sample code in this section uses the Control Point API with UPnP technology to create a simple Web page to control a fictitious UPnP-based media player devices. The Web page is shown in the following illustration.
-ms.assetid: '7eae71eb-9ec9-4c0f-b231-5d659f12b9f5'
+ms.assetid: 7eae71eb-9ec9-4c0f-b231-5d659f12b9f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Presentation Web Page

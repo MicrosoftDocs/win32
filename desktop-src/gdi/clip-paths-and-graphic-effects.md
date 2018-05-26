@@ -1,7 +1,12 @@
 ---
-Description: 'An application can use clipping and paths to create special graphic effects. The following illustration shows a string of text drawn with a large Arial font.'
-ms.assetid: 'fda0d627-406c-44f9-9061-7aea3e2d7f66'
+Description: An application can use clipping and paths to create special graphic effects. The following illustration shows a string of text drawn with a large Arial font.
+ms.assetid: fda0d627-406c-44f9-9061-7aea3e2d7f66
 title: Clip Paths and Graphic Effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clip Paths and Graphic Effects
@@ -19,7 +24,7 @@ The next illustration shows the result of selecting the text as a clip path and 
 
  
 
-An application creates a clip path by generating a path bracket and then calling the [**SelectClipPath**](selectclippath.md) function. After a clip path is selected into a DC, output only appears within the borders of the path.
+An application creates a clip path by generating a path bracket and then calling the [**SelectClipPath**](/windows/win32/Wingdi/nf-wingdi-selectclippath?branch=master) function. After a clip path is selected into a DC, output only appears within the borders of the path.
 
 In addition to creating special graphics effects, clip paths are also useful in applications that save images as enhanced metafiles. By using a clip path, an application is able to ensure device independence because the units used to specify a path are logical units.
 

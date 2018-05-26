@@ -1,7 +1,12 @@
 ---
 title: Retrieving the Properties of a Connection (VBScript)
 description: Retrieving the Properties of a Connection (VBScript)
-ms.assetid: '72cbd58a-931d-41c6-b399-1184c83c7c0c'
+ms.assetid: 72cbd58a-931d-41c6-b399-1184c83c7c0c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Properties of a Connection (VBScript)

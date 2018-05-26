@@ -1,7 +1,12 @@
 ---
-Description: 'The installation and removal of each file is determined by the Windows Installer Component that controls the file.'
-ms.assetid: '6f84bf57-2c68-4f37-b9cd-eee3a657e7cd'
+Description: The installation and removal of each file is determined by the Windows Installer Component that controls the file.
+ms.assetid: 6f84bf57-2c68-4f37-b9cd-eee3a657e7cd
 title: Specifying Files and File Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Files and File Attributes

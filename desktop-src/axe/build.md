@@ -1,14 +1,20 @@
 ---
 title: Build element
 description: Build part of standard version number.
-ms.assetid: 'D7C7BC09-7572-4625-BE7B-3F641C84ACB2'
-keywords: ["Build element Access Execution Engine"]
+ms.assetid: D7C7BC09-7572-4625-BE7B-3F641C84ACB2
+keywords:
+- Build element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Build
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Build element
@@ -68,9 +74,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

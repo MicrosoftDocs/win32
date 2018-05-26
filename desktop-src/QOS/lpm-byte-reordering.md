@@ -1,7 +1,12 @@
 ---
 title: LPM Byte Reordering
 description: The RSVP protocol submits policy information in network-byte order.
-ms.assetid: '5477ebe9-7e1b-4e07-ae1c-9be4d627f910'
+ms.assetid: 5477ebe9-7e1b-4e07-ae1c-9be4d627f910
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPM Byte Reordering

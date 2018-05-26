@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact Blocked property
 description: Sets or retrieves a Boolean value that declares whether the contact associated with this MessengerContact object is blocked by the current client user.
-ms.assetid: '819af259-e1ec-44d4-bb31-fe6905e650bf'
-keywords: ["Blocked property Windows Messenger", "Blocked property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , Blocked property"]
+ms.assetid: 819af259-e1ec-44d4-bb31-fe6905e650bf
+keywords:
+- Blocked property Windows Messenger
+- Blocked property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , Blocked property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::Blocked property
 
-\[**Blocked** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Blocked** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves a Boolean value that declares whether the contact associated with this [**MessengerContact**](im-messengercontact.md) object is blocked by the current client user.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Blocked(
-           VARIANT_BOOL vBoolBlock
+           VARIANT_BOOL vBoolBlock
 );
 
 HRESULT get_Blocked(
-  [retval] VARIANT_BOOL *pBoolBlock
+  [retval] VARIANT_BOOL *pBoolBlock
 );
 ```
 
@@ -72,7 +80,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 Blocking is not necessarily reciprocal. User A may have blocked User B, but if User B hasn't blocked User A, then User A can still receive status updates about User B (if User B is on User A's contact list). Blocking a user does not remove the user from the **Contact List** or the [**MessengerContacts**](im-messengercontacts.md) collection. Clients should decide how to enforce a logical relationship between blocking users and getting blocked users out of the **Contact List**.
 
@@ -85,7 +93,7 @@ Assuming the [**MessengerContacts**](im-messengercontacts.md) object can be succ
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -126,8 +134,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -141,9 +149,9 @@ End Sub
 [**IMessengerContact**](im-imessengercontact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

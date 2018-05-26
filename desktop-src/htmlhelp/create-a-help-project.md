@@ -1,7 +1,12 @@
 ---
 title: Create a Help Project
 description: Create a Help Project
-ms.assetid: 'D5B9F9E0-A622-4693-BCA5-1E1B6366FDB6'
+ms.assetid: D5B9F9E0-A622-4693-BCA5-1E1B6366FDB6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Help Project

@@ -1,8 +1,10 @@
 ---
 title: Win32\_VolumeUserQuota class
 description: The Win32\_VolumeUserQuota association class relates per user quotas to quota enabled volumes.
-ms.assetid: '7533ebf3-d552-4140-933d-3c81d722f680'
-keywords: ["Win32_VolumeUserQuota class", "Win32_VolumeUserQuota class, described"]
+ms.assetid: 7533ebf3-d552-4140-933d-3c81d722f680
+keywords:
+- Win32_VolumeUserQuota class
+- Win32_VolumeUserQuota class, described
 topic_type:
 - apiref
 api_name:
@@ -17,13 +19,18 @@ api_location:
 - Vdswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_VolumeUserQuota class
 
 The **Win32\_VolumeUserQuota** association class relates per user quotas to quota-enabled volumes. A system administrator can configure Windows to prevent disk space use that is more than a user's quota, and then log an event when a user exceeds the specified disk space limit. A system administrator can also log an event when a user exceeds a specified disk space warning level. A disk quota cannot be set for an administrator account.
 
-**Windows XP and earlier:** This class is not available.
+**Windows XP and earlier:** This class is not available.
 
 The following syntax is simplified from Managed Object format (MOF) code and includes all of the inherited properties.
 
@@ -33,11 +40,11 @@ The following syntax is simplified from Managed Object format (MOF) code and inc
 class Win32_VolumeUserQuota
 {
   Win32_Account REF Account;
-  uint64            DiskSpaceUsed;
-  uint32            Status;
-  uint64            Limit;
-  Win32_Volume  REF Volume;
-  uint64            WarningLimit;
+  uint64            DiskSpaceUsed;
+  uint32            Status;
+  uint64            Limit;
+  Win32_Volume  REF Volume;
+  uint64            WarningLimit;
 };
 ```
 
@@ -99,7 +106,7 @@ Access type: Read/write
 Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) (Bytes)
 </dt> </dl>
 
-Limit set for this user or group—in bytes.
+Limit set for this user or group in bytes.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -128,7 +135,7 @@ The following table lists the possible values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -173,7 +180,7 @@ For more information about using **uint64** values in scripts, see [Scripting in
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -199,9 +206,9 @@ For more information about using **uint64** values in scripts, see [Scripting in
 [**Win32\_MountPoint**](win32-mountpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: BITS Samples and Tools
 description: BITS Samples and Tools
-ms.assetid: 'e449da0d-46da-44f9-85f3-4f0e17887bf3'
+ms.assetid: e449da0d-46da-44f9-85f3-4f0e17887bf3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS Samples and Tools
@@ -16,14 +21,14 @@ The following section contains step-by-step C++ examples for Background Intellig
 
 
 
- 
+ 
 
 In addition, BITS includes the following samples in Windows SDK. The samples are located under *InstallDirectory*\\Samples\\Web. Each sample includes a Readme.txt file that explains how to install and run the sample. You can download the Windows SDK from [Microsoft Windows Software Development Kit](http://go.microsoft.com/fwlink/p/?linkid=84091). BITS is included in the Core SDK.
 
 > [!Note]  
-> Windows Vista: The samples on this page are included in the [Microsoft Windows SDK for Windows Vista](http://www.microsoft.com/downloads/details.aspx?FamilyID=c2b1e300-f358-4523-b479-f53d234cdccf&DisplayLang=en). However, the ClientCert sample is not included.
+> Windows Vista: The samples on this page are included in the [Microsoft Windows SDK for Windows Vista](http://www.microsoft.com/downloads/details.aspx?FamilyID=c2b1e300-f358-4523-b479-f53d234cdccf&DisplayLang=en). However, the ClientCert sample is not included.
 
- 
+ 
 
 
 
@@ -39,7 +44,7 @@ In addition, BITS includes the following samples in Windows SDK. The samples are
 
 
 
- 
+ 
 
 BITS provides the following tool.
 
@@ -51,7 +56,7 @@ BITS provides the following tool.
 
 
 
- 
+ 
 
 ## Additional Information
 
@@ -59,9 +64,9 @@ If you need additional information, consider asking questions in the BITS newsgr
 
 The newsgroup server is msnews.microsoft.com.
 
- 
+ 
 
- 
+ 
 
 
 

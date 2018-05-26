@@ -1,7 +1,12 @@
 ---
 title: To automatically generate a table of contents
 description: To automatically generate a table of contents
-ms.assetid: '0CA471F1-6110-4cc4-9DEB-5D40CB83B469'
+ms.assetid: 0CA471F1-6110-4cc4-9DEB-5D40CB83B469
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To automatically generate a table of contents
@@ -15,7 +20,7 @@ ms.assetid: '0CA471F1-6110-4cc4-9DEB-5D40CB83B469'
 
     
 
-     
+     
 
 3.  Click **Browse**, next to the **Contents file** box, and then locate the folder that you want to store your contents file in.
 4.  In **File name** box, type a name (using .hhc for the file name extension) for your contents file.
@@ -34,9 +39,9 @@ If you make changes to a contents file that has been automatically generated, yo
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following utilities are used by some of the C# virtualization samples.'
-ms.assetid: 'EB0F305D-806D-4ACB-8024-3A6FB125629D'
-title: 'Common utilities for the virtualization samples (V2)'
+Description: The following utilities are used by some of the C# virtualization samples.
+ms.assetid: EB0F305D-806D-4ACB-8024-3A6FB125629D
+title: Common utilities for the virtualization samples (V2)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common utilities for the virtualization samples (V2)

@@ -1,7 +1,12 @@
 ---
 title: Entering the Running State
 description: Entering the Running State
-ms.assetid: '2173eaa9-0e60-4411-81e4-dbabc5fe89b2'
+ms.assetid: 2173eaa9-0e60-4411-81e4-dbabc5fe89b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Entering the Running State

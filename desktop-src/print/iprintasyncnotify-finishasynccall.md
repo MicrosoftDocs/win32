@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '4E2D11E9-9399-48C5-8EA8-B17FBB6625FF'
-title: 'IPrintAsyncCookie::FinishAsyncCall method'
+---
+Description: .
+ms.assetid: 4E2D11E9-9399-48C5-8EA8-B17FBB6625FF
+title: IPrintAsyncCookieFinishAsyncCall method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintAsyncCookie::FinishAsyncCall method

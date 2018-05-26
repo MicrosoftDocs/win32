@@ -1,7 +1,7 @@
 ---
 title: Trackbar Control Styles
 description: This section contains information about the styles used with trackbar controls.
-ms.assetid: 'ac2f59c6-85a2-4f41-aace-4132971d3559'
+ms.assetid: ac2f59c6-85a2-4f41-aace-4132971d3559
 topic_type:
 - apiref
 api_name:
@@ -26,6 +26,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbar Control Styles
@@ -51,8 +56,8 @@ This section contains information about the styles used with trackbar controls.
 | <span id="TBS_TOOLTIPS"></span><span id="tbs_tooltips"></span><dl> <dt>**TBS\_TOOLTIPS**</dt> </dl>                         | [Version 4.70](common-control-versions.md). The trackbar control supports tooltips. When a trackbar control is created using this style, it automatically creates a default tooltip control that displays the slider's current position. You can change where the tooltips are displayed by using the [**TBM\_SETTIPSIDE**](tbm-settipside.md) message. <br/> |
 | <span id="TBS_REVERSED"></span><span id="tbs_reversed"></span><dl> <dt>**TBS\_REVERSED**</dt> </dl>                         | [Version 5.80.](common-control-versions.md)This style bit is used for "reversed" trackbars, where a smaller number indicates "higher" and a larger number indicates "lower." It has no effect on the control; it is simply a label that can be checked to determine whether a trackbar is normal or reversed.<br/>                                             |
 | <span id="TBS_DOWNISLEFT"></span><span id="tbs_downisleft"></span><dl> <dt>**TBS\_DOWNISLEFT**</dt> </dl>                   | By default, the trackbar control uses down equal to right and up equal to left. Use the TBS\_DOWNISLEFT style to reverse the default, making down equal left and up equal right. <br/>                                                                                                                                                                          |
-| <span id="TBS_NOTIFYBEFOREMOVE"></span><span id="tbs_notifybeforemove"></span><dl> <dt>**TBS\_NOTIFYBEFOREMOVE**</dt> </dl> | [Version 6.00](common-control-versions.md) and **Windows Vista.** Trackbar should notify parent before repositioning the slider due to user action (enables snapping). <br/>                                                                                                                                                                                   |
-| <span id="TBS_TRANSPARENTBKGND"></span><span id="tbs_transparentbkgnd"></span><dl> <dt>**TBS\_TRANSPARENTBKGND**</dt> </dl> | [Version 6.00](common-control-versions.md) and **Windows Vista.** Background is painted by the parent via the WM\_PRINTCLIENT message. <br/>                                                                                                                                                                                                                   |
+| <span id="TBS_NOTIFYBEFOREMOVE"></span><span id="tbs_notifybeforemove"></span><dl> <dt>**TBS\_NOTIFYBEFOREMOVE**</dt> </dl> | [Version 6.00](common-control-versions.md) and **Windows Vista.** Trackbar should notify parent before repositioning the slider due to user action (enables snapping). <br/>                                                                                                                                                                                   |
+| <span id="TBS_TRANSPARENTBKGND"></span><span id="tbs_transparentbkgnd"></span><dl> <dt>**TBS\_TRANSPARENTBKGND**</dt> </dl> | [Version 6.00](common-control-versions.md) and **Windows Vista.** Background is painted by the parent via the WM\_PRINTCLIENT message. <br/>                                                                                                                                                                                                                   |
 
 
 
@@ -66,9 +71,9 @@ This section contains information about the styles used with trackbar controls.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

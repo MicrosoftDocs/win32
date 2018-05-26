@@ -1,7 +1,12 @@
 ---
 title: Command Method
 description: Command Method
-ms.assetid: 'ecd39ee3-1ebe-4bce-a494-7d7f8fc899a8'
+ms.assetid: ecd39ee3-1ebe-4bce-a494-7d7f8fc899a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Method

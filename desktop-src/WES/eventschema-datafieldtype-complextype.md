@@ -1,14 +1,20 @@
 ---
 title: DataType Complex Type
 description: Defines a data item.
-ms.assetid: 'f3b7de63-1ac1-429d-9e36-1f13c26c9618'
-keywords: ["DataType complex type EventLog"]
+ms.assetid: f3b7de63-1ac1-429d-9e36-1f13c26c9618
+keywords:
+- DataType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - DataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DataType Complex Type
@@ -55,14 +61,14 @@ The data item can be a top-level data item or a data item in a structure.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

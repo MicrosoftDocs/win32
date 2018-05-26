@@ -1,7 +1,12 @@
 ---
 title: sge - vs
 description: Computes the sign if the first source is greater than or equal to the second source.
-ms.assetid: '88e8eb68-8189-40c3-b20e-f395576f5f6a'
+ms.assetid: 88e8eb68-8189-40c3-b20e-f395576f5f6a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sge - vs

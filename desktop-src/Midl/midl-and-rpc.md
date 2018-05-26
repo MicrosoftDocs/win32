@@ -2,7 +2,16 @@
 title: MIDL and RPC
 description: When you develop an RPC application, you use a text editor to create an IDL file that defines the interface between the client and the server.
 ms.assetid: 222a1e45-f007-4089-b700-6f4bed672cfa
-keywords: ["MIDL compiler MIDL , MIDL and RPC", "compilers MIDL , MIDL and RPC", "MIDL and RPC MIDL", "RPC MIDL"]
+keywords:
+- MIDL compiler MIDL , MIDL and RPC
+- compilers MIDL , MIDL and RPC
+- MIDL and RPC MIDL
+- RPC MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL and RPC

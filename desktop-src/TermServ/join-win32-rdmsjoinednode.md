@@ -4,11 +4,14 @@ description: Adds a node to Remote Desktop Management Services (RDMS).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7451d12a-ace2-4564-bf6d-fb0169be967f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7451d12a-ace2-4564-bf6d-fb0169be967f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Join method Remote Desktop Services", "Join method Remote Desktop Services , Win32_RDMSJoinedNode class", "Win32_RDMSJoinedNode class Remote Desktop Services , Join method"]
+keywords:
+- Join method Remote Desktop Services
+- Join method Remote Desktop Services , Win32_RDMSJoinedNode class
+- Win32_RDMSJoinedNode class Remote Desktop Services , Join method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Join method of the Win32\_RDMSJoinedNode class
@@ -28,8 +34,8 @@ Adds a node to Remote Desktop Management Services (RDMS).
 
 ```mof
 uint32 Join(
-  [in] string NodeFQDN,
-  [in] string NodeSID
+  [in] string NodeFQDN,
+  [in] string NodeSID
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -78,9 +84,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSJoinedNode**](win32-rdmsjoinednode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Shell clipboard formats are used to identify the type of Shell data being transferred through the clipboard.'
-ms.assetid: 'fb8ce5d3-3215-4e05-a916-4d4a803464d2'
+Description: Shell clipboard formats are used to identify the type of Shell data being transferred through the clipboard.
+ms.assetid: fb8ce5d3-3215-4e05-a916-4d4a803464d2
 title: Shell Clipboard Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell Clipboard Formats
@@ -54,9 +59,9 @@ These formats are used to transfer one or more files or other Shell objects.
 
 ### CF\_HDROP
 
-This clipboard format is used when transferring the locations of a group of existing files. Unlike the other Shell formats, it is predefined, so there is no need to call [RegisterClipboardFormat](http://go.microsoft.com/fwlink/p/?linkid=215068). The data consists of an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**DROPFILES**](dropfiles.md) structure as its **hGlobal** member.
+This clipboard format is used when transferring the locations of a group of existing files. Unlike the other Shell formats, it is predefined, so there is no need to call [RegisterClipboardFormat](http://go.microsoft.com/fwlink/p/?linkid=215068). The data consists of an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**DROPFILES**](/windows/win32/shlobj_core/ns-shlobj_core-_dropfiles?branch=master) structure as its **hGlobal** member.
 
-The **pFiles** member of the [**DROPFILES**](dropfiles.md) structure contains an offset to a double **null**-terminated character array that contains the file names. If you are extracting a CF\_HDROP format from a data object, you can use [**DragQueryFile**](dragqueryfile.md) to extract individual file names from the global memory object. If you are creating a CF\_HDROP format to place in a data object, you will need to construct the file name array.
+The **pFiles** member of the [**DROPFILES**](/windows/win32/shlobj_core/ns-shlobj_core-_dropfiles?branch=master) structure contains an offset to a double **null**-terminated character array that contains the file names. If you are extracting a CF\_HDROP format from a data object, you can use [**DragQueryFile**](/windows/win32/Shellapi/nf-shellapi-dragqueryfilea?branch=master) to extract individual file names from the global memory object. If you are creating a CF\_HDROP format to place in a data object, you will need to construct the file name array.
 
 The file name array consists of a series of strings, each containing one file's fully qualified path, including the terminating **NULL** character. An additional **null** character is appended to the final string to terminate the array. For example, if the files c:\\temp1.txt and c:\\temp2.txt are being transferred, the character array looks like this:
 
@@ -72,19 +77,19 @@ c:\temp1.txt'\0'c:\temp2.txt'\0''\0'
 
  
 
-If the object was copied to the clipboard as part of a drag-and-drop operation, the **pt** member of the [**DROPFILES**](dropfiles.md) structure contains the coordinates of the point where the object was dropped. You can use [**DragQueryPoint**](dragquerypoint.md) to extract the cursor coordinates.
+If the object was copied to the clipboard as part of a drag-and-drop operation, the **pt** member of the [**DROPFILES**](/windows/win32/shlobj_core/ns-shlobj_core-_dropfiles?branch=master) structure contains the coordinates of the point where the object was dropped. You can use [**DragQueryPoint**](/windows/win32/Shellapi/nf-shellapi-dragquerypoint?branch=master) to extract the cursor coordinates.
 
 If this format is present in a data object, an OLE drag loop simulates [**WM\_DROPFILES**](wm-dropfiles.md) functionality with non-OLE drop targets. This is important if your application is the source of a drag-and-drop operation on a Windows 3.1 system.
 
 ### CFSTR\_FILECONTENTS
 
-This format identifier is used with the [CFSTR\_FILEDESCRIPTOR](#cfstr-filedescriptor) format to transfer data as if it were a file, regardless of how it is actually stored. The data consists of an [**STGMEDIUM**](com.stgmedium) structure that represents the contents of one file. The file is normally represented as a stream object, which avoids having to place the contents of the file in memory. In that case, the **tymed** member of the **STGMEDIUM** structure is set to TYMED\_ISTREAM, and the file is represented by an [**IStream**](stg.istream) interface. The file can also be a storage or global memory object (TYMED\_ISTORAGE or TYMED\_HGLOBAL). The associated CFSTR\_FILEDESCRIPTOR format contains a [**FILEDESCRIPTOR**](filedescriptor.md) structure for each file that specifies the file's name and attributes.
+This format identifier is used with the [CFSTR\_FILEDESCRIPTOR](#cfstr-filedescriptor) format to transfer data as if it were a file, regardless of how it is actually stored. The data consists of an [**STGMEDIUM**](com.stgmedium) structure that represents the contents of one file. The file is normally represented as a stream object, which avoids having to place the contents of the file in memory. In that case, the **tymed** member of the **STGMEDIUM** structure is set to TYMED\_ISTREAM, and the file is represented by an [**IStream**](stg.istream) interface. The file can also be a storage or global memory object (TYMED\_ISTORAGE or TYMED\_HGLOBAL). The associated CFSTR\_FILEDESCRIPTOR format contains a [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structure for each file that specifies the file's name and attributes.
 
-The target treats the data associated with a CFSTR\_FILECONTENTS format as if it were a file. When the target calls [**IDataObject::GetData**](com.idataobject_getdata) to extract the data, it specifies a particular file by setting the **lindex** member of the [**FORMATETC**](com.formatetc) structure to the zero-based index of the file's [**FILEDESCRIPTOR**](filedescriptor.md) structure in the accompanying [CFSTR\_FILEDESCRIPTOR](#cfstr-filedescriptor) format. The target then uses the returned interface pointer or global memory handle to extract the data.
+The target treats the data associated with a CFSTR\_FILECONTENTS format as if it were a file. When the target calls [**IDataObject::GetData**](com.idataobject_getdata) to extract the data, it specifies a particular file by setting the **lindex** member of the [**FORMATETC**](com.formatetc) structure to the zero-based index of the file's [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structure in the accompanying [CFSTR\_FILEDESCRIPTOR](#cfstr-filedescriptor) format. The target then uses the returned interface pointer or global memory handle to extract the data.
 
 ### CFSTR\_FILEDESCRIPTOR
 
-This format identifier is used with the [CFSTR\_FILECONTENTS](#cfstr-filecontents) format to transfer data as a group of files. These two formats are the preferred way to transfer Shell objects that are not stored as file-system files. For example, these formats can be used to transfer a group of email messages as individual files, even though each email is actually stored as a block of data in a database. The data consists of an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**FILEGROUPDESCRIPTOR**](filegroupdescriptor.md) structure that is followed by an array containing one [**FILEDESCRIPTOR**](filedescriptor.md) structure for each file in the group. For each **FILEDESCRIPTOR** structure, there is a separate CFSTR\_FILECONTENTS format that contains the contents of the file. To identify a particular file's CFSTR\_FILECONTENTS format, set the **lIndex** value of the [**FORMATETC**](com.formatetc) structure to the zero-based index of the file's **FILEDESCRIPTOR** structure.
+This format identifier is used with the [CFSTR\_FILECONTENTS](#cfstr-filecontents) format to transfer data as a group of files. These two formats are the preferred way to transfer Shell objects that are not stored as file-system files. For example, these formats can be used to transfer a group of email messages as individual files, even though each email is actually stored as a block of data in a database. The data consists of an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**FILEGROUPDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filegroupdescriptora?branch=master) structure that is followed by an array containing one [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structure for each file in the group. For each **FILEDESCRIPTOR** structure, there is a separate CFSTR\_FILECONTENTS format that contains the contents of the file. To identify a particular file's CFSTR\_FILECONTENTS format, set the **lIndex** value of the [**FORMATETC**](com.formatetc) structure to the zero-based index of the file's **FILEDESCRIPTOR** structure.
 
 The CFSTR\_FILEDESCRIPTOR format is commonly used to transfer data as if it were a group of files, regardless of how it is actually stored. From the target's perspective, each CFSTR\_FILECONTENTS format represents a single file and is treated accordingly. However, the source can store the data in any way it chooses. While a CSFTR\_FILECONTENTS format might correspond to a single file, it could also, for example, represent data extracted by the source from a database or text document.
 
@@ -108,13 +113,13 @@ If only drive letters will be used to mount volumes, only [CF\_HDROP](#cf-hdrop)
 
 ### CFSTR\_SHELLIDLIST
 
-This format identifier is used when transferring the locations of one or more existing namespace objects. It is used in much the same way as [CF\_HDROP](#cf-hdrop), but it contains PIDLs instead of file system paths. Using PIDLs allows the CFSTR\_SHELLIDLIST format to handle virtual objects as well as file system objects. The data is an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**CIDA**](cida.md) structure.
+This format identifier is used when transferring the locations of one or more existing namespace objects. It is used in much the same way as [CF\_HDROP](#cf-hdrop), but it contains PIDLs instead of file system paths. Using PIDLs allows the CFSTR\_SHELLIDLIST format to handle virtual objects as well as file system objects. The data is an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**CIDA**](/windows/win32/shlobj_core/ns-shlobj_core-_ida?branch=master) structure.
 
-The **aoffset** member of the [**CIDA**](cida.md) structure is an array containing offsets to the beginning of the [**ITEMIDLIST**](itemidlist.md) structure for each PIDL that is being transferred. To extract a particular PIDL, first determine its index. Then, add the **aoffset** value that corresponds to that index to the address of the **CIDA** structure.
+The **aoffset** member of the [**CIDA**](/windows/win32/shlobj_core/ns-shlobj_core-_ida?branch=master) structure is an array containing offsets to the beginning of the [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure for each PIDL that is being transferred. To extract a particular PIDL, first determine its index. Then, add the **aoffset** value that corresponds to that index to the address of the **CIDA** structure.
 
 The first element of **aoffset** contains an offset to the fully qualified PIDL of a parent folder. If this PIDL is empty, the parent folder is the desktop. Each of the remaining elements of the array contains an offset to one of the PIDLs to be transferred. All of these PIDLs are relative to the PIDL of the parent folder.
 
-The following two macros can be used to retrieve PIDLs from a [**CIDA**](cida.md) structure. The first takes a pointer to the structure and retrieves the PIDL of the parent folder. The second takes a pointer to the structure and retrieves one of the other PIDLs, identified by its zero-based index.
+The following two macros can be used to retrieve PIDLs from a [**CIDA**](/windows/win32/shlobj_core/ns-shlobj_core-_ida?branch=master) structure. The first takes a pointer to the structure and retrieves the PIDL of the parent folder. The second takes a pointer to the structure and retrieves one of the other PIDLs, identified by its zero-based index.
 
 
 ```C++
@@ -126,7 +131,7 @@ The following two macros can be used to retrieve PIDLs from a [**CIDA**](cida.md
 
 
 > [!Note]  
-> The value that is returned by these macros is a pointer to the PIDL's [**ITEMIDLIST**](itemidlist.md) structure. Since these structures vary in length, you must determine the end of the structure by walking through each of the **ITEMIDLIST** structure's [**SHITEMID**](shitemid.md) structures until you reach the two-byte **NULL** that marks the end.
+> The value that is returned by these macros is a pointer to the PIDL's [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure. Since these structures vary in length, you must determine the end of the structure by walking through each of the **ITEMIDLIST** structure's [**SHITEMID**](/windows/win32/Shtypes/ns-shtypes-_shitemid?branch=master) structures until you reach the two-byte **NULL** that marks the end.
 
  
 
@@ -145,11 +150,11 @@ The CFSTR\_SHELLIDLIST format can be used to transfer both file system and virtu
 
 ### CFSTR\_NETRESOURCES
 
-This format identifier is used when transferring network resources, such as a domain or server. The data is an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**NRESARRAY**](nresarray.md) structure. The **nr** member of that structure indicates a [**NETRESOURCE**](wnet.netresource_str) structure whose **lpRemoteName** member contains a **null**-terminated string identifying the network resource. The drop target can then use the data with any of the [Windows Networking (WNet)](wnet.windows_networking_wnet_) API functions, such as [**WNetAddConnection**](wnet.wnetaddconnection), to perform network operations on the object.
+This format identifier is used when transferring network resources, such as a domain or server. The data is an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a [**NRESARRAY**](/windows/win32/shlobj_core/ns-shlobj_core-_nresarray?branch=master) structure. The **nr** member of that structure indicates a [**NETRESOURCE**](wnet.netresource_str) structure whose **lpRemoteName** member contains a **null**-terminated string identifying the network resource. The drop target can then use the data with any of the [Windows Networking (WNet)](wnet.windows_networking_wnet_) API functions, such as [**WNetAddConnection**](wnet.wnetaddconnection), to perform network operations on the object.
 
 ### CFSTR\_PRINTERGROUP
 
-This format identifier is used when transferring the friendly names of printers. The data is an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a string in the same format as that used with [CF\_HDROP](#cf-hdrop). However, the **pFiles** member of the [**DROPFILES**](dropfiles.md) structure contains one or more friendly names of printers instead of file paths.
+This format identifier is used when transferring the friendly names of printers. The data is an [**STGMEDIUM**](com.stgmedium) structure that contains a global memory object. The structure's **hGlobal** member points to a string in the same format as that used with [CF\_HDROP](#cf-hdrop). However, the **pFiles** member of the [**DROPFILES**](/windows/win32/shlobj_core/ns-shlobj_core-_dropfiles?branch=master) structure contains one or more friendly names of printers instead of file paths.
 
 ### CFSTR\_INETURL
 
@@ -207,7 +212,7 @@ This feature is used when a source can support either a move or copy operation. 
 
 With a [delete-on-paste](datascenarios.md) operation, the CFSTR\_PREFERREDDROPFORMAT format is used to tell the target whether the source did a cut or copy. With a drag-and-drop operation, you can use CFSTR\_PREFERREDDROPFORMAT to specify the Shell's action. If this format is not present, the Shell performs a default action, based on context. For instance, if a user drags a file from one volume and drops it on another volume, the Shell's default action is to copy the file. By including a CFSTR\_PREFERREDDROPFORMAT format in the data object, you can override the default action and explicitly tell the Shell to copy, move, or link the file. If the user chooses to drag with the right button, CFSTR\_PREFERREDDROPFORMAT specifies the default command on the [drag-and-drop](context-menu-handlers.md) shortcut menu. The user is still free to choose other commands on the menu.
 
-Before Microsoft Internet Explorer 4.0, an application indicated that it was transferring shortcut file types by setting FD\_LINKUI in the **dwFlags** member of the [**FILEDESCRIPTOR**](filedescriptor.md) structure. Targets then had to use a potentially time-consuming call to [**IDataObject::GetData**](com.idataobject_getdata) to find out if the FD\_LINKUI flag was set. Now, the preferred way to indicate that shortcuts are being transferred is to use the CFSTR\_PREFERREDDROPEFFECT format set to DROPEFFECT\_LINK. However, for backward compatibility with older systems, sources should still set the FD\_LINKUI flag.
+Before Microsoft Internet Explorer 4.0, an application indicated that it was transferring shortcut file types by setting FD\_LINKUI in the **dwFlags** member of the [**FILEDESCRIPTOR**](/windows/win32/Shlobj/ns-shlobj_core-_filedescriptora?branch=master) structure. Targets then had to use a potentially time-consuming call to [**IDataObject::GetData**](com.idataobject_getdata) to find out if the FD\_LINKUI flag was set. Now, the preferred way to indicate that shortcuts are being transferred is to use the CFSTR\_PREFERREDDROPEFFECT format set to DROPEFFECT\_LINK. However, for backward compatibility with older systems, sources should still set the FD\_LINKUI flag.
 
 ### CFSTR\_TARGETCLSID
 
@@ -223,7 +228,7 @@ This format identifier is used by Windows Internet Explorer and the Windows Shel
 
 ### DragWindow
 
-This format is used in a drag-and-drop operation to identify an object's drag image (window) so that its visual information can be updated dynamically. When an object is dragged over a drop target, an application updates its [**DROPDESCRIPTION**](dropdescription.md) structure in response to the [**IDropTarget::DragOver**](com.idroptarget_dragover) or [**IDropSource::GiveFeedback**](com.idropsource_givefeedback) method. The **DROPDESCRIPTION** is updated with a new [**DROPIMAGETYPE**](dropimagetype.md) value that indicates the decoration to be applied to the drag window's visual; for instance, an indication that the file is being copied rather than moved or that the object cannot be dropped to that location. However, until the object receives a [**DDWM\_UPDATEWINDOW**](ddwm-updatewindow.md) message, the visuals are not updated. This format provides the **HWND** of the recipient drag window to the sender of the **DDWM\_UPDATEWINDOW** message.
+This format is used in a drag-and-drop operation to identify an object's drag image (window) so that its visual information can be updated dynamically. When an object is dragged over a drop target, an application updates its [**DROPDESCRIPTION**](/windows/win32/shlobj_core/ns-shlobj_core-dropdescription?branch=master) structure in response to the [**IDropTarget::DragOver**](com.idroptarget_dragover) or [**IDropSource::GiveFeedback**](com.idropsource_givefeedback) method. The **DROPDESCRIPTION** is updated with a new [**DROPIMAGETYPE**](/windows/win32/shlobj_core/ne-shlobj_core-dropimagetype?branch=master) value that indicates the decoration to be applied to the drag window's visual; for instance, an indication that the file is being copied rather than moved or that the object cannot be dropped to that location. However, until the object receives a [**DDWM\_UPDATEWINDOW**](ddwm-updatewindow.md) message, the visuals are not updated. This format provides the **HWND** of the recipient drag window to the sender of the **DDWM\_UPDATEWINDOW** message.
 
 The clipboard data is of type [**TYMED\_HGLOBAL**](com.tymed). It is a **DWORD** representation of an **HWND**. The data can be passed to the **ULongToHandle** function, defined in Basetsd.h, to provide a 64-bit **HWND** for use on 64-bit Windows.
 

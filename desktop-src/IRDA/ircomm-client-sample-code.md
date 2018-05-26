@@ -1,8 +1,17 @@
 ---
 title: IrCOMM Client Sample Code
 description: The following sample code demonstrates the steps necessary to build an IrDA client that connects using 9-wire IrCOMM. For more information on IrDA and Windows Sockets programming elements, see IrDA Programming with Windows Sockets.
-ms.assetid: 'a2b095b7-05c5-41af-bcb1-4146521723f8'
-keywords: ["Infrared Data Association IrDA , samples, IrCOMM client code", "samples IrDA , client code", "code IrDA , client", "IrCOMM IrDA , client sample code"]
+ms.assetid: a2b095b7-05c5-41af-bcb1-4146521723f8
+keywords:
+- Infrared Data Association IrDA , samples, IrCOMM client code
+- samples IrDA , client code
+- code IrDA , client
+- IrCOMM IrDA , client sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrCOMM Client Sample Code

@@ -1,13 +1,16 @@
 ---
-Description: 'The CHString assignment (=) operator reinitializes an existing CHString object with new data.'
+Description: The CHString assignment (=) operator reinitializes an existing CHString object with new data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6864aacf-ac18-4b5a-be3e-3a0d8bb31e74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6864aacf-ac18-4b5a-be3e-3a0d8bb31e74
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CHString::operator='
+title: CHStringoperator=
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CHString::operator=
@@ -97,8 +100,8 @@ s1 = 'x';               // Or just individual characters
 
 |                                     |                                                                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |
 | Header<br/>                   | <dl> <dt>ChString.h (include FwCommon.h)</dt> </dl>                                                    |
 | Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
@@ -112,9 +115,9 @@ s1 = 'x';               // Or just individual characters
 [**CHString**](chstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

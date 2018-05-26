@@ -2,13 +2,19 @@
 title: retval attribute
 description: The \ retval\ attribute designates the parameter that receives the return value of the member.
 ms.assetid: 3a5f1469-7828-4c38-b58f-195a47b2a66f
-keywords: ["retval attribute MIDL"]
+keywords:
+- retval attribute MIDL
 topic_type:
 - apiref
 api_name:
 - retval
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # retval attribute

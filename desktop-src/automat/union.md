@@ -1,7 +1,12 @@
 ---
 title: union
 description: This statement defines a C-style union.
-ms.assetid: '00bfcd0a-ac92-45f7-957a-b90790fb1982'
+ms.assetid: 00bfcd0a-ac92-45f7-957a-b90790fb1982
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # union

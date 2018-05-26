@@ -1,22 +1,27 @@
 ---
-Description: 'The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeeking::ConvertTimeFormat method.'
-ms.assetid: 'd0cb44fa-30c1-41b4-92a4-7169161e3140'
-title: 'CSourceSeeking.ConvertTimeFormat method'
+Description: The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeekingConvertTimeFormat method.
+ms.assetid: d0cb44fa-30c1-41b4-92a4-7169161e3140
+title: CSourceSeeking.ConvertTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.ConvertTimeFormat method
 
-The `ConvertTimeFormat` method converts from one time format to another. This method implements the [**IMediaSeeking::ConvertTimeFormat**](imediaseeking-converttimeformat.md) method.
+The `ConvertTimeFormat` method converts from one time format to another. This method implements the [**IMediaSeeking::ConvertTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-converttimeformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ConvertTimeFormat(
-         LONGLONG *pTarget,
-   const GUID     *pTargetFormat,
-         LONGLONG Source,
-   const GUID     *pSourceFormat
+         LONGLONG *pTarget,
+   const GUID     *pTargetFormat,
+         LONGLONG Source,
+   const GUID     *pSourceFormat
 );
 ```
 
@@ -68,7 +73,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,9 +97,9 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

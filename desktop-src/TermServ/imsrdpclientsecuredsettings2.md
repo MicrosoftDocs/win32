@@ -4,11 +4,13 @@ description: Defines additional properties of the Remote Desktop ActiveX control
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dde9824c-7adf-4783-bb1a-fb2bdbb7aead'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: dde9824c-7adf-4783-bb1a-fb2bdbb7aead
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientSecuredSettings2 interface Remote Desktop Services", "IMsRdpClientSecuredSettings2 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientSecuredSettings2 interface Remote Desktop Services
+- IMsRdpClientSecuredSettings2 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientSecuredSettings2 interface
@@ -41,7 +46,7 @@ The **IMsRdpClientSecuredSettings2** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,8 +54,8 @@ The **IMsRdpClientSecuredSettings2** interface has these properties.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                 |
+| Minimum supported client<br/> | Windows 7<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | IID<br/>                      | IID\_IMsRdpClientSecuredSettings is defined as 25f2ce20-8b1d-4971-a7cd-549dae201fc0<br/> |
@@ -64,9 +69,9 @@ The **IMsRdpClientSecuredSettings2** interface has these properties.
 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

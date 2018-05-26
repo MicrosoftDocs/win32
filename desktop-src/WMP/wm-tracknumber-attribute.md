@@ -1,14 +1,20 @@
 ---
 title: WM/TrackNumber Attribute
 description: The WM/TrackNumber attribute is the track number of the item on the album on which it was originally released.
-ms.assetid: 'd1fc5bac-c440-470f-be5c-5aca74aee99e'
-keywords: ["WM/TrackNumber Attribute Windows Media Player"]
+ms.assetid: d1fc5bac-c440-470f-be5c-5aca74aee99e
+keywords:
+- WM/TrackNumber Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/TrackNumber
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/TrackNumber Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Client Application Constants
 description: Constants defined in the Winbio\_types.h header file.
-ms.assetid: '5632f425-6247-49f5-b9dd-63e2187e1672'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , client application constants"]
+ms.assetid: 5632f425-6247-49f5-b9dd-63e2187e1672
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , client application constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Application Constants
@@ -50,15 +56,15 @@ The following topics discuss the constants defined in the Winbio\_types.h header
 | [**WINBIO\_ORIENTATION Constants**](winbio-orientation-constants.md)<br/>                             | The following constants specify the possible camera orientations that the sensor component specifies as mandatory.<br/>                                                                                          |
 | [**WINBIO\_POOL Constants**](winbio-pool-constants.md)<br/>                                           | Specify the type of biometric unit pool to be used in the session.<br/>                                                                                                                                          |
 | [**WINBIO\_PRESENCE\_CHANGE Constants**](winbio-presence-change-constants.md)<br/>                    | Describes the types of changes that can occur when the Windows Biometric Framework monitors the presence of individuals.<br/>                                                                                    |
-| [**WINBIO\_PROPERTY Constants**](winbio-property-constants.md)<br/>                                   | Specify the property to be queried in the [**WinBioGetProperty**](winbiogetproperty.md) function or changed in the [**WinBioSetProperty**](winbiosetproperty.md) function.<br/>                                |
-| [**WINBIO\_PROPERTY\_TYPE Constants**](winbio-property-type-constants.md)<br/>                        | Specify the source of the property information in the [**WinBioGetProperty**](winbiogetproperty.md) function.<br/>                                                                                              |
+| [**WINBIO\_PROPERTY Constants**](winbio-property-constants.md)<br/>                                   | Specify the property to be queried in the [**WinBioGetProperty**](/windows/win32/Winbio/nf-winbio-winbiogetproperty?branch=master) function or changed in the [**WinBioSetProperty**](/windows/win32/winbio/nf-winbio-winbiosetproperty?branch=master) function.<br/>                                |
+| [**WINBIO\_PROPERTY\_TYPE Constants**](winbio-property-type-constants.md)<br/>                        | Specify the source of the property information in the [**WinBioGetProperty**](/windows/win32/Winbio/nf-winbio-winbiogetproperty?branch=master) function.<br/>                                                                                              |
 | [**WINBIO\_REJECT\_DETAIL Constants**](winbio-reject-detail-constants.md)<br/>                        | Specify the reason a biometric fingerprint capture or identification procedure did not succeed.<br/>                                                                                                             |
 | [**WINBIO\_SENSOR\_MODE Constants**](winbio-sensor-mode-constants.md)<br/>                            | Set the sensor adapter mode.<br/>                                                                                                                                                                                |
 | [**WINBIO\_SETTING\_SOURCE Constants**](winbio-setting-source-constants.md)<br/>                      | Determine whether the Windows Biometric Framework is currently enabled.<br/>                                                                                                                                     |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +73,9 @@ The following topics discuss the constants defined in the Winbio\_types.h header
 [Client Application Reference](client-application-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Site Server Predefined Views
 description: Site Server Predefined Views
-ms.assetid: 'bd87090a-0af4-45e0-9fa3-90b6afb5a46b'
+ms.assetid: bd87090a-0af4-45e0-9fa3-90b6afb5a46b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Site Server Predefined Views

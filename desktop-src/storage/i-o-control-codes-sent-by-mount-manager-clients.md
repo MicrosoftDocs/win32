@@ -1,7 +1,12 @@
 ---
 title: I/O Control Codes Sent by Mount Manager Clients
 description: I/O Control Codes Sent by Mount Manager Clients
-ms.assetid: '1a75fa4d-c04b-419b-ada9-7634d9adf370'
+ms.assetid: 1a75fa4d-c04b-419b-ada9-7634d9adf370
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # I/O Control Codes Sent by Mount Manager Clients

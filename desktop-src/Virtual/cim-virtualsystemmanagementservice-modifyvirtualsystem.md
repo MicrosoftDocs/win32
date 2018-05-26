@@ -1,8 +1,11 @@
 ---
 title: ModifyVirtualSystem method of the CIM\_VirtualSystemManagementService class
 description: Modifies the settings for an existing virtual computer system.
-ms.assetid: 'a4e99021-d72d-4d19-82d6-516b1c75efe5'
-keywords: ["ModifyVirtualSystem method Hyper-V", "ModifyVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , ModifyVirtualSystem method"]
+ms.assetid: a4e99021-d72d-4d19-82d6-516b1c75efe5
+keywords:
+- ModifyVirtualSystem method Hyper-V
+- ModifyVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , ModifyVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyVirtualSystem method of the CIM\_VirtualSystemManagementService class
@@ -22,10 +30,10 @@ Modifies the settings for an existing virtual computer system.
 
 ```mof
 uint32 ModifyVirtualSystem(
-  [in]  CIM_ComputerSystem           REF ComputerSystem,
-  [in]  string                           SystemSettingData,
-  [out] CIM_VirtualSystemSettingData REF ModifiedSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_ComputerSystem           REF ComputerSystem,
+  [in]  string                           SystemSettingData,
+  [out] CIM_VirtualSystemSettingData REF ModifiedSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -126,9 +134,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

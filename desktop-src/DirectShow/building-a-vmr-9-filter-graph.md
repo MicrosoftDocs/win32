@@ -1,7 +1,12 @@
 ---
-Description: 'Building a VMR-9 Filter Graph'
-ms.assetid: 'fd83a89c-f1b6-48a3-971e-04ae4ac14c66'
-title: 'Building a VMR-9 Filter Graph'
+Description: Building a VMR-9 Filter Graph
+ms.assetid: fd83a89c-f1b6-48a3-971e-04ae4ac14c66
+title: Building a VMR-9 Filter Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a VMR-9 Filter Graph
@@ -22,14 +27,14 @@ The Capture Graph Builder is a helper object for building custom filter graphs. 
 
     
 
-3.  Call [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) on the Filter Graph Manager to add the VMR-9 to the filter graph:
+3.  Call [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) on the Filter Graph Manager to add the VMR-9 to the filter graph:
     ```C++
     hr = pGraph->AddFilter(pVmr, L"VMR9");
     ```
 
     
 
-4.  Call [**IGraphBuilder::AddSourceFilter**](igraphbuilder-addsourcefilter.md) to add a source filter for the video file:
+4.  Call [**IGraphBuilder::AddSourceFilter**](/windows/win32/Strmif/nf-strmif-igraphbuilder-addsourcefilter?branch=master) to add a source filter for the video file:
     ```C++
     IBaseFilter *pSource;
     hr = pGraph->AddSourceFilter(L"C:\\Example.avi", L"Source1", &amp;pSource);
@@ -37,7 +42,7 @@ The Capture Graph Builder is a helper object for building custom filter graphs. 
 
     
 
-5.  Call the [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method to render the video stream to the VMR:
+5.  Call the [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method to render the video stream to the VMR:
     ```C++
     hr = pBuild->RenderStream(0, 0, pSource, 0, pVmr);  
     ```
@@ -62,7 +67,7 @@ If you prefer not to use the Capture Graph Builder, you can build a VMR-9 graph 
 3.  If you want to render the audio, create an instance of the [DirectSound Renderer](directsound-renderer-filter.md) filter and add it to the filter graph.
 4.  Use the IBaseFilter::EnumPins method to find an output pin on the source filter. See [Enumerating Pins](enumerating-pins.md) for details.
 5.  Query the Filter Graph Manager for the IFilterGraph2 interface.
-6.  Call [**IFilterGraph2::RenderEx**](ifiltergraph2-renderex.md) with the AM\_RENDEREX\_RENDERTOEXISTINGRENDERERS flag. This call renders the output pin, using only the renderer filters already in the graph — in this case, the VMR-9 and the DirectSound Renderer. This prevents the Intelligent Connect logic from adding the default video renderer to the graph, which would leave the VMR-9 unconnected.
+6.  Call [**IFilterGraph2::RenderEx**](/windows/win32/Strmif/nf-strmif-ifiltergraph2-renderex?branch=master) with the AM\_RENDEREX\_RENDERTOEXISTINGRENDERERS flag. This call renders the output pin, using only the renderer filters already in the graph — in this case, the VMR-9 and the DirectSound Renderer. This prevents the Intelligent Connect logic from adding the default video renderer to the graph, which would leave the VMR-9 unconnected.
 
 ## Related topics
 

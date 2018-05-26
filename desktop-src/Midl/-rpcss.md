@@ -2,13 +2,19 @@
 title: /rpcss switch
 description: The /rpcss switch, when specified, acts as though the enable\_allocate attribute was specified on all operations of the interface. The usage of this attribute is not recommended.
 ms.assetid: a4507779-7d07-4517-8592-39f0d9460bc3
-keywords: ["/rpcss switch MIDL"]
+keywords:
+- /rpcss switch MIDL
 topic_type:
 - apiref
 api_name:
 - /rpcss
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /rpcss switch

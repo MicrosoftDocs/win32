@@ -1,7 +1,12 @@
 ---
 title: Active Accessibility User Interface Services
 description: This section describes the Microsoft Active Accessibility User Interface (UI) Services, which is an API that provides programmatic methods for servers to communicate information about the UI to clients.
-ms.assetid: '5ceae703-486c-44c1-9673-7e6ec537a997'
+ms.assetid: 5ceae703-486c-44c1-9673-7e6ec537a997
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Active Accessibility User Interface Services

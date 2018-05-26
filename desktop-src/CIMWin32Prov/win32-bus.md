@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_Bus WMI class represents a physical bus as seen by a computer running a Windows operating system. Any instance of a Windows bus is a descendant (or member) of this class.'
+Description: The Win32\_Bus WMI class represents a physical bus as seen by a computer running a Windows operating system. Any instance of a Windows bus is a descendant (or member) of this class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '76ba15f4-8c7b-4713-b5a2-e444fbab064a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 76ba15f4-8c7b-4713-b5a2-e444fbab064a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Bus class'
+title: Win32\_Bus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Bus class
@@ -24,27 +27,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C50E-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_Bus : CIM_LogicalDevice
 {
-  uint16   Availability;
-  uint32   BusNum;
-  uint32   BusType;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  uint32   BusNum;
+  uint32   BusType;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -68,7 +71,7 @@ The **Win32\_Bus** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -453,7 +456,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1309,8 +1312,8 @@ The **Win32\_Bus** class is derived from [**CIM\_LogicalDevice**](cim-logicaldev
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1327,9 +1330,9 @@ The **Win32\_Bus** class is derived from [**CIM\_LogicalDevice**](cim-logicaldev
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

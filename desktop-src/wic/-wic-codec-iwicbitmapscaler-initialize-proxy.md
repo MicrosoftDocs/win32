@@ -1,23 +1,28 @@
 ---
-Description: 'Proxy function for the Initialize method.'
-ms.assetid: '47a717d2-9aac-4230-bdb3-093212eb5448'
-title: 'IWICBitmapScaler\_Initialize\_Proxy function'
+Description: Proxy function for the Initialize method.
+ms.assetid: 47a717d2-9aac-4230-bdb3-093212eb5448
+title: IWICBitmapScaler\_Initialize\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapScaler\_Initialize\_Proxy function
 
-Proxy function for the [**Initialize**](-wic-codec-iwicbitmapscaler-initialize.md) method.
+Proxy function for the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapscaler-initialize?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapScaler_Initialize_Proxy(
-  _In_ IWICBitmapScaler           *THIS_PTR,
-  _In_ IWICBitmapSource           *pISource,
-  _In_ UINT                       uiWidth,
-  _In_ UINT                       uiHeight,
-  _In_ WICBitmapInterpolationMode mode
+  _In_ IWICBitmapScaler           *THIS_PTR,
+  _In_ IWICBitmapSource           *pISource,
+  _In_ UINT                       uiWidth,
+  _In_ UINT                       uiHeight,
+  _In_ WICBitmapInterpolationMode mode
 );
 ```
 
@@ -30,16 +35,16 @@ HRESULT IWICBitmapScaler_Initialize_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md)\***
+Type: **[**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master)\***
 
-Pointer to this [**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md) object.
+Pointer to this [**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master) object.
 
 </dd> <dt>
 
 *pISource* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)\***
+Type: **[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)\***
 
 The input bitmap source.
 
@@ -66,7 +71,7 @@ The desination height.
 *mode* \[in\]
 </dt> <dd>
 
-Type: **[**WICBitmapInterpolationMode**](-wic-codec-wicbitmapinterpolationmode.md)**
+Type: **[**WICBitmapInterpolationMode**](/windows/win32/Wincodec/ne-wincodec-wicbitmapinterpolationmode?branch=master)**
 
 The interpolation mode to use when scaling.
 
@@ -86,15 +91,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

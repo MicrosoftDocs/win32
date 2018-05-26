@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a qualifier based on a specified index.'
-ms.assetid: '4d54358d-99de-4a1c-b843-41006f47a279'
-title: 'Qualifiers.Item property'
+---
+Description: Retrieves a qualifier based on a specified index.
+ms.assetid: 4d54358d-99de-4a1c-b843-41006f47a279
+title: Qualifiers.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifiers.Item property

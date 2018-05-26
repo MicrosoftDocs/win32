@@ -1,7 +1,12 @@
 ---
 Description: Capture DV to File
-ms.assetid: 'f7a8bcbb-a744-43c4-a226-354ae2d94df8'
+ms.assetid: f7a8bcbb-a744-43c4-a226-354ae2d94df8
 title: Capture DV to File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture DV to File

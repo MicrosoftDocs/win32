@@ -1,8 +1,9 @@
 ---
 title: TBN\_RESTORE notification code
-description: Notifies a toolbar's parent window that a toolbar is in the process of being restored. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'b1f0c801-d56b-4e93-b9ba-b572aaa38647'
-keywords: ["TBN_RESTORE notification code Windows Controls"]
+description: Notifies a toolbars parent window that a toolbar is in the process of being restored. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: b1f0c801-d56b-4e93-b9ba-b572aaa38647
+keywords:
+- TBN_RESTORE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_RESTORE notification code
@@ -33,7 +39,7 @@ TBN_RESTORE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBRESTORE**](nmtbrestore.md) structure.
+Pointer to an [**NMTBRESTORE**](/windows/win32/Commctrl/ns-commctrl-tagnmtbrestore?branch=master) structure.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ The application will receive this notification code once at the start of the res
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

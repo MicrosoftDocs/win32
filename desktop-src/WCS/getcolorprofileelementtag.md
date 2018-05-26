@@ -1,8 +1,9 @@
 ---
 title: GetColorProfileElementTag function
 description: The GetColorProfileElementTag function retrieves the tag name specified by dwIndex in the tag table of a given International Color Consortium (ICC) color profile, where dwIndex is a one-based index into that table.
-ms.assetid: '6f3172ac-19e0-43c7-a0a7-587ae31ec2fa'
-keywords: ["GetColorProfileElementTag function Windows Color System"]
+ms.assetid: 6f3172ac-19e0-43c7-a0a7-587ae31ec2fa
+keywords:
+- GetColorProfileElementTag function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetColorProfileElementTag function
@@ -22,9 +28,9 @@ The **GetColorProfileElementTag** function retrieves the tag name specified by *
 
 ```C++
 BOOL WINAPI GetColorProfileElementTag(
-   HPROFILE hProfile,
-   DWORD    dwIndex,
-   PTAGTYPE pTag
+   HPROFILE hProfile,
+   DWORD    dwIndex,
+   PTAGTYPE pTag
 );
 ```
 
@@ -75,8 +81,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -93,9 +99,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2b231ea2-d3c9-47ac-be51-4de3c736b369'
-title: 'System.Contact.DataSuppliers'
+Description: .
+ms.assetid: 2b231ea2-d3c9-47ac-be51-4de3c736b369
+title: System.Contact.DataSuppliers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.DataSuppliers

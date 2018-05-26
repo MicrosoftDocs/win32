@@ -4,11 +4,16 @@ description: A private property is an attribute possessed by an individual insta
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a1dee11c-f1fe-4509-a40a-a58c4b8999ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a1dee11c-f1fe-4509-a40a-a58c4b8999ef
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster ,private", "properties Failover Cluster ,private,described"]
+keywords:
+- properties Failover Cluster ,private
+- properties Failover Cluster ,private,described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Private Properties of a Cluster Object

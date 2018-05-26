@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientBinding Initialize method
 description: Starts up the NapAgent service automatically.
-ms.assetid: '6b51043d-a8e7-41e4-9da9-e7f18f9bd068'
-keywords: ["Initialize method NAP", "Initialize method NAP , INapEnforcementClientBinding interface", "INapEnforcementClientBinding interface NAP , Initialize method"]
+ms.assetid: 6b51043d-a8e7-41e4-9da9-e7f18f9bd068
+keywords:
+- Initialize method NAP
+- Initialize method NAP , INapEnforcementClientBinding interface
+- INapEnforcementClientBinding interface NAP , Initialize method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientBinding::Initialize method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientBinding::Initialize** method starts up the NapAgent service automatically.
 
@@ -27,8 +35,8 @@ The **INapEnforcementClientBinding::Initialize** method starts up the NapAgent s
 
 ```C++
 HRESULT Initialize(
-  [in] EnforcementEntityId           id,
-  [in] INapEnforcementClientCallback *callback
+  [in] EnforcementEntityId           id,
+  [in] INapEnforcementClientCallback *callback
 );
 ```
 
@@ -68,7 +76,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ The enforcement client must call the **INapEnforcementClientBinding::Initialize*
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -101,9 +109,9 @@ The enforcement client must call the **INapEnforcementClientBinding::Initialize*
 [**INapEnforcementClientBinding::Uninitialize**](inapenforcementclientbinding-uninitialize-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

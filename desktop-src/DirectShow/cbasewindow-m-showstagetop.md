@@ -1,7 +1,12 @@
 ---
-Description: 'Private message that sets the window style to WS\_EX\_TOPMOST.'
-ms.assetid: '4934400e-4ca5-4ace-b9b9-3889f4cf610e'
-title: 'CBaseWindow::m\_ShowStageTop member'
+Description: Private message that sets the window style to WS\_EX\_TOPMOST.
+ms.assetid: 4934400e-4ca5-4ace-b9b9-3889f4cf610e
+title: CBaseWindowm\_ShowStageTop member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_ShowStageTop member
@@ -39,9 +44,9 @@ Video renderers should send this message to the window if they switch to full-sc
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

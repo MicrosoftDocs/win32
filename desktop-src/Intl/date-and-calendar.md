@@ -1,7 +1,12 @@
 ---
-Description: 'Each locale has a default calendar type (data type CALTYPE) associated with it. A locale can also have an alternate calendar type. For details of calendar types, see Calendar Type Information.'
-ms.assetid: '32772cba-eb30-4cd3-adaf-57fb8425a6d5'
+Description: Each locale has a default calendar type (data type CALTYPE) associated with it. A locale can also have an alternate calendar type. For details of calendar types, see Calendar Type Information.
+ms.assetid: 32772cba-eb30-4cd3-adaf-57fb8425a6d5
 title: Date and Calendar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date and Calendar
@@ -13,7 +18,7 @@ Each [locale](locales-and-languages.md) has a default calendar type (data type C
 
  
 
-Most locales use the standard Gregorian calendar and a set number of date formats. These default choices for date formats are available for display by using the [**EnumDateFormatsEx**](enumdateformatsex.md) or [**EnumDateFormatsExEx**](enumdateformatsexex.md) function.
+Most locales use the standard Gregorian calendar and a set number of date formats. These default choices for date formats are available for display by using the [**EnumDateFormatsEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexa?branch=master) or [**EnumDateFormatsExEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexex?branch=master) function.
 
 Some locales require special considerations when creating a complete list of format choices. Some of these locales require text strings to be inserted in the date format string, while others require a completely different method of computation of the values. An application addresses these special requirements by the addition of certain locale information types and calendar types.
 
@@ -32,10 +37,10 @@ For details about implementing dates and calendars in your applications, see [Re
 [Retrieving Time and Date Information](retrieving-time-and-date-information.md)
 </dt> <dt>
 
-[**EnumDateFormatsEx**](enumdateformatsex.md)
+[**EnumDateFormatsEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexa?branch=master)
 </dt> <dt>
 
-[**EnumDateFormatsExEx**](enumdateformatsexex.md)
+[**EnumDateFormatsExEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexex?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: eaphostusercredentials Schema Elements
 description: Is made up of the following schema elements.
-ms.assetid: 'befc5a27-03ff-4e42-a99e-047a4237d8a7'
+ms.assetid: befc5a27-03ff-4e42-a99e-047a4237d8a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eaphostusercredentials Schema Elements

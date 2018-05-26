@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the default CPU Sets assignment for threads in the specified process. Threads that are created, which don’t have CPU Sets explicitly set using SetThreadSelectedCpuSets, will inherit the sets specified by SetProcessDefaultCpuSets automatically.'
-ms.assetid: '7A510A8D-B06C-4B7B-9A87-BCFE0DE4D17B'
+---
+Description: Sets the default CPU Sets assignment for threads in the specified process. Threads that are created, which don’t have CPU Sets explicitly set using SetThreadSelectedCpuSets, will inherit the sets specified by SetProcessDefaultCpuSets automatically.
+ms.assetid: 7A510A8D-B06C-4B7B-9A87-BCFE0DE4D17B
 title: SetProcessDefaultCpuSets function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetProcessDefaultCpuSets function
@@ -28,7 +33,7 @@ BOOL WINAPI SetProcessDefaultCpuSets(
 *Process* \[in\]
 </dt> <dd>
 
-Specifies the process for which to set the default CPU Sets. This handle must have the PROCESS\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](getcurrentprocess.md) can also be specified here.
+Specifies the process for which to set the default CPU Sets. This handle must have the PROCESS\_SET\_LIMITED\_INFORMATION access right. The value returned by [**GetCurrentProcess**](/windows/win32/WinBase/nf-processthreadsapi-getcurrentprocess?branch=master) can also be specified here.
 
 </dd> <dt>
 

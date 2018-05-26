@@ -4,11 +4,15 @@ description: You can remove users, groups, or contacts from groups.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '036f2882-7da9-4293-87a0-a087235b212f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 036f2882-7da9-4293-87a0-a087235b212f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["groups AD ,removing members from groups in a domain"]
+keywords:
+- groups AD ,removing members from groups in a domain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Removing Members from Groups in a Domain

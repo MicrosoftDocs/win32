@@ -1,8 +1,9 @@
 ---
 title: RB\_GETBARINFO message
 description: Retrieves information about the rebar control and the image list it uses.
-ms.assetid: 'd3d56b95-7540-4e45-bb2e-b9d41cfcca0d'
-keywords: ["RB_GETBARINFO message Windows Controls"]
+ms.assetid: d3d56b95-7540-4e45-bb2e-b9d41cfcca0d
+keywords:
+- RB_GETBARINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_GETBARINFO message
@@ -27,7 +33,7 @@ Retrieves information about the rebar control and the image list it uses.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARINFO**](rebarinfo.md) structure that will receive the rebar control information. You must set the **cbSize** member of this structure to **sizeof**(REBARINFO) before sending this message.
+Pointer to a [**REBARINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarinfo?branch=master) structure that will receive the rebar control information. You must set the **cbSize** member of this structure to **sizeof**(REBARINFO) before sending this message.
 
 </dd> </dl>
 
@@ -41,15 +47,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

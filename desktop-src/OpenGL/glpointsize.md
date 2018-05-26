@@ -1,8 +1,9 @@
 ---
 title: glPointSize function
 description: The glPointSize function specifies the diameter of rasterized points.
-ms.assetid: 'efa35fa8-721a-48e5-bf59-d33b9bbe7f73'
-keywords: ["glPointSize function OpenGL"]
+ms.assetid: efa35fa8-721a-48e5-bf59-d33b9bbe7f73
+keywords:
+- glPointSize function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPointSize function
@@ -22,7 +28,7 @@ The **glPointSize** function specifies the diameter of rasterized points.
 
 ```C++
 void WINAPI glPointSize(
-   GLfloat size
+   GLfloat size
 );
 ```
 
@@ -75,15 +81,15 @@ The **glPointSize** function specifies the rasterized diameter of both aliased a
 
 If point antialiasing is disabled, the actual size is determined by rounding the supplied size to the nearest integer. (If the rounding results in the value 0, it is as if the point size were 1.) If the rounded size is odd, then the center point (*x*,*y*) of the pixel fragment that represents the point is computed as
 
-(*x*<sub>w</sub> + .5, *y*<sub>w</sub> + .5)
+(*x*<sub>w</sub> + .5, *y*<sub>w</sub> + .5)
 
 where *w* subscripts indicate window coordinates. All pixels that lie within the square grid of the rounded size centered at (*x*,*y*) make up the fragment. If the size is even, the center point is
 
-(*x*<sub>w</sub> + .5, *y*<sub>w</sub> + .5)
+(*x*<sub>w</sub> + .5, *y*<sub>w</sub> + .5)
 
 and the rasterized fragment's centers are the half-integer window coordinates within the square of the rounded size centered at (*x*,*y*). All pixel fragments produced in rasterizing a nonantialiased point are assigned the same associated data; that of the vertex corresponding to the point.
 
-If antialiasing is enabled, then point rasterization produces a fragment for each pixel square that intersects the region lying within the circle having diameter equal to the current point size and centered at the points (*x*<sub>w</sub> ,*y*<sub>w</sub> ). The coverage value for each fragment is the window coordinate area of the intersection of the circular region with the corresponding pixel square. This value is saved and used in the final rasterization step. The data associated with each fragment is the data associated with the point being rasterized.
+If antialiasing is enabled, then point rasterization produces a fragment for each pixel square that intersects the region lying within the circle having diameter equal to the current point size and centered at the points (*x*<sub>w</sub> ,*y*<sub>w</sub> ). The coverage value for each fragment is the window coordinate area of the intersection of the circular region with the corresponding pixel square. This value is saved and used in the final rasterization step. The data associated with each fragment is the data associated with the point being rasterized.
 
 Not all sizes are supported when point antialiasing is enabled. If an unsupported size is requested, the nearest supported size is used. Only size 1.0 is guaranteed to be supported; others depend on the implementation. The range of supported sizes and the size difference between supported sizes within the range can be queried by calling [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) with arguments GL\_POINT\_SIZE\_RANGE and GL\_POINT\_SIZE\_GRANULARITY.
 
@@ -107,8 +113,8 @@ The following functions retrieve information related to **glPointSize**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ The following functions retrieve information related to **glPointSize**:
 [**glIsEnabled**](glisenabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ccedce99-f7b4-473e-805c-62ad13b2fe0d'
-title: 'System.Contact.HomeAddress1PostalCode'
+Description: .
+ms.assetid: ccedce99-f7b4-473e-805c-62ad13b2fe0d
+title: System.Contact.HomeAddress1PostalCode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress1PostalCode

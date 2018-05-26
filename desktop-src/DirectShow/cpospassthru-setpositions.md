@@ -1,22 +1,27 @@
 ---
-Description: 'The SetPositions method sets the current position and the stop position. This method implements the IMediaSeeking::SetPositions method.'
-ms.assetid: 'd4425221-e20f-4e51-8a33-a74fa21f9117'
-title: 'CPosPassThru.SetPositions method'
+Description: The SetPositions method sets the current position and the stop position. This method implements the IMediaSeekingSetPositions method.
+ms.assetid: d4425221-e20f-4e51-8a33-a74fa21f9117
+title: CPosPassThru.SetPositions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.SetPositions method
 
-The `SetPositions` method sets the current position and the stop position. This method implements the [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) method.
+The `SetPositions` method sets the current position and the stop position. This method implements the [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetPositions(
-   LONGLONG *pCurrent,
-   DWORD    dwCurrentFlags,
-   LONGLONG *pStop,
-   DWORD    dwStopFlags
+   LONGLONG *pCurrent,
+   DWORD    dwCurrentFlags,
+   LONGLONG *pStop,
+   DWORD    dwStopFlags
 );
 ```
 
@@ -36,7 +41,7 @@ Pointer to a variable that specifies the current position, in units of the curre
 *dwCurrentFlags* 
 </dt> <dd>
 
-Bitwise combination of flags. See [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) for more information.
+Bitwise combination of flags. See [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) for more information.
 
 </dd> <dt>
 
@@ -50,7 +55,7 @@ Pointer to a variable that specifies the stop time, in units of the current time
 *dwStopFlags* 
 </dt> <dd>
 
-Bitwise combination of flags. See [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) for more information.
+Bitwise combination of flags. See [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) for more information.
 
 </dd> </dl>
 
@@ -76,9 +81,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_ABORT message
 description: The WM\_CAP\_ABORT message stops the capture operation.
-ms.assetid: 'a0479d73-8422-4833-9e8a-c262ec386f58'
-keywords: ["WM_CAP_ABORT message Windows Multimedia"]
+ms.assetid: a0479d73-8422-4833-9e8a-c262ec386f58
+keywords:
+- WM_CAP_ABORT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_ABORT message
 
-The **WM\_CAP\_ABORT** message stops the capture operation. In the case of step capture, the image data collected up to the point of the **WM\_CAP\_ABORT** message will be retained in the capture file, but audio will not be captured. You can send this message explicitly or by using the [**capCaptureAbort**](capcaptureabort.md) macro.
+The **WM\_CAP\_ABORT** message stops the capture operation. In the case of step capture, the image data collected up to the point of the **WM\_CAP\_ABORT** message will be retained in the capture file, but audio will not be captured. You can send this message explicitly or by using the [**capCaptureAbort**](/windows/win32/Vfw/nf-vfw-capcaptureabort?branch=master) macro.
 
 
 ```C++
@@ -42,8 +48,8 @@ Use the [**WM\_CAP\_STOP**](wm-cap-stop.md) message to halt step capture at the 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ Use the [**WM\_CAP\_STOP**](wm-cap-stop.md) message to halt step capture at the 
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

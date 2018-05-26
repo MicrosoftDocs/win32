@@ -1,7 +1,12 @@
 ---
 title: EAP-TLS Connection Properties
 description: Is an instance of the eaptlsconnectionpropertiesv1 legacy schema.
-ms.assetid: '7d8e7771-5263-4187-bb9d-ec0d6c154b17'
+ms.assetid: 7d8e7771-5263-4187-bb9d-ec0d6c154b17
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP-TLS Connection Properties

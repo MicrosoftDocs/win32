@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_REGISTERED\_FORMAT structure
 description: Specifies a registered data format as an owner/format pair.
-ms.assetid: 'a178840e-81cc-4dd3-9d80-a181fa7fa888'
-keywords: ["WINBIO_REGISTERED_FORMAT structure Windows Biometric Framework API", "PWINBIO_REGISTERED_FORMAT structure pointer Windows Biometric Framework API"]
+ms.assetid: a178840e-81cc-4dd3-9d80-a181fa7fa888
+keywords:
+- WINBIO_REGISTERED_FORMAT structure Windows Biometric Framework API
+- PWINBIO_REGISTERED_FORMAT structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_REGISTERED\_FORMAT structure
@@ -60,7 +67,7 @@ Because Windows currently supports only fingerprint readers, the following value
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,8 +75,8 @@ Because Windows currently supports only fingerprint readers, the following value
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -90,9 +97,9 @@ Because Windows currently supports only fingerprint readers, the following value
 [**WINBIO\_BIR\_HEADER**](winbio-bir-header.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the analog video input parameters of a computer monitor.'
-ms.assetid: '87d4260d-06c7-4a76-a3a1-8f6e51e23d92'
+Description: Represents the analog video input parameters of a computer monitor.
+ms.assetid: 87d4260d-06c7-4a76-a3a1-8f6e51e23d92
 title: WmiMonitorAnalogVideoInputParams class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorAnalogVideoInputParams class
@@ -14,13 +19,13 @@ The **WmiMonitorAnalogVideoInputParams** WMI class represents the analog video i
 class WmiMonitorAnalogVideoInputParams : MSMonitorClass
 {
   boolean Active;
-  uint8   CompositeSyncSupported;
-  string  InstanceName;
-  uint8   SeparateSyncsSupported;
-  uint8   SerrationOfVsyncRequired;
-  uint8   SetupExpected;
-  uint8   SignalLevelStandard;
-  uint8   SyncOnGreenVideoSupported;
+  uint8   CompositeSyncSupported;
+  string  InstanceName;
+  uint8   SeparateSyncsSupported;
+  uint8   SerrationOfVsyncRequired;
+  uint8   SetupExpected;
+  uint8   SignalLevelStandard;
+  uint8   SyncOnGreenVideoSupported;
 };
 ```
 
@@ -69,7 +74,7 @@ Indicates whether composite sync is supported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -109,7 +114,7 @@ Indicates whether separate syncs are supported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -133,7 +138,7 @@ Indicates whether vertical sync pulse serration is required.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -157,7 +162,7 @@ Indicates whether setup is expected.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -183,7 +188,7 @@ Signal level standard for Enhanced video connector (EVC) connections.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -207,7 +212,7 @@ Indicates whether sync on green is supported.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -217,8 +222,8 @@ Indicates whether sync on green is supported.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -232,9 +237,9 @@ Indicates whether sync on green is supported.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

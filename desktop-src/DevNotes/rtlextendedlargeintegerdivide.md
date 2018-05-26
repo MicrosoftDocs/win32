@@ -1,7 +1,12 @@
-﻿---
-Description: 'Divides extended integers.'
-ms.assetid: 'd46f65f0-6c41-4cb2-9882-5b11f7aae3ca'
+---
+Description: Divides extended integers.
+ms.assetid: d46f65f0-6c41-4cb2-9882-5b11f7aae3ca
 title: RtlExtendedLargeIntegerDivide function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlExtendedLargeIntegerDivide function

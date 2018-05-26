@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETCOLUMNWIDTH message
 description: Gets the width of a column in report or list view. You can send this message explicitly or by using the ListView\_GetColumnWidth macro.
-ms.assetid: '06e8ec36-3bc5-4516-ac29-17c36fb6d962'
-keywords: ["LVM_GETCOLUMNWIDTH message Windows Controls"]
+ms.assetid: 06e8ec36-3bc5-4516-ac29-17c36fb6d962
+keywords:
+- LVM_GETCOLUMNWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETCOLUMNWIDTH message
 
-Gets the width of a column in report or list view. You can send this message explicitly or by using the [**ListView\_GetColumnWidth**](listview-getcolumnwidth.md) macro.
+Gets the width of a column in report or list view. You can send this message explicitly or by using the [**ListView\_GetColumnWidth**](/windows/win32/Commctrl/nf-commctrl-listview_getcolumnwidth?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns the column width if successful, or zero otherwise. If this message is se
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

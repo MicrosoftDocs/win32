@@ -1,7 +1,12 @@
 ---
-Description: 'A network provider is a DLL that supports a specific network protocol.'
-ms.assetid: 'ebdaec3d-6335-4bdf-b150-91e538068f2b'
+Description: A network provider is a DLL that supports a specific network protocol.
+ms.assetid: ebdaec3d-6335-4bdf-b150-91e538068f2b
 title: Network Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Providers

@@ -1,7 +1,12 @@
 ---
-Description: 'Device has a problem.'
-ms.assetid: '0eeb586b-4d54-409f-8f73-55b5977f6277'
-title: 'System.Devices.DeviceHasProblem'
+Description: Device has a problem.
+ms.assetid: 0eeb586b-4d54-409f-8f73-55b5977f6277
+title: System.Devices.DeviceHasProblem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DeviceHasProblem

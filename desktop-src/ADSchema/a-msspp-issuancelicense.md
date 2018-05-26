@@ -4,17 +4,22 @@ description: Issuance license used during online/phone activation of the Active 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '926a04b6-0af7-42be-aedb-7a278bcb47fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 926a04b6-0af7-42be-aedb-7a278bcb47fb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-Issuance-License attribute AD Schema", "msSPP-IssuanceLicense attribute AD Schema"]
+keywords:
+- ms-SPP-Issuance-License attribute AD Schema
+- msSPP-IssuanceLicense attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-Issuance-License
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-Issuance-License attribute
@@ -38,7 +43,7 @@ Issuance license used during online/phone activation of the Active Directory for
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Issuance license used during online/phone activation of the Active Directory for
 
 
 
- 
+ 
 
- 
+ 
 
 
 

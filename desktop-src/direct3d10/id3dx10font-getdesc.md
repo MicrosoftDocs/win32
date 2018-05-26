@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get a description of the current font object.'
-ms.assetid: 'f08beb35-351f-4087-a2db-097843463291'
-title: 'ID3DX10Font::GetDesc method'
+---
+Description: Get a description of the current font object.
+ms.assetid: f08beb35-351f-4087-a2db-097843463291
+title: ID3DX10FontGetDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Font::GetDesc method

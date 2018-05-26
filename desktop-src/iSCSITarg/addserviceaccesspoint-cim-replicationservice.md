@@ -4,13 +4,16 @@ description: Introduces a new instance of a ServiceAccessPoint, or one of its su
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd35cc029-772b-416a-a5a3-f4eef29dd640'
-ms.prod: 'windows-server-dev'
+ms.assetid: d35cc029-772b-416a-a5a3-f4eef29dd640
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddServiceAccessPoint method iSCSI Software Target API", "AddServiceAccessPoint method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , AddServiceAccessPoint method"]
+keywords:
+- AddServiceAccessPoint method iSCSI Software Target API
+- AddServiceAccessPoint method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , AddServiceAccessPoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddServiceAccessPoint method of the CIM\_ReplicationService class
@@ -30,9 +36,9 @@ Introduces a new instance of a ServiceAccessPoint, or one of its subclasses, for
 
 ```mof
 uint32 AddServiceAccessPoint(
-  [in]  string                     ServiceAccessPoint,
-  [in]  string                     InstanceNamespace,
-  [out] CIM_ServiceAccessPoint REF ServiceAccessPointPath
+  [in]  string                     ServiceAccessPoint,
+  [in]  string                     InstanceNamespace,
+  [out] CIM_ServiceAccessPoint REF ServiceAccessPointPath
 );
 ```
 
@@ -88,10 +94,10 @@ Reference to the created instance.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -101,7 +107,7 @@ Reference to the created instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -115,9 +121,9 @@ Reference to the created instance.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

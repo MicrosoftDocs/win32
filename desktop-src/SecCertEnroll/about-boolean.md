@@ -1,7 +1,12 @@
 ---
-Description: 'A Boolean value can be TRUE or FALSE. FALSE is encoded as a TLV triplet in which the Value field is zero (0). TRUE is encoded as a nonzero value. The Tag for the BOOLEAN data type is 0x01.'
-ms.assetid: '17388e0c-bc9e-41b6-b339-e5ae59a12e74'
+Description: A Boolean value can be TRUE or FALSE. FALSE is encoded as a TLV triplet in which the Value field is zero (0). TRUE is encoded as a nonzero value. The Tag for the BOOLEAN data type is 0x01.
+ms.assetid: 17388e0c-bc9e-41b6-b339-e5ae59a12e74
 title: BOOLEAN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BOOLEAN

@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Imaging Component (WIC) is an extensible platform for digital imaging on the Windows Vista and Windows 7 operating systems.'
-ms.assetid: 'ffcd5239-ae2d-436f-9402-8c10a79256c3'
-title: 'Introduction (How to Write a WIC-Enabled Codec)'
+Description: The Windows Imaging Component (WIC) is an extensible platform for digital imaging on the Windows Vista and Windows 7 operating systems.
+ms.assetid: ffcd5239-ae2d-436f-9402-8c10a79256c3
+title: Introduction (How to Write a WIC-Enabled Codec)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction (How to Write a WIC-Enabled Codec)

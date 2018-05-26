@@ -1,8 +1,14 @@
 ---
 title: Common On-Boarding Problems for Online Music Stores
 description: Common On-Boarding Problems for Online Music Stores
-ms.assetid: '4210aabb-d1ad-4f98-88e0-941933d77303'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: 4210aabb-d1ad-4f98-88e0-941933d77303
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common On-Boarding Problems for Online Music Stores

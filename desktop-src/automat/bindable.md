@@ -1,7 +1,12 @@
 ---
 title: bindable
 description: Indicates that the property supports data binding.
-ms.assetid: 'd5a4dabd-5271-4ad4-81a5-739efe062c03'
+ms.assetid: d5a4dabd-5271-4ad4-81a5-739efe062c03
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bindable

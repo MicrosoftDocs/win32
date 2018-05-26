@@ -1,8 +1,9 @@
 ---
 title: DTM\_SETFORMAT message
 description: Sets the display of a date and time picker (DTP) control based on a given format string. You can send this message explicitly or use the DateTime\_SetFormat macro.
-ms.assetid: 'a89fa3ad-9894-4c52-ab56-fb62208e39b3'
-keywords: ["DTM_SETFORMAT message Windows Controls"]
+ms.assetid: a89fa3ad-9894-4c52-ab56-fb62208e39b3
+keywords:
+- DTM_SETFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_SETFORMAT message
 
-Sets the display of a date and time picker (DTP) control based on a given format string. You can send this message explicitly or use the [**DateTime\_SetFormat**](datetime-setformat.md) macro.
+Sets the display of a date and time picker (DTP) control based on a given format string. You can send this message explicitly or use the [**DateTime\_SetFormat**](/windows/win32/Commctrl/nf-commctrl-datetime_setformat?branch=master) macro.
 
 ## Parameters
 
@@ -44,7 +50,7 @@ It is acceptable to include extra characters within the format string to produce
 > [!Note]  
 > A DTP control tracks locale changes when it is using the default format string. If you set a custom format string, it will not be updated in response to locale changes.
 
- 
+ 
 
 ## Requirements
 
@@ -52,16 +58,16 @@ It is acceptable to include extra characters within the format string to produce
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **DTM\_SETFORMATW** (Unicode) and **DTM\_SETFORMATA** (ANSI)<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

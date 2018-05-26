@@ -4,11 +4,12 @@ description: Used to access a protected file.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.ProtectedFileStream'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.ProtectedFileStream
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileStream class"]
+keywords:
+- ProtectedFileStream class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream class
@@ -59,7 +63,7 @@ The **ProtectedFileStream** class has these methods. It also inherits methods fr
 
 
 
- 
+ 
 
 ### Properties
 
@@ -78,7 +82,7 @@ The **ProtectedFileStream** class has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -109,9 +113,9 @@ Members of this class are not guaranteed to be thread safe.
 [**IRandomAccessStream**](https://msdn.microsoft.com/library/windows/apps/br241731)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

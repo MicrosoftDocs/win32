@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemPlayingColor
 description: The itemPlayingColor attribute specifies or retrieves the highlight color that indicates the currently playing item in the playlist.
-ms.assetid: '8a0ab446-a659-44c6-a1ed-a2fc2c616cdd'
-keywords: ["PLAYLIST.itemPlayingColor Windows Media Player"]
+ms.assetid: 8a0ab446-a659-44c6-a1ed-a2fc2c616cdd
+keywords:
+- PLAYLIST.itemPlayingColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemPlayingColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemPlayingColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

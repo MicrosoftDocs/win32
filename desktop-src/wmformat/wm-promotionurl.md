@@ -1,14 +1,20 @@
 ---
 title: WM/PromotionURL
 description: The WM/PromotionURL attribute contains the address of a Web site offering a promotion related to the content.
-ms.assetid: '0a1514a6-a77a-447c-9de7-fb390bd48b6d'
-keywords: ["WM/PromotionURL windows Media Format"]
+ms.assetid: 0a1514a6-a77a-447c-9de7-fb390bd48b6d
+keywords:
+- WM/PromotionURL windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/PromotionURL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/PromotionURL

@@ -1,7 +1,12 @@
 ---
-Description: 'This set of documentation contains conceptual content for the MAPI32 Stub Library and reference content for Simple MAPI.'
-ms.assetid: '741a0f97-e728-4d3a-99f3-2c4eccca5978'
-title: 'Windows Messaging (MAPI)'
+Description: This set of documentation contains conceptual content for the MAPI32 Stub Library and reference content for Simple MAPI.
+ms.assetid: 741a0f97-e728-4d3a-99f3-2c4eccca5978
+title: Windows Messaging (MAPI)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Messaging (MAPI)

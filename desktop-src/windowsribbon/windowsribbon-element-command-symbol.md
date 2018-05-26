@@ -1,14 +1,20 @@
 ---
 title: Command.Symbol property
 description: Represents the name of a Command that can be referenced externally.
-ms.assetid: 'affa5f3f-f641-4bec-9165-6102509cf355'
-keywords: ["Command.Symbol property Windows Ribbon"]
+ms.assetid: affa5f3f-f641-4bec-9165-6102509cf355
+keywords:
+- Command.Symbol property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.Symbol
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.Symbol property
@@ -85,14 +91,14 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

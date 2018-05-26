@@ -1,14 +1,20 @@
 ---
 title: UserPlaycountAfternoon Attribute
 description: The UserPlaycountAfternoon attribute is the number of times the item has been played between 12 00 and 17 00 local time.
-ms.assetid: 'd02ac67b-6962-452d-9046-491b452447b0'
-keywords: ["UserPlaycountAfternoon Attribute Windows Media Player"]
+ms.assetid: d02ac67b-6962-452d-9046-491b452447b0
+keywords:
+- UserPlaycountAfternoon Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserPlaycountAfternoon
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserPlaycountAfternoon Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

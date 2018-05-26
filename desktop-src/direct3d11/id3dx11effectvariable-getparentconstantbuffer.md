@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVariable GetParentConstantBuffer method
 description: Get a constant buffer.
-ms.assetid: '43b46b05-951e-4c52-8bc7-4bb5f657ea78'
-keywords: ["GetParentConstantBuffer method Direct3D 11", "GetParentConstantBuffer method Direct3D 11 , ID3DX11EffectVariable interface", "ID3DX11EffectVariable interface Direct3D 11 , GetParentConstantBuffer method"]
+ms.assetid: 43b46b05-951e-4c52-8bc7-4bb5f657ea78
+keywords:
+- GetParentConstantBuffer method Direct3D 11
+- GetParentConstantBuffer method Direct3D 11 , ID3DX11EffectVariable interface
+- ID3DX11EffectVariable interface Direct3D 11 , GetParentConstantBuffer method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable::GetParentConstantBuffer method
@@ -44,7 +52,7 @@ Effect variables are read-from or written-to a constant buffer.
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +72,9 @@ Effect variables are read-from or written-to a constant buffer.
 [ID3DX11EffectVariable](id3dx11effectvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

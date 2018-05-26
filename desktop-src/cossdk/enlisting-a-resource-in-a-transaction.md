@@ -1,7 +1,12 @@
 ---
 Description: Enlisting a Resource in a Transaction
-ms.assetid: 'b41fe0aa-a4cf-4d4a-9543-8eb0b38f07a2'
+ms.assetid: b41fe0aa-a4cf-4d4a-9543-8eb0b38f07a2
 title: Enlisting a Resource in a Transaction
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enlisting a Resource in a Transaction

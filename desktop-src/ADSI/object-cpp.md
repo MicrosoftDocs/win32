@@ -4,11 +4,15 @@ description: In the example provider component, a code example of object lists, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cb59ab96-c58e-47cb-9031-5432e83771bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cb59ab96-c58e-47cb-9031-5432e83771bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["OBJECT.CPP"]
+keywords:
+- OBJECT.CPP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OBJECT.CPP

@@ -1,8 +1,11 @@
 ---
 title: IDatabase SuspendNotify method
 description: After this function is called, any notifications will be queued instead of sent directly to the IDatabaseNotify.
-ms.assetid: '22fb8f98-5e18-4240-9454-4d231b87f9f1'
-keywords: ["SuspendNotify method Windows Mail (formerly Outlook Express)", "SuspendNotify method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , SuspendNotify method"]
+ms.assetid: 22fb8f98-5e18-4240-9454-4d231b87f9f1
+keywords:
+- SuspendNotify method Windows Mail (formerly Outlook Express)
+- SuspendNotify method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , SuspendNotify method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::SuspendNotify method
@@ -22,7 +30,7 @@ After this function is called, any notifications will be queued instead of sent 
 
 ```C++
 void SuspendNotify(
-  [in] IDatabaseNotify *pNotify
+  [in] IDatabaseNotify *pNotify
 );
 ```
 
@@ -51,17 +59,17 @@ This method does not return a value.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

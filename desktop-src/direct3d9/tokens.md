@@ -1,7 +1,12 @@
 ---
-Description: 'Tokens are written as little-endian WORDs. The following list of token values is divided into record-bearing and stand-alone tokens.'
-ms.assetid: 'c0df4c9f-a232-45cf-b543-e95ee84a4a8d'
+Description: Tokens are written as little-endian WORDs. The following list of token values is divided into record-bearing and stand-alone tokens.
+ms.assetid: c0df4c9f-a232-45cf-b543-e95ee84a4a8d
 title: Tokens
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tokens

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verify that the version of D3DX you compiled with is the version that you are running.'
-ms.assetid: 'a4e745dd-d573-4e8f-9516-f6a7475f5cc5'
+---
+Description: Verify that the version of D3DX you compiled with is the version that you are running.
+ms.assetid: a4e745dd-d573-4e8f-9516-f6a7475f5cc5
 title: D3DXCheckVersion function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCheckVersion function
@@ -68,7 +73,7 @@ HRESULT CD3DXMyApplication::Initialize(HINSTANCE hInstance,
 
 
 
-Use [**Direct3DCreate9**](direct3dcreate9.md) to verify that the correct runtime is installed.
+Use [**Direct3DCreate9**](/windows/win32/d3d9helper/nf-d3d9-direct3dcreate9?branch=master) to verify that the correct runtime is installed.
 
 ## Requirements
 

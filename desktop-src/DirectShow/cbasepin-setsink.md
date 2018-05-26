@@ -1,19 +1,24 @@
 ---
-Description: 'The SetSink method sets an external quality manager. This method implements the IQualityControl::SetSink method.'
-ms.assetid: '714e6839-954e-4231-824d-72a45f270f59'
-title: 'CBasePin.SetSink method'
+Description: The SetSink method sets an external quality manager. This method implements the IQualityControlSetSink method.
+ms.assetid: 714e6839-954e-4231-824d-72a45f270f59
+title: CBasePin.SetSink method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.SetSink method
 
-The `SetSink` method sets an external quality manager. This method implements the [**IQualityControl::SetSink**](iqualitycontrol-setsink.md) method.
+The `SetSink` method sets an external quality manager. This method implements the [**IQualityControl::SetSink**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-setsink?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetSink(
-   IQualityControl *piqc
+   IQualityControl *piqc
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT SetSink(
 *piqc* 
 </dt> <dd>
 
-Pointer to the [**IQualityControl**](iqualitycontrol.md) interface of the quality manager.
+Pointer to the [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) interface of the quality manager.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ Call this method to redirect quality-control messages to an external quality man
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

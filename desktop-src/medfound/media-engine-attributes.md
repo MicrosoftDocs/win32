@@ -1,7 +1,12 @@
 ---
-Description: 'The Media Engine supports the following configuration attributes.'
-ms.assetid: '08282D80-53F5-463F-B87F-522F72823E99'
+Description: The Media Engine supports the following configuration attributes.
+ms.assetid: 08282D80-53F5-463F-B87F-522F72823E99
 title: Media Engine Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Engine Attributes
@@ -31,7 +36,7 @@ The Media Engine supports the following configuration attributes.
 [Media Foundation Attributes](media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md)
+[**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master)
 </dt> </dl>
 
  

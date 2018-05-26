@@ -1,8 +1,29 @@
 ---
 title: Sinks
 description: Sinks
-ms.assetid: '1b635cd8-6bdd-4592-bfb5-bcdcf7818e18'
-keywords: ["Windows Media Format SDK,sinks", "Windows Media Format SDK,file sinks", "Advanced Systems Format (ASF),sinks", "ASF (Advanced Systems Format),sinks", "Advanced Systems Format (ASF),file sinks", "ASF (Advanced Systems Format),file sinks", "Windows Media Format SDK,network sinks", "Windows Media Format SDK,push sinks", "Advanced Systems Format (ASF),network sinks", "ASF (Advanced Systems Format),network sinks", "Advanced Systems Format (ASF),push sinks", "ASF (Advanced Systems Format),push sinks", "sinks,about", "file sinks,about", "network sinks", "push sinks"]
+ms.assetid: 1b635cd8-6bdd-4592-bfb5-bcdcf7818e18
+keywords:
+- Windows Media Format SDK,sinks
+- Windows Media Format SDK,file sinks
+- Advanced Systems Format (ASF),sinks
+- ASF (Advanced Systems Format),sinks
+- Advanced Systems Format (ASF),file sinks
+- ASF (Advanced Systems Format),file sinks
+- Windows Media Format SDK,network sinks
+- Windows Media Format SDK,push sinks
+- Advanced Systems Format (ASF),network sinks
+- ASF (Advanced Systems Format),network sinks
+- Advanced Systems Format (ASF),push sinks
+- ASF (Advanced Systems Format),push sinks
+- sinks,about
+- file sinks,about
+- network sinks
+- push sinks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sinks
@@ -11,7 +32,7 @@ The writer object of the Windows Media Format SDK delivers processed content to 
 
 ## File Sinks
 
-File sinks write ASF content to a file on a local or network drive. When you use the writer object to write a file without explicitly adding a file sink, the writer will create one for you using the name you pass to [**IWMWriter::SetOutputFilename**](iwmwriter-setoutputfilename.md). You can assign multiple file sinks to a writer object to write the content in several files at once.
+File sinks write ASF content to a file on a local or network drive. When you use the writer object to write a file without explicitly adding a file sink, the writer will create one for you using the name you pass to [**IWMWriter::SetOutputFilename**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename?branch=master). You can assign multiple file sinks to a writer object to write the content in several files at once.
 
 By using a file sink, you can control many aspects of the file. The following features are available through a file sink.
 

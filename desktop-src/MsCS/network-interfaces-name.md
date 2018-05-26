@@ -4,22 +4,27 @@ description: Provides the cluster-generated name for the network interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3bf22101-a59a-4b6d-b1dd-a39810650e08'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3bf22101-a59a-4b6d-b1dd-a39810650e08
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Name Failover Cluster ,for network interfaces", "Name Failover Cluster"]
+keywords:
+- Name Failover Cluster ,for network interfaces
+- Name Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Name
 
-Provides the cluster-generated name for the [network interface](network-interfaces.md). This name appears on the network interface's property sheets in [Cluster Administrator](cluster-administrator.md) and is the name passed to the [**OpenClusterNetInterface**](openclusternetinterface.md) function. The following table summarizes the attributes of the **Name** property.
+Provides the cluster-generated name for the [network interface](network-interfaces.md). This name appears on the network interface's property sheets in [Cluster Administrator](cluster-administrator.md) and is the name passed to the [**OpenClusterNetInterface**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_net_interface?branch=master) function. The following table summarizes the attributes of the **Name** property.
 
 
 
@@ -27,13 +32,13 @@ Provides the cluster-generated name for the [network interface](network-interfac
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ Because the **Name** property is read-only, it cannot be changed using the [CLUS
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -57,15 +62,15 @@ Because the **Name** property is read-only, it cannot be changed using the [CLUS
 [CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES](clusctl-netinterface-set-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**OpenClusterNetInterface**](openclusternetinterface.md)
+[**OpenClusterNetInterface**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_net_interface?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

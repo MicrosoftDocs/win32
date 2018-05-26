@@ -2,13 +2,15 @@
 title: DnsServerConditionalForwarderZone class
 description: Represents a DNS conditional forwarder on a DNS server.
 audience: developer
-ms.assetid: 'cc32f883-7ffc-4767-8722-90feaf58bb4f'
-ms.prod: 'windows-server-dev'
+ms.assetid: cc32f883-7ffc-4767-8722-90feaf58bb4f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerConditionalForwarderZone class", "DnsServerConditionalForwarderZone class, described"]
+keywords:
+- DnsServerConditionalForwarderZone class
+- DnsServerConditionalForwarderZone class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerConditionalForwarderZone class
@@ -40,7 +45,7 @@ Represents a DNS conditional forwarder on a DNS server.
 > [!Note]  
 > Conditional forwarders are stored internally as zones.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -50,20 +55,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerConditionalForwarderZone : DnsServerZone
 {
-  string  DistinguishedName;
-  string  ZoneName;
-  string  ZoneType;
+  string  DistinguishedName;
+  string  ZoneName;
+  string  ZoneType;
   boolean IsPaused;
   boolean IsDsIntegrated;
   boolean IsAutoCreated;
   boolean IsReverseLookupZone;
   boolean IsReadOnly;
   boolean IsShutdown;
-  string  DirectoryPartitionName;
-  string  ReplicationScope;
-  string  MasterServers[];
+  string  DirectoryPartitionName;
+  string  ReplicationScope;
+  string  MasterServers[];
   boolean UseRecursion;
-  uint32  ForwarderTimeout;
+  uint32  ForwarderTimeout;
 };
 ```
 
@@ -373,7 +378,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -390,9 +395,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

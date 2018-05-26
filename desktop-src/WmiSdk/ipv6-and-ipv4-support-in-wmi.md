@@ -1,13 +1,16 @@
 ---
-Description: 'WMI IP Route Provider and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.'
+Description: WMI IP Route Provider and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8ab6287d-be3f-4fa2-a9f5-fa5e1aba66c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8ab6287d-be3f-4fa2-a9f5-fa5e1aba66c8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IPv6 and IPv4 Support in WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPv6 and IPv4 Support in WMI
@@ -36,7 +39,7 @@ The following classes supply data for both IPv4 and IPv6.
 
 ## IPv4 and IPv6 Connections to WMI
 
-When connecting to a WMI namespace on a remote computer, the target computer must be running the same IP software as the connecting computer. For example, a computer running IPv4 cannot connect to a computer running IPv6, even if the connection is attempted by using a computer name in the call to [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md), [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md), or by using the `winmgmts` moniker connection. The reverse is also true: a computer running only IPv6 cannot connect to a computer running only IPv4.
+When connecting to a WMI namespace on a remote computer, the target computer must be running the same IP software as the connecting computer. For example, a computer running IPv4 cannot connect to a computer running IPv6, even if the connection is attempted by using a computer name in the call to [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master), [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md), or by using the `winmgmts` moniker connection. The reverse is also true: a computer running only IPv6 cannot connect to a computer running only IPv4.
 
 If the target computer is running both IPv4 and IPv6, then a connection can be made from a computer running either IP software. A computer name or an IP address in either IPv4 or IPv6 format can be supplied in the connection to a WMI namespace.
 

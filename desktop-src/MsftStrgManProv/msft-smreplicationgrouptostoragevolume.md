@@ -4,11 +4,13 @@ description: Represents an association between a replication group and a storage
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '41309c10-8787-4e6f-9fce-0ea00f8624e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 41309c10-8787-4e6f-9fce-0ea00f8624e1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMReplicationGroupToStorageVolume class", "MSFT_SMReplicationGroupToStorageVolume class, described"]
+keywords:
+- MSFT_SMReplicationGroupToStorageVolume class
+- MSFT_SMReplicationGroupToStorageVolume class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMReplicationGroupToStorageVolume class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_SMReplicationGroupToStorageVolume
 {
   MSFT_SMReplicationGroup REF Parent;
-  MSFT_SMStorageVolume    REF Child;
+  MSFT_SMStorageVolume    REF Child;
 };
 ```
 
@@ -89,7 +94,7 @@ The [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md) object that repre
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ The [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md) object that repre
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

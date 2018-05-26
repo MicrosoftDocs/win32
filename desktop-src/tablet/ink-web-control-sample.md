@@ -1,7 +1,12 @@
 ---
-Description: 'This sample shows how to create an ink-enabled control for use in a Web browser. The sample takes the original Auto Claims Form Sample and turns it into a control that is put on a Web page.'
-ms.assetid: '7a9e304c-57ef-41a3-83be-2b2d31435da8'
+Description: This sample shows how to create an ink-enabled control for use in a Web browser. The sample takes the original Auto Claims Form Sample and turns it into a control that is put on a Web page.
+ms.assetid: 7a9e304c-57ef-41a3-83be-2b2d31435da8
 title: Ink Web Control Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Web Control Sample

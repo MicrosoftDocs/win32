@@ -1,14 +1,17 @@
 ---
 title: MMCDisplayObject.MouseOffBitmap property
-description: The MouseOffBitmap property returns a null-terminated string that contains the resource path to the image file for the image displayed for the task when the mouse is not in the task's image or text area.
+description: The MouseOffBitmap property returns a null-terminated string that contains the resource path to the image file for the image displayed for the task when the mouse is not in the tasks image or text area.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '480909b1-6886-4e08-9da5-2db29dfb01c3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 480909b1-6886-4e08-9da5-2db29dfb01c3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MouseOffBitmap property MMC", "MouseOffBitmap property MMC , MMCDisplayObject class", "MMCDisplayObject class MMC , MouseOffBitmap property"]
+keywords:
+- MouseOffBitmap property MMC
+- MouseOffBitmap property MMC , MMCDisplayObject class
+- MMCDisplayObject class MMC , MouseOffBitmap property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCDisplayObject.MouseOffBitmap property
@@ -53,9 +59,9 @@ If **MouseOffBitmap** points to a **NULL** string, [**MouseOverBitmap**](mouseov
 
 
 
- 
+ 
 
- 
+ 
 
 
 

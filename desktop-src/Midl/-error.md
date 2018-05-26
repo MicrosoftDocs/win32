@@ -2,13 +2,19 @@
 title: /error switch
 description: The /error switch determines the types of error checking that the generated stubs will perform at run time.
 ms.assetid: abd3616a-2d2c-4a7d-bf3a-c84a43387894
-keywords: ["/error switch MIDL"]
+keywords:
+- /error switch MIDL
 topic_type:
 - apiref
 api_name:
 - /error
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /error switch

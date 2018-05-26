@@ -4,11 +4,15 @@ description: The start point for a search is a container that directly or indire
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f93c1310-7c8b-4d28-bd4d-6fab969d3353'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f93c1310-7c8b-4d28-bd4d-6fab969d3353
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , binding to a search start point"]
+keywords:
+- Active Directory examples Active Directory , binding to a search start point
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to the Search Start Point

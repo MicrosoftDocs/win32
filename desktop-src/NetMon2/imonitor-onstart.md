@@ -1,7 +1,12 @@
 ---
-Description: 'The OnStart method is an optional method that can be implemented by the monitor. The MCSVC calls this method to request that the monitor start the capture.'
-ms.assetid: '992ee27e-aaba-4e65-989b-e3f0fbd542ea'
-title: 'IMonitor::OnStart method'
+Description: The OnStart method is an optional method that can be implemented by the monitor. The MCSVC calls this method to request that the monitor start the capture.
+ms.assetid: 992ee27e-aaba-4e65-989b-e3f0fbd542ea
+title: IMonitorOnStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitor::OnStart method
@@ -13,7 +18,7 @@ The **OnStart** method is an optional method that can be implemented by the moni
 
 ```C++
 HRESULT OnStart(
-  [in] IUnknown *pUnkNPP
+  [in] IUnknown *pUnkNPP
 );
 ```
 
@@ -46,8 +51,8 @@ The MCSVC calls this method before the NPP's [IRTC::Start](irtc-start.md) method
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -62,9 +67,9 @@ The MCSVC calls this method before the NPP's [IRTC::Start](irtc-start.md) method
 [Network Packet Providers](network-packet-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

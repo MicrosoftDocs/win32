@@ -1,7 +1,7 @@
 ---
 title: Tooltip Styles
 description: This section lists the control styles used with tooltip controls.
-ms.assetid: 'a6aeac71-6a69-4903-af78-0bfe1f83e632'
+ms.assetid: a6aeac71-6a69-4903-af78-0bfe1f83e632
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tooltip Styles
@@ -50,9 +55,9 @@ A tooltip control always has the WS\_POPUP and WS\_EX\_TOOLWINDOW window styles,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

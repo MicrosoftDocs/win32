@@ -1,8 +1,9 @@
 ---
 title: glGetPolygonStipple function
 description: The glGetPolygonStipple function returns the polygon stipple pattern.
-ms.assetid: '95c1ebfa-8465-4bc1-b3f5-eed696a83816'
-keywords: ["glGetPolygonStipple function OpenGL"]
+ms.assetid: 95c1ebfa-8465-4bc1-b3f5-eed696a83816
+keywords:
+- glGetPolygonStipple function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetPolygonStipple function
@@ -22,7 +28,7 @@ The **glGetPolygonStipple** function returns the polygon stipple pattern.
 
 ```C++
 void WINAPI glGetPolygonStipple(
-   GLubyte *mask
+   GLubyte *mask
 );
 ```
 
@@ -79,8 +85,8 @@ If an error is generated, no change is made to the contents of *mask*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -109,9 +115,9 @@ If an error is generated, no change is made to the contents of *mask*.
 [**glReadPixels**](glreadpixels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

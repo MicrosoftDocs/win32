@@ -4,10 +4,13 @@ description: This topic includes a code example that creates a controlAccessRigh
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b1b644ee-c38a-47da-8a0a-31a06361f35a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b1b644ee-c38a-47da-8a0a-31a06361f35a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Creating a Control Access Right

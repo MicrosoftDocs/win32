@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '9b69632b-7932-4a9b-bd68-69b06dd8a5ec'
-title: 'CBaseVideoRenderer.CBaseVideoRenderer constructor'
+Description: Constructor method.
+ms.assetid: 9b69632b-7932-4a9b-bd68-69b06dd8a5ec
+title: CBaseVideoRenderer.CBaseVideoRenderer constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.CBaseVideoRenderer constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CBaseVideoRenderer(
-   REFCLSID  RenderClass,
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   HRESULT   *phr
+   REFCLSID  RenderClass,
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   HRESULT   *phr
 );
 ```
 
@@ -72,9 +77,9 @@ Pointer to an **HRESULT** value.
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

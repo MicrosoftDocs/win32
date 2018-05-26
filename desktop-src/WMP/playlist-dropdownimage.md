@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.dropDownImage
 description: The dropDownImage attribute specifies or retrieves the name of the image used for the drop-down list button that is displayed at the right edge of the drop-down list.
-ms.assetid: '92454a8a-1688-4b5d-887d-6847f4232d87'
-keywords: ["PLAYLIST.dropDownImage Windows Media Player"]
+ms.assetid: 92454a8a-1688-4b5d-887d-6847f4232d87
+keywords:
+- PLAYLIST.dropDownImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.dropDownImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.dropDownImage
@@ -53,9 +59,9 @@ This attribute supports PNG, JPG, BMP, and GIF files. If the image is an 8-bit B
 [**PLAYLIST.saturation**](playlist-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

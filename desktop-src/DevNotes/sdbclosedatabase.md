@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes the specified shim database.'
-ms.assetid: 'e4480860-8055-4134-b6ed-926c010d462f'
+---
+Description: Closes the specified shim database.
+ms.assetid: e4480860-8055-4134-b6ed-926c010d462f
 title: SdbCloseDatabase function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbCloseDatabase function

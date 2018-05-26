@@ -4,17 +4,21 @@ description: Initializes a new instance of the GeneralException class with a def
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '912948f4-0a8c-476b-83c8-ba73f427c473'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 912948f4-0a8c-476b-83c8-ba73f427c473
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GeneralException(Throwable) constructor"]
+keywords:
+- GeneralException(Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - GeneralException(Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GeneralException(Throwable) constructor
@@ -37,7 +41,7 @@ public GeneralException(Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -47,9 +51,9 @@ public GeneralException(Throwable e)
 
 GeneralException.java
 
- 
+ 
 
- 
+ 
 
 
 

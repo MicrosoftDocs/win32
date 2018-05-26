@@ -1,8 +1,9 @@
 ---
 title: WM\_COPY message
 description: An application sends the WM\_COPY message to an edit control or combo box to copy the current selection to the clipboard in CF\_TEXT format.
-ms.assetid: 'dcac3ad3-1e70-4b71-accd-261587224e60'
-keywords: ["WM_COPY message Data Exchange"]
+ms.assetid: dcac3ad3-1e70-4b71-accd-261587224e60
+keywords:
+- WM_COPY message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_COPY message
@@ -56,8 +62,8 @@ When sent to a combo box, the **WM\_COPY** message is handled by its edit contro
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ When sent to a combo box, the **WM\_COPY** message is handled by its edit contro
 [Clipboard](clipboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

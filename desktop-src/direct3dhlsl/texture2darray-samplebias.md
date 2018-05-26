@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray SampleBias methods
 description: Samples a Texture2DArray, after applying the bias value to the mipmap level.
-ms.assetid: 'E7AF7EA0-4A7D-4B6B-980C-BA74473D3956'
-keywords: ["SampleBias methods HLSL"]
+ms.assetid: E7AF7EA0-4A7D-4B6B-980C-BA74473D3956
+keywords:
+- SampleBias methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::SampleBias methods
@@ -32,9 +38,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md), after applying the
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

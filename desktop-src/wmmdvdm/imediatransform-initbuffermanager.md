@@ -1,8 +1,11 @@
 ---
 title: IMediaTransform InitBufferManager method
 description: The InitBufferManager method passes a Direct3D device to your transform and enables your transform to perform any initialization it requires.
-ms.assetid: '88cba8d1-cb73-4abf-aea3-4adda8cc4c8c'
-keywords: ["InitBufferManager method Windows Movie Maker and DVD Maker", "InitBufferManager method Windows Movie Maker and DVD Maker , IMediaTransform interface", "IMediaTransform interface Windows Movie Maker and DVD Maker , InitBufferManager method"]
+ms.assetid: 88cba8d1-cb73-4abf-aea3-4adda8cc4c8c
+keywords:
+- InitBufferManager method Windows Movie Maker and DVD Maker
+- InitBufferManager method Windows Movie Maker and DVD Maker , IMediaTransform interface
+- IMediaTransform interface Windows Movie Maker and DVD Maker , InitBufferManager method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaTransform::InitBufferManager method
@@ -25,7 +33,7 @@ The **InitBufferManager** method passes a Direct3D device to your transform and 
 
 ```C++
 HRESULT InitBufferManager(
-  [in] IBufferManager *pManager
+  [in] IBufferManager *pManager
 );
 ```
 
@@ -56,8 +64,8 @@ Your transform should use this method to create global objects that your transfo
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -70,9 +78,9 @@ Your transform should use this method to create global objects that your transfo
 [**IMediaTransform Interface**](imediatransform.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

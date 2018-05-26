@@ -1,7 +1,12 @@
-﻿---
-Description: 'An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a property sheet option. The array''s address is included in an OPTTYPE structure.'
-ms.assetid: 'd0cd2867-783c-4a41-a819-e919d4ffc1e3'
+---
+Description: An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a property sheet option. The arrays address is included in an OPTTYPE structure.
+ms.assetid: d0cd2867-783c-4a41-a819-e919d4ffc1e3
 title: OPTPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPTPARAM structure

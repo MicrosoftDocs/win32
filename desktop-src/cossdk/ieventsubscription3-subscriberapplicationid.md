@@ -1,7 +1,12 @@
 ---
-Description: 'The application GUID of the subscriber.'
-ms.assetid: '46c91cae-ca31-4eac-baa8-d36910917f0f'
-title: 'IEventSubscription3::SubscriberApplicationID property'
+Description: The application GUID of the subscriber.
+ms.assetid: 46c91cae-ca31-4eac-baa8-d36910917f0f
+title: IEventSubscription3SubscriberApplicationID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEventSubscription3::SubscriberApplicationID property
@@ -15,11 +20,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SubscriberApplicationID(
-  [in]          BSTR bstrSubscriberApplicationID
+  [in]          BSTR bstrSubscriberApplicationID
 );
 
 HRESULT get_SubscriberApplicationID(
-  [out, retval] BSTR *pbstrSubscriberApplicationID
+  [out, retval] BSTR *pbstrSubscriberApplicationID
 );
 ```
 
@@ -39,8 +44,8 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -51,9 +56,9 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 [**IEventSubscription3**](ieventsubscription3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

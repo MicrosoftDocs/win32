@@ -1,14 +1,20 @@
 ---
 title: restartType Complex Type
 description: Defines the child elements and sequence information for the RestartOnFailure element.
-ms.assetid: '3a192955-8a33-42b9-a974-faa9a3789f58'
-keywords: ["restartType complex type Task Scheduler"]
+ms.assetid: 3a192955-8a33-42b9-a974-faa9a3789f58
+keywords:
+- restartType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - restartType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # restartType Complex Type
@@ -64,8 +70,8 @@ Defines the child elements and sequence information for the [RestartOnFailure](t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -79,9 +85,9 @@ Defines the child elements and sequence information for the [RestartOnFailure](t
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

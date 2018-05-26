@@ -1,7 +1,12 @@
-﻿---
-Description: 'The HWConfig class is the parent class for hardware configuration events on Windows XP. The following syntax is simplified from MOF code.'
-ms.assetid: '47f062c0-fdf0-4beb-906d-257571324de9'
+---
+Description: The HWConfig class is the parent class for hardware configuration events on Windows XP. The following syntax is simplified from MOF code.
+ms.assetid: 47f062c0-fdf0-4beb-906d-257571324de9
 title: HWConfig class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HWConfig class

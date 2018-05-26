@@ -1,7 +1,12 @@
 ---
 title: IAgentAudioOutputPropertiesEx GetStatus
 description: IAgentAudioOutputPropertiesEx GetStatus
-ms.assetid: '29bf1379-eebe-4b8b-b8d0-b86d2da78b64'
+ms.assetid: 29bf1379-eebe-4b8b-b8d0-b86d2da78b64
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentAudioOutputPropertiesEx::GetStatus
@@ -39,15 +44,15 @@ Status of the audio output channel, which may be one of the following values:
 
 
 
- 
+ 
 
 </dd> </dl>
 
 This setting enables your client application to query the state of the audio output channel. You can use this to determine whether to have your character speak or to try to turn on Listening mode (using [**IAgentCharacterEx::Listen**](lwef.iagentcharacterex::listen_method)).
 
- 
+ 
 
- 
+ 
 
 
 

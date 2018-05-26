@@ -1,15 +1,18 @@
 ---
-Description: 'Uses the values set in the Permissions parameter to determine whether the user has the specified permissions set in the AccessMask property of the Win32\_CodecFile object that represents the codec file.'
+Description: Uses the values set in the Permissions parameter to determine whether the user has the specified permissions set in the AccessMask property of the Win32\_CodecFile object that represents the codec file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '068dfcaf-037b-4516-b85a-8ba6558ba561'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 068dfcaf-037b-4516-b85a-8ba6558ba561
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetEffectivePermission method of the Win32\_CodecFile class'
+title: GetEffectivePermission method of the Win32\_CodecFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetEffectivePermission method of the Win32\_CodecFile class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 boolean GetEffectivePermission(
-  [in] uint32 Permissions
+  [in] uint32 Permissions
 );
 ```
 
@@ -204,8 +207,8 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Aclui.h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -223,9 +226,9 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

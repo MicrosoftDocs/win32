@@ -1,8 +1,9 @@
 ---
 title: glEdgeFlagPointer function
 description: The glEdgeFlagPointer function defines an array of edge flags.
-ms.assetid: 'e0e7e442-533d-4c41-addd-a215ce0b1c56'
-keywords: ["glEdgeFlagPointer function OpenGL"]
+ms.assetid: e0e7e442-533d-4c41-addd-a215ce0b1c56
+keywords:
+- glEdgeFlagPointer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEdgeFlagPointer function
@@ -22,8 +28,8 @@ The **glEdgeFlagPointer** function defines an array of edge flags.
 
 ```C++
 void WINAPI glEdgeFlagPointer(
-         GLsizei stride,
-   const GLvoid  *pointer
+         GLsizei stride,
+   const GLvoid  *pointer
 );
 ```
 
@@ -105,8 +111,8 @@ The following functions retrieve information related to the **glEdgeFlagPointer*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -165,9 +171,9 @@ The following functions retrieve information related to the **glEdgeFlagPointer*
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Raw Input Reference
 description: .
-ms.assetid: '85bcce5f-6fe5-43b9-91d1-ef7025f77c3c'
+ms.assetid: 85bcce5f-6fe5-43b9-91d1-ef7025f77c3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Raw Input Reference

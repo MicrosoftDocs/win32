@@ -1,8 +1,11 @@
 ---
 title: IMimeAddressTableW ParseRfc822W method
 description: Parses the specified RFC 822 address string.
-ms.assetid: '3c05cd2f-76bc-4b9f-b57b-4549c0b77a1d'
-keywords: ["ParseRfc822W method Windows Mail (formerly Outlook Express)", "ParseRfc822W method Windows Mail (formerly Outlook Express) , IMimeAddressTableW interface", "IMimeAddressTableW interface Windows Mail (formerly Outlook Express) , ParseRfc822W method"]
+ms.assetid: 3c05cd2f-76bc-4b9f-b57b-4549c0b77a1d
+keywords:
+- ParseRfc822W method Windows Mail (formerly Outlook Express)
+- ParseRfc822W method Windows Mail (formerly Outlook Express) , IMimeAddressTableW interface
+- IMimeAddressTableW interface Windows Mail (formerly Outlook Express) , ParseRfc822W method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAddressTableW::ParseRfc822W method
@@ -22,10 +30,10 @@ Parses the specified [RFC 822](http://www.ietf.org/rfc/rfc822.txt) address strin
 
 ```C++
 HRESULT ParseRfc822W(
-  [in]      DWORD         dwAdrType,
-  [in]      ENCODINGTYPE  ietEncoding,
-  [in]      LPCWSTR       pwszRfc822Adr,
-  [in, out] LPADDRESSLIST pList
+  [in]      DWORD         dwAdrType,
+  [in]      ENCODINGTYPE  ietEncoding,
+  [in]      LPCWSTR       pwszRfc822Adr,
+  [in, out] LPADDRESSLIST pList
 );
 ```
 
@@ -89,7 +97,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +105,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -106,9 +114,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

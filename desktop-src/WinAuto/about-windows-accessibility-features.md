@@ -1,7 +1,12 @@
 ---
 title: About Windows Accessibility Features
 description: There are two categories of accessibility features that correspond to the settings available to users through the Ease of Access Center in Control Panel
-ms.assetid: '823bbc5b-062b-43ef-9f3e-822dc6f55c5d'
+ms.assetid: 823bbc5b-062b-43ef-9f3e-822dc6f55c5d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Accessibility Features

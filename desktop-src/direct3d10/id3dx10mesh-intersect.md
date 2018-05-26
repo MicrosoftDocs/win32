@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines if a ray intersects with this mesh.'
-ms.assetid: '74565d4a-94e6-4faa-bf70-9c1b35e5e5d8'
-title: 'ID3DX10Mesh::Intersect method'
+---
+Description: Determines if a ray intersects with this mesh.
+ms.assetid: 74565d4a-94e6-4faa-bf70-9c1b35e5e5d8
+title: ID3DX10MeshIntersect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::Intersect method
@@ -96,9 +101,9 @@ Pointer to a ray intersection parameter distance.
 *ppAllHits* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-Pointer to an [**ID3D10Blob Interface**](id3d10blob.md), containing an array of [**D3DX10\_INTERSECT\_INFO**](d3dx10-intersect-info.md) structures. This is a list of all the hits that occurred in the intersection test.
+Pointer to an [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master), containing an array of [**D3DX10\_INTERSECT\_INFO**](d3dx10-intersect-info.md) structures. This is a list of all the hits that occurred in the intersection test.
 
 </dd> </dl>
 

@@ -1,8 +1,14 @@
 ---
 title: StoClien Overview
 description: The StoClien sample demonstrates how the client uses structured storage and how it directs a server component to use this storage.
-ms.assetid: '1f540e0f-2189-4f45-aad3-9b4b56732907'
-keywords: ["StoClien Overview"]
+ms.assetid: 1f540e0f-2189-4f45-aad3-9b4b56732907
+keywords:
+- StoClien Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StoClien Overview
@@ -21,7 +27,7 @@ The [StoClien](structured-storage-client-sample--stoclien-.md) sample creates an
 
 A COPaper COM object encapsulates only the server-based storage of the drawing paper data: No graphical user interface (GUI) behavior is provided on the server side. All GUI behavior is isolated in the client. The data management and storage features of COPaper objects are available only through an COM custom interface, IPaper.
 
-[StoClien](structured-storage-client-sample--stoclien-.md) cooperates with the COPaper to load and save the COPaper drawing data. StoClien obtains an [**IStorage**](istorage.md) interface for the storage object in a compound file. In its load and save operations, StoClien passes a pointer to the **IStorage** interface to COPaper in the server. COPaper uses the provided **IStorage** to create streams in the storage. COPaper can then use the standard [**IStream**](istream.md) interface for reading and writing the drawing data it manages.
+[StoClien](structured-storage-client-sample--stoclien-.md) cooperates with the COPaper to load and save the COPaper drawing data. StoClien obtains an [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface for the storage object in a compound file. In its load and save operations, StoClien passes a pointer to the **IStorage** interface to COPaper in the server. COPaper uses the provided **IStorage** to create streams in the storage. COPaper can then use the standard [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) interface for reading and writing the drawing data it manages.
 
 COPaper only manages the drawing data; it performs no GUI actions. [StoClien](structured-storage-client-sample--stoclien-.md) provides the GUI for the drawing application. It encapsulates this in a central CGuiPaper C++ object.
 

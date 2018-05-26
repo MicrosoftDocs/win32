@@ -1,35 +1,41 @@
 ---
 title: BSCO\_OPTION enumeration
 description: Specifies the callback notifications that the client wants from the moniker.
-ms.assetid: '82ca0285-5a03-40ab-b244-72e853e2a14a'
-keywords: ["BSCO_OPTION enumeration COM"]
+ms.assetid: 82ca0285-5a03-40ab-b244-72e853e2a14a
+keywords:
+- BSCO_OPTION enumeration COM
 topic_type:
 - apiref
 api_name:
 - BSCO_OPTION
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BSCO\_OPTION enumeration
 
-Specifies the callback notifications that the client wants from the moniker. Simple clients of [**IMoniker::BindToStorage**](imoniker-bindtostorage.md) that want nothing but the data bits need specify only BSCO\_ONDATAAVAILABLE.
+Specifies the callback notifications that the client wants from the moniker. Simple clients of [**IMoniker::BindToStorage**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtostorage?branch=master) that want nothing but the data bits need specify only BSCO\_ONDATAAVAILABLE.
 
 ## Syntax
 
 
 ```C++
 typedef enum  { 
-  BSCO_ONSTARTBINDING     = 0x00000001,
-  BSCO_GETPRIORITY        = 0x00000002,
-  BSCO_ONLOWRESOURCE      = 0x00000004,
-  BSCO_ONPROGRESS         = 0x00000008,
-  BSCO_ONSTOPBINDING      = 0x00000010,
-  BSCO_GETBINDINFO        = 0x00000020,
-  BSCO_ONDATAAVAILABLE    = 0x00000040,
-  BSCO_ONOBJECTAVAILABLE  = 0x00000080,
-  BSCO_ALLONIBSC          = 0x000000FF,
-  BSCO_ALLONIBDGSITE      = 0x0000001F
+  BSCO_ONSTARTBINDING     = 0x00000001,
+  BSCO_GETPRIORITY        = 0x00000002,
+  BSCO_ONLOWRESOURCE      = 0x00000004,
+  BSCO_ONPROGRESS         = 0x00000008,
+  BSCO_ONSTOPBINDING      = 0x00000010,
+  BSCO_GETBINDINFO        = 0x00000020,
+  BSCO_ONDATAAVAILABLE    = 0x00000040,
+  BSCO_ONOBJECTAVAILABLE  = 0x00000080,
+  BSCO_ALLONIBSC          = 0x000000FF,
+  BSCO_ALLONIBDGSITE      = 0x0000001F
 } BSCO_OPTION;
 ```
 
@@ -119,8 +125,8 @@ A client of a binding operation provides values from the **BSCO\_OPTION** enumer
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -134,9 +140,9 @@ A client of a binding operation provides values from the **BSCO\_OPTION** enumer
 [**RegisterBindStatusCallback**](_inet_RegisterBindStatusCallback_Function_cpp)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

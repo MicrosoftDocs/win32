@@ -1,8 +1,9 @@
 ---
 title: MrmCreateConfig function
 description: Creates a new, initialized PRI config file defining the qualifier defaults that you specify. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: 'F8FB4E9C-1C04-460A-BFA1-FB663653DA3C'
-keywords: ["MrmCreateConfig function Menus and Other Resources"]
+ms.assetid: F8FB4E9C-1C04-460A-BFA1-FB663653DA3C
+keywords:
+- MrmCreateConfig function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateConfig function
@@ -24,9 +30,9 @@ Creates a new, initialized PRI config file defining the qualifier defaults that 
 
 ```C++
 HRESULT HRESULT MrmCreateConfig(
-  _In_     MrmPlatformVersion platformVersion,
-  _In_opt_ PCWSTR             defaultQualifiers,
-  _In_     PCWSTR             outputXmlFile
+  _In_     MrmPlatformVersion platformVersion,
+  _In_opt_ PCWSTR             defaultQualifiers,
+  _In_     PCWSTR             outputXmlFile
 );
 ```
 
@@ -75,7 +81,7 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -90,9 +96,9 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

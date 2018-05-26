@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides the reference specifications for SystemParametersInfo constants related to Configuration system attributes.'
-ms.assetid: 'E9E2FB97-D63B-419A-AC9C-C9AC9E9B5BE0'
+Description: This section provides the reference specifications for SystemParametersInfo constants related to Configuration system attributes.
+ms.assetid: E9E2FB97-D63B-419A-AC9C-C9AC9E9B5BE0
 title: Configuration Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuration Constants
@@ -20,7 +25,7 @@ This section provides the reference specifications for [**SystemParametersInfo**
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ This section provides the reference specifications for [**SystemParametersInfo**
 [Input Feedback Configuration](https://msdn.microsoft.com/library/windows/desktop/hh707352)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

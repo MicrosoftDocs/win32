@@ -1,7 +1,12 @@
 ---
 title: Networking
 description: The networking profile describes the objects used for configuring the system to allow virtual machines to communicate over the network.
-ms.assetid: '8072eba8-7434-46db-a942-e00b28685b0f'
+ms.assetid: 8072eba8-7434-46db-a942-e00b28685b0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Networking

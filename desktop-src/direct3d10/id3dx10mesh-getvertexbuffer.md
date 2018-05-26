@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the vertex buffer associated with the mesh.'
-ms.assetid: 'c69a712b-8964-4a5b-a136-3f24060b7fd8'
-title: 'ID3DX10Mesh::GetVertexBuffer method'
+---
+Description: Retrieves the vertex buffer associated with the mesh.
+ms.assetid: c69a712b-8964-4a5b-a136-3f24060b7fd8
+title: ID3DX10MeshGetVertexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetVertexBuffer method

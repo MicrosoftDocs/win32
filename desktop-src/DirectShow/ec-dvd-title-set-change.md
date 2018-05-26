@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when current Video Title Set (VTS) changes.'
-ms.assetid: '7b8849c8-c71e-44d6-b33a-8e80247bdb22'
-title: 'EC\_DVD\_TITLE\_SET\_CHANGE'
+Description: Sent when current Video Title Set (VTS) changes.
+ms.assetid: 7b8849c8-c71e-44d6-b33a-8e80247bdb22
+title: EC\_DVD\_TITLE\_SET\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_TITLE\_SET\_CHANGE
@@ -28,7 +33,7 @@ Zero.
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_NotifyPositionChange** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_NotifyPositionChange** option to **TRUE**.
 
 ## Requirements
 
@@ -53,9 +58,9 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

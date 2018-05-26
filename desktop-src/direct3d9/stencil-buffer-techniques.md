@@ -1,7 +1,12 @@
 ---
-Description: 'Applications use the stencil buffer to mask pixels in an image. The mask controls whether the pixel is drawn or not. Some of the more common effects are shown below.'
-ms.assetid: '984f0a98-4a74-44c3-a9d0-f5d3f12f7e4e'
-title: 'Stencil Buffer Techniques (Direct3D 9)'
+Description: Applications use the stencil buffer to mask pixels in an image. The mask controls whether the pixel is drawn or not. Some of the more common effects are shown below.
+ms.assetid: 984f0a98-4a74-44c3-a9d0-f5d3f12f7e4e
+title: Stencil Buffer Techniques (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stencil Buffer Techniques (Direct3D 9)
@@ -16,7 +21,7 @@ Applications use the stencil buffer to mask pixels in an image. The mask control
 
 The stencil buffer enables or disables drawing to the rendering target surface on a pixel-by-pixel basis. At its most fundamental level, it enables applications to mask sections of the rendered image so that they are not displayed. Applications often use stencil buffers for special effects such as dissolves, decaling, and outlining.
 
-Stencil buffer information is embedded in the z-buffer data. Your application can use the [**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md) method to check for hardware stencil support, as shown in the following code example.
+Stencil buffer information is embedded in the z-buffer data. Your application can use the [**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master) method to check for hardware stencil support, as shown in the following code example.
 
 
 ```
@@ -35,7 +40,7 @@ return E_FAIL;
 
 
 
-[**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md) allows you to choose a device to create based on the capabilities of that device. In this case, devices that do not support 8-bit stencil buffers are rejected. Note that this is only one possible use for **IDirect3D9::CheckDeviceFormat**; for details see [Determining Hardware Support (Direct3D 9)](determining-hardware-support.md).
+[**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master) allows you to choose a device to create based on the capabilities of that device. In this case, devices that do not support 8-bit stencil buffers are rejected. Note that this is only one possible use for **IDirect3D9::CheckDeviceFormat**; for details see [Determining Hardware Support (Direct3D 9)](determining-hardware-support.md).
 
 ## How the Stencil Buffer Works
 

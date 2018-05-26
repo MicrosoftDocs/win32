@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IFIRSTDAYOFWEEK'
-ms.assetid: 'd6498afd-e9fa-46c0-be74-fcf6f074b895'
-title: 'LOCALE\_IFIRSTDAYOFWEEK'
+Description: LOCALE\_IFIRSTDAYOFWEEK
+ms.assetid: d6498afd-e9fa-46c0-be74-fcf6f074b895
+title: LOCALE\_IFIRSTDAYOFWEEK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IFIRSTDAYOFWEEK

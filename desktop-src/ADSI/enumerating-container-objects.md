@@ -4,10 +4,13 @@ description: By convention, all items in an enumeration in ADSI must be of the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '155caa67-05db-432b-b813-0d891a502301'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 155caa67-05db-432b-b813-0d891a502301
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Container Objects

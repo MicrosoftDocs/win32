@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Add method adds a fax device to the FaxDeviceIds collection, using the device''s ID.'
-ms.assetid: '22cd030d-1444-4605-8935-cd19d9392720'
-title: 'FaxDeviceIds.Add method'
+---
+Description: The Add method adds a fax device to the FaxDeviceIds collection, using the devices ID.
+ms.assetid: 22cd030d-1444-4605-8935-cd19d9392720
+title: FaxDeviceIds.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceIds.Add method
@@ -41,7 +46,7 @@ This method can also return remote procedure call (RPC) return values. For more 
 
  
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -66,7 +71,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxDeviceIds**](-mfax-faxdeviceids.md)
 </dt> <dt>
 
-[**IFaxDeviceIds**](-mfax-faxdeviceids-cpp.md)
+[**IFaxDeviceIds**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceids?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,20 @@
 ---
 title: UserPlaycountNight Attribute
 description: The UserPlaycountNight attribute is the number of times the item has been played between 22 00 and 06 00 local time.
-ms.assetid: 'd255ff33-b152-434e-a62d-12b613e6cb08'
-keywords: ["UserPlaycountNight Attribute Windows Media Player"]
+ms.assetid: d255ff33-b152-434e-a62d-12b613e6cb08
+keywords:
+- UserPlaycountNight Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserPlaycountNight
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserPlaycountNight Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

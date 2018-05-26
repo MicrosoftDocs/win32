@@ -4,11 +4,12 @@ description: The property method of the IADsOctetList interface sets the propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6fe29a0d-dd53-4cc2-8152-22a0a2756c2c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6fe29a0d-dd53-4cc2-8152-22a0a2756c2c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsOctetList Property Methods ADSI"]
+keywords:
+- IADsOctetList Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -20,11 +21,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsOctetList Property Methods
 
-The property method of the [**IADsOctetList**](iadsoctetlist.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsOctetList**](/windows/win32/Iads/nn-iads-iadsoctetlist?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -58,7 +62,7 @@ HRESULT put_OctetList(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +70,8 @@ HRESULT put_OctetList(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsOctetList is defined as 7B28B80F-4680-11D1-A3B4-00C04FB950DC<br/>        |
@@ -78,15 +82,15 @@ HRESULT put_OctetList(
 
 <dl> <dt>
 
-[**IADsOctetList**](iadsoctetlist.md)
+[**IADsOctetList**](/windows/win32/Iads/nn-iads-iadsoctetlist?branch=master)
 </dt> <dt>
 
-[**ADS\_OCTET\_LIST**](ads-octet-list.md)
+[**ADS\_OCTET\_LIST**](/windows/win32/Iads/ns-iads-_ads_octet_list?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

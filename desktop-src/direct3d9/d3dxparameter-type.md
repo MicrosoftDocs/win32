@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the data contained by the enumeration.'
-ms.assetid: '6d494fe6-fcd5-4e71-939c-257978b41499'
-title: 'D3DXPARAMETER\_TYPE enumeration'
+---
+Description: Describes the data contained by the enumeration.
+ms.assetid: 6d494fe6-fcd5-4e71-939c-257978b41499
+title: D3DXPARAMETER\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPARAMETER\_TYPE enumeration

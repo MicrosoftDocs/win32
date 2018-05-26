@@ -1,8 +1,11 @@
 ---
 title: Issue SetAttributeParentID method
 description: Sets the parent ID of the Issue.
-ms.assetid: 'D77991CD-9BEE-4BD4-9F42-3E02F3C1C190'
-keywords: ["SetAttributeParentID method Access Execution Engine", "SetAttributeParentID method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , SetAttributeParentID method"]
+ms.assetid: D77991CD-9BEE-4BD4-9F42-3E02F3C1C190
+keywords:
+- SetAttributeParentID method Access Execution Engine
+- SetAttributeParentID method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , SetAttributeParentID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::SetAttributeParentID method
@@ -22,7 +30,7 @@ Sets the parent ID of the **Issue**.
 
 ```C++
 virtual HRESULT SetAttributeParentID(
-  [in] LPCWSTR attributeParentID
+  [in] LPCWSTR attributeParentID
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The parent ID is attribute **parentID** of element **Issue**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The parent ID is attribute **parentID** of element **Issue**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

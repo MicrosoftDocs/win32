@@ -4,17 +4,22 @@ description: Indicates the number of milliseconds before a pending job is delete
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9099210a-64cc-46bc-8d58-d67e0f9b18ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9099210a-64cc-46bc-8d58-d67e0f9b18ed
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["JobCompletionTimeout Failover Cluster ,for print spoolers", "JobCompletionTimeout Failover Cluster"]
+keywords:
+- JobCompletionTimeout Failover Cluster ,for print spoolers
+- JobCompletionTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - JobCompletionTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # JobCompletionTimeout
@@ -28,14 +33,14 @@ Indicates the number of milliseconds before a pending job is deleted from the [P
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -60,7 +65,7 @@ JobCompletionTimeOutValue.dw = JobCompletionTimeOutData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -71,12 +76,12 @@ JobCompletionTimeOutValue.dw = JobCompletionTimeOutData;
 [Print Spooler Private Properties](print-spooler-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: fragment Element
 description: The fragment element specifies one condition of the query that selects items from the library. Conditions are specified by condition strings. A condition string typically has a name portion, a condition portion, and a value portion.
-ms.assetid: '1575318f-8527-42ba-9c2f-9993a60987d7'
-keywords: ["fragment Element Windows Media Player"]
+ms.assetid: 1575318f-8527-42ba-9c2f-9993a60987d7
+keywords:
+- fragment Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - fragment Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fragment Element
@@ -44,7 +50,7 @@ A portion of a condition string. See Remarks.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,7 +88,7 @@ For condition strings of this type, the following table shows the possible metad
 
 
 
- 
+ 
 
 Certain condition strings have a limiter portion, a number portion and a format portion. For example in the condition string "Limit Total Size To 3 Megabytes", the limiter portion is "Limit Total Size To", the number portion is "3" and the format portion is "Megabytes".
 
@@ -109,7 +115,7 @@ For condition strings of this type the following table shows the possible limite
 
 
 
- 
+ 
 
 Certain condition strings have a limiter portion and a number portion. For example in the condition string "Limit Number of Items to 25", the limiter portion is "Limit Number of Items" and the number portion is "25".
 
@@ -134,7 +140,7 @@ For condition strings of this type the following table shows the only possible l
 
 
 
- 
+ 
 
 Certain condition strings have a protection portion and a condition portion. For example in the condition string "Protection Is present", the protection portion is "Protection" and the condition portion is "Is".
 
@@ -159,7 +165,7 @@ For condition strings of this type the following table shows the possible condit
 
 
 
- 
+ 
 
 There is one type of **fragment** element that does not contain a condition string. If the name attribute of a **fragment** element is "Randomize Playback Order" the **fragment** element contains no **argument** elements. This **fragment** element instructs the player to play the list in random order.
 
@@ -197,7 +203,7 @@ For condition strings of this type the following table shows the possible values
 
 
 
- 
+ 
 
 When you use a fragment element to sort a playlist, you must sort on a metadata attribute that applies to the type of media items you are sorting. For example, if you are sorting music items you can not sort on Actor. The following table shows which metadata attributes you can use to sort which media types.
 
@@ -213,7 +219,7 @@ When you use a fragment element to sort a playlist, you must sort on a metadata 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -241,9 +247,9 @@ When you use a fragment element to sort a playlist, you must sort on a metadata 
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Assigns enumeration text to a range of values. Each enumRange element specifies a minimum value, and extends until the next element minimum value, or until there are no more enumRange elements.'
-ms.assetid: '00c56c2d-6693-4b09-b28a-21d69930bf35'
+Description: Assigns enumeration text to a range of values. Each enumRange element specifies a minimum value, and extends until the next element minimum value, or until there are no more enumRange elements.
+ms.assetid: 00c56c2d-6693-4b09-b28a-21d69930bf35
 title: enumRange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enumRange
@@ -48,7 +53,7 @@ Assigns enumeration text to a range of values. Each [enumRange](shell.propdesc_s
 | setValue  | Public. Optional. When a user selects this enumeration from a listbox property control, this discrete value is assigned as the property value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | text      | Public. Optional. The text used to display the enumerated value. The syntax allows for a direct display string or an indirect display string reference; use the indirect display string so that it can be localized.                                                                                                                                                                                                                                                                                                                                                                                                   |
 | mnemonics | **Windows 7 and later.** Public. Optional. A list of mnemonic values that can be used to refer to the property in search queries. The list is delimited with the '\|' character.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| name      | Required. The canonical property name, unique to the system; for example, System.Rating. This attribute is limited to 64 characters. The name is case sensitive and should use the following syntax: Publisher.Application.PropertyName. The following methods return this value: [**IExplorerCommand::GetCanonicalName**](shell.IExplorerCommand_GetCanonicalName), [**IPropertyDescription::GetCanonicalName**](shell.IPropertyDescription_GetCanonicalName), [**IPropertyDescription2::GetCanonicalName**](ipropertydescription2.md), and [**IPropertyUI::GetCanonicalName**](shell.IPropertyUI_GetCanonicalName). |
+| name      | Required. The canonical property name, unique to the system; for example, System.Rating. This attribute is limited to 64 characters. The name is case sensitive and should use the following syntax: Publisher.Application.PropertyName. The following methods return this value: [**IExplorerCommand::GetCanonicalName**](shell.IExplorerCommand_GetCanonicalName), [**IPropertyDescription::GetCanonicalName**](shell.IPropertyDescription_GetCanonicalName), [**IPropertyDescription2::GetCanonicalName**](/windows/win32/Propsys/nn-propsys-ipropertydescription2?branch=master), and [**IPropertyUI::GetCanonicalName**](shell.IPropertyUI_GetCanonicalName). |
 
 
 

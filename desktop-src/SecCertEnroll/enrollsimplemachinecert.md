@@ -1,7 +1,12 @@
 ---
-Description: 'Enrolls a computer in a certificate hierarchy by using a template, a certificate display name, and the certificate description.'
-ms.assetid: 'd9e01767-f6e8-4fd6-a848-8d5acf57407e'
+Description: Enrolls a computer in a certificate hierarchy by using a template, a certificate display name, and the certificate description.
+ms.assetid: d9e01767-f6e8-4fd6-a848-8d5acf57407e
 title: enrollSimpleMachineCert
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # enrollSimpleMachineCert
@@ -17,7 +22,7 @@ When you install the Microsoft Windows Software Development Kit (SDK), a C++ ver
 The enrollSimpleMachineCert sample:
 
 1.  Processes the command line arguments. The command line should contain the name of the template, a certificate display name, and a certificate description.
-2.  Creates an [**IX509Enrollment**](ix509enrollment.md) object and initializes it by using the template specified on the command line. The ContextAdministratorForceMachine value for the first parameter specifies that the certificate is being requested by an administrator acting on behalf of a computer.
+2.  Creates an [**IX509Enrollment**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollment?branch=master) object and initializes it by using the template specified on the command line. The ContextAdministratorForceMachine value for the first parameter specifies that the certificate is being requested by an administrator acting on behalf of a computer.
 3.  Adds the display name and description to the enrollment object.
 4.  Attempts to enroll the certificate request and checks the status of the process. The checkEnrollStatus function is defined in enrollCommon.cpp.
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PointingDevice class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.'
+Description: The CIM\_PointingDevice class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b093134a-534a-4680-8fce-d96baff26139'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b093134a-534a-4680-8fce-d96baff26139
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PointingDevice class'
+title: CIM\_PointingDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PointingDevice class
@@ -19,7 +22,7 @@ The **CIM\_PointingDevice** class represents a device that points to regions on 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,30 +32,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C535-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_PointingDevice : CIM_UserDevice
 {
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint16   Handedness;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint16   Handedness;
   datetime InstallDate;
-  boolean  IsLocked;
-  uint32   LastErrorCode;
-  string   Name;
-  uint8    NumberOfButtons;
-  string   PNPDeviceID;
-  uint16   PointingType;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   Resolution;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  boolean  IsLocked;
+  uint32   LastErrorCode;
+  string   Name;
+  uint8    NumberOfButtons;
+  string   PNPDeviceID;
+  uint16   PointingType;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   Resolution;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -76,7 +79,7 @@ The **CIM\_PointingDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -996,7 +999,7 @@ Trackball
 
 </dt> <dd>
 
-Mouse — optical sensor
+Mouse   optical sensor
 
 </dd> </dl>
 
@@ -1337,8 +1340,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1352,9 +1355,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_UserDevice**](cim-userdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

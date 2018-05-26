@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies a property that is to be set on a transition or effect, along with the number of distinct values that the property assumes over the duration of the transition or effect.'
-ms.assetid: '3b1c35cf-f1f7-4f2c-8d94-1aaae4116833'
-title: 'DEXTER\_VALUE structure'
+Description: Identifies a property that is to be set on a transition or effect, along with the number of distinct values that the property assumes over the duration of the transition or effect.
+ms.assetid: 3b1c35cf-f1f7-4f2c-8d94-1aaae4116833
+title: DEXTER\_VALUE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEXTER\_VALUE structure
@@ -9,7 +14,7 @@ title: 'DEXTER\_VALUE structure'
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
 
- 
+ 
 
 Identifies a property that is to be set on a transition or effect, along with the number of distinct values that the property assumes over the duration of the transition or effect.
 
@@ -18,9 +23,9 @@ Identifies a property that is to be set on a transition or effect, along with th
 
 ```C++
 typedef struct {
-  VARIANT        v;
+  VARIANT        v;
   REFERENCE_TIME rt;
-  DWORD          dwInterp;
+  DWORD          dwInterp;
 } DEXTER_VALUE;
 ```
 
@@ -58,7 +63,7 @@ Flag indicating how the property progresses from the previous value to this valu
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -82,9 +87,9 @@ Flag indicating how the property progresses from the previous value to this valu
 [**DEXTER\_PARAM**](dexter-param.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

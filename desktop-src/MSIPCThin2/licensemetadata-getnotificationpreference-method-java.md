@@ -4,17 +4,21 @@ description: Gets the notification preference of the tracked document.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'BD306434-F450-4629-919A-6053FB6162C1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: BD306434-F450-4629-919A-6053FB6162C1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata getNotificationPreference method"]
+keywords:
+- LicenseMetadata getNotificationPreference method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata getNotificationPreference method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata getNotificationPreference method
@@ -45,11 +49,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

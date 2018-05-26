@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::HalftonePattern method can be used with Unidrv-supported printers to create or modify a halftone pattern before it is used in a halftoning operation.'
-ms.assetid: '1b899492-f4a7-4c13-9e19-0f086b2b6b47'
-title: 'IPrintOemUni::HalftonePattern method'
+---
+Description: The IPrintOemUniHalftonePattern method can be used with Unidrv-supported printers to create or modify a halftone pattern before it is used in a halftoning operation.
+ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
+title: IPrintOemUniHalftonePattern method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::HalftonePattern method

@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Client API allows you to incorporate basic fax functionality for users in client applications. This technology is available on computers that are running Windows 2000 and later.'
-ms.assetid: 'cbc79dc5-d0ca-418d-8572-64b0a582056f'
+Description: The Fax Service Client API allows you to incorporate basic fax functionality for users in client applications. This technology is available on computers that are running Windows 2000 and later.
+ms.assetid: cbc79dc5-d0ca-418d-8572-64b0a582056f
 title: Fax Service Client API for Windows 2000
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API for Windows 2000

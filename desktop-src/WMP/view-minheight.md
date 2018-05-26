@@ -1,14 +1,20 @@
 ---
 title: VIEW.minHeight
 description: The minHeight attribute specifies or retrieves the minimum height in pixels of the VIEW when resizing.
-ms.assetid: 'e9a29642-e09d-40f8-9c2b-86be9f509089'
-keywords: ["VIEW.minHeight Windows Media Player"]
+ms.assetid: e9a29642-e09d-40f8-9c2b-86be9f509089
+keywords:
+- VIEW.minHeight Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.minHeight
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.minHeight
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) with a value of zero or gre
 [**VIEW.maxHeight**](view-maxheight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

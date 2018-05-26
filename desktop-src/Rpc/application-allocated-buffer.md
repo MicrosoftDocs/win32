@@ -1,7 +1,12 @@
 ---
 title: Application-Allocated Buffer
 description: The ACF attribute \ byte\_count\ directs the stubs to use a preallocated buffer that is not allocated or freed by the client support routines.
-ms.assetid: '1b370f74-394e-4e57-9749-83334be50f28'
+ms.assetid: 1b370f74-394e-4e57-9749-83334be50f28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application-Allocated Buffer

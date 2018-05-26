@@ -1,12 +1,17 @@
 ---
-Description: 'Exit modules receive notifications from the server engine when operations such as the issuance of a certificate occur.'
-ms.assetid: '5e7ee1f4-7e07-4a08-8e72-89b449804bc2'
+Description: Exit modules receive notifications from the server engine when operations such as the issuance of a certificate occur.
+ms.assetid: 5e7ee1f4-7e07-4a08-8e72-89b449804bc2
 title: Exit Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exit Modules
 
-Exit modules receive notifications from the server engine when operations such as the issuance of a certificate occur. An exit module is implemented as a [*dynamic-link library*](security.d_gly#-security-dynamic-link-library-gly) (DLL). A typical operation for an exit module is to publish a completed certificate in a specified location (the default enterprise certification authority exit module, for instance, publishes user certificates and [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRLs) to the Active Directory). An exit module can use the [**ICertServerExit**](icertserverexit.md) interface to communicate with Certificate Services. Certificate Services communicates with an exit module by means of direct COM calls or, if the module does not support direct COM calls, by means of Automation.
+Exit modules receive notifications from the server engine when operations such as the issuance of a certificate occur. An exit module is implemented as a [*dynamic-link library*](security.d_gly#-security-dynamic-link-library-gly) (DLL). A typical operation for an exit module is to publish a completed certificate in a specified location (the default enterprise certification authority exit module, for instance, publishes user certificates and [*certificate revocation lists*](security.c_gly#-security-certificate-revocation-list-gly) (CRLs) to the Active Directory). An exit module can use the [**ICertServerExit**](/windows/win32/Certif/nn-certif-icertserverexit?branch=master) interface to communicate with Certificate Services. Certificate Services communicates with an exit module by means of direct COM calls or, if the module does not support direct COM calls, by means of Automation.
 
 An exit module may view existing certificate properties and extensions, and it may also view request attributes and properties. An exit module cannot, however, modify any properties.
 

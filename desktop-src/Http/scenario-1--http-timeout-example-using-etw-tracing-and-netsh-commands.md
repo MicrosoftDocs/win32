@@ -1,7 +1,12 @@
 ---
 title: Scenario 1 HTTP Timeout Example Using ETW Tracing and Netsh Commands
 description: Through ETW tracing, the flow of data through the HTTP Server API component can be inspected to diagnose problems.
-ms.assetid: 'b6b24161-c3da-4972-b49f-c545da2fc81e'
+ms.assetid: b6b24161-c3da-4972-b49f-c545da2fc81e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scenario 1: HTTP Timeout Example Using ETW Tracing and Netsh Commands

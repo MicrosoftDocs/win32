@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDeviceApp2 QueryDeviceStatus2 method
 description: The QueryDeviceStatus2 method queries a device for a specific DRM status or capability.
-ms.assetid: 'f7e95fb7-5929-4a70-8580-a443e152e6d1'
-keywords: ["QueryDeviceStatus2 method windows Media Device Manager", "QueryDeviceStatus2 method windows Media Device Manager , IWMDRMDeviceApp2 interface", "IWMDRMDeviceApp2 interface windows Media Device Manager , QueryDeviceStatus2 method"]
+ms.assetid: f7e95fb7-5929-4a70-8580-a443e152e6d1
+keywords:
+- QueryDeviceStatus2 method windows Media Device Manager
+- QueryDeviceStatus2 method windows Media Device Manager , IWMDRMDeviceApp2 interface
+- IWMDRMDeviceApp2 interface windows Media Device Manager , QueryDeviceStatus2 method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp2::QueryDeviceStatus2 method
@@ -23,9 +31,9 @@ The **QueryDeviceStatus2** method queries a device for a specific DRM status or 
 
 ```C++
 HRESULT QueryDeviceStatus2(
-  [in]  IWMDMDevice *pDevice,
-  [in]  DWORD       dwFlags,
-  [out] DWORD       *pdwStatus
+  [in]  IWMDMDevice *pDevice,
+  [in]  DWORD       dwFlags,
+  [out] DWORD       *pdwStatus
 );
 ```
 
@@ -38,7 +46,7 @@ HRESULT QueryDeviceStatus2(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to an [**IWMDMDevice**](iwmdmdevice.md) object.
+Pointer to an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) object.
 
 </dd> <dt>
 
@@ -58,7 +66,7 @@ One or more of the following **DWORD** values specifying which capabilities to r
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,7 +87,7 @@ Zero or more of the following **DWORD** values specifying the requested device s
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -98,7 +106,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -128,9 +136,9 @@ This method should be called before performing any restricted actions on DRM con
 [**IWMDRMDeviceApp2 Interface**](iwmdrmdeviceapp2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

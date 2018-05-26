@@ -1,21 +1,27 @@
 ---
 title: set command
 description: The set command establishes control settings for the device. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
-ms.assetid: '641c882e-b9c8-4945-bf8a-f3e70c5d5c64'
-keywords: ["set command Windows Multimedia"]
+ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
+keywords:
+- set command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - set
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # set command
 
 The set command establishes control settings for the device. CD audio, digital-video, MIDI sequencer, VCR, videodisc, video-overlay, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -237,7 +243,7 @@ Flag for establishing control settings. The following table lists device types t
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszSetting** parameter and their meanings.
 
@@ -517,7 +523,7 @@ The following table lists the flags that can be specified in the **lpszSetting**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -557,8 +563,8 @@ set mysound time format ms bitspersample 8 channels 1 samplespersec 11025
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -584,9 +590,9 @@ set mysound time format ms bitspersample 8 channels 1 samplespersec 11025
 [stop](stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

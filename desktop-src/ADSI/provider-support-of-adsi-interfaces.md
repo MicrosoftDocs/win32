@@ -4,11 +4,36 @@ description: The following table lists a brief description of the interfaces sup
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8eb9a88c-cf18-4fe4-b256-1d6fcaf96c62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8eb9a88c-cf18-4fe4-b256-1d6fcaf96c62
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Provider Support of ADSI Interfaces ADSI", "ADSI ADSI , service providers, interfaces supported by each provider", "Provider Support for IADsUser", "Provider Support for IADsComputer", "Provider Support for IADsComputerOperations", "Provider Support for IADsDomain", "Provider Support for IADsFileService", "Provider Support for IADsGroup", "Provider Support for IADsClass", "Provider Support for IADsProperty", "Provider Support for IADsSyntax", "Provider Support for IADsContainer", "Provider Support for IADsNamespaces", "Provider Support for IADsAccessControlEntry", "Provider Support for IADsAccessControlList", "Provider Support for IADsSecurityDescriptor", "Provider Support for IADsObjectOptions", "Provider Support for IADsCollection", "Provider Support for IADsMembers", "Provider Support for IADsPathname", "Provider Support for IADsPrintQueue", "Provider Support for IADsPrintQueueOperations"]
+keywords:
+- Provider Support of ADSI Interfaces ADSI
+- ADSI ADSI , service providers, interfaces supported by each provider
+- Provider Support for IADsUser
+- Provider Support for IADsComputer
+- Provider Support for IADsComputerOperations
+- Provider Support for IADsDomain
+- Provider Support for IADsFileService
+- Provider Support for IADsGroup
+- Provider Support for IADsClass
+- Provider Support for IADsProperty
+- Provider Support for IADsSyntax
+- Provider Support for IADsContainer
+- Provider Support for IADsNamespaces
+- Provider Support for IADsAccessControlEntry
+- Provider Support for IADsAccessControlList
+- Provider Support for IADsSecurityDescriptor
+- Provider Support for IADsObjectOptions
+- Provider Support for IADsCollection
+- Provider Support for IADsMembers
+- Provider Support for IADsPathname
+- Provider Support for IADsPrintQueue
+- Provider Support for IADsPrintQueueOperations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Provider Support of ADSI Interfaces
@@ -27,61 +52,61 @@ For more information about which property or method is supported for each interf
 
 | Interface Name                                                 | LDAP | WinNT |
 |----------------------------------------------------------------|------|-------|
-| [**IADs**](iads.md)                                           | Yes  | Yes   |
-| [**IADsAccessControlEntry**](iadsaccesscontrolentry.md)       | Yes  | No    |
-| [**IADsAccessControlList**](iadsaccesscontrollist.md)         | Yes  | No    |
-| [**IADsAcl**](iadsacl.md)                                     | No   | No    |
-| [**IADsBackLink**](iadsbacklink.md)                           | No   | No    |
-| [**IADsCaseIgnoreList**](iadscaseignorelist.md)               | No   | No    |
-| [**IADsClass**](iadsclass.md)                                 | Yes  | Yes   |
-| [**IADsCollection**](iadscollection.md)                       | No   | Yes   |
-| [**IADsComputer**](iadscomputer.md)                           | No   | Yes   |
-| [**IADsComputerOperations**](iadscomputeroperations.md)       | No   | Yes   |
-| [**IADsContainer**](iadscontainer.md)                         | Yes  | Yes   |
-| [**IADsDeleteOps**](iadsdeleteops.md)                         | Yes  | No    |
-| [**IADsDomain**](iadsdomain.md)                               | No   | Yes   |
-| [**IADsEmail**](iadsemail.md)                                 | No   | No    |
-| [**IADsExtension**](iadsextension.md)                         | Yes  | Yes   |
-| [**IADsFaxNumber**](iadsfaxnumber.md)                         | No   | No    |
-| [**IADsFileService**](iadsfileservice.md)                     | No   | Yes   |
-| [**IADsFileServiceOperations**](iadsfileserviceoperations.md) | No   | Yes   |
-| [**IADsFileShare**](iadsfileshare.md)                         | No   | Yes   |
-| [**IADsGroup**](iadsgroup.md)                                 | Yes  | Yes   |
-| [**IADsHold**](iadshold.md)                                   | No   | No    |
-| [**IADsLargeInteger**](iadslargeinteger.md)                   | Yes  | No    |
-| [**IADsLocality**](iadslocality.md)                           | Yes  | No    |
-| [**IADsMembers**](iadsmembers.md)                             | Yes  | Yes   |
-| [**IADsNamespaces**](iadsnamespaces.md)                       | Yes  | Yes   |
-| [**IADsNetAddress**](iadsnetaddress.md)                       | No   | No    |
-| [**IADsO**](iadso.md)                                         | Yes  | No    |
-| [**IADsObjectOptions**](iadsobjectoptions.md)                 | Yes  | No    |
-| [**IADsOctetList**](iadsoctetlist.md)                         | No   | No    |
-| [**IADsOpenDSObject**](iadsopendsobject.md)                   | Yes  | Yes   |
-| [**IADsOU**](iadsou.md)                                       | Yes  | No    |
-| [**IADsPath**](iadspath.md)                                   | No   | No    |
-| [**IADsPathName**](iadspathname.md)                           | Yes  | Yes   |
-| [**IADsPostalAddress**](iadspostaladdress.md)                 | No   | No    |
-| [**IADsPrintJob**](iadsprintjob.md)                           | No   | Yes   |
-| [**IADsPrintJobOperations**](iadsprintjoboperations.md)       | No   | Yes   |
-| [**IADsPrintQueue**](iadsprintqueue.md)                       | Yes  | Yes   |
-| [**IADsPrintQueueOperations**](iadsprintqueueoperations.md)   | Yes  | Yes   |
-| [**IADsProperty**](iadsproperty.md)                           | Yes  | Yes   |
-| [**IADsPropertyEntry**](iadspropertyentry.md)                 | Yes  | Yes   |
-| [**IADsPropertyList**](iadspropertylist.md)                   | Yes  | Yes   |
-| [**IADsPropertyValue**](iadspropertyvalue.md)                 | Yes  | Yes   |
-| [**IADsPropertyValue2**](iadspropertyvalue2.md)               | Yes  | Yes   |
-| [**IADsReplicaPointer**](iadsreplicapointer.md)               | No   | No    |
-| [**IADsResource**](iadsresource.md)                           | No   | Yes   |
-| [**IADsSecurityDescriptor**](iadssecuritydescriptor.md)       | Yes  | No    |
-| [**IADsService**](iadsservice.md)                             | No   | Yes   |
-| [**IADsServiceOperations**](iadsserviceoperations.md)         | No   | Yes   |
-| [**IADsSession**](iadssession.md)                             | No   | Yes   |
-| [**IADsSyntax**](iadssyntax.md)                               | Yes  | Yes   |
-| [**IADsTimestamp**](iadstimestamp.md)                         | No   | No    |
-| [**IADsTypedName**](iadstypedname.md)                         | No   | No    |
-| [**IADsUser**](iadsuser.md)                                   | Yes  | Yes   |
-| [**IDirectoryObject**](idirectoryobject.md)                   | Yes  | No    |
-| [**IDirectorySearch**](idirectorysearch.md)                   | Yes  | No    |
+| [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master)                                           | Yes  | Yes   |
+| [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)       | Yes  | No    |
+| [**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master)         | Yes  | No    |
+| [**IADsAcl**](/windows/win32/Iads/nn-iads-iadsacl?branch=master)                                     | No   | No    |
+| [**IADsBackLink**](/windows/win32/Iads/nn-iads-iadsbacklink?branch=master)                           | No   | No    |
+| [**IADsCaseIgnoreList**](/windows/win32/Iads/nn-iads-iadscaseignorelist?branch=master)               | No   | No    |
+| [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)                                 | Yes  | Yes   |
+| [**IADsCollection**](/windows/win32/Iads/nn-iads-iadscollection?branch=master)                       | No   | Yes   |
+| [**IADsComputer**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)                           | No   | Yes   |
+| [**IADsComputerOperations**](/windows/win32/Iads/nn-iads-iadscomputeroperations?branch=master)       | No   | Yes   |
+| [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master)                         | Yes  | Yes   |
+| [**IADsDeleteOps**](/windows/win32/Iads/nn-iads-iadsdeleteops?branch=master)                         | Yes  | No    |
+| [**IADsDomain**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)                               | No   | Yes   |
+| [**IADsEmail**](/windows/win32/Iads/nn-iads-iadsemail?branch=master)                                 | No   | No    |
+| [**IADsExtension**](/windows/win32/Iads/nn-iads-iadsextension?branch=master)                         | Yes  | Yes   |
+| [**IADsFaxNumber**](/windows/win32/Iads/nn-iads-iadsfaxnumber?branch=master)                         | No   | No    |
+| [**IADsFileService**](/windows/win32/Iads/nn-iads-iadsfileservice?branch=master)                     | No   | Yes   |
+| [**IADsFileServiceOperations**](/windows/win32/Iads/nn-iads-iadsfileserviceoperations?branch=master) | No   | Yes   |
+| [**IADsFileShare**](/windows/win32/Iads/nn-iads-iadsfileshare?branch=master)                         | No   | Yes   |
+| [**IADsGroup**](/windows/win32/Iads/nn-iads-iadsgroup?branch=master)                                 | Yes  | Yes   |
+| [**IADsHold**](/windows/win32/Iads/nn-iads-iadshold?branch=master)                                   | No   | No    |
+| [**IADsLargeInteger**](/windows/win32/Iads/nn-iads-iadslargeinteger?branch=master)                   | Yes  | No    |
+| [**IADsLocality**](/windows/win32/Iads/nn-iads-iadslocality?branch=master)                           | Yes  | No    |
+| [**IADsMembers**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master)                             | Yes  | Yes   |
+| [**IADsNamespaces**](/windows/win32/Iads/nn-iads-iadsnamespaces?branch=master)                       | Yes  | Yes   |
+| [**IADsNetAddress**](/windows/win32/Iads/nn-iads-iadsnetaddress?branch=master)                       | No   | No    |
+| [**IADsO**](/windows/win32/Iads/nn-iads-iadso?branch=master)                                         | Yes  | No    |
+| [**IADsObjectOptions**](/windows/win32/Iads/nn-iads-iadsobjectoptions?branch=master)                 | Yes  | No    |
+| [**IADsOctetList**](/windows/win32/Iads/nn-iads-iadsoctetlist?branch=master)                         | No   | No    |
+| [**IADsOpenDSObject**](/windows/win32/Iads/nn-iads-iadsopendsobject?branch=master)                   | Yes  | Yes   |
+| [**IADsOU**](/windows/win32/Iads/nn-iads-iadsou?branch=master)                                       | Yes  | No    |
+| [**IADsPath**](/windows/win32/Iads/nn-iads-iadspath?branch=master)                                   | No   | No    |
+| [**IADsPathName**](/windows/win32/Iads/nn-iads-iadspathname?branch=master)                           | Yes  | Yes   |
+| [**IADsPostalAddress**](/windows/win32/Iads/nn-iads-iadspostaladdress?branch=master)                 | No   | No    |
+| [**IADsPrintJob**](/windows/win32/Iads/nn-iads-iadsprintjob?branch=master)                           | No   | Yes   |
+| [**IADsPrintJobOperations**](/windows/win32/Iads/nn-iads-iadsprintjoboperations?branch=master)       | No   | Yes   |
+| [**IADsPrintQueue**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)                       | Yes  | Yes   |
+| [**IADsPrintQueueOperations**](/windows/win32/Iads/nn-iads-iadsprintqueueoperations?branch=master)   | Yes  | Yes   |
+| [**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)                           | Yes  | Yes   |
+| [**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master)                 | Yes  | Yes   |
+| [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master)                   | Yes  | Yes   |
+| [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master)                 | Yes  | Yes   |
+| [**IADsPropertyValue2**](/windows/win32/Iads/nn-iads-iadspropertyvalue2?branch=master)               | Yes  | Yes   |
+| [**IADsReplicaPointer**](/windows/win32/Iads/nn-iads-iadsreplicapointer?branch=master)               | No   | No    |
+| [**IADsResource**](/windows/win32/Iads/nn-iads-iadsresource?branch=master)                           | No   | Yes   |
+| [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)       | Yes  | No    |
+| [**IADsService**](/windows/win32/Iads/nn-iads-iadsservice?branch=master)                             | No   | Yes   |
+| [**IADsServiceOperations**](/windows/win32/Iads/nn-iads-iadsserviceoperations?branch=master)         | No   | Yes   |
+| [**IADsSession**](/windows/win32/Iads/nn-iads-iadssession?branch=master)                             | No   | Yes   |
+| [**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master)                               | Yes  | Yes   |
+| [**IADsTimestamp**](/windows/win32/Iads/nn-iads-iadstimestamp?branch=master)                         | No   | No    |
+| [**IADsTypedName**](/windows/win32/Iads/nn-iads-iadstypedname?branch=master)                         | No   | No    |
+| [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master)                                   | Yes  | Yes   |
+| [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master)                   | Yes  | No    |
+| [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master)                   | Yes  | No    |
 
 
 
@@ -151,23 +176,23 @@ For more information about which property or method is supported for each interf
 
 | Properties                                     | LDAP                    | WinNT       |
 |------------------------------------------------|-------------------------|-------------|
-| [**ComputerID**](iadscomputer.md)             | Interface not supported | Unsupported |
-| [**Department**](iadscomputer.md)             | Interface not supported | Unsupported |
-| [**Description**](iadscomputer.md)            | Interface not supported | Unsupported |
-| [**Division**](iadscomputer.md)               | Interface not supported | Supported   |
-| [**Location**](iadscomputer.md)               | Interface not supported | Unsupported |
-| [**MemorySize**](iadscomputer.md)             | Interface not supported | Unsupported |
-| [**Model**](iadscomputer.md)                  | Interface not supported | Unsupported |
-| [**NetAddresses**](iadscomputer.md)           | Interface not supported | Unsupported |
-| [**OperatingSystem**](iadscomputer.md)        | Interface not supported | Supported   |
-| [**OperatingSystemVersion**](iadscomputer.md) | Interface not supported | Supported   |
-| [**Owner**](iadscomputer.md)                  | Interface not supported | Supported   |
-| [**PrimaryUser**](iadscomputer.md)            | Interface not supported | Unsupported |
-| [**Processor**](iadscomputer.md)              | Interface not supported | Supported   |
-| [**ProcessorCount**](iadscomputer.md)         | Interface not supported | Supported   |
-| [**Role**](iadscomputer.md)                   | Interface not supported | Unsupported |
-| [**Site**](iadscomputer.md)                   | Interface not supported | Unsupported |
-| [**StorageCapacity**](iadscomputer.md)        | Interface not supported | Unsupported |
+| [**ComputerID**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)             | Interface not supported | Unsupported |
+| [**Department**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)             | Interface not supported | Unsupported |
+| [**Description**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)            | Interface not supported | Unsupported |
+| [**Division**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)               | Interface not supported | Supported   |
+| [**Location**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)               | Interface not supported | Unsupported |
+| [**MemorySize**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)             | Interface not supported | Unsupported |
+| [**Model**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)                  | Interface not supported | Unsupported |
+| [**NetAddresses**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)           | Interface not supported | Unsupported |
+| [**OperatingSystem**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)        | Interface not supported | Supported   |
+| [**OperatingSystemVersion**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master) | Interface not supported | Supported   |
+| [**Owner**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)                  | Interface not supported | Supported   |
+| [**PrimaryUser**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)            | Interface not supported | Unsupported |
+| [**Processor**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)              | Interface not supported | Supported   |
+| [**ProcessorCount**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)         | Interface not supported | Supported   |
+| [**Role**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)                   | Interface not supported | Unsupported |
+| [**Site**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)                   | Interface not supported | Unsupported |
+| [**StorageCapacity**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)        | Interface not supported | Unsupported |
 
 
 
@@ -179,8 +204,8 @@ For more information about which property or method is supported for each interf
 
 | Property                                   | LDAP                    | WinNT           |
 |--------------------------------------------|-------------------------|-----------------|
-| [**Shutdown**](iadscomputeroperations.md) | Interface not supported | Not implemented |
-| [**Status**](iadscomputeroperations.md)   | Interface not supported | Not implemented |
+| [**Shutdown**](/windows/win32/Iads/nn-iads-iadscomputeroperations?branch=master) | Interface not supported | Not implemented |
+| [**Status**](/windows/win32/Iads/nn-iads-iadscomputeroperations?branch=master)   | Interface not supported | Not implemented |
 
 
 
@@ -192,15 +217,15 @@ For more information about which property or method is supported for each interf
 
 | Property                                         | LDAP                    | WinNT           |
 |--------------------------------------------------|-------------------------|-----------------|
-| [**IsWorkgroup**](iadsdomain.md)                | Interface not supported | Not implemented |
-| [**MinPasswordLength**](iadsdomain.md)          | Interface not supported | Supported       |
-| [**MinPasswordAge**](iadsdomain.md)             | Interface not supported | Supported       |
-| [**MaxpasswordAge**](iadsdomain.md)             | Interface not supported | Supported       |
-| [**MaxBadPasswordsAllowed**](iadsdomain.md)     | Interface not supported | Supported       |
-| [**PasswordHistoryLength**](iadsdomain.md)      | Interface not supported | Supported       |
-| [**PasswordAttributes**](iadsdomain.md)         | Interface not supported | Unsupported     |
-| [**AutoUnlockInterval**](iadsdomain.md)         | Interface not supported | Supported       |
-| [**LockoutObservationInterval**](iadsdomain.md) | Interface not supported | Supported       |
+| [**IsWorkgroup**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)                | Interface not supported | Not implemented |
+| [**MinPasswordLength**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)          | Interface not supported | Supported       |
+| [**MinPasswordAge**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)             | Interface not supported | Supported       |
+| [**MaxpasswordAge**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)             | Interface not supported | Supported       |
+| [**MaxBadPasswordsAllowed**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)     | Interface not supported | Supported       |
+| [**PasswordHistoryLength**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)      | Interface not supported | Supported       |
+| [**PasswordAttributes**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)         | Interface not supported | Unsupported     |
+| [**AutoUnlockInterval**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)         | Interface not supported | Supported       |
+| [**LockoutObservationInterval**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master) | Interface not supported | Supported       |
 
 
 
@@ -212,8 +237,8 @@ For more information about which property or method is supported for each interf
 
 | Property                                | LDAP                    | WinNT     |
 |-----------------------------------------|-------------------------|-----------|
-| [**Description**](iadsfileservice.md)  | Interface not supported | Supported |
-| [**MaxUserCount**](iadsfileservice.md) | Interface not supported | Supported |
+| [**Description**](/windows/win32/Iads/nn-iads-iadsfileservice?branch=master)  | Interface not supported | Supported |
+| [**MaxUserCount**](/windows/win32/Iads/nn-iads-iadsfileservice?branch=master) | Interface not supported | Supported |
 
 
 
@@ -225,7 +250,7 @@ For more information about which property or method is supported for each interf
 
 | Property                         | LDAP      | WinNT     |
 |----------------------------------|-----------|-----------|
-| [**Description**](iadsgroup.md) | Supported | Supported |
+| [**Description**](/windows/win32/Iads/nn-iads-iadsgroup?branch=master) | Supported | Supported |
 
 
 
@@ -237,23 +262,23 @@ For more information about which property or method is supported for each interf
 
 | Property                                   | LDAP               | WinNT           |
 |--------------------------------------------|--------------------|-----------------|
-| [**PrimaryInterface**](iadsclass.md)      | Supported          | Supported       |
-| [**CLSID**](iadsclass.md)                 | Supported          | Supported       |
-| [**OID**](iadsclass.md)                   | Supported          | Supported       |
-| [**Abstract**](iadsclass.md)              | Supported          | Supported       |
-| [**Auxiliary**](iadsclass.md)             | Supported          | Supported       |
-| [**MandatoryProperties**](iadsclass.md)   | Supported          | Supported       |
-| [**OptionalProperties**](iadsclass.md)    | Supported          | Supported       |
-| [**NamingProperties**](iadsclass.md)      | Supported          | Not implemented |
-| [**DerivedFrom**](iadsclass.md)           | Supported          | Unsupported     |
-| [**AuxDerivedFrom**](iadsclass.md)        | Supported          | Unsupported     |
-| [**PossibleSuperiors**](iadsclass.md)     | Supported          | Supported       |
-| [**Containment**](iadsclass.md)           | Supported for read | Supported       |
-| [**Container**](iadsclass.md)             | Supported for read | Supported       |
-| [**HelpFileName**](iadsclass.md)          | Supported          | Supported       |
-| [**HelpFileContext**](iadsclass.md)       | Supported          | Supported       |
+| [**PrimaryInterface**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)      | Supported          | Supported       |
+| [**CLSID**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)                 | Supported          | Supported       |
+| [**OID**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)                   | Supported          | Supported       |
+| [**Abstract**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)              | Supported          | Supported       |
+| [**Auxiliary**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)             | Supported          | Supported       |
+| [**MandatoryProperties**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)   | Supported          | Supported       |
+| [**OptionalProperties**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)    | Supported          | Supported       |
+| [**NamingProperties**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)      | Supported          | Not implemented |
+| [**DerivedFrom**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)           | Supported          | Unsupported     |
+| [**AuxDerivedFrom**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)        | Supported          | Unsupported     |
+| [**PossibleSuperiors**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)     | Supported          | Supported       |
+| [**Containment**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)           | Supported for read | Supported       |
+| [**Container**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)             | Supported for read | Supported       |
+| [**HelpFileName**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)          | Supported          | Supported       |
+| [**HelpFileContext**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)       | Supported          | Supported       |
 | Method                                     | LDAP               | WinNT           |
-| [**Qualifiers**](iadsclass-qualifiers.md) | Not implemented    | Not implemented |
+| [**Qualifiers**](/windows/win32/Iads/nf-iads-iadsclass-qualifiers?branch=master) | Not implemented    | Not implemented |
 
 
 
@@ -265,11 +290,11 @@ For more information about which property or method is supported for each interf
 
 | Property                            | LDAP      | WinNT     |
 |-------------------------------------|-----------|-----------|
-| [**OID**](iadsproperty.md)         | Supported | Supported |
-| [**Syntax**](iadsproperty.md)      | Supported | Supported |
-| [**MaxRange**](iadsproperty.md)    | Supported | Supported |
-| [**MinRange**](iadsproperty.md)    | Supported | Supported |
-| [**Multivalued**](iadsproperty.md) | Supported | Supported |
+| [**OID**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)         | Supported | Supported |
+| [**Syntax**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)      | Supported | Supported |
+| [**MaxRange**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)    | Supported | Supported |
+| [**MinRange**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)    | Supported | Supported |
+| [**Multivalued**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master) | Supported | Supported |
 
 
 
@@ -281,7 +306,7 @@ For more information about which property or method is supported for each interf
 
 | Property                              | LDAP      | WinNT     |
 |---------------------------------------|-----------|-----------|
-| [**OleAutoDataType**](iadssyntax.md) | Supported | Supported |
+| [**OleAutoDataType**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master) | Supported | Supported |
 
 
 
@@ -293,9 +318,9 @@ For more information about which property or method is supported for each interf
 
 | Property                        | LDAP            | WinNT           |
 |---------------------------------|-----------------|-----------------|
-| [**Count**](iadscontainer.md)  | Not implemented | Not implemented |
-| [**Hints**](iadscontainer.md)  | Supported       | Not implemented |
-| [**Filter**](iadscontainer.md) | Supported       | Supported       |
+| [**Count**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master)  | Not implemented | Not implemented |
+| [**Hints**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master)  | Supported       | Not implemented |
+| [**Filter**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) | Supported       | Supported       |
 
 
 
@@ -307,7 +332,7 @@ For more information about which property or method is supported for each interf
 
 | Property                                   | LDAP      | WinNT     |
 |--------------------------------------------|-----------|-----------|
-| [**defaultContainer**](iadsnamespaces.md) | Supported | Supported |
+| [**defaultContainer**](/windows/win32/Iads/nn-iads-iadsnamespaces?branch=master) | Supported | Supported |
 
 
 
@@ -319,13 +344,13 @@ For more information about which property or method is supported for each interf
 
 | Property                                              | LDAP      | WinNT       |
 |-------------------------------------------------------|-----------|-------------|
-| [**AccessMask**](iadsaccesscontrolentry.md)          | Supported | Unsupported |
-| [**AccessType**](iadsaccesscontrolentry.md)          | Supported | Unsupported |
-| [**AccessFlags**](iadsaccesscontrolentry.md)         | Supported | Unsupported |
-| [**Flags**](iadsaccesscontrolentry.md)               | Supported | Unsupported |
-| [**ObjectType**](iadsaccesscontrolentry.md)          | Supported | Unsupported |
-| [**InheritedObjectType**](iadsaccesscontrolentry.md) | Supported | Unsupported |
-| [**Trustee**](iadsaccesscontrolentry.md)             | Supported | Unsupported |
+| [**AccessMask**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)          | Supported | Unsupported |
+| [**AccessType**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)          | Supported | Unsupported |
+| [**AccessFlags**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)         | Supported | Unsupported |
+| [**Flags**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)               | Supported | Unsupported |
+| [**ObjectType**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)          | Supported | Unsupported |
+| [**InheritedObjectType**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) | Supported | Unsupported |
+| [**Trustee**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)             | Supported | Unsupported |
 
 
 
@@ -337,13 +362,13 @@ For more information about which property or method is supported for each interf
 
 | Property                                                       | LDAP      | WinNT       |
 |----------------------------------------------------------------|-----------|-------------|
-| [**AceCount**](iadsaccesscontrollist.md)                      | Supported | Unsupported |
-| [**AceRevision**](iadsaccesscontrollist.md)                   | Supported | Unsupported |
+| [**AceCount**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master)                      | Supported | Unsupported |
+| [**AceRevision**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master)                   | Supported | Unsupported |
 | Method                                                         | LDAP      | WinNT       |
-| [**AddAce**](iadsaccesscontrollist-addace.md)                 | Supported | Unsupported |
-| [**CopyAccessList**](iadsaccesscontrollist-copyaccesslist.md) | Supported | Unsupported |
-| [**RemoveAce**](iadsaccesscontrollist-removeace.md)           | Supported | Unsupported |
-| [**get\_\_NewEnum**](iadsaccesscontrollist-get--newenum.md)   | Supported | Unsupported |
+| [**AddAce**](/windows/win32/Iads/nf-iads-iadsaccesscontrollist-addace?branch=master)                 | Supported | Unsupported |
+| [**CopyAccessList**](/windows/win32/Iads/nf-iads-iadsaccesscontrollist-copyaccesslist?branch=master) | Supported | Unsupported |
+| [**RemoveAce**](/windows/win32/Iads/nf-iads-iadsaccesscontrollist-removeace?branch=master)           | Supported | Unsupported |
+| [**get\_\_NewEnum**](/windows/win32/Iads/nf-iads-iadsaccesscontrollist-get__newenum?branch=master)   | Supported | Unsupported |
 
 
 
@@ -355,17 +380,17 @@ For more information about which property or method is supported for each interf
 
 | Property                                                                        | LDAP      | WinNT       |
 |---------------------------------------------------------------------------------|-----------|-------------|
-| [**Control**](iadssecuritydescriptor.md)                                       | Supported | Unsupported |
-| [**DaclDefaulted**](iadssecuritydescriptor.md)                                 | Supported | Unsupported |
-| [**DiscretionaryAcl**](iadssecuritydescriptor.md)                              | Supported | Unsupported |
-| [**Group**](iadssecuritydescriptor.md)                                         | Supported | Unsupported |
-| [**GroupDefaulted**](iadssecuritydescriptor.md)                                | Supported | Unsupported |
-| [**Owner**](iadssecuritydescriptor.md)                                         | Supported | Unsupported |
-| [**OwnerDefaulted**](iadssecuritydescriptor.md)                                | Supported | Unsupported |
-| [**SaclDefaulted**](iadssecuritydescriptor.md)                                 | Supported | Unsupported |
-| [**SystemAcl**](iadssecuritydescriptor.md)                                     | Supported | Unsupported |
+| [**Control**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                       | Supported | Unsupported |
+| [**DaclDefaulted**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                 | Supported | Unsupported |
+| [**DiscretionaryAcl**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                              | Supported | Unsupported |
+| [**Group**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                         | Supported | Unsupported |
+| [**GroupDefaulted**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                | Supported | Unsupported |
+| [**Owner**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                         | Supported | Unsupported |
+| [**OwnerDefaulted**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                | Supported | Unsupported |
+| [**SaclDefaulted**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                 | Supported | Unsupported |
+| [**SystemAcl**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)                                     | Supported | Unsupported |
 | Method                                                                          | LDAP      | WinNT       |
-| [**CopySecurityDescriptor**](iadssecuritydescriptor-copysecuritydescriptor.md) | Supported | Unsupported |
+| [**CopySecurityDescriptor**](/windows/win32/Iads/nf-iads-iadssecuritydescriptor-copysecuritydescriptor?branch=master) | Supported | Unsupported |
 
 
 
@@ -377,8 +402,8 @@ For more information about which property or method is supported for each interf
 
 | Method                                           | LDAP      | WinNT                   |
 |--------------------------------------------------|-----------|-------------------------|
-| [**GetOption**](iadsobjectoptions-getoption.md) | Supported | Interface not supported |
-| [**SetOption**](iadsobjectoptions-setoption.md) | Supported | Interface not supported |
+| [**GetOption**](/windows/win32/Iads/nf-iads-iadsobjectoptions-getoption?branch=master) | Supported | Interface not supported |
+| [**SetOption**](/windows/win32/Iads/nf-iads-iadsobjectoptions-setoption?branch=master) | Supported | Interface not supported |
 
 
 
@@ -390,10 +415,10 @@ For more information about which property or method is supported for each interf
 
 | Method                                                | LDAP                    | WinNT       |
 |-------------------------------------------------------|-------------------------|-------------|
-| [**Add**](iadscollection-add.md)                     | Interface not supported | Unsupported |
-| [**get\_\_NewEnum**](iadscollection-get--newenum.md) | Interface not supported | Supported   |
-| [**GetObject**](iadscollection-getobject.md)         | Interface not supported | Supported   |
-| [**Remove**](iadscollection-remove.md)               | Interface not supported | Supported   |
+| [**Add**](/windows/win32/Iads/nf-iads-iadscollection-add?branch=master)                     | Interface not supported | Unsupported |
+| [**get\_\_NewEnum**](/windows/win32/Iads/nf-iads-iadscollection-get__newenum?branch=master) | Interface not supported | Supported   |
+| [**GetObject**](/windows/win32/Iads/nf-iads-iadscollection-getobject?branch=master)         | Interface not supported | Supported   |
+| [**Remove**](/windows/win32/Iads/nf-iads-iadscollection-remove?branch=master)               | Interface not supported | Supported   |
 
 
 
@@ -405,10 +430,10 @@ For more information about which property or method is supported for each interf
 
 | Property                                           | LDAP                                                      | WinNT       |
 |----------------------------------------------------|-----------------------------------------------------------|-------------|
-| [**Count**](iadsmembers.md)                       | Supported for GroupCollection, but not for UserCollection | Unsupported |
-| [**Filter**](iadsmembers.md)                      | Supported                                                 | Supported   |
+| [**Count**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master)                       | Supported for GroupCollection, but not for UserCollection | Unsupported |
+| [**Filter**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master)                      | Supported                                                 | Supported   |
 | Method                                             | LDAP                                                      | WinNT       |
-| [**get\_\_NewEnum**](iadsmembers-get--newenum.md) | Supported                                                 | Supported   |
+| [**get\_\_NewEnum**](/windows/win32/Iads/nf-iads-iadsmembers-get__newenum?branch=master) | Supported                                                 | Supported   |
 
 
 
@@ -420,16 +445,16 @@ For more information about which property or method is supported for each interf
 
 | Property                                                    | LDAP      | WinNT       |
 |-------------------------------------------------------------|-----------|-------------|
-| [**EscapedMode**](iadspathname.md)                         | Supported | Supported   |
+| [**EscapedMode**](/windows/win32/Iads/nn-iads-iadspathname?branch=master)                         | Supported | Supported   |
 | Method                                                      | LDAP      | WinNT       |
-| [**Set**](iadspathname-set.md)                             | Supported | Supported   |
-| [**SetDisplayType**](iadspathname-setdisplaytype.md)       | Supported | Supported   |
-| [**Retrieve**](iadspathname-retrieve.md)                   | Supported | Supported   |
-| [**GetNumElements**](iadspathname-getnumelements.md)       | Supported | Supported   |
-| [**GetElement**](iadspathname-getelement.md)               | Supported | Supported   |
-| [**GetEscapedElement**](iadspathname-getescapedelement.md) | Supported | Unsupported |
-| [**RemoveLeafElement**](iadspathname-removeleafelement.md) | Supported | Supported   |
-| [**CopyPath**](iadspathname-copypath.md)                   | Supported | Supported   |
+| [**Set**](/windows/win32/Iads/nf-iads-iadspathname-set?branch=master)                             | Supported | Supported   |
+| [**SetDisplayType**](/windows/win32/Iads/nf-iads-iadspathname-setdisplaytype?branch=master)       | Supported | Supported   |
+| [**Retrieve**](/windows/win32/Iads/nf-iads-iadspathname-retrieve?branch=master)                   | Supported | Supported   |
+| [**GetNumElements**](/windows/win32/Iads/nf-iads-iadspathname-getnumelements?branch=master)       | Supported | Supported   |
+| [**GetElement**](/windows/win32/Iads/nf-iads-iadspathname-getelement?branch=master)               | Supported | Supported   |
+| [**GetEscapedElement**](/windows/win32/Iads/nf-iads-iadspathname-getescapedelement?branch=master) | Supported | Unsupported |
+| [**RemoveLeafElement**](/windows/win32/Iads/nf-iads-iadspathname-removeleafelement?branch=master) | Supported | Supported   |
+| [**CopyPath**](/windows/win32/Iads/nf-iads-iadspathname-copypath?branch=master)                   | Supported | Supported   |
 
 
 
@@ -441,19 +466,19 @@ For more information about which property or method is supported for each interf
 
 | Property                                     | LDAP        | WinNT       |
 |----------------------------------------------|-------------|-------------|
-| [**PrinterPath**](iadsprintqueue.md)        | Supported   | Unsupported |
-| [**Model**](iadsprintqueue.md)              | Supported   | Supported.  |
-| [**Datatype**](iadsprintqueue.md)           | Unsupported | Supported   |
-| [**PrintProcessor**](iadsprintqueue.md)     | Unsupported | Supported   |
-| [**Description**](iadsprintqueue.md)        | Supported   | Supported   |
-| [**Location**](iadsprintqueue.md)           | Supported   | Supported   |
-| [**StartTime**](iadsprintqueue.md)          | Supported   | Supported   |
-| [**UntilTime**](iadsprintqueue.md)          | Supported   | Supported   |
-| [**DefaultJobPriority**](iadsprintqueue.md) | Unsupported | Supported   |
-| [**Priority**](iadsprintqueue.md)           | Supported   | Supported   |
-| [**BannerPage**](iadsprintqueue.md)         | Supported   | Supported   |
-| [**PrintDevices**](iadsprintqueue.md)       | Supported   | Supported   |
-| [**NetAddresses**](iadsprintqueue.md)       | Unsupported | Unsupported |
+| [**PrinterPath**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)        | Supported   | Unsupported |
+| [**Model**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)              | Supported   | Supported.  |
+| [**Datatype**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)           | Unsupported | Supported   |
+| [**PrintProcessor**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)     | Unsupported | Supported   |
+| [**Description**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)        | Supported   | Supported   |
+| [**Location**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)           | Supported   | Supported   |
+| [**StartTime**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)          | Supported   | Supported   |
+| [**UntilTime**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)          | Supported   | Supported   |
+| [**DefaultJobPriority**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master) | Unsupported | Supported   |
+| [**Priority**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)           | Supported   | Supported   |
+| [**BannerPage**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)         | Supported   | Supported   |
+| [**PrintDevices**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)       | Supported   | Supported   |
+| [**NetAddresses**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)       | Unsupported | Unsupported |
 
 
 
@@ -465,12 +490,12 @@ For more information about which property or method is supported for each interf
 
 | Property                                                | LDAP      | WinNT      |
 |---------------------------------------------------------|-----------|------------|
-| [**Status**](iadsprintqueueoperations.md)              | Supported | Supported  |
+| [**Status**](/windows/win32/Iads/nn-iads-iadsprintqueueoperations?branch=master)              | Supported | Supported  |
 | Method                                                  | LDAP      | WinNT      |
-| [**Pause**](iadsprintqueueoperations-pause.md)         | Supported | Supported. |
-| [**PrintJobs**](iadsprintqueueoperations-printjobs.md) | Supported | Supported  |
-| [**Purge**](iadsprintqueueoperations-purge.md)         | Supported | Supported  |
-| [**Resume**](iadsprintqueueoperations-resume.md)       | Supported | Supported  |
+| [**Pause**](/windows/win32/Iads/nf-iads-iadsprintqueueoperations-pause?branch=master)         | Supported | Supported. |
+| [**PrintJobs**](/windows/win32/Iads/nf-iads-iadsprintqueueoperations-printjobs?branch=master) | Supported | Supported  |
+| [**Purge**](/windows/win32/Iads/nf-iads-iadsprintqueueoperations-purge?branch=master)         | Supported | Supported  |
+| [**Resume**](/windows/win32/Iads/nf-iads-iadsprintqueueoperations-resume?branch=master)       | Supported | Supported  |
 
 
 

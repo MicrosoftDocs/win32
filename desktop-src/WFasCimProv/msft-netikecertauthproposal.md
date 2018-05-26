@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an auth proposal that uses certificates to authenticate the remote peer. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.'
-ms.assetid: 'f1cde1bf-3e6d-403a-bdb8-49e1ad70e36d'
-title: 'MSFT\_NetIKECertAuthProposal class'
+Description: Represents an auth proposal that uses certificates to authenticate the remote peer. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.
+ms.assetid: f1cde1bf-3e6d-403a-bdb8-49e1ad70e36d
+title: MSFT\_NetIKECertAuthProposal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKECertAuthProposal class
@@ -15,32 +20,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetIKECertAuthProposal : MSFT_NetIKEAuthProposal
 {
-  string  TrustedCA;
-  uint16  TrustedCAType;
+  string  TrustedCA;
+  uint16  TrustedCAType;
   boolean ExcludeCAName;
   boolean MapToAccount;
-  uint16  SigningAlgorithm;
-  string  CertName;
-  uint16  CertNameType;
-  string  EKUs[];
-  string  Thumbprint;
+  uint16  SigningAlgorithm;
+  string  CertName;
+  uint16  CertNameType;
+  string  EKUs[];
+  string  Thumbprint;
   boolean FollowRenewal;
   boolean SelectionCriteria;
   boolean ValidationCriteria;
-  uint16  AuthenticationMethod;
-  uint64  MaxLifetimeSeconds;
-  uint64  MaxLifetimeKilobytes;
-  uint16  CipherAlgorithm;
-  string  OtherCipherAlgorithm;
-  uint16  HashAlgorithm;
-  string  OtherHashAlgorithm;
-  string  OtherAuthenticationMethod;
-  uint16  GroupId;
-  string  VendorID;
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
+  uint16  AuthenticationMethod;
+  uint64  MaxLifetimeSeconds;
+  uint64  MaxLifetimeKilobytes;
+  uint16  CipherAlgorithm;
+  string  OtherCipherAlgorithm;
+  uint16  HashAlgorithm;
+  string  OtherHashAlgorithm;
+  string  OtherAuthenticationMethod;
+  uint16  GroupId;
+  string  VendorID;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
 };
 ```
 
@@ -474,17 +479,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

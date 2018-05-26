@@ -1,7 +1,12 @@
 ---
-Description: 'The AdminExecuteSequence table lists actions that the installer calls in sequence when the top-level ADMIN action is executed.'
-ms.assetid: '33a2ef50-519b-424e-b510-55c21c5706a3'
+Description: The AdminExecuteSequence table lists actions that the installer calls in sequence when the top-level ADMIN action is executed.
+ms.assetid: 33a2ef50-519b-424e-b510-55c21c5706a3
 title: AdminExecuteSequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AdminExecuteSequence Table
@@ -12,7 +17,7 @@ ADMIN actions in the install sequence, up to the [InstallValidate action](instal
 
 ADMIN actions from the InstallValidate action through the end of the install sequence are in the AdminExecuteSequence table. Because the AdminExecuteSequence table needs to stand alone, it also contains any necessary initialization actions such as [LaunchConditions](launchconditions-action.md), [CostInitialize](costinitialize-action.md), [FileCost](filecost-action.md), and [CostFinalize](costfinalize-action.md).
 
-[Custom actions](custom-actions.md) requiring a user interface should use [**MsiProcessMessage**](msiprocessmessage.md) instead of authored dialog boxes created using the [Dialog table](dialog-table.md).
+[Custom actions](custom-actions.md) requiring a user interface should use [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) instead of authored dialog boxes created using the [Dialog table](dialog-table.md).
 
 The columns are identical to those of the [InstallExecuteSequence table](installexecutesequence-table.md). The AdminExecuteSequence table has the following columns.
 

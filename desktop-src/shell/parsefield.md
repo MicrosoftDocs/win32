@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads a line from Setup.inf and extracts the specified field from the string.'
-ms.assetid: '621e85f8-af30-4f1f-bab1-b7f824daa363'
+---
+Description: Reads a line from Setup.inf and extracts the specified field from the string.
+ms.assetid: 621e85f8-af30-4f1f-bab1-b7f824daa363
 title: ParseField function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParseField function

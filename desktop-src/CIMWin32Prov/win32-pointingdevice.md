@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_PointingDevice WMI class represents an input device used to point to and select regions on the display of a computer system running Windows.'
+---
+Description: The Win32\_PointingDevice WMI class represents an input device used to point to and select regions on the display of a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ed81abe3-3d8f-48aa-ab64-9e6c87e44f64'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ed81abe3-3d8f-48aa-ab64-9e6c87e44f64
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PointingDevice class'
+title: Win32\_PointingDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PointingDevice class

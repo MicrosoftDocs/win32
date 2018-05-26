@@ -1,8 +1,9 @@
 ---
 title: gluNurbsSurface function
 description: The gluNurbsSurface function defines the shape of a Non-Uniform Rational B-Spline (NURBS) surface.
-ms.assetid: 'ee86376c-26ba-49a9-b0b0-4ca936b6614b'
-keywords: ["gluNurbsSurface function OpenGL"]
+ms.assetid: ee86376c-26ba-49a9-b0b0-4ca936b6614b
+keywords:
+- gluNurbsSurface function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluNurbsSurface function
@@ -22,17 +28,17 @@ The **gluNurbsSurface** function defines the shape of a Non-Uniform Rational B-S
 
 ```C++
 void WINAPI gluNurbsSurface(
-   GLUnurbs *nobj,
-   GLint    sknot_count,
-   float    *sknot,
-   GLint    tknot_count,
-   GLfloat  *tknot,
-   GLint    s_stride,
-   GLint    t_stride,
-   GLfloat  *ctlarray,
-   GLint    sorder,
-   GLint    torder,
-   GLenum   type
+   GLUnurbs *nobj,
+   GLint    sknot_count,
+   float    *sknot,
+   GLint    tknot_count,
+   GLfloat  *tknot,
+   GLint    s_stride,
+   GLint    t_stride,
+   GLfloat  *ctlarray,
+   GLint    sorder,
+   GLint    torder,
+   GLenum   type
 );
 ```
 
@@ -139,8 +145,8 @@ A **gluNurbsSurface** with *sknot\_count* knots in the *u* direction and *tknot\
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -172,9 +178,9 @@ A **gluNurbsSurface** with *sknot\_count* knots in the *u* direction and *tknot\
 [**gluPwlCurve**](glupwlcurve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

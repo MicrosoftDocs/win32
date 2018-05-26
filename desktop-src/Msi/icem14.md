@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM14 validates the Value Column of the ModuleSubstitution table.'
-ms.assetid: 'e07ba63a-e748-4835-ae1b-9f7d30e46d39'
+Description: ICEM14 validates the Value Column of the ModuleSubstitution table.
+ms.assetid: e07ba63a-e748-4835-ae1b-9f7d30e46d39
 title: ICEM14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM14

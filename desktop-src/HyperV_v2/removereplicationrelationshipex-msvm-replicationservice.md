@@ -1,7 +1,12 @@
 ---
-Description: 'Removes the specified virtual machine replication relationship.'
-ms.assetid: '0D5013CE-7BAE-4A99-ABF2-F1ECC644A1B2'
-title: 'Msvm\_ReplicationService::RemoveReplicationRelationshipEx method'
+Description: Removes the specified virtual machine replication relationship.
+ms.assetid: 0D5013CE-7BAE-4A99-ABF2-F1ECC644A1B2
+title: Msvm\_ReplicationServiceRemoveReplicationRelationshipEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationService::RemoveReplicationRelationshipEx method
@@ -13,9 +18,9 @@ Removes the specified virtual machine replication relationship.
 
 ```C++
 uint32 RemoveReplicationRelationshipEx(
-  [in]  CIM_ComputerSystem ComputerSystem,
-  [in]  string                 ReplicationRelationship,
-  [out] CIM_ConcreteJob    Job
+  [in]  CIM_ComputerSystem ComputerSystem,
+  [in]  string                 ReplicationRelationship,
+  [out] CIM_ConcreteJob    Job
 );
 ```
 
@@ -104,8 +109,8 @@ For a replica virtual machine, primary replication can't be removed if extended 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -122,9 +127,9 @@ For a replica virtual machine, primary replication can't be removed if extended 
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

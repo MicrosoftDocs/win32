@@ -1,7 +1,12 @@
 ---
-Description: 'Represents input parameters for digital video.'
-ms.assetid: 'aa459612-db79-477b-891f-28c9d0b1b497'
+Description: Represents input parameters for digital video.
+ms.assetid: aa459612-db79-477b-891f-28c9d0b1b497
 title: WmiMonitorDigitalVideoInputParams class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorDigitalVideoInputParams class
@@ -14,7 +19,7 @@ The **WmiMonitorDigitalVideoInputParams**represents input parameters for digital
 class WmiMonitorDigitalVideoInputParams : MSMonitorClass
 {
   boolean Active;
-  string  InstanceName;
+  string  InstanceName;
   boolean IsDFP1xCompatible;
 };
 ```
@@ -79,8 +84,8 @@ VESA DFP 1.x or compatible. If set, interface is signal compatible with VESA Dig
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -94,9 +99,9 @@ VESA DFP 1.x or compatible. If set, interface is signal compatible with VESA Dig
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

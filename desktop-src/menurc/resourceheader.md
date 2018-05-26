@@ -1,14 +1,20 @@
 ---
 title: RESOURCEHEADER structure
 description: Contains information about the resource header itself and the data specific to this resource.
-ms.assetid: 'e0eba7b3-a275-4ffe-9347-46361213cf48'
-keywords: ["RESOURCEHEADER structure Menus and Other Resources"]
+ms.assetid: e0eba7b3-a275-4ffe-9347-46361213cf48
+keywords:
+- RESOURCEHEADER structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - RESOURCEHEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RESOURCEHEADER structure
@@ -25,8 +31,8 @@ typedef struct {
   DWORD TYPE;
   DWORD NAME;
   DWORD DataVersion;
-  WORD  MemoryFlags;
-  WORD  LanguageId;
+  WORD  MemoryFlags;
+  WORD  LanguageId;
   DWORD Version;
   DWORD Characteristics;
 } RESOURCEHEADER;
@@ -206,8 +212,8 @@ A variable type member is called a **Name** or **Ordinal** member, and it is use
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -233,9 +239,9 @@ A variable type member is called a **Name** or **Ordinal** member, and it is use
 [VERSION Statement](_Tools_VERSION_Statement)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

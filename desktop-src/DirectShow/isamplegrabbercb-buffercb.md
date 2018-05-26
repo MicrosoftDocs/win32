@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BufferCB method is a callback method that receives a pointer to the sample buffer.'
-ms.assetid: '9ee16dd6-8d05-4a9a-84c3-1b3bb95eaa04'
-title: 'ISampleGrabberCB::BufferCB method'
+---
+Description: The BufferCB method is a callback method that receives a pointer to the sample buffer.
+ms.assetid: 9ee16dd6-8d05-4a9a-84c3-1b3bb95eaa04
+title: ISampleGrabberCBBufferCB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabberCB::BufferCB method

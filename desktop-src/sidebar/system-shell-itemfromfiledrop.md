@@ -1,8 +1,11 @@
 ---
 title: System.Shell.itemFromFileDrop method
 description: Retrieves an System.Shell.Item from the Items collection that represents the object(s) dropped on a gadget during a drag-and-drop operation (copying or moving).
-ms.assetid: '5bb3ab91-3ad7-4ee5-ac92-4dc5ca083597'
-keywords: ["itemFromFileDrop method Windows Sidebar", "itemFromFileDrop method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , itemFromFileDrop method"]
+ms.assetid: 5bb3ab91-3ad7-4ee5-ac92-4dc5ca083597
+keywords:
+- itemFromFileDrop method Windows Sidebar
+- itemFromFileDrop method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , itemFromFileDrop method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.itemFromFileDrop method
@@ -100,10 +108,10 @@ function GetItemFromDrop()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -119,9 +127,9 @@ function GetItemFromDrop()
 [**System.Shell.Drive**](system-shell-drive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

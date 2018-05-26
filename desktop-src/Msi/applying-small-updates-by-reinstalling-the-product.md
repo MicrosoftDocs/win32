@@ -1,7 +1,12 @@
 ---
-Description: 'A small update can be applied to an application by completely or partially reinstalling the application from the command line or from a program.'
-ms.assetid: '6f8b68da-7748-436d-bc95-96e39cf42143'
+Description: A small update can be applied to an application by completely or partially reinstalling the application from the command line or from a program.
+ms.assetid: 6f8b68da-7748-436d-bc95-96e39cf42143
 title: Applying Small Updates by Reinstalling the Product
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Small Updates by Reinstalling the Product
@@ -15,7 +20,7 @@ A small update can be applied to an application by completely or partially reins
 
 **To propagate a small update to current users (this is a complete reinstall) from a program**
 
-1.  From a program, call [**MsiReinstallProduct**](msireinstallproduct.md) and specify REINSTALLMODE\_PACKAGE, REINSTALLMODE\_FILEOLDERVERSION, REINSTALLMODE\_MACHINEDATA, REINSTALLMODE\_USERDATA, and REINSTALLMODE\_SHORTCUT
+1.  From a program, call [**MsiReinstallProduct**](/windows/win32/Msi/nf-msi-msireinstallproducta?branch=master) and specify REINSTALLMODE\_PACKAGE, REINSTALLMODE\_FILEOLDERVERSION, REINSTALLMODE\_MACHINEDATA, REINSTALLMODE\_USERDATA, and REINSTALLMODE\_SHORTCUT
 2.  The updated .msi file is cached on the user's computer.
 
 The following method launches a reinstallation of only those features or components that are affected by the small update.

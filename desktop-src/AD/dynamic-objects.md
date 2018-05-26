@@ -4,11 +4,15 @@ description: In Windows Server 2003 and later versions of Windows, Active Direc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ac5779b6-f226-414c-92a9-091719b1515b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ac5779b6-f226-414c-92a9-091719b1515b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["dynamic objects AD"]
+keywords:
+- dynamic objects AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Objects

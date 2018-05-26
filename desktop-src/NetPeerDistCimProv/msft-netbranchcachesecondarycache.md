@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a BranchCache secondary cache.'
-ms.assetid: '1e2696da-f372-4c88-bbf5-7171c2f6840f'
-title: 'MSFT\_NetBranchCacheSecondaryCache class'
+Description: Describes a BranchCache secondary cache.
+ms.assetid: 1e2696da-f372-4c88-bbf5-7171c2f6840f
+title: MSFT\_NetBranchCacheSecondaryCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheSecondaryCache class
@@ -29,17 +34,17 @@ The **MSFT\_NetBranchCacheSecondaryCache** class does not define any members.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

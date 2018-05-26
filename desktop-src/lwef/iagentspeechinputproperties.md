@@ -1,7 +1,12 @@
 ---
 title: IAgentSpeechInputProperties
 description: IAgentSpeechInputProperties
-ms.assetid: '87bfc8c4-473b-4df9-becd-e90db12dae51'
+ms.assetid: 87bfc8c4-473b-4df9-becd-e90db12dae51
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentSpeechInputProperties

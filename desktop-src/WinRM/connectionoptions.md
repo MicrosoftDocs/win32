@@ -4,11 +4,13 @@ description: The ConnectionOptions object is passed to the CreateSession method 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7a87a5f7-78ed-452c-9b9f-ad48811a3339'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 7a87a5f7-78ed-452c-9b9f-ad48811a3339
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["ConnectionOptions object Windows Remote Management", "ConnectionOptions object Windows Remote Management , described"]
+keywords:
+- ConnectionOptions object Windows Remote Management
+- ConnectionOptions object Windows Remote Management , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ConnectionOptions object
@@ -42,11 +47,11 @@ The **ConnectionOptions** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-The **ConnectionOptions** object corresponds to the [**IWSManConnectionOptions**](iwsmanconnectionoptions.md) interface.
+The **ConnectionOptions** object corresponds to the [**IWSManConnectionOptions**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions?branch=master) interface.
 
 If a Windows Remote Management client application is running under impersonation, then a failure occurs if you set the [**Password**](connectionoptions-password.md) property. A client application is a script or other program that sends a request to WinRM on the local or a remote computer. The client application may be running under impersonation because it called a function like [**ImpersonateClient**](https://msdn.microsoft.com/library/windows/desktop/aa375494). An Active Server Page (ASP) or service cannot request a user name and password if the ASP process runs under an account that impersonates a client.
 
@@ -78,8 +83,8 @@ strResource = objSession.Get("winrm/config")
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -112,9 +117,9 @@ strResource = objSession.Get("winrm/config")
 [Obtaining Data from a Remote Computer](obtaining-data-from-a-remote-computer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

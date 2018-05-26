@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes Winsock programming considerations, architecture, and capabilities available to Winsock developers.'
-ms.assetid: '2a8c5f79-18bd-4645-8777-13a65038abad'
+Description: This section describes Winsock programming considerations, architecture, and capabilities available to Winsock developers.
+ms.assetid: 2a8c5f79-18bd-4645-8777-13a65038abad
 title: About Winsock
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Winsock

@@ -1,12 +1,17 @@
 ---
-Description: 'The Local Security Authority (LSA) provides functions to translate between user, group, and local group names and their corresponding security identifier (SID) values.'
-ms.assetid: '8845b709-a8f9-4d0f-a4a6-86d23d6b01d5'
+Description: The Local Security Authority (LSA) provides functions to translate between user, group, and local group names and their corresponding security identifier (SID) values.
+ms.assetid: 8845b709-a8f9-4d0f-a4a6-86d23d6b01d5
 title: Translating Between Names and SIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating Between Names and SIDs
 
-The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) provides functions to translate between user, group, and local group names and their corresponding [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) values. To locate account names, call the [**LsaLookupNames**](lsalookupnames.md) function. This function returns the SID as a RID/Domain index pair. To get the SID as a single element, call the [**LsaLookupNames2**](lsalookupnames2.md) function. To locate SIDs, call [**LsaLookupSids**](lsalookupsids.md).
+The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) provides functions to translate between user, group, and local group names and their corresponding [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SID) values. To locate account names, call the [**LsaLookupNames**](/windows/win32/Ntsecapi/nf-ntsecapi-lsalookupnames?branch=master) function. This function returns the SID as a RID/Domain index pair. To get the SID as a single element, call the [**LsaLookupNames2**](/windows/win32/Ntsecapi/nf-ntsecapi-lsalookupnames2?branch=master) function. To locate SIDs, call [**LsaLookupSids**](/windows/win32/Ntsecapi/nf-ntsecapi-lsalookupsids?branch=master).
 
 These functions can translate name and SID information from any domain trusted by the local system.
 
@@ -67,7 +72,7 @@ void GetSIDInformation (LPWSTR AccountName,LSA_HANDLE PolicyHandle)
 
 
 
-In the preceding example, the function **InitLsaString** converts a Unicode string to an [**LSA\_UNICODE\_STRING**](lsa-unicode-string.md) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
+In the preceding example, the function **InitLsaString** converts a Unicode string to an [**LSA\_UNICODE\_STRING**](/windows/win32/lsalookup/ns-lsalookup-_lsa_unicode_string?branch=master) structure. The code for this function is shown in [Using LSA Unicode Strings](using-lsa-unicode-strings.md).
 
 > [!Note]  
 > These translation functions are primarily provided for use by permissions editors to display [*access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-list-gly) (ACL) information. A permission editor should always call these functions using the [**Policy**](policy-object.md) object for the system where the name or [*security identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) SID is located. This ensures that the proper set of trusted domains is referenced during the translation.

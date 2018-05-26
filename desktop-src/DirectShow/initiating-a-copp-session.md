@@ -1,7 +1,12 @@
 ---
 Description: Initiating a COPP Session
-ms.assetid: 'c84a83b4-51b2-4b46-860f-d740b42323fa'
+ms.assetid: c84a83b4-51b2-4b46-860f-d740b42323fa
 title: Initiating a COPP Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initiating a COPP Session
@@ -109,7 +114,7 @@ CryptGenRandom(hCSP, sizeof(UINT), &amp;uCommandSeq);
 
 
 
-Now you can prepare the COPP signature. This is a 256-byte array, defined as the [**AMCOPPSignature**](amcoppsignature.md) structure. Initialize the contents of the array to zero. Then copy the four numbers into the array—the driver's random number, the AES key, the status sequence number, and the command sequence number, in that order. Finally, swap the byte order of the entire array.
+Now you can prepare the COPP signature. This is a 256-byte array, defined as the [**AMCOPPSignature**](/windows/win32/strmif/ns-strmif-_amcoppsignature?branch=master) structure. Initialize the contents of the array to zero. Then copy the four numbers into the array—the driver's random number, the AES key, the status sequence number, and the command sequence number, in that order. Finally, swap the byte order of the entire array.
 
 According to the documentation for **CryptEncrypt**:
 
@@ -150,7 +155,7 @@ CryptEncrypt(
 
 
 
-Now pass the encrypted array to [**IAMCertifiedOutputProtection::SessionSequenceStart**](iamcertifiedoutputprotection-sessionsequencestart.md):
+Now pass the encrypted array to [**IAMCertifiedOutputProtection::SessionSequenceStart**](/windows/win32/Strmif/nf-strmif-iamcertifiedoutputprotection-sessionsequencestart?branch=master):
 
 
 ```C++

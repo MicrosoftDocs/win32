@@ -1,14 +1,15 @@
 ---
 title: ExtendedDisconnectReasonCode enumeration
-description: Defines extended information about the control's reason for disconnection.
+description: Defines extended information about the controls reason for disconnection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E73E73B4-6C6B-4270-A1BD-947FA6D7B31B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: E73E73B4-6C6B-4270-A1BD-947FA6D7B31B
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ExtendedDisconnectReasonCode enumeration Remote Desktop Services"]
+keywords:
+- ExtendedDisconnectReasonCode enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # ExtendedDisconnectReasonCode enumeration
@@ -28,34 +32,34 @@ Defines extended information about the control's reason for disconnection.
 
 ```C++
 typedef enum _ExtendedDisconnectReasonCode { 
-  exDiscReasonNoInfo                            = 0,
-  exDiscReasonAPIInitiatedDisconnect            = 1,
-  exDiscReasonAPIInitiatedLogoff                = 2,
-  exDiscReasonServerIdleTimeout                 = 3,
-  exDiscReasonServerLogonTimeout                = 4,
-  exDiscReasonReplacedByOtherConnection         = 5,
-  exDiscReasonOutOfMemory                       = 6,
-  exDiscReasonServerDeniedConnection            = 7,
-  exDiscReasonServerDeniedConnectionFips        = 8,
-  exDiscReasonServerInsufficientPrivileges      = 9,
-  exDiscReasonServerFreshCredsRequired          = 10,
-  exDiscReasonRpcInitiatedDisconnectByUser      = 11,
-  exDiscReasonLogoffByUser                      = 2,
-  exDiscReasonLicenseInternal                   = 256,
-  exDiscReasonLicenseNoLicenseServer            = 257,
-  exDiscReasonLicenseNoLicense                  = 258,
-  exDiscReasonLicenseErrClientMsg               = 259,
-  exDiscReasonLicenseHwidDoesntMatchLicense     = 260,
-  exDiscReasonLicenseErrClientLicense           = 261,
-  exDiscReasonLicenseCantFinishProtocol         = 262,
-  exDiscReasonLicenseClientEndedProtocol        = 263,
-  exDiscReasonLicenseErrClientEncryption        = 264,
-  exDiscReasonLicenseCantUpgradeLicense         = 265,
-  exDiscReasonLicenseNoRemoteConnections        = 266,
-  exDiscReasonLicenseCreatingLicStoreAccDenied  = 267,
-  exDiscReasonRdpEncInvalidCredentials          = 768,
-  exDiscReasonProtocolRangeStart                = 4096,
-  exDiscReasonProtocolRangeEnd                  = 32767
+  exDiscReasonNoInfo                            = 0,
+  exDiscReasonAPIInitiatedDisconnect            = 1,
+  exDiscReasonAPIInitiatedLogoff                = 2,
+  exDiscReasonServerIdleTimeout                 = 3,
+  exDiscReasonServerLogonTimeout                = 4,
+  exDiscReasonReplacedByOtherConnection         = 5,
+  exDiscReasonOutOfMemory                       = 6,
+  exDiscReasonServerDeniedConnection            = 7,
+  exDiscReasonServerDeniedConnectionFips        = 8,
+  exDiscReasonServerInsufficientPrivileges      = 9,
+  exDiscReasonServerFreshCredsRequired          = 10,
+  exDiscReasonRpcInitiatedDisconnectByUser      = 11,
+  exDiscReasonLogoffByUser                      = 2,
+  exDiscReasonLicenseInternal                   = 256,
+  exDiscReasonLicenseNoLicenseServer            = 257,
+  exDiscReasonLicenseNoLicense                  = 258,
+  exDiscReasonLicenseErrClientMsg               = 259,
+  exDiscReasonLicenseHwidDoesntMatchLicense     = 260,
+  exDiscReasonLicenseErrClientLicense           = 261,
+  exDiscReasonLicenseCantFinishProtocol         = 262,
+  exDiscReasonLicenseClientEndedProtocol        = 263,
+  exDiscReasonLicenseErrClientEncryption        = 264,
+  exDiscReasonLicenseCantUpgradeLicense         = 265,
+  exDiscReasonLicenseNoRemoteConnections        = 266,
+  exDiscReasonLicenseCreatingLicStoreAccDenied  = 267,
+  exDiscReasonRdpEncInvalidCredentials          = 768,
+  exDiscReasonProtocolRangeStart                = 4096,
+  exDiscReasonProtocolRangeEnd                  = 32767
 } ExtendedDisconnectReasonCode;
 ```
 
@@ -267,8 +271,8 @@ Ending the range of internal protocol errors.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
 
@@ -280,9 +284,9 @@ Ending the range of internal protocol errors.
 [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,22 +1,27 @@
 ---
-Description: 'The AdviseTime method creates a one-shot advise request. This method implements the IReferenceClock::AdviseTime method.'
-ms.assetid: '4849a04d-35f2-4a24-bf5d-f20e541f5e99'
-title: 'CBaseReferenceClock.AdviseTime method'
+Description: The AdviseTime method creates a one-shot advise request. This method implements the IReferenceClockAdviseTime method.
+ms.assetid: 4849a04d-35f2-4a24-bf5d-f20e541f5e99
+title: CBaseReferenceClock.AdviseTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock.AdviseTime method
 
-The `AdviseTime` method creates a one-shot advise request. This method implements the [**IReferenceClock::AdviseTime**](ireferenceclock-advisetime.md) method.
+The `AdviseTime` method creates a one-shot advise request. This method implements the [**IReferenceClock::AdviseTime**](/windows/win32/Strmif/nf-strmif-ireferenceclock-advisetime?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT AdviseTime(
-   REFERENCE_TIME baseTime,
-   REFERENCE_TIME streamTime,
-   HEVENT         hEvent,
-   DWORD_PTR      *pdwAdviseToken
+   REFERENCE_TIME baseTime,
+   REFERENCE_TIME streamTime,
+   HEVENT         hEvent,
+   DWORD_PTR      *pdwAdviseToken
 );
 ```
 
@@ -69,7 +74,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,9 +100,9 @@ To cancel the notification before the time is reached, call the [**CBaseReferenc
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

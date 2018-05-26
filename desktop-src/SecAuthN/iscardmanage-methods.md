@@ -1,7 +1,12 @@
 ---
-Description: 'The ISCardManage interface exposes the following methods.'
-ms.assetid: '4F77BFFC-83B8-47B4-8CCA-D85AA0EE1B8C'
+Description: The ISCardManage interface exposes the following methods.
+ms.assetid: 4F77BFFC-83B8-47B4-8CCA-D85AA0EE1B8C
 title: ISCardManage Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardManage Methods

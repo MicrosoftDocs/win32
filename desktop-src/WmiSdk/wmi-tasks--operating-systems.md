@@ -1,13 +1,16 @@
 ---
-Description: 'WMI tasks for operating systems obtain information about the operating system, such as version, whether it is activated, or which hotfixes are installed.'
+Description: WMI tasks for operating systems obtain information about the operating system, such as version, whether it is activated, or which hotfixes are installed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a216ad56-2650-4d93-86e1-449b56019361'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a216ad56-2650-4d93-86e1-449b56019361
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Operating Systems'
+title: WMI Tasks Operating Systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Operating Systems
@@ -30,7 +33,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, CScript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -319,7 +322,7 @@ Next</code></pre></td>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -334,9 +337,9 @@ Next</code></pre></td>
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

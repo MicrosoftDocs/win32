@@ -1,7 +1,12 @@
-﻿---
-Description: 'Searches an item''s tree of subitems using the name as the search key.'
-ms.assetid: 'e4ce0bfb-9793-4928-b454-66ae1455b7b5'
-title: 'IWiaItem2::FindItemByName method'
+---
+Description: Searches an items tree of subitems using the name as the search key.
+ms.assetid: e4ce0bfb-9793-4928-b454-66ae1455b7b5
+title: IWiaItem2FindItemByName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::FindItemByName method

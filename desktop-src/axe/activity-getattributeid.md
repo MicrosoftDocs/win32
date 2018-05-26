@@ -1,8 +1,11 @@
 ---
 title: Activity GetAttributeID method
 description: Returns the ID of the Activity.
-ms.assetid: '5348C851-DC14-450E-AE83-133CC0DE0BE1'
-keywords: ["GetAttributeID method Access Execution Engine", "GetAttributeID method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetAttributeID method"]
+ms.assetid: 5348C851-DC14-450E-AE83-133CC0DE0BE1
+keywords:
+- GetAttributeID method Access Execution Engine
+- GetAttributeID method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetAttributeID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetAttributeID method
@@ -22,7 +30,7 @@ Returns the **ID** of the **Activity**.
 
 ```C++
 virtual HRESULT GetAttributeID(
-  [out] LPCWSTR *attributeID
+  [out] LPCWSTR *attributeID
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The ID is the value of attribute **ID** of element **Activity**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The ID is the value of attribute **ID** of element **Activity**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

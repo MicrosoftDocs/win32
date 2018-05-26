@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETITEMSTATE message
 description: Retrieves the state of a list-view item. You can send this message explicitly or by using the ListView\_GetItemState macro.
-ms.assetid: '862960ed-a64a-4d66-b384-9228932eae6f'
-keywords: ["LVM_GETITEMSTATE message Windows Controls"]
+ms.assetid: 862960ed-a64a-4d66-b384-9228932eae6f
+keywords:
+- LVM_GETITEMSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETITEMSTATE message
 
-Retrieves the state of a list-view item. You can send this message explicitly or by using the [**ListView\_GetItemState**](listview-getitemstate.md) macro.
+Retrieves the state of a list-view item. You can send this message explicitly or by using the [**ListView\_GetItemState**](/windows/win32/Commctrl/nf-commctrl-listview_getitemstate?branch=master) macro.
 
 ## Parameters
 
@@ -46,7 +52,7 @@ State information to retrieve. This parameter can be a combination of the follow
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -64,8 +70,8 @@ An item's state information includes a set of bit flags as well as image list in
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ An item's state information includes a set of bit flags as well as image list in
 [**LVM\_SETITEMSTATE**](lvm-setitemstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

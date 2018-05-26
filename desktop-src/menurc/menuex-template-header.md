@@ -1,14 +1,20 @@
 ---
 title: MENUEX\_TEMPLATE\_HEADER structure
 description: Defines the header for an extended menu template. This structure definition is for explanation only; it is not present in any standard header file.
-ms.assetid: 'df763349-7127-482e-8613-74e68addde5d'
-keywords: ["MENUEX_TEMPLATE_HEADER structure Menus and Other Resources"]
+ms.assetid: df763349-7127-482e-8613-74e68addde5d
+keywords:
+- MENUEX_TEMPLATE_HEADER structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENUEX_TEMPLATE_HEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENUEX\_TEMPLATE\_HEADER structure
@@ -20,8 +26,8 @@ Defines the header for an extended menu template. This structure definition is f
 
 ```C++
 typedef struct {
-  WORD  wVersion;
-  WORD  wOffset;
+  WORD  wVersion;
+  WORD  wOffset;
   DWORD dwHelpId;
 } MENUEX_TEMPLATE_HEADER;
 ```
@@ -67,7 +73,7 @@ The help identifier of menu bar.
 
 ## Remarks
 
-An extended menu template consists of a **MENUEX\_TEMPLATE\_HEADER** structure followed by one or more contiguous [**MENUEX\_TEMPLATE\_ITEM**](menuex-template-item.md) structures. The **MENUEX\_TEMPLATE\_ITEM** structures, which are variable in length, are aligned on **DWORD** boundaries. To create a menu from an extended menu template in memory, use the [**LoadMenuIndirect**](loadmenuindirect.md) function.
+An extended menu template consists of a **MENUEX\_TEMPLATE\_HEADER** structure followed by one or more contiguous [**MENUEX\_TEMPLATE\_ITEM**](menuex-template-item.md) structures. The **MENUEX\_TEMPLATE\_ITEM** structures, which are variable in length, are aligned on **DWORD** boundaries. To create a menu from an extended menu template in memory, use the [**LoadMenuIndirect**](/windows/win32/Winuser/nf-winuser-loadmenuindirecta?branch=master) function.
 
 ## Requirements
 
@@ -75,8 +81,8 @@ An extended menu template consists of a **MENUEX\_TEMPLATE\_HEADER** structure f
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -87,7 +93,7 @@ An extended menu template consists of a **MENUEX\_TEMPLATE\_HEADER** structure f
 **Reference**
 </dt> <dt>
 
-[**LoadMenuIndirect**](loadmenuindirect.md)
+[**LoadMenuIndirect**](/windows/win32/Winuser/nf-winuser-loadmenuindirecta?branch=master)
 </dt> <dt>
 
 [**MENUEX\_TEMPLATE\_ITEM**](menuex-template-item.md)
@@ -99,9 +105,9 @@ An extended menu template consists of a **MENUEX\_TEMPLATE\_HEADER** structure f
 [Menus](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

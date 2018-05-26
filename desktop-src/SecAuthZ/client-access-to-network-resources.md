@@ -1,7 +1,12 @@
 ---
-Description: 'Explains strategies for accessing network resources.'
-ms.assetid: 'd55b3204-430d-4fa4-b7a7-1e279beed8e3'
+Description: Explains strategies for accessing network resources.
+ms.assetid: d55b3204-430d-4fa4-b7a7-1e279beed8e3
 title: Client Access to Network Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Access to Network Resources

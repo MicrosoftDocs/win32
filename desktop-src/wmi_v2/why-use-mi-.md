@@ -4,10 +4,13 @@ description: The Windows Management Infrastructure (MI) features represent the l
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12E5D856-D1B7-44CA-8860-CE73A8A8C824'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 12E5D856-D1B7-44CA-8860-CE73A8A8C824
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Why Use MI?

@@ -4,11 +4,14 @@ description: Determines if the resource can be dependent on another resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd167192f-4577-49b6-aa1c-1dbd6d2aa98c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d167192f-4577-49b6-aa1c-1dbd6d2aa98c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CanResourceBeDependent method Failover Cluster", "CanResourceBeDependent method Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , CanResourceBeDependent method"]
+keywords:
+- CanResourceBeDependent method Failover Cluster
+- CanResourceBeDependent method Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , CanResourceBeDependent method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.CanResourceBeDependent method
@@ -58,7 +64,7 @@ A **Variant** set to **TRUE** if this resource can depend on the resource identi
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -74,9 +80,9 @@ A **Variant** set to **TRUE** if this resource can depend on the resource identi
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

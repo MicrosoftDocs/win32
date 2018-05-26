@@ -4,17 +4,22 @@ description: Contains the value that specifies if RDC is enabled or disabled.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '05a4257c-cc8b-4ddf-ae5f-4d3b456a2bae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 05a4257c-cc8b-4ddf-ae5f-4d3b456a2bae
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-RdcEnabled attribute AD Schema", "msDFSR-RdcEnabled attribute AD Schema"]
+keywords:
+- ms-DFSR-RdcEnabled attribute AD Schema
+- msDFSR-RdcEnabled attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-RdcEnabled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-RdcEnabled attribute
@@ -38,10 +43,10 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the value that specifies if RDC is enabled or disabled.
 
 The **ms-DFSR-RdcEnabled** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

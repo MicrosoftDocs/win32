@@ -1,8 +1,9 @@
 ---
 title: BCM\_GETIMAGELIST message
 description: Gets the BUTTON\_IMAGELIST structure that describes the image list assigned to a button control. You can send this message explicitly or use the Button\_GetImageList macro.
-ms.assetid: '79383758-53d4-4955-b472-befd338cbec6'
-keywords: ["BCM_GETIMAGELIST message Windows Controls"]
+ms.assetid: 79383758-53d4-4955-b472-befd338cbec6
+keywords:
+- BCM_GETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_GETIMAGELIST message
 
-Gets the [**BUTTON\_IMAGELIST**](button-imagelist.md) structure that describes the image list assigned to a button control. You can send this message explicitly or use the [**Button\_GetImageList**](button-getimagelist.md) macro.
+Gets the [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) structure that describes the image list assigned to a button control. You can send this message explicitly or use the [**Button\_GetImageList**](/windows/win32/Commctrl/nf-commctrl-button_getimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**BUTTON\_IMAGELIST**](button-imagelist.md) structure that contains image list information.
+A pointer to a [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) structure that contains image list information.
 
 </dd> </dl>
 
@@ -44,7 +50,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -52,15 +58,15 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

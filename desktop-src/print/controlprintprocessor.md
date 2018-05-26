@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print processor''s ControlPrintProcessor function allows the spooler to control a print job.'
-ms.assetid: 'a0a19747-ab39-4606-a49b-78e5e056da32'
+---
+Description: A print processors ControlPrintProcessor function allows the spooler to control a print job.
+ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 title: ControlPrintProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlPrintProcessor function

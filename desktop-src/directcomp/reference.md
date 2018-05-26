@@ -1,7 +1,12 @@
 ---
 title: DirectComposition reference
 description: This section provides detailed reference information for the elements that make up the Microsoft DirectComposition \ 32;API.
-ms.assetid: 'A220189D-8546-4352-8F6F-AC5D2192940D'
+ms.assetid: A220189D-8546-4352-8F6F-AC5D2192940D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectComposition reference
@@ -22,7 +27,7 @@ This section provides detailed reference information for the elements that make 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +42,9 @@ This section provides detailed reference information for the elements that make 
 [DirectComposition Code Samples](directcomposition-code-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

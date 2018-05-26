@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: 'ed6fd633-23b8-4b80-901c-d7b50fa4c15e'
-title: 'IAMTimeline::IsDirty method'
+---
+Description: Not supported.
+ms.assetid: ed6fd633-23b8-4b80-901c-d7b50fa4c15e
+title: IAMTimelineIsDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::IsDirty method

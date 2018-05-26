@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a JPEG DC huffman table.'
-ms.assetid: '9D6C18C3-F75C-41E0-9EFA-E882E89DE713'
-title: 'DXGI\_JPEG\_DC\_HUFFMAN\_TABLE structure'
+---
+Description: Describes a JPEG DC huffman table.
+ms.assetid: 9D6C18C3-F75C-41E0-9EFA-E882E89DE713
+title: DXGI\_JPEG\_DC\_HUFFMAN\_TABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI\_JPEG\_DC\_HUFFMAN\_TABLE structure

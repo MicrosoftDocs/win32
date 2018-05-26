@@ -1,7 +1,12 @@
 ---
 title: Using List-View Controls
 description: This section contains code examples that demonstrate how to create and use list-view controls in your applications.
-ms.assetid: '6953cdfc-8c59-4c6d-8998-f828cea3a315'
+ms.assetid: 6953cdfc-8c59-4c6d-8998-f828cea3a315
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using List-View Controls
@@ -25,11 +30,11 @@ This section contains code examples that demonstrate how to create and use list-
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

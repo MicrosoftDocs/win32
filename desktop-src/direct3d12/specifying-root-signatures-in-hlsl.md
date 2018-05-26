@@ -1,7 +1,12 @@
 ---
 title: Specifying Root Signatures in HLSL
 description: Specifying root signatures in HLSL Shader Model 5.1 is an alternative to specifying them in C++ code.
-ms.assetid: '399F5E91-B017-4F5E-9037-DC055407D96F'
+ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Root Signatures in HLSL
@@ -87,7 +92,7 @@ The HLSL root signature language closely corresponds to the C++ root signature A
 
 ## RootFlags
 
-The optional *RootFlags* clause takes either 0 (the default value to indicate no flags), or one or several of predefined root flags values, connected via the OR ‘\|’ operator. The allowed root flag values are defined by [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](d3d12-root-signature-flags.md).
+The optional *RootFlags* clause takes either 0 (the default value to indicate no flags), or one or several of predefined root flags values, connected via the OR ‘\|’ operator. The allowed root flag values are defined by [**D3D12\_ROOT\_SIGNATURE\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_root_signature_flags?branch=master).
 
 For example:
 
@@ -114,7 +119,7 @@ RootConstants(num32BitConstants=3, b3)
 
 ## Visibility
 
-Visibility is an optional parameter that can have one of the values from [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md).
+Visibility is an optional parameter that can have one of the values from [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master).
 
 SHADER\_VISIBILITY\_ALL broadcasts the root arguments to all shaders. On some hardware this has no cost, but on other hardware there is a cost to fork the data to all the shader stages. Setting one of the options, such as SHADER\_VISIBILITY\_VERTEX, limits the root argument to a single shader stage.
 
@@ -213,7 +218,7 @@ This is similar to the descriptor table `CBV` entry, except the specified range 
 
 ## Static Sampler
 
-The static sampler represents the [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md) structure. The mandatory parameter for *StaticSampler* is a scalar, sampler s-register Reg. Other parameters are optional with default values shown below. Most fields accept a set of predefined enums.
+The static sampler represents the [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master) structure. The mandatory parameter for *StaticSampler* is a scalar, sampler s-register Reg. Other parameters are optional with default values shown below. Most fields accept a set of predefined enums.
 
 ``` syntax
 StaticSampler( sReg,
@@ -239,15 +244,15 @@ StaticSampler(s4, filter=FILTER_MIN_MAG_MIP_LINEAR)
 
 The parameter options are very similar to the C++ API calls, except for *borderColor*, which is restricted to an enum in HLSL.
 
-The filter field can be one of [**D3D12\_FILTER**](d3d12-filter.md).
+The filter field can be one of [**D3D12\_FILTER**](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master).
 
-The address fields can each be one of [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md).
+The address fields can each be one of [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master).
 
-The comparison function can be one of [**D3D12\_COMPARISON\_FUNC**](d3d12-comparison-func.md).
+The comparison function can be one of [**D3D12\_COMPARISON\_FUNC**](/windows/win32/D3D12/ne-d3d12-d3d12_comparison_func?branch=master).
 
-The border color field can be one of [**D3D12\_STATIC\_BORDER\_COLOR**](d3d12-static-border-color.md).
+The border color field can be one of [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/win32/D3D12/ne-d3d12-d3d12_static_border_color?branch=master).
 
-Visibility can be one of [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md).
+Visibility can be one of [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master).
 
 ## Compiling an HLSL root signature
 

@@ -4,11 +4,16 @@ description: The DisplayScopeNodePropertySheet method displays the property shee
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b0cb43f6-0cc2-4770-a33b-925dc0c0c61e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b0cb43f6-0cc2-4770-a33b-925dc0c0c61e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["DisplayScopeNodePropertySheet method MMC", "DisplayScopeNodePropertySheet method MMC , View object", "View object MMC , DisplayScopeNodePropertySheet method", "DisplayScopeNodePropertySheet method MMC , View interface", "View interface MMC , DisplayScopeNodePropertySheet method"]
+keywords:
+- DisplayScopeNodePropertySheet method MMC
+- DisplayScopeNodePropertySheet method MMC , View object
+- View object MMC , DisplayScopeNodePropertySheet method
+- DisplayScopeNodePropertySheet method MMC , View interface
+- View interface MMC , DisplayScopeNodePropertySheet method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::DisplayScopeNodePropertySheet method
@@ -56,8 +64,8 @@ This method does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -72,9 +80,9 @@ This method does not return a value.
 [**View.DisplaySelectionPropertySheet**](view-displayselectionpropertysheet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Toolbar Extended Styles
 description: This section lists the extended styles supported by toolbar controls.
-ms.assetid: 'da31dbbf-8d0a-4711-a1af-382c62e653cd'
+ms.assetid: da31dbbf-8d0a-4711-a1af-382c62e653cd
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar Extended Styles
@@ -41,7 +46,7 @@ This section lists the extended styles supported by toolbar controls.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="TBSTYLE_EX_HIDECLIPPEDBUTTONS"></span><span id="tbstyle_ex_hideclippedbuttons"></span><dl> <dt><strong>TBSTYLE_EX_HIDECLIPPEDBUTTONS</strong></dt> </dl></td>
-<td style="text-align: left;">[Version 5.81](common-control-versions.md). This style hides partially clipped buttons. The most common use of this style is for toolbars that are part of a rebar control. If an adjacent band covers part of a button, the button will not be displayed. However, if the rebar band has the [<strong>RBBS_USECHEVRON</strong>](rebarbandinfo.md) style, the button will be displayed on the chevron's dropdown menu. <br/></td>
+<td style="text-align: left;">[Version 5.81](common-control-versions.md). This style hides partially clipped buttons. The most common use of this style is for toolbars that are part of a rebar control. If an adjacent band covers part of a button, the button will not be displayed. However, if the rebar band has the [<strong>RBBS_USECHEVRON</strong>](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) style, the button will be displayed on the chevron's dropdown menu. <br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="TBSTYLE_EX_DOUBLEBUFFER"></span><span id="tbstyle_ex_doublebuffer"></span><dl> <dt><strong>TBSTYLE_EX_DOUBLEBUFFER</strong></dt> </dl></td>
@@ -93,9 +98,9 @@ To set an extended style, send the toolbar control a [**TB\_SETEXTENDEDSTYLE**](
 
 
 
- 
+ 
 
- 
+ 
 
 
 

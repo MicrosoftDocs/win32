@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks ErrorDuplicateSubobject method
 description: Calls the duplicate subobject error callback of an object that implements this interface.
-ms.assetid: '625C72C4-7BFB-4DAD-8D39-EDDBC7189499'
-keywords: ["ErrorDuplicateSubobject method", "ErrorDuplicateSubobject method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, ErrorDuplicateSubobject method"]
+ms.assetid: 625C72C4-7BFB-4DAD-8D39-EDDBC7189499
+keywords:
+- ErrorDuplicateSubobject method
+- ErrorDuplicateSubobject method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, ErrorDuplicateSubobject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::ErrorDuplicateSubobject method
@@ -22,7 +30,7 @@ Calls the duplicate subobject error callback of an object that implements this i
 
 ```C++
 void ErrorDuplicateSubobject(
-   D3D12_PIPELINE_STATE_SUBOBJECT_TYPE DuplicateType
+   D3D12_PIPELINE_STATE_SUBOBJECT_TYPE DuplicateType
 );
 ```
 
@@ -70,9 +78,9 @@ Returns nothing.
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

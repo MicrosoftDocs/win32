@@ -1,8 +1,9 @@
 ---
 title: WcsTranslateColors function
 description: Translates an array of colors from the source color space to the destination color space as defined by a color transform.
-ms.assetid: 'e7053c70-5b32-4d33-983c-a4c9c14a0d1b'
-keywords: ["WcsTranslateColors function Windows Color System"]
+ms.assetid: e7053c70-5b32-4d33-983c-a4c9c14a0d1b
+keywords:
+- WcsTranslateColors function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsTranslateColors function
@@ -22,16 +28,16 @@ Translates an array of colors from the source color space to the destination col
 
 ```C++
 BOOL WINAPI WcsTranslateColors(
-  _In_  HTRANSFORM    hColorTransform,
-  _In_  DWORD         nColors,
-  _In_  DWORD         nInputChannels,
-  _In_  COLORDATATYPE cdtInput,
-  _In_  DWORD         cbInput,
-  _In_  PVOID         pInputData,
-  _In_  DWORD         nOutputChannels,
-  _In_  COLORDATATYPE cdtOutput,
-  _In_  DWORD         cbOutput,
-  _Out_ PVOID         pOutputData
+  _In_  HTRANSFORM    hColorTransform,
+  _In_  DWORD         nColors,
+  _In_  DWORD         nInputChannels,
+  _In_  COLORDATATYPE cdtInput,
+  _In_  DWORD         cbInput,
+  _In_  PVOID         pInputData,
+  _In_  DWORD         nOutputChannels,
+  _In_  COLORDATATYPE cdtOutput,
+  _In_  DWORD         cbOutput,
+  _Out_ PVOID         pOutputData
 );
 ```
 
@@ -127,8 +133,8 @@ If the input and the output color data types are not compatible with the color t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -148,9 +154,9 @@ If the input and the output color data types are not compatible with the color t
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

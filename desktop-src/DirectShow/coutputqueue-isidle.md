@@ -1,7 +1,12 @@
 ---
-Description: 'The IsIdle method determines whether the object is waiting for data.'
-ms.assetid: 'be1b5633-f9e9-497e-8b6f-5634eae91273'
-title: 'COutputQueue.IsIdle method'
+Description: The IsIdle method determines whether the object is waiting for data.
+ms.assetid: be1b5633-f9e9-497e-8b6f-5634eae91273
+title: COutputQueue.IsIdle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.IsIdle method
@@ -43,9 +48,9 @@ Returns **TRUE** if the thread is waiting and the sample array is empty. Otherwi
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

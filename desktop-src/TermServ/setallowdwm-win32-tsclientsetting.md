@@ -4,11 +4,14 @@ description: Sets the AllowDwm property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c70d3dc9-c109-4d77-be50-20a0352282d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c70d3dc9-c109-4d77-be50-20a0352282d6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetAllowDwm method Remote Desktop Services", "SetAllowDwm method Remote Desktop Services , Win32_TSClientSetting class", "Win32_TSClientSetting class Remote Desktop Services , SetAllowDwm method"]
+keywords:
+- SetAllowDwm method Remote Desktop Services
+- SetAllowDwm method Remote Desktop Services , Win32_TSClientSetting class
+- Win32_TSClientSetting class Remote Desktop Services , SetAllowDwm method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetAllowDwm method of the Win32\_TSClientSetting class
@@ -28,7 +34,7 @@ Sets the **AllowDwm** property.
 
 ```mof
 uint32 SetAllowDwm(
-  [in] uint32 AllowDwm
+  [in] uint32 AllowDwm
 );
 ```
 
@@ -56,9 +62,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | End of client support<br/>    | None supported<br/>                                                               |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -72,9 +78,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSClientSetting**](win32-tsclientsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

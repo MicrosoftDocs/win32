@@ -1,8 +1,33 @@
 ---
 title: Developing and Testing Applications with the Messenger Service APIs
 description: This topic provides basic information and requirements you need to develop, test, and deploy Messenger client applications that use the Messenger service APIs.
-ms.assetid: 'e38c6145-a617-4768-b9c8-1af725d1e00d'
-keywords: ["Windows Messenger,developing applications", "Windows Messenger,testing applications", "Windows Messenger,terminology", "Messenger client,terminology", "Messenger service,terminology", "Messenger Lock and Key,terminology", "Lock and Key,terminology", "Messenger Lock and Key,request", "Lock and Key,request", "Messenger client,challenge", "Messenger client,response", "Messenger Lock and Key,result", "Lock and Key,result", "Messenger Session Invite", "RSA-MD5 Message Digest Algorithm (MD5)", "MD5 (RSA-MD5 Message Digest Algorithm)", "Messenger client,ID", "Messenger service,key", "server cloud", "Microsoft .NET Messenger Service"]
+ms.assetid: e38c6145-a617-4768-b9c8-1af725d1e00d
+keywords:
+- Windows Messenger,developing applications
+- Windows Messenger,testing applications
+- Windows Messenger,terminology
+- Messenger client,terminology
+- Messenger service,terminology
+- Messenger Lock and Key,terminology
+- Lock and Key,terminology
+- Messenger Lock and Key,request
+- Lock and Key,request
+- Messenger client,challenge
+- Messenger client,response
+- Messenger Lock and Key,result
+- Lock and Key,result
+- Messenger Session Invite
+- RSA-MD5 Message Digest Algorithm (MD5)
+- MD5 (RSA-MD5 Message Digest Algorithm)
+- Messenger client,ID
+- Messenger service,key
+- server cloud
+- Microsoft .NET Messenger Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing and Testing Applications with the Messenger Service APIs

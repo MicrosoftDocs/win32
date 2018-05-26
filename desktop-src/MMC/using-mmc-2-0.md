@@ -4,11 +4,15 @@ description: The following topics provide information about using MMC 2.0.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd8be110d-d077-44eb-8e2b-bbd6c7fc31de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d8be110d-d077-44eb-8e2b-bbd6c7fc31de
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Management Console 2.0 MMC , tasks"]
+keywords:
+- Microsoft Management Console 2.0 MMC , tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using MMC 2.0

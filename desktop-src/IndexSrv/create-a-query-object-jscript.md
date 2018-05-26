@@ -1,7 +1,12 @@
 ---
 title: Create a Query Object
 description: Create a Query Object
-ms.assetid: '100d5ac7-2701-4dfd-a4eb-28003ab3771e'
+ms.assetid: 100d5ac7-2701-4dfd-a4eb-28003ab3771e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Query Object

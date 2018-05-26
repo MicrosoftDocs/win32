@@ -1,19 +1,24 @@
 ---
-Description: 'The CheckCapabilities method queries whether the stream has specified seeking capabilities. This method implements the IMediaSeeking::CheckCapabilities method.'
-ms.assetid: '5d37e179-9e04-44e1-acbc-dfd2682830c0'
-title: 'CSourceSeeking.CheckCapabilities method'
+Description: The CheckCapabilities method queries whether the stream has specified seeking capabilities. This method implements the IMediaSeekingCheckCapabilities method.
+ms.assetid: 5d37e179-9e04-44e1-acbc-dfd2682830c0
+title: CSourceSeeking.CheckCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.CheckCapabilities method
 
-The `CheckCapabilities` method queries whether the stream has specified seeking capabilities. This method implements the [**IMediaSeeking::CheckCapabilities**](imediaseeking-checkcapabilities.md) method.
+The `CheckCapabilities` method queries whether the stream has specified seeking capabilities. This method implements the [**IMediaSeeking::CheckCapabilities**](/windows/win32/Strmif/nf-strmif-imediaseeking-checkcapabilities?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT CheckCapabilities(
-   DWORD *pCapabilities
+   DWORD *pCapabilities
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT CheckCapabilities(
 *pCapabilities* 
 </dt> <dd>
 
-Pointer to a bitwise combination of one or more [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](am-seeking-seeking-capabilities.md) attributes.
+Pointer to a bitwise combination of one or more [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/win32/strmif/ne-strmif-am_seeking_seekingcapabilities?branch=master) attributes.
 
 </dd> </dl>
 
@@ -44,11 +49,11 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
-As implemented, this method checks the value of *\*pCapabilities* against the [**CSourceSeeking::m\_dwSeekingCaps**](csourceseeking-m-dwseekingcaps.md) member variable. However, it does not set *\*pCapabilities* equal to **m\_dwSeekingCaps**, as described for the [**IMediaSeeking::CheckCapabilities**](imediaseeking-checkcapabilities.md) method. Also, in the case where none of the specified capabilities are available, the method does not return E\_FAIL. A more complete implementation would be as follows:
+As implemented, this method checks the value of *\*pCapabilities* against the [**CSourceSeeking::m\_dwSeekingCaps**](csourceseeking-m-dwseekingcaps.md) member variable. However, it does not set *\*pCapabilities* equal to **m\_dwSeekingCaps**, as described for the [**IMediaSeeking::CheckCapabilities**](/windows/win32/Strmif/nf-strmif-imediaseeking-checkcapabilities?branch=master) method. Also, in the case where none of the specified capabilities are available, the method does not return E\_FAIL. A more complete implementation would be as follows:
 
 
 ```C++
@@ -99,9 +104,9 @@ STDMETHODIMP CheckCapabilities(DWORD *pCapabilities)
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

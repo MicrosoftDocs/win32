@@ -1,8 +1,19 @@
 ---
 title: Ripple Effects
 description: Ripple Effects
-ms.assetid: '23e559cf-0fb2-40a6-9f6a-8ef15d11a2fe'
-keywords: ["Windows Movie Maker,ripple effects", "Movie Maker,ripple effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "ripple effects", "effects,ripple"]
+ms.assetid: 23e559cf-0fb2-40a6-9f6a-8ef15d11a2fe
+keywords:
+- Windows Movie Maker,ripple effects
+- Movie Maker,ripple effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- ripple effects
+- effects,ripple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ripple Effects
@@ -55,7 +66,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Parameters
 
@@ -63,16 +74,16 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 | Parameter or element | Type   | Range/options | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------|--------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *WaveControls*       | float2 | 0.0 – 1.0     | Defines the oscillation of the wave.                                                                                                                                                                                                                                                                                                                                                                                  |
-| *WaveCenter*         | float2 | 0.0 – 1.0     | The image coordinates of the origin of the ripple waves.                                                                                                                                                                                                                                                                                                                                                              |
-| *Frequency*          | float  | 1.0 – 10.0    | The frequency of the ripple waves.                                                                                                                                                                                                                                                                                                                                                                                    |
-| *Speed*              | float  | 1.0 – 50.0    | The speed of the ripple waves.                                                                                                                                                                                                                                                                                                                                                                                        |
-| *Height*             | float  | 0.0 – 1.0     | The height of each ripple wave.                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Point**            | float  | 0.0 – 1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
+| *WaveControls*       | float2 | 0.0   1.0     | Defines the oscillation of the wave.                                                                                                                                                                                                                                                                                                                                                                                  |
+| *WaveCenter*         | float2 | 0.0   1.0     | The image coordinates of the origin of the ripple waves.                                                                                                                                                                                                                                                                                                                                                              |
+| *Frequency*          | float  | 1.0   10.0    | The frequency of the ripple waves.                                                                                                                                                                                                                                                                                                                                                                                    |
+| *Speed*              | float  | 1.0   50.0    | The speed of the ripple waves.                                                                                                                                                                                                                                                                                                                                                                                        |
+| *Height*             | float  | 0.0   1.0     | The height of each ripple wave.                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Point**            | float  | 0.0   1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
 
 
 
- 
+ 
 
 **Note** The "float2" type refers to a comma-delimited array of two floating point numbers. For instance, "(0.0,1.0)".
 
@@ -83,9 +94,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Effects**](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

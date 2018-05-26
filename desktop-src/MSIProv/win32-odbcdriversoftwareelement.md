@@ -1,8 +1,10 @@
 ---
 title: Win32\_ODBCDriverSoftwareElement class
 description: The Win32\_ODBCDriverSoftwareElement association WMI class relates a Win32\_ODBCDriverSpecification instance and a Win32\_SoftwareElement instance.
-ms.assetid: 'c45f7278-bebe-406c-a8a5-74b70e19b5e2'
-keywords: ["Win32_ODBCDriverSoftwareElement class", "Win32_ODBCDriverSoftwareElement class, described"]
+ms.assetid: c45f7278-bebe-406c-a8a5-74b70e19b5e2
+keywords:
+- Win32_ODBCDriverSoftwareElement class
+- Win32_ODBCDriverSoftwareElement class, described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ODBCDriverSoftwareElement class
@@ -23,7 +30,7 @@ The **Win32\_ODBCDriverSoftwareElement** association [WMI class](https://msdn.mi
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -34,8 +41,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ODBCDriverSoftwareElement : CIM_SoftwareElementChecks
 {
   Win32_ODBCDriverSpecification REF Check;
-  Win32_SoftwareElement         REF Element;
-  uint16                            Phase;
+  Win32_SoftwareElement         REF Element;
+  uint16                            Phase;
 };
 ```
 
@@ -103,7 +110,7 @@ Whether the referenced check is an in-state check or a next-state check.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -117,8 +124,8 @@ The **Win32\_ODBCDriverSoftwareElement** class is derived from [**CIM\_SoftwareE
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -132,9 +139,9 @@ The **Win32\_ODBCDriverSoftwareElement** class is derived from [**CIM\_SoftwareE
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

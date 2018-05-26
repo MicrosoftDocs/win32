@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object.'
-ms.assetid: '5b1cda1b-0313-4761-b8cb-c21eddd922d5'
-title: 'FaxDoc.FileName property'
+---
+Description: Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object.
+ms.assetid: 5b1cda1b-0313-4761-b8cb-c21eddd922d5
+title: FaxDoc.FileName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.FileName property
@@ -55,7 +60,7 @@ The **get\_FileName** method allocates the memory required for the buffer pointe
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

@@ -1,8 +1,9 @@
 ---
 title: New Trace Event Types
 description: These new types \ 0034;turn on \ 0034; stack tracing events in the STACK\_TRACING\_EVENT\_ID structure.\ define EVENT\_TRACE\_TYPE\_READYTHREAD 0x32This flag enables stack tracing for Ready Thread events.
-ms.assetid: '31e467d2-1d63-4a3d-b0d1-cff9f777e4b1'
-keywords: ["New Trace Event Types Windows Performance Analyzer"]
+ms.assetid: 31e467d2-1d63-4a3d-b0d1-cff9f777e4b1
+keywords:
+- New Trace Event Types Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - KernelTraceControl.dll.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Trace Event Types
@@ -68,9 +74,9 @@ These event types are similar to the event types used in the **EVENT\_TRACE\_PRO
 [EVENT\_INSTANCE\_HEADER](http://go.microsoft.com/fwlink/p/?linkid=141513)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

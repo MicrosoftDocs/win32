@@ -1,7 +1,12 @@
 ---
-Description: 'Deprecated. See D3DX10CompileFromFile.'
-ms.assetid: 'a55c7d83-2cac-4421-ac0e-880e1b97c0f8'
+Description: Deprecated. See D3DX10CompileFromFile.
+ms.assetid: a55c7d83-2cac-4421-ac0e-880e1b97c0f8
 title: D3DX10CompileEffectFromFile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CompileEffectFromFile

@@ -2,13 +2,19 @@
 title: small attribute
 description: The small keyword designates an 8-bit integer number.
 ms.assetid: 368e8836-1baa-4547-a62b-f34ac38bbdb2
-keywords: ["small attribute MIDL"]
+keywords:
+- small attribute MIDL
 topic_type:
 - apiref
 api_name:
 - small
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # small attribute

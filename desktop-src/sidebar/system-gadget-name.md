@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.name property
 description: Gets the gadget name as specified in the gadget manifest file.
-ms.assetid: '33932c9e-2806-4e65-8a68-27d058da10ef'
-keywords: ["name property Windows Sidebar", "name property Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , name property"]
+ms.assetid: 33932c9e-2806-4e65-8a68-27d058da10ef
+keywords:
+- name property Windows Sidebar
+- name property Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.name property
@@ -76,10 +84,10 @@ The following example demonstrates how to get the name of a gadget from the gadg
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -92,9 +100,9 @@ The following example demonstrates how to get the name of a gadget from the gadg
 [**System.Gadget**](system-gadget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

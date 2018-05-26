@@ -1,7 +1,12 @@
 ---
-Description: 'The SetTargetRect method sets the current target rectangle (pure virtual). This is an internal member function that gets called when the destination rectangle changes.'
-ms.assetid: '9e48989d-5995-4f9d-82b2-01229473c3e8'
-title: 'CBaseControlVideo.SetTargetRect method'
+Description: The SetTargetRect method sets the current target rectangle (pure virtual). This is an internal member function that gets called when the destination rectangle changes.
+ms.assetid: 9e48989d-5995-4f9d-82b2-01229473c3e8
+title: CBaseControlVideo.SetTargetRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.SetTargetRect method
@@ -13,7 +18,7 @@ The `SetTargetRect` method sets the current target rectangle (pure virtual). Thi
 
 ```C++
 virtual HRESULT SetTargetRect(
-   RECT *pTargetRect
+   RECT *pTargetRect
 ) = 0;
 ```
 
@@ -77,9 +82,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

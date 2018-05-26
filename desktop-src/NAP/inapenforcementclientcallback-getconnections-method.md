@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientCallback GetConnections method
 description: Is called by the NapAgent and implemented by the enforcement client to return a set of connections.
-ms.assetid: '8f697217-5799-48e4-9f0b-715f516e48d9'
-keywords: ["GetConnections method NAP", "GetConnections method NAP , INapEnforcementClientCallback interface", "INapEnforcementClientCallback interface NAP , GetConnections method"]
+ms.assetid: 8f697217-5799-48e4-9f0b-715f516e48d9
+keywords:
+- GetConnections method NAP
+- GetConnections method NAP , INapEnforcementClientCallback interface
+- INapEnforcementClientCallback interface NAP , GetConnections method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapEnforcementClient.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientCallback::GetConnections method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientCallback::GetConnections** callback method is called by the NapAgent and implemented by the enforcement client to return a set of connections.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientCallback::GetConnections** callback method is called 
 
 ```C++
 HRESULT GetConnections(
-  [out] Connections **connections
+  [out] Connections **connections
 );
 ```
 
@@ -57,7 +65,7 @@ This callback method must return one the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +73,8 @@ This callback method must return one the following error codes.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 
@@ -79,9 +87,9 @@ This callback method must return one the following error codes.
 [**INapEnforcementClientCallback**](inapenforcementclientcallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

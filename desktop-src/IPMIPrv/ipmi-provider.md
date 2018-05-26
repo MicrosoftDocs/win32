@@ -4,13 +4,19 @@ description: The Microsoft Intelligent Platform Management Interface (IPMI) driv
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ab475f1-8b5b-4725-a3bb-d58d4113a50d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4ab475f1-8b5b-4725-a3bb-d58d4113a50d
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IPMI provider", "IPMI provider Windows Management Instrumentation", "IPMI provider WS-Management"]
+keywords:
+- IPMI provider
+- IPMI provider Windows Management Instrumentation
+- IPMI provider WS-Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPMI Provider

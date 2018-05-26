@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to determine HomeGroup membership status, enumerate top-level items in the HomeGroup Shell folder, and launch the HomeGroup Sharing Wizard.'
+Description: Demonstrates how to determine HomeGroup membership status, enumerate top-level items in the HomeGroup Shell folder, and launch the HomeGroup Sharing Wizard.
 title: HomeGroup Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HomeGroup Sample
@@ -67,7 +72,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 
 <dl> <dt>
 
-[**IHomeGroup**](ihomegroup.md)
+[**IHomeGroup**](/windows/win32/shobjidl_core/nn-shobjidl_core-ihomegroup?branch=master)
 </dt> <dt>
 
 [**KNOWNFOLDERID**](knownfolderid.md)

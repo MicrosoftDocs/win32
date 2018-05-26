@@ -1,8 +1,23 @@
 ---
 title: Initializing the Page
 description: Initializing the Page
-ms.assetid: '66bd3810-01a3-4413-9dad-12cf71e72ed1'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player online stores,initializing pages", "online stores,initializing pages", "type 2 online stores,initializing pages", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "initializing pages"]
+ms.assetid: 66bd3810-01a3-4413-9dad-12cf71e72ed1
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player online stores,initializing pages
+- online stores,initializing pages
+- type 2 online stores,initializing pages
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- initializing pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing the Page

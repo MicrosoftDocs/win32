@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '35c9ac07-8756-42b1-beeb-5f0e79466742'
-title: 'CAMEvent.CAMEvent constructor'
+Description: Constructor method.
+ms.assetid: 35c9ac07-8756-42b1-beeb-5f0e79466742
+title: CAMEvent.CAMEvent constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent.CAMEvent constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CAMEvent(
-   BOOL    fManualReset,
-   HRESULT *phr
+   BOOL    fManualReset,
+   HRESULT *phr
 );
 ```
 
@@ -64,9 +69,9 @@ With an auto-reset event, the [**CAMEvent::Wait**](camevent-wait.md) method rese
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

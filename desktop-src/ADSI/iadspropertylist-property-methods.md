@@ -4,11 +4,12 @@ description: The property methods of the IADsPropertyList interface read the pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3564b61a-5950-4d00-8ea1-86fecd5c6c4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3564b61a-5950-4d00-8ea1-86fecd5c6c4e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPropertyList Property Methods ADSI"]
+keywords:
+- IADsPropertyList Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPropertyList Property Methods
 
-The property methods of the [**IADsPropertyList**](iadspropertylist.md) interface read the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master) interface read the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -54,7 +58,7 @@ HRESULT get_PropertyCount(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -134,8 +138,8 @@ int GetPropertyCacheCount(LPWSTR adsPath)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsPropertyList is defined as C6F602B6-8F69-11D0-8528-00C04FD8D503<br/>     |
@@ -146,15 +150,15 @@ int GetPropertyCacheCount(LPWSTR adsPath)
 
 <dl> <dt>
 
-[**IADsPropertyList**](iadspropertylist.md)
+[**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

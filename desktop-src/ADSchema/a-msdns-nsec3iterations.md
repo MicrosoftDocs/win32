@@ -4,17 +4,22 @@ description: An attribute that defines how many NSEC3 hash iterations to perform
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9744715c-d454-422b-b9d7-6c656525d1df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9744715c-d454-422b-b9d7-6c656525d1df
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-NSEC3-Iterations attribute AD Schema", "msDNS-NSEC3Iterations attribute AD Schema"]
+keywords:
+- ms-DNS-NSEC3-Iterations attribute AD Schema
+- msDNS-NSEC3Iterations attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-NSEC3-Iterations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-NSEC3-Iterations attribute
@@ -38,7 +43,7 @@ An attribute that defines how many NSEC3 hash iterations to perform when signing
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that defines how many NSEC3 hash iterations to perform when signing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

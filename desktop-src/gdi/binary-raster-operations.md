@@ -1,12 +1,17 @@
 ---
-Description: 'This section lists the binary raster-operation codes used by the GetROP2 and SetROP2 functions. Raster-operation codes define how GDI combines the bits from the selected pen with the bits in the destination bitmap.'
-ms.assetid: '9a3a5b5d-b41f-4859-8830-98272983a635'
+Description: This section lists the binary raster-operation codes used by the GetROP2 and SetROP2 functions. Raster-operation codes define how GDI combines the bits from the selected pen with the bits in the destination bitmap.
+ms.assetid: 9a3a5b5d-b41f-4859-8830-98272983a635
 title: Binary Raster Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binary Raster Operations
 
-This section lists the binary raster-operation codes used by the [**GetROP2**](getrop2.md) and [**SetROP2**](setrop2.md) functions. Raster-operation codes define how GDI combines the bits from the selected pen with the bits in the destination bitmap.
+This section lists the binary raster-operation codes used by the [**GetROP2**](/windows/win32/Wingdi/nf-wingdi-getrop2?branch=master) and [**SetROP2**](/windows/win32/Wingdi/nf-wingdi-setrop2?branch=master) functions. Raster-operation codes define how GDI combines the bits from the selected pen with the bits in the destination bitmap.
 
 Each raster-operation code represents a Boolean operation in which the values of the pixels in the selected pen and the destination bitmap are combined. The following are the two operands used in these operations.
 

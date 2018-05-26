@@ -2,13 +2,15 @@
 title: DnsServerMasterStatistics class
 description: Represents DNS server statistics related to overall DNS protocol processing.
 audience: developer
-ms.assetid: '5f1911a8-2c97-4ede-a303-ed5f08d34be2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5f1911a8-2c97-4ede-a303-ed5f08d34be2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerMasterStatistics class", "DnsServerMasterStatistics class, described"]
+keywords:
+- DnsServerMasterStatistics class
+- DnsServerMasterStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -44,6 +46,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerMasterStatistics class
@@ -458,7 +463,7 @@ The number of full zone transfer requests received by the server for stub zones.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -472,9 +477,9 @@ The number of full zone transfer requests received by the server for stub zones.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

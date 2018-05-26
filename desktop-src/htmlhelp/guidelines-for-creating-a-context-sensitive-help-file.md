@@ -1,7 +1,12 @@
 ---
 title: Guidelines for Creating a Context-Sensitive Help File
 description: Guidelines for Creating a Context-Sensitive Help File
-ms.assetid: '26000CD1-47EE-42ee-9BC3-BB2848753A8A'
+ms.assetid: 26000CD1-47EE-42ee-9BC3-BB2848753A8A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Creating a Context-Sensitive Help File

@@ -1,8 +1,11 @@
 ---
 title: DVD.resume method
 description: The resume method returns to playback mode from menu mode at the same title position as when the menu was invoked.
-ms.assetid: 'ba8b3c05-d33b-41b3-b5dd-a693a7b1fb4b'
-keywords: ["resume method Windows Media Player", "resume method Windows Media Player , DVD class", "DVD class Windows Media Player , resume method"]
+ms.assetid: ba8b3c05-d33b-41b3-b5dd-a693a7b1fb4b
+keywords:
+- resume method Windows Media Player
+- resume method Windows Media Player , DVD class
+- DVD class Windows Media Player , resume method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD.resume method
@@ -44,8 +52,8 @@ This method does not return a value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player for Windows XP or later.<br/>                           |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -58,9 +66,9 @@ This method does not return a value.
 [**DVD Object**](dvd-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

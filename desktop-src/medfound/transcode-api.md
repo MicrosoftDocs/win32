@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes how to use the transcode API to re-encode media files. The transcode API was introduced in Windows 7.'
-ms.assetid: '54733364-f10c-4c1d-9800-75e283ba4be4'
+---
+Description: This section describes how to use the transcode API to re-encode media files. The transcode API was introduced in Windows 7.
+ms.assetid: 54733364-f10c-4c1d-9800-75e283ba4be4
 title: Transcode API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transcode API

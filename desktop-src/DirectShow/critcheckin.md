@@ -1,7 +1,12 @@
 ---
-Description: 'Returns TRUE if the current thread is the owner of the specified critical section.'
-ms.assetid: '96158f08-07a0-42a9-b173-0a05456a5f3a'
+Description: Returns TRUE if the current thread is the owner of the specified critical section.
+ms.assetid: 96158f08-07a0-42a9-b173-0a05456a5f3a
 title: CritCheckIn function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CritCheckIn function
@@ -13,7 +18,7 @@ Returns **TRUE** if the current thread is the owner of the specified critical se
 
 ```C++
 BOOL WINAPI CritCheckIn(
-   CCritSec *pcCrit
+   CCritSec *pcCrit
 );
 ```
 
@@ -77,9 +82,9 @@ The following code example shows how to use this function:
 [Critical Section Debugging Functions](critical-section-debugging-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

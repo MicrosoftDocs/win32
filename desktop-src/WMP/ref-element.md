@@ -1,14 +1,20 @@
 ---
 title: REF Element
 description: The REF element specifies a URL for digital media content.
-ms.assetid: 'ba39db39-fa90-455b-b278-ca866ce0b69c'
-keywords: ["REF Element Windows Media Player"]
+ms.assetid: ba39db39-fa90-455b-b278-ca866ce0b69c
+keywords:
+- REF Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - REF Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REF Element
@@ -39,7 +45,7 @@ URL to any piece of media content supported by Windows Media Player.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,9 +105,9 @@ Attempting to play Flash media that includes sound with the first frame may yiel
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

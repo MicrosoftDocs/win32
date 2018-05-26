@@ -1,8 +1,18 @@
 ---
 title: Enumeration Types
 description: Enumeration Types
-ms.assetid: 'ebaadff4-45f8-464c-9ce3-6d29cfdbc599'
-keywords: ["Windows Movie Maker,enumerations", "Movie Maker,enumerations", "programming reference,Windows Movie Maker enumerations", "reference for Windows Movie Maker,enumerations", "transforms,enumerations"]
+ms.assetid: ebaadff4-45f8-464c-9ce3-6d29cfdbc599
+keywords:
+- Windows Movie Maker,enumerations
+- Movie Maker,enumerations
+- programming reference,Windows Movie Maker enumerations
+- reference for Windows Movie Maker,enumerations
+- transforms,enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumeration Types

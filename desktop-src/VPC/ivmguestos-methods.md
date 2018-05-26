@@ -1,7 +1,12 @@
 ---
 title: IVMGuestOS Methods
 description: The IVMGuestOS interface exposes the following methods.
-ms.assetid: '7A361658-E3AF-4624-97E1-7476BB2379FF'
+ms.assetid: 7A361658-E3AF-4624-97E1-7476BB2379FF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS Methods

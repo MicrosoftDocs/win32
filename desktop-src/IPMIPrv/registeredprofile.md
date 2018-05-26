@@ -4,13 +4,15 @@ description: Represents a registered profile, which manages use cases for a syst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9D8852F1-FD0F-4507-A451-30F0D7D3090A'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9D8852F1-FD0F-4507-A451-30F0D7D3090A
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RegisteredProfile class", "RegisteredProfile class, described"]
+keywords:
+- RegisteredProfile class
+- RegisteredProfile class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RegisteredProfile class
@@ -426,8 +431,8 @@ This property is inherited from [**CIM\_RegisteredProfile**](cim-registeredprofi
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -444,9 +449,9 @@ This property is inherited from [**CIM\_RegisteredProfile**](cim-registeredprofi
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

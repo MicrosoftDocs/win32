@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowProvider class
 description: The Win32\_ShadowProvider class represents a component that is a combination of user-mode and kernel or firmware implementation, that creates and represents volume shadow copies.
-ms.assetid: 'c556b472-0f8f-47e0-8d17-c30982be3671'
-keywords: ["Win32_ShadowProvider class", "Win32_ShadowProvider class, described"]
+ms.assetid: c556b472-0f8f-47e0-8d17-c30982be3671
+keywords:
+- Win32_ShadowProvider class
+- Win32_ShadowProvider class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowProvider class
@@ -114,7 +121,7 @@ Possible values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -155,7 +162,7 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -190,9 +197,9 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

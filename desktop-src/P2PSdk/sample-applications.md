@@ -1,7 +1,12 @@
 ---
-Description: 'The following sample applications are included in the Windows XP Peer SDK.'
-ms.assetid: '26c45360-f232-4e29-90b5-44ccacb5a9c3'
+Description: The following sample applications are included in the Windows XP Peer SDK.
+ms.assetid: 26c45360-f232-4e29-90b5-44ccacb5a9c3
 title: Sample Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Applications

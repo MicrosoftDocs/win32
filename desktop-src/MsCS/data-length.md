@@ -4,11 +4,15 @@ description: The Length member of a data structure describes the actual byte siz
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ee1ddf12-26b7-474c-89c3-64dc5727a3e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ee1ddf12-26b7-474c-89c3-64dc5727a3e7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["data Failover Cluster ,structures,Length member Failover Cluster"]
+keywords:
+- data Failover Cluster ,structures,Length member Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Length

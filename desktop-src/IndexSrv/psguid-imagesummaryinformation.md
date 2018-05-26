@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_IMAGESUMMARYINFORMATION
 description: PSGUID\_IMAGESUMMARYINFORMATION
-ms.assetid: '5ad7c1be-affa-4e6d-a4f4-eaa38041346e'
-keywords: ["PSGUID_IMAGESUMMARYINFORMATION"]
+ms.assetid: 5ad7c1be-affa-4e6d-a4f4-eaa38041346e
+keywords:
+- PSGUID_IMAGESUMMARYINFORMATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_IMAGESUMMARYINFORMATION

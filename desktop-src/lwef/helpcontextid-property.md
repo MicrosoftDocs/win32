@@ -1,7 +1,12 @@
 ---
 title: HelpContextID Property
 description: HelpContextID Property
-ms.assetid: '8b8ac1c6-1a34-45f1-a0a6-2ae14ad6adef'
+ms.assetid: 8b8ac1c6-1a34-45f1-a0a6-2ae14ad6adef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HelpContextID Property

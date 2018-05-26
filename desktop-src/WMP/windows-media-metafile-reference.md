@@ -1,8 +1,16 @@
 ---
 title: Windows Media Metafile Reference
 description: Windows Media Metafile Reference
-ms.assetid: '03dadba3-0143-46f0-990a-108196eb58ab'
-keywords: ["Windows Media metafiles,reference", "metafiles,reference", "reference for Windows Media metafiles"]
+ms.assetid: 03dadba3-0143-46f0-990a-108196eb58ab
+keywords:
+- Windows Media metafiles,reference
+- metafiles,reference
+- reference for Windows Media metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Metafile Reference

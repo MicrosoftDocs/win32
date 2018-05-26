@@ -1,7 +1,12 @@
 ---
-Description: 'The Start method starts a capture.'
-ms.assetid: '8bf8c0c7-20be-4404-8ea5-b28b4c658523'
-title: 'IESP::Start method'
+Description: The Start method starts a capture.
+ms.assetid: 8bf8c0c7-20be-4404-8ea5-b28b4c658523
+title: IESPStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::Start method
@@ -13,7 +18,7 @@ The **Start** method starts a capture.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Start(
-  [out] char *pFileName
+  [out] char *pFileName
 );
 ```
 
@@ -47,7 +52,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +63,7 @@ When you restart the capture by using the IESP::Start and [IESP::Stop](iesp-stop
 > [!Note]  
 > You can also start and stop the capture by using the [IESP::Pause](iesp-pause.md) and [IESP::Resume](iesp-resume.md) methods. When these two methods are used, the captured data is stored in the same capture file.
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +71,8 @@ When you restart the capture by using the IESP::Start and [IESP::Stop](iesp-stop
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -95,9 +100,9 @@ When you restart the capture by using the IESP::Start and [IESP::Stop](iesp-stop
 [IESP::Stop](iesp-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

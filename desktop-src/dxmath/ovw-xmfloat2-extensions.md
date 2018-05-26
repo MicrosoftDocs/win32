@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMFLOAT2 describes a 2D vector consisting of two single-precision floating-point values.'
-ms.assetid: '6d3f0a7a-051b-4057-9ca8-87e4d9f2524d'
+---
+Description: XMFLOAT2 describes a 2D vector consisting of two single-precision floating-point values.
+ms.assetid: 6d3f0a7a-051b-4057-9ca8-87e4d9f2524d
 title: XMFLOAT2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMFLOAT2 Extensions
 
-[**XMFLOAT2**](xmfloat2.md) describes a 2D vector consisting of two single-precision floating-point values.
+[**XMFLOAT2**](/windows/win32/DirectXMath/?branch=master) describes a 2D vector consisting of two single-precision floating-point values.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMFLOAT2 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT2**](xmfloat2.md)
+[**XMFLOAT2**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

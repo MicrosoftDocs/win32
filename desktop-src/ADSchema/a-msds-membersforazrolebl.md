@@ -4,17 +4,22 @@ description: Backward link from member application group or user to Az-Role obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dcee8af0-6055-4569-a25e-d49e5ec02fee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dcee8af0-6055-4569-a25e-d49e5ec02fee
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Members-For-Az-Role-BL attribute AD Schema", "msDS-MembersForAzRoleBL attribute AD Schema"]
+keywords:
+- ms-DS-Members-For-Az-Role-BL attribute AD Schema
+- msDS-MembersForAzRoleBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Members-For-Az-Role-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Members-For-Az-Role-BL attribute
@@ -38,11 +43,11 @@ Backward link from member application group or user to Az-Role objects linking t
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Backward link from member application group or user to Az-Role objects linking t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

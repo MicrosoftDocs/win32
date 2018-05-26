@@ -1,8 +1,23 @@
 ---
 title: Playing MIDI Files
 description: Playing MIDI Files
-ms.assetid: '884e9299-e2e4-4f0f-be2b-8647151fd9ae'
-keywords: ["Windows multimedia,playing MIDI files", "multimedia,playing MIDI files", "multimedia audio,playing MIDI files", "audio,playing MIDI files", "Musical Instrument Digital Interface (MIDI),playing files", "MIDI (Musical Instrument Digital Interface),playing files", "playing MIDI files,about", "MCI MIDI sequencer,playing files", "MIDI services,playing files", "stream buffers,playing MIDI files"]
+ms.assetid: 884e9299-e2e4-4f0f-be2b-8647151fd9ae
+keywords:
+- Windows multimedia,playing MIDI files
+- multimedia,playing MIDI files
+- multimedia audio,playing MIDI files
+- audio,playing MIDI files
+- Musical Instrument Digital Interface (MIDI),playing files
+- MIDI (Musical Instrument Digital Interface),playing files
+- playing MIDI files,about
+- MCI MIDI sequencer,playing files
+- MIDI services,playing files
+- stream buffers,playing MIDI files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing MIDI Files

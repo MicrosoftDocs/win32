@@ -4,17 +4,22 @@ description: The number assigned to an employee other than the ID.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '30ad1570-d833-48d0-b2aa-9447bcd33b92'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 30ad1570-d833-48d0-b2aa-9447bcd33b92
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Employee-Number attribute AD Schema", "employeeNumber attribute AD Schema"]
+keywords:
+- Employee-Number attribute AD Schema
+- employeeNumber attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Employee-Number
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Employee-Number attribute

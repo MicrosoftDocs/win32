@@ -1,7 +1,12 @@
 ---
-Description: 'Device messages are system messages that notify applications and other features of device change events.'
-ms.assetid: '4d1ace87-2d02-4ba4-9bcc-da86cf3481db'
+Description: Device messages are system messages that notify applications and other features of device change events.
+ms.assetid: 4d1ace87-2d02-4ba4-9bcc-da86cf3481db
 title: Device Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Messages

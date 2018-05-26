@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_DB Constants
 description: Specify the database to be used for a system pool.
-ms.assetid: '2cffa455-5834-4a35-b8d8-f9d1feddcaa1'
+ms.assetid: 2cffa455-5834-4a35-b8d8-f9d1feddcaa1
 topic_type:
 - apiref
 api_name:
@@ -12,11 +12,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_DB Constants
 
-The following constants can be used when calling [**WinBioOpenSession**](winbioopensession.md) to specify the database to be used for a system pool.
+The following constants can be used when calling [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to specify the database to be used for a system pool.
 
 
 
@@ -34,8 +39,8 @@ The following constants can be used when calling [**WinBioOpenSession**](winbioo
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -47,9 +52,9 @@ The following constants can be used when calling [**WinBioOpenSession**](winbioo
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

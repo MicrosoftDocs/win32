@@ -1,8 +1,10 @@
 ---
 title: DRM\_LICENSE\_STATE\_CATEGORY enumeration
 description: The DRM\_LICENSE\_STATE\_CATEGORY enumeration type defines the categories for DRM license strings that are displayed to the user.
-ms.assetid: '51258be9-2f4d-4f25-97f7-2cac6c155ade'
-keywords: ["DRM_LICENSE_STATE_CATEGORY enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: 51258be9-2f4d-4f25-97f7-2cac6c155ade
+keywords:
+- DRM_LICENSE_STATE_CATEGORY enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_LICENSE\_STATE\_CATEGORY enumeration
@@ -22,7 +29,7 @@ The **DRM\_LICENSE\_STATE\_CATEGORY** enumeration type defines the categories fo
 
 ```C++
 typedef enum DRM_LICENSE_STATE_CATEGORY { 
-  WM_DRM_LICENSE_STATE_NORIGHT                    = 0,
+  WM_DRM_LICENSE_STATE_NORIGHT                    = 0,
   WM_DRM_LICENSE_STATE_UNLIM,
   WM_DRM_LICENSE_STATE_COUNT,
   WM_DRM_LICENSE_STATE_FROM,
@@ -121,8 +128,8 @@ This enumeration indicates the category for each possible output string to be di
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
 | Version<br/>                  | Windows Media Format 7 SDK, or later versions of the SDK<br/>                       |
 | Header<br/>                   | <dl> <dt>Drmexternals.h</dt> </dl> |
 
@@ -135,9 +142,9 @@ This enumeration indicates the category for each possible output string to be di
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

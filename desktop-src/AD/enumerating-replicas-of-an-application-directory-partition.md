@@ -4,11 +4,16 @@ description: This topic shows how to enumerate the replicas for an application d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a1d6865b-ec77-4687-9da7-7fc717568bda'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a1d6865b-ec77-4687-9da7-7fc717568bda
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Enumerating Replicas of an Application Directory Partition AD", "Application Directory Partitions AD , Enumerating Replicas of"]
+keywords:
+- Enumerating Replicas of an Application Directory Partition AD
+- Application Directory Partitions AD , Enumerating Replicas of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Replicas of an Application Directory Partition

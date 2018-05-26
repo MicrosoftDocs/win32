@@ -1,14 +1,20 @@
 ---
 title: def pragma Directive
 description: Pragma directive that manually allocates a floating-point shader register.
-ms.assetid: '45db94c4-f6f6-4c88-9bf2-4eaa9abf7844'
-keywords: ["def pragma Directive HLSL"]
+ms.assetid: 45db94c4-f6f6-4c88-9bf2-4eaa9abf7844
+keywords:
+- def pragma Directive HLSL
 topic_type:
 - apiref
 api_name:
 - def pragma Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # def pragma Directive
@@ -22,7 +28,7 @@ Pragma directive that manually allocates a floating-point shader register.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -39,7 +45,7 @@ Pragma directive that manually allocates a floating-point shader register.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ The def pragma allows a developer to prefill a floating-point shader register wi
 [\#pragma Directive (DirectX HLSL)](dx-graphics-hlsl-appendix-pre-pragma.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

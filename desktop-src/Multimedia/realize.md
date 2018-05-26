@@ -1,21 +1,27 @@
 ---
 title: realize command
 description: The realize command instructs a device to select and realize its palette into the display context of the displayed window. Digital-video devices recognize this command.
-ms.assetid: '4723c8a4-36af-4543-b6df-d51f68a3e94d'
-keywords: ["realize command Windows Multimedia"]
+ms.assetid: 4723c8a4-36af-4543-b6df-d51f68a3e94d
+keywords:
+- realize command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - realize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # realize command
 
 The realize command instructs a device to select and realize its palette into the display context of the displayed window. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,8 +91,8 @@ realize myvideo normal
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -100,9 +106,9 @@ realize myvideo normal
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

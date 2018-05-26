@@ -1,8 +1,21 @@
 ---
 title: Querying MIDI Output Devices
 description: Querying MIDI Output Devices
-ms.assetid: 'c6a33a4e-c61a-4e06-805e-5128a97f5199'
-keywords: ["Musical Instrument Digital Interface (MIDI),output devices", "MIDI (Musical Instrument Digital Interface),output devices", "playing MIDI files,output devices", "MIDI output devices", "Musical Instrument Digital Interface (MIDI),querying output devices", "MIDI (Musical Instrument Digital Interface),querying output devices", "playing MIDI files,querying output devices", "querying MIDI output devices"]
+ms.assetid: c6a33a4e-c61a-4e06-805e-5128a97f5199
+keywords:
+- Musical Instrument Digital Interface (MIDI),output devices
+- MIDI (Musical Instrument Digital Interface),output devices
+- playing MIDI files,output devices
+- MIDI output devices
+- Musical Instrument Digital Interface (MIDI),querying output devices
+- MIDI (Musical Instrument Digital Interface),querying output devices
+- playing MIDI files,querying output devices
+- querying MIDI output devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying MIDI Output Devices

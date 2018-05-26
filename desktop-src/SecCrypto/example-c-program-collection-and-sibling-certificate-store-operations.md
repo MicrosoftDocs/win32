@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates the concept of the collection store, a temporary certificate store that actually includes the contents of several certificate stores.'
-ms.assetid: '5349222f-ad68-477c-8712-fde16e68f600'
-title: 'Example C Program: Collection and Sibling Certificate Store Operations'
+Description: The following example demonstrates the concept of the collection store, a temporary certificate store that actually includes the contents of several certificate stores.
+ms.assetid: 5349222f-ad68-477c-8712-fde16e68f600
+title: Example C Program Collection and Sibling Certificate Store Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Collection and Sibling Certificate Store Operations
@@ -10,14 +15,14 @@ The following example demonstrates the concept of the collection store, a tempor
 
 This example illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Opening and closing a collection store, a memory store and a system store using [**CertOpenStore**](certopenstore.md) and [**CertCloseStore**](certclosestore.md).
--   Adding a sibling store to a collection store using [**CertAddStoreToCollection**](certaddstoretocollection.md).
--   Finding certificates and links to certificates in stores that meets some criteria using [**CertFindCertificateInStore**](certfindcertificateinstore.md).
--   Adding a retrieved certificate to a store in memory using [**CertAddCertificateContextToStore**](certaddcertificatecontexttostore.md).
--   Adding a link to a certificate to a store using [**CertAddCertificateLinkToStore**](certaddcertificatelinktostore.md).
+-   Opening and closing a collection store, a memory store and a system store using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master) and [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master).
+-   Adding a sibling store to a collection store using [**CertAddStoreToCollection**](/windows/win32/Wincrypt/nf-wincrypt-certaddstoretocollection?branch=master).
+-   Finding certificates and links to certificates in stores that meets some criteria using [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master).
+-   Adding a retrieved certificate to a store in memory using [**CertAddCertificateContextToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcertificatecontexttostore?branch=master).
+-   Adding a link to a certificate to a store using [**CertAddCertificateLinkToStore**](/windows/win32/Wincrypt/nf-wincrypt-certaddcertificatelinktostore?branch=master).
 -   Saving the store in memory to a file on disk.
 -   Opening and closing a file-based certificate store.
--   Removing a sibling store from a collection using [**CertRemoveStoreFromCollection**](certremovestorefromcollection.md).
+-   Removing a sibling store from a collection using [**CertRemoveStoreFromCollection**](/windows/win32/Wincrypt/nf-wincrypt-certremovestorefromcollection?branch=master).
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

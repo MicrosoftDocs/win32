@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays the Find Printer dialog box.'
-ms.assetid: '61C700CF-623B-4c99-A211-AC26A1E4AE85'
-title: 'Shell.FindPrinter method'
+---
+Description: Displays the Find Printer dialog box.
+ms.assetid: 61C700CF-623B-4c99-A211-AC26A1E4AE85
+title: Shell.FindPrinter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.FindPrinter method

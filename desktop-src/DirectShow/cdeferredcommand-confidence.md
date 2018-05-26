@@ -1,7 +1,12 @@
 ---
-Description: 'This method is not currently implemented and returns E\_NOTIMPL.'
-ms.assetid: '1004d7e1-d1e9-4217-bbbb-a25f46c7112f'
-title: 'CDeferredCommand.Confidence method'
+Description: This method is not currently implemented and returns E\_NOTIMPL.
+ms.assetid: 1004d7e1-d1e9-4217-bbbb-a25f46c7112f
+title: CDeferredCommand.Confidence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.Confidence method
@@ -13,7 +18,7 @@ This method is not currently implemented and returns E\_NOTIMPL.
 
 ```C++
 HRESULT Confidence(
-   LONG *pConfidence
+   LONG *pConfidence
 );
 ```
 
@@ -36,7 +41,7 @@ Returns E\_NOTIMPL.
 
 ## Remarks
 
-For information about implementing this method, see [**IDeferredCommand::Confidence**](ideferredcommand-confidence.md).
+For information about implementing this method, see [**IDeferredCommand::Confidence**](/windows/win32/Control/nf-control-ideferredcommand-confidence?branch=master).
 
 ## Requirements
 
@@ -56,9 +61,9 @@ For information about implementing this method, see [**IDeferredCommand::Confide
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

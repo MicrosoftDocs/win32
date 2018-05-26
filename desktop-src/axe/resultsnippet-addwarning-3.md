@@ -1,8 +1,11 @@
 ---
 title: ResultSnippet AddWarning method
 description: Creates an ErrorWarning object for use by the ResultSnippet object.
-ms.assetid: 'E02CED38-9937-4B70-B8F4-00ED08E3CACD'
-keywords: ["AddWarning method Access Execution Engine", "AddWarning method Access Execution Engine , ResultSnippet interface", "ResultSnippet interface Access Execution Engine , AddWarning method"]
+ms.assetid: E02CED38-9937-4B70-B8F4-00ED08E3CACD
+keywords:
+- AddWarning method Access Execution Engine
+- AddWarning method Access Execution Engine , ResultSnippet interface
+- ResultSnippet interface Access Execution Engine , AddWarning method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultSnippet::AddWarning method
@@ -22,8 +30,8 @@ Creates an [**ErrorWarning**](errorwarning.md) object for use by the [**ResultSn
 
 ```C++
 virtual HRESULT AddWarning(
-  [in] INT     hresult,
-  [in] LPCWSTR message
+  [in] INT     hresult,
+  [in] LPCWSTR message
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -71,9 +79,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**ResultSnippet**](resultsnippet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Distribution API, which supports the Branch Cache feature in Windows 7 and Windows Server 2008 R2, offers a set of platform APIs that can increase network responsiveness of centralized applications when accessed from remote offices, giving users in those offices the experience of working on your local area network. The capabilities offered by this set of APIs can also help in reducing overall wide area network (WAN) utilization.'
-ms.assetid: 'feb9666e-563a-49f4-ad1c-f166a0faff31'
+Description: The Peer Distribution API, which supports the Branch Cache feature in Windows 7 and Windows Server 2008 R2, offers a set of platform APIs that can increase network responsiveness of centralized applications when accessed from remote offices, giving users in those offices the experience of working on your local area network. The capabilities offered by this set of APIs can also help in reducing overall wide area network (WAN) utilization.
+ms.assetid: feb9666e-563a-49f4-ad1c-f166a0faff31
 title: Peer Distribution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer Distribution

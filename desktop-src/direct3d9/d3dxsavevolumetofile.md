@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a volume to a file on disk.'
-ms.assetid: '4d33fba5-e003-4385-b683-aff6723af2a5'
+---
+Description: Saves a volume to a file on disk.
+ms.assetid: 4d33fba5-e003-4385-b683-aff6723af2a5
 title: D3DXSaveVolumeToFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSaveVolumeToFile function
@@ -48,18 +53,18 @@ Type: **[**D3DXIMAGE\_FILEFORMAT**](direct3d9.d3dximage_fileformat)**
 *pSrcVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](idirect3dvolume9.md)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolume9?branch=master)**
 
-Pointer to [**IDirect3DVolume9**](idirect3dvolume9.md) interface containing the image to be saved.
+Pointer to [**IDirect3DVolume9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolume9?branch=master) interface containing the image to be saved.
 
 </dd> <dt>
 
 *pSrcPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure containing a palette of 256 colors. This parameter can be **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure containing a palette of 256 colors. This parameter can be **NULL**.
 
 </dd> <dt>
 

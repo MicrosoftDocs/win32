@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents the system driver for a base service.'
+---
+Description: Represents the system driver for a base service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '67dc6e14-c8c1-4168-8f99-b04c6ecd4ad2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 67dc6e14-c8c1-4168-8f99-b04c6ecd4ad2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SystemDriver class'
+title: Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SystemDriver class

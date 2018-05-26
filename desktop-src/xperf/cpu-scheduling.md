@@ -1,8 +1,14 @@
 ---
 title: CPU Scheduling
 description: CPU Scheduling
-ms.assetid: 'd45336c7-97e3-4d02-a075-335911dd9a93'
-keywords: ["event graph"]
+ms.assetid: d45336c7-97e3-4d02-a075-335911dd9a93
+keywords:
+- event graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Scheduling

@@ -1,8 +1,9 @@
 ---
 title: BG\_JOB\_PROGRESS structure
 description: The BG\_JOB\_PROGRESS structure provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file.
-ms.assetid: 'F07BBDDE-FD34-4779-9E17-3789A8098616'
-keywords: ["BG_JOB_PROGRESS structure"]
+ms.assetid: F07BBDDE-FD34-4779-9E17-3789A8098616
+keywords:
+- BG_JOB_PROGRESS structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_JOB\_PROGRESS structure
@@ -24,8 +30,8 @@ The **BG\_JOB\_PROGRESS** structure provides job-related progress information, s
 typedef struct _BG_JOB_PROGRESS {
   UINT64 BytesTotal;
   UINT64 BytesTransferred;
-  ULONG  FilesTotal;
-  ULONG  FilesTransferred;
+  ULONG  FilesTotal;
+  ULONG  FilesTransferred;
 } BG_JOB_PROGRESS;
 ```
 
@@ -71,7 +77,7 @@ Number of files transferred.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -87,9 +93,9 @@ Number of files transferred.
 [**IBackgroundCopyJob::GetProgress**](ibackgroundcopyjob-getprogress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

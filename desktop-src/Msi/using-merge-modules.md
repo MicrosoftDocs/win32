@@ -1,7 +1,12 @@
 ---
-Description: 'These sections describe using Merge modules.'
-ms.assetid: '0890565d-21bb-4b3f-852c-e148d0d0ff1d'
+Description: These sections describe using Merge modules.
+ms.assetid: 0890565d-21bb-4b3f-852c-e148d0d0ff1d
 title: Using Merge Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Merge Modules

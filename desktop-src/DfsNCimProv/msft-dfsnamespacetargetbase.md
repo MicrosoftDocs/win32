@@ -4,13 +4,15 @@ description: Represents the target of a DFS namespace (DFS-N) root or link.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b6687ce-f6a9-4673-9dc8-2ce3909dbcb7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8b6687ce-f6a9-4673-9dc8-2ce3909dbcb7
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsNamespaceTargetBase class", "MSFT_DfsNamespaceTargetBase class, described"]
+keywords:
+- MSFT_DfsNamespaceTargetBase class
+- MSFT_DfsNamespaceTargetBase class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsNamespaceTargetBase class
@@ -83,7 +88,7 @@ A DFS-N root or a DFS-N link can have one of the following UNC path formats:
 
 
 
- 
+ 
 
 where:
 
@@ -258,16 +263,16 @@ The DFS-N link target has a format of \\\\*HostName*\\*SharedName*\[\\*ObjectNam
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Structures
 description: This section describes the structures provided by the Microsoft DirectComposition \ 32;API.
-ms.assetid: '5BFF3D10-6241-4A68-92BD-FE736D9F6670'
+ms.assetid: 5BFF3D10-6241-4A68-92BD-FE736D9F6670
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures
@@ -14,11 +19,11 @@ This section describes the structures provided by the Microsoft DirectCompositio
 
 | Topic                                                                               | Description                                                         |
 |-------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| [**DCOMPOSITION\_FRAME\_STATISTICS**](dcomposition-frame-statistics.md)<br/> | Describes timing and composition statistics for a frame.<br/> |
+| [**DCOMPOSITION\_FRAME\_STATISTICS**](/windows/win32/DcompTypes/ns-dcomptypes-dcomposition_frame_statistics?branch=master)<br/> | Describes timing and composition statistics for a frame.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -27,9 +32,9 @@ This section describes the structures provided by the Microsoft DirectCompositio
 [DirectComposition Reference](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

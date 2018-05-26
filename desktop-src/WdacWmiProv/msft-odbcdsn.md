@@ -4,11 +4,13 @@ description: ODBC DSN Instance Provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'efea10f1-20a6-44fa-a741-4d231f2898cc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: efea10f1-20a6-44fa-a741-4d231f2898cc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_OdbcDsn class", "MSFT_OdbcDsn class, described"]
+keywords:
+- MSFT_OdbcDsn class
+- MSFT_OdbcDsn class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_OdbcDsn class
@@ -36,10 +41,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("1.0"), AMENDMENT]
 class MSFT_OdbcDsn
 {
-  string                Name;
-  string                DsnType;
-  string                Platform;
-  string                DriverName;
+  string                Name;
+  string                DsnType;
+  string                Platform;
+  string                DriverName;
   MSFT_OdbcKeyValuePair KeyValuePair[];
 };
 ```
@@ -142,8 +147,8 @@ One of '32-bit', '64-bit', '32/64-bit' or 'Unknown Platform'.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -160,9 +165,9 @@ One of '32-bit', '64-bit', '32/64-bit' or 'Unknown Platform'.
 [**MSFT\_OdbcKeyValuePair**](msft-odbckeyvaluepair.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,6 +3,11 @@ title: R
 description: Glossary page
 Robots: noindex, nofollow
 ms.assetid: 094eb7f8-d81b-4eae-83bc-009c145813aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # R

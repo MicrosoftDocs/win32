@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxJob object permits a fax client Microsoft Visual Basic application to access the job status for incoming and outgoing fax transmissions, and to pause, resume, cancel or restart a fax job.'
-ms.assetid: 'c6e95bae-c1f8-4636-9847-7c66187cfc8d'
+---
+Description: The FaxJob object permits a fax client Microsoft Visual Basic application to access the job status for incoming and outgoing fax transmissions, and to pause, resume, cancel or restart a fax job.
+ms.assetid: c6e95bae-c1f8-4636-9847-7c66187cfc8d
 title: FaxJob object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob object
@@ -74,7 +79,7 @@ You should not implement this class. The Microsoft standard implementation provi
 
 1.  Call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer object**](-mfax-faxserver-object-visual-basic-.md).
 2.  Call the [**GetJobs**](-mfax-ifaxserver-getjobs-vb.md) method of the [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object to create a [**FaxJobs object**](-mfax-faxjobs-object-visual-basic-.md) on the connected fax server.
-3.  Retrieve the [**Count**](-mfax-ifaxjobs-get-count.md) property and then the [**Item**](-mfax-ifaxjobs-get-item.md) property for the [**FaxJobs**](-mfax-faxjobs-object-visual-basic-.md) collection to create a **FaxJob** object.
+3.  Retrieve the [**Count**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxjobs-get_count?branch=master) property and then the [**Item**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxjobs-get_item?branch=master) property for the [**FaxJobs**](-mfax-faxjobs-object-visual-basic-.md) collection to create a **FaxJob** object.
 
 ## Requirements
 

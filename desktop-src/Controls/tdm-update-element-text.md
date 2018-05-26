@@ -1,8 +1,9 @@
 ---
 title: TDM\_UPDATE\_ELEMENT\_TEXT message
 description: Updates a text element in a task dialog.
-ms.assetid: '2df446c8-db87-42b5-b5bd-40fadbf9d45b'
-keywords: ["TDM_UPDATE_ELEMENT_TEXT message Windows Controls"]
+ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
+keywords:
+- TDM_UPDATE_ELEMENT_TEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_UPDATE\_ELEMENT\_TEXT message
@@ -37,7 +43,7 @@ Indicates the element to update. (For an illustration of the elements, see [Abou
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,7 +62,7 @@ The return value is ignored.
 
 To avoid clipping, the new text must be no longer than the existing text. Setting the text to a shorter string does not cause the dialog box to resize.
 
-If the **pszExpandedInformation** member of the [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure used to create the task dialog was **NULL**, and you send a **TDM\_UPDATE\_ELEMENT\_TEXT** message with TDE\_EXPANDED\_INFORMATION, nothing will happen.
+If the **pszExpandedInformation** member of the [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure used to create the task dialog was **NULL**, and you send a **TDM\_UPDATE\_ELEMENT\_TEXT** message with TDE\_EXPANDED\_INFORMATION, nothing will happen.
 
 The above also applies to the footer and TDE\_FOOTER.
 
@@ -66,8 +72,8 @@ The above also applies to the footer and TDE\_FOOTER.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ The above also applies to the footer and TDE\_FOOTER.
 [**TDM\_SET\_ELEMENT\_TEXT**](tdm-set-element-text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

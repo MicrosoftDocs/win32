@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Hong Kong SAR.'
-ms.assetid: '6c74cc08-ae6a-4ef4-809f-9374e0ac5e91'
+Description: This topic lists the frequency tables used for analog TV tuning for Hong Kong SAR.
+ms.assetid: 6c74cc08-ae6a-4ef4-809f-9374e0ac5e91
 title: Hong Kong SAR Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hong Kong SAR Channel Assignments

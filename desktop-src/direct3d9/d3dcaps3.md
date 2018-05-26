@@ -1,7 +1,12 @@
-﻿---
-Description: 'Driver capability flags.'
-ms.assetid: 'd9cd7388-3413-472d-aacb-0b8c9c60031a'
+---
+Description: Driver capability flags.
+ms.assetid: d9cd7388-3413-472d-aacb-0b8c9c60031a
 title: D3DCAPS3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCAPS3
@@ -36,12 +41,12 @@ Driver capability flags.
 <tr class="odd">
 <td>D3DCAPS3_COPY_TO_VIDMEM</td>
 <td>0x00000100L</td>
-<td>Device can accelerate a memory copy from system memory to local video memory. This cap guarantees that [<strong>UpdateSurface</strong>](idirect3ddevice9--updatesurface.md) and [<strong>UpdateTexture</strong>](idirect3ddevice9--updatetexture.md) calls will be hardware accelerated. If this cap is absent, these calls will succeed but will be slower.</td>
+<td>Device can accelerate a memory copy from system memory to local video memory. This cap guarantees that [<strong>UpdateSurface</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master) and [<strong>UpdateTexture</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatetexture?branch=master) calls will be hardware accelerated. If this cap is absent, these calls will succeed but will be slower.</td>
 </tr>
 <tr class="even">
 <td>D3DCAPS3_COPY_TO_SYSTEMMEM</td>
 <td>0x00000200L</td>
-<td>Device can accelerate a memory copy from local video memory to system memory. This cap guarantees that [<strong>GetRenderTargetData</strong>](idirect3ddevice9--getrendertargetdata.md) calls will be hardware accelerated. If this cap is absent, this call will succeed but will be slower.</td>
+<td>Device can accelerate a memory copy from local video memory to system memory. This cap guarantees that [<strong>GetRenderTargetData</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getrendertargetdata?branch=master) calls will be hardware accelerated. If this cap is absent, this call will succeed but will be slower.</td>
 </tr>
 <tr class="odd">
 <td>D3DCAPS3_DXVAHD</td>
@@ -74,7 +79,7 @@ Driver capability flags.
 
  
 
-These constants are used by the D3CAPS3 member of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by the D3CAPS3 member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 

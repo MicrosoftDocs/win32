@@ -1,8 +1,14 @@
 ---
 title: PLA Samples
 description: The Windows SDK includes the following sample that uses the PLA interfaces.
-ms.assetid: 'd1a55b57-4339-4760-8c4c-aa82bfd961ad'
-keywords: ["Performance Logs and Alerts PLA , examples"]
+ms.assetid: d1a55b57-4339-4760-8c4c-aa82bfd961ad
+keywords:
+- Performance Logs and Alerts PLA , examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLA Samples

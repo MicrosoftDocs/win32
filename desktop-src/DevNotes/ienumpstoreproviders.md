@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides COM-standard enumeration methods for the IPStore interface.'
-ms.assetid: 'd4c0482c-a751-4d41-bcd1-326878fdcf16'
+---
+Description: Provides COM-standard enumeration methods for the IPStore interface.
+ms.assetid: d4c0482c-a751-4d41-bcd1-326878fdcf16
 title: IEnumPStoreProviders interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreProviders interface

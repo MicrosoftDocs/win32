@@ -4,11 +4,24 @@ description: Controls whether the redirection dialog box displays a message abou
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12c5bc8d-7bc1-4a94-a9b8-6b852772c936'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 12c5bc8d-7bc1-4a94-a9b8-6b852772c936
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["WarnAboutPrinterRedirection property Remote Desktop Services", "WarnAboutPrinterRedirection property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , WarnAboutPrinterRedirection property", "WarnAboutPrinterRedirection property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , WarnAboutPrinterRedirection property", "WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , WarnAboutPrinterRedirection property", "WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , WarnAboutPrinterRedirection property", "WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , WarnAboutPrinterRedirection property", "WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , WarnAboutPrinterRedirection property"]
+keywords:
+- WarnAboutPrinterRedirection property Remote Desktop Services
+- WarnAboutPrinterRedirection property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , WarnAboutPrinterRedirection property
+- WarnAboutPrinterRedirection property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , WarnAboutPrinterRedirection property
+- WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , WarnAboutPrinterRedirection property
+- WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , WarnAboutPrinterRedirection property
+- WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , WarnAboutPrinterRedirection property
+- WarnAboutPrinterRedirection property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , WarnAboutPrinterRedirection property
 topic_type:
 - apiref
 api_name:
@@ -26,6 +39,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable4::WarnAboutPrinterRedirection property
@@ -39,11 +55,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_WarnAboutPrinterRedirection(
-  [in]  VARIANT_BOOL fWarn
+  [in]  VARIANT_BOOL fWarn
 );
 
 HRESULT get_WarnAboutPrinterRedirection(
-  [out] VARIANT_BOOL *pfWarn
+  [out] VARIANT_BOOL *pfWarn
 );
 ```
 
@@ -63,8 +79,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IMsRdpClientNonScriptable4 is defined as f50fa8aa-1c7d-4f59-b15c-a90cacae1fcb<br/> |
@@ -81,9 +97,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

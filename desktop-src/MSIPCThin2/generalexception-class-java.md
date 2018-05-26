@@ -4,17 +4,21 @@ description: A general exception used to wrap exceptions with a simplified error
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '75019a9e-818a-41f4-935f-71536fc6894d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 75019a9e-818a-41f4-935f-71536fc6894d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GeneralException class"]
+keywords:
+- GeneralException class
 topic_type:
 - apiref
 api_name:
 - GeneralException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GeneralException class
@@ -34,7 +38,7 @@ public class GeneralException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -45,7 +49,7 @@ public class GeneralException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -57,7 +61,7 @@ public class GeneralException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -75,9 +79,9 @@ The **GeneralException** class extends the [**ProtectionException**](protectione
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

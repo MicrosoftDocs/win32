@@ -1,7 +1,12 @@
 ---
-Description: 'This example illustrates how a customization transform may be used to disable features and add new resources.'
-ms.assetid: '028b1d01-3b66-4640-98f9-ca33f90ca516'
+Description: This example illustrates how a customization transform may be used to disable features and add new resources.
+ms.assetid: 028b1d01-3b66-4640-98f9-ca33f90ca516
 title: A Customization Transform Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A Customization Transform Example

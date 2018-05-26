@@ -1,7 +1,12 @@
 ---
 title: Handwriting and Ink
 description: With the proliferation of Tablet PCs in the market, Tablet features are becoming part of mainstream computing.
-ms.assetid: '22caf8b3-d519-418f-b662-180d270b7cfb'
+ms.assetid: 22caf8b3-d519-418f-b662-180d270b7cfb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handwriting and Ink

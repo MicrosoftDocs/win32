@@ -1,8 +1,10 @@
 ---
 title: MPSTATUS\_DATA structure
 description: Contains data about the current status of a component of the product.
-ms.assetid: '6AEF485C-30D1-47DB-92B6-048B8CAA7833'
-keywords: ["MPSTATUS_DATA structure Legacy Windows Environment Features", "PMPSTATUS_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 6AEF485C-30D1-47DB-92B6-048B8CAA7833
+keywords:
+- MPSTATUS_DATA structure Legacy Windows Environment Features
+- PMPSTATUS_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSTATUS\_DATA structure
@@ -23,7 +30,7 @@ Contains data about the current status of a component of the product.
 ```C++
 typedef struct tagMPSTATUS_DATA {
   MPCOMPONENT_ID ComponentID;
-  BOOL           fEnable;
+  BOOL           fEnable;
   union {
     PMPSTATUS_DATAEX_UNUSED p1;
     PMPSTATUS_DATAEX_UNUSED p2;
@@ -36,7 +43,7 @@ typedef struct tagMPSTATUS_DATA {
     PMPSTATUS_DATAEX_UNUSED p9;
     PMPSTATUS_DATAEX_UNUSED pa;
     PMPSTATUS_DATAEX_UNUSED pb;
-  } ComponentStatus;
+  } ComponentStatus;
 } MPSTATUS_DATA, *PMPSTATUS_DATA;
 ```
 
@@ -76,7 +83,7 @@ Extra status data depending on value of **ComponentID**.
 > [!Note]  
 > Currently results in a pointer to a dummy structure for all possible values of **ComponentID**.
 
- 
+ 
 
 <dl> <dt>
 
@@ -207,8 +214,8 @@ When **ComponentID** == **MPCOMPONENT\_ELAM**. See [**MPSTATUS\_DATAEX\_UNUSED**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -223,9 +230,9 @@ When **ComponentID** == **MPCOMPONENT\_ELAM**. See [**MPSTATUS\_DATAEX\_UNUSED**
 [**MPSTATUS\_DATAEX\_UNUSED**](mpstatus-dataex-unused.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

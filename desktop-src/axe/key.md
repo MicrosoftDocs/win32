@@ -1,14 +1,20 @@
 ---
 title: Key element
 description: Identifies all the metrics under this test case.
-ms.assetid: '6BECA84A-9C25-4F9B-916C-F94D8B25E025'
-keywords: ["Key element Access Execution Engine"]
+ms.assetid: 6BECA84A-9C25-4F9B-916C-F94D8B25E025
+keywords:
+- Key element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Key
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

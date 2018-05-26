@@ -1,8 +1,15 @@
 ---
 title: Network Access Protection
-description: Note The Network Access Protection platform is not available starting with Windows 10 Network Access Protection (NAP) is a set of operating system components that provide a platform for protected access to private networks.
-ms.assetid: 'f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e'
-keywords: ["Network Access Protection", "Network Access Protection,start page"]
+description: Note The Network Access Protection platform is not available starting with Windows 10 Network Access Protection (NAP) is a set of operating system components that provide a platform for protected access to private networks.
+ms.assetid: f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e
+keywords:
+- Network Access Protection
+- Network Access Protection,start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Access Protection
@@ -10,9 +17,9 @@ keywords: ["Network Access Protection", "Network Access Protection,start page"]
 ## Purpose
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 Network Access Protection (NAP) is a set of operating system components that provide a platform for protected access to private networks. The NAP platform provides an integrated way of evaluating the system health state of a network client that is attempting to connect to or communicate on a network and restricting the access of the network client until health policy requirements have been met.
 
@@ -34,7 +41,7 @@ The NAP API is designed for C/C++ developers. For the NAP enforcement methods, p
 
 ## Run-time requirements
 
-The NAP platform requires NAP infrastructure servers running Windows Server 2008 or later and NAP clients running Windows XP with Service Pack 3 (SP3), Windows Vista, or later operating systems. For specific information about which operating systems support a particular programming element, refer to the Requirements sections of the NAP APIs in the NAP Reference documentation.
+The NAP platform requires NAP infrastructure servers running Windows Server 2008 or later and NAP clients running Windows XP with Service Pack 3 (SP3), Windows Vista, or later operating systems. For specific information about which operating systems support a particular programming element, refer to the Requirements sections of the NAP APIs in the NAP Reference documentation.
 
 ## In this section
 
@@ -48,11 +55,11 @@ The NAP platform requires NAP infrastructure servers running Windows Server 2008
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

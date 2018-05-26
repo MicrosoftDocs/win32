@@ -1,12 +1,17 @@
 ---
-Description: 'You can use the line and curve functions to draw a pie chart.'
-ms.assetid: '788d3bc2-1010-436c-a95f-6fe55daac88e'
+Description: You can use the line and curve functions to draw a pie chart.
+ms.assetid: 788d3bc2-1010-436c-a95f-6fe55daac88e
 title: Drawing a Pie Chart
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a Pie Chart
 
-You can use the line and curve functions to draw a pie chart. The primary function used to draw pie charts is the [**AngleArc**](anglearc.md) function, which requires you to supply the coordinates of the center of the pie, the radius of the pie, a start angle, and a sweep angle. The following screen shot shows a dialog box that the user can use to enter these values.
+You can use the line and curve functions to draw a pie chart. The primary function used to draw pie charts is the [**AngleArc**](/windows/win32/Wingdi/nf-wingdi-anglearc?branch=master) function, which requires you to supply the coordinates of the center of the pie, the radius of the pie, a start angle, and a sweep angle. The following screen shot shows a dialog box that the user can use to enter these values.
 
 ![screen shot showing a dialog box for entering values for pie chart](images/pie.png)
 
@@ -173,7 +178,7 @@ DWORD RetrieveInput(LPTSTR cArray, int iLength)
 
 
 
-To draw each section of the pie chart, pass the values entered by the user to the [**AngleArc**](anglearc.md) function. To fill the pie chart using the current brush, embed the call to **AngleArc** in a path bracket. The following code sample shows the defined path bracket and the call to **AngleArc**.
+To draw each section of the pie chart, pass the values entered by the user to the [**AngleArc**](/windows/win32/Wingdi/nf-wingdi-anglearc?branch=master) function. To fill the pie chart using the current brush, embed the call to **AngleArc** in a path bracket. The following code sample shows the defined path bracket and the call to **AngleArc**.
 
 
 ```C++

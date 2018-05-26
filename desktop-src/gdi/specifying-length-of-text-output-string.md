@@ -1,14 +1,19 @@
 ---
-Description: 'Several of the font and text-output functions have a parameter that specifies the length of the text-output string. A typical example is the cchText parameter of DrawTextEx.'
-ms.assetid: '695fd0f9-abd4-4666-acad-2c409624ddc6'
-title: 'Specifying length of text-output string'
+Description: Several of the font and text-output functions have a parameter that specifies the length of the text-output string. A typical example is the cchText parameter of DrawTextEx.
+ms.assetid: 695fd0f9-abd4-4666-acad-2c409624ddc6
+title: Specifying length of text-output string
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying length of text-output string
 
-Several of the font and text-output functions have a parameter that specifies the length of the text-output string. A typical example is the *cchText* parameter of [**DrawTextEx**](drawtextex.md).
+Several of the font and text-output functions have a parameter that specifies the length of the text-output string. A typical example is the *cchText* parameter of [**DrawTextEx**](/windows/win32/Winuser/nf-winuser-drawtextexa?branch=master).
 
-Each of these functions has both an "ANSI" version and a Unicode version (for example, [**DrawTextExA**](drawtextex.md) and **DrawTextExW**, respectively). For the "ANSI" version of each function, the length is specified as a BYTE count and for the Unicode function it is specified as a WORD count.
+Each of these functions has both an "ANSI" version and a Unicode version (for example, [**DrawTextExA**](/windows/win32/Winuser/nf-winuser-drawtextexa?branch=master) and **DrawTextExW**, respectively). For the "ANSI" version of each function, the length is specified as a BYTE count and for the Unicode function it is specified as a WORD count.
 
 It is traditional to think of this as a "character count". That is generally accurate for many languages, including English, but it is not accurate in general. In "ANSI" strings, characters in [SBCS](intl.single_byte_character_sets) code pages take one byte each, but most characters in [DBCS](intl.double_byte_character_sets) code pages take two bytes. Similarly, most currently defined Unicode characters reside in the Basic Multilingual Plane (BMP) and their UTF-16 representations fit in one WORD, but supplementary characters are represented in Unicode by ''surrogates'', which require two WORDs.
 

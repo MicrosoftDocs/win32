@@ -1,8 +1,10 @@
 ---
 title: IPX\_NEXT\_HOP\_ADDRESS structure
 description: The IPX\_NEXT\_HOP\_ADDRESS structure contains the address for the next-hop router for an IPX route.
-ms.assetid: '079e3284-6238-4bcf-a17f-68ff86775f18'
-keywords: ["IPX_NEXT_HOP_ADDRESS structure RAS", "PIPX_NEXT_HOP_ADDRESS structure pointer RAS"]
+ms.assetid: 079e3284-6238-4bcf-a17f-68ff86775f18
+keywords:
+- IPX_NEXT_HOP_ADDRESS structure RAS
+- PIPX_NEXT_HOP_ADDRESS structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPX\_NEXT\_HOP\_ADDRESS structure
@@ -48,8 +55,8 @@ Specifies the MAC address of next-hop router.
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -67,9 +74,9 @@ Specifies the MAC address of next-hop router.
 [**RTM\_IPX\_ROUTE**](rtm-ipx-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

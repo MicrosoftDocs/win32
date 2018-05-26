@@ -1,7 +1,12 @@
 ---
-Description: 'In addition to the Fax Service Client API Microsoft Win32 functions, Microsoft supplies an implementation of Component Object Model (COM) interfaces for developing fax client applications.'
-ms.assetid: '80b70d79-0f59-4758-916d-aa321ec15c6a'
+Description: In addition to the Fax Service Client API Microsoft Win32 functions, Microsoft supplies an implementation of Component Object Model (COM) interfaces for developing fax client applications.
+ms.assetid: 80b70d79-0f59-4758-916d-aa321ec15c6a
 title: Using the Fax Client COM Implementation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fax Client COM Implementation

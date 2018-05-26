@@ -1,8 +1,19 @@
 ---
 title: Resizing the License Acquisition Dialog Box
 description: Resizing the License Acquisition Dialog Box
-ms.assetid: 'e091d981-1574-4ffc-bdc4-b92f74396cb7'
-keywords: ["Windows Media Player,resizing License Acquisition dialog box", "Windows Media Player,License Acquisition dialog box", "Windows Media Player,DRM_LicenseAcqURL attribute", "resizing License Acquisition dialog box", "License Acquisition dialog box", "DRM_LicenseAcqURL"]
+ms.assetid: e091d981-1574-4ffc-bdc4-b92f74396cb7
+keywords:
+- Windows Media Player,resizing License Acquisition dialog box
+- Windows Media Player,License Acquisition dialog box
+- Windows Media Player,DRM_LicenseAcqURL attribute
+- resizing License Acquisition dialog box
+- License Acquisition dialog box
+- DRM_LicenseAcqURL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resizing the License Acquisition Dialog Box

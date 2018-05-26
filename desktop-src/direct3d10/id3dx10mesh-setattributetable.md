@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the attribute table for a mesh and the number of entries stored in the table.'
-ms.assetid: '629fd31b-d88a-4650-82ed-ab7c40690986'
-title: 'ID3DX10Mesh::SetAttributeTable method'
+---
+Description: Sets the attribute table for a mesh and the number of entries stored in the table.
+ms.assetid: 629fd31b-d88a-4650-82ed-ab7c40690986
+title: ID3DX10MeshSetAttributeTable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::SetAttributeTable method

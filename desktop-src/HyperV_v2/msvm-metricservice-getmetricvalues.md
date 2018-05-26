@@ -1,7 +1,12 @@
 ---
-Description: 'Gets metric values.'
-ms.assetid: '71c614ef-a005-45aa-9999-a19dc9f9c0df'
-title: 'GetMetricValues method of the Msvm\_MetricService class'
+Description: Gets metric values.
+ms.assetid: 71c614ef-a005-45aa-9999-a19dc9f9c0df
+title: GetMetricValues method of the Msvm\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetMetricValues method of the Msvm\_MetricService class
@@ -13,10 +18,10 @@ Gets metric values.
 
 ```mof
 uint32 GetMetricValues(
-  [in]  CIM_BaseMetricDefinition REF Definition,
-  [in]  uint16                       Range,
-  [in]  uint16                       Count,
-  [out] CIM_BaseMetricValue      REF Values[]
+  [in]  CIM_BaseMetricDefinition REF Definition,
+  [in]  uint16                       Range,
+  [in]  uint16                       Count,
+  [out] CIM_BaseMetricValue      REF Values[]
 );
 ```
 
@@ -109,8 +114,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -124,9 +129,9 @@ This method returns one of the following values:
 [**Msvm\_MetricService**](msvm-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'WMI uses object paths in the reference properties of association classes to identify related objects, as well as using object paths in input or output parameters for several methods.'
+Description: WMI uses object paths in the reference properties of association classes to identify related objects, as well as using object paths in input or output parameters for several methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '07fee6f8-810e-4dec-8f0f-787756ee3beb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 07fee6f8-810e-4dec-8f0f-787756ee3beb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Object Path Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Object Path Requirements

@@ -1,7 +1,12 @@
 ---
-Description: 'Extended window styles for the window.'
-ms.assetid: '53e71d4c-1620-45d9-b082-fdf2a7f3d2f7'
-title: 'CBaseWindow::m\_WindowStylesEx member'
+Description: Extended window styles for the window.
+ms.assetid: 53e71d4c-1620-45d9-b082-fdf2a7f3d2f7
+title: CBaseWindowm\_WindowStylesEx member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_WindowStylesEx member
@@ -35,9 +40,9 @@ DWORD m_WindowStylesEx;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

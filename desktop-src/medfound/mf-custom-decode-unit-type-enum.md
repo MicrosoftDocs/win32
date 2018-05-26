@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the type of unit contained in an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.'
-ms.assetid: 'B74890ED-9586-475B-8C77-457ECB893980'
-title: 'MF\_CUSTOM\_DECODE\_UNIT\_TYPE enumeration'
+---
+Description: Specifies the type of unit contained in an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.
+ms.assetid: B74890ED-9586-475B-8C77-457ECB893980
+title: MF\_CUSTOM\_DECODE\_UNIT\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CUSTOM\_DECODE\_UNIT\_TYPE enumeration
 
-Specifies the type of unit contained in an [**IMFSample**](imfsample.md) in a [MFSampleExtension\_ForwardedDecodeUnits](mfsampleextension-forwardeddecodeunits.md) collection.
+Specifies the type of unit contained in an [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) in a [MFSampleExtension\_ForwardedDecodeUnits](mfsampleextension-forwardeddecodeunits.md) collection.
 
 ## Members
 

@@ -1,6 +1,11 @@
 ---
-Description: 'The Windows Shell provides a powerful set of automation objects that enable you to program the Shell with Microsoft Visual Basic and scripting languages such as Microsoft JScript (compatible with ECMA 262 language specification) and Microsoft Visual Basic Scripting Edition (VBScript). You can use these objects to access many of the Shell''s features and dialog boxes. For example, you can access the file system, launch programs, and change system settings.'
+Description: The Windows Shell provides a powerful set of automation objects that enable you to program the Shell with Microsoft Visual Basic and scripting languages such as Microsoft JScript (compatible with ECMA 262 language specification) and Microsoft Visual Basic Scripting Edition (VBScript). You can use these objects to access many of the Shells features and dialog boxes. For example, you can access the file system, launch programs, and change system settings.
 title: Scriptable Shell Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scriptable Shell Objects
@@ -89,7 +94,7 @@ The following example shows how to instantiate the [**Folder**](folder.md) objec
 
 
 
-In the preceding example, *sDir* is the path to the [**Folder**](folder.md) object. Note that the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) enumeration values are not available in script.
+In the preceding example, *sDir* is the path to the [**Folder**](folder.md) object. Note that the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) enumeration values are not available in script.
 
 The ProgID for each of the Shell objects is shown in the following table.
 
@@ -264,7 +269,7 @@ The [**FolderItem**](folderitem.md) object represents an item in a Shell folder.
 
 The [**FolderItems**](folderitems.md) object represents a collection of items in a Shell folder. Its methods and properties enable you to retrieve information about the collection.
 
-The following Visual Basic example shows the relationship between several of the folder objects and how they can be used together. When the user clicks the command button called **cmdGetPath**, the program displays a dialog box that enables the user to select a folder from **My Computer**, where ssfDRIVES is the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) enumeration value for **My Computer**. When the user chooses a folder, the folder's path is displayed in the text box called **txtPath**.
+The following Visual Basic example shows the relationship between several of the folder objects and how they can be used together. When the user clicks the command button called **cmdGetPath**, the program displays a dialog box that enables the user to select a folder from **My Computer**, where ssfDRIVES is the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) enumeration value for **My Computer**. When the user chooses a folder, the folder's path is displayed in the text box called **txtPath**.
 
 
 ```
@@ -283,7 +288,7 @@ End Sub
 
 
 
-In VBScript, this function is slightly different because the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) enumeration values are not available in script. The following example shows the VBScript equivalent of the previous example.
+In VBScript, this function is slightly different because the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) enumeration values are not available in script. The following example shows the VBScript equivalent of the previous example.
 
 
 ```

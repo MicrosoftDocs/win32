@@ -1,7 +1,12 @@
 ---
-Description: 'The names of people in the Bcc: field.'
-ms.assetid: 'ad888d32-956d-45c1-a73d-4799cc3ed320'
-title: 'System.Message.BccName'
+Description: The names of people in the Bcc field.
+ms.assetid: ad888d32-956d-45c1-a73d-4799cc3ed320
+title: System.Message.BccName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.BccName

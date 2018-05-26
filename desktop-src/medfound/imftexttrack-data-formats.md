@@ -1,12 +1,17 @@
-﻿---
-Description: 'The following constants identify the underlying data format of an IMFTimedTextTrack. Get the format of a timed-text track by calling IMFTimedTextTrack::GetDataFormat.'
-ms.assetid: '1E6C72AF-7247-406E-8E46-099E122FCA8A'
+---
+Description: The following constants identify the underlying data format of an IMFTimedTextTrack. Get the format of a timed-text track by calling IMFTimedTextTrackGetDataFormat.
+ms.assetid: 1E6C72AF-7247-406E-8E46-099E122FCA8A
 title: IMFTimedTextTrack Data Format GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFTimedTextTrack Data Format GUIDs
 
-The following constants identify the underlying data format of an [**IMFTimedTextTrack**](imftimedtexttrack.md). Get the format of a timed-text track by calling [**IMFTimedTextTrack::GetDataFormat**](imftimedtexttrack-getdataformat.md).
+The following constants identify the underlying data format of an [**IMFTimedTextTrack**](/windows/win32/mfmediaengine/nn-mfmediaengine-imftimedtexttrack?branch=master). Get the format of a timed-text track by calling [**IMFTimedTextTrack::GetDataFormat**](/windows/win32/mfmediaengine/nf-mfmediaengine-imftimedtexttrack-getdataformat?branch=master).
 
 <dl> <dt>
 

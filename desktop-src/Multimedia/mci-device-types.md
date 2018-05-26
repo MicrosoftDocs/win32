@@ -1,8 +1,22 @@
 ---
 title: MCI Device Types
 description: MCI Device Types
-ms.assetid: '1159f5da-1647-439f-9aba-e7096a1878ac'
-keywords: ["Windows multimedia,MCI device types", "multimedia,MCI device types", "multimedia reference,MCI device types", "reference for multimedia,MCI device types", "MCI device types", "Media Control Interface (MCI),device types", "MCI (Media Control Interface),device types", "reference for MCI,device types", "MCI reference,device types"]
+ms.assetid: 1159f5da-1647-439f-9aba-e7096a1878ac
+keywords:
+- Windows multimedia,MCI device types
+- multimedia,MCI device types
+- multimedia reference,MCI device types
+- reference for multimedia,MCI device types
+- MCI device types
+- Media Control Interface (MCI),device types
+- MCI (Media Control Interface),device types
+- reference for MCI,device types
+- MCI reference,device types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI Device Types

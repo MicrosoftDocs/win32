@@ -1,7 +1,12 @@
 ---
 title: Working with Multiple Profiles
 description: This example shows how to perform several tasks using the Windows Firewall with Advanced Security APIs.C++ /\ Copyright (C) Microsoft.
-ms.assetid: '3105c6d0-813c-499d-b585-8c5d9fa15414'
+ms.assetid: 3105c6d0-813c-499d-b585-8c5d9fa15414
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Multiple Profiles

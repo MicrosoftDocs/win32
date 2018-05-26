@@ -1,8 +1,9 @@
 ---
 title: WM\_GETHOTKEY message
 description: Sent to determine the hot key associated with a window.
-ms.assetid: '6f527758-e713-47a8-a571-3bf3270f0b33'
-keywords: ["WM_GETHOTKEY message Keyboard and Mouse Input"]
+ms.assetid: 6f527758-e713-47a8-a571-3bf3270f0b33
+keywords:
+- WM_GETHOTKEY message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GETHOTKEY message
@@ -57,7 +63,7 @@ The return value is the virtual-key code and modifiers for the hot key, or **NUL
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +75,8 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](reg
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -94,9 +100,9 @@ These hot keys are unrelated to the hot keys set by the [**RegisterHotKey**](reg
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

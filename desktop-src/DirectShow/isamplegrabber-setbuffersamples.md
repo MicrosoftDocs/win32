@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetBufferSamples method specifies whether to copy sample data into a buffer as it goes through the filter.'
-ms.assetid: '1ef4508e-441f-45e0-afb4-239dd947284b'
-title: 'ISampleGrabber::SetBufferSamples method'
+---
+Description: The SetBufferSamples method specifies whether to copy sample data into a buffer as it goes through the filter.
+ms.assetid: 1ef4508e-441f-45e0-afb4-239dd947284b
+title: ISampleGrabberSetBufferSamples method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabber::SetBufferSamples method

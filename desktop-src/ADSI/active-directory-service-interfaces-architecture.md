@@ -4,11 +4,16 @@ description: Many directory services are hierarchical and thus lend themselves t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef545aea-a7a5-4f65-9133-e68b94a86311'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ef545aea-a7a5-4f65-9133-e68b94a86311
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Service Interfaces Architecture ADSI", "ADSI ADSI , about, architecture"]
+keywords:
+- Active Directory Service Interfaces Architecture ADSI
+- ADSI ADSI , about, architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Service Interfaces Architecture

@@ -1,8 +1,9 @@
 ---
 title: MM\_MCINOTIFY message
 description: The MM\_MCINOTIFY message notifies an application that an MCI device has completed an operation. MCI devices send this message only when the MCI\_NOTIFY flag is used.
-ms.assetid: 'a0840130-2969-4ce5-b098-3e45401eebb1'
-keywords: ["MM_MCINOTIFY message Windows Multimedia"]
+ms.assetid: a0840130-2969-4ce5-b098-3e45401eebb1
+keywords:
+- MM_MCINOTIFY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_MCINOTIFY message
@@ -46,7 +52,7 @@ Reason for the notification. The following values are defined:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +75,7 @@ A device returns the MCI\_NOTIFY\_SUCCESSFUL flag with **MM\_MCINOTIFY** when th
 
 A device returns the MCI\_NOTIFY\_ABORTED flag with **MM\_MCINOTIFY** only when it receives a command that prevents it from meeting the notification conditions. For example, the [**play**](play.md) command would not abort notification for a previous **play** command provided that the new command does not change the play direction or change the ending position. The [**seek**](seek.md) and [**record**](record.md) commands behave similarly. MCI also does not send MCI\_NOTIFY\_ABORTED when playback or recording is paused with the [**pause**](pause.md) ( [**MCI\_PAUSE**](mci-pause.md)) command. Sending the [**resume**](resume.md) ( [**MCI\_RESUME**](mci-resume.md)) command allows them to continue to meet the callback conditions.
 
-When your application requests notification for a command, check the error return of the [**mciSendString**](mcisendstring.md) or [**mciSendCommand**](mcisendcommand.md) functions. If these functions encounter an error and return a nonzero value, MCI will not set notification for the command.
+When your application requests notification for a command, check the error return of the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) or [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) functions. If these functions encounter an error and return a nonzero value, MCI will not set notification for the command.
 
 ## Requirements
 
@@ -77,8 +83,8 @@ When your application requests notification for a command, check the error retur
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -108,9 +114,9 @@ When your application requests notification for a command, check the error retur
 [**seek**](seek.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

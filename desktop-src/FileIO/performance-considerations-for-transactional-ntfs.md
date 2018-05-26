@@ -1,7 +1,12 @@
 ---
-Description: 'Recommendations for optimal file system transactions.'
-ms.assetid: '847939ff-5322-4023-8ef7-9d845e80d65c'
+Description: Recommendations for optimal file system transactions.
+ms.assetid: 847939ff-5322-4023-8ef7-9d845e80d65c
 title: Performance Considerations for Transactional NTFS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Considerations for Transactional NTFS
@@ -32,7 +37,7 @@ Amortize TxF overhead over larger transactions. For example, if you have *N* set
 
 Consider the possible impact on boot of very large transactions. As previously stated, rollback can be slow and will delay boot time if the system needs to perform automatic rollbacks as boot time. The larger the transaction, the longer the delay.
 
-Keep transactions to mostly metadata operations. This is what TxF is optimized for and, in general, the performance is about the same as non-transacted file I/O for large metadata transactions. Examples of efficient metadata TxF functions are [**MoveFileTransacted**](movefiletransacted.md), [**SetFileAttributesTransacted**](setfileattributestransacted.md), [**CopyFileTransacted**](copyfiletransacted.md), [**DeleteFileTransacted**](deletefiletransacted.md), [**CreateHardLinkTransacted**](createhardlinktransacted.md), and appended writes (calls to the [**WriteFile**](writefile.md) function when the file pointer as at the end the file, or *EOF*). An example of resource-intensive non-metadata operations are calls to the **WriteFile** function when the file pointer is not at the EOF.
+Keep transactions to mostly metadata operations. This is what TxF is optimized for and, in general, the performance is about the same as non-transacted file I/O for large metadata transactions. Examples of efficient metadata TxF functions are [**MoveFileTransacted**](/windows/win32/WinBase/nf-winbase-movefiletransacteda?branch=master), [**SetFileAttributesTransacted**](/windows/win32/WinBase/nf-winbase-setfileattributestransacteda?branch=master), [**CopyFileTransacted**](/windows/win32/WinBase/nf-winbase-copyfiletransacteda?branch=master), [**DeleteFileTransacted**](/windows/win32/WinBase/nf-winbase-deletefiletransacteda?branch=master), [**CreateHardLinkTransacted**](/windows/win32/WinBase/nf-winbase-createhardlinktransacteda?branch=master), and appended writes (calls to the [**WriteFile**](/windows/win32/FileAPI/nf-fileapi-writefile?branch=master) function when the file pointer as at the end the file, or *EOF*). An example of resource-intensive non-metadata operations are calls to the **WriteFile** function when the file pointer is not at the EOF.
 
 ## Summary of TxF Performance Expectations
 

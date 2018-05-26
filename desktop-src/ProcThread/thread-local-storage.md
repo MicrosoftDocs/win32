@@ -1,7 +1,12 @@
 ---
-Description: 'With thread local storage (TLS), you can provide unique data for each thread that the process can access using a global index. One thread allocates the index, which can be used by the other threads to retrieve the unique data associated with the index.'
-ms.assetid: '40df7410-64d6-4edd-8009-d9c3d2aca920'
+Description: With thread local storage (TLS), you can provide unique data for each thread that the process can access using a global index. One thread allocates the index, which can be used by the other threads to retrieve the unique data associated with the index.
+ms.assetid: 40df7410-64d6-4edd-8009-d9c3d2aca920
 title: Thread Local Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread Local Storage

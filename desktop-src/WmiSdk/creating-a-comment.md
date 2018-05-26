@@ -1,13 +1,16 @@
 ---
-Description: 'The Managed Object Format (MOF) compiler supports two styles of comment using two different styles of comment delimiters.'
+Description: The Managed Object Format (MOF) compiler supports two styles of comment using two different styles of comment delimiters.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5ab71b45-7ed1-44c4-8710-6b833b0afb80'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5ab71b45-7ed1-44c4-8710-6b833b0afb80
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Comment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Comment

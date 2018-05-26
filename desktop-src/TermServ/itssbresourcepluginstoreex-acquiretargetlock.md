@@ -4,11 +4,14 @@ description: Locks a target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '76707f1d-1f13-4d81-8954-2acf05cda2cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 76707f1d-1f13-4d81-8954-2acf05cda2cd
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AcquireTargetLock method Remote Desktop Services", "AcquireTargetLock method Remote Desktop Services , ITsSbResourcePluginStoreEx interface", "ITsSbResourcePluginStoreEx interface Remote Desktop Services , AcquireTargetLock method"]
+keywords:
+- AcquireTargetLock method Remote Desktop Services
+- AcquireTargetLock method Remote Desktop Services , ITsSbResourcePluginStoreEx interface
+- ITsSbResourcePluginStoreEx interface Remote Desktop Services , AcquireTargetLock method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SbTsV.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbResourcePluginStoreEx::AcquireTargetLock method
@@ -28,9 +34,9 @@ Locks a target.
 
 ```C++
 HRESULT AcquireTargetLock(
-  [in]  BSTR     targetName,
-  [in]  DWORD    dwTimeout,
-  [out] IUnknown **ppContext
+  [in]  BSTR     targetName,
+  [in]  DWORD    dwTimeout,
+  [out] IUnknown **ppContext
 );
 ```
 
@@ -57,7 +63,7 @@ The timeout for the operation, in milliseconds.
 *ppContext* \[out\]
 </dt> <dd>
 
-Returns a pointer to the context of the lock. To release the lock, supply this pointer to the [**ReleaseTargetLock**](itssbresourcepluginstore-releasetargetlock.md) method.
+Returns a pointer to the context of the lock. To release the lock, supply this pointer to the [**ReleaseTargetLock**](/windows/win32/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock?branch=master) method.
 
 </dd> </dl>
 
@@ -67,14 +73,14 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-After the lock is acquired, the calling thread is assumed to have exclusive access to the target object and therefore no other thread (within the same machine) can update it. Therefore the calling thread must call the [**ReleaseTargetLock**](itssbresourcepluginstore-releasetargetlock.md) method as soon as it has made the necessary updates to the target object.
+After the lock is acquired, the calling thread is assumed to have exclusive access to the target object and therefore no other thread (within the same machine) can update it. Therefore the calling thread must call the [**ReleaseTargetLock**](/windows/win32/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock?branch=master) method as soon as it has made the necessary updates to the target object.
 
 > \[!Important\]  
 > this lock does not completely prevent target objects from being modified externally if more than one Connection Broker exists in the deployment. The calling thread must be prepared to handle a failure gracefully and retry the target update.
 
- 
+ 
 
-This method is available on Windows Server 2012 R2 with [KB3091411](https://support.microsoft.com/kb/3091411) installed in the [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) interface.
+This method is available on Windows Server 2012 R2 with [KB3091411](https://support.microsoft.com/kb/3091411) installed in the [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) interface.
 
 ## Requirements
 
@@ -83,8 +89,8 @@ This method is available on Windows Server 2012 R2 with [KB3091411](https://supp
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                             |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                             |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                             |
 | IDL<br/>                      | <dl> <dt>SbTsV.idl</dt> </dl>          |
 | IID<br/>                      | IID\_ITsSbResourcePluginStoreEx is defined as 80b83ffd-625d-11e5-bea1-a0481c7e9064<br/> |
 
@@ -97,9 +103,9 @@ This method is available on Windows Server 2012 R2 with [KB3091411](https://supp
 [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

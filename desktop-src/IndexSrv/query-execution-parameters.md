@@ -1,7 +1,12 @@
 ---
 title: Query Execution Parameters
 description: Query Execution Parameters
-ms.assetid: '9134acb9-13c6-488c-9e88-5f3868f601a4'
+ms.assetid: 9134acb9-13c6-488c-9e88-5f3868f601a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Execution Parameters

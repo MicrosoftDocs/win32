@@ -1,18 +1,23 @@
 ---
 title: Running a Data Collector Set
-ms.assetid: 'd6b63af3-2303-41e3-9496-221aa7fed4de'
+ms.assetid: d6b63af3-2303-41e3-9496-221aa7fed4de
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running a Data Collector Set
 
 To run a data collector set, you can perform one of the following actions:
 
--   Call the [**IDataCollectorSet::Start**](idatacollectorset-start.md) method.
+-   Call the [**IDataCollectorSet::Start**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-start?branch=master) method.
 -   Schedule the data collector set to run.
 -   Specify that an alert trigger a data collector set to run.
 
-Before you can run a new data collector set, you must first call the [**IDataCollectorSet::Commit**](idatacollectorset-commit.md) method.
+Before you can run a new data collector set, you must first call the [**IDataCollectorSet::Commit**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-commit?branch=master) method.
 
 The following example shows how to schedule a data collector set to run. You can specify one or more schedules on which to run the data collector set. This example builds on the example in [Creating a Data Collector Set](creating-a-data-collector-set.md).
 

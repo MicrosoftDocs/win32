@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves a description of the rights template.'
+Description: Specifies or retrieves a description of the rights template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c21fab4d-0205-4671-a7e4-5015cafb8f60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c21fab4d-0205-4671-a7e4-5015cafb8f60
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TemplateSummary.Description property'
+title: TemplateSummary.Description property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateSummary.Description property
@@ -126,7 +129,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -138,9 +141,9 @@ END SUB
 [**TemplateSummary**](templatesummary-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

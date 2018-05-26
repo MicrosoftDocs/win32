@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPinCount method retrieves the number of pins on the filter.'
-ms.assetid: '29039ada-fccd-4890-b36b-3dd5c0bbdc3e'
-title: 'CTransformFilter.GetPinCount method'
+Description: The GetPinCount method retrieves the number of pins on the filter.
+ms.assetid: 29039ada-fccd-4890-b36b-3dd5c0bbdc3e
+title: CTransformFilter.GetPinCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.GetPinCount method
@@ -47,9 +52,9 @@ This method overrides the [**CBaseFilter::GetPinCount**](cbasefilter-getpincount
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

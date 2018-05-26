@@ -1,8 +1,23 @@
 ---
 title: Considerations for International Markets
 description: Considerations for International Markets
-ms.assetid: '890a280d-a4e0-4349-960d-ca8ac1872ee6'
-keywords: ["Windows Media Player online stores,international markets", "online stores,international markets", "type 1 online stores,international markets", "type 2 online stores,international markets", "international markets", "Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 1 online stores,ServiceInfo document", "type 2 online stores,ServiceInfo document", "ServiceInfo document"]
+ms.assetid: 890a280d-a4e0-4349-960d-ca8ac1872ee6
+keywords:
+- Windows Media Player online stores,international markets
+- online stores,international markets
+- type 1 online stores,international markets
+- type 2 online stores,international markets
+- international markets
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 1 online stores,ServiceInfo document
+- type 2 online stores,ServiceInfo document
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Considerations for International Markets

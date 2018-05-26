@@ -1,8 +1,10 @@
 ---
 title: DRM\_PLAY\_OPL\_EX structure
 description: The DRM\_PLAY\_OPL\_EX structure holds information about the output protection levels (OPLs) specified in a license for play actions.
-ms.assetid: '287f6681-f12e-4ef3-b802-24ee7b94bc7f'
-keywords: ["DRM_PLAY_OPL_EX structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 287f6681-f12e-4ef3-b802-24ee7b94bc7f
+keywords:
+- DRM_PLAY_OPL_EX structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_PLAY\_OPL\_EX structure
@@ -22,10 +29,10 @@ The **DRM\_PLAY\_OPL\_EX** structure holds information about the output protecti
 
 ```C++
 typedef struct DRM_PLAY_OPL_EX {
-  DWORD                                dwVersion;
+  DWORD                                dwVersion;
   DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS minOPL;
-  DRM_OPL_OUTPUT_IDS                   oplIdReserved;
-  DRM_VIDEO_OUTPUT_PROTECTION_IDS_EX   vopi;
+  DRM_OPL_OUTPUT_IDS                   oplIdReserved;
+  DRM_VIDEO_OUTPUT_PROTECTION_IDS_EX   vopi;
 } ;
 ```
 
@@ -87,9 +94,9 @@ This structure is identical to the **DRM\_PLAY\_OPL** structure, except that it 
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

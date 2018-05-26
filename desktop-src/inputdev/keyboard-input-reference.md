@@ -1,7 +1,12 @@
 ---
 title: Keyboard Input Reference
 description: .
-ms.assetid: '02216e50-35b6-49f6-b6fa-645e745e4bd6'
+ms.assetid: 02216e50-35b6-49f6-b6fa-645e745e4bd6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard Input Reference

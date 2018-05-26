@@ -1,8 +1,14 @@
 ---
 title: QOS Events
 description: QOS makes certain information available to applications that register interest in obtaining event-related QOS information.
-ms.assetid: '5e3a8cb1-e841-4050-8083-48838fdc6caf'
-keywords: ["Quality of Service QOS , described, events"]
+ms.assetid: 5e3a8cb1-e841-4050-8083-48838fdc6caf
+keywords:
+- Quality of Service QOS , described, events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS Events

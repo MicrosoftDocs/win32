@@ -1,15 +1,18 @@
 ---
-Description: 'Updates the settings of a published application.'
+Description: Updates the settings of a published application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '92976dd0-ebea-4329-80f3-d87e2280ea2a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 92976dd0-ebea-4329-80f3-d87e2280ea2a
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetByID method of the CIM\_WebApplicationProxyApplication class'
+title: SetByID method of the CIM\_WebApplicationProxyApplication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByID method of the CIM\_WebApplicationProxyApplication class
@@ -21,25 +24,25 @@ Updates the settings of a published application.
 
 ```mof
 uint32 SetByID(
-  [in] string  ClientCertificateAuthenticationBindingMode,
-  [in] string  BackendServerCertificateValidation,
-  [in] string  ExternalUrl,
-  [in] string  ExternalCertificateThumbprint,
-  [in] string  BackendServerUrl,
-  [in] boolean DisableTranslateUrlInRequestHeaders,
-  [in] boolean EnableHTTPRedirect,
-  [in] string  ADFSUserCertificateStore,
-  [in] boolean DisableHttpOnlyCookieProtection,
-  [in] uint32  PersistentAccessCookieExpirationTimeSec,
-  [in] boolean EnableSignOut,
-  [in] string  BackendServerAuthenticationMode,
-  [in] boolean DisableTranslateUrlInResponseHeaders,
-  [in] string  BackendServerAuthenticationSPN,
-  [in] string  Name,
-  [in] boolean UseOAuthAuthentication,
-  [in] uint32  InactiveTransactionsTimeoutSec,
-  [in] string  ClientCertificatePreauthenticationThumbprint,
-  [in] string  ID
+  [in] string  ClientCertificateAuthenticationBindingMode,
+  [in] string  BackendServerCertificateValidation,
+  [in] string  ExternalUrl,
+  [in] string  ExternalCertificateThumbprint,
+  [in] string  BackendServerUrl,
+  [in] boolean DisableTranslateUrlInRequestHeaders,
+  [in] boolean EnableHTTPRedirect,
+  [in] string  ADFSUserCertificateStore,
+  [in] boolean DisableHttpOnlyCookieProtection,
+  [in] uint32  PersistentAccessCookieExpirationTimeSec,
+  [in] boolean EnableSignOut,
+  [in] string  BackendServerAuthenticationMode,
+  [in] boolean DisableTranslateUrlInResponseHeaders,
+  [in] string  BackendServerAuthenticationSPN,
+  [in] string  Name,
+  [in] boolean UseOAuthAuthentication,
+  [in] uint32  InactiveTransactionsTimeoutSec,
+  [in] string  ClientCertificatePreauthenticationThumbprint,
+  [in] string  ID
 );
 ```
 
@@ -136,7 +139,7 @@ The corporate network address of the web application in the format: *&lt;protoco
 
 Whether the web-application proxy should provide a redirect from HTTP URL to this URL.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -145,7 +148,7 @@ Whether the web-application proxy should provide a redirect from HTTP URL to thi
 
 The certificate store to use when collecting certificate data for applications that are ADFS for rich clients. If not specified the DRS certificate store as indicated in ADFS configuration is used.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -154,7 +157,7 @@ The certificate store to use when collecting certificate data for applications t
 
 **True** to disable the **HttpOnly** flag for the access cookie; otherwise, **false**.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -163,7 +166,7 @@ The certificate store to use when collecting certificate data for applications t
 
 The interval, in seconds, to persist the web-application-proxy-access cookie. You can use this parameter to enable single-sign-on for non-web-client applications.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -172,7 +175,7 @@ The interval, in seconds, to persist the web-application-proxy-access cookie. Yo
 
 Whether sign-out is enabled for this application.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -181,7 +184,7 @@ Whether sign-out is enabled for this application.
 
 Specifies the authentication method to be used by Web Application Proxy when contacting the backend server.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -245,7 +248,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -259,9 +262,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_WebApplicationProxyApplication**](cim-webapplicationproxyapplication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

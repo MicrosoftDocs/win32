@@ -1,7 +1,12 @@
 ---
-Description: 'Starts the service.'
-ms.assetid: '2803cc6f-64ea-4502-ae5a-075bdd3f8c96'
-title: 'StartService method of the Msvm\_VirtualSystemMigrationService class'
+Description: Starts the service.
+ms.assetid: 2803cc6f-64ea-4502-ae5a-075bdd3f8c96
+title: StartService method of the Msvm\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartService method of the Msvm\_VirtualSystemMigrationService class
@@ -39,8 +44,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ This method returns one of the following values:
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

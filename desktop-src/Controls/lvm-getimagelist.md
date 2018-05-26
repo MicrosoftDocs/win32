@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETIMAGELIST message
 description: Retrieves the handle to an image list used for drawing list-view items. You can send this message explicitly or by using the ListView\_GetImageList macro.
-ms.assetid: 'dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0'
-keywords: ["LVM_GETIMAGELIST message Windows Controls"]
+ms.assetid: dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0
+keywords:
+- LVM_GETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETIMAGELIST message
 
-Retrieves the handle to an image list used for drawing list-view items. You can send this message explicitly or by using the [**ListView\_GetImageList**](listview-getimagelist.md) macro.
+Retrieves the handle to an image list used for drawing list-view items. You can send this message explicitly or by using the [**ListView\_GetImageList**](/windows/win32/Commctrl/nf-commctrl-listview_getimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Image list to retrieve. This parameter can be one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -54,15 +60,15 @@ Returns the handle to the specified image list if successful, or **NULL** otherw
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection2 SetIsolationInfoEx method
 description: Is used by the NapAgent to set the isolation information for the client.
-ms.assetid: '1b1a41a1-73a6-4c81-8366-15d06c67e228'
-keywords: ["SetIsolationInfoEx method NAP", "SetIsolationInfoEx method NAP , INapEnforcementClientConnection2 interface", "INapEnforcementClientConnection2 interface NAP , SetIsolationInfoEx method"]
+ms.assetid: 1b1a41a1-73a6-4c81-8366-15d06c67e228
+keywords:
+- SetIsolationInfoEx method NAP
+- SetIsolationInfoEx method NAP , INapEnforcementClientConnection2 interface
+- INapEnforcementClientConnection2 interface NAP , SetIsolationInfoEx method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection2::SetIsolationInfoEx method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection2::SetIsolationInfoEx** method is used by the NapAgent to set the isolation information for the client.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection2::SetIsolationInfoEx** method is used by t
 
 ```C++
 HRESULT SetIsolationInfoEx(
-  [in] const IsolationInfoEx *isolationInfo
+  [in] const IsolationInfoEx *isolationInfo
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT SetIsolationInfoEx(
 *isolationInfo* \[in\]
 </dt> <dd>
 
-A pointer to an [**IsolationInfoEx**](isolationinfoex.md) structure that contains the connectivity state of the client.
+A pointer to an [**IsolationInfoEx**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfoex?branch=master) structure that contains the connectivity state of the client.
 
 </dd> </dl>
 
@@ -58,11 +66,11 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
-This information is set by NapAgent after processing an [**SoHResponse**](soh-struct.md) and must not be set by the enforcer.
+This information is set by NapAgent after processing an [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) and must not be set by the enforcer.
 
 ## Requirements
 
@@ -70,8 +78,8 @@ This information is set by NapAgent after processing an [**SoHResponse**](soh-st
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -85,9 +93,9 @@ This information is set by NapAgent after processing an [**SoHResponse**](soh-st
 [**INapEnforcementClientConnection2**](inapenforcementclientconnection2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum number of frames that the video capture source will buffer.'
-ms.assetid: 'af30606b-f1a0-4fbf-a831-05ed891f5d53'
-title: 'MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_MAX\_BUFFERS attribute'
+---
+Description: Specifies the maximum number of frames that the video capture source will buffer.
+ms.assetid: af30606b-f1a0-4fbf-a831-05ed891f5d53
+title: MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_MAX\_BUFFERS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_MAX\_BUFFERS attribute
@@ -14,9 +19,9 @@ Specifies the maximum number of frames that the video capture source will buffer
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -24,9 +29,9 @@ By default, the video capture source buffers a maximum of one frame at a time. Y
 
 The correct way to set this attribute depends on the function used to create the media source:
 
--   [**MFCreateDeviceSource**](mfcreatedevicesource.md): Set the attribute through the *pAttributes* parameter of the function.
--   [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md): Set the attribute through the *pAttributes* parameter of the function.
--   [**MFEnumDeviceSources**](mfenumdevicesources.md): Set the attribute on the [**IMFActivate**](imfactivate.md) pointer returned by the function. Set the attribute before calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md).
+-   [**MFCreateDeviceSource**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesource?branch=master): Set the attribute through the *pAttributes* parameter of the function.
+-   [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master): Set the attribute through the *pAttributes* parameter of the function.
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master): Set the attribute on the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer returned by the function. Set the attribute before calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master).
 
 The attribute applies only to video capture devices.
 

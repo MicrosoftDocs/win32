@@ -4,17 +4,21 @@ description: Maps the numeric error codes in the SDK to the relevant exception t
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '61A777F5-1479-4D34-B831-D56AEF71A207'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 61A777F5-1479-4D34-B831-D56AEF71A207
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectionExceptionType enum"]
+keywords:
+- ProtectionExceptionType enum
 topic_type:
 - apiref
 api_name:
 - ProtectionExceptionType enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectionExceptionType enum
@@ -54,7 +58,7 @@ public enum ProtectionExceptionType
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -70,7 +74,7 @@ ProtectionExceptionType.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -80,9 +84,9 @@ com.microsoft.rightsmanagement.exceptions
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,26 @@
 ---
 title: File Reading Features
 description: File Reading Features
-ms.assetid: 'ba6dd328-2250-4867-94e0-f66c70ac1bac'
-keywords: ["Windows Media Format SDK,file reading features", "Windows Media Format SDK,asynchronous file reading", "Windows Media Format SDK,synchronous file reading", "Advanced Systems Format (ASF),file reading features", "ASF (Advanced Systems Format),file reading features", "Advanced Systems Format (ASF),asynchronous file reading", "ASF (Advanced Systems Format),asynchronous file reading", "Advanced Systems Format (ASF),synchronous file reading", "ASF (Advanced Systems Format),synchronous file reading", "asynchronous file reading", "synchronous file reading", "synchronous readers,file reading features", "file reading"]
+ms.assetid: ba6dd328-2250-4867-94e0-f66c70ac1bac
+keywords:
+- Windows Media Format SDK,file reading features
+- Windows Media Format SDK,asynchronous file reading
+- Windows Media Format SDK,synchronous file reading
+- Advanced Systems Format (ASF),file reading features
+- ASF (Advanced Systems Format),file reading features
+- Advanced Systems Format (ASF),asynchronous file reading
+- ASF (Advanced Systems Format),asynchronous file reading
+- Advanced Systems Format (ASF),synchronous file reading
+- ASF (Advanced Systems Format),synchronous file reading
+- asynchronous file reading
+- synchronous file reading
+- synchronous readers,file reading features
+- file reading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Reading Features

@@ -4,13 +4,15 @@ description: Represents the information held by a security service to track iden
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd42311de-9f3a-4b66-96dc-56011705f4a1'
-ms.prod: 'windows-server-dev'
+ms.assetid: d42311de-9f3a-4b66-96dc-56011705f4a1
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Account class", "CIM_Account class, described"]
+keywords:
+- CIM_Account class
+- CIM_Account class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Account class
@@ -55,28 +60,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.0"), AMENDMENT]
 class CIM_Account : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Name;
-  string   UserID;
-  string   ObjectClass[];
-  string   Descriptions[];
-  string   Host[];
-  string   LocalityName[];
-  string   OrganizationName[];
-  string   OU[];
-  string   SeeAlso[];
-  string   UserCertificate[];
-  string   UserPassword[];
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Name;
+  string   UserID;
+  string   ObjectClass[];
+  string   Descriptions[];
+  string   Host[];
+  string   LocalityName[];
+  string   OrganizationName[];
+  string   OU[];
+  string   SeeAlso[];
+  string   UserCertificate[];
+  string   UserPassword[];
 };
 ```
 
@@ -752,8 +757,8 @@ An encrypted password used to access the person's resources in a directory.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -767,9 +772,9 @@ An encrypted password used to access the person's resources in a directory.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

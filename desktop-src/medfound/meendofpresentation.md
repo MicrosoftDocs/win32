@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a media source when a presentation ends. This event signals that all streams in the presentation are complete. The Media Session forwards this event to the application.'
-ms.assetid: '259b00ae-a91b-461b-a12f-f7291ecc04ff'
+---
+Description: Raised by a media source when a presentation ends. This event signals that all streams in the presentation are complete. The Media Session forwards this event to the application.
+ms.assetid: 259b00ae-a91b-461b-a12f-f7291ecc04ff
 title: MEEndOfPresentation event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEEndOfPresentation event
@@ -10,7 +15,7 @@ Raised by a media source when a presentation ends. This event signals that all s
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

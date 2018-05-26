@@ -4,11 +4,14 @@ description: Retrieves one or more ODBC DSNs from the system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5f73c113-7e03-4e7e-8c3c-0ba702aa42f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5f73c113-7e03-4e7e-8c3c-0ba702aa42f8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, MSFT_OdbcDsnTask class", "MSFT_OdbcDsnTask class, Get method"]
+keywords:
+- Get method
+- Get method, MSFT_OdbcDsnTask class
+- MSFT_OdbcDsnTask class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the MSFT\_OdbcDsnTask class
@@ -28,11 +34,11 @@ Retrieves one or more ODBC DSNs from the system.
 
 ```mof
 uint32 Get(
-  [in]  string       Name,
-  [in]  string       DriverName,
-  [in]  string       Platform,
-  [in]  string       DsnType,
-  [out] MSFT_OdbcDsn cmdletOutput[]
+  [in]  string       Name,
+  [in]  string       DriverName,
+  [in]  string       Platform,
+  [in]  string       DsnType,
+  [out] MSFT_OdbcDsn cmdletOutput[]
 );
 ```
 
@@ -83,8 +89,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDsn**](msft-odbcdsn.m
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
@@ -102,9 +108,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDsn**](msft-odbcdsn.m
 [**MSFT\_OdbcDsn**](msft-odbcdsn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

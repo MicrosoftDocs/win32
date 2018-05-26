@@ -2,13 +2,16 @@
 title: ConvertTo method of the PS\_DnsServerSecondaryZone class
 description: Converts a primary zone to a secondary zone. .
 audience: developer
-ms.assetid: '4efe979c-dc6a-4e8c-b5fe-4ee93b6c4386'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4efe979c-dc6a-4e8c-b5fe-4ee93b6c4386
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ConvertTo method", "ConvertTo method, PS_DnsServerSecondaryZone class", "PS_DnsServerSecondaryZone class, ConvertTo method"]
+keywords:
+- ConvertTo method
+- ConvertTo method, PS_DnsServerSecondaryZone class
+- PS_DnsServerSecondaryZone class, ConvertTo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConvertTo method of the PS\_DnsServerSecondaryZone class
@@ -28,13 +34,13 @@ Converts a primary zone to a secondary zone. .
 
 ```mof
 uint32 ConvertTo(
-  [in]  string                 ZoneFile,
-  [in]  string                 MasterServers[],
-  [in]  string                 Name,
-  [in]  string                 ComputerName,
-  [in]  boolean                PassThru,
-  [in]  boolean                Force,
-  [out] DnsServerSecondaryZone cmdletOutput
+  [in]  string                 ZoneFile,
+  [in]  string                 MasterServers[],
+  [in]  string                 Name,
+  [in]  string                 ComputerName,
+  [in]  boolean                PassThru,
+  [in]  boolean                Force,
+  [out] DnsServerSecondaryZone cmdletOutput
 );
 ```
 
@@ -100,7 +106,7 @@ On return, contains an embedded instance of [**DnsServerSecondaryZone**](dnsserv
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ On return, contains an embedded instance of [**DnsServerSecondaryZone**](dnsserv
 [**PS\_DnsServerSecondaryZone**](ps-dnsserversecondaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

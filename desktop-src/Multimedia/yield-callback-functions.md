@@ -1,8 +1,14 @@
 ---
 title: Yield Callback Functions
 description: Yield Callback Functions
-ms.assetid: '8c9b43ea-fdba-41a2-ba2d-1eaa4516e14f'
-keywords: ["AVICap callback functions,yield"]
+ms.assetid: 8c9b43ea-fdba-41a2-ba2d-1eaa4516e14f
+keywords:
+- AVICap callback functions,yield
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Yield Callback Functions

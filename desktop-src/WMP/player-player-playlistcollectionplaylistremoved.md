@@ -1,8 +1,11 @@
 ---
 title: Player.PlaylistCollectionPlaylistRemoved event
 description: The PlaylistCollectionPlaylistRemoved event occurs when a playlist is removed from the playlist collection.
-ms.assetid: '2405be98-b4c2-4b4e-bea6-0c48a3e26f18'
-keywords: ["PlaylistCollectionPlaylistRemoved event Windows Media Player", "PlaylistCollectionPlaylistRemoved event Windows Media Player , Player class", "Player class Windows Media Player , PlaylistCollectionPlaylistRemoved event"]
+ms.assetid: 2405be98-b4c2-4b4e-bea6-0c48a3e26f18
+keywords:
+- PlaylistCollectionPlaylistRemoved event Windows Media Player
+- PlaylistCollectionPlaylistRemoved event Windows Media Player , Player class
+- Player class Windows Media Player , PlaylistCollectionPlaylistRemoved event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.PlaylistCollectionPlaylistRemoved event
@@ -70,9 +78,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**PlaylistCollection.getByName**](playlistcollection-getbyname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

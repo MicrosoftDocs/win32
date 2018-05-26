@@ -1,8 +1,11 @@
 ---
 title: IVMDVDDriveEvents OnMediaEject method
 description: Receives notification that media has been ejected from the drive.
-ms.assetid: 'ec90fbce-7123-4bfa-abab-300e916fa089'
-keywords: ["OnMediaEject method Virtual PC", "OnMediaEject method Virtual PC , IVMDVDDriveEvents interface", "IVMDVDDriveEvents interface Virtual PC , OnMediaEject method"]
+ms.assetid: ec90fbce-7123-4bfa-abab-300e916fa089
+keywords:
+- OnMediaEject method Virtual PC
+- OnMediaEject method Virtual PC , IVMDVDDriveEvents interface
+- IVMDVDDriveEvents interface Virtual PC , OnMediaEject method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDriveEvents::OnMediaEject method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Receives notification that media has been ejected from the drive.
 
@@ -24,7 +32,7 @@ Receives notification that media has been ejected from the drive.
 
 ```C++
 HRESULT OnMediaEject(
-  [in] BSTR mediaPath
+  [in] BSTR mediaPath
 );
 ```
 
@@ -55,9 +63,9 @@ This method is called when media (an ISO image or a disc in a host drive) is eje
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | DIID\_IVMDVDDriveEvents is defined as c2a7d8e9-e76c-4eb8-94f7-71a5122d249b<br/>         |
@@ -71,9 +79,9 @@ This method is called when media (an ISO image or a disc in a host drive) is eje
 [**IVMDVDDriveEvents**](ivmdvddriveevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

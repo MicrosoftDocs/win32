@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads the binary data. Deprecated.'
-ms.assetid: '530552c5-bf05-4e86-836d-d25161832c6d'
-title: 'IDirectXFileBinary::Read method'
+---
+Description: Reads the binary data. Deprecated.
+ms.assetid: 530552c5-bf05-4e86-836d-d25161832c6d
+title: IDirectXFileBinaryRead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileBinary::Read method

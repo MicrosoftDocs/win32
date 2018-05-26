@@ -1,14 +1,20 @@
 ---
 title: WM/EncodingTime
 description: The WM/EncodingTime attribute contains a time stamp of the time at which the content was encoded.
-ms.assetid: '63da9392-264d-40bb-99fd-56db93801941'
-keywords: ["WM/EncodingTime windows Media Format"]
+ms.assetid: 63da9392-264d-40bb-99fd-56db93801941
+keywords:
+- WM/EncodingTime windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/EncodingTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/EncodingTime

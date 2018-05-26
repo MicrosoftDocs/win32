@@ -1,8 +1,14 @@
 ---
 title: DBTEXT
 description: DBTEXT
-ms.assetid: '24a96f9c-68a0-4e98-b2a4-3be12c56d069'
-keywords: ["DBTEXT"]
+ms.assetid: 24a96f9c-68a0-4e98-b2a4-3be12c56d069
+keywords:
+- DBTEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBTEXT

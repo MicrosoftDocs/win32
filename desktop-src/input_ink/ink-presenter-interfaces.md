@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics contained in this section provide the reference specifications for Ink presenter interfaces.'
-ms.assetid: '68172566-586C-41AC-82B8-5DBE8B50EC8F'
+---
+Description: The topics contained in this section provide the reference specifications for Ink presenter interfaces.
+ms.assetid: 68172566-586C-41AC-82B8-5DBE8B50EC8F
 title: Ink presenter interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink presenter interfaces
@@ -14,10 +19,10 @@ The topics contained in this section provide the reference specifications for [I
 
 | Topic                                                                   | Description                                                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IInkCommitRequestHandler**](iinkcommitrequesthandler.md)<br/> | An [**IInkCommitRequestHandler**](iinkcommitrequesthandler.md) object enables the app (instead of an [**IInkPresenterDesktop**](iinkpresenterdesktop.md) object) to commit all pending Microsoft DirectComposition commands to the app's [DirectComposition](directcomp.directcomposition_portal) visual tree.<br/>   |
-| [**IInkDesktopHost**](iinkdesktophost.md)<br/>                   | An [**IInkDesktopHost**](iinkdesktophost.md) object enables ink input, processing, and rendering through the creation of an app thread to host an [**IInkPresenterDesktop**](iinkpresenterdesktop.md) object and insert it into the app's [DirectComposition](directcomp.directcomposition_portal) visual tree. <br/> |
-| [**IInkHostWorkItem**](iinkhostworkitem.md)<br/>                 | An [**IInkHostWorkItem**](iinkhostworkitem.md) object represents an ink operation to be executed on an [**IInkDesktopHost**](iinkdesktophost.md) object thread.<br/>                                                                                                                                                  |
-| [**IInkPresenterDesktop**](iinkpresenterdesktop.md)<br/>         | An [**IInkPresenterDesktop**](iinkpresenterdesktop.md) object represents an [**InkPresenter**](w_ui_input_ink.inkpresenter) that can be configured and inserted into the [DirectComposition](directcomp.directcomposition_portal) visual tree of the Classic Windows app. <br/>                                        |
+| [**IInkCommitRequestHandler**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkcommitrequesthandler?branch=master)<br/> | An [**IInkCommitRequestHandler**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkcommitrequesthandler?branch=master) object enables the app (instead of an [**IInkPresenterDesktop**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkpresenterdesktop?branch=master) object) to commit all pending Microsoft DirectComposition commands to the app's [DirectComposition](directcomp.directcomposition_portal) visual tree.<br/>   |
+| [**IInkDesktopHost**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkdesktophost?branch=master)<br/>                   | An [**IInkDesktopHost**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkdesktophost?branch=master) object enables ink input, processing, and rendering through the creation of an app thread to host an [**IInkPresenterDesktop**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkpresenterdesktop?branch=master) object and insert it into the app's [DirectComposition](directcomp.directcomposition_portal) visual tree. <br/> |
+| [**IInkHostWorkItem**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkhostworkitem?branch=master)<br/>                 | An [**IInkHostWorkItem**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkhostworkitem?branch=master) object represents an ink operation to be executed on an [**IInkDesktopHost**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkdesktophost?branch=master) object thread.<br/>                                                                                                                                                  |
+| [**IInkPresenterDesktop**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkpresenterdesktop?branch=master)<br/>         | An [**IInkPresenterDesktop**](/windows/previous-versions/InkPresenterDesktop/nn-inkpresenterdesktop-iinkpresenterdesktop?branch=master) object represents an [**InkPresenter**](w_ui_input_ink.inkpresenter) that can be configured and inserted into the [DirectComposition](directcomp.directcomposition_portal) visual tree of the Classic Windows app. <br/>                                        |
 
 
 

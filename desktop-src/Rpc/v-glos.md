@@ -2,7 +2,12 @@
 title: V
 description: Words starting with V in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: '30a8c42a-b66a-4354-aece-0fc43721fdc1'
+ms.assetid: 30a8c42a-b66a-4354-aece-0fc43721fdc1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # V

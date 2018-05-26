@@ -1,7 +1,12 @@
 ---
 title: Common Color Messages
 description: The following messages are used with color.
-ms.assetid: 'b928d9a8-9c8b-48ab-aab7-4b8b76aa31d3'
+ms.assetid: b928d9a8-9c8b-48ab-aab7-4b8b76aa31d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Color Messages

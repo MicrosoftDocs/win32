@@ -1,7 +1,12 @@
 ---
 title: FontSize Property
 description: FontSize Property
-ms.assetid: '36d5526a-1ae9-4ef2-94f6-0ad63ce86882'
+ms.assetid: 36d5526a-1ae9-4ef2-94f6-0ad63ce86882
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontSize Property

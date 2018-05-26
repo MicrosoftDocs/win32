@@ -4,11 +4,14 @@ description: Retrieves a value that indicates the domain name of the Remote Desk
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '628f450d-10f4-4405-8d7c-ae58c72c2755'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 628f450d-10f4-4405-8d7c-ae58c72c2755
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Domain property Remote Desktop Services", "Domain property Remote Desktop Services , ITsSbClientConnection interface", "ITsSbClientConnection interface Remote Desktop Services , Domain property"]
+keywords:
+- Domain property Remote Desktop Services
+- Domain property Remote Desktop Services , ITsSbClientConnection interface
+- ITsSbClientConnection interface Remote Desktop Services , Domain property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbClientConnection::Domain property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Domain(
-  [out, retval] BSTR *pVal
+  [out, retval] BSTR *pVal
 );
 ```
 
@@ -48,7 +54,7 @@ A pointer to a **BSTR** variable that contains the domain name of the RDC client
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ A pointer to a **BSTR** variable that contains the domain name of the RDC client
 
 <dl> <dt>
 
-[**ITsSbClientConnection**](itssbclientconnection.md)
+[**ITsSbClientConnection**](/windows/win32/sbtsv/nn-sbtsv-itssbclientconnection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

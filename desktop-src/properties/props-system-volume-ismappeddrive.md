@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '13c94e17-760a-4656-886c-cb5fd4acf474'
-title: 'System.Volume.IsMappedDrive'
+Description: .
+ms.assetid: 13c94e17-760a-4656-886c-cb5fd4acf474
+title: System.Volume.IsMappedDrive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Volume.IsMappedDrive

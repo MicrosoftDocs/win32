@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PagePostDataChangedEnter event.'
+---
+Description: The event type class for the PagePostDataChangedEnter event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ee870432-b78a-412b-9c13-1fa70bae2a62'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ee870432-b78a-412b-9c13-1fa70bae2a62
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPagePostDataChangedEnter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPagePostDataChangedEnter class

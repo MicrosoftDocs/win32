@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a stylus comes within the digitizer''s range of detection.'
-ms.assetid: '22be233a-fc33-4a8f-91b6-28b2f2910b69'
-title: 'ITabletEventSink::CursorInRange method'
+Description: Occurs when a stylus comes within the digitizers range of detection.
+ms.assetid: 22be233a-fc33-4a8f-91b6-28b2f2910b69
+title: ITabletEventSinkCursorInRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::CursorInRange method
@@ -13,8 +18,8 @@ Occurs when a stylus comes within the digitizer's range of detection.
 
 ```C++
 HRESULT CursorInRange(
-  [in] TABLET_CONTEXT_ID tcid,
-       t                 cid
+  [in] TABLET_CONTEXT_ID tcid,
+       t                 cid
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -72,9 +77,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

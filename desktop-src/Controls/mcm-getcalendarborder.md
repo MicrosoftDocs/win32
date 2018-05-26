@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETCALENDARBORDER message
 description: Gets the size of the border, in pixels. You can send this message explicitly or by using the MonthCal\_GetCurrentView macro.
-ms.assetid: '68366ee1-7511-46a5-aab0-a42fb80c265f'
-keywords: ["MCM_GETCALENDARBORDER message Windows Controls"]
+ms.assetid: 68366ee1-7511-46a5-aab0-a42fb80c265f
+keywords:
+- MCM_GETCALENDARBORDER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETCALENDARBORDER message
 
-Gets the size of the border, in pixels. You can send this message explicitly or by using the [**MonthCal\_GetCurrentView**](monthcal-getcurrentview.md) macro.
+Gets the size of the border, in pixels. You can send this message explicitly or by using the [**MonthCal\_GetCurrentView**](/windows/win32/Commctrl/nf-commctrl-monthcal_getcurrentview?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Border size, in pixels.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

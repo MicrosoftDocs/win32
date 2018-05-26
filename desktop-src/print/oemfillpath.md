@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMFillPath function handles the filling of closed paths.'
-ms.assetid: 'a61081ad-308e-49c5-a428-1142520d38e4'
+---
+Description: The OEMFillPath function handles the filling of closed paths.
+ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 title: OEMFillPath function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMFillPath function

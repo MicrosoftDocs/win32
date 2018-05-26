@@ -1,8 +1,17 @@
 ---
 title: About Routing Protocol Interface
 description: The following documentation describes the integration of third-party routing protocols into the Routing and Remote Access Service (RRAS).
-ms.assetid: '593e3b8a-6f26-47c6-aa93-520d36db7a6f'
-keywords: ["Routing and Remote Access Service RRAS , Routing Protocol Interface", "Routing and Remote Access Service RRAS , Routing Protocol Interface, described", "Routing Protocol Interface RRAS", "Routing Protocol Interface RRAS , described"]
+ms.assetid: 593e3b8a-6f26-47c6-aa93-520d36db7a6f
+keywords:
+- Routing and Remote Access Service RRAS , Routing Protocol Interface
+- Routing and Remote Access Service RRAS , Routing Protocol Interface, described
+- Routing Protocol Interface RRAS
+- Routing Protocol Interface RRAS , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Routing Protocol Interface

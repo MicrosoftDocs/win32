@@ -1,7 +1,12 @@
 ---
-Description: 'An abstract class for subclasses that represent a collection of CIM\_ManagedSystemElement objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.'
-ms.assetid: 'f47bf1d6-6d89-4d9f-82d1-99a7343481bc'
-title: 'CIM\_CollectionOfMSEs class'
+Description: An abstract class for subclasses that represent a collection of CIM\_ManagedSystemElement objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.
+ms.assetid: f47bf1d6-6d89-4d9f-82d1-99a7343481bc
+title: CIM\_CollectionOfMSEs class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_CollectionOfMSEs class
@@ -52,8 +57,8 @@ The identification of the collection object. When subclassed, the **CollectionID
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -67,9 +72,9 @@ The identification of the collection object. When subclassed, the **CollectionID
 [**CIM\_Collection**](cim-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

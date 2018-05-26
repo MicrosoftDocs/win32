@@ -1,7 +1,12 @@
 ---
-Description: 'Associates the Msvm\_SnapshotCollection to the corresponding Msvm\_VirtualSystemCollection objects.'
-ms.assetid: '4dbfe21f-e700-4266-aedb-236c57c424f6'
-title: 'Msvm\_SnapshotOfVirtualSystemCollection class'
+Description: Associates the Msvm\_SnapshotCollection to the corresponding Msvm\_VirtualSystemCollection objects.
+ms.assetid: 4dbfe21f-e700-4266-aedb-236c57c424f6
+title: Msvm\_SnapshotOfVirtualSystemCollection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SnapshotOfVirtualSystemCollection class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_SnapshotOfVirtualSystemCollection : CIM_Dependency
 {
   CIM_CollectionOfMSEs REF Antecedent;
-  CIM_Collection       REF Dependent;
+  CIM_Collection       REF Dependent;
 };
 ```
 
@@ -71,8 +76,8 @@ A [**CIM\_Collection**](cim-collection.md) that represents the object that is de
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ A [**CIM\_Collection**](cim-collection.md) that represents the object that is de
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

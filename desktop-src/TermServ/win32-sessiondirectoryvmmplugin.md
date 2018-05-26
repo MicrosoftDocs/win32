@@ -4,11 +4,13 @@ description: Represents a virtual machine manager (VMM) plug-in registered with 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b5c5deb1-6c1b-4547-a24a-db3ce6654144'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b5c5deb1-6c1b-4547-a24a-db3ce6654144
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionDirectoryVMMPlugin class Remote Desktop Services", "Win32_SessionDirectoryVMMPlugin class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionDirectoryVMMPlugin class Remote Desktop Services
+- Win32_SessionDirectoryVMMPlugin class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionDirectoryVMMPlugin class
@@ -37,11 +42,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_WIN32_SESSIONDIRECTORYVMMPLUGIN_Prov"), AMENDMENT]
 class Win32_SessionDirectoryVMMPlugin
 {
-  string  sName;
-  string  sProvider;
-  string  sClassID;
-  string  sServiceLocation;
-  sint32  Priority = 0;
+  string  sName;
+  string  sProvider;
+  string  sClassID;
+  string  sServiceLocation;
+  sint32  Priority = 0;
   boolean Enabled = FALSE;
 };
 ```
@@ -72,7 +77,7 @@ The **Win32\_SessionDirectoryVMMPlugin** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -168,16 +173,16 @@ The service location that the plug-in should contact.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

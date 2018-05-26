@@ -1,7 +1,12 @@
 ---
 title: How to Write a Package
 description: This topic has been removed.
-ms.assetid: '4a65b96e-c955-4ddf-afaf-fd25c22fc829'
+ms.assetid: 4a65b96e-c955-4ddf-afaf-fd25c22fc829
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Write a Package

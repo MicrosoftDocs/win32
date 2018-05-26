@@ -1,8 +1,14 @@
 ---
 title: ARIA Role Error
 description: ARIA Role Error
-ms.assetid: 'FEEB4F28-4A71-4417-A2F9-ABCB86B44F0F'
-keywords: ["AriaRoleErrorId"]
+ms.assetid: FEEB4F28-4A71-4417-A2F9-ABCB86B44F0F
+keywords:
+- AriaRoleErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Role Error

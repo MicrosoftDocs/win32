@@ -1,7 +1,12 @@
 ---
 title: glGetMap Functions
 description: These functions return evaluator parameters.
-ms.assetid: '6476ccd2-a3d2-463d-9e6d-da6133dd569c'
+ms.assetid: 6476ccd2-a3d2-463d-9e6d-da6133dd569c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetMap Functions

@@ -4,17 +4,21 @@ description: Gets the set of granted rights.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0B5EDBDF-E420-420A-8672-1AB193F1BFAB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0B5EDBDF-E420-420A-8672-1AB193F1BFAB
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRights rights property"]
+keywords:
+- MSUserRights rights property
 topic_type:
 - apiref
 api_name:
 - MSUserRights rights property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRights rights property
@@ -37,7 +41,7 @@ Gets the set of granted rights.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserRights.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

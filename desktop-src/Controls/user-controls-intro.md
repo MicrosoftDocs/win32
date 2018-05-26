@@ -1,7 +1,12 @@
 ---
 title: Custom Controls
 description: This section contains information about application-defined or custom controls.
-ms.assetid: '220f7058-db04-46d0-acee-ed5e676790b3'
+ms.assetid: 220f7058-db04-46d0-acee-ed5e676790b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Controls
@@ -122,7 +127,7 @@ SendMessage(GetParent(hwndControl),
 
 
 
-Note that the [**NMHDR**](nmhdr.md) structure can be part of a larger control-defined structure that contains additional information. In the example, the old and new values of the control might be contained in this structure. (Such extended structures are used with many standard notifications; for example, see [LVN\_INSERTITEM](lvn-insertitem.md), which uses the [**NMLISTVIEW**](nmlistview.md) structure.)
+Note that the [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure can be part of a larger control-defined structure that contains additional information. In the example, the old and new values of the control might be contained in this structure. (Such extended structures are used with many standard notifications; for example, see [LVN\_INSERTITEM](lvn-insertitem.md), which uses the [**NMLISTVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmlistview?branch=master) structure.)
 
 ## Accessibility
 

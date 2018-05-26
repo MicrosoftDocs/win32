@@ -1,8 +1,23 @@
 ---
 title: ObjectModel Control Pattern
 description: Describes guidelines and conventions for implementing IObjectModelProvider, including information about methods. The ObjectModel control pattern is used to expose a pointer to the underlying object model of a document.
-ms.assetid: '90A6937E-0E98-41EF-8EEB-E23CB71510E4'
-keywords: ["UI Automation,implementing ObjectModel control pattern", "UI Automation,ObjectModel control pattern", "UI Automation,IObjectModelProvider", "IObjectModelProvider", "implementing UI Automation ObjectModel control pattern", "ObjectModel control pattern", "control patterns,IObjectModelProvider", "control patterns,implementing UI Automation ObjectModel", "control patterns,ObjectModel", "interfaces,IObjectModelProvider"]
+ms.assetid: 90A6937E-0E98-41EF-8EEB-E23CB71510E4
+keywords:
+- UI Automation,implementing ObjectModel control pattern
+- UI Automation,ObjectModel control pattern
+- UI Automation,IObjectModelProvider
+- IObjectModelProvider
+- implementing UI Automation ObjectModel control pattern
+- ObjectModel control pattern
+- control patterns,IObjectModelProvider
+- control patterns,implementing UI Automation ObjectModel
+- control patterns,ObjectModel
+- interfaces,IObjectModelProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ObjectModel Control Pattern

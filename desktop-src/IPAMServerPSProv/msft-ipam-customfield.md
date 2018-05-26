@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a custom metadata field in IPAM.'
+Description: Represents a custom metadata field in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6ea29d8d-2b70-4aed-a718-bb92c5be1073'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6ea29d8d-2b70-4aed-a718-bb92c5be1073
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_CustomField class'
+title: MSFT\_IPAM\_CustomField class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_CustomField class
@@ -24,23 +27,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_CustomField : CIM_LogicalElement
 {
-  string                Caption;
-  string                Description;
-  string                ElementName;
-  datetime              InstallDate;
-  uint16                OperationalStatus[];
-  string                StatusDescriptions[];
-  string                Status;
-  uint16                HealthState;
-  uint16                CommunicationStatus;
-  uint16                DetailedStatus;
-  uint16                OperatingStatus;
-  uint16                PrimaryStatus;
-  string                Name;
-  string                InstanceID;
-  string                Category;
-  boolean               MultiValue;
-  string                CustomValueName[];
+  string                Caption;
+  string                Description;
+  string                ElementName;
+  datetime              InstallDate;
+  uint16                OperationalStatus[];
+  string                StatusDescriptions[];
+  string                Status;
+  uint16                HealthState;
+  uint16                CommunicationStatus;
+  uint16                DetailedStatus;
+  uint16                OperatingStatus;
+  uint16                PrimaryStatus;
+  string                Name;
+  string                InstanceID;
+  string                Category;
+  boolean               MultiValue;
+  string                CustomValueName[];
   MSFT_IPAM_CustomValue CustomValue[];
 };
 ```
@@ -66,7 +69,7 @@ The **MSFT\_IPAM\_CustomField** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1181,7 +1184,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -1198,9 +1201,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

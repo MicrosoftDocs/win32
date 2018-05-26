@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetupPersistentIscsiVolumes method sets iSCSI volumes to be persistent.'
-ms.assetid: 'b1e48e98-3f11-4a2d-a99a-01db1cc8f9b1'
-title: 'SetupPersistentIScsiVolumes method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The SetupPersistentIscsiVolumes method sets iSCSI volumes to be persistent.
+ms.assetid: b1e48e98-3f11-4a2d-a99a-01db1cc8f9b1
+title: SetupPersistentIScsiVolumes method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetupPersistentIScsiVolumes method of the MSIscsiInitiator\_MethodClass class

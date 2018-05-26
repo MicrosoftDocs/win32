@@ -1,13 +1,16 @@
 ---
-Description: 'The SetAsClass method of the SWbemObjectPath object forces the path to address a WMI class.'
+Description: The SetAsClass method of the SWbemObjectPath object forces the path to address a WMI class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd341b980-bac9-4db4-a55f-eb971fb385da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d341b980-bac9-4db4-a55f-eb971fb385da
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectPath.SetAsClass property'
+title: SWbemObjectPath.SetAsClass property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath.SetAsClass property
@@ -46,8 +49,8 @@ Unspecified error.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -56,9 +59,9 @@ Unspecified error.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

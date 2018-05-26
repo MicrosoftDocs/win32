@@ -1,6 +1,11 @@
-﻿---
-Description: 'Exposes methods that enable a Shell folder to support different views on its content (different hierarchical layouts of its data).'
+---
+Description: Exposes methods that enable a Shell folder to support different views on its content (different hierarchical layouts of its data).
 title: IShellFolderViewType interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderViewType interface
@@ -22,7 +27,7 @@ The **IShellFolderViewType** interface has these methods.
 | Method                                                                      | Description                                                                                                                                                          |
 |:----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**EnumViews**](ishellfolderviewtype-enumviews.md)                         | Retrieves an enumerator that will return one PIDL for every extended view.<br/>                                                                                |
-| [**GetDefaultViewName**](ishellfolderviewtype-getdefaultviewname.md)       | Gets the name of the default view. Call [**IShellFolder::GetDisplayNameOf**](ishellfolder-getdisplaynameof.md) to retrieve the names of the other views.<br/> |
+| [**GetDefaultViewName**](ishellfolderviewtype-getdefaultviewname.md)       | Gets the name of the default view. Call [**IShellFolder::GetDisplayNameOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof?branch=master) to retrieve the names of the other views.<br/> |
 | [**GetViewTypeProperties**](ishellfolderviewtype-getviewtypeproperties.md) | Gets the properties of the view.<br/>                                                                                                                          |
 | [**TranslateViewPidl**](ishellfolderviewtype-translateviewpidl.md)         | Reconstructs a PIDL from one hierarchical representation of the Shell folder into a different representation.<br/>                                             |
 

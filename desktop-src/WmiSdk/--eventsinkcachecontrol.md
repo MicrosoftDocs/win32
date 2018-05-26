@@ -1,18 +1,21 @@
 ---
-Description: 'Used to determine when WMI releases an event consumer provider's IWbemUnboundObjectSink pointer.'
+Description: Used to determine when WMI releases an event consumer providers IWbemUnboundObjectSink pointer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f7b14efc-a2f7-4e99-8ec8-5b5af0743139'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f7b14efc-a2f7-4e99-8ec8-5b5af0743139
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventSinkCacheControl class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventSinkCacheControl class
 
-The **\_\_EventSinkCacheControl** system class is used to determine when WMI releases an event consumer provider's [**IWbemUnboundObjectSink**](iwbemunboundobjectsink.md) pointer. The **\_\_EventSinkCacheControl** class is a singleton class. It is located only in the \\root namespace.
+The **\_\_EventSinkCacheControl** system class is used to determine when WMI releases an event consumer provider's [**IWbemUnboundObjectSink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemunboundobjectsink?branch=master) pointer. The **\_\_EventSinkCacheControl** class is a singleton class. It is located only in the \\root namespace.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -61,8 +64,8 @@ The **\_\_EventSinkCacheControl** class is derived from [**\_\_CacheControl**](-
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | Root<br/>                |
 
 
@@ -74,9 +77,9 @@ The **\_\_EventSinkCacheControl** class is derived from [**\_\_CacheControl**](-
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

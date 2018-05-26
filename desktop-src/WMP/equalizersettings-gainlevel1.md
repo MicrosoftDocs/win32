@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel1
 description: The gainLevel1 attribute specifies or retrieves the gain level of band 1.
-ms.assetid: '3d681ade-3fd4-432d-ae92-c083d927346f'
-keywords: ["EQUALIZERSETTINGS.gainLevel1 Windows Media Player"]
+ms.assetid: 3d681ade-3fd4-432d-ae92-c083d927346f
+keywords:
+- EQUALIZERSETTINGS.gainLevel1 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel1
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel1
@@ -21,7 +27,7 @@ The **gainLevel1** attribute specifies or retrieves the gain level of band 1.
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

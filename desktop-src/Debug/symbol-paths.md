@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgHelp library uses the symbol search path to locate debug symbols (.pdb and .dbg files). The search path can be made up of one or more path elements separated by semicolons.'
-ms.assetid: '3527f589-285b-4cdf-b024-17920971a904'
+Description: The DbgHelp library uses the symbol search path to locate debug symbols (.pdb and .dbg files). The search path can be made up of one or more path elements separated by semicolons.
+ms.assetid: 3527f589-285b-4cdf-b024-17920971a904
 title: Symbol Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbol Paths
@@ -10,15 +15,15 @@ The DbgHelp library uses the symbol search path to locate debug symbols (.pdb an
 
 ## Specifying Search Paths
 
-To specify where the symbol handler will search disk directories for symbol files, call the [**SymSetSearchPath**](symsetsearchpath.md) function. Alternatively, you can specify a symbol search path in the *UserSearchPath* parameter of the [**SymInitialize**](syminitialize.md) function.
+To specify where the symbol handler will search disk directories for symbol files, call the [**SymSetSearchPath**](/windows/win32/Dbghelp/nf-dbghelp-symsetsearchpath?branch=master) function. Alternatively, you can specify a symbol search path in the *UserSearchPath* parameter of the [**SymInitialize**](/windows/win32/Dbghelp/nf-dbghelp-syminitialize?branch=master) function.
 
-The *UserSearchPath* parameter in [**SymInitialize**](syminitialize.md) and the *SearchPath* parameter in [**SymSetSearchPath**](symsetsearchpath.md) take a pointer to a null-terminated string that specifies a path, or series of paths separated by a semicolon. The symbol handler uses these paths to search for symbol files. If this parameter is **NULL**, the symbol handler searches the directory that contains the module for which symbols are being searched. Otherwise, if this parameter is specified as a non-**NULL** value, the symbol handler first searches the paths set by the application before searching the module directory. If you set the \_NT\_SYMBOL\_PATH or \_NT\_ALT\_SYMBOL\_PATH environment variable, the symbol handler searches for symbol files in the following order:
+The *UserSearchPath* parameter in [**SymInitialize**](/windows/win32/Dbghelp/nf-dbghelp-syminitialize?branch=master) and the *SearchPath* parameter in [**SymSetSearchPath**](/windows/win32/Dbghelp/nf-dbghelp-symsetsearchpath?branch=master) take a pointer to a null-terminated string that specifies a path, or series of paths separated by a semicolon. The symbol handler uses these paths to search for symbol files. If this parameter is **NULL**, the symbol handler searches the directory that contains the module for which symbols are being searched. Otherwise, if this parameter is specified as a non-**NULL** value, the symbol handler first searches the paths set by the application before searching the module directory. If you set the \_NT\_SYMBOL\_PATH or \_NT\_ALT\_SYMBOL\_PATH environment variable, the symbol handler searches for symbol files in the following order:
 
 1.  The \_NT\_SYMBOL\_PATH environment variable.
 2.  The \_NT\_ALT\_SYMBOL\_PATH environment variable.
 3.  The directory that contains the corresponding module.
 
-To retrieve the search paths, call the [**SymGetSearchPath**](symgetsearchpath.md) function.
+To retrieve the search paths, call the [**SymGetSearchPath**](/windows/win32/Dbghelp/nf-dbghelp-symgetsearchpath?branch=master) function.
 
 The search path for program database (.pdb) files is different than the path for debug (.dbg) files. The algorithm is determined by the functionality of the symbol library. By default, Microsoft Visual C/C++ creates Microsoft format symbols, strips them from the image, and places them in a separate .pdb file. Typically, the .pdb file will be located in the directory that contains the executable image. Visual C/C++ embeds the absolute path to the .pdb file in the executable image. If the symbol handler cannot find the .pdb file in that location or if the .pdb file was moved to another directory, the symbol handler will locate the .pdb file using the search path described for .dbg files.
 

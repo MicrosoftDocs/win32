@@ -1,7 +1,12 @@
 ---
-Description: 'The horizontal size of the image, in pixels.'
-ms.assetid: 'ce14b6eb-d50e-460b-93b6-b4e21824e5cf'
-title: 'System.Image.HorizontalSize'
+Description: The horizontal size of the image, in pixels.
+ms.assetid: ce14b6eb-d50e-460b-93b6-b4e21824e5cf
+title: System.Image.HorizontalSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.HorizontalSize

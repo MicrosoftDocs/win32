@@ -1,7 +1,12 @@
 ---
 title: DuplicateAccessKey
 description: DuplicateAccessKey
-ms.assetid: 'D2F94C6D-65D6-4A73-9421-43C22BAFA085'
+ms.assetid: D2F94C6D-65D6-4A73-9421-43C22BAFA085
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DuplicateAccessKey
@@ -24,10 +29,10 @@ This issue causes problems for people who rely on the keyboard for navigation be
 
 <dl> <dt>
 
-[**IAccessible::get\_accKeyboardShortcut**](iaccessible-iaccessible--get-acckeyboardshortcut.md)
+[**IAccessible::get\_accKeyboardShortcut**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut?branch=master)
 </dt> <dt>
 
-[**IAccessible::get\_accName**](iaccessible-iaccessible--get-accname.md)
+[**IAccessible::get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)
 </dt> <dt>
 
 [KeyboardShortcut Property](keyboardshortcut-property.md)

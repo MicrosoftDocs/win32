@@ -1,7 +1,12 @@
 ---
-Description: 'File ownership.'
-ms.assetid: 'd29d70d7-8a0b-4fa5-afb7-ba115028e115'
-title: 'System.Security.EncryptionOwners'
+Description: File ownership.
+ms.assetid: d29d70d7-8a0b-4fa5-afb7-ba115028e115
+title: System.Security.EncryptionOwners
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Security.EncryptionOwners

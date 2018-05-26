@@ -1,14 +1,20 @@
 ---
 title: sessionStateChangeType Simple Type
 description: Defines values for the kind of Terminal Server session state change you can use to trigger a task to start.
-ms.assetid: '56e19ec0-ea6c-4434-ab9d-a1069108920f'
-keywords: ["sessionStateChangeType simple type Task Scheduler"]
+ms.assetid: 56e19ec0-ea6c-4434-ab9d-a1069108920f
+keywords:
+- sessionStateChangeType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - sessionStateChangeType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sessionStateChangeType Simple Type
@@ -65,14 +71,14 @@ The **sessionStateChangeType** simple type defines the following values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

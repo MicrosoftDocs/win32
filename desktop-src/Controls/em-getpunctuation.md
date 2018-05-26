@@ -1,8 +1,9 @@
 ---
 title: EM\_GETPUNCTUATION message
 description: Gets the current punctuation characters for the rich edit control.
-ms.assetid: '1c04967b-d75e-4f54-b35b-cd50bac9cdfa'
-keywords: ["EM_GETPUNCTUATION message Windows Controls"]
+ms.assetid: 1c04967b-d75e-4f54-b35b-cd50bac9cdfa
+keywords:
+- EM_GETPUNCTUATION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETPUNCTUATION message
@@ -18,9 +24,9 @@ api_type:
 Gets the current punctuation characters for the rich edit control.
 
 > [!Note]  
-> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions of Rich Edit.
+> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions of Rich Edit.
 
- 
+ 
 
 ## Parameters
 
@@ -42,14 +48,14 @@ The punctuation type can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PUNCTUATION**](punctuation.md) structure that receives the punctuation characters.
+Pointer to a [**PUNCTUATION**](/windows/win32/Richedit/ns-richedit-_punctuation?branch=master) structure that receives the punctuation characters.
 
 </dd> </dl>
 
@@ -65,8 +71,8 @@ If the operation fails, the return value is zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -81,12 +87,12 @@ If the operation fails, the return value is zero.
 [**EM\_SETPUNCTUATION**](em-setpunctuation.md)
 </dt> <dt>
 
-[**PUNCTUATION**](punctuation.md)
+[**PUNCTUATION**](/windows/win32/Richedit/ns-richedit-_punctuation?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

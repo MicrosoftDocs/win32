@@ -1,8 +1,14 @@
 ---
 title: TBN\_GETDISPINFO notification code
 description: Retrieves display information for a toolbar item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ed6e4141-2bf8-4a92-8349-f3833c87fcf3'
-keywords: ["TBN_GETDISPINFO notification code Windows Controls"]
+ms.assetid: ed6e4141-2bf8-4a92-8349-f3833c87fcf3
+keywords:
+- TBN_GETDISPINFO notification code Windows Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_GETDISPINFO notification code
@@ -25,7 +31,7 @@ TBN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBDISPINFO**](nmtbdispinfo.md) structure. The **idCommand** member specifies the item's command identifier, the **lParam** member contains the item's application-defined data, and the **dwMask** member specifies what information is being requested.
+Pointer to an [**NMTBDISPINFO**](/windows/win32/Commctrl/ns-commctrl-nmtbdispinfoa?branch=master) structure. The **idCommand** member specifies the item's command identifier, the **lParam** member contains the item's application-defined data, and the **dwMask** member specifies what information is being requested.
 
 </dd> </dl>
 
@@ -39,16 +45,16 @@ The return value is ignored by the control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TBN\_GETDISPINFOW** (Unicode) and **TBN\_GETDISPINFOA** (ANSI)<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

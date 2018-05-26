@@ -1,13 +1,30 @@
 ---
 title: Windows Contact Schema Overview
 description: This topic defines how the contact schema is used to read and write contact properties using IContactProperties.
-ms.assetid: 'c2dfb974-3c79-4656-bd63-30bfb881bd92'
-keywords: ["Windows Contacts,schema", "Windows Contacts,property categories", "Windows Contacts,single-value property type", "Windows Contacts,hierarchical property type", "Windows Contacts,property extensibility", "Windows Contacts,using labels", "Windows Contacts,contacts API programming", "Windows Contacts,element definitions", "Windows Contacts,standard labels", "Windows Contacts,labels", "single-value property type", "hierarchical property type"]
+ms.assetid: c2dfb974-3c79-4656-bd63-30bfb881bd92
+keywords:
+- Windows Contacts,schema
+- Windows Contacts,property categories
+- Windows Contacts,single-value property type
+- Windows Contacts,hierarchical property type
+- Windows Contacts,property extensibility
+- Windows Contacts,using labels
+- Windows Contacts,contacts API programming
+- Windows Contacts,element definitions
+- Windows Contacts,standard labels
+- Windows Contacts,labels
+- single-value property type
+- hierarchical property type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Contact Schema Overview
 
-This topic defines how the contact schema is used to read and write contact properties using [**IContactProperties**](-wincontacts-icontactproperties.md).
+This topic defines how the contact schema is used to read and write contact properties using [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master).
 
 New applications should not use these interfaces. These interfaces exist for backward compatibility with legacy applications. These interfaces will be unavailable in the future.
 
@@ -29,10 +46,10 @@ Contact properties fit into one of two categories:
 
 ## Contact Property Extensibility
 
-Applications that use contacts may want contact data that the application-supplied schema does not provide. [**IContactProperties**](-wincontacts-icontactproperties.md) supports two approaches to extend the base contact schema:
+Applications that use contacts may want contact data that the application-supplied schema does not provide. [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) supports two approaches to extend the base contact schema:
 
--   *Using Labels*: For hierarchical properties, application-supplied contact array nodes can be differentiated by applying labels (arbitrary strings) to each node. For example, a phone number can be labeled with *Voice* or *Pager*. You can create custom labels or use one from the base schema. See [Standard Labels for Contact Properties](#standard-labels-for-contact-properties) below. Custom labels must be created in the form of Uniform Resource Identifiers (URIs). For more information, see [Programming Windows Contacts](-wincontacts-example-entry.md) for a code example that uses [**IContactProperties**](-wincontacts-icontactproperties.md) to set a unique label on an existing property. **IContactProperties** also provides methods to manipulate labels and to filter data to obtain a desired [**IContactPropertyCollection**](-wincontacts-icontactpropertycollection.md).
--   *Contacts API programming*: For single-value and hierarchical properties, an outside application can define new contact properties and array nodes (see [**CreateArrayNode**](-wincontacts-icontactproperties-createarraynode.md)). The data contained in these new properties can be enumerated by [**IContactProperties**](-wincontacts-icontactproperties.md) from other applications. For an example of this, see [Programming Windows Contacts](-wincontacts-example-entry.md).
+-   *Using Labels*: For hierarchical properties, application-supplied contact array nodes can be differentiated by applying labels (arbitrary strings) to each node. For example, a phone number can be labeled with *Voice* or *Pager*. You can create custom labels or use one from the base schema. See [Standard Labels for Contact Properties](#standard-labels-for-contact-properties) below. Custom labels must be created in the form of Uniform Resource Identifiers (URIs). For more information, see [Programming Windows Contacts](-wincontacts-example-entry.md) for a code example that uses [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) to set a unique label on an existing property. **IContactProperties** also provides methods to manipulate labels and to filter data to obtain a desired [**IContactPropertyCollection**](/windows/previous-versions/icontact/nn-icontact-icontactpropertycollection?branch=master).
+-   *Contacts API programming*: For single-value and hierarchical properties, an outside application can define new contact properties and array nodes (see [**CreateArrayNode**](/windows/previous-versions/icontact/nf-icontact-icontactproperties-createarraynode?branch=master)). The data contained in these new properties can be enumerated by [**IContactProperties**](/windows/previous-versions/icontact/nn-icontact-icontactproperties?branch=master) from other applications. For an example of this, see [Programming Windows Contacts](-wincontacts-example-entry.md).
     > [!Note]  
     > Developers must prefix a unique namespace (in brackets) to these new contact properties to avoid conflicts.
 
@@ -60,7 +77,7 @@ The following elements are defined for the base schema:
 
 ### Hierarchical Properties
 
-These properties contain many values differentiated by labels. To access the heirarchical properties through [**GetString**](-wincontacts-icontactproperties-getstring.md), [**GetDate**](-wincontacts-icontactproperties-getdate.md), and [**GetBinary**](-wincontacts-icontactproperties-getbinary.md) you need to provide an index (1 based). For example, a parameter in the form of L"NameCollection/Name\[1\]/Title" returns the Title string of the first Name property in the contact.
+These properties contain many values differentiated by labels. To access the heirarchical properties through [**GetString**](/windows/previous-versions/icontact/nf-icontact-icontactproperties-getstring?branch=master), [**GetDate**](/windows/previous-versions/icontact/nf-icontact-icontactproperties-getdate?branch=master), and [**GetBinary**](/windows/previous-versions/icontact/nf-icontact-icontactproperties-getbinary?branch=master) you need to provide an index (1 based). For example, a parameter in the form of L"NameCollection/Name\[1\]/Title" returns the Title string of the first Name property in the contact.
 
 
 
@@ -236,7 +253,7 @@ CONTACTPROP\_PUB\_L3\_PERSONID
 
 L"/PersonID"
 
-Unique ID for this person, which may be a ContactID from another [**IContact**](-wincontacts-icontact.md) entry
+Unique ID for this person, which may be a ContactID from another [**IContact**](/windows/previous-versions/icontact/nn-icontact-icontact?branch=master) entry
 
 CONTACTPROP\_PUB\_L1\_DATECOLLECTION
 

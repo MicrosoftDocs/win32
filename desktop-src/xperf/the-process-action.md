@@ -1,7 +1,12 @@
 ---
 title: The Process Action
 description: The Process Action
-ms.assetid: 'ecba7f7d-000e-459b-bfe6-a351bc7abf33'
+ms.assetid: ecba7f7d-000e-459b-bfe6-a351bc7abf33
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Process Action
@@ -30,13 +35,13 @@ The following table includes the individual options.
 
 
 
- 
+ 
 
 If no option is given, only processes are shown.
 
- 
+ 
 
- 
+ 
 
 
 

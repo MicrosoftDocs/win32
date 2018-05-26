@@ -1,8 +1,15 @@
 ---
 title: Working with Variable Binding Lists
 description: A variable binding is the pairing of an SNMP object instance name with an associated value. A variable binding list is a series of variable binding entries. In WinSNMP, a protocol data unit (PDU) includes a variable binding list.
-ms.assetid: 'e6353ae7-1d32-4de4-8518-49864fcbfc57'
-keywords: ["Working with Variable Binding Lists SNMP", "Variable Binding Lists SNMP , SNMP"]
+ms.assetid: e6353ae7-1d32-4de4-8518-49864fcbfc57
+keywords:
+- Working with Variable Binding Lists SNMP
+- Variable Binding Lists SNMP , SNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Variable Binding Lists

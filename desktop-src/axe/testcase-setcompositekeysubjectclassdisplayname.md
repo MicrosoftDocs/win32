@@ -1,8 +1,11 @@
 ---
 title: TestCase SetCompositeKeySubjectClassDisplayName method
 description: Sets the composite key subject class display name of the TestCase.
-ms.assetid: 'DE5AE466-8058-40E0-B731-177B2526B3B7'
-keywords: ["SetCompositeKeySubjectClassDisplayName method Access Execution Engine", "SetCompositeKeySubjectClassDisplayName method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , SetCompositeKeySubjectClassDisplayName method"]
+ms.assetid: DE5AE466-8058-40E0-B731-177B2526B3B7
+keywords:
+- SetCompositeKeySubjectClassDisplayName method Access Execution Engine
+- SetCompositeKeySubjectClassDisplayName method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , SetCompositeKeySubjectClassDisplayName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::SetCompositeKeySubjectClassDisplayName method
@@ -22,7 +30,7 @@ Sets the composite key subject class display name of the **TestCase.**
 
 ```C++
 virtual HRESULT SetCompositeKeySubjectClassDisplayName(
-  [in] LPCWSTR compositeKeySubjectClassDisplayName
+  [in] LPCWSTR compositeKeySubjectClassDisplayName
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ This method is deprecated.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ This method is deprecated.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

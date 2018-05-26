@@ -1,8 +1,10 @@
 ---
 title: INETADDRLIST structure
 description: Contains an Internet address list.
-ms.assetid: '5d8b7245-d307-402a-a940-ad6a1ad25bad'
-keywords: ["INETADDRLIST structure Windows Mail (formerly Outlook Express)", "LPINETADDRLIST structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 5d8b7245-d307-402a-a940-ad6a1ad25bad
+keywords:
+- INETADDRLIST structure Windows Mail (formerly Outlook Express)
+- LPINETADDRLIST structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INETADDRLIST structure
@@ -24,7 +31,7 @@ Contains an Internet address list.
 
 ```C++
 typedef struct tagINETADDRLIST {
-  ULONG      cAddress;
+  ULONG      cAddress;
   LPINETADDR prgAddress;
 } INETADDRLIST, *LPINETADDRLIST;
 ```
@@ -63,17 +70,17 @@ Contains a pointer to an array of [**INETADDR**](oe-inetaddr.md) structures.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

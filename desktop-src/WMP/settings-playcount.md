@@ -1,8 +1,9 @@
 ---
 title: Settings.playCount
 description: The playCount property specifies or retrieves the number of times a media item will play.
-ms.assetid: 'e15d97c6-312a-414d-9b3c-2a15e9081b35'
-keywords: ["Settings.playCount Windows Media Player"]
+ms.assetid: e15d97c6-312a-414d-9b3c-2a15e9081b35
+keywords:
+- Settings.playCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.playCount
@@ -45,9 +51,9 @@ This property is a read/write **Number** (**long**) with a minimum value of one 
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

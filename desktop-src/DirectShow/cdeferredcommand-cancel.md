@@ -1,7 +1,12 @@
 ---
-Description: 'The Cancel method cancels a previously queued CDeferredCommand::Invoke request.'
-ms.assetid: '77671f6b-db50-4d8a-b727-aeed365f0303'
-title: 'CDeferredCommand.Cancel method'
+Description: The Cancel method cancels a previously queued CDeferredCommandInvoke request.
+ms.assetid: 77671f6b-db50-4d8a-b727-aeed365f0303
+title: CDeferredCommand.Cancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.Cancel method
@@ -27,7 +32,7 @@ Returns VFW\_E\_ALREADY\_CANCELLED if **m\_pQueue** is **NULL**. Returns an **HR
 
 ## Remarks
 
-This member function implements the [**IDeferredCommand::Cancel**](ideferredcommand-cancel.md) method.
+This member function implements the [**IDeferredCommand::Cancel**](/windows/win32/Control/nf-control-ideferredcommand-cancel?branch=master) method.
 
 ## Requirements
 
@@ -47,9 +52,9 @@ This member function implements the [**IDeferredCommand::Cancel**](ideferredcomm
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

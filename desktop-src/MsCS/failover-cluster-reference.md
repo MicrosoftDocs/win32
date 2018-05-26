@@ -4,10 +4,13 @@ description: This section describes the programming elements that developers can
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '96AAC685-EBD9-48CA-8863-026CFC5A77AA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 96AAC685-EBD9-48CA-8863-026CFC5A77AA
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Reference

@@ -1,7 +1,12 @@
 ---
 title: Adding Buttons to a Help Window
 description: Adding Buttons to a Help Window
-ms.assetid: '9AFAB474-C638-4451-92FD-49FEDD260B1A'
+ms.assetid: 9AFAB474-C638-4451-92FD-49FEDD260B1A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Buttons to a Help Window

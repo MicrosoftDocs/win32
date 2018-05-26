@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport2 EnableFetchEx method
 description: Enables extended support for the FETCH command responses.
-ms.assetid: 'ccc5ec41-a52e-4de0-a0e1-03e4161b9a85'
-keywords: ["EnableFetchEx method Windows Mail (formerly Outlook Express)", "EnableFetchEx method Windows Mail (formerly Outlook Express) , IIMAPTransport2 interface", "IIMAPTransport2 interface Windows Mail (formerly Outlook Express) , EnableFetchEx method"]
+ms.assetid: ccc5ec41-a52e-4de0-a0e1-03e4161b9a85
+keywords:
+- EnableFetchEx method Windows Mail (formerly Outlook Express)
+- EnableFetchEx method Windows Mail (formerly Outlook Express) , IIMAPTransport2 interface
+- IIMAPTransport2 interface Windows Mail (formerly Outlook Express) , EnableFetchEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport2::EnableFetchEx method
@@ -24,7 +32,7 @@ Enables extended support for the FETCH command responses.
 
 ```C++
 HRESULT EnableFetchEx(
-  [in] DWORD dwFetchExFlags
+  [in] DWORD dwFetchExFlags
 );
 ```
 
@@ -50,7 +58,7 @@ Specifies a **DWORD** that indicates whether to enable the FETCH command extensi
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -72,8 +80,8 @@ This method enables a larger set of FETCH command responses to be read. Server r
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -81,9 +89,9 @@ This method enables a larger set of FETCH command responses to be read. Server r
 
 
 
- 
+ 
 
- 
+ 
 
 
 

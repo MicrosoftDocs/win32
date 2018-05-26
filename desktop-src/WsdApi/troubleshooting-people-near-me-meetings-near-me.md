@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the diagnostic procedures to use when troubleshooting People Near Me/Meetings Near Me.'
-ms.assetid: '36190bc2-59f6-41ff-b443-894abb7f2ed8'
-title: 'Troubleshooting People Near Me/Meetings Near Me'
+Description: Lists the diagnostic procedures to use when troubleshooting People Near Me/Meetings Near Me.
+ms.assetid: 36190bc2-59f6-41ff-b443-894abb7f2ed8
+title: Troubleshooting People Near Me/Meetings Near Me
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting People Near Me/Meetings Near Me

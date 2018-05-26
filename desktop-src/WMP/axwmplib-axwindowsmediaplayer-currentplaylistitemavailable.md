@@ -1,8 +1,9 @@
 ---
 title: CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
 description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available.
-ms.assetid: '101807c9-b00f-4351-a9a3-5413a52496f4'
-keywords: ["CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 101807c9-b00f-4351-a9a3-5413a52496f4
+keywords:
+- CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cur
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +83,9 @@ The name of the current playlist can be used to retrieve the corresponding **IWM
 [**IWMPPlaylistCollection.getByName (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

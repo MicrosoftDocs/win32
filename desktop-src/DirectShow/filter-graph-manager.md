@@ -1,7 +1,12 @@
 ---
 Description: Filter Graph Manager
-ms.assetid: 'a227539a-7f9a-4f8d-99fe-f9ab67df9ef4'
+ms.assetid: a227539a-7f9a-4f8d-99fe-f9ab67df9ef4
 title: Filter Graph Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Graph Manager
@@ -32,32 +37,32 @@ Generally, applications should use CLSID\_FilterGraph. Both CLSIDs create the sa
 
 The Filter Graph Manager exposes the following interfaces:
 
--   [**IAMGraphStreams**](iamgraphstreams.md)
--   [**IAMStats**](iamstats.md)
--   [**IBasicAudio**](ibasicaudio.md)
--   [**IBasicVideo**](ibasicvideo.md)
--   [**IBasicVideo2**](ibasicvideo2.md)
--   [**IFilterChain**](ifilterchain.md)
--   [**IFilterGraph**](ifiltergraph.md)
--   [**IFilterGraph2**](ifiltergraph2.md)
--   [**IFilterGraph3**](ifiltergraph3.md)
--   [**IFilterMapper2**](ifiltermapper2.md)
--   [**IGraphBuilder**](igraphbuilder.md)
--   [**IGraphConfig**](igraphconfig.md)
--   [**IGraphVersion**](igraphversion.md)
--   [**IMediaControl**](imediacontrol.md)
--   [**IMediaEvent**](imediaevent.md)
--   [**IMediaEventEx**](imediaeventex.md)
--   [**IMediaEventSink**](imediaeventsink.md)
--   [**IMediaFilter**](imediafilter.md)
--   [**IMediaPosition**](imediaposition.md)
--   [**IMediaSeeking**](imediaseeking.md)
--   [**IQueueCommand**](iqueuecommand.md)
--   [**IRegisterServiceProvider**](iregisterserviceprovider.md)
--   [**IResourceManager**](iresourcemanager.md)
+-   [**IAMGraphStreams**](/windows/win32/Strmif/nn-strmif-iamgraphstreams?branch=master)
+-   [**IAMStats**](/windows/win32/Control/nn-control-iamstats?branch=master)
+-   [**IBasicAudio**](/windows/win32/Control/nn-control-ibasicaudio?branch=master)
+-   [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master)
+-   [**IBasicVideo2**](/windows/win32/Control/nn-control-ibasicvideo2?branch=master)
+-   [**IFilterChain**](/windows/win32/Strmif/nn-strmif-ifilterchain?branch=master)
+-   [**IFilterGraph**](/windows/win32/Strmif/nn-strmif-ifiltergraph?branch=master)
+-   [**IFilterGraph2**](/windows/win32/Strmif/nn-strmif-ifiltergraph2?branch=master)
+-   [**IFilterGraph3**](/windows/win32/Strmif/nn-strmif-ifiltergraph3?branch=master)
+-   [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master)
+-   [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master)
+-   [**IGraphConfig**](/windows/win32/Strmif/nn-strmif-igraphconfig?branch=master)
+-   [**IGraphVersion**](/windows/win32/Strmif/nn-strmif-igraphversion?branch=master)
+-   [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master)
+-   [**IMediaEvent**](/windows/win32/Control/nn-control-imediaevent?branch=master)
+-   [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master)
+-   [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master)
+-   [**IMediaFilter**](/windows/win32/Strmif/nn-strmif-imediafilter?branch=master)
+-   [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master)
+-   [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)
+-   [**IQueueCommand**](/windows/win32/Control/nn-control-iqueuecommand?branch=master)
+-   [**IRegisterServiceProvider**](/windows/win32/Strmif/nn-strmif-iregisterserviceprovider?branch=master)
+-   [**IResourceManager**](/windows/win32/Strmif/nn-strmif-iresourcemanager?branch=master)
 -   **IServiceProvider**
--   [**IVideoFrameStep**](ivideoframestep.md)
--   [**IVideoWindow**](ivideowindow.md)
+-   [**IVideoFrameStep**](/windows/win32/Strmif/nn-strmif-ivideoframestep?branch=master)
+-   [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master)
 
 ## Related topics
 

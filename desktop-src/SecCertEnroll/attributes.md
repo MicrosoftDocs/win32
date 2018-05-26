@@ -1,7 +1,12 @@
 ---
-Description: 'Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate.'
-ms.assetid: '098be796-dbf9-4332-8450-01ed8b2e6c12'
+Description: Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate.
+ms.assetid: 098be796-dbf9-4332-8450-01ed8b2e6c12
 title: Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes

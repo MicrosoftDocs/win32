@@ -1,16 +1,33 @@
 ---
 title: Encryption and Decryption
 description: Encryption and Decryption
-ms.assetid: '6aef4138-0391-4edd-b4fc-d6d0ec3c735b'
-keywords: ["Windows Media Device Manager,encryption", "Device Manager,encryption", "desktop applications,encryption", "service providers,encryption", "programming guide,encryption", "encryption", "Windows Media Device Manager,decryption", "Device Manager,decryption", "desktop applications,decryption", "service providers,decryption", "programming guide,decryption", "decryption"]
+ms.assetid: 6aef4138-0391-4edd-b4fc-d6d0ec3c735b
+keywords:
+- Windows Media Device Manager,encryption
+- Device Manager,encryption
+- desktop applications,encryption
+- service providers,encryption
+- programming guide,encryption
+- encryption
+- Windows Media Device Manager,decryption
+- Device Manager,decryption
+- desktop applications,decryption
+- service providers,decryption
+- programming guide,decryption
+- decryption
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encryption and Decryption
 
 Windows Media Device Manager requires encryption of files sent between the service provider and the application. This can be done in one of two ways:
 
--   If the service provider supports only [**IMDSPObject::Read**](imdspobject-read.md) and [**IMDSPObject::Write**](imdspobject-write.md), the data must be encrypted and decrypted by the application and service provider by using [CSecureChannelClient](csecurechannelclient-class.md) and [CSecureChannelServer](csecurechannelserver-class.md) methods respectively.
--   If the service provider supports [**IMDSPObject2::ReadOnClearChannel**](imdspobject2-readonclearchannel.md) and [**IMDSPObject2::WriteOnClearChannel**](imdspobject2-writeonclearchannel.md), your application can avoid costly secure channel message authentication. (The secure channel is retained so that legacy service providers that do not implement [**IMDSPObject2**](imdspobject2.md) can still continue to function.)
+-   If the service provider supports only [**IMDSPObject::Read**](/windows/win32/mswmdm/nf-mswmdm-imdspobject-read?branch=master) and [**IMDSPObject::Write**](/windows/win32/mswmdm/nf-mswmdm-imdspobject-write?branch=master), the data must be encrypted and decrypted by the application and service provider by using [CSecureChannelClient](csecurechannelclient-class.md) and [CSecureChannelServer](csecurechannelserver-class.md) methods respectively.
+-   If the service provider supports [**IMDSPObject2::ReadOnClearChannel**](/windows/win32/mswmdm/nf-mswmdm-imdspobject2-readonclearchannel?branch=master) and [**IMDSPObject2::WriteOnClearChannel**](/windows/win32/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel?branch=master), your application can avoid costly secure channel message authentication. (The secure channel is retained so that legacy service providers that do not implement [**IMDSPObject2**](/windows/win32/mswmdm/nn-mswmdm-imdspobject2?branch=master) can still continue to function.)
 
 The encryption requirement prevents malicious applications from obtaining data that is being passed between software components, and also protects the integrity of data being sent to or from the device.
 
@@ -20,24 +37,24 @@ The following three methods require encryption or decryption.
 
 | Method                                                                          | Description                                                                                                |
 |---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| [**IWMDMOperation::TransferObjectData**](iwmdmoperation-transferobjectdata.md) | (Application) Encryption or decryption, depending on whether the application is sending or receiving data. |
-| [**IMDSPObject::Read**](imdspobject-read.md)                                   | (Service provider) Encryption.                                                                             |
-| [**IMDSPObject::Write**](imdspobject-write.md)                                 | (Service Provider) Decryption.                                                                             |
+| [**IWMDMOperation::TransferObjectData**](/windows/win32/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata?branch=master) | (Application) Encryption or decryption, depending on whether the application is sending or receiving data. |
+| [**IMDSPObject::Read**](/windows/win32/mswmdm/nf-mswmdm-imdspobject-read?branch=master)                                   | (Service provider) Encryption.                                                                             |
+| [**IMDSPObject::Write**](/windows/win32/mswmdm/nf-mswmdm-imdspobject-write?branch=master)                                 | (Service Provider) Decryption.                                                                             |
 
 
 
  
 
-Encryption and decryption are both done by single method calls. Encryption is done by [**CSecureChannelClient::EncryptParam**](csecurechannelclient-encryptparam.md) for applications or by [**CSecureChannelServer::EncryptParam**](csecurechannelserver-encryptparam.md) for service providers. Decryption is done by [**CSecureChannelClient::DecryptParam**](csecurechannelclient-decryptparam.md) for applications or [**CSecureChannelServer::DecryptParam**](csecurechannelserver-decryptparam.md) for service providers. The parameters are identical between the client and server methods.
+Encryption and decryption are both done by single method calls. Encryption is done by [**CSecureChannelClient::EncryptParam**](/windows/win32/scclient/nf-scclient-csecurechannelclient-encryptparam?branch=master) for applications or by [**CSecureChannelServer::EncryptParam**](/windows/win32/scserver/nf-scserver-csecurechannelserver-encryptparam?branch=master) for service providers. Decryption is done by [**CSecureChannelClient::DecryptParam**](/windows/win32/scclient/nf-scclient-csecurechannelclient-decryptparam?branch=master) for applications or [**CSecureChannelServer::DecryptParam**](/windows/win32/scserver/nf-scserver-csecurechannelserver-decryptparam?branch=master) for service providers. The parameters are identical between the client and server methods.
 
-The following steps show how to encrypt and decrypt data. (These steps are important only if your application communicates with a legacy service provider that does not implement [IWMDMOperation3::TransferObjectDataOnClearChannel](iwmdmoperation3--transferobjectdataonclearchannel.md).)
+The following steps show how to encrypt and decrypt data. (These steps are important only if your application communicates with a legacy service provider that does not implement [IWMDMOperation3::TransferObjectDataOnClearChannel](/windows/win32/mswmdm/nf-mswmdm-iwmdmoperation3-transferobjectdataonclearchannel?branch=master).)
 
 **Encryption**
 
 1.  Create the MAC key for the encrypted data, as described in [Message Authentication](message-authentication.md).
 2.  Call **EncryptParam** with the data to encrypt, to perform in-place encryption.
 
-The following code example demonstrates a service provider's implementation of [**IMDSPObject::Read**](imdspobject-read.md). This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
+The following code example demonstrates a service provider's implementation of [**IMDSPObject::Read**](/windows/win32/mswmdm/nf-mswmdm-imdspobject-read?branch=master). This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
 
 
 ```C++
@@ -123,7 +140,7 @@ Error:
 1.  Call **DecryptParam** with the data to encrypt, to perform in-place decryption.
 2.  Verify the MAC key for the decrypted data, as described in [Message Authentication](message-authentication.md).
 
-The following code example demonstrates a service provider's implementation of [**IMDSPObject::Write**](imdspobject-write.md). This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
+The following code example demonstrates a service provider's implementation of [**IMDSPObject::Write**](/windows/win32/mswmdm/nf-mswmdm-imdspobject-write?branch=master). This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
 
 
 ```C++

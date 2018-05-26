@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a volume.'
-ms.assetid: 'c0224f4e-3d32-4bdd-b56c-4e8aa291bb27'
-title: 'D3DVOLUME\_DESC structure'
+---
+Description: Describes a volume.
+ms.assetid: c0224f4e-3d32-4bdd-b56c-4e8aa291bb27
+title: D3DVOLUME\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DVOLUME\_DESC structure
@@ -123,10 +128,10 @@ Depth of the volume, in pixels.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetDesc**](idirect3dvolume9--getdesc.md)
+[**GetDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvolume9-getdesc?branch=master)
 </dt> <dt>
 
-[**GetLevelDesc**](idirect3dvolumetexture9--getleveldesc.md)
+[**GetLevelDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvolumetexture9-getleveldesc?branch=master)
 </dt> </dl>
 
  

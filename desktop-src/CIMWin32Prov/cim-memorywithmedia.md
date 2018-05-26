@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_MemoryWithMedia class associates physical memory with a physical media and its cartridge. The memory provides media identification and stores user-specific data.'
+Description: The CIM\_MemoryWithMedia class associates physical memory with a physical media and its cartridge. The memory provides media identification and stores user-specific data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '99806d2d-6575-431d-9149-dc8ea767146c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 99806d2d-6575-431d-9149-dc8ea767146c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_MemoryWithMedia class'
+title: CIM\_MemoryWithMedia class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MemoryWithMedia class
@@ -19,7 +22,7 @@ The **CIM\_MemoryWithMedia** class associates physical memory with a physical me
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FAF76B7E-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_MemoryWithMedia : CIM_Dependency
 {
-  CIM_PhysicalMedia  REF Dependent;
+  CIM_PhysicalMedia  REF Dependent;
   CIM_PhysicalMemory REF Antecedent;
 };
 ```
@@ -92,8 +95,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -107,9 +110,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

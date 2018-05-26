@@ -1,14 +1,20 @@
 ---
 title: 
 description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element.
-ms.assetid: '307b2d2a-1678-4aa9-82ed-46d401cf0e0f'
-keywords: ["AcceptServerName element EAPHost"]
+ms.assetid: 307b2d2a-1678-4aa9-82ed-46d401cf0e0f
+keywords:
+- AcceptServerName element EAPHost
 topic_type:
 - apiref
 api_name:
 - AcceptServerName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 
@@ -33,8 +39,8 @@ The **AcceptServerName** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The **AcceptServerName** element is optional.
 [**AcceptServerName (EapType)**](eaptlsconnectionpropertiesv1schema-tlsextensionstype-peapextensionstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

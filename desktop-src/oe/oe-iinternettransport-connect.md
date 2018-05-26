@@ -1,8 +1,11 @@
 ---
 title: IInternetTransport Connect method
 description: Connects the transport to the specified server.
-ms.assetid: '4859f2b1-fa96-4141-994e-816386b6ef3c'
-keywords: ["Connect method Windows Mail (formerly Outlook Express)", "Connect method Windows Mail (formerly Outlook Express) , IInternetTransport interface", "IInternetTransport interface Windows Mail (formerly Outlook Express) , Connect method"]
+ms.assetid: 4859f2b1-fa96-4141-994e-816386b6ef3c
+keywords:
+- Connect method Windows Mail (formerly Outlook Express)
+- Connect method Windows Mail (formerly Outlook Express) , IInternetTransport interface
+- IInternetTransport interface Windows Mail (formerly Outlook Express) , Connect method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInternetTransport::Connect method
@@ -24,9 +32,9 @@ Connects the transport to the specified server.
 
 ```C++
 HRESULT Connect(
-  [in] LPINETSERVER pInetServer,
-  [in] boolean      fAuthenticate,
-  [in] boolean      fCommandLogging
+  [in] LPINETSERVER pInetServer,
+  [in] boolean      fAuthenticate,
+  [in] boolean      fCommandLogging
 );
 ```
 
@@ -61,7 +69,7 @@ Specifies whether the transport should authenticate the server.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,7 +89,7 @@ If you pass **FALSE**, the [**OnCommand**](oe-itransportcallback-oncommand.md) m
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -105,7 +113,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -119,8 +127,8 @@ Each transport defines a terminal connect state. For example, Simple Mail Transp
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -128,9 +136,9 @@ Each transport defines a terminal connect state. For example, Simple Mail Transp
 
 
 
- 
+ 
 
- 
+ 
 
 
 

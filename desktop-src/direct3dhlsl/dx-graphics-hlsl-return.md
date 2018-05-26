@@ -1,14 +1,20 @@
 ---
 title: return Statement
 description: A return statement signals the end of a function.
-ms.assetid: 'e6c097af-ba0b-4abc-8099-69882ced1e18'
-keywords: ["return Statement HLSL"]
+ms.assetid: e6c097af-ba0b-4abc-8099-69882ced1e18
+keywords:
+- return Statement HLSL
 topic_type:
 - apiref
 api_name:
 - return Statement
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # return Statement

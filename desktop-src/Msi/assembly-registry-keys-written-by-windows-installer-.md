@@ -1,14 +1,19 @@
 ---
-Description: 'If a Windows Installer package installs or advertises assemblies, the installer stores information about those assemblies in the local system registry.'
-ms.assetid: '1a6b0530-b5ad-49db-bc08-5b20d32420ef'
+Description: If a Windows Installer package installs or advertises assemblies, the installer stores information about those assemblies in the local system registry.
+ms.assetid: 1a6b0530-b5ad-49db-bc08-5b20d32420ef
 title: Assembly Registry Keys Written by Windows Installer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assembly Registry Keys Written by Windows Installer
 
-If a Windows Installer package installs or advertises assemblies, the installer stores information about those assemblies in the local system registry. Please note that these registry keys are only intended to be used internally by Windows Installer and they should not be relied upon by your application. The content, location, and structure of information stored in these keys is subject to change. Applications should rely upon [**MsiProvideAssembly**](msiprovideassembly.md) to manage assemblies.
+If a Windows Installer package installs or advertises assemblies, the installer stores information about those assemblies in the local system registry. Please note that these registry keys are only intended to be used internally by Windows Installer and they should not be relied upon by your application. The content, location, and structure of information stored in these keys is subject to change. Applications should rely upon [**MsiProvideAssembly**](/windows/win32/Msi/nf-msi-msiprovideassemblya?branch=master) to manage assemblies.
 
-Assemblies are registered by their assembly names. The names of the values stored in the following locations are the assembly names. The actual values are of the type REG\_MULTI\_SZ and contain data used by [**MsiProvideAssembly**](msiprovideassembly.md) to install or repair assemblies.
+Assemblies are registered by their assembly names. The names of the values stored in the following locations are the assembly names. The actual values are of the type REG\_MULTI\_SZ and contain data used by [**MsiProvideAssembly**](/windows/win32/Msi/nf-msi-msiprovideassemblya?branch=master) to install or repair assemblies.
 
 ## Information About Private Assemblies
 

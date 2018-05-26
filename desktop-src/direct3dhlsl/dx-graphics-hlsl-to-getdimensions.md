@@ -1,7 +1,12 @@
 ---
 title: GetDimensions (DirectX HLSL Texture Object)
 description: Gets texture size information. The syntax block shows all the parameters that are possible in the method declaration. The table in the Remarks section shows which parameters are implemented for each texture-object type.
-ms.assetid: 'b72e54da-382a-4b90-bbfe-0b32effc7c05'
+ms.assetid: b72e54da-382a-4b90-bbfe-0b32effc7c05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDimensions (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Gets texture size information. The syntax block shows all the parameters that ar
 
 
 
- 
+ 
 
 typeX denotes that there are two possible types: **uint** or **float**.
 
@@ -37,7 +42,7 @@ typeX denotes that there are two possible types: **uint** or **float**.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -52,41 +57,41 @@ This table lists all the different versions of the method; versions differs by t
 | Texture-Object Type | Input Parameters                                                               |
 |---------------------|--------------------------------------------------------------------------------|
 | Texture1D           | UINT MipLevel, UINT Width, UINT NumberOfLevels                                 |
-| Texture1D¹          | UINT Width                                                                     |
+| Texture1D           | UINT Width                                                                     |
 | Texture1D           | UINT MipLevel, float Width, float NumberOfLevels                               |
-| Texture1D¹          | float Width                                                                    |
+| Texture1D           | float Width                                                                    |
 | Texture1DArray      | UINT MipLevel, UINT Width, UINT Elements, UINT NumberOfLevels                  |
-| Texture1DArray¹     | UINT Width, UINT Elements                                                      |
+| Texture1DArray      | UINT Width, UINT Elements                                                      |
 | Texture1DArray      | UINT MipLevel, float Width, float Elements, float NumberOfLevels               |
-| Texture1DArray¹     | float Width, float Elements                                                    |
+| Texture1DArray      | float Width, float Elements                                                    |
 | Texture2D           | UINT MipLevel, UINT Width, UINT Height, UINT NumberOfLevels                    |
-| Texture2D¹          | UINT Width, UINT Height                                                        |
+| Texture2D           | UINT Width, UINT Height                                                        |
 | Texture2D           | UINT MipLevel, float Width, float Height, float NumberOfLevels                 |
-| Texture2D¹          | float Width, float Height                                                      |
+| Texture2D           | float Width, float Height                                                      |
 | Texture2DArray      | UINT MipLevel, UINT Width, UINT Height, UINT Elements, UINT NumberOfLevels     |
-| Texture2DArray¹     | UINT Width, UINT Height, UINT Elements                                         |
+| Texture2DArray      | UINT Width, UINT Height, UINT Elements                                         |
 | Texture2DArray      | UINT MipLevel, float Width, float Height, float Elements, float NumberOfLevels |
-| Texture2DArray¹     | float Width, float Height, float Elements                                      |
+| Texture2DArray      | float Width, float Height, float Elements                                      |
 | Texture3D           | UINT MipLevel, UINT Width, UINT Height, UINT Depth, UINT NumberOfLevels        |
-| Texture3D¹          | UINT Width, UINT Height, UINT Depth                                            |
+| Texture3D           | UINT Width, UINT Height, UINT Depth                                            |
 | Texture3D           | UINT MipLevel, float Width, float Height, float Depth, float NumberOfLevels    |
-| Texture3D¹          | float Width, float Height, float Depth                                         |
+| Texture3D           | float Width, float Height, float Depth                                         |
 | TextureCube         | UINT MipLevel, UINT Width, UINT Height, UINT NumberOfLevels                    |
-| TextureCube¹        | UINT Width, UINT Height                                                        |
+| TextureCube         | UINT Width, UINT Height                                                        |
 | TextureCube         | UINT MipLevel, float Width, float Height, UINT NumberOfLevels                  |
-| TextureCube¹        | float Width, float Height                                                      |
-| TextureCubeArray²   | UINT MipLevel, UINT Width, UINT Height, UINT Elements, UINT NumberOfLevels     |
-| TextureCubeArray ¹² | UINT Width, UINT Height, UINT Elements                                         |
-| TextureCubeArray²   | UINT MipLevel, float Width, float Height, float Elements, float NumberOfLevels |
-| TextureCubeArray¹²  | float Width, float Height, float Elements                                      |
-| Texture2DMS¹        | UINT Width, UINT Height, UINT Samples                                          |
-| Texture2DMS¹        | float Width, float Height, float Samples                                       |
-| Texture2DMSArray¹   | UINT Width, UINT Height, UINT Elements, UINT Samples                           |
-| Texture2DMSArray¹   | float Width, float Height, float Elements, float Samples                       |
+| TextureCube         | float Width, float Height                                                      |
+| TextureCubeArray    | UINT MipLevel, UINT Width, UINT Height, UINT Elements, UINT NumberOfLevels     |
+| TextureCubeArray    | UINT Width, UINT Height, UINT Elements                                         |
+| TextureCubeArray    | UINT MipLevel, float Width, float Height, float Elements, float NumberOfLevels |
+| TextureCubeArray    | float Width, float Height, float Elements                                      |
+| Texture2DMS         | UINT Width, UINT Height, UINT Samples                                          |
+| Texture2DMS         | float Width, float Height, float Samples                                       |
+| Texture2DMSArray    | UINT Width, UINT Height, UINT Elements, UINT Samples                           |
+| Texture2DMSArray    | float Width, float Height, float Elements, float Samples                       |
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -94,13 +99,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1³ | ps\_4\_0 | ps\_4\_1³ | gs\_4\_0 | gs\_4\_1³ |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 | x        | x         | x        | x         | x        | x         |
 
 
 
- 
+ 
 
 1.  Returns dimensions for the largest (zeroth) mipmap level.
 2.  TextureCubeArray is available in Shader Model 4.1 or higher.
@@ -113,9 +118,9 @@ This function is supported in the following shader models.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Processing one of a component''s file sets may require a requester to traverse a directory tree recursively, which can require the requester to handle mounted folders and reparse points (such as links) that point to data that is not on the current volume.'
-ms.assetid: 'd0e08598-a8a2-489b-9cb2-e989bed1ce53'
+Description: Processing one of a components file sets may require a requester to traverse a directory tree recursively, which can require the requester to handle mounted folders and reparse points (such as links) that point to data that is not on the current volume.
+ms.assetid: d0e08598-a8a2-489b-9cb2-e989bed1ce53
 title: Working with Mounted Folders and Reparse Points
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Mounted Folders and Reparse Points
@@ -31,7 +36,7 @@ The basic rules for handling mounted folders and reparse points under VSS when p
 
 To illustrate using the example above, because the recursive flag is set, the requester must examine all data under C:\\WriterData\\Archive and below.
 
-The requester must add both the volume with drive letter C:\\ (\\\\?\\Volume{GUID\_1}) and the volume associated with the mounted folder C:\\WriterData\\Archive (\\\\?\\Volume{GUID\_2}) to the shadow copy set using [**IVssBackupComponents::AddToSnapshotSet**](ivssbackupcomponents-addtosnapshotset.md).
+The requester must add both the volume with drive letter C:\\ (\\\\?\\Volume{GUID\_1}) and the volume associated with the mounted folder C:\\WriterData\\Archive (\\\\?\\Volume{GUID\_2}) to the shadow copy set using [**IVssBackupComponents::AddToSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset?branch=master).
 
 The mounted folder C:\\WriterData\\Archive appears in the shadow copy of volume \\\\?\\Volume{GUID\_1}, which has a device object named deviceObject1.
 

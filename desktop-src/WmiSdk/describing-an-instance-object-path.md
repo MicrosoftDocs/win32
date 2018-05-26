@@ -1,13 +1,16 @@
 ---
-Description: 'An instance object path describes the location of an instance of a given class within a specific namespace.'
+Description: An instance object path describes the location of an instance of a given class within a specific namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '78a194f0-cd21-4622-9242-be7e430b96c0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 78a194f0-cd21-4622-9242-be7e430b96c0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing an Instance Object Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Describing an Instance Object Path
@@ -72,9 +75,9 @@ The following procedure describes how to retrieve a class instance.
 
 1.  Initialize a string that contains the object path with a call to the [**SysAllocString**](9e0437a2-9b4a-4576-88b0-5cb9d08ca29b) function.
 2.  Initialize an object that will receive the instance.
-3.  Retrieve the object with a call to [**IWbemServices::GetObject**](iwbemservices-getobject.md) or [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md).
+3.  Retrieve the object with a call to [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
 
-    To use [**GetObjectAsync**](iwbemservices-getobjectasync.md), you must implement the [**IWbemSink**](swbemsink.md) interface.
+    To use [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master), you must implement the [**IWbemSink**](swbemsink.md) interface.
 
 The following \#include statement is required for the code that is listed later in this topic to compile correctly.
 

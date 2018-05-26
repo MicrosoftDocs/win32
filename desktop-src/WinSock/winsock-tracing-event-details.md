@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Winsock Network Event Tracing Details
-ms.assetid: 'f0386bd3-15d0-45f3-82c9-365d1c9f59c5'
+ms.assetid: f0386bd3-15d0-45f3-82c9-365d1c9f59c5
 title: Winsock Network Event Tracing Details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winsock Network Event Tracing Details
@@ -16,10 +21,10 @@ Level = 4 (Information)
 
 The following Winsock events are traced for socket creation:
 
--   Socket handles created by calls to the [**socket**](socket-2.md) or [**WSASocket**](wsasocket-2.md) functions.
+-   Socket handles created by calls to the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) or [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master) functions.
 -   Accepted socket handles on listening sockets.
--   Socket handles created by calls to the [**WSAJoinLeaf**](wsajoinleaf-2.md) function.
--   Socket handles re-used by calls to the [**AcceptEx**](acceptex-2.md) or [**ConnectEx**](connectex-2.md) functions.
+-   Socket handles created by calls to the [**WSAJoinLeaf**](/windows/win32/Winsock2/nf-winsock2-wsajoinleaf?branch=master) function.
+-   Socket handles re-used by calls to the [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master) or [**ConnectEx**](/windows/win32/Mswsock/nc-mswsock-lpfn_connectex?branch=master) functions.
 
 The following parameters are logged for a socket creation event:
 
@@ -93,7 +98,7 @@ Event ID = 4 (IPv4), Event ID = 5 (IPv6)
 
 Level = 4 (Information)
 
-The following Winsock events are traced for a connect operation request (a call to the [**connect**](connect-2.md), [**ConnectEx**](connectex-2.md), [**WSAConnect**](wsaconnect-2.md), [**WSAConnectByList**](wsaconnectbylist.md), or [**WSAConnectByName**](wsaconnectbyname-2.md) function):
+The following Winsock events are traced for a connect operation request (a call to the [**connect**](/windows/win32/Winsock2/nf-winsock2-connect?branch=master), [**ConnectEx**](/windows/win32/Mswsock/nc-mswsock-lpfn_connectex?branch=master), [**WSAConnect**](/windows/win32/Winsock2/nf-winsock2-wsaconnect?branch=master), [**WSAConnectByList**](/windows/win32/Winsock2/nf-winsock2-wsaconnectbylist?branch=master), or [**WSAConnectByName**](/windows/win32/Winsock2/nf-winsock2-wsaconnectbynamea?branch=master) function):
 
 -   Connecting a socket to a destination for either a connection-oriented or a connectionless socket.
 
@@ -145,19 +150,19 @@ Level = 4 (Information)
 The following Winsock events are traced for Winsock-initiated aborts or cancel operations:
 
 -   An abort due to unread receive data buffered after close.
--   An abort after a call to the [**shutdown**](shutdown-2.md) function with the *how* parameter set to SD\_RECEIVE and a call to the [**closesocket**](closesocket-2.md) function with receive data pending.
+-   An abort after a call to the [**shutdown**](/windows/win32/winsock/nf-winsock-shutdown?branch=master) function with the *how* parameter set to SD\_RECEIVE and a call to the [**closesocket**](/windows/win32/winsock/nf-winsock-closesocket?branch=master) function with receive data pending.
 -   An abort after a failed attempt to flush the endpoint.
 -   An abort after an internal Winsock error occurred.
 -   An abort due to a connection with errors and the application previously requested that the connection be aborted on certain circumstances. One example of this case would be an application that set SO\_LINGER with a timeout of zero and there is still unacknowledged data on the connection.
 -   An abort on a connection not fully associated with accepting endpoint.
--   An abort on a failed call to the [**accept**](accept-2.md) or [**AcceptEx**](acceptex-2.md) function.
+-   An abort on a failed call to the [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master) or [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master) function.
 -   An abort due to a failed receive operation.
 -   An abort due to a Plug and Play event.
 -   An abort due to a failed flush request.
 -   An abort due to a failed expedited data receive request.
 -   An abort due to a failed send request.
 -   An abort due to canceled send request.
--   An abort due to a canceled called to the [**TransmitPackets**](transmitpackets-2.md) function.
+-   An abort due to a canceled called to the [**TransmitPackets**](/windows/win32/Mswsock/nc-mswsock-lpfn_transmitpackets?branch=master) function.
 
 The following parameters are logged for a Winsock-initiated abort or cancel operation:
 
@@ -203,9 +208,9 @@ Event ID = 9
 
 Level = 4 (Information)
 
-The following Winsock events are traced for errors on [**send**](send-2.md) or [**WSASend**](wsasend-2.md) requests:
+The following Winsock events are traced for errors on [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) or [**WSASend**](/windows/win32/Winsock2/nf-winsock2-wsasend?branch=master) requests:
 
--   Errors returned on failed [**send**](send-2.md) or [**WSASend**](wsasend-2.md) requests.
+-   Errors returned on failed [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) or [**WSASend**](/windows/win32/Winsock2/nf-winsock2-wsasend?branch=master) requests.
 
 The following parameters are logged for a send requests that results in an error:
 
@@ -227,9 +232,9 @@ Event ID = 10
 
 Level = 4 (Information)
 
-The following Winsock events are traced for errors on [**WSASendMsg**](wsasendmsg.md) requests:
+The following Winsock events are traced for errors on [**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master) requests:
 
--   Errors returned on failed [**WSASendMsg**](wsasendmsg.md) requests.
+-   Errors returned on failed [**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master) requests.
 
 The following parameters are logged for a send requests that results in an error:
 
@@ -251,7 +256,7 @@ Event ID = 11
 
 Level = 4 (Information)
 
-The following Winsock events are traced for errors on [**recv**](recv-2.md), [**WSARecv**](wsarecv-2.md), or [**WSARecvEx**](wsarecvex-2.md) requests:
+The following Winsock events are traced for errors on [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master), [**WSARecv**](/windows/win32/Winsock2/nf-winsock2-wsarecv?branch=master), or [**WSARecvEx**](/windows/win32/winsock/nf-mswsock-wsarecvex?branch=master) requests:
 
 -   Errors returned on failed receive requests.
 
@@ -275,11 +280,11 @@ Event ID = 12
 
 Level = 4 (Information)
 
-The following Winsock events are traced for errors on [**recvfrom**](recvfrom-2.md) or [**WSARecvFrom**](wsarecvfrom-2.md) requests:
+The following Winsock events are traced for errors on [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) or [**WSARecvFrom**](/windows/win32/Winsock2/nf-winsock2-wsarecvfrom?branch=master) requests:
 
--   Errors returned on failed [**recvfrom**](recvfrom-2.md) or [**WSARecvFrom**](wsarecvfrom-2.md) requests.
+-   Errors returned on failed [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) or [**WSARecvFrom**](/windows/win32/Winsock2/nf-winsock2-wsarecvfrom?branch=master) requests.
 
-The following parameters are logged for a [**recvfrom**](recvfrom-2.md) or [**WSARecvFrom**](wsarecvfrom-2.md) request that results in an error:
+The following parameters are logged for a [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) or [**WSARecvFrom**](/windows/win32/Winsock2/nf-winsock2-wsarecvfrom?branch=master) request that results in an error:
 
 
 
@@ -325,7 +330,7 @@ Level = 4 (Information)
 
 The following Winsock events are traced for socket cleanup (shutdown) operations:
 
--   The [**shutdown**](shutdown-2.md) function is called on a socket.
+-   The [**shutdown**](/windows/win32/winsock/nf-winsock-shutdown?branch=master) function is called on a socket.
 -   The transport indicates a failed graceful disconnect.
 
 The following parameters are logged for a socket cleanup (shutdown) or socket close event:
@@ -348,9 +353,9 @@ Event ID = 15 (IPv4), Event ID = 16 (IPv6)
 
 Level = 4 (Information)
 
-The following Winsock events are traced for an [**accept**](accept-2.md), [**AcceptEx**](acceptex-2.md), or [**WSAAccept**](wsaaccept-2.md) function request:
+The following Winsock events are traced for an [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master), [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master), or [**WSAAccept**](/windows/win32/Winsock2/nf-winsock2-wsaaccept?branch=master) function request:
 
--   An [**accept**](accept-2.md), [**AcceptEx**](acceptex-2.md), or [**WSAAccept**](wsaaccept-2.md) function request on a socket handle.
+-   An [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master), [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master), or [**WSAAccept**](/windows/win32/Winsock2/nf-winsock2-wsaaccept?branch=master) function request on a socket handle.
 
 The following parameters are logged for an accept event:
 
@@ -376,7 +381,7 @@ Level = 4 (Information)
 
 The following Winsock events are traced for a failed accept operation:
 
--   An [**accept**](accept-2.md), [**AcceptEx**](acceptex-2.md), or [**WSAAccept**](wsaaccept-2.md) request on a socket handle that fails.
+-   An [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master), [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master), or [**WSAAccept**](/windows/win32/Winsock2/nf-winsock2-wsaaccept?branch=master) request on a socket handle that fails.
 
 The following parameters are logged for a failed accept event:
 
@@ -458,7 +463,7 @@ Event ID = 20
 
 Level = 5 (Verbose)
 
-In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced for a [**recvfrom**](recvfrom-2.md) buffer post operation on a socket:
+In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced for a [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) buffer post operation on a socket:
 
 -   An application posts a receive from operation.
 
@@ -487,11 +492,11 @@ Event ID = 21 (IPv4), Event ID = 22 (IPv6)
 
 Level = 5 (Verbose)
 
-In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced for a [**sendto**](sendto-2.md) buffer post operation on a socket:
+In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced for a [**sendto**](/windows/win32/winsock/nf-winsock-sendto?branch=master) buffer post operation on a socket:
 
 -   An application posts a send from.
 
-The following parameters are logged for the [**sendto**](sendto-2.md) operation:
+The following parameters are logged for the [**sendto**](/windows/win32/winsock/nf-winsock-sendto?branch=master) operation:
 
 
 
@@ -569,11 +574,11 @@ Event ID = 25
 
 Level = 5 (Verbose)
 
-In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced when a [**WSASendMsg**](wsasendmsg.md) buffer post operation completes on a socket:
+In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced when a [**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master) buffer post operation completes on a socket:
 
--   An application completes a [**WSASendMsg**](wsasendmsg.md) operation.
+-   An application completes a [**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master) operation.
 
-The following parameters are logged for the [**WSASendMsg**](wsasendmsg.md) completion:
+The following parameters are logged for the [**WSASendMsg**](/windows/win32/winsock2/nf-winsock2-wsasendmsg?branch=master) completion:
 
 
 
@@ -597,11 +602,11 @@ Event ID = 26 (IPv4), Event ID = 27 (IPv6)
 
 Level = 5 (Verbose)
 
-In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced when a [**recvfrom**](recvfrom-2.md) buffer post operation completes on a socket:
+In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced when a [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) buffer post operation completes on a socket:
 
--   An application completes a [**recvfrom**](recvfrom-2.md) operation.
+-   An application completes a [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) operation.
 
-The following parameters are logged for the [**recvfrom**](recvfrom-2.md) completion:
+The following parameters are logged for the [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master) completion:
 
 
 
@@ -625,11 +630,11 @@ Event ID = 28
 
 Level = 5 (Verbose)
 
-In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced when a [**sendto**](sendto-2.md) buffer post operation completes on a socket:
+In order to diagnose user buffer corruption (for example, when an application re-uses the same buffer in another send or receive call while it's still in use), the data buffer is logged when posted to Winsock and upon completion by the underlying transport. The following Winsock events are traced when a [**sendto**](/windows/win32/winsock/nf-winsock-sendto?branch=master) buffer post operation completes on a socket:
 
--   An application completes a [**sendto**](sendto-2.md) operation.
+-   An application completes a [**sendto**](/windows/win32/winsock/nf-winsock-sendto?branch=master) operation.
 
-The following parameters are logged for the [**sendto**](sendto-2.md) completion:
+The following parameters are logged for the [**sendto**](/windows/win32/winsock/nf-winsock-sendto?branch=master) completion:
 
 
 
@@ -662,7 +667,7 @@ Whenever an application changes certain socket option values and Ioctls, the new
 -   SIO\_UDP\_CONNRESET
 -   SO\_OOBINLINE
 
-The following parameters are logged for [**setsockopt**](setsockopt-2.md) and [**WSAIoctl**](wsaioctl-2.md) function calls that change any of the above values:
+The following parameters are logged for [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) and [**WSAIoctl**](/windows/win32/Winsock2/nf-winsock2-wsaioctl?branch=master) function calls that change any of the above values:
 
 
 
@@ -683,11 +688,11 @@ Event ID = 30
 
 Level = 5 (Verbose)
 
-The following Winsock events are traced when an application calls the [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) function:
+The following Winsock events are traced when an application calls the [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) function:
 
--   Application posts a [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) request.
+-   Application posts a [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) request.
 
-The following parameters are logged for [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) events:
+The following parameters are logged for [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) events:
 
 
 
@@ -695,7 +700,7 @@ The following parameters are logged for [**select**](select-2.md) or [**WSAPoll*
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <span id="Process"></span><span id="process"></span><span id="PROCESS"></span>Process<br/>                 | The owning process ID.<br/>                                                                              |
 | <span id="HandleCount"></span><span id="handlecount"></span><span id="HANDLECOUNT"></span>HandleCount<br/> | The number of handles passed in by the application (only valid on the initiating event).<br/>            |
-| <span id="Timeout"></span><span id="timeout"></span><span id="TIMEOUT"></span>Timeout<br/>                 | The maximum time for the [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) function to wait.<br/> |
+| <span id="Timeout"></span><span id="timeout"></span><span id="TIMEOUT"></span>Timeout<br/>                 | The maximum time for the [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) function to wait.<br/> |
 
 
 
@@ -707,11 +712,11 @@ Event ID = 31
 
 Level = 5 (Verbose)
 
-The following Winsock events are traced when an application calls the [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) function:
+The following Winsock events are traced when an application calls the [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) function:
 
--   Winsock completes a [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) call.
+-   Winsock completes a [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) call.
 
-The following parameters are logged when a [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) operation completes:
+The following parameters are logged when a [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) operation completes:
 
 
 
@@ -719,7 +724,7 @@ The following parameters are logged when a [**select**](select-2.md) or [**WSAPo
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | <span id="Process"></span><span id="process"></span><span id="PROCESS"></span>Process<br/>     | The kernel EPROCESS structure address for the process.<br/>                                              |
 | <span id="Endpoint"></span><span id="endpoint"></span><span id="ENDPOINT"></span>Endpoint<br/> | The Winsock kernel socket address used as a unique identifier for a socket.<br/>                         |
-| <span id="Error"></span><span id="error"></span><span id="ERROR"></span>Error<br/>             | The error code returned for the [**select**](select-2.md) or [**WSAPoll**](wsapoll.md) operation.<br/> |
+| <span id="Error"></span><span id="error"></span><span id="ERROR"></span>Error<br/>             | The error code returned for the [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) or [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) operation.<br/> |
 
 
 
@@ -731,11 +736,11 @@ Event ID = 32
 
 Level = 5 (Verbose)
 
-The following Winsock events are traced when an application calls the [**WSAEventSelect**](wsaeventselect-2.md) function:
+The following Winsock events are traced when an application calls the [**WSAEventSelect**](/windows/win32/Winsock2/nf-winsock2-wsaeventselect?branch=master) function:
 
--   Log the event mask passed in the [**WSAEventSelect**](wsaeventselect-2.md) function.
+-   Log the event mask passed in the [**WSAEventSelect**](/windows/win32/Winsock2/nf-winsock2-wsaeventselect?branch=master) function.
 
-The following parameters are logged for [**WSAEventSelect**](wsaeventselect-2.md) function calls:
+The following parameters are logged for [**WSAEventSelect**](/windows/win32/Winsock2/nf-winsock2-wsaeventselect?branch=master) function calls:
 
 
 

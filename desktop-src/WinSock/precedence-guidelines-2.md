@@ -1,7 +1,12 @@
 ---
-Description: 'The two (or more) descriptors that reference a shared socket may be used independently as far as I/O is concerned.'
-ms.assetid: '25252552-4b62-441a-b564-e7f4a77cf68a'
+Description: The two (or more) descriptors that reference a shared socket may be used independently as far as I/O is concerned.
+ms.assetid: 25252552-4b62-441a-b564-e7f4a77cf68a
 title: Precedence Guidelines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Precedence Guidelines

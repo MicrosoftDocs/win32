@@ -1,7 +1,12 @@
 ---
 title: Creating Stream Buffer Graphs
 description: Creating Stream Buffer Graphs
-ms.assetid: '1883182f-0a07-4a66-acb7-1c64955471e2'
+ms.assetid: 1883182f-0a07-4a66-acb7-1c64955471e2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Stream Buffer Graphs
@@ -22,8 +27,8 @@ To build the sink graph:
 1.  Create an instance of the Filter Graph Manager.
 2.  Create the Stream Buffer Sink filter and add it to the filter graph.
 3.  Build a regular DirectShow capture graph or television graph, but route all of the streams to the Stream Buffer Sink filter, instead of sending them to the usual renderer filters.
-4.  Query the Stream Buffer Sink filter for the [**IStreamBufferSink**](istreambuffersink.md) interface.
-5.  Call the [**IStreamBufferSink::LockProfile**](istreambuffersink-lockprofile.md) method. This method does several things:
+4.  Query the Stream Buffer Sink filter for the [**IStreamBufferSink**](/windows/previous-versions/Sbe/nn-sbe-istreambuffersink?branch=master) interface.
+5.  Call the [**IStreamBufferSink::LockProfile**](/windows/previous-versions/Sbe/nf-sbe-istreambuffersink-lockprofile?branch=master) method. This method does several things:
 
     -   Creates a named stub file that references the temporary backing files. The Stream Buffer Source filter can use this stub file to access the backing files.
     -   Locks the Stream Buffer Sink filter, which prevents the inputs from changing.
@@ -45,7 +50,7 @@ To build the source graph:
 1.  Create a new instance of the Filter Graph Manager.
 2.  Create the Stream Buffer Source filter and add it to the filter graph.
 3.  Establish a source for the Stream Buffer Source filter, by doing one of the following:
-    -   Call [**IStreamBufferSource::SetStreamSink**](istreambuffersource-setstreamsink.md) with a pointer to the sink filter's **IStreamBufferSink** interface. With this method, the sink graph and the source graph must share the same process space.
+    -   Call [**IStreamBufferSource::SetStreamSink**](/windows/previous-versions/Sbe/nf-sbe-istreambuffersource-setstreamsink?branch=master) with a pointer to the sink filter's **IStreamBufferSink** interface. With this method, the sink graph and the source graph must share the same process space.
     -   Call [**IFileSourceFilter::Load**](https://msdn.microsoft.com/library/windows/desktop/dd389983) with the name of the stub file that was given in the **LockProfile** method. This is equivalent to calling **SetStreamSink**, but the graphs can be in separate processes.
     -   Call **IFileSourceFilter::Load** with the name of a recorded file. (See [Creating Stream Buffer Recordings](creating-stream-buffer-recordings.md).)
 4.  Enumerate the output pins on the Stream Buffer Source filter.
@@ -88,7 +93,7 @@ To start capturing, run the sink graph. To start playback, run the source graph.
 
 There is normally no reason to stop the source graph until the viewing or recording session is over. The sink graph uses a ring buffer, so the total size of the temporary backing files will not exceed a preset maximum. Stopping the source graph will create holes in the recorded content. For television sources, it is possible to change channels while the source graph is running.
 
-To seek the source graph, use the [**IStreamBufferMediaSeeking**](istreambuffermediaseeking.md) interface directly on the Stream Buffer Source filter. For finished recordings, you can also use the [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) or [**IMediaPosition**](https://msdn.microsoft.com/library/windows/desktop/dd406977) interfaces on the Filter Graph Manager. Do not use these interfaces for live content, however. For more information, see [Stream Buffer Source Filter](stream-buffer-source-filter.md).
+To seek the source graph, use the [**IStreamBufferMediaSeeking**](/windows/previous-versions/Sbe/?branch=master) interface directly on the Stream Buffer Source filter. For finished recordings, you can also use the [**IMediaSeeking**](https://msdn.microsoft.com/library/windows/desktop/dd407023) or [**IMediaPosition**](https://msdn.microsoft.com/library/windows/desktop/dd406977) interfaces on the Filter Graph Manager. Do not use these interfaces for live content, however. For more information, see [Stream Buffer Source Filter](stream-buffer-source-filter.md).
 
  
 

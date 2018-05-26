@@ -1,13 +1,16 @@
 ---
-Description: 'Represents the occurrence of some other event that is being dropped because of the failure of an event consumer.'
+Description: Represents the occurrence of some other event that is being dropped because of the failure of an event consumer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bb6a1ce9-72a2-4528-8bc8-71ac053b6b1d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bb6a1ce9-72a2-4528-8bc8-71ac053b6b1d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ConsumerFailureEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ConsumerFailureEvent class
@@ -21,13 +24,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __ConsumerFailureEvent : __EventDroppedEvent
 {
-  uint32              ErrorCode;
-  string              ErrorDescription;
-  object              ErrorObject;
-  object              Event;
+  uint32              ErrorCode;
+  string              ErrorDescription;
+  object              ErrorObject;
+  object              Event;
   __EventConsumer REF IntendedConsumer;
-  uint8               SECURITY_DESCRIPTOR[];
-  uint64              TIME_CREATED;
+  uint8               SECURITY_DESCRIPTOR[];
+  uint64              TIME_CREATED;
 };
 ```
 
@@ -146,8 +149,8 @@ The **\_\_ConsumerFailureEvent** class is derived from [**\_\_EventDroppedEvent*
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -162,9 +165,9 @@ The **\_\_ConsumerFailureEvent** class is derived from [**\_\_EventDroppedEvent*
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The outbound routing rules you define can map outgoing fax jobs to particular devices or to fax device groups.'
-ms.assetid: '59f6ef45-e7ae-4b62-a938-dfae13c22a7a'
+Description: The outbound routing rules you define can map outgoing fax jobs to particular devices or to fax device groups.
+ms.assetid: 59f6ef45-e7ae-4b62-a938-dfae13c22a7a
 title: Outbound Routing Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Outbound Routing Rules

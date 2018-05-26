@@ -1,8 +1,14 @@
 ---
 title: Components of the Router Architecture
 description: The router administration documentation makes frequent reference to the following components of the router.
-ms.assetid: '841a5728-39d6-4bd7-a41a-6543b4ed9985'
-keywords: ["routers RRAS , components"]
+ms.assetid: 841a5728-39d6-4bd7-a41a-6543b4ed9985
+keywords:
+- routers RRAS , components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components of the Router Architecture

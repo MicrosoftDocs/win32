@@ -1,7 +1,12 @@
 ---
 title: About New Features in this Release
 description: This version of Microsoft HTML Help contains several new features.
-ms.assetid: '0E4346DA-3784-4005-9A3C-FE07A5A9913A'
+ms.assetid: 0E4346DA-3784-4005-9A3C-FE07A5A9913A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About New Features in this Release

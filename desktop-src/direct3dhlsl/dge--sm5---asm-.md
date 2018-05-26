@@ -1,7 +1,12 @@
 ---
 title: dge (sm5 - asm)
 description: Component-wise double-precision greater-than-or-equal comparison.
-ms.assetid: '2E769077-E861-4EFA-817F-7D1AE998746C'
+ms.assetid: 2E769077-E861-4EFA-817F-7D1AE998746C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dge (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise double-precision greater-than-or-equal comparison.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise double-precision greater-than-or-equal comparison.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +59,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -73,7 +78,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -82,9 +87,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

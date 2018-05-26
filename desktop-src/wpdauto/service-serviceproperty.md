@@ -1,14 +1,22 @@
 ---
 title: Service.ServiceProperty property
 description: The ServiceProperty property gets or sets a service-defined property of this Service object.
-ms.assetid: 'c26dee9c-9349-4390-bc06-a95ba024783f'
-keywords: ["ServiceProperty property WPD Automation", "ServiceProperty property WPD Automation , Service object", "Service object WPD Automation , ServiceProperty property"]
+ms.assetid: c26dee9c-9349-4390-bc06-a95ba024783f
+keywords:
+- ServiceProperty property WPD Automation
+- ServiceProperty property WPD Automation , Service object
+- Service object WPD Automation , ServiceProperty property
 topic_type:
 - apiref
 api_name:
 - Service.ServiceProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.ServiceProperty property
@@ -54,8 +62,8 @@ service.someServiceProperty = newValue;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +74,9 @@ service.someServiceProperty = newValue;
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

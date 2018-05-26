@@ -1,7 +1,12 @@
 ---
 title: RPC Security Essentials
 description: To complete any remote procedure call, all distributed applications must create a binding between the client and the server.
-ms.assetid: '7b8adba2-19aa-4179-b6b3-ef27f4383bd4'
+ms.assetid: 7b8adba2-19aa-4179-b6b3-ef27f4383bd4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Security Essentials

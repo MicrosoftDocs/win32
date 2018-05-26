@@ -1,8 +1,9 @@
 ---
 title: CDN\_TYPECHANGE notification code
 description: Sent by an Explorer-style Open or Save As dialog box when the user selects a new file type from the file types combo box.
-ms.assetid: 'fb8324db-e435-4ef2-aac5-506a6b7adb2c'
-keywords: ["CDN_TYPECHANGE notification code Dialog Boxes"]
+ms.assetid: fb8324db-e435-4ef2-aac5-506a6b7adb2c
+keywords:
+- CDN_TYPECHANGE notification code Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDN\_TYPECHANGE notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user selects a new file type from the file types combo box.
 
@@ -43,11 +49,11 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OFNOTIFY**](ofnotify-str.md) structure.
+A pointer to an [**OFNOTIFY**](/windows/win32/Commdlg/ns-commdlg-_ofnotifya?branch=master) structure.
 
-The [**OFNOTIFY**](ofnotify-str.md) structure contains an [**NMHDR**](_win32_nmhdr_str) structure whose **code** member indicates the **CDN\_TYPECHANGE** notification message.
+The [**OFNOTIFY**](/windows/win32/Commdlg/ns-commdlg-_ofnotifya?branch=master) structure contains an [**NMHDR**](_win32_nmhdr_str) structure whose **code** member indicates the **CDN\_TYPECHANGE** notification message.
 
-The [**OFNOTIFY**](ofnotify-str.md) structure also contains a pointer to an [**OPENFILENAME**](openfilename-str.md) structure whose **nFilterIndex** member indicates the one-based index of the newly selected file type filter.
+The [**OFNOTIFY**](/windows/win32/Commdlg/ns-commdlg-_ofnotifya?branch=master) structure also contains a pointer to an [**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master) structure whose **nFilterIndex** member indicates the one-based index of the newly selected file type filter.
 
 </dd> </dl>
 
@@ -65,8 +71,8 @@ The system sends this notification only if the dialog box was created using the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,19 +84,19 @@ The system sends this notification only if the dialog box was created using the 
 **Reference**
 </dt> <dt>
 
-[**GetOpenFileName**](getopenfilename.md)
+[**GetOpenFileName**](/windows/win32/Commdlg/nf-commdlg-getopenfilenamea?branch=master)
 </dt> <dt>
 
-[**GetSaveFileName**](getsavefilename.md)
+[**GetSaveFileName**](/windows/win32/Commdlg/nf-commdlg-getsavefilenamea?branch=master)
 </dt> <dt>
 
 [*OFNHookProc*](ofnhookproc.md)
 </dt> <dt>
 
-[**OFNOTIFY**](ofnotify-str.md)
+[**OFNOTIFY**](/windows/win32/Commdlg/ns-commdlg-_ofnotifya?branch=master)
 </dt> <dt>
 
-[**OPENFILENAME**](openfilename-str.md)
+[**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -99,9 +105,9 @@ The system sends this notification only if the dialog box was created using the 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The fax service provides fax functionality for clients on a local area network.'
-ms.assetid: '614077d9-d31e-4869-b7db-8c0b2464fcce'
+---
+Description: The fax service provides fax functionality for clients on a local area network.
+ms.assetid: 614077d9-d31e-4869-b7db-8c0b2464fcce
 title: Fax Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service

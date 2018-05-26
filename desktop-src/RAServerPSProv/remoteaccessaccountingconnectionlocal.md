@@ -2,13 +2,15 @@
 title: RemoteAccessAccountingConnectionLocal class
 description: Remote Access Accounting Connection Record.
 audience: developer
-ms.assetid: 'ba01c95b-fde3-4e6d-96cc-39ad3e1035dd'
-ms.prod: 'windows-server-dev'
+ms.assetid: ba01c95b-fde3-4e6d-96cc-39ad3e1035dd
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessAccountingConnectionLocal class", "RemoteAccessAccountingConnectionLocal class, described"]
+keywords:
+- RemoteAccessAccountingConnectionLocal class
+- RemoteAccessAccountingConnectionLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessAccountingConnectionLocal class
@@ -46,21 +51,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAServerPSProvider"), AMENDMENT]
 class RemoteAccessAccountingConnectionLocal : RemoteAccessConnectionLocal
 {
-  string   ClientIPv4Address;
-  string   ClientIPv6Address;
-  string   HostName;
-  string   ClientExternalAddress;
-  string   TunnelType;
-  string   TransitionTechnology;
+  string   ClientIPv4Address;
+  string   ClientIPv6Address;
+  string   HostName;
+  string   ClientExternalAddress;
+  string   TunnelType;
+  string   TransitionTechnology;
   datetime ConnectionStartTime;
-  uint32   ConnectionDuration;
-  uint64   TotalBytesIn;
-  uint64   TotalBytesOut;
-  string   ConnectionType;
-  string   HealthStatus;
-  string   AuthMethod;
-  string   UserName;
-  uint64   SessionId;
+  uint32   ConnectionDuration;
+  uint64   TotalBytesIn;
+  uint64   TotalBytesOut;
+  string   ConnectionType;
+  string   HealthStatus;
+  string   AuthMethod;
+  string   UserName;
+  uint64   SessionId;
 };
 ```
 
@@ -636,16 +641,16 @@ User Name
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

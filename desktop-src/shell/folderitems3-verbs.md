@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the list of verbs common to all the folder items.'
-ms.assetid: 'f72f5dcc-35e0-4a23-ae4c-355da2858aab'
-title: 'FolderItems3.Verbs property'
+---
+Description: Gets the list of verbs common to all the folder items.
+ms.assetid: f72f5dcc-35e0-4a23-ae4c-355da2858aab
+title: FolderItems3.Verbs property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems3.Verbs property

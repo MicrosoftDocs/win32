@@ -1,8 +1,14 @@
 ---
 title: Discrete transfer effect
 description: Use the discrete transfer effect to map the color intensities of an image using a step transfer function created from a list of values you provide.
-ms.assetid: '5A612002-2B1D-4FC3-B364-AACD9FD44BEC'
-keywords: ["discrete transfer effect"]
+ms.assetid: 5A612002-2B1D-4FC3-B364-AACD9FD44BEC
+keywords:
+- discrete transfer effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Discrete transfer effect
@@ -30,7 +36,7 @@ The image here shows the input and output of the discrete transfer effect.
 
 
 
- 
+ 
 
 
 ```C++
@@ -51,15 +57,15 @@ m_d2dContext->EndDraw();
 
 
 
-The transfer function is based on the list of inputs: V=(V0,V1,V2,V3,V?…,V<sub>N</sub>) where N is the number of elements - 1.
+The transfer function is based on the list of inputs: V=(V0,V1,V2,V3,V? ,V<sub>N</sub>) where N is the number of elements - 1.
 
-The input pixel intensity is represented as C. The output pixel intensity, C‘ is calculated with the equation:
+The input pixel intensity is represented as C. The output pixel intensity, C  is calculated with the equation:
 
 For a value C, pick a value k, such that:
 
 ![formula for the process.](images/discrete-transfer1.png)
 
-The output C’ can be calculated using the equation: C' = V?
+The output C  can be calculated using the equation: C' = V?
 
 This effect works on straight and premultiplied alpha images. The effect outputs premultiplied alpha bitmaps.
 
@@ -72,7 +78,7 @@ Here is what the graph of discrete transfer function looks like if the inputs ar
 > [!Note]  
 > The values of all channels of the discrete transfer properties are unitless and have a minimum of 0.0 and a maximum 1.0.
 
- 
+ 
 
 
 
@@ -90,7 +96,7 @@ Here is what the graph of discrete transfer function looks like if the inputs ar
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -98,25 +104,25 @@ Here is what the graph of discrete transfer function looks like if the inputs ar
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

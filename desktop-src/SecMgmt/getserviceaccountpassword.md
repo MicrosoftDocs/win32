@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the service account password.'
-ms.assetid: 'B3D3842F-ACEB-4979-B336-BA3D0143044C'
+Description: Retrieves the service account password.
+ms.assetid: B3D3842F-ACEB-4979-B336-BA3D0143044C
 title: GetServiceAccountPassword function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetServiceAccountPassword function
@@ -13,13 +18,13 @@ Retrieves the service account password, available to [*security support provider
 
 ```C++
 NTSTATUS NTAPI GetServiceAccountPassword(
-  _In_        PUNICODE_STRING AccountName,
-  _In_opt_    PUNICODE_STRING DomainName,
-  _In_        CRED_FETCH      CredFetch,
-  _Inout_opt_ FILETIME        *FileTimeExpiry,
-  _Out_       PUNICODE_STRING CurrentPassword,
-  _Out_       PUNICODE_STRING PreviousPassword,
-  _Out_opt_   FILETIME        *FileTimeCurrPwdValidForOutbound
+  _In_        PUNICODE_STRING AccountName,
+  _In_opt_    PUNICODE_STRING DomainName,
+  _In_        CRED_FETCH      CredFetch,
+  _Inout_opt_ FILETIME        *FileTimeExpiry,
+  _Out_       PUNICODE_STRING CurrentPassword,
+  _Out_       PUNICODE_STRING PreviousPassword,
+  _Out_opt_   FILETIME        *FileTimeCurrPwdValidForOutbound
 );
 ```
 
@@ -62,7 +67,7 @@ A value of the [**CRED\_FETCH**](cred-fetch.md) enumeration that specifies how t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -100,7 +105,7 @@ If the function succeeds, the return value is STATUS\_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see [LSA Policy Function Return Values](management-return-values.md#lsa-policy-function-return-values).
 
-You can use the [**LsaNtStatusToWinError**](lsantstatustowinerror.md) function to convert the NTSTATUS code to a Windows error code.
+You can use the [**LsaNtStatusToWinError**](/windows/win32/Ntsecapi/nf-ntsecapi-lsantstatustowinerror?branch=master) function to convert the NTSTATUS code to a Windows error code.
 
 When you have finished using the buffers returned in the *CurrentPassword* and *PreviousPassword* parameters, free them by calling the [**FreeLsaHeap**](https://msdn.microsoft.com/library/windows/desktop/aa375423) function.
 
@@ -118,15 +123,15 @@ The **GetServiceAccountPassword** function can be called in the following scenar
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Secpkg.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: This topic shows you how to set up C++ in Visual Studio so you can 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6f1ab3eb-2e0b-4f3e-b93c-e24c8b3b1a27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6f1ab3eb-2e0b-4f3e-b93c-e24c8b3b1a27
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Setting Up C++ for ADSI Development"]
+keywords:
+- Setting Up C++ for ADSI Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Up Visual C++ 6.0 for ADSI Development

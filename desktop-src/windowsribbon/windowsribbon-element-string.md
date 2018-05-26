@@ -1,14 +1,20 @@
 ---
 title: String element
 description: Represents a string resource.
-ms.assetid: '83e5bdbb-ef86-4942-af40-2e327360ee67'
-keywords: ["String element Windows Ribbon"]
+ms.assetid: 83e5bdbb-ef86-4942-af40-2e327360ee67
+keywords:
+- String element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - String
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String element
@@ -130,14 +136,14 @@ The following example demonstrates the markup for a [**Command.LabelTitle**](win
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

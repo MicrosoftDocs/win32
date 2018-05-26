@@ -1,13 +1,16 @@
 ---
-Description: 'Makes the interfaces of the Scripting API for WMI available to C/C++ programmers, in place of the COM API versions.'
+Description: Makes the interfaces of the Scripting API for WMI available to C/C++ programmers, in place of the COM API versions.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '18f6cc70-9df1-4d43-a2e0-af03e2f9e2c5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 18f6cc70-9df1-4d43-a2e0-af03e2f9e2c5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Automation Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Automation Interfaces

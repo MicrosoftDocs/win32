@@ -4,11 +4,15 @@ description: The preinstalled Distributed File System (DFS) provider supplies sc
 audience: developer
 author: REDMOND\\martinek
 manager: REDMOND\\martinek
-ms.assetid: '01d17f24-7a14-4d25-b653-52ba12f83326'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 01d17f24-7a14-4d25-b653-52ba12f83326
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DFS Provider"]
+keywords:
+- DFS Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFS Provider

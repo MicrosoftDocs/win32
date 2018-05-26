@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ConnectedSubmit method submits a single fax document to the connected FaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.'
-ms.assetid: '61bf59fd-b921-4356-a3ab-4b83757cc346'
-title: 'FaxDocument.ConnectedSubmit method'
+---
+Description: The ConnectedSubmit method submits a single fax document to the connected FaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.
+ms.assetid: 61bf59fd-b921-4356-a3ab-4b83757cc346
+title: FaxDocument.ConnectedSubmit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.ConnectedSubmit method
@@ -47,7 +52,7 @@ Type: **Variant\***
 
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: [FAX\_E\_NOT\_SUPPORTED\_ON\_THIS\_SKU](-mfax-fax-error-codes.md).
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md), [**farSUBMIT\_NORMAL**](-mfax-fax-access-rights-enum.md), or [**farSUBMIT\_HIGH**](-mfax-fax-access-rights-enum.md) access right, depending on the [**Priority**](-mfax-faxdocument-priority-vb.md) of the fax document.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master), [**farSUBMIT\_NORMAL**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master), or [**farSUBMIT\_HIGH**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right, depending on the [**Priority**](-mfax-faxdocument-priority-vb.md) of the fax document.
 
 ## Requirements
 
@@ -72,7 +77,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,15 @@ description: Supports interfaces for audio endpoint registration and data transp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e3ea0e7-8c61-400e-b8ef-8a0403aedafa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0e3ea0e7-8c61-400e-b8ef-8a0403aedafa
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , AudioEndpoint API reference"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , AudioEndpoint API reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services AudioEndpoint API reference
@@ -17,11 +21,11 @@ An *audio endpoint* represents an audio device, audio API, or any other audio so
 
 Each endpoint object must implement the following interfaces:
 
--   [**IAudioEndpoint**](iaudioendpoint.md) to enable the audio engine to get information about the endpoint.
--   [**IAudioEndpointRT**](iaudioendpointrt.md) to get information about the data buffer before performing a processing pass and notifying the endpoint when the pass is complete.
--   Either the [**IAudioInputEndpointRT**](iaudioinputendpointrt.md) or [**IAudioOutputEndpointRT**](iaudiooutputendpointrt.md) interface, depending on whether the endpoint object is capturing or rendering audio.
--   [**IAudioDeviceEndpoint**](iaudiodeviceendpoint.md)
--   [**IAudioEndpointControl**](iaudioendpointcontrol.md)
+-   [**IAudioEndpoint**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudioendpoint?branch=master) to enable the audio engine to get information about the endpoint.
+-   [**IAudioEndpointRT**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudioendpointrt?branch=master) to get information about the data buffer before performing a processing pass and notifying the endpoint when the pass is complete.
+-   Either the [**IAudioInputEndpointRT**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt?branch=master) or [**IAudioOutputEndpointRT**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt?branch=master) interface, depending on whether the endpoint object is capturing or rendering audio.
+-   [**IAudioDeviceEndpoint**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint?branch=master)
+-   [**IAudioEndpointControl**](/windows/win32/Audioengineendpoint/nn-audioengineendpoint-iaudioendpointcontrol?branch=master)
 
 The audio engine uses these interfaces to get information about the endpoints that are attached to the engine. The endpoint implementation must provide the mechanism to deliver data to or consume data from the engine as specified by these interfaces.
 

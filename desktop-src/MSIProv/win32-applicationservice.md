@@ -1,8 +1,10 @@
 ---
 title: Win32\_ApplicationService class
 description: The Win32\_ApplicationService WMI class represents any installed or advertised component or application available on the system.
-ms.assetid: 'dea14f4f-faa4-45c5-9bd2-786cfda4438b'
-keywords: ["Win32_ApplicationService class", "Win32_ApplicationService class, described"]
+ms.assetid: dea14f4f-faa4-45c5-9bd2-786cfda4438b
+keywords:
+- Win32_ApplicationService class
+- Win32_ApplicationService class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - MsiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ApplicationService class
@@ -30,7 +37,7 @@ The **Win32\_ApplicationService** [WMI class](https://msdn.microsoft.com/library
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -40,16 +47,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_ApplicationService : CIM_Service
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  boolean  Started;
-  string   StartMode;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Name;
+  boolean  Started;
+  string   StartMode;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -73,7 +80,7 @@ The **Win32\_ApplicationService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -243,8 +250,8 @@ The **Win32\_ApplicationService** class is derived from [**CIM\_Service**](https
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>MsiProv.dll</dt> </dl> |
@@ -258,9 +265,9 @@ The **Win32\_ApplicationService** class is derived from [**CIM\_Service**](https
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

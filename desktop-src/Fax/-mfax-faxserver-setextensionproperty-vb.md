@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetExtensionProperty method stores an extension configuration property at the server level.'
-ms.assetid: 'bbacddd0-c157-47b9-a171-8a12d2aef2f4'
-title: 'FaxServer.SetExtensionProperty method'
+---
+Description: The SetExtensionProperty method stores an extension configuration property at the server level.
+ms.assetid: bbacddd0-c157-47b9-a171-8a12d2aef2f4
+title: FaxServer.SetExtensionProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.SetExtensionProperty method
@@ -46,7 +51,7 @@ Type: **Variant**
 
 The extension configuration property is a blob of bytes represented as a variant safe array of unsigned chars (VT\_UI1 \| VT\_ARRAY). The data is only relevant to the specific extension that uses it. For more information see [About the Fax Extension Configuration API](-mfax-about-the-fax-extension-configuration-api.md).
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -71,7 +76,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

@@ -1,15 +1,20 @@
 ---
-Description: 'The following VSS error and state information is written to the Application Event Log:'
-ms.assetid: 'd0b0f012-ad4f-4bd8-bb97-98f212bcbe81'
+Description: The following VSS error and state information is written to the Application Event Log
+ms.assetid: d0b0f012-ad4f-4bd8-bb97-98f212bcbe81
 title: VSS Error Logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Error Logging
 
 The following VSS error and state information is written to the Application Event Log:
 
--   Requester errors produced using the [**IVssBackupComponents**](ivssbackupcomponents.md) interface
--   Writer errors produced in using the [**CVssWriter**](cvsswriter.md) class, including overriding methods
+-   Requester errors produced using the [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) interface
+-   Writer errors produced in using the [**CVssWriter**](/windows/win32/VsWriter/nl-vswriter-cvsswriter?branch=master) class, including overriding methods
 -   Default-provider-generated errors
 -   VSS service errors generated in coordinating provider, writer, and requester activity (such as the generation of events)
 

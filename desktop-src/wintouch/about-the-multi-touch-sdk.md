@@ -1,8 +1,18 @@
 ---
 title: About Windows Touch
 description: This topic gives a brief overview of Windows Touch.
-ms.assetid: '19100652-3778-4f25-8d54-70e70363239b'
-keywords: ["Windows Touch,software development kit", "Windows Touch,SDK", "Windows Touch,about", "Windows Touch,new features", "Windows Touch,what's new"]
+ms.assetid: 19100652-3778-4f25-8d54-70e70363239b
+keywords:
+- Windows Touch,software development kit
+- Windows Touch,SDK
+- Windows Touch,about
+- Windows Touch,new features
+- Windows Touch,whats new
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Touch
@@ -13,7 +23,7 @@ New hardware and API elements in the Windows 7 operating system provide applica
 
 In addition to the new touch input message, gesture messages have been added to the existing list of window messages. Messaging support for gestures is enabled by a single new window message ([**WM\_GESTURE**](wm-gesture.md)) that is sent or posted to appropriate application windows when user input is recognized as a gesture. Dedicated API functions encapsulate the details for creation and consumption of this message. This is done because the information associated with the message can change in the future without breaking applications that already consume this message.
 
-In addition to gesture messages, specialized interfaces have been added to the Windows SDK. These interfaces enable advanced support for touch input so that application developers can easily create natural user interfaces. The [**IManipulationProcessor**](imanipulationprocessor.md) interface interprets [**WM\_TOUCH**](wm-touchdown.md) messages to raise events that contain translation, rotation, and scale information about a collection of touch points. The [**IInertiaProcessor**](iinertiaprocessor.md) interface can be used in conjunction with the **IManipulationProcessor** interface to enable animation and ensure that objects stay on the user's screen when they are moved.
+In addition to gesture messages, specialized interfaces have been added to the Windows SDK. These interfaces enable advanced support for touch input so that application developers can easily create natural user interfaces. The [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) interface interprets [**WM\_TOUCH**](wm-touchdown.md) messages to raise events that contain translation, rotation, and scale information about a collection of touch points. The [**IInertiaProcessor**](/windows/win32/manipulations/nn-manipulations-iinertiaprocessor?branch=master) interface can be used in conjunction with the **IManipulationProcessor** interface to enable animation and ensure that objects stay on the user's screen when they are moved.
 
 API elements for Windows Touch have some similarities to the Microsoft PixelSense SDK (formerly known as the Microsoft Surface SDK), but applications targeting Microsoft PixelSense do not run on Windows Touch computers. Also, applications targeting Windows Touch do not run on Microsoft PixelSense.
 

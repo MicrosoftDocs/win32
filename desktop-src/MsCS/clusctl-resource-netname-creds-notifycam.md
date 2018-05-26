@@ -4,11 +4,15 @@ description: The CLUSCTL\_RESOURCE\_NETNAME\_CREDS\_NOTIFYCAM \ 32;control code 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4820fa33-01b1-4edd-9825-c3d9c5127b7b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4820fa33-01b1-4edd-9825-c3d9c5127b7b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_NETNAME_CREDS_NOTIFYCAM control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_NETNAME_CREDS_NOTIFYCAM control code Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_NETNAME\_CREDS\_NOTIFYCAM control code

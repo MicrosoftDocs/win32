@@ -1,8 +1,19 @@
 ---
 title: Other Skin Samples
 description: Other Skin Samples
-ms.assetid: '72eaa417-d7ce-4521-9289-17f392146ec9'
-keywords: ["creating skins,code samples", "Windows Media Player skins,code samples", "skins,code samples", "creating skins,examples", "Windows Media Player skins,examples", "skins,examples"]
+ms.assetid: 72eaa417-d7ce-4521-9289-17f392146ec9
+keywords:
+- creating skins,code samples
+- Windows Media Player skins,code samples
+- skins,code samples
+- creating skins,examples
+- Windows Media Player skins,examples
+- skins,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Skin Samples

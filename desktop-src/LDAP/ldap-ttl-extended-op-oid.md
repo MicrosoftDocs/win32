@@ -4,11 +4,12 @@ description: The LDAP\_TTL\_EXTENDED\_OP\_OID can be present in the supportedExt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8b4bf2b7-1c88-4e00-b338-1ee18bab1e6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 8b4bf2b7-1c88-4e00-b338-1ee18bab1e6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_TTL_EXTENDED_OP_OID control code LDAP"]
+keywords:
+- LDAP_TTL_EXTENDED_OP_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Winldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_TTL\_EXTENDED\_OP\_OID control code
 
 The LDAP\_TTL\_EXTENDED\_OP\_OID can be present in the supportedExtensions attribute of the rootDSE of an Active Directory server. If present, it indicates that the Active Directory server provides support for dynamic objects as defined in RFC 2589. It can also be sent to an Active Directory server to refresh a specific Dynamic Object that has already been created. For more information about using this feature of Active Directory, see [Dynamic Objects](https://msdn.microsoft.com/library/ms676291).
 
-To use this extended operation, set the arguments of the call to [**ldap\_extended\_operation\_s**](ldap-extended-operation-s.md) as shown in the following code example.
+To use this extended operation, set the arguments of the call to [**ldap\_extended\_operation\_s**](/windows/previous-versions/Winldap/nf-winldap-ldap_extended_operation_sa?branch=master) as shown in the following code example.
 
 ``` syntax
 LDAP* ld,
@@ -56,7 +60,7 @@ A pointer to the LDAP\_TTL\_EXTENDED\_OP\_OID string, defined as "1.3.6.1.4.1.14
 **Data**
 </dt> <dd>
 
-A value that specifies a BER-encoded sequence of parameters that specifies both the dynamic object name and the desired TTL refresh period. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the dynamic object name and the TTL refresh period, and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+A value that specifies a BER-encoded sequence of parameters that specifies both the dynamic object name and the desired TTL refresh period. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the dynamic object name and the TTL refresh period, and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -146,15 +150,15 @@ This is an INTEGER that expresses the server-dictated TTL value in seconds of th
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winldap.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

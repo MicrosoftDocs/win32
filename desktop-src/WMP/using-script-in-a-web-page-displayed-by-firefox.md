@@ -1,8 +1,38 @@
 ---
 title: Using Script in a Web Page Displayed by Firefox
 description: Using Script in a Web Page Displayed by Firefox
-ms.assetid: '0f1d21b1-1824-4ba9-9c0e-bd23ba847d9d'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Windows Media Player ActiveX control,scripting example", "Windows Media Player Mobile ActiveX control,scripting example", "ActiveX control,scripting example", "embedding,Web pages", "Web page embedding,scripting example", "Windows Media Player,Firefox", "Windows Media Player object model,Firefox", "object model,Firefox", "Windows Media Player Mobile,Firefox", "Windows Media Player ActiveX control,Firefox", "Windows Media Player Mobile ActiveX control,Firefox", "ActiveX control,Firefox", "Firefox,scripting example", "Web page embedding,Firefox", "scripting example for webpage embedding"]
+ms.assetid: 0f1d21b1-1824-4ba9-9c0e-bd23ba847d9d
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Windows Media Player ActiveX control,scripting example
+- Windows Media Player Mobile ActiveX control,scripting example
+- ActiveX control,scripting example
+- embedding,Web pages
+- Web page embedding,scripting example
+- Windows Media Player,Firefox
+- Windows Media Player object model,Firefox
+- object model,Firefox
+- Windows Media Player Mobile,Firefox
+- Windows Media Player ActiveX control,Firefox
+- Windows Media Player Mobile ActiveX control,Firefox
+- ActiveX control,Firefox
+- Firefox,scripting example
+- Web page embedding,Firefox
+- scripting example for webpage embedding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Script in a Web Page Displayed by Firefox

@@ -1,8 +1,24 @@
 ---
 title: About Keyboard Input
 description: This topic discusses keyboard input.
-ms.assetid: 'de34727e-e8c7-481d-982d-0e42a02704db'
-keywords: ["user input,keyboard input", "capturing user input,keyboard input", "keyboard input", "keyboard focus", "keystroke messages", "character messages", "system keystrokes", "nonsystem keystrokes", "nonsystem character messages", "dead keys", "dead-character messages"]
+ms.assetid: de34727e-e8c7-481d-982d-0e42a02704db
+keywords:
+- user input,keyboard input
+- capturing user input,keyboard input
+- keyboard input
+- keyboard focus
+- keystroke messages
+- character messages
+- system keystrokes
+- nonsystem keystrokes
+- nonsystem character messages
+- dead keys
+- dead-character messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Keyboard Input
@@ -168,7 +184,7 @@ The keyboard layout maintains a list of names. The name of a key that produces a
 
 ## Keystroke and Character Translations
 
-The system includes several special purpose functions that translate scan codes, character codes, and virtual-key codes provided by various keystroke messages. These functions include [**MapVirtualKey**](mapvirtualkey.md), [**ToAscii**](toascii.md), [**ToUnicode**](tounicode.md), and [**VkKeyScan**](vkkeyscan.md).
+The system includes several special purpose functions that translate scan codes, character codes, and virtual-key codes provided by various keystroke messages. These functions include [**MapVirtualKey**](mapvirtualkey.md), [**ToAscii**](/windows/win32/Winuser/nf-ntifs-rtlidntoascii?branch=master), [**ToUnicode**](/windows/win32/Winuser/nf-ntifs-rtlidntounicode?branch=master), and [**VkKeyScan**](vkkeyscan.md).
 
 In addition, Microsoft Rich Edit 3.0 supports the [HexToUnicode IME](https://msdn.microsoft.com/library/windows/desktop/dd318146), which allows a user to convert between hexadecimal and Unicode characters by using hot keys. This means that when Microsoft Rich Edit 3.0 is incorporated into an application, the application will inherit the features of the HexToUnicode IME.
 
@@ -190,7 +206,7 @@ Windows also supports the Microsoft IntelliMouse Explorer, which is a mouse with
 
 ## Simulating Input
 
-To simulate an uninterrupted series of user input events, use the [**SendInput**](sendinput.md) function. The function accepts three parameters. The first parameter, *cInputs*, indicates the number of input events that will be simulated. The second parameter, *rgInputs*, is an array of [**INPUT**](input.md) structures, each describing a type of input event and additional information about that event. The last parameter, *cbSize*, accepts the size of the **INPUT** structure, in bytes.
+To simulate an uninterrupted series of user input events, use the [**SendInput**](sendinput.md) function. The function accepts three parameters. The first parameter, *cInputs*, indicates the number of input events that will be simulated. The second parameter, *rgInputs*, is an array of [**INPUT**](/windows/win32/Winuser/nf-d3d10tokenizedprogramformat-decode_d3d10_sb_gs_input_primitive?branch=master) structures, each describing a type of input event and additional information about that event. The last parameter, *cbSize*, accepts the size of the **INPUT** structure, in bytes.
 
 The [**SendInput**](sendinput.md) function works by injecting a series of simulated input events into a device's input stream. The effect is similar to calling the [**keybd\_event**](keybd-event.md) or [**mouse\_event**](mouse-event.md) function repeatedly, except that the system ensures that no other input events intermingle with the simulated events. When the call completes, the return value indicates the number of input events successfully played. If this value is zero, then input was blocked.
 

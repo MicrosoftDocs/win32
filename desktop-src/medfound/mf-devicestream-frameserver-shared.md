@@ -1,7 +1,12 @@
-﻿---
-Description: 'This attribute, when set on a stream, explicitly marks the stream as shared by the frame server.'
-ms.assetid: '15DF88A2-041C-4E73-A121-00454964E2C1'
-title: 'MF\_DEVICESTREAM\_FRAMESERVER\_SHARED attribute'
+---
+Description: This attribute, when set on a stream, explicitly marks the stream as shared by the frame server.
+ms.assetid: 15DF88A2-041C-4E73-A121-00454964E2C1
+title: MF\_DEVICESTREAM\_FRAMESERVER\_SHARED attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICESTREAM\_FRAMESERVER\_SHARED attribute

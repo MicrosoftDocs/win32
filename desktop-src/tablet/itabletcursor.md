@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a stylus object.'
-ms.assetid: 'c55945b7-59df-49b5-b25f-fa96056889fc'
+Description: Represents a stylus object.
+ms.assetid: c55945b7-59df-49b5-b25f-fa96056889fc
 title: ITabletCursor interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletCursor interface
@@ -30,7 +35,7 @@ The **ITabletCursor** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,15 +79,15 @@ interface ITabletCursor : IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

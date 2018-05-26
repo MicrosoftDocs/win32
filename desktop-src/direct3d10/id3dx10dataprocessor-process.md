@@ -1,7 +1,12 @@
-﻿---
-Description: 'Process some data.'
-ms.assetid: 'c64f6a2d-4512-4028-8ed9-bfc5e9e86758'
-title: 'ID3DX10DataProcessor::Process method'
+---
+Description: Process some data.
+ms.assetid: c64f6a2d-4512-4028-8ed9-bfc5e9e86758
+title: ID3DX10DataProcessorProcess method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10DataProcessor::Process method

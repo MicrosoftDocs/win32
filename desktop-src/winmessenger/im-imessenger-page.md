@@ -1,8 +1,11 @@
 ---
 title: IMessenger Page method
 description: Launches the Page window that is used to page a user, as designated by the input parameter.
-ms.assetid: '2bfee1ac-4940-46c0-b47f-4431a57bf6d9'
-keywords: ["Page method Windows Messenger", "Page method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , Page method"]
+ms.assetid: 2bfee1ac-4940-46c0-b47f-4431a57bf6d9
+keywords:
+- Page method Windows Messenger
+- Page method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , Page method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::Page method
 
-\[**Page** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Page** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Page** window that is used to page a user, as designated by the input parameter.
 
@@ -24,8 +32,8 @@ Launches the **Page** window that is used to page a user, as designated by the i
 
 ```C++
 HRESULT Page(
-  [in]          VARIANT   vContact,
-  [out, retval] IDispatch **ppMWindow
+  [in]          VARIANT   vContact,
+  [out, retval] IDispatch **ppMWindow
 );
 ```
 
@@ -74,11 +82,11 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
-The Microsoft Exchange Instant Messaging Service (IM) service cannot support this method. Calling this method on an Exchange service contact will fail.
+The Microsoft Exchange Instant Messaging Service (IM) service cannot support this method. Calling this method on an Exchange service contact will fail.
 
 To use this method with Windows Messenger, you must install an add-in component that supports paging.
 
@@ -87,7 +95,7 @@ To use this method with Windows Messenger, you must install an add-in component 
 > [!Note]  
 > This method is available for scripting languages but it returns E\_NOTIMPL.
 
- 
+ 
 
 ## Requirements
 
@@ -95,8 +103,8 @@ To use this method with Windows Messenger, you must install an add-in component 
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -113,9 +121,9 @@ To use this method with Windows Messenger, you must install an add-in component 
 [**InstantMessage**](im-imessenger-instantmessage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

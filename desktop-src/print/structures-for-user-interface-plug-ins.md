@@ -1,7 +1,12 @@
 ---
-Description: 'Structures for User Interface Plug-Ins'
-ms.assetid: 'f84d4bd7-5e39-4177-b941-9cf2cfb2b9df'
-title: 'Structures for User Interface Plug-Ins'
+Description: Structures for User Interface Plug-Ins
+ms.assetid: f84d4bd7-5e39-4177-b941-9cf2cfb2b9df
+title: Structures for User Interface Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures for User Interface Plug-Ins

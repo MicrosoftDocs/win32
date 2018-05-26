@@ -4,11 +4,16 @@ description: When a file screen exception occurs, you can perform up to four uni
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45b16b46-7c03-4af5-889f-64047ec5ca98'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 45b16b46-7c03-4af5-889f-64047ec5ca98
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , performing actions based on file screen violations", "file screen violations File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , performing actions based on file screen violations
+- file screen violations File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performing Actions Based on File Screen Violations

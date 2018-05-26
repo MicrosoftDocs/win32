@@ -1,8 +1,14 @@
 ---
 title: IrDA and WSAStartup
 description: IrDA programmers must call the Windows Sockets WSAStartup function before making any other IrDA function calls.
-ms.assetid: '014e5209-29f6-43d6-abcd-148488f0b479'
-keywords: ["IrDA and WSAStartup"]
+ms.assetid: 014e5209-29f6-43d6-abcd-148488f0b479
+keywords:
+- IrDA and WSAStartup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and WSAStartup

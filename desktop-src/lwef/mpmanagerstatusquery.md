@@ -1,8 +1,9 @@
 ---
 title: MpManagerStatusQuery function
 description: Returns status information about various components of the malware protection manager.
-ms.assetid: 'E993FD8B-A35D-41C1-9522-1B9F0BC10B3D'
-keywords: ["MpManagerStatusQuery function Legacy Windows Environment Features"]
+ms.assetid: E993FD8B-A35D-41C1-9522-1B9F0BC10B3D
+keywords:
+- MpManagerStatusQuery function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpManagerStatusQuery function
@@ -24,8 +30,8 @@ Returns status information about various components of the malware protection ma
 
 ```C++
 HRESULT WINAPI MpManagerStatusQuery(
-  _In_  MPHANDLE       hMpHandle,
-  _Out_ PMPSTATUS_INFO pStatusInfo
+  _In_  MPHANDLE       hMpHandle,
+  _Out_ PMPSTATUS_INFO pStatusInfo
 );
 ```
 
@@ -67,8 +73,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -90,9 +96,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPSTATUS\_INFO**](mpstatus-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

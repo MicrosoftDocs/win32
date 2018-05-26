@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ISCardDatabase interface provides the methods for performing the smart card resource manager''s database operations.'
-ms.assetid: '56db3bc0-33c3-4b9c-a4a7-374fc491d8fd'
+---
+Description: The ISCardDatabase interface provides the methods for performing the smart card resource managers database operations.
+ms.assetid: 56db3bc0-33c3-4b9c-a4a7-374fc491d8fd
 title: ISCardDatabase interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardDatabase interface

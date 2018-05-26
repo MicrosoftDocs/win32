@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the value of a general parameter register (GPRM) changes.'
-ms.assetid: '3e0c400e-9ea5-458c-9eca-97d66a440590'
-title: 'EC\_DVD\_GPRM\_Change'
+Description: Sent when the value of a general parameter register (GPRM) changes.
+ms.assetid: 3e0c400e-9ea5-458c-9eca-97d66a440590
+title: EC\_DVD\_GPRM\_Change
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_GPRM\_Change
@@ -28,7 +33,7 @@ The lower 16 bits contains the new GPRM value.
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
 
 ## Requirements
 
@@ -53,12 +58,12 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
-[**IDvdInfo2::GetAllGPRMs**](idvdinfo2-getallgprms.md)
+[**IDvdInfo2::GetAllGPRMs**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getallgprms?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

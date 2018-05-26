@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveValue method removes an item from the collection.'
-ms.assetid: '864c23ee-5a4e-4e06-add0-f6aef5562430'
-title: 'IPortableDeviceValues::RemoveValue method'
+Description: The RemoveValue method removes an item from the collection.
+ms.assetid: 864c23ee-5a4e-4e06-add0-f6aef5562430
+title: IPortableDeviceValuesRemoveValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::RemoveValue method
@@ -13,7 +18,7 @@ The **RemoveValue** method removes an item from the collection.
 
 ```C++
 HRESULT RemoveValue(
-  [in] REFPROPERTYKEY key
+  [in] REFPROPERTYKEY key
 );
 ```
 
@@ -42,7 +47,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,9 +73,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetValue**](iportabledevicevalues-setvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

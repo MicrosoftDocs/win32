@@ -1,8 +1,9 @@
 ---
 title: Network.framesSkipped
 description: The framesSkipped property retrieves the total number of frames skipped during playback.
-ms.assetid: 'fc7561a4-1e52-4192-b8df-ed2fb407fb78'
-keywords: ["Network.framesSkipped Windows Media Player"]
+ms.assetid: fc7561a4-1e52-4192-b8df-ed2fb407fb78
+keywords:
+- Network.framesSkipped Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.framesSkipped
@@ -58,9 +64,9 @@ The following JScript example uses *Network*.**framesSkipped** to display the to
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

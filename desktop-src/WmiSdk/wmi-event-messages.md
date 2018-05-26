@@ -1,23 +1,26 @@
 ---
-Description: 'The following list lists events supported by WMI logs in Windows Vista and later operating systems.'
+Description: The following list lists events supported by WMI logs in Windows Vista and later operating systems.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ad8891cc-0b76-404d-81fc-961bcdbfae32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ad8891cc-0b76-404d-81fc-961bcdbfae32
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Event Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Event Messages
 
-The following list lists events supported by WMI logs in Windows Vista and later operating systems.
+The following list lists events supported by WMI logs in Windows Vista and later operating systems.
 
 > [!Note]  
 > The following documentation is designed for developers and IT administrators. If you are attempting to resolve a WMI error message on your home system, please refer to the [Microsoft Support](http://support.microsoft.com/) website.
 
- 
+ 
 
 <dl> <dt>
 
@@ -326,8 +329,8 @@ Windows Management Instrumentation Repository successfully recreated using Autor
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -341,9 +344,9 @@ Windows Management Instrumentation Repository successfully recreated using Autor
 [WMI Troubleshooting](wmi-troubleshooting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

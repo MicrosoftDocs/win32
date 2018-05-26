@@ -1,7 +1,12 @@
 ---
-Description: 'The procedure in this topic identifies how to create a Windows Installer package to install a Win32 assembly.'
-ms.assetid: '2d4bc2be-cce6-45e6-b6a7-7ff96d28eb96'
+Description: The procedure in this topic identifies how to create a Windows Installer package to install a Win32 assembly.
+ms.assetid: 2d4bc2be-cce6-45e6-b6a7-7ff96d28eb96
 title: Installing Win32 Assemblies for the Private Use of an Application on Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Win32 Assemblies for the Private Use of an Application on Windows XP

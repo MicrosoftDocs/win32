@@ -1,14 +1,20 @@
 ---
 title: WaveActiveBitOr function
 description: Returns the bitwise OR of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes.
-ms.assetid: 'FC8E5987-DAA7-41E6-A1AB-AA0E6A82CFC7'
-keywords: ["WaveAllBitOr function HLSL"]
+ms.assetid: FC8E5987-DAA7-41E6-A1AB-AA0E6A82CFC7
+keywords:
+- WaveAllBitOr function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllBitOr
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveBitOr function

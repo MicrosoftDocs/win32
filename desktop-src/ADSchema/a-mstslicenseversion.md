@@ -4,17 +4,22 @@ description: Terminal server license version.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9df736d7-be9c-4ac4-a9fb-2bb669a84f2d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9df736d7-be9c-4ac4-a9fb-2bb669a84f2d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-LicenseVersion attribute AD Schema", "msTSLicenseVersion attribute AD Schema"]
+keywords:
+- MS-TS-LicenseVersion attribute AD Schema
+- msTSLicenseVersion attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-LicenseVersion
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-LicenseVersion attribute

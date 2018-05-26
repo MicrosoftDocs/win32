@@ -1,8 +1,11 @@
 ---
 title: IImnAccount GetServerTypes method
 description: Determines the server types supported by the account.
-ms.assetid: '12efaa20-aa73-4465-b4b1-e9638f3c155c'
-keywords: ["GetServerTypes method Windows Mail (formerly Outlook Express)", "GetServerTypes method Windows Mail (formerly Outlook Express) , IImnAccount interface", "IImnAccount interface Windows Mail (formerly Outlook Express) , GetServerTypes method"]
+ms.assetid: 12efaa20-aa73-4465-b4b1-e9638f3c155c
+keywords:
+- GetServerTypes method Windows Mail (formerly Outlook Express)
+- GetServerTypes method Windows Mail (formerly Outlook Express) , IImnAccount interface
+- IImnAccount interface Windows Mail (formerly Outlook Express) , GetServerTypes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccount::GetServerTypes method
@@ -24,7 +32,7 @@ Determines the server types supported by the account.
 
 ```C++
 HRESULT GetServerTypes(
-  [out] DWORD *pdwSrvTypes
+  [out] DWORD *pdwSrvTypes
 );
 ```
 
@@ -54,7 +62,7 @@ Receives a pointer to a **DWORD** that contains the server type.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,7 +82,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -82,8 +90,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -91,9 +99,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

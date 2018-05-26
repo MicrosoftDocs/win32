@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC FindVirtualMachine method
 description: Retrieves a virtual machine object that matches the requested configuration.
-ms.assetid: '1c73d6f7-5662-485e-a864-e8e48197f8e4'
-keywords: ["FindVirtualMachine method Virtual PC", "FindVirtualMachine method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , FindVirtualMachine method"]
+ms.assetid: 1c73d6f7-5662-485e-a864-e8e48197f8e4
+keywords:
+- FindVirtualMachine method Virtual PC
+- FindVirtualMachine method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , FindVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::FindVirtualMachine method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves a virtual machine object that matches the requested configuration.
 
@@ -24,8 +32,8 @@ Retrieves a virtual machine object that matches the requested configuration.
 
 ```C++
 HRESULT FindVirtualMachine(
-  [in]          BSTR              configurationName,
-  [out, retval] IVMVirtualMachine **virtualMachine
+  [in]          BSTR              configurationName,
+  [out, retval] IVMVirtualMachine **virtualMachine
 );
 ```
 
@@ -65,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +85,9 @@ Virtual machine names are case-insensitive, for example, "MyVM" and "myvm" refer
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -93,9 +101,9 @@ Virtual machine names are case-insensitive, for example, "MyVM" and "myvm" refer
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

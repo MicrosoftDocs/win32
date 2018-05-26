@@ -1,7 +1,12 @@
-﻿---
-Description: 'Return values that a network provider can set.'
-ms.assetid: 'f8e6692f-4824-40fe-a5b3-9843689ea02e'
+---
+Description: Return values that a network provider can set.
+ms.assetid: f8e6692f-4824-40fe-a5b3-9843689ea02e
 title: Network Security Return Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Security Return Values

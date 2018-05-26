@@ -1,7 +1,12 @@
 ---
-Description: 'Each Function Discovery category may have one or more associated subcategories to provide another level of categorization.'
-ms.assetid: '9793e37d-6c12-431f-95d6-fd5350f11029'
+Description: Each Function Discovery category may have one or more associated subcategories to provide another level of categorization.
+ms.assetid: 9793e37d-6c12-431f-95d6-fd5350f11029
 title: Subcategory Definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subcategory Definitions
@@ -52,8 +57,8 @@ Providers can define and use their own subcategories. Not all providers use subc
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryCategories.h</dt> </dl> |
 
 
@@ -68,9 +73,9 @@ Providers can define and use their own subcategories. Not all providers use subc
 [Built-in Providers](built-in-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Modifying the Echo Sample Property Page
 description: Modifying the Echo Sample Property Page
-ms.assetid: 'a7ebf7d7-1f70-421f-862f-bc60655bb242'
-keywords: ["Windows Media Player plug-ins,Echo sample property pages", "plug-ins,Echo sample property pages", "digital signal processing plug-ins,Echo sample property pages", "DSP plug-ins,Echo sample property pages", "Echo DSP plug-in sample,property pages"]
+ms.assetid: a7ebf7d7-1f70-421f-862f-bc60655bb242
+keywords:
+- Windows Media Player plug-ins,Echo sample property pages
+- plug-ins,Echo sample property pages
+- digital signal processing plug-ins,Echo sample property pages
+- DSP plug-ins,Echo sample property pages
+- Echo DSP plug-in sample,property pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the Echo Sample Property Page

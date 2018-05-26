@@ -1,8 +1,9 @@
 ---
 title: D3DX\_IsNan function
 description: Determines if the value is a NaN (Not a Number).
-ms.assetid: '862d1d34-36ab-471e-b3ce-ce71896441e5'
-keywords: ["D3DX_IsNan function HLSL"]
+ms.assetid: 862d1d34-36ab-471e-b3ce-ce71896441e5
+keywords:
+- D3DX_IsNan function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_IsNan function
@@ -21,7 +27,7 @@ Determines if the value is a NaN (Not a Number).
 
 ``` syntax
 bool D3DX_IsNan(
-   FLOAT _V
+   FLOAT _V
 );
 ```
 
@@ -60,9 +66,9 @@ true if a NaN; otherwise false.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

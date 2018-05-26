@@ -1,14 +1,16 @@
 ---
 title: IMsRdpClientShell interface
-description: Remote Desktop Connection (RDC) client settings that are used to launch the client from Remote Desktop Web Access (RD Web Access) or from other web portals.
+description: Remote Desktop Connection (RDC) client settings that are used to launch the client from Remote Desktop Web Access (RD Web Access) or from other web portals.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05ca2e90-656a-40a3-a438-29d7985e9feb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 05ca2e90-656a-40a3-a438-29d7985e9feb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientShell interface Remote Desktop Services", "IMsRdpClientShell interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientShell interface Remote Desktop Services
+- IMsRdpClientShell interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,11 +19,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientShell interface
 
-Remote Desktop Connection (RDC) client settings that are used to launch the client from Remote Desktop Web Access (RD Web Access) or from other web portals.
+Remote Desktop Connection (RDC) client settings that are used to launch the client from Remote Desktop Web Access (RD Web Access) or from other web portals.
 
 ## Members
 
@@ -38,13 +43,13 @@ The **IMsRdpClientShell** interface has these methods.
 
 | Method                                                     | Description                                                  |
 |:-----------------------------------------------------------|:-------------------------------------------------------------|
-| [**GetRdpProperty**](imsrdpclientshell-getrdpproperty.md) | Retrieves a single RDP property.<br/>                  |
+| [**GetRdpProperty**](/windows/win32/rdpappcontainerclient/?branch=master) | Retrieves a single RDP property.<br/>                  |
 | [**Launch**](imsrdpclientshell-launch.md)                 | Launches remote file content from the web portal.<br/> |
-| [**SetRdpProperty**](imsrdpclientshell-setrdpproperty.md) | Sets a single RDP property.<br/>                       |
+| [**SetRdpProperty**](/windows/win32/rdpappcontainerclient/?branch=master) | Sets a single RDP property.<br/>                       |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +65,7 @@ The **IMsRdpClientShell** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,8 +73,8 @@ The **IMsRdpClientShell** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClientShell is defined as d012ae6d-c19a-4bfe-b367-201f8911f134<br/>   |
@@ -86,9 +91,9 @@ The **IMsRdpClientShell** interface has these properties.
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

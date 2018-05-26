@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the value of a property from an item''s property set. The property can be specified either by name or by the property set''s format identifier (FMTID) and property identifier (PID).'
-ms.assetid: 'ca787d7b-d95a-45b9-9627-fd505f99f868'
-title: 'ShellFolderItem.ExtendedProperty method'
+---
+Description: Gets the value of a property from an items property set. The property can be specified either by name or by the property sets format identifier (FMTID) and property identifier (PID).
+ms.assetid: ca787d7b-d95a-45b9-9627-fd505f99f868
+title: ShellFolderItem.ExtendedProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderItem.ExtendedProperty method
@@ -46,7 +51,7 @@ There are two ways to specify a property. The first is to assign the property's 
 
 Specifying a property by its FMTID/PID values is usually more efficient than using its name. To use a property's FMTID/PID values with **ExtendedProperty**, they must be combined into an SCID. An SCID is a string that contains the FMTID/PID values in the form "*FMTID**PID*", where the FMTID is the string form of the property set's GUID. For example, the SCID of the summary information property set's author property is "{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 4".
 
-For a list of FMTIDs and PIDs that are currently supported by the Shell, see [**SHCOLUMNID**](shcolumnid-str.md).
+For a list of FMTIDs and PIDs that are currently supported by the Shell, see [**SHCOLUMNID**](/windows/win32/Shobjidl/?branch=master).
 
 ## Examples
 

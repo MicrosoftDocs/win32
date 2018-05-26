@@ -1,7 +1,12 @@
 ---
 title: Manage Large Document Sets
 description: Manage Large Document Sets
-ms.assetid: '596B4BB7-CCF7-4792-9110-D971A3DED29B'
+ms.assetid: 596B4BB7-CCF7-4792-9110-D971A3DED29B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manage Large Document Sets

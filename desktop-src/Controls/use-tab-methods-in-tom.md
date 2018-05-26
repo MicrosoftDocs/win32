@@ -1,7 +1,12 @@
 ---
 title: How to Use Tab Methods in TOM
 description: The following example provides C functions that illustrate the use of the tab methods in the Text Object Model (TOM).
-ms.assetid: 'C74B4E43-615D-48B9-9884-F626BAF31F74'
+ms.assetid: C74B4E43-615D-48B9-9884-F626BAF31F74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Tab Methods in TOM
@@ -63,7 +68,7 @@ cleanup:
 
 ### Copy Tab Information
 
-The following example shows how to copy only the tab information from one [**ITextPara**](itextpara.md) interface to another. It takes two parameters: **ITextPara** \* *pParaFrom* (the paragraph from which to copy tabs) and **ITextPara** \* *pParaFrom* (the paragraph to which to copy tabs).
+The following example shows how to copy only the tab information from one [**ITextPara**](/windows/win32/Tom/nn-tom-itextpara?branch=master) interface to another. It takes two parameters: **ITextPara** \* *pParaFrom* (the paragraph from which to copy tabs) and **ITextPara** \* *pParaFrom* (the paragraph to which to copy tabs).
 
 
 ```C++

@@ -1,8 +1,11 @@
 ---
 title: Property.SubType property
 description: Retrieves the SubType of the Property, if any exist.
-ms.assetid: '6f8f0eac-dabf-4f6c-8e0c-814347e41ef8'
-keywords: ["SubType property WIA Automation", "SubType property WIA Automation , Property object", "Property object WIA Automation , SubType property"]
+ms.assetid: 6f8f0eac-dabf-4f6c-8e0c-814347e41ef8
+keywords:
+- SubType property WIA Automation
+- SubType property WIA Automation , Property object
+- Property object WIA Automation , SubType property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property.SubType property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -60,9 +68,9 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 [**WiaSubType**](-wiaaut-wiasubtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

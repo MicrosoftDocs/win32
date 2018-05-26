@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetTransmitter SetLicenseChallenge method
 description: The SetLicenseChallenge method processes a license challenge sent by a Windows Media DRM for Network Devices receiver.
-ms.assetid: '3d4cd029-a8f5-49fc-ba8c-d8615ff94366'
-keywords: ["SetLicenseChallenge method windows Media Format", "SetLicenseChallenge method windows Media Format , IWMDRMNetTransmitter interface", "IWMDRMNetTransmitter interface windows Media Format , SetLicenseChallenge method"]
+ms.assetid: 3d4cd029-a8f5-49fc-ba8c-d8615ff94366
+keywords:
+- SetLicenseChallenge method windows Media Format
+- SetLicenseChallenge method windows Media Format , IWMDRMNetTransmitter interface
+- IWMDRMNetTransmitter interface windows Media Format , SetLicenseChallenge method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetTransmitter::SetLicenseChallenge method
@@ -22,8 +30,8 @@ The **SetLicenseChallenge** method processes a license challenge sent by a Windo
 
 ```C++
 HRESULT SetLicenseChallenge(
-  [in] BYTE  *pbLicenseChallenge,
-  [in] DWORD cbLicenseChallenge
+  [in] BYTE  *pbLicenseChallenge,
+  [in] DWORD cbLicenseChallenge
 );
 ```
 
@@ -59,7 +67,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,9 +90,9 @@ If this method succeeds, subsequent calls to the other methods of **IWMDRMNetTra
 [**IWMDRMNetTransmitter Interface**](iwmdrmnettransmitter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

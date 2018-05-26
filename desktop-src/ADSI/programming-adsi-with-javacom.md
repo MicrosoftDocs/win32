@@ -4,11 +4,18 @@ description: Using the Microsoft virtual machine for Java (Microsoft VM) and Mic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eda516b6-0f89-464f-a9d2-9bb4ca70fda5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eda516b6-0f89-464f-a9d2-9bb4ca70fda5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Programming ADSI with Java/COM AD", "ADSI ADSI , using, Java/COM programming for", "ADSI ADSI , example code Java", "ADSI ADSI , example code Java , binding to an ADSI object and invoking methods on that object"]
+keywords:
+- Programming ADSI with Java/COM AD
+- ADSI ADSI , using, Java/COM programming for
+- ADSI ADSI , example code Java
+- ADSI ADSI , example code Java , binding to an ADSI object and invoking methods on that object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Programming ADSI with Java/COM
@@ -57,7 +64,7 @@ The argument in the first **import** statement refers to Java Wrapper classes pa
 
 Visual J++ creates the activeds package for the Java Wrapper classes and include the package into the project's default path. For more information, see the activeds package in the **Project Explore** pane on the Visual J++ window.
 
-To get an ADSI object that cannot be cocreated, use one of the exposed ADSI API functions, for example, [**ADsGetObject**](adsgetobject.md) or [**ADsOpenObject**](adsopenobject.md), which are also packaged in Activeds.dll. Microsoft J/Direct provides access to these and other native APIs. This is illustrated by the last two lines of the code example, above.
+To get an ADSI object that cannot be cocreated, use one of the exposed ADSI API functions, for example, [**ADsGetObject**](/windows/win32/Adshlp/nf-adshlp-adsgetobject?branch=master) or [**ADsOpenObject**](/windows/win32/Adshlp/nf-adshlp-adsopenobject?branch=master), which are also packaged in Activeds.dll. Microsoft J/Direct provides access to these and other native APIs. This is illustrated by the last two lines of the code example, above.
 
 When compiling, ensure that Microsoft Language Extension is enabled. To do this, select **&lt;project&gt; Properties...** from the **Project** menu in the Visual J++ project window. Then, click the **Compile** tab in the **&lt;project&gt; Properties** dialog. Clear the **Disable Microsoft Language Extensions** check box. If compiling from the command line, use "/x-" switch, for example:
 

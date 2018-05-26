@@ -4,17 +4,22 @@ description: Contains the GUID associated with a Full Volume Encryption (FVE) re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a26d6ef2-6fe6-4d30-9725-19f9f5ab1132'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a26d6ef2-6fe6-4d30-9725-19f9f5ab1132
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-FVE-RecoveryGuid attribute AD Schema", "msFVE-RecoveryGuid attribute AD Schema"]
+keywords:
+- ms-FVE-RecoveryGuid attribute AD Schema
+- msFVE-RecoveryGuid attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-FVE-RecoveryGuid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-FVE-RecoveryGuid attribute
@@ -38,9 +43,9 @@ Contains the GUID associated with a Full Volume Encryption (FVE) recovery passwo
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the GUID associated with a Full Volume Encryption (FVE) recovery passwo
 
 
 
- 
+ 
 
- 
+ 
 
 
 

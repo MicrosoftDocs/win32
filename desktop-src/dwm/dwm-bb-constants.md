@@ -1,7 +1,7 @@
 ---
 title: DWM Blur Behind Constants
 description: Flags used by the DWM\_BLURBEHIND structure to indicate which of its members contain valid information.
-ms.assetid: 'd6dd552c-1f3b-4f16-8705-f5016ed55d9e'
+ms.assetid: d6dd552c-1f3b-4f16-8705-f5016ed55d9e
 topic_type:
 - apiref
 api_name:
@@ -12,11 +12,16 @@ api_location:
 - Dwmapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Blur Behind Constants
 
-Flags used by the [**DWM\_BLURBEHIND**](dwm-blurbehind.md) structure to indicate which of its members contain valid information.
+Flags used by the [**DWM\_BLURBEHIND**](/windows/win32/Dwmapi/ns-dwmapi-_dwm_blurbehind?branch=master) structure to indicate which of its members contain valid information.
 
 <dl> <dt>
 
@@ -65,15 +70,15 @@ A value for the **fTransitionOnMaximized** member has been specified.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Dwmapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

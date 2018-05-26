@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information about a RemoteFX physical graphics processing unit (GPU).'
-ms.assetid: '86B47AAE-DBFF-43EF-88C6-44836D6C3AFA'
-title: 'Msvm\_PhysicalGPUInfo class'
+Description: Contains information about a RemoteFX physical graphics processing unit (GPU).
+ms.assetid: 86B47AAE-DBFF-43EF-88C6-44836D6C3AFA
+title: Msvm\_PhysicalGPUInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_PhysicalGPUInfo class
@@ -158,8 +163,8 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -173,9 +178,9 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

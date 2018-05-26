@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the security packages that can be used with SSPI.'
-ms.assetid: 'f5999d41-b334-49be-8883-d9b9042d20dc'
+Description: Lists the security packages that can be used with SSPI.
+ms.assetid: f5999d41-b334-49be-8883-d9b9042d20dc
 title: Using Security Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Security Packages
@@ -19,16 +24,16 @@ System services and transport-level applications access an SSP through SSPI, whi
 
 The methods in SSPI are generic routines that developers can use without knowing the details of a particular [*security protocol*](security.s_gly#-security-security-protocol-gly). For example, when a client/server connection is authenticated:
 
-1.  The application on the client side of the connection sends [*credentials*](security.c_gly#-security-credentials-gly) to the server using the SSPI function [**InitializeSecurityContext (General)**](initializesecuritycontext--general-.md).
-2.  The application on the server side of the connection responds with the SSPI function [**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md).
+1.  The application on the client side of the connection sends [*credentials*](security.c_gly#-security-credentials-gly) to the server using the SSPI function [**InitializeSecurityContext (General)**](/windows/win32/Sspi/?branch=master).
+2.  The application on the server side of the connection responds with the SSPI function [**AcceptSecurityContext (General)**](/windows/win32/Sspi/?branch=master).
 3.  After the connection has been authenticated, the LSA on the server uses information from the client to build an [*access token*](security.a_gly#-security-access-token-gly).
-4.  The server can then call the SSPI function [**ImpersonateSecurityContext**](impersonatesecuritycontext.md) to attach the access token to an impersonation thread for the service.
+4.  The server can then call the SSPI function [**ImpersonateSecurityContext**](/windows/win32/Sspi/nf-sspi-impersonatesecuritycontext?branch=master) to attach the access token to an impersonation thread for the service.
 
 ## Kerberos Security Package
 
 The Kerberos [*security package*](security.s_gly#-security-security-package-gly) is based on the [*Kerberos authentication protocol*](security.k_gly#-security-kerberos-protocol-gly).
 
-If the Kerberos protocol is being used to authenticate a client/server connection, [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos-.md) generates a GSSAPI message that includes a KRB\_AP\_REQ message from the client. [**AcceptSecurityContext (Kerberos)**](acceptsecuritycontext--kerberos-.md) then generates a GSSAPI message that includes a KRB\_AP\_REP message from the server.
+If the Kerberos protocol is being used to authenticate a client/server connection, [**InitializeSecurityContext (Kerberos)**](/windows/win32/Sspi/?branch=master) generates a GSSAPI message that includes a KRB\_AP\_REQ message from the client. [**AcceptSecurityContext (Kerberos)**](/windows/win32/Sspi/?branch=master) then generates a GSSAPI message that includes a KRB\_AP\_REP message from the server.
 
 For background information on the steps that take place behind the scenes in the implementation of a Kerberos protocol, see [Microsoft Kerberos](microsoft-kerberos.md).
 

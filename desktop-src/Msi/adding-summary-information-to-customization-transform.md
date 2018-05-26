@@ -1,14 +1,19 @@
 ---
-Description: 'To apply the customization transform during an installation of the product, you must add a Summary Information Stream to the transform file MNPtrans.mst generated in Generating a Customization Transform.'
-ms.assetid: '586f6c43-7449-4d06-9201-9b4b4919871e'
+Description: To apply the customization transform during an installation of the product, you must add a Summary Information Stream to the transform file MNPtrans.mst generated in Generating a Customization Transform.
+ms.assetid: 586f6c43-7449-4d06-9201-9b4b4919871e
 title: Adding Summary Information to Customization Transform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Summary Information to Customization Transform
 
 To apply the customization transform during an installation of the product, you must add a [Summary Information Stream](summary-information-stream.md) to the transform file MNPtrans.mst generated in [Generating a Customization Transform](generating-a-customization-transform.md).
 
-You may generate summary information for a transform using [**MsiCreateTransformSummaryInfo**](msicreatetransformsummaryinfo.md) or the [**CreateTransformSummaryInfo Method**](database-createtransformsummaryinfo.md). The following snippet, Sum.vbs, illustrates the [**CreateTransformSummaryInfo Method**](database-createtransformsummaryinfo.md) and is for use with Windows Script Host. Note that this example performs no validation and suppresses no error conditions.
+You may generate summary information for a transform using [**MsiCreateTransformSummaryInfo**](/windows/win32/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa?branch=master) or the [**CreateTransformSummaryInfo Method**](database-createtransformsummaryinfo.md). The following snippet, Sum.vbs, illustrates the [**CreateTransformSummaryInfo Method**](database-createtransformsummaryinfo.md) and is for use with Windows Script Host. Note that this example performs no validation and suppresses no error conditions.
 
 
 ```VB

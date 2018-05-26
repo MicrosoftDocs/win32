@@ -1,7 +1,12 @@
 ---
 title: Third party Security Support Providers with Credential Guard
 description: Credential Guard does not allow 3rd party SSPs to ask for password hashes from LSA.
-ms.assetid: 'DA518005-C603-41CF-BBB9-2B46414653A5'
+ms.assetid: DA518005-C603-41CF-BBB9-2B46414653A5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Third party Security Support Providers with Credential Guard

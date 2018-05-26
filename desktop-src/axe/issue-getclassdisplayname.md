@@ -1,8 +1,11 @@
 ---
 title: Issue GetClassDisplayName method
 description: Returns the display name of the class of the Issue.
-ms.assetid: '1896F555-18BD-4B7C-A6B4-1D40126AC617'
-keywords: ["GetClassDisplayName method Access Execution Engine", "GetClassDisplayName method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetClassDisplayName method"]
+ms.assetid: 1896F555-18BD-4B7C-A6B4-1D40126AC617
+keywords:
+- GetClassDisplayName method Access Execution Engine
+- GetClassDisplayName method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetClassDisplayName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetClassDisplayName method
@@ -22,7 +30,7 @@ Returns the display name of the class of the **Issue**.
 
 ```C++
 virtual HRESULT GetClassDisplayName(
-  [out] LPCWSTR *classDisplayName
+  [out] LPCWSTR *classDisplayName
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The display name of the class is the value of element **Issue/Class/DisplayName*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The display name of the class is the value of element **Issue/Class/DisplayName*
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

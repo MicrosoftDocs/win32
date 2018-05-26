@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'cb04c41f-35e3-4483-9bc5-5e4f2e45042f'
-title: 'System.Music.Conductor'
+Description: .
+ms.assetid: cb04c41f-35e3-4483-9bc5-5e4f2e45042f
+title: System.Music.Conductor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.Conductor

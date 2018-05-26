@@ -1,14 +1,20 @@
 ---
 title: ActivityTitle element
 description: Description of steps to resolve the issue.
-ms.assetid: 'F278687B-D08C-46F7-A8ED-89D72DD59EED'
-keywords: ["ActivityTitle element Access Execution Engine"]
+ms.assetid: F278687B-D08C-46F7-A8ED-89D72DD59EED
+keywords:
+- ActivityTitle element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ActivityTitle
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityTitle element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

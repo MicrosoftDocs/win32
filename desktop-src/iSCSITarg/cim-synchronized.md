@@ -4,13 +4,15 @@ description: Indicates that two ManagedElements were aligned or made to be equiv
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43e2e891-692d-49f1-abb3-cca422504b8c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 43e2e891-692d-49f1-abb3-cca422504b8c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Synchronized class iSCSI Software Target API", "CIM_Synchronized class iSCSI Software Target API , described"]
+keywords:
+- CIM_Synchronized class iSCSI Software Target API
+- CIM_Synchronized class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Synchronized class
@@ -52,21 +57,21 @@ class CIM_Synchronized
 {
   CIM_ManagedElement REF SystemElement;
   CIM_ManagedElement REF SyncedElement;
-  datetime               WhenSynced;
-  boolean                SyncMaintained;
-  uint16                 CopyState;
-  uint16                 Mode;
-  uint16                 PercentSynced;
-  uint16                 ProgressStatus;
-  uint16                 RequestedCopyState = 15;
-  uint16                 SyncType;
-  datetime               WhenActivated;
-  datetime               WhenDeactivated;
-  datetime               WhenEstablished;
-  datetime               WhenSuspended;
-  datetime               WhenSynchronized;
-  uint16                 CopyRecoveryMode;
-  boolean                FailedCopyStopsHostIO = FALSE;
+  datetime               WhenSynced;
+  boolean                SyncMaintained;
+  uint16                 CopyState;
+  uint16                 Mode;
+  uint16                 PercentSynced;
+  uint16                 ProgressStatus;
+  uint16                 RequestedCopyState = 15;
+  uint16                 SyncType;
+  datetime               WhenActivated;
+  datetime               WhenDeactivated;
+  datetime               WhenEstablished;
+  datetime               WhenSuspended;
+  datetime               WhenSynchronized;
+  uint16                 CopyRecoveryMode;
+  boolean                FailedCopyStopsHostIO = FALSE;
 };
 ```
 
@@ -128,14 +133,14 @@ Manual: CopyState is set to Suspended after the link is restored. It is required
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -302,14 +307,14 @@ Invalid: The array is unable to determine the state of the replication relations
 **DMTF Reserved**
 
 
-</dt> <dd>18–32767</dd> <dt>
+</dt> <dd>18 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -371,14 +376,14 @@ Mode describes whether the target elements will be updated synchronously or asyn
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -600,14 +605,14 @@ Pending: The flow of data has stopped momentarily due to limited bandwidth or bu
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -683,7 +688,7 @@ Clone: create a PIT, full copy the source.
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -711,14 +716,14 @@ Clone: create a PIT, full copy the source.
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -838,16 +843,16 @@ Specifies when the CopyState has a value of Synchronized. Must be set to NULL if
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

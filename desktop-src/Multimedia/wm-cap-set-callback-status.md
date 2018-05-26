@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SET\_CALLBACK\_STATUS message
 description: The WM\_CAP\_SET\_CALLBACK\_STATUS message sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can send this message explicitly or by using the capSetCallbackOnStatus macro.
-ms.assetid: '451ba9f9-7bfb-4c57-af6c-d5f691f39618'
-keywords: ["WM_CAP_SET_CALLBACK_STATUS message Windows Multimedia"]
+ms.assetid: 451ba9f9-7bfb-4c57-af6c-d5f691f39618
+keywords:
+- WM_CAP_SET_CALLBACK_STATUS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SET\_CALLBACK\_STATUS message
 
-The **WM\_CAP\_SET\_CALLBACK\_STATUS** message sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can send this message explicitly or by using the [**capSetCallbackOnStatus**](capsetcallbackonstatus.md) macro.
+The **WM\_CAP\_SET\_CALLBACK\_STATUS** message sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can send this message explicitly or by using the [**capSetCallbackOnStatus**](/windows/win32/Vfw/nf-vfw-capsetcallbackonstatus?branch=master) macro.
 
 
 ```C++
@@ -33,7 +39,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 <span id="fpProc"></span><span id="fpproc"></span><span id="FPPROC"></span>*fpProc*
 </dt> <dd>
 
-Pointer to the status callback function, of type [**capStatusCallback**](capstatuscallback.md). Specify **NULL** for this parameter to disable a previously installed status callback function.
+Pointer to the status callback function, of type [**capStatusCallback**](/windows/win32/Vfw/nc-vfw-capstatuscallbacka?branch=master). Specify **NULL** for this parameter to disable a previously installed status callback function.
 
 </dd> </dl>
 
@@ -56,8 +62,8 @@ Applications can optionally set a status callback function. If set, AVICap calls
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -72,9 +78,9 @@ Applications can optionally set a status callback function. If set, AVICap calls
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

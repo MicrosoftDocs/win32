@@ -4,10 +4,13 @@ description: This topic provides step-by-step instructions for getting a specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '581895DF-04B7-4FED-94B3-0A207E462E74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 581895DF-04B7-4FED-94B3-0A207E462E74
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Get a Specific Instance of a Class (C/C++)
@@ -31,7 +34,7 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
 2.  Add the MI import library (**mi.lib**) to the project's linker dependencies. (This file ships as part of the [Windows Software Development Kit (SDK) for Windows 8](Http://Go.Microsoft.Com/FWLink/p/?LinkID=306595).)
 
-3.  Initialize the application via [**MI\_Application\_Initialize**](mi-application-initialize.md). It is recommended to have only one [**MI\_Application**](mi-application.md) per process. The **MI\_Application** returned from this function should always be closed, or de-initialized, via [**MI\_Application\_Close**](mi-application-close.md).
+3.  Initialize the application via [**MI\_Application\_Initialize**](/windows/previous-versions/Mi/nf-mi-mi_application_initializev1?branch=master). It is recommended to have only one [**MI\_Application**](/windows/previous-versions/Mi/ns-mi-_mi_application?branch=master) per process. The **MI\_Application** returned from this function should always be closed, or de-initialized, via [**MI\_Application\_Close**](/windows/previous-versions/Mi/nf-mi-mi_application_close?branch=master).
 
     ```C++
     MI_RESULT miResult = MI_Application_Initialize(0,               // Flags - Must be 0
@@ -44,7 +47,7 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
     
 
-4.  Create an MI session against the specified destination (computer) with the specified protocol (WinRM, in this example) via [**MI\_Application\_NewSession**](mi-application-newsession.md). The session must be closed via [**MI\_Session\_Close**](mi-session-close.md).
+4.  Create an MI session against the specified destination (computer) with the specified protocol (WinRM, in this example) via [**MI\_Application\_NewSession**](/windows/previous-versions/Mi/nf-mi-mi_application_newsession?branch=master). The session must be closed via [**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master).
 
     ```C++
     MI_RESULT miResult = MI_Application_NewSession(&amp;miApplication, // Application 
@@ -60,7 +63,7 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
     
 
-5.  Create an [**MI\_Instance**](mi-instance.md) that represents the class name and keys of the instance to be retrieved from the server via [**MI\_Session\_GetInstance**](mi-session-getinstance.md). The following example function creates an instance with a hard-coded element (property) name of **Handle** and a value of **0**. For the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class (the class being used in this example), the **Handle** property is the process ID (PID) and the process with a PID of 0 is the System Idle Process. In a real-world scenario, you will want to specify the appropriate elements and values pursuant to the class you are attempting to obtain.
+5.  Create an [**MI\_Instance**](/windows/previous-versions/Mi/ns-mi-_mi_instance?branch=master) that represents the class name and keys of the instance to be retrieved from the server via [**MI\_Session\_GetInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_getinstance?branch=master). The following example function creates an instance with a hard-coded element (property) name of **Handle** and a value of **0**. For the [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) class (the class being used in this example), the **Handle** property is the process ID (PID) and the process with a PID of 0 is the System Idle Process. In a real-world scenario, you will want to specify the appropriate elements and values pursuant to the class you are attempting to obtain.
 
     ```C++
     MI_Result CreateSearchInstance(MI_Session *miSession, 
@@ -139,10 +142,10 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
     
 
-6.  Call [**MI\_Session\_GetInstance**](mi-session-getinstance.md) passing the key, or search, instance from the previous step.
+6.  Call [**MI\_Session\_GetInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_getinstance?branch=master) passing the key, or search, instance from the previous step.
 
     > [!Note]  
-    > The following code uses a loop to enumerate the results of the [**MI\_Session\_GetInstance**](mi-session-getinstance.md) function. While not technically necessary for this particular example - as this example will always return one instance - it's included to illustrate how you would enumerate the results of a call to **MI\_Session\_GetInstance** that returns multiple instances.
+    > The following code uses a loop to enumerate the results of the [**MI\_Session\_GetInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_getinstance?branch=master) function. While not technically necessary for this particular example - as this example will always return one instance - it's included to illustrate how you would enumerate the results of a call to **MI\_Session\_GetInstance** that returns multiple instances.
 
      
 
@@ -232,7 +235,7 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
     
 
-8.  Close the operation via [**MI\_Operation\_Close**](mi-operation-close.md). All operations must be closed. If an operation is not closed, [**MI\_Session\_Close**](mi-session-close.md) will block until all of its operations are closed. Also note that **MI\_Operation\_Close** will cancel an operation if it is still running. However, results must be consumed before **MI\_Operation\_Close** can complete. For synchronous operations (such as the example in this topic), **MI\_Operation\_Close** is blocked until the final result has been consumed (i.e., until the **moreResults** output parameters is set to **MI\_FALSE**).
+8.  Close the operation via [**MI\_Operation\_Close**](/windows/previous-versions/Mi/nf-mi-mi_operation_close?branch=master). All operations must be closed. If an operation is not closed, [**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master) will block until all of its operations are closed. Also note that **MI\_Operation\_Close** will cancel an operation if it is still running. However, results must be consumed before **MI\_Operation\_Close** can complete. For synchronous operations (such as the example in this topic), **MI\_Operation\_Close** is blocked until the final result has been consumed (i.e., until the **moreResults** output parameters is set to **MI\_FALSE**).
 
     ```C++
     miResult = MI_Operation_Close(&amp;miOperation);
@@ -242,7 +245,7 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
     
 
-9.  Close the MI session via [**MI\_Session\_Close**](mi-session-close.md). If this function fails (reflected in the [**MI\_Result**](mi-result.md) return code), it is likely due to an invalid parameter, out of memory errors, or access denied. Invalid parameter means a programming error happened. When an out of memory error happens, the session will shut down as best it can. Access denied means the security context while calling the **MI\_Session\_Close** function is different than the one used when the session was created. This could happen if closing from a different thread and neglecting to impersonate.
+9.  Close the MI session via [**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master). If this function fails (reflected in the [**MI\_Result**](/windows/previous-versions/Mi/ne-mi-_mi_result?branch=master) return code), it is likely due to an invalid parameter, out of memory errors, or access denied. Invalid parameter means a programming error happened. When an out of memory error happens, the session will shut down as best it can. Access denied means the security context while calling the **MI\_Session\_Close** function is different than the one used when the session was created. This could happen if closing from a different thread and neglecting to impersonate.
 
     ```C++
     MI_RESULT miResult = MI_Session_Close(&amp;miSession, // Session
@@ -254,7 +257,7 @@ This topic provides step-by-step instructions for getting a specific (keyed) ins
 
     
 
-10. The last MI call that should be made is a call to [**MI\_Application\_Close**](mi-application-close.md). Note that this call will block until all operations and sessions are fully closed.
+10. The last MI call that should be made is a call to [**MI\_Application\_Close**](/windows/previous-versions/Mi/nf-mi-mi_application_close?branch=master). Note that this call will block until all operations and sessions are fully closed.
 
     ```C++
     MI_RESULT miResult = MI_Application_Close(&amp;miApplication);

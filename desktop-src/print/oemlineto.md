@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMLineTo function draws a single, solid, integer-only cosmetic line.'
-ms.assetid: '4131f7eb-de96-42cd-87f0-15fd73836a2d'
+---
+Description: The OEMLineTo function draws a single, solid, integer-only cosmetic line.
+ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 title: OEMLineTo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMLineTo function

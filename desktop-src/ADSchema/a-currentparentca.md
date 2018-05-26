@@ -4,17 +4,22 @@ description: Reference to the certification authorities that issued the current 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9b851a7f-4a69-46f2-b7e2-6ee0b2d8eec1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9b851a7f-4a69-46f2-b7e2-6ee0b2d8eec1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Current-Parent-CA attribute AD Schema", "currentParentCA attribute AD Schema"]
+keywords:
+- Current-Parent-CA attribute AD Schema
+- currentParentCA attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Current-Parent-CA
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Current-Parent-CA attribute
@@ -38,12 +43,12 @@ Reference to the certification authorities that issued the current certificates 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Reference to the certification authorities that issued the current certificates 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

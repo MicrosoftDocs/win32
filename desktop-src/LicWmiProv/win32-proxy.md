@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_Proxy&\#8194;WMI class contains properties and methods to query and configure an Internet connection related to Windows Product Activation (WPA).'
-ms.assetid: '431fb980-6518-4b9b-8ca3-6e6d5471abf5'
-title: 'Win32\_Proxy class'
+Description: The Win32\_Proxy&\#8194;WMI class contains properties and methods to query and configure an Internet connection related to Windows Product Activation (WPA).
+ms.assetid: 431fb980-6518-4b9b-8ca3-6e6d5471abf5
+title: Win32\_Proxy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Proxy class
@@ -43,7 +48,7 @@ The **Win32\_Proxy** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -151,7 +156,7 @@ The **Win32\_Proxy** class is derived from [**CIM\_Setting**](https://msdn.micro
 > [!Note]  
 > Windows Product Activation is not available on the Itanium-based versions of the Windows operating system.
 
- 
+ 
 
 ## Examples
 
@@ -195,10 +200,10 @@ Next
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -218,9 +223,9 @@ Next
 [**Win32\_ComputerSystemWindowsProductActivationSetting**](win32-computersystemwindowsproductactivationsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

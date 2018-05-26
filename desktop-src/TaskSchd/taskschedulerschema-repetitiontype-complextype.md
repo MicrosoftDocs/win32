@@ -1,14 +1,20 @@
 ---
 title: repetitionType Complex Type
 description: Defines the child elements and sequence information for the Repetition (triggerBaseType) element.
-ms.assetid: 'd2b4b840-3a69-4ff8-ac32-6ec76e7e8788'
-keywords: ["repetitionType complex type Task Scheduler"]
+ms.assetid: d2b4b840-3a69-4ff8-ac32-6ec76e7e8788
+keywords:
+- repetitionType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - repetitionType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # repetitionType Complex Type
@@ -72,8 +78,8 @@ Defines the child elements and sequence information for the [**Repetition (trigg
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -87,9 +93,9 @@ Defines the child elements and sequence information for the [**Repetition (trigg
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

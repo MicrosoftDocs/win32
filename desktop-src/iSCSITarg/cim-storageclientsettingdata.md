@@ -4,13 +4,15 @@ description: This class models host environment factors that influence the behav
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '63d64153-6cc1-4422-8d9b-df3e5d8ae7e5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 63d64153-6cc1-4422-8d9b-df3e5d8ae7e5
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_StorageClientSettingData class iSCSI Software Target API", "CIM_StorageClientSettingData class iSCSI Software Target API , described"]
+keywords:
+- CIM_StorageClientSettingData class iSCSI Software Target API
+- CIM_StorageClientSettingData class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageClientSettingData class
@@ -255,14 +260,14 @@ This enumeration defines operating system, version, driver, and other host envir
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -348,7 +353,7 @@ When the the corresponding array entry in ClientTypes\[\] is "Other", this entry
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -362,9 +367,9 @@ When the the corresponding array entry in ClientTypes\[\] is "Other", this entry
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

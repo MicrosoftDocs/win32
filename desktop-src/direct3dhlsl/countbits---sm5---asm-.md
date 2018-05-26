@@ -1,7 +1,12 @@
 ---
 title: countbits (sm5 - asm)
 description: Counts the number of bits set in a number.
-ms.assetid: 'ED75487F-46FF-45F5-BEAA-7A32BEFB0571'
+ms.assetid: ED75487F-46FF-45F5-BEAA-7A32BEFB0571
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # countbits (sm5 - asm)
@@ -15,7 +20,7 @@ Counts the number of bits set in a number.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Counts the number of bits set in a number.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -61,7 +66,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -70,9 +75,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IRangeList interface
 description: Represents a range or set of ranges of messages.
-ms.assetid: '75eebbca-e844-4c93-8dde-4df408c3d909'
-keywords: ["IRangeList interface Windows Mail (formerly Outlook Express)", "IRangeList interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: 75eebbca-e844-4c93-8dde-4df408c3d909
+keywords:
+- IRangeList interface Windows Mail (formerly Outlook Express)
+- IRangeList interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList interface
@@ -29,8 +36,8 @@ The **IRangeList** interface inherits from the [**IUnknown**](https://msdn.micro
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -38,9 +45,9 @@ The **IRangeList** interface inherits from the [**IUnknown**](https://msdn.micro
 
 
 
- 
+ 
 
- 
+ 
 
 
 

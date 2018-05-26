@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates to the video sample allocator to create textures as shareable using keyed-mutex.'
-ms.assetid: '798CA474-3B1A-4795-81B7-563749197104'
-title: 'MF\_SA\_D3D11\_SHARED attribute'
+---
+Description: Indicates to the video sample allocator to create textures as shareable using keyed-mutex.
+ms.assetid: 798CA474-3B1A-4795-81B7-563749197104
+title: MF\_SA\_D3D11\_SHARED attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SA\_D3D11\_SHARED attribute
@@ -16,7 +21,7 @@ Indicates to the video sample allocator to create textures as shareable using ke
 
 ### Sample Allocator
 
-This attribute can be set on the video sample allocator, in the [**IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx**](imfvideosampleallocatorex-initializesampleallocatorex.md) method.
+This attribute can be set on the video sample allocator, in the [**IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx**](/windows/win32/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex?branch=master) method.
 
 ## Requirements
 
@@ -37,7 +42,7 @@ This attribute can be set on the video sample allocator, in the [**IMFVideoSampl
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx**](imfvideosampleallocatorex-initializesampleallocatorex.md)
+[**IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx**](/windows/win32/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex?branch=master)
 </dt> <dt>
 
 [MF\_SA\_D3D11\_SHARED\_WITHOUT\_MUTEX](mf-sa-d3d11-shared-without-mutex.md)

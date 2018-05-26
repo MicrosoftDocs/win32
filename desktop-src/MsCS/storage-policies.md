@@ -4,10 +4,13 @@ description: A resource type that represents the storage Quality of Service (QoS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E50FF7C7-896B-4AF6-A0B9-3576DDD4E7FA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: E50FF7C7-896B-4AF6-A0B9-3576DDD4E7FA
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storage Policies
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +41,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Storage QoS Policy Manager](storage-qos-policy-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

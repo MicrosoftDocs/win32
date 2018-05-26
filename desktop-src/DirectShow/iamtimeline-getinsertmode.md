@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: '864c2805-be19-4e25-acaa-9fd0466d788d'
-title: 'IAMTimeline::GetInsertMode method'
+---
+Description: Not supported.
+ms.assetid: 864c2805-be19-4e25-acaa-9fd0466d788d
+title: IAMTimelineGetInsertMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetInsertMode method

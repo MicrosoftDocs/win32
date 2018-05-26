@@ -1,8 +1,10 @@
 ---
 title: IOERule interface
-description: IOERule is no longer available for use as of Windows Vista.
-ms.assetid: 'f96a08f6-35ad-4af1-a703-8e2f56da864e'
-keywords: ["IOERule interface Windows Mail (formerly Outlook Express)", "IOERule interface Windows Mail (formerly Outlook Express) , described"]
+description: IOERule is no longer available for use as of Windows Vista.
+ms.assetid: f96a08f6-35ad-4af1-a703-8e2f56da864e
+keywords:
+- IOERule interface Windows Mail (formerly Outlook Express)
+- IOERule interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOERule interface
 
-\[**IOERule** is no longer available for use as of Windows Vista.\]
+\[**IOERule** is no longer available for use as of Windows Vista.\]
 
 The **IOERule** interface represents a message rule.
 
@@ -29,10 +36,10 @@ The **IOERule** interface inherits from the [**IUnknown**](https://msdn.microsof
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
@@ -40,9 +47,9 @@ The **IOERule** interface inherits from the [**IUnknown**](https://msdn.microsof
 
 
 
- 
+ 
 
- 
+ 
 
 
 

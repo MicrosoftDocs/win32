@@ -1,7 +1,12 @@
 ---
 title: VML Distance Attribute
 description: VML Distance Attribute
-ms.assetid: '8f5d2b91-011f-4788-80ac-b6d851bea5fa'
+ms.assetid: 8f5d2b91-011f-4788-80ac-b6d851bea5fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Distance Attribute

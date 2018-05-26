@@ -1,7 +1,12 @@
 ---
 title: To define categories and information types
 description: To define categories and information types
-ms.assetid: '6E9A8D64-F6D4-4952-8059-1F2A8B8F9FC0'
+ms.assetid: 6E9A8D64-F6D4-4952-8059-1F2A8B8F9FC0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To define categories and information types
@@ -16,7 +21,7 @@ ms.assetid: '6E9A8D64-F6D4-4952-8059-1F2A8B8F9FC0'
 
     
 
-     
+     
 
 2.  Click the **Information Types** tab, and then click **Add**.
 3.  In the **Category name** box, type the name for the first category you want (for example, Experience Level).
@@ -41,9 +46,9 @@ ms.assetid: '6E9A8D64-F6D4-4952-8059-1F2A8B8F9FC0'
 [About Assigning Information Types](assign-information-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

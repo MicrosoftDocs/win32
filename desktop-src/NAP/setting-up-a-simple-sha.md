@@ -1,7 +1,12 @@
 ---
 title: Setting Up a Simple SHA
 description: The following example sets up a simple system health agent (SHA) and shows two optional actions Statement of Health (SoH) change notification and flushing of the SoH cache.
-ms.assetid: '7c96e1ca-f9b2-40e6-bd89-c8ef77b48dfa'
+ms.assetid: 7c96e1ca-f9b2-40e6-bd89-c8ef77b48dfa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up a Simple SHA

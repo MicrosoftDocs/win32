@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object that manages AD RMS use of Active Directory Federation Services (ADFS).'
+Description: Retrieves an object that manages AD RMS use of Active Directory Federation Services (ADFS).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e96bc598-ec90-41ab-8601-7ec30fcbc88b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e96bc598-ec90-41ab-8601-7ec30fcbc88b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustPolicy.ADFederationService property'
+title: TrustPolicy.ADFederationService property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustPolicy.ADFederationService property
@@ -31,7 +34,7 @@ This property returns an [**ADFederationService**](adfederationservice-object.md
 
 ## Remarks
 
-ADFS is a component available beginning with Windows Server 2003 R2 that enables a user to access multiple web applications during the life of a single online session. If ADFS is installed and enabled, an AD RMS server can grant content access to federated users.
+ADFS is a component available beginning with Windows Server 2003 R2 that enables a user to access multiple web applications during the life of a single online session. If ADFS is installed and enabled, an AD RMS server can grant content access to federated users.
 
 ## Examples
 
@@ -118,7 +121,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -133,9 +136,9 @@ END SUB
 [**TrustPolicy**](trustpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

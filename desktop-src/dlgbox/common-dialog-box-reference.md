@@ -1,7 +1,12 @@
 ---
 title: Common Dialog Box Reference
 description: .
-ms.assetid: '0abb8407-a50d-4b01-a90f-d037d67183d8'
+ms.assetid: 0abb8407-a50d-4b01-a90f-d037d67183d8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Dialog Box Reference

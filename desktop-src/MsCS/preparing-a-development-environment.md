@@ -4,11 +4,15 @@ description: Development environment configuration for Failover Cluster API prog
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1c20dbc0-ee8b-4c91-8d09-eaa4bf983362'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1c20dbc0-ee8b-4c91-8d09-eaa4bf983362
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["development environment preparation Failover Cluster"]
+keywords:
+- development environment preparation Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Preparing a Development Environment
@@ -78,7 +82,7 @@ The following procedure describes how to setup debugging for resource DLLs.
 
     -   This command line assumes that the Debugging Tools for Windows were installed in "C:\\Program Files\\Debugging Tools for Windows" with a short path of "C:\\Progra~1\\Debugg~1" and the local cache of Windows symbols is to be installed in "C:\\WebSymbols". Please adjust the paths as necessary.
 
-    -   To set a breakpoint, use the "bu ResDllName!FunctionName" command in the debugger. For example, to set a breakpoint on the [*Terminate*](terminate.md) callback function for the ClipBook Server sample in the Windows SDK, the command would be "bu ClipBook Server!ClipBookServerTerminate".
+    -   To set a breakpoint, use the "bu ResDllName!FunctionName" command in the debugger. For example, to set a breakpoint on the [*Terminate*](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master) callback function for the ClipBook Server sample in the Windows SDK, the command would be "bu ClipBook Server!ClipBookServerTerminate".
 
     -   To break when the DLL is being loaded, use the "sxe ResDllName.dll" command in the debugger.
 

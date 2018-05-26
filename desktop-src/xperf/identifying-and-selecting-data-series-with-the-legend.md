@@ -1,8 +1,17 @@
 ---
 title: Identifying and Selecting Data Series with the Legend
 description: Identifying and Selecting Data Series with the Legend
-ms.assetid: '04512f36-3ef6-4936-9f1e-f316b984370f'
-keywords: ["all check box", "z ordering", "z-ordering", "color selection"]
+ms.assetid: 04512f36-3ef6-4936-9f1e-f316b984370f
+keywords:
+- all check box
+- z ordering
+- z-ordering
+- color selection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identifying and Selecting Data Series with the Legend

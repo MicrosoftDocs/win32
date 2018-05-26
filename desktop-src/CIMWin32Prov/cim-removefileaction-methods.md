@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_RemoveFileAction class exposes the following methods.'
+Description: The CIM\_RemoveFileAction class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'F761D6FE-E29C-488F-930C-A939B582E2CA'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: F761D6FE-E29C-488F-930C-A939B582E2CA
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_RemoveFileAction Methods'
+title: CIM\_RemoveFileAction Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RemoveFileAction Methods

@@ -1,7 +1,12 @@
 ---
 title: InconsistentState, InconsistentProperties
 description: InconsistentState, InconsistentProperties
-ms.assetid: '82A2ECA8-0155-402A-A745-B97D3F633643'
+ms.assetid: 82A2ECA8-0155-402A-A745-B97D3F633643
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InconsistentState, InconsistentProperties
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-An element is reporting inconsistent or conflicting MSAA states or UI Automation properties. For example, when the [**get\_accState**](iaccessible-iaccessible--get-accstate.md) method returns any of the following combinations.
+An element is reporting inconsistent or conflicting MSAA states or UI Automation properties. For example, when the [**get\_accState**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master) method returns any of the following combinations.
 
 -   STATE\_SYSTEM\_EXPANDED and STATE\_SYSTEM\_COLLAPSED
 -   STATE\_SYSTEM\_SELECTED and not STATE\_SYSTEM\_SELECTABLE
@@ -32,7 +37,7 @@ The element or its parent has an MSAA state set inappropriately.
 
 <dl> <dt>
 
-[**IAccessible::get\_accState**](iaccessible-iaccessible--get-accstate.md)
+[**IAccessible::get\_accState**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master)
 </dt> <dt>
 
 [**Object State Constants**](object-state-constants.md)

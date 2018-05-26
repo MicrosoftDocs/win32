@@ -1,7 +1,12 @@
 ---
-Description: 'Returns an array of installed Secure Sockets Layer protocol (SSL) protocol providers.'
-ms.assetid: 'a61ddcf5-b7e3-40b2-82fc-1cf87eb963ec'
+Description: Returns an array of installed Secure Sockets Layer protocol (SSL) protocol providers.
+ms.assetid: a61ddcf5-b7e3-40b2-82fc-1cf87eb963ec
 title: SslEnumProtocolProviders function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslEnumProtocolProviders function
@@ -13,9 +18,9 @@ The **SslEnumProtocolProviders** function returns an array of installed [*Secure
 
 ```C++
 SECURITY_STATUS WINAPI SslEnumProtocolProviders(
-  _Out_ DWORD              *pdwProviderCount,
-  _Out_ NCryptProviderName **ppProviderList,
-  _In_  DWORD              dwFlags
+  _Out_ DWORD              *pdwProviderCount,
+  _Out_ NCryptProviderName **ppProviderList,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -35,7 +40,7 @@ A pointer to a **DWORD** value to receive the number of protocol providers retur
 *ppProviderList* \[out\]
 </dt> <dd>
 
-A pointer to a buffer that receives the array of [**NCryptProviderName**](ncryptprovidername-struct.md) structures.
+A pointer to a buffer that receives the array of [**NCryptProviderName**](/windows/win32/Ncrypt/ns-ncrypt-ncryptprovidername?branch=master) structures.
 
 </dd> <dt>
 
@@ -64,11 +69,11 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
-When you have finished using the array of [**NCryptProviderName**](ncryptprovidername-struct.md) structures, call the [**SslFreeBuffer**](sslfreebuffer.md) function to free the array.
+When you have finished using the array of [**NCryptProviderName**](/windows/win32/Ncrypt/ns-ncrypt-ncryptprovidername?branch=master) structures, call the [**SslFreeBuffer**](sslfreebuffer.md) function to free the array.
 
 ## Requirements
 
@@ -76,16 +81,16 @@ When you have finished using the array of [**NCryptProviderName**](ncryptprovide
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

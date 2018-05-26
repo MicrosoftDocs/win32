@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni3::DownloadPattern method downloads a pattern to a printer.'
-ms.assetid: '7604a6df-c73a-4114-916f-1e777a323731'
-title: 'IPrintOemUni3::DownloadPattern method'
+---
+Description: The IPrintOemUni3DownloadPattern method downloads a pattern to a printer.
+ms.assetid: 7604a6df-c73a-4114-916f-1e777a323731
+title: IPrintOemUni3DownloadPattern method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni3::DownloadPattern method

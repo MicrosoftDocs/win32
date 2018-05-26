@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an animation set.'
-ms.assetid: '61785f60-82c1-4ddc-b4cd-2e7f665cfe8c'
-title: 'ID3DXAnimationController::GetAnimationSet method'
+---
+Description: Gets an animation set.
+ms.assetid: 61785f60-82c1-4ddc-b4cd-2e7f665cfe8c
+title: ID3DXAnimationControllerGetAnimationSet method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetAnimationSet method

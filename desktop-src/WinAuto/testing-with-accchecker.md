@@ -1,8 +1,15 @@
 ---
 title: Testing with AccChecker
 description: Describes the typical testing workflow that incorporates AccChecker.
-ms.assetid: '18C2DDEE-D199-4C22-9ADF-1E07B1325A06'
-keywords: ["testing with AccChecker", "AccChecker, testing workflow"]
+ms.assetid: 18C2DDEE-D199-4C22-9ADF-1E07B1325A06
+keywords:
+- testing with AccChecker
+- AccChecker, testing workflow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing with AccChecker

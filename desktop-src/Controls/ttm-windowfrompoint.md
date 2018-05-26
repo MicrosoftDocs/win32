@@ -1,8 +1,9 @@
 ---
 title: TTM\_WINDOWFROMPOINT message
 description: Allows a subclass procedure to cause a tooltip to display text for a window other than the one beneath the mouse cursor.
-ms.assetid: 'f3bf6917-1745-4e4f-a9c1-8fe86b2b3906'
-keywords: ["TTM_WINDOWFROMPOINT message Windows Controls"]
+ms.assetid: f3bf6917-1745-4e4f-a9c1-8fe86b2b3906
+keywords:
+- TTM_WINDOWFROMPOINT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_WINDOWFROMPOINT message
@@ -45,15 +51,15 @@ This message is intended to be processed by an application that subclasses a too
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

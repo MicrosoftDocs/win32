@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_GlobalHighlightColor
 description: Identifies the UI\_PKEY\_GlobalHighlightColor property.
-ms.assetid: '1e5e400b-8e4b-4d25-9038-484138755b2c'
+ms.assetid: 1e5e400b-8e4b-4d25-9038-484138755b2c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_GlobalHighlightColor

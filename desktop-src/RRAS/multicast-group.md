@@ -1,7 +1,12 @@
 ---
 title: Multicast Group
 description: A multicast group is a Class D IP address (that is, in the range of 224.0.0.0- 239.255.255.255).
-ms.assetid: 'c0189879-287f-4f7d-b406-1153880b9c06'
+ms.assetid: c0189879-287f-4f7d-b406-1153880b9c06
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Group

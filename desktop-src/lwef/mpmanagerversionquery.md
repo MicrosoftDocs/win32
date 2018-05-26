@@ -1,8 +1,9 @@
 ---
 title: MpManagerVersionQuery function
 description: Returns version information about various components of the malware protection manager.
-ms.assetid: '47DE12BF-D7A4-468B-B0E7-79B5C27E56F5'
-keywords: ["MpManagerVersionQuery function Legacy Windows Environment Features"]
+ms.assetid: 47DE12BF-D7A4-468B-B0E7-79B5C27E56F5
+keywords:
+- MpManagerVersionQuery function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpManagerVersionQuery function
@@ -22,8 +28,8 @@ Returns version information about various components of the malware protection m
 
 ```C++
 HRESULT WINAPI MpManagerVersionQuery(
-  _In_  MPHANDLE        hMpHandle,
-  _Out_ PMPVERSION_INFO pVersionInfo
+  _In_  MPHANDLE        hMpHandle,
+  _Out_ PMPVERSION_INFO pVersionInfo
 );
 ```
 
@@ -65,8 +71,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -85,9 +91,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPVERSION\_INFO**](mpversion-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Restrict potentially unsafe HTML Help functions to specified folders
 description: Restrict potentially unsafe HTML Help functions to specified folders
-ms.assetid: 'C735FBF3-A664-4550-B691-472E01B89451'
+ms.assetid: C735FBF3-A664-4550-B691-472E01B89451
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restrict potentially unsafe HTML Help functions to specified folders

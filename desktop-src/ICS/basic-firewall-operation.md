@@ -1,7 +1,12 @@
 ---
 title: Basic Firewall Operation
 description: Basic Firewall Operation
-ms.assetid: 'a11358b6-4f95-4a5b-986b-135794be477a'
+ms.assetid: a11358b6-4f95-4a5b-986b-135794be477a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Firewall Operation

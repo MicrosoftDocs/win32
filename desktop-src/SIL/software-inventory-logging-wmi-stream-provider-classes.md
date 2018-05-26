@@ -4,12 +4,15 @@ description: The stream provider is the Software Inventory Logging Engine. It ev
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2828315D-9926-41E9-9716-43C4E0CA7F5F'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2828315D-9926-41E9-9716-43C4E0CA7F5F
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Software Inventory Logging WMI Stream Provider Classes

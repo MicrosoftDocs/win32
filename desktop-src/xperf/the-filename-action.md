@@ -1,7 +1,12 @@
 ---
 title: The Filename Action
 description: The Filename Action
-ms.assetid: '565920aa-1591-40b2-9a38-70a2243c37dd'
+ms.assetid: 565920aa-1591-40b2-9a38-70a2243c37dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Filename Action
@@ -23,11 +28,11 @@ The filename action produces a text report that summarizes the various filenames
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

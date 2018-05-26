@@ -1,7 +1,12 @@
 ---
 title: Finding Endpoints
 description: Server programs listen to endpoints for client requests. The syntax of the endpoint string depends on the protocol sequence you use. For example, the endpoint for TCP/IP is a port number, and the endpoint syntax for named pipes is a valid pipe name.
-ms.assetid: '330bbe9f-b7e9-4a5b-86d8-824edec960d2'
+ms.assetid: 330bbe9f-b7e9-4a5b-86d8-824edec960d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding Endpoints
@@ -21,20 +26,20 @@ This section discusses endpoints and presents information on how to find them. I
 
  
 
-It is possible for your client application to use the endpoint map to determine whether or not a server program is currently running. Your client can call [**RpcMgmtInqIfIds**](rpcmgmtinqifids.md), [**RpcMgmtEpEltInqBegin**](rpcmgmtepeltinqbegin.md), and [**RpcMgmtEpEltInqDone**](rpcmgmtepeltinqdone.md) to see if the server has registered the particular interface it requires in the endpoint map.
+It is possible for your client application to use the endpoint map to determine whether or not a server program is currently running. Your client can call [**RpcMgmtInqIfIds**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtinqifids?branch=master), [**RpcMgmtEpEltInqBegin**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin?branch=master), and [**RpcMgmtEpEltInqDone**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone?branch=master) to see if the server has registered the particular interface it requires in the endpoint map.
 
 ## Using Well-known Endpoints
 
 Well-known endpoints are pre-assigned endpoints that the server program uses every time it runs. Because the server always listens to that particular endpoint, the client always attempts to connect to it. Well-known endpoints are usually assigned by the authority responsible for the transport protocol. Because server host computers have a finite number of available endpoints, application developers are strongly discouraged from using well-known endpoints. Another advantage of dynamic endpoints is that they simplify long-term management and maintenance of the system.
 
-A distributed application can specify a well-known endpoint in a string and pass that string as a parameter to the function [**RpcServerUseProtseqEp**](rpcserveruseprotseqep.md). Alternatively, the endpoint string can appear in the IDL file interface header as part of the \[ [endpoint](https://msdn.microsoft.com/library/windows/desktop/aa366814)\] interface attribute.
+A distributed application can specify a well-known endpoint in a string and pass that string as a parameter to the function [**RpcServerUseProtseqEp**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqep?branch=master). Alternatively, the endpoint string can appear in the IDL file interface header as part of the \[ [endpoint](https://msdn.microsoft.com/library/windows/desktop/aa366814)\] interface attribute.
 
 You can use two approaches to implement the well-known endpoint:
 
 -   Specify all information in a string binding
 -   Store the well-known endpoint in the name service database
 
-You can write all of the information needed to establish a binding into a distributed application when you develop it. The client can specify the well-known endpoint directly in a string, call [**RpcStringBindingCompose**](rpcstringbindingcompose.md) to create a string that contains all the binding information, and supply this string to the function [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) to obtain a handle. The client and server can be hard-coded to use a well-known endpoint, or written so that the endpoint information comes from the command line, a data file, a configuration file, or the IDL file.
+You can write all of the information needed to establish a binding into a distributed application when you develop it. The client can specify the well-known endpoint directly in a string, call [**RpcStringBindingCompose**](/windows/win32/Rpcdce/nf-rpcdce-rpcstringbindingcompose?branch=master) to create a string that contains all the binding information, and supply this string to the function [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) to obtain a handle. The client and server can be hard-coded to use a well-known endpoint, or written so that the endpoint information comes from the command line, a data file, a configuration file, or the IDL file.
 
 Your client application can also query a name service database for well-known endpoint information.
 
@@ -44,9 +49,9 @@ The number of endpoints for a particular server and a particular protocol sequen
 
 By default, the RPC run-time library functions search for endpoint information when they query a name service database. If the endpoint is dynamic, the name service database will not contain endpoint information. However, the query will give your client program the name of a server. It can then search the server's endpoint map.
 
-If the client needs to make a remote procedure call using a dynamic endpoint, the preferred method is to make the call on a partially bound binding handle. The RPC run time resolves the endpoint transparently. This method is superior to using the [**RpcEpResolveBinding**](rpcepresolvebinding.md) function, as it allows advanced caching mechanisms in the RPC run time.
+If the client needs to make a remote procedure call using a dynamic endpoint, the preferred method is to make the call on a partially bound binding handle. The RPC run time resolves the endpoint transparently. This method is superior to using the [**RpcEpResolveBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcepresolvebinding?branch=master) function, as it allows advanced caching mechanisms in the RPC run time.
 
-If more specific control over endpoint selection is required, clients can search the endpoint map one entry at a time by calling the [**RpcMgmtEpEltInqBegin**](rpcmgmtepeltinqbegin.md), [**RpcMgmtEpEltInqNext**](rpcmgmtepeltinqnext.md), and [**RpcMgmtEpEltInqDone**](rpcmgmtepeltinqdone.md) functions.
+If more specific control over endpoint selection is required, clients can search the endpoint map one entry at a time by calling the [**RpcMgmtEpEltInqBegin**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin?branch=master), [**RpcMgmtEpEltInqNext**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtepeltinqnext?branch=master), and [**RpcMgmtEpEltInqDone**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone?branch=master) functions.
 
 ## Exporting Well-known Endpoints into the Endpoint Map Database
 

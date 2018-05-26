@@ -1,8 +1,9 @@
 ---
 title: CreateMultiProfileTransform function
 description: The CreateMultiProfileTransform function accepts an array of profiles or a single device link profile and creates a color transform that applications can use to perform color mapping.
-ms.assetid: '8a40215c-6c37-4346-a669-79b7871f265e'
-keywords: ["CreateMultiProfileTransform function Windows Color System"]
+ms.assetid: 8a40215c-6c37-4346-a669-79b7871f265e
+keywords:
+- CreateMultiProfileTransform function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMultiProfileTransform function
@@ -22,12 +28,12 @@ The **CreateMultiProfileTransform** function accepts an array of profiles or a s
 
 ```C++
 HTRANSFORM WINAPI CreateMultiProfileTransform(
-   PHPROFILE pahProfiles,
-   DWORD     nProfiles,
-   PDWORD    padwIntent,
-   DWORD     nIntents,
-   DWORD     dwFlags,
-   DWORD     indexPreferredCMM
+   PHPROFILE pahProfiles,
+   DWORD     nProfiles,
+   PDWORD    padwIntent,
+   DWORD     nIntents,
+   DWORD     dwFlags,
+   DWORD     indexPreferredCMM
 );
 ```
 
@@ -123,7 +129,7 @@ The values in *dwFlags* are intended as hints only. The color management module 
 
 
 
- 
+ 
 
 > [!Note]
 >
@@ -131,7 +137,7 @@ The values in *dwFlags* are intended as hints only. The color management module 
 >
 > \#define SEQUENTIAL\_TRANSFORM 0x80800000
 
- 
+ 
 
 For details, see [CMM Transform Creation Flags](cmm-transform-creation-flags.md). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE and USE\_RELATIVE\_COLORIMETRIC, which only work in a pure ICC-to-ICC transform.
 
@@ -167,8 +173,8 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -191,9 +197,9 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 [**DeleteColorTransform**](deletecolortransform.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

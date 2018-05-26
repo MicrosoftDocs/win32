@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_PROGRAM'
-ms.assetid: '81eaf8cf-0f4f-4587-911a-063630af1c8e'
-title: 'WPD\_CONTENT\_TYPE\_PROGRAM'
+Description: WPD\_CONTENT\_TYPE\_PROGRAM
+ms.assetid: 81eaf8cf-0f4f-4587-911a-063630af1c8e
+title: WPD\_CONTENT\_TYPE\_PROGRAM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_PROGRAM

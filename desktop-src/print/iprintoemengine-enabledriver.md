@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '638E4FBE-8F53-4509-BFAE-59C02D2D1C4B'
-title: 'IPrintOemEngine::EnableDriver method'
+---
+Description: .
+ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
+title: IPrintOemEngineEnableDriver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemEngine::EnableDriver method

@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM02 verifies that all the module dependencies and exclusions are related to the current module.'
-ms.assetid: 'c7d77cb6-0ee6-4857-a749-7908e1c5fcda'
+Description: ICEM02 verifies that all the module dependencies and exclusions are related to the current module.
+ms.assetid: c7d77cb6-0ee6-4857-a749-7908e1c5fcda
 title: ICEM02
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM02

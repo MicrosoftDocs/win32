@@ -1,14 +1,20 @@
 ---
 title: ServiceInfo Element
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ServiceInfo element is the main element for the ServiceInfo.xml document.
-ms.assetid: 'd2f9e642-143e-405d-8588-c78e4355b9b9'
-keywords: ["ServiceInfo Element Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ServiceInfo element is the main element for the ServiceInfo.xml document.
+ms.assetid: d2f9e642-143e-405d-8588-c78e4355b9b9
+keywords:
+- ServiceInfo Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ServiceInfo Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceInfo Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **ServiceInfo** element is the main element for the ServiceInfo.xml document.
 
@@ -40,7 +46,7 @@ The **ServiceInfo** element is the main element for the ServiceInfo.xml document
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -53,7 +59,7 @@ The **ServiceInfo** element is the main element for the ServiceInfo.xml document
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,7 +76,7 @@ The following table details the parameters sent with the URL request. Others may
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,9 +101,9 @@ The following table details the parameters sent with the URL request. Others may
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

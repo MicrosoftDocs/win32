@@ -4,11 +4,13 @@ description: Provides details about the discovered Remote Desktop license server
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88523f30-26ad-4f78-a214-f54b7bc1c676'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 88523f30-26ad-4f78-a214-f54b7bc1c676
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSDiscoveredLicenseServer class Remote Desktop Services", "Win32_TSDiscoveredLicenseServer class Remote Desktop Services , described"]
+keywords:
+- Win32_TSDiscoveredLicenseServer class Remote Desktop Services
+- Win32_TSDiscoveredLicenseServer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSDiscoveredLicenseServer class
@@ -68,7 +73,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is no longer supported.
 
-**Windows Server 2008:** The Remote Desktop license server discovery method.
+**Windows Server 2008:** The Remote Desktop license server discovery method.
 
 <dt>
 
@@ -223,7 +228,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the license server is allowed to issue Remote Desktop Services client access licenses (RDS CALs) to the RD Session Host server.
+Indicates whether the license server is allowed to issue Remote Desktop Services client access licenses (RDS CALs) to the RD Session Host server.
 
 <dt>
 
@@ -234,7 +239,7 @@ Indicates whether the license server is allowed to issue Remote Desktop Services
 
 </dt> <dd>
 
-The license server is not allowed to issue RDS CALs to the RD Session Host server.
+The license server is not allowed to issue RDS CALs to the RD Session Host server.
 
 </dd> <dt>
 
@@ -245,7 +250,7 @@ The license server is not allowed to issue RDS CALs to the RD Session Host serve
 
 </dt> <dd>
 
-The license server is allowed to issue RDS CALs to the RD Session Host server.
+The license server is allowed to issue RDS CALs to the RD Session Host server.
 
 </dd> <dt>
 
@@ -256,7 +261,7 @@ The license server is allowed to issue RDS CALs to the RD Session Host server.
 
 </dt> <dd>
 
-It cannot be determined whether the license server is allowed to issue RDS CALs to the RD Session Host server.
+It cannot be determined whether the license server is allowed to issue RDS CALs to the RD Session Host server.
 
 </dd> </dl>
 
@@ -300,16 +305,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

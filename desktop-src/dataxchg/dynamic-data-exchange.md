@@ -1,8 +1,16 @@
 ---
 title: Dynamic Data Exchange
 description: This section provides guidelines for implementing dynamic data exchange for applications that cannot use the Dynamic Data Exchange Management Library (DDEML).
-ms.assetid: '0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb'
-keywords: ["Dynamic Data Exchange (DDE),about", "DDE (Dynamic Data Exchange),about", "data exchange,Dynamic Data Exchange (DDE)"]
+ms.assetid: 0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb
+keywords:
+- Dynamic Data Exchange (DDE),about
+- DDE (Dynamic Data Exchange),about
+- data exchange,Dynamic Data Exchange (DDE)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic Data Exchange
@@ -21,7 +29,7 @@ This section provides guidelines for implementing dynamic data exchange for appl
 
 
 
- 
+ 
 
 ### DDE Functions
 
@@ -29,16 +37,16 @@ This section provides guidelines for implementing dynamic data exchange for appl
 
 | Name                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DdeSetQualityOfService**](ddesetqualityofservice.md)         | Specifies the quality of service (QOS) a raw Dynamic Data Exchange (DDE) application desires for future DDE conversations it initiates. The specified QOS applies to any conversations started while those settings are in place. A DDE conversation's quality of service lasts for the duration of the conversation; calls to the [**DdeSetQualityOfService**](ddesetqualityofservice.md) function during a conversation do not affect that conversation's QOS. <br/> |
-| [**FreeDDElParam**](freeddelparam.md)                           | Frees the memory specified by the *lParam* parameter of a posted DDE message. An application receiving a posted DDE message should call this function after it has used the [**UnpackDDElParam**](unpackddelparam.md) function to unpack the *lParam* value. <br/>                                                                                                                                                                                                     |
-| [**ImpersonateDdeClientWindow**](impersonateddeclientwindow.md) | Enables a DDE server application to impersonate a DDE client application's security context. This protects secure server data from unauthorized DDE clients. <br/>                                                                                                                                                                                                                                                                                                      |
-| [**PackDDElParam**](packddelparam.md)                           | Packs a DDE *lParam* value into an internal structure used for sharing DDE data between processes.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
-| [**ReuseDDElParam**](reuseddelparam.md)                         | Enables an application to reuse a packed DDE *lParam* parameter, rather than allocating a new packed *lParam*. Using this function reduces reallocations for applications that pass packed DDE messages. <br/>                                                                                                                                                                                                                                                          |
-| [**UnpackDDElParam**](unpackddelparam.md)                       | Unpacks a DDE *lParam* value received from a posted DDE message. <br/>                                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**DdeSetQualityOfService**](/windows/win32/Dde/nf-dde-ddesetqualityofservice?branch=master)         | Specifies the quality of service (QOS) a raw Dynamic Data Exchange (DDE) application desires for future DDE conversations it initiates. The specified QOS applies to any conversations started while those settings are in place. A DDE conversation's quality of service lasts for the duration of the conversation; calls to the [**DdeSetQualityOfService**](/windows/win32/Dde/nf-dde-ddesetqualityofservice?branch=master) function during a conversation do not affect that conversation's QOS. <br/> |
+| [**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master)                           | Frees the memory specified by the *lParam* parameter of a posted DDE message. An application receiving a posted DDE message should call this function after it has used the [**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master) function to unpack the *lParam* value. <br/>                                                                                                                                                                                                     |
+| [**ImpersonateDdeClientWindow**](/windows/win32/Dde/nf-dde-impersonateddeclientwindow?branch=master) | Enables a DDE server application to impersonate a DDE client application's security context. This protects secure server data from unauthorized DDE clients. <br/>                                                                                                                                                                                                                                                                                                      |
+| [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)                           | Packs a DDE *lParam* value into an internal structure used for sharing DDE data between processes.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
+| [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)                         | Enables an application to reuse a packed DDE *lParam* parameter, rather than allocating a new packed *lParam*. Using this function reduces reallocations for applications that pass packed DDE messages. <br/>                                                                                                                                                                                                                                                          |
+| [**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)                       | Unpacks a DDE *lParam* value received from a posted DDE message. <br/>                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 
 
- 
+ 
 
 ### DDE Messages
 
@@ -50,7 +58,7 @@ This section provides guidelines for implementing dynamic data exchange for appl
 
 
 
- 
+ 
 
 ### DDE Notifications
 
@@ -69,7 +77,7 @@ This section provides guidelines for implementing dynamic data exchange for appl
 
 
 
- 
+ 
 
 ### DDE Structures
 
@@ -77,19 +85,19 @@ This section provides guidelines for implementing dynamic data exchange for appl
 
 | Name                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DDEACK**](ddeack.md)       | Contains status flags that a DDE application passes to its partner as part of the [**WM\_DDE\_ACK**](wm-dde-ack.md) message. The flags provide details about the application's response to the messages [**WM\_DDE\_DATA**](wm-dde-data.md), [**WM\_DDE\_POKE**](wm-dde-poke.md), [**WM\_DDE\_EXECUTE**](wm-dde-execute.md), [**WM\_DDE\_ADVISE**](wm-dde-advise.md), [**WM\_DDE\_UNADVISE**](wm-dde-unadvise.md), and [**WM\_DDE\_REQUEST**](wm-dde-request.md). <br/> |
-| [**DDEADVISE**](ddeadvise.md) | Contains flags that specify how a DDE server application should send data to a client application during an advise loop. A client passes a handle to a [**DDEADVISE**](ddeadvise.md) structure to a server as part of a [**WM\_DDE\_ADVISE**](wm-dde-advise.md) message. <br/>                                                                                                                                                                                               |
-| [**DDEDATA**](ddedata.md)     | Contains the data, and information about the data, sent as part of a [**WM\_DDE\_DATA**](wm-dde-data.md) message. <br/>                                                                                                                                                                                                                                                                                                                                                       |
-| [**DDEPOKE**](ddepoke.md)     | Contains the data, and information about the data, sent as part of a [**WM\_DDE\_POKE**](wm-dde-poke.md) message. <br/>                                                                                                                                                                                                                                                                                                                                                       |
-| [**HSZPAIR**](hszpair.md)     | Contains a DDE service name and topic name. A DDE server application can use this structure during an [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction to enumerate the service-topic pairs that it supports. <br/>                                                                                                                                                                                                                                                   |
+| [**DDEACK**](/windows/win32/Dde/ns-dde-ddeack?branch=master)       | Contains status flags that a DDE application passes to its partner as part of the [**WM\_DDE\_ACK**](wm-dde-ack.md) message. The flags provide details about the application's response to the messages [**WM\_DDE\_DATA**](wm-dde-data.md), [**WM\_DDE\_POKE**](wm-dde-poke.md), [**WM\_DDE\_EXECUTE**](wm-dde-execute.md), [**WM\_DDE\_ADVISE**](wm-dde-advise.md), [**WM\_DDE\_UNADVISE**](wm-dde-unadvise.md), and [**WM\_DDE\_REQUEST**](wm-dde-request.md). <br/> |
+| [**DDEADVISE**](/windows/win32/Dde/ns-dde-ddeadvise?branch=master) | Contains flags that specify how a DDE server application should send data to a client application during an advise loop. A client passes a handle to a [**DDEADVISE**](/windows/win32/Dde/ns-dde-ddeadvise?branch=master) structure to a server as part of a [**WM\_DDE\_ADVISE**](wm-dde-advise.md) message. <br/>                                                                                                                                                                                               |
+| [**DDEDATA**](/windows/win32/Dde/ns-dde-ddedata?branch=master)     | Contains the data, and information about the data, sent as part of a [**WM\_DDE\_DATA**](wm-dde-data.md) message. <br/>                                                                                                                                                                                                                                                                                                                                                       |
+| [**DDEPOKE**](/windows/win32/Dde/ns-dde-ddepoke?branch=master)     | Contains the data, and information about the data, sent as part of a [**WM\_DDE\_POKE**](wm-dde-poke.md) message. <br/>                                                                                                                                                                                                                                                                                                                                                       |
+| [**HSZPAIR**](/windows/win32/Ddeml/ns-ddeml-taghszpair?branch=master)     | Contains a DDE service name and topic name. A DDE server application can use this structure during an [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction to enumerate the service-topic pairs that it supports. <br/>                                                                                                                                                                                                                                                   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

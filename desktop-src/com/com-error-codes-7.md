@@ -1,7 +1,7 @@
 ---
 title: COM Error Codes (FWP, WS, NDIS, HyperV)
 description: The following table provides a list of error codes used by COM-based APIs.
-ms.assetid: '1caeb1e7-8cd7-4496-8c2c-7b18180d7394'
+ms.assetid: 1caeb1e7-8cd7-4496-8c2c-7b18180d7394
 topic_type:
 - apiref
 api_name:
@@ -231,6 +231,11 @@ api_location:
 - Winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Codes (FWP, WS, NDIS, HyperV)
@@ -485,9 +490,9 @@ If you are experiencing difficulty with an application you are installing or run
 [COM Error Codes](com-error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

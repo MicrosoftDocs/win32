@@ -1,8 +1,9 @@
 ---
 title: Player.controls
 description: The controls property retrieves the Controls object.
-ms.assetid: '25771690-af04-4c31-967d-cebae42ebe64'
-keywords: ["Player.controls Windows Media Player"]
+ms.assetid: 25771690-af04-4c31-967d-cebae42ebe64
+keywords:
+- Player.controls Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.controls
@@ -46,9 +52,9 @@ This property is a read-only **Controls** object.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

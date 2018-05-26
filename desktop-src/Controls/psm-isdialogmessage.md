@@ -1,8 +1,9 @@
 ---
 title: PSM\_ISDIALOGMESSAGE message
 description: Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can send this message explicitly or by using the PropSheet\_IsDialogMessage macro.
-ms.assetid: '7629c3f8-0b10-4585-8a95-9309c75b3ebb'
-keywords: ["PSM_ISDIALOGMESSAGE message Windows Controls"]
+ms.assetid: 7629c3f8-0b10-4585-8a95-9309c75b3ebb
+keywords:
+- PSM_ISDIALOGMESSAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_ISDIALOGMESSAGE message
 
-Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can send this message explicitly or by using the [**PropSheet\_IsDialogMessage**](propsheet-isdialogmessage.md) macro.
+Passes a message to a property sheet dialog box and indicates whether the dialog box processed the message. You can send this message explicitly or by using the [**PropSheet\_IsDialogMessage**](/windows/win32/Prsht/nf-prsht-propsheet_isdialogmessage?branch=master) macro.
 
 ## Parameters
 
@@ -46,9 +52,9 @@ Your message loop should use the **PSM\_ISDIALOGMESSAGE** message with modeless 
 If the return value indicates that the message was processed, it must not be passed to the [**TranslateMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644955) or [**DispatchMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644934) function.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -56,8 +62,8 @@ If the return value indicates that the message was processed, it must not be pas
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
@@ -66,12 +72,12 @@ If the return value indicates that the message was processed, it must not be pas
 
 <dl> <dt>
 
-[**PropertySheet**](propertysheet.md)
+[**PropertySheet**](/windows/win32/Prsht/nf-prsht-propertysheeta?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

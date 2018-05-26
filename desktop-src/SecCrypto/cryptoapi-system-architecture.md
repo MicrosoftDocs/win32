@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the CryptoAPI system architecture.'
-ms.assetid: '244329bb-fc71-4ab9-8831-a9478108ffa3'
+Description: Explains the CryptoAPI system architecture.
+ms.assetid: 244329bb-fc71-4ab9-8831-a9478108ffa3
 title: CryptoAPI System Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptoAPI System Architecture

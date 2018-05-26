@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the global revocation list (GRL) header.'
-ms.assetid: '806ae550-5106-47ec-8466-f967598d3e61'
-title: 'GRL\_HEADER structure'
+---
+Description: Contains the global revocation list (GRL) header.
+ms.assetid: 806ae550-5106-47ec-8466-f967598d3e61
+title: GRL\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GRL\_HEADER structure

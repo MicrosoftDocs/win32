@@ -1,7 +1,12 @@
 ---
 title: Filtering Component
 description: Filtering Component
-ms.assetid: '1932cac8-6858-46fd-8ce4-dfca5ef7cf5a'
+ms.assetid: 1932cac8-6858-46fd-8ce4-dfca5ef7cf5a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Component

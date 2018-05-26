@@ -1,25 +1,30 @@
 ---
 title: Country-Code attribute
-description: Specifies the country/region code for the user's language of choice. This value is not used by Windows 2000.
+description: Specifies the country/region code for the users language of choice. This value is not used by Windows 2000.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7011cb76-aa86-4203-bcc4-0136bb11c403'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7011cb76-aa86-4203-bcc4-0136bb11c403
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Country-Code attribute AD Schema", "countryCode attribute AD Schema"]
+keywords:
+- Country-Code attribute AD Schema
+- countryCode attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Country-Code
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Country-Code attribute
 
-Specifies the country/region code for the user's language of choice. This value is not used by Windows 2000.
+Specifies the country/region code for the user's language of choice. This value is not used by Windows 2000.
 
 
 
@@ -38,13 +43,13 @@ Specifies the country/region code for the user's language of choice. This value 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

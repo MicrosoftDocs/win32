@@ -1,7 +1,12 @@
 ---
-Description: 'HTTP authentication using Microsoft Digest requires three input buffers to generate a challenge response. The following table summarizes these buffers.'
-ms.assetid: '0df02be2-f42e-46d0-a206-765adf3d7a72'
+Description: HTTP authentication using Microsoft Digest requires three input buffers to generate a challenge response. The following table summarizes these buffers.
+ms.assetid: 0df02be2-f42e-46d0-a206-765adf3d7a72
 title: Input Buffers for the Digest Challenge Response
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Buffers for the Digest Challenge Response
@@ -34,7 +39,7 @@ Buffer 4 contains the channel binding token value when Digest is used with chann
 
 ## Input Buffers for SASL
 
-Supply buffer zero only. For compatibility with other SSPs, you may call [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest-.md) without a valid server challenge. In this case the *pInput* parameter should be set to **NULL**.
+Supply buffer zero only. For compatibility with other SSPs, you may call [**InitializeSecurityContext (Digest)**](/windows/win32/Sspi/?branch=master) without a valid server challenge. In this case the *pInput* parameter should be set to **NULL**.
 
  
 

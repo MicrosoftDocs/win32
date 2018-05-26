@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to the enumerants of IPrintSchemaOptionCollection objects.'
-ms.assetid: 'D7570A84-C111-49CA-BC0F-B4D83C1F297B'
-title: 'IPrintSchemaOptionCollection::NewEnum property'
+---
+Description: Gets a pointer to the enumerants of IPrintSchemaOptionCollection objects.
+ms.assetid: D7570A84-C111-49CA-BC0F-B4D83C1F297B
+title: IPrintSchemaOptionCollectionNewEnum property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOptionCollection::NewEnum property

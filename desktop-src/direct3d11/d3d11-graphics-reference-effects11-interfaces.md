@@ -1,7 +1,12 @@
 ---
 title: Effects 11 Interfaces
 description: This section contains reference information for the component object model (COM) interfaces of the Effects 11 source.
-ms.assetid: '1b997513-73f7-423a-8af3-1c9fa0d2f469'
+ms.assetid: 1b997513-73f7-423a-8af3-1c9fa0d2f469
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects 11 Interfaces
@@ -41,7 +46,7 @@ This section contains reference information for the component object model (COM)
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -50,9 +55,9 @@ This section contains reference information for the component object model (COM)
 [Effects 11 Reference](d3d11-graphics-reference-effects11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

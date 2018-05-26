@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn isAvailable method
 description: The isAvailable method provides information about the CD drive and media.
-ms.assetid: '75e81f5f-5839-4012-b0b9-e77b3ca6f35c'
-keywords: ["isAvailable method Windows Media Player", "isAvailable method Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , isAvailable method"]
+ms.assetid: 75e81f5f-5839-4012-b0b9-e77b3ca6f35c
+keywords:
+- isAvailable method Windows Media Player
+- isAvailable method Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , isAvailable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::isAvailable method
@@ -69,7 +77,7 @@ A **System.String** that contains one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -96,9 +104,9 @@ A **System.Boolean** that indicates the result.
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

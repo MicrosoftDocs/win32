@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO structure
 description: A helper structure used to describe a cached PSO as a single object suitable for a stream description.
-ms.assetid: '86CDC60A-275D-4B71-BE6D-C863C72E9C05'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO structure"]
+ms.assetid: 86CDC60A-275D-4B71-BE6D-C863C72E9C05
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO structure
@@ -22,10 +28,10 @@ A helper structure used to describe a cached PSO as a single object suitable for
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO {
-                                           CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO;
-                                           CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO(D3D12_CACHED_PIPELINE_STATE const &amp;i);
+                                           CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO;
+                                           CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO(D3D12_CACHED_PIPELINE_STATE const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO operator=(D3D12_CACHED_PIPELINE_STATE const&amp; i);
-                                           operator D3D12_CACHED_PIPELINE_STATE() const;
+                                           operator D3D12_CACHED_PIPELINE_STATE() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CA
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO(D3D12\_CACHED\_PIPELINE\_STATE const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_CACHED\_PSO** and subobject data copied from *i*, a [**D3D12\_CACHED\_PIPELINE\_STATE**](d3d12-cached-pipeline-state.md) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CACHED\_PSO, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_CACHED\_PSO** and subobject data copied from *i*, a [**D3D12\_CACHED\_PIPELINE\_STATE**](/windows/win32/d3d12/ns-d3d12-d3d12_cached_pipeline_state?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Copy-assignment operator.
 **operator D3D12\_CACHED\_PIPELINE\_STATE() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_CACHED\_PIPELINE\_STATE**](d3d12-cached-pipeline-state.md) structure.
+Implicit conversion to a [**D3D12\_CACHED\_PIPELINE\_STATE**](/windows/win32/d3d12/ns-d3d12-d3d12_cached_pipeline_state?branch=master) structure.
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_CACHED_PIPELINE_STATE, D3D
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

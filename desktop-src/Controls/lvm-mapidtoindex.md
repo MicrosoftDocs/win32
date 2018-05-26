@@ -1,8 +1,9 @@
 ---
 title: LVM\_MAPIDTOINDEX message
 description: Maps the ID of an item to an index.
-ms.assetid: '1082b7c6-c399-473d-aa4a-2b75e9bd2ab0'
-keywords: ["LVM_MAPIDTOINDEX message Windows Controls"]
+ms.assetid: 1082b7c6-c399-473d-aa4a-2b75e9bd2ab0
+keywords:
+- LVM_MAPIDTOINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_MAPIDTOINDEX message
@@ -54,12 +60,12 @@ If you need the index of an item after an ID is created you can call **LVM\_MAPI
 > [!Note]  
 > In a multithreaded environment, the index is only guaranteed on the thread that hosts the list-view control, not on background threads.
 
- 
+ 
 
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -67,15 +73,15 @@ If you need the index of an item after an ID is created you can call **LVM\_MAPI
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

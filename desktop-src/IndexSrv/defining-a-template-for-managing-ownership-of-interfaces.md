@@ -1,7 +1,12 @@
 ---
 title: Defining a Template for Managing Ownership of Interfaces
 description: Defining a Template for Managing Ownership of Interfaces
-ms.assetid: '89d32113-1b42-4e6e-97e7-3f44f7c2b073'
+ms.assetid: 89d32113-1b42-4e6e-97e7-3f44f7c2b073
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining a Template for Managing Ownership of Interfaces
@@ -11,7 +16,7 @@ ms.assetid: '89d32113-1b42-4e6e-97e7-3f44f7c2b073'
 
  
 
-The following code segment defines a template to aid in the management of interface ownership. The sample uses this template with the [ICommand](089427ad-5ba3-4613-b89e-8e86420ccc30), [ICommandTree](icommandtree.md), [IRowset](b14147c4-8b03-49c6-ab5d-00186643a6b4), [IAccessor](a39058b6-ecfa-418b-80a3-66eea4a7bf89), and other interfaces.
+The following code segment defines a template to aid in the management of interface ownership. The sample uses this template with the [ICommand](089427ad-5ba3-4613-b89e-8e86420ccc30), [ICommandTree](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master), [IRowset](b14147c4-8b03-49c6-ab5d-00186643a6b4), [IAccessor](a39058b6-ecfa-418b-80a3-66eea4a7bf89), and other interfaces.
 
 
 ```C++

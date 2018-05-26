@@ -1,8 +1,9 @@
 ---
 title: RAS\_PPP\_IPXCP\_RESULT structure
 description: The RAS\_PPP\_IPXCP\_RESULT structure is used to report the result of a PPP Internetwork Packet Exchange (IPX) projection operation for a port.
-ms.assetid: 'e1236e1b-f0ef-46cf-a12f-35529215752c'
-keywords: ["RAS_PPP_IPXCP_RESULT structure RAS"]
+ms.assetid: e1236e1b-f0ef-46cf-a12f-35529215752c
+keywords:
+- RAS_PPP_IPXCP_RESULT structure RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PPP\_IPXCP\_RESULT structure
 
-\[The **RAS\_PPP\_IPXCP\_RESULT** structure is not supported as of Windows Vista.\]
+\[The **RAS\_PPP\_IPXCP\_RESULT** structure is not supported as of Windows Vista.\]
 
 The **RAS\_PPP\_IPXCP\_RESULT** structure is used to report the result of a PPP Internetwork Packet Exchange (IPX) projection operation for a port.
 
@@ -55,10 +61,10 @@ A null-terminated Unicode string that specifies the IPX address assigned to the 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ A null-terminated Unicode string that specifies the IPX address assigned to the 
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

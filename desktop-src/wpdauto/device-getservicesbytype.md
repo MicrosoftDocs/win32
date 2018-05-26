@@ -1,14 +1,22 @@
 ---
 title: Device.GetServicesByType method
 description: The GetServicesByType method returns a collection of services for the specified service type.
-ms.assetid: 'b6f9f5bc-70f7-4f62-a817-828a2b7cf758'
-keywords: ["GetServicesByType method WPD Automation", "GetServicesByType method WPD Automation , Device object", "Device object WPD Automation , GetServicesByType method"]
+ms.assetid: b6f9f5bc-70f7-4f62-a817-828a2b7cf758
+keywords:
+- GetServicesByType method WPD Automation
+- GetServicesByType method WPD Automation , Device object
+- Device object WPD Automation , GetServicesByType method
 topic_type:
 - apiref
 api_name:
 - Device.GetServicesByType
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.GetServicesByType method
@@ -69,8 +77,8 @@ for (i=0; i < contactsServices.Count; i++)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +92,9 @@ for (i=0; i < contactsServices.Count; i++)
 [**servicesCollection Object**](servicescollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

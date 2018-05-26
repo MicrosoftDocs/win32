@@ -1,8 +1,9 @@
 ---
 title: Settings.isAvailable
 description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed.
-ms.assetid: '89403125-545c-482b-a27e-6fee06abe247'
-keywords: ["Settings.isAvailable Windows Media Player"]
+ms.assetid: 89403125-545c-482b-a27e-6fee06abe247
+keywords:
+- Settings.isAvailable Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.isAvailable
@@ -46,7 +52,7 @@ String containing one of the following values.
 
 
 
- 
+ 
 
 ## Return Values
 
@@ -70,9 +76,9 @@ This method returns a **Boolean** value.
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 Description: Connecting and Disconnecting Topology Nodes
-ms.assetid: 'b2f70989-f0a8-4a11-baeb-18f026afaeab'
+ms.assetid: b2f70989-f0a8-4a11-baeb-18f026afaeab
 title: Connecting and Disconnecting Topology Nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting and Disconnecting Topology Nodes
 
-For a topology to be functional, the source node and the output node must be connected. To connect two topology nodes, drag the node output of one node to the node input of the other node. TopoEdit displays the node connection as a black line. This is equivalent to connecting topology nodes by calling the [**IMFTopologyNode::ConnectOutput**](imftopologynode-connectoutput.md) method.
+For a topology to be functional, the source node and the output node must be connected. To connect two topology nodes, drag the node output of one node to the node input of the other node. TopoEdit displays the node connection as a black line. This is equivalent to connecting topology nodes by calling the [**IMFTopologyNode::ConnectOutput**](/windows/win32/mfidl/nf-mfidl-imftopologynode-connectoutput?branch=master) method.
 
 The topology can be resolved only if the node connection is valid; that is, if the media types of the two nodes are compatible. For information about resolving topologies, see [Resolving a Topology with TopoEdit](resolving-a-topology-with-topoedit.md).
 

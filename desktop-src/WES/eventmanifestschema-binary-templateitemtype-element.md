@@ -1,14 +1,20 @@
 ---
 title: binary (TemplateItemType) Element
 description: Contains the binary data that is supplied by the Event Log API.
-ms.assetid: '3ad9c119-9395-49d3-b920-9a071bcc6a04'
-keywords: ["binary element EventLog"]
+ms.assetid: 3ad9c119-9395-49d3-b920-9a071bcc6a04
+keywords:
+- binary element EventLog
 topic_type:
 - apiref
 api_name:
 - binary
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # binary (TemplateItemType) Element
@@ -44,8 +50,8 @@ The **binary** element is defined by the [**TemplateItemType**](eventmanifestsch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -59,9 +65,9 @@ The **binary** element is defined by the [**TemplateItemType**](eventmanifestsch
 [**template (TemplateListType)**](eventmanifestschema-template-templatelisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

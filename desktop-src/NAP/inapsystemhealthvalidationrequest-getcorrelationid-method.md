@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthValidationRequest GetCorrelationId method
 description: Is used by System Health Validators (SHVs) to retrieve the correlation ID. The SHV must then log this information.
-ms.assetid: '72603d24-219e-4bb0-9b2b-b58d42939da8'
-keywords: ["GetCorrelationId method NAP", "GetCorrelationId method NAP , INapSystemHealthValidationRequest interface", "INapSystemHealthValidationRequest interface NAP , GetCorrelationId method"]
+ms.assetid: 72603d24-219e-4bb0-9b2b-b58d42939da8
+keywords:
+- GetCorrelationId method NAP
+- GetCorrelationId method NAP , INapSystemHealthValidationRequest interface
+- INapSystemHealthValidationRequest interface NAP , GetCorrelationId method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthValidationRequest::GetCorrelationId method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthValidationRequest::GetCorrelationId** method is used by System Health Validators (SHVs) to retrieve the correlation ID. The SHV must then log this information.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthValidationRequest::GetCorrelationId** method is used by Sy
 
 ```C++
 HRESULT GetCorrelationId(
-  [out] CorrelationId *correlationId
+  [out] CorrelationId *correlationId
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetCorrelationId(
 *correlationId* \[out\]
 </dt> <dd>
 
-A pointer to a unique [**CorrelationId**](correlationid-struct.md) for the SoH exchange.
+A pointer to a unique [**CorrelationId**](/windows/win32/NapTypes/ns-naptypes-tagcorrelationid?branch=master) for the SoH exchange.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +75,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthValidationRequest**](inapsystemhealthvalidationrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

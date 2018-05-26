@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a color value with alpha, which is used for transparency.'
-ms.assetid: '27A86A10-FC0E-421E-BEA7-2DEB539849BB'
+---
+Description: Represents a color value with alpha, which is used for transparency.
+ms.assetid: 27A86A10-FC0E-421E-BEA7-2DEB539849BB
 title: D3DCOLORVALUE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOLORVALUE structure
@@ -67,7 +72,7 @@ typedef D3DCOLORVALUE DXGI_RGBA;
 
 
 
-You can use D3DCOLORVALUE or [**DXGI\_RGBA**](dxgi-rgba.md) with [**IDXGISwapChain1::SetBackgroundColor**](idxgiswapchain1-setbackgroundcolor.md), [**IDXGISwapChain1::GetBackgroundColor**](idxgiswapchain1-getbackgroundcolor.md), and [**DXGI\_ALPHA\_MODE**](dxgi-alpha-mode.md).
+You can use D3DCOLORVALUE or [**DXGI\_RGBA**](dxgi-rgba.md) with [**IDXGISwapChain1::SetBackgroundColor**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor?branch=master), [**IDXGISwapChain1::GetBackgroundColor**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor?branch=master), and [**DXGI\_ALPHA\_MODE**](/windows/win32/DXGI1_2/ne-dxgi1_2-dxgi_alpha_mode?branch=master).
 
 ## Requirements
 

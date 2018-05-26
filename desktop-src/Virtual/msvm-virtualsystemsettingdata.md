@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSystemSettingData class
 description: Represents the virtualization-specific settings for a virtual system.
-ms.assetid: '05989377-ebaf-41b1-b268-17f4352c0ee5'
-keywords: ["Msvm_VirtualSystemSettingData class Hyper-V", "Msvm_VirtualSystemSettingData class Hyper-V , described"]
+ms.assetid: 05989377-ebaf-41b1-b268-17f4352c0ee5
+keywords:
+- Msvm_VirtualSystemSettingData class Hyper-V
+- Msvm_VirtualSystemSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemSettingData class
@@ -46,27 +53,27 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemSettingData : CIM_VirtualSystemSettingData
 {
-  string   Caption = "Virtual Machine";
-  string   Description;
-  uint16   SettingType;
-  string   SystemName = "GUID";
-  string   InstanceID = "Microsoft:GUID";
-  string   ElementName;
-  boolean  AutoActivate;
-  string   OtherVirtualSystemType;
+  string   Caption = "Virtual Machine";
+  string   Description;
+  uint16   SettingType;
+  string   SystemName = "GUID";
+  string   InstanceID = "Microsoft:GUID";
+  string   ElementName;
+  boolean  AutoActivate;
+  string   OtherVirtualSystemType;
   datetime CreationTime;
-  uint16   VirtualSystemType = 301;
-  string   Notes;
-  string   BIOSGUID;
-  string   BIOSSerialNumber;
-  string   BaseBoardSerialNumber;
-  string   ChassisSerialNumber;
-  string   ChassisAssetTag;
-  boolean  BIOSNumLock;
-  uint16   BootOrder[];
-  string   Parent;
-  uint16   NumaNodeList[];
-  boolean  NumaNodesAreRequired;
+  uint16   VirtualSystemType = 301;
+  string   Notes;
+  string   BIOSGUID;
+  string   BIOSSerialNumber;
+  string   BaseBoardSerialNumber;
+  string   ChassisSerialNumber;
+  string   ChassisAssetTag;
+  boolean  BIOSNumLock;
+  uint16   BootOrder[];
+  string   Parent;
+  uint16   NumaNodeList[];
+  boolean  NumaNodesAreRequired;
 };
 ```
 
@@ -224,7 +231,7 @@ The virtual computer system will attempt to PXE boot from the network.
 
 </dt> <dd></dd> <dt>
 
-4–65535
+4 65535
 </dt> <dd>
 
 Reserved.
@@ -517,9 +524,9 @@ Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UA
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -538,9 +545,9 @@ Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UA
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

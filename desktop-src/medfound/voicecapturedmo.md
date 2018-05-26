@@ -1,7 +1,12 @@
-﻿---
-Description: 'An object that encapsulates several DSPs related to voice capture.'
-ms.assetid: '6c77c8f6-289e-4130-b56a-e1f0bcc40f3e'
+---
+Description: An object that encapsulates several DSPs related to voice capture.
+ms.assetid: 6c77c8f6-289e-4130-b56a-e1f0bcc40f3e
 title: Voice Capture DSP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Voice Capture DSP
@@ -50,7 +55,7 @@ CLSID\_CWMAudioAEC
 
 ## Remarks
 
-Unlike the other DSPs, the voice capture object encapsulates multiple DSPs in a single object, and the object is a DMO object only (it does not implement [**IMFTransform**](imftransform.md)). The voice capture DMO includes the following DSP components:
+Unlike the other DSPs, the voice capture object encapsulates multiple DSPs in a single object, and the object is a DMO object only (it does not implement [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)). The voice capture DMO includes the following DSP components:
 
 -   Acoustic echo cancellation (AEC)
 -   Microphone array processing

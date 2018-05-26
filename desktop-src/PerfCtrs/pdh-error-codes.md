@@ -1,7 +1,12 @@
 ---
-Description: 'All Performance Data Helper (PDH) functions return a value of type PDH\_STATUS.'
-ms.assetid: 'ea67d798-81db-44ad-b0fb-24e0c3be7388'
+Description: All Performance Data Helper (PDH) functions return a value of type PDH\_STATUS.
+ms.assetid: ea67d798-81db-44ad-b0fb-24e0c3be7388
 title: Performance Data Helper Error Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Data Helper Error Codes
@@ -139,7 +144,7 @@ The following table provides a list of error codes that are specific to PDH. The
 | 0x80000BF3 (PDH\_PLA\_VALIDATION\_WARNING)                   | The information passed is not valid.                                                                                                                                                                          |
 | 0xC0000BF4 (PDH\_PLA\_ERROR\_NAME\_TOO\_LONG)                | The name supplied is too long.                                                                                                                                                                                |
 | 0xC0000BF5 (PDH\_INVALID\_SQL\_LOG\_FORMAT)                  | SQL log format is incorrect. Correct format is "SQL:&lt;DSN-name&gt;!&lt;LogSet-Name&gt;".                                                                                                                    |
-| 0xC0000BF6 (PDH\_COUNTER\_ALREADY\_IN\_QUERY)                | Performance counter in [**PdhAddCounter**](pdhaddcounter.md) call has already been added in the performance query. This counter is ignored.                                                                  |
+| 0xC0000BF6 (PDH\_COUNTER\_ALREADY\_IN\_QUERY)                | Performance counter in [**PdhAddCounter**](/windows/win32/Pdh/nf-pdh-pdhaddcountera?branch=master) call has already been added in the performance query. This counter is ignored.                                                                  |
 | 0xC0000BF7 (PDH\_BINARY\_LOG\_CORRUPT)                       | Unable to read counter information and data from input binary log files.                                                                                                                                      |
 | 0xC0000BF8 (PDH\_LOG\_SAMPLE\_TOO\_SMALL)                    | At least one of the input binary log files contain fewer than two data samples.                                                                                                                               |
 | 0xC0000BF9 (PDH\_OS\_LATER\_VERSION)                         | The version of the operating system on the computer named %1 is later than that on the local computer. This operation is not available from the local computer.                                               |

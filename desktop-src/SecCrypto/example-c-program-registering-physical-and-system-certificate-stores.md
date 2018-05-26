@@ -1,7 +1,12 @@
 ---
-Description: 'Shows registering (creating) and opening a system store, registering a physical store as a member of a system store, and unregistering (deleting) a system store.'
-ms.assetid: '857ab592-68c7-4660-b37d-b165aeee14f4'
-title: 'Example C Program: Registering Physical and System Certificate Stores'
+Description: Shows registering (creating) and opening a system store, registering a physical store as a member of a system store, and unregistering (deleting) a system store.
+ms.assetid: 857ab592-68c7-4660-b37d-b165aeee14f4
+title: Example C Program Registering Physical and System Certificate Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Registering Physical and System Certificate Stores
@@ -10,10 +15,10 @@ Physical stores may be made more or less permanent members of a system store. Wh
 
 This example shows the following tasks and CryptoAPI functions:
 
--   Registering (creating) a new system store using [**CertRegisterSystemStore**](certregistersystemstore.md).
--   Opening a newly created system store using [**CertOpenStore**](certopenstore.md).
--   Registering a physical store as a member of a system store using [**CertRegisterPhysicalStore**](certregisterphysicalstore.md).
--   Unregistering (deleting) a system store using [**CertUnregisterSystemStore**](certunregistersystemstore.md).
+-   Registering (creating) a new system store using [**CertRegisterSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certregistersystemstore?branch=master).
+-   Opening a newly created system store using [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master).
+-   Registering a physical store as a member of a system store using [**CertRegisterPhysicalStore**](/windows/win32/Wincrypt/nf-wincrypt-certregisterphysicalstore?branch=master).
+-   Unregistering (deleting) a system store using [**CertUnregisterSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certunregistersystemstore?branch=master).
 
 This example also demonstrates the creation and deletion of system stores.
 

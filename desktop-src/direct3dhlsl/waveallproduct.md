@@ -1,14 +1,20 @@
 ---
 title: WaveActiveProduct function
 description: Multiplies the values of the expression together across all active lanes in the current wave and replicates it back to all active lanes.
-ms.assetid: 'B259244D-C993-4F4A-AF09-F077D99AD025'
-keywords: ["WaveAllProduct function HLSL"]
+ms.assetid: B259244D-C993-4F4A-AF09-F077D99AD025
+keywords:
+- WaveAllProduct function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllProduct
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveProduct function

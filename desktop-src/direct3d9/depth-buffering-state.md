@@ -1,7 +1,12 @@
 ---
-Description: 'Depth buffering is a method of removing hidden lines and surfaces. By default, Direct3D does not use depth buffering.'
-ms.assetid: '03795e4e-1daa-48e3-8724-8dd4b5187edc'
-title: 'Depth Buffering State (Direct3D 9)'
+Description: Depth buffering is a method of removing hidden lines and surfaces. By default, Direct3D does not use depth buffering.
+ms.assetid: 03795e4e-1daa-48e3-8724-8dd4b5187edc
+title: Depth Buffering State (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Depth Buffering State (Direct3D 9)
@@ -12,7 +17,7 @@ For a conceptual overview of depth buffers, see [Depth Buffers (Direct3D 9)](dep
 
 C++ applications update the depth-buffering state with the D3DRS\_ZENABLE render state, using a member of the [**D3DZBUFFERTYPE**](direct3d9.d3dzbuffertype) enumeration to specify the new state value.
 
-If your application needs to prevent Direct3D from writing to the depth buffer, it can use the D3DRS\_ZWRITEENABLE enumerated value, specifying D3DZB\_FALSE as the second parameter for the call to [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md).
+If your application needs to prevent Direct3D from writing to the depth buffer, it can use the D3DRS\_ZWRITEENABLE enumerated value, specifying D3DZB\_FALSE as the second parameter for the call to [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master).
 
 The following code example shows how the depth-buffer state is set to enable z-buffering.
 

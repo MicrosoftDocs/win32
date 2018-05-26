@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the type of delivery report that is sent following an attempted transmission.'
-ms.assetid: 'b91b59b1-5834-45f8-ab17-a457630bafd4'
-title: 'FaxOutgoingMessage.ReceiptType property'
+---
+Description: Specifies the type of delivery report that is sent following an attempted transmission.
+ms.assetid: b91b59b1-5834-45f8-ab17-a457630bafd4
+title: FaxOutgoingMessage.ReceiptType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.ReceiptType property
@@ -48,7 +53,7 @@ Pointer to a value specifying the type delivery report.
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md)
+[**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master)
 </dt> </dl>
 
  

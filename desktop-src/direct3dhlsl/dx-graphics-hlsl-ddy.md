@@ -1,14 +1,20 @@
 ---
 title: ddy
 description: Returns the partial derivative of the specified value with respect to the screen-space y-coordinate.
-ms.assetid: '1c88804f-a13f-4714-a3ef-466307afbc1b'
-keywords: ["ddy HLSL"]
+ms.assetid: 1c88804f-a13f-4714-a3ef-466307afbc1b
+keywords:
+- ddy HLSL
 topic_type:
 - apiref
 api_name:
 - ddy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddy
@@ -22,7 +28,7 @@ Returns the partial derivative of the specified value with respect to the screen
 
 
 
- 
+ 
 
 This function computes the partial derivative with respect to the screen-space y-coordinate. To compute the partial derivative with respect to the screen-space x-coordinate, use the [**ddx**](dx-graphics-hlsl-ddx.md) function.
 
@@ -38,7 +44,7 @@ This function is only supported in pixel shaders.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ The partial derivative of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -73,7 +79,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 This function is supported in the following types of shaders:
 
@@ -85,7 +91,7 @@ This function is supported in the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -94,9 +100,9 @@ This function is supported in the following types of shaders:
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

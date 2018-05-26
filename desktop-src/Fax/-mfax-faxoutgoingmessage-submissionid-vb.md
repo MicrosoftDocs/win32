@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax message during the submission process. All fax jobs created by the same submission process share the same unique submission ID.'
-ms.assetid: '877af482-f2fc-4ff2-a4f3-36cee2c07bd8'
-title: 'FaxOutgoingMessage.SubmissionId property'
+---
+Description: The SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax message during the submission process. All fax jobs created by the same submission process share the same unique submission ID.
+ms.assetid: 877af482-f2fc-4ff2-a4f3-36cee2c07bd8
+title: FaxOutgoingMessage.SubmissionId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.SubmissionId property
@@ -46,7 +51,7 @@ A **String** that receives the unique submission ID assigned to the outbound fax
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

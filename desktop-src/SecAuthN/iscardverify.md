@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides services for setting CHV (card holder verification) code and for verifying the user.'
-ms.assetid: 'fa40c21c-1584-475e-89f6-f81f67e3b942'
+---
+Description: Provides services for setting CHV (card holder verification) code and for verifying the user.
+ms.assetid: fa40c21c-1584-475e-89f6-f81f67e3b942
 title: ISCardVerify interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardVerify interface
@@ -38,7 +43,7 @@ The **ISCardVerify** interface has these methods.
 |:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ChangeCode**](iscardverify-changecode.md)                 | Changes the current CHV code.<br/>                                                                                                    |
 | [**ResetSecurityState**](iscardverify-resetsecuritystate.md) | Resets the [*security context*](security.s_gly#-security-security-context-gly) of the smart card.<br/> |
-| [**Unblock**](iscardverify-unblock.md)                       | Re-enables the [*security context*](security.s_gly#-security-security-context-gly).<br/>               |
+| [**Unblock**](/windows/win32/mbnapi/?branch=master)                       | Re-enables the [*security context*](security.s_gly#-security-security-context-gly).<br/>               |
 | [**Verify**](iscardverify-verify.md)                         | Authenticates the user.<br/>                                                                                                          |
 
 

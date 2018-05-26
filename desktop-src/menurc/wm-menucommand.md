@@ -1,8 +1,9 @@
 ---
 title: WM\_MENUCOMMAND message
 description: Sent when the user makes a selection from a menu.
-ms.assetid: '1ed702ef-8d32-4d4c-a68a-ffd199112ced'
-keywords: ["WM_MENUCOMMAND message Menus and Other Resources"]
+ms.assetid: 1ed702ef-8d32-4d4c-a68a-ffd199112ced
+keywords:
+- WM_MENUCOMMAND message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MENUCOMMAND message
@@ -44,9 +50,9 @@ A handle to the menu for the item selected.
 
 ## Remarks
 
-The **WM\_MENUCOMMAND** message gives you a handle to the menu—so you can access the menu data in the [**MENUINFO**](menuinfo.md) structure—and also gives you the index of the selected item, which is typically what applications need. In contrast, the [**WM\_COMMAND**](wm-command.md) message gives you the menu item identifier.
+The **WM\_MENUCOMMAND** message gives you a handle to the menu so you can access the menu data in the [**MENUINFO**](/windows/win32/Winuser/ns-winuser-tagmenuinfo?branch=master) structure and also gives you the index of the selected item, which is typically what applications need. In contrast, the [**WM\_COMMAND**](wm-command.md) message gives you the menu item identifier.
 
-The **WM\_MENUCOMMAND** message is sent only for menus that are defined with the **MNS\_NOTIFYBYPOS** flag set in the **dwStyle** member of the [**MENUINFO**](menuinfo.md) structure.
+The **WM\_MENUCOMMAND** message is sent only for menus that are defined with the **MNS\_NOTIFYBYPOS** flag set in the **dwStyle** member of the [**MENUINFO**](/windows/win32/Winuser/ns-winuser-tagmenuinfo?branch=master) structure.
 
 ## Requirements
 
@@ -54,8 +60,8 @@ The **WM\_MENUCOMMAND** message is sent only for menus that are defined with the
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ The **WM\_MENUCOMMAND** message is sent only for menus that are defined with the
 [Menus Overview](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

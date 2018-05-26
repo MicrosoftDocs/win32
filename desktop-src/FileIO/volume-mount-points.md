@@ -1,7 +1,12 @@
 ---
-Description: 'Using mounted folders, you can unify disparate file systems such as the NTFS file system, a 16-bit FAT file system, and an ISO-9660 file system on a CD-ROM drive into one logical file system on a single NTFS volume.'
-ms.assetid: '052a363f-adfd-4f66-a8b0-5d9d37eedcb0'
+Description: Using mounted folders, you can unify disparate file systems such as the NTFS file system, a 16-bit FAT file system, and an ISO-9660 file system on a CD-ROM drive into one logical file system on a single NTFS volume.
+ms.assetid: 052a363f-adfd-4f66-a8b0-5d9d37eedcb0
 title: Mounted Folders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mounted Folders
@@ -21,18 +26,18 @@ For information on mounted folders, see the following topics.
 | [Creating Mounted Folders](mounting-and-dismounting-a-volume.md)<br/>                                                  | Creating a mounted folder is a two-step process.<br/>                                                                                                                                                                 |
 | [Enumerating Mounted Folders](enumerating-volume-mount-points.md)<br/>                                                 | Functions to use to enumerate mounted folders on a volume.<br/>                                                                                                                                                       |
 | [Determining Whether a Directory Is a Mounted Folder](determining-whether-a-directory-is-a-volume-mount-point.md)<br/> | How to determine whether a specified directory is a mounted folder.<br/>                                                                                                                                              |
-| [Assigning a Drive Letter to a Volume](assigning-a-drive-letter-to-a-volume.md)<br/>                                   | You can assign a drive letter (for example, X:\) to a local volume by using the [**SetVolumeMountPoint**](setvolumemountpoint.md) function, provided there is no volume already assigned to that drive letter.<br/> |
+| [Assigning a Drive Letter to a Volume](assigning-a-drive-letter-to-a-volume.md)<br/>                                   | You can assign a drive letter (for example, X:\) to a local volume by using the [**SetVolumeMountPoint**](/windows/win32/WinBase/nf-winbase-setvolumemountpointa?branch=master) function, provided there is no volume already assigned to that drive letter.<br/> |
 | [Mounted Folder Functions](volume-mount-point-functions.md)<br/>                                                       | Functions used to manage mounted folders.<br/>                                                                                                                                                                        |
 
 
 
- 
+ 
 
 For examples, see [Mounted Folder Examples](volume-mount-point-examples.md).
 
- 
+ 
 
- 
+ 
 
 
 

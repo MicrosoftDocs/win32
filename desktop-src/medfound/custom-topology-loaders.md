@@ -1,18 +1,23 @@
 ---
 Description: Custom Topology Loaders
-ms.assetid: '3982b07e-3179-45c1-9f17-f2114363f53d'
+ms.assetid: 3982b07e-3179-45c1-9f17-f2114363f53d
 title: Custom Topology Loaders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Topology Loaders
 
-When an application queues a partial topology on the Media Session, the Media Session uses a topology loader to resolve the topology. By default, the Media Session uses the standard Media Foundation implementation of the topology loader, but you can also provide a custom implementation. This gives you more control over the final topology. A custom topology loader must implement the [**IMFTopoLoader**](imftopoloader.md) interface.
+When an application queues a partial topology on the Media Session, the Media Session uses a topology loader to resolve the topology. By default, the Media Session uses the standard Media Foundation implementation of the topology loader, but you can also provide a custom implementation. This gives you more control over the final topology. A custom topology loader must implement the [**IMFTopoLoader**](/windows/win32/mfidl/nn-mfidl-imftopoloader?branch=master) interface.
 
 To set a custom topology loader on the Media Session, do the following:
 
-1.  Create an empty attribute store by calling [**MFCreateAttributes**](mfcreateattributes.md).
+1.  Create an empty attribute store by calling [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master).
 2.  Set the [**MF\_SESSION\_TOPOLOADER**](mf-session-topoloader-attribute.md) attribute on the attribute store. The value of the attribute is the CLSID of your custom loader.
-3.  Call [**MFCreateMediaSession**](mfcreatemediasession.md) to create the Media Session for unprotected content, or [**MFCreatePMPMediaSession**](mfcreatepmpmediasession.md) to create the Media Session inside the protected media path (PMP).
+3.  Call [**MFCreateMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatemediasession?branch=master) to create the Media Session for unprotected content, or [**MFCreatePMPMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatepmpmediasession?branch=master) to create the Media Session inside the protected media path (PMP).
 
 > [!Note]  
 > To use a custom topology loader inside the PMP, the topology loader must be a trusted component. For more information, see [Protected Media Path](protected-media-path.md).
@@ -61,9 +66,9 @@ HRESULT CreateSession_CustomTopoLoader(REFCLSID clsid, IMFMediaSession **ppSessi
 
 
 
-It is not necessary to implement the entire topology-loading algorithm in your topology loader. As an alternative, you can wrap the standard Media Foundation topology loader. In your implementation of the [**IMFTopoLoader::Load**](imftopoloader-load.md) method, modify the topology as needed and pass the modified topology to the standard topology loader. Then the standard topology loader completes the topology. You can also modify the completed topology before passing it back to the Media Session.
+It is not necessary to implement the entire topology-loading algorithm in your topology loader. As an alternative, you can wrap the standard Media Foundation topology loader. In your implementation of the [**IMFTopoLoader::Load**](/windows/win32/mfidl/nf-mfidl-imftopoloader-load?branch=master) method, modify the topology as needed and pass the modified topology to the standard topology loader. Then the standard topology loader completes the topology. You can also modify the completed topology before passing it back to the Media Session.
 
-The following code shows the general outline of this approach. It does not show any details of the [**Load**](imftopoloader-load.md) method, because these will depend on the particular requirements of your application.
+The following code shows the general outline of this approach. It does not show any details of the [**Load**](/windows/win32/mfidl/nf-mfidl-imftopoloader-load?branch=master) method, because these will depend on the particular requirements of your application.
 
 
 ```C++
@@ -163,7 +168,7 @@ private:
 
 <dl> <dt>
 
-[**MFCreateTopoLoader**](mfcreatetopoloader.md)
+[**MFCreateTopoLoader**](/windows/win32/mfidl/nf-mfidl-mfcreatetopoloader?branch=master)
 </dt> <dt>
 
 [Advanced Topology Building](advanced-topology-building.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'A new object's primary group is the primary group from the security descriptor specified by the object's creator.'
-ms.assetid: '1a90aa92-723a-48d6-ab7e-d0400b1384a4'
+Description: A new objects primary group is the primary group from the security descriptor specified by the objects creator.
+ms.assetid: 1a90aa92-723a-48d6-ab7e-d0400b1384a4
 title: Primary Group of a New Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primary Group of a New Object

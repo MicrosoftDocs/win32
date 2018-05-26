@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the height of the geometric aperture, in pixels.'
-ms.assetid: 'f5e73e9b-14ff-4185-a33a-4fee5c5b4ef9'
-title: 'MFPKEY\_RESIZE\_GEOMAPHEIGHT Property'
+---
+Description: Specifies the height of the geometric aperture, in pixels.
+ms.assetid: f5e73e9b-14ff-4185-a33a-4fee5c5b4ef9
+title: MFPKEY\_RESIZE\_GEOMAPHEIGHT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_GEOMAPHEIGHT Property

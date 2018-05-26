@@ -1,7 +1,12 @@
 ---
-Description: 'The network share management reference includes the following information:'
-ms.assetid: '4bdbc3be-58a6-4ff2-8a35-37aac266465b'
+Description: The network share management reference includes the following information
+ms.assetid: 4bdbc3be-58a6-4ff2-8a35-37aac266465b
 title: Network Share Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Share Management Reference

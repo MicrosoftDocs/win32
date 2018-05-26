@@ -4,13 +4,15 @@ description: Represents an association in which a CIM\_BaseMetricDefinition obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '095d6e04-5703-48a1-bf86-ee5d351779ce'
-ms.prod: 'windows-server-dev'
+ms.assetid: 095d6e04-5703-48a1-bf86-ee5d351779ce
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_MetricDefForME class", "CIM_MetricDefForME class, described"]
+keywords:
+- CIM_MetricDefForME class
+- CIM_MetricDefForME class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MetricDefForME class
@@ -36,9 +41,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.22.0"), UMLPackagePath("CIM::Metrics::BaseMetric")]
 class CIM_MetricDefForME : CIM_Dependency
 {
-  CIM_ManagedElement       REF Antecedent;
+  CIM_ManagedElement       REF Antecedent;
   CIM_BaseMetricDefinition REF Dependent;
-  uint16                       MetricCollectionEnabled;
+  uint16                       MetricCollectionEnabled;
 };
 ```
 
@@ -159,7 +164,7 @@ Reserved.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -176,9 +181,9 @@ Reserved.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

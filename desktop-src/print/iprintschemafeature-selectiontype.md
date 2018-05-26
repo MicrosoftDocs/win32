@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the selection type of the Feature.'
-ms.assetid: 'FFFF05EF-CCD3-4298-A6DC-8FE998C53DEA'
-title: 'IPrintSchemaFeature::SelectionType property'
+---
+Description: Gets the selection type of the Feature.
+ms.assetid: FFFF05EF-CCD3-4298-A6DC-8FE998C53DEA
+title: IPrintSchemaFeatureSelectionType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaFeature::SelectionType property

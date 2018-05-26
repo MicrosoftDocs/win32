@@ -1,8 +1,11 @@
 ---
 title: SetScrollPosition method of the Msvm\_Ps2Mouse class
 description: Adjusts the z-coordinate of the wheel control of the pointing device.
-ms.assetid: '8049136a-46f4-4ff2-b943-9a8ad63cd54d'
-keywords: ["SetScrollPosition method Hyper-V", "SetScrollPosition method Hyper-V , Msvm_Ps2Mouse class", "Msvm_Ps2Mouse class Hyper-V , SetScrollPosition method"]
+ms.assetid: 8049136a-46f4-4ff2-b943-9a8ad63cd54d
+keywords:
+- SetScrollPosition method Hyper-V
+- SetScrollPosition method Hyper-V , Msvm_Ps2Mouse class
+- Msvm_Ps2Mouse class Hyper-V , SetScrollPosition method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetScrollPosition method of the Msvm\_Ps2Mouse class
@@ -22,7 +30,7 @@ Adjusts the z-coordinate of the wheel control of the pointing device. Values wri
 
 ```mof
 uint32 SetScrollPosition(
-  [in] sint8 scrollPositionDelta
+  [in] sint8 scrollPositionDelta
 );
 ```
 
@@ -99,9 +107,9 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -114,9 +122,9 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

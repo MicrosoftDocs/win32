@@ -1,7 +1,12 @@
 ---
-Description: 'Protected data is stored as an ASN.1 encoded BLOB.'
-ms.assetid: '8E287A1F-4EDF-4068-85F7-59A1D73F7BCD'
+Description: Protected data is stored as an ASN.1 encoded BLOB.
+ms.assetid: 8E287A1F-4EDF-4068-85F7-59A1D73F7BCD
 title: Protected Data Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protected Data Format

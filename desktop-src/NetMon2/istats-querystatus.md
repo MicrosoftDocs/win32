@@ -1,7 +1,12 @@
 ---
-Description: 'The QueryStatus method retrieves the status of the NPP.'
-ms.assetid: '86b1c1ee-3a35-4603-9e93-fe09f886c32f'
-title: 'IStats::QueryStatus method'
+Description: The QueryStatus method retrieves the status of the NPP.
+ms.assetid: 86b1c1ee-3a35-4603-9e93-fe09f886c32f
+title: IStatsQueryStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::QueryStatus method
@@ -13,7 +18,7 @@ The **QueryStatus** method retrieves the status of the NPP.
 
 ```C++
 HRESULT STDMETHODCALLTYPE QueryStatus(
-  [out] NETWORKSTATUS *pNetworkStatus
+  [out] NETWORKSTATUS *pNetworkStatus
 );
 ```
 
@@ -44,7 +49,7 @@ If the method is unsuccessful, the return value is the following error code:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,8 +61,8 @@ This method can be called at any time after the [CreateNPPInterface](createnppin
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -76,9 +81,9 @@ This method can be called at any time after the [CreateNPPInterface](createnppin
 [NETWORKSTATUS](networkstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

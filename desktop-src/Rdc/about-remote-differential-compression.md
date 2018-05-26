@@ -4,11 +4,15 @@ description: Allows data to be synchronized with a remote source using compressi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1ec21a38-6410-46f1-91f1-6d1eb1cd0694'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-differential-compression'
+ms.assetid: 1ec21a38-6410-46f1-91f1-6d1eb1cd0694
+ms.prod: windows-server-dev
+ms.technology: remote-differential-compression
 ms.tgt_platform: multiple
-keywords: ["Remote Differential Compression Files , about"]
+keywords:
+- Remote Differential Compression Files , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Remote Differential Compression

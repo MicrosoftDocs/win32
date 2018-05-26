@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the offset of a specified protocol in the frame.'
-ms.assetid: 'bfe5f477-c9de-4bb9-99e5-b8db895b0ae6'
+Description: Returns the offset of a specified protocol in the frame.
+ms.assetid: bfe5f477-c9de-4bb9-99e5-b8db895b0ae6
 title: GetProtocolStartOffset function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetProtocolStartOffset function
@@ -13,8 +18,8 @@ The **GetProtocolStartOffset** function returns the offset of a specified protoc
 
 ```C++
 DWORD WINAPI GetProtocolStartOffset(
-   HFRAME hFrame,
-   LPSTR  ProtocolName
+   HFRAME hFrame,
+   LPSTR  ProtocolName
 );
 ```
 
@@ -40,7 +45,7 @@ The Protocol name, such as TCP.
 
 ## Return value
 
-If the function is successful, the return value is a **DWORD** offset to the beginning of the protocol being searched for — a return value of zero indicates the protocol is the first protocol in the frame.
+If the function is successful, the return value is a **DWORD** offset to the beginning of the protocol being searched for   a return value of zero indicates the protocol is the first protocol in the frame.
 
 If the function is unsuccessful, the protocol is not in the frame, the return value is -1.
 
@@ -56,17 +61,17 @@ This function finds the beginning of a protocol in a frame.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

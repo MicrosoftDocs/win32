@@ -1,7 +1,12 @@
 ---
-Description: 'A filter is not receiving enough data.'
-ms.assetid: 'c9cdfe46-02bb-4ea9-ac58-7d63e03c26d8'
-title: 'EC\_STARVATION'
+Description: A filter is not receiving enough data.
+ms.assetid: c9cdfe46-02bb-4ea9-ac58-7d63e03c26d8
+title: EC\_STARVATION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_STARVATION
@@ -54,9 +59,9 @@ A parser or source filter can send this event if too little data is arriving.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

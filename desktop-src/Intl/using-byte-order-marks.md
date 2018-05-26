@@ -1,7 +1,12 @@
 ---
-Description: 'Always prefix a Unicode plain text file with a byte order mark, which informs an application receiving the file that the file is byte-ordered.'
-ms.assetid: 'd9f1ef5c-6367-4183-9c07-01c73cb4debc'
+Description: Always prefix a Unicode plain text file with a byte order mark, which informs an application receiving the file that the file is byte-ordered.
+ms.assetid: d9f1ef5c-6367-4183-9c07-01c73cb4debc
 title: Using Byte Order Marks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Byte Order Marks

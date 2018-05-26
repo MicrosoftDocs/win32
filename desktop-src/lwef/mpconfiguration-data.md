@@ -1,8 +1,10 @@
 ---
 title: MPCONFIGURATION\_DATA structure
 description: Contains data about configuration changes, including the old and new values.
-ms.assetid: 'AB70B1C0-C148-44BC-8C0E-CC5D2A66BCA5'
-keywords: ["MPCONFIGURATION_DATA structure Legacy Windows Environment Features", "PMPCONFIGURATION_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: AB70B1C0-C148-44BC-8C0E-CC5D2A66BCA5
+keywords:
+- MPCONFIGURATION_DATA structure Legacy Windows Environment Features
+- PMPCONFIGURATION_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCONFIGURATION\_DATA structure
@@ -23,11 +30,11 @@ Contains data about configuration changes, including the old and new values.
 ```C++
 typedef struct tagMPCONFIGURATION_DATA {
   MP_MIDL_STRING LPWSTR ConfigurationName;
-  DWORD                 DataType;
-  DWORD                 PreviousDataSize;
-  BYTE                  *pPreviousData;
-  DWORD                 CurrentDataSize;
-  BYTE                  *pCurrentData;
+  DWORD                 DataType;
+  DWORD                 PreviousDataSize;
+  BYTE                  *pPreviousData;
+  DWORD                 CurrentDataSize;
+  BYTE                  *pCurrentData;
 } MPCONFIGURATION_DATA, *PMPCONFIGURATION_DATA;
 ```
 
@@ -109,15 +116,15 @@ Pointer to new data.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

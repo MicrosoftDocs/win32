@@ -4,13 +4,19 @@ description: Sets SMB server configuration values.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b9435ba2-647f-4fbc-942f-0283ab213d67'
-ms.prod: 'windows-server-dev'
+ms.assetid: b9435ba2-647f-4fbc-942f-0283ab213d67
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetConfiguration method SMB", "SetConfiguration method SMB , MSFT_SmbServerConfiguration class", "MSFT_SmbServerConfiguration class SMB , SetConfiguration method"]
+keywords:
+- SetConfiguration method SMB
+- SetConfiguration method SMB , MSFT_SmbServerConfiguration class
+- MSFT_SmbServerConfiguration class SMB , SetConfiguration method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetConfiguration method of the MSFT\_SmbServerConfiguration class
@@ -22,48 +28,48 @@ Sets SMB server configuration values.
 
 ```mof
 uint32 SetConfiguration(
-  [in] boolean AnnounceServer,
-  [in] uint32  AsynchronousCredits,
-  [in] boolean AutoShareServer,
-  [in] boolean AutoShareWorkstation,
-  [in] uint32  CachedOpenLimit,
-  [in] string  AnnounceComment,
-  [in] boolean EnableDownlevelTimewarp,
-  [in] boolean EnableLeasing,
-  [in] boolean EnableMultiChannel,
-  [in] boolean EnableStrictNameChecking,
-  [in] uint32  AutoDisconnectTimeout,
-  [in] uint32  DurableHandleV2TimeoutInSeconds,
-  [in] boolean EnableAuthenticateUserSharing,
-  [in] boolean EnableForcedLogoff,
-  [in] boolean EnableOplocks,
-  [in] boolean EnableSecuritySignature,
-  [in] boolean ServerHidden,
-  [in] uint32  IrpStackSize,
-  [in] uint32  KeepAliveTime,
-  [in] uint32  MaxChannelPerSession,
-  [in] uint32  MaxMpxCount,
-  [in] uint32  MaxSessionPerConnection,
-  [in] uint32  MaxThreadsPerQueue,
-  [in] uint32  MaxWorkItems,
-  [in] string  NullSessionPipes,
-  [in] string  NullSessionShares,
-  [in] uint32  OplockBreakWait,
-  [in] uint32  PendingClientTimeoutInSeconds,
-  [in] boolean RequireSecuritySignature,
-  [in] boolean EnableSMB1Protocol,
-  [in] boolean EnableSMB2Protocol,
-  [in] uint32  Smb2CreditsMax,
-  [in] uint32  Smb2CreditsMin,
-  [in] uint32  SmbServerNameHardeningLevel,
-  [in] boolean TreatHostAsStableStorage,
-  [in] boolean ValidateAliasNotCircular,
-  [in] boolean ValidateShareScope,
-  [in] boolean ValidateShareScopeNotAliased,
-  [in] boolean ValidateTargetName,
-  [in] boolean EncryptData,
-  [in] boolean RejectUnencryptedAccess,
-  [in] boolean AuditSmb1Access
+  [in] boolean AnnounceServer,
+  [in] uint32  AsynchronousCredits,
+  [in] boolean AutoShareServer,
+  [in] boolean AutoShareWorkstation,
+  [in] uint32  CachedOpenLimit,
+  [in] string  AnnounceComment,
+  [in] boolean EnableDownlevelTimewarp,
+  [in] boolean EnableLeasing,
+  [in] boolean EnableMultiChannel,
+  [in] boolean EnableStrictNameChecking,
+  [in] uint32  AutoDisconnectTimeout,
+  [in] uint32  DurableHandleV2TimeoutInSeconds,
+  [in] boolean EnableAuthenticateUserSharing,
+  [in] boolean EnableForcedLogoff,
+  [in] boolean EnableOplocks,
+  [in] boolean EnableSecuritySignature,
+  [in] boolean ServerHidden,
+  [in] uint32  IrpStackSize,
+  [in] uint32  KeepAliveTime,
+  [in] uint32  MaxChannelPerSession,
+  [in] uint32  MaxMpxCount,
+  [in] uint32  MaxSessionPerConnection,
+  [in] uint32  MaxThreadsPerQueue,
+  [in] uint32  MaxWorkItems,
+  [in] string  NullSessionPipes,
+  [in] string  NullSessionShares,
+  [in] uint32  OplockBreakWait,
+  [in] uint32  PendingClientTimeoutInSeconds,
+  [in] boolean RequireSecuritySignature,
+  [in] boolean EnableSMB1Protocol,
+  [in] boolean EnableSMB2Protocol,
+  [in] uint32  Smb2CreditsMax,
+  [in] uint32  Smb2CreditsMin,
+  [in] uint32  SmbServerNameHardeningLevel,
+  [in] boolean TreatHostAsStableStorage,
+  [in] boolean ValidateAliasNotCircular,
+  [in] boolean ValidateShareScope,
+  [in] boolean ValidateShareScopeNotAliased,
+  [in] boolean ValidateTargetName,
+  [in] boolean EncryptData,
+  [in] boolean RejectUnencryptedAccess,
+  [in] boolean AuditSmb1Access
 );
 ```
 
@@ -365,7 +371,7 @@ Controls whether this server allows for SMB Encryption. To ensure security, data
 
 TBD.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2016 and Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This parameter is not supported before Windows Server 2016 and Windows 10.
 
 </dd> </dl>
 
@@ -375,8 +381,8 @@ TBD.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -390,9 +396,9 @@ TBD.
 [**MSFT\_SmbServerConfiguration**](msft-smbserverconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

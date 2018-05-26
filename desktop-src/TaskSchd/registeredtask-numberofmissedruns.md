@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.NumberOfMissedRuns property
 description: For scripting, gets the number of times the registered task has missed a scheduled run.
-ms.assetid: '8f5b5471-edfa-45e6-b556-ba12c0721aed'
-keywords: ["NumberOfMissedRuns property Task Scheduler", "NumberOfMissedRuns property Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , NumberOfMissedRuns property"]
+ms.assetid: 8f5b5471-edfa-45e6-b556-ba12c0721aed
+keywords:
+- NumberOfMissedRuns property Task Scheduler
+- NumberOfMissedRuns property Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , NumberOfMissedRuns property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.NumberOfMissedRuns property
@@ -36,8 +44,8 @@ The number of times the registered task missed a scheduled run.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -53,9 +61,9 @@ The number of times the registered task missed a scheduled run.
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS IsUserLoggedOn method
 description: Determines whether the requested session is present.
-ms.assetid: '28035e30-023a-4ec2-88ef-43fe22f6d14e'
-keywords: ["IsUserLoggedOn method Virtual PC", "IsUserLoggedOn method Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , IsUserLoggedOn method"]
+ms.assetid: 28035e30-023a-4ec2-88ef-43fe22f6d14e
+keywords:
+- IsUserLoggedOn method Virtual PC
+- IsUserLoggedOn method Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , IsUserLoggedOn method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::IsUserLoggedOn method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the requested session is present.
 
@@ -24,8 +32,8 @@ Determines whether the requested session is present.
 
 ```C++
 HRESULT IsUserLoggedOn(
-  [in]          long         inRailSession,
-  [out, retval] VARIANT_BOOL *outSessionPresent
+  [in]          long         inRailSession,
+  [out, retval] VARIANT_BOOL *outSessionPresent
 );
 ```
 
@@ -69,7 +77,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,9 +85,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -93,9 +101,9 @@ This method can return one of these values.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

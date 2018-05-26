@@ -1,7 +1,12 @@
 ---
 title: About Art Manuscripts
 description: About Art Manuscripts
-ms.assetid: 'D2D3C9FE-B861-4427-BFE5-220FFB450819'
+ms.assetid: D2D3C9FE-B861-4427-BFE5-220FFB450819
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Art Manuscripts

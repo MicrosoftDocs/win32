@@ -4,17 +4,21 @@ description: Thrown when communication is needed but the OFFLINE\_ONLY flag is s
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '11D18E89-3C9B-45D2-9F3A-46F85AD2654C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 11D18E89-3C9B-45D2-9F3A-46F85AD2654C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["OfflineOnlyRequiresInternetException class"]
+keywords:
+- OfflineOnlyRequiresInternetException class
 topic_type:
 - apiref
 api_name:
 - OfflineOnlyRequiresInternetException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OfflineOnlyRequiresInternetException class
@@ -32,7 +36,7 @@ public class OfflineOnlyRequiresInternetException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class OfflineOnlyRequiresInternetException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class OfflineOnlyRequiresInternetException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ For more information, see the SDK documentation for the [**ProtectionException**
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

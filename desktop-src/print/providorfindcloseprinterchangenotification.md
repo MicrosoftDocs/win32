@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'D7360F7B-394D-480A-B2AB-B4461B057E43'
+---
+Description: .
+ms.assetid: D7360F7B-394D-480A-B2AB-B4461B057E43
 title: ProvidorFindClosePrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProvidorFindClosePrinterChangeNotification function

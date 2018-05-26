@@ -1,8 +1,11 @@
 ---
 title: DeviceInfo.Type property
 description: Retrieves the type of DeviceInfo object.
-ms.assetid: '33c97780-6704-440e-9483-7a2cf5196e69'
-keywords: ["Type property WIA Automation", "Type property WIA Automation , DeviceInfo object", "DeviceInfo object WIA Automation , Type property"]
+ms.assetid: 33c97780-6704-440e-9483-7a2cf5196e69
+keywords:
+- Type property WIA Automation
+- Type property WIA Automation , DeviceInfo object
+- DeviceInfo object WIA Automation , Type property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.Type property
@@ -43,8 +51,8 @@ For example code, see [Implement a Web Camera ASP Page](-wiaaut-shared-samples.m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -72,9 +80,9 @@ For example code, see [Implement a Web Camera ASP Page](-wiaaut-shared-samples.m
 [**WiaDeviceType**](-wiaaut-wiadevicetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

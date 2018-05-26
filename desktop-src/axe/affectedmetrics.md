@@ -1,14 +1,20 @@
 ---
 title: AffectedMetrics element
 description: Enables a metric value to be related to an issue.
-ms.assetid: 'A7DB5724-F68C-4713-8BEE-D092D687CBA2'
-keywords: ["AffectedMetrics element Access Execution Engine"]
+ms.assetid: A7DB5724-F68C-4713-8BEE-D092D687CBA2
+keywords:
+- AffectedMetrics element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AffectedMetrics
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AffectedMetrics element
@@ -70,9 +76,9 @@ MetricReference
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

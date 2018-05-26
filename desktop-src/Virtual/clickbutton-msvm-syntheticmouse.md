@@ -1,8 +1,11 @@
 ---
 title: ClickButton method of the Msvm\_SyntheticMouse class
 description: Simulates a button click, a down-up sequence, on the specified device button.
-ms.assetid: '0d97b94d-8820-420e-9087-005bd14f9d9e'
-keywords: ["ClickButton method Hyper-V", "ClickButton method Hyper-V , Msvm_SyntheticMouse class", "Msvm_SyntheticMouse class Hyper-V , ClickButton method"]
+ms.assetid: 0d97b94d-8820-420e-9087-005bd14f9d9e
+keywords:
+- ClickButton method Hyper-V
+- ClickButton method Hyper-V , Msvm_SyntheticMouse class
+- Msvm_SyntheticMouse class Hyper-V , ClickButton method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClickButton method of the Msvm\_SyntheticMouse class
@@ -22,7 +30,7 @@ Simulates a button click, a down-up sequence, on the specified device button.
 
 ```mof
 uint32 ClickButton(
-  [in] uint32 buttonIndex
+  [in] uint32 buttonIndex
 );
 ```
 
@@ -442,9 +450,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -457,9 +465,9 @@ End Function
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

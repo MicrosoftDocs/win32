@@ -1,15 +1,18 @@
 ---
-Description: 'Modifies a Win32\_SystemDriver service.'
+Description: Modifies a Win32\_SystemDriver service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '61ee3297-2a66-466e-bdba-74d683f3ea70'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 61ee3297-2a66-466e-bdba-74d683f3ea70
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Change method of the Win32\_SystemDriver class'
+title: Change method of the Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Change method of the Win32\_SystemDriver class
@@ -23,17 +26,17 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Change(
-  [in] string  DisplayName,
-  [in] string  PathName,
-  [in] uint8   ServiceType,
-  [in] uint8   ErrorControl,
-  [in] string  StartMode,
-  [in] boolean DesktopInteract,
-  [in] string  StartName,
-  [in] string  StartPassword,
-  [in] string  LoadOrderGroup,
-  [in] string  LoadOrderGroupDependencies[],
-  [in] string  ServiceDependencies[]
+  [in] string  DisplayName,
+  [in] string  PathName,
+  [in] uint8   ServiceType,
+  [in] uint8   ErrorControl,
+  [in] string  StartMode,
+  [in] boolean DesktopInteract,
+  [in] string  StartName,
+  [in] string  StartPassword,
+  [in] string  LoadOrderGroup,
+  [in] string  LoadOrderGroupDependencies[],
+  [in] string  ServiceDependencies[]
 );
 ```
 
@@ -267,7 +270,7 @@ The password to the account name specified by the *StartName* parameter. Specify
 > [!Note]  
 > When changing a service from a local system to a network, or from a network to a local system, *StartPassword* must be an empty string ("") and not **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -375,7 +378,7 @@ Returns a value of zero (0) if the service was successfully modified, 1 (one) if
 **Service Already Paused** (24)
 </dt> <dt>
 
-**Other** (25–4294967295)
+**Other** (25 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -406,8 +409,8 @@ StartPassword = "" // - empty string, not NULL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Mbnapi.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -425,9 +428,9 @@ StartPassword = "" // - empty string, not NULL
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

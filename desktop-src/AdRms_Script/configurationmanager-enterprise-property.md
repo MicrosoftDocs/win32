@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an Enterprise object that can be used for enterprise administration.'
+Description: Retrieves an Enterprise object that can be used for enterprise administration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '73db9798-d909-4367-9c66-d26e238f3677'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 73db9798-d909-4367-9c66-d26e238f3677
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ConfigurationManager.Enterprise property'
+title: ConfigurationManager.Enterprise property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConfigurationManager.Enterprise property
@@ -106,7 +109,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END SUB
 [**ConfigurationManager**](configurationmanager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

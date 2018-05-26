@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies and retrieves a Boolean value that indicates whether a client can view protected content in a browser.'
+Description: Specifies and retrieves a Boolean value that indicates whether a client can view protected content in a browser.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '4b0a840d-1e56-40ba-9fe8-58e914ccba39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 4b0a840d-1e56-40ba-9fe8-58e914ccba39
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExtendedCondition.EnableViewInTrustedBrowser property'
+title: ExtendedCondition.EnableViewInTrustedBrowser property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExtendedCondition.EnableViewInTrustedBrowser property
@@ -126,7 +129,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -138,9 +141,9 @@ END SUB
 [**ExtendedCondition**](extendedcondition-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a group''s restriction setting from the registry.'
-ms.assetid: '04275c5f-c3ed-4962-882f-2cce0258a9f4'
-title: 'IShellDispatch2.IsRestricted method'
+---
+Description: Retrieves a groups restriction setting from the registry.
+ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
+title: IShellDispatch2.IsRestricted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch2.IsRestricted method

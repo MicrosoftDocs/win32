@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Sender property retrieves an object containing information about the sender of the fax message.'
-ms.assetid: '96efda69-9e5f-4807-af3f-41a87d33cd69'
-title: 'FaxOutgoingMessage.Sender property'
+---
+Description: The Sender property retrieves an object containing information about the sender of the fax message.
+ms.assetid: 96efda69-9e5f-4807-af3f-41a87d33cd69
+title: FaxOutgoingMessage.Sender property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Sender property
@@ -46,7 +51,7 @@ A [**FaxSender**](-mfax-faxsender.md) object.
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

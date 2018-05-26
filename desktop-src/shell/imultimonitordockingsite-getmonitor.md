@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the current default monitor.'
-title: 'IMultiMonitorDockingSite::GetMonitor method'
+---
+Description: Gets the current default monitor.
+title: IMultiMonitorDockingSiteGetMonitor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMultiMonitorDockingSite::GetMonitor method
@@ -28,7 +33,7 @@ HRESULT GetMonitor(
 
 Type: **[**IUnknown**](com.iunknown)\***
 
-A pointer to the object implementing the [**IDockingWindow**](idockingwindow.md) interface for which the monitor is being requested.
+A pointer to the object implementing the [**IDockingWindow**](/windows/win32/shobjidl_core/nn-shobjidl_core-idockingwindow?branch=master) interface for which the monitor is being requested.
 
 </dd> <dt>
 

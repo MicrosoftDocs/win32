@@ -1,13 +1,20 @@
 ---
 title: Creating an MCIWnd Window
 description: Creating an MCIWnd Window
-ms.assetid: 'bd45e813-5807-43cd-bef1-03285df9a018'
-keywords: ["MCIWnd window,creating", "MCIWndCreate function"]
+ms.assetid: bd45e813-5807-43cd-bef1-03285df9a018
+keywords:
+- MCIWnd window,creating
+- MCIWndCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an MCIWnd Window
 
-The [**MCIWndCreate**](mciwndcreate.md) function registers and creates an MCIWnd window. The window can be a parent, child, or pop-up window. The following example creates an MCIWnd window as a child window and lets the user control playback by providing access to the trackbar and the **Play**, **Stop**, and **Menu** buttons. The example specifies a handle of a parent window and specifies **NULL** for the window styles, so the default window styles of WS\_CHILD, WS\_BORDER, and WS\_VISIBLE are used to create the MCIWnd window.
+The [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master) function registers and creates an MCIWnd window. The window can be a parent, child, or pop-up window. The following example creates an MCIWnd window as a child window and lets the user control playback by providing access to the trackbar and the **Play**, **Stop**, and **Menu** buttons. The example specifies a handle of a parent window and specifies **NULL** for the window styles, so the default window styles of WS\_CHILD, WS\_BORDER, and WS\_VISIBLE are used to create the MCIWnd window.
 
 
 ```C++

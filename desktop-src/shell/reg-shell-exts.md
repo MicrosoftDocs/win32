@@ -1,14 +1,19 @@
 ---
-Description: 'A Shell extension handler object must be registered before the Shell can use it. This topic is a general discussion of how to register a Shell extension handler.'
-ms.assetid: 'e4b98c18-746b-4909-8821-f25de9d15373'
+Description: A Shell extension handler object must be registered before the Shell can use it. This topic is a general discussion of how to register a Shell extension handler.
+ms.assetid: e4b98c18-746b-4909-8821-f25de9d15373
 title: Registering Shell Extension Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Shell Extension Handlers
 
 A Shell extension handler object must be registered before the Shell can use it. This topic is a general discussion of how to register a Shell extension handler.
 
-Any time you create or change a Shell extension handler, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](shchangenotify.md), specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change might not be recognized until the system is rebooted.
+Any time you create or change a Shell extension handler, it is important to notify the system that you have made a change. Do so by calling [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master), specifying the **SHCNE\_ASSOCCHANGED** event. If you do not call **SHChangeNotify**, the change might not be recognized until the system is rebooted.
 
 There are some additional factors that apply to Windows 2000 systems. For details, see the [Registering Shell Extension Handlers on Windows 2000 Systems](#registering-shell-extension-handlers) section.
 

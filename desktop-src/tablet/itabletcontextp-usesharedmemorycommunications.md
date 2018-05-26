@@ -1,7 +1,12 @@
 ---
-Description: 'Provides access to memory shared between tablet threads.'
-ms.assetid: '047ff598-7d20-49d7-bdd3-498fe5c778c6'
-title: 'ITabletContextP::UseSharedMemoryCommunications method'
+Description: Provides access to memory shared between tablet threads.
+ms.assetid: 047ff598-7d20-49d7-bdd3-498fe5c778c6
+title: ITabletContextPUseSharedMemoryCommunications method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletContextP::UseSharedMemoryCommunications method
@@ -13,11 +18,11 @@ Provides access to memory shared between tablet threads.
 
 ```C++
 HRESULT UseSharedMemoryCommunications(
-  [in]  DWORD pid,
-  [out] DWORD *phEventMoreData,
-  [out] DWORD *phEventClientReady,
-  [out] DWORD *phMutexAccess,
-  [out] DWORD *phFileMapping
+  [in]  DWORD pid,
+  [out] DWORD *phEventMoreData,
+  [out] DWORD *phEventClientReady,
+  [out] DWORD *phMutexAccess,
+  [out] DWORD *phFileMapping
 );
 ```
 
@@ -75,7 +80,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -100,7 +105,7 @@ The following list describes the sequence of events for accessing and using shar
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -116,9 +121,9 @@ The following list describes the sequence of events for accessing and using shar
 [**UseNamedSharedMemoryCommunications**](itabletcontextp-usenamedsharedmemorycommunications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

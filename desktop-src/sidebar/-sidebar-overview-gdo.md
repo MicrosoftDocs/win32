@@ -1,8 +1,28 @@
 ---
 title: Developing a Gadget for Windows Sidebar Part 1 The Basics
 description: The first of three overviews that describe how to create a basic gadget for the Windows Sidebar. In this overview, we demonstrate a simple \ 0034;Hello World \ 0034; gadget and the steps required to install and display it in the Sidebar.
-ms.assetid: 'b063d5aa-d11d-4318-9570-c4c73060a955'
-keywords: ["Windows Sidebar,creating gadgets", "Sidebar,creating gadgets", "gadgets,creating", "creating gadgets", "Windows Sidebar,examples", "Sidebar,examples", "gadgets,examples", "Gadget.xml", "Windows Sidebar,encoding", "Sidebar,encoding", "gadgets,encoding", "Windows Sidebar,UTF-8 character encoding", "Sidebar,UTF-8 character encoding", "gadgets,UTF-8 character encoding", "UTF-8 character encoding"]
+ms.assetid: b063d5aa-d11d-4318-9570-c4c73060a955
+keywords:
+- Windows Sidebar,creating gadgets
+- Sidebar,creating gadgets
+- gadgets,creating
+- creating gadgets
+- Windows Sidebar,examples
+- Sidebar,examples
+- gadgets,examples
+- Gadget.xml
+- Windows Sidebar,encoding
+- Sidebar,encoding
+- gadgets,encoding
+- Windows Sidebar,UTF-8 character encoding
+- Sidebar,UTF-8 character encoding
+- gadgets,UTF-8 character encoding
+- UTF-8 character encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a Gadget for Windows Sidebar Part 1: The Basics

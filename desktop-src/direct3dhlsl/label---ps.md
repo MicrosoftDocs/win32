@@ -1,7 +1,12 @@
 ---
 title: label - ps
 description: Mark the next instruction as having a label index.
-ms.assetid: '21afa062-c536-4891-ba69-ca5284b0539c'
+ms.assetid: 21afa062-c536-4891-ba69-ca5284b0539c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # label - ps

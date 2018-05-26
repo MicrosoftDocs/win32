@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines whether the driver can create a driver-level command or vertex buffer of the specified description.'
-ms.assetid: 'c67492d9-c4ba-4206-8beb-3d67235192f9'
+---
+Description: Determines whether the driver can create a driver-level command or vertex buffer of the specified description.
+ms.assetid: c67492d9-c4ba-4206-8beb-3d67235192f9
 title: NtGdiDdCanCreateD3DBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdCanCreateD3DBuffer function

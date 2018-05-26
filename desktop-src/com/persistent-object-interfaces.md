@@ -1,19 +1,24 @@
 ---
 title: Persistent Object Interfaces
 description: A persistent object implements one or more persistent object interfaces.
-ms.assetid: '8c8e44e4-f564-4af5-9a8a-ac6883862cae'
+ms.assetid: 8c8e44e4-f564-4af5-9a8a-ac6883862cae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Persistent Object Interfaces
 
-A persistent object implements one or more *persistent object interfaces*. Clients use persistent object interfaces to tell those objects when and where to store their state. All persistent object interfaces are derived from [**IPersist**](ipersist.md), so any object that implements any persistent object interface also implements **IPersist**.
+A persistent object implements one or more *persistent object interfaces*. Clients use persistent object interfaces to tell those objects when and where to store their state. All persistent object interfaces are derived from [**IPersist**](/windows/win32/ObjIdl/nn-objidl-ipersist?branch=master), so any object that implements any persistent object interface also implements **IPersist**.
 
 The following persistent object interfaces are currently defined:
 
--   [**IPersistStream**](ipersiststream.md)
--   [**IPersistStreamInit**](ipersiststreaminit.md)
--   [**IPersistStorage**](ipersiststorage.md)
--   [**IPersistFile**](ipersistfile.md)
+-   [**IPersistStream**](/windows/win32/ObjIdl/nn-objidl-ipersiststream?branch=master)
+-   [**IPersistStreamInit**](/windows/win32/OCIdl/nn-ocidl-ipersiststreaminit?branch=master)
+-   [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master)
+-   [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master)
 -   [**IPersistMoniker**](_inet_IPersistMoniker_Interface_cpp)
 -   [IPersistMemory](http://go.microsoft.com/fwlink/p/?linkid=103818)
 -   [IPersistPropertyBag](http://go.microsoft.com/fwlink/p/?linkid=103820)
@@ -26,16 +31,16 @@ For example, the following table lists several object types that allow support f
 
 | Category                            | Persistent object interfaces typically supported                                                                                                                                                         |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Monikers<br/>                 | [**IPersistStream**](ipersiststream.md)<br/>                                                                                                                                                      |
-| OLE embeddable objects<br/>   | [**IPersistStorage**](ipersiststorage.md), [**IPersistFile**](ipersistfile.md)<br/>                                                                                                              |
-| ActiveX controls<br/>         | [**IPersistStreamInit**](ipersiststreaminit.md), [**IPersistStorage**](ipersiststorage.md), IPersistMemory, IPersistPropertyBag, [**IPersistMoniker**](_inet_IPersistMoniker_Interface_cpp)<br/> |
-| ActiveX document objects<br/> | [**IPersistStorage**](ipersiststorage.md), [**IPersistFile**](ipersistfile.md)<br/>                                                                                                              |
+| Monikers<br/>                 | [**IPersistStream**](/windows/win32/ObjIdl/nn-objidl-ipersiststream?branch=master)<br/>                                                                                                                                                      |
+| OLE embeddable objects<br/>   | [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master), [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master)<br/>                                                                                                              |
+| ActiveX controls<br/>         | [**IPersistStreamInit**](/windows/win32/OCIdl/nn-ocidl-ipersiststreaminit?branch=master), [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master), IPersistMemory, IPersistPropertyBag, [**IPersistMoniker**](_inet_IPersistMoniker_Interface_cpp)<br/> |
+| ActiveX document objects<br/> | [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master), [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master)<br/>                                                                                                              |
 
 
 
- 
+ 
 
-Client implementers can also choose which persistent object interfaces the client can use. The interfaces a client uses is usually determined by where the client can store its own data. A client that can store its data only in a flat file will probably use only [**IPersistStreamInit**](ipersiststreaminit.md), [**IPersistMoniker**](_inet_IPersistMoniker_Interface_cpp), and IPersistPropertyBag. (**IPersistStreamInit** can replace [**IPersistStream**](ipersiststream.md) in most applications, because it contains that definition and adds an initialization method.) A client that can save its data to a structured storage file will, in addition, use [**IPersistStorage**](ipersiststorage.md).
+Client implementers can also choose which persistent object interfaces the client can use. The interfaces a client uses is usually determined by where the client can store its own data. A client that can store its data only in a flat file will probably use only [**IPersistStreamInit**](/windows/win32/OCIdl/nn-ocidl-ipersiststreaminit?branch=master), [**IPersistMoniker**](_inet_IPersistMoniker_Interface_cpp), and IPersistPropertyBag. (**IPersistStreamInit** can replace [**IPersistStream**](/windows/win32/ObjIdl/nn-objidl-ipersiststream?branch=master) in most applications, because it contains that definition and adds an initialization method.) A client that can save its data to a structured storage file will, in addition, use [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master).
 
 ## Related topics
 
@@ -44,9 +49,9 @@ Client implementers can also choose which persistent object interfaces the clien
 [Initializing Persistent Objects](initializing-persistent-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

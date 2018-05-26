@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_PARAMETER\_USAGE\_TYPES enumeration type describes how a method parameter is used in a given method.'
-ms.assetid: '60cbb4fa-c5fd-4402-bfd4-8fd95c009a33'
-title: 'WPD\_PARAMETER\_USAGE\_TYPES enumeration'
+Description: The WPD\_PARAMETER\_USAGE\_TYPES enumeration type describes how a method parameter is used in a given method.
+ms.assetid: 60cbb4fa-c5fd-4402-bfd4-8fd95c009a33
+title: WPD\_PARAMETER\_USAGE\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_PARAMETER\_USAGE\_TYPES enumeration
@@ -13,10 +18,10 @@ The [**WPD\_PARAMETER\_USAGE\_TYPES**](https://msdn.microsoft.com/library/window
 
 ```C++
 typedef enum tagWPD_PARAMETER_USAGE_TYPES { 
-  WPD_PARAMETER_USAGE_RETURN  = 0,
-  WPD_PARAMETER_USAGE_IN      = 1,
-  WPD_PARAMETER_USAGE_OUT     = 2,
-  WPD_PARAMETER_USAGE_INOUT   = 3
+  WPD_PARAMETER_USAGE_RETURN  = 0,
+  WPD_PARAMETER_USAGE_IN      = 1,
+  WPD_PARAMETER_USAGE_OUT     = 2,
+  WPD_PARAMETER_USAGE_INOUT   = 3
 } WPD_PARAMETER_USAGE_TYPES;
 ```
 
@@ -64,9 +69,9 @@ The parameter contains an input value before the method is called and an output 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateAdvertiseScript method of the Installer object generates an advertise script.'
-ms.assetid: '32a331e5-d291-49cd-ab0e-7d0e4d72a95b'
-title: 'Installer::CreateAdvertiseScript method'
+---
+Description: The CreateAdvertiseScript method of the Installer object generates an advertise script.
+ms.assetid: 32a331e5-d291-49cd-ab0e-7d0e4d72a95b
+title: InstallerCreateAdvertiseScript method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer::CreateAdvertiseScript method
@@ -100,7 +105,7 @@ This method does not return a value.
 
 ## Remarks
 
-The [**AdvertiseProduct**](installer-advertiseproduct.md) method uses the [**MsiAdvertiseProductEx**](msiadvertiseproductex.md) function.
+The [**AdvertiseProduct**](installer-advertiseproduct.md) method uses the [**MsiAdvertiseProductEx**](/windows/win32/Msi/nf-msi-msiadvertiseproductexa?branch=master) function.
 
 ## Examples
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Parent device.'
-ms.assetid: '55ab5289-4f68-495c-86b7-e67a8b556f44'
-title: 'System.Devices.Parent'
+Description: Parent device.
+ms.assetid: 55ab5289-4f68-495c-86b7-e67a8b556f44
+title: System.Devices.Parent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Parent

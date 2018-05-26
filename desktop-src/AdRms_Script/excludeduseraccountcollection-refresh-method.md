@@ -1,13 +1,16 @@
 ---
-Description: 'Refreshes the collection from the collection saved on the server.'
+Description: Refreshes the collection from the collection saved on the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '67ca39ca-d3b5-46a9-be79-e6ea6442e83f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 67ca39ca-d3b5-46a9-be79-e6ea6442e83f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedUserAccountCollection::Refresh method'
+title: ExcludedUserAccountCollectionRefresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedUserAccountCollection::Refresh method
@@ -110,7 +113,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -125,9 +128,9 @@ END FUNCTION
 [**ExcludedUserAccountCollection**](excludeduseraccountcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IResultProperty DisplayState property
 description: Visability of the property.
-ms.assetid: '4fdf6cdb-30bd-4582-a573-a1cc9f4052e6'
-keywords: ["DisplayState property Legacy Windows Environment Features", "DisplayState property Legacy Windows Environment Features , IResultProperty interface", "IResultProperty interface Legacy Windows Environment Features , DisplayState property"]
+ms.assetid: 4fdf6cdb-30bd-4582-a573-a1cc9f4052e6
+keywords:
+- DisplayState property Legacy Windows Environment Features
+- DisplayState property Legacy Windows Environment Features , IResultProperty interface
+- IResultProperty interface Legacy Windows Environment Features , DisplayState property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultProperty::DisplayState property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DisplayState(
-  [out, retval] PropertyDisplayState *state
+  [out, retval] PropertyDisplayState *state
 );
 ```
 
@@ -43,16 +51,16 @@ returns a pointer to the display state value.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

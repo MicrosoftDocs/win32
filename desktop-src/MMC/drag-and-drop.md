@@ -4,11 +4,15 @@ description: Drag-and-drop operations work automatically in snap-ins that implem
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd339966-2c10-492e-a146-92a909bb57b5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bd339966-2c10-492e-a146-92a909bb57b5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["drag-and-drop operations MMC"]
+keywords:
+- drag-and-drop operations MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enabling Drag-and-Drop in the MMC

@@ -1,8 +1,18 @@
 ---
 title: Porting Picking Functions
 description: All IRIS GL picking functions have OpenGL equivalents, with the exception of clearhitcode. The following table lists the IRIS GL picking functions and their equivalent OpenGL functions.
-ms.assetid: 'f8fbd0c2-14bf-47bc-be7f-eeef346dbac1'
-keywords: ["IRIS GL porting,picking", "porting from IRIS GL,picking", "porting to OpenGL from IRIS GL,picking", "OpenGL porting from IRIS GL,picking", "picking"]
+ms.assetid: f8fbd0c2-14bf-47bc-be7f-eeef346dbac1
+keywords:
+- IRIS GL porting,picking
+- porting from IRIS GL,picking
+- porting to OpenGL from IRIS GL,picking
+- OpenGL porting from IRIS GL,picking
+- picking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Picking Functions
@@ -23,13 +33,13 @@ All IRIS GL picking functions have OpenGL equivalents, with the exception of **c
 
 
 
- 
+ 
 
 For more information on picking, see [**gluPickMatrix**](glupickmatrix.md).
 
- 
+ 
 
- 
+ 
 
 
 

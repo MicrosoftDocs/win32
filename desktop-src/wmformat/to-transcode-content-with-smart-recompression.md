@@ -1,8 +1,30 @@
 ---
 title: To Transcode Content with Smart Recompression
 description: To Transcode Content with Smart Recompression
-ms.assetid: '02398462-b0a4-4a17-84e3-4c6f9f26639f'
-keywords: ["Windows Media Format SDK,transcoding content", "Windows Media Format SDK,smart recompression", "Windows Media Format SDK,recompression", "Windows Media Format SDK,Windows Media Audio codecs", "Advanced Systems Format (ASF),transcoding content", "ASF (Advanced Systems Format),transcoding content", "Advanced Systems Format (ASF),smart recompression", "ASF (Advanced Systems Format),smart recompression", "Advanced Systems Format (ASF),recompression", "ASF (Advanced Systems Format),recompression", "Advanced Systems Format (ASF),Windows Media Audio codecs", "ASF (Advanced Systems Format),Windows Media Audio codecs", "transcoding content", "smart recompression", "recompression", "Windows Media Audio codecs,transcoding content", "codecs,Windows Media Audio codecs"]
+ms.assetid: 02398462-b0a4-4a17-84e3-4c6f9f26639f
+keywords:
+- Windows Media Format SDK,transcoding content
+- Windows Media Format SDK,smart recompression
+- Windows Media Format SDK,recompression
+- Windows Media Format SDK,Windows Media Audio codecs
+- Advanced Systems Format (ASF),transcoding content
+- ASF (Advanced Systems Format),transcoding content
+- Advanced Systems Format (ASF),smart recompression
+- ASF (Advanced Systems Format),smart recompression
+- Advanced Systems Format (ASF),recompression
+- ASF (Advanced Systems Format),recompression
+- Advanced Systems Format (ASF),Windows Media Audio codecs
+- ASF (Advanced Systems Format),Windows Media Audio codecs
+- transcoding content
+- smart recompression
+- recompression
+- Windows Media Audio codecs,transcoding content
+- codecs,Windows Media Audio codecs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Transcode Content with Smart Recompression
@@ -16,14 +38,14 @@ To use smart recompression, perform the following steps.
 1.  Set up a reader object with the source file for reading. For more information, see [Reading ASF Files](reading-asf-files.md).
 2.  Set up a writer object to use for transcoding the file. Set the file name for the new file. Select a profile to use for the new file. Set the selected profile in the writer object. For more information, see [Writing ASF Files](writing-asf-files.md).
 3.  Get a pointer to the [**IWMProfile**](iwmprofile.md) interface of the reader object by calling **IWMReader::QueryInterface**.
-4.  Retrieve the [**IWMStreamConfig**](iwmstreamconfig.md) interface for the audio stream to be transcoded by calling [**IWMProfile::GetStream**](iwmprofile-getstream.md).
-5.  Get the [**IWMMediaProps**](iwmmediaprops.md) interface for the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
-6.  Retrieve the [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure for the stream by making two calls to [**IWMMediaProps::GetMediaType**](iwmmediaprops-getmediatype.md). Get the size of the structure on the first call, and allocate memory for a buffer to pass on the second call.
-7.  Get a pointer to the [**IWMInputMediaProps**](iwminputmediaprops.md) interface for the input in the writer by calling [**IWMWriter::GetInputProps**](iwmwriter-getinputprops.md).
-8.  Get the [**IWMPropertyVault**](iwmpropertyvault.md) interface for the input media properties object by calling **IWMInputMediaProps::QueryInterface**.
-9.  Use the [**IWMPropertyVault::SetProperty**](iwmpropertyvault-setproperty.md) method to set the g\_wszOriginalWaveFormat property. Use the **WAVEFORMATEX** structure obtained in step 6 as the value of the property.
-10. Include changes made to the input media properties by calling [**IWMWriter::SetInputProps**](iwmwriter-setinputprops.md) and passing it a pointer to the **IWMInputMediaProps** interface.
-11. Begin reading samples from the original file and passing them to the writer with calls to [**IWMWriter::WriteSample**](iwmwriter-writesample.md).
+4.  Retrieve the [**IWMStreamConfig**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig?branch=master) interface for the audio stream to be transcoded by calling [**IWMProfile::GetStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream?branch=master).
+5.  Get the [**IWMMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmediaprops?branch=master) interface for the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
+6.  Retrieve the [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure for the stream by making two calls to [**IWMMediaProps::GetMediaType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype?branch=master). Get the size of the structure on the first call, and allocate memory for a buffer to pass on the second call.
+7.  Get a pointer to the [**IWMInputMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwminputmediaprops?branch=master) interface for the input in the writer by calling [**IWMWriter::GetInputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops?branch=master).
+8.  Get the [**IWMPropertyVault**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master) interface for the input media properties object by calling **IWMInputMediaProps::QueryInterface**.
+9.  Use the [**IWMPropertyVault::SetProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty?branch=master) method to set the g\_wszOriginalWaveFormat property. Use the **WAVEFORMATEX** structure obtained in step 6 as the value of the property.
+10. Include changes made to the input media properties by calling [**IWMWriter::SetInputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops?branch=master) and passing it a pointer to the **IWMInputMediaProps** interface.
+11. Begin reading samples from the original file and passing them to the writer with calls to [**IWMWriter::WriteSample**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample?branch=master).
 
 ## Related topics
 
@@ -32,19 +54,19 @@ To use smart recompression, perform the following steps.
 [**Advanced Topics**](advanced-topics.md)
 </dt> <dt>
 
-[**IWMInputMediaProps Interface**](iwminputmediaprops.md)
+[**IWMInputMediaProps Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwminputmediaprops?branch=master)
 </dt> <dt>
 
-[**IWMMediaProps Interface**](iwmmediaprops.md)
+[**IWMMediaProps Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmediaprops?branch=master)
 </dt> <dt>
 
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMPropertyVault Interface**](iwmpropertyvault.md)
+[**IWMPropertyVault Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master)
 </dt> <dt>
 
-[**IWMStreamConfig Interface**](iwmstreamconfig.md)
+[**IWMStreamConfig Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,12 @@ description: The property methods of the IGPMBackup interface get the properties
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5393a50a-ce4c-436d-9e86-2f9540652d6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 5393a50a-ce4c-436d-9e86-2f9540652d6a
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMBackup Property Methods GPMC"]
+keywords:
+- IGPMBackup Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -31,11 +32,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMBackup Property Methods
 
-The property methods of the [**IGPMBackup**](igpmbackup.md) interface get the properties that are described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the Active Directory Service Interfaces (ADSI) documentation.
+The property methods of the [**IGPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) interface get the properties that are described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the Active Directory Service Interfaces (ADSI) documentation.
 
 ## Properties
 
@@ -44,7 +48,7 @@ The property methods of the [**IGPMBackup**](igpmbackup.md) interface get the pr
 **BackupDir**
 </dt> <dd> <dl>
 
-The directory in which the [**GPMBackup**](igpmbackup.md) object exists.
+The directory in which the [**GPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) object exists.
 
 <dt>
 
@@ -69,7 +73,7 @@ HRESULT get_BackupDir(
 **Comment**
 </dt> <dd> <dl>
 
-Comment associated with the [**GPMBackup**](igpmbackup.md) object.
+Comment associated with the [**GPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) object.
 
 <dt>
 
@@ -169,7 +173,7 @@ HRESULT get_GPOID(
 **ID**
 </dt> <dd> <dl>
 
-GUID that uniquely identifies the [**GPMBackup**](igpmbackup.md) object within its backup directory.
+GUID that uniquely identifies the [**GPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) object within its backup directory.
 
 <dt>
 
@@ -194,7 +198,7 @@ HRESULT get_ID(
 **Timestamp**
 </dt> <dd> <dl>
 
-Date and time when the [**GPMBackup**](igpmbackup.md) object was created, in local time.
+Date and time when the [**GPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) object was created, in local time.
 
 <dt>
 
@@ -216,7 +220,7 @@ HRESULT get_Timestamp(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -224,8 +228,8 @@ HRESULT get_Timestamp(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -237,18 +241,18 @@ HRESULT get_Timestamp(
 
 <dl> <dt>
 
-[**IGPMBackup**](igpmbackup.md)
+[**IGPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master)
 </dt> <dt>
 
-[**IGPMBackupCollection**](igpmbackupcollection.md)
+[**IGPMBackupCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackupcollection?branch=master)
 </dt> <dt>
 
-[**IGPMBackupDir**](igpmbackupdir.md)
+[**IGPMBackupDir**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackupdir?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Attribute Descriptions
-description: The following topics describe the ODL attributes and the types of objects that they apply to, along with the equivalent flags set in the object's type information.
-ms.assetid: 'dff3a873-8f7c-435c-83c4-d77a72d362b1'
+description: The following topics describe the ODL attributes and the types of objects that they apply to, along with the equivalent flags set in the objects type information.
+ms.assetid: dff3a873-8f7c-435c-83c4-d77a72d362b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute Descriptions
@@ -65,7 +70,7 @@ The following topics describe the ODL attributes and the types of objects that t
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -74,9 +79,9 @@ The following topics describe the ODL attributes and the types of objects that t
 [ODL Reference](odl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

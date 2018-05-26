@@ -4,17 +4,21 @@ description: Used to initialize an MSProtector object with an MSUserPolicy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '63469A3F-9912-4406-8661-D8A06C4946CD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 63469A3F-9912-4406-8661-D8A06C4946CD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtector initWithUserPolicy method"]
+keywords:
+- MSProtector initWithUserPolicy method
 topic_type:
 - apiref
 api_name:
 - MSProtector initWithUserPolicy method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtector initWithUserPolicy method
@@ -39,7 +43,7 @@ Used to initialize an [**MSProtector**](msprotector-class-objc.md) object with a
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,15 +63,15 @@ MSProtection.h
 
 
 
- 
+ 
 
 ## Remarks
 
 [**templateListWithUserId**](mstemplatedescriptor-templatelistwithuserid-userid-authenticationcallback-completionblock-method-objc.md) should be invoked from the main thread.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'Contains the classes introduced in Windows 10.'
-ms.assetid: 'A83106CC-46CC-4323-BE29-FE0ED655AC44'
+Description: Contains the classes introduced in Windows 10.
+ms.assetid: A83106CC-46CC-4323-BE29-FE0ED655AC44
 title: Threshold classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Threshold classes
 
-Contains the classes introduced in Windows 10.
+Contains the classes introduced in Windows 10.
 
 ## In this section
 
@@ -65,11 +70,11 @@ Contains the classes introduced in Windows 10.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PaintWindow method causes the window to be repainted.'
-ms.assetid: 'dce3d782-00e5-4176-9365-378d59d48ebc'
-title: 'CBaseWindow.PaintWindow method'
+Description: The PaintWindow method causes the window to be repainted.
+ms.assetid: dce3d782-00e5-4176-9365-378d59d48ebc
+title: CBaseWindow.PaintWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.PaintWindow method
@@ -13,7 +18,7 @@ The `PaintWindow` method causes the window to be repainted.
 
 ```C++
 void PaintWindow(
-   BOOL bErase
+   BOOL bErase
 );
 ```
 
@@ -56,9 +61,9 @@ This method generates a WM\_PAINT message by invalidating the window's entire cl
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

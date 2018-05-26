@@ -2,11 +2,14 @@
 title: Set method of the PS\_VpnConnectionTriggerTrustedNetwork class
 description: Sets the trusted network list with the Name Resolution Policy Table (NRPT) DNS suffixes that have been configured as part of triggering properties. The NRPT exemption entries are ignored.
 audience: developer
-ms.assetid: '0104FE64-294B-4C1A-99B0-8CAA8ACE5C59'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 0104FE64-294B-4C1A-99B0-8CAA8ACE5C59
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_VpnConnectionTriggerTrustedNetwork class", "PS_VpnConnectionTriggerTrustedNetwork class, Set method"]
+keywords:
+- Set method
+- Set method, PS_VpnConnectionTriggerTrustedNetwork class
+- PS_VpnConnectionTriggerTrustedNetwork class, Set method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_VpnConnectionTriggerTrustedNetwork class
@@ -26,11 +32,11 @@ Sets the trusted network list with the Name Resolution Policy Table (NRPT) DNS s
 
 ```mof
 uint32 Set(
-  [in]  string                             ConnectionName,
-  [in]  boolean                            DefaultDnsSuffixes,
-  [in]  boolean                            PassThru,
-  [in]  boolean                            Force,
-  [out] VpnConnectionTriggerTrustedNetwork cmdletOutput
+  [in]  string                             ConnectionName,
+  [in]  boolean                            DefaultDnsSuffixes,
+  [in]  boolean                            PassThru,
+  [in]  boolean                            Force,
+  [out] VpnConnectionTriggerTrustedNetwork cmdletOutput
 );
 ```
 
@@ -81,8 +87,8 @@ When this method returns, contains the [**VpnConnectionTriggerTrustedNetwork**](
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -96,9 +102,9 @@ When this method returns, contains the [**VpnConnectionTriggerTrustedNetwork**](
 [**PS\_VpnConnectionTriggerTrustedNetwork**](ps-vpnconnectiontriggertrustednetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

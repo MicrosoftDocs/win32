@@ -1,7 +1,12 @@
 ---
 title: Programmatically Controlling Kernel Traces
 description: Programmatically Controlling Kernel Traces
-ms.assetid: '2e8149d4-ec96-42b0-aebb-796ac9cf416f'
+ms.assetid: 2e8149d4-ec96-42b0-aebb-796ac9cf416f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programmatically Controlling Kernel Traces

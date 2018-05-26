@@ -1,14 +1,20 @@
 ---
 title: WM/Lyrics
 description: The WM/Lyrics attribute contains the lyrics as a simple string.
-ms.assetid: '3b4356ba-0feb-4cc5-8629-f45d39ac4113'
-keywords: ["WM/Lyrics windows Media Format"]
+ms.assetid: 3b4356ba-0feb-4cc5-8629-f45d39ac4113
+keywords:
+- WM/Lyrics windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Lyrics
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Lyrics

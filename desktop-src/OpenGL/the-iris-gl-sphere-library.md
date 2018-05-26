@@ -1,8 +1,19 @@
 ---
 title: The IRIS GL Sphere Library
 description: OpenGL does not support the IRIS GL sphere library. You can replace your sphere library calls with quadrics routines from the GLU library. For more information about the GLU library, see the Open GL Programming Guide and OpenGL Utility Library.
-ms.assetid: '2b7e6a3d-d2d0-4b54-8dff-8c4d6b113007'
-keywords: ["IRIS GL porting,sphere library", "porting from IRIS GL,sphere library", "porting to OpenGL from IRIS GL,sphere library", "OpenGL porting from IRIS GL,sphere library", "drawing functions,sphere library", "sphere library"]
+ms.assetid: 2b7e6a3d-d2d0-4b54-8dff-8c4d6b113007
+keywords:
+- IRIS GL porting,sphere library
+- porting from IRIS GL,sphere library
+- porting to OpenGL from IRIS GL,sphere library
+- OpenGL porting from IRIS GL,sphere library
+- drawing functions,sphere library
+- sphere library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The IRIS GL Sphere Library

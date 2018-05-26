@@ -1,8 +1,9 @@
 ---
 title: glDrawBuffer function
 description: The glDrawBuffer function specifies which color buffers are to be drawn into.
-ms.assetid: 'ea625699-303b-4e60-b9aa-771949a8d52d'
-keywords: ["glDrawBuffer function OpenGL"]
+ms.assetid: ea625699-303b-4e60-b9aa-771949a8d52d
+keywords:
+- glDrawBuffer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDrawBuffer function
@@ -22,7 +28,7 @@ The **glDrawBuffer** function specifies which color buffers are to be drawn into
 
 ```C++
 void WINAPI glDrawBuffer(
-   GLenum mode
+   GLenum mode
 );
 ```
 
@@ -55,7 +61,7 @@ Specifies up to four color buffers to be drawn into with the following acceptabl
 
 
 
- 
+ 
 
 The default value is GL\_FRONT for single-buffered contexts, and GL\_BACK for double-buffered contexts.
 
@@ -115,8 +121,8 @@ The following functions retrieve information related to the **glDrawBuffer** fun
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -151,9 +157,9 @@ The following functions retrieve information related to the **glDrawBuffer** fun
 [**glReadBuffer**](glreadbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

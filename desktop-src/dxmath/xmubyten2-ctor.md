@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMUBYTEN2.'
-ms.assetid: 'aa72906c-1338-49cf-909c-4d3a00aa3de2'
+---
+Description: Constructors exposed by XMUBYTEN2.
+ms.assetid: aa72906c-1338-49cf-909c-4d3a00aa3de2
 title: XMUBYTEN2 constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUBYTEN2 constructors
 
 Constructors exposed by `XMUBYTEN2`.
 
-Constructs instances of the [**XMUBYTEN2**](xmubyten2.md) structure.
+Constructs instances of the [**XMUBYTEN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available with C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMUBYTEN2**](xmubyten2.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMUBYTEN2 ()</strong>](xmubyten2-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMUBYTEN2</code><br/> Default constructor for [<strong>XMUBYTEN2</strong>](xmubyten2.md).<br/>
+<td style="text-align: left;">Default constructor for <code>XMUBYTEN2</code><br/> Default constructor for [<strong>XMUBYTEN2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master).<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available with C++.
@@ -42,7 +47,7 @@ This constructor is only available with C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMUBYTEN2 (float,float)</strong>](xmubyten2-ctor-4.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from two <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](xmubyten2.md) from two <code>float</code> arguments.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from two <code>float</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) from two <code>float</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available with C++.
@@ -51,7 +56,7 @@ This constructor is only available with C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMUBYTEN2 (const float*)</strong>](xmubyten2-ctor-5.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from a two-element <code>float</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](xmubyten2.md) from a from a two-element <code>float</code> array argument.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from a two-element <code>float</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) from a from a two-element <code>float</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available with C++.
@@ -60,7 +65,7 @@ This constructor is only available with C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMUBYTEN2 (const uint8_t*)</strong>](xmubyten2-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from a two-element <code>uint8_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](xmubyten2.md) from a two-element <code>uint8_t</code> array argument.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from a two-element <code>uint8_t</code> array argument.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) from a two-element <code>uint8_t</code> array argument.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available with C++.
@@ -69,7 +74,7 @@ This constructor is only available with C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMUBYTEN2 (uint8_t,uint8_t)</strong>](xmubyten2-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from two <code>uint8_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](xmubyten2.md) from two <code>uint8_t</code> arguments.<br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMUBYTEN2</code> from two <code>uint8_t</code> arguments.<br/> This constructor initializes a new instance of [<strong>XMUBYTEN2</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) from two <code>uint8_t</code> arguments.<br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available with C++.
@@ -91,7 +96,7 @@ This constructor is only available with C++.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTEN2**](xmubyten2.md)
+[**XMUBYTEN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master)
 </dt> </dl>
 
  

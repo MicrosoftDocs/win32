@@ -1,13 +1,16 @@
 ---
-Description: 'Reports when an event is dropped as a result of delivery queue overflow.'
+Description: Reports when an event is dropped as a result of delivery queue overflow.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7cb1ef3b-3b0a-4f72-96de-862022fd6db8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventQueueOverflowEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventQueueOverflowEvent class
@@ -21,11 +24,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __EventQueueOverflowEvent : __EventDroppedEvent
 {
-  uint32              CurrentQueueSize;
-  object              Event;
+  uint32              CurrentQueueSize;
+  object              Event;
   __EventConsumer REF IntendedConsumer;
-  uint8               SECURITY_DESCRIPTOR[];
-  uint64              TIME_CREATED;
+  uint8               SECURITY_DESCRIPTOR[];
+  uint64              TIME_CREATED;
 };
 ```
 
@@ -120,8 +123,8 @@ For more information, see the [**MaximumQueueSize**](--eventconsumer.md) propert
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -136,9 +139,9 @@ For more information, see the [**MaximumQueueSize**](--eventconsumer.md) propert
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

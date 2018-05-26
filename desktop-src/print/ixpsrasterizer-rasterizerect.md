@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.'
-ms.assetid: 'abf8dfc7-7921-4e9c-a338-ec783a01fca7'
-title: 'IXpsRasterizer::RasterizeRect method'
+---
+Description: The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
+ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
+title: IXpsRasterizerRasterizeRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizer::RasterizeRect method

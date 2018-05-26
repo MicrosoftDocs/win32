@@ -4,13 +4,16 @@ description: Returns the IPv4 address ranges excluded from the specified scope I
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1d915737-6000-4dd4-a493-f7a1ee912cbc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1d915737-6000-4dd4-a493-f7a1ee912cbc
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4ExclusionRange class", "PS_DhcpServerv4ExclusionRange class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4ExclusionRange class
+- PS_DhcpServerv4ExclusionRange class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4ExclusionRange class
@@ -30,9 +36,9 @@ Returns the IPv4 address ranges excluded from the specified scope IDs. If scope 
 
 ```mof
 uint32 Get(
-  [in]  string                     ComputerName,
-  [in]  string                     ScopeId[],
-  [out] DhcpServerv4ExclusionRange cmdletOutput[]
+  [in]  string                     ComputerName,
+  [in]  string                     ScopeId[],
+  [out] DhcpServerv4ExclusionRange cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of a [**DhcpServerv4ExclusionRange**](dhcpserverv4exclusion
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of a [**DhcpServerv4ExclusionRange**](dhcpserverv4exclusion
 [**PS\_DhcpServerv4ExclusionRange**](ps-dhcpserverv4exclusionrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

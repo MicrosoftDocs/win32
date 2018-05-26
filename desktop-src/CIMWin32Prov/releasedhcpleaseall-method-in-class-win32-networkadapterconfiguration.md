@@ -1,15 +1,18 @@
 ---
-Description: 'The ReleaseDHCPLeaseAll WMI class static method releases the IP addresses bound to all DHCP-enabled network adapters.'
+Description: The ReleaseDHCPLeaseAll WMI class static method releases the IP addresses bound to all DHCP-enabled network adapters.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd9f83953-f3da-419d-8c84-649c39b4945e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d9f83953-f3da-419d-8c84-649c39b4945e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ReleaseDHCPLeaseAll method of the Win32\_NetworkAdapterConfiguration class'
+title: ReleaseDHCPLeaseAll method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReleaseDHCPLeaseAll method of the Win32\_NetworkAdapterConfiguration class
@@ -19,7 +22,7 @@ The **ReleaseDHCPLeaseAll** [WMI class](https://msdn.microsoft.com/library/aa393
 > [!Note]  
 > Warning If DHCP is enabled on the local computer system, the option will terminate all DHCP TCP/IP connections.
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -387,7 +390,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -415,8 +418,8 @@ objNetworkSettings.ReleaseDHCPLeaseAll()
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -442,9 +445,9 @@ objNetworkSettings.ReleaseDHCPLeaseAll()
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

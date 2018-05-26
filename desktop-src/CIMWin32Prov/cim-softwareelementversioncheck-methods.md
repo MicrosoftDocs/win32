@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_SoftwareElementVersionCheck class exposes the following methods.'
+Description: The CIM\_SoftwareElementVersionCheck class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'BEAB9093-6188-4BA7-8654-DBEA709E0E5F'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: BEAB9093-6188-4BA7-8654-DBEA709E0E5F
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SoftwareElementVersionCheck Methods'
+title: CIM\_SoftwareElementVersionCheck Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SoftwareElementVersionCheck Methods

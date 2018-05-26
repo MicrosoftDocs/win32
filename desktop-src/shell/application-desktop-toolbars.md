@@ -1,7 +1,12 @@
 ---
-Description: 'An application desktop toolbar (also called an appbar) is a window that is similar to the Windows taskbar.'
-ms.assetid: 'd9f63cb1-e2cc-4a3b-a3b8-de028e0f0123'
+Description: An application desktop toolbar (also called an appbar) is a window that is similar to the Windows taskbar.
+ms.assetid: d9f63cb1-e2cc-4a3b-a3b8-de028e0f0123
 title: Using Application Desktop Toolbars
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Application Desktop Toolbars
@@ -26,17 +31,17 @@ Windows provides an API that lets you take advantage of appbar services provided
 
 ### Sending Messages
 
-An application uses a special set of messages, called appbar messages, to add or remove an appbar, set an appbar's size and position, and retrieve information about the size, position, and state of the taskbar. To send an appbar message, an application must use the [**SHAppBarMessage**](shappbarmessage.md) function. The function's parameters include a message identifier, such as [**ABM\_NEW**](abm-new.md), and the address of an [**APPBARDATA**](appbardata.md) structure. The structure members contain information that the system needs to process the given message.
+An application uses a special set of messages, called appbar messages, to add or remove an appbar, set an appbar's size and position, and retrieve information about the size, position, and state of the taskbar. To send an appbar message, an application must use the [**SHAppBarMessage**](/windows/win32/Shellapi/nf-shellapi-shappbarmessage?branch=master) function. The function's parameters include a message identifier, such as [**ABM\_NEW**](abm-new.md), and the address of an [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure. The structure members contain information that the system needs to process the given message.
 
-For any given appbar message, the system uses some members of the [**APPBARDATA**](appbardata.md) structure and ignores the others. However, the system always uses the **cbSize** and **hWnd** members, so an application must fill these members for every appbar message. The **cbSize** member specifies the size of the structure, and the **hWnd** member is the handle to the appbar's window.
+For any given appbar message, the system uses some members of the [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure and ignores the others. However, the system always uses the **cbSize** and **hWnd** members, so an application must fill these members for every appbar message. The **cbSize** member specifies the size of the structure, and the **hWnd** member is the handle to the appbar's window.
 
-Some appbar messages request information from the system. When processing these messages, the system copies the requested information into the [**APPBARDATA**](appbardata.md) structure.
+Some appbar messages request information from the system. When processing these messages, the system copies the requested information into the [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure.
 
 ### Registration
 
 The system keeps an internal list of appbars and maintains information about each bar in the list. The system uses the information to manage appbars, perform services for them, and send them notification messages.
 
-An application must register an appbar (that is, add it to the internal list) before it can receive appbar services from the system. To register an appbar, an application sends the [**ABM\_NEW**](abm-new.md) message. The accompanying [**APPBARDATA**](appbardata.md) structure includes the handle to the appbar's window and an application-defined message identifier. The system uses the message identifier to send notification messages to the window procedure of the appbar window. For more information, see Appbar Notification Messages.
+An application must register an appbar (that is, add it to the internal list) before it can receive appbar services from the system. To register an appbar, an application sends the [**ABM\_NEW**](abm-new.md) message. The accompanying [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure includes the handle to the appbar's window and an application-defined message identifier. The system uses the message identifier to send notification messages to the window procedure of the appbar window. For more information, see Appbar Notification Messages.
 
 An application unregisters an appbar by sending the [**ABM\_REMOVE**](abm-remove.md) message. Unregistering an appbar removes it from the system's internal list of appbars. The system no longer sends notification messages to the appbar or prevents other applications from using the screen area used by the appbar. An application should always send **ABM\_REMOVE** before destroying an appbar.
 

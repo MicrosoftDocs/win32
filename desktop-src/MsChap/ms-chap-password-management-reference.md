@@ -1,7 +1,12 @@
 ---
 title: MS-CHAP Password Management Reference
 description: The MS-CHAP Password Management API uses the elements that are described in the following sections.
-ms.assetid: '17208f5d-cd1f-4a4b-914a-78f02cd69c3e'
+ms.assetid: 17208f5d-cd1f-4a4b-914a-78f02cd69c3e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MS-CHAP Password Management Reference

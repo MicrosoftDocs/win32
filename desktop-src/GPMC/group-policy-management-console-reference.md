@@ -4,11 +4,15 @@ description: Group Policy Management Console Reference
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1e3249c1-cc4f-44d2-b135-c996a340881b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 1e3249c1-cc4f-44d2-b135-c996a340881b
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["Group Policy Management Console, reference"]
+keywords:
+- Group Policy Management Console, reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Policy Management Console Reference

@@ -1,8 +1,20 @@
 ---
 title: Text Services Framework Return Values
 description: Text Services Framework Return Values
-ms.assetid: '691d615f-3656-4ff9-b624-0570e03ce939'
-keywords: ["Text Services Framework (TSF),return values", "TSF (Text Services Framework),return values", "TSF reference,return values", "reference for TSF,return values", "text services,return values", "TSF-enabled applications,return values", "return values"]
+ms.assetid: 691d615f-3656-4ff9-b624-0570e03ce939
+keywords:
+- Text Services Framework (TSF),return values
+- TSF (Text Services Framework),return values
+- TSF reference,return values
+- reference for TSF,return values
+- text services,return values
+- TSF-enabled applications,return values
+- return values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Services Framework Return Values

@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_ClusterClusterSetting association WMI class assoc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1bc9fbc2-321e-411c-94dc-e53200267605'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1bc9fbc2-321e-411c-94dc-e53200267605
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_ClusterClusterSetting class", "MicrosoftNLB_ClusterClusterSetting class, described"]
+keywords:
+- MicrosoftNLB_ClusterClusterSetting class
+- MicrosoftNLB_ClusterClusterSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_ClusterClusterSetting class
@@ -36,7 +41,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MicrosoftNLB_ClusterClusterSetting : CIM_ElementSetting
 {
   MicrosoftNLB_ClusterSetting REF Setting;
-  MicrosoftNLB_Cluster        REF Element;
+  MicrosoftNLB_Cluster        REF Element;
 };
 ```
 
@@ -95,7 +100,7 @@ The **MicrosoftNLB\_ClusterClusterSetting** class is derived from the [**CIM\_El
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The **MicrosoftNLB\_ClusterClusterSetting** class is derived from the [**CIM\_El
 [**MicrosoftNLB\_ClusterSetting**](microsoftnlb-clustersetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

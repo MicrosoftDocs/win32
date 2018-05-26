@@ -1,7 +1,12 @@
 ---
-Description: 'Developers creating applications for the Tablet PC are able to take advantage of input scope and context information.'
-ms.assetid: '74e4e4b2-6ceb-4044-84df-2fff0788267a'
+Description: Developers creating applications for the Tablet PC are able to take advantage of input scope and context information.
+ms.assetid: 74e4e4b2-6ceb-4044-84df-2fff0788267a
 title: How the Tablet PC Platform Uses Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the Tablet PC Platform Uses Context
@@ -9,7 +14,7 @@ title: How the Tablet PC Platform Uses Context
 Developers creating applications for the Tablet PC are able to take advantage of input scope and context information. The best possible solutions for setting context information on controls in applications depend on whether the control is ink enabled and whether the application has been released to market. An ink-enabled control is one that has been specifically designed for ink input and in which the ink data is primarily collected and persisted as ink. Examples of ink-enabled applications are Microsoft Windows Journal or a sketching program. In a control that is not ink enabled, input data is collected and persisted as text, typically by using Tablet PC Input Panel when the application is run on a Tablet PC. The solutions for enabling context information within controls are:
 
 -   The [SetInputScope](SetInputScope) APIs: A low-level programmatic solution for non ink-enabled applications and controls. The binaries for the application are impacted and must be redistributed.
--   The [**RecognizerContext**](inkrecognizercontext-class.md) object's [**Factoid**](inkrecognizercontext-factoid.md) and [**WordList**](inkrecognizercontext-wordlist.md) properties: A programmatic solution for applications with controls that are ink enabled. The binaries for the application are impacted and must be redistributed.
+-   The [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object's [**Factoid**](/windows/win32/msinkaut/?branch=master) and [**WordList**](/windows/win32/msinkaut/?branch=master) properties: A programmatic solution for applications with controls that are ink enabled. The binaries for the application are impacted and must be redistributed.
 
 The Tablet PC Input Panel has been updated starting with Windows Vista to take advantage of context information that you provide when using the [SetInputScope](SetInputScope) APIs. The following table provides details on which Microsoft recognition engines support which input scopes. An "X" in the row for an input scope indicates the recognizer in that column supports the input scope.
 
@@ -68,9 +73,9 @@ The Tablet PC Input Panel has been updated starting with Windows Vista to take a
 
 
 
- 
+ 
 
-When using the [SetInputScope](SetInputScope) APIs or the [**RecognizerContext**](inkrecognizercontext-class.md) object's [**Factoid**](inkrecognizercontext-factoid.md) property to set context, attempting to set an input scope for a language that is not supported by that language's recognizer causes Tablet PC Input Panel to use the default language model as the context for the control. For example, the **IS\_ADDRESS\_STATEORPROVINCE** input scope is not supported by the French recognizer. If you set context on a field as
+When using the [SetInputScope](SetInputScope) APIs or the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object's [**Factoid**](/windows/win32/msinkaut/?branch=master) property to set context, attempting to set an input scope for a language that is not supported by that language's recognizer causes Tablet PC Input Panel to use the default language model as the context for the control. For example, the **IS\_ADDRESS\_STATEORPROVINCE** input scope is not supported by the French recognizer. If you set context on a field as
 
 `(!IS_ADDRESS_STATEORPROVINCE)|(!IS_ADDRESS_POSTALCODE)`
 
@@ -83,9 +88,9 @@ when using the French recognizer, the resulting context is the default language 
 [InputScope Enumeration](_tsf_InputScope_ref)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

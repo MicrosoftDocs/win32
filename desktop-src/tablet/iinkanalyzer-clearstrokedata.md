@@ -1,7 +1,12 @@
 ---
-Description: 'Clears stroke packet data from the IInkAnalyzer.'
-ms.assetid: 'c87a1e73-5e3f-4d27-93e9-e30d9ec5d9e3'
-title: 'IInkAnalyzer::ClearStrokeData method'
+Description: Clears stroke packet data from the IInkAnalyzer.
+ms.assetid: c87a1e73-5e3f-4d27-93e9-e30d9ec5d9e3
+title: IInkAnalyzerClearStrokeData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::ClearStrokeData method
@@ -13,7 +18,7 @@ Clears stroke packet data from the [**IInkAnalyzer**](iinkanalyzer.md).
 
 ```C++
 HRESULT ClearStrokeData(
-  [in] LONG lStrokeId
+  [in] LONG lStrokeId
 );
 ```
 
@@ -44,7 +49,7 @@ Use this method when packet data for a stroke changes, such as when a stroke is 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -64,9 +69,9 @@ Use this method when packet data for a stroke changes, such as when a stroke is 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

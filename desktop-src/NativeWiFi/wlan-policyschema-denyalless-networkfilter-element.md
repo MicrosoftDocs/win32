@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies if access to all infrastructure networks is blocked.'
-ms.assetid: 'd57ae27c-3cd3-4e53-b5c9-cd3cbb91289b'
-title: 'denyAllESS (networkFilter) Element'
+---
+Description: Specifies if access to all infrastructure networks is blocked.
+ms.assetid: d57ae27c-3cd3-4e53-b5c9-cd3cbb91289b
+title: denyAllESS (networkFilter) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # denyAllESS (networkFilter) Element

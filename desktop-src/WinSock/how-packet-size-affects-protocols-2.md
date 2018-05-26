@@ -1,7 +1,12 @@
 ---
-Description: 'Media packet size issues discussed in the topic, About Media Packet Size, affect the various PF\_IPX protocols differently.'
-ms.assetid: '7f0643b8-6bb2-4dbb-b306-d9b2e0d0e03c'
+Description: Media packet size issues discussed in the topic, About Media Packet Size, affect the various PF\_IPX protocols differently.
+ms.assetid: 7f0643b8-6bb2-4dbb-b306-d9b2e0d0e03c
 title: How Packet Size Affects Protocols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Packet Size Affects Protocols
@@ -22,7 +27,7 @@ Provides a datagram service; each datagram must reside within the maximum packet
 <span id="NSPROTO_SPX"></span><span id="nsproto_spx"></span>NSPROTO\_SPX
 </dt> <dd>
 
-Provides stream and sequenced-packet services. Winsock IPX/SPX lets data streams and messages span multiple packets, so packet size does not limit the amount of data handled by [**send**](send-2.md) and [**recv**](recv-2.md). However, the underlying media size must be set correctly or the first large packet will be undeliverable and the connection will reset. If the target station is on the local network, Winsock sets its packet size to the media packet size. Otherwise, it defaults to 512 bytes. This size can be changed immediately after [**connect**](connect-2.md) or [**accept**](accept-2.md) through [**setsockopt**](setsockopt-2.md).
+Provides stream and sequenced-packet services. Winsock IPX/SPX lets data streams and messages span multiple packets, so packet size does not limit the amount of data handled by [**send**](/windows/win32/Winsock2/nf-winsock2-send?branch=master) and [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master). However, the underlying media size must be set correctly or the first large packet will be undeliverable and the connection will reset. If the target station is on the local network, Winsock sets its packet size to the media packet size. Otherwise, it defaults to 512 bytes. This size can be changed immediately after [**connect**](/windows/win32/Winsock2/nf-winsock2-connect?branch=master) or [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master) through [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master).
 
 </dd> <dt>
 

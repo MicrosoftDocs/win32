@@ -1,8 +1,9 @@
 ---
 title: EM\_GETSELTEXT message
 description: Retrieves the currently selected text in a rich edit control.
-ms.assetid: '56af77c3-f2d7-4b5d-895f-a67c141459e3'
-keywords: ["EM_GETSELTEXT message Windows Controls"]
+ms.assetid: 56af77c3-f2d7-4b5d-895f-a67c141459e3
+keywords:
+- EM_GETSELTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETSELTEXT message
@@ -45,15 +51,15 @@ This message returns the number of characters copied, not including the terminat
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

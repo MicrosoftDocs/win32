@@ -1,7 +1,12 @@
 ---
 title: ISAPIHTXErrorFile
 description: ISAPIHTXErrorFile
-ms.assetid: '1e1e80a9-18e3-4eed-854a-4d6eee51a563'
+ms.assetid: 1e1e80a9-18e3-4eed-854a-4d6eee51a563
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISAPIHTXErrorFile

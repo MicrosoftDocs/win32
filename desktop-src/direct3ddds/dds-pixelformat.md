@@ -1,8 +1,9 @@
 ---
 title: DDS\_PIXELFORMAT structure
 description: Surface pixel format.
-ms.assetid: '39c5e48d-cf20-4d77-80d5-a67f04de4883'
-keywords: ["DDS_PIXELFORMAT structure DDS"]
+ms.assetid: 39c5e48d-cf20-4d77-80d5-a67f04de4883
+keywords:
+- DDS_PIXELFORMAT structure DDS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS\_PIXELFORMAT structure
@@ -72,7 +78,7 @@ Values which indicate what type of data is in the surface.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -165,9 +171,9 @@ Note that there are non-standard variants of DDS files where **dwFlags** has DDP
 [Reference for DDS](dx-graphics-dds-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

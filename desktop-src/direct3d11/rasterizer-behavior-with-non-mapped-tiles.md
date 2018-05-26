@@ -1,7 +1,12 @@
 ---
 title: Rasterizer behavior with non-mapped tiles
 description: This section describes rasterizer behavior with non-mapped tiles.
-ms.assetid: '3477A621-7051-4585-AB58-523EE64CDC5C'
+ms.assetid: 3477A621-7051-4585-AB58-523EE64CDC5C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rasterizer behavior with non-mapped tiles

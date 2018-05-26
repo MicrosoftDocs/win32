@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMessages method gets a new iterator (archive cursor) for the archive of inbound fax messages.'
-ms.assetid: '84d5aeb3-7ba2-4978-be08-82140ba75e97'
-title: 'FaxIncomingArchive.GetMessages method'
+---
+Description: The GetMessages method gets a new iterator (archive cursor) for the archive of inbound fax messages.
+ms.assetid: 84d5aeb3-7ba2-4978-be08-82140ba75e97
+title: FaxIncomingArchive.GetMessages method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.GetMessages method
@@ -34,13 +39,13 @@ Type: **Long**
 
 ## Return value
 
-Type: **[**IFaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator-cpp.md)\*\***
+Type: **[**IFaxIncomingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessageiterator?branch=master)\*\***
 
 A [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -68,7 +73,7 @@ To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](-mfax-f
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

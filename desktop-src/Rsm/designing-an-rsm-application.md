@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe how to design an RSM application. You should read it before you make decisions about how to use RSM in your application.'
-ms.assetid: '61e6de17-a590-45a6-9f74-66bd6aaf62ec'
+Description: The following topics describe how to design an RSM application. You should read it before you make decisions about how to use RSM in your application.
+ms.assetid: 61e6de17-a590-45a6-9f74-66bd6aaf62ec
 title: Designing an RSM Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing an RSM Application

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the display name used to identify a given key protector.'
-ms.assetid: '2f310494-7873-4d05-836e-f09e5784571b'
-title: 'GetKeyProtectorFriendlyName method of the Win32\_EncryptableVolume class'
+---
+Description: Retrieves the display name used to identify a given key protector.
+ms.assetid: 2f310494-7873-4d05-836e-f09e5784571b
+title: GetKeyProtectorFriendlyName method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetKeyProtectorFriendlyName method of the Win32\_EncryptableVolume class

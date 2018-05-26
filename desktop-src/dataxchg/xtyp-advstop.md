@@ -1,8 +1,9 @@
 ---
 title: XTYP\_ADVSTOP transaction
 description: A client uses the XTYP\_ADVSTOP transaction to end an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, DdeCallback, receives this transaction when a client specifies XTYP\_ADVSTOP in the DdeClientTransaction function.
-ms.assetid: '67dfa463-6a44-43a5-93be-a39c19c87c1c'
-keywords: ["XTYP_ADVSTOP transaction Data Exchange"]
+ms.assetid: 67dfa463-6a44-43a5-93be-a39c19c87c1c
+keywords:
+- XTYP_ADVSTOP transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_ADVSTOP transaction
 
-A client uses the **XTYP\_ADVSTOP** transaction to end an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_ADVSTOP** in the [**DdeClientTransaction**](ddeclienttransaction.md) function.
+A client uses the **XTYP\_ADVSTOP** transaction to end an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_ADVSTOP** in the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function.
 
 
 ```C++
@@ -87,7 +93,7 @@ Not used.
 
 ## Remarks
 
-This transaction is filtered if the server application specified the **CBF\_FAIL\_ADVISES** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_FAIL\_ADVISES** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 ## Requirements
 
@@ -95,8 +101,8 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -108,13 +114,13 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 **Reference**
 </dt> <dt>
 
-[**DdeClientTransaction**](ddeclienttransaction.md)
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**DdePostAdvise**](ddepostadvise.md)
+[**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -123,9 +129,9 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

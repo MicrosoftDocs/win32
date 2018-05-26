@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses the details of eventing when using the ink analysis data proxy features.'
-ms.assetid: '837867a4-7cda-41b0-b20d-eec9a3a7fb86'
+Description: This topic discusses the details of eventing when using the ink analysis data proxy features.
+ms.assetid: 837867a4-7cda-41b0-b20d-eec9a3a7fb86
 title: Data Proxy Event Flow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Proxy Event Flow
@@ -42,7 +47,7 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
 ### Deleting a Stroke
 
@@ -56,7 +61,7 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
 ### Calling the BackgroundAnalyze method
 
@@ -69,7 +74,7 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
 ### After the Call to BackgroundAnalyze() returns
 
@@ -82,7 +87,7 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
 ### When IntermediateResults are ready
 
@@ -105,7 +110,7 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
 ### After IntermediateResults have been handled
 
@@ -118,7 +123,7 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
 ### When final Results are ready
 
@@ -141,11 +146,11 @@ The tables below describe when the tree modification events are raised throughou
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

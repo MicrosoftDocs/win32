@@ -1,12 +1,17 @@
 ---
 Description: Setting Deinterlace Preferences
-ms.assetid: '31d59f17-552b-46d1-89e4-751216f54280'
+ms.assetid: 31d59f17-552b-46d1-89e4-751216f54280
 title: Setting Deinterlace Preferences
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Deinterlace Preferences
 
-The Video Mixing Renderer (VMR) supports hardware-accelerated deinterlacing, which improves rendering quality for interlaced video. The exact features that are available depend on the underlying hardware. The application can query for the hardware deinterlacing capabilities and set deinterlacing preferences through the [**IVMRDeinterlaceControl**](ivmrdeinterlacecontrol.md) interface (VMR-7) or [**IVMRDeinterlaceControl9**](ivmrdeinterlacecontrol9.md) interface (VMR-9). Deinterlacing is performed on a per-stream basis.
+The Video Mixing Renderer (VMR) supports hardware-accelerated deinterlacing, which improves rendering quality for interlaced video. The exact features that are available depend on the underlying hardware. The application can query for the hardware deinterlacing capabilities and set deinterlacing preferences through the [**IVMRDeinterlaceControl**](/windows/win32/Strmif/nn-strmif-ivmrdeinterlacecontrol?branch=master) interface (VMR-7) or [**IVMRDeinterlaceControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9?branch=master) interface (VMR-9). Deinterlacing is performed on a per-stream basis.
 
 There is one important difference in interlacing behavior between the VMR-7 and the VMR-9. On systems where the graphics hardware doesn't support advanced deinterlacing, the VMR-7 can fall back to the hardware overlay and instruct it to use a BOB style deinterlace. In this case, although the VMR is reporting 30fps the video is actually being rendered at 60 flips per second.
 
@@ -19,9 +24,9 @@ Except in the case of the VMR-7 using hardware overlay, deinterlacing is perform
 
 To get the deinterlacing capabilities for a video stream, do the following:
 
-1.  Fill in a [**VMR9VideoDesc**](vmr9videodesc.md) structure with a description of the video stream. Details of how to fill in this structure are given later.
-2.  Pass the structure to the [**IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes**](ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes.md) method. Call the method twice. The first call returns the number of deinterlace modes the hardware supports for the specified format. Allocate an array of GUIDs of this size, and call the method again, passing in the address of the array. The second call fills the array with GUIDs. Each GUID identifies one deinterlacing mode.
-3.  To get the capabiltiies of a particular mode, call the [**IVMRDeinterlaceControl9::GetDeinterlaceModeCaps**](ivmrdeinterlacecontrol9-getdeinterlacemodecaps.md) method. Pass in the same **VMR9VideoDesc** structure, along with one of the GUIDs from the array. The method fills a [**VMR9DeinterlaceCaps**](vmr9deinterlacecaps.md) structure with the mode capabilities.
+1.  Fill in a [**VMR9VideoDesc**](/windows/win32/Vmr9/ns-vmr9-_vmr9videodesc?branch=master) structure with a description of the video stream. Details of how to fill in this structure are given later.
+2.  Pass the structure to the [**IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes**](/windows/win32/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes?branch=master) method. Call the method twice. The first call returns the number of deinterlace modes the hardware supports for the specified format. Allocate an array of GUIDs of this size, and call the method again, passing in the address of the array. The second call fills the array with GUIDs. Each GUID identifies one deinterlacing mode.
+3.  To get the capabiltiies of a particular mode, call the [**IVMRDeinterlaceControl9::GetDeinterlaceModeCaps**](/windows/win32/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps?branch=master) method. Pass in the same **VMR9VideoDesc** structure, along with one of the GUIDs from the array. The method fills a [**VMR9DeinterlaceCaps**](/windows/win32/Vmr9/ns-vmr9-_vmr9deinterlacecaps?branch=master) structure with the mode capabilities.
 
 The following code shows these steps:
 
@@ -64,23 +69,23 @@ if (SUCCEEDED(hr) &amp;&amp; (dwNumModes != 0))
 
 Now the application can set the deinterlacing mode for the stream, using the following methods:
 
--   The [**SetDeinterlaceMode**](ivmrdeinterlacecontrol9-setdeinterlacemode.md) method sets the preferred mode. Use GUID\_NULL to turn off deinterlacing.
--   The [**SetDeinterlacePrefs**](ivmrdeinterlacecontrol9-setdeinterlaceprefs.md) method specifies the behavior if the requested mode is not available.
--   The [**GetDeinterlaceMode**](ivmrdeinterlacecontrol9-getdeinterlacemode.md) method returns the preferred mode that you set.
--   The [**GetActualDeinterlaceMode**](ivmrdeinterlacecontrol9-getactualdeinterlacemode.md) method returns the actual mode in use, which might be a fallback mode, if the preferred mode is not available.
+-   The [**SetDeinterlaceMode**](/windows/win32/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlacemode?branch=master) method sets the preferred mode. Use GUID\_NULL to turn off deinterlacing.
+-   The [**SetDeinterlacePrefs**](/windows/win32/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlaceprefs?branch=master) method specifies the behavior if the requested mode is not available.
+-   The [**GetDeinterlaceMode**](/windows/win32/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemode?branch=master) method returns the preferred mode that you set.
+-   The [**GetActualDeinterlaceMode**](/windows/win32/Vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getactualdeinterlacemode?branch=master) method returns the actual mode in use, which might be a fallback mode, if the preferred mode is not available.
 
 The method reference pages give more information.
 
 **Using the VMR9VideoDesc Structure**
 
-In the procedure given previously, the first step is to fill in a **VMR9VideoDesc** structure with a description of the video stream. Start by getting the media type of the video stream. You can do this by calling [**IPin::ConnectionMediaType**](ipin-connectionmediatype.md) on the VMR filter's input pin. Then confirm whether the video stream is interlaced. Only [**VIDEOINFOHEADER2**](videoinfoheader2.md) formats can be interlaced. If the format type is FORMAT\_VideoInfo, it must be a progressive frame. If the format type is FORMAT\_VideoInfo2, check the **dwInterlaceFlags** field for the AMINTERLACE\_IsInterlaced flag. The presence of this flag indicates the video is interlaced.
+In the procedure given previously, the first step is to fill in a **VMR9VideoDesc** structure with a description of the video stream. Start by getting the media type of the video stream. You can do this by calling [**IPin::ConnectionMediaType**](/windows/win32/Strmif/nf-strmif-ipin-connectionmediatype?branch=master) on the VMR filter's input pin. Then confirm whether the video stream is interlaced. Only [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) formats can be interlaced. If the format type is FORMAT\_VideoInfo, it must be a progressive frame. If the format type is FORMAT\_VideoInfo2, check the **dwInterlaceFlags** field for the AMINTERLACE\_IsInterlaced flag. The presence of this flag indicates the video is interlaced.
 
-Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure in the format block. Set the following values in the **VMR9VideoDesc** structure:
+Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure in the format block. Set the following values in the **VMR9VideoDesc** structure:
 
 -   **dwSize**: Set this field to `sizeof(VMR9VideoDesc)`.
 -   **dwSampleWidth**: Set this field to `pBMI->biWidth`.
 -   **dwSampleHeight**: Set this field to `abs(pBMI->biHeight)`.
--   **SampleFormat**: This field describes the interlace characteristics of the media type. Check the **dwInterlaceFlags** field in the **VIDEOINFOHEADER2** structure, and set **SampleFormat** equal to the equivalent [**VMR9\_SampleFormat**](vmr9-sampleformat.md) flag. A helper function to do this is given below.
+-   **SampleFormat**: This field describes the interlace characteristics of the media type. Check the **dwInterlaceFlags** field in the **VIDEOINFOHEADER2** structure, and set **SampleFormat** equal to the equivalent [**VMR9\_SampleFormat**](/windows/win32/Vmr9/ne-vmr9-_vmr9_sampleformat?branch=master) flag. A helper function to do this is given below.
 -   **InputSampleFreq**: This field gives the input frequency, which can be calculated from the **AvgTimePerFrame** field in the **VIDEOINFOHEADER2** structure. In the general case, set **dwNumerator** to 10000000, and set **dwDenominator** to **AvgTimePerFrame**. However, you can also check for some well-known frame rates:
 
     | Average time per frame | Frame rate (fps) | Numerator | Denominator |
@@ -101,7 +106,7 @@ Assume that the variable **pBMI** is a pointer to the [**BITMAPINFOHEADER**](bit
     -   If the input video is interleaved, set **OutputFrameFreq.dwNumerator** to 2 x **InputSampleFreq.dwNumerator**. (After deinterlacing, the frame rate is doubled.) Otherwise, set the value to **InputSampleFreq.dwNumerator**.
 -   **dwFourCC**: Set this field to `pBMI->biCompression`.
 
-The following helper function converts AMINTERLACE\_*X* flags to [**VMR9\_SampleFormat**](vmr9-sampleformat.md) values:
+The following helper function converts AMINTERLACE\_*X* flags to [**VMR9\_SampleFormat**](/windows/win32/Vmr9/ne-vmr9-_vmr9_sampleformat?branch=master) values:
 
 
 ```C++

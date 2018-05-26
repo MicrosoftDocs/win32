@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::MemoryUsage method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in''s IPrintOemUni::ImageProcessing method.'
-ms.assetid: 'bdf9c43d-d747-40e8-86ba-976f3f6a19d6'
-title: 'IPrintOemUni::MemoryUsage method'
+---
+Description: The IPrintOemUniMemoryUsage method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-ins IPrintOemUniImageProcessing method.
+ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
+title: IPrintOemUniMemoryUsage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::MemoryUsage method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sampler states define texture sampling operations such as texture addressing and texture filtering.'
-ms.assetid: '03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0'
+---
+Description: Sampler states define texture sampling operations such as texture addressing and texture filtering.
+ms.assetid: 03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0
 title: D3DSAMPLERSTATETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSAMPLERSTATETYPE enumeration
@@ -102,7 +107,7 @@ level-of-detail index of largest map to use. Values range from 0 to (n - 1) wher
 <span id="D3DSAMP_MAXANISOTROPY"></span><span id="d3dsamp_maxanisotropy"></span>**D3DSAMP\_MAXANISOTROPY**
 </dt> <dd>
 
-DWORD maximum anisotropy. Values range from 1 to the value that is specified in the **MaxAnisotropy** member of the [**D3DCAPS9**](d3dcaps9.md) structure. The default value is 1.
+DWORD maximum anisotropy. Values range from 1 to the value that is specified in the **MaxAnisotropy** member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure. The default value is 1.
 
 </dd> <dt>
 

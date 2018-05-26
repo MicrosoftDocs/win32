@@ -4,11 +4,14 @@ description: Adds target ports to a storage group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aff3c334-3e20-4253-92f6-78f217cf4414'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: aff3c334-3e20-4253-92f6-78f217cf4414
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddTargetPorts method", "AddTargetPorts method, MSFT_SMStorageGroup class", "MSFT_SMStorageGroup class, AddTargetPorts method"]
+keywords:
+- AddTargetPorts method
+- AddTargetPorts method, MSFT_SMStorageGroup class
+- MSFT_SMStorageGroup class, AddTargetPorts method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddTargetPorts method of the MSFT\_SMStorageGroup class
@@ -28,11 +34,11 @@ Adds target ports to a storage group.
 
 ```mof
 Uint32 AddTargetPorts(
-  [in]            String                TargetPortIDs[],
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                TargetPortIDs[],
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -68,7 +74,7 @@ The username used to authenticate with the SMI-S provider. If this value is not 
 
 A reference to the [**MSFT\_SMJob**](msft-smjob.md) instance. May be **NULL** if the job is completed.
 
-**Windows Server 2012:** This parameter is not supported.
+**Windows Server 2012:** This parameter is not supported.
 
 </dd> <dt>
 
@@ -249,7 +255,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -263,9 +269,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageGroup**](msft-smstoragegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

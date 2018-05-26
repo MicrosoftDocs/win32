@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a394e8fe-ae64-4dc2-8a18-30a58edd1340'
-title: 'System.Contact.HomeAddress2Locality'
+Description: .
+ms.assetid: a394e8fe-ae64-4dc2-8a18-30a58edd1340
+title: System.Contact.HomeAddress2Locality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress2Locality

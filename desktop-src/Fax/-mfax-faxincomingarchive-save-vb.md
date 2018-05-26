@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves the FaxIncomingArchive object''s data.'
-ms.assetid: '4e0a48c6-4a29-4646-9242-eb8b73d85342'
-title: 'FaxIncomingArchive.Save method'
+---
+Description: Saves the FaxIncomingArchive objects data.
+ms.assetid: 4e0a48c6-4a29-4646-9242-eb8b73d85342
+title: FaxIncomingArchive.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.Save method
@@ -32,7 +37,7 @@ This method does not return a value.
 
  
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) and [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -56,7 +61,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

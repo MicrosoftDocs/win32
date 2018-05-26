@@ -1,15 +1,18 @@
 ---
-Description: 'Uncompresses the logical data file (or directory) that is specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.'
+Description: Uncompresses the logical data file (or directory) that is specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '30b62930-1d4a-47c0-8b57-b460edb5dbd0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 30b62930-1d4a-47c0-8b57-b460edb5dbd0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'UncompressEx method of the CIM\_DataFile class'
+title: UncompressEx method of the CIM\_DataFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UncompressEx method of the CIM\_DataFile class
@@ -19,7 +22,7 @@ The **UncompressEx** method uncompresses the logical data file (or directory) th
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,9 +31,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 UncompressEx(
-  [out] string  StopFileName,
-  [in]  string  StartFileName,
-  [in]  boolean Recursive
+  [out] string  StopFileName,
+  [in]  string  StartFileName,
+  [in]  boolean Recursive
 );
 ```
 
@@ -172,8 +175,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -196,9 +199,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**File and Directory Access Rights Constants**](https://msdn.microsoft.com/library/aa822867)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

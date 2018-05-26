@@ -1,14 +1,19 @@
 ---
 title: Theme File Format
 description: This document discusses the format of Theme (.theme) files. A .theme file is a .ini text file that is divided into sections, which specify visual elements that appear on a Windows desktop. Section names are wrapped in brackets (\ \ ) in the .ini file.
-ms.assetid: '0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8'
+ms.assetid: 0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Theme File Format
 
 This document discusses the format of Theme (.theme) files. A .theme file is a .ini text file that is divided into sections, which specify visual elements that appear on a Windows desktop. Section names are wrapped in brackets (\[\]) in the .ini file.
 
-A new file format, .themepack, was introduced with Windows 7 to help users share themes. Themes can be selected in the Personalization Control Panel only in Windows 7 Home Premium or higher, or only on Windows Server 2008 R2 when the Desktop component is installed.
+A new file format, .themepack, was introduced with Windows 7 to help users share themes. Themes can be selected in the Personalization Control Panel only in Windows 7 Home Premium or higher, or only on Windows Server 2008 R2 when the Desktop component is installed.
 
 The following topics are discussed in this article.
 
@@ -47,7 +52,7 @@ Theme files have a number of required and optional sections. The following descr
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, the system uses default settings.
 
- 
+ 
 
 The \[Theme\] section identifies the name of your custom theme and specifies your theme's brand logo and desktop icons.
 
@@ -58,11 +63,11 @@ The first part of the \[Theme\] section contains the following two elements:
 | Element                                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DisplayName=name<br/> or<br/> DisplayName=@module,-stringId<br/> example: DisplayName=@themeui.dll,-2013 | DisplayName is the theme name that will show up in the Personalization Control Panel. It can be a string or a reference to a localized name.<br/> This field is optional. If it is missing, the theme filename is used as the theme name.<br/>                                                                                                                                                                                                                                         |
-| BrandImage=path to image<br/> example: BrandImage=c:\\Fabrikam\\brand.png<br/>                                 | **Windows 7 and later**BrandImage specifies the path to a branded graphic file that is incorporated in the theme preview in the Personalization Control Panel.<br/> The icon graphic must be a PNG file. The graphic is scaled to 80x240 pixels, so it is recommended that you provide an image of that size. The Theme gallery respects the transparent regions of your brand icon.<br/> This field is optional. If it is missing, no logo is displayed as the theme icon.<br/> |
+| BrandImage=path to image<br/> example: BrandImage=c:\\Fabrikam\\brand.png<br/>                                 | **Windows 7 and later**BrandImage specifies the path to a branded graphic file that is incorporated in the theme preview in the Personalization Control Panel.<br/> The icon graphic must be a PNG file. The graphic is scaled to 80x240 pixels, so it is recommended that you provide an image of that size. The Theme gallery respects the transparent regions of your brand icon.<br/> This field is optional. If it is missing, no logo is displayed as the theme icon.<br/> |
 
 
 
- 
+ 
 
 The rest of the \[Theme\] section specifies custom icons for desktop features like Computer, My Documents, Network, and Recycle Bin. If you do not specify custom desktop icons, the desktop displays the system default desktop icons.
 
@@ -85,7 +90,7 @@ DefaultValue=%ProgramFiles%\Fabrikam\MyApp.exe,0
 
 
 
-The following are values for the default desktop icons in Windows 7.
+The following are values for the default desktop icons in Windows 7.
 
 
 ```
@@ -114,9 +119,9 @@ Empty=%SystemRoot%\System32\imageres.dll,-55
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, the system uses default settings. If your theme uses the Aero visual style, you should avoid overriding the default values in this section.
 
- 
+ 
 
-The color of elements, such as scroll bars, text, and buttons, are customizable. The .theme file specifies the RGB values to change for these elements. The values override the default values of the visual style and are used when your theme is based on Windows Classic, Windows 7 Basic, or High Contrast themes.
+The color of elements, such as scroll bars, text, and buttons, are customizable. The .theme file specifies the RGB values to change for these elements. The values override the default values of the visual style and are used when your theme is based on Windows Classic, Windows 7 Basic, or High Contrast themes.
 
 Following is an example of how colors are set.
 
@@ -159,7 +164,7 @@ GradientInactiveTitle=192 192 192
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, the system uses default cursors.
 
- 
+ 
 
 A theme can also change the appearance of cursors. To do so, you create .cur files to replace the default Windows cursors. The following example is from a .theme file that defines the cursors for a theme called *Sports*.
 
@@ -190,7 +195,7 @@ DefaultValue=Windows default
 > [!Note]  
 > This section is required. If you do not include this section in your .theme file, the system ignores your Theme and does not display the Theme in Control Panel.
 
- 
+ 
 
 You can create a custom desktop background and specify a path to the image file. The following example shows how to modify the desktop appearance.
 
@@ -218,12 +223,12 @@ WallpaperStyle=2
 
 ### \[Slideshow\] Section
 
-**Windows 7 and later.**
+**Windows 7 and later.**
 
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, the system uses the desktop background image specified in the \[Control Panel\\Desktop\] section. If you include this section, you must specify slide show settings here.
 
- 
+ 
 
 Your theme's background can be a slide show either of images stored locally or of images served by an RSS feed. The \[Slideshow\] section of the file contains the following attributes:
 
@@ -276,7 +281,7 @@ You cannot specify both an RSSFeed and ImagesRootPath.
 
 
 
- 
+ 
 
 The following examples show how a .theme file specifies the slide show to include a set of images stored locally.
 
@@ -362,7 +367,7 @@ MTSM=DABJDKT
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, the system uses default visual style settings.
 
- 
+ 
 
 You can specify system metrics in a .theme file. System metrics are the dimensions of various display elements, such as the window border width, icon height, or scroll bar width. The NonclientMetrics and IconMetrics values are binary structures defined by NONCLIENTMETRICS and ICONMETRICS in winuser.h. Following is an example of how to change system metrics.
 
@@ -400,7 +405,7 @@ NonclientMetrics=84 1 0 0 1 0 0 0 16 0 0 0 16 0 0 0 18
 > [!Note]  
 > This section is required. If you do not include this section in your .theme file, the system ignores your Theme and does not display the Theme in Control Panel.
 
- 
+ 
 
 You can supply specific information concerning the size and color of desktop elements in .msstyles files. The color and size sections of .theme files can be replaced by .msstyles files which enable you to modify desktop elements in more detail. These files are specified in the visual styles section of a .theme file. Following is an example of a visual styles section.
 
@@ -416,9 +421,9 @@ Size=NormalSize
 
 Adding a Path element to a .msstyles file is optional. If you supply a path, you should remove the metrics and color sections from the .theme file. When these sections are removed, the colors, fonts, and sizes for a theme come from the .msstyles file and match the .msstyles author's intent. Failing to remove the metric and color sections can cause Windows or applications to have drawing problems.
 
-**Windows Vista / Windows 7:** When the path points to Aero.msstyles, you can specify the desired Glass Color, as shown in the following example.
+**Windows Vista / Windows 7:** When the path points to Aero.msstyles, you can specify the desired Glass Color, as shown in the following example.
 
-**Windows 7:** When the path points to Aero.msstyles, you can also specify the desired Transparency value, as shown in the following example.
+**Windows 7:** When the path points to Aero.msstyles, you can also specify the desired Transparency value, as shown in the following example.
 
 
 ```
@@ -434,7 +439,7 @@ Transparency=1
 
 If the ColorizationColor and Transparency values exactly match a system color, the Personalization Control Panel displays the system name for the color. Otherwise, the color is labeled "Custom."
 
-The following shows a VisualStyles section for the Windows 7 Basic theme.
+The following shows a VisualStyles section for the Windows 7 Basic theme.
 
 
 ```
@@ -480,7 +485,7 @@ Transparency=0
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, the system uses default sound settings.
 
- 
+ 
 
 The user can select the **Sound** icon in Control Panel to associate sounds with events that occur in applications. For example, a .wav file can play when an application is opened. A .theme file can specify .wav files to replace the default ones. The following example shows how to do this.
 
@@ -507,7 +512,7 @@ DefaultValue=%WinDir%\media\ding.wav
 
 
 
-**Windows 7 and later:** A sound scheme name can be specified instead of listing each sound separately.
+**Windows 7 and later:** A sound scheme name can be specified instead of listing each sound separately.
 
 
 ```
@@ -525,12 +530,12 @@ The SchemeName value specifies the sound scheme name or the localized sound sche
 > [!Note]  
 > **Screen Savers are deprecated in the Windows 10 Anniversary Update and beyond.**
 
- 
+ 
 
 > [!Note]  
 > This section is optional. If you do not include this section in your .theme file, no screen saver is used.
 
- 
+ 
 
 In the .theme file, you can specify the screen saver for Windows to use. The following example shows this.
 
@@ -547,7 +552,7 @@ SCRNSAVE.EXE=%WinDir%\System32\bubbles.scr
 > [!Note]  
 > This section is required. If you do not include this section in your .theme file, the system ignores your Theme and does not display the Theme in Control Panel.
 
- 
+ 
 
 The master theme selector section of the .theme file should always be included as a tag that indicates the file is valid. You do not have a choice of values for this parameter. The following shows this.
 
@@ -703,7 +708,7 @@ A .theme file has file associations; therefore, theme installer applications can
 
 ## Theme Packs
 
-**Windows 7 and later.** A theme pack is a .cab file that contains not only the .theme file but also the files needed to implement the theme on another computer, such as sound files and images. Users can create theme packs through the Personalization Control Panel.
+**Windows 7 and later.** A theme pack is a .cab file that contains not only the .theme file but also the files needed to implement the theme on another computer, such as sound files and images. Users can create theme packs through the Personalization Control Panel.
 
 Supported file types include the following:
 
@@ -720,7 +725,7 @@ Supported file types include the following:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -729,9 +734,9 @@ Supported file types include the following:
 [Visual Styles Overview](visual-styles-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

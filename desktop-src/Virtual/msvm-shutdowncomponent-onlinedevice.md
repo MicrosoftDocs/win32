@@ -1,8 +1,11 @@
 ---
 title: OnlineDevice method of the Msvm\_ShutdownComponent class
 description: This method is deprecated. Instead, use the RequestStateChange method.
-ms.assetid: '33be6de7-8b8c-4ae5-8d0f-0f9f17fbd834'
-keywords: ["OnlineDevice method Hyper-V", "OnlineDevice method Hyper-V , Msvm_ShutdownComponent class", "Msvm_ShutdownComponent class Hyper-V , OnlineDevice method"]
+ms.assetid: 33be6de7-8b8c-4ae5-8d0f-0f9f17fbd834
+keywords:
+- OnlineDevice method Hyper-V
+- OnlineDevice method Hyper-V , Msvm_ShutdownComponent class
+- Msvm_ShutdownComponent class Hyper-V , OnlineDevice method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnlineDevice method of the Msvm\_ShutdownComponent class
@@ -24,7 +32,7 @@ This method is deprecated. Instead, use the [**RequestStateChange**](virtual-cim
 
 ```mof
 uint32 OnlineDevice(
-  [in] boolean Online
+  [in] boolean Online
 );
 ```
 
@@ -102,9 +110,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

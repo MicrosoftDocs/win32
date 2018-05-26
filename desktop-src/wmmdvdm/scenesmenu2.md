@@ -1,14 +1,20 @@
 ---
 title: ScenesMenu2 element
 description: Defines a menu that has two or fewer scene buttons.
-ms.assetid: 'c01b9f8e-f973-4a65-9ef7-142038130c24'
-keywords: ["ScenesMenu2 element Windows Movie Maker and DVD Maker"]
+ms.assetid: c01b9f8e-f973-4a65-9ef7-142038130c24
+keywords:
+- ScenesMenu2 element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ScenesMenu2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScenesMenu2 element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

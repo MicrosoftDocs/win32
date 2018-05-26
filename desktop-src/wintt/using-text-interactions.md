@@ -1,7 +1,12 @@
 ---
 title: Using Text Interactions
 description: Use text interactions to get text input from the user.
-ms.assetid: '3c85e708-a27a-454e-b361-dc1e0ffedb7e'
+ms.assetid: 3c85e708-a27a-454e-b361-dc1e0ffedb7e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Text Interactions

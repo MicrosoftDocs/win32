@@ -1,7 +1,12 @@
 ---
 title: Diacritics
 description: Diacritics
-ms.assetid: '20884efe-d2dd-4ec8-afe1-f76f336061c5'
+ms.assetid: 20884efe-d2dd-4ec8-afe1-f76f336061c5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diacritics

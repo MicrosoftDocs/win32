@@ -1,8 +1,11 @@
 ---
 title: Assessment GetSupportsAnalyze method
 description: Returns an indicator of whether the assessment supports re-analysis (analysis separate from execution).
-ms.assetid: '2DE64361-5C79-40C3-88B8-D9E2E3379E20'
-keywords: ["GetSupportsAnalyze method Access Execution Engine", "GetSupportsAnalyze method Access Execution Engine , Assessment interface", "Assessment interface Access Execution Engine , GetSupportsAnalyze method"]
+ms.assetid: 2DE64361-5C79-40C3-88B8-D9E2E3379E20
+keywords:
+- GetSupportsAnalyze method Access Execution Engine
+- GetSupportsAnalyze method Access Execution Engine , Assessment interface
+- Assessment interface Access Execution Engine , GetSupportsAnalyze method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assessment::GetSupportsAnalyze method
@@ -22,7 +30,7 @@ Returns an indicator of whether the assessment supports re-analysis (analysis se
 
 ```C++
 virtual HRESULT GetSupportsAnalyze(
-  [out] BOOL *analyze
+  [out] BOOL *analyze
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ The indicator *analyze* is **TRUE** if the assessment supports analyze, and **FA
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The indicator *analyze* is **TRUE** if the assessment supports analyze, and **FA
 [**Assessment**](assessment-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

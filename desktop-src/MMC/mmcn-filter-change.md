@@ -4,11 +4,12 @@ description: The MMCN\_FILTER\_CHANGE notification is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b779f04c-1129-4e05-83c5-fd15ff72f1c2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b779f04c-1129-4e05-83c5-fd15ff72f1c2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_FILTER_CHANGE message MMC"]
+keywords:
+- MMCN_FILTER_CHANGE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_FILTER\_CHANGE message
 
 The **MMCN\_FILTER\_CHANGE** notification is introduced in MMC 1.2.
 
-The **MMCN\_FILTER\_CHANGE** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when the filter value for a filtered result view column has been changed.
+The **MMCN\_FILTER\_CHANGE** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the filter value for a filtered result view column has been changed.
 
 MMC calls [**IComponent::Notify**](icomponent-notify.md) with the **MMCN\_FILTER\_CHANGE** notification as the *event* parameter when filtering has been enabled or disabled, or when the filter value of a particular column has changed.
 
@@ -82,8 +86,8 @@ The snap-in receives an **MMCN\_FILTER\_CHANGE** notification with the *arg* par
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -104,9 +108,9 @@ The snap-in receives an **MMCN\_FILTER\_CHANGE** notification with the *arg* par
 [Adding Filtered Views](adding-filtered-views.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualServer interface
 description: The IVMVirtualServer interface defines the top-level Virtual Server application object.
-ms.assetid: '52aad81c-3331-419a-bb43-5c774582cc65'
-keywords: ["IVMVirtualServer interface Virtual Server", "IVMVirtualServer interface Virtual Server , described"]
+ms.assetid: 52aad81c-3331-419a-bb43-5c774582cc65
+keywords:
+- IVMVirtualServer interface Virtual Server
+- IVMVirtualServer interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - VsComInterfaces.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer interface
@@ -70,7 +77,7 @@ The **IVMVirtualServer** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -123,7 +130,7 @@ The **IVMVirtualServer** interface has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -307,17 +314,17 @@ var vsApp = WScript.CreateObject("VirtualServer.Application");
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 | Library<br/>  | <dl> <dt>VsComInterfaces.lib</dt> </dl>    |
 | IID<br/>      | IID\_IVMVirtualServer is defined as D1E64C50-A25D-450f-BE0B-9CA5A354CFF4<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

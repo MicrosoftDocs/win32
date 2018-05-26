@@ -4,17 +4,21 @@ description: Sets the content file name of the document to be tracked, not inclu
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'B07468C1-A3B7-4A9C-895F-7443C4E5ED05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: B07468C1-A3B7-4A9C-895F-7443C4E5ED05
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata setContentName method"]
+keywords:
+- LicenseMetadata setContentName method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata setContentName method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata setContentName method
@@ -39,7 +43,7 @@ public void setContentName(String contentName);
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,11 +59,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a job and the managed element that created the job.'
-ms.assetid: '08c33a81-0a3f-4545-9812-96a854a7509e'
-title: 'CIM\_OwningJobElement class'
+Description: Represents an association between a job and the managed element that created the job.
+ms.assetid: 08c33a81-0a3f-4545-9812-96a854a7509e
+title: CIM\_OwningJobElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_OwningJobElement class
@@ -15,7 +20,7 @@ Represents an association between a job and the managed element that created the
 class CIM_OwningJobElement
 {
   CIM_ManagedElement REF OwningElement;
-  CIM_Job            REF OwnedElement;
+  CIM_Job            REF OwnedElement;
 };
 ```
 
@@ -69,17 +74,17 @@ A reference to the managed element that created the job.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Iteration GetOrdinal method
 description: Returns the ordinal value of the Iteration.
-ms.assetid: '7F9071CD-E451-4A6C-8DDA-0AE9E38D0D05'
-keywords: ["GetOrdinal method Access Execution Engine", "GetOrdinal method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , GetOrdinal method"]
+ms.assetid: 7F9071CD-E451-4A6C-8DDA-0AE9E38D0D05
+keywords:
+- GetOrdinal method Access Execution Engine
+- GetOrdinal method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , GetOrdinal method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::GetOrdinal method
@@ -22,7 +30,7 @@ Returns the ordinal value of the **Iteration**.
 
 ```C++
 virtual HRESULT GetOrdinal(
-  [out] UINT *ordinal
+  [out] UINT *ordinal
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ The ordinal value is the value of element **Iteration/Ordinal**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The ordinal value is the value of element **Iteration/Ordinal**.
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

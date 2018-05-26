@@ -1,7 +1,12 @@
 ---
-Description: 'The MakeIdentityPalette method attempts to make an &\#0034;identity palette,&\#0034; defined as one that maps directly to the palette selected in the display device.'
-ms.assetid: '08a0cf67-f43f-44c0-bfb3-6527fd434ea4'
-title: 'CImagePalette.MakeIdentityPalette method'
+Description: The MakeIdentityPalette method attempts to make an &\#0034;identity palette,&\#0034; defined as one that maps directly to the palette selected in the display device.
+ms.assetid: 08a0cf67-f43f-44c0-bfb3-6527fd434ea4
+title: CImagePalette.MakeIdentityPalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette.MakeIdentityPalette method
@@ -13,9 +18,9 @@ The `MakeIdentityPalette` method attempts to make an "identity palette," defined
 
 ```C++
 HRESULT MakeIdentityPalette(
-   PALETTEENTRY *pEntry,
-   INT          iColours,
-   LPSTR        szDevice
+   PALETTEENTRY *pEntry,
+   INT          iColours,
+   LPSTR        szDevice
 );
 ```
 
@@ -74,9 +79,9 @@ The [**CImagePalette::MakePalette**](cimagepalette-makepalette.md) method calls 
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

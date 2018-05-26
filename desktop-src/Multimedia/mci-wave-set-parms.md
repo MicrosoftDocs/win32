@@ -1,8 +1,9 @@
 ---
 title: MCI\_WAVE\_SET\_PARMS structure
 description: The MCI\_WAVE\_SET\_PARMS structure contains information for the MCI\_SET command for waveform-audio devices.
-ms.assetid: '24c26124-274f-457e-ab87-887f3bcffce3'
-keywords: ["MCI_WAVE_SET_PARMS structure Windows Multimedia"]
+ms.assetid: 24c26124-274f-457e-ab87-887f3bcffce3
+keywords:
+- MCI_WAVE_SET_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_WAVE\_SET\_PARMS structure
@@ -23,20 +29,20 @@ The **MCI\_WAVE\_SET\_PARMS** structure contains information for the [**MCI\_SET
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  DWORD     dwTimeFormat;
-  DWORD     dwAudio;
-  UINT      wInput;
-  UINT      wOutput;
-  WORD      wFormatTag;
-  WORD      wReserved2;
-  WORD      nChannels;
-  WORD      wReserved3;
-  DWORD     nSamplesPerSec;
-  DWORD     nAvgBytesPerSec;
-  WORD      nBlockAlign;
-  WORD      wReserved4;
-  WORD      wBitsPerSample;
-  WORD      wReserved5;
+  DWORD     dwTimeFormat;
+  DWORD     dwAudio;
+  UINT      wInput;
+  UINT      wOutput;
+  WORD      wFormatTag;
+  WORD      wReserved2;
+  WORD      nChannels;
+  WORD      wReserved3;
+  DWORD     nSamplesPerSec;
+  DWORD     nAvgBytesPerSec;
+  WORD      nBlockAlign;
+  WORD      wReserved4;
+  WORD      wBitsPerSample;
+  WORD      wReserved5;
 } MCI_WAVE_SET_PARMS;
 ```
 
@@ -153,7 +159,7 @@ Reserved.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -161,8 +167,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -180,12 +186,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_SET**](mci-set.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

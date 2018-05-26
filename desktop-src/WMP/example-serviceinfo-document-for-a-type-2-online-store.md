@@ -1,8 +1,24 @@
 ---
 title: Example ServiceInfo Document for a Type 2 Online Store
 description: Example ServiceInfo Document for a Type 2 Online Store
-ms.assetid: 'd9bbce89-15b4-495f-8995-24dda99a4f40'
-keywords: ["Windows Media Player online stores,example ServiceInfo document", "online stores,example ServiceInfo document", "type 2 online stores,example ServiceInfo document", "Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 2 online stores,ServiceInfo document", "Windows Media Player online stores,code example", "online stores,code example", "type 2 online stores,code example", "example ServiceInfo document", "ServiceInfo document"]
+ms.assetid: d9bbce89-15b4-495f-8995-24dda99a4f40
+keywords:
+- Windows Media Player online stores,example ServiceInfo document
+- online stores,example ServiceInfo document
+- type 2 online stores,example ServiceInfo document
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 2 online stores,ServiceInfo document
+- Windows Media Player online stores,code example
+- online stores,code example
+- type 2 online stores,code example
+- example ServiceInfo document
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example ServiceInfo Document for a Type 2 Online Store

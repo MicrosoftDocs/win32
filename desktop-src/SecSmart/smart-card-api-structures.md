@@ -1,8 +1,14 @@
 ---
 title: Smart Card API Structures
 description: The following structures are used by the smart card functions.
-ms.assetid: 'e647fa49-a355-4c55-8919-fdc3b898e2ce'
-keywords: ["Smart Card API Smart Card , structures"]
+ms.assetid: e647fa49-a355-4c55-8919-fdc3b898e2ce
+keywords:
+- Smart Card API Smart Card , structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card API Structures
@@ -32,11 +38,11 @@ The following structures are used with smart card module functions.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

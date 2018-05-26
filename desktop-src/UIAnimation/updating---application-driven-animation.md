@@ -1,8 +1,14 @@
 ---
 title: Read the Animation Variable Values
 description: Each time your application paints, it should read the current values of the animation variables that represent the visual characteristics to be animated.
-ms.assetid: '7abf084a-31f5-4e32-bfd1-e88fbc2bf63d'
-keywords: ["animation variables Windows Animation ,reading"]
+ms.assetid: 7abf084a-31f5-4e32-bfd1-e88fbc2bf63d
+keywords:
+- animation variables Windows Animation ,reading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Read the Animation Variable Values
@@ -11,13 +17,13 @@ Each time your application paints, it should read the current values of the anim
 
 ## Overview
 
-When drawing a frame, an application can use the [**IUIAnimationVariable::GetValue**](iuianimationvariable-getvalue.md) or [**IUIAnimationVariable::GetIntegerValue**](iuianimationvariable-getintegervalue.md) method to request the values of any animation variables that will affect visuals within the frame. It is possible to clip an animation variable to a range of values ([**SetLowerBound**](iuianimationvariable-setlowerbound.md) and [**SetUpperBound**](iuianimationvariable-setupperbound.md)), and to request its value be rounded to an integer using a specified rounding scheme ([**SetRoundingMode**](iuianimationvariable-setroundingmode.md)).
+When drawing a frame, an application can use the [**IUIAnimationVariable::GetValue**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-getvalue?branch=master) or [**IUIAnimationVariable::GetIntegerValue**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue?branch=master) method to request the values of any animation variables that will affect visuals within the frame. It is possible to clip an animation variable to a range of values ([**SetLowerBound**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setlowerbound?branch=master) and [**SetUpperBound**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setupperbound?branch=master)), and to request its value be rounded to an integer using a specified rounding scheme ([**SetRoundingMode**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setroundingmode?branch=master)).
 
-Instead of reading the values of all variables for every frame, an application can use the [**IUIAnimationVariable::SetVariableChangeHandler**](iuianimationvariable-setvariablechangehandler.md) or [**IUIAnimationVariable::SetVariableIntegerChangeHandler**](iuianimationvariable-setvariableintegerchangehandler.md) method to register one or more variable change handlers to receive notifications only when there is a change to the variables' value ([**IUIAnimationVariableChangeHandler::OnValueChanged**](iuianimationvariablechangehandler-onvaluechanged.md)) or rounded value ([**IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged**](iuianimationvariableintegerchangehandler-onintegervaluechanged.md)). To identify the variables passed to variable change handlers, an application can apply tags to variables using the [**IUIAnimationVariable::SetTag**](iuianimationvariable-settag.md) method. These are object (IUnknown\*), integer pairs that are interpreted by the application.
+Instead of reading the values of all variables for every frame, an application can use the [**IUIAnimationVariable::SetVariableChangeHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setvariablechangehandler?branch=master) or [**IUIAnimationVariable::SetVariableIntegerChangeHandler**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-setvariableintegerchangehandler?branch=master) method to register one or more variable change handlers to receive notifications only when there is a change to the variables' value ([**IUIAnimationVariableChangeHandler::OnValueChanged**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariablechangehandler-onvaluechanged?branch=master)) or rounded value ([**IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariableintegerchangehandler-onintegervaluechanged?branch=master)). To identify the variables passed to variable change handlers, an application can apply tags to variables using the [**IUIAnimationVariable::SetTag**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-settag?branch=master) method. These are object (IUnknown\*), integer pairs that are interpreted by the application.
 
 ## Example Code
 
-The following example code is taken from Thumbnail.cpp in the Windows Animation sample [Grid Layout](https://msdn.microsoft.com/library/windows/desktop/dd940512); see the CMainWindow::Render method. It uses the [**GetValue**](iuianimationvariable-getvalue.md) method to read the values as floating-point values.
+The following example code is taken from Thumbnail.cpp in the Windows Animation sample [Grid Layout](https://msdn.microsoft.com/library/windows/desktop/dd940512); see the CMainWindow::Render method. It uses the [**GetValue**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-getvalue?branch=master) method to read the values as floating-point values.
 
 
 ```C++
@@ -41,7 +47,7 @@ if (SUCCEEDED(hr))
 
 
 
-The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::DrawBackground method. It uses the [**GetIntegerValue**](iuianimationvariable-getintegervalue.md) method to read the values as integer values.
+The following example code is taken from MainWindow.cpp in the Windows Animation sample [Timer-Driven Animation](timer-driven-animation-sample.md); see the CMainWindow::DrawBackground method. It uses the [**GetIntegerValue**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue?branch=master) method to read the values as integer values.
 
 
 ```C++
@@ -95,10 +101,10 @@ After completing this step, the next step is: [Create a Storyboard and Add Trans
 
 <dl> <dt>
 
-[**IUIAnimationVariable::GetIntegerValue**](iuianimationvariable-getintegervalue.md)
+[**IUIAnimationVariable::GetIntegerValue**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue?branch=master)
 </dt> <dt>
 
-[**IUIAnimationVariable::GetValue**](iuianimationvariable-getvalue.md)
+[**IUIAnimationVariable::GetValue**](/windows/win32/UIAnimation/nf-uianimation-iuianimationvariable-getvalue?branch=master)
 </dt> <dt>
 
 [Windows Animation Overview](scenic-animation-api-overview.md)

@@ -1,8 +1,11 @@
 ---
 title: Mount method of the MSFT\_DiskImage class
 description: Mounts the disk image.
-ms.assetid: 'CD233786-8087-4093-834B-096FE2ADBEB1'
-keywords: ["Mount method Windows Storage Management API", "Mount method Windows Storage Management API , MSFT_DiskImage class", "MSFT_DiskImage class Windows Storage Management API , Mount method"]
+ms.assetid: CD233786-8087-4093-834B-096FE2ADBEB1
+keywords:
+- Mount method Windows Storage Management API
+- Mount method Windows Storage Management API , MSFT_DiskImage class
+- MSFT_DiskImage class Windows Storage Management API , Mount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - vds.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mount method of the MSFT\_DiskImage class
@@ -22,8 +30,8 @@ Mounts the disk image.
 
 ```mof
 UInt32 Mount(
-  [in] UInt16  Access,
-  [in] Boolean NoDriveLetter
+  [in] UInt16  Access,
+  [in] Boolean NoDriveLetter
 );
 ```
 
@@ -68,8 +76,8 @@ Otherwise, this method returns [**OpenVirtualDisk**](https://msdn.microsoft.com/
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | Header<br/>                   | <dl> <dt>Vds.h</dt> </dl>          |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
@@ -83,9 +91,9 @@ Otherwise, this method returns [**OpenVirtualDisk**](https://msdn.microsoft.com/
 [**MSFT\_DiskImage**](msft-diskimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

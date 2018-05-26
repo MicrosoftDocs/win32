@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Exit Code
 description: This example retrieves the last exit code returned by a known task. (A returned value of \ 0034;0 \ 0034; indicates the task was never run.) This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'e7bfe645-7f4c-4700-9adf-c581e6895aec'
-keywords: ["retrieving task comment Task Scheduler", "retrieving work item properties Task Scheduler , task comment"]
+ms.assetid: e7bfe645-7f4c-4700-9adf-c581e6895aec
+keywords:
+- retrieving task comment Task Scheduler
+- retrieving work item properties Task Scheduler , task comment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Exit Code

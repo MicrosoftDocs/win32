@@ -1,7 +1,12 @@
 ---
 title: Adding Icons and Context Menus with Shell Extensions
-description: You can improve your users' experience with Microsoft Windows Desktop Search (WDS) and your protocol handler by implementing Shell extensions.
-ms.assetid: '899f3fd1-1ae9-45fe-ae6d-26d4f07bf6e4'
+description: You can improve your users experience with Microsoft Windows Desktop Search (WDS) and your protocol handler by implementing Shell extensions.
+ms.assetid: 899f3fd1-1ae9-45fe-ae6d-26d4f07bf6e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Icons and Context Menus with Shell Extensions

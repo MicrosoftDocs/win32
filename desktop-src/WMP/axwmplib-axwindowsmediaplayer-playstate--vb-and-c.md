@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.playState property
 description: The playState property gets an enumeration value indicating the state of the Windows Media Player operation.
-ms.assetid: 'ab9f1547-5c28-4289-beaf-9262f7f59b07'
-keywords: ["playState property Windows Media Player", "playState property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , playState property"]
+ms.assetid: ab9f1547-5c28-4289-beaf-9262f7f59b07
+keywords:
+- playState property Windows Media Player
+- playState property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , playState property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.playState property
@@ -122,12 +130,12 @@ End If</code></pre></td>
 [**AxWindowsMediaPlayer.PlayStateChange Event (VB and C#)**](axwmplib-axwindowsmediaplayer-playstatechange.md)
 </dt> <dt>
 
-[**WMPPlayState**](wmpplaystate.md)
+[**WMPPlayState**](/windows/win32/wmp/ne-wmp-wmpplaystate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a template for creating class factories.'
-ms.assetid: '3dbe6402-15f8-4490-9fe2-bebaa4e79170'
+Description: Provides a template for creating class factories.
+ms.assetid: 3dbe6402-15f8-4490-9fe2-bebaa4e79170
 title: CFactoryTemplate class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CFactoryTemplate class
@@ -29,7 +34,7 @@ For more information, see [How to Create a DirectShow Filter DLL](how-to-create-
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,9 +54,9 @@ For more information, see [How to Create a DirectShow Filter DLL](how-to-create-
 [Base Class Reference](base-class-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

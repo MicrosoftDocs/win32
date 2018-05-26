@@ -1,8 +1,14 @@
 ---
 title: Configuring HTTP Server API Error Logging
 description: The HTTP Server API error logging is controlled by three registry values under an HTTP\\Parameters key.
-ms.assetid: 'a7712159-939e-42e3-a8d8-73148c2f4f6e'
-keywords: ["HTTP Server API, configuring error logs"]
+ms.assetid: a7712159-939e-42e3-a8d8-73148c2f4f6e
+keywords:
+- HTTP Server API, configuring error logs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring HTTP Server API Error Logging
@@ -11,17 +17,17 @@ The HTTP Server API error logging is controlled by three registry values under a
 
 ```
 HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            HTTP
-               Parameters
+   System
+      CurrentControlSet
+         Services
+            HTTP
+               Parameters
 ```
 
 > [!Note]  
 > The location and form of the configuration values may change in future versions of the Windows operating system.
 
- 
+ 
 
 A user must have Administrator/Local System privileges to modify the registry values, and view or modify the log files and the folder that contains them.
 
@@ -84,11 +90,11 @@ The ErrorLoggingDir string value must be a fully qualified path, but it can cont
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

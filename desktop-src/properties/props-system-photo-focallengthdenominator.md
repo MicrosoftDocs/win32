@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Photo\_FocalLength.'
-ms.assetid: '9bcb7d2f-33be-4e4f-ab8e-2e29e8688c1e'
-title: 'System.Photo.FocalLengthDenominator'
+Description: The denominator of PKEY\_Photo\_FocalLength.
+ms.assetid: 9bcb7d2f-33be-4e4f-ab8e-2e29e8688c1e
+title: System.Photo.FocalLengthDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FocalLengthDenominator

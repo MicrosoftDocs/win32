@@ -1,14 +1,20 @@
 ---
 title: UInt64Type Simple Type
 description: Defines an unsigned long type.
-ms.assetid: '6f69dbde-8292-4f8e-bf49-3ef41ea7315e'
-keywords: ["UInt64Type simple type EventLog"]
+ms.assetid: 6f69dbde-8292-4f8e-bf49-3ef41ea7315e
+keywords:
+- UInt64Type simple type EventLog
 topic_type:
 - apiref
 api_name:
 - UInt64Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UInt64Type Simple Type
@@ -29,14 +35,14 @@ Defines an unsigned long type. The value can be specified as an 8-byte integer o
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

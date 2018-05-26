@@ -1,7 +1,12 @@
 ---
 title: SysLink
 description: This section contains information about the programming elements used with SysLink controls.
-ms.assetid: '13a7b6d0-4bf1-480f-b447-838a550a5866'
+ms.assetid: 13a7b6d0-4bf1-480f-b447-838a550a5866
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SysLink
@@ -18,7 +23,7 @@ This section contains information about the programming elements used with SysLi
 
 
 
- 
+ 
 
 ### Messages
 
@@ -34,7 +39,7 @@ This section contains information about the programming elements used with SysLi
 
 
 
- 
+ 
 
 ### Structures
 
@@ -42,17 +47,17 @@ This section contains information about the programming elements used with SysLi
 
 | Topic                                | Contents                                                                                                                                                                           |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**LHITTESTINFO**](lhittestinfo.md) | Used to get information about the link corresponding to a given location. <br/>                                                                                              |
-| [**LITEM**](litem.md)               | Used to set and retrieve information about a link item.<br/>                                                                                                                 |
-| [**NMLINK**](nmlink.md)             | The [**NMLINK**](nmlink.md) Contains notification information. Send this structure with the [NM\_CLICK](nm-click-syslink.md) or [NM\_RETURN](nm-return.md) messages.<br/> |
+| [**LHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-taglhittestinfo?branch=master) | Used to get information about the link corresponding to a given location. <br/>                                                                                              |
+| [**LITEM**](/windows/win32/Commctrl/ns-commctrl-taglitem?branch=master)               | Used to set and retrieve information about a link item.<br/>                                                                                                                 |
+| [**NMLINK**](/windows/win32/Commctrl/ns-commctrl-tagnmlink?branch=master)             | The [**NMLINK**](/windows/win32/Commctrl/ns-commctrl-tagnmlink?branch=master) Contains notification information. Send this structure with the [NM\_CLICK](nm-click-syslink.md) or [NM\_RETURN](nm-return.md) messages.<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

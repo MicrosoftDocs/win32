@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::QuerySimulationSupport method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.'
-ms.assetid: '0136df19-9491-47ea-9a8f-c9a932646686'
-title: 'IPrintCoreUI2::QuerySimulationSupport method'
+---
+Description: The IPrintCoreUI2QuerySimulationSupport method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
+ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
+title: IPrintCoreUI2QuerySimulationSupport method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::QuerySimulationSupport method

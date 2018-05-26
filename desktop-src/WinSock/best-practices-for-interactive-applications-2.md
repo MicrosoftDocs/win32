@@ -1,7 +1,12 @@
 ---
-Description: 'In morphing the Life cell update code, several guidelines for writing high performance network applications have been uncovered.'
-ms.assetid: '2c5d0610-88b5-437e-acde-214553121380'
+Description: In morphing the Life cell update code, several guidelines for writing high performance network applications have been uncovered.
+ms.assetid: 2c5d0610-88b5-437e-acde-214553121380
 title: Best Practices for Interactive Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for Interactive Applications

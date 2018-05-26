@@ -1,7 +1,12 @@
 ---
-Description: 'Removes virtual resource settings from a virtual switch configuration.'
-ms.assetid: '9992ebcd-8891-42ef-be7e-154f336e37f8'
-title: 'RemoveResourceSettings method of the Msvm\_VirtualEthernetSwitchManagementService class'
+Description: Removes virtual resource settings from a virtual switch configuration.
+ms.assetid: 9992ebcd-8891-42ef-be7e-154f336e37f8
+title: RemoveResourceSettings method of the Msvm\_VirtualEthernetSwitchManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveResourceSettings method of the Msvm\_VirtualEthernetSwitchManagementService class
@@ -13,8 +18,8 @@ Removes virtual resource settings from a virtual switch configuration.
 
 ```mof
 uint32 RemoveResourceSettings(
-  [in]  CIM_ResourceAllocationSettingData REF ResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  CIM_ResourceAllocationSettingData REF ResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -80,8 +85,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -101,9 +106,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualEthernetSwitchManagementService**](msvm-virtualethernetswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

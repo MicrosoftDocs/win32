@@ -1,7 +1,12 @@
 ---
 title: Adding a Service Rule
 description: This example adds a service rule using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: '68e18218-d717-45e1-968b-9e9a8ad8d310'
+ms.assetid: 68e18218-d717-45e1-968b-9e9a8ad8d310
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Service Rule

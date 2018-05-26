@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob SetNotifyFlags method
 description: Specifies the type of event notification you want to receive, such as job transferred events.
-ms.assetid: '19E626A5-6B6E-44E0-BD6F-43F132F32890'
-keywords: ["SetNotifyFlags method", "SetNotifyFlags method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, SetNotifyFlags method"]
+ms.assetid: 19E626A5-6B6E-44E0-BD6F-43F132F32890
+keywords:
+- SetNotifyFlags method
+- SetNotifyFlags method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, SetNotifyFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::SetNotifyFlags method
@@ -22,7 +30,7 @@ Specifies the type of event notification you want to receive, such as job transf
 
 ```C++
 HRESULT SetNotifyFlags(
-  [in] ULONG NotifyFlags
+  [in] ULONG NotifyFlags
 );
 ```
 
@@ -50,7 +58,7 @@ Set one or more of the following flags to identify the events that you want to r
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -67,7 +75,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,7 +87,7 @@ Use the **SetNotifyFlags** method in conjunction with the [**IBackgroundCopyJob:
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -105,9 +113,9 @@ Use the **SetNotifyFlags** method in conjunction with the [**IBackgroundCopyJob:
 [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

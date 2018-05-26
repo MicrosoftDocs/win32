@@ -1,8 +1,11 @@
 ---
 title: RemoveAccessPath method of the MSFT\_Partition class
 description: Remove the access path from the partition.
-ms.assetid: '0238bfe6-2e36-44e2-81ee-04bfa159ef47'
-keywords: ["RemoveAccessPath method Windows Storage Management API", "RemoveAccessPath method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , RemoveAccessPath method"]
+ms.assetid: 0238bfe6-2e36-44e2-81ee-04bfa159ef47
+keywords:
+- RemoveAccessPath method Windows Storage Management API
+- RemoveAccessPath method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , RemoveAccessPath method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveAccessPath method of the MSFT\_Partition class
@@ -22,8 +30,8 @@ Remove the access path from the partition.
 
 ```mof
 UInt32 RemoveAccessPath(
-  [in]  String AccessPath,
-  [out] String ExtendedStatus
+  [in]  String AccessPath,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -98,8 +106,8 @@ This method removes the access path from the partition even if the access path i
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -112,9 +120,9 @@ This method removes the access path from the partition even if the access path i
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

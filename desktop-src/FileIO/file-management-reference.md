@@ -1,7 +1,12 @@
 ---
-Description: 'Elements used in file management.'
-ms.assetid: '7a274843-f02c-436c-a220-c9e504620877'
+Description: Elements used in file management.
+ms.assetid: 7a274843-f02c-436c-a220-c9e504620877
 title: File Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Management Reference
@@ -22,11 +27,11 @@ The following elements are used in file management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

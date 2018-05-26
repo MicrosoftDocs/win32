@@ -1,14 +1,20 @@
 ---
 title: Texture Object
 description: In Direct3D 10, you specify the samplers and textures independently; texture sampling is implemented by using a templated-texture object. This templated-texture object has a specific format, returns a specific type, and implements several methods.
-ms.assetid: 'e8cb483a-d831-4942-b6fe-61dd5edb1813'
-keywords: ["Texture Object HLSL"]
+ms.assetid: e8cb483a-d831-4942-b6fe-61dd5edb1813
+keywords:
+- Texture Object HLSL
 topic_type:
 - apiref
 api_name:
 - Texture Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Object
@@ -25,7 +31,7 @@ In Direct3D 10, you specify the samplers and textures independently; texture sam
 
 
 
- 
+ 
 
 Here is the syntax for creating all texture objects (except multisampled objects).
 
@@ -36,7 +42,7 @@ Here is the syntax for creating all texture objects (except multisampled objects
 
 
 
- 
+ 
 
 Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size to be explicitly stated and expressed as the number of samples.
 
@@ -47,7 +53,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -78,7 +84,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 <tbody>
 <tr class="odd">
 <td>Buffer</td>
-<td>Buffer¹</td>
+<td>Buffer </td>
 </tr>
 <tr class="even">
 <td>Texture1D</td>
@@ -105,7 +111,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 <td>Cube texture</td>
 </tr>
 <tr class="even">
-<td>TextureCubeArray²³</td>
+<td>TextureCubeArray  </td>
 <td>Array of cube textures</td>
 </tr>
 <tr class="odd">
@@ -123,7 +129,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 </tbody>
 </table>
 
-<p> </p>
+<p> </p>
 <ol>
 <li>The Buffer type supports most texture object methods except GetDimensions.</li>
 <li>TextureCubeArray is available in shader model 4.1 or higher.</li>
@@ -147,7 +153,7 @@ Multisampled objects (Texture2DMS and Texture2DMSArray) require the texture size
 
 
 
- 
+ 
 
 ## Example
 
@@ -168,7 +174,7 @@ Each texture object implements certain methods; here's the table that lists all 
 
 
 
-| Texture Method                                                                     | Description                                                                                                       | vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| Texture Method                                                                     | Description                                                                                                       | vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------|-----------|----------|-----------|----------|-----------|
 | [CalculateLevelOfDetail](dx-graphics-hlsl-to-calculate-lod.md)                    | Calculate the LOD, return a clamped result.                                                                       |          |           |          | x         |          |           |
 | [CalculateLevelOfDetailUnclamped](dx-graphics-hlsl-to-calculate-lod-unclamped.md) | Calculate the LOD, return an unclamped result.                                                                    |          |           |          | x         |          |           |
@@ -187,7 +193,7 @@ Each texture object implements certain methods; here's the table that lists all 
 
 
 
- 
+ 
 
 ### Return Type
 
@@ -206,7 +212,7 @@ The return type of a texture object method is float4 unless specified otherwise,
 
 
 
- 
+ 
 
 In addition, the return type can be any texture type including a structure but, it must be less than 4 components such as a float1 type which returns one component.
 
@@ -245,7 +251,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -254,9 +260,9 @@ This object is supported in the following shader models.
 [Shader Model 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

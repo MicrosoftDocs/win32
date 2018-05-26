@@ -1,7 +1,12 @@
 ---
-Description: 'The CTransInPlaceFilter class is designed for in-place transform filters, which are filters that modify the input data rather than copying the data across buffers.To use this class, derive a new class from CTransInPlaceFilter and implement the following methods:'
-ms.assetid: '3d6d5436-f280-4e36-96e4-40161e8115c2'
+Description: The CTransInPlaceFilter class is designed for in-place transform filters, which are filters that modify the input data rather than copying the data across buffers.To use this class, derive a new class from CTransInPlaceFilter and implement the following methods
+ms.assetid: 3d6d5436-f280-4e36-96e4-40161e8115c2
 title: CTransInPlaceFilter class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter class
@@ -32,9 +37,9 @@ Suppose the input pin connects first. The following steps occur:
 
 Later, when the output pin connects:
 
-1.  The output pin calls the filter's [**CheckInputType**](ctransformfilter-checkinputtype.md) method to check the media type. It also calls [**IPin::QueryAccept**](ipin-queryaccept.md) on the upstream filter. This ensures that the input pin can change its media type to match.
-2.  The output pin calls the filter's [**CheckInputType**](ctransformfilter-checkinputtype.md) method to check the media type. It also calls [**IPin::QueryAccept**](ipin-queryaccept.md) on the upstream filter. This ensures that the input pin can change its media type to match.
-3.  The output pin calls the filter's [**CheckInputType**](ctransformfilter-checkinputtype.md) method to check the media type. It also calls [**IPin::QueryAccept**](ipin-queryaccept.md) on the upstream filter. This ensures that the input pin can change its media type to match.
+1.  The output pin calls the filter's [**CheckInputType**](ctransformfilter-checkinputtype.md) method to check the media type. It also calls [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) on the upstream filter. This ensures that the input pin can change its media type to match.
+2.  The output pin calls the filter's [**CheckInputType**](ctransformfilter-checkinputtype.md) method to check the media type. It also calls [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) on the upstream filter. This ensures that the input pin can change its media type to match.
+3.  The output pin calls the filter's [**CheckInputType**](ctransformfilter-checkinputtype.md) method to check the media type. It also calls [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) on the upstream filter. This ensures that the input pin can change its media type to match.
 4.  This time, the input pin's [**GetAllocator**](ctransinplaceinputpin-getallocator.md) method returns the downstream allocator, and [**GetAllocatorRequirements**](ctransinplaceinputpin--getallocatorrequirements.md) returns the downstream filter's allocator requirements. The input pin accepts whatever allocator the upstream filter chooses.
 5.  This time, the input pin's [**GetAllocator**](ctransinplaceinputpin-getallocator.md) method returns the downstream allocator, and [**GetAllocatorRequirements**](ctransinplaceinputpin--getallocatorrequirements.md) returns the downstream filter's allocator requirements. The input pin accepts whatever allocator the upstream filter chooses.
 
@@ -45,7 +50,7 @@ Now consider the opposite scenario, where the output pin is the first pin to con
 
 Then, when the input pin connects:
 
-1.  The input pin checks the media type by calling [**CheckInputType**](ctransformfilter-checkinputtype.md) on the filter, and by calling [**QueryAccept**](ipin-queryaccept.md) on the downstream filter's output pin.
+1.  The input pin checks the media type by calling [**CheckInputType**](ctransformfilter-checkinputtype.md) on the filter, and by calling [**QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) on the downstream filter's output pin.
 2.  If the input type does not match the output type, the filter reconnects the output pin.
 3.  The upstream filter selects an allocator. The input pin's [**GetAllocator**](ctransinplaceinputpin-getallocator.md) method returns the downstream allocator, and the input pin accepts whatever allocator the upstream filter selects.
 4.  The filter uses the same allocator for the downstream connection, possibly overriding the original downstream allocator.
@@ -78,7 +83,7 @@ For more information about using this class, see [Writing Transform Filters](wri
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -91,9 +96,9 @@ For more information about using this class, see [Writing Transform Filters](wri
 
 
 
- 
+ 
 
- 
+ 
 
 
 

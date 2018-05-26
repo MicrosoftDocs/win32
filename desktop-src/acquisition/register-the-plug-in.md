@@ -1,7 +1,12 @@
 ---
-Description: 'Register the Plug-in'
-ms.assetid: '18f36e53-11f0-469c-9790-9319a28ae2f2'
-title: 'Register the Plug-in'
+Description: Register the Plug-in
+ms.assetid: 18f36e53-11f0-469c-9790-9319a28ae2f2
+title: Register the Plug-in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register the Plug-in
@@ -20,11 +25,11 @@ The plug-in must be registered by creating the following registry keys. ({CLSID}
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

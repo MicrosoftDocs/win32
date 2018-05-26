@@ -1,7 +1,12 @@
 ---
 title: To add or remove buttons in a help window
 description: To add or remove buttons in a help window
-ms.assetid: 'B4E4CD99-F83B-4477-BE05-3BC1DBBBEF40'
+ms.assetid: B4E4CD99-F83B-4477-BE05-3BC1DBBBEF40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add or remove buttons in a help window
@@ -14,7 +19,7 @@ ms.assetid: 'B4E4CD99-F83B-4477-BE05-3BC1DBBBEF40'
 
     
 
-     
+     
 
 2.  Click the **Buttons** tab, and then, in the **Window type** box, select the window for which you want to add or remove buttons.
 3.  Select the options you want.
@@ -32,9 +37,9 @@ ms.assetid: 'B4E4CD99-F83B-4477-BE05-3BC1DBBBEF40'
 [About Creating Help Windows](create-help-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

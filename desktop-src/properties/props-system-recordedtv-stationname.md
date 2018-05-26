@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '26da8e3b-de9e-4f6e-8e17-fad1d5e72b42'
-title: 'System.RecordedTV.StationName'
+Description: .
+ms.assetid: 26da8e3b-de9e-4f6e-8e17-fad1d5e72b42
+title: System.RecordedTV.StationName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.StationName

@@ -1,8 +1,15 @@
 ---
 title: About AVIFile Functions and Macros
 description: About AVIFile Functions and Macros
-ms.assetid: '877f6759-8271-47eb-8a7f-540393e5ae89'
-keywords: ["AVIFileInit function", "AVIFileExit function"]
+ms.assetid: 877f6759-8271-47eb-8a7f-540393e5ae89
+keywords:
+- AVIFileInit function
+- AVIFileExit function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About AVIFile Functions and Macros
@@ -14,7 +21,7 @@ The AVIFile functions and macros handle the information in time-based files as o
 
  
 
-AVIFile functions and macros are contained in a dynamic-link library. To initialize the library, use the [**AVIFileInit**](avifileinit.md) function. After you initialize the library, you can use any of the AVIFile functions or macros. To release the library, use the [**AVIFileExit**](avifileexit.md) function. AVIFile maintains a reference count of the applications that are using the library, but not those that have released it. Your applications should balance each use of **AVIFileInit** with a call to **AVIFileExit** to completely release the library after each application finishes using it.
+AVIFile functions and macros are contained in a dynamic-link library. To initialize the library, use the [**AVIFileInit**](/windows/win32/Vfw/nf-vfw-avifileinit?branch=master) function. After you initialize the library, you can use any of the AVIFile functions or macros. To release the library, use the [**AVIFileExit**](/windows/win32/Vfw/nf-vfw-avifileexit?branch=master) function. AVIFile maintains a reference count of the applications that are using the library, but not those that have released it. Your applications should balance each use of **AVIFileInit** with a call to **AVIFileExit** to completely release the library after each application finishes using it.
 
  
 

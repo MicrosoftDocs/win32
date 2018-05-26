@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the original bit stream flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.\\ This property is read/write.'
-ms.assetid: '247bdd95-c432-462f-a57a-b5ab8a2e3c70'
+Description: Specifies the original bit stream flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.\\ This property is read/write.
+ms.assetid: 247bdd95-c432-462f-a57a-b5ab8a2e3c70
 title: AVEncDDOriginalBitstream property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncDDOriginalBitstream property
@@ -26,8 +31,8 @@ This property is read/write.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -39,12 +44,12 @@ This property is read/write.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

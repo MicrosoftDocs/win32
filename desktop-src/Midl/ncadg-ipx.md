@@ -2,13 +2,19 @@
 title: ncadg\_ipx attribute
 description: The ncadg\_ipx keyword identifies IPX as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: 6b136eb9-4e18-43ff-993b-a2ad005273f1
-keywords: ["ncadg_ipx attribute MIDL"]
+keywords:
+- ncadg_ipx attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncadg_ipx
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncadg\_ipx attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'The list of properties to show in the content view mode of an item in the context of browsing.'
-ms.assetid: '30c15a29-b2cb-4273-8c07-8ef3baa7fee5'
-title: 'System.PropList.ContentViewModeForBrowse'
+Description: The list of properties to show in the content view mode of an item in the context of browsing.
+ms.assetid: 30c15a29-b2cb-4273-8c07-8ef3baa7fee5
+title: System.PropList.ContentViewModeForBrowse
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropList.ContentViewModeForBrowse

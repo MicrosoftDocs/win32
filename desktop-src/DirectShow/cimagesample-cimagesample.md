@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'd7550c38-d728-41b2-80a6-20728abf6012'
-title: 'CImageSample.CImageSample constructor'
+Description: Constructor method.
+ms.assetid: d7550c38-d728-41b2-80a6-20728abf6012
+title: CImageSample.CImageSample constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageSample.CImageSample constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CImageSample(
-   CBaseAllocator *pAllocator,
-   TCHAR          *pName,
-   HRESULT        *phr,
-   LPBYTE         pBuffer,
-   LONG           length
+   CBaseAllocator *pAllocator,
+   TCHAR          *pName,
+   HRESULT        *phr,
+   LPBYTE         pBuffer,
+   LONG           length
 );
 ```
 
@@ -84,9 +89,9 @@ The [**CImageAllocator**](cimageallocator.md) class creates a DIB using a file-m
 [**CImageSample Class**](cimagesample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

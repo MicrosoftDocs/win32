@@ -1,7 +1,12 @@
 ---
 Description: How To Play a File
-ms.assetid: '3d8c5d06-8690-4298-a1d1-f21af35bcfd4'
+ms.assetid: 3d8c5d06-8690-4298-a1d1-f21af35bcfd4
 title: How To Play a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To Play a File
@@ -44,12 +49,12 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph, NULL,
 
 As shown, the class identifier (CLSID) is CLSID\_FilterGraph. The Filter Graph Manager is provided by an in-process DLL, so the execution context is **CLSCTX\_INPROC\_SERVER**. DirectShow supports the free-threading model, so you can also call [**CoInitializeEx**](https://msdn.microsoft.com/library/windows/desktop/ms695279) with the **COINIT\_MULTITHREADED** flag.
 
-The call to [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) returns the [**IGraphBuilder**](igraphbuilder.md) interface, which mostly contains methods for building the filter graph. Two other interfaces are needed for this example:
+The call to [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) returns the [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) interface, which mostly contains methods for building the filter graph. Two other interfaces are needed for this example:
 
--   [**IMediaControl**](imediacontrol.md) controls streaming. It contains methods for stopping and starting the graph.
--   [**IMediaEvent**](imediaevent.md) has methods for getting events from the Filter Graph Manager. In this example, the interface is used to wait for playback to complete.
+-   [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) controls streaming. It contains methods for stopping and starting the graph.
+-   [**IMediaEvent**](/windows/win32/Control/nn-control-imediaevent?branch=master) has methods for getting events from the Filter Graph Manager. In this example, the interface is used to wait for playback to complete.
 
-Both of these interfaces are exposed by the Filter Graph Manager. Use the returned [**IGraphBuilder**](igraphbuilder.md) pointer to query for them:
+Both of these interfaces are exposed by the Filter Graph Manager. Use the returned [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) pointer to query for them:
 
 
 ```C++
@@ -70,9 +75,9 @@ hr = pGraph->RenderFile(L"C:\\Example.avi", NULL);
 
 
 
-The [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) method builds a filter graph that can play the specified file. The first parameter is the file name, represented as a wide character (2-byte) string. The second parameter is reserved and must equal **NULL**.
+The [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) method builds a filter graph that can play the specified file. The first parameter is the file name, represented as a wide character (2-byte) string. The second parameter is reserved and must equal **NULL**.
 
-This method can fail if the specified file does not exist, or the file format is not recognized. Assuming that the method succeeds, however, the filter graph is now ready for playback. To run the graph, call the [**IMediaControl::Run**](imediacontrol-run.md) method:
+This method can fail if the specified file does not exist, or the file format is not recognized. Assuming that the method succeeds, however, the filter graph is now ready for playback. To run the graph, call the [**IMediaControl::Run**](/windows/win32/Control/nf-control-imediacontrol-run?branch=master) method:
 
 
 ```C++
@@ -81,7 +86,7 @@ hr = pControl->Run();
 
 
 
-When the filter graph runs, data moves through the filters and is rendered as video and audio. Playback occurs on a separate thread. You can wait for playback to complete by calling the [**IMediaEvent::WaitForCompletion**](imediaevent-waitforcompletion.md) method:
+When the filter graph runs, data moves through the filters and is rendered as video and audio. Playback occurs on a separate thread. You can wait for playback to complete by calling the [**IMediaEvent::WaitForCompletion**](/windows/win32/Control/nf-control-imediaevent-waitforcompletion?branch=master) method:
 
 
 ```C++

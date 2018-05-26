@@ -1,7 +1,12 @@
 ---
 title: Security Methods
 description: Microsoft RPC supports two different methods for adding security to your distributed application.
-ms.assetid: '10dd8e71-668a-46bf-ab5d-e4b1e0e56a46'
+ms.assetid: 10dd8e71-668a-46bf-ab5d-e4b1e0e56a46
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Methods

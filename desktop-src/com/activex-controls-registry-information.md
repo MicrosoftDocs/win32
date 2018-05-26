@@ -1,7 +1,12 @@
 ---
 title: ActiveX Controls Registry Information
 description: ActiveX Controls Registry Information
-ms.assetid: 'fda5b1e6-2048-4df7-ba8f-145652e3883c'
+ms.assetid: fda5b1e6-2048-4df7-ba8f-145652e3883c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveX Controls Registry Information
@@ -38,7 +43,7 @@ Both the **Insertable** and the **Control** sub-keys are optional. A control can
 
 Controls should have a Properties verb, OLEIVERB\_PROPERTIES, along with any other verbs they support. The Properties verb, as well as the standard verb OLEIVERB\_PRIMARY, instructs the control to display its property sheet. The Properties verb is displayed as the Properties item on the container's menu when the control is active. This way, the control can display its own property page allowing some useful functionality to the end user, even if the container does not handle controls.
 
-A control defines the **MiscStatus** key to describe itself to potential containers. The bits take on the values from [**OLEMISC**](olemisc.md), and controls add several values to this enumeration. See the **OLEMISC** enumeration values for more information. The client can obtain this information by calling [**IOleObject::GetMiscStatus**](ioleobject-getmiscstatus.md) without having to instantiate the control first.
+A control defines the **MiscStatus** key to describe itself to potential containers. The bits take on the values from [**OLEMISC**](/windows/win32/OleIdl/ne-oleidl-tagolemisc?branch=master), and controls add several values to this enumeration. See the **OLEMISC** enumeration values for more information. The client can obtain this information by calling [**IOleObject::GetMiscStatus**](/windows/win32/OleIdl/nf-oleidl-ioleobject-getmiscstatus?branch=master) without having to instantiate the control first.
 
 Finally, **Version** describes the version of the control which should match the version of the type library associated with this control.
 

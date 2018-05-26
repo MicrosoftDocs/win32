@@ -1,8 +1,16 @@
 ---
 title: Windows Pixel Format Code Sample
 description: The following code sample shows a function that sets the pixel format using Windows functions
-ms.assetid: 'fa863999-72f1-4280-b278-d9336f62108d'
-keywords: ["pixels OpenGL ,Windows sample", "porting to OpenGL,pixels", "OpenGL porting,pixels"]
+ms.assetid: fa863999-72f1-4280-b278-d9336f62108d
+keywords:
+- pixels OpenGL ,Windows sample
+- porting to OpenGL,pixels
+- OpenGL porting,pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Pixel Format Code Sample

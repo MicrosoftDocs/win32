@@ -1,8 +1,10 @@
 ---
 title: Msvm\_AffectedJobElement class
 description: Represents an association between a job and the managed element that may be affected by its execution.
-ms.assetid: 'd8b3a9e3-e69a-446c-91a5-569beac023a6'
-keywords: ["Msvm_AffectedJobElement class Hyper-V", "Msvm_AffectedJobElement class Hyper-V , described"]
+ms.assetid: d8b3a9e3-e69a-446c-91a5-569beac023a6
+keywords:
+- Msvm_AffectedJobElement class Hyper-V
+- Msvm_AffectedJobElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AffectedJobElement class
@@ -30,9 +37,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_AffectedJobElement : CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
-  Msvm_ConcreteJob   REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
+  Msvm_ConcreteJob   REF AffectingElement;
 };
 ```
 
@@ -177,9 +184,9 @@ Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filt
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -198,9 +205,9 @@ Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filt
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

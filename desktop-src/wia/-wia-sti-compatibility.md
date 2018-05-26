@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Image Acquisition (WIA) architecture is built upon the foundation established by the Still Image Architecture (STI).'
-ms.assetid: '4ce9c1e4-02e1-4584-9cc1-37f691102cc2'
+Description: The Windows Image Acquisition (WIA) architecture is built upon the foundation established by the Still Image Architecture (STI).
+ms.assetid: 4ce9c1e4-02e1-4584-9cc1-37f691102cc2
 title: STI Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STI Compatibility

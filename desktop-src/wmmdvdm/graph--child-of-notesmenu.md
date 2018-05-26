@@ -1,14 +1,20 @@
 ---
 title: Graph (Child of NotesMenu) element
 description: Defines the pipeline graph for the notes menu.
-ms.assetid: '33550223-e7f4-4cab-957b-8a35d2726694'
-keywords: ["Graph (Child of NotesMenu) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 33550223-e7f4-4cab-957b-8a35d2726694
+keywords:
+- Graph (Child of NotesMenu) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Graph
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graph (Child of NotesMenu) element
@@ -49,7 +55,7 @@ The pipeline graph defines the flow of the menu and contains inputs (that is, me
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -76,9 +82,9 @@ The pipeline graph defines the flow of the menu and contains inputs (that is, me
 [**Graph Element (Child of ToMainTransition)**](graph--child-of-tomaintransition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

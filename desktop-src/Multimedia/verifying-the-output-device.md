@@ -1,8 +1,14 @@
 ---
 title: Verifying the Output Device
 description: Verifying the Output Device
-ms.assetid: 'b5a45edd-8f35-44ae-964d-0451f100ca80'
-keywords: ["MCI_ STATUS command"]
+ms.assetid: b5a45edd-8f35-44ae-964d-0451f100ca80
+keywords:
+- MCI_ STATUS command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying the Output Device

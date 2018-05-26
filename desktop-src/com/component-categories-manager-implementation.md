@@ -1,14 +1,19 @@
 ---
 title: Component Categories Manager Implementation
 description: As the number of available components grows, it becomes increasingly difficult to manage these components. In terms of the interfaces they expose as well as the tasks they perform, many components offer similar functionality.
-ms.assetid: 'c2c67129-bf19-465b-8354-193922aeafaa'
+ms.assetid: c2c67129-bf19-465b-8354-193922aeafaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Categories Manager Implementation
 
 As the number of available components grows, it becomes increasingly difficult to manage these components. In terms of the interfaces they expose as well as the tasks they perform, many components offer similar functionality.
 
-It is often necessary to enumerate the components that can be used in a certain context. Examples of this are the **Insert Object** dialog box used in OLE compound documents and the **Insert Control** dialog box used in OLE controls. These dialog boxes list all components that fulfill (or claim to fulfill) the interface contracts for compound documents or controls. These existing categories (OLE document, OLE control) do not imply an exact interface signature. OLE documents have to expose a certain set of core interfaces (for example, [**IOleObject**](ioleobject.md) or [**IPersistStorage**](ipersiststorage.md)) but can also expose additional interfaces such as [**IOleLink**](iolelink.md).
+It is often necessary to enumerate the components that can be used in a certain context. Examples of this are the **Insert Object** dialog box used in OLE compound documents and the **Insert Control** dialog box used in OLE controls. These dialog boxes list all components that fulfill (or claim to fulfill) the interface contracts for compound documents or controls. These existing categories (OLE document, OLE control) do not imply an exact interface signature. OLE documents have to expose a certain set of core interfaces (for example, [**IOleObject**](/windows/win32/OleIdl/nn-oleidl-ioleobject?branch=master) or [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master)) but can also expose additional interfaces such as [**IOleLink**](/windows/win32/OleIdl/nn-oleidl-iolelink?branch=master).
 
 In the past, components have been tagged by adding a human-readable name ("Insertable", "Control", and so on) as a subkey to the **HKEY\_CLASSES\_ROOT\\CLSID\\{...}** registry key corresponding to the component. This works well for a central definition of categories but risks name collisions when many independent parties define new categories. As in other areas of COM, the solution to providing an extensible namespace lies in the use of globally unique identifiers (GUIDs). Instead of using a human-readable name, a unique number (CATID) is assigned to each category.
 

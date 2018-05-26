@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.effectCanGoFullScreen
 description: The effectCanGoFullScreen attribute retrieves a value indicating whether the current visualization can be displayed full-screen.
-ms.assetid: '48f042f4-f440-4ea1-8985-1d7dd52706ca'
-keywords: ["EFFECTS.effectCanGoFullScreen Windows Media Player"]
+ms.assetid: 48f042f4-f440-4ea1-8985-1d7dd52706ca
+keywords:
+- EFFECTS.effectCanGoFullScreen Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.effectCanGoFullScreen
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.effectCanGoFullScreen
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read-only **Boolean**.
 [**EFFECTS Element**](effects-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

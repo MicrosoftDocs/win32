@@ -1,14 +1,20 @@
 ---
 title: ScreensaverPasswordWarn element
 description: If present then this assessment prefers that the screen saver is not configured to display the log on screen when the screen resumes.
-ms.assetid: '4BC3C797-1D8B-4E53-BDFA-CE692F9F94B1'
-keywords: ["ScreensaverPasswordWarn element Access Execution Engine"]
+ms.assetid: 4BC3C797-1D8B-4E53-BDFA-CE692F9F94B1
+keywords:
+- ScreensaverPasswordWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ScreensaverPasswordWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScreensaverPasswordWarn element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'All resources used by the Direct3D pipeline derive from two basic resource types: buffers and textures. A buffer is a collection of raw data (elements); a texture is a collection of texels (texture elements).'
-ms.assetid: 'c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69'
-title: 'Resource Types (Direct3D 10)'
+---
+Description: All resources used by the Direct3D pipeline derive from two basic resource types buffers and textures. A buffer is a collection of raw data (elements); a texture is a collection of texels (texture elements).
+ms.assetid: c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69
+title: Resource Types (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Types (Direct3D 10)
@@ -55,12 +60,12 @@ This vertex buffer contains per-vertex data for eight vertices; each vertex stor
 
 To access data from a vertex buffer, you need to know which vertex to access and these other buffer parameters:
 
--   Offset - the number of bytes from the start of the buffer to the data for the first vertex. The offset is supplied to [**IASetVertexBuffers**](id3d10device-iasetvertexbuffers.md).
+-   Offset - the number of bytes from the start of the buffer to the data for the first vertex. The offset is supplied to [**IASetVertexBuffers**](/windows/win32/D3D10/nf-d3d10-id3d10device-iasetvertexbuffers?branch=master).
 -   BaseVertexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](direct3d11.d3d10_graphics_programming_guide_input_assembler_stage_getting_started)).
 
-Before you create a vertex buffer, you need to define its layout by creating an [**input-layout object**](id3d10inputlayout.md); this is done by calling [**CreateInputLayout**](id3d10device-createinputlayout.md). Once the input-layout object is created, bind it to the input-assembler stage by calling [**IASetInputLayout**](id3d10device-iasetinputlayout.md).
+Before you create a vertex buffer, you need to define its layout by creating an [**input-layout object**](/windows/win32/D3D10/?branch=master); this is done by calling [**CreateInputLayout**](/windows/win32/D3D10/nf-d3d10-id3d10device-createinputlayout?branch=master). Once the input-layout object is created, bind it to the input-assembler stage by calling [**IASetInputLayout**](/windows/win32/D3D10/nf-d3d10-id3d10device-iasetinputlayout?branch=master).
 
-To create a vertex buffer, call [**CreateBuffer**](id3d10device-createbuffer.md).
+To create a vertex buffer, call [**CreateBuffer**](/windows/win32/D3D10/nf-d3d10-id3d10device-createbuffer?branch=master).
 
 ### Index Buffer
 
@@ -70,11 +75,11 @@ An index buffer contains a sequential set of 16-bit or 32-bit indices; each inde
 
 The sequential indices stored in an index buffer are located with the following parameters:
 
--   Offset - the number of bytes from the start of the buffer to the first index. The offset is supplied to [**IASetIndexBuffer**](id3d10device-iasetindexbuffer.md).
+-   Offset - the number of bytes from the start of the buffer to the first index. The offset is supplied to [**IASetIndexBuffer**](/windows/win32/D3D10/nf-d3d10-id3d10device-iasetindexbuffer?branch=master).
 -   StartIndexLocation - the number of bytes from the offset to the first vertex used by the appropriate draw call (see [Draw Methods](direct3d10.d3d10_graphics_programming_guide_input_assembler_stage_getting_started)).
 -   IndexCount - the number of indices to render.
 
-To create an index buffer, call [**CreateBuffer**](id3d10device-createbuffer.md).
+To create an index buffer, call [**CreateBuffer**](/windows/win32/D3D10/nf-d3d10-id3d10device-createbuffer?branch=master).
 
 An index buffer can stitch together multiple [line or triangle strips](direct3d10.d3d10_graphics_programming_guide_primitive_topologies) by separating each with a strip-cut index. A strip-cut index allows multiple line or triangle strips to be drawn with a single draw call. A strip-cut index is simply the maximum possible value for the index (0xffff for a 16-bit index, 0xffffffff for a 32-bit index). The strip-cut index resets the winding order in indexed primitives and can be used to remove the need for degenerate triangles that may otherwise be required to maintain proper winding order in a triangle strip. The following illustration shows an example of a strip-cut index.
 
@@ -90,11 +95,11 @@ Each element stores a 1-to-4 component constant, determined by the format of the
 
 Constant buffers reduce the bandwidth required to update shader constants by allowing shader constants to be grouped together and committed at the same time rather than making individual calls to commit each constant separately.
 
-To create a shader-constant buffer, call [**CreateBuffer**](id3d10device-createbuffer.md) and specify the constant-buffer bind flag D3D10\_BIND\_CONSTANT\_BUFFER (see [**D3D10\_BIND\_FLAG**](d3d10-bind-flag.md)).
+To create a shader-constant buffer, call [**CreateBuffer**](/windows/win32/D3D10/nf-d3d10-id3d10device-createbuffer?branch=master) and specify the constant-buffer bind flag D3D10\_BIND\_CONSTANT\_BUFFER (see [**D3D10\_BIND\_FLAG**](/windows/win32/D3D10/ne-d3d10-d3d10_bind_flag?branch=master)).
 
-To bind a shader-constant buffer to the pipeline, call one of these methods: [**GSSetConstantBuffers**](id3d10device-gssetconstantbuffers.md), [**PSSetConstantBuffers**](id3d10device-pssetconstantbuffers.md), or [**VSSetConstantBuffers**](id3d10device-vssetconstantbuffers.md).
+To bind a shader-constant buffer to the pipeline, call one of these methods: [**GSSetConstantBuffers**](/windows/win32/D3D10/nf-d3d10-id3d10device-gssetconstantbuffers?branch=master), [**PSSetConstantBuffers**](/windows/win32/D3D10/nf-d3d10-id3d10device-pssetconstantbuffers?branch=master), or [**VSSetConstantBuffers**](/windows/win32/D3D10/nf-d3d10-id3d10device-vssetconstantbuffers?branch=master).
 
-Note that when using the [**ID3D10Effect Interface**](id3d10effect.md) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](id3d10effect-getvariablebyname.md) and update the variable with one of the SetVariable methods such as [**SetMatrix**](id3d10effectmatrixvariable-setmatrix.md). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [tutorial 07](f604f2b2-ffcc-7b5d-2bba-28a66584232c).
+Note that when using the [**ID3D10Effect Interface**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effect?branch=master) interface the process of creating, binding and comitting a constant buffer is handled by the **ID3D10Effect Interface** instance. In that case it is only nescesary to get the variable from the effect with one of the GetVariable methods such as [**GetVariableByName**](/windows/win32/D3D10Effect/nf-d3d10effect-id3d10effect-getvariablebyname?branch=master) and update the variable with one of the SetVariable methods such as [**SetMatrix**](/windows/win32/D3D10Effect/nf-d3d10effect-id3d10effectmatrixvariable-setmatrix?branch=master). For an example of using **ID3D10Effect Interface** to manage a constant buffer see [tutorial 07](f604f2b2-ffcc-7b5d-2bba-28a66584232c).
 
 A shader continues to read variables in a constant buffer directly by variable name in the same manner variables that are not part of a constant buffer are read.
 
@@ -169,7 +174,7 @@ A 2D texture array that contains 6 textures may be read from within shaders with
 
 ### 3D Texture
 
-A Texture3D resource (also known as a volume texture) contains a 3D volume of texels. Since it is a texture resource, it may contain mipmap levels. A fully populated [**3D texture**](id3d10texture3d.md) looks like the following illustration.
+A Texture3D resource (also known as a volume texture) contains a 3D volume of texels. Since it is a texture resource, it may contain mipmap levels. A fully populated [**3D texture**](/windows/win32/D3D10/nn-d3d10-id3d10texture3d?branch=master) looks like the following illustration.
 
 ![illustration of a 3d texture resource](images/d3d10-resource-texture3d.png)
 
@@ -197,7 +202,7 @@ Think of this as a single texture that is made up of three subtextures. Each sub
 
 ### Selecting Subresources
 
-Some API's access an entire resource (for example [**CopyResource**](id3d10device-copyresource.md)), others access a portion of a resource (for example [**UpdateSubresource**](id3d10device-updatesubresource.md) or [**CopySubresourceRegion**](id3d10device-copysubresourceregion.md)). The API's that access a portion of a resource generally use a view description (such as [**D3D10\_TEX2D\_ARRAY\_DSV**](d3d10-tex2d-array-dsv.md)) to specify the subresources to access.
+Some API's access an entire resource (for example [**CopyResource**](/windows/win32/D3D10/nf-d3d10-id3d10device-copyresource?branch=master)), others access a portion of a resource (for example [**UpdateSubresource**](/windows/win32/D3D10/nf-d3d10-id3d10device-updatesubresource?branch=master) or [**CopySubresourceRegion**](/windows/win32/D3D10/nf-d3d10-id3d10device-copysubresourceregion?branch=master)). The API's that access a portion of a resource generally use a view description (such as [**D3D10\_TEX2D\_ARRAY\_DSV**](/windows/win32/D3D10/ns-d3d10-d3d10_tex2d_array_dsv?branch=master)) to specify the subresources to access.
 
 These figures illustrate the terms used by a view description when accessing an array of textures.
 
@@ -225,7 +230,7 @@ Or you can use these two types of slices with the number of mipmap levels and/or
 
 ![illustration of choosing multiple subresources](images/d3d10-resource-subresources-2.png)
 
-Regardless of what texture type you are using, with or without mipmaps, with or without a texture array, you can use the helper function, [**D3D10CalcSubresource**](d3d10calcsubresource.md), to compute the index of a particular subresource.
+Regardless of what texture type you are using, with or without mipmaps, with or without a texture array, you can use the helper function, [**D3D10CalcSubresource**](/windows/win32/D3D10/nf-d3d10-d3d10calcsubresource?branch=master), to compute the index of a particular subresource.
 
 ### Strong vs. Weak Typing
 

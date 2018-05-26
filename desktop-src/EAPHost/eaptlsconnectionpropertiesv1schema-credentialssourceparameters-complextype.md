@@ -1,14 +1,20 @@
 ---
 title: CredentialsSourceParameters Complex Type
 description: Defines the element required to specify the source of the certificate to be used with an EAP-TLS authentication.
-ms.assetid: '1482694e-3025-4231-8154-4be0301fe5ce'
-keywords: ["CredentialsSourceParameters complex type EAPHost"]
+ms.assetid: 1482694e-3025-4231-8154-4be0301fe5ce
+keywords:
+- CredentialsSourceParameters complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - CredentialsSourceParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CredentialsSourceParameters Complex Type
@@ -51,8 +57,8 @@ The [**CertificateStore**](eaptlsconnectionpropertiesv1schema-certificatestore-c
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The [**CertificateStore**](eaptlsconnectionpropertiesv1schema-certificatestore-c
 [eaptlsconnectionpropertiesv1 Schema Complex Types](eaptlsconnectionpropertiesv1schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

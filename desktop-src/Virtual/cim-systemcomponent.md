@@ -1,8 +1,10 @@
 ---
 title: CIM\_SystemComponent class
 description: Represents an association between a system and one of the elements that compose it.
-ms.assetid: 'aa60a6a5-d111-428a-a057-aad4d17d39eb'
-keywords: ["CIM_SystemComponent class Hyper-V", "CIM_SystemComponent class Hyper-V , described"]
+ms.assetid: aa60a6a5-d111-428a-a057-aad4d17d39eb
+keywords:
+- CIM_SystemComponent class Hyper-V
+- CIM_SystemComponent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SystemComponent class
@@ -27,7 +34,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Association, Aggregation, Version("2.10.0"), AMENDMENT]
 class CIM_SystemComponent : CIM_Component
 {
-  CIM_System               REF GroupComponent;
+  CIM_System               REF GroupComponent;
   CIM_ManagedSystemElement REF PartComponent;
 };
 ```
@@ -83,9 +90,9 @@ The child element that is a component of the System.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ The child element that is a component of the System.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

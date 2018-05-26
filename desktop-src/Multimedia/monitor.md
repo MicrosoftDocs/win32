@@ -1,21 +1,27 @@
 ---
 title: monitor command
 description: The monitor command specifies the presentation source. (The default presentation source is the workspace.) Switching the presentation source switches all audio and video streams in the source. Digital-video devices recognize this command.
-ms.assetid: 'b6c476ef-d1a4-477d-a104-dda10be60915'
-keywords: ["monitor command Windows Multimedia"]
+ms.assetid: b6c476ef-d1a4-477d-a104-dda10be60915
+keywords:
+- monitor command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - monitor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # monitor command
 
 The monitor command specifies the presentation source. (The default presentation source is the workspace.) Switching the presentation source switches all audio and video streams in the source. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -53,7 +59,7 @@ One or more of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,8 +84,8 @@ The presentation source automatically switches to the workspace after a [play](p
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -111,9 +117,9 @@ The presentation source automatically switches to the workspace after a [play](p
 [step](step.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

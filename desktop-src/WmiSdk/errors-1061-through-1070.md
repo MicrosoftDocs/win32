@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 1061 through 1070.'
+Description: Describes WMI SNMP provider errors 1061 through 1070.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1bbd6153-7241-4673-ae17-1caa92b2e6a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1bbd6153-7241-4673-ae17-1caa92b2e6a6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1061 through 1070
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 1061 through 1070

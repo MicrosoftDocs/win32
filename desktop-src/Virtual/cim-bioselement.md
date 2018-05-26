@@ -1,8 +1,10 @@
 ---
 title: CIM\_BIOSElement class
 description: Represents the low-level software that is loaded into non-volatile storage and used to start up and configure a computer system (CIM\_ComputerSystem).
-ms.assetid: '34b8d0fe-bee7-45d7-983d-688a3f209f6e'
-keywords: ["CIM_BIOSElement class Hyper-V", "CIM_BIOSElement class Hyper-V , described"]
+ms.assetid: 34b8d0fe-bee7-45d7-983d-688a3f209f6e
+keywords:
+- CIM_BIOSElement class Hyper-V
+- CIM_BIOSElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BIOSElement class
@@ -56,37 +63,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("2.8.1000"), Abstract, AMENDMENT]
 class CIM_BIOSElement : CIM_SoftwareElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   Name;
-  uint16   SoftwareElementState;
-  string   SoftwareElementID;
-  uint16   TargetOperatingSystem;
-  string   OtherTargetOS;
-  string   BuildNumber;
-  string   SerialNumber;
-  string   CodeSet;
-  string   IdentificationCode;
-  string   LanguageEdition;
-  string   Version;
-  string   Manufacturer;
-  boolean  PrimaryBIOS;
-  string   ListOfLanguages[];
-  string   CurrentLanguage;
-  uint64   LoadedStartingAddress;
-  uint64   LoadedEndingAddress;
-  string   LoadUtilityInformation;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   Name;
+  uint16   SoftwareElementState;
+  string   SoftwareElementID;
+  uint16   TargetOperatingSystem;
+  string   OtherTargetOS;
+  string   BuildNumber;
+  string   SerialNumber;
+  string   CodeSet;
+  string   IdentificationCode;
+  string   LanguageEdition;
+  string   Version;
+  string   Manufacturer;
+  boolean  PrimaryBIOS;
+  string   ListOfLanguages[];
+  string   CurrentLanguage;
+  uint64   LoadedStartingAddress;
+  uint64   LoadedEndingAddress;
+  string   LoadUtilityInformation;
   datetime ReleaseDate;
-  uint8    EmbeddedControllerFirmwareMinorRelease;
-  uint8    EmbeddedControllerFirmwareMajorRelease;
-  uint8    SystemBIOSMinorRelease;
-  uint8    SystemBIOSMajorRelease;
+  uint8    EmbeddedControllerFirmwareMinorRelease;
+  uint8    EmbeddedControllerFirmwareMajorRelease;
+  uint8    SystemBIOSMinorRelease;
+  uint8    SystemBIOSMajorRelease;
 };
 ```
 
@@ -505,7 +512,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -899,7 +906,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1780,9 +1787,9 @@ The version of the operation. The version of the operation should be in one of t
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1795,9 +1802,9 @@ The version of the operation. The version of the operation should be in one of t
 [**CIM\_SoftwareElement**](cim-softwareelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

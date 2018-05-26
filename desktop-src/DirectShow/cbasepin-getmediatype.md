@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaType method retrieves a preferred media type, by index value.'
-ms.assetid: '96f102b0-e2d1-49a1-84af-aa4622cae2a9'
-title: 'CBasePin.GetMediaType method'
+Description: The GetMediaType method retrieves a preferred media type, by index value.
+ms.assetid: 96f102b0-e2d1-49a1-84af-aa4622cae2a9
+title: CBasePin.GetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.GetMediaType method
@@ -13,8 +18,8 @@ The `GetMediaType` method retrieves a preferred media type, by index value.
 
 ```C++
 virtual HRESULT GetMediaType(
-   int        iPosition,
-   CMediaType *pMediaType
+   int        iPosition,
+   CMediaType *pMediaType
 );
 ```
 
@@ -53,7 +58,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +84,9 @@ The base class returns E\_UNEXPECTED. Override this method in your derived class
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

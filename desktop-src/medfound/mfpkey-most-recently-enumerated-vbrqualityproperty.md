@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the VBR quality level of the most recently enumerated output type.'
-ms.assetid: '7d67e41f-060b-49a1-9e17-5db081ef4210'
-title: 'MFPKEY\_MOST\_RECENT\_ENUMERATED\_VBRQUALITY Property'
+---
+Description: Specifies the VBR quality level of the most recently enumerated output type.
+ms.assetid: 7d67e41f-060b-49a1-9e17-5db081ef4210
+title: MFPKEY\_MOST\_RECENT\_ENUMERATED\_VBRQUALITY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_MOST\_RECENT\_ENUMERATED\_VBRQUALITY Property
@@ -18,7 +23,7 @@ Available only by using [**IPropertyStore**](properties.IPropertyStore).
 
 ## Remarks
 
-When the encoder is acting as an Media Foundation Transform (MFT) and it enumerates an output type on a call to [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md), you can query the MFT for the **MFPKEY\_MOST\_RECENTLY\_ENUMERATED\_VBRQUALITY** property. The value returned indicates the VBR quality of the most recently returned output media type. Then you can use that value to set the [**MFPKEY\_DESIRED\_VBRQUALITY**](mfpkey-desired-vbrqualityproperty.md) property of the encoder.
+When the encoder is acting as an Media Foundation Transform (MFT) and it enumerates an output type on a call to [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master), you can query the MFT for the **MFPKEY\_MOST\_RECENTLY\_ENUMERATED\_VBRQUALITY** property. The value returned indicates the VBR quality of the most recently returned output media type. Then you can use that value to set the [**MFPKEY\_DESIRED\_VBRQUALITY**](mfpkey-desired-vbrqualityproperty.md) property of the encoder.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
 title: Storage routines
 description: For information about using these routines, see Storage driver design guide.
-ms.assetid: '767cd375-fec2-46f6-b8fe-6989cdc80888'
+ms.assetid: 767cd375-fec2-46f6-b8fe-6989cdc80888
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage routines

@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_CI\_SCOPE\_FLAGS
 description: DBPROP\_CI\_SCOPE\_FLAGS
-ms.assetid: '5ff75464-55d3-4d27-9046-37a765cc99a0'
-keywords: ["DBPROP_CI_SCOPE_FLAGS"]
+ms.assetid: 5ff75464-55d3-4d27-9046-37a765cc99a0
+keywords:
+- DBPROP_CI_SCOPE_FLAGS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_CI\_SCOPE\_FLAGS

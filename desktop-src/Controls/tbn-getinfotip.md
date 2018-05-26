@@ -1,8 +1,9 @@
 ---
 title: TBN\_GETINFOTIP notification code
 description: Retrieves infotip information for a toolbar item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '877de60c-f6e1-440a-81f0-d66ab443c985'
-keywords: ["TBN_GETINFOTIP notification code Windows Controls"]
+ms.assetid: 877de60c-f6e1-440a-81f0-d66ab443c985
+keywords:
+- TBN_GETINFOTIP notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_GETINFOTIP notification code
@@ -35,7 +41,7 @@ TBN_GETINFOTIP
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTBGETINFOTIP**](nmtbgetinfotip.md) structure that contains item information and receives infotip information.
+Pointer to an [**NMTBGETINFOTIP**](/windows/win32/Commctrl/ns-commctrl-tagnmtbgetinfotipa?branch=master) structure that contains item information and receives infotip information.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ The infotip support in the toolbar allows the toolbar to display tooltips for it
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TBN\_GETINFOTIPW** (Unicode) and **TBN\_GETINFOTIPA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

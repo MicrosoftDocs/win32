@@ -1,7 +1,12 @@
 ---
 title: Exposing ActiveX Objects
 description: Exposing objects makes them available for programmatic use by other applications and programming tools.
-ms.assetid: 'f488675d-4104-40e9-8ee1-265ce92188b3'
+ms.assetid: f488675d-4104-40e9-8ee1-265ce92188b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposing ActiveX Objects
@@ -11,7 +16,7 @@ Exposing objects makes them available for programmatic use by other applications
 > [!Note]  
 > Throughout this section, the file names of sample applications appear in parentheses before the sample code.
 
- 
+ 
 
 ## In this section
 
@@ -24,15 +29,15 @@ Exposing objects makes them available for programmatic use by other applications
 | [Type Libraries and ActiveX Objects](type-libraries-and-activex-objects.md)<br/>               | You must create a type library for each set of exposed objects.<br/>                                                                                   |
 | [Hello Sample](hello-sample.md)<br/>                                                           | The Hello sample is an Automation application with one object.<br/>                                                                                    |
 | [Lines Sample](lines-sample.md)<br/>                                                           | The Lines sample is an ActiveX component application that implements collections.<br/>                                                                 |
-| [Supporting Multiple National Languages](supporting-multiple-national-languages.md)<br/>       | The [**IDispatch**](idispatch.md) interface provides a range of solutions that vary in cost of implementation and quality of language support.<br/>   |
+| [Supporting Multiple National Languages](supporting-multiple-national-languages.md)<br/>       | The [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface provides a range of solutions that vary in cost of implementation and quality of language support.<br/>   |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

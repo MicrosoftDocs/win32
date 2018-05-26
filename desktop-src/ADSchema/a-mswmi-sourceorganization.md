@@ -4,17 +4,22 @@ description: The business organization that initially created a policy object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '11ac94d7-4f72-4627-81db-ae1bb23177d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 11ac94d7-4f72-4627-81db-ae1bb23177d3
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-SourceOrganization attribute AD Schema", "msWMI-SourceOrganization attribute AD Schema"]
+keywords:
+- ms-WMI-SourceOrganization attribute AD Schema
+- msWMI-SourceOrganization attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-SourceOrganization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-SourceOrganization attribute
@@ -38,11 +43,11 @@ The business organization that initially created a policy object.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The business organization that initially created a policy object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

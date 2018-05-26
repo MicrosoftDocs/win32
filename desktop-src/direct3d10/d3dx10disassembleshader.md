@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists.'
-ms.assetid: 'f94264f8-121a-4bb7-bf1f-cc5d2cac6cd2'
+---
+Description: Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists.
+ms.assetid: f94264f8-121a-4bb7-bf1f-cc5d2cac6cd2
 title: D3DX10DisassembleShader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10DisassembleShader function
@@ -37,7 +42,7 @@ HRESULT D3DX10DisassembleShader(
 
 Type: **const void\***
 
-A pointer to the [**compiled shader**](id3d10device-createinputlayout.md).
+A pointer to the [**compiled shader**](/windows/win32/D3D10/nf-d3d10-id3d10device-createinputlayout?branch=master).
 
 </dd> <dt>
 
@@ -71,9 +76,9 @@ The comment string at the top of the shader that identifies the shader constants
 *ppDisassembly* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-Address of a buffer (see [**ID3D10Blob Interface**](id3d10blob.md)) which contains the disassembled shader.
+Address of a buffer (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) which contains the disassembled shader.
 
 </dd> </dl>
 

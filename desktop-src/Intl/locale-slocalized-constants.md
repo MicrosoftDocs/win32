@@ -1,7 +1,12 @@
-﻿---
-Description: 'LOCALE\_SLOCALIZED\* Constants'
-ms.assetid: '1f91461a-ece3-4c71-b399-3d22eec368a9'
-title: 'LOCALE\_SLOCALIZED\* Constants'
+---
+Description: LOCALE\_SLOCALIZED\* Constants
+ms.assetid: 1f91461a-ece3-4c71-b399-3d22eec368a9
+title: LOCALE\_SLOCALIZED\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SLOCALIZED\* Constants

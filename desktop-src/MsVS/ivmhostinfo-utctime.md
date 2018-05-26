@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo UTCTime property
 description: The UTCTime property contains the current UTC time on the host machine.
-ms.assetid: '50fbac09-8dcf-4c7c-abf4-527b50d6514f'
-keywords: ["UTCTime property Virtual Server", "UTCTime property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , UTCTime property", "UTCTime property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , UTCTime property"]
+ms.assetid: 50fbac09-8dcf-4c7c-abf4-527b50d6514f
+keywords:
+- UTCTime property Virtual Server
+- UTCTime property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , UTCTime property
+- UTCTime property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , UTCTime property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::UTCTime property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_UTCTime(
-  [out] DATE *UTCTime
+  [out] DATE *UTCTime
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

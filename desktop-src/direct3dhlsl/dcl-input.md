@@ -1,7 +1,12 @@
 ---
 title: dcl\_input (sm4 - asm)
 description: dcl\_input (sm4 - asm)
-ms.assetid: '13456f2a-ee6c-42da-a9fe-670ab0fcbddf'
+ms.assetid: 13456f2a-ee6c-42da-a9fe-670ab0fcbddf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_input (sm4 - asm)
@@ -15,7 +20,7 @@ Declares a shader-input register.
 
 
 
- 
+ 
 
 
 
@@ -55,7 +60,7 @@ Declares a shader-input register.
 
 
 
- 
+ 
 
 ### Interpolation Notes
 
@@ -73,7 +78,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 To identify the input as a system value, use [dcl\_input\_sv (sm4 - asm)](dcl-input-sv.md).
 
@@ -109,7 +114,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -118,9 +123,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

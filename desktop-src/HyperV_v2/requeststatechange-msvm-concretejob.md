@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the job be changed to the specified state.'
-ms.assetid: '5D7D7D20-4BB9-4375-BBBF-7AA64FEE6D13'
-title: 'RequestStateChange method of the Msvm\_ConcreteJob class'
+Description: Requests that the state of the job be changed to the specified state.
+ms.assetid: 5D7D7D20-4BB9-4375-BBBF-7AA64FEE6D13
+title: RequestStateChange method of the Msvm\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_ConcreteJob class
@@ -13,8 +18,8 @@ Requests that the state of the job be changed to the specified state. Invoking t
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -148,7 +153,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -163,10 +168,10 @@ This method returns one of the following values.
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Remarks
@@ -179,8 +184,8 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -194,9 +199,9 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 [**Msvm\_ConcreteJob**](msvm-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

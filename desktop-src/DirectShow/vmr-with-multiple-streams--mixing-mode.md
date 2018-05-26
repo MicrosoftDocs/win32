@@ -1,7 +1,12 @@
 ---
-Description: 'VMR with Multiple Streams (Mixing Mode)'
-ms.assetid: '053edb70-8631-4fe4-a137-2fe54e02ab9e'
-title: 'VMR with Multiple Streams (Mixing Mode)'
+Description: VMR with Multiple Streams (Mixing Mode)
+ms.assetid: 053edb70-8631-4fe4-a137-2fe54e02ab9e
+title: VMR with Multiple Streams (Mixing Mode)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR with Multiple Streams (Mixing Mode)
@@ -19,15 +24,15 @@ Mixing mode requires that the graphics driver supports the DDCAPS\_BLTFOURCC and
 
 To render multiple input streams with the VMR-7, do the following:
 
-1.  Before connecting any of the VMR's input pins, call the [**IVMRFilterConfig::SetNumberOfStreams**](ivmrfilterconfig-setnumberofstreams.md) method with the number of streams. This causes the VMR to load the mixer and compositor and to create the specified number of input pins.
-2.  Call [**IVMRFilterConfig::SetRenderingPrefs**](ivmrfilterconfig-setrenderingprefs.md) to specify various rendering preferences.
-3.  Connect the pins to the upstream filters. The easiest way to do this is to call [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) for each input stream. If the output pin on the upstream filter (usually a decoder) and the input pin on the VMR cannot agree on a connection, then a new instance of the VMR with default settings will be created. This will result in a new window with "ActiveMovie" in the title bar. To prevent this from happening, the application should always verify that the correct instance of the VMR is being used by calling a method such as [**IPin::ConnectedTo**](ipin-connectedto.md). Another option is to add the source filter and then connect the pins using **IGraphBuilder::Connect**.
-4.  Use the [**IVMRMixerControl**](ivmrmixercontrol.md) interface on the VMR to control parameters for each stream, such as the alpha value, the Z-ordering, and the output rectangle.
+1.  Before connecting any of the VMR's input pins, call the [**IVMRFilterConfig::SetNumberOfStreams**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams?branch=master) method with the number of streams. This causes the VMR to load the mixer and compositor and to create the specified number of input pins.
+2.  Call [**IVMRFilterConfig::SetRenderingPrefs**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs?branch=master) to specify various rendering preferences.
+3.  Connect the pins to the upstream filters. The easiest way to do this is to call [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) for each input stream. If the output pin on the upstream filter (usually a decoder) and the input pin on the VMR cannot agree on a connection, then a new instance of the VMR with default settings will be created. This will result in a new window with "ActiveMovie" in the title bar. To prevent this from happening, the application should always verify that the correct instance of the VMR is being used by calling a method such as [**IPin::ConnectedTo**](/windows/win32/Strmif/nf-strmif-ipin-connectedto?branch=master). Another option is to add the source filter and then connect the pins using **IGraphBuilder::Connect**.
+4.  Use the [**IVMRMixerControl**](/windows/win32/Strmif/nn-strmif-ivmrmixercontrol?branch=master) interface on the VMR to control parameters for each stream, such as the alpha value, the Z-ordering, and the output rectangle.
 5.  Run the filter graph.
 
 **Configuring the VMR-9 for Multiple Streams**
 
-By default, the VMR-9 creates four input pins. If you want to mix more than four video streams, call [**IVMRFilterConfig9::SetNumberOfStreams**](ivmrfilterconfig9-setnumberofstreams.md) before connecting any input pins. Use the [**IVMRMixerControl9**](ivmrmixercontrol9.md) interface to set the stream parameters, such as alpha, Z-order, and position.
+By default, the VMR-9 creates four input pins. If you want to mix more than four video streams, call [**IVMRFilterConfig9::SetNumberOfStreams**](/windows/win32/Vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams?branch=master) before connecting any input pins. Use the [**IVMRMixerControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrmixercontrol9?branch=master) interface to set the stream parameters, such as alpha, Z-order, and position.
 
 ## Related topics
 

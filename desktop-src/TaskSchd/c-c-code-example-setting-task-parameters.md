@@ -1,8 +1,14 @@
 ---
 title: C/C++ Code Example Setting Task Parameters
 description: This example clears all command-line parameters associated with a known task. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'cd71379a-7eb2-4966-a28b-5b7d31d60c16'
-keywords: ["setting task properties Task Scheduler , parameters"]
+ms.assetid: cd71379a-7eb2-4966-a28b-5b7d31d60c16
+keywords:
+- setting task properties Task Scheduler , parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting Task Parameters

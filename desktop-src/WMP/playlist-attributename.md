@@ -1,8 +1,9 @@
 ---
 title: Playlist.attributeName
 description: The attributeName property retrieves the name of an attribute at a specified index.
-ms.assetid: '3ff68e78-5fa1-4ca6-aa59-4752dbaee52a'
-keywords: ["Playlist.attributeName Windows Media Player"]
+ms.assetid: 3ff68e78-5fa1-4ca6-aa59-4752dbaee52a
+keywords:
+- Playlist.attributeName Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.attributeName
@@ -74,9 +80,9 @@ See the [attributeCount](playlist-attributecount.md) property for example code t
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

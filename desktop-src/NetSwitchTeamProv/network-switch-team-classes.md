@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for NetSwitchTeam provider classes declared in NetSwitchTeam.mof and implemented in NetSwitchTeamCim.dll.'
-ms.assetid: 'B51ABE20-F273-4261-AF54-16900A7B9F3C'
+Description: This section provides reference information for NetSwitchTeam provider classes declared in NetSwitchTeam.mof and implemented in NetSwitchTeamCim.dll.
+ms.assetid: B51ABE20-F273-4261-AF54-16900A7B9F3C
 title: NetSwitchTeam Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetSwitchTeam Provider
@@ -22,11 +27,11 @@ This section provides reference information for **NetSwitchTeam** provider class
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

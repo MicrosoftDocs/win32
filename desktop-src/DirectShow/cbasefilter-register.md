@@ -1,7 +1,12 @@
 ---
-Description: 'The Register method adds the filter to the registry.'
-ms.assetid: '934e421a-25a6-40fa-a48b-6d7331f34b78'
-title: 'CBaseFilter.Register method'
+Description: The Register method adds the filter to the registry.
+ms.assetid: 934e421a-25a6-40fa-a48b-6d7331f34b78
+title: CBaseFilter.Register method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.Register method
@@ -11,7 +16,7 @@ The `Register` method adds the filter to the registry.
 > [!Note]  
 > This method is obsolete. New filters should be registered using the [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) function. For more information, see [How to Register DirectShow Filters](how-to-register-directshow-filters.md).
 
- 
+ 
 
 ## Syntax
 
@@ -39,7 +44,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +64,9 @@ Returns one of the **HRESULT** values listed in the following table.
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

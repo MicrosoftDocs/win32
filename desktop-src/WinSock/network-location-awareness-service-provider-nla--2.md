@@ -1,7 +1,12 @@
 ---
-Description: 'Personal computers running Microsoft Windows often have numerous network connections, such as multiple network interface cards (NIC) connected to different networks, or a physical network connection and a dial-up connection.'
-ms.assetid: '73a1999d-0c19-4f9d-8e47-07f819874535'
-title: 'Network Location Awareness Service Provider (NLA)'
+Description: Personal computers running Microsoft Windows often have numerous network connections, such as multiple network interface cards (NIC) connected to different networks, or a physical network connection and a dial-up connection.
+ms.assetid: 73a1999d-0c19-4f9d-8e47-07f819874535
+title: Network Location Awareness Service Provider (NLA)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Location Awareness Service Provider (NLA)

@@ -1,7 +1,12 @@
 ---
-Description: 'The EmbeddedUIHandler function prototype defines a callback function exported by the embedded UI DLL that is defined in the MsiEmbeddedUI table. Call the EmbeddedUIHandler function once for each message sent to the user interface.'
-ms.assetid: '456b1db4-2b5b-4dfb-86a4-0bfb82490d83'
+Description: The EmbeddedUIHandler function prototype defines a callback function exported by the embedded UI DLL that is defined in the MsiEmbeddedUI table. Call the EmbeddedUIHandler function once for each message sent to the user interface.
+ms.assetid: 456b1db4-2b5b-4dfb-86a4-0bfb82490d83
 title: EmbeddedUIHandler callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmbeddedUIHandler callback function
@@ -15,8 +20,8 @@ The *EmbeddedUIHandler* function prototype defines a callback function exported 
 
 ```C++
 INT CALLBACK EmbeddedUIHandler(
-   UINT      uiMessageType,
-   MSIHANDLE hRecord
+   UINT      uiMessageType,
+   MSIHANDLE hRecord
 );
 ```
 
@@ -46,7 +51,7 @@ Include one of the following message box styles. If no value is specified, use M
 
 
 
- 
+ 
 
 Include one of the following message box icon types. If no value is specified, use no icon.
 
@@ -61,7 +66,7 @@ Include one of the following message box icon types. If no value is specified, u
 
 
 
- 
+ 
 
 Include one of the following default buttons. If no value is specified, use MB\_DEFBUTTON1.
 
@@ -75,7 +80,7 @@ Include one of the following default buttons. If no value is specified, use MB\_
 
 
 
- 
+ 
 
 Include one of the following installation message types. There is no default installation message type; an installation message type is always specified.
 
@@ -104,7 +109,7 @@ Include one of the following installation message types. There is no default ins
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -128,7 +133,7 @@ The *EmbeddedUIHandler* function can return the following values.
 
 
 
- 
+ 
 
 The following return values map to the buttons specified by the message box style:
 
@@ -150,14 +155,14 @@ For an example of the *EmbeddedUIHandler* function see [Using an Embedded UI](us
 
 |                    |                                                                                                                                                                                                           |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.5 on Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.5 on Windows Server 2008, Windows Vista, Windows Server 2003, and Windows XP<br/> |
 | Header<br/>  | <dl> <dt>Msi.h</dt> </dl>                                                                                                                          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Web Application Proxy
 description: Web Application Proxy
-ms.assetid: 'DE47843C-D58B-4C71-99C2-D54073CBA531'
+ms.assetid: DE47843C-D58B-4C71-99C2-D54073CBA531
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Application Proxy

@@ -1,8 +1,14 @@
 ---
 title: Using the Microsoft Linguistic Information Sound Editing Tool
 description: Using the Microsoft Linguistic Information Sound Editing Tool
-ms.assetid: '6f029798-129e-4d63-b92e-94e3b902480c'
-keywords: ["Microsoft Linguistic Information Sound Editing tool"]
+ms.assetid: 6f029798-129e-4d63-b92e-94e3b902480c
+keywords:
+- Microsoft Linguistic Information Sound Editing tool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Microsoft Linguistic Information Sound Editing Tool

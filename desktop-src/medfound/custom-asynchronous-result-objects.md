@@ -1,20 +1,25 @@
 ---
 Description: Custom Asynchronous Result Objects
-ms.assetid: '78cef367-b007-46d5-bb7f-2b3f7eed9926'
+ms.assetid: 78cef367-b007-46d5-bb7f-2b3f7eed9926
 title: Custom Asynchronous Result Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Asynchronous Result Objects
 
-This topic describes how to implement the [**IMFAsyncResult**](imfasyncresult.md) interface.
+This topic describes how to implement the [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) interface.
 
-It is rare that you will need to write a custom implementation of the [**IMFAsyncResult**](imfasyncresult.md) interface. In almost all cases, the standard Media Foundation implementation is sufficient. (This implementation is returned by the [**MFCreateAsyncResult**](mfcreateasyncresult.md) function.) However, if you do write a custom implementation, there are some issues to be aware of.
+It is rare that you will need to write a custom implementation of the [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) interface. In almost all cases, the standard Media Foundation implementation is sufficient. (This implementation is returned by the [**MFCreateAsyncResult**](/windows/win32/mfapi/nf-mfapi-mfcreateasyncresult?branch=master) function.) However, if you do write a custom implementation, there are some issues to be aware of.
 
-First, your implementation must inherit the [**MFASYNCRESULT**](mfasyncresult.md) structure. The Media Foundation work queues use this structure internally to dispatch the operation. Initialize all of the structure members to zero, except for the **pCallback** member, which contains a pointer to the caller's callback interface.
+First, your implementation must inherit the [**MFASYNCRESULT**](/windows/win32/mfapi/ns-mfapi-tagmfasyncresult?branch=master) structure. The Media Foundation work queues use this structure internally to dispatch the operation. Initialize all of the structure members to zero, except for the **pCallback** member, which contains a pointer to the caller's callback interface.
 
-Second, your object should call [**MFLockPlatform**](mflockplatform.md) in its constructor, to lock the Media Foundation platform. Call [**MFUnlockPlatform**](mfunlockplatform.md) to unlock the platform. These functions help to prevent the platform from shutting down before the object is destroyed. For more information, see [Work Queues](work-queues.md).
+Second, your object should call [**MFLockPlatform**](/windows/win32/mfapi/nf-mfapi-mflockplatform?branch=master) in its constructor, to lock the Media Foundation platform. Call [**MFUnlockPlatform**](/windows/win32/mfapi/nf-mfapi-mfunlockplatform?branch=master) to unlock the platform. These functions help to prevent the platform from shutting down before the object is destroyed. For more information, see [Work Queues](work-queues.md).
 
-The following code shows a basic implementation of the [**IMFAsyncResult**](imfasyncresult.md) interface. As shown, this code provides no additional features beyond the standard Media Foundation implementation.
+The following code shows a basic implementation of the [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) interface. As shown, this code provides no additional features beyond the standard Media Foundation implementation.
 
 
 ```C++

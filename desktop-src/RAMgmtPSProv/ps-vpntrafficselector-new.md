@@ -2,13 +2,19 @@
 title: New method of the PS\_VpnTrafficSelector class
 description: Creates a new traffic selector.
 audience: developer
-ms.assetid: '1AE0E6CF-BB35-4B10-A059-4155815D27DE'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1AE0E6CF-BB35-4B10-A059-4155815D27DE
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["New method", "New method, PS_VpnTrafficSelector interface", "PS_VpnTrafficSelector interface, New method"]
+keywords:
+- New method
+- New method, PS_VpnTrafficSelector interface
+- PS_VpnTrafficSelector interface, New method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # New method of the PS\_VpnTrafficSelector class
@@ -20,12 +26,12 @@ Creates a new traffic selector.
 
 ```mof
 uint32 New(
-  [in]  string             IPAddressRange[],
-  [in]  uint32             PortRange[],
-  [in]  uint32             ProtocolId,
-  [in]  uint16             TsPayloadId,
-  [in]  uint32             Type,
-  [out] VpnTrafficSelector cmdletOutput
+  [in]  string             IPAddressRange[],
+  [in]  uint32             PortRange[],
+  [in]  uint32             ProtocolId,
+  [in]  uint16             TsPayloadId,
+  [in]  uint32             Type,
+  [out] VpnTrafficSelector cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ An embedded instance of the resulting [**VpnTrafficSelector**](vpntrafficselecto
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ An embedded instance of the resulting [**VpnTrafficSelector**](vpntrafficselecto
 [**PS\_VpnTrafficSelector**](ps-vpntrafficselector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

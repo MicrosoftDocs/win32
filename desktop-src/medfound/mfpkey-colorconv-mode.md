@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the input stream is interlaced.'
-ms.assetid: 'd0d93151-5b0d-44a7-8497-f11b3e23a031'
-title: 'MFPKEY\_COLORCONV\_MODE Property'
+---
+Description: Specifies whether the input stream is interlaced.
+ms.assetid: d0d93151-5b0d-44a7-8497-f11b3e23a031
+title: MFPKEY\_COLORCONV\_MODE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLORCONV\_MODE Property

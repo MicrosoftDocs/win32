@@ -1,14 +1,20 @@
 ---
 title: CSymbolType Simple Type
 description: Defines a valid C/C++ symbol name.
-ms.assetid: 'd19827b6-2b61-4d75-ac9d-56a384b0cc4b'
-keywords: ["CSymbolType simple type EventLog"]
+ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
+keywords:
+- CSymbolType simple type EventLog
 topic_type:
 - apiref
 api_name:
 - CSymbolType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSymbolType Simple Type
@@ -45,14 +51,14 @@ If the symbol name is empty, the message compiler uses the **name** attribute of
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

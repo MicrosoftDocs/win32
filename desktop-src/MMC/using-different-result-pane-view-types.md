@@ -4,11 +4,15 @@ description: Using Different Result Pane View Types
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6c298348-3ce2-46fa-9b0a-b204774806b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6c298348-3ce2-46fa-9b0a-b204774806b6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["result pane view types MMC"]
+keywords:
+- result pane view types MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Different Result Pane View Types
@@ -20,7 +24,7 @@ MMC supports the following types of result pane views:
 -   Custom OCX view
 -   Custom webpage
 
-The data displayed in a result pane is accessed by means of the snap-in's [**IComponent**](icomponent.md) interface. When the user selects a scope item, the corresponding result data is displayed in the result pane. For a particular scope item, the snap-in can display one of the four types of result pane views.
+The data displayed in a result pane is accessed by means of the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) interface. When the user selects a scope item, the corresponding result data is displayed in the result pane. For a particular scope item, the snap-in can display one of the four types of result pane views.
 
 ## List Views
 

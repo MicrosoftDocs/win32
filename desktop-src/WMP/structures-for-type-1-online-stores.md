@@ -1,8 +1,17 @@
 ---
 title: Structures for Type 1 Online Stores
 description: Structures for Type 1 Online Stores
-ms.assetid: 'e1aff1a3-cf24-4292-afcd-92e77b178a3a'
-keywords: ["Windows Media Player online stores,structures", "online stores,structures", "type 1 online stores,structures", "structures,type 1 online stores"]
+ms.assetid: e1aff1a3-cf24-4292-afcd-92e77b178a3a
+keywords:
+- Windows Media Player online stores,structures
+- online stores,structures
+- type 1 online stores,structures
+- structures,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures for Type 1 Online Stores
@@ -18,7 +27,7 @@ The following structure is available for type 1 online stores using C++ code.
 
 | Structure                                    | Description                                 |
 |----------------------------------------------|---------------------------------------------|
-| [WMPContextMenuInfo](wmpcontextmenuinfo.md) | Contains data about a context menu command. |
+| [WMPContextMenuInfo](/windows/win32/contentpartner/ns-contentpartner-wmpcontextmenuinfo?branch=master) | Contains data about a context menu command. |
 
 
 

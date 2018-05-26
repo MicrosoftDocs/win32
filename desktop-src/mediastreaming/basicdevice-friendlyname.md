@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.FriendlyName property
 description: Gets the friendly name of the device.
-ms.assetid: 'C17143AD-845B-4665-B765-A1FB0D135F84'
-keywords: ["FriendlyName property Media Streaming API", "FriendlyName property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , FriendlyName property"]
+ms.assetid: C17143AD-845B-4665-B765-A1FB0D135F84
+keywords:
+- FriendlyName property Media Streaming API
+- FriendlyName property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , FriendlyName property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.FriendlyName
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.FriendlyName property

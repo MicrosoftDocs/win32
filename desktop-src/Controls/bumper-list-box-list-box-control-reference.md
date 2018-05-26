@@ -1,7 +1,12 @@
 ---
 title: List Box Control Reference
 description: .
-ms.assetid: '2d0810f9-ca3e-479a-8be0-a40b088ad989'
+ms.assetid: 2d0810f9-ca3e-479a-8be0-a40b088ad989
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Box Control Reference

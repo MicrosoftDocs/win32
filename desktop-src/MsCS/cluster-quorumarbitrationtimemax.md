@@ -4,17 +4,22 @@ description: Specifies the maximum number of seconds a node is allowed to spend 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6618195c-9d2b-435f-92c9-4cd4e9fd77bc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6618195c-9d2b-435f-92c9-4cd4e9fd77bc
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["QuorumArbitrationTimeMax Failover Cluster ,for clusters", "QuorumArbitrationTimeMax Failover Cluster"]
+keywords:
+- QuorumArbitrationTimeMax Failover Cluster ,for clusters
+- QuorumArbitrationTimeMax Failover Cluster
 topic_type:
 - apiref
 api_name:
 - QuorumArbitrationTimeMax
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QuorumArbitrationTimeMax
@@ -27,20 +32,20 @@ Specifies the maximum number of seconds a [node](nodes.md) is allowed to spend a
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 1                                         |
 | Maximum   | 3600                                      |
 | Default   | 20                                        |
 
 
 
- 
+ 
 
 ## Remarks
 
 The constant for this property is **CLUSREG\_NAME\_QUORUM\_ARBITRATION\_TIMEOUT**.
 
-**Windows Server 2008:** The default is 60 seconds.
+**Windows Server 2008:** The default is 60 seconds.
 
 ## Examples
 
@@ -65,7 +70,7 @@ QuorumArbitrationTimeMaxValue.dw = QuorumArbitrationTimeMaxData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -73,12 +78,12 @@ QuorumArbitrationTimeMaxValue.dw = QuorumArbitrationTimeMaxData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

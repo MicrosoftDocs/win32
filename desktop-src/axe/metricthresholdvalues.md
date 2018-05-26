@@ -1,14 +1,20 @@
 ---
 title: MetricThresholdValues element
 description: A container element for MetricThresholdValue elements.
-ms.assetid: '1EA24672-CCE5-420D-BAFB-0CCEE2DAB036'
-keywords: ["MetricThresholdValues element Access Execution Engine"]
+ms.assetid: 1EA24672-CCE5-420D-BAFB-0CCEE2DAB036
+keywords:
+- MetricThresholdValues element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricThresholdValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValues element

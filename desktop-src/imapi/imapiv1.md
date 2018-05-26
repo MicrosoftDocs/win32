@@ -1,8 +1,16 @@
 ---
 title: IMAPIv1 Support
 description: Image Mastering API version 1 (IMAPIv1) lets an application stage and burn a simple audio or data image to CD-R and CD-RW devices. The API supports the Joliet and ISO 9660 formats for Redbook audio and data discs.
-ms.assetid: '745ac41e-9e46-4efd-816f-13627fab7398'
-keywords: ["Image Mastering API", "IMAPI", "IMAPI,(See Image Mastering API)"]
+ms.assetid: 745ac41e-9e46-4efd-816f-13627fab7398
+keywords:
+- Image Mastering API
+- IMAPI
+- IMAPI,(See Image Mastering API)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPIv1 Support

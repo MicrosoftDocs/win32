@@ -1,8 +1,9 @@
 ---
 title: LBN\_DBLCLK notification code
 description: Notifies the application that the user has double-clicked an item in a list box. The parent window of the list box receives this notification code through the WM\_COMMAND message.
-ms.assetid: '487282cb-833a-4123-987e-6a417fbd09d4'
-keywords: ["LBN_DBLCLK notification code Windows Controls"]
+ms.assetid: 487282cb-833a-4123-987e-6a417fbd09d4
+keywords:
+- LBN_DBLCLK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LBN\_DBLCLK notification code
@@ -55,8 +61,8 @@ This notification code is sent only by a list box that has the L[**BS\_NOTIFY**]
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ This notification code is sent only by a list box that has the L[**BS\_NOTIFY**]
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

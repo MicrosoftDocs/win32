@@ -1,12 +1,17 @@
 ---
-Description: 'Although you can specify any color for a pen when creating it, the system uses only colors that are available on the device.'
-ms.assetid: '2ea32786-f769-4096-8f60-f924c83ca9c8'
+Description: Although you can specify any color for a pen when creating it, the system uses only colors that are available on the device.
+ms.assetid: 2ea32786-f769-4096-8f60-f924c83ca9c8
 title: Creating Colored Pens and Brushes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Colored Pens and Brushes
 
-Although you can specify any color for a pen when creating it, the system uses only colors that are available on the device. This means the system uses the closest matching color when it realizes the pen for drawing. When creating brushes, the system generates a dithered color if you specify a color that the device does not support. In either case, you can use the [**RGB**](rgb.md) macro to specify a color when creating a pen or brush.
+Although you can specify any color for a pen when creating it, the system uses only colors that are available on the device. This means the system uses the closest matching color when it realizes the pen for drawing. When creating brushes, the system generates a dithered color if you specify a color that the device does not support. In either case, you can use the [**RGB**](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master) macro to specify a color when creating a pen or brush.
 
 
 ```C++

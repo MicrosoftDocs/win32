@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager GetAccountCount method
 description: Counts accounts of the specified type.
-ms.assetid: '8c44e230-52b8-4063-ab61-f7c21e15760c'
-keywords: ["GetAccountCount method Windows Mail (formerly Outlook Express)", "GetAccountCount method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , GetAccountCount method"]
+ms.assetid: 8c44e230-52b8-4063-ab61-f7c21e15760c
+keywords:
+- GetAccountCount method Windows Mail (formerly Outlook Express)
+- GetAccountCount method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , GetAccountCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::GetAccountCount method
@@ -24,8 +32,8 @@ Counts accounts of the specified type.
 
 ```C++
 HRESULT GetAccountCount(
-  [in]  ACCTTYPE AcctType,
-  [out] ULONG    *pcServers
+  [in]  ACCTTYPE AcctType,
+  [out] ULONG    *pcServers
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +84,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -85,9 +93,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

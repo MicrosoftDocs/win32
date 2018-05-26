@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETSPEED message
 description: The MCIWNDM\_GETSPEED message retrieves the playback speed of an MCI device. You can send this message explicitly or by using the MCIWndGetSpeed macro.
-ms.assetid: 'd10a8f88-e85e-449b-8655-bb0832031d59'
-keywords: ["MCIWNDM_GETSPEED message Windows Multimedia"]
+ms.assetid: d10a8f88-e85e-449b-8655-bb0832031d59
+keywords:
+- MCIWNDM_GETSPEED message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETSPEED message
 
-The **MCIWNDM\_GETSPEED** message retrieves the playback speed of an MCI device. You can send this message explicitly or by using the [**MCIWndGetSpeed**](mciwndgetspeed.md) macro.
+The **MCIWNDM\_GETSPEED** message retrieves the playback speed of an MCI device. You can send this message explicitly or by using the [**MCIWndGetSpeed**](/windows/win32/Vfw/nf-vfw-mciwndgetspeed?branch=master) macro.
 
 
 ```C++
@@ -36,8 +42,8 @@ Returns the playback speed if successful. The value for normal speed is 1000. La
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -46,12 +52,12 @@ Returns the playback speed if successful. The value for normal speed is 1000. La
 
 <dl> <dt>
 
-[**MCIWndGetSpeed**](mciwndgetspeed.md)
+[**MCIWndGetSpeed**](/windows/win32/Vfw/nf-vfw-mciwndgetspeed?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

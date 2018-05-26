@@ -1,7 +1,12 @@
 ---
 title: Single-Threaded Apartments
 description: Single-Threaded Apartments
-ms.assetid: '2f345ae2-8314-4067-a6d6-5a0275941ed4'
+ms.assetid: 2f345ae2-8314-4067-a6d6-5a0275941ed4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Single-Threaded Apartments
@@ -24,24 +29,24 @@ Rules for single-threaded apartments are simple, but it is important to follow t
 
 While multiple objects can live on a single thread, no apartment model object can live on more than one thread.
 
-Each thread of a client process or out-of-process server must call [**CoInitialize**](coinitialize.md), or call [**CoInitializeEx**](coinitializeex.md) and specify COINIT\_APARTMENTTHREADED for the *dwCoInit* parameter. The main apartment is the thread that calls **CoInitializeEx** first. For information on in-process servers, see [In-Process Server Threading Issues](in-process-server-threading-issues.md).
+Each thread of a client process or out-of-process server must call [**CoInitialize**](/windows/win32/Objbase/nf-objbase-coinitialize?branch=master), or call [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master) and specify COINIT\_APARTMENTTHREADED for the *dwCoInit* parameter. The main apartment is the thread that calls **CoInitializeEx** first. For information on in-process servers, see [In-Process Server Threading Issues](in-process-server-threading-issues.md).
 
 All calls to an object must be made on its thread (within its apartment). It is forbidden to call an object directly from another thread; using objects in this free-threaded manner could cause problems for applications. The implication of this rule is that all pointers to objects must be marshaled when passed between apartments. COM provides the following two functions for this purpose:
 
--   [**CoMarshalInterThreadInterfaceInStream**](comarshalinterthreadinterfaceinstream.md) marshals an interface into a stream object that is returned to the caller.
--   [**CoGetInterfaceAndReleaseStream**](cogetinterfaceandreleasestream.md) unmarshals an interface pointer from a stream object and releases it.
+-   [**CoMarshalInterThreadInterfaceInStream**](/windows/win32/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream?branch=master) marshals an interface into a stream object that is returned to the caller.
+-   [**CoGetInterfaceAndReleaseStream**](/windows/win32/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream?branch=master) unmarshals an interface pointer from a stream object and releases it.
 
-These functions wrap calls to [**CoMarshalInterface**](comarshalinterface.md) and [**CoUnmarshalInterface**](counmarshalinterface.md) functions, which require the use of the MSHCTX\_INPROC flag.
+These functions wrap calls to [**CoMarshalInterface**](/windows/win32/combaseapi/nf-combaseapi-comarshalinterface?branch=master) and [**CoUnmarshalInterface**](/windows/win32/combaseapi/nf-combaseapi-counmarshalinterface?branch=master) functions, which require the use of the MSHCTX\_INPROC flag.
 
-In general, the marshaling is accomplished automatically by COM. For example, when passing an interface pointer as a parameter in a method call on a proxy to an object in another apartment, or when calling [**CoCreateInstance**](cocreateinstance.md), COM does the marshaling automatically. However, in some special cases, where the application writer is passing interface pointers between apartments without using the normal COM mechanisms, the writer must handle the marshaling manually.
+In general, the marshaling is accomplished automatically by COM. For example, when passing an interface pointer as a parameter in a method call on a proxy to an object in another apartment, or when calling [**CoCreateInstance**](/windows/win32/combaseapi/nf-combaseapi-cocreateinstance?branch=master), COM does the marshaling automatically. However, in some special cases, where the application writer is passing interface pointers between apartments without using the normal COM mechanisms, the writer must handle the marshaling manually.
 
-If one apartment (Apartment 1) in a process has an interface pointer and another apartment (Apartment 2) requires its use, Apartment 1 must call [**CoMarshalInterThreadInterfaceInStream**](comarshalinterthreadinterfaceinstream.md) to marshal the interface. The stream that is created by this function is thread-safe and must be stored in a variable that is accessible by Apartment 2. Apartment 2 must pass this stream to [**CoGetInterfaceAndReleaseStream**](cogetinterfaceandreleasestream.md) to unmarshal the interface and will get back a pointer to a proxy through which it can access the interface. The main apartment must remain alive until the client has completed all COM work (because some in-process objects are loaded in the main apartment, as described in [In-Process Server Threading Issues](in-process-server-threading-issues.md)). After one object has been passed between threads in this manner, it is very easy to pass interface pointers as parameters. That way, distributed COM does the marshaling and thread switching for the application.
+If one apartment (Apartment 1) in a process has an interface pointer and another apartment (Apartment 2) requires its use, Apartment 1 must call [**CoMarshalInterThreadInterfaceInStream**](/windows/win32/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream?branch=master) to marshal the interface. The stream that is created by this function is thread-safe and must be stored in a variable that is accessible by Apartment 2. Apartment 2 must pass this stream to [**CoGetInterfaceAndReleaseStream**](/windows/win32/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream?branch=master) to unmarshal the interface and will get back a pointer to a proxy through which it can access the interface. The main apartment must remain alive until the client has completed all COM work (because some in-process objects are loaded in the main apartment, as described in [In-Process Server Threading Issues](in-process-server-threading-issues.md)). After one object has been passed between threads in this manner, it is very easy to pass interface pointers as parameters. That way, distributed COM does the marshaling and thread switching for the application.
 
 To handle calls from other processes and apartments within the same process, each single-threaded apartment must have a message loop. This means that the thread's work function must have a GetMessage/DispatchMessage loop. If other synchronization primitives are being used to communicate between threads, the [**MsgWaitForMultipleObjects**](https://msdn.microsoft.com/library/windows/desktop/ms684242) function can be used to wait both for messages and for thread synchronization events. The documentation for this function has an example of this sort of combination loop.
 
 COM creates a hidden window using the Windows class "OleMainThreadWndClass" in each single-threaded apartment. A call to an object is received as a window message to this hidden window. When the object's apartment retrieves and dispatches the message, the hidden window will receive it. The window procedure will then call the corresponding interface method of the object.
 
-When multiple clients call an object, the calls are queued in the message queue and the object will receive a call each time its apartment retrieves and dispatches messages. Because the calls are synchronized by COM and the calls are always delivered by the thread that belongs to the object's apartment, the object's interface implementations need not provide synchronization. Single-threaded apartments can implement [**IMessageFilter**](imessagefilter.md) to permit them to cancel calls or receive window messages when necessary.
+When multiple clients call an object, the calls are queued in the message queue and the object will receive a call each time its apartment retrieves and dispatches messages. Because the calls are synchronized by COM and the calls are always delivered by the thread that belongs to the object's apartment, the object's interface implementations need not provide synchronization. Single-threaded apartments can implement [**IMessageFilter**](/windows/win32/ObjIdl/nn-objidl-imessagefilter?branch=master) to permit them to cancel calls or receive window messages when necessary.
 
 The object can be reentered if one of its interface method implementations retrieves and dispatches messages or makes an ORPC call to another thread, thereby causing another call to be delivered to the object (by the same apartment). OLE does not prevent reentrancy on the same thread, but it can help provide thread safety. This is identical to the way in which a window procedure can be reentered if it retrieves and dispatches messages while processing a message. However, calling an out-of-process single-threaded apartment server that calls another single-threaded apartment server will allow the first server to be reentered.
 

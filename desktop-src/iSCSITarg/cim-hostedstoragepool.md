@@ -4,13 +4,15 @@ description: HostedStoragePool is a specialization of HostedResourcePool associa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2c02b23-fae4-4ce1-be86-9c89f50e6720'
-ms.prod: 'windows-server-dev'
+ms.assetid: d2c02b23-fae4-4ce1-be86-9c89f50e6720
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedStoragePool class iSCSI Software Target API", "CIM_HostedStoragePool class iSCSI Software Target API , described"]
+keywords:
+- CIM_HostedStoragePool class iSCSI Software Target API
+- CIM_HostedStoragePool class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedStoragePool class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Aggregation, Composition, Version("2.15.0"), UMLPackagePath("CIM::Device::StorageServices")]
 class CIM_HostedStoragePool : CIM_HostedResourcePool
 {
-  CIM_System      REF GroupComponent;
+  CIM_System      REF GroupComponent;
   CIM_StoragePool REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ The StoragePool that is a component of a System.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The StoragePool that is a component of a System.
 [**CIM\_HostedResourcePool**](cim-hostedresourcepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

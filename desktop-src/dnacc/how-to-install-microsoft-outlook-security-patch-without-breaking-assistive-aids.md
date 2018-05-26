@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '4c37e7cd-5c21-46a0-94a7-fe2c8627c30a'
+ms.assetid: 4c37e7cd-5c21-46a0-94a7-fe2c8627c30a
 title: How To Install Microsoft Outlook Security Update Without Breaking Assistive Aids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To Install Microsoft Outlook Security Update Without Breaking Assistive Aids

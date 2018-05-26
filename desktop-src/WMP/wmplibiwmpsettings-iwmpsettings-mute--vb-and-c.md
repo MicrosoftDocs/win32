@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings mute property
 description: The mute property gets or sets a value indicating whether audio is muted.
-ms.assetid: 'd99e47db-70cc-41e0-aca9-b765b075e7b4'
-keywords: ["mute property Windows Media Player", "mute property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , mute property"]
+ms.assetid: d99e47db-70cc-41e0-aca9-b765b075e7b4
+keywords:
+- mute property Windows Media Player
+- mute property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , mute property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::mute property
@@ -126,9 +134,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.rate (VB and C#)**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

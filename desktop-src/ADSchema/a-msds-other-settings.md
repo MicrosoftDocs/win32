@@ -4,17 +4,22 @@ description: This multiple-valued attribute is used to store any configurable se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e7d17c8e-6264-43d1-9010-9d589f93a086'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e7d17c8e-6264-43d1-9010-9d589f93a086
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Other-Settings attribute AD Schema", "msDS-Other-Settings attribute AD Schema"]
+keywords:
+- ms-DS-Other-Settings attribute AD Schema
+- msDS-Other-Settings attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Other-Settings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Other-Settings attribute
@@ -38,12 +43,12 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
- 
+ 
 
- 
+ 
 
 
 

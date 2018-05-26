@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxActivityLogging configuration object is used by a fax client application to retrieve and set options for activity logging. This includes setting whether entries for incoming and outgoing faxes should be logged and the location of the log file.'
-ms.assetid: '225afdb8-7249-4aa5-bbde-638adf02eb41'
+---
+Description: The FaxActivityLogging configuration object is used by a fax client application to retrieve and set options for activity logging. This includes setting whether entries for incoming and outgoing faxes should be logged and the location of the log file.
+ms.assetid: 225afdb8-7249-4aa5-bbde-638adf02eb41
 title: FaxActivityLogging object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivityLogging object
@@ -82,7 +87,7 @@ To create a **FaxActivityLogging** object in C++, call the [**ActivityLogging**]
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxActivityLogging**](-mfax-faxactivitylogging-cpp.md)
+[**IFaxActivityLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivitylogging?branch=master)
 </dt> </dl>
 
  

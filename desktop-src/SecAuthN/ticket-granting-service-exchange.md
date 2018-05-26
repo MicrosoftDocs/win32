@@ -1,7 +1,12 @@
 ---
-Description: 'After a ticket-granting ticket (TGT) and session key have been established for the client, the client can request a separate session key and ticket for the service.'
-ms.assetid: 'b4f63642-9282-4e11-b40c-eec406b2dd2b'
-title: 'Ticket-Granting Service Exchange'
+Description: After a ticket-granting ticket (TGT) and session key have been established for the client, the client can request a separate session key and ticket for the service.
+ms.assetid: b4f63642-9282-4e11-b40c-eec406b2dd2b
+title: Ticket-Granting Service Exchange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ticket-Granting Service Exchange

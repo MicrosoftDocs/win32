@@ -1,8 +1,19 @@
 ---
 title: Using Installable Drivers
 description: Using Installable Drivers
-ms.assetid: '23680369-92f9-4558-aa95-f2f44734cece'
-keywords: ["Windows multimedia,installable drivers", "multimedia,installable drivers", "installable drivers,about", "DriverProc function", "installable drivers,DriverProc function", "installable drivers,examples"]
+ms.assetid: 23680369-92f9-4558-aa95-f2f44734cece
+keywords:
+- Windows multimedia,installable drivers
+- multimedia,installable drivers
+- installable drivers,about
+- DriverProc function
+- installable drivers,DriverProc function
+- installable drivers,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Installable Drivers

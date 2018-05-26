@@ -1,8 +1,9 @@
 ---
 title: MCM\_HITTEST message
 description: Determines which portion of a month calendar control is at a given point on the screen. You can send this message explicitly or by using the MonthCal\_HitTest macro.
-ms.assetid: '51e74b07-4ed7-488d-ad5d-116f046577fc'
-keywords: ["MCM_HITTEST message Windows Controls"]
+ms.assetid: 51e74b07-4ed7-488d-ad5d-116f046577fc
+keywords:
+- MCM_HITTEST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_HITTEST message
 
-Determines which portion of a month calendar control is at a given point on the screen. You can send this message explicitly or by using the [**MonthCal\_HitTest**](monthcal-hittest.md) macro.
+Determines which portion of a month calendar control is at a given point on the screen. You can send this message explicitly or by using the [**MonthCal\_HitTest**](/windows/win32/Commctrl/nf-commctrl-monthcal_hittest?branch=master) macro.
 
 ## Parameters
 
@@ -27,7 +33,7 @@ Determines which portion of a month calendar control is at a given point on the 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**MCHITTESTINFO**](mchittestinfo.md) structure. Upon sending the message, the **cbSize** member must be set to the size of the **MCHITTESTINFO** structure, and **pt** must be set to the point you want to hit test.
+Pointer to an [**MCHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-mchittestinfo?branch=master) structure. Upon sending the message, the **cbSize** member must be set to the size of the **MCHITTESTINFO** structure, and **pt** must be set to the point you want to hit test.
 
 </dd> </dl>
 
@@ -55,11 +61,11 @@ Sets values in members of the
 | <dl> <dt>**MCHT\_TITLEBTNPREV**</dt> </dl>     | The given point was over the button at the top left corner of the control. If the user clicks here, the month calendar will scroll its display to the previous month or set of months. <br/>                                                                        |
 | <dl> <dt>**MCHT\_TITLEMONTH**</dt> </dl>       | The given point was in a month's title bar, over a month name.<br/>                                                                                                                                                                                                 |
 | <dl> <dt>**MCHT\_TITLEYEAR**</dt> </dl>        | The given point was in a month's title bar, over the year value.<br/>                                                                                                                                                                                               |
-| <dl> <dt>**MCHT\_TODAYLINK**</dt> </dl>        | The given point was on the "today" link at the bottom of the month calendar control.<br/> The **uHit** member of the [**MCHITTESTINFO**](mchittestinfo.md) structure at *lParam* will equal the return value. <br/>                                          |
+| <dl> <dt>**MCHT\_TODAYLINK**</dt> </dl>        | The given point was on the "today" link at the bottom of the month calendar control.<br/> The **uHit** member of the [**MCHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-mchittestinfo?branch=master) structure at *lParam* will equal the return value. <br/>                                          |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,15 +73,15 @@ Sets values in members of the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiEndDocEMF function ends EMF playback operations for an EMF-formatted print job.'
-ms.assetid: 'e58403d4-aacc-4d22-98e5-86db1a69c54a'
+---
+Description: The GdiEndDocEMF function ends EMF playback operations for an EMF-formatted print job.
+ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
 title: GdiEndDocEMF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiEndDocEMF function

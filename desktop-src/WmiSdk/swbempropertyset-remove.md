@@ -1,13 +1,16 @@
 ---
-Description: 'The Remove method of the SWbemPropertySet object deletes a property from the SWbemPropertySet collection.'
+Description: The Remove method of the SWbemPropertySet object deletes a property from the SWbemPropertySet collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2a1005db-033c-48f9-8ea0-0bd43b8c989f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2a1005db-033c-48f9-8ea0-0bd43b8c989f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPropertySet.Remove method'
+title: SWbemPropertySet.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPropertySet.Remove method
@@ -121,8 +124,8 @@ For a code example that uses this method, see the [**SWbemPropertySet**](swbempr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -141,9 +144,9 @@ For a code example that uses this method, see the [**SWbemPropertySet**](swbempr
 [**SWbemPropertySet.Add**](swbempropertyset-add.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

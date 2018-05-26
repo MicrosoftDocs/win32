@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the primary method to access PrintCapabilities.'
-ms.assetid: 'A148C1B4-99A3-4AF3-B2D6-73684978425F'
+---
+Description: Provides the primary method to access PrintCapabilities.
+ms.assetid: A148C1B4-99A3-4AF3-B2D6-73684978425F
 title: IPrintSchemaCapabilities interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities interface

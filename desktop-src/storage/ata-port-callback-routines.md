@@ -1,7 +1,12 @@
 ---
 title: ATA Port Callback Routines
 description: ATA Port Callback Routines
-ms.assetid: '64451edd-c35a-45fd-9af0-3735dc1e16fe'
+ms.assetid: 64451edd-c35a-45fd-9af0-3735dc1e16fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Callback Routines

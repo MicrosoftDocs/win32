@@ -1,8 +1,25 @@
 ---
 title: MusicBundleConsumption.cpp
 description: MusicBundleConsumption.cpp
-ms.assetid: '0b9db53b-5719-45ac-a23a-6bd9e1cac9dc'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle sample", "packaging,music bundle sample", "packages,music bundle sample", "music bundle sample,MusicBundleConsumption.cpp", "Packaging APIs,MusicBundleConsumption.cpp", "packaging,MusicBundleConsumption.cpp", "packages,MusicBundleConsumption.cpp", "MusicBundleConsumption.cpp", "sample applications,music bundle"]
+ms.assetid: 0b9db53b-5719-45ac-a23a-6bd9e1cac9dc
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle sample
+- packaging,music bundle sample
+- packages,music bundle sample
+- music bundle sample,MusicBundleConsumption.cpp
+- Packaging APIs,MusicBundleConsumption.cpp
+- packaging,MusicBundleConsumption.cpp
+- packages,MusicBundleConsumption.cpp
+- MusicBundleConsumption.cpp
+- sample applications,music bundle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MusicBundleConsumption.cpp

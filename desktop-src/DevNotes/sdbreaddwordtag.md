@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the DWORD value for the specified TAGID.'
-ms.assetid: '6610e101-9068-4812-b0ca-528658b62535'
+---
+Description: Retrieves the DWORD value for the specified TAGID.
+ms.assetid: 6610e101-9068-4812-b0ca-528658b62535
 title: SdbReadDWORDTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbReadDWORDTag function

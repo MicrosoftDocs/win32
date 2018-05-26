@@ -1,8 +1,11 @@
 ---
 title: GetSupportedClusterSizes method of the MSFT\_Volume class
 description: Retrieves the supported cluster sizes for the volume.
-ms.assetid: '5D1AE94F-37BB-4B0C-B98E-F19D95D69143'
-keywords: ["GetSupportedClusterSizes method Windows Storage Management API", "GetSupportedClusterSizes method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , GetSupportedClusterSizes method"]
+ms.assetid: 5D1AE94F-37BB-4B0C-B98E-F19D95D69143
+keywords:
+- GetSupportedClusterSizes method Windows Storage Management API
+- GetSupportedClusterSizes method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , GetSupportedClusterSizes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSupportedClusterSizes method of the MSFT\_Volume class
@@ -22,9 +30,9 @@ Retrieves the supported cluster sizes for the volume.
 
 ```mof
 UInt32 GetSupportedClusterSizes(
-  [in]  String FileSystem,
-  [out] UInt32 SupportedClusterSizes[],
-  [out] String ExtendedStatus
+  [in]  String FileSystem,
+  [out] UInt32 SupportedClusterSizes[],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -91,8 +99,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -105,9 +113,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

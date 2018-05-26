@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates a thumbnail toolbar, an active toolbar control embedded in a window''s thumbnail preview, used to provide access to a window''s key commands without making the user restore or activate the application''s window.'
+Description: Demonstrates a thumbnail toolbar, an active toolbar control embedded in a windows thumbnail preview, used to provide access to a windows key commands without making the user restore or activate the applications window.
 title: Taskbar Thumbnail Toolbar Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Taskbar Thumbnail Toolbar Sample
@@ -20,9 +25,9 @@ This topic contains the following sections.
 
 This sample shows how to provide a simple toolbar to a taskbar thumbnail preview. The toolbar consists of three buttons. Clicking a button displays a window to confirm that the button was activated. The following APIs are demonstrated:
 
--   [**ITaskbarList3::ThumbBarAddButtons**](itaskbarlist3-thumbbaraddbuttons.md)
--   [**ITaskbarList3::ThumbBarSetImageList**](itaskbarlist3-thumbbarsetimagelist.md)
--   [**THUMBBUTTON**](thumbbutton.md) structure
+-   [**ITaskbarList3::ThumbBarAddButtons**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons?branch=master)
+-   [**ITaskbarList3::ThumbBarSetImageList**](/windows/win32/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist?branch=master)
+-   [**THUMBBUTTON**](/windows/win32/Shobjidl_core/ns-shobjidl_core-thumbbutton?branch=master) structure
 
 ## Requirements
 

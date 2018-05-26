@@ -1,8 +1,10 @@
 ---
 title: Msvm\_TransparentBridgingDynamicForwarding class
 description: Connects a transparent bridging service to a dynamic forward entry (learned MAC address).
-ms.assetid: '29d10369-c51c-47b3-a900-b43845031f95'
-keywords: ["Msvm_TransparentBridgingDynamicForwarding class Hyper-V", "Msvm_TransparentBridgingDynamicForwarding class Hyper-V , described"]
+ms.assetid: 29d10369-c51c-47b3-a900-b43845031f95
+keywords:
+- Msvm_TransparentBridgingDynamicForwarding class Hyper-V
+- Msvm_TransparentBridgingDynamicForwarding class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TransparentBridgingDynamicForwarding class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_TransparentBridgingDynamicForwarding : CIM_TransparentBridgingDynamicForwarding
 {
   Msvm_TransparentBridgingService REF Antecedent;
-  Msvm_DynamicForwardingEntry     REF Dependent;
+  Msvm_DynamicForwardingEntry     REF Dependent;
 };
 ```
 
@@ -87,9 +94,9 @@ Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be rest
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be rest
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

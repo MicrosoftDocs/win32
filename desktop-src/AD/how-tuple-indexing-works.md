@@ -4,11 +4,17 @@ description: Tuple indices are used to optimize searches that have 0 or more med
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0f7b3f64-70cd-4581-a9ab-bb882eabef8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0f7b3f64-70cd-4581-a9ab-bb882eabef8c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["tuple indexing", "Searching Active Directory Active Directory , optimization", "Active Directory, search optimization Active Directory"]
+keywords:
+- tuple indexing
+- Searching Active Directory Active Directory , optimization
+- Active Directory, search optimization Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How Tuple Indexing Works

@@ -4,11 +4,14 @@ description: Returns flags associated with the cluster version.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f671f494-6c46-45e6-9756-fc27dc10783a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f671f494-6c46-45e6-9756-fc27dc10783a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Flags property Failover Cluster", "Flags property Failover Cluster , ClusVersion object", "ClusVersion object Failover Cluster , Flags property"]
+keywords:
+- Flags property Failover Cluster
+- Flags property Failover Cluster , ClusVersion object
+- ClusVersion object Failover Cluster , Flags property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusVersion.Flags property
@@ -64,7 +70,7 @@ All [**ClusVersion**](clusversion-object.md) properties are static values corres
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -89,9 +95,9 @@ All [**ClusVersion**](clusversion-object.md) properties are static values corres
 [**ClusVersion.MinorVersion**](clusversion-minorversion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

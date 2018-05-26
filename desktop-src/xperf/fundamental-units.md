@@ -1,8 +1,16 @@
 ---
 title: Fundamental Units
 description: Fundamental Units
-ms.assetid: 'd450cfa4-59fb-42e0-94a8-7e8bb0559060'
-keywords: ["unit of composition", "session", "session groups"]
+ms.assetid: d450cfa4-59fb-42e0-94a8-7e8bb0559060
+keywords:
+- unit of composition
+- session
+- session groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fundamental Units
@@ -23,13 +31,13 @@ In general, there are three fundamental units of composition used to build ETW s
 
 
 
- 
+ 
 
 By compiling multiple types of profile configuration to create a configuration for one or more ETW sessions, you actually create a runtime object.
 
- 
+ 
 
- 
+ 
 
 
 

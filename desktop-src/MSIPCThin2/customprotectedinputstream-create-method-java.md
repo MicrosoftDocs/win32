@@ -4,17 +4,21 @@ description: Asynchronously creates an InputStream for reading protected content
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C93EC89C-B16F-4F59-AC88-A36340143A4D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: C93EC89C-B16F-4F59-AC88-A36340143A4D
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedInputStream.create asynchronous method"]
+keywords:
+- CustomProtectedInputStream.create asynchronous method
 topic_type:
 - apiref
 api_name:
 - CustomProtectedInputStream.create asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedInputStream.create asynchronous method
@@ -47,7 +51,7 @@ public static IAsyncControl create(
 
 
 
- 
+ 
 
 ## Returns
 
@@ -71,7 +75,7 @@ CustomProtectedInputStream.java
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +89,9 @@ The *protectedContentLength* parameter is needed only for the cases when there i
 
 Your app can use [**getEncryptedContentLength**](customprotectedoutputstream-getencryptedcontentlength-method-java.md) to determine the size of the encrypted content given the size of the original content.
 
- 
+ 
 
- 
+ 
 
 
 

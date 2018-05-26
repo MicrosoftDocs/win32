@@ -4,13 +4,19 @@ description: Creates replication groups and a new replication partnership.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0532c8f1-94ed-4507-8e33-a7bcb74803ee'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0532c8f1-94ed-4507-8e33-a7bcb74803ee
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateTopology method", "CreateTopology method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, CreateTopology method"]
+keywords:
+- CreateTopology method
+- CreateTopology method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, CreateTopology method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateTopology method of the MSFT\_WvrAdminTasks class
@@ -22,25 +28,25 @@ Creates replication groups and a new replication partnership.
 
 ```mof
 uint32 CreateTopology(
-  [in]  string                         PartnershipId,
-  [in]  string                         SourceComputerName,
-  [in]  string                         SourceRGName,
-  [in]  string                         SourceRGDescription,
-  [in]  string                         SourceVolumeName[],
-  [in]  string                         SourceLogVolumeName,
-  [in]  string                         DestinationComputerName,
-  [in]  string                         DestinationRGName,
-  [in]  string                         DestinationRGDescription,
-  [in]  string                         DestinationVolumeName[],
-  [in]  string                         DestinationLogVolumeName,
-  [in]  uint64                         LogSizeInBytes,
-  [in]  uint32                         ReplicationMode,
-  [in]  boolean                        PreventReplication,
-  [in]  boolean                        Seeded,
-  [in]  uint32                         AsyncRPO,
-  [in]  boolean                        EnableConsistencyGroups,
-  [in]  boolean                        EnableEncryption,
-  [out] MSFT_WvrReplicationPartnership Output[]
+  [in]  string                         PartnershipId,
+  [in]  string                         SourceComputerName,
+  [in]  string                         SourceRGName,
+  [in]  string                         SourceRGDescription,
+  [in]  string                         SourceVolumeName[],
+  [in]  string                         SourceLogVolumeName,
+  [in]  string                         DestinationComputerName,
+  [in]  string                         DestinationRGName,
+  [in]  string                         DestinationRGDescription,
+  [in]  string                         DestinationVolumeName[],
+  [in]  string                         DestinationLogVolumeName,
+  [in]  uint64                         LogSizeInBytes,
+  [in]  uint32                         ReplicationMode,
+  [in]  boolean                        PreventReplication,
+  [in]  boolean                        Seeded,
+  [in]  uint32                         AsyncRPO,
+  [in]  boolean                        EnableConsistencyGroups,
+  [in]  boolean                        EnableEncryption,
+  [out] MSFT_WvrReplicationPartnership Output[]
 );
 ```
 
@@ -206,7 +212,7 @@ Returns the resulting [**MSFT\_WvrReplicationPartnership**](msft-wvrreplicationp
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | Header<br/>                   | <dl> <dt>Bdaiface.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
@@ -221,9 +227,9 @@ Returns the resulting [**MSFT\_WvrReplicationPartnership**](msft-wvrreplicationp
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

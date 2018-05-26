@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists Winlogon notification events.'
-ms.assetid: '48b0f389-5b3c-4b13-ad23-a8bc6bcd1850'
+---
+Description: Lists Winlogon notification events.
+ms.assetid: 48b0f389-5b3c-4b13-ad23-a8bc6bcd1850
 title: Winlogon Notification Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winlogon Notification Events

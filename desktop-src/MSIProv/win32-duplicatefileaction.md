@@ -1,8 +1,10 @@
 ---
 title: Win32\_DuplicateFileAction class
 description: The Win32\_DuplicateFileAction WMI class represents a file that is duplicated at install time, either to a different directory than the original file, or to the same directory, but with a different name.
-ms.assetid: 'b2e5c0a2-1aba-46cb-a719-b13fef242c3f'
-keywords: ["Win32_DuplicateFileAction class", "Win32_DuplicateFileAction class, described"]
+ms.assetid: b2e5c0a2-1aba-46cb-a719-b13fef242c3f
+keywords:
+- Win32_DuplicateFileAction class
+- Win32_DuplicateFileAction class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_DuplicateFileAction class
@@ -33,7 +40,7 @@ The **Win32\_DuplicateFileAction** [WMI class](https://msdn.microsoft.com/librar
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -43,19 +50,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_DuplicateFileAction : CIM_CopyFileAction
 {
-  string  ActionID;
-  string  Caption;
+  string  ActionID;
+  string  Caption;
   boolean DeleteAfterCopy;
-  string  Description;
-  string  Destination;
-  uint16  Direction;
-  string  FileKey;
-  string  Name;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  string  Source;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  string  Description;
+  string  Destination;
+  uint16  Direction;
+  string  FileKey;
+  string  Name;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  string  Source;
+  uint16  TargetOperatingSystem;
+  string  Version;
 };
 ```
 
@@ -78,7 +85,7 @@ The **Win32\_DuplicateFileAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -171,7 +178,7 @@ Whether a particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa3865
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -236,7 +243,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -329,7 +336,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -356,8 +363,8 @@ The **Win32\_DuplicateFileAction** class is derived from [**CIM\_CopyFileAction*
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -371,9 +378,9 @@ The **Win32\_DuplicateFileAction** class is derived from [**CIM\_CopyFileAction*
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

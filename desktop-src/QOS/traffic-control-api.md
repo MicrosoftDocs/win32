@@ -1,8 +1,14 @@
 ---
 title: Traffic Control API
 description: Quality of Service (QOS) traffic control API (TC API).
-ms.assetid: '933abfd1-bbde-422f-8c4a-a7e14e034c51'
-keywords: ["Quality of Service QOS , described, traffic control API"]
+ms.assetid: 933abfd1-bbde-422f-8c4a-a7e14e034c51
+keywords:
+- Quality of Service QOS , described, traffic control API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Traffic Control API

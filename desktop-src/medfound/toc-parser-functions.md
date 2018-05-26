@@ -1,7 +1,12 @@
 ---
 Description: Table of Contents Parser Functions
-ms.assetid: '507aaf9c-c4ab-47e0-8cfa-2f249bcb3b7b'
+ms.assetid: 507aaf9c-c4ab-47e0-8cfa-2f249bcb3b7b
 title: Table of Contents Parser Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Table of Contents Parser Functions

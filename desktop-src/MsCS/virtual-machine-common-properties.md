@@ -4,11 +4,17 @@ description: Common properties for Virtual Machine (VM) resource types are data 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6568a8d0-845d-4a45-85bc-5a47af5b285c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6568a8d0-845d-4a45-85bc-5a47af5b285c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["virtual machine properties Failover Cluster", "properties Failover Cluster ,virtual machine (common) properties", "virtual machines Failover Cluster ,properties"]
+keywords:
+- virtual machine properties Failover Cluster
+- properties Failover Cluster ,virtual machine (common) properties
+- virtual machines Failover Cluster ,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Virtual Machine Common Properties

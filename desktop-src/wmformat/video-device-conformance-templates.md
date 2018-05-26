@@ -1,8 +1,24 @@
 ---
 title: Video Device Conformance Templates
 description: Video Device Conformance Templates
-ms.assetid: '0a91167c-8799-4ce8-a377-c4e613567d0f'
-keywords: ["Windows Media Format SDK,device conformance templates", "Advanced Systems Format (ASF),device conformance templates", "ASF (Advanced Systems Format),device conformance templates", "Windows Media Format SDK,video device conformance templates", "Advanced Systems Format (ASF),video device conformance templates", "ASF (Advanced Systems Format),video device conformance templates", "Windows Media Video 9 codec,video device conformance templates", "codecs,Windows Media Video 9 codec", "device conformance templates,video", "video device conformance templates", "templates,video device conformance templates"]
+ms.assetid: 0a91167c-8799-4ce8-a377-c4e613567d0f
+keywords:
+- Windows Media Format SDK,device conformance templates
+- Advanced Systems Format (ASF),device conformance templates
+- ASF (Advanced Systems Format),device conformance templates
+- Windows Media Format SDK,video device conformance templates
+- Advanced Systems Format (ASF),video device conformance templates
+- ASF (Advanced Systems Format),video device conformance templates
+- Windows Media Video 9 codec,video device conformance templates
+- codecs,Windows Media Video 9 codec
+- device conformance templates,video
+- video device conformance templates
+- templates,video device conformance templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Device Conformance Templates
@@ -25,7 +41,7 @@ The following tables list the device conformance templates and associated parame
 
 
 
- 
+ 
 
 ## Simple Profile, Medium Level
 
@@ -43,7 +59,7 @@ The following tables list the device conformance templates and associated parame
 
 
 
- 
+ 
 
 ## Generic Simple Profile
 
@@ -65,7 +81,7 @@ A stream that complies with the algorithmic limitations of the simple profile, b
 
 
 
- 
+ 
 
 ## Main Profile, Medium Level
 
@@ -74,7 +90,7 @@ A stream that complies with the algorithmic limitations of the simple profile, b
 | Parameter                                | Value                                                                                                                  |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Template string                          | "MP@ML"                                                                                                                |
-| Appropriate devices                      | Set-top boxesSlower computers using DirectX Video Acceleration<br/> Windows Media–enabled DVD players<br/> |
+| Appropriate devices                      | Set-top boxesSlower computers using DirectX Video Acceleration<br/> Windows Media enabled DVD players<br/> |
 | Maximum resolution                       | 720 x 576                                                                                                              |
 | Maximum frame rate                       | 30 fps @ 720 x 48025 fps @ 720 x 576<br/>                                                                        |
 | Maximum bit rate                         | 10 Mbps                                                                                                                |
@@ -83,7 +99,7 @@ A stream that complies with the algorithmic limitations of the simple profile, b
 
 
 
- 
+ 
 
 ## Main Profile, High Level
 
@@ -92,7 +108,7 @@ A stream that complies with the algorithmic limitations of the simple profile, b
 | Parameter                                | Value                                                                                                                                                                 |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Template string                          | "MP@HL"                                                                                                                                                               |
-| Appropriate devices                      | Computers using DirectX Video AccelerationHigh-Definition Windows Media–enabled DVD players<br/> Digital cinema<br/> high-definition streaming<br/> |
+| Appropriate devices                      | Computers using DirectX Video AccelerationHigh-Definition Windows Media enabled DVD players<br/> Digital cinema<br/> high-definition streaming<br/> |
 | Maximum resolution                       | 1920 x 1080                                                                                                                                                           |
 | Maximum frame rate                       | 30 fps @ 1920 x 108060 fps @ 1280 x 720<br/>                                                                                                                    |
 | Maximum bit rate                         | 20 Mbps                                                                                                                                                               |
@@ -101,7 +117,7 @@ A stream that complies with the algorithmic limitations of the simple profile, b
 
 
 
- 
+ 
 
 ## Generic Main Profile
 
@@ -118,7 +134,7 @@ A stream that complies with the algorithmic limitations of the main profile, but
 
 
 
- 
+ 
 
 The following tables list the parameters of the device conformance templates for the Windows Media Video 9 Image codec.
 
@@ -137,7 +153,7 @@ The following tables list the parameters of the device conformance templates for
 
 
 
- 
+ 
 
 ## Video Image Level 2
 
@@ -154,7 +170,7 @@ The following tables list the parameters of the device conformance templates for
 
 
 
- 
+ 
 
 ## Generic Video Image
 
@@ -173,9 +189,9 @@ A Video Image stream that does not fit into one of the level specifications will
 [**Recommended Device Conformance Template Combinations**](recommended-device-conformance-template-combinations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

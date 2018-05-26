@@ -1,8 +1,9 @@
 ---
 title: Player.uiMode
 description: The uiMode property specifies or retrieves a value indicating which controls are shown in the user interface.
-ms.assetid: '6297d22b-e8ed-4f28-83f6-b74d3265c520'
-keywords: ["Player.uiMode Windows Media Player"]
+ms.assetid: 6297d22b-e8ed-4f28-83f6-b74d3265c520
+keywords:
+- Player.uiMode Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.uiMode
@@ -37,7 +43,7 @@ This property is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,18 +99,18 @@ Windows Media Player 10 Mobile: This property only accepts or returns values of 
 
 <dl> <dt>
 
-[**IWMPRemoteMediaServices Interface**](iwmpremotemediaservices.md)
+[**IWMPRemoteMediaServices Interface**](/windows/win32/wmp/nn-wmp-iwmpremotemediaservices?branch=master)
 </dt> <dt>
 
-[**IWMPRemoteMediaServices::GetCustomUIMode**](iwmpremotemediaservices-getcustomuimode.md)
+[**IWMPRemoteMediaServices::GetCustomUIMode**](/windows/win32/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode?branch=master)
 </dt> <dt>
 
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

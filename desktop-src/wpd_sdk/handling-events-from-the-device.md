@@ -1,7 +1,12 @@
 ---
 Description: Handling Events from the Device
-ms.assetid: '529a8b7a-08b4-47de-8ed3-28e8fff0ede2'
+ms.assetid: 529a8b7a-08b4-47de-8ed3-28e8fff0ede2
 title: Handling Events from the Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Events from the Device
@@ -14,14 +19,14 @@ Event handling operations are accomplished using the interfaces described in the
 
 | Interface                                                                      | Description                                                      |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------|
-| [**IPortableDevice Interface**](iportabledevice.md)                           | Lets the application register to receive asynchronous callbacks. |
-| [**IPortableDeviceEventCallback Interface**](iportabledeviceeventcallback.md) | Contains the application's event handler.                        |
+| [**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)                           | Lets the application register to receive asynchronous callbacks. |
+| [**IPortableDeviceEventCallback Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback?branch=master) | Contains the application's event handler.                        |
 
 
 
  
 
-The CPortableDeviceEventsCallback class in the sample application's DeviceEvents.cpp module demonstrates how an application can implement [**IPortableDeviceEventCallback**](iportabledeviceeventcallback.md). The implementation of the [**OnEvent**](iportabledeviceeventcallback-onevent.md) method in this class writes the parameters for any event to the application's console window. In addition to the OnEvent method, this class implements AddRef and Release, which are used to maintain the object's reference count.
+The CPortableDeviceEventsCallback class in the sample application's DeviceEvents.cpp module demonstrates how an application can implement [**IPortableDeviceEventCallback**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback?branch=master). The implementation of the [**OnEvent**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceeventcallback-onevent?branch=master) method in this class writes the parameters for any event to the application's console window. In addition to the OnEvent method, this class implements AddRef and Release, which are used to maintain the object's reference count.
 
 
 ```C++
@@ -99,7 +104,7 @@ public:
 
 
 
-The sample application instantiates the CPortableDeviceEventsCallback class in its RegisterForEventNotifications helper function. This function creates an instance of the callback object using the new operator. It then calls the [**IPortableDevice::Advise**](iportabledevice-advise.md) method to register the callback and begin receiving events.
+The sample application instantiates the CPortableDeviceEventsCallback class in its RegisterForEventNotifications helper function. This function creates an instance of the callback object using the new operator. It then calls the [**IPortableDevice::Advise**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-advise?branch=master) method to register the callback and begin receiving events.
 
 
 ```C++
@@ -174,7 +179,7 @@ void RegisterForEventNotifications(IPortableDevice* pDevice)
 
 
 
-Once the sample application is through receiving events, it calls the UnregisterForEventNotifications helper function. This function, in turn, calls the [**IPortableDevice::Unadvise**](iportabledevice-unadvise.md) method to unregister the callback from receiving events.
+Once the sample application is through receiving events, it calls the UnregisterForEventNotifications helper function. This function, in turn, calls the [**IPortableDevice::Unadvise**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-unadvise?branch=master) method to unregister the callback from receiving events.
 
 
 ```C++
@@ -208,10 +213,10 @@ void UnregisterForEventNotifications(IPortableDevice* pDevice)
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceEventCallback Interface**](iportabledeviceeventcallback.md)
+[**IPortableDeviceEventCallback Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback?branch=master)
 </dt> <dt>
 
 [**Programming Guide**](programming-guide.md)

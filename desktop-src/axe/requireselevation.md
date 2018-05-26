@@ -1,14 +1,20 @@
 ---
 title: RequiresElevation element
 description: If this node is present, it means that the assessment requires administrator privileges.
-ms.assetid: '21AFEE10-E60A-42A4-A1CF-FB5BB9692FBD'
-keywords: ["RequiresElevation element Access Execution Engine"]
+ms.assetid: 21AFEE10-E60A-42A4-A1CF-FB5BB9692FBD
+keywords:
+- RequiresElevation element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresElevation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresElevation element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

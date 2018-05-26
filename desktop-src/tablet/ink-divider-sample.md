@@ -1,7 +1,12 @@
 ---
-Description: 'This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.'
-ms.assetid: '3350b643-11b3-4474-8dd0-bc3eb1b7121e'
+Description: This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.
+ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: Ink Divider Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Divider Sample
@@ -23,7 +28,7 @@ When the form is updated, the sample draws a bounding rectangle around each anal
 
 
 
- 
+ 
 
 ## Setting Up the Form
 
@@ -254,9 +259,9 @@ private void DrawArea_Paint(object sender, System.Windows.Forms.PaintEventArgs e
 
 The form's [Dispose](frlrfSystemWindowsFormsFormClassDisposeTopic) method disposes the [InkOverlay](frlrfMicrosoftInkInkOverlayClassTopic), [Divider](frlrfMicrosoftInkDividerClassTopic), [RecognizerContext](frlrfMicrosoftInkRecognizerContextClassTopic) objects and the [Strokes](frlrfMicrosoftInkStrokesClassTopic) collection used in the sample.
 
- 
+ 
 
- 
+ 
 
 
 

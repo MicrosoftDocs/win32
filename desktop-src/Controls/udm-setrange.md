@@ -1,8 +1,9 @@
 ---
 title: UDM\_SETRANGE message
 description: Sets the minimum and maximum positions (range) for an up-down control.
-ms.assetid: '81875528-86cc-419a-a07c-f4f98baf1462'
-keywords: ["UDM_SETRANGE message Windows Controls"]
+ms.assetid: 81875528-86cc-419a-a07c-f4f98baf1462
+keywords:
+- UDM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_SETRANGE message
@@ -45,8 +51,8 @@ The maximum position can be less than the minimum position. Clicking the up arro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -61,9 +67,9 @@ The maximum position can be less than the minimum position. Clicking the up arro
 [**UDM\_SETRANGE**](udm-setrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

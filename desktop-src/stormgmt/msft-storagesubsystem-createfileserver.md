@@ -1,8 +1,11 @@
 ---
 title: CreateFileServer method of the MSFT\_StorageSubSystem class
 description: Creates a file server on a storage subsystem.
-ms.assetid: '60B1D607-A675-484C-8893-2B0F332A5094'
-keywords: ["CreateFileServer method Windows Storage Management API", "CreateFileServer method Windows Storage Management API , MSFT_StorageSubSystem interface", "MSFT_StorageSubSystem interface Windows Storage Management API , CreateFileServer method"]
+ms.assetid: 60B1D607-A675-484C-8893-2B0F332A5094
+keywords:
+- CreateFileServer method Windows Storage Management API
+- CreateFileServer method Windows Storage Management API , MSFT_StorageSubSystem interface
+- MSFT_StorageSubSystem interface Windows Storage Management API , CreateFileServer method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateFileServer method of the MSFT\_StorageSubSystem class
@@ -22,12 +30,12 @@ Creates a file server on a storage subsystem.
 
 ```mof
 UInt32 CreateFileServer(
-  [in]  String              FriendlyName,
-  [in]  UInt16              FileSharingProtocols[],
-  [in]  String              HostNames[],
-  [out] String              CreatedFileServer,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  UInt16              FileSharingProtocols[],
+  [in]  String              HostNames[],
+  [out] String              CreatedFileServer,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -132,8 +140,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -146,9 +154,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

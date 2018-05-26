@@ -1,7 +1,12 @@
 ---
 title: HLSL Shader Model 6.0
 description: Describes the new wave operation intrinsics added to HLSL Shader Model 6.0.
-ms.assetid: 'BF968CD3-AC67-48DB-B93F-EF54B680106F'
+ms.assetid: BF968CD3-AC67-48DB-B93F-EF54B680106F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HLSL Shader Model 6.0

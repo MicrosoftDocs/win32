@@ -4,17 +4,22 @@ description: Contains the replication group type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ce60e48-5132-4066-841e-df164dae2ab5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4ce60e48-5132-4066-841e-df164dae2ab5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-ReplicationGroupType attribute AD Schema", "msDFSR-ReplicationGroupType attribute AD Schema"]
+keywords:
+- ms-DFSR-ReplicationGroupType attribute AD Schema
+- msDFSR-ReplicationGroupType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-ReplicationGroupType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-ReplicationGroupType attribute
@@ -38,10 +43,10 @@ Contains the replication group type.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the replication group type.
 
 The **ms-DFSR-ReplicationGroupType** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

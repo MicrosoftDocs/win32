@@ -1,7 +1,12 @@
 ---
-Description: 'Implementation of converting from a text ink object (tInk) to ink.'
-ms.assetid: '9365da4c-3667-49f0-838f-f099d28dab44'
+Description: Implementation of converting from a text ink object (tInk) to ink.
+ms.assetid: 9365da4c-3667-49f0-838f-f099d28dab44
 title: Converting a Text Ink Object to Ink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Converting a Text Ink Object to Ink
@@ -12,7 +17,7 @@ Implementation of converting from a text ink object (tInk) to ink.
 
 1.  Use the [IPersistStream](_com_IPersistStream) interface to write the contents of the text ink object out to a stream. The text ink object uses ink serialized format to write to the steam.
 2.  Read the contents of the stream into a BYTE array.
-3.  Use the [**InkDisp**](inkdisp-class.md) object's [**Load**](inkdisp-load.md) method to load the contents of the stream into the **InkDisp** object.
+3.  Use the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object's [**Load**](/windows/win32/msinkaut/?branch=master) method to load the contents of the stream into the **InkDisp** object.
 
 ## Text Ink Object to Ink Object Example
 
@@ -70,7 +75,7 @@ if( SUCCEEDED(hr) &amp;&amp; pIPersistStream )
 
 
 
-Then, the code creates an [**InkCollector**](inkcollector-class.md) object, creates an [**InkDisp**](inkdisp-class.md) object for the **InkCollector**, attaches the **InkCollector** to the application window, and enables ink collection on the **InkCollector**.
+Then, the code creates an [**InkCollector**](/windows/win32/msinkaut/?branch=master) object, creates an [**InkDisp**](/windows/win32/msinkaut/?branch=master) object for the **InkCollector**, attaches the **InkCollector** to the application window, and enables ink collection on the **InkCollector**.
 
 
 ```C++
@@ -137,7 +142,7 @@ Then, the code retrieves the size of the stream and creates a safe array to hold
 
 
 
-Finally, the code accesses the safe array and uses the [**InkDisp**](inkdisp-class.md) object's [**Load**](inkdisp-load.md) method to load the ink from the array.
+Finally, the code accesses the safe array and uses the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object's [**Load**](/windows/win32/msinkaut/?branch=master) method to load the ink from the array.
 
 
 ```C++

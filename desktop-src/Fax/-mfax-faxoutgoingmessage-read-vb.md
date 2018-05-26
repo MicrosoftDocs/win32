@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if the fax has been read.'
-ms.assetid: 'c0591f83-d8ea-4fb5-a8cb-e13fa44b638f'
-title: 'FaxOutgoingMessage.Read property'
+---
+Description: Indicates if the fax has been read.
+ms.assetid: c0591f83-d8ea-4fb5-a8cb-e13fa44b638f
+title: FaxOutgoingMessage.Read property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Read property
@@ -54,7 +59,7 @@ A change to this value is not committed to the server until [**Save**](-mfax-fax
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md)
+[**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master)
 </dt> </dl>
 
  

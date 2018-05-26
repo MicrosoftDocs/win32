@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E'
+---
+Description: .
+ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 title: OPTCOMBO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPTCOMBO structure

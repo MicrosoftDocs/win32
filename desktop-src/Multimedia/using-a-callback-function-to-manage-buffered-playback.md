@@ -1,13 +1,33 @@
 ---
 title: Using a Callback Function to Manage Buffered Playback
 description: Using a Callback Function to Manage Buffered Playback
-ms.assetid: 'aaaf9c5f-c9b2-4e55-a4c1-28c99cc03945'
-keywords: ["Musical Instrument Digital Interface (MIDI),buffered playback", "MIDI (Musical Instrument Digital Interface),buffered playback", "playing MIDI files,buffered playback", "buffered playback", "MOM_CLOSE message", "MOM_DONE message", "MOM_OPEN message", "Musical Instrument Digital Interface (MIDI),sending messages", "MIDI (Musical Instrument Digital Interface),sending messages", "playing MIDI files,sending messages", "sending MIDI messages", "Musical Instrument Digital Interface (MIDI),callback functions", "MIDI (Musical Instrument Digital Interface),callback functions", "playing MIDI files,callback functions", "MidiOutProc callback function"]
+ms.assetid: aaaf9c5f-c9b2-4e55-a4c1-28c99cc03945
+keywords:
+- Musical Instrument Digital Interface (MIDI),buffered playback
+- MIDI (Musical Instrument Digital Interface),buffered playback
+- playing MIDI files,buffered playback
+- buffered playback
+- MOM_CLOSE message
+- MOM_DONE message
+- MOM_OPEN message
+- Musical Instrument Digital Interface (MIDI),sending messages
+- MIDI (Musical Instrument Digital Interface),sending messages
+- playing MIDI files,sending messages
+- sending MIDI messages
+- Musical Instrument Digital Interface (MIDI),callback functions
+- MIDI (Musical Instrument Digital Interface),callback functions
+- playing MIDI files,callback functions
+- MidiOutProc callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Callback Function to Manage Buffered Playback
 
-You can define your own callback function to manage buffered playback of MIDI output devices. The callback function is documented as [**MidiOutProc**](midioutproc.md).
+You can define your own callback function to manage buffered playback of MIDI output devices. The callback function is documented as [**MidiOutProc**](/windows/win32/Mmsystem/?branch=master).
 
 The following messages can be sent to the *wMsg* parameter of the **MidiOutProc** callback function.
 

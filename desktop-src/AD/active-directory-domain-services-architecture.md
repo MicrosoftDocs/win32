@@ -4,11 +4,16 @@ description: This section introduces the primary architectural components of Act
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6af17ae4-4f31-47dd-a764-b6e5eeafc9c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6af17ae4-4f31-47dd-a764-b6e5eeafc9c4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["architecture of Active Directory Active Directory", "architecture of Active Directory Domain Services Active Directory"]
+keywords:
+- architecture of Active Directory Active Directory
+- architecture of Active Directory Domain Services Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Domain Services Architecture

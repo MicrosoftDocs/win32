@@ -1,14 +1,20 @@
 ---
 title: triggerGroup Group
 description: Defines the trigger group.
-ms.assetid: 'e07e6999-d982-405b-adfd-2976707b999f'
-keywords: ["triggerGroup Task Scheduler"]
+ms.assetid: e07e6999-d982-405b-adfd-2976707b999f
+keywords:
+- triggerGroup Task Scheduler
 topic_type:
 - apiref
 api_name:
 - triggerGroup
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # triggerGroup Group
@@ -81,8 +87,8 @@ When reading or writing XML, the elements that are defined by this group are the
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +99,9 @@ When reading or writing XML, the elements that are defined by this group are the
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

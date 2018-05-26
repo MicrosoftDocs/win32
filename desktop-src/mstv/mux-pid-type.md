@@ -1,8 +1,9 @@
 ---
 title: MUX\_PID\_TYPE enumeration
 description: Specifies an MPEG-2 stream type.
-ms.assetid: '2db22de7-9b82-4894-a6f3-5a73ab5efb7d'
-keywords: ["MUX_PID_TYPE enumeration Microsoft TV Technologies"]
+ms.assetid: 2db22de7-9b82-4894-a6f3-5a73ab5efb7d
+keywords:
+- MUX_PID_TYPE enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUX\_PID\_TYPE enumeration
@@ -22,7 +28,7 @@ Specifies an MPEG-2 stream type.
 
 ```C++
 typedef enum MUX_PID_TYPE { 
-  PID_OTHER                 = -1,
+  PID_OTHER                 = -1,
   PID_ELEMENTARY_STREAM,
   PID_MPEG2_SECTION_PSI_SI
 } MUX_PID_TYPE;
@@ -61,8 +67,8 @@ Program Specific Information (PSI) sections.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ Program Specific Information (PSI) sections.
 [**BDA\_MUX\_PIDLISTITEM**](bda-mux-pidlistitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

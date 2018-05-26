@@ -1,7 +1,12 @@
 ---
 Description: Controls Menu
-ms.assetid: '1b6f31e3-f228-4169-9c8e-d4a8baec701a'
+ms.assetid: 1b6f31e3-f228-4169-9c8e-d4a8baec701a
 title: Controls Menu
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls Menu

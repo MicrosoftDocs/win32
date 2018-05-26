@@ -1,7 +1,12 @@
 ---
 title: Framework Properties
 description: Reference documentation on global property keys for the Ribbon framework.
-ms.assetid: '332a49b3-0634-40b3-a3cd-bc6891e9dbc8'
+ms.assetid: 332a49b3-0634-40b3-a3cd-bc6891e9dbc8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Framework Properties
@@ -18,7 +23,7 @@ Reference documentation on global property keys for the Ribbon framework.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ Reference documentation on global property keys for the Ribbon framework.
 [Customizing Ribbon Colors](ribbon-color.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

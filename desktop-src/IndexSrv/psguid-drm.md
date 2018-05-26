@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_DRM
 description: PSGUID\_DRM
-ms.assetid: 'a1c54e90-ff8a-4ba6-9e9e-c2d1c3032a74'
-keywords: ["PSGUID_DRM"]
+ms.assetid: a1c54e90-ff8a-4ba6-9e9e-c2d1c3032a74
+keywords:
+- PSGUID_DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_DRM

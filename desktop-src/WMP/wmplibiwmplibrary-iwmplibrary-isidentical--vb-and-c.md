@@ -1,8 +1,11 @@
 ---
 title: IWMPLibrary isIdentical method
 description: The isIdentical method returns a value that indicates whether the supplied object is the same as the current one.
-ms.assetid: 'c4eebc46-6a5f-4f9a-8cd4-7421b156670c'
-keywords: ["isIdentical method Windows Media Player", "isIdentical method Windows Media Player , IWMPLibrary interface", "IWMPLibrary interface Windows Media Player , isIdentical method"]
+ms.assetid: c4eebc46-6a5f-4f9a-8cd4-7421b156670c
+keywords:
+- isIdentical method Windows Media Player
+- isIdentical method Windows Media Player , IWMPLibrary interface
+- IWMPLibrary interface Windows Media Player , isIdentical method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibrary::isIdentical method
@@ -83,9 +91,9 @@ A **System.Boolean** that is the result of the comparison. The value **true** in
 [**IWMPLibrary Interface (VB and C#)**](iwmplibrary--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Functions
 description: Functions
-ms.assetid: 'faec3725-4cc2-4a0c-98a3-68b2774ad99b'
+ms.assetid: faec3725-4cc2-4a0c-98a3-68b2774ad99b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions
@@ -19,9 +24,9 @@ The following tables list the functions in each category.
 
 | For finding and managing catalogs          | Description                                          |
 |--------------------------------------------|------------------------------------------------------|
-| [**CIState**](cistate.md)                 | Queries the state of the selected catalog.           |
-| [**LocateCatalogs**](locatecatalogs.md)   | Finds the catalog that indexes a directory.          |
-| [**SetCatalogState**](setcatalogstate.md) | Sets the catalog state for backup or other purposes. |
+| [**CIState**](/windows/win32/Ntquery/nf-ntquery-cistate?branch=master)                 | Queries the state of the selected catalog.           |
+| [**LocateCatalogs**](/windows/win32/Ntquery/nf-ntquery-locatecatalogsa?branch=master)   | Finds the catalog that indexes a directory.          |
+| [**SetCatalogState**](/windows/win32/Ntquery/nf-ntquery-setcatalogstate?branch=master) | Sets the catalog state for backup or other purposes. |
 
 
 
@@ -31,15 +36,15 @@ The following tables list the functions in each category.
 
 | For creating queries using OLE DB command objects          | Description                                                                                                                               |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CICreateCommand**](cicreatecommand.md)                 | Creates a [**Command**](mdobjcommand) object.                                                                                             |
-| [**CIMakeICommand**](cimakeicommand.md)                   | Creates a [**Command**](mdobjcommand) object, specifying computers, catalogs, and scopes.                                                 |
-| [**CIBuildQueryNode**](cibuildquerynode.md)               | Builds one node of a query restriction tree for a [**Command**](mdobjcommand) object.                                                     |
-| [**CIBuildQueryTree**](cibuildquerytree.md)               | Builds a query restriction tree for a [**Command**](mdobjcommand) object.                                                                 |
-| [**CIRestrictionToFullTree**](cirestrictiontofulltree.md) | Converts a query restriction tree with columns, sort columns, and grouping columns to a [**DBCOMMANDTREE**](dbcommandtree.md) structure. |
-| [**CITextToFullTree**](citexttofulltree.md)               | Creates a full command tree using Query Language 1.                                                                                       |
-| [**CITextToFullTreeEx**](citexttofulltreeex.md)           | Creates a full command tree using the Query Language Dialect that you specify.                                                            |
-| [**CITextToSelectTree**](citexttoselecttree.md)           | Creates a **SELECT** node for a [**DBCOMMANDTREE**](dbcommandtree.md) structure using Query Language Dialect 1.                          |
-| [**CITextToSelectTreeEx**](citexttoselecttreeex.md)       | Creates a **SELECT** node for a [**DBCOMMANDTREE**](dbcommandtree.md) structure using the Query Language Dialect that you specify.       |
+| [**CICreateCommand**](/windows/win32/Ntquery/nf-ntquery-cicreatecommand?branch=master)                 | Creates a [**Command**](mdobjcommand) object.                                                                                             |
+| [**CIMakeICommand**](/windows/win32/Ntquery/nf-ntquery-cimakeicommand?branch=master)                   | Creates a [**Command**](mdobjcommand) object, specifying computers, catalogs, and scopes.                                                 |
+| [**CIBuildQueryNode**](/windows/win32/Ntquery/nf-ntquery-cibuildquerynode?branch=master)               | Builds one node of a query restriction tree for a [**Command**](mdobjcommand) object.                                                     |
+| [**CIBuildQueryTree**](/windows/win32/Ntquery/nf-ntquery-cibuildquerytree?branch=master)               | Builds a query restriction tree for a [**Command**](mdobjcommand) object.                                                                 |
+| [**CIRestrictionToFullTree**](/windows/win32/Ntquery/nf-ntquery-cirestrictiontofulltree?branch=master) | Converts a query restriction tree with columns, sort columns, and grouping columns to a [**DBCOMMANDTREE**](dbcommandtree.md) structure. |
+| [**CITextToFullTree**](/windows/win32/Ntquery/nf-ntquery-citexttofulltree?branch=master)               | Creates a full command tree using Query Language 1.                                                                                       |
+| [**CITextToFullTreeEx**](/windows/win32/Ntquery/nf-ntquery-citexttofulltreeex?branch=master)           | Creates a full command tree using the Query Language Dialect that you specify.                                                            |
+| [**CITextToSelectTree**](/windows/win32/Ntquery/nf-ntquery-citexttoselecttree?branch=master)           | Creates a **SELECT** node for a [**DBCOMMANDTREE**](dbcommandtree.md) structure using Query Language Dialect 1.                          |
+| [**CITextToSelectTreeEx**](/windows/win32/Ntquery/nf-ntquery-citexttoselecttreeex?branch=master)       | Creates a **SELECT** node for a [**DBCOMMANDTREE**](dbcommandtree.md) structure using the Query Language Dialect that you specify.       |
 
 
 
@@ -49,9 +54,9 @@ The following tables list the functions in each category.
 
 | For filtering files                                      | Description                                                                                                      |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| [**LoadIFilter**](loadifilter.md)                       | Retrieves [**IFilter**](ifilter.md) from path name for object.                                                  |
-| [**BindIFilterFromStorage**](bindifilterfromstorage.md) | Given the [**IStorage**](_stg_istorage) interface pointer, retrieves the appropriate [**IFilter**](ifilter.md). |
-| [**BindIFilterFromStream**](bindifilterfromstream.md)   | Given the [**IStream**](_stg_istream) interface pointer, retrieves the appropriate [**IFilter**](ifilter.md).   |
+| [**LoadIFilter**](/windows/win32/Ntquery/nf-ntquery-loadifilter?branch=master)                       | Retrieves [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) from path name for object.                                                  |
+| [**BindIFilterFromStorage**](/windows/win32/Ntquery/nf-ntquery-bindifilterfromstorage?branch=master) | Given the [**IStorage**](_stg_istorage) interface pointer, retrieves the appropriate [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master). |
+| [**BindIFilterFromStream**](/windows/win32/Ntquery/nf-ntquery-bindifilterfromstream?branch=master)   | Given the [**IStream**](_stg_istream) interface pointer, retrieves the appropriate [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master).   |
 
 
 

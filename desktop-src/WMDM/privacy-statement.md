@@ -1,8 +1,19 @@
 ---
 title: Privacy Statement
 description: Privacy Statement
-ms.assetid: 'cfa5bc63-9774-418a-b1ae-207b277b63ba'
-keywords: ["Windows Media Device Manager,privacy statements", "Device Manager,privacy statements", "programming guide,privacy statements", "desktop applications,privacy statements", "creating Windows Media Device Manager applications,privacy statements", "privacy statements"]
+ms.assetid: cfa5bc63-9774-418a-b1ae-207b277b63ba
+keywords:
+- Windows Media Device Manager,privacy statements
+- Device Manager,privacy statements
+- programming guide,privacy statements
+- desktop applications,privacy statements
+- creating Windows Media Device Manager applications,privacy statements
+- privacy statements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privacy Statement

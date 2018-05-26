@@ -1,14 +1,20 @@
 ---
 title: Operator\ \ function
 description: Returns a read-only resource variable.
-ms.assetid: '6a9e1176-439b-4565-9c7e-957d7c4045f0'
-keywords: ["Operator function Direct Write"]
+ms.assetid: 6a9e1176-439b-4565-9c7e-957d7c4045f0
+keywords:
+- Operator function Direct Write
 topic_type:
 - apiref
 api_name:
 - Operator
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operator\[\] function

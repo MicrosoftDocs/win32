@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PhysicalMemory class represents low-level memory devices, such as SIMMS, DIMMs, raw memory chips, and so on.'
+Description: The CIM\_PhysicalMemory class represents low-level memory devices, such as SIMMS, DIMMs, raw memory chips, and so on.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a25c5f00-cd85-42e6-9b26-8e9380b3c73b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a25c5f00-cd85-42e6-9b26-8e9380b3c73b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalMemory class'
+title: CIM\_PhysicalMemory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalMemory class
@@ -19,7 +22,7 @@ The **CIM\_PhysicalMemory** class represents low-level memory devices, such as S
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,33 +32,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B7B-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_PhysicalMemory : CIM_Chip
 {
-  string   BankLabel;
-  uint64   Capacity;
-  string   Caption;
-  string   CreationClassName;
-  uint16   DataWidth;
-  string   Description;
-  uint16   FormFactor;
-  boolean  HotSwappable;
+  string   BankLabel;
+  uint64   Capacity;
+  string   Caption;
+  string   CreationClassName;
+  uint16   DataWidth;
+  string   Description;
+  uint16   FormFactor;
+  boolean  HotSwappable;
   datetime InstallDate;
-  uint32   InterleavePosition;
-  string   Manufacturer;
-  uint16   MemoryType;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  uint32   PositionInRow;
-  boolean  PoweredOn;
-  boolean  Removable;
-  boolean  Replaceable;
-  string   SerialNumber;
-  string   SKU;
-  uint32   Speed;
-  string   Status;
-  string   Tag;
-  uint16   TotalWidth;
-  string   Version;
+  uint32   InterleavePosition;
+  string   Manufacturer;
+  uint16   MemoryType;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  uint32   PositionInRow;
+  boolean  PoweredOn;
+  boolean  Removable;
+  boolean  Replaceable;
+  string   SerialNumber;
+  string   SKU;
+  uint32   Speed;
+  string   Status;
+  string   Tag;
+  uint16   TotalWidth;
+  string   Version;
 };
 ```
 
@@ -959,8 +962,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -974,9 +977,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Chip**](cim-chip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

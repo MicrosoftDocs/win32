@@ -1,8 +1,13 @@
 ---
 Description: Glossary page
-Robots: 'noindex, nofollow'
-ms.assetid: '8e9b45de-c81b-4324-b00b-b11ee6749920'
+Robots: noindex, nofollow
+ms.assetid: 8e9b45de-c81b-4324-b00b-b11ee6749920
 title: Windows Search Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search Glossary

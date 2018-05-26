@@ -1,8 +1,9 @@
 ---
 title: glLoadName function
 description: The glLoadName function loads a name onto the name stack.
-ms.assetid: '8d7d582b-3743-401e-af71-28034e49f3c2'
-keywords: ["glLoadName function OpenGL"]
+ms.assetid: 8d7d582b-3743-401e-af71-28034e49f3c2
+keywords:
+- glLoadName function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLoadName function
@@ -22,7 +28,7 @@ The **glLoadName** function loads a name onto the name stack.
 
 ```C++
 void WINAPI glLoadName(
-   GLuint name
+   GLuint name
 );
 ```
 
@@ -87,8 +93,8 @@ The following functions retrieve information related to **glLoadName**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -117,9 +123,9 @@ The following functions retrieve information related to **glLoadName**:
 [**glSelectBuffer**](glselectbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

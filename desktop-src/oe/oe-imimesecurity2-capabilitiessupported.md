@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity2 CapabilitiesSupported method
 description: Indicates the availability of various features.
-ms.assetid: 'c311d082-5252-4aea-9d7e-84d3c6fc0bdc'
-keywords: ["CapabilitiesSupported method Windows Mail (formerly Outlook Express)", "CapabilitiesSupported method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface", "IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , CapabilitiesSupported method"]
+ms.assetid: c311d082-5252-4aea-9d7e-84d3c6fc0bdc
+keywords:
+- CapabilitiesSupported method Windows Mail (formerly Outlook Express)
+- CapabilitiesSupported method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface
+- IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , CapabilitiesSupported method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity2::CapabilitiesSupported method
@@ -22,7 +30,7 @@ Indicates the availability of various features.
 
 ```C++
 HRESULT CapabilitiesSupported(
-  [in, out] DWORD *pdwFeatures
+  [in, out] DWORD *pdwFeatures
 );
 ```
 
@@ -65,8 +73,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -74,9 +82,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

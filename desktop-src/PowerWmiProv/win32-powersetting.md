@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSetting class
 description: Represents a power setting on the system.
-ms.assetid: 'd09061dd-b7df-4595-b941-0d564e862d80'
-keywords: ["Win32_PowerSetting class", "Win32_PowerSetting class, described"]
+ms.assetid: d09061dd-b7df-4595-b941-0d564e862d80
+keywords:
+- Win32_PowerSetting class
+- Win32_PowerSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSetting class
@@ -116,17 +123,17 @@ $powerSettings | ft "AC/DC",Summary,Value -autosize
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

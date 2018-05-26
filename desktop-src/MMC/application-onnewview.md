@@ -4,11 +4,16 @@ description: The OnNewView event occurs when a view is added to the document.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c2ecb16c-263c-4dc2-8ec8-94bde826712f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c2ecb16c-263c-4dc2-8ec8-94bde826712f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["OnNewView event MMC", "OnNewView event MMC , Application object", "Application object MMC , OnNewView event", "OnNewView event MMC , AppEvents interface", "AppEvents interface MMC , OnNewView event"]
+keywords:
+- OnNewView event MMC
+- OnNewView event MMC , Application object
+- Application object MMC , OnNewView event
+- OnNewView event MMC , AppEvents interface
+- AppEvents interface MMC , OnNewView event
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppEvents::OnNewView event
@@ -68,8 +76,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -78,9 +86,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

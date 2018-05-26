@@ -1,8 +1,9 @@
 ---
 title: NM\_DBLCLK (tree view) notification code
 description: Notifies the parent window of a tree-view control that the user has double-clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '2ed3b3ad-a252-496a-bfcf-0cec5678f192'
-keywords: ["NM_DBLCLK (tree view) notification code Windows Controls"]
+ms.assetid: 2ed3b3ad-a252-496a-bfcf-0cec5678f192
+keywords:
+- NM_DBLCLK (tree view) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_DBLCLK (tree view) notification code
@@ -33,7 +39,7 @@ NM_DBLCLK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure that contains additional information about this notification.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return nonzero to prevent the default processing, or zero to allow the default p
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

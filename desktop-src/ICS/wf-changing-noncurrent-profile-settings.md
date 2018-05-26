@@ -1,8 +1,15 @@
 ---
 title: Changing Settings in the Non-current Profile
 description: Changing Settings in the Non-current Profile
-ms.assetid: '5db288bf-88e0-4296-bab3-b3ec5e509f2b'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 5db288bf-88e0-4296-bab3-b3ec5e509f2b
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Settings in the Non-current Profile

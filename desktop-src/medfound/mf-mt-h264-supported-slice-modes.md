@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the supported slice modes for an H.264 video stream.'
-ms.assetid: '72DA62EC-A509-4C3B-A51D-7313C176AAA9'
-title: 'MF\_MT\_H264\_SUPPORTED\_SLICE\_MODES attribute'
+---
+Description: Specifies the supported slice modes for an H.264 video stream.
+ms.assetid: 72DA62EC-A509-4C3B-A51D-7313C176AAA9
+title: MF\_MT\_H264\_SUPPORTED\_SLICE\_MODES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_H264\_SUPPORTED\_SLICE\_MODES attribute
@@ -14,13 +19,13 @@ Specifies the supported slice modes for an H.264 video stream.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

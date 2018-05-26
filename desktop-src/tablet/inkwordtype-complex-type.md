@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the type that contains the ink data, alternates, and confidence for ink content that is an InkWord element (as opposed to a Drawing element).'
-ms.assetid: '361bc4a2-04e1-4cba-9925-a42cd0587760'
+Description: Defines the type that contains the ink data, alternates, and confidence for ink content that is an InkWord element (as opposed to a Drawing element).
+ms.assetid: 361bc4a2-04e1-4cba-9925-a42cd0587760
 title: InkWordType Complex Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkWordType Complex Type
@@ -18,14 +23,14 @@ Defines the type that contains the ink data, alternates, and confidence for ink 
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

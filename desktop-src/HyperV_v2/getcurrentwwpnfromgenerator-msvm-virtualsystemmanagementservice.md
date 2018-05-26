@@ -1,7 +1,12 @@
 ---
-Description: 'Provides the ability to preview the current World Wide Port Name (WWPN) without the WWPN being reserved.'
-ms.assetid: '7fc02099-744e-4a56-ae4b-1f5fd6a1eb45'
-title: 'GetCurrentWwpnFromGenerator method of the Msvm\_VirtualSystemManagementService class'
+Description: Provides the ability to preview the current World Wide Port Name (WWPN) without the WWPN being reserved.
+ms.assetid: 7fc02099-744e-4a56-ae4b-1f5fd6a1eb45
+title: GetCurrentWwpnFromGenerator method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCurrentWwpnFromGenerator method of the Msvm\_VirtualSystemManagementService class
@@ -13,7 +18,7 @@ Provides the ability to preview the current World Wide Port Name (WWPN) without 
 
 ```mof
 uint32 GetCurrentWwpnFromGenerator(
-  [out] string CurrentWwpn
+  [out] string CurrentWwpn
 );
 ```
 
@@ -78,8 +83,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

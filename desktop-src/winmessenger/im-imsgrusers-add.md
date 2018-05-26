@@ -1,8 +1,11 @@
 ---
 title: IMsgrUsers Add method
 description: Adds a MessengerUser object to a collection.
-ms.assetid: 'ab176aba-ee6f-4358-8a6a-085713e4cd3c'
-keywords: ["Add method Windows Messenger", "Add method Windows Messenger , IMsgrUsers interface", "IMsgrUsers interface Windows Messenger , Add method"]
+ms.assetid: ab176aba-ee6f-4358-8a6a-085713e4cd3c
+keywords:
+- Add method Windows Messenger
+- Add method Windows Messenger , IMsgrUsers interface
+- IMsgrUsers interface Windows Messenger , Add method
 topic_type:
 - apiref
 api_name:
@@ -11,25 +14,30 @@ api_location:
 - Msmsgs.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMsgrUsers::Add method
 
-\[**Add** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Add** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Adds a **MessengerUser** object to a collection.
 
 > [!Note]  
 > The **Add** method is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT Add(
-  [in] IMsgrUser *pUser
+  [in] IMsgrUser *pUser
 );
 ```
 
@@ -60,17 +68,17 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Mdisp.h</dt> </dl>    |
 | IDL<br/>                   | <dl> <dt>Mdisp.idl</dt> </dl>  |
 | DLL<br/>                   | <dl> <dt>Msmsgs.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

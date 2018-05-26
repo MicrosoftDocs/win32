@@ -1,7 +1,12 @@
 ---
-Description: 'A line list is a list of isolated, straight line segments.'
-ms.assetid: 'bb02b3d6-f30f-4f2b-8b40-a7e37faf524a'
+Description: A line list is a list of isolated, straight line segments.
+ms.assetid: bb02b3d6-f30f-4f2b-8b40-a7e37faf524a
 title: Line Lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Line Lists
@@ -36,7 +41,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render a line list in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md).
+The code example below shows how to render a line list in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master).
 
 
 ```

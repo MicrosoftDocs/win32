@@ -1,8 +1,15 @@
 ---
 title: Memory Management Under WOW64
 description: Memory management under WOW64 depends on the processor architecture.
-ms.assetid: 'a3fa6e51-2895-4941-9304-5939208e8102'
-keywords: ["WOW64 64-bit Windows Programming , memory management", "memory management 64-bit Windows Programming"]
+ms.assetid: a3fa6e51-2895-4941-9304-5939208e8102
+keywords:
+- WOW64 64-bit Windows Programming , memory management
+- memory management 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management Under WOW64

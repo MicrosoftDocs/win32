@@ -1,14 +1,22 @@
 ---
 title: IMediaRenderer ActionInformation method
 description: Retrieves information about which methods can currently be invoked on the DMR.
-ms.assetid: '7681FF92-DD13-4BBC-B860-E2BDFDA74FB9'
-keywords: ["ActionInformation method Media Streaming API", "ActionInformation method Media Streaming API , IMediaRenderer interface", "IMediaRenderer interface Media Streaming API , ActionInformation method"]
+ms.assetid: 7681FF92-DD13-4BBC-B860-E2BDFDA74FB9
+keywords:
+- ActionInformation method Media Streaming API
+- ActionInformation method Media Streaming API , IMediaRenderer interface
+- IMediaRenderer interface Media Streaming API , ActionInformation method
 topic_type:
 - apiref
 api_name:
 - IMediaRenderer.ActionInformation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRenderer::ActionInformation method
@@ -20,7 +28,7 @@ Retrieves information about which methods can currently be invoked on the DMR.
 
 ```C++
 HRESULT ActionInformation(
-  [out] IMediaRendererActionInformation **value
+  [out] IMediaRendererActionInformation **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRenderer**](imediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

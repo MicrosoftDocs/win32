@@ -1,8 +1,37 @@
 ---
 title: Developing a Gadget for Windows Sidebar Part 2 The G BACKGROUND, G IMAGE, G TEXT Presentation Elements and GIMAGE Protocol
 description: The second of three overviews that describe how to create a basic gadget for the Windows Sidebar.
-ms.assetid: 'f03fc7d8-8d64-4bc8-aa15-7dd79e3e9303'
-keywords: ["Windows Sidebar,creating gadgets", "Sidebar,creating gadgets", "gadgets,creating", "creating gadgets", "Windows Sidebar,examples", "Sidebar,examples", "gadgets,examples", "Gadget.xml", "Windows Sidebar,backgrounds", "Sidebar,backgrounds", "gadgets,backgrounds", "Windows Sidebar,elements", "Sidebar,elements", "gadgets,elements", "Windows Sidebar,gimage protocol", "Sidebar,gimage protocol", "gadgets,gimage protocol", "gimage protocol", "Windows Sidebar,image sizing", "Sidebar,image sizing", "gadgets,image sizing", "G IMAGE", "G TEXT", "G BACKGROUND"]
+ms.assetid: f03fc7d8-8d64-4bc8-aa15-7dd79e3e9303
+keywords:
+- Windows Sidebar,creating gadgets
+- Sidebar,creating gadgets
+- gadgets,creating
+- creating gadgets
+- Windows Sidebar,examples
+- Sidebar,examples
+- gadgets,examples
+- Gadget.xml
+- Windows Sidebar,backgrounds
+- Sidebar,backgrounds
+- gadgets,backgrounds
+- Windows Sidebar,elements
+- Sidebar,elements
+- gadgets,elements
+- Windows Sidebar,gimage protocol
+- Sidebar,gimage protocol
+- gadgets,gimage protocol
+- gimage protocol
+- Windows Sidebar,image sizing
+- Sidebar,image sizing
+- gadgets,image sizing
+- G IMAGE
+- G TEXT
+- G BACKGROUND
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a Gadget for Windows Sidebar Part 2: The G:BACKGROUND, G:IMAGE, G:TEXT Presentation Elements and GIMAGE Protocol

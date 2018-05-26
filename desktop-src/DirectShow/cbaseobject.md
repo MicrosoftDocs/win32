@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseObject class is an abstract class for implementing DirectShow objects. To implement Component Object Model (COM) objects, use the CUnknown class, which derives from CBaseObject.'
-ms.assetid: '4b651d43-b177-4081-8c76-f6615ff2830c'
+Description: The CBaseObject class is an abstract class for implementing DirectShow objects. To implement Component Object Model (COM) objects, use the CUnknown class, which derives from CBaseObject.
+ms.assetid: 4b651d43-b177-4081-8c76-f6615ff2830c
 title: CBaseObject class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseObject class
@@ -18,7 +23,7 @@ The **CBaseObject** class is an abstract class for implementing DirectShow objec
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ The **CBaseObject** constructor takes one argument, a debugging name for the obj
 [DirectShow Base Classes](directshow-base-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

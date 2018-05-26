@@ -1,7 +1,12 @@
 ---
 title: Receiving Unsolicited Traffic Over Teredo
 description: Teredo provides global connectivity using IPv6 and NAT traversal capabilities.
-ms.assetid: '0c03d1bb-15f8-4e77-9a96-e182b1d190ac'
+ms.assetid: 0c03d1bb-15f8-4e77-9a96-e182b1d190ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Unsolicited Traffic Over Teredo

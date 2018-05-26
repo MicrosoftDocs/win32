@@ -4,11 +4,17 @@ description: Introduces Microsoft Management Console (MMC).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd001aa6d-9d31-4b83-9d96-b3cbc6b6d0a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d001aa6d-9d31-4b83-9d96-b3cbc6b6d0a8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Management Console MMC 2.0", "Microsoft Management Console MMC 2.0 ,start page", "MMC 2.0 MMC 2.0 (See Microsoft Management Console MMC 2.0 )"]
+keywords:
+- Microsoft Management Console MMC 2.0
+- Microsoft Management Console MMC 2.0 ,start page
+- MMC 2.0 MMC 2.0 (See Microsoft Management Console MMC 2.0 )
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Microsoft Management Console 2.0

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job.'
-ms.assetid: 'd3e13689-2d62-4106-8110-99fbbd504c4d'
-title: 'FaxIncomingJob.Size property'
+---
+Description: The Size property is a value that indicates the size of the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job.
+ms.assetid: d3e13689-2d62-4106-8110-99fbbd504c4d
+title: FaxIncomingJob.Size property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.Size property
@@ -46,7 +51,7 @@ A **Long** that receives the size, in bytes, of the TIFF Class F file associate
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

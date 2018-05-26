@@ -4,11 +4,14 @@ description: Gets the user ID.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.IConsent.User'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.IConsent.User
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["User property", "User property, IConsent class", "IConsent class, User property"]
+keywords:
+- User property
+- User property, IConsent class
+- IConsent class, User property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IConsent.User property
@@ -63,9 +69,9 @@ ID, usually the email address of the user.
 [**IConsent**](iconsent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,22 @@
 ---
 title: IWMPPlaylist clear method
 description: The clear method is reserved for future use.
-ms.assetid: '697e9c19-b27d-4f8e-bef2-485a209dd98e'
-keywords: ["clear method Windows Media Player", "clear method Windows Media Player , IWMPPlaylist interface", "IWMPPlaylist interface Windows Media Player , clear method"]
+ms.assetid: 697e9c19-b27d-4f8e-bef2-485a209dd98e
+keywords:
+- clear method Windows Media Player
+- clear method Windows Media Player , IWMPPlaylist interface
+- IWMPPlaylist interface Windows Media Player , clear method
 topic_type:
 - apiref
 api_name:
 - IWMPPlaylist.clear
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist::clear method

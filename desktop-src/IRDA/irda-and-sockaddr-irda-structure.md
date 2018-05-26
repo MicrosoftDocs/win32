@@ -1,8 +1,14 @@
 ---
 title: IrDA and SOCKADDR\_IRDA Structure
 description: The SOCKADDR\_IRDA structure is used for IrDA sockets. For convenience, the structure definition is presented here (if discrepancies exist, the reference in Windows Sockets is definitive).
-ms.assetid: 'eb452166-baa4-46f8-88f2-a250119c38a4'
-keywords: ["IrDA and SOCKADDR_IRDA"]
+ms.assetid: eb452166-baa4-46f8-88f2-a250119c38a4
+keywords:
+- IrDA and SOCKADDR_IRDA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and SOCKADDR\_IRDA Structure

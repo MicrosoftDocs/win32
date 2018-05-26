@@ -1,7 +1,12 @@
 ---
-Description: 'The ModuleSubstitution table specifies the configurable fields of a module database and provides a template for the configuration of each field.'
-ms.assetid: '8e94c31f-b3a7-4f3a-aec4-32b0e1dd5400'
+Description: The ModuleSubstitution table specifies the configurable fields of a module database and provides a template for the configuration of each field.
+ms.assetid: 8e94c31f-b3a7-4f3a-aec4-32b0e1dd5400
 title: ModuleSubstitution Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModuleSubstitution Table
@@ -68,7 +73,7 @@ This column contains a string that provides a formatting template for the data b
 -   This column uses [CMSM special format](cmsm-special-format.md). A literal semicolon (';') or equals sign ('=') can be added to the table by prefixing the character with a backslash. '\\'.
 -   The Value field may contain multiple substitution strings. For example, the configuration of items "Food1" and "Food2" in the string: "\[=Food1\] is good, but \[=Food2\] is better because \[=Food2\] is more nutritious."
 -   Replacement strings must not be nested. The template "\[=AB\[=CDE\]\]" is invalid.
--   If the Value field evaluates to null, and the target field is not nullable, the merge fails and an error object of type msmErrorBadNullSubstitution is created and added to the error list. For details, see the error types described in [**get\_Type Function**](imsmerror-get-type.md).
+-   If the Value field evaluates to null, and the target field is not nullable, the merge fails and an error object of type msmErrorBadNullSubstitution is created and added to the error list. For details, see the error types described in [**get\_Type Function**](/windows/win32/Mergemod/?branch=master).
 -   If the Value field evaluates to the null GUID: {00000000-0000-0000-0000-000000000000}, the null GUID is replaced by the name of the feature before the row is merged into the module. For details, see [Referencing Features in Merge Modules](referencing-features-in-merge-modules.md).
 -   The template in the Value field is evaluated before being inserted into the target field. Substitution into a row is done before replacing any features.
 -   If the Value column evaluates to a string of only integer characters (with an optional + or -), the string is converted into an integer before being substituted into an target field of the [Integer Format Type](integer-format-types.md). If the template evaluates to a string that does not consist only of integer characters (and an optional + or -) the result cannot be substituted into an integer target field. Attempting to insert a non-integer into an integer field causes the merge to fail and adds a msmErrorBadSubstitutionType error object to the error list.

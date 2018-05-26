@@ -1,7 +1,12 @@
 ---
 title: NetBIOS Reference
 description: NetBIOS Reference
-ms.assetid: 'd8b4e4fe-8904-47c4-aeeb-9430409e2ac1'
+ms.assetid: d8b4e4fe-8904-47c4-aeeb-9430409e2ac1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetBIOS Reference

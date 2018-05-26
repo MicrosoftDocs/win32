@@ -1,13 +1,16 @@
 ---
-Description: 'The RecordForLog class is used to instantiate records to be aggregated to a Log.'
+Description: The RecordForLog class is used to instantiate records to be aggregated to a Log.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '31af1dbc-8613-4c39-9abf-0196c1266dde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 31af1dbc-8613-4c39-9abf-0196c1266dde
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_RecordForLog class'
+title: CIM\_RecordForLog class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RecordForLog class
@@ -240,17 +243,17 @@ A string describing the data structure of the information in the property, Recor
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

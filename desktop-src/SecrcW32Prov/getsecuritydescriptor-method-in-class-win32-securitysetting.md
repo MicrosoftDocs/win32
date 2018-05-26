@@ -1,13 +1,16 @@
 ---
-Description: 'The GetSecurityDescriptor&\#8194;WMI class method retrieves a representation of the security descriptor as a Win32\_SecurityDescriptor for the Win32\_SecuritySetting object.'
+Description: The GetSecurityDescriptor&\#8194;WMI class method retrieves a representation of the security descriptor as a Win32\_SecurityDescriptor for the Win32\_SecuritySetting object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '84f517da-9e70-4ab2-8490-c16b7ca3310e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 84f517da-9e70-4ab2-8490-c16b7ca3310e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSecurityDescriptor method of the Win32\_SecuritySetting class'
+title: GetSecurityDescriptor method of the Win32\_SecuritySetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the Win32\_SecuritySetting class
@@ -21,7 +24,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -92,8 +95,8 @@ The parameters passed to the service are not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -110,9 +113,9 @@ The parameters passed to the service are not valid.
 [**Win32\_SecuritySetting**](win32-securitysetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

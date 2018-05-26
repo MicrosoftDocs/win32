@@ -1,8 +1,11 @@
 ---
 title: RemoveInitiatorId method of the MSFT\_MaskingSet class
 description: Removes one or more initiator identifiers from the masking set.
-ms.assetid: '1EB34D83-40B8-4174-9AC5-06091EC5A610'
-keywords: ["RemoveInitiatorId method Windows Storage Management API", "RemoveInitiatorId method Windows Storage Management API , MSFT_MaskingSet class", "MSFT_MaskingSet class Windows Storage Management API , RemoveInitiatorId method"]
+ms.assetid: 1EB34D83-40B8-4174-9AC5-06091EC5A610
+keywords:
+- RemoveInitiatorId method Windows Storage Management API
+- RemoveInitiatorId method Windows Storage Management API , MSFT_MaskingSet class
+- MSFT_MaskingSet class Windows Storage Management API , RemoveInitiatorId method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveInitiatorId method of the MSFT\_MaskingSet class
@@ -24,10 +32,10 @@ Note that the [**MSFT\_InitiatorId**](msft-initiatorid.md) instances themselves 
 
 ```mof
 UInt32 RemoveInitiatorId(
-  [in]  String                  InitiatorIds[],
-  [in]  Boolean                 RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String                  ExtendedStatus
+  [in]  String                  InitiatorIds[],
+  [in]  Boolean                 RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String                  ExtendedStatus
 );
 ```
 
@@ -116,8 +124,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -130,9 +138,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_MaskingSet**](msft-maskingset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: About the Reference Section
 description: About the Reference Section
-ms.assetid: 'E2892C61-C1D4-4669-9507-06BA4660EB11'
+ms.assetid: E2892C61-C1D4-4669-9507-06BA4660EB11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Reference Section

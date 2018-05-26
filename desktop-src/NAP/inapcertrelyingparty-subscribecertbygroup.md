@@ -1,8 +1,11 @@
 ---
 title: INapCertRelyingParty SubscribeCertByGroup method
 description: Subscribes to a health certificate server (HCS).
-ms.assetid: '6fce113d-e183-45d7-8fb5-e04b6f4afcca'
-keywords: ["SubscribeCertByGroup method NAP", "SubscribeCertByGroup method NAP , INapCertRelyingParty interface", "INapCertRelyingParty interface NAP , SubscribeCertByGroup method"]
+ms.assetid: 6fce113d-e183-45d7-8fb5-e04b6f4afcca
+keywords:
+- SubscribeCertByGroup method NAP
+- SubscribeCertByGroup method NAP , INapCertRelyingParty interface
+- INapCertRelyingParty interface NAP , SubscribeCertByGroup method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapCertRelyingParty::SubscribeCertByGroup method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **SubscribeCertByGroup** method subscribes to a health certificate server (HCS). The HCS must already be registered before subscribing.
 
@@ -27,10 +35,10 @@ The **SubscribeCertByGroup** method subscribes to a health certificate server (H
 
 ```C++
 HRESULT SubscribeCertByGroup(
-  [in]        EnforcementEntityId  id,
-  [in]  const BSTR                subscriberName,
-  [in]  const  VARIANT            *reserved,
-  [out]       BOOL                *certExists
+  [in]        EnforcementEntityId  id,
+  [in]  const BSTR                subscriberName,
+  [in]  const  VARIANT            *reserved,
+  [out]       BOOL                *certExists
 );
 ```
 
@@ -55,7 +63,7 @@ The name of the subscriber.
 > [!Note]  
 > This is currently only used for logging purposes.
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,7 +95,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,8 +103,8 @@ Returns one of the following error codes based on the result of this operation.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapCertRelyingParty.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCertRelyingParty.idl</dt> </dl> |
 
@@ -109,9 +117,9 @@ Returns one of the following error codes based on the result of this operation.
 [**INapCertRelyingParty**](inapcertrelyingparty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

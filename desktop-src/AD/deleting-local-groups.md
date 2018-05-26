@@ -4,11 +4,15 @@ description: This topic shows how to delete a local group from a member server o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '030da25a-a606-4521-a243-d902c772fd00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 030da25a-a606-4521-a243-d902c772fd00
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Deleting Local Groups AD"]
+keywords:
+- Deleting Local Groups AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting Local Groups

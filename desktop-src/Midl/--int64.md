@@ -1,14 +1,20 @@
 ---
-title: \_\_int64 attribute
+title: '\_\_int64 attribute'
 description: The keyword \_\_int64 specifies a valid integer supported by the MIDL compiler.
 ms.assetid: 52fafae2-003c-4eae-b6e1-a49f69db204e
-keywords: ["__int64 attribute MIDL"]
+keywords:
+- __int64 attribute MIDL
 topic_type:
 - apiref
 api_name:
 - __int64
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_\_int64 attribute

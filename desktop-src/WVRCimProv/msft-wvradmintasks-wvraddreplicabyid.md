@@ -4,13 +4,19 @@ description: Adds a volume to an existing replication group and assigns a replic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6efc20b8-0fca-40d0-a9ad-d004b681e90b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6efc20b8-0fca-40d0-a9ad-d004b681e90b
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrAddReplicaById method", "WvrAddReplicaById method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrAddReplicaById method"]
+keywords:
+- WvrAddReplicaById method
+- WvrAddReplicaById method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrAddReplicaById method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrAddReplicaById method of the MSFT\_WvrAdminTasks class
@@ -22,11 +28,11 @@ Adds a volume to an existing replication group and assigns a replica set ID to t
 
 ```mof
 uint32 WvrAddReplicaById(
-  [in] string  ReplicationGroupName,
-  [in] string  VolumeName[],
-  [in] string  ReplicaSetId[],
-  [in] boolean IsPrimary,
-  [in] boolean Seeded
+  [in] string  ReplicationGroupName,
+  [in] string  VolumeName[],
+  [in] string  ReplicaSetId[],
+  [in] boolean IsPrimary,
+  [in] boolean Seeded
 );
 ```
 
@@ -78,7 +84,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -92,9 +98,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

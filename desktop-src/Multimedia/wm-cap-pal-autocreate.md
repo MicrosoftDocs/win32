@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_PAL\_AUTOCREATE message
 description: The WM\_CAP\_PAL\_AUTOCREATE message requests that the capture driver sample video frames and automatically create a new palette. You can send this message explicitly or by using the capPaletteAuto macro.
-ms.assetid: 'b94d245d-adf4-4fe0-b053-87109ef5fd2f'
-keywords: ["WM_CAP_PAL_AUTOCREATE message Windows Multimedia"]
+ms.assetid: b94d245d-adf4-4fe0-b053-87109ef5fd2f
+keywords:
+- WM_CAP_PAL_AUTOCREATE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_PAL\_AUTOCREATE message
 
-The **WM\_CAP\_PAL\_AUTOCREATE** message requests that the capture driver sample video frames and automatically create a new palette. You can send this message explicitly or by using the [**capPaletteAuto**](cappaletteauto.md) macro.
+The **WM\_CAP\_PAL\_AUTOCREATE** message requests that the capture driver sample video frames and automatically create a new palette. You can send this message explicitly or by using the [**capPaletteAuto**](/windows/win32/Vfw/nf-vfw-cappaletteauto?branch=master) macro.
 
 
 ```C++
@@ -60,8 +66,8 @@ The sampled video sequence should include all the colors you want in the palette
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The sampled video sequence should include all the colors you want in the palette
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

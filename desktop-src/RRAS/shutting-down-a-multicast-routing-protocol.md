@@ -1,7 +1,12 @@
 ---
 title: Shutting Down a Multicast Routing Protocol
 description: The following table summarizes a series of steps in a shutdown interaction between the multicast group manager and the routing protocol when the routing protocol is shutting down.
-ms.assetid: 'd868218d-7939-45d1-9e2f-3415c40f1a62'
+ms.assetid: d868218d-7939-45d1-9e2f-3415c40f1a62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shutting Down a Multicast Routing Protocol
@@ -14,16 +19,16 @@ Each row of the table represents one step.
 
 | Routing protocol action                                                                                                                                     | Multicast group manager action                                                                                                                                                                                                                                                                                                                                                                                                                                            | Notes                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Release ownership of each interface that the routing protocol owns using the [**MgmReleaseInterfaceOwnership**](mgmreleaseinterfaceownership.md) function. | If IGMP is also running on the interface that was just released by a routing protocol, contact IGMP using the [**PMGM\_DISABLE\_IGMP\_CALLBACK**](pmgm-disable-igmp-callback.md) callback. Once all changes to multicast data regarding interface ownership have been made, contact IGMP again using [**PMGM\_ENABLE\_IGMP\_CALLBACK**](pmgm-enable-igmp-callback.md) callback.<br/> Delete all the forwarding entries associated with this interface.<br/> |                                                                           |
-| Deregister with the multicast group manager using the [**MgmDeRegisterMProtocol**](mgmderegistermprotocol.md) function.                                    | Destroy the handle that was returned to the routing protocol by a previous call to the [**MgmDeRegisterMProtocol**](mgmderegistermprotocol.md) function.                                                                                                                                                                                                                                                                                                                 | The routing protocol can no longer use this handle to call MGM functions. |
+| Release ownership of each interface that the routing protocol owns using the [**MgmReleaseInterfaceOwnership**](/windows/win32/Mgm/nf-mgm-mgmreleaseinterfaceownership?branch=master) function. | If IGMP is also running on the interface that was just released by a routing protocol, contact IGMP using the [**PMGM\_DISABLE\_IGMP\_CALLBACK**](/windows/win32/Mgm/nc-mgm-pmgm_disable_igmp_callback?branch=master) callback. Once all changes to multicast data regarding interface ownership have been made, contact IGMP again using [**PMGM\_ENABLE\_IGMP\_CALLBACK**](/windows/win32/Mgm/nc-mgm-pmgm_enable_igmp_callback?branch=master) callback.<br/> Delete all the forwarding entries associated with this interface.<br/> |                                                                           |
+| Deregister with the multicast group manager using the [**MgmDeRegisterMProtocol**](/windows/win32/Mgm/nf-mgm-mgmderegistermprotocol?branch=master) function.                                    | Destroy the handle that was returned to the routing protocol by a previous call to the [**MgmDeRegisterMProtocol**](/windows/win32/Mgm/nf-mgm-mgmderegistermprotocol?branch=master) function.                                                                                                                                                                                                                                                                                                                 | The routing protocol can no longer use this handle to call MGM functions. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

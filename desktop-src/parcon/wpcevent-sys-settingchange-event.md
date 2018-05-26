@@ -1,7 +1,12 @@
 ---
-Description: 'System-level event generated on a Parental Controls setting change.'
-ms.assetid: '2540c3cc-96d0-4e01-a525-4da4a857cb58'
-title: 'WPCEVENT\_SYS\_SETTINGCHANGE event'
+Description: System-level event generated on a Parental Controls setting change.
+ms.assetid: 2540c3cc-96d0-4e01-a525-4da4a857cb58
+title: WPCEVENT\_SYS\_SETTINGCHANGE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPCEVENT\_SYS\_SETTINGCHANGE event
@@ -57,7 +62,7 @@ The new value of this setting, if added or changed.
 *Reason* 
 </dt> <dd>
 
-A value of the [**WPCFLAG\_ISBLOCKED**](wpcflag-isblocked.md) enumeration that indicates information about what events are blocked from use and what controls are in place.
+A value of the [**WPCFLAG\_ISBLOCKED**](/windows/win32/Wpcevent/ne-wpcevent-tagwpcflag_isblocked?branch=master) enumeration that indicates information about what events are blocked from use and what controls are in place.
 
 </dd> <dt>
 
@@ -74,7 +79,7 @@ An optional field.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Wpcevent.h</dt> </dl> |
 
@@ -87,12 +92,12 @@ An optional field.
 [Using Logging APIs for Parental Controls](using-logging-apis-for-parental-controls.md)
 </dt> <dt>
 
-[**WPC\_ARGS\_CONVERSATIONINITEVENT**](wpc-args-conversationinitevent.md)
+[**WPC\_ARGS\_CONVERSATIONINITEVENT**](/windows/win32/Wpcevent/ne-wpcevent-tagwpc_args_conversationinitevent?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

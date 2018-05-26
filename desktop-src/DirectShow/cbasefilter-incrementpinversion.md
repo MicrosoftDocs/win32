@@ -1,7 +1,12 @@
 ---
-Description: 'The IncremementPinVersion method increments the version number on the set of pins.'
-ms.assetid: 'e1b3ec33-104d-4a12-9b11-f8bea09690a7'
-title: 'CBaseFilter.IncrementPinVersion method'
+Description: The IncremementPinVersion method increments the version number on the set of pins.
+ms.assetid: e1b3ec33-104d-4a12-9b11-f8bea09690a7
+title: CBaseFilter.IncrementPinVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.IncrementPinVersion method
@@ -50,9 +55,9 @@ This method increments the [**CBaseFilter::m\_PinVersion**](cbasefilter-m-pinver
 [**CBaseFilter::GetPinVersion**](cbasefilter-getpinversion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

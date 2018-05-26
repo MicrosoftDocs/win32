@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETTHUMBLENGTH message
 description: Retrieves the length of the slider in a trackbar.
-ms.assetid: '290187a2-7bf7-4a4b-a4cf-132f8ad38020'
-keywords: ["TBM_GETTHUMBLENGTH message Windows Controls"]
+ms.assetid: 290187a2-7bf7-4a4b-a4cf-132f8ad38020
+keywords:
+- TBM_GETTHUMBLENGTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETTHUMBLENGTH message
@@ -37,8 +43,8 @@ Returns the length, in pixels, of the slider.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -56,9 +62,9 @@ Returns the length, in pixels, of the slider.
 [**TBM\_SETTHUMBLENGTH**](tbm-setthumblength.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Building a UI Plug-in
 description: Building a UI Plug-in
-ms.assetid: '95a14bd1-8d71-44dd-be1e-f6a218710718'
-keywords: ["Windows Media Player plug-ins,building", "plug-ins,building", "user interface plug-ins,building", "UI plug-ins,building", "building plug-ins,user interface"]
+ms.assetid: 95a14bd1-8d71-44dd-be1e-f6a218710718
+keywords:
+- Windows Media Player plug-ins,building
+- plug-ins,building
+- user interface plug-ins,building
+- UI plug-ins,building
+- building plug-ins,user interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a UI Plug-in

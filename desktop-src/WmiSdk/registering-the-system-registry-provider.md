@@ -1,13 +1,16 @@
 ---
-Description: 'The System Registry provider is registered as part of the WMI installation process on Windows.'
+Description: The System Registry provider is registered as part of the WMI installation process on Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ce5d0785-6e1b-411c-91df-f25767310530'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ce5d0785-6e1b-411c-91df-f25767310530
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering the System Registry Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering the System Registry Provider
@@ -98,7 +101,7 @@ The following procedure describes how to register the System Registry provider.
     };
     ```
 
-4.  Compile the MOF file using the MOF compiler or the [**IMofCompiler**](imofcompiler.md) interface.
+4.  Compile the MOF file using the MOF compiler or the [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) interface.
 
 The RegEvent.mof file provided in the WMI section of the Windows SDK contains the [**\_\_Win32Provider**](--win32provider.md) and [**\_\_EventProviderRegistration**](--eventproviderregistration.md) instances necessary to register the System Registry provider as an event provider. For more information about registering a provider, see [Registering a Provider](registering-a-provider.md) and [Receiving a WMI Event](receiving-a-wmi-event.md).
 

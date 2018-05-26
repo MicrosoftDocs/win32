@@ -1,7 +1,12 @@
 ---
 title: Parts Fundamentals
 description: The topics in this section describe using the Packaging APIs to represent and interact with parts.
-ms.assetid: '4edb385b-3689-492d-b8f7-e6c2fc67ae1b'
+ms.assetid: 4edb385b-3689-492d-b8f7-e6c2fc67ae1b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parts Fundamentals

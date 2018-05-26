@@ -1,8 +1,24 @@
 ---
 title: DRM Basics
 description: DRM Basics
-ms.assetid: 'f36da29d-5f9d-441d-8061-eb50331a8e7a'
-keywords: ["Windows Media Format SDK,DRM basics", "digital rights management (DRM),about", "DRM (digital rights management),about", "digital rights management (DRM),protecting content", "DRM (digital rights management),protecting content", "digital rights management (DRM),packaging content", "DRM (digital rights management),packaging content", "digital rights management (DRM),reading protected content", "DRM (digital rights management),reading protected content", "protecting content", "packaging content"]
+ms.assetid: f36da29d-5f9d-441d-8061-eb50331a8e7a
+keywords:
+- Windows Media Format SDK,DRM basics
+- digital rights management (DRM),about
+- DRM (digital rights management),about
+- digital rights management (DRM),protecting content
+- DRM (digital rights management),protecting content
+- digital rights management (DRM),packaging content
+- DRM (digital rights management),packaging content
+- digital rights management (DRM),reading protected content
+- DRM (digital rights management),reading protected content
+- protecting content
+- packaging content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Basics

@@ -4,11 +4,15 @@ description: This topic contains the return values for Directory Manager errors 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '124b6687-6347-4883-8f2f-92b1f429c6d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 124b6687-6347-4883-8f2f-92b1f429c6d9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Directory Manager Errors"]
+keywords:
+- Directory Manager Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Directory Manager Errors

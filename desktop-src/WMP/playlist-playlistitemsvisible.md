@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.playlistItemsVisible
 description: The playlistItemsVisible attribute specifies or retrieves a value indicating whether the Playlist items area is visible.
-ms.assetid: '9335bd64-c692-4d11-9912-c611208fbc34'
-keywords: ["PLAYLIST.playlistItemsVisible Windows Media Player"]
+ms.assetid: 9335bd64-c692-4d11-9912-c611208fbc34
+keywords:
+- PLAYLIST.playlistItemsVisible Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.playlistItemsVisible
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.playlistItemsVisible
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ The Playlist items area includes the column headers, the contents of the columns
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

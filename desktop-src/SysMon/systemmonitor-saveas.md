@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.SaveAs method
 description: Saves the counter values in the graph view to a log file.
-ms.assetid: '34824c54-d8f4-4c2b-b417-aa0914c7164b'
-keywords: ["SaveAs method SysMon", "SaveAs method SysMon , SystemMonitor object", "SystemMonitor object SysMon , SaveAs method"]
+ms.assetid: 34824c54-d8f4-4c2b-b417-aa0914c7164b
+keywords:
+- SaveAs method SysMon
+- SaveAs method SysMon , SystemMonitor object
+- SystemMonitor object SysMon , SaveAs method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.SaveAs method
@@ -43,7 +51,7 @@ File path of the log file. You can specify the path as an absolute, relative, or
 *fileType* \[in\]
 </dt> <dd>
 
-Format of the counter data saved to the log file. You can specify either [**SysmonFileType.sysmonFileHtml**](sysmonfiletype.md) or **SysmonFileType.sysmonFileTsv**.
+Format of the counter data saved to the log file. You can specify either [**SysmonFileType.sysmonFileHtml**](/windows/win32/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0001?branch=master) or **SysmonFileType.sysmonFileTsv**.
 
 </dd> </dl>
 
@@ -61,8 +69,8 @@ Only the counter data visible in the graph view is saved (for the actual number 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -77,9 +85,9 @@ Only the counter data visible in the graph view is saved (for the actual number 
 [**SystemMonitor.Relog**](systemmonitor-relog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

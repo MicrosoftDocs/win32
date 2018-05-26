@@ -1,8 +1,9 @@
 ---
 title: glHint function
 description: The glHint function specifies implementation-specific hints.
-ms.assetid: '6d03e107-321a-45ee-9ce7-25fa9cab32d9'
-keywords: ["glHint function OpenGL"]
+ms.assetid: 6d03e107-321a-45ee-9ce7-25fa9cab32d9
+keywords:
+- glHint function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glHint function
@@ -22,8 +28,8 @@ The **glHint** function specifies implementation-specific hints.
 
 ```C++
 void WINAPI glHint(
-   GLenum target,
-   GLenum mode
+   GLenum target,
+   GLenum mode
 );
 ```
 
@@ -50,7 +56,7 @@ A symbolic constant indicating the behavior to be controlled. The following symb
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +75,7 @@ A symbolic constant indicating the desired behavior. The following symbolic cons
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -117,8 +123,8 @@ The **glHint** function can be ignored.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -135,9 +141,9 @@ The **glHint** function can be ignored.
 [**glEnd**](glend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

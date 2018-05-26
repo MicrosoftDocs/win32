@@ -2,13 +2,16 @@
 title: Add method of the PS\_DAClientDnsConfiguration class
 description: This cmdlet adds the specified DNS suffix, DNS server addresses, proxy server set to the NRPT table.
 audience: developer
-ms.assetid: '601a82cd-1997-422c-ae9e-11f04c075133'
-ms.prod: 'windows-server-dev'
+ms.assetid: 601a82cd-1997-422c-ae9e-11f04c075133
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DAClientDnsConfiguration class", "PS_DAClientDnsConfiguration class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DAClientDnsConfiguration class
+- PS_DAClientDnsConfiguration class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DAClientDnsConfiguration class
@@ -28,12 +34,12 @@ This cmdlet adds the specified DNS suffix, DNS server addresses, proxy server se
 
 ```mof
 uint32 Add(
-  [in]  string            DnsIPAddress[],
-  [in]  string            DnsSuffix,
-  [in]  string            ProxyServer,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [out] DnsClientNrptRule cmdletOutput
+  [in]  string            DnsIPAddress[],
+  [in]  string            DnsSuffix,
+  [in]  string            ProxyServer,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [out] DnsClientNrptRule cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ NRPT object for the NRPT entry that was added
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ NRPT object for the NRPT entry that was added
 [**PS\_DAClientDnsConfiguration**](ps-daclientdnsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

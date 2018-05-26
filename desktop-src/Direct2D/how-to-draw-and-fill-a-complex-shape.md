@@ -1,16 +1,21 @@
 ---
 title: How to Draw and Fill a Complex Shape
 description: Direct2D provides the ID2D1PathGeometry interface for describing complex shapes that can contain curves, arcs, and lines. This topic describes how to define and render a path geometry.
-ms.assetid: 'd7aad487-04e0-448d-bedf-b8dfadc7bbe9'
+ms.assetid: d7aad487-04e0-448d-bedf-b8dfadc7bbe9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Draw and Fill a Complex Shape
 
-Direct2D provides the [**ID2D1PathGeometry**](id2d1pathgeometry.md) interface for describing complex shapes that can contain curves, arcs, and lines. This topic describes how to define and render a path geometry.
+Direct2D provides the [**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master) interface for describing complex shapes that can contain curves, arcs, and lines. This topic describes how to define and render a path geometry.
 
-To define a path geometry, first use the [**ID2D1Factory::CreatePathGeometry**](id2d1factory-createpathgeometry.md) method to create the path geometry, then use the path geometry's [**Open**](id2d1pathgeometry-open.md) method to retrieve an [**ID2D1GeometrySink**](id2d1geometrysink.md). You can then add lines, curves, and arcs by calling the sink's various Add methods.
+To define a path geometry, first use the [**ID2D1Factory::CreatePathGeometry**](/windows/win32/d2d1/?branch=master) method to create the path geometry, then use the path geometry's [**Open**](/windows/win32/d2d1/?branch=master) method to retrieve an [**ID2D1GeometrySink**](/windows/win32/d2d1/?branch=master). You can then add lines, curves, and arcs by calling the sink's various Add methods.
 
-The following example creates an [**ID2D1PathGeometry**](id2d1pathgeometry.md), retrieves a sink, and uses it to define an hourglass shape.
+The following example creates an [**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master), retrieves a sink, and uses it to define an hourglass shape.
 
 
 ```C++
@@ -79,7 +84,7 @@ if (SUCCEEDED(hr))
 
 
 
-Note that an [**ID2D1PathGeometry**](id2d1pathgeometry.md) is a device-independent resource and can, therefore, be created once and retained for the life of the application. (For more information about different types of resources, see the [Resources Overview](resources-and-resource-domains.md).)
+Note that an [**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master) is a device-independent resource and can, therefore, be created once and retained for the life of the application. (For more information about different types of resources, see the [Resources Overview](resources-and-resource-domains.md).)
 
 The next example creates two brushes that will be used to paint the path geometry's outline and fill.
 
@@ -143,7 +148,7 @@ if (SUCCEEDED(hr))
 
 
 
-The final example uses the [**DrawGeometry**](id2d1rendertarget-drawgeometry.md) and [**FillGeometry**](id2d1rendertarget-fillgeometry.md) methods to paint the geometry's outline and interior. This example produces the output shown in the following illustration.
+The final example uses the [**DrawGeometry**](/windows/win32/d2d1/?branch=master) and [**FillGeometry**](/windows/win32/d2d1/?branch=master) methods to paint the geometry's outline and interior. This example produces the output shown in the following illustration.
 
 ![illustration of an hourglass-shaped geometry](images/transformgeometryexample-1.png)
 

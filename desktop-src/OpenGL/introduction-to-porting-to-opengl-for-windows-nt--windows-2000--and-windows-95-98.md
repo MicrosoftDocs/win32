@@ -1,8 +1,15 @@
 ---
 title: Introduction to Porting to OpenGL for Windows
 description: Introduction to Porting to OpenGL for Windows
-ms.assetid: 'd23edcf7-d673-42b6-831b-edb3a76754e1'
-keywords: ["OpenGL,porting to Windows", "porting to OpenGL OpenGL"]
+ms.assetid: d23edcf7-d673-42b6-831b-edb3a76754e1
+keywords:
+- OpenGL,porting to Windows
+- porting to OpenGL OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to Porting to OpenGL for Windows

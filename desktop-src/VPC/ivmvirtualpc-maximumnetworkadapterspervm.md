@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC MaximumNetworkAdaptersPerVM property
 description: Maximum number of networks interfaces per virtual machine.
-ms.assetid: '92da4958-5a67-422e-a6bd-68cabf1835ab'
-keywords: ["MaximumNetworkAdaptersPerVM property Virtual PC", "MaximumNetworkAdaptersPerVM property Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , MaximumNetworkAdaptersPerVM property"]
+ms.assetid: 92da4958-5a67-422e-a6bd-68cabf1835ab
+keywords:
+- MaximumNetworkAdaptersPerVM property Virtual PC
+- MaximumNetworkAdaptersPerVM property Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , MaximumNetworkAdaptersPerVM property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::MaximumNetworkAdaptersPerVM property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the maximum number of networks interfaces per virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaximumNetworkAdaptersPerVM(
-  [out, retval] long *maxNetworkAdapters
+  [out, retval] long *maxNetworkAdapters
 );
 ```
 
@@ -55,9 +63,9 @@ The maximum number of network interfaces per virtual machine.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -71,9 +79,9 @@ The maximum number of network interfaces per virtual machine.
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

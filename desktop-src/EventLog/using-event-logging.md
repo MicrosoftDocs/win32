@@ -1,7 +1,12 @@
 ---
 Description: Using Event Logging
-ms.assetid: '23faa271-ef25-43cd-b6c9-b65e6a12dd9a'
+ms.assetid: 23faa271-ef25-43cd-b6c9-b65e6a12dd9a
 title: Using Event Logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Event Logging

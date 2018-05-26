@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement RegisterSystemHealthAgent method
 description: Registers an SHA with the NAP system.
-ms.assetid: '37acfd11-8282-42ba-ae02-9a45c4509b8b'
-keywords: ["RegisterSystemHealthAgent method NAP", "RegisterSystemHealthAgent method NAP , INapClientManagement interface", "INapClientManagement interface NAP , RegisterSystemHealthAgent method"]
+ms.assetid: 37acfd11-8282-42ba-ae02-9a45c4509b8b
+keywords:
+- RegisterSystemHealthAgent method NAP
+- RegisterSystemHealthAgent method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , RegisterSystemHealthAgent method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::RegisterSystemHealthAgent method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **RegisterSystemHealthAgent** method registers an SHA with the NAP system.
 
@@ -27,7 +35,7 @@ The **RegisterSystemHealthAgent** method registers an SHA with the NAP system.
 
 ```C++
 HRESULT RegisterSystemHealthAgent(
-  [in] const NapComponentRegistrationInfo *agent
+  [in] const NapComponentRegistrationInfo *agent
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT RegisterSystemHealthAgent(
 *agent* \[in\]
 </dt> <dd>
 
-A pointer to a [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) structure that contains the registration information for the SHA.
+A pointer to a [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) structure that contains the registration information for the SHA.
 
 </dd> </dl>
 
@@ -59,7 +67,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ The method returns an HRESULT status code including but not limited to one of th
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -82,9 +90,9 @@ The method returns an HRESULT status code including but not limited to one of th
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveSCSIController method
 description: The RemoveSCSIController method removes the specified SCSI controller from the virtual machine.
-ms.assetid: 'fda7d3fe-c3c1-4f99-bc6b-f3f052b1842e'
-keywords: ["RemoveSCSIController method Virtual Server", "RemoveSCSIController method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , RemoveSCSIController method"]
+ms.assetid: fda7d3fe-c3c1-4f99-bc6b-f3f052b1842e
+keywords:
+- RemoveSCSIController method Virtual Server
+- RemoveSCSIController method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , RemoveSCSIController method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveSCSIController method
@@ -22,7 +30,7 @@ The **RemoveSCSIController** method removes the specified SCSI controller from t
 
 ```C++
 HRESULT RemoveSCSIController(
-  [in] IVMSCSIController *controller
+  [in] IVMSCSIController *controller
 );
 ```
 
@@ -57,7 +65,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +77,8 @@ You can only remove an existing SCSI controller from a stopped virtual machine.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -82,9 +90,9 @@ You can only remove an existing SCSI controller from a stopped virtual machine.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

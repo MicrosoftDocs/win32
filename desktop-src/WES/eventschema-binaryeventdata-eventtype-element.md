@@ -1,14 +1,20 @@
 ---
 title: BinaryEventData (EventType) Element
 description: Contains the event data as a binary blob.
-ms.assetid: '6b083604-e97e-4fb5-bf98-5897cafc2b68'
-keywords: ["BinaryEventData element EventLog"]
+ms.assetid: 6b083604-e97e-4fb5-bf98-5897cafc2b68
+keywords:
+- BinaryEventData element EventLog
 topic_type:
 - apiref
 api_name:
 - BinaryEventData
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BinaryEventData (EventType) Element
@@ -29,8 +35,8 @@ The **BinaryEventData** element is defined by the [**EventType**](eventschema-ev
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **BinaryEventData** element is defined by the [**EventType**](eventschema-ev
 [**Event**](eventschema-event-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

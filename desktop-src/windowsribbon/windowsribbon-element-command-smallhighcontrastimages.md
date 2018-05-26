@@ -1,14 +1,20 @@
 ---
 title: Command.SmallHighContrastImages property
 description: Represents a container of images; in this case, small images for use with high-contrast system settings.
-ms.assetid: 'd1c441eb-885a-4dc1-b98d-5a36cab2f837'
-keywords: ["Command.SmallHighContrastImages property Windows Ribbon"]
+ms.assetid: d1c441eb-885a-4dc1-b98d-5a36cab2f837
+keywords:
+- Command.SmallHighContrastImages property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.SmallHighContrastImages
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.SmallHighContrastImages property
@@ -109,8 +115,8 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -124,9 +130,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [UI\_PKEY\_SmallHighContrastImage](windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

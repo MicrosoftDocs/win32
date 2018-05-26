@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the number of pixels in the image width (X direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneXResolutionNumerator and PKEY\_Photo\_FocalPlaneXResolutionDenominator.'
-ms.assetid: 'd1e94923-fdea-4894-813e-4617f3267bb7'
-title: 'System.Photo.FocalPlaneXResolution'
+Description: Indicates the number of pixels in the image width (X direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneXResolutionNumerator and PKEY\_Photo\_FocalPlaneXResolutionDenominator.
+ms.assetid: d1e94923-fdea-4894-813e-4617f3267bb7
+title: System.Photo.FocalPlaneXResolution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FocalPlaneXResolution

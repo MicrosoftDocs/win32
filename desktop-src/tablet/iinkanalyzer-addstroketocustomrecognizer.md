@@ -1,7 +1,12 @@
 ---
-Description: 'Adds stroke data for a single stroke to a custom recognizer node.'
-ms.assetid: 'ab43c9f8-15fe-49db-b9d1-57d34b95d99f'
-title: 'IInkAnalyzer::AddStrokeToCustomRecognizer method'
+Description: Adds stroke data for a single stroke to a custom recognizer node.
+ms.assetid: ab43c9f8-15fe-49db-b9d1-57d34b95d99f
+title: IInkAnalyzerAddStrokeToCustomRecognizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::AddStrokeToCustomRecognizer method
@@ -13,13 +18,13 @@ Adds stroke data for a single stroke to a custom recognizer node.
 
 ```C++
 HRESULT AddStrokeToCustomRecognizer(
-  [in]  ULONG        ulStrokeId,
-  [in]  ULONG        ulStrokePacketDataCount,
-  [in]  LONG         *plStrokePacketData,
-  [in]  ULONG        ulStrokePacketDescriptionCount,
-  [in]  GUID         *pStrokePacketDescriptionGuids,
-  [in]  IContextNode *pCustomRecognizer,
-  [out] IContextNode **ppContextNodeStrokeAddedTo
+  [in]  ULONG        ulStrokeId,
+  [in]  ULONG        ulStrokePacketDataCount,
+  [in]  LONG         *plStrokePacketData,
+  [in]  ULONG        ulStrokePacketDescriptionCount,
+  [in]  GUID         *pStrokePacketDescriptionGuids,
+  [in]  IContextNode *pCustomRecognizer,
+  [out] IContextNode **ppContextNodeStrokeAddedTo
 );
 ```
 
@@ -87,7 +92,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodeStrokeAddedTo* when you no longer need to use the object.
 
- 
+ 
 
 When *ppContextNodeStrokeAddedTo* is **NULL**, it indicates that the caller is not interested in the return value from the method.
 
@@ -111,7 +116,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) returns an **HRESULT** of **E\_INVALIDAR
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -137,9 +142,9 @@ The [**IInkAnalyzer**](iinkanalyzer.md) returns an **HRESULT** of **E\_INVALIDAR
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

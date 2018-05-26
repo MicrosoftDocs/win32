@@ -1,8 +1,18 @@
 ---
 title: Pushed Secondary Image Source
 description: Pushed Secondary Image Source
-ms.assetid: 'f2a2380d-c876-456b-837b-01b3997d81f2'
-keywords: ["Windows Media Player Mobile skins,button image source", "skins,button image source", "reference for skins,buttons", "buttons in skins,image source", "image source for skins,buttons"]
+ms.assetid: f2a2380d-c876-456b-837b-01b3997d81f2
+keywords:
+- Windows Media Player Mobile skins,button image source
+- skins,button image source
+- reference for skins,buttons
+- buttons in skins,image source
+- image source for skins,buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pushed Secondary Image Source

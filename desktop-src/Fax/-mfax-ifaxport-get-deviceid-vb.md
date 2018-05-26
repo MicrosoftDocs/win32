@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceId property is a number representing the permanent line identifier for the fax port.'
-ms.assetid: 'f7720dda-3635-4a23-9dc4-09cac4b6aa17'
-title: 'FaxPort.DeviceId property'
+---
+Description: The DeviceId property is a number representing the permanent line identifier for the fax port.
+ms.assetid: f7720dda-3635-4a23-9dc4-09cac4b6aa17
+title: FaxPort.DeviceId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.DeviceId property
@@ -53,10 +58,10 @@ A fax client application can use the **DeviceId** property to uniquely identify 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
 [**Name**](-mfax-ifaxport-get-name-vb.md)

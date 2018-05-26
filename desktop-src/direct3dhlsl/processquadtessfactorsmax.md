@@ -1,14 +1,20 @@
 ---
 title: ProcessQuadTessFactorsMax function
 description: Generates the corrected tessellation factors for a quad patch.
-ms.assetid: 'a0c91430-db25-49c9-bcc8-d2be1d0e6f6c'
-keywords: ["ProcessQuadTessFactorsMax function HLSL"]
+ms.assetid: a0c91430-db25-49c9-bcc8-d2be1d0e6f6c
+keywords:
+- ProcessQuadTessFactorsMax function HLSL
 topic_type:
 - apiref
 api_name:
 - ProcessQuadTessFactorsMax
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessQuadTessFactorsMax function

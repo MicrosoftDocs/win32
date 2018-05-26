@@ -1,8 +1,11 @@
 ---
 title: ErrorWarning ~ErrorWarning destructor
 description: Destructor method.
-ms.assetid: 'CF17CA3E-5A2F-483C-B114-F315A27CF596'
-keywords: ["~ErrorWarning destructor Access Execution Engine", "~ErrorWarning destructor Access Execution Engine , ErrorWarning interface", "ErrorWarning interface Access Execution Engine , ~ErrorWarning destructor"]
+ms.assetid: CF17CA3E-5A2F-483C-B114-F315A27CF596
+keywords:
+- ~ErrorWarning destructor Access Execution Engine
+- ~ErrorWarning destructor Access Execution Engine , ErrorWarning interface
+- ErrorWarning interface Access Execution Engine , ~ErrorWarning destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorWarning::~ErrorWarning destructor
@@ -32,8 +40,8 @@ virtual ~ErrorWarning();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -46,9 +54,9 @@ virtual ~ErrorWarning();
 [**ErrorWarning**](errorwarning.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

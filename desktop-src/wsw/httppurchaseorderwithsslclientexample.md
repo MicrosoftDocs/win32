@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderWithSslClientExample
 description: This example show how to use the service proxy to talk to a PurchaseOrder service, with SSL transport security.
-ms.assetid: 'afa73250-5f1c-4151-a2e0-4a5ccc91b63f'
-keywords: ["HttpPurchaseOrderWithSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: afa73250-5f1c-4151-a2e0-4a5ccc91b63f
+keywords:
+- HttpPurchaseOrderWithSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderWithSslClientExample

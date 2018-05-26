@@ -1,14 +1,20 @@
 ---
 title: Charted element
 description: If this column is part of a group or the overview presentation hints columns, the value (True \ False) defines whether this column is charted by default or not. This field is optional.
-ms.assetid: 'A2A1945E-3629-4DFA-8E0C-222602514BDA'
-keywords: ["Charted element Access Execution Engine"]
+ms.assetid: A2A1945E-3629-4DFA-8E0C-222602514BDA
+keywords:
+- Charted element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Charted
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Charted element

@@ -4,11 +4,15 @@ description: This topics lists logging and recovery error return values for func
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b927073a-8bbc-45d4-b9d3-25f3aa6c6f53'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b927073a-8bbc-45d4-b9d3-25f3aa6c6f53
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Logging and Recovery Errors AD"]
+keywords:
+- Active Directory Logging and Recovery Errors AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Logging and Recovery Errors in Functions in Active Directory Domain Services

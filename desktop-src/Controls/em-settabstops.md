@@ -1,8 +1,9 @@
 ---
 title: EM\_SETTABSTOPS message
 description: The EM\_SETTABSTOPS message sets the tab stops in a multiline edit control.
-ms.assetid: 'd6fe2828-4ae9-4652-ace0-2f71e146f777'
-keywords: ["EM_SETTABSTOPS message Windows Controls"]
+ms.assetid: d6fe2828-4ae9-4652-ace0-2f71e146f777
+keywords:
+- EM_SETTABSTOPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETTABSTOPS message
@@ -49,7 +55,7 @@ The **EM\_SETTABSTOPS** message does not automatically redraw the edit control w
 
 The values specified in the array are in dialog template units, which are the device-independent units used in dialog box templates. To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502) function.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 3.0 and later. A rich edit control can have the maximum number of tab stops specified by MAX\_TAB\_STOPS. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 3.0 and later. A rich edit control can have the maximum number of tab stops specified by MAX\_TAB\_STOPS. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -57,8 +63,8 @@ The values specified in the array are in dialog template units, which are the de
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The values specified in the array are in dialog template units, which are the de
 [**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

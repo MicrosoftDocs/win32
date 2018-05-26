@@ -1,8 +1,10 @@
 ---
 title: PSCSIWMI\_QUERY\_REGINFO callback function
-description: A miniport driver's HwScsiWmiQueryReginfo routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver.
-ms.assetid: '416f8629-324f-4698-bbe9-699f5d53011e'
-keywords: ["HwScsiWmiQueryReginfo callback function Storage Devices", "PSCSIWMI_QUERY_REGINFO"]
+description: A miniport drivers HwScsiWmiQueryReginfo routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver.
+ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
+keywords:
+- HwScsiWmiQueryReginfo callback function Storage Devices
+- PSCSIWMI_QUERY_REGINFO
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - scsiwmi.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSCSIWMI\_QUERY\_REGINFO callback function
@@ -20,16 +27,16 @@ A miniport driver's **HwScsiWmiQueryReginfo** routine is called to obtain inform
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 UCHAR HwScsiWmiQueryReginfo(
-  _In_  PVOID                    DeviceContext,
-  _In_  PSCSIWMI_REQUEST_CONTEXT RequestContext,
-  _Out_ PWCHAR                   *MofResourceName
+  _In_  PVOID                    DeviceContext,
+  _In_  PSCSIWMI_REQUEST_CONTEXT RequestContext,
+  _Out_ PWCHAR                   *MofResourceName
 );
 ```
 
@@ -96,9 +103,9 @@ The miniport driver must not pend or block the SRB. The miniport driver must not
 [**ScsiPortWmiDispatchFunction**](scsiportwmidispatchfunction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20PSCSIWMI_QUERY_REGINFO%20callback%20function%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

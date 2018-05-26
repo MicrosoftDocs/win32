@@ -1,8 +1,9 @@
 ---
 title: CardGetContainerInfo function
 description: Retrieves a CONTAINER\_INFO structure that contains information about a key container on a smart card.
-ms.assetid: '5574a8c3-d6f3-4100-88d3-d518412f8f56'
-keywords: ["CardGetContainerInfo function Security"]
+ms.assetid: 5574a8c3-d6f3-4100-88d3-d518412f8f56
+keywords:
+- CardGetContainerInfo function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardGetContainerInfo function
@@ -24,10 +30,10 @@ The **CardGetContainerInfo** function, defined by a smart card module, retrieves
 
 ```C++
 DWORD WINAPI CardGetContainerInfo(
-  _In_    PCARD_DATA      pCardData,
-  _In_    BYTE            bContainerIndex,
-  _In_    DWORD           dwFlags,
-  _Inout_ PCONTAINER_INFO pContainerInfo
+  _In_    PCARD_DATA      pCardData,
+  _In_    BYTE            bContainerIndex,
+  _In_    DWORD           dwFlags,
+  _Inout_ PCONTAINER_INFO pContainerInfo
 );
 ```
 
@@ -81,7 +87,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +95,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -111,9 +117,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CONTAINER\_INFO**](container-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

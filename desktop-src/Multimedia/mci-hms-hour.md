@@ -1,8 +1,9 @@
 ---
 title: MCI\_HMS\_HOUR macro
 description: The MCI\_HMS\_HOUR macro retrieves the hours component from a parameter containing packed hours/minutes/seconds (HMS) information.
-ms.assetid: '55968b2b-2bfe-48ac-a50f-5c8741d11e33'
-keywords: ["MCI_HMS_HOUR macro Windows Multimedia"]
+ms.assetid: 55968b2b-2bfe-48ac-a50f-5c8741d11e33
+keywords:
+- MCI_HMS_HOUR macro Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_HMS\_HOUR macro
@@ -22,7 +28,7 @@ The **MCI\_HMS\_HOUR** macro retrieves the hours component from a parameter cont
 
 ```C++
 BYTE MCI_HMS_HOUR(
-   DWORD dwHMS
+   DWORD dwHMS
 );
 ```
 
@@ -62,8 +68,8 @@ The **MCI\_HMS\_HOUR** macro is defined as follows:
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The **MCI\_HMS\_HOUR** macro is defined as follows:
 [MCI Macros](mci-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

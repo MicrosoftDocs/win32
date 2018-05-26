@@ -1,7 +1,12 @@
 ---
-Description: 'Moves a tablet context to the front or back of the input queue.'
-ms.assetid: 'ef4521b5-776b-46dc-864a-625bc221054a'
-title: 'ITabletContextP::Overlap method'
+Description: Moves a tablet context to the front or back of the input queue.
+ms.assetid: ef4521b5-776b-46dc-864a-625bc221054a
+title: ITabletContextPOverlap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletContextP::Overlap method
@@ -13,8 +18,8 @@ Moves a tablet context to the front or back of the input queue.
 
 ```C++
 HRESULT Overlap(
-  [in]  BOOL  bTop,
-  [out] DWORD *pdwtcid
+  [in]  BOOL  bTop,
+  [out] DWORD *pdwtcid
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -72,9 +77,9 @@ This method can return one of these values.
 [**ITabletContextP Interface**](itabletcontextp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

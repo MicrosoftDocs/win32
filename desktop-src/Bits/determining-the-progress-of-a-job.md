@@ -1,15 +1,21 @@
 ---
 title: Determining the Progress of a Job
 description: BITS maintains progress information for each job. Use the progress information to determine how many bytes and files have been transferred.
-ms.assetid: '8bac62b3-cb7e-45ba-85f0-95f3a7e8bffd'
-keywords: ["transfer job BITS , progress"]
+ms.assetid: 8bac62b3-cb7e-45ba-85f0-95f3a7e8bffd
+keywords:
+- transfer job BITS , progress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining the Progress of a Job
 
 BITS maintains progress information for each job. Use the progress information to determine how many bytes and files have been transferred.
 
-To retrieve progress information for the job, call the [**IBackgroundCopyJob::GetProgress**](ibackgroundcopyjob-getprogress.md) method as shown in the following example. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer is valid.
+To retrieve progress information for the job, call the [**IBackgroundCopyJob::GetProgress**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-getprogress?branch=master) method as shown in the following example. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer is valid.
 
 
 ```C++
@@ -44,7 +50,7 @@ else
 
 
 
-To retrieve progress information on the reply portion of an upload reply job, call the [**IBackgroundCopyJob2::GetReplyProgress**](ibackgroundcopyjob2-getreplyprogress.md) method as shown in the following example. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer is valid.
+To retrieve progress information on the reply portion of an upload reply job, call the [**IBackgroundCopyJob2::GetReplyProgress**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyprogress?branch=master) method as shown in the following example. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer is valid.
 
 
 ```C++
@@ -78,7 +84,7 @@ if (SUCCEEDED(hr))
 
 
 
-Files also contain progress information. To retrieve the progress information, use the [**IBackgroundCopyFile::GetProgress**](ibackgroundcopyfile-getprogress.md) method. For information on how to retrieve the files of a job, see [Enumerating Files in a Job](enumerating-files-in-a-job.md).
+Files also contain progress information. To retrieve the progress information, use the [**IBackgroundCopyFile::GetProgress**](/windows/win32/Bits/nf-bits-ibackgroundcopyfile-getprogress?branch=master) method. For information on how to retrieve the files of a job, see [Enumerating Files in a Job](enumerating-files-in-a-job.md).
 
  
 

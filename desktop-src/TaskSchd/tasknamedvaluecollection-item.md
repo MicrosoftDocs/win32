@@ -1,8 +1,11 @@
 ---
 title: TaskNamedValueCollection.Item property
 description: For scripting, gets the specified name-value pair from the collection.
-ms.assetid: 'a243b814-7d83-466d-bd49-3414f3240780'
-keywords: ["Item property Task Scheduler", "Item property Task Scheduler , TaskNamedValueCollection object", "TaskNamedValueCollection object Task Scheduler , Item property"]
+ms.assetid: a243b814-7d83-466d-bd49-3414f3240780
+keywords:
+- Item property Task Scheduler
+- Item property Task Scheduler , TaskNamedValueCollection object
+- TaskNamedValueCollection object Task Scheduler , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskNamedValueCollection.Item property
@@ -39,16 +47,16 @@ A [**TaskNamedValuePair**](tasknamedvaluepair.md) object that represents the req
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

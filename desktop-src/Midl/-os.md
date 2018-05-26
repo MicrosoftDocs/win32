@@ -2,13 +2,19 @@
 title: /Os switch
 description: The /Os switch specifies the mixed-mode method to marshal stub code passed between client and server.
 ms.assetid: dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb
-keywords: ["/Os switch MIDL"]
+keywords:
+- /Os switch MIDL
 topic_type:
 - apiref
 api_name:
 - /Os
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /Os switch

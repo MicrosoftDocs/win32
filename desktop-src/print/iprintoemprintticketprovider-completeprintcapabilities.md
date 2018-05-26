@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPrintTicketProvider::CompletePrintCapabilities method fills in the remaining entries of the specified print capabilities document.'
-ms.assetid: '067eca3b-f487-405a-9799-bd62376f9e24'
-title: 'IPrintOemPrintTicketProvider::CompletePrintCapabilities method'
+---
+Description: The IPrintOemPrintTicketProviderCompletePrintCapabilities method fills in the remaining entries of the specified print capabilities document.
+ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
+title: IPrintOemPrintTicketProviderCompletePrintCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider::CompletePrintCapabilities method

@@ -1,7 +1,12 @@
 ---
 title: Storage structures and enumerations
 description: Storage structures and enumerations
-ms.assetid: 'faa0bfca-1b20-4455-b582-6f46051e1393'
+ms.assetid: faa0bfca-1b20-4455-b582-6f46051e1393
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage structures and enumerations

@@ -1,7 +1,12 @@
 ---
-Description: 'The Disconnect method breaks the connection with the output pin.'
-ms.assetid: '6e362e32-7b74-4392-b46f-1ab47a30a07b'
-title: 'CPullPin.Disconnect method'
+Description: The Disconnect method breaks the connection with the output pin.
+ms.assetid: 6e362e32-7b74-4392-b46f-1ab47a30a07b
+title: CPullPin.Disconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.Disconnect method
@@ -27,7 +32,7 @@ Returns S\_OK.
 
 ## Remarks
 
-This method breaks any connection made in the [**CPullPin::Connect**](cpullpin-connect.md) method. Call this method inside your [**IPin::Disconnect**](ipin-disconnect.md) method. (If your pin derives from [**CBasePin**](cbasepin.md), override [**CBasePin::BreakConnect**](cbasepin-breakconnect.md) to call this method.)
+This method breaks any connection made in the [**CPullPin::Connect**](cpullpin-connect.md) method. Call this method inside your [**IPin::Disconnect**](/windows/win32/Strmif/nf-strmif-ipin-disconnect?branch=master) method. (If your pin derives from [**CBasePin**](cbasepin.md), override [**CBasePin::BreakConnect**](cbasepin-breakconnect.md) to call this method.)
 
 ## Requirements
 
@@ -47,9 +52,9 @@ This method breaks any connection made in the [**CPullPin::Connect**](cpullpin-c
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

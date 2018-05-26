@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ErrorCountersForDevice class associates the CIM\_DeviceErrorCounts class to the logical device to which it applies.'
+Description: The CIM\_ErrorCountersForDevice class associates the CIM\_DeviceErrorCounts class to the logical device to which it applies.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '200971ab-df85-4a45-beb3-4ffe11ce92dc'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 200971ab-df85-4a45-beb3-4ffe11ce92dc
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ErrorCountersForDevice class'
+title: CIM\_ErrorCountersForDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ErrorCountersForDevice class
@@ -19,7 +22,7 @@ The **CIM\_ErrorCountersForDevice** class associates the [**CIM\_DeviceErrorCoun
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +32,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{2D79F3A0-D025-11d2-85F5-0000F8102E5F}"), AMENDMENT]
 class CIM_ErrorCountersForDevice : CIM_Statistics
 {
-  CIM_LogicalDevice     REF Element;
+  CIM_LogicalDevice     REF Element;
   CIM_DeviceErrorCounts REF Stats;
 };
 ```
@@ -92,8 +95,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -107,9 +110,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Statistics**](cim-statistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

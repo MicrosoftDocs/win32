@@ -1,8 +1,11 @@
 ---
 title: CreateZone method of the MicrosoftDNS\_Zone class
 description: The CreateZone method creates a DNS zone.
-ms.assetid: '55756284-20ef-4d38-a8d9-357f53a6fa4d'
-keywords: ["CreateZone method DNS", "CreateZone method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , CreateZone method"]
+ms.assetid: 55756284-20ef-4d38-a8d9-357f53a6fa4d
+keywords:
+- CreateZone method DNS
+- CreateZone method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , CreateZone method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateZone method of the MicrosoftDNS\_Zone class
@@ -22,13 +30,13 @@ The **CreateZone** method creates a DNS zone.
 
 ```mof
 void CreateZone(
-  [in]           string            ZoneName,
-  [in]           uint32            ZoneType,
-  [in]           boolean           DsIntegrated,
-  [in, optional] string            DataFileName,
-  [in, optional] string            IpAddr[],
-  [in, optional] string            AdminEmailName,
-  [out, ref]     MicrosoftDns_Zone &amp;RR
+  [in]           string            ZoneName,
+  [in]           uint32            ZoneType,
+  [in]           boolean           DsIntegrated,
+  [in, optional] string            DataFileName,
+  [in, optional] string            IpAddr[],
+  [in, optional] string            AdminEmailName,
+  [out, ref]     MicrosoftDns_Zone &amp;RR
 );
 ```
 
@@ -56,12 +64,12 @@ Type of zone. Valid values are the following:
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>1</dt> </dl> | AD integrated.<br/>                                                                                           |
 | <dl> <dt>2</dt> </dl> | Secondary zone.<br/>                                                                                          |
-| <dl> <dt>3</dt> </dl> | Stub zone.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/>      |
-| <dl> <dt>4</dt> </dl> | Zone forwarder.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/> |
+| <dl> <dt>3</dt> </dl> | Stub zone.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/>      |
+| <dl> <dt>4</dt> </dl> | Zone forwarder.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,7 +119,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -154,9 +162,9 @@ This method does not return a value.
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

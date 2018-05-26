@@ -1,7 +1,12 @@
 ---
 title: Deferring Nonindexed Trimming
 description: Deferring Nonindexed Trimming
-ms.assetid: '955327ea-334d-4e76-9e6d-7733048685c5'
+ms.assetid: 955327ea-334d-4e76-9e6d-7733048685c5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deferring Nonindexed Trimming

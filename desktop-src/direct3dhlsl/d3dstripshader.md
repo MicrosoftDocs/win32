@@ -1,8 +1,9 @@
 ---
 title: D3DStripShader function
 description: Removes unwanted blobs from a compilation result.
-ms.assetid: 'd6f51f57-02e1-485d-8f49-60a9bfb62cf5'
-keywords: ["D3DStripShader function HLSL"]
+ms.assetid: d6f51f57-02e1-485d-8f49-60a9bfb62cf5
+keywords:
+- D3DStripShader function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DStripShader function
@@ -21,10 +27,10 @@ Removes unwanted blobs from a compilation result.
 
 ``` syntax
 HRESULT WINAPI D3DStripShader(
-  in  LPCVOID pShaderBytecode,
-  in  SIZE_T BytecodeLength,
-  in  UINT uStripFlags,
-  out ID3DBlob ppStrippedBlob
+  in  LPCVOID pShaderBytecode,
+  in  SIZE_T BytecodeLength,
+  in  UINT uStripFlags,
+  out ID3DBlob ppStrippedBlob
 );
 ```
 
@@ -93,9 +99,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

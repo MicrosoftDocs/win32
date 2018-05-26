@@ -1,7 +1,12 @@
 ---
 title: StreamingNamedPipesServerExample
 description: This example shows a named pipes client that accepts a channel, and reads one-way messages in a streaming fashion.
-ms.assetid: '7658FA0B-343F-453D-9427-B40BEAE50345'
+ms.assetid: 7658FA0B-343F-453D-9427-B40BEAE50345
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StreamingNamedPipesServerExample

@@ -1,8 +1,18 @@
 ---
 title: Using Structures in WCS 1.0
 description: Most of the structures used by WCS 1.0 are very straightforward and require little explanation. They are documented in the WCS 1.0 Reference section entitled Structures.
-ms.assetid: '8d3682e2-38fd-4a33-b386-ab0716bb6972'
-keywords: ["Windows Color System (WCS),structures", "WCS (Windows Color System),structures", "image color management,structures", "color management,structures", "colors,structures"]
+ms.assetid: 8d3682e2-38fd-4a33-b386-ab0716bb6972
+keywords:
+- Windows Color System (WCS),structures
+- WCS (Windows Color System),structures
+- image color management,structures
+- color management,structures
+- colors,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Structures in WCS 1.0
@@ -12,9 +22,9 @@ Most of the structures used by WCS 1.0 are very straightforward and require litt
 Exceptions are the [**COLORMATCHSETUP**](colormatchsetup.md) structure used by the [**SetupColorMatching**](setupcolormatching.md) function, and the following Windows structures defined in Wingdi.h:
 
 -   [BITMAPV5HEADER](#-color-windows-bitmap-header-structures)
--   [**LOGCOLORSPACE**](logcolorspace.md)
--   [**CIEXYZ**](ciexyz.md)
--   [**CIEXYZTRIPLE**](ciexyztriple.md)
+-   [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master)
+-   [**CIEXYZ**](/windows/win32/Wingdi/ns-wingdi-tagciexyz?branch=master)
+-   [**CIEXYZTRIPLE**](/windows/win32/Wingdi/ns-wingdi-tagicexyztriple?branch=master)
 
 The following topics are discussed at greater length:
 

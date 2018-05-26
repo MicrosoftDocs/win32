@@ -1,7 +1,12 @@
 ---
 Description: Group
-ms.assetid: 'd1391664-df1d-4b2f-9625-d3be09cc1110'
+ms.assetid: d1391664-df1d-4b2f-9625-d3be09cc1110
 title: Group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group

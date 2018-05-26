@@ -1,8 +1,11 @@
 ---
 title: Unmount method of the Msvm\_MountedStorageImage class
 description: Unmounts the storage image.
-ms.assetid: 'b59ad612-b0a3-4d6a-8669-d07a50675f1c'
-keywords: ["Unmount method Hyper-V", "Unmount method Hyper-V , Msvm_MountedStorageImage class", "Msvm_MountedStorageImage class Hyper-V , Unmount method"]
+ms.assetid: b59ad612-b0a3-4d6a-8669-d07a50675f1c
+keywords:
+- Unmount method Hyper-V
+- Unmount method Hyper-V , Msvm_MountedStorageImage class
+- Msvm_MountedStorageImage class Hyper-V , Unmount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unmount method of the Msvm\_MountedStorageImage class
@@ -55,9 +63,9 @@ Access to the [**Msvm\_MountedStorageImage**](msvm-mountedstorageimage.md) class
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -70,9 +78,9 @@ Access to the [**Msvm\_MountedStorageImage**](msvm-mountedstorageimage.md) class
 [**Msvm\_MountedStorageImage**](msvm-mountedstorageimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

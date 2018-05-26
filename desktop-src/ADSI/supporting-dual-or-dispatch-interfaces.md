@@ -4,18 +4,24 @@ description: Like the dispatch interface, all dual interfaces must inherit from 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'abd0fcfc-f45c-4022-af95-60615be0adcc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: abd0fcfc-f45c-4022-af95-60615be0adcc
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Supporting dual or dispatch interfaces ADSI", "extensions ADSI , dual or dispatch interfaces", "ADSI ADSI , example code C/C++ , delegating IDispatch methods to the aggregator"]
+keywords:
+- Supporting dual or dispatch interfaces ADSI
+- extensions ADSI , dual or dispatch interfaces
+- ADSI ADSI , example code C/C++ , delegating IDispatch methods to the aggregator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supporting Dual or Dispatch Interfaces
 
 Like the dispatch interface, all dual interfaces must inherit from [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5), which delegates all of its **IDispatch** functions ([**GetIDsOfNames**](6f6cf233-3481-436e-8d6a-51f93bf91619), [**Invoke**](964ade8e-9d8a-4d32-bd47-aa678912a54d), [**GetTypeInfo**](cc1ec9aa-6c40-4e70-819c-a7c6dd6b8c99), [**GetTypeInfoCount**](da876d53-cb8a-465c-a43e-c0eb272e2a12)) back to the **IDispatch** of the aggregator (ADSI). In order to delegate, an extension object should query for the **IDispatch** of the aggregator, call the appropriate aggregator method, and release the pointer after use.
 
-If the extension can be a standalone component, verify that it is aggregated. If so, reroute the dispatch functions to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) of the aggregator, otherwise you can call your internal implementation of **IDispatch**, or you can call your implementation of [**IADsExtension**](iadsextension.md).
+If the extension can be a standalone component, verify that it is aggregated. If so, reroute the dispatch functions to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) of the aggregator, otherwise you can call your internal implementation of **IDispatch**, or you can call your implementation of [**IADsExtension**](/windows/win32/Iads/nn-iads-iadsextension?branch=master).
 
 The following code example shows how to reroute the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) call to the **IDispatch** of the aggregator. This code example assumes that the **m\_pOuterUnknown** member variable has been initialized to the **IUnknown** pointer of the aggregator.
 

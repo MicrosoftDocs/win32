@@ -1,14 +1,20 @@
 ---
 title: VIEW.onload
 description: The onload event handler handles an event that occurs when the VIEW is first displayed.
-ms.assetid: 'a54c20f8-b3b6-48d6-bce2-e83cc50e2c72'
-keywords: ["VIEW.onload Windows Media Player"]
+ms.assetid: a54c20f8-b3b6-48d6-bce2-e83cc50e2c72
+keywords:
+- VIEW.onload Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.onload
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.onload
@@ -36,9 +42,9 @@ onload
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

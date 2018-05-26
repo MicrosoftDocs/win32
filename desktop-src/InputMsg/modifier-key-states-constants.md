@@ -1,7 +1,7 @@
 ---
 title: Modifier Key State
 description: Indicates which keyboard modifier keys were pressed at the time input was being generated.
-ms.assetid: '721f5109-67ab-4242-921e-580c2dc0463b'
+ms.assetid: 721f5109-67ab-4242-921e-580c2dc0463b
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifier Key State
@@ -51,8 +56,8 @@ A Ctrl key was pressed.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -64,12 +69,12 @@ A Ctrl key was pressed.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

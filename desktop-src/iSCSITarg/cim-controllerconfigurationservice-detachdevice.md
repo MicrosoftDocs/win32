@@ -4,13 +4,16 @@ description: This method removes the ProtocolControllerForDevice association sub
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd6b1e3b3-3173-4f84-b0e4-511055dcdcc1'
-ms.prod: 'windows-server-dev'
+ms.assetid: d6b1e3b3-3173-4f84-b0e4-511055dcdcc1
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DetachDevice method iSCSI Software Target API", "DetachDevice method iSCSI Software Target API , CIM_ControllerConfigurationService class", "CIM_ControllerConfigurationService class iSCSI Software Target API , DetachDevice method"]
+keywords:
+- DetachDevice method iSCSI Software Target API
+- DetachDevice method iSCSI Software Target API , CIM_ControllerConfigurationService class
+- CIM_ControllerConfigurationService class iSCSI Software Target API , DetachDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DetachDevice method of the CIM\_ControllerConfigurationService class
@@ -30,8 +36,8 @@ This method removes the ProtocolControllerForDevice association subclass between
 
 ```mof
 uint32 DetachDevice(
-  [in] CIM_ProtocolController REF ProtocolController,
-  [in] CIM_LogicalDevice      REF Device
+  [in] CIM_ProtocolController REF ProtocolController,
+  [in] CIM_LogicalDevice      REF Device
 );
 ```
 
@@ -77,7 +83,7 @@ The LogicalDevice instance to detach.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **LogicalDevice Instance not Associated with Controller** (4096)
@@ -86,10 +92,10 @@ The LogicalDevice instance to detach.
 **Busy** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -99,7 +105,7 @@ The LogicalDevice instance to detach.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -113,9 +119,9 @@ The LogicalDevice instance to detach.
 [**CIM\_ControllerConfigurationService**](cim-controllerconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

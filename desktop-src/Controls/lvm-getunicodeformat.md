@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETUNICODEFORMAT message
 description: Retrieves the UNICODE character format flag for the control. You can send this message explicitly or use the ListView\_GetUnicodeFormat macro.
-ms.assetid: 'b0598b60-4d0e-4c68-b63a-e614c6268129'
-keywords: ["LVM_GETUNICODEFORMAT message Windows Controls"]
+ms.assetid: b0598b60-4d0e-4c68-b63a-e614c6268129
+keywords:
+- LVM_GETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETUNICODEFORMAT message
 
-Retrieves the UNICODE character format flag for the control. You can send this message explicitly or use the [**ListView\_GetUnicodeFormat**](listview-getunicodeformat.md) macro.
+Retrieves the UNICODE character format flag for the control. You can send this message explicitly or use the [**ListView\_GetUnicodeFormat**](/windows/win32/Commctrl/nf-commctrl-listview_getunicodeformat?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 [**LVM\_SETUNICODEFORMAT**](lvm-setunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

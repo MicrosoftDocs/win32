@@ -1,14 +1,20 @@
 ---
 title: InRibbonGallery element
 description: Represents the In-Ribbon Gallery, a gallery-based control that exposes a default subset of items directly in the Ribbon. Any remaining items are displayed when a drop-down menu button is clicked.
-ms.assetid: '07d035e2-e6db-49fa-b786-a37cbceb58f6'
-keywords: ["InRibbonGallery element Windows Ribbon"]
+ms.assetid: 07d035e2-e6db-49fa-b786-a37cbceb58f6
+keywords:
+- InRibbonGallery element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - InRibbonGallery
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InRibbonGallery element
@@ -194,7 +200,7 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 <td>[<strong>QuickAccessToolbar.ApplicationDefaults</strong>](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -209,7 +215,7 @@ Optional.
 
 May occur at most once for each [**ControlGroup**](windowsribbon-element-controlgroup.md) or [**Group**](windowsribbon-element-group.md) element.
 
-The following screen shot illustrates the Ribbon [In-Ribbon Gallery](windowsribbon-controls-inribbongallery.md) control in Microsoft Paint for Windows 7.
+The following screen shot illustrates the Ribbon [In-Ribbon Gallery](windowsribbon-controls-inribbongallery.md) control in Microsoft Paint for Windows 7.
 
 ![screen shot of an in-ribbon gallery control in the microsoft paint ribbon.](images/controls/inribbongallery.png)
 
@@ -271,7 +277,7 @@ This section of code shows the **InRibbonGallery** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -289,9 +295,9 @@ This section of code shows the **InRibbonGallery** control declarations.
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

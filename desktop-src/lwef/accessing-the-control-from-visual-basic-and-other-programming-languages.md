@@ -1,7 +1,12 @@
 ---
 title: Accessing the Control from Visual Basic and Other Programming Languages
 description: Accessing the Control from Visual Basic and Other Programming Languages
-ms.assetid: '869b8eb1-1f40-4d87-8501-e41d6c0a3a97'
+ms.assetid: 869b8eb1-1f40-4d87-8501-e41d6c0a3a97
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the Control from Visual Basic and Other Programming Languages

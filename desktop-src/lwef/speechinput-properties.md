@@ -1,7 +1,12 @@
 ---
 title: SpeechInput Properties
 description: SpeechInput Properties
-ms.assetid: '1358e475-d4c2-4aab-b197-d8a98c3702a1'
+ms.assetid: 1358e475-d4c2-4aab-b197-d8a98c3702a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpeechInput Properties

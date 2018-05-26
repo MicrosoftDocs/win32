@@ -1,14 +1,20 @@
 ---
 title: ServiceTask3 Element
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ServiceTask3 element represents the third online store task pane.
-ms.assetid: '3d08f9ff-d75b-4967-90f8-23ab71d38883'
-keywords: ["ServiceTask3 Element Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ServiceTask3 element represents the third online store task pane.
+ms.assetid: 3d08f9ff-d75b-4967-90f8-23ab71d38883
+keywords:
+- ServiceTask3 Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ServiceTask3 Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceTask3 Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **ServiceTask3** element represents the third online store task pane.
 
@@ -36,7 +42,7 @@ The **ServiceTask3** element represents the third online store task pane.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -49,7 +55,7 @@ The **ServiceTask3** element represents the third online store task pane.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +64,7 @@ The **ServiceTask3** element represents the third online store task pane.
 > [!Note]  
 > Windows Media Player 10 has three task panes where an online store can display its webpages. The online store can choose to use one, two, or all three of the task panes. Windows Media Player 11 has only one task pane, which the user can view by clicking on the **Online Stores** tab. Windows Media Player 11 ignores the **ServiceTask2** and **ServiceTask3** elements.
 
- 
+ 
 
 Online stores task panes share a single browser instance. This means that you should not write script code in your webpage that you expect to continue to run when the user switches away from the current service task.
 
@@ -77,7 +83,7 @@ The following table details the parameters sent with the URL request.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -102,9 +108,9 @@ The following table details the parameters sent with the URL request.
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

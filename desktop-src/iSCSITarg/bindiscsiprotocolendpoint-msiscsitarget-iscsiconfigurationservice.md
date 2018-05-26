@@ -4,13 +4,16 @@ description: Modifies an existing MSISCSITARGET\_iSCSIProtocolEndpoint instance 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ef5f8a4b-1714-45c5-830b-9ea5c5899f13'
-ms.prod: 'windows-server-dev'
+ms.assetid: ef5f8a4b-1714-45c5-830b-9ea5c5899f13
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BindiSCSIProtocolEndPoint method iSCSI Software Target API", "BindiSCSIProtocolEndPoint method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class", "MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , BindiSCSIProtocolEndPoint method"]
+keywords:
+- BindiSCSIProtocolEndPoint method iSCSI Software Target API
+- BindiSCSIProtocolEndPoint method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class
+- MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , BindiSCSIProtocolEndPoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BindiSCSIProtocolEndPoint method of the MSISCSITARGET\_iSCSIConfigurationService class
@@ -34,8 +40,8 @@ This method is inherited from the **CIM\_iSCSIConfigurationService** class.
 
 ```mof
 uint32 BindiSCSIProtocolEndPoint(
-  [in] CIM_iSCSIProtocolEndpoint Ref iSCSIPort,
-  [in] CIM_ProtocolEndpoint Ref      NetworkPortal
+  [in] CIM_iSCSIProtocolEndpoint Ref iSCSIPort,
+  [in] CIM_ProtocolEndpoint Ref      NetworkPortal
 );
 ```
 
@@ -87,7 +93,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ProtocolEndpoint Non-Existent** (4096)
@@ -102,10 +108,10 @@ This method returns one of the following values.
 **ProtocolEndpoint Not From Same Endpoint Collection** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -115,7 +121,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -129,9 +135,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_iSCSIConfigurationService**](msiscsitarget-iscsiconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

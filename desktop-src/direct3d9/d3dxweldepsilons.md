@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.'
-ms.assetid: '534903da-ff65-4629-9be9-66c9daed6ef5'
+---
+Description: Specifies tolerance values for each vertex component when comparing vertices to determine if they are similar enough to be welded together.
+ms.assetid: 534903da-ff65-4629-9be9-66c9daed6ef5
 title: D3DXWELDEPSILONS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXWELDEPSILONS structure

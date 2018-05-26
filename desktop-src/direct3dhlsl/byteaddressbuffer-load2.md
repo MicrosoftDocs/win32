@@ -1,12 +1,18 @@
 ---
 title: Load2 methods
 description: Gets two values from a read-only buffer indexed in bytes.
-ms.assetid: 'C8770B52-66F0-4D1A-BE8B-0D91A348D002'
-keywords: ["Load2 methods HLSL"]
+ms.assetid: C8770B52-66F0-4D1A-BE8B-0D91A348D002
+keywords:
+- Load2 methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load2 methods
@@ -31,9 +37,9 @@ Gets two values from a read-only buffer indexed in bytes.
 [**ByteAddressBuffer**](sm5-object-byteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

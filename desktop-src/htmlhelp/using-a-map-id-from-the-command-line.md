@@ -1,7 +1,12 @@
 ---
 title: Using a Map ID from the Command Line
 description: Using a Map ID from the Command Line
-ms.assetid: '87A68EDA-30A5-47ff-9585-E23A64D950CD'
+ms.assetid: 87A68EDA-30A5-47ff-9585-E23A64D950CD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Map ID from the Command Line

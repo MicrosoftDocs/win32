@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a collection of objects that implement the IInkAnalysisRecognizer interface and that represent the ability to recognize handwriting, objects, or gestures.'
-ms.assetid: 'd9264c9f-bf75-493e-8e41-57ea69955e6b'
+Description: Contains a collection of objects that implement the IInkAnalysisRecognizer interface and that represent the ability to recognize handwriting, objects, or gestures.
+ms.assetid: d9264c9f-bf75-493e-8e41-57ea69955e6b
 title: IInkAnalysisRecognizers interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalysisRecognizers interface
@@ -27,7 +32,7 @@ The **IInkAnalysisRecognizers** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ For a language recognizer, the [**IInkAnalysisRecognizer::GetLanguages**](iinkan
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -61,9 +66,9 @@ For a language recognizer, the [**IInkAnalysisRecognizer::GetLanguages**](iinkan
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

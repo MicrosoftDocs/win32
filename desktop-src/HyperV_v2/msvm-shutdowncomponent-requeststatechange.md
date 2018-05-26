@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a state change.'
-ms.assetid: 'bb1dea51-f9d6-4edc-8044-53380cc4d32e'
-title: 'RequestStateChange method of the Msvm\_ShutdownComponent class'
+Description: Requests a state change.
+ms.assetid: bb1dea51-f9d6-4edc-8044-53380cc4d32e
+title: RequestStateChange method of the Msvm\_ShutdownComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_ShutdownComponent class
@@ -13,9 +18,9 @@ Requests a state change.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -143,8 +148,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -158,9 +163,9 @@ This method returns one of the following values:
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

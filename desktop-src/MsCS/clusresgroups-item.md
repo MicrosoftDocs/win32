@@ -4,11 +4,14 @@ description: Retrieves a single group from a ClusResGroups collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4391fe1-23d4-4f33-897a-6982422e9fb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e4391fe1-23d4-4f33-897a-6982422e9fb6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , ClusResGroups collection", "ClusResGroups collection Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , ClusResGroups collection
+- ClusResGroups collection Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroups.Item property
@@ -49,7 +55,7 @@ A [**ClusResGroup**](clusresgroup-object.md) object that receives the specified 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -68,9 +74,9 @@ A [**ClusResGroup**](clusresgroup-object.md) object that receives the specified 
 [**ClusResGroups.Count**](clusresgroups-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

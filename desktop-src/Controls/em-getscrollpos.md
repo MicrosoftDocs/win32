@@ -1,8 +1,9 @@
 ---
 title: EM\_GETSCROLLPOS message
 description: Obtains the current scroll position of the edit control.
-ms.assetid: '26e122da-f1b4-4694-978c-ff678dad5d9f'
-keywords: ["EM_GETSCROLLPOS message Windows Controls"]
+ms.assetid: 26e122da-f1b4-4694-978c-ff678dad5d9f
+keywords:
+- EM_GETSCROLLPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETSCROLLPOS message
@@ -49,8 +55,8 @@ The values returned in the [**POINT**](https://msdn.microsoft.com/library/window
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -63,9 +69,9 @@ The values returned in the [**POINT**](https://msdn.microsoft.com/library/window
 [**EM\_SETSCROLLPOS**](em-setscrollpos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

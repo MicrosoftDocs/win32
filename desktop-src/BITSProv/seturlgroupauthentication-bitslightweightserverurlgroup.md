@@ -1,8 +1,11 @@
 ---
 title: SetUrlGroupAuthentication method of the BitsCompactServerUrlGroup class
 description: TheSetUrlGroupAuthentication method sets the authentication scheme for a URL group.
-ms.assetid: 'afa97278-cb36-492f-be90-7c0f9bf7d6d8'
-keywords: ["SetUrlGroupAuthentication method", "SetUrlGroupAuthentication method, BitsCompactServerUrlGroup class", "BitsCompactServerUrlGroup class, SetUrlGroupAuthentication method"]
+ms.assetid: afa97278-cb36-492f-be90-7c0f9bf7d6d8
+keywords:
+- SetUrlGroupAuthentication method
+- SetUrlGroupAuthentication method, BitsCompactServerUrlGroup class
+- BitsCompactServerUrlGroup class, SetUrlGroupAuthentication method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetUrlGroupAuthentication method of the BitsCompactServerUrlGroup class
@@ -22,11 +30,11 @@ The**SetUrlGroupAuthentication** method sets the authentication scheme for a URL
 
 ```mof
 uint32 SetUrlGroupAuthentication(
-  [in]           uint16  Scheme,
-  [in]           boolean Enable,
-  [in, optional] uint32  Flag,
-  [in, optional] string  DomainName,
-  [in, optional] string  Realm
+  [in]           uint16  Scheme,
+  [in]           boolean Enable,
+  [in, optional] uint32  Flag,
+  [in, optional] string  DomainName,
+  [in, optional] string  Realm
 );
 ```
 
@@ -51,7 +59,7 @@ Specifies the authentication scheme. The following authentication schemes are su
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,8 +98,8 @@ Reserved for future use. Must be **NULL**.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -104,9 +112,9 @@ Reserved for future use. Must be **NULL**.
 [**BitsCompactServerUrlGroup**](bitslightweightserverurlgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

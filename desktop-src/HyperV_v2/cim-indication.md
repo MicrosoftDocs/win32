@@ -1,7 +1,12 @@
 ---
-Description: 'CIM\_Indication is the abstract base class for all notifications about changes in schema objects, and schema object data, events detected by providers and instrumentation. Subclasses of CIM\_Indication represent specific types of notifications.'
-ms.assetid: '85a70425-7b32-449c-9fc0-1cfbf34d9187'
-title: 'CIM\_Indication class'
+Description: CIM\_Indication is the abstract base class for all notifications about changes in schema objects, and schema object data, events detected by providers and instrumentation. Subclasses of CIM\_Indication represent specific types of notifications.
+ms.assetid: 85a70425-7b32-449c-9fc0-1cfbf34d9187
+title: CIM\_Indication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Indication class
@@ -14,14 +19,14 @@ title: 'CIM\_Indication class'
 [Indication, Version("2.24.0"), UMLPackagePath("CIM::Event"), AMENDMENT]
 class CIM_Indication : __ExtrinsicEvent
 {
-  string   IndicationIdentifier;
-  string   CorrelatedIndications[];
+  string   IndicationIdentifier;
+  string   CorrelatedIndications[];
   datetime IndicationTime;
-  uint16   PerceivedSeverity;
-  string   OtherSeverity;
-  string   IndicationFilterName;
-  string   SequenceContext;
-  sint64   SequenceNumber;
+  uint16   PerceivedSeverity;
+  string   OtherSeverity;
+  string   IndicationFilterName;
+  string   SequenceContext;
+  sint64   SequenceNumber;
 };
 ```
 
@@ -112,7 +117,7 @@ The time and date when the indication was created. The property can be set to **
 > [!Note]  
 > The **IndicationTime** value can be the same for indications that are generated in rapid succession.
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,7 +267,7 @@ The sequence context of the sequence identifier for the indication. If a service
 > [!Note]  
 > The sequence identifier for the indication enables a listener to identify duplicate indications when the service attempts to redeliver indications, reorder indications that arrive out of order, and detect lost indications.
 
- 
+ 
 
 To ensure that **SequenceContext** is unique, it should use the following format:
 
@@ -290,7 +295,7 @@ The sequence number of the sequence identifier for the indication.
 > [!Note]  
 > The sequence identifier for the indication enables a listener to identify duplicate indications when the service attempts to redeliver indications, reorder indications that arrive out of order, and detect lost indications.
 
- 
+ 
 
 The sequence number has the following characteristics:
 
@@ -307,8 +312,8 @@ The sequence number has the following characteristics:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -322,9 +327,9 @@ The sequence number has the following characteristics:
 [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/aa394646)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

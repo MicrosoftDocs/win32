@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents the result from the DownloadUpd
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1dedf776-c1c2-43f5-9962-cf0021c32b83'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1dedf776-c1c2-43f5-9962-cf0021c32b83
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAU_DownloadUpdateInfo class", "MSFT_CAU_DownloadUpdateInfo class, described"]
+keywords:
+- MSFT_CAU_DownloadUpdateInfo class
+- MSFT_CAU_DownloadUpdateInfo class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAU\_DownloadUpdateInfo class
@@ -39,12 +44,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("CAUWMIV2"), AMENDMENT]
 class MSFT_CAU_DownloadUpdateInfo : MSFT_CAU_ScanUpdateInfo
 {
-  uint32   UpdateResultCode;
-  sint32   UpdateErrorCode;
+  uint32   UpdateResultCode;
+  sint32   UpdateErrorCode;
   datetime UpdateTimestamp;
-  string   UpdateDesc;
-  string   UpdateId;
-  string   UpdateTitle;
+  string   UpdateDesc;
+  string   UpdateId;
+  string   UpdateTitle;
 };
 ```
 
@@ -168,16 +173,16 @@ Gets the title of the update.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Validates the configuration of a planned virtual machine and converts it to a realized virtual machine.'
-ms.assetid: 'bddbdc35-4603-45c3-96b4-04f445dbb3a6'
-title: 'RealizePlannedSystem method of the Msvm\_VirtualSystemManagementService class'
+Description: Validates the configuration of a planned virtual machine and converts it to a realized virtual machine.
+ms.assetid: bddbdc35-4603-45c3-96b4-04f445dbb3a6
+title: RealizePlannedSystem method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RealizePlannedSystem method of the Msvm\_VirtualSystemManagementService class
@@ -13,9 +18,9 @@ Validates the configuration of a planned virtual machine and converts it to a re
 
 ```mof
 uint32 RealizePlannedSystem(
-  [in]  Msvm_PlannedComputerSystem REF PlannedSystem,
-  [out] CIM_ComputerSystem         REF ResultingSystem,
-  [out] CIM_ConcreteJob            REF Job
+  [in]  Msvm_PlannedComputerSystem REF PlannedSystem,
+  [out] CIM_ComputerSystem         REF ResultingSystem,
+  [out] CIM_ConcreteJob            REF Job
 );
 ```
 
@@ -37,7 +42,7 @@ A reference to the [**Msvm\_PlannedComputerSystem**](msvm-plannedcomputersystem.
 
 If the operation is completed synchronously, a reference to a [**CIM\_ComputerSystem**](msvm-computersystem.md) object that represents the resulting realized virtual machine.
 
-Datatype updated from [**Msvm\_ComputerSystem**](msvm-computersystem.md) in Windows 10, version 1703.
+Datatype updated from [**Msvm\_ComputerSystem**](msvm-computersystem.md) in Windows 10, version 1703.
 
 </dd> <dt>
 
@@ -100,7 +105,7 @@ The following C# sample uses the **RealizePlannedSystem** method to realize a pl
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -156,8 +161,8 @@ RealizePvm(
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -171,9 +176,9 @@ RealizePvm(
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

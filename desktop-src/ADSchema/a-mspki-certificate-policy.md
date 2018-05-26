@@ -4,17 +4,22 @@ description: Contains the list of policy OIDs and their optional CSPs in the iss
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bc84c5ff-9cb1-406c-825c-97fa479d52eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bc84c5ff-9cb1-406c-825c-97fa479d52eb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Certificate-Policy attribute AD Schema", "msPKI-Certificate-Policy attribute AD Schema"]
+keywords:
+- ms-PKI-Certificate-Policy attribute AD Schema
+- msPKI-Certificate-Policy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Certificate-Policy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Certificate-Policy attribute
@@ -38,11 +43,11 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
- 
+ 
 
- 
+ 
 
 
 

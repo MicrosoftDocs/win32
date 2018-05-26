@@ -1,8 +1,9 @@
 ---
 title: MCI\_SETTUNER command
 description: The MCI\_SETTUNER command sets the current channel on the tuner. VCR devices recognize this command.
-ms.assetid: 'd9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4'
-keywords: ["MCI_SETTUNER command Windows Multimedia"]
+ms.assetid: d9f4d6b8-ba73-40ec-a2f9-76adab0fd6f4
+keywords:
+- MCI_SETTUNER command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SETTUNER command
 
 The MCI\_SETTUNER command sets the current channel on the tuner. VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -114,8 +120,8 @@ The **dwNumber** member of the structure identified by *lpSetTuner* specifies wh
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -130,9 +136,9 @@ The **dwNumber** member of the structure identified by *lpSetTuner* specifies wh
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

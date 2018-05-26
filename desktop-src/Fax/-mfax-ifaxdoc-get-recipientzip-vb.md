@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientZip property of a FaxDoc object. The RecipientZip property is a null-terminated string that contains the ZIP code of the recipient of the fax transmission.'
-ms.assetid: '608d5663-3ef3-47c6-8ab2-177773b8dc46'
-title: 'FaxDoc.RecipientZip property'
+---
+Description: Sets or retrieves the RecipientZip property of a FaxDoc object. The RecipientZip property is a null-terminated string that contains the ZIP code of the recipient of the fax transmission.
+ms.assetid: 608d5663-3ef3-47c6-8ab2-177773b8dc46
+title: FaxDoc.RecipientZip property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientZip property
@@ -55,7 +60,7 @@ The **get\_RecipientZip** method allocates the memory required for the buffer po
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

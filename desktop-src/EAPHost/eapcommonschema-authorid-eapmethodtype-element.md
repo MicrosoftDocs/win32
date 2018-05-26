@@ -1,14 +1,20 @@
 ---
 title: AuthorId (EapMethodType) Element
 description: Refers to the method author.
-ms.assetid: '1eb16a50-25b8-4883-b9ff-fde329d8dd81'
-keywords: ["AuthorId element EAPHost"]
+ms.assetid: 1eb16a50-25b8-4883-b9ff-fde329d8dd81
+keywords:
+- AuthorId element EAPHost
 topic_type:
 - apiref
 api_name:
 - AuthorId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthorId (EapMethodType) Element
@@ -35,8 +41,8 @@ The **AuthorId** and [**VendorId**](eapcommonschema-vendorid-eapmethodtype-eleme
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **AuthorId** and [**VendorId**](eapcommonschema-vendorid-eapmethodtype-eleme
 [eapcommon Schema](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

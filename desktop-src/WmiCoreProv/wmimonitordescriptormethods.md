@@ -1,7 +1,12 @@
 ---
-Description: 'Contains methods that obtain the raw content of Video Input Definition of Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) v.1.x standard 128-byte data blocks.'
-ms.assetid: 'a787e66e-1b96-4dd5-8646-7aa2d281ac95'
+Description: Contains methods that obtain the raw content of Video Input Definition of Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) v.1.x standard 128-byte data blocks.
+ms.assetid: a787e66e-1b96-4dd5-8646-7aa2d281ac95
 title: WmiMonitorDescriptorMethods class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorDescriptorMethods class
@@ -14,7 +19,7 @@ The **WmiMonitorDescriptorMethods** WMI class contains methods that obtain the r
 class WmiMonitorDescriptorMethods : MSMonitorClass
 {
   boolean Active;
-  string  InstanceName;
+  string  InstanceName;
 };
 ```
 
@@ -37,7 +42,7 @@ The **WmiMonitorDescriptorMethods** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -80,8 +85,8 @@ Name of the specific monitor instance.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -95,9 +100,9 @@ Name of the specific monitor instance.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

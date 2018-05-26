@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice GetSecureClockChallenge method
 description: The GetSecureClockChallenge method retrieves the secure clock challenge result.
-ms.assetid: 'cbef160c-91a3-47d1-9d7a-e649ce2c77ff'
-keywords: ["GetSecureClockChallenge method windows Media Device Manager", "GetSecureClockChallenge method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , GetSecureClockChallenge method"]
+ms.assetid: cbef160c-91a3-47d1-9d7a-e649ce2c77ff
+keywords:
+- GetSecureClockChallenge method windows Media Device Manager
+- GetSecureClockChallenge method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , GetSecureClockChallenge method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::GetSecureClockChallenge method
@@ -23,8 +31,8 @@ The **GetSecureClockChallenge** method retrieves the secure clock challenge resu
 
 ```C++
 HRESULT GetSecureClockChallenge(
-  [out] BYTE  **ppbChallenge,
-  [out] DWORD *pcbChallenge
+  [out] BYTE  **ppbChallenge,
+  [out] DWORD *pcbChallenge
 );
 ```
 
@@ -60,7 +68,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

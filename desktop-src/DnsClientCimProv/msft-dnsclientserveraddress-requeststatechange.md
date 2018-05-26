@@ -1,7 +1,12 @@
 ---
-Description: 'Initiates a requests to change the state of a DNS server interface. This method is inherited from CIM\_EnabledLogicalElement.'
-ms.assetid: '59583CA2-2093-4D1B-8B03-AC2BC4A02A3C'
-title: 'RequestStateChange method of the MSFT\_DNSClientServerAddress class'
+Description: Initiates a requests to change the state of a DNS server interface. This method is inherited from CIM\_EnabledLogicalElement.
+ms.assetid: 59583CA2-2093-4D1B-8B03-AC2BC4A02A3C
+title: RequestStateChange method of the MSFT\_DNSClientServerAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the MSFT\_DNSClientServerAddress class
@@ -15,9 +20,9 @@ This method is inherited from **CIM\_EnabledLogicalElement**.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16          RequestedState,
-  [out] CIM_ConcreteJob Job,
-  [in]  datetime        TimeoutPeriod
+  [in]  uint16          RequestedState,
+  [out] CIM_ConcreteJob Job,
+  [in]  datetime        TimeoutPeriod
 );
 ```
 
@@ -45,12 +50,12 @@ The new state to request.
 | <dl> <dt>9</dt> </dl>           | Quiesce<br/>         |
 | <dl> <dt>10</dt> </dl>          | Reboot<br/>          |
 | <dl> <dt>11</dt> </dl>          | Reset<br/>           |
-| <dl> <dt>12–32767</dt> </dl>    | DMTF Reserved<br/>   |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Reserved<br/> |
+| <dl> <dt>12 32767</dt> </dl>    | DMTF Reserved<br/>   |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -83,17 +88,17 @@ A return code that indicates whether the operation completed successfully.
 | <dl> <dt>4</dt> </dl>           | Failed<br/>                                  |
 | <dl> <dt>5</dt> </dl>           | Invalid Parameter<br/>                       |
 | <dl> <dt>6</dt> </dl>           | In Use<br/>                                  |
-| <dl> <dt>7–4095</dt> </dl>      | DMTF Reserved<br/>                           |
+| <dl> <dt>7 4095</dt> </dl>      | DMTF Reserved<br/>                           |
 | <dl> <dt>4096</dt> </dl>        | Method Parameters Checked - Job Started<br/> |
 | <dl> <dt>4097</dt> </dl>        | Invalid State Transition<br/>                |
 | <dl> <dt>4098</dt> </dl>        | Use of Timeout Parameter Not Supported<br/>  |
 | <dl> <dt>4099</dt> </dl>        | Busy<br/>                                    |
-| <dl> <dt>4100–32767</dt> </dl>  | Method Reserved<br/>                         |
-| <dl> <dt>32768–65535</dt> </dl> | Vendor Specific<br/>                         |
+| <dl> <dt>4100 32767</dt> </dl>  | Method Reserved<br/>                         |
+| <dl> <dt>32768 65535</dt> </dl> | Vendor Specific<br/>                         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -101,8 +106,8 @@ A return code that indicates whether the operation completed successfully.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                  |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                        |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                  |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                        |
 | Namespace<br/>                | Root\\StandardCimV2<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DnsClientCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientCim.dll</dt> </dl> |
@@ -116,9 +121,9 @@ A return code that indicates whether the operation completed successfully.
 [**MSFT\_DNSClientServerAddress**](msft-dnsclientserveraddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

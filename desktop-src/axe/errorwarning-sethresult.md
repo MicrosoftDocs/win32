@@ -1,8 +1,11 @@
 ---
 title: ErrorWarning SetHresult method
 description: Sets the HRESULT value of this item.
-ms.assetid: 'EB6C614D-900F-4734-A607-98C1140693AD'
-keywords: ["SetHresult method Access Execution Engine", "SetHresult method Access Execution Engine , ErrorWarning interface", "ErrorWarning interface Access Execution Engine , SetHresult method"]
+ms.assetid: EB6C614D-900F-4734-A607-98C1140693AD
+keywords:
+- SetHresult method Access Execution Engine
+- SetHresult method Access Execution Engine , ErrorWarning interface
+- ErrorWarning interface Access Execution Engine , SetHresult method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorWarning::SetHresult method
@@ -22,7 +30,7 @@ Sets the **HRESULT** value of this item.
 
 ```C++
 virtual HRESULT SetHresult(
-  [in] INT hresult
+  [in] INT hresult
 ) = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**ErrorWarning**](errorwarning.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

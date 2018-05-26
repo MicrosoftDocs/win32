@@ -2,13 +2,19 @@
 title: nonbrowsable attribute
 description: Use the \ nonbrowsable\ attribute to tag an interface or dispinterface member that should not be displayed in a properties browser.
 ms.assetid: 94e868cc-8d9c-4b8a-ac18-1ea513a103da
-keywords: ["nonbrowsable attribute MIDL"]
+keywords:
+- nonbrowsable attribute MIDL
 topic_type:
 - apiref
 api_name:
 - nonbrowsable
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nonbrowsable attribute

@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetProgress method
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
-ms.assetid: 'E23C82E1-3805-4C5D-9F18-0DA17F7C473E'
-keywords: ["GetProgress method", "GetProgress method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetProgress method"]
+ms.assetid: E23C82E1-3805-4C5D-9F18-0DA17F7C473E
+keywords:
+- GetProgress method
+- GetProgress method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetProgress method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetProgress method
@@ -22,7 +30,7 @@ Retrieves job-related progress information, such as the number of bytes and file
 
 ```C++
 HRESULT GetProgress(
-  [out] BG_JOB_PROGRESS *pProgress
+  [out] BG_JOB_PROGRESS *pProgress
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +67,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -76,9 +84,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyJob**](ibackgroundcopyjob-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

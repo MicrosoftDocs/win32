@@ -1,7 +1,12 @@
 ---
-Description: 'The transaction attribute is a declarative property that automatically manages transactions for the component developer. By setting this attribute, you eliminate the need to use explicit transaction controls in your component.'
-ms.assetid: 'ea0e4d7e-2598-4a42-993c-58815f2fa138'
+Description: The transaction attribute is a declarative property that automatically manages transactions for the component developer. By setting this attribute, you eliminate the need to use explicit transaction controls in your component.
+ms.assetid: ea0e4d7e-2598-4a42-993c-58815f2fa138
 title: Configuring Transactions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Transactions
@@ -22,7 +27,7 @@ In general, you should set this attribute value only when you are sure that the 
 > [!Note]  
 > An *unconfigured component* is a COM component that has not been installed in a COM+ application.
 
- 
+ 
 
 </dd> <dt>
 
@@ -55,7 +60,7 @@ When you set this attribute value, COM+ ensures that any objects created from th
 > [!Note]  
 > COM+ does not support nested transactions. When one transactional object calls another component marked as Requires New, COM+ creates an independent transactional boundary for the newly activated object. The second transaction cannot affect the first transaction unless the first transaction explicitly notes the results of the second transaction and modifies its vote based on those results.
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,7 +80,7 @@ The following table shows the characteristics of each COM+ transaction attribute
 
 
 
- 
+ 
 
 ## Transaction Boundaries
 
@@ -91,13 +96,13 @@ One way to ensure that an object is included in the correct transaction boundary
 
 At run time, COM+ looks at the transaction attribute to determine whether an object should be the root of a new transaction, be created in an existing transaction, or be created as a non-transactional object.
 
-The following illustration shows a possible transaction mapping. In the illustration, the client creates Object  1, which requires a transaction. Because no transaction exists, COM+ creates Transaction 1 and places Object 1 in it as the root object. Object 1 creates Object 2, which supports transactions and is therefore placed in Transaction 1. Object 2 creates Object 3, which does not support transactions and therefore is placed outside all transactions. Object 2 also creates Object 4, which requires a transaction and is therefore placed in Transaction  1. Object 3 creates Object 5, which supports transactions. However, because Object 5 is created by an object that does not exist within a transaction, it also is placed outside all transactions. Object 4 creates Object 6, which requires a new transaction, so COM+ creates Transaction 2 and places Object 6 in it as the root object. Object 6 creates Object 7, which supports transactions and is therefore placed in Transaction 2.
+The following illustration shows a possible transaction mapping. In the illustration, the client creates Object  1, which requires a transaction. Because no transaction exists, COM+ creates Transaction 1 and places Object 1 in it as the root object. Object 1 creates Object 2, which supports transactions and is therefore placed in Transaction 1. Object 2 creates Object 3, which does not support transactions and therefore is placed outside all transactions. Object 2 also creates Object 4, which requires a transaction and is therefore placed in Transaction  1. Object 3 creates Object 5, which supports transactions. However, because Object 5 is created by an object that does not exist within a transaction, it also is placed outside all transactions. Object 4 creates Object 6, which requires a new transaction, so COM+ creates Transaction 2 and places Object 6 in it as the root object. Object 6 creates Object 7, which supports transactions and is therefore placed in Transaction 2.
 
 ![](images/fc7e2d03-94c2-40d9-a79b-1e05ca31dd80.png)
 
-The preceding illustration shows two potential problem areas. First, the majority of work is split between two distinct transactions. If Transaction 1 fails after Object 4 creates Object 6, Transaction 2 runs unaffected by the outcome of Transaction 1. If this outcome is unintended, you might prefer to fold the operations of both transactions into a single transaction, which you can accomplish by changing the transaction attribute of Object  6 to Required.
+The preceding illustration shows two potential problem areas. First, the majority of work is split between two distinct transactions. If Transaction 1 fails after Object 4 creates Object 6, Transaction 2 runs unaffected by the outcome of Transaction 1. If this outcome is unintended, you might prefer to fold the operations of both transactions into a single transaction, which you can accomplish by changing the transaction attribute of Object  6 to Required.
 
-The mapping illustration also shows that Object 3 and Object 5 are non-transactional, running completely outside the scope of Transactions 1 and 2. If Object 5 updates persistent data, you might want to reconsider its non-transactional status. Object 5 can be placed within a transaction by changing its transaction attribute to Required.
+The mapping illustration also shows that Object 3 and Object 5 are non-transactional, running completely outside the scope of Transactions 1 and 2. If Object 5 updates persistent data, you might want to reconsider its non-transactional status. Object 5 can be placed within a transaction by changing its transaction attribute to Required.
 
 ## Related topics
 
@@ -106,9 +111,9 @@ The mapping illustration also shows that Object 3 and Object 5 are non-transacti
 [Setting the Transaction Attribute](setting-the-transaction-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

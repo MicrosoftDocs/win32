@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a Certificate object to the collection.'
-ms.assetid: '0973018d-1e83-41b4-a250-7dd5be2fb664'
-title: 'ICertificates2::Add method'
+---
+Description: Adds a Certificate object to the collection.
+ms.assetid: 0973018d-1e83-41b4-a250-7dd5be2fb664
+title: ICertificates2Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificates2::Add method

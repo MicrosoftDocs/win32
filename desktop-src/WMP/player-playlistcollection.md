@@ -1,8 +1,9 @@
 ---
 title: Player.playlistCollection
 description: The playlistCollection property retrieves the PlaylistCollection object.
-ms.assetid: 'c5500edd-6658-48cd-9486-70f7b9ae78e4'
-keywords: ["Player.playlistCollection Windows Media Player"]
+ms.assetid: c5500edd-6658-48cd-9486-70f7b9ae78e4
+keywords:
+- Player.playlistCollection Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.playlistCollection
@@ -56,9 +62,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The number of points defining the BoundingBox.'
-ms.assetid: 'a73c44f8-14f9-47aa-b02b-31dcd34cd6c5'
-title: 'BoundingBox.CORNER\_COUNT'
+---
+Description: The number of points defining the BoundingBox.
+ms.assetid: a73c44f8-14f9-47aa-b02b-31dcd34cd6c5
+title: BoundingBox.CORNER\_COUNT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingBox.CORNER\_COUNT
@@ -43,7 +48,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingBox**](boundingbox.md)
+[**BoundingBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master)
 </dt> </dl>
 
  

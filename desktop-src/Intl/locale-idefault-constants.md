@@ -1,7 +1,12 @@
 ---
-Description: 'This topic defines the LOCALE\_IDEFAULT\* constants used by NLS.'
-ms.assetid: '4fa8b5f3-8c01-44fb-b6fd-8dbf38e3d361'
-title: 'LOCALE\_IDEFAULT\* Constants'
+Description: This topic defines the LOCALE\_IDEFAULT\* constants used by NLS.
+ms.assetid: 4fa8b5f3-8c01-44fb-b6fd-8dbf38e3d361
+title: LOCALE\_IDEFAULT\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IDEFAULT\* Constants

@@ -1,8 +1,9 @@
 ---
-title: \_BITMAPINFOHEADER structure
+title: '\_BITMAPINFOHEADER structure'
 description: The \_BITMAPINFOHEADER structure defines the format of a video frame.
-ms.assetid: '394b8ded-81db-4ad3-8cf7-086f1e832771'
-keywords: ["_BITMAPINFOHEADER structure windows Media Device Manager"]
+ms.assetid: 394b8ded-81db-4ad3-8cf7-086f1e832771
+keywords:
+- _BITMAPINFOHEADER structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_BITMAPINFOHEADER structure
@@ -23,14 +29,14 @@ The **\_BITMAPINFOHEADER** structure defines the format of a video frame.
 ```C++
 typedef struct _tagBITMAPINFOHEADER {
   DWORD biSize;
-  LONG  biWidth;
-  LONG  biHeight;
-  WORD  biPlanes;
-  WORD  biBitCount;
+  LONG  biWidth;
+  LONG  biHeight;
+  WORD  biPlanes;
+  WORD  biBitCount;
   DWORD biCompression;
   DWORD biSizeImage;
-  LONG  biXPelsPerMeter;
-  LONG  biYPelsPerMeter;
+  LONG  biXPelsPerMeter;
+  LONG  biYPelsPerMeter;
   DWORD biClrUsed;
   DWORD biClrImportant;
 } _BITMAPINFOHEADER;
@@ -89,7 +95,7 @@ Specifies the number of bits per pixel. The **biBitCount** member of the **BITMA
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,7 +113,7 @@ Specifies the type of compression for a compressed bottom-up bitmap (top-down DI
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -174,9 +180,9 @@ This structure is contained within a **\_VIDEOINFOHEADER** structure.
 [**\_VIDEOINFOHEADER**](-videoinfoheader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

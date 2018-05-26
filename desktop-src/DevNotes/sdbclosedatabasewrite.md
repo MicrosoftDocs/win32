@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes the specified database.'
-ms.assetid: '69546f03-9912-401a-9c1a-b7fdbe16dbf8'
+---
+Description: Closes the specified database.
+ms.assetid: 69546f03-9912-401a-9c1a-b7fdbe16dbf8
 title: SdbCloseDatabaseWrite function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbCloseDatabaseWrite function

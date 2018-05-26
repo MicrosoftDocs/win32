@@ -1,7 +1,12 @@
 ---
 title: To define information types when not using categories
 description: To define information types when not using categories
-ms.assetid: '2F42CD68-0D04-4e2a-8653-2FDDDA2E0D96'
+ms.assetid: 2F42CD68-0D04-4e2a-8653-2FDDDA2E0D96
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To define information types when not using categories
@@ -16,7 +21,7 @@ ms.assetid: '2F42CD68-0D04-4e2a-8653-2FDDDA2E0D96'
 
     
 
-     
+     
 
 2.  Click the **Information Types** tab, and then click **Add**.
 3.  In the **Information type name** box, type the name of the information type you want (for example, Overview).
@@ -38,9 +43,9 @@ ms.assetid: '2F42CD68-0D04-4e2a-8653-2FDDDA2E0D96'
 [About Assigning Information Types](assign-information-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

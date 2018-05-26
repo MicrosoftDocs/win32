@@ -1,7 +1,12 @@
 ---
 title: Arrays
 description: Remote Procedure Call (RPC) array categories include fixed-size, conformant, conformant varying, varying, and complex.
-ms.assetid: '7144ec87-90f2-463a-80e4-28cb4771325f'
+ms.assetid: 7144ec87-90f2-463a-80e4-28cb4771325f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arrays

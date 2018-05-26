@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ProductProductDependency class represents an association between two products, which indicates that one must be installed or absent for the other to function. This is conceptually equivalent to the CIM\_ServiceServiceDependency association.'
+Description: The CIM\_ProductProductDependency class represents an association between two products, which indicates that one must be installed or absent for the other to function. This is conceptually equivalent to the CIM\_ServiceServiceDependency association.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '898b9993-3bdc-4a7c-98c1-ed960014ace8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 898b9993-3bdc-4a7c-98c1-ed960014ace8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ProductProductDependency class'
+title: CIM\_ProductProductDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProductProductDependency class
@@ -19,7 +22,7 @@ The **CIM\_ProductProductDependency** class represents an association between tw
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,7 +34,7 @@ class CIM_ProductProductDependency
 {
   CIM_Product REF DependentProduct;
   CIM_Product REF RequiredProduct;
-  uint16          TypeOfDependency;
+  uint16          TypeOfDependency;
 };
 ```
 
@@ -144,17 +147,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

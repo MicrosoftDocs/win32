@@ -2,7 +2,12 @@
 title: D
 description: Words starting with D in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: 'a983860b-39af-4195-8b02-caac38cf42d7'
+ms.assetid: a983860b-39af-4195-8b02-caac38cf42d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D

@@ -1,7 +1,12 @@
 ---
-Description: 'An XAudio2 client has full control of the mapping from the channels of a voice to the channels of each of its destination voices.'
-ms.assetid: '219d5b70-3f07-f973-f9ec-1cb3cf0be37e'
+Description: An XAudio2 client has full control of the mapping from the channels of a voice to the channels of each of its destination voices.
+ms.assetid: 219d5b70-3f07-f973-f9ec-1cb3cf0be37e
 title: XAudio2 Default Channel Mapping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Default Channel Mapping

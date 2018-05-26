@@ -1,8 +1,9 @@
 ---
 title: glPixelTransferi function
 description: The glPixelTransferf and glPixelTransferi functions set pixel transfer modes.
-ms.assetid: '351a872d-2cce-4fb1-b736-72201baf4157'
-keywords: ["glPixelTransferi function OpenGL"]
+ms.assetid: 351a872d-2cce-4fb1-b736-72201baf4157
+keywords:
+- glPixelTransferi function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPixelTransferi function
@@ -22,8 +28,8 @@ The [**glPixelTransferf**](glpixeltransferf.md) and **glPixelTransferi** functio
 
 ```C++
 void WINAPI glPixelTransferi(
-   GLenum pname,
-   GLint  param
+   GLenum pname,
+   GLint  param
 );
 ```
 
@@ -40,7 +46,7 @@ The symbolic name of the pixel transfer parameter to be set. The following table
 
 
 
-| Pname             | Type    | Initial Value  | Valid Range  |
+| Pname             | Type    | Initial Value  | Valid Range  |
 |-------------------|---------|----------------|--------------|
 | GL\_MAP\_COLOR    | Boolean | false          | true/false   |
 | GL\_MAP\_STENCIL  | Boolean | false          | true/false   |
@@ -59,7 +65,7 @@ The symbolic name of the pixel transfer parameter to be set. The following table
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -84,16 +90,16 @@ The pixel transfer operations performed on the four basic pixel types are as fol
 
 
 
-| Pixel type  | Pixel transfer operation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Pixel type  | Pixel transfer operation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Color       | Each of the four color components is multiplied by a scale factor, and then added to a bias factor. That is, the red component is multiplied by GL\_RED\_SCALE, and then added to GL\_RED\_BIAS; the green component is multiplied by GL\_GREEN\_SCALE, and then added to GL\_GREEN\_BIAS; the blue component is multiplied by GL\_BLUE\_SCALE, and then added to GL\_BLUE\_BIAS; and the alpha component is multiplied by GL\_ALPHA\_SCALE, and then added to GL\_ALPHA\_BIAS. After all four color components are scaled and biased, each is clamped to the range \[0,1\]. All color scale and bias values are specified with **glPixelTransfer**. <br/> If GL\_MAP\_COLOR is true, each color component is scaled by the size of the corresponding color-to-color map, and then replaced by the contents of that map indexed by the scaled component. That is, the red component is scaled by GL\_PIXEL\_MAP\_R\_TO\_R\_SIZE, and then replaced by the contents of GL\_PIXEL\_MAP\_R\_TO\_R indexed by itself. The green component is scaled by GL\_PIXEL\_MAP\_G\_TO\_G\_SIZE, and then replaced by the contents of GL\_PIXEL\_MAP\_G\_TO\_G indexed by itself. The blue component is scaled by GL\_PIXEL\_MAP\_B\_TO\_B\_SIZE, and then replaced by the contents of GL\_PIXEL\_MAP\_B\_TO\_B indexed by itself. The alpha component is scaled by GL\_PIXEL\_MAP\_A\_TO\_A\_SIZE, and then replaced by the contents of GL\_PIXEL\_MAP\_A\_TO\_A indexed by itself. All components taken from the maps are then clamped to the range \[0,1\]. GL\_MAP\_COLOR is specified with **glPixelTransfer**. The contents of the various maps are specified with **glPixelMap**.<br/>                                                                                                                        |
-| Color index | Each color index is shifted left by GL\_INDEX\_SHIFT bits, filling with zeros any bits beyond the number of fraction bits carried by the fixed-point index. If GL\_INDEX\_SHIFT is negative, the shift is to the right, again zero filled. GL\_INDEX\_OFFSET is then added to the index. GL\_INDEX\_SHIFT and GL\_INDEX\_OFFSET are specified with **glPixelTransfer**.<br/> From this point, operation diverges depending on the required format of the resulting pixels. If the resulting pixels are to be written to a color-index buffer, or if they are being read back to client memory in GL\_COLOR\_INDEX format, the pixels continue to be treated as indexes. If GL\_MAP\_COLOR is true, then each index is masked by 2 ^ *n* 1, where *n* is GL\_PIXEL\_MAP\_I\_TO\_I\_SIZE, and then replaced by the contents of GL\_PIXEL\_MAP\_I\_TO\_I indexed by the masked value. GL\_MAP\_COLOR is specified with **glPixelTransfer**. The contents of the index map are specified with **glPixelMap**.<br/> If the resulting pixels are to be written to an RGBA color buffer, or if they are being read back to client memory in a format other than GL\_COLOR\_INDEX, the pixels are converted from indexes to colors by referencing the four maps GL\_PIXEL\_MAP\_I\_TO\_R, GL\_PIXEL\_MAP\_I\_TO\_G, GL\_PIXEL\_MAP\_I\_TO\_B, and GL\_PIXEL\_MAP\_I\_TO\_A. Before being dereferenced, the index is masked by 2 n 1, where n is GL\_PIXEL\_MAP\_I\_TO\_R\_SIZE for the red map, GL\_PIXEL\_MAP\_I\_TO\_G\_SIZE for the green map, GL\_PIXEL\_MAP\_I\_TO\_B\_SIZE for the blue map, and GL\_PIXEL\_MAP\_I\_TO\_A\_SIZE for the alpha map. All components taken from the maps are then clamped to the range \[0,1\]. The contents of the four maps are specified with **glPixelMap**.<br/> |
+| Color index | Each color index is shifted left by GL\_INDEX\_SHIFT bits, filling with zeros any bits beyond the number of fraction bits carried by the fixed-point index. If GL\_INDEX\_SHIFT is negative, the shift is to the right, again zero filled. GL\_INDEX\_OFFSET is then added to the index. GL\_INDEX\_SHIFT and GL\_INDEX\_OFFSET are specified with **glPixelTransfer**.<br/> From this point, operation diverges depending on the required format of the resulting pixels. If the resulting pixels are to be written to a color-index buffer, or if they are being read back to client memory in GL\_COLOR\_INDEX format, the pixels continue to be treated as indexes. If GL\_MAP\_COLOR is true, then each index is masked by 2 ^ *n* 1, where *n* is GL\_PIXEL\_MAP\_I\_TO\_I\_SIZE, and then replaced by the contents of GL\_PIXEL\_MAP\_I\_TO\_I indexed by the masked value. GL\_MAP\_COLOR is specified with **glPixelTransfer**. The contents of the index map are specified with **glPixelMap**.<br/> If the resulting pixels are to be written to an RGBA color buffer, or if they are being read back to client memory in a format other than GL\_COLOR\_INDEX, the pixels are converted from indexes to colors by referencing the four maps GL\_PIXEL\_MAP\_I\_TO\_R, GL\_PIXEL\_MAP\_I\_TO\_G, GL\_PIXEL\_MAP\_I\_TO\_B, and GL\_PIXEL\_MAP\_I\_TO\_A. Before being dereferenced, the index is masked by 2 n 1, where n is GL\_PIXEL\_MAP\_I\_TO\_R\_SIZE for the red map, GL\_PIXEL\_MAP\_I\_TO\_G\_SIZE for the green map, GL\_PIXEL\_MAP\_I\_TO\_B\_SIZE for the blue map, and GL\_PIXEL\_MAP\_I\_TO\_A\_SIZE for the alpha map. All components taken from the maps are then clamped to the range \[0,1\]. The contents of the four maps are specified with **glPixelMap**.<br/> |
 | Depth       | Each depth value is multiplied by GL\_DEPTH\_SCALE, added to GL\_DEPTH\_BIAS, and then clamped to the range \[0,1\].                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Stencil     | Each index is shifted GL\_INDEX\_SHIFT bits just as a color index is, and then added to GL\_INDEX\_OFFSET. If GL\_MAP\_STENCIL is true, each index is masked by 2n 1, where *n* is GL\_PIXEL\_MAP\_S\_TO\_S\_SIZE, then replaced by the contents of GL\_PIXEL\_MAP\_S\_TO\_S indexed by the masked value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Stencil     | Each index is shifted GL\_INDEX\_SHIFT bits just as a color index is, and then added to GL\_INDEX\_OFFSET. If GL\_MAP\_STENCIL is true, each index is masked by 2n 1, where *n* is GL\_PIXEL\_MAP\_S\_TO\_S\_SIZE, then replaced by the contents of GL\_PIXEL\_MAP\_S\_TO\_S indexed by the masked value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 
 
- 
+ 
 
 The [**glPixelTransferf**](glpixeltransfer.md) function can be used to set any pixel transfer parameter. If the parameter type is Boolean, 0.0 implies false and any other value implies true. If *pname* is an integer parameter, *param* is rounded to the nearest integer.
 
@@ -137,8 +143,8 @@ The following functions retrieve information related to **glPixelTransfer**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -185,9 +191,9 @@ The following functions retrieve information related to **glPixelTransfer**:
 [**glTexImage2D**](glteximage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

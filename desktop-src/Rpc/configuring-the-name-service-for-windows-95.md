@@ -1,7 +1,12 @@
 ---
 title: Configuring the Name Service for Windows 95
 description: Windows 95 does not use Microsoft Locator.
-ms.assetid: '0903681c-9cbf-4c5c-8637-be7f6501cd14'
+ms.assetid: 0903681c-9cbf-4c5c-8637-be7f6501cd14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Name Service for Windows 95

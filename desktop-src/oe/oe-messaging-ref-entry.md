@@ -1,7 +1,12 @@
 ---
 title: Windows Mail Messaging Reference
 description: This documentation provides messaging-related information about the set of interfaces for objects related to Windows Mail (formerly Outlook Express).
-ms.assetid: '03e58daf-6cfb-44b1-88b0-9ab809d3cc31'
+ms.assetid: 03e58daf-6cfb-44b1-88b0-9ab809d3cc31
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mail Messaging Reference
@@ -48,7 +53,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Enums
 
@@ -77,7 +82,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Structures
 
@@ -86,7 +91,7 @@ New applications should not use this set of interfaces and schemas. These interf
 | Topic                                                        | Contents                                                                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ADDRESSLIST**](oe-addresslist.md)                        | Do not use. Holds a list of [**ADDRESSPROPS**](oe-addressprops.md) structures. <br/>                                                                                                                                                                                                 |
-| [**ADDRESSPROPS**](oe-addressprops.md)                      | Do not use. Holds information about a message sender or recipient—for example, a message address. <br/>                                                                                                                                                                               |
+| [**ADDRESSPROPS**](oe-addressprops.md)                      | Do not use. Holds information about a message sender or recipient for example, a message address. <br/>                                                                                                                                                                               |
 | [**BODYOFFSETS**](oe-bodyoffsets.md)                        | Do not use. Holds information about the byte offsets for a body. <br/>                                                                                                                                                                                                                |
 | [**CMS\_CTRL\_DECRYPT\_INFO**](oe-cms-ctrl-decrypt-info.md) | Do not use. A union that contains key transport message recipient information, key agreement recipient information, or mail list message recipient information. <br/>                                                                                                                 |
 | [**CMS\_RECIPIENT\_INFO**](oe-cms-recipient-info.md)        | Do not use. Contains key information for an encrypted message recipient. <br/>                                                                                                                                                                                                        |
@@ -107,7 +112,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Functions
 
@@ -201,7 +206,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Constants
 
@@ -213,11 +218,11 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

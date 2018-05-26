@@ -1,7 +1,12 @@
 ---
 Description: About Topologies
-ms.assetid: '4f69b099-0ca7-4ea6-8412-0f1ea02e1600'
+ms.assetid: 4f69b099-0ca7-4ea6-8412-0f1ea02e1600
 title: About Topologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Topologies
@@ -47,7 +52,7 @@ The next diagram shows the full topology after the topology loader resolves it. 
 
 In the current version of Media Foundation, the topology loader supports topologies for playback. For file encoding and other scenarios, the application must construct a full topology.
 
-Applications can also create the topology loader and use it directly. For example, you can use the topology loader to resolve a partial topology and then modify the full topology before giving it to the Media Session. To create the topology loader, call [**MFCreateTopoLoader**](mfcreatetopoloader.md).
+Applications can also create the topology loader and use it directly. For example, you can use the topology loader to resolve a partial topology and then modify the full topology before giving it to the Media Session. To create the topology loader, call [**MFCreateTopoLoader**](/windows/win32/mfidl/nf-mfidl-mfcreatetopoloader?branch=master).
 
 ## Related topics
 

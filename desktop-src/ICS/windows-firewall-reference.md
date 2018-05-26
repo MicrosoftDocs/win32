@@ -1,8 +1,15 @@
 ---
 title: Windows Firewall for Windows XP with SP2 API Reference
 description: The Windows Firewall reference is divided into the following sections.
-ms.assetid: 'bcc8b1ef-a11e-4e8e-9519-fe8cb73e1abe'
-keywords: ["Windows Firewall", "reference"]
+ms.assetid: bcc8b1ef-a11e-4e8e-9519-fe8cb73e1abe
+keywords:
+- Windows Firewall
+- reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Firewall for Windows XP with SP2 API Reference

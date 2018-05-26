@@ -1,7 +1,12 @@
 ---
-Description: 'Generates implementation declarations for subscribe/unsubscribe proxy functions for port type notification operations.'
-ms.assetid: '0e5b2232-c9bf-4741-921d-bb3bce4ee293'
+Description: Generates implementation declarations for subscribe/unsubscribe proxy functions for port type notification operations.
+ms.assetid: 0e5b2232-c9bf-4741-921d-bb3bce4ee293
 title: subscriptionFunctionDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # subscriptionFunctionDeclarations element
@@ -65,14 +70,14 @@ Generates implementation declarations for subscribe/unsubscribe proxy functions 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

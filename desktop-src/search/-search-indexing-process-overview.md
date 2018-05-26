@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.'
-ms.assetid: 'cfba12eb-4123-4b57-8311-d4fc8f9f514e'
+Description: This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.
+ms.assetid: cfba12eb-4123-4b57-8311-d4fc8f9f514e
 title: Indexing Process in Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Process in Windows Search
@@ -62,18 +67,18 @@ The rest of this section describes how Windows Search accesses items for indexin
 
 Windows Search also uses the host process to isolate an instance of a protocol handler from other processes or applications. This way, no outside application can access that specific instance of the protocol handler, and if the protocol handler fails unexpectedly, only the indexing process is affected. Because the host process runs third party code (protocol handlers), Windows Search periodically recycles the process to minimize the time a successful attack has to exploit information in the process. Beyond this, the search protocol host does not affect the crawling of URLs or indexing of items.
 
-**Protocol Handlers**  Protocol handlers provide access to items in a data store using the data store's protocol. For example, the NTFS protocol handler provides access to files on a local drive using the file:// protocol. The protocol handler knows how to traverse the data store, identify new or updated items, and notify the gatherer. Then, when crawling begins, the protocol handler provides an [**IUrlAccessor**](-search-iurlaccessor.md) object to the gatherer to bind to the item's underlying stream and return item metadata such as security restrictions and last modified time.
+**Protocol Handlers**  Protocol handlers provide access to items in a data store using the data store's protocol. For example, the NTFS protocol handler provides access to files on a local drive using the file:// protocol. The protocol handler knows how to traverse the data store, identify new or updated items, and notify the gatherer. Then, when crawling begins, the protocol handler provides an [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) object to the gatherer to bind to the item's underlying stream and return item metadata such as security restrictions and last modified time.
 
 > [!Note]  
 > Protocol handlers are not Windows Search components; they are components of the specific protocol and data store they are designed to access. If you have a custom data store you want indexed, you need to implement a protocol handler. For more information on protocol handlers and how to implement one, refer to [Developing Protocol Handlers](-search-3x-wds-phaddins.md).
 
  
 
-**Metadata and Stream**  Using metadata returned by the protocol handler's [**IUrlAccessor**](-search-iurlaccessor.md) object, the gatherer identifies the correct filter for the URL. The gatherer parses the item's file name extension and looks up the filter registered for that extension. If the gatherer is unable to find a filter, Windows Search uses the metadata to derive a minimal set of system property information (like System.ItemName) and updates the index. Otherwise, if the gatherer finds the filter, the third stage of indexing begins.
+**Metadata and Stream**  Using metadata returned by the protocol handler's [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) object, the gatherer identifies the correct filter for the URL. The gatherer parses the item's file name extension and looks up the filter registered for that extension. If the gatherer is unable to find a filter, Windows Search uses the metadata to derive a minimal set of system property information (like System.ItemName) and updates the index. Otherwise, if the gatherer finds the filter, the third stage of indexing begins.
 
 ## Stage 3: Updating the Index
 
-In the third stage of indexing, the gatherer instantiates the correct filter for the URL and initializes the filter with the stream from the [**IUrlAccessor**](-search-iurlaccessor.md) object. The filter then accesses the item and returns content for the index. If you have a custom file format, Windows Search relies on your filter to access URLs and emit content and properties for indexing.
+In the third stage of indexing, the gatherer instantiates the correct filter for the URL and initializes the filter with the stream from the [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) object. The filter then accesses the item and returns content for the index. If you have a custom file format, Windows Search relies on your filter to access URLs and emit content and properties for indexing.
 
 The following diagram shows a high-level view of the data access process. This stage includes considerable coordination and communication between components.
 
@@ -87,7 +92,7 @@ The rest of this section describes how Windows Search accesses item data for ind
 
 **Filters**  Filters are critical components in the indexing process that emit item information for the gatherer. Filters are named after the principal interface used in their implementation, the [**IFilter**](-search-ifilter.md) interface, and consequently are sometimes referred to as IFilters. There are two kinds of filters: one that interacts with individual items like files and one that interacts with containers like folders. Both provide data for the index.
 
-Using metadata returned by the protocol handler's [**IUrlAccessor**](-search-iurlaccessor.md) object, the gatherer identifies the correct filter for a particular URL and passes it to the stream. The gatherer identifies the correct filter either through a protocol handler or by the file name extension, MIME type, or class identifier (CLSID). If the URL points to a container, the filter emits properties for the container and enumerates the items in the container (child URLs). If the URL points to an item, the filter returns the textual content, if any the reading of properties and are more complex than property handlers. Generally, we recommend that filters emit item contents while property handlers emit item properties. However, if your filter needs to work with older applications that do not recognize property handlers, you can implement the filter to emit properties as well.
+Using metadata returned by the protocol handler's [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master) object, the gatherer identifies the correct filter for a particular URL and passes it to the stream. The gatherer identifies the correct filter either through a protocol handler or by the file name extension, MIME type, or class identifier (CLSID). If the URL points to a container, the filter emits properties for the container and enumerates the items in the container (child URLs). If the URL points to an item, the filter returns the textual content, if any the reading of properties and are more complex than property handlers. Generally, we recommend that filters emit item contents while property handlers emit item properties. However, if your filter needs to work with older applications that do not recognize property handlers, you can implement the filter to emit properties as well.
 
 > [!Note]  
 > Filters are not Windows Search components; they are components related to the specific file format or container they are designed to access. For more information on filters and how to implement one for a custom file format or container, see [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md).

@@ -1,13 +1,33 @@
 ---
 title: About Icons
 description: This topic discusses icons.
-ms.assetid: '67867460-07f6-460f-9263-05bbf3474744'
-keywords: ["resources,icons", "icons,hot spots", "icons,standard", "standard icons", "icons,custom", "custom icons", "icons,sizes", "creating icons", "icons,displaying", "icons,destroying", "icons,duplicating", "icons,creating", "displaying icons", "destroying icons", "duplicating icons"]
+ms.assetid: 67867460-07f6-460f-9263-05bbf3474744
+keywords:
+- resources,icons
+- icons,hot spots
+- icons,standard
+- standard icons
+- icons,custom
+- custom icons
+- icons,sizes
+- creating icons
+- icons,displaying
+- icons,destroying
+- icons,duplicating
+- icons,creating
+- displaying icons
+- destroying icons
+- duplicating icons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Icons
 
-The system uses icons throughout the user interface to represent objects such as files, folders, shortcuts, applications, and documents. The icon functions enable applications to create, load, display, arrange, animate, and destroy icons. For information on specifying icons for file types, see [**ExtractIcon**](extracticon.md).
+The system uses icons throughout the user interface to represent objects such as files, folders, shortcuts, applications, and documents. The icon functions enable applications to create, load, display, arrange, animate, and destroy icons. For information on specifying icons for file types, see [**ExtractIcon**](/windows/win32/Shellapi/nf-shellapi-extracticona?branch=master).
 
 This overview provides information on the following topics:
 
@@ -27,7 +47,7 @@ This overview provides information on the following topics:
 
 ## Icon Hot Spot
 
-One of the pixels in an icon is designated as the [hot spot](#icon-hot-spot), which is the point the system tracks and recognizes as the position of the icon. An icon's hot spot is typically the pixel located at the center of the icon. If you use the [**CreateIconIndirect**](createiconindirect.md) function to create an icon, you can specify any pixel to be the hot spot.
+One of the pixels in an icon is designated as the [hot spot](#icon-hot-spot), which is the point the system tracks and recognizes as the position of the icon. An icon's hot spot is typically the pixel located at the center of the icon. If you use the [**CreateIconIndirect**](/windows/win32/Winuser/nf-winuser-createiconindirect?branch=master) function to create an icon, you can specify any pixel to be the hot spot.
 
 ## Icon Types
 
@@ -59,13 +79,13 @@ The *system small icon* is displayed in the window caption.
 
 -   Call the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function with **SM\_CXSMICON** and **SM\_CYSMICON**.
 
-The *system large icon* is mainly used by applications, but it is also displayed in the Alt+Tab dialog. The [**CreateIconFromResource**](createiconfromresource.md), [**DrawIcon**](drawicon.md), [**ExtractAssociatedIcon**](extractassociatedicon.md), [**ExtractIcon**](extracticon.md), [**ExtractIconEx**](extracticonex.md), and [**LoadIcon**](loadicon.md) functions all use system large icons. The size of the system large icon is defined by the video driver, therefore it cannot be changed.
+The *system large icon* is mainly used by applications, but it is also displayed in the Alt+Tab dialog. The [**CreateIconFromResource**](/windows/win32/Winuser/nf-winuser-createiconfromresource?branch=master), [**DrawIcon**](/windows/win32/Winuser/nf-winuser-drawicon?branch=master), [**ExtractAssociatedIcon**](/windows/win32/Shellapi/nf-shellapi-extractassociatedicona?branch=master), [**ExtractIcon**](/windows/win32/Shellapi/nf-shellapi-extracticona?branch=master), [**ExtractIconEx**](/windows/win32/Shellapi/nf-shellapi-extracticonexa?branch=master), and [**LoadIcon**](/windows/win32/Winuser/nf-winuser-loadicona?branch=master) functions all use system large icons. The size of the system large icon is defined by the video driver, therefore it cannot be changed.
 
 ### To retrieve the size of the system large icon
 
 -   Call [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) with **SM\_CXICON** and **SM\_CYICON**.
 
-The [**CreateIcon**](createicon.md), [**CreateIconFromResourceEx**](createiconfromresourceex.md), [**CreateIconIndirect**](createiconindirect.md), and [**SHGetFileInfo**](_win32_SHGetFileInfo) functions can be used to work with icons in sizes other than system large.
+The [**CreateIcon**](/windows/win32/Winuser/nf-winuser-createicon?branch=master), [**CreateIconFromResourceEx**](/windows/win32/Winuser/nf-winuser-createiconfromresourceex?branch=master), [**CreateIconIndirect**](/windows/win32/Winuser/nf-winuser-createiconindirect?branch=master), and [**SHGetFileInfo**](_win32_SHGetFileInfo) functions can be used to work with icons in sizes other than system large.
 
 The *shell small icon* is used in the Windows Explorer and the common dialogs. Currently, this defaults to the system small size.
 
@@ -99,19 +119,19 @@ When filling in the [**WNDCLASSEX**](https://msdn.microsoft.com/library/windows/
 
 ## Icon Creation
 
-Standard icons are predefined, so it is not necessary to create them. To use a standard icon, an application can obtain its handle by using the [**LoadImage**](loadimage.md) function. An *icon handle* is a unique value of the **HICON** type that identifies a standard or custom icon.
+Standard icons are predefined, so it is not necessary to create them. To use a standard icon, an application can obtain its handle by using the [**LoadImage**](/windows/win32/Winuser/nf-winuser-loadimagea?branch=master) function. An *icon handle* is a unique value of the **HICON** type that identifies a standard or custom icon.
 
-To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](_Tools_ICON_Resource) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](loadicon.md) or [**LoadImage**](loadimage.md) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
+To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](_Tools_ICON_Resource) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](/windows/win32/Winuser/nf-winuser-loadicona?branch=master) or [**LoadImage**](/windows/win32/Winuser/nf-winuser-loadimagea?branch=master) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
 
-An application can also create a custom icon at run-time by using the [**CreateIconIndirect**](createiconindirect.md) function, which creates an icon based on the contents of an [**ICONINFO**](iconinfo.md) structure. The [**GetIconInfo**](geticoninfo.md) function fills the structure with the hot-spot coordinates and information about the bitmask bitmap and color bitmap for the icon.
+An application can also create a custom icon at run-time by using the [**CreateIconIndirect**](/windows/win32/Winuser/nf-winuser-createiconindirect?branch=master) function, which creates an icon based on the contents of an [**ICONINFO**](/windows/win32/Winuser/ns-winuser-_iconinfo?branch=master) structure. The [**GetIconInfo**](/windows/win32/Winuser/nf-winuser-geticoninfo?branch=master) function fills the structure with the hot-spot coordinates and information about the bitmask bitmap and color bitmap for the icon.
 
-Applications should implement custom icons as resources and should use [**LoadIcon**](loadicon.md) or [**LoadImage**](loadimage.md), rather than create the icon at run-time. Using icon resources avoids device dependence, simplifies localization, and enables applications to share icon shapes.
+Applications should implement custom icons as resources and should use [**LoadIcon**](/windows/win32/Winuser/nf-winuser-loadicona?branch=master) or [**LoadImage**](/windows/win32/Winuser/nf-winuser-loadimagea?branch=master), rather than create the icon at run-time. Using icon resources avoids device dependence, simplifies localization, and enables applications to share icon shapes.
 
-The [**CreateIconFromResourceEx**](createiconfromresourceex.md) function enables an application to browse through the system's resources and create icons and cursors based on resource data. **CreateIconFromResourceEx** creates an icon based on binary resource data from other executable files or DLLs. An application must precede this function with calls to the [**LookupIconIdFromDirectoryEx**](lookupiconidfromdirectoryex.md) function and several of the resource functions. **LookupIconIdFromDirectoryEx** returns the identifier of the most appropriate icon data for the current display device.
+The [**CreateIconFromResourceEx**](/windows/win32/Winuser/nf-winuser-createiconfromresourceex?branch=master) function enables an application to browse through the system's resources and create icons and cursors based on resource data. **CreateIconFromResourceEx** creates an icon based on binary resource data from other executable files or DLLs. An application must precede this function with calls to the [**LookupIconIdFromDirectoryEx**](/windows/win32/Winuser/nf-winuser-lookupiconidfromdirectoryex?branch=master) function and several of the resource functions. **LookupIconIdFromDirectoryEx** returns the identifier of the most appropriate icon data for the current display device.
 
 ## Icon Display
 
-You can retrieve the image for an icon by using the [**GetIconInfo**](geticoninfo.md) function, and can draw it by using the [**DrawIconEx**](drawiconex.md) function. To draw the default image for a icon, specify the **DI\_COMPAT** flag in the call to **DrawIconEx**. If you do not specify the **DI\_COMPAT** flag, **DrawIconEx** draws the icon using the image that the user specified.
+You can retrieve the image for an icon by using the [**GetIconInfo**](/windows/win32/Winuser/nf-winuser-geticoninfo?branch=master) function, and can draw it by using the [**DrawIconEx**](/windows/win32/Winuser/nf-winuser-drawiconex?branch=master) function. To draw the default image for a icon, specify the **DI\_COMPAT** flag in the call to **DrawIconEx**. If you do not specify the **DI\_COMPAT** flag, **DrawIconEx** draws the icon using the image that the user specified.
 
 When the system displays an icon, it must extract the appropriate icon image from the .exe or .dll file. The system uses the following steps to select the icon image:
 
@@ -138,17 +158,17 @@ SendMessage( hStatic, STM_SETIMAGE, IMAGE_ICON, (LPARAM)(UINT)hIcon);
 
 ## Icon Destruction
 
-When an application no longer needs an icon it created by using the [**CreateIconIndirect**](createiconindirect.md) function, it should destroy the icon. The [**DestroyIcon**](destroyicon.md) function destroys the icon handle and frees any memory used by the icon. Applications should use this function only for icons created with **CreateIconIndirect**; it is not necessary to destroy other icons.
+When an application no longer needs an icon it created by using the [**CreateIconIndirect**](/windows/win32/Winuser/nf-winuser-createiconindirect?branch=master) function, it should destroy the icon. The [**DestroyIcon**](/windows/win32/Winuser/nf-winuser-destroyicon?branch=master) function destroys the icon handle and frees any memory used by the icon. Applications should use this function only for icons created with **CreateIconIndirect**; it is not necessary to destroy other icons.
 
 ## Icon Duplication
 
-The [**CopyIcon**](copyicon.md) function copies an icon handle. This enables an application or DLL to get its own handle to an icon owned by another module. Then, if the other module is freed, the application that copied the icon will still be able to use the icon.
+The [**CopyIcon**](/windows/win32/Winuser/nf-winuser-copyicon?branch=master) function copies an icon handle. This enables an application or DLL to get its own handle to an icon owned by another module. Then, if the other module is freed, the application that copied the icon will still be able to use the icon.
 
-The [**CopyImage**](copyimage.md) function creates a new icon based on the specified source icon. The new icon can be larger or smaller than the source icon.
+The [**CopyImage**](/windows/win32/Winuser/nf-winuser-copyimage?branch=master) function creates a new icon based on the specified source icon. The new icon can be larger or smaller than the source icon.
 
 For information about adding, removing, or replacing icon resources in executable (.exe) files, see [Resources](resources.md).
 
-The [**DuplicateIcon**](duplicateicon.md) function makes an actual copy of the icon.
+The [**DuplicateIcon**](/windows/win32/Shellapi/nf-shellapi-duplicateicon?branch=master) function makes an actual copy of the icon.
 
  
 

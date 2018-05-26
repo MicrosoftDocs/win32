@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth LE device appearance.'
-ms.assetid: 'f4c65c7b-9896-4b6a-9ee7-6e4869f56b39'
-title: 'System.Devices.Aep.Bluetooth.Le.Appearance.Category'
+Description: Bluetooth LE device appearance.
+ms.assetid: f4c65c7b-9896-4b6a-9ee7-6e4869f56b39
+title: System.Devices.Aep.Bluetooth.Le.Appearance.Category
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Bluetooth.Le.Appearance.Category

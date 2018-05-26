@@ -1,8 +1,32 @@
 ---
 title: Acquiring Licenses
 description: Acquiring Licenses
-ms.assetid: 'dde33d57-6c63-4e1a-8398-5db466fb22fa'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,acquiring licenses", "Windows Media Format SDK,licenses", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "digital rights management (DRM),acquiring licenses", "DRM (digital rights management),acquiring licenses", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "DRM Client Extended APIs,acquiring licenses", "Client Extended APIs,acquiring licenses"]
+ms.assetid: dde33d57-6c63-4e1a-8398-5db466fb22fa
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,acquiring licenses
+- Windows Media Format SDK,licenses
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- digital rights management (DRM),acquiring licenses
+- DRM (digital rights management),acquiring licenses
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- DRM Client Extended APIs,acquiring licenses
+- Client Extended APIs,acquiring licenses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Acquiring Licenses

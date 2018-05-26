@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FilterFinished method reports that a filter is finished processing.'
-ms.assetid: '6393b959-f67a-42e8-bb2b-e830bcf0d45f'
-title: 'IPrintPipelineManagerControl::FilterFinished method'
+---
+Description: The FilterFinished method reports that a filter is finished processing.
+ms.assetid: 6393b959-f67a-42e8-bb2b-e830bcf0d45f
+title: IPrintPipelineManagerControlFilterFinished method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineManagerControl::FilterFinished method

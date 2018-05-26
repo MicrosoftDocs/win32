@@ -1,6 +1,11 @@
-﻿---
-Description: 'Called when a Shell window''s registration is revoked.'
-title: 'DShellWindowsEvents.WindowRevoked method'
+---
+Description: Called when a Shell windows registration is revoked.
+title: DShellWindowsEvents.WindowRevoked method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DShellWindowsEvents.WindowRevoked method
@@ -37,7 +42,7 @@ This method does not return a value.
 
 ## Remarks
 
-A window is granted a cookie when it is registered as a Shell window. For more information, see [**Register**](ishellwindows-register.md).
+A window is granted a cookie when it is registered as a Shell window. For more information, see [**Register**](/windows/win32/Exdisp/nf-exdisp-ishellwindows-register?branch=master).
 
 ## Requirements
 
@@ -60,7 +65,7 @@ A window is granted a cookie when it is registered as a Shell window. For more i
 [**WindowRegistered**](dshellwindowsevents-windowregistered.md)
 </dt> <dt>
 
-[**Revoke**](ishellwindows-revoke.md)
+[**Revoke**](/windows/win32/Exdisp/nf-exdisp-ishellwindows-revoke?branch=master)
 </dt> </dl>
 
  

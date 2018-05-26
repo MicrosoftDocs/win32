@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE30 validates that the installation of components containing the same file never installs the file more than once in the same directory.'
-ms.assetid: '74cb455b-a53e-4c6b-98ff-08cf0858f11f'
+---
+Description: ICE30 validates that the installation of components containing the same file never installs the file more than once in the same directory.
+ms.assetid: 74cb455b-a53e-4c6b-98ff-08cf0858f11f
 title: ICE30
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE30

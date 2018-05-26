@@ -1,7 +1,12 @@
 ---
 Description: Implementing IWICBitmapEncoder
-ms.assetid: 'b671e941-ded6-4bde-bc4d-461f13feade0'
+ms.assetid: b671e941-ded6-4bde-bc4d-461f13feade0
 title: Implementing IWICBitmapEncoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapEncoder
@@ -24,7 +29,7 @@ title: Implementing IWICBitmapEncoder
 -   [Commit](#commit)
 -   [SetPreview](#setpreview)
 
-This interface is the counterpart to the [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) interface and is the starting point for encoding an image file. Just as **IWICBitmapDecoder** is used for retrieving container-level properties and individual frames from the image container, [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) is used for setting container-level properties and serializing individual image frames into the container. You implement this interface on your container-level encoder class.
+This interface is the counterpart to the [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) interface and is the starting point for encoding an image file. Just as **IWICBitmapDecoder** is used for retrieving container-level properties and individual frames from the image container, [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) is used for setting container-level properties and serializing individual image frames into the container. You implement this interface on your container-level encoder class.
 
 ``` syntax
 interface IWICBitmapEncoder : public IUnknown
@@ -49,13 +54,13 @@ interface IWICBitmapEncoder : public IUnknown
 };
 ```
 
-As discussed in [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md), some image formats have global thumbnails, color contexts, or metadata, while many image formats provide these only on a per-frame basis. Therefore, the methods for setting these are optional on [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md), but are required on [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md). We’ll discuss the methods that are optional on **IWICBitmapEncoder** in the section on **IWICBitmapFrameEncode**, where they’re most commonly implemented.
+As discussed in [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md), some image formats have global thumbnails, color contexts, or metadata, while many image formats provide these only on a per-frame basis. Therefore, the methods for setting these are optional on [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master), but are required on [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master). We’ll discuss the methods that are optional on **IWICBitmapEncoder** in the section on **IWICBitmapFrameEncode**, where they’re most commonly implemented.
 
-If you don’t support global thumbnails, return WINCODEC\_ERR\_CODECNOTHUMBNAIL from the SetThumbnail method on [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md). If you don’t support a container-level palette, or if the image you are encoding doesn’t have an indexed format, return WINCODEC\_ERR\_PALETTEUNAVAILABLE from the SetPalette method. For any other unsupported methods, return WINCODEC\_ERR\_UNSUPPORTEDOPERATION.
+If you don’t support global thumbnails, return WINCODEC\_ERR\_CODECNOTHUMBNAIL from the SetThumbnail method on [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master). If you don’t support a container-level palette, or if the image you are encoding doesn’t have an indexed format, return WINCODEC\_ERR\_PALETTEUNAVAILABLE from the SetPalette method. For any other unsupported methods, return WINCODEC\_ERR\_UNSUPPORTEDOPERATION.
 
 ### Initialize
 
-[**Initialize**](-wic-codec-iwicbitmapencoder-initialize.md) is the first method invoked on an [**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md) after it has been instantiated. An image stream is passed to the encoder, and a caller may optionally specify a cache option. In the case of the decoder, the stream is read-only, but the stream passed to an encoder is a writeable stream, into which the encoder will serialize all of the image data and metadata. The cache options on the encoder are different as well.
+[**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-initialize?branch=master) is the first method invoked on an [**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master) after it has been instantiated. An image stream is passed to the encoder, and a caller may optionally specify a cache option. In the case of the decoder, the stream is read-only, but the stream passed to an encoder is a writeable stream, into which the encoder will serialize all of the image data and metadata. The cache options on the encoder are different as well.
 
 ``` syntax
 enum WICBitmapEncoderCacheOption
@@ -70,21 +75,21 @@ The application has a choice of requesting the encoder to cache the image data i
 
 ### GetContainerFormat
 
-[**GetContainerFormat**](-wic-codec-iwicbitmapencoder-getcontainerformat.md) is implemented the same way as the [GetContainerFormat](-wic-imp-iwicbitmapdecoder.md) method in [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md).
+[**GetContainerFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-getcontainerformat?branch=master) is implemented the same way as the [GetContainerFormat](-wic-imp-iwicbitmapdecoder.md) method in [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md).
 
 ### GetEncoderInfo
 
-[**GetEncoderInfo**](-wic-codec-iwicbitmapencoder-getencoderinfo.md) returns an [**IWICBitmapEncoderInfo**](-wic-codec-iwicbitmapencoderinfo.md) object. To get the **IWICBitmapEncoderInfo** object, just pass the GUID of your encoder to the [**CreateComponentInfo**](-wic-codec-iwicimagingfactory-createcomponentinfo.md) method on [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md), and then request the **IWICBitmapEncoderInfo** interface on it.
+[**GetEncoderInfo**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-getencoderinfo?branch=master) returns an [**IWICBitmapEncoderInfo**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapencoderinfo?branch=master) object. To get the **IWICBitmapEncoderInfo** object, just pass the GUID of your encoder to the [**CreateComponentInfo**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createcomponentinfo?branch=master) method on [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master), and then request the **IWICBitmapEncoderInfo** interface on it.
 
 See the example in [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md) under [GetDecoderInfo](-wic-imp-iwicbitmapdecoder.md).
 
 ### CreateNewFrame
 
-[**CreateNewFrame**](-wic-codec-iwicbitmapencoder-createnewframe.md) is the encoder counterpart of [**GetFrame**](-wic-codec-iwicbitmapdecoder-getframe.md) on [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md). This method returns an [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) object, which is the object that actually serializes the image data for a specific frame within the container.
+[**CreateNewFrame**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe?branch=master) is the encoder counterpart of [**GetFrame**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getframe?branch=master) on [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master). This method returns an [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) object, which is the object that actually serializes the image data for a specific frame within the container.
 
-One of the benefits of Windows Imaging Component (WIC) is that it provides a layer of abstraction for applications that enables them to work with all image formats in the same way. However, not all image formats are exactly the same. Some image formats have capabilities that others don’t have. For applications to be able to take advantage of those unique capabilities, it’s necessary to provide a way for the codec to expose them. This is the purpose of encoder options. If your codec supports any encoder options, you should create an [IPropertyBag2](http://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx) object that exposes the encoder options you support, and return it in the *ppIEncoderOptions* parameter of this method. The caller can then use this IPropertyBag2 object to determine what encoder options your codec supports. If the caller wants to specify values for any of the supported encoder options, they will assign the value to the relevant property in the IPropertyBag2 object and pass it to the newly created [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md) object in its Initialize method.
+One of the benefits of Windows Imaging Component (WIC) is that it provides a layer of abstraction for applications that enables them to work with all image formats in the same way. However, not all image formats are exactly the same. Some image formats have capabilities that others don’t have. For applications to be able to take advantage of those unique capabilities, it’s necessary to provide a way for the codec to expose them. This is the purpose of encoder options. If your codec supports any encoder options, you should create an [IPropertyBag2](http://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx) object that exposes the encoder options you support, and return it in the *ppIEncoderOptions* parameter of this method. The caller can then use this IPropertyBag2 object to determine what encoder options your codec supports. If the caller wants to specify values for any of the supported encoder options, they will assign the value to the relevant property in the IPropertyBag2 object and pass it to the newly created [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master) object in its Initialize method.
 
-To instantiate an [IPropertyBag2](http://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx) object, you first need to create a PROPBAG2 struct to specify each encoder option your encoder supports and its data type for each property. Then you must implement an IPropertyBag2 object that enforces the value ranges for each property on write, and reconciles any conflicting or overlapping values. For simple sets of non-conflicting encoder options, you can invoke the [**CreateEncoderPropertyBag**](-wic-codec-iwiccomponentfactory-createencoderpropertybag.md) method, which will create a simple IPropertyBag2 object using the properties you specify in your PROPBAG2 struct. You must still enforce the value ranges. For more advanced encoder options, or if you need to reconcile conflicting values, you should write your own IPropertyBag2 implementation.
+To instantiate an [IPropertyBag2](http://msdn.microsoft.com/en-us/library/Aa768192(VS.85).aspx) object, you first need to create a PROPBAG2 struct to specify each encoder option your encoder supports and its data type for each property. Then you must implement an IPropertyBag2 object that enforces the value ranges for each property on write, and reconciles any conflicting or overlapping values. For simple sets of non-conflicting encoder options, you can invoke the [**CreateEncoderPropertyBag**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createencoderpropertybag?branch=master) method, which will create a simple IPropertyBag2 object using the properties you specify in your PROPBAG2 struct. You must still enforce the value ranges. For more advanced encoder options, or if you need to reconcile conflicting values, you should write your own IPropertyBag2 implementation.
 
 
 ```C++
@@ -132,13 +137,13 @@ Note that encoders are not limited to the canonical encoder options. The purpose
 
 ### Commit
 
-[**Commit**](-wic-codec-iwicbitmapencoder-commit.md) is the method you call after all the image data and metadata have been serialized into the stream. You should use this method to serialize the Preview image data into the stream, and any global thumbnails, metadata, palette, or other items, if applicable. This method should not close the file stream, because the application that opened the stream is expected to close it.
+[**Commit**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-commit?branch=master) is the method you call after all the image data and metadata have been serialized into the stream. You should use this method to serialize the Preview image data into the stream, and any global thumbnails, metadata, palette, or other items, if applicable. This method should not close the file stream, because the application that opened the stream is expected to close it.
 
 The section on the IWICBitmapFrameEncode:Commit method has details on how the IWICBitmapEncoderCacheOptions affect the behavior of this method.
 
 ### SetPreview
 
-[**SetPreview**](-wic-codec-iwicbitmapencoder-setpreview.md) is used to create a preview of the image. While it is not strictly required that every image have a preview, it is highly recommended. Modern digital cameras and scanners generate very high resolution images, which tend to be very large and, consequently, take significant processing time to decode. Images from the next generation of cameras will be even larger. It’s a good idea to provide a smaller, lower resolution version of an image, typically in JPEG format, that can be quickly decoded and displayed “instantly” when a user requests it. An application may request a preview before requesting the actual image to be decoded to provide a better experience for users, and show them a screen-size representation of the image while theyare waiting to decode the actual image. Although codecs should provide previews, codecs that do not support [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) should definitely do so.
+[**SetPreview**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapencoder-setpreview?branch=master) is used to create a preview of the image. While it is not strictly required that every image have a preview, it is highly recommended. Modern digital cameras and scanners generate very high resolution images, which tend to be very large and, consequently, take significant processing time to decode. Images from the next generation of cameras will be even larger. It’s a good idea to provide a smaller, lower resolution version of an image, typically in JPEG format, that can be quickly decoded and displayed “instantly” when a user requests it. An application may request a preview before requesting the actual image to be decoded to provide a better experience for users, and show them a screen-size representation of the image while theyare waiting to decode the actual image. Although codecs should provide previews, codecs that do not support [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) should definitely do so.
 
 If you provide a JPEG preview, you don’t have to write a JPEG encoder to encode it. You should delegate to the JPEG encoder that ships with the WIC platform for encoding both previews and thumbnails.
 
@@ -149,10 +154,10 @@ If you provide a JPEG preview, you don’t have to write a JPEG encoder to encod
 **Reference**
 </dt> <dt>
 
-[**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md)
+[**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master)
 </dt> <dt>
 
-[**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md)
+[**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master)
 </dt> <dt>
 
 **Conceptual**

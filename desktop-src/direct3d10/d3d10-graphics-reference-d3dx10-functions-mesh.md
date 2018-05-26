@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX supplies the following mesh functions.'
-ms.assetid: '751f5ba8-be12-4ed7-9d26-638a01cf6c45'
+Description: D3DX supplies the following mesh functions.
+ms.assetid: 751f5ba8-be12-4ed7-9d26-638a01cf6c45
 title: Mesh Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mesh Functions

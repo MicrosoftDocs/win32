@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Title property.'
-ms.assetid: '84da345e-ec03-48fe-8fda-043b706e4e1c'
-title: 'System.Title Photo Metadata Policy'
+Description: The photo metadata policy for the System.Title property.
+ms.assetid: 84da345e-ec03-48fe-8fda-043b706e4e1c
+title: System.Title Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Title Photo Metadata Policy

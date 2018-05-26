@@ -1,7 +1,12 @@
 ---
 Description: Enumerating Service Content
-ms.assetid: '4af4201c-d3f6-4630-91ec-6509c51871a5'
+ms.assetid: 4af4201c-d3f6-4630-91ec-6509c51871a5
 title: Enumerating Service Content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Service Content
@@ -13,9 +18,9 @@ After your application opens a service, it can begin performing service-related 
 |                                                                      |                                                                                                  |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Interface                                                            | Description                                                                                      |
-| [**IPortableDeviceService**](iportabledeviceservice.md)             | Used to retrieve the IPortableDeviceContent2 interface to access content on the service.         |
-| [**IPortableDeviceContent2**](iportabledevicecontent2.md)           | Used to retrieve the IEnumPortableDeviceObjectIDs interface to enumerate objects on the service. |
-| [**IEnumPortableDeviceObjectIDs**](ienumportabledeviceobjectids.md) | Used to enumerate objects on the service.                                                        |
+| [**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)             | Used to retrieve the IPortableDeviceContent2 interface to access content on the service.         |
+| [**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)           | Used to retrieve the IEnumPortableDeviceObjectIDs interface to enumerate objects on the service. |
+| [**IEnumPortableDeviceObjectIDs**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids?branch=master) | Used to enumerate objects on the service.                                                        |
 
 
 
@@ -23,9 +28,9 @@ After your application opens a service, it can begin performing service-related 
 
 The content enumeration code is found in the ContentEnumeration.cpp module. This code resides in the **EnumerateAllContent** and the **RecursiveEnumerate** methods. The former method calls the latter.
 
-The **EnumerateContent** method takes a pointer to an [**IPortableDeviceService**](iportabledeviceservice.md) object as its one parameter. This object corresponds to a service that the application opened earlier when it called the [**IPortableDeviceService::Open**](iportabledeviceservice-open.md) method.
+The **EnumerateContent** method takes a pointer to an [**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master) object as its one parameter. This object corresponds to a service that the application opened earlier when it called the [**IPortableDeviceService::Open**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open?branch=master) method.
 
-The **EnumerateContent** method creates an [**IPortableDeviceContent2**](iportabledevicecontent2.md) object and passes this object to the [**IPortableDeviceService::Content**](iportabledeviceservice-content.md) method. This method, in turn, retrieves the content at the root level of the service, and then recursively begins to retrieve content found beneath the root.
+The **EnumerateContent** method creates an [**IPortableDeviceContent2**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master) object and passes this object to the [**IPortableDeviceService::Content**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content?branch=master) method. This method, in turn, retrieves the content at the root level of the service, and then recursively begins to retrieve content found beneath the root.
 
 The following code corresponds to the **EnumerateContent** method.
 
@@ -121,13 +126,13 @@ void RecursiveEnumerate(
 
 <dl> <dt>
 
-[**IEnumPortableDeviceObjectIDs**](ienumportabledeviceobjectids.md)
+[**IEnumPortableDeviceObjectIDs**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent2 Interface**](iportabledevicecontent2.md)
+[**IPortableDeviceContent2 Interface**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceService Interface**](iportabledeviceservice.md)
+[**IPortableDeviceService Interface**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)
 </dt> <dt>
 
 [Opening a Service](opening-a-service.md)

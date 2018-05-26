@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the data type of the value associated with a TAG.'
-ms.assetid: '009ad522-35da-4053-a7f6-61d7d240b98c'
+---
+Description: Describes the data type of the value associated with a TAG.
+ms.assetid: 009ad522-35da-4053-a7f6-61d7d240b98c
 title: TAG Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TAG Types

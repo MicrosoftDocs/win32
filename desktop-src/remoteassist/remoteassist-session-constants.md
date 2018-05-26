@@ -1,7 +1,7 @@
 ---
 title: Session Constants
 description: Session Constants
-ms.assetid: 'fcfd9a07-c968-401f-b0c1-58beb4a9d437'
+ms.assetid: fcfd9a07-c968-401f-b0c1-58beb4a9d437
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - RendezvousSession.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session Constants
@@ -34,16 +39,16 @@ api_type:
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                             |
 | Header<br/>                   | <dl> <dt>RendezvousSession.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RendezvousSession.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

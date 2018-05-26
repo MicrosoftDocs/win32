@@ -2,13 +2,16 @@
 title: Add method of the PS\_BgpRouter class
 description: Adds a new BGP router to the specified tenant.
 audience: developer
-ms.assetid: '422cd005-edd7-49f5-ba3b-6d01bb5d5394'
-ms.prod: 'windows-server-dev'
+ms.assetid: 422cd005-edd7-49f5-ba3b-6d01bb5d5394
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_BgpRouter class", "PS_BgpRouter class, Add method"]
+keywords:
+- Add method
+- Add method, PS_BgpRouter class
+- PS_BgpRouter class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_BgpRouter class
@@ -28,20 +34,20 @@ Adds a new BGP router to the specified tenant.
 
 ```mof
 uint32 Add(
-  [in]  string          BgpIdentifier,
-  [in]  uint32          LocalASN,
-  [in]  uint32          IPv6Routing,
-  [in]  boolean         CompareMEDAcrossASN,
-  [in]  boolean         DefaultGatewayRouting,
-  [in]  boolean         PassThru,
-  [in]  boolean         Force,
-  [in]  string          RoutingDomain,
-  [in]  string          LocalIPv6Address,
-  [in]  uint32          TransitRouting,
-  [in]  uint32          RouteReflector,
-  [in]  uint32          ClusterId,
-  [in]  uint32          ClientToClientReflection,
-  [out] BgpRouterConfig cmdletOutput
+  [in]  string          BgpIdentifier,
+  [in]  uint32          LocalASN,
+  [in]  uint32          IPv6Routing,
+  [in]  boolean         CompareMEDAcrossASN,
+  [in]  boolean         DefaultGatewayRouting,
+  [in]  boolean         PassThru,
+  [in]  boolean         Force,
+  [in]  string          RoutingDomain,
+  [in]  string          LocalIPv6Address,
+  [in]  uint32          TransitRouting,
+  [in]  uint32          RouteReflector,
+  [in]  uint32          ClusterId,
+  [in]  uint32          ClientToClientReflection,
+  [out] BgpRouterConfig cmdletOutput
 );
 ```
 
@@ -98,7 +104,7 @@ Indicates whether the *cmdletOutput* parameter returns an object. **True** to re
 
 Set **True** for no confirmation prompt before adding the configuration for the router.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -121,7 +127,7 @@ The IPv6 IP address of the next-hop value for IPv6 route advertisements.
 
 whether Transit routing is enabled .
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -130,7 +136,7 @@ whether Transit routing is enabled .
 
 Whether the BGP router acts as a route reflector.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -139,7 +145,7 @@ Whether the BGP router acts as a route reflector.
 
 The cluster id of the route reflector.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -148,7 +154,7 @@ The cluster id of the route reflector.
 
 Whether client to client reflection is enabled.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -166,7 +172,7 @@ The [**BgpRouterConfig**](bgprouterconfig.md) object that receives the new BGP r
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -180,9 +186,9 @@ The [**BgpRouterConfig**](bgprouterconfig.md) object that receives the new BGP r
 [**PS\_BgpRouter**](ps-bgprouter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI system classes are a collection of predefined classes based on the Common Information Model (CIM).'
+Description: The WMI system classes are a collection of predefined classes based on the Common Information Model (CIM).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1a0323af-7c87-4016-9041-480518f3870a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1a0323af-7c87-4016-9041-480518f3870a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI System Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI System Classes
@@ -50,7 +53,7 @@ The following table lists the various system classes.
 | [**\_\_EventProviderCacheControl**](--eventprovidercachecontrol.md)                 | Controls when an event provider is unloaded.                                                                                                                                                         |
 | [**\_\_EventProviderRegistration**](--eventproviderregistration.md)                 | Registers event providers with WMI.                                                                                                                                                                  |
 | [**\_\_EventQueueOverflowEvent**](--eventqueueoverflowevent.md)                     | Reports when an event is dropped as a result of delivery queue overflow.                                                                                                                             |
-| [**\_\_EventSinkCacheControl**](--eventsinkcachecontrol.md)                         | Used to determine when WMI releases an event consumer provider's [**IWbemUnboundObjectSink**](iwbemunboundobjectsink.md) pointer.                                                                   |
+| [**\_\_EventSinkCacheControl**](--eventsinkcachecontrol.md)                         | Used to determine when WMI releases an event consumer provider's [**IWbemUnboundObjectSink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemunboundobjectsink?branch=master) pointer.                                                                   |
 | [**\_\_ExtendedStatus**](--extendedstatus.md)                                       | Used to report detailed status and error information.                                                                                                                                                |
 | [**\_\_ExtrinsicEvent**](--extrinsicevent.md)                                       | Serves as a parent class for all user-defined event types, also known as [extrinsic events](determining-the-type-of-event-to-receive.md).                                                           |
 | [**\_\_FilterToConsumerBinding**](--filtertoconsumerbinding.md)                     | Used in the registration of permanent event consumers to relate an instance of the of [**\_\_EventConsumer**](--eventconsumer.md) to an instance of [**\_\_EventFilter**](--eventfilter.md).       |

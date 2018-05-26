@@ -1,14 +1,17 @@
 ---
 title: MMCDisplayObject.MouseOverBitmap property
-description: The MouseOverBitmap property returns a null-terminated string that contains the resource path to the image file for the image displayed for the task when the user moves the mouse over the task's image or text area.
+description: The MouseOverBitmap property returns a null-terminated string that contains the resource path to the image file for the image displayed for the task when the user moves the mouse over the tasks image or text area.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4567748-1729-4c72-b387-663d00dd4e45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a4567748-1729-4c72-b387-663d00dd4e45
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MouseOverBitmap property MMC", "MouseOverBitmap property MMC , MMCDisplayObject object", "MMCDisplayObject object MMC , MouseOverBitmap property"]
+keywords:
+- MouseOverBitmap property MMC
+- MouseOverBitmap property MMC , MMCDisplayObject object
+- MMCDisplayObject object MMC , MouseOverBitmap property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCDisplayObject.MouseOverBitmap property
@@ -59,9 +65,9 @@ If **MouseOverBitmap** points to a **NULL** string, [**MouseOffBitmap**](mouseof
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,16 @@ title: S
 description: Definitions of OpenGL terms that begin with the letter S.
 Robots: noindex, nofollow
 ms.assetid: 17fb131d-dd0f-4c9a-808d-001563ca0d88
-keywords: ["servers", "shading", "single buffering", "stipple"]
+keywords:
+- servers
+- shading
+- single buffering
+- stipple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S

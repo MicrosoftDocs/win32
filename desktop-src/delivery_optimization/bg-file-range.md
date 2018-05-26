@@ -1,8 +1,9 @@
 ---
 title: BG\_FILE\_RANGE structure
 description: The BG\_FILE\_RANGE structure identifies a range of bytes to download from a file.
-ms.assetid: '58993C51-E42E-4E44-9E8A-15E982B25413'
-keywords: ["BG_FILE_RANGE structure"]
+ms.assetid: 58993C51-E42E-4E44-9E8A-15E982B25413
+keywords:
+- BG_FILE_RANGE structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_FILE\_RANGE structure
@@ -57,7 +63,7 @@ The range must exist in the file or DO generates an **DO\_E\_INVALID\_RANGE** er
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -70,9 +76,9 @@ The range must exist in the file or DO generates an **DO\_E\_INVALID\_RANGE** er
 [**IBackgroundCopyFile2::GetFileRanges**](ibackgroundcopyfile2-getfileranges-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

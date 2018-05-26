@@ -1,7 +1,12 @@
 ---
 Description: Encoder and Decoder Development
-ms.assetid: '075aaf0f-63c6-4286-966e-fdc72d0acb6e'
+ms.assetid: 075aaf0f-63c6-4286-966e-fdc72d0acb6e
 title: Encoder and Decoder Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoder and Decoder Development

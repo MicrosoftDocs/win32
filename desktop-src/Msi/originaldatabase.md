@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Installer sets the OriginalDatabase property to the path of the installation database used to launch the installation.'
-ms.assetid: '985c70a4-1575-4226-a8c2-a7a21f7a0dbd'
+---
+Description: The Windows Installer sets the OriginalDatabase property to the path of the installation database used to launch the installation.
+ms.assetid: 985c70a4-1575-4226-a8c2-a7a21f7a0dbd
 title: OriginalDatabase property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OriginalDatabase property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Guid property is a null-terminated string that contains the GUID that uniquely identifies the fax routing method.'
-ms.assetid: '3108d8db-cdcf-4d5a-8e1e-caf93be6ed94'
-title: 'FaxRoutingMethod.Guid property'
+---
+Description: The Guid property is a null-terminated string that contains the GUID that uniquely identifies the fax routing method.
+ms.assetid: 3108d8db-cdcf-4d5a-8e1e-caf93be6ed94
+title: FaxRoutingMethod.Guid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.Guid property
@@ -55,10 +60,10 @@ A fax client application can use the **Guid** property to uniquely identify a fa
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**FriendlyName**](-mfax-ifaxroutingmethod-get-friendlyname-vb.md)

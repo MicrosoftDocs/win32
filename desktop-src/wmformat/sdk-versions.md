@@ -1,8 +1,14 @@
 ---
 title: SDK Versions
 description: SDK Versions
-ms.assetid: '60aa5235-8983-4ccd-85ce-4e47e76a2a70'
-keywords: ["Windows Media Format SDK,versions"]
+ms.assetid: 60aa5235-8983-4ccd-85ce-4e47e76a2a70
+keywords:
+- Windows Media Format SDK,versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SDK Versions

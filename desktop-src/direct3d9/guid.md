@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a GUID that can be used in other templates.'
-ms.assetid: 'dbfdd307-310f-4c80-b4aa-f16a81a9a372'
+Description: Defines a GUID that can be used in other templates.
+ms.assetid: dbfdd307-310f-4c80-b4aa-f16a81a9a372
 title: Guid
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guid

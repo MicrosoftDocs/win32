@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the first parameter (P1) byte of the application protocol data unit (APDU).'
-ms.assetid: '359df5cc-10a7-4093-9a77-f3eb0b98545a'
-title: 'ISCardCmd::put\_P1 method'
+---
+Description: Sets the first parameter (P1) byte of the application protocol data unit (APDU).
+ms.assetid: 359df5cc-10a7-4093-9a77-f3eb0b98545a
+title: ISCardCmdput\_P1 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::put\_P1 method

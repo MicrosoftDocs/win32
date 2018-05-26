@@ -1,14 +1,20 @@
 ---
 title: Codec Concepts
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: 'fc7da253-fb01-4f92-ac08-03e2f2a3ad9f'
-keywords: ["Codec Concepts windows Media Format"]
+ms.assetid: fc7da253-fb01-4f92-ac08-03e2f2a3ad9f
+keywords:
+- Codec Concepts windows Media Format
 topic_type:
 - apiref
 api_name:
 - Codec Concepts
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Codec Concepts

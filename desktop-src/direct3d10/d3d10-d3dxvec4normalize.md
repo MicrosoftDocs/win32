@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the normalized version of a 4D vector.'
-ms.assetid: 'ed3c48cf-4985-4ef3-b733-f8532e3ff6b5'
+---
+Description: Returns the normalized version of a 4D vector.
+ms.assetid: ed3c48cf-4985-4ef3-b733-f8532e3ff6b5
 title: D3DXVec4Normalize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Normalize function

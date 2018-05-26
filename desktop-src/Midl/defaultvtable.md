@@ -2,13 +2,19 @@
 title: defaultvtable attribute
 description: The \ defaultvtable\ attribute defines an interface as the default Vtable interface.
 ms.assetid: 05e50935-c630-4f9e-a7ec-3bb70a9834f1
-keywords: ["defaultvtable attribute MIDL"]
+keywords:
+- defaultvtable attribute MIDL
 topic_type:
 - apiref
 api_name:
 - defaultvtable
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultvtable attribute

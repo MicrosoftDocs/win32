@@ -1,7 +1,12 @@
 ---
-Description: 'The following classes are declared and associated with class identifiers (CLSIDs) in wmcodecdsp.h.'
-ms.assetid: 'f82d92dc-fbce-4274-a10f-72fa8dd776cc'
+Description: The following classes are declared and associated with class identifiers (CLSIDs) in wmcodecdsp.h.
+ms.assetid: f82d92dc-fbce-4274-a10f-72fa8dd776cc
 title: Class Identifiers for Table of Contents Parser
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Class Identifiers for Table of Contents Parser
@@ -21,7 +26,7 @@ The following classes are declared and associated with class identifiers (CLSIDs
 
 
 
- 
+ 
 
 The preceding table gives a friendly object name for each class. This documentation uses those friendly names to refer to instances of the classes. For example, the documentation refers to an instance of the CTocEntry class as a TOC Entry object.
 
@@ -50,7 +55,7 @@ As an alternative to using **\_\_uuidof**, you can use constants to refer to the
 
 
 
- 
+ 
 
 ### CLSID Constants Defined in Wmcodecdspuuid.lib
 
@@ -64,7 +69,7 @@ The following CLSID constant is declared, but not defined, in wmcodecdsp.h. To u
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,8 +77,8 @@ The following CLSID constant is declared, but not defined, in wmcodecdsp.h. To u
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmvdspa.dll</dt> </dl>  |
 
@@ -86,9 +91,9 @@ The following CLSID constant is declared, but not defined, in wmcodecdsp.h. To u
 [Table of Contents Parser Objects](toc-parser-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

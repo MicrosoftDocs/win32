@@ -1,14 +1,20 @@
 ---
 title: Server (sendEmailType) Element
 description: Contains the email server used to send the email message.
-ms.assetid: '4c6084d1-70c5-4d8b-8fcb-ab4cd8aab441'
-keywords: ["Server element Task Scheduler"]
+ms.assetid: 4c6084d1-70c5-4d8b-8fcb-ab4cd8aab441
+keywords:
+- Server element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Server
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server (sendEmailType) Element
@@ -35,7 +41,7 @@ The **Server** element is defined by the [**sendEmailType**](taskschedulerschema
 
 ## Remarks
 
-For C++ development, see [**Server Property of IEmailAction**](iemailaction-server.md).
+For C++ development, see [**Server Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_server?branch=master).
 
 For script development, see [**EmailAction.Server**](emailaction-server.md).
 
@@ -45,14 +51,14 @@ For script development, see [**EmailAction.Server**](emailaction-server.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

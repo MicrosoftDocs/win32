@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to use the VSS interfaces to create a VSS hardware provider.'
-ms.assetid: '4d3c3f3c-22d2-4246-afef-aee2a0bd52d6'
+Description: Shows how to use the VSS interfaces to create a VSS hardware provider.
+ms.assetid: 4d3c3f3c-22d2-4246-afef-aee2a0bd52d6
 title: VssSampleProvider Tool and Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VssSampleProvider Tool and Sample

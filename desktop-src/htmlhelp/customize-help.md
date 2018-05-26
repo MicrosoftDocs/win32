@@ -1,7 +1,12 @@
 ---
 title: Customize Help
 description: Customize Help
-ms.assetid: 'A85FCA90-89AC-4201-810F-2530179FF5DA'
+ms.assetid: A85FCA90-89AC-4201-810F-2530179FF5DA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customize Help

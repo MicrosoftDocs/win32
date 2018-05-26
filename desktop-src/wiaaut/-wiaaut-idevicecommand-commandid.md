@@ -1,8 +1,11 @@
 ---
 title: DeviceCommand.CommandID property
 description: Retrieves the CommandID Constants for this DeviceCommand.
-ms.assetid: '891b86fd-1701-4f93-a495-3a7371f0274c'
-keywords: ["CommandID property WIA Automation", "CommandID property WIA Automation , DeviceCommand object", "DeviceCommand object WIA Automation , CommandID property"]
+ms.assetid: 891b86fd-1701-4f93-a495-3a7371f0274c
+keywords:
+- CommandID property WIA Automation
+- CommandID property WIA Automation , DeviceCommand object
+- DeviceCommand object WIA Automation , CommandID property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceCommand.CommandID property
@@ -43,8 +51,8 @@ For example code, see [Enumerate Supported Commands in Commands Collection](-wia
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -69,9 +77,9 @@ For example code, see [Enumerate Supported Commands in Commands Collection](-wia
 [**ExecuteCommand (Item)**](-wiaaut-iitem-executecommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

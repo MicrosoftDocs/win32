@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PERFINFO\_DSHOW\_AVREND structure contains data for a trace event of type GUID\_VIDEOREND.The VMR logs this event immediately before rendering a frame.'
-ms.assetid: '95deda21-0ef4-4bf0-9fa3-826a813757b9'
-title: 'PERFINFO\_DSHOW\_AVREND structure'
+---
+Description: The PERFINFO\_DSHOW\_AVREND structure contains data for a trace event of type GUID\_VIDEOREND.The VMR logs this event immediately before rendering a frame.
+ms.assetid: 95deda21-0ef4-4bf0-9fa3-826a813757b9
+title: PERFINFO\_DSHOW\_AVREND structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PERFINFO\_DSHOW\_AVREND structure
@@ -37,7 +42,7 @@ Latest clock cycle count (RDTSC instruction).
 **dshowClock**
 </dt> <dd>
 
-Current reference time, as returned by the [**IReferenceClock::GetTime**](ireferenceclock-gettime.md) method.
+Current reference time, as returned by the [**IReferenceClock::GetTime**](/windows/win32/Strmif/nf-strmif-ireferenceclock-gettime?branch=master) method.
 
 </dd> <dt>
 

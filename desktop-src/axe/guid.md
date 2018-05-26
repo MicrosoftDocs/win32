@@ -1,14 +1,20 @@
 ---
 title: Guid element
 description: Each job requires a unique identity represented by a GUID .
-ms.assetid: '2D4A44B6-9EC4-4320-8A47-95345362C4FC'
-keywords: ["Guid element Access Execution Engine"]
+ms.assetid: 2D4A44B6-9EC4-4320-8A47-95345362C4FC
+keywords:
+- Guid element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Guid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guid element
@@ -72,9 +78,9 @@ Note that the GUID property will always be read only as it is initialized on whe
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

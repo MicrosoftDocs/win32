@@ -1,7 +1,12 @@
 ---
-Description: 'The OnReceiveMessage method is called when the dialog box receives a message.'
-ms.assetid: 'ea93500d-fd0f-4820-a54a-a186c40899ad'
-title: 'CBasePropertyPage.OnReceiveMessage method'
+Description: The OnReceiveMessage method is called when the dialog box receives a message.
+ms.assetid: ea93500d-fd0f-4820-a54a-a186c40899ad
+title: CBasePropertyPage.OnReceiveMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.OnReceiveMessage method
@@ -13,10 +18,10 @@ The `OnReceiveMessage` method is called when the dialog box receives a message.
 
 ```C++
 virtual INT_PTR OnReceiveMessage(
-   HWND   hwnd,
-   UINT   uMsg,
-   WPARAM wParam,
-   LPARAM lParam
+   HWND   hwnd,
+   UINT   uMsg,
+   WPARAM wParam,
+   LPARAM lParam
 );
 ```
 
@@ -120,9 +125,9 @@ void CMyProp::SetDirty()
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

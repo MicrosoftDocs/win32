@@ -4,17 +4,21 @@ description: Document tracking notification type.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '87762103-F048-4F9B-8CDC-982FE3F430AA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 87762103-F048-4F9B-8CDC-982FE3F430AA
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSNotificationType enum"]
+keywords:
+- MSNotificationType enum
 topic_type:
 - apiref
 api_name:
 - MSNotificationType enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSNotificationType enum
@@ -43,7 +47,7 @@ typedef NS_ENUM(NSUInteger, MSNotificationType) {
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -59,11 +63,11 @@ MSMSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

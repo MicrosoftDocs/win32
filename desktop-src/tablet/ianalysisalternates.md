@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a collection of objects that implement the IAnalysisAlternate interface and that are the result of ink analysis.'
-ms.assetid: '53802a62-4425-40fd-bf48-0da55ea8ffbe'
+Description: Contains a collection of objects that implement the IAnalysisAlternate interface and that are the result of ink analysis.
+ms.assetid: 53802a62-4425-40fd-bf48-0da55ea8ffbe
 title: IAnalysisAlternates interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisAlternates interface
@@ -27,7 +32,7 @@ The **IAnalysisAlternates** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -65,9 +70,9 @@ This interface is equivalent to the [**System.Windows.Ink.AnalysisCore.AnalysisA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

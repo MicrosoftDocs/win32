@@ -1,7 +1,12 @@
 ---
 title: Speech Engine Selection
 description: Speech Engine Selection
-ms.assetid: 'f5afedc6-093f-4247-a5c8-277d6b2d646c'
+ms.assetid: f5afedc6-093f-4247-a5c8-277d6b2d646c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Speech Engine Selection

@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial shows how to play media files using the Media Session object.'
-ms.assetid: 'cdd67082-8153-4f48-abc5-278be82ae082'
+Description: This tutorial shows how to play media files using the Media Session object.
+ms.assetid: cdd67082-8153-4f48-abc5-278be82ae082
 title: How to Play Media Files with Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Play Media Files with Media Foundation
@@ -38,19 +43,19 @@ The following objects are used to play a media file with the Media Session:
 
 The following is a general outline of the steps needed to play a media file using the Media Session:
 
-1.  Call the [**MFStartup**](mfstartup.md) function to initialize the Media Foundation platform.
-2.  Call [**MFCreateMediaSession**](mfcreatemediasession.md) to create a new instance of the Media Session.
+1.  Call the [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) function to initialize the Media Foundation platform.
+2.  Call [**MFCreateMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatemediasession?branch=master) to create a new instance of the Media Session.
 3.  Use the source resolver to create a media source. For more information, see [Using the Source Resolver](using-the-source-resolver.md).
 4.  Create a topology that connects the media source to the EVR and SAR. In this step, the application creates a *partial* topology that does not include the decoders. For more information, see [Creating Playback Topologies](creating-playback-topologies.md).
-5.  Call [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) to set the topology on the Media Session.
-6.  Use the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface to get events from the Media Session.
-7.  Call [**IMFMediaSession::Start**](imfmediasession-start.md) to start playback. After playback starts, you can pause it by calling [**IMFMediaSession::Pause**](imfmediasession-pause.md), or stop it by calling [**IMFMediaSession::Stop**](imfmediasession-stop.md).
+5.  Call [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) to set the topology on the Media Session.
+6.  Use the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface to get events from the Media Session.
+7.  Call [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) to start playback. After playback starts, you can pause it by calling [**IMFMediaSession::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasession-pause?branch=master), or stop it by calling [**IMFMediaSession::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasession-stop?branch=master).
 8.  When the application exits, release resources:
 
-    1.  Call [**IMFMediaSession::Close**](imfmediasession-close.md) to close the Media Session. This method is asynchronous. When it completes, the Media Session sends an [MESessionClosed](mesessionclosed.md) event. Then it is safe to perform the remaining steps.
-    2.  Call [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md) to shut down the media source.
-    3.  Call [**IMFMediaSession::Shutdown**](imfmediasession-shutdown.md) to shut down the Media Session.
-    4.  Call [**MFShutdown**](mfshutdown.md) to shut down the Media Foundation platform.
+    1.  Call [**IMFMediaSession::Close**](/windows/win32/mfidl/nf-mfidl-imfmediasession-close?branch=master) to close the Media Session. This method is asynchronous. When it completes, the Media Session sends an [MESessionClosed](mesessionclosed.md) event. Then it is safe to perform the remaining steps.
+    2.  Call [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master) to shut down the media source.
+    3.  Call [**IMFMediaSession::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasession-shutdown?branch=master) to shut down the Media Session.
+    4.  Call [**MFShutdown**](/windows/win32/mfapi/nf-mfapi-mfshutdown?branch=master) to shut down the Media Foundation platform.
 
 The following sections show a complete code example:
 

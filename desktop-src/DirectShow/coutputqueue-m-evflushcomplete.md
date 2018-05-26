@@ -1,7 +1,12 @@
 ---
-Description: 'Event that signals when a flush operation has finished.'
-ms.assetid: 'e2640fa1-03d1-4323-a9cb-698d130929f7'
-title: 'COutputQueue::m\_evFlushComplete member'
+Description: Event that signals when a flush operation has finished.
+ms.assetid: e2640fa1-03d1-4323-a9cb-698d130929f7
+title: COutputQueuem\_evFlushComplete member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_evFlushComplete member
@@ -35,9 +40,9 @@ CAMEvent m_evFlushComplete;
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

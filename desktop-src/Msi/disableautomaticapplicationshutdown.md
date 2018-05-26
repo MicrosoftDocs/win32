@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-machine system policy is set to 1 (one), Windows Installer does not interact with Restart Manager, but it will use the FilesInUse Dialog.If this per-machine system policy is set to 2 (two), Windows Installer uses the FilesInUse Dialog.'
-ms.assetid: 'a59de5bb-e0a1-459d-83e6-afaf81298123'
+Description: If this per-machine system policy is set to 1 (one), Windows Installer does not interact with Restart Manager, but it will use the FilesInUse Dialog.If this per-machine system policy is set to 2 (two), Windows Installer uses the FilesInUse Dialog.
+ms.assetid: a59de5bb-e0a1-459d-83e6-afaf81298123
 title: DisableAutomaticApplicationShutdown
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableAutomaticApplicationShutdown

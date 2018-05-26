@@ -4,17 +4,22 @@ description: Active Directory site to which the CA computer belongs.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '62cdaa18-832d-4981-bc29-068c03dd3b09'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 62cdaa18-832d-4981-bc29-068c03dd3b09
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Site-Name attribute AD Schema", "msPKI-Site-Name attribute AD Schema"]
+keywords:
+- ms-PKI-Site-Name attribute AD Schema
+- msPKI-Site-Name attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Site-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Site-Name attribute
@@ -38,8 +43,8 @@ Active Directory site to which the CA computer belongs.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Active Directory site to which the CA computer belongs.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

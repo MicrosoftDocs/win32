@@ -1,7 +1,12 @@
 ---
-Description: 'The set of all voices, with their contained effects and their interconnections, is referred to as the audio processing graph.'
-ms.assetid: '4fa45dbf-3811-c91c-7561-3b896e9e1f03'
+Description: The set of all voices, with their contained effects and their interconnections, is referred to as the audio processing graph.
+ms.assetid: 4fa45dbf-3811-c91c-7561-3b896e9e1f03
 title: XAudio2 Audio Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Audio Graph
@@ -35,8 +40,8 @@ Audio data within the XAudio2 graph is always stored and processed in 32-bit flo
 
 | Voice Type                                                                                                      | Parameters                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**IXAudio2SourceVoice**](ixaudio2sourcevoice.md)                                                              | The channel count and sample rate of the voices to which the source voice sends audio.         |
-| [**IXAudio2SubmixVoice**](ixaudio2submixvoice.md) and [**IXAudio2MasteringVoice**](ixaudio2masteringvoice.md) | The *InputChannels* and *InputSampleRate* arguments used to create the submix/mastering voice. |
+| [**IXAudio2SourceVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master)                                                              | The channel count and sample rate of the voices to which the source voice sends audio.         |
+| [**IXAudio2SubmixVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2submixvoice?branch=master) and [**IXAudio2MasteringVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2masteringvoice?branch=master) | The *InputChannels* and *InputSampleRate* arguments used to create the submix/mastering voice. |
 
 
 

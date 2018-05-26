@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print processor''s PrintDocumentOnPrintProcessor function converts a print job from a spooled format into raw data that can be sent to a print monitor.'
-ms.assetid: '1360a699-e312-40be-bf2f-b73b1419cfc5'
+---
+Description: A print processors PrintDocumentOnPrintProcessor function converts a print job from a spooled format into raw data that can be sent to a print monitor.
+ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 title: PrintDocumentOnPrintProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintDocumentOnPrintProcessor function

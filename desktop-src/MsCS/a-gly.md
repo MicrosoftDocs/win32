@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5db7b98e-e76a-48f5-9730-23a54edc76d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5db7b98e-e76a-48f5-9730-23a54edc76d3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # A
@@ -27,7 +30,7 @@ A [*node*](n-gly.md#-wolf-node-gly) that is running and participating in cluster
 <span id="_wolf_arbitration_gly"></span><span id="_WOLF_ARBITRATION_GLY"></span>**arbitration**
 </dt> <dd>
 
-Process of obtaining ownership of the [*quorum resource*](q-gly.md#-wolf-quorum-resource-gly). A quorum resource implements the [**Arbitrate**](arbitrate.md) and [**Release**](release.md) entry point functions in its [*resource DLL*](r-gly.md#-wolf-resource-dll-gly) to support arbitration.
+Process of obtaining ownership of the [*quorum resource*](q-gly.md#-wolf-quorum-resource-gly). A quorum resource implements the [**Arbitrate**](/windows/previous-versions/ResApi/nc-resapi-parbitrate_routine?branch=master) and [**Release**](/windows/previous-versions/ResApi/nc-resapi-prelease_routine?branch=master) entry point functions in its [*resource DLL*](r-gly.md#-wolf-resource-dll-gly) to support arbitration.
 
 </dd> <dt>
 

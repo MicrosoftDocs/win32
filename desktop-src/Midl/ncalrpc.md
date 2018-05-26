@@ -2,13 +2,19 @@
 title: ncalrpc attribute
 description: The ncalrpc keyword identifies local interprocess communication as the protocol family for the endpoint. This keyword is one of the valid protocol family names that must be used with the \ endpoint\ attribute.
 ms.assetid: 0009f794-5c14-4484-9023-cb20c7030dc5
-keywords: ["ncalrpc attribute MIDL"]
+keywords:
+- ncalrpc attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncalrpc
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncalrpc attribute

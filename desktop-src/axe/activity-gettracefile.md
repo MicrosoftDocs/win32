@@ -1,8 +1,11 @@
 ---
 title: Activity GetTraceFile method
 description: Returns the trace file name of the Activity.
-ms.assetid: '21EC2A78-CF2E-4547-8B37-1DB5CC58EC46'
-keywords: ["GetTraceFile method Access Execution Engine", "GetTraceFile method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetTraceFile method"]
+ms.assetid: 21EC2A78-CF2E-4547-8B37-1DB5CC58EC46
+keywords:
+- GetTraceFile method Access Execution Engine
+- GetTraceFile method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetTraceFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetTraceFile method
@@ -22,7 +30,7 @@ Returns the trace file name of the **Activity**.
 
 ```C++
 virtual HRESULT GetTraceFile(
-  [out] LPCWSTR *traceFile
+  [out] LPCWSTR *traceFile
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The trace file name is the value of element **Activity/Trace/File**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The trace file name is the value of element **Activity/Trace/File**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

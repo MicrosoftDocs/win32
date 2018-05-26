@@ -1,7 +1,12 @@
 ---
-Description: 'Merges a child virtual hard disk in a differencing chain with one or more parent virtual hard disks in the chain.'
-ms.assetid: '10633176-F0C3-4CA0-8E7B-2B11FF93B0EA'
-title: 'MergeVirtualHardDisk method of the Msvm\_ImageManagementService class'
+Description: Merges a child virtual hard disk in a differencing chain with one or more parent virtual hard disks in the chain.
+ms.assetid: 10633176-F0C3-4CA0-8E7B-2B11FF93B0EA
+title: MergeVirtualHardDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MergeVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -15,9 +20,9 @@ If the user executing this function does not have permission to update the virtu
 
 ```mof
 uint32 MergeVirtualHardDisk(
-  [in]  string              SourcePath,
-  [in]  string              DestinationPath,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SourcePath,
+  [in]  string              DestinationPath,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -162,8 +167,8 @@ public static void MergeVirtualHardDisk(string ChildPath, string ParentPath)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -180,9 +185,9 @@ public static void MergeVirtualHardDisk(string ChildPath, string ParentPath)
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,18 @@
 ---
 title: Load methods
 description: Gets one value from a read-only buffer indexed in bytes.
-ms.assetid: '53855344-06FB-40D0-B175-95A2B63A6473'
-keywords: ["Load methods HLSL"]
+ms.assetid: 53855344-06FB-40D0-B175-95A2B63A6473
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load methods
@@ -31,9 +37,9 @@ Gets one value from a read-only buffer indexed in bytes.
 [**ByteAddressBuffer**](sm5-object-byteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

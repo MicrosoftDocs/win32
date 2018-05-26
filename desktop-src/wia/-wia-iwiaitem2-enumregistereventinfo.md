@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IWiaItem2::EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.'
-ms.assetid: '9c25e9ae-bd3e-46a6-b4c2-c0bbcd265d51'
-title: 'IWiaItem2::EnumRegisterEventInfo method'
+---
+Description: The IWiaItem2EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.
+ms.assetid: 9c25e9ae-bd3e-46a6-b4c2-c0bbcd265d51
+title: IWiaItem2EnumRegisterEventInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::EnumRegisterEventInfo method
@@ -46,9 +51,9 @@ Pointer to an identifier that specifies the hardware event for which you want to
 *ppIEnum* \[out\]
 </dt> <dd>
 
-Type: **[**IEnumWIA\_DEV\_CAPS**](-wia-ienumwia-dev-caps.md)\*\***
+Type: **[**IEnumWIA\_DEV\_CAPS**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_caps?branch=master)\*\***
 
-The address of a pointer to the [**IEnumWIA\_DEV\_CAPS**](-wia-ienumwia-dev-caps.md) interface.
+The address of a pointer to the [**IEnumWIA\_DEV\_CAPS**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_caps?branch=master) interface.
 
 </dd> </dl>
 
@@ -60,7 +65,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-An application calls this method to create an enumerator object for the event information. **IWiaItem2::EnumRegisterEventInfo** stores the address of the [**IEnumWIA\_DEV\_CAPS**](-wia-ienumwia-dev-caps.md) interface of the enumerator object in the *ppIEnum* parameter. The program then uses the interface pointer to enumerate the properties of the event for which it is registered.
+An application calls this method to create an enumerator object for the event information. **IWiaItem2::EnumRegisterEventInfo** stores the address of the [**IEnumWIA\_DEV\_CAPS**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_caps?branch=master) interface of the enumerator object in the *ppIEnum* parameter. The program then uses the interface pointer to enumerate the properties of the event for which it is registered.
 
 Applications must call the [IUnknown::Release](com.iunknown_release) method on the interface pointers that they receive through the *ppIEnum* parameter.
 

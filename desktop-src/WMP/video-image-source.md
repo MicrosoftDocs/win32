@@ -1,8 +1,18 @@
 ---
 title: Video Image Source
 description: Video Image Source
-ms.assetid: '1141826e-8f25-466c-a33e-9f491b02ee67'
-keywords: ["Windows Media Player Mobile skins,video", "skins,video", "reference for skins,video", "video in skins,image source", "image source for skins,video"]
+ms.assetid: 1141826e-8f25-466c-a33e-9f491b02ee67
+keywords:
+- Windows Media Player Mobile skins,video
+- skins,video
+- reference for skins,video
+- video in skins,image source
+- image source for skins,video
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Image Source

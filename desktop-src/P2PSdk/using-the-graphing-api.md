@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics identify solutions to common tasks for developing applications by using the Peer Graphing API.'
-ms.assetid: 'aecf9a7b-93eb-48d3-b70d-32c0e53d78af'
+Description: The following topics identify solutions to common tasks for developing applications by using the Peer Graphing API.
+ms.assetid: aecf9a7b-93eb-48d3-b70d-32c0e53d78af
 title: Using the Graphing API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Graphing API

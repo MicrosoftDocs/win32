@@ -1,7 +1,12 @@
 ---
-Description: 'The RegisterMediaTime method caches the time stamps from the current sample.'
-ms.assetid: '9ff8e4ec-3401-4272-894d-643f0fc029de'
-title: 'CRendererPosPassThru.RegisterMediaTime method'
+Description: The RegisterMediaTime method caches the time stamps from the current sample.
+ms.assetid: 9ff8e4ec-3401-4272-894d-643f0fc029de
+title: CRendererPosPassThru.RegisterMediaTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererPosPassThru.RegisterMediaTime method
@@ -13,7 +18,7 @@ The **RegisterMediaTime** method caches the time stamps from the current sample.
 
 ```C++
 HRESULT RegisterMediaTime(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT RegisterMediaTime(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +67,9 @@ The filter should call this method for each sample that it receives. The method 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

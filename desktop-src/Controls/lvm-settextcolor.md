@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETTEXTCOLOR message
 description: Sets the text color of a list-view control. You can send this message explicitly or by using the ListView\_SetTextColor macro.
-ms.assetid: 'ff90c18b-0cd7-4331-bcd8-61044e891d1f'
-keywords: ["LVM_SETTEXTCOLOR message Windows Controls"]
+ms.assetid: ff90c18b-0cd7-4331-bcd8-61044e891d1f
+keywords:
+- LVM_SETTEXTCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETTEXTCOLOR message
 
-Sets the text color of a list-view control. You can send this message explicitly or by using the [**ListView\_SetTextColor**](listview-settextcolor.md) macro.
+Sets the text color of a list-view control. You can send this message explicitly or by using the [**ListView\_SetTextColor**](/windows/win32/Commctrl/nf-commctrl-listview_settextcolor?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

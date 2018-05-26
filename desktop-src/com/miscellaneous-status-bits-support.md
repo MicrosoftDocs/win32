@@ -1,7 +1,12 @@
 ---
 title: Miscellaneous Status Bits Support
 description: Miscellaneous Status Bits Support
-ms.assetid: '3f967371-3d5a-4948-9008-6f4c3052bf07'
+ms.assetid: 3f967371-3d5a-4948-9008-6f4c3052bf07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Miscellaneous Status Bits Support
@@ -27,7 +32,7 @@ ActiveX Control Containers must recognize and support the following OLEMISC\_ st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ ActiveX Control Containers must recognize and support the following OLEMISC\_ st
 [Containers](containers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

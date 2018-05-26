@@ -1,7 +1,12 @@
 ---
-Description: 'The SetTimeouts method specifies the individual time-out components of a send/receive operation, in milliseconds.'
-ms.assetid: 'c2b6c432-5f3b-4361-8026-1b843c6697ae'
-title: 'IWinHttpRequest::SetTimeouts method'
+Description: The SetTimeouts method specifies the individual time-out components of a send/receive operation, in milliseconds.
+ms.assetid: c2b6c432-5f3b-4361-8026-1b843c6697ae
+title: IWinHttpRequestSetTimeouts method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::SetTimeouts method
@@ -13,10 +18,10 @@ The **SetTimeouts** method specifies the individual time-out components of a sen
 
 ```C++
 HRESULT SetTimeouts(
-  [in] long ResolveTimeout,
-  [in] long ConnectTimeout,
-  [in] long SendTimeout,
-  [in] long ReceiveTimeout
+  [in] long ResolveTimeout,
+  [in] long ConnectTimeout,
+  [in] long SendTimeout,
+  [in] long ReceiveTimeout
 );
 ```
 
@@ -65,9 +70,9 @@ All parameters are required. A value of 0 or -1 sets a time-out to wait infinite
 Time-out values are applied at the Winsock layer.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
 
- 
+ 
 
 ## Examples
 
@@ -193,9 +198,9 @@ WinHttpReq.Send();
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -215,9 +220,9 @@ WinHttpReq.Send();
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

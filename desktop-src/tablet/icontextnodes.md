@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a collection of objects that implement the IContextNode interface and that are the result of an ink analysis operation.'
-ms.assetid: '2c4e9d84-243a-40e4-b3f9-5c4cafc5aac4'
+Description: Contains a collection of objects that implement the IContextNode interface and that are the result of an ink analysis operation.
+ms.assetid: 2c4e9d84-243a-40e4-b3f9-5c4cafc5aac4
 title: IContextNodes interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNodes interface
@@ -29,7 +34,7 @@ The **IContextNodes** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -37,7 +42,7 @@ The **IContextNodes** interface has these methods.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -54,9 +59,9 @@ The **IContextNodes** interface has these methods.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

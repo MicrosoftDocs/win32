@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for file I/O events. The following syntax is simplified from MOF code.'
-ms.assetid: 'ed72daa3-06c0-46f1-bb9d-c0b343228f28'
-title: 'FileIo\_Name class'
+---
+Description: This class is the event type class for file I/O events. The following syntax is simplified from MOF code.
+ms.assetid: ed72daa3-06c0-46f1-bb9d-c0b343228f28
+title: FileIo\_Name class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo\_Name class

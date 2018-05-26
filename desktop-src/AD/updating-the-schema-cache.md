@@ -4,11 +4,15 @@ description: All information that is written to an Active Directory server is va
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '948f8ec5-7207-4566-bd79-60cdd54231bf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 948f8ec5-7207-4566-bd79-60cdd54231bf
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Updating the Schema Cache AD"]
+keywords:
+- Updating the Schema Cache AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Updating the Schema Cache

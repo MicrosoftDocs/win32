@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting packaging, deployment, and query of Windows Store apps
 description: Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
-ms.assetid: '38E327C6-0345-4FA6-BCDB-5FA2FCD421FB'
+ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting packaging, deployment, and query of Windows Store apps
@@ -280,14 +285,14 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <tr class="even">
 <td><strong>E_INVALIDARG</strong></td>
 <td>0x80070057</td>
-<td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event; “While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect.”<br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Please remove these characters from the manifest and try installing the package. <br/></td>
+<td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event;  While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect. <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package . Please remove these characters from the manifest and try installing the package. <br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -299,9 +304,9 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 [How to troubleshoot app package signature errors](how-to-troubleshoot-app-package-signature-errors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

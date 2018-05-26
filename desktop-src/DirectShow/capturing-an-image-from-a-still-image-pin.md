@@ -1,7 +1,12 @@
 ---
 Description: Capturing an Image From a Still Image Pin
-ms.assetid: 'cbcb4d6d-dc85-4ae2-b0a8-110f15092733'
+ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: Capturing an Image From a Still Image Pin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing an Image From a Still Image Pin
@@ -10,7 +15,7 @@ Some cameras can produce a still image separate from the capture stream, and oft
 
 The recommended way to get still images from the device is to use the Windows Image Acquisition (WIA) APIs. For more information, see "Windows Image Acquisition" in the Platform SDK documentation. However, you can also use DirectShow to capture an image.
 
-To trigger the still pin, use the [**IAMVideoControl::SetMode**](iamvideocontrol-setmode.md) method when the graph is running, as follows:
+To trigger the still pin, use the [**IAMVideoControl::SetMode**](/windows/win32/Strmif/nf-strmif-iamvideocontrol-setmode?branch=master) method when the graph is running, as follows:
 
 
 ```C++
@@ -52,7 +57,7 @@ if (SUCCEEDED(hr))
 
 
 
-Query the capture filter for [**IAMVideoControl**](iamvideocontrol.md). If the interface is supported, get a pointer to the still pin's [**IPin**](ipin.md) interface by calling the [**ICaptureGraphBuilder2::FindPin**](icapturegraphbuilder2-findpin.md) method, as shown in the previous example. Then call [**IAMVideoControl::SetMode**](iamvideocontrol-setmode.md) with the **IPin** pointer and the VideoControlFlag\_Trigger flag.
+Query the capture filter for [**IAMVideoControl**](/windows/win32/Strmif/nn-strmif-iamvideocontrol?branch=master). If the interface is supported, get a pointer to the still pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface by calling the [**ICaptureGraphBuilder2::FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) method, as shown in the previous example. Then call [**IAMVideoControl::SetMode**](/windows/win32/Strmif/nf-strmif-iamvideocontrol-setmode?branch=master) with the **IPin** pointer and the VideoControlFlag\_Trigger flag.
 
 > [!Note]  
 > Depending on the camera, you might need to render the capture pin (PIN\_CATEGORY\_CAPTURE) before the still pin will connect.
@@ -81,7 +86,7 @@ SampleGrabberCallback g_StillCapCB;
 
 The implementation of the class is described shortly.
 
-Next, connect the still pin to the Sample Grabber, and connect the Sample Grabber to the [**Null Renderer**](null-renderer-filter.md) filter. The Null Renderer simply discards media samples that it receives; the actual work will be done within the callback. (The only reason for the Null Renderer is to connect the Sample Grabber's output pin to something.) Call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the Sample Grabber and Null Renderer filters, and call [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) to add both filters to the graph:
+Next, connect the still pin to the Sample Grabber, and connect the Sample Grabber to the [**Null Renderer**](null-renderer-filter.md) filter. The Null Renderer simply discards media samples that it receives; the actual work will be done within the callback. (The only reason for the Null Renderer is to connect the Sample Grabber's output pin to something.) Call [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the Sample Grabber and Null Renderer filters, and call [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) to add both filters to the graph:
 
 
 ```C++
@@ -113,7 +118,7 @@ hr = pGraph->AddFilter(pNull, L"NullRender");
 
 
 
-You can use the [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method to connect all three filters in one method call, going from the still pin to the Sample Grabber, and from the Sample Grabber to the Null Renderer:
+You can use the [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method to connect all three filters in one method call, going from the still pin to the Sample Grabber, and from the Sample Grabber to the Null Renderer:
 
 
 ```C++
@@ -167,7 +172,7 @@ pSG->Release();
 
 
 
-This media type will contain the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure that defines the format of the still image. Free the media type before the application exits:
+This media type will contain the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure that defines the format of the still image. Free the media type before the application exits:
 
 
 ```C++

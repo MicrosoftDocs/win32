@@ -1,8 +1,9 @@
 ---
 title: MM\_JOY2BUTTONUP message
 description: The MM\_JOY2BUTTONUP message notifies the window that has captured joystick JOYSTICKID2 that a button has been released.
-ms.assetid: 'da024466-7cd3-42ec-90a7-1468eb42841e'
-keywords: ["MM_JOY2BUTTONUP message Windows Multimedia"]
+ms.assetid: da024466-7cd3-42ec-90a7-1468eb42841e
+keywords:
+- MM_JOY2BUTTONUP message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_JOY2BUTTONUP message
@@ -47,7 +53,7 @@ Identifies the button that has changed state and the buttons that are pressed. I
 
 
 
- 
+ 
 
 and one or more of the following:
 
@@ -62,7 +68,7 @@ and one or more of the following:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,8 +92,8 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -102,9 +108,9 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 [Multimedia Joystick Messages](multimedia-joystick-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

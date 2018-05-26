@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'b1e5653f-d72f-4cde-a8c9-d25763434374'
-title: 'CBaseAllocator.~CBaseAllocator destructor'
+Description: Destructor method.
+ms.assetid: b1e5653f-d72f-4cde-a8c9-d25763434374
+title: CBaseAllocator.~CBaseAllocator destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.~CBaseAllocator destructor
@@ -39,9 +44,9 @@ Always call the [**CBaseAllocator::Decommit**](cbaseallocator-decommit.md) metho
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

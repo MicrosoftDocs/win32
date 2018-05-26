@@ -1,14 +1,20 @@
 ---
 title: Component (DebugDataType) Element
 description: The name of the component that logged the trace message.
-ms.assetid: 'fa837d46-086b-4be1-b5a3-f68aebc9fe1c'
-keywords: ["Component element EventLog"]
+ms.assetid: fa837d46-086b-4be1-b5a3-f68aebc9fe1c
+keywords:
+- Component element EventLog
 topic_type:
 - apiref
 api_name:
 - Component
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component (DebugDataType) Element
@@ -29,8 +35,8 @@ The **Component** element is defined by the [**DebugDataType**](eventschema-debu
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Component** element is defined by the [**DebugDataType**](eventschema-debu
 [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: MainToScenes6Transition element
 description: Defines the transition displayed between the main menu and a six-button scene menu.
-ms.assetid: '5a87856c-6cf3-4031-9e5f-eb598db16ee0'
-keywords: ["MainToScenes6Transition element Windows Movie Maker and DVD Maker"]
+ms.assetid: 5a87856c-6cf3-4031-9e5f-eb598db16ee0
+keywords:
+- MainToScenes6Transition element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - MainToScenes6Transition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MainToScenes6Transition element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

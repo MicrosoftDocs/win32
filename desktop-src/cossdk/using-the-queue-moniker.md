@@ -1,7 +1,12 @@
 ---
-Description: 'The queue moniker is used to activate a queued component programmatically.'
-ms.assetid: 'd3d22ae6-7d16-4f25-9f15-21b2163cb0f5'
+Description: The queue moniker is used to activate a queued component programmatically.
+ms.assetid: d3d22ae6-7d16-4f25-9f15-21b2163cb0f5
 title: Using the Queue Moniker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Queue Moniker
@@ -89,7 +94,7 @@ The following table lists the queue moniker parameters that affect the destinati
 <td>Specifies the complete Message Queuing queue path name. If not specified, the Message Queuing queue path name associated with the configured application is used. To override the destination name, the path can be specified in the following form for a Message Queuing workgroup installation:<br/> Queue:<em>PathName</em>=<em>ComputerName</em>\PRIVATE$\AppName/new:Myproject.CMyClass<br/>
 <blockquote>
 [!Note]<br />
-Both the C and Microsoft Visual C++ programming languages require two backslashes to represent one backslash within string literals—for example, chicago\\payroll.
+Both the C and Microsoft Visual C++ programming languages require two backslashes to represent one backslash within string literals for example, chicago\\payroll.
 </blockquote>
 <br/></td>
 </tr>
@@ -102,12 +107,12 @@ Both the C and Microsoft Visual C++ programming languages require two backslashe
 
 
 
- 
+ 
 
 > [!Note]  
 > Optional queue moniker parameters are processed left-to-right. Specify each keyword only one time. Specifying the *PathName* parameter replaces both the *ComputerName* and *QueueName*parameters. A specific *FormatName* parameter deletes prior knowledge of a *ComputerName*, *QueueName*, and *PathName* parameter.
 
- 
+ 
 
 ## Associating the Queued Components Listener with a Specific Private Queue
 
@@ -129,7 +134,7 @@ The COM+ Queued Components listener receives only from queues associated with th
 <tbody>
 <tr class="odd">
 <td><em>AppSpecific</em><br/></td>
-<td>Specifies an unsigned integer—for example, AppSpecific=12345.<br/></td>
+<td>Specifies an unsigned integer for example, AppSpecific=12345.<br/></td>
 </tr>
 <tr class="even">
 <td><em>AuthLevel</em><br/></td>
@@ -227,14 +232,14 @@ The COM+ Queued Components listener receives only from queues associated with th
 
 
 
- 
+ 
 
 The complete set of COM+ Administrative SDK functions is available by using COM objects. This allows any program to start and stop COM+ applications as required.
 
 > [!Note]  
 > When a COM+ application is started, it is the application that is running, not the individual components within the application. If an application calls a non-queued component, the COM+ application that contains the component is started. If the listener check box is enabled, the listener also starts and begins processing for messages for queued components. While the queued components service can be started in this way, if you package queued and non-queued components into a single COM+ application, be sure that you really want queued components to start if a non-queued component is executed. If this is not the case, package the queued components into a COM+ application that is separate from the other components.
 
- 
+ 
 
 ## Related topics
 
@@ -243,9 +248,9 @@ The complete set of COM+ Administrative SDK functions is available by using COM 
 [Activating Component Queues](activating-component-queues.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Texture2DMSArray
 description: Texture2DMSArray
-ms.assetid: '4200eba8-a9e5-41ba-b04c-4ac7b20274d2'
-keywords: ["Texture2DMSArray HLSL"]
+ms.assetid: 4200eba8-a9e5-41ba-b04c-4ac7b20274d2
+keywords:
+- Texture2DMSArray HLSL
 topic_type:
 - apiref
 api_name:
 - Texture2DMSArray
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DMSArray

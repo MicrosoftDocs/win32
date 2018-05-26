@@ -1,7 +1,12 @@
 ---
 Description: Using COMREPL
-ms.assetid: 'bf67b434-c082-472d-9eae-ae31969d9cb8'
+ms.assetid: bf67b434-c082-472d-9eae-ae31969d9cb8
 title: Using COMREPL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using COMREPL

@@ -1,7 +1,12 @@
 ---
 title: How To Index Multiple Output Streams
 description: In shader model 5, a geometry shader can support up to 4 separate streams. This means a single shader can output between one and four output streams, depending on the number of streams declared.
-ms.assetid: '2ddde992-6746-4033-9190-bde7d7b14add'
+ms.assetid: 2ddde992-6746-4033-9190-bde7d7b14add
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Index Multiple Output Streams
@@ -77,7 +82,7 @@ Shader model 5:<br/>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -86,9 +91,9 @@ Shader model 5:<br/>
 [Geometry Shader Features](overviews-direct3d-11-hlsl-gs-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

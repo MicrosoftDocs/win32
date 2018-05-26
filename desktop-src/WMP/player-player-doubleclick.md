@@ -1,8 +1,11 @@
 ---
 title: Player.DoubleClick event
 description: The DoubleClick event occurs when the user double-clicks a mouse button.
-ms.assetid: 'e2055cff-e4b0-49e3-a93a-7084789b6842'
-keywords: ["DoubleClick event Windows Media Player", "DoubleClick event Windows Media Player , Player class", "Player class Windows Media Player , DoubleClick event"]
+ms.assetid: e2055cff-e4b0-49e3-a93a-7084789b6842
+keywords:
+- DoubleClick event Windows Media Player
+- DoubleClick event Windows Media Player , Player class
+- Player class Windows Media Player , DoubleClick event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.DoubleClick event
@@ -91,9 +99,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

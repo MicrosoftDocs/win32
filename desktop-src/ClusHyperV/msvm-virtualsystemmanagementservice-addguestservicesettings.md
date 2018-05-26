@@ -4,13 +4,16 @@ description: Adds guest service settings to a virtual system configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2dab8fd5-a84a-4468-8cd4-55e46ed0712f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2dab8fd5-a84a-4468-8cd4-55e46ed0712f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddGuestServiceSettings method", "AddGuestServiceSettings method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, AddGuestServiceSettings method"]
+keywords:
+- AddGuestServiceSettings method
+- AddGuestServiceSettings method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, AddGuestServiceSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddGuestServiceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -32,10 +38,10 @@ When applied to parts of a "current" virtual system configuration, as a side eff
 
 ```mof
 uint32 AddGuestServiceSettings(
-  [in]  CIM_VirtualSystemSettingData REF AffectedConfiguration,
-  [in]  string                           GuestServiceSettings[],
-  [out] CIM_SettingData              REF ResultingGuestServiceSettings[],
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF AffectedConfiguration,
+  [in]  string                           GuestServiceSettings[],
+  [out] CIM_SettingData              REF ResultingGuestServiceSettings[],
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -92,16 +98,16 @@ A reference to an optional job for the operation if the operation is run asynchr
 **Invalid Parameter** (4)
 </dt> <dt>
 
-**DMTF Reserved** (5–4095)
+**DMTF Reserved** (5 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -111,7 +117,7 @@ A reference to an optional job for the operation if the operation is run asynchr
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -125,9 +131,9 @@ A reference to an optional job for the operation if the operation is run asynchr
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

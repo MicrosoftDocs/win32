@@ -1,13 +1,26 @@
 ---
 title: Control Types and Their Supported Control Patterns
 description: Client applications get information about a control by retrieving general properties through the IUIAutomationElement interface, and by retrieving type-specific properties through the control pattern interfaces that the control supports.
-ms.assetid: 'b42a7ff1-570e-40aa-ab30-d7f9c9275201'
-keywords: ["mapping UI Automation control patterns", "clients,control pattern mapping", "clients,mapping control patterns", "UI Automation,mapping control patterns", "UI Automation,control pattern mapping", "mapping control patterns", "control patterns,mapping", "control patterns,list of"]
+ms.assetid: b42a7ff1-570e-40aa-ab30-d7f9c9275201
+keywords:
+- mapping UI Automation control patterns
+- clients,control pattern mapping
+- clients,mapping control patterns
+- UI Automation,mapping control patterns
+- UI Automation,control pattern mapping
+- mapping control patterns
+- control patterns,mapping
+- control patterns,list of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Types and Their Supported Control Patterns
 
-Client applications get information about a control by retrieving general properties through the [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface, and by retrieving type-specific properties through the control pattern interfaces that the control supports. This topic lists the Microsoft UI Automation control types and identifies the control patterns that each type supports.
+Client applications get information about a control by retrieving general properties through the [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface, and by retrieving type-specific properties through the control pattern interfaces that the control supports. This topic lists the Microsoft UI Automation control types and identifies the control patterns that each type supports.
 
 The following table organizes the control patterns into the following categories:
 

@@ -4,20 +4,24 @@ description: Active Directory Service Interfaces (ADSI) can be used to manage an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7233a82f-fc38-4718-b674-4e6a00666184'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7233a82f-fc38-4718-b674-4e6a00666184
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Security Descriptors on Files and Registry Keys ADSI"]
+keywords:
+- Security Descriptors on Files and Registry Keys ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Descriptors on Files and Registry Keys
 
-Active Directory Service Interfaces (ADSI) can be used to manage and secure file systems within an organization, including the ability to set or modify ACLs on files or file shares created by users. Security interfaces, such as [**IADsSecurityDescriptor**](iadssecuritydescriptor.md), [**IADsAccessControlList**](iadsaccesscontrollist.md), and [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) set ACLs on Active Directory, Exchange, file, file share, or registry key objects. Before using these interfaces, the security descriptor may need to be modified if it uses a different format from the interface, or if you do not have access rights to the SACL of the security descriptor because you are not a member of the security administrator group.
+Active Directory Service Interfaces (ADSI) can be used to manage and secure file systems within an organization, including the ability to set or modify ACLs on files or file shares created by users. Security interfaces, such as [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master), [**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master), and [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) set ACLs on Active Directory, Exchange, file, file share, or registry key objects. Before using these interfaces, the security descriptor may need to be modified if it uses a different format from the interface, or if you do not have access rights to the SACL of the security descriptor because you are not a member of the security administrator group.
 
-To get, set, or modify the security descriptor, use the [**IADsSecurityUtility**](iadssecurityutility.md) interface. This interface enables you to retrieve a security descriptor from various resources in its original format, such as the ADSI format [**IADsSecurityDescriptor**](iadssecuritydescriptor.md), a raw security descriptor, or as a hexadecimal string as used in Exchange 5.5. When retrieved, you can convert it to another format, for example, from a raw security descriptor to **IADsSecurityDescriptor**. You can then write the new format back to the resource.
+To get, set, or modify the security descriptor, use the [**IADsSecurityUtility**](/windows/win32/Iads/nn-iads-iadssecurityutility?branch=master) interface. This interface enables you to retrieve a security descriptor from various resources in its original format, such as the ADSI format [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master), a raw security descriptor, or as a hexadecimal string as used in Exchange 5.5. When retrieved, you can convert it to another format, for example, from a raw security descriptor to **IADsSecurityDescriptor**. You can then write the new format back to the resource.
 
-Some of the [**IADsAccessControlEntry**](iadsaccesscontrolentry.md) property values, such as [**AccessMask**](iadsaccesscontrolentry-property-methods.md) and **AceFlags**, will be different for different object types. For example, an Active Directory object will use the **ADS\_RIGHT\_GENERIC\_READ** member of the [**ADS\_RIGHTS\_ENUM**](ads-rights-enum.md) enumeration for the **IADsAccessControlEntry.AccessMask** property, but the equivalent access right for a file object is **FILE\_GENERIC\_READ**. It is not safe to assume that all property values will be the same for Active Directory objects and non-Active Directory objects. The following list shows the **IADsAccessControlEntry** properties that differ for non-Active Directory objects and where the proper values can be obtained.
+Some of the [**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master) property values, such as [**AccessMask**](iadsaccesscontrolentry-property-methods.md) and **AceFlags**, will be different for different object types. For example, an Active Directory object will use the **ADS\_RIGHT\_GENERIC\_READ** member of the [**ADS\_RIGHTS\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0048_0001?branch=master) enumeration for the **IADsAccessControlEntry.AccessMask** property, but the equivalent access right for a file object is **FILE\_GENERIC\_READ**. It is not safe to assume that all property values will be the same for Active Directory objects and non-Active Directory objects. The following list shows the **IADsAccessControlEntry** properties that differ for non-Active Directory objects and where the proper values can be obtained.
 
 <dl> <dt>
 
@@ -79,9 +83,9 @@ For more information, see the **InheritedObjectType** member of the [**ACCESS\_D
 
 </dd> </dl>
 
-Normally, [**IADsSecurityUtility.GetSecurityDescriptor**](iadssecurityutility-getsecuritydescriptor.md) will retrieve all parts of the security descriptor, such as owner, group, SACL, or DACL. Similarly, [**IADsSecurityUtility.SetSecurityDescriptor**](iadssecurityutility-setsecuritydescriptor.md) will overwrite all parts of the security descriptor by default. You can use the [**IADsSecurityUtility.SecurityMask**](iadssecurityutility-securitymask.md) property to specify individual parts of the security descriptor to retrieve or set. For example, you can set **SecurityMask** to [**ADS\_SECURITY\_INFO\_DACL**](ads-security-info-enum.md) before calling **GetSecurityDescriptor** to only retrieve the DACL without retrieving the other parts of the security descriptor.
+Normally, [**IADsSecurityUtility.GetSecurityDescriptor**](/windows/win32/Iads/nf-iads-iadssecurityutility-getsecuritydescriptor?branch=master) will retrieve all parts of the security descriptor, such as owner, group, SACL, or DACL. Similarly, [**IADsSecurityUtility.SetSecurityDescriptor**](/windows/win32/Iads/nf-iads-iadssecurityutility-setsecuritydescriptor?branch=master) will overwrite all parts of the security descriptor by default. You can use the [**IADsSecurityUtility.SecurityMask**](/windows/win32/Iads/nf-iads-iadssecurityutility-get_securitymask?branch=master) property to specify individual parts of the security descriptor to retrieve or set. For example, you can set **SecurityMask** to [**ADS\_SECURITY\_INFO\_DACL**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0001_0077_0002?branch=master) before calling **GetSecurityDescriptor** to only retrieve the DACL without retrieving the other parts of the security descriptor.
 
-For more information and a code example that uses the [**IADsSecurityUtility**](iadssecurityutility.md) interface to add an ACE to a file, see [Example Code for Adding an ACE to a File](example-code-for-adding-an-ace-to-a-file.md).
+For more information and a code example that uses the [**IADsSecurityUtility**](/windows/win32/Iads/nn-iads-iadssecurityutility?branch=master) interface to add an ACE to a file, see [Example Code for Adding an ACE to a File](example-code-for-adding-an-ace-to-a-file.md).
 
 The following example code provides the constant identifiers for file, file share and registry objects for the [**AccessMask**](iadsaccesscontrolentry-property-methods.md), **AceType**, **AceFlags**, and **Flags** properties for use with Visual Basic and Microsoft Visual Basic Scripting Edition.
 

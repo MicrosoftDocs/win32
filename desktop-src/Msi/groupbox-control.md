@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GroupBox control displays a rectangle, possibly with caption text, that serves to group other controls together on the dialog box.'
-ms.assetid: 'e1cdcf71-876f-4115-96a4-95d8a0f61a9b'
+---
+Description: The GroupBox control displays a rectangle, possibly with caption text, that serves to group other controls together on the dialog box.
+ms.assetid: e1cdcf71-876f-4115-96a4-95d8a0f61a9b
 title: GroupBox Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GroupBox Control

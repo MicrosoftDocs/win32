@@ -1,7 +1,12 @@
 ---
 title: Animations and Transitions
 description: Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging.
-ms.assetid: '9e0e9604-f051-47e4-bcd0-59fbfd38b9c1'
+ms.assetid: 9e0e9604-f051-47e4-bcd0-59fbfd38b9c1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animations and Transitions
@@ -370,7 +375,7 @@ Animations have several usage patterns:
 
 
 
- 
+ 
 
 Transitions have several usage patterns:
 
@@ -391,7 +396,7 @@ Transitions have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -409,7 +414,7 @@ Transitions have several usage patterns:
 
 -   **Make vocabulary entries clearly distinct.** Related actions may have similar effects (for example, zooming in and zooming out should have inverse transitions), but unrelated actions should have clearly distinct effects (for example, zooming should never be confused with rotating).
 -   **Keep real-world effects realistic and consistent.** If you use realistic animations and transitions, keep the experience consistent with the real world. Users should never be surprised, confused, or mislead by the results. And for consistency, don't mix metaphors.
--   **Give inverse actions inverse animations.** Doing so meets user expectations and simplifies the vocabulary. For example, if a pane appears by sliding in, remove it by sliding out—not with some other effect.
+-   **Give inverse actions inverse animations.** Doing so meets user expectations and simplifies the vocabulary. For example, if a pane appears by sliding in, remove it by sliding out not with some other effect.
 -   **Make animations comprehensible.** Users should be able to understand quickly the purpose of an animation. It's possible to make an animation too small, too brief (less than 50 milliseconds), or so subtle that users aren't able to comprehend their purpose. In such cases, either redesign to make the meaning clear, or remove.
 
     **Incorrect:**
@@ -442,7 +447,7 @@ Transitions have several usage patterns:
 
 -   **Use an activity indicator when an action can't be performed within a second.** Doing so indicates that the command has been received.
 -   **Use a progress bar when a task will take more than five seconds.** For more guidelines, see [Progress Bars](progress-bars.md).
--   **Use progress feedback animations that help users visualize the effect of long-running tasks.** Avoid unnecessary progress feedback animations—if an animation doesn't communicate anything helpful, use a progress bar instead.
+-   **Use progress feedback animations that help users visualize the effect of long-running tasks.** Avoid unnecessary progress feedback animations if an animation doesn't communicate anything helpful, use a progress bar instead.
 -   **Have clearly identifiable completion and failure states.** Users must be able to determine these final states quickly.
 -   **Stop showing progress when the underlying task isn't making progress.** Users need to be able to determine if progress isn't being made, and react accordingly.
 
@@ -521,7 +526,7 @@ Transitions have several usage patterns:
 
 
 
- 
+ 
 
 -   **If your program plays sound, design scene transitions and audio transitions together.** For example, if a scene fades out gradually, any sound should fade gradually as well. Don't ruin seamless visual transitions by having abrupt sound transitions. For more sound guidelines, see [Sound](vis-sound.md).
 
@@ -556,7 +561,7 @@ When scrolling in "Bird's eye" view, Bing maps display a temporary grid backgrou
 
 ### Performance
 
--   **Don't make users wait for your program's animations and transitions.** Use brief animations and transitions (less than 200 milliseconds) whenever practical. Use faster animations (100 milliseconds) for more frequent operations. Design longer animations (more than one second—usually the progress feedback, illustration, and special experience patterns) so that users can continue to work while they are running.
+-   **Don't make users wait for your program's animations and transitions.** Use brief animations and transitions (less than 200 milliseconds) whenever practical. Use faster animations (100 milliseconds) for more frequent operations. Design longer animations (more than one second usually the progress feedback, illustration, and special experience patterns) so that users can continue to work while they are running.
 -   **Design long-running animations to make it clear to users that they can interact while the animation is running.** Users won't attempt to continue to work if the visual clues suggest that they can't.
 
     ![screen shot of a progress bar in a status bar ](images/vis-animations-image51.png)
@@ -586,7 +591,7 @@ Well-designed animations and transitions generally have these characteristics:
     Most animations should have fast starts and soft endings to have a responsive, yet controlled feel.
 
 -   **Motion.** Animations portraying motion in particular need to accelerate and decelerate, so don't use linear motion unless animation duration is very short. Motions should take the shorts path from beginning to end, without overshooting. The full motion path is not always required. When appropriate, emphasize the end of the motion as it slows down, and let the eye fill in the rest. Doing so makes the motion feel much more responsive and orderly. When animating the motion of several objects simultaneously, give them slightly different paths with slightly different timings to feel more natural.
--   **Frame rate.** Most animations should use a frame rate of 20 frames per second. If the animation is for a special experience or is related to the main purpose of the program, consider using a higher rate of 24 — 30 frames per second to improve smoothness and realism.
+-   **Frame rate.** Most animations should use a frame rate of 20 frames per second. If the animation is for a special experience or is related to the main purpose of the program, consider using a higher rate of 24   30 frames per second to improve smoothness and realism.
 -   **Scale.** Design animations to work well across their entire range of intended usage. For example, page transitions should be designed to work for all page sizes.
 -   **Personality.** Design animations to feel natural, subdued, and efficient rather than artificial, whimsical, or slow.
 
@@ -643,9 +648,9 @@ Examples:
 -   First, select the photos that you would like to print (note that the photos are enlarged upon selection).
 -   Use a cross-fade transition to change an object's state seamlessly.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe in detail the programming elements used in the Fax Service Client API programming environment.'
-ms.assetid: '697c4591-e64e-4cbf-b068-ecd2e4690692'
+Description: The following topics describe in detail the programming elements used in the Fax Service Client API programming environment.
+ms.assetid: 697c4591-e64e-4cbf-b068-ecd2e4690692
 title: Fax Service Client API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API Reference

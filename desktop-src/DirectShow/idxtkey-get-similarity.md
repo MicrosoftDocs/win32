@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_Similarity method retrieves the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.'
-ms.assetid: 'ddf82759-fe71-4e06-b73c-c450b7cce43d'
-title: 'IDxtKey::get\_Similarity method'
+---
+Description: The get\_Similarity method retrieves the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.
+ms.assetid: ddf82759-fe71-4e06-b73c-c450b7cce43d
+title: IDxtKeyget\_Similarity method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::get\_Similarity method

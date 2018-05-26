@@ -2,13 +2,15 @@
 title: DAServer class
 description: DirectAccess Server Settings.
 audience: developer
-ms.assetid: 'a9b283c6-e576-48af-b0df-a98dd38e54a2'
-ms.prod: 'windows-server-dev'
+ms.assetid: a9b283c6-e576-48af-b0df-a98dd38e54a2
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DAServer class", "DAServer class, described"]
+keywords:
+- DAServer class
+- DAServer class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DAServer class
@@ -35,9 +40,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class DAServer : RemoteAccessCore
 {
-  string                InternetInterface;
-  string                InternalInterface;
-  uint8                 SslCertificate[];
+  string                InternetInterface;
+  string                InternalInterface;
+  uint8                 SslCertificate[];
   DAServerConfiguration ServerConfiguration;
 };
 ```
@@ -122,16 +127,16 @@ This property is inherited from [**RemoteAccessCore**](remoteaccesscore.md).
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

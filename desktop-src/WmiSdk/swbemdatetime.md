@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemDateTime object is a helper object to parse and set Common Information Model (CIM) datetime values.'
+Description: The SWbemDateTime object is a helper object to parse and set Common Information Model (CIM) datetime values.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3dd34c73-3c2b-4d59-827b-169cf8020213'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3dd34c73-3c2b-4d59-827b-169cf8020213
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemDateTime object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime object
@@ -40,7 +43,7 @@ The **SWbemDateTime** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -71,11 +74,11 @@ The **SWbemDateTime** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
-WMI records timestamps in universal time coordinate (UTC) format. UTC is not the format that most developers and IT administrators use. Therefore, a common issue is determining how to translate UTC into something more readable. For more information on how to work with UTC, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md) and [Working with Dates and Times using WMI](https://TechNet.Microsoft.Com/library/ee198928.aspx). You can also read the [It’s About Time (Oh, and About Dates, Too)](https://TechNet.Microsoft.Com/magazine/2006.07.scriptingguy.aspx) and [How Can I Subtract a Specified Number of Days from a UTC Value?](http://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) blog posts for additional information.
+WMI records timestamps in universal time coordinate (UTC) format. UTC is not the format that most developers and IT administrators use. Therefore, a common issue is determining how to translate UTC into something more readable. For more information on how to work with UTC, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md) and [Working with Dates and Times using WMI](https://TechNet.Microsoft.Com/library/ee198928.aspx). You can also read the [It s About Time (Oh, and About Dates, Too)](https://TechNet.Microsoft.Com/magazine/2006.07.scriptingguy.aspx) and [How Can I Subtract a Specified Number of Days from a UTC Value?](http://blogs.technet.com/b/heyscriptingguy/archive/2006/07/21/how-can-i-subtract-a-specified-number-of-days-from-a-utc-value.aspx) blog posts for additional information.
 
 Any numeric field can have a wildcard value if the [**IsInterval**](swbemdatetime-isinterval.md) property is set to **FALSE**. Fields with wildcard values contain asterisks in the entire field.
 
@@ -116,7 +119,7 @@ Set datetime = Nothing
 
 
 
-The following example shows how to create an **SWbemDateTime** object, store a date value in the object, display the date as local and Coordinated Universal Time (UTC), and store the value in a newly created class and property. For more information about the constant **wbemCimtypeDatetime**, see [WbemCimtypeEnum](wbemcimtypeenum.md).
+The following example shows how to create an **SWbemDateTime** object, store a date value in the object, display the date as local and Coordinated Universal Time (UTC), and store the value in a newly created class and property. For more information about the constant **wbemCimtypeDatetime**, see [WbemCimtypeEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemcimtypeenum?branch=master).
 
 
 ```VB
@@ -267,8 +270,8 @@ The following Powershell code translates the code into a format ready to be cons
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -281,7 +284,7 @@ The following Powershell code translates the code into a format ready to be cons
 
 <dl> <dt>
 
-[WbemCimtypeEnum](wbemcimtypeenum.md)
+[WbemCimtypeEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemcimtypeenum?branch=master)
 </dt> <dt>
 
 [DATETIME](datetime.md)
@@ -290,9 +293,9 @@ The following Powershell code translates the code into a format ready to be cons
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the PolicyInformation object that represents the indexed policy. This is the default property.'
-ms.assetid: '0143629a-97cf-43f4-8f96-774f0f5cfeca'
-title: 'CertificatePolicies.Item property'
+---
+Description: Retrieves the PolicyInformation object that represents the indexed policy. This is the default property.
+ms.assetid: 0143629a-97cf-43f4-8f96-774f0f5cfeca
+title: CertificatePolicies.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificatePolicies.Item property

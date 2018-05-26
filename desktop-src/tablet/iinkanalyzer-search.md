@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.'
-ms.assetid: '5b5ce4b5-45ef-42ef-866b-2f38c32d8c86'
-title: 'IInkAnalyzer::Search method'
+Description: Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.
+ms.assetid: 5b5ce4b5-45ef-42ef-866b-2f38c32d8c86
+title: IInkAnalyzerSearch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::Search method
@@ -13,11 +18,11 @@ Provides a fuzzy, case-insensitive phrase based search for analyzed writing stro
 
 ```C++
 HRESULT Search(
-  [in]      BSTR  bstrPhraseToMatch,
-  [in, out] ULONG *pulSearchResultCount,
-  [out]     ULONG **ppulStrokeCountPerResult,
-  [in, out] ULONG *pulStrokeIdsCount,
-  [out]     ULONG **ppulStrokeIds
+  [in]      BSTR  bstrPhraseToMatch,
+  [in, out] ULONG *pulSearchResultCount,
+  [out]     ULONG **ppulStrokeCountPerResult,
+  [in, out] ULONG *pulStrokeIdsCount,
+  [out]     ULONG **ppulStrokeIds
 );
 ```
 
@@ -86,7 +91,7 @@ Search does not generate PopulateContextNode events. Only the strokes that have 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -100,9 +105,9 @@ Search does not generate PopulateContextNode events. Only the strokes that have 
 [**IInkAnalyzer**](iinkanalyzer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

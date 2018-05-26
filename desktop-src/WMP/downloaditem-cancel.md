@@ -1,8 +1,11 @@
 ---
 title: DownloadItem.cancel method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The cancel method cancels the download.
-ms.assetid: 'b3715fde-6a83-45fa-92ea-1cbffbee7274'
-keywords: ["cancel method Windows Media Player", "cancel method Windows Media Player , DownloadItem class", "DownloadItem class Windows Media Player , cancel method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The cancel method cancels the download.
+ms.assetid: b3715fde-6a83-45fa-92ea-1cbffbee7274
+keywords:
+- cancel method Windows Media Player
+- cancel method Windows Media Player , DownloadItem class
+- DownloadItem class Windows Media Player , cancel method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem.cancel method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **cancel** method cancels the download.
 
@@ -64,9 +72,9 @@ Cancelled items are not removed from the download collection. Cancelled items re
 [**DownloadItem.downloadState**](downloaditem-downloadstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

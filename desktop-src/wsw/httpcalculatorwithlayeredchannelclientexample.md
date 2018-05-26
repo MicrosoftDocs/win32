@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithLayeredChannelClientExample
 description: This example show how to use the service proxy to talk to an HTTP based calculator service using a custom channel. The custom channel is a layered channel which simply delegates all functionality to the existing HTTP channel.
-ms.assetid: '897673df-f3a3-4b38-8b79-c9f1119be6d5'
-keywords: ["HttpCalculatorWithLayeredChannelClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 897673df-f3a3-4b38-8b79-c9f1119be6d5
+keywords:
+- HttpCalculatorWithLayeredChannelClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithLayeredChannelClientExample

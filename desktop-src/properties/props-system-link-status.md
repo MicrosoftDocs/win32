@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether the link path in System.Link.TargetParsingPath is verified.'
-ms.assetid: '38c73501-6376-41bb-8ad0-8f94ad42dfc9'
-title: 'System.Link.Status'
+Description: Specifies whether the link path in System.Link.TargetParsingPath is verified.
+ms.assetid: 38c73501-6376-41bb-8ad0-8f94ad42dfc9
+title: System.Link.Status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.Status

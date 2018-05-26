@@ -1,14 +1,20 @@
 ---
 title: resources (LocalizationType) Element
 description: Defines a group of string tables that contain the localized strings that you reference in your manifest.
-ms.assetid: 'b984894a-0ae8-49be-af93-3acdcce53ee9'
-keywords: ["resources element EventLog"]
+ms.assetid: b984894a-0ae8-49be-af93-3acdcce53ee9
+keywords:
+- resources element EventLog
 topic_type:
 - apiref
 api_name:
 - resources
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # resources (LocalizationType) Element
@@ -68,8 +74,8 @@ The **resources** element is defined by the [**LocalizationType**](eventmanifest
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -83,9 +89,9 @@ The **resources** element is defined by the [**LocalizationType**](eventmanifest
 [**localization (instrumentationManifest)**](eventmanifestschema-localization-instrumentationmanifest-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

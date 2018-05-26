@@ -1,7 +1,12 @@
 ---
 title: Use of Sendto and WSASendTo by Multicast Senders
 description: Use of Sendto and WSASendTo by multicast senders.
-ms.assetid: 'af118e70-6c57-433e-b4ab-11050b39fca2'
+ms.assetid: af118e70-6c57-433e-b4ab-11050b39fca2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use of Sendto and WSASendTo by Multicast Senders

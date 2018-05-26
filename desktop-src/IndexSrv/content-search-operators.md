@@ -1,7 +1,12 @@
 ---
 title: Content Search Operators
 description: Content Search Operators
-ms.assetid: 'aea33c6e-f299-4963-85ae-473963cddfbc'
+ms.assetid: aea33c6e-f299-4963-85ae-473963cddfbc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Search Operators

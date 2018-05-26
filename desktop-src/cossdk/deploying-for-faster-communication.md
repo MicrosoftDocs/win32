@@ -1,7 +1,12 @@
 ---
 Description: Deploying for Faster Communication
-ms.assetid: '9099f9df-b620-4623-826e-c541202ebc4a'
+ms.assetid: 9099f9df-b620-4623-826e-c541202ebc4a
 title: Deploying for Faster Communication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deploying for Faster Communication

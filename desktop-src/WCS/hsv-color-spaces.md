@@ -1,8 +1,27 @@
 ---
 title: HSV Color Spaces
 description: Hue, saturation, and value (HSV) color spaces are often used by artists.
-ms.assetid: 'a2ee9f29-0b81-4edc-8af8-f4df765e9952'
-keywords: ["Windows Color System (WCS),HSV color spaces", "WCS (Windows Color System),HSV color spaces", "image color management,HSV color spaces", "color management,HSV color spaces", "colors,HSV color spaces", "color spaces,HSV", "HSV color spaces", "hue", "saturation", "value", "lightness", "zero saturation", "hue saturation value (HSV)", "HSV (hue saturation value)"]
+ms.assetid: a2ee9f29-0b81-4edc-8af8-f4df765e9952
+keywords:
+- Windows Color System (WCS),HSV color spaces
+- WCS (Windows Color System),HSV color spaces
+- image color management,HSV color spaces
+- color management,HSV color spaces
+- colors,HSV color spaces
+- color spaces,HSV
+- HSV color spaces
+- hue
+- saturation
+- value
+- lightness
+- zero saturation
+- hue saturation value (HSV)
+- HSV (hue saturation value)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HSV Color Spaces

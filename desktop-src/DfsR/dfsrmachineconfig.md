@@ -4,13 +4,15 @@ description: This class provides service-wide settings on the local computer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1b5d2542-77a5-4d0b-895c-92a3ccad6cbd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1b5d2542-77a5-4d0b-895c-92a3ccad6cbd
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrMachineConfig class Distributed File System Replication", "DfsrMachineConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrMachineConfig class Distributed File System Replication
+- DfsrMachineConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrMachineConfig class
@@ -54,29 +59,29 @@ This class provides service-wide settings on the local computer.
 [Dynamic, Provider("DfsrConfigProv"), Singleton]
 class DfsrMachineConfig : CIM_Setting
 {
-  string   Caption;
-  string   SettingID;
-  uint32   LastChangeNumber;
+  string   Caption;
+  string   SettingID;
+  uint32   LastChangeNumber;
   datetime LastChangeTime;
-  string   LastChangeSource;
-  string   Description;
-  boolean  EnableDebugLog;
-  string   DebugLogFilePath;
-  uint32   MaxDebugLogFiles;
-  uint32   DebugLogSeverity;
-  uint32   MaxDebugLogMessages;
-  uint32   DsPollingIntervalInMin;
-  boolean  EnableLightDSPolling;
-  uint32   RpcPortAssignment;
-  uint32   ReghostingRateInMin;
-  uint32   RootLowWatermarkPercent;
-  uint32   RootHighWatermarkPercent;
-  uint32   StagingLowWatermarkPercent;
-  uint32   StagingHighWatermarkPercent;
-  uint32   ConflictLowWatermarkPercent;
-  uint32   ConflictHighWatermarkPercent;
-  uint32   MaxOfflineTimeInDays;
-  boolean  StopReplicationOnAutoRecovery;
+  string   LastChangeSource;
+  string   Description;
+  boolean  EnableDebugLog;
+  string   DebugLogFilePath;
+  uint32   MaxDebugLogFiles;
+  uint32   DebugLogSeverity;
+  uint32   MaxDebugLogMessages;
+  uint32   DsPollingIntervalInMin;
+  boolean  EnableLightDSPolling;
+  uint32   RpcPortAssignment;
+  uint32   ReghostingRateInMin;
+  uint32   RootLowWatermarkPercent;
+  uint32   RootHighWatermarkPercent;
+  uint32   StagingLowWatermarkPercent;
+  uint32   StagingHighWatermarkPercent;
+  uint32   ConflictLowWatermarkPercent;
+  uint32   ConflictHighWatermarkPercent;
+  uint32   MaxOfflineTimeInDays;
+  boolean  StopReplicationOnAutoRecovery;
 };
 ```
 
@@ -467,9 +472,9 @@ Enables Stop Replication on Auto Recovery feature.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                     |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -486,9 +491,9 @@ Enables Stop Replication on Auto Recovery feature.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WsDumpMemory function
 description: This function dumps all memory allocations to the console.
-ms.assetid: '84a4f1e7-7d62-48c2-a8a3-ee4573bde5e4'
-keywords: ["WsDumpMemory function Web Services for Windows"]
+ms.assetid: 84a4f1e7-7d62-48c2-a8a3-ee4573bde5e4
+keywords:
+- WsDumpMemory function Web Services for Windows
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WebServicesDebug.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WsDumpMemory function
@@ -20,14 +26,14 @@ This function dumps all memory allocations to the console.
 > [!Note]  
 > This function is for DEBUG ONLY.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT WINAPI  WsDumpMemory(
-  _In_opt_ WS_ERROR* error
+  _In_opt_ WS_ERROR* error
 );
 ```
 
@@ -54,15 +60,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>WebServicesDebug.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

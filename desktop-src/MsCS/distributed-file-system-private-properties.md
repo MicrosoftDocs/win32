@@ -4,11 +4,16 @@ description: Distributed File System resources have several private properties, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0d69a8a-c5e6-41df-8a49-3c10bd7858ee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f0d69a8a-c5e6-41df-8a49-3c10bd7858ee
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Distributed File System resource type Failover Cluster ,properties", "properties Failover Cluster ,Distributed File System (private) properties"]
+keywords:
+- Distributed File System resource type Failover Cluster ,properties
+- properties Failover Cluster ,Distributed File System (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed File System Private Properties

@@ -1,8 +1,14 @@
 ---
 title: Error
 description: Error
-ms.assetid: '1f9d3dba-be6d-4f7d-a80c-5bca8632e13f'
-keywords: ["AVICap callback functions,error notification messages"]
+ms.assetid: 1f9d3dba-be6d-4f7d-a80c-5bca8632e13f
+keywords:
+- AVICap callback functions,error notification messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error

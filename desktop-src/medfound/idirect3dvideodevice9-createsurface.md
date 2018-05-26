@@ -1,14 +1,19 @@
-﻿---
-Description: 'Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.'
-ms.assetid: '2bb8c99d-1151-4f6d-869f-2c1a592e76af'
-title: 'IDirect3DVideoDevice9::CreateSurface method'
+---
+Description: Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.
+ms.assetid: 2bb8c99d-1151-4f6d-869f-2c1a592e76af
+title: IDirect3DVideoDevice9CreateSurface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DVideoDevice9::CreateSurface method
 
 Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.
 
-To get the surface requirements, call [**IDirect3DVideoDevice9::GetDXVACompressedBufferInfo**](idirect3dvideodevice9-getdxvacompressedbufferinfo.md) and examine the returned [**DXVACompBufferInfo**](dxvacompbufferinfo.md) structures.
+To get the surface requirements, call [**IDirect3DVideoDevice9::GetDXVACompressedBufferInfo**](idirect3dvideodevice9-getdxvacompressedbufferinfo.md) and examine the returned [**DXVACompBufferInfo**](/windows/win32/dxva9typ/ns-dxva9typ-_dxvacompbufferinfo?branch=master) structures.
 
 ## Syntax
 

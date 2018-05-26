@@ -1,8 +1,22 @@
 ---
 title: Retrieving the Burn Status
 description: Retrieving the Burn Status
-ms.assetid: '63b6525d-00be-4c68-8473-3bc1a58fde15'
-keywords: ["Windows Media Player,CD burning", "Windows Media Player object model,CD burning", "object model,CD burning", "Windows Media Player ActiveX control,CD burning", "ActiveX control,CD burning", "Windows Media Player Mobile ActiveX control,CD burning", "Windows Media Player Mobile,CD burning", "CD burning,retrieving burn status", "burning CDs,retrieving burn status"]
+ms.assetid: 63b6525d-00be-4c68-8473-3bc1a58fde15
+keywords:
+- Windows Media Player,CD burning
+- Windows Media Player object model,CD burning
+- object model,CD burning
+- Windows Media Player ActiveX control,CD burning
+- ActiveX control,CD burning
+- Windows Media Player Mobile ActiveX control,CD burning
+- Windows Media Player Mobile,CD burning
+- CD burning,retrieving burn status
+- burning CDs,retrieving burn status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Burn Status
@@ -24,7 +38,7 @@ In the code example that follows, the following dialog controls are defined:
 
  
 
-You can monitor the progress of the burning operation by periodically calling [IWMPCdromBurn::get\_burnProgress](iwmpcdromburn-get-burnprogress.md) while the CD is being burned. This method retrieves a progress value for the entire burning operation. The value retrieved is a number that represents the percentage of burning completed, from 0 to 100.
+You can monitor the progress of the burning operation by periodically calling [IWMPCdromBurn::get\_burnProgress](/windows/win32/wmp/nf-wmp-iwmpcdromburn-get_burnprogress?branch=master) while the CD is being burned. This method retrieves a progress value for the entire burning operation. The value retrieved is a number that represents the percentage of burning completed, from 0 to 100.
 
 
 ```C++
@@ -43,7 +57,7 @@ if (SUCCEEDED(hr))
 
 
 
-You can get the current state of the burning operation by calling [IWMPCdromBurn::get\_burnState](iwmpcdromburn-get-burnstate.md). This method retrieves an enumeration specifying the current operation being performed.
+You can get the current state of the burning operation by calling [IWMPCdromBurn::get\_burnState](/windows/win32/wmp/nf-wmp-iwmpcdromburn-get_burnstate?branch=master). This method retrieves an enumeration specifying the current operation being performed.
 
 
 ```C++
@@ -97,7 +111,7 @@ if (SUCCEEDED(hr))
 
 
 
-To retrieve the number of seconds of audio the CD can hold, call [IWMPCdromBurn::getItemInfo](iwmpcdromburn-getiteminfo.md) with "AvailableTime" as the first parameter. The value retrieved by this function is represented by a string.
+To retrieve the number of seconds of audio the CD can hold, call [IWMPCdromBurn::getItemInfo](/windows/win32/wmp/nf-wmp-iwmpcdromburn-getiteminfo?branch=master) with "AvailableTime" as the first parameter. The value retrieved by this function is represented by a string.
 
 
 ```C++

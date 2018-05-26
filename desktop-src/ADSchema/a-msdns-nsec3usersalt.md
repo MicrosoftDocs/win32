@@ -4,17 +4,22 @@ description: An attribute that defines a user-specified NSEC3 salt string to use
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b9829732-8a79-4f07-8644-9fe4ba05ba8f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b9829732-8a79-4f07-8644-9fe4ba05ba8f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-NSEC3-User-Salt attribute AD Schema", "msDNS-NSEC3UserSalt attribute AD Schema"]
+keywords:
+- ms-DNS-NSEC3-User-Salt attribute AD Schema
+- msDNS-NSEC3UserSalt attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-NSEC3-User-Salt
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-NSEC3-User-Salt attribute
@@ -38,7 +43,7 @@ An attribute that defines a user-specified NSEC3 salt string to use when signing
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that defines a user-specified NSEC3 salt string to use when signing
 
 
 
- 
+ 
 
- 
+ 
 
 
 

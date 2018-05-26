@@ -4,11 +4,12 @@ description: Used to register the license with server.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C48AEBF7-D812-4952-8B91-80445C928FF3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: C48AEBF7-D812-4952-8B91-80445C928FF3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcRegisterLicense function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcRegisterLicense function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcRegisterLicense function
@@ -27,7 +31,7 @@ Used to register the license with server. This function is used for content trac
 >
 > An application needs to use this API to register the PL of every protected document with the server. If this step is missed, the document will not be tracked.
 
- 
+ 
 
 For more information on content tracking and the use of this function, see [Tracking Content](tracking-content.md).
 
@@ -36,11 +40,11 @@ For more information on content tracking and the use of this function, see [Trac
 
 ```C++
 HRESULT WINAPI IpcRegisterLicense(
-  _In_       PCIPC_BUFFER     pvLicenseWithMetadata,
-  _Reserved_ LPVOID           pvReserved,
-  _In_opt_   PCIPC_PROMPT_CTX pContext,
-  _In_opt_   LPCWSTR          wszContentName,
-             BOOL             fSendRegistrationMail
+  _In_       PCIPC_BUFFER     pvLicenseWithMetadata,
+  _Reserved_ LPVOID           pvReserved,
+  _In_opt_   PCIPC_PROMPT_CTX pContext,
+  _In_opt_   LPCWSTR          wszContentName,
+             BOOL             fSendRegistrationMail
 );
 ```
 
@@ -91,7 +95,7 @@ Set to **TRUE** to notify the publisher via email of the tracking portal URL to 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -109,8 +113,8 @@ Possible values include, but are not limited to, those in the following list.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -148,9 +152,9 @@ Possible values include, but are not limited to, those in the following list.
 [**IpcRegisterLicense**](ipcregisterlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

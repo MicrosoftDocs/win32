@@ -1,22 +1,27 @@
 ---
-Description: 'Demonstrates several different ways to use the CryptAcquireContext and related CryptoAPI functions to work with a cryptographic service provider (CSP) and a key container.'
-ms.assetid: 'e8d2503c-a38f-44f6-a653-ae9c7bf903bd'
-title: 'Example C Program: Using CryptAcquireContext'
+Description: Demonstrates several different ways to use the CryptAcquireContext and related CryptoAPI functions to work with a cryptographic service provider (CSP) and a key container.
+ms.assetid: e8d2503c-a38f-44f6-a653-ae9c7bf903bd
+title: Example C Program Using CryptAcquireContext
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Using CryptAcquireContext
 
-The following example demonstrates several different ways to use the [**CryptAcquireContext**](cryptacquirecontext.md) and related CryptoAPI functions to work with a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and a [*key container*](security.k_gly#-security-key-container-gly).
+The following example demonstrates several different ways to use the [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) and related CryptoAPI functions to work with a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) and a [*key container*](security.k_gly#-security-key-container-gly).
 
 This example demonstrates the following tasks and CryptoAPI functions:
 
--   Use the [**CryptAcquireContext**](cryptacquirecontext.md) function to acquire a handle for the default CSP and the default key container. If no default key container exists, use the **CryptAcquireContext** function to create the default key container.
--   Use the [**CryptGetProvParam**](cryptgetprovparam.md) function to retrieve information about a CSP and a key container.
--   Increase the [*reference count*](security.r_gly#-security-reference-count-gly) on the provider by using the [**CryptContextAddRef**](cryptcontextaddref.md) function.
--   Release a CSP by using the [**CryptReleaseContext**](cryptreleasecontext.md) function.
--   Create a named key container by using the [**CryptAcquireContext**](cryptacquirecontext.md) function.
+-   Use the [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) function to acquire a handle for the default CSP and the default key container. If no default key container exists, use the **CryptAcquireContext** function to create the default key container.
+-   Use the [**CryptGetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetprovparam?branch=master) function to retrieve information about a CSP and a key container.
+-   Increase the [*reference count*](security.r_gly#-security-reference-count-gly) on the provider by using the [**CryptContextAddRef**](/windows/win32/Wincrypt/nf-wincrypt-cryptcontextaddref?branch=master) function.
+-   Release a CSP by using the [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master) function.
+-   Create a named key container by using the [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) function.
 -   Acquire a handle for a CSP by using the newly created key container.
--   Delete a key container by using the [**CryptAcquireContext**](cryptacquirecontext.md) function.
+-   Delete a key container by using the [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) function.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

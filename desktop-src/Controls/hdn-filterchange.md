@@ -1,8 +1,9 @@
 ---
 title: HDN\_FILTERCHANGE notification code
-description: Notifies the header control's parent window that the attributes of a header control filter are being changed or edited. This notification code sent in the form of a WM\_NOTIFY message.
-ms.assetid: '0a46af14-569a-4119-881f-549a130f9b0d'
-keywords: ["HDN_FILTERCHANGE notification code Windows Controls"]
+description: Notifies the header controls parent window that the attributes of a header control filter are being changed or edited. This notification code sent in the form of a WM\_NOTIFY message.
+ms.assetid: 0a46af14-569a-4119-881f-549a130f9b0d
+keywords:
+- HDN_FILTERCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_FILTERCHANGE notification code
@@ -33,7 +39,7 @@ HDN_FILTERCHANGE
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure that contains information about the header control and the header item, including the attributes that are about to change.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure that contains information about the header control and the header item, including the attributes that are about to change.
 
 </dd> </dl>
 
@@ -47,8 +53,8 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ No return value.
 [**HDM\_SETFILTERCHANGETIMEOUT**](hdm-setfilterchangetimeout.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: DBVALUEKIND
 description: DBVALUEKIND
-ms.assetid: '9d03bbf8-0c39-4762-acfb-74ce4ad1d9d6'
-keywords: ["DBVALUEKIND"]
+ms.assetid: 9d03bbf8-0c39-4762-acfb-74ce4ad1d9d6
+keywords:
+- DBVALUEKIND
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBVALUEKIND
@@ -20,7 +26,7 @@ typedef WORD DBVALUEKIND;
 
 ### Remarks
 
-In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in the command tree, **DBVALUEKIND** takes on the appropriate DBVALUEKIND\_\* operation value from the [**DBVALUEKINDENUM**](dbvaluekindenum.md) enumeration, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference.
+In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in the command tree, **DBVALUEKIND** takes on the appropriate DBVALUEKIND\_\* operation value from the [**DBVALUEKINDENUM**](/windows/previous-versions/cmdtree/ne-cmdtree-dbvaluekindenum?branch=master) enumeration, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference.
 
 ## Related topics
 
@@ -29,7 +35,7 @@ In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in t
 [**DBCOMMANDTREE**](dbcommandtree.md)
 </dt> <dt>
 
-[**DBVALUEKINDENUM**](dbvaluekindenum.md)
+[**DBVALUEKINDENUM**](/windows/previous-versions/cmdtree/ne-cmdtree-dbvaluekindenum?branch=master)
 </dt> </dl>
 
  

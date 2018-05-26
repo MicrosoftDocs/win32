@@ -2,13 +2,16 @@
 title: GetBySigningMetadata method of the PS\_DnsServerDnsSecZoneSetting class
 description: Returns DNSSEC settings for the input zone.
 audience: developer
-ms.assetid: '9aa64bb5-00f5-4374-af74-e6f0abf23551'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9aa64bb5-00f5-4374-af74-e6f0abf23551
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetBySigningMetadata method", "GetBySigningMetadata method, PS_DnsServerDnsSecZoneSetting class", "PS_DnsServerDnsSecZoneSetting class, GetBySigningMetadata method"]
+keywords:
+- GetBySigningMetadata method
+- GetBySigningMetadata method, PS_DnsServerDnsSecZoneSetting class
+- PS_DnsServerDnsSecZoneSetting class, GetBySigningMetadata method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetBySigningMetadata method of the PS\_DnsServerDnsSecZoneSetting class
@@ -28,11 +34,11 @@ Returns DNSSEC settings for the input zone.
 
 ```mof
 uint32 GetBySigningMetadata(
-  [in]  string                       ZoneName[],
-  [in]  string                       ComputerName,
-  [in]  boolean                      SigningMetadata,
-  [in]  boolean                      IncludeKSKMetadata,
-  [out] DnsServerZoneSigningMetadata cmdletOutput[]
+  [in]  string                       ZoneName[],
+  [in]  string                       ComputerName,
+  [in]  boolean                      SigningMetadata,
+  [in]  boolean                      IncludeKSKMetadata,
+  [out] DnsServerZoneSigningMetadata cmdletOutput[]
 );
 ```
 
@@ -84,7 +90,7 @@ An embedded instance of the [**DnsServerZoneSigningMetadata**](dnsserverzonesign
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ An embedded instance of the [**DnsServerZoneSigningMetadata**](dnsserverzonesign
 [**PS\_DnsServerDnsSecZoneSetting**](ps-dnsserverdnsseczonesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

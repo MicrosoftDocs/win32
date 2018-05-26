@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter U.'
-Robots: 'noindex, nofollow'
-ms.assetid: '264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb'
+Description: Contains definitions of security terms that begin with the letter U.
+Robots: noindex, nofollow
+ms.assetid: 264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb
 title: U
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # U

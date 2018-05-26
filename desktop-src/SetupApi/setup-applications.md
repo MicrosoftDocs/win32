@@ -1,7 +1,12 @@
 ---
-Description: 'Typically, you create an INF file before authoring a setup application.'
-ms.assetid: '9f444564-d3a4-4b3c-8849-b56cd610356c'
+Description: Typically, you create an INF file before authoring a setup application.
+ms.assetid: 9f444564-d3a4-4b3c-8849-b56cd610356c
 title: Setup Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setup Applications

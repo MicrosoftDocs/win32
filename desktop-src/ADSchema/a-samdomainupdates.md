@@ -4,17 +4,22 @@ description: Contains a bitmask of performed SAM operations on Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cafef47d-4923-4ee6-92bc-764301506cfe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cafef47d-4923-4ee6-92bc-764301506cfe
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["SAM-Domain-Updates attribute AD Schema", "samDomainUpdates attribute AD Schema"]
+keywords:
+- SAM-Domain-Updates attribute AD Schema
+- samDomainUpdates attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - SAM-Domain-Updates
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SAM-Domain-Updates attribute
@@ -38,9 +43,9 @@ Contains a bitmask of performed SAM operations on Active Directory.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains a bitmask of performed SAM operations on Active Directory.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: RelatedActivityCollection GetCount method
 description: Returns the count of ActivityReference objects in the RelatedActivityCollection.
-ms.assetid: 'DBCFF2B5-5D60-4DB9-B1D9-92B297496CD8'
-keywords: ["GetCount method Access Execution Engine", "GetCount method Access Execution Engine , RelatedActivityCollection interface", "RelatedActivityCollection interface Access Execution Engine , GetCount method"]
+ms.assetid: DBCFF2B5-5D60-4DB9-B1D9-92B297496CD8
+keywords:
+- GetCount method Access Execution Engine
+- GetCount method Access Execution Engine , RelatedActivityCollection interface
+- RelatedActivityCollection interface Access Execution Engine , GetCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RelatedActivityCollection::GetCount method
@@ -22,7 +30,7 @@ Returns the count of [**ActivityReference**](activityreference-struct.md) object
 
 ```C++
 virtual HRESULT GetCount(
-  [out] INT *count
+  [out] INT *count
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ An **ActivityReference** holds data from a **RelatedActivities/ActivityReference
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ An **ActivityReference** holds data from a **RelatedActivities/ActivityReference
 [**RelatedActivityCollection**](relatedactivitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Return Values
 description: Return Values
-ms.assetid: 'f9d205eb-4c90-4e8f-bfed-56be9fad1c79'
+ms.assetid: f9d205eb-4c90-4e8f-bfed-56be9fad1c79
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values

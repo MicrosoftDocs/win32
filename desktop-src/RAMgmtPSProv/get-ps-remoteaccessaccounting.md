@@ -2,13 +2,16 @@
 title: Get method of the PS\_RemoteAccessAccounting class
 description: This cmdlet displays the accounting configuration for Remote Access, viz. the different types of accounting that are enabled and their respective configuration.
 audience: developer
-ms.assetid: '382be70a-6b1c-4f94-8d52-7441cbe1525f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 382be70a-6b1c-4f94-8d52-7441cbe1525f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_RemoteAccessAccounting class", "PS_RemoteAccessAccounting class, Get method"]
+keywords:
+- Get method
+- Get method, PS_RemoteAccessAccounting class
+- PS_RemoteAccessAccounting class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_RemoteAccessAccounting class
@@ -28,8 +34,8 @@ This cmdlet displays the accounting configuration for Remote Access, viz. the di
 
 ```mof
 uint32 Get(
-  [in]  string                 ComputerName,
-  [out] RemoteAccessAccounting cmdletOutput
+  [in]  string                 ComputerName,
+  [out] RemoteAccessAccounting cmdletOutput
 );
 ```
 
@@ -60,7 +66,7 @@ IPv4/IPv6 address or hostname of the machine on which the remote access server m
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ IPv4/IPv6 address or hostname of the machine on which the remote access server m
 [**PS\_RemoteAccessAccounting**](ps-remoteaccessaccounting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

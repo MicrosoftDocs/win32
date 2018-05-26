@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to an IPrintSchemaOption object.'
-ms.assetid: 'B77297BF-09F7-46BD-A75F-D36E5E233E05'
-title: 'IPrintSchemaOptionCollection::GetAt method'
+---
+Description: Gets a pointer to an IPrintSchemaOption object.
+ms.assetid: B77297BF-09F7-46BD-A75F-D36E5E233E05
+title: IPrintSchemaOptionCollectionGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOptionCollection::GetAt method

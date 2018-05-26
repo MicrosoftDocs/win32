@@ -1,13 +1,16 @@
 ---
-Description: 'Describes document conventions for reading WMI Scripting API topics.'
+Description: Describes document conventions for reading WMI Scripting API topics.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '889e6322-96f6-4a24-a084-e3b7bfa94a40'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 889e6322-96f6-4a24-a084-e3b7bfa94a40
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Document Conventions for the Scripting API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document Conventions for the Scripting API

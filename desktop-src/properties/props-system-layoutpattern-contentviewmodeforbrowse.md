@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the layout pattern that the content view mode should apply for this item in the context of browsing.'
-ms.assetid: '6c2b6f1f-274f-44ad-864e-4513aaaec4de'
-title: 'System.LayoutPattern.ContentViewModeForBrowse'
+Description: Identifies the layout pattern that the content view mode should apply for this item in the context of browsing.
+ms.assetid: 6c2b6f1f-274f-44ad-864e-4513aaaec4de
+title: System.LayoutPattern.ContentViewModeForBrowse
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.LayoutPattern.ContentViewModeForBrowse

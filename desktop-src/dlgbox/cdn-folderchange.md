@@ -1,8 +1,9 @@
 ---
 title: CDN\_FOLDERCHANGE notification code
 description: Sent by an Explorer-style Open or Save As dialog box when a new folder is opened.
-ms.assetid: '864ab80d-cd99-4dd6-8aff-49beed246e53'
-keywords: ["CDN_FOLDERCHANGE notification code Dialog Boxes"]
+ms.assetid: 864ab80d-cd99-4dd6-8aff-49beed246e53
+keywords:
+- CDN_FOLDERCHANGE notification code Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDN\_FOLDERCHANGE notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when a new folder is opened.
 
@@ -43,7 +49,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OFNOTIFY**](ofnotify-str.md) structure. The **OFNOTIFY** structure contains an [**NMHDR**](_win32_nmhdr_str) structure whose **code** member indicates the **CDN\_FOLDERCHANGE** notification message.
+A pointer to an [**OFNOTIFY**](/windows/win32/Commdlg/ns-commdlg-_ofnotifya?branch=master) structure. The **OFNOTIFY** structure contains an [**NMHDR**](_win32_nmhdr_str) structure whose **code** member indicates the **CDN\_FOLDERCHANGE** notification message.
 
 </dd> </dl>
 
@@ -63,8 +69,8 @@ To get the path of the newly opened folder, the hook procedure can send the [**C
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,16 +85,16 @@ To get the path of the newly opened folder, the hook procedure can send the [**C
 [**CDM\_GETFOLDERPATH**](cdm-getfolderpath.md)
 </dt> <dt>
 
-[**GetOpenFileName**](getopenfilename.md)
+[**GetOpenFileName**](/windows/win32/Commdlg/nf-commdlg-getopenfilenamea?branch=master)
 </dt> <dt>
 
-[**GetSaveFileName**](getsavefilename.md)
+[**GetSaveFileName**](/windows/win32/Commdlg/nf-commdlg-getsavefilenamea?branch=master)
 </dt> <dt>
 
 [*OFNHookProc*](ofnhookproc.md)
 </dt> <dt>
 
-[**OFNOTIFY**](ofnotify-str.md)
+[**OFNOTIFY**](/windows/win32/Commdlg/ns-commdlg-_ofnotifya?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -97,9 +103,9 @@ To get the path of the newly opened folder, the hook procedure can send the [**C
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

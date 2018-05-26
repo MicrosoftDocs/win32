@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyMediaType method informs the object of the current media type.'
-ms.assetid: '6fb708ff-e968-4867-baca-ebe2515c9fab'
-title: 'CImageAllocator.NotifyMediaType method'
+Description: The NotifyMediaType method informs the object of the current media type.
+ms.assetid: 6fb708ff-e968-4867-baca-ebe2515c9fab
+title: CImageAllocator.NotifyMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageAllocator.NotifyMediaType method
@@ -13,7 +18,7 @@ The `NotifyMediaType` method informs the object of the current media type.
 
 ```C++
 void NotifyMediaType(
-   CMediaType *pMediaType
+   CMediaType *pMediaType
 );
 ```
 
@@ -58,9 +63,9 @@ The **CImageAllocator** object stores the *pMediaType* pointer in the **m\_pMedi
 [**CImageAllocator Class**](cimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

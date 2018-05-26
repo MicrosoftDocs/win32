@@ -1,8 +1,32 @@
 ---
 title: Error Codes
 description: Error Codes
-ms.assetid: 'ea1c129b-c0d7-4a1b-934c-c1c07364d4a8'
-keywords: ["Windows Media Format SDK,error codes", "Advanced Systems Format (ASF),error codes", "ASF (Advanced Systems Format),error codes", "Windows Media Format SDK,success codes", "Advanced Systems Format (ASF),success codes", "ASF (Advanced Systems Format),success codes", "Windows Media Format SDK,ASF error codes", "Advanced Systems Format (ASF),ASF error codes", "ASF (Advanced Systems Format),ASF error codes", "Windows Media Format SDK,DRM error codes", "Advanced Systems Format (ASF),DRM error codes", "ASF (Advanced Systems Format),DRM error codes", "Windows Media Format SDK,DRM success codes", "Advanced Systems Format (ASF),DRM success codes", "ASF (Advanced Systems Format),DRM success codes", "digital rights management (DRM),error codes", "DRM (digital rights management),error codes", "digital rights management (DRM),success codes", "DRM (digital rights management),success codes"]
+ms.assetid: ea1c129b-c0d7-4a1b-934c-c1c07364d4a8
+keywords:
+- Windows Media Format SDK,error codes
+- Advanced Systems Format (ASF),error codes
+- ASF (Advanced Systems Format),error codes
+- Windows Media Format SDK,success codes
+- Advanced Systems Format (ASF),success codes
+- ASF (Advanced Systems Format),success codes
+- Windows Media Format SDK,ASF error codes
+- Advanced Systems Format (ASF),ASF error codes
+- ASF (Advanced Systems Format),ASF error codes
+- Windows Media Format SDK,DRM error codes
+- Advanced Systems Format (ASF),DRM error codes
+- ASF (Advanced Systems Format),DRM error codes
+- Windows Media Format SDK,DRM success codes
+- Advanced Systems Format (ASF),DRM success codes
+- ASF (Advanced Systems Format),DRM success codes
+- digital rights management (DRM),error codes
+- DRM (digital rights management),error codes
+- digital rights management (DRM),success codes
+- DRM (digital rights management),success codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes

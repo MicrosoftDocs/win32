@@ -1,8 +1,22 @@
 ---
 title: Porting greset
 description: OpenGL replaces the IRIS GL function, greset, with the functions, glPushAttrib and glPopAttrib.
-ms.assetid: '348e8b18-4f12-45d1-a4d2-6533a983236b'
-keywords: ["IRIS GL porting,state variables", "porting from IRIS GL,state variables", "porting to OpenGL from IRIS GL,state variables", "OpenGL porting from IRIS GL,state variables", "state variables", "IRIS GL porting,greset function", "porting from IRIS GL,greset function", "porting to OpenGL from IRIS GL,greset function", "OpenGL porting from IRIS GL,greset function"]
+ms.assetid: 348e8b18-4f12-45d1-a4d2-6533a983236b
+keywords:
+- IRIS GL porting,state variables
+- porting from IRIS GL,state variables
+- porting to OpenGL from IRIS GL,state variables
+- OpenGL porting from IRIS GL,state variables
+- state variables
+- IRIS GL porting,greset function
+- porting from IRIS GL,greset function
+- porting to OpenGL from IRIS GL,greset function
+- OpenGL porting from IRIS GL,greset function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting greset

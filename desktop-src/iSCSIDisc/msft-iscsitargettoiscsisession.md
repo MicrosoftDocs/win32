@@ -1,7 +1,12 @@
-﻿---
-Description: 'Association between iSCSITarget and iSCSISession.'
-ms.assetid: '5B716F63-0E6B-430E-8DD6-E50AB1C4AB9F'
-title: 'MSFT\_iSCSITargetToiSCSISession class'
+---
+Description: Association between iSCSITarget and iSCSISession.
+ms.assetid: 5B716F63-0E6B-430E-8DD6-E50AB1C4AB9F
+title: MSFT\_iSCSITargetToiSCSISession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSITargetToiSCSISession class

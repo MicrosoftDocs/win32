@@ -1,8 +1,19 @@
 ---
 title: Using a Metafile Playlist
 description: Using a Metafile Playlist
-ms.assetid: 'e6cbdb76-4405-409e-93c3-38a3baa7c231'
-keywords: ["Windows Media metafile playlists,using", "metafile playlists,using", "playlists,using", "Windows Media metafile playlists,about", "metafile playlists,about", "playlists,about"]
+ms.assetid: e6cbdb76-4405-409e-93c3-38a3baa7c231
+keywords:
+- Windows Media metafile playlists,using
+- metafile playlists,using
+- playlists,using
+- Windows Media metafile playlists,about
+- metafile playlists,about
+- playlists,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Metafile Playlist

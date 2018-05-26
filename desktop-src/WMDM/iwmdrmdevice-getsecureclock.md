@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice GetSecureClock method
 description: The GetSecureClock method retrieves the secure clock, so time-based licenses can be enforced.
-ms.assetid: '6de9b7ce-9c2a-44e5-9de7-40cfbaf4d92c'
-keywords: ["GetSecureClock method windows Media Device Manager", "GetSecureClock method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , GetSecureClock method"]
+ms.assetid: 6de9b7ce-9c2a-44e5-9de7-40cfbaf4d92c
+keywords:
+- GetSecureClock method windows Media Device Manager
+- GetSecureClock method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , GetSecureClock method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::GetSecureClock method
@@ -23,9 +31,9 @@ The **GetSecureClock** method retrieves the secure clock, so time-based licenses
 
 ```C++
 HRESULT GetSecureClock(
-  [out] BYTE  **ppbSecureClock,
-  [out] DWORD *pcbSecureClock,
-  [out] DWORD *pdwFlags
+  [out] BYTE  **ppbSecureClock,
+  [out] DWORD *pcbSecureClock,
+  [out] DWORD *pdwFlags
 );
 ```
 
@@ -64,7 +72,7 @@ Device status flags. This value must be one of the following flags.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -80,7 +88,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -106,9 +114,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**SetSecureClockResponse**](iwmdrmdevice-setsecureclockresponse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

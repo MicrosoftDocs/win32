@@ -1,7 +1,12 @@
 ---
-Description: 'The Paths data type is a text string containing a list of Path data types, separated by semicolons (;).'
-ms.assetid: '8bf4fdaa-ec2d-4a90-b4ad-8e9e45b19183'
+Description: The Paths data type is a text string containing a list of Path data types, separated by semicolons (;).
+ms.assetid: 8bf4fdaa-ec2d-4a90-b4ad-8e9e45b19183
 title: Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Paths

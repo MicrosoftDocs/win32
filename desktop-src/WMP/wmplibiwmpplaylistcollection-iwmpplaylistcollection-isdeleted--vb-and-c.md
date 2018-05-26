@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistCollection isDeleted method
 description: The isDeleted method returns a value indicating whether the specified playlist is in the deleted items folder.
-ms.assetid: '02bc4b9f-6149-4fe2-8417-6484b22f2d74'
-keywords: ["isDeleted method Windows Media Player", "isDeleted method Windows Media Player , IWMPPlaylistCollection interface", "IWMPPlaylistCollection interface Windows Media Player , isDeleted method"]
+ms.assetid: 02bc4b9f-6149-4fe2-8417-6484b22f2d74
+keywords:
+- isDeleted method Windows Media Player
+- isDeleted method Windows Media Player , IWMPPlaylistCollection interface
+- IWMPPlaylistCollection interface Windows Media Player , isDeleted method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistCollection::isDeleted method
@@ -86,9 +94,9 @@ A **System.Boolean** that specifies whether the playlist was deleted.
 [**IWMPPlaylistCollection Interface (VB and C#)**](iwmpplaylistcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

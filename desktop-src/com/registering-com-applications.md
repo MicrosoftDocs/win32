@@ -1,7 +1,12 @@
 ---
 title: Registering COM Applications
 description: Registering COM Applications
-ms.assetid: '64ab5b42-2fdb-4d06-bd58-fd76f27f7da4'
+ms.assetid: 64ab5b42-2fdb-4d06-bd58-fd76f27f7da4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering COM Applications

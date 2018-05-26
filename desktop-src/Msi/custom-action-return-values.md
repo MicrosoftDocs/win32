@@ -1,7 +1,12 @@
 ---
-Description: 'If the msidbCustomActionTypeContinue return processing option is not set, the custom action must return an integer status code as shown in the following table.'
-ms.assetid: '56c2d639-eef8-47cd-9d47-9a4781b9be36'
+Description: If the msidbCustomActionTypeContinue return processing option is not set, the custom action must return an integer status code as shown in the following table.
+ms.assetid: 56c2d639-eef8-47cd-9d47-9a4781b9be36
 title: Custom Action Return Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Return Values

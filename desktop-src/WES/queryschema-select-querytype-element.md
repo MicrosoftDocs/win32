@@ -1,14 +1,20 @@
 ---
 title: Select (QueryType) Element
 description: An XPath query that identifies the events to include in the query result set.
-ms.assetid: 'b6aa747b-3586-460b-b51c-52fb112739c3'
-keywords: ["Select element EventLog"]
+ms.assetid: b6aa747b-3586-460b-b51c-52fb112739c3
+keywords:
+- Select element EventLog
 topic_type:
 - apiref
 api_name:
 - Select
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Select (QueryType) Element
@@ -45,8 +51,8 @@ The **Select** element is defined by the [**QueryType**](queryschema-querytype-c
 
 |                                     |                                                             |
 |-------------------------------------|-------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ The **Select** element is defined by the [**QueryType**](queryschema-querytype-c
 [**Query (QueryListType)**](queryschema-query-querylisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

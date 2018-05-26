@@ -1,7 +1,12 @@
-﻿---
-Description: 'The presentation time at which the media sinks will render the first sample of the new topology.'
-ms.assetid: '02a8c542-b519-495e-9fb2-8db2f5384db7'
-title: 'MF\_EVENT\_START\_PRESENTATION\_TIME\_AT\_OUTPUT attribute'
+---
+Description: The presentation time at which the media sinks will render the first sample of the new topology.
+ms.assetid: 02a8c542-b519-495e-9fb2-8db2f5384db7
+title: MF\_EVENT\_START\_PRESENTATION\_TIME\_AT\_OUTPUT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_START\_PRESENTATION\_TIME\_AT\_OUTPUT attribute
@@ -44,10 +49,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> </dl>
 
  

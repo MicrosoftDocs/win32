@@ -1,7 +1,12 @@
 ---
 title: About Creating Dynamic Hyperlinks
 description: About Creating Dynamic Hyperlinks
-ms.assetid: 'F8A5D176-6266-4c1b-AAF4-0E3938601687'
+ms.assetid: F8A5D176-6266-4c1b-AAF4-0E3938601687
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Creating Dynamic Hyperlinks

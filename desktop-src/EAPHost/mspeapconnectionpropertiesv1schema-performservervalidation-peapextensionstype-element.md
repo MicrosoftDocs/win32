@@ -1,14 +1,20 @@
 ---
 title: 
 description: Indicates whether server validation is performed.
-ms.assetid: 'b0483ed0-a02f-4f60-b1ae-7c5e6be8e196'
-keywords: ["element EAPHost"]
+ms.assetid: b0483ed0-a02f-4f60-b1ae-7c5e6be8e196
+keywords:
+- element EAPHost
 topic_type:
 - apiref
 api_name:
 - PerformServerValidation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 
@@ -34,8 +40,8 @@ The **PerformServerValidation** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ The **PerformServerValidation** element is optional.
 [**PerformServerValidation(PeapExtensionsType**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

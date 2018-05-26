@@ -4,11 +4,13 @@ description: The View object encapsulates a single MDI child window in the MMC c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '004043d1-c7c3-4385-a4f5-a7fbf616d05c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 004043d1-c7c3-4385-a4f5-a7fbf616d05c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["View Object object MMC", "View Object object MMC , described"]
+keywords:
+- View Object object MMC
+- View Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # View Object object
@@ -68,7 +73,7 @@ The **View Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -95,7 +100,7 @@ The **View Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -103,8 +108,8 @@ The **View Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The **View Object** object has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

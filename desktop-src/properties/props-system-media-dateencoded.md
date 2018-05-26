@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the date and time the file was encoded. The DateTime is in UTC (in the doc, not file system).'
-ms.assetid: '22d7aee7-6f52-48cd-80d3-746a6ca7ba86'
-title: 'System.Media.DateEncoded'
+Description: Represents the date and time the file was encoded. The DateTime is in UTC (in the doc, not file system).
+ms.assetid: 22d7aee7-6f52-48cd-80d3-746a6ca7ba86
+title: System.Media.DateEncoded
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.DateEncoded

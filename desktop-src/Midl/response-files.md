@@ -2,7 +2,13 @@
 title: Response Files
 description: As an alternative to placing all the options on the command line, the MIDL compiler accepts response files that contain switches and arguments.
 ms.assetid: 53ee9ad2-1ab4-421f-99c9-66186da4bd9d
-keywords: ["MIDL compiler MIDL , response files"]
+keywords:
+- MIDL compiler MIDL , response files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Response Files

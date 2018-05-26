@@ -4,11 +4,15 @@ description: The directory system agent (DSA) is a collection of services and pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a921a822-6b2e-4a84-8112-0ae516443667'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a921a822-6b2e-4a84-8112-0ae516443667
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["directory system agent Active Directory"]
+keywords:
+- directory system agent Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Directory System Agent

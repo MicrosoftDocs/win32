@@ -1,7 +1,12 @@
 ---
-Description: 'The pixel composition.'
-ms.assetid: 'e2bb7f82-10dc-4fa0-875d-fc58c133024d'
-title: 'System.Photo.PhotometricInterpretation'
+Description: The pixel composition.
+ms.assetid: e2bb7f82-10dc-4fa0-875d-fc58c133024d
+title: System.Photo.PhotometricInterpretation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.PhotometricInterpretation

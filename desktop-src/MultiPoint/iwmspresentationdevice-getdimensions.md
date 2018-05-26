@@ -4,11 +4,14 @@ description: Retrieves the dimensions of a monitor screen, in pixels.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '63e5d40a-1421-460a-a23a-2149d98988b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 63e5d40a-1421-460a-a23a-2149d98988b9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetDimensions method", "GetDimensions method, IWmsPresentationDevice interface", "IWmsPresentationDevice interface, GetDimensions method"]
+keywords:
+- GetDimensions method
+- GetDimensions method, IWmsPresentationDevice interface
+- IWmsPresentationDevice interface, GetDimensions method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsPresentationDevice::GetDimensions method
@@ -30,8 +36,8 @@ Retrieves the dimensions of a monitor screen, in pixels.
 
 ```C++
 HRESULT GetDimensions(
-  [out] UINT *pcx,
-  [out] UINT *pcy
+  [out] UINT *pcx,
+  [out] UINT *pcy
 );
 ```
 
@@ -66,7 +72,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsPresentationDevice is defined as 3fa4b1eb-eb6c-455e-a7ae-0861a26c8fc4<br/>          |
 
@@ -79,9 +85,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsPresentationDevice**](iwmspresentationdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

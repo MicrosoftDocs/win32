@@ -1,8 +1,9 @@
 ---
 title: MountVHD function
 description: Mounts the specified virtual hard disk file (.vhd file) as a virtual disk device.
-ms.assetid: 'eae54758-b73c-4bf3-a797-26649c807a34'
-keywords: ["MountVHD function Virtual Server"]
+ms.assetid: eae54758-b73c-4bf3-a797-26649c807a34
+keywords:
+- MountVHD function Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VHDMount.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MountVHD function
@@ -22,8 +28,8 @@ Mounts the specified virtual hard disk file (.vhd file) as a virtual disk device
 
 ```C++
 ULONG WINAPI MountVHD(
-  _In_ PWCHAR VHDFileName,
-  _In_ ULONG  Flags
+  _In_ PWCHAR VHDFileName,
+  _In_ ULONG  Flags
 );
 ```
 
@@ -60,7 +66,7 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,7 +74,7 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VHDMount.h</dt> </dl>             |
 | Library<br/>  | <dl> <dt>VHDMount.lib</dt> </dl>           |
 | DLL<br/>      | <dl> <dt>VHDMount.dll</dt> </dl>           |
@@ -91,9 +97,9 @@ On successful call, the return value is **ERROR\_SUCCESS** (0). Any of the [syst
 [**VHD\_FLAGS**](vhd-flags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

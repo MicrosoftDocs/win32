@@ -1,7 +1,12 @@
-﻿---
-Description: 'TheIPrintClassObjectFactory interface creates print filter-related interfaces.'
-ms.assetid: '09691b81-6488-4972-8cbc-7873e6717287'
+---
+Description: TheIPrintClassObjectFactory interface creates print filter-related interfaces.
+ms.assetid: 09691b81-6488-4972-8cbc-7873e6717287
 title: IPrintClassObjectFactory interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintClassObjectFactory interface

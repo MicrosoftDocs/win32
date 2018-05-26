@@ -1,7 +1,12 @@
 ---
-Description: 'The EndFlush method ends a flush operation.'
-ms.assetid: '9171a62a-9072-49a3-8e83-f66d7e1483da'
-title: 'COutputQueue.EndFlush method'
+Description: The EndFlush method ends a flush operation.
+ms.assetid: 9171a62a-9072-49a3-8e83-f66d7e1483da
+title: COutputQueue.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.EndFlush method
@@ -27,7 +32,7 @@ This method does not return a value.
 
 ## Remarks
 
-If the object is using a thread, this method waits for the [**COutputQueue::m\_evFlushComplete**](coutputqueue-m-evflushcomplete.md) event. The thread signals this event after it frees any pending samples. If the object is not using a thread, this method calls the [**COutputQueue::FreeSamples**](coutputqueue-freesamples.md) method. Then the `EndFlush` method calls the [**IPin::EndFlush**](ipin-endflush.md) method on the input pin.
+If the object is using a thread, this method waits for the [**COutputQueue::m\_evFlushComplete**](coutputqueue-m-evflushcomplete.md) event. The thread signals this event after it frees any pending samples. If the object is not using a thread, this method calls the [**COutputQueue::FreeSamples**](coutputqueue-freesamples.md) method. Then the `EndFlush` method calls the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method on the input pin.
 
 ## Requirements
 
@@ -47,9 +52,9 @@ If the object is using a thread, this method waits for the [**COutputQueue::m\_e
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

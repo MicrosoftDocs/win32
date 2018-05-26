@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine ProcessorSpeed property
 description: The ProcessorSpeed property contains the speed, in megahertz, of the processor.
-ms.assetid: '40e72b52-4cb6-4415-b42e-661a46d68064'
-keywords: ["ProcessorSpeed property Virtual Server", "ProcessorSpeed property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , ProcessorSpeed property", "ProcessorSpeed property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , ProcessorSpeed property"]
+ms.assetid: 40e72b52-4cb6-4415-b42e-661a46d68064
+keywords:
+- ProcessorSpeed property Virtual Server
+- ProcessorSpeed property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , ProcessorSpeed property
+- ProcessorSpeed property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , ProcessorSpeed property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ProcessorSpeed property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ProcessorSpeed(
-  [out] long *processorSpeed
+  [out] long *processorSpeed
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "Processor speed" & objVM.ProcessorSpeed
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ WScript.Echo "Processor speed" & objVM.ProcessorSpeed
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

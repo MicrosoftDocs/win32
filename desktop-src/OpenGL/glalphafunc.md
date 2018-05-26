@@ -1,8 +1,9 @@
 ---
 title: glAlphaFunc function
 description: The glAlphaFunc function enables your application to set the alpha test function.
-ms.assetid: '6c0c06b5-1bad-4590-a262-f134f63f0936'
-keywords: ["glAlphaFunc function OpenGL"]
+ms.assetid: 6c0c06b5-1bad-4590-a262-f134f63f0936
+keywords:
+- glAlphaFunc function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glAlphaFunc function
@@ -22,8 +28,8 @@ The **glAlphaFunc** function enables your application to set the alpha test func
 
 ```C++
 void WINAPI glAlphaFunc(
-   GLenum   func,
-   GLclampf ref
+   GLenum   func,
+   GLclampf ref
 );
 ```
 
@@ -53,7 +59,7 @@ The alpha comparison function. The following are the accepted symbolic constants
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -118,8 +124,8 @@ The following functions retrieve information related to the **glAlphaFunc** func
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -157,9 +163,9 @@ The following functions retrieve information related to the **glAlphaFunc** func
 [**glStencilFunc**](glstencilfunc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

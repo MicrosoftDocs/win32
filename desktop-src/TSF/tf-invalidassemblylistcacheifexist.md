@@ -1,8 +1,9 @@
 ---
 title: TF\_InvalidAssemblyListCacheIfExist function
-description: The TF\_InvalidAssemblyListCacheIfExist function invalidates the text input processor's description cache.
-ms.assetid: 'a0f61b25-598c-417c-8679-7523c041f9ef'
-keywords: ["TF_InvalidAssemblyListCacheIfExist function Text Services Framework"]
+description: The TF\_InvalidAssemblyListCacheIfExist function invalidates the text input processors description cache.
+ms.assetid: a0f61b25-598c-417c-8679-7523c041f9ef
+keywords:
+- TF_InvalidAssemblyListCacheIfExist function Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - msctf.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_InvalidAssemblyListCacheIfExist function
@@ -43,7 +49,7 @@ This function can return one of these values.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -52,7 +58,7 @@ There is no import library available that defines this function, so it is necess
 > [!Note]  
 > Using [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to [Dynamic-Link Library Search Order](https://msdn.microsoft.com/library/windows/desktop/ms682586) for information on how to correctly load DLLs with different versions of Microsoft Windows.
 
- 
+ 
 
 
 ```C++
@@ -89,16 +95,16 @@ else
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | DLL<br/>                      | <dl> <dt>Msctf.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

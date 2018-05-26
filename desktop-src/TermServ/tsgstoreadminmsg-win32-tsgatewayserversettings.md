@@ -4,11 +4,14 @@ description: Updates the administrative message for the gateway server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '84e5b967-12fd-47a7-93e4-2550c15c4491'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 84e5b967-12fd-47a7-93e4-2550c15c4491
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TSGStoreAdminMsg method Remote Desktop Services", "TSGStoreAdminMsg method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , TSGStoreAdminMsg method"]
+keywords:
+- TSGStoreAdminMsg method Remote Desktop Services
+- TSGStoreAdminMsg method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , TSGStoreAdminMsg method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TSGStoreAdminMsg method of the Win32\_TSGatewayServerSettings class
@@ -28,9 +34,9 @@ Updates the administrative message for the gateway server.
 
 ```mof
 uint32 TSGStoreAdminMsg(
-  [in] string TSGAdmMsg,
-  [in] string MsgStartTime,
-  [in] string MsgEndTime
+  [in] string TSGAdmMsg,
+  [in] string MsgStartTime,
+  [in] string MsgEndTime
 );
 ```
 
@@ -86,7 +92,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -100,9 +106,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The name of the interface to be returned by QueryInterface.'
-ms.assetid: '3db34c89-a97d-47a2-97dd-4bb80da09e82'
+Description: The name of the interface to be returned by QueryInterface.
+ms.assetid: 3db34c89-a97d-47a2-97dd-4bb80da09e82
 title: interface element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # interface element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

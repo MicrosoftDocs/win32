@@ -1,7 +1,12 @@
-﻿---
-Description: 'The HCRYPTHASH data type is used to represent handles to hash objects.'
-ms.assetid: '3b872bf0-cf1b-465b-82a2-c6fd154e1125'
+---
+Description: The HCRYPTHASH data type is used to represent handles to hash objects.
+ms.assetid: 3b872bf0-cf1b-465b-82a2-c6fd154e1125
 title: HCRYPTHASH
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HCRYPTHASH

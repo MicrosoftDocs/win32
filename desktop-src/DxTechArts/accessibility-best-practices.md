@@ -1,12 +1,17 @@
 ---
 title: Making Video Games Accessible Business Justifications and Design Considerations
 description: This article is for game content developers and producers who want to reach the accessibility community market by adding basic accessibility features to help people with disabilities or impairments.
-ms.assetid: '95580b75-fb8e-b8a9-2137-40d6c60ae35d'
+ms.assetid: 95580b75-fb8e-b8a9-2137-40d6c60ae35d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making Video Games Accessible: Business Justifications and Design Considerations
 
-Game publishers and developers love to focus on features that will get their titles noticed by the mainstream gaming community, such as graphics and audio. But there is another audience, eager to take part in these games as well. These gamers come from the accessibility community — a community of people with disabilities, as well as those who care about their welfare.
+Game publishers and developers love to focus on features that will get their titles noticed by the mainstream gaming community, such as graphics and audio. But there is another audience, eager to take part in these games as well. These gamers come from the accessibility community   a community of people with disabilities, as well as those who care about their welfare.
 
 This article is for game content developers and producers who want to reach the accessibility community market by adding basic accessibility features to help people with disabilities or impairments. The following topics will be discussed:
 
@@ -85,7 +90,7 @@ Below are different categories of disabilities. Each category includes some rela
 
 ## Visual Impairments
 
-*"My presentation was followed by a lively question and answer session, and one notable moment occurred when one of the staffers asked a question about accessibility in \[our\] games... this 28-year-old staffer is an avid gamer who used to play \[our game\] with a wide circle of friends. Because he is color blind, however, it was hard for him to tell the good guys from the bad guys and the game finally became too frustrating. When the new version... came out and \[we\] hadn't fixed the problem, he and his friends all decided to buy a competitor's game instead."—an anonymous industry executive*
+*"My presentation was followed by a lively question and answer session, and one notable moment occurred when one of the staffers asked a question about accessibility in \[our\] games... this 28-year-old staffer is an avid gamer who used to play \[our game\] with a wide circle of friends. Because he is color blind, however, it was hard for him to tell the good guys from the bad guys and the game finally became too frustrating. When the new version... came out and \[we\] hadn't fixed the problem, he and his friends all decided to buy a competitor's game instead." an anonymous industry executive*
 
 The term "visual impairment" often brings to mind someone who is completely blind. However, it is startling to know that 8.7% of the male population is affected by some level of color blindness ("[How do people inherit colorblindness? How often?](http://www.webexhibits.org/causesofcolor/2C.mdl)," WebExhibits.org). Another 1.2% of individuals are affected by more severe forms of visual impairment ("[Disability Info: Visual Impairments Fact Sheet](http://nichcy.org/disability/specific/visualimpairment)," National Dissemination Center for Children with Disabilities). That means almost one out of every ten potential gamers have issues affecting their eyesight that can impact their gaming experience.
 
@@ -100,7 +105,7 @@ To help you understand visual impairment issues, imagine that:
 
 
 
- 
+ 
 
 With a few simple steps and features, you can address these issues and improve the gaming experience for both gamers with normal vision and gamers with a visual impairment.
 
@@ -111,7 +116,7 @@ With a few simple steps and features, you can address these issues and improve t
 
 ## Auditory Impairments
 
-*"Memories of Half-Life return to haunt us as yet another technological masterpiece \[Halo\] is useless to the deaf gamer... Let's hope, no pray! that if Halo 2 ever sees the light of day that it will be fully subtitled."—www.DeafGamers.com*
+*"Memories of Half-Life return to haunt us as yet another technological masterpiece \[Halo\] is useless to the deaf gamer... Let's hope, no pray! that if Halo 2 ever sees the light of day that it will be fully subtitled." www.DeafGamers.com*
 
 The next most prevalent form of impairments that can affect game play is auditory impairments. In the U.S. alone, over 28 million people are affected by some sort of hearing impairment. While hearing impairments are often associated with age, 17 out of every 1,000 children under the age of 18 are affected with a hearing impairment ("[Statistics about Hearing Disorders, Ear Infections, and Deafness](http://www.nidcd.nih.gov/health/statistics/pages/hearing.aspx)," National Institute on Deafness and Other Communication Disorders). When one considers that the gamers of today are getting older and losing their hearing at an ever-increasing rate, it is clear that demand for audio accessibility will only grow.
 
@@ -127,7 +132,7 @@ To help you understand auditory impairment issues, imagine that:
 
 
 
- 
+ 
 
 With some relatively minor work, you can make your game usable and enjoyable for gamers with normal hearing and for gamers who have an auditory impairment.
 
@@ -137,7 +142,7 @@ With some relatively minor work, you can make your game usable and enjoyable for
 
 ## Mobility Impairments
 
-*"Videogames offer people with disabilities the opportunity to reconnect with their peers and abilities that have been lost or never had. My personal experience comes from being paralyzed at the age of 14 years old and visiting the recreational center in the hospital and the only interest I had to break out of my depression was to play the videogame system. I quickly lost interest when I learned I could not play them..."—Robert Florio*
+*"Videogames offer people with disabilities the opportunity to reconnect with their peers and abilities that have been lost or never had. My personal experience comes from being paralyzed at the age of 14 years old and visiting the recreational center in the hospital and the only interest I had to break out of my depression was to play the videogame system. I quickly lost interest when I learned I could not play them..." Robert Florio*
 
 Mobility impairments are perhaps the hardest of the various impairments to get firm statistics on. This is primarily due to the fact that these impairments can be caused by disease, neurological disorders, loss of limbs/digits, paralysis, etc. which each can have a varying degree of impact on a video gamer's experience. These impairments may be congenital, or may occur later in life.
 
@@ -153,7 +158,7 @@ To help you understand auditory impairment issues, imagine that:
 
 
 
- 
+ 
 
 Thinking about accommodating all these gamers is challenging, but there are some easy things you can keep in mind when developing your games.
 
@@ -177,7 +182,7 @@ To help you understand auditory impairment issues, imagine that:
 
 
 
- 
+ 
 
 Fortunately, there are some easy fixes that can make your game usable and enjoyable for these gamers.
 
@@ -222,9 +227,9 @@ Speech Impairment Sites:
 
 -   [American Speech-Language-Hearing Association](http://www.asha.org/public/speech/)
 
- 
+ 
 
- 
+ 
 
 
 

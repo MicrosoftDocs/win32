@@ -1,7 +1,12 @@
 ---
-Description: 'The CompareAddresses function compares two addresses, indicating that one of the addresses is greater than, less than, or equal to the other address.'
-ms.assetid: '76ff37d2-714f-4bac-adcc-eab78c8f25d3'
+Description: The CompareAddresses function compares two addresses, indicating that one of the addresses is greater than, less than, or equal to the other address.
+ms.assetid: 76ff37d2-714f-4bac-adcc-eab78c8f25d3
 title: CompareAddresses function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CompareAddresses function
@@ -13,8 +18,8 @@ The **CompareAddresses** function compares two addresses, indicating that one of
 
 ```C++
 int WINAPI CompareAddresses(
-  _In_ LPADDRESS lpAddress1,
-  _In_ LPADDRESS lpAddress2
+  _In_ LPADDRESS lpAddress1,
+  _In_ LPADDRESS lpAddress2
 );
 ```
 
@@ -58,8 +63,8 @@ Network Monitor provides two other functions, [CompareFrameDestAddress](comparef
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -76,9 +81,9 @@ Network Monitor provides two other functions, [CompareFrameDestAddress](comparef
 [CompareFrameSourceAddress](compareframesourceaddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

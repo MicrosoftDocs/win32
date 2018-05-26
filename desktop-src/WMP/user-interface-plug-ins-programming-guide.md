@@ -1,8 +1,20 @@
 ---
 title: User Interface Plug-ins Programming Guide
 description: User Interface Plug-ins Programming Guide
-ms.assetid: '7bc0805a-306d-4b48-bc24-41077c8c7b3d'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,user interface plug-ins", "Windows Media Player plug-ins,user interface", "plug-ins,user interface", "user interface plug-ins,programming guide", "UI plug-ins,programming guide", "programming guide,user interface plug-ins"]
+ms.assetid: 7bc0805a-306d-4b48-bc24-41077c8c7b3d
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,user interface plug-ins
+- Windows Media Player plug-ins,user interface
+- plug-ins,user interface
+- user interface plug-ins,programming guide
+- UI plug-ins,programming guide
+- programming guide,user interface plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Plug-ins Programming Guide

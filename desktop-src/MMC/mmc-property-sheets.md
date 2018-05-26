@@ -4,11 +4,16 @@ description: Describes the addition of property pages.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61293c6c-178c-42a3-8802-5c0ec252d17a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 61293c6c-178c-42a3-8802-5c0ec252d17a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC", "MMC, property sheets"]
+keywords:
+- MMC
+- MMC, property sheets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Property Sheets

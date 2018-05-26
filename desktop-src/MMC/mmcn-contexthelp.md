@@ -1,14 +1,15 @@
 ---
 title: MMCN\_CONTEXTHELP message
-description: The MMCN\_CONTEXTHELP notification message is sent to the snap-in's IComponent implementation when the user requests help about a selected item by pressing the F1 key or Help button.
+description: The MMCN\_CONTEXTHELP notification message is sent to the snap-ins IComponent implementation when the user requests help about a selected item by pressing the F1 key or Help button.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e12616c0-e5bc-4a0d-8199-467c1647acf6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e12616c0-e5bc-4a0d-8199-467c1647acf6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_CONTEXTHELP message MMC"]
+keywords:
+- MMCN_CONTEXTHELP message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_CONTEXTHELP message
 
-The **MMCN\_CONTEXTHELP** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when the user requests help about a selected item by pressing the F1 key or **Help** button.
+The **MMCN\_CONTEXTHELP** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user requests help about a selected item by pressing the F1 key or **Help** button.
 
 A snap-in responds to **MMCN\_CONTEXTHELP** by that displays a Help topic for the particular context by calling the [**IDisplayHelp::ShowTopic**](idisplayhelp-showtopic.md) method.
 
@@ -81,8 +85,8 @@ If the snap-in handles the **MMCN\_CONTEXTHELP** notification, MMC expects the s
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -94,9 +98,9 @@ If the snap-in handles the **MMCN\_CONTEXTHELP** notification, MMC expects the s
 [Adding HTML Help Support](adding-html-help-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

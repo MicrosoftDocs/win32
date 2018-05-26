@@ -1,8 +1,15 @@
 ---
 title: Deleting a Rendering Context
 description: The following code sample shows how to delete an OpenGL rendering context when an OpenGL window is closed. It is a continuation of the scenario used in Creating a Rendering Context and Making It Current.
-ms.assetid: '562c4698-f5bb-418a-8479-0df07e9834e5'
-keywords: ["OpenGL on Windows,rendering contexts", "rendering contexts OpenGL"]
+ms.assetid: 562c4698-f5bb-418a-8479-0df07e9834e5
+keywords:
+- OpenGL on Windows,rendering contexts
+- rendering contexts OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting a Rendering Context

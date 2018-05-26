@@ -4,11 +4,15 @@ description: Object Identifiers (OIDs) are unique numeric values issued by vario
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a8f5a1c7-eda3-4430-b959-daef13c00a1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a8f5a1c7-eda3-4430-b959-daef13c00a1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["object identifiers AD"]
+keywords:
+- object identifiers AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Object Identifiers

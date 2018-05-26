@@ -4,17 +4,22 @@ description: List of OID/CSP name concatenations.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b68a868c-6627-4233-ba7e-2fd50b513298'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b68a868c-6627-4233-ba7e-2fd50b513298
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["CA-Usages attribute AD Schema", "cAUsages attribute AD Schema"]
+keywords:
+- CA-Usages attribute AD Schema
+- cAUsages attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - CA-Usages
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CA-Usages attribute
@@ -38,12 +43,12 @@ List of OID/CSP name concatenations.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ List of OID/CSP name concatenations.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

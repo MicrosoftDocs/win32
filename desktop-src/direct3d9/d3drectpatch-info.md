@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a rectangular high-order patch.'
-ms.assetid: '5f195009-d047-4dc0-a386-e1a434914e34'
-title: 'D3DRECTPATCH\_INFO structure'
+---
+Description: Describes a rectangular high-order patch.
+ms.assetid: 5f195009-d047-4dc0-a386-e1a434914e34
+title: D3DRECTPATCH\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DRECTPATCH\_INFO structure
@@ -162,7 +167,7 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**DrawRectPatch**](idirect3ddevice9--drawrectpatch.md)
+[**DrawRectPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch?branch=master)
 </dt> <dt>
 
 [**D3DXTessellateRectPatch**](d3dxtessellaterectpatch.md)

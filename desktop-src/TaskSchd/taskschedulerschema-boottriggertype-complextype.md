@@ -1,14 +1,20 @@
 ---
 title: bootTriggerType Complex Type
 description: Defines the child element and sequencing information for the BootTrigger element.
-ms.assetid: '36ade928-7640-4f91-ab76-18398b0cd65f'
-keywords: ["bootTriggerType complex type Task Scheduler"]
+ms.assetid: 36ade928-7640-4f91-ab76-18398b0cd65f
+keywords:
+- bootTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - bootTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bootTriggerType Complex Type
@@ -53,8 +59,8 @@ In addition to the child element defined here, the [**BootTrigger**](taskschedul
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ In addition to the child element defined here, the [**BootTrigger**](taskschedul
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

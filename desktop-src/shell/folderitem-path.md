@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the item''s full path and name.'
-ms.assetid: 'c94c7c1c-9dc9-4bb8-b7ec-01541baa2924'
-title: 'FolderItem.Path property'
+---
+Description: Contains the items full path and name.
+ms.assetid: c94c7c1c-9dc9-4bb8-b7ec-01541baa2924
+title: FolderItem.Path property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.Path property

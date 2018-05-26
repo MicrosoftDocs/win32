@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the VirtualMemory property to the amount of available page file space in megabytes.'
-ms.assetid: '037b78b3-4fcf-443f-bd17-fecace24b522'
+---
+Description: The installer sets the VirtualMemory property to the amount of available page file space in megabytes.
+ms.assetid: 037b78b3-4fcf-443f-bd17-fecace24b522
 title: VirtualMemory property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VirtualMemory property

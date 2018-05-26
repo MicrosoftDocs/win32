@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to indicate that the source buffer is updating.'
-ms.assetid: '3c41f50f-7f0b-4676-9522-3866aedab047'
-title: 'IMFSourceBufferNotify::OnUpdate method'
+---
+Description: Used to indicate that the source buffer is updating.
+ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
+title: IMFSourceBufferNotifyOnUpdate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFSourceBufferNotify::OnUpdate method
@@ -41,7 +46,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IMFSourceBufferNotify**](imfsourcebuffernotify.md)
+[**IMFSourceBufferNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify?branch=master)
 </dt> </dl>
 
  

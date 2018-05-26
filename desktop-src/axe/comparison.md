@@ -1,14 +1,20 @@
 ---
 title: Comparison element
 description: Specifies how AXE compares metric values.
-ms.assetid: '70DF348C-02CC-4C83-B107-001FA4A595DD'
-keywords: ["Comparison element Access Execution Engine"]
+ms.assetid: 70DF348C-02CC-4C83-B107-001FA4A595DD
+keywords:
+- Comparison element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Comparison
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Comparison element
@@ -80,9 +86,9 @@ AbsoluteOffsetPercentTrueIsPassFalseIsPassContainsStringIsPassContainsStringIsFa
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

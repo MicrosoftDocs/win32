@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETWIZBUTTONS message
 description: Enables or disables the Back, Next, and Finish buttons in a wizard. You can also use the PropSheet\_SetWizButtons macro to post the message.
-ms.assetid: 'e32abdb0-12d1-471e-a309-662389e0dba4'
-keywords: ["PSM_SETWIZBUTTONS message Windows Controls"]
+ms.assetid: e32abdb0-12d1-471e-a309-662389e0dba4
+keywords:
+- PSM_SETWIZBUTTONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETWIZBUTTONS message
 
-Enables or disables the **Back**, **Next**, and **Finish** buttons in a wizard. You can also use the [**PropSheet\_SetWizButtons**](propsheet-setwizbuttons.md) macro to post the message.
+Enables or disables the **Back**, **Next**, and **Finish** buttons in a wizard. You can also use the [**PropSheet\_SetWizButtons**](/windows/win32/Prsht/nf-prsht-propsheet_setwizbuttons?branch=master) macro to post the message.
 
 ## Parameters
 
@@ -29,7 +35,7 @@ Set this parameter to PSWIZBF\_ELEVATIONREQUIRED to display the elevated icon on
 > [!Note]  
 > Displaying the UAC shield icon is only supported in AeroWizards (PSH\_AEROWIZARD).
 
- 
+ 
 
 </dd> <dt>
 
@@ -49,7 +55,7 @@ Value that specifies which property sheet buttons are enabled. You can combine o
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -61,9 +67,9 @@ No return value.
 
 If your notification handler uses [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) to send a **PSM\_SETWIZBUTTONS** message, do nothing that will affect window focus until after the handler returns. For example, if you call [**MessageBox**](https://msdn.microsoft.com/library/windows/desktop/ms645505) immediately after using **PostMessage** to send **PSM\_SETWIZBUTTONS**, the message box will receive focus. Since posted messages are not delivered until they reach the head of the message queue, the **PSM\_SETWIZBUTTONS** message will not be delivered until after the wizard has lost focus to the message box. As a result, the property sheet will not be able to properly set the focus for the buttons.
 
-If you send the PSM\_SETWIZBUTTONS message during your handling of the [PSN\_SETACTIVE](psn-setactive.md) notification, use the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function rather than the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function. Otherwise, the system will not update the buttons properly. If you use the [**PropSheet\_SetWizButtons**](propsheet-setwizbuttons.md) macro to send this message, it will be posted. At any other time, you can use **SendMessage** to send **PSM\_SETWIZBUTTONS**.
+If you send the PSM\_SETWIZBUTTONS message during your handling of the [PSN\_SETACTIVE](psn-setactive.md) notification, use the [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944) function rather than the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function. Otherwise, the system will not update the buttons properly. If you use the [**PropSheet\_SetWizButtons**](/windows/win32/Prsht/nf-prsht-propsheet_setwizbuttons?branch=master) macro to send this message, it will be posted. At any other time, you can use **SendMessage** to send **PSM\_SETWIZBUTTONS**.
 
-Wizards display either three or four buttons below each page. This message is used to specify which buttons are enabled. Wizards normally display **Back**, **Cancel**, and either a **Next** or **Finish** button. You typically enable only the **Next** button for the welcome page, **Next** and **Back** for interior pages, and **Back** and **Finish** for the completion page. The **Cancel** button is always enabled. Normally, setting PSWIZB\_FINISH or PSWIZB\_DISABLEDFINISH replaces the **Next** button with a **Finish** button. To display **Next** and **Finish** buttons simultaneously, set the PSH\_WIZARDHASFINISH flag in the **dwFlags** member of the wizard's [**PROPSHEETHEADER**](propsheetheader.md) structure when you create the wizard. Every page will then display all four buttons.
+Wizards display either three or four buttons below each page. This message is used to specify which buttons are enabled. Wizards normally display **Back**, **Cancel**, and either a **Next** or **Finish** button. You typically enable only the **Next** button for the welcome page, **Next** and **Back** for interior pages, and **Back** and **Finish** for the completion page. The **Cancel** button is always enabled. Normally, setting PSWIZB\_FINISH or PSWIZB\_DISABLEDFINISH replaces the **Next** button with a **Finish** button. To display **Next** and **Finish** buttons simultaneously, set the PSH\_WIZARDHASFINISH flag in the **dwFlags** member of the wizard's [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure when you create the wizard. Every page will then display all four buttons.
 
 ## Requirements
 
@@ -71,15 +77,15 @@ Wizards display either three or four buttons below each page. This message is us
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Effect Group Syntax (Direct3D 11)
 description: An effect group is declared with the syntax described in this section.
-ms.assetid: 'f6695ae5-198f-45bd-853b-8c02fabd0c39'
+ms.assetid: f6695ae5-198f-45bd-853b-8c02fabd0c39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Group Syntax (Direct3D 11)
@@ -42,7 +47,7 @@ fxgroup GroupName  [ <Annotations > ]
 
 
 
- 
+ 
 
 ## Groups and Techniques
 
@@ -99,9 +104,9 @@ In order to ensure that [**ID3DX11Effect::GetTechniqueByName**](id3dx11effect-ge
 [Effect Technique Syntax (Direct3D 11)](d3d11-effect-technique-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

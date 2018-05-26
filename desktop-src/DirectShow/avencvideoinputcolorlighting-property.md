@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the intended lighting conditions for viewing the input video.'
-ms.assetid: '718a6d56-c869-4340-bbb8-cac5b231c37e'
+Description: Specifies the intended lighting conditions for viewing the input video.
+ms.assetid: 718a6d56-c869-4340-bbb8-cac5b231c37e
 title: AVEncVideoInputColorLighting property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoInputColorLighting property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncVideoColorLighting**](eavencvideocolorlighting.md) enumeration.
+The value of this property is a member of the [**eAVEncVideoColorLighting**](/windows/win32/codecapi/ne-codecapi-eavencvideocolorlighting?branch=master) enumeration.
 
 ## Requirements
 
@@ -28,8 +33,8 @@ The value of this property is a member of the [**eAVEncVideoColorLighting**](eav
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The value of this property is a member of the [**eAVEncVideoColorLighting**](eav
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

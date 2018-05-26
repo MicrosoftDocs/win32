@@ -1,7 +1,12 @@
-﻿---
-Description: 'Microsoft Media Foundation was introduced in Windows Vista as the replacement for DirectShow. Of course, DirectShow is still supported in Windows 7, but developers are encouraged to use Media Foundation in their new digital media applications.'
-ms.assetid: 'c345c0d9-5325-4f73-b9ec-1673ad10e3e4'
-title: 'What's New for Media Foundation'
+---
+Description: Microsoft Media Foundation was introduced in Windows Vista as the replacement for DirectShow. Of course, DirectShow is still supported in Windows 7, but developers are encouraged to use Media Foundation in their new digital media applications.
+ms.assetid: c345c0d9-5325-4f73-b9ec-1673ad10e3e4
+title: Whats New for Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New for Media Foundation
@@ -75,8 +80,8 @@ Windows 7 includes numerous enhancements to the underlying Media Foundation pla
 -   Changes in the video pipeline to reduce power consumption and video memory usage.
 -   [DXVA-HD](dxva-hd.md): Microsoft DirectX Video Acceleration High Definition (DXVA-HD) is a new API for hardware-accelerated video processing. DXVA-HD offers a more flexible compositing model than the previous DXVA video processing API, and is better suited for high-definition video formats..
 -   A new mechanism for enumerating sources and decoders, which includes merit values and a preferred/blocked list. This feature improves the overall reliability of the system. For more information, see the following topics:
-    -   [**MFTEnumEx**](mftenumex.md)
-    -   [**IMFPluginControl**](imfplugincontrol.md)
+    -   [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master)
+    -   [**IMFPluginControl**](/windows/win32/mfobjects/nn-mfobjects-imfplugincontrol?branch=master)
     -   [Codec Merit](codec-merit.md)
 
 ## SDK Changes
@@ -98,15 +103,15 @@ Windows 7 includes numerous enhancements to the underlying Media Foundation pla
 
 Some of the new updates to Media Foundation with Windows 8 are:
 
--   The [**IMFCaptureEngine**](imfcaptureengine.md) controls one or more capture devices. See the [Capture Engine Attributes](capture-engine-attributes.md) for a list of attributes. Other new media capture related interfaces are [**IMFCapturePhotoSink**](imfcapturephotosink.md), [**IMFCapturePreviewSink**](imfcapturepreviewsink.md), [**IMFCaptureRecordSink**](imfcapturerecordsink.md), [**IMFCaptureSink**](imfcapturesink.md), and [**IMFCaptureSource**](imfcapturesource.md).
+-   The [**IMFCaptureEngine**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine?branch=master) controls one or more capture devices. See the [Capture Engine Attributes](capture-engine-attributes.md) for a list of attributes. Other new media capture related interfaces are [**IMFCapturePhotoSink**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcapturephotosink?branch=master), [**IMFCapturePreviewSink**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcapturepreviewsink?branch=master), [**IMFCaptureRecordSink**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcapturerecordsink?branch=master), [**IMFCaptureSink**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcapturesink?branch=master), and [**IMFCaptureSource**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcapturesource?branch=master).
 -   The following Media Foundation class extensions are new for Windows 8:
-    -   [**IMFMediaEngineEx**](imfmediaengineex.md)
-    -   [**IMFMediaSourceEx**](imfmediasourceex.md)
-    -   [**IMFRealTimeClientEx**](imfrealtimeclientex.md)
-    -   [**IMFSinkWriterEx**](imfsinkwriterex.md)
-    -   [**IMFSourceReaderEx**](imfsourcereaderex.md)
-    -   [**IMFVideoSampleAllocatorEx**](imfvideosampleallocatorex.md)
-    -   [**IMFWorkQueueServicesEx**](imfworkqueueservicesex.md)
+    -   [**IMFMediaEngineEx**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineex?branch=master)
+    -   [**IMFMediaSourceEx**](/windows/win32/mfidl/nn-mfidl-imfmediasourceex?branch=master)
+    -   [**IMFRealTimeClientEx**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclientex?branch=master)
+    -   [**IMFSinkWriterEx**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsinkwriterex?branch=master)
+    -   [**IMFSourceReaderEx**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereaderex?branch=master)
+    -   [**IMFVideoSampleAllocatorEx**](/windows/win32/mfidl/nn-mfidl-imfvideosampleallocatorex?branch=master)
+    -   [**IMFWorkQueueServicesEx**](/windows/win32/mfidl/nn-mfidl-imfworkqueueservicesex?branch=master)
 -   [Direct3D 11 Video API](direct3d-11-video-apis.md) are new for Windows 8. Windows 8 Desktop apps can still use [Direct3D 9 Video API](direct3d-video-apis.md), but Windows Store apps must use the new Direct3D 11 Video API. For info more info on Microsoft Direct3D 11 Video see [Supporting Direct3D 11 Video Decoding in Media Foundation](supporting-direct3d-11-video-decoding-in-media-foundation.md).
 -   There have been updates and improvements to Media Foundation work queues. See [Work Queue and Threading Improvements](media-foundation-work-queue-and-threading-improvements.md) for more info.
 -   [H.264 UVC 1.5 camera encoders](camera-encoder-h264-uvc-1-5.md).

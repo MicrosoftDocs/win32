@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.BatchingLock method
 description: Locks the System Monitor to prevent it from sampling counter data from the newly added counter or log file.
-ms.assetid: '6b9d683a-7a97-44a4-9eb6-6caaafe2abdd'
-keywords: ["BatchingLock method SysMon", "BatchingLock method SysMon , SystemMonitor object", "SystemMonitor object SysMon , BatchingLock method"]
+ms.assetid: 6b9d683a-7a97-44a4-9eb6-6caaafe2abdd
+keywords:
+- BatchingLock method SysMon
+- BatchingLock method SysMon , SystemMonitor object
+- SystemMonitor object SysMon , BatchingLock method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.BatchingLock method
@@ -43,7 +51,7 @@ Set to True to lock the System Monitor to prevent it from sampling counter data 
 *batchReason* \[in\]
 </dt> <dd>
 
-Identifies the source of the data that you are locking. Use the same reason value when locking and unlocking the resource. For possible values, see the [**SysmonBatchReason**](sysmonbatchreason.md) enumeration.
+Identifies the source of the data that you are locking. Use the same reason value when locking and unlocking the resource. For possible values, see the [**SysmonBatchReason**](/windows/win32/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0003?branch=master) enumeration.
 
 </dd> </dl>
 
@@ -63,8 +71,8 @@ You can place only one lock. For example, if you set the lock for SysmonBatchAdd
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -76,9 +84,9 @@ You can place only one lock. For example, if you set the lock for SysmonBatchAdd
 [**SystemMonitor**](systemmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

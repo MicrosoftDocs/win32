@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Id property is a null-terminated string that contains a unique identifier for the outbound fax job. You can use the identifier to retrieve the archived fax message after the job completes successfully.'
-ms.assetid: '668e96c6-679e-42cf-b444-eda1586e3b53'
-title: 'FaxOutgoingJob.Id property'
+---
+Description: The Id property is a null-terminated string that contains a unique identifier for the outbound fax job. You can use the identifier to retrieve the archived fax message after the job completes successfully.
+ms.assetid: 668e96c6-679e-42cf-b444-eda1586e3b53
+title: FaxOutgoingJob.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.Id property
@@ -46,7 +51,7 @@ A **String** that receives a unique identifier for the outbound fax job.
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

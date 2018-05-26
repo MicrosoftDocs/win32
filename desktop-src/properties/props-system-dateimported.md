@@ -1,7 +1,12 @@
 ---
-Description: 'The date and time the file was imported into a private application database.'
-ms.assetid: 'b859c2c9-0985-451c-be05-e17101bc2f3c'
-title: 'System.DateImported'
+Description: The date and time the file was imported into a private application database.
+ms.assetid: b859c2c9-0985-451c-be05-e17101bc2f3c
+title: System.DateImported
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DateImported

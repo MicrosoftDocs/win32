@@ -1,8 +1,9 @@
 ---
 title: LB\_SETTABSTOPS message
 description: Sets the tab-stop positions in a list box.
-ms.assetid: 'b96b974e-b1e6-4361-98bb-4dc21c752690'
-keywords: ["LB_SETTABSTOPS message Windows Controls"]
+ms.assetid: b96b974e-b1e6-4361-98bb-4dc21c752690
+keywords:
+- LB_SETTABSTOPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETTABSTOPS message
@@ -49,7 +55,7 @@ If *lParam* points to more than a single value, a tab stop will be set for each 
 
 The values specified by *lParam* are in dialog template units, which are the device-independent units used in dialog box templates. To convert measurements from dialog template units to screen units (pixels), use the [**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502) function.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer pointed to by *lParam* must reside in writable memory, even though the message does not modify the array.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer pointed to by *lParam* must reside in writable memory, even though the message does not modify the array.
 
 ## Requirements
 
@@ -57,8 +63,8 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer point
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The buffer point
 [**MapDialogRect**](https://msdn.microsoft.com/library/windows/desktop/ms645502)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

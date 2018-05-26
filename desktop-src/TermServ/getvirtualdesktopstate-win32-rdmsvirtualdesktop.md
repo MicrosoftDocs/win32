@@ -4,11 +4,14 @@ description: Retrieves the state of the virtual desktop.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '176096ba-2b5f-428c-9216-02e3e97be64e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 176096ba-2b5f-428c-9216-02e3e97be64e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetVirtualDesktopState method Remote Desktop Services", "GetVirtualDesktopState method Remote Desktop Services , Win32_RDMSVirtualDesktop class", "Win32_RDMSVirtualDesktop class Remote Desktop Services , GetVirtualDesktopState method"]
+keywords:
+- GetVirtualDesktopState method Remote Desktop Services
+- GetVirtualDesktopState method Remote Desktop Services , Win32_RDMSVirtualDesktop class
+- Win32_RDMSVirtualDesktop class Remote Desktop Services , GetVirtualDesktopState method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetVirtualDesktopState method of the Win32\_RDMSVirtualDesktop class
@@ -28,7 +34,7 @@ Retrieves the state of the virtual desktop.
 
 ```mof
 uint32 GetVirtualDesktopState(
-  [out] uint32 VMState
+  [out] uint32 VMState
 );
 ```
 
@@ -168,7 +174,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -182,9 +188,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktop**](win32-rdmsvirtualdesktop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

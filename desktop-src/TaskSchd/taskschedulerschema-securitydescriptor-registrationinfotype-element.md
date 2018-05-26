@@ -1,14 +1,20 @@
 ---
 title: SecurityDescriptor (registrationInfoType) Element
 description: Specifies the security descriptor of the task.
-ms.assetid: '79821b20-226a-4e7e-8ca1-6c9cf9f1b56e'
-keywords: ["SecurityDescriptor element Task Scheduler"]
+ms.assetid: 79821b20-226a-4e7e-8ca1-6c9cf9f1b56e
+keywords:
+- SecurityDescriptor element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - SecurityDescriptor
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SecurityDescriptor (registrationInfoType) Element
@@ -37,7 +43,7 @@ The **SecurityDescriptor** element is defined by the [**registrationInfoType**](
 
 For scripting development, the security descriptor of a task is specified using the [**RegistrationInfo.SecurityDescriptor**](registrationinfo-securitydescriptor.md) property.
 
-For C++ development, the security descriptor of a task is specified using the [**IRegistrationInfo::SecurityDescriptor**](iregistrationinfo-securitydescriptor.md) property.
+For C++ development, the security descriptor of a task is specified using the [**IRegistrationInfo::SecurityDescriptor**](/windows/win32/taskschd/nf-taskschd-iregistrationinfo-get_securitydescriptor?branch=master) property.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ For C++ development, the security descriptor of a task is specified using the [*
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For C++ development, the security descriptor of a task is specified using the [*
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

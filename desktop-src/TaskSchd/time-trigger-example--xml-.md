@@ -1,14 +1,19 @@
 ---
 title: Time Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad at a specific time.
-ms.assetid: 'dde3627b-e268-45ef-9c26-08877bfe484f'
+ms.assetid: dde3627b-e268-45ef-9c26-08877bfe484f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time Trigger Example (XML)
 
 The XML in this example defines a task that starts Notepad at a specific time.
 
-To register a task that is defined in XML, you can use either the [**ITaskFolder::RegisterTask**](itaskfolder-registertask.md) function ([**TaskFolder.RegisterTask**](taskfolder-registertask.md) for scripting) or the Schtasks.exe command-line tool. If you use the Schtasks.exe tool (located in the C:\\Windows\\System32 directory), then you can use the following command to register the task: **schtasks /create /XML** *&lt;path to the XML file containing the task definition&gt;* **/tn** *&lt;task name&gt;*.
+To register a task that is defined in XML, you can use either the [**ITaskFolder::RegisterTask**](/windows/win32/taskschd/nf-taskschd-itaskfolder-registertask?branch=master) function ([**TaskFolder.RegisterTask**](taskfolder-registertask.md) for scripting) or the Schtasks.exe command-line tool. If you use the Schtasks.exe tool (located in the C:\\Windows\\System32 directory), then you can use the following command to register the task: **schtasks /create /XML** *&lt;path to the XML file containing the task definition&gt;* **/tn** *&lt;task name&gt;*.
 
 ## To define a task to start Notepad at a specific time
 

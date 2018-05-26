@@ -1,13 +1,16 @@
 ---
-Description: 'To receive notifications from the System Registry provider, a management application must register as a temporary event consumer.'
+Description: To receive notifications from the System Registry provider, a management application must register as a temporary event consumer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4cac5fdd-c842-4d7e-a56e-2e1312df68b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4cac5fdd-c842-4d7e-a56e-2e1312df68b4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering for System Registry Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering for System Registry Events
@@ -22,7 +25,7 @@ The following procedure describes how to register for system registry events.
 
 1.  Call a notification query method.
 
-    In either script or C++, use a notification query such as [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) or [**IWbemServices::ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md). Create a query string for the *bstrQuery* parameter of **IWbemServices::ExecNotificationQueryAsync** or the *strQuery* in script.
+    In either script or C++, use a notification query such as [**SWbemServices.ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) or [**IWbemServices::ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master). Create a query string for the *bstrQuery* parameter of **IWbemServices::ExecNotificationQueryAsync** or the *strQuery* in script.
 
 2.  Determine which type of event you want to receive and create the query.
 
@@ -39,7 +42,7 @@ The following procedure describes how to register for system registry events.
 
     
 
-     
+     
 
     These classes have a property called **Hive** that identifies the hierarchy of keys to be monitored for change, such as **HKEY\_LOCAL\_MACHINE**.
 
@@ -114,9 +117,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the checksum offload data settings for a network adapter.'
-ms.assetid: '5b766937-6c37-4873-9de8-0fc29d969f67'
-title: 'MSFT\_NetAdapterChecksumOffloadSettingData class'
+Description: Describes the checksum offload data settings for a network adapter.
+ms.assetid: 5b766937-6c37-4873-9de8-0fc29d969f67
+title: MSFT\_NetAdapterChecksumOffloadSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterChecksumOffloadSettingData class
@@ -53,7 +58,7 @@ The **MSFT\_NetAdapterChecksumOffloadSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -342,16 +347,16 @@ Indicates if UDP checksum offload is currently enabled for IPv6 packets on this 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

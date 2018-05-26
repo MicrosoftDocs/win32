@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNPPTriggerFromBlob function retrieves the trigger from the given BLOB.'
-ms.assetid: '48a27cf3-57b0-4241-a925-4209e0d384e2'
+Description: The GetNPPTriggerFromBlob function retrieves the trigger from the given BLOB.
+ms.assetid: 48a27cf3-57b0-4241-a925-4209e0d384e2
 title: GetNPPTriggerFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNPPTriggerFromBlob function
@@ -13,9 +18,9 @@ The **GetNPPTriggerFromBlob** function retrieves the trigger from the given BLOB
 
 ```C++
 DWORD GetNPPTriggerFromBlob(
-  _In_  HBLOB     hBlob,
-  _Out_ LPTRIGGER pTrigger,
-  _Out_ HBLOB     hErrorBlob
+  _In_  HBLOB     hBlob,
+  _Out_ LPTRIGGER pTrigger,
+  _Out_ HBLOB     hErrorBlob
 );
 ```
 
@@ -62,8 +67,8 @@ The trigger information is stored in the **Trigger** category of the BLOB.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -101,9 +106,9 @@ The trigger information is stored in the **Trigger** category of the BLOB.
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: IsTemplate element
 description: Indicates whether this job manifest is a template.
-ms.assetid: '5740B598-124B-45C6-AA8C-259CD6110F93'
-keywords: ["IsTemplate element Access Execution Engine"]
+ms.assetid: 5740B598-124B-45C6-AA8C-259CD6110F93
+keywords:
+- IsTemplate element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IsTemplate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsTemplate element

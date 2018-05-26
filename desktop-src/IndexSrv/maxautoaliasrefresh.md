@@ -1,7 +1,12 @@
 ---
 title: MaxAutoAliasRefresh
 description: MaxAutoAliasRefresh
-ms.assetid: '1aa79f0f-c011-4e47-ab9b-4d06dfa1f2d7'
+ms.assetid: 1aa79f0f-c011-4e47-ab9b-4d06dfa1f2d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxAutoAliasRefresh

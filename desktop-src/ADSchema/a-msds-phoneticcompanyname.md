@@ -4,17 +4,22 @@ description: Contains the phonetic company name where the person works.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '65314228-8d65-4854-a893-533dd80c282f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 65314228-8d65-4854-a893-533dd80c282f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Phonetic-Company-Name attribute AD Schema", "msDS-PhoneticCompanyName attribute AD Schema"]
+keywords:
+- ms-DS-Phonetic-Company-Name attribute AD Schema
+- msDS-PhoneticCompanyName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Phonetic-Company-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Phonetic-Company-Name attribute
@@ -38,9 +43,9 @@ Contains the phonetic company name where the person works.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the phonetic company name where the person works.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

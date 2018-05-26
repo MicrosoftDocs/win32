@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VmLANEndpoint class
 description: Represents the logical connection point for a network adapter.
-ms.assetid: 'e7250373-e176-47df-97c6-90a2eb240094'
-keywords: ["Msvm_VmLANEndpoint class Hyper-V", "Msvm_VmLANEndpoint class Hyper-V , described"]
+ms.assetid: e7250373-e176-47df-97c6-90a2eb240094
+keywords:
+- Msvm_VmLANEndpoint class Hyper-V
+- Msvm_VmLANEndpoint class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -43,6 +45,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VmLANEndpoint class
@@ -57,36 +64,36 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VmLANEndpoint : CIM_LANEndpoint
 {
-  string   Caption = "LAN Endpoint";
-  string   ElementName;
+  string   Caption = "LAN Endpoint";
+  string   ElementName;
   datetime InstallDate;
-  string   Status;
-  uint16   HealthState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VmLANEndpoint";
-  string   Description = "Microsoft Virtual LAN Endpoint";
-  uint16   OperationalStatus[] = 2;
-  uint16   EnabledState = 5;
+  string   Status;
+  uint16   HealthState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VmLANEndpoint";
+  string   Description = "Microsoft Virtual LAN Endpoint";
+  uint16   OperationalStatus[] = 2;
+  uint16   EnabledState = 5;
   datetime TimeOfLastStateChange;
-  string   NameFormat;
-  uint16   ProtocolType;
-  string   OtherTypeDescription = "Virtual Ethernet";
-  string   LANID;
-  uint16   LANType;
-  string   OtherLANType;
-  string   MACAddress;
-  string   AliasAddresses[];
-  string   GroupAddresses[];
-  uint16   ProtocolIFType;
-  string   StatusDescriptions[];
-  uint16   EnabledDefault = 2;
-  string   Name;
-  boolean  BroadcastResetSupported = False;
-  uint32   MaxDataSize = 1500;
-  boolean  Connected;
+  string   NameFormat;
+  uint16   ProtocolType;
+  string   OtherTypeDescription = "Virtual Ethernet";
+  string   LANID;
+  uint16   LANType;
+  string   OtherLANType;
+  string   MACAddress;
+  string   AliasAddresses[];
+  string   GroupAddresses[];
+  uint16   ProtocolIFType;
+  string   StatusDescriptions[];
+  uint16   EnabledDefault = 2;
+  string   Name;
+  boolean  BroadcastResetSupported = False;
+  uint32   MaxDataSize = 1500;
+  boolean  Connected;
 };
 ```
 
@@ -110,7 +117,7 @@ The **Msvm\_VmLANEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -662,9 +669,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -683,9 +690,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether the volume is automatically unlocked when it is mounted.'
-ms.assetid: 'cba04d77-1e7c-4191-8eb7-b8c43694193f'
-title: 'IsAutoUnlockEnabled method of the Win32\_EncryptableVolume class'
+---
+Description: Indicates whether the volume is automatically unlocked when it is mounted.
+ms.assetid: cba04d77-1e7c-4191-8eb7-b8c43694193f
+title: IsAutoUnlockEnabled method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsAutoUnlockEnabled method of the Win32\_EncryptableVolume class

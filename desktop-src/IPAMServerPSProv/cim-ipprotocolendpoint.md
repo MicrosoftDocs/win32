@@ -1,15 +1,18 @@
 ---
-Description: 'CIM\_IPProtocolEndpoint is a protocol endpoint that is dedicated to running Internet Protocol (IP).'
+Description: CIM\_IPProtocolEndpoint is a protocol endpoint that is dedicated to running Internet Protocol (IP).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '643297a7-abc4-407f-96cd-b70c4fa36284'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 643297a7-abc4-407f-96cd-b70c4fa36284
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_IPProtocolEndpoint class'
+title: CIM\_IPProtocolEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_IPProtocolEndpoint class
@@ -24,42 +27,42 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::ProtocolEndpoints"), Version("2.19.1"), AMENDMENT]
 class CIM_IPProtocolEndpoint : CIM_ProtocolEndpoint
 {
-  string   InstanceID;
-  string   Caption;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
   datetime TimeOfLastStateChange;
-  uint16   EnabledState;
-  uint16   OperationalStatus[];
-  string   Name;
-  string   Description;
-  string   NameFormat;
-  uint16   ProtocolType;
-  string   OtherTypeDescription;
-  uint16   ProtocolIFType = 4096;
-  string   IPv4Address;
-  string   IPv6Address;
-  string   Address;
-  string   SubnetMask;
-  uint8    PrefixLength;
-  uint16   AddressType;
-  uint16   IPVersionSupport;
-  uint16   AddressOrigin = 0;
+  uint16   EnabledState;
+  uint16   OperationalStatus[];
+  string   Name;
+  string   Description;
+  string   NameFormat;
+  uint16   ProtocolType;
+  string   OtherTypeDescription;
+  uint16   ProtocolIFType = 4096;
+  string   IPv4Address;
+  string   IPv6Address;
+  string   Address;
+  string   SubnetMask;
+  uint8    PrefixLength;
+  uint16   AddressType;
+  uint16   IPVersionSupport;
+  uint16   AddressOrigin = 0;
 };
 ```
 
@@ -82,7 +85,7 @@ The **CIM\_IPProtocolEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -195,14 +198,14 @@ A value of 8 "IPv6 AutoConfig" shall indicate the values were assinged using the
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -331,7 +334,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>12–65535</dd> </dl>
+</dt> <dd>12 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -653,14 +656,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -782,14 +785,14 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1443,14 +1446,14 @@ This property is inherited from [**CIM\_ProtocolEndpoint**](cim-protocolendpoint
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1609,7 +1612,7 @@ ProtocolIFType\\'s enumeration is limited to IP-related and reserved values for 
 **IANA Reserved**
 
 
-</dt> <dd>225–4095</dd> <dt>
+</dt> <dd>225 4095</dd> <dt>
 
 <span id="IPv4"></span><span id="ipv4"></span><span id="IPV4"></span>
 
@@ -1637,14 +1640,14 @@ ProtocolIFType\\'s enumeration is limited to IP-related and reserved values for 
 **DMTF Reserved**
 
 
-</dt> <dd>4301–32767</dd> <dt>
+</dt> <dd>4301 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1983,14 +1986,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2304,7 +2307,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–65535</dd> </dl>
+</dt> <dd>13 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -2315,16 +2318,16 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

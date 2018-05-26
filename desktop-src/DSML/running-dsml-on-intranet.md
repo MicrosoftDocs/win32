@@ -4,11 +4,15 @@ description: In a corporate environment that uses a Windows operating system, yo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f03bba79-0a95-4dc2-8668-17d914874588'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f03bba79-0a95-4dc2-8668-17d914874588
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Running DSML Services for Windows on an Intranet DSML"]
+keywords:
+- Running DSML Services for Windows on an Intranet DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running DSML Services for Windows on an Intranet

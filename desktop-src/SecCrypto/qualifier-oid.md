@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the object ID of the qualifier.'
-ms.assetid: '58ec2af7-f085-43bc-8ea8-926cb840abe9'
-title: 'Qualifier.OID property'
+---
+Description: Retrieves the object ID of the qualifier.
+ms.assetid: 58ec2af7-f085-43bc-8ea8-926cb840abe9
+title: Qualifier.OID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifier.OID property

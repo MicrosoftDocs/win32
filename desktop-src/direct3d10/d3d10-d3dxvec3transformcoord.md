@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms a 3D vector by a given matrix, projecting the result back into w = 1.'
-ms.assetid: 'e138fdc0-6999-45ab-8bcf-54f53bd9b1bf'
+---
+Description: Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
+ms.assetid: e138fdc0-6999-45ab-8bcf-54f53bd9b1bf
 title: D3DXVec3TransformCoord function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3TransformCoord function

@@ -1,7 +1,12 @@
 ---
 title: Memory Classes
 description: The memory classes model the memory for a virtual system.
-ms.assetid: 'c7230d0d-d512-481a-9759-122d56573f66'
+ms.assetid: c7230d0d-d512-481a-9759-122d56573f66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Classes
@@ -21,7 +26,7 @@ The following are virtualization WMI classes related to memory.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ The following are virtualization WMI classes related to memory.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: AssessmentResults class
 description: This interface provides access to AssessmentResults objects.
-ms.assetid: '2682566D-552F-44CD-939E-304E7F6E73C5'
-keywords: ["AssessmentResults class Access Execution Engine", "AssessmentResults class Access Execution Engine , described"]
+ms.assetid: 2682566D-552F-44CD-939E-304E7F6E73C5
+keywords:
+- AssessmentResults class Access Execution Engine
+- AssessmentResults class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResults class
@@ -37,7 +44,7 @@ The **AssessmentResults** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,16 +52,16 @@ The **AssessmentResults** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

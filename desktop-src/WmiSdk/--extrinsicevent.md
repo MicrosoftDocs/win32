@@ -1,13 +1,16 @@
 ---
-Description: 'Serves as a parent class for all user-defined event types, also known as extrinsic events.'
+Description: Serves as a parent class for all user-defined event types, also known as extrinsic events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8fddbcd1-7393-4a3b-8a10-a8b620efc19f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8fddbcd1-7393-4a3b-8a10-a8b620efc19f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ExtrinsicEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ExtrinsicEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __ExtrinsicEvent : __Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -76,8 +79,8 @@ The **\_\_ExtrinsicEvent** class is derived from [**\_\_Event**](--event.md).
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -92,9 +95,9 @@ The **\_\_ExtrinsicEvent** class is derived from [**\_\_Event**](--event.md).
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

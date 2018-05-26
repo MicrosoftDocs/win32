@@ -1,8 +1,11 @@
 ---
 title: IWMPControls currentPosition property
 description: The currentPosition property gets or sets the current position in the media item in seconds from the beginning.
-ms.assetid: '48f5241e-7528-485e-bf47-d655ba842af2'
-keywords: ["currentPosition property Windows Media Player", "currentPosition property Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , currentPosition property"]
+ms.assetid: 48f5241e-7528-485e-bf47-d655ba842af2
+keywords:
+- currentPosition property Windows Media Player
+- currentPosition property Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , currentPosition property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::currentPosition property
@@ -112,9 +120,9 @@ End Sub</code></pre></td>
 [**IWMPControls.currentPositionString (VB and C#)**](wmplibiwmpcontrols-iwmpcontrols-currentpositionstring--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Indexing Service Reference
 description: Indexing Service Reference
-ms.assetid: '4c07acf4-8893-4d74-ac18-fbc15d80c1a4'
+ms.assetid: 4c07acf4-8893-4d74-ac18-fbc15d80c1a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Service Reference

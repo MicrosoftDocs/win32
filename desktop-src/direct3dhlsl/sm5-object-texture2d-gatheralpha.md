@@ -1,14 +1,20 @@
 ---
 title: GatherAlpha(S,float,int) function
 description: Samples a texture and returns the alpha component.
-ms.assetid: '4c980e06-d768-479e-bee3-1b2541c23038'
-keywords: ["GatherAlpha function HLSL"]
+ms.assetid: 4c980e06-d768-479e-bee3-1b2541c23038
+keywords:
+- GatherAlpha function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherAlpha
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherAlpha(S,float,int) function

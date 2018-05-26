@@ -1,12 +1,17 @@
 ---
 title: Playing a Waveform-Audio File
 description: Playing a Waveform-Audio File
-ms.assetid: 'b28ee3e8-1633-4eb8-af1c-d1441ef752e1'
+ms.assetid: b28ee3e8-1633-4eb8-af1c-d1441ef752e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing a Waveform-Audio File
 
-The following example opens a waveform-audio device and plays the waveform-audio file specified by the *lpszWAVEFileName* parameter using the [**mciSendCommand**](mcisendcommand.md) function.
+The following example opens a waveform-audio device and plays the waveform-audio file specified by the *lpszWAVEFileName* parameter using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

@@ -1,8 +1,11 @@
 ---
 title: ExportVirtualSystem method of the Msvm\_VirtualSystemManagementService class
 description: Exports a virtual computer system in the \ 0034;powered off \ 0034; state to a file.
-ms.assetid: 'dab296f1-76e3-4bc8-ba2e-29777a3d480c'
-keywords: ["ExportVirtualSystem method Hyper-V", "ExportVirtualSystem method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ExportVirtualSystem method"]
+ms.assetid: dab296f1-76e3-4bc8-ba2e-29777a3d480c
+keywords:
+- ExportVirtualSystem method Hyper-V
+- ExportVirtualSystem method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ExportVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,23 +14,28 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExportVirtualSystem method of the Msvm\_VirtualSystemManagementService class
 
-Beginning with Windows Server 2008 R2 this method is deprecated. Use the [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md) method.
+Beginning with Windows Server 2008 R2 this method is deprecated. Use the [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md) method.
 
-**Windows Server 2008:** Exports a virtual computer system in the "powered off" state to a file. The virtual computer system, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
+**Windows Server 2008:** Exports a virtual computer system in the "powered off" state to a file. The virtual computer system, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
 
 ## Syntax
 
 
 ```mof
 uint32 ExportVirtualSystem(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  boolean                CopyVmState,
-  [in]  string                 ExportDirectory,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  boolean                CopyVmState,
+  [in]  string                 ExportDirectory,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -131,7 +139,7 @@ The following C# sample exports a virtual system. The referenced utilities can b
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -211,7 +219,7 @@ The following VBScript sample exports a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -373,9 +381,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -391,9 +399,9 @@ End Function
 [**ExportVirtualSystemEx**](msvm-virtualsystemmanagementservice-exportvirtualsystemex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

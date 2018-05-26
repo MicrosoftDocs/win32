@@ -4,17 +4,22 @@ description: Determines if PTR resource records, apart from A or AAAA, are publi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EB0CA473-B1C8-49AB-893F-E854C80F539B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: EB0CA473-B1C8-49AB-893F-E854C80F539B
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PublishPTRRecords Failover Cluster , for virtual machine replication brokers", "PublishPTRRecords Failover Cluster"]
+keywords:
+- PublishPTRRecords Failover Cluster , for virtual machine replication brokers
+- PublishPTRRecords Failover Cluster
 topic_type:
 - apiref
 api_name:
 - PublishPTRRecords
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PublishPTRRecords
@@ -27,14 +32,14 @@ Determines if PTR resource records, apart from A or AAAA, are published for the 
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +68,7 @@ PublishPTRRecordsValue.dw        = PublishPTRRecordsData;
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -74,12 +79,12 @@ PublishPTRRecordsValue.dw        = PublishPTRRecordsData;
 [Virtual Machine Replication Broker Private Properties](virtual-machine-replication-broker-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

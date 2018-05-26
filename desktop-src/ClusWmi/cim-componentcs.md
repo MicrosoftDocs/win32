@@ -4,13 +4,15 @@ description: A ComputerSystem can aggregate another ComputerSystem.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8237ccfe-fdcb-48f2-be29-bbda6f607f81'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8237ccfe-fdcb-48f2-be29-bbda6f607f81
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ComponentCS class", "CIM_ComponentCS class, described"]
+keywords:
+- CIM_ComponentCS class
+- CIM_ComponentCS class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ComponentCS class
@@ -95,7 +100,7 @@ The contained (Sub)ComputerSystem.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -109,9 +114,9 @@ The contained (Sub)ComputerSystem.
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

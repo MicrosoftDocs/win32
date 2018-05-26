@@ -2,11 +2,14 @@
 title: Create method of the MSFT\_NetRoute class
 description: Creates a TCP/IP route.
 audience: developer
-ms.assetid: 'a1578fd3-e9d8-41b6-bf06-a07b692e7295'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a1578fd3-e9d8-41b6-bf06-a07b692e7295
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Create method", "Create method, MSFT_NetRoute class", "MSFT_NetRoute class, Create method"]
+keywords:
+- Create method
+- Create method, MSFT_NetRoute class
+- MSFT_NetRoute class, Create method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the MSFT\_NetRoute class
@@ -26,17 +32,17 @@ Creates a TCP/IP route.
 
 ```mof
 uint32 Create(
-  [in]  uint32        InterfaceIndex,
-  [in]  string        InterfaceAlias,
-  [in]  string        DestinationPrefix,
-  [in]  uint8         Publish,
-  [in]  uint16        RouteMetric,
-  [in]  datetime      ValidLifetime,
-  [in]  datetime      PreferredLifetime,
-  [in]  uint16        AddressFamily,
-  [in]  string        PolicyStore,
-  [in]  boolean       PassThru,
-  [out] MSFT_NetRoute CmdletOutput
+  [in]  uint32        InterfaceIndex,
+  [in]  string        InterfaceAlias,
+  [in]  string        DestinationPrefix,
+  [in]  uint8         Publish,
+  [in]  uint16        RouteMetric,
+  [in]  datetime      ValidLifetime,
+  [in]  datetime      PreferredLifetime,
+  [in]  uint16        AddressFamily,
+  [in]  string        PolicyStore,
+  [in]  boolean       PassThru,
+  [out] MSFT_NetRoute CmdletOutput
 );
 ```
 
@@ -176,8 +182,8 @@ On return, contains an instance of the current object. This parameter returns a 
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -191,9 +197,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**MSFT\_NetRoute**](msft-netroute-vpnclientpsprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

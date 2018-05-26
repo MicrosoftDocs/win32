@@ -1,7 +1,12 @@
 ---
 title: BDA MPE Filter
 description: BDA MPE Filter
-ms.assetid: '156fd52e-f366-48b1-a431-4a4abdbb1b16'
+ms.assetid: 156fd52e-f366-48b1-a431-4a4abdbb1b16
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA MPE Filter

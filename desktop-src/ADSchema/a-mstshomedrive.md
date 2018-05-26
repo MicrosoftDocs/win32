@@ -4,17 +4,22 @@ description: Terminal Services Home Drive specifies a Home drive for the user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c295c387-fc7a-4c07-85e6-62b88243c3fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c295c387-fc7a-4c07-85e6-62b88243c3fc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Home-Drive attribute AD Schema", "msTSHomeDrive attribute AD Schema"]
+keywords:
+- ms-TS-Home-Drive attribute AD Schema
+- msTSHomeDrive attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Home-Drive
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Home-Drive attribute
@@ -38,9 +43,9 @@ Terminal Services Home Drive specifies a Home drive for the user.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Terminal Services Home Drive specifies a Home drive for the user.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

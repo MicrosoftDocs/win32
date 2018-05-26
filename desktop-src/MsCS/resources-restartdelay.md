@@ -4,17 +4,21 @@ description: Indicates the time delay, in milliseconds, before a failed resource
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9B62A13F-FEE0-4FFC-A54B-588CE9D556BB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9B62A13F-FEE0-4FFC-A54B-588CE9D556BB
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RestartDelay Failover Cluster"]
+keywords:
+- RestartDelay Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RestartDelay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestartDelay
@@ -27,14 +31,14 @@ Indicates the time delay, in milliseconds, before a failed resource is restarted
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | ((DWORD) -1)                              |
 | Default   | 500                                       |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Indicates the time delay, in milliseconds, before a failed resource is restarted
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Indicates the time delay, in milliseconds, before a failed resource is restarted
 [Resource Common Properties](resource-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

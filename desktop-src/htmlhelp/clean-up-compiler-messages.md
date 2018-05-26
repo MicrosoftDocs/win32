@@ -1,7 +1,12 @@
 ---
 title: Clean Up Compiler Messages
 description: Clean Up Compiler Messages
-ms.assetid: 'B44CDF75-8FEA-405d-9183-CF487CBFF2CF'
+ms.assetid: B44CDF75-8FEA-405d-9183-CF487CBFF2CF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clean Up Compiler Messages

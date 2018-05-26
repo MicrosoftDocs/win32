@@ -4,13 +4,16 @@ description: Atomically creates a specified instance of the CIM\_ProtocolControl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '576977d5-7241-4575-8d86-faf5677f2cc7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 576977d5-7241-4575-8d86-faf5677f2cc7
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateProtocolControllerWithPorts method iSCSI Software Target API", "CreateProtocolControllerWithPorts method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , CreateProtocolControllerWithPorts method"]
+keywords:
+- CreateProtocolControllerWithPorts method iSCSI Software Target API
+- CreateProtocolControllerWithPorts method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , CreateProtocolControllerWithPorts method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateProtocolControllerWithPorts method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -34,12 +40,12 @@ This method is inherited from the **CIM\_ControllerConfigurationService** class.
 
 ```mof
 uint32 CreateProtocolControllerWithPorts(
-  [in]  string                     ElementName,
-  [in]  string                     Ports[],
-  [in]  uint16                     Protocol,
-  [in]  CIM_Privilege Ref          Privilege,
-  [in]  CIM_ManagedElement Ref     Identity,
-  [out] CIM_ProtocolController Ref ProtocolController
+  [in]  string                     ElementName,
+  [in]  string                     Ports[],
+  [in]  uint16                     Protocol,
+  [in]  CIM_Privilege Ref          Privilege,
+  [in]  CIM_ManagedElement Ref     Identity,
+  [out] CIM_ProtocolController Ref ProtocolController
 );
 ```
 
@@ -66,7 +72,7 @@ If multiple target ports are specified in this parameter, all expose the same vi
 > [!Note]  
 > This method does not create the port instances, but does create **CIM\_ProtocolControllerForPort** associations between the specified ports and the new [**CIM\_ProtocolController**](https://msdn.microsoft.com/library/mt432251) instance.
 
- 
+ 
 
 </dd> <dt>
 
@@ -108,7 +114,7 @@ If supplied, this parameter and the *Identity* parameter specify how this method
 > [!Note]  
 > If the **CIM\_ProtocolControllerMaskingCapabilities.ProtocolControllerRequiresAuthorizedIdentity** is **True**, then both the *Identity* and *Privilege* parameters must be specified. If false, then neither can be specified.
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +128,7 @@ If supplied, this parameter and the *Privilege* parameter specify how this metho
 > [!Note]  
 > If the **CIM\_ProtocolControllerMaskingCapabilities.ProtocolControllerRequiresAuthorizedIdentity** is **True**, then both the *Identity* and *Privilege* parameters must be specified. If false, then neither can be specified.
 
- 
+ 
 
 </dd> <dt>
 
@@ -157,7 +163,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ID Parameter Missing or Not Unique** (4096)
@@ -169,10 +175,10 @@ This method returns one of the following values.
 **Busy** (4098)
 </dt> <dt>
 
-**Method Reserved** (4099–32767)
+**Method Reserved** (4099 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -182,7 +188,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -208,9 +214,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_AuthorizedTarget**](msiscsitarget-authorizedtarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

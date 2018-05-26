@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables event tracing session settings for the specified information class.'
-ms.assetid: 'f4cdbe32-6885-4844-add5-560961c3dd1d'
+---
+Description: Enables or disables event tracing session settings for the specified information class.
+ms.assetid: f4cdbe32-6885-4844-add5-560961c3dd1d
 title: TraceSetInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceSetInformation function

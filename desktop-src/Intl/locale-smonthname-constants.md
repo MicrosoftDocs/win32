@@ -1,7 +1,12 @@
-﻿---
-Description: 'LOCALE\_SMONTHNAME\* Constants'
-ms.assetid: '81269282-bea8-4a5d-929d-c68af34bd1ac'
-title: 'LOCALE\_SMONTHNAME\* Constants'
+---
+Description: LOCALE\_SMONTHNAME\* Constants
+ms.assetid: 81269282-bea8-4a5d-929d-c68af34bd1ac
+title: LOCALE\_SMONTHNAME\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SMONTHNAME\* Constants
@@ -27,7 +32,7 @@ This topic defines the LOCALE\_SMONTHNAME\* constants used by NLS.
 <td>Native long name for January. The maximum number of characters allowed for this string is 80, including a terminating null character.
 <blockquote>
 [!Note]<br />
-Calling the [<strong>GetLocaleInfo</strong>](getlocaleinfo.md) or [<strong>GetLocaleInfoEx</strong>](getlocaleinfoex.md) function with a LOCALE_SMONTHNAME* constant returns the standalone, or nominative, form of the month name. To get the genitive form of the month name, the application calls [GetDateFormat](getdateformat.md) or [GetDateFormatEx](getdateformatex.md) with a date picture of ddMMMM and removes the two digits from the beginning of the retrieved string.
+Calling the [<strong>GetLocaleInfo</strong>](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [<strong>GetLocaleInfoEx</strong>](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) function with a LOCALE_SMONTHNAME* constant returns the standalone, or nominative, form of the month name. To get the genitive form of the month name, the application calls [GetDateFormat](/windows/win32/datetimeapi/nf-datetimeapi-getdateformata?branch=master) or [GetDateFormatEx](/windows/win32/datetimeapi/nf-datetimeapi-getdateformatex?branch=master) with a date picture of ddMMMM and removes the two digits from the beginning of the retrieved string.
 </blockquote>
 <br/></td>
 </tr>

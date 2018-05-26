@@ -1,14 +1,20 @@
 ---
 title: LevelName (DebugDataType) Element
 description: The level value passed to the provider when it was enabled.
-ms.assetid: '0daa1b2e-10b2-4516-ac06-b6763a0768a4'
-keywords: ["LevelName element EventLog"]
+ms.assetid: 0daa1b2e-10b2-4516-ac06-b6763a0768a4
+keywords:
+- LevelName element EventLog
 topic_type:
 - apiref
 api_name:
 - LevelName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LevelName (DebugDataType) Element
@@ -29,8 +35,8 @@ The **LevelName** element is defined by the [**DebugDataType**](eventschema-debu
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -50,9 +56,9 @@ The **LevelName** element is defined by the [**DebugDataType**](eventschema-debu
 [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

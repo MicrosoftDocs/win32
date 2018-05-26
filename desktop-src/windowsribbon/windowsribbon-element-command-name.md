@@ -1,14 +1,20 @@
 ---
 title: Command.Name property
 description: Represents the name of a Command.
-ms.assetid: '36fb0b93-143f-4706-8c32-e6c818cce16f'
-keywords: ["Command.Name property Windows Ribbon"]
+ms.assetid: 36fb0b93-143f-4706-8c32-e6c818cce16f
+keywords:
+- Command.Name property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.Name
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.Name property
@@ -85,14 +91,14 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

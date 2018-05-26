@@ -1,7 +1,12 @@
 ---
 title: Writing a Troubleshooting Manifest
 description: WTP provides a troubleshooting experience that is based on detecting and resolving root causes.
-ms.assetid: '617d6ee6-3485-4365-9fdb-48afd0913b81'
+ms.assetid: 617d6ee6-3485-4365-9fdb-48afd0913b81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Troubleshooting Manifest

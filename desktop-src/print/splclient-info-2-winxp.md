@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '48BD760E-6017-49B2-854F-7F48671974F3'
-title: 'SPLCLIENT\_INFO\_2\_WINXP structure'
+---
+Description: .
+ms.assetid: 48BD760E-6017-49B2-854F-7F48671974F3
+title: SPLCLIENT\_INFO\_2\_WINXP structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPLCLIENT\_INFO\_2\_WINXP structure

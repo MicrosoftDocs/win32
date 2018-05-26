@@ -1,14 +1,20 @@
 ---
 title: Task Element
 description: Defines the task that is performed by the Task Scheduler service.
-ms.assetid: '103a332a-8620-4e0c-81b5-4782d85fc391'
-keywords: ["Task element Task Scheduler"]
+ms.assetid: 103a332a-8620-4e0c-81b5-4782d85fc391
+keywords:
+- Task element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Task
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Element
@@ -63,7 +69,7 @@ Defines the task that is performed by the Task Scheduler service.
 
 ## Remarks
 
-For C++ development, see [**ITaskDefinition**](itaskdefinition.md).
+For C++ development, see [**ITaskDefinition**](/windows/win32/taskschd/nn-taskschd-itaskdefinition?branch=master).
 
 For script development, see [**TaskDefinition**](taskdefinition.md).
 
@@ -73,14 +79,14 @@ For script development, see [**TaskDefinition**](taskdefinition.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

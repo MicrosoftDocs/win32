@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PDEV\_ADJUST\_PAPER\_MARGIN structure specifies the imageable printing area.'
-ms.assetid: 'f44a0a42-1fa1-4dd2-bd9f-74b0d0ed823e'
-title: 'PDEV\_ADJUST\_PAPER\_MARGIN structure'
+---
+Description: The PDEV\_ADJUST\_PAPER\_MARGIN structure specifies the imageable printing area.
+ms.assetid: f44a0a42-1fa1-4dd2-bd9f-74b0d0ed823e
+title: PDEV\_ADJUST\_PAPER\_MARGIN structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDEV\_ADJUST\_PAPER\_MARGIN structure

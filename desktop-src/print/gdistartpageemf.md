@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiStartPageEMF function performs initialization operations for a physical page of an EMF-formatted print job.'
-ms.assetid: '963c809f-da89-4f27-ba8b-3de8cdcec179'
+---
+Description: The GdiStartPageEMF function performs initialization operations for a physical page of an EMF-formatted print job.
+ms.assetid: 963c809f-da89-4f27-ba8b-3de8cdcec179
 title: GdiStartPageEMF function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiStartPageEMF function

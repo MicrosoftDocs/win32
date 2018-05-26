@@ -1,14 +1,20 @@
 ---
 title: Hint State Variables
 description: Hint State Variables
-ms.assetid: '25605b0f-5fb6-457a-b86b-d85f91e6e76c'
-keywords: ["Hint State Variables OpenGL"]
+ms.assetid: 25605b0f-5fb6-457a-b86b-d85f91e6e76c
+keywords:
+- Hint State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Hint State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hint State Variables

@@ -1,14 +1,20 @@
 ---
 title: Offset element
 description: Defines a three-dimensional (3-D) translation for the specified object.
-ms.assetid: '739935b6-aee6-4ac8-af3e-f16efc6f35ab'
-keywords: ["Offset element Windows Movie Maker and DVD Maker"]
+ms.assetid: 739935b6-aee6-4ac8-af3e-f16efc6f35ab
+keywords:
+- Offset element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Offset
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Offset element
@@ -63,7 +69,7 @@ You may also apply key-frame animation to properties such as **Offset**. For exa
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -84,9 +90,9 @@ You may also apply key-frame animation to properties such as **Offset**. For exa
 [**Scale Element**](scale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

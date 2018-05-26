@@ -1,8 +1,9 @@
 ---
 title: CheckColors function
 description: The CheckColors function determines whether the colors in an array lie within the output gamut of a specified transform.
-ms.assetid: '405b0d35-e15f-4b1d-b5de-619432a5c65b'
-keywords: ["CheckColors function Windows Color System"]
+ms.assetid: 405b0d35-e15f-4b1d-b5de-619432a5c65b
+keywords:
+- CheckColors function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckColors function
@@ -22,11 +28,11 @@ The **CheckColors** function determines whether the colors in an array lie withi
 
 ```C++
 BOOL WINAPI CheckColors(
-   HTRANSFORM hColorTransform,
-   PCOLOR     paInputColors,
-   DWORD      nColors,
-   COLORTYPE  ctInput,
-   PBYTE      paResult
+   HTRANSFORM hColorTransform,
+   PCOLOR     paInputColors,
+   DWORD      nColors,
+   COLORTYPE  ctInput,
+   PBYTE      paResult
 );
 ```
 
@@ -91,8 +97,8 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -112,9 +118,9 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 [**The COLOR Structure**](color.md#-color-the-color-structure)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

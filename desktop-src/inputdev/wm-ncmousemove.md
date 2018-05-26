@@ -1,8 +1,9 @@
 ---
 title: WM\_NCMOUSEMOVE message
 description: Posted to a window when the cursor is moved within the nonclient area of the window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
-ms.assetid: '49c7cde9-701c-4821-8d16-31ca3c016ed4'
-keywords: ["WM_NCMOUSEMOVE message Keyboard and Mouse Input"]
+ms.assetid: 49c7cde9-701c-4821-8d16-31ca3c016ed4
+keywords:
+- WM_NCMOUSEMOVE message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCMOUSEMOVE message
@@ -65,7 +71,7 @@ yPos = GET_Y_LPARAM(lParam);
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 ## Requirements
 
@@ -73,8 +79,8 @@ yPos = GET_Y_LPARAM(lParam);
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -116,9 +122,9 @@ yPos = GET_Y_LPARAM(lParam);
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

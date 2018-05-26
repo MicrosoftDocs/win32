@@ -1,14 +1,20 @@
 ---
 title: HexInt32Type Simple Type
 description: Defines a 4-byte hexadecimal type.
-ms.assetid: 'f4b5226d-2a5e-4756-b4c5-30cfbf13568e'
-keywords: ["HexInt32Type simple type EventLog"]
+ms.assetid: f4b5226d-2a5e-4756-b4c5-30cfbf13568e
+keywords:
+- HexInt32Type simple type EventLog
 topic_type:
 - apiref
 api_name:
 - HexInt32Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HexInt32Type Simple Type
@@ -41,14 +47,14 @@ The **HexInt32Type** simple type is a **string** that is restricted by the follo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

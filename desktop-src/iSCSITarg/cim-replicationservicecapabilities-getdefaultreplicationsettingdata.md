@@ -4,13 +4,16 @@ description: This method for a given ReplicationType returns the default Replica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fb30750d-b5de-4370-9d9a-4a033db04d32'
-ms.prod: 'windows-server-dev'
+ms.assetid: fb30750d-b5de-4370-9d9a-4a033db04d32
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDefaultReplicationSettingData method iSCSI Software Target API", "GetDefaultReplicationSettingData method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetDefaultReplicationSettingData method"]
+keywords:
+- GetDefaultReplicationSettingData method iSCSI Software Target API
+- GetDefaultReplicationSettingData method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetDefaultReplicationSettingData method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDefaultReplicationSettingData method of the CIM\_ReplicationServiceCapabilities class
@@ -30,8 +36,8 @@ This method for a given ReplicationType returns the default ReplicationSettingDa
 
 ```mof
 uint32 GetDefaultReplicationSettingData(
-  [in]  uint16 ReplicationType,
-  [out] string DefaultInstance
+  [in]  uint16 ReplicationType,
+  [out] string DefaultInstance
 );
 ```
 
@@ -83,10 +89,10 @@ A copy of the instance this populated with default values for the given Replicat
 **No default ReplicationSettingData** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -96,7 +102,7 @@ A copy of the instance this populated with default values for the given Replicat
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -110,9 +116,9 @@ A copy of the instance this populated with default values for the given Replicat
 [**CIM\_ReplicationServiceCapabilities**](cim-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

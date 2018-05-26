@@ -1,8 +1,14 @@
 ---
 title: QOS Functions
 description: This section describes the following QOS functions
-ms.assetid: '80e7b9ed-3887-44b4-9412-0e0bf91e4ec6'
-keywords: ["Quality of Service QOS , reference, functions"]
+ms.assetid: 80e7b9ed-3887-44b4-9412-0e0bf91e4ec6
+keywords:
+- Quality of Service QOS , reference, functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS Functions

@@ -4,10 +4,13 @@ description: Active Directory Domain Services provide a mechanism for a client a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '27f6c7c1-b32e-457a-9be5-47836d097ab1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 27f6c7c1-b32e-457a-9be5-47836d097ab1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Change Notifications in Active Directory Domain Services
@@ -24,7 +27,7 @@ Active Directory Domain Services provide a mechanism for a client application to
 
 
 
- 
+ 
 
 You can register up to five notification requests on a single LDAP connection. You must have a dedicated thread that waits for the notifications and processes them quickly. When you call the ldap\_search\_ext function to register a notification request, the function returns a message identifier that identifies that request. You then use the [**ldap\_result**](https://msdn.microsoft.com/library/aa366965) function to wait for change notifications. When a change occurs, the server sends you an LDAP message that contains the message identifier for the notification request that generated the notification. This causes the **ldap\_result** function to return with search results that identify the object that changed.
 
@@ -44,9 +47,9 @@ For more information and a code example that uses the LDAP change notification c
 
 For more information about when to use the LDAP change notification control, see [Overview of Change Tracking Techniques](overview-of-change-tracking-techniques.md).
 
- 
+ 
 
- 
+ 
 
 
 

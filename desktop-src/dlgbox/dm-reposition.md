@@ -1,8 +1,9 @@
 ---
 title: DM\_REPOSITION message
 description: Repositions a top-level dialog box so that it fits within the desktop area. An application can send this message to a dialog box after resizing it to ensure that the entire dialog box remains visible.
-ms.assetid: '8386d23e-06ea-4ea7-adde-ac97fc97861d'
-keywords: ["DM_REPOSITION message Dialog Boxes"]
+ms.assetid: 8386d23e-06ea-4ea7-adde-ac97fc97861d
+keywords:
+- DM_REPOSITION message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DM\_REPOSITION message
@@ -57,8 +63,8 @@ This message has no effect if the dialog box is a child window.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ This message has no effect if the dialog box is a child window.
 [Dialog Boxes Overview](dialog-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

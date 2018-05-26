@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a simple mesh. The first array is a list of vertices, and the second array defines the faces of the mesh by indexing into the vertex array.'
-ms.assetid: '2b586ecc-db87-4b20-a4fc-c8b547bebf65'
+Description: Defines a simple mesh. The first array is a list of vertices, and the second array defines the faces of the mesh by indexing into the vertex array.
+ms.assetid: 2b586ecc-db87-4b20-a4fc-c8b547bebf65
 title: Mesh
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mesh

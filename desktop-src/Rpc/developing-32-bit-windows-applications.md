@@ -1,7 +1,12 @@
 ---
 title: Developing RPC Windows Applications
 description: When you install the Platform Software Development Kit (SDK), the following RPC development environment, the run-time libraries, and tools are automatically installed
-ms.assetid: 'd5da3bca-5251-4ba4-b873-0817fe0f298d'
+ms.assetid: d5da3bca-5251-4ba4-b873-0817fe0f298d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing RPC Windows Applications

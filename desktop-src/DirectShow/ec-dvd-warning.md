@@ -1,7 +1,12 @@
 ---
-Description: 'Signals a DVD warning condition.'
-ms.assetid: 'd7221e8a-089f-4eaf-a193-548709c14336'
-title: 'EC\_DVD\_WARNING'
+Description: Signals a DVD warning condition.
+ms.assetid: d7221e8a-089f-4eaf-a193-548709c14336
+title: EC\_DVD\_WARNING
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_WARNING
@@ -15,7 +20,7 @@ Signals a DVD warning condition.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value indicating the warning condition. Member of the [**DVD\_WARNING**](dvd-warning.md) enumerated data type.
+**DWORD** value indicating the warning condition. Member of the [**DVD\_WARNING**](/windows/win32/dvdevcod/ne-dvdevcod-_tagdvd_warning?branch=master) enumerated data type.
 
 </dd> <dt>
 
@@ -49,9 +54,9 @@ If *pParam1* equals DVD\_WARNING\_Open, DVD\_WARNING\_Seek, or DVD\_WARNING\_Rea
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

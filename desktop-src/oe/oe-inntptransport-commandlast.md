@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandLAST method
 description: Issues the LAST command to the server.
-ms.assetid: '27fb9051-8217-46df-a79e-8ff55ef630a0'
-keywords: ["CommandLAST method Windows Mail (formerly Outlook Express)", "CommandLAST method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandLAST method"]
+ms.assetid: 27fb9051-8217-46df-a79e-8ff55ef630a0
+keywords:
+- CommandLAST method Windows Mail (formerly Outlook Express)
+- CommandLAST method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandLAST method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandLAST method
@@ -61,8 +69,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -70,9 +78,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

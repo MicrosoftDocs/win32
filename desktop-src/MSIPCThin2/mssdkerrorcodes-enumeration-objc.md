@@ -4,17 +4,21 @@ description: Defines the error codes that can be returned.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '670bbd6a-6191-40bd-8885-19328c86d4a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 670bbd6a-6191-40bd-8885-19328c86d4a6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSSdkErrorCodes enum"]
+keywords:
+- MSSdkErrorCodes enum
 topic_type:
 - apiref
 api_name:
 - MSSdkErrorCodes enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSSdkErrorCodes enum
@@ -103,7 +107,7 @@ typedef uint32_t MSSdkErrorCodes;
 <tr class="even">
 <td><strong>SDK_ERROR_INVALID_SSL_CERTIFICATE</strong> <br/></td>
 <td>-12<br/></td>
-<td>User message: &quot;There is a problem with the service's security certificate, which may indicate an attempt to fool you or intercept any data you send to the server. If the problem continues, contact your administrator.&quot;<br/> This error occurs when the AD RMS server’s SSL certificate is incorrect or cannot be trusted by the device (e.g. no equivalent root CA on the device)<br/></td>
+<td>User message: &quot;There is a problem with the service's security certificate, which may indicate an attempt to fool you or intercept any data you send to the server. If the problem continues, contact your administrator.&quot;<br/> This error occurs when the AD RMS server s SSL certificate is incorrect or cannot be trusted by the device (e.g. no equivalent root CA on the device)<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>SDK_ERROR_NOT_AVAILABLE_IN_OFFLINE_MODE</strong><br/></td>
@@ -111,7 +115,7 @@ typedef uint32_t MSSdkErrorCodes;
 <td>User messgage: &quot;You can't view this content without internet connection. Please check your connection before trying again and that your app is not working in offline mode.&quot;<br/> This error occurs when the application asked the SDK to consume content with offline access only but no cached policy (i.e. EUL) was found, thus application must request online access from the SDK.
 <blockquote>
 [!Note]<br />
-In case the 3rd party application does not handle this scenario, the error message will be confusing to the user, which might have internet connection but can’t access the content.
+In case the 3rd party application does not handle this scenario, the error message will be confusing to the user, which might have internet connection but can t access the content.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -140,7 +144,7 @@ In case the 3rd party application does not handle this scenario, the error messa
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -156,11 +160,11 @@ MSSDKErrorCodes.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

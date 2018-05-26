@@ -1,7 +1,12 @@
 ---
 title: CiHiliteColor
 description: CiHiliteColor
-ms.assetid: '0f71ace3-cd73-4ba0-b0d5-dcbb2f800bac'
+ms.assetid: 0f71ace3-cd73-4ba0-b0d5-dcbb2f800bac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiHiliteColor

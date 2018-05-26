@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent when a user performs a pen flick. A window receives this message through its WindowProc function.'
-ms.assetid: '9433aadf-3440-4249-8f2c-3e22ebc949fb'
-title: 'WM\_TABLET\_FLICK message'
+---
+Description: Sent when a user performs a pen flick. A window receives this message through its WindowProc function.
+ms.assetid: 9433aadf-3440-4249-8f2c-3e22ebc949fb
+title: WM\_TABLET\_FLICK message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TABLET\_FLICK message
@@ -23,14 +28,14 @@ Sent when a user performs a pen flick. A window receives this message through it
 *wParam* 
 </dt> <dd>
 
-A [**FLICK\_DATA Structure**](flick-data.md) that contains information about the pen flick that occurred.
+A [**FLICK\_DATA Structure**](/windows/win32/tabflicks/ns-tabflicks-flick_data?branch=master) that contains information about the pen flick that occurred.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-The [**FLICK\_POINT Structure**](flick-point.md) that specifies where the pen flick occurred.
+The [**FLICK\_POINT Structure**](/windows/win32/tabflicks/ns-tabflicks-flick_point?branch=master) that specifies where the pen flick occurred.
 
 </dd> </dl>
 
@@ -58,7 +63,7 @@ Use caution when handling the **WM\_TABLET\_FLICK** message. **WM\_TABLET\_FLICK
 
 <dl> <dt>
 
-[**flick\_data structure**](flick-data.md)
+[**flick\_data structure**](/windows/win32/tabflicks/ns-tabflicks-flick_data?branch=master)
 </dt> <dt>
 
 [**wm\_tablet\_flick message**](wm-tablet-flick-message.md)

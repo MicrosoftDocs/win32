@@ -1,14 +1,20 @@
 ---
 title: RWBuffer
 description: A read/write buffer.
-ms.assetid: 'e9b60e63-5b2b-4f45-834b-269e692ba84c'
-keywords: ["RWBuffer HLSL"]
+ms.assetid: e9b60e63-5b2b-4f45-834b-269e692ba84c
+keywords:
+- RWBuffer HLSL
 topic_type:
 - apiref
 api_name:
 - RWBuffer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWBuffer

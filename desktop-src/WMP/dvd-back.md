@@ -1,8 +1,11 @@
 ---
 title: DVD.back method
 description: The back method returns the display from a submenu to its parent menu.
-ms.assetid: '4b6c3562-6484-4ef0-8c5c-c24d88e02096'
-keywords: ["back method Windows Media Player", "back method Windows Media Player , DVD class", "DVD class Windows Media Player , back method"]
+ms.assetid: 4b6c3562-6484-4ef0-8c5c-c24d88e02096
+keywords:
+- back method Windows Media Player
+- back method Windows Media Player , DVD class
+- DVD class Windows Media Player , back method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD.back method
@@ -46,8 +54,8 @@ Every DVD is authored differently. Some DVDs are authored so that the **back** m
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player for Windows XP or later.<br/>                           |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -60,9 +68,9 @@ Every DVD is authored differently. Some DVDs are authored so that the **back** m
 [**DVD Object**](dvd-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SPRMARRAY data type contains an array of DVD system parameter register (SPRM) values.'
-ms.assetid: '5c285f6e-2921-4684-bc42-762fc80a5e6b'
+---
+Description: The SPRMARRAY data type contains an array of DVD system parameter register (SPRM) values.
+ms.assetid: 5c285f6e-2921-4684-bc42-762fc80a5e6b
 title: SPRMARRAY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPRMARRAY
@@ -35,7 +40,7 @@ typedef DVD_REGISTER SPRMARRAY [24];
 [**DVD\_REGISTER**](dvd-register.md)
 </dt> <dt>
 
-[**IDvdInfo2::GetAllSPRMs**](idvdinfo2-getallsprms.md)
+[**IDvdInfo2::GetAllSPRMs**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getallsprms?branch=master)
 </dt> </dl>
 
  

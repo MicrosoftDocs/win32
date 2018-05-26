@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.'
-ms.assetid: 'ede67a81-cf1b-41aa-b907-5b635cf80423'
-title: 'CIM\_HostedService class'
+Description: Represents an association between a service and the system that hosts the service. A System can host many services, however this class does not represent services hosted across multiple systems.
+ms.assetid: ede67a81-cf1b-41aa-b907-5b635cf80423
+title: CIM\_HostedService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_HostedService class
@@ -14,7 +19,7 @@ Represents an association between a service and the system that hosts the servic
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Service"), AMENDMENT]
 class CIM_HostedService : CIM_HostedDependency
 {
-  CIM_System  REF Antecedent;
+  CIM_System  REF Antecedent;
   CIM_Service REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The Service hosted on the System.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The Service hosted on the System.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

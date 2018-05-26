@@ -1,7 +1,12 @@
 ---
-Description: 'Destroy an existing virtual system snapshot. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.'
-ms.assetid: '69f60d0e-50ef-4a38-ad4b-88534b7fb3f8'
-title: 'DestroySnapshot method of the CIM\_VirtualSystemSnapshotService class'
+Description: Destroy an existing virtual system snapshot. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.
+ms.assetid: 69f60d0e-50ef-4a38-ad4b-88534b7fb3f8
+title: DestroySnapshot method of the CIM\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroySnapshot method of the CIM\_VirtualSystemSnapshotService class
@@ -13,8 +18,8 @@ Destroy an existing virtual system snapshot. This method may as a side effect de
 
 ```mof
 uint32 DestroySnapshot(
-  [in]  CIM_VirtualSystemSettingData REF AffectedSnapshot,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF AffectedSnapshot,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -37,9 +42,9 @@ A [**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md) reference
 If the operation is long running, then optionally a [**CIM\_ConcreteJob**](cim-concretejob.md) representing the job may be returned.
 
 > [!Note]  
-> This parameter was read/write in Windows 8.1.
+> This parameter was read/write in Windows 8.1.
 
- 
+ 
 
 </dd> </dl>
 
@@ -88,8 +93,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -103,9 +108,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_VirtualSystemSnapshotService**](cim-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

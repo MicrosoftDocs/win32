@@ -1,8 +1,11 @@
 ---
 title: IVMHardDiskConnection SetBusLocation method
 description: Sets the bus location to which this hard disk is attached.
-ms.assetid: '0aa303ae-d8bf-4d38-94ab-bdbb4e744c7b'
-keywords: ["SetBusLocation method Virtual PC", "SetBusLocation method Virtual PC , IVMHardDiskConnection interface", "IVMHardDiskConnection interface Virtual PC , SetBusLocation method"]
+ms.assetid: 0aa303ae-d8bf-4d38-94ab-bdbb4e744c7b
+keywords:
+- SetBusLocation method Virtual PC
+- SetBusLocation method Virtual PC , IVMHardDiskConnection interface
+- IVMHardDiskConnection interface Virtual PC , SetBusLocation method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection::SetBusLocation method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Sets the bus location to which this hard disk is attached.
 
@@ -24,8 +32,8 @@ Sets the bus location to which this hard disk is attached.
 
 ```C++
 HRESULT SetBusLocation(
-  [in] long vmBusNumber,
-  [in] long vmDeviceNumber
+  [in] long vmBusNumber,
+  [in] long vmDeviceNumber
 );
 ```
 
@@ -67,7 +75,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHardDiskconnection is defined as aefa36a5-463a-46ae-9e6c-a1fb4e12e671<br/>      |
@@ -91,9 +99,9 @@ This method can return one of these values.
 [**IVMHardDiskConnection**](ivmharddiskconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

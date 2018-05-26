@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob Cancel method
 description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
-ms.assetid: 'DC502DC2-1335-476F-A1B8-FDB6BA595FF1'
-keywords: ["Cancel method", "Cancel method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, Cancel method"]
+ms.assetid: DC502DC2-1335-476F-A1B8-FDB6BA595FF1
+keywords:
+- Cancel method
+- Cancel method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, Cancel method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::Cancel method
@@ -43,7 +51,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +63,7 @@ You can cancel a job at any time; however, the job cannot be recovered after it 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -81,9 +89,9 @@ You can cancel a job at any time; however, the job cannot be recovered after it 
 [**IBackgroundCopyJob::Suspend**](ibackgroundcopyjob-suspend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

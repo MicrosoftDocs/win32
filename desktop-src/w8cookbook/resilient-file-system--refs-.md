@@ -1,7 +1,12 @@
 ---
 title: Resilient file system
 description: Resilient file system
-ms.assetid: '6E5532F9-64BC-4DD7-9873-3FE4E4DE2DD0'
+ms.assetid: 6E5532F9-64BC-4DD7-9873-3FE4E4DE2DD0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resilient file system

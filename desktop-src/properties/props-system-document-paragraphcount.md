@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'feb712fb-3125-4f5d-b428-97d3586d41e8'
-title: 'System.Document.ParagraphCount'
+Description: .
+ms.assetid: feb712fb-3125-4f5d-b428-97d3586d41e8
+title: System.Document.ParagraphCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.ParagraphCount

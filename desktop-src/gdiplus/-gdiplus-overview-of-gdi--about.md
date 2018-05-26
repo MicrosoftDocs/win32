@@ -1,7 +1,12 @@
 ---
-Description: 'Windows GDI+ is the subsystem of the Windows XP operating system or Windows Server 2003 that is responsible for displaying information on screens and printers. GDI+ is an API that is exposed through a set of C++ classes.'
-ms.assetid: '8797e7c4-44d8-49f7-aec8-37ee48c24747'
+Description: Windows GDI+ is the subsystem of the Windows XP operating system or Windows Server 2003 that is responsible for displaying information on screens and printers. GDI+ is an API that is exposed through a set of C++ classes.
+ms.assetid: 8797e7c4-44d8-49f7-aec8-37ee48c24747
 title: Overview of GDI+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of GDI+

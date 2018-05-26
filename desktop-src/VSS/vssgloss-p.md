@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: '44279c0e-17f4-4109-bc12-af9064cd321e'
+Robots: noindex, nofollow
+ms.assetid: 44279c0e-17f4-4109-bc12-af9064cd321e
 title: P
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # P
@@ -21,7 +26,7 @@ The capacity to implement backup operations by modifying subsections of the file
 <span id="base.vssgloss_persistent_shadow_copy"></span><span id="BASE.VSSGLOSS_PERSISTENT_SHADOW_COPY"></span>**persistent shadow copy**
 </dt> <dd>
 
-A shadow copy that is not deleted automatically when the requester releases an [**IVssBackupComponents**](ivssbackupcomponents.md) object or when the computer is restarted. See also [*auto-release shadow copy*](vssgloss-a.md#base-vssgloss-auto-release-shadow-copy), [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy).
+A shadow copy that is not deleted automatically when the requester releases an [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) object or when the computer is restarted. See also [*auto-release shadow copy*](vssgloss-a.md#base-vssgloss-auto-release-shadow-copy), [*shadow copy*](vssgloss-s.md#base-vssgloss-shadow-copy).
 
 </dd> <dt>
 

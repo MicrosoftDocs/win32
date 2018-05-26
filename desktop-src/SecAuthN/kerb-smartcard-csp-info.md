@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information about a smart card cryptographic service provider (CSP).'
-ms.assetid: 'b3e6722a-25dd-4137-b224-4082e846ddec'
-title: 'KERB\_SMARTCARD\_CSP\_INFO structure'
+---
+Description: Contains information about a smart card cryptographic service provider (CSP).
+ms.assetid: b3e6722a-25dd-4137-b224-4082e846ddec
+title: KERB\_SMARTCARD\_CSP\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KERB\_SMARTCARD\_CSP\_INFO structure
@@ -156,7 +161,7 @@ When this structure is serialized, the structure members must be aligned to boun
 
 <dl> <dt>
 
-[**KERB\_CERTIFICATE\_LOGON**](kerb-certificate-logon.md)
+[**KERB\_CERTIFICATE\_LOGON**](/windows/win32/Ntsecapi/ns-ntsecapi-_kerb_certificate_logon?branch=master)
 </dt> </dl>
 
  

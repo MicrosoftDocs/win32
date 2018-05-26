@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_Offload\_NS contains settings related to Neighbor Solicitation offloading.'
-ms.assetid: '6c57490d-1e40-4f25-9dc4-da5f346507e4'
-title: 'MSFT\_NetAdapterPowerManagement\_Offload\_NS class'
+Description: MSFT\_NetAdapterPowerManagement\_Offload\_NS contains settings related to Neighbor Solicitation offloading.
+ms.assetid: 6c57490d-1e40-4f25-9dc4-da5f346507e4
+title: MSFT\_NetAdapterPowerManagement\_Offload\_NS class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_Offload\_NS class
@@ -94,16 +99,16 @@ Supplies an array of two IPv6 addresses. An NA message will be sent in response 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

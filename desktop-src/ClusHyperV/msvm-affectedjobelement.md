@@ -1,16 +1,18 @@
 ---
 title: Msvm\_AffectedJobElement class
-description: Represents an association between a job and the managed element that can be affected by the job's execution.
+description: Represents an association between a job and the managed element that can be affected by the jobs execution.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f4a572a-4eb5-48c0-96d7-7c7278c89fed'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6f4a572a-4eb5-48c0-96d7-7c7278c89fed
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_AffectedJobElement class", "Msvm_AffectedJobElement class, described"]
+keywords:
+- Msvm_AffectedJobElement class
+- Msvm_AffectedJobElement class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_AffectedJobElement class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_AffectedJobElement : CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Job            REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Job            REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -181,7 +186,7 @@ This property is inherited from [**CIM\_AffectedJobElement**](cim-affectedjobele
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -198,9 +203,9 @@ This property is inherited from [**CIM\_AffectedJobElement**](cim-affectedjobele
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

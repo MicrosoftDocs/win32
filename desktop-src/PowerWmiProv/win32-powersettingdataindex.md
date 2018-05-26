@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSettingDataIndex class
 description: Represents the setting data index value for a power setting in the system.
-ms.assetid: '39da9e54-165c-46ae-a9f5-e1118579eaf4'
-keywords: ["Win32_PowerSettingDataIndex class", "Win32_PowerSettingDataIndex class, described"]
+ms.assetid: 39da9e54-165c-46ae-a9f5-e1118579eaf4
+keywords:
+- Win32_PowerSettingDataIndex class
+- Win32_PowerSettingDataIndex class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSettingDataIndex class
@@ -105,17 +112,17 @@ $powerSettings | ft "AC/DC",Summary,Value -autosize
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

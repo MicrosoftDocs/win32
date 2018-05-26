@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides methods for getting and setting effect parameters such as constants, functions, shaders, and techniques.'
-ms.assetid: 'dd5e107d-2f09-4f6c-ad6c-52cbcbe0cbd1'
+---
+Description: Provides methods for getting and setting effect parameters such as constants, functions, shaders, and techniques.
+ms.assetid: dd5e107d-2f09-4f6c-ad6c-52cbcbe0cbd1
 title: ID3DXBaseEffect interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect interface

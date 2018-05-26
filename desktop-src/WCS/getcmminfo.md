@@ -1,8 +1,9 @@
 ---
 title: GetCMMInfo function
 description: The GetCMMInfo function retrieves various information about the color management module (CMM) that created the specified color transform.
-ms.assetid: '60fe282c-ed52-45c8-ac64-03c2c684679c'
-keywords: ["GetCMMInfo function Windows Color System"]
+ms.assetid: 60fe282c-ed52-45c8-ac64-03c2c684679c
+keywords:
+- GetCMMInfo function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCMMInfo function
@@ -22,8 +28,8 @@ The **GetCMMInfo** function retrieves various information about the color manage
 
 ```C++
 DWORD WINAPI GetCMMInfo(
-   HTRANSFORM hColorTransform,
-   DWORD      dwInfo
+   HTRANSFORM hColorTransform,
+   DWORD      dwInfo
 );
 ```
 
@@ -45,7 +51,7 @@ Identifies the transform for which to find CMM information.
 
 Specifies the information to be retrieved. This parameter can take one of the following constant values.
 
- 
+ 
 
 
 
@@ -57,7 +63,7 @@ Specifies the information to be retrieved. This parameter can take one of the fo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -73,8 +79,8 @@ If this function fails, the return value is zero.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -91,9 +97,9 @@ If this function fails, the return value is zero.
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

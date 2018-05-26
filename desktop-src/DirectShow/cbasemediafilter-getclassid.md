@@ -1,7 +1,12 @@
 ---
-Description: 'The GetClassID method retrieves the class identifier. This method implements the IPersist::GetClassID method.'
-ms.assetid: '95038b11-b56f-4ab9-aefa-4735651c3731'
-title: 'CBaseMediaFilter.GetClassID method'
+Description: The GetClassID method retrieves the class identifier. This method implements the IPersistGetClassID method.
+ms.assetid: 95038b11-b56f-4ab9-aefa-4735651c3731
+title: CBaseMediaFilter.GetClassID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.GetClassID method
@@ -13,7 +18,7 @@ The `GetClassID` method retrieves the class identifier. This method implements t
 
 ```C++
 HRESULT GetClassID(
-   CLSID *pClsID
+   CLSID *pClsID
 );
 ```
 
@@ -52,9 +57,9 @@ Returns S\_OK or E\_POINTER.
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Seek method changes the seek pointer to a new location in the stream.'
-ms.assetid: 'b563e080-32ab-47b7-94f4-1d3dd19f3311'
-title: 'IPrintReadStream::Seek method'
+---
+Description: The Seek method changes the seek pointer to a new location in the stream.
+ms.assetid: b563e080-32ab-47b7-94f4-1d3dd19f3311
+title: IPrintReadStreamSeek method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintReadStream::Seek method

@@ -1,8 +1,27 @@
 ---
 title: Compiling the Sample Project
 description: Compiling the Sample Project
-ms.assetid: 'c605042e-ec45-44c7-afca-42a874882eab'
-keywords: ["Windows Media Player online stores,compiling sample projects", "online stores,compiling sample projects", "type 2 online stores,compiling sample projects", "Windows Media Player online stores,sample projects", "online stores,sample projects", "type 2 online stores,sample projects", "Windows Media Player online stores,project wizard", "online stores,project wizard", "type 2 online stores,project wizard", "plug-ins,project wizard", "Windows Media Player plug-ins,project wizard", "compiling sample projects", "samples,type 2 online stores", "project wizard"]
+ms.assetid: c605042e-ec45-44c7-afca-42a874882eab
+keywords:
+- Windows Media Player online stores,compiling sample projects
+- online stores,compiling sample projects
+- type 2 online stores,compiling sample projects
+- Windows Media Player online stores,sample projects
+- online stores,sample projects
+- type 2 online stores,sample projects
+- Windows Media Player online stores,project wizard
+- online stores,project wizard
+- type 2 online stores,project wizard
+- plug-ins,project wizard
+- Windows Media Player plug-ins,project wizard
+- compiling sample projects
+- samples,type 2 online stores
+- project wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling the Sample Project

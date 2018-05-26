@@ -1,8 +1,10 @@
 ---
 title: IWMPLibrary (VB and C\ ) interface
 description: Represents a library.The IWMPLibrary interface exposes the following properties.
-ms.assetid: '956b2da1-5f01-48d6-8faa-e360c225afda'
-keywords: ["IWMPLibrary (VB and C ) interface Windows Media Player", "IWMPLibrary (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 956b2da1-5f01-48d6-8faa-e360c225afda
+keywords:
+- IWMPLibrary (VB and C ) interface Windows Media Player
+- IWMPLibrary (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPLibrary (VB and C#) interface
@@ -38,7 +45,7 @@ The **IWMPLibrary (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -54,7 +61,7 @@ The **IWMPLibrary (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPLibrary** interface by using the following method.
 
@@ -62,11 +69,11 @@ Get an **IWMPLibrary** interface by using the following method.
 
 | Object                                                   | Property                                                         |
 |----------------------------------------------------------|------------------------------------------------------------------|
-| [IWMPLibraryServices](iwmplibraryservices--vb-and-c.md) | [**getLibraryByType**](iwmplibraryservices-getlibrarybytype.md) |
+| [IWMPLibraryServices](iwmplibraryservices--vb-and-c.md) | [**getLibraryByType**](/windows/win32/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype?branch=master) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,9 +95,9 @@ Get an **IWMPLibrary** interface by using the following method.
 [**IWMPLibraryServices.getLibraryByType (VB and C#)**](wmplibiwmplibraryservices-iwmplibraryservices-getlibrarybytype--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

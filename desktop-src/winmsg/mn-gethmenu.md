@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the menu handle for the current window.'
-ms.assetid: 'a2f6e917-39ff-42a3-8ff4-ce01db3ef9ea'
-title: 'MN\_GETHMENU message'
+Description: Retrieves the menu handle for the current window.
+ms.assetid: a2f6e917-39ff-42a3-8ff4-ce01db3ef9ea
+title: MN\_GETHMENU message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MN\_GETHMENU message
@@ -45,15 +50,15 @@ If successful, the return value is the **HMENU** for the current window. If it f
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

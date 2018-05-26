@@ -1,11 +1,16 @@
-﻿---
-Description: 'Return the default icon for the item specified by the accompanying SMDATA structure.'
-title: 'SMC\_DEFAULTICON message'
+---
+Description: Return the default icon for the item specified by the accompanying SMDATA structure.
+title: SMC\_DEFAULTICON message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_DEFAULTICON message
 
-Return the default icon for the item specified by the accompanying [**SMDATA**](smdata.md) structure.
+Return the default icon for the item specified by the accompanying [**SMDATA**](/windows/win32/Shobjidl_core/ns-shobjidl_core-tagsmdata?branch=master) structure.
 
 
 ```C++
@@ -41,7 +46,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 ## Requirements
 

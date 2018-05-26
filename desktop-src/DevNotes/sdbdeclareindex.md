@@ -1,7 +1,12 @@
-﻿---
-Description: 'Declares a new index in the specified database.'
-ms.assetid: '21a09201-8f84-4263-b258-77716826a3cd'
+---
+Description: Declares a new index in the specified database.
+ms.assetid: 21a09201-8f84-4263-b258-77716826a3cd
 title: SdbDeclareIndex function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbDeclareIndex function

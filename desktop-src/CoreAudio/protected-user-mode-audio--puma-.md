@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering.'
-ms.assetid: '27a50026-9e48-48b1-9249-7528a97333c9'
-title: 'Protected User Mode Audio (PUMA)'
+Description: Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering.
+ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
+title: Protected User Mode Audio (PUMA)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protected User Mode Audio (PUMA)
@@ -51,10 +56,10 @@ The following steps are required for an audio application to control SCMS or HDC
 
 This example code uses the following interfaces.
 
--   [**IMMDeviceEnumerator**](immdeviceenumerator.md)
--   [**IMMDevice**](immdevice.md)
--   [**IAudioClient**](iaudioclient.md)
--   [**IMMDeviceCollection**](immdevicecollection.md)
+-   [**IMMDeviceEnumerator**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator?branch=master)
+-   [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master)
+-   [**IAudioClient**](/windows/win32/Audioclient/nn-audioclient-iaudioclient?branch=master)
+-   [**IMMDeviceCollection**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevicecollection?branch=master)
 -   [**IMFTrustedOutput**](mf.imftrustedoutput)
 -   [**IMFOutputPolicy**](mf.imfoutputpolicy)
 
@@ -174,9 +179,9 @@ The media application must perform the following tasks.
 
     
 
-3.  Use the [**IMMDevice**](immdevice.md) pointer to the endpoint returned by the enumeration process to activate the desired audio streaming API and prepare for streaming. Different audio APIs require slightly different preparation.
+3.  Use the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) pointer to the endpoint returned by the enumeration process to activate the desired audio streaming API and prepare for streaming. Different audio APIs require slightly different preparation.
     -   For DShow audio applications:
-        1.  Create a DirectShow COM object by calling [**IMMDevice::Activate**](immdevice-activate.md) and specifying IID\_IBaseFilter as the interface identifier.
+        1.  Create a DirectShow COM object by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) and specifying IID\_IBaseFilter as the interface identifier.
             ```
             IUnknown *pDShowFilter = NULL;
             ...
@@ -190,7 +195,7 @@ The media application must perform the following tasks.
 
         2.  Build a DirectShow filter graph with this COM object activated by the device. For more information about this process, see "Building the Filter Graph" in DirectShow SDK documentation.
     -   For DSound audio applications:
-        1.  Create a DSound COM object by calling [**IMMDevice::Activate**](immdevice-activate.md) and specifying IID\_IDirectSound8 as the interface identifier.
+        1.  Create a DSound COM object by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) and specifying IID\_IDirectSound8 as the interface identifier.
             ```
             IDirectSound8  *pDSSound8;
             ...
@@ -204,7 +209,7 @@ The media application must perform the following tasks.
 
         2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](http://msdn.microsoft.com/en-us/library/bb219818(VS.85).aspx) on MSDN.
     -   For WASAPI:
-        1.  Create an [**IAudioClient**](iaudioclient.md) COM object by calling [**IMMDevice::Activate**](immdevice-activate.md) and specifying IID\_IAudioClient as the interface identifier.
+        1.  Create an [**IAudioClient**](/windows/win32/Audioclient/nn-audioclient-iaudioclient?branch=master) COM object by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) and specifying IID\_IAudioClient as the interface identifier.
             ```
             IAudioClient *pIAudioClient = NULL;
             ...
@@ -224,7 +229,7 @@ The media application must perform the following tasks.
             
 4.  Start audio streaming.
 5.  Set the protection policy on the stream.
-    1.  For WASAPI clients, get a reference to the [**IMFTrustedOutput**](mf.imftrustedoutput) interface of the output trust authority (OTA) object for the stream by calling [**IAudioClient::GetService**](iaudioclient-getservice.md) and specifying IID\_IMFTrustedOutput as the interface identifier.
+    1.  For WASAPI clients, get a reference to the [**IMFTrustedOutput**](mf.imftrustedoutput) interface of the output trust authority (OTA) object for the stream by calling [**IAudioClient::GetService**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-getservice?branch=master) and specifying IID\_IMFTrustedOutput as the interface identifier.
         ```
         IMFTrustedOutput*       pTrustedOutput = NULL;
         hr = pIAudioClient>GetService(

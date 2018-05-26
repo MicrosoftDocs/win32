@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the name of the print job.'
-ms.assetid: 'E060EDA8-691F-4860-B422-24DFB7FCAFEF'
-title: 'IPrintJob::Name property'
+---
+Description: Gets the name of the print job.
+ms.assetid: E060EDA8-691F-4860-B422-24DFB7FCAFEF
+title: IPrintJobName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::Name property

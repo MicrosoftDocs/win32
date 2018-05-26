@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'AC23504B-ADFD-4204-954C-79167EBFB31A'
+Description: .
+ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
 title: Fiddler Web Debugger Tool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fiddler Web Debugger Tool

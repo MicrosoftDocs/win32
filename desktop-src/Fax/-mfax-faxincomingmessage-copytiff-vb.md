@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message to a file on the local computer.'
-ms.assetid: '31329a99-26a3-4b17-9b26-2dea1e9589df'
-title: 'FaxIncomingMessage.CopyTiff method'
+---
+Description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax message to a file on the local computer.
+ms.assetid: 31329a99-26a3-4b17-9b26-2dea1e9589df
+title: FaxIncomingMessage.CopyTiff method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.CopyTiff method
@@ -55,7 +60,7 @@ Null-terminated **String** that specifies a fully qualified path and file name o
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

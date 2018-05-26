@@ -1,8 +1,11 @@
 ---
 title: System.Time.timeZone.standardDisplayName property
 description: Gets the system display name for a time zone during non-Daylight Savings Time (DST).
-ms.assetid: 'a8b17a3c-16c0-4f7a-afd8-a2c70344d019'
-keywords: ["standardDisplayName property Windows Sidebar", "standardDisplayName property Windows Sidebar , System.Time.timeZone object", "System.Time.timeZone object Windows Sidebar , standardDisplayName property"]
+ms.assetid: a8b17a3c-16c0-4f7a-afd8-a2c70344d019
+keywords:
+- standardDisplayName property Windows Sidebar
+- standardDisplayName property Windows Sidebar , System.Time.timeZone object
+- System.Time.timeZone object Windows Sidebar , standardDisplayName property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Time.timeZone.standardDisplayName property
@@ -71,10 +79,10 @@ var sTimeZoneDetails = function()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -123,9 +131,9 @@ var sTimeZoneDetails = function()
 [**getLocalTime**](system-time-getlocaltime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

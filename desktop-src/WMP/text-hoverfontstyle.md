@@ -1,14 +1,20 @@
 ---
 title: TEXT.hoverFontStyle
 description: The hoverFontStyle attribute specifies or retrieves the font style used for the Text control when the mouse cursor hovers over it.
-ms.assetid: '77ca8512-6150-4a75-8220-19de3fe9e719'
-keywords: ["TEXT.hoverFontStyle Windows Media Player"]
+ms.assetid: 77ca8512-6150-4a75-8220-19de3fe9e719
+keywords:
+- TEXT.hoverFontStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.hoverFontStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.hoverFontStyle
@@ -35,7 +41,7 @@ This attribute is a read/write **String** containing one or more of the followin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +71,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.fontStyle**](text-fontstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

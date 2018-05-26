@@ -1,12 +1,17 @@
-﻿---
-Description: 'If the LIMITUI property is set, the user interface (UI) level used when installing the package is restricted to Basic.'
-ms.assetid: '1a75e66b-958a-4fa8-b13c-ced976c9508e'
+---
+Description: If the LIMITUI property is set, the user interface (UI) level used when installing the package is restricted to Basic.
+ms.assetid: 1a75e66b-958a-4fa8-b13c-ced976c9508e
 title: LIMITUI property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LIMITUI property
 
-If the **LIMITUI** property is set, the user interface (UI) level used when installing the package is restricted to Basic. This property is required in packages that have no authored UI but still contain UI tables such as the [Dialog table](dialog-table.md). For a description of UI levels, see [**MsiSetInternalUI**](msisetinternalui.md)
+If the **LIMITUI** property is set, the user interface (UI) level used when installing the package is restricted to Basic. This property is required in packages that have no authored UI but still contain UI tables such as the [Dialog table](dialog-table.md). For a description of UI levels, see [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master)
 
 ## Remarks
 
@@ -29,7 +34,7 @@ Installation packages containing the **LIMITUI** property must also contain the 
 [Properties](properties.md)
 </dt> <dt>
 
-[**MsiSetInternalUI**](msisetinternalui.md)
+[**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master)
 </dt> <dt>
 
 [**ARPNOMODIFY**](arpnomodify.md)

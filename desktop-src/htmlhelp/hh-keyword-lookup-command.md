@@ -1,7 +1,12 @@
 ---
 title: HH\_KEYWORD\_LOOKUP command
 description: Looks up one or more keywords in a compiled help (.chm) file.
-ms.assetid: 'F91C9EB5-6660-47bd-AA8D-484B4E0DF1F6'
+ms.assetid: F91C9EB5-6660-47bd-AA8D-484B4E0DF1F6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_KEYWORD\_LOOKUP command
@@ -14,7 +19,7 @@ The keywords to search for and the action to be taken if no matches are found ar
 
 | *pszFile*                                                       | *dwData*                                                          |
 |-----------------------------------------------------------------|-------------------------------------------------------------------|
-| Specifies the compiled help (.chm) file that contains keywords. | Points to an [**HH\_AKLINK**](hh-aklink-structure.md) structure. |
+| Specifies the compiled help (.chm) file that contains keywords. | Points to an [**HH\_AKLINK**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_aklink?branch=master) structure. |
 
 
 

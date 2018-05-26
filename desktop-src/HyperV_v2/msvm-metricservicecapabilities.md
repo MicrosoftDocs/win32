@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities of the associated Msvm\_MetricService instance.'
-ms.assetid: '4E24D675-8265-4B5E-9551-550510B138FE'
-title: 'Msvm\_MetricServiceCapabilities class'
+Description: Describes the capabilities of the associated Msvm\_MetricService instance.
+ms.assetid: 4E24D675-8265-4B5E-9551-550510B138FE
+title: Msvm\_MetricServiceCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MetricServiceCapabilities class
@@ -16,19 +21,19 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MetricServiceCapabilities : CIM_MetricServiceCapabilities
 {
-  string  InstanceID;
-  string  Caption = "Hyper-V Metric Service Capabilities";
-  string  Description = "Defines Hyper-V Metric Service Capabilities";
-  string  ElementName = "Hyper-V Metric Service Capabilities";
+  string  InstanceID;
+  string  Caption = "Hyper-V Metric Service Capabilities";
+  string  Description = "Defines Hyper-V Metric Service Capabilities";
+  string  ElementName = "Hyper-V Metric Service Capabilities";
   boolean ElementNameEditSupported;
-  unit16  MaxElementNameLen;
-  unit16  RequestedStatesSupported[];
-  string  ElementNameMask;
-  string  ControllableMetrics[];
-  uint16  MetricsControlTypes[];
-  string  ControllableManagedElements[];
-  uint16  ManagedElementControlTypes[];
-  uint16  SupportedMethods[];
+  unit16  MaxElementNameLen;
+  unit16  RequestedStatesSupported[];
+  string  ElementNameMask;
+  string  ControllableMetrics[];
+  uint16  MetricsControlTypes[];
+  string  ControllableManagedElements[];
+  uint16  ManagedElementControlTypes[];
+  uint16  SupportedMethods[];
 };
 ```
 
@@ -184,7 +189,7 @@ Identifies the type of control supported by the associated **CIM\_MetricService*
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -231,7 +236,7 @@ Identifies the type of control supported by the associated **CIM\_MetricService*
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,7 +267,7 @@ Indicates the possible states that can be requested when using the **RequestStat
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -292,7 +297,7 @@ Specifies the methods supported by the metric service. This property is inherite
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -302,8 +307,8 @@ Specifies the methods supported by the metric service. This property is inherite
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -320,9 +325,9 @@ Specifies the methods supported by the metric service. This property is inherite
 [**Msvm\_MetricService**](msvm-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

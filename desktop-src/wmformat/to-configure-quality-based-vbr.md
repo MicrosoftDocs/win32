@@ -1,8 +1,21 @@
 ---
 title: To Configure Quality-Based VBR
 description: To Configure Quality-Based VBR
-ms.assetid: '077a18c5-1895-4241-8c31-5f7caf38b22e'
-keywords: ["streams,configuring VBR streams", "streams,variable bit rate (VBR)", "variable bit rate (VBR),streams", "VBR (variable bit rate),streams", "streams,configuring quality-based VBR", "variable bit rate (VBR),configuring quality-based", "VBR (variable bit rate),configuring quality-based", "profiles,configuring quality-based VBR"]
+ms.assetid: 077a18c5-1895-4241-8c31-5f7caf38b22e
+keywords:
+- streams,configuring VBR streams
+- streams,variable bit rate (VBR)
+- variable bit rate (VBR),streams
+- VBR (variable bit rate),streams
+- streams,configuring quality-based VBR
+- variable bit rate (VBR),configuring quality-based
+- VBR (variable bit rate),configuring quality-based
+- profiles,configuring quality-based VBR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Configure Quality-Based VBR
@@ -13,18 +26,18 @@ For quality-based VBR video streams, you must specify a quality level from 1 to 
 
 For audio streams, you can enumerate the available modes and retrieve a stream configuration object. For more information, see [To Enumerate Codec Formats](to-enumerate-codec-formats.md).
 
-When using quality-based VBR video, you must set the **dwBitrate** member of the [**WMVIDEOINFOHEADER**](wmvideoinfoheader.md) structure to a positive value. This value is not used by the writer, but passing zero or a negative number can cause errors when writing.
+When using quality-based VBR video, you must set the **dwBitrate** member of the [**WMVIDEOINFOHEADER**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader?branch=master) structure to a positive value. This value is not used by the writer, but passing zero or a negative number can cause errors when writing.
 
 To configure a stream in a profile to be encoded with quality-based VBR, perform the following steps.
 
-1.  Create a profile manager object by calling the [**WMCreateProfileManager**](wmcreateprofilemanager.md) function.
+1.  Create a profile manager object by calling the [**WMCreateProfileManager**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateprofilemanager?branch=master) function.
 2.  Open an existing profile to which you want to add VBR support. For more information about opening profiles, see [Working with Profiles](working-with-profiles.md).
-3.  Get a stream configuration object for the stream you want to use by calling either [**IWMProfile::GetStream**](iwmprofile-getstream.md) or [**IWMProfile::GetStreamByNumber**](iwmprofile-getstreambynumber.md).
-4.  Get a pointer to the [**IWMPropertyVault**](iwmpropertyvault.md) interface of the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
-5.  Enable VBR for the stream by calling [**IWMPropertyVault::SetProperty**](iwmpropertyvault-setproperty.md) for the **g\_wszVBREnabled** property.
+3.  Get a stream configuration object for the stream you want to use by calling either [**IWMProfile::GetStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstream?branch=master) or [**IWMProfile::GetStreamByNumber**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-getstreambynumber?branch=master).
+4.  Get a pointer to the [**IWMPropertyVault**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master) interface of the stream configuration object by calling **IWMStreamConfig::QueryInterface**.
+5.  Enable VBR for the stream by calling [**IWMPropertyVault::SetProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty?branch=master) for the **g\_wszVBREnabled** property.
 6.  Set the quality level for the VBR stream by calling **IWMPropertyVault::SetProperty** for the **g\_wszVBRQuality** property.
 7.  Set **g\_wszVBRBitrateMax** and **g\_wszVBRBufferWindowMax** both to zero with **IWMPropertyVault::SetProperty**.
-8.  Save the changes made to the stream by calling [**IWMProfile::ReconfigStream**](iwmprofile-reconfigstream.md).
+8.  Save the changes made to the stream by calling [**IWMProfile::ReconfigStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream?branch=master).
 9.  Save the profile, or pass it to the writer object and start writing.
 
 ## Related topics

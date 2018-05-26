@@ -1,7 +1,12 @@
 ---
 Description: Event Attributes
-ms.assetid: '25e77ee1-cffc-4f8b-ac07-b5607a125fc7'
+ms.assetid: 25e77ee1-cffc-4f8b-ac07-b5607a125fc7
 title: Event Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Attributes
@@ -37,7 +42,7 @@ The following attributes apply to events.
 
 <dl> <dt>
 
-[**IMFMediaEvent**](imfmediaevent.md)
+[**IMFMediaEvent**](/windows/win32/mfobjects/nn-mfobjects-imfmediaevent?branch=master)
 </dt> <dt>
 
 [Media Foundation Events](media-foundation-events.md)

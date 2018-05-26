@@ -1,8 +1,16 @@
 ---
 title: About MADCAP
 description: Multicast Address Dynamic Client Allocation Protocol (MADCAP) enables clients to query and request multicast addresses from multicast (MADCAP) servers.
-ms.assetid: 'b0b983b7-1fcb-4e37-a7bb-0a500a1b759b'
-keywords: ["Multicast Address Dynamic Client Allocation Protocol MADCAP , described", "multicast address MADCAP", "client allocation MADCAP"]
+ms.assetid: b0b983b7-1fcb-4e37-a7bb-0a500a1b759b
+keywords:
+- Multicast Address Dynamic Client Allocation Protocol MADCAP , described
+- multicast address MADCAP
+- client allocation MADCAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About MADCAP

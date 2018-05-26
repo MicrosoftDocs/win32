@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls SKU Availability
-ms.assetid: '5fbf6c4a-3897-4a12-bef6-19478fdb48aa'
+ms.assetid: 5fbf6c4a-3897-4a12-bef6-19478fdb48aa
 title: Parental Controls SKU Availability
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls SKU Availability

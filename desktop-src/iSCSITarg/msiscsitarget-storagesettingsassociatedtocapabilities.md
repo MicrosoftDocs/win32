@@ -4,13 +4,15 @@ description: Associates a MSISCSITARGET\_StorageSetting instance with a MSISCSIT
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4a263d8-e2fc-4d94-bfc9-0668feb4bb0a'
-ms.prod: 'windows-server-dev'
+ms.assetid: e4a263d8-e2fc-4d94-bfc9-0668feb4bb0a
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API", "MSISCSITARGET_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API
+- MSISCSITARGET_StorageSettingsAssociatedToCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageSettingsAssociatedToCapabilities class
@@ -37,8 +42,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSISCSITARGET_StorageSettingsAssociatedToCapabilities : CIM_StorageSettingsAssociatedToCapabilities
 {
   CIM_StorageCapabilities REF Antecedent;
-  CIM_StorageSetting      REF Dependent;
-  boolean                     DefaultSetting = TRUE;
+  CIM_StorageSetting      REF Dependent;
+  boolean                     DefaultSetting = TRUE;
 };
 ```
 
@@ -107,7 +112,7 @@ This property is inherited from [**CIM\_StorageSettingsAssociatedToCapabilities*
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -130,9 +135,9 @@ This property is inherited from [**CIM\_StorageSettingsAssociatedToCapabilities*
 [**MSISCSITARGET\_StorageSetting**](msiscsitarget-storagesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

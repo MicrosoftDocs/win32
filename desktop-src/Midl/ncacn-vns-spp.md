@@ -2,13 +2,19 @@
 title: ncacn\_vns\_spp attribute
 description: The ncacn\_vns\_spp keyword identifies Banyan Vines SPP as the protocol family for the endpoint. This protocol family is obsolete and should not be used in new applications.
 ms.assetid: a2aff0a6-2e7e-43e4-a180-f1ddd0456843
-keywords: ["ncacn_vns_spp attribute MIDL"]
+keywords:
+- ncacn_vns_spp attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncacn_vns_spp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncacn\_vns\_spp attribute

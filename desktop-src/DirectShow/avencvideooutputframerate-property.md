@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the frame rate on the encoder''s output stream, in frames per second.'
-ms.assetid: '72e16c7d-977e-4269-9576-afc789e31826'
+Description: Specifies the frame rate on the encoders output stream, in frames per second.
+ms.assetid: 72e16c7d-977e-4269-9576-afc789e31826
 title: AVEncVideoOutputFrameRate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoOutputFrameRate property
@@ -37,7 +42,7 @@ The value of this property is a ratio that defines the frame rate. The upper 32 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,8 +56,8 @@ This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.mic
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -64,12 +69,12 @@ This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.mic
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

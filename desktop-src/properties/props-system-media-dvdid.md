@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2de30c3a-f982-4a65-bb25-a76b99d9ee13'
-title: 'System.Media.DVDID'
+Description: .
+ms.assetid: 2de30c3a-f982-4a65-bb25-a76b99d9ee13
+title: System.Media.DVDID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.DVDID

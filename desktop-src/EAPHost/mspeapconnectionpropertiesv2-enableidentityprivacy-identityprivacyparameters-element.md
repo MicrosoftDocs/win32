@@ -1,14 +1,20 @@
 ---
 title: EnableIdentityPrivacy (IdentityPrivacyParameters) Element
-description: Indicates whether a user's true identity or an anonymous identity is sent.
-ms.assetid: '7751e5fa-895e-47f7-99d9-aa7ef2451eb1'
-keywords: ["EnableIdentityPrivacy element EAPHost"]
+description: Indicates whether a users true identity or an anonymous identity is sent.
+ms.assetid: 7751e5fa-895e-47f7-99d9-aa7ef2451eb1
+keywords:
+- EnableIdentityPrivacy element EAPHost
 topic_type:
 - apiref
 api_name:
 - Username
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableIdentityPrivacy (IdentityPrivacyParameters) Element
@@ -34,8 +40,8 @@ The **EnableIdentityPrivacy** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -67,9 +73,9 @@ The **EnableIdentityPrivacy** element is optional.
 [mspeapconnectionpropertiesv2 Schema Elements](mspeapconnectionpropertiesv2schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

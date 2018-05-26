@@ -1,7 +1,12 @@
 ---
 title: Creating a Tune Request (C)
 description: Creating a Tune Request (C)
-ms.assetid: '8e082f6f-91e6-404d-8914-76d7bec26220'
+ms.assetid: 8e082f6f-91e6-404d-8914-76d7bec26220
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Tune Request (C)

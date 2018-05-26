@@ -4,17 +4,22 @@ description: This attribute determines the file server share. It is used in conj
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b86dcafb-0b0d-4225-924c-690f739092a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b86dcafb-0b0d-4225-924c-690f739092a8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-IIS-FTP-Root attribute AD Schema", "msIIS-FTPRoot attribute AD Schema"]
+keywords:
+- ms-IIS-FTP-Root attribute AD Schema
+- msIIS-FTPRoot attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-IIS-FTP-Root
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-IIS-FTP-Root attribute
@@ -38,11 +43,11 @@ This attribute determines the file server share. It is used in conjunction with 
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNIFONTOBJ\_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.'
-ms.assetid: '2c0d350d-dcdf-4da7-8cca-7f36d4ca622e'
-title: 'UNIFONTOBJ\_GetInfo routine'
+---
+Description: The UNIFONTOBJ\_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
+ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
+title: UNIFONTOBJ\_GetInfo routine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNIFONTOBJ\_GetInfo routine

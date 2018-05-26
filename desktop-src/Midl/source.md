@@ -2,13 +2,19 @@
 title: source attribute
 description: The \ source\ attribute indicates that a member of a coclass, property, or method is a source of events. For a member of a coclass, this attribute means that the member is called rather than implemented.
 ms.assetid: fbd5411a-e614-4643-810a-f3765e7ec16d
-keywords: ["source attribute MIDL"]
+keywords:
+- source attribute MIDL
 topic_type:
 - apiref
 api_name:
 - source
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # source attribute

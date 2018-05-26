@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CAPICOM\_KEY\_ALGORITHM enumeration defines key algorithms.'
-ms.assetid: '2274c0ae-fa92-4059-a638-94a5f982c0c7'
-title: 'CAPICOM\_KEY\_ALGORITHM enumeration'
+---
+Description: The CAPICOM\_KEY\_ALGORITHM enumeration defines key algorithms.
+ms.assetid: 2274c0ae-fa92-4059-a638-94a5f982c0c7
+title: CAPICOM\_KEY\_ALGORITHM enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_KEY\_ALGORITHM enumeration

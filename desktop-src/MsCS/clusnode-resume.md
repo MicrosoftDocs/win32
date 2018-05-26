@@ -4,11 +4,14 @@ description: Resumes the cluster activity of a node after it has been paused by 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '74e465e2-1328-4e05-b287-3ce27359c67a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 74e465e2-1328-4e05-b287-3ce27359c67a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Resume method Failover Cluster", "Resume method Failover Cluster , ClusNode object", "ClusNode object Failover Cluster , Resume method"]
+keywords:
+- Resume method Failover Cluster
+- Resume method Failover Cluster , ClusNode object
+- ClusNode object Failover Cluster , Resume method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNode.Resume method
@@ -53,7 +59,7 @@ When a node resumes cluster activity after it has been paused, it returns **Clus
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -75,9 +81,9 @@ When a node resumes cluster activity after it has been paused, it returns **Clus
 [**ClusNode.State**](clusnode-state.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

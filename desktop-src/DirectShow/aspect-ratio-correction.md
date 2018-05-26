@@ -1,7 +1,12 @@
 ---
 Description: Aspect Ratio Correction
-ms.assetid: '0ed6010b-9168-44b1-be49-0c9d5d77ce3f'
+ms.assetid: 0ed6010b-9168-44b1-be49-0c9d5d77ce3f
 title: Aspect Ratio Correction
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Aspect Ratio Correction
@@ -17,9 +22,9 @@ The VMR supports two different behaviors for aspect ratio correction:
 
 Because the second behavior (horizontal adjustment only) may entail shrinking the video, the output image may have less resolution. For this reason, the first behavior is preferred. For example, in the case of 720 x 480 video at 4:3 aspect ratio, the default behavior produces a 720 x 550 image, while horizontal adjustment produces a smaller 640 x 480 image.
 
-**VMR-7**: To set the aspect ratio correction preference, call [**IVMRMixerControl::SetMixingPrefs**](ivmrmixercontrol-setoutputrect.md). Set the MixerPref\_ARAdjustXorY flag for the default behavior, or clear this flag for horizontal adjustment only.
+**VMR-7**: To set the aspect ratio correction preference, call [**IVMRMixerControl::SetMixingPrefs**](/windows/win32/Strmif/nf-strmif-ivmrmixercontrol-setoutputrect?branch=master). Set the MixerPref\_ARAdjustXorY flag for the default behavior, or clear this flag for horizontal adjustment only.
 
-**VMR-9**: To set the aspect ratio correction preference, call [**IVMRMixerControl9::SetMixingPrefs**](ivmrmixercontrol9-setmixingprefs.md). Set the MixerPref9\_ARAdjustXorY flag for the default behavior, or clear this flag for horizontal adjustment only.
+**VMR-9**: To set the aspect ratio correction preference, call [**IVMRMixerControl9::SetMixingPrefs**](/windows/win32/Vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs?branch=master). Set the MixerPref9\_ARAdjustXorY flag for the default behavior, or clear this flag for horizontal adjustment only.
 
 ## Related topics
 

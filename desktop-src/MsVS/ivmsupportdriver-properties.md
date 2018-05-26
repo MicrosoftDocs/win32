@@ -1,7 +1,12 @@
 ---
 title: IVMSupportDriver Properties
 description: The IVMSupportDriver interface defines the following properties
-ms.assetid: 'f4ea985e-1360-46c4-8111-19008e105caf'
+ms.assetid: f4ea985e-1360-46c4-8111-19008e105caf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSupportDriver Properties

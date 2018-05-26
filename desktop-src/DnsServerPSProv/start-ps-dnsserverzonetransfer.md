@@ -2,13 +2,16 @@
 title: Start method of the PS\_DnsServerZoneTransfer class
 description: Starts DNS Zone transfer from Primary to Secondary.
 audience: developer
-ms.assetid: '42be02a4-4c0f-4711-b428-b8d924642843'
-ms.prod: 'windows-server-dev'
+ms.assetid: 42be02a4-4c0f-4711-b428-b8d924642843
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Start method", "Start method, PS_DnsServerZoneTransfer class", "PS_DnsServerZoneTransfer class, Start method"]
+keywords:
+- Start method
+- Start method, PS_DnsServerZoneTransfer class
+- PS_DnsServerZoneTransfer class, Start method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Start method of the PS\_DnsServerZoneTransfer class
@@ -28,11 +34,11 @@ Starts DNS Zone transfer from Primary to Secondary.
 
 ```mof
 uint32 Start(
-  [in]  string        ComputerName,
-  [in]  string        Name,
-  [in]  boolean       FullTransfer,
-  [in]  boolean       PassThru,
-  [out] DnsServerZone cmdletOutput
+  [in]  string        ComputerName,
+  [in]  string        Name,
+  [in]  boolean       FullTransfer,
+  [in]  boolean       PassThru,
+  [out] DnsServerZone cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerZoneTransfer**](ps-dnsserverzonetransfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

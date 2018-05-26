@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes what libraries are and how they can benefit users and developers.'
-ms.assetid: 'D5F5FE96-11D2-4fc5-A68B-6E594C09BE20'
+Description: This topic describes what libraries are and how they can benefit users and developers.
+ms.assetid: D5F5FE96-11D2-4fc5-A68B-6E594C09BE20
 title: About Libraries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Libraries
@@ -46,7 +51,7 @@ You can use libraries in your program to provide a more flexible and convenient 
 
 -   **Libraries support library and file-system access**
 
-    Using the [**Shell Library API**](ishelllibrary.md), programs can provide library support for the user while reducing the complexity of their file and folder management code. If your program already uses the file-system API, you can preserve as much of that existing code as you want and still provide library support to the user by getting the necessary file-system information from the **Shell Library API**.
+    Using the [**Shell Library API**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master), programs can provide library support for the user while reducing the complexity of their file and folder management code. If your program already uses the file-system API, you can preserve as much of that existing code as you want and still provide library support to the user by getting the necessary file-system information from the **Shell Library API**.
 
 -   **Simpler change notification**
 
@@ -64,7 +69,7 @@ You can use libraries in your program to provide a more flexible and convenient 
 
 Users can organize their libraries by adding, moving, or removing folders in the library. Not all folders, however, support all the functionality that a library can provide. Many library features require quick access to the different properties of the folder and its contents that are only available through Windows Search. To provide full library functionality, a folder must be able to be indexed by Windows Search.
 
-A library does not allow a user to add folders that do not provide full library functionality. The [**Shell Library API**](ishelllibrary.md) can, however, add such folders. If a library contains a folder that does not support full library functionality, the library will operate in a safe mode and provide a limited functionality. The following table describes the folders that support full library functionality and those that do not.
+A library does not allow a user to add folders that do not provide full library functionality. The [**Shell Library API**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master) can, however, add such folders. If a library contains a folder that does not support full library functionality, the library will operate in a safe mode and provide a limited functionality. The following table describes the folders that support full library functionality and those that do not.
 
 
 
@@ -90,7 +95,7 @@ The following image shows the limited display of library contents while in safe 
 [About Libraries](library-leverage-to-manage-folders.md)
 </dt> <dt>
 
-[**IShellLibrary**](ishelllibrary.md)
+[**IShellLibrary**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master)
 </dt> <dt>
 
 [Shell Links](shell.Links)

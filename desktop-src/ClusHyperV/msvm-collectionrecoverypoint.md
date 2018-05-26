@@ -4,13 +4,15 @@ description: Represents a recovery point of a collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '630b6d65-93e9-4e7d-b4ab-7ab5f392cda8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 630b6d65-93e9-4e7d-b4ab-7ab5f392cda8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_CollectionRecoveryPoint class", "Msvm_CollectionRecoveryPoint class, described"]
+keywords:
+- Msvm_CollectionRecoveryPoint class
+- Msvm_CollectionRecoveryPoint class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_CollectionRecoveryPoint class
@@ -42,15 +47,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_CollectionRecoveryPoint : CIM_ManagedElement
 {
-  string   Caption;
-  string   Description;
-  string   InstanceID;
-  string   CollectionID;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   InstanceID;
+  string   CollectionID;
+  string   ElementName;
   datetime CreationTime;
-  string   VirtualMachineIds[];
-  string   RecoveryPointIds[];
-  uint16   ConsistencyLevel;
+  string   VirtualMachineIds[];
+  string   RecoveryPointIds[];
+  uint16   ConsistencyLevel;
 };
 ```
 
@@ -254,7 +259,7 @@ Array of virtual machine IDs which are members of this collection recovery point
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -268,9 +273,9 @@ Array of virtual machine IDs which are members of this collection recovery point
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Counted Character Arrays
 description: The \ size\_is\ attribute indicates the upper bound of the array while the \ length\_is\ attribute indicates the number of array elements to transmit.
-ms.assetid: 'bed10259-3034-4be8-91f5-5201c2e19c6b'
+ms.assetid: bed10259-3034-4be8-91f5-5201c2e19c6b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Counted Character Arrays

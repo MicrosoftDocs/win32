@@ -1,8 +1,9 @@
 ---
 title: MCI\_SYSINFO command
 description: The MCI\_SYSINFO command retrieves information about MCI devices.
-ms.assetid: '605efd25-8849-42aa-99fd-b36b6fd2c7b7'
-keywords: ["MCI_SYSINFO command Windows Multimedia"]
+ms.assetid: 605efd25-8849-42aa-99fd-b36b6fd2c7b7
+keywords:
+- MCI_SYSINFO command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SYSINFO command
 
 The MCI\_SYSINFO command retrieves information about MCI devices. MCI supports this command directly rather than passing it to the device. Any MCI application can use this command. String information is returned in the application-supplied buffer pointed to by the **lpstrReturn** member of the structure identified by *lpSysInfo*. Numeric information is returned as a **DWORD** value placed in the application-supplied buffer. The **dwRetSize** member specifies the buffer length.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -102,8 +108,8 @@ String return values are null-terminated strings returned in the buffer pointed 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -118,9 +124,9 @@ String return values are null-terminated strings returned in the buffer pointed 
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Example Create a New Window Using JavaScript
 description: Example Create a New Window Using JavaScript
-ms.assetid: '1932EE4C-D99A-4c3a-9DFC-6486E341842A'
+ms.assetid: 1932EE4C-D99A-4c3a-9DFC-6486E341842A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create a New Window Using JavaScript

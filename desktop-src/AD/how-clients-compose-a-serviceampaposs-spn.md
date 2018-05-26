@@ -1,19 +1,24 @@
 ---
-title: How Clients Compose a Service's SPN
+title: How Clients Compose a Services SPN
 description: To authenticate a service, a client application composes an SPN for the service instance to which it must connect.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cf6c491a-d84d-4c9c-bd69-1f2264f395b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cf6c491a-d84d-4c9c-bd69-1f2264f395b6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["How Clients Compose a Service's SPN AD", "service principal name AD , how clients compose a service's SPN"]
+keywords:
+- How Clients Compose a Services SPN AD
+- service principal name AD , how clients compose a services SPN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How Clients Compose a Service's SPN
 
-To authenticate a service, a client application composes an SPN for the service instance to which it must connect. The client application can use the [**DsMakeSpn**](dsmakespn.md) function to compose an SPN. The client specifies the components of the SPN using known data or data retrieved from sources other than the service itself.
+To authenticate a service, a client application composes an SPN for the service instance to which it must connect. The client application can use the [**DsMakeSpn**](/windows/win32/Dsparse/nf-dsparse-dsmakespna?branch=master) function to compose an SPN. The client specifies the components of the SPN using known data or data retrieved from sources other than the service itself.
 
 The form of an SPN is as shown in the following form:
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a Boolean value that indicates whether the private key is protected.'
-ms.assetid: '6a329581-0ff8-45fa-9997-5fcf043287cb'
-title: 'PrivateKey.IsProtected method'
+---
+Description: Returns a Boolean value that indicates whether the private key is protected.
+ms.assetid: 6a329581-0ff8-45fa-9997-5fcf043287cb
+title: PrivateKey.IsProtected method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.IsProtected method

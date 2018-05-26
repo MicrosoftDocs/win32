@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called in response to the web view barricade being dismissed by the user.'
-ms.assetid: '170893b6-c947-45b1-b717-a93a0b083bda'
-title: 'Folder2.DismissedWebViewBarricade method'
+---
+Description: Called in response to the web view barricade being dismissed by the user.
+ms.assetid: 170893b6-c947-45b1-b717-a93a0b083bda
+title: Folder2.DismissedWebViewBarricade method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder2.DismissedWebViewBarricade method

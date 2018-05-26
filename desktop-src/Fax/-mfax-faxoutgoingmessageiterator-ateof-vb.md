@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AtEOF property is the end-of-file marker for the archive of outbound fax messages.'
-ms.assetid: '161ad22b-b175-4c97-91eb-012eb36e7e10'
-title: 'FaxOutgoingMessageIterator.AtEOF property'
+---
+Description: The AtEOF property is the end-of-file marker for the archive of outbound fax messages.
+ms.assetid: 161ad22b-b175-4c97-91eb-012eb36e7e10
+title: FaxOutgoingMessageIterator.AtEOF property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessageIterator.AtEOF property
@@ -50,7 +55,7 @@ If this property is equal to **True**, the archive cursor has moved beyond the l
 [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator-cpp.md)
+[**IFaxOutgoingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessageiterator?branch=master)
 </dt> </dl>
 
  

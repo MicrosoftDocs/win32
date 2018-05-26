@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MONITOR structure is obsolete and is supported only for compatibility reasons.'
-ms.assetid: 'e9d833cd-29d6-4c71-ba90-8d7dcf934420'
+---
+Description: The MONITOR structure is obsolete and is supported only for compatibility reasons.
+ms.assetid: e9d833cd-29d6-4c71-ba90-8d7dcf934420
 title: MONITOR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MONITOR structure

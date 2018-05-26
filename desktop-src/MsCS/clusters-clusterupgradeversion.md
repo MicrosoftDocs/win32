@@ -4,17 +4,21 @@ description: .
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CC9FD449-AC63-4D2F-9327-C9419622D9FC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CC9FD449-AC63-4D2F-9327-C9419622D9FC
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterUpgradeVersion Failover Cluster"]
+keywords:
+- ClusterUpgradeVersion Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusterUpgradeVersion
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterUpgradeVersion
@@ -25,14 +29,14 @@ api_type:
 |-----------|--------------------------------------------------|
 | Data type | **DWORD**                                        |
 | Access    | [Read/write](read-write-properties.md)          |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)        |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)        |
 | Minimum   | 0                                                |
 | Maximum   | 0xFFFFFFFF                                       |
 | Default   | **CLUSTER\_INTERNAL\_CURRENT\_UPGRADE\_VERSION** |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The value of **CLUSTER\_INTERNAL\_CURRENT\_UPGRADE\_VERSION** is the current bui
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The value of **CLUSTER\_INTERNAL\_CURRENT\_UPGRADE\_VERSION** is the current bui
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

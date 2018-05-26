@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the identifying information about a video monitor, such as manufacturer name, year of manufacture, or serial number.'
-ms.assetid: '85c8c4b1-20e2-4c0b-9209-a3724509a2f0'
+Description: Represents the identifying information about a video monitor, such as manufacturer name, year of manufacture, or serial number.
+ms.assetid: 85c8c4b1-20e2-4c0b-9209-a3724509a2f0
 title: WmiMonitorID class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorID class
@@ -14,15 +19,15 @@ The **WmiMonitorID** WMI class represents the identifying information about a vi
 class WmiMonitorID : MSMonitorClass
 {
   boolean Active;
-  string  InstanceName;
-  uint16  ManufacturerName[];
-  uint16  ManufacturerNameLength;
-  uint16  ProductCodeID[];
-  uint16  SerialNumberID[];
-  uint8   WeekOfManufacture;
-  uint16  YearOfManufacture;
-  uint16  UserFriendlyName;
-  uint16  UserFriendlyNameLength;
+  string  InstanceName;
+  uint16  ManufacturerName[];
+  uint16  ManufacturerNameLength;
+  uint16  ProductCodeID[];
+  uint16  SerialNumberID[];
+  uint8   WeekOfManufacture;
+  uint16  YearOfManufacture;
+  uint16  UserFriendlyName;
+  uint16  UserFriendlyNameLength;
 };
 ```
 
@@ -216,8 +221,8 @@ Next
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -231,9 +236,9 @@ Next
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

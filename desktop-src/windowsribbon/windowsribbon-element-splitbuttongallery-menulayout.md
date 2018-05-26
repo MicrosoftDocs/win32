@@ -1,14 +1,20 @@
 ---
 title: SplitButtonGallery.MenuLayout property
 description: Represents a container for Split Button Gallery drop-down menu layouts.
-ms.assetid: '4bebdff6-16ea-4cf3-adc7-9b86ea200e81'
-keywords: ["SplitButtonGallery.MenuLayout property Windows Ribbon"]
+ms.assetid: 4bebdff6-16ea-4cf3-adc7-9b86ea200e81
+keywords:
+- SplitButtonGallery.MenuLayout property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - SplitButtonGallery.MenuLayout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitButtonGallery.MenuLayout property
@@ -57,7 +63,7 @@ May occur at most once for each [**SplitButtonGallery**](windowsribbon-element-s
 > [!Note]  
 > A maximum of one child element ([**VerticalMenuLayout**](windowsribbon-element-verticalmenulayout.md) or [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md)) is allowed.
 
- 
+ 
 
 ## Examples
 
@@ -96,8 +102,8 @@ This section of code shows the **SplitButtonGallery.MenuLayout** control declara
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -111,9 +117,9 @@ This section of code shows the **SplitButtonGallery.MenuLayout** control declara
 [Working with Galleries](ribbon-controls-galleries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: D3DX12ParsePipelineStream function
 description: Parses a pipeline state stream description, calling a user-defined callback for each subobject instance parsed.
-ms.assetid: 'BE4E8CC4-1E1F-4FE8-B109-05FAF93EB620'
-keywords: ["D3DX12ParsePipelineStream function"]
+ms.assetid: BE4E8CC4-1E1F-4FE8-B109-05FAF93EB620
+keywords:
+- D3DX12ParsePipelineStream function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX12ParsePipelineStream function
@@ -22,8 +28,8 @@ Parses a pipeline state stream description, calling a user-defined callback for 
 
 ```C++
 HRESULT inline D3DX12ParsePipelineStream(
-   const D3D12_PIPELINE_STATE_STREAM_DESC &amp;Desc,
-         ID3DX12PipelineParserCallbacks   *pCallbacks
+   const D3D12_PIPELINE_STATE_STREAM_DESC &amp;Desc,
+         ID3DX12PipelineParserCallbacks   *pCallbacks
 );
 ```
 
@@ -36,7 +42,7 @@ HRESULT inline D3DX12ParsePipelineStream(
 *Desc* \[ref\]
 </dt> <dd>
 
-Type: **const [**D3D12\_PIPELINE\_STATE\_STREAM\_DESC**](d3d12-pipeline-state-stream-desc.md)**
+Type: **const [**D3D12\_PIPELINE\_STATE\_STREAM\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc?branch=master)**
 
 The pipeline state stream description to parse.
 
@@ -76,9 +82,9 @@ This method returns an HRESULT success (**S\_OK** or **E\_INVALIDARG** error if 
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

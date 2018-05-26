@@ -1,8 +1,9 @@
 ---
 title: BDA\_Comp\_Flags enumeration
 description: Defines flags for the IBDAComparable interface.
-ms.assetid: '3bf4b82d-29d2-442e-ad20-bdb7ef66dfb5'
-keywords: ["BDA_Comp_Flags enumeration Microsoft TV Technologies"]
+ms.assetid: 3bf4b82d-29d2-442e-ad20-bdb7ef66dfb5
+keywords:
+- BDA_Comp_Flags enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,21 +12,26 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA\_Comp\_Flags enumeration
 
-Defines flags for the [**IBDAComparable**](ibdacomparable.md) interface.
+Defines flags for the [**IBDAComparable**](/windows/previous-versions/tuner/nn-tuner-ibdacomparable?branch=master) interface.
 
 ## Syntax
 
 
 ```C++
 typedef enum  { 
-  BDACOMP_NOT_DEFINED               = 0x00000000,
-  BDACOMP_EXCLUDE_TS_FROM_TR        = 0x00000001,
-  BDACOMP_INCLUDE_LOCATOR_IN_TR     = 0x00000002,
-  BDACOMP_INCLUDE_COMPONENTS_IN_TR  = 0x00000004
+  BDACOMP_NOT_DEFINED               = 0x00000000,
+  BDACOMP_EXCLUDE_TS_FROM_TR        = 0x00000001,
+  BDACOMP_INCLUDE_LOCATOR_IN_TR     = 0x00000002,
+  BDACOMP_INCLUDE_COMPONENTS_IN_TR  = 0x00000004
 } BDA_Comp_Flags;
 ```
 
@@ -80,12 +86,12 @@ Include components in the comparison.
 [BDA Enumeration Types](bda-types.md)
 </dt> <dt>
 
-[**IBDAComparable**](ibdacomparable.md)
+[**IBDAComparable**](/windows/previous-versions/tuner/nn-tuner-ibdacomparable?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

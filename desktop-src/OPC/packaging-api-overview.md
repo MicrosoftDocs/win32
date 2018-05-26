@@ -1,13 +1,23 @@
 ---
 title: Getting Started with the Packaging API
-description: The Windows 7 Packaging feature is a set of COM-based APIs that provides support for accessing, modifying, and saving packages using C and C++. This topic includes the prerequisites and programming information needed to begin using the APIs.
-ms.assetid: 'ef392c88-49cd-4ffa-b1fb-1501c6448264'
-keywords: ["packaging,Packaging APIs", "packages,Packaging APIs", "Packaging APIs,prerequisites", "Packaging APIs,about", "Packaging APIs,programming notes"]
+description: The Windows 7 Packaging feature is a set of COM-based APIs that provides support for accessing, modifying, and saving packages using C and C++. This topic includes the prerequisites and programming information needed to begin using the APIs.
+ms.assetid: ef392c88-49cd-4ffa-b1fb-1501c6448264
+keywords:
+- packaging,Packaging APIs
+- packages,Packaging APIs
+- Packaging APIs,prerequisites
+- Packaging APIs,about
+- Packaging APIs,programming notes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with the Packaging API
 
-The Windows 7 Packaging feature is a set of COM-based APIs that provides support for accessing, modifying, and saving packages using C and C++. This topic includes the prerequisites and programming information needed to begin using the APIs.
+The Windows 7 Packaging feature is a set of COM-based APIs that provides support for accessing, modifying, and saving packages using C and C++. This topic includes the prerequisites and programming information needed to begin using the APIs.
 
 This topic contains the following sections.
 
@@ -40,11 +50,11 @@ The Packaging APIs are defined in the following header and IDL files:
 
 
 
- 
+ 
 
 ## Accessing the Packaging APIs: Creating a Factory
 
-Windows 7 provides a factory implementation of the [**IOpcFactory**](iopcfactory.md) interface, which you instantiate by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function. Through this factory, the **IOpcFactory** interface provides a portal to other Packaging interfaces and objects.
+Windows 7 provides a factory implementation of the [**IOpcFactory**](/windows/previous-versions/msopc/nn-msopc-iopcfactory?branch=master) interface, which you instantiate by calling the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function. Through this factory, the **IOpcFactory** interface provides a portal to other Packaging interfaces and objects.
 
 To get started with the Packaging APIs, create a Packaging factory instance, as shown in the following code.
 
@@ -92,22 +102,22 @@ Once created, the factory is not tied to any particular package and can be used 
 
 ## Packaging API Support for Previous Versions of Windows
 
-The Platform Update for Windows Vista is a set of run-time libraries that enables developers to target applications to both Windows 7 and previous versions of Windows. The Platform Update for Windows Vista will be available to all Windows Vista customers through Windows Update. Third-party applications that require Platform Update for Windows Vista can have Windows Update detect whether it is installed; if it is not, Windows Update will download and install it in the background.
+The Platform Update for Windows Vista is a set of run-time libraries that enables developers to target applications to both Windows 7 and previous versions of Windows. The Platform Update for Windows Vista will be available to all Windows Vista customers through Windows Update. Third-party applications that require Platform Update for Windows Vista can have Windows Update detect whether it is installed; if it is not, Windows Update will download and install it in the background.
 
-The Platform Update for Windows Vista provides the following support for the Packaging API.
+The Platform Update for Windows Vista provides the following support for the Packaging API.
 
--   [**IOpcUri**](iopcuri.md)
--   [**IOpcPartUri**](iopcparturi.md)
--   [**IOpcFactory**](iopcfactory.md) (only the following methods are supported)
-    -   [**CreatePackageRootUri**](iopcfactory-createpackagerooturi.md)
-    -   [**CreatePartUri**](iopcfactory-createparturi.md)
-    -   [**CreateStreamOnFile**](iopcfactory-createstreamonfile.md)
+-   [**IOpcUri**](/windows/previous-versions/msopc/nn-msopc-iopcuri?branch=master)
+-   [**IOpcPartUri**](/windows/previous-versions/msopc/nn-msopc-iopcparturi?branch=master)
+-   [**IOpcFactory**](/windows/previous-versions/msopc/nn-msopc-iopcfactory?branch=master) (only the following methods are supported)
+    -   [**CreatePackageRootUri**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-createpackagerooturi?branch=master)
+    -   [**CreatePartUri**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-createparturi?branch=master)
+    -   [**CreateStreamOnFile**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-createstreamonfile?branch=master)
 
 Supported Packaging APIs can be used to create streams over files as well as to create and interact with package-based URI.
 
 The behavior and performance of supported Packaging interfaces and methods are the same on all supported versions of Windows.
 
-If an application attempts to instantiate or call an unsupported Packaging interface or method, the attempt will fail. If the call is to an unsupported [**IOpcFactory**](iopcfactory.md) method, the E\_NOTIMPL error code will be returned. For more information, see [Platform Update for Windows Vista](win7ip-platform_update_for_windows_vista_portal).
+If an application attempts to instantiate or call an unsupported Packaging interface or method, the attempt will fail. If the call is to an unsupported [**IOpcFactory**](/windows/previous-versions/msopc/nn-msopc-iopcfactory?branch=master) method, the E\_NOTIMPL error code will be returned. For more information, see [Platform Update for Windows Vista](win7ip-platform_update_for_windows_vista_portal).
 
 ## Packaging API Programming Notes
 
@@ -120,7 +130,7 @@ When programming with Packaging APIs, remember the following:
     > \[!Caution\]  
     > Packaging objects are not thread-safe; the caller must synchronize access to Packaging objects.
 
-     
+     
 
 -   The Packaging APIs do not support any form of marshaling across apartments; if the caller attempts to implement marshaling for Packaging interfaces the attempt will fail or cause undefined behavior.
 -   Passing raw pointers to Packaging objects across apartments may lead to undefined behavior.
@@ -134,10 +144,10 @@ When programming with Packaging APIs in a multithreaded environment, adhere to t
 -   \[!Caution\]  
     > The caller must synchronize access to Packaging objects.
 
-     
+     
 
--   If the **OPC\_CACHE\_ON\_ACCESS** value of the [**OPC\_READ\_FLAGS**](opc-read-flags.md) enumeration is used to load a package, the part content of different parts may be read concurrently by using distinct streams from distinct threads. This applies to the content accessed by calling either the [**IOpcPart::GetContentStream**](iopcpart-getcontentstream.md) or [**IOpcRelationshipSet::GetRelationshipsContentStream**](iopcrelationshipset-getrelationshipscontentstream.md) method. Potential performance improvements that are made possible by concurrent read operations are contingent on the implementation of the data source.
--   Different packages may be serialized concurrently, by calling [**IOpcFactory::WritePackageToStream**](iopcfactory-writepackagetostream.md) and using distinct package objects and distinct streams.
+-   If the **OPC\_CACHE\_ON\_ACCESS** value of the [**OPC\_READ\_FLAGS**](/windows/previous-versions/msopc/ne-msopc-__midl___midl_itf_msopc_0000_0002_0004?branch=master) enumeration is used to load a package, the part content of different parts may be read concurrently by using distinct streams from distinct threads. This applies to the content accessed by calling either the [**IOpcPart::GetContentStream**](/windows/previous-versions/msopc/nf-msopc-iopcpart-getcontentstream?branch=master) or [**IOpcRelationshipSet::GetRelationshipsContentStream**](/windows/previous-versions/msopc/nf-msopc-iopcrelationshipset-getrelationshipscontentstream?branch=master) method. Potential performance improvements that are made possible by concurrent read operations are contingent on the implementation of the data source.
+-   Different packages may be serialized concurrently, by calling [**IOpcFactory::WritePackageToStream**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-writepackagetostream?branch=master) and using distinct package objects and distinct streams.
 -   Packaging objects that represent package components in different packages may be accessed concurrently by distinct threads.
 
 The following operations will result in undefined behavior; errors that occur as a result of these operations may not be recoverable.
@@ -151,13 +161,13 @@ The following operations will result in undefined behavior; errors that occur as
 
 When programming with the Packaging Digital Signature APIs, remember the following:
 
--   Some package signature–related errors may not be exposed until the [**IOpcDigitalSignatureManager::Validate**](iopcdigitalsignaturemanager-validate.md) method is called.
--   Errors that are introduced into a package signature when the caller is using the [**IOpcSigningOptions**](iopcsigningoptions.md) interface to set signature information may not be exposed until [**IOpcDigitalSignatureManager::Sign**](iopcdigitalsignaturemanager-sign.md) is called.
+-   Some package signature related errors may not be exposed until the [**IOpcDigitalSignatureManager::Validate**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-validate?branch=master) method is called.
+-   Errors that are introduced into a package signature when the caller is using the [**IOpcSigningOptions**](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface to set signature information may not be exposed until [**IOpcDigitalSignatureManager::Sign**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-sign?branch=master) is called.
 
 The following Packaging APIs and Packaging objects can still execute or be accessed successfully after an error is encountered.
 
 -   Part content streams that have been cached will be accessible.
--   If the relationships contained in a Relationships part have been parsed successfully and cached, the [**IOpcRelationshipSet::GetRelationshipsContentStream**](iopcrelationshipset-getrelationshipscontentstream.md) method can be called from the [**IOpcRelationshipSet**](iopcrelationshipset.md) interface pointer that represents that part. Relationships are cached when they are modified.
+-   If the relationships contained in a Relationships part have been parsed successfully and cached, the [**IOpcRelationshipSet::GetRelationshipsContentStream**](/windows/previous-versions/msopc/nf-msopc-iopcrelationshipset-getrelationshipscontentstream?branch=master) method can be called from the [**IOpcRelationshipSet**](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipset?branch=master) interface pointer that represents that part. Relationships are cached when they are modified.
 
 ## Additional Resources
 
@@ -171,7 +181,7 @@ While not required to use the Packaging API, knowledge of the following technolo
 
 
 
- 
+ 
 
 ## Disclaimer
 
@@ -205,9 +215,9 @@ Code examples are not intended to be complete and working programs. The code exa
 [Packaging API Samples](packaging-programming-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

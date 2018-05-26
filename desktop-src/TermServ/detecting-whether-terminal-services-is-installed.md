@@ -4,10 +4,13 @@ description: C\ code example that shows a method that returns True if the Remote
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '53ef8d43-2141-4df7-b9e6-baf0677924ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 53ef8d43-2141-4df7-b9e6-baf0677924ba
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Detecting Whether the Remote Desktop Services Role Is Installed

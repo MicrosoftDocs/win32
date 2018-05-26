@@ -1,7 +1,12 @@
 ---
-Description: 'You can set transaction attributes manually by using the Component Services administrative tool, or you can add programmatic support for transactions when you write your component.'
-ms.assetid: 'b0d701c7-47ef-4034-873f-dd4428efb4c7'
+Description: You can set transaction attributes manually by using the Component Services administrative tool, or you can add programmatic support for transactions when you write your component.
+ms.assetid: b0d701c7-47ef-4034-873f-dd4428efb4c7
 title: Setting the Transaction Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Transaction Attribute
@@ -40,13 +45,13 @@ The following table maps each **MTSTransactionMode** constant value to its equiv
 
 
 
- 
+ 
 
 The **MTSTransactionMode** property can also be accessed programmatically by using the COM+ Administration Library API.
 
- 
+ 
 
- 
+ 
 
 
 

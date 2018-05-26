@@ -1,8 +1,10 @@
 ---
 title: CIM\_ElementSettingData class
 description: Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.
-ms.assetid: '189254aa-4ed4-4198-9e14-1a648e591c7d'
-keywords: ["CIM_ElementSettingData class Hyper-V", "CIM_ElementSettingData class Hyper-V , described"]
+ms.assetid: 189254aa-4ed4-4198-9e14-1a648e591c7d
+keywords:
+- CIM_ElementSettingData class Hyper-V
+- CIM_ElementSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementSettingData class
@@ -33,12 +40,12 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class CIM_ElementSettingData
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_SettingData    REF SettingData;
-  uint16                 IsDefault;
-  uint16                 IsCurrent;
-  uint16                 IsNext;
-  uint16                 IsMaximum = 0;
-  uint16                 IsMinimum = 0;
+  CIM_SettingData    REF SettingData;
+  uint16                 IsDefault;
+  uint16                 IsCurrent;
+  uint16                 IsNext;
+  uint16                 IsMaximum = 0;
+  uint16                 IsMinimum = 0;
 };
 ```
 
@@ -323,17 +330,17 @@ The setting data associated with the element.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

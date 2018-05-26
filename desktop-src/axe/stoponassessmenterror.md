@@ -1,14 +1,20 @@
 ---
 title: StopOnAssessmentError element
 description: AXE stops the job if this element is present and an assessment returns a non-zero value.
-ms.assetid: '45139DB4-2957-4F69-9C2E-039D36EBDD01'
-keywords: ["StopOnAssessmentError element Access Execution Engine"]
+ms.assetid: 45139DB4-2957-4F69-9C2E-039D36EBDD01
+keywords:
+- StopOnAssessmentError element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - StopOnAssessmentError
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopOnAssessmentError element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

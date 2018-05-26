@@ -4,11 +4,14 @@ description: Adds an existing cluster resource to the ClusResDependents collecti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f640b526-163d-4975-b135-6734569bf29a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f640b526-163d-4975-b135-6734569bf29a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddItem method Failover Cluster", "AddItem method Failover Cluster , ClusResDependents class", "ClusResDependents class Failover Cluster , AddItem method"]
+keywords:
+- AddItem method Failover Cluster
+- AddItem method Failover Cluster , ClusResDependents class
+- ClusResDependents class Failover Cluster , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResDependents.AddItem method
@@ -62,7 +68,7 @@ Resources added to a [**ClusResDependents**](clusresdependents-collection.md) co
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>              |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>  |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>  |
@@ -81,9 +87,9 @@ Resources added to a [**ClusResDependents**](clusresdependents-collection.md) co
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

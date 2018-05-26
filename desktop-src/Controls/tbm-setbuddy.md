@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETBUDDY message
-description: Assigns a window as the buddy window for a trackbar control. Trackbar buddy windows are automatically displayed in a location relative to the control's orientation (horizontal or vertical).
-ms.assetid: 'ab35911f-bf81-47f3-98aa-0901aa877dea'
-keywords: ["TBM_SETBUDDY message Windows Controls"]
+description: Assigns a window as the buddy window for a trackbar control. Trackbar buddy windows are automatically displayed in a location relative to the controls orientation (horizontal or vertical).
+ms.assetid: ab35911f-bf81-47f3-98aa-0901aa877dea
+keywords:
+- TBM_SETBUDDY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETBUDDY message
@@ -35,7 +41,7 @@ Value specifying the location at which to display the buddy window. This value c
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -55,7 +61,7 @@ Returns the handle to the window that was previously assigned to the control at 
 > [!Note]  
 > Trackbar controls support up to two buddy windows. This can be useful when you must display text or images at each end of the control.
 
- 
+ 
 
 ## Requirements
 
@@ -63,15 +69,15 @@ Returns the handle to the window that was previously assigned to the control at 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

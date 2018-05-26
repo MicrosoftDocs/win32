@@ -4,11 +4,14 @@ description: The SetColorDepthPolicy method sets the ColorDepthPolicy property f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7a8c2b51-5f7a-4188-aae0-0b2d47d043bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7a8c2b51-5f7a-4188-aae0-0b2d47d043bd
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetColorDepthPolicy method Remote Desktop Services", "SetColorDepthPolicy method Remote Desktop Services , Win32_TSClientSetting class", "Win32_TSClientSetting class Remote Desktop Services , SetColorDepthPolicy method"]
+keywords:
+- SetColorDepthPolicy method Remote Desktop Services
+- SetColorDepthPolicy method Remote Desktop Services , Win32_TSClientSetting class
+- Win32_TSClientSetting class Remote Desktop Services , SetColorDepthPolicy method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetColorDepthPolicy method of the Win32\_TSClientSetting class
@@ -28,7 +34,7 @@ The **SetColorDepthPolicy** method sets the **ColorDepthPolicy** property for th
 
 ```mof
 uint32 SetColorDepthPolicy(
-  [in] uint32 ColorDepthPolicy
+  [in] uint32 ColorDepthPolicy
 );
 ```
 
@@ -81,8 +87,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -96,9 +102,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSClientSetting**](win32-tsclientsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

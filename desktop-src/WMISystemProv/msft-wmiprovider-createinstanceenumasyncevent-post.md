@@ -1,14 +1,16 @@
 ---
 title: MSFT\_WmiProvider\_CreateInstanceEnumAsyncEvent\_Post class
-description: Represents an event generated immediately following completion of the provider's implementation of IWbemServices CreateInstanceEnumAsync.
+description: Represents an event generated immediately following completion of the providers implementation of IWbemServices CreateInstanceEnumAsync.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd34b6b1b-f9a0-4f59-955e-11d2633ea662'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d34b6b1b-f9a0-4f59-955e-11d2633ea662
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiProvider_CreateInstanceEnumAsyncEvent_Post class", "MSFT_WmiProvider_CreateInstanceEnumAsyncEvent_Post class, described"]
+keywords:
+- MSFT_WmiProvider_CreateInstanceEnumAsyncEvent_Post class
+- MSFT_WmiProvider_CreateInstanceEnumAsyncEvent_Post class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiProvider\_CreateInstanceEnumAsyncEvent\_Post class
@@ -46,7 +51,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class MSFT_WmiProvider_CreateInstanceEnumAsyncEvent_Post : Msft_WmiProvider_OperationEvent_Post
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   String TransactionIdentifer;
   string ClassName;
@@ -367,8 +372,8 @@ This property is inherited from [**Msft\_WmiProvider\_OperationEvent**](msft-wmi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -397,9 +402,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

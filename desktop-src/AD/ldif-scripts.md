@@ -4,16 +4,21 @@ description: The LDAP Data Interchange Format (LDIF) is an Internet Engineering 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a87d0d34-96c0-4cef-a38e-30a7e2291a7a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a87d0d34-96c0-4cef-a38e-30a7e2291a7a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["LDIF Scripts Active Directory", "LDIF Scripts Active Directory , about"]
+keywords:
+- LDIF Scripts Active Directory
+- LDIF Scripts Active Directory , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDIF Scripts
 
-The LDAP Data Interchange Format (LDIF) is an Internet Engineering Task Force (IETF) standard that defines how to import and export directory data between directory servers that use LDAP service providers. Windows 2000 and Windows Server 2003 include a command-line utility, LDIFDE, which can be used to import directory objects into Active Directory Domain Services using LDIF files. LDIFDE enables you to set a filter to a specific string in order to search for and list directory objects in Active Directory Domain Services as LDIF files which can be easily read by schema administrators.
+The LDAP Data Interchange Format (LDIF) is an Internet Engineering Task Force (IETF) standard that defines how to import and export directory data between directory servers that use LDAP service providers. Windows 2000 and Windows Server 2003 include a command-line utility, LDIFDE, which can be used to import directory objects into Active Directory Domain Services using LDIF files. LDIFDE enables you to set a filter to a specific string in order to search for and list directory objects in Active Directory Domain Services as LDIF files which can be easily read by schema administrators.
 
 When importing a Unicode file, LDIFDE imports the file as Unicode if it contains the Unicode identifier at the beginning of the file. If you wish to import a file as Unicode when it does not contain the Unicode identifier at the beginning of the file, you can use the -u switch in order to force it to be imported as Unicode.
 
@@ -49,7 +54,7 @@ The following changetypes are designed specifically for schema upgrade operation
 
 
 
- 
+ 
 
 ## Example
 
@@ -59,9 +64,9 @@ The following code example includes:
     > [!Note]  
     > See the topic [Obtaining a Link ID](obtaining-a-link-id.md) for information about the source of the ID in the linkID: statements.
 
-     
+     
 
--   Lgetattcls.vbs is a VBScript file that generates the LDIF script used as the starting point for the Myschemaext.ldf. Be aware that the current schema path is replaced by CN=Schema,CN=Configuration,DC=myorg,DC=com. You can replace DC=myorg,DC=com to reflect the distinguished name (DN) to publish in the LDIF script— ensure that LSETATTCLS.VBS reflects the change in its **sFromDN** so that the correct DN is replaced when the LDIF script is applied. Also be aware that the script uses a prefix to find the classes and attributes—you should also define and use a prefix for all your classes and attributes. For more information, see [Naming Attributes and Classes](naming-attributes-and-classes.md). In addition, the script outputs only the necessary attributes for the **attributeSchema** and **classSchema** objects to the LDIF file.
+-   Lgetattcls.vbs is a VBScript file that generates the LDIF script used as the starting point for the Myschemaext.ldf. Be aware that the current schema path is replaced by CN=Schema,CN=Configuration,DC=myorg,DC=com. You can replace DC=myorg,DC=com to reflect the distinguished name (DN) to publish in the LDIF script  ensure that LSETATTCLS.VBS reflects the change in its **sFromDN** so that the correct DN is replaced when the LDIF script is applied. Also be aware that the script uses a prefix to find the classes and attributes you should also define and use a prefix for all your classes and attributes. For more information, see [Naming Attributes and Classes](naming-attributes-and-classes.md). In addition, the script outputs only the necessary attributes for the **attributeSchema** and **classSchema** objects to the LDIF file.
 -   Lsetattcls.vbs is a VBScript file that uses the Myschemaext.ldf script to add the new attributes and classes in the script. Ensure that the schema master is able to be written to before running the script.
 
 ## MYSCHEMAEXT.LDF
@@ -433,9 +438,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

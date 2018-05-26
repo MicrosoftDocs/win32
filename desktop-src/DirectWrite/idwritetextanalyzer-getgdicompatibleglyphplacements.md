@@ -1,8 +1,11 @@
 ---
 title: IDWriteTextAnalyzer GetGdiCompatibleGlyphPlacements method
-description: Place glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
-ms.assetid: '49312b03-9ee9-44ef-b3eb-a35631a6e693'
-keywords: ["GetGdiCompatibleGlyphPlacements method Direct Write", "GetGdiCompatibleGlyphPlacements method Direct Write , IDWriteTextAnalyzer interface", "IDWriteTextAnalyzer interface Direct Write , GetGdiCompatibleGlyphPlacements method"]
+description: Place glyphs output from the GetGlyphs method according to the font and the writing systems rendering rules.
+ms.assetid: 49312b03-9ee9-44ef-b3eb-a35631a6e693
+keywords:
+- GetGdiCompatibleGlyphPlacements method Direct Write
+- GetGdiCompatibleGlyphPlacements method Direct Write , IDWriteTextAnalyzer interface
+- IDWriteTextAnalyzer interface Direct Write , GetGdiCompatibleGlyphPlacements method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements method
@@ -22,27 +30,27 @@ Place glyphs output from the [**GetGlyphs**](https://msdn.microsoft.com/library/
 
 ```C++
 virtual HRESULT GetGdiCompatibleGlyphPlacements(
-  [in]           const WCHAR                           *textString,
-  [in]           const UINT16                          *clusterMap,
-  [in]                 DWRITE_SHAPING_TEXT_PROPERTIES  *textProps,
-                       UINT32                          textLength,
-  [in]           const UINT16                          *glyphIndices,
-  [in]           const DWRITE_SHAPING_GLYPH_PROPERTIES *glyphProps,
-                       UINT32                          glyphCount,
-  [in]                 IDWriteFontFace                 *fontFace,
-                       FLOAT                           fontEmSize,
-                       FLOAT                           pixelsPerDip,
-  [in, optional] const DWRITE_MATRIX                   *transform,
-                       BOOL                            useGdiNatural,
-                       BOOL                             isSideways,
-                       BOOL                             isRightToLeft,
-  [in]           const DWRITE_SCRIPT_ANALYSIS          * scriptAnalysis,
-  [in, optional] const WCHAR                           * localeName,
-  [in, optional] const DWRITE_TYPOGRAPHIC_FEATURES     ** features,
-  [in, optional] const UINT32                          * featureRangeLengths,
-                       UINT32                           featureRanges,
-  [out]                FLOAT                           * glyphAdvances,
-  [out]                DWRITE_GLYPH_OFFSET             * glyphOffsets
+  [in]           const WCHAR                           *textString,
+  [in]           const UINT16                          *clusterMap,
+  [in]                 DWRITE_SHAPING_TEXT_PROPERTIES  *textProps,
+                       UINT32                          textLength,
+  [in]           const UINT16                          *glyphIndices,
+  [in]           const DWRITE_SHAPING_GLYPH_PROPERTIES *glyphProps,
+                       UINT32                          glyphCount,
+  [in]                 IDWriteFontFace                 *fontFace,
+                       FLOAT                           fontEmSize,
+                       FLOAT                           pixelsPerDip,
+  [in, optional] const DWRITE_MATRIX                   *transform,
+                       BOOL                            useGdiNatural,
+                       BOOL                             isSideways,
+                       BOOL                             isRightToLeft,
+  [in]           const DWRITE_SCRIPT_ANALYSIS          * scriptAnalysis,
+  [in, optional] const WCHAR                           * localeName,
+  [in, optional] const DWRITE_TYPOGRAPHIC_FEATURES     ** features,
+  [in, optional] const UINT32                          * featureRangeLengths,
+                       UINT32                           featureRanges,
+  [out]                FLOAT                           * glyphAdvances,
+  [out]                DWRITE_GLYPH_OFFSET             * glyphOffsets
 ) = 0;
 ```
 
@@ -66,16 +74,16 @@ An array of characters containing the original string from which the glyphs came
 
 Type: **const UINT16\***
 
-A pointer to the mapping from character ranges to glyph ranges. This is returned by [**GetGlyphs**](idwritetextanalyzer-getglyphs.md).
+A pointer to the mapping from character ranges to glyph ranges. This is returned by [**GetGlyphs**](/windows/win32/dwrite/?branch=master).
 
 </dd> <dt>
 
 *textProps* \[in\]
 </dt> <dd>
 
-Type: **[**DWRITE\_SHAPING\_TEXT\_PROPERTIES**](dwrite-shaping-text-properties.md)\***
+Type: **[**DWRITE\_SHAPING\_TEXT\_PROPERTIES**](/windows/win32/dwrite/ns-dwrite-dwrite_shaping_text_properties?branch=master)\***
 
-A pointer to an array of structures that contains shaping properties for each character. This structure is returned by [**GetGlyphs**](idwritetextanalyzer-getglyphs.md).
+A pointer to an array of structures that contains shaping properties for each character. This structure is returned by [**GetGlyphs**](/windows/win32/dwrite/?branch=master).
 
 </dd> <dt>
 
@@ -93,16 +101,16 @@ The text length of *textString*.
 
 Type: **const UINT16\***
 
-An array of glyph indices returned by [**GetGlyphs**](idwritetextanalyzer-getglyphs.md).
+An array of glyph indices returned by [**GetGlyphs**](/windows/win32/dwrite/?branch=master).
 
 </dd> <dt>
 
 *glyphProps* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_SHAPING\_GLYPH\_PROPERTIES**](dwrite-shaping-glyph-properties.md)\***
+Type: **const [**DWRITE\_SHAPING\_GLYPH\_PROPERTIES**](/windows/win32/dwrite/ns-dwrite-dwrite_shaping_glyph_properties?branch=master)\***
 
-A pointer to an array of structures that contain shaping properties for each glyph returned by [**GetGlyphs**](idwritetextanalyzer-getglyphs.md).
+A pointer to an array of structures that contain shaping properties for each glyph returned by [**GetGlyphs**](/windows/win32/dwrite/?branch=master).
 
 </dd> <dt>
 
@@ -111,7 +119,7 @@ A pointer to an array of structures that contain shaping properties for each gly
 
 Type: **UINT32**
 
-The number of glyphs returned from [**GetGlyphs**](idwritetextanalyzer-getglyphs.md).
+The number of glyphs returned from [**GetGlyphs**](/windows/win32/dwrite/?branch=master).
 
 </dd> <dt>
 
@@ -145,7 +153,7 @@ The number of physical pixels per DIP.
 *transform* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_MATRIX**](dwrite-matrix.md)\***
+Type: **const [**DWRITE\_MATRIX**](/windows/win32/dwrite/ns-dwrite-dwrite_matrix?branch=master)\***
 
 An optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified by the font size and *pixelsPerDip*.
 
@@ -181,9 +189,9 @@ A Boolean flag set to **TRUE** for right-to-left text.
  *scriptAnalysis* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_SCRIPT\_ANALYSIS**](dwrite-script-analysis.md)\***
+Type: **const [**DWRITE\_SCRIPT\_ANALYSIS**](/windows/win32/dwrite/ns-dwrite-dwrite_script_analysis?branch=master)\***
 
-A pointer to a Script analysis result from an[**AnalyzeScript**](idwritetextanalyzer-analyzescript.md) call.
+A pointer to a Script analysis result from an[**AnalyzeScript**](/windows/win32/dwrite/?branch=master) call.
 
 </dd> <dt>
 
@@ -199,7 +207,7 @@ An array of characters containing the locale to use when selecting glyphs. For e
  *features* \[in, optional\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_TYPOGRAPHIC\_FEATURES**](dwrite-typographic-features.md)\*\***
+Type: **const [**DWRITE\_TYPOGRAPHIC\_FEATURES**](/windows/win32/dwrite/ns-dwrite-dwrite_typographic_features?branch=master)\*\***
 
 An array of pointers to the sets of typographic features to use in each feature range.
 
@@ -235,7 +243,7 @@ When this method returns, contains the advance width of each glyph.
  *glyphOffsets* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_GLYPH\_OFFSET**](dwrite-glyph-offset.md)\***
+Type: **[**DWRITE\_GLYPH\_OFFSET**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_offset?branch=master)\***
 
 When this method returns, contains the offset of the origin of each glyph.
 
@@ -262,12 +270,12 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IDWriteTextAnalyzer**](idwritetextanalyzer.md)
+[**IDWriteTextAnalyzer**](/windows/win32/dwrite/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The result pane of an MMC console can host HTML pages that are loca
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0c25ed9-60ff-4790-8e10-9962e7f77cb4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d0c25ed9-60ff-4790-8e10-9962e7f77cb4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["custom webpages MMC"]
+keywords:
+- custom webpages MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Custom Webpages
@@ -39,9 +43,9 @@ This section discusses how to start a custom webpage in a snap-in.
 
 4.  If necessary, handle the [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) notification message. The notification is sent to the snap-in's [**IComponent::Notify**](icomponent-notify.md) method when the result pane for a scope item must be restored by the snap-in after the user has navigated the view history using the **Back** or **Forward** buttons.
 
-    By handling the notification, the snap-in can find out what the view type and view options were the last time the result pane was displayed. This is particularly important if, for example, the [**IComponent**](icomponent.md) associated with the corresponding scope item supports multiple view types. Say the result pane supports two view types: list view and web view. The default view type is list view. The user selects another scope item and then presses the **Back** button to return to the same item. The user expects the web view, but the snap-in's default behavior is to display the list view. By looking at the [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) notification, the snap-in can find out what the view type and the view options were the last time the result pane was displayed and perform the necessary Steps to return the result pane to its previous state.
+    By handling the notification, the snap-in can find out what the view type and view options were the last time the result pane was displayed. This is particularly important if, for example, the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) associated with the corresponding scope item supports multiple view types. Say the result pane supports two view types: list view and web view. The default view type is list view. The user selects another scope item and then presses the **Back** button to return to the same item. The user expects the web view, but the snap-in's default behavior is to display the list view. By looking at the [**MMCN\_RESTORE\_VIEW**](mmcn-restore-view.md) notification, the snap-in can find out what the view type and the view options were the last time the result pane was displayed and perform the necessary Steps to return the result pane to its previous state.
 
-5.  If the snap-in adds items to the Action menu when the web view is displayed in the result pane, MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method of the corresponding [**IComponent**](icomponent.md) implementation with a special data object for the web view. To make sure that the data object is DOBJ\_CUSTOMWEB (for web views), the snap-in should check the data object using the [**IS\_SPECIAL\_DATAOBJECT**](is-special-dataobject.md) macro before dereferencing it. The snap-in can then determine what is selected on the web view and add menu items accordingly.
+5.  If the snap-in adds items to the Action menu when the web view is displayed in the result pane, MMC calls the [**IExtendContextMenu::AddMenuItems**](iextendcontextmenu-addmenuitems.md) method of the corresponding [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation with a special data object for the web view. To make sure that the data object is DOBJ\_CUSTOMWEB (for web views), the snap-in should check the data object using the [**IS\_SPECIAL\_DATAOBJECT**](is-special-dataobject.md) macro before dereferencing it. The snap-in can then determine what is selected on the web view and add menu items accordingly.
 
  
 

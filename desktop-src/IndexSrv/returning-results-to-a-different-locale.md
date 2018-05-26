@@ -1,7 +1,12 @@
 ---
 title: Returning Results to a Different Locale
 description: Returning Results to a Different Locale
-ms.assetid: 'c0f861f1-2cf5-43a2-bfdc-c03d090cdc3a'
+ms.assetid: c0f861f1-2cf5-43a2-bfdc-c03d090cdc3a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Returning Results to a Different Locale

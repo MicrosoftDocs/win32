@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordRP class
 description: DNS Server Resource Record RP.
 audience: developer
-ms.assetid: '9fc812a7-6bb4-4925-89d6-81391f6833c2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9fc812a7-6bb4-4925-89d6-81391f6833c2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordRP class", "DnsServerResourceRecordRP class, described"]
+keywords:
+- DnsServerResourceRecordRP class
+- DnsServerResourceRecordRP class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordRP class
@@ -83,7 +88,7 @@ Responsible Person.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -100,9 +105,9 @@ Responsible Person.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

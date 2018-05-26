@@ -4,17 +4,21 @@ description: Base class for types of user consents.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ED228D22-5623-469B-B173-E7C729C05823'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: ED228D22-5623-469B-B173-E7C729C05823
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Consent class"]
+keywords:
+- Consent class
 topic_type:
 - apiref
 api_name:
 - Consent class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Consent class
@@ -39,7 +43,7 @@ public class Consent implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,7 +59,7 @@ Consent.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -65,9 +69,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

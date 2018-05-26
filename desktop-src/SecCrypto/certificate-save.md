@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves the certificate to a file.'
-ms.assetid: '2012b39b-47fd-4071-9752-98bb10954fc0'
-title: 'ICertificate2::Save method'
+---
+Description: Saves the certificate to a file.
+ms.assetid: 2012b39b-47fd-4071-9752-98bb10954fc0
+title: ICertificate2Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::Save method

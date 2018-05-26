@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILPROPFIND structure
 description: Contains the response information for the PROPFIND command.
-ms.assetid: 'fcecb19a-1f7b-49fd-92d1-5d81fe3d9bc0'
-keywords: ["HTTPMAILPROPFIND structure Windows Mail (formerly Outlook Express)", "LPHTTPMAILPROPFIND structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: fcecb19a-1f7b-49fd-92d1-5d81fe3d9bc0
+keywords:
+- HTTPMAILPROPFIND structure Windows Mail (formerly Outlook Express)
+- LPHTTPMAILPROPFIND structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILPROPFIND structure
@@ -51,17 +58,17 @@ parsed propfind response
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Gets the ShowAgain flag indicating whether the user consent prompt 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ConsentResult.ShowAgain'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ConsentResult.ShowAgain
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ShowAgain property", "ShowAgain property, ConsentResult class", "ConsentResult class, ShowAgain property"]
+keywords:
+- ShowAgain property
+- ShowAgain property, ConsentResult class
+- ConsentResult class, ShowAgain property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult.ShowAgain property
@@ -65,9 +71,9 @@ The property is either True or False.
 [**ConsentResult**](consentresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

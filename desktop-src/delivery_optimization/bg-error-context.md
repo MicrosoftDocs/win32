@@ -1,8 +1,9 @@
 ---
 title: BG\_ERROR\_CONTEXT enumeration
 description: The BG\_ERROR\_CONTEXT enumeration defines the constant values that specify the context in which the error occurred.
-ms.assetid: '86202343-5B5B-4A2E-A58D-7634BCB41E1C'
-keywords: ["BG_ERROR_CONTEXT enumeration"]
+ms.assetid: 86202343-5B5B-4A2E-A58D-7634BCB41E1C
+keywords:
+- BG_ERROR_CONTEXT enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_ERROR\_CONTEXT enumeration
@@ -22,14 +28,14 @@ The **BG\_ERROR\_CONTEXT** enumeration defines the constant values that specify 
 
 ```C++
 typedef enum  { 
-  BG_ERROR_CONTEXT_NONE                        = 0,
-  BG_ERROR_CONTEXT_UNKNOWN                     = 1,
-  BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER       = 2,
-  BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION  = 3,
-  BG_ERROR_CONTEXT_LOCAL_FILE                  = 4,
-  BG_ERROR_CONTEXT_REMOTE_FILE                 = 5,
-  BG_ERROR_CONTEXT_GENERAL_TRANSPORT           = 6,
-  BG_ERROR_CONTEXT_REMOTE_APPLICATION          = 7
+  BG_ERROR_CONTEXT_NONE                        = 0,
+  BG_ERROR_CONTEXT_UNKNOWN                     = 1,
+  BG_ERROR_CONTEXT_GENERAL_QUEUE_MANAGER       = 2,
+  BG_ERROR_CONTEXT_QUEUE_MANAGER_NOTIFICATION  = 3,
+  BG_ERROR_CONTEXT_LOCAL_FILE                  = 4,
+  BG_ERROR_CONTEXT_REMOTE_FILE                 = 5,
+  BG_ERROR_CONTEXT_GENERAL_TRANSPORT           = 6,
+  BG_ERROR_CONTEXT_REMOTE_APPLICATION          = 7
 } BG_ERROR_CONTEXT;
 ```
 
@@ -101,7 +107,7 @@ Not supported.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -114,9 +120,9 @@ Not supported.
 [**IBackgroundCopyError::GetError**](ibackgroundcopyerror-geterror-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

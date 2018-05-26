@@ -4,10 +4,13 @@ description: The Msft\_ProviderSubSystem provider supports WMI providers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A320D703-2538-4769-B117-C89F773A7D28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: A320D703-2538-4769-B117-C89F773A7D28
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_ProviderSubSystem Provider

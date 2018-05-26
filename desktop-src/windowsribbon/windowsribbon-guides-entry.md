@@ -1,8 +1,18 @@
 ---
 title: Windows Ribbon Framework Developer Guides
 description: The topics contained in this section describe specific aspects of the Windows Ribbon framework.
-ms.assetid: '87434a15-ba13-4c6f-a814-49ae2349bfa2'
-keywords: ["Windows Ribbon,framework", "Ribbon,framework", "Windows Ribbon,developer guides", "Ribbon,developer guides", "developer guides for Windows Ribbon"]
+ms.assetid: 87434a15-ba13-4c6f-a814-49ae2349bfa2
+keywords:
+- Windows Ribbon,framework
+- Ribbon,framework
+- Windows Ribbon,developer guides
+- Ribbon,developer guides
+- developer guides for Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Ribbon Framework Developer Guides

@@ -1,7 +1,12 @@
 ---
-Description: 'The Deactivate method destroys the dialog window. This method implements the IPropertyPage::Deactivate method.'
-ms.assetid: 'f2d2f15f-15f6-4902-bafc-f58a684ff193'
-title: 'CBasePropertyPage.Deactivate method'
+Description: The Deactivate method destroys the dialog window. This method implements the IPropertyPageDeactivate method.
+ms.assetid: f2d2f15f-15f6-4902-bafc-f58a684ff193
+title: CBasePropertyPage.Deactivate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.Deactivate method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,9 +62,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CBasePropertyPage::OnDeactivate**](cbasepropertypage-ondeactivate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

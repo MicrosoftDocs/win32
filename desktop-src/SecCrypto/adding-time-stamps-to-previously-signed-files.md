@@ -1,7 +1,12 @@
 ---
-Description: 'Time stamps are normally included when a file is signed using SignTool with the -t option.'
-ms.assetid: 'ca22d055-dc34-447c-991b-27ff21ca3afc'
+Description: Time stamps are normally included when a file is signed using SignTool with the -t option.
+ms.assetid: ca22d055-dc34-447c-991b-27ff21ca3afc
 title: Adding Time Stamps to Previously Signed Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Time Stamps to Previously Signed Files

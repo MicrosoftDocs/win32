@@ -1,14 +1,20 @@
 ---
 title: SampleBias(S,float,float,int,float) function
 description: Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to.
-ms.assetid: '57D7E11C-19B5-420D-81D6-B7899AE71D93'
-keywords: ["SampleBias function HLSL"]
+ms.assetid: 57D7E11C-19B5-420D-81D6-B7899AE71D93
+keywords:
+- SampleBias function HLSL
 topic_type:
 - apiref
 api_name:
 - SampleBias
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleBias(S,float,float,int,float) function

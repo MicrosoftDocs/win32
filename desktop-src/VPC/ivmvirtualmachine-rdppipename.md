@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RdpPipeName property
 description: Retrieves the name of the RDP connection named pipe used for video and input.
-ms.assetid: '0c2d0f23-40cd-4a86-96dd-546fb3570871'
-keywords: ["RdpPipeName property Virtual PC", "RdpPipeName property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , RdpPipeName property"]
+ms.assetid: 0c2d0f23-40cd-4a86-96dd-546fb3570871
+keywords:
+- RdpPipeName property Virtual PC
+- RdpPipeName property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , RdpPipeName property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RdpPipeName property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the name of the RDP connection named pipe used for video and input.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_RdpPipeName(
-  [out, retval] BSTR *RdpPipeName
+  [out, retval] BSTR *RdpPipeName
 );
 ```
 
@@ -58,9 +66,9 @@ If the method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -74,9 +82,9 @@ If the method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

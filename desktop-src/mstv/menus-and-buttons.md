@@ -1,7 +1,12 @@
 ---
 title: Menus and Buttons
 description: Menus and Buttons
-ms.assetid: 'ab2bb143-6b55-4628-aa05-1bd7c5b4018e'
+ms.assetid: ab2bb143-6b55-4628-aa05-1bd7c5b4018e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Menus and Buttons

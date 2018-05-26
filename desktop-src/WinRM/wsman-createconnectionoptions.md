@@ -4,11 +4,14 @@ description: Creates a ConnectionOptions object that specifies the user name and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3669a5fe-8305-4fa3-aa75-fafefcd8b33d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 3669a5fe-8305-4fa3-aa75-fafefcd8b33d
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["CreateConnectionOptions method Windows Remote Management", "CreateConnectionOptions method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , CreateConnectionOptions method"]
+keywords:
+- CreateConnectionOptions method Windows Remote Management
+- CreateConnectionOptions method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , CreateConnectionOptions method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.CreateConnectionOptions method
@@ -57,8 +63,8 @@ Set options = wsman.CreateConnectionOptions
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -76,9 +82,9 @@ Set options = wsman.CreateConnectionOptions
 [**ConnectionOptions**](connectionoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

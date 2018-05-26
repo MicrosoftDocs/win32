@@ -1,14 +1,19 @@
 ---
 Description: Implementing IWICBitmapFrameDecode
-ms.assetid: '7dc626ad-1158-4b67-8ca7-47b4cf88e278'
+ms.assetid: 7dc626ad-1158-4b67-8ca7-47b4cf88e278
 title: Implementing IWICBitmapFrameDecode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapFrameDecode
 
 ## IWICBitmapFrameDecode
 
-[**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) is the frame-level interface that provides access to the actual image bits. You implement this interface on your frame-level decoding class. Because it’s derived from [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md), your implementation of **IWICBitmapFrameDecode** will include an implementation of the **IWICBitmapSource** methods. The additional methods on **IWICBitmapFrameDecode** provide access to the frame-level thumbnail, any color contexts for the image, and the metadata query reader for the frame.
+[**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) is the frame-level interface that provides access to the actual image bits. You implement this interface on your frame-level decoding class. Because it’s derived from [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master), your implementation of **IWICBitmapFrameDecode** will include an implementation of the **IWICBitmapSource** methods. The additional methods on **IWICBitmapFrameDecode** provide access to the frame-level thumbnail, any color contexts for the image, and the metadata query reader for the frame.
 
 ``` syntax
 interface IWICBitmapFrameDecode : IWICBitmapSource
@@ -41,19 +46,19 @@ HRESULT CopyPalette ( IWICPalette *pIPalette );
 
 ### GetThumbnail
 
-[**GetThumbnail**](-wic-codec-iwicbitmapframedecode-getthumbnail.md) returns the thumbnail for the current frame. For performance reasons, thumbnails are most commonly encoded in a JPEG format. Just as with the Preview on the decoder, it is not necessary or recommended to provide your own JPEG decoder for thumbnails. Instead, you should delegate to the JPEG decoder provided by Windows Imaging Component (WIC).
+[**GetThumbnail**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframedecode-getthumbnail?branch=master) returns the thumbnail for the current frame. For performance reasons, thumbnails are most commonly encoded in a JPEG format. Just as with the Preview on the decoder, it is not necessary or recommended to provide your own JPEG decoder for thumbnails. Instead, you should delegate to the JPEG decoder provided by Windows Imaging Component (WIC).
 
 For more information on thumbnails, see the [SetThumbnail](-wic-imp-iwicbitmapframeencode.md) method on [Implementing IWICBitmapFrameEncode](-wic-imp-iwicbitmapframeencode.md).
 
 ### GetColorContexts
 
-[**GetColorContexts**](-wic-codec-iwicbitmapframedecode-getcolorcontexts.md) returns the valid color contexts (also known as color profiles) associated with the image in this frame. In most cases, this will only be one, but there could be cases where there are two or, rarely, more. The caller will pass in one or more [**IWICColorContext**](-wic-codec-iwiccolorcontext.md) objects, setting the *cCount* parameter to indicate how many they are passing in. This method populates the **IWICColorContext** objects with the actual color context data for the color profiles associated with the image. Set the *pcActualCount* parameter to the actual number of color contexts associated with the image, even if this is greater than the number you can return. (In the case where more color contexts are available than the number of **IWICColorContext** objects passed in by the caller, this tells the caller there are one or more others available.)
+[**GetColorContexts**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframedecode-getcolorcontexts?branch=master) returns the valid color contexts (also known as color profiles) associated with the image in this frame. In most cases, this will only be one, but there could be cases where there are two or, rarely, more. The caller will pass in one or more [**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master) objects, setting the *cCount* parameter to indicate how many they are passing in. This method populates the **IWICColorContext** objects with the actual color context data for the color profiles associated with the image. Set the *pcActualCount* parameter to the actual number of color contexts associated with the image, even if this is greater than the number you can return. (In the case where more color contexts are available than the number of **IWICColorContext** objects passed in by the caller, this tells the caller there are one or more others available.)
 
 ### GetMetadataQueryReader
 
-[**GetMetadataQueryReader**](-wic-codec-iwicbitmapframedecode-getmetadataqueryreader.md) returns an [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md) that an application can use to retrieve metadata from the image frame. This interface is implemented by a metadata handler, and allows an application to query for specific metadata properties belonging to a particular metadata format. For more information, see [Implementing IWICMetadataBlockReader](-wic-imp-iwicmetadatablockreader.md).
+[**GetMetadataQueryReader**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader?branch=master) returns an [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) that an application can use to retrieve metadata from the image frame. This interface is implemented by a metadata handler, and allows an application to query for specific metadata properties belonging to a particular metadata format. For more information, see [Implementing IWICMetadataBlockReader](-wic-imp-iwicmetadatablockreader.md).
 
-To instantiate an [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md), call [**CreateQueryReaderFromBlockReader**](-wic-codec-iwiccomponentfactory-createqueryreaderfromblockreader.md) on the [**IWICComponentFactory**](-wic-codec-iwiccomponentfactory.md).
+To instantiate an [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master), call [**CreateQueryReaderFromBlockReader**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createqueryreaderfromblockreader?branch=master) on the [**IWICComponentFactory**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwiccomponentfactory?branch=master).
 
 
 ```C++
@@ -69,15 +74,15 @@ hr = m_pComponentFactory->CreateQueryReaderFromBlockReader(
 
 ### GetSize, GetPixelFormat, and GetResolution
 
-[**GetSize**](-wic-codec-iwicbitmapsource-getsize.md), [**GetPixelFormat**](-wic-codec-iwicbitmapsource-getpixelformat.md), and [**GetResolution**](-wic-codec-iwicbitmapsource-getresolution.md) are self-explanatory, and return the requested properties of the image.
+[**GetSize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-getsize?branch=master), [**GetPixelFormat**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-getpixelformat?branch=master), and [**GetResolution**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-getresolution?branch=master) are self-explanatory, and return the requested properties of the image.
 
 ### CopyPixels
 
-[**CopyPixels**](-wic-codec-iwicbitmapsource-copypixels.md) is the method an application calls when it wants to create a bitmap in memory that can be rendered to the display or printer. This is the method that does the actual decoding of the image bits. The parameters are a rectangle, which represents the region of interest in the source image to copy into memory; the stride, which specifies the number of bytes in one scan line; the size of the buffer in memory that has been allocated by the application; and a pointer to the buffer into which the requested image bits should be copied. (To prevent potential buffer overruns from introducing security vulnerabilities, be sure to copy only as much image data into the buffer as the *cbBufferSize* parameter specifies.)
+[**CopyPixels**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-copypixels?branch=master) is the method an application calls when it wants to create a bitmap in memory that can be rendered to the display or printer. This is the method that does the actual decoding of the image bits. The parameters are a rectangle, which represents the region of interest in the source image to copy into memory; the stride, which specifies the number of bytes in one scan line; the size of the buffer in memory that has been allocated by the application; and a pointer to the buffer into which the requested image bits should be copied. (To prevent potential buffer overruns from introducing security vulnerabilities, be sure to copy only as much image data into the buffer as the *cbBufferSize* parameter specifies.)
 
 ### CopyPalette
 
-Only codecs that have indexed pixel formats must implement the [**CopyPalette**](-wic-codec-iwicbitmapsource-copypalette.md) method. If an image uses an indexed format, use this method to return the palette of colors used in the image. If your codec doesn’t have an indexed format, return WINCODEC\_ERR\_PALETTEUNAVAILABLE.
+Only codecs that have indexed pixel formats must implement the [**CopyPalette**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapsource-copypalette?branch=master) method. If an image uses an indexed format, use this method to return the palette of colors used in the image. If your codec doesn’t have an indexed format, return WINCODEC\_ERR\_PALETTEUNAVAILABLE.
 
 ## Related topics
 
@@ -86,13 +91,13 @@ Only codecs that have indexed pixel formats must implement the [**CopyPalette**]
 **Reference**
 </dt> <dt>
 
-[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)
+[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)
 </dt> <dt>
 
-[**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)
+[**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)
 </dt> <dt>
 
-[**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md)
+[**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)
 </dt> <dt>
 
 **Conceptual**

@@ -4,11 +4,15 @@ description: There are several methods used to access Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef5720ff-6c66-466c-967e-f9c72a7bc0fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ef5720ff-6c66-466c-967e-f9c72a7bc0fa
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Connecting to Active Directory ADSI"]
+keywords:
+- Connecting to Active Directory ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connecting to Active Directory

@@ -1,7 +1,12 @@
 ---
 title: IIS Requirements for BITS Uploads
 description: For uploads, BITS requires IIS 6.0 on Windows Server 2003, and IIS 7.0 on Windows Server 2008; BITS does not support IIS 5.1 on Windows XP.
-ms.assetid: '8ab07af5-3b59-4c98-8e57-f614deb8b594'
+ms.assetid: 8ab07af5-3b59-4c98-8e57-f614deb8b594
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIS Requirements for BITS Uploads

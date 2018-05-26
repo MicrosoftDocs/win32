@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETTOOLTIPS message
 description: Retrieves the handle to the child tooltip control used by a tree-view control. You can send this message explicitly or by using the TreeView\_GetToolTips macro.
-ms.assetid: '65e8189e-ae3e-4268-b1ed-bb0d88f2cbe3'
-keywords: ["TVM_GETTOOLTIPS message Windows Controls"]
+ms.assetid: 65e8189e-ae3e-4268-b1ed-bb0d88f2cbe3
+keywords:
+- TVM_GETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETTOOLTIPS message
 
-Retrieves the handle to the child tooltip control used by a tree-view control. You can send this message explicitly or by using the [**TreeView\_GetToolTips**](treeview-gettooltips.md) macro.
+Retrieves the handle to the child tooltip control used by a tree-view control. You can send this message explicitly or by using the [**TreeView\_GetToolTips**](/windows/win32/Commctrl/nf-commctrl-treeview_gettooltips?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ When created, tree-view controls automatically create a child tooltip control. T
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ When created, tree-view controls automatically create a child tooltip control. T
 [**TVM\_SETTOOLTIPS**](tvm-settooltips.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

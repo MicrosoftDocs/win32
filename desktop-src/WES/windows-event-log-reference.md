@@ -1,7 +1,12 @@
 ---
 title: Windows Event Log Reference
 description: The following are the programming elements that you use to create an instrumentation manifest, create resources from the manifest that your provider uses, get instrumentation metadata at run time, and query events from channels and log files
-ms.assetid: '7af07a43-62f6-412f-9f67-46ad08922daf'
+ms.assetid: 7af07a43-62f6-412f-9f67-46ad08922daf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Event Log Reference

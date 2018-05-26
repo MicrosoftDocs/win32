@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the direct child nodes of the IContextNode object.'
-ms.assetid: '50ce2fa4-031e-42e9-8e47-c0d3c2d2b4df'
-title: 'IContextNode::GetSubNodes method'
+Description: Gets the direct child nodes of the IContextNode object.
+ms.assetid: 50ce2fa4-031e-42e9-8e47-c0d3c2d2b4df
+title: IContextNodeGetSubNodes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetSubNodes method
@@ -13,7 +18,7 @@ Gets the direct child nodes of the [**IContextNode**](icontextnode.md) object.
 
 ```C++
 HRESULT GetSubNodes(
-  [out] IContextNodes **ppSubContextNodes
+  [out] IContextNodes **ppSubContextNodes
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppSubContextNodes* when you no longer need to use the collection of subnodes.
 
- 
+ 
 
 This returns only the direct child nodes, not all of the descendant nodes.
 
@@ -160,7 +165,7 @@ HRESULT CMyClass::ExploreContextNode(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -180,9 +185,9 @@ HRESULT CMyClass::ExploreContextNode(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

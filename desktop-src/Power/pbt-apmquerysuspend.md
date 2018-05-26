@@ -1,12 +1,17 @@
 ---
-Description: 'Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.'
-ms.assetid: '83cb0fdc-437e-4d03-87f0-6a416281c0d5'
-title: 'PBT\_APMQUERYSUSPEND event'
+Description: Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.
+ms.assetid: 83cb0fdc-437e-4d03-87f0-6a416281c0d5
+title: PBT\_APMQUERYSUSPEND event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMQUERYSUSPEND event
 
-\[PBT\_APMQUERYSUSPEND is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [**SetThreadExecutionState**](setthreadexecutionstate.md) instead.\]
+\[PBT\_APMQUERYSUSPEND is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [**SetThreadExecutionState**](/windows/win32/Winbase/nf-winbase-setthreadexecutionstate?branch=master) instead.\]
 
 Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.
 
@@ -41,7 +46,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -51,7 +56,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,10 +83,10 @@ The system allows approximately 20 seconds for an application to remove the [**W
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
-| End of client support<br/>    | Windows XP<br/>                                                                                    |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| End of client support<br/>    | Windows XP<br/>                                                                                    |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -102,9 +107,9 @@ The system allows approximately 20 seconds for an application to remove the [**W
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

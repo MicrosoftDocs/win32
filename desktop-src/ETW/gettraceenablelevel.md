@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.'
-ms.assetid: '22326fd9-c428-4430-8a92-978d005f6705'
+---
+Description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
+ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
 title: GetTraceEnableLevel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetTraceEnableLevel function

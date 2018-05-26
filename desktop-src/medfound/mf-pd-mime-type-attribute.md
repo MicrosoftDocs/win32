@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the MIME type of the content.'
-ms.assetid: 'bbcfb3e6-a86a-4621-b8d9-92ace60e8c10'
-title: 'MF\_PD\_MIME\_TYPE attribute'
+---
+Description: Specifies the MIME type of the content.
+ms.assetid: bbcfb3e6-a86a-4621-b8d9-92ace60e8c10
+title: MF\_PD\_MIME\_TYPE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_MIME\_TYPE attribute
@@ -41,13 +46,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetString**](imfattributes-getstring.md)
+[**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetString**](imfattributes-setstring.md)
+[**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

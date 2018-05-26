@@ -1,7 +1,12 @@
 ---
 title: VML UserHidden Attribute
 description: VML UserHidden Attribute
-ms.assetid: '0e4616c7-a456-4157-b77a-56cd289e913c'
+ms.assetid: 0e4616c7-a456-4157-b77a-56cd289e913c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML UserHidden Attribute

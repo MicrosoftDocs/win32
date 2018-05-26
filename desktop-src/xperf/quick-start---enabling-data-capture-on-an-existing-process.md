@@ -1,7 +1,12 @@
 ---
 title: Quick Start - Enabling Data Capture on an Existing Process
 description: Quick Start - Enabling Data Capture on an Existing Process
-ms.assetid: 'bda34d1f-57ff-446e-af8f-2741c8056f82'
+ms.assetid: bda34d1f-57ff-446e-af8f-2741c8056f82
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start - Enabling Data Capture on an Existing Process

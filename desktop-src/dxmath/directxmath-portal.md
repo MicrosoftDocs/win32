@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '719954bf-0d7d-f647-2d3f-a77d87df204e'
+---
+Description: .
+ms.assetid: 719954bf-0d7d-f647-2d3f-a77d87df204e
 title: DirectXMath
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath

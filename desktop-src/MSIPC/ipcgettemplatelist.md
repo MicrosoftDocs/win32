@@ -4,11 +4,12 @@ description: Returns official rights policy templates.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e6762de3-9312-4f59-889a-c4db9a8fa800'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: e6762de3-9312-4f59-889a-c4db9a8fa800
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcGetTemplateList function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcGetTemplateList function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcGetTemplateList function
@@ -24,21 +28,21 @@ api_type:
 Returns official rights policy templates.
 
 > [!Note]  
-> Templates are available beginning with Windows Server 2003 with Service Pack 2 (SP2).
+> Templates are available beginning with Windows Server 2003 with Service Pack 2 (SP2).
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT WINAPI IpcGetTemplateList(
-  _In_opt_   PCIPC_CONNECTION_INFO pConnectionInfo,
-             DWORD                 dwFlags,
-             LCID                  lcid,
-  _In_opt_   PCIPC_PROMPT_CTX      pContext,
-  _Reserved_ LPVOID                pvReserved,
-  _Out_      PCIPC_TIL             *ppcTil
+  _In_opt_   PCIPC_CONNECTION_INFO pConnectionInfo,
+             DWORD                 dwFlags,
+             LCID                  lcid,
+  _In_opt_   PCIPC_PROMPT_CTX      pContext,
+  _Reserved_ LPVOID                pvReserved,
+  _Out_      PCIPC_TIL             *ppcTil
 );
 ```
 
@@ -69,7 +73,7 @@ The locale ID (LCID) to use for template names and descriptions.
 
 When passing a nonzero value as the *lcid*, only information from templates that have a name and description for that *lcid* will be retrieved.
 
-When zero is passed as the *lcid*, the RMS SDK 2.1 infrastructure follows a particular process, described in the Frequently asked questions section of the [Release notes](release-notes--rtm-.md) topic, to select a locale to use. For more information, see Release notes.
+When zero is passed as the *lcid*, the RMS SDK 2.1 infrastructure follows a particular process, described in the Frequently asked questions section of the [Release notes](release-notes--rtm-.md) topic, to select a locale to use. For more information, see Release notes.
 
 For more information about language IDs, see [Locale Identifiers](https://msdn.microsoft.com/library/windows/desktop/dd373763).
 
@@ -95,9 +99,9 @@ This parameter is reserved for future use and must be set to **NULL**.
 A pointer to a variable that receives a pointer to the buffer that contains the Template Information List. For more information, see [**IPC\_TIL**](ipc-til.md).
 
 > [!Note]  
-> The buffer is allocated by the RMS SDK 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md).
+> The buffer is allocated by the RMS SDK 2.1 and must be freed by calling [**IpcFreeMemory**](ipcfreememory.md).
 
- 
+ 
 
 </dd> </dl>
 
@@ -105,7 +109,7 @@ A pointer to a variable that receives a pointer to the buffer that contains the 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -114,7 +118,7 @@ Possible values include, but are not limited to, those in the following list.
 **IPCERROR\_NEEDS\_ONLINE**
 </dt> <dd>
 
-Meaning: RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
+Meaning: RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
 
 Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFFLINE** flag. Typically, this flag is used in situations in which failure is acceptable and preferred to performing a network access. The system is already optimized to use the network only when absolutely necessary, so we do not recommend that developers use the **IPC\_PROMPT\_FLAG\_OFFLINE** flag as an optimization.
 
@@ -123,7 +127,7 @@ Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFF
 **IPCERROR\_NEEDS\_UI**
 </dt> <dd>
 
-Meaning: The RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
+Meaning: The RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
 
 Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_SILENT** flag.
 
@@ -141,9 +145,9 @@ Action: For more information about *lcid* see, the description of **IPC\_LI\_DES
 ## Remarks
 
 > [!Note]  
-> Templates are available starting with Windows Server 2003 with SP2.
+> Templates are available starting with Windows Server 2003 with SP2.
 
- 
+ 
 
 Typical application behavior:
 
@@ -163,8 +167,8 @@ Because template updates can occur in the background, in general, applications s
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -211,9 +215,9 @@ Because template updates can occur in the background, in general, applications s
 [Release notes](release-notes--rtm-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

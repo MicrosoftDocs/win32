@@ -4,13 +4,16 @@ description: Create (or start a job to create) a StorageSynchronized mirror rela
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '090de9e8-96d9-4f88-ad2b-503650c149e7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 090de9e8-96d9-4f88-ad2b-503650c149e7
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AttachOrModifyReplica method iSCSI Software Target API", "AttachOrModifyReplica method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , AttachOrModifyReplica method"]
+keywords:
+- AttachOrModifyReplica method iSCSI Software Target API
+- AttachOrModifyReplica method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , AttachOrModifyReplica method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AttachOrModifyReplica method of the CIM\_StorageConfigurationService class
@@ -38,12 +44,12 @@ All other values indicate some type of error condition.
 
 ```mof
 uint32 AttachOrModifyReplica(
-  [out] CIM_ConcreteJob    REF Job,
-  [in]  CIM_ManagedElement REF SourceElement,
-  [in]  CIM_ManagedElement REF TargetElement,
-  [in]  uint16                 CopyType,
-  [in]  string                 Goal,
-  [in]  CIM_NetworkPipe    REF ReplicationPipe
+  [out] CIM_ConcreteJob    REF Job,
+  [in]  CIM_ManagedElement REF SourceElement,
+  [in]  CIM_ManagedElement REF TargetElement,
+  [in]  uint16                 CopyType,
+  [in]  string                 Goal,
+  [in]  CIM_NetworkPipe    REF ReplicationPipe
 );
 ```
 
@@ -118,14 +124,14 @@ UnSyncAssoc and UnSyncUnAssoc are not supported for remote mirror replicas.
 **DMTF Reserved**
 
 
-</dt> <dd>6–4095</dd> <dt>
+</dt> <dd>6 4095</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>4096–65535</dd> </dl> </dd> <dt>
+</dt> <dd>4096 65535</dd> </dl> </dd> <dt>
 
 *Goal* \[in\]
 </dt> <dd>
@@ -166,16 +172,16 @@ The NetworkPipe element that scopes the remote mirror pair. If the value is null
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -185,7 +191,7 @@ The NetworkPipe element that scopes the remote mirror pair. If the value is null
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -199,9 +205,9 @@ The NetworkPipe element that scopes the remote mirror pair. If the value is null
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

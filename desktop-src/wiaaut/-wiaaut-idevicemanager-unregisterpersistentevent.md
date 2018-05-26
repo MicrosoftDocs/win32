@@ -1,8 +1,11 @@
 ---
 title: DeviceManager.UnregisterPersistentEvent method
 description: Unregisters the specified Command for the specified EventID for the specified DeviceID. UnregisterPersistentEvent should only be called for the Command, Name, Description, Icon, EventID, and DeviceID for which you called RegisterPersistentEvent.
-ms.assetid: '6e4842c2-f3fc-4883-9b5a-63b852693993'
-keywords: ["UnregisterPersistentEvent method WIA Automation", "UnregisterPersistentEvent method WIA Automation , DeviceManager object", "DeviceManager object WIA Automation , UnregisterPersistentEvent method"]
+ms.assetid: 6e4842c2-f3fc-4883-9b5a-63b852693993
+keywords:
+- UnregisterPersistentEvent method WIA Automation
+- UnregisterPersistentEvent method WIA Automation , DeviceManager object
+- DeviceManager object WIA Automation , UnregisterPersistentEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceManager.UnregisterPersistentEvent method
@@ -97,7 +105,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -119,8 +127,8 @@ The **UnregisterPersistentEvent** method requires Administrator permission to fu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -190,9 +198,9 @@ The **UnregisterPersistentEvent** method requires Administrator permission to fu
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Provides the earliest time (that is, local time as kept by the clus
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '33168423-88cb-4f7f-ad52-dc0299986f21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 33168423-88cb-4f7f-ad52-dc0299986f21
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["FailbackWindowStart Failover Cluster ,for groups", "FailbackWindowStart Failover Cluster"]
+keywords:
+- FailbackWindowStart Failover Cluster ,for groups
+- FailbackWindowStart Failover Cluster
 topic_type:
 - apiref
 api_name:
 - FailbackWindowStart
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FailbackWindowStart
@@ -27,14 +32,14 @@ Provides the earliest time (that is, local time as kept by the [*cluster*](c-gly
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0 (specifies midnight)                    |
 | Maximum   | 23 (specifies 11:00 P.M.)                 |
 | Default   | -1 (unsigned 0xFFFFFFFF)                  |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +54,7 @@ The value of the **FailbackWindowStart** property can be set to the following va
 
 
 
- 
+ 
 
 Both the [**FailbackWindowEnd**](groups-failbackwindowend.md) and **FailbackWindowStart** properties must be specified for a failback window to exist.
 
@@ -81,7 +86,7 @@ FailbackWindowStartValue.dw = FailbackWindowStartData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -89,15 +94,15 @@ FailbackWindowStartValue.dw = FailbackWindowStartData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**FailbackWindowEnd**](groups-failbackwindowend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

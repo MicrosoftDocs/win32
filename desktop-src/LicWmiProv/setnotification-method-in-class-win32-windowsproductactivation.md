@@ -1,7 +1,12 @@
 ---
-Description: 'The SetNotification&\#8194;WMI class method enables or disables the display of notification reminders (message balloons) and the activation icon in the notification tray.'
-ms.assetid: '5e087174-0ecf-4425-b022-f96ac55fbb60'
-title: 'SetNotification method of the Win32\_WindowsProductActivation class'
+Description: The SetNotification&\#8194;WMI class method enables or disables the display of notification reminders (message balloons) and the activation icon in the notification tray.
+ms.assetid: 5e087174-0ecf-4425-b022-f96ac55fbb60
+title: SetNotification method of the Win32\_WindowsProductActivation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetNotification method of the Win32\_WindowsProductActivation class
@@ -17,7 +22,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetNotification(
-  [in] uint32 Enable
+  [in] uint32 Enable
 );
 ```
 
@@ -42,7 +47,7 @@ Enabling or disabling notifications does not affect logon reminders, which begin
 >
 > If you use drive imaging to replicate hard disk drives, you must ensure that the notification state is correct prior to imaging. If you run the **sysprep** command or the **riprep** command prior to drive imaging, it enables notification reminders, which is the default setting.
 
- 
+ 
 
 This method was added to support automated deployment because automated activation may not succeed on the first attempt. The unexpected appearance of notification reminders in the notification tray can be confusing to users.
 
@@ -54,10 +59,10 @@ Windows Product Activation is not available on the Itanium-based versions of the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -74,9 +79,9 @@ Windows Product Activation is not available on the Itanium-based versions of the
 [Windows Product Activation Provider](windows-product-activation-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

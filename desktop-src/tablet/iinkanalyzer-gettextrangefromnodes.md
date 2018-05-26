@@ -1,7 +1,12 @@
 ---
-Description: 'Finds the text range in the recognized string that corresponds to a collection of IContextNode objects.'
-ms.assetid: '2c5bc4a1-08de-4872-b552-6d22924ce2a8'
-title: 'IInkAnalyzer::GetTextRangeFromNodes method'
+Description: Finds the text range in the recognized string that corresponds to a collection of IContextNode objects.
+ms.assetid: 2c5bc4a1-08de-4872-b552-6d22924ce2a8
+title: IInkAnalyzerGetTextRangeFromNodes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetTextRangeFromNodes method
@@ -13,9 +18,9 @@ Finds the text range in the recognized string that corresponds to a collection o
 
 ```C++
 HRESULT GetTextRangeFromNodes(
-  [out] LONG          *plStart,
-  [out] LONG          *plLength,
-  [in]  IContextNodes *pNodesToSearch
+  [out] LONG          *plStart,
+  [out] LONG          *plLength,
+  [in]  IContextNodes *pNodesToSearch
 );
 ```
 
@@ -62,7 +67,7 @@ This method throws an E\_INVALIDARG exception when *pNodesToSearch* contains an 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -76,9 +81,9 @@ This method throws an E\_INVALIDARG exception when *pNodesToSearch* contains an 
 [**IInkAnalyzer**](iinkanalyzer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

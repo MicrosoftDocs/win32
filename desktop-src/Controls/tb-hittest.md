@@ -1,8 +1,9 @@
 ---
 title: TB\_HITTEST message
 description: Determines where a point lies in a toolbar control.
-ms.assetid: 'd08f3805-2042-470e-8f5a-8a6a681d1189'
-keywords: ["TB_HITTEST message Windows Controls"]
+ms.assetid: d08f3805-2042-470e-8f5a-8a6a681d1189
+keywords:
+- TB_HITTEST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_HITTEST message
@@ -41,15 +47,15 @@ Returns an integer value. If the return value is zero or a positive value, it is
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

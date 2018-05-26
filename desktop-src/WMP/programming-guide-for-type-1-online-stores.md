@@ -1,8 +1,17 @@
 ---
 title: Programming Guide for Type 1 Online Stores
 description: Programming Guide for Type 1 Online Stores
-ms.assetid: '6950cab8-4355-4699-8245-f2817c3e25fc'
-keywords: ["Windows Media Player online stores,programming guide", "online stores,programming guide", "type 1 online stores,programming guide", "programming guide,type 1 online stores"]
+ms.assetid: 6950cab8-4355-4699-8245-f2817c3e25fc
+keywords:
+- Windows Media Player online stores,programming guide
+- online stores,programming guide
+- type 1 online stores,programming guide
+- programming guide,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide for Type 1 Online Stores

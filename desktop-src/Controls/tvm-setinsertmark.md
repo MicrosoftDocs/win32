@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETINSERTMARK message
 description: Sets the insertion mark in a tree-view control. You can send this message explicitly or by using the TreeView\_SetInsertMark macro.
-ms.assetid: '35441807-406a-408c-ad89-6dd40c907e3c'
-keywords: ["TVM_SETINSERTMARK message Windows Controls"]
+ms.assetid: 35441807-406a-408c-ad89-6dd40c907e3c
+keywords:
+- TVM_SETINSERTMARK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETINSERTMARK message
 
-Sets the insertion mark in a tree-view control. You can send this message explicitly or by using the [**TreeView\_SetInsertMark**](treeview-setinsertmark.md) macro.
+Sets the insertion mark in a tree-view control. You can send this message explicitly or by using the [**TreeView\_SetInsertMark**](/windows/win32/Commctrl/nf-commctrl-treeview_setinsertmark?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ In some circumstances, the insert mark can appear in two places after a node is 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

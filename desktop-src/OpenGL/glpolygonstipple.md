@@ -1,8 +1,9 @@
 ---
 title: glPolygonStipple function
 description: The glPolygonStipple function sets the polygon stippling pattern.
-ms.assetid: 'e066f9cf-36da-4a3b-a34f-2f8a6f5a0ae6'
-keywords: ["glPolygonStipple function OpenGL"]
+ms.assetid: e066f9cf-36da-4a3b-a34f-2f8a6f5a0ae6
+keywords:
+- glPolygonStipple function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPolygonStipple function
@@ -22,7 +28,7 @@ The **glPolygonStipple** function sets the polygon stippling pattern.
 
 ```C++
 void WINAPI glPolygonStipple(
-   const GLubyte *mask
+   const GLubyte *mask
 );
 ```
 
@@ -87,8 +93,8 @@ The following functions retrieve information related to **glPolygonStipple**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -117,9 +123,9 @@ The following functions retrieve information related to **glPolygonStipple**:
 [**glPixelTransfer**](glpixeltransfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

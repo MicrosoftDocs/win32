@@ -1,13 +1,16 @@
 ---
-Description: 'Identifies whether a template can be either published or archived.'
+Description: Identifies whether a template can be either published or archived.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e96e1b3f-359d-42f4-8615-1dd8f2ceb8e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e96e1b3f-359d-42f4-8615-1dd8f2ceb8e8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplateCollection.Publish method'
+title: RightsTemplateCollection.Publish method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplateCollection.Publish method
@@ -135,7 +138,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -147,9 +150,9 @@ END SUB
 [**RightsTemplateCollection**](rightstemplatecollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

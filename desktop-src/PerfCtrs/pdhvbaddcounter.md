@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.'
-ms.assetid: '20a9e6cd-bf0d-497d-b660-88e786e2f004'
+Description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
+ms.assetid: 20a9e6cd-bf0d-497d-b660-88e786e2f004
 title: PdhVbAddCounter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbAddCounter function
@@ -56,7 +61,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +69,8 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -78,9 +83,9 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 [**PdhVbOpenQuery**](pdhvbopenquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

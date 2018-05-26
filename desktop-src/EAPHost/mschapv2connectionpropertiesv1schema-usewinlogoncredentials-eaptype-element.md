@@ -1,14 +1,20 @@
 ---
 title: UseWinLogonCredentials (EapType) Element
 description: Controls use of the winlogin credentials.
-ms.assetid: '8ebd87ce-7d2b-4305-b50c-239bb9c7af75'
-keywords: ["UseWinLogonCredentials element EAPHost"]
+ms.assetid: 8ebd87ce-7d2b-4305-b50c-239bb9c7af75
+keywords:
+- UseWinLogonCredentials element EAPHost
 topic_type:
 - apiref
 api_name:
 - UseWinLogonCredentials
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UseWinLogonCredentials (EapType) Element
@@ -33,8 +39,8 @@ If TRUE, then EAP MS-CHAPv2 obtains credentials from winlogon. If FALSE, then EA
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ If TRUE, then EAP MS-CHAPv2 obtains credentials from winlogon. If FALSE, then EA
 [mschapv2connectionpropertiesv1 Schema](mschapv2connectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

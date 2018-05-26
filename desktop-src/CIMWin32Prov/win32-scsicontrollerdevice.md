@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_SCSIControllerDevice association WMI class relates a small computer system interface (SCSI) controller and the logical device (disk drive) connected to it.'
+---
+Description: The Win32\_SCSIControllerDevice association WMI class relates a small computer system interface (SCSI) controller and the logical device (disk drive) connected to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0334829c-3625-4acf-8ef3-da934c51e9bf'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0334829c-3625-4acf-8ef3-da934c51e9bf
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SCSIControllerDevice class'
+title: Win32\_SCSIControllerDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SCSIControllerDevice class

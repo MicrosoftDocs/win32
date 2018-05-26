@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckMediaType method determines whether a proposed media type is compatible with the display format.'
-ms.assetid: '567663cf-c79f-4549-9fa9-b16da957d2b1'
-title: 'CImageDisplay.CheckMediaType method'
+Description: The CheckMediaType method determines whether a proposed media type is compatible with the display format.
+ms.assetid: 567663cf-c79f-4549-9fa9-b16da957d2b1
+title: CImageDisplay.CheckMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.CheckMediaType method
@@ -13,7 +18,7 @@ The `CheckMediaType` method determines whether a proposed media type is compatib
 
 ```C++
 HRESULT CheckMediaType(
-   const CMediaType *pmtIn
+   const CMediaType *pmtIn
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

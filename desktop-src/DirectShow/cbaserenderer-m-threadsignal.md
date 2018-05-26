@@ -1,7 +1,12 @@
 ---
-Description: 'Event used to release the streaming thread.'
-ms.assetid: '612082ec-a5c9-4b20-abda-61432e839094'
-title: 'CBaseRenderer::m\_ThreadSignal member'
+Description: Event used to release the streaming thread.
+ms.assetid: 612082ec-a5c9-4b20-abda-61432e839094
+title: CBaseRendererm\_ThreadSignal member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_ThreadSignal member
@@ -35,9 +40,9 @@ CAMEvent m_ThreadSignal;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr EnumerateGloballyOpenPorts method
 description: The EnumerateGloballyOpenPorts method returns an enumerator that yields the set of port and protocol pairs for which inbound connection attempts are currently allowed at the time of the method call.
-ms.assetid: 'e2f48198-263f-477c-98c5-a876ec4659c9'
-keywords: ["EnumerateGloballyOpenPorts method ICS/ICF", "EnumerateGloballyOpenPorts method ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , EnumerateGloballyOpenPorts method"]
+ms.assetid: e2f48198-263f-477c-98c5-a876ec4659c9
+keywords:
+- EnumerateGloballyOpenPorts method ICS/ICF
+- EnumerateGloballyOpenPorts method ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , EnumerateGloballyOpenPorts method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::EnumerateGloballyOpenPorts method
@@ -24,7 +32,7 @@ The [**EnumerateGloballyOpenPorts**](inetfwv6mgr-openglobalport.md) method retur
 
 ```C++
 HRESULT EnumerateGloballyOpenPorts(
-  [out] IEnumNetFwV6Ports **ppEnum
+  [out] IEnumNetFwV6Ports **ppEnum
 );
 ```
 
@@ -62,7 +70,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,10 +82,10 @@ A port that is opened after this method call is made does not be a member of the
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -90,9 +98,9 @@ A port that is opened after this method call is made does not be a member of the
 [**INetFwV6Mgr**](inetfwv6mgr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

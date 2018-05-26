@@ -1,14 +1,20 @@
 ---
 title: noise
 description: Generates a random value using the Perlin-noise algorithm.
-ms.assetid: '0188a7f3-9955-4e1c-9370-ef1d8aff3765'
-keywords: ["noise HLSL"]
+ms.assetid: 0188a7f3-9955-4e1c-9370-ef1d8aff3765
+keywords:
+- noise HLSL
 topic_type:
 - apiref
 api_name:
 - noise
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # noise
@@ -24,7 +30,7 @@ Generates a random value using the Perlin-noise algorithm.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Generates a random value using the Perlin-noise algorithm.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ Perlin noise values change smoothly from one point to another over a space, crea
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +78,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +87,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

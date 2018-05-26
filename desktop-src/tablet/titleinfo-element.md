@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the title of the note and the date in the title, if present.'
-ms.assetid: '70f90c34-5f9b-4be5-85b9-6d2ccf9dde8c'
+Description: Contains the title of the note and the date in the title, if present.
+ms.assetid: 70f90c34-5f9b-4be5-85b9-6d2ccf9dde8c
 title: TitleInfo Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TitleInfo Element

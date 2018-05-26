@@ -1,7 +1,12 @@
 ---
-Description: 'The += operator adds two reference times.'
-ms.assetid: '016d3dac-4d7c-490a-83aa-1d88a2080748'
-title: 'CRefTime.operator+= method'
+Description: The += operator adds two reference times.
+ms.assetid: 016d3dac-4d7c-490a-83aa-1d88a2080748
+title: CRefTime.operator+= method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime.operator+= method
@@ -13,7 +18,7 @@ The += operator adds two reference times.
 
 ```C++
 CRefTime&amp; operator+=(
-  [ref] const CRefTime &amp;rt
+  [ref] const CRefTime &amp;rt
 );
 ```
 
@@ -45,9 +50,9 @@ Returns a reference to the object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

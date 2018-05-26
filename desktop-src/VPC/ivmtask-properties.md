@@ -1,7 +1,12 @@
 ---
 title: IVMTask Properties
 description: The IVMTask interface exposes the following properties.
-ms.assetid: '55AA0184-E7B6-467D-ABEA-40E012A61E97'
+ms.assetid: 55AA0184-E7B6-467D-ABEA-40E012A61E97
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask Properties

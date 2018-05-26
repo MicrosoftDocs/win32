@@ -1,8 +1,15 @@
 ---
 title: Using Structured Storage
 description: This section describes how to use structured storage in COM. It describes how to manage properties and property sets. Included are two structured storage code samples, StoClien, and StoServe.
-ms.assetid: '8c6bf2d0-de49-403f-9e95-7f2d9d96a524'
-keywords: ["Using Structured Storage", "Structured Storage Strctd Stg , using"]
+ms.assetid: 8c6bf2d0-de49-403f-9e95-7f2d9d96a524
+keywords:
+- Using Structured Storage
+- Structured Storage Strctd Stg , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Structured Storage

@@ -1,19 +1,24 @@
 ---
-Description: 'The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.'
-ms.assetid: '30fefc7b-7c9c-44cd-b58b-2b275dfa2520'
-title: 'CBaseInputPin.Receive method'
+Description: The Receive method receives the next media sample in the stream. This method implements the IMemInputPinReceive method.
+ms.assetid: 30fefc7b-7c9c-44cd-b58b-2b275dfa2520
+title: CBaseInputPin.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.Receive method
 
-The `Receive` method receives the next media sample in the stream. This method implements the [**IMemInputPin::Receive**](imeminputpin-receive.md) method.
+The `Receive` method receives the next media sample in the stream. This method implements the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -47,7 +52,7 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +68,7 @@ This method is synchronous and can block. If the method might block, the pin's [
 
 In the base class, this method performs the following steps:
 
-1.  Calls the [**CBaseInputPin::CheckStreaming**](cbaseinputpin-checkstreaming.md) method to verify that the pin can process samples now. If it cannot—for example, if the pin is stopped—the method fails.
+1.  Calls the [**CBaseInputPin::CheckStreaming**](cbaseinputpin-checkstreaming.md) method to verify that the pin can process samples now. If it cannot for example, if the pin is stopped the method fails.
 2.  Retrieves the sample properties and checks whether the format has changed (see below).
 3.  If the format has changed, the method calls the [**CBasePin::CheckMediaType**](cbasepin-checkmediatype.md) method to determine whether the new format is acceptable.
 4.  If the new format is not acceptable, the method calls the [**CBasePin::EndOfStream**](cbasepin-endofstream.md) method, posts an EC\_ERRORABORT event, and returns an error code.
@@ -71,8 +76,8 @@ In the base class, this method performs the following steps:
 
 Test for a format change as follows:
 
--   If the sample supports the [**IMediaSample2**](imediasample2.md) interface, check the **dwSampleFlags** member of the [**AM\_SAMPLE2\_PROPERTIES**](am-sample2-properties.md) structure. If the AM\_SAMPLE\_TYPECHANGED flag is present, the format has changed.
--   Otherwise, if the sample does not support **IMediaSample2**, call the [**IMediaSample::GetMediaType**](imediasample-getmediatype.md) method. If the method returns a non-**NULL** value, the format has changed.
+-   If the sample supports the [**IMediaSample2**](/windows/win32/Strmif/nn-strmif-imediasample2?branch=master) interface, check the **dwSampleFlags** member of the [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/strmif/ns-strmif-tagam_sample2_properties?branch=master) structure. If the AM\_SAMPLE\_TYPECHANGED flag is present, the format has changed.
+-   Otherwise, if the sample does not support **IMediaSample2**, call the [**IMediaSample::GetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatype?branch=master) method. If the method returns a non-**NULL** value, the format has changed.
 
 In the base class, this method does not process the sample. The derived class must override this method to perform the processing. (What this entails depends entirely on the filter.) The derived class should call the base-class method, to check for the errors described previously.
 
@@ -94,9 +99,9 @@ In the base class, this method does not process the sample. The derived class mu
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

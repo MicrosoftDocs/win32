@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordNSec3 class
 description: DNS Server Resource Record Data NSEC3.
 audience: developer
-ms.assetid: '97ef7286-e43d-4f4f-9f4d-4acc5c1d3d3c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 97ef7286-e43d-4f4f-9f4d-4acc5c1d3d3c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordNSec3 class", "DnsServerResourceRecordNSec3 class, described"]
+keywords:
+- DnsServerResourceRecordNSec3 class
+- DnsServerResourceRecordNSec3 class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordNSec3 class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerResourceRecordNSec3 : DnsServerResourceRecordData
 {
-  String  HashAlgorithm;
+  String  HashAlgorithm;
   boolean OptOut;
-  uint16  Iterations;
-  string  Salt;
-  string  NextHashedOwnerName;
-  string  CoveredRecordTypes[];
+  uint16  Iterations;
+  string  Salt;
+  string  NextHashedOwnerName;
+  string  CoveredRecordTypes[];
 };
 ```
 
@@ -154,7 +159,7 @@ NSEC3 Salt.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -171,9 +176,9 @@ NSEC3 Salt.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

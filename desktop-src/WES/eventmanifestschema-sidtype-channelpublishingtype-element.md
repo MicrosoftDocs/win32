@@ -1,14 +1,20 @@
 ---
 title: sidType (ChannelPublishingType) Element
 description: Determines whether to include a security identifier (SID) of the principal with each event written to the channel.
-ms.assetid: '3ce176a3-9e21-4646-8c99-7beb687e6847'
-keywords: ["sidType element EventLog"]
+ms.assetid: 3ce176a3-9e21-4646-8c99-7beb687e6847
+keywords:
+- sidType element EventLog
 topic_type:
 - apiref
 api_name:
 - sidType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sidType (ChannelPublishingType) Element
@@ -40,8 +46,8 @@ The **sidType** element is defined by the [**ChannelPublishingType**](eventmanif
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -55,9 +61,9 @@ The **sidType** element is defined by the [**ChannelPublishingType**](eventmanif
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

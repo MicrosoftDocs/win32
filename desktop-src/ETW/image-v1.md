@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for image load events. The following syntax is simplified from MOF code.'
-ms.assetid: '78c68080-90fc-4ebf-aa8a-4e03ce629d54'
-title: 'Image\_V1 class'
+---
+Description: This class is the parent class for image load events. The following syntax is simplified from MOF code.
+ms.assetid: 78c68080-90fc-4ebf-aa8a-4e03ce629d54
+title: Image\_V1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image\_V1 class

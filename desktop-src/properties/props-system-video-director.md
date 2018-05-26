@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the person who directed the video.'
-ms.assetid: 'dd992d16-bd12-49e6-843b-f4a30aab33b6'
-title: 'System.Video.Director'
+Description: Indicates the person who directed the video.
+ms.assetid: dd992d16-bd12-49e6-843b-f4a30aab33b6
+title: System.Video.Director
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.Director

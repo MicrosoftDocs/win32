@@ -1,8 +1,14 @@
 ---
 title: DNS Concepts
 description: There are a handful of basic concepts on which the functional structure of DNS operates.
-ms.assetid: 'c115bd24-a114-4a8a-bf52-0b11415e4344'
-keywords: ["Domain Name System, WMI provider, core concepts"]
+ms.assetid: c115bd24-a114-4a8a-bf52-0b11415e4344
+keywords:
+- Domain Name System, WMI provider, core concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS Concepts

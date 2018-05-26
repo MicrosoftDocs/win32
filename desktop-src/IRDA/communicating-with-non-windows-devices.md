@@ -1,8 +1,15 @@
 ---
 title: Communicating with Non-Windows Devices
 description: Windows Sockets provides only a basic application level–naming convention (supported through IAS) to the IrDA-specified protocol suite.
-ms.assetid: '94f06d3f-f3c0-4a19-b7a0-417c42e5fd05'
-keywords: ["Infrared Data Association IrDA , described, non-Windows devices", "programming IrDA , communicating with non-Windows devices"]
+ms.assetid: 94f06d3f-f3c0-4a19-b7a0-417c42e5fd05
+keywords:
+- Infrared Data Association IrDA , described, non-Windows devices
+- programming IrDA , communicating with non-Windows devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Communicating with Non-Windows Devices

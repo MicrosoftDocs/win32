@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Folder.Parent property
 description: Gets a System.Shell.Item object that represents the parent folder.
-ms.assetid: '62c67281-c930-4ea6-b486-003dae19d094'
-keywords: ["Parent property Windows Sidebar", "Parent property Windows Sidebar , System.Shell.Folder object", "System.Shell.Folder object Windows Sidebar , Parent property"]
+ms.assetid: 62c67281-c930-4ea6-b486-003dae19d094
+keywords:
+- Parent property Windows Sidebar
+- Parent property Windows Sidebar , System.Shell.Folder object
+- System.Shell.Folder object Windows Sidebar , Parent property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Folder.Parent property
@@ -44,10 +52,10 @@ If the folder is a well-known Windows folder, such as the My Documents folder, t
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -63,9 +71,9 @@ If the folder is a well-known Windows folder, such as the My Documents folder, t
 [**System.Shell**](system-shell.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

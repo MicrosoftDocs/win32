@@ -1,8 +1,9 @@
 ---
 title: SoHAttributeValue union
 description: Defines the contents of the type member in a SoHAttribute structure.
-ms.assetid: '53b30455-33a5-4cf5-8d4e-f0fa8e4e1a12'
-keywords: ["SoHAttributeValue union NAP"]
+ms.assetid: 53b30455-33a5-4cf5-8d4e-f0fa8e4e1a12
+keywords:
+- SoHAttributeValue union NAP
 topic_type:
 - apiref
 api_name:
@@ -11,43 +12,48 @@ api_location:
 - NapProtocol.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoHAttributeValue union
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **SoHAttributeValue** union defines the contents of the **type** member in a [**SoHAttribute**](sohattribute-struct.md) structure. The structure of the **SoHAttributeValue** union is determined by the [**SoHAttributeType**](sohattributetype-enum.md) specified in the **type** member of the [**SoHAttribute**](sohattribute-struct.md) structure.
+The **SoHAttributeValue** union defines the contents of the **type** member in a [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master) structure. The structure of the **SoHAttributeValue** union is determined by the [**SoHAttributeType**](sohattributetype-enum.md) specified in the **type** member of the [**SoHAttribute**](/windows/win32/NapTypes/ns-naptypes-tagsohattribute?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 typedef union tagSoHAttributeValue {
-  SystemHealthEntityId     idVal;
+  SystemHealthEntityId     idVal;
   struct tagIpv4Addresses {
-    UINT16      count;
+    UINT16      count;
     Ipv4Address *addresses;
-  } v4AddressesVal;
+  } v4AddressesVal;
   struct tagIpv6Addresses {
-    UINT16      count;
+    UINT16      count;
     Ipv6Address *addresses;
-  } v6AddressesVal;
-  ResultCodes              codesVal;
-  FILETIME                 dateTimeVal;
+  } v6AddressesVal;
+  ResultCodes              codesVal;
+  FILETIME                 dateTimeVal;
   struct tagVendorSpecific {
     UINT32 vendorId;
     UINT16 size;
-    BYTE   *vendorSpecificData;
-  } vendorSpecificVal;
-  UINT8                    uint8Val;
+    BYTE   *vendorSpecificData;
+  } vendorSpecificVal;
+  UINT8                    uint8Val;
   struct tagOctetString {
     UINT16 size;
-    BYTE   *data;
-  } octetStringVal;
+    BYTE   *data;
+  } octetStringVal;
 } SoHAttributeValue;
 ```
 
@@ -62,7 +68,7 @@ typedef union tagSoHAttributeValue {
 
 **case(sohAttributeTypeSystemHealthId)**
 
-A unique [SystemHealthEntityId](nap-datatypes.md) that contains the ID of the System Health Agent (SHA) or System Health Validator (SHV) that constructed this [**SoH**](soh-struct.md) packet.
+A unique [SystemHealthEntityId](nap-datatypes.md) that contains the ID of the System Health Agent (SHA) or System Health Validator (SHV) that constructed this [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 </dd> <dt>
 
@@ -85,7 +91,7 @@ The number of IPv4 addresses in the **addresses** member in the range 1 to [**ma
 **addresses**
 </dt> <dd>
 
-An array of [**Ipv4Address**](ipv4address-struct.md) structures that contain the IPv4 addresses.
+An array of [**Ipv4Address**](/windows/win32/NapTypes/ns-naptypes-tagipv4address?branch=master) structures that contain the IPv4 addresses.
 
 </dd> </dl> </dd> <dt>
 
@@ -108,7 +114,7 @@ The number of IPv4 addresses in the **addresses** member in the range 1 to [**ma
 **addresses**
 </dt> <dd>
 
-An array of [**Ipv6Address**](ipv6address-struct.md) structures that contain the IPv4 addresses.
+An array of [**Ipv6Address**](/windows/win32/NapTypes/ns-naptypes-tagipv6address?branch=master) structures that contain the IPv4 addresses.
 
 </dd> </dl> </dd> <dt>
 
@@ -117,7 +123,7 @@ An array of [**Ipv6Address**](ipv6address-struct.md) structures that contain the
 
 **case(sohAttributeTypeComplianceResultCodes, sohAttributeTypeErrorCodes)**
 
-A [**ResultCodes**](resultcodes-struct.md) structure that contains either the application defined compliance result codes of the client or [**NAP error constants**](nap-error-constants.md). An [**SoH**](soh-struct.md) packet must contain this TLV or the **sohAttributeTypeFailureCategory** TLV.
+A [**ResultCodes**](/windows/win32/NapTypes/ns-naptypes-tagresultcodes?branch=master) structure that contains either the application defined compliance result codes of the client or [**NAP error constants**](nap-error-constants.md). An [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet must contain this TLV or the **sohAttributeTypeFailureCategory** TLV.
 
 </dd> <dt>
 
@@ -126,7 +132,7 @@ A [**ResultCodes**](resultcodes-struct.md) structure that contains either the ap
 
 **case(sohAttributeTypeTimeOfLastUpdate, sohAttributeTypeSoHGenerationTime)**
 
-A [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains the time of the last [**SoH**](soh-struct.md) update or the **SoH** generation time.
+A [FILETIME](http://go.microsoft.com/fwlink/p/?linkid=90006) structure that contains the time of the last [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) update or the **SoH** generation time.
 
 </dd> <dt>
 
@@ -165,7 +171,7 @@ A pointer to the vendor specific data in network byte order.
 
 **case(sohAttributeTypeHealthClass, sohAttributeTypeFailureCategory,sohAttributeTypeExtendedIsolationState)**
 
-The health class, failure category, or extended isolation state of a NAP component as either a [**HealthClassValue**](healthclassvalue-enum.md) or [**FailureCategory**](failurecategory-enum.md) value, or a [**IsolationInfoEx**](isolationinfoex.md) structure.
+The health class, failure category, or extended isolation state of a NAP component as either a [**HealthClassValue**](healthclassvalue-enum.md) or [**FailureCategory**](/windows/win32/NapTypes/ne-naptypes-tagfailurecategory?branch=master) value, or a [**IsolationInfoEx**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfoex?branch=master) structure.
 
 </dd> <dt>
 
@@ -282,8 +288,8 @@ The rest of the [**SoHAttributeTypes**](sohattributetype-enum.md) are meant pure
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 
@@ -299,9 +305,9 @@ The rest of the [**SoHAttributeTypes**](sohattributetype-enum.md) are meant pure
 [NAP Structures](nap-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

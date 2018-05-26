@@ -3,7 +3,18 @@ title: B
 description: Definitions of OpenGL terms that begin with the letter B.
 Robots: noindex, nofollow
 ms.assetid: 053fa15a-fbda-43a7-a740-b4477ad9c946
-keywords: ["back face", "bits", "bitmaps", "bitplanes", "blending", "buffers"]
+keywords:
+- back face
+- bits
+- bitmaps
+- bitplanes
+- blending
+- buffers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # B

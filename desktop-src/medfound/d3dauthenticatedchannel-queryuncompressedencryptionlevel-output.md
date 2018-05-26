@@ -1,14 +1,19 @@
-﻿---
-Description: 'Contains the response to a D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE query.'
-ms.assetid: '66735ce3-c16b-4eca-9283-5d3bc37d73d3'
-title: 'D3DAUTHENTICATEDCHANNEL\_QUERYUNCOMPRESSEDENCRYPTIONLEVEL\_OUTPUT structure'
+---
+Description: Contains the response to a D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE query.
+ms.assetid: 66735ce3-c16b-4eca-9283-5d3bc37d73d3
+title: D3DAUTHENTICATEDCHANNEL\_QUERYUNCOMPRESSEDENCRYPTIONLEVEL\_OUTPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERYUNCOMPRESSEDENCRYPTIONLEVEL\_OUTPUT structure
 
 Contains the response to a [**D3DAUTHENTICATEDQUERY\_CURRENTENCRYPTIONWHENACCESSIBLE**](d3dauthenticatedquery-currentencryptionwhenaccessible.md) query.
 
-To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md).
+To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master).
 
 ## Syntax
 
@@ -59,7 +64,7 @@ A GUID that specifies the current encryption type.
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

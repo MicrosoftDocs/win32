@@ -1,7 +1,12 @@
-﻿---
-Description: 'The XcvData function uses a CONFIG\_INFO\_DATA\_1 structure when it obtains configuration data for a particular port.'
-ms.assetid: 'abf484e4-6a11-4727-b195-5eaf6683113e'
-title: 'CONFIG\_INFO\_DATA\_1 structure'
+---
+Description: The XcvData function uses a CONFIG\_INFO\_DATA\_1 structure when it obtains configuration data for a particular port.
+ms.assetid: abf484e4-6a11-4727-b195-5eaf6683113e
+title: CONFIG\_INFO\_DATA\_1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONFIG\_INFO\_DATA\_1 structure

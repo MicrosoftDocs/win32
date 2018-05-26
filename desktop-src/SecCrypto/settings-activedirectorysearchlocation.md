@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the Active Directory search location.'
-ms.assetid: '43320799-1c01-4e09-bed9-f3576baadcce'
-title: 'Settings.ActiveDirectorySearchLocation property'
+---
+Description: Sets or retrieves the Active Directory search location.
+ms.assetid: 43320799-1c01-4e09-bed9-f3576baadcce
+title: Settings.ActiveDirectorySearchLocation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.ActiveDirectorySearchLocation property

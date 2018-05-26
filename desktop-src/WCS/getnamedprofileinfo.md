@@ -1,8 +1,9 @@
 ---
 title: GetNamedProfileInfo function
 description: The GetNamedProfileInfo function retrieves information about the International Color Consortium (ICC) named color profile that is specified in the first parameter.
-ms.assetid: '9791d32f-b343-4da7-add3-ed7bcecfd010'
-keywords: ["GetNamedProfileInfo function Windows Color System"]
+ms.assetid: 9791d32f-b343-4da7-add3-ed7bcecfd010
+keywords:
+- GetNamedProfileInfo function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNamedProfileInfo function
@@ -22,8 +28,8 @@ The **GetNamedProfileInfo** function retrieves information about the Internation
 
 ```C++
 BOOL WINAPI GetNamedProfileInfo(
-   HPROFILE            hProfile,
-   PNAMED_PROFILE_INFO pNamedProfileInfo
+   HPROFILE            hProfile,
+   PNAMED_PROFILE_INFO pNamedProfileInfo
 );
 ```
 
@@ -65,8 +71,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Gdi32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -86,9 +92,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [**NAMED\_PROFILE\_INFO**](named-profile-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

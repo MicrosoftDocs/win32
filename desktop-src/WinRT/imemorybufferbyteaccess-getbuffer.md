@@ -1,7 +1,12 @@
 ---
-Description: 'Gets an IMemoryBuffer as an array of bytes.'
-ms.assetid: 'E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09'
-title: 'IMemoryBufferByteAccess::GetBuffer method'
+Description: Gets an IMemoryBuffer as an array of bytes.
+ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
+title: IMemoryBufferByteAccessGetBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMemoryBufferByteAccess::GetBuffer method
@@ -50,7 +55,7 @@ When [**MemoryBuffer::Close**](w_found.memorybuffer_close) is called, the code u
 
 <dl> <dt>
 
-[**IMemoryBufferByteAccess**](imemorybufferbyteaccess.md)
+[**IMemoryBufferByteAccess**](/windows/win32/memorybuffer/ns-memorybuffer-imemorybufferbyteaccess?branch=master)
 </dt> </dl>
 
  

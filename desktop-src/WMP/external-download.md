@@ -1,8 +1,11 @@
 ---
 title: External.download method
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The download method initiates the download of a set of media items.
-ms.assetid: '10bae41c-0658-4712-8a7e-375a1ec6dc25'
-keywords: ["download method Windows Media Player", "download method Windows Media Player , External class", "External class Windows Media Player , download method"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The download method initiates the download of a set of media items.
+ms.assetid: 10bae41c-0658-4712-8a7e-375a1ec6dc25
+keywords:
+- download method Windows Media Player
+- download method Windows Media Player , External class
+- External class Windows Media Player , download method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.download method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **download** method initiates the download of a set of media items.
 
@@ -80,12 +88,12 @@ This method does not return a value.
 [**External.buy**](external-buy.md)
 </dt> <dt>
 
-[**IWMPContentPartner::Download**](iwmpcontentpartner-download.md)
+[**IWMPContentPartner::Download**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-download?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

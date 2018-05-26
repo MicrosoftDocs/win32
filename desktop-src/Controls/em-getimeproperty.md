@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMEPROPERTY message
 description: Retrieves the property and capabilities of the Input Method Editor (IME) associated with the current input locale.
-ms.assetid: '0cbe52d4-c3e7-40bd-a6f6-da0a11056976'
-keywords: ["EM_GETIMEPROPERTY message Windows Controls"]
+ms.assetid: 0cbe52d4-c3e7-40bd-a6f6-da0a11056976
+keywords:
+- EM_GETIMEPROPERTY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMEPROPERTY message
@@ -40,7 +46,7 @@ Specifies the type of property information to retrieve. This parameter can be on
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,7 +78,7 @@ If *wParam* is IGP\_PROPERTY, it returns one or more of the following values.
 
 
 
- 
+ 
 
 If *wParam* is IGP\_UI, it returns one or more of the following values.
 
@@ -86,7 +92,7 @@ If *wParam* is IGP\_UI, it returns one or more of the following values.
 
 
 
- 
+ 
 
 If *wParam* is IGP\_SETCOMPSTR, it returns one or more of the following values.
 
@@ -100,7 +106,7 @@ If *wParam* is IGP\_SETCOMPSTR, it returns one or more of the following values.
 
 
 
- 
+ 
 
 If *wParam* is IGP\_SELECT, it returns one or more of the following values.
 
@@ -113,7 +119,7 @@ If *wParam* is IGP\_SELECT, it returns one or more of the following values.
 
 
 
- 
+ 
 
 If *wParam* is IGP\_GETIMEVERSION, it returns one or more of the following values.
 
@@ -122,11 +128,11 @@ If *wParam* is IGP\_GETIMEVERSION, it returns one or more of the following value
 |              |                                             |
 |--------------|---------------------------------------------|
 | IMEVER\_0310 | The IME was created for Windows 3.1.        |
-| IMEVER\_0400 | The IME was created for Windows 95 or later |
+| IMEVER\_0400 | The IME was created for Windows 95 or later |
 
 
 
- 
+ 
 
 This message is similar to [**ImmGetProperty**](https://msdn.microsoft.com/library/windows/desktop/dd318567), except that it uses the current input locale. The application should call [**EM\_ISIME**](em-isime.md) before calling this function.
 
@@ -136,8 +142,8 @@ This message is similar to [**ImmGetProperty**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -158,9 +164,9 @@ This message is similar to [**ImmGetProperty**](https://msdn.microsoft.com/libra
 [**ImmGetProperty**](https://msdn.microsoft.com/library/windows/desktop/dd318567)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

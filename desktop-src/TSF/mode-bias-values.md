@@ -1,8 +1,9 @@
 ---
 title: Mode Bias Values
 description: The following predefined values are possible values for the GUID\_PROP\_MODEBIAS property.
-ms.assetid: '1a96ed78-923d-454d-a30b-f4673a97a142'
-keywords: ["Mode Bias Values Text Services Framework"]
+ms.assetid: 1a96ed78-923d-454d-a30b-f4673a97a142
+keywords:
+- Mode Bias Values Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mode Bias Values
@@ -130,17 +136,17 @@ The bias is to full-width Hangul characters.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: Further Information
 description: Further Information
-ms.assetid: '6e2ac851-3dba-4bbb-b766-82800b1cc5f1'
-keywords: ["Windows Color System (WCS),resources", "WCS (Windows Color System),resources", "image color management,resources", "color management,resources", "Windows Color System (WCS),further information", "WCS (Windows Color System),further information", "image color management,further information", "color management,further information"]
+ms.assetid: 6e2ac851-3dba-4bbb-b766-82800b1cc5f1
+keywords:
+- Windows Color System (WCS),resources
+- WCS (Windows Color System),resources
+- image color management,resources
+- color management,resources
+- Windows Color System (WCS),further information
+- WCS (Windows Color System),further information
+- image color management,further information
+- color management,further information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Further Information

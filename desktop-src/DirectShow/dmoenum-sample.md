@@ -1,7 +1,12 @@
 ---
 Description: DMOEnum Sample
-ms.assetid: 'afd7853e-b0ab-42f6-8c2e-c2b0b40d989b'
+ms.assetid: afd7853e-b0ab-42f6-8c2e-c2b0b40d989b
 title: DMOEnum Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMOEnum Sample
@@ -10,7 +15,7 @@ title: DMOEnum Sample
 
 This sample application enumerates all of the [DirectX Media Objects](directx-media-objects.md) (DMOs) registered in the user's system, and displays information about them.
 
-The sample uses the [**DMOEnum**](dmoenum.md) function and the [**IEnumDMO**](ienumdmo.md) interface to enumerate the DMOs. It uses the [**IMediaObject**](imediaobject.md) interface and other DMO interfaces to retrieve information about each DMO.
+The sample uses the [**DMOEnum**](/windows/win32/Dmoreg/nf-dmoreg-dmoenum?branch=master) function and the [**IEnumDMO**](/windows/win32/Mediaobj/nn-mediaobj-ienumdmo?branch=master) interface to enumerate the DMOs. It uses the [**IMediaObject**](/windows/win32/Mediaobj/nn-mediaobj-imediaobject?branch=master) interface and other DMO interfaces to retrieve information about each DMO.
 
 ## Usage
 

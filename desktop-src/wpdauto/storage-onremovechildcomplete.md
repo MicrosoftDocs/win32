@@ -1,14 +1,22 @@
 ---
 title: Storage.onRemoveChildComplete event
 description: The onRemoveChildComplete event occurs, and a callback handler is invoked, when a Storage.RemoveChild operation has completed.
-ms.assetid: '84227932-2ed6-4daa-8e35-76c051ef16c1'
-keywords: ["onRemoveChildComplete event WPD Automation", "onRemoveChildComplete event WPD Automation , Storage object", "Storage object WPD Automation , onRemoveChildComplete event"]
+ms.assetid: 84227932-2ed6-4daa-8e35-76c051ef16c1
+keywords:
+- onRemoveChildComplete event WPD Automation
+- onRemoveChildComplete event WPD Automation , Storage object
+- Storage object WPD Automation , onRemoveChildComplete event
 topic_type:
 - apiref
 api_name:
 - Storage.onRemoveChildComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.onRemoveChildComplete event
@@ -78,8 +86,8 @@ Storage.onRemoveChildComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ Storage.onRemoveChildComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

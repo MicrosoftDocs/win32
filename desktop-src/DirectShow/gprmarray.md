@@ -1,7 +1,12 @@
 ---
-Description: 'The GPRMARRAY data type contains an array of DVD general parameter register (GPRM) values.'
-ms.assetid: 'f0ab0a9d-00fa-4c61-9f5a-727cf69ffa1c'
+Description: The GPRMARRAY data type contains an array of DVD general parameter register (GPRM) values.
+ms.assetid: f0ab0a9d-00fa-4c61-9f5a-727cf69ffa1c
 title: GPRMARRAY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GPRMARRAY
@@ -35,12 +40,12 @@ typedef DVD_REGISTER GPRMARRAY [16];
 [**DVD\_REGISTER**](dvd-register.md)
 </dt> <dt>
 
-[**IDvdInfo2::GetAllGPRMs**](idvdinfo2-getallgprms.md)
+[**IDvdInfo2::GetAllGPRMs**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getallgprms?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

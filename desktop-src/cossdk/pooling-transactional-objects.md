@@ -1,7 +1,12 @@
 ---
-Description: 'Transactional components that are to be pooled have special requirements.'
-ms.assetid: '32e2f830-c30a-4dbc-8e69-dd2038851998'
+Description: Transactional components that are to be pooled have special requirements.
+ms.assetid: 32e2f830-c30a-4dbc-8e69-dd2038851998
 title: Pooling Transactional Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pooling Transactional Objects
@@ -24,7 +29,7 @@ Disabling auto-enlistment can sometimes be a subtle procedure, particularly in t
 
 ## Implementing IObjectControl
 
-Poolable objects that participate in transactions must monitor the current state of resources they are holding. If the object detects that it is in a non-reusable state—for example, if a connection is bad—it should return False for [**IObjectControl::CanBePooled**](iobjectcontrol-canbepooled.md). This will have the effect of both discarding the object instance and dooming the current transaction.
+Poolable objects that participate in transactions must monitor the current state of resources they are holding. If the object detects that it is in a non-reusable state—for example, if a connection is bad—it should return False for [**IObjectControl::CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master). This will have the effect of both discarding the object instance and dooming the current transaction.
 
 ## Transaction-Specific Pools
 

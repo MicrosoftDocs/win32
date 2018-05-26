@@ -1,8 +1,9 @@
 ---
 title: RtmDeregisterClient function
 description: The RtmDeregisterClient function deregisters the client, and frees resources associated with the client.
-ms.assetid: '5d04f276-86a7-4e63-8266-e93f0d6e5241'
-keywords: ["RtmDeregisterClient function RAS"]
+ms.assetid: 5d04f276-86a7-4e63-8266-e93f0d6e5241
+keywords:
+- RtmDeregisterClient function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmDeregisterClient function
@@ -24,7 +30,7 @@ The **RtmDeregisterClient** function deregisters the client, and frees resources
 
 ```C++
 DWORD RtmDeregisterClient(
-  _In_ HANDLE ClientHandle
+  _In_ HANDLE ClientHandle
 );
 ```
 
@@ -56,7 +62,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +75,8 @@ This function removes all routes that were added by the client.
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -90,9 +96,9 @@ This function removes all routes that were added by the client.
 [**RtmRegisterClient**](rtmregisterclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListClearMediaDisk method of the Product object removes a specified disk from the set of registered disks for a product. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.'
-ms.assetid: '7eec644e-5127-4c17-a8bd-6b0eb091c8aa'
-title: 'Product.SourceListClearMediaDisk method'
+---
+Description: The SourceListClearMediaDisk method of the Product object removes a specified disk from the set of registered disks for a product. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.
+ms.assetid: 7eec644e-5127-4c17-a8bd-6b0eb091c8aa
+title: Product.SourceListClearMediaDisk method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.SourceListClearMediaDisk method
 
-The **SourceListClearMediaDisk** method of the [**Product**](product-object.md) object removes a specified disk from the set of registered disks for a product. Accepts *Diskid* as a parameter. This method calls [**MsiSourceListClearMediaDisk**](msisourcelistclearmediadisks.md).
+The **SourceListClearMediaDisk** method of the [**Product**](product-object.md) object removes a specified disk from the set of registered disks for a product. Accepts *Diskid* as a parameter. This method calls [**MsiSourceListClearMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistclearmediadiska?branch=master).
 
 ## Syntax
 
@@ -53,7 +58,7 @@ This method does not return a value.
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListClearMediaDisk**](msisourcelistclearmediadisks.md)
+[**MsiSourceListClearMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistclearmediadiska?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

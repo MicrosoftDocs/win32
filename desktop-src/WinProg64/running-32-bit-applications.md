@@ -1,8 +1,17 @@
 ---
 title: Running 32-bit Applications
 description: Run 32-bit Windows-based applications seamlessly on 64-bit Windows with the WOW64 x86 emulator. Also learn about the registry director, file system redirector, application installation on 64-bit systems, and debugging WOW64.
-ms.assetid: 'ac75c5af-86e8-4282-9a8e-8db3c22cbda0'
-keywords: ["WOW64 64-bit Windows Programming", "WOW64 64-bit Windows Programming , about", "32-bit applications on 64-bit Windows 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , WOW64 See WOW64"]
+ms.assetid: ac75c5af-86e8-4282-9a8e-8db3c22cbda0
+keywords:
+- WOW64 64-bit Windows Programming
+- WOW64 64-bit Windows Programming , about
+- 32-bit applications on 64-bit Windows 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , WOW64 See WOW64
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running 32-bit Applications

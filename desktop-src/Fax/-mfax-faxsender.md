@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxSender messaging object is used by a fax client application to retrieve and set sender information about fax senders. The object also includes methods to store sender data in and retrieve sender data from the local registry.'
-ms.assetid: 'f265cfd0-cf62-4d86-9ba5-d1842ac94baa'
+---
+Description: The FaxSender messaging object is used by a fax client application to retrieve and set sender information about fax senders. The object also includes methods to store sender data in and retrieve sender data from the local registry.
+ms.assetid: f265cfd0-cf62-4d86-9ba5-d1842ac94baa
 title: FaxSender object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender object
@@ -90,7 +95,7 @@ To create a **FaxSender** object in C++, call the [**Sender**](-mfax-faxdocument
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

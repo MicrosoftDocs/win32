@@ -4,11 +4,16 @@ description: The following code example implements the example Winsock service w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8800ba76-f24c-4aa7-ba31-97eaf884130c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8800ba76-f24c-4aa7-ba31-97eaf884130c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Windows Sockets Registration and Resolution AD , Example Code, Implementing a Winsock Service with an RnR Publication", "Implementing a Winsock Service with an RnR Publication AD , Example Code"]
+keywords:
+- Windows Sockets Registration and Resolution AD , Example Code, Implementing a Winsock Service with an RnR Publication
+- Implementing a Winsock Service with an RnR Publication AD , Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Implementing a Winsock Service with an RnR Publication

@@ -2,11 +2,14 @@
 title: Set method of the PS\_VpnConnection class
 description: Modifies an existing virtual private network (VPN) connection profile.
 audience: developer
-ms.assetid: 'daa6f8f9-47e0-40af-9c03-a9c326f5bb84'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: daa6f8f9-47e0-40af-9c03-a9c326f5bb84
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_VpnConnection class", "PS_VpnConnection class, Set method"]
+keywords:
+- Set method
+- Set method, PS_VpnConnection class
+- PS_VpnConnection class, Set method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_VpnConnection class
@@ -26,25 +32,25 @@ Modifies an existing virtual private network (VPN) connection profile.
 
 ```mof
 static uint32 Set(
-  [in]  string           ServerAddress,
-  [in]  boolean          AllUserConnection,
-  [in]  boolean          SplitTunneling,
-  [in]  boolean          RememberCredential,
-  [in]  string           TunnelType,
-  [in]  boolean          PassThru,
-  [in]  boolean          Force,
-  [in]  string           L2tpPsk,
-  [in]  string           AuthenticationMethod[],
-  [in]  string           EapConfigXmlStream,
-  [in]  string           Name,
-  [in]  boolean          UseWinlogonCredential,
-  [in]  string           EncryptionLevel,
-  [in]  string           MachineCertificateEKUFilter[],
-  [in]  uint8            MachineCertificateIssuerFilter[],
-  [in]  VpnServerAddress ServerList[],
-  [in]  uint32           IdleDisconnectSeconds,
-  [in]  string           DnsSuffix,
-  [out] VpnConnection    cmdletOutput
+  [in]  string           ServerAddress,
+  [in]  boolean          AllUserConnection,
+  [in]  boolean          SplitTunneling,
+  [in]  boolean          RememberCredential,
+  [in]  string           TunnelType,
+  [in]  boolean          PassThru,
+  [in]  boolean          Force,
+  [in]  string           L2tpPsk,
+  [in]  string           AuthenticationMethod[],
+  [in]  string           EapConfigXmlStream,
+  [in]  string           Name,
+  [in]  boolean          UseWinlogonCredential,
+  [in]  string           EncryptionLevel,
+  [in]  string           MachineCertificateEKUFilter[],
+  [in]  uint8            MachineCertificateIssuerFilter[],
+  [in]  VpnServerAddress ServerList[],
+  [in]  uint32           IdleDisconnectSeconds,
+  [in]  string           DnsSuffix,
+  [out] VpnConnection    cmdletOutput
 );
 ```
 
@@ -142,7 +148,7 @@ Internet Key Exchange version 2 (IKEv2).
 
 The tunnel types are tried in sequence.
 
-**Windows 8 and Windows Server 2012:** The value is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The value is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> </dl> </dd> <dt>
 
@@ -227,7 +233,7 @@ Extensible Authentication Protocol (EAP).
 
 A machine certificate.
 
-**Windows 8 and Windows Server 2012:** The value is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The value is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> </dl> </dd> <dt>
 
@@ -300,7 +306,7 @@ No encryption.
 
 </dt> <dd>
 
-**Windows 8 and Windows Server 2012:** The value is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** The value is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> </dl> </dd> <dt>
 
@@ -352,8 +358,8 @@ When this method returns, contains the [**VpnConnection**](vpnconnection.md) obj
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -367,9 +373,9 @@ When this method returns, contains the [**VpnConnection**](vpnconnection.md) obj
 [**PS\_VpnConnection**](ps-vpnconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

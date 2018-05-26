@@ -1,11 +1,14 @@
 ---
-Description: 'Represents a GUID that uniquely identifies a request.'
+Description: Represents a GUID that uniquely identifies a request.
 audience: developer
-ms.assetid: '30cd1c23-0a8f-437f-9b61-f50339a1848a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 30cd1c23-0a8f-437f-9b61-f50339a1848a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_ServerManagerRequestGuid class'
+title: MSFT\_ServerManagerRequestGuid class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerManagerRequestGuid class
@@ -70,7 +73,7 @@ The second half of the **GUID**.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -84,9 +87,9 @@ The second half of the **GUID**.
 [ServerManager Deploymentprovider Provider Classes](server-manager-deployment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

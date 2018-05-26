@@ -4,11 +4,15 @@ description: Shows how to detect the MMC version.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '361fa3d0-504f-4638-94b0-e771eff75928'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 361fa3d0-504f-4638-94b0-e771eff75928
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["detecting the MMC version number"]
+keywords:
+- detecting the MMC version number
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Detecting the MMC Version Number
@@ -70,7 +74,7 @@ Be aware that neither the **GetMMCVersion** function nor the **MMC\_VERSION** en
 
 ## For Extension Snap-ins
 
-Not all types of extension snap-ins need to implement [**IComponentData**](icomponentdata.md) or [**IComponent**](icomponent.md), so the workaround for primary snap-ins does not work for them. The following statements apply to extension snap-ins:
+Not all types of extension snap-ins need to implement [**IComponentData**](icomponentdata.md) or [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master), so the workaround for primary snap-ins does not work for them. The following statements apply to extension snap-ins:
 
 -   For extension snap-ins, there is no difference in functionality between MMC versions 1.1 and 1.2, so there is no need for an extension snap-in to detect whether it is loaded in an MMC 1.2 or later console.
 -   Currently, there is no way for a non-namespace extension snap-in to detect the version of the MMC console in which it is loaded.

@@ -1,8 +1,11 @@
 ---
 title: Reset method of the Msvm\_ShutdownComponent class
 description: Resets the logical device.
-ms.assetid: 'f12e2b77-2435-4d03-a4dc-5e85453e8b9a'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , Msvm_ShutdownComponent class", "Msvm_ShutdownComponent class Hyper-V , Reset method"]
+ms.assetid: f12e2b77-2435-4d03-a4dc-5e85453e8b9a
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , Msvm_ShutdownComponent class
+- Msvm_ShutdownComponent class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_ShutdownComponent class
@@ -91,9 +99,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

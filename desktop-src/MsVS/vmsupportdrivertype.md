@@ -1,8 +1,9 @@
 ---
 title: VMSupportDriverType enumeration
 description: The VMSupportDriverType enumeration specifies the type of support driver used by Virtual Server.
-ms.assetid: 'f12e934b-c25c-4ca9-bd44-93d51e8b5475'
-keywords: ["VMSupportDriverType enumeration Virtual Server"]
+ms.assetid: f12e934b-c25c-4ca9-bd44-93d51e8b5475
+keywords:
+- VMSupportDriverType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMSupportDriverType enumeration
@@ -22,9 +28,9 @@ The **VMSupportDriverType** enumeration specifies the type of support driver use
 
 ```C++
 typedef enum  { 
-  vmSupportDriver_InvalidType            = -1,
-  vmSupportDriver_VirtualMachineMonitor  = 0,
-  vmSupportDriver_NetworkServices        = 1
+  vmSupportDriver_InvalidType            = -1,
+  vmSupportDriver_VirtualMachineMonitor  = 0,
+  vmSupportDriver_NetworkServices        = 1
 } VMSupportDriverType;
 ```
 
@@ -61,15 +67,15 @@ The network services driver.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

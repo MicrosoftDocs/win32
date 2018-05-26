@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback function that must be implemented by a user to enable/disable a light.'
-ms.assetid: '11522ca3-8a2f-4767-a6e6-4186cb4f3115'
-title: 'ID3DXEffectStateManager::LightEnable method'
+---
+Description: A callback function that must be implemented by a user to enable/disable a light.
+ms.assetid: 11522ca3-8a2f-4767-a6e6-4186cb4f3115
+title: ID3DXEffectStateManagerLightEnable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectStateManager::LightEnable method
@@ -29,7 +34,7 @@ HRESULT LightEnable(
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-The zero-based index of the light. This is the same index in [**IDirect3DDevice9::SetLight**](idirect3ddevice9--setlight.md).
+The zero-based index of the light. This is the same index in [**IDirect3DDevice9::SetLight**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setlight?branch=master).
 
 </dd> <dt>
 
@@ -49,7 +54,7 @@ Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::LightEnable**](idirect3ddevice9--lightenable.md)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::LightEnable**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-lightenable?branch=master)) will fail.
 
 ## Requirements
 

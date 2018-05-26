@@ -1,7 +1,12 @@
 ---
 title: How to Create a Texture
 description: This topic shows how to create a texture.
-ms.assetid: 'dfe88635-b2c2-48f8-a21e-cce845b518fc'
+ms.assetid: dfe88635-b2c2-48f8-a21e-cce845b518fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Create a Texture
@@ -10,10 +15,10 @@ The simplest way to create a texture is to describe its properties and call the 
 
 **To create a texture**
 
-1.  Fill in a [**D3D11\_TEXTURE2D\_DESC**](d3d11-texture2d-desc.md) structure with a description of the texture parameters.
-2.  Create the texture by calling [**ID3D11Device::CreateTexture2D**](id3d11device-createtexture2d.md) with the texture description.
+1.  Fill in a [**D3D11\_TEXTURE2D\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_texture2d_desc?branch=master) structure with a description of the texture parameters.
+2.  Create the texture by calling [**ID3D11Device::CreateTexture2D**](/windows/win32/D3D11/nf-d3d11-id3d11device-createtexture2d?branch=master) with the texture description.
 
-This example creates a 256 x 256 texture, with [**dynamic usage**](d3d11-usage.md), for use as a [**shader resource**](d3d11-bind-flag.md) with [**cpu write access**](d3d11-cpu-access-flag.md).
+This example creates a 256 x 256 texture, with [**dynamic usage**](/windows/win32/D3D11/ne-d3d11-d3d11_usage?branch=master), for use as a [**shader resource**](/windows/win32/D3D11/ne-d3d11-d3d11_bind_flag?branch=master) with [**cpu write access**](/windows/win32/D3D11/ne-d3d11-d3d11_cpu_access_flag?branch=master).
 
 
 ```

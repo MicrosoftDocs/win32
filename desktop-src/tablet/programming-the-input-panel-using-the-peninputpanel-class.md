@@ -1,26 +1,31 @@
 ---
-Description: 'Description of using the PenInputPanel object to program the system-level Tablet PC Input Panel.'
-ms.assetid: 'f83c7709-86dc-4c64-ad17-2ad660eb57b7'
+Description: Description of using the PenInputPanel object to program the system-level Tablet PC Input Panel.
+ms.assetid: f83c7709-86dc-4c64-ad17-2ad660eb57b7
 title: Programming the Input Panel Using the PenInputPanel Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming the Input Panel Using the PenInputPanel Class
 
-\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [Microsoft.Ink.TextInput](frlrfMicrosoftInkTextInput). Please refer to [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](/windows/win32/msinkaut/?branch=master) has been replaced by [Microsoft.Ink.TextInput](frlrfMicrosoftInkTextInput). Please refer to [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
-Description of using the [**PenInputPanel**](peninputpanel-class.md) object to program the system-level Tablet PC Input Panel.
+Description of using the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object to program the system-level Tablet PC Input Panel.
 
 ## Input Panel vs. the PenInputPanel Object
 
-In Microsoft Windows XP Tablet PC Edition version 1.0, the system-level Tablet PC Input Panel provides a universal mechanism to accomplish text input across the Windows platform, but it does not provide programmatic access. In Windows XP Tablet PC Edition Software Development Kit (SDK) version 1.5 and later, the [**PenInputPanel**](peninputpanel-class.md) object enables you to integrate text input tools directly into your applications, and provide a level of control not previously available. Starting with the Windows XP Tablet PC Edition 2005, the system-level Input Panel has been upgraded to include the in-place input functionality provided by the **PenInputPanel** object and more.
+In Microsoft Windows XP Tablet PC Edition version 1.0, the system-level Tablet PC Input Panel provides a universal mechanism to accomplish text input across the Windows platform, but it does not provide programmatic access. In Windows XP Tablet PC Edition Software Development Kit (SDK) version 1.5 and later, the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object enables you to integrate text input tools directly into your applications, and provide a level of control not previously available. Starting with the Windows XP Tablet PC Edition 2005, the system-level Input Panel has been upgraded to include the in-place input functionality provided by the **PenInputPanel** object and more.
 
 The following graphic shows Input Panel displayed over the [Auto Claims Form Sample](auto-claims-form-sample.md) sample.
 
 ![input panel displayed over a form used for automobile claims](images/36eaa36b-1b0c-4363-96fa-092f70663ffa.jpg)
 
-Input Panel supersedes the [**PenInputPanel**](peninputpanel-class.md) by supplying the same in-place input functionality to any application running on Windows XP Tablet PC Edition 2005 or later without the need for additional code. This article on using the **PenInputPanel** object is provided for backward compatibility. Applications that already utilize the **PenInputPanel** object will function the same except that Input Panel will be displayed instead of the **PenInputPanel** when the application is run on Windows XP Tablet PC Edition 2005 or later.
+Input Panel supersedes the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) by supplying the same in-place input functionality to any application running on Windows XP Tablet PC Edition 2005 or later without the need for additional code. This article on using the **PenInputPanel** object is provided for backward compatibility. Applications that already utilize the **PenInputPanel** object will function the same except that Input Panel will be displayed instead of the **PenInputPanel** when the application is run on Windows XP Tablet PC Edition 2005 or later.
 
-If you are developing a new application for the Tablet PC and want to have an in-place user input solution, Input Panel provides this automatically on Windows XP Tablet PC Edition 2005 or later. There is no need to instantiate the [**PenInputPanel**](peninputpanel-class.md) object.
+If you are developing a new application for the Tablet PC and want to have an in-place user input solution, Input Panel provides this automatically on Windows XP Tablet PC Edition 2005 or later. There is no need to instantiate the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object.
 
 ## Disabling the Input Panel
 
@@ -28,7 +33,7 @@ There may be cases where you want to disable Input Panel. There are two ways to 
 
 ### Disabling Input Panel Programmatically
 
-To disable Input Panel programmatically, instantiate the [**PenInputPanel**](peninputpanel-class.md) and set its [**AutoShow**](peninputpanel-autoshow.md) property to **False**.
+To disable Input Panel programmatically, instantiate the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) and set its [**AutoShow**](/windows/win32/msinkaut/?branch=master) property to **False**.
 
 
 ```C++
@@ -52,7 +57,7 @@ theInputPanel.AutoShow = false;
 
 
 
-To disable Input Panel for multiple controls in a single application, either instantiate a [**PenInputPanel**](peninputpanel-class.md) object for each control and set the [**AutoShow**](peninputpanel-autoshow.md)property to **False** for each or instantiate a single **PenInputPanel** and move it from control to control as input focus changes. For more information about these two techniques, see the [PenInputPanel Sample](peninputpanel-sample.md) topic.
+To disable Input Panel for multiple controls in a single application, either instantiate a [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object for each control and set the [**AutoShow**](/windows/win32/msinkaut/?branch=master)property to **False** for each or instantiate a single **PenInputPanel** and move it from control to control as input focus changes. For more information about these two techniques, see the [PenInputPanel Sample](peninputpanel-sample.md) topic.
 
 ### Disabling Input Panel Through the Registry
 
@@ -71,20 +76,20 @@ If you still see a problem in your application after you disable the Input Panel
 
 ## The Input Panel and Web Pages
 
-In order to use an API on a Web page, it must function in a partial trust environment. All [**PenInputPanel**](peninputpanel-class.md) class members require full trust except the following:
+In order to use an API on a Web page, it must function in a partial trust environment. All [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) class members require full trust except the following:
 
 -   [PenInputPanel Constructors](frlrfMicrosoftInkPenInputPanelClassctorTopic) (managed code only)
 -   [Dispose Method](frlrfMicrosoftInkPenInputPanelClassDisposeTopic) (managed code only)
 -   [AttachedEditControl Property](frlrfMicrosoftInkPenInputPanelClassAttachedEditControlTopic) (managed code only)
--   [**AutoShow Property**](peninputpanel-autoshow.md)
+-   [**AutoShow Property**](/windows/win32/msinkaut/?branch=master)
 
-These APIs function in a partial trust environment, such as a Web page, enabling you to instantiate a [**PenInputPanel**](peninputpanel-class.md) object, attach it to a control, and disable Input Panel for that control. For more information, see Programming the Input Panel Using the PenInputPanel Class and [Ink on the Web](ink-on-the-web.md).
+These APIs function in a partial trust environment, such as a Web page, enabling you to instantiate a [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object, attach it to a control, and disable Input Panel for that control. For more information, see Programming the Input Panel Using the PenInputPanel Class and [Ink on the Web](ink-on-the-web.md).
 
 ## The PenInputPanel Object
 
-The rest of this topic describes how to use the [**PenInputPanel**](peninputpanel-class.md) object in your Tablet PC–enabled applications. More specifically, this topic refers to the **PenInputPanel** object when discussing the programming object, the pen input panel when referring to the UI element, and the PC Input Panel (or Input Panel) when referring to the global input panel typically found on the side of the Tablet PC screen.
+The rest of this topic describes how to use the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object in your Tablet PC–enabled applications. More specifically, this topic refers to the **PenInputPanel** object when discussing the programming object, the pen input panel when referring to the UI element, and the PC Input Panel (or Input Panel) when referring to the global input panel typically found on the side of the Tablet PC screen.
 
-The following sections describe the [**PenInputPanel**](peninputpanel-class.md) object and UI.
+The following sections describe the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object and UI.
 
 -   [About the Input Panel](about-the-input-panel.md)
 -   [Instantiating the PenInputPanel Class](instantiating-the-peninputpanel-class.md)

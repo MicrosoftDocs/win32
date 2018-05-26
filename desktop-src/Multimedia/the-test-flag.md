@@ -1,8 +1,14 @@
 ---
 title: The Test Flag
 description: The Test Flag
-ms.assetid: 'd103a96e-8d55-413d-ac84-15c3d8dccfbe'
-keywords: ["MCI_TEST flag"]
+ms.assetid: d103a96e-8d55-413d-ac84-15c3d8dccfbe
+keywords:
+- MCI_TEST flag
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Test Flag

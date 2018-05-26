@@ -4,17 +4,22 @@ description: Schema Attribute that contains the XML sequence for this Post Scan 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '702adafa-d332-4315-ae36-86e997bf8d74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 702adafa-d332-4315-ae36-86e997bf8d74
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Imaging-PSP-String attribute AD Schema", "msImaging-PSPString attribute AD Schema"]
+keywords:
+- ms-Imaging-PSP-String attribute AD Schema
+- msImaging-PSPString attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Imaging-PSP-String
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Imaging-PSP-String attribute
@@ -38,8 +43,8 @@ Schema Attribute that contains the XML sequence for this Post Scan Process.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Schema Attribute that contains the XML sequence for this Post Scan Process.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

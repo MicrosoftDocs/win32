@@ -4,11 +4,13 @@ description: Provides the methods and properties needed to configure and use the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '601f70aa-85f1-4180-921b-9f1bb31d4def'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 601f70aa-85f1-4180-921b-9f1bb31d4def
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClient10 interface Remote Desktop Services", "IMsRdpClient10 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClient10 interface Remote Desktop Services
+- IMsRdpClient10 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient10 interface
@@ -48,11 +53,11 @@ The **IMsRdpClient10** interface has these methods.
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                         | Causes an action to be performed in the remote session.<br/>                  |
 | [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md)          | Sets the virtual channel options for the Remote Desktop ActiveX control.<br/> |
 | [**SyncSessionDisplaySettings**](imsrdpclient9-syncsessiondisplaysettings.md)     | Synchronizes session display settings.<br/>                                   |
-| [**UpdateSessionDisplaySettings**](imsrdpclient9-updatesessiondisplaysettings.md) | Updates session display settings.<br/>                                        |
+| [**UpdateSessionDisplaySettings**](/windows/win32/rdpappcontainerclient/?branch=master) | Updates session display settings.<br/>                                        |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -87,7 +92,7 @@ The **IMsRdpClient10** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,8 +104,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                                                                                                           |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                                                                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                   |
 | CLSID<br/>                    | CLSID\_MsRdpClient10 is defined as C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24<br/> CLSID\_MsRdpClient10NotSafeForScripting is defined as A0C63C30-F08D-4AB4-907C-34905D770C7D<br/> |
@@ -145,9 +150,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

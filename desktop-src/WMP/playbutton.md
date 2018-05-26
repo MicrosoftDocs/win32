@@ -1,14 +1,20 @@
 ---
 title: PLAYBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '0d144f34-d536-4138-a7b2-e36a9f85e105'
-keywords: ["PLAYBUTTON Windows Media Player"]
+ms.assetid: 0d144f34-d536-4138-a7b2-e36a9f85e105
+keywords:
+- PLAYBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYBUTTON
@@ -43,9 +49,9 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

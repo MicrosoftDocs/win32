@@ -1,7 +1,12 @@
 ---
 Description: Audio Streaming Sample Code
-ms.assetid: 'f3ba32c5-c3de-4f6b-bc89-f7860ca5f65b'
+ms.assetid: f3ba32c5-c3de-4f6b-bc89-f7860ca5f65b
 title: Audio Streaming Sample Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Streaming Sample Code
@@ -11,7 +16,7 @@ title: Audio Streaming Sample Code
 
  
 
-The following code sample demonstrates how to stream audio data using the [**IAudioMediaStream**](iaudiomediastream.md), [**IAudioStreamSample**](iaudiostreamsample.md), [**IMemoryData**](imemorydata.md), and [**IAudioData**](iaudiodata.md) interfaces. For brevity, this example performs minimal error checking.
+The following code sample demonstrates how to stream audio data using the [**IAudioMediaStream**](/windows/win32/austream/nn-austream-iaudiomediastream?branch=master), [**IAudioStreamSample**](/windows/win32/austream/nn-austream-iaudiostreamsample?branch=master), [**IMemoryData**](/windows/win32/austream/nn-austream-imemorydata?branch=master), and [**IAudioData**](/windows/win32/austream/nn-austream-iaudiodata?branch=master) interfaces. For brevity, this example performs minimal error checking.
 
 
 ```C++

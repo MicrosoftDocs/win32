@@ -1,16 +1,21 @@
 ---
-Description: 'This topic lists the available geographical locations with identifiers (data type GEOID).'
-ms.assetid: '6e424bd4-389c-4f51-9898-f60a8a818f89'
+Description: This topic lists the available geographical locations with identifiers (data type GEOID).
+ms.assetid: 6e424bd4-389c-4f51-9898-f60a8a818f89
 title: Table of Geographical Locations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Table of Geographical Locations
 
 This topic lists the available geographical locations with identifiers (data type GEOID). Your applications can use these identifiers when calling the following NLS functions, which have parameters that take the GEOID data type:
 
--   [**GetGeoInfo**](getgeoinfo.md)
--   [**EnumSystemGeoID**](enumsystemgeoid.md)
--   [**SetUserGeoID**](setusergeoid.md)
+-   [**GetGeoInfo**](/windows/win32/Winnls/nf-winnls-getgeoinfoa?branch=master)
+-   [**EnumSystemGeoID**](/windows/win32/Winnls/nf-winnls-enumsystemgeoid?branch=master)
+-   [**SetUserGeoID**](/windows/win32/Winnls/nf-winnls-setusergeoid?branch=master)
 
 
 

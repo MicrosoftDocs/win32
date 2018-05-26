@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Connection IsGlobalPortIgnored method
 description: The IsGlobalPortIgnored method returns VARIANT\_TRUE if the global setting to permit inbound connection attempts is ignored for the specified port and protocol pair.
-ms.assetid: '826edcbb-6b02-4945-bcf3-aeb8f33de04d'
-keywords: ["IsGlobalPortIgnored method ICS/ICF", "IsGlobalPortIgnored method ICS/ICF , INetFwV6Connection interface", "INetFwV6Connection interface ICS/ICF , IsGlobalPortIgnored method"]
+ms.assetid: 826edcbb-6b02-4945-bcf3-aeb8f33de04d
+keywords:
+- IsGlobalPortIgnored method ICS/ICF
+- IsGlobalPortIgnored method ICS/ICF , INetFwV6Connection interface
+- INetFwV6Connection interface ICS/ICF , IsGlobalPortIgnored method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Connection::IsGlobalPortIgnored method
@@ -24,9 +32,9 @@ The **IsGlobalPortIgnored** method returns VARIANT\_TRUE if the global setting t
 
 ```C++
 HRESULT IsGlobalPortIgnored(
-  [in]  USHORT        usPort,
-  [in]  PORT_PROTOCOL Protocol,
-  [out] VARIANT_BOOL  *pvbGlobalPortIsIgnored
+  [in]  USHORT        usPort,
+  [in]  PORT_PROTOCOL Protocol,
+  [out] VARIANT_BOOL  *pvbGlobalPortIsIgnored
 );
 ```
 
@@ -39,7 +47,7 @@ HRESULT IsGlobalPortIgnored(
 *usPort* \[in\]
 </dt> <dd>
 
-Specifies the port ID in host byte order. Must be in the range 1 – 65535.
+Specifies the port ID in host byte order. Must be in the range 1   65535.
 
 </dd> <dt>
 
@@ -78,7 +86,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,10 +94,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -102,9 +110,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Scalar Types
 description: Scalar Types
-ms.assetid: 'bf24d27f-2720-4268-bc74-fc46afedb9aa'
-keywords: ["Scalar Types HLSL"]
+ms.assetid: bf24d27f-2720-4268-bc74-fc46afedb9aa
+keywords:
+- Scalar Types HLSL
 topic_type:
 - apiref
 api_name:
 - Scalar Types
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scalar Types
@@ -25,7 +31,7 @@ HLSL supports several scalar data types:
 -   **float** - 32-bit floating point value.
 -   **double** - 64-bit floating point value. You cannot use double precision values as inputs and outputs for a stream. To pass double precision values between shaders, declare each **double** as a pair of **uint** data types. Then, use the [**asdouble**](asdouble.md) function to pack each **double** into the pair of **uint**s and the [**asuint**](asuint.md) function to unpack the pair of **uint**s back into the **double**.
 
-Starting with Windows 8 HLSL also supports minimum precision scalar data types. Graphics drivers can implement minimum precision scalar data types by using any precision greater than or equal to their specified bit precision. We recommend not to rely on clamping or wrapping behavior that depends on specific underlying precision. For example, the graphics driver might execute arithmetic on a **min16float** value at full 32-bit precision.
+Starting with Windows 8 HLSL also supports minimum precision scalar data types. Graphics drivers can implement minimum precision scalar data types by using any precision greater than or equal to their specified bit precision. We recommend not to rely on clamping or wrapping behavior that depends on specific underlying precision. For example, the graphics driver might execute arithmetic on a **min16float** value at full 32-bit precision.
 
 -   **min16float** - minimum 16-bit floating point value.
 -   **min10float** - minimum 10-bit floating point value.
@@ -66,7 +72,7 @@ For example, here is a 4-component signed-normalized float-variable declaration.
 
 
 
- 
+ 
 
 ## String Type
 
@@ -79,9 +85,9 @@ HLSL also supports a **string** type, which is an ASCII string. There are no ope
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

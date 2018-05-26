@@ -1,14 +1,19 @@
-﻿---
-Description: 'This is the Mode property of the Session object. This property is a value representing the designated mode flag for the current install session. Most of the mode flags are read-only externally, but a few specified flags may be set as well.'
-ms.assetid: '9aca413d-d653-4ec1-a39b-af956f6c95e7'
-title: 'Session.Mode property'
+---
+Description: This is the Mode property of the Session object. This property is a value representing the designated mode flag for the current install session. Most of the mode flags are read-only externally, but a few specified flags may be set as well.
+ms.assetid: 9aca413d-d653-4ec1-a39b-af956f6c95e7
+title: Session.Mode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.Mode property
 
 This is the **Mode** property of the [**Session**](session-object.md) object. This property is a value representing the designated mode flag for the current install session. Most of the mode flags are read-only externally, but a few specified flags may be set as well.
 
-The [**MsiGetMode**](msigetmode.md) function returns a Boolean TRUE or FALSE, indicating whether the specific property passed into the function is currently set (TRUE) or not set (FALSE).
+The [**MsiGetMode**](/windows/win32/Msiquery/nf-msiquery-msigetmode?branch=master) function returns a Boolean TRUE or FALSE, indicating whether the specific property passed into the function is currently set (TRUE) or not set (FALSE).
 
 Note that not all the run mode values of *flag* are available when calling the **Mode** property from a deferred custom action. For more information, see [Obtaining Context Information for Deferred Execution Custom Actions](obtaining-context-information-for-deferred-execution-custom-actions.md).
 

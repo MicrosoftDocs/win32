@@ -1,14 +1,20 @@
 ---
 title: SKIN Element (deprecated)
 description: This page documents a feature that may be unavailable in future versions of Windows Media Player and the Windows Media Player SDK.
-ms.assetid: '593244c1-f850-46d7-8b84-14dcd59b024e'
-keywords: ["SKIN Element (deprecated) Windows Media Player"]
+ms.assetid: 593244c1-f850-46d7-8b84-14dcd59b024e
+keywords:
+- SKIN Element (deprecated) Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SKIN Element (deprecated)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SKIN Element (deprecated)
@@ -40,7 +46,7 @@ URL for a compressed border file with a file name extension .wmz. For Windows Me
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,9 +105,9 @@ Skins included with Windows Media Download Packages must be rectangular in shape
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

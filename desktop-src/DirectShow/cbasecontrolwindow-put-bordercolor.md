@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_BorderColor method changes the border color.'
-ms.assetid: 'bb19d338-7fd1-448c-be94-1c71d4a9a330'
-title: 'CBaseControlWindow.put\_BorderColor method'
+Description: The put\_BorderColor method changes the border color.
+ms.assetid: bb19d338-7fd1-448c-be94-1c71d4a9a330
+title: CBaseControlWindow.put\_BorderColor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_BorderColor method
@@ -13,7 +18,7 @@ The `put_BorderColor` method changes the border color.
 
 ```C++
 HRESULT put_BorderColor(
-   long Color
+   long Color
 );
 ```
 
@@ -56,9 +61,9 @@ An application can establish a destination rectangle in which the video should b
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

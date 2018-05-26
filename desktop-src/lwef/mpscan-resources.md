@@ -1,8 +1,10 @@
 ---
 title: MPSCAN\_RESOURCES structure
 description: Resource information passed during a scan operation.
-ms.assetid: 'D97712A6-547D-44CC-B55D-039A5CCE20BF'
-keywords: ["MPSCAN_RESOURCES structure Legacy Windows Environment Features", "PMPSCAN_RESOURCES structure pointer Legacy Windows Environment Features"]
+ms.assetid: D97712A6-547D-44CC-B55D-039A5CCE20BF
+keywords:
+- MPSCAN_RESOURCES structure Legacy Windows Environment Features
+- PMPSCAN_RESOURCES structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSCAN\_RESOURCES structure
@@ -22,7 +29,7 @@ Resource information passed during a scan operation.
 
 ```C++
 typedef struct tagMPSCAN_RESOURCES {
-  DWORD            dwResourceCount;
+  DWORD            dwResourceCount;
   PMPRESOURCE_INFO pResourceList;
 } MPSCAN_RESOURCES, *PMPSCAN_RESOURCES;
 ```
@@ -61,8 +68,8 @@ Array of resources. See [**MPRESOURCE\_INFO**](mpresource-info.md).
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -74,9 +81,9 @@ Array of resources. See [**MPRESOURCE\_INFO**](mpresource-info.md).
 [**MPRESOURCE\_INFO**](mpresource-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

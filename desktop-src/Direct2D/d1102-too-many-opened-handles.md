@@ -1,14 +1,20 @@
 ---
 title: D1102 Too Many Opened Handles
-ms.assetid: 'a7e52926-a4e6-4030-9e90-9df2b3e3edde'
+ms.assetid: a7e52926-a4e6-4030-9e90-9df2b3e3edde
 description: 
-keywords: ["D1102 Too Many Opened Handles Direct2D"]
+keywords:
+- D1102 Too Many Opened Handles Direct2D
 topic_type:
 - apiref
 api_name:
 - D1102 Too Many Opened Handles
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1102: Too Many Opened Handles

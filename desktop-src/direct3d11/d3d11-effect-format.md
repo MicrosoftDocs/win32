@@ -1,7 +1,12 @@
 ---
 title: Effect Format (Direct3D 11)
-ms.assetid: 'c425f57b-fc14-46a5-bb65-a0a2305bd406'
+ms.assetid: c425f57b-fc14-46a5-bb65-a0a2305bd406
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Format (Direct3D 11)
@@ -35,7 +40,7 @@ The definition of the effect binary format can be found in Binary\\EffectBinaryF
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -44,9 +49,9 @@ The definition of the effect binary format can be found in Binary\\EffectBinaryF
 [Effects 11 Reference](d3d11-graphics-reference-effects11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

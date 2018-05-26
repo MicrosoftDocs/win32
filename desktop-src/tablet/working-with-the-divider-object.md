@@ -1,14 +1,19 @@
 ---
-Description: 'The Divider object provides access to the Tablet PC layout analysis features.'
-ms.assetid: '9fa299fe-3713-4fa8-95c6-be15f144103a'
+Description: The Divider object provides access to the Tablet PC layout analysis features.
+ms.assetid: 9fa299fe-3713-4fa8-95c6-be15f144103a
 title: Working with the Divider Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with the Divider Object
 
 The [Divider](frlrfMicrosoftInkDividerClassTopic) object provides access to the Tablet PC layout analysis features.
 
-In managed code, the [Divider](frlrfMicrosoftInkDividerClassTopic) object can be instantiated by calling one of the [Divider](frlrfMicrosoftInkDividerClassctorTopic) constructors. In Automation, this is called the [**InkDivider**](inkdivider-class.md) object, and it can be instantiated by calling the [**CoCreateInstance**](com.cocreateinstance) method in C++.
+In managed code, the [Divider](frlrfMicrosoftInkDividerClassTopic) object can be instantiated by calling one of the [Divider](frlrfMicrosoftInkDividerClassctorTopic) constructors. In Automation, this is called the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object, and it can be instantiated by calling the [**CoCreateInstance**](com.cocreateinstance) method in C++.
 
 You can obtain a snapshot of the current analysis result by calling the [Divide](frlrfMicrosoftInkDividerClassDivideTopic) method of the [Divider](frlrfMicrosoftInkDividerClassTopic) object. The analysis result is returned in a [DivisionResult](frlrfMicrosoftInkDivisionResultClassTopic) object. Each time you call the Divide method, the Divider object creates a DivisionResult object. For more information about the DivisionResult object, see [Working with the DivisionResult Object](working-with-the-divisionresult-object.md).
 

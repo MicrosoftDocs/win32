@@ -4,11 +4,16 @@ description: This topic includes code examples used to move an object in the dom
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6a54543b-c6e7-486f-afd1-5380e8a8b727'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6a54543b-c6e7-486f-afd1-5380e8a8b727
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Moving an Object AD", "Active Directory examples Active Directory , moving an object"]
+keywords:
+- Example Code for Moving an Object AD
+- Active Directory examples Active Directory , moving an object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Moving an Object

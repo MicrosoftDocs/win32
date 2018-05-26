@@ -1,12 +1,17 @@
-﻿---
-Description: 'Holds the number of items in the IFaxAccounts collection.'
-ms.assetid: 'a8cf21bb-533c-473b-8468-d648bb323919'
-title: 'FaxAccounts.Count property'
+---
+Description: Holds the number of items in the IFaxAccounts collection.
+ms.assetid: a8cf21bb-533c-473b-8468-d648bb323919
+title: FaxAccounts.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccounts.Count property
 
-Holds the number of items in the [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) collection.
+Holds the number of items in the [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) collection.
 
 This property is read-only.
 
@@ -43,7 +48,7 @@ Pointer to the total number of accounts in the collection.
 [**FaxAccounts**](-mfax-faxaccounts.md)
 </dt> <dt>
 
-[**IFaxAccounts**](-mfax-faxaccounts-cpp.md)
+[**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master)
 </dt> </dl>
 
  

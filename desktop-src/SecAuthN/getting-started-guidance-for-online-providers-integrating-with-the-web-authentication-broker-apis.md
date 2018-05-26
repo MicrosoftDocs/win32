@@ -1,12 +1,17 @@
 ---
-Description: 'Guidelines for web developers and online providers to create web pages tailored for the Windows 8 Web Authentication Broker APIs for single sign-on (SSO) capabilities.'
-ms.assetid: 'E2AECE26-9649-41CB-9808-4F8171C707C3'
+Description: Guidelines for web developers and online providers to create web pages tailored for the Windows 8 Web Authentication Broker APIs for single sign-on (SSO) capabilities.
+ms.assetid: E2AECE26-9649-41CB-9808-4F8171C707C3
 title: Getting started guidance for online providers integrating with the Web Authentication Broker APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting started guidance for online providers integrating with the Web Authentication Broker APIs
 
-This section guides web developers and online providers for creating web pages tailored for the Windows 8 Web Authentication Broker APIs. It provides the visual and interactive recommendations for an end-to-end user experience of the web page as well as how to enable single sign-on (SSO) capabilities.
+This section guides web developers and online providers for creating web pages tailored for the Windows 8 Web Authentication Broker APIs. It provides the visual and interactive recommendations for an end-to-end user experience of the web page as well as how to enable single sign-on (SSO) capabilities.
 
 ## In this section
 
@@ -22,7 +27,7 @@ This section guides web developers and online providers for creating web pages t
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +42,9 @@ This section guides web developers and online providers for creating web pages t
 [**Windows.Security.Authentication.Web**](https://msdn.microsoft.com/library/windows/apps/br227044)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

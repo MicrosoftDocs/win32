@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BIDI\_RESPONSE\_DATA structure holds a single bidi response.'
-ms.assetid: '8e56ef0a-c652-4fca-ad87-4a0495c8de2e'
-title: 'BIDI\_RESPONSE\_DATA structure'
+---
+Description: The BIDI\_RESPONSE\_DATA structure holds a single bidi response.
+ms.assetid: 8e56ef0a-c652-4fca-ad87-4a0495c8de2e
+title: BIDI\_RESPONSE\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIDI\_RESPONSE\_DATA structure

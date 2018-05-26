@@ -1,7 +1,12 @@
 ---
-Description: 'On-media identifiers (OMIDs) are electronically recorded labels on each medium side in a Removable Storage Manager system.'
-ms.assetid: '751f0b93-33f2-4106-b99b-ea60f632b91b'
-title: 'On-media Identifiers'
+Description: On-media identifiers (OMIDs) are electronically recorded labels on each medium side in a Removable Storage Manager system.
+ms.assetid: 751f0b93-33f2-4106-b99b-ea60f632b91b
+title: On-media Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On-media Identifiers

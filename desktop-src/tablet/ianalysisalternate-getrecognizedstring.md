@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the recognized string value of the IAnalysisAlternate object.'
-ms.assetid: 'cdf41824-77a4-4c71-8712-f380a6cbf4c5'
-title: 'IAnalysisAlternate::GetRecognizedString method'
+Description: Gets the recognized string value of the IAnalysisAlternate object.
+ms.assetid: cdf41824-77a4-4c71-8712-f380a6cbf4c5
+title: IAnalysisAlternateGetRecognizedString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisAlternate::GetRecognizedString method
@@ -13,7 +18,7 @@ Gets the recognized string value of the [**IAnalysisAlternate**](ianalysisaltern
 
 ```C++
 HRESULT GetRecognizedString(
-  [out] BSTR *pbstrRecognizedString
+  [out] BSTR *pbstrRecognizedString
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -57,9 +62,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [**IInkAnalyzer::GetRecognizedString Method**](iinkanalyzer-getrecognizedstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

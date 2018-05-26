@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_EXPOSURE\_PROGRAM\_MODES enumeration type describes an exposure mode to use when capturing images with a device.'
-ms.assetid: '68b76294-6ad3-4f4a-bf02-bc31c9e8ac62'
-title: 'WPD\_EXPOSURE\_PROGRAM\_MODES enumeration'
+Description: The WPD\_EXPOSURE\_PROGRAM\_MODES enumeration type describes an exposure mode to use when capturing images with a device.
+ms.assetid: 68b76294-6ad3-4f4a-bf02-bc31c9e8ac62
+title: WPD\_EXPOSURE\_PROGRAM\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_EXPOSURE\_PROGRAM\_MODES enumeration
@@ -13,14 +18,14 @@ The **WPD\_EXPOSURE\_PROGRAM\_MODES** enumeration type describes an exposure mod
 
 ```C++
 typedef enum WPD_EXPOSURE_PROGRAM_MODES { 
-  WPD_EXPOSURE_PROGRAM_MODE_UNDEFINED          = 0,
-  WPD_EXPOSURE_PROGRAM_MODE_MANUAL             = 1,
-  WPD_EXPOSURE_PROGRAM_MODE_AUTO               = 2,
-  WPD_EXPOSURE_PROGRAM_MODE_APERTURE_PRIORITY  = 3,
-  WPD_EXPOSURE_PROGRAM_MODE_SHUTTER_PRIORITY   = 4,
-  WPD_EXPOSURE_PROGRAM_MODE_CREATIVE           = 5,
-  WPD_EXPOSURE_PROGRAM_MODE_ACTION             = 6,
-  WPD_EXPOSURE_PROGRAM_MODE_PORTRAIT           = 7
+  WPD_EXPOSURE_PROGRAM_MODE_UNDEFINED          = 0,
+  WPD_EXPOSURE_PROGRAM_MODE_MANUAL             = 1,
+  WPD_EXPOSURE_PROGRAM_MODE_AUTO               = 2,
+  WPD_EXPOSURE_PROGRAM_MODE_APERTURE_PRIORITY  = 3,
+  WPD_EXPOSURE_PROGRAM_MODE_SHUTTER_PRIORITY   = 4,
+  WPD_EXPOSURE_PROGRAM_MODE_CREATIVE           = 5,
+  WPD_EXPOSURE_PROGRAM_MODE_ACTION             = 6,
+  WPD_EXPOSURE_PROGRAM_MODE_PORTRAIT           = 7
 } ;
 ```
 
@@ -107,9 +112,9 @@ Indicates the exposure program mode of the device. This enumeration is used by t
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

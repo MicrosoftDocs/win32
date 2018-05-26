@@ -4,11 +4,14 @@ description: Updates a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f121d9ce-6aa3-45e3-b0ba-67b19c2f5665'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: f121d9ce-6aa3-45e3-b0ba-67b19c2f5665
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Put method Windows Remote Management", "Put method Windows Remote Management , Session object", "Session object Windows Remote Management , Put method"]
+keywords:
+- Put method Windows Remote Management
+- Put method Windows Remote Management , Session object
+- Session object Windows Remote Management , Put method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session.Put method
@@ -141,8 +147,8 @@ End Sub
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -157,9 +163,9 @@ End Sub
 [**Session**](session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

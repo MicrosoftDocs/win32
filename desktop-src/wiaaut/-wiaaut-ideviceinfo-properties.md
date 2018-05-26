@@ -1,8 +1,11 @@
 ---
 title: DeviceInfo.Properties property
 description: Retrieves a collection of all properties for this imaging device that are applicable when the device is not connected.
-ms.assetid: '1850fb8d-1f70-4b79-a0ac-c3f4aa159101'
-keywords: ["Properties property WIA Automation", "Properties property WIA Automation , DeviceInfo object", "DeviceInfo object WIA Automation , Properties property"]
+ms.assetid: 1850fb8d-1f70-4b79-a0ac-c3f4aa159101
+keywords:
+- Properties property WIA Automation
+- Properties property WIA Automation , DeviceInfo object
+- DeviceInfo object WIA Automation , Properties property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.Properties property
@@ -43,8 +51,8 @@ For example code, see [List all Available Devices by Name and DeviceID](-wiaaut-
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -75,9 +83,9 @@ For example code, see [List all Available Devices by Name and DeviceID](-wiaaut-
 [**Properties**](-wiaaut-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

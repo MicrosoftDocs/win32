@@ -1,7 +1,12 @@
 ---
 title: IdleOn Property
 description: IdleOn Property
-ms.assetid: 'ba436dec-c7b4-42e8-99d6-c6ff93afd73c'
+ms.assetid: ba436dec-c7b4-42e8-99d6-c6ff93afd73c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleOn Property
@@ -30,7 +35,7 @@ Returns or sets a Boolean value that determines whether the server manages the s
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -38,9 +43,9 @@ The server automatically sets a time-out after the last animation played for a c
 
 This property applies only to your client application's use of the character; the setting does not affect other clients of the character or other characters of your client application.
 
- 
+ 
 
- 
+ 
 
 
 

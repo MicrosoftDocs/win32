@@ -1,19 +1,24 @@
 ---
-Description: 'Occurs when one or more strokes are deleted from the InkStrokes collection.'
-ms.assetid: '58d78143-c733-45dc-ae5f-fe13136010db'
-title: 'InkStrokes.StrokesRemoved event'
+Description: Occurs when one or more strokes are deleted from the InkStrokes collection.
+ms.assetid: 58d78143-c733-45dc-ae5f-fe13136010db
+title: InkStrokes.StrokesRemoved event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkStrokes.StrokesRemoved event
 
-Occurs when one or more strokes are deleted from the [InkStrokes](inkstrokes-collection.md) collection.
+Occurs when one or more strokes are deleted from the [InkStrokes](/windows/win32/msinkaut/?branch=master) collection.
 
 ## Syntax
 
 
 ```C++
 void StrokesRemoved(
-  [in] VARIANT StrokeIds
+  [in] VARIANT StrokeIds
 );
 ```
 
@@ -26,7 +31,7 @@ void StrokesRemoved(
 *StrokeIds* \[in\]
 </dt> <dd>
 
-The integer array of identifiers for every [**IInkStrokeDisp**](iinkstrokedisp.md) object deleted when this event occurs.
+The integer array of identifiers for every [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object deleted when this event occurs.
 
 For more information about the VARIANT structure, see [Using the COM Library](using-the-com-library.md).
 
@@ -46,7 +51,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -57,18 +62,18 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 <dl> <dt>
 
-[InkStrokes Collection](inkstrokes-collection.md)
+[InkStrokes Collection](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**Remove Method \[InkStrokes Collection\]**](inkstrokes-remove.md)
+[**Remove Method \[InkStrokes Collection\]**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**InkDisp Class**](inkdisp-class.md)
+[**InkDisp Class**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

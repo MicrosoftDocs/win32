@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TRACE\_GUID\_PROPERTIES structure contains information about an event trace provider.'
-ms.assetid: '849f2d34-14e0-43e8-a735-d46e94671725'
-title: 'TRACE\_GUID\_PROPERTIES structure'
+---
+Description: The TRACE\_GUID\_PROPERTIES structure contains information about an event trace provider.
+ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
+title: TRACE\_GUID\_PROPERTIES structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRACE\_GUID\_PROPERTIES structure

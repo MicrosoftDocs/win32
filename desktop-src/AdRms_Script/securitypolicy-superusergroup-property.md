@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the super user group.'
+Description: Specifies or retrieves the super user group.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c7413108-1728-495d-ab11-90e8f66e771f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c7413108-1728-495d-ab11-90e8f66e771f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'SecurityPolicy.SuperUserGroup property'
+title: SecurityPolicy.SuperUserGroup property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SecurityPolicy.SuperUserGroup property
@@ -101,7 +104,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -113,9 +116,9 @@ END FUNCTION
 [**SecurityPolicy**](securitypolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

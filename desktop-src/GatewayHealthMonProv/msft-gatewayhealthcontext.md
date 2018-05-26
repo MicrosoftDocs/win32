@@ -4,13 +4,15 @@ description: Describes the health context for a gateway.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'daa0a974-0241-476b-9491-ceaa7190eb35'
-ms.prod: 'windows-server-dev'
+ms.assetid: daa0a974-0241-476b-9491-ceaa7190eb35
+ms.prod: windows-server-dev
 ms.technology:
-- 'gateway-health-monitor'
-- 'windows-management-instrumentation'
+- gateway-health-monitor
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_GatewayHealthContext class", "MSFT_GatewayHealthContext class, described"]
+keywords:
+- MSFT_GatewayHealthContext class
+- MSFT_GatewayHealthContext class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - GatewayHealthMonitorProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_GatewayHealthContext class
@@ -100,7 +105,7 @@ Gets the type of health context.
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\GatewayHealthMonitor<br/>                                     |
 | MOF<br/>                      | <dl> <dt>GatewayHealthMonitorProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>GatewayHealthMonitorProvider.dll</dt> </dl> |
@@ -114,9 +119,9 @@ Gets the type of health context.
 [**MSFT\_GatewayHealthEvent**](msft-gatewayhealthevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Each data object must support these four clipboard formats in its i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8e113c1b-1b03-45d7-af3a-172b5eb2dabf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8e113c1b-1b03-45d7-af3a-172b5eb2dabf
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["clipboard formats MMC 2.0"]
+keywords:
+- clipboard formats MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Clipboard Formats

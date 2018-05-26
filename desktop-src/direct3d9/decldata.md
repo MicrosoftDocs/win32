@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a vertex declaration.'
-ms.assetid: '6a95bdf6-8767-4ad3-bcec-b32858d25571'
+Description: Describes a vertex declaration.
+ms.assetid: 6a95bdf6-8767-4ad3-bcec-b32858d25571
 title: DeclData
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeclData

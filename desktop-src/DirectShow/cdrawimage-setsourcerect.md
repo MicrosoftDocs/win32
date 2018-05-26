@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSourceRect method sets the source rectangle.'
-ms.assetid: '982636fe-73ea-4f13-9f2b-7ae8df839ab1'
-title: 'CDrawImage.SetSourceRect method'
+Description: The SetSourceRect method sets the source rectangle.
+ms.assetid: 982636fe-73ea-4f13-9f2b-7ae8df839ab1
+title: CDrawImage.SetSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.SetSourceRect method
@@ -13,7 +18,7 @@ The `SetSourceRect` method sets the source rectangle.
 
 ```C++
 void SetSourceRect(
-   RECT *pSourceRect
+   RECT *pSourceRect
 );
 ```
 
@@ -36,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-The owning filter should call this method if the source rectangle changes; for example, in response to an [**IBasicVideo::SetSourcePosition**](ibasicvideo-setsourceposition.md) call.
+The owning filter should call this method if the source rectangle changes; for example, in response to an [**IBasicVideo::SetSourcePosition**](/windows/win32/Control/nf-control-ibasicvideo-setsourceposition?branch=master) call.
 
 Validate the rectangle given in *pSourceRect* before calling this method, to make sure it does not extend beyond the native video size.
 
@@ -58,9 +63,9 @@ Validate the rectangle given in *pSourceRect* before calling this method, to mak
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

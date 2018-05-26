@@ -1,7 +1,12 @@
 ---
 Description: Setting Properties for Multiple Objects
-ms.assetid: '0686ba54-4782-42a4-8fdb-2325fc8d8bc2'
+ms.assetid: 0686ba54-4782-42a4-8fdb-2325fc8d8bc2
 title: Setting Properties for Multiple Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Properties for Multiple Objects
@@ -12,9 +17,9 @@ Some device drivers support setting properties for multiple objects in a single 
 
 | Interface                                                                                      | Description                                                  |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)                             | Provides access to the content-specific methods.             |
-| [**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)                       | Provides access to the property-specific methods.            |
-| [**IPortableDevicePropertiesBulk Interface**](iportabledevicepropertiesbulk.md)               | Supports the bulk write operation.                           |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)                             | Provides access to the content-specific methods.             |
+| [**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)                       | Provides access to the property-specific methods.            |
+| [**IPortableDevicePropertiesBulk Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master)               | Supports the bulk write operation.                           |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used to store the object identifiers for the bulk operation. |
 | [**IPortableDeviceValuesCollection Interface**](iportabledevicevaluescollection.md)           | Used to identify the properties to be written.               |
 
@@ -102,7 +107,7 @@ if (SUCCEEDED(hr))
 
 
 
-After this, the sample creates an instance of the [**IPortableDevicePropertiesBulkCallback interface**](iportabledevicepropertiesbulk.md). The application will use the methods in this interface to track the progress of the asynchronous bulk-write operation.
+After this, the sample creates an instance of the [**IPortableDevicePropertiesBulkCallback interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master). The application will use the methods in this interface to track the progress of the asynchronous bulk-write operation.
 
 
 ```C++
@@ -243,7 +248,7 @@ if (SUCCEEDED(hr))
 
 Once the sample creates the **IPortableDeviceValuesCollection** object that contains the object identifier and name pairs, it can begin the asynchronous operation.
 
-The asynchronous write operation begins when the sample calls the [**IPortableDevicePropertiesBulk::QueueSetValuesByObjectList**](iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist.md) method. This method notifies the driver that a bulk operation is about to begin. After this, the sample calls the [**IPortableDeviceBulk::Start**](iportabledevicepropertiesbulk-start.md) method to begin actually writing the new name values.
+The asynchronous write operation begins when the sample calls the [**IPortableDevicePropertiesBulk::QueueSetValuesByObjectList**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist?branch=master) method. This method notifies the driver that a bulk operation is about to begin. After this, the sample calls the [**IPortableDeviceBulk::Start**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start?branch=master) method to begin actually writing the new name values.
 
 
 ```C++
@@ -308,16 +313,16 @@ Note that the sample waits an infinitely long period of time for the operation t
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
-[**IPortableDevicePropertiesBulk Interface**](iportabledevicepropertiesbulk.md)
+[**IPortableDevicePropertiesBulk Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

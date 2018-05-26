@@ -1,14 +1,20 @@
 ---
 title: KernelDebuggerWarn element
 description: If present then the results or behavior of this assessment may be adversely affected if the operating system is configured to support a kernel debugger.
-ms.assetid: '94914CBC-FE5D-4AA7-B0FC-26130FDDF8D0'
-keywords: ["KernelDebuggerWarn element Access Execution Engine"]
+ms.assetid: 94914CBC-FE5D-4AA7-B0FC-26130FDDF8D0
+keywords:
+- KernelDebuggerWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - KernelDebuggerWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KernelDebuggerWarn element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

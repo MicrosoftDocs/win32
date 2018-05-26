@@ -1,14 +1,20 @@
 ---
 title: InfoCenter Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '1a9cc513-5dd1-46d8-9409-16413695b4c8'
-keywords: ["InfoCenter Element Windows Media Player"]
+ms.assetid: 1a9cc513-5dd1-46d8-9409-16413695b4c8
+keywords:
+- InfoCenter Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - InfoCenter Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InfoCenter Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **InfoCenter** element specifies the URL of the webpage that Windows Media Player displays in the Info Center View feature of **Now Playing** when the online store is active.
 
@@ -48,7 +54,7 @@ URL for the webpage that Windows Media Player displays.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,7 +75,7 @@ The following table details the parameters sent with the URL request. Others may
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -94,9 +100,9 @@ The following table details the parameters sent with the URL request. Others may
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

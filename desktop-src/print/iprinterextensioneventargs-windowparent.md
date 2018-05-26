@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the handle of the parent window.'
-ms.assetid: '23B8E247-C521-4CBD-ABB3-9A10ECAFAE84'
-title: 'IPrinterExtensionEventArgs::WindowParent property'
+---
+Description: Gets the handle of the parent window.
+ms.assetid: 23B8E247-C521-4CBD-ABB3-9A10ECAFAE84
+title: IPrinterExtensionEventArgsWindowParent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::WindowParent property

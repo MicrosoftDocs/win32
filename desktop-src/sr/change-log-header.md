@@ -1,19 +1,26 @@
 ---
 title: CHANGE\_LOG\_HEADER structure
 description: The change log header.
-ms.assetid: '24fee9a5-b073-474f-afd5-d81f66399936'
-keywords: ["CHANGE_LOG_HEADER structure System Restore", "PCHANGE_LOG_HEADER structure pointer System Restore"]
+ms.assetid: 24fee9a5-b073-474f-afd5-d81f66399936
+keywords:
+- CHANGE_LOG_HEADER structure System Restore
+- PCHANGE_LOG_HEADER structure pointer System Restore
 topic_type:
 - apiref
 api_name:
 - CHANGE_LOG_HEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CHANGE\_LOG\_HEADER structure
 
-\[This information applies only to Windows XP with Service Pack 2 (SP2).\]
+\[This information applies only to Windows XP with Service Pack 2 (SP2).\]
 
 The change log header.
 
@@ -23,10 +30,10 @@ The change log header.
 ```C++
 typedef struct _CHANGE_LOG_HEADER {
   RECORD_HEADER RecordHeader;
-  DWORD         dwMagicNum;
-  DWORD         dwLogVersion;
+  DWORD         dwMagicNum;
+  DWORD         dwLogVersion;
   RECORD_HEADER DataHeader;
-  BYTE          byteData[1];
+  BYTE          byteData[1];
 } CHANGE_LOG_HEADER, *PCHANGE_LOG_HEADER;
 ```
 
@@ -81,15 +88,15 @@ This header is followed by a **DWORD** value that should be identical to the val
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                            |
-| End of client support<br/>    | Windows XP with SP2<br/>                       |
+| End of client support<br/>    | Windows XP with SP2<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

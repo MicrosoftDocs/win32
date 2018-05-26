@@ -1,13 +1,16 @@
 ---
-Description: 'Gets the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is returned as an instance of\_\_SecurityDescriptor.'
+Description: Gets the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is returned as an instance of\_\_SecurityDescriptor.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b031af45-9237-434d-91db-69222306c615'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b031af45-9237-434d-91db-69222306c615
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSecurityDescriptor method of the \_\_SystemSecurity class'
+title: GetSecurityDescriptor method of the \_\_SystemSecurity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the \_\_SystemSecurity class
@@ -19,7 +22,7 @@ The **GetSecurityDescriptor** method gets the security descriptor that controls 
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] __SystemSecurity Descriptor
+  [out] __SystemSecurity Descriptor
 );
 ```
 
@@ -38,7 +41,7 @@ The security descriptor associated with the WMI namespace.
 
 ## Return value
 
-Returns one of the values listed in the following list, or a different value to indicate an error. For more information, see [WMI Return Codes](wmi-return-codes.md) or [**WbemErrorEnum**](wbemerrorenum.md).
+Returns one of the values listed in the following list, or a different value to indicate an error. For more information, see [WMI Return Codes](wmi-return-codes.md) or [**WbemErrorEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemerrorenum?branch=master).
 
 <dl> <dt>
 
@@ -89,8 +92,8 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -105,9 +108,9 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

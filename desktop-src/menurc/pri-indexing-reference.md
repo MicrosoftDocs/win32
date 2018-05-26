@@ -1,7 +1,12 @@
 ---
 title: Package resource indexing (PRI) reference
 description: .
-ms.assetid: '15f41d83-d729-45e4-a6bb-5f8c6b78293c'
+ms.assetid: 15f41d83-d729-45e4-a6bb-5f8c6b78293c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package resource indexing (PRI) reference

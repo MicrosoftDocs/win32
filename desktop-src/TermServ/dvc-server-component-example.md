@@ -4,10 +4,13 @@ description: C++ code sample that shows how to create the server-side dynamic vi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '497d4ed3-8160-43d2-8f03-b2f2b7988dc3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 497d4ed3-8160-43d2-8f03-b2f2b7988dc3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DVC Server Module Example

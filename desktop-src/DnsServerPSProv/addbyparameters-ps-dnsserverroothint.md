@@ -2,13 +2,16 @@
 title: AddByParameters method of the PS\_DnsServerRootHint class
 description: Add a root hint to a DNS server based on the specified parameters.
 audience: developer
-ms.assetid: '147b5352-ce6c-40de-9b30-58a75b9a13e0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 147b5352-ce6c-40de-9b30-58a75b9a13e0
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByParameters method", "AddByParameters method, PS_DnsServerRootHint class", "PS_DnsServerRootHint class, AddByParameters method"]
+keywords:
+- AddByParameters method
+- AddByParameters method, PS_DnsServerRootHint class
+- PS_DnsServerRootHint class, AddByParameters method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByParameters method of the PS\_DnsServerRootHint class
@@ -28,11 +34,11 @@ Add a root hint to a DNS server based on the specified parameters.
 
 ```mof
 uint32 AddByParameters(
-  [in]  string            IPAddress[],
-  [in]  string            NameServer,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [out] DnsServerRootHint cmdletOutput
+  [in]  string            IPAddress[],
+  [in]  string            NameServer,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [out] DnsServerRootHint cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ On return, contains an embedded instance of the [**DnsServerRootHint**](dnsserve
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ On return, contains an embedded instance of the [**DnsServerRootHint**](dnsserve
 [**PS\_DnsServerRootHint**](ps-dnsserverroothint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

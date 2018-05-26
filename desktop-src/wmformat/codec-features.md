@@ -1,8 +1,16 @@
 ---
 title: Codec Features
 description: Codec Features
-ms.assetid: 'e0bbdf75-2369-4080-ae8e-aabaa8401dcf'
-keywords: ["Windows Media Format SDK,codec features", "Windows Media Format SDK,features", "codecs,features"]
+ms.assetid: e0bbdf75-2369-4080-ae8e-aabaa8401dcf
+keywords:
+- Windows Media Format SDK,codec features
+- Windows Media Format SDK,features
+- codecs,features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Codec Features

@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the display brightness of a computer monitor.'
-ms.assetid: '900cf5fd-6888-4f0b-8e0b-01eeaaeeeb8f'
+Description: Sets the display brightness of a computer monitor.
+ms.assetid: 900cf5fd-6888-4f0b-8e0b-01eeaaeeeb8f
 title: WmiSetBrightness method of the WmiMonitorBrightnessMethods class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiSetBrightness method of the WmiMonitorBrightnessMethods class
@@ -13,8 +18,8 @@ The **WmiSetBrightness** method sets the display brightness of a computer monito
 
 ```mof
 uint32 WmiSetBrightness(
-   uint32 Timeout,
-   uint8  Brightness
+   uint32 Timeout,
+   uint8  Brightness
 );
 ```
 
@@ -64,8 +69,8 @@ $myMonitor.wmisetbrightness($delay, $brightness)
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -82,9 +87,9 @@ $myMonitor.wmisetbrightness($delay, $brightness)
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

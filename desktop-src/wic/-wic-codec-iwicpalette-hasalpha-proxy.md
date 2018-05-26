@@ -1,20 +1,25 @@
 ---
-Description: 'Proxy function for the HasAlpha method.'
-ms.assetid: '8af9f588-ac22-40c4-8973-9636951cc9e6'
-title: 'IWICPalette\_HasAlpha\_Proxy function'
+Description: Proxy function for the HasAlpha method.
+ms.assetid: 8af9f588-ac22-40c4-8973-9636951cc9e6
+title: IWICPalette\_HasAlpha\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICPalette\_HasAlpha\_Proxy function
 
-Proxy function for the [**HasAlpha**](-wic-codec-iwicpalette-hasalpha.md) method.
+Proxy function for the [**HasAlpha**](/windows/win32/Wincodec/nf-wincodec-iwicpalette-hasalpha?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICPalette_HasAlpha_Proxy(
-  _In_  IWICPalette *THIS_PTR,
-  _Out_ BOOL        *pfHasAlpha
+  _In_  IWICPalette *THIS_PTR,
+  _Out_ BOOL        *pfHasAlpha
 );
 ```
 
@@ -27,9 +32,9 @@ HRESULT IWICPalette_HasAlpha_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICPalette**](-wic-codec-iwicpalette.md)\***
+Type: **[**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master)\***
 
-Pointer to this [**IWICPalette**](-wic-codec-iwicpalette.md) object.
+Pointer to this [**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master) object.
 
 </dd> <dt>
 
@@ -56,15 +61,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

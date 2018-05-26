@@ -1,8 +1,17 @@
 ---
 title: Text Editors
 description: Text Editors
-ms.assetid: '93e32ac4-f387-4e39-9375-5d1aeb9d2c4e'
-keywords: ["Windows Media Player Mobile skins,text editors", "skins,text editors", "skin definition files,text editors", "text editors in skin definition files"]
+ms.assetid: 93e32ac4-f387-4e39-9375-5d1aeb9d2c4e
+keywords:
+- Windows Media Player Mobile skins,text editors
+- skins,text editors
+- skin definition files,text editors
+- text editors in skin definition files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Editors

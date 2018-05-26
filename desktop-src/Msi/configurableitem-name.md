@@ -1,7 +1,12 @@
 ---
-Description: 'The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.'
-ms.assetid: 'c28f508f-0788-4b60-a383-65c508ceef5f'
-title: 'ConfigurableItem.Name property'
+Description: The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.
+ms.assetid: c28f508f-0788-4b60-a383-65c508ceef5f
+title: ConfigurableItem.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigurableItem.Name property
@@ -23,7 +28,7 @@ propVal = ConfigurableItem.Name
 
 ## C++
 
-See [**get\_Name**](imsmconfigurableitem-get-name.md) function.
+See [**get\_Name**](/windows/win32/Mergemod/nf-mergemod-imsmconfigurableitem-get_name?branch=master) function.
 
 ## Requirements
 
@@ -37,9 +42,9 @@ See [**get\_Name**](imsmconfigurableitem-get-name.md) function.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

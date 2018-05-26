@@ -1,21 +1,26 @@
 ---
-Description: 'The GetProtocolFromTable function returns a handle to a protocol&\#8212;based on a given handoff table and value.'
-ms.assetid: '34b07079-0b20-40d8-a529-4179ecc68ebf'
+Description: The GetProtocolFromTable function returns a handle to a protocol&\#8212;based on a given handoff table and value.
+ms.assetid: 34b07079-0b20-40d8-a529-4179ecc68ebf
 title: GetProtocolFromTable function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetProtocolFromTable function
 
-The **GetProtocolFromTable** function returns a handle to a protocol—based on a given handoff table and value.
+The **GetProtocolFromTable** function returns a handle to a protocol based on a given handoff table and value.
 
 ## Syntax
 
 
 ```C++
 HPROTOCOL WINAPI GetProtocolFromTable(
-  _In_  LPHANDOFFTABLE hTable,
-  _In_  DWORD          ItemToFind,
-  _Out_ PDWORD_PTR     lpInstData
+  _In_  LPHANDOFFTABLE hTable,
+  _In_  DWORD          ItemToFind,
+  _Out_ PDWORD_PTR     lpInstData
 );
 ```
 
@@ -54,7 +59,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 ## Remarks
 
-When implementing the [RecognizeFrame](recognizeframe.md) export function, the **GetProtocolFromTable** function is used to obtain a handle to the next protocol. The **GetProtocolFromTable** function is called to retrieve a handle from the next protocol—if the protocol identifies which protocol follows.
+When implementing the [RecognizeFrame](recognizeframe.md) export function, the **GetProtocolFromTable** function is used to obtain a handle to the next protocol. The **GetProtocolFromTable** function is called to retrieve a handle from the next protocol if the protocol identifies which protocol follows.
 
 **Instance data**
 
@@ -66,8 +71,8 @@ Instance data can be any data that is less than or equal to a DWORD\_PTR in leng
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -81,9 +86,9 @@ Instance data can be any data that is less than or equal to a DWORD\_PTR in leng
 [RecognizeFrame](recognizeframe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

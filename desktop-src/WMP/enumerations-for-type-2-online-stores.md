@@ -1,8 +1,17 @@
 ---
 title: Enumerations for Type 2 Online Stores
 description: Enumerations for Type 2 Online Stores
-ms.assetid: 'b4d27310-9902-4c46-a558-f46f19735ec7'
-keywords: ["Windows Media Player online stores,enumerations", "online stores,enumerations", "type 2 online stores,enumerations", "enumerations,type 2 online stores"]
+ms.assetid: b4d27310-9902-4c46-a558-f46f19735ec7
+keywords:
+- Windows Media Player online stores,enumerations
+- online stores,enumerations
+- type 2 online stores,enumerations
+- enumerations,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations for Type 2 Online Stores
@@ -18,7 +27,7 @@ The following enumeration type is available for online stores using C++ code.
 
 | Enumeration                                                    | Description                                         |
 |----------------------------------------------------------------|-----------------------------------------------------|
-| [WMPSubscriptionServiceEvent](wmpsubscriptionserviceevent.md) | Defines the types of service events that may occur. |
+| [WMPSubscriptionServiceEvent](/windows/win32/subscriptionservices/ne-subscriptionservices-wmpsubscriptionserviceevent?branch=master) | Defines the types of service events that may occur. |
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.insertItem
 description: The insertItem method inserts the specified text at the specified index in the list box control.
-ms.assetid: 'c45eb75e-074d-4f3f-bfdd-6c3cbbd71f54'
-keywords: ["LISTBOX.insertItem Windows Media Player"]
+ms.assetid: c45eb75e-074d-4f3f-bfdd-6c3cbbd71f54
+keywords:
+- LISTBOX.insertItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.insertItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.insertItem
@@ -62,9 +68,9 @@ When a line is inserted, the line indexes for the lines below the inserted line 
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The following code example retrieves the first 500 objects in the f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8f72b7b5-5d88-4ca4-9980-a81a69d93ffa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8f72b7b5-5d88-4ca4-9980-a81a69d93ffa
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Searching a Directory DSML"]
+keywords:
+- Searching a Directory DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching a Directory

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if the fax has a cover page.'
-ms.assetid: '6a40893f-beb3-4a79-b86e-c1a03768b458'
-title: 'FaxOutgoingMessage.HasCoverPage property'
+---
+Description: Indicates if the fax has a cover page.
+ms.assetid: 6a40893f-beb3-4a79-b86e-c1a03768b458
+title: FaxOutgoingMessage.HasCoverPage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.HasCoverPage property
@@ -48,7 +53,7 @@ Pointer to a flag indicating whether the outbound fax message has a cover page.
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md)
+[**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendFixedPage method sends a fixed page of an XPS document to the pipeline.'
-ms.assetid: 'ef11161d-5e73-44a8-b802-e3706b78950e'
-title: 'IXpsDocumentConsumer::SendFixedPage method'
+---
+Description: The SendFixedPage method sends a fixed page of an XPS document to the pipeline.
+ms.assetid: ef11161d-5e73-44a8-b802-e3706b78950e
+title: IXpsDocumentConsumerSendFixedPage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::SendFixedPage method

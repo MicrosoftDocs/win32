@@ -1,8 +1,14 @@
 ---
 title: Blend effect
 description: Use the blend effect to combine 2 images. This effect has 26 blend modes.
-ms.assetid: '39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE'
-keywords: ["blend effect"]
+ms.assetid: 39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE
+keywords:
+- blend effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Blend effect
@@ -42,7 +48,7 @@ Here is another example using the exclusion mode.
 
 
 
- 
+ 
 
 
 ```C++
@@ -70,7 +76,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Blend modes
 
@@ -180,7 +186,7 @@ Some of the blend modes require conversion to and from the hue, saturation, lumi
 </tr>
 <tr class="odd">
 <td>D2D1_BLEND_MODE_EXCLUSION</td>
-<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = F<sub>RGB</sub> + B<sub>RGB</sub> – 2 * F<sub>RGB</sub> * B<sub>RGB</sub></td>
+<td>Basic blend formulas with <em>f</em>(F<sub>RGB</sub>, B<sub>RGB</sub>) = F<sub>RGB</sub> + B<sub>RGB</sub>   2 * F<sub>RGB</sub> * B<sub>RGB</sub></td>
 </tr>
 <tr class="even">
 <td>D2D1_BLEND_MODE_HUE</td>
@@ -220,12 +226,12 @@ Some of the blend modes require conversion to and from the hue, saturation, lumi
 
 
 
- 
+ 
 
 > [!Note]  
 > For all Blend modes, the output value is premultiplied and clamped to the range \[0, 1\].
 
- 
+ 
 
 ## HSL color space conversions
 
@@ -291,25 +297,25 @@ For an example of this effect, download the [Direct2D composite effect modes sam
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

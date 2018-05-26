@@ -1,14 +1,20 @@
 ---
 title: MetadataPicture Object
 description: The MetadataPicture object provides a way to retrieve the values of the WM/Picture metadata attribute. This attribute corresponds to album art contained in a digital media file, not to album art downloaded over the Internet.
-ms.assetid: '522f6491-e84a-4cde-98db-e55742ed50a2'
-keywords: ["MetadataPicture Object Windows Media Player"]
+ms.assetid: 522f6491-e84a-4cde-98db-e55742ed50a2
+keywords:
+- MetadataPicture Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - MetadataPicture Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataPicture Object

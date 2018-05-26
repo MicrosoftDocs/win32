@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a service is a component of a parent service, which together, form a higher-level service.'
-ms.assetid: 'c629d59d-d9d3-4019-a378-cd1d4d31a5d9'
-title: 'CIM\_ServiceComponent class'
+Description: Represents an association in which a service is a component of a parent service, which together, form a higher-level service.
+ms.assetid: c629d59d-d9d3-4019-a378-cd1d4d31a5d9
+title: CIM\_ServiceComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ServiceComponent class
@@ -69,8 +74,8 @@ The component service.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The component service.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

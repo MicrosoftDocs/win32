@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the audio production information flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.'
-ms.assetid: '72f5f988-37c3-40d4-9c1c-07086e60ea51'
+Description: Specifies the audio production information flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+ms.assetid: 72f5f988-37c3-40d4-9c1c-07086e60ea51
 title: AVEncDDProductionInfoExists property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncDDProductionInfoExists property
@@ -28,8 +33,8 @@ If the value is **VARIANT\_TRUE**, the mixing level and room type settings are v
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ If the value is **VARIANT\_TRUE**, the mixing level and room type settings are v
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

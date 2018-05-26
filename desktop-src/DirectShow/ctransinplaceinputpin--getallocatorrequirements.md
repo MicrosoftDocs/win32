@@ -1,19 +1,24 @@
 ---
-Description: 'The GetAllocatorRequirements method retrieves the allocator properties requested by the pin. This method implements the IMemInputPin::GetAllocatorRequirements method.'
-ms.assetid: '1355facc-f863-44b2-9284-8f06f62d39a2'
-title: 'CTransInPlaceInputPin.GetAllocatorRequirements method'
+Description: The GetAllocatorRequirements method retrieves the allocator properties requested by the pin. This method implements the IMemInputPinGetAllocatorRequirements method.
+ms.assetid: 1355facc-f863-44b2-9284-8f06f62d39a2
+title: CTransInPlaceInputPin.GetAllocatorRequirements method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceInputPin.GetAllocatorRequirements method
 
-The `GetAllocatorRequirements` method retrieves the allocator properties requested by the pin. This method implements the [**IMemInputPin::GetAllocatorRequirements**](imeminputpin-getallocatorrequirements.md) method.
+The `GetAllocatorRequirements` method retrieves the allocator properties requested by the pin. This method implements the [**IMemInputPin::GetAllocatorRequirements**](/windows/win32/Strmif/nf-strmif-imeminputpin-getallocatorrequirements?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetAllocatorRequirements(
-   ALLOCATOR_PROPERTIES *pProps
+   ALLOCATOR_PROPERTIES *pProps
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetAllocatorRequirements(
 *pProps* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure, which is filled in with the requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure, which is filled in with the requirements.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ If the output pin is connected, this method passes the call to the downstream in
 [**CTransInPlaceInputPin Class**](ctransinplaceinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

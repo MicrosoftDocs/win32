@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create.'
-ms.assetid: '96ba0c27-d512-4bca-9053-a753434e461d'
-title: 'IPrintClassObjectFactory::GetPrintClassObject method'
+---
+Description: The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create.
+ms.assetid: 96ba0c27-d512-4bca-9053-a753434e461d
+title: IPrintClassObjectFactoryGetPrintClassObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintClassObjectFactory::GetPrintClassObject method

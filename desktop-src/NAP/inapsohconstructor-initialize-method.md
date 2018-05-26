@@ -1,8 +1,11 @@
 ---
 title: INapSoHConstructor Initialize method
 description: Initializes a SoH protocol packet in the NAP system.
-ms.assetid: '1678b677-c8c8-465c-a412-9b929e39bbac'
-keywords: ["Initialize method NAP", "Initialize method NAP , INapSoHConstructor interface", "INapSoHConstructor interface NAP , Initialize method"]
+ms.assetid: 1678b677-c8c8-465c-a412-9b929e39bbac
+keywords:
+- Initialize method NAP
+- Initialize method NAP , INapSoHConstructor interface
+- INapSoHConstructor interface NAP , Initialize method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHConstructor::Initialize method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSoHConstructor::Initialize** method initializes a SoH protocol packet in the NAP system.
 
@@ -27,8 +35,8 @@ The **INapSoHConstructor::Initialize** method initializes a SoH protocol packet 
 
 ```C++
 HRESULT Initialize(
-  [in] SystemHealthEntityId id,
-  [in] BOOL                 isRequest
+  [in] SystemHealthEntityId id,
+  [in] BOOL                 isRequest
 );
 ```
 
@@ -48,7 +56,7 @@ A unique [SystemHealthEntityId](nap-datatypes.md) that contains the ID of the SH
 *isRequest* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the packet is to be an [**SoHRequest**](soh-struct.md) and **FALSE** if it is to be an **SoHResponse**.
+A **BOOL** that is **TRUE** if the packet is to be an [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) and **FALSE** if it is to be an **SoHResponse**.
 
 </dd> </dl>
 
@@ -66,7 +74,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ The [SystemHealthEntityId](nap-datatypes.md) specified in *id*, is the first TLV
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -95,9 +103,9 @@ The [SystemHealthEntityId](nap-datatypes.md) specified in *id*, is the first TLV
 [**INapSoHConstructor**](inapsohconstructor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

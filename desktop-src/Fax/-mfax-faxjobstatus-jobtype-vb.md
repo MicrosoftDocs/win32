@@ -1,7 +1,12 @@
-﻿---
-Description: 'The JobType property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.'
-ms.assetid: '9d117f34-73c8-4505-81d0-f95e74821c43'
-title: 'FaxJobStatus.JobType property'
+---
+Description: The JobType property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.
+ms.assetid: 9d117f34-73c8-4505-81d0-f95e74821c43
+title: FaxJobStatus.JobType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.JobType property
@@ -21,7 +26,7 @@ Property JobType As Integer
 
 ## Property value
 
-A variable of type [**FAX\_JOB\_TYPE\_ENUM**](-mfax-fax-job-type-enum.md) that receives the job type. For more information, see **FAX\_JOB\_TYPE\_ENUM**.
+A variable of type [**FAX\_JOB\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_type_enum?branch=master) that receives the job type. For more information, see **FAX\_JOB\_TYPE\_ENUM**.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**FAX\_JOB\_TYPE\_ENUM**](-mfax-fax-job-type-enum.md) that r
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

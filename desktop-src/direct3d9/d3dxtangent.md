@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines settings used for mesh tangent frame computations.'
-ms.assetid: 'b525b4cc-9a2d-4569-bae8-7cc7f7832cbc'
+---
+Description: Defines settings used for mesh tangent frame computations.
+ms.assetid: b525b4cc-9a2d-4569-bae8-7cc7f7832cbc
 title: D3DXTANGENT enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXTANGENT enumeration

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs tangent frame computations on a mesh. Tangent, binormal, and optionally normal vectors are generated. Singularities are handled as required by grouping edges and splitting vertices.'
-ms.assetid: '15cc46bc-6db6-4e1d-a95e-cd60d2666600'
+---
+Description: Performs tangent frame computations on a mesh. Tangent, binormal, and optionally normal vectors are generated. Singularities are handled as required by grouping edges and splitting vertices.
+ms.assetid: 15cc46bc-6db6-4e1d-a95e-cd60d2666600
 title: D3DXComputeTangentFrameEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeTangentFrameEx function

@@ -4,11 +4,16 @@ description: To set the account expiration date, set the IADsUser.AccountExpirat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd0b90bb3-ad7c-4394-956d-061a915f210d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d0b90bb3-ad7c-4394-956d-061a915f210d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Account Expiration ADSI ,LDAP provider", "LDAP provider ADSI ,user management examples,Account Expiration"]
+keywords:
+- Account Expiration ADSI ,LDAP provider
+- LDAP provider ADSI ,user management examples,Account Expiration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account Expiration (LDAP Provider)

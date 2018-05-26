@@ -1,8 +1,10 @@
 ---
 title: MDM\_WirelessProfile class
 description: Represents wireless profiles on the device.
-ms.assetid: '6c0f48d9-4c89-4fd6-8150-dc76cd4b8a7b'
-keywords: ["MDM_WirelessProfile class MDM Settings", "MDM_WirelessProfile class MDM Settings , described"]
+ms.assetid: 6c0f48d9-4c89-4fd6-8150-dc76cd4b8a7b
+keywords:
+- MDM_WirelessProfile class MDM Settings
+- MDM_WirelessProfile class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WirelessProfile class
@@ -50,31 +57,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [InPartition("local-user"), dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_WirelessProfile
 {
-  string  Name;
-  string  SSID;
+  string  Name;
+  string  SSID;
   boolean ConnectWhenNotBroadcasting;
   boolean AutoConnect;
-  uint8   ConnectionType;
+  uint8   ConnectionType;
   boolean ConnectToMorePreferedNetwork;
-  uint8   SecurityAuthentication;
-  uint8   SecurityEncryption;
+  uint8   SecurityAuthentication;
+  uint8   SecurityEncryption;
   boolean PMKCacheMode;
-  uint32  PMKCacheSize;
-  uint32  PMKCacheTTL;
+  uint32  PMKCacheSize;
+  uint32  PMKCacheTTL;
   boolean PreAuthMode;
-  uint32  PreAuthThrottle;
+  uint32  PreAuthThrottle;
   boolean EnableFIPSCompliance;
-  uint8   SharedKeyType;
-  string  SharedKeyMaterial;
+  uint8   SharedKeyType;
+  string  SharedKeyMaterial;
   boolean SharedKeyProtected;
   boolean OneXCacheUserData;
-  uint8   OneXAuthenticationMode;
-  uint8   OneXSingleSignOnType;
-  uint32  OneXSingleSignOnMaxDelay;
+  uint8   OneXAuthenticationMode;
+  uint8   OneXSingleSignOnType;
+  uint32  OneXSingleSignOnMaxDelay;
   boolean OneXSingleSignOnAllowAdditionalDialogs;
   boolean OneXSingleSignOnUserBasedVirtualLAN;
-  uint8   OneXEAPType;
-  string  OneXEAPXml;
+  uint8   OneXEAPType;
+  string  OneXEAPXml;
 };
 ```
 
@@ -639,7 +646,7 @@ The service set identifier (SSID) for the wireless LAN.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -654,9 +661,9 @@ The service set identifier (SSID) for the wireless LAN.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

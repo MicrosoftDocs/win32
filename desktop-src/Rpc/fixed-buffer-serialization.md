@@ -1,7 +1,12 @@
 ---
 title: Fixed Buffer Serialization
 description: Fixed buffer serialization.
-ms.assetid: '3432f468-89f2-48e2-8d86-15ba549f0fc7'
+ms.assetid: 3432f468-89f2-48e2-8d86-15ba549f0fc7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fixed Buffer Serialization
@@ -10,14 +15,14 @@ When using the fixed buffer style, specify a buffer that is large enough to acco
 
 The fixed buffer style of serialization uses the following routines:
 
--   [**MesEncodeFixedBufferHandleCreate**](mesencodefixedbufferhandlecreate.md)
--   [**MesDecodeBufferHandleCreate**](mesdecodebufferhandlecreate.md)
--   [**MesBufferHandleReset**](mesbufferhandlereset.md)
--   [**MesHandleFree**](meshandlefree.md)
+-   [**MesEncodeFixedBufferHandleCreate**](/windows/win32/Midles/nf-midles-mesencodefixedbufferhandlecreate?branch=master)
+-   [**MesDecodeBufferHandleCreate**](/windows/win32/Midles/nf-midles-mesdecodebufferhandlecreate?branch=master)
+-   [**MesBufferHandleReset**](/windows/win32/Midles/nf-midles-mesbufferhandlereset?branch=master)
+-   [**MesHandleFree**](/windows/win32/Midles/nf-midles-meshandlefree?branch=master)
 
-The **MesEncodeFixedBufferHandleCreate** function allocates the memory needed for the encoding handle, and then initializes it. The application can call [**MesBufferHandleReset**](mesbufferhandlereset.md) to reinitialize the handle, or it can call [**MesHandleFree**](meshandlefree.md) to free the handle's memory. To create a decoding handle corresponding to the fixed style–encoding handle, you must use [**MesDecodeBufferHandleCreate**](mesdecodebufferhandlecreate.md).
+The **MesEncodeFixedBufferHandleCreate** function allocates the memory needed for the encoding handle, and then initializes it. The application can call [**MesBufferHandleReset**](/windows/win32/Midles/nf-midles-mesbufferhandlereset?branch=master) to reinitialize the handle, or it can call [**MesHandleFree**](/windows/win32/Midles/nf-midles-meshandlefree?branch=master) to free the handle's memory. To create a decoding handle corresponding to the fixed style–encoding handle, you must use [**MesDecodeBufferHandleCreate**](/windows/win32/Midles/nf-midles-mesdecodebufferhandlecreate?branch=master).
 
-The application calls [**MesHandleFree**](meshandlefree.md) to free the encoding or decoding buffer handle.
+The application calls [**MesHandleFree**](/windows/win32/Midles/nf-midles-meshandlefree?branch=master) to free the encoding or decoding buffer handle.
 
 ## Examples of Fixed Buffer Encoding
 

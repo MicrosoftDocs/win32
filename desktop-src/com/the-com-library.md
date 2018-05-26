@@ -1,7 +1,12 @@
 ---
 title: The COM Library
 description: The COM Library
-ms.assetid: '51d4db4a-ad88-4627-8140-2f7906945752'
+ms.assetid: 51d4db4a-ad88-4627-8140-2f7906945752
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The COM Library
@@ -16,13 +21,13 @@ Any process that uses COM must both initialize and uninitialize the COM library.
 
 -   A standard mechanism to allow an application to control how memory is allocated within its process, particularly memory that needs to be passed between cooperating objects so that it can be freed properly.
 
-To use basic COM services, all COM threads of execution in clients and out-of-process servers must call either the [**CoInitialize**](coinitialize.md) or the [**CoInitializeEx**](coinitializeex.md) function before calling any other COM function except memory allocation calls. **CoInitializeEx** replaces the other function, adding a parameter that allows you to specify the threading model of the threadâ€”either apartment-threaded or free-threaded. A call to **CoInitialize** simply sets the threading model to apartment-threaded.
+To use basic COM services, all COM threads of execution in clients and out-of-process servers must call either the [**CoInitialize**](/windows/win32/Objbase/nf-objbase-coinitialize?branch=master) or the [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master) function before calling any other COM function except memory allocation calls. **CoInitializeEx** replaces the other function, adding a parameter that allows you to specify the threading model of the threadâ€”either apartment-threaded or free-threaded. A call to **CoInitialize** simply sets the threading model to apartment-threaded.
 
-OLE compound document applications call the [**OleInitialize**](oleinitialize.md) function, which calls [**CoInitializeEx**](coinitializeex.md) and also does some initialization required for compound documents. Therefore, threads that call **OleInitialize** cannot be free-threaded. For information on threading in clients and servers, see [Processes, Threads, and Apartments](processes--threads--and-apartments.md).
+OLE compound document applications call the [**OleInitialize**](/windows/win32/Ole2/nf-ole2-oleinitialize?branch=master) function, which calls [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master) and also does some initialization required for compound documents. Therefore, threads that call **OleInitialize** cannot be free-threaded. For information on threading in clients and servers, see [Processes, Threads, and Apartments](processes--threads--and-apartments.md).
 
 In-process servers do not call the initialization functions because they are being loaded into a process that has already done so. As a result, in-process servers must set their threading model in the registry under the [InprocServer32](inprocserver32.md) key. For detailed information on threading issues in in-process servers, see [In-Process Server Threading Issues](in-process-server-threading-issues.md).
 
-It is also important to uninitialize the library. For each call to [**CoInitialize**](coinitialize.md) or [**CoInitializeEx**](coinitializeex.md), there must be a corresponding call to [**CoUninitialize**](couninitialize.md). For each call to [**OleInitialize**](oleinitialize.md), there must be a corresponding call to [**OleUninitialize**](oleuninitialize.md).
+It is also important to uninitialize the library. For each call to [**CoInitialize**](/windows/win32/Objbase/nf-objbase-coinitialize?branch=master) or [**CoInitializeEx**](/windows/win32/combaseapi/nf-combaseapi-coinitializeex?branch=master), there must be a corresponding call to [**CoUninitialize**](/windows/win32/combaseapi/nf-combaseapi-couninitialize?branch=master). For each call to [**OleInitialize**](/windows/win32/Ole2/nf-ole2-oleinitialize?branch=master), there must be a corresponding call to [**OleUninitialize**](/windows/win32/Ole2/nf-ole2-oleuninitialize?branch=master).
 
 In-process servers can assume that the process they are being loaded into has already performed these steps.
 

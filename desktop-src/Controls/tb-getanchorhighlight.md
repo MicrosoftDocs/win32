@@ -1,8 +1,9 @@
 ---
 title: TB\_GETANCHORHIGHLIGHT message
 description: Retrieves the anchor highlight setting for a toolbar.
-ms.assetid: '167d481c-8684-40eb-9323-cfa238be3643'
-keywords: ["TB_GETANCHORHIGHLIGHT message Windows Controls"]
+ms.assetid: 167d481c-8684-40eb-9323-cfa238be3643
+keywords:
+- TB_GETANCHORHIGHLIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETANCHORHIGHLIGHT message
@@ -37,8 +43,8 @@ Returns a Boolean value that indicates if anchor highlighting is set. If this va
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a Boolean value that indicates if anchor highlighting is set. If this va
 [**TB\_SETANCHORHIGHLIGHT**](tb-setanchorhighlight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

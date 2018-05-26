@@ -1,14 +1,20 @@
 ---
 title: Description element
 description: Describes a manifest or metric.
-ms.assetid: '80EAEB04-EAD8-44EB-8040-F5A7695B8A5D'
-keywords: ["Description element Access Execution Engine"]
+ms.assetid: 80EAEB04-EAD8-44EB-8040-F5A7695B8A5D
+keywords:
+- Description element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Description
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description element
@@ -95,9 +101,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

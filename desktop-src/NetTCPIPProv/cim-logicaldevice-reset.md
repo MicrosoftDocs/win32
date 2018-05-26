@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a reset of the LogicalDevice.'
-ms.assetid: '809d81b7-d646-485f-a9c4-90957fa9546d'
-title: 'Reset method of the CIM\_LogicalDevice class'
+Description: Requests a reset of the LogicalDevice.
+ms.assetid: 809d81b7-d646-485f-a9c4-90957fa9546d
+title: Reset method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the CIM\_LogicalDevice class
@@ -31,8 +36,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Webhost.h</dt> </dl>    |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
@@ -47,9 +52,9 @@ TBD
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

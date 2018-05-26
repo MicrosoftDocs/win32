@@ -1,14 +1,20 @@
 ---
 title: CountType Simple Type
 description: Defines a count type that is used to specify the number of elements in an array.
-ms.assetid: '84f819d7-5c42-475b-9144-aaa5e2d215c8'
-keywords: ["CountType simple type EventLog"]
+ms.assetid: 84f819d7-5c42-475b-9144-aaa5e2d215c8
+keywords:
+- CountType simple type EventLog
 topic_type:
 - apiref
 api_name:
 - CountType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CountType Simple Type
@@ -29,14 +35,14 @@ Defines a count type that is used to specify the number of elements in an array.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

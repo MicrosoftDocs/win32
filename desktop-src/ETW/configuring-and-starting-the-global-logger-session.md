@@ -1,7 +1,12 @@
 ---
-Description: 'The Global Logger event tracing session records events that occur early in the operating system boot process.'
-ms.assetid: '1462bbef-ef32-4053-9930-5b4a0ab46b47'
+Description: The Global Logger event tracing session records events that occur early in the operating system boot process.
+ms.assetid: 1462bbef-ef32-4053-9930-5b4a0ab46b47
 title: Configuring and Starting the Global Logger Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring and Starting the Global Logger Session
@@ -9,18 +14,18 @@ title: Configuring and Starting the Global Logger Session
 The Global Logger event tracing session records events that occur early in the operating system boot process. Applications and device drivers can use the Global Logger session to capture traces before the user logs in. Note that some device drivers, such as disk device drivers, are not loaded at the time the Global Logger session begins.
 
 > [!Note]  
-> If you are creating a Global Logger session on Windows Vista, you should consider creating an [AutoLogger session](configuring-and-starting-an-autologger-session.md) instead.
+> If you are creating a Global Logger session on Windows Vista, you should consider creating an [AutoLogger session](configuring-and-starting-an-autologger-session.md) instead.
 
- 
+ 
 
 You use the registry to configure the Global Logger session. Add the **GlobalLogger** key to the following registry key, if it is not already present:
 
 ```
 HKEY_LOCAL_MACHINE
-   \SYSTEM
-      \CurrentControlSet
-         \Control
-            \WMI
+   \SYSTEM
+      \CurrentControlSet
+         \Control
+            \WMI
 ```
 
 The following table describes the values that you can define for the **GlobalLogger** key. You must have administrator privileges to specify these registry values. The registry values affect all providers that log events to the Global Logger session. The **Start** value is the only value required to start the Global Logger session; all other values have default settings that are used if the value is not present in the registry. Typically, you should use the default values. If you specify a value that ETW cannot support, ETW will override the value.
@@ -60,7 +65,7 @@ The following table describes the values that you can define for the **GlobalLog
 <li>2 = System timer</li>
 <li>3 = CPU cycle counter</li>
 </ul>
-For a description of each clock type, see the <strong>ClientContext</strong> member of [<strong>WNODE_HEADER</strong>](wnode-header.md).<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
+For a description of each clock type, see the <strong>ClientContext</strong> member of [<strong>WNODE_HEADER</strong>](wnode-header.md).<br/> The default value is 1 (performance counter value) on Windows Vista and later. Prior to Windows Vista, the default value is 2 (system timer).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>EnableKernelFlags</strong></td>
@@ -80,7 +85,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>Fully qualified path of the log file. The path to this file must exist. The log file is a sequential log file. Note that all providers writing events to the Global Logger session write events to this log file. The path is limited to 1024 characters.If <strong>FileName</strong> is not specified, events are written to %SystemRoot%\System32\LogFiles\WMI\GlobalLogger.etl. <strong>Prior to Windows Vista:</strong> The default file is %SystemRoot%\System32\LogFiles\WMI\Trace.log.<br/> <br/></td>
+<td>Fully qualified path of the log file. The path to this file must exist. The log file is a sequential log file. Note that all providers writing events to the Global Logger session write events to this log file. The path is limited to 1024 characters.If <strong>FileName</strong> is not specified, events are written to %SystemRoot%\System32\LogFiles\WMI\GlobalLogger.etl. <strong>Prior to Windows Vista:</strong> The default file is %SystemRoot%\System32\LogFiles\WMI\Trace.log.<br/> <br/></td>
 </tr>
 <tr class="even">
 <td><strong>FlushTimer</strong></td>
@@ -90,7 +95,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 <tr class="odd">
 <td><strong>LogFileMode</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Specifies log session options. For values, see [Logging Mode Constants](logging-mode-constants.md). This values is supported on Windows Vista and later. <br/></td>
+<td>Specifies log session options. For values, see [Logging Mode Constants](logging-mode-constants.md). This values is supported on Windows Vista and later. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>MaximumBuffers</strong></td>
@@ -117,7 +122,7 @@ For a description of each clock type, see the <strong>ClientContext</strong> mem
 
 
 
- 
+ 
 
 After the registry has been modified and the computer restarted, the Global Logger session starts automatically and is used like any other session with one exception: You use the WMI\_GLOBAL\_LOGGER\_ID constant handle (defined in Wmistr.h) to reference the Global Logger session. This constant may be used as an argument to any event tracing function that accepts a session handle. In functions that accept a session name, use GLOBAL\_LOGGER\_NAME.
 
@@ -135,9 +140,9 @@ For details on starting a private logger session, see [Configuring and Starting 
 
 For details on starting an NT Kernel Logger session, see [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md).
 
- 
+ 
 
- 
+ 
 
 
 

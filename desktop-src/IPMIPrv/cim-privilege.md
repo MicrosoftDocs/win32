@@ -4,13 +4,15 @@ description: The base class for all types of activities which are granted or den
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7c15f69d-e14e-4eac-acd8-3014dab7d8a6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7c15f69d-e14e-4eac-acd8-3014dab7d8a6
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Privilege class", "CIM_Privilege class, described"]
+keywords:
+- CIM_Privilege class
+- CIM_Privilege class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Privilege class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.0"), AMENDMENT]
 class CIM_Privilege : CIM_ManagedElement
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean PrivilegeGranted = TRUE;
-  uint16  Activities[];
-  string  ActivityQualifiers[];
-  uint16  QualifierFormats[];
+  uint16  Activities[];
+  string  ActivityQualifiers[];
+  uint16  QualifierFormats[];
 };
 ```
 
@@ -136,14 +141,14 @@ An enumeration indicating the activities that are granted or denied. These activ
 **DMTF Reserved**
 
 
-</dt> <dd>8–15999</dd> <dt>
+</dt> <dd>8 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -384,8 +389,8 @@ If the authorization target is a compute system or service, then the **ActivityQ
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -399,9 +404,9 @@ If the authorization target is a compute system or service, then the **ActivityQ
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

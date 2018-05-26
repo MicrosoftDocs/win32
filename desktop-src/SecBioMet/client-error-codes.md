@@ -1,7 +1,7 @@
 ---
 title: Client Error Codes
 description: Error codes defined in the Winbio\_err.h header file.
-ms.assetid: 'fc1565d2-43f1-45cd-ab84-4e557cf78107'
+ms.assetid: fc1565d2-43f1-45cd-ab84-4e557cf78107
 topic_type:
 - apiref
 api_name:
@@ -64,6 +64,11 @@ api_location:
 - Winbio_err.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Error Codes
@@ -138,8 +143,8 @@ The following error codes are defined in the Winbio\_err.h header file.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Winbio\_err.h</dt> </dl> |
 
 
@@ -151,9 +156,9 @@ The following error codes are defined in the Winbio\_err.h header file.
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

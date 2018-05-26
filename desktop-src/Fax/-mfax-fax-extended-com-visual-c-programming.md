@@ -1,7 +1,12 @@
 ---
-Description: 'It is easier for programmers to work with Component Object Model (COM) in certain programming languages than others.'
-ms.assetid: 'c918d635-d52c-4ea3-95d6-aa5c9afdbd91'
+Description: It is easier for programmers to work with Component Object Model (COM) in certain programming languages than others.
+ms.assetid: c918d635-d52c-4ea3-95d6-aa5c9afdbd91
 title: Fax Extended COM Visual C++ Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Extended COM Visual C++ Programming
@@ -56,7 +61,7 @@ The **\_\_declspec(property...)** compiler directive declares the **Item** prope
 
 *collectionPtr*-&gt;Item\[index\];
 
-For example, change the [**RingsBeforeAnswer**](-mfax-faxdevice-cpp-mfax-faxdevice-ringsbeforeanswer-cpp.md) property of the third device from a collection of devices. Use the **Item()** property to access the third device. This can be expressed in Visual Basic in the following four ways (the last two forms are unique to Visual Basic; other languages do not have equivalents):
+For example, change the [**RingsBeforeAnswer**](/windows/previous-versions/FaxComex/?branch=master) property of the third device from a collection of devices. Use the **Item()** property to access the third device. This can be expressed in Visual Basic in the following four ways (the last two forms are unique to Visual Basic; other languages do not have equivalents):
 
 
 ```
@@ -78,7 +83,7 @@ objFaxDevices->GetItem("My Device Name")->PutRingsBeforeAnswer (5)
 
 
 
--or- (the alternative syntax for the [**RingsBeforeAnswer**](-mfax-faxdevice-cpp-mfax-faxdevice-ringsbeforeanswer-cpp.md) property is also shown)
+-or- (the alternative syntax for the [**RingsBeforeAnswer**](/windows/previous-versions/FaxComex/?branch=master) property is also shown)
 
 
 ```
@@ -128,11 +133,11 @@ A **SAFEARRAY** is a structured data type that contains an array of other data t
 
 When the fax API reference specifies that a method or property takes or returns an array, it means the method or property takes or returns a **SAFEARRAY**, not a native C/C++ array.
 
-For an example, see [**IFaxDeviceProvider::get\_DeviceIds**](-mfax-faxdeviceprovider-cpp-mfax-faxdeviceprovider-deviceids-cpp.md).
+For an example, see [**IFaxDeviceProvider::get\_DeviceIds**](/windows/previous-versions/FaxComex/?branch=master).
 
 ## Missing and Default Parameters
 
-Visual Basic allows missing parameters in methods. For example, the [**FaxRecipients**](-mfax-faxrecipients.md) object [**Add**](-mfax-faxrecipients-cpp-mfax-faxrecipients-add-cpp.md) method has two parameters, but you can omit the second parameter (the recipient name). A default **BSTR** or long will be substituted depending on the data type of the missing operand.
+Visual Basic allows missing parameters in methods. For example, the [**FaxRecipients**](-mfax-faxrecipients.md) object [**Add**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxrecipients-add?branch=master) method has two parameters, but you can omit the second parameter (the recipient name). A default **BSTR** or long will be substituted depending on the data type of the missing operand.
 
 In C/C++, all operands must be specified. If you want to specify a missing parameter whose data type is a string, specify a **\_bstr\_t** containing a null string. If you want to specify a missing parameter whose data type is a **VARIANT**, specify a **\_variant\_t** with a value of DISP\_E\_PARAMNOTFOUND and a type of VT\_ERROR. Alternatively, specify the equivalent **\_variant\_t** constant, **vtMissing**, which is supplied by the [\#import](http://msdn.microsoft.com/library/en-us/vclang/html/_predir_The_.23.import_Directive.asp) directive.
 

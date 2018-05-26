@@ -1,7 +1,12 @@
 ---
 title: Creating an Object Through a Class Object
 description: Creating an Object Through a Class Object
-ms.assetid: 'cecf21b0-e509-425f-8dd6-ca6b1ac04f5e'
+ms.assetid: cecf21b0-e509-425f-8dd6-ca6b1ac04f5e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Object Through a Class Object

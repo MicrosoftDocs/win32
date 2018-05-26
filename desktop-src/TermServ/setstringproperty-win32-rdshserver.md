@@ -4,11 +4,14 @@ description: Updates a string property value of a Win32\_RDSHServer object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9a338872-27fc-4e37-afd6-20a42c7859e5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9a338872-27fc-4e37-afd6-20a42c7859e5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetStringProperty method Remote Desktop Services", "SetStringProperty method Remote Desktop Services , Win32_RDSHServer class", "Win32_RDSHServer class Remote Desktop Services , SetStringProperty method"]
+keywords:
+- SetStringProperty method Remote Desktop Services
+- SetStringProperty method Remote Desktop Services , Win32_RDSHServer class
+- Win32_RDSHServer class Remote Desktop Services , SetStringProperty method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetStringProperty method of the Win32\_RDSHServer class
@@ -28,8 +34,8 @@ Updates a string property value of a [**Win32\_RDSHServer**](win32-rdshserver.md
 
 ```mof
 uint32 SetStringProperty(
-  [in] string Key,
-  [in] string Value
+  [in] string Key,
+  [in] string Value
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Certenroll.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
@@ -79,9 +85,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDSHServer**](win32-rdshserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

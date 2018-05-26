@@ -4,17 +4,22 @@ description: PKI - Certificate Templates.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7bfbd69c-7e8e-44b4-96c8-6ffa71d33ff4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7bfbd69c-7e8e-44b4-96c8-6ffa71d33ff4
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Enrollment-Providers attribute AD Schema", "enrollmentProviders attribute AD Schema"]
+keywords:
+- Enrollment-Providers attribute AD Schema
+- enrollmentProviders attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Enrollment-Providers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enrollment-Providers attribute
@@ -38,12 +43,12 @@ PKI - Certificate Templates.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ PKI - Certificate Templates.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

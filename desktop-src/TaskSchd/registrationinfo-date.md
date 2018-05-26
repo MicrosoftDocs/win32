@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo.Date property
 description: For scripting, gets or sets the date and time when the task is registered.
-ms.assetid: 'b9a41413-954f-447c-8fce-f99c81fec40a'
-keywords: ["Date property Task Scheduler", "Date property Task Scheduler , RegistrationInfo object", "RegistrationInfo object Task Scheduler , Date property"]
+ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
+keywords:
+- Date property Task Scheduler
+- Date property Task Scheduler , RegistrationInfo object
+- RegistrationInfo object Task Scheduler , Date property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo.Date property
@@ -40,8 +48,8 @@ When reading or writing XML for a task, the registration date is specified using
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -54,9 +62,9 @@ When reading or writing XML for a task, the registration date is specified using
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: SETTINGS Element
 description: SETTINGS Element
-ms.assetid: '521f1c95-7904-4085-a8bc-5399d667dfb1'
-keywords: ["Windows Media Player skins,SETTINGS element", "skins,SETTINGS element", "SETTINGS element", "reference for skins,SETTINGS element", "elements,SETTINGS"]
+ms.assetid: 521f1c95-7904-4085-a8bc-5399d667dfb1
+keywords:
+- Windows Media Player skins,SETTINGS element
+- skins,SETTINGS element
+- SETTINGS element
+- reference for skins,SETTINGS element
+- elements,SETTINGS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SETTINGS Element

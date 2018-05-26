@@ -4,11 +4,15 @@ description: Many applications and other resources store data in registry keys o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6031fe2b-d5cb-477e-9d0f-c8c4a14ce02b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6031fe2b-d5cb-477e-9d0f-c8c4a14ce02b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["checkpointing Failover Cluster"]
+keywords:
+- checkpointing Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Checkpointing
@@ -21,7 +25,7 @@ The [Failover Cluster API](the-server-cluster-api.md) allows cryptographic key c
 -   A change made to a checkpointed key while the resource is offline will be overwritten with the checkpointed data when the application comes online.
 -   If the resource moves to another node, the Cluster service restores the registry tree from the quorum resource log file to the registry on the new node before the resource is brought online.
 -   If the resource is deleted, the checkpoint is deleted.
--   Checkpoints are included in backups created by the [**BackupClusterDatabase**](backupclusterdatabase.md) function.
+-   Checkpoints are included in backups created by the [**BackupClusterDatabase**](/windows/previous-versions/ClusAPI/nf-clusapi-backupclusterdatabase?branch=master) function.
 -   Multiple resource instances on different nodes must be handled carefully. Consider the situation where Resource A\[0\] stores data\[0\] in checkpoint A on node 0. Resource A\[1\] stores data\[1\] in checkpoint A on node 1. If Resource A\[1\] fails over to node 0, the Cluster service will replace data\[0\] with data\[1\] in checkpoint A. If Resource A\[0\] depends on data\[0\], it is likely to fail. One solution to this problem is to give the checkpointed keys different names on different nodes.
 
 Applications and [resource DLLs](resource-dlls.md) manage checkpoints by using [control codes](about-control-codes.md). Note that the Cluster service does not pass any of the control codes involved with checkpointing to resource DLLs, which means that resource DLLs can use the checkpointing control codes freely without risking deadlocks. The following control codes work with checkpoints:

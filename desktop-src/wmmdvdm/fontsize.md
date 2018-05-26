@@ -1,8 +1,9 @@
 ---
 title: FontSize macro
 description: Specifies the size of text.
-ms.assetid: '52466bb7-51f2-4c34-a53b-eb2695e77ac3'
-keywords: ["FontSize macro Windows Movie Maker and DVD Maker"]
+ms.assetid: 52466bb7-51f2-4c34-a53b-eb2695e77ac3
+keywords:
+- FontSize macro Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - olectl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontSize macro
@@ -22,7 +28,7 @@ Specifies the size of text.
 
 ```C++
  FontSize(
-    n
+    n
 );
 ```
 
@@ -54,9 +60,9 @@ Parent elements: [**Properties**](PropertiesElement_MFGV).
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvWriteAbortBuf function is obsolete.'
-ms.assetid: 'a5fe5d9a-c5af-4445-bfd6-caf55555997c'
-title: 'PFN\_DrvWriteAbortBuf callback function'
+---
+Description: The DrvWriteAbortBuf function is obsolete.
+ms.assetid: a5fe5d9a-c5af-4445-bfd6-caf55555997c
+title: PFN\_DrvWriteAbortBuf callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvWriteAbortBuf callback function

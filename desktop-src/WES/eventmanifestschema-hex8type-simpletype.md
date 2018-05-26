@@ -1,14 +1,20 @@
 ---
 title: HexInt8Type Simple Type
 description: Defines a 1-byte hexadecimal type.
-ms.assetid: '390acf84-7b5c-45e7-83bd-9f3115099568'
-keywords: ["HexInt8Type simple type EventLog"]
+ms.assetid: 390acf84-7b5c-45e7-83bd-9f3115099568
+keywords:
+- HexInt8Type simple type EventLog
 topic_type:
 - apiref
 api_name:
 - HexInt8Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HexInt8Type Simple Type
@@ -41,14 +47,14 @@ The **HexInt8Type** simple type is a [string](https://msdn.microsoft.com/library
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

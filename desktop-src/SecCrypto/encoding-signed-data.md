@@ -1,7 +1,12 @@
 ---
-Description: 'Depicts the procedure for encoding a signed message.'
-ms.assetid: '40d1c417-6d88-4421-920f-8b40d88d28ce'
+Description: Depicts the procedure for encoding a signed message.
+ms.assetid: 40d1c417-6d88-4421-920f-8b40d88d28ce
 title: Encoding Signed Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoding Signed Data
@@ -40,16 +45,16 @@ Use the low-level message functions to accomplish the tasks just listed, by usin
 1.  Create or retrieve the content.
 2.  Get a cryptographic provider.
 3.  Get the signer certificates.
-4.  Initialize the [**CMSG\_SIGNER\_ENCODE\_INFO**](cmsg-signer-encode-info.md) structure.
-5.  Initialize the [**CMSG\_SIGNED\_ENCODE\_INFO**](cmsg-signed-encode-info.md) structure.
-6.  Call [**CryptMsgCalculateEncodedLength**](cryptmsgcalculateencodedlength.md) to get the size of the encoded message BLOB. Allocate memory for it.
-7.  Call [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md), passing in CMSG\_SIGNED for *dwMsgType* and a pointer to [**CMSG\_SIGNED\_ENCODE\_INFO**](cmsg-signed-encode-info.md) for *pvMsgEncodeInfo* to get a handle to the opened message.
-8.  Call [**CryptMsgUpdate**](cryptmsgupdate.md), passing in the handle retrieved in step 7, and a pointer to the data that is to be signed and encoded. This function can be called as many times as necessary to complete the encoding process.
-9.  Call [**CryptMsgGetParam**](cryptmsggetparam.md), passing in the handle retrieved in step 7 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire [*PKCS \#7*](security.p_gly) message.
+4.  Initialize the [**CMSG\_SIGNER\_ENCODE\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_signer_encode_info?branch=master) structure.
+5.  Initialize the [**CMSG\_SIGNED\_ENCODE\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_signed_encode_info?branch=master) structure.
+6.  Call [**CryptMsgCalculateEncodedLength**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength?branch=master) to get the size of the encoded message BLOB. Allocate memory for it.
+7.  Call [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master), passing in CMSG\_SIGNED for *dwMsgType* and a pointer to [**CMSG\_SIGNED\_ENCODE\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_signed_encode_info?branch=master) for *pvMsgEncodeInfo* to get a handle to the opened message.
+8.  Call [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master), passing in the handle retrieved in step 7, and a pointer to the data that is to be signed and encoded. This function can be called as many times as necessary to complete the encoding process.
+9.  Call [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master), passing in the handle retrieved in step 7 and the appropriate parameter types to access the desired, encoded data. For example, pass in CMSG\_CONTENT\_PARAM to get a pointer to the entire [*PKCS \#7*](security.p_gly) message.
 
     If the result of this encoding is to be used as the [*inner data*](security.i_gly#-security-inner-data-gly) for another encoded message, such as an enveloped message, the CMSG\_BARE\_CONTENT\_PARAM parameter must be passed. For an example showing this, see [Alternate Code for Encoding an Enveloped Message](alternate-code-for-encoding-an-enveloped-message.md).
 
-10. Close the message by calling [**CryptMsgClose**](cryptmsgclose.md).
+10. Close the message by calling [**CryptMsgClose**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgclose?branch=master).
 
 The result of this procedure is an encoded message that contains the original data, the encrypted hash of that data (signature), and the signer information. There is also a pointer to the desired, encoded BLOB.
 

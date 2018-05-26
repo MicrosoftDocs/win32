@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETCALID message
 description: Gets the calendar ID for the given calendar control. You can send this message explicitly or by using the MonthCal\_GetCALID macro.
-ms.assetid: 'ecfab4f3-a5af-445d-8b90-243b646524a6'
-keywords: ["MCM_GETCALID message Windows Controls"]
+ms.assetid: ecfab4f3-a5af-445d-8b90-243b646524a6
+keywords:
+- MCM_GETCALID message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETCALID message
 
-Gets the calendar ID for the given calendar control. You can send this message explicitly or by using the [**MonthCal\_GetCALID**](monthcal-getcalid.md) macro.
+Gets the calendar ID for the given calendar control. You can send this message explicitly or by using the [**MonthCal\_GetCALID**](/windows/win32/Commctrl/nf-commctrl-monthcal_getcalid?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ ID of the current calendar. One of the [Calendar Identifiers](https://msdn.micro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

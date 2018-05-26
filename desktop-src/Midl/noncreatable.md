@@ -2,13 +2,19 @@
 title: noncreatable attribute
 description: The \ noncreatable\ attribute defines an object that cannot be instantiated by itself.
 ms.assetid: 75d7b978-0f82-4e8a-89c2-ffd5b9a691d6
-keywords: ["noncreatable attribute MIDL"]
+keywords:
+- noncreatable attribute MIDL
 topic_type:
 - apiref
 api_name:
 - noncreatable
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # noncreatable attribute

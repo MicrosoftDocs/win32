@@ -1,8 +1,18 @@
 ---
 title: Constants
 description: Constants
-ms.assetid: '4a481813-c876-4603-85e3-7652e3e20c02'
-keywords: ["Windows Media Format SDK,constants", "digital rights management (DRM),constants", "DRM (digital rights management),constants", "DRM Client Extended APIs,constants", "Client Extended APIs,constants"]
+ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
+keywords:
+- Windows Media Format SDK,constants
+- digital rights management (DRM),constants
+- DRM (digital rights management),constants
+- DRM Client Extended APIs,constants
+- Client Extended APIs,constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants

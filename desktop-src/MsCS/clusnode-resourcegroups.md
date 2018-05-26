@@ -4,11 +4,14 @@ description: Returns a ClusResGroups collection providing access to the groups c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45eae46b-54d2-4945-aab1-8b471df64881'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 45eae46b-54d2-4945-aab1-8b471df64881
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ResourceGroups property Failover Cluster", "ResourceGroups property Failover Cluster , ClusNode object", "ClusNode object Failover Cluster , ResourceGroups property"]
+keywords:
+- ResourceGroups property Failover Cluster
+- ResourceGroups property Failover Cluster , ClusNode object
+- ClusNode object Failover Cluster , ResourceGroups property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNode.ResourceGroups property
@@ -51,7 +57,7 @@ To retrieve information about all of the groups in the [*cluster*](c-gly.md#-wol
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -73,9 +79,9 @@ To retrieve information about all of the groups in the [*cluster*](c-gly.md#-wol
 [**Cluster.ResourceGroups**](cluster-resourcegroups.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

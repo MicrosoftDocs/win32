@@ -1,7 +1,12 @@
 ---
-Description: 'The ALL BITWISE and SOME BITWISE keywords are used for testing the bits in an integral type.'
-ms.assetid: '649f763f-45aa-4086-9e7f-b8934b5bd22c'
+Description: The ALL BITWISE and SOME BITWISE keywords are used for testing the bits in an integral type.
+ms.assetid: 649f763f-45aa-4086-9e7f-b8934b5bd22c
 title: ALL BITWISE and SOME BITWISE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALL BITWISE and SOME BITWISE

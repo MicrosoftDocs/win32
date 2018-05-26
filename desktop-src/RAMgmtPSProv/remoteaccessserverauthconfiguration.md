@@ -2,13 +2,15 @@
 title: RemoteAccessServerAuthConfiguration class
 description: The server authentication configuration for the Remote Access service.
 audience: developer
-ms.assetid: '7a7cc884-cc90-414d-8212-60e9fe849cdf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7a7cc884-cc90-414d-8212-60e9fe849cdf
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessServerAuthConfiguration class", "RemoteAccessServerAuthConfiguration class, described"]
+keywords:
+- RemoteAccessServerAuthConfiguration class
+- RemoteAccessServerAuthConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessServerAuthConfiguration class
@@ -71,7 +76,7 @@ The authentication configuration of the server as an embedded object
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -85,9 +90,9 @@ The authentication configuration of the server as an embedded object
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: COPP Command Reference
-ms.assetid: 'b21db1cf-cac3-41d6-8189-6e01c8f91a7d'
+ms.assetid: b21db1cf-cac3-41d6-8189-6e01c8f91a7d
 title: COPP Command Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COPP Command Reference
@@ -25,7 +30,7 @@ Sets the protection level for a specified output protection mechanism. Depending
 
 **GUID**: DXVA\_COPPSetProtectionLevel
 
-**Input data**: A [**DXVA\_COPPSetProtectionLevelCmdData**](dxva-coppsetprotectionlevelcmddata.md) structure.
+**Input data**: A [**DXVA\_COPPSetProtectionLevelCmdData**](/windows/win32/dxva9typ/ns-dxva9typ-_dxva_coppsetprotectionlevelcmddata?branch=master) structure.
 
 Set Signaling Command
 
@@ -37,7 +42,7 @@ This command is also designed to be extensible if additional signal information 
 
 **GUID**: DXVA\_COPPSetSignaling
 
-**Input data**: A [**DXVA\_COPPSetSignalingCmdData**](dxva-coppsetsignalingcmddata.md) structure.
+**Input data**: A [**DXVA\_COPPSetSignalingCmdData**](/windows/win32/dxva9typ/ns-dxva9typ-_dxva_coppsetsignalingcmddata?branch=master) structure.
 
 ## Related topics
 

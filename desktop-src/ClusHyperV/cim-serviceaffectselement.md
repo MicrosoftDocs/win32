@@ -4,13 +4,15 @@ description: Represents an association between a service and a managed element t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7a95281c-9be4-41ba-814e-0cf9d63f7f1f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7a95281c-9be4-41ba-814e-0cf9d63f7f1f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ServiceAffectsElement class", "CIM_ServiceAffectsElement class, described"]
+keywords:
+- CIM_ServiceAffectsElement class
+- CIM_ServiceAffectsElement class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ServiceAffectsElement class
@@ -40,9 +45,9 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class CIM_ServiceAffectsElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Service        REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Service        REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -188,14 +193,14 @@ The effect on the managed element. This array corresponds to the **OtherElementE
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -222,7 +227,7 @@ Each item in the array provides additional information for the corresponding ite
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -236,9 +241,9 @@ Each item in the array provides additional information for the corresponding ite
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

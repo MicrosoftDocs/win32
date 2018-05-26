@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete.'
-ms.assetid: 'a0de6757-3be8-4c8f-bc6f-93c2e097fec7'
-title: 'PFN\_DrvWriteSpoolBuf callback function'
+---
+Description: The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete.
+ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
+title: PFN\_DrvWriteSpoolBuf callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvWriteSpoolBuf callback function

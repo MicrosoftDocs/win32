@@ -1,8 +1,19 @@
 ---
 title: DSP Plug-in Developer Overview
 description: DSP Plug-in Developer Overview
-ms.assetid: 'ac3e1d7e-1f96-4f96-bddc-e72edaae31dc'
-keywords: ["Windows Media Player plug-ins,digital signal processing (DSP)", "plug-ins,digital signal processing (DSP)", "Windows Media Player plug-ins,developer overview", "plug-ins,developer overview", "digital signal processing plug-ins,developer overview", "DSP plug-ins,developer overview"]
+ms.assetid: ac3e1d7e-1f96-4f96-bddc-e72edaae31dc
+keywords:
+- Windows Media Player plug-ins,digital signal processing (DSP)
+- plug-ins,digital signal processing (DSP)
+- Windows Media Player plug-ins,developer overview
+- plug-ins,developer overview
+- digital signal processing plug-ins,developer overview
+- DSP plug-ins,developer overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSP Plug-in Developer Overview

@@ -1,7 +1,12 @@
 ---
 title: Buffer tiling
 description: A Buffer resource is divided into 64KB tiles, with some empty space in the last tile if the size is not a multiple of 64KB.
-ms.assetid: '979EFCF3-1FE1-412A-A19D-F1B1CF86423B'
+ms.assetid: 979EFCF3-1FE1-412A-A19D-F1B1CF86423B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffer tiling

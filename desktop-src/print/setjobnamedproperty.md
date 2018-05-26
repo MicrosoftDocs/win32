@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '6A03B009-21D4-4CD2-9BB5-36F402118270'
+---
+Description: .
+ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 title: SetJobNamedProperty function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetJobNamedProperty function

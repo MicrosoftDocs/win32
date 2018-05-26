@@ -4,17 +4,22 @@ description: The total number of flows that a given user may have.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cfbb4bc3-8233-47aa-8b67-88454d44e359'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cfbb4bc3-8233-47aa-8b67-88454d44e359
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ACS-Total-No-Of-Flows attribute AD Schema", "aCSTotalNoOfFlows attribute AD Schema"]
+keywords:
+- ACS-Total-No-Of-Flows attribute AD Schema
+- aCSTotalNoOfFlows attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ACS-Total-No-Of-Flows
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ACS-Total-No-Of-Flows attribute
@@ -38,12 +43,12 @@ The total number of flows that a given user may have.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The total number of flows that a given user may have.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

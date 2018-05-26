@@ -4,10 +4,13 @@ description: The following VBScript example code is for a simple application tha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '592ae7ec-bd02-43b2-8911-bb7dce883e18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 592ae7ec-bd02-43b2-8911-bb7dce883e18
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using VBScript with the MMC 2.0 Automation Object Model

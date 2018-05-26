@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice add\_ConnectionStatusChanged method
 description: Registers an event handler for the ConnectionStatusChanged event.
-ms.assetid: '1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399'
-keywords: ["add_ConnectionStatusChanged method Media Streaming API", "add_ConnectionStatusChanged method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , add_ConnectionStatusChanged method"]
+ms.assetid: 1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399
+keywords:
+- add_ConnectionStatusChanged method Media Streaming API
+- add_ConnectionStatusChanged method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , add_ConnectionStatusChanged method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.add_ConnectionStatusChanged
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::add\_ConnectionStatusChanged method
@@ -20,8 +28,8 @@ Registers an event handler for the [**ConnectionStatusChanged**](connectionstatu
 
 ```C++
 HRESULT add_ConnectionStatusChanged(
-  [in]          ConnectionStatusHandler *handler,
-  [out, retval] EventRegistrationToken  *token
+  [in]          ConnectionStatusHandler *handler,
+  [out, retval] EventRegistrationToken  *token
 );
 ```
 
@@ -34,7 +42,7 @@ HRESULT add_ConnectionStatusChanged(
 *handler* \[in\]
 </dt> <dd>
 
-A [**ConnectionStatusHandler**](connectionstatushandler.md) event handler function.
+A [**ConnectionStatusHandler**](/windows/win32/mfidl/?branch=master) event handler function.
 
 </dd> <dt>
 
@@ -57,7 +65,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +78,9 @@ To unregister the event handler that was registered by this method, pass the *to
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

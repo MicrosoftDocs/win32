@@ -1,7 +1,12 @@
 ---
 title: Load (DirectX HLSL Texture Object)
 description: Reads texel data without any filtering or sampling.
-ms.assetid: 'a2fbda88-29c7-4d28-bd3e-df1d9aa36ee8'
+ms.assetid: a2fbda88-29c7-4d28-bd3e-df1d9aa36ee8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load (DirectX HLSL Texture Object)

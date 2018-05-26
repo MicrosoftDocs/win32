@@ -4,11 +4,14 @@ description: The SetProfilePath method sets the ProfilePath property for the cla
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a0dfe6a4-929c-45ec-bd31-7e0ffb6ce5de'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a0dfe6a4-929c-45ec-bd31-7e0ffb6ce5de
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetProfilePath method Remote Desktop Services", "SetProfilePath method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , SetProfilePath method"]
+keywords:
+- SetProfilePath method Remote Desktop Services
+- SetProfilePath method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , SetProfilePath method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetProfilePath method of the Win32\_TerminalServiceSetting class
@@ -28,7 +34,7 @@ The **SetProfilePath** method sets the **ProfilePath** property for the class.
 
 ```mof
 uint32 SetProfilePath(
-  [in] string ProfilePath
+  [in] string ProfilePath
 );
 ```
 
@@ -59,8 +65,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

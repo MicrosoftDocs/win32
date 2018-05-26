@@ -1,8 +1,28 @@
 ---
 title: About Mouse Input
 description: This topic discusses mouse input.
-ms.assetid: '1f945a31-76d5-4e23-a55a-769ca114dbe9'
-keywords: ["user input,mouse input", "capturing user input,mouse input", "mouse input", "mouse cursor", "cursors,mouse input", "mouse capture", "mouse ClickLock", "XBUTTONs", "mouse configuration", "mouse messages", "WM_NCHITTEST message", "Mouse Vanish accessibility feature", "Mouse Sonar accessibility feature", "mouse wheel", "WM_MOUSEWHEEL message"]
+ms.assetid: 1f945a31-76d5-4e23-a55a-769ca114dbe9
+keywords:
+- user input,mouse input
+- capturing user input,mouse input
+- mouse input
+- mouse cursor
+- cursors,mouse input
+- mouse capture
+- mouse ClickLock
+- XBUTTONs
+- mouse configuration
+- mouse messages
+- WM_NCHITTEST message
+- Mouse Vanish accessibility feature
+- Mouse Sonar accessibility feature
+- mouse wheel
+- WM_MOUSEWHEEL message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Mouse Input

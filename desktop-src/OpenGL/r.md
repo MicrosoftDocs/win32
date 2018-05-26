@@ -3,7 +3,17 @@ title: R
 description: Definitions of OpenGL terms that begin with the letter R.
 Robots: noindex, nofollow
 ms.assetid: ab0286f5-cad2-4537-aa98-be0fce55ff53
-keywords: ["rasterizing", "rectangles", "rendering", "RGBA", "RGBA mode"]
+keywords:
+- rasterizing
+- rectangles
+- rendering
+- RGBA
+- RGBA mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # R

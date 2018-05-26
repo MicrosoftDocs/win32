@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft .NET Framework gives you the ability to deploy applications from a Web or file server.'
-ms.assetid: '7721cd92-241f-4409-a724-c8e8768a19a9'
+Description: The Microsoft .NET Framework gives you the ability to deploy applications from a Web or file server.
+ms.assetid: 7721cd92-241f-4409-a724-c8e8768a19a9
 title: No Touch Deployment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # No Touch Deployment

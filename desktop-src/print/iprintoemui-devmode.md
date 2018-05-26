@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::DevMode method, provided by user interface plug-ins, performs operations on the plug-in''s private DEVMODEW members.'
-ms.assetid: 'decc76c4-1973-41c5-9091-6dc5b9ccd30d'
-title: 'IPrintOemUI::DevMode method'
+---
+Description: The IPrintOemUIDevMode method, provided by user interface plug-ins, performs operations on the plug-ins private DEVMODEW members.
+ms.assetid: decc76c4-1973-41c5-9091-6dc5b9ccd30d
+title: IPrintOemUIDevMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::DevMode method

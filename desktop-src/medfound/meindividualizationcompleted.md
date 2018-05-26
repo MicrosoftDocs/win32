@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the policy engine when individualization is complete. For more information, see MEIndividualizationStart event.'
-ms.assetid: '44a4956f-19ba-410d-b96c-e7774cbe2d7e'
+---
+Description: Raised by the policy engine when individualization is complete. For more information, see MEIndividualizationStart event.
+ms.assetid: 44a4956f-19ba-410d-b96c-e7774cbe2d7e
 title: MEIndividualizationCompleted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEIndividualizationCompleted event
@@ -10,7 +15,7 @@ Raised by the policy engine when individualization is complete. For more informa
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: D3DCOLORtoUBYTE4
 description: Converts a floating-point, 4D vector set by a D3DCOLOR to a UBYTE4.
-ms.assetid: '20a7be00-1e36-41c3-bc98-933b3faa8f35'
-keywords: ["D3DCOLORtoUBYTE4 HLSL"]
+ms.assetid: 20a7be00-1e36-41c3-bc98-933b3faa8f35
+keywords:
+- D3DCOLORtoUBYTE4 HLSL
 topic_type:
 - apiref
 api_name:
 - D3DCOLORtoUBYTE4
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOLORtoUBYTE4
@@ -22,7 +28,7 @@ Converts a floating-point, 4D vector set by a D3DCOLOR to a UBYTE4.
 
 
 
- 
+ 
 
 This function swizzles and scales components of the *x* parameter. Use this function to compensate for the lack of UBYTE4 support in some hardware.
 
@@ -36,7 +42,7 @@ This function swizzles and scales components of the *x* parameter. Use this func
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The UBYTE4 representation of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -77,9 +83,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

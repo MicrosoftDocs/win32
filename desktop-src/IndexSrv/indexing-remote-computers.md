@@ -1,7 +1,12 @@
 ---
 title: Indexing Remote Computers
 description: Indexing Remote Computers
-ms.assetid: '2e5d1949-4302-4482-b3d2-f23e8ff3a805'
+ms.assetid: 2e5d1949-4302-4482-b3d2-f23e8ff3a805
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Remote Computers

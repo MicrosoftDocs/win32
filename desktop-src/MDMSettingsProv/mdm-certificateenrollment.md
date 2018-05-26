@@ -1,8 +1,10 @@
 ---
 title: MDM\_CertificateEnrollment class
 description: Represents a Certificate Enrollment used in the Simple Certificate Enrollment Protocol (SCEP).
-ms.assetid: '6eb73c81-5161-4332-8178-a42662cacf59'
-keywords: ["MDM_CertificateEnrollment class MDM Settings", "MDM_CertificateEnrollment class MDM Settings , described"]
+ms.assetid: 6eb73c81-5161-4332-8178-a42662cacf59
+keywords:
+- MDM_CertificateEnrollment class MDM Settings
+- MDM_CertificateEnrollment class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_CertificateEnrollment class
@@ -39,20 +46,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_CertificateEnrollment
 {
-  string   RequestID;
-  uint8    StoreLocation;
-  string   EnhancedKeyUsages;
-  string   Issuers;
-  uint32   Status;
-  uint32   Error;
-  uint32   ExpirationThreshold;
-  string   SubjectName;
-  string   SubjectAlternativeNames;
-  string   Thumbprint;
-  string   SerialNumber;
+  string   RequestID;
+  uint8    StoreLocation;
+  string   EnhancedKeyUsages;
+  string   Issuers;
+  uint32   Status;
+  uint32   Error;
+  uint32   ExpirationThreshold;
+  string   SubjectName;
+  string   SubjectAlternativeNames;
+  string   Thumbprint;
+  string   SerialNumber;
   datetime ValidFrom;
   datetime ValidTo;
-  string   ConfigurationParameters;
+  string   ConfigurationParameters;
 };
 ```
 
@@ -286,7 +293,7 @@ Valid to date of the issued certificate.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -301,9 +308,9 @@ Valid to date of the issued certificate.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

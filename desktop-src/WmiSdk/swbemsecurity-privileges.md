@@ -1,13 +1,16 @@
 ---
-Description: 'The Privileges property is an SWbemPrivilegeSet object. This property is used to enable or disable specific Windows privileges. You may need to set one of these privileges to perform specific tasks using the Windows Management Instrumentation (WMI) API.'
+Description: The Privileges property is an SWbemPrivilegeSet object. This property is used to enable or disable specific Windows privileges. You may need to set one of these privileges to perform specific tasks using the Windows Management Instrumentation (WMI) API.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6e4cae22-23d6-4981-b38c-d298654e59ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6e4cae22-23d6-4981-b38c-d298654e59ab
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemSecurity.Privileges property'
+title: SWbemSecurity.Privileges property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemSecurity.Privileges property
@@ -31,7 +34,7 @@ SWbemSecurity.Privileges As Object
 
 ## Remarks
 
-This setting allows you to grant or revoke privileges as part of a WMI moniker string. For the complete list of applicable values, see [**WbemPrivilegeEnum**](wbemprivilegeenum.md) and [**Privilege Constants**](privilege-constants.md).
+This setting allows you to grant or revoke privileges as part of a WMI moniker string. For the complete list of applicable values, see [**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master) and [**Privilege Constants**](privilege-constants.md).
 
 You can change the privileges defined for the [**SWbemServices**](swbemservices.md), [**SWbemObject**](swbemobject.md), [**SWbemObjectSet**](swbemobjectset.md), [**SWbemObjectPath**](swbemobjectpath.md), and [**SwbemLocator**](swbemlocator.md) objects by adding [**SWbemPrivilege**](swbemprivilege.md) objects to the **Privileges** property.
 
@@ -68,8 +71,8 @@ Note that for calls to [**SwbemPrivilegeSet.AddAsString**](swbemprivilegeset-add
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -91,9 +94,9 @@ Note that for calls to [**SwbemPrivilegeSet.AddAsString**](swbemprivilegeset-add
 [**SWbemPrivilegeSet**](swbemprivilegeset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

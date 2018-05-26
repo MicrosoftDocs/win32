@@ -1,8 +1,9 @@
 ---
 title: Media.markerCount
 description: The markerCount property retrieves the number of markers in the media item.
-ms.assetid: '48313395-b225-4008-b0e8-82fa22d6aaef'
-keywords: ["Media.markerCount Windows Media Player"]
+ms.assetid: 48313395-b225-4008-b0e8-82fa22d6aaef
+keywords:
+- Media.markerCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.markerCount
@@ -84,9 +90,9 @@ for (var i = 1; i < mcount + 1; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

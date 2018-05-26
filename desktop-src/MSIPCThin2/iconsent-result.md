@@ -4,11 +4,14 @@ description: Gets or sets the consent result.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.IConsent.Result'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.IConsent.Result
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Result property", "Result property, IConsent class", "IConsent class, Result property"]
+keywords:
+- Result property
+- Result property, IConsent class
+- IConsent class, Result property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IConsent.Result property
@@ -65,9 +71,9 @@ The consent result.
 [**IConsent**](iconsent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

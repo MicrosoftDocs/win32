@@ -2,13 +2,15 @@
 title: DnsServerSigningKeyExtendedInformation class
 description: Represents extended information for a DNS server signing key.
 audience: developer
-ms.assetid: 'ff506731-533d-4dd8-b716-dc81ae57d85b'
-ms.prod: 'windows-server-dev'
+ms.assetid: ff506731-533d-4dd8-b716-dc81ae57d85b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerSigningKeyExtendedInformation class", "DnsServerSigningKeyExtendedInformation class, described"]
+keywords:
+- DnsServerSigningKeyExtendedInformation class
+- DnsServerSigningKeyExtendedInformation class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerSigningKeyExtendedInformation class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerSigningKeyExtendedInformation
 {
-  DnsServerSigningKey        SigningKey;
+  DnsServerSigningKey        SigningKey;
   DnsServerSigningKeyOpState SigningKeyOpState;
 };
 ```
@@ -89,7 +94,7 @@ An identifier of the operational state of the signing key.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -103,9 +108,9 @@ An identifier of the operational state of the signing key.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

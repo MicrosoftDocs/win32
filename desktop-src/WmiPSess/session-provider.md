@@ -4,11 +4,16 @@ description: The Session provider enables developers to manage network sessions 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e54463f0-3bd8-4eef-9dc0-6a1dd2767c7e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e54463f0-3bd8-4eef-9dc0-6a1dd2767c7e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["providers Windows Management Instrumentation ,Session", "Session provider Windows Management Instrumentation"]
+keywords:
+- providers Windows Management Instrumentation ,Session
+- Session provider Windows Management Instrumentation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session Provider

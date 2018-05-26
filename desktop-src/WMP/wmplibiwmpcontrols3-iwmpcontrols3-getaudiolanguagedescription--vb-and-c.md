@@ -1,8 +1,11 @@
 ---
 title: IWMPControls3 getAudioLanguageDescription method
 description: The getAudioLanguageDescription method returns the description for the audio language corresponding to the specified one-based index.
-ms.assetid: 'bf3db27f-ba14-409e-8942-fe863d6f3670'
-keywords: ["getAudioLanguageDescription method Windows Media Player", "getAudioLanguageDescription method Windows Media Player , IWMPControls3 interface", "IWMPControls3 interface Windows Media Player , getAudioLanguageDescription method"]
+ms.assetid: bf3db27f-ba14-409e-8942-fe863d6f3670
+keywords:
+- getAudioLanguageDescription method Windows Media Player
+- getAudioLanguageDescription method Windows Media Player , IWMPControls3 interface
+- IWMPControls3 interface Windows Media Player , getAudioLanguageDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls3::getAudioLanguageDescription method
@@ -66,7 +74,7 @@ A **System.String** that is the description of the audio language.
 
 ## Remarks
 
-For Windows Media–based content, properties and methods related to language selection support only a single output.
+For Windows Media based content, properties and methods related to language selection support only a single output.
 
 Use the **audioLanguageCount** property to get the number of supported audio languages, and then access an audio language individually by using a one-based index.
 
@@ -104,9 +112,9 @@ Use the **audioLanguageCount** property to get the number of supported audio lan
 [**IWMPControls3.getLanguageName (VB and C#)**](wmplibiwmpcontrols3-iwmpcontrols3-getlanguagename--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: WM/MediaIsLive
 description: The WM/MediaIsLive attribute indicates whether the content is a live broadcast.
-ms.assetid: '1eae83a5-c296-4ffe-9d7f-96ecaa3180b1'
-keywords: ["WM/MediaIsLive windows Media Format"]
+ms.assetid: 1eae83a5-c296-4ffe-9d7f-96ecaa3180b1
+keywords:
+- WM/MediaIsLive windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaIsLive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaIsLive

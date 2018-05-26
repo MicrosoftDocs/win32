@@ -4,11 +4,13 @@ description: All of the data values associated with a property value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd95a90f6-2a70-428b-aff3-3be9e9e66071'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d95a90f6-2a70-428b-aff3-3be9e9e66071
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusPropertyValueData collection Failover Cluster", "ClusPropertyValueData collection Failover Cluster , described"]
+keywords:
+- ClusPropertyValueData collection Failover Cluster
+- ClusPropertyValueData collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusPropertyValueData collection
@@ -46,7 +51,7 @@ The **ClusPropertyValueData** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +66,7 @@ The **ClusPropertyValueData** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,7 +82,7 @@ A **ClusPropertyValueData** collection:
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                  |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                  |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>        |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>      |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>      |
@@ -93,9 +98,9 @@ A **ClusPropertyValueData** collection:
 [Property Management Objects](property-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

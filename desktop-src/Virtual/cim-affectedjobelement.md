@@ -1,8 +1,10 @@
 ---
 title: CIM\_AffectedJobElement class
 description: Represents an association between a job and the CIM\_ManagedElement objects that may be affected by its execution.
-ms.assetid: '2b2aa04e-b1a3-454e-844d-37f61c2a3916'
-keywords: ["CIM_AffectedJobElement class Hyper-V", "CIM_AffectedJobElement class Hyper-V , described"]
+ms.assetid: 2b2aa04e-b1a3-454e-844d-37f61c2a3916
+keywords:
+- CIM_AffectedJobElement class Hyper-V
+- CIM_AffectedJobElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_AffectedJobElement class
@@ -30,9 +37,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Job            REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Job            REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -165,17 +172,17 @@ Additional details for corresponding "1" (Other) values in the **ElementEffects*
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

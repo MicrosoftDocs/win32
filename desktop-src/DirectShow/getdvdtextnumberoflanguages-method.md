@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDVDTextNumberOfLanguages method retrieves the number of text languages available on the disc.'
-ms.assetid: 'aa4b737b-abe0-496a-8570-f3a8e711c7ce'
+Description: The GetDVDTextNumberOfLanguages method retrieves the number of text languages available on the disc.
+ms.assetid: aa4b737b-abe0-496a-8570-f3a8e711c7ce
 title: GetDVDTextNumberOfLanguages Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDVDTextNumberOfLanguages Method

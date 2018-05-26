@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a transposed matrix.'
-ms.assetid: '255c1e20-0a60-49eb-abaa-66a67322ce73'
-title: 'ID3DXBaseEffect::GetMatrixTranspose method'
+---
+Description: Gets a transposed matrix.
+ms.assetid: 255c1e20-0a60-49eb-abaa-66a67322ce73
+title: ID3DXBaseEffectGetMatrixTranspose method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetMatrixTranspose method

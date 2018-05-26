@@ -1,8 +1,17 @@
 ---
 title: About the Windows Media Format SDK
 description: About the Windows Media Format SDK
-ms.assetid: 'cdf5ec0e-650e-49b9-b543-9707825966ee'
-keywords: ["Windows Media Format SDK,about", "Windows Media Format SDK,Advanced Systems Format (ASF)", "Advanced Systems Format (ASF),about", "ASF (Advanced Systems Format),about"]
+ms.assetid: cdf5ec0e-650e-49b9-b543-9707825966ee
+keywords:
+- Windows Media Format SDK,about
+- Windows Media Format SDK,Advanced Systems Format (ASF)
+- Advanced Systems Format (ASF),about
+- ASF (Advanced Systems Format),about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Windows Media Format SDK

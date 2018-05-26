@@ -1,7 +1,12 @@
 ---
-Description: 'The LookupDwordSetString function returns the string corresponding to the specified value of a labeled set.'
-ms.assetid: 'ee2b1b7a-6b64-4c8c-a71d-de970b66d46e'
+Description: The LookupDwordSetString function returns the string corresponding to the specified value of a labeled set.
+ms.assetid: ee2b1b7a-6b64-4c8c-a71d-de970b66d46e
 title: LookupDwordSetString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LookupDwordSetString function
@@ -13,8 +18,8 @@ The **LookupDwordSetString** function returns the string corresponding to the sp
 
 ```C++
 LPBYTE WINAPI LookupDwordSetString(
-   LPSET lpSet,
-   DWORD Value
+   LPSET lpSet,
+   DWORD Value
 );
 ```
 
@@ -50,17 +55,17 @@ If the function is unsuccessful, the specified value is not in the set, the retu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Parser.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

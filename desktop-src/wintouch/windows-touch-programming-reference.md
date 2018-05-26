@@ -1,8 +1,17 @@
 ---
 title: Windows Touch Programming Reference
 description: The following sections describe the functionality of the Windows Touch API.
-ms.assetid: '86b05967-ab5c-430a-9f09-1960dbd79f72'
-keywords: ["Windows Touch,programming reference", "Windows Touch,API functionality", "programming reference for Windows Touch", "reference for Windows Touch"]
+ms.assetid: 86b05967-ab5c-430a-9f09-1960dbd79f72
+keywords:
+- Windows Touch,programming reference
+- Windows Touch,API functionality
+- programming reference for Windows Touch
+- reference for Windows Touch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Programming Reference

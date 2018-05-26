@@ -1,7 +1,12 @@
 ---
 title: Type Libraries and ActiveX Objects
 description: You must create a type library for each set of exposed objects.
-ms.assetid: 'c9c06682-842c-4e62-8788-f0f264821ab6'
+ms.assetid: c9c06682-842c-4e62-8788-f0f264821ab6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Libraries and ActiveX Objects
@@ -12,7 +17,7 @@ Type libraries provide these important benefits:
 
 -   Type checking can be performed at compile time. This may help developers of ActiveX clients to write fast, correct code to access objects.
 
--   You can describe an interface with type information and implement [**IDispatch::Invoke**](idispatch-invoke.md) for the interface using a single call to [**DispInvoke**](dispinvoke.md).
+-   You can describe an interface with type information and implement [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) for the interface using a single call to [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master).
 
 -   Visual Basic applications can create objects with specific interface types, rather than the generic **Object** type, to take advantage of early binding.
 
@@ -20,9 +25,9 @@ Type libraries provide these important benefits:
 
 -   Type browsers can scan the library, allowing others to see the characteristics of objects.
 
--   The [**RegisterTypeLib**](registertypelib.md) function can be used to register exposed objects in the registration database.
+-   The [**RegisterTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-registertypelib?branch=master) function can be used to register exposed objects in the registration database.
 
--   The [**UnRegisterTypeLib**](unregistertypelib.md) function can be used to completely uninstall an application from the system registry.
+-   The [**UnRegisterTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-unregistertypelib?branch=master) function can be used to completely uninstall an application from the system registry.
 
 -   Local server access is improved because Automation uses information from the type library to package the parameters that are passed to an object in another process.
 
@@ -39,11 +44,11 @@ Type libraries provide these important benefits:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

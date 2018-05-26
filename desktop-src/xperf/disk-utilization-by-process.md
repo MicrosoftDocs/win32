@@ -1,8 +1,14 @@
 ---
 title: Disk Utilization by Process
 description: Disk Utilization by Process
-ms.assetid: '0a5c7982-12d3-4fad-9318-687cb13797dc'
-keywords: ["usage graph"]
+ms.assetid: 0a5c7982-12d3-4fad-9318-687cb13797dc
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Utilization by Process

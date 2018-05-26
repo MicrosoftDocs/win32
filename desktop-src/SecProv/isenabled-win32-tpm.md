@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsEnabled method of the Win32\_Tpm class indicates whether the device is enabled. This value can be changed by the Enable and Disable methods.'
-ms.assetid: 'e1d5513f-33eb-49e3-9582-d6c103ca5d03'
-title: 'IsEnabled method of the Win32\_Tpm class'
+---
+Description: The IsEnabled method of the Win32\_Tpm class indicates whether the device is enabled. This value can be changed by the Enable and Disable methods.
+ms.assetid: e1d5513f-33eb-49e3-9582-d6c103ca5d03
+title: IsEnabled method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsEnabled method of the Win32\_Tpm class

@@ -1,8 +1,19 @@
 ---
 title: Porting afunction Test Functions
 description: The following table lists the available IRIS GL alpha test functions and their equivalent OpenGL functions.
-ms.assetid: 'cd4082fe-2fd6-43d8-a9a7-37fd448c084b'
-keywords: ["IRIS GL porting,afunction test functions", "porting from IRIS GL,afunction test functions", "porting to OpenGL from IRIS GL,afunction test functions", "OpenGL porting from IRIS GL,afunction test functions", "afunction test functions", "alpha test functions"]
+ms.assetid: cd4082fe-2fd6-43d8-a9a7-37fd448c084b
+keywords:
+- IRIS GL porting,afunction test functions
+- porting from IRIS GL,afunction test functions
+- porting to OpenGL from IRIS GL,afunction test functions
+- OpenGL porting from IRIS GL,afunction test functions
+- afunction test functions
+- alpha test functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting afunction Test Functions

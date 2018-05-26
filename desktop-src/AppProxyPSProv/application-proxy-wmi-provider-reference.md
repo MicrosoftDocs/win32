@@ -1,15 +1,18 @@
 ---
-Description: 'The Application Proxy WMI Provider is defined in AppProxyPSProvider.mof and implemented in AppProxyPSProvider.dll.'
+Description: The Application Proxy WMI Provider is defined in AppProxyPSProvider.mof and implemented in AppProxyPSProvider.dll.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '44653f54-c46b-4739-9d74-b4727d0f41e8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 44653f54-c46b-4739-9d74-b4727d0f41e8
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Application Proxy WMI Provider Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application Proxy WMI Provider Reference

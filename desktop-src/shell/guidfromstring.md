@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a string to a GUID.'
-ms.assetid: '109b99e6-7409-44e0-932c-658be66651f4'
+---
+Description: Converts a string to a GUID.
+ms.assetid: 109b99e6-7409-44e0-932c-658be66651f4
 title: GUIDFromString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUIDFromString function

@@ -1,8 +1,9 @@
 ---
 title: EndOfStream Event of the AxWindowsMediaPlayer Object
 description: The EndOfStream event is reserved for future use.
-ms.assetid: '004172e0-abd4-451c-bd5c-6bf0a9277661'
-keywords: ["EndOfStream Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 004172e0-abd4-451c-bd5c-6bf0a9277661
+keywords:
+- EndOfStream Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EndOfStream Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_End
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +74,9 @@ This event is reserved for future use.
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

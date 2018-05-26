@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_WKSType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Well-Known Services (WKS) record.
-ms.assetid: '7bbfd518-d473-4127-949b-9133a43ac7a7'
-keywords: ["MicrosoftDNS_WKSType class DNS", "MicrosoftDNS_WKSType class DNS , described"]
+ms.assetid: 7bbfd518-d473-4127-949b-9133a43ac7a7
+keywords:
+- MicrosoftDNS_WKSType class DNS
+- MicrosoftDNS_WKSType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_WKSType class
@@ -55,7 +62,7 @@ The **MicrosoftDNS\_WKSType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -109,7 +116,7 @@ String containing all services used by the Well Known Service (WKS) record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -128,9 +135,9 @@ String containing all services used by the Well Known Service (WKS) record.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

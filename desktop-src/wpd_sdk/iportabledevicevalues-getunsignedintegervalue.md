@@ -1,7 +1,12 @@
 ---
-Description: 'The GetUnsignedIntegerValue method retrieves a ULONG value (type VT\_UI4) specified by a key.'
-ms.assetid: '167163fa-6583-4e6b-b801-3a441a95644b'
-title: 'IPortableDeviceValues::GetUnsignedIntegerValue method'
+Description: The GetUnsignedIntegerValue method retrieves a ULONG value (type VT\_UI4) specified by a key.
+ms.assetid: 167163fa-6583-4e6b-b801-3a441a95644b
+title: IPortableDeviceValuesGetUnsignedIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetUnsignedIntegerValue method
@@ -13,8 +18,8 @@ The **GetUnsignedIntegerValue** method retrieves a **ULONG** value (type VT\_UI4
 
 ```C++
 HRESULT GetUnsignedIntegerValue(
-  [in]  REFPROPERTYKEY key,
-  [out] ULONG          *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] ULONG          *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -88,9 +93,9 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 [Retrieving the Rendering Capabilities Supported by a Device](retrieving-the-rendering-capabilities-supported-by-a-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

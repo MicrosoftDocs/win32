@@ -1,14 +1,20 @@
 ---
 title: EXSTYLE statement
 description: Defines extended window styles for a dialog box. In a resource definition, the EXSTYLE statement is placed with the optional statements before the beginning of the body of the resource definition.
-ms.assetid: '5dc74bab-e385-457c-80c4-5e04eed589b5'
-keywords: ["EXSTYLE statement Menus and Other Resources"]
+ms.assetid: 5dc74bab-e385-457c-80c4-5e04eed589b5
+keywords:
+- EXSTYLE statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - EXSTYLE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXSTYLE statement

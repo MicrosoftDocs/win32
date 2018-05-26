@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.'
-ms.assetid: 'b1edfbde-9d54-4e9c-ba9b-33e4c354c23f'
-title: 'CertificateStatus.Result property'
+---
+Description: The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.
+ms.assetid: b1edfbde-9d54-4e9c-ba9b-33e4c354c23f
+title: CertificateStatus.Result property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.Result property

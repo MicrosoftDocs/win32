@@ -1,14 +1,20 @@
 ---
 title: ID2D1Geometry StrokeContainsPoint methods
-description: Determines whether the geometry's stroke contains the specified point.
-ms.assetid: '2a2b058b-4bab-4fa1-ad98-09d3bd32f5ff'
-keywords: ["StrokeContainsPoint methods Direct2D"]
+description: Determines whether the geometrys stroke contains the specified point.
+ms.assetid: 2a2b058b-4bab-4fa1-ad98-09d3bd32f5ff
+keywords:
+- StrokeContainsPoint methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::StrokeContainsPoint methods
@@ -21,10 +27,10 @@ Determines whether the geometry's stroke contains the specified point.
 
 | Method                                                                                                                                                                                                                     | Description                                                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,BOOL\*)**](id2d1geometry-strokecontainspoint-d2d-point-2f-float-ptr-id2d1strokestyle-ptr-d2d-matrix-3x2-f-ptr-bool.md)             | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,BOOL\*)**](id2d1geometry-strokecontainspoint-d2d-point-2f-float-ptr-id2d1strokestyle-ref-d2d-matrix-3x2-f-ptr-bool.md)              | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,BOOL\*)**](id2d1geometry-strokecontainspoint-d2d-point-2f-float-ptr-id2d1strokestyle-ptr-d2d-matrix-3x2-f-float-ptr-bool.md) | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
-| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,BOOL\*)**](id2d1geometry-strokecontainspoint-d2d-point-2f-float-ptr-id2d1strokestyle-ref-d2d-matrix-3x2-f-float-ptr-bool.md)  | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,BOOL\*)**](/windows/win32/d2d1/?branch=master)             | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,BOOL\*)**](/windows/win32/d2d1/?branch=master)              | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,BOOL\*)**](/windows/win32/d2d1/?branch=master) | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
+| [**StrokeContainsPoint(D2D1\_POINT\_2F,FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,BOOL\*)**](/windows/win32/d2d1/?branch=master)  | Determines whether the geometry's stroke contains the specified point given the specified stroke thickness, style, and transform. <br/> |
 
 
 
@@ -43,12 +49,12 @@ Determines whether the geometry's stroke contains the specified point.
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: The Properties property returns the Properties collection for the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0895ff50-4c7e-4d77-9710-a9d0e76c62d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0895ff50-4c7e-4d77-9710-a9d0e76c62d0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Properties property MMC", "Properties property MMC , SnapIn object", "SnapIn object MMC , Properties property", "Properties property MMC , SnapIn interface", "SnapIn interface MMC , Properties property"]
+keywords:
+- Properties property MMC
+- Properties property MMC , SnapIn object
+- SnapIn object MMC , Properties property
+- Properties property MMC , SnapIn interface
+- SnapIn interface MMC , Properties property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIn::Properties property
@@ -43,8 +51,8 @@ The [**Properties**](properties-collection.md) collection for the snap-in.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -59,9 +67,9 @@ The [**Properties**](properties-collection.md) collection for the snap-in.
 [**Properties collection**](properties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

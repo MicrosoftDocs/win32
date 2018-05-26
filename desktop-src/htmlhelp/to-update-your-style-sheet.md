@@ -1,7 +1,12 @@
 ---
 title: To update your style sheet
 description: You can make your expandable sections stand out by updating your style sheet with a new class.
-ms.assetid: '7745624E-2053-4771-A9EF-E8FB3720D30F'
+ms.assetid: 7745624E-2053-4771-A9EF-E8FB3720D30F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To update your style sheet

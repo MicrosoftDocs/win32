@@ -4,13 +4,16 @@ description: Deletes the IPv6 reservation(s) from the specified scope.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8e1a4936-937c-414d-8fd0-34979021e7c9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8e1a4936-937c-414d-8fd0-34979021e7c9
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByPrefix method", "RemoveByPrefix method, PS_DhcpServerv6Reservation class", "PS_DhcpServerv6Reservation class, RemoveByPrefix method"]
+keywords:
+- RemoveByPrefix method
+- RemoveByPrefix method, PS_DhcpServerv6Reservation class
+- PS_DhcpServerv6Reservation class, RemoveByPrefix method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByPrefix method of the PS\_DhcpServerv6Reservation class
@@ -30,10 +36,10 @@ Deletes the IPv6 reservation(s) from the specified scope.
 
 ```mof
 uint32 RemoveByPrefix(
-  [in]  string                  Prefix,
-  [in]  string                  ComputerName,
-  [in]  boolean                 PassThru,
-  [out] DhcpServerv6Reservation cmdletOutput[]
+  [in]  string                  Prefix,
+  [in]  string                  ComputerName,
+  [in]  boolean                 PassThru,
+  [out] DhcpServerv6Reservation cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv6Reservation**](dhcpserverv6reservatio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv6Reservation**](dhcpserverv6reservatio
 [**PS\_DhcpServerv6Reservation**](ps-dhcpserverv6reservation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

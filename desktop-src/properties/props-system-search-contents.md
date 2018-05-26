@@ -1,7 +1,12 @@
 ---
-Description: 'The contents of the item.'
-ms.assetid: 'ff66092d-b3e5-4a51-bfc2-d39d539dc19c'
-title: 'System.Search.Contents'
+Description: The contents of the item.
+ms.assetid: ff66092d-b3e5-4a51-bfc2-d39d539dc19c
+title: System.Search.Contents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.Contents

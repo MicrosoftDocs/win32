@@ -4,13 +4,16 @@ description: Retrieves a filtered list of metric values.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd636e2b2-df93-44bc-a9b4-ea5dd616b95d'
-ms.prod: 'windows-server-dev'
+ms.assetid: d636e2b2-df93-44bc-a9b4-ea5dd616b95d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetMetricValues method", "GetMetricValues method, CIM_MetricService class", "CIM_MetricService class, GetMetricValues method"]
+keywords:
+- GetMetricValues method
+- GetMetricValues method, CIM_MetricService class
+- CIM_MetricService class, GetMetricValues method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetMetricValues method of the CIM\_MetricService class
@@ -30,10 +36,10 @@ Retrieves a filtered list of metric values.
 
 ```mof
 uint32 GetMetricValues(
-  [in]  CIM_BaseMetricDefinition REF Definition,
-  [in]  uint16                       Range,
-  [in]  uint16                       Count,
-  [out] CIM_BaseMetricValue      REF Values[]
+  [in]  CIM_BaseMetricDefinition REF Definition,
+  [in]  uint16                       Range,
+  [in]  uint16                       Count,
+  [out] CIM_BaseMetricValue      REF Values[]
 );
 ```
 
@@ -76,14 +82,14 @@ Indicates how the metric value instances are selected. The algorithm for orderin
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Count* \[in\]
 </dt> <dd>
@@ -114,10 +120,10 @@ The possible return values are:
 **Failed** (2)
 </dt> <dt>
 
-**Method Reserved** (3–32767)
+**Method Reserved** (3 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -127,7 +133,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -141,9 +147,9 @@ The possible return values are:
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

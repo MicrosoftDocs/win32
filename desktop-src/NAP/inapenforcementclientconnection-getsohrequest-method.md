@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection GetSoHRequest method
 description: Gets the current SoH-Request.
-ms.assetid: '21397a0d-ef18-494e-9c5a-43d7f6216a67'
-keywords: ["GetSoHRequest method NAP", "GetSoHRequest method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , GetSoHRequest method"]
+ms.assetid: 21397a0d-ef18-494e-9c5a-43d7f6216a67
+keywords:
+- GetSoHRequest method NAP
+- GetSoHRequest method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , GetSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::GetSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::GetSoHRequest** method gets the current SoH-Request.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::GetSoHRequest** method gets the current S
 
 ```C++
 HRESULT GetSoHRequest(
-  [out] NetworkSoHRequest **sohRequest
+  [out] NetworkSoHRequest **sohRequest
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetSoHRequest(
 *sohRequest* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**NetworkSoHRequest**](networksoh-struct.md) structure, which is an opaque data blob to the enforcer.
+A pointer to a pointer to a [**NetworkSoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagnetworksoh?branch=master) structure, which is an opaque data blob to the enforcer.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,8 +80,8 @@ A zero byte length SoH packet is invalid.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -87,9 +95,9 @@ A zero byte length SoH packet is invalid.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

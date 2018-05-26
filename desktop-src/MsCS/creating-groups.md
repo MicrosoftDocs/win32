@@ -1,14 +1,18 @@
 ---
 title: Creating Groups
-description: Creating a group involves adding and configuring the individual resources in the group and adjusting the group's properties so that the group is ready to be brought online.
+description: Creating a group involves adding and configuring the individual resources in the group and adjusting the groups properties so that the group is ready to be brought online.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c6309c0e-fe81-4946-a333-efc5d2a7cb48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c6309c0e-fe81-4946-a333-efc5d2a7cb48
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["groups Failover Cluster ,creating"]
+keywords:
+- groups Failover Cluster ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Groups
@@ -23,11 +27,11 @@ The following sections describe the tasks associated with creating groups.
 
 1.  Obtain a cluster handle. (See [Using Object Handles](using-object-handles.md).)
 2.  Obtain a unique group name. To list the names of groups currently defined in the cluster, see [Enumerating Objects](enumerating-objects.md).
-3.  Create the group by calling [**CreateClusterGroup**](createclustergroup.md).
-4.  Add resources to the group. To move existing resources into the group, call [**ChangeClusterResourceGroup**](changeclusterresourcegroup.md). To create new resources in the group, see [Creating Resources](creating-resources.md).
+3.  Create the group by calling [**CreateClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_create_cluster_group?branch=master).
+4.  Add resources to the group. To move existing resources into the group, call [**ChangeClusterResourceGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_change_cluster_resource_group?branch=master). To create new resources in the group, see [Creating Resources](creating-resources.md).
 5.  Set properties, checkpoints, possible owners, and dependencies for the resources. (See [Configuring Resources](configuring-resources.md).)
 6.  Adjust the group's failover policies. (For the properties that affect failover, see [Failover](failover.md) and [Failback](failback.md). For information on changing properties, see [Setting Properties](setting-properties.md).)
-7.  If necessary, modify the group's preferred owner nodes list by calling [**SetClusterGroupNodeList**](setclustergroupnodelist.md).
+7.  If necessary, modify the group's preferred owner nodes list by calling [**SetClusterGroupNodeList**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_group_node_list?branch=master).
 
 ## Example Code
 

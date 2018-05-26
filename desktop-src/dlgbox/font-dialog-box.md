@@ -1,23 +1,40 @@
 ---
 title: Font Dialog Box
 description: The Font dialog box lets the user choose attributes for a logical font, such as font family and associated font style, point size, effects (underline, strikeout, and text color), and a script (or character set).
-ms.assetid: 'e8a996aa-4e34-45d0-a325-9c20b1a6ce07'
-keywords: ["Windows User Interface,user input", "Windows User Interface,Common Dialog Box Library", "user input,Common Dialog Box Library", "capturing user input,Common Dialog Box Library", "Common Dialog Box Library", "common dialog boxes", "Font dialog box", "customizing Font dialog box", "flags,Font dialog box", "initialization flags", "predefined dialog boxes", "dialog boxes,Font"]
+ms.assetid: e8a996aa-4e34-45d0-a325-9c20b1a6ce07
+keywords:
+- Windows User Interface,user input
+- Windows User Interface,Common Dialog Box Library
+- user input,Common Dialog Box Library
+- capturing user input,Common Dialog Box Library
+- Common Dialog Box Library
+- common dialog boxes
+- Font dialog box
+- customizing Font dialog box
+- flags,Font dialog box
+- initialization flags
+- predefined dialog boxes
+- dialog boxes,Font
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font Dialog Box
 
 The **Font** dialog box lets the user choose attributes for a logical font, such as font family and associated font style, point size, effects (underline, strikeout, and text color), and a script (or character set).
 
-You create and display a **Font** dialog box by initializing a [**CHOOSEFONT**](choosefont-str.md) structure and passing the structure to the [**ChooseFont**](choosefont.md) function.
+You create and display a **Font** dialog box by initializing a [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure and passing the structure to the [**ChooseFont**](choosefont.md) function.
 
 The following screen shot shows a typical **Font** dialog box.
 
 ![screen shot showing the font dialog box](images/fontdialogboxxp.png)
 
-If the user clicks the **OK** button, the [**ChooseFont**](choosefont.md) function returns **TRUE** and sets the information about the user's selection in the [**CHOOSEFONT**](choosefont-str.md) structure.
+If the user clicks the **OK** button, the [**ChooseFont**](choosefont.md) function returns **TRUE** and sets the information about the user's selection in the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure.
 
-If the user cancels the **Font** dialog box or an error occurs, [**ChooseFont**](choosefont.md) returns **FALSE** and the contents of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure are not defined. You can determine the cause of an error by using the [**CommDlgExtendedError**](commdlgextendederror.md) function to retrieve the extended error value.
+If the user cancels the **Font** dialog box or an error occurs, [**ChooseFont**](choosefont.md) returns **FALSE** and the contents of the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure are not defined. You can determine the cause of an error by using the [**CommDlgExtendedError**](/windows/win32/Commdlg/nf-commdlg-commdlgextendederror?branch=master) function to retrieve the extended error value.
 
 The following topics are discussed in this section.
 
@@ -27,17 +44,17 @@ The following topics are discussed in this section.
 
 ## Font Dialog Box Initialization Flags
 
-Before calling [**ChooseFont**](choosefont.md), the **Flags** member of the [**CHOOSEFONT**](choosefont-str.md) structure must specify **CF\_SCREENFONTS**, **CF\_PRINTERFONTS**, or **CF\_BOTH**, to indicate whether the dialog box should list screen fonts, printer fonts, or both. If you specify **CF\_PRINTERFONTS** or **CF\_BOTH**, the **hDC** member of the **CHOOSEFONT** structure must specify a handle to a device context for the printer.
+Before calling [**ChooseFont**](choosefont.md), the **Flags** member of the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure must specify **CF\_SCREENFONTS**, **CF\_PRINTERFONTS**, or **CF\_BOTH**, to indicate whether the dialog box should list screen fonts, printer fonts, or both. If you specify **CF\_PRINTERFONTS** or **CF\_BOTH**, the **hDC** member of the **CHOOSEFONT** structure must specify a handle to a device context for the printer.
 
 If the **CF\_PRINTERFONTS** or **CF\_BOTH** flag is set, the font type description label appears at the bottom of the **Font** dialog box.
 
 Starting with Windows 7, the **CF\_PRINTERFONTS**, **CF\_SCREENFONTS**, **CF\_BOTH**, and **CF\_WYSIWYG** flags are no longer used by the [**ChooseFont**](choosefont.md) function for font enumeration. They are obsolete in Windows 7. However, the **CF\_PRINTERFONTS** flag retains one function: to display the font type description label at the bottom of the **Font** dialog box.
 
-You can use the **Flags** member to enable or disable some of the **Font** dialog box controls, and you can use the **Flags** member in conjunction with other [**CHOOSEFONT**](choosefont-str.md) members to control the initial values of some controls.
+You can use the **Flags** member to enable or disable some of the **Font** dialog box controls, and you can use the **Flags** member in conjunction with other [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) members to control the initial values of some controls.
 
 **To display the controls that allow the user to select strikeout, underline, and color options:**
 
--   Set the **CF\_EFFECTS** flag. You can use the **rgbColors** member of the [**CHOOSEFONT**](choosefont-str.md) structure to specify an initial font color.
+-   Set the **CF\_EFFECTS** flag. You can use the **rgbColors** member of the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify an initial font color.
 
 **To specify the initial values for the Font, Font Style, Size, Strikeout, and Underline dialog box controls:**
 
@@ -84,7 +101,7 @@ You can provide a custom template for the **Font** dialog box, for example, if y
 **To provide a custom template for the Font dialog box**
 
 1.  Create the custom template by modifying the default template specified in the Font.dlg file. The control identifiers used in the default Font dialog template are defined in the Dlgs.h file.
-2.  Use the [**CHOOSEFONT**](choosefont-str.md) structure to enable the template as follows:
+2.  Use the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to enable the template as follows:
     -   If your custom template is a resource in an application or dynamic link library, set the **CF\_ENABLETEMPLATE** flag in the **Flags** member. Use the **hInstance** and **lpTemplateName** members of the structure to identify the module and resource name.
     -   If your custom template is already in memory, set the **CF\_ENABLETEMPLATEHANDLE** flag. Use the **hInstance** member to identify the memory object that contains the template.
 
@@ -92,10 +109,10 @@ You can provide a [**CFHookProc**](cfhookproc.md) hook procedure for the **Font*
 
 **To enable a hook procedure for the Font dialog box**
 
-1.  Set the **CF\_ENABLEHOOK** flag in the **Flags** member of the [**CHOOSEFONT**](choosefont-str.md) structure.
+1.  Set the **CF\_ENABLEHOOK** flag in the **Flags** member of the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure.
 2.  Specify the address of the hook procedure in the **lpfnHook** member.
 
-After processing the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**CHOOSEFONT**](choosefont-str.md) structure that is used to initialize the dialog box.
+After processing the [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the hook procedure. The *lParam* parameter of this message is a pointer to the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure that is used to initialize the dialog box.
 
 The hook procedure can send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md), [**WM\_CHOOSEFONT\_SETLOGFONT**](wm-choosefont-setlogfont.md), and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages to the dialog box to get and set the current values and flags of the dialog box.
 

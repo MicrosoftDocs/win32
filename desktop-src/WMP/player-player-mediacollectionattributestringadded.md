@@ -1,8 +1,11 @@
 ---
 title: Player.MediaCollectionAttributeStringAdded event
 description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library.
-ms.assetid: '0a7fd61f-0429-4c1c-8790-d2f0e7f41d44'
-keywords: ["MediaCollectionAttributeStringAdded event Windows Media Player", "MediaCollectionAttributeStringAdded event Windows Media Player , Player class", "Player class Windows Media Player , MediaCollectionAttributeStringAdded event"]
+ms.assetid: 0a7fd61f-0429-4c1c-8790-d2f0e7f41d44
+keywords:
+- MediaCollectionAttributeStringAdded event Windows Media Player
+- MediaCollectionAttributeStringAdded event Windows Media Player , Player class
+- Player class Windows Media Player , MediaCollectionAttributeStringAdded event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaCollectionAttributeStringAdded event
@@ -83,9 +91,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player.mediaCollection**](player-mediacollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

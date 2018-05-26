@@ -1,7 +1,12 @@
 ---
 title: To create a two-frame HTML frameset
 description: To create a two-frame HTML frameset
-ms.assetid: '0E674302-2B78-440f-80A1-F3C9DFB39E92'
+ms.assetid: 0E674302-2B78-440f-80A1-F3C9DFB39E92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a two-frame HTML frameset

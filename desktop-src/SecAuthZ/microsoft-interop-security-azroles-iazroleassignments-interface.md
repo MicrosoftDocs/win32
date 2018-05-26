@@ -1,7 +1,12 @@
 ---
-Description: 'Links to documentation for the IAzRoleAssignments interoperability wrapper methods and properties.'
-ms.assetid: '7aa691c9-0daa-4956-993f-973eaae081f6'
-title: 'Microsoft.Interop.Security.AzRoles.IAzRoleAssignments interface'
+Description: Links to documentation for the IAzRoleAssignments interoperability wrapper methods and properties.
+ms.assetid: 7aa691c9-0daa-4956-993f-973eaae081f6
+title: Microsoft.Interop.Security.AzRoles.IAzRoleAssignments interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft.Interop.Security.AzRoles.IAzRoleAssignments interface
@@ -23,11 +28,11 @@ The **Microsoft.Interop.Security.AzRoles.IAzRoleAssignments** interface has thes
 
 | Method                                                                  | Description                                                                     |
 |:------------------------------------------------------------------------|:--------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzRoleAssignments.GetEnumerator** | [**IAzRoleAssignments::\_NewEnum**](iazroleassignments--newenum.md)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzRoleAssignments.GetEnumerator** | [**IAzRoleAssignments::\_NewEnum**](/windows/win32/Azroles/nf-azroles-iazroleassignments-get__newenum?branch=master)<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -37,12 +42,12 @@ The **Microsoft.Interop.Security.AzRoles.IAzRoleAssignments** interface has thes
 
 | Property                                                                   | Access type          | Description                                                                         |
 |:---------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------------------------------|
-| **Microsoft.Interop.Security.Azroles.IAzRoleAssignments.Count**<br/> | Read-only<br/> | [**Count Property of IAzRoleAssignments**](iazroleassignments-count.md)<br/> |
-| **Microsoft.Interop.Security.Azroles.IAzRoleAssignments.Item**<br/>  | Read-only<br/> | [**Item Property of IAzRoleAssignments**](iazroleassignments-item.md)<br/>   |
+| **Microsoft.Interop.Security.Azroles.IAzRoleAssignments.Count**<br/> | Read-only<br/> | [**Count Property of IAzRoleAssignments**](/windows/win32/Azroles/nf-azroles-iazroleassignments-get_count?branch=master)<br/> |
+| **Microsoft.Interop.Security.Azroles.IAzRoleAssignments.Item**<br/>  | Read-only<br/> | [**Item Property of IAzRoleAssignments**](/windows/win32/Azroles/nf-azroles-iazroleassignments-get_item?branch=master)<br/>   |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,9 +59,9 @@ The **Microsoft.Interop.Security.AzRoles.IAzRoleAssignments** interface has thes
 
 
 
- 
+ 
 
- 
+ 
 
 
 

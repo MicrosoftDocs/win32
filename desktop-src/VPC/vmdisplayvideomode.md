@@ -1,8 +1,9 @@
 ---
 title: VMDisplayVideoMode enumeration
 description: Specifies the display video mode.
-ms.assetid: '9ffd1bb5-115d-4554-92c6-5dcf86f904a5'
-keywords: ["VMDisplayVideoMode enumeration Virtual PC"]
+ms.assetid: 9ffd1bb5-115d-4554-92c6-5dcf86f904a5
+keywords:
+- VMDisplayVideoMode enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMDisplayVideoMode enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the display video mode.
 
@@ -24,10 +30,10 @@ Specifies the display video mode.
 
 ```C++
 typedef enum  { 
-  vmVideoMode_TextMode  = 0,
-  vmVideoMode_CGAMode   = 1,
-  vmVideoMode_VGAMode   = 2,
-  vmVideoMode_SVGAMode  = 3
+  vmVideoMode_TextMode  = 0,
+  vmVideoMode_CGAMode   = 1,
+  vmVideoMode_VGAMode   = 2,
+  vmVideoMode_SVGAMode  = 3
 } VMDisplayVideoMode;
 ```
 
@@ -71,9 +77,9 @@ SVGA mode.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -86,9 +92,9 @@ SVGA mode.
 [**IVMDisplay::VideoMode**](ivmdisplay-videomode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents the Cluster service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '25a9e7c0-5d9a-4459-ae1d-ed0a938ec5e1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 25a9e7c0-5d9a-4459-ae1d-ed0a938ec5e1
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_Service class", "MSCluster_Service class, described"]
+keywords:
+- MSCluster_Service class
+- MSCluster_Service class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_Service class
@@ -46,19 +51,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{8F9030D0-9149-4113-9ADD-6F2101285E5D}"), AMENDMENT]
 class MSCluster_Service : CIM_ClusteringService
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   StartMode;
-  boolean  Started;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   NodeHighestVersion;
-  uint32   NodeLowestVersion;
-  string   State;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   StartMode;
+  boolean  Started;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   NodeHighestVersion;
+  uint32   NodeLowestVersion;
+  string   State;
 };
 ```
 
@@ -82,7 +87,7 @@ The **MSCluster\_Service** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -418,7 +423,7 @@ The **MSCluster\_Service** class is derived from the [**CIM\_ClusteringService**
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -435,9 +440,9 @@ The **MSCluster\_Service** class is derived from the [**CIM\_ClusteringService**
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

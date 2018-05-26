@@ -1,7 +1,12 @@
 ---
-Description: 'Represents storage drive media and is used to populate the storage drives.'
-ms.assetid: '06955C09-CA56-4B4C-997B-9B65AF125375'
-title: 'Msvm\_LogicalDisk class'
+Description: Represents storage drive media and is used to populate the storage drives.
+ms.assetid: 06955C09-CA56-4B4C-997B-9B65AF125375
+title: Msvm\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_LogicalDisk class
@@ -16,63 +21,63 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_LogicalDisk : CIM_LogicalDisk
 {
-  string   InstanceID;
-  string   Caption;
-  uint64   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  uint64   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  uint16   CreationClassName = "Msvm_LogicalDisk";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = { 6 };
-  uint64   MaxQuiesceTime;
-  uint16   DataOrganization = 2;
-  string   Purpose;
-  uint16   Access;
-  string   ErrorMethodology;
-  uint64   BlockSize = 512;
-  uint64   NumberOfBlocks = 266338304;
-  uint64   ConsumableBlocks = 0;
-  boolean  IsBasedOnUnderlyingRedundancy = False;
-  boolean  SequentialAccess = False;
-  uint16   ExtentStatus[] = { 2 };
-  boolean  NoSinglePointOfFailure = False;
-  uint16   DataRedundancy = 0;
-  uint16   PackageRedundancy = 0;
-  uint8    DeltaReservation = 0;
-  boolean  Primordial = False;
-  uint16   NameFormat = 12;
-  uint16   NameNamespace = 8;
-  string   OtherNameNamespace;
-  string   OtherNameFormat;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  uint16   CreationClassName = "Msvm_LogicalDisk";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = { 6 };
+  uint64   MaxQuiesceTime;
+  uint16   DataOrganization = 2;
+  string   Purpose;
+  uint16   Access;
+  string   ErrorMethodology;
+  uint64   BlockSize = 512;
+  uint64   NumberOfBlocks = 266338304;
+  uint64   ConsumableBlocks = 0;
+  boolean  IsBasedOnUnderlyingRedundancy = False;
+  boolean  SequentialAccess = False;
+  uint16   ExtentStatus[] = { 2 };
+  boolean  NoSinglePointOfFailure = False;
+  uint16   DataRedundancy = 0;
+  uint16   PackageRedundancy = 0;
+  uint8    DeltaReservation = 0;
+  boolean  Primordial = False;
+  uint16   NameFormat = 12;
+  uint16   NameNamespace = 8;
+  string   OtherNameNamespace;
+  string   OtherNameFormat;
 };
 ```
 
@@ -102,7 +107,7 @@ The **Msvm\_LogicalDisk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -133,7 +138,7 @@ Indicates whether the media is readable, writeable, or both. This property is in
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -156,7 +161,7 @@ Any additional availability and status of the device. This property is inherited
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -179,7 +184,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -290,7 +295,7 @@ The type of data organization used. This property is inherited from [**CIM\_Stor
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -464,7 +469,7 @@ Any additional status information beyond that captured in the **OperationalStatu
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -595,7 +600,7 @@ This property is inherited from [**CIM\_StorageExtent**](https://msdn.microsoft.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -619,7 +624,7 @@ This property is inherited from [**CIM\_StorageExtent**](https://msdn.microsoft.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -682,16 +687,16 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 
 | Value                                                                                                                                                                                                    | Description                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| <span id="_Insufficient_Throughput___32788_"></span><span id="_insufficient_throughput___32788_"></span><span id="_INSUFFICIENT_THROUGHPUT___32788_"></span>“Insufficient Throughput” (32788)<br/> | The requested minimum IOPS rate is currently not available to the device. <br/> |
+| <span id="_Insufficient_Throughput___32788_"></span><span id="_insufficient_throughput___32788_"></span><span id="_INSUFFICIENT_THROUGHPUT___32788_"></span> Insufficient Throughput  (32788)<br/> | The requested minimum IOPS rate is currently not available to the device. <br/> |
 
 
 
- 
+ 
 
 > [!Note]  
 > OperationalStatus is also used to report other error or warning conditions (for example, protocol mismatch between VSP and VSC). If multiple conditions exists, the primary status is set Degraded, and one or more secondary status values, in any order starting at index 1, is filled in the array.
 
- 
+ 
 
 <dt>
 
@@ -724,9 +729,9 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -752,9 +757,9 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -773,9 +778,9 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -801,9 +806,9 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -815,9 +820,9 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -829,9 +834,9 @@ When the required QoS level for the virtual disk can't be satisfied, the primary
 </dt> <dd>
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> </dl>
 
@@ -1120,8 +1125,8 @@ Access to the **Msvm\_LogicalDisk** class might be restricted by UAC Filtering. 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1144,9 +1149,9 @@ Access to the **Msvm\_LogicalDisk** class might be restricted by UAC Filtering. 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

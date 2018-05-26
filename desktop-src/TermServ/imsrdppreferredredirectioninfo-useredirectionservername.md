@@ -4,11 +4,14 @@ description: Gets and sets whether to use the redirection server name.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D2239600-D75D-40FB-A6D0-4C7C4C5163E3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: D2239600-D75D-40FB-A6D0-4C7C4C5163E3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["UseRedirectionServerName property Remote Desktop Services", "UseRedirectionServerName property Remote Desktop Services , IMsRdpPreferredRedirectionInfo interface", "IMsRdpPreferredRedirectionInfo interface Remote Desktop Services , UseRedirectionServerName property"]
+keywords:
+- UseRedirectionServerName property Remote Desktop Services
+- UseRedirectionServerName property Remote Desktop Services , IMsRdpPreferredRedirectionInfo interface
+- IMsRdpPreferredRedirectionInfo interface Remote Desktop Services , UseRedirectionServerName property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpPreferredRedirectionInfo::UseRedirectionServerName property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_UseRedirectionServerName(
-  [in]  VARIANT_BOOL UseRedirectionServerName
+  [in]  VARIANT_BOOL UseRedirectionServerName
 );
 
 HRESULT get_UseRedirectionServerName(
-  [out] VARIANT_BOOL *UseRedirectionServerName
+  [out] VARIANT_BOOL *UseRedirectionServerName
 );
 ```
 
@@ -52,8 +58,8 @@ Whether to use the redirection server name.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported client<br/> | Windows 8<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpPreferredRedirectionInfo is defined as FDD029F9-9574-4DEF-8529-64B521CCCAA4<br/> |
@@ -67,9 +73,9 @@ Whether to use the redirection server name.
 [**IMsRdpPreferredRedirectionInfo**](imsrdppreferredredirectioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

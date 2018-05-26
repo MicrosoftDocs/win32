@@ -1,7 +1,12 @@
 ---
 title: Operators on Tables
 description: Operators on Tables
-ms.assetid: '595ab22b-2f4a-4873-9728-40be75f22c19'
+ms.assetid: 595ab22b-2f4a-4873-9728-40be75f22c19
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators on Tables

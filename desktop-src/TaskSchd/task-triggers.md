@@ -1,8 +1,20 @@
 ---
 title: Task Triggers
 description: A trigger is a set of criteria that, when met, starts the execution of a task.
-ms.assetid: '8b4dff8b-9dc3-4856-aed6-648588a089be'
-keywords: ["creating triggers Task Scheduler", "triggers Task Scheduler", "triggers Task Scheduler , described", "triggers Task Scheduler , time-based", "triggers Task Scheduler , event-based", "event-based triggers Task Scheduler", "time-based triggers Task Scheduler"]
+ms.assetid: 8b4dff8b-9dc3-4856-aed6-648588a089be
+keywords:
+- creating triggers Task Scheduler
+- triggers Task Scheduler
+- triggers Task Scheduler , described
+- triggers Task Scheduler , time-based
+- triggers Task Scheduler , event-based
+- event-based triggers Task Scheduler
+- time-based triggers Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Triggers

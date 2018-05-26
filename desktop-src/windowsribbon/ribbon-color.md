@@ -1,8 +1,16 @@
 ---
 title: Customizing Ribbon Colors
 description: The Windows Ribbon framework exposes a set of color properties that allow an application to customize the appearance of various Ribbon UI elements at run time.
-ms.assetid: 'e070aaca-d350-4336-8e5d-d5d9c8167287'
-keywords: ["Windows Ribbon,customizing colors", "Ribbon,customizing colors", "customizing Windows Ribbon colors"]
+ms.assetid: e070aaca-d350-4336-8e5d-d5d9c8167287
+keywords:
+- Windows Ribbon,customizing colors
+- Ribbon,customizing colors
+- customizing Windows Ribbon colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing Ribbon Colors
@@ -21,12 +29,12 @@ The [framework property keys](windowsribbon-reference-properties-framework.md) l
 | Ribbon Color                     | Framework Property Key                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Background color                 | [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md)                                                                                                                                                                                                                                                                                                                                                                 |
-| Highlight color (Windows 7 only) | [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)****Introduced in Windows 8**:  ** [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) cannot be set independently of [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).<br/> <br/>                                                              |
-| Text color                       | [UI\_PKEY\_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md)****Introduced in Windows 8**:** Changes to the default value of [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) in Windows 8 might require an adjustment to [UI\_PKEY\_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) in Ribbon apps designed for Windows 7.<br/> <br/> |
+| Highlight color (Windows 7 only) | [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md)****Introduced in Windows 8**:  ** [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) cannot be set independently of [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).<br/> <br/>                                                              |
+| Text color                       | [UI\_PKEY\_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md)****Introduced in Windows 8**:** Changes to the default value of [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md) in Windows 8 might require an adjustment to [UI\_PKEY\_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) in Ribbon apps designed for Windows 7.<br/> <br/> |
 
 
 
- 
+ 
 
 ## Specify Ribbon Colors
 
@@ -34,7 +42,7 @@ The Ribbon framework uses a Hue, Saturation, Brightness (HSB) color model, which
 
 To specify the color of UI elements in the Ribbon framework, an application assigns HSB values to each of the global color properties. These values are then applied universally across all Ribbon elements as required by the Ribbon application (the framework does not support assigning HSB values to individual elements and controls).
 
-****Introduced in Windows 8**:  **[UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) is assigned the same value as [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
+****Introduced in Windows 8**:  **[UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) is assigned the same value as [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
 
 The following table describes the Ribbon framework HSB parameters.
 
@@ -68,16 +76,16 @@ The overall brightness or darkness of the color measured as a percentage from 0 
 
 
 
- 
+ 
 
 HSB values do not identify specific colors. Instead, the combination of HSB property values influences how color gradients throughout the UI are adjusted relative to each other.
 
 When assigning custom HSB values to [UI\_PKEY\_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md) and [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md), it is recommended that these values be of high enough contrast to ensure readability. Specifically, the text color should be darker than the lightest shade of the ribbon UI. Where necessary, the framework automatically adjusts the UI\_PKEY\_GlobalTextColor HSB value to provide sufficient contrast against any background shade or gradient derived from UI\_PKEY\_GlobalBackgroundColor.
 
 > [!Note]  
-> In Windows 7, [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) can be set independently of [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
+> In Windows 7, [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) can be set independently of [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md).
 
- 
+ 
 
 The following example demonstrates how to specify a custom color for the [UI\_PKEY\_GlobalTextColor](windowsribbon-reference-properties-uipkey-globaltextcolor.md), [UI\_PKEY\_GlobalBackgroundColor](windowsribbon-reference-properties-uipkey-globalbackgroundcolor.md), and [UI\_PKEY\_GlobalHighlightColor](windowsribbon-reference-properties-uipkey-globalhighlightcolor.md) properties.
 
@@ -123,13 +131,13 @@ A preliminary conversion is necessary to obtain an intermediate HSL value. This 
 > [!Note]  
 > The conversion from RGB to HSL is easily accomplished with most photo editing software.
 
- 
+ 
 
 Conversion of HSL (with each component in the range of 0.0 to 1.0) to a Ribbon HSB setting is accomplished through the following formulas:
 
--   H<sub>background</sub> = Round(255.0×H)
--   S<sub>background</sub> = Round(255.0×S)
--   B<sub>background</sub> = Round(257.7 + 149.9×ln(L)) if 0.1793 &lt;= L &lt;= 0.9821
+-   H<sub>background</sub> = Round(255.0 H)
+-   S<sub>background</sub> = Round(255.0 S)
+-   B<sub>background</sub> = Round(257.7 + 149.9 ln(L)) if 0.1793 &lt;= L &lt;= 0.9821
 
 ## Related topics
 
@@ -141,9 +149,9 @@ Conversion of HSL (with each component in the range of 0.0 to 1.0) to a Ribbon H
 [Framework Properties](windowsribbon-reference-properties-framework.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

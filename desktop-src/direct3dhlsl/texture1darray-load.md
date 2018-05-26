@@ -1,12 +1,18 @@
 ---
 title: Texture1DArray Load methods
 description: Reads texture data.
-ms.assetid: '8B7DA310-DE75-4B22-83F4-19EF3721A5E6'
-keywords: ["Load methods HLSL"]
+ms.assetid: 8B7DA310-DE75-4B22-83F4-19EF3721A5E6
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1DArray::Load methods
@@ -31,9 +37,9 @@ Reads texture data.
 [**Texture1DArray**](sm5-object-texture1darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

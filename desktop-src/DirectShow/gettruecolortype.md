@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTrueColorType function retrieves the human-readable name of a video subtype.'
-ms.assetid: '479a020c-b55c-44ec-9096-5528113a4b74'
+Description: The GetTrueColorType function retrieves the human-readable name of a video subtype.
+ms.assetid: 479a020c-b55c-44ec-9096-5528113a4b74
 title: GetTrueColorType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetTrueColorType function
@@ -13,7 +18,7 @@ The **GetTrueColorType** function retrieves the human-readable name of a video s
 
 ```C++
 const GUID GetTrueColorType(
-   const BITMAPINFOHEADER *pHeader
+   const BITMAPINFOHEADER *pHeader
 );
 ```
 
@@ -26,7 +31,7 @@ const GUID GetTrueColorType(
 *pHeader* 
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure that defines the bitmap.
+Pointer to a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure that defines the bitmap.
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns MEDIASUBTYPE\_RGB555 or MEDIASUBTYPE\_RGB565.
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

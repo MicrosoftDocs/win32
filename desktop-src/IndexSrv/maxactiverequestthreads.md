@@ -1,7 +1,12 @@
 ---
 title: MaxActiveRequestThreads
 description: MaxActiveRequestThreads
-ms.assetid: '5a2f1914-e422-4a9a-82a6-f479bb6f717d'
+ms.assetid: 5a2f1914-e422-4a9a-82a6-f479bb6f717d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxActiveRequestThreads

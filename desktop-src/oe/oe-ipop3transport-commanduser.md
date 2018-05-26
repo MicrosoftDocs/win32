@@ -1,8 +1,11 @@
 ---
 title: IPOP3Transport CommandUSER method
 description: Sends the USER command to the server.
-ms.assetid: 'ade07483-6f17-4756-8810-7e069794a549'
-keywords: ["CommandUSER method Windows Mail (formerly Outlook Express)", "CommandUSER method Windows Mail (formerly Outlook Express) , IPOP3Transport interface", "IPOP3Transport interface Windows Mail (formerly Outlook Express) , CommandUSER method"]
+ms.assetid: ade07483-6f17-4756-8810-7e069794a549
+keywords:
+- CommandUSER method Windows Mail (formerly Outlook Express)
+- CommandUSER method Windows Mail (formerly Outlook Express) , IPOP3Transport interface
+- IPOP3Transport interface Windows Mail (formerly Outlook Express) , CommandUSER method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPOP3Transport::CommandUSER method
@@ -24,7 +32,7 @@ Sends the USER command to the server.
 
 ```C++
 HRESULT CommandUSER(
-  [in] LPSTR pszUserName
+  [in] LPSTR pszUserName
 );
 ```
 
@@ -62,7 +70,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,8 +78,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -79,9 +87,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

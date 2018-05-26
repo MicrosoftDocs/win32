@@ -1,11 +1,14 @@
 ---
-Description: 'Asynchronously uninstalls a server component from a managed node.'
+Description: Asynchronously uninstalls a server component from a managed node.
 audience: developer
-ms.assetid: '4f3ec14f-72c9-4884-8635-d5e7c385ea50'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4f3ec14f-72c9-4884-8635-d5e7c385ea50
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'RemoveServerComponentAsync method of the MSFT\_ServerManagerDeploymentTasks class'
+title: RemoveServerComponentAsync method of the MSFT\_ServerManagerDeploymentTasks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveServerComponentAsync method of the MSFT\_ServerManagerDeploymentTasks class
@@ -17,10 +20,10 @@ Asynchronously uninstalls a server component from a managed node.
 
 ```mof
 uint32 RemoveServerComponentAsync(
-  [in]  MSFT_ServerManagerRequestGuid               RequestGuid,
-  [in]  Boolean                                     DeleteComponents,
-  [in]  MSFT_ServerManagerServerComponentDescriptor ServerComponentDescriptors[],
-  [out] MSFT_ServerManagerRequestState              AlterationState
+  [in]  MSFT_ServerManagerRequestGuid               RequestGuid,
+  [in]  Boolean                                     DeleteComponents,
+  [in]  MSFT_ServerManagerServerComponentDescriptor ServerComponentDescriptors[],
+  [out] MSFT_ServerManagerRequestState              AlterationState
 );
 ```
 
@@ -65,7 +68,7 @@ A string that receives the state of this deployment request.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -79,9 +82,9 @@ A string that receives the state of this deployment request.
 [**MSFT\_ServerManagerDeploymentTasks**](msft-servermanagerdeploymenttasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

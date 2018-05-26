@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 37 when the standard actions are insufficient to execute the installation.'
-ms.assetid: '1c1e4f4f-1ccb-444c-940a-a1963d97714d'
+Description: Developers of Windows Installer packages may choose to use a custom action type 37 when the standard actions are insufficient to execute the installation.
+ms.assetid: 1c1e4f4f-1ccb-444c-940a-a1963d97714d
 title: Custom Action Type 37
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 37

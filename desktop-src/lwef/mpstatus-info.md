@@ -1,8 +1,10 @@
 ---
 title: MPSTATUS\_INFO structure
 description: Status information for the malware protection manager.
-ms.assetid: '614F14EC-64CC-4E3F-8A89-42AA1E0DC95D'
-keywords: ["MPSTATUS_INFO structure Legacy Windows Environment Features", "PMPSTATUS_INFO structure pointer Legacy Windows Environment Features"]
+ms.assetid: 614F14EC-64CC-4E3F-8A89-42AA1E0DC95D
+keywords:
+- MPSTATUS_INFO structure Legacy Windows Environment Features
+- PMPSTATUS_INFO structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSTATUS\_INFO structure
@@ -22,13 +29,13 @@ Status information for the malware protection manager.
 
 ```C++
 typedef struct tagMPSTATUS_INFO {
-  DWORD               ProductStatus;
-  MPSCAN_RESULT       LastQuickScan;
-  MPSCAN_RESULT       LastFullScan;
-  MPTHREAT_STATS      ThreatStats;
+  DWORD               ProductStatus;
+  MPSCAN_RESULT       LastQuickScan;
+  MPSCAN_RESULT       LastFullScan;
+  MPTHREAT_STATS      ThreatStats;
   MPTHREAT_STATS_DATA ThreatState[MP_THREAT_STAT_MAX_VALUE+1];
-  MPCOMPONENT_STATUS  Component[MPCOMPONENT_MAXVALUE+1];
-  ULARGE_INTEGER      ProductExpirationTime;
+  MPCOMPONENT_STATUS  Component[MPCOMPONENT_MAXVALUE+1];
+  ULARGE_INTEGER      ProductExpirationTime;
 } MPSTATUS_INFO, *PMPSTATUS_INFO;
 ```
 
@@ -121,8 +128,8 @@ Product expiration timestamp in UNC. This is valid only if the expiration status
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -149,9 +156,9 @@ Product expiration timestamp in UNC. This is valid only if the expiration status
 [**MPTHREAT\_STATS\_DATA**](mpthreat-stats-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

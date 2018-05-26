@@ -2,12 +2,15 @@
 title: DnsServerPSProvider Provider
 description: The DnsServerPSProvider provider supports WMI classes that interact with a Domain Name System (DNS) server.
 audience: developer
-ms.assetid: '99914F9C-C08B-4037-BEBE-B48A1E3EE524'
-ms.prod: 'windows-server-dev'
+ms.assetid: 99914F9C-C08B-4037-BEBE-B48A1E3EE524
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerPSProvider Provider

@@ -1,13 +1,16 @@
 ---
-Description: 'The components that make up the AD RMS administration architecture.'
+Description: The components that make up the AD RMS administration architecture.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '4b3e15bb-7507-4068-b1b5-8f9137a9ef36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 4b3e15bb-7507-4068-b1b5-8f9137a9ef36
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Administration Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Administration Architecture

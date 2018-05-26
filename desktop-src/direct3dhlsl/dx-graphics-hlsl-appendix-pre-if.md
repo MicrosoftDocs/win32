@@ -1,14 +1,20 @@
 ---
-title: \ if, \ elif, \ else, and \ endif Directives
+title: '\ if, \ elif, \ else, and \ endif Directives'
 description: Preprocessor directives that control compilation of portions of a source file.
-ms.assetid: 'f29e5a9b-cc0c-4fca-aac7-809a226eda58'
-keywords: ["if, elif, else, and endif Directives HLSL"]
+ms.assetid: f29e5a9b-cc0c-4fca-aac7-809a226eda58
+keywords:
+- if, elif, else, and endif Directives HLSL
 topic_type:
 - apiref
 api_name:
 - if, elif, else, and endif Directives
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#if, \#elif, \#else, and \#endif Directives
@@ -25,7 +31,7 @@ Preprocessor directives that control compilation of portions of a source file.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -38,7 +44,7 @@ Preprocessor directives that control compilation of portions of a source file.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -139,9 +145,9 @@ class Example
 [Preprocessor Directives (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

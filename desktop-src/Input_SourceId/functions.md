@@ -1,7 +1,12 @@
 ---
-Description: 'The topics in this section provide the reference specifications for Input Source Identification functions.'
-ms.assetid: '382D60F5-9E21-4881-915F-A5F0257A701D'
+Description: The topics in this section provide the reference specifications for Input Source Identification functions.
+ms.assetid: 382D60F5-9E21-4881-915F-A5F0257A701D
 title: Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions
@@ -19,7 +24,7 @@ The topics in this section provide the reference specifications for [Input Sourc
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ The topics in this section provide the reference specifications for [Input Sourc
 [Input Source Identification Reference](input-source-identification-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

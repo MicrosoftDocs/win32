@@ -1,7 +1,12 @@
 ---
-Description: 'The three-tier architecture model, which is the fundamental framework for the logical design model, segments an application's components into three tiers of services.'
-ms.assetid: 'a03327c1-e427-4c07-b3d4-808ce81c2c96'
-title: 'Using a Three-Tier Architecture Model'
+Description: The three-tier architecture model, which is the fundamental framework for the logical design model, segments an applications components into three tiers of services.
+ms.assetid: a03327c1-e427-4c07-b3d4-808ce81c2c96
+title: Using a Three-Tier Architecture Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Three-Tier Architecture Model

@@ -1,7 +1,12 @@
 ---
 title: Error Values
 description: The following table provides error values, a description of the error value, and if applicable, the action that the application should take in the event the error is encountered.
-ms.assetid: '51f2f5da-69cd-483c-851a-78770f25e7c1'
+ms.assetid: 51f2f5da-69cd-483c-851a-78770f25e7c1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Values
@@ -11,7 +16,7 @@ The following table provides error values, a description of the error value, and
 > [!Note]  
 > RSVP signaling is not supported on Windows XP or later versions of Windows.
 
- 
+ 
 
 
 
@@ -23,17 +28,17 @@ The following table provides error values, a description of the error value, and
 | GQOS\_OTHER                                                 |                                                                                          |                                                                  |
 | GQOS\_DELAYBND                                              | An upstream QOS-enabled device cannot meet the specified delay-bound requirement.        | Retry the operation with a more relaxed delay-bound requirement. |
 | GQOS\_BANDWIDTH                                             | An upstream QOS-enabled device cannot meet bandwidth requirement.                        | Retry the operation with a more relaxed bandwidth requirement.   |
-| GQOS\_MTU                                                   | The Maximum Transmission Unit (MTU) in [**FLOWSPEC**](flowspec.md) is too large.        | Adjust the packet size and retry the operation.                  |
+| GQOS\_MTU                                                   | The Maximum Transmission Unit (MTU) in [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) is too large.        | Adjust the packet size and retry the operation.                  |
 | GQOS\_FLOW\_RATE                                            | An upstream QOS-enabled device cannot meet bandwidth requirement.                        | Retry the operation with a more relaxed bandwidth requirement.   |
 | GQOS\_PEAK\_RATE                                            | An upstream QOS-enabled device cannot meet bandwidth requirement.                        | Retry the operation with a more relaxed bandwidth requirement.   |
 | Policy Errors                                               |                                                                                          |                                                                  |
 | GQOS\_POLICY\_ERROR\_UNKNOWN                                | A policy error occurred for an unknown reason.                                           |                                                                  |
-| GQOS\_POLICY\_GLOBAL\_DEF\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the global default policy–flow count.           | Abort or retry at a later time.                                  |
-| GQOS\_POLICY\_GLOBAL\_GRP\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the global group policy–flow count.             | Abort or retry at a later time.                                  |
-| GQOS\_POLICY\_GLOBAL\_USER\_FLOW\_COUNT<br/>          | Policy error: the operation would exceed the global user policy–flow count.              | Abort or retry at a later time.                                  |
-| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_FLOW\_COUNT<br/>     | Policy error: the operation would exceed the unknown user policy–flow count.             | Abort or retry at a later time.                                  |
-| GQOS\_POLICY\_SUBNET\_DEF\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the subnet default policy–flow count.           | Abort or retry at a later time.                                  |
-| GQOS\_POLICY\_SUBNET\_GRP\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the subnet default policy–flow count.           | Abort or retry at a later time.                                  |
+| GQOS\_POLICY\_GLOBAL\_DEF\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the global default policy flow count.           | Abort or retry at a later time.                                  |
+| GQOS\_POLICY\_GLOBAL\_GRP\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the global group policy flow count.             | Abort or retry at a later time.                                  |
+| GQOS\_POLICY\_GLOBAL\_USER\_FLOW\_COUNT<br/>          | Policy error: the operation would exceed the global user policy flow count.              | Abort or retry at a later time.                                  |
+| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_FLOW\_COUNT<br/>     | Policy error: the operation would exceed the unknown user policy flow count.             | Abort or retry at a later time.                                  |
+| GQOS\_POLICY\_SUBNET\_DEF\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the subnet default policy flow count.           | Abort or retry at a later time.                                  |
+| GQOS\_POLICY\_SUBNET\_GRP\_FLOW\_COUNT<br/>           | Policy error: the operation would exceed the subnet default policy flow count.           | Abort or retry at a later time.                                  |
 | GQOS\_POLICY\_SUBNET\_USER\_FLOW\_COUNT<br/>          | Policy error: the operation would exceed the subnet default policy flow count.           | Abort or retry at a later time.                                  |
 | GQOS\_POLICY\_SUBNET\_UNK\_USER\_FLOW\_COUNT<br/>     | Policy error: the operation would exceed the subnet default policy flow count.           | Abort or retry at a later time.                                  |
 | GQOS\_POLICY\_GLOBAL\_ DEF\_FLOW\_DURATION<br/>       | Policy error: the operation would exceed the global default policy flow duration.        | Abort.                                                           |
@@ -55,27 +60,27 @@ The following table provides error values, a description of the error value, and
 | GQOS\_POLICY\_GLOBAL\_DEF\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the global default policy peak rate.            | Abort or retry with reduced QOS requirements.                    |
 | GQOS\_POLICY\_GLOBAL\_GRP\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the global group policy peak rate.              | Abort or retry with reduced QOS requirements.                    |
 | GQOS\_POLICY\_GLOBAL\_USER\_PEAK\_RATE<br/>           | Policy error: the operation would exceed the global user policy peak rate.               | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the unknown user policy–peak rate.              | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_DEF\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the subnet default policy–peak rate.            | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_GRP\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the subnet default policy–peak rate.            | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_USER\_PEAK\_RATE<br/>           | Policy error: the operation would exceed the subnet default policy–peak rate.            | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_UNK\_USER\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the subnet default policy–peak rate.            | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_DEF\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the global default policy–total flow rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_GRP\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the global group policy–total flow rate.        | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_USER\_SUM\_FLOW\_RATE<br/>      | Policy error: the operation would exceed the global user policy–total flow rate.         | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_SUM\_FLOW\_RATE<br/> | Policy error: the operation would exceed the unknown user policy–total flow rate.        | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_DEF\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the subnet default policy–total flow rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_GRP\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the subnet group policy–total flow rate.        | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_UNK\_USER\_SUM\_FLOW\_RATE<br/> | Policy error: the operation would exceed the subnet unknown user policy–total flow rate. | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_ USER\_SUM\_FLOW\_RATE<br/>     | Policy error: the operation would exceed the subnet user policy–total flow rate.         | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_DEF\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the global default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_GRP\_SUM\_PEAK\_RATE<br/>       | Policy error: the operation would exceed the global default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_USER\_SUM\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the global default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_SUM\_PEAK\_RATE<br/> | Policy error: the operation would exceed the global default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_DEF\_SUM\_PEAK\_RATE<br/>       | Policy error: the operation would exceed the subnet default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_GRP\_SUM\_PEAK\_RATE<br/>       | Policy error: the operation would exceed the subnet default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_USER\_SUM\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the subnet default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
-| GQOS\_POLICY\_SUBNET\_UNK\_USER\_SUM\_PEAK\_RATE<br/> | Policy error: the operation would exceed the subnet default policy–total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the unknown user policy peak rate.              | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_DEF\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the subnet default policy peak rate.            | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_GRP\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the subnet default policy peak rate.            | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_USER\_PEAK\_RATE<br/>           | Policy error: the operation would exceed the subnet default policy peak rate.            | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_UNK\_USER\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the subnet default policy peak rate.            | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_DEF\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the global default policy total flow rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_GRP\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the global group policy total flow rate.        | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_USER\_SUM\_FLOW\_RATE<br/>      | Policy error: the operation would exceed the global user policy total flow rate.         | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_SUM\_FLOW\_RATE<br/> | Policy error: the operation would exceed the unknown user policy total flow rate.        | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_DEF\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the subnet default policy total flow rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_GRP\_SUM\_FLOW\_RATE<br/>       | Policy error: the operation would exceed the subnet group policy total flow rate.        | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_UNK\_USER\_SUM\_FLOW\_RATE<br/> | Policy error: the operation would exceed the subnet unknown user policy total flow rate. | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_ USER\_SUM\_FLOW\_RATE<br/>     | Policy error: the operation would exceed the subnet user policy total flow rate.         | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_DEF\_PEAK\_RATE<br/>            | Policy error: the operation would exceed the global default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_GRP\_SUM\_PEAK\_RATE<br/>       | Policy error: the operation would exceed the global default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_USER\_SUM\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the global default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_GLOBAL\_UNK\_USER\_SUM\_PEAK\_RATE<br/> | Policy error: the operation would exceed the global default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_DEF\_SUM\_PEAK\_RATE<br/>       | Policy error: the operation would exceed the subnet default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_GRP\_SUM\_PEAK\_RATE<br/>       | Policy error: the operation would exceed the subnet default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_USER\_SUM\_PEAK\_RATE<br/>      | Policy error: the operation would exceed the subnet default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
+| GQOS\_POLICY\_SUBNET\_UNK\_USER\_SUM\_PEAK\_RATE<br/> | Policy error: the operation would exceed the subnet default policy total peak rate.      | Abort or retry with reduced QOS requirements.                    |
 | GQOS\_POLICY\_UNKNOWN\_USER                                 | Policy error: the user is unknown.                                                       | Check the user's identification and security attributes.         |
 | GQOS\_POLICY\_NO\_PRIVILEGES                                | Policy error: the user has no privilege.                                                 | Abort. Possible shut down on sender or receiver.                 |
 | GQOS\_POLICY\_EXPIRED\_USER\_TOKEN                          | Policy error: the user identification token has expired.                                 | Abort or retry.                                                  |
@@ -84,7 +89,7 @@ The following table provides error values, a description of the error value, and
 | GQOS\_POLICY\_USER\_CHANGED                                 | Policy error: user identification has changed after the reservation was approved.        | Abort.                                                           |
 | GQOS\_POLICY\_NO\_ACCEPTS                                   | Policy error: the operation was rejected by all policy modules.                          | Abort.                                                           |
 | GQOS\_POLICY\_NO\_MEMORY                                    | Policy error: LPM out of memory.                                                         | Abort or retry at a later time.                                  |
-| GQOS\_POLICY\_CRAZY\_FLOWSPEC                               | Policy error: invalid [**FLOWSPEC**](flowspec.md).                                      | Check the [**FLOWSPEC**](flowspec.md) structure.                |
+| GQOS\_POLICY\_CRAZY\_FLOWSPEC                               | Policy error: invalid [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master).                                      | Check the [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) structure.                |
 | GQOS\_POLICY\_ERROR\_USERID                                 | Unable to understand the user ID                                                         | Abort.                                                           |
 | RSVP Errors                                                 |                                                                                          |                                                                  |
 | GQOS\_NO\_PATH                                              | No matching path state for the reservation request.                                      | Check the QOS call sequence.                                     |
@@ -128,9 +133,9 @@ The following table provides error values, a description of the error value, and
 | GQOS\_BAD\_TSPEC                                            |                                                                                          |                                                                  |
 | GQOS\_BAD\_ADSPEC                                           |                                                                                          |                                                                  |
 | WSAIoctl Errors                                             |                                                                                          |                                                                  |
-| GQOS\_IOCTL\_SYSTEMFAILURE                                  |                                                                                          |                                                                  |
-| GQOS\_IOCTL\_NOBYTESRETURNED                                |                                                                                          |                                                                  |
-| GQOS\_IOCTL\_INVALIDSOCKET                                  |                                                                                          |                                                                  |
+| GQOS\_IOCTL\_SYSTEMFAILURE                                  |                                                                                          |                                                                  |
+| GQOS\_IOCTL\_NOBYTESRETURNED                                |                                                                                          |                                                                  |
+| GQOS\_IOCTL\_INVALIDSOCKET                                  |                                                                                          |                                                                  |
 | SIO\_SET\_QOS Errors                                        |                                                                                          |                                                                  |
 | GQOS\_SETQOS\_BADINBUFFER                                   |                                                                                          |                                                                  |
 | GQOS\_SETQOS\_BADFLOWSPEC                                   |                                                                                          |                                                                  |
@@ -174,13 +179,13 @@ The following table provides error values, a description of the error value, and
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

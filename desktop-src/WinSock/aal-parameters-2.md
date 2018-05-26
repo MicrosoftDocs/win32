@@ -1,7 +1,12 @@
 ---
-Description: 'AAL parameters.'
-ms.assetid: '0afc6713-2e91-4914-8039-1ecaed104826'
+Description: AAL parameters.
+ms.assetid: 0afc6713-2e91-4914-8039-1ecaed104826
 title: AAL Parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AAL Parameters

@@ -1,14 +1,20 @@
 ---
 title: Commands element
 description: Parent of elements that provide commands to execute the assessment (element ExecuteWorkload), analyze the assessment results (element AnalyzeFolder), or analyze the assessment trace element AnalyzeTrace.
-ms.assetid: '4A9AAA45-0F04-4701-A859-CD016FFAAB4D'
-keywords: ["Commands element Access Execution Engine"]
+ms.assetid: 4A9AAA45-0F04-4701-A859-CD016FFAAB4D
+keywords:
+- Commands element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Commands
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Commands element

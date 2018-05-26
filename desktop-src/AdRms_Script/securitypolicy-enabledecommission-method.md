@@ -1,13 +1,16 @@
 ---
-Description: 'Configures the AD RMS environment to allow a server to be decommissioned.'
+Description: Configures the AD RMS environment to allow a server to be decommissioned.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2de70f49-68e8-4ac8-bbfb-a509aab880dd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2de70f49-68e8-4ac8-bbfb-a509aab880dd
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'SecurityPolicy.EnableDecommission method'
+title: SecurityPolicy.EnableDecommission method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SecurityPolicy.EnableDecommission method
@@ -105,7 +108,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -117,9 +120,9 @@ END FUNCTION
 [**SecurityPolicy**](securitypolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

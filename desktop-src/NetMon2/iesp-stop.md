@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop method stops the current capture.'
-ms.assetid: 'd2d4e51a-c6a4-4aec-a805-929af621ffb3'
-title: 'IESP::Stop method'
+Description: The Stop method stops the current capture.
+ms.assetid: d2d4e51a-c6a4-4aec-a805-929af621ffb3
+title: IESPStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::Stop method
@@ -13,7 +18,7 @@ The **Stop** method stops the current capture.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Stop(
-  [out] LPSTATISTICS lpStats
+  [out] LPSTATISTICS lpStats
 );
 ```
 
@@ -46,7 +51,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +65,8 @@ When you stop and restart the capture, make sure to call the [IESP::Configure](i
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -83,9 +88,9 @@ When you stop and restart the capture, make sure to call the [IESP::Configure](i
 [STATISTICS](statistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Requests a state change for a migration job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e98c9d48-ae14-4448-9131-9b2c94ccb13d'
-ms.prod: 'windows-server-dev'
+ms.assetid: e98c9d48-ae14-4448-9131-9b2c94ccb13d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method", "RequestStateChange method, Msvm_MigrationJob class", "Msvm_MigrationJob class, RequestStateChange method"]
+keywords:
+- RequestStateChange method
+- RequestStateChange method, Msvm_MigrationJob class
+- Msvm_MigrationJob class, RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the Msvm\_MigrationJob class
@@ -30,8 +36,8 @@ Requests a state change for a migration job.
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -159,7 +165,7 @@ This method returns one of the following values.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -173,9 +179,9 @@ This method returns one of the following values.
 [**Msvm\_MigrationJob**](msvm-migrationjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

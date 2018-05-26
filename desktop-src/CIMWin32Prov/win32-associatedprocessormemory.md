@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_AssociatedProcessorMemory association WMI class relates a processor and its cache memory.'
+Description: The Win32\_AssociatedProcessorMemory association WMI class relates a processor and its cache memory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '23da2a9d-772e-4258-9489-07d47801b2d8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 23da2a9d-772e-4258-9489-07d47801b2d8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_AssociatedProcessorMemory class'
+title: Win32\_AssociatedProcessorMemory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_AssociatedProcessorMemory class
@@ -24,8 +27,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{074737F0-ACBC-11d2-ABF6-00805F538618}"), AMENDMENT]
 class Win32_AssociatedProcessorMemory : CIM_AssociatedProcessorMemory
 {
-  uint32                BusSpeed;
-  Win32_Processor   REF Dependent;
+  uint32                BusSpeed;
+  Win32_Processor   REF Dependent;
   Win32_CacheMemory REF Antecedent;
 };
 ```
@@ -102,8 +105,8 @@ The **Win32\_AssociatedProcessorMemory** class is derived from [**CIM\_Associate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -120,9 +123,9 @@ The **Win32\_AssociatedProcessorMemory** class is derived from [**CIM\_Associate
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

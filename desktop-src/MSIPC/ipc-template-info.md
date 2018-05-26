@@ -4,11 +4,14 @@ description: Contains information for a template.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b8cf52ae-b204-401c-9818-dcfdc03676eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b8cf52ae-b204-401c-9818-dcfdc03676eb
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_TEMPLATE_INFO structure Active Directory Rights Management Services SDK 2.0", "PIPC_TEMPLATE_INFO structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_TEMPLATE_INFO structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_TEMPLATE_INFO structure Active Directory Rights Management Services SDK 2.0
+- PIPC_TEMPLATE_INFO structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_TEMPLATE_INFO structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_TEMPLATE\_INFO structure
@@ -29,11 +35,11 @@ Contains information for a template such as ID, locale, name, and description.
 ```C++
 typedef struct _IPC_TEMPLATE_INFO {
   LPCWSTR wszID;
-  LCID    lcid;
+  LCID    lcid;
   LPCWSTR wszName;
   LPCWSTR wszDescription;
   LPCWSTR wszIssuerDisplayName;
-  BOOL    fFromTemplate;
+  BOOL    fFromTemplate;
 } IPC_TEMPLATE_INFO, *PIPC_TEMPLATE_INFO;typedef const IPC_TEMPLATE_INFO *PCIPC_TEMPLATE_INFO;
 ```
 
@@ -113,8 +119,8 @@ When using this structure with [**IpcGetLicenseProperty**](ipcgetlicenseproperty
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -129,9 +135,9 @@ When using this structure with [**IpcGetLicenseProperty**](ipcgetlicenseproperty
 [Release notes](release-notes--rtm-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
 Description: Source and Target Rectangles in Video Renderers
-ms.assetid: 'fdddbffb-c44f-4364-9e2e-b721ba39c74f'
+ms.assetid: fdddbffb-c44f-4364-9e2e-b721ba39c74f
 title: Source and Target Rectangles in Video Renderers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source and Target Rectangles in Video Renderers
 
-There are three sizes found in the [**VIDEOINFO**](videoinfo.md), [**VIDEOINFOHEADER**](videoinfoheader.md), and [**VIDEOINFOHEADER2**](videoinfoheader2.md) format structures of video media types. This article explains what they are and how they work.
+There are three sizes found in the [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master), [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master), and [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) format structures of video media types. This article explains what they are and how they work.
 
-First, there is a size in the **bmiHeader** member of these structures. The **bmiHeader** member is a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure with its own width and height members, **bmiHeader.biWidth** and **bmiHeader.biHeight**.
+First, there is a size in the **bmiHeader** member of these structures. The **bmiHeader** member is a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure with its own width and height members, **bmiHeader.biWidth** and **bmiHeader.biHeight**.
 
 Second, there is a rectangle in the **rcSource** member of these structures; and last, there is a rectangle in the **rcTarget** member of these structures.
 

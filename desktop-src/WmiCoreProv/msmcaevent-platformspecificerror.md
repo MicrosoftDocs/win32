@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates a Machine Check Architecture (MCA) platform-specific error. This class is available only in 64-bit Windows systems.'
-ms.assetid: '409641d5-3451-4d26-88d1-bfd0e55db257'
-title: 'MSMCAEvent\_PlatformSpecificError class'
+Description: Indicates a Machine Check Architecture (MCA) platform-specific error. This class is available only in 64-bit Windows systems.
+ms.assetid: 409641d5-3451-4d26-88d1-bfd0e55db257
+title: MSMCAEvent\_PlatformSpecificError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_PlatformSpecificError class
@@ -16,22 +21,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_PlatformSpecificError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint8   OEM_COMPONENT_ID;
-  uint64  PLATFORM_BUS_SPECIFIC_DATA;
-  uint64  PLATFORM_ERROR_STATUS;
-  uint64  PLATFORM_REQUESTOR_ID;
-  uint64  PLATFORM_RESPONDER_ID;
-  uint64  PLATFORM_TARGET_ID;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint32  Size;
-  uint32  Type;
-  uint64  VALIDATION_BITS;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint8   OEM_COMPONENT_ID;
+  uint64  PLATFORM_BUS_SPECIFIC_DATA;
+  uint64  PLATFORM_ERROR_STATUS;
+  uint64  PLATFORM_REQUESTOR_ID;
+  uint64  PLATFORM_RESPONDER_ID;
+  uint64  PLATFORM_TARGET_ID;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint32  Size;
+  uint32  Type;
+  uint64  VALIDATION_BITS;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -107,7 +112,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -308,7 +313,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
 
 
- 
+ 
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -324,8 +329,8 @@ The **MSMCAEvent\_PlatformSpecificError** class is derived from [**WMIEvent**](w
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -342,9 +347,9 @@ The **MSMCAEvent\_PlatformSpecificError** class is derived from [**WMIEvent**](w
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

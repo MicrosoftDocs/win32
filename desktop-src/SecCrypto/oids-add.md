@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds the specified OID object to the collection.'
-ms.assetid: '0ae087d6-768a-4538-b834-0f936680de05'
-title: 'OIDs.Add method'
+---
+Description: Adds the specified OID object to the collection.
+ms.assetid: 0ae087d6-768a-4538-b834-0f936680de05
+title: OIDs.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OIDs.Add method

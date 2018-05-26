@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job to a file on the local computer.'
-ms.assetid: '3c9bef01-2a86-48b1-b2db-20d0dcc18f51'
-title: 'FaxIncomingJob.CopyTiff method'
+---
+Description: The CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the inbound fax job to a file on the local computer.
+ms.assetid: 3c9bef01-2a86-48b1-b2db-20d0dcc18f51
+title: FaxIncomingJob.CopyTiff method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.CopyTiff method
@@ -34,7 +39,7 @@ Null-terminated string that specifies a fully qualified path and file name on th
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_JOBS**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -59,7 +64,7 @@ To use this method, a user must have the [**farQUERY\_JOBS**](-mfax-fax-access-r
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

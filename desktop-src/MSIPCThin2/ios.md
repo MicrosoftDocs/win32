@@ -4,10 +4,13 @@ description: API reference for the Apple iOS and OS X operating systems.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '65fca0f8-f3ae-4e83-8610-a590f970e710'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 65fca0f8-f3ae-4e83-8610-a590f970e710
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # iOS / OS X API reference

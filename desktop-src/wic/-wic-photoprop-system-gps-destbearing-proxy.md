@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.GPS.DestBearing photo metadata policy.'
-ms.assetid: '7303cdf4-a4a2-4b7d-b52e-48cadbadd98d'
-title: 'System.GPS.DestBearing Proxy'
+Description: The property proxy for the System.GPS.DestBearing photo metadata policy.
+ms.assetid: 7303cdf4-a4a2-4b7d-b52e-48cadbadd98d
+title: System.GPS.DestBearing Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestBearing Proxy

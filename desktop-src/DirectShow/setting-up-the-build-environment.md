@@ -1,7 +1,12 @@
 ---
 Description: Building DirectShow Applications
-ms.assetid: '2fbdbe49-0d4d-4dce-afc3-7049c793ace0'
+ms.assetid: 2fbdbe49-0d4d-4dce-afc3-7049c793ace0
 title: Building DirectShow Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building DirectShow Applications
@@ -35,7 +40,7 @@ DirectShow uses the static library files shown in the following table.
 | Library File | Description                                                                                                                    |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Strmiids.lib | Exports class identifiers (CLSIDs) and interface identifiers (IIDs).                                                           |
-| Quartz.lib   | Exports the [**AMGetErrorText**](amgeterrortext.md) function. If you do not call this function, this library is not required. |
+| Quartz.lib   | Exports the [**AMGetErrorText**](/windows/win32/errors/?branch=master) function. If you do not call this function, this library is not required. |
 
 
 

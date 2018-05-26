@@ -1,8 +1,9 @@
 ---
 title: EM\_FINDWORDBREAK message
 description: Finds the next word break before or after the specified character position or retrieves information about the character at that position.
-ms.assetid: 'b5df1365-4672-4c82-8ae4-ebf8b60bf871'
-keywords: ["EM_FINDWORDBREAK message Windows Controls"]
+ms.assetid: b5df1365-4672-4c82-8ae4-ebf8b60bf871
+keywords:
+- EM_FINDWORDBREAK message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_FINDWORDBREAK message
@@ -41,7 +47,7 @@ Specifies the find operation. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,7 +73,7 @@ The message returns a value based on the *wParam* parameter.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,15 +87,15 @@ For information about character classes and word-break flags, see [Word and Line
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

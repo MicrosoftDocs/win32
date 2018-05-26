@@ -1,7 +1,12 @@
 ---
-Description: 'The LoadDWORD function is called by the monitor to set a DWORD variable with a value taken from an HTML configuration string variable.'
-ms.assetid: '18a7beba-01f4-4f92-99bf-067f79f25db0'
+Description: The LoadDWORD function is called by the monitor to set a DWORD variable with a value taken from an HTML configuration string variable.
+ms.assetid: 18a7beba-01f4-4f92-99bf-067f79f25db0
 title: LoadDWORD function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadDWORD function
@@ -13,9 +18,9 @@ The **LoadDWORD** function is called by the monitor to set a **DWORD** variable 
 
 ```C++
 BOOL LoadDWORD(
-  _In_ const char  *pConfig,
-  _In_ const char  *pVarName,
-  _In_       DWORD *pValue
+  _In_ const char  *pConfig,
+  _In_ const char  *pVarName,
+  _In_       DWORD *pValue
 );
 ```
 
@@ -58,17 +63,17 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

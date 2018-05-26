@@ -1,7 +1,12 @@
 ---
 title: Miscellaneous RPC Performance Tips
 description: This section discusses miscellaneous performance tips for developing high performance RPC servers. This section provides many tips that refer to the RPC client. Developing an RPC client properly enables the RPC server to perform less work.
-ms.assetid: '82278f4b-1273-45e8-9078-ad919a4711f0'
+ms.assetid: 82278f4b-1273-45e8-9078-ad919a4711f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Miscellaneous RPC Performance Tips
@@ -18,7 +23,7 @@ If security is used, try to use static identity tracking. Static identity tracki
 
 ## Use the RpcGetAuthorizationContextForClient Function
 
-If you need to check access in Windows XP, use the [**RpcGetAuthorizationContextForClient**](rpcgetauthorizationcontextforclient.md) function. The resulting Authz contexts enables very fast access checks, which are efficiently cached by the RPC run time.
+If you need to check access in Windows XP, use the [**RpcGetAuthorizationContextForClient**](/windows/win32/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient?branch=master) function. The resulting Authz contexts enables very fast access checks, which are efficiently cached by the RPC run time.
 
 ## Do Not Modify the Token Unless Necessary
 
@@ -26,7 +31,7 @@ If dynamic identity tracking is used, do not modify the thread/process token unl
 
 ## Consider Mixed Mode Serialization for Context Handles
 
-The default serialization mode for context handle is serialized (exclusive). Consider making all calls that do not modify the state of the context handle in shared serialization mode. See [**RpcSsContextLockExclusive**](rpcsscontextlockexclusive.md) for more information.
+The default serialization mode for context handle is serialized (exclusive). Consider making all calls that do not modify the state of the context handle in shared serialization mode. See [**RpcSsContextLockExclusive**](/windows/win32/Rpcasync/nf-rpcasync-rpcsscontextlockexclusive?branch=master) for more information.
 
  
 

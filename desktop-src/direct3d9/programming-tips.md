@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information to help you develop DirectX Graphics applications efficiently. The following topics are covered.'
-ms.assetid: 'c6d60ae3-50ed-4dd6-b766-c9b0c8a78533'
-title: 'Programming Tips (Direct3D 9)'
+Description: This section contains information to help you develop DirectX Graphics applications efficiently. The following topics are covered.
+ms.assetid: c6d60ae3-50ed-4dd6-b766-c9b0c8a78533
+title: Programming Tips (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Tips (Direct3D 9)

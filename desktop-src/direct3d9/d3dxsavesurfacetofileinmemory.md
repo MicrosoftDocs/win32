@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a surface to an image file.'
-ms.assetid: '6320e5ed-e43d-43bf-a746-5478df42941d'
+---
+Description: Saves a surface to an image file.
+ms.assetid: 6320e5ed-e43d-43bf-a746-5478df42941d
 title: D3DXSaveSurfaceToFileInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSaveSurfaceToFileInMemory function
@@ -48,18 +53,18 @@ Type: **[**D3DXIMAGE\_FILEFORMAT**](direct3d9.d3dximage_fileformat)**
 *pSrcSurface* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DSURFACE9**](idirect3dsurface9.md)**
+Type: **[**LPDIRECT3DSURFACE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master)**
 
-Pointer to [**IDirect3DSurface9**](idirect3dsurface9.md) interface containing the image to be saved.
+Pointer to [**IDirect3DSurface9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dsurface9?branch=master) interface containing the image to be saved.
 
 </dd> <dt>
 
 *pSrcPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure containing a palette of 256 colors. This parameter can be **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure containing a palette of 256 colors. This parameter can be **NULL**.
 
 </dd> <dt>
 

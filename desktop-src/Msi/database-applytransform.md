@@ -1,7 +1,12 @@
 ---
-Description: 'The ApplyTransform method of the Database object applies the transform to this database.'
-ms.assetid: 'bcf1ea78-54ad-49d9-8fba-7b88ced236eb'
-title: 'Database.ApplyTransform method'
+Description: The ApplyTransform method of the Database object applies the transform to this database.
+ms.assetid: bcf1ea78-54ad-49d9-8fba-7b88ced236eb
+title: Database.ApplyTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database.ApplyTransform method
@@ -50,7 +55,7 @@ Specifies the error conditions that are to be suppressed. Specify as a combinati
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -70,7 +75,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 |                    |                                                                                                                                                                                                                                                         |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID\_IDatabase is defined as 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
@@ -86,9 +91,9 @@ If the method fails, you can obtain extended error information by using the [**L
 [Database Transforms](database-transforms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

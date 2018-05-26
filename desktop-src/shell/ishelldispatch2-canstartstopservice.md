@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines if the current user can start and stop the named service.'
-ms.assetid: 'cbb54ae9-02e6-4243-a782-e9f125c21c0d'
-title: 'IShellDispatch2.CanStartStopService method'
+---
+Description: Determines if the current user can start and stop the named service.
+ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
+title: IShellDispatch2.CanStartStopService method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch2.CanStartStopService method

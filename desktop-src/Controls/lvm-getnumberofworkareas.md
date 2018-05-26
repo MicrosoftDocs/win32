@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETNUMBEROFWORKAREAS message
 description: Retrieves the number of working areas in a list-view control. You can send this message explicitly or use the ListView\_GetNumberOfWorkAreas macro.
-ms.assetid: 'ce0bcccd-62a2-45a4-959e-9959c9ca0c46'
-keywords: ["LVM_GETNUMBEROFWORKAREAS message Windows Controls"]
+ms.assetid: ce0bcccd-62a2-45a4-959e-9959c9ca0c46
+keywords:
+- LVM_GETNUMBEROFWORKAREAS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETNUMBEROFWORKAREAS message
 
-Retrieves the number of working areas in a list-view control. You can send this message explicitly or use the [**ListView\_GetNumberOfWorkAreas**](listview-getnumberofworkareas.md) macro.
+Retrieves the number of working areas in a list-view control. You can send this message explicitly or use the [**ListView\_GetNumberOfWorkAreas**](/windows/win32/Commctrl/nf-commctrl-listview_getnumberofworkareas?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ The return value for this message is not used.
 [Using List-View Controls](using-list-view-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

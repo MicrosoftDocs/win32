@@ -1,7 +1,12 @@
-﻿---
-Description: 'Executes a verb on the item.'
-ms.assetid: '569bdc88-15ef-4d08-923c-4f41e5ae5a38'
-title: 'FolderItem.InvokeVerb method'
+---
+Description: Executes a verb on the item.
+ms.assetid: 569bdc88-15ef-4d08-923c-4f41e5ae5a38
+title: FolderItem.InvokeVerb method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.InvokeVerb method

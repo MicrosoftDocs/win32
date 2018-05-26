@@ -4,11 +4,13 @@ description: Manages a Remote Desktop Session Host (RDSH) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2c2840d2-16aa-484a-979b-6dbb1a08bbcf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2c2840d2-16aa-484a-979b-6dbb1a08bbcf
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDSHServer class Remote Desktop Services", "Win32_RDSHServer class Remote Desktop Services , described"]
+keywords:
+- Win32_RDSHServer class Remote Desktop Services
+- Win32_RDSHServer class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDSHServer class
@@ -66,7 +71,7 @@ The **Win32\_RDSHServer** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -172,7 +177,7 @@ The possible values are.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is unavailable prior to Windows Server 2016.
 
 </dd> </dl>
 
@@ -183,7 +188,7 @@ The possible values are.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -197,9 +202,9 @@ The possible values are.
 [Remote Desktop Management Services Provider](rdms-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

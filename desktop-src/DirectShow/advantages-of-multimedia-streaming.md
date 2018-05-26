@@ -1,7 +1,12 @@
 ---
 Description: Advantages of Multimedia Streaming
-ms.assetid: '01020ad5-430d-4b4d-8de3-bcc81270e132'
+ms.assetid: 01020ad5-430d-4b4d-8de3-bcc81270e132
 title: Advantages of Multimedia Streaming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advantages of Multimedia Streaming

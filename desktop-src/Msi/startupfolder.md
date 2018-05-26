@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the StartupFolder property to the full path of the Startup folder.'
-ms.assetid: '206ac8bd-abfd-4377-911f-b62e77fb405a'
+---
+Description: The installer sets the StartupFolder property to the full path of the Startup folder.
+ms.assetid: 206ac8bd-abfd-4377-911f-b62e77fb405a
 title: StartupFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartupFolder property

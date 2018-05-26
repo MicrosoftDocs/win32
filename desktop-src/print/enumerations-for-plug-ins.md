@@ -1,7 +1,12 @@
 ---
-Description: 'Enumerations for Plug-ins'
-ms.assetid: 'ea74cf4a-f7ad-4fa5-a5eb-3ba2fc24f1ca'
-title: 'Enumerations for Plug-ins'
+Description: Enumerations for Plug-ins
+ms.assetid: ea74cf4a-f7ad-4fa5-a5eb-3ba2fc24f1ca
+title: Enumerations for Plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations for Plug-ins

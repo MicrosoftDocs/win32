@@ -1,8 +1,28 @@
 ---
 title: Profile Management Functions
 description: Profile Management Functions
-ms.assetid: '185863b7-0b74-4c65-97c3-3c60b86d37fd'
-keywords: ["Windows Color System (WCS),functions", "WCS (Windows Color System),functions", "image color management,functions", "color management,functions", "colors,functions", "WCS reference,functions", "reference for WCS,functions", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "WCS reference,profiles", "reference for WCS,profiles", "profile management"]
+ms.assetid: 185863b7-0b74-4c65-97c3-3c60b86d37fd
+keywords:
+- Windows Color System (WCS),functions
+- WCS (Windows Color System),functions
+- image color management,functions
+- color management,functions
+- colors,functions
+- WCS reference,functions
+- reference for WCS,functions
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- WCS reference,profiles
+- reference for WCS,profiles
+- profile management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Profile Management Functions
@@ -16,15 +36,15 @@ The following API functions are useful in profile management.
 | Function                                                                               | Description                                                                                                                                          |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AssociateColorProfileWithDevice**](associatecolorprofilewithdevice.md)             | Associates a color profile with a device.                                                                                                            |
-| [**CreateProfileFromLogColorSpace**](createprofilefromlogcolorspace.md)               | Converts a [**LOGCOLORSPACE**](logcolorspace.md) to a device profile.                                                                               |
+| [**CreateProfileFromLogColorSpace**](createprofilefromlogcolorspace.md)               | Converts a [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master) to a device profile.                                                                               |
 | [**DisassociateColorProfileFromDevice**](disassociatecolorprofilefromdevice.md)       | Disassociates a color profile from a device.                                                                                                         |
 | [**EnumColorProfiles**](enumcolorprofiles.md)                                         | Enumerates color profiles that satisfy specified criteria.                                                                                           |
 | [**GetColorDirectory**](getcolordirectory.md)                                         | Identifies the system color directory.                                                                                                               |
-| [**GetDeviceGammaRamp**](getdevicegammaramp.md)                                       | Gets the gamma ramp from direct color display boards.                                                                                                |
+| [**GetDeviceGammaRamp**](/windows/win32/Wingdi/nf-wingdi-getdevicegammaramp?branch=master)                                       | Gets the gamma ramp from direct color display boards.                                                                                                |
 | [**GetStandardColorSpaceProfile**](getstandardcolorspaceprofile.md)                   | Retrieves a registered standard space profile.                                                                                                       |
 | [**InstallColorProfile**](installcolorprofile.md)                                     | Installs a color profile for use in the system.                                                                                                      |
 | [**RegisterCMM**](registercmm.md)                                                     | Registers a CMM for use by the system. Used to install new CMMs.                                                                                     |
-| [**SetDeviceGammaRamp**](setdevicegammaramp.md)                                       | Sets the gamma ramp on direct color display boards.                                                                                                  |
+| [**SetDeviceGammaRamp**](/windows/win32/Wingdi/nf-wingdi-setdevicegammaramp?branch=master)                                       | Sets the gamma ramp on direct color display boards.                                                                                                  |
 | [**SetStandardColorSpaceProfile**](setstandardcolorspaceprofile.md)                   | Registers a profile for a standard color space.                                                                                                      |
 | [**UninstallColorProfile**](uninstallcolorprofile.md)                                 | Uninstalls a color profile from the system.                                                                                                          |
 | [**UnregisterCMM**](unregistercmm.md)                                                 | Removes the CMM registration. Used to uninstall CMMs.                                                                                                |

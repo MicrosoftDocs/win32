@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Image.Compression property.'
-ms.assetid: '0fada41f-f6f8-43b3-ad65-79785e859c9c'
-title: 'System.Image.Compression Photo Metadata Policy'
+Description: The photo metadata policy for the System.Image.Compression property.
+ms.assetid: 0fada41f-f6f8-43b3-ad65-79785e859c9c
+title: System.Image.Compression Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.Compression Photo Metadata Policy

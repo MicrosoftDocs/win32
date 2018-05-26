@@ -4,11 +4,14 @@ description: The authentication failed.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.AUTHENTICATION\_FAILED'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.AUTHENTICATION\_FAILED
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AUTHENTICATION_FAILED property", "AUTHENTICATION_FAILED property, ErrorInfomation class", "ErrorInfomation class, AUTHENTICATION_FAILED property"]
+keywords:
+- AUTHENTICATION_FAILED property
+- AUTHENTICATION_FAILED property, ErrorInfomation class
+- ErrorInfomation class, AUTHENTICATION_FAILED property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.AUTHENTICATION\_FAILED property
@@ -65,9 +71,9 @@ static property ErrorInfomation^ AUTHENTICATION_FAILED {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

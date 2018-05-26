@@ -1,14 +1,20 @@
 ---
 title: event.keyCode
 description: The keyCode attribute retrieves the ASCII key code if a key was pressed when the event occurred.
-ms.assetid: 'ddcb0a99-8bda-4197-b36b-bcd831c22604'
-keywords: ["event.keyCode Windows Media Player"]
+ms.assetid: ddcb0a99-8bda-4197-b36b-bcd831c22604
+keywords:
+- event.keyCode Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.keyCode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.keyCode
@@ -40,9 +46,9 @@ This attribute is a read-only **Number** (**long**).
 [**Ambient Event Attributes**](ambient-event-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ENUMTYPE structure
 description: The ENUMTYPE structure contains information that defines the profile enumeration constraints.
-ms.assetid: '9c1065ad-00ac-4f5c-b738-090e38e1516f'
-keywords: ["ENUMTYPE structure Windows Color System", "PENUMTYPE structure pointer Windows Color System", "LPENUMTYPE structure pointer Windows Color System"]
+ms.assetid: 9c1065ad-00ac-4f5c-b738-090e38e1516f
+keywords:
+- ENUMTYPE structure Windows Color System
+- PENUMTYPE structure pointer Windows Color System
+- LPENUMTYPE structure pointer Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENUMTYPE structure
@@ -22,26 +30,26 @@ The **ENUMTYPE** structure contains information that defines the profile enumera
 
 ```C++
 typedef struct tagENUMTYPE {
-  DWORD  dwSize;
-  DWORD  dwVersion;
-  DWORD  dwFields;
+  DWORD  dwSize;
+  DWORD  dwVersion;
+  DWORD  dwFields;
   PCTSTR pDeviceName;
-  DWORD  dwMediaType;
-  DWORD  dwDitheringMode;
-  DWORD  dwResolution[2];
-  DWORD  dwCMMType;
-  DWORD  dwClass;
-  DWORD  dwDataColorSpace;
-  DWORD  dwConnectionSpace;
-  DWORD  dwSignature;
-  DWORD  dwPlatform;
-  DWORD  dwProfileFlags;
-  DWORD  dwManufacturer;
-  DWORD  dwModel;
-  DWORD  dwAttributes[2];
-  DWORD  dwRenderingIntent;
-  DWORD  dwCreator;
-  DWORD  dwDeviceClass;
+  DWORD  dwMediaType;
+  DWORD  dwDitheringMode;
+  DWORD  dwResolution[2];
+  DWORD  dwCMMType;
+  DWORD  dwClass;
+  DWORD  dwDataColorSpace;
+  DWORD  dwConnectionSpace;
+  DWORD  dwSignature;
+  DWORD  dwPlatform;
+  DWORD  dwProfileFlags;
+  DWORD  dwManufacturer;
+  DWORD  dwModel;
+  DWORD  dwAttributes[2];
+  DWORD  dwRenderingIntent;
+  DWORD  dwCreator;
+  DWORD  dwDeviceClass;
 } ENUMTYPE, *PENUMTYPE, *LPENUMTYPE;
 ```
 
@@ -72,67 +80,67 @@ Indicates which fields in this structure are being used. Can be set to any combi
 
 ET\_DEVICENAME
 
- 
+ 
 
 ET\_MEDIATYPE
 
- 
+ 
 
 ET\_DITHERMODE
 
- 
+ 
 
 ET\_RESOLUTION
 
- 
+ 
 
 ET\_CMMTYPE
 
- 
+ 
 
 ET\_CLASS
 
- 
+ 
 
 ET\_DATACOLORSPACE
 
- 
+ 
 
 ET\_CONNECTIONSPACE
 
- 
+ 
 
 ET\_SIGNATURE
 
- 
+ 
 
 ET\_PLATFORM
 
- 
+ 
 
 ET\_PROFILEFLAGS
 
- 
+ 
 
 ET\_MANUFACTURER
 
- 
+ 
 
 ET\_MODEL
 
- 
+ 
 
 ET\_ATTRIBUTES
 
- 
+ 
 
 ET\_RENDERINGINTENT
 
- 
+ 
 
 ET\_CREATOR
 
- 
+ 
 
 ET\_DEVICECLASS
 
@@ -194,7 +202,7 @@ Indicates the profile class. For a description of profile classes, see [Using De
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -219,7 +227,7 @@ A signature value that indicates the color space in which the profile connection
 
 
 
- 
+ 
 
 When the **dwClass** member is set to CLASS\_LINK, the PCS is taken from the **dwDataColorSpace** member.
 
@@ -249,7 +257,7 @@ The primary platform for which the profile was created. The member can be set to
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -267,7 +275,7 @@ Bit flags containing hints that the CMM uses to interpret the profile data and c
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -299,7 +307,7 @@ Attributes of profile that can be any of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -310,15 +318,15 @@ The profile rendering intent that can be set to one of the following values:
 
 INTENT\_PERCEPTUAL
 
- 
+ 
 
 INTENT\_SATURATION
 
- 
+ 
 
 INTENT\_RELATIVE\_COLORIMETRIC
 
- 
+ 
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
@@ -348,7 +356,7 @@ Indicates the device class. A device class may have one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -358,8 +366,8 @@ Indicates the device class. A device class may have one of the following values.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -377,9 +385,9 @@ Indicates the device class. A device class may have one of the following values.
 [Rendering Intents](rendering-intents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

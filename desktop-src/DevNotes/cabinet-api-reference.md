@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'c6e7de1e-6006-41e9-aa25-4cb8faf6f0d1'
+ms.assetid: c6e7de1e-6006-41e9-aa25-4cb8faf6f0d1
 title: Cabinet API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cabinet API Reference

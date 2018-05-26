@@ -4,13 +4,15 @@ description: A dynamic association WMI class that represents the network interfa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd4cf967-3734-43c6-b199-4f78a069d2f7'
-ms.prod: 'windows-server-dev'
+ms.assetid: fd4cf967-3734-43c6-b199-4f78a069d2f7
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterToNetworkInterface class", "MSCluster_ClusterToNetworkInterface class, described"]
+keywords:
+- MSCluster_ClusterToNetworkInterface class
+- MSCluster_ClusterToNetworkInterface class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterToNetworkInterface class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{CB737284-A6D8-4d46-92F0-20992869A84E}"), AMENDMENT]
 class MSCluster_ClusterToNetworkInterface : CIM_Component
 {
-  MSCluster_Cluster          REF GroupComponent;
+  MSCluster_Cluster          REF GroupComponent;
   MSCluster_NetworkInterface REF PartComponent;
 };
 ```
@@ -95,7 +100,7 @@ The **MSCluster\_ClusterToNetworkInterface** class is derived from the [**CIM\_C
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -118,9 +123,9 @@ The **MSCluster\_ClusterToNetworkInterface** class is derived from the [**CIM\_C
 [**MSCluster\_NetworkInterface**](mscluster-networkinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

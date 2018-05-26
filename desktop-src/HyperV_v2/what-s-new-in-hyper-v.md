@@ -1,7 +1,12 @@
 ---
-Description: 'Version 2 of the Hyper-V WMI provider is all new for Windows 8 and Windows Server 2012.'
-ms.assetid: 'A91ACF7A-AFE6-45B6-960C-C4AAA0083735'
-title: 'What's new in Hyper-V WMI provider'
+Description: Version 2 of the Hyper-V WMI provider is all new for Windows 8 and Windows Server 2012.
+ms.assetid: A91ACF7A-AFE6-45B6-960C-C4AAA0083735
+title: Whats new in Hyper-V WMI provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's new in Hyper-V WMI provider

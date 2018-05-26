@@ -1,8 +1,11 @@
 ---
 title: LogonTrigger.UserId property
 description: For scripting, gets or sets the identifier of the user.
-ms.assetid: '22d69609-1400-41eb-ae25-4ca05c4733ba'
-keywords: ["UserId property Task Scheduler", "UserId property Task Scheduler , LogonTrigger object", "LogonTrigger object Task Scheduler , UserId property"]
+ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
+keywords:
+- UserId property Task Scheduler
+- UserId property Task Scheduler , LogonTrigger object
+- LogonTrigger object Task Scheduler , UserId property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonTrigger.UserId property
@@ -47,8 +55,8 @@ When reading or writing XML for a task, the logon user identifier is specified u
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -64,9 +72,9 @@ When reading or writing XML for a task, the logon user identifier is specified u
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

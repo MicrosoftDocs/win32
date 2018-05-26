@@ -1,7 +1,12 @@
 ---
 title: Quick Start - Capturing Process Heap Information
 description: Quick Start - Capturing Process Heap Information
-ms.assetid: '677ce539-5de8-415a-b39e-0d0ba59d483d'
+ms.assetid: 677ce539-5de8-415a-b39e-0d0ba59d483d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start - Capturing Process Heap Information

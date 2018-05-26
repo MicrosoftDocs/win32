@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the signal processing modes supported by the stream effect APO.'
-ms.assetid: '52A04E91-CE12-40BB-B2EC-DBE069306C4B'
-title: 'PKEY\_SFX\_ProcessingModes\_Supported\_For\_Streaming property'
+---
+Description: Lists the signal processing modes supported by the stream effect APO.
+ms.assetid: 52A04E91-CE12-40BB-B2EC-DBE069306C4B
+title: PKEY\_SFX\_ProcessingModes\_Supported\_For\_Streaming property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_SFX\_ProcessingModes\_Supported\_For\_Streaming property

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'c42bb90a-3c38-4c0c-b523-10e740a027c4'
+---
+Description: .
+ms.assetid: c42bb90a-3c38-4c0c-b523-10e740a027c4
 title: DrvSplWritePrinter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplWritePrinter function

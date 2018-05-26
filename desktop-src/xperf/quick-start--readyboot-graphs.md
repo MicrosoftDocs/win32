@@ -1,7 +1,12 @@
 ---
 title: Quick Start ReadyBoot Graphs
 description: Quick Start ReadyBoot Graphs
-ms.assetid: '8e2009ef-b906-4c03-ad13-b8eb333ed1a9'
+ms.assetid: 8e2009ef-b906-4c03-ad13-b8eb333ed1a9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start: ReadyBoot Graphs

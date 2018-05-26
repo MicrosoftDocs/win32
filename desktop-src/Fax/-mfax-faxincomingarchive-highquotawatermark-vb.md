@@ -1,7 +1,12 @@
-﻿---
-Description: 'The HighQuotaWaterMark property is a value that specifies the upper warning threshold for the size of the archive of inbound fax messages, in megabytes.'
-ms.assetid: 'ce611bcf-5e9c-4f65-adc5-054a2f69b421'
-title: 'FaxIncomingArchive.HighQuotaWaterMark property'
+---
+Description: The HighQuotaWaterMark property is a value that specifies the upper warning threshold for the size of the archive of inbound fax messages, in megabytes.
+ms.assetid: ce611bcf-5e9c-4f65-adc5-054a2f69b421
+title: FaxIncomingArchive.HighQuotaWaterMark property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.HighQuotaWaterMark property
@@ -30,7 +35,7 @@ A value of type **Integer** that specifies or receives the upper threshold for t
 
  
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

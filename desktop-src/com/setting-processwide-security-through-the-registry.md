@@ -1,12 +1,17 @@
 ---
 title: Setting Process-Wide Security Through the Registry
 description: If you want to set security for an entire process, one solution is to set the security levels you want in the registry.
-ms.assetid: '87f0a64f-f3ec-4ee2-8d65-4f82e8971f0b'
+ms.assetid: 87f0a64f-f3ec-4ee2-8d65-4f82e8971f0b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Process-Wide Security Through the Registry
 
-If you want to set security for an entire process, one solution is to set the security levels you want in the registry. If your application cannot call [**CoInitializeSecurity**](coinitializesecurity.md) or if you prefer not to use programmatic security, this might be a good option. If you decide to set process-wide security using the registry, you should be aware that if you call **CoInitializeSecurity** within your program COM will use the values in **CoInitializeSecurity** and ignore the registry values.
+If you want to set security for an entire process, one solution is to set the security levels you want in the registry. If your application cannot call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or if you prefer not to use programmatic security, this might be a good option. If you decide to set process-wide security using the registry, you should be aware that if you call **CoInitializeSecurity** within your program COM will use the values in **CoInitializeSecurity** and ignore the registry values.
 
 There are two ways to set security in the registry for your application:
 

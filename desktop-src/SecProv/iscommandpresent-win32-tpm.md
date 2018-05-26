@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsCommandPresent method of the Win32\_Tpm class indicates whether a command with the specified ordinal is supported by the device.'
-ms.assetid: 'febb0863-a88c-4033-9798-4e05e4742d63'
-title: 'IsCommandPresent method of the Win32\_Tpm class'
+---
+Description: The IsCommandPresent method of the Win32\_Tpm class indicates whether a command with the specified ordinal is supported by the device.
+ms.assetid: febb0863-a88c-4033-9798-4e05e4742d63
+title: IsCommandPresent method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsCommandPresent method of the Win32\_Tpm class

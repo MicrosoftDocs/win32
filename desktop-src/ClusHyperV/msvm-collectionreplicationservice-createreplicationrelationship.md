@@ -4,13 +4,16 @@ description: Creates new replication relationship for collection of virtual mach
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2faa73f5-1017-4f25-957b-edf16b039e2a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2faa73f5-1017-4f25-957b-edf16b039e2a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplicationRelationship method", "CreateReplicationRelationship method, Msvm_CollectionReplicationService class", "Msvm_CollectionReplicationService class, CreateReplicationRelationship method"]
+keywords:
+- CreateReplicationRelationship method
+- CreateReplicationRelationship method, Msvm_CollectionReplicationService class
+- Msvm_CollectionReplicationService class, CreateReplicationRelationship method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplicationRelationship method of the Msvm\_CollectionReplicationService class
@@ -30,9 +36,9 @@ Creates new replication relationship for collection of virtual machines.
 
 ```mof
 uint32 CreateReplicationRelationship(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [in]  string                   CollectionReplicationSettingData,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [in]  string                   CollectionReplicationSettingData,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -118,7 +124,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -132,9 +138,9 @@ The possible return values are:
 [**Msvm\_CollectionReplicationService**](msvm-collectionreplicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

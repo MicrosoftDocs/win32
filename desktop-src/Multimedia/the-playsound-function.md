@@ -1,13 +1,24 @@
 ---
 title: The PlaySound Function
 description: The PlaySound Function
-ms.assetid: 'ce405a13-c4ab-4c9a-bcfe-8d4427b3d2d8'
-keywords: ["multimedia audio,PlaySound function", "audio,PlaySound function", "waveform audio,PlaySound function", "PlaySound function,about", "sndPlaySound function", "PlaySound function,compared to sndPlaySound function"]
+ms.assetid: ce405a13-c4ab-4c9a-bcfe-8d4427b3d2d8
+keywords:
+- multimedia audio,PlaySound function
+- audio,PlaySound function
+- waveform audio,PlaySound function
+- PlaySound function,about
+- sndPlaySound function
+- PlaySound function,compared to sndPlaySound function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The PlaySound Function
 
-You can use the [**PlaySound**](playsound.md) function to play waveform audio if the sound fits into available memory. (The [**sndPlaySound**](sndplaysound.md) function offers a subset of the capabilities of PlaySound. To maximize the portability of your Win32-based application, use **PlaySound**, not **sndPlaySound**.)
+You can use the [**PlaySound**](/windows/win32/Mmsystem/?branch=master) function to play waveform audio if the sound fits into available memory. (The [**sndPlaySound**](/windows/win32/Mmsystem/?branch=master) function offers a subset of the capabilities of PlaySound. To maximize the portability of your Win32-based application, use **PlaySound**, not **sndPlaySound**.)
 
 The **PlaySound** function allows you to specify a sound in one of three ways:
 
@@ -15,7 +26,7 @@ The **PlaySound** function allows you to specify a sound in one of three ways:
 -   As a filename
 -   As a resource identifier
 
-The [**PlaySound**](playsound.md) function allows you to play a sound in a continuous loop, ending only when you call **PlaySound** again, specifying either **NULL** or the sound identifier of another sound for the *pszSound* parameter.
+The [**PlaySound**](/windows/win32/Mmsystem/?branch=master) function allows you to play a sound in a continuous loop, ending only when you call **PlaySound** again, specifying either **NULL** or the sound identifier of another sound for the *pszSound* parameter.
 
 You can use **PlaySound** to play the sound synchronously or asynchronously, and to control the behavior of the function in other ways when it must share system resources.
 

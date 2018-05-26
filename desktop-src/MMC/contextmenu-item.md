@@ -4,11 +4,16 @@ description: The Item property returns the MenuItem object at a specified index 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d8ca283-f29f-4e0c-a278-4fc240994fe3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8d8ca283-f29f-4e0c-a278-4fc240994fe3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Item property MMC", "Item property MMC , ContextMenu object", "ContextMenu object MMC , Item property", "Item property MMC , ContextMenu interface", "ContextMenu interface MMC , Item property"]
+keywords:
+- Item property MMC
+- Item property MMC , ContextMenu object
+- ContextMenu object MMC , Item property
+- Item property MMC , ContextMenu interface
+- ContextMenu interface MMC , Item property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ContextMenu::Item property
@@ -69,8 +77,8 @@ Next i
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -88,9 +96,9 @@ Next i
 [**MenuItem object**](menuitem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

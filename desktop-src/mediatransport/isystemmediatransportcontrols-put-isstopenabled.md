@@ -1,8 +1,11 @@
 ---
 title: ISystemMediaTransportControls put\_IsStopEnabled method
 description: Sets a value that specifies if the stop button should be enabled.
-ms.assetid: 'F94064DE-8185-4C53-A633-92F99F873119'
-keywords: ["put_IsStopEnabled method", "put_IsStopEnabled method, ISystemMediaTransportControls interface", "ISystemMediaTransportControls interface, put_IsStopEnabled method"]
+ms.assetid: F94064DE-8185-4C53-A633-92F99F873119
+keywords:
+- put_IsStopEnabled method
+- put_IsStopEnabled method, ISystemMediaTransportControls interface
+- ISystemMediaTransportControls interface, put_IsStopEnabled method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControls::put\_IsStopEnabled method
@@ -22,7 +30,7 @@ Sets a value that specifies if the stop button should be enabled.
 
 ```C++
 HRESULT put_IsStopEnabled(
-   boolean value
+   boolean value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

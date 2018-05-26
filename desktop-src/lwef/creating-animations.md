@@ -1,7 +1,12 @@
 ---
 title: Creating Animations
 description: Creating Animations
-ms.assetid: '6d5c3c61-b3f2-4505-aa43-b6d001c444a5'
+ms.assetid: 6d5c3c61-b3f2-4505-aa43-b6d001c444a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Animations

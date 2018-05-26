@@ -1,14 +1,20 @@
 ---
 title: RecordingTime Attribute
 description: The RecordingTime attribute is the date and time of the original recording, for items where this date is different from the release date.
-ms.assetid: '39f7356b-b4b9-48cd-bd14-1336a2f4736a'
-keywords: ["RecordingTime Attribute Windows Media Player"]
+ms.assetid: 39f7356b-b4b9-48cd-bd14-1336a2f4736a
+keywords:
+- RecordingTime Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RecordingTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecordingTime Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

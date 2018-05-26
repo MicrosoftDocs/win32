@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics identify how you can use patches:'
-ms.assetid: '04e78ab5-4d24-4717-ae7b-88f7d0e734b5'
+Description: The following topics identify how you can use patches
+ms.assetid: 04e78ab5-4d24-4717-ae7b-88f7d0e734b5
 title: Using Patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Patches

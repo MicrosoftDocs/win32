@@ -1,8 +1,9 @@
 ---
 title: External.SelectedTaskPane
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The SelectedTaskPane property specifies or retrieves the currently selected task pane.
-ms.assetid: 'af7b4627-1336-444c-9b4e-5f2e07d9eea7'
-keywords: ["External.SelectedTaskPane Windows Media Player"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The SelectedTaskPane property specifies or retrieves the currently selected task pane.
+ms.assetid: af7b4627-1336-444c-9b4e-5f2e07d9eea7
+keywords:
+- External.SelectedTaskPane Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.SelectedTaskPane
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **SelectedTaskPane** property specifies or retrieves the currently selected task pane.
 
@@ -57,9 +63,9 @@ To make a particular task pane the active one, use the **NavigateTaskPaneURL** m
 [**External.NavigateTaskPaneURL**](external-navigatetaskpaneurl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

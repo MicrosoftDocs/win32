@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '4f7ace99-d8ff-4fa3-a01b-da03424b362c'
-title: 'System.RecordedTV.NetworkAffiliation'
+Description: .
+ms.assetid: 4f7ace99-d8ff-4fa3-a01b-da03424b362c
+title: System.RecordedTV.NetworkAffiliation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.NetworkAffiliation

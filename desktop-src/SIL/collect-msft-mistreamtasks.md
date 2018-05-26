@@ -4,13 +4,16 @@ description: Evaluates a list of queries of Software Inventory Logging data, and
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '580cb170-7c97-41dd-9698-b26c1e4b622e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 580cb170-7c97-41dd-9698-b26c1e4b622e
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Collect method Software Inventory Logging", "Collect method Software Inventory Logging , Msft_MiStreamTasks class", "Msft_MiStreamTasks class Software Inventory Logging , Collect method"]
+keywords:
+- Collect method Software Inventory Logging
+- Collect method Software Inventory Logging , Msft_MiStreamTasks class
+- Msft_MiStreamTasks class Software Inventory Logging , Collect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MiStreamProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Collect method of the Msft\_MiStreamTasks class
@@ -30,8 +36,8 @@ Evaluates a list of queries of Software Inventory Logging data, and then returns
 
 ```mof
 uint32 Collect(
-  [in]  string Filename,
-  [out] object Results[]
+  [in]  string Filename,
+  [out] object Results[]
 );
 ```
 
@@ -44,7 +50,7 @@ uint32 Collect(
 *Filename* \[in\]
 </dt> <dd>
 
-**Windows Server 2012 R2:** The parameter name is *filename*.
+**Windows Server 2012 R2:** The parameter name is *filename*.
 
 The name of the file that contains the queries.
 
@@ -68,7 +74,7 @@ If this method succeeds, it returns 0. If this method fails, it returns 1. For a
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>MiStreamProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MiStreamProv.dll</dt> </dl> |
@@ -82,9 +88,9 @@ If this method succeeds, it returns 0. If this method fails, it returns 1. For a
 [**Msft\_MiStreamTasks**](msft-mistreamtasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

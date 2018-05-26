@@ -1,7 +1,12 @@
 ---
 title: Security in COM
 description: Security in COM is firmly based on the security provided by Windows and the underlying RPC security mechanisms.
-ms.assetid: 'c9f6d06c-da24-48ea-908a-2462c33f7ee3'
+ms.assetid: c9f6d06c-da24-48ea-908a-2462c33f7ee3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security in COM
@@ -14,7 +19,7 @@ The system implements the Kerberos v5 authentication protocol and the Schannel s
 
 Because there is a wide range of COM security features available, it is helpful to initially determine what kind of security your application needs. For most applications, setting an acceptable level of security can be a painless process, but you can also use COM security to support very complex security scenarios.
 
-You can set security processwide, either by using Dcomcnfg.exe to set the registry or by calling [**CoInitializeSecurity**](coinitializesecurity.md). Two primary interfaces, [**IClientSecurity**](iclientsecurity.md) and [**IServerSecurity**](iserversecurity.md) (and associated helper functions), allow you to set call-level security within your program.
+You can set security processwide, either by using Dcomcnfg.exe to set the registry or by calling [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master). Two primary interfaces, [**IClientSecurity**](/windows/win32/ObjIdl/nn-objidl-iclientsecurity?branch=master) and [**IServerSecurity**](/windows/win32/objidlbase/nn-objidl-iserversecurity?branch=master) (and associated helper functions), allow you to set call-level security within your program.
 
 To learn more about COM security, see the following topics:
 

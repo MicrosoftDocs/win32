@@ -1,7 +1,12 @@
 ---
-Description: 'Provides functions to enumerate and obtain information about registered providers.'
-ms.assetid: '5b07060e-0c66-4bf2-b697-05231cb38375'
+Description: Provides functions to enumerate and obtain information about registered providers.
+ms.assetid: 5b07060e-0c66-4bf2-b697-05231cb38375
 title: Using the Cryptography Configuration Features of CNG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Cryptography Configuration Features of CNG
@@ -13,11 +18,11 @@ The CNG API provides functions to enumerate and obtain information about registe
 
 ## Enumerating Providers
 
-You use the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md) function to enumerate the registered providers. The **BCryptEnumRegisteredProviders** function can be called in one of two ways:
+You use the [**BCryptEnumRegisteredProviders**](/windows/win32/Bcrypt/nf-bcrypt-bcryptenumregisteredproviders?branch=master) function to enumerate the registered providers. The **BCryptEnumRegisteredProviders** function can be called in one of two ways:
 
-1.  The first is to have the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md) function allocate the memory. This is accomplished by passing the address of a **NULL** pointer for the *ppBuffer* parameter. This code will allocate the memory required for the [**CRYPT\_PROVIDERS**](crypt-providers.md) structure and the associated strings. When the **BCryptEnumRegisteredProviders** function is used in this manner, you must free the memory when it is no longer needed by passing *ppBuffer* to the [**BCryptFreeBuffer**](bcryptfreebuffer-func.md) function.
+1.  The first is to have the [**BCryptEnumRegisteredProviders**](/windows/win32/Bcrypt/nf-bcrypt-bcryptenumregisteredproviders?branch=master) function allocate the memory. This is accomplished by passing the address of a **NULL** pointer for the *ppBuffer* parameter. This code will allocate the memory required for the [**CRYPT\_PROVIDERS**](/windows/win32/Bcrypt/ns-bcrypt-_crypt_providers?branch=master) structure and the associated strings. When the **BCryptEnumRegisteredProviders** function is used in this manner, you must free the memory when it is no longer needed by passing *ppBuffer* to the [**BCryptFreeBuffer**](/windows/win32/Bcrypt/nf-bcrypt-bcryptfreebuffer?branch=master) function.
 
-    The following example shows how to use the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md) function to allocate the buffer for you.
+    The following example shows how to use the [**BCryptEnumRegisteredProviders**](/windows/win32/Bcrypt/nf-bcrypt-bcryptenumregisteredproviders?branch=master) function to allocate the buffer for you.
 
     ```C++
     #include <windows.h>
@@ -69,9 +74,9 @@ You use the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md
 
     
 
-2.  The second method is to allocate the required memory yourself. This is accomplished by calling the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md) function with **NULL** for the *ppBuffer* parameter. The **BCryptEnumRegisteredProviders** function will place in the value pointed to by the *pcbBuffer* parameter, the required size, in bytes, of the [**CRYPT\_PROVIDERS**](crypt-providers.md) structure and all strings. You then allocate the required memory and pass the address of this buffer pointer for the *ppBuffer* parameter in a second call to the **BCryptEnumRegisteredProviders** function.
+2.  The second method is to allocate the required memory yourself. This is accomplished by calling the [**BCryptEnumRegisteredProviders**](/windows/win32/Bcrypt/nf-bcrypt-bcryptenumregisteredproviders?branch=master) function with **NULL** for the *ppBuffer* parameter. The **BCryptEnumRegisteredProviders** function will place in the value pointed to by the *pcbBuffer* parameter, the required size, in bytes, of the [**CRYPT\_PROVIDERS**](/windows/win32/Bcrypt/ns-bcrypt-_crypt_providers?branch=master) structure and all strings. You then allocate the required memory and pass the address of this buffer pointer for the *ppBuffer* parameter in a second call to the **BCryptEnumRegisteredProviders** function.
 
-    The following example shows how to use the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md) function to allocate and use your own buffer.
+    The following example shows how to use the [**BCryptEnumRegisteredProviders**](/windows/win32/Bcrypt/nf-bcrypt-bcryptenumregisteredproviders?branch=master) function to allocate and use your own buffer.
 
     ```C++
     #include <windows.h>
@@ -121,7 +126,7 @@ You use the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md
 
 ## Getting Provider Registration Information
 
-The [**BCryptQueryProviderRegistration**](bcryptqueryproviderregistration.md) function is used to obtain additional, registration-specific information about a provider. This function takes the name of the provider that you want to obtain information for, the desired provider mode (kernel mode, user mode, or both), and the identifier of the provider interface to retrieve the registration information for. For example, to obtain the user mode registration information for the cipher interface for the "Microsoft Primitive Provider" provider, you would make a call similar to the following.
+The [**BCryptQueryProviderRegistration**](/windows/win32/Bcrypt/nf-bcrypt-bcryptqueryproviderregistration?branch=master) function is used to obtain additional, registration-specific information about a provider. This function takes the name of the provider that you want to obtain information for, the desired provider mode (kernel mode, user mode, or both), and the identifier of the provider interface to retrieve the registration information for. For example, to obtain the user mode registration information for the cipher interface for the "Microsoft Primitive Provider" provider, you would make a call similar to the following.
 
 
 ```C++
@@ -136,7 +141,7 @@ BCryptQueryProviderRegistration(
 
 
 
-Like the [**BCryptEnumRegisteredProviders**](bcryptenumregisteredproviders.md) function, the [**BCryptQueryProviderRegistration**](bcryptqueryproviderregistration.md) function can either allocate memory for you or you can allocate the memory yourself. The process is the same for the two functions.
+Like the [**BCryptEnumRegisteredProviders**](/windows/win32/Bcrypt/nf-bcrypt-bcryptenumregisteredproviders?branch=master) function, the [**BCryptQueryProviderRegistration**](/windows/win32/Bcrypt/nf-bcrypt-bcryptqueryproviderregistration?branch=master) function can either allocate memory for you or you can allocate the memory yourself. The process is the same for the two functions.
 
  
 

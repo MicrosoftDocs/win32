@@ -1,8 +1,10 @@
 ---
 title: ISearchResult interface
 description: Exposes information and properties regarding the result set.
-ms.assetid: '2f50b9d7-f6fd-481c-a5db-d622a7b02017'
-keywords: ["ISearchResult interface Legacy Windows Environment Features", "ISearchResult interface Legacy Windows Environment Features , described"]
+ms.assetid: 2f50b9d7-f6fd-481c-a5db-d622a7b02017
+keywords:
+- ISearchResult interface Legacy Windows Environment Features
+- ISearchResult interface Legacy Windows Environment Features , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISearchResult interface
@@ -50,7 +57,7 @@ The **ISearchResult** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,16 +69,16 @@ These methods expose properties and actions applicable to the result set.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 3.0<br/>                                               |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

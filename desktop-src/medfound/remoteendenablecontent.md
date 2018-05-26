@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFContentProtectionManager::EndEnableContent method.'
-ms.assetid: 'aa7a2b3a-5982-4fd8-b5de-7439fc374dfa'
+---
+Description: Remotable version of the IMFContentProtectionManagerEndEnableContent method.
+ms.assetid: aa7a2b3a-5982-4fd8-b5de-7439fc374dfa
 title: RemoteEndEnableContent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteEndEnableContent
 
-Remotable version of the [**IMFContentProtectionManager::EndEnableContent**](imfcontentprotectionmanager-endenablecontent.md) method.
+Remotable version of the [**IMFContentProtectionManager::EndEnableContent**](/windows/win32/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent?branch=master) method.
 
 ``` syntax
 [call_as(EndEnableContent)]
@@ -17,7 +22,7 @@ HRESULT RemoteEndEnableContent(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**EndEnableContent**](imfcontentprotectionmanager-endenablecontent.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**EndEnableContent**](/windows/win32/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -36,7 +41,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFContentProtectionManager**](imfcontentprotectionmanager.md)
+[**IMFContentProtectionManager**](/windows/win32/mfidl/nn-mfidl-imfcontentprotectionmanager?branch=master)
 </dt> </dl>
 
  

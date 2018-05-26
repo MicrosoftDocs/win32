@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.'
-ms.assetid: 'bf5d9081-20c8-43da-a71f-f089c2885b49'
-title: 'IPrintCoreHelperPS::GetFeatureAttribute method'
+---
+Description: The IPrintCoreHelperPSGetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
+ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
+title: IPrintCoreHelperPSGetFeatureAttribute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::GetFeatureAttribute method

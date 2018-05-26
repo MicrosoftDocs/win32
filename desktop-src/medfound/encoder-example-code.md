@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows some example code that wraps the Windows Media Audio (WMA) encoder in a C++ class named CWmaEncoder.'
-ms.assetid: '59bd5b6a-86fe-4d39-ab7c-9563ac1a8e94'
+Description: This topic shows some example code that wraps the Windows Media Audio (WMA) encoder in a C++ class named CWmaEncoder.
+ms.assetid: 59bd5b6a-86fe-4d39-ab7c-9563ac1a8e94
 title: Encoder Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoder Example Code
@@ -23,7 +28,7 @@ This code is referenced by several topics:
 
 -   [Tutorial: Writing a WMA File by Using CBR Encoding](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)
 
-In Media Foundation, encoders are implemented as [Media Foundation Transforms](media-foundation-transforms.md) (MFTs) and expose the [**IMFTransform**](imftransform.md) interface.
+In Media Foundation, encoders are implemented as [Media Foundation Transforms](media-foundation-transforms.md) (MFTs) and expose the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface.
 
 ## Class Declaration
 

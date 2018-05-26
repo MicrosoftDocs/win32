@@ -1,7 +1,12 @@
 ---
 title: default
 description: Indicates that the interface or dispinterface represents the default programmability interface. Intended for use by macro languages.
-ms.assetid: '50501057-73e9-40cf-be7c-411f78e3b084'
+ms.assetid: 50501057-73e9-40cf-be7c-411f78e3b084
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # default

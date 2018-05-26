@@ -1,7 +1,12 @@
 ---
-Description: 'This API is intended for internal use only and should not be used in your code.'
-ms.assetid: '836A7515-8C22-4032-9E99-F89B32C21685'
+Description: This API is intended for internal use only and should not be used in your code.
+ms.assetid: 836A7515-8C22-4032-9E99-F89B32C21685
 title: ApiSetQueryApiSetPresence function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApiSetQueryApiSetPresence function
@@ -15,8 +20,8 @@ This API is intended for internal use only and should not be used in your code.
 
 ```C++
 BOOL WINAPI ApiSetQueryApiSetPresence(
-  _In_  PCUNICODE_STRING Namespace,
-  _Out_ PBOOLEAN         Present
+  _In_  PCUNICODE_STRING Namespace,
+  _Out_ PBOOLEAN         Present
 );
 ```
 
@@ -38,17 +43,17 @@ BOOL WINAPI ApiSetQueryApiSetPresence(
 
 |                                     |                                                                                                                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                                                           |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                                                  |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                                                           |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                                                  |
 | Header<br/>                   | <dl> <dt>Apiquery.h</dt> </dl>                                                                                                                 |
 | Library<br/>                  | <dl> <dt>Api-ms-win-core-apiquery-l1.lib; </dt> <dt>Api-ms-win-core-apiquery-l1-1-0.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Api-ms-win-core-apiquery-l1-1-0.dll</dt> </dl>                                                                                        |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: BCM\_SETDROPDOWNSTATE message
 description: Sets the drop down state for a button with style TBSTYLE\_DROPDOWN. Send this message explicitly or by using the Button\_SetDropDownState macro.
-ms.assetid: '725deff4-0bcb-497d-a6cf-e9c98b05f16e'
-keywords: ["BCM_SETDROPDOWNSTATE message Windows Controls"]
+ms.assetid: 725deff4-0bcb-497d-a6cf-e9c98b05f16e
+keywords:
+- BCM_SETDROPDOWNSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_SETDROPDOWNSTATE message
 
-Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown). Send this message explicitly or by using the [**Button\_SetDropDownState**](button-setdropdownstate.md) macro.
+Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown). Send this message explicitly or by using the [**Button\_SetDropDownState**](/windows/win32/Commctrl/nf-commctrl-button_setdropdownstate?branch=master) macro.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 [Button Types](button-types-and-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

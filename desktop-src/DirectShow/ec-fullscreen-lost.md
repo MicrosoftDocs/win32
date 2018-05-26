@@ -1,7 +1,12 @@
 ---
-Description: 'The video renderer is switching out of full-screen mode.'
-ms.assetid: 'f720a9b6-930a-4ed7-9798-1c72fa7a11ff'
-title: 'EC\_FULLSCREEN\_LOST'
+Description: The video renderer is switching out of full-screen mode.
+ms.assetid: f720a9b6-930a-4ed7-9798-1c72fa7a11ff
+title: EC\_FULLSCREEN\_LOST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_FULLSCREEN\_LOST
@@ -22,7 +27,7 @@ Zero.
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-(**IUnknown**\*) Pointer to the video renderer's [**IBaseFilter**](ibasefilter.md) interface, or **NULL**.
+(**IUnknown**\*) Pointer to the video renderer's [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface, or **NULL**.
 
 </dd> </dl>
 
@@ -54,9 +59,9 @@ When the [Full Screen Renderer](full-screen-renderer-filter.md) loses activation
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Constant Float Register
 description: Pixel shader input register for a 4D floating-point constant.
-ms.assetid: 'e4f46a48-c81e-4105-901b-332b92fa6195'
+ms.assetid: e4f46a48-c81e-4105-901b-332b92fa6195
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constant Float Register

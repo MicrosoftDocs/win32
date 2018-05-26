@@ -1,7 +1,12 @@
 ---
 title: Effect Shader Linking
 description: Direct2D uses an optimization called effect shader linking which combines multiple effect graph rendering passes into a single pass.
-ms.assetid: '431A5B39-6C84-442D-AC66-0F341E10DF2C'
+ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Shader Linking
@@ -74,13 +79,13 @@ As a custom effect author, you should be aware of several key concepts and requi
 
 -   **No changes to effect interface implementations**
 
-    You do not need to modify any code implementing the various effect interfaces such as [ID2D1DrawTransform](id2d1drawtransform.md).
+    You do not need to modify any code implementing the various effect interfaces such as [ID2D1DrawTransform](/windows/win32/d2d1effectauthor/?branch=master).
 
 -   **Provide both a full and export function version of shaders**
 
     You must provide an export function version of your effect’s shaders which are linkable by Direct2D. In addition, you must also continue to provide the original, full shader; this is because Direct2D selects at runtime the right shader version depending on whether shader linking is to be applied to a particular link in the graph.
 
-    If a transform only provides the full pixel shader blob (via [ID2D1EffectContext::LoadPixelShader](id2d1contextinternal-loadpixelshader.md)), it will not be linked to adjacent transforms.
+    If a transform only provides the full pixel shader blob (via [ID2D1EffectContext::LoadPixelShader](/windows/win32/D2D1EffectAuthor/?branch=master)), it will not be linked to adjacent transforms.
 
 -   **Helper functions**
 

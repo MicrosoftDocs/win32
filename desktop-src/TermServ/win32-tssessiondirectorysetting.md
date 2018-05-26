@@ -4,11 +4,13 @@ description: Represents the association between an instance of the Win32\_Termin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b6350f7b-386f-4f6b-8ab1-29d5d21fae02'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b6350f7b-386f-4f6b-8ab1-29d5d21fae02
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSSessionDirectorySetting class Remote Desktop Services", "Win32_TSSessionDirectorySetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSSessionDirectorySetting class Remote Desktop Services
+- Win32_TSSessionDirectorySetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSSessionDirectorySetting class
@@ -38,12 +43,12 @@ The following syntax is simplified from MOF code and includes all defined and in
 [Dynamic, Provider("Win32_WIN32_TSSESSIONDIRECTORYSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer"), AMENDMENT]
 class Win32_TSSessionDirectorySetting : CIM_ElementSetting
 {
-  string                       Caption;
-  string                       Description;
-  datetime                     InstallDate;
-  string                       Name;
-  string                       Status;
-  Win32_TerminalService    REF Element;
+  string                       Caption;
+  string                       Description;
+  datetime                     InstallDate;
+  string                       Name;
+  string                       Status;
+  Win32_TerminalService    REF Element;
   Win32_TSSessionDirectory REF Setting;
 };
 ```
@@ -154,7 +159,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Represents the RD Connection Broker settings that can be applied to the associated RD Session Host Server.
+Represents the RD Connection Broker settings that can be applied to the associated RD Session Host Server.
 
 </dd> <dt>
 
@@ -244,8 +249,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -265,9 +270,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

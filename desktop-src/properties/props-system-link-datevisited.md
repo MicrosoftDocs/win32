@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a0c8de2b-b21e-4b22-96d1-2a77e33f1780'
-title: 'System.Link.DateVisited'
+Description: .
+ms.assetid: a0c8de2b-b21e-4b22-96d1-2a77e33f1780
+title: System.Link.DateVisited
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.DateVisited

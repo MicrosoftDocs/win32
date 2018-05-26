@@ -1,7 +1,12 @@
 ---
 title: Registers - ps\_4\_0
 description: This section contains reference information for the input and output registers implemented by pixel shader version 4\_0.
-ms.assetid: '8b83667f-f599-4105-b68c-0d6aa7c528ab'
+ms.assetid: 8b83667f-f599-4105-b68c-0d6aa7c528ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registers - ps\_4\_0

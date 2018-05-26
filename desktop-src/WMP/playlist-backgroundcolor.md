@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color.
-ms.assetid: '7fd3100e-fd5a-4b3b-824a-c7a0878a6fe9'
-keywords: ["PLAYLIST.backgroundColor Windows Media Player"]
+ms.assetid: 7fd3100e-fd5a-4b3b-824a-c7a0878a6fe9
+keywords:
+- PLAYLIST.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.backgroundColor
@@ -46,9 +52,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**PLAYLIST.backgroundImage**](playlist-backgroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

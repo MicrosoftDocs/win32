@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 5 when the standard actions are insufficient to execute the installation.'
-ms.assetid: '32b10271-44b1-4c5d-9c8b-eed1b4cd31e2'
+Description: Developers of Windows Installer packages may choose to use a custom action type 5 when the standard actions are insufficient to execute the installation.
+ms.assetid: 32b10271-44b1-4c5d-9c8b-eed1b4cd31e2
 title: Custom Action Type 5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 5
@@ -12,7 +17,7 @@ This custom action is written in JScript, such as ECMA 262. Windows Installer do
 
 The script is generated from a temporary binary stream. The Source field of the [CustomAction table](customaction-table.md) contains a key to the [Binary table](binary-table.md). The Data column in the Binary table contains the stream data. A separate stream is allocated for each row.
 
-New binary data can be inserted from a file by using [**MsiRecordSetStream**](msirecordsetstream.md) followed by [**MsiViewModify**](msiviewmodify.md) to insert the record into the table. When the custom action is invoked, the stream data is copied to a temporary file, which is then processed according to the type of custom action.
+New binary data can be inserted from a file by using [**MsiRecordSetStream**](/windows/win32/Msiquery/nf-msiquery-msirecordsetstreama?branch=master) followed by [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master) to insert the record into the table. When the custom action is invoked, the stream data is copied to a temporary file, which is then processed according to the type of custom action.
 
 ## Type Value
 

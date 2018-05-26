@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectGroup GetTechniqueByIndex method
 description: Get a technique by index.
-ms.assetid: 'b0962957-20d1-4ec6-9f8e-acc7a62c5f4e'
-keywords: ["GetTechniqueByIndex method Direct3D 11", "GetTechniqueByIndex method Direct3D 11 , ID3DX11EffectGroup interface", "ID3DX11EffectGroup interface Direct3D 11 , GetTechniqueByIndex method"]
+ms.assetid: b0962957-20d1-4ec6-9f8e-acc7a62c5f4e
+keywords:
+- GetTechniqueByIndex method Direct3D 11
+- GetTechniqueByIndex method Direct3D 11 , ID3DX11EffectGroup interface
+- ID3DX11EffectGroup interface Direct3D 11 , GetTechniqueByIndex method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectGroup::GetTechniqueByIndex method
@@ -23,7 +31,7 @@ Get a technique by index.
 
 ```C++
 ID3DX11EffectTechnique* GetTechniqueByIndex(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -53,7 +61,7 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md).
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ A pointer to an [**ID3DX11EffectTechnique**](id3dx11effecttechnique.md).
 [ID3DX11EffectGroup](id3dx11effectgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

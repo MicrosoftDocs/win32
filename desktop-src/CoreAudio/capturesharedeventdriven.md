@@ -1,7 +1,12 @@
 ---
-Description: 'This sample application uses the Core Audio APIs to capture audio data from an input device specified by the user and writes it to a uniquely named .wav file in the current directory. This sample demonstrates event-driven buffering.'
-ms.assetid: '6ff3bc23-550e-41b7-b37c-35d552b29e20'
+Description: This sample application uses the Core Audio APIs to capture audio data from an input device specified by the user and writes it to a uniquely named .wav file in the current directory. This sample demonstrates event-driven buffering.
+ms.assetid: 6ff3bc23-550e-41b7-b37c-35d552b29e20
 title: CaptureSharedEventDriven
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CaptureSharedEventDriven
@@ -85,7 +90,7 @@ The following table shows the arguments.
 
 If the application is run without arguments, it enumerates the available devices and prompts the user to select a device for the capture session. The default console, communication, and multimedia devices are listed followed by devices and the endpoint identifiers. If no duration is specified, the audio stream from the specified device is captured for 10 seconds. The application writes the captured data to a uniquely named .wav file.
 
-CaptureSharedEventDriven demonstrates event-driven buffering. The audio client instantiated for this sample is configured to run in shared mode and the client's processing of the audio buffer is made event driven by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](iaudioclient-initialize.md). The sample shows how the client must provide an event handle to the system by calling the [**IAudioClient::SetEventHandle**](iaudioclient-seteventhandle.md) method. After the capture session begins and the stream starts, the audio engine signals the supplied event handle to notify the client each time a buffer becomes ready for the client to process. The audio data can also be processed in a timer-driven loop. This mode is demostrated in the [CaptureSharedTimerDriven](capturesharedtimerdriven.md) sample.
+CaptureSharedEventDriven demonstrates event-driven buffering. The audio client instantiated for this sample is configured to run in shared mode and the client's processing of the audio buffer is made event driven by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master). The sample shows how the client must provide an event handle to the system by calling the [**IAudioClient::SetEventHandle**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-seteventhandle?branch=master) method. After the capture session begins and the stream starts, the audio engine signals the supplied event handle to notify the client each time a buffer becomes ready for the client to process. The audio data can also be processed in a timer-driven loop. This mode is demostrated in the [CaptureSharedTimerDriven](capturesharedtimerdriven.md) sample.
 
 ## Related topics
 

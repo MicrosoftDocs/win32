@@ -4,13 +4,15 @@ description: The CIM\_ManagedSystemElement class is the base class for the syste
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7d3240d0-f6a4-4629-bd4b-b7e2c2916786'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7d3240d0-f6a4-4629-bd4b-b7e2c2916786
+ms.prod: windows-server-dev
 ms.technology:
-- 'event-tracing'
-- 'windows-management-instrumentation'
+- event-tracing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ManagedSystemElement class", "CIM_ManagedSystemElement class, described"]
+keywords:
+- CIM_ManagedSystemElement class
+- CIM_ManagedSystemElement class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - EventTracingManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedSystemElement class
@@ -52,20 +57,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.22.0"), AMENDMENT]
 class CIM_ManagedSystemElement : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
 };
 ```
 
@@ -728,7 +733,7 @@ An array that contains indicators of the current status of the element. The firs
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 The possible values are.
 
@@ -1018,7 +1023,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
@@ -1046,7 +1051,7 @@ The primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 The possible values are.
 
@@ -1100,17 +1105,17 @@ An array that contains descriptions of the corresponding values in the **Operati
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\EventTracingManagement<br/>                                           |
 | MOF<br/>                      | <dl> <dt>EventTracingManagement.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>EventTracingManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

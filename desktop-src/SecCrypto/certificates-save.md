@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves the Certificate objects in the collection.'
-ms.assetid: '1d4b7bd5-3ed3-4ace-9894-4e89c5cf844f'
-title: 'Certificates.Save method'
+---
+Description: Saves the Certificate objects in the collection.
+ms.assetid: 1d4b7bd5-3ed3-4ace-9894-4e89c5cf844f
+title: Certificates.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificates.Save method

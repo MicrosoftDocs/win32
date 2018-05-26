@@ -4,11 +4,15 @@ description: Moving Objects
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3afdf480-a7ee-4b7b-99f6-4a8e8cb2096c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3afdf480-a7ee-4b7b-99f6-4a8e8cb2096c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , moving objects"]
+keywords:
+- Active Directory examples Active Directory , moving objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Moving Objects

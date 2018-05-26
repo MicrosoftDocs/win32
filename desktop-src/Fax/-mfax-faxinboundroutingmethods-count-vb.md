@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxInboundRoutingMethods collection. This is the total number of inbound routing methods associated with the fax server.'
-ms.assetid: 'c20cdaf1-050b-4257-a95e-7c50e4ff5c3b'
-title: 'FaxInboundRoutingMethods.Count property'
+---
+Description: The Count property represents the number of objects in the FaxInboundRoutingMethods collection. This is the total number of inbound routing methods associated with the fax server.
+ms.assetid: c20cdaf1-050b-4257-a95e-7c50e4ff5c3b
+title: FaxInboundRoutingMethods.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethods.Count property
@@ -43,7 +48,7 @@ A **Long** that receives the number of inbound fax routing methods in the collec
 [Visual Basic Example](-mfax-managing-routing-extensions-and-routing-methods.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethods**](-mfax-faxinboundroutingmethods-cpp.md)
+[**IFaxInboundRoutingMethods**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethods?branch=master)
 </dt> <dt>
 
 [**FaxInboundRoutingMethods**](-mfax-faxinboundroutingmethods.md)

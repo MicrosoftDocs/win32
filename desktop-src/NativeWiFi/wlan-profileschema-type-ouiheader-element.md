@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a 1-byte hexBinary that is used to differentiate between NICs made by the same IHV.'
-ms.assetid: 'fd6bae3d-27a8-4bff-9340-b444312b8216'
-title: 'type (OUIHeader) Element'
+---
+Description: Contains a 1-byte hexBinary that is used to differentiate between NICs made by the same IHV.
+ms.assetid: fd6bae3d-27a8-4bff-9340-b444312b8216
+title: type (OUIHeader) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # type (OUIHeader) Element

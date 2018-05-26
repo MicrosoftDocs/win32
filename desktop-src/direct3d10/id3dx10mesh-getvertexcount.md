@@ -1,7 +1,12 @@
-﻿---
-Description: 'Get the number of vertices in the mesh.'
-ms.assetid: 'fea8a3b5-ca10-4066-b2ca-6579829d31b6'
-title: 'ID3DX10Mesh::GetVertexCount method'
+---
+Description: Get the number of vertices in the mesh.
+ms.assetid: fea8a3b5-ca10-4066-b2ca-6579829d31b6
+title: ID3DX10MeshGetVertexCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetVertexCount method

@@ -1,8 +1,10 @@
 ---
 title: CIM\_VideoHeadOnController class
 description: Associates a video head with the video adapter that contains it.
-ms.assetid: '10546e11-9591-4c63-8248-cc664d3dfcc4'
-keywords: ["CIM_VideoHeadOnController class Hyper-V", "CIM_VideoHeadOnController class Hyper-V , described"]
+ms.assetid: 10546e11-9591-4c63-8248-cc664d3dfcc4
+keywords:
+- CIM_VideoHeadOnController class Hyper-V
+- CIM_VideoHeadOnController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VideoHeadOnController class
@@ -28,7 +35,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_VideoHeadOnController : CIM_HostedDependency
 {
   CIM_DisplayController REF Antecedent;
-  CIM_VideoHead         REF Dependent;
+  CIM_VideoHead         REF Dependent;
 };
 ```
 
@@ -83,9 +90,9 @@ The head on the video adapter.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ The head on the video adapter.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

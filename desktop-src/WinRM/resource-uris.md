@@ -4,10 +4,13 @@ description: A resource URI is an identifier for a distinct type of management o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '478a6e5d-0675-462e-b2fd-fd2b5379e298'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 478a6e5d-0675-462e-b2fd-fd2b5379e298
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource URIs
@@ -37,9 +40,9 @@ The following list describes several types of resource URIs used by Windows Remo
     WMI URIs can be used in:
 
     -   [**Session**](session.md) methods
-    -   [**IWSManSession**](iwsmansession.md) methods
-    -   [**WSMan.CreateResourceLocator**](wsman-createresourcelocator.md) or [**IWSMan.CreateResourceLocator**](iwsmanex-createresourcelocator.md) methods
-    -   [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](iwsmanresourcelocator.md) methods
+    -   [**IWSManSession**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmansession?branch=master) methods
+    -   [**WSMan.CreateResourceLocator**](wsman-createresourcelocator.md) or [**IWSMan.CreateResourceLocator**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-createresourcelocator?branch=master) methods
+    -   [**ResourceLocator**](resourcelocator.md) or [**IWSManResourceLocator**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanresourcelocator?branch=master) methods
 
 -   IPMI URIs
 

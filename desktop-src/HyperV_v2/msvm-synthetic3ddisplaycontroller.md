@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the synthetic 3-D display controller that is assigned to a virtual machine.'
-ms.assetid: '5679668B-7D0B-421C-92B6-8A320090DFF7'
-title: 'Msvm\_Synthetic3DDisplayController class'
+Description: Represents the synthetic 3-D display controller that is assigned to a virtual machine.
+ms.assetid: 5679668B-7D0B-421C-92B6-8A320090DFF7
+title: Msvm\_Synthetic3DDisplayController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synthetic3DDisplayController class
@@ -11,7 +16,7 @@ Represents the synthetic 3-D display controller that is assigned to a virtual ma
 > \[!Important\]  
 > When you add a synthetic 3-D display controller to a virtual machine, you must disable any synthetic display controller ([**Msvm\_SyntheticDisplayController**](msvm-syntheticdisplaycontroller.md)) that is attached to that virtual machine.
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,58 +26,58 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider")]
 class Msvm_Synthetic3DDisplayController : CIM_DisplayController
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 1;
-  uint32   MaxNumberControlled = 1;
-  string   ProtocolDescription = "Video";
-  string   VideoProcessor = "Synthetic Video Processor";
-  uint16   VideoMemoryType = 2;
-  string   OtherVideoMemoryType;
-  uint32   NumberOfVideoPages = 2048;
-  uint32   MaxMemorySupported = 8388608;
-  uint16   AcceleratorCapabilities[] = { 2 };
-  string   CapabilityDescriptions[] = { "Graphics Accelerator" };
-  string   OtherVideoArchitecture;
-  uint16   VideoArchitecture;
-  string   AllocatedGPU;
+  uint16   ProtocolSupported = 1;
+  uint32   MaxNumberControlled = 1;
+  string   ProtocolDescription = "Video";
+  string   VideoProcessor = "Synthetic Video Processor";
+  uint16   VideoMemoryType = 2;
+  string   OtherVideoMemoryType;
+  uint32   NumberOfVideoPages = 2048;
+  uint32   MaxMemorySupported = 8388608;
+  uint16   AcceleratorCapabilities[] = { 2 };
+  string   CapabilityDescriptions[] = { "Graphics Accelerator" };
+  string   OtherVideoArchitecture;
+  uint16   VideoArchitecture;
+  string   AllocatedGPU;
 };
 ```
 
@@ -102,7 +107,7 @@ The **Msvm\_Synthetic3DDisplayController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -973,8 +978,8 @@ A string that describes the video processor/controller. This property is inherit
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -988,9 +993,9 @@ A string that describes the video processor/controller. This property is inherit
 [**CIM\_DisplayController**](cim-displaycontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

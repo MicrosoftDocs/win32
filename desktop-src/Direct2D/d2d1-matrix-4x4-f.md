@@ -1,8 +1,14 @@
 ---
 title: D2D1\_MATRIX\_4X4\_F
 description: Represents a 4-by-4 matrix.
-ms.assetid: '6df02d4c-cd3c-697e-0aff-7f2d307d3d7d'
-keywords: ["D2D1_MATRIX_4X4_F"]
+ms.assetid: 6df02d4c-cd3c-697e-0aff-7f2d307d3d7d
+keywords:
+- D2D1_MATRIX_4X4_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_MATRIX\_4X4\_F
@@ -18,7 +24,7 @@ typedef D2D_MATRIX_4X4_F D2D1_MATRIX_4X4_F;
 
 ## Remarks
 
-**D2D1\_MATRIX\_4X4** is a new name for the [**D2D\_MATRIX\_4X4\_F**](d2d-matrix-4x4-f.md) structure. For a list of fields provided by the matrix, see **D2D\_MATRIX\_4X4\_F**.
+**D2D1\_MATRIX\_4X4** is a new name for the [**D2D\_MATRIX\_4X4\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_4x4_f?branch=master) structure. For a list of fields provided by the matrix, see **D2D\_MATRIX\_4X4\_F**.
 
 ## Requirements
 
@@ -26,9 +32,9 @@ typedef D2D_MATRIX_4X4_F D2D1_MATRIX_4X4_F;
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1.h</dt> </dl>                                                        |
 
 
@@ -52,9 +58,9 @@ typedef D2D_MATRIX_4X4_F D2D1_MATRIX_4X4_F;
 [How to Translate an Object](how-to-translate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

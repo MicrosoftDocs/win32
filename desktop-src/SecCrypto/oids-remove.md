@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes the specified OID object from the collection.'
-ms.assetid: 'c5eb6831-b195-4dc1-a6bd-d4245f9b0213'
-title: 'OIDs.Remove method'
+---
+Description: Removes the specified OID object from the collection.
+ms.assetid: c5eb6831-b195-4dc1-a6bd-d4245f9b0213
+title: OIDs.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OIDs.Remove method

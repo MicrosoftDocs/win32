@@ -1,8 +1,10 @@
 ---
 title: MPRESOURCE\_INFO structure
 description: Resource information structure.
-ms.assetid: '2D645722-3DE3-4748-B532-3E522464EA1E'
-keywords: ["MPRESOURCE_INFO structure Legacy Windows Environment Features", "PMPRESOURCE_INFO structure pointer Legacy Windows Environment Features"]
+ms.assetid: 2D645722-3DE3-4748-B532-3E522464EA1E
+keywords:
+- MPRESOURCE_INFO structure Legacy Windows Environment Features
+- PMPRESOURCE_INFO structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPRESOURCE\_INFO structure
@@ -24,7 +31,7 @@ Resource information structure.
 typedef struct tagMPRESOURCE_INFO {
   MP_MIDL_STRING LPWSTR Scheme;
   MP_MIDL_STRING LPWSTR Path;
-  MPRESOURCE_CLASS      Class;
+  MPRESOURCE_CLASS      Class;
 } MPRESOURCE_INFO, *PMPRESOURCE_INFO;
 ```
 
@@ -77,7 +84,7 @@ This field is set when the resource is identified as part of the threat. It spec
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -87,15 +94,15 @@ This field is set when the resource is identified as part of the threat. It spec
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DAAppServer class
 description: DirectAccess application server class.
 audience: developer
-ms.assetid: 'fc828e53-ebc3-489b-a4bc-5fbaeacca1a4'
-ms.prod: 'windows-server-dev'
+ms.assetid: fc828e53-ebc3-489b-a4bc-5fbaeacca1a4
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DAAppServer class", "DAAppServer class, described"]
+keywords:
+- DAAppServer class
+- DAAppServer class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DAAppServer class
@@ -34,9 +39,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class DAAppServer
 {
-  string                SecurityGroupNameList[];
+  string                SecurityGroupNameList[];
   DAAppServerConnection AppServerConnection;
-  string                GpoName[];
+  string                GpoName[];
 };
 ```
 
@@ -101,16 +106,16 @@ An arrary of application server security groups
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

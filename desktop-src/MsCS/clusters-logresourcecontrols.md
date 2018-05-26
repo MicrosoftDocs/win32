@@ -4,17 +4,21 @@ description: Controls the logging of resource controls.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7B941464-8A01-46F2-81B4-60FE41B9D089'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7B941464-8A01-46F2-81B4-60FE41B9D089
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["LogResourceControls Failover Cluster"]
+keywords:
+- LogResourceControls Failover Cluster
 topic_type:
 - apiref
 api_name:
 - LogResourceControls
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LogResourceControls
@@ -27,14 +31,14 @@ Controls the logging of resource controls.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE** (0)                             |
 | Maximum   | **TRUE** (1)                              |
 | Default   | **FALSE** (0)                             |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Controls the logging of resource controls.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Controls the logging of resource controls.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Requests that the LogicalDevice be enabled or disabled.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '74ae659c-2d29-4b93-a63a-4d7ca9409435'
-ms.prod: 'windows-server-dev'
+ms.assetid: 74ae659c-2d29-4b93-a63a-4d7ca9409435
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnableDevice method", "EnableDevice method, CIM_LogicalDevice class", "CIM_LogicalDevice class, EnableDevice method"]
+keywords:
+- EnableDevice method
+- EnableDevice method, CIM_LogicalDevice class
+- CIM_LogicalDevice class, EnableDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableDevice method of the CIM\_LogicalDevice class
@@ -30,7 +36,7 @@ Requests that the LogicalDevice be enabled or disabled. If successful, the Devic
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -54,7 +60,7 @@ uint32 EnableDevice(
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -68,9 +74,9 @@ uint32 EnableDevice(
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

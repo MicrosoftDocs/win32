@@ -1,8 +1,9 @@
 ---
 title: glIndexsv function
 description: The glIndexsv function sets the current color index.
-ms.assetid: '4b7f4edf-a7c8-4e81-8448-5181295d5174'
-keywords: ["glIndexsv function OpenGL"]
+ms.assetid: 4b7f4edf-a7c8-4e81-8448-5181295d5174
+keywords:
+- glIndexsv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glIndexsv function
@@ -22,7 +28,7 @@ The **glIndexsv** function sets the current color index.
 
 ```C++
 void WINAPI glIndexsv(
-   const GLshort *c
+   const GLshort *c
 );
 ```
 
@@ -63,8 +69,8 @@ The following function retrieves information related to **glIndexsv**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -87,9 +93,9 @@ The following function retrieves information related to **glIndexsv**:
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

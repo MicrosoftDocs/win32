@@ -1,14 +1,20 @@
 ---
 title: REPEAT Element
 description: The REPEAT element defines the number of times Windows Media Player repeats one or more ENTRY or ENTRYREF elements.
-ms.assetid: '1a825f2b-29a7-4180-93df-51b3b5dd14e5'
-keywords: ["REPEAT Element Windows Media Player"]
+ms.assetid: 1a825f2b-29a7-4180-93df-51b3b5dd14e5
+keywords:
+- REPEAT Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - REPEAT Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REPEAT Element
@@ -39,7 +45,7 @@ Integer representing the number of times Windows Media Player repeats the **ENTR
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,9 +95,9 @@ If no **COUNT** attribute is defined, the content in the associated **ENTRY** an
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: This class is for replication group membership. An instance of this
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7af5f06b-4950-4308-aabc-7828c07a99cf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7af5f06b-4950-4308-aabc-7828c07a99cf
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrLocalMemberConfig class Distributed File System Replication", "DfsrLocalMemberConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrLocalMemberConfig class Distributed File System Replication
+- DfsrLocalMemberConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrLocalMemberConfig class
@@ -235,9 +240,9 @@ This property is inherited from [**CIM\_Setting**](https://msdn.microsoft.com/li
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                     |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -254,9 +259,9 @@ This property is inherited from [**CIM\_Setting**](https://msdn.microsoft.com/li
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

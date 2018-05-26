@@ -1,7 +1,12 @@
 ---
 title: Constructing Language Resource Components
 description: Constructing Language Resource Components
-ms.assetid: '9d4d5936-d2ae-407c-a2bd-d838926c9523'
+ms.assetid: 9d4d5936-d2ae-407c-a2bd-d838926c9523
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constructing Language Resource Components

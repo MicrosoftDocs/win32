@@ -1,7 +1,12 @@
 ---
 title: The Hard Fault Action
 description: The Hard Fault Action
-ms.assetid: '1ffe3f5d-5868-421b-874e-a8f5565e9b62'
+ms.assetid: 1ffe3f5d-5868-421b-874e-a8f5565e9b62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Hard Fault Action
@@ -25,11 +30,11 @@ The hard fault action produces a text report that summarizes the various hard fa
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: 
-description: Indicates whether a user's true identity or an anonymous identity is sent.
-ms.assetid: '1ae5b6e8-b1f8-45a7-ad22-fdb57cc756a2'
-keywords: ["element EAPHost"]
+description: Indicates whether a users true identity or an anonymous identity is sent.
+ms.assetid: 1ae5b6e8-b1f8-45a7-ad22-fdb57cc756a2
+keywords:
+- element EAPHost
 topic_type:
 - apiref
 api_name:
 - Username
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 
@@ -34,8 +40,8 @@ The **IdentityPrivacy** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ The **IdentityPrivacy** element is optional.
 [**IdentityPrivacy(PeapExtensionsType)**](mspeapconnectionpropertiesv2-identityprivacy-peapextensionstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

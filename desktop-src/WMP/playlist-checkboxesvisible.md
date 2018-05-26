@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.checkboxesVisible
 description: The checkboxesVisible attribute specifies or retrieves a value indicating whether check boxes are visible.
-ms.assetid: '25672694-d4dc-46b4-b403-81603dc58cff'
-keywords: ["PLAYLIST.checkboxesVisible Windows Media Player"]
+ms.assetid: 25672694-d4dc-46b4-b403-81603dc58cff
+keywords:
+- PLAYLIST.checkboxesVisible Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.checkboxesVisible
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.checkboxesVisible
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ Check boxes appear in the far left column.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

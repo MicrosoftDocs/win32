@@ -1,16 +1,21 @@
 ---
 title: Setting the Entity and Context Translation Mode
 description: The WinSNMP application can specify the interpretation and translation of entity and context parameters by setting the entity and context translation mode. The Microsoft WinSNMP implementation stores the mode in a database.
-ms.assetid: '2550f235-1351-440a-8b4e-f0d30b058229'
+ms.assetid: 2550f235-1351-440a-8b4e-f0d30b058229
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Entity and Context Translation Mode
 
 The WinSNMP application can specify the interpretation and translation of entity and context parameters by setting the entity and context translation mode. The Microsoft WinSNMP implementation stores the mode in a database.
 
-The setting of the entity and context translation mode determines the manner in which the [**SnmpStrToEntity**](snmpstrtoentity.md) function and the [**SnmpStrToContext**](snmpstrtocontext.md) function interpret input strings. The setting also determines the type of output string that the [**SnmpEntityToStr**](snmpentitytostr.md) and the [**SnmpContextToStr**](snmpcontexttostr.md) functions return. For more information, see [Support for IPX Address Strings in WinSNMP](support-for-ipx-address-strings-in-winsnmp.md).
+The setting of the entity and context translation mode determines the manner in which the [**SnmpStrToEntity**](/windows/win32/Winsnmp/nf-winsnmp-snmpstrtoentity?branch=master) function and the [**SnmpStrToContext**](/windows/win32/Winsnmp/nf-winsnmp-snmpstrtocontext?branch=master) function interpret input strings. The setting also determines the type of output string that the [**SnmpEntityToStr**](/windows/win32/Winsnmp/nf-winsnmp-snmpentitytostr?branch=master) and the [**SnmpContextToStr**](/windows/win32/Winsnmp/nf-winsnmp-snmpcontexttostr?branch=master) functions return. For more information, see [Support for IPX Address Strings in WinSNMP](support-for-ipx-address-strings-in-winsnmp.md).
 
-The implementation returns the current default entity and context translation mode in the *nTranslateMode* parameter of the [**SnmpStartup**](snmpstartup.md) function. To retrieve the current entity and context translation mode in effect for the implementation, an application can call the [**SnmpGetTranslateMode**](snmpgettranslatemode.md) function at any time.
+The implementation returns the current default entity and context translation mode in the *nTranslateMode* parameter of the [**SnmpStartup**](/windows/win32/Winsnmp/nf-winsnmp-snmpstartup?branch=master) function. To retrieve the current entity and context translation mode in effect for the implementation, an application can call the [**SnmpGetTranslateMode**](/windows/win32/Winsnmp/nf-winsnmp-snmpgettranslatemode?branch=master) function at any time.
 
 The valid entity and context translation modes follow.
 
@@ -26,7 +31,7 @@ The valid entity and context translation modes follow.
 
 The implementation tries to associate resources in its database with the literal transport address of the management entity.
 
-To change the entity and context translation mode setting a WinSNMP application must call the [**SnmpSetTranslateMode**](snmpsettranslatemode.md) function. If the requested translation mode is invalid, the function fails, and [**SnmpGetLastError**](snmpgetlasterror.md) returns the error code SNMPAPI\_MODE\_INVALID.
+To change the entity and context translation mode setting a WinSNMP application must call the [**SnmpSetTranslateMode**](/windows/win32/Winsnmp/nf-winsnmp-snmpsettranslatemode?branch=master) function. If the requested translation mode is invalid, the function fails, and [**SnmpGetLastError**](/windows/win32/Winsnmp/nf-winsnmp-snmpgetlasterror?branch=master) returns the error code SNMPAPI\_MODE\_INVALID.
 
  
 

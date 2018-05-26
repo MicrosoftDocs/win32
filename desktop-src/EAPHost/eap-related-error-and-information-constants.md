@@ -1,7 +1,7 @@
 ---
 title: EAP Related Error and Information Constants
 description: Individual groups of EAP related error and information constants common to all EAPHost API technologies.
-ms.assetid: '081b7a72-abe3-4cbb-9b6c-07bb6717fbfe'
+ms.assetid: 081b7a72-abe3-4cbb-9b6c-07bb6717fbfe
 topic_type:
 - apiref
 api_name:
@@ -56,6 +56,11 @@ api_location:
 - eaphosterror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Related Error and Information Constants
@@ -254,7 +259,7 @@ The EAPHost configuration schema validation failed.
 
 
 
-Windows 7 or later: The EAP method does not support single sign on (SSO) for the provided configuration.
+Windows 7 or later: The EAP method does not support single sign on (SSO) for the provided configuration.
 
 
 </dt> </dl> </dd> <dt>
@@ -436,7 +441,7 @@ The authenticator rejected user credentials for authentication.
 
 
 
-Windows 7 or later: Authentication failed. The authenticator rejected the user credentials.
+Windows 7 or later: Authentication failed. The authenticator rejected the user credentials.
 
 
 </dt> </dl> </dd> <dt>
@@ -449,7 +454,7 @@ Windows 7 or later: Authentication failed. The authenticator rejected the user c
 
 
 
-Windows 7 or later: No smart card reader found.
+Windows 7 or later: No smart card reader found.
 
 
 </dt> </dl> </dd> <dt>
@@ -688,8 +693,8 @@ There are alternate names for certain errors:
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |
 | Header<br/>                   | <dl> <dt>Eaphosterror.h</dt> </dl> |
 
 
@@ -701,9 +706,9 @@ There are alternate names for certain errors:
 [Common EAPHost Constants](common-eap-host-error-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

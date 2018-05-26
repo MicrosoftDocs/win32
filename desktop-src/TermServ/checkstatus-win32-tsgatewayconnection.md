@@ -1,14 +1,17 @@
 ---
 title: CheckStatus method of the Win32\_TSGatewayConnection class
-description: Checks the status of a Remote Desktop Gateway (RD Gateway) server connection to another computer, and determines whether the target computer is configured for load balancing.
+description: Checks the status of a Remote Desktop Gateway (RD Gateway) server connection to another computer, and determines whether the target computer is configured for load balancing.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e8ee3d40-76eb-401f-b255-bccd7ba8c058'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e8ee3d40-76eb-401f-b255-bccd7ba8c058
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CheckStatus method Remote Desktop Services", "CheckStatus method Remote Desktop Services , Win32_TSGatewayConnection class", "Win32_TSGatewayConnection class Remote Desktop Services , CheckStatus method"]
+keywords:
+- CheckStatus method Remote Desktop Services
+- CheckStatus method Remote Desktop Services , Win32_TSGatewayConnection class
+- Win32_TSGatewayConnection class Remote Desktop Services , CheckStatus method
 topic_type:
 - apiref
 api_name:
@@ -17,19 +20,22 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CheckStatus method of the Win32\_TSGatewayConnection class
 
-Checks the status of a Remote Desktop Gateway (RD Gateway) server connection to another computer, and determines whether the target computer is configured for load balancing.
+Checks the status of a Remote Desktop Gateway (RD Gateway) server connection to another computer, and determines whether the target computer is configured for load balancing.
 
 ## Syntax
 
 
 ```mof
 uint32 CheckStatus(
-  [in] string ServerName,
-  [in] string EndPointName
+  [in] string ServerName,
+  [in] string EndPointName
 );
 ```
 
@@ -42,7 +48,7 @@ uint32 CheckStatus(
 *ServerName* \[in\]
 </dt> <dd>
 
-The name of the source RD Gateway server from which the connection is checked.
+The name of the source RD Gateway server from which the connection is checked.
 
 </dd> <dt>
 
@@ -106,7 +112,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -120,9 +126,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnection**](win32-tsgatewayconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

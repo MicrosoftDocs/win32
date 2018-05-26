@@ -1,14 +1,21 @@
 ---
 title: IWMDRMNonSilentLicenseAquisition interface
 description: The IWMDRMNonSilentLicenseAquisition interface provides methods that enable license acquisition requiring user intervention.This interface can be obtained by performing non-silent license acquisition.
-ms.assetid: '57dc3daa-d457-49b0-b589-a72ba180e75e'
-keywords: ["IWMDRMNonSilentLicenseAquisition interface windows Media Format", "IWMDRMNonSilentLicenseAquisition interface windows Media Format , described"]
+ms.assetid: 57dc3daa-d457-49b0-b589-a72ba180e75e
+keywords:
+- IWMDRMNonSilentLicenseAquisition interface windows Media Format
+- IWMDRMNonSilentLicenseAquisition interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMNonSilentLicenseAquisition
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNonSilentLicenseAquisition interface
@@ -36,7 +43,7 @@ The **IWMDRMNonSilentLicenseAquisition** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -48,9 +55,9 @@ The **IWMDRMNonSilentLicenseAquisition** interface has these methods.
 [**Non-Silent License Acquisition**](non-silent-license-acquisition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

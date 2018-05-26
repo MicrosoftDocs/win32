@@ -1,14 +1,20 @@
 ---
 title: TEXT.justification
 description: The justification attribute specifies or retrieves the alignment of the text within the Text control.
-ms.assetid: '72086142-198b-41cf-ad84-733fa23f9efe'
-keywords: ["TEXT.justification Windows Media Player"]
+ms.assetid: 72086142-198b-41cf-ad84-733fa23f9efe
+keywords:
+- TEXT.justification Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.justification
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.justification
@@ -33,7 +39,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,9 +62,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT Element**](text-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

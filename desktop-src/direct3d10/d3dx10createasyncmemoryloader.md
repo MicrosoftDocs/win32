@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an asynchronous-memory loader.'
-ms.assetid: '92177390-cb09-445e-9828-806a23ef91b5'
+---
+Description: Create an asynchronous-memory loader.
+ms.assetid: 92177390-cb09-445e-9828-806a23ef91b5
 title: D3DX10CreateAsyncMemoryLoader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncMemoryLoader function

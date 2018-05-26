@@ -1,8 +1,22 @@
 ---
 title: Verifying Capture Support for HDV in a Specific Version of Windows Vista
 description: Verifying Capture Support for HDV in a Specific Version of Windows Vista
-ms.assetid: 'fb91bda8-8fde-4eb6-baae-ad509476c180'
-keywords: ["Windows DVD Maker,capturing HDV from camcorders", "DVD Maker,capturing HDV from camcorders", "programming guide,capturing HDV from camcorders", "Windows Vista,capturing HDV from camcorders", "Windows Vista,Capture Wizard", "Capture Wizard", "capturing HDV from camcorders", "high-definition video (HDV)", "HDV (high-definition video)"]
+ms.assetid: fb91bda8-8fde-4eb6-baae-ad509476c180
+keywords:
+- Windows DVD Maker,capturing HDV from camcorders
+- DVD Maker,capturing HDV from camcorders
+- programming guide,capturing HDV from camcorders
+- Windows Vista,capturing HDV from camcorders
+- Windows Vista,Capture Wizard
+- Capture Wizard
+- capturing HDV from camcorders
+- high-definition video (HDV)
+- HDV (high-definition video)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying Capture Support for HDV in a Specific Version of Windows Vista

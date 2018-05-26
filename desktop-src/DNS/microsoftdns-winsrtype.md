@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_WINSRType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a WINS Reverse Look-up (WINSR) record.
-ms.assetid: 'e611dc63-838f-4a79-baca-febd27612111'
-keywords: ["MicrosoftDNS_WINSRType class DNS", "MicrosoftDNS_WINSRType class DNS , described"]
+ms.assetid: e611dc63-838f-4a79-baca-febd27612111
+keywords:
+- MicrosoftDNS_WINSRType class DNS
+- MicrosoftDNS_WINSRType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_WINSRType class
@@ -57,7 +64,7 @@ The **MicrosoftDNS\_WINSRType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -124,7 +131,7 @@ Domain name to append to returned NetBIOS names.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -143,9 +150,9 @@ Domain name to append to returned NetBIOS names.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

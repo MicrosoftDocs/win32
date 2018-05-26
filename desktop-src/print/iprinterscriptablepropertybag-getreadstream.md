@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a read stream and uses it to read from a property.'
-ms.assetid: '493E6C55-DC3B-4160-9642-BDABADD575B8'
-title: 'IPrinterScriptablePropertyBag::GetReadStream method'
+---
+Description: Gets a read stream and uses it to read from a property.
+ms.assetid: 493E6C55-DC3B-4160-9642-BDABADD575B8
+title: IPrinterScriptablePropertyBagGetReadStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::GetReadStream method

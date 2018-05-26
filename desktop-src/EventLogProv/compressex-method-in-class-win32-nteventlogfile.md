@@ -1,7 +1,12 @@
 ---
-Description: 'Uses NTFS compression to compress the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property (this method is an extended version of the Compress method).'
-ms.assetid: '16fd022b-0d99-4701-b707-c7fa181ff80c'
-title: 'CompressEx method of the Win32\_NTEventlogFile class'
+Description: Uses NTFS compression to compress the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property (this method is an extended version of the Compress method).
+ms.assetid: 16fd022b-0d99-4701-b707-c7fa181ff80c
+title: CompressEx method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CompressEx method of the Win32\_NTEventlogFile class
@@ -15,9 +20,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 CompressEx(
-  [out]          string StopFileName,
-  [in, optional] string StartFileName,
-  [in, optional] boolean Recursive
+  [out]          string StopFileName,
+  [in, optional] string StartFileName,
+  [in, optional] boolean Recursive
 );
 ```
 
@@ -49,7 +54,7 @@ If **true**, the change of ownership is applied recursively to files and directo
 > [!Note]  
 > For file instances, the *Recursive* input parameter is ignored.
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,7 +80,7 @@ If **true**, the change of ownership is applied recursively to files and directo
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,8 +88,8 @@ If **true**, the change of ownership is applied recursively to files and directo
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -101,9 +106,9 @@ If **true**, the change of ownership is applied recursively to files and directo
 [**Win32\_NTEventlogFile**](win32-nteventlogfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

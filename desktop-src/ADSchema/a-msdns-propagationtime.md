@@ -4,17 +4,22 @@ description: An attribute used to define in seconds the expected time required t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ca48d956-f88f-440f-bbc9-23015130f393'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ca48d956-f88f-440f-bbc9-23015130f393
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Propagation-Time attribute AD Schema", "msDNS-PropagationTime attribute AD Schema"]
+keywords:
+- ms-DNS-Propagation-Time attribute AD Schema
+- msDNS-PropagationTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Propagation-Time
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Propagation-Time attribute
@@ -38,7 +43,7 @@ An attribute used to define in seconds the expected time required to propagate z
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute used to define in seconds the expected time required to propagate z
 
 
 
- 
+ 
 
- 
+ 
 
 
 

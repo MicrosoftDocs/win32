@@ -1,8 +1,10 @@
 ---
 title: IMessengerConversationWnd interface
 description: Do not use. An interface that returns an IDispatch pointer to an IMessengerContacts collection that contains the participants of that conversation, excluding the local user. This is a read-only collection. Remove cannot be used on this collection.
-ms.assetid: '8fc2c2d7-fe5d-4ab6-9cf7-e2cb099672a1'
-keywords: ["IMessengerConversationWnd interface Windows Messenger", "IMessengerConversationWnd interface Windows Messenger , described"]
+ms.assetid: 8fc2c2d7-fe5d-4ab6-9cf7-e2cb099672a1
+keywords:
+- IMessengerConversationWnd interface Windows Messenger
+- IMessengerConversationWnd interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerConversationWnd interface
 
-\[**IMessengerConversationWnd** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMessengerConversationWnd** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. An interface that returns an [IDispatch](c1accca9-971c-4435-8a5e-e25404a3fb25) pointer to an [**IMessengerContacts**](im-imessengercontacts.md) collection that contains the participants of that conversation, excluding the local user. This is a read-only collection. [**Remove**](im-imessengergroups-remove.md) cannot be used on this collection.
 
@@ -38,7 +45,7 @@ The **IMessengerConversationWnd** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +60,7 @@ The **IMessengerConversationWnd** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,10 +68,10 @@ The **IMessengerConversationWnd** interface has these properties.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -72,9 +79,9 @@ The **IMessengerConversationWnd** interface has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Vertex texture sampler constants.'
-ms.assetid: '1347c3d6-67f6-4cea-9a93-9fc754755b47'
+Description: Vertex texture sampler constants.
+ms.assetid: 1347c3d6-67f6-4cea-9a93-9fc754755b47
 title: D3DVERTEXTEXTURESAMPLER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DVERTEXTEXTURESAMPLER

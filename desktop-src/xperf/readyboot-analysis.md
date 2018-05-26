@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Analysis
 description: ReadyBoot Analysis
-ms.assetid: '24eff7e6-f2e3-460d-9efe-9888d3435904'
+ms.assetid: 24eff7e6-f2e3-460d-9efe-9888d3435904
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot Analysis

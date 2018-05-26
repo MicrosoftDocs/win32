@@ -1,7 +1,12 @@
 ---
 title: The Spinlock Action
 description: The Spinlock Action
-ms.assetid: '2da4ac63-62e4-4b37-9b64-5b97016dfc2e'
+ms.assetid: 2da4ac63-62e4-4b37-9b64-5b97016dfc2e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Spinlock Action
@@ -24,7 +29,7 @@ The spinlock action produces a text file listing information relevant to spinloc
 
 
 
- 
+ 
 
 ### Target Platforms
 
@@ -45,9 +50,9 @@ This section includes the following topics:
 [Evaluating Spin Lock Data](evaluating-spin-lock-data.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

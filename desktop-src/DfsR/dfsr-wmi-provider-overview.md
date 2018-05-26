@@ -4,13 +4,18 @@ description: The DFSR WMI provider defines classes for configuring and monitorin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa6028ac-5236-4c0e-8097-21ef5bcd7720'
-ms.prod: 'windows-server-dev'
+ms.assetid: fa6028ac-5236-4c0e-8097-21ef5bcd7720
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , WMI provider", "WMI provider for Distributed File System Replication Files"]
+keywords:
+- Distributed File System Replication Files , WMI provider
+- WMI provider for Distributed File System Replication Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFSR WMI Provider Overview

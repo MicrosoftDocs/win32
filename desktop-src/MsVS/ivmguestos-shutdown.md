@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS Shutdown method
 description: The Shutdown method tells the guest operating system to shut down.
-ms.assetid: '1699bca4-158c-4fb5-8df9-b8f987ea80d0'
-keywords: ["Shutdown method Virtual Server", "Shutdown method Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , Shutdown method", "Shutdown method Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , Shutdown method"]
+ms.assetid: 1699bca4-158c-4fb5-8df9-b8f987ea80d0
+keywords:
+- Shutdown method Virtual Server
+- Shutdown method Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , Shutdown method
+- Shutdown method Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , Shutdown method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::Shutdown method
@@ -23,7 +33,7 @@ The **Shutdown** method tells the guest operating system to shut down.
 
 ```C++
 HRESULT Shutdown(
-  [out] IVMTask **shutdownTask
+  [out] IVMTask **shutdownTask
 );
 ```
 
@@ -58,7 +68,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +80,8 @@ The virtual machine must be running and Additions must be installed when this me
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -83,9 +93,9 @@ The virtual machine must be running and Additions must be installed when this me
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the area that has changed since the last analysis operation.'
-ms.assetid: '1484fd96-2791-4583-b13b-e5a8275ecb0e'
-title: 'IInkAnalyzer::SetDirtyRegion method'
+Description: Modifies the area that has changed since the last analysis operation.
+ms.assetid: 1484fd96-2791-4583-b13b-e5a8275ecb0e
+title: IInkAnalyzerSetDirtyRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SetDirtyRegion method
@@ -13,7 +18,7 @@ Modifies the area that has changed since the last analysis operation.
 
 ```C++
 HRESULT SetDirtyRegion(
-  [in] IAnalysisRegion *pDirtyRegion
+  [in] IAnalysisRegion *pDirtyRegion
 );
 ```
 
@@ -50,7 +55,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) analyzes ink within its dirty region dur
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -94,9 +99,9 @@ The [**IInkAnalyzer**](iinkanalyzer.md) analyzes ink within its dirty region dur
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

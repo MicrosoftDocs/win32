@@ -1,8 +1,23 @@
 ---
 title: About the Service Object
 description: The Service object represents a device service, and provides access to all of the properties, methods, events, and content exposed by that service.
-ms.assetid: '035edd34-75e9-4edd-8785-66021380070c'
-keywords: ["WPD Automation,WPDObject", "WPD Automation,Service object", "WPD Automation,CreateNewObject", "WPDObject,WPD Automation", "WPDObject,Service object", "Service object,about", "Service object,WPD Automation", "Service object,WPDObject", "Service object,CreateNewObject", "CreateNewObject"]
+ms.assetid: 035edd34-75e9-4edd-8785-66021380070c
+keywords:
+- WPD Automation,WPDObject
+- WPD Automation,Service object
+- WPD Automation,CreateNewObject
+- WPDObject,WPD Automation
+- WPDObject,Service object
+- Service object,about
+- Service object,WPD Automation
+- Service object,WPDObject
+- Service object,CreateNewObject
+- CreateNewObject
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Service Object

@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies an intranet URL for the licensing cluster.'
+Description: Specifies an intranet URL for the licensing cluster.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '78359731-49f1-42e2-b1dd-6bbd61b145fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 78359731-49f1-42e2-b1dd-6bbd61b145fe
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Enterprise.UpdateIntranetLicensingClusterUrl method'
+title: Enterprise.UpdateIntranetLicensingClusterUrl method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enterprise.UpdateIntranetLicensingClusterUrl method
@@ -108,7 +111,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -120,9 +123,9 @@ END FUNCTION
 [**Enterprise**](enterprise-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

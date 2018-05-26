@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).'
-ms.assetid: '21447733-b27b-4906-8c0e-7089dec71b5b'
-title: 'ID3DXPRTEngine::GetAdaptedMesh method'
+---
+Description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
+ms.assetid: 21447733-b27b-4906-8c0e-7089dec71b5b
+title: ID3DXPRTEngineGetAdaptedMesh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::GetAdaptedMesh method
@@ -30,9 +35,9 @@ HRESULT GetAdaptedMesh(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) device that is used to create the output mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) device that is used to create the output mesh.
 
 </dd> <dt>
 

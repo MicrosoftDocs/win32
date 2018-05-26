@@ -1,8 +1,24 @@
 ---
 title: Using a Window or Thread to Manage Buffered Playback
 description: Using a Window or Thread to Manage Buffered Playback
-ms.assetid: '3c8145a8-e56a-449d-ad45-2ae016f79697'
-keywords: ["Musical Instrument Digital Interface (MIDI),buffered playback", "MIDI (Musical Instrument Digital Interface),buffered playback", "playing MIDI files,buffered playback", "buffered playback", "MM_MOM_CLOSE message", "MM_MOM_DONE message", "MM_MOM_OPEN message", "Musical Instrument Digital Interface (MIDI),sending messages", "MIDI (Musical Instrument Digital Interface),sending messages", "playing MIDI files,sending messages", "sending MIDI messages"]
+ms.assetid: 3c8145a8-e56a-449d-ad45-2ae016f79697
+keywords:
+- Musical Instrument Digital Interface (MIDI),buffered playback
+- MIDI (Musical Instrument Digital Interface),buffered playback
+- playing MIDI files,buffered playback
+- buffered playback
+- MM_MOM_CLOSE message
+- MM_MOM_DONE message
+- MM_MOM_OPEN message
+- Musical Instrument Digital Interface (MIDI),sending messages
+- MIDI (Musical Instrument Digital Interface),sending messages
+- playing MIDI files,sending messages
+- sending MIDI messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Window or Thread to Manage Buffered Playback

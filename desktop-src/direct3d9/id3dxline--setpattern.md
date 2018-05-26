@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applies a stipple pattern to the line.'
-ms.assetid: '53548a9f-cf09-4ab9-9327-d5053645fc1b'
-title: 'ID3DXLine::SetPattern method'
+---
+Description: Applies a stipple pattern to the line.
+ms.assetid: 53548a9f-cf09-4ab9-9327-d5053645fc1b
+title: ID3DXLineSetPattern method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::SetPattern method

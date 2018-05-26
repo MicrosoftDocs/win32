@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS IsHostTimeSyncEnabled property
-description: Indicates whether the Integration Components in this VM should synchronize the guest's clock with the host's clock.
-ms.assetid: '57e3d49c-4acf-402f-9332-58ea443b363b'
-keywords: ["IsHostTimeSyncEnabled property Virtual PC", "IsHostTimeSyncEnabled property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , IsHostTimeSyncEnabled property"]
+description: Indicates whether the Integration Components in this VM should synchronize the guests clock with the hosts clock.
+ms.assetid: 57e3d49c-4acf-402f-9332-58ea443b363b
+keywords:
+- IsHostTimeSyncEnabled property Virtual PC
+- IsHostTimeSyncEnabled property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , IsHostTimeSyncEnabled property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::IsHostTimeSyncEnabled property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Indicates whether the Integration Components in this virtual machine (VM) should synchronize the guest's clock with the host's clock.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_IsHostTimeSyncEnabled(
-  [in]          VARIANT_BOOL shouldEnable
+  [in]          VARIANT_BOOL shouldEnable
 );
 
 HRESULT get_IsHostTimeSyncEnabled(
-  [out, retval] VARIANT_BOOL *isEnabled
+  [out, retval] VARIANT_BOOL *isEnabled
 );
 ```
 
@@ -65,9 +73,9 @@ You cannot change this setting while the virtual machine is active (that is, run
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -81,9 +89,9 @@ You cannot change this setting while the virtual machine is active (that is, run
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

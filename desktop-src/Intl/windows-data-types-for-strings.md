@@ -1,7 +1,12 @@
 ---
-Description: 'Most string operations can use the same logic for Unicode and for Windows code pages.'
-ms.assetid: '5364ec09-68e1-444c-9493-ca9426ac9c34'
+Description: Most string operations can use the same logic for Unicode and for Windows code pages.
+ms.assetid: 5364ec09-68e1-444c-9493-ca9426ac9c34
 title: Windows Data Types for Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Data Types for Strings

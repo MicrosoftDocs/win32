@@ -1,8 +1,11 @@
 ---
 title: Defrag method of the Win32\_Volume class
 description: The Defrag method defragments the volume.This topic uses Managed Object Format (MOF) syntax.
-ms.assetid: 'f4782327-0cc6-447e-bc27-7b2042075fb0'
-keywords: ["Defrag method", "Defrag method, Win32_Volume class", "Win32_Volume class, Defrag method"]
+ms.assetid: f4782327-0cc6-447e-bc27-7b2042075fb0
+keywords:
+- Defrag method
+- Defrag method, Win32_Volume class
+- Win32_Volume class, Defrag method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defrag method of the Win32\_Volume class
@@ -24,8 +32,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
  uint32 Defrag(
-  [in]   boolean Force,
-  [out]  object DefragAnalysis
+  [in]   boolean Force,
+  [out]  object DefragAnalysis
 );
 ```
 
@@ -70,7 +78,7 @@ A [**Win32\_DefragAnalysis**](win32-defraganalysis.md) object that contains the 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -204,7 +212,7 @@ VolumeSize                    : 68716326912
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -218,9 +226,9 @@ VolumeSize                    : 68716326912
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

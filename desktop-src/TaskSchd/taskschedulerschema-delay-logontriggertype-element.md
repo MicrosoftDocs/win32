@@ -1,14 +1,20 @@
 ---
 title: Delay (logonTriggerType) Element
 description: Amount of time between when the user logs on and when the task is started.
-ms.assetid: 'daab29f7-5d05-4e6d-a0c0-7b83b4d0b941'
-keywords: ["Delay element Task Scheduler"]
+ms.assetid: daab29f7-5d05-4e6d-a0c0-7b83b4d0b941
+keywords:
+- Delay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Delay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delay (logonTriggerType) Element
@@ -37,7 +43,7 @@ The **Delay** element is defined by the [**logonTriggerType**](taskschedulersche
 
 For scripting development, the logon trigger delay is specified using the [**LogonTrigger.Delay**](logontrigger-delay.md) property.
 
-For C++ development, the user identifier for the logon trigger is specified using the [**ILogonTrigger::Delay**](ilogontrigger-delay.md) property.
+For C++ development, the user identifier for the logon trigger is specified using the [**ILogonTrigger::Delay**](/windows/win32/taskschd/nf-taskschd-ilogontrigger-get_delay?branch=master) property.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ For C++ development, the user identifier for the logon trigger is specified usin
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For C++ development, the user identifier for the logon trigger is specified usin
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

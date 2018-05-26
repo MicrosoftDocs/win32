@@ -4,12 +4,15 @@ description: The WMI provider for the Cluster-Aware Updating (CAU) tool allows y
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0483B3D5-1ED6-4638-9CE7-44D9E03EF3E3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0483B3D5-1ED6-4638-9CE7-44D9E03EF3E3
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster-Aware Updating Provider Reference
@@ -34,11 +37,11 @@ The CAU provider defines the following classes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

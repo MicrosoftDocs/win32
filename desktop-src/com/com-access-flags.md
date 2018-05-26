@@ -1,7 +1,7 @@
 ---
 title: Access Flags
 description: These values indicate whether an entry in the access list describes rights that are allowed or denied.
-ms.assetid: '460d2c72-3315-4b4c-928e-4bb0640acbe5'
+ms.assetid: 460d2c72-3315-4b4c-928e-4bb0640acbe5
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - AccCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Flags
@@ -32,8 +37,8 @@ These values indicate whether an entry in the access list describes rights that 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AccCtrl.h</dt> </dl> |
 
 
@@ -42,12 +47,12 @@ These values indicate whether an entry in the access list describes rights that 
 
 <dl> <dt>
 
-[**ACTRL\_ACCESS\_ENTRY**](actrl-access-entry.md)
+[**ACTRL\_ACCESS\_ENTRY**](/windows/win32/AccCtrl/ns-accctrl-_actrl_access_entrya?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

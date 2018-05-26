@@ -1,7 +1,12 @@
 ---
 title: Create a Child Recordset Object for Chaptered Columns
 description: Create a Child Recordset Object for Chaptered Columns
-ms.assetid: 'c18d1bcd-1637-454b-9ce7-48220907d582'
+ms.assetid: c18d1bcd-1637-454b-9ce7-48220907d582
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Child Recordset Object for Chaptered Columns

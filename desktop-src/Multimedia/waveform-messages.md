@@ -1,8 +1,18 @@
 ---
 title: Waveform Messages
 description: Waveform Messages
-ms.assetid: '18e524d6-da3f-4b24-a755-9672d4ab3443'
-keywords: ["multimedia audio,waveform messages", "audio,waveform messages", "waveform audio,messages", "waveform audio reference,messages", "reference for wavefore audio,messages"]
+ms.assetid: 18e524d6-da3f-4b24-a755-9672d4ab3443
+keywords:
+- multimedia audio,waveform messages
+- audio,waveform messages
+- waveform audio,messages
+- waveform audio reference,messages
+- reference for wavefore audio,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waveform Messages

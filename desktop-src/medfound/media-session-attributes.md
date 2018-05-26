@@ -1,7 +1,12 @@
 ---
 Description: Media Session Attributes
-ms.assetid: '7f9cef1c-b419-485f-ac01-afb9f42e5bd6'
+ms.assetid: 7f9cef1c-b419-485f-ac01-afb9f42e5bd6
 title: Media Session Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Session Attributes
@@ -27,7 +32,7 @@ The following attributes are used to configure the Media Session.
 
 <dl> <dt>
 
-[**IMFMediaSession**](imfmediasession.md)
+[**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Media Sources
-ms.assetid: '65132e7d-22f6-4209-bc58-f5ea86ebd514'
+ms.assetid: 65132e7d-22f6-4209-bc58-f5ea86ebd514
 title: Media Sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Sources

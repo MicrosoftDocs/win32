@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the name of the AD RMS logging service.'
+Description: Retrieves the name of the AD RMS logging service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2a2023c1-a108-436f-8384-c71001680eec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2a2023c1-a108-436f-8384-c71001680eec
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'LoggingSystemInformation.LoggingServiceName property'
+title: LoggingSystemInformation.LoggingServiceName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LoggingSystemInformation.LoggingServiceName property
@@ -108,7 +111,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -120,9 +123,9 @@ END SUB
 [**LoggingSystemInformation**](loggingsysteminformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

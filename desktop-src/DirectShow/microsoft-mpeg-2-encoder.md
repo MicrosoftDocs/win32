@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft MPEG-2 Encoder filter encodes MPEG-2 audio and video and multiplexes the streams to generate an MPEG-2 program stream or transport stream.'
-ms.assetid: '61e8918b-7f5a-4720-bb3b-df9ac7614894'
-title: 'Microsoft MPEG-2 Encoder'
+---
+Description: The Microsoft MPEG-2 Encoder filter encodes MPEG-2 audio and video and multiplexes the streams to generate an MPEG-2 program stream or transport stream.
+ms.assetid: 61e8918b-7f5a-4720-bb3b-df9ac7614894
+title: Microsoft MPEG-2 Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft MPEG-2 Encoder
@@ -19,7 +24,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](ibasefilter.md)<br/> [**ICodecAPI**](icodecapi.md)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](imediaseeking.md)<br/> [**IVideoEncoder**](ivideoencoder.md)<br/>
+[**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)<br/> [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IVideoEncoder**](/windows/win32/strmif/?branch=master)<br/>
 
 Input Pin Media Types
 
@@ -27,7 +32,7 @@ See Remarks
 
 Input Pin Interfaces
 
-[**IMemInputPin**](imeminputpin.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Output Pin Media Types
 
@@ -35,7 +40,7 @@ See Remarks
 
 Output Pin Interfaces
 
-[**IMediaSeeking**](imediaseeking.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Filter CLSID
 

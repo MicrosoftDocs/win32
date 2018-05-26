@@ -1,14 +1,20 @@
 ---
 title: TEXT.value
 description: The value attribute specifies or retrieves the text that is displayed in the Text control.
-ms.assetid: 'dbc50be2-ee18-4661-a343-9e906879aba0'
-keywords: ["TEXT.value Windows Media Player"]
+ms.assetid: dbc50be2-ee18-4661-a343-9e906879aba0
+keywords:
+- TEXT.value Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.value
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.value
@@ -165,9 +171,9 @@ The following sample is a complete skin definition file that illustrates how the
 [**TEXT.wordWrap**](text-wordwrap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

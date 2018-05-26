@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect GetClassLinkage method
 description: Gets a class linkage interface.
-ms.assetid: '006c900d-3464-4666-9fe9-d62ba8cb2b7f'
-keywords: ["GetClassLinkage method Direct3D 11", "GetClassLinkage method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , GetClassLinkage method"]
+ms.assetid: 006c900d-3464-4666-9fe9-d62ba8cb2b7f
+keywords:
+- GetClassLinkage method Direct3D 11
+- GetClassLinkage method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , GetClassLinkage method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::GetClassLinkage method
@@ -33,16 +41,16 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**ID3D11ClassLinkage**](id3d11classlinkage.md)\***
+Type: **[**ID3D11ClassLinkage**](/windows/win32/D3D11/nn-d3d11-id3d11classlinkage?branch=master)\***
 
-Returns a pointer to an [**ID3D11ClassLinkage**](id3d11classlinkage.md) interface.
+Returns a pointer to an [**ID3D11ClassLinkage**](/windows/win32/D3D11/nn-d3d11-id3d11classlinkage?branch=master) interface.
 
 ## Remarks
 
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +70,9 @@ Returns a pointer to an [**ID3D11ClassLinkage**](id3d11classlinkage.md) interfac
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

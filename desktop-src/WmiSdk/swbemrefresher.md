@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefresher object is a container object that can refresh the data for all the objects added to it. The set of added objects, each item represented by an SWbemRefreshableItem instance can be treated as a collection and enumerated.'
+Description: The SWbemRefresher object is a container object that can refresh the data for all the objects added to it. The set of added objects, each item represented by an SWbemRefreshableItem instance can be treated as a collection and enumerated.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cc5872a1-932b-4b68-9f5e-a91d35c8e117'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cc5872a1-932b-4b68-9f5e-a91d35c8e117
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefresher object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemRefresher object
@@ -40,7 +43,7 @@ The **SWbemRefresher** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +58,7 @@ The **SWbemRefresher** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -113,8 +116,8 @@ next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -136,9 +139,9 @@ next
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

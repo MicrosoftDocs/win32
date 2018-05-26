@@ -1,14 +1,20 @@
 ---
 title: CertificateStore (CredentialsSourceParameters) Element
-description: Indicates that EAP-TLS should read the certificate from the user's My Store, or the machine being authenticated.
-ms.assetid: '6b15c7cc-b686-4419-a962-e3dd6b4b84a6'
-keywords: ["CertificateStore element EAPHost"]
+description: Indicates that EAP-TLS should read the certificate from the users My Store, or the machine being authenticated.
+ms.assetid: 6b15c7cc-b686-4419-a962-e3dd6b4b84a6
+keywords:
+- CertificateStore element EAPHost
 topic_type:
 - apiref
 api_name:
 - CertificateStore
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStore (CredentialsSourceParameters) Element
@@ -33,8 +39,8 @@ The **CertificateStore** and [**SmartCard**](eaptlsconnectionpropertiesv1schema-
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ The **CertificateStore** and [**SmartCard**](eaptlsconnectionpropertiesv1schema-
 [eaptlsconnectionpropertiesv1 Schema Elements](eaptlsconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

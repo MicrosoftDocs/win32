@@ -4,11 +4,14 @@ description: Returns the possible sizes of child storage volumes that can be cre
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff4fc260-0afd-4d7a-a633-e995849a36b7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: ff4fc260-0afd-4d7a-a633-e995849a36b7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSizesInfo method", "GetSizesInfo method, MSFT_SMPool class", "MSFT_SMPool class, GetSizesInfo method"]
+keywords:
+- GetSizesInfo method
+- GetSizesInfo method, MSFT_SMPool class
+- MSFT_SMPool class, GetSizesInfo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSizesInfo method of the MSFT\_SMPool class
@@ -28,14 +34,14 @@ Returns the possible sizes of child storage volumes that can be created or modif
 
 ```mof
 uint32 GetSizesInfo(
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [in]            String                PoolSettingObjectId,
-  [out, optional] uint64                SupportedSizes[],
-  [out, optional] uint64                MinimumVolumeSize,
-  [out, optional] uint64                MaximumVolumeSize,
-  [out, optional] uint64                VolumeSizeDivisor,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [in]            String                PoolSettingObjectId,
+  [out, optional] uint64                SupportedSizes[],
+  [out, optional] uint64                MinimumVolumeSize,
+  [out, optional] uint64                MaximumVolumeSize,
+  [out, optional] uint64                VolumeSizeDivisor,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -223,7 +229,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -237,9 +243,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMPool**](msft-smpool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Enable synchronization between two locations with an efficient use 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '823d5f66-79d9-4ea7-8df4-68befe96131e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-differential-compression'
+ms.assetid: 823d5f66-79d9-4ea7-8df4-68befe96131e
+ms.prod: windows-server-dev
+ms.technology: remote-differential-compression
 ms.tgt_platform: multiple
-keywords: ["Remote Differential Compression Files , reference"]
+keywords:
+- Remote Differential Compression Files , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Differential Compression Reference

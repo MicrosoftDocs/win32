@@ -1,8 +1,18 @@
 ---
 title: Working with Text-based Controls
-ms.assetid: 'e06e1f6e-8346-4656-b0cb-58e5b9fdaa33'
+ms.assetid: e06e1f6e-8346-4656-b0cb-58e5b9fdaa33
 description: 
-keywords: ["clients,working with text-based controls", "clients,text-based controls", "clients,text ranges", "clients,Text control pattern", "clients,TextRange control pattern"]
+keywords:
+- clients,working with text-based controls
+- clients,text-based controls
+- clients,text ranges
+- clients,Text control pattern
+- clients,TextRange control pattern
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Text-based Controls

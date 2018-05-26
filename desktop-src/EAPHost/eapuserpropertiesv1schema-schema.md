@@ -1,7 +1,12 @@
 ---
 title: eapuserpropertiesv1 Schema
 description: Defines common credential schema elements.
-ms.assetid: 'b7ee97e4-88e6-4cb2-b89b-b60f7da51eda'
+ms.assetid: b7ee97e4-88e6-4cb2-b89b-b60f7da51eda
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eapuserpropertiesv1 Schema

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the number of threads that the encoder will use.'
-ms.assetid: '2f463cba-2512-455d-9ce1-8797682d4d67'
-title: 'MFPKEY\_NUMTHREADS Property'
+---
+Description: Specifies the number of threads that the encoder will use.
+ms.assetid: 2f463cba-2512-455d-9ce1-8797682d4d67
+title: MFPKEY\_NUMTHREADS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_NUMTHREADS Property

@@ -1,8 +1,9 @@
 ---
 title: PGM\_RECALCSIZE message
 description: Forces the pager control to recalculate the size of the contained window. Sending this message will result in a PGN\_CALCSIZE notification being sent. You can send this message explicitly or use the Pager\_RecalcSize macro.
-ms.assetid: '51b75ce8-2b41-4f1a-830e-b25e7d77dccb'
-keywords: ["PGM_RECALCSIZE message Windows Controls"]
+ms.assetid: 51b75ce8-2b41-4f1a-830e-b25e7d77dccb
+keywords:
+- PGM_RECALCSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_RECALCSIZE message
 
-Forces the pager control to recalculate the size of the contained window. Sending this message will result in a [PGN\_CALCSIZE](pgn-calcsize.md) notification being sent. You can send this message explicitly or use the [**Pager\_RecalcSize**](pager-recalcsize.md) macro.
+Forces the pager control to recalculate the size of the contained window. Sending this message will result in a [PGN\_CALCSIZE](pgn-calcsize.md) notification being sent. You can send this message explicitly or use the [**Pager\_RecalcSize**](/windows/win32/Commctrl/nf-commctrl-pager_recalcsize?branch=master) macro.
 
 ## Parameters
 
@@ -37,15 +43,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: helpstringcontext attribute
 description: The \ helpstringcontext\ attribute specifies a 32-bit Help context identifier in the Help file. You can apply the \ helpstringcontext\ attribute to library, interface, dispinterface, module, coclass, typedef statements, properties, parameters and methods.
 ms.assetid: 0ac41bd9-ccc6-4b5c-b925-63bff9254eed
-keywords: ["helpstringcontext attribute MIDL"]
+keywords:
+- helpstringcontext attribute MIDL
 topic_type:
 - apiref
 api_name:
 - helpstringcontext
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # helpstringcontext attribute

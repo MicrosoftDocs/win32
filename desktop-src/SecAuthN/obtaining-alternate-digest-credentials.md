@@ -1,14 +1,19 @@
 ---
-Description: 'To obtain credentials other than those associated with the current logon session, populate a SEC\_WINNT\_AUTH\_IDENTITY structure with information for the alternate security principal.'
-ms.assetid: 'f590ddb5-39a1-4d0c-a787-da938a63c206'
+Description: To obtain credentials other than those associated with the current logon session, populate a SEC\_WINNT\_AUTH\_IDENTITY structure with information for the alternate security principal.
+ms.assetid: f590ddb5-39a1-4d0c-a787-da938a63c206
 title: Obtaining Alternate Digest Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining Alternate Digest Credentials
 
-To obtain [*credentials*](security.c_gly#-security-credentials-gly) other than those associated with the current logon [*session*](security.s_gly#-security-session-gly), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](sec-winnt-auth-identity.md) structure with information for the alternate [*security principal*](security.s_gly#-security-security-principal-gly). Pass the structure to the [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md) function using the *pAuthData* parameter.
+To obtain [*credentials*](security.c_gly#-security-credentials-gly) other than those associated with the current logon [*session*](security.s_gly#-security-session-gly), populate a [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/win32/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a?branch=master) structure with information for the alternate [*security principal*](security.s_gly#-security-security-principal-gly). Pass the structure to the [**AcquireCredentialsHandle**](/windows/win32/Sspi/?branch=master) function using the *pAuthData* parameter.
 
-The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](sec-winnt-auth-identity.md) structure.
+The following table describes the members of the [**SEC\_WINNT\_AUTH\_IDENTITY**](/windows/win32/Rpcdce/ns-sspi-_sec_winnt_auth_identity_a?branch=master) structure.
 
 
 

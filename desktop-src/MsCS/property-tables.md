@@ -1,21 +1,27 @@
 ---
 title: Property Tables
-description: A property table is an array of RESUTIL\_PROPERTY\_ITEM structures. Each entry in a property table contains information about a particular property and an offset to the property's data. The data, or a pointer to the data, is stored in a parameter block.
+description: A property table is an array of RESUTIL\_PROPERTY\_ITEM structures. Each entry in a property table contains information about a particular property and an offset to the propertys data. The data, or a pointer to the data, is stored in a parameter block.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '48591d73-606b-42b4-9711-4f7a84e9e971'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 48591d73-606b-42b4-9711-4f7a84e9e971
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property tables Failover Cluster", "data Failover Cluster ,property tables", "properties Failover Cluster ,tables"]
+keywords:
+- property tables Failover Cluster
+- data Failover Cluster ,property tables
+- properties Failover Cluster ,tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Tables
 
-A property table is an array of [**RESUTIL\_PROPERTY\_ITEM**](resutil-property-item.md) structures. Each entry in a property table contains information about a particular property and an offset to the property's data. The data, or a pointer to the data, is stored in a [parameter block](parameter-blocks.md).
+A property table is an array of [**RESUTIL\_PROPERTY\_ITEM**](/windows/previous-versions/ResApi/ns-resapi-resutil_property_item?branch=master) structures. Each entry in a property table contains information about a particular property and an offset to the property's data. The data, or a pointer to the data, is stored in a [parameter block](parameter-blocks.md).
 
-The following illustration shows the relationship between a property table and a parameter block. The property table has two entries, each represented by a [**RESUTIL\_PROPERTY\_ITEM**](resutil-property-item.md) structure. The **Offset** member of each property-table entry points to a member in the parameter block. Notice that non-property table data is included in the parameter block.
+The following illustration shows the relationship between a property table and a parameter block. The property table has two entries, each represented by a [**RESUTIL\_PROPERTY\_ITEM**](/windows/previous-versions/ResApi/ns-resapi-resutil_property_item?branch=master) structure. The **Offset** member of each property-table entry points to a member in the parameter block. Notice that non-property table data is included in the parameter block.
 
 ![](images/proptbl.png)
 

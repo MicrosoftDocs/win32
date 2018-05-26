@@ -1,15 +1,18 @@
 ---
-Description: 'The Delete method deletes the logical file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.'
+Description: The Delete method deletes the logical file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '74f59073-a17a-4be5-8247-fba8d023f448'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 74f59073-a17a-4be5-8247-fba8d023f448
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Delete method of the CIM\_Directory class'
+title: Delete method of the CIM\_Directory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the CIM\_Directory class
@@ -19,7 +22,7 @@ The **Delete** method deletes the logical file (or directory) specified in the o
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -145,8 +148,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -163,9 +166,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Directory**](cim-directory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

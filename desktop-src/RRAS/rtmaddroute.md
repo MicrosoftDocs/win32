@@ -1,8 +1,9 @@
 ---
 title: RtmAddRoute function
 description: The RtmAddRoute function adds a route entry or updates an existing route entry.
-ms.assetid: '09a9b57d-f10b-40b7-a3c1-2e0613f29431'
-keywords: ["RtmAddRoute function RAS"]
+ms.assetid: 09a9b57d-f10b-40b7-a3c1-2e0613f29431
+keywords:
+- RtmAddRoute function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmAddRoute function
@@ -24,12 +30,12 @@ The **RtmAddRoute** function adds a route entry or updates an existing route ent
 
 ```C++
 DWORD RtmAddRoute(
-  _In_  HANDLE ClientHandle,
-  _In_  PVOID  Route,
-  _In_  DWORD  TimeToLive,
-  _Out_ DWORD  Flags,
-  _Out_ PVOID  CurBestRoute,
-  _Out_ PVOID  PrevBestRoute
+  _In_  HANDLE ClientHandle,
+  _In_  PVOID  Route,
+  _In_  DWORD  TimeToLive,
+  _Out_ DWORD  Flags,
+  _Out_ PVOID  CurBestRoute,
+  _Out_ PVOID  PrevBestRoute
 );
 ```
 
@@ -64,7 +70,7 @@ Pointer to a protocol-family-specific structure that specifies the new or update
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,7 +96,7 @@ Pointer to a **DWORD** variable. The value of this variable is set by the routin
 
 
 
- 
+ 
 
 The *PrevBestRoute* parameter points to the route information as it was before the change. The *CurBestRoute* parameter points to the current (that is, after-change) route information.
 
@@ -130,7 +136,7 @@ The return value is one of the following codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -143,8 +149,8 @@ The function generates a route-change message if the best route to a destination
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -167,9 +173,9 @@ The function generates a route-change message if the best route to a destination
 [**RtmDequeueRouteChangeMessage**](rtmdequeueroutechangemessage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

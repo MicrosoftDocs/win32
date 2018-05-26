@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows example code for using the Sequencer Source in Microsoft Media Foundation.'
-ms.assetid: '6f39a297-33a9-414a-9d41-47aec54eaa6b'
+Description: This topic shows example code for using the Sequencer Source in Microsoft Media Foundation.
+ms.assetid: 6f39a297-33a9-414a-9d41-47aec54eaa6b
 title: Sequencer Source Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequencer Source Example Code
@@ -84,7 +89,7 @@ public:
 
 ## Creating an Instance of CPlaylist
 
-The `CPlaylist::CreateInstance` method creates a new `CPlaylist` object. Internally, this method calls `CPlaylist::Initialize` to initialize the object. The `Initialize` method calls [**MFCreateSequencerSource**](mfcreatesequencersource.md) to create the sequence source. It also calls [**IMFMediaSession::GetClock**](imfmediasession-getclock.md) to get a pointer to the presentation clock.
+The `CPlaylist::CreateInstance` method creates a new `CPlaylist` object. Internally, this method calls `CPlaylist::Initialize` to initialize the object. The `Initialize` method calls [**MFCreateSequencerSource**](/windows/win32/mfidl/nf-mfidl-mfcreatesequencersource?branch=master) to create the sequence source. It also calls [**IMFMediaSession::GetClock**](/windows/win32/mfidl/nf-mfidl-imfmediasession-getclock?branch=master) to get a pointer to the presentation clock.
 
 
 ```C++
@@ -180,7 +185,7 @@ The `AddSegment` method adds a new playlist segment.
 This method performs the following steps:
 
 1.  Creates a playback topology. The code for this step is shown in the topic [Creating Playback Topologies](creating-playback-topologies.md).
-2.  Calls [**IMFSequencerSource::AppendTopology**](imfsequencersource-appendtopology.md) to add the topology to the playlist.
+2.  Calls [**IMFSequencerSource::AppendTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-appendtopology?branch=master) to add the topology to the playlist.
 3.  On the first segment, gets the value of the [**MF\_PD\_DURATION**](mf-pd-duration-attribute.md) attribute, which contains the playback duration.
 4.  Stores the segment ID and topology ID in a lookup table.
 
@@ -321,9 +326,9 @@ done:
 
 When you create the first playlist segment, you must queue the segment topology on the Media Session, as follows:
 
-1.  Query the sequencer source for the [**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md) interface.
-2.  Pass the presentation descriptor to the [**IMFMediaSourceTopologyProvider::GetMediaSourceTopology**](imfmediasourcetopologyprovider-getmediasourcetopology.md) method. This method gets a pointer to the segment topology. Note that this topology is not exactly the same as the playback topology that you created earliers. Instead, it is a modified version of that topology. For more information, see [About the Sequencer Source](about-the-sequencer-source.md).
-3.  Queue the topology on the Media Session by calling [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md).
+1.  Query the sequencer source for the [**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master) interface.
+2.  Pass the presentation descriptor to the [**IMFMediaSourceTopologyProvider::GetMediaSourceTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasourcetopologyprovider-getmediasourcetopology?branch=master) method. This method gets a pointer to the segment topology. Note that this topology is not exactly the same as the playback topology that you created earliers. Instead, it is a modified version of that topology. For more information, see [About the Sequencer Source](about-the-sequencer-source.md).
+3.  Queue the topology on the Media Session by calling [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master).
 
 The following code shows these steps. This same code is also used when the playlist prerolls the next segment.
 
@@ -361,7 +366,7 @@ done:
 
 
 
-To delete a playlist segment, call [**IMFSequencerSource::DeleteTopology**](imfsequencersource-deletetopology.md). The segment is specified by segment ID. (This is why the application should cache the list of segment IDs.)
+To delete a playlist segment, call [**IMFSequencerSource::DeleteTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-deletetopology?branch=master). The segment is specified by segment ID. (This is why the application should cache the list of segment IDs.)
 
 
 ```C++

@@ -4,16 +4,21 @@ description: Pipeline modules must create and bind to a pipeline module connecto
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '92568969-7ee6-4584-a400-ee2aa79961e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 92568969-7ee6-4584-a400-ee2aa79961e8
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , initializing and binding a pipeline module", "pipeline modules File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , initializing and binding a pipeline module
+- pipeline modules File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Initializing and Binding a Pipeline Module
 
-Pipeline modules must create and bind to a pipeline module connector when their [**IFsrmPipelineModuleImplementation::OnLoad**](ifsrmpipelinemoduleimplementation-onload.md) implementation is called. This can be done as the last step of any module initialization that is performed in the function.
+Pipeline modules must create and bind to a pipeline module connector when their [**IFsrmPipelineModuleImplementation::OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master) implementation is called. This can be done as the last step of any module initialization that is performed in the function.
 
 The following example shows how to create and bind to a pipeline module connector:
 

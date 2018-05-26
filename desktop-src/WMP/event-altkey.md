@@ -1,14 +1,20 @@
 ---
 title: event.altKey
 description: The altKey attribute retrieves a value indicating whether the ALT key was down when the event occurred.
-ms.assetid: '45dbe795-d8f0-4496-a77d-3ef9127fbf2b'
-keywords: ["event.altKey Windows Media Player"]
+ms.assetid: 45dbe795-d8f0-4496-a77d-3ef9127fbf2b
+keywords:
+- event.altKey Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.altKey
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.altKey
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read-only **Boolean**.
 [**Ambient Event Attributes**](ambient-event-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

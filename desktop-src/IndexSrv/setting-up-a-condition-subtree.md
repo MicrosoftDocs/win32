@@ -1,7 +1,12 @@
 ---
 title: Setting Up a Condition Subtree
 description: Setting Up a Condition Subtree
-ms.assetid: '6a17cec8-f5f3-44bd-b12d-b30d73fd736b'
+ms.assetid: 6a17cec8-f5f3-44bd-b12d-b30d73fd736b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up a Condition Subtree

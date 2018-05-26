@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the VersionNT property to the version number for the operating system, undefined if the operating system is not Windows NT, Windows 2000, Windows XP, Windows Vista, Windows Server 2008, or Windows 7.'
-ms.assetid: '49005783-0bcb-458e-8266-56e6ea6afb43'
+---
+Description: The installer sets the VersionNT property to the version number for the operating system, undefined if the operating system is not Windows NT, Windows 2000, Windows XP, Windows Vista, Windows Server 2008, or Windows 7.
+ms.assetid: 49005783-0bcb-458e-8266-56e6ea6afb43
 title: VersionNT property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VersionNT property

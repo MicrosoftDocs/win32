@@ -1,7 +1,12 @@
 ---
-Description: 'Volume textures are three-dimensional collections of pixels (texels) that can be used to paint a two-dimensional primitive such as a triangle or a line.'
-ms.assetid: '1d692501-a524-4ad4-8779-d71f1bda7bc9'
-title: 'Volume Texture Resources (Direct3D 9)'
+Description: Volume textures are three-dimensional collections of pixels (texels) that can be used to paint a two-dimensional primitive such as a triangle or a line.
+ms.assetid: 1d692501-a524-4ad4-8779-d71f1bda7bc9
+title: Volume Texture Resources (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Texture Resources (Direct3D 9)
@@ -52,7 +57,7 @@ VOLUMEVERTEX g_vVertices[4] =
 
 Now, create a vertex buffer and fill it with data from the vertices.
 
-The next step is to use the [**IDirect3DDevice9::CreateVolumeTexture**](idirect3ddevice9--createvolumetexture.md) method to create a volume texture, as shown in this code example.
+The next step is to use the [**IDirect3DDevice9::CreateVolumeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvolumetexture?branch=master) method to create a volume texture, as shown in this code example.
 
 
 ```

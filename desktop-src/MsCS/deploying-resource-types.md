@@ -4,11 +4,15 @@ description: Once you have created a resource DLL and a Cluster Administrator ex
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fdcdf58c-0f93-4b50-97a7-61c140e1cc1e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fdcdf58c-0f93-4b50-97a7-61c140e1cc1e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,deploying"]
+keywords:
+- resource types Failover Cluster ,deploying
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Manually Deploying Resource Types

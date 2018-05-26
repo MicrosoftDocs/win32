@@ -1,14 +1,20 @@
 ---
 title: Deadline Element
 description: Specifies when the Task scheduler must to start the task during emergency Automatic maintenance, if it failed to complete during regular Automatic maintenance.
-ms.assetid: '34E33FAE-888E-4E82-83B8-059FB4A64B52'
-keywords: ["Deadline element Task Scheduler"]
+ms.assetid: 34E33FAE-888E-4E82-83B8-059FB4A64B52
+keywords:
+- Deadline element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Deadline
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deadline Element
@@ -48,7 +54,7 @@ The **Deadline** element is defined by the [**maintenanceSettingsType**](tasksch
 
 ## Remarks
 
-For C++ programming, this idle setting is specified using the [**IMaintenanceSettings::Deadline**](imaintenancesettings-deadline.md) property.
+For C++ programming, this idle setting is specified using the [**IMaintenanceSettings::Deadline**](/windows/win32/Taskschd/nf-taskschd-imaintenancesettings-get_deadline?branch=master) property.
 
 ## Examples
 
@@ -70,8 +76,8 @@ The following XML defines a months calendar that runs the task in March.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
@@ -85,9 +91,9 @@ The following XML defines a months calendar that runs the task in March.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

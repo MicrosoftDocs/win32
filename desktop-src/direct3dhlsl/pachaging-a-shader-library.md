@@ -1,7 +1,12 @@
 ---
 title: Packaging a shader library
 description: Here we show you how to compile your shader code, load the compiled code into a shader library, and bind resources from source slots to destination slots.
-ms.assetid: 'ED2EB1DE-3C25-4633-BFA7-C535ABBBAD28'
+ms.assetid: ED2EB1DE-3C25-4633-BFA7-C535ABBBAD28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging a shader library
@@ -49,7 +54,7 @@ The source string contains the uncompiled ASCII HLSL code.
 
 ### 2. Load the compiled code into a shader library.
 
-Call the [**D3DLoadModule**](d3dloadmodule.md) function to load the compiled code ([**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)) into a module ([**ID3D11Module**](https://msdn.microsoft.com/library/windows/desktop/dn280563)) that represents a shader library.
+Call the [**D3DLoadModule**](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dloadmodule?branch=master) function to load the compiled code ([**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743)) into a module ([**ID3D11Module**](https://msdn.microsoft.com/library/windows/desktop/dn280563)) that represents a shader library.
 
 
 ```C++

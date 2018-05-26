@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListAddSource method adds a network or URL source. Accepts SourcePath, Type and Index as parameters. This method calls MsiSourceListAddSourceEx.'
-ms.assetid: '87797a8c-f1ba-4bfb-9296-3d3ef2a3c37f'
-title: 'Patch.SourceListAddSource method'
+---
+Description: The SourceListAddSource method adds a network or URL source. Accepts SourcePath, Type and Index as parameters. This method calls MsiSourceListAddSourceEx.
+ms.assetid: 87797a8c-f1ba-4bfb-9296-3d3ef2a3c37f
+title: Patch.SourceListAddSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.SourceListAddSource method
 
-The **SourceListAddSource** method adds a network or URL source. Accepts *SourcePath*, *Type* and *Index* as parameters. This method calls [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md).
+The **SourceListAddSource** method adds a network or URL source. Accepts *SourcePath*, *Type* and *Index* as parameters. This method calls [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master).
 
 ## Syntax
 
@@ -77,7 +82,7 @@ This method does not return a value.
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md)
+[**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

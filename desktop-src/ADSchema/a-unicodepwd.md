@@ -1,25 +1,30 @@
 ---
 title: Unicode-Pwd attribute
-description: The password of the user in Windows NT one-way format (OWF). Windows 2000 uses the Windows NT OWF. This property is used only by the operating system. Note that you cannot derive the clear password back from the OWF form of the password.
+description: The password of the user in Windows NT one-way format (OWF). Windows 2000 uses the Windows NT OWF. This property is used only by the operating system. Note that you cannot derive the clear password back from the OWF form of the password.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07b29a0c-aff2-4abd-8ca8-95f1ce5b566b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 07b29a0c-aff2-4abd-8ca8-95f1ce5b566b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Unicode-Pwd attribute AD Schema", "unicodePwd attribute AD Schema"]
+keywords:
+- Unicode-Pwd attribute AD Schema
+- unicodePwd attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Unicode-Pwd
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Unicode-Pwd attribute
 
-The password of the user in Windows NT one-way format (OWF). Windows 2000 uses the Windows NT OWF. This property is used only by the operating system. Note that you cannot derive the clear password back from the OWF form of the password.
+The password of the user in Windows NT one-way format (OWF). Windows 2000 uses the Windows NT OWF. This property is used only by the operating system. Note that you cannot derive the clear password back from the OWF form of the password.
 
 
 
@@ -38,13 +43,13 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

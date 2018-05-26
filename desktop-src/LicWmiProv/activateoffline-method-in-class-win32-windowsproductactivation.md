@@ -1,7 +1,12 @@
 ---
-Description: 'Permits offline system activation using the confirmation ID provided by the Microsoft Clearinghouse license server.'
-ms.assetid: 'aa267d03-7df9-418a-aa3d-5e4df20f5a08'
-title: 'ActivateOffline method of the Win32\_WindowsProductActivation class'
+Description: Permits offline system activation using the confirmation ID provided by the Microsoft Clearinghouse license server.
+ms.assetid: aa267d03-7df9-418a-aa3d-5e4df20f5a08
+title: ActivateOffline method of the Win32\_WindowsProductActivation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivateOffline method of the Win32\_WindowsProductActivation class
@@ -15,7 +20,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ActivateOffline(
-  [in] string ConfirmationID
+  [in] string ConfirmationID
 );
 ```
 
@@ -39,7 +44,7 @@ This method is the scriptable equivalent of manual telephone activation.
 > [!Note]  
 > Windows Product Activation is not available on the Itanium-based versions of the Windows operating system.
 
- 
+ 
 
 ## Requirements
 
@@ -47,10 +52,10 @@ This method is the scriptable equivalent of manual telephone activation.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -67,9 +72,9 @@ This method is the scriptable equivalent of manual telephone activation.
 [Windows Product Activation Provider](windows-product-activation-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

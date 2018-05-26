@@ -1,13 +1,16 @@
 ---
-Description: 'All CIM-compliant implementations must handle a standard set of qualifiers.'
+Description: All CIM-compliant implementations must handle a standard set of qualifiers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '671ea769-f68d-4788-96f5-c4f86ab3b00e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 671ea769-f68d-4788-96f5-c4f86ab3b00e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Standard Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Standard Qualifiers
@@ -17,9 +20,9 @@ All CIM-compliant implementations must handle a standard set of qualifiers. Any 
 It is the responsibility of the provider to enforce the qualifiers. WMI does not enforce qualifiers, but uses them only to inform the user about how the property is used.
 
 > [!Note]  
-> WMI is compliant with the CIM 2.5 specification.
+> WMI is compliant with the CIM 2.5 specification.
 
- 
+ 
 
 Qualifiers have the following limitations:
 
@@ -52,7 +55,7 @@ Applies to: references
 
 Indicates whether the reference is the parent component of an aggregation association. The default is **FALSE**.
 
-Usage: The **Aggregation** and **Aggregate** qualifiers are used together – **Aggregation** qualifies the association, and **Aggregate** specifies the parent reference.
+Usage: The **Aggregation** and **Aggregate** qualifiers are used together   **Aggregation** qualifies the association, and **Aggregate** specifies the parent reference.
 
 </dd> <dt>
 
@@ -675,8 +678,8 @@ For more information on retrieving qualifiers, see the [Get-WmiClassMethodsAndWr
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -690,9 +693,9 @@ For more information on retrieving qualifiers, see the [Get-WmiClassMethodsAndWr
 [Adding a Qualifier](adding-a-qualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The property methods of the IGPMMapEntry interface get and set the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4768a3be-1a8d-4168-acf9-758481bf4cca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 4768a3be-1a8d-4168-acf9-758481bf4cca
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMMapEntry Property Methods GPMC"]
+keywords:
+- IGPMMapEntry Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -25,6 +26,9 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMMapEntry Property Methods
@@ -135,7 +139,7 @@ HRESULT get_Source(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -143,8 +147,8 @@ HRESULT get_Source(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -156,12 +160,12 @@ HRESULT get_Source(
 
 <dl> <dt>
 
-[**IGPMMapEntry**](igpmmapentry.md)
+[**IGPMMapEntry**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmmapentry?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

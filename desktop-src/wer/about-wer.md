@@ -1,8 +1,14 @@
 ---
 title: About WER
-description: Windows Error Reporting (WER) is a flexible event-based feedback infrastructure designed to gather information about the hardware and software problems that Windows can detect, report the information to Microsoft, and provide users with any available solutions. For information about the improvements to WER, see What's New in WER.
-ms.assetid: 'd26b3d2a-51cf-41d9-936b-f1b45778ea61'
-keywords: ["Windows error reporting Windows Error Reporting , about"]
+description: Windows Error Reporting (WER) is a flexible event-based feedback infrastructure designed to gather information about the hardware and software problems that Windows can detect, report the information to Microsoft, and provide users with any available solutions. For information about the improvements to WER, see Whats New in WER.
+ms.assetid: d26b3d2a-51cf-41d9-936b-f1b45778ea61
+keywords:
+- Windows error reporting Windows Error Reporting , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About WER

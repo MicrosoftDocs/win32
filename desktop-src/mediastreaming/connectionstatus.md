@@ -1,8 +1,9 @@
 ---
 title: ConnectionStatus enumeration
 description: Represents the state of the device in the network as last seen.
-ms.assetid: '0E4CED0A-CD56-4C59-9F94-868081EF8297'
-keywords: ["ConnectionStatus enumeration Media Streaming API"]
+ms.assetid: 0E4CED0A-CD56-4C59-9F94-868081EF8297
+keywords:
+- ConnectionStatus enumeration Media Streaming API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Windows.Media.Streaming.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConnectionStatus enumeration
@@ -22,9 +28,9 @@ Represents the state of the device in the network as last seen.
 
 ```C++
 typedef enum ConnectionStatus { 
-  Online    = 0,
-  Offline   = 1,
-  Sleeping  = 2
+  Online    = 0,
+  Offline   = 1,
+  Sleeping  = 2
 } ConnectionStatus;
 ```
 
@@ -65,9 +71,9 @@ Device is currently offline but might automatically wake up when an attempt is m
 
 
 
- 
+ 
 
- 
+ 
 
 
 

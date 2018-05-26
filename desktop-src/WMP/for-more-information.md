@@ -1,8 +1,21 @@
 ---
 title: For More Information
 description: For More Information
-ms.assetid: '0202b197-54b7-42f2-b783-152b4c4aff4b'
-keywords: ["Windows Media Player,documentation", "Windows Media Player,SDK documentation", "Windows Media Player,additional resources", "Windows Media Player,more information", "software development kit (SDK),downloading Windows Media Player", "SDK (software development kit),downloading Windows Media Player", "downloading Windows Media Player SDK", "documentation,downloading Windows Media Player SDK"]
+ms.assetid: 0202b197-54b7-42f2-b783-152b4c4aff4b
+keywords:
+- Windows Media Player,documentation
+- Windows Media Player,SDK documentation
+- Windows Media Player,additional resources
+- Windows Media Player,more information
+- software development kit (SDK),downloading Windows Media Player
+- SDK (software development kit),downloading Windows Media Player
+- downloading Windows Media Player SDK
+- documentation,downloading Windows Media Player SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # For More Information

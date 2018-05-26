@@ -1,14 +1,20 @@
 ---
 title: Properties (Child of Text) element
 description: Specifies the properties of the text media node.
-ms.assetid: 'afbc54e0-0dc5-4c6a-bfdb-f39b0cb3536b'
-keywords: ["Properties (Child of Text) element Windows Movie Maker and DVD Maker"]
+ms.assetid: afbc54e0-0dc5-4c6a-bfdb-f39b0cb3536b
+keywords:
+- Properties (Child of Text) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties (Child of Text) element
@@ -49,7 +55,7 @@ The [**ExitDuration**](exitduration.md), [**ExitEffect**](exiteffect.md), and [*
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -76,9 +82,9 @@ The [**ExitDuration**](exitduration.md), [**ExitEffect**](exiteffect.md), and [*
 [**Properties Element (Parent of Color)**](properties--parent-of-color.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

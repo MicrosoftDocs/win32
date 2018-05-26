@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a texture from a file. This is a more advanced function than D3DXCreateTextureFromFile.'
-ms.assetid: '820bbd77-98af-4051-a22e-825fa4dd87d8'
+---
+Description: Creates a texture from a file. This is a more advanced function than D3DXCreateTextureFromFile.
+ms.assetid: 820bbd77-98af-4051-a22e-825fa4dd87d8
 title: D3DXCreateTextureFromFileEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateTextureFromFileEx function
@@ -39,9 +44,9 @@ HRESULT D3DXCreateTextureFromFileEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -86,7 +91,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0, [**D3DUSAGE\_RENDERTARGET**](d3dusage.md), or **D3DUSAGE\_DYNAMIC**. Setting this flag to **D3DUSAGE\_RENDERTARGET** indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If either **D3DUSAGE\_RENDERTARGET** or **D3DUSAGE\_DYNAMIC** is specified, *Pool* must be set to D3DPOOL\_DEFAULT, and the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md). **D3DUSAGE\_DYNAMIC** indicates that the surface should be handled dynamically. See [Using Dynamic Textures](performance-optimizations.md).
+0, [**D3DUSAGE\_RENDERTARGET**](d3dusage.md), or **D3DUSAGE\_DYNAMIC**. Setting this flag to **D3DUSAGE\_RENDERTARGET** indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If either **D3DUSAGE\_RENDERTARGET** or **D3DUSAGE\_DYNAMIC** is specified, *Pool* must be set to D3DPOOL\_DEFAULT, and the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master). **D3DUSAGE\_DYNAMIC** indicates that the surface should be handled dynamically. See [Using Dynamic Textures](performance-optimizations.md).
 
 </dd> <dt>
 
@@ -147,18 +152,18 @@ Pointer to a [**D3DXIMAGE\_INFO**](d3dximage-info.md) structure to be filled in 
 *pPalette* \[out\]
 </dt> <dd>
 
-Type: **[**PALETTEENTRY**](paletteentry.md)\***
+Type: **[**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure, representing a 256-color palette to fill in, or **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure, representing a 256-color palette to fill in, or **NULL**.
 
 </dd> <dt>
 
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface, representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface, representing the created texture object.
 
 </dd> </dl>
 

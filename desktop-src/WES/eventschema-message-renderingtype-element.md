@@ -1,14 +1,20 @@
 ---
 title: Message (RenderingInfoType) Element
 description: Contains the event message that is rendered for the event.
-ms.assetid: '2a29f09f-cd1a-415a-aa52-1c8643a95c25'
-keywords: ["Message element EventLog"]
+ms.assetid: 2a29f09f-cd1a-415a-aa52-1c8643a95c25
+keywords:
+- Message element EventLog
 topic_type:
 - apiref
 api_name:
 - Message
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message (RenderingInfoType) Element
@@ -29,8 +35,8 @@ The **Message** element is defined by the [**RenderingInfoType**](eventschema-re
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Message** element is defined by the [**RenderingInfoType**](eventschema-re
 [**RenderingInfo (EventType)**](eventschema-renderinginfo-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

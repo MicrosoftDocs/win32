@@ -1,8 +1,23 @@
 ---
 title: Shared Samples
 description: This topic contains a number of code examples that show how to accomplish various tasks.
-ms.assetid: '676a2ea4-6c7b-44ec-9a5c-219127553b71'
-keywords: ["Windows Image Acquisition (WIA),examples", "WIA (Windows Image Acquisition),examples", "Windows Image Acquisition Automation Layer,examples", "WIA Automation Layer,examples", "Image Acquisition Automation Layer,examples", "Windows Image Acquisition (WIA),sample code", "WIA (Windows Image Acquisition),sample code", "Windows Image Acquisition Automation Layer,sample code", "WIA Automation Layer,sample code", "Image Acquisition Automation Layer,sample code"]
+ms.assetid: 676a2ea4-6c7b-44ec-9a5c-219127553b71
+keywords:
+- Windows Image Acquisition (WIA),examples
+- WIA (Windows Image Acquisition),examples
+- Windows Image Acquisition Automation Layer,examples
+- WIA Automation Layer,examples
+- Image Acquisition Automation Layer,examples
+- Windows Image Acquisition (WIA),sample code
+- WIA (Windows Image Acquisition),sample code
+- Windows Image Acquisition Automation Layer,sample code
+- WIA Automation Layer,sample code
+- Image Acquisition Automation Layer,sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shared Samples

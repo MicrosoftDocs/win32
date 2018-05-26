@@ -2,13 +2,19 @@
 title: /D switch
 description: The /D switch defines a name and an optional value to be passed to the C preprocessor as if by a \ define directive. Multiple /D directives can be used in a command line.
 ms.assetid: 65642bf6-8e25-400b-8b1c-43513ab6b313
-keywords: ["/D switch MIDL"]
+keywords:
+- /D switch MIDL
 topic_type:
 - apiref
 api_name:
 - /D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /D switch

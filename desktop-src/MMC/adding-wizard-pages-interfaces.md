@@ -4,11 +4,15 @@ description: Snap-in developers use the same interfaces and other language const
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d40cf39-1563-4e82-9012-7baad9958270'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8d40cf39-1563-4e82-9012-7baad9958270
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["wizard pages MMC , interfaces"]
+keywords:
+- wizard pages MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Wizard Pages: Interfaces

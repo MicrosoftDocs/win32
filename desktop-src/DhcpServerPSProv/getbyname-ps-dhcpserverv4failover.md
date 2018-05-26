@@ -4,13 +4,16 @@ description: Gets the failover relationships configured on the server for the sp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb2def41-be81-42bb-ae53-b0be6a6f5369'
-ms.prod: 'windows-server-dev'
+ms.assetid: bb2def41-be81-42bb-ae53-b0be6a6f5369
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByName method", "GetByName method, PS_DhcpServerv4Failover class", "PS_DhcpServerv4Failover class, GetByName method"]
+keywords:
+- GetByName method
+- GetByName method, PS_DhcpServerv4Failover class
+- PS_DhcpServerv4Failover class, GetByName method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByName method of the PS\_DhcpServerv4Failover class
@@ -30,9 +36,9 @@ Gets the failover relationships configured on the server for the specific failov
 
 ```mof
 uint32 GetByName(
-  [in]  string               ComputerName,
-  [in]  string               Name[],
-  [out] DhcpServerv4Failover cmdletOutput[]
+  [in]  string               ComputerName,
+  [in]  string               Name[],
+  [out] DhcpServerv4Failover cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of a [**DhcpServerv4Failover**](dhcpserverv4failover.md) ob
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Wmp.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
@@ -85,9 +91,9 @@ An embedded instance of a [**DhcpServerv4Failover**](dhcpserverv4failover.md) ob
 [**PS\_DhcpServerv4Failover**](ps-dhcpserverv4failover.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

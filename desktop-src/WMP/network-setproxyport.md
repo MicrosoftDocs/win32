@@ -1,8 +1,11 @@
 ---
 title: Network.setProxyPort method
 description: The setProxyPort method specifies the proxy port to use.
-ms.assetid: '36b7290d-c359-45bb-b77b-46b696e9edcf'
-keywords: ["setProxyPort method Windows Media Player", "setProxyPort method Windows Media Player , Network class", "Network class Windows Media Player , setProxyPort method"]
+ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
+keywords:
+- setProxyPort method Windows Media Player
+- setProxyPort method Windows Media Player , Network class
+- Network class Windows Media Player , setProxyPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.setProxyPort method
@@ -102,9 +110,9 @@ alert("Proxy settings must be manual!");
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

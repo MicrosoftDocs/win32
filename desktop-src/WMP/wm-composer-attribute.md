@@ -1,14 +1,20 @@
 ---
 title: WM/Composer Attribute
 description: The WM/Composer attribute is the name of the composer of the music.
-ms.assetid: '48459027-ed80-46a2-ad5c-ace602144150'
-keywords: ["WM/Composer Attribute Windows Media Player"]
+ms.assetid: 48459027-ed80-46a2-ad5c-ace602144150
+keywords:
+- WM/Composer Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Composer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Composer Attribute
@@ -54,9 +60,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Media.getItemInfoByType**](media-getiteminfobytype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

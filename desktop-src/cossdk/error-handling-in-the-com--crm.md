@@ -1,7 +1,12 @@
 ---
 Description: Error Handling in the COM+ CRM
-ms.assetid: '9de31fb5-31e9-494a-b61f-87bcff0d5085'
+ms.assetid: 9de31fb5-31e9-494a-b61f-87bcff0d5085
 title: Error Handling in the COM+ CRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling in the COM+ CRM

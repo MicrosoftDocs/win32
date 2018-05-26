@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the Winlogon notification package reference topics.'
-ms.assetid: '84b242d1-7c46-4692-a1f2-48d5b3eea8e8'
+Description: Lists the Winlogon notification package reference topics.
+ms.assetid: 84b242d1-7c46-4692-a1f2-48d5b3eea8e8
 title: Winlogon Notification Package Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Winlogon Notification Package Reference

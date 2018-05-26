@@ -1,7 +1,12 @@
 ---
-Description: 'IPv6 support, TCP/IP Annex, and Windows Sockets.'
-ms.assetid: '03e29ef1-2105-4cec-8b80-0f9acab046f6'
+Description: IPv6 support, TCP/IP Annex, and Windows Sockets.
+ms.assetid: 03e29ef1-2105-4cec-8b80-0f9acab046f6
 title: IPv6 Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Support
@@ -15,7 +20,7 @@ If a TCP/IP service provider on Windows XP with SP1 and on Windows Server 2003
 
 Windows Vista and later offer the ability to create a single IPv6 socket which can handle both IPv6 and IPv4 traffic. For example, a TCP listening socket for IPv6 is created, put into dual stack mode, and bound to port 5001. This dual-stack socket can accept connections from IPv6 TCP clients connecting to port 5001 and from IPv4 TCP clients connecting to port 5001. This feature allows for greatly simplified application design and reduces the resource overhead required of posting operations on two separate sockets. However, there are some restrictions that must be met in order to use a dual-stack socket. For more information, see [Dual-Stack Sockets](dual-stack-sockets.md).
 
-[**WSAEnumProtocols**](wsaenumprotocols-2.md) returns two [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structures for each of the supported socket types (SOCK\_STREAM, SOCK\_DGRAM, SOCK\_RAW). The **iAddressFamily** must by set to AF\_INET for IPv4 addressing, and to AF\_INET6 for IPv6 addressing.
+[**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master) returns two [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structures for each of the supported socket types (SOCK\_STREAM, SOCK\_DGRAM, SOCK\_RAW). The **iAddressFamily** must by set to AF\_INET for IPv4 addressing, and to AF\_INET6 for IPv6 addressing.
 
 The IPv6 addresses are described in the following structures.
 
@@ -33,9 +38,9 @@ struct sockaddr_in6 {
    };
 ```
 
-If an application uses Windows Sockets 1.1 functions and wants to use IPv6 addresses, it may continue to use all the old functions that take the [**sockaddr**](sockaddr-2.md) structure as one of the parameters ([**bind**](bind-2.md), [**connect**](connect-2.md), [**sendto**](sendto-2.md), and [**recvfrom**](recvfrom-2.md), [**accept**](accept-2.md), and so forth). The only change that is required is to use **sockaddr\_in6** instead of **sockaddr\_in**.
+If an application uses Windows Sockets 1.1 functions and wants to use IPv6 addresses, it may continue to use all the old functions that take the [**sockaddr**](sockaddr-2.md) structure as one of the parameters ([**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master), [**connect**](/windows/win32/Winsock2/nf-winsock2-connect?branch=master), [**sendto**](/windows/win32/winsock/nf-winsock-sendto?branch=master), and [**recvfrom**](/windows/win32/winsock/nf-winsock-recvfrom?branch=master), [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master), and so forth). The only change that is required is to use **sockaddr\_in6** instead of **sockaddr\_in**.
 
-However, the name resolution functions ([**gethostbyname**](gethostbyname-2.md), [**gethostbyaddr**](gethostbyaddr-2.md), and so forth) and address conversion functions ([**inet\_addr**](inet-addr-2.md), [**inet\_ntoa**](inet-ntoa-2.md)) cannot be reused because they assume an IP address is 4 bytes in length. An application that wants to perform name resolution and address conversion for IPv6 addresses must use Windows Sockets 2-specific functions. Many new functions have been introduced to enable Windows Sockets 2 applications to take advantage of IPv6, including the [**getaddrinfo**](getaddrinfo-2.md) and [**getnameinfo**](getnameinfo-2.md) functions.
+However, the name resolution functions ([**gethostbyname**](/windows/win32/wsipv6ok/nf-winsock-gethostbyname?branch=master), [**gethostbyaddr**](/windows/win32/wsipv6ok/nf-winsock-gethostbyaddr?branch=master), and so forth) and address conversion functions ([**inet\_addr**](/windows/win32/wsipv6ok/nf-winsock-inet_addr?branch=master), [**inet\_ntoa**](/windows/win32/wsipv6ok/nf-winsock-inet_ntoa?branch=master)) cannot be reused because they assume an IP address is 4 bytes in length. An application that wants to perform name resolution and address conversion for IPv6 addresses must use Windows Sockets 2-specific functions. Many new functions have been introduced to enable Windows Sockets 2 applications to take advantage of IPv6, including the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) and [**getnameinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getnameinfo?branch=master) functions.
 
 For more information on how to enable IPv6 capabilities in an application, see the [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md).
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMediaTimes method sets the media stop and start times.'
-ms.assetid: '9fa7938c-8128-4c26-a738-771d57b315b5'
-title: 'IAMTimelineSrc::SetMediaTimes method'
+---
+Description: The SetMediaTimes method sets the media stop and start times.
+ms.assetid: 9fa7938c-8128-4c26-a738-771d57b315b5
+title: IAMTimelineSrcSetMediaTimes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::SetMediaTimes method

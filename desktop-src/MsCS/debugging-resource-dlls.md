@@ -4,11 +4,15 @@ description: Because the Cluster service runs as a service and the Resource Moni
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1caa8fe7-e1fb-48f1-9823-2896faeaa320'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1caa8fe7-e1fb-48f1-9823-2896faeaa320
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLLs Failover Cluster ,debugging"]
+keywords:
+- resource DLLs Failover Cluster ,debugging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Debugging Resource DLLs
@@ -29,7 +33,7 @@ The following procedure describes how to debug a resource DLL:
 
     **Start ClusSvc -debug**
 
-    When the Cluster service starts, it creates a [Resource Monitor](resource-monitor.md) for your resource and attaches your debugger to it. At this point, your debugger is invoked. You can now set breakpoints in the DLL. For example, to debug the [**ResourceTypeControl**](resourcetypecontrol.md) entry point function, attach a debugger to the main Resource Monitor process and set a breakpoint at **s\_RmResourceTypeControl**. You can set additional breakpoints in the DLL once the call to [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) is stepped over.
+    When the Cluster service starts, it creates a [Resource Monitor](resource-monitor.md) for your resource and attaches your debugger to it. At this point, your debugger is invoked. You can now set breakpoints in the DLL. For example, to debug the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point function, attach a debugger to the main Resource Monitor process and set a breakpoint at **s\_RmResourceTypeControl**. You can set additional breakpoints in the DLL once the call to [**LoadLibrary**](https://msdn.microsoft.com/library/windows/desktop/ms684175) is stepped over.
 
 4.  Start [Cluster Administrator](cluster-administrator.md).
 
@@ -71,9 +75,9 @@ The following procedure describes how to debug a resource type:
 
     **cluster restype** *DisplayName* **/prop DebugPrefix=***path*
 
-    When your [**ResourceTypeControl**](resourcetypecontrol.md) entry point function is called, the [Cluster service](cluster-service.md) checks the settings for these properties. If [**DebugControlFunctions**](resource-types-debugcontrolfunctions.md) is set to **TRUE** and [**DebugPrefix**](resource-types-debugprefix.md) contains a valid path, the Cluster service creates a new [Resource Monitor](resource-monitor.md) process for [**ResourceTypeControl**](resourcetypecontrol.md) and attaches the specified debugger to it.
+    When your [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point function is called, the [Cluster service](cluster-service.md) checks the settings for these properties. If [**DebugControlFunctions**](resource-types-debugcontrolfunctions.md) is set to **TRUE** and [**DebugPrefix**](resource-types-debugprefix.md) contains a valid path, the Cluster service creates a new [Resource Monitor](resource-monitor.md) process for [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) and attaches the specified debugger to it.
 
-3.  If you want to debug startup code (the [**Startup**](startup.md) and [**Open**](open.md) entry point functions) in a resource DLL while the resource is being created, set the [**DebugPrefix**](resource-types-debugprefix.md) property on the resource type beforehand by invoking PowerShell failover cluster cmdlets. Then, when a resource is created, select the **Use Separate Resource Monitor** check box, and click the **Next** button to start the debugger immediately.
+3.  If you want to debug startup code (the [**Startup**](/windows/previous-versions/ResApi/nc-resapi-pstartup_routine?branch=master) and [**Open**](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master) entry point functions) in a resource DLL while the resource is being created, set the [**DebugPrefix**](resource-types-debugprefix.md) property on the resource type beforehand by invoking PowerShell failover cluster cmdlets. Then, when a resource is created, select the **Use Separate Resource Monitor** check box, and click the **Next** button to start the debugger immediately.
 
     **Windows Server 2008:  **
 

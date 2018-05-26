@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.getNextSelectedItem
 description: The getNextSelectedItem method retrieves the next selected item in the list box control starting at the item after the one with the specified index.
-ms.assetid: '060d196d-2b14-4386-ba01-34256c137db5'
-keywords: ["LISTBOX.getNextSelectedItem Windows Media Player"]
+ms.assetid: 060d196d-2b14-4386-ba01-34256c137db5
+keywords:
+- LISTBOX.getNextSelectedItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.getNextSelectedItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.getNextSelectedItem
@@ -36,7 +42,7 @@ This method returns a **Number** (**long**) containing the index of the next sel
 
 ## Remarks
 
-To start search from the beginning, use –1 for the start index.
+To start search from the beginning, use  1 for the start index.
 
 ## Requirements
 
@@ -55,9 +61,9 @@ To start search from the beginning, use –1 for the start index.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

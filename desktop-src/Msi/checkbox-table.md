@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckBox table lists the values for the check boxes.'
-ms.assetid: '6881f358-74af-4160-ac69-36e848865ac0'
+Description: The CheckBox table lists the values for the check boxes.
+ms.assetid: 6881f358-74af-4160-ac69-36e848865ac0
 title: CheckBox Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckBox Table
@@ -43,7 +48,7 @@ The value string associated with this item.
 
 If the check box is selected, then the corresponding property is set to the specified value. If there is no value specified or this table does not exist, then the property is set to its original value when the check box is selected. If the original value is null, the property is set to "1".
 
-The contents of the Value column are formatted by the [**MsiFormatRecord**](msiformatrecord.md) function when the control is created. Therefore, it can contain any expression that the **MsiFormatRecord** function can interpret. The Value column is formatted only when the control is created, and it is not updated if a property involved in an expression is modified during the life of the control.
+The contents of the Value column are formatted by the [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) function when the control is created. Therefore, it can contain any expression that the **MsiFormatRecord** function can interpret. The Value column is formatted only when the control is created, and it is not updated if a property involved in an expression is modified during the life of the control.
 
 ## Validation
 

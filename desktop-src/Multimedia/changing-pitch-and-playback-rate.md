@@ -1,8 +1,23 @@
 ---
 title: Changing Pitch and Playback Rate
 description: Changing Pitch and Playback Rate
-ms.assetid: 'f0f5249b-ae2a-4f17-80ee-575f9f7963a7'
-keywords: ["waveform audio,pitch", "waveform-audio interface,pitch", "waveform audio,playback rate", "waveform-audio interface,playback rate", "waveform audio,changing pitch", "waveform-audio interface,changing pitch", "waveform audio,changing playback rate", "waveform-audio interface,changing playback rate", "changing waveform-audio playback rate", "changing waveform-audio pitch"]
+ms.assetid: f0f5249b-ae2a-4f17-80ee-575f9f7963a7
+keywords:
+- waveform audio,pitch
+- waveform-audio interface,pitch
+- waveform audio,playback rate
+- waveform-audio interface,playback rate
+- waveform audio,changing pitch
+- waveform-audio interface,changing pitch
+- waveform audio,changing playback rate
+- waveform-audio interface,changing playback rate
+- changing waveform-audio playback rate
+- changing waveform-audio pitch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Pitch and Playback Rate

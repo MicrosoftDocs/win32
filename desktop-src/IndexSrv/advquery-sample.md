@@ -1,14 +1,19 @@
 ---
 title: AdvQuery Sample
 description: AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as ICommand and ICommandTree.
-ms.assetid: '288d6adc-56ac-4f81-b992-48446b917e9f'
+ms.assetid: 288d6adc-56ac-4f81-b992-48446b917e9f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AdvQuery Sample
 
 \[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
-AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) and [**ICommandTree**](icommandtree.md). It shows how to specify a catalog, machine name, and scope. It can also display the OLE DB command tree for the query.
+AdvQuery is an example of a command-line application written in C++ that executes a query using OLE DB Provider interfaces such as [**ICommand**](089427ad-5ba3-4613-b89e-8e86420ccc30) and [**ICommandTree**](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master). It shows how to specify a catalog, machine name, and scope. It can also display the OLE DB command tree for the query.
 
 Source: mssdk\\samples\\winbase\\indexing\\AdvQuery\\
 
@@ -45,7 +50,7 @@ Source: mssdk\\samples\\winbase\\indexing\\AdvQuery\\
 
 The sample prints the rank, size, and path of each file that matches the query. The query results are sorted by rank (how well the file matches the query).
 
-This sample is more complex than the Simple (QSample) sample because it creates a command tree and use the low-level [**ICommandTree**](icommandtree.md) interface instead of using the OLE DB Helper functions [CICreateCommand](cicreatecommand.md) and [CITextToFullTree](citexttofulltree.md).
+This sample is more complex than the Simple (QSample) sample because it creates a command tree and use the low-level [**ICommandTree**](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master) interface instead of using the OLE DB Helper functions [CICreateCommand](/windows/win32/Ntquery/nf-ntquery-cicreatecommand?branch=master) and [CITextToFullTree](/windows/win32/Ntquery/nf-ntquery-citexttofulltree?branch=master).
 
 ## Parameters
 

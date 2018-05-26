@@ -1,14 +1,20 @@
 ---
 title: Frequency Attribute
 description: The Frequency attribute is the frequency of the radio station or \ 0034;Net only \ 0034;.
-ms.assetid: 'af9d348a-35f5-4cd6-ac1e-523e310860dd'
-keywords: ["Frequency Attribute Windows Media Player"]
+ms.assetid: af9d348a-35f5-4cd6-ac1e-523e310860dd
+keywords:
+- Frequency Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Frequency
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frequency Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

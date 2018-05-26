@@ -1,12 +1,17 @@
 ---
 title: Ribbons
 description: Ribbons are the modern way to help users find, understand, and use commands efficiently and directly \ 8212;with a minimum number of clicks, with less need to resort to trial-and-error, and without having to refer to Help.
-ms.assetid: '8a4699da-9840-4622-9e94-d6d5c4e7708c'
+ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbons
 
-Ribbons are the modern way to help users find, understand, and use commands efficiently and directly—with a minimum number of clicks, with less need to resort to trial-and-error, and without having to refer to Help.
+Ribbons are the modern way to help users find, understand, and use commands efficiently and directly with a minimum number of clicks, with less need to resort to trial-and-error, and without having to refer to Help.
 
 A ribbon is a command bar that organizes a program's features into a series of tabs at the top of a window. Using a ribbon increases discoverability of features and functions, enables quicker learning of the program as a whole, and makes users feel more in control of their experience with the program. A ribbon can replace both the traditional menu bar and toolbars.
 
@@ -31,7 +36,7 @@ Ribbons were originally introduced with Microsoft Office 2007. To learn why Offi
 > [!Note]  
 > Guidelines related to [menus](cmd-menus.md), [toolbars](cmd-toolbars.md), [command buttons](ctrl-command-buttons.md), and [icons](vis-icons.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right user interface?
 
@@ -184,13 +189,13 @@ Here are some common pitfalls to avoid:
 
 -   **Avoid generic tab and group names.** A good tab or group name must accurately describe its specific contents, preferably using task- and goal-based language. Avoid generic tab and group names, as well as technology-based names. For example, almost any command in a document creating and authoring program could belong in tabs labeled Edit, Format, Tools, Options, Advanced, and More. Rely on specific, descriptive labels, not memorization.
 -   **Avoid overly specific tab and group names.** While we want tab and group names to be specific, they shouldn't be so specific that users are surprised by their content. Users often look for things using the process of elimination, so prevent them from overlooking your tabs or groups because the name is misleading.
--   **Avoid multiple paths to the same command—especially if the path is unexpected or the command requires many clicks to invoke.** It may seem like a convenience to find a command through multiple paths. But keep in mind that when users find what they are looking for, they stop looking. It is all too easy for users to assume that the first path they find is the only path—which is a serious problem if that path is inefficient or unexpected. Furthermore, having duplicate commands makes it harder for users to find other commands they are scanning for.
+-   **Avoid multiple paths to the same command especially if the path is unexpected or the command requires many clicks to invoke.** It may seem like a convenience to find a command through multiple paths. But keep in mind that when users find what they are looking for, they stop looking. It is all too easy for users to assume that the first path they find is the only path which is a serious problem if that path is inefficient or unexpected. Furthermore, having duplicate commands makes it harder for users to find other commands they are scanning for.
 
     ![screen shot of indirect path to borders command ](images/cmd-ribbons-image12.png)
 
     In this example, you can change paragraph borders through the Page Borders command, even though there is a more direct path on the Home tab. If users looking for paragraph borders were to stumble across this unexpected path, they might easily assume that it's the only path.
 
--   **Avoid arbitrary command placement.** Suppose that you think you have a good tab and group design, but discover that several commands just don't fit in. Chances are, your tab and group design isn't as good as you think it is, and you need to continue to refine it. Don't solve this problem by putting those commands where they don't belong. If you do, users likely will have to inspect every tab to find them—then promptly forget where they are.
+-   **Avoid arbitrary command placement.** Suppose that you think you have a good tab and group design, but discover that several commands just don't fit in. Chances are, your tab and group design isn't as good as you think it is, and you need to continue to refine it. Don't solve this problem by putting those commands where they don't belong. If you do, users likely will have to inspect every tab to find them then promptly forget where they are.
 -   **Avoid marketing-based placement.** Suppose that you have a new version of your program and your marketing team really wants to promote its new features. It might be tempting to put them on the Home tab, but doing so is a costly mistake if it harms overall discoverability. Consider future versions of your product and how much frustration a constantly changing organization will cause.
 
 ### Tabs
@@ -222,7 +227,7 @@ There are a variety of factors to consider when determining groups and their pre
 
     
 
-     
+     
 
     In the incorrect example, commands from two standard groups were merged into one non-standard group.
 
@@ -235,7 +240,7 @@ There are a variety of factors to consider when determining groups and their pre
 
     
 
-     
+     
 
     In the incorrect example, having groups with one or two commands is a sign of too much structure.
 
@@ -270,7 +275,7 @@ There are a variety of factors to consider when determining groups and their pre
 
     
 
-     
+     
 
     In the incorrect example, the commands look too similar to one another because they are all the same size.
 
@@ -328,7 +333,7 @@ When designing a tab, specify the different layouts for each group (up to three)
 
 **If you do only seven things...**
 
-<dl> 1) Choose a command solution that is suitable for your program type. Using a ribbon should make a program feel simpler, more efficient, and easier to use—never the opposite. If using a ribbon isn't appropriate, consider using rich commands instead.  
+<dl> 1) Choose a command solution that is suitable for your program type. Using a ribbon should make a program feel simpler, more efficient, and easier to use never the opposite. If using a ribbon isn't appropriate, consider using rich commands instead.  
 2) Don't underestimate the challenge of creating an effective ribbon. Don't expect it to be a simple port of your existing menu bars and toolbars. And don't take for granted that using a ribbon automatically makes your program better. Being willing to commit the time and effort required for a command redesign is an important factor in deciding to use a ribbon.  
 3) Make the commands discoverable. Choose a tab design that has a clear, obvious, unique mapping between your commands and the descriptively labeled tabs where they reside. Users should be able to determine quickly and confidently which tab has the command they are looking for, and rarely choose the wrong tab.  
 4) Make the commands self-explanatory. Users should understand the effect of a command from its label, icon, tooltip, and preview. They shouldn't have to experiment or read a Help topic to see how a command works.  
@@ -426,7 +431,7 @@ Whenever practical, map your program's commands to these standard tabs, given in
 -   **Insert.** Contains commands to insert content and objects into a document. If used, it is always the second tab.
 -   **Page layout.** Contains commands that affect the page layout, including themes, page setup, page backgrounds, indenting, spacing, and positioning. (Note that the indenting and spacing groups can be on the Home tab instead, if there is enough room there.) If used, it is always the third tab.
 -   **Review.** Contains commands to add comments, track changes, and compare versions.
--   **View.** Contains commands that affect the document view, including view mode, show/hide options, zooming, window management, and macros—the commands traditionally found in the Windows menu category. If used, it is the last regular tab unless the Developer tab is showing.
+-   **View.** Contains commands that affect the document view, including view mode, show/hide options, zooming, window management, and macros the commands traditionally found in the Windows menu category. If used, it is the last regular tab unless the Developer tab is showing.
 -   **Developer.** Contains commands used only by developers. If used, it is hidden by default and the last regular tab when displayed.
 
 Most programs don't need the Review and Developer tabs.
@@ -522,7 +527,7 @@ Whenever practical, map your program's commands to these standard groups, which 
 
     In this example, the Line numbers setting was previously buried in a property sheet. Putting the setting in the ribbon makes it much more discoverable.
 
--   **Don't use the scalability of ribbons to justify adding unnecessary complexity.** Continue to exercise restraint—don't add commands to a ribbon just because you can. Keep the overall command experience simple. The following are ways to simplify the presentation:
+-   **Don't use the scalability of ribbons to justify adding unnecessary complexity.** Continue to exercise restraint don't add commands to a ribbon just because you can. Keep the overall command experience simple. The following are ways to simplify the presentation:
     -   **Use context menus and mini-toolbars for in-place, contextual commands.**
 
         ![screen shot of mini toolbar and context menu ](images/cmd-ribbons-image37.png)
@@ -534,7 +539,7 @@ Whenever practical, map your program's commands to these standard groups, which 
 
 **Presentation**
 
--   **Present each command on only one tab. Avoid multiple paths to the same command—especially if the command requires many clicks to invoke.** It may seem like a convenience to find a command through multiple paths. But keep in mind that when users find what they are looking for, they stop looking. It is all too easy for users to assume that the first path they find is the only path—which is a serious problem if that path is inefficient.
+-   **Present each command on only one tab. Avoid multiple paths to the same command especially if the command requires many clicks to invoke.** It may seem like a convenience to find a command through multiple paths. But keep in mind that when users find what they are looking for, they stop looking. It is all too easy for users to assume that the first path they find is the only path which is a serious problem if that path is inefficient.
     -   **Exception:** Contextual tabs may duplicate a few commands from the Home and Insert tabs if doing so prevents changing tabs for common contextual tasks.
 -   **Within a group, put the commands in their logical order, while giving preference to the most frequently used commands.** Overall, the commands should have a logical flow to make them easy to find, while still having the most frequently used commands appear first. Generally, commands with 32x32 pixel icons appear before commands with 16x16 pixel icons to aid scanning across groups.
 -   **Avoid placing destructive commands next to frequently used commands.** A command is considered destructive if its effect is widespread and either it cannot be easily undone or the effect isn't immediately noticeable.
@@ -561,12 +566,12 @@ Whenever practical, map your program's commands to these standard groups, which 
 
     
 
-     
+     
 
     Even though Insert note and Delete note are never enabled at the same time, displaying both commands is required for a stable ribbon.
 
 -   **Prefer direct controls.** A command is direct if invoked with a single click (that is, without navigating through menus). However, with the exception of in-ribbon galleries, direct controls don't support Live preview, so the need for Live preview is also a factor.
-    -   If a command is among a related set of formatting options, and Live preview is important and practical, use Live preview to indicate the effect of the options—especially if users are likely to choose the wrong option otherwise.
+    -   If a command is among a related set of formatting options, and Live preview is important and practical, use Live preview to indicate the effect of the options especially if users are likely to choose the wrong option otherwise.
         -   If the command is used frequently, use an in-ribbon gallery for directness.
         -   If the command is used infrequently, use a drop-down gallery. 
 
@@ -577,7 +582,7 @@ Whenever practical, map your program's commands to these standard groups, which 
 
             
 
-             
+             
 
             While the correct example is direct, the better example supports Live preview.
 
@@ -665,7 +670,7 @@ For command labeling guidelines, see [Command labels](commands). For guidelines 
 
     
 
-     
+     
 
     In the incorrect example, the icons have similar coloring, making them hard to distinguish.
 
@@ -722,7 +727,7 @@ For labeling guidelines, see [Enhanced tooltip labels](#enhanced-tooltips).
 -   [!Note]  
     > Keytips are the mechanism used to display access keys for commands displayed directly on a ribbon.
 
-     
+     
 
     (Access keys for drop-down menu commands are indicated with an underlined character.) They differ from menu access keys in the following ways:
     -   Two character access keys can be used. For example, FP can be used to access the Format painter command.
@@ -780,7 +785,7 @@ For shortcut key guidelines, see [Keyboard](inter-keyboard.md).
 ### Application buttons
 
 -   **Use an Application button to present a menu of commands that involve doing something to or with a file.** Examples include commands that traditionally go in the File menu to create, open, and save files, print, and send and publish documents.
--   **Always provide an Application button when using a ribbon.** If the program doesn't use files, use the Application button to access the program options and the Exit command. Application buttons always display a command menu—they are never just decorative.
+-   **Always provide an Application button when using a ribbon.** If the program doesn't use files, use the Application button to access the program options and the Exit command. Application buttons always display a command menu they are never just decorative.
 -   **Use the following standard Application menu commands when appropriate:**<dl> New  
     Open  
     Save  
@@ -816,7 +821,7 @@ For shortcut key guidelines, see [Keyboard](inter-keyboard.md).
 
 ### Dialog box launchers
 
--   **Provide a group with a dialog box launcher if there is a related dialog box with infrequently used commands and settings.** The dialog box should contain all the commands in the group, plus others—not a completely different set of commands or the same commands as the group.
+-   **Provide a group with a dialog box launcher if there is a related dialog box with infrequently used commands and settings.** The dialog box should contain all the commands in the group, plus others not a completely different set of commands or the same commands as the group.
 
     ![screen shot of font dialog box and font group ](images/cmd-ribbons-image60.png)
 
@@ -904,7 +909,7 @@ For shortcut key guidelines, see [Keyboard](inter-keyboard.md).
 
         
 
-         
+         
 
         Omit the group label if it is redundant with the group's only command.
 
@@ -1076,9 +1081,9 @@ Examples:
 -   On the **Review** tab, click **Show markup**, and then click **Reviewers**.
 -   On the **Format** tab, in **Picture tools**, click **Compress pictures**.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Synchronization and Multi-Engine
 description: Most modern GPUs contain multiple independent engines that provide specialized functionality.
-ms.assetid: '93903F50-A6CA-41C2-863D-68D645586B4C'
+ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronization and Multi-Engine
@@ -26,7 +31,7 @@ As the different threads populate the queues, there can be no simple guarantee o
 
 ![four threads sending commands to three queues](images/gpu-engines.png)
 
-The following image illustrate how a title might schedule work across multiple GPU engines, including inter-engine synchronization where necessary: it shows the per-engine workloads with inter-engine dependencies. In this example, the copy engine first copies some geometry necessary for rendering. The 3D engine waits for these copies to complete, and renders a pre-pass over the geometry. This is then consumed by the compute engine. The results of the compute engine [**Dispatch**](id3d12graphicscommandlist-dispatch.md), along with several texture copy operations on the copy engine, are consumed by the 3D engine for the final [**Draw**](id3d12graphicscommandlist-drawinstanced.md) call.
+The following image illustrate how a title might schedule work across multiple GPU engines, including inter-engine synchronization where necessary: it shows the per-engine workloads with inter-engine dependencies. In this example, the copy engine first copies some geometry necessary for rendering. The 3D engine waits for these copies to complete, and renders a pre-pass over the geometry. This is then consumed by the compute engine. The results of the compute engine [**Dispatch**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch?branch=master), along with several texture copy operations on the copy engine, are consumed by the 3D engine for the final [**Draw**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master) call.
 
 ![copy, graphics and compute engines communicating](images/gpu-sync.png)
 
@@ -111,19 +116,19 @@ In D3D12 the concept of a command queue is the API representation of a roughly s
 
 The D3D 12 device has methods to create and retrieve command queues of different types and priorities. Most applications should use the default command queues because these allow for shared usage by other components. Applications with additional concurrency requirements can create additional queues. Queues are specified by the command list type that they consume.
 
-Refer to the following creation methods of [**ID3D12Device**](id3d12device.md):
+Refer to the following creation methods of [**ID3D12Device**](/windows/win32/D3D12/nn-d3d12-id3d12device?branch=master):
 
--   [**CreateCommandQueue**](id3d12device-createcommandqueue.md) : creates a command queue based on information in a [**D3D12\_COMMAND\_QUEUE\_DESC**](d3d12-command-queue-desc.md) structure.
--   [**CreateCommandList**](id3d12device-createcommandlist.md) : creates a command list of type [**D3D12\_COMMAND\_LIST\_TYPE**](d3d12-command-list-type.md).
--   [**CreateFence**](id3d12device-createfence.md) : creates a fence, noting the flags in [**D3D12\_FENCE\_FLAGS**](d3d12-fence-flags.md). Fences are used to synchronize queues.
+-   [**CreateCommandQueue**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandqueue?branch=master) : creates a command queue based on information in a [**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_command_queue_desc?branch=master) structure.
+-   [**CreateCommandList**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandlist?branch=master) : creates a command list of type [**D3D12\_COMMAND\_LIST\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_command_list_type?branch=master).
+-   [**CreateFence**](/windows/win32/D3D12/nf-d3d12-id3d12device-createfence?branch=master) : creates a fence, noting the flags in [**D3D12\_FENCE\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_fence_flags?branch=master). Fences are used to synchronize queues.
 
 Queues of all types (3D, compute and copy) share the same interface and are all command-list based.
 
-Refer to the following methods of [**ID3D12CommandQueue**](id3d12commandqueue.md):
+Refer to the following methods of [**ID3D12CommandQueue**](/windows/win32/D3D12/nn-d3d12-id3d12commandqueue?branch=master):
 
--   [**ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md) : submits an array of command lists for execution. Each command list being defined by [**ID3D12CommandList**](id3d12commandlist.md).
--   [**Signal**](id3d12commandqueue-signal.md) : sets a fence value when the queue (running on the GPU) reaches a certain point.
--   [**Wait**](id3d12commandqueue-wait.md) : the queue waits until the specified fence reaches the specified value.
+-   [**ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master) : submits an array of command lists for execution. Each command list being defined by [**ID3D12CommandList**](/windows/win32/D3D12/nn-d3d12-id3d12commandlist?branch=master).
+-   [**Signal**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-signal?branch=master) : sets a fence value when the queue (running on the GPU) reaches a certain point.
+-   [**Wait**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-wait?branch=master) : the queue waits until the specified fence reaches the specified value.
 
 Note that bundles are not consumed by any queues and therefore this type cannot be used to create a queue.
 
@@ -131,15 +136,15 @@ Note that bundles are not consumed by any queues and therefore this type cannot 
 
 The multi-engine API provides explicit APIs to create and synchronize using fences. A fence is a synchronization construct determined by monotonically increasing a UINT64 value. Fence values are set by the application. A signal operation increases the fence value and a wait operation blocks until the fence has reached the requested value. An event can be fired when a fence reaches a certain value.
 
-Refer to the methods of the [**ID3D12Fence**](id3d12fence.md) interface:
+Refer to the methods of the [**ID3D12Fence**](/windows/win32/D3D12/nn-d3d12-id3d12fence?branch=master) interface:
 
--   [**GetCompletedValue**](id3d12fence-getcompletedvalue.md) : returns the current value of the fence.
--   [**SetEventOnCompletion**](id3d12fence-seteventoncompletion.md) : causes an event to fire when the fence reaches a given value.
--   [**Signal**](id3d12fence-signal.md) : sets the fence to the given value.
+-   [**GetCompletedValue**](/windows/win32/D3D12/nf-d3d12-id3d12fence-getcompletedvalue?branch=master) : returns the current value of the fence.
+-   [**SetEventOnCompletion**](/windows/win32/D3D12/nf-d3d12-id3d12fence-seteventoncompletion?branch=master) : causes an event to fire when the fence reaches a given value.
+-   [**Signal**](/windows/win32/D3D12/nf-d3d12-id3d12fence-signal?branch=master) : sets the fence to the given value.
 
 Fences allow CPU access to the current fence value, and CPU waits and signals. Independent components can share the default queues but create their own fences and control their own fence values and synchronization.
 
-The [**Signal**](id3d12fence-signal.md) method on the [**ID3D12Fence**](id3d12fence.md) interface updates a fence from the CPU side. The [**Signal**](id3d12commandqueue-signal.md) method on [**ID3D12CommandQueue**](id3d12commandqueue.md) updates a fence from the GPU side.
+The [**Signal**](/windows/win32/D3D12/nf-d3d12-id3d12fence-signal?branch=master) method on the [**ID3D12Fence**](/windows/win32/D3D12/nn-d3d12-id3d12fence?branch=master) interface updates a fence from the CPU side. The [**Signal**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-signal?branch=master) method on [**ID3D12CommandQueue**](/windows/win32/D3D12/nn-d3d12-id3d12commandqueue?branch=master) updates a fence from the GPU side.
 
 All nodes in a multi-engine setup can read and react to any fence reaching the right value.
 
@@ -149,38 +154,38 @@ The fence APIs provide powerful synchronization functionality but can create pot
 
 ### Copy and Compute command lists
 
-All three types of command list use the [**ID3D12GraphicsCommandList**](id3d12graphicscommandlist.md) interface, however only a subset of the methods are supported for copy and compute.
+All three types of command list use the [**ID3D12GraphicsCommandList**](/windows/win32/d3d12/nn-d3d12-id3d12graphicscommandlist?branch=master) interface, however only a subset of the methods are supported for copy and compute.
 
 Copy and compute command lists can use the following methods:
 
--   [**Close**](id3d12graphicscommandlist-close.md)
--   [**CopyBufferRegion**](id3d12graphicscommandlist-copybufferregion.md)
--   [**CopyResource**](id3d12graphicscommandlist-copyresource.md)
--   [**CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md)
--   [**CopyTiles**](id3d12graphicscommandlist-copytiles.md)
--   [**Reset**](id3d12graphicscommandlist-reset.md)
--   [**ResourceBarrier**](id3d12graphicscommandlist-resourcebarrier.md)
+-   [**Close**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-close?branch=master)
+-   [**CopyBufferRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion?branch=master)
+-   [**CopyResource**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource?branch=master)
+-   [**CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master)
+-   [**CopyTiles**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles?branch=master)
+-   [**Reset**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-reset?branch=master)
+-   [**ResourceBarrier**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)
 
 Compute command lists can also use the following methods:
 
--   [**ClearState**](id3d12graphicscommandlist-clearstate.md)
--   [**ClearUnorderedAccessViewFloat**](id3d12graphicscommandlist-clearunorderedaccessviewfloat.md)
--   [**ClearUnorderedAccessViewUint**](id3d12graphicscommandlist-clearunorderedaccessviewuint.md)
--   [**DiscardResource**](id3d12graphicscommandlist-discardresource.md)
--   [**Dispatch**](id3d12graphicscommandlist-dispatch.md)
--   [**ExecuteIndirect**](id3d12graphicscommandlist-executeindirect.md)
--   [**SetComputeRoot32BitConstant**](id3d12graphicscommandlist-setcomputeroot32bitconstant.md)
--   [**SetComputeRoot32BitConstants**](id3d12graphicscommandlist-setcomputeroot32bitconstants.md)
--   [**SetComputeRootConstantBufferView**](id3d12graphicscommandlist-setcomputerootconstantbufferview.md)
--   [**SetComputeRootDescriptorTable**](id3d12graphicscommandlist-setcomputerootdescriptortable.md)
--   [**SetComputeRootShaderResourceView**](id3d12graphicscommandlist-setcomputerootshaderresourceview.md)
--   [**SetComputeRootSignature**](id3d12graphicscommandlist-setcomputerootsignature.md)
--   [**SetComputeRootUnorderedAccessView**](id3d12graphicscommandlist-setcomputerootunorderedaccessview.md)
--   [**SetDescriptorHeaps**](id3d12graphicscommandlist-setdescriptorheaps.md)
--   [**SetPipelineState**](id3d12graphicscommandlist-setpipelinestate.md)
--   [**SetPredication**](id3d12graphicscommandlist-setpredication.md)
+-   [**ClearState**](/windows/win32/D3D12/nf-d3d12-id3d12graphicscommandlist-clearstate?branch=master)
+-   [**ClearUnorderedAccessViewFloat**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat?branch=master)
+-   [**ClearUnorderedAccessViewUint**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint?branch=master)
+-   [**DiscardResource**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource?branch=master)
+-   [**Dispatch**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch?branch=master)
+-   [**ExecuteIndirect**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect?branch=master)
+-   [**SetComputeRoot32BitConstant**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstant?branch=master)
+-   [**SetComputeRoot32BitConstants**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstants?branch=master)
+-   [**SetComputeRootConstantBufferView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootconstantbufferview?branch=master)
+-   [**SetComputeRootDescriptorTable**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootdescriptortable?branch=master)
+-   [**SetComputeRootShaderResourceView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootshaderresourceview?branch=master)
+-   [**SetComputeRootSignature**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootsignature?branch=master)
+-   [**SetComputeRootUnorderedAccessView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootunorderedaccessview?branch=master)
+-   [**SetDescriptorHeaps**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps?branch=master)
+-   [**SetPipelineState**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate?branch=master)
+-   [**SetPredication**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication?branch=master)
 
-Compute command lists must set a compute PSO when calling [**SetPipelineState**](id3d12graphicscommandlist-setpipelinestate.md).
+Compute command lists must set a compute PSO when calling [**SetPipelineState**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate?branch=master).
 
 Bundles cannot be used with compute or copy command lists or queues.
 
@@ -325,7 +330,7 @@ void AsyncPipelinedComputeGraphics()
 
 To access a resource on more than one queue an application must adhere to the following rules.
 
--   Resource access (refer to [**D3D12\_RESOURCE\_STATES**](d3d12-resource-states.md)) is determined by queue type class not queue object. There are two type classes of queue: Compute/3D queue is one type class, Copy is a second type class. So a resource that has a barrier to the NON\_PIXEL\_SHADER\_RESOURCE state on one 3D queue can be used in that state on any 3D or Compute queue, subject to synchronization requirements which require most writes to be serialized. The resource states that are shared between the two type classes (COPY\_SOURCE and COPY\_DEST) are considered different states for each type class. So that if a resource transitions to COPY\_DEST on a Copy queue it is not accessible as a copy destination from 3D or Compute queues and vice versa.
+-   Resource access (refer to [**D3D12\_RESOURCE\_STATES**](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master)) is determined by queue type class not queue object. There are two type classes of queue: Compute/3D queue is one type class, Copy is a second type class. So a resource that has a barrier to the NON\_PIXEL\_SHADER\_RESOURCE state on one 3D queue can be used in that state on any 3D or Compute queue, subject to synchronization requirements which require most writes to be serialized. The resource states that are shared between the two type classes (COPY\_SOURCE and COPY\_DEST) are considered different states for each type class. So that if a resource transitions to COPY\_DEST on a Copy queue it is not accessible as a copy destination from 3D or Compute queues and vice versa.
 
     To summarize:
 

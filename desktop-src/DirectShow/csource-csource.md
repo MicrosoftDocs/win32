@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '94a92c1e-9768-4293-8290-a2b1938cd196'
-title: 'CSource.CSource constructor'
+Description: Constructor method.
+ms.assetid: 94a92c1e-9768-4293-8290-a2b1938cd196
+title: CSource.CSource constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource.CSource constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CSource(
-   TCHAR     *pName,
-   LPUNKNOWN lpunk,
-   CLSID     clsid
+   TCHAR     *pName,
+   LPUNKNOWN lpunk,
+   CLSID     clsid
 );
 ```
 
@@ -64,9 +69,9 @@ Class identifier of the filter.
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

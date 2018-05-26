@@ -1,7 +1,12 @@
 ---
-Description: 'The DVDAdm.ConfirmPassword method tests whether the specified password matches the previously saved password.'
-ms.assetid: '4dddc28d-edf7-45a2-ae1f-1c37b5df2eea'
+Description: The DVDAdm.ConfirmPassword method tests whether the specified password matches the previously saved password.
+ms.assetid: 4dddc28d-edf7-45a2-ae1f-1c37b5df2eea
 title: ConfirmPassword Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfirmPassword Method
@@ -9,7 +14,7 @@ title: ConfirmPassword Method
 > [!Note]  
 > This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 
- 
+ 
 
 The `DVDAdm.ConfirmPassword` method tests whether the specified password matches the previously saved password.
 
@@ -63,9 +68,9 @@ Currently, the *sUserName* parameter is ignored on this and all related methods.
 [MSDVDAdm Object](msdvdadm-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

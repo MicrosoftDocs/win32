@@ -1,14 +1,22 @@
 ---
 title: createContainer.ServiceProperty property
 description: The ServiceProperty sets the value of a service-defined property on the Creation Container object.
-ms.assetid: '2901cfa2-c6fa-404b-a451-04498678ce99'
-keywords: ["ServiceProperty property WPD Automation", "ServiceProperty property WPD Automation , createContainer object", "createContainer object WPD Automation , ServiceProperty property"]
+ms.assetid: 2901cfa2-c6fa-404b-a451-04498678ce99
+keywords:
+- ServiceProperty property WPD Automation
+- ServiceProperty property WPD Automation , createContainer object
+- createContainer object WPD Automation , ServiceProperty property
 topic_type:
 - apiref
 api_name:
 - createContainer.ServiceProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # createContainer.ServiceProperty property
@@ -50,8 +58,8 @@ createContainer.MusicArtist = "Artist Name";
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +76,9 @@ createContainer.MusicArtist = "Artist Name";
 [**Storage Object**](storage-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

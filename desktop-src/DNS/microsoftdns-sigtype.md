@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_SIGType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Signature (SIG) Resource Record.
-ms.assetid: 'ef3729ad-448b-449e-ae59-34888925128a'
-keywords: ["MicrosoftDNS_SIGType class DNS", "MicrosoftDNS_SIGType class DNS , described"]
+ms.assetid: ef3729ad-448b-449e-ae59-34888925128a
+keywords:
+- MicrosoftDNS_SIGType class DNS
+- MicrosoftDNS_SIGType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_SIGType class
@@ -67,7 +74,7 @@ The **MicrosoftDNS\_SIGType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -97,7 +104,7 @@ Algorithm used with the key specified in the resource record. The assigned value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -212,7 +219,7 @@ Type of RR covered by this SIG.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -231,9 +238,9 @@ Type of RR covered by this SIG.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

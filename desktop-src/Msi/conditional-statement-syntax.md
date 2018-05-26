@@ -1,12 +1,17 @@
 ---
-Description: 'This section describes the syntax of conditional statements used by the MsiEvaluateCondition function and the action sequence tables. For more information, see, Examples of Conditional Statement Syntax.'
-ms.assetid: '6f1657f9-063b-4d57-ad76-95e3dbe25786'
+Description: This section describes the syntax of conditional statements used by the MsiEvaluateCondition function and the action sequence tables. For more information, see, Examples of Conditional Statement Syntax.
+ms.assetid: 6f1657f9-063b-4d57-ad76-95e3dbe25786
 title: Conditional Statement Syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Conditional Statement Syntax
 
-This section describes the syntax of conditional statements used by the [**MsiEvaluateCondition**](msievaluatecondition.md) function and the action [sequence tables](using-a-sequence-table.md). For more information, see, [Examples of Conditional Statement Syntax](examples-of-conditional-statement-syntax.md).
+This section describes the syntax of conditional statements used by the [**MsiEvaluateCondition**](/windows/win32/Msiquery/nf-msiquery-msievaluateconditiona?branch=master) function and the action [sequence tables](using-a-sequence-table.md). For more information, see, [Examples of Conditional Statement Syntax](examples-of-conditional-statement-syntax.md).
 
 ## Summary of Conditional Statement Syntax
 
@@ -151,7 +156,7 @@ The following table shows where it is valid to use the feature and component ope
 
  
 
-The following table shows the feature and component state values used in conditional expressions. These states are not set until [**MsiSetInstallLevel**](msisetinstalllevel.md) is called, either directly or by the [CostFinalize](costfinalize-action.md) action.
+The following table shows the feature and component state values used in conditional expressions. These states are not set until [**MsiSetInstallLevel**](/windows/win32/Msiquery/nf-msiquery-msisetinstalllevel?branch=master) is called, either directly or by the [CostFinalize](costfinalize-action.md) action.
 
 
 

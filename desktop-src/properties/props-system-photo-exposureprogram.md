@@ -1,7 +1,12 @@
 ---
-Description: 'The Exposure Program mode of the camera at the time the photo was taken, as read from the Exchangeable Image File (EXIF) information.'
-ms.assetid: 'd27003b4-f30a-4c48-b32f-933b2f29182a'
-title: 'System.Photo.ExposureProgram'
+Description: The Exposure Program mode of the camera at the time the photo was taken, as read from the Exchangeable Image File (EXIF) information.
+ms.assetid: d27003b4-f30a-4c48-b32f-933b2f29182a
+title: System.Photo.ExposureProgram
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureProgram

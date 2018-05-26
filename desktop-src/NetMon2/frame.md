@@ -1,7 +1,12 @@
 ---
-Description: 'An actual frame from the driver.'
-ms.assetid: 'a4f53568-684b-48cf-835b-915cefb45a5d'
+Description: An actual frame from the driver.
+ms.assetid: a4f53568-684b-48cf-835b-915cefb45a5d
 title: FRAME structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FRAME structure
@@ -14,9 +19,9 @@ The **FRAME** structure is an actual frame from the driver.
 ```C++
 typedef struct _FRAME {
   __int64 TimeStamp;
-  DWORD   FrameLength;
-  DWORD   nBytesAvail;
-  BYTE    MacFrame[];
+  DWORD   FrameLength;
+  DWORD   nBytesAvail;
+  BYTE    MacFrame[];
 } FRAME, *LPFRAME, *ULPFRAME;
 ```
 
@@ -60,15 +65,15 @@ Frame data.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

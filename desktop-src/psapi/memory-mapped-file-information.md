@@ -1,14 +1,19 @@
 ---
 title: Memory-Mapped File Information
-description: A memory-mapped file (or file mapping) is the result of associating a file's contents with a portion of the virtual address space of a process. It can be used to share a file or memory between two or more processes.
-ms.assetid: 'b6ec2bc4-c504-4d0b-87f0-39bb1949accd'
+description: A memory-mapped file (or file mapping) is the result of associating a files contents with a portion of the virtual address space of a process. It can be used to share a file or memory between two or more processes.
+ms.assetid: b6ec2bc4-c504-4d0b-87f0-39bb1949accd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory-Mapped File Information
 
 A *memory-mapped file* (or *file mapping*) is the result of associating a file's contents with a portion of the virtual address space of a process. It can be used to share a file or memory between two or more processes.
 
-The [**GetMappedFileName**](getmappedfilename.md) function receives a process handle and a pointer to an address as input. If the address is within a memory-mapped file in the virtual address space of the process, the function returns the name of the memory-mapped file. The file names returned by **GetMappedFileName** use device form, rather than drive letters. For example, the file name c:\\winnt\\system32\\ctype.nls would look like this in device form:
+The [**GetMappedFileName**](/windows/win32/Psapi/nf-psapi-getmappedfilenamea?branch=master) function receives a process handle and a pointer to an address as input. If the address is within a memory-mapped file in the virtual address space of the process, the function returns the name of the memory-mapped file. The file names returned by **GetMappedFileName** use device form, rather than drive letters. For example, the file name c:\\winnt\\system32\\ctype.nls would look like this in device form:
 
 \\Device\\Harddisk0\\Partition1\\WINNT\\System32\\ctype.nls
 

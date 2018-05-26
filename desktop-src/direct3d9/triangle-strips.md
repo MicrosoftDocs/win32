@@ -1,7 +1,12 @@
 ---
-Description: 'A triangle strip is a series of connected triangles.'
-ms.assetid: '3923c570-47a4-4b53-a097-731981380ae0'
+Description: A triangle strip is a series of connected triangles.
+ms.assetid: 3923c570-47a4-4b53-a097-731981380ae0
 title: Triangle Strips
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Triangle Strips
@@ -40,7 +45,7 @@ CUSTOMVERTEX Vertices[] =
 
 
 
-The code example below shows how to render this triangle strip in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md).
+The code example below shows how to render this triangle strip in Direct3D 9 using [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master).
 
 
 ```

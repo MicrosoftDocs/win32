@@ -1,8 +1,9 @@
 ---
 title: RB\_SETCOLORSCHEME message
 description: Sets the color scheme information for the rebar control.
-ms.assetid: 'ddf8f3e4-66b7-4b53-a04e-b4dd372f71c4'
-keywords: ["RB_SETCOLORSCHEME message Windows Controls"]
+ms.assetid: ddf8f3e4-66b7-4b53-a04e-b4dd372f71c4
+keywords:
+- RB_SETCOLORSCHEME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETCOLORSCHEME message
@@ -27,7 +33,7 @@ Sets the color scheme information for the rebar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**COLORSCHEME**](colorscheme.md) structure that contains the color scheme information.
+Pointer to a [**COLORSCHEME**](/windows/win32/Commctrl/ns-commctrl-tagcolorscheme?branch=master) structure that contains the color scheme information.
 
 </dd> </dl>
 
@@ -45,8 +51,8 @@ The rebar control uses the color scheme information when drawing the 3-D element
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The rebar control uses the color scheme information when drawing the 3-D element
 [**RB\_GETCOLORSCHEME**](rb-getcolorscheme.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

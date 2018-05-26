@@ -1,8 +1,11 @@
 ---
 title: ImageFile.Properties property
 description: Retrieves an ImageFile collection of all properties for this image.
-ms.assetid: '7a2255e8-7618-4256-ac65-823d87ceec52'
-keywords: ["Properties property WIA Automation", "Properties property WIA Automation , ImageFile object", "ImageFile object WIA Automation , Properties property"]
+ms.assetid: 7a2255e8-7618-4256-ac65-823d87ceec52
+keywords:
+- Properties property WIA Automation
+- Properties property WIA Automation , ImageFile object
+- ImageFile object WIA Automation , Properties property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.Properties property
@@ -43,8 +51,8 @@ For example code, see [Display all ImageFile Properties](-wiaaut-shared-samples.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -75,9 +83,9 @@ For example code, see [Display all ImageFile Properties](-wiaaut-shared-samples.
 [**Properties**](-wiaaut-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

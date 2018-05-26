@@ -1,7 +1,12 @@
 ---
 title: Interacting with the User
-ms.assetid: 'f5b92d8c-b0ed-4430-8d1a-7854a7be82b9'
+ms.assetid: f5b92d8c-b0ed-4430-8d1a-7854a7be82b9
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interacting with the User

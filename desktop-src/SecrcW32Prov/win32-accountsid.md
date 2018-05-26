@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_AccountSID association WMI class relates a security account instance with a security descriptor instance.'
+Description: The Win32\_AccountSID association WMI class relates a security account instance with a security descriptor instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a0d65893-49c8-4764-be07-e95c490a237c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a0d65893-49c8-4764-be07-e95c490a237c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_AccountSID class'
+title: Win32\_AccountSID class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_AccountSID class
@@ -23,7 +26,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_AccountSID
 {
   Win32_Account REF Element;
-  Win32_SID     REF Setting;
+  Win32_SID     REF Setting;
 };
 ```
 
@@ -77,8 +80,8 @@ Reference to the instance representing the security descriptor. This property va
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -92,9 +95,9 @@ Reference to the instance representing the security descriptor. This property va
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

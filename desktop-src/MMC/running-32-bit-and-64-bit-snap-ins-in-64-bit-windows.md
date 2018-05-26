@@ -4,10 +4,13 @@ description: Microsoft 64-bit operating systems can run both 32-bit MMC (MMC32) 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '75634482-c1ca-4a3d-968f-8bc13e6fbda9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 75634482-c1ca-4a3d-968f-8bc13e6fbda9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running 32-bit and 64-bit Snap-ins in 64-bit Windows

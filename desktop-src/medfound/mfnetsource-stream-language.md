@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stores the string sent in the Accept-Language header.'
-ms.assetid: 'b6ac613c-099b-4415-84ad-c0f8ad5f667b'
-title: 'MFNETSOURCE\_STREAM\_LANGUAGE property'
+---
+Description: Stores the string sent in the Accept-Language header.
+ms.assetid: b6ac613c-099b-4415-84ad-c0f8ad5f667b
+title: MFNETSOURCE\_STREAM\_LANGUAGE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_STREAM\_LANGUAGE property

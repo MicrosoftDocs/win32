@@ -1,7 +1,12 @@
 ---
 title: ALE Reauthorization
 description: Network traffic at the Application Layer Enforcement (ALE) layers of the Windows Filtering Platform (WFP) is filtered by ALE flows.
-ms.assetid: '3cc7f78e-3f9d-4a91-8ea0-9b64c299068a'
+ms.assetid: 3cc7f78e-3f9d-4a91-8ea0-9b64c299068a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALE Reauthorization
@@ -36,9 +41,9 @@ In a strong host model, which is the default security model for the TCP/IP stack
 
 In a weak host model, a connection on a network interface allows packets coming in on any other network interface. Arrival interface reauthorization is used on a weak host computer to implement interface-specific policies. For more information, see ["The Cable Guy: Strong and Weak Host Models."](http://go.microsoft.com/fwlink/p/?linkid=100102)
 
-Some [classifiable fields](filtering-conditions.md) may be unknown during reauthorization. For example, if an outbound packet is being reauthorized at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer, all the fields pertaining to the arrival interface are unknown. In that case, the values of the unknown fields are indicated as [**FWP\_EMPTY**](fwp-data-type-enum.md).
+Some [classifiable fields](filtering-conditions.md) may be unknown during reauthorization. For example, if an outbound packet is being reauthorized at the [**FWPM\_LAYER\_ALE\_AUTH\_RECV\_ACCEPT\_V{4\|6}**](management-filtering-layer-identifiers-.md) layer, all the fields pertaining to the arrival interface are unknown. In that case, the values of the unknown fields are indicated as [**FWP\_EMPTY**](/windows/win32/Fwptypes/ne-fwptypes-fwp_data_type_?branch=master).
 
-Fields of type [**FWP\_EMPTY**](fwp-data-type-enum.md) can be matched with [**FWP\_MATCH\_EQUAL**](fwp-match-type-enum.md). Therefore, a policy can be set to block reauthorizations and tear down an ALE flow when reauthorization requests for the ALE flow arrive.
+Fields of type [**FWP\_EMPTY**](/windows/win32/Fwptypes/ne-fwptypes-fwp_data_type_?branch=master) can be matched with [**FWP\_MATCH\_EQUAL**](/windows/win32/Fwptypes/ne-fwptypes-fwp_match_type_?branch=master). Therefore, a policy can be set to block reauthorizations and tear down an ALE flow when reauthorization requests for the ALE flow arrive.
 
 ## Pending Connection Reauthorization
 

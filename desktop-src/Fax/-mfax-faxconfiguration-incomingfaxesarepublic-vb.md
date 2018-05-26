@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether incoming faxes are either viewable by everyone or private.'
-ms.assetid: 'c75504d6-4861-4ecc-b57e-a9478838855f'
-title: 'FaxConfiguration.IncomingFaxesArePublic property'
+---
+Description: Indicates whether incoming faxes are either viewable by everyone or private.
+ms.assetid: c75504d6-4861-4ecc-b57e-a9478838855f
+title: FaxConfiguration.IncomingFaxesArePublic property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.IncomingFaxesArePublic property

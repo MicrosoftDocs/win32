@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information about the currently loaded set of modules for the system.'
-ms.assetid: 'd3dc57e3-2c42-46cb-9af0-5f06bff60ad9'
+---
+Description: Retrieves information about the currently loaded set of modules for the system.
+ms.assetid: d3dc57e3-2c42-46cb-9af0-5f06bff60ad9
 title: AuxKlibQueryModuleInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuxKlibQueryModuleInformation function

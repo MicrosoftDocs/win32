@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a service that manages virtual systems.'
-ms.assetid: 'b2645546-3c04-4d3f-8d53-019a6db08e24'
-title: 'CIM\_VirtualSystemManagementService class'
+Description: Represents a service that manages virtual systems.
+ms.assetid: b2645546-3c04-4d3f-8d53-019a6db08e24
+title: CIM\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemManagementService class
@@ -40,7 +45,7 @@ The **CIM\_VirtualSystemManagementService** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,8 +53,8 @@ The **CIM\_VirtualSystemManagementService** class has these methods.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -63,9 +68,9 @@ The **CIM\_VirtualSystemManagementService** class has these methods.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

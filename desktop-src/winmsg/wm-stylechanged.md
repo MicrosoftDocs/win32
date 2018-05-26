@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window after the SetWindowLong function has changed one or more of the window''s styles.'
-ms.assetid: '37bc4e1a-f75d-4851-8dee-97fa2da90254'
-title: 'WM\_STYLECHANGED message'
+---
+Description: Sent to a window after the SetWindowLong function has changed one or more of the windows styles.
+ms.assetid: 37bc4e1a-f75d-4851-8dee-97fa2da90254
+title: WM\_STYLECHANGED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_STYLECHANGED message

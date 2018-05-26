@@ -1,8 +1,9 @@
 ---
 title: EM\_REPLACESEL message
 description: Replaces the selected text in an edit control or a rich edit control with the specified text.
-ms.assetid: '525e6f5a-f52f-4bab-bc76-caa484729897'
-keywords: ["EM_REPLACESEL message Windows Controls"]
+ms.assetid: 525e6f5a-f52f-4bab-bc76-caa484729897
+keywords:
+- EM_REPLACESEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_REPLACESEL message
@@ -45,7 +51,7 @@ Use the **EM\_REPLACESEL** message to replace only a portion of the text in an e
 
 If there is no selection, the replacement text is inserted at the caret.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 In a rich edit control, the replacement text takes the formatting of the character at the caret or, if there is a selection, of the first character in the selection.
 
@@ -55,8 +61,8 @@ In a rich edit control, the replacement text takes the formatting of the charact
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ In a rich edit control, the replacement text takes the formatting of the charact
 [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

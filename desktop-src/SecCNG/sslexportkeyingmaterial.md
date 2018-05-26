@@ -1,7 +1,12 @@
 ---
-Description: 'Exports keying material per the RFC 5705 standard.'
-ms.assetid: '19624852-B1A6-4BB4-96AF-0457834DA294'
+Description: Exports keying material per the RFC 5705 standard.
+ms.assetid: 19624852-B1A6-4BB4-96AF-0457834DA294
 title: SslExportKeyingMaterial function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslExportKeyingMaterial function
@@ -13,16 +18,16 @@ Exports keying material per the [RFC 5705 standard](https://tools.ietf.org/html/
 
 ```C++
 SECURITY_STATUS WINAPI SslExportKeyingMaterial(
-  _In_     NCRYPT_PROV_HANDLE hSslProvider,
-  _In_     NCRYPT_KEY_HANDLE  hMasterKey,
-  _In_     PCHAR              sLabel,
-  _In_     PBYTE              pbRandoms,
-  _In_     DWORD              cbRandoms,
-  _In_opt_ PBYTE              pbContextValue,
-  _In_     WORD               cbContextValue,
-  _Out_    PBYTE              pbOutput,
-  _In_     DWORD              cbOutput,
-  _In_     DWORD              dwFlags
+  _In_     NCRYPT_PROV_HANDLE hSslProvider,
+  _In_     NCRYPT_KEY_HANDLE  hMasterKey,
+  _In_     PCHAR              sLabel,
+  _In_     PBYTE              pbRandoms,
+  _In_     DWORD              cbRandoms,
+  _In_opt_ PBYTE              pbContextValue,
+  _In_     WORD               cbContextValue,
+  _Out_    PBYTE              pbOutput,
+  _In_     DWORD              cbOutput,
+  _In_     DWORD              dwFlags
 );
 ```
 
@@ -118,7 +123,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -126,16 +131,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

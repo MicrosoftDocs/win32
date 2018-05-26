@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies applications that a power-management event has occurred.'
-ms.assetid: '46452909-ac0e-4c06-8542-0b94d00e6556'
-title: 'WM\_POWERBROADCAST message'
+Description: Notifies applications that a power-management event has occurred.
+ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
+title: WM\_POWERBROADCAST message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POWERBROADCAST message
@@ -39,7 +44,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -60,7 +65,7 @@ The power-management event. This parameter can be one of the following event ide
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +74,7 @@ The power-management event. This parameter can be one of the following event ide
 
 The event-specific data. For most events, this parameter is reserved and not used.
 
-If the *wParam* parameter is [PBT\_POWERSETTINGCHANGE](pbt-powersettingchange.md), the *lParam* parameter is a pointer to a [**POWERBROADCAST\_SETTING**](powerbroadcast-setting.md) structure.
+If the *wParam* parameter is [PBT\_POWERSETTINGCHANGE](pbt-powersettingchange.md), the *lParam* parameter is a pointer to a [**POWERBROADCAST\_SETTING**](/windows/win32/WinUser/ns-winuser-powerbroadcast_setting?branch=master) structure.
 
 </dd> </dl>
 
@@ -83,7 +88,7 @@ The system always sends a [PBT\_APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) m
 
 **WM\_POWERBROADCAST** messages do not distinguish between different low-power states. An application can determine only that the system is entering or has resumed from a low-power state; it cannot determine the specific power state. The system records details about power state transitions in the Windows System event log.
 
-To prevent the system from transitioning to a low-power state in Windows Vista, an application must call [**SetThreadExecutionState**](setthreadexecutionstate.md) to inform the system that it is in use.
+To prevent the system from transitioning to a low-power state in Windows Vista, an application must call [**SetThreadExecutionState**](/windows/win32/Winbase/nf-winbase-setthreadexecutionstate?branch=master) to inform the system that it is in use.
 
 The following messages are not supported on any of the operating systems specified in the Requirements section:
 
@@ -99,8 +104,8 @@ PBT\_APMRESUMESTANDBY
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -115,9 +120,9 @@ PBT\_APMRESUMESTANDBY
 [Power Management Messages](power-management-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

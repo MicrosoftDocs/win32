@@ -1,8 +1,9 @@
 ---
 title: KeyDown Event of the AxWindowsMediaPlayer Object
 description: The KeyDown event occurs when a key is pressed.
-ms.assetid: 'e67b9628-6c53-4893-921a-9487ebfc1cd5'
-keywords: ["KeyDown Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: e67b9628-6c53-4893-921a-9487ebfc1cd5
+keywords:
+- KeyDown Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyDown Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Key
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,7 +80,7 @@ Values for the main keys.
 
 
 
- 
+ 
 
 Values for the number pad keys.
 
@@ -93,7 +99,7 @@ Values for the number pad keys.
 
 
 
- 
+ 
 
 Values for the navigation keys.
 
@@ -114,7 +120,7 @@ Values for the navigation keys.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -135,9 +141,9 @@ Values for the navigation keys.
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

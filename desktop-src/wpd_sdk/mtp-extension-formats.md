@@ -1,7 +1,12 @@
 ---
 Description: MTP Extension Formats
-ms.assetid: '318b7267-f4ba-43ad-aa24-8cfacf056558'
+ms.assetid: 318b7267-f4ba-43ad-aa24-8cfacf056558
 title: MTP Extension Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MTP Extension Formats

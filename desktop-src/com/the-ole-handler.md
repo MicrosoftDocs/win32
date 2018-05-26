@@ -1,7 +1,12 @@
 ---
 title: The OLE Handler
 description: An OLE handler is a DLL containing several interacting components used for linking and embedding.
-ms.assetid: '5a01b4be-38cf-4019-ba20-ee67b836a3e0'
+ms.assetid: 5a01b4be-38cf-4019-ba20-ee67b836a3e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The OLE Handler
@@ -10,7 +15,7 @@ An *OLE handler* is a DLL containing several interacting components used for lin
 
 The OLE handler components include remoting pieces to manage communication between the handler and its server, a cache for storing an object's data (along with information on how that data should be formatted and displayed), and a controlling object that coordinates the activities of the DLL's other components. In addition, if an object is a link, the DLL also includes a linking component, or *linked object*, which keeps track of the name and location of the link source.
 
-OLE provides a default handler that most applications use for linking and embedding. If the default does not match the requirements of your server, you can either completely replace the default handler or use parts of the functionality it provides where appropriate. In the latter case, the application handler is implemented as an aggregate object composed of a new control object and the default handler. Combination application/default handlers are also known as *in-process handlers*. The *remoting handler* is used for objects that are not assigned a CLSID in the system registry or that have no specified handler. All that is required from a handler for these types of objects is that they pass information across the process boundary. To create a new instance of the default handler, call [**OleCreateDefaultHandler**](olecreatedefaulthandler.md). For some special circumstances, call [**OleCreateEmbeddingHelper**](olecreateembeddinghelper.md).
+OLE provides a default handler that most applications use for linking and embedding. If the default does not match the requirements of your server, you can either completely replace the default handler or use parts of the functionality it provides where appropriate. In the latter case, the application handler is implemented as an aggregate object composed of a new control object and the default handler. Combination application/default handlers are also known as *in-process handlers*. The *remoting handler* is used for objects that are not assigned a CLSID in the system registry or that have no specified handler. All that is required from a handler for these types of objects is that they pass information across the process boundary. To create a new instance of the default handler, call [**OleCreateDefaultHandler**](/windows/win32/Ole2/nf-ole2-olecreatedefaulthandler?branch=master). For some special circumstances, call [**OleCreateEmbeddingHelper**](/windows/win32/Ole2/nf-ole2-olecreateembeddinghelper?branch=master).
 
 When you create an instance of a handler for one class, you cannot use it for another. When used for a compound document, the OLE handler implements the container-side data structures when objects of a particular class are accessed remotely.
 

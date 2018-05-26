@@ -1,8 +1,11 @@
 ---
 title: OpenStore method of the BcdStore class
 description: Opens a store.
-ms.assetid: '94015735-28bf-4f64-8359-393bbf7ca8c0'
-keywords: ["OpenStore method Boot Config", "OpenStore method Boot Config , BcdStore class", "BcdStore class Boot Config , OpenStore method"]
+ms.assetid: 94015735-28bf-4f64-8359-393bbf7ca8c0
+keywords:
+- OpenStore method Boot Config
+- OpenStore method Boot Config , BcdStore class
+- BcdStore class Boot Config , OpenStore method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenStore method of the BcdStore class
@@ -22,8 +30,8 @@ Opens a store.
 
 ```mof
 boolean OpenStore(
-  [in]  string   File,
-  [out] BcdStore Store
+  [in]  string   File,
+  [out] BcdStore Store
 );
 ```
 
@@ -53,8 +61,8 @@ A BcdStore object.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -67,9 +75,9 @@ A BcdStore object.
 [**BcdStore**](bcdstore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

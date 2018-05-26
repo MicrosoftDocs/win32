@@ -1,8 +1,11 @@
 ---
 title: Player.CurrentMediaItemAvailable event
 description: The CurrentMediaItemAvailable event occurs when a graphic metadata item in the current media item becomes available.
-ms.assetid: 'dc692b14-67d3-4867-8f99-ddfcf7d1610c'
-keywords: ["CurrentMediaItemAvailable event Windows Media Player", "CurrentMediaItemAvailable event Windows Media Player , Player class", "Player class Windows Media Player , CurrentMediaItemAvailable event"]
+ms.assetid: dc692b14-67d3-4867-8f99-ddfcf7d1610c
+keywords:
+- CurrentMediaItemAvailable event Windows Media Player
+- CurrentMediaItemAvailable event Windows Media Player , Player class
+- Player class Windows Media Player , CurrentMediaItemAvailable event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.CurrentMediaItemAvailable event
@@ -78,9 +86,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

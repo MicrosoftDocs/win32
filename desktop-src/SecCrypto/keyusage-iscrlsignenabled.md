@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the CRLSign bit is set.'
-ms.assetid: '76ca86e3-55f7-4720-9fa5-d465db2a7b5a'
-title: 'KeyUsage.IsCRLSignEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the CRLSign bit is set.
+ms.assetid: 76ca86e3-55f7-4720-9fa5-d465db2a7b5a
+title: KeyUsage.IsCRLSignEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsCRLSignEnabled property

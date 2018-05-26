@@ -1,8 +1,11 @@
 ---
 title: ISMTPTransport2 SetWindow method
 description: Creates a new window used for asynchronous Windows Sockets (Winsock) processing.
-ms.assetid: '68f842e2-d04c-46f2-8639-7971670044de'
-keywords: ["SetWindow method Windows Mail (formerly Outlook Express)", "SetWindow method Windows Mail (formerly Outlook Express) , ISMTPTransport2 interface", "ISMTPTransport2 interface Windows Mail (formerly Outlook Express) , SetWindow method"]
+ms.assetid: 68f842e2-d04c-46f2-8639-7971670044de
+keywords:
+- SetWindow method Windows Mail (formerly Outlook Express)
+- SetWindow method Windows Mail (formerly Outlook Express) , ISMTPTransport2 interface
+- ISMTPTransport2 interface Windows Mail (formerly Outlook Express) , SetWindow method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISMTPTransport2::SetWindow method
@@ -49,7 +57,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,8 +69,8 @@ You must call the [**ISMTPTransport2::ResetWindow**](oe-ismtptransport2-resetwin
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -70,9 +78,9 @@ You must call the [**ISMTPTransport2::ResetWindow**](oe-ismtptransport2-resetwin
 
 
 
- 
+ 
 
- 
+ 
 
 
 

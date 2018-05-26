@@ -4,11 +4,16 @@ description: The Count property returns the number of SnapIn objects (primary st
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32c6ece8-ca52-42a8-812e-3ab34559dfd4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 32c6ece8-ca52-42a8-812e-3ab34559dfd4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , SnapIns object", "SnapIns object MMC , Count property", "Count property MMC , SnapIns interface", "SnapIns interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , SnapIns object
+- SnapIns object MMC , Count property
+- Count property MMC , SnapIns interface
+- SnapIns interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIns::Count property
@@ -63,8 +71,8 @@ Set objSnapIns = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -82,9 +90,9 @@ Set objSnapIns = Nothing
 [**Extensions.Count**](extensions-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

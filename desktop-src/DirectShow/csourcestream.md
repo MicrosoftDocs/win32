@@ -1,7 +1,12 @@
 ---
-Description: 'The CSourceStream class provides an output pin for the CSource filter class.'
-ms.assetid: '5ccfb129-93e2-4773-9398-5f59f2914ba7'
+Description: The CSourceStream class provides an output pin for the CSource filter class.
+ms.assetid: 5ccfb129-93e2-4773-9398-5f59f2914ba7
 title: CSourceStream class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream class
@@ -56,11 +61,11 @@ These do nothing in the base class, but the derived class can override them.
 | Pure Virtual Methods                                                   | Description                                                                                                                       |
 | [**FillBuffer**](csourcestream-fillbuffer.md)                         | Fills a media sample with data.                                                                                                   |
 | IPin Methods                                                           | Description                                                                                                                       |
-| [**QueryId**](ipin-queryid.md)                                        | Retrieves an identifier for the pin.                                                                                              |
+| [**QueryId**](/windows/win32/Strmif/nf-strmif-ipin-queryid?branch=master)                                        | Retrieves an identifier for the pin.                                                                                              |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +85,9 @@ These do nothing in the base class, but the derived class can override them.
 [Writing Source Filters](writing-source-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds an animation output to the animation controller and registers pointers for scale, rotate, and translate (SRT) transformations.'
-ms.assetid: '8c3197bc-9d03-40ba-869b-151f9c8e96ba'
-title: 'ID3DXAnimationController::RegisterAnimationOutput method'
+---
+Description: Adds an animation output to the animation controller and registers pointers for scale, rotate, and translate (SRT) transformations.
+ms.assetid: 8c3197bc-9d03-40ba-869b-151f9c8e96ba
+title: ID3DXAnimationControllerRegisterAnimationOutput method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::RegisterAnimationOutput method

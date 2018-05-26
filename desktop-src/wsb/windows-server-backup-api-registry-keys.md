@@ -4,10 +4,13 @@ description: To register with the Windows Server Backup feature, an application 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '71615680-b02b-4ca2-940b-9b111f640774'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: 71615680-b02b-4ca2-940b-9b111f640774
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Server Backup API Registry Keys

@@ -1,15 +1,18 @@
 ---
-Description: 'DHCP Superscope object in IPAM.'
+Description: DHCP Superscope object in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd8741e2a-4733-4027-bad0-43d65d022112'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d8741e2a-4733-4027-bad0-43d65d022112
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_DhcpSuperscope class'
+title: MSFT\_IPAM\_DhcpSuperscope class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_DhcpSuperscope class
@@ -24,14 +27,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_DhcpSuperscope
 {
-  string  InstanceID;
-  string  SuperscopeName;
-  string  ServerFqdn;
-  uint16  Utilization;
-  real64  PercentUtilized;
-  string  SuperscopeStatus;
-  string  ScopeIds[];
-  string  AccessScopePath;
+  string  InstanceID;
+  string  SuperscopeName;
+  string  ServerFqdn;
+  uint16  Utilization;
+  real64  PercentUtilized;
+  string  SuperscopeStatus;
+  string  ScopeIds[];
+  string  AccessScopePath;
   boolean IsInheritedAccessScope;
 };
 ```
@@ -205,16 +208,16 @@ DHCP superscope utilization status.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

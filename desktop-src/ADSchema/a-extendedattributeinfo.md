@@ -4,17 +4,22 @@ description: A multi-valued property that contains strings that represent additi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38f87907-a328-473f-bc9c-f3573bc05af5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 38f87907-a328-473f-bc9c-f3573bc05af5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Extended-Attribute-Info attribute AD Schema", "extendedAttributeInfo attribute AD Schema"]
+keywords:
+- Extended-Attribute-Info attribute AD Schema
+- extendedAttributeInfo attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Extended-Attribute-Info
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extended-Attribute-Info attribute
@@ -38,13 +43,13 @@ A multi-valued property that contains strings that represent additional informat
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ A multi-valued property that contains strings that represent additional informat
 
 
 
- 
+ 
 
- 
+ 
 
 
 

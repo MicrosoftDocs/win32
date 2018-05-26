@@ -1,14 +1,19 @@
 ---
-Description: 'The following macro is used with error handling:'
-ms.assetid: '7fe1544d-d2c6-43fa-bcf7-c8a84e9ae7d6'
+Description: The following macro is used with error handling
+ms.assetid: 7fe1544d-d2c6-43fa-bcf7-c8a84e9ae7d6
 title: Error Handling Macros
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling Macros
 
 The following macro is used with error handling:
 
--   [**C\_ASSERT**](c-assert.md)
+-   [**C\_ASSERT**](/windows/win32/WinNT/nf-winnt-c_assert?branch=master)
 
  
 

@@ -1,7 +1,12 @@
 ---
 title: To view an HTML file as part of a compiled project
 description: To view an HTML file as part of a compiled project
-ms.assetid: 'D58433C6-F3B5-4f0a-8AEF-976C40A45409'
+ms.assetid: D58433C6-F3B5-4f0a-8AEF-976C40A45409
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To view an HTML file as part of a compiled project
@@ -16,7 +21,7 @@ ms.assetid: 'D58433C6-F3B5-4f0a-8AEF-976C40A45409'
 
     
 
-     
+     
 
 ## Related topics
 
@@ -25,9 +30,9 @@ ms.assetid: 'D58433C6-F3B5-4f0a-8AEF-976C40A45409'
 [About Creating HTML Topic Files](create-html-topic-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

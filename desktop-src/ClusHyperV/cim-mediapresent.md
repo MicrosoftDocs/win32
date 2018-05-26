@@ -4,13 +4,15 @@ description: Represents a relationship in which a storage extent must be accesse
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cff32285-48ac-4d66-a801-bbbd25e8ad8f'
-ms.prod: 'windows-server-dev'
+ms.assetid: cff32285-48ac-4d66-a801-bbbd25e8ad8f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_MediaPresent class", "CIM_MediaPresent class, described"]
+keywords:
+- CIM_MediaPresent class
+- CIM_MediaPresent class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MediaPresent class
@@ -37,8 +42,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_MediaPresent : CIM_Dependency
 {
   CIM_MediaAccessDevice REF Antecedent;
-  CIM_StorageExtent     REF Dependent;
-  boolean                   FixedMedia;
+  CIM_StorageExtent     REF Dependent;
+  boolean                   FixedMedia;
 };
 ```
 
@@ -106,7 +111,7 @@ Access type: Read-only
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -123,9 +128,9 @@ Access type: Read-only
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

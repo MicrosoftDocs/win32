@@ -1,7 +1,12 @@
 ---
-Description: 'Encrypts a single Secure Sockets Layer protocol (SSL) packet.'
-ms.assetid: '1002158b-1a4f-4461-978f-b221ef6332e0'
+Description: Encrypts a single Secure Sockets Layer protocol (SSL) packet.
+ms.assetid: 1002158b-1a4f-4461-978f-b221ef6332e0
 title: SslEncryptPacket function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslEncryptPacket function
@@ -13,16 +18,16 @@ The **SslEncryptPacket** function encrypts a single [*Secure Sockets Layer proto
 
 ```C++
 SECURITY_STATUS WINAPI SslEncryptPacket(
-  _In_    NCRYPT_PROV_HANDLE hSslProvider,
-  _Inout_ NCRYPT_KEY_HANDLE  hKey,
-  _In_    PBYTE              *pbInput,
-  _In_    DWORD              cbInput,
-  _Out_   PBYTE              pbOutput,
-  _In_    DWORD              cbOutput,
-  _Out_   DWORD              *pcbResult,
-  _In_    ULONGLONG          SequenceNumber,
-  _In_    DWORD              dwContentType,
-  _In_    DWORD              dwFlags
+  _In_    NCRYPT_PROV_HANDLE hSslProvider,
+  _Inout_ NCRYPT_KEY_HANDLE  hKey,
+  _In_    PBYTE              *pbInput,
+  _In_    DWORD              cbInput,
+  _Out_   PBYTE              pbOutput,
+  _In_    DWORD              cbOutput,
+  _Out_   DWORD              *pcbResult,
+  _In_    ULONGLONG          SequenceNumber,
+  _In_    DWORD              dwContentType,
+  _In_    DWORD              dwFlags
 );
 ```
 
@@ -104,7 +109,7 @@ The content type that corresponds to this packet, which specifies the higher lev
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -131,7 +136,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,16 +144,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

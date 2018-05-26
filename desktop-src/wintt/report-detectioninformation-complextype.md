@@ -1,14 +1,20 @@
 ---
 title: DetectionInformation Complex Type
 description: Defines a section of the report that contains a collection of custom details that the package author added to the report.
-ms.assetid: '75e4448a-d415-45a4-a2eb-0eddef4afa31'
-keywords: ["DetectionInformation complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 75e4448a-d415-45a4-a2eb-0eddef4afa31
+keywords:
+- DetectionInformation complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DetectionInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetectionInformation Complex Type
@@ -47,14 +53,14 @@ The detection information can be captured for a specific root cause (see the [**
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

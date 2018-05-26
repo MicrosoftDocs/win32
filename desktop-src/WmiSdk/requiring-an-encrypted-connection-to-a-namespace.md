@@ -1,13 +1,16 @@
 ---
-Description: 'You can require that client scripts and applications establish an encrypted connection for authentication by adding the RequiresEncryption qualifier to the Managed Object Format (MOF) .mof file that creates the namespace.'
+Description: You can require that client scripts and applications establish an encrypted connection for authentication by adding the RequiresEncryption qualifier to the Managed Object Format (MOF) .mof file that creates the namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '07b225a2-3834-4879-beae-f5b9180d112f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 07b225a2-3834-4879-beae-f5b9180d112f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Requiring an Encrypted Connection to a Namespace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Requiring an Encrypted Connection to a Namespace
@@ -41,7 +44,7 @@ The following procedure sets the namespace to require an encrypted connection.
 
     **c:\\mofcomp MyNamespace\_security.mof**
 
-    In C++, use the [**IMoFCompiler**](imofcompiler.md) methods.
+    In C++, use the [**IMoFCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) methods.
 
 WMI rejects a client that uses the default authentication level because DCOM negotiates the security to the level required by the SVCHOST process in which the WMI service is running. For more information about service hosts, see [Provider Hosting and Security](provider-hosting-and-security.md). For more information about setting authentication levels when connecting to WMI namespaces, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md), [Setting Authentication Using C++](setting-authentication-using-c-.md), or [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md).
 
@@ -56,7 +59,7 @@ Starting with Windows Vista, the WbemCore.log file no longer exists. You can ch
 [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
-[**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md)
+[**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master)
 </dt> <dt>
 
 [Securing a Remote WMI Connection](securing-a-remote-wmi-connection.md)

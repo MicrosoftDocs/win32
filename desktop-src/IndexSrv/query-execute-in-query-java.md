@@ -1,7 +1,12 @@
 ---
 title: Query.Execute in Query.java
 description: Query.Execute in Query.java
-ms.assetid: '2c8557d2-29bc-4449-be3e-ab19230e3abf'
+ms.assetid: 2c8557d2-29bc-4449-be3e-ab19230e3abf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query.Execute in Query.java

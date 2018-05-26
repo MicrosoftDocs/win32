@@ -1,19 +1,23 @@
 ---
 title: Event Tracing in ADSI
-description: Windows Server 2008 and Windows Vista introduce Event Tracing in Active Directory Service Interfaces (ADSI).
+description: Windows Server 2008 and Windows Vista introduce Event Tracing in Active Directory Service Interfaces (ADSI).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '743aeeba-5b48-47c7-aaf5-0e9b48e206db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 743aeeba-5b48-47c7-aaf5-0e9b48e206db
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["event tracing ADSI"]
+keywords:
+- event tracing ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Event Tracing in ADSI
 
-Windows Server 2008 and Windows Vista introduce [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) in [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Certain areas of the ADSI LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes it difficult to diagnose problems. To help application developers troubleshoot, Event Tracing has been added to the following areas:
+Windows Server 2008 and Windows Vista introduce [Event Tracing](https://msdn.microsoft.com/library/windows/desktop/bb968803) in [Active Directory Service Interfaces](active-directory-service-interfaces-adsi.md) (ADSI). Certain areas of the ADSI LDAP Provider have an underlying implementation that is complex or that involves a sequence of steps that makes it difficult to diagnose problems. To help application developers troubleshoot, Event Tracing has been added to the following areas:
 
 ## Schema Parsing and Downloading
 
@@ -23,7 +27,7 @@ If the schema cannot be obtained from the disk or the server, ADSI uses a hardco
 
 ## Changing and Setting the Password
 
-[**ChangePassword**](iadsuser-changepassword.md) and [**SetPassword**](iadsuser-setpassword.md) employ more than one mechanism to perform the requested operation based on the available configuration (as described in [Setting and Changing User Passwords with the LDAP Provider](setting-user-passwords-for-ldap-providers.md)). When **ChangePassword** and **SetPassword** fail, it can be difficult to determine exactly why, and Event Tracing will help to troubleshoot problems with these methods.
+[**ChangePassword**](/windows/win32/Iads/nf-iads-iadsuser-changepassword?branch=master) and [**SetPassword**](/windows/win32/Iads/nf-iads-iadsuser-setpassword?branch=master) employ more than one mechanism to perform the requested operation based on the available configuration (as described in [Setting and Changing User Passwords with the LDAP Provider](setting-user-passwords-for-ldap-providers.md)). When **ChangePassword** and **SetPassword** fail, it can be difficult to determine exactly why, and Event Tracing will help to troubleshoot problems with these methods.
 
 ## ADSI Bind Cache
 
@@ -54,7 +58,7 @@ Then execute the following command:
 
 
 
- 
+ 
 
 These flags determine which [ADSI](active-directory-service-interfaces-adsi.md) methods will be traced, according to the following table:
 
@@ -128,7 +132,7 @@ These flags determine which [ADSI](active-directory-service-interfaces-adsi.md) 
 
 
 
- 
+ 
 
 You can combine flags by combining the appropriate bits in the *traceFlags* argument. For example, to specify the **DEBUG\_SCHEMA** and **DEBUG\_BINDCACHE** flags, the appropriate *traceFlags* value would be 0x00000009.
 
@@ -143,7 +147,7 @@ Finally, the *traceLevel* flag should be one of the following values:
 
 
 
- 
+ 
 
 **TRACE\_LEVEL\_INFORMATION** causes the tracing process to record all events, whereas **TRACE\_LEVEL\_ERROR** causes the tracing process to record only error events.
 
@@ -207,9 +211,9 @@ Scenario 2: The administrator wants to trace the schema parsing and download ope
 
     **tracerpt.exe .\\w3wp.etl -o -report**
 
- 
+ 
 
- 
+ 
 
 
 

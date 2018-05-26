@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the view transform that applies to all sprites.'
-ms.assetid: '0420b141-46c7-4409-a0c4-67d1e8e02cd4'
-title: 'ID3DX10Sprite::SetViewTransform method'
+---
+Description: Set the view transform that applies to all sprites.
+ms.assetid: 0420b141-46c7-4409-a0c4-67d1e8e02cd4
+title: ID3DX10SpriteSetViewTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::SetViewTransform method

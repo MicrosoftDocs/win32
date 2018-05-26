@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to the parent window of an owner-drawn control or menu when a visual aspect of the control or menu has changed.'
-ms.assetid: '2515bbab-025f-4f00-8564-a732d68edea3'
-title: 'DFM\_WM\_DRAWITEM message'
+---
+Description: Sent to the parent window of an owner-drawn control or menu when a visual aspect of the control or menu has changed.
+ms.assetid: 2515bbab-025f-4f00-8564-a732d68edea3
+title: DFM\_WM\_DRAWITEM message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_WM\_DRAWITEM message

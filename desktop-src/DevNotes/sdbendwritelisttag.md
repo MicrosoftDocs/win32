@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends the write operations for the specified list.'
-ms.assetid: '318aa5dc-b562-47f8-8cd6-daa97f28c0f0'
+---
+Description: Ends the write operations for the specified list.
+ms.assetid: 318aa5dc-b562-47f8-8cd6-daa97f28c0f0
 title: SdbEndWriteListTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbEndWriteListTag function

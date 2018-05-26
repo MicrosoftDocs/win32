@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the size, in bytes, of the IStream COM interface.'
-ms.assetid: '8c2f081d-cc41-409e-a868-bcf834e1f128'
-title: 'ISCardTypeConv::SizeOfIStream method'
+---
+Description: Determines the size, in bytes, of the IStream COM interface.
+ms.assetid: 8c2f081d-cc41-409e-a868-bcf834e1f128
+title: ISCardTypeConvSizeOfIStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardTypeConv::SizeOfIStream method

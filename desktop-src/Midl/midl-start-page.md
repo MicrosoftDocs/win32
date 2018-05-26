@@ -2,7 +2,16 @@
 title: Microsoft Interface Definition Language
 description: The Microsoft Interface Definition Language (MIDL) defines interfaces between client and server programs.
 ms.assetid: 5ed1ff94-bbcb-4c6e-83aa-63d24eb84859
-keywords: ["MIDL MIDL", "MIDL MIDL , (See Microsoft Interface Definition Language MIDL )", "Microsoft Interface Definition Language MIDL", "Microsoft Interface Definition Language MIDL , start page"]
+keywords:
+- MIDL MIDL
+- MIDL MIDL , (See Microsoft Interface Definition Language MIDL )
+- Microsoft Interface Definition Language MIDL
+- Microsoft Interface Definition Language MIDL , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Interface Definition Language
@@ -37,7 +46,7 @@ The appropriate run-time libraries for using MIDL are included with Windows. The
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -46,9 +55,9 @@ The appropriate run-time libraries for using MIDL are included with Windows. The
 [Remote Procedure Call (RPC)](https://msdn.microsoft.com/library/windows/desktop/aa378651)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

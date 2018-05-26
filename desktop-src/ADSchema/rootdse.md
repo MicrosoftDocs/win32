@@ -4,11 +4,15 @@ description: In LDAP 3.0, rootDSE is defined as the root of the directory data t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dd5a160d-6604-43ca-878c-6b19e90d3adb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dd5a160d-6604-43ca-878c-6b19e90d3adb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["rootDSE Active Directory Schema"]
+keywords:
+- rootDSE Active Directory Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RootDSE
@@ -25,15 +29,15 @@ rootDSE contains the following attributes. All attributes are single-valued unle
 | **currentTime**<br/>                   | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the current time set on this directory server in Coordinated Universal Time format.<br/>                                                                                                                                                                                                                                                                                                                |
 | **defaultNamingContext**<br/>          | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the distinguished name for the domain of which this directory server is a member.<br/>                                                                                                                                                                                                                                                                                                                  |
 | **dnsHostName**<br/>                   | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the DNS address for this directory server.<br/>                                                                                                                                                                                                                                                                                                                                                         |
-| **domainControllerFunctionality**<br/> | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates the functional level of the domain controller. This can be one of the following values.<br/> "0" - Windows 2000 Mode<br/> "2" - Windows Server 2003 Mode<br/> "3" - Windows Server 2008 Mode<br/>                                                                                                                                                                                    |
-| **domainFunctionality**<br/>           | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates the functional level of the domain. This can be one of the following values.<br/> "0" - Windows 2000 Domain Mode<br/> "1" - Windows Server 2003 Interim Domain Mode<br/> "2" - Windows Server 2003 Domain Mode<br/> "3" - Windows Server 2008 Domain Mode<br/> "4" - Windows Server 2008 R2 Domain Mode<br/>                                                             |
+| **domainControllerFunctionality**<br/> | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates the functional level of the domain controller. This can be one of the following values.<br/> "0" - Windows 2000 Mode<br/> "2" - Windows Server 2003 Mode<br/> "3" - Windows Server 2008 Mode<br/>                                                                                                                                                                                    |
+| **domainFunctionality**<br/>           | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates the functional level of the domain. This can be one of the following values.<br/> "0" - Windows 2000 Domain Mode<br/> "1" - Windows Server 2003 Interim Domain Mode<br/> "2" - Windows Server 2003 Domain Mode<br/> "3" - Windows Server 2008 Domain Mode<br/> "4" - Windows Server 2008 R2 Domain Mode<br/>                                                             |
 | **dsServiceName**<br/>                 | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the distinguished name of the NTDS settings object for this directory server.<br/>                                                                                                                                                                                                                                                                                                                      |
-| **forestFunctionality**<br/>           | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates the functional level of the forest. This can be one of the following values.<br/> "0" - Windows 2000 Forest Mode<br/> "1" - Windows Server 2003 Interim Forest Mode<br/> "2" - Windows Server 2003 Forest Mode<br/> "3" - Windows Server 2008 Forest Mode<br/> "4" - Windows Server 2008 R2 Forest Mode<br/>                                                             |
+| **forestFunctionality**<br/>           | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates the functional level of the forest. This can be one of the following values.<br/> "0" - Windows 2000 Forest Mode<br/> "1" - Windows Server 2003 Interim Forest Mode<br/> "2" - Windows Server 2003 Forest Mode<br/> "3" - Windows Server 2008 Forest Mode<br/> "4" - Windows Server 2008 R2 Forest Mode<br/>                                                             |
 | **highestCommittedUSN**<br/>           | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the highest update sequence number (USN) on this directory server. Used by directory replication.<br/>                                                                                                                                                                                                                                                                                                  |
 | **isGlobalCatalogReady**<br/>          | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates if the global catalog is fully operational. Contains either "TRUE" or "FALSE".<br/>                                                                                                                                                                                                                                                                                                                    |
 | **isSynchronized**<br/>                | [**String(Teletex)**](s-string-teletex.md)<br/> | Indicates if the directory server is fully synchronized. Contains either "TRUE" or "FALSE".<br/>                                                                                                                                                                                                                                                                                                                 |
 | **ldapServiceName**<br/>               | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the Service Principal Name (SPN) for the LDAP server. Used for mutual authentication.<br/>                                                                                                                                                                                                                                                                                                              |
-| **namingContexts**<br/>                | [**String(Teletex)**](s-string-teletex.md)<br/> | A multiple-valued attribute that contains the distinguished names for all naming contexts stored on this directory server. By default, a Windows 2000 domain controller contains at least three naming contexts: Schema, Configuration, and one for the domain of which the server is a member.<br/>                                                                                                             |
+| **namingContexts**<br/>                | [**String(Teletex)**](s-string-teletex.md)<br/> | A multiple-valued attribute that contains the distinguished names for all naming contexts stored on this directory server. By default, a Windows 2000 domain controller contains at least three naming contexts: Schema, Configuration, and one for the domain of which the server is a member.<br/>                                                                                                             |
 | **rootDomainNamingContext**<br/>       | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the distinguished name for the first domain in the forest that contains the domain of which this directory server is a member.<br/>                                                                                                                                                                                                                                                                     |
 | **schemaNamingContext**<br/>           | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the distinguished name for the schema container.<br/>                                                                                                                                                                                                                                                                                                                                                   |
 | **serverName**<br/>                    | [**String(Teletex)**](s-string-teletex.md)<br/> | Contains the distinguished name for the server object for this directory server in the configuration container.<br/>                                                                                                                                                                                                                                                                                             |
@@ -46,7 +50,7 @@ rootDSE contains the following attributes. All attributes are single-valued unle
 
 
 
- 
+ 
 
 Active Directory supports the following control OIDs in the **supportedControl** attribute. For more information, see [**LDAPControl**](https://msdn.microsoft.com/library/aa366118) and [**ldap\_search\_init\_page**](https://msdn.microsoft.com/library/aa366973).
 
@@ -72,11 +76,11 @@ Active Directory supports the following control OIDs in the **supportedControl**
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Property Sets
 description: Property Sets
-ms.assetid: 'f688b8ce-70f6-424b-ab0c-c88d0748d422'
+ms.assetid: f688b8ce-70f6-424b-ab0c-c88d0748d422
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sets

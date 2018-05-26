@@ -1,8 +1,11 @@
 ---
 title: IDistList OpenEntry method
 description: Opens an entry from the distribution list and returns a pointer to the object to provide further access.
-ms.assetid: '02d46f4b-d511-4fe9-b995-bcd985b711e2'
-keywords: ["OpenEntry method Windows Address Book", "OpenEntry method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , OpenEntry method"]
+ms.assetid: 02d46f4b-d511-4fe9-b995-bcd985b711e2
+keywords:
+- OpenEntry method Windows Address Book
+- OpenEntry method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , OpenEntry method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::OpenEntry method
@@ -22,12 +30,12 @@ Opens an entry from the distribution list and returns a pointer to the object to
 
 ```C++
 HRESULT OpenEntry(
-   ULONG     cbEntryID,
-   ENTRYID   *lpEntryID,
-   IID       *lpInterface,
-   ULONG     ulFlags,
-   ULONG     *lpulObjType,
-   LPUNKNOWN *lppUnk
+   ULONG     cbEntryID,
+   ENTRYID   *lpEntryID,
+   IID       *lpInterface,
+   ULONG     ulFlags,
+   ULONG     *lpulObjType,
+   LPUNKNOWN *lppUnk
 );
 ```
 
@@ -49,9 +57,9 @@ Value of type **ULONG** specifying the size of the entry identifier to open.
 *lpEntryID* 
 </dt> <dd>
 
-Type: **[**ENTRYID**](-wab-entryid.md)\***
+Type: **[**ENTRYID**](/windows/previous-versions/Wabdefs/ns-wabdefs-entryid?branch=master)\***
 
-Pointer to a variable of type [**ENTRYID**](-wab-entryid.md) specifying the address to open for the entry identifier of the object.
+Pointer to a variable of type [**ENTRYID**](/windows/previous-versions/Wabdefs/ns-wabdefs-entryid?branch=master) specifying the address to open for the entry identifier of the object.
 
 </dd> <dt>
 
@@ -141,7 +149,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -149,17 +157,17 @@ This method can return one of these values.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes some of the things to consider when using libraries in your program.'
-ms.assetid: '40ACC8F6-1416-4390-A8D7-8F924DC2C2FE'
+Description: This topic describes some of the things to consider when using libraries in your program.
+ms.assetid: 40ACC8F6-1416-4390-A8D7-8F924DC2C2FE
 title: Using Libraries in your Program
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Libraries in your Program
@@ -39,15 +44,15 @@ This section describes some of the key features that libraries provide and how t
 
 The Windows Shell programming model describes how a program interacts with Windows Shell programming objects. While file-system objects, such as files and directories, are represented by Windows Shell objects, not all Windows Shell objects are represented by the file-system. Libraries, for example, are Windows Shell objects that do not have a file-system equivalent. Using Windows Shell objects in your program enables your program to access all Shell objects and not just file-system objects.
 
-For the best results, your program would use the [**Shell Library API**](ishelllibrary.md) to interact with libraries and access their contents. While libraries contain file-system items such as folders and files, libraries are not file-system items. As such, file-system APIs cannot be used to access library features or library contents.
+For the best results, your program would use the [**Shell Library API**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master) to interact with libraries and access their contents. While libraries contain file-system items such as folders and files, libraries are not file-system items. As such, file-system APIs cannot be used to access library features or library contents.
 
-If you have an existing program that currently uses many file-system APIs, your program can still take advantage of library features. The [**Shell Library API**](ishelllibrary.md) can provide file-system references to the items that are found in a library and these file-system references, such as the file name and path, can be passed to the existing file-system APIs that are in your existing program.
+If you have an existing program that currently uses many file-system APIs, your program can still take advantage of library features. The [**Shell Library API**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master) can provide file-system references to the items that are found in a library and these file-system references, such as the file name and path, can be passed to the existing file-system APIs that are in your existing program.
 
 ### Moving from Known Folders to Libraries
 
 Before Windows 7 it was common to use a known folder, such as the My Documents folder, as the default folder in file save or file open operations. In Windows 7, the corresponding library should be used so the user will have the same experience in your program as they would with other Windows 7 programs, such as the Windows Explorer.
 
-If you are currently using the Windows Shell API in your program, adding library support is straightforward. For example, if you currently call the [**SHGetKnownFolderItem**](shgetknownfolderitem.md) function to get the location of the My Documents folder, you can replace the [**KNOWNFOLDERID**](knownfolderid.md) value of the My Documents known folder with the **KNOWNFOLDERID** value of the corresponding library.
+If you are currently using the Windows Shell API in your program, adding library support is straightforward. For example, if you currently call the [**SHGetKnownFolderItem**](/windows/win32/shlobj_core/nf-shlobj_core-shgetknownfolderitem?branch=master) function to get the location of the My Documents folder, you can replace the [**KNOWNFOLDERID**](knownfolderid.md) value of the My Documents known folder with the **KNOWNFOLDERID** value of the corresponding library.
 
 The following table shows the relationship between the [**KNOWNFOLDERID**](knownfolderid.md) values of known folders and the **KNOWNFOLDERID** value of the corresponding library in Windows 7. 
 
@@ -64,7 +69,7 @@ The following table shows the relationship between the [**KNOWNFOLDERID**](known
 
 ### HomeGroup and shared libraries
 
-Adding library support to your program will enable support for shared libraries in a HomeGroup. The HomeGroup is identified by its [**KNOWNFOLDERID**](knownfolderid.md) value of [**FOLDERID\_HomeGroup**](knownfolderid.md). Your program can find identify the user's private or shared default save location by setting the [**DEFAULTSAVEFOLDERTYPE**](defaultsavefoldertype.md) value in the call to [**IShellLibrary::GetDefaultSaveFolder**](ishelllibrary-getdefaultsavefolder.md) method.
+Adding library support to your program will enable support for shared libraries in a HomeGroup. The HomeGroup is identified by its [**KNOWNFOLDERID**](knownfolderid.md) value of [**FOLDERID\_HomeGroup**](knownfolderid.md). Your program can find identify the user's private or shared default save location by setting the [**DEFAULTSAVEFOLDERTYPE**](/windows/win32/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype?branch=master) value in the call to [**IShellLibrary::GetDefaultSaveFolder**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishelllibrary-getdefaultsavefolder?branch=master) method.
 
 ## Using a common file dialog box with libraries
 
@@ -74,31 +79,31 @@ Using a common file dialog box with libraries The common file dialog box has bee
 
 In Windows 7, if your program currently displays a common file dialog box and does not change the dialog box template or hook any of its events, it will display the new Windows 7 version of the dialog box automatically. Specifically, in the call to the common file dialog box function, the **lpfnHook**, **hInstance**, **lpTemplatename** members of the [**OPENFILENAME**](dlgbox.openfilename_str) structure must be **NULL** and the **OFN\_ENABLEHOOK** and **OFN\_ENABLETEMPLATE** flags must be clear.
 
-In Windows 7, the [**IFileDialog**](ifiledialog.md)-related interfaces replace the common file dialog box functions that were used in earlier versions of Windows. The earlier common file dialog box functions are still supported in Windows 7 but they do not provide the complete Windows 7 user experience and they do not support libraries. Some of the new features supported by the **IFileDialog**-related interfaces include:
+In Windows 7, the [**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master)-related interfaces replace the common file dialog box functions that were used in earlier versions of Windows. The earlier common file dialog box functions are still supported in Windows 7 but they do not provide the complete Windows 7 user experience and they do not support libraries. Some of the new features supported by the **IFileDialog**-related interfaces include:
 
 -   The user can access the file properties supported by the Windows 7 Windows Explorer to search and select the files.
 -   The program can use interfaces and methods from the Shell namespace API to work with the items.
 -   The program can use a data-driven customization model instead of a resource-file-driven customization model to add new controls to the common file dialog boxes.
 
-You should use the [**IFileDialog**](ifiledialog.md)-related interfaces when:
+You should use the [**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master)-related interfaces when:
 
 -   you need to customize the common file dialog box for your program in Windows 7. This will allow your program to work with libraries and support customizing your dialog box.
 -   you want the user to be able to select multiple files from a common file dialog box. This will ensure you get the correct paths to the selected object because a library can have contents that are stored in different folders.
 
-For more information on the [**IFileDialog**](ifiledialog.md)-related interfaces, see:
+For more information on the [**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master)-related interfaces, see:
 
--   [**IFileDialog**](ifiledialog.md)
--   [**IFileOpenDialog**](ifileopendialog.md)
--   [**IFileSaveDialog**](ifilesavedialog.md)
--   [**IFileDialogCustomize**](ifiledialogcustomize.md)
--   [**IFileDialogEvents**](ifiledialogevents.md)
--   [**IFileDialogControlEvents**](ifiledialogcontrolevents.md)
+-   [**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master)
+-   [**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master)
+-   [**IFileSaveDialog**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ifilesavedialog?branch=master)
+-   [**IFileDialogCustomize**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize?branch=master)
+-   [**IFileDialogEvents**](/windows/win32/shobjidl_core/nn-shobjidl_core-ifiledialogevents?branch=master)
+-   [**IFileDialogControlEvents**](/windows/win32/Shobjidl/nn-shobjidl-ifiledialogcontrolevents?branch=master)
 
 ## Enabling library selection from the user interface
 
-If your program allows the user to select a folder, such as for import or export functions, in Windows 7, it should allow the user to select a library as well. The [**IFileOpenDialog**](ifileopendialog.md) interface and [**SHBrowseForFolder**](shbrowseforfolder.md) function allow the user to select a library when prompted to select a folder. The **IFileOpenDialog** interface is preferred over the **SHBrowseForFolder** function because **IFileOpenDialog** supports the Windows 7 user interface.
+If your program allows the user to select a folder, such as for import or export functions, in Windows 7, it should allow the user to select a library as well. The [**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master) interface and [**SHBrowseForFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shbrowseforfoldera?branch=master) function allow the user to select a library when prompted to select a folder. The **IFileOpenDialog** interface is preferred over the **SHBrowseForFolder** function because **IFileOpenDialog** supports the Windows 7 user interface.
 
-To allow users to select folders when using the [**IFileOpenDialog**](ifileopendialog.md) interface, call SetOptions with the FOS\_PICKFOLDERS flag set and make sure the FOS\_FORCEFILESYSTEM flag is clear.
+To allow users to select folders when using the [**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master) interface, call SetOptions with the FOS\_PICKFOLDERS flag set and make sure the FOS\_FORCEFILESYSTEM flag is clear.
 
 
 ```C++
@@ -111,7 +116,7 @@ hr = fileOpenDialogBox->SetOptions(fileOptions);
 
 
 
-To allow users to select folders when calling the SHBrowseForFolder function, in the ulFlags member of the [**BROWSEINFO**](browseinfo.md) structure, set the BIF\_USENEWUI flag and clear the BIF\_RETURNONLYFSDIRS flag.
+To allow users to select folders when calling the SHBrowseForFolder function, in the ulFlags member of the [**BROWSEINFO**](/windows/win32/shlobj_core/ns-shlobj_core-_browseinfoa?branch=master) structure, set the BIF\_USENEWUI flag and clear the BIF\_RETURNONLYFSDIRS flag.
 
 
 ```C++
@@ -131,7 +136,7 @@ This section describes how you can access library content so that you can select
 
 ### Accessing library content with the IShellLibrary interface
 
-The easiest way for a program to access library content is to use the [**Shell Library API**](ishelllibrary.md). If you are working on a program that uses the file-system API, the **Shell Library API** can return the file-system folders of a library, which minimizes the change to your existing program code.
+The easiest way for a program to access library content is to use the [**Shell Library API**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master). If you are working on a program that uses the file-system API, the **Shell Library API** can return the file-system folders of a library, which minimizes the change to your existing program code.
 
 
 ```C++
@@ -155,7 +160,7 @@ hr = pslLibrary->GetFolders(LFF_FORCEFILESYSTEM, IID_PPV_ARGS(&amp;pictureFolder
 
 ### Accessing library content with the Shell APIs
 
-Because the library objects are part of the Shell programming model, they can be used with other Windows Shell APIs. For example you can use the [**IShellItem**](ishellitem.md) and [**IShellFolder**](ishellfolder.md) interfaces in your program, along with related helper functions, to access the contents of a library in the same way as you would enumerate folders and folder contents to access content with the file system APIs.
+Because the library objects are part of the Shell programming model, they can be used with other Windows Shell APIs. For example you can use the [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master) and [**IShellFolder**](ishellfolder.md) interfaces in your program, along with related helper functions, to access the contents of a library in the same way as you would enumerate folders and folder contents to access content with the file system APIs.
 
 The Windows Shell APIs support two enumeration modes to access the contents of a library:
 
@@ -181,7 +186,7 @@ There are several ways you can save user content to a library.
 
 -   **Shell API**
 
-    If you are using the Shell programming model and save a Shell item, as represented by an [**IShellItem**](ishellitem.md), IStorage, or IStream, to a library object, the Shell item will be automatically stored in the default save location of the library.
+    If you are using the Shell programming model and save a Shell item, as represented by an [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master), IStorage, or IStream, to a library object, the Shell item will be automatically stored in the default save location of the library.
 
 -   **File-system API**
 
@@ -201,17 +206,17 @@ This topic describes how a program can keep its view of a library's content up-t
 
 ### Bulk Update
 
-Because the user can modify the folders of a library interactively when your program is not running, your program should call [**SHResolveLibrary**](shresolvelibrary.md) when it starts to discover and store any changes to the library. The Shell API provides the **SHResolveLibrary** function to enable a program to get the current contents of a library and the current locations of any folders the library might contain.
+Because the user can modify the folders of a library interactively when your program is not running, your program should call [**SHResolveLibrary**](/windows/win32/shobjidl_core/nf-shobjidl_core-shresolvelibrary?branch=master) when it starts to discover and store any changes to the library. The Shell API provides the **SHResolveLibrary** function to enable a program to get the current contents of a library and the current locations of any folders the library might contain.
 
-Note that [**SHResolveLibrary**](shresolvelibrary.md) is a blocking function that could take a long time to return depending on what has changed in the library. As such, it should not be called from a UI thread.
+Note that [**SHResolveLibrary**](/windows/win32/shobjidl_core/nf-shobjidl_core-shresolvelibrary?branch=master) is a blocking function that could take a long time to return depending on what has changed in the library. As such, it should not be called from a UI thread.
 
 After the program has been brought up-to-date, it can then register for change notifications to maintain a current view.
 
 ### Shell API Notification
 
-The Windows Shell API provides the [**SHChangeNotifyRegister**](shchangenotifyregister.md) function, which is the preferred way for non-service processes to be notified of a change in the library.
+The Windows Shell API provides the [**SHChangeNotifyRegister**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotifyregister?branch=master) function, which is the preferred way for non-service processes to be notified of a change in the library.
 
-To detect changes to items within a library using the Windows Shell API, call [**SHChangeNotifyRegister**](shchangenotifyregister.md) to register your program for notifications of changes to items in a library folder. This function can notify your program if there is a change in any library or just in a specific library. Notifications are sent immediately when a library is changed.
+To detect changes to items within a library using the Windows Shell API, call [**SHChangeNotifyRegister**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotifyregister?branch=master) to register your program for notifications of changes to items in a library folder. This function can notify your program if there is a change in any library or just in a specific library. Notifications are sent immediately when a library is changed.
 
 ### File-system API Notification
 
@@ -226,7 +231,7 @@ To detect changes to items in a library using the file-system API, enumerate the
 [About Libraries](library-leverage-to-manage-folders.md)
 </dt> <dt>
 
-[**IShellLibrary**](ishelllibrary.md)
+[**IShellLibrary**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishelllibrary?branch=master)
 </dt> <dt>
 
 [Shell Links](shell.Links)
@@ -238,7 +243,7 @@ To detect changes to items in a library using the file-system API, enumerate the
 [Library Description Schema](library-schema-entry.md)
 </dt> <dt>
 
-[**IID\_PPV\_ARGS**](iid-ppv-args.md)
+[**IID\_PPV\_ARGS**](/windows/win32/Objbase/?branch=master)
 </dt> </dl>
 
  

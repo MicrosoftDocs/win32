@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemProperty object represents a single WMI property of a managed object. This object cannot be created by the VBScript CreateObject call.'
+Description: The SWbemProperty object represents a single WMI property of a managed object. This object cannot be created by the VBScript CreateObject call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2ddcfffa-a7b4-4fd6-926d-411de27f6212'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2ddcfffa-a7b4-4fd6-926d-411de27f6212
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemProperty object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemProperty object
@@ -38,7 +41,7 @@ The **SWbemProperty** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,8 +49,8 @@ The **SWbemProperty** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -63,9 +66,9 @@ The **SWbemProperty** object has these properties.
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

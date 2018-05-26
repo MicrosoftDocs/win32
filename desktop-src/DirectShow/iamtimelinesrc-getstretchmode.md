@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetStretchMode method retrieves the stretch mode. The stretch mode determines how a video source is rendered if its size does not match the output dimensions.'
-ms.assetid: 'd9a3d283-edb5-40be-b877-69cb23462afa'
-title: 'IAMTimelineSrc::GetStretchMode method'
+---
+Description: The GetStretchMode method retrieves the stretch mode. The stretch mode determines how a video source is rendered if its size does not match the output dimensions.
+ms.assetid: d9a3d283-edb5-40be-b877-69cb23462afa
+title: IAMTimelineSrcGetStretchMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::GetStretchMode method

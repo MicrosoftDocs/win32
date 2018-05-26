@@ -1,7 +1,12 @@
 ---
-Description: 'Provides information about the native DDS codec available through the Windows Imaging Component (WIC).'
-ms.assetid: '6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A'
+Description: Provides information about the native DDS codec available through the Windows Imaging Component (WIC).
+ms.assetid: 6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A
 title: DDS Format Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS Format Overview
@@ -50,7 +55,7 @@ Note that the DDS format supports any valid [**DXGI\_FORMAT**](direct3ddxgi.dxgi
 
 The WIC encoding APIs are designed to be codec-independent and therefore image encoding for WIC-enabled codecs is essentially the same. For more information about image encoding using the WIC API, see the [Encoding Overview](-wic-creating-encoder.md).
 
-The DDS file format has unique requirements that arise from its support for concepts such as mipmaps and texture arrays. To fully exercise control over DDS image encoding, you should use the [**IWICDdsEncoder**](iwicddsencoder.md) interface to set DDS-specific encoding parameters.
+The DDS file format has unique requirements that arise from its support for concepts such as mipmaps and texture arrays. To fully exercise control over DDS image encoding, you should use the [**IWICDdsEncoder**](/windows/win32/Wincodec/nn-wincodec-iwicddsencoder?branch=master) interface to set DDS-specific encoding parameters.
 
 ## Decoding
 
@@ -58,7 +63,7 @@ The WIC decoding APIs are designed to be codec-independent and image decoding fo
 
 ## Block compressed data access
 
-In addition to supporting the standard WIC codec interfaces, the DDS decoder provides direct access to the native block compressed data using the DDS-specific interfaces, [**IWICDdsDecoder**](iwicddsdecoder.md) and [**IWICDdsFrameDecode**](iwicddsframedecode.md). To use these interfaces, call QueryInterface off of [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) and [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md), respectively.
+In addition to supporting the standard WIC codec interfaces, the DDS decoder provides direct access to the native block compressed data using the DDS-specific interfaces, [**IWICDdsDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicddsdecoder?branch=master) and [**IWICDdsFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicddsframedecode?branch=master). To use these interfaces, call QueryInterface off of [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) and [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master), respectively.
 
  
 

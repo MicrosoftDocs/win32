@@ -1,7 +1,12 @@
 ---
 title: Mapping QOS Call Sequences to RSVP
 description: RSVP signaling is invoked once a series of QOS calls (the collection of which initiate QOS activity) is completed.
-ms.assetid: '41abdc36-3261-4cba-bb52-c9b8dee177e8'
+ms.assetid: 41abdc36-3261-4cba-bb52-c9b8dee177e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping QOS Call Sequences to RSVP

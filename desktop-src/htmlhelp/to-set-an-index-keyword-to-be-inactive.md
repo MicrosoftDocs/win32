@@ -1,7 +1,12 @@
 ---
 title: To set an index keyword to be inactive
 description: To set an index keyword to be inactive
-ms.assetid: '573F546E-EA1C-489c-9DC1-8969FE8C7747'
+ms.assetid: 573F546E-EA1C-489c-9DC1-8969FE8C7747
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To set an index keyword to be inactive
@@ -16,7 +21,7 @@ ms.assetid: '573F546E-EA1C-489c-9DC1-8969FE8C7747'
 
     
 
-     
+     
 
 2.  Click the **Advanced** tab, and then select the **Target is another keyword** check box.
 3.  Click the **General** tab, and then click **Edit**.
@@ -25,7 +30,7 @@ ms.assetid: '573F546E-EA1C-489c-9DC1-8969FE8C7747'
 > [!Note]  
 > This sets an index entry to jump to itself, creating the appearance of an inactive link.
 
- 
+ 
 
 ## Related topics
 
@@ -34,9 +39,9 @@ ms.assetid: '573F546E-EA1C-489c-9DC1-8969FE8C7747'
 [About Creating Index Files](create-an-index-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

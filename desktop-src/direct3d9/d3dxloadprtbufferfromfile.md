@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads into memory a precomputed radiance transfer (PRT) buffer that was saved to disk.'
-ms.assetid: 'b9296c9e-e8ff-4a18-8682-fcac4feb64e9'
+---
+Description: Loads into memory a precomputed radiance transfer (PRT) buffer that was saved to disk.
+ms.assetid: b9296c9e-e8ff-4a18-8682-fcac4feb64e9
 title: D3DXLoadPRTBufferFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadPRTBufferFromFile function

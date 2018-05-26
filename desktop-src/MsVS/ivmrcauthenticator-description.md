@@ -1,8 +1,13 @@
 ---
 title: IVMRCAuthenticator Description property
-description: The Description property contains the authenticator's description.
-ms.assetid: '96617b29-a7e0-47f9-9283-be6fd13c4d0b'
-keywords: ["Description property Virtual Server", "Description property Virtual Server , IVMRCAuthenticator interface", "IVMRCAuthenticator interface Virtual Server , Description property", "Description property Virtual Server , VMRCAuthenticator interface", "VMRCAuthenticator interface Virtual Server , Description property"]
+description: The Description property contains the authenticators description.
+ms.assetid: 96617b29-a7e0-47f9-9283-be6fd13c4d0b
+keywords:
+- Description property Virtual Server
+- Description property Virtual Server , IVMRCAuthenticator interface
+- IVMRCAuthenticator interface Virtual Server , Description property
+- Description property Virtual Server , VMRCAuthenticator interface
+- VMRCAuthenticator interface Virtual Server , Description property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCAuthenticator::Description property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Description(
-  [out] BSTR *description
+  [out] BSTR *description
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMRCAuthenticator**](ivmrcauthenticator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

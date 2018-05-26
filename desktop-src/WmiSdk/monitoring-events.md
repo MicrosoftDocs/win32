@@ -1,13 +1,16 @@
 ---
-Description: 'System administrators can use WMI to monitor events on a network.'
+Description: System administrators can use WMI to monitor events on a network.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '871d4add-a7b1-4ec9-a202-3821fdf09e9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 871d4add-a7b1-4ec9-a202-3821fdf09e9f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Monitoring Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Monitoring Events
@@ -30,7 +33,7 @@ The following sections are discussed in this topic:
 
 ## Using Temporary Event Consumers
 
-Temporary event consumers are scripts or applications that return the events that match an event query or filter. Temporary event queries usually use either [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) in C++ applications or [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) in scripts and Visual Basic.
+Temporary event consumers are scripts or applications that return the events that match an event query or filter. Temporary event queries usually use either [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) in C++ applications or [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) in scripts and Visual Basic.
 
 An event query requests instances of an event class that specifies a certain type of event, such as [**Win32\_ProcessTrace**](https://msdn.microsoft.com/library/aa394377) or [**RegistryKeyChangeEvent**](https://msdn.microsoft.com/library/aa393040).
 
@@ -94,8 +97,8 @@ The following procedure describes how to create a temporary event consumer.
 
     For C++ applications, call the following methods:
 
-    -   [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md)
-    -   [**IWbemServices::ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md)
+    -   [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master)
+    -   [**IWbemServices::ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master)
 
     For scripts, call the following methods:
 

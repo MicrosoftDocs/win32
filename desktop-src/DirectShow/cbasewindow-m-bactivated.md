@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the window has been activated. If TRUE, the window has been activated.'
-ms.assetid: '6444c581-53a9-48eb-ba9b-fdb8f09aab5d'
-title: 'CBaseWindow::m\_bActivated member'
+Description: Flag that specifies whether the window has been activated. If TRUE, the window has been activated.
+ms.assetid: 6444c581-53a9-48eb-ba9b-fdb8f09aab5d
+title: CBaseWindowm\_bActivated member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_bActivated member
@@ -35,9 +40,9 @@ BOOL m_bActivated;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

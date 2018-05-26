@@ -1,8 +1,14 @@
 ---
 title: LaunchPermission
 description: Describes the Access Control List (ACL) of the principals that can start new servers for this class. This value may be added under any AppID key to limit activation by remote clients of specific classes.
-ms.assetid: '23ca87fc-7829-46a9-9fc3-2cd7f677bbff'
-keywords: ["LaunchPermission registry value COM"]
+ms.assetid: 23ca87fc-7829-46a9-9fc3-2cd7f677bbff
+keywords:
+- LaunchPermission registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LaunchPermission
@@ -25,7 +31,7 @@ This is a **REG\_BINARY** value. Upon receiving a local or remote request to lau
 
 <dl> <dt>
 
-[**CoInitializeSecurity**](coinitializesecurity.md)
+[**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master)
 </dt> <dt>
 
 [**DefaultLaunchPermission**](defaultlaunchpermission.md)

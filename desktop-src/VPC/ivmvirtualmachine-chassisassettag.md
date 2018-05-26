@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine ChassisAssetTag property
 description: Chassis asset tag.
-ms.assetid: '469816a8-3078-4960-a5e1-79d65b5fc8fc'
-keywords: ["ChassisAssetTag property Virtual PC", "ChassisAssetTag property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , ChassisAssetTag property"]
+ms.assetid: 469816a8-3078-4960-a5e1-79d65b5fc8fc
+keywords:
+- ChassisAssetTag property Virtual PC
+- ChassisAssetTag property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , ChassisAssetTag property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ChassisAssetTag property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the chassis asset tag.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ChassisAssetTag(
-  [in]          BSTR chassisAssetTag
+  [in]          BSTR chassisAssetTag
 );
 
 HRESULT get_ChassisAssetTag(
-  [out, retval] BSTR *chassisAssetTag
+  [out, retval] BSTR *chassisAssetTag
 );
 ```
 
@@ -67,9 +75,9 @@ This property will not contain valid information until after the virtual machine
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -83,9 +91,9 @@ This property will not contain valid information until after the virtual machine
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

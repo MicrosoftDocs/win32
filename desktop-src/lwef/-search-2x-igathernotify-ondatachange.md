@@ -1,14 +1,22 @@
 ---
 title: IGatherNotify OnDataChange (Deprecated) method
 description: This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search ISearchPersistentItemsChangedSink API in the Windows SDK.
-ms.assetid: '0cbfa6b7-44f0-41f0-93a3-d5941b5822de'
-keywords: ["OnDataChange (Deprecated) method Legacy Windows Environment Features", "OnDataChange (Deprecated) method Legacy Windows Environment Features , IGatherNotify interface", "IGatherNotify interface Legacy Windows Environment Features , OnDataChange (Deprecated) method"]
+ms.assetid: 0cbfa6b7-44f0-41f0-93a3-d5941b5822de
+keywords:
+- OnDataChange (Deprecated) method Legacy Windows Environment Features
+- OnDataChange (Deprecated) method Legacy Windows Environment Features , IGatherNotify interface
+- IGatherNotify interface Legacy Windows Environment Features , OnDataChange (Deprecated) method
 topic_type:
 - apiref
 api_name:
 - IGatherNotify.OnDataChange (Deprecated)
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IGatherNotify::OnDataChange (Deprecated) method

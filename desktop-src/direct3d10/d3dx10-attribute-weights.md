@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies mesh weight attributes.'
-ms.assetid: '554bb8f2-9e92-4e9e-b500-c3cc47d57830'
-title: 'D3DX10\_ATTRIBUTE\_WEIGHTS structure'
+---
+Description: Specifies mesh weight attributes.
+ms.assetid: 554bb8f2-9e92-4e9e-b500-c3cc47d57830
+title: D3DX10\_ATTRIBUTE\_WEIGHTS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_ATTRIBUTE\_WEIGHTS structure

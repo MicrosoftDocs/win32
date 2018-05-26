@@ -1,15 +1,18 @@
 ---
-Description: 'Submits a job to an operating system for execution at a specified time and date in the future.'
+Description: Submits a job to an operating system for execution at a specified time and date in the future.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9d582fbb-24cb-401d-8b77-af7671a24e6d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9d582fbb-24cb-401d-8b77-af7671a24e6d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Create method of the Win32\_ScheduledJob class'
+title: Create method of the Win32\_ScheduledJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_ScheduledJob class
@@ -23,13 +26,13 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in]           string   Command,
-  [in]           datetime StartTime,
-  [in, optional] boolean  RunRepeatedly,
-  [in, optional] uint32   DaysOfWeek,
-  [in, optional] uint32   DaysOfMonth,
-  [in, optional] boolean  InteractWithDesktop,
-  [out]          uint32   JobId
+  [in]           string   Command,
+  [in]           datetime StartTime,
+  [in, optional] boolean  RunRepeatedly,
+  [in, optional] uint32   DaysOfWeek,
+  [in, optional] uint32   DaysOfMonth,
+  [in, optional] boolean  InteractWithDesktop,
+  [out]          uint32   JobId
 );
 ```
 
@@ -554,7 +557,7 @@ The account that this service runs under is invalid or lacks the permissions to 
 **Other**
 </dt> <dd>
 
-23–4294967295
+23 4294967295
 
 </dd> </dl>
 
@@ -568,8 +571,8 @@ If your scheduled job starts an interactive program such as Notepad, then the **
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -586,9 +589,9 @@ If your scheduled job starts an interactive program such as Notepad, then the **
 [**Win32\_ScheduledJob**](win32-scheduledjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

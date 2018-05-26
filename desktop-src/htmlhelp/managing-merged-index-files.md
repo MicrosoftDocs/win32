@@ -1,7 +1,12 @@
 ---
 title: Managing Merged Index Files
 description: Managing Merged Index Files
-ms.assetid: '55A71903-7D3D-44fb-B1C1-CAF940B16957'
+ms.assetid: 55A71903-7D3D-44fb-B1C1-CAF940B16957
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Merged Index Files

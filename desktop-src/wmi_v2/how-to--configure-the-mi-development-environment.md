@@ -4,10 +4,13 @@ description: This topic includes step-by-step instructions to configure a develo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '48F32EEF-7CF3-4443-95B4-97E208164ACE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 48F32EEF-7CF3-4443-95B4-97E208164ACE
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Configure the MI Development Environment

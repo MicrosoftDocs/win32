@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides an overview of how you can use the Windows Imaging Component (WIC) APIs to read and write metadata that is embedded in image files.'
-ms.assetid: 'b1e0b936-a13a-42dd-8470-957ba1d90423'
+Description: This topic provides an overview of how you can use the Windows Imaging Component (WIC) APIs to read and write metadata that is embedded in image files.
+ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: Overview of Reading and Writing Image Metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Reading and Writing Image Metadata
@@ -38,9 +43,9 @@ WIC provides application developers with Component Object Model (COM) components
 -   Using a query reader/writer and a query expression to query metadata blocks for nested blocks or specific metadata within a block.
 -   Using a metadata handler (a metadata reader or a metadata writer) to access the nested metadata blocks or specific metadata within the metadata blocks.
 
-The easiest of these is to use a query reader/writer and a query expression to access the metadata. A query reader ([**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md)) is used to read metadata while a query writer ([**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md)) is used to write metadata. Both of these use a query expression to read or write the desired metadata. Behind the scenes, a query reader (and writer) uses a metadata handler to access the metadata described by the query expression.
+The easiest of these is to use a query reader/writer and a query expression to access the metadata. A query reader ([**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master)) is used to read metadata while a query writer ([**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master)) is used to write metadata. Both of these use a query expression to read or write the desired metadata. Behind the scenes, a query reader (and writer) uses a metadata handler to access the metadata described by the query expression.
 
-The more advanced method is to directly access the metadata handlers. A metadata handler is obtained from the individual frames using a block reader ([**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md)) or a block writer ([**IWICMetadataBlockWriter**](-wic-codec-iwicmetadatablockwriter.md)). The two types of metadata handlers available are the metadata reader ([**IWICMetadataReader**](-wic-codec-iwicmetadatareader.md)) and the metadata writer ([**IWICMetadataWriter**](-wic-codec-iwicmetadatawriter.md)).
+The more advanced method is to directly access the metadata handlers. A metadata handler is obtained from the individual frames using a block reader ([**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master)) or a block writer ([**IWICMetadataBlockWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter?branch=master)). The two types of metadata handlers available are the metadata reader ([**IWICMetadataReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader?branch=master)) and the metadata writer ([**IWICMetadataWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter?branch=master)).
 
 The following diagram of the contents of a JPEG image file is used throughout the examples in this topic. The image represented by this diagram was created by using Microsoft Paint; the rating metadata was added by using the Photo Gallery feature of Windows Vista.
 
@@ -48,9 +53,9 @@ The following diagram of the contents of a JPEG image file is used throughout th
 
 ## Reading Metadadata Using a Query Reader
 
-The easiest way to read metadata is to use the query reader interface, [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md). The query reader enables you to read metadata blocks and items within metadata blocks using a query expression.
+The easiest way to read metadata is to use the query reader interface, [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master). The query reader enables you to read metadata blocks and items within metadata blocks using a query expression.
 
-There are three ways to obtain a query reader: through a bitmap decoder ([**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)), through its individual frames ([**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md)), or through a query writer ([**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md)).
+There are three ways to obtain a query reader: through a bitmap decoder ([**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)), through its individual frames ([**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)), or through a query writer ([**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master)).
 
 ### Obtaining a Query Reader
 
@@ -101,7 +106,7 @@ if (SUCCEEDED(hr))
 
 
 
-The bitmap decoder for the test.jpg file is obtained by using the **CreateDecoderFromFilename** method of the imaging factory. In this method, the fourth parameter is set to the value WICDecodeMetadataCacheOnDemand from the [**WICDecodeOptions**](-wic-codec-wicdecodeoptions.md) enumeration. This tells the decoder to cache the metadata when the metadata is needed; either by obtaining a query reader or the underlying metadata reader. Using this option enables you to retain the stream to the metadata required for fast metadata encoding and enables lossless decoding of the JPEG image. Alternatively, you could use the other **WICDecodeOptions** value, WICDecodeMetadataCacheOnLoad, which caches the embedded image metadata as soon as the image is loaded.
+The bitmap decoder for the test.jpg file is obtained by using the **CreateDecoderFromFilename** method of the imaging factory. In this method, the fourth parameter is set to the value WICDecodeMetadataCacheOnDemand from the [**WICDecodeOptions**](/windows/win32/Wincodec/ne-wincodec-wicdecodeoptions?branch=master) enumeration. This tells the decoder to cache the metadata when the metadata is needed; either by obtaining a query reader or the underlying metadata reader. Using this option enables you to retain the stream to the metadata required for fast metadata encoding and enables lossless decoding of the JPEG image. Alternatively, you could use the other **WICDecodeOptions** value, WICDecodeMetadataCacheOnLoad, which caches the embedded image metadata as soon as the image is loaded.
 
 To obtain the frame's query reader, make a simple call to the frame's **GetMetadataQueryReader** method. The following code demonstrates this call.
 
@@ -223,9 +228,9 @@ The call to **GetContainerFormat** for the embedded query reader returns the IFD
 
  
 
-The main component for writing metadata is the query writer ([**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md)). The query writer enables you to set and remove metadata blocks and items within a metadata block.
+The main component for writing metadata is the query writer ([**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master)). The query writer enables you to set and remove metadata blocks and items within a metadata block.
 
-Like the query reader, there are three ways to obtain a query writer: through a bitmap encoder ([**IWICBitmapEncoder**](-wic-codec-iwicbitmapencoder.md)), through its individual frames ([**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md)), or through a fast metadata encoder ([**IWICFastMetadataEncoder**](-wic-codec-iwicfastmetadataencoder.md)).
+Like the query reader, there are three ways to obtain a query writer: through a bitmap encoder ([**IWICBitmapEncoder**](/windows/win32/wincodec/nn-wincodec-iwicbitmapencoder?branch=master)), through its individual frames ([**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master)), or through a fast metadata encoder ([**IWICFastMetadataEncoder**](/windows/win32/Wincodec/nn-wincodec-iwicfastmetadataencoder?branch=master)).
 
 ### Obtaining a Query Writer
 
@@ -243,7 +248,7 @@ hr = pFrameEncode->GetMetadataQueryWriter(&amp;pFrameQWriter);
 
 Similarly, a query writer can also be obtained for the encoder level. A simple call to the encoder's **GetMetadataQueryWriter** method gets the encoder's query writer. An encoder's query writer, unlike a frame's query writer, writes metadata for an image outside of the individual frame. However, this scenario is not common, and the native image formats do not support this capability. The native image codecs provided by WIC read and write metadata at the frame level even for single-frame formats such as JPEG.
 
-You can also obtain a query writer directly from the imaging factory ([**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md)). There are two imaging factory methods that return a query writer: **CreateQueryWriter** and **CreateQueryWriterFromReader**.
+You can also obtain a query writer directly from the imaging factory ([**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master)). There are two imaging factory methods that return a query writer: **CreateQueryWriter** and **CreateQueryWriterFromReader**.
 
 **CreateQueryWriter** creates a query writer for the specified metadata format and vendor. This query writer enables you to write metadata for a specific metadata format and add it to the image. The following code demonstrates a **CreateQueryWriter** call to create an XMP query writer.
 

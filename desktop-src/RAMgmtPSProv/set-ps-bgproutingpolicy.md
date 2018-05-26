@@ -2,13 +2,16 @@
 title: Set method of the PS\_BgpRoutingPolicy class
 description: Updates a BGP routing policy.
 audience: developer
-ms.assetid: 'ee013636-f0e7-4c78-9774-af6d931edcb2'
-ms.prod: 'windows-server-dev'
+ms.assetid: ee013636-f0e7-4c78-9774-af6d931edcb2
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_BgpRoutingPolicy class", "PS_BgpRoutingPolicy class, Set method"]
+keywords:
+- Set method
+- Set method, PS_BgpRoutingPolicy class
+- PS_BgpRoutingPolicy class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_BgpRoutingPolicy class
@@ -28,25 +34,25 @@ Updates a BGP routing policy.
 
 ```mof
 uint32 Set(
-  [in]  string                 Name,
-  [in]  boolean                PassThru,
-  [in]  uint32                 PolicyType,
-  [in]  string                 RoutingDomain,
-  [in]  boolean                Force,
-  [in]  string                 AddCommunity[],
-  [in]  string                 RemoveCommunity[],
-  [in]  string                 RemovePolicyClause[],
-  [in]  uint32                 MatchASNRange[],
-  [in]  string                 IgnorePrefix[],
-  [in]  string                 MatchCommunity[],
-  [in]  string                 MatchPrefix[],
-  [in]  string                 MatchNextHop[],
-  [in]  boolean                ClearMED,
-  [in]  uint32                 NewLocalPref,
-  [in]  uint32                 NewMED,
-  [in]  string                 NewNextHop,
-  [in]  boolean                RemoveAllCommunities,
-  [out] BgpRoutingPolicyConfig cmdletOutput
+  [in]  string                 Name,
+  [in]  boolean                PassThru,
+  [in]  uint32                 PolicyType,
+  [in]  string                 RoutingDomain,
+  [in]  boolean                Force,
+  [in]  string                 AddCommunity[],
+  [in]  string                 RemoveCommunity[],
+  [in]  string                 RemovePolicyClause[],
+  [in]  uint32                 MatchASNRange[],
+  [in]  string                 IgnorePrefix[],
+  [in]  string                 MatchCommunity[],
+  [in]  string                 MatchPrefix[],
+  [in]  string                 MatchNextHop[],
+  [in]  boolean                ClearMED,
+  [in]  uint32                 NewLocalPref,
+  [in]  uint32                 NewMED,
+  [in]  string                 NewNextHop,
+  [in]  boolean                RemoveAllCommunities,
+  [out] BgpRoutingPolicyConfig cmdletOutput
 );
 ```
 
@@ -201,7 +207,7 @@ The next-hop value to add to BGP routes.
 
 Set **True** to remove all communities from the BGP route.
 
-**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -219,7 +225,7 @@ The [**BgpRoutingPolicyConfig**](bgproutingpolicyconfig.md) object that receives
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -233,9 +239,9 @@ The [**BgpRoutingPolicyConfig**](bgproutingpolicyconfig.md) object that receives
 [**PS\_BgpRoutingPolicy**](ps-bgproutingpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

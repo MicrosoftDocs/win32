@@ -1,7 +1,12 @@
 ---
-Description: 'Provides counters for DNS64 queries.'
-ms.assetid: '9dcb0ceb-8122-4683-8c0a-20dc6db22cd7'
-title: 'MSFT\_NetDnsTransitionMonitoring class'
+Description: Provides counters for DNS64 queries.
+ms.assetid: 9dcb0ceb-8122-4683-8c0a-20dc6db22cd7
+title: MSFT\_NetDnsTransitionMonitoring class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetDnsTransitionMonitoring class
@@ -121,17 +126,17 @@ Indicates the number successful non-AAAA queries.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

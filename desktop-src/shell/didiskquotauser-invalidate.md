@@ -1,6 +1,11 @@
-﻿---
-Description: 'Clears the object''s cached user information.'
-title: 'DIDiskQuotaUser.Invalidate method'
+---
+Description: Clears the objects cached user information.
+title: DIDiskQuotaUser.Invalidate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.Invalidate method

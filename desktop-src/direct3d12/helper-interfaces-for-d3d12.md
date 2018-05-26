@@ -1,8 +1,15 @@
 ---
 title: Helper Interfaces for D3D12
 description: These helper interfaces help particularly in handling subresources, and are declared in d3dx12.h.
-ms.assetid: '03310CC9-E84D-4BC2-8B06-D3445807E357'
-keywords: ["Helper interfaces", "d3dx12.h"]
+ms.assetid: 03310CC9-E84D-4BC2-8B06-D3445807E357
+keywords:
+- Helper interfaces
+- d3dx12.h
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Helper Interfaces for D3D12
@@ -19,7 +26,7 @@ These helper interfaces help particularly in handling subresources, and are decl
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +38,9 @@ These helper interfaces help particularly in handling subresources, and are decl
 [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

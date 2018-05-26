@@ -1,8 +1,11 @@
 ---
 title: ITransformProperties get\_PropertyByName method
 description: The get\_PropertyByName method retrieves a property in the collection by name.
-ms.assetid: '27a8fc6d-8710-4183-9ad6-8f77658407b1'
-keywords: ["get_PropertyByName method Windows Movie Maker and DVD Maker", "get_PropertyByName method Windows Movie Maker and DVD Maker , ITransformProperties interface", "ITransformProperties interface Windows Movie Maker and DVD Maker , get_PropertyByName method"]
+ms.assetid: 27a8fc6d-8710-4183-9ad6-8f77658407b1
+keywords:
+- get_PropertyByName method Windows Movie Maker and DVD Maker
+- get_PropertyByName method Windows Movie Maker and DVD Maker , ITransformProperties interface
+- ITransformProperties interface Windows Movie Maker and DVD Maker , get_PropertyByName method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperties::get\_PropertyByName method
@@ -25,8 +33,8 @@ The **get\_PropertyByName** method retrieves a property in the collection by nam
 
 ```C++
 HRESULT get_PropertyByName(
-  [in]  LPCTSTR            szName,
-  [out] ITransformProperty **ppProperty
+  [in]  LPCTSTR            szName,
+  [out] ITransformProperty **ppProperty
 );
 ```
 
@@ -64,8 +72,8 @@ You can query the returned property for **ITransformProperties** to examine any 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -78,9 +86,9 @@ You can query the returned property for **ITransformProperties** to examine any 
 [**ITransformProperties Interface**](itransformproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

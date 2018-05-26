@@ -1,7 +1,12 @@
 ---
-Description: 'The DrLocator table holds the information needed to find a file or directory by searching the directory tree.'
-ms.assetid: '2b779ff7-f410-4af0-899d-4432b015d526'
+Description: The DrLocator table holds the information needed to find a file or directory by searching the directory tree.
+ms.assetid: 2b779ff7-f410-4af0-899d-4432b015d526
 title: DrLocator Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrLocator Table

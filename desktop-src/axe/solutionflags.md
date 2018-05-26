@@ -1,8 +1,9 @@
 ---
 title: SolutionFlags enumeration
 description: Determines if the Solution interface will be initialized to run assessments or workloads.
-ms.assetid: 'F6DAE7B1-0251-4E1E-ADCE-00524939C52B'
-keywords: ["SolutionFlags enumeration Access Execution Engine"]
+ms.assetid: F6DAE7B1-0251-4E1E-ADCE-00524939C52B
+keywords:
+- SolutionFlags enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SolutionFlags enumeration
@@ -22,8 +28,8 @@ Determines if the Solution interface will be initialized to run assessments or w
 
 ```C++
 enum SolutionFlags {
-  SolutionFlagNone       = 0, 
-  SolutionFlagWorkloads  = 0x80000000 
+  SolutionFlagNone       = 0, 
+  SolutionFlagWorkloads  = 0x80000000 
 
 };
 ```
@@ -62,8 +68,8 @@ Managed code uses the [**SolutionFlags**](axe-solutionflags_om) enum.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ Managed code uses the [**SolutionFlags**](axe-solutionflags_om) enum.
 [**SolutionParameters**](solutionparameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM12 verifies that in a ModuleSequence table, standard actions have sequence numbers and custom actions have BaseAction and After values.'
-ms.assetid: '1a168629-9865-4412-8317-8af8b9a7b8bd'
+Description: ICEM12 verifies that in a ModuleSequence table, standard actions have sequence numbers and custom actions have BaseAction and After values.
+ms.assetid: 1a168629-9865-4412-8317-8af8b9a7b8bd
 title: ICEM12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM12

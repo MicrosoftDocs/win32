@@ -1,8 +1,9 @@
 ---
 title: CB\_INITSTORAGE message
 description: An application sends the CB\_INITSTORAGE message before adding a large number of items to the list box portion of a combo box. This message allocates memory for storing list box items.
-ms.assetid: 'fb289968-a95b-4ca0-977d-b8651166f357'
-keywords: ["CB_INITSTORAGE message Windows Controls"]
+ms.assetid: fb289968-a95b-4ca0-977d-b8651166f357
+keywords:
+- CB_INITSTORAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_INITSTORAGE message
@@ -53,8 +59,8 @@ The **CB\_INITSTORAGE** message helps speed up the initialization of combo boxes
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ The **CB\_INITSTORAGE** message helps speed up the initialization of combo boxes
 [**CB\_INSERTSTRING**](cb-insertstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

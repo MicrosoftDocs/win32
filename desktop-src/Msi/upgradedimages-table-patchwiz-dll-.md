@@ -1,7 +1,12 @@
 ---
-Description: 'The UpgradedImages table contains information about the upgraded images of the product.'
-ms.assetid: 'f4ee2cc8-8a49-4e4a-b8cf-b4ae2bc7e753'
-title: 'UpgradedImages Table (Patchwiz.dll)'
+Description: The UpgradedImages table contains information about the upgraded images of the product.
+ms.assetid: f4ee2cc8-8a49-4e4a-b8cf-b4ae2bc7e753
+title: UpgradedImages Table (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpgradedImages Table (Patchwiz.dll)

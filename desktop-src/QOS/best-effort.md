@@ -1,8 +1,14 @@
 ---
 title: BEST EFFORT
-description: The BEST EFFORT service type instructs the RSVP SP to use the application's QOS parameters as guidelines for service quality requests, and make reasonable effort to maintain the requested level of service.
-ms.assetid: 'fc08f6a1-fafb-4569-9e1d-e6a161e52f21'
-keywords: ["BEST EFFORT service type"]
+description: The BEST EFFORT service type instructs the RSVP SP to use the applications QOS parameters as guidelines for service quality requests, and make reasonable effort to maintain the requested level of service.
+ms.assetid: fc08f6a1-fafb-4569-9e1d-e6a161e52f21
+keywords:
+- BEST EFFORT service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BEST EFFORT

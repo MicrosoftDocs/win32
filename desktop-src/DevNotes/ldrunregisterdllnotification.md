@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cancels DLL load notification previously registered by calling the LdrRegisterDllNotification function.'
-ms.assetid: '18c3a027-e3cb-4083-afdc-00f416a70d8c'
+---
+Description: Cancels DLL load notification previously registered by calling the LdrRegisterDllNotification function.
+ms.assetid: 18c3a027-e3cb-4083-afdc-00f416a70d8c
 title: LdrUnregisterDllNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LdrUnregisterDllNotification function

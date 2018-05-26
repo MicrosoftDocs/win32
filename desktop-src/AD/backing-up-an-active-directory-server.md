@@ -4,11 +4,15 @@ description: An Active Directory server backup requires you to back up the datab
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '250b2f40-6d43-4aa5-a588-b0cd4839828d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 250b2f40-6d43-4aa5-a588-b0cd4839828d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["backing up Active Directory"]
+keywords:
+- backing up Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Backing Up an Active Directory Server

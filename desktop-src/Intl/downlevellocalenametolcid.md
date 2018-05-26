@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a locale name to a locale identifier that can be used to get information from the operating system.'
-ms.assetid: 'dc776c41-0376-4222-bebf-86be7e4be122'
+---
+Description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
+ms.assetid: dc776c41-0376-4222-bebf-86be7e4be122
 title: DownlevelLocaleNameToLCID function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelLocaleNameToLCID function
@@ -9,7 +14,7 @@ title: DownlevelLocaleNameToLCID function
 Converts a [locale name](locale-names.md) to a [locale identifier](locale-identifiers.md) that can be used to get information from the operating system.
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires a download package. Applications that only run on Windows Vista and later should call [**LocaleNameToLCID**](localenametolcid.md) to retrieve a locale identifier.
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires a download package. Applications that only run on Windows Vista and later should call [**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master) to retrieve a locale identifier.
 
  
 
@@ -55,7 +60,7 @@ The function returns 0 if it does not succeed. To get extended error information
 ## Remarks
 
 > [!Note]  
-> This function does not support neutral locales. The equivalent [**LocaleNameToLCID**](localenametolcid.md) function supports [custom locales](custom-locales.md), but only for Windows Vista and later.
+> This function does not support neutral locales. The equivalent [**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master) function supports [custom locales](custom-locales.md), but only for Windows Vista and later.
 
  
 
@@ -88,7 +93,7 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
 [Mapping Locale Data](mapping-locale-data.md)
 </dt> <dt>
 
-[**LocaleNameToLCID**](localenametolcid.md)
+[**LocaleNameToLCID**](/windows/win32/Winnls/nf-winnls-localenametolcid?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,16 @@ description: An SPN must be unique in the forest in which it is registered.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dd3f9f7c-b64c-4bd8-924f-a8880ee3b71e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: dd3f9f7c-b64c-4bd8-924f-a8880ee3b71e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Name Formats for Unique SPNs AD", "Service Principal Name AD , Name Formats for"]
+keywords:
+- Name Formats for Unique SPNs AD
+- Service Principal Name AD , Name Formats for
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Name Formats for Unique SPNs

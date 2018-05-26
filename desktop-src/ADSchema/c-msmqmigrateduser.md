@@ -4,22 +4,27 @@ description: In MSMQ 1.0 we had our own DS, in which we kept some information pe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '44b1285a-6ea0-4514-85d9-5e28ad0e6fdd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 44b1285a-6ea0-4514-85d9-5e28ad0e6fdd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Migrated-User class AD Schema", "mSMQMigratedUser class AD Schema"]
+keywords:
+- MSMQ-Migrated-User class AD Schema
+- mSMQMigratedUser class AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Migrated-User
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Migrated-User class
 
-In MSMQ 1.0 we had our own DS, in which we kept some information per user. As part of MSMQ integration with Windows 2000 DS, MSMQ provides a migration tool. During migration, for each user that is not in the Windows 2000 domain, we create a migrated-user.
+In MSMQ 1.0 we had our own DS, in which we kept some information per user. As part of MSMQ integration with Windows 2000 DS, MSMQ provides a migration tool. During migration, for each user that is not in the Windows 2000 domain, we create a migrated-user.
 
 
 
@@ -35,12 +40,12 @@ In MSMQ 1.0 we had our own DS, in which we kept some information per user. As pa
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -67,7 +72,7 @@ In MSMQ 1.0 we had our own DS, in which we kept some information per user. As pa
 
 ## Windows 2000 Server Attributes
 
-This class contains the following attributes for Windows 2000 Server:
+This class contains the following attributes for Windows 2000 Server:
 
 
 
@@ -180,7 +185,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -311,7 +316,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -445,7 +450,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -590,7 +595,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -742,7 +747,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -875,9 +880,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

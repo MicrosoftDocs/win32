@@ -1,7 +1,12 @@
 ---
-Description: 'Step 1.'
-ms.assetid: '1912af22-11dc-4864-8c20-91675d4f45d9'
-title: 'Step 1. Define a Mechanism for Setting the Property'
+Description: Step 1.
+ms.assetid: 1912af22-11dc-4864-8c20-91675d4f45d9
+title: Step 1. Define a Mechanism for Setting the Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 1. Define a Mechanism for Setting the Property

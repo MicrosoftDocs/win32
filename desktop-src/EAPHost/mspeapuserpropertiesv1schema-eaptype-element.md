@@ -1,14 +1,20 @@
 ---
 title: EapType Element
 description: Is a derived type of the EapType element from the baseeapuserpropertiesv1 schema.
-ms.assetid: '921c1f95-900a-4fd2-bb42-341e5ba39b23'
-keywords: ["EapType element EAPHost"]
+ms.assetid: 921c1f95-900a-4fd2-bb42-341e5ba39b23
+keywords:
+- EapType element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapType Element
@@ -59,8 +65,8 @@ The **EapType** element is a derived type of the [**EapType**](baseeapuserproper
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ The **EapType** element is a derived type of the [**EapType**](baseeapuserproper
 [mspeapuserpropertiesv1 Schema](mspeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

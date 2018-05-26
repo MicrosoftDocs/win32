@@ -1,7 +1,12 @@
-﻿---
-Description: 'Queries for the amount of scratch memory that the hardware abstraction layer (HAL) will allocate for its private use.'
-ms.assetid: '20e3dbef-daf5-487a-8d50-e2ebdb712cc0'
-title: 'IDirect3DVideoDevice9::GetDXVAInternalInfo method'
+---
+Description: Queries for the amount of scratch memory that the hardware abstraction layer (HAL) will allocate for its private use.
+ms.assetid: 20e3dbef-daf5-487a-8d50-e2ebdb712cc0
+title: IDirect3DVideoDevice9GetDXVAInternalInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DVideoDevice9::GetDXVAInternalInfo method
@@ -35,7 +40,7 @@ Pointer to a GUID that specifies the DXVA profile. To get a list of supported pr
 *pUncompData* 
 </dt> <dd>
 
-Pointer to a [**DXVAUncompDataInfo**](dxvauncompdatainfo.md) structure that specifies the size and pixel format of the uncompressed data.
+Pointer to a [**DXVAUncompDataInfo**](/windows/win32/dxva9typ/ns-dxva9typ-_dxvauncompdatainfo?branch=master) structure that specifies the size and pixel format of the uncompressed data.
 
 </dd> <dt>
 

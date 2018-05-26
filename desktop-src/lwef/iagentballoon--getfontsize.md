@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetFontSize
 description: IAgentBalloon GetFontSize
-ms.assetid: '4d342ee9-abb4-431b-bd28-f62ab76705ec'
+ms.assetid: 4d342ee9-abb4-431b-bd28-f62ab76705ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetFontSize

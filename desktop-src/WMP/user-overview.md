@@ -1,8 +1,24 @@
 ---
 title: User Overview
 description: User Overview
-ms.assetid: 'db6c9ab8-21ee-4018-b90a-5ab21313a335'
-keywords: ["Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,user overview", "custom visualizations,user overview", "visualizations,standard", "custom visualizations,standard visualizations", "visualizations,presets", "custom visualizations,presets", "visualizations,skin attributes", "custom visualizations,skin attributes", "presets in visualizations,user overview"]
+ms.assetid: db6c9ab8-21ee-4018-b90a-5ab21313a335
+keywords:
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,user overview
+- custom visualizations,user overview
+- visualizations,standard
+- custom visualizations,standard visualizations
+- visualizations,presets
+- custom visualizations,presets
+- visualizations,skin attributes
+- custom visualizations,skin attributes
+- presets in visualizations,user overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Overview

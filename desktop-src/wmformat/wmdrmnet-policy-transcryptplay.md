@@ -1,8 +1,10 @@
 ---
 title: WMDRMNET\_POLICY\_TRANSCRYPTPLAY structure
 description: The WMDRMNET\_POLICY\_TRANSCRYPTPLAY structure holds the policy information for playing content using Windows Media DRM for Network Devices.
-ms.assetid: '95671c58-a593-40bb-856e-28ad1cba340e'
-keywords: ["WMDRMNET_POLICY_TRANSCRYPTPLAY structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 95671c58-a593-40bb-856e-28ad1cba340e
+keywords:
+- WMDRMNET_POLICY_TRANSCRYPTPLAY structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMNET\_POLICY\_TRANSCRYPTPLAY structure
@@ -23,7 +30,7 @@ The **WMDRMNET\_POLICY\_TRANSCRYPTPLAY** structure holds the policy information 
 ```C++
 typedef struct WMDRMNET_POLICY_TRANSCRYPTPLAY {
   WMDRMNET_POLICY_GLOBAL_REQUIREMENTS globals;
-  WMDRMNET_POLICY_PLAY_OPL            playOPLs;
+  WMDRMNET_POLICY_PLAY_OPL            playOPLs;
 } ;
 ```
 
@@ -71,9 +78,9 @@ None.
 [**WMDRMNET\_POLICY**](wmdrmnet-policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

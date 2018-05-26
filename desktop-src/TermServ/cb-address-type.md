@@ -4,11 +4,12 @@ description: Specifies the address type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1F6ECFA6-8876-4C9B-A883-BD630D54B8E2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1F6ECFA6-8876-4C9B-A883-BD630D54B8E2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CB_ADDRESS_TYPE enumeration Remote Desktop Services"]
+keywords:
+- CB_ADDRESS_TYPE enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # CB\_ADDRESS\_TYPE enumeration
@@ -28,9 +32,9 @@ Specifies the address type.
 
 ```C++
 typedef enum _CB_ADDRESS_TYPE { 
-  CB_ADDR_UNDEFINED  = 0,
-  CB_ADDR_IPv4       = 4,
-  CB_ADDR_IPv6       = 6
+  CB_ADDR_UNDEFINED  = 0,
+  CB_ADDR_IPv4       = 4,
+  CB_ADDR_IPv6       = 6
 } CB_ADDRESS_TYPE;
 ```
 
@@ -67,15 +71,15 @@ The address is an IPv6 address.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

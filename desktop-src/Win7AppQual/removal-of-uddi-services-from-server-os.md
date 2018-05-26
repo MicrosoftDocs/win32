@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '5ebc8c4c-acee-4658-8d36-30fbb17b1ef1'
+Description: .
+ms.assetid: 5ebc8c4c-acee-4658-8d36-30fbb17b1ef1
 title: Removal of UDDI Services from Server Operating System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removal of UDDI Services from Server Operating System

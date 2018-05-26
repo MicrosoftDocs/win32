@@ -1,7 +1,12 @@
 ---
-Description: 'A user can disable the Default Ducking Experience provided by the system by using the options that are available on the Communications tab of the Windows multimedia control panel, Mmsys.cpl.'
-ms.assetid: '5604b927-99f8-450f-a48c-b38d782584de'
+Description: A user can disable the Default Ducking Experience provided by the system by using the options that are available on the Communications tab of the Windows multimedia control panel, Mmsys.cpl.
+ms.assetid: 5604b927-99f8-450f-a48c-b38d782584de
 title: Disabling the Default Ducking Experience
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disabling the Default Ducking Experience
@@ -12,15 +17,15 @@ When ducking is applied, a fade-out and fade-in effect is used for a period of 1
 
 Programmatically, a direct WASAPI client can opt out by using the session manager for the audio session that provides volume control for the non-communication streams. Note that even if an client opts out of ducking, it still receives ducking notifications from the system.
 
-To opt out of ducking, the client must get a reference to the [**IAudioSessionControl2**](iaudiosessioncontrol2.md) interface of the session manager. To opt out of the ducking experience, use the following steps:
+To opt out of ducking, the client must get a reference to the [**IAudioSessionControl2**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2?branch=master) interface of the session manager. To opt out of the ducking experience, use the following steps:
 
 1.  Instantiate the device enumerator and use it to get a reference to the endpoint of the device that the media application is using to render the non-communication stream.
-2.  Activate the session manager from the device endpoint and get a reference to the [**IAudioSessionManager2**](iaudiosessionmanager2.md) interface of the session manager.
-3.  By using the [**IAudioSessionManager2**](iaudiosessionmanager2.md) pointer, get a reference to the [**IAudioSessionControl**](iaudiosessioncontrol.md) interface of the session manager.
-4.  Query for the [**IAudioSessionControl2**](iaudiosessioncontrol2.md) from the [**IAudioSessionControl**](iaudiosessioncontrol.md) interface.
-5.  Call [**IAudioSessionControl2::SetDuckingPreference**](iaudiosessioncontrol2-setduckingpreference.md) and pass **TRUE** or **FALSE** to specify the the ducking preference. The specified preference can be changed dynamically during the session. Note that the opt-out change does not take effect until the stream is stopped and started again.
+2.  Activate the session manager from the device endpoint and get a reference to the [**IAudioSessionManager2**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessionmanager2?branch=master) interface of the session manager.
+3.  By using the [**IAudioSessionManager2**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessionmanager2?branch=master) pointer, get a reference to the [**IAudioSessionControl**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessioncontrol?branch=master) interface of the session manager.
+4.  Query for the [**IAudioSessionControl2**](/windows/win32/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2?branch=master) from the [**IAudioSessionControl**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessioncontrol?branch=master) interface.
+5.  Call [**IAudioSessionControl2::SetDuckingPreference**](/windows/win32/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference?branch=master) and pass **TRUE** or **FALSE** to specify the the ducking preference. The specified preference can be changed dynamically during the session. Note that the opt-out change does not take effect until the stream is stopped and started again.
 
-The following code shows how an application can specify its ducking preference. The caller of the function must pass **TRUE** or **FALSE** in the DuckingOptOutChecked parameter. Depending on the value passed, ducking is enabled or disabled through the [**IAudioSessionControl2::SetDuckingPreference**](iaudiosessioncontrol2-setduckingpreference.md).
+The following code shows how an application can specify its ducking preference. The caller of the function must pass **TRUE** or **FALSE** in the DuckingOptOutChecked parameter. Depending on the value passed, ducking is enabled or disabled through the [**IAudioSessionControl2::SetDuckingPreference**](/windows/win32/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference?branch=master).
 
 
 ```C++

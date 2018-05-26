@@ -2,13 +2,16 @@
 title: InstallByDirectAccess method of the PS\_RemoteAccess class
 description: This cmdlet does the following 1.
 audience: developer
-ms.assetid: 'a57cd840-34d7-4a41-96e0-cf02f5f42d6f'
-ms.prod: 'windows-server-dev'
+ms.assetid: a57cd840-34d7-4a41-96e0-cf02f5f42d6f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["InstallByDirectAccess method", "InstallByDirectAccess method, PS_RemoteAccess class", "PS_RemoteAccess class, InstallByDirectAccess method"]
+keywords:
+- InstallByDirectAccess method
+- InstallByDirectAccess method, PS_RemoteAccess class
+- PS_RemoteAccess class, InstallByDirectAccess method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallByDirectAccess method of the PS\_RemoteAccess class
@@ -28,20 +34,20 @@ This cmdlet does the following 1. Performs pre-requisite checks for DirectAccess
 
 ```mof
 uint32 InstallByDirectAccess(
-  [in]  string             ComputerName,
-  [in]  string             DAInstallType,
-  [in]  string             ClientGpoName,
-  [in]  string             InternalInterface,
-  [in]  string             InternetInterface,
-  [in]  uint8              NlsCertificate[],
-  [in]  string             NlsUrl,
-  [in]  boolean            NoPrerequisite,
-  [in]  string             ServerGpoName,
-  [in]  string             ConnectToAddress,
-  [in]  boolean            DeployNat,
-  [in]  boolean            PassThru,
-  [in]  boolean            Force,
-  [out] RemoteAccessCommon cmdletOutput
+  [in]  string             ComputerName,
+  [in]  string             DAInstallType,
+  [in]  string             ClientGpoName,
+  [in]  string             InternalInterface,
+  [in]  string             InternetInterface,
+  [in]  uint8              NlsCertificate[],
+  [in]  string             NlsUrl,
+  [in]  boolean            NoPrerequisite,
+  [in]  string             ServerGpoName,
+  [in]  string             ConnectToAddress,
+  [in]  boolean            DeployNat,
+  [in]  boolean            PassThru,
+  [in]  boolean            Force,
+  [out] RemoteAccessCommon cmdletOutput
 );
 ```
 
@@ -156,7 +162,7 @@ Switch parameter used to suppress user confirmation prompts for the following co
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -170,9 +176,9 @@ Switch parameter used to suppress user confirmation prompts for the following co
 [**PS\_RemoteAccess**](ps-remoteaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

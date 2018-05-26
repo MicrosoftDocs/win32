@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the underlying native handle for this print queue.'
-ms.assetid: 'FE8A8822-28C8-4255-86A4-A77F17C1C281'
-title: 'IPrinterQueue::Handle property'
+---
+Description: Gets the underlying native handle for this print queue.
+ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
+title: IPrinterQueueHandle property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue::Handle property

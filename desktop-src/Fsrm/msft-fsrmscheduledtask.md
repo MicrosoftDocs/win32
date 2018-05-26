@@ -4,11 +4,13 @@ description: Represents a FSRM scheduled task object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ed0ec1c-3af2-4c49-92cf-0911473fb33a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 8ed0ec1c-3af2-4c49-92cf-0911473fb33a
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMScheduledTask class File Server Resource Manager", "MSFT_FSRMScheduledTask class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMScheduledTask class File Server Resource Manager
+- MSFT_FSRMScheduledTask class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMScheduledTask class
@@ -31,7 +36,7 @@ Represents a FSRM scheduled task object
 
 The following syntax is simplified from Managed Object Format (*MOF*) code and includes all of the inherited properties.
 
-**Windows Server 2008 R2 and Windows Server 2008:** To schedule a task or manage scheduled tasks use the [**IFsrmReportScheduler**](ifsrmreportscheduler.md) interface.
+**Windows Server 2008 R2 and Windows Server 2008:** To schedule a task or manage scheduled tasks use the [**IFsrmReportScheduler**](/windows/previous-versions/FsrmReports/nn-fsrmreports-ifsrmreportscheduler?branch=master) interface.
 
 ## Syntax
 
@@ -40,11 +45,11 @@ The following syntax is simplified from Managed Object Format (*MOF*) code and i
 class MSFT_FSRMScheduledTask
 {
   datetime Time;
-  sint32   RunDuration;
-  uint32   Weekly[];
-  sint32   Monthly[];
+  sint32   RunDuration;
+  uint32   Weekly[];
+  sint32   Monthly[];
   datetime NextRunTime;
-  string   LegacyTaskName;
+  string   LegacyTaskName;
 };
 ```
 
@@ -67,7 +72,7 @@ The **MSFT\_FSRMScheduledTask** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -99,7 +104,7 @@ Access type: Read/write
 
 <dt>
 
-1–31
+1 31
 </dt> <dd>
 
 Represents the specified day of the month.
@@ -237,7 +242,7 @@ For an example see [Scheduling a Storage Report using WMI](scheduling-a-report-j
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -251,9 +256,9 @@ For an example see [Scheduling a Storage Report using WMI](scheduling-a-report-j
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

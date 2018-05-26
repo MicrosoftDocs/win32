@@ -1,13 +1,16 @@
 ---
-Description: 'The Item method of the SWbemQualifierSet object returns a named SWbemQualifier object from the collection. This is the default method of this object.'
+Description: The Item method of the SWbemQualifierSet object returns a named SWbemQualifier object from the collection. This is the default method of this object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5ed3a336-c06f-446d-85d4-243daddc82a5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5ed3a336-c06f-446d-85d4-243daddc82a5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifierSet.Item method'
+title: SWbemQualifierSet.Item method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifierSet.Item method
@@ -83,8 +86,8 @@ Specified qualifier does not exist.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -103,9 +106,9 @@ Specified qualifier does not exist.
 [**SWbemQualifier**](swbemqualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the presentation parameters.'
-ms.assetid: 'd677aeb7-a188-4ddc-b8c9-48e13676e9c8'
-title: 'D3DPRESENT\_PARAMETERS structure'
+---
+Description: Describes the presentation parameters.
+ms.assetid: d677aeb7-a188-4ddc-b8c9-48e13676e9c8
+title: D3DPRESENT\_PARAMETERS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPRESENT\_PARAMETERS structure
@@ -43,7 +48,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Width of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the width of one of the enumerated display modes found through [**EnumAdapterModes**](idirect3d9--enumadaptermodes.md). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
+Width of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the width of one of the enumerated display modes found through [**EnumAdapterModes**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes?branch=master). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
 
 </dd> <dt>
 
@@ -54,7 +59,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Height of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the height of one of the enumerated display modes found through [**EnumAdapterModes**](idirect3d9--enumadaptermodes.md). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
+Height of the new swap chain's back buffers, in pixels. If **Windowed** is **FALSE** (the presentation is full-screen), this value must equal the height of one of the enumerated display modes found through [**EnumAdapterModes**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes?branch=master). If **Windowed** is **TRUE** and either **BackBufferWidth** or **BackBufferHeight** is zero, the corresponding dimension of the client area of the **hDeviceWindow** (or the focus window, if **hDeviceWindow** is **NULL**) is taken.
 
 </dd> <dt>
 
@@ -65,9 +70,9 @@ Type: **[D3DFORMAT](d3dformat.md)**
 
 </dd> <dd>
 
-The back buffer format. For more information about formats, see [D3DFORMAT](d3dformat.md). This value must be one of the render-target formats as validated by [**CheckDeviceType**](idirect3d9--checkdevicetype.md). You can use [**GetDisplayMode**](idirect3ddevice9--getdisplaymode.md) to obtain the current format.
+The back buffer format. For more information about formats, see [D3DFORMAT](d3dformat.md). This value must be one of the render-target formats as validated by [**CheckDeviceType**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdevicetype?branch=master). You can use [**GetDisplayMode**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdisplaymode?branch=master) to obtain the current format.
 
-In fact, D3DFMT\_UNKNOWN can be specified for the **BackBufferFormat** while in windowed mode. This tells the runtime to use the current display-mode format and eliminates the need to call [**GetDisplayMode**](idirect3ddevice9--getdisplaymode.md).
+In fact, D3DFMT\_UNKNOWN can be specified for the **BackBufferFormat** while in windowed mode. This tells the runtime to use the current display-mode format and eliminates the need to call [**GetDisplayMode**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdisplaymode?branch=master).
 
 For windowed applications, the back buffer format no longer needs to match the display-mode format because color conversion can now be done by the hardware (if the hardware supports color conversion). The set of possible back buffer formats is constrained, but the runtime will allow any valid back buffer format to be presented to any desktop format. (There is the additional requirement that the device be operable in the desktop; devices typically do not operate in 8 bits per pixel modes.)
 
@@ -106,7 +111,7 @@ Type: **[**DWORD**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](idirect3d9--checkdevicemultisampletype.md). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](direct3d9.d3dmultisample_type) must match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype?branch=master). Passing a larger value returns the error D3DERR\_INVALIDCALL. Paired values of render targets or of depth stencil surfaces and [**D3DMULTISAMPLE\_TYPE**](direct3d9.d3dmultisample_type) must match.
 
 </dd> <dt>
 
@@ -142,15 +147,15 @@ Type: **[**HWND**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-The device window determines the location and size of the back buffer on screen. This is used by Direct3D when the back buffer contents are copied to the front buffer during [**Present**](idirect3ddevice9--present.md).
+The device window determines the location and size of the back buffer on screen. This is used by Direct3D when the back buffer contents are copied to the front buffer during [**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master).
 
 -   For a full-screen application, this is a handle to the top window (which is the focus window).
 
     For applications that use multiple full-screen devices (such as a multimonitor system), exactly one device can use the focus window as the device window. All other devices must have unique device windows.
 
--   For a windowed-mode application, this handle will be the default target window for [**Present**](idirect3ddevice9--present.md). If this handle is **NULL**, the focus window will be taken.
+-   For a windowed-mode application, this handle will be the default target window for [**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master). If this handle is **NULL**, the focus window will be taken.
 
-Note that no attempt is made by the runtime to reflect user changes in window size. The back buffer is not implicitly reset when this window is reset. However, the [**Present**](idirect3ddevice9--present.md) method does automatically track window position changes.
+Note that no attempt is made by the runtime to reflect user changes in window size. The back buffer is not implicitly reset when this window is reset. However, the [**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) method does automatically track window position changes.
 
 </dd> <dt>
 
@@ -210,7 +215,7 @@ Type: **[**UINT**](winprog.windows_data_types)**
 The rate at which the display adapter refreshes the screen. The value depends on the mode in which the application is running:
 
 -   For windowed mode, the refresh rate must be 0.
--   For full-screen mode, the refresh rate is one of the refresh rates returned by [**EnumAdapterModes**](idirect3d9--enumadaptermodes.md).
+-   For full-screen mode, the refresh rate is one of the refresh rates returned by [**EnumAdapterModes**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes?branch=master).
 
 </dd> <dt>
 
@@ -242,16 +247,16 @@ The maximum rate at which the swap chain's back buffers can be presented to the 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**CreateDevice**](idirect3d9--createdevice.md)
+[**CreateDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master)
 </dt> <dt>
 
-[**CreateAdditionalSwapChain**](idirect3ddevice9--createadditionalswapchain.md)
+[**CreateAdditionalSwapChain**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createadditionalswapchain?branch=master)
 </dt> <dt>
 
-[**Present**](idirect3ddevice9--present.md)
+[**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master)
 </dt> <dt>
 
-[**Reset**](idirect3ddevice9--reset.md)
+[**Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master)
 </dt> </dl>
 
  

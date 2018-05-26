@@ -4,11 +4,12 @@ description: Specifies the type of resource that the incoming connection is conn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '80D921BF-2D84-4A18-9544-50087B81F177'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 80D921BF-2D84-4A18-9544-50087B81F177
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CB_RESOURCE_TYPE enumeration Remote Desktop Services"]
+keywords:
+- CB_RESOURCE_TYPE enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # CB\_RESOURCE\_TYPE enumeration
@@ -28,8 +32,8 @@ Specifies the type of resource that the incoming connection is connecting to. Th
 
 ```C++
 typedef enum _CB_RESOURCE_TYPE { 
-  CB_RESOURCE_UNDEFINED  = 0,
-  CB_RESOURCE_SESSION    = 1,
+  CB_RESOURCE_UNDEFINED  = 0,
+  CB_RESOURCE_SESSION    = 1,
   CB_RESOURCE_VM
 } CB_RESOURCE_TYPE;
 ```
@@ -67,8 +71,8 @@ The resource is a virtual machine.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl> |
 
 
@@ -80,9 +84,9 @@ The resource is a virtual machine.
 [**CB\_CONNECTION\_INFO**](cb-connection-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

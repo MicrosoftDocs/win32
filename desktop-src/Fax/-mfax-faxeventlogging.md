@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxEventLogging configuration object is used by a fax client application to configure the event logging categories used by the fax service. You can specify the level of detail at which the fax service logs events in the application log.'
-ms.assetid: 'c46f1b55-8211-4c9b-a622-356f2ea2db36'
+---
+Description: The FaxEventLogging configuration object is used by a fax client application to configure the event logging categories used by the fax service. You can specify the level of detail at which the fax service logs events in the application log.
+ms.assetid: c46f1b55-8211-4c9b-a622-356f2ea2db36
 title: FaxEventLogging object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxEventLogging object
@@ -83,7 +88,7 @@ To create a **FaxEventLogging** object in C++, call the [**EventLogging**](-mfax
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxEventLogging**](-mfax-faxeventlogging-cpp.md)
+[**IFaxEventLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxeventlogging?branch=master)
 </dt> </dl>
 
  

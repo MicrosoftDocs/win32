@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an array of pointers to nontransposed matrices.'
-ms.assetid: 'ee9f752d-a06a-43a3-b4ce-d1d585ba8c08'
-title: 'ID3DXBaseEffect::GetMatrixPointerArray method'
+---
+Description: Gets an array of pointers to nontransposed matrices.
+ms.assetid: ee9f752d-a06a-43a3-b4ce-d1d585ba8c08
+title: ID3DXBaseEffectGetMatrixPointerArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetMatrixPointerArray method

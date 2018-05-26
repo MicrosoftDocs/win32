@@ -1,7 +1,12 @@
 ---
 title: Receiving Spanning Events in the Stream Buffer Engine
 description: Receiving Spanning Events in the Stream Buffer Engine
-ms.assetid: '6799a507-7326-404a-af44-e1c9345617e3'
+ms.assetid: 6799a507-7326-404a-af44-e1c9345617e3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Spanning Events in the Stream Buffer Engine
@@ -12,14 +17,14 @@ For example, a recording may begin as unprotected content and then become protec
 
 Spanning events can be either global spanning events or in-band spanning events.
 
--   *Global spanning events* are events that contain information about a whole recording. An example of a global spanning event is the [**SBE2\_STREAM\_DESC**](sbe2-stream-desc.md) event, which describes the state of streams in the recording.
+-   *Global spanning events* are events that contain information about a whole recording. An example of a global spanning event is the [**SBE2\_STREAM\_DESC**](/windows/previous-versions/sbe/ns-sbe-__midl___midl_itf_sbe_0000_0015_0001?branch=master) event, which describes the state of streams in the recording.
 -   *In-band spanning events* are events sent with a particular stream. These events contain the information of that stream. An example of an in-band spanning event is **EVENTID\_LanguageSpanningEvent**, which indicates the language of an audio stream.
 
-SBE2 implements the [**IBroadcastEventEx**](ibroadcasteventex.md) interface to broadcast spanning events. To receive spanning events, an object calls [**IBroadcastEventEx::FireEx**](ibroadcasteventex-fireex.md) with the GUID of the spanning event and with context information that uniquely identifies the event. A value of 0 for the third parameter to **FireEx** indicates that this event is a global spanning event. A stream ID value for the third parameter to **FireEx** indicates that the event is an in-band spanning event.
+SBE2 implements the [**IBroadcastEventEx**](/windows/previous-versions/tuner/nn-tuner-ibroadcasteventex?branch=master) interface to broadcast spanning events. To receive spanning events, an object calls [**IBroadcastEventEx::FireEx**](/windows/previous-versions/tuner/nf-tuner-ibroadcasteventex-fireex?branch=master) with the GUID of the spanning event and with context information that uniquely identifies the event. A value of 0 for the third parameter to **FireEx** indicates that this event is a global spanning event. A stream ID value for the third parameter to **FireEx** indicates that the event is an in-band spanning event.
 
-An application can use the [**ISBE2GlobalEvent**](isbe2globalevent.md) or [**ISBE2SpanningEvent**](isbe2spanningevent.md) interface (new in Windows 7) to get data from a global or in-band spanning event, respectively. Both global and in-band spanning events can be received from the [**IBroadcastEventEx**](ibroadcasteventex.md) interface..
+An application can use the [**ISBE2GlobalEvent**](/windows/previous-versions/sbe/nn-sbe-isbe2globalevent?branch=master) or [**ISBE2SpanningEvent**](/windows/previous-versions/sbe/nn-sbe-isbe2spanningevent?branch=master) interface (new in Windows 7) to get data from a global or in-band spanning event, respectively. Both global and in-band spanning events can be received from the [**IBroadcastEventEx**](/windows/previous-versions/tuner/nn-tuner-ibroadcasteventex?branch=master) interface..
 
-Applications can also receive in-band spanning events by parsing media samples in a stream. The media sample for a spanning event does not contain any media data but carries the event data. To get the event data, query the sample for the [**IAttributeGet**](iattributeget.md) interface and call the [**IAttributeGet::GetAttrib**](iattributeget-getattrib.md) or [**IAttributeGet::GetAttribIndexed**](iattributeget-getattribindexed.md) method.
+Applications can also receive in-band spanning events by parsing media samples in a stream. The media sample for a spanning event does not contain any media data but carries the event data. To get the event data, query the sample for the [**IAttributeGet**](/windows/previous-versions/dsattrib/nn-dsattrib-iattributeget?branch=master) interface and call the [**IAttributeGet::GetAttrib**](/windows/previous-versions/dsattrib/nf-dsattrib-iattributeget-getattrib?branch=master) or [**IAttributeGet::GetAttribIndexed**](/windows/previous-versions/dsattrib/nf-dsattrib-iattributeget-getattribindexed?branch=master) method.
 
 The example in the next section, "Registering a Broadcast Event Service" shows how to receive a spanning event that is broadcast by a [Broadcast Event Service](broadcast-service.md).
 
@@ -116,7 +121,7 @@ HRESULT SBEGlobalEvent::UnRegisterForSBEGlobalEvents()
 
 **Handling Global Spanning Events**
 
-When the [Stream Buffer Source](stream-buffer-source-filter.md) filter raises a global spanning event by calling the [**IBroadcastEventEx::FireEx**](ibroadcasteventex-fireex.md) method, applications that handle that global spanning event call a handler method to acquire the event data and act on the event. The following code sample shows how an application might handle the [SBE2\_STREAM\_DESC\_EVENT](stream-buffer-engine-codes.md) event, which signals an update to one of the streams for a Stream Buffer Source filter:
+When the [Stream Buffer Source](stream-buffer-source-filter.md) filter raises a global spanning event by calling the [**IBroadcastEventEx::FireEx**](/windows/previous-versions/tuner/nf-tuner-ibroadcasteventex-fireex?branch=master) method, applications that handle that global spanning event call a handler method to acquire the event data and act on the event. The following code sample shows how an application might handle the [SBE2\_STREAM\_DESC\_EVENT](stream-buffer-engine-codes.md) event, which signals an update to one of the streams for a Stream Buffer Source filter:
 
 
 ```C++
@@ -136,13 +141,13 @@ STDMETHOD(FireEx)(GUID eventID, ULONG param1, ULONG param2, ULONG param3, ULONG 
 
 
 
-The handler method queries the [**Stream Buffer Source**](stream-buffer-source-filter.md) filter to obtain a pointer to the [**ISBE2GlobalEvent**](isbe2globalevent.md) interface.
+The handler method queries the [**Stream Buffer Source**](stream-buffer-source-filter.md) filter to obtain a pointer to the [**ISBE2GlobalEvent**](/windows/previous-versions/sbe/nn-sbe-isbe2globalevent?branch=master) interface.
 
 The handler then must perform the following actions:
 
-1.  If the required buffer size is unknown, call the [**GetEvent**](isbe2globalevent-getevent.md) method by using the interface pointer to get the size of the buffer required to hold the event data. The **GetEvent** call passes **NULL** for the *pb* parameter to get the required buffer size, in bytes, in the *pcb* return parameter. If the required buffer size is known, that value can be passed as the value of the *pcb* parameter.
+1.  If the required buffer size is unknown, call the [**GetEvent**](/windows/previous-versions/sbe/nf-sbe-isbe2globalevent-getevent?branch=master) method by using the interface pointer to get the size of the buffer required to hold the event data. The **GetEvent** call passes **NULL** for the *pb* parameter to get the required buffer size, in bytes, in the *pcb* return parameter. If the required buffer size is known, that value can be passed as the value of the *pcb* parameter.
 2.  Allocate the buffer that will hold the event data.
-3.  Call [**GetEvent**](isbe2globalevent-getevent.md) again to return the actual event data in the buffer allocated in step 2.
+3.  Call [**GetEvent**](/windows/previous-versions/sbe/nf-sbe-isbe2globalevent-getevent?branch=master) again to return the actual event data in the buffer allocated in step 2.
 
 The following example illustrates these steps:
 
@@ -182,16 +187,16 @@ HRESULT HandleStreamDescEvent(GUID eventID, ULONG param1, ULONG param2,
 [**Broadcast Event Service Object**](broadcast-service.md)
 </dt> <dt>
 
-[**IBroadcastEventEx**](ibroadcasteventex.md)
+[**IBroadcastEventEx**](/windows/previous-versions/tuner/nn-tuner-ibroadcasteventex?branch=master)
 </dt> <dt>
 
-[**IBroadcastEventEx::FireEx**](ibroadcasteventex-fireex.md)
+[**IBroadcastEventEx::FireEx**](/windows/previous-versions/tuner/nf-tuner-ibroadcasteventex-fireex?branch=master)
 </dt> <dt>
 
-[**ISBE2GlobalEvent**](isbe2globalevent.md)
+[**ISBE2GlobalEvent**](/windows/previous-versions/sbe/nn-sbe-isbe2globalevent?branch=master)
 </dt> <dt>
 
-[**ISBE2GlobalEvent::GetEvent**](isbe2globalevent-getevent.md)
+[**ISBE2GlobalEvent::GetEvent**](/windows/previous-versions/sbe/nf-sbe-isbe2globalevent-getevent?branch=master)
 </dt> </dl>
 
  

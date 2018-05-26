@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the PauseServerQueue property for a FaxServer object. The PauseServerQueue property is a Boolean value that indicates whether the fax server has paused the fax job queue.'
-ms.assetid: 'f4221461-127c-40a3-962a-3c7c69d736d7'
-title: 'FaxServer.PauseServerQueue property'
+---
+Description: Sets or retrieves the PauseServerQueue property for a FaxServer object. The PauseServerQueue property is a Boolean value that indicates whether the fax server has paused the fax job queue.
+ms.assetid: f4221461-127c-40a3-962a-3c7c69d736d7
+title: FaxServer.PauseServerQueue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.PauseServerQueue property

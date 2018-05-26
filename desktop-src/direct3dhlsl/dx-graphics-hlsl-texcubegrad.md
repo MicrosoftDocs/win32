@@ -1,14 +1,20 @@
 ---
 title: texCUBEgrad
 description: Samples a cube texture using a gradient to select the mip level.
-ms.assetid: 'ebc5e38a-e314-43b0-9a00-7e4147e24bf0'
-keywords: ["texCUBEgrad HLSL"]
+ms.assetid: ebc5e38a-e314-43b0-9a00-7e4147e24bf0
+keywords:
+- texCUBEgrad HLSL
 topic_type:
 - apiref
 api_name:
 - texCUBEgrad
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texCUBEgrad
@@ -22,7 +28,7 @@ Samples a cube texture using a gradient to select the mip level.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Samples a cube texture using a gradient to select the mip level.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,13 +74,13 @@ This function is supported in the following shader models.
 | Shader Model                                              | Supported                |
 |-----------------------------------------------------------|--------------------------|
 | [Shader Model 4](dx-graphics-hlsl-sm4.md)                | yes (pixel shader only)  |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | yes¹ (pixel shader only) |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | yes² (pixel shader only) |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | yes  (pixel shader only) |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | yes  (pixel shader only) |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | no                       |
 
 
 
- 
+ 
 
 1.  Significant code reordering is done to move gradient computations outside of flow control.
 2.  If the D3DPSHADERCAPS2\_0 cap is set with D3DD3DPSHADERCAPS2\_0\_GRADIENTINSTRUCTIONS, the compiler maps this function to texldd.
@@ -86,9 +92,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

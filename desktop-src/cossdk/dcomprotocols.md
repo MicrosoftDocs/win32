@@ -1,14 +1,19 @@
 ---
-Description: 'Contains a list of the protocols to be used by DCOM. It contains an object for each protocol.'
-ms.assetid: 'f553ce01-39b6-4dc3-9696-978b390a5c7d'
+Description: Contains a list of the protocols to be used by DCOM. It contains an object for each protocol.
+ms.assetid: f553ce01-39b6-4dc3-9696-978b390a5c7d
 title: DCOMProtocols collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DCOMProtocols collection
 
 Contains a list of the protocols to be used by DCOM. It contains an object for each protocol.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -28,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [Name](#name)
 -   [Order](#order)
@@ -40,7 +45,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                             |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The name of the protocol. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | The name of the protocol. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                   |
 | Type           | String                                                                                                                                                      |
 | Default        | "New Protocol"                                                                                                                                              |
@@ -72,7 +77,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                                                             |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The code specifying the RPC protocol sequence. The supported protocol codes include the following: ncacn\_ip\_tcp, ncacn\_http, ncacn\_spx. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | The code specifying the RPC protocol sequence. The supported protocol codes include the following: ncacn\_ip\_tcp, ncacn\_http, ncacn\_spx. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                                   |
 | Type           | String                                                                                                                                                                                                                                                                      |
 | Default        | ""                                                                                                                                                                                                                                                                          |

@@ -4,11 +4,13 @@ description: Exposes a method that associates RemoteApp and Desktop Connection c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7E09AF14-2D6C-4D6E-8033-C691D9DC8057'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7E09AF14-2D6C-4D6E-8033-C691D9DC8057
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpWorkspace interface Remote Desktop Services", "IMsRdpWorkspace interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpWorkspace interface Remote Desktop Services
+- IMsRdpWorkspace interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsRdpWebAccess.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpWorkspace2 interface
@@ -37,11 +42,11 @@ The **IMsRdpWorkspace** interface has these methods.
 
 | Method                                                        | Description                                                                    |
 |:--------------------------------------------------------------|:-------------------------------------------------------------------------------|
-| [**StartWorkspaceEx**](imsrdpworkspace2-startworkspaceex.md) | Associates user credentials and certificates with a connection ID. <br/> |
+| [**StartWorkspaceEx**](/windows/win32/workspaceruntime/?branch=master) | Associates user credentials and certificates with a connection ID. <br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,8 +54,8 @@ The **IMsRdpWorkspace** interface has these methods.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>MsRdpWebAccess.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpWorkspace2 is defined as 145D0622-04CF-4FC3-A776-A82A9169CDF8<br/>           |
 
@@ -66,9 +71,9 @@ The **IMsRdpWorkspace** interface has these methods.
 [**IMsRdpWorkspace**](imsrdpworkspace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

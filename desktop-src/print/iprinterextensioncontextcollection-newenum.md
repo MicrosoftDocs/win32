@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects.'
-ms.assetid: '139B2E3F-AA08-4400-9BBF-A549B9EB2643'
-title: 'IPrinterExtensionContextCollection::NewEnum method'
+---
+Description: Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects.
+ms.assetid: 139B2E3F-AA08-4400-9BBF-A549B9EB2643
+title: IPrinterExtensionContextCollectionNewEnum method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContextCollection::NewEnum method

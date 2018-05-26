@@ -1,12 +1,17 @@
 ---
 title: dcl\_tgsm\_structured (sm5 - asm)
-description: Declare a reference to a region of shared memory space available to the compute shader’s thread group. The memory is viewed as an array of structures.
-ms.assetid: 'C42CD506-58EB-4740-8403-3F9BF29F0CAE'
+description: Declare a reference to a region of shared memory space available to the compute shader s thread group. The memory is viewed as an array of structures.
+ms.assetid: C42CD506-58EB-4740-8403-3F9BF29F0CAE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_tgsm\_structured (sm5 - asm)
 
-Declare a reference to a region of shared memory space available to the compute shader’s thread group. The memory is viewed as an array of structures.
+Declare a reference to a region of shared memory space available to the compute shader s thread group. The memory is viewed as an array of structures.
 
 
 
@@ -15,7 +20,7 @@ Declare a reference to a region of shared memory space available to the compute 
 
 
 
- 
+ 
 
 
 
@@ -27,13 +32,13 @@ Declare a reference to a region of shared memory space available to the compute 
 
 
 
- 
+ 
 
 ## Remarks
 
 The total storage for all g\# must be &lt;= the amount of shared memory available per thread group, which is 32kB, or 8192 32-bit scalars.
 
-In an extreme case, you can declare 8192 total g\#’s, if each has a *structByteStride* of 4 and a *structCount* of 1.
+In an extreme case, you can declare 8192 total g\# s, if each has a *structByteStride* of 4 and a *structCount* of 1.
 
 In the opposite extreme, you can declare a single g\# with a structure stride of 32kB and a structure count of 1.
 
@@ -47,7 +52,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +71,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -75,9 +80,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to an IPrinterExtensionContext object.'
-ms.assetid: '5E3DC6C7-E370-4120-81B7-2093812AD009'
-title: 'IPrinterExtensionContextCollection::GetAt method'
+---
+Description: Gets a pointer to an IPrinterExtensionContext object.
+ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
+title: IPrinterExtensionContextCollectionGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContextCollection::GetAt method

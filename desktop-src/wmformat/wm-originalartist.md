@@ -1,14 +1,20 @@
 ---
 title: WM/OriginalArtist
 description: The WM/OriginalArtist attribute contains the name of the artist who originally produced the content.
-ms.assetid: '92404deb-9a56-43d9-bb81-1809226eeb60'
-keywords: ["WM/OriginalArtist windows Media Format"]
+ms.assetid: 92404deb-9a56-43d9-bb81-1809226eeb60
+keywords:
+- WM/OriginalArtist windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/OriginalArtist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/OriginalArtist

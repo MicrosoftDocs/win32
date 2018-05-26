@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.versionInfo property
 description: The versionInfo property gets a value that specifies the version of the Windows Media Player.
-ms.assetid: 'e128bec5-1ae9-4710-800e-4f97df362909'
-keywords: ["versionInfo property Windows Media Player", "versionInfo property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , versionInfo property"]
+ms.assetid: e128bec5-1ae9-4710-800e-4f97df362909
+keywords:
+- versionInfo property Windows Media Player
+- versionInfo property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , versionInfo property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.versionInfo property
@@ -113,9 +121,9 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

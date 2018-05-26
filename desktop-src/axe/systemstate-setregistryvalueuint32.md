@@ -1,8 +1,11 @@
 ---
 title: SystemState SetRegistryValueUInt32 method
 description: Sets an unsigned 32-bit integer (unsigned REG\_DWORD) value into the registry.
-ms.assetid: '8A601E4E-011E-49FE-AC6A-62FF5D3A8172'
-keywords: ["SetRegistryValueUInt32 method Access Execution Engine", "SetRegistryValueUInt32 method Access Execution Engine , SystemState interface", "SystemState interface Access Execution Engine , SetRegistryValueUInt32 method"]
+ms.assetid: 8A601E4E-011E-49FE-AC6A-62FF5D3A8172
+keywords:
+- SetRegistryValueUInt32 method Access Execution Engine
+- SetRegistryValueUInt32 method Access Execution Engine , SystemState interface
+- SystemState interface Access Execution Engine , SetRegistryValueUInt32 method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemState::SetRegistryValueUInt32 method
@@ -22,10 +30,10 @@ Sets an unsigned 32-bit integer (unsigned REG\_DWORD) value into the registry.
 
 ```C++
 virtual HRESULT SetRegistryValueUInt32(
-  [in] HKEY    keyRoot,
-  [in] LPCWSTR keyPath,
-  [in] LPCWSTR valueName,
-  [in] ULONG   data
+  [in] HKEY    keyRoot,
+  [in] LPCWSTR keyPath,
+  [in] LPCWSTR valueName,
+  [in] ULONG   data
 ) = 0;
 ```
 
@@ -73,8 +81,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -87,9 +95,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**SystemState**](systemstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

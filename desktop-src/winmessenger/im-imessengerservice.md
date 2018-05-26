@@ -1,8 +1,10 @@
 ---
 title: IMessengerService interface
 description: Do not use. The primary interface for an individual MessengerService object.
-ms.assetid: '7f20ec7e-a379-4545-80b8-c818f0999aaf'
-keywords: ["IMessengerService interface Windows Messenger", "IMessengerService interface Windows Messenger , described"]
+ms.assetid: 7f20ec7e-a379-4545-80b8-c818f0999aaf
+keywords:
+- IMessengerService interface Windows Messenger
+- IMessengerService interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerService interface
 
-\[**IMessengerService** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMessengerService** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The primary interface for an individual [**MessengerService**](im-messengerservice.md) object.
 
@@ -42,7 +49,7 @@ The **IMessengerService** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,10 +57,10 @@ The **IMessengerService** interface has these properties.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -61,9 +68,9 @@ The **IMessengerService** interface has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

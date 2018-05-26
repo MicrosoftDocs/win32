@@ -1,8 +1,11 @@
 ---
 title: IPropPatchRequest RemoveProperty method
 description: Adds the name of the property to the list of properties to remove.
-ms.assetid: 'c45a63c0-99cd-4e75-8c5e-25c8190941a6'
-keywords: ["RemoveProperty method Windows Mail (formerly Outlook Express)", "RemoveProperty method Windows Mail (formerly Outlook Express) , IPropPatchRequest interface", "IPropPatchRequest interface Windows Mail (formerly Outlook Express) , RemoveProperty method"]
+ms.assetid: c45a63c0-99cd-4e75-8c5e-25c8190941a6
+keywords:
+- RemoveProperty method Windows Mail (formerly Outlook Express)
+- RemoveProperty method Windows Mail (formerly Outlook Express) , IPropPatchRequest interface
+- IPropPatchRequest interface Windows Mail (formerly Outlook Express) , RemoveProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropPatchRequest::RemoveProperty method
@@ -24,8 +32,8 @@ Adds the name of the property to the list of properties to remove. The property 
 
 ```C++
 HRESULT RemoveProperty(
-  [in] DWORD  dwNamespaceID,
-  [in] LPCSTR pszPropertyName
+  [in] DWORD  dwNamespaceID,
+  [in] LPCSTR pszPropertyName
 );
 ```
 
@@ -84,7 +92,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -92,8 +100,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -101,9 +109,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a semicolon-delimited list of media servers that can accept connections from client applications without using a proxy server.'
-ms.assetid: '218883c5-9a26-4733-8308-1827cf1f2cd7'
-title: 'MFNETSOURCE\_PROXYEXCEPTIONLIST property'
+---
+Description: Specifies a semicolon-delimited list of media servers that can accept connections from client applications without using a proxy server.
+ms.assetid: 218883c5-9a26-4733-8308-1827cf1f2cd7
+title: MFNETSOURCE\_PROXYEXCEPTIONLIST property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROXYEXCEPTIONLIST property
@@ -28,7 +33,7 @@ VT\_LPWSTR
 
 The constant **MFNETSOURCE\_PROXYEXCEPTIONLIST** defines the GUID for this property key. The property identifier (PID) is zero.
 
-Applications can use this property to configure the proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](mfcreateproxylocator.md) function. The proxy locator does not perform proxy detection for these addresses.
+Applications can use this property to configure the proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-mfcreateproxylocator?branch=master) function. The proxy locator does not perform proxy detection for these addresses.
 
 ## Requirements
 

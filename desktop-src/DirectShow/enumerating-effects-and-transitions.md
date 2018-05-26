@@ -1,7 +1,12 @@
 ---
 Description: Enumerating Effects and Transitions
-ms.assetid: '364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a'
+ms.assetid: 364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a
 title: Enumerating Effects and Transitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Effects and Transitions
@@ -10,12 +15,12 @@ title: Enumerating Effects and Transitions
 
 DirectShow provides a [System Device Enumerator](system-device-enumerator.md) object for enumerating devices. You can use it to retrieve monikers for effects or transitions installed on the user's system.
 
-The system device enumerator exposes the [**ICreateDevEnum**](icreatedevenum.md) interface. It returns category enumerators for specified device categories. A category enumerator, in turn, exposes the [**IEnumMoniker**](https://msdn.microsoft.com/library/windows/desktop/ms692852) interface and returns monikers for each device in the category. For a detailed discussion of using **ICreateDevEnum**, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md). The following is a brief summary, specific to DirectShow Editing Services.
+The system device enumerator exposes the [**ICreateDevEnum**](/windows/win32/Strmif/nn-strmif-icreatedevenum?branch=master) interface. It returns category enumerators for specified device categories. A category enumerator, in turn, exposes the [**IEnumMoniker**](https://msdn.microsoft.com/library/windows/desktop/ms692852) interface and returns monikers for each device in the category. For a detailed discussion of using **ICreateDevEnum**, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md). The following is a brief summary, specific to DirectShow Editing Services.
 
 To enumerate effects or transitions, perform the following steps.
 
 1.  Create an instance of the system device enumerator.
-2.  Call the [**ICreateDevEnum::CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) method to retrieve a category enumerator. Categories are defined by class identifiers (CLSIDs). Use CLSID\_VideoEffects1Category for effects or CLSID\_VideoEffects2Category for transitions.
+2.  Call the [**ICreateDevEnum::CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) method to retrieve a category enumerator. Categories are defined by class identifiers (CLSIDs). Use CLSID\_VideoEffects1Category for effects or CLSID\_VideoEffects2Category for transitions.
 3.  Call **IEnumMoniker::Next** to retrieve each moniker in the enumeration.
 4.  For each moniker, call **IMoniker::BindToStorage** to retrieve its associated property bag.
 

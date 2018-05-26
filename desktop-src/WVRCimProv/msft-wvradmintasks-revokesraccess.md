@@ -4,13 +4,19 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '81ccfd4b-013a-499a-90d3-2fcd265e9b78'
-ms.prod: 'windows-server-dev'
+ms.assetid: 81ccfd4b-013a-499a-90d3-2fcd265e9b78
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RevokeSrAccess method", "RevokeSrAccess method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, RevokeSrAccess method"]
+keywords:
+- RevokeSrAccess method
+- RevokeSrAccess method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, RevokeSrAccess method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RevokeSrAccess method of the MSFT\_WvrAdminTasks class
@@ -22,8 +28,8 @@ TBD
 
 ```mof
 uint32 RevokeSrAccess(
-  [in] string ComputerName,
-  [in] string Cluster
+  [in] string ComputerName,
+  [in] string Cluster
 );
 ```
 
@@ -53,8 +59,8 @@ TBD
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -68,9 +74,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

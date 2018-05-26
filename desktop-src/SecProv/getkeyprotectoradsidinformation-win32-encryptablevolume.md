@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the security identifier and flags used to protect a key.'
-ms.assetid: '5EF97F44-78FF-4FBF-9142-F2DD0A849057'
-title: 'GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class'
+---
+Description: Retrieves the security identifier and flags used to protect a key.
+ms.assetid: 5EF97F44-78FF-4FBF-9142-F2DD0A849057
+title: GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetKeyProtectorCertificate method of the Win32\_EncryptableVolume class

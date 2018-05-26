@@ -1,8 +1,9 @@
 ---
 title: LB\_GETCOUNT message
 description: Gets the number of items in a list box.
-ms.assetid: '1fbe44fc-8b9d-4bfa-a8bb-06817eecf064'
-keywords: ["LB_GETCOUNT message Windows Controls"]
+ms.assetid: 1fbe44fc-8b9d-4bfa-a8bb-06817eecf064
+keywords:
+- LB_GETCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETCOUNT message
@@ -49,8 +55,8 @@ The returned count is one greater than the index value of the last item (the ind
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ The returned count is one greater than the index value of the last item (the ind
 [**LB\_SETCOUNT**](lb-setcount.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

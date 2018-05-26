@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the behavior of the source resolver. These flags are also used by scheme handlers and byte stream handlers.'
-ms.assetid: 'fe0b9090-5d2a-41a4-a806-57c874d3b3a2'
+---
+Description: Defines the behavior of the source resolver. These flags are also used by scheme handlers and byte stream handlers.
+ms.assetid: fe0b9090-5d2a-41a4-a806-57c874d3b3a2
 title: Source Resolver Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Resolver Flags
@@ -24,7 +29,7 @@ Defines the behavior of the source resolver. These flags are also used by scheme
 
 ## Remarks
 
-The application sets these flags when it uses the [**IMFSourceResolver**](imfsourceresolver.md) interface. The source resolver passes the same flags to the [**IMFByteStreamHandler::BeginCreateObject**](imfbytestreamhandler-begincreateobject.md) and [**IMFSchemeHandler::BeginCreateObject**](imfschemehandler-begincreateobject.md) methods.
+The application sets these flags when it uses the [**IMFSourceResolver**](/windows/win32/mfidl/nn-mfidl-imfsourceresolver?branch=master) interface. The source resolver passes the same flags to the [**IMFByteStreamHandler::BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject?branch=master) and [**IMFSchemeHandler::BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfschemehandler-begincreateobject?branch=master) methods.
 
 You must specify one of the MF\_RESOLUTION\_MEDIASOURCE or MF\_RESOLUTION\_BYTESTREAM flags. The remaining flags are all optional.
 
@@ -57,13 +62,13 @@ The MF\_RESOLUTION\_KEEP\_BYTE\_STREAM\_ALIVE\_ON\_FAIL flag is defined for the 
 [Media Foundation Constants](media-foundation-constants.md)
 </dt> <dt>
 
-[**IMFByteStreamHandler**](imfbytestreamhandler.md)
+[**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master)
 </dt> <dt>
 
-[**IMFSchemeHandler**](imfschemehandler.md)
+[**IMFSchemeHandler**](/windows/win32/mfidl/nn-mfidl-imfschemehandler?branch=master)
 </dt> <dt>
 
-[**IMFSourceResolver**](imfsourceresolver.md)
+[**IMFSourceResolver**](/windows/win32/mfidl/nn-mfidl-imfsourceresolver?branch=master)
 </dt> <dt>
 
 [Source Resolver](source-resolver.md)

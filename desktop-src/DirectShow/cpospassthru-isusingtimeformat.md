@@ -1,19 +1,24 @@
 ---
-Description: 'The IsUsingTimeFormat method determines whether a specified time format is the format currently in use. This method implements the IMediaSeeking::IsUsingTimeFormat method.'
-ms.assetid: 'e377bcf0-0518-42b2-8975-e4c345e3fed4'
-title: 'CPosPassThru.IsUsingTimeFormat method'
+Description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use. This method implements the IMediaSeekingIsUsingTimeFormat method.
+ms.assetid: e377bcf0-0518-42b2-8975-e4c345e3fed4
+title: CPosPassThru.IsUsingTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.IsUsingTimeFormat method
 
-The `IsUsingTimeFormat` method determines whether a specified time format is the format currently in use. This method implements the [**IMediaSeeking::IsUsingTimeFormat**](imediaseeking-isusingtimeformat.md) method.
+The `IsUsingTimeFormat` method determines whether a specified time format is the format currently in use. This method implements the [**IMediaSeeking::IsUsingTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-isusingtimeformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IsUsingTimeFormat(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -55,9 +60,9 @@ Returns the **HRESULT** value from the connected pin.
 [**Time Format GUIDs**](time-format-guids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

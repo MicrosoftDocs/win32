@@ -1,7 +1,12 @@
 ---
-Description: 'First line of the device status.'
-ms.assetid: '53002298-5ef3-4c5d-bd9d-70f8c82789e9'
-title: 'System.Devices.Status1'
+Description: First line of the device status.
+ms.assetid: 53002298-5ef3-4c5d-bd9d-70f8c82789e9
+title: System.Devices.Status1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Status1

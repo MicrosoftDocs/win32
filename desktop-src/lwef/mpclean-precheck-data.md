@@ -1,8 +1,10 @@
 ---
 title: MPCLEAN\_PRECHECK\_DATA structure
 description: Notification data passed to clean precheck callback function.
-ms.assetid: '65B3B116-6E83-46F5-AE2B-92A41AE39480'
-keywords: ["MPCLEAN_PRECHECK_DATA structure Legacy Windows Environment Features", "PMPCLEAN_PRECHECK_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: 65B3B116-6E83-46F5-AE2B-92A41AE39480
+keywords:
+- MPCLEAN_PRECHECK_DATA structure Legacy Windows Environment Features
+- PMPCLEAN_PRECHECK_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCLEAN\_PRECHECK\_DATA structure
@@ -22,7 +29,7 @@ Notification data passed to clean precheck callback function.
 
 ```C++
 typedef struct tagMPCLEAN_PRECHECK_DATA {
-  PMPRESOURCE_INFO     BlockedResourceInfo;
+  PMPRESOURCE_INFO     BlockedResourceInfo;
   BlockingResourceInfo PMPRESOURCE_INFO;
 } MPCLEAN_PRECHECK_DATA, *PMPCLEAN_PRECHECK_DATA;
 ```
@@ -61,8 +68,8 @@ Resource information about the resource that is blocking. For example, when prog
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -74,9 +81,9 @@ Resource information about the resource that is blocking. For example, when prog
 [**MPRESOURCE\_INFO**](mpresource-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

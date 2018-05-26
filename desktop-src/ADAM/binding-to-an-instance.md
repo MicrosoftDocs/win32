@@ -4,11 +4,16 @@ description: To bind to an Active Directory Lightweight Directory Services (AD L
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0a5e8a0f-f331-4b6a-9559-a34617f5c43d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 0a5e8a0f-f331-4b6a-9559-a34617f5c43d
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["Binding to an Instance ADAM", "AD LDS examples ADAM , binding to an instance"]
+keywords:
+- Binding to an Instance ADAM
+- AD LDS examples ADAM , binding to an instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to an Instance

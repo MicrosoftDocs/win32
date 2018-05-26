@@ -1,12 +1,17 @@
 ---
 title: Using a COM Interface
 description: Using a COM Interface
-ms.assetid: '44e1aeac-585c-4856-8c4d-1adb5b307b74'
+ms.assetid: 44e1aeac-585c-4856-8c4d-1adb5b307b74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a COM Interface
 
-The client code is the user of the COM interface. To use any COM interface, custom or standard, a client must know its IID. In the following example, the driver that calls CustomRpt passes it the name of the object that is converted to a wide-character format. The object name is fed to [**CreateFileMoniker**](createfilemoniker.md) so that a file moniker can be created and the client can bind to the running object. After the object is running, CustomRpt can access a pointer to either an interface in the standard proxy/stub, such as [**IPersistFile**](ipersistfile.md), or to the custom interface, ICustomInterface.
+The client code is the user of the COM interface. To use any COM interface, custom or standard, a client must know its IID. In the following example, the driver that calls CustomRpt passes it the name of the object that is converted to a wide-character format. The object name is fed to [**CreateFileMoniker**](/windows/win32/Objbase/nf-objbase-createfilemoniker?branch=master) so that a file moniker can be created and the client can bind to the running object. After the object is running, CustomRpt can access a pointer to either an interface in the standard proxy/stub, such as [**IPersistFile**](/windows/win32/ObjIdl/nn-objidl-ipersistfile?branch=master), or to the custom interface, ICustomInterface.
 
 
 ```C++

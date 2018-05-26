@@ -1,7 +1,12 @@
 ---
-Description: 'If this style bit is set, text in the control is aligned to the right.'
-ms.assetid: '444fb9ac-8626-4079-80be-6c210a69d984'
+Description: If this style bit is set, text in the control is aligned to the right.
+ms.assetid: 444fb9ac-8626-4079-80be-6c210a69d984
 title: RightAligned Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RightAligned Control Attribute

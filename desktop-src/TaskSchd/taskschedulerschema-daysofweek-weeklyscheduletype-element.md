@@ -1,14 +1,20 @@
 ---
 title: DaysOfWeek (weeklyScheduleType) Element
 description: Specifies the days of the week in which the task runs.
-ms.assetid: '86555681-2324-4095-9eab-fdef40e0acba'
-keywords: ["DaysOfWeek element Task Scheduler"]
+ms.assetid: 86555681-2324-4095-9eab-fdef40e0acba
+keywords:
+- DaysOfWeek element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DaysOfWeek
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DaysOfWeek (weeklyScheduleType) Element
@@ -55,7 +61,7 @@ The previous child elements are defined by the [**daysOfWeekType**](taskschedule
 
 For scripting development, the weekly interval is specified using the [**WeeklyTrigger.WeeksInterval**](weeklytrigger-weeksinterval.md) property.
 
-For C++ development, the weekly interval is specified using the [**IWeeklyTrigger::WeeksInterval**](iweeklytrigger-weeksinterval.md) property.
+For C++ development, the weekly interval is specified using the [**IWeeklyTrigger::WeeksInterval**](/windows/win32/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval?branch=master) property.
 
 ## Examples
 
@@ -89,8 +95,8 @@ For a complete example of the XML for a task that uses a weekly trigger, see [We
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -104,9 +110,9 @@ For a complete example of the XML for a task that uses a weekly trigger, see [We
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

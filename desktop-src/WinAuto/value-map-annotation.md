@@ -1,7 +1,12 @@
 ---
 title: Value Map Annotation
 description: Value Map Annotation
-ms.assetid: '29be74c7-a7c2-41f4-8b94-5771988b74ff'
+ms.assetid: 29be74c7-a7c2-41f4-8b94-5771988b74ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Value Map Annotation
@@ -26,7 +31,7 @@ Consider using Value Map Annotation in the following situations.
 
     ![screen shot of a slider that is used to set screen resolution](images/slider.gif)
 
-With value map annotation, a mapping string indicates how the list's or tree's image index corresponds to its role or state. Or, it can indicate how a slider's numeric value corresponds to a string. For example, a mapping string may indicate that a list view's image index 0 maps to a role of check box and image index 1 maps to a role of radio button. Use [**IAccPropServices::SetHwndPropStr()**](iaccpropservices-iaccpropservices--sethwndpropstr.md) to attach the mapping string to the control.
+With value map annotation, a mapping string indicates how the list's or tree's image index corresponds to its role or state. Or, it can indicate how a slider's numeric value corresponds to a string. For example, a mapping string may indicate that a list view's image index 0 maps to a role of check box and image index 1 maps to a role of radio button. Use [**IAccPropServices::SetHwndPropStr()**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndpropstr?branch=master) to attach the mapping string to the control.
 
 Because control-specific knowledge is required to support value mapping, there are a limited number of controls and properties that support value map annotation, including slider value maps, list views, and tree views.
 

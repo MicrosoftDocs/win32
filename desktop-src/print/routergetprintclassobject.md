@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RouterGetPrintClassObject function enumerates the list of print providers, searching for the print provider with the specified name and interface ID.'
-ms.assetid: 'e2df591d-59bd-4aae-ac1b-8fdf01da3ea7'
+---
+Description: The RouterGetPrintClassObject function enumerates the list of print providers, searching for the print provider with the specified name and interface ID.
+ms.assetid: e2df591d-59bd-4aae-ac1b-8fdf01da3ea7
 title: RouterGetPrintClassObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterGetPrintClassObject function

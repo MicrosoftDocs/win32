@@ -1,14 +1,20 @@
 ---
 title: Verifier Complex Type
 description: Specifies the verifier script to run.
-ms.assetid: '2e0b8357-fcde-447c-87cc-bca262c47cfe'
-keywords: ["Verifier complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 2e0b8357-fcde-447c-87cc-bca262c47cfe
+keywords:
+- Verifier complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Verifier
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifier Complex Type
@@ -49,8 +55,8 @@ Specifies the verifier script to run.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ Specifies the verifier script to run.
 [**Verifier (LocalRootcause) Element**](package-verifier-localrootcause-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

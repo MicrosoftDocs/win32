@@ -1,7 +1,12 @@
 ---
 title: Designing Help Windows
 description: Designing Help Windows
-ms.assetid: 'BEF2C6EB-588D-45af-8728-7ABB72917035'
+ms.assetid: BEF2C6EB-588D-45af-8728-7ABB72917035
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Help Windows

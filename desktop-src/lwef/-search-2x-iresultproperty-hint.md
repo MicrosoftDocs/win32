@@ -1,8 +1,11 @@
 ---
 title: IResultProperty Hint property
 description: Special value used to aid data retrieval.
-ms.assetid: 'fa888c5e-898e-4f48-b87e-2d0d078fd1fe'
-keywords: ["Hint property Legacy Windows Environment Features", "Hint property Legacy Windows Environment Features , IResultProperty interface", "IResultProperty interface Legacy Windows Environment Features , Hint property"]
+ms.assetid: fa888c5e-898e-4f48-b87e-2d0d078fd1fe
+keywords:
+- Hint property Legacy Windows Environment Features
+- Hint property Legacy Windows Environment Features , IResultProperty interface
+- IResultProperty interface Legacy Windows Environment Features , Hint property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultProperty::Hint property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Hint(
-  [out, retval] ling *hint
+  [out, retval] ling *hint
 );
 ```
 
@@ -43,16 +51,16 @@ returns a pointer to the hint.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

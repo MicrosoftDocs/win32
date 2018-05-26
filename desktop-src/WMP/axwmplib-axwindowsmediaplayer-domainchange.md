@@ -1,8 +1,9 @@
 ---
 title: DomainChange Event of the AxWindowsMediaPlayer Object
 description: The DomainChange event occurs when the DVD domain changes.
-ms.assetid: 'a080082e-1ba4-4080-b39c-b84292ecacb0'
-keywords: ["DomainChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: a080082e-1ba4-4080-b39c-b84292ecacb0
+keywords:
+- DomainChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DomainChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Dom
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,7 +67,7 @@ The following table shows the possible values for the strDomain property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -85,9 +91,9 @@ The following table shows the possible values for the strDomain property.
 [**IWMPDVD Interface (VB and C#)**](iwmpdvd--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

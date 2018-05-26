@@ -1,7 +1,12 @@
 ---
 title: DPI\_AWARENESS\_CONTEXT handle
 description: Identifies the awareness context for a window.
-ms.assetid: 'BFD54A9F-642B-4A3A-BBB9-F3A80779251D'
+ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DPI\_AWARENESS\_CONTEXT handle
@@ -33,7 +38,7 @@ Per Monitor v2 was made available in the Creators Update of Windows 10, and is n
 The additional behaviors introduced are as follows:
 
 -   **Child window DPI change notifications** - In Per Monitor v2 contexts, the entire window tree is notified of any DPI changes that occur.
--   **Scaling of non-client area** - All windows will automatically have their non-client area drawn in a DPI sensitive fashion. Calls to [**EnableNonClientDpiScaling**](enablenonclientdpiscaling.md) are unnecessary.
+-   **Scaling of non-client area** - All windows will automatically have their non-client area drawn in a DPI sensitive fashion. Calls to [**EnableNonClientDpiScaling**](/windows/win32/Winuser/nf-winuser-enablenonclientdpiscaling?branch=master) are unnecessary.
 -   **Scaling of Win32 menus** - All NTUSER menus created in Per Monitor v2 contexts will be scaling in a per-monitor fashion.
 -   **Dialog Scaling** - Win32 dialogs created in Per Monitor v2 contexts will automatically respond to DPI changes.
 -   **Improved scaling of comctl32 controls** - Various comctl32 controls have improved DPI scaling behavior in Per Monitor v2 contexts.

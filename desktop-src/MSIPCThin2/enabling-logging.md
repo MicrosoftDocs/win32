@@ -1,18 +1,21 @@
 ---
 title: How to Enable error and performance logging
-description: The Rights Management SDK 4.2 manages diagnosis and performance logs upload through a single device property.
+description: The Rights Management SDK 4.2 manages diagnosis and performance logs upload through a single device property.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F5AD3826-2292-4A25-AF5C-D17D083F5742'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F5AD3826-2292-4A25-AF5C-D17D083F5742
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Enable error and performance logging
 
-The Rights Management SDK 4.2 manages diagnosis and performance logs upload through a single device property.
+The Rights Management SDK 4.2 manages diagnosis and performance logs upload through a single device property.
 
 ## Overview
 
@@ -89,7 +92,7 @@ Boolean isLogUploadEnabled = preferences.getBoolean(&quot;IpcCustomerExperienceD
 
 
 
- 
+ 
 
 
 
@@ -113,7 +116,7 @@ Boolean isLogUploadEnabled = preferences.getBoolean(&quot;IpcCustomerExperienceD
 <tbody>
 <tr class="odd">
 <td><pre><code>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-        [prefs setBool:FALSE forKey:@&quot;IpcCustomerExperienceDataCollectionEnabled”];
+        [prefs setBool:FALSE forKey:@&quot;IpcCustomerExperienceDataCollectionEnabled ];
         [[NSUserDefaults standardUserDefaults] synchronize];</code></pre></td>
 </tr>
 </tbody>
@@ -148,7 +151,7 @@ Boolean isLogUploadEnabled = preferences.getBoolean(&quot;IpcCustomerExperienceD
 <tbody>
 <tr class="odd">
 <td><pre><code>NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-[prefs setInteger:1 forKey:@&quot;IpcLogLevel”];
+[prefs setInteger:1 forKey:@&quot;IpcLogLevel ];
 [[NSUserDefaults standardUserDefaults] synchronize];</code></pre></td>
 </tr>
 </tbody>
@@ -178,7 +181,7 @@ Boolean isLogUploadEnabled = preferences.getBoolean(&quot;IpcCustomerExperienceD
 
 
 
- 
+ 
 
 
 
@@ -230,18 +233,18 @@ Boolean isLogUploadEnabled = preferences.getBoolean(&quot;IpcCustomerExperienceD
 
 
 
- 
+ 
 
 > [!Note]  
-> The Windows code snips above are in C++. For C#, update the syntax with ‘.’ in place of ‘::’.
+> The Windows code snips above are in C++. For C#, update the syntax with  .  in place of  :: .
 
- 
+ 
 
 **Linux / C++** - This SDK has some basic logging that is not as extensive as that of the other platforms. For more information see the **Troubleshooting** section of the "README.md" at [RMS SDK for portable C++](https://github.com/AzureAD/rms-sdk-for-cpp#troubleshooting).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: NM\_CUSTOMDRAW notification code
-description: Notifies a control's parent window about custom drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '2ca51ee0-4431-45c0-880c-a8b74318d8a9'
-keywords: ["NM_CUSTOMDRAW notification code Windows Controls"]
+description: Notifies a controls parent window about custom drawing operations. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 2ca51ee0-4431-45c0-880c-a8b74318d8a9
+keywords:
+- NM_CUSTOMDRAW notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CUSTOMDRAW notification code
@@ -59,21 +65,21 @@ A pointer to a custom draw-related structure that contains information about the
 
 | Control                     | Custom Draw Structure                    |
 |-----------------------------|------------------------------------------|
-| Rebar, trackbar, and header | [**NMCUSTOMDRAW**](nmcustomdraw.md)     |
-| List view                   | [**NMLVCUSTOMDRAW**](nmlvcustomdraw.md) |
-| Tooltip                     | [**NMTTCUSTOMDRAW**](nmttcustomdraw.md) |
-| Tree view                   | [**NMTVCUSTOMDRAW**](nmtvcustomdraw.md) |
-| Toolbar                     | [**NMTBCUSTOMDRAW**](nmtbcustomdraw.md) |
+| Rebar, trackbar, and header | [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master)     |
+| List view                   | [**NMLVCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmlvcustomdraw?branch=master) |
+| Tooltip                     | [**NMTTCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmttcustomdraw?branch=master) |
+| Tree view                   | [**NMTVCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmtvcustomdraw?branch=master) |
+| Toolbar                     | [**NMTBCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-_nmtbcustomdraw?branch=master) |
 
 
 
- 
+ 
 
 </dd> </dl>
 
 ## Return value
 
-The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](nmcustomdraw.md) structure holds a value that specifies the drawing stage. You must return one of the following values.
+The value your application can return depends on the current drawing stage. The **dwDrawStage** member of the associated [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) structure holds a value that specifies the drawing stage. You must return one of the following values.
 
 
 
@@ -91,7 +97,7 @@ The value your application can return depends on the current drawing stage. The 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -105,8 +111,8 @@ If this message is handled in a dialog procedure, you must set the return value 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -121,9 +127,9 @@ If this message is handled in a dialog procedure, you must set the return value 
 [Custom Draw](custom-draw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

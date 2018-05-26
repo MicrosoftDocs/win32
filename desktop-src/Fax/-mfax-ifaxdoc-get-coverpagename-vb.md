@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the CoverpageName property for a FaxDoc object. The CoverpageName property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.'
-ms.assetid: '6d2fbcb1-fb94-4fe1-8481-f64f55878906'
-title: 'FaxDoc.CoverpageName property'
+---
+Description: Sets or retrieves the CoverpageName property for a FaxDoc object. The CoverpageName property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.
+ms.assetid: 6d2fbcb1-fb94-4fe1-8481-f64f55878906
+title: FaxDoc.CoverpageName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.CoverpageName property
@@ -64,7 +69,7 @@ For more information, see [Cover Pages](-mfax-cover-pages.md) and [Sending a Cov
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [**FileName**](-mfax-ifaxdoc-get-filename-vb.md)

@@ -1,7 +1,12 @@
 ---
 Description: Getting Started
-ms.assetid: '1e0451b0-ff2a-4279-a73f-fadf717e9a45'
+ms.assetid: 1e0451b0-ff2a-4279-a73f-fadf717e9a45
 title: Getting Started
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started

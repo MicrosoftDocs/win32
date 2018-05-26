@@ -1,7 +1,12 @@
 ---
 title: Add the Physical Path and All Subdirectories
 description: Add the Physical Path and All Subdirectories
-ms.assetid: 'cf6f0196-dd35-477f-a987-e80600974a49'
+ms.assetid: cf6f0196-dd35-477f-a987-e80600974a49
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Add the Physical Path and All Subdirectories

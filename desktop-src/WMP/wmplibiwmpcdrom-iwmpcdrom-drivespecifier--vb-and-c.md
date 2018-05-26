@@ -1,8 +1,11 @@
 ---
 title: IWMPCdrom driveSpecifier property
 description: The driveSpecifier property gets the CD or DVD drive letter.
-ms.assetid: '8865232a-08a3-447b-a6d6-2bfda3a689e1'
-keywords: ["driveSpecifier property Windows Media Player", "driveSpecifier property Windows Media Player , IWMPCdrom interface", "IWMPCdrom interface Windows Media Player , driveSpecifier property"]
+ms.assetid: 8865232a-08a3-447b-a6d6-2bfda3a689e1
+keywords:
+- driveSpecifier property Windows Media Player
+- driveSpecifier property Windows Media Player , IWMPCdrom interface
+- IWMPCdrom interface Windows Media Player , driveSpecifier property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdrom::driveSpecifier property
@@ -140,9 +148,9 @@ System.Windows.Forms.MessageBox.Show(MyDriveSpecifiers)</code></pre></td>
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

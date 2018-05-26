@@ -1,7 +1,12 @@
 ---
-Description: 'A merge tool evaluates the ModuleAdminExecuteSequence table and then inserts the calculated actions into the AdminExecuteSequence table with a correct sequence number.'
-ms.assetid: '26cc5e15-8dfd-4bf5-8830-225164302278'
+Description: A merge tool evaluates the ModuleAdminExecuteSequence table and then inserts the calculated actions into the AdminExecuteSequence table with a correct sequence number.
+ms.assetid: 26cc5e15-8dfd-4bf5-8830-225164302278
 title: ModuleAdminExecuteSequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModuleAdminExecuteSequence Table

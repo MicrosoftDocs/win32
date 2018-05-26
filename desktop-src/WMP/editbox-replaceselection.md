@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.replaceSelection
 description: The replaceSelection method replaces the current selection with the specified text.
-ms.assetid: '600650fb-f0c8-489a-9bf2-04f31705c6b0'
-keywords: ["EDITBOX.replaceSelection Windows Media Player"]
+ms.assetid: 600650fb-f0c8-489a-9bf2-04f31705c6b0
+keywords:
+- EDITBOX.replaceSelection Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.replaceSelection
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.replaceSelection
@@ -66,9 +72,9 @@ This method can only be called after the control becomes visible.
 [**EDITBOX.setSelection**](editbox-setselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

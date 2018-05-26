@@ -1,14 +1,20 @@
 ---
 title: StandardType element
 description: Specifies the numeric, logical or character data type.
-ms.assetid: 'FAEBDCA3-F502-4E88-AA72-5858F1F2F91D'
-keywords: ["StandardType element Access Execution Engine"]
+ms.assetid: FAEBDCA3-F502-4E88-AA72-5858F1F2F91D
+keywords:
+- StandardType element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - StandardType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StandardType element
@@ -81,9 +87,9 @@ StringInt16Int32Int64UInt16UInt32UInt64ByteSByteSingleDoubleBooleanCharDateTimeD
 
 
 
- 
+ 
 
- 
+ 
 
 
 

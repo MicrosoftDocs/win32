@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_CurrentSensor class exposes the following methods.'
+Description: The CIM\_CurrentSensor class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '749A568A-EE02-4F50-BEF5-F6B5B795051C'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 749A568A-EE02-4F50-BEF5-F6B5B795051C
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_CurrentSensor Methods'
+title: CIM\_CurrentSensor Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CurrentSensor Methods

@@ -1,8 +1,9 @@
 ---
 title: glMatrixMode function
 description: The glMatrixMode function specifies which matrix is the current matrix.
-ms.assetid: 'f1006ea3-322a-42a9-b33c-6c7181985ef9'
-keywords: ["glMatrixMode function OpenGL"]
+ms.assetid: f1006ea3-322a-42a9-b33c-6c7181985ef9
+keywords:
+- glMatrixMode function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glMatrixMode function
@@ -22,7 +28,7 @@ The **glMatrixMode** function specifies which matrix is the current matrix.
 
 ```C++
 void WINAPI glMatrixMode(
-   GLenum mode
+   GLenum mode
 );
 ```
 
@@ -47,7 +53,7 @@ The matrix stack that is the target for subsequent matrix operations. The *mode*
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -95,8 +101,8 @@ The following function retrieves information related to **glMatrixMode**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -119,9 +125,9 @@ The following function retrieves information related to **glMatrixMode**:
 [**glPushMatrix**](glpushmatrix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

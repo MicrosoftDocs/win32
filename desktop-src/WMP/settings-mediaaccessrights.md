@@ -1,8 +1,9 @@
 ---
 title: Settings.mediaAccessRights
 description: The mediaAccessRights property retrieves a value indicating the rights currently granted for library access.
-ms.assetid: '744e696d-29d2-44b1-a296-5b5d007b689f'
-keywords: ["Settings.mediaAccessRights Windows Media Player"]
+ms.assetid: 744e696d-29d2-44b1-a296-5b5d007b689f
+keywords:
+- Settings.mediaAccessRights Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.mediaAccessRights
@@ -35,7 +41,7 @@ This property is a read-only **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,9 +70,9 @@ A webpage must first request permission from the user to read information from o
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

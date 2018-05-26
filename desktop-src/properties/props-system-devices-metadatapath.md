@@ -1,7 +1,12 @@
 ---
-Description: 'Path to metadata for the device.'
-ms.assetid: '6499128d-d26d-47f2-b050-927159980307'
-title: 'System.Devices.MetadataPath'
+Description: Path to metadata for the device.
+ms.assetid: 6499128d-d26d-47f2-b050-927159980307
+title: System.Devices.MetadataPath
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.MetadataPath

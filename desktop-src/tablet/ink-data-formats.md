@@ -1,7 +1,12 @@
 ---
-Description: 'There are a number of formats in which ink data can be stored, including:'
-ms.assetid: 'b08fba71-46cb-4419-9da5-a33a5b9a5ec0'
+Description: There are a number of formats in which ink data can be stored, including
+ms.assetid: b08fba71-46cb-4419-9da5-a33a5b9a5ec0
 title: Ink Data Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Data Formats
@@ -16,7 +21,7 @@ There are a number of formats in which ink data can be stored, including:
 
 Different formats are applicable under different circumstances. To interact most successfully with the Clipboard, applications should be able to recognize and generate as many different formats as possible.
 
-The most important and basic format that can be used to store ink is Ink Serialized Format (ISF). ISF provides a compact but complete representation of a single [**Ink**](inkdisp-class.md) object.
+The most important and basic format that can be used to store ink is Ink Serialized Format (ISF). ISF provides a compact but complete representation of a single [**Ink**](/windows/win32/msinkaut/?branch=master) object.
 
 An equally important format is HTML. Ink data can be represented in HTML in such a way that it can be viewed as an image by applications that do not recognize ink. In addition, the full fidelity of the ink is maintained. For these reasons, and because it is a commonly understood format that allows for the representation of many different types of content, Microsoft recommends HTML as the format for sharing ink.
 

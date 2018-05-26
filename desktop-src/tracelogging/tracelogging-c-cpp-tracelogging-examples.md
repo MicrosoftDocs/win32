@@ -1,7 +1,12 @@
 ---
 title: C/C++ Tracelogging Examples
 description: This topic contains C/C++ Tracelogging examples.
-ms.assetid: 'FB0A29B9-D1F7-4F13-AA75-5963A0699F7A'
+ms.assetid: FB0A29B9-D1F7-4F13-AA75-5963A0699F7A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Tracelogging Examples

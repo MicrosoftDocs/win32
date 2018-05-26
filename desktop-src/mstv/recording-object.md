@@ -1,7 +1,12 @@
 ---
 title: Recording Object
 description: Recording Object
-ms.assetid: '717a3b99-d998-4e64-aab6-6b06e18991da'
+ms.assetid: 717a3b99-d998-4e64-aab6-6b06e18991da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recording Object
@@ -15,7 +20,7 @@ The **Recording** object creates permanent recordings from streams that the [Str
 |            |                                                                                                                                              |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | CLSID      | Not applicable; see Remarks.                                                                                                                 |
-| Interfaces | [**IStreamBufferRecordControl**](istreambufferrecordcontrol.md), [**IStreamBufferRecordingAttribute**](istreambufferrecordingattribute.md) |
+| Interfaces | [**IStreamBufferRecordControl**](/windows/previous-versions/Sbe/nn-sbe-istreambufferrecordcontrol?branch=master), [**IStreamBufferRecordingAttribute**](/windows/previous-versions/Sbe/nn-sbe-istreambufferrecordingattribute?branch=master) |
 
 
 
@@ -23,7 +28,7 @@ The **Recording** object creates permanent recordings from streams that the [Str
 
 ## Remarks
 
-To create this object, call the [**IStreamBufferSink::CreateRecorder**](istreambuffersink-createrecorder.md) method on the Stream Buffer Sink filter.
+To create this object, call the [**IStreamBufferSink::CreateRecorder**](/windows/previous-versions/Sbe/nf-sbe-istreambuffersink-createrecorder?branch=master) method on the Stream Buffer Sink filter.
 
 After making a recording, stop the **Recording** object and release it before releasing the Stream Buffer Sink filter.
 

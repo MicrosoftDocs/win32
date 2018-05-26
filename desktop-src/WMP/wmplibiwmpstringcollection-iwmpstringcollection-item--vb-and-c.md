@@ -1,8 +1,11 @@
 ---
 title: IWMPStringCollection Item method
 description: The Item method returns the string at the specified index.
-ms.assetid: '77546cb2-eda5-4bb8-97b9-55270461815f'
-keywords: ["Item method Windows Media Player", "Item method Windows Media Player , IWMPStringCollection interface", "IWMPStringCollection interface Windows Media Player , Item method"]
+ms.assetid: 77546cb2-eda5-4bb8-97b9-55270461815f
+keywords:
+- Item method Windows Media Player
+- Item method Windows Media Player , IWMPStringCollection interface
+- IWMPStringCollection interface Windows Media Player , Item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection::Item method
@@ -98,9 +106,9 @@ To use this method, read access to the library is required. For more information
 [**IWMPStringCollection Interface (VB and C#)**](iwmpstringcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

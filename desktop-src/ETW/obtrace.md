@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the parent class from which all object manager event trace classes are derived.'
-ms.assetid: '07cfc4a2-c665-4080-bc4b-fe9ec7191fdc'
+---
+Description: Represents the parent class from which all object manager event trace classes are derived.
+ms.assetid: 07cfc4a2-c665-4080-bc4b-fe9ec7191fdc
 title: ObTrace class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ObTrace class

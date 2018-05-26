@@ -1,14 +1,20 @@
 ---
 title: DriverEntry of SCSI Miniport Driver routine
 description: Each miniport driver must have a routine explicitly named DriverEntry in order to be loaded.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
-ms.assetid: 'dda79363-06a9-4902-8e04-186293b6c9d4'
-keywords: ["DriverEntry routine Storage Devices"]
+ms.assetid: dda79363-06a9-4902-8e04-186293b6c9d4
+keywords:
+- DriverEntry routine Storage Devices
 topic_type:
 - apiref
 api_name:
 - DriverEntry
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DriverEntry of SCSI Miniport Driver routine

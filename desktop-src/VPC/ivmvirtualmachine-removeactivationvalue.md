@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveActivationValue method
 description: Removes the value of the specified activation setting for this virtual machine.
-ms.assetid: '8e9b9d95-aec9-4b73-afc3-cd0d7300f40f'
-keywords: ["RemoveActivationValue method Virtual PC", "RemoveActivationValue method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , RemoveActivationValue method"]
+ms.assetid: 8e9b9d95-aec9-4b73-afc3-cd0d7300f40f
+keywords:
+- RemoveActivationValue method Virtual PC
+- RemoveActivationValue method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , RemoveActivationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveActivationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Removes the value of the specified activation setting for this virtual machine.
 
@@ -24,7 +32,7 @@ Removes the value of the specified activation setting for this virtual machine.
 
 ```C++
 HRESULT RemoveActivationValue(
-  [in] BSTR activationKey
+  [in] BSTR activationKey
 );
 ```
 
@@ -57,7 +65,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +74,9 @@ This method provides low-level access to any activation value. It can be used to
 > [!Note]  
 > The virtual machine session must be running before any activation values can be changed.
 
- 
+ 
 
-Activation keys are stored internally in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Activation keys are stored internally in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to remove the value of the "default\_action" key located in the following key tree:
 
@@ -90,9 +98,9 @@ The *activationKey* path string would be specified as follows:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -106,9 +114,9 @@ The *activationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: This topic provides an overview of performing class operations.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E8A5F14E-F3B5-4195-A373-11C079135834'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: E8A5F14E-F3B5-4195-A373-11C079135834
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performing class operations

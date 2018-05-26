@@ -4,11 +4,12 @@ description: Property methods of the IADsGroup interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a8aa88d4-4695-47bc-bf7f-a17236a5671c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a8aa88d4-4695-47bc-bf7f-a17236a5671c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsGroup Property Methods ADSI"]
+keywords:
+- IADsGroup Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -20,11 +21,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsGroup Property Methods
 
-The property methods of the [**IADsGroup**](iadsgroup.md) interface read and write the following properties. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsGroup**](/windows/win32/Iads/nn-iads-iadsgroup?branch=master) interface read and write the following properties. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -58,7 +62,7 @@ HRESULT put_Description(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -121,8 +125,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsGroup is defined as 27636B00-410F-11CF-B1FF-02608C9E7553<br/>            |
@@ -133,18 +137,18 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADs**](iads.md)
+[**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master)
 </dt> <dt>
 
-[**IADsGroup**](iadsgroup.md)
+[**IADsGroup**](/windows/win32/Iads/nn-iads-iadsgroup?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

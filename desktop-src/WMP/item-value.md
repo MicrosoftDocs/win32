@@ -1,14 +1,20 @@
 ---
 title: ITEM.value
 description: The value attribute specifies or retrieves the text that displays for a list box or pop-up item.
-ms.assetid: 'd4c8049c-7f08-429f-ba69-8ec8163c05eb'
-keywords: ["ITEM.value Windows Media Player"]
+ms.assetid: d4c8049c-7f08-429f-ba69-8ec8163c05eb
+keywords:
+- ITEM.value Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ITEM.value
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITEM.value
@@ -40,9 +46,9 @@ This attribute is a read/write **String**.
 [**ITEM Element**](item-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

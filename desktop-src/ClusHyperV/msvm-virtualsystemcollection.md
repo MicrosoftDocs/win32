@@ -4,13 +4,15 @@ description: Represents a collection of virtual machines.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12db40b2-d1da-4e2f-a052-70d6c9647d50'
-ms.prod: 'windows-server-dev'
+ms.assetid: 12db40b2-d1da-4e2f-a052-70d6c9647d50
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_VirtualSystemCollection class", "Msvm_VirtualSystemCollection class, described"]
+keywords:
+- Msvm_VirtualSystemCollection class
+- Msvm_VirtualSystemCollection class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_VirtualSystemCollection class
@@ -44,17 +49,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemCollection : CIM_CollectionOfMSEs
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   CollectionID;
-  string   ElementName;
-  uint16   ReplicationState;
-  uint16   ReplicationMode;
-  uint16   FailedOverReplicationType;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   CollectionID;
+  string   ElementName;
+  uint16   ReplicationState;
+  uint16   ReplicationMode;
+  uint16   FailedOverReplicationType;
   DateTime LastApplyTime;
-  String   LastApplyVirtualMachineIds[];
-  uint16   LastApplyConsistencyLevel;
+  String   LastApplyVirtualMachineIds[];
+  uint16   LastApplyConsistencyLevel;
 };
 ```
 
@@ -194,7 +199,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -465,7 +470,7 @@ Replication state for the virtual system collection.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -482,9 +487,9 @@ Replication state for the virtual system collection.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

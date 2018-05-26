@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIPortableDevicePropVariantCollectionValue method retrieves an IPortableDevicePropVariantCollection value (type VT\_UNKNOWN) specified by a key.'
-ms.assetid: 'a7b5ba64-c28e-42ae-9f04-2bdb67e93328'
-title: 'IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue method'
+Description: The GetIPortableDevicePropVariantCollectionValue method retrieves an IPortableDevicePropVariantCollection value (type VT\_UNKNOWN) specified by a key.
+ms.assetid: a7b5ba64-c28e-42ae-9f04-2bdb67e93328
+title: IPortableDeviceValuesGetIPortableDevicePropVariantCollectionValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue method
@@ -13,8 +18,8 @@ The **GetIPortableDevicePropVariantCollectionValue** method retrieves an **IPort
 
 ```C++
 HRESULT GetIPortableDevicePropVariantCollectionValue(
-  [in]  REFPROPERTYKEY                       key,
-  [out] IPortableDevicePropVariantCollection **ppValue
+  [in]  REFPROPERTYKEY                       key,
+  [out] IPortableDevicePropVariantCollection **ppValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetIPortableDevicePropVariantCollectionValue**](iportabledevicevalues-setiportabledevicepropvariantcollectionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

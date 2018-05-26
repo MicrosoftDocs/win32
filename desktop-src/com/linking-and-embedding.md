@@ -1,7 +1,12 @@
 ---
 title: Linking and Embedding
 description: Linking and Embedding
-ms.assetid: '7c35ab0a-f534-42b1-9871-d288c36bd739'
+ms.assetid: 7c35ab0a-f534-42b1-9871-d288c36bd739
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linking and Embedding

@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowAcquisitionWizard method
 description: Starts the Scanner and Camera Wizard.
-ms.assetid: '886be445-a969-49e2-8bc8-baeed71e3478'
-keywords: ["ShowAcquisitionWizard method WIA Automation", "ShowAcquisitionWizard method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowAcquisitionWizard method"]
+ms.assetid: 886be445-a969-49e2-8bc8-baeed71e3478
+keywords:
+- ShowAcquisitionWizard method WIA Automation
+- ShowAcquisitionWizard method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowAcquisitionWizard method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowAcquisitionWizard method
@@ -49,7 +57,7 @@ Returns **Nothing**.
 
 ## Examples
 
-The following example shows how to launch the Windows **Scanner and Camera Wizard**.
+The following example shows how to launch the Windows **Scanner and Camera Wizard**.
 
 
 ```
@@ -66,8 +74,8 @@ CommonDialog1.ShowAcquisitionWizard dev
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -101,9 +109,9 @@ CommonDialog1.ShowAcquisitionWizard dev
 [**Device (VideoPreview)**](-wiaaut-ivideopreview-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

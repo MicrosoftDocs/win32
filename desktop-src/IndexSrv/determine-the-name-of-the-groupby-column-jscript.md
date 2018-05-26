@@ -1,7 +1,12 @@
 ---
 title: Determine the Name of the GroupBy Column
 description: Determine the Name of the GroupBy Column
-ms.assetid: '9e0c5136-2177-4641-8214-9a2bd0097c38'
+ms.assetid: 9e0c5136-2177-4641-8214-9a2bd0097c38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determine the Name of the GroupBy Column

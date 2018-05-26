@@ -1,7 +1,12 @@
 ---
-Description: 'The IDelaydC interface provides the methods used to connect to the network, capture network traffic to a capture file, retrieve statistics, and disconnect from the network.'
-ms.assetid: 'ab275653-2377-4af6-a810-48515962c88c'
+Description: The IDelaydC interface provides the methods used to connect to the network, capture network traffic to a capture file, retrieve statistics, and disconnect from the network.
+ms.assetid: ab275653-2377-4af6-a810-48515962c88c
 title: IDelaydC interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDelaydC interface
@@ -39,7 +44,7 @@ The **IDelaydC** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,16 +52,16 @@ The **IDelaydC** interface has these methods.
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

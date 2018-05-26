@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_LUNList structure describes the characteristics of the logical unit number (LUN) mapping.'
-ms.assetid: '846849a1-8447-4c8c-9f2f-4f08eaedea59'
-title: 'MSIscsiInitiator\_TargetMappings class'
+---
+Description: This MSIscsiInitiator\_LUNList structure describes the characteristics of the logical unit number (LUN) mapping.
+ms.assetid: 846849a1-8447-4c8c-9f2f-4f08eaedea59
+title: MSIscsiInitiator\_TargetMappings class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_TargetMappings class

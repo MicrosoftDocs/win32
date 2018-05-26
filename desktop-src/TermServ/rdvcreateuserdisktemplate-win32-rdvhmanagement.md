@@ -4,11 +4,14 @@ description: Creates a user disk template, with the specified maximum size, at t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8ca8b8c-58fd-44fc-9a88-5d7d41ef96a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b8ca8b8c-58fd-44fc-9a88-5d7d41ef96a2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RdvCreateUserDiskTemplate method Remote Desktop Services", "RdvCreateUserDiskTemplate method Remote Desktop Services , Win32_RdvhManagement class", "Win32_RdvhManagement class Remote Desktop Services , RdvCreateUserDiskTemplate method"]
+keywords:
+- RdvCreateUserDiskTemplate method Remote Desktop Services
+- RdvCreateUserDiskTemplate method Remote Desktop Services , Win32_RdvhManagement class
+- Win32_RdvhManagement class Remote Desktop Services , RdvCreateUserDiskTemplate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RdvCreateUserDiskTemplate method of the Win32\_RdvhManagement class
@@ -28,8 +34,8 @@ Creates a user disk template, with the specified maximum size, at the specified 
 
 ```mof
 uint32 RdvCreateUserDiskTemplate(
-  [in] string UserDisksStorageUrl,
-  [in] uint32 UserDiskMaxSizeInGB
+  [in] string UserDisksStorageUrl,
+  [in] uint32 UserDiskMaxSizeInGB
 );
 ```
 
@@ -68,7 +74,7 @@ All user disks created using this template will have the same maximum size as th
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
@@ -82,9 +88,9 @@ All user disks created using this template will have the same maximum size as th
 [**Win32\_RdvhManagement**](win32-rdvhmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

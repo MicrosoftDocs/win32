@@ -1,8 +1,9 @@
 ---
 title: HKM\_GETHOTKEY message
 description: Gets the virtual key code and modifier flags of a hot key from a hot key control.
-ms.assetid: '8b061411-604d-46ea-a082-3eca2d47d992'
-keywords: ["HKM_GETHOTKEY message Windows Controls"]
+ms.assetid: 8b061411-604d-46ea-a082-3eca2d47d992
+keywords:
+- HKM_GETHOTKEY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HKM\_GETHOTKEY message
@@ -42,7 +48,7 @@ Returns the virtual key code and modifier flags. The [**LOBYTE**](https://msdn.m
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,15 +60,15 @@ The 16-bit value returned by this message can be used as the *wParam* parameter 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Represents the data deduplication metadata for a volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '850FB2D0-B2C0-4351-93C7-F92B9AD90561'
-ms.prod: 'windows-server-dev'
+ms.assetid: 850FB2D0-B2C0-4351-93C7-F92B9AD90561
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DedupVolumeMetadata class Data Deduplication API", "MSFT_DedupVolumeMetadata class Data Deduplication API , described"]
+keywords:
+- MSFT_DedupVolumeMetadata class Data Deduplication API
+- MSFT_DedupVolumeMetadata class Data Deduplication API , described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DedupVolumeMetadata class
@@ -347,7 +352,7 @@ For an example that uses the **MSFT\_DedupVolumeMetadata** class, please see [Da
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -361,9 +366,9 @@ For an example that uses the **MSFT\_DedupVolumeMetadata** class, please see [Da
 [Data Deduplication Management WMI API Reference](data-deduplication-management-wmi-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

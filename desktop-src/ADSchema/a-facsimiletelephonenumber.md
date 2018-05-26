@@ -1,20 +1,25 @@
 ---
 title: Facsimile-Telephone-Number attribute
-description: Contains telephone number of the user's business fax machine.
+description: Contains telephone number of the users business fax machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3862b049-19f5-4067-941d-d1a3a049bc56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3862b049-19f5-4067-941d-d1a3a049bc56
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Facsimile-Telephone-Number attribute AD Schema", "facsimileTelephoneNumber attribute AD Schema"]
+keywords:
+- Facsimile-Telephone-Number attribute AD Schema
+- facsimileTelephoneNumber attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Facsimile-Telephone-Number
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Facsimile-Telephone-Number attribute
@@ -38,13 +43,13 @@ Contains telephone number of the user's business fax machine.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Contains telephone number of the user's business fax machine.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

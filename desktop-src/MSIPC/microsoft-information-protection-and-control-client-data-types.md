@@ -1,19 +1,38 @@
 ---
 title: Data types
-description: The Rights Management Service Client 2.1 declares the following data types.
+description: The Rights Management Service Client 2.1 declares the following data types.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '44D3EB62-7A60-45D9-BA7E-45A06E7D598F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 44D3EB62-7A60-45D9-BA7E-45A06E7D598F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_AUTH_TOKEN_HANDLE", "PIPC_AUTH_TOKEN_HANDLE", "PCIPCF_FILE_BASIC_INFORMATION", "IPCF_FILE_HANDLE", "PIPCF_FILE_HANDLE", "PCIPCF_FILE_RANGE", "IPC_HANDLE", "PIPC_HANDLE", "IPC_KEY_HANDLE", "PIPC_KEY_HANDLE", "IPC_LICENSE_HANDLE", "PIPC_LICENSE_HANDLE", "IPC_LICENSE_METADATA_HANDLE", "PIPC_LICENSE_METADATA_HANDLE", "PCIPCF_PROTECTED_FILE_HEADER", "PCIPCF_RAW_FILE_RANGE"]
+keywords:
+- IPC_AUTH_TOKEN_HANDLE
+- PIPC_AUTH_TOKEN_HANDLE
+- PCIPCF_FILE_BASIC_INFORMATION
+- IPCF_FILE_HANDLE
+- PIPCF_FILE_HANDLE
+- PCIPCF_FILE_RANGE
+- IPC_HANDLE
+- PIPC_HANDLE
+- IPC_KEY_HANDLE
+- PIPC_KEY_HANDLE
+- IPC_LICENSE_HANDLE
+- PIPC_LICENSE_HANDLE
+- IPC_LICENSE_METADATA_HANDLE
+- PIPC_LICENSE_METADATA_HANDLE
+- PCIPCF_PROTECTED_FILE_HEADER
+- PCIPCF_RAW_FILE_RANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data types
 
-The Rights Management Service Client 2.1 declares the following data types.
+The Rights Management Service Client 2.1 declares the following data types.
 
 <dl> <dt>
 
@@ -199,15 +218,15 @@ This type is declared in Ipcbase.h as follows:
 
 |                                     |                                                                                                                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                                            |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                                            |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h); </dt> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

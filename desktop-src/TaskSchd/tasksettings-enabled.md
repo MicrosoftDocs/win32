@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.Enabled property
 description: For scripting, gets or sets a Boolean value that indicates that the task is enabled. The task can be performed only when this setting is True.
-ms.assetid: '6c6e7f51-9591-4b84-b06b-124cd88a0345'
-keywords: ["Enabled property Task Scheduler", "Enabled property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , Enabled property"]
+ms.assetid: 6c6e7f51-9591-4b84-b06b-124cd88a0345
+keywords:
+- Enabled property Task Scheduler
+- Enabled property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , Enabled property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.Enabled property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, this setting is specified in the [**Enab
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When reading or writing XML for a task, this setting is specified in the [**Enab
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

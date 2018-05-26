@@ -1,7 +1,12 @@
 ---
-Description: 'Ubuntu on Windows provides users familiar with Linux a functional Bash shell and allows for the end user to run native Ubuntu binaries on Windows.'
-ms.assetid: '0263EF2E-849D-40DB-AE60-ED1B7AB17817'
-title: 'Windows Subsystem for Linux (WSL)'
+Description: Ubuntu on Windows provides users familiar with Linux a functional Bash shell and allows for the end user to run native Ubuntu binaries on Windows.
+ms.assetid: 0263EF2E-849D-40DB-AE60-ED1B7AB17817
+title: Windows Subsystem for Linux (WSL)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Subsystem for Linux (WSL)

@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETINSERTMARKCOLOR message
 description: Retrieves the color used to draw the insertion mark for the tree view. You can send this message explicitly or by using the TreeView\_GetInsertMarkColor macro.
-ms.assetid: 'd1fba4bb-1bdb-44e0-8083-b564cdafc055'
-keywords: ["TVM_GETINSERTMARKCOLOR message Windows Controls"]
+ms.assetid: d1fba4bb-1bdb-44e0-8083-b564cdafc055
+keywords:
+- TVM_GETINSERTMARKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETINSERTMARKCOLOR message
 
-Retrieves the color used to draw the insertion mark for the tree view. You can send this message explicitly or by using the [**TreeView\_GetInsertMarkColor**](treeview-getinsertmarkcolor.md) macro.
+Retrieves the color used to draw the insertion mark for the tree view. You can send this message explicitly or by using the [**TreeView\_GetInsertMarkColor**](/windows/win32/Commctrl/nf-commctrl-treeview_getinsertmarkcolor?branch=master) macro.
 
 ## Parameters
 
@@ -37,8 +43,8 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 [**TVM\_SETINSERTMARKCOLOR**](tvm-setinsertmarkcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

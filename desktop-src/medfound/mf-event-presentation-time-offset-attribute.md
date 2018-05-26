@@ -1,7 +1,12 @@
-﻿---
-Description: 'Offset between the presentation time and the media source's time stamps.'
-ms.assetid: '450f3c39-063e-4bf3-838a-0f7c240d6647'
-title: 'MF\_EVENT\_PRESENTATION\_TIME\_OFFSET attribute'
+---
+Description: Offset between the presentation time and the media sources time stamps.
+ms.assetid: 450f3c39-063e-4bf3-838a-0f7c240d6647
+title: MF\_EVENT\_PRESENTATION\_TIME\_OFFSET attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_PRESENTATION\_TIME\_OFFSET attribute
@@ -43,10 +48,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> </dl>
 
  

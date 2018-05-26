@@ -4,13 +4,15 @@ description: The Win32\_DiskDrivePhysicalMedia association WMI class defines the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6191ced1-48bd-4199-b1d0-c50ce19240de'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6191ced1-48bd-4199-b1d0-c50ce19240de
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_DiskDrivePhysicalMedia class", "Win32_DiskDrivePhysicalMedia class, described"]
+keywords:
+- Win32_DiskDrivePhysicalMedia class
+- Win32_DiskDrivePhysicalMedia class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DiskDrivePhysicalMedia class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_DiskDrivePhysicalMedia : CIM_Realizes
 {
   Win32_PhysicalMedia REF Antecedent;
-  Win32_DiskDrive     REF Dependent;
+  Win32_DiskDrive     REF Dependent;
 };
 ```
 
@@ -94,8 +99,8 @@ The **Win32\_DiskDrivePhysicalMedia** class is derived from [**CIM\_Realizes**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The **Win32\_DiskDrivePhysicalMedia** class is derived from [**CIM\_Realizes**](
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

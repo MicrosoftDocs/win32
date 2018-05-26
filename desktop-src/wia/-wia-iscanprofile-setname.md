@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the friendly name of the profile.'
-ms.assetid: 'a0a2de8b-ab7b-49a8-b513-32af0052975f'
-title: 'IScanProfile::SetName method'
+---
+Description: Sets the friendly name of the profile.
+ms.assetid: a0a2de8b-ab7b-49a8-b513-32af0052975f
+title: IScanProfileSetName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::SetName method

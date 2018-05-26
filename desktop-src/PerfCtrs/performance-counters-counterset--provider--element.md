@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a list of counters that are logically related.'
-ms.assetid: '0a0405c9-7487-43e0-afef-d6c6ba75c9bf'
-title: 'counterSet (provider) Element'
+Description: Contains a list of counters that are logically related.
+ms.assetid: 0a0405c9-7487-43e0-afef-d6c6ba75c9bf
+title: counterSet (provider) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # counterSet (provider) Element
@@ -22,8 +27,8 @@ The **counterSet** element is defined by the [**provider**](performance-counters
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -37,9 +42,9 @@ The **counterSet** element is defined by the [**provider**](performance-counters
 [**provider (counters)**](performance-counters-provider--counters--element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

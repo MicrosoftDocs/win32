@@ -1,7 +1,12 @@
 ---
 title: Adding a LAN Rule
-description: This example adds a LAN rule using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that adds a ' LAN rule using the Microsoft Windows Firewall APIs.
-ms.assetid: '1a17e974-0b13-4c9c-acb0-99afa04ae86b'
+description: This example adds a LAN rule using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that adds a  LAN rule using the Microsoft Windows Firewall APIs.
+ms.assetid: 1a17e974-0b13-4c9c-acb0-99afa04ae86b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a LAN Rule

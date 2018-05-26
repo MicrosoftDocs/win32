@@ -4,10 +4,13 @@ description: This topic covers types of applications that you might choose to cr
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '97169FC3-1395-4433-A632-7B0F020FABFE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 97169FC3-1395-4433-A632-7B0F020FABFE
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application types

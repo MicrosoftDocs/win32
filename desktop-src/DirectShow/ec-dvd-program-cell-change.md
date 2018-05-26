@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the DVD program number or cell number changes.'
-ms.assetid: 'a500e86d-cd42-4716-9c57-828a72c4e1df'
-title: 'EC\_DVD\_PROGRAM\_CELL\_CHANGE'
+Description: Sent when the DVD program number or cell number changes.
+ms.assetid: a500e86d-cd42-4716-9c57-828a72c4e1df
+title: EC\_DVD\_PROGRAM\_CELL\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_PROGRAM\_CELL\_CHANGE
@@ -28,7 +33,7 @@ The new cell number.
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_NotifyPositionChange** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_NotifyPositionChange** option to **TRUE**.
 
 ## Requirements
 
@@ -53,9 +58,9 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

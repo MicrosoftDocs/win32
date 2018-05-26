@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of Qualifier objects in the collection.'
-ms.assetid: '9dafb83a-ff7f-4317-8ed4-2a46dcebf409'
-title: 'Qualifiers.Count property'
+---
+Description: Retrieves the number of Qualifier objects in the collection.
+ms.assetid: 9dafb83a-ff7f-4317-8ed4-2a46dcebf409
+title: Qualifiers.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifiers.Count property

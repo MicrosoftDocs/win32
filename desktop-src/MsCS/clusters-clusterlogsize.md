@@ -4,17 +4,21 @@ description: Controls the maximum size of the cluster log files on each of the n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BADE4A85-DCF1-4BA2-92F4-1932BBB28FA4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: BADE4A85-DCF1-4BA2-92F4-1932BBB28FA4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusterLogSize Failover Cluster"]
+keywords:
+- ClusterLogSize Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusterLogSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterLogSize
@@ -27,14 +31,14 @@ Controls the maximum size of the cluster log files on each of the nodes.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 8                                         |
 | Maximum   | 1024                                      |
 | Default   | 300                                       |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Controls the maximum size of the cluster log files on each of the nodes.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Controls the maximum size of the cluster log files on each of the nodes.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

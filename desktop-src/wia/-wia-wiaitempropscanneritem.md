@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants specify the valid set of Windows Image Acquisition (WIA) scanner item properties.'
-ms.assetid: 'c7c5b10b-81e8-4a30-b20a-ea187724ddd4'
+---
+Description: The following constants specify the valid set of Windows Image Acquisition (WIA) scanner item properties.
+ms.assetid: c7c5b10b-81e8-4a30-b20a-ea187724ddd4
 title: Scanner WIA Item Property Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scanner WIA Item Property Constants

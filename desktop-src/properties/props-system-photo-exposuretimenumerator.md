@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_ExposureTime.'
-ms.assetid: '625b7868-2ec0-4edb-acb2-c6e511ae1050'
-title: 'System.Photo.ExposureTimeNumerator'
+Description: The numerator of PKEY\_Photo\_ExposureTime.
+ms.assetid: 625b7868-2ec0-4edb-acb2-c6e511ae1050
+title: System.Photo.ExposureTimeNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureTimeNumerator

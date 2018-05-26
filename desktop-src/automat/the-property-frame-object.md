@@ -1,7 +1,12 @@
 ---
 title: The Property Frame Object
 description: Property frame objects are the user interface mechanism that displays one or more property pages for a control.
-ms.assetid: '3f6a705c-d1df-42c0-a79e-0d130c11a1cc'
+ms.assetid: 3f6a705c-d1df-42c0-a79e-0d130c11a1cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Property Frame Object

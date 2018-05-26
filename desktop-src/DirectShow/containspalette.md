@@ -1,19 +1,24 @@
 ---
-Description: 'The ContainsPalette function determines whether a specified VIDEOINFOHEADER structure contains a palette.'
-ms.assetid: 'e87ab1af-a822-45d8-9326-08b450e11279'
+Description: The ContainsPalette function determines whether a specified VIDEOINFOHEADER structure contains a palette.
+ms.assetid: e87ab1af-a822-45d8-9326-08b450e11279
 title: ContainsPalette function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContainsPalette function
 
-The **ContainsPalette** function determines whether a specified [**VIDEOINFOHEADER**](videoinfoheader.md) structure contains a palette.
+The **ContainsPalette** function determines whether a specified [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure contains a palette.
 
 ## Syntax
 
 
 ```C++
 BOOL ContainsPalette(
-   const VIDEOINFOHEADER *pVideoInfo
+   const VIDEOINFOHEADER *pVideoInfo
 
 );
 ```
@@ -27,7 +32,7 @@ BOOL ContainsPalette(
 *pVideoInfo* 
 </dt> <dd>
 
-Pointer to a [**VIDEOINFOHEADER**](videoinfoheader.md) structure.
+Pointer to a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure.
 
 </dd> </dl>
 
@@ -53,9 +58,9 @@ Returns **TRUE** if the bitdepth is 8 or less (**bmiHeader.biBitCount**), or the
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

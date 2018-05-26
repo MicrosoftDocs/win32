@@ -1,8 +1,10 @@
 ---
 title: BDA\_ISDBCAS\_EMG\_REQ structure
 description: Contains the data for an EMG command.
-ms.assetid: 'c622a840-9a08-40da-8fa5-6a0d668d23db'
-keywords: ["BDA_ISDBCAS_EMG_REQ structure Microsoft TV Technologies", "PBDA_ISDBCAS_EMG_REQ structure pointer Microsoft TV Technologies"]
+ms.assetid: c622a840-9a08-40da-8fa5-6a0d668d23db
+keywords:
+- BDA_ISDBCAS_EMG_REQ structure Microsoft TV Technologies
+- PBDA_ISDBCAS_EMG_REQ structure pointer Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA\_ISDBCAS\_EMG\_REQ structure
@@ -119,8 +126,8 @@ Message code region. This array might be larger than the size given in the struc
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
 
@@ -129,12 +136,12 @@ Message code region. This array might be larger than the size given in the struc
 
 <dl> <dt>
 
-[**IBDA\_ISDBConditionalAccess::SetIsdbCasRequest**](ibda-isdbconditionalaccess-setisdbcasrequest.md)
+[**IBDA\_ISDBConditionalAccess::SetIsdbCasRequest**](/windows/win32/bdaiface/nf-bdaiface-ibda_isdbconditionalaccess-setisdbcasrequest?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

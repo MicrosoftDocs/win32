@@ -1,7 +1,12 @@
 ---
-Description: 'How do I decompress streams from an AVI file or other file about which I have no format information?'
-ms.assetid: '980f52f4-17a4-4871-9269-f9e0b97416c6'
-title: 'How do I decompress streams from an AVI file or other file about which I have no format information?'
+Description: How do I decompress streams from an AVI file or other file about which I have no format information?
+ms.assetid: 980f52f4-17a4-4871-9269-f9e0b97416c6
+title: How do I decompress streams from an AVI file or other file about which I have no format information?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How do I decompress streams from an AVI file or other file about which I have no format information?

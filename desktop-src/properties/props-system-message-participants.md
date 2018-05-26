@@ -1,7 +1,12 @@
 ---
-Description: 'Participants in communication.'
-ms.assetid: '43196979-d1f0-4a30-9358-07de376d1233'
-title: 'System.Message.Participants'
+Description: Participants in communication.
+ms.assetid: 43196979-d1f0-4a30-9358-07de376d1233
+title: System.Message.Participants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.Participants

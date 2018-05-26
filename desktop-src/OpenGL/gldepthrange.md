@@ -1,8 +1,9 @@
 ---
 title: glDepthRange function
 description: The glDepthRange function specifies the mapping of z values from normalized device coordinates to window coordinates.
-ms.assetid: '44aed5e5-4bd2-4e7f-ad05-1cf4be5254a5'
-keywords: ["glDepthRange function OpenGL"]
+ms.assetid: 44aed5e5-4bd2-4e7f-ad05-1cf4be5254a5
+keywords:
+- glDepthRange function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDepthRange function
@@ -22,8 +28,8 @@ The **glDepthRange** function specifies the mapping of *z* values from normalize
 
 ```C++
 void WINAPI glDepthRange(
-   GLclampd zNear,
-   GLclampd zFar
+   GLclampd zNear,
+   GLclampd zFar
 );
 ```
 
@@ -93,8 +99,8 @@ The following function retrieves information related to **glDepthRange**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -120,9 +126,9 @@ The following function retrieves information related to **glDepthRange**:
 [**glViewport**](glviewport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

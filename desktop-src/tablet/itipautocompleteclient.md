@@ -1,7 +1,12 @@
 ---
-Description: 'Enables the client to call the application''s Text Input Panel auto complete provider object.'
-ms.assetid: '448b8136-ebcb-4116-9a81-a77a37d69e24'
+Description: Enables the client to call the applications Text Input Panel auto complete provider object.
+ms.assetid: 448b8136-ebcb-4116-9a81-a77a37d69e24
 title: ITipAutocompleteClient interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteClient interface
@@ -30,7 +35,7 @@ The **ITipAutocompleteClient** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -38,16 +43,16 @@ The **ITipAutocompleteClient** interface has these methods.
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

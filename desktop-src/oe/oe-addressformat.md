@@ -1,8 +1,10 @@
 ---
 title: ADDRESSFORMAT enumeration
 description: Do not use. Used by the GetFormat method to specify the format of a text-based representation of an address string.
-ms.assetid: 'd11165b4-aa62-41b3-b87e-9d60ca166e35'
-keywords: ["ADDRESSFORMAT enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: d11165b4-aa62-41b3-b87e-9d60ca166e35
+keywords:
+- ADDRESSFORMAT enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDRESSFORMAT enumeration
@@ -22,12 +29,12 @@ Do not use. Used by the [**GetFormat**](oe-imimeaddresstable-getformat.md) metho
 
 ```C++
 typedef enum tagADDRESSFORMAT { 
-  AFT_DISPLAY_FRIENDLY  = 0,
-  AFT_DISPLAY_EMAIL     = 1,
-  AFT_DISPLAY_BOTH      = 2,
-  AFT_RFC822_DECODED    = 3,
-  AFT_RFC822_ENCODED    = 4,
-  AFT_RFC822_TRANSMIT   = 5
+  AFT_DISPLAY_FRIENDLY  = 0,
+  AFT_DISPLAY_EMAIL     = 1,
+  AFT_DISPLAY_BOTH      = 2,
+  AFT_RFC822_DECODED    = 3,
+  AFT_RFC822_ENCODED    = 4,
+  AFT_RFC822_TRANSMIT   = 5
 } ACCESSTYPE;
 ```
 
@@ -85,17 +92,17 @@ Display formatted according to the RFC822 standard. The string can be wrapped to
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

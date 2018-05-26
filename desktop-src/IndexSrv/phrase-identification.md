@@ -1,7 +1,12 @@
 ---
 title: Phrase Identification
 description: Phrase Identification
-ms.assetid: '3b2f2405-e613-4ab7-b62d-f0dc05c65f50'
+ms.assetid: 3b2f2405-e613-4ab7-b62d-f0dc05c65f50
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Phrase Identification

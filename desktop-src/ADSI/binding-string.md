@@ -4,11 +4,16 @@ description: Due to the number of objects accessible from a directory service, n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b4c44b19-d7b6-4dde-b44c-4a49cecbacf2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b4c44b19-d7b6-4dde-b44c-4a49cecbacf2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Binding String ADSI", "ADsPath ADSI , Description"]
+keywords:
+- Binding String ADSI
+- ADsPath ADSI , Description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding String
@@ -25,11 +30,11 @@ The following table lists the ADSI providers provided by default.
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WinNT<br/> | Used to communicate with Windows domain controllers. For more information about the WinNT ADsPath, see [WinNT ADsPath](winnt-adspath.md).<br/>           |
 | LDAP<br/>  | Used to communicate with LDAP servers, such as Active Directory. For more information about the LDAP ADsPath, see [LDAP ADsPath](ldap-adspath.md).<br/>  |
-| ADs<br/>   | Provides an [**IADsNamespaces**](iadsnamespaces.md) implementation that can be used to enumerate all of the ADSI providers installed on the client.<br/> |
+| ADs<br/>   | Provides an [**IADsNamespaces**](/windows/win32/Iads/nn-iads-iadsnamespaces?branch=master) implementation that can be used to enumerate all of the ADSI providers installed on the client.<br/> |
 
 
 
- 
+ 
 
 Use these provider names to access the default provider namespace. For example, if you bind to LDAP, ADSI binds to a container that contains the domain object currently logged on. If you bind to WinNT, ADSI binds to a container that holds objects that correlate to all domains on the network.
 
@@ -74,7 +79,7 @@ The following table lists ADsPath special characters.
 
 
 
- 
+ 
 
 To delimit an ADsPath in a search specification or as part of a URL, use the left and right angle bracket (&lt; &gt;). For example, "&lt;WinNT://MyDomain/UserAccount&gt;".
 
@@ -84,9 +89,9 @@ Some ADSI providers may have added syntax restrictions due to namespace requirem
 
 Active Directory provides the ability to bind to an object using several other types of binding strings, such as a COM globally unique identifier (GUID) or a security identifier (SID). For more information, see [Binding to Active Directory](https://msdn.microsoft.com/library/aa772152).
 
- 
+ 
 
- 
+ 
 
 
 

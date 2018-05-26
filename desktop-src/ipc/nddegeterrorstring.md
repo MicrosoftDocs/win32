@@ -1,12 +1,17 @@
 ---
-Description: 'Converts an error code returned by a network DDE function into an error string that explains the returned error code.'
-ms.assetid: '7077e3bc-df6e-401b-9ac7-15144b79af96'
+Description: Converts an error code returned by a network DDE function into an error string that explains the returned error code.
+ms.assetid: 7077e3bc-df6e-401b-9ac7-15144b79af96
 title: NDdeGetErrorString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeGetErrorString function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Converts an error code returned by a network DDE function into an error string that explains the returned error code.
 
@@ -15,9 +20,9 @@ Converts an error code returned by a network DDE function into an error string t
 
 ```C++
 UINT NDdeGetErrorString(
-  _In_  UINT   uErrorCode,
-  _Out_ LPTSTR lpszErrorString,
-  _In_  DWORD  cBufSize
+  _In_  UINT   uErrorCode,
+  _Out_ LPTSTR lpszErrorString,
+  _In_  DWORD  cBufSize
 );
 ```
 
@@ -60,8 +65,8 @@ If the function fails, the return value is a nonzero error code. If the *lpszErr
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -79,9 +84,9 @@ If the function fails, the return value is a nonzero error code. If the *lpszErr
 [Network DDE Functions](network-dde-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

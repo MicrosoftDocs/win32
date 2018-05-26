@@ -1,13 +1,16 @@
 ---
-Description: 'You can control whether a child namespace inherits the security descriptor of the parent namespace.'
+Description: You can control whether a child namespace inherits the security descriptor of the parent namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd4fbd5af-69e2-4c60-907a-cb2a1506b7c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d4fbd5af-69e2-4c60-907a-cb2a1506b7c9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Establishing Inheritance of Namespace Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Establishing Inheritance of Namespace Security

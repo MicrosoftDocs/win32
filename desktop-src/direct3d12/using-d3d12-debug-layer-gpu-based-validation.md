@@ -1,7 +1,12 @@
 ---
 title: Using D3D12 Debug Layer GPU-Based Validation
 description: GPU-Based Validation (GBV) Preview enables new validation scenarios on the GPU timeline that is not possible to do during API calls on the CPU. GBV is available starting with the Graphics Tools for Windows 10 Anniversary Update.
-ms.assetid: '01D1F94F-4DD4-4781-86EF-6C639E8B1069'
+ms.assetid: 01D1F94F-4DD4-4781-86EF-6C639E8B1069
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using D3D12 Debug Layer GPU-Based Validation
@@ -55,7 +60,7 @@ Generally, developers should be running their code with the debug layer enabled 
 
 ## Debug Output
 
-GBV produces debug output after a call to [**ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md) completes execution on the GPU. Since this is on the GPU-timeline the debug output may be asynchronous with other CPU-timeline validation. Application developers may want to inject their own wait-after-execute to synchronize debug output.
+GBV produces debug output after a call to [**ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master) completes execution on the GPU. Since this is on the GPU-timeline the debug output may be asynchronous with other CPU-timeline validation. Application developers may want to inject their own wait-after-execute to synchronize debug output.
 
 GBV output identifies where in a shader an error occurred, along with the current draw/dispatch count and identities of related objects (e.g. command list, queue, PSO, etc).
 
@@ -91,28 +96,28 @@ The Preview release has some known bugs:
 Some features are not supported:
 
 -   Use of aliased resources bound via GPU virtual address are not supported (e.g. Index Buffers). Note that non-aliased resources are supported.
--   [**ExecuteBundle**](id3d12graphicscommandlist-executebundle.md)
--   [**ExecuteIndirect**](id3d12graphicscommandlist-executeindirect.md)
+-   [**ExecuteBundle**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-executebundle?branch=master)
+-   [**ExecuteIndirect**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect?branch=master)
 -   Multi-GPU
 
 ## Debug Layer APIs
 
-To enable the debug layer, call [**EnableDebugLayer**](id3d12debug-enabledebuglayer.md).
+To enable the debug layer, call [**EnableDebugLayer**](/windows/win32/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer?branch=master).
 
-To enable GPU-Based Validation, call [**SetEnableGPUBasedValidation**](id3d12debugdevice1-setenablegpubasedvalidation.md), and refer to the methods of the following interfaces:
+To enable GPU-Based Validation, call [**SetEnableGPUBasedValidation**](/windows/win32/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug1-setenablegpubasedvalidation?branch=master), and refer to the methods of the following interfaces:
 
--   [**ID3D12Debug1**](id3d12debug1.md)
--   [**ID3D12DebugCommandList1**](id3d12debugcommandlist1.md)
--   [**ID3D12DebugDevice1**](id3d12debugdevice1.md)
+-   [**ID3D12Debug1**](/windows/win32/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1?branch=master)
+-   [**ID3D12DebugCommandList1**](/windows/win32/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist1?branch=master)
+-   [**ID3D12DebugDevice1**](/windows/win32/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugdevice1?branch=master)
 
 Refer to the following enumerations and structures:
 
--   [**D3D12\_DEBUG\_COMMAND\_LIST\_PARAMETER\_TYPE**](d3d12-debug-command-list-parameter-type.md)
--   [**D3D12\_DEBUG\_DEVICE\_PARAMETER\_TYPE**](d3d12-debug-device-parameter-type.md)
--   [**D3D12\_GPU\_BASED\_VALIDATION\_PIPELINE\_STATE\_CREATE\_FLAGS**](d3d12-gpu-based-validation-pipeline-state-create-flags.md)
--   [**D3D12\_GPU\_BASED\_VALIDATION\_SHADER\_PATCH\_MODE**](d3d12-gpu-based-validation-shader-patch-mode.md)
--   [**D3D12\_DEBUG\_COMMAND\_LIST\_GPU\_BASED\_VALIDATION\_SETTINGS**](d3d12-debug-command-list-gpu-based-validation-settings.md)
--   [**D3D12\_DEBUG\_DEVICE\_GPU\_BASED\_VALIDATION\_SETTINGS**](d3d12-debug-device-gpu-based-validation-settings.md)
+-   [**D3D12\_DEBUG\_COMMAND\_LIST\_PARAMETER\_TYPE**](/windows/win32/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_command_list_parameter_type?branch=master)
+-   [**D3D12\_DEBUG\_DEVICE\_PARAMETER\_TYPE**](/windows/win32/d3d12sdklayers/ne-d3d12sdklayers-d3d12_debug_device_parameter_type?branch=master)
+-   [**D3D12\_GPU\_BASED\_VALIDATION\_PIPELINE\_STATE\_CREATE\_FLAGS**](/windows/win32/d3d12sdklayers/ne-d3d12sdklayers-d3d12_gpu_based_validation_pipeline_state_create_flags?branch=master)
+-   [**D3D12\_GPU\_BASED\_VALIDATION\_SHADER\_PATCH\_MODE**](/windows/win32/d3d12sdklayers/ne-d3d12sdklayers-d3d12_gpu_based_validation_shader_patch_mode?branch=master)
+-   [**D3D12\_DEBUG\_COMMAND\_LIST\_GPU\_BASED\_VALIDATION\_SETTINGS**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_command_list_gpu_based_validation_settings?branch=master)
+-   [**D3D12\_DEBUG\_DEVICE\_GPU\_BASED\_VALIDATION\_SETTINGS**](/windows/win32/d3d12sdklayers/ns-d3d12sdklayers-d3d12_debug_device_gpu_based_validation_settings?branch=master)
 
 ## Related topics
 

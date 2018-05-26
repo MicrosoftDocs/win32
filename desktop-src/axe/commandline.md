@@ -1,14 +1,20 @@
 ---
 title: CommandLine element
 description: Contains the command line that is passed to the assessment process.
-ms.assetid: 'BF4631F0-6FAC-4B1A-97B8-8F7FDDCBBE14'
-keywords: ["CommandLine element Access Execution Engine"]
+ms.assetid: BF4631F0-6FAC-4B1A-97B8-8F7FDDCBBE14
+keywords:
+- CommandLine element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - CommandLine
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommandLine element
@@ -47,7 +53,7 @@ There are no child elements.
 
 ## Remarks
 
-The assessment process is created using the method described in the Assessment’s &lt;Execution&gt; node.
+The assessment process is created using the method described in the Assessment s &lt;Execution&gt; node.
 
 ## Element information
 
@@ -66,9 +72,9 @@ The assessment process is created using the method described in the Assessment’s
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

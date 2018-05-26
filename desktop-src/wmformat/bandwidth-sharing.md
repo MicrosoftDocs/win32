@@ -1,8 +1,20 @@
 ---
 title: Bandwidth Sharing
 description: Bandwidth Sharing
-ms.assetid: 'd33f3454-d20a-4b4d-9902-dabc5b806ad6'
-keywords: ["Windows Media Format SDK,bandwidth sharing", "Advanced Systems Format (ASF),bandwidth sharing", "ASF (Advanced Systems Format),bandwidth sharing", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "bandwidth sharing,about"]
+ms.assetid: d33f3454-d20a-4b4d-9902-dabc5b806ad6
+keywords:
+- Windows Media Format SDK,bandwidth sharing
+- Advanced Systems Format (ASF),bandwidth sharing
+- ASF (Advanced Systems Format),bandwidth sharing
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- bandwidth sharing,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bandwidth Sharing
@@ -23,10 +35,10 @@ Bandwidth sharing is configured with a bandwidth sharing object and is added to 
 [**Bandwidth Sharing Object**](bandwidth-sharing-object.md)
 </dt> <dt>
 
-[**IWMBandwidthSharing Interface**](iwmbandwidthsharing.md)
+[**IWMBandwidthSharing Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing?branch=master)
 </dt> <dt>
 
-[**IWMProfile3 Interface**](iwmprofile3.md)
+[**IWMProfile3 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmprofile3?branch=master)
 </dt> <dt>
 
 [**Using Bandwidth Sharing**](using-bandwidth-sharing.md)

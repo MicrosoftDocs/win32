@@ -1,7 +1,12 @@
 ---
-Description: 'This example illustrates how to create a simple Windows Installer package that installs an application.'
-ms.assetid: 'eee1e3e6-74e9-41d0-b732-1f792a4df423'
+Description: This example illustrates how to create a simple Windows Installer package that installs an application.
+ms.assetid: eee1e3e6-74e9-41d0-b732-1f792a4df423
 title: An Installation Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # An Installation Example

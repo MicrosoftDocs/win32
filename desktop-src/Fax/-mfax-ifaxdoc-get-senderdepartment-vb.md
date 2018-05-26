@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SenderDepartment property of a FaxDoc object. The SenderDepartment property is a null-terminated string that contains the department of the sender of the fax transmission.'
-ms.assetid: '4d194552-0941-40c8-86fe-358c650d0919'
-title: 'FaxDoc.SenderDepartment property'
+---
+Description: Sets or retrieves the SenderDepartment property of a FaxDoc object. The SenderDepartment property is a null-terminated string that contains the department of the sender of the fax transmission.
+ms.assetid: 4d194552-0941-40c8-86fe-358c650d0919
+title: FaxDoc.SenderDepartment property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SenderDepartment property
@@ -55,7 +60,7 @@ The **get\_SenderDepartment** method allocates the memory required for the buffe
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

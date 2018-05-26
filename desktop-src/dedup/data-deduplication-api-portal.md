@@ -4,13 +4,18 @@ description: The Data Deduplication API enables backup applications to implement
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40a38405-4771-443b-9051-27152773b92f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 40a38405-4771-443b-9051-27152773b92f
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Data Deduplication API Data Deduplication API", "Data Deduplication API Data Deduplication API , home page"]
+keywords:
+- Data Deduplication API Data Deduplication API
+- Data Deduplication API Data Deduplication API , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Deduplication API

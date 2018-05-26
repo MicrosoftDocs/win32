@@ -1,7 +1,12 @@
 ---
 title: Sensor Platform
 description: Windows 7 has changed how developers use sensors.
-ms.assetid: 'ed323658-dfd6-4c1b-ada2-5d68ebb56482'
+ms.assetid: ed323658-dfd6-4c1b-ada2-5d68ebb56482
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sensor Platform

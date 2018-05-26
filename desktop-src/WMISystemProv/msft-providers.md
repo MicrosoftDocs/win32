@@ -4,11 +4,13 @@ description: The MSFT\_Providers class contains configuration information for pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43d18a94-5925-40ed-812d-50b941d040ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 43d18a94-5925-40ed-812d-50b941d040ed
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_Providers class", "MSFT_Providers class, described"]
+keywords:
+- MSFT_Providers class
+- MSFT_Providers class, described
 topic_type:
 - apiref
 api_name:
@@ -50,6 +52,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_Providers class
@@ -122,7 +127,7 @@ The **MSFT\_Providers** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -262,7 +267,7 @@ Activate provider in the provider host process that is running under the [LocalS
 
 The provider is self-hosted or loaded into the Wmiprvse.exe process running under the [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) account.
 
-**Note**  **LocalSystemHostOrSelfHost** is the default configuration that WMI sets when the [**HostingModel**](https://msdn.microsoft.com/library/aa394688) property in **\_\_Win32Provider** is **NULL**. Because [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) is a highly privileged account, an entry is generated in the Security Event Log to notify administrators of a provider running in this trusted status.
+**Note**  **LocalSystemHostOrSelfHost** is the default configuration that WMI sets when the [**HostingModel**](https://msdn.microsoft.com/library/aa394688) property in **\_\_Win32Provider** is **NULL**. Because [LocalSystem](https://msdn.microsoft.com/library/windows/desktop/ms684190) is a highly privileged account, an entry is generated in the Security Event Log to notify administrators of a provider running in this trusted status.
 
 </dd> <dt>
 
@@ -760,8 +765,8 @@ Particular provider instance, configured for per user initialization.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -775,9 +780,9 @@ Particular provider instance, configured for per user initialization.
 [Provider Hosting and Security](https://msdn.microsoft.com/library/aa392783)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

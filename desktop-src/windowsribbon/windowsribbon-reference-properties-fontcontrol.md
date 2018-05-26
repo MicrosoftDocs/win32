@@ -1,7 +1,12 @@
 ---
 title: Font Control Properties
 description: Reference documentation on property keys for the Ribbon framework Font Control.
-ms.assetid: 'fe0f4255-c429-4821-a180-38a3bdbf0623'
+ms.assetid: fe0f4255-c429-4821-a180-38a3bdbf0623
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font Control Properties
@@ -29,7 +34,7 @@ Reference documentation on property keys for the Ribbon framework [Font Control]
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +43,9 @@ Reference documentation on property keys for the Ribbon framework [Font Control]
 [Property Keys](windowsribbon-reference-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

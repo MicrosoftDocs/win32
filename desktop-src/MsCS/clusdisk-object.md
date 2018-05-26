@@ -4,11 +4,13 @@ description: Provides access to identification and configuration data about a Ph
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6433d55f-f97a-4027-ba2a-7102b4cf33ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6433d55f-f97a-4027-ba2a-7102b4cf33ae
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusDisk object Failover Cluster", "ClusDisk object Failover Cluster , described"]
+keywords:
+- ClusDisk object Failover Cluster
+- ClusDisk object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusDisk object
@@ -47,7 +52,7 @@ The **ClusDisk** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,7 +65,7 @@ A **ClusDisk** object is obtained from [**ClusDisks.Item**](clusdisks-item.md) o
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +74,9 @@ A **ClusDisk** object is obtained from [**ClusDisks.Item**](clusdisks-item.md) o
 
 
 
- 
+ 
 
- 
+ 
 
 
 

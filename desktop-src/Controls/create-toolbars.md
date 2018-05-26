@@ -1,7 +1,12 @@
 ---
 title: How to Create Toolbars
 description: To create a toolbar, use the CreateWindowEx function, specifying the TOOLBARCLASSNAME window class.
-ms.assetid: '5D060291-6ACF-478C-97EC-CD8BD55D1FFF'
+ms.assetid: 5D060291-6ACF-478C-97EC-CD8BD55D1FFF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Toolbars

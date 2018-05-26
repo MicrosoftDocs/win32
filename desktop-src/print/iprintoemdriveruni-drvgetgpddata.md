@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUni::DrvGetGPDData method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer''s GPD file.'
-ms.assetid: 'cebe8972-4e5a-4382-ac1b-4c326dea46b1'
-title: 'IPrintOemDriverUni::DrvGetGPDData method'
+---
+Description: The IPrintOemDriverUniDrvGetGPDData method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printers GPD file.
+ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
+title: IPrintOemDriverUniDrvGetGPDData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUni::DrvGetGPDData method

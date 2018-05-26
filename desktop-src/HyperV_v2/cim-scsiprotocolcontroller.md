@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a protocol controller that manages a SCSI interface.'
-ms.assetid: '01ef85fc-2f05-4453-b524-7d63b647f6fb'
-title: 'CIM\_SCSIProtocolController class'
+Description: Represents a protocol controller that manages a SCSI interface.
+ms.assetid: 01ef85fc-2f05-4453-b524-7d63b647f6fb
+title: CIM\_SCSIProtocolController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SCSIProtocolController class
@@ -99,8 +104,8 @@ A description of the **NameFormat** property when **NameFormat** is set to "1" (
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -114,9 +119,9 @@ A description of the **NameFormat** property when **NameFormat** is set to "1" (
 [**CIM\_ProtocolController**](cim-protocolcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

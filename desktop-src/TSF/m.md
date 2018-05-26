@@ -2,7 +2,12 @@
 title: M
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '53b8f8cc-776c-454a-86fa-6fa3b6ac097b'
+ms.assetid: 53b8f8cc-776c-454a-86fa-6fa3b6ac097b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # M

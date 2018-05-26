@@ -1,8 +1,14 @@
 ---
 title: DBCONTENTPROXIMITY
 description: DBCONTENTPROXIMITY
-ms.assetid: '68baff08-435c-4486-84d8-34dcb8991d69'
-keywords: ["DBCONTENTPROXIMITY"]
+ms.assetid: 68baff08-435c-4486-84d8-34dcb8991d69
+keywords:
+- DBCONTENTPROXIMITY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCONTENTPROXIMITY

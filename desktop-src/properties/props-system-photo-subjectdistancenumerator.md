@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_SubjectDistance.'
-ms.assetid: '98d2c1e3-0068-45ed-a13f-b5a09261f30f'
-title: 'System.Photo.SubjectDistanceNumerator'
+Description: The numerator of PKEY\_Photo\_SubjectDistance.
+ms.assetid: 98d2c1e3-0068-45ed-a13f-b5a09261f30f
+title: System.Photo.SubjectDistanceNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.SubjectDistanceNumerator

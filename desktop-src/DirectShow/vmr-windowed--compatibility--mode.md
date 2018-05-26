@@ -1,12 +1,17 @@
 ---
-Description: 'VMR Windowed (Compatibility) Mode'
-ms.assetid: 'e9fb1c83-860a-44c1-9633-c86f5d0fdadd'
-title: 'VMR Windowed (Compatibility) Mode'
+Description: VMR Windowed (Compatibility) Mode
+ms.assetid: e9fb1c83-860a-44c1-9633-c86f5d0fdadd
+title: VMR Windowed (Compatibility) Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR Windowed (Compatibility) Mode
 
-The VMR is designed to be compatible with all existing DirectShow applications. When it is used with an existing application, the VMR operates in windowed mode with a single video stream, also called compatibility mode. This mode is provided because the VMR-7 is the default renderer on Windows XP, and is therefore automatically used in calls to [Intelligent Connect](intelligent-connect.md) methods such as [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md). If your application uses Intelligent Connect and requires only basic rendering capabilities, you do not need any special code to render correctly with the VMR-7 on Windows XP.
+The VMR is designed to be compatible with all existing DirectShow applications. When it is used with an existing application, the VMR operates in windowed mode with a single video stream, also called compatibility mode. This mode is provided because the VMR-7 is the default renderer on Windows XP, and is therefore automatically used in calls to [Intelligent Connect](intelligent-connect.md) methods such as [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master). If your application uses Intelligent Connect and requires only basic rendering capabilities, you do not need any special code to render correctly with the VMR-7 on Windows XP.
 
 The VMR-9 also runs in windowed/compatibility mode by default. However, the VMR-9 is never the default video renderer. To use the VMR-9 in an application, you must explicitly add it to the filter graph. For that reason, and because windowless mode provides better functionality than windowed mode, there is no particular advantage to using the VMR-9 in windowed/compatibility mode.
 
@@ -14,7 +19,7 @@ The VMR-9 also runs in windowed/compatibility mode by default. However, the VMR-
 
 No special programming is required to set up or control the VMR-7 in windowed/compatibility mode. Simply build the filter graph using the standard graph-building calls, and the VMR-7 will default to this mode.
 
-In windowed/compatibility mode, the VMR-7 creates its own window to display the video. To do so, it loads the Window Manager component, which exposes the [**IVideoWindow**](ivideowindow.md) and [**IBasicVideo**](ibasicvideo.md) interfaces. Your application can query the Filter Graph Manager for these interfaces, exactly as you would with the old Video Renderer filter. For more information, see [Using Windowed Mode](using-windowed-mode.md).
+In windowed/compatibility mode, the VMR-7 creates its own window to display the video. To do so, it loads the Window Manager component, which exposes the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) and [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interfaces. Your application can query the Filter Graph Manager for these interfaces, exactly as you would with the old Video Renderer filter. For more information, see [Using Windowed Mode](using-windowed-mode.md).
 
 The following illustration shows the VMR-7 in windowed/compatibility mode.
 
@@ -22,7 +27,7 @@ The following illustration shows the VMR-7 in windowed/compatibility mode.
 
 To guarantee the maximum level of compatibility, the video window has the same class name as the one created by the old Video Renderer filter, and most of the Window Manager code from the old Video Renderer is still used by the VMR. In windowed/compatibility mode, the VMR consumes no more system resources than the old Video Renderer. Since the VMR-7 has only one input stream in windowed/compatibility mode, it does not load its mixer or compositor components.
 
-By default, the VMR stretches the image to fill the video window. To preserve the aspect ratio of the source, call the [**IVMRAspectRatioControl::SetAspectRatioMode**](ivmraspectratiocontrol-setaspectratiomode.md) method with the VMR\_ARMODE\_LETTER\_BOX flag.
+By default, the VMR stretches the image to fill the video window. To preserve the aspect ratio of the source, call the [**IVMRAspectRatioControl::SetAspectRatioMode**](/windows/win32/Strmif/nf-strmif-ivmraspectratiocontrol-setaspectratiomode?branch=master) method with the VMR\_ARMODE\_LETTER\_BOX flag.
 
 > [!Note]  
 > MFC applications that place the video window in a child window must define an empty WM\_ERASEBKGND message handler, or the video display area will not repaint correctly.

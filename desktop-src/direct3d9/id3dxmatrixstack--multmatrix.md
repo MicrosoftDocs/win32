@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the product of the current matrix and the given matrix.'
-ms.assetid: 'a673ce82-6fed-4a3f-8c37-d0db11195f06'
-title: 'ID3DXMATRIXStack::MultMatrix method'
+---
+Description: Determines the product of the current matrix and the given matrix.
+ms.assetid: a673ce82-6fed-4a3f-8c37-d0db11195f06
+title: ID3DXMATRIXStackMultMatrix method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::MultMatrix method

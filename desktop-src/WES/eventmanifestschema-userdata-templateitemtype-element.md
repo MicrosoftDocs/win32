@@ -1,14 +1,20 @@
 ---
 title: UserData (TemplateItemType) Element
 description: An XML fragment that is used to render the event data.
-ms.assetid: '2b327a2c-8900-488f-b92d-991c25e580c4'
-keywords: ["UserData element EventLog"]
+ms.assetid: 2b327a2c-8900-488f-b92d-991c25e580c4
+keywords:
+- UserData element EventLog
 topic_type:
 - apiref
 api_name:
 - UserData
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserData (TemplateItemType) Element
@@ -29,8 +35,8 @@ The **UserData** element is defined by the [**TemplateItemType**](eventmanifests
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **UserData** element is defined by the [**TemplateItemType**](eventmanifests
 [**template (TemplateListType)**](eventmanifestschema-template-templatelisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of floating point values.'
-ms.assetid: '4b9c27b4-0255-4bbf-9168-491936d64fb9'
-title: 'ID3DXBaseEffect::SetFloatArray method'
+---
+Description: Sets an array of floating point values.
+ms.assetid: 4b9c27b4-0255-4bbf-9168-491936d64fb9
+title: ID3DXBaseEffectSetFloatArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetFloatArray method

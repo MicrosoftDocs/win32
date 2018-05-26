@@ -1,14 +1,20 @@
 ---
 title: Type (BaseEapParameters) Element
 description: Defines the placeholder element for the method type selected and method-specific configuration.
-ms.assetid: 'f41b9205-262e-491f-b576-87972ef3de50'
-keywords: ["Type element EAPHost"]
+ms.assetid: f41b9205-262e-491f-b576-87972ef3de50
+keywords:
+- Type element EAPHost
 topic_type:
 - apiref
 api_name:
 - Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type (BaseEapParameters) Element
@@ -29,8 +35,8 @@ The **Type** element is defined by the [**BaseEapParameters**](baseeapconnection
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **Type** element is defined by the [**BaseEapParameters**](baseeapconnection
 [baseeapconnectionpropertiesv1 Schema](baseeapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

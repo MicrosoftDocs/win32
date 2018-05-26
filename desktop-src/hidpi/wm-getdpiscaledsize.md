@@ -1,8 +1,9 @@
 ---
 title: WM\_GETDPISCALEDSIZE message
 description: This message tells the operating system that the window will be sized to dimensions other than the default.
-ms.assetid: '038CAA21-0944-45D3-8C40-A6498F36D9E4'
-keywords: ["WM_GETDPISCALEDSIZE message High DPI"]
+ms.assetid: 038CAA21-0944-45D3-8C40-A6498F36D9E4
+keywords:
+- WM_GETDPISCALEDSIZE message High DPI
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GETDPISCALEDSIZE message
@@ -68,15 +74,15 @@ There is no specific default handling of this message in [DefWindowProc](https:/
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

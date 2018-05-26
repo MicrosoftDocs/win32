@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualNetworkCollection interface
 description: The IVMVirtualNetworkCollection interface defines a collection of IVMVirtualNetwork objects. An IVMVirtualNetworkCollection object is returned from the IVMVirtualServer VirtualNetworks property.
-ms.assetid: '9bfee725-db47-41b2-8967-3712f62f7827'
-keywords: ["IVMVirtualNetworkCollection interface Virtual Server", "IVMVirtualNetworkCollection interface Virtual Server , described"]
+ms.assetid: 9bfee725-db47-41b2-8967-3712f62f7827
+keywords:
+- IVMVirtualNetworkCollection interface Virtual Server
+- IVMVirtualNetworkCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetworkCollection interface
@@ -37,7 +44,7 @@ The **IVMVirtualNetworkCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,15 +52,15 @@ The **IVMVirtualNetworkCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

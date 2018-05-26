@@ -1,6 +1,11 @@
-﻿---
-Description: 'Indicates that a search was started.'
-title: 'IShellFolderSearchableCallback::RunBegin method'
+---
+Description: Indicates that a search was started.
+title: IShellFolderSearchableCallbackRunBegin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderSearchableCallback::RunBegin method

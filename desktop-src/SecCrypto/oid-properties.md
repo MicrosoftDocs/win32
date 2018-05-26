@@ -1,7 +1,12 @@
 ---
-Description: 'The OID object exposes the following properties.'
-ms.assetid: '8864F8E0-7B05-4EC8-887F-952EB23B71A0'
+Description: The OID object exposes the following properties.
+ms.assetid: 8864F8E0-7B05-4EC8-887F-952EB23B71A0
 title: OID Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OID Properties

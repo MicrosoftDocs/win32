@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the FOURCC that identifies the encoder you want to use.'
-ms.assetid: 'c03da576-cb58-4686-af6f-9575520c759c'
-title: 'MFPKEY\_FOURCC Property'
+---
+Description: Specifies the FOURCC that identifies the encoder you want to use.
+ms.assetid: c03da576-cb58-4686-af6f-9575520c759c
+title: MFPKEY\_FOURCC Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FOURCC Property
@@ -23,7 +28,7 @@ You must set this value before retrieving the values for the following propertie
 -   [MFPKEY\_BUFFERFULLNESSINFIRSTBYTE](mfpkey-bufferfullnessinfirstbyteproperty.md)
 -   [MFPKEY\_PASSESRECOMMENDED](mfpkey-passesrecommendedproperty.md)
 
-You should use [**IWMCodecProps::GetCodecProp**](iwmcodecpropsgetcodecprop.md) to retrieve the values of the FOURCC-dependent properties listed previously. When using **GetCodecProp**, you do not need to set **MFPKEY\_FOURCC**.
+You should use [**IWMCodecProps::GetCodecProp**](/windows/win32/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getcodecprop?branch=master) to retrieve the values of the FOURCC-dependent properties listed previously. When using **GetCodecProp**, you do not need to set **MFPKEY\_FOURCC**.
 
 ## Requirements
 

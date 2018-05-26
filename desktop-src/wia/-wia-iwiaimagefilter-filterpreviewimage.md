@@ -1,7 +1,12 @@
-﻿---
-Description: 'Filters the preview image.'
-ms.assetid: '1710211a-a35c-4a51-b3bb-6f03f234f247'
-title: 'IWiaImageFilter::FilterPreviewImage method'
+---
+Description: Filters the preview image.
+ms.assetid: 1710211a-a35c-4a51-b3bb-6f03f234f247
+title: IWiaImageFilterFilterPreviewImage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaImageFilter::FilterPreviewImage method

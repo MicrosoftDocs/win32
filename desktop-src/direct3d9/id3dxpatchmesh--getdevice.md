@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the device that created the mesh.'
-ms.assetid: 'b03dadda-ca54-4a55-a0a5-cf5ccdb55a72'
-title: 'ID3DXPatchMesh::GetDevice method'
+---
+Description: Gets the device that created the mesh.
+ms.assetid: b03dadda-ca54-4a55-a0a5-cf5ccdb55a72
+title: ID3DXPatchMeshGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetDevice method
@@ -26,7 +31,7 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
 Pointer to the device.
 

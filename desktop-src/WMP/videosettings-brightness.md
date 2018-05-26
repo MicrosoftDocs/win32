@@ -1,14 +1,20 @@
 ---
 title: VIDEOSETTINGS.brightness
 description: The brightness attribute specifies or retrieves the brightness setting of the video.
-ms.assetid: 'c23c195d-47f5-44d2-b3f9-b323a2cdea80'
-keywords: ["VIDEOSETTINGS.brightness Windows Media Player"]
+ms.assetid: c23c195d-47f5-44d2-b3f9-b323a2cdea80
+keywords:
+- VIDEOSETTINGS.brightness Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEOSETTINGS.brightness
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEOSETTINGS.brightness
@@ -40,9 +46,9 @@ This attribute is a read/write **Number** (**long**) with a value ranging from -
 [**VIDEOSETTINGS Element**](videosettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

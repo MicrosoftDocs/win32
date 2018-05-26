@@ -4,13 +4,16 @@ description: Retrieves the configuration of a DFS namespace (DFS-N) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0361fa6f-7ae8-4681-aa25-c7d88af918a5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0361fa6f-7ae8-4681-aa25-c7d88af918a5
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetNamespaceServerConfig method", "GetNamespaceServerConfig method, MSFT_DFSNamespaceServerConfig class", "MSFT_DFSNamespaceServerConfig class, GetNamespaceServerConfig method"]
+keywords:
+- GetNamespaceServerConfig method
+- GetNamespaceServerConfig method, MSFT_DFSNamespaceServerConfig class
+- MSFT_DFSNamespaceServerConfig class, GetNamespaceServerConfig method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetNamespaceServerConfig method of the MSFT\_DFSNamespaceServerConfig class
@@ -30,8 +36,8 @@ Retrieves the configuration of a DFS namespace (DFS-N) server.
 
 ```mof
 uint32 GetNamespaceServerConfig(
-  [in]  string                        NamespaceServer,
-  [out] MSFT_DFSNamespaceServerConfig cmdletOutput
+  [in]  string                        NamespaceServer,
+  [out] MSFT_DFSNamespaceServerConfig cmdletOutput
 );
 ```
 
@@ -62,7 +68,7 @@ When this method returns, contains output from the **Get-DFSNamespaceServerConfi
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ When this method returns, contains output from the **Get-DFSNamespaceServerConfi
 [**MSFT\_DFSNamespaceServerConfig**](msft-dfsnamespaceserverconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

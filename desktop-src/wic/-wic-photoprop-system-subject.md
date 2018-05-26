@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Subject property.'
-ms.assetid: '5ab7c74b-8a5e-4329-8a49-291470d406cc'
-title: 'System.Subject Photo Metadata Policy'
+Description: The photo metadata policy for the System.Subject property.
+ms.assetid: 5ab7c74b-8a5e-4329-8a49-291470d406cc
+title: System.Subject Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Subject Photo Metadata Policy

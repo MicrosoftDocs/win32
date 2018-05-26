@@ -1,7 +1,12 @@
 ---
 title: Standard DISPIDS
 description: A number of standard dispids have been defined for the controls specification.
-ms.assetid: 'f938b64f-5d45-40e7-ad02-665ce9c86a70'
+ms.assetid: f938b64f-5d45-40e7-ad02-665ce9c86a70
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard DISPIDS
@@ -42,7 +47,7 @@ The Mousepointer property identifies standard mouse icons.
 
 
 
- 
+ 
 
 ## DISPID\_MOUSEICON
 
@@ -78,9 +83,9 @@ Used to allow the control to get the container's HPAL. If the container supplies
 #define DISPID_AMBIENT_PALETTE         -726
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the guide, or area where ink is drawn and recognized.'
-ms.assetid: '5bd874ff-003b-4471-b4ef-50731007dc5a'
+Description: Specifies the guide, or area where ink is drawn and recognized.
+ms.assetid: 5bd874ff-003b-4471-b4ef-50731007dc5a
 title: InkAnalysisRecognizerGuide structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkAnalysisRecognizerGuide structure
@@ -72,7 +77,7 @@ An **InkAnalysisRecognizerGuide** defines an expected area of input, such as a l
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 
@@ -97,9 +102,9 @@ An **InkAnalysisRecognizerGuide** defines an expected area of input, such as a l
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the external key from a file.'
-ms.assetid: 'b61b71fb-af6f-4fe3-859b-a9f2f42ca6d2'
-title: 'GetExternalKeyFromFile method of the Win32\_EncryptableVolume class'
+---
+Description: Returns the external key from a file.
+ms.assetid: b61b71fb-af6f-4fe3-859b-a9f2f42ca6d2
+title: GetExternalKeyFromFile method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetExternalKeyFromFile method of the Win32\_EncryptableVolume class

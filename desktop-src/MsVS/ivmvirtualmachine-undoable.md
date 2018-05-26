@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Undoable property
 description: The Undoable property contains TRUE if undo drives are enabled for hard disks connected to the virtual machine.
-ms.assetid: 'ebebff02-0248-47c3-8d55-77629ea69d91'
-keywords: ["Undoable property Virtual Server", "Undoable property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Undoable property", "Undoable property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Undoable property"]
+ms.assetid: ebebff02-0248-47c3-8d55-77629ea69d91
+keywords:
+- Undoable property Virtual Server
+- Undoable property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Undoable property
+- Undoable property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Undoable property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Undoable property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Undoable(
-  [in]  VARIANT_BOOL enableUndo
+  [in]  VARIANT_BOOL enableUndo
 );
 
 HRESULT get_Undoable(
-  [out] VARIANT_BOOL *isUndoable
+  [out] VARIANT_BOOL *isUndoable
 );
 ```
 
@@ -104,8 +114,8 @@ WScript.Echo "Undoable: " & objVM.Undoable
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -117,9 +127,9 @@ WScript.Echo "Undoable: " & objVM.Undoable
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

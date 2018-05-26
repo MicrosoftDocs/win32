@@ -1,8 +1,9 @@
 ---
 title: ProgressUpdateEventArgs structure
 description: Represents information provided to a solution during the OnProgressUpdate callback.
-ms.assetid: '3C3AEB9B-48F9-4973-ACD3-AACC38D67142'
-keywords: ["ProgressUpdateEventArgs structure Access Execution Engine"]
+ms.assetid: 3C3AEB9B-48F9-4973-ACD3-AACC38D67142
+keywords:
+- ProgressUpdateEventArgs structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProgressUpdateEventArgs structure
@@ -22,12 +28,12 @@ Represents information provided to a solution during the *OnProgressUpdate* call
 
 ```C++
 struct ProgressUpdateEventArgs {
-  DWORD            Size;
-  INT              AssessmentIndex;
+  DWORD            Size;
+  INT              AssessmentIndex;
   const Assessment *Assessment;
-  AxeProgressType  ProgressType;
-  UINT             ProgressValue;
-  LPCWSTR          ProgressMessage;
+  AxeProgressType  ProgressType;
+  UINT             ProgressValue;
+  LPCWSTR          ProgressMessage;
 };
 ```
 
@@ -47,7 +53,7 @@ The number of bytes in the structure. Used to detect different versions of struc
 **AssessmentIndex**
 </dt> <dd>
 
-The index of the assessment in the job’s assessment list.
+The index of the assessment in the job s assessment list.
 
 </dd> <dt>
 
@@ -85,15 +91,15 @@ A string that is interpreted according to the **ProgressType** parameter.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

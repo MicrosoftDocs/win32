@@ -4,11 +4,12 @@ description: Retrieves a list of the network interface private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '464aadac-8d95-478c-b9ee-9101cad6d99a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 464aadac-8d95-478c-b9ee-9101cad6d99a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_NETINTERFACE\_ENUM\_PRIVATE\_PROPERTIES control code
 
-Retrieves a list of the [network interface](network-interfaces.md) [private properties](private-properties.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md) parameter.
+Retrieves a list of the [network interface](network-interfaces.md) [private properties](private-properties.md). Applications use this [control code](about-control-codes.md) as a [**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master) parameter.
 
 
 ```C++
@@ -41,7 +45,7 @@ ClusterNetInterfaceControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master).
 
 <dl> <dt>
 
@@ -54,7 +58,7 @@ On a successful return, contains an array of null-terminated Unicode strings wit
 
 ## Return value
 
-[**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md) returns one of the following values.
+[**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -95,17 +99,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NETINTERFACE\_ENUM\_PRIVATE\_PROPERTIE
 
 | Component      | Bit location | Value                                       |
 |----------------|--------------|---------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_NETINTERFACE** (0x6)        |
+| Object code    | 24 31        | **CLUS\_OBJECT\_NETINTERFACE** (0x6)        |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)                 |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)                  |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)              |
 | Type bit       | 20           | External (0x0)                              |
-| Operation code | 0–23         | **CLCTL\_ENUM\_PRIVATE\_PROPERTIES** (0x79) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)                |
+| Operation code | 0 23         | **CLCTL\_ENUM\_PRIVATE\_PROPERTIES** (0x79) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)                |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -114,7 +118,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NETINTERFACE\_ENUM\_PRIVATE\_PROPERTIE
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -126,12 +130,12 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NETINTERFACE\_ENUM\_PRIVATE\_PROPERTIE
 [Network Interface Control Codes](network-interface-control-codes.md)
 </dt> <dt>
 
-[**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md)
+[**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

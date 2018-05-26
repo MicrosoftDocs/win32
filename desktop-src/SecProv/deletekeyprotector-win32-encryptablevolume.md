@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes a given key protector for the volume.'
-ms.assetid: 'fa6b89b0-83b6-4be2-8b7b-61b0501747d2'
-title: 'DeleteKeyProtector method of the Win32\_EncryptableVolume class'
+---
+Description: Deletes a given key protector for the volume.
+ms.assetid: fa6b89b0-83b6-4be2-8b7b-61b0501747d2
+title: DeleteKeyProtector method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteKeyProtector method of the Win32\_EncryptableVolume class

@@ -1,8 +1,19 @@
 ---
 title: Discovering Device Format Capabilities
 description: Discovering Device Format Capabilities
-ms.assetid: 'dd139816-dc8c-4e73-9a21-67287bfe6405'
-keywords: ["Windows Media Device Manager,device capabilities", "Device Manager,device capabilities", "programming guide,device capabilities", "desktop applications,device capabilities", "creating Windows Media Device Manager applications,device capabilities", "writing files to devices,device capabilities"]
+ms.assetid: dd139816-dc8c-4e73-9a21-67287bfe6405
+keywords:
+- Windows Media Device Manager,device capabilities
+- Device Manager,device capabilities
+- programming guide,device capabilities
+- desktop applications,device capabilities
+- creating Windows Media Device Manager applications,device capabilities
+- writing files to devices,device capabilities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Discovering Device Format Capabilities
@@ -11,7 +22,7 @@ Your application might try to determine a device's playback capabilities before 
 
 Note that some devices, such as mass storage class devices, might serve only as removable storage media without playback capabilities. In this case, it would be inappropriate for your application to transcode a file before sending it to the device.
 
-Although the [**IWMDMDevice::GetType**](iwmdmdevice-gettype.md) method enables a device to report its capabilities, some devices return incorrect values for this method. Before copying a file to a device, you might want to ask the user whether playback is intended, and if so, attempt to transcode the file to one of the device's reported formats (or a reasonable format, if the device claims support for any format). Another approach is to assume that any formats specifically listed as supported by the device are intended for playback, and all other files should be transferred unmodified.
+Although the [**IWMDMDevice::GetType**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice-gettype?branch=master) method enables a device to report its capabilities, some devices return incorrect values for this method. Before copying a file to a device, you might want to ask the user whether playback is intended, and if so, attempt to transcode the file to one of the device's reported formats (or a reasonable format, if the device claims support for any format). Another approach is to assume that any formats specifically listed as supported by the device are intended for playback, and all other files should be transferred unmodified.
 
 After discovering the format of the file to be transferred, and the formats supported by a device, you can decide which is the best target format for transcoding.
 
@@ -19,7 +30,7 @@ In the past, it was common for an application to return zero for a property to i
 
 However, it is important to note that devices often do not report their format capabilities properly, or in a standard way. For example, devices often report that they support any format, when in fact they can only handle specific formats, or specific bit rates within a format type. It is up to you to decide whether your application should accept such reports, or whether it should assume some kind of upper limit to a device's playback abilities (for example, 192 kbps).
 
-The recommended method for requesting a device's format support is [**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md). If this method is not supported, your application should fall back on [**IWMDMDevice::GetFormatSupport**](iwmdmdevice-getformatsupport.md). **GetFormatSupport**, unlike **GetFormatSupport2**, does not return video information.
+The recommended method for requesting a device's format support is [**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master). If this method is not supported, your application should fall back on [**IWMDMDevice::GetFormatSupport**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport?branch=master). **GetFormatSupport**, unlike **GetFormatSupport2**, does not return video information.
 
 How an application requests a device's format capabilities depends on which interface the application supports. For more details, see the following topics:
 

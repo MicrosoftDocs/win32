@@ -1,7 +1,12 @@
-﻿---
-Description: 'Destroys the subtree of frames under the root, including the root.'
-ms.assetid: '0bbb529f-01d8-430b-a72b-4af5f7a71253'
+---
+Description: Destroys the subtree of frames under the root, including the root.
+ms.assetid: 0bbb529f-01d8-430b-a72b-4af5f7a71253
 title: D3DXFrameDestroy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFrameDestroy function

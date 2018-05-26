@@ -1,7 +1,12 @@
 ---
 title: Other Types
 description: Other Types
-ms.assetid: '76381652-0d5b-49fa-9491-1ec19eef2bf5'
+ms.assetid: 76381652-0d5b-49fa-9491-1ec19eef2bf5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Types

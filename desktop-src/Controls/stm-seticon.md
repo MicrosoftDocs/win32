@@ -1,8 +1,9 @@
 ---
 title: STM\_SETICON message
 description: An application sends the STM\_SETICON message to associate an icon with an icon control.
-ms.assetid: '105b0667-8e23-47ed-9fb1-0792a22d7100'
-keywords: ["STM_SETICON message Windows Controls"]
+ms.assetid: 105b0667-8e23-47ed-9fb1-0792a22d7100
+keywords:
+- STM_SETICON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STM\_SETICON message
@@ -45,8 +51,8 @@ The return value is a handle to the icon previously associated with the icon con
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ The return value is a handle to the icon previously associated with the icon con
 [**LoadIcon**](https://msdn.microsoft.com/library/windows/desktop/ms648072)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

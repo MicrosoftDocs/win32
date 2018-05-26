@@ -1,8 +1,17 @@
 ---
 title: Media Type Identifiers
 description: Media Type Identifiers
-ms.assetid: '5d903953-cd6b-4fba-b877-8c7ad3aeb87d'
-keywords: ["Windows Media Format SDK,media type identifiers", "Advanced Systems Format (ASF),media type identifiers", "ASF (Advanced Systems Format),media type identifiers", "media types,identifiers"]
+ms.assetid: 5d903953-cd6b-4fba-b877-8c7ad3aeb87d
+keywords:
+- Windows Media Format SDK,media type identifiers
+- Advanced Systems Format (ASF),media type identifiers
+- ASF (Advanced Systems Format),media type identifiers
+- media types,identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Type Identifiers

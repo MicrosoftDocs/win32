@@ -1,7 +1,12 @@
 ---
 title: SysLink Control Reference
 description: .
-ms.assetid: 'a0f7fc19-408c-4e94-a55f-91556ff34036'
+ms.assetid: a0f7fc19-408c-4e94-a55f-91556ff34036
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SysLink Control Reference

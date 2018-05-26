@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Client API includes the following Component Object Model (COM) objects that are available through Microsoft Visual Basic.'
-ms.assetid: '3464d7b3-f2d4-4cfe-bc25-988bf04e3082'
+Description: The Fax Service Client API includes the following Component Object Model (COM) objects that are available through Microsoft Visual Basic.
+ms.assetid: 3464d7b3-f2d4-4cfe-bc25-988bf04e3082
 title: Fax Service Client API Visual Basic Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API Visual Basic Reference

@@ -2,10 +2,13 @@
 title: Adding an Event Source to a Collector Initiated Subscription
 description: To receive a forwarded event from an event subscription, you can create a collector-initiated subscription on the local computer.
 audience: developer
-ms.assetid: 'f0100938-1702-4ef7-b20e-a0e8df224d18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: f0100938-1702-4ef7-b20e-a0e8df224d18
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding an Event Source to a Collector Initiated Subscription
@@ -30,12 +33,12 @@ This example follows a series of steps to add an event source to a collector ini
 
 **To add an event source to a collector initiated subscription**
 
-1.  Open the existing subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
-2.  Get the event sources array of the subscription by calling the [**EcGetSubscriptionProperty**](ecgetsubscriptionproperty.md) function. For more information about subscription properties that can be retrieved, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](ec-subscription-property-id.md) enumeration.
-3.  Add a new event source to the event sources array of the subscription by calling the [**EcInsertObjectArrayElement**](ecinsertobjectarrayelement.md) function.
-4.  Set the event source properties by calling the [**EcSetObjectArrayProperty**](ecsetobjectarrayproperty.md) function. The **EcSubscriptionEventSourceAddress** property is either set to an address for the local computer (Localhost) or to a fully qualified domain name for a remote computer. For more information about event source properties that can be set, see the **EC\_SUBSCRIPTION\_PROPERTY\_ID** enumeration.
-5.  Save the subscription by calling the [**EcSaveSubscription**](ecsavesubscription.md) function.
-6.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+1.  Open the existing subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+2.  Get the event sources array of the subscription by calling the [**EcGetSubscriptionProperty**](/windows/win32/Evcoll/nf-evcoll-ecgetsubscriptionproperty?branch=master) function. For more information about subscription properties that can be retrieved, see the [**EC\_SUBSCRIPTION\_PROPERTY\_ID**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_property_id?branch=master) enumeration.
+3.  Add a new event source to the event sources array of the subscription by calling the [**EcInsertObjectArrayElement**](/windows/win32/Evcoll/nf-evcoll-ecinsertobjectarrayelement?branch=master) function.
+4.  Set the event source properties by calling the [**EcSetObjectArrayProperty**](/windows/win32/Evcoll/nf-evcoll-ecsetobjectarrayproperty?branch=master) function. The **EcSubscriptionEventSourceAddress** property is either set to an address for the local computer (Localhost) or to a fully qualified domain name for a remote computer. For more information about event source properties that can be set, see the **EC\_SUBSCRIPTION\_PROPERTY\_ID** enumeration.
+5.  Save the subscription by calling the [**EcSaveSubscription**](/windows/win32/Evcoll/nf-evcoll-ecsavesubscription?branch=master) function.
+6.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 The following C++ code example shows how to add an event source to a collector initiated subscription:
 

@@ -1,6 +1,11 @@
 ---
-Description: 'You can use a namespace extension to allow users to browse the contents of a file rather than have it presented as a folder. Extensions of this sort are typically used to display the contents of the members of a file type.'
+Description: You can use a namespace extension to allow users to browse the contents of a file rather than have it presented as a folder. Extensions of this sort are typically used to display the contents of the members of a file type.
 title: How to Display a Rooted View of a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Display a Rooted View of a File
@@ -28,7 +33,7 @@ HKEY_CLASSES_ROOT
                (Default) = %SYSTEMROOT%\explorer.exe /e,/root,{Extension CLSID}, "%1"
 ```
 
-You can use the same verb to programmatically launch a rooted view of a member of the file type by calling the [**ShellExecute**](shellexecute.md) function.
+You can use the same verb to programmatically launch a rooted view of a member of the file type by calling the [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) function.
 
 ## Related topics
 
@@ -43,7 +48,7 @@ You can use the same verb to programmatically launch a rooted view of a member o
 [How to Open a Rooted View of a Junction Point Through a Shortcut File](how-to-use-a-shortcut-file-to-open-a-rooted-view.md)
 </dt> <dt>
 
-[**ShellExecute**](shellexecute.md)
+[**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master)
 </dt> </dl>
 
  

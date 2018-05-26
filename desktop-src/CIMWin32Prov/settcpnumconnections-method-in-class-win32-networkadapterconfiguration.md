@@ -1,15 +1,18 @@
 ---
-Description: 'The SetTcpNumConnections WMI class static method is used to set the maximum number of connections that TCP may have open simultaneously.'
+Description: The SetTcpNumConnections WMI class static method is used to set the maximum number of connections that TCP may have open simultaneously.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '50458161-1f28-47f9-b395-09586e859d5d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 50458161-1f28-47f9-b395-09586e859d5d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetTcpNumConnections method of the Win32\_NetworkAdapterConfiguration class'
+title: SetTcpNumConnections method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetTcpNumConnections method of the Win32\_NetworkAdapterConfiguration class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetTcpNumConnections(
-  [in] uint32 TcpNumConnections
+  [in] uint32 TcpNumConnections
 );
 ```
 
@@ -391,7 +394,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -405,8 +408,8 @@ The [Modify the Allowed Number of TCP Connections](https://Gallery.TechNet.Micro
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -432,9 +435,9 @@ The [Modify the Allowed Number of TCP Connections](https://Gallery.TechNet.Micro
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

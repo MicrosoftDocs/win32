@@ -1,7 +1,12 @@
 ---
-Description: 'Fax extensions can associate an unlimited number of named data items with each fax device because each data item must have a GUID.'
-ms.assetid: '73365a3a-5adf-46bf-8e05-eba712f9b515'
+Description: Fax extensions can associate an unlimited number of named data items with each fax device because each data item must have a GUID.
+ms.assetid: 73365a3a-5adf-46bf-8e05-eba712f9b515
 title: Associating Data with a Fax Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Associating Data with a Fax Device

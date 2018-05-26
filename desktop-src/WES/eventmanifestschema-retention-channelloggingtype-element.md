@@ -1,14 +1,20 @@
 ---
 title: retention (ChannelLoggingType) Element
 description: Determines whether the log file is a sequential or circular log file.
-ms.assetid: 'a67425a1-275f-4a04-b327-91707f9382c6'
-keywords: ["retention element EventLog"]
+ms.assetid: a67425a1-275f-4a04-b327-91707f9382c6
+keywords:
+- retention element EventLog
 topic_type:
 - apiref
 api_name:
 - retention
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # retention (ChannelLoggingType) Element
@@ -29,8 +35,8 @@ The **retention** element is defined by the [**ChannelLoggingType**](eventmanife
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **retention** element is defined by the [**ChannelLoggingType**](eventmanife
 [**logging (ChannelType)**](eventmanifestschema-logging-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

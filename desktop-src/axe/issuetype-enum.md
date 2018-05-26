@@ -1,8 +1,9 @@
 ---
 title: IssueType enumeration
 description: Specifies the types of issues that can occur in Axe.
-ms.assetid: 'A7B92F3B-7949-42B5-B04C-CE7ABB4A10C6'
-keywords: ["IssueType enumeration Access Execution Engine"]
+ms.assetid: A7B92F3B-7949-42B5-B04C-CE7ABB4A10C6
+keywords:
+- IssueType enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueType enumeration
@@ -22,11 +28,11 @@ Specifies the types of issues that can occur in Axe.
 
 ```C++
 enum IssueType {
-  IssueTypeNone     = 0, 
-  IssueTypeInfo     = 1, 
-  IssueTypeWarning  = 2, 
-  IssueTypeError    = 3, 
-  IssueTypeInvalid  = 4 
+  IssueTypeNone     = 0, 
+  IssueTypeInfo     = 1, 
+  IssueTypeWarning  = 2, 
+  IssueTypeError    = 3, 
+  IssueTypeInvalid  = 4 
 
 };
 ```
@@ -82,15 +88,15 @@ Managed code uses the [**IssueType**](axe-issuetype_om) enum.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Defines the capabilities of a MSISCSITARGET\_StorageConfigurationSe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '289b005a-50b0-4b56-bdf8-760e3e15daf8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 289b005a-50b0-4b56-bdf8-760e3e15daf8
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageConfigurationCapabilities class iSCSI Software Target API", "MSISCSITARGET_StorageConfigurationCapabilities class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageConfigurationCapabilities class iSCSI Software Target API
+- MSISCSITARGET_StorageConfigurationCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageConfigurationCapabilities class
@@ -142,14 +147,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -232,14 +237,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -326,14 +331,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -484,7 +489,7 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>16–65535</dd> </dl>
+</dt> <dd>16 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -547,14 +552,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -665,14 +670,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -720,14 +725,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -775,14 +780,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -851,14 +856,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -941,14 +946,14 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1081,7 +1086,7 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 **DMTF Reserved**
 
 
-</dt> <dd>16–65535</dd> </dl>
+</dt> <dd>16 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -1092,7 +1097,7 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1118,9 +1123,9 @@ This property is inherited from [**CIM\_StorageConfigurationCapabilities**](cim-
 [**MSISCSITARGET\_StorageSetting**](msiscsitarget-storagesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the status of the user''s account.'
-title: 'DIDiskQuotaUser.AccountStatus property'
+---
+Description: Gets the status of the users account.
+title: DIDiskQuotaUser.AccountStatus property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.AccountStatus property

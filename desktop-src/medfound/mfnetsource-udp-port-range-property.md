@@ -1,7 +1,12 @@
-﻿---
-Description: 'The range of valid UDP ports that the network source can use to receive streaming content.'
-ms.assetid: '97fe2d11-70f7-4baa-b49f-513d90146591'
-title: 'MFNETSOURCE\_UDP\_PORT\_RANGE property'
+---
+Description: The range of valid UDP ports that the network source can use to receive streaming content.
+ms.assetid: 97fe2d11-70f7-4baa-b49f-513d90146591
+title: MFNETSOURCE\_UDP\_PORT\_RANGE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_UDP\_PORT\_RANGE property

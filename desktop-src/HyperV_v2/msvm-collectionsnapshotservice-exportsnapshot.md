@@ -1,7 +1,12 @@
 ---
-Description: 'Exports a snapshot collection of virtual computer systems to a file. The snapshot collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.'
-ms.assetid: '61fbc81c-c3e8-4058-b11a-4ed69481207c'
-title: 'ExportSnapshot method of the Msvm\_CollectionSnapshotService class'
+Description: Exports a snapshot collection of virtual computer systems to a file. The snapshot collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
+ms.assetid: 61fbc81c-c3e8-4058-b11a-4ed69481207c
+title: ExportSnapshot method of the Msvm\_CollectionSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExportSnapshot method of the Msvm\_CollectionSnapshotService class
@@ -13,10 +18,10 @@ Exports a snapshot collection of virtual computer systems to a file. The snapsho
 
 ```mof
 uint32 ExportSnapshot(
-  [in]  CIM_Collection  REF SnapshotCollection,
-  [in]  string              ExportDirectory,
-  [in]  string              ExportSettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  CIM_Collection  REF SnapshotCollection,
+  [in]  string              ExportDirectory,
+  [in]  string              ExportSettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -64,8 +69,8 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -79,9 +84,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**Msvm\_CollectionSnapshotService**](msvm-collectionsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The SNMP compiler runs as a single executable file in the command-line mode.'
+Description: The SNMP compiler runs as a single executable file in the command-line mode.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e85fe84-dacb-4720-8242-ffa0046780f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e85fe84-dacb-4720-8242-ffa0046780f3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: smi2smir
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # smi2smir
@@ -320,8 +323,8 @@ smi2smir /m 3 /v1 /gc /pra.mib > pra.mof
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -338,9 +341,9 @@ smi2smir /m 3 /v1 /gc /pra.mib > pra.mof
 [Accessing SNMP Devices](accessing-snmp-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The table below lists the five custom actions used to meet the sample specifications: ProcessAccounts, UninstallAccounts, CreateAccounts, RemoveAccounts, and RollbackAccounts.'
-ms.assetid: '389ec652-243e-4392-aec9-3a7eb90e6c68'
+Description: The table below lists the five custom actions used to meet the sample specifications ProcessAccounts, UninstallAccounts, CreateAccounts, RemoveAccounts, and RollbackAccounts.
+ms.assetid: 389ec652-243e-4392-aec9-3a7eb90e6c68
 title: Authoring the Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring the Custom Actions

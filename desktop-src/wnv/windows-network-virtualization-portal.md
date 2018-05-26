@@ -1,7 +1,12 @@
 ---
 title: Windows Network Virtualization
 description: Windows Network Virtualization enables customer virtual machine networks to decouple virtual machine networks from physical networks, provides flexibility in virtual machine provisioning, and allows customers to bring their IP addresses and topologies into cloud datacenters.
-ms.assetid: '4f8c00af-0182-4f20-b49c-5a56f698d725'
+ms.assetid: 4f8c00af-0182-4f20-b49c-5a56f698d725
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Network Virtualization
@@ -26,7 +31,7 @@ Developers can use the WNV notification API to implement on-demand policy reques
 
 
 
- 
+ 
 
 ## Developer audience
 
@@ -34,7 +39,7 @@ Windows Network Virtualization is designed for use by C/C++ programmers. Program
 
 ## Run-time requirements
 
-Windows Network Virtualization is supported only in Windows Server 2012. It requires the Hyper-V Role to be installed to allow Hyper-V Network Virtualization to operate.
+Windows Network Virtualization is supported only in Windows Server 2012. It requires the Hyper-V Role to be installed to allow Hyper-V Network Virtualization to operate.
 
 ## Related topics
 
@@ -49,9 +54,9 @@ Windows Network Virtualization is supported only in Windows Server 2012. It requ
 [WMI Net Virtualization classes](https://msdn.microsoft.com/library/hh872477)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

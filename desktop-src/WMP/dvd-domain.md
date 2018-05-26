@@ -1,8 +1,9 @@
 ---
 title: DVD.domain
 description: The domain property retrieves the current domain of the DVD.
-ms.assetid: '74f4a6a3-8518-48c7-b023-f0255a3a62fd'
-keywords: ["DVD.domain Windows Media Player"]
+ms.assetid: 74f4a6a3-8518-48c7-b023-f0255a3a62fd
+keywords:
+- DVD.domain Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD.domain
@@ -39,7 +45,7 @@ This property is a read-only **String** containing one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,8 +59,8 @@ Every DVD is authored differently. Some DVDs do not contain the firstPlay, video
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player for Windows XP or later<br/>                            |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -67,9 +73,9 @@ Every DVD is authored differently. Some DVDs do not contain the firstPlay, video
 [**DVD Object**](dvd-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

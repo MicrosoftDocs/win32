@@ -1,14 +1,20 @@
 ---
 title: Row element
 description: Represents a row of controls in a custom SizeDefinition layout template.
-ms.assetid: 'c3dac35f-3537-4eb7-b378-501ea88813f5'
-keywords: ["Row element Windows Ribbon"]
+ms.assetid: c3dac35f-3537-4eb7-b378-501ea88813f5
+keywords:
+- Row element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Row
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Row element
@@ -152,7 +158,7 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -164,9 +170,9 @@ The following code example demonstrates the basic markup for a custom four-butto
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

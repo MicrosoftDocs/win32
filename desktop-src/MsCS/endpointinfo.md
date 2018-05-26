@@ -4,17 +4,21 @@ description: Contains information about the endpoint of a Windows Azure storage 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CA2E3182-94A8-402F-B3AD-317B87562FA6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CA2E3182-94A8-402F-B3AD-317B87562FA6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["EndPointInfo Failover Cluster"]
+keywords:
+- EndPointInfo Failover Cluster
 topic_type:
 - apiref
 api_name:
 - EndPointInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EndPointInfo
@@ -34,7 +38,7 @@ Contains information about the endpoint of a Windows Azure storage account.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_CLOUDWITNESS\_ENDPOINT\_INFO*
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_CLOUDWITNESS\_ENDPOINT\_INFO*
 [Cloud Witness Private Properties](cloud-witness-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

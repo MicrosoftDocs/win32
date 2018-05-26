@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '87080e50-1233-4300-8fbc-cd897d9aecbd'
-title: 'System.Media.Year'
+Description: .
+ms.assetid: 87080e50-1233-4300-8fbc-cd897d9aecbd
+title: System.Media.Year
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.Year

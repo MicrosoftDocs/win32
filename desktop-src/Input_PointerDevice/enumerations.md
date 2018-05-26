@@ -1,7 +1,12 @@
 ---
-Description: 'The topics in this section provide the reference specifications for Pointer Device Input Stack enumerations.'
-ms.assetid: '39A3FB53-DFC9-4189-A05B-6E01DB0DF922'
+Description: The topics in this section provide the reference specifications for Pointer Device Input Stack enumerations.
+ms.assetid: 39A3FB53-DFC9-4189-A05B-6E01DB0DF922
 title: Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations
@@ -19,7 +24,7 @@ The topics in this section provide the reference specifications for [Pointer Dev
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ The topics in this section provide the reference specifications for [Pointer Dev
 [Pointer Device Input Stack Reference](unified-input-stack-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

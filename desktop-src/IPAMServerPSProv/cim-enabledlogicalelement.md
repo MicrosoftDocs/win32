@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a logical element that can be enabled and disabled.'
+Description: Represents a logical element that can be enabled and disabled.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3019222a-2956-4577-971d-227703815036'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3019222a-2956-4577-971d-227703815036
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_EnabledLogicalElement class'
+title: CIM\_EnabledLogicalElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_EnabledLogicalElement class
@@ -24,27 +27,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.22.0"), AMENDMENT]
 class CIM_EnabledLogicalElement : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
 };
 ```
 
@@ -67,7 +70,7 @@ The **CIM\_EnabledLogicalElement** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -159,7 +162,7 @@ AvailableRequestedStates indicates the possible values for the RequestedState pa
 **DMTF Reserved**
 
 
-</dt> <dd>12–65535</dd> </dl>
+</dt> <dd>12 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -461,14 +464,14 @@ An enumerated value indicating an administrator\\'s default or startup configura
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -588,14 +591,14 @@ Starting (10) indicates that the element is in the process of going to an Enable
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1403,14 +1406,14 @@ If knowledge of the last RequestedState is not supported for the EnabledLogicalE
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1671,7 +1674,7 @@ A value other than 5 or 12 shall identify the state to which the element is in t
 **DMTF Reserved**
 
 
-</dt> <dd>13–65535</dd> </dl>
+</dt> <dd>13 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -1682,16 +1685,16 @@ A value other than 5 or 12 shall identify the state to which the element is in t
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists overview topics about XAudio2 callbacks.'
-ms.assetid: '5565438b-dbd4-e645-dd7b-93a17758d768'
+Description: This section lists overview topics about XAudio2 callbacks.
+ms.assetid: 5565438b-dbd4-e645-dd7b-93a17758d768
 title: Callbacks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Callbacks

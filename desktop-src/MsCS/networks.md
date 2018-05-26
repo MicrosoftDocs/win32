@@ -4,11 +4,16 @@ description: A failover cluster defines a network as a connection between networ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '57d16e1f-e774-4ffb-b26b-7e72d6d589aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 57d16e1f-e774-4ffb-b26b-7e72d6d589aa
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,networks", "networks Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster ,networks
+- networks Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Networks

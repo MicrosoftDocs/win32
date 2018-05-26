@@ -1,7 +1,7 @@
 ---
 title: CERT\_VALIDATION\_POLICY
 description: The following constants indicate the certificate validation policies supported during certificate validation.
-ms.assetid: 'd39c601d-da44-42eb-8be2-1711cff21368'
+ms.assetid: d39c601d-da44-42eb-8be2-1711cff21368
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - EhStorExtensions.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CERT\_VALIDATION\_POLICY
@@ -79,15 +84,15 @@ The certificate chain conforms to the extended validation policy. The use of thi
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2 \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista with SP2 \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>EhStorExtensions.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Agent States
 description: Agent States
-ms.assetid: '8c3c5b12-81af-4ba5-b834-9f0a7ff5d075'
+ms.assetid: 8c3c5b12-81af-4ba5-b834-9f0a7ff5d075
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Agent States
@@ -39,7 +44,7 @@ It's important to define and assign at least one animation for each state that o
 
 
 
- 
+ 
 
 ### The Hearing and Listening States
 
@@ -92,16 +97,16 @@ The following table lists the animations included in the standard animation set.
 | **Confused**<sup>1,2</sup>       | When the character doesn't understand what to do.                                                        | Character scratches head.                                                                                                                                                                                              |
 | **Congratulate**<sup>1,2</sup>   | When the character or user completes a task (a stronger form of the **Acknowledge** animation.)          | Character performs congratulatory gesture, conveys "Yes!"                                                                                                                                                              |
 | **Decline**<sup>1,2</sup>        | When the character cannot do or declines the user's request.                                             | Character shakes head, conveys "no can do."                                                                                                                                                                            |
-| **DoMagic1**¹                    | Character prepares to display something.                                                                 | Character waves hands or wand.                                                                                                                                                                                         |
-| **DoMagic2**²                    | Character completes display of something.                                                                | Character completes magic gesture.                                                                                                                                                                                     |
+| **DoMagic1**                     | Character prepares to display something.                                                                 | Character waves hands or wand.                                                                                                                                                                                         |
+| **DoMagic2**                     | Character completes display of something.                                                                | Character completes magic gesture.                                                                                                                                                                                     |
 | **DontRecognize**<sup>1,2</sup>  | When the character didn't recognize the user's request.                                                  | Character holds hand to ear.                                                                                                                                                                                           |
 | **Explain**<sup>1,2</sup>        | When the character explains something to the user.                                                       | Character gestures as if explaining something.                                                                                                                                                                         |
 | **GestureDown**<sup>1,2</sup>    | When the character needs to point to something below it.                                                 | Character points down.                                                                                                                                                                                                 |
 | **GestureLeft**<sup>1,2</sup>    | When the character needs to point to something at its left.                                              | Character points with left hand or morphs into an arrow pointing left.                                                                                                                                                 |
 | **GestureRight**<sup>1,2</sup>   | When the character needs to point to something at its right.                                             | Character points with right hand or morphs into an arrow pointing right.                                                                                                                                               |
 | **GestureUp**<sup>1,2</sup>      | When the character needs to point to something above it.                                                 | Character points up.                                                                                                                                                                                                   |
-| **GetAttention**¹                | When the character needs to notify the user about something important.                                   | Character waves hands or jumps up and down.                                                                                                                                                                            |
-| **GetAttentionContinued**¹       | To emphasize the importance of the notification.                                                         | A continuation or repeat of the initial gesture.                                                                                                                                                                       |
+| **GetAttention**                 | When the character needs to notify the user about something important.                                   | Character waves hands or jumps up and down.                                                                                                                                                                            |
+| **GetAttentionContinued**        | To emphasize the importance of the notification.                                                         | A continuation or repeat of the initial gesture.                                                                                                                                                                       |
 | **GetAttentionReturn**           | When the character completes the **GetAttention** or **GetAttentionContinued** animation.                | Character returns to its neutral position.                                                                                                                                                                             |
 | **Greet**<sup>1,2</sup>          | When the user starts up the system.                                                                      | Character smiles and waves.                                                                                                                                                                                            |
 | **Hearing1**                     | When the character hears the start of a spoken utterance (actively listening).                           | Character leans forward and nods, or turns head showing response to speech input. Note: This animation loops to some intermediate frame that occurs after the character moves to an appropriate position.<br/>   |
@@ -124,11 +129,11 @@ The following table lists the animations included in the standard animation set.
 | **Pleased**<sup>1,2</sup>        | When the character is pleased with the user's request or choice.                                         | Character smiles.                                                                                                                                                                                                      |
 | **Process**                      | When the character performs some type of generic task.                                                   | Character presses buttons or uses some type of tool.                                                                                                                                                                   |
 | **Processing**                   | When the character is busy working on a generic task.                                                    | Character scribbles on pad of paper or uses some type of tool. Note: This animation loops to some intermediate frame that occurs after the character moves to an appropriate position.<br/>                      |
-| **Read**¹                        | When the character reads something to the user.                                                          | Character displays book or paper, reads, and looks back at user.                                                                                                                                                       |
-| **ReadContinued**¹               | When the character reads further to the user.                                                            | Character reads again, then looks back at user.                                                                                                                                                                        |
+| **Read**                         | When the character reads something to the user.                                                          | Character displays book or paper, reads, and looks back at user.                                                                                                                                                       |
+| **ReadContinued**                | When the character reads further to the user.                                                            | Character reads again, then looks back at user.                                                                                                                                                                        |
 | **ReadReturn**                   | When the character completes the **Read** or **ReadContinued** animation.                                | Character returns to its neutral position.                                                                                                                                                                             |
 | **Reading**                      | When the character reads something but cannot accept input.                                              | Character reads from a piece of paper. Note: This animation loops to some intermediate frame(s) that occurs after the character moves to an appropriate position.<br/>                                           |
-| **RestPose**¹                    | When the character speaks from its neutral position.                                                     | Character stands with relaxed but attentive posture.                                                                                                                                                                   |
+| **RestPose**                     | When the character speaks from its neutral position.                                                     | Character stands with relaxed but attentive posture.                                                                                                                                                                   |
 | **Sad**<sup>1,2</sup>            | When the character is disappointed with the user's choice.                                               | Character frowns or looks disappointed.                                                                                                                                                                                |
 | **Search**                       | When character searches for something.                                                                   | Character shuffles through file drawer or other container looking for something.                                                                                                                                       |
 | **Searching**                    | When character is searching for user-specified information.                                              | Character shuffles through file drawer or other container looking for something. Note: This animation loops to some intermediate frame(s) that occurs after the character moves to an appropriate position.<br/> |
@@ -140,18 +145,18 @@ The following table lists the animations included in the standard animation set.
 | **Think**<sup>1,2</sup>          | When the character is thinking about something.                                                          | Character looks up and holds hand on head.                                                                                                                                                                             |
 | **Uncertain**<sup>1,2</sup>      | When the character needs the user to confirm a request.                                                  | Character looks quizzical, conveys ("Are you sure?")                                                                                                                                                                   |
 | **Wave**<sup>1,2</sup>           | When the user chooses to shut down the server or system.                                                 | Character waves good-bye or hello.                                                                                                                                                                                     |
-| **Write**¹                       | When the character is listening for instructions from the user.                                          | Character displays paper, writes, and looks back at user.                                                                                                                                                              |
-| **WriteContinued**¹              | When the character continues listening for instructions from the user.                                   | Character writes on a piece of paper and looks back at user.                                                                                                                                                           |
+| **Write**                        | When the character is listening for instructions from the user.                                          | Character displays paper, writes, and looks back at user.                                                                                                                                                              |
+| **WriteContinued**               | When the character continues listening for instructions from the user.                                   | Character writes on a piece of paper and looks back at user.                                                                                                                                                           |
 | **WriteReturn**                  | When the character completes the **Write** or **WriteContinued** animation.                              | Character returns to its neutral position.                                                                                                                                                                             |
 | **Writing**                      | When the character writes out information for the user.                                                  | Character writes on piece of paper. Note: This animation loops.<br/>                                                                                                                                             |
 
 
 
- 
+ 
 
-¹ Animation requires mouth overlays and a defined speaking frame.
+  Animation requires mouth overlays and a defined speaking frame.
 
-² Animation requires an assigned Return animation either based on its exit branching or an explicit Return animation.
+  Animation requires an assigned Return animation either based on its exit branching or an explicit Return animation.
 
 In addition, a character must have the following state assignments.
 
@@ -178,11 +183,11 @@ In addition, a character must have the following state assignments.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: Most problems in DSML Services for Windows are reported in the Even
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0e803ee4-16be-4e50-a374-193f9f2cd696'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0e803ee4-16be-4e50-a374-193f9f2cd696
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Troubleshooting DSML Services for Windows DSML", "DSML Services for Windows, troubleshooting"]
+keywords:
+- Troubleshooting DSML Services for Windows DSML
+- DSML Services for Windows, troubleshooting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Troubleshooting DSML Services for Windows

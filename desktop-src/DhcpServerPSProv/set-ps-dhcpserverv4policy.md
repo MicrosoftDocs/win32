@@ -4,13 +4,16 @@ description: Sets the properties of an existing policy either at the server leve
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '141b9122-8ff5-42ee-b9c1-509c82e8f62b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 141b9122-8ff5-42ee-b9c1-509c82e8f62b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv4Policy class", "PS_DhcpServerv4Policy class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv4Policy class
+- PS_DhcpServerv4Policy class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv4Policy class
@@ -30,26 +36,26 @@ Sets the properties of an existing policy either at the server level or at the s
 
 ```mof
 uint32 Set(
-  [in]  string             ComputerName,
-  [in]  string             Description,
-  [in]  string             Name,
-  [in]  string             ScopeId,
-  [in]  boolean            Enabled,
-  [in]  datetime           LeaseDuration,
-  [in]  string             Fqdn[],
-  [in]  string             MacAddress[],
-  [in]  string             UserClass[],
-  [in]  string             SubscriberId[],
-  [in]  string             NewName,
-  [in]  string             ClientId[],
-  [in]  boolean            PassThru,
-  [in]  uint16             ProcessingOrder,
-  [in]  string             RelayAgent[],
-  [in]  string             RemoteId[],
-  [in]  string             CircuitId[],
-  [in]  string             Condition,
-  [in]  string             VendorClass[],
-  [out] DhcpServerv4Policy cmdletOutput
+  [in]  string             ComputerName,
+  [in]  string             Description,
+  [in]  string             Name,
+  [in]  string             ScopeId,
+  [in]  boolean            Enabled,
+  [in]  datetime           LeaseDuration,
+  [in]  string             Fqdn[],
+  [in]  string             MacAddress[],
+  [in]  string             UserClass[],
+  [in]  string             SubscriberId[],
+  [in]  string             NewName,
+  [in]  string             ClientId[],
+  [in]  boolean            PassThru,
+  [in]  uint16             ProcessingOrder,
+  [in]  string             RelayAgent[],
+  [in]  string             RemoteId[],
+  [in]  string             CircuitId[],
+  [in]  string             Condition,
+  [in]  string             VendorClass[],
+  [out] DhcpServerv4Policy cmdletOutput
 );
 ```
 
@@ -99,7 +105,7 @@ Enable/Disable policy. Valid values are True, False.
 
 Lease duration to be set for clients matching the policy.
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -116,7 +122,7 @@ If comparators **EQ** or **NE** are used: If the last character in a value-eleme
 
 Value elements can be followed by another comparator, either **EQ** or **NE**, which is followed by another set of values. The values following the EQ operator will be treated as multiple assertions which are ORed. The values following the NE operator will be treated as multiple assertions which are ANDed.
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -232,7 +238,7 @@ An embedded instance of the [**DhcpServerv4Policy**](dhcpserverv4policy.md) clas
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -246,9 +252,9 @@ An embedded instance of the [**DhcpServerv4Policy**](dhcpserverv4policy.md) clas
 [**PS\_DhcpServerv4Policy**](ps-dhcpserverv4policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

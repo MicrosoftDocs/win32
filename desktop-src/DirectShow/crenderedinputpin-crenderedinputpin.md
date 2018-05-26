@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'bf335750-b776-47bc-978d-e84e8b5259f7'
-title: 'CRenderedInputPin.CRenderedInputPin constructor'
+Description: Constructor method.
+ms.assetid: bf335750-b776-47bc-978d-e84e8b5259f7
+title: CRenderedInputPin.CRenderedInputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRenderedInputPin.CRenderedInputPin constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CRenderedInputPin(
-   TCHAR       *pObjectName,
-   CBaseFilter *pFilter,
-   CCritSec    *pLock,
-   HRESULT     *phr,
-   LPCWSTR     pName
+   TCHAR       *pObjectName,
+   CBaseFilter *pFilter,
+   CCritSec    *pLock,
+   HRESULT     *phr,
+   LPCWSTR     pName
 );
 ```
 
@@ -80,9 +85,9 @@ Wide-character string containing the pin name (also used as the pin identifier).
 [**CRenderedInputPin Class**](crenderedinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

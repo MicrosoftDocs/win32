@@ -1,8 +1,9 @@
 ---
 title: LB\_DELETESTRING message
 description: Deletes a string in a list box.
-ms.assetid: '3f360e07-b70d-4bfc-89d4-18d3b18b0fcf'
-keywords: ["LB_DELETESTRING message Windows Controls"]
+ms.assetid: 3f360e07-b70d-4bfc-89d4-18d3b18b0fcf
+keywords:
+- LB_DELETESTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_DELETESTRING message
@@ -26,7 +32,7 @@ Deletes a string in a list box.
 
 The zero-based index of the string to be deleted.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ If an application creates the list box with an owner-drawn style but without the
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ If an application creates the list box with an owner-drawn style but without the
 [**WM\_DELETEITEM**](wm-deleteitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

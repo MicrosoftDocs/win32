@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.setSelectedState
 description: The setSelectedState method selects or unselects the item with the specified index.
-ms.assetid: 'a72aa461-f378-4612-b580-ecad735931cb'
-keywords: ["LISTBOX.setSelectedState Windows Media Player"]
+ms.assetid: a72aa461-f378-4612-b580-ecad735931cb
+keywords:
+- LISTBOX.setSelectedState Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.setSelectedState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.setSelectedState
@@ -62,9 +68,9 @@ This is used to select or unselect multiple lines.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

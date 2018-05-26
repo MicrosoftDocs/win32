@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the BLOB Etype/Sap filter.'
-ms.assetid: 'cd659c93-3415-4737-b848-936e80318544'
+Description: Sets the BLOB Etype/Sap filter.
+ms.assetid: cd659c93-3415-4737-b848-936e80318544
 title: SetNPPEtypeSapFilter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetNPPEtypeSapFilter function
@@ -13,13 +18,13 @@ The **SetNPPEtypeSapFilter** function sets the BLOB Etype/Sap filter.
 
 ```C++
 DWORD SetNPPEtypeSapFilter(
-  _In_  HBLOB  hBlob,
-  _In_  WORD   nSaps,
-  _In_  WORD   nEtypes,
-  _In_  LPBYTE lpSapTable,
-  _In_  LPWORD lpEtypeTable,
-  _In_  DWORD  FilterFlags,
-  _Out_ HBLOB  hErrorBlob
+  _In_  HBLOB  hBlob,
+  _In_  WORD   nSaps,
+  _In_  WORD   nEtypes,
+  _In_  LPBYTE lpSapTable,
+  _In_  LPWORD lpEtypeTable,
+  _In_  DWORD  FilterFlags,
+  _Out_ HBLOB  hErrorBlob
 );
 ```
 
@@ -90,8 +95,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -105,9 +110,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [GetNPPEtypeSapFilter](getnppetypesapfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

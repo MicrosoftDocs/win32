@@ -1,7 +1,12 @@
 ---
-Description: 'Add all of the Password properties from the CustomUserAccounts table to the MsiHiddenProperties property in the Property table.'
-ms.assetid: '682f534c-10a2-4260-b21d-7075d8c1620c'
+Description: Add all of the Password properties from the CustomUserAccounts table to the MsiHiddenProperties property in the Property table.
+ms.assetid: 682f534c-10a2-4260-b21d-7075d8c1620c
 title: Securing the Installation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Securing the Installation

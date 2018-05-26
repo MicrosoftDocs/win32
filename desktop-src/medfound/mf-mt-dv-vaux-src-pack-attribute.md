@@ -1,7 +1,12 @@
-﻿---
-Description: 'Video auxiliary (VAUX) source pack in a digital video (DV) media type.'
-ms.assetid: '4263032f-9093-4c7a-9ca0-14f8dc0d1aef'
-title: 'MF\_MT\_DV\_VAUX\_SRC\_PACK attribute'
+---
+Description: Video auxiliary (VAUX) source pack in a digital video (DV) media type.
+ms.assetid: 4263032f-9093-4c7a-9ca0-14f8dc0d1aef
+title: MF\_MT\_DV\_VAUX\_SRC\_PACK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_DV\_VAUX\_SRC\_PACK attribute
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

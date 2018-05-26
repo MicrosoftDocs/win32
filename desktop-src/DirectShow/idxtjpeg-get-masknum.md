@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_MaskNum method retrieves the SMPTE wipe code of the wipe.'
-ms.assetid: '49710d40-acc0-453e-ac9c-882794a0b82d'
-title: 'IDxtJpeg::get\_MaskNum method'
+---
+Description: The get\_MaskNum method retrieves the SMPTE wipe code of the wipe.
+ms.assetid: 49710d40-acc0-453e-ac9c-882794a0b82d
+title: IDxtJpegget\_MaskNum method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::get\_MaskNum method

@@ -1,7 +1,12 @@
 ---
 title: custom(guid, value)
 description: Indicates a custom attribute (one not defined by Automation). This feature enables the independent definition and use of attributes.
-ms.assetid: '3d4fadbd-ec22-40e5-96ac-cd0356432cf6'
+ms.assetid: 3d4fadbd-ec22-40e5-96ac-cd0356432cf6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # custom(guid, value)
@@ -38,17 +43,17 @@ A member of a coclass (IMPLTYPE).
 
 Can be retrieved using:
 
--   [**ITypeLib2::GetCustData**](itypelib2-getcustdata.md)
--   [**ITypeInfo2::GetCustData**](itypeinfo2-getcustdata.md)
--   [**ITypeInfo2::GetAllCustData**](itypeinfo2-getallcustdata.md)
--   [**ITypeInfo2::GetFuncCustData**](itypeinfo2-getfunccustdata.md)
--   [**ITypeInfo2::GetAllFuncCustData**](itypeinfo2-getallfunccustdata.md)
--   [**ITypeInfo2::GetVarCustData**](itypeinfo2-getvarcustdata.md)
--   [**ITypeInfo2::GetAllVarCustData**](itypeinfo2-getallvarcustdata.md)
--   [**ITypeInfo2::GetParamCustData**](itypeinfo2-getparamcustdata.md)
--   [**ITypeInfo2::GetAllParamCustData**](itypeinfo2-getallparamcustdata.md)
--   [**ITypeInfo2::GetImplTypeCustData**](itypeinfo2-getimpltypecustdata.md)
--   [**ITypeInfo2::GetAllImplTypeCustData**](itypeinfo2-getallimpltypecustdata.md)
+-   [**ITypeLib2::GetCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypelib2-getcustdata?branch=master)
+-   [**ITypeInfo2::GetCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getcustdata?branch=master)
+-   [**ITypeInfo2::GetAllCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getallcustdata?branch=master)
+-   [**ITypeInfo2::GetFuncCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getfunccustdata?branch=master)
+-   [**ITypeInfo2::GetAllFuncCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getallfunccustdata?branch=master)
+-   [**ITypeInfo2::GetVarCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getvarcustdata?branch=master)
+-   [**ITypeInfo2::GetAllVarCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getallvarcustdata?branch=master)
+-   [**ITypeInfo2::GetParamCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getparamcustdata?branch=master)
+-   [**ITypeInfo2::GetAllParamCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getallparamcustdata?branch=master)
+-   [**ITypeInfo2::GetImplTypeCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getimpltypecustdata?branch=master)
+-   [**ITypeInfo2::GetAllImplTypeCustData**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo2-getallimpltypecustdata?branch=master)
 
 ## Flags
 

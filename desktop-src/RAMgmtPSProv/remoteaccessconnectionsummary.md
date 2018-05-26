@@ -2,13 +2,15 @@
 title: RemoteAccessConnectionSummary class
 description: Remote Access Connection Statistics Summary Record.
 audience: developer
-ms.assetid: 'f66dc48f-cdd0-42d1-9aaf-0f1acc731f3b'
-ms.prod: 'windows-server-dev'
+ms.assetid: f66dc48f-cdd0-42d1-9aaf-0f1acc731f3b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessConnectionSummary class", "RemoteAccessConnectionSummary class, described"]
+keywords:
+- RemoteAccessConnectionSummary class
+- RemoteAccessConnectionSummary class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessConnectionSummary class
@@ -68,16 +73,16 @@ Total number of unique users
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

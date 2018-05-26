@@ -4,11 +4,14 @@ description: Updates a string property for the deployment settings of a virtual 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '500ab1cb-7336-47a8-adee-790976ea30fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 500ab1cb-7336-47a8-adee-790976ea30fe
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetStringProperty method Remote Desktop Services", "SetStringProperty method Remote Desktop Services , Win32_RDMSDeploymentSettings class", "Win32_RDMSDeploymentSettings class Remote Desktop Services , SetStringProperty method"]
+keywords:
+- SetStringProperty method Remote Desktop Services
+- SetStringProperty method Remote Desktop Services , Win32_RDMSDeploymentSettings class
+- Win32_RDMSDeploymentSettings class Remote Desktop Services , SetStringProperty method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetStringProperty method of the Win32\_RDMSDeploymentSettings class
@@ -28,8 +34,8 @@ Updates a string property for the deployment settings of a virtual desktop colle
 
 ```mof
 uint32 SetStringProperty(
-  [in] string Key,
-  [in] string Value
+  [in] string Key,
+  [in] string Value
 );
 ```
 
@@ -60,7 +66,7 @@ The new property value.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Certenroll.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
@@ -75,9 +81,9 @@ The new property value.
 [**Win32\_RDMSDeploymentSettings**](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

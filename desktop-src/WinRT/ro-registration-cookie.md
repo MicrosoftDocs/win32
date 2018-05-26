@@ -1,12 +1,17 @@
-﻿---
-Description: 'Represents activation factories that are registered by calling the RoRegisterActivationFactories function.'
-ms.assetid: 'D74E5886-45DB-40DE-9740-D14341E78713'
-title: 'RO\_REGISTRATION\_COOKIE'
+---
+Description: Represents activation factories that are registered by calling the RoRegisterActivationFactories function.
+ms.assetid: D74E5886-45DB-40DE-9740-D14341E78713
+title: RO\_REGISTRATION\_COOKIE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RO\_REGISTRATION\_COOKIE
 
-Represents activation factories that are registered by calling the [**RoRegisterActivationFactories**](roregisteractivationfactories.md) function.
+Represents activation factories that are registered by calling the [**RoRegisterActivationFactories**](/windows/win32/roapi/nf-roapi-roregisteractivationfactories?branch=master) function.
 
 
 ```C++
@@ -17,7 +22,7 @@ typedef struct {}* RO_REGISTRATION_COOKIE;
 
 ## Remarks
 
-The [**RoRegisterActivationFactories**](roregisteractivationfactories.md) function returns a **RO\_REGISTRATION\_COOKIE** when a activatable class factories are registered with the Windows Runtime. The [**RoRevokeActivationFactories**](rorevokeactivationfactories.md) function uses the cookie to remove the class factories.
+The [**RoRegisterActivationFactories**](/windows/win32/roapi/nf-roapi-roregisteractivationfactories?branch=master) function returns a **RO\_REGISTRATION\_COOKIE** when a activatable class factories are registered with the Windows Runtime. The [**RoRevokeActivationFactories**](/windows/win32/roapi/nf-roapi-rorevokeactivationfactories?branch=master) function uses the cookie to remove the class factories.
 
 ## Requirements
 
@@ -35,10 +40,10 @@ The [**RoRegisterActivationFactories**](roregisteractivationfactories.md) functi
 
 <dl> <dt>
 
-[**RoRegisterActivationFactories**](roregisteractivationfactories.md)
+[**RoRegisterActivationFactories**](/windows/win32/roapi/nf-roapi-roregisteractivationfactories?branch=master)
 </dt> <dt>
 
-[**RoRevokeActivationFactories**](rorevokeactivationfactories.md)
+[**RoRevokeActivationFactories**](/windows/win32/roapi/nf-roapi-rorevokeactivationfactories?branch=master)
 </dt> </dl>
 
  

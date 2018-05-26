@@ -1,8 +1,9 @@
 ---
 title: Media.name
 description: The name property specifies or retrieves the name of the media item.
-ms.assetid: '68aba78a-86fd-4411-9ac4-58f38d915e2c'
-keywords: ["Media.name Windows Media Player"]
+ms.assetid: 68aba78a-86fd-4411-9ac4-58f38d915e2c
+keywords:
+- Media.name Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.name
@@ -78,9 +84,9 @@ The following JScript example uses *Media*.**name** to change the name of the cu
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

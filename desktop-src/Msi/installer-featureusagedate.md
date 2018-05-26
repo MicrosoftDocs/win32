@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FeatureUsageDate property is a read-only property that returns the date the specified feature was last used.'
-ms.assetid: '444e54b2-94e7-44ea-8d7b-eeac984e3715'
-title: 'Installer.FeatureUsageDate property'
+---
+Description: The FeatureUsageDate property is a read-only property that returns the date the specified feature was last used.
+ms.assetid: 444e54b2-94e7-44ea-8d7b-eeac984e3715
+title: Installer.FeatureUsageDate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.FeatureUsageDate property
@@ -55,7 +60,7 @@ The date is in the MS-DOS date format as shown in the following table.
 
 <dl> <dt>
 
-[**MsiGetFeatureUsage**](msigetfeatureusage.md)
+[**MsiGetFeatureUsage**](/windows/win32/Msi/nf-msi-msigetfeatureusagea?branch=master)
 </dt> </dl>
 
  

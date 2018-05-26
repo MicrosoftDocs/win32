@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxIncomingJob object from the FaxIncomingJobs collection.'
-ms.assetid: 'c1c84f4b-5184-4233-bd97-3b7c586f45a3'
-title: 'FaxIncomingJobs.Item property'
+---
+Description: The Item property returns a FaxIncomingJob object from the FaxIncomingJobs collection.
+ms.assetid: c1c84f4b-5184-4233-bd97-3b7c586f45a3
+title: FaxIncomingJobs.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJobs.Item property
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md) that receives a [**FaxIncomingJob**](-mfax-faxincomingjob.md) object.
+A variable of type [**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master) that receives a [**FaxIncomingJob**](-mfax-faxincomingjob.md) object.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ A variable of type [**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md) that recei
 [**FaxIncomingJobs**](-mfax-faxincomingjobs.md)
 </dt> <dt>
 
-[**get\_Item**](-mfax-faxincomingjobs-item-cpp.md)
+[**get\_Item**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxincomingjobs-get_item?branch=master)
 </dt> </dl>
 
  

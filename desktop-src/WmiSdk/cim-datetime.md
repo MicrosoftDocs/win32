@@ -1,13 +1,16 @@
 ---
-Description: 'You can access all Common Information Model (CIM) dates and times in WMI by using one of two fixed-length formats specific to WMI and CIM. In scripting, use the SWbemDateTime object to convert these to regular dates and times.'
+Description: You can access all Common Information Model (CIM) dates and times in WMI by using one of two fixed-length formats specific to WMI and CIM. In scripting, use the SWbemDateTime object to convert these to regular dates and times.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '15126802-82f9-4ab4-98d8-0a15184302e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 15126802-82f9-4ab4-98d8-0a15184302e9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DATETIME'
+title: CIM\_DATETIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DATETIME
@@ -29,7 +32,7 @@ The following table lists the two date and time formats used by WMI.
 
 
 
- 
+ 
 
 The following table lists the fields in the formats.
 
@@ -50,7 +53,7 @@ The following table lists the fields in the formats.
 
 
 
- 
+ 
 
 You must enter all fields with the indicated length, using leading zeros as appropriate for the type. However, use asterisks to indicate unused fields or as a wildcard value. You can use an asterisk (\*) everywhere except the **WHERE** clause of a query. For example, a date and time with an unspecified year can occur in any year. If you wish to leave a field unspecified, you must replace the entire field with asterisks.
 
@@ -102,7 +105,7 @@ The CIM [**DATETIME**](datetime.md) format is used only within WMI. You can conv
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -129,15 +132,15 @@ The CIM [**DATETIME**](datetime.md) format is used only within WMI. You can conv
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[**IWbemClassObject::Put**](iwbemclassobject-put.md)
+[**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master)
 </dt> <dt>
 
-[**IWbemServices::PutClass**](iwbemservices-putclass.md)
+[**IWbemServices::PutClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclass?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

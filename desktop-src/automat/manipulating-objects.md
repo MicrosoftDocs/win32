@@ -1,7 +1,12 @@
 ---
 title: Manipulating Objects
 description: Demonstrates how to access an object.
-ms.assetid: 'acbe1614-f4b0-404d-9832-89ce62e5df31'
+ms.assetid: acbe1614-f4b0-404d-9832-89ce62e5df31
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manipulating Objects

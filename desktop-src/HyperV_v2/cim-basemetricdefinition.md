@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a metric definition that contains the meta data for a CIM\_MetricInstance object.'
-ms.assetid: '6abfb0dc-e80b-4ca6-89d9-2e43283d0abe'
-title: 'CIM\_BaseMetricDefinition class'
+Description: Represents a metric definition that contains the meta data for a CIM\_MetricInstance object.
+ms.assetid: 6abfb0dc-e80b-4ca6-89d9-2e43283d0abe
+title: CIM\_BaseMetricDefinition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BaseMetricDefinition class
@@ -14,17 +19,17 @@ Represents a metric definition that contains the meta data for a **CIM\_MetricIn
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Metrics::BaseMetric"), AMENDMENT]
 class CIM_BaseMetricDefinition : CIM_ManagedElement
 {
-  string  Id;
-  string  Name;
-  uint16  DataType;
-  uint16  Calculable;
-  string  Units;
-  string  BreakdownDimensions[];
+  string  Id;
+  string  Name;
+  uint16  DataType;
+  uint16  Calculable;
+  string  Units;
+  string  BreakdownDimensions[];
   boolean IsContinuous;
-  uint16  ChangeType;
-  uint16  TimeScope;
-  uint16  GatheringType;
-  string  ProgrammaticUnits;
+  uint16  ChangeType;
+  uint16  TimeScope;
+  uint16  GatheringType;
+  string  ProgrammaticUnits;
 };
 ```
 
@@ -515,8 +520,8 @@ The units of the metric. Examples are bytes, packets, jobs, files, milliseconds,
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -530,9 +535,9 @@ The units of the metric. Examples are bytes, packets, jobs, files, milliseconds,
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

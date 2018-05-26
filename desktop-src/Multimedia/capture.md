@@ -1,21 +1,27 @@
 ---
 title: capture command
 description: The capture command copies the contents of the frame buffer and stores it in the specified file. Digital-video devices recognize this command.
-ms.assetid: '1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5'
-keywords: ["capture command Windows Multimedia"]
+ms.assetid: 1aa5b3dc-3c12-433b-92e6-fbeea7ca9ad5
+keywords:
+- capture command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - capture
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # capture command
 
 The capture command copies the contents of the frame buffer and stores it in the specified file. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One or more of the following flags:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -77,8 +83,8 @@ This command might fail if the device is currently playing motion video or execu
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -95,9 +101,9 @@ This command might fail if the device is currently playing motion video or execu
 [put](put.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

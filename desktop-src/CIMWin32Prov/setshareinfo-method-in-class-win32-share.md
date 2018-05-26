@@ -1,15 +1,18 @@
 ---
-Description: 'The SetShareInfo&\#8194;WMI class method sets the parameters of a shared resource.'
+Description: The SetShareInfo&\#8194;WMI class method sets the parameters of a shared resource.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f6379261-9325-4b7f-92df-438c5029569f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f6379261-9325-4b7f-92df-438c5029569f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetShareInfo method of the Win32\_Share class'
+title: SetShareInfo method of the Win32\_Share class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetShareInfo method of the Win32\_Share class
@@ -23,9 +26,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetShareInfo(
-  [in, optional] uint32                   MaximumAllowed,
-  [in, optional] string                   Description,
-  [in, optional] Win32_SecurityDescriptor Access
+  [in, optional] uint32                   MaximumAllowed,
+  [in, optional] string                   Description,
+  [in, optional] Win32_SecurityDescriptor Access
 );
 ```
 
@@ -94,7 +97,7 @@ Returns one of the values listed in the following list or any other value to ind
 **Net name not found** (25)
 </dt> <dt>
 
-**Other** (26–4294967295)
+**Other** (26 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -121,8 +124,8 @@ $newShare = Get-WmiObject win32_share | Where-Object {$_.name -eq "newShare"}
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -139,9 +142,9 @@ $newShare = Get-WmiObject win32_share | Where-Object {$_.name -eq "newShare"}
 [**Win32\_Share**](win32-share.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

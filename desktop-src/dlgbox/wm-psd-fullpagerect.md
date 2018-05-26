@@ -1,8 +1,9 @@
 ---
 title: WM\_PSD\_FULLPAGERECT message
 description: Notifies a PagePaintHook hook procedure of the coordinates of the sample page rectangle in the Page Setup dialog box. The dialog box sends this message when it is about to draw the contents of the sample page.
-ms.assetid: '88ca1d60-3335-480a-b874-c6f248a3c23a'
-keywords: ["WM_PSD_FULLPAGERECT message Dialog Boxes"]
+ms.assetid: 88ca1d60-3335-480a-b874-c6f248a3c23a
+keywords:
+- WM_PSD_FULLPAGERECT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PSD\_FULLPAGERECT message
@@ -59,8 +65,8 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

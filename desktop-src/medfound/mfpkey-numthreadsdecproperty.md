@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the number of threads that the decoder will use.'
-ms.assetid: 'de3fc1e4-56da-47be-a1c8-2a1f5ad2b589'
-title: 'MFPKEY\_NUMTHREADSDEC Property'
+---
+Description: Specifies the number of threads that the decoder will use.
+ms.assetid: de3fc1e4-56da-47be-a1c8-2a1f5ad2b589
+title: MFPKEY\_NUMTHREADSDEC Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_NUMTHREADSDEC Property

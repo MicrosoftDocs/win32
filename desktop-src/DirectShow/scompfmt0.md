@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains format information for smart recompression.'
-ms.assetid: '471a7b4a-e639-443b-a30e-870b747e072c'
+---
+Description: Contains format information for smart recompression.
+ms.assetid: 471a7b4a-e639-443b-a30e-870b747e072c
 title: SCompFmt0 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCompFmt0 structure
@@ -39,7 +44,7 @@ Reserved; must be zero.
 **MediaType**
 </dt> <dd>
 
-[**AM\_MEDIA\_TYPE**](am-media-type.md) structure that describes the compression format.
+[**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that describes the compression format.
 
 </dd> </dl>
 

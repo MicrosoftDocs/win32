@@ -1,7 +1,12 @@
 ---
 title: Sound
 description: Sound is the audio element of the user experience.
-ms.assetid: '2a276370-eff9-4844-b008-eba9ae5ac395'
+ms.assetid: 2a276370-eff9-4844-b008-eba9ae5ac395
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sound
@@ -24,7 +29,7 @@ To decide if you should use sound, consider these questions:
 -   **Is the use of sound appropriate?** Does the use of sound draw attention to things that are worthy of attention? Would users miss the sound if it were absent? Focus on sounds that keep users informed, are likely to change their behavior, or provide useful feedback.
 -   **Is the use of sound distracting?** Are there frequent, loud, jarring sounds? Are users likely to reduce the system volume or your program's volume as the result of your use of sound?
 -   **Are you using sound as a primary form of communication?** In many cases, such as for users who have some level of hearing loss, sound should not be used as the primary means of communication. Sound is more effective as a supplement to other means of communication (such as text or visuals).
--   **Are the primary target users IT professionals?** Sound is usually ineffective for tasks targeted at IT professionals because many of their tasks run unattended. Furthermore, sound doesn't scale for them—imagine running hundreds of tasks at a time and getting sounds when they complete or fail.
+-   **Are the primary target users IT professionals?** Sound is usually ineffective for tasks targeted at IT professionals because many of their tasks run unattended. Furthermore, sound doesn't scale for them imagine running hundreds of tasks at a time and getting sounds when they complete or fail.
 
 ## Design concepts
 
@@ -41,7 +46,7 @@ Sounds that fulfill none of these purposes should likely be eliminated.
 
 ### Inappropriate use of sound
 
-**Despite the benefits of sound, appropriate use of sound requires significant restraint—to do otherwise can make a program annoying and distracting.** Users will turn off their sound completely if they become annoyed by frequent, repetitive, jarring, disrupting, poorly designed sounds; in part this is because by its very nature, sound demands attention and is hard to ignore. For tips on finding a reasonable balance, see the [Sound design guidelines](#sound-design).
+**Despite the benefits of sound, appropriate use of sound requires significant restraint to do otherwise can make a program annoying and distracting.** Users will turn off their sound completely if they become annoyed by frequent, repetitive, jarring, disrupting, poorly designed sounds; in part this is because by its very nature, sound demands attention and is hard to ignore. For tips on finding a reasonable balance, see the [Sound design guidelines](#sound-design).
 
 Because the drawbacks of using sound can easily outweigh the benefits, use sound only when there is a clear advantage. **When in doubt, don't use sound.**
 
@@ -84,13 +89,13 @@ Because the Windows sounds were professionally designed to have the desirable ch
 
 If you must create your own sounds, design them to have the previously described characteristics. Strive to make them complement their associated tasks or events.
 
-Understand that creating original sounds is difficult to do well—especially for sounds intended for a broad audience. Sound can be a polarizing design element. For every user who loves a sound, there will be many who dislike it.
+Understand that creating original sounds is difficult to do well especially for sounds intended for a broad audience. Sound can be a polarizing design element. For every user who loves a sound, there will be many who dislike it.
 
 **Design the sounds for your program as a group to feel like they are related variations on a theme.** Your program's auditory experience should be coordinated with its visual experience. Also, the "tone" of the sounds should be coordinated with the [tone of the text](text-style-tone.md). Consider how text with a pleasant, natural tone can be undermined when accompanied by harsh, alarming sounds.
 
 **If you do only four things...**
 
-1.  Use sound with restraint—make sure there is a clear overall user benefit. When in doubt, don't use sound.
+1.  Use sound with restraint make sure there is a clear overall user benefit. When in doubt, don't use sound.
 2.  Use the built-in Windows sounds whenever appropriate.
 3.  If you design your own sounds, make sure they have the desirable sound characteristics and as a whole feel like variations on a theme.
 4.  Don't assume that sounds need to be loud and jarring to get the user's attention.
@@ -112,13 +117,13 @@ Sounds have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
 ### Usage
 
--   **Use sound with restraint**—make sure there is a clear overall user benefit. Focus on sounds that keep users informed, are likely to change their behavior, or provide useful feedback. When in doubt, don't use sound.
+-   **Use sound with restraint** make sure there is a clear overall user benefit. Focus on sounds that keep users informed, are likely to change their behavior, or provide useful feedback. When in doubt, don't use sound.
 -   **Select the sound and its characteristics based on how it is being used.** For a description of each usage pattern, see the table in the previous section.
 -   **For notifications and feedback, don't use sound as the only method of communication.** Rather, use sound as a supplemental method to reinforce visual or textual cues. Doing so ensures that users can see the information if they can't hear the sound.
 -   **Don't play loud or harsh sounds frequently.** Doing so is unnecessary and results in a poor user experience. The more often a sound is played, the less obtrusive it should be. Sounds don't have to be loud or harsh to attract attention.
@@ -190,9 +195,9 @@ When creating your own sounds:
 -   Use the phrase sound scheme to describe a collection of sounds for common program events, such as logging on or receiving new e-mail. Use the phrase desktop theme to describe a collection of visual elements and sounds for your computer desktop.
 -   Use the term audio to refer broadly to speech, music, and sounds. Use the term sound to refer more narrowly to the program and Windows sounds described in this article.
 
- 
+ 
 
- 
+ 
 
 
 

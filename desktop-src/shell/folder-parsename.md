@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates and returns a FolderItem object that represents a specified item.'
-ms.assetid: '3af7052c-fb81-4a96-9bf9-379b0365a376'
-title: 'Folder.ParseName method'
+---
+Description: Creates and returns a FolderItem object that represents a specified item.
+ms.assetid: 3af7052c-fb81-4a96-9bf9-379b0365a376
+title: Folder.ParseName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder.ParseName method

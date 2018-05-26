@@ -1,8 +1,10 @@
 ---
 title: Msvm\_DynamicForwardingEntry class
 description: Represents an entry in the forwarding (filtering) database that is associated with the transparent bridging service.
-ms.assetid: '538ca651-4f22-43df-9445-bd0e660612b0'
-keywords: ["Msvm_DynamicForwardingEntry class Hyper-V", "Msvm_DynamicForwardingEntry class Hyper-V , described"]
+ms.assetid: 538ca651-4f22-43df-9445-bd0e660612b0
+keywords:
+- Msvm_DynamicForwardingEntry class Hyper-V
+- Msvm_DynamicForwardingEntry class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DynamicForwardingEntry class
@@ -42,23 +49,23 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DynamicForwardingEntry : CIM_DynamicForwardingEntry
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   ServiceCreationClassName;
-  string   ServiceName;
-  string   CreationClassName;
-  string   MACAddress;
-  uint16   DynamicStatus;
-  uint16   VlanId;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   ServiceCreationClassName;
+  string   ServiceName;
+  string   CreationClassName;
+  string   MACAddress;
+  uint16   DynamicStatus;
+  uint16   VlanId;
 };
 ```
 
@@ -382,7 +389,7 @@ Access type: Read/write
 
 The Vlan ID associated with this learned entry.
 
-**Windows Server 2008:** The **VlanId** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **VlanId** property is not supported until Windows Server 2008 R2.
 
 </dd> </dl>
 
@@ -401,9 +408,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -422,9 +429,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

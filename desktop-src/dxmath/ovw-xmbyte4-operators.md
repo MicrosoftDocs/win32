@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMBYTE4 structure exposes the following operators.'
-ms.assetid: 'da748493-93e8-43a4-a567-d47eaa4aecbe'
+---
+Description: The XMBYTE4 structure exposes the following operators.
+ms.assetid: da748493-93e8-43a4-a567-d47eaa4aecbe
 title: XMBYTE4 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMBYTE4 Operators
 
-The [**XMBYTE4**](xmbyte4.md) structure exposes the following operators.
+The [**XMBYTE4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmbyte4?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -35,7 +40,7 @@ The [**XMBYTE4**](xmbyte4.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMBYTE4**](xmbyte4.md)
+[**XMBYTE4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmbyte4?branch=master)
 </dt> </dl>
 
  

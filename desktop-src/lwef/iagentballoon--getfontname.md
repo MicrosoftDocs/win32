@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetFontName
 description: IAgentBalloon GetFontName
-ms.assetid: '7d057571-bb6e-4b79-bc4a-5691779ace51'
+ms.assetid: 7d057571-bb6e-4b79-bc4a-5691779ace51
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetFontName

@@ -1,13 +1,16 @@
 ---
-Description: 'SNMP event providers receive SNMP event packets from the WINSNMP stack and translate the information included in the packets into WMI events.'
+Description: SNMP event providers receive SNMP event packets from the WINSNMP stack and translate the information included in the packets into WMI events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4ae0a734-39b0-4418-b55c-6d8f093806a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4ae0a734-39b0-4418-b55c-6d8f093806a8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Choosing Between SNMP Event Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Choosing Between SNMP Event Providers

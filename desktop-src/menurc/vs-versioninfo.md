@@ -1,14 +1,20 @@
 ---
 title: VS\_VERSIONINFO structure
 description: Represents the organization of data in a file-version resource. It is the root structure that contains all other file-version information structures.
-ms.assetid: '7864510f-1894-4f17-bf7b-fd5bc1ba4aae'
-keywords: ["VS_VERSIONINFO structure Menus and Other Resources"]
+ms.assetid: 7864510f-1894-4f17-bf7b-fd5bc1ba4aae
+keywords:
+- VS_VERSIONINFO structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - VS_VERSIONINFO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VS\_VERSIONINFO structure
@@ -20,14 +26,14 @@ Represents the organization of data in a file-version resource. It is the root s
 
 ```C++
 typedef struct {
-  WORD             wLength;
-  WORD             wValueLength;
-  WORD             wType;
-  WCHAR            szKey;
-  WORD             Padding1;
+  WORD             wLength;
+  WORD             wValueLength;
+  WORD             wType;
+  WCHAR            szKey;
+  WORD             Padding1;
   VS_FIXEDFILEINFO Value;
-  WORD             Padding2;
-  WORD             Children;
+  WORD             Padding2;
+  WORD             Children;
 } VS_VERSIONINFO;
 ```
 
@@ -95,7 +101,7 @@ Contains as many zero words as necessary to align the **Value** member on a 32-b
 **Value**
 </dt> <dd>
 
-Type: **[**VS\_FIXEDFILEINFO**](vs-fixedfileinfo.md)**
+Type: **[**VS\_FIXEDFILEINFO**](/windows/win32/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo?branch=master)**
 
 </dd> <dd>
 
@@ -135,8 +141,8 @@ This structure is not a true C-language structure because it contains variable-l
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -150,13 +156,13 @@ This structure is not a true C-language structure because it contains variable-l
 [**StringFileInfo**](stringfileinfo.md)
 </dt> <dt>
 
-[**VerQueryValue**](verqueryvalue.md)
+[**VerQueryValue**](/windows/win32/Winver/nf-winver-verqueryvaluea?branch=master)
 </dt> <dt>
 
 [**VarFileInfo**](varfileinfo.md)
 </dt> <dt>
 
-[**VS\_FIXEDFILEINFO**](vs-fixedfileinfo.md)
+[**VS\_FIXEDFILEINFO**](/windows/win32/VerRsrc/ns-verrsrc-tagvs_fixedfileinfo?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -165,9 +171,9 @@ This structure is not a true C-language structure because it contains variable-l
 [Version Information](version-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

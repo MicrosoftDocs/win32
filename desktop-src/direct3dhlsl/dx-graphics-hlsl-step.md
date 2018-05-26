@@ -1,14 +1,20 @@
 ---
 title: step
 description: Compares two values, returning 0 or 1 based on which value is greater.
-ms.assetid: '1c1c4ec4-ae97-42ce-99af-71903e0b5edf'
-keywords: ["step HLSL"]
+ms.assetid: 1c1c4ec4-ae97-42ce-99af-71903e0b5edf
+keywords:
+- step HLSL
 topic_type:
 - apiref
 api_name:
 - step
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # step
@@ -22,7 +28,7 @@ Compares two values, returning 0 or 1 based on which value is greater.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Compares two values, returning 0 or 1 based on which value is greater.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ This function uses the following formula: (*x* &gt;= *y*) ? 1 : 0. The function 
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +78,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +87,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

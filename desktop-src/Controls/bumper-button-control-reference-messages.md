@@ -1,7 +1,12 @@
 ---
 title: Button Control Messages
 description: .
-ms.assetid: '8aea1640-c962-40a4-9133-7beb78baf594'
+ms.assetid: 8aea1640-c962-40a4-9133-7beb78baf594
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Control Messages

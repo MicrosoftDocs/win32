@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop method stops the current capture.'
-ms.assetid: '64a80ff1-5a48-4be8-835d-a3d304ebb324'
-title: 'IRTC::Stop method'
+Description: The Stop method stops the current capture.
+ms.assetid: 64a80ff1-5a48-4be8-835d-a3d304ebb324
+title: IRTCStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRTC::Stop method
@@ -37,7 +42,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,8 +54,8 @@ When you restart the capture after calling the **IRTC::Stop** method, make sure 
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -72,9 +77,9 @@ When you restart the capture after calling the **IRTC::Stop** method, make sure 
 [IRTC::Start](irtc-start.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: For systems that support a range of UserDataStripeDepths for volume
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b51092c5-f7c5-43ca-b0bb-0dfe45b28ac8'
-ms.prod: 'windows-server-dev'
+ms.assetid: b51092c5-f7c5-43ca-b0bb-0dfe45b28ac8
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedStripeDepthRange method iSCSI Software Target API", "GetSupportedStripeDepthRange method iSCSI Software Target API , CIM_StorageCapabilities class", "CIM_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeDepthRange method"]
+keywords:
+- GetSupportedStripeDepthRange method iSCSI Software Target API
+- GetSupportedStripeDepthRange method iSCSI Software Target API , CIM_StorageCapabilities class
+- CIM_StorageCapabilities class iSCSI Software Target API , GetSupportedStripeDepthRange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedStripeDepthRange method of the CIM\_StorageCapabilities class
@@ -30,9 +36,9 @@ For systems that support a range of UserDataStripeDepths for volume or pool crea
 
 ```mof
 uint32 GetSupportedStripeDepthRange(
-  [out] uint64 MinimumStripeDepth,
-  [out] uint64 MaximumStripeDepth,
-  [out] uint64 StripeDepthDivisor
+  [out] uint64 MinimumStripeDepth,
+  [out] uint64 MaximumStripeDepth,
+  [out] uint64 StripeDepthDivisor
 );
 ```
 
@@ -83,7 +89,7 @@ A volume/pool UserDataStripeDepth must be a multiple of this value which is spec
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -97,9 +103,9 @@ A volume/pool UserDataStripeDepth must be a multiple of this value which is spec
 [**CIM\_StorageCapabilities**](cim-storagecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

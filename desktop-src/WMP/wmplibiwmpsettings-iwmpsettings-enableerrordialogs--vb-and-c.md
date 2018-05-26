@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings enableErrorDialogs property
 description: The enableErrorDialogs property gets or sets a value indicating whether error dialog boxes are displayed automatically.
-ms.assetid: '5310864b-e250-4fb1-8351-d1d7de312f21'
-keywords: ["enableErrorDialogs property Windows Media Player", "enableErrorDialogs property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , enableErrorDialogs property"]
+ms.assetid: 5310864b-e250-4fb1-8351-d1d7de312f21
+keywords:
+- enableErrorDialogs property Windows Media Player
+- enableErrorDialogs property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , enableErrorDialogs property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::enableErrorDialogs property
@@ -67,9 +75,9 @@ A **System.Boolean** value indicating whether error dialog boxes are displayed a
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

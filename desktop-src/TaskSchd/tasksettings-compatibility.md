@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.Compatibility property
 description: For scripting, gets or sets an integer value that indicates which version of Task Scheduler a task is compatible with.
-ms.assetid: '04f77d3c-44fa-4091-b99e-af062f067ef9'
-keywords: ["Compatibility property Task Scheduler", "Compatibility property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , Compatibility property"]
+ms.assetid: 04f77d3c-44fa-4091-b99e-af062f067ef9
+keywords:
+- Compatibility property Task Scheduler
+- Compatibility property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , Compatibility property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.Compatibility property
@@ -40,11 +48,11 @@ TaskSettings.Compatibility As Integer
 
 
 
- 
+ 
 
 ## Remarks
 
-Task compatibility, which is set through the [**Compatibility**](itasksettings-compatibility.md) property, should only be set to TASK\_COMPATIBILITY\_V1 if a task needs to be accessed or modified from a Windows XP, Windows Server 2003, or Windows 2000 computer. Otherwise, it is recommended that Task Scheduler 2.0 compatibility be used because the task will have more features.
+Task compatibility, which is set through the [**Compatibility**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_compatibility?branch=master) property, should only be set to TASK\_COMPATIBILITY\_V1 if a task needs to be accessed or modified from a Windows XP, Windows Server 2003, or Windows 2000 computer. Otherwise, it is recommended that Task Scheduler 2.0 compatibility be used because the task will have more features.
 
 Tasks compatible with the AT command can only have one time trigger.
 
@@ -58,8 +66,8 @@ For more information about task compatibility, see [What's New in Task Scheduler
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -69,15 +77,15 @@ For more information about task compatibility, see [What's New in Task Scheduler
 
 <dl> <dt>
 
-[**TASK\_COMPATIBILITY**](task-compatibility.md)
+[**TASK\_COMPATIBILITY**](/windows/win32/taskschd/ne-taskschd-_task_compatibility?branch=master)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

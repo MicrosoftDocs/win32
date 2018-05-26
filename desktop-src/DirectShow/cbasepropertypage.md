@@ -1,7 +1,12 @@
 ---
-Description: 'The CBasePropertyPage class is an abstract class for implementing a property page. Use this class if you are writing a filter (or other object) that supports property pages.'
-ms.assetid: '80e77827-ed2f-426e-aa6f-c2aa90031751'
+Description: The CBasePropertyPage class is an abstract class for implementing a property page. Use this class if you are writing a filter (or other object) that supports property pages.
+ms.assetid: 80e77827-ed2f-426e-aa6f-c2aa90031751
 title: CBasePropertyPage class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage class
@@ -44,7 +49,7 @@ The `CBasePropertyPage` class is an abstract class for implementing a property p
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,9 +113,9 @@ For an extended example of how to use this class to create a property page, see 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

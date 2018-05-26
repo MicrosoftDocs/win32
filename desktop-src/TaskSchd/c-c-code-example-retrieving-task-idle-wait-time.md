@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Idle-wait Time
 description: This example retrieves the idle-wait time of the task and displays it on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '2784b925-678c-422c-ae78-84d2982c2b02'
-keywords: ["retrieving task idle-wait time Task Scheduler", "retrieving work item properties Task Scheduler , task idle-wait time"]
+ms.assetid: 2784b925-678c-422c-ae78-84d2982c2b02
+keywords:
+- retrieving task idle-wait time Task Scheduler
+- retrieving work item properties Task Scheduler , task idle-wait time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Idle-wait Time

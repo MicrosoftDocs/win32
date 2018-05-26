@@ -1,21 +1,27 @@
 ---
 title: spin command
 description: The spin command starts spinning a disc or stops the disc from spinning. Videodisc devices recognize this command.
-ms.assetid: '9e491455-d06d-44c6-8aca-6360384ec266'
-keywords: ["spin command Windows Multimedia"]
+ms.assetid: 9e491455-d06d-44c6-8aca-6360384ec266
+keywords:
+- spin command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - spin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # spin command
 
 The spin command starts spinning a disc or stops the disc from spinning. Videodisc devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,8 +87,8 @@ spin videodisc up
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -96,9 +102,9 @@ spin videodisc up
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

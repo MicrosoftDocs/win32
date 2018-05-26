@@ -1,8 +1,11 @@
 ---
 title: IWMPMetadataPicture pictureType property
 description: The pictureType property gets the picture type of the image represented by the metadata attribute.
-ms.assetid: 'd36bbac5-93b8-4ef4-aa78-191d90942d3d'
-keywords: ["pictureType property Windows Media Player", "pictureType property Windows Media Player , IWMPMetadataPicture interface", "IWMPMetadataPicture interface Windows Media Player , pictureType property"]
+ms.assetid: d36bbac5-93b8-4ef4-aa78-191d90942d3d
+keywords:
+- pictureType property Windows Media Player
+- pictureType property Windows Media Player , IWMPMetadataPicture interface
+- IWMPMetadataPicture interface Windows Media Player , pictureType property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMetadataPicture::pictureType property
@@ -71,9 +79,9 @@ Before using this property, you must have read access to the library. For more i
 [**IWMPMetadataPicture Interface (VB and C#)**](iwmpmetadatapicture--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

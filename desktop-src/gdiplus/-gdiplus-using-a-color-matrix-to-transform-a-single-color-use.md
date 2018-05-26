@@ -1,12 +1,17 @@
 ---
-Description: 'Windows GDI+ provides the Image and Bitmap classes for storing and manipulating images.'
-ms.assetid: 'fcd7f3d9-8bad-44f8-8c9c-c2f5df4a7241'
+Description: Windows GDI+ provides the Image and Bitmap classes for storing and manipulating images.
+ms.assetid: fcd7f3d9-8bad-44f8-8c9c-c2f5df4a7241
 title: Using a Color Matrix to Transform a Single Color
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Color Matrix to Transform a Single Color
 
-Windows GDI+ provides the [**Image**](-gdiplus-class-image-class.md) and [**Bitmap**](-gdiplus-class-bitmap-class.md) classes for storing and manipulating images. **Image** and **Bitmap** objects store the color of each pixel as a 32-bit number: 8 bits each for red, green, blue, and alpha. Each of the four components is a number from 0 through 255, with 0 representing no intensity and 255 representing full intensity. The alpha component specifies the transparency of the color: 0 is fully transparent, and 255 is fully opaque.
+Windows GDI+ provides the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) and [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) classes for storing and manipulating images. **Image** and **Bitmap** objects store the color of each pixel as a 32-bit number: 8 bits each for red, green, blue, and alpha. Each of the four components is a number from 0 through 255, with 0 representing no intensity and 255 representing full intensity. The alpha component specifies the transparency of the color: 0 is fully transparent, and 255 is fully opaque.
 
 A color vector is a 4-tuple of the form (red, green, blue, alpha). For example, the color vector (0, 255, 0, 255) represents an opaque color that has no red or blue, but has green at full intensity.
 
@@ -72,9 +77,9 @@ The following illustration shows the original image on the left and the transfor
 
 The code in the preceding example uses the following steps to perform the recoloring:
 
-1.  Initialize a [**ColorMatrix**](-gdiplus-struc-colormatrix.md) structure.
-2.  Create an [**ImageAttributes**](-gdiplus-class-imageattributes-class.md) object and pass the address of the [**ColorMatrix**](-gdiplus-struc-colormatrix.md) structure to the [**ImageAttributes::SetColorMatrix**](-gdiplus-class-imageattributes-setcolormatrix-colormatrix-mode-type-.md) method of the **ImageAttributes** object.
-3.  Pass the address of the [**ImageAttributes**](-gdiplus-class-imageattributes-class.md) object to the [DrawImage Methods](-gdiplus-class-graphics-drawimage-methods.md) method of a [**Graphics**](-gdiplus-class-graphics-class.md) object.
+1.  Initialize a [**ColorMatrix**](/windows/win32/Gdipluscolormatrix/ns-gdipluscolormatrix-colormatrix?branch=master) structure.
+2.  Create an [**ImageAttributes**](/windows/win32/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes?branch=master) object and pass the address of the [**ColorMatrix**](/windows/win32/Gdipluscolormatrix/ns-gdipluscolormatrix-colormatrix?branch=master) structure to the [**ImageAttributes::SetColorMatrix**](/windows/win32/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrix?branch=master) method of the **ImageAttributes** object.
+3.  Pass the address of the [**ImageAttributes**](/windows/win32/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes?branch=master) object to the [DrawImage Methods](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(in image,in const point &)?branch=master) method of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object.
 
  
 

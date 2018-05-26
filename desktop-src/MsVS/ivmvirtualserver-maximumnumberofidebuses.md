@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer MaximumNumberOfIDEBuses property
 description: The MaximumNumberOfIDEBuses property contains the maximum number of buses allowed for IDE.
-ms.assetid: '02a680f6-ce3f-44a4-ab5d-05fc3865a3bb'
-keywords: ["MaximumNumberOfIDEBuses property Virtual Server", "MaximumNumberOfIDEBuses property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , MaximumNumberOfIDEBuses property", "MaximumNumberOfIDEBuses property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , MaximumNumberOfIDEBuses property"]
+ms.assetid: 02a680f6-ce3f-44a4-ab5d-05fc3865a3bb
+keywords:
+- MaximumNumberOfIDEBuses property Virtual Server
+- MaximumNumberOfIDEBuses property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , MaximumNumberOfIDEBuses property
+- MaximumNumberOfIDEBuses property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , MaximumNumberOfIDEBuses property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::MaximumNumberOfIDEBuses property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaximumNumberOfIDEBuses(
-  [out] long *maxNumBuses
+  [out] long *maxNumBuses
 );
 ```
 
@@ -90,8 +100,8 @@ Wscript.Echo "Maximum number of IDE buses: " & objVS.MaximumNumberOfIDEBuses
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -103,9 +113,9 @@ Wscript.Echo "Maximum number of IDE buses: " & objVS.MaximumNumberOfIDEBuses
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

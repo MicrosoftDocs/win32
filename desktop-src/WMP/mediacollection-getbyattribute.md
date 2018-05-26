@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getByAttribute method
 description: The getByAttribute method retrieves a playlist of media items that contain a specified value for a specified attribute.
-ms.assetid: 'ab1c53dd-6145-4b2b-a665-4c8c79143284'
-keywords: ["getByAttribute method Windows Media Player", "getByAttribute method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getByAttribute method"]
+ms.assetid: ab1c53dd-6145-4b2b-a665-4c8c79143284
+keywords:
+- getByAttribute method Windows Media Player
+- getByAttribute method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getByAttribute method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getByAttribute method
@@ -70,7 +78,7 @@ You can use this method to retrieve all of the media items of a specific type. U
 
 
 
- 
+ 
 
 To use this method, read access to the library is required. For more information, see [Library Access](library-access.md).
 
@@ -121,9 +129,9 @@ Player.controls.play();
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

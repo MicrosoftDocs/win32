@@ -4,11 +4,15 @@ description: The Group Policy Management Console (GPMC) supports the following G
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3d2b71e6-6015-4314-90c5-4624e44625cf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 3d2b71e6-6015-4314-90c5-4624e44625cf
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["GPO operations"]
+keywords:
+- GPO operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GPO Operations Supported by the GPMC
@@ -17,14 +21,14 @@ The Group Policy Management Console (GPMC) supports the following Group Policy o
 
 The following list describes these GPO operations:
 
--   **Backup**. Transfers the contents of a GPO from Active Directory to the file system. The contents include policy settings and core information about the GPO, such as the GPO ID GUID, the version information, the status, and the [access control lists (ACLs)](https://msdn.microsoft.com/library/windows/desktop/aa374872) associated with the GPO. A GPO that has been backed-up (also called exported) can be restored to Active Directory by calling the [**IGPMDomain::RestoreGPO**](igpmdomain-restoregpo.md) method. A GPO that has been backed-up can be imported into Active Directory using the [**IGPMGPO::Import**](igpmgpo-import.md) method. For more information about backup operations, see [**IGPMGPO::Backup**](igpmgpo-backup.md).
+-   **Backup**. Transfers the contents of a GPO from Active Directory to the file system. The contents include policy settings and core information about the GPO, such as the GPO ID GUID, the version information, the status, and the [access control lists (ACLs)](https://msdn.microsoft.com/library/windows/desktop/aa374872) associated with the GPO. A GPO that has been backed-up (also called exported) can be restored to Active Directory by calling the [**IGPMDomain::RestoreGPO**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmdomain-restoregpo?branch=master) method. A GPO that has been backed-up can be imported into Active Directory using the [**IGPMGPO::Import**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmgpo-import?branch=master) method. For more information about backup operations, see [**IGPMGPO::Backup**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmgpo-backup?branch=master).
 
     > [!Note]  
     > No separate export operation or method exists. The backup operation serves as the mechanism for exporting GPOs.
 
      
 
--   **Restore**. Returns a GPO to the state the GPO was in when it was backed-up. For more information, see [**IGPMDomain::RestoreGPO**](igpmdomain-restoregpo.md).
+-   **Restore**. Returns a GPO to the state the GPO was in when it was backed-up. For more information, see [**IGPMDomain::RestoreGPO**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmdomain-restoregpo?branch=master).
 
     > [!Note]  
     > A restore operation can restore a GPO only to the original domain in which the GPO was created because the restore operation restores the original GPO ID, policy settings, and ACLs.
@@ -36,8 +40,8 @@ The following list describes these GPO operations:
 
      
 
--   **Import**. Transfers the policy settings from a backed-up GPO in the file system to a GPO in Active Directory. The source GPO can be any backed-up GPO in the file system. The destination GPO must be an existing GPO in Active Directory. The import operation only transfers policy settings. The operation erases previous policy settings in the destination GPO. An import operation does not modify the GPO ID or the ACLs on the destination GPO, nor does an import operation modify links that point to the destination GPO or to an associated WMI filter. For more information, see [**IGPMGPO::Import**](igpmgpo-import.md).
--   **Copy**. Transfers the policy settings from an existing GPO in Active Directory to a new GPO in Active Directory. The copy operation creates a new GPO with a new GPO ID. The copy operation also copies the policy settings from the source GPO to the new GPO. During the copy operation, the user can choose to copy ACLs from the source GPO to the destination GPO. Or, the user can keep the default ACLs for the GPOs on the new GPO. The new GPO created by the copy operation is unlinked because a copy operation does not transfer links. For more information, see [**IGPMGPO::CopyTo**](igpmgpo-copyto.md).
+-   **Import**. Transfers the policy settings from a backed-up GPO in the file system to a GPO in Active Directory. The source GPO can be any backed-up GPO in the file system. The destination GPO must be an existing GPO in Active Directory. The import operation only transfers policy settings. The operation erases previous policy settings in the destination GPO. An import operation does not modify the GPO ID or the ACLs on the destination GPO, nor does an import operation modify links that point to the destination GPO or to an associated WMI filter. For more information, see [**IGPMGPO::Import**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmgpo-import?branch=master).
+-   **Copy**. Transfers the policy settings from an existing GPO in Active Directory to a new GPO in Active Directory. The copy operation creates a new GPO with a new GPO ID. The copy operation also copies the policy settings from the source GPO to the new GPO. During the copy operation, the user can choose to copy ACLs from the source GPO to the destination GPO. Or, the user can keep the default ACLs for the GPOs on the new GPO. The new GPO created by the copy operation is unlinked because a copy operation does not transfer links. For more information, see [**IGPMGPO::CopyTo**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmgpo-copyto?branch=master).
 
     > [!Note]  
     > Import and copy operations are similar but different. In a copy operation, the source GPO must be in Active Directory. The copy operation creates a new GPO with a new GPO ID. In an import operation, the source GPO must be in the file system. And, the destination GPO must be an existing GPO in Active Directory.

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an asynchronous Media Foundation transform (MFT) to request a new input sample.'
-ms.assetid: '5d5c50d9-fe4e-47ff-ae09-980911ebfb22'
+---
+Description: Sent by an asynchronous Media Foundation transform (MFT) to request a new input sample.
+ms.assetid: 5d5c50d9-fe4e-47ff-ae09-980911ebfb22
 title: METransformNeedInput event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # METransformNeedInput event
@@ -10,7 +15,7 @@ Sent by an asynchronous Media Foundation transform (MFT) to request a new input 
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -34,9 +39,9 @@ The following attributes are defined for this event.
 
 ## Remarks
 
-Asynchronous MFTs send this event through the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface. Synchronous MFTs never send this event.
+Asynchronous MFTs send this event through the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface. Synchronous MFTs never send this event.
 
-When the client of the MFT receives this event, it should call [**IMFTransform::ProcessInput**](imftransform-processinput.md) to deliver the next sample. The [MF\_EVENT\_MFT\_INPUT\_STREAM\_ID](mf-event-mft-input-stream-id.md) attribute of the event object specifies which input stream requires data.
+When the client of the MFT receives this event, it should call [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) to deliver the next sample. The [MF\_EVENT\_MFT\_INPUT\_STREAM\_ID](mf-event-mft-input-stream-id.md) attribute of the event object specifies which input stream requires data.
 
 ## Requirements
 

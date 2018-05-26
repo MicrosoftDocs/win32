@@ -1,8 +1,14 @@
 ---
 title: Constants
 description: Constants, in Structured Storage, are a sequence of named values. Constants allow objects to be described in natural language.
-ms.assetid: '0bcb04c6-cfa4-4df1-81b5-278e53f19590'
-keywords: ["Structured Storage Strctd Stg , reference, constants"]
+ms.assetid: 0bcb04c6-cfa4-4df1-81b5-278e53f19590
+keywords:
+- Structured Storage Strctd Stg , reference, constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants

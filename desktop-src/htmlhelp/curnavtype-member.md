@@ -1,7 +1,12 @@
 ---
 title: curNavType Member
 description: curNavType Member
-ms.assetid: '8BDADA9A-A88B-448e-B953-2A8D8DAE28E5'
+ms.assetid: 8BDADA9A-A88B-448e-B953-2A8D8DAE28E5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # curNavType Member
@@ -27,7 +32,7 @@ This member can be one of the following values:
 
 <dl> <dt>
 
-[**Back to HH\_WINTYPE**](hh-wintype-structure.md)
+[**Back to HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master)
 </dt> </dl>
 
  

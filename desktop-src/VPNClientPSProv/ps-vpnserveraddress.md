@@ -2,11 +2,13 @@
 title: PS\_VpnServerAddress class
 description: The PS\_VpnServerAddress class provides a method to create a new VPN Server address object.
 audience: developer
-ms.assetid: '360571EC-7178-4544-9E6C-346D6F073996'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 360571EC-7178-4544-9E6C-346D6F073996
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_VpnServerAddress class", "PS_VpnServerAddress class, described"]
+keywords:
+- PS_VpnServerAddress class
+- PS_VpnServerAddress class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_VpnServerAddress class
@@ -55,7 +60,7 @@ The **PS\_VpnServerAddress** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -98,17 +103,17 @@ The address of the remote VPN server that the client connects to. This address i
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

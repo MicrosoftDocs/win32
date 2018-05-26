@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySinkEx DefaultCharacterChange
 description: IAgentNotifySinkEx DefaultCharacterChange
-ms.assetid: '13acb502-e247-433f-abf3-2d78a2d6a4a7'
+ms.assetid: 13acb502-e247-433f-abf3-2d78a2d6a4a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySinkEx::DefaultCharacterChange

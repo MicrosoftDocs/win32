@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxInboundRoutingMethod object information from the fax server.'
-ms.assetid: 'd15f5f98-7bcd-43db-81f2-46b6a3645582'
-title: 'FaxInboundRoutingMethod.Refresh method'
+---
+Description: The Refresh method refreshes FaxInboundRoutingMethod object information from the fax server.
+ms.assetid: d15f5f98-7bcd-43db-81f2-46b6a3645582
+title: FaxInboundRoutingMethod.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethod.Refresh method
@@ -25,7 +30,7 @@ This method has no parameters.
 
 When the **Refresh** method is called, any configuration changes made after the last [**Save**](-mfax-faxinboundroutingmethod-save-vb.md) method call are lost.
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md)
+[**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master)
 </dt> </dl>
 
  

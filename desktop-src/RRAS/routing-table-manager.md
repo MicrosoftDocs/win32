@@ -1,7 +1,12 @@
 ---
 title: Routing Table Manager
 description: The routing table manager is the central repository of routing information for all routing protocols that operate under the Routing and Remote Access Service (RRAS).
-ms.assetid: '9bdbe138-d31b-42bb-9c51-5f1c5e8a4ca7'
+ms.assetid: 9bdbe138-d31b-42bb-9c51-5f1c5e8a4ca7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager

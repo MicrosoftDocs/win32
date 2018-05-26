@@ -1,16 +1,18 @@
 ---
 title: CIM\_Cluster class
-description: A class derived from CIM\_ComputerSystem that 'is made up of' two or more computer systems which operate together as an atomic, functional whole to increase the performance, resources and/or RAS (Reliability, Availability and Serviceability) of the component computer systems, related to some aspects of these computer systems.
+description: A class derived from CIM\_ComputerSystem that is made up of two or more computer systems which operate together as an atomic, functional whole to increase the performance, resources and/or RAS (Reliability, Availability and Serviceability) of the component computer systems, related to some aspects of these computer systems.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10191d43-0c39-43a5-9fcd-4c538ee6eb44'
-ms.prod: 'windows-server-dev'
+ms.assetid: 10191d43-0c39-43a5-9fcd-4c538ee6eb44
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Cluster class", "CIM_Cluster class, described"]
+keywords:
+- CIM_Cluster class
+- CIM_Cluster class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Cluster class
@@ -48,21 +53,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, AMENDMENT]
 class CIM_Cluster : CIM_ComputerSystem
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Roles[];
-  string   NameFormat;
-  string   Interconnect;
-  string   InterconnectAddress;
-  uint16   Types[];
-  uint32   MaxNumberOfNodes;
-  uint16   ClusterState;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Roles[];
+  string   NameFormat;
+  string   Interconnect;
+  string   InterconnectAddress;
+  uint16   Types[];
+  uint32   MaxNumberOfNodes;
+  uint16   ClusterState;
 };
 ```
 
@@ -574,7 +579,7 @@ This displays the cluster types. This specifies whether the cluster is for failo
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -588,9 +593,9 @@ This displays the cluster types. This specifies whether the cluster is for failo
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

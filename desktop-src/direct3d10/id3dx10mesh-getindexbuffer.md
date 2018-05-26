@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the data in an index buffer.'
-ms.assetid: '7e25ad67-7f9d-4c23-a029-a2262034ef38'
-title: 'ID3DX10Mesh::GetIndexBuffer method'
+---
+Description: Retrieves the data in an index buffer.
+ms.assetid: 7e25ad67-7f9d-4c23-a029-a2262034ef38
+title: ID3DX10MeshGetIndexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetIndexBuffer method

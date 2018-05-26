@@ -1,7 +1,12 @@
 ---
-Description: 'Waits for all volumes on the specified disk to be ready for use.'
-ms.assetid: '6cf619bb-7ff5-485e-b533-0f7f6503c6e0'
-title: 'IOCTL\_DISK\_ARE\_VOLUMES\_READY control code'
+Description: Waits for all volumes on the specified disk to be ready for use.
+ms.assetid: 6cf619bb-7ff5-485e-b533-0f7f6503c6e0
+title: IOCTL\_DISK\_ARE\_VOLUMES\_READY control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DISK\_ARE\_VOLUMES\_READY control code
@@ -35,7 +40,7 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to device
 
 A handle to the disk.
 
-To retrieve a device handle, call the [**CreateFile**](createfile.md) function.
+To retrieve a device handle, call the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function.
 
 </dd> <dt>
 
@@ -108,8 +113,8 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Ntdddisk.h</dt> </dl> |
 
 
@@ -124,9 +129,9 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 [Disk Management Control Codes](disk-management-control-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

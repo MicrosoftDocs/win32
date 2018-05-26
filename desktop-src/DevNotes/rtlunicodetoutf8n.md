@@ -1,7 +1,12 @@
-﻿---
-Description: 'Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.'
-ms.assetid: 'ecd63eee-bf86-42b5-93d8-3c7871aa6324'
+---
+Description: Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.
+ms.assetid: ecd63eee-bf86-42b5-93d8-3c7871aa6324
 title: RtlUnicodeToUTF8N function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlUnicodeToUTF8N function

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Force all batched sprites to be submitted to the device. Device states remain as they were after the last call to ID3DX10Sprite::Begin. The list of batched sprites is then cleared.'
-ms.assetid: 'ae03e17c-1a14-4a41-a9a9-8757d2f7a81d'
-title: 'ID3DX10Sprite::Flush method'
+---
+Description: Force all batched sprites to be submitted to the device. Device states remain as they were after the last call to ID3DX10SpriteBegin. The list of batched sprites is then cleared.
+ms.assetid: ae03e17c-1a14-4a41-a9a9-8757d2f7a81d
+title: ID3DX10SpriteFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::Flush method

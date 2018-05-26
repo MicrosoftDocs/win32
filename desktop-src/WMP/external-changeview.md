@@ -1,8 +1,11 @@
 ---
 title: External.changeView method
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The changeView method changes the view in Windows Media Player.
-ms.assetid: 'bd9d7d4b-ee4c-4d7c-92ef-dd0b8ab46d9d'
-keywords: ["changeView method Windows Media Player", "changeView method Windows Media Player , External class", "External class Windows Media Player , changeView method"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The changeView method changes the view in Windows Media Player.
+ms.assetid: bd9d7d4b-ee4c-4d7c-92ef-dd0b8ab46d9d
+keywords:
+- changeView method Windows Media Player
+- changeView method Windows Media Player , External class
+- External class Windows Media Player , changeView method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.changeView method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **changeView** method changes the view in Windows Media Player.
 
@@ -76,7 +84,7 @@ This method does not return a value.
 
 In some cases, it makes sense to set the *LibraryLocationID* parameter to the empty string. For example, if you set the *LibraryLocationType* parameter to AllCPAlbumIDs, the new view will represent all albums. No individual album will be the focus of the new view, so there is no need to supply an album ID in the *LibraryLocationID* parameter.
 
-The *ViewParams* parameter provides a way for a discovery page to communicate with another discovery page. When script on a discovery page calls **changeView**, Windows Media Player adjusts its user interface. That adjustment causes the Player to call the plug-in's [IWMPContentPartner::GetTemplate](iwmpcontentpartner-gettemplate.md) method to get the URL of a new discovery page. The string that the original discovery page passes in the *ViewParams* parameter does not get passed to **GetTemplate**. However, the new discovery page can retrieve the *ViewParams* string by calling [External.viewParameters](external-viewparameters.md).
+The *ViewParams* parameter provides a way for a discovery page to communicate with another discovery page. When script on a discovery page calls **changeView**, Windows Media Player adjusts its user interface. That adjustment causes the Player to call the plug-in's [IWMPContentPartner::GetTemplate](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate?branch=master) method to get the URL of a new discovery page. The string that the original discovery page passes in the *ViewParams* parameter does not get passed to **GetTemplate**. However, the new discovery page can retrieve the *ViewParams* string by calling [External.viewParameters](external-viewparameters.md).
 
 ## Requirements
 
@@ -108,9 +116,9 @@ The *ViewParams* parameter provides a way for a discovery page to communicate wi
 [**External.viewParameters**](external-viewparameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

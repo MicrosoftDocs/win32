@@ -1,7 +1,12 @@
 ---
-Description: 'Use this table to author a multiple-package installation.'
-ms.assetid: 'ac1e9c7b-bb83-4e1e-9108-211374c7d878'
+Description: Use this table to author a multiple-package installation.
+ms.assetid: ac1e9c7b-bb83-4e1e-9108-211374c7d878
 title: MsiEmbeddedChainer Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiEmbeddedChainer Table
@@ -14,7 +19,7 @@ Use this table to author a [multiple-package installation](multiple-package-inst
 
 To install multiple packages from a single package, one of the user-defined functions listed in the MsiEmbeddedChainer table must have a conditional statment in the Condition field that evaluates to run the action. If more than one function has a condition that evaluates to run, only one function can run. This case is an error, and it cannot be guaranteed which function will run. If other custom actions are needed by the installation, these should be authored into the [CustomAction table](customaction-table.md) and sequence tables.
 
-The functions must join the current installation by calling the [**MsiJoinTransaction**](msijointransaction.md) function and must call the [**MsiEndTransaction**](msiendtransaction.md) function to commit the installation of multiple packages. If the functions return before calling **MsiEndTransaction**, the installer rolls back all installations.
+The functions must join the current installation by calling the [**MsiJoinTransaction**](/windows/win32/Msi/nf-msi-msijointransaction?branch=master) function and must call the [**MsiEndTransaction**](/windows/win32/Msi/nf-msi-msiendtransaction?branch=master) function to commit the installation of multiple packages. If the functions return before calling **MsiEndTransaction**, the installer rolls back all installations.
 
 The MsiEmbeddedChainer table has the following columns.
 

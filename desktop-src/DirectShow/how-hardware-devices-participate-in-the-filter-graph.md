@@ -1,7 +1,12 @@
 ---
 Description: How Hardware Devices Participate in the Filter Graph
-ms.assetid: '27e1c097-9bb4-4f9c-b9f9-0d4225c0d290'
+ms.assetid: 27e1c097-9bb4-4f9c-b9f9-0d4225c0d290
 title: How Hardware Devices Participate in the Filter Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Hardware Devices Participate in the Filter Graph

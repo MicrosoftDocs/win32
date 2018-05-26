@@ -1,8 +1,28 @@
 ---
 title: Porting Screen and Buffer Clearing Commands
 description: OpenGL replaces a variety of IRIS GL clear functions (such as zclear, aclear, sclear, and so on) with a single function, glClear. Specify exactly what you want to clear by passing masks to glClear.
-ms.assetid: '52ba503d-e412-4815-a039-a039b41327f4'
-keywords: ["IRIS GL porting,clear functions", "porting from IRIS GL,clear functions", "porting to OpenGL from IRIS GL,clear functions", "OpenGL porting from IRIS GL,clear functions", "clear functions", "IRIS GL porting,screen clearing commands", "porting from IRIS GL,screen clearing commands", "porting to OpenGL from IRIS GL,screen clearing commands", "OpenGL porting from IRIS GL,screen clearing commands", "screen clearing commands", "IRIS GL porting,buffer clearing commands", "porting from IRIS GL,buffer clearing commands", "porting to OpenGL from IRIS GL,buffer clearing commands", "OpenGL porting from IRIS GL,buffer clearing commands", "buffer clearing commands"]
+ms.assetid: 52ba503d-e412-4815-a039-a039b41327f4
+keywords:
+- IRIS GL porting,clear functions
+- porting from IRIS GL,clear functions
+- porting to OpenGL from IRIS GL,clear functions
+- OpenGL porting from IRIS GL,clear functions
+- clear functions
+- IRIS GL porting,screen clearing commands
+- porting from IRIS GL,screen clearing commands
+- porting to OpenGL from IRIS GL,screen clearing commands
+- OpenGL porting from IRIS GL,screen clearing commands
+- screen clearing commands
+- IRIS GL porting,buffer clearing commands
+- porting from IRIS GL,buffer clearing commands
+- porting to OpenGL from IRIS GL,buffer clearing commands
+- OpenGL porting from IRIS GL,buffer clearing commands
+- buffer clearing commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Screen and Buffer Clearing Commands
@@ -39,13 +59,13 @@ The following table lists the various IRIS GL clear functions with their equival
 
 
 
- 
+ 
 
 When your IRIS GL code uses both **gclear** and **sclear**, you can combine them into a single **glClear** call; can improve your program's performance.
 
- 
+ 
 
- 
+ 
 
 
 

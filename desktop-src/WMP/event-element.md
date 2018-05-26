@@ -1,14 +1,20 @@
 ---
 title: EVENT Element
 description: The EVENT element defines a behavior or action taken by Windows Media Player when it receives a script command labeled as an event.
-ms.assetid: 'd12af3bd-a63e-4022-aa84-0386eeef1390'
-keywords: ["EVENT Element Windows Media Player"]
+ms.assetid: d12af3bd-a63e-4022-aa84-0386eeef1390
+keywords:
+- EVENT Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EVENT Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVENT Element
@@ -45,7 +51,7 @@ The following values are possible.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -58,7 +64,7 @@ The following values are possible.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -120,9 +126,9 @@ The script `WHENDONE="RESUME"` instructs Windows Media Player to resume playing 
 [**Windows Media Player Object Model**](windows-media-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

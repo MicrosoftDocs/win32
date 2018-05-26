@@ -1,14 +1,20 @@
 ---
 title: DefaultValue element
 description: Contains a default value for the parameter.
-ms.assetid: '0C2B145A-3CC8-48CC-AF85-021AD4AA2825'
-keywords: ["DefaultValue element Access Execution Engine"]
+ms.assetid: 0C2B145A-3CC8-48CC-AF85-021AD4AA2825
+keywords:
+- DefaultValue element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - DefaultValue
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultValue element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

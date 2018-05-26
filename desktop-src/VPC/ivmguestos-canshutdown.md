@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS CanShutdown property
 description: Indicates whether the guest operating system can be cleanly shut down.
-ms.assetid: '239cba43-9494-4efd-a4c8-0bb47f476b81'
-keywords: ["CanShutdown property Virtual PC", "CanShutdown property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , CanShutdown property"]
+ms.assetid: 239cba43-9494-4efd-a4c8-0bb47f476b81
+keywords:
+- CanShutdown property Virtual PC
+- CanShutdown property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , CanShutdown property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::CanShutdown property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Indicates whether the guest operating system can be cleanly shut down (requires Integration Components).
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CanShutdown(
-  [out, retval] VARIANT_BOOL *canShutdown
+  [out, retval] VARIANT_BOOL *canShutdown
 );
 ```
 
@@ -57,9 +65,9 @@ HRESULT get_CanShutdown(
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -73,9 +81,9 @@ HRESULT get_CanShutdown(
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

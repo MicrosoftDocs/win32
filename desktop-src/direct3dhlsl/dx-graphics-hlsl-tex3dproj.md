@@ -1,14 +1,20 @@
 ---
 title: tex3Dproj
 description: Samples a 3D texture using a projective divide; the texture coordinate is divided by t.w before the lookup takes place.
-ms.assetid: 'c7062ef0-3169-4cbe-b47b-4efc80944963'
-keywords: ["tex3Dproj HLSL"]
+ms.assetid: c7062ef0-3169-4cbe-b47b-4efc80944963
+keywords:
+- tex3Dproj HLSL
 topic_type:
 - apiref
 api_name:
 - tex3Dproj
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex3Dproj
@@ -22,7 +28,7 @@ Samples a 3D texture using a projective divide; the texture coordinate is divide
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 3D texture using a projective divide; the texture coordinate is divide
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

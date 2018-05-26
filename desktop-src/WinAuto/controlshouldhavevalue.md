@@ -1,7 +1,12 @@
 ---
 title: ControlShouldHaveValue
 description: ControlShouldHaveValue
-ms.assetid: '90C37CC5-21D2-4D26-B6D9-2C95C52127BF'
+ms.assetid: 90C37CC5-21D2-4D26-B6D9-2C95C52127BF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlShouldHaveValue
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-An element does not supply a value as expected based on the assigned MSAA role, implying that the element does not have the [**get\_accValue**](iaccessible-iaccessible--get-accvalue.md) method implemented. For example, the following MSAA roles should all supply a value.
+An element does not supply a value as expected based on the assigned MSAA role, implying that the element does not have the [**get\_accValue**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accvalue?branch=master) method implemented. For example, the following MSAA roles should all supply a value.
 
 -   ROLE\_SYSTEM\_COMBOBOX
 -   ROLE\_SYSTEM\_IPADDRESS
@@ -38,7 +43,7 @@ The element or its parent has an MSAA role set inappropriately.
 
 <dl> <dt>
 
-[**IAccessible::get\_accRole**](iaccessible-iaccessible--get-accrole.md)
+[**IAccessible::get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)
 </dt> <dt>
 
 [**Object Roles**](object-roles.md)

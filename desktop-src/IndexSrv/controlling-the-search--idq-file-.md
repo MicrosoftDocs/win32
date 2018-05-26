@@ -1,7 +1,12 @@
 ---
 title: Controlling the Search (.Idq File)
 description: Controlling the Search (.Idq File)
-ms.assetid: '0de08c8d-14e2-4c89-b1b9-4278671f9cda'
+ms.assetid: 0de08c8d-14e2-4c89-b1b9-4278671f9cda
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling the Search (.Idq File)

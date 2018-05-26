@@ -1,8 +1,10 @@
 ---
 title: ENCODINGTYPE enumeration
 description: Do not use. Specifies how something is encoded or intended to be encoded.
-ms.assetid: '0f3cfa2c-182c-4133-a792-eacdad81879c'
-keywords: ["ENCODINGTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 0f3cfa2c-182c-4133-a792-eacdad81879c
+keywords:
+- ENCODINGTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENCODINGTYPE enumeration
@@ -22,20 +29,20 @@ Do not use. Specifies how something is encoded or intended to be encoded.
 
 ```C++
 typedef enum tagENCODINGTYPE { 
-  IET_BINARY    = 0,
-  IET_BASE64    = 1,
-  IET_UUENCODE  = 2,
-  IET_QP        = 3,
-  IET_7BIT      = 4,
-  IET_8BIT      = 5,
-  IET_INETCSET  = 6,
-  IET_UNICODE   = 7,
-  IET_RFC1522   = 8,
-  IET_ENCODED   = 9,
-  IET_CURRENT   = 10,
-  IET_UNKNOWN   = 11,
-  IET_BINHEX40  = 12,
-  IET_LAST      = 13
+  IET_BINARY    = 0,
+  IET_BASE64    = 1,
+  IET_UUENCODE  = 2,
+  IET_QP        = 3,
+  IET_7BIT      = 4,
+  IET_8BIT      = 5,
+  IET_INETCSET  = 6,
+  IET_UNICODE   = 7,
+  IET_RFC1522   = 8,
+  IET_ENCODED   = 9,
+  IET_CURRENT   = 10,
+  IET_UNKNOWN   = 11,
+  IET_BINHEX40  = 12,
+  IET_LAST      = 13
 } ACCESSTYPE;
 ```
 
@@ -160,7 +167,7 @@ The value -1 is reserved for an [**IMimeSecurity**](oe-imimesecurity.md) default
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -168,17 +175,17 @@ The value -1 is reserved for an [**IMimeSecurity**](oe-imimesecurity.md) default
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

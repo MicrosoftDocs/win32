@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETFILENAME message
 description: The MCIWNDM\_GETFILENAME message retrieves the filename currently used by an MCI device. You can send this message explicitly or by using the MCIWndGetFileName macro.
-ms.assetid: 'd61b1b6d-0fae-4732-993c-41e08a4e05be'
-keywords: ["MCIWNDM_GETFILENAME message Windows Multimedia"]
+ms.assetid: d61b1b6d-0fae-4732-993c-41e08a4e05be
+keywords:
+- MCIWNDM_GETFILENAME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETFILENAME message
 
-The **MCIWNDM\_GETFILENAME** message retrieves the filename currently used by an MCI device. You can send this message explicitly or by using the [**MCIWndGetFileName**](mciwndgetfilename.md) macro.
+The **MCIWNDM\_GETFILENAME** message retrieves the filename currently used by an MCI device. You can send this message explicitly or by using the [**MCIWndGetFileName**](/windows/win32/Vfw/nf-vfw-mciwndgetfilename?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ If the null-terminated string containing the filename is longer than the buffer,
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -68,12 +74,12 @@ If the null-terminated string containing the filename is longer than the buffer,
 
 <dl> <dt>
 
-[**MCIWndGetFileName**](mciwndgetfilename.md)
+[**MCIWndGetFileName**](/windows/win32/Vfw/nf-vfw-mciwndgetfilename?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

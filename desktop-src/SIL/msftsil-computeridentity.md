@@ -4,13 +4,15 @@ description: The MsftSil\_ComputerIdentity WMI class encapsulates identification
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e5be55b-5a21-41df-84dc-9f9a349b134d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7e5be55b-5a21-41df-84dc-9f9a349b134d
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MsftSil_ComputerIdentity class Software Inventory Logging", "MsftSil_ComputerIdentity class Software Inventory Logging , described"]
+keywords:
+- MsftSil_ComputerIdentity class Software Inventory Logging
+- MsftSil_ComputerIdentity class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - SILProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftSil\_ComputerIdentity class
@@ -133,16 +138,16 @@ The **GUID** used to identify the virtual machine hosting this computer.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SILProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SILProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

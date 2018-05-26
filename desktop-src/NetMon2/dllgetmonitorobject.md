@@ -1,7 +1,12 @@
 ---
-Description: 'The DllGetMonitorObject function must be implemented by the monitor. The MCSVC calls this function to create an instance of the monitor.'
-ms.assetid: '2c39f752-264c-4ab9-8710-a0d660c4772f'
+Description: The DllGetMonitorObject function must be implemented by the monitor. The MCSVC calls this function to create an instance of the monitor.
+ms.assetid: 2c39f752-264c-4ab9-8710-a0d660c4772f
 title: DllGetMonitorObject callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DllGetMonitorObject callback function
@@ -13,8 +18,8 @@ The **DllGetMonitorObject** function must be implemented by the monitor. The MCS
 
 ```C++
 HRESULT DllGetMonitorObject(
-  _In_  REFIID riid,
-  _Out_ LPVOID *ppObj
+  _In_  REFIID riid,
+  _Out_ LPVOID *ppObj
 );
 ```
 
@@ -58,15 +63,15 @@ The **DllGetMonitorObject** function is called each time the MCSVC tries to crea
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

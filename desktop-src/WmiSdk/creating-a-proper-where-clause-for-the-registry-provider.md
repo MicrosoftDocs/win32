@@ -1,20 +1,23 @@
 ---
-Description: 'The main points to consider when creating a proper WHERE clause for the System Registry provider is that each event query must be complete and explicit. Failure to be complete and explicit will result in an error message.'
+Description: The main points to consider when creating a proper WHERE clause for the System Registry provider is that each event query must be complete and explicit. Failure to be complete and explicit will result in an error message.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cdef2900-8d1a-4f0b-8318-7463d90e4152'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cdef2900-8d1a-4f0b-8318-7463d90e4152
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a Proper WHERE Clause for the Registry Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Proper WHERE Clause for the Registry Provider
 
 The main points to consider when creating a proper WHERE clause for the System Registry provider is that each event query must be complete and explicit. Failure to be complete and explicit will result in an error message.
 
-To be complete, each event query in the *bstrQuery* parameter of [**ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md) must contain a WHERE clause that includes each of the properties in the specified event class.
+To be complete, each event query in the *bstrQuery* parameter of [**ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master) must contain a WHERE clause that includes each of the properties in the specified event class.
 
 The following example shows how to set *bstrQuery* to register for tree change events in the "HKEY\_LOCAL\_MACHINE\\Software" tree.
 

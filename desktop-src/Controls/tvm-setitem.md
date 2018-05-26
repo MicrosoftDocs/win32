@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETITEM message
-description: The TVM\_SETITEM message sets some or all of a tree-view item's attributes. You can send this message explicitly or by using the TreeView\_SetItem macro.
-ms.assetid: '28d288bf-a557-4fce-870c-ffa368ece5a9'
-keywords: ["TVM_SETITEM message Windows Controls"]
+description: The TVM\_SETITEM message sets some or all of a tree-view items attributes. You can send this message explicitly or by using the TreeView\_SetItem macro.
+ms.assetid: 28d288bf-a557-4fce-870c-ffa368ece5a9
+keywords:
+- TVM_SETITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETITEM message
 
-The **TVM\_SETITEM** message sets some or all of a tree-view item's attributes. You can send this message explicitly or by using the [**TreeView\_SetItem**](treeview-setitem.md) macro.
+The **TVM\_SETITEM** message sets some or all of a tree-view item's attributes. You can send this message explicitly or by using the [**TreeView\_SetItem**](/windows/win32/Commctrl/nf-commctrl-treeview_setitem?branch=master) macro.
 
 ## Parameters
 
@@ -33,7 +39,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TVITEM**](tvitem.md) structure that contains the new item attributes. With [version 4.71](common-control-versions.md) and later, you can use a [**TVITEMEX**](tvitemex.md) structure instead.
+Pointer to a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure that contains the new item attributes. With [version 4.71](common-control-versions.md) and later, you can use a [**TVITEMEX**](/windows/win32/Commctrl/ns-commctrl-tagtvitemexa?branch=master) structure instead.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-The **hItem** member of the [**TVITEM**](tvitem.md) or [**TVITEMEX**](tvitemex.md) structure identifies the item, and the **mask** member specifies which attributes to set.
+The **hItem** member of the [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) or [**TVITEMEX**](/windows/win32/Commctrl/ns-commctrl-tagtvitemexa?branch=master) structure identifies the item, and the **mask** member specifies which attributes to set.
 
 ## Requirements
 
@@ -51,16 +57,16 @@ The **hItem** member of the [**TVITEM**](tvitem.md) or [**TVITEMEX**](tvitemex.m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVM\_SETITEMW** (Unicode) and **TVM\_SETITEMA** (ANSI)<br/>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

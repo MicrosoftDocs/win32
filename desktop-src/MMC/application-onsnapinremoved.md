@@ -4,11 +4,16 @@ description: The OnSnapInRemoved event occurs when a snap-in is removed from the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4cca4b1-4a40-4729-b787-810517df7006'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b4cca4b1-4a40-4729-b787-810517df7006
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["OnSnapInRemoved event MMC", "OnSnapInRemoved event MMC , Application object", "Application object MMC , OnSnapInRemoved event", "OnSnapInRemoved event MMC , AppEvents interface", "AppEvents interface MMC , OnSnapInRemoved event"]
+keywords:
+- OnSnapInRemoved event MMC
+- OnSnapInRemoved event MMC , Application object
+- Application object MMC , OnSnapInRemoved event
+- OnSnapInRemoved event MMC , AppEvents interface
+- AppEvents interface MMC , OnSnapInRemoved event
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppEvents::OnSnapInRemoved event
@@ -77,8 +85,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -87,9 +95,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

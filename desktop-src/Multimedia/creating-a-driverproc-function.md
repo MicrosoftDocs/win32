@@ -1,8 +1,17 @@
 ---
 title: Creating a DriverProc Function
 description: Creating a DriverProc Function
-ms.assetid: '8182d115-ba0b-43f4-a6b9-9f6a19493247'
-keywords: ["installable drivers,creating", "creating DriverProc function", "DriverProc function", "installable drivers,DriverProc function"]
+ms.assetid: 8182d115-ba0b-43f4-a6b9-9f6a19493247
+keywords:
+- installable drivers,creating
+- creating DriverProc function
+- DriverProc function
+- installable drivers,DriverProc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a DriverProc Function

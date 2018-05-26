@@ -1,7 +1,12 @@
 ---
-Description: 'Using commas and semicolons can be the most complex syntax issue in the file format, and this usage is very strict. Commas are used to separate array members; semicolons terminate each data item.'
-ms.assetid: '82582213-907c-4760-a849-e6cf5f6d60bc'
+Description: Using commas and semicolons can be the most complex syntax issue in the file format, and this usage is very strict. Commas are used to separate array members; semicolons terminate each data item.
+ms.assetid: 82582213-907c-4760-a849-e6cf5f6d60bc
 title: Use of Commas and Semicolons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use of Commas and Semicolons

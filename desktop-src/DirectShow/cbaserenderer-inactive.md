@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method is called when the state is switched to stopped.'
-ms.assetid: '2bad81ef-d2a4-4c20-a49b-e40e5097b430'
-title: 'CBaseRenderer.Inactive method'
+Description: The Inactive method is called when the state is switched to stopped.
+ms.assetid: 2bad81ef-d2a4-4c20-a49b-e40e5097b430
+title: CBaseRenderer.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Inactive method
@@ -47,9 +52,9 @@ The input pin calls this method from its own [**CRendererInputPin::Inactive**](c
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

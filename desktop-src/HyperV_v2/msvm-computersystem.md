@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a physical computer system or virtual machine.'
-ms.assetid: '897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9'
-title: 'Msvm\_ComputerSystem class'
+Description: Represents a physical computer system or virtual machine.
+ms.assetid: 897AD1B9-0EDD-4DCE-963D-D5DE03AF55A9
+title: Msvm\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ComputerSystem class
@@ -18,51 +23,51 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ComputerSystem : CIM_ComputerSystem
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   CreationClassName;
-  string   Name = "GUID";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
-  string   OtherDedicatedDescriptions[];
-  uint16   ResetCapability = 1;
-  uint16   PowerManagementCapabilities[];
-  uint64   OnTimeInMilliseconds;
-  uint32   ProcessID;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   CreationClassName;
+  string   Name = "GUID";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
+  string   OtherDedicatedDescriptions[];
+  uint16   ResetCapability = 1;
+  uint16   PowerManagementCapabilities[];
+  uint64   OnTimeInMilliseconds;
+  uint32   ProcessID;
   datetime TimeOfLastConfigurationChange;
-  uint16   NumberOfNumaNodes;
-  uint16   ReplicationState;
-  uint16   ReplicationHealth;
-  uint16   ReplicationMode;
-  uint16   FailedOverReplicationType;
-  uint16   LastReplicationType;
+  uint16   NumberOfNumaNodes;
+  uint16   ReplicationState;
+  uint16   ReplicationHealth;
+  uint16   ReplicationMode;
+  uint16   FailedOverReplicationType;
+  uint16   LastReplicationType;
   DateTime LastApplicationConsistentReplicationTime;
   DateTime LastReplicationTime;
   DateTime LastSuccessfulBackupTime;
-  uint16   EnhancedSessionModeState;
+  uint16   EnhancedSessionModeState;
 };
 ```
 
@@ -81,15 +86,15 @@ The **Msvm\_ComputerSystem** class has these methods.
 
 | Method                                                                                         | Description                                                                                                                                                                                                                                                                                                                         |
 |:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InjectNonMaskableInterrupt**](injectnonmaskableinterrupt-msvm-computersystem.md)           | Injects a non-maskable interrupt into the virtual machine. This method is only supported for instances of the **Msvm\_ComputerSystem** class that represent a virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                                    |
+| [**InjectNonMaskableInterrupt**](injectnonmaskableinterrupt-msvm-computersystem.md)           | Injects a non-maskable interrupt into the virtual machine. This method is only supported for instances of the **Msvm\_ComputerSystem** class that represent a virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                                    |
 | [**RequestReplicationStateChange**](msvm-computersystem-requestreplicationstatechange.md)     | Requests that the replication state of the virtual machine be changed to the specified value. This method is only supported for instances of the **Msvm\_ComputerSystem** class that represent a virtual machine.<br/>                                                                                                        |
-| [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md) | Requests that the replication state of the virtual machine be changed to the specified value. This method is only supported for instances of the **Msvm\_ComputerSystem** class that represent a virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
+| [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md) | Requests that the replication state of the virtual machine be changed to the specified value. This method is only supported for instances of the **Msvm\_ComputerSystem** class that represent a virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
 | [**RequestStateChange**](requeststatechange-msvm-computersystem.md)                           | Requests that the state of the virtual machine be changed. This method is only supported for instances of the **Msvm\_ComputerSystem** class that represent a virtual machine.<br/>                                                                                                                                           |
 | **SetPowerState**                                                                              | This method is not supported.<br/>                                                                                                                                                                                                                                                                                            |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -164,7 +169,7 @@ A short description of the object. This property is inherited from the [**CIM\_M
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -227,7 +232,7 @@ A description of the object. This property is inherited from [**CIM\_ManagedElem
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -310,7 +315,7 @@ The enabled and disabled states of an element. This property can also indicate t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -327,7 +332,7 @@ Specifies the current state of enhanced session mode on the virtual machine.
 
 The Hyper-V WMI provider raises an [**\_\_InstanceModificationEvent**](https://msdn.microsoft.com/library/aa394651) each time the **EnhancedSessionModeState** of the **Msvm\_ComputerSystem** class changes. If an active vmconnection session receives an **\_\_InstanceModificationEvent**, it attempts to switch to enhanced session mode if the user enabled that setting.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 **EnhancedSessionModeState** can be one of these values:
 
@@ -383,9 +388,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**M
 The type of recovery data point that was applied during the failover operation.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
+> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
 
- 
+ 
 
 Possible values are:
 
@@ -446,7 +451,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.mic
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -490,19 +495,19 @@ Qualifiers: **Key**
 
 Uniquely identifies an instance of this class. This property is inherited from [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218).
 
-In Windows 8, there is a single instance of [**ReplicationSettingData**](msvm-replicationsettingdata.md) for every computer system or virtual machine. For Windows 8.1, a recovery virtual machine has two instances of **ReplicationSettingData**. This change differentiates and associates setting data with replication relationship.
+In Windows 8, there is a single instance of [**ReplicationSettingData**](msvm-replicationsettingdata.md) for every computer system or virtual machine. For Windows 8.1, a recovery virtual machine has two instances of **ReplicationSettingData**. This change differentiates and associates setting data with replication relationship.
 
 
 
-| Property name  | Windows 8 value               | Windows 8.1 value                          |
+| Property name  | Windows 8 value               | Windows 8.1 value                          |
 |----------------|-------------------------------|--------------------------------------------|
 | **InstanceID** | Microsoft:&lt;vmguid&gt;\\HVR | Microsoft:&lt;vmguid&gt;\\HVR\\&lt;0/1&gt; |
 
 
 
- 
+ 
 
-In the Windows 8.1 value, 0 indicates primary and 1 indicates extended replication. For more info about extended replication, see [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).
+In the Windows 8.1 value, 0 indicates primary and 1 indicates extended replication. For more info about extended replication, see [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md).
 
 </dd> <dt>
 
@@ -521,9 +526,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**M
 The time at which the last application-consistent replication was received for the virtual machine.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
+> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
 
- 
+ 
 
 </dd> <dt>
 
@@ -542,9 +547,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**M
 The time at which the last replication is received on recovery for the virtual machine.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
+> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
 
- 
+ 
 
 </dd> <dt>
 
@@ -563,9 +568,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**M
 The type of the last replication that was received for the virtual machine.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
+> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
 
- 
+ 
 
 Possible values are:
 
@@ -706,7 +711,7 @@ An array that contains the current statuses of the object. This property is inhe
 
 
 
- 
+ 
 
 The value at index one (1) is optional and contains secondary status information. A client should use the primary status from index zero (0) to determine whether a new request can be issued to the virtual machine. If **OperationalStatus**\[0\] is 2 (OK), then the operation indicated by **OperationalStatus**\[1\] can be interrupted.
 
@@ -726,7 +731,7 @@ The value at **OperationalStatus**\[1\] is one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -849,9 +854,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**M
 The replication health for the virtual machine.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
+> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
 
- 
+ 
 
 Possible values are:
 
@@ -960,9 +965,9 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**M
 The replication state for the virtual machine.
 
 > [!Note]  
-> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
+> This property is deprecated starting with Windows 8.1; instead, use the property of the same name in the [**Msvm\_ReplicationRelationship**](msvm-replicationrelationship.md) class to get the value for the primary or extended relationship.
 
- 
+ 
 
 Possible values are:
 
@@ -1202,8 +1207,8 @@ See [Querying Networking Objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1229,9 +1234,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

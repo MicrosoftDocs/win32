@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the vector comparison functions.'
-ms.assetid: '8caad40f-ab8e-db2f-da11-18f3d3ccf6ef'
+---
+Description: Lists the vector comparison functions.
+ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
 title: Vector Comparison Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector Comparison Functions
@@ -16,12 +21,12 @@ Lists the vector comparison functions.
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**XMVectorEqual**](xmvectorequal.md)<br/>                     | Performs a per-component test for equality of two vectors.<br/>                                                                                                                                                                                                     |
 | [**XMVectorEqualInt**](xmvectorequalint.md)<br/>               | Performs a per-component test for the equality of two vectors, treating each component as an unsigned integer.<br/>                                                                                                                                                 |
-| [**XMVectorEqualIntR**](xmvectorequalintr.md)<br/>             | Performs a per-component test for equality of two vectors, treating each component as an unsigned integer. In addition, this function sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](xmcomparisonalltrue.md).<br/> |
-| [**XMVectorEqualR**](xmvectorequalr.md)<br/>                   | Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](xmcomparisonalltrue.md).<br/>                                                                         |
+| [**XMVectorEqualIntR**](xmvectorequalintr.md)<br/>             | Performs a per-component test for equality of two vectors, treating each component as an unsigned integer. In addition, this function sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonalltrue?branch=master).<br/> |
+| [**XMVectorEqualR**](xmvectorequalr.md)<br/>                   | Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonalltrue?branch=master).<br/>                                                                         |
 | [**XMVectorGreater**](xmvectorgreater.md)<br/>                 | Performs a per-component test for greater-than between two vectors.<br/>                                                                                                                                                                                            |
 | [**XMVectorGreaterOrEqual**](xmvectorgreaterorequal.md)<br/>   | Performs a per-component test for greater-than-or-equal between two vectors.<br/>                                                                                                                                                                                   |
-| [**XMVectorGreaterOrEqualR**](xmvectorgreaterorequalr.md)<br/> | Performs a per-component test for greater-than-or-equal between two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](xmcomparisonalltrue.md).<br/>                                                       |
-| [**XMVectorGreaterR**](xmvectorgreaterr.md)<br/>               | Performs a per-component test for greater-than between two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](xmcomparisonalltrue.md).<br/>                                                                |
+| [**XMVectorGreaterOrEqualR**](xmvectorgreaterorequalr.md)<br/> | Performs a per-component test for greater-than-or-equal between two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonalltrue?branch=master).<br/>                                                       |
+| [**XMVectorGreaterR**](xmvectorgreaterr.md)<br/>               | Performs a per-component test for greater-than between two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/win32/DirectXMath/nf-directxmath-xmcomparisonalltrue?branch=master).<br/>                                                                |
 | [**XMVectorLess**](xmvectorless.md)<br/>                       | Performs a per-component test for less-than between two vectors.<br/>                                                                                                                                                                                               |
 | [**XMVectorLessOrEqual**](xmvectorlessorequal.md)<br/>         | Performs a per-component test for less-than-or-equal between two vectors.<br/>                                                                                                                                                                                      |
 | [**XMVectorNearEqual**](xmvectornearequal.md)<br/>             | Performs a per-component test for equality of two vectors within a given threshold. <br/>                                                                                                                                                                           |

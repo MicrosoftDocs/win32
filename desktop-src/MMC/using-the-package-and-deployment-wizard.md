@@ -4,10 +4,13 @@ description: Describes the use of the package and deployment wizard.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d6986f9-5e88-4d52-aeb8-770e908f8f2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5d6986f9-5e88-4d52-aeb8-770e908f8f2a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Package and Deployment Wizard

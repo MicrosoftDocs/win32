@@ -1,8 +1,9 @@
 ---
 title: glTexParameterfv function
 description: Sets texture parameters.
-ms.assetid: '29aa2823-5c73-48f1-891f-018dd7a93323'
-keywords: ["glTexParameterfv function OpenGL"]
+ms.assetid: 29aa2823-5c73-48f1-891f-018dd7a93323
+keywords:
+- glTexParameterfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexParameterfv function
@@ -22,9 +28,9 @@ Sets texture parameters.
 
 ```C++
 void WINAPI glTexParameterfv(
-         GLenum  target,
-         GLenum  pname,
-   const GLfloat *params
+         GLenum  target,
+         GLenum  pname,
+   const GLfloat *params
 );
 ```
 
@@ -59,7 +65,7 @@ The symbolic name of a single valued texture parameter. The following symbols ar
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,7 +87,7 @@ A pointer to an array where the value or values of pname are stored. The params 
 
 
 
- 
+ 
 
 The *params* parameter supplies a function for magnifying the texture as one of the following.
 
@@ -94,7 +100,7 @@ The *params* parameter supplies a function for magnifying the texture as one of 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -146,8 +152,8 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -212,9 +218,9 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 [**glTexSubImage2D**](gltexsubimage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

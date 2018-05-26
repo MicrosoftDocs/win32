@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the state of the job.'
-ms.assetid: '3B11CE45-63E4-43D1-AAF6-02F83C9CBB85'
-title: 'Msvm\_CopyFileToGuestJob::RequestStateChange method'
+Description: Changes the state of the job.
+ms.assetid: 3B11CE45-63E4-43D1-AAF6-02F83C9CBB85
+title: Msvm\_CopyFileToGuestJobRequestStateChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CopyFileToGuestJob::RequestStateChange method
@@ -13,8 +18,8 @@ Changes the state of the job.
 
 ```C++
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -131,7 +136,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,8 +144,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -154,9 +159,9 @@ This method returns one of the following values.
 [**Msvm\_CopyFileToGuestJob**](msvm-copyfiletoguestjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

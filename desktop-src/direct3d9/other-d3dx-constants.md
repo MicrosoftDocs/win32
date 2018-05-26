@@ -1,7 +1,12 @@
 ---
-Description: 'Other D3DX constants include the following:'
-ms.assetid: '4f868a80-ad86-4598-9de3-a026e03aab93'
+Description: Other D3DX constants include the following
+ms.assetid: 4f868a80-ad86-4598-9de3-a026e03aab93
 title: Other D3DX Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other D3DX Constants

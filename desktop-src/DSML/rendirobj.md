@@ -4,11 +4,15 @@ description: The following code example renames the DSMLSamples object to DSMLTe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '906d23bf-9bc8-4397-9169-21ff4aa55ee6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 906d23bf-9bc8-4397-9169-21ff4aa55ee6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Renaming a Directory Object DSML"]
+keywords:
+- Renaming a Directory Object DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Renaming a Directory Object

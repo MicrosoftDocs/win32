@@ -1,7 +1,12 @@
 ---
 title: Ext Attribute (Skew)(VML)
 description: Ext Attribute (Skew)(VML)
-ms.assetid: 'ff1dfb2f-9098-4418-a2f7-c7159328bd09'
+ms.assetid: ff1dfb2f-9098-4418-a2f7-c7159328bd09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ext Attribute (Skew)(VML)

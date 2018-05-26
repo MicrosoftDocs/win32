@@ -1,7 +1,12 @@
 ---
 title: pow - ps
 description: Full precision abs(src0)src1.
-ms.assetid: '39037c51-a524-459c-8422-bd7831e2aa3d'
+ms.assetid: 39037c51-a524-459c-8422-bd7831e2aa3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pow - ps

@@ -1,8 +1,9 @@
 ---
 title: LibraryDisconnect Event of the AxWindowsMediaPlayer Object
 description: The LibraryDisconnect event occurs when a library is no longer available.
-ms.assetid: '053d914a-dcd9-4fd6-a789-10c26147d08a'
-keywords: ["LibraryDisconnect Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 053d914a-dcd9-4fd6-a789-10c26147d08a
+keywords:
+- LibraryDisconnect Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LibraryDisconnect Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Lib
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,9 +77,9 @@ This event does not occur for the local library.
 [**IWMPLibrary Interface (VB and C#)**](iwmplibrary--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

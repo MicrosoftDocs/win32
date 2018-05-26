@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the job be changed to the specified value. The allowed transitions are job specific and vendor specific.'
-ms.assetid: 'b36a5f86-2385-485f-852e-c842ccc6bc00'
-title: 'RequestStateChange method of the CIM\_ConcreteJob class'
+Description: Requests that the state of the job be changed to the specified value. The allowed transitions are job specific and vendor specific.
+ms.assetid: b36a5f86-2385-485f-852e-c842ccc6bc00
+title: RequestStateChange method of the CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the CIM\_ConcreteJob class
@@ -13,8 +18,8 @@ Requests that the state of the job be changed to the specified value. The allowe
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -38,12 +43,12 @@ Specifies the state to which the job should be changed.
 | <span id="Terminate"></span><span id="terminate"></span><span id="TERMINATE"></span><dl> <dt>**Terminate**</dt> <dt>4</dt> </dl>                                   | Stops the job cleanly, save data, preserve the state, and shut down all underlying processes in an orderly manner.<br/>                              |
 | <span id="Kill"></span><span id="kill"></span><span id="KILL"></span><dl> <dt>**Kill**</dt> <dt>5</dt> </dl>                                                       | Stops the job immediately with no requirement to save data or preserve the state. <br/>                                                              |
 | <span id="Service"></span><span id="service"></span><span id="SERVICE"></span><dl> <dt>**Service**</dt> <dt>6</dt> </dl>                                           | Puts the job into a vendor-specific Service state. It might be possible to restart the job from this state.<br/>                                     |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>7–32767</dt> </dl>             | Reserved.<br/>                                                                                                                                       |
-| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768–65535</dt> </dl> | Reserved.<br/>                                                                                                                                       |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>7 32767</dt> </dl>             | Reserved.<br/>                                                                                                                                       |
+| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768 65535</dt> </dl> | Reserved.<br/>                                                                                                                                       |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -55,7 +60,7 @@ Specifies the maximum amount of time that the client expects the transition to t
 > [!Note]  
 > If the implementation does not support this parameter and this property does not contain 0 or null, the **Use Of Timeout Parameter Not Supported** value must be returned.
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,7 +91,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -101,10 +106,10 @@ This method returns one of the following values.
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -113,8 +118,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -128,9 +133,9 @@ This method returns one of the following values.
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

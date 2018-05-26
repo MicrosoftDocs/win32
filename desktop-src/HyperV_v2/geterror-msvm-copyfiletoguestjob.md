@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the error object for the job, if one exists.'
-ms.assetid: '478E9170-A523-4CE1-BD97-57D713FAF71B'
-title: 'Msvm\_CopyFileToGuestJob::GetError method'
+Description: Retrieves the error object for the job, if one exists.
+ms.assetid: 478E9170-A523-4CE1-BD97-57D713FAF71B
+title: Msvm\_CopyFileToGuestJobGetError method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CopyFileToGuestJob::GetError method
@@ -13,7 +18,7 @@ Retrieves the error object for the job, if one exists. When the job is executing
 
 ```C++
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -78,8 +83,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ This method returns one of the following values.
 [**Msvm\_CopyFileToGuestJob**](msvm-copyfiletoguestjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

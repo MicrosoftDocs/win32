@@ -1,8 +1,9 @@
 ---
 title: PBM\_GETBARCOLOR message
 description: Gets the color of the progress bar.
-ms.assetid: 'd046f7e4-e21e-4dd9-a7be-2bf820c3c492'
-keywords: ["PBM_GETBARCOLOR message Windows Controls"]
+ms.assetid: d046f7e4-e21e-4dd9-a7be-2bf820c3c492
+keywords:
+- PBM_GETBARCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_GETBARCOLOR message
@@ -43,15 +49,15 @@ This function only affects the classic mode, not any visual style.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

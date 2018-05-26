@@ -1,7 +1,12 @@
 ---
-Description: 'The ValidateProductID event sets the ProductID property to the full Product ID. If the validation is unsuccessful, then this event puts up an error message and modal dialog box for a user entry of the Product ID.'
-ms.assetid: '44002cae-154a-4938-a15c-456c293e94fb'
+Description: The ValidateProductID event sets the ProductID property to the full Product ID. If the validation is unsuccessful, then this event puts up an error message and modal dialog box for a user entry of the Product ID.
+ms.assetid: 44002cae-154a-4938-a15c-456c293e94fb
 title: ValidateProductID ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidateProductID ControlEvent

@@ -4,11 +4,16 @@ description: In Windows Server 2003, Active Directory Domain Services support a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '55c47803-c1ee-4888-bb19-103374ec9719'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 55c47803-c1ee-4888-bb19-103374ec9719
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Application Directory Partitions AD", "Application Directory Partitions AD , Using"]
+keywords:
+- Application Directory Partitions AD
+- Application Directory Partitions AD , Using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Application Directory Partitions

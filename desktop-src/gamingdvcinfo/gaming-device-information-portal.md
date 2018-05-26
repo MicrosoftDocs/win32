@@ -1,7 +1,12 @@
 ---
 title: Gaming Device Information
 description: Due to differing console capabilities, Universal Windows Platform (UWP) game developers on Xbox need a way to determine the type of console the game is running on, in order to make run-time choices on how to best use the hardware.
-ms.assetid: 'bf210289-5963-4327-828b-98a0d14b5bfa'
+ms.assetid: bf210289-5963-4327-828b-98a0d14b5bfa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gaming Device Information
@@ -11,7 +16,7 @@ Due to differing console capabilities, Universal Windows Platform (UWP) game dev
 > [!Note]  
 > These are Win32 APIs that are supported in both Win32 and UWP apps. While they work on any device family, they are only really of value on Xbox devices.
 
- 
+ 
 
 ## Example: Allocate memory on startup
 
@@ -72,11 +77,11 @@ int __cdecl main(Platform::Array<Platform::String^>^)
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

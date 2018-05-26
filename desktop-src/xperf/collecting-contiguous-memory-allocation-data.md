@@ -1,7 +1,12 @@
 ---
 title: Collecting Contiguous Memory Allocation Data
 description: Collecting Contiguous Memory Allocation Data
-ms.assetid: '53c95ea7-efe8-4e12-b7d1-4b79bf993ccd'
+ms.assetid: 53c95ea7-efe8-4e12-b7d1-4b79bf993ccd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collecting Contiguous Memory Allocation Data
@@ -20,7 +25,7 @@ The files used in this scenario are:
 
 
 
- 
+ 
 
 For complete information on collecting data using Windows Performance Toolkit (WPT) please see [Quick Start Guide: WPA Basics](quick-start-guide--wpa-basics.md).
 
@@ -58,9 +63,9 @@ For complete information on collecting data using Windows Performance Toolkit (W
 
 6.  Update the Register by setting HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management DisablePagingExecutive (dword) from 1 (hex) to 0 (hex).
 
- 
+ 
 
- 
+ 
 
 
 

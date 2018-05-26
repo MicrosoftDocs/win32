@@ -1,6 +1,11 @@
-﻿---
-Description: 'Navigates to the client-side wizard page that follows the page that hosts the server-side HTML pages, or finishes the wizard if there are no further client-side pages.'
-title: 'WebWizardHost.FinalNext method'
+---
+Description: Navigates to the client-side wizard page that follows the page that hosts the server-side HTML pages, or finishes the wizard if there are no further client-side pages.
+title: WebWizardHost.FinalNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebWizardHost.FinalNext method

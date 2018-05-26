@@ -1,14 +1,21 @@
 ---
 title: RegistrationInfo (taskType) Element
 description: Specifies administrative information about the task, such as the author of the task and the date the task is registered.
-ms.assetid: 'f3961bad-e9a3-4626-87ed-9639d912717d'
-keywords: ["registration information Task Scheduler , XML element", "RegistrationInfo element Task Scheduler"]
+ms.assetid: f3961bad-e9a3-4626-87ed-9639d912717d
+keywords:
+- registration information Task Scheduler , XML element
+- RegistrationInfo element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RegistrationInfo
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo (taskType) Element
@@ -55,7 +62,7 @@ The **RegistrationInfo** element is defined by the [**taskType**](taskschedulers
 
 For scripting development, the registration information of a task is specified using the [**TaskDefinition.RegistrationInfo**](taskdefinition-registrationinfo.md) property.
 
-For C++ development, the registration information of a task is specified using the [**RegistrationInfo property of ITaskDefinition**](itaskdefinition-registrationinfo.md).
+For C++ development, the registration information of a task is specified using the [**RegistrationInfo property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo?branch=master).
 
 ## Requirements
 
@@ -63,8 +70,8 @@ For C++ development, the registration information of a task is specified using t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -78,9 +85,9 @@ For C++ development, the registration information of a task is specified using t
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

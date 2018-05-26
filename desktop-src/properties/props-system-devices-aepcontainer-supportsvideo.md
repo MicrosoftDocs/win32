@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the Device Association Endpoint Container Supports Video Casting.'
-ms.assetid: 'd5db32d6-70de-460f-9a6f-f07e75d66cc8'
-title: 'System.Devices.AepContainer.SupportsVideo'
+Description: Indicates if the Device Association Endpoint Container Supports Video Casting.
+ms.assetid: d5db32d6-70de-460f-9a6f-f07e75d66cc8
+title: System.Devices.AepContainer.SupportsVideo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.SupportsVideo

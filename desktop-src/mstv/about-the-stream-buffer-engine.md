@@ -1,7 +1,12 @@
 ---
 title: About the Stream Buffer Engine
 description: About the Stream Buffer Engine
-ms.assetid: '138e36f4-fb0f-4b02-ae1b-f003a6ada7e5'
+ms.assetid: 138e36f4-fb0f-4b02-ae1b-f003a6ada7e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Stream Buffer Engine

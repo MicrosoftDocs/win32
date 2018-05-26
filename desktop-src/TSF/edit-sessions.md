@@ -1,8 +1,17 @@
 ---
 title: Edit Sessions
 description: When a text service must obtain, modify, or set text in a context, it must request an edit session.
-ms.assetid: 'e4115227-1036-4892-986d-dc4cef5b178e'
-keywords: ["Text Services Framework (TSF),edit session", "TSF (Text Services Framework),edit session", "text services,edit session", "edit session"]
+ms.assetid: e4115227-1036-4892-986d-dc4cef5b178e
+keywords:
+- Text Services Framework (TSF),edit session
+- TSF (Text Services Framework),edit session
+- text services,edit session
+- edit session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit Sessions

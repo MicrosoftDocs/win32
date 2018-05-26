@@ -1,13 +1,19 @@
 ---
 title: Opening a Simple Device by Using the Device-Type Constant
 description: Opening a Simple Device by Using the Device-Type Constant
-ms.assetid: '6ed5fd4b-534a-4e03-8130-07f831403a8e'
-keywords: ["mciSendCommand function"]
+ms.assetid: 6ed5fd4b-534a-4e03-8130-07f831403a8e
+keywords:
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Simple Device by Using the Device-Type Constant
 
-The following example opens a CD audio device by specifying a device-type constant using the [**mciSendCommand**](mcisendcommand.md) function.
+The following example opens a CD audio device by specifying a device-type constant using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

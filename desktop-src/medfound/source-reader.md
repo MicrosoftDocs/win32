@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Source Reader is an alternative to using the Media Session and the Microsoft Media Foundation pipeline to process media data.'
-ms.assetid: '583f5736-f767-47c5-8fdc-b3645aed59f6'
+---
+Description: The Source Reader is an alternative to using the Media Session and the Microsoft Media Foundation pipeline to process media data.
+ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
 title: Source Reader
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Reader
@@ -56,7 +61,7 @@ The source reader is not recommended in the following situations:
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> <dt>
 
-[**IMFSourceReader**](imfsourcereader.md)
+[**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master)
 </dt> </dl>
 
  

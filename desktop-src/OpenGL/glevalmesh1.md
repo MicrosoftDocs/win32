@@ -1,8 +1,9 @@
 ---
 title: glEvalMesh1 function
 description: Computes a one-dimensional grid of points or lines.
-ms.assetid: '176a4b81-f1a7-42fc-8ecd-bba77a0ec5b3'
-keywords: ["glEvalMesh1 function OpenGL"]
+ms.assetid: 176a4b81-f1a7-42fc-8ecd-bba77a0ec5b3
+keywords:
+- glEvalMesh1 function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEvalMesh1 function
@@ -22,9 +28,9 @@ Computes a one-dimensional grid of points or lines.
 
 ```C++
 void WINAPI glEvalMesh1(
-   GLenum mode,
-   GLint  i1,
-   GLint  i2
+   GLenum mode,
+   GLint  i1,
+   GLint  i2
 );
 ```
 
@@ -115,8 +121,8 @@ and n, u1, and u2 are the arguments to the most recent [**glMapGrid1**](glmapgri
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -130,9 +136,9 @@ and n, u1, and u2 are the arguments to the most recent [**glMapGrid1**](glmapgri
 [**glBegin**](glbegin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

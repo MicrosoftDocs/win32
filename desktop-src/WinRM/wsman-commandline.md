@@ -4,11 +4,14 @@ description: Gets the command line of the process that loads the automation comp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4fdad32-9059-452d-9896-f18b57c2a8f9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: a4fdad32-9059-452d-9896-f18b57c2a8f9
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["CommandLine property Windows Remote Management", "CommandLine property Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , CommandLine property"]
+keywords:
+- CommandLine property Windows Remote Management
+- CommandLine property Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , CommandLine property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.CommandLine property
@@ -44,8 +50,8 @@ String that contains the command line.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -60,9 +66,9 @@ String that contains the command line.
 [**WSMan**](wsman.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'a5594dd2-b29b-49d6-b4de-5074ba3d0ce3'
-title: 'CGenericList.~CGenericList destructor'
+Description: Destructor method.
+ms.assetid: a5594dd2-b29b-49d6-b4de-5074ba3d0ce3
+title: CGenericList.~CGenericList destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.~CGenericList destructor
@@ -35,9 +40,9 @@ Destructor method.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: tex - ps
 description: Loads the destination register with color data (RGBA) sampled from a texture. The texture must be bound to a particular texture stage (n) using SetTexture. Texture sampling is controlled by SetSamplerState.
-ms.assetid: '33f04a99-c5dc-48c1-a221-f12acb36e7f5'
+ms.assetid: 33f04a99-c5dc-48c1-a221-f12acb36e7f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex - ps

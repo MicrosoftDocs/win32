@@ -4,17 +4,21 @@ description: Synchronously creates an InputStream for reading protected content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A13A186A-DBA0-4C8A-AD9D-EA6446D91108'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A13A186A-DBA0-4C8A-AD9D-EA6446D91108
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedInputStream.create synchronous method"]
+keywords:
+- CustomProtectedInputStream.create synchronous method
 topic_type:
 - apiref
 api_name:
 - CustomProtectedInputStream.create synchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedInputStream.create synchronous method
@@ -47,7 +51,7 @@ public static CustomProtectedInputStream create(
 
 
 
- 
+ 
 
 ## Returns
 
@@ -71,7 +75,7 @@ CustomProtectedInputStream.java
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +91,9 @@ Your app can use [**getEncryptedContentLength**](customprotectedoutputstream-get
 
 This method works in a synchronous manner.
 
- 
+ 
 
- 
+ 
 
 
 

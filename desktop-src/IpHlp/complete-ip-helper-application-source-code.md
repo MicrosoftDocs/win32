@@ -1,7 +1,12 @@
 ---
-Description: 'The following is the complete source code for the IP Helper application. Additional error checking has been added to source code.'
-ms.assetid: 'c0290660-8a18-4d5c-8f0a-df15da1a9167'
+Description: The following is the complete source code for the IP Helper application. Additional error checking has been added to source code.
+ms.assetid: c0290660-8a18-4d5c-8f0a-df15da1a9167
 title: Complete IP Helper Application Source Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Complete IP Helper Application Source Code

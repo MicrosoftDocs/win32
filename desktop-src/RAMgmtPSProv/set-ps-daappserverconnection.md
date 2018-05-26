@@ -2,13 +2,16 @@
 title: Set method of the PS\_DAAppServerConnection class
 description: This cmdlet configures the properties of the connection to application servers and the IPsec security traffic protection policies for the connection.
 audience: developer
-ms.assetid: '5a87771b-35df-4187-984d-cb6216505220'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5a87771b-35df-4187-984d-cb6216505220
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DAAppServerConnection class", "PS_DAAppServerConnection class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DAAppServerConnection class
+- PS_DAAppServerConnection class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DAAppServerConnection class
@@ -28,11 +34,11 @@ This cmdlet configures the properties of the connection to application servers a
 
 ```mof
 uint32 Set(
-  [in]  string                ConnectionType,
-  [in]  string                TrafficProtection,
-  [in]  string                ComputerName,
-  [in]  boolean               PassThru,
-  [out] DAAppServerConnection cmdletOutput
+  [in]  string                ConnectionType,
+  [in]  string                TrafficProtection,
+  [in]  string                ComputerName,
+  [in]  boolean               PassThru,
+  [out] DAAppServerConnection cmdletOutput
 );
 ```
 
@@ -119,7 +125,7 @@ The application server connectivity properties are applicable to all app servers
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -133,9 +139,9 @@ The application server connectivity properties are applicable to all app servers
 [**PS\_DAAppServerConnection**](ps-daappserverconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

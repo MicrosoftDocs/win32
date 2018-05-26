@@ -1,14 +1,20 @@
 ---
 title: firstbitlow function
 description: Returns the location of the first set bit starting from the lowest order bit and working upward, per component.
-ms.assetid: '204250f3-1a9b-445d-bd16-4cc9a5d9d60a'
-keywords: ["firstbitlow function HLSL"]
+ms.assetid: 204250f3-1a9b-445d-bd16-4cc9a5d9d60a
+keywords:
+- firstbitlow function HLSL
 topic_type:
 - apiref
 api_name:
 - firstbitlow
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # firstbitlow function

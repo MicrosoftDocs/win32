@@ -1,8 +1,9 @@
 ---
 title: Size Type Function
 description: Creates a size structure that stores its width and height using the specified data type.
-ms.assetid: '9f7e37a3-440e-40c0-a527-9fcbd207dce8'
-keywords: ["Size Type Function Direct2D"]
+ms.assetid: 9f7e37a3-440e-40c0-a527-9fcbd207dce8
+keywords:
+- Size Type Function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Size&lt;Type&gt; Function
@@ -35,7 +41,7 @@ typename TypeTraits<Type>::Size Size(
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -48,7 +54,7 @@ typename TypeTraits<Type>::Size Size(
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -60,18 +66,18 @@ A size that contains the specified width and height.
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1helper.h</dt> </dl>                                                  |
 | Library<br/>                  | <dl> <dt>D2d1.lib</dt> </dl>                                                      |
 | DLL<br/>                      | <dl> <dt>D2d1.dll</dt> </dl>                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

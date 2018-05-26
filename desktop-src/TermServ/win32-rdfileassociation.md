@@ -4,11 +4,13 @@ description: Represents a file type association for a RemoteApp.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9ecf6fa5-36f0-4b37-9d59-781b41c1d90c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9ecf6fa5-36f0-4b37-9d59-781b41c1d90c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDFileAssociation class Remote Desktop Services", "Win32_RDFileAssociation class Remote Desktop Services , described"]
+keywords:
+- Win32_RDFileAssociation class Remote Desktop Services
+- Win32_RDFileAssociation class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDFileAssociation class
@@ -36,11 +41,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_RDFileAssociation
 {
-  string  ExtName;
-  string  ProgIdHint;
-  string  IconPath;
-  sint32  IconIndex;
-  uint8   IconContents[];
+  string  ExtName;
+  string  ProgIdHint;
+  string  IconPath;
+  sint32  IconIndex;
+  uint8   IconContents[];
   boolean PrimaryHandler;
 };
 ```
@@ -145,16 +150,16 @@ The Hint to help open documents with this file association.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TsAllow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

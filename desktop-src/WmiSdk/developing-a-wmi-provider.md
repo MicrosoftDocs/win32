@@ -1,13 +1,16 @@
 ---
-Description: 'A provider is a Component Object Model (COM) object that acts as an intermediary between WMI and a managed object.'
+Description: A provider is a Component Object Model (COM) object that acts as an intermediary between WMI and a managed object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a4f537ba-9081-43b4-acff-4d206de3d9d7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a4f537ba-9081-43b4-acff-4d206de3d9d7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Developing a WMI Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Developing a WMI Provider
@@ -19,7 +22,7 @@ If you want to supply data through WMI to other applications, you can create an 
 > [!Note]  
 > To ensure that all of your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your Managed Object Format (MOF) file.
 
- 
+ 
 
 A provider consists of classes defined in the [*Managed Object Format (MOF)*](gloss-m.md#wmi-gloss-managed-object-format) schema and a DLL file which carries out the functions of the provider. For example, the MOF that defines the classes of the Win32 provider is CIMWin32.mof and the DLL is CIMWin32.dll, both are found in %windir%\\System32\\Wbem.
 
@@ -37,7 +40,7 @@ The following table lists the basic tasks that create a provider.
 | [Supplying Data to WMI by Writing a Provider](supplying-data-to-wmi-by-writing-a-provider.md)                                                                  | Create the most basic provider that is coupled to WMI.<br/>                                                                                |
 | [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md)                                                                    | Include the provider as a component within an application if it does not run all of the time.<br/>                                         |
 | [Registering a Provider](registering-a-provider.md)                                                                                                            | Register the provider with COM and WMI.<br/>                                                                                               |
-| [Initializing a Provider](initializing-a-provider.md)                                                                                                          | Implement the [**IWbemProviderInit**](iwbemproviderinit.md) and [**IWbemProviderInitSink**](iwbemproviderinitsink.md) interfaces.<br/>   |
+| [Initializing a Provider](initializing-a-provider.md)                                                                                                          | Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) and [**IWbemProviderInitSink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinitsink?branch=master) interfaces.<br/>   |
 | [Making Calls to WMI](making-calls-to-wmi.md)                                                                                                                  | Call WMI interfaces from a provider.<br/>                                                                                                  |
 | [Impersonating a Client](impersonating-a-client.md)                                                                                                            | Set security to access a client application.<br/>                                                                                          |
 | [Updating a Provider](updating-a-provider.md)                                                                                                                  | Improve the provider as needed.<br/>                                                                                                       |
@@ -47,7 +50,7 @@ The following table lists the basic tasks that create a provider.
 
 
 
- 
+ 
 
 The following topics discuss the steps needed to write different types of providers:
 
@@ -59,9 +62,9 @@ The following topics discuss the steps needed to write different types of provid
 -   [Writing a Property Provider](writing-a-property-provider.md)
 -   [Making an Instance Provider into a High-Performance Provider](making-an-instance-provider-into-a-high-performance-provider.md)
 
- 
+ 
 
- 
+ 
 
 
 

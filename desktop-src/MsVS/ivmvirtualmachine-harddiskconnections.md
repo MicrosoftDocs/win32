@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine HardDiskConnections property
 description: The HardDiskConnections property contains an enumerable collection of hard disk connections.
-ms.assetid: 'bb82e59c-ec29-4240-8d9f-4ce4e18a5489'
-keywords: ["HardDiskConnections property Virtual Server", "HardDiskConnections property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , HardDiskConnections property", "HardDiskConnections property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , HardDiskConnections property"]
+ms.assetid: bb82e59c-ec29-4240-8d9f-4ce4e18a5489
+keywords:
+- HardDiskConnections property Virtual Server
+- HardDiskConnections property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , HardDiskConnections property
+- HardDiskConnections property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , HardDiskConnections property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::HardDiskConnections property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HardDiskConnections(
-  [out] IVMHardDiskConnectionCollection **hardDiskConnectionCollection
+  [out] IVMHardDiskConnectionCollection **hardDiskConnectionCollection
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "Hard disc connections: " & colHDs.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "Hard disc connections: " & colHDs.Count
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

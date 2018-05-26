@@ -1,20 +1,25 @@
 ---
-Description: 'The Block method blocks or unblocks the flow of data from the pin. This method implements the IPinFlowControl::Block method.'
-ms.assetid: '8281cd8c-7543-42b5-9a4a-11bdfcb659e3'
-title: 'CDynamicOutputPin.Block method'
+Description: The Block method blocks or unblocks the flow of data from the pin. This method implements the IPinFlowControlBlock method.
+ms.assetid: 8281cd8c-7543-42b5-9a4a-11bdfcb659e3
+title: CDynamicOutputPin.Block method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.Block method
 
-The `Block` method blocks or unblocks the flow of data from the pin. This method implements the [**IPinFlowControl::Block**](ipinflowcontrol-block.md) method.
+The `Block` method blocks or unblocks the flow of data from the pin. This method implements the [**IPinFlowControl::Block**](/windows/win32/Strmif/nf-strmif-ipinflowcontrol-block?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Block(
-   DWORD  dwBlockFlags,
-   HANDLE hEvent
+   DWORD  dwBlockFlags,
+   HANDLE hEvent
 );
 ```
 
@@ -58,11 +63,11 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
-For more information about this method, see [**IPinFlowControl::Block**](ipinflowcontrol-block.md). Internally, this method calls one of the following protected methods:
+For more information about this method, see [**IPinFlowControl::Block**](/windows/win32/Strmif/nf-strmif-ipinflowcontrol-block?branch=master). Internally, this method calls one of the following protected methods:
 
 -   Block (asynchronous): [**CDynamicOutputPin::AsynchronousBlockOutputPin**](cdynamicoutputpin-asynchronousblockoutputpin.md)
 -   Block (synchronous): [**CDynamicOutputPin::SynchronousBlockOutputPin**](cdynamicoutputpin-synchronousblockoutputpin.md)
@@ -88,9 +93,9 @@ Unblocking is always performed synchronously.
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

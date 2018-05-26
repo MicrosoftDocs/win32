@@ -1,8 +1,35 @@
 ---
 title: Trigger Types
 description: The time-based and event-based triggers that are described below allow you to start tasks in a variety of ways.
-ms.assetid: '2f577103-3892-49ce-9a3b-7a4839da8a83'
-keywords: ["triggers Task Scheduler , types", "boot trigger Task Scheduler", "boot trigger Task Scheduler , described", "registration trigger Task Scheduler", "registration trigger Task Scheduler , described", "calendar trigger Task Scheduler", "calendar trigger Task Scheduler , described", "daily trigger Task Scheduler", "daily trigger Task Scheduler , described", "weekly trigger Task Scheduler", "weekly trigger Task Scheduler , described", "monthly trigger Task Scheduler", "monthly trigger Task Scheduler , described", "monthlyDOW trigger Task Scheduler", "monthlyDOW trigger Task Scheduler , described", "event trigger Task Scheduler", "event trigger Task Scheduler , described", "logon trigger Task Scheduler", "logon trigger Task Scheduler , described", "idle trigger Task Scheduler", "idle trigger Task Scheduler , described", "day-of-week trigger Task Scheduler"]
+ms.assetid: 2f577103-3892-49ce-9a3b-7a4839da8a83
+keywords:
+- triggers Task Scheduler , types
+- boot trigger Task Scheduler
+- boot trigger Task Scheduler , described
+- registration trigger Task Scheduler
+- registration trigger Task Scheduler , described
+- calendar trigger Task Scheduler
+- calendar trigger Task Scheduler , described
+- daily trigger Task Scheduler
+- daily trigger Task Scheduler , described
+- weekly trigger Task Scheduler
+- weekly trigger Task Scheduler , described
+- monthly trigger Task Scheduler
+- monthly trigger Task Scheduler , described
+- monthlyDOW trigger Task Scheduler
+- monthlyDOW trigger Task Scheduler , described
+- event trigger Task Scheduler
+- event trigger Task Scheduler , described
+- logon trigger Task Scheduler
+- logon trigger Task Scheduler , described
+- idle trigger Task Scheduler
+- idle trigger Task Scheduler , described
+- day-of-week trigger Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger Types
@@ -11,29 +38,29 @@ The time-based and event-based triggers that are described below allow you to st
 
 ## Task Scheduler 2.0 Triggers
 
-The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE2**](triggertype.md) enumeration.
+The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE2**](/windows/win32/taskschd/ne-taskschd-_task_trigger_type2?branch=master) enumeration.
 
 | Trigger                                                                                                                                                                                                                                                                                                                                                                                                                | Description                                                                                                                                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Event trigger (event based trigger) For scripting development, see [**EventTrigger**](eventtrigger.md).<br/> For C++ development, see [**IEventTrigger**](ieventtrigger.md).<br/> For XML development, see [**EventTrigger Element**](taskschedulerschema-eventtrigger-triggergroup-element.md).<br/>                                                                                             | Starts the task when a specific system event occurs.                                                                                                                                         |
-| Time trigger (time-based trigger)For scripting development, see [**TimeTrigger**](timetrigger.md).<br/> For C++ development, see [**ITimeTrigger**](itimetrigger.md).<br/> For XML development, see [**TimeTrigger Element**](taskschedulerschema-timetrigger-triggergroup-element.md).<br/>                                                                                                      | Starts the task at a specific date and time.                                                                                                                                                 |
-| Daily trigger (time-based calendar trigger)For scripting development, see [**DailyTrigger**](dailytrigger.md).<br/> For C++ development, see [**IDailyTrigger**](idailytrigger.md).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                                                                | Starts the task at a specific time on a daily schedule. For example, the task starts at 8:00 AM every day or every other day.                                                                |
-| Weekly trigger (time-based calendar trigger)For scripting development, see [**WeeklyTrigger**](weeklytrigger.md).<br/> For C++ development, see [**IWeeklyTrigger**](iweeklytrigger.md).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                                                           | Starts the task at a specific time on a weekly schedule. For example, the task starts at 8:00 AM on a specific day of the week every week or on a specific day of the week every other week. |
-| Monthly trigger (time-based calendar trigger)For scripting development, see [**MonthlyTrigger**](monthlytrigger.md).<br/> For C++ development, see [**IMonthlyTrigger**](imonthlytrigger.md).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                                                      | Starts the task at a specific time on a monthly schedule. For example, the task starts at 8:00 AM on specific days of the month on specific months.                                          |
-| Monthly day-of-week (DOW) trigger (time-based calendar trigger)For scripting development, see [**MonthlyDOWTrigger**](monthlydowtrigger.md).<br/> For C++ development, see [**IMonthlyDOWTrigger**](imonthlydowtrigger.md).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                        | Starts the task at a specific time on a monthly day-of-week schedule. For example, the task starts at 8:00 AM on specific days of the week, weeks of the month, and months of the year.      |
-| Idle trigger (event-based trigger)For scripting development, see [**IdleTrigger**](idletrigger.md).<br/> For C++ development, see [**IIdleTrigger**](iidletrigger.md).<br/> For XML development, see [**IdleTrigger Element**](taskschedulerschema-idletrigger-triggergroup-element.md).<br/>                                                                                                     | Starts the task when the computer enters an idle state.                                                                                                                                      |
-| Registration trigger (event-based trigger)For scripting development, see [**RegistrationTrigger**](registrationtrigger.md).<br/> For C++ development, see [**IRegistrationTrigger**](iregistrationtrigger.md).<br/> For XML development, see [**RegistrationTrigger Element**](taskschedulerschema-registrationtrigger-triggergroup-element.md).<br/>                                             | Starts the task when the task is registered or updated.                                                                                                                                      |
-| Boot trigger (event-based trigger)For scripting development, see [**BootTrigger**](boottrigger.md).<br/> For C++ development, see [**IBootTrigger**](iboottrigger.md).<br/> For XML development, see [**BootTrigger Element**](taskschedulerschema-boottrigger-triggergroup-element.md).<br/>                                                                                                     | Starts the task when the system is booted.                                                                                                                                                   |
-| Logon trigger (event-based trigger)For scripting development, see [**LogonTrigger**](logontrigger.md).<br/> For C++ development, see [**ILogonTrigger**](ilogontrigger.md).<br/> For XML development, see [**LogonTrigger Element**](taskschedulerschema-logontrigger-triggergroup-element.md).<br/>                                                                                              | Starts the task when a user logs on.                                                                                                                                                         |
-| Session state change trigger (event-based trigger)For scripting development, see [**SessionStateChangeTrigger**](sessionstatechangetrigger.md).<br/> For C++ development, see [**ISessionStateChangeTrigger**](isessionstatechangetrigger.md).<br/> For XML development, see [**SessionStateChangeTrigger Element**](taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md).<br/> | Starts the task when a Terminal Server session changes state.                                                                                                                                |
+| Event trigger (event based trigger) For scripting development, see [**EventTrigger**](eventtrigger.md).<br/> For C++ development, see [**IEventTrigger**](/windows/win32/taskschd/nn-taskschd-ieventtrigger?branch=master).<br/> For XML development, see [**EventTrigger Element**](taskschedulerschema-eventtrigger-triggergroup-element.md).<br/>                                                                                             | Starts the task when a specific system event occurs.                                                                                                                                         |
+| Time trigger (time-based trigger)For scripting development, see [**TimeTrigger**](timetrigger.md).<br/> For C++ development, see [**ITimeTrigger**](/windows/win32/taskschd/nn-taskschd-itimetrigger?branch=master).<br/> For XML development, see [**TimeTrigger Element**](taskschedulerschema-timetrigger-triggergroup-element.md).<br/>                                                                                                      | Starts the task at a specific date and time.                                                                                                                                                 |
+| Daily trigger (time-based calendar trigger)For scripting development, see [**DailyTrigger**](dailytrigger.md).<br/> For C++ development, see [**IDailyTrigger**](/windows/win32/taskschd/nn-taskschd-idailytrigger?branch=master).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                                                                | Starts the task at a specific time on a daily schedule. For example, the task starts at 8:00 AM every day or every other day.                                                                |
+| Weekly trigger (time-based calendar trigger)For scripting development, see [**WeeklyTrigger**](weeklytrigger.md).<br/> For C++ development, see [**IWeeklyTrigger**](/windows/win32/taskschd/nn-taskschd-iweeklytrigger?branch=master).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                                                           | Starts the task at a specific time on a weekly schedule. For example, the task starts at 8:00 AM on a specific day of the week every week or on a specific day of the week every other week. |
+| Monthly trigger (time-based calendar trigger)For scripting development, see [**MonthlyTrigger**](monthlytrigger.md).<br/> For C++ development, see [**IMonthlyTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlytrigger?branch=master).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                                                      | Starts the task at a specific time on a monthly schedule. For example, the task starts at 8:00 AM on specific days of the month on specific months.                                          |
+| Monthly day-of-week (DOW) trigger (time-based calendar trigger)For scripting development, see [**MonthlyDOWTrigger**](monthlydowtrigger.md).<br/> For C++ development, see [**IMonthlyDOWTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlydowtrigger?branch=master).<br/> For XML development, see [**CalendarTrigger Element**](taskschedulerschema-calendartrigger-triggergroup-element.md).<br/>                                        | Starts the task at a specific time on a monthly day-of-week schedule. For example, the task starts at 8:00 AM on specific days of the week, weeks of the month, and months of the year.      |
+| Idle trigger (event-based trigger)For scripting development, see [**IdleTrigger**](idletrigger.md).<br/> For C++ development, see [**IIdleTrigger**](/windows/win32/taskschd/?branch=master).<br/> For XML development, see [**IdleTrigger Element**](taskschedulerschema-idletrigger-triggergroup-element.md).<br/>                                                                                                     | Starts the task when the computer enters an idle state.                                                                                                                                      |
+| Registration trigger (event-based trigger)For scripting development, see [**RegistrationTrigger**](registrationtrigger.md).<br/> For C++ development, see [**IRegistrationTrigger**](/windows/win32/taskschd/nn-taskschd-iregistrationtrigger?branch=master).<br/> For XML development, see [**RegistrationTrigger Element**](taskschedulerschema-registrationtrigger-triggergroup-element.md).<br/>                                             | Starts the task when the task is registered or updated.                                                                                                                                      |
+| Boot trigger (event-based trigger)For scripting development, see [**BootTrigger**](boottrigger.md).<br/> For C++ development, see [**IBootTrigger**](/windows/win32/taskschd/nn-taskschd-iboottrigger?branch=master).<br/> For XML development, see [**BootTrigger Element**](taskschedulerschema-boottrigger-triggergroup-element.md).<br/>                                                                                                     | Starts the task when the system is booted.                                                                                                                                                   |
+| Logon trigger (event-based trigger)For scripting development, see [**LogonTrigger**](logontrigger.md).<br/> For C++ development, see [**ILogonTrigger**](/windows/win32/taskschd/nn-taskschd-ilogontrigger?branch=master).<br/> For XML development, see [**LogonTrigger Element**](taskschedulerschema-logontrigger-triggergroup-element.md).<br/>                                                                                              | Starts the task when a user logs on.                                                                                                                                                         |
+| Session state change trigger (event-based trigger)For scripting development, see [**SessionStateChangeTrigger**](sessionstatechangetrigger.md).<br/> For C++ development, see [**ISessionStateChangeTrigger**](/windows/win32/taskschd/nn-taskschd-isessionstatechangetrigger?branch=master).<br/> For XML development, see [**SessionStateChangeTrigger Element**](taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md).<br/> | Starts the task when a Terminal Server session changes state.                                                                                                                                |
 
 
 
- 
+ 
 
 ## Task Scheduler 1.0 Triggers
 
-The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE**](task-trigger-type.md) enumeration. To implement any of the following triggers, see the [**TASK\_TRIGGER**](task-trigger.md) structure.
+The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE**](/windows/win32/Mstask/ne-mstask-_task_trigger_type?branch=master) enumeration. To implement any of the following triggers, see the [**TASK\_TRIGGER**](/windows/win32/Mstask/ns-mstask-_task_trigger?branch=master) structure.
 
 -   Once trigger: Starts the task a single time.
 -   Daily trigger: Starts the task on a daily interval.
@@ -57,9 +84,9 @@ The following trigger types are defined by the [**TASK\_TRIGGER\_TYPE**](task-tr
 [Trigger Structures](trigger-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

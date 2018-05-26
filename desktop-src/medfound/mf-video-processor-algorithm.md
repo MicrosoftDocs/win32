@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the algorithm used by the video processor.'
-ms.assetid: '68AA3D7A-787F-4F0A-A6C6-A1C7E5D99719'
-title: 'MF\_VIDEO\_PROCESSOR\_ALGORITHM attribute'
+---
+Description: Sets the algorithm used by the video processor.
+ms.assetid: 68AA3D7A-787F-4F0A-A6C6-A1C7E5D99719
+title: MF\_VIDEO\_PROCESSOR\_ALGORITHM attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_VIDEO\_PROCESSOR\_ALGORITHM attribute
@@ -36,10 +41,10 @@ The value of this attribute is an [**MF\_VIDEO\_PROCESSOR\_ALGORITHM\_TYPE**](mf
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetString**](imfattributes-getstring.md)
+[**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetString**](imfattributes-setstring.md)
+[**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master)
 </dt> </dl>
 
  

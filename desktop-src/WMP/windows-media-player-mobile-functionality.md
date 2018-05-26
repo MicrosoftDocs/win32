@@ -1,8 +1,17 @@
 ---
 title: Windows Media Player Mobile Functionality
 description: Windows Media Player Mobile Functionality
-ms.assetid: 'a698210b-1188-4161-bdb4-aa7dac3f0cbf'
-keywords: ["Windows Media Player Mobile,skins", "Windows Media Player Mobile skins,actions available", "Windows Media Player Mobile skins,functions available", "skins,Windows Media Player Mobile"]
+ms.assetid: a698210b-1188-4161-bdb4-aa7dac3f0cbf
+keywords:
+- Windows Media Player Mobile,skins
+- Windows Media Player Mobile skins,actions available
+- Windows Media Player Mobile skins,functions available
+- skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Mobile Functionality

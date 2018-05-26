@@ -1,15 +1,18 @@
 ---
-Description: 'Creates a new service.'
+Description: Creates a new service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e000b896-3b49-4650-b706-548592cfe721'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e000b896-3b49-4650-b706-548592cfe721
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Create method of the Win32\_BaseService class'
+title: Create method of the Win32\_BaseService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_BaseService class
@@ -23,18 +26,18 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in] string  Name,
-  [in] string  DisplayName,
-  [in] string  PathName,
-  [in] uint8   ServiceType,
-  [in] uint8   ErrorControl,
-  [in] string  StartMode,
-  [in] boolean DesktopInteract,
-  [in] string  StartName,
-  [in] string  StartPassword,
-  [in] string  LoadOrderGroup,
-  [in] string  LoadOrderGroupDependencies[],
-  [in] string  ServiceDependencies[]
+  [in] string  Name,
+  [in] string  DisplayName,
+  [in] string  PathName,
+  [in] uint8   ServiceType,
+  [in] uint8   ErrorControl,
+  [in] string  StartMode,
+  [in] boolean DesktopInteract,
+  [in] string  StartName,
+  [in] string  StartPassword,
+  [in] string  LoadOrderGroup,
+  [in] string  LoadOrderGroupDependencies[],
+  [in] string  ServiceDependencies[]
 );
 ```
 
@@ -523,7 +526,7 @@ The service is currently paused in the system.
 **Other**
 </dt> <dd>
 
-25–4294967295
+25 4294967295
 
 </dd> </dl>
 
@@ -533,8 +536,8 @@ The service is currently paused in the system.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -551,9 +554,9 @@ The service is currently paused in the system.
 [**Win32\_BaseService**](win32-baseservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

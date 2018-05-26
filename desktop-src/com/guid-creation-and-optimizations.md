@@ -1,12 +1,17 @@
 ---
 title: GUID Creation and Optimizations
 description: GUID Creation and Optimizations
-ms.assetid: '698322f2-db89-4553-90c6-4278e96716dc'
+ms.assetid: 698322f2-db89-4553-90c6-4278e96716dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUID Creation and Optimizations
 
-Because a CLSID, like an interface identifier (IID), is a GUID, no other class, no matter who writes it, has a duplicate CLSID. Server implementers generally obtain CLSIDs through the [**CoCreateGuid**](cocreateguid.md) function. This function is guaranteed to produce unique CLSIDs, so server implementers across the world can independently develop and deploy their software without fear of accidental collision with software written by others.
+Because a CLSID, like an interface identifier (IID), is a GUID, no other class, no matter who writes it, has a duplicate CLSID. Server implementers generally obtain CLSIDs through the [**CoCreateGuid**](/windows/win32/combaseapi/nf-combaseapi-cocreateguid?branch=master) function. This function is guaranteed to produce unique CLSIDs, so server implementers across the world can independently develop and deploy their software without fear of accidental collision with software written by others.
 
 Using unique CLSIDs avoids the possibility of name collisions among classes because CLSIDs are in no way connected to the names used in the underlying implementation. For example, two different vendors can write classes called "StackClass," but each would have a unique CLSID and therefore could not be confused.
 

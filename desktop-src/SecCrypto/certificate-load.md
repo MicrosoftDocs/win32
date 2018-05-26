@@ -1,7 +1,12 @@
-﻿---
-Description: 'Imports a certificate from a file.'
-ms.assetid: '62c3bf8e-2f52-4342-b3ee-744b032578bf'
-title: 'ICertificate2::Load method'
+---
+Description: Imports a certificate from a file.
+ms.assetid: 62c3bf8e-2f52-4342-b3ee-744b032578bf
+title: ICertificate2Load method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::Load method

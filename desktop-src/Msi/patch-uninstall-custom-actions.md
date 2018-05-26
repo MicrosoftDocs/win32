@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the Custom Action Patch Uninstall option to specify that the installer run the custom action only when a patch is uninstalled.'
-ms.assetid: 'c741aa40-ba4c-459e-936a-19c002620c30'
+Description: You can use the Custom Action Patch Uninstall option to specify that the installer run the custom action only when a patch is uninstalled.
+ms.assetid: c741aa40-ba4c-459e-936a-19c002620c30
 title: Patch Uninstall Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch Uninstall Custom Actions
@@ -18,7 +23,7 @@ To have a [custom action](custom-actions.md) run when a particular patch is unin
 
 Developers can use the [**MsiPatchRemovalList**](msipatchremovallist.md) property to author a Windows Installer package or patch that performs [custom actions](custom-actions.md) on the removal of a patch. The custom action can be authored into the original installation package, a patch that has already been applied to the package, or a patch that is not an [uninstallable patch](uninstallable-patches.md). The custom action can be conditionalized on the **MsiPatchRemovalList** property in the sequence tables. See [Using Properties in Conditional Statements](using-properties-in-conditional-statements.md) for more information about conditionalizing actions.
 
-The custom action can obtain the GUIDs of patches being removed from the value of the [**MsiPatchRemovalList**](msipatchremovallist.md) property. The custom action can determine whether the installation state of the patch is applied, obsolete, or superseded by calling the [**MsiGetPatchInfoEx**](msigetpatchinfoex.md) or the [**PatchProperty**](patch-patchproperty.md) property of the [Patch object](patch-object.md).
+The custom action can obtain the GUIDs of patches being removed from the value of the [**MsiPatchRemovalList**](msipatchremovallist.md) property. The custom action can determine whether the installation state of the patch is applied, obsolete, or superseded by calling the [**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) or the [**PatchProperty**](patch-patchproperty.md) property of the [Patch object](patch-object.md).
 
 If the custom action requires special metadata from the patch, the patch should contain a custom action that writes the metadata to a registry or file location when the patch is applied. The custom action in the original application or a patch that is always applied can obtain the information needed to remove the patch's changes.
 
@@ -43,13 +48,13 @@ Patches making changes that are difficult to undo correctly should not be marked
 [**MSIPATCHREMOVE**](msipatchremove.md)
 </dt> <dt>
 
-[**MsiEnumapplicationsEx**](msienumproductsex.md)
+[**MsiEnumapplicationsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master)
 </dt> <dt>
 
-[**MsiGetPatchInfoEx**](msigetpatchinfoex.md)
+[**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master)
 </dt> <dt>
 
-[**MsiRemovePatches**](msiremovepatches.md)
+[**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master)
 </dt> </dl>
 
  

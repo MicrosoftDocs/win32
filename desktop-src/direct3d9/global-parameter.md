@@ -1,7 +1,12 @@
 ---
-Description: 'Each DXSAS compliant effect must define, as a minimum, a single global effect parameter with the global semantic.'
-ms.assetid: '2112db8d-6a11-451d-a9d2-ac1b3cb2da95'
+Description: Each DXSAS compliant effect must define, as a minimum, a single global effect parameter with the global semantic.
+ms.assetid: 2112db8d-6a11-451d-a9d2-ac1b3cb2da95
 title: Global Parameter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Global Parameter

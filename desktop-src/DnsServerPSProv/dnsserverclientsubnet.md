@@ -2,13 +2,15 @@
 title: DnsServerClientSubnet class
 description: Represents a client subnet record on a DNS server.
 audience: developer
-ms.assetid: 'FB25F44C-6F4D-461A-B701-8B865D439E8A'
-ms.prod: 'windows-server-dev'
+ms.assetid: FB25F44C-6F4D-461A-B701-8B865D439E8A
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerClientSubnet class", "DnsServerClientSubnet class, described"]
+keywords:
+- DnsServerClientSubnet class
+- DnsServerClientSubnet class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerClientSubnet class
@@ -98,7 +103,7 @@ The name of the client subnet record.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The name of the client subnet record.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

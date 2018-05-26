@@ -1,7 +1,12 @@
 ---
 title: Visible Property
 description: Visible Property
-ms.assetid: '80137e16-4646-4251-b1c0-bca39ff7a233'
+ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Property
@@ -30,7 +35,7 @@ Returns or sets whether the [**Command**](https://msdn.microsoft.com/library/win
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -40,9 +45,9 @@ Set this property to **False** when you want to include voice input for your own
 
 The [**Visible**](visible-property.md) property setting of a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) object's parent [**Commands**](https://msdn.microsoft.com/library/windows/desktop/ms695971) collection does not affect the **Visible** property setting of the **Command**.
 
- 
+ 
 
- 
+ 
 
 
 

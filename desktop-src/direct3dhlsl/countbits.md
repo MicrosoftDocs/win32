@@ -1,14 +1,20 @@
 ---
 title: countbits function
 description: Counts the number of bits (per component) in the input integer.
-ms.assetid: 'c4fafbc8-e21c-48cb-b433-8241a989ec85'
-keywords: ["countbits function HLSL"]
+ms.assetid: c4fafbc8-e21c-48cb-b433-8241a989ec85
+keywords:
+- countbits function HLSL
 topic_type:
 - apiref
 api_name:
 - countbits
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # countbits function

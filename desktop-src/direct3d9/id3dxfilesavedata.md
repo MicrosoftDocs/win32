@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the ID3DXFileSaveData interface to add data objects as children of a .x file data node.'
-ms.assetid: 'ab5bdd9a-496a-4ae1-b93a-fe5856bd97d4'
+---
+Description: Applications use the methods of the ID3DXFileSaveData interface to add data objects as children of a .x file data node.
+ms.assetid: ab5bdd9a-496a-4ae1-b93a-fe5856bd97d4
 title: ID3DXFileSaveData interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileSaveData interface

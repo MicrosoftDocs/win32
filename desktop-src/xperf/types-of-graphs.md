@@ -1,8 +1,17 @@
 ---
 title: Types of Graphs
 description: Types of Graphs
-ms.assetid: '5d191970-cd68-4498-9597-3ccffa42b3d0'
-keywords: ["usage graphs", "histogram graphs", "lifetime graphs", "event graphs"]
+ms.assetid: 5d191970-cd68-4498-9597-3ccffa42b3d0
+keywords:
+- usage graphs
+- histogram graphs
+- lifetime graphs
+- event graphs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Graphs

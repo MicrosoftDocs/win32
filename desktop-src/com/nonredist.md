@@ -1,8 +1,14 @@
 ---
 title: NONREDIST
 description: Adds names to the list of files that should not be exported when COM+ applications are packaged for installation on other computers. Note that this is a subkey, not a value.
-ms.assetid: 'c50e20e4-1a25-4978-ab84-8f7b4b2f6069'
-keywords: ["NONREDIST registry value COM"]
+ms.assetid: c50e20e4-1a25-4978-ab84-8f7b4b2f6069
+keywords:
+- NONREDIST registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NONREDIST

@@ -2,13 +2,19 @@
 title: /align switch
 description: The /align switch is functionally the same as the MIDL /Zp option and is recognized by the MIDL compiler solely for backward compatibility with MkTypLib.
 ms.assetid: 7f303c49-a6b5-4e3c-95e5-5c49e338c766
-keywords: ["/align switch MIDL"]
+keywords:
+- /align switch MIDL
 topic_type:
 - apiref
 api_name:
 - /align
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /align switch

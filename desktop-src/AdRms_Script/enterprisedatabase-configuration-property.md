@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves information about the configuration database.'
+Description: Retrieves information about the configuration database.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'bb3531de-0689-45ce-860a-53258443fbcd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: bb3531de-0689-45ce-860a-53258443fbcd
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'EnterpriseDatabase.Configuration property'
+title: EnterpriseDatabase.Configuration property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnterpriseDatabase.Configuration property
@@ -99,7 +102,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -111,9 +114,9 @@ END FUNCTION
 [**EnterpriseDatabase**](enterprisedatabase-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

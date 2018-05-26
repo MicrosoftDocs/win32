@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the attributes of an IInkAnalysisRecognizer.'
-ms.assetid: 'df405aeb-fefd-4bba-9c02-c1865418f76a'
+---
+Description: Specifies the attributes of an IInkAnalysisRecognizer.
+ms.assetid: df405aeb-fefd-4bba-9c02-c1865418f76a
 title: RecognizerCapabilities enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecognizerCapabilities enumeration

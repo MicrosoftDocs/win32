@@ -1,13 +1,16 @@
 ---
-Description: 'Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so.'
+Description: Enumeration is the act of moving through a set of objects and possibly modifying each object as you do so.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fe7e3259-9a7c-4f73-af30-192bbbace1b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fe7e3259-9a7c-4f73-af30-192bbbace1b3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Enumerating WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating WMI
@@ -295,9 +298,9 @@ In addition to performing basic enumeration, you can set several flags and prope
 
 **To enumerate an object set in WMI**
 
-1.  Create an [**IEnumWbemClassObject**](ienumwbemclassobject.md) interface describing the set of objects you wish to enumerate.
+1.  Create an [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) interface describing the set of objects you wish to enumerate.
 
-    An [**IEnumWbemClassObject**](ienumwbemclassobject.md) object contains a list describing a set of WMI objects. You can use the **IEnumWbemClassObject** methods to enumerate forwards, skip objects, begin at the beginning, and copy the enumerator. The following table lists the methods use to create enumerators for different types of WMI objects.
+    An [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master) object contains a list describing a set of WMI objects. You can use the **IEnumWbemClassObject** methods to enumerate forwards, skip objects, begin at the beginning, and copy the enumerator. The following table lists the methods use to create enumerators for different types of WMI objects.
 
     
 
@@ -311,26 +314,26 @@ In addition to performing basic enumeration, you can set several flags and prope
     <tbody>
     <tr class="odd">
     <td>Class</td>
-    <td><dl>[<strong>IWbemServices::CreateClassEnum</strong>](iwbemservices-createclassenum.md)<br />
-    [<strong>IWbemServices::CreateClassEnumAsync</strong>](iwbemservices-createclassenumasync.md)<br />
+    <td><dl>[<strong>IWbemServices::CreateClassEnum</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createclassenum?branch=master)<br />
+    [<strong>IWbemServices::CreateClassEnumAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync?branch=master)<br />
     </dl></td>
     </tr>
     <tr class="even">
     <td>Instance</td>
-    <td><dl>[<strong>IWbemServices::CreateInstanceEnum</strong>](iwbemservices-createinstanceenum.md)<br />
-    [<strong>IWbemServices::CreateInstanceEnumAsync</strong>](iwbemservices-createinstanceenumasync.md)<br />
+    <td><dl>[<strong>IWbemServices::CreateInstanceEnum</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenum?branch=master)<br />
+    [<strong>IWbemServices::CreateInstanceEnumAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master)<br />
     </dl></td>
     </tr>
     <tr class="odd">
     <td>Query result</td>
-    <td><dl>[<strong>IWbemServices::ExecQuery</strong>](iwbemservices-execquery.md)<br />
-    [<strong>IWbemServices::ExecQueryAsync</strong>](iwbemservices-execqueryasync.md)<br />
+    <td><dl>[<strong>IWbemServices::ExecQuery</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execquery?branch=master)<br />
+    [<strong>IWbemServices::ExecQueryAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master)<br />
     </dl></td>
     </tr>
     <tr class="even">
     <td>Event notification</td>
-    <td><dl>[<strong>IWbemServices::ExecNotificationQuery</strong>](iwbemservices-execnotificationquery.md)<br />
-    [<strong>IWbemServices::ExecNotificationQueryAsync</strong>](iwbemservices-execnotificationqueryasync.md)<br />
+    <td><dl>[<strong>IWbemServices::ExecNotificationQuery</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master)<br />
+    [<strong>IWbemServices::ExecNotificationQueryAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master)<br />
     </dl></td>
     </tr>
     </tbody>
@@ -340,7 +343,7 @@ In addition to performing basic enumeration, you can set several flags and prope
 
      
 
-2.  Traverse through the returned enumeration using multiple calls to [**IEnumWbemClassObject::Next**](ienumwbemclassobject-next.md) or [**IEnumWbemClassObject::NextAsync**](ienumwbemclassobject-nextasync.md).
+2.  Traverse through the returned enumeration using multiple calls to [**IEnumWbemClassObject::Next**](/windows/win32/Wbemcli/nf-wbemcli-ienumwbemclassobject-next?branch=master) or [**IEnumWbemClassObject::NextAsync**](/windows/win32/Wbemcli/nf-wbemcli-ienumwbemclassobject-nextasync?branch=master).
 
 For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md).
 

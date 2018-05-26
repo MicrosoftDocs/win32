@@ -1,14 +1,20 @@
 ---
 title: runLevelType Simple Type
 description: Defines the possible values for the RunLevel (principalType) element.
-ms.assetid: 'd6b73dc5-97ac-4f94-99c1-c241a25cc252'
-keywords: ["runLevelType simple type Task Scheduler"]
+ms.assetid: d6b73dc5-97ac-4f94-99c1-c241a25cc252
+keywords:
+- runLevelType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - runLevelType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # runLevelType Simple Type
@@ -49,14 +55,14 @@ The **runLevelType** simple type defines the following values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

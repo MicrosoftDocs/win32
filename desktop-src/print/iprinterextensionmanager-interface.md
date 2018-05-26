@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrinterExtensionManager interface is retrieved by CoCreating the PrinterExtensionManager class.'
-ms.assetid: '918AE3F6-2AC4-42AD-9581-E87AD7E79BAD'
+---
+Description: The IPrinterExtensionManager interface is retrieved by CoCreating the PrinterExtensionManager class.
+ms.assetid: 918AE3F6-2AC4-42AD-9581-E87AD7E79BAD
 title: IPrinterExtensionManager interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionManager interface

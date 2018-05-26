@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMSHORTN2 describes a 2D vector for storing signed, normalized values as signed 16-bit integers, (type int16\_t).'
-ms.assetid: '78e718b4-8107-47e1-a7ed-529b3c7aa935'
+---
+Description: XMSHORTN2 describes a 2D vector for storing signed, normalized values as signed 16-bit integers, (type int16\_t).
+ms.assetid: 78e718b4-8107-47e1-a7ed-529b3c7aa935
 title: XMSHORTN2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMSHORTN2 Extensions
 
-[**XMSHORTN2**](xmshortn2.md) describes a 2D vector for storing signed, normalized values as signed 16-bit integers, (type `int16_t`).
+[**XMSHORTN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshortn2?branch=master) describes a 2D vector for storing signed, normalized values as signed 16-bit integers, (type `int16_t`).
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMSHORTN2 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMSHORTN2**](xmshortn2.md)
+[**XMSHORTN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshortn2?branch=master)
 </dt> </dl>
 
  

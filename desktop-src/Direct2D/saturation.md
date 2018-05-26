@@ -1,8 +1,14 @@
 ---
 title: Saturation effect
 description: Use this effect to alter the saturation of an image.
-ms.assetid: '03A374D9-BED4-49ED-B90E-21193909C8AB'
-keywords: ["saturation effect"]
+ms.assetid: 03A374D9-BED4-49ED-B90E-21193909C8AB
+keywords:
+- saturation effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saturation effect
@@ -30,7 +36,7 @@ The example here shows the input and output images of the saturation effect with
 
 
 
- 
+ 
 
 
 ```C++
@@ -66,7 +72,7 @@ This effect consumes and outputs premultiplied alpha images. The effect won't wo
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,25 +80,25 @@ This effect consumes and outputs premultiplied alpha images. The effect won't wo
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

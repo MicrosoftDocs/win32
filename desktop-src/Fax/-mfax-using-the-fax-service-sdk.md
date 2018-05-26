@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information on how to use the Microsoft Fax Service software development kit (SDK) to administer the fax service and to create fax service extensions.'
-ms.assetid: 'affa3176-3a17-48b6-b15b-ce82bd9a7200'
+Description: This section provides information on how to use the Microsoft Fax Service software development kit (SDK) to administer the fax service and to create fax service extensions.
+ms.assetid: affa3176-3a17-48b6-b15b-ce82bd9a7200
 title: Using the Fax Service SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fax Service SDK

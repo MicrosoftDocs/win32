@@ -1,7 +1,12 @@
 ---
 title: The Teredo Security Model
 description: The Teredo technology, when coupled with Windows Security Center and Windows Firewall, provides enhanced security to the end user.
-ms.assetid: 'ee81e5f1-e3e0-440e-a53f-2accced476bc'
+ms.assetid: ee81e5f1-e3e0-440e-a53f-2accced476bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Teredo Security Model

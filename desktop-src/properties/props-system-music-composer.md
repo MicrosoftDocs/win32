@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '60eda2b4-2631-41dc-94ee-181a69e9c5f4'
-title: 'System.Music.Composer'
+Description: .
+ms.assetid: 60eda2b4-2631-41dc-94ee-181a69e9c5f4
+title: System.Music.Composer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.Composer

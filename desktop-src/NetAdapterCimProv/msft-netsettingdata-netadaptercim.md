@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the superclass for setting data on a networking.'
-ms.assetid: '3c6a06d6-9384-4fd4-b185-6d40c540a632'
-title: 'MSFT\_NetSettingData class'
+Description: Represents the superclass for setting data on a networking.
+ms.assetid: 3c6a06d6-9384-4fd4-b185-6d40c540a632
+title: MSFT\_NetSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSettingData class
@@ -100,8 +105,8 @@ This property inherits from [**CIM\_SettingData**](https://msdn.microsoft.com/li
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -115,9 +120,9 @@ This property inherits from [**CIM\_SettingData**](https://msdn.microsoft.com/li
 [NetAdapterCim Provider Classes](network-adapter-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

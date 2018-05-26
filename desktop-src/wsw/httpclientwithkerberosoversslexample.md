@@ -1,8 +1,16 @@
 ---
 title: HttpClientWithKerberosOverSslExample
 description: This example shows a HTTP client that sends request-reply messages, with kerberos over SSL mixed-mode security.
-ms.assetid: '48b20c9b-38e7-472c-9606-b454850e14c1'
-keywords: ["HttpClientWithKerberosOverSslExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 48b20c9b-38e7-472c-9606-b454850e14c1
+keywords:
+- HttpClientWithKerberosOverSslExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpClientWithKerberosOverSslExample

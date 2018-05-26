@@ -1,7 +1,12 @@
 ---
 title: Pixel Shaders
 description: Pixel Shaders
-ms.assetid: 'd5a6a9a6-5866-4b20-8529-97ce807ec5b6'
+ms.assetid: d5a6a9a6-5866-4b20-8529-97ce807ec5b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixel Shaders

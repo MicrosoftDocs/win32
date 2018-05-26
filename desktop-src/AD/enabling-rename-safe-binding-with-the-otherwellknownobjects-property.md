@@ -4,11 +4,17 @@ description: Objects of the Container class have an otherWellKnownObjects attrib
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '54f7468b-03e5-46b9-8b43-e3571dccdceb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 54f7468b-03e5-46b9-8b43-e3571dccdceb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["otherWellKnownObjects property", "otherWellKnownObjects property, using for rename-safe binding", "Active Directory, using, binding, rename-safe binding"]
+keywords:
+- otherWellKnownObjects property
+- otherWellKnownObjects property, using for rename-safe binding
+- Active Directory, using, binding, rename-safe binding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enabling Rename-Safe Binding with the otherWellKnownObjects Property

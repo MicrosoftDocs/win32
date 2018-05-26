@@ -1,13 +1,16 @@
 ---
-Description: 'You can obtain or modify registry data by using the WMI StdRegProv class and its methods.'
+Description: You can obtain or modify registry data by using the WMI StdRegProv class and its methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7cba9dcb-741b-4118-9769-8830c6dc0752'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7cba9dcb-741b-4118-9769-8830c6dc0752
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Obtaining Registry Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining Registry Data

@@ -4,17 +4,21 @@ description: The documentLocation attribute type specifies the location of the d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e7d8e3d2-1238-4f34-9baa-abe41e007a23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e7d8e3d2-1238-4f34-9baa-abe41e007a23
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["documentLocation attribute AD Schema"]
+keywords:
+- documentLocation attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - documentLocation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # documentLocation attribute
@@ -38,11 +42,11 @@ The documentLocation attribute type specifies the location of the document origi
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +153,9 @@ The documentLocation attribute type specifies the location of the document origi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

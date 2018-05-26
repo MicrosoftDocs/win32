@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn burnPlaylist property
 description: The burnPlaylist property gets the current playlist to burn to the CD.
-ms.assetid: '973032de-7249-4ccd-9909-ccc888f4490f'
-keywords: ["burnPlaylist property Windows Media Player", "burnPlaylist property Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , burnPlaylist property"]
+ms.assetid: 973032de-7249-4ccd-9909-ccc888f4490f
+keywords:
+- burnPlaylist property Windows Media Player
+- burnPlaylist property Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , burnPlaylist property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::burnPlaylist property
@@ -73,9 +81,9 @@ The **WMPLib.IWMPPlaylist** interface of the playlist to burn.
 [**IWMPPlaylist Interface (VB and C#)**](iwmpplaylist--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

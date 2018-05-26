@@ -1,14 +1,19 @@
-﻿---
-Description: 'The SourceListForceResolution method clears the LastUsedSource property.'
-ms.assetid: '554bc321-51d8-4595-b79c-7975bad8c555'
-title: 'Product.SourceListForceResolution method'
+---
+Description: The SourceListForceResolution method clears the LastUsedSource property.
+ms.assetid: 554bc321-51d8-4595-b79c-7975bad8c555
+title: Product.SourceListForceResolution method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.SourceListForceResolution method
 
 The **SourceListForceResolution** method clears the LastUsedSource property. This forces the installer to search the source list for a valid product source the next time a source is required, such as when the installer performs an installation or a reinstallation, or when the path is required for a component set to run from the source.
 
-This method calls [**MsiSourceListForceResolution**](msisourcelistforceresolution.md).
+This method calls [**MsiSourceListForceResolution**](/windows/win32/Msi/nf-msi-msisourcelistforceresolutiona?branch=master).
 
 ## Syntax
 
@@ -46,7 +51,7 @@ This method does not return a value.
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListForceResolution**](msisourcelistforceresolution.md)
+[**MsiSourceListForceResolution**](/windows/win32/Msi/nf-msi-msisourcelistforceresolutiona?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

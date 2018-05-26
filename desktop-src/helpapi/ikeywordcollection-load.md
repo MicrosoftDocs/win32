@@ -1,8 +1,11 @@
 ---
 title: IKeywordCollection Load method
 description: Loads the keyword index from the provided filename
-ms.assetid: 'b6d80e0b-9b2a-42b1-b3ec-96cd7c9a2f1f'
-keywords: ["Load method HelpAPI", "Load method HelpAPI , IKeywordCollection interface", "IKeywordCollection interface HelpAPI , Load method"]
+ms.assetid: b6d80e0b-9b2a-42b1-b3ec-96cd7c9a2f1f
+keywords:
+- Load method HelpAPI
+- Load method HelpAPI , IKeywordCollection interface
+- IKeywordCollection interface HelpAPI , Load method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKeywordCollection::Load method
@@ -22,8 +30,8 @@ Loads the keyword index from the provided filename
 
 ```C++
 HRESULT Load(
-  [in] ICatalog *Catalog,
-  [in] BSTR     fileName
+  [in] ICatalog *Catalog,
+  [in] BSTR     fileName
 );
 ```
 
@@ -49,8 +57,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -62,9 +70,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IKeywordCollection**](ikeywordcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Duration (idleSettingsType) Element
 description: Specifies how long the computer must be in an idle state before the task is run.
-ms.assetid: '89584694-0685-44e2-b8b7-69e47ee28d5d'
-keywords: ["Duration element Task Scheduler"]
+ms.assetid: 89584694-0685-44e2-b8b7-69e47ee28d5d
+keywords:
+- Duration element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Duration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duration (idleSettingsType) Element
@@ -48,7 +54,7 @@ The element is defined by the [**idleSettingsType**](taskschedulerschema-idleset
 
 For script programming, this idle setting is specified using the [**IdleSettings.IdleDuration**](idlesettings-idleduration.md) property.
 
-For C++ programming, this idle setting is specified using the [**IIdleSettings::IdleDuration**](iidlesettings-idleduration.md) property.
+For C++ programming, this idle setting is specified using the [**IIdleSettings::IdleDuration**](/windows/win32/taskschd/nf-taskschd-iidlesettings-get_idleduration?branch=master) property.
 
 ## Examples
 
@@ -69,8 +75,8 @@ The following XML defines an idle setting that allows 5 minutes for the task to 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +90,9 @@ The following XML defines an idle setting that allows 5 minutes for the task to 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

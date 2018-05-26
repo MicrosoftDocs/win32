@@ -1,7 +1,12 @@
-﻿---
-Description: 'Validates a mesh.'
-ms.assetid: 'e5bec2f3-e914-4677-8114-77c71b8a586e'
+---
+Description: Validates a mesh.
+ms.assetid: e5bec2f3-e914-4677-8114-77c71b8a586e
 title: D3DXValidMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXValidMesh function

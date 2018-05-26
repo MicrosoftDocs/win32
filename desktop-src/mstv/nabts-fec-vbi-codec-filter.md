@@ -1,7 +1,12 @@
 ---
 title: NABTS/FEC VBI Codec Filter
 description: NABTS/FEC VBI Codec Filter
-ms.assetid: '34b57979-3aa6-42de-9ea0-8948e0947fe8'
+ms.assetid: 34b57979-3aa6-42de-9ea0-8948e0947fe8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NABTS/FEC VBI Codec Filter

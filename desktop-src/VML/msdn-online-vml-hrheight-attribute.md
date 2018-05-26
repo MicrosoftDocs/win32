@@ -1,7 +1,12 @@
 ---
 title: VML HRHeight Attribute
 description: VML HRHeight Attribute
-ms.assetid: '92e30245-a753-4b79-ae37-d1bd9cd6495b'
+ms.assetid: 92e30245-a753-4b79-ae37-d1bd9cd6495b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML HRHeight Attribute

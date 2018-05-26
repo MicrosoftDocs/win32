@@ -4,13 +4,15 @@ description: CollectionOfMSEs allows the grouping of CIM\_ManagedSystemElement o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b9b9dafb-4718-4bee-8dc2-bb28d0f0e708'
-ms.prod: 'windows-server-dev'
+ms.assetid: b9b9dafb-4718-4bee-8dc2-bb28d0f0e708
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_CollectionOfMSEs class", "CIM_CollectionOfMSEs class, described"]
+keywords:
+- CIM_CollectionOfMSEs class
+- CIM_CollectionOfMSEs class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CollectionOfMSEs class
@@ -109,17 +114,17 @@ A textual description of the current instance.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: About SNMP
 description: SNMP uses a distributed architecture consisting of managers and agents.
-ms.assetid: '55be55a8-1968-4373-a969-f7e03b75a824'
-keywords: ["SNMP, About"]
+ms.assetid: 55be55a8-1968-4373-a969-f7e03b75a824
+keywords:
+- SNMP, About
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About SNMP

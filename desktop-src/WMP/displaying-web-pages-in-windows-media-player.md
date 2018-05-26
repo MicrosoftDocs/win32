@@ -1,8 +1,25 @@
 ---
 title: Displaying Web Pages in Windows Media Player
 description: Displaying Web Pages in Windows Media Player
-ms.assetid: '73f6ea02-5855-4eb0-b064-cfb1abac37c3'
-keywords: ["Windows Media metafile playlists,displaying webpages in Windows Media Player", "playlists,displaying webpages", "metafile playlists,displaying webpages", "Windows Media metafile playlists,Web pages", "playlists,Web pages", "metafile playlists,Web pages", "displaying webpages", "Windows Media Player,displaying webpages", "Windows Media Player,Web pages", "Windows Media Player,HTMLView to display webpages", "HTMLView,displaying webpages", "HTMLView,Web pages"]
+ms.assetid: 73f6ea02-5855-4eb0-b064-cfb1abac37c3
+keywords:
+- Windows Media metafile playlists,displaying webpages in Windows Media Player
+- playlists,displaying webpages
+- metafile playlists,displaying webpages
+- Windows Media metafile playlists,Web pages
+- playlists,Web pages
+- metafile playlists,Web pages
+- displaying webpages
+- Windows Media Player,displaying webpages
+- Windows Media Player,Web pages
+- Windows Media Player,HTMLView to display webpages
+- HTMLView,displaying webpages
+- HTMLView,Web pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Web Pages in Windows Media Player

@@ -1,7 +1,12 @@
 ---
-Description: 'The Native Wifi application programming interface (API) functions have two purposes: to manage wireless network profiles and to manage wireless network connections.'
-ms.assetid: '9329dd6d-144c-418a-8caa-f724a6c2849c'
+Description: The Native Wifi application programming interface (API) functions have two purposes to manage wireless network profiles and to manage wireless network connections.
+ms.assetid: 9329dd6d-144c-418a-8caa-f724a6c2849c
 title: About Native Wifi
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Native Wifi

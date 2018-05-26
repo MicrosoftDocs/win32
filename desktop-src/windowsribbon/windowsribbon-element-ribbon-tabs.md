@@ -1,14 +1,20 @@
 ---
 title: Ribbon.Tabs property
 description: Represents a container for all core tabs in a Ribbon.
-ms.assetid: 'b43d0544-c110-4785-85d7-935842b8f03e'
-keywords: ["Ribbon.Tabs property Windows Ribbon"]
+ms.assetid: b43d0544-c110-4785-85d7-935842b8f03e
+keywords:
+- Ribbon.Tabs property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Ribbon.Tabs
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon.Tabs property
@@ -55,7 +61,7 @@ May occur one or more times for each [**Ribbon**](windowsribbon-element-ribbon.m
 
 ## Examples
 
-The following example demonstrates the basic markup for a **Ribbon.Tabs** element with a **Home** [**Tab**](windowsribbon-element-tab.md) declaration.
+The following example demonstrates the basic markup for a **Ribbon.Tabs** element with a **Home** [**Tab**](windowsribbon-element-tab.md) declaration.
 
 
 ```C++
@@ -110,8 +116,8 @@ The following example demonstrates the basic markup for a **Ribbon.Tabs** elemen
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -122,9 +128,9 @@ The following example demonstrates the basic markup for a **Ribbon.Tabs** elemen
 [**Ribbon.ContextualTabs**](windowsribbon-element-ribbon-contextualtabs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

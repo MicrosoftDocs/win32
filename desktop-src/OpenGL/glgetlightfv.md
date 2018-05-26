@@ -1,8 +1,9 @@
 ---
 title: glGetLightfv function
 description: The glGetLightfv and glGetLightiv functions return light source parameter values.
-ms.assetid: '81049726-426e-4f90-bb8e-e5d467870260'
-keywords: ["glGetLightfv function OpenGL"]
+ms.assetid: 81049726-426e-4f90-bb8e-e5d467870260
+keywords:
+- glGetLightfv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetLightfv function
@@ -22,9 +28,9 @@ The **glGetLightfv** and [**glGetLightiv**](glgetlightiv.md) functions return li
 
 ```C++
 void WINAPI glGetLightfv(
-   GLenum  light,
-   GLenum  pname,
-   GLfloat *params
+   GLenum  light,
+   GLenum  pname,
+   GLfloat *params
 );
 ```
 
@@ -37,7 +43,7 @@ void WINAPI glGetLightfv(
 *light* 
 </dt> <dd>
 
-A light source. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT *i* where 0 = *i* &lt; GL\_MAX\_LIGHTS.
+A light source. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT *i* where 0 = *i* &lt; GL\_MAX\_LIGHTS.
 
 </dd> <dt>
 
@@ -63,7 +69,7 @@ A light source parameter for *light*. The following symbolic names are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -82,7 +88,7 @@ This function does not return a value.
 
 The **glGetLight** function returns in *params* the value or values of a light source parameter. The *light* parameter names the light and is a symbolic name of the form GL\_LIGHT*i* for 0 = *i* &lt; GL\_MAX\_LIGHTS, where GL\_MAX\_LIGHTS is an implementation-dependent constant that is greater than or equal to eight. The *pname* parameter specifies one of ten light source parameters, again by symbolic name.
 
-It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
+It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
 
 If an error is generated, no change is made to the contents of *params*.
 
@@ -92,8 +98,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -113,9 +119,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glLight**](gllight-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

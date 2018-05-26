@@ -1,7 +1,12 @@
-﻿---
-Description: 'Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Horizontally.'
-ms.assetid: 'b0e06766-1bd4-4744-81f3-139b018aa72c'
-title: 'Shell.TileHorizontally method'
+---
+Description: Tiles all of the windows on the desktop horizontally. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Horizontally.
+ms.assetid: b0e06766-1bd4-4744-81f3-139b018aa72c
+title: Shell.TileHorizontally method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.TileHorizontally method

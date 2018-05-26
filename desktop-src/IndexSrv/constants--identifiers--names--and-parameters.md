@@ -1,7 +1,12 @@
 ---
 title: Constants, Identifiers, Names, and Parameters
 description: Constants, Identifiers, Names, and Parameters
-ms.assetid: '2fe47b7d-92ef-49d8-87d7-5e43beb8365f'
+ms.assetid: 2fe47b7d-92ef-49d8-87d7-5e43beb8365f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants, Identifiers, Names, and Parameters

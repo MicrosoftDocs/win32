@@ -1,14 +1,20 @@
 ---
 title: RunOnlyIfNetworkAvailable (settingsType) Element
 description: Specifies that the Task Scheduler will run the task only when a network is available.
-ms.assetid: 'b7b804d3-b31a-4d70-9ba5-805a285e278e'
-keywords: ["RunOnlyIfNetworkAvailable element Task Scheduler"]
+ms.assetid: b7b804d3-b31a-4d70-9ba5-805a285e278e
+keywords:
+- RunOnlyIfNetworkAvailable element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RunOnlyIfNetworkAvailable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunOnlyIfNetworkAvailable (settingsType) Element
@@ -37,7 +43,7 @@ The **RunOnlyIfNetworkAvailable** element is defined by the [**settingsType**](t
 
 ## Remarks
 
-For C++ development, see [**RunOnlyIfNetworkAvailable Property of ITaskSettings**](itasksettings-runonlyifnetworkavailable.md).
+For C++ development, see [**RunOnlyIfNetworkAvailable Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_runonlyifnetworkavailable?branch=master).
 
 For script development, see [**TaskSettings.RunOnlyIfNetworkAvailable**](tasksettings-runonlyifnetworkavailable.md).
 
@@ -60,8 +66,8 @@ The following XML defines a settings element that allows the task to start only 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -72,9 +78,9 @@ The following XML defines a settings element that allows the task to start only 
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

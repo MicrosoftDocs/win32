@@ -1,7 +1,12 @@
 ---
 title: Register with the Routing Table Manager
 description: The following sample code shows how to register a new entity with the routing table manager.
-ms.assetid: '320cc97f-2875-4d26-b2f4-5611a43d5839'
+ms.assetid: 320cc97f-2875-4d26-b2f4-5611a43d5839
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register with the Routing Table Manager

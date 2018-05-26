@@ -1,7 +1,12 @@
 ---
 Description: DVD Filter Graph Configuration
-ms.assetid: '0c68c456-2240-4090-b45c-bd098cfea645'
+ms.assetid: 0c68c456-2240-4090-b45c-bd098cfea645
 title: DVD Filter Graph Configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Filter Graph Configuration
@@ -32,7 +37,7 @@ In all these graphs, the DVD Navigator is the source filter; it performs several
 
 On the audio stream, the DVD Navigator connects downstream to an audio decoder, which connects to the [DirectSound Renderer Filter](directsound-renderer-filter.md), the default audio renderer. On the video and subpicture streams, the downstream filters are the third-party video decoder, and the Video Mixing Renderer (or the [Overlay Mixer](overlay-mixer-filter.md), and the [Video Renderer](video-renderer-filter.md) on downlevel applications). If your application will handle line 21 closed-captioned data, you must add the DirectShow Line 21 Decoder 2 filter to the graph. This involves a single method call; the filter will be connected automatically.
 
-Your application communicates with and controls the DVD Navigator through the custom interfaces that the DVD Navigator exposes: [**IDvdControl2**](idvdcontrol2.md)—the "set" methods—and [**IDvdInfo2**](idvdinfo2.md)—the "get" methods. It also must communicate with the filter graph manager (through [**IMediaControl**](imediacontrol.md)) to stop, start, and otherwise control the graph. You might also need to control other individual filters, such as the Overlay Mixer filter for switching between windowed and full-screen display. For more information, see [**IMixerPinConfig2**](imixerpinconfig2.md). The exact configuration of the graph will vary depending on what type of MPEG-2 decoder you have installed, whether you need to handle line 21 closed-captioned data, and other factors.
+Your application communicates with and controls the DVD Navigator through the custom interfaces that the DVD Navigator exposes: [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master)—the "set" methods—and [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master)—the "get" methods. It also must communicate with the filter graph manager (through [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master)) to stop, start, and otherwise control the graph. You might also need to control other individual filters, such as the Overlay Mixer filter for switching between windowed and full-screen display. For more information, see [**IMixerPinConfig2**](/windows/win32/Mpconfig/nn-mpconfig-imixerpinconfig2?branch=master). The exact configuration of the graph will vary depending on what type of MPEG-2 decoder you have installed, whether you need to handle line 21 closed-captioned data, and other factors.
 
 ## Related topics
 

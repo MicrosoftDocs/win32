@@ -1,6 +1,11 @@
 ---
-Description: 'Windows Vista introduces new storage scenarios and a new user profile namespace.'
+Description: Windows Vista introduces new storage scenarios and a new user profile namespace.
 title: Known Folders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Known Folders
@@ -10,7 +15,7 @@ Windows Vista introduces new storage scenarios and a new user profile namespace
 The Known Folder system provides these advantages:
 
 -   Independent software vendors (ISVs) can extend the set of Known Folder IDs with their own. They can define folders, give them IDs, and register them with the system. CSIDL values could not be extended.
--   All Known Folders on a system can be enumerated. No API provided this functionality for CSIDL values. See [**IKnownFolderManager::GetFolderIds**](iknownfoldermanager-getfolderids.md) for more information.
+-   All Known Folders on a system can be enumerated. No API provided this functionality for CSIDL values. See [**IKnownFolderManager::GetFolderIds**](/windows/win32/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-getfolderids?branch=master) for more information.
 -   A known folder added by an ISV can add custom properties that allow it to explain its purpose and intended use.
 -   Many known folders can be redirected to new locations, including network locations. Under the CSIDL system, only the **My Documents** folder could be redirected.
 -   Known folders can have custom handlers for use during creation or deletion.
@@ -31,9 +36,9 @@ The following reference pages explain the Win32 Known Folders functions, which c
 
 | New Function                                             | Replaces                                           | COM Equivalent                                            |
 |----------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------|
-| [**SHGetKnownFolderPath**](shgetknownfolderpath.md)     | [**SHGetFolderPath**](shgetfolderpath.md)         | [**IKnownFolder::GetPath**](iknownfolder-getpath.md)     |
-| [**SHGetKnownFolderIDList**](shgetknownfolderidlist.md) | [**SHGetFolderLocation**](shgetfolderlocation.md) | [**IKnownFolder::GetIDList**](iknownfolder-getidlist.md) |
-| [**SHSetKnownFolderPath**](shsetknownfolderpath.md)     | [**SHSetFolderPath**](shsetfolderpath.md)         | [**IKnownFolder::SetPath**](iknownfolder-setpath.md)     |
+| [**SHGetKnownFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetknownfolderpath?branch=master)     | [**SHGetFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderpatha?branch=master)         | [**IKnownFolder::GetPath**](/windows/win32/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath?branch=master)     |
+| [**SHGetKnownFolderIDList**](/windows/win32/shlobj_core/nf-shlobj_core-shgetknownfolderidlist?branch=master) | [**SHGetFolderLocation**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderlocation?branch=master) | [**IKnownFolder::GetIDList**](/windows/win32/shobjidl_core/nf-shobjidl_core-iknownfolder-getidlist?branch=master) |
+| [**SHSetKnownFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shsetknownfolderpath?branch=master)     | [**SHSetFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shsetfolderpatha?branch=master)         | [**IKnownFolder::SetPath**](/windows/win32/shobjidl_core/nf-shobjidl_core-iknownfolder-setpath?branch=master)     |
 
 
 
@@ -41,8 +46,8 @@ The following reference pages explain the Win32 Known Folders functions, which c
 
 The following reference pages explain the COM Known Folders APIs, which provide all of the functionality of the Win32 APIs listed above, plus add the ability to enumerate all Known Folders, access Known Folder properties, and extend the standard set of Known Folders.
 
--   [**IKnownFolder**](iknownfolder.md)
--   [**IKnownFolderManager**](iknownfoldermanager.md)
+-   [**IKnownFolder**](/windows/win32/shobjidl_core/nn-shobjidl_core-iknownfolder?branch=master)
+-   [**IKnownFolderManager**](/windows/win32/shobjidl_core/nn-shobjidl_core-iknownfoldermanager?branch=master)
 
 A C++ sample that demonstrates the Known Folder APIs is included in the Windows Software Development Kit (SDK). Once you have installed the Windows SDK on your computer, the sample can be found under %ProgramFiles%\\Microsoft SDKs\\Windows\\v6.0\\Samples\\WinUI\\Shell\\AppPlatform\\KnownFolders.
 

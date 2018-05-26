@@ -1,13 +1,16 @@
 ---
-Description: 'Describes the Common Information Model (CIM) date and time format used by WMI. This format is locale-independent so scripts using DATETIME can run in many time zones.'
+Description: Describes the Common Information Model (CIM) date and time format used by WMI. This format is locale-independent so scripts using DATETIME can run in many time zones.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'be239bf8-88a3-47bc-ae4f-49a5195e7a7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: be239bf8-88a3-47bc-ae4f-49a5195e7a7d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Date and Time Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Date and Time Format

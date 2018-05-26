@@ -1,8 +1,14 @@
 ---
 title: The type\_from\_xmit Function
 description: The stubs call the type\_from\_xmit function to convert data from its transmitted type to the type that is presented to the application.
-ms.assetid: '679a2738-a166-4e73-bca7-950f979ed97a'
-keywords: ["type_from_xmit"]
+ms.assetid: 679a2738-a166-4e73-bca7-950f979ed97a
+keywords:
+- type_from_xmit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The type\_from\_xmit Function

@@ -1,7 +1,12 @@
 ---
-Description: 'The Reset method sets the state of the event to nonsignaled.'
-ms.assetid: 'de7f2c33-118a-4531-a9f7-9b43f89e6fc0'
-title: 'CAMEvent.Reset method'
+Description: The Reset method sets the state of the event to nonsignaled.
+ms.assetid: de7f2c33-118a-4531-a9f7-9b43f89e6fc0
+title: CAMEvent.Reset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent.Reset method
@@ -43,9 +48,9 @@ This method does not return a value.
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

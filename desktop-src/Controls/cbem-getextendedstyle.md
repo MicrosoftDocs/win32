@@ -1,8 +1,9 @@
 ---
 title: CBEM\_GETEXTENDEDSTYLE message
 description: Gets the extended styles that are in use for a ComboBoxEx control.
-ms.assetid: '7c661d9c-fa9a-4284-9bb0-d54708cb6468'
-keywords: ["CBEM_GETEXTENDEDSTYLE message Windows Controls"]
+ms.assetid: 7c661d9c-fa9a-4284-9bb0-d54708cb6468
+keywords:
+- CBEM_GETEXTENDEDSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_GETEXTENDEDSTYLE message
@@ -37,15 +43,15 @@ Returns a DWORD value that contains the [ComboBoxEx control extended styles](com
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

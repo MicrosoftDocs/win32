@@ -1,6 +1,11 @@
-﻿---
-Description: 'Changes which monitor is used for docked toolbars on a multiple monitor system.'
-title: 'IMultiMonitorDockingSite::SetMonitor method'
+---
+Description: Changes which monitor is used for docked toolbars on a multiple monitor system.
+title: IMultiMonitorDockingSiteSetMonitor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMultiMonitorDockingSite::SetMonitor method
@@ -29,7 +34,7 @@ HRESULT SetMonitor(
 
 Type: **[**IUnknown**](com.iunknown)\***
 
-A pointer to the object implementing the [**IDockingWindow**](idockingwindow.md) interface for which the monitor is being altered.
+A pointer to the object implementing the [**IDockingWindow**](/windows/win32/shobjidl_core/nn-shobjidl_core-idockingwindow?branch=master) interface for which the monitor is being altered.
 
 </dd> <dt>
 

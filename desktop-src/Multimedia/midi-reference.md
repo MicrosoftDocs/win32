@@ -1,8 +1,25 @@
 ---
 title: MIDI Reference
 description: MIDI Reference
-ms.assetid: '6229a4a7-be42-4e2a-af9d-695c4759a4ef'
-keywords: ["Windows multimedia,Musical Instrument Digital Interface (MIDI)", "multimedia,Musical Instrument Digital Interface (MIDI)", "multimedia audio,Musical Instrument Digital Interface (MIDI)", "audio,Musical Instrument Digital Interface (MIDI)", "Windows multimedia,MIDI reference", "multimedia,MIDI reference", "multimedia audio,MIDI reference", "audio,MIDI reference", "Musical Instrument Digital Interface (MIDI),reference", "MIDI (Musical Instrument Digital Interface),reference", "reference for MIDI,about", "MIDI reference,about"]
+ms.assetid: 6229a4a7-be42-4e2a-af9d-695c4759a4ef
+keywords:
+- Windows multimedia,Musical Instrument Digital Interface (MIDI)
+- multimedia,Musical Instrument Digital Interface (MIDI)
+- multimedia audio,Musical Instrument Digital Interface (MIDI)
+- audio,Musical Instrument Digital Interface (MIDI)
+- Windows multimedia,MIDI reference
+- multimedia,MIDI reference
+- multimedia audio,MIDI reference
+- audio,MIDI reference
+- Musical Instrument Digital Interface (MIDI),reference
+- MIDI (Musical Instrument Digital Interface),reference
+- reference for MIDI,about
+- MIDI reference,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Reference
@@ -20,8 +37,8 @@ This section describes the functions, macros, messages, and structures associate
 
 ## Callback Functions
 
--   [**MidiInProc**](midiinproc.md)
--   [**MidiOutProc**](midioutproc.md)
+-   [**MidiInProc**](/windows/win32/Mmsystem/?branch=master)
+-   [**MidiOutProc**](/windows/win32/Mmsystem/?branch=master)
 
 ## Device Capabilities
 

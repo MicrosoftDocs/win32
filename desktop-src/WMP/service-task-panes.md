@@ -1,8 +1,22 @@
 ---
 title: Service Task Panes
 description: Service Task Panes
-ms.assetid: 'cb26a26d-a80d-4af5-9c5f-fab01129d83c'
-keywords: ["Windows Media Player online stores,service task panes", "online stores,service task panes", "type 2 online stores,service task panes", "Windows Media Player online stores,task panes", "online stores,task panes", "type 2 online stores,task panes", "Windows Media Player,service task panes", "Windows Media Player,task panes", "service task panes"]
+ms.assetid: cb26a26d-a80d-4af5-9c5f-fab01129d83c
+keywords:
+- Windows Media Player online stores,service task panes
+- online stores,service task panes
+- type 2 online stores,service task panes
+- Windows Media Player online stores,task panes
+- online stores,task panes
+- type 2 online stores,task panes
+- Windows Media Player,service task panes
+- Windows Media Player,task panes
+- service task panes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Task Panes

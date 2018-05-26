@@ -1,7 +1,12 @@
 ---
-Description: 'ICE22 uses the FeatureComponents table to validate the mapping of features and components referenced in the PublishComponent table.'
-ms.assetid: '1aa3e2e6-3f05-411e-829f-aeddbb53445d'
+Description: ICE22 uses the FeatureComponents table to validate the mapping of features and components referenced in the PublishComponent table.
+ms.assetid: 1aa3e2e6-3f05-411e-829f-aeddbb53445d
 title: ICE22
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE22

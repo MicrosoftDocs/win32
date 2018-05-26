@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.'
-ms.assetid: '1f0512e0-68b6-4b79-84bd-614babb4151d'
-title: 'ISCrdEnr::getCertTemplateSMIME method'
+---
+Description: Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
+ms.assetid: 1f0512e0-68b6-4b79-84bd-614babb4151d
+title: ISCrdEnrgetCertTemplateSMIME method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getCertTemplateSMIME method
@@ -97,7 +102,7 @@ The constant for szOID\_PKIX\_KP\_EMAIL\_PROTECTION is defined in Wincrypt.h.
 [**ISCrdEnr**](iscrdenr.md)
 </dt> <dt>
 
-[**ISCrdEnr::enroll**](iscrdenr-enroll.md)
+[**ISCrdEnr::enroll**](/windows/win32/certenroll/?branch=master)
 </dt> </dl>
 
  

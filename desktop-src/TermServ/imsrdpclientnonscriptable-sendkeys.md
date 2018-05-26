@@ -4,11 +4,22 @@ description: Sends a series of keystrokes to the control. The keystrokes are in 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1f07a9cc-4795-43cb-ac99-4bb70b8b544a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1f07a9cc-4795-43cb-ac99-4bb70b8b544a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SendKeys method Remote Desktop Services", "SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable interface", "IMsRdpClientNonScriptable interface Remote Desktop Services , SendKeys method", "SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable2 interface", "IMsRdpClientNonScriptable2 interface Remote Desktop Services , SendKeys method", "SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , SendKeys method", "SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , SendKeys method", "SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , SendKeys method"]
+keywords:
+- SendKeys method Remote Desktop Services
+- SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable interface
+- IMsRdpClientNonScriptable interface Remote Desktop Services , SendKeys method
+- SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable2 interface
+- IMsRdpClientNonScriptable2 interface Remote Desktop Services , SendKeys method
+- SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , SendKeys method
+- SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , SendKeys method
+- SendKeys method Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , SendKeys method
 topic_type:
 - apiref
 api_name:
@@ -21,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable::SendKeys method
@@ -32,9 +46,9 @@ Sends a series of keystrokes to the control. The keystrokes are in scan code for
 
 ```C++
 HRESULT SendKeys(
-  [in] LONG         numKeys,
-  [in] VARIANT_BOOL *pbArrayKeyUp,
-  [in] LONG         *plKeyData
+  [in] LONG         numKeys,
+  [in] VARIANT_BOOL *pbArrayKeyUp,
+  [in] LONG         *plKeyData
 );
 ```
 
@@ -83,8 +97,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>       |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable is defined as 2f079c4c-87b2-4afd-97ab-20cdb43038ae<br/> |
@@ -113,9 +127,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [WM\_KEYDOWN](http://go.microsoft.com/fwlink/p/?linkid=178142)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

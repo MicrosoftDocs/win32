@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the capture engine uses DirectX Video Acceleration (DXVA) for video decoding.'
-ms.assetid: '9F677E6E-0DCD-456F-8A00-1C11011BAA13'
-title: 'MF\_CAPTURE\_ENGINE\_DISABLE\_DXVA attribute'
+---
+Description: Specifies whether the capture engine uses DirectX Video Acceleration (DXVA) for video decoding.
+ms.assetid: 9F677E6E-0DCD-456F-8A00-1C11011BAA13
+title: MF\_CAPTURE\_ENGINE\_DISABLE\_DXVA attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_DISABLE\_DXVA attribute
@@ -48,7 +53,7 @@ The default value of this attribute is **FALSE**, meaning that DXVA decoding is 
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

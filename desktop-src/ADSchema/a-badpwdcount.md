@@ -4,17 +4,22 @@ description: The number of times the user tried to log on to the account using a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1161b0c1-1b28-4349-ad43-82ce68428c44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 1161b0c1-1b28-4349-ad43-82ce68428c44
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Bad-Pwd-Count attribute AD Schema", "badPwdCount attribute AD Schema"]
+keywords:
+- Bad-Pwd-Count attribute AD Schema
+- badPwdCount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Bad-Pwd-Count
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Bad-Pwd-Count attribute
@@ -38,13 +43,13 @@ The number of times the user tried to log on to the account using an incorrect p
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -199,9 +204,9 @@ This attribute is not replicated and is maintained separately on each domain con
 
 This attribute is reset on a specific domain controller when the user successfully logs onto that domain controller.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: MetricThreshold GetTestCaseKey method
 description: Returns the test case key of the MetricThreshold.
-ms.assetid: 'F20B3055-333D-4025-BC1F-423C67B9F97B'
-keywords: ["GetTestCaseKey method Access Execution Engine", "GetTestCaseKey method Access Execution Engine , MetricThreshold interface", "MetricThreshold interface Access Execution Engine , GetTestCaseKey method"]
+ms.assetid: F20B3055-333D-4025-BC1F-423C67B9F97B
+keywords:
+- GetTestCaseKey method Access Execution Engine
+- GetTestCaseKey method Access Execution Engine , MetricThreshold interface
+- MetricThreshold interface Access Execution Engine , GetTestCaseKey method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold::GetTestCaseKey method
@@ -22,7 +30,7 @@ Returns the test case key of the **MetricThreshold**.
 
 ```C++
 virtual HRESULT GetTestCaseKey(
-  [out] LPCWSTR *testCaseKey
+  [out] LPCWSTR *testCaseKey
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The test case key is the value of element **MetricThreshold/TestCaseKey**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The test case key is the value of element **MetricThreshold/TestCaseKey**.
 [**MetricThreshold**](metricthreshold-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

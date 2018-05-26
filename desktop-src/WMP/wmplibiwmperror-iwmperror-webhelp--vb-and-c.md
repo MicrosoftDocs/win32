@@ -1,8 +1,11 @@
 ---
 title: IWMPError webHelp method
 description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
-ms.assetid: '30fc765a-04b2-44e5-99d8-0b4720ccbb25'
-keywords: ["webHelp method Windows Media Player", "webHelp method Windows Media Player , IWMPError interface", "IWMPError interface Windows Media Player , webHelp method"]
+ms.assetid: 30fc765a-04b2-44e5-99d8-0b4720ccbb25
+keywords:
+- webHelp method Windows Media Player
+- webHelp method Windows Media Player , IWMPError interface
+- IWMPError interface Windows Media Player , webHelp method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPError::webHelp method
@@ -119,9 +127,9 @@ End Sub</code></pre></td>
 [**IWMPError Interface (VB and C#)**](iwmperror--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

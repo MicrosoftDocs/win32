@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes an attachment, created with NtGdiDdAttachSurface, between two kernel-mode surface objects.'
-ms.assetid: '28037b42-a00c-4063-93ee-5d71761a95d8'
+---
+Description: Removes an attachment, created with NtGdiDdAttachSurface, between two kernel-mode surface objects.
+ms.assetid: 28037b42-a00c-4063-93ee-5d71761a95d8
 title: NtGdiDdUnattachSurface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdUnattachSurface function

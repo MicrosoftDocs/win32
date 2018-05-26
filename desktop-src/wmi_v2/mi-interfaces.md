@@ -4,10 +4,13 @@ description: WMI provides the following interfaces.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9B9C2BEF-02E8-4C7D-96DB-236BF6F9B1F9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 9B9C2BEF-02E8-4C7D-96DB-236BF6F9B1F9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MI Interfaces
@@ -18,1890 +21,1890 @@ WMI provides the following interfaces.
 
 <dl> <dt>
 
-[**MI\_Application**](mi-application.md)
+[**MI\_Application**](/windows/previous-versions/Mi/ns-mi-_mi_application?branch=master)
 </dt> <dd>
 
 Represents the initialized infrastructure.
 
 </dd> <dt>
 
-[**MI\_Application\_Close**](mi-application-close.md)
+[**MI\_Application\_Close**](/windows/previous-versions/Mi/nf-mi-mi_application_close?branch=master)
 </dt> <dd>
 
-Deinitializes the management infrastructure client API that was initialized through a call to [**MI\_Application\_Initialize**](mi-application-initialize.md).
+Deinitializes the management infrastructure client API that was initialized through a call to [**MI\_Application\_Initialize**](/windows/previous-versions/Mi/nf-mi-mi_application_initializev1?branch=master).
 
 </dd> <dt>
 
-[**MI\_Application\_Initialize**](mi-application-initialize.md)
+[**MI\_Application\_Initialize**](/windows/previous-versions/Mi/nf-mi-mi_application_initializev1?branch=master)
 </dt> <dd>
 
 Initializes an application so that it can make Management Infrastructure (MI) client API calls.
 
 </dd> <dt>
 
-[**MI\_Application\_NewClass**](mi-application-newclass.md)
+[**MI\_Application\_NewClass**](/windows/previous-versions/mi/nf-mi-mi_application_newclass?branch=master)
 </dt> <dd>
 
-Creates an [**MI\_Class**](mi-class.md) from an [**MI\_ClassDecl**](mi-classdecl.md) structure.
+Creates an [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) from an [**MI\_ClassDecl**](/windows/previous-versions/Mi/ns-mi-_mi_classdecl?branch=master) structure.
 
 </dd> <dt>
 
-[**MI\_Application\_NewDeserializer**](mi-application-newdeserializer.md)
+[**MI\_Application\_NewDeserializer**](/windows/previous-versions/Mi/nf-mi-mi_application_newdeserializer?branch=master)
 </dt> <dd>
 
 Creates a deserializer object that can then be used to convert a serialized object back into a class or instance.
 
 </dd> <dt>
 
-[**MI\_Application\_NewDestinationOptions**](mi-application-newdestinationoptions.md)
+[**MI\_Application\_NewDestinationOptions**](/windows/previous-versions/Mi/nf-mi-mi_application_newdestinationoptions?branch=master)
 </dt> <dd>
 
-Creates an [**MI\_DestinationOptions**](mi-destinationoptions.md) object that can be used with the [**MI\_Application\_NewSession**](mi-application-newsession.md) function.
+Creates an [**MI\_DestinationOptions**](/windows/previous-versions/Mi/ns-mi-_mi_destinationoptions?branch=master) object that can be used with the [**MI\_Application\_NewSession**](/windows/previous-versions/Mi/nf-mi-mi_application_newsession?branch=master) function.
 
 </dd> <dt>
 
-[**MI\_Application\_NewHostedProvider**](mi-application-newhostedprovider.md)
+[**MI\_Application\_NewHostedProvider**](/windows/previous-versions/Mi/nf-mi-mi_application_newhostedprovider?branch=master)
 </dt> <dd>
 
 Registers a hosted provider with the WMI engine on the local machine.
 
 </dd> <dt>
 
-[**MI\_Application\_NewInstance**](mi-application-newinstance.md)
+[**MI\_Application\_NewInstance**](/windows/previous-versions/Mi/nf-mi-mi_application_newinstance?branch=master)
 </dt> <dd>
 
-Creates a new [**MI\_Instance**](mi-instance.md) object to be passed to various MI operation APIs that require instances.
+Creates a new [**MI\_Instance**](/windows/previous-versions/Mi/ns-mi-_mi_instance?branch=master) object to be passed to various MI operation APIs that require instances.
 
 </dd> <dt>
 
-[**MI\_Application\_NewInstanceFromClass**](mi-application-newinstancefromclass.md)
+[**MI\_Application\_NewInstanceFromClass**](/windows/previous-versions/Mi/nf-mi-mi_application_newinstancefromclass?branch=master)
 </dt> <dd>
 
-Creates a new [**MI\_Instance**](mi-instance.md) object based on a class object.
+Creates a new [**MI\_Instance**](/windows/previous-versions/Mi/ns-mi-_mi_instance?branch=master) object based on a class object.
 
 </dd> <dt>
 
-[**MI\_Application\_NewOperationOptions**](mi-application-newoperationoptions.md)
+[**MI\_Application\_NewOperationOptions**](/windows/previous-versions/Mi/nf-mi-mi_application_newoperationoptions?branch=master)
 </dt> <dd>
 
-Creates an [**MI\_OperationOptions**](mi-operationoptions.md) object that can be used with the operation functions on the [**MI\_Session**](mi-session.md) object.
+Creates an [**MI\_OperationOptions**](/windows/previous-versions/Mi/ns-mi-_mi_operationoptions?branch=master) object that can be used with the operation functions on the [**MI\_Session**](/windows/previous-versions/Mi/ns-mi-_mi_session?branch=master) object.
 
 </dd> <dt>
 
-[**MI\_Application\_NewParameterSet**](mi-application-newparameterset.md)
+[**MI\_Application\_NewParameterSet**](/windows/previous-versions/Mi/nf-mi-mi_application_newparameterset?branch=master)
 </dt> <dd>
 
 Creates a new parameter set.
 
 </dd> <dt>
 
-[**MI\_Application\_NewSerializer**](mi-application-newserializer.md)
+[**MI\_Application\_NewSerializer**](/windows/previous-versions/Mi/nf-mi-mi_application_newserializer?branch=master)
 </dt> <dd>
 
 Retrieves a serializer object that can then be used to serialize instances and classes into various different formats.
 
 </dd> <dt>
 
-[**MI\_Application\_NewSession**](mi-application-newsession.md)
+[**MI\_Application\_NewSession**](/windows/previous-versions/Mi/nf-mi-mi_application_newsession?branch=master)
 </dt> <dd>
 
 Creates a session used to share connections for a set of operations to a single destination.
 
 </dd> <dt>
 
-[**MI\_Application\_NewSubscriptionDeliveryOptions**](mi-application-newsubscriptiondeliveryoptions.md)
+[**MI\_Application\_NewSubscriptionDeliveryOptions**](/windows/previous-versions/Mi/nf-mi-mi_application_newsubscriptiondeliveryoptions?branch=master)
 </dt> <dd>
 
-Creates an [**MI\_SubscriptionDeliveryOptions**](mi-subscriptiondeliveryoptions.md) object that represents the configuration needed to carry out subscribe operations over certain protocols.
+Creates an [**MI\_SubscriptionDeliveryOptions**](/windows/previous-versions/Mi/ns-mi-_mi_subscriptiondeliveryoptions?branch=master) object that represents the configuration needed to carry out subscribe operations over certain protocols.
 
 </dd> <dt>
 
-[**MI\_CancelCallback**](mi-cancelcallback.md)
+[**MI\_CancelCallback**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Cancels an operation.
 
 </dd> <dt>
 
-[**MI\_Class**](mi-class.md)
+[**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master)
 </dt> <dd>
 
 Represents the schema of an instance.
 
 </dd> <dt>
 
-[**MI\_Class\_Clone**](mi-class-clone.md)
+[**MI\_Class\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_class_clone?branch=master)
 </dt> <dd>
 
-Clones an [**MI\_Class**](mi-class.md) object.
+Clones an [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) object.
 
 </dd> <dt>
 
-[**MI\_Class\_Delete**](mi-class-delete.md)
+[**MI\_Class\_Delete**](/windows/previous-versions/Mi/nf-mi-mi_class_delete?branch=master)
 </dt> <dd>
 
-Deletes an [**MI\_Class**](mi-class.md) object.
+Deletes an [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) object.
 
 </dd> <dt>
 
-[**MI\_Class\_GetClassName**](mi-class-getclassname.md)
+[**MI\_Class\_GetClassName**](/windows/previous-versions/Mi/nf-mi-mi_class_getclassname?branch=master)
 </dt> <dd>
 
 Gets the class name of the specified class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetClassQualifierSet**](mi-class-getclassqualifierset.md)
+[**MI\_Class\_GetClassQualifierSet**](/windows/previous-versions/Mi/nf-mi-mi_class_getclassqualifierset?branch=master)
 </dt> <dd>
 
 Gets the qualifier set that is associated with the specified class object.
 
 </dd> <dt>
 
-[**MI\_Class\_GetElement**](mi-class-getelement.md)
+[**MI\_Class\_GetElement**](/windows/previous-versions/Mi/nf-mi-mi_class_getelement?branch=master)
 </dt> <dd>
 
 Gets all details of a specified named element from a class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetElementAt**](mi-class-getelementat.md)
+[**MI\_Class\_GetElementAt**](/windows/previous-versions/Mi/nf-mi-mi_class_getelementat?branch=master)
 </dt> <dd>
 
 Gets details of a class element based on the element index.
 
 </dd> <dt>
 
-[**MI\_Class\_GetElementCount**](mi-class-getelementcount.md)
+[**MI\_Class\_GetElementCount**](/windows/previous-versions/Mi/nf-mi-mi_class_getelementcount?branch=master)
 </dt> <dd>
 
 Gets the number of elements in a class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetMethod**](mi-class-getmethod.md)
+[**MI\_Class\_GetMethod**](/windows/previous-versions/Mi/nf-mi-mi_class_getmethod?branch=master)
 </dt> <dd>
 
 Gets details of a method based on the method name.
 
 </dd> <dt>
 
-[**MI\_Class\_GetMethodAt**](mi-class-getmethodat.md)
+[**MI\_Class\_GetMethodAt**](/windows/previous-versions/Mi/nf-mi-mi_class_getmethodat?branch=master)
 </dt> <dd>
 
 Gets details of a method based on the method index.
 
 </dd> <dt>
 
-[**MI\_Class\_GetMethodCount**](mi-class-getmethodcount.md)
+[**MI\_Class\_GetMethodCount**](/windows/previous-versions/Mi/nf-mi-mi_class_getmethodcount?branch=master)
 </dt> <dd>
 
 Gets the number of methods in the class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetNameSpace**](mi-class-getnamespace.md)
+[**MI\_Class\_GetNameSpace**](/windows/previous-versions/Mi/nf-mi-mi_class_getnamespace?branch=master)
 </dt> <dd>
 
 Gets the namespace name of the specified class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetParentClass**](mi-class-getparentclass.md)
+[**MI\_Class\_GetParentClass**](/windows/previous-versions/Mi/nf-mi-mi_class_getparentclass?branch=master)
 </dt> <dd>
 
 Gets the parent class for the specified class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetParentClassName**](mi-class-getparentclassname.md)
+[**MI\_Class\_GetParentClassName**](/windows/previous-versions/Mi/nf-mi-mi_class_getparentclassname?branch=master)
 </dt> <dd>
 
 Gets the parent class name of the specified class.
 
 </dd> <dt>
 
-[**MI\_Class\_GetServerName**](mi-class-getservername.md)
+[**MI\_Class\_GetServerName**](/windows/previous-versions/Mi/nf-mi-mi_class_getservername?branch=master)
 </dt> <dd>
 
 Gets the name of the server from the specified class.
 
 </dd> <dt>
 
-[**MI\_Context\_Canceled**](mi-context-canceled.md)
+[**MI\_Context\_Canceled**](/windows/previous-versions/Mi/nf-mi-mi_context_canceled?branch=master)
 </dt> <dd>
 
-Determines whether the operation has been canceled. This function is reserved; instead, use the [**MI\_Context\_RegisterCancel**](mi-context-registercancel.md) function.
+Determines whether the operation has been canceled. This function is reserved; instead, use the [**MI\_Context\_RegisterCancel**](/windows/previous-versions/Mi/nf-mi-mi_context_registercancel?branch=master) function.
 
 </dd> <dt>
 
-[**MI\_Context\_ConstructInstance**](mi-context-constructinstance.md)
+[**MI\_Context\_ConstructInstance**](/windows/previous-versions/Mi/nf-mi-mi_context_constructinstance?branch=master)
 </dt> <dd>
 
 Initializes an MI class instance on the stack or as a member of a structure.
 
 </dd> <dt>
 
-[**MI\_Context\_ConstructParameters**](mi-context-constructparameters.md)
+[**MI\_Context\_ConstructParameters**](/windows/previous-versions/Mi/nf-mi-mi_context_constructparameters?branch=master)
 </dt> <dd>
 
 A provider calls this function to initialize a parameter's instance.
 
 </dd> <dt>
 
-[**MI\_Context\_GetCustomOption**](mi-context-getcustomoption.md)
+[**MI\_Context\_GetCustomOption**](/windows/previous-versions/Mi/nf-mi-mi_context_getcustomoption?branch=master)
 </dt> <dd>
 
 Retrieves an option set by the client.
 
 </dd> <dt>
 
-[**MI\_Context\_GetCustomOptionAt**](mi-context-getcustomoptionat.md)
+[**MI\_Context\_GetCustomOptionAt**](/windows/previous-versions/Mi/nf-mi-mi_context_getcustomoptionat?branch=master)
 </dt> <dd>
 
 Retrieves an option at a particular index that was set by the client.
 
 </dd> <dt>
 
-[**MI\_Context\_GetCustomOptionCount**](mi-context-getcustomoptioncount.md)
+[**MI\_Context\_GetCustomOptionCount**](/windows/previous-versions/Mi/nf-mi-mi_context_getcustomoptioncount?branch=master)
 </dt> <dd>
 
 Gets the number of custom options available to the provider.
 
 </dd> <dt>
 
-[**MI\_Context\_GetLocale**](mi-context-getlocale.md)
+[**MI\_Context\_GetLocale**](/windows/previous-versions/Mi/nf-mi-mi_context_getlocale?branch=master)
 </dt> <dd>
 
 Retrieves the requested locale information that the client specified for the operation.
 
 </dd> <dt>
 
-[**MI\_Context\_GetLocalSession**](mi-context-getlocalsession.md)
+[**MI\_Context\_GetLocalSession**](/windows/previous-versions/Mi/nf-mi-mi_context_getlocalsession?branch=master)
 </dt> <dd>
 
-Gets the local session ([**MI\_Session**](mi-session.md)) which allows the provider to perform CIM operations against the local server hosting the provider.
+Gets the local session ([**MI\_Session**](/windows/previous-versions/Mi/ns-mi-_mi_session?branch=master)) which allows the provider to perform CIM operations against the local server hosting the provider.
 
 </dd> <dt>
 
-[**MI\_Context\_GetNumberOption**](mi-context-getnumberoption.md)
+[**MI\_Context\_GetNumberOption**](/windows/previous-versions/Mi/nf-mi-mi_context_getnumberoption?branch=master)
 </dt> <dd>
 
 Gets the numeric option that the client sets, based on the operation name.
 
 </dd> <dt>
 
-[**MI\_Context\_GetStringOption**](mi-context-getstringoption.md)
+[**MI\_Context\_GetStringOption**](/windows/previous-versions/Mi/nf-mi-mi_context_getstringoption?branch=master)
 </dt> <dd>
 
 Gets the string option that the client sets, based on the operation name.
 
 </dd> <dt>
 
-[**MI\_Context\_NewDynamicInstance**](mi-context-newdynamicinstance.md)
+[**MI\_Context\_NewDynamicInstance**](/windows/previous-versions/Mi/nf-mi-mi_context_newdynamicinstance?branch=master)
 </dt> <dd>
 
 Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.
 
 </dd> <dt>
 
-[**MI\_Context\_NewInstance**](mi-context-newinstance.md)
+[**MI\_Context\_NewInstance**](/windows/previous-versions/Mi/nf-mi-mi_context_newinstance?branch=master)
 </dt> <dd>
 
 Creates a new instance of a class given a class declaration.
 
 </dd> <dt>
 
-[**MI\_Context\_NewParameters**](mi-context-newparameters.md)
+[**MI\_Context\_NewParameters**](/windows/previous-versions/Mi/nf-mi-mi_context_newparameters?branch=master)
 </dt> <dd>
 
 Creates a new instance of a method given a method declaration.
 
 </dd> <dt>
 
-[**MI\_Context\_PostCimError**](mi-context-postcimerror.md)
+[**MI\_Context\_PostCimError**](/windows/previous-versions/Mi/nf-mi-mi_context_postcimerror?branch=master)
 </dt> <dd>
 
 Posts a return code and an error message (in the form of a [**CIM\_Error**](https://msdn.microsoft.com/library/mt445938) object) to the server in response to a request.
 
 </dd> <dt>
 
-[**MI\_Context\_PostError**](mi-context-posterror.md)
+[**MI\_Context\_PostError**](/windows/previous-versions/Mi/nf-mi-mi_context_posterror?branch=master)
 </dt> <dd>
 
 Providers call this function to post a return code to the client in response to a request.
 
 </dd> <dt>
 
-[**MI\_Context\_PostIndication**](mi-context-postindication.md)
+[**MI\_Context\_PostIndication**](/windows/previous-versions/Mi/nf-mi-mi_context_postindication?branch=master)
 </dt> <dd>
 
 Posts an indication result to the server in response to a subscribe operation request.
 
 </dd> <dt>
 
-[**MI\_Context\_PostInstance**](mi-context-postinstance.md)
+[**MI\_Context\_PostInstance**](/windows/previous-versions/Mi/nf-mi-mi_context_postinstance?branch=master)
 </dt> <dd>
 
 Posts an instance back to the client (through the server) in response to a request.
 
 </dd> <dt>
 
-[**MI\_Context\_PostResult**](mi-context-postresult.md)
+[**MI\_Context\_PostResult**](/windows/previous-versions/Mi/nf-mi-mi_context_postresult?branch=master)
 </dt> <dd>
 
 Posts the final terminating result code back to the client (through the server) in response to a request.
 
 </dd> <dt>
 
-[**MI\_Context\_PromptUser**](mi-context-promptuser.md)
+[**MI\_Context\_PromptUser**](/windows/previous-versions/Mi/nf-mi-mi_context_promptuser?branch=master)
 </dt> <dd>
 
 Sends a prompt message to the client querying whether to continue the operation or cancel it.
 
 </dd> <dt>
 
-[**MI\_Context\_RefuseUnload**](mi-context-refuseunload.md)
+[**MI\_Context\_RefuseUnload**](/windows/previous-versions/Mi/nf-mi-mi_context_refuseunload?branch=master)
 </dt> <dd>
 
 Tells the provider infrastructure not to unload the provider.
 
 </dd> <dt>
 
-[**MI\_Context\_RegisterCancel**](mi-context-registercancel.md)
+[**MI\_Context\_RegisterCancel**](/windows/previous-versions/Mi/nf-mi-mi_context_registercancel?branch=master)
 </dt> <dd>
 
 Registers a callback that is invoked when the operation is canceled.
 
 </dd> <dt>
 
-[**MI\_Context\_RequestUnload**](mi-context-requestunload.md)
+[**MI\_Context\_RequestUnload**](/windows/previous-versions/Mi/nf-mi-mi_context_requestunload?branch=master)
 </dt> <dd>
 
 Requests to unload the module or the provider.
 
 </dd> <dt>
 
-[**MI\_Context\_SetStringOption**](mi-context-setstringoption.md)
+[**MI\_Context\_SetStringOption**](/windows/previous-versions/Mi/nf-mi-mi_context_setstringoption?branch=master)
 </dt> <dd>
 
 Sets a context-specific option.
 
 </dd> <dt>
 
-[**MI\_Context\_ShouldContinue**](mi-context-shouldcontinue.md)
+[**MI\_Context\_ShouldContinue**](/windows/previous-versions/Mi/nf-mi-mi_context_shouldcontinue?branch=master)
 </dt> <dd>
 
 Queries the client to determine if an operation should continue.
 
 </dd> <dt>
 
-[**MI\_Context\_ShouldProcess**](mi-context-shouldprocess.md)
+[**MI\_Context\_ShouldProcess**](/windows/previous-versions/Mi/nf-mi-mi_context_shouldprocess?branch=master)
 </dt> <dd>
 
 Queries the client to determine if an operation should continue.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteCimError**](mi-context-writecimerror.md)
+[**MI\_Context\_WriteCimError**](/windows/previous-versions/Mi/nf-mi-mi_context_writecimerror?branch=master)
 </dt> <dd>
 
 Sends a CIM (informative) error instance to the client.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteDebug**](mi-context-writedebug.md)
+[**MI\_Context\_WriteDebug**](/windows/previous-versions/Mi/nf-mi-mi_context_writedebug?branch=master)
 </dt> <dd>
 
 Sends a debug message to the client.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteError**](mi-context-writeerror.md)
+[**MI\_Context\_WriteError**](/windows/previous-versions/Mi/nf-mi-mi_context_writeerror?branch=master)
 </dt> <dd>
 
 Sends an error code and error message to the client.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteMessage**](mi-context-writemessage.md)
+[**MI\_Context\_WriteMessage**](/windows/previous-versions/Mi/nf-mi-mi_context_writemessage?branch=master)
 </dt> <dd>
 
 Sends an operational message to the client.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteProgress**](mi-context-writeprogress.md)
+[**MI\_Context\_WriteProgress**](/windows/previous-versions/Mi/nf-mi-mi_context_writeprogress?branch=master)
 </dt> <dd>
 
 Sends a progress message to the client.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteStreamParameter**](mi-context-writestreamparameter.md)
+[**MI\_Context\_WriteStreamParameter**](/windows/previous-versions/Mi/nf-mi-mi_context_writestreamparameter?branch=master)
 </dt> <dd>
 
 Sends streamed parameter data to the client for a method invocation.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteVerbose**](mi-context-writeverbose.md)
+[**MI\_Context\_WriteVerbose**](/windows/previous-versions/Mi/nf-mi-mi_context_writeverbose?branch=master)
 </dt> <dd>
 
 Writes a verbose message to the client.
 
 </dd> <dt>
 
-[**MI\_Context\_WriteWarning**](mi-context-writewarning.md)
+[**MI\_Context\_WriteWarning**](/windows/previous-versions/Mi/nf-mi-mi_context_writewarning?branch=master)
 </dt> <dd>
 
 Writes a warning message to the client.
 
 </dd> <dt>
 
-[**MI\_Deserializer\_Class\_GetClassName**](mi-deserializer-class-getclassname.md)
+[**MI\_Deserializer\_Class\_GetClassName**](/windows/previous-versions/Mi/nf-mi-mi_deserializer_class_getclassname?branch=master)
 </dt> <dd>
 
 Gets the class name from a serialized class buffer.
 
 </dd> <dt>
 
-[**MI\_Deserializer\_Class\_GetParentClassName**](mi-deserializer-class-getparentclassname.md)
+[**MI\_Deserializer\_Class\_GetParentClassName**](/windows/previous-versions/Mi/nf-mi-mi_deserializer_class_getparentclassname?branch=master)
 </dt> <dd>
 
 Gets the parent class name from a serialized class buffer.
 
 </dd> <dt>
 
-[*MI\_Deserializer\_ClassObjectNeeded*](mi-deserializer-classobjectneeded.md)
+[*MI\_Deserializer\_ClassObjectNeeded*](/windows/previous-versions/Mi/nc-mi-mi_deserializer_classobjectneeded?branch=master)
 </dt> <dd>
 
 Used to provide requested class object during deserialization.
 
 </dd> <dt>
 
-[**MI\_Deserializer\_Close**](mi-deserializer-close.md)
+[**MI\_Deserializer\_Close**](/windows/previous-versions/Mi/nf-mi-mi_deserializer_close?branch=master)
 </dt> <dd>
 
 Closes a deserializer object and deletes any associated memory that is held within the deserializer.
 
 </dd> <dt>
 
-[**MI\_Deserializer\_DeserializeClass**](mi-deserializer-deserializeclass.md)
+[**MI\_Deserializer\_DeserializeClass**](/windows/previous-versions/Mi/nf-mi-mi_deserializer_deserializeclass?branch=master)
 </dt> <dd>
 
-Deserializes a serialized buffer into an [**MI\_Class**](mi-class.md) object.
+Deserializes a serialized buffer into an [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) object.
 
 </dd> <dt>
 
-[**MI\_Deserializer\_DeserializeInstance**](mi-deserializer-deserializeinstance.md)
+[**MI\_Deserializer\_DeserializeInstance**](/windows/previous-versions/Mi/nf-mi-mi_deserializer_deserializeinstance?branch=master)
 </dt> <dd>
 
-Deserializes a serialized buffer into a [**MI\_Instance**](mi-instance.md) object.
+Deserializes a serialized buffer into a [**MI\_Instance**](/windows/previous-versions/Mi/ns-mi-_mi_instance?branch=master) object.
 
 </dd> <dt>
 
-[**MI\_Deserializer\_Instance\_GetClassName**](mi-deserializer-instance-getclassname.md)
+[**MI\_Deserializer\_Instance\_GetClassName**](/windows/previous-versions/Mi/nf-mi-mi_deserializer_instance_getclassname?branch=master)
 </dt> <dd>
 
 Gets the class name associated with the serialized instance.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_AddDestinationCredentials**](mi-destinationoptions-adddestinationcredentials.md)
+[**MI\_DestinationOptions\_AddDestinationCredentials**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_adddestinationcredentials?branch=master)
 </dt> <dd>
 
 Sets the credentials for talking to the destination.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_AddProxyCredentials**](mi-destinationoptions-addproxycredentials.md)
+[**MI\_DestinationOptions\_AddProxyCredentials**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_addproxycredentials?branch=master)
 </dt> <dd>
 
 Adds credentials to authenticate against a proxy.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_Clone**](mi-destinationoptions-clone.md)
+[**MI\_DestinationOptions\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_clone?branch=master)
 </dt> <dd>
 
-Creates a copy of a [**MI\_DestinationOptions**](mi-destinationoptions.md) structure.
+Creates a copy of a [**MI\_DestinationOptions**](/windows/previous-versions/Mi/ns-mi-_mi_destinationoptions?branch=master) structure.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_Delete**](mi-destinationoptions-delete.md)
+[**MI\_DestinationOptions\_Delete**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_delete?branch=master)
 </dt> <dd>
 
-Deletes the destination options structure created by using the [**MI\_Application\_NewDestinationOptions**](mi-application-newdestinationoptions.md) or [**MI\_DestinationOptions\_Clone**](mi-destinationoptions-clone.md) function.
+Deletes the destination options structure created by using the [**MI\_Application\_NewDestinationOptions**](/windows/previous-versions/Mi/nf-mi-mi_application_newdestinationoptions?branch=master) or [**MI\_DestinationOptions\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_clone?branch=master) function.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetCertCACheck**](mi-destinationoptions-getcertcacheck.md)
+[**MI\_DestinationOptions\_GetCertCACheck**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getcertcacheck?branch=master)
 </dt> <dd>
 
 Gets the server certificate CA check value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetCertCNCheck**](mi-destinationoptions-getcertcncheck.md)
+[**MI\_DestinationOptions\_GetCertCNCheck**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getcertcncheck?branch=master)
 </dt> <dd>
 
 Gets the server certificate CN check value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetCertRevocationCheck**](mi-destinationoptions-getcertrevocationcheck.md)
+[**MI\_DestinationOptions\_GetCertRevocationCheck**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getcertrevocationcheck?branch=master)
 </dt> <dd>
 
 Gets the server certificate's revocation check value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetCredentialsAt**](mi-destinationoptions-getcredentialsat.md)
+[**MI\_DestinationOptions\_GetCredentialsAt**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getcredentialsat?branch=master)
 </dt> <dd>
 
 Get the credentials at the specified index.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetCredentialsCount**](mi-destinationoptions-getcredentialscount.md)
+[**MI\_DestinationOptions\_GetCredentialsCount**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getcredentialscount?branch=master)
 </dt> <dd>
 
 Gets the number of previously added credentials.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetCredentialsPasswordAt**](mi-destinationoptions-getcredentialspasswordat.md)
+[**MI\_DestinationOptions\_GetCredentialsPasswordAt**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getcredentialspasswordat?branch=master)
 </dt> <dd>
 
 Gets a credentials password based on a specified index.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetDataLocale**](mi-destinationoptions-getdatalocale.md)
+[**MI\_DestinationOptions\_GetDataLocale**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getdatalocale?branch=master)
 </dt> <dd>
 
 Gets the data locale (as opposed to UI locale) set by the user.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetDestinationPort**](mi-destinationoptions-getdestinationport.md)
+[**MI\_DestinationOptions\_GetDestinationPort**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getdestinationport?branch=master)
 </dt> <dd>
 
 Gets the default port for transport.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetEncodePortInSPN**](mi-destinationoptions-getencodeportinspn.md)
+[**MI\_DestinationOptions\_GetEncodePortInSPN**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getencodeportinspn?branch=master)
 </dt> <dd>
 
 Gets the port's Service Principal Name encoding value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetHttpUrlPrefix**](mi-destinationoptions-gethttpurlprefix.md)
+[**MI\_DestinationOptions\_GetHttpUrlPrefix**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_gethttpurlprefix?branch=master)
 </dt> <dd>
 
 Gets the HTTP URL prefix.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetImpersonationType**](mi-destinationoptions-getimpersonationtype.md)
+[**MI\_DestinationOptions\_GetImpersonationType**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getimpersonationtype?branch=master)
 </dt> <dd>
 
 Gets the impersonation type.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetMaxEnvelopeSize**](mi-destinationoptions-getmaxenvelopesize.md)
+[**MI\_DestinationOptions\_GetMaxEnvelopeSize**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getmaxenvelopesize?branch=master)
 </dt> <dd>
 
 Gets the maximum size of the packet sent to a server or received by the client from the server.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetNumber**](mi-destinationoptions-getnumber.md)
+[**MI\_DestinationOptions\_GetNumber**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getnumber?branch=master)
 </dt> <dd>
 
 Gets a previously added custom number option.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetOption**](mi-destinationoptions-getoption.md)
+[**MI\_DestinationOptions\_GetOption**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getoption?branch=master)
 </dt> <dd>
 
 Gets a previously added option value based on the option name.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetOptionAt**](mi-destinationoptions-getoptionat.md)
+[**MI\_DestinationOptions\_GetOptionAt**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getoptionat?branch=master)
 </dt> <dd>
 
 Gets a previously added option value based on the specified index.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetOptionCount**](mi-destinationoptions-getoptioncount.md)
+[**MI\_DestinationOptions\_GetOptionCount**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getoptioncount?branch=master)
 </dt> <dd>
 
 Gets the number of options previously added.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetPacketEncoding**](mi-destinationoptions-getpacketencoding.md)
+[**MI\_DestinationOptions\_GetPacketEncoding**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getpacketencoding?branch=master)
 </dt> <dd>
 
 Gets the previously set packet encoding setting.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetPacketIntegrity**](mi-destinationoptions-getpacketintegrity.md)
+[**MI\_DestinationOptions\_GetPacketIntegrity**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getpacketintegrity?branch=master)
 </dt> <dd>
 
 Gets the packet integrity setting.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetPacketPrivacy**](mi-destinationoptions-getpacketprivacy.md)
+[**MI\_DestinationOptions\_GetPacketPrivacy**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getpacketprivacy?branch=master)
 </dt> <dd>
 
 Gets the packet privacy (encryption) setting.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetProxyType**](mi-destinationoptions-getproxytype.md)
+[**MI\_DestinationOptions\_GetProxyType**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getproxytype?branch=master)
 </dt> <dd>
 
 Gets the proxy type set by the user.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetString**](mi-destinationoptions-getstring.md)
+[**MI\_DestinationOptions\_GetString**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getstring?branch=master)
 </dt> <dd>
 
 Gets a previously added custom string option.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetTimeout**](mi-destinationoptions-gettimeout.md)
+[**MI\_DestinationOptions\_GetTimeout**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_gettimeout?branch=master)
 </dt> <dd>
 
 Gets the default options timeout value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetTransport**](mi-destinationoptions-gettransport.md)
+[**MI\_DestinationOptions\_GetTransport**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_gettransport?branch=master)
 </dt> <dd>
 
 Gets the transport setting that the client added.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_GetUILocale**](mi-destinationoptions-getuilocale.md)
+[**MI\_DestinationOptions\_GetUILocale**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_getuilocale?branch=master)
 </dt> <dd>
 
 Gets the user interface locale set by the user.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetCertCACheck**](mi-destinationoptions-setcertcacheck.md)
+[**MI\_DestinationOptions\_SetCertCACheck**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setcertcacheck?branch=master)
 </dt> <dd>
 
 Enables or disables the CA certificate check for an SSL transport.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetCertCNCheck**](mi-destinationoptions-setcertcncheck.md)
+[**MI\_DestinationOptions\_SetCertCNCheck**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setcertcncheck?branch=master)
 </dt> <dd>
 
 Enables or disables the certificate CN check when an SSL transport is used.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetCertRevocationCheck**](mi-destinationoptions-setcertrevocationcheck.md)
+[**MI\_DestinationOptions\_SetCertRevocationCheck**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setcertrevocationcheck?branch=master)
 </dt> <dd>
 
 Enables or disables the certificate revocation when communicating over SSL.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetDataLocale**](mi-destinationoptions-setdatalocale.md)
+[**MI\_DestinationOptions\_SetDataLocale**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setdatalocale?branch=master)
 </dt> <dd>
 
 Sets the default data locale to use for operations.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetDestinationPort**](mi-destinationoptions-setdestinationport.md)
+[**MI\_DestinationOptions\_SetDestinationPort**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setdestinationport?branch=master)
 </dt> <dd>
 
 Set the port to use to communicate to the destination.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetEncodePortInSPN**](mi-destinationoptions-setencodeportinspn.md)
+[**MI\_DestinationOptions\_SetEncodePortInSPN**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setencodeportinspn?branch=master)
 </dt> <dd>
 
 Enables or disables the encoding of the port number in the Service Principal Name when establishing a connection to a remote machine.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetHttpUrlPrefix**](mi-destinationoptions-sethttpurlprefix.md)
+[**MI\_DestinationOptions\_SetHttpUrlPrefix**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_sethttpurlprefix?branch=master)
 </dt> <dd>
 
 Set the default HTTP URL prefix for transports that go over HTTP and HTTPS.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetImpersonationType**](mi-destinationoptions-setimpersonationtype.md)
+[**MI\_DestinationOptions\_SetImpersonationType**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setimpersonationtype?branch=master)
 </dt> <dd>
 
 Sets the impersonation type.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetMaxEnvelopeSize**](mi-destinationoptions-setmaxenvelopesize.md)
+[**MI\_DestinationOptions\_SetMaxEnvelopeSize**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setmaxenvelopesize?branch=master)
 </dt> <dd>
 
 Sets the maximum packet size for transports.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetNumber**](mi-destinationoptions-setnumber.md)
+[**MI\_DestinationOptions\_SetNumber**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setnumber?branch=master)
 </dt> <dd>
 
 Sets a custom numeric option value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetPacketEncoding**](mi-destinationoptions-setpacketencoding.md)
+[**MI\_DestinationOptions\_SetPacketEncoding**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setpacketencoding?branch=master)
 </dt> <dd>
 
 Sets the encoding mechanism for certain protocol handles.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetPacketIntegrity**](mi-destinationoptions-setpacketintegrity.md)
+[**MI\_DestinationOptions\_SetPacketIntegrity**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setpacketintegrity?branch=master)
 </dt> <dd>
 
 Enables or disables packet integrity (signing) of a protocol connection.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetPacketPrivacy**](mi-destinationoptions-setpacketprivacy.md)
+[**MI\_DestinationOptions\_SetPacketPrivacy**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setpacketprivacy?branch=master)
 </dt> <dd>
 
 Enables or disables packet privacy (encryption).
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetProxyType**](mi-destinationoptions-setproxytype.md)
+[**MI\_DestinationOptions\_SetProxyType**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setproxytype?branch=master)
 </dt> <dd>
 
 Sets the type of proxy settings to use when communicating to a destination through a proxy.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetString**](mi-destinationoptions-setstring.md)
+[**MI\_DestinationOptions\_SetString**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setstring?branch=master)
 </dt> <dd>
 
 Sets a custom string option.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetTimeout**](mi-destinationoptions-settimeout.md)
+[**MI\_DestinationOptions\_SetTimeout**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_settimeout?branch=master)
 </dt> <dd>
 
 Sets the default options timeout value.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetTransport**](mi-destinationoptions-settransport.md)
+[**MI\_DestinationOptions\_SetTransport**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_settransport?branch=master)
 </dt> <dd>
 
 Sets the transport to be used to communicate with the destination machine.
 
 </dd> <dt>
 
-[**MI\_DestinationOptions\_SetUILocale**](mi-destinationoptions-setuilocale.md)
+[**MI\_DestinationOptions\_SetUILocale**](/windows/previous-versions/Mi/nf-mi-mi_destinationoptions_setuilocale?branch=master)
 </dt> <dd>
 
 Sets the default UI locale for operations.
 
 </dd> <dt>
 
-[**MI\_Filter\_Evaluate**](mi-filter-evaluate.md)
+[**MI\_Filter\_Evaluate**](/windows/previous-versions/Mi/nf-mi-mi_filter_evaluate?branch=master)
 </dt> <dd>
 
 The provider calls this function to evaluate an instance against a given filter.
 
 </dd> <dt>
 
-[**MI\_Filter\_GetExpression**](mi-filter-getexpression.md)
+[**MI\_Filter\_GetExpression**](/windows/previous-versions/Mi/nf-mi-mi_filter_getexpression?branch=master)
 </dt> <dd>
 
 Gets the filter language and expression.
 
 </dd> <dt>
 
-[**MI\_HostedProvider\_Close**](mi-hostedprovider-close.md)
+[**MI\_HostedProvider\_Close**](/windows/previous-versions/Mi/nf-mi-mi_hostedprovider_close?branch=master)
 </dt> <dd>
 
-Close a hosted provider handle that was returned from [**MI\_Application\_NewHostedProvider**](mi-application-newhostedprovider.md).
+Close a hosted provider handle that was returned from [**MI\_Application\_NewHostedProvider**](/windows/previous-versions/Mi/nf-mi-mi_application_newhostedprovider?branch=master).
 
 </dd> <dt>
 
-[**MI\_HostedProvider\_GetApplication**](mi-hostedprovider-getapplication.md)
+[**MI\_HostedProvider\_GetApplication**](/windows/previous-versions/Mi/nf-mi-mi_hostedprovider_getapplication?branch=master)
 </dt> <dd>
 
 Gets the top-level application handle from which the hosted provider handle was created.
 
 </dd> <dt>
 
-[**MI\_Instance\_AddElement**](mi-instance-addelement.md)
+[**MI\_Instance\_AddElement**](/windows/previous-versions/Mi/nf-mi-mi_instance_addelement?branch=master)
 </dt> <dd>
 
 Adds a new property to a dynamic instance (supported only by dynamic instances whose schema may be extended at run time).
 
 </dd> <dt>
 
-[**MI\_Instance\_ClearElement**](mi-instance-clearelement.md)
+[**MI\_Instance\_ClearElement**](/windows/previous-versions/Mi/nf-mi-mi_instance_clearelement?branch=master)
 </dt> <dd>
 
 Clears the value of the named element (CIM property) and sets it to **NULL**.
 
 </dd> <dt>
 
-[**MI\_Instance\_ClearElementAt**](mi-instance-clearelementat.md)
+[**MI\_Instance\_ClearElementAt**](/windows/previous-versions/Mi/nf-mi-mi_instance_clearelementat?branch=master)
 </dt> <dd>
 
 Clears the value of the element (CIM property) at the specified index and sets it to **NULL**.
 
 </dd> <dt>
 
-[**MI\_Instance\_Clone**](mi-instance-clone.md)
+[**MI\_Instance\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_instance_clone?branch=master)
 </dt> <dd>
 
 Creates a copy of the specified instance on the heap.
 
 </dd> <dt>
 
-[**MI\_Instance\_Delete**](mi-instance-delete.md)
+[**MI\_Instance\_Delete**](/windows/previous-versions/Mi/nf-mi-mi_instance_delete?branch=master)
 </dt> <dd>
 
 Deletes an instance that was created on the heap or cloned from another instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_Destruct**](mi-instance-destruct.md)
+[**MI\_Instance\_Destruct**](/windows/previous-versions/Mi/nf-mi-mi_instance_destruct?branch=master)
 </dt> <dd>
 
 Deletes an instance that was created on the stack or as a member of a structure.
 
 </dd> <dt>
 
-[**MI\_Instance\_GetClass**](mi-instance-getclass.md)
+[**MI\_Instance\_GetClass**](/windows/previous-versions/Mi/nf-mi-mi_instance_getclass?branch=master)
 </dt> <dd>
 
-Gets the [**MI\_Class**](mi-class.md) associated with an instance.
+Gets the [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) associated with an instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_GetClassName**](mi-instance-getclassname.md)
+[**MI\_Instance\_GetClassName**](/windows/previous-versions/Mi/nf-mi-mi_instance_getclassname?branch=master)
 </dt> <dd>
 
 Gets the class name of the specified instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_GetElement**](mi-instance-getelement.md)
+[**MI\_Instance\_GetElement**](/windows/previous-versions/Mi/nf-mi-mi_instance_getelement?branch=master)
 </dt> <dd>
 
 Gets the value of the named element (CIM property).
 
 </dd> <dt>
 
-[**MI\_Instance\_GetElementAt**](mi-instance-getelementat.md)
+[**MI\_Instance\_GetElementAt**](/windows/previous-versions/Mi/nf-mi-mi_instance_getelementat?branch=master)
 </dt> <dd>
 
 Gets the value of the element (CIM property) at the specified index.
 
 </dd> <dt>
 
-[**MI\_Instance\_GetElementCount**](mi-instance-getelementcount.md)
+[**MI\_Instance\_GetElementCount**](/windows/previous-versions/Mi/nf-mi-mi_instance_getelementcount?branch=master)
 </dt> <dd>
 
 Gets the number of elements in an instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_GetNameSpace**](mi-instance-getnamespace.md)
+[**MI\_Instance\_GetNameSpace**](/windows/previous-versions/Mi/nf-mi-mi_instance_getnamespace?branch=master)
 </dt> <dd>
 
 Gets the namespace name of the specified instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_GetServerName**](mi-instance-getservername.md)
+[**MI\_Instance\_GetServerName**](/windows/previous-versions/Mi/nf-mi-mi_instance_getservername?branch=master)
 </dt> <dd>
 
 Gets the server name from the specified instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_IsA**](mi-instance-isa.md)
+[**MI\_Instance\_IsA**](/windows/previous-versions/Mi/nf-mi-mi_instance_isa?branch=master)
 </dt> <dd>
 
 Determines if the instance *self* is an instance of the class given by *classDecl*.
 
 </dd> <dt>
 
-[**MI\_Instance\_Normalize**](mi-instance-normalize.md)
+[**MI\_Instance\_Normalize**](/windows/previous-versions/mi/nf-mi-mi_instance_normalize?branch=master)
 </dt> <dd>
 
-Parses an [**MI\_Instance\_ExFT**](mi-instanceexft.md) structure and then retrieves the [**MI\_InstanceFT**](mi-instanceft.md) function table.
+Parses an [**MI\_Instance\_ExFT**](/windows/previous-versions/mi/ns-mi-_mi_instanceexft?branch=master) structure and then retrieves the [**MI\_InstanceFT**](/windows/previous-versions/Mi/ns-mi-_mi_instanceft?branch=master) function table.
 
 </dd> <dt>
 
-[**MI\_Instance\_SetElement**](mi-instance-setelement.md)
+[**MI\_Instance\_SetElement**](/windows/previous-versions/Mi/nf-mi-mi_instance_setelement?branch=master)
 </dt> <dd>
 
 Set the value of the element with the given name in the given instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_SetElementAt**](mi-instance-setelementat.md)
+[**MI\_Instance\_SetElementAt**](/windows/previous-versions/Mi/nf-mi-mi_instance_setelementat?branch=master)
 </dt> <dd>
 
 Set the value of the element at the given index of an instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_SetNameSpace**](mi-instance-setnamespace.md)
+[**MI\_Instance\_SetNameSpace**](/windows/previous-versions/Mi/nf-mi-mi_instance_setnamespace?branch=master)
 </dt> <dd>
 
 Sets the namespace name of the specified instance.
 
 </dd> <dt>
 
-[**MI\_Instance\_SetServerName**](mi-instance-setservername.md)
+[**MI\_Instance\_SetServerName**](/windows/previous-versions/Mi/nf-mi-mi_instance_setservername?branch=master)
 </dt> <dd>
 
 Sets the server name of the specified instance.
 
 </dd> <dt>
 
-[**MI\_MethodDecl\_Invoke**](mi-methoddecl-invoke.md)
+[**MI\_MethodDecl\_Invoke**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
-Calls the provider implementation of a CIM method represented by a [**MI\_MethodDecl**](mi-methoddecl.md) structure.
+Calls the provider implementation of a CIM method represented by a [**MI\_MethodDecl**](/windows/previous-versions/Mi/ns-mi-_mi_methoddecl?branch=master) structure.
 
 </dd> <dt>
 
-[**MI\_Module\_Load**](mi-module-load.md)
+[**MI\_Module\_Load**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Loads the main provider module.
 
 </dd> <dt>
 
-[**MI\_Module\_Unload**](mi-module-unload.md)
+[**MI\_Module\_Unload**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Unloads the main provider module.
 
 </dd> <dt>
 
-[**MI\_Operation\_Cancel**](mi-operation-cancel.md)
+[**MI\_Operation\_Cancel**](/windows/previous-versions/Mi/nf-mi-mi_operation_cancel?branch=master)
 </dt> <dd>
 
 Cancels a running operation.
 
 </dd> <dt>
 
-[**MI\_Operation\_Close**](mi-operation-close.md)
+[**MI\_Operation\_Close**](/windows/previous-versions/Mi/nf-mi-mi_operation_close?branch=master)
 </dt> <dd>
 
 Closes an operation handle.
 
 </dd> <dt>
 
-[**MI\_Operation\_GetClass**](mi-operation-getclass.md)
+[**MI\_Operation\_GetClass**](/windows/previous-versions/Mi/nf-mi-mi_operation_getclass?branch=master)
 </dt> <dd>
 
 Gets a synchronous result for a class operation.
 
 </dd> <dt>
 
-[**MI\_Operation\_GetIndication**](mi-operation-getindication.md)
+[**MI\_Operation\_GetIndication**](/windows/previous-versions/Mi/nf-mi-mi_operation_getindication?branch=master)
 </dt> <dd>
 
 Get the synchronous results from a subscription.
 
 </dd> <dt>
 
-[**MI\_Operation\_GetInstance**](mi-operation-getinstance.md)
+[**MI\_Operation\_GetInstance**](/windows/previous-versions/Mi/nf-mi-mi_operation_getinstance?branch=master)
 </dt> <dd>
 
 Gets a synchronous result for an instance operation.
 
 </dd> <dt>
 
-[**MI\_Operation\_GetSession**](mi-operation-getsession.md)
+[**MI\_Operation\_GetSession**](/windows/previous-versions/Mi/nf-mi-mi_operation_getsession?branch=master)
 </dt> <dd>
 
 Gets the session associated with an operation.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_Class**](mi-operationcallback-class.md)
+[**MI\_OperationCallback\_Class**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional instance callback to get classes and class options from an operation.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_Indication**](mi-operationcallback-indication.md)
+[**MI\_OperationCallback\_Indication**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional instance callback to get indication (subscribe) results from an operation.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_Instance**](mi-operationcallback-instance.md)
+[**MI\_OperationCallback\_Instance**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional instance callback to get asynchronous results from an operation.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_PromptUser**](mi-operationcallback-promptuser.md)
+[**MI\_OperationCallback\_PromptUser**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional callback to handle prompt user requests from the server.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_StreamedParameter**](mi-operationcallback-streamedparameter.md)
+[**MI\_OperationCallback\_StreamedParameter**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional callback to get streamed parameter results from method invocation operations.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_WriteError**](mi-operationcallback-writeerror.md)
+[**MI\_OperationCallback\_WriteError**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional callback to receive write error messages from the server.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_WriteMessage**](mi-operationcallback-writemessage.md)
+[**MI\_OperationCallback\_WriteMessage**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional callback to receive write messages from the server.
 
 </dd> <dt>
 
-[**MI\_OperationCallback\_WriteProgress**](mi-operationcallback-writeprogress.md)
+[**MI\_OperationCallback\_WriteProgress**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Optional callback to receive progress reports from the server.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_Clone**](mi-operationoptions-clone.md)
+[**MI\_OperationOptions\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_clone?branch=master)
 </dt> <dd>
 
-Creates a copy of a [**MI\_OperationOptions**](mi-operationoptions.md) structure.
+Creates a copy of a [**MI\_OperationOptions**](/windows/previous-versions/Mi/ns-mi-_mi_operationoptions?branch=master) structure.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_Delete**](mi-operationoptions-delete.md)
+[**MI\_OperationOptions\_Delete**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_delete?branch=master)
 </dt> <dd>
 
 Deletes an option set and its associated memory.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_DisableChannel**](mi-operationoptions-disablechannel.md)
+[**MI\_OperationOptions\_DisableChannel**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_disablechannel?branch=master)
 </dt> <dd>
 
-Uses [**MI\_Context\_WriteMessage**](mi-context-writemessage.md) to disable logging to the specified channel.
+Uses [**MI\_Context\_WriteMessage**](/windows/previous-versions/Mi/nf-mi-mi_context_writemessage?branch=master) to disable logging to the specified channel.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_EnableChannel**](mi-operationoptions-enablechannel.md)
+[**MI\_OperationOptions\_EnableChannel**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_enablechannel?branch=master)
 </dt> <dd>
 
-Uses [**MI\_Context\_WriteMessage**](mi-context-writemessage.md) to enable logging to the specified channel.
+Uses [**MI\_Context\_WriteMessage**](/windows/previous-versions/Mi/nf-mi-mi_context_writemessage?branch=master) to enable logging to the specified channel.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetEnabledChannels**](mi-operationoptions-getenabledchannels.md)
+[**MI\_OperationOptions\_GetEnabledChannels**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getenabledchannels?branch=master)
 </dt> <dd>
 
 Gets the list of previously enabled channels.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetNumber**](mi-operationoptions-getnumber.md)
+[**MI\_OperationOptions\_GetNumber**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getnumber?branch=master)
 </dt> <dd>
 
 Gets a previously added custom number option.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetOption**](mi-operationoptions-getoption.md)
+[**MI\_OperationOptions\_GetOption**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getoption?branch=master)
 </dt> <dd>
 
 Gets a previously added option value based on the option name.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetOptionAt**](mi-operationoptions-getoptionat.md)
+[**MI\_OperationOptions\_GetOptionAt**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getoptionat?branch=master)
 </dt> <dd>
 
 Gets a previously added option value based on the specified index.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetOptionCount**](mi-operationoptions-getoptioncount.md)
+[**MI\_OperationOptions\_GetOptionCount**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getoptioncount?branch=master)
 </dt> <dd>
 
 Gets the number of options previously added.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetPromptUserMode**](mi-operationoptions-getpromptusermode.md)
+[**MI\_OperationOptions\_GetPromptUserMode**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getpromptusermode?branch=master)
 </dt> <dd>
 
-Gets the value that tells the server how to respond to a provider's call to [**MI\_Context\_PromptUser**](mi-context-promptuser.md).
+Gets the value that tells the server how to respond to a provider's call to [**MI\_Context\_PromptUser**](/windows/previous-versions/Mi/nf-mi-mi_context_promptuser?branch=master).
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetPromptUserRegularMode**](mi-operationoptions-getpromptuserregularmode.md)
+[**MI\_OperationOptions\_GetPromptUserRegularMode**](/windows/previous-versions/mi/nf-mi-mi_operationoptions_getpromptuserregularmode?branch=master)
 </dt> <dd>
 
-Gets the value that tells the server how to respond to a provider's call to [**MI\_Context\_PromptUser**](mi-context-promptuser.md).
+Gets the value that tells the server how to respond to a provider's call to [**MI\_Context\_PromptUser**](/windows/previous-versions/Mi/nf-mi-mi_context_promptuser?branch=master).
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetProviderArchitecture**](mi-operationoptions-getproviderarchitecture.md)
+[**MI\_OperationOptions\_GetProviderArchitecture**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getproviderarchitecture?branch=master)
 </dt> <dd>
 
 Gets the provider architecture for an operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetResourceUri**](mi-operationoptions-getresourceuri.md)
+[**MI\_OperationOptions\_GetResourceUri**](/windows/previous-versions/mi/nf-mi-mi_operationoptions_getresourceuri?branch=master)
 </dt> <dd>
 
 Gets the resource URI being used for an operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetResourceUriPrefix**](mi-operationoptions-getresourceuriprefix.md)
+[**MI\_OperationOptions\_GetResourceUriPrefix**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getresourceuriprefix?branch=master)
 </dt> <dd>
 
 Gets the resource URI prefix being used for an operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetString**](mi-operationoptions-getstring.md)
+[**MI\_OperationOptions\_GetString**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getstring?branch=master)
 </dt> <dd>
 
 Gets a custom string option.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetTimeout**](mi-operationoptions-gettimeout.md)
+[**MI\_OperationOptions\_GetTimeout**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_gettimeout?branch=master)
 </dt> <dd>
 
 Gets the operation timeout value.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetUseMachineID**](mi-operationoptions-getusemachineid.md)
+[**MI\_OperationOptions\_GetUseMachineID**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getusemachineid?branch=master)
 </dt> <dd>
 
 Gets the value that indicates whether to use machine identification information in the operation request.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_GetWriteErrorMode**](mi-operationoptions-getwriteerrormode.md)
+[**MI\_OperationOptions\_GetWriteErrorMode**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_getwriteerrormode?branch=master)
 </dt> <dd>
 
 Sets the error reporting mode.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetCustomOption**](mi-operationoptions-setcustomoption.md)
+[**MI\_OperationOptions\_SetCustomOption**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setcustomoption?branch=master)
 </dt> <dd>
 
 Sets a custom option for the operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetNumber**](mi-operationoptions-setnumber.md)
+[**MI\_OperationOptions\_SetNumber**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setnumber?branch=master)
 </dt> <dd>
 
 Sets a custom number option value.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetPromptUserMode**](mi-operationoptions-setpromptusermode.md)
+[**MI\_OperationOptions\_SetPromptUserMode**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setpromptusermode?branch=master)
 </dt> <dd>
 
-Sets the value that tells the server how to respond to a provider's call to the [**MI\_Context\_PromptUser**](mi-context-promptuser.md) function.
+Sets the value that tells the server how to respond to a provider's call to the [**MI\_Context\_PromptUser**](/windows/previous-versions/Mi/nf-mi-mi_context_promptuser?branch=master) function.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetPromptUserRegularMode**](mi-operationoptions-setpromptuserregularmode.md)
+[**MI\_OperationOptions\_SetPromptUserRegularMode**](/windows/previous-versions/mi/nf-mi-mi_operationoptions_setpromptuserregularmode?branch=master)
 </dt> <dd>
 
-Sets the value that tells the server how to respond to a provider's call to the [**MI\_Context\_PromptUser**](mi-context-promptuser.md) function.
+Sets the value that tells the server how to respond to a provider's call to the [**MI\_Context\_PromptUser**](/windows/previous-versions/Mi/nf-mi-mi_context_promptuser?branch=master) function.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetProviderArchitecture**](mi-operationoptions-setproviderarchitecture.md)
+[**MI\_OperationOptions\_SetProviderArchitecture**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setproviderarchitecture?branch=master)
 </dt> <dd>
 
 Sets the provider architecture for an operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetResourceUri**](mi-operationoptions-setresourceuri.md)
+[**MI\_OperationOptions\_SetResourceUri**](/windows/previous-versions/mi/nf-mi-mi_operationoptions_setresourceuri?branch=master)
 </dt> <dd>
 
 Sets the resource URI to use for an operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetResourceUriPrefix**](mi-operationoptions-setresourceuriprefix.md)
+[**MI\_OperationOptions\_SetResourceUriPrefix**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setresourceuriprefix?branch=master)
 </dt> <dd>
 
 Sets the resource URI prefix to use for an operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetString**](mi-operationoptions-setstring.md)
+[**MI\_OperationOptions\_SetString**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setstring?branch=master)
 </dt> <dd>
 
 Sets a custom string option.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetTimeout**](mi-operationoptions-settimeout.md)
+[**MI\_OperationOptions\_SetTimeout**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_settimeout?branch=master)
 </dt> <dd>
 
 Sets the operation timeout for a specific operation.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetUseMachineID**](mi-operationoptions-setusemachineid.md)
+[**MI\_OperationOptions\_SetUseMachineID**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setusemachineid?branch=master)
 </dt> <dd>
 
 Enables or disables the sending of machine identification information in the operation request.
 
 </dd> <dt>
 
-[**MI\_OperationOptions\_SetWriteErrorMode**](mi-operationoptions-setwriteerrormode.md)
+[**MI\_OperationOptions\_SetWriteErrorMode**](/windows/previous-versions/Mi/nf-mi-mi_operationoptions_setwriteerrormode?branch=master)
 </dt> <dd>
 
 Sets the error reporting mode.
 
 </dd> <dt>
 
-[**MI\_ParameterSet\_GetMethodReturnType**](mi-parameterset-getmethodreturntype.md)
+[**MI\_ParameterSet\_GetMethodReturnType**](/windows/previous-versions/Mi/nf-mi-mi_parameterset_getmethodreturntype?branch=master)
 </dt> <dd>
 
 Gets the method return type and qualifier set for a specified parameter set.
 
 </dd> <dt>
 
-[**MI\_ParameterSet\_GetParameter**](mi-parameterset-getparameter.md)
+[**MI\_ParameterSet\_GetParameter**](/windows/previous-versions/Mi/nf-mi-mi_parameterset_getparameter?branch=master)
 </dt> <dd>
 
 Gets a method's parameter information based on a parameter name.
 
 </dd> <dt>
 
-[**MI\_ParameterSet\_GetParameterAt**](mi-parameterset-getparameterat.md)
+[**MI\_ParameterSet\_GetParameterAt**](/windows/previous-versions/Mi/nf-mi-mi_parameterset_getparameterat?branch=master)
 </dt> <dd>
 
 Gets a method's parameter information at the specified index.
 
 </dd> <dt>
 
-[**MI\_ParameterSet\_GetParameterCount**](mi-parameterset-getparametercount.md)
+[**MI\_ParameterSet\_GetParameterCount**](/windows/previous-versions/Mi/nf-mi-mi_parameterset_getparametercount?branch=master)
 </dt> <dd>
 
 Gets the number of parameters in a method's parameter set.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_AddElement**](mi-propertyset-addelement.md)
+[**MI\_PropertySet\_AddElement**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_addelement?branch=master)
 </dt> <dd>
 
 Adds a name to the property list.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_Clear**](mi-propertyset-clear.md)
+[**MI\_PropertySet\_Clear**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_clear?branch=master)
 </dt> <dd>
 
 Removes all names from the property list. Afterwards, the count is zero. This allows property lists to be reused (without having to be destructed and reconstructed).
 
 </dd> <dt>
 
-[**MI\_PropertySet\_Clone**](mi-propertyset-clone.md)
+[**MI\_PropertySet\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_clone?branch=master)
 </dt> <dd>
 
 Creates a copy of the specified property set on the heap.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_ContainsElement**](mi-propertyset-containselement.md)
+[**MI\_PropertySet\_ContainsElement**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_containselement?branch=master)
 </dt> <dd>
 
 Determines whether the property list contains the specified property name.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_Delete**](mi-propertyset-delete.md)
+[**MI\_PropertySet\_Delete**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_delete?branch=master)
 </dt> <dd>
 
 Deletes the specified property list that was constructed on the heap.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_Destruct**](mi-propertyset-destruct.md)
+[**MI\_PropertySet\_Destruct**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_destruct?branch=master)
 </dt> <dd>
 
 Deletes the specified property list that was constructed on the stack.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_GetElementAt**](mi-propertyset-getelementat.md)
+[**MI\_PropertySet\_GetElementAt**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_getelementat?branch=master)
 </dt> <dd>
 
 Gets the element of a property set at the specified index.
 
 </dd> <dt>
 
-[**MI\_PropertySet\_GetElementCount**](mi-propertyset-getelementcount.md)
+[**MI\_PropertySet\_GetElementCount**](/windows/previous-versions/Mi/nf-mi-mi_propertyset_getelementcount?branch=master)
 </dt> <dd>
 
 Gets the number of elements in the specified property set.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_AssociatorInstances**](mi-providerft-associatorinstances.md)
+[**MI\_ProviderFT\_AssociatorInstances**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Finds all CIM instances associated with a specified CIM instance.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_CreateInstance**](mi-providerft-createinstance.md)
+[**MI\_ProviderFT\_CreateInstance**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Create a single CIM instance in the target namespace.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_DeleteInstance**](mi-providerft-deleteinstance.md)
+[**MI\_ProviderFT\_DeleteInstance**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Delete a single CIM instance from the target namespace.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_DisableIndications**](mi-providerft-disableindications.md)
+[**MI\_ProviderFT\_DisableIndications**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Disable indications delivery from the provider.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_EnableIndications**](mi-providerft-enableindications.md)
+[**MI\_ProviderFT\_EnableIndications**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Enable indications delivery from the provider.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_EnumerateInstances**](mi-providerft-enumerateinstances.md)
+[**MI\_ProviderFT\_EnumerateInstances**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Enumerate instances of a CIM class in the target namespace.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_GetInstance**](mi-providerft-getinstance.md)
+[**MI\_ProviderFT\_GetInstance**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Get a single CIM instance from the provider.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_Invoke**](mi-providerft-invoke.md)
+[**MI\_ProviderFT\_Invoke**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Calls a CIM extrinsic method on behalf of a requestor.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_Load**](mi-providerft-load.md)
+[**MI\_ProviderFT\_Load**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Initialize the provider.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_ModifyInstance**](mi-providerft-modifyinstance.md)
+[**MI\_ProviderFT\_ModifyInstance**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Modify an existing CIM instance in the target namespace. The instance must already exist.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_ReferenceInstances**](mi-providerft-referenceinstances.md)
+[**MI\_ProviderFT\_ReferenceInstances**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Enumerate association instances that refer to a particular CIM instance.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_Subscribe**](mi-providerft-subscribe.md)
+[**MI\_ProviderFT\_Subscribe**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 Subscribe to indications.
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_Unload**](mi-providerft-unload.md)
+[**MI\_ProviderFT\_Unload**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 TBD
 
 </dd> <dt>
 
-[**MI\_ProviderFT\_Unsubscribe**](mi-providerft-unsubscribe.md)
+[**MI\_ProviderFT\_Unsubscribe**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
 unsubscribe from indications.
 
 </dd> <dt>
 
-[**MI\_QualifierSet\_GetQualifier**](mi-qualifierset-getqualifier.md)
+[**MI\_QualifierSet\_GetQualifier**](/windows/previous-versions/Mi/nf-mi-mi_qualifierset_getqualifier?branch=master)
 </dt> <dd>
 
 Gets the qualifier information based on the given qualifier name.
 
 </dd> <dt>
 
-[**MI\_QualifierSet\_GetQualifierAt**](mi-qualifierset-getqualifierat.md)
+[**MI\_QualifierSet\_GetQualifierAt**](/windows/previous-versions/Mi/nf-mi-mi_qualifierset_getqualifierat?branch=master)
 </dt> <dd>
 
 Gets a qualifier at the specified index.
 
 </dd> <dt>
 
-[**MI\_QualifierSet\_GetQualifierCount**](mi-qualifierset-getqualifiercount.md)
+[**MI\_QualifierSet\_GetQualifierCount**](/windows/previous-versions/Mi/nf-mi-mi_qualifierset_getqualifiercount?branch=master)
 </dt> <dd>
 
 Gets the number of qualifiers in a qualifier set.
 
 </dd> <dt>
 
-[**MI\_Serializer\_Close**](mi-serializer-close.md)
+[**MI\_Serializer\_Close**](/windows/previous-versions/Mi/nf-mi-mi_serializer_close?branch=master)
 </dt> <dd>
 
 Closes a serializer object and frees any internal memory associated with it.
 
 </dd> <dt>
 
-[**MI\_Serializer\_SerializeClass**](mi-serializer-serializeclass.md)
+[**MI\_Serializer\_SerializeClass**](/windows/previous-versions/Mi/nf-mi-mi_serializer_serializeclass?branch=master)
 </dt> <dd>
 
-Serializes an [**MI\_Class**](mi-class.md) into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
+Serializes an [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
 
 </dd> <dt>
 
-[**MI\_Serializer\_SerializeInstance**](mi-serializer-serializeinstance.md)
+[**MI\_Serializer\_SerializeInstance**](/windows/previous-versions/Mi/nf-mi-mi_serializer_serializeinstance?branch=master)
 </dt> <dd>
 
-Serializes an [**MI\_Instance**](mi-instance.md) into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
+Serializes an [**MI\_Instance**](/windows/previous-versions/Mi/ns-mi-_mi_instance?branch=master) into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
 
 </dd> <dt>
 
-[*MI\_Server\_GetSystemName*](mi-server-getsystemname.md)
+[*MI\_Server\_GetSystemName*](/windows/previous-versions/Mi/nf-mi-mi_server_getsystemname?branch=master)
 </dt> <dd>
 
 Gets the system name for the server.
 
 </dd> <dt>
 
-[*MI\_Server\_GetVersion*](mi-server-getversion.md)
+[*MI\_Server\_GetVersion*](/windows/previous-versions/Mi/nf-mi-mi_server_getversion?branch=master)
 </dt> <dd>
 
 Gets the value of the MI\_VERSION macro used when generating the provider.
 
 </dd> <dt>
 
-[**MI\_Session\_AssociatorInstances**](mi-session-associatorinstances.md)
+[**MI\_Session\_AssociatorInstances**](/windows/previous-versions/Mi/nf-mi-mi_session_associatorinstances?branch=master)
 </dt> <dd>
 
 Finds instances that are associated with the specific key instance.
 
 </dd> <dt>
 
-[**MI\_Session\_Close**](mi-session-close.md)
+[**MI\_Session\_Close**](/windows/previous-versions/Mi/nf-mi-mi_session_close?branch=master)
 </dt> <dd>
 
 Closes a session and releases all associated memory.
 
 </dd> <dt>
 
-[**MI\_Session\_CreateInstance**](mi-session-createinstance.md)
+[**MI\_Session\_CreateInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_createinstance?branch=master)
 </dt> <dd>
 
 Creates an instance on the server that the session represents.
 
 </dd> <dt>
 
-[**MI\_Session\_DeleteInstance**](mi-session-deleteinstance.md)
+[**MI\_Session\_DeleteInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_deleteinstance?branch=master)
 </dt> <dd>
 
 Deletes an instance on the server represented by the session.
 
 </dd> <dt>
 
-[**MI\_Session\_EnumerateClasses**](mi-session-enumerateclasses.md)
+[**MI\_Session\_EnumerateClasses**](/windows/previous-versions/Mi/nf-mi-mi_session_enumerateclasses?branch=master)
 </dt> <dd>
 
 Enumerates the classes of a specified session.
 
 </dd> <dt>
 
-[**MI\_Session\_EnumerateInstances**](mi-session-enumerateinstances.md)
+[**MI\_Session\_EnumerateInstances**](/windows/previous-versions/Mi/nf-mi-mi_session_enumerateinstances?branch=master)
 </dt> <dd>
 
 Enumerate all instances (on the server represented by the session) that are associated with a class.
 
 </dd> <dt>
 
-[**MI\_Session\_GetApplication**](mi-session-getapplication.md)
+[**MI\_Session\_GetApplication**](/windows/previous-versions/Mi/nf-mi-mi_session_getapplication?branch=master)
 </dt> <dd>
 
 Gets the application handle that was used to create the specified session.
 
 </dd> <dt>
 
-[**MI\_Session\_GetClass**](mi-session-getclass.md)
+[**MI\_Session\_GetClass**](/windows/previous-versions/Mi/nf-mi-mi_session_getclass?branch=master)
 </dt> <dd>
 
-Gets an [**MI\_Class**](mi-class.md) declaration based on a specific class name.
+Gets an [**MI\_Class**](/windows/previous-versions/Mi/ns-mi-_mi_class?branch=master) declaration based on a specific class name.
 
 </dd> <dt>
 
-[**MI\_Session\_GetInstance**](mi-session-getinstance.md)
+[**MI\_Session\_GetInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_getinstance?branch=master)
 </dt> <dd>
 
 Gets the specified instance from the server represented by the session.
 
 </dd> <dt>
 
-[**MI\_Session\_Invoke**](mi-session-invoke.md)
+[**MI\_Session\_Invoke**](/windows/previous-versions/Mi/nf-mi-mi_session_invoke?branch=master)
 </dt> <dd>
 
 Invokes a method in the provider.
 
 </dd> <dt>
 
-[**MI\_Session\_ModifyInstance**](mi-session-modifyinstance.md)
+[**MI\_Session\_ModifyInstance**](/windows/previous-versions/Mi/nf-mi-mi_session_modifyinstance?branch=master)
 </dt> <dd>
 
 Updates an existing instance in the server represented by the session.
 
 </dd> <dt>
 
-[**MI\_Session\_QueryInstances**](mi-session-queryinstances.md)
+[**MI\_Session\_QueryInstances**](/windows/previous-versions/Mi/nf-mi-mi_session_queryinstances?branch=master)
 </dt> <dd>
 
 Queries for a set of instances based on a query expression.
 
 </dd> <dt>
 
-[**MI\_Session\_ReferenceInstances**](mi-session-referenceinstances.md)
+[**MI\_Session\_ReferenceInstances**](/windows/previous-versions/Mi/nf-mi-mi_session_referenceinstances?branch=master)
 </dt> <dd>
 
 Finds the association object that references the specified key instance.
 
 </dd> <dt>
 
-[**MI\_Session\_Subscribe**](mi-session-subscribe.md)
+[**MI\_Session\_Subscribe**](/windows/previous-versions/Mi/nf-mi-mi_session_subscribe?branch=master)
 </dt> <dd>
 
 Subscribes to an indication on the server represented by the session.
 
 </dd> <dt>
 
-[**MI\_Session\_TestConnection**](mi-session-testconnection.md)
+[**MI\_Session\_TestConnection**](/windows/previous-versions/Mi/nf-mi-mi_session_testconnection?branch=master)
 </dt> <dd>
 
 Tests a connection by communicating with the server represented by the session to determine whether it is responding.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_AddDeliveryCredentials**](mi-subscriptiondeliveryoptions-adddeliverycredentials.md)
+[**MI\_SubscriptionDeliveryOptions\_AddDeliveryCredentials**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_adddeliverycredentials?branch=master)
 </dt> <dd>
 
 Sets a subscription option for delivery credentials to use when connecting back to the client to deliver a push indication result.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_Clone**](mi-subscriptiondeliveryoptions-clone.md)
+[**MI\_SubscriptionDeliveryOptions\_Clone**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_clone?branch=master)
 </dt> <dd>
 
-Creates a copy of a [**MI\_SubscriptionDeliveryOptions**](mi-subscriptiondeliveryoptions.md) structure.
+Creates a copy of a [**MI\_SubscriptionDeliveryOptions**](/windows/previous-versions/Mi/ns-mi-_mi_subscriptiondeliveryoptions?branch=master) structure.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_Delete**](mi-subscriptiondeliveryoptions-delete.md)
+[**MI\_SubscriptionDeliveryOptions\_Delete**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_delete?branch=master)
 </dt> <dd>
 
 Deletes the specified subscription delivery options structure.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetBookmark**](mi-subscriptiondeliveryoptions-getbookmark.md)
+[**MI\_SubscriptionDeliveryOptions\_GetBookmark**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getbookmark?branch=master)
 </dt> <dd>
 
 Gets a previously set subscription bookmark.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetCredentialsAt**](mi-subscriptiondeliveryoptions-getcredentialsat.md)
+[**MI\_SubscriptionDeliveryOptions\_GetCredentialsAt**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialsat?branch=master)
 </dt> <dd>
 
 Gets a previously added credential based on a specified index.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetCredentialsCount**](mi-subscriptiondeliveryoptions-getcredentialscount.md)
+[**MI\_SubscriptionDeliveryOptions\_GetCredentialsCount**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialscount?branch=master)
 </dt> <dd>
 
 Gets the number of previously added credentials.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetCredentialsPasswordAt**](mi-subscriptiondeliveryoptions-getcredentialspasswordat.md)
+[**MI\_SubscriptionDeliveryOptions\_GetCredentialsPasswordAt**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialspasswordat?branch=master)
 </dt> <dd>
 
 Gets a previously added credential password based on a specified index.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetDateTime**](mi-subscriptiondeliveryoptions-getdatetime.md)
+[**MI\_SubscriptionDeliveryOptions\_GetDateTime**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getdatetime?branch=master)
 </dt> <dd>
 
 Gets a previously set datetime option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetDeliveryDestination**](mi-subscriptiondeliveryoptions-getdeliverydestination.md)
+[**MI\_SubscriptionDeliveryOptions\_GetDeliveryDestination**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getdeliverydestination?branch=master)
 </dt> <dd>
 
 Gets the previously set subscription delivery destination.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetDeliveryPortNumber**](mi-subscriptiondeliveryoptions-getdeliveryportnumber.md)
+[**MI\_SubscriptionDeliveryOptions\_GetDeliveryPortNumber**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getdeliveryportnumber?branch=master)
 </dt> <dd>
 
 Gets the previously set delivery port number.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetDeliveryRetryAttempts**](mi-subscriptiondeliveryoptions-getdeliveryretryattempts.md)
+[**MI\_SubscriptionDeliveryOptions\_GetDeliveryRetryAttempts**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getdeliveryretryattempts?branch=master)
 </dt> <dd>
 
 Gets the number of delivery retry attempts.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetDeliveryRetryInterval**](mi-subscriptiondeliveryoptions-getdeliveryretryinterval.md)
+[**MI\_SubscriptionDeliveryOptions\_GetDeliveryRetryInterval**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getdeliveryretryinterval?branch=master)
 </dt> <dd>
 
 Gets the delivery retry interval—the amount of time to wait before retrying the delivery.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetExpirationTime**](mi-subscriptiondeliveryoptions-getexpirationtime.md)
+[**MI\_SubscriptionDeliveryOptions\_GetExpirationTime**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getexpirationtime?branch=master)
 </dt> <dd>
 
 Gets the delivery expiration value (which can be expressed as a timestamp or an interval).
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetHeartbeatInterval**](mi-subscriptiondeliveryoptions-getheartbeatinterval.md)
+[**MI\_SubscriptionDeliveryOptions\_GetHeartbeatInterval**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getheartbeatinterval?branch=master)
 </dt> <dd>
 
 Gets the delivery heartbeat interval.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetInterval**](mi-subscriptiondeliveryoptions-getinterval.md)
+[**MI\_SubscriptionDeliveryOptions\_GetInterval**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getinterval?branch=master)
 </dt> <dd>
 
 Gets the delivery interval for a specified option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetMaximumLatency**](mi-subscriptiondeliveryoptions-getmaximumlatency.md)
+[**MI\_SubscriptionDeliveryOptions\_GetMaximumLatency**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getmaximumlatency?branch=master)
 </dt> <dd>
 
 Gets the maximum amount of time that the server will hold a result before delivering it to the client.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetNumber**](mi-subscriptiondeliveryoptions-getnumber.md)
+[**MI\_SubscriptionDeliveryOptions\_GetNumber**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getnumber?branch=master)
 </dt> <dd>
 
 Gets the value of the named numeric option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetOption**](mi-subscriptiondeliveryoptions-getoption.md)
+[**MI\_SubscriptionDeliveryOptions\_GetOption**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getoption?branch=master)
 </dt> <dd>
 
 Gets the value of the named option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetOptionAt**](mi-subscriptiondeliveryoptions-getoptionat.md)
+[**MI\_SubscriptionDeliveryOptions\_GetOptionAt**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getoptionat?branch=master)
 </dt> <dd>
 
 Gets the option at the specified index.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetOptionCount**](mi-subscriptiondeliveryoptions-getoptioncount.md)
+[**MI\_SubscriptionDeliveryOptions\_GetOptionCount**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getoptioncount?branch=master)
 </dt> <dd>
 
 Gets the number of previously set options.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_GetString**](mi-subscriptiondeliveryoptions-getstring.md)
+[**MI\_SubscriptionDeliveryOptions\_GetString**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_getstring?branch=master)
 </dt> <dd>
 
 Gets the value of the named string option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetBookmark**](mi-subscriptiondeliveryoptions-setbookmark.md)
+[**MI\_SubscriptionDeliveryOptions\_SetBookmark**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setbookmark?branch=master)
 </dt> <dd>
 
 Sets a bookmark for subscription indication delivery.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetDateTime**](mi-subscriptiondeliveryoptions-setdatetime.md)
+[**MI\_SubscriptionDeliveryOptions\_SetDateTime**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setdatetime?branch=master)
 </dt> <dd>
 
 Sets the value of a named DateTime option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetDeliveryDestination**](mi-subscriptiondeliveryoptions-setdeliverydestination.md)
+[**MI\_SubscriptionDeliveryOptions\_SetDeliveryDestination**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setdeliverydestination?branch=master)
 </dt> <dd>
 
 Sets the destination endpoint that an indication will be delivered to.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetDeliveryPortNumber**](mi-subscriptiondeliveryoptions-setdeliveryportnumber.md)
+[**MI\_SubscriptionDeliveryOptions\_SetDeliveryPortNumber**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setdeliveryportnumber?branch=master)
 </dt> <dd>
 
 Sets the subscription delivery port number.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetDeliveryRetryAttempts**](mi-subscriptiondeliveryoptions-setdeliveryretryattempts.md)
+[**MI\_SubscriptionDeliveryOptions\_SetDeliveryRetryAttempts**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setdeliveryretryattempts?branch=master)
 </dt> <dd>
 
 Sets the number of times a push delivery subscription will try to deliver a result.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetDeliveryRetryInterval**](mi-subscriptiondeliveryoptions-setdeliveryretryinterval.md)
+[**MI\_SubscriptionDeliveryOptions\_SetDeliveryRetryInterval**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setdeliveryretryinterval?branch=master)
 </dt> <dd>
 
 Sets the delivery retry interval for subscriptions that are for push delivery.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetExpirationTime**](mi-subscriptiondeliveryoptions-setexpirationtime.md)
+[**MI\_SubscriptionDeliveryOptions\_SetExpirationTime**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setexpirationtime?branch=master)
 </dt> <dd>
 
 Sets the subscription expiration time (when the subscription will shut down).
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetHeartbeatInterval**](mi-subscriptiondeliveryoptions-setheartbeatinterval.md)
+[**MI\_SubscriptionDeliveryOptions\_SetHeartbeatInterval**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setheartbeatinterval?branch=master)
 </dt> <dd>
 
 Sets the heartbeat interval.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetInterval**](mi-subscriptiondeliveryoptions-setinterval.md)
+[**MI\_SubscriptionDeliveryOptions\_SetInterval**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setinterval?branch=master)
 </dt> <dd>
 
 Sets the value of a named interval option.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetMaximumLatency**](mi-subscriptiondeliveryoptions-setmaximumlatency.md)
+[**MI\_SubscriptionDeliveryOptions\_SetMaximumLatency**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setmaximumlatency?branch=master)
 </dt> <dd>
 
 Sets the maximum amount of time that the server will hold a result before delivering it to the client.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetNumber**](mi-subscriptiondeliveryoptions-setnumber.md)
+[**MI\_SubscriptionDeliveryOptions\_SetNumber**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setnumber?branch=master)
 </dt> <dd>
 
 Sets the value of a named numeric option that is not covered by a dedicated function.
 
 </dd> <dt>
 
-[**MI\_SubscriptionDeliveryOptions\_SetString**](mi-subscriptiondeliveryoptions-setstring.md)
+[**MI\_SubscriptionDeliveryOptions\_SetString**](/windows/previous-versions/Mi/nf-mi-mi_subscriptiondeliveryoptions_setstring?branch=master)
 </dt> <dd>
 
 Sets the value of a named string option that is not covered by a dedicated function.
 
 </dd> <dt>
 
-[**MI\_Utilities\_CimErrorFromErrorCode**](mi-utilities-cimerrorfromerrorcode.md)
+[**MI\_Utilities\_CimErrorFromErrorCode**](/windows/previous-versions/Mi/nf-mi-mi_utilities_cimerrorfromerrorcode?branch=master)
 </dt> <dd>
 
 Maps an operating-system specific error code to a CIM error instance.
 
 </dd> <dt>
 
-[**MI\_Utilities\_MapErrorToExtendedError**](mi-utilities-maperrortoextendederror.md)
+[**MI\_Utilities\_MapErrorToExtendedError**](/windows/previous-versions/Mi/?branch=master)
 </dt> <dd>
 
-[**MI\_Utilities\_MapErrorToExtendedError**](mi-utilities-maperrortoextendederror.md) is not supported.
+[**MI\_Utilities\_MapErrorToExtendedError**](/windows/previous-versions/Mi/?branch=master) is not supported.
 
 </dd> <dt>
 
-[**MI\_Utilities\_MapErrorToMiErrorCategory**](mi-utilities-maperrortomierrorcategory.md)
+[**MI\_Utilities\_MapErrorToMiErrorCategory**](/windows/previous-versions/Mi/nf-mi-mi_utilities_maperrortomierrorcategory?branch=master)
 </dt> <dd>
 
 Maps an operating system specific error code to an error category.

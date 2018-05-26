@@ -1,25 +1,30 @@
 ---
 title: Overview of the TV Ratings System
 description: Overview of the TV Ratings System
-ms.assetid: 'f1ebfb27-73ba-479e-8071-26c79dbd43f7'
+ms.assetid: f1ebfb27-73ba-479e-8071-26c79dbd43f7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of the TV Ratings System
 
 This topic applies only to Windows XP Service Pack 1 or later.
 
-The Microsoft TV Ratings system provides a way for Microsoft® Windows® Media Center to access content ratings from a broadcast stream and use them to make decisions about whether or not to display the content. These ratings are mandatory on all US broadcast streams, and are contained in the extended data services (XDS) channel of line 21.
+The Microsoft TV Ratings system provides a way for Microsoft  Windows  Media Center to access content ratings from a broadcast stream and use them to make decisions about whether or not to display the content. These ratings are mandatory on all US broadcast streams, and are contained in the extended data services (XDS) channel of line 21.
 
 The TV Ratings System uses two COM objects that are provided by third-party developers:
 
 -   The **XDSToRat** (Ratings Decoder) object parses XDS data into content ratings.
 -   The **EvalRat** (Ratings Evaluator) object determines whether broadcast content is allowed to be viewed, based on the rating and the current permissions.
 
-The **XDSToRat** and **EvalRat** objects are both COM objects. The **XDSToRat** object exposes the [**IXDSToRat**](ixdstorat.md) interface, and the **EvalRat** object exposes the [**IEvalRat**](ievalrat.md) interface.
+The **XDSToRat** and **EvalRat** objects are both COM objects. The **XDSToRat** object exposes the [**IXDSToRat**](/windows/previous-versions/Tvratings/nn-tvratings-ixdstorat?branch=master) interface, and the **EvalRat** object exposes the [**IEvalRat**](/windows/previous-versions/Tvratings/nn-tvratings-ievalrat?branch=master) interface.
 
 TV ratings are a combination of three things: rating system, rating level, and attributes.
 
--   Rating *systems* vary by country/region, and one country/region may have more than one system. For example, Canada has both English and French rating systems, and the United States has both MPAA and TV rating systems. Rating systems are enumerated by the [**EnTvRat\_System**](entvrat-system.md) enumeration.
+-   Rating *systems* vary by country/region, and one country/region may have more than one system. For example, Canada has both English and French rating systems, and the United States has both MPAA and TV rating systems. Rating systems are enumerated by the [**EnTvRat\_System**](/windows/previous-versions/Tvratings/ne-tvratings-entvrat_system?branch=master) enumeration.
 -   Each system has *levels*. For example, the MPAA uses G, PG, R, and other levels. The number of levels in use varies by system, but the Microsoft TV Rating system provides eight levels. Unused levels can be ignored. Each system has an enumeration that lists its levels.
 -   Each level can have additional content *attributes*. For example, the United States TV system uses additional attribute tags for content containing violence, adult situations, and so on. Currently, only the United States TV rating system uses additional content attributes.
 
@@ -43,7 +48,7 @@ Each rating system can be treated as a permission grid, where each column specif
 
 
 
- 
+ 
 
 The preceding table shows the enumerated values for the attributes as column headings, and the levels as rows. Each row shows an 8-bit attribute field that describes viewing permissions. A value of 1 means restricted, and a value of 0 means not restricted.
 
@@ -81,9 +86,9 @@ In order to understand and build these objects, a programmer must be familiar wi
 [TV Ratings Components](tv-ratings-components.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

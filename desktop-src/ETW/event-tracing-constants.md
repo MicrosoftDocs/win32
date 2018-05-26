@@ -1,7 +1,12 @@
 ---
-Description: 'The following constants are used in event tracing.'
-ms.assetid: '34e28c8a-036f-48ab-a162-140bfaf3ca12'
+Description: The following constants are used in event tracing.
+ms.assetid: 34e28c8a-036f-48ab-a162-140bfaf3ca12
 title: Event Tracing Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Tracing Constants

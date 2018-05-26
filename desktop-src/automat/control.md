@@ -1,7 +1,12 @@
 ---
 title: control
 description: Indicates that the item represents a control from which a container site will derive additional type libraries or coclasses.
-ms.assetid: 'f925231e-180a-4627-9826-4eccd2663d34'
+ms.assetid: f925231e-180a-4627-9826-4eccd2663d34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # control

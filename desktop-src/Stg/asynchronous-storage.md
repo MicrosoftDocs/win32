@@ -1,8 +1,14 @@
 ---
 title: Asynchronous Storage
 description: Asynchronous storage enhances the COM structured storage specification to support asynchronous download of storage objects on high-latency, slow-link networks such as the Internet.
-ms.assetid: '12b97059-2c8c-4712-8a76-03c3ce7094a0'
-keywords: ["Structured Storage Strctd Stg , asynchronous storage"]
+ms.assetid: 12b97059-2c8c-4712-8a76-03c3ce7094a0
+keywords:
+- Structured Storage Strctd Stg , asynchronous storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Storage

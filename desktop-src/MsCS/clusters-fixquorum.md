@@ -4,17 +4,23 @@ description: Specifies if the cluster is in a fix quorum state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd67e278-d8a0-492a-b573-434b80a8e6d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fd67e278-d8a0-492a-b573-434b80a8e6d6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["FixQuorum Failover Cluster ,for clusters", "FixQuorum Failover Cluster ,for failover clusters", "FixQuorum Failover Cluster"]
+keywords:
+- FixQuorum Failover Cluster ,for clusters
+- FixQuorum Failover Cluster ,for failover clusters
+- FixQuorum Failover Cluster
 topic_type:
 - apiref
 api_name:
 - FixQuorum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FixQuorum
@@ -27,14 +33,14 @@ Specifies if the cluster is in a fix quorum state. The following table summarize
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read-only](read-only-properties.md)<br/>     |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 1 (fix quorum state)<br/>                      |
 | Default<br/>   | 0<br/>                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +55,7 @@ This property is also exposed as the **FixQuorum** property of the [**MSCluster\
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -60,15 +66,15 @@ This property is also exposed as the **FixQuorum** property of the [**MSCluster\
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**MSCluster\_Cluster**](https://msdn.microsoft.com/library/aa371422)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

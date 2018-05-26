@@ -1,7 +1,12 @@
 ---
 title: Getting Browsers to Recognize Different Languages
 description: Getting Browsers to Recognize Different Languages
-ms.assetid: 'faabc494-8524-45c0-8800-5e563524d682'
+ms.assetid: faabc494-8524-45c0-8800-5e563524d682
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Browsers to Recognize Different Languages

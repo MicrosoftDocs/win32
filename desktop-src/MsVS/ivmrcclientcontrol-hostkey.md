@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl HostKey property
 description: The HostKey property contains the key identifier for the current host key.
-ms.assetid: 'fc3dff71-4f2e-4369-a27b-adc9a9de9130'
-keywords: ["HostKey property Virtual Server", "HostKey property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , HostKey property", "HostKey property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , HostKey property"]
+ms.assetid: fc3dff71-4f2e-4369-a27b-adc9a9de9130
+keywords:
+- HostKey property Virtual Server
+- HostKey property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , HostKey property
+- HostKey property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , HostKey property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::HostKey property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HostKey(
-  [in]  BSTR hostKey
+  [in]  BSTR hostKey
 );
 
 HRESULT get_HostKey(
-  [out] BSTR *hostKey
+  [out] BSTR *hostKey
 );
 ```
 
@@ -87,8 +97,8 @@ The value for the host key defaults to the right Alt key on a standard 101-key A
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -101,9 +111,9 @@ The value for the host key defaults to the right Alt key on a standard 101-key A
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

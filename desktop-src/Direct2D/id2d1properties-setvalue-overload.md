@@ -1,12 +1,18 @@
 ---
 title: ID2D1Properties SetValue methods
 description: Sets the corresponding property by index.
-ms.assetid: 'FA740482-BAAF-466F-8CD1-330253B581BF'
-keywords: ["SetValue overload methods methods Direct2D"]
+ms.assetid: FA740482-BAAF-466F-8CD1-330253B581BF
+keywords:
+- SetValue overload methods methods Direct2D
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Properties::SetValue methods
@@ -19,10 +25,10 @@ Sets the corresponding property by index.
 
 | Method                                                                                            | Description                                                                       |
 |:--------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-| [**SetValue(U, const T&)**](id2d1properties-setvalue2.md)                                        | Sets the corresponding property by index. This is a template overload.<br/> |
-| [**SetValue(U, const BYTE\*, UINT32)**](id2d1properties-setvalue3.md)                            | Sets the corresponding property by index. This is a template overload.<br/> |
-| [**SetValue(UINT32, const BYTE\*, UINT32)**](id2d1properties-setvalue.md)                        | Sets the corresponding property by index.<br/>                              |
-| [**SetValue(UINT32, D2D1\_PROPERTY\_TYPE, const BYTE\*, UINT32)**](id2d1properties-setvalue4.md) | Sets the corresponding property by index.<br/>                              |
+| [**SetValue(U, const T&)**](/windows/win32/D2d1_1/?branch=master)                                        | Sets the corresponding property by index. This is a template overload.<br/> |
+| [**SetValue(U, const BYTE\*, UINT32)**](/windows/win32/D2d1_1/?branch=master)                            | Sets the corresponding property by index. This is a template overload.<br/> |
+| [**SetValue(UINT32, const BYTE\*, UINT32)**](/windows/win32/D2d1_1/?branch=master)                        | Sets the corresponding property by index.<br/>                              |
+| [**SetValue(UINT32, D2D1\_PROPERTY\_TYPE, const BYTE\*, UINT32)**](/windows/win32/D2d1_1/?branch=master) | Sets the corresponding property by index.<br/>                              |
 
 
 
@@ -30,12 +36,12 @@ Sets the corresponding property by index.
 
 <dl> <dt>
 
-[**ID2D1Properties**](id2d1properties.md)
+[**ID2D1Properties**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

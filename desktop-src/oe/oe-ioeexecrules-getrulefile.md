@@ -1,8 +1,11 @@
 ---
 title: IOEExecRules GetRuleFile method
-description: IOEExecRules GetRuleFile is no longer available for use as of Windows Vista.
-ms.assetid: 'b889a798-360e-4df6-8d88-66f1bc76f47f'
-keywords: ["GetRuleFile method Windows Mail (formerly Outlook Express)", "GetRuleFile method Windows Mail (formerly Outlook Express) , IOEExecRules interface", "IOEExecRules interface Windows Mail (formerly Outlook Express) , GetRuleFile method"]
+description: IOEExecRules GetRuleFile is no longer available for use as of Windows Vista.
+ms.assetid: b889a798-360e-4df6-8d88-66f1bc76f47f
+keywords:
+- GetRuleFile method Windows Mail (formerly Outlook Express)
+- GetRuleFile method Windows Mail (formerly Outlook Express) , IOEExecRules interface
+- IOEExecRules interface Windows Mail (formerly Outlook Express) , GetRuleFile method
 topic_type:
 - apiref
 api_name:
@@ -11,20 +14,25 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOEExecRules::GetRuleFile method
 
-\[**IOEExecRules::GetRuleFile** is no longer available for use as of Windows Vista.\]
+\[**IOEExecRules::GetRuleFile** is no longer available for use as of Windows Vista.\]
 
 ## Syntax
 
 
 ```C++
 HRESULT GetRuleFile(
-  [in]  LPCSTR  pszFile,
-  [out] IStream **ppstmFile,
-  [out] DWORD   *pdwType
+  [in]  LPCSTR  pszFile,
+  [out] IStream **ppstmFile,
+  [out] DWORD   *pdwType
 );
 ```
 
@@ -79,19 +87,19 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                 |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Inetcomm.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

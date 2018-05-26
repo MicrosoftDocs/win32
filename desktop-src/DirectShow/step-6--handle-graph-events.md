@@ -1,14 +1,19 @@
 ---
-Description: 'This topic is step 6 of the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: 'febfe7fa-e5f1-4b37-942a-ed9f8c7c60c1'
-title: 'Step 6: Handle Graph Events'
+Description: This topic is step 6 of the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: febfe7fa-e5f1-4b37-942a-ed9f8c7c60c1
+title: Step 6 Handle Graph Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 6: Handle Graph Events
 
 This topic is step 6 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
-When the application creates a new instance of the Filter Graph Manager, the application calls [**IMediaEventEx::SetNotifyWindow**](imediaeventex-setnotifywindow.md). This method registers the application window to receive events from the filter graph.
+When the application creates a new instance of the Filter Graph Manager, the application calls [**IMediaEventEx::SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master). This method registers the application window to receive events from the filter graph.
 
 
 ```C++
@@ -41,9 +46,9 @@ The value `WM_GRAPH_EVENT` is a private window message. Whenever the application
 
 The `DShowPlayer::HandleGraphEvent` method does the following:
 
-1.  Calls [**IMediaEvent::GetEvent**](imediaevent-getevent.md) in a loop to get all of the queued events.
+1.  Calls [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) in a loop to get all of the queued events.
 2.  Invokes a callback function (*pfnOnGraphEvent*).
-3.  Calls [**IMediaEvent::FreeEventParams**](imediaevent-freeeventparams.md) to free the data associated with each event.
+3.  Calls [**IMediaEvent::FreeEventParams**](/windows/win32/Control/nf-control-imediaevent-freeeventparams?branch=master) to free the data associated with each event.
 
 
 ```C++

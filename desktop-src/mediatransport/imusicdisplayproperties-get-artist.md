@@ -1,8 +1,11 @@
 ---
 title: IMusicDisplayProperties get\_Artist method
 description: Gets the artist of the music item.
-ms.assetid: '9DE7A440-E397-4026-B90B-F53139091408'
-keywords: ["get_Artist method", "get_Artist method, IMusicDisplayProperties interface", "IMusicDisplayProperties interface, get_Artist method"]
+ms.assetid: 9DE7A440-E397-4026-B90B-F53139091408
+keywords:
+- get_Artist method
+- get_Artist method, IMusicDisplayProperties interface
+- IMusicDisplayProperties interface, get_Artist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Media.SystemMediaTransportControls.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMusicDisplayProperties::get\_Artist method
@@ -22,7 +30,7 @@ Gets the artist of the music item.
 
 ```C++
 HRESULT get_Artist(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -53,8 +61,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                      |
 | Header<br/>                   | <dl> <dt>Windows.Media.SystemMediaTransportControls.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows.Media.SystemMediaTransportControls.idl</dt> </dl> |
 
@@ -67,9 +75,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IMusicDisplayProperties**](imusicdisplayproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

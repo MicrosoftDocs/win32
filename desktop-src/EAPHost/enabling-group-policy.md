@@ -1,7 +1,12 @@
 ---
 title: Enabling Group Policy
 description: Explains how to configure the supplicant by enabling group policy.
-ms.assetid: 'ac04b83b-1322-41d4-85e0-93687f10a7f6'
+ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Group Policy
@@ -20,10 +25,10 @@ These are the considerations for supplicants with respect to group policy and EA
 
     -   [General Frequently Asked Questions](general-frequently-asked-questions.md)
     -   [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.md).
-    -   [**EapHostPeerConfigXml2Blob**](eaphostpeerconfigxml2blob.md)
-    -   [**EapHostPeerCredentialsXml2Blob**](eaphostpeercredentialsxml2blob.md)
+    -   [**EapHostPeerConfigXml2Blob**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob?branch=master)
+    -   [**EapHostPeerCredentialsXml2Blob**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob?branch=master)
 
-2.  If a group policy server-side extension is used, the extension will call [**EapHostPeerGetMethods**](eaphostpeergetmethods.md) typically to determine available methods and to generate appropriate EAP configuration for that policy. The policy is then pushed out to appropriate network clients where the policy is applied.
+2.  If a group policy server-side extension is used, the extension will call [**EapHostPeerGetMethods**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods?branch=master) typically to determine available methods and to generate appropriate EAP configuration for that policy. The policy is then pushed out to appropriate network clients where the policy is applied.
 
 ## Related topics
 

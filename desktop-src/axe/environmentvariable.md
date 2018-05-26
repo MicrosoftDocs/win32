@@ -1,7 +1,7 @@
 ---
 title: EnvironmentVariable
 description: Defines the names of environment variables that the AXE engine creates in the process space for assessments.
-ms.assetid: '736E4BB7-AF15-40E1-A49C-E76878621EEA'
+ms.assetid: 736E4BB7-AF15-40E1-A49C-E76878621EEA
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - AxeRuntime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnvironmentVariable
@@ -141,15 +146,15 @@ The Session parameters are valid for a single instance of the Axe engine and job
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

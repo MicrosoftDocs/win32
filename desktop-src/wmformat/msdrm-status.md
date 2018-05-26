@@ -1,8 +1,10 @@
 ---
 title: MSDRM\_STATUS enumeration
 description: The MSDRM\_STATUS enumeration type defines status conditions for the DRM subsystem.
-ms.assetid: 'b26600ea-2603-4fca-9408-2d5c88091dcc'
-keywords: ["MSDRM_STATUS enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: b26600ea-2603-4fca-9408-2d5c88091dcc
+keywords:
+- MSDRM_STATUS enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSDRM\_STATUS enumeration
@@ -22,18 +29,18 @@ The **MSDRM\_STATUS** enumeration type defines status conditions for the DRM sub
 
 ```C++
 typedef enum MSDRM_STATUS { 
-  DRM_ERROR                        = 0,
-  DRM_INFORMATION                  = 1,
-  DRM_BACKUPRESTORE_BEGIN          = 2,
-  DRM_BACKUPRESTORE_END            = 3,
-  DRM_BACKUPRESTORE_CONNECTING     = 4,
-  DRM_BACKUPRESTORE_DISCONNECTING  = 5,
-  DRM_ERROR_WITHURL                = 6,
-  DRM_RESTRICTED_LICENSE           = 7,
-  DRM_NEEDS_INDIVIDUALIZATION      = 8,
-  DRM_PLAY_OPL_NOTIFICATION        = 9,
-  DRM_COPY_OPL_NOTIFICATION        = 10,
-  DRM_REFRESHCRL_COMPLETE          = 11
+  DRM_ERROR                        = 0,
+  DRM_INFORMATION                  = 1,
+  DRM_BACKUPRESTORE_BEGIN          = 2,
+  DRM_BACKUPRESTORE_END            = 3,
+  DRM_BACKUPRESTORE_CONNECTING     = 4,
+  DRM_BACKUPRESTORE_DISCONNECTING  = 5,
+  DRM_ERROR_WITHURL                = 6,
+  DRM_RESTRICTED_LICENSE           = 7,
+  DRM_NEEDS_INDIVIDUALIZATION      = 8,
+  DRM_PLAY_OPL_NOTIFICATION        = 9,
+  DRM_COPY_OPL_NOTIFICATION        = 10,
+  DRM_REFRESHCRL_COMPLETE          = 11
 } ;
 ```
 
@@ -148,9 +155,9 @@ None.
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

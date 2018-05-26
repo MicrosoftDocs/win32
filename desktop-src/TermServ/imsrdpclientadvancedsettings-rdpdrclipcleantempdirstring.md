@@ -4,11 +4,28 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3c143567-edfd-4a28-a390-4733b91aae20'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3c143567-edfd-4a28-a390-4733b91aae20
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RdpdrClipCleanTempDirString property Remote Desktop Services", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings interface", "IMsRdpClientAdvancedSettings interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface", "IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface", "IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RdpdrClipCleanTempDirString property", "RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RdpdrClipCleanTempDirString property"]
+keywords:
+- RdpdrClipCleanTempDirString property Remote Desktop Services
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings interface
+- IMsRdpClientAdvancedSettings interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings2 interface
+- IMsRdpClientAdvancedSettings2 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings3 interface
+- IMsRdpClientAdvancedSettings3 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
+- RdpdrClipCleanTempDirString property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RdpdrClipCleanTempDirString property
 topic_type:
 - apiref
 api_name:
@@ -40,6 +57,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings::RdpdrClipCleanTempDirString property
@@ -53,11 +73,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RdpdrClipCleanTempDirString(
-  [in]  BSTR clipCleanTempDirString
+  [in]  BSTR clipCleanTempDirString
 );
 
 HRESULT get_RdpdrClipCleanTempDirString(
-  [out] BSTR *pclipCleanTempDirString
+  [out] BSTR *pclipCleanTempDirString
 );
 ```
 
@@ -115,9 +135,9 @@ Returns **S\_FALSE**.
 [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

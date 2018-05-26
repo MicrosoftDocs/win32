@@ -2,13 +2,15 @@
 title: DnsServerMemtagStatistics class
 description: DNS server statistics related to memory allocations for a given purpose.
 audience: developer
-ms.assetid: '09a051c3-b671-454d-be53-1644a314648b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 09a051c3-b671-454d-be53-1644a314648b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerMemtagStatistics class", "DnsServerMemtagStatistics class, described"]
+keywords:
+- DnsServerMemtagStatistics class
+- DnsServerMemtagStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerMemtagStatistics class
@@ -98,7 +103,7 @@ The cumulative number of times memory has been released for a given purpose.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The cumulative number of times memory has been released for a given purpose.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

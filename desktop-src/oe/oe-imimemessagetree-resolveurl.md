@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree ResolveURL method
 description: Maps a MIME Encapsulation of Aggregate HTML Documents (MHTML) URL to a body in the message. This method should only be used on MHTML messages that have a multipart/related section.
-ms.assetid: 'd47dc5b5-353b-4b34-b7fa-5e0d9eac809a'
-keywords: ["ResolveURL method Windows Mail (formerly Outlook Express)", "ResolveURL method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , ResolveURL method"]
+ms.assetid: d47dc5b5-353b-4b34-b7fa-5e0d9eac809a
+keywords:
+- ResolveURL method Windows Mail (formerly Outlook Express)
+- ResolveURL method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , ResolveURL method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::ResolveURL method
@@ -22,11 +30,11 @@ Maps a MIME Encapsulation of Aggregate HTML Documents (MHTML) URL to a body in t
 
 ```C++
 HRESULT ResolveURL(
-  [in]  HBODY   hRelated,
-  [in]  LPCSTR  pszBase,
-  [in]  LPCSTR  pszURL,
-  [in]  DWORD   dwFlags,
-  [out] LPHBODY phBody
+  [in]  HBODY   hRelated,
+  [in]  LPCSTR  pszBase,
+  [in]  LPCSTR  pszURL,
+  [in]  DWORD   dwFlags,
+  [out] LPHBODY phBody
 );
 ```
 
@@ -79,7 +87,7 @@ Specifies the resolution behavior.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -109,7 +117,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -117,8 +125,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -142,9 +150,9 @@ Returns one of the following values.
 [Content-Type](http://msdn.microsoft.com/library/cdosys/html/48f7ae1c-9dc8-4b2f-8dc1-11c55e62173f.asp)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

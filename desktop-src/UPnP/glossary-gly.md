@@ -1,7 +1,12 @@
 ---
 title: Glossary
 description: Contains definitions of UPnP-related terms.
-ms.assetid: 'd19c5dd5-0e6c-420f-9bfe-7eb1f3be11b2'
+ms.assetid: d19c5dd5-0e6c-420f-9bfe-7eb1f3be11b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylist insertItem method
 description: The insertItem method inserts a media item at a specified location in a playlist.
-ms.assetid: '6e472f0a-13df-41d9-8e6f-8430d87fe978'
-keywords: ["insertItem method Windows Media Player", "insertItem method Windows Media Player , IWMPPlaylist interface", "IWMPPlaylist interface Windows Media Player , insertItem method"]
+ms.assetid: 6e472f0a-13df-41d9-8e6f-8430d87fe978
+keywords:
+- insertItem method Windows Media Player
+- insertItem method Windows Media Player , IWMPPlaylist interface
+- IWMPPlaylist interface Windows Media Player , insertItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist::insertItem method
@@ -104,9 +112,9 @@ Before calling this method, you must have full access to the library. For more i
 [**IWMPPlaylist.removeItem (VB and C#)**](wmplibiwmpplaylist-iwmpplaylist-removeitem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

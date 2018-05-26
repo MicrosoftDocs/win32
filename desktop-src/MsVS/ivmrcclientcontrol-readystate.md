@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ReadyState property
-description: The ReadyState property contains the control's current readiness state.
-ms.assetid: '0d03e77f-7634-43a5-a099-3584a5c34c60'
-keywords: ["ReadyState property Virtual Server", "ReadyState property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ReadyState property", "ReadyState property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ReadyState property"]
+description: The ReadyState property contains the controls current readiness state.
+ms.assetid: 0d03e77f-7634-43a5-a099-3584a5c34c60
+keywords:
+- ReadyState property Virtual Server
+- ReadyState property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ReadyState property
+- ReadyState property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ReadyState property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ReadyState property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ReadyState(
-  [in]  long readyState
+  [in]  long readyState
 );
 
 HRESULT get_ReadyState(
-  [out] long *readyState
+  [out] long *readyState
 );
 ```
 
@@ -86,8 +96,8 @@ The *readyState* values are the same as for other ActiveX control state values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -100,9 +110,9 @@ The *readyState* values are the same as for other ActiveX control state values.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

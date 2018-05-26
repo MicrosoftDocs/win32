@@ -1,7 +1,12 @@
 ---
-Description: 'Any network packet analyzer that can display raw packets can be used to inspect UDP WS-Discovery packets. Microsoft Network Monitor 3 (Netmon) is recommended. For more information about Netmon, see Downloading Netmon and Sample DPWS Filters.'
-ms.assetid: 'f12f9847-b87f-4d5f-bee3-4d219f9ad898'
-title: 'Inspecting Network Traces for UDP WS-Discovery'
+Description: Any network packet analyzer that can display raw packets can be used to inspect UDP WS-Discovery packets. Microsoft Network Monitor 3 (Netmon) is recommended. For more information about Netmon, see Downloading Netmon and Sample DPWS Filters.
+ms.assetid: f12f9847-b87f-4d5f-bee3-4d219f9ad898
+title: Inspecting Network Traces for UDP WS-Discovery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inspecting Network Traces for UDP WS-Discovery

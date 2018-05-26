@@ -4,17 +4,22 @@ description: A bitfield, where the meaning of the bits varies from objectClass t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07495cc1-1db0-4e0d-afbe-b21d2b50b6a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 07495cc1-1db0-4e0d-afbe-b21d2b50b6a1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Options attribute AD Schema", "options attribute AD Schema"]
+keywords:
+- Options attribute AD Schema
+- options attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Options
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Options attribute
@@ -38,13 +43,13 @@ A bitfield, where the meaning of the bits varies from objectClass to objectClass
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ A bitfield, where the meaning of the bits varies from objectClass to objectClass
 
 
 
- 
+ 
 
- 
+ 
 
 
 

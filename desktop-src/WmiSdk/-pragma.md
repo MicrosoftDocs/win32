@@ -1,13 +1,16 @@
 ---
-Description: 'Is similar to a command-line switch. However, you do not need to reenter a \#pragma command each time you compile a MOF file.'
+Description: Is similar to a command-line switch. However, you do not need to reenter a \#pragma command each time you compile a MOF file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3cf22686-dd56-43a3-9584-3d707a20a3a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3cf22686-dd56-43a3-9584-3d707a20a3a0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\#pragma'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \#pragma

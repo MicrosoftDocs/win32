@@ -1,7 +1,12 @@
 ---
-Description: 'IPv6 link-local addressing in SOAP messages provides a unique challenge, as IPv6 link-local addresses require a scope ID to be meaningful, but the scope ID only has meaning for the local machine.'
-ms.assetid: '63495335-e447-4564-b669-0896c7aac63f'
-title: 'Using IPv6 Link-Local Addresses'
+Description: IPv6 link-local addressing in SOAP messages provides a unique challenge, as IPv6 link-local addresses require a scope ID to be meaningful, but the scope ID only has meaning for the local machine.
+ms.assetid: 63495335-e447-4564-b669-0896c7aac63f
+title: Using IPv6 Link-Local Addresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using IPv6 Link-Local Addresses

@@ -1,7 +1,7 @@
 ---
 title: SNMP Simple Syntax Values
 description: The SNMP Simple Syntax Values are used to indicate an SNMP variable type.
-ms.assetid: '42b681e5-721d-4d41-bc1a-c9f0005cde87'
+ms.assetid: 42b681e5-721d-4d41-bc1a-c9f0005cde87
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Simple Syntax Values
@@ -42,8 +47,8 @@ The SNMP Simple Syntax Values are used to indicate an SNMP variable type.
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The SNMP Simple Syntax Values are used to indicate an SNMP variable type.
 [SNMP Constants](snmp-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

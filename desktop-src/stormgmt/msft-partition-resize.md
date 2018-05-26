@@ -1,8 +1,11 @@
 ---
 title: Resize method of the MSFT\_Partition class
 description: Resizes the partition and any associated file system volume to the size specified by the Size parameter.
-ms.assetid: '89343280-F14E-47B2-A8F6-28F85B525804'
-keywords: ["Resize method Windows Storage Management API", "Resize method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , Resize method"]
+ms.assetid: 89343280-F14E-47B2-A8F6-28F85B525804
+keywords:
+- Resize method Windows Storage Management API
+- Resize method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , Resize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resize method of the MSFT\_Partition class
@@ -22,8 +30,8 @@ Resizes the partition and any associated file system volume to the size specifie
 
 ```mof
 UInt32 Resize(
-  [in]  UInt64 Size,
-  [out] String ExtendedStatus
+  [in]  UInt64 Size,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -100,8 +108,8 @@ In almost all cases, there will be some files that are immovable (that is, canno
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -114,9 +122,9 @@ In almost all cases, there will be some files that are immovable (that is, canno
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

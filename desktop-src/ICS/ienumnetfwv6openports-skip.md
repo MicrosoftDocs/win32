@@ -1,8 +1,11 @@
 ---
 title: IEnumNetFwV6OpenPorts Skip method
 description: The Skip method skips the specified number of open ports for this enumeration.
-ms.assetid: '0606c686-8574-48ae-8a50-8a4e6cedb86d'
-keywords: ["Skip method ICS/ICF", "Skip method ICS/ICF , IEnumNetFwV6OpenPorts interface", "IEnumNetFwV6OpenPorts interface ICS/ICF , Skip method"]
+ms.assetid: 0606c686-8574-48ae-8a50-8a4e6cedb86d
+keywords:
+- Skip method ICS/ICF
+- Skip method ICS/ICF , IEnumNetFwV6OpenPorts interface
+- IEnumNetFwV6OpenPorts interface ICS/ICF , Skip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumNetFwV6OpenPorts::Skip method
@@ -24,7 +32,7 @@ The **Skip** method skips the specified number of open ports for this enumeratio
 
 ```C++
 HRESULT Skip(
-  [in] ULONG cElt
+  [in] ULONG cElt
 );
 ```
 
@@ -60,7 +68,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,10 +76,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -87,9 +95,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6OpenPort**](inetfwv6openport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

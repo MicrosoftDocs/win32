@@ -1,13 +1,16 @@
 ---
-Description: 'In monitoring scripts, you can avoid successive calls to GetObject by using an SWbemRefresher object. The SWbemRefresher object is a container that can hold several WMI objects whose data can be refreshed in one call.'
+Description: In monitoring scripts, you can avoid successive calls to GetObject by using an SWbemRefresher object. The SWbemRefresher object is a container that can hold several WMI objects whose data can be refreshed in one call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b34567f5-9349-4580-97d5-723759805d88'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b34567f5-9349-4580-97d5-723759805d88
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Refreshing WMI Data in Scripts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Refreshing WMI Data in Scripts

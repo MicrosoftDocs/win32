@@ -1,8 +1,9 @@
 ---
 title: EM\_GETSEL message
 description: Gets the starting and ending character positions (in TCHARs) of the current selection in an edit control. You can send this message to either an edit control or a rich edit control.
-ms.assetid: 'cf12aaea-cfa7-4804-ae34-fd0992332288'
-keywords: ["EM_GETSEL message Windows Controls"]
+ms.assetid: cf12aaea-cfa7-4804-ae34-fd0992332288
+keywords:
+- EM_GETSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETSEL message
@@ -37,7 +43,7 @@ A pointer to a **DWORD** value that receives the position of the first unselecte
 
 ## Return value
 
-The return value is a zero-based value with the starting position of the selection in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) and the position of the first **TCHAR** after the last selected **TCHAR** in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657). If either of these values exceeds 65,535, the return value is –1.
+The return value is a zero-based value with the starting position of the selection in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) and the position of the first **TCHAR** after the last selected **TCHAR** in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657). If either of these values exceeds 65,535, the return value is  1.
 
 It is better to use the values returned in *wParam* and *lParam* because they are full 32-bit values.
 
@@ -47,7 +53,7 @@ If there is no selection, the starting and ending values are both the position o
 
 **Rich edit controls:** You can also use the [**EM\_EXGETSEL**](em-exgetsel.md) message to retrieve the same information. **EM\_EXGETSEL** also returns starting and ending character positions as 32-bit values.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -55,8 +61,8 @@ If there is no selection, the starting and ending values are both the position o
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ If there is no selection, the starting and ending values are both the position o
 [**EM\_SETSEL**](em-setsel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

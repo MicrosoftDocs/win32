@@ -1,8 +1,11 @@
 ---
 title: ISMTPTransport CommandMAIL method
 description: Sends the MAIL FROM command to the server.
-ms.assetid: '562c353b-c098-4edf-ac93-15bcbcebd605'
-keywords: ["CommandMAIL method Windows Mail (formerly Outlook Express)", "CommandMAIL method Windows Mail (formerly Outlook Express) , ISMTPTransport interface", "ISMTPTransport interface Windows Mail (formerly Outlook Express) , CommandMAIL method"]
+ms.assetid: 562c353b-c098-4edf-ac93-15bcbcebd605
+keywords:
+- CommandMAIL method Windows Mail (formerly Outlook Express)
+- CommandMAIL method Windows Mail (formerly Outlook Express) , ISMTPTransport interface
+- ISMTPTransport interface Windows Mail (formerly Outlook Express) , CommandMAIL method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISMTPTransport::CommandMAIL method
@@ -24,7 +32,7 @@ Sends the MAIL FROM: command to the server.
 
 ```C++
 HRESULT CommandMAIL(
-  [in] LPSTR pszEmailFrom
+  [in] LPSTR pszEmailFrom
 );
 ```
 
@@ -62,7 +70,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,8 +78,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -79,9 +87,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

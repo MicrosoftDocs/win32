@@ -1,7 +1,12 @@
 ---
 title: Source Register Invert
 description: Performs a (1 - value) calculation for each channel of the specified register.
-ms.assetid: '387e409f-d76d-4d70-be0f-fb563f542482'
+ms.assetid: 387e409f-d76d-4d70-be0f-fb563f542482
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Register Invert

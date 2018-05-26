@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_NodeSetting \ 32;WMI class represents the configu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2deb5f13-4cf5-4ca2-938c-402a90974ddb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2deb5f13-4cf5-4ca2-938c-402a90974ddb
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_NodeSetting class", "MicrosoftNLB_NodeSetting class, described"]
+keywords:
+- MicrosoftNLB_NodeSetting class
+- MicrosoftNLB_NodeSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -46,6 +48,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_NodeSetting class
@@ -60,33 +65,33 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_NodeSetting : CIM_Setting
 {
-  string  SettingID;
-  string  Caption;
-  string  Description;
-  string  Name;
-  string  DedicatedIPAddress;
-  string  DedicatedIPAddresses[];
-  string  DedicatedNetworkMask;
-  string  DedicatedNetworkMasks[];
-  uint32  NumberOfRules;
-  uint32  HostPriority;
-  uint32  AliveMessagePeriod;
-  uint32  AliveMessageTolerance;
+  string  SettingID;
+  string  Caption;
+  string  Description;
+  string  Name;
+  string  DedicatedIPAddress;
+  string  DedicatedIPAddresses[];
+  string  DedicatedNetworkMask;
+  string  DedicatedNetworkMasks[];
+  uint32  NumberOfRules;
+  uint32  HostPriority;
+  uint32  AliveMessagePeriod;
+  uint32  AliveMessageTolerance;
   Boolean ClusterModeOnStart;
   Boolean ClusterModeSuspendOnStart;
   Boolean PersistSuspendOnReboot;
-  uint32  RemoteControlUDPPort;
+  uint32  RemoteControlUDPPort;
   Boolean MaskSourceMAC;
-  uint32  MaxConnectionDescriptors;
-  uint32  DescriptorsPerAlloc;
-  uint32  MaxDescriptorsPerAlloc;
-  uint32  FilterIcmp;
-  uint32  TcpDescriptorTimeout;
-  uint32  IpSecDescriptorTimeout;
-  uint32  NumActions;
-  uint32  NumPackets;
-  uint32  NumAliveMessages;
-  string  AdapterGuid;
+  uint32  MaxConnectionDescriptors;
+  uint32  DescriptorsPerAlloc;
+  uint32  MaxDescriptorsPerAlloc;
+  uint32  FilterIcmp;
+  uint32  TcpDescriptorTimeout;
+  uint32  IpSecDescriptorTimeout;
+  uint32  NumActions;
+  uint32  NumPackets;
+  uint32  NumAliveMessages;
+  string  AdapterGuid;
 };
 ```
 
@@ -112,7 +117,7 @@ The **MicrosoftNLB\_NodeSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -536,7 +541,7 @@ The **MicrosoftNLB\_NodeSetting** class is derived from the [**CIM\_Setting**](h
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -553,9 +558,9 @@ The **MicrosoftNLB\_NodeSetting** class is derived from the [**CIM\_Setting**](h
 [**MicrosoftNLB\_ClusterSetting**](microsoftnlb-clustersetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

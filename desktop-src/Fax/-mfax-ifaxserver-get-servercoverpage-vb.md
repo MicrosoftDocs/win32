@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the ServerCoverpage property for a FaxServer object. The ServerCoverpage property is a Boolean value that indicates whether the fax server permits the use of common cover pages only.'
-ms.assetid: 'b8e22223-eada-44b6-9a84-45b5a29f6eb2'
-title: 'FaxServer.ServerCoverpage property'
+---
+Description: Sets or retrieves the ServerCoverpage property for a FaxServer object. The ServerCoverpage property is a Boolean value that indicates whether the fax server permits the use of common cover pages only.
+ms.assetid: b8e22223-eada-44b6-9a84-45b5a29f6eb2
+title: FaxServer.ServerCoverpage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.ServerCoverpage property

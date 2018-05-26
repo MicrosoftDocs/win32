@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateInstance method creates a new instance of this object.'
-ms.assetid: '5c62f781-0f22-4d8f-8517-272405dd07c5'
-title: 'CSystemClock.CreateInstance method'
+Description: The CreateInstance method creates a new instance of this object.
+ms.assetid: 5c62f781-0f22-4d8f-8517-272405dd07c5
+title: CSystemClock.CreateInstance method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSystemClock.CreateInstance method
@@ -13,8 +18,8 @@ The `CreateInstance` method creates a new instance of this object.
 
 ```C++
 static CUnknown* WINAPI CreateInstance(
-   LPUNKNOWN pUnk,
-   HRESULT   *phr
+   LPUNKNOWN pUnk,
+   HRESULT   *phr
 );
 ```
 
@@ -57,9 +62,9 @@ The class factory calls this method to create the object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

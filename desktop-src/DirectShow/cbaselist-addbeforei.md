@@ -1,7 +1,12 @@
 ---
-Description: 'The AddBeforeI method inserts an item before the specified position.'
-ms.assetid: 'd310e303-889a-43a6-bda5-2e7b805b25d1'
-title: 'CBaseList.AddBeforeI method'
+Description: The AddBeforeI method inserts an item before the specified position.
+ms.assetid: d310e303-889a-43a6-bda5-2e7b805b25d1
+title: CBaseList.AddBeforeI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddBeforeI method
@@ -13,8 +18,8 @@ The `AddBeforeI` method inserts an item before the specified position.
 
 ```C++
 POSITION AddBeforeI(
-   POSITION pos,
-   void     *pObj
+   POSITION pos,
+   void     *pObj
 );
 ```
 
@@ -64,9 +69,9 @@ If *pos* is **NULL**, this method adds the item to the tail of the list (equival
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

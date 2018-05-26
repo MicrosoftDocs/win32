@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following image properties.'
-ms.assetid: 'fb1707a7-16b0-4073-b21d-2ba2f4fd76f7'
+Description: Windows Portable Devices supports the following image properties.
+ms.assetid: fb1707a7-16b0-4073-b21d-2ba2f4fd76f7
 title: Image Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Properties
@@ -23,7 +28,7 @@ Windows Portable Devices supports the following image properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -42,9 +47,9 @@ Windows Portable Devices supports the following image properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

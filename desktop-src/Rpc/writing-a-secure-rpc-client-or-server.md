@@ -1,8 +1,14 @@
 ---
 title: Writing a Secure RPC Client or Server
 description: This section provides best practice recommendations for writing a secure RPC client or server.
-ms.assetid: 'b738b780-247c-4108-b64d-0a4883895182'
-keywords: ["Remote Procedure Call RPC , best practices, writing a secure client or server"]
+ms.assetid: b738b780-247c-4108-b64d-0a4883895182
+keywords:
+- Remote Procedure Call RPC , best practices, writing a secure client or server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Secure RPC Client or Server

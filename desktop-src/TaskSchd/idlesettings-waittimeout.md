@@ -1,8 +1,11 @@
 ---
 title: IdleSettings.WaitTimeout property
 description: For scripting, gets or sets a value that indicates the amount of time that the Task Scheduler will wait for an idle condition to occur.
-ms.assetid: '1be1c62b-bab0-41f8-9f64-e778aba4891f'
-keywords: ["WaitTimeout property Task Scheduler", "WaitTimeout property Task Scheduler , IdleSettings object", "IdleSettings object Task Scheduler , WaitTimeout property"]
+ms.assetid: 1be1c62b-bab0-41f8-9f64-e778aba4891f
+keywords:
+- WaitTimeout property Task Scheduler
+- WaitTimeout property Task Scheduler , IdleSettings object
+- IdleSettings object Task Scheduler , WaitTimeout property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleSettings.WaitTimeout property
@@ -42,8 +50,8 @@ If a task is triggered by an idle trigger, then the **IdleSettings.WaitTimeout**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -59,9 +67,9 @@ If a task is triggered by an idle trigger, then the **IdleSettings.WaitTimeout**
 [**IdleSettings**](idlesettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

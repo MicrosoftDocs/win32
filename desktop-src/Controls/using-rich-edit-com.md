@@ -1,7 +1,12 @@
 ---
 title: How to Use OLE in Rich Edit Controls
 description: This section contains information about using object linking and embedding (OLE) in rich edit controls.
-ms.assetid: 'bfcecbf5-cc35-47b8-a713-7e5fd03f60cc'
+ms.assetid: bfcecbf5-cc35-47b8-a713-7e5fd03f60cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use OLE in Rich Edit Controls
@@ -23,15 +28,15 @@ This section contains information about using object linking and embedding (OLE)
 
 ### Use a Rich Edit Interface
 
-Rich edit controls expose some of their functionality through Component Object Model (COM) interfaces. By obtaining an interface from a control, you gain the ability to work with other objects within the control. You can obtain this interface by sending the [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message. From the [**IRichEditOle**](iricheditole.md) interface, you can then obtain interfaces used in the [Text Object Model](text-object-model.md).
+Rich edit controls expose some of their functionality through Component Object Model (COM) interfaces. By obtaining an interface from a control, you gain the ability to work with other objects within the control. You can obtain this interface by sending the [**EM\_GETOLEINTERFACE**](em-getoleinterface.md) message. From the [**IRichEditOle**](/windows/win32/Richole/nn-richole-iricheditole?branch=master) interface, you can then obtain interfaces used in the [Text Object Model](text-object-model.md).
 
-Another interface, [**IRichEditOleCallback**](iricheditolecallback.md), is implemented by applications to define the behavior of the control when it interacts with objects.
+Another interface, [**IRichEditOleCallback**](/windows/win32/Richole/nn-richole-iricheditolecallback?branch=master), is implemented by applications to define the behavior of the control when it interacts with objects.
 
 ### Insert an Object into a Rich Edit Control
 
 The following code example inserts a file object into a rich edit control. If a program is associated with the file type on the user's machine (for example, Microsoft Excel for an .xls file), the contents of the file display in the control; otherwise, an icon appears.
 
-1.  Get the [**IRichEditOle**](iricheditole.md) interface.
+1.  Get the [**IRichEditOle**](/windows/win32/Richole/nn-richole-iricheditole?branch=master) interface.
 
     ```
     BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
@@ -200,9 +205,9 @@ The following code example inserts a file object into a rich edit control. If a 
 
 ### Using IRichEditOleCallback
 
-Applications implement the [**IRichEditOleCallback**](iricheditolecallback.md) interface to respond to OLE-related queries or actions that are performed by a rich edit control. You associate your implementation of the interface with the control by sending an [**EM\_SETOLECALLBACK**](em-setolecallback.md) message. The control then calls methods on your implementation of the interface as appropriate.
+Applications implement the [**IRichEditOleCallback**](/windows/win32/Richole/nn-richole-iricheditolecallback?branch=master) interface to respond to OLE-related queries or actions that are performed by a rich edit control. You associate your implementation of the interface with the control by sending an [**EM\_SETOLECALLBACK**](em-setolecallback.md) message. The control then calls methods on your implementation of the interface as appropriate.
 
-For example, [**QueryAcceptData**](iricheditolecallback-queryacceptdata.md) is called when the user attempts to drag or paste an object into the control. If your application can accept the data, your implementation of the method returns S\_OK; otherwise, it returns an error code. The method might also take some other action, such as warning the user that files of that type cannot be placed in the control.
+For example, [**QueryAcceptData**](/windows/win32/Richole/nf-richole-iricheditolecallback-queryacceptdata?branch=master) is called when the user attempts to drag or paste an object into the control. If your application can accept the data, your implementation of the method returns S\_OK; otherwise, it returns an error code. The method might also take some other action, such as warning the user that files of that type cannot be placed in the control.
 
 ## Complete InsertObject Example Function
 

@@ -1,7 +1,12 @@
 ---
-Description: 'As of Windows 7, inconsistencies remain in the handling and parsing of URLs. This topic provides a limited guide to navigating inconsistencies in file URL formats.'
-ms.assetid: 'E9792368-517B-4FD7-A244-6C4B7F78B66E'
+Description: As of Windows 7, inconsistencies remain in the handling and parsing of URLs. This topic provides a limited guide to navigating inconsistencies in file URL formats.
+ms.assetid: E9792368-517B-4FD7-A244-6C4B7F78B66E
 title: URL Formatting Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # URL Formatting Requirements
@@ -40,7 +45,7 @@ The different formats are listed in the following table and are each assigned a 
 
 In Windows Search there is largely no sensitivity to slash direction. If the format `c:\test\example` is accepted, then c:/test/example is accepted as well. However, although [SCOPE](-search-sql-folderdepth.md) is generally insensitive to slash direction, it is sensitive to the slash direction in the case of remote URL format F. Hence, `Scope = '//server/share'` does not work.
 
-The only API that is sensitive to trailing stars and distinguishes between `c:\test\ ` and `c:\test\*` is [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md). If there is an exclusion rule for `c:\test\*`, the URL directory `c:\test` itself will still be indexed. But if the exclusion URL is `c:\test\`, the URL directory `c:\test` itself will not be indexed.
+The only API that is sensitive to trailing stars and distinguishes between `c:\test\ ` and `c:\test\*` is [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master). If there is an exclusion rule for `c:\test\*`, the URL directory `c:\test` itself will still be indexed. But if the exclusion URL is `c:\test\`, the URL directory `c:\test` itself will not be indexed.
 
 There are two places where Windows Search is sensitive to trailing slashes: ItemUrl and Path queries. If there is a directory `c:\test`, Windows Search treats `c:\test\` differently from `c:\test` for predicates like `path = 'c:\test'` and `System.ItemUrl = 'c:\test'`. For example, the predicate `path='file:c:/test'` would match the directory `c:\test`, but `path='file:c:/test/'` would not, due to the trailing slash.
 
@@ -52,11 +57,11 @@ Local file URL formats accepted by selected APIs and queries are listed in the f
 
 | API or query                                                                                                    | Format A | Format B | Format C |
 |-----------------------------------------------------------------------------------------------------------------|----------|----------|----------|
-| [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md)                                            | Y        | N        | Y        |
-| [**IGatherNotifyInline::OnDataChange**](-search-igathernotifyinline-ondatachange.md)                           | Y        | Y        | Y        |
-| [**ISearchCatalogManager::ReindexMatchingURLs**](-search-isearchcatalogmanager-reindexmatchingurls.md)         | Y        | Y        | Y        |
-| [**ISearchCatalogManager::ReindexSearchRoot**](-search-isearchcatalogmanager-reindexsearchroot.md)             | Y        | N        | N        |
-| [**ISearchCatalogManager2::PrioritizeMatchingURLs**](-search-isearchcatalogmanager2-prioritizematchingurls.md) | Y        | Y        | Y        |
+| [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master)                                            | Y        | N        | Y        |
+| [**IGatherNotifyInline::OnDataChange**](/windows/win32/Searchapi/?branch=master)                           | Y        | Y        | Y        |
+| [**ISearchCatalogManager::ReindexMatchingURLs**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager-reindexmatchingurls?branch=master)         | Y        | Y        | Y        |
+| [**ISearchCatalogManager::ReindexSearchRoot**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager-reindexsearchroot?branch=master)             | Y        | N        | N        |
+| [**ISearchCatalogManager2::PrioritizeMatchingURLs**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager2-prioritizematchingurls?branch=master) | Y        | Y        | Y        |
 | Scope=                                                                                                          | N        | Y        | Y        |
 | Directory=                                                                                                      | N        | Y        | Y        |
 | ItemUrl=                                                                                                        | N        | Y        | Y        |
@@ -72,11 +77,11 @@ Remote file URL formats accepted by selected queries are listed in the following
 
 | Query                                                                                                           | Format D | Format E | Format F |
 |-----------------------------------------------------------------------------------------------------------------|----------|----------|----------|
-| [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md)                                            | N/A      | N/A      | N/A      |
-| [**IGatherNotifyInline::OnDataChange**](-search-igathernotifyinline-ondatachange.md)                           | N/A      | N/A      | N/A      |
-| [**ISearchCatalogManager::ReindexMatchingURLs**](-search-isearchcatalogmanager-reindexmatchingurls.md)         | N/A      | N/A      | N/A      |
-| [**ISearchCatalogManager::ReindexSearchRoot**](-search-isearchcatalogmanager-reindexsearchroot.md)             | N/A      | N/A      | N/A      |
-| [**ISearchCatalogManager2::PrioritizeMatchingURLs**](-search-isearchcatalogmanager2-prioritizematchingurls.md) | N/A      | N/A      | N/A      |
+| [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master)                                            | N/A      | N/A      | N/A      |
+| [**IGatherNotifyInline::OnDataChange**](/windows/win32/Searchapi/?branch=master)                           | N/A      | N/A      | N/A      |
+| [**ISearchCatalogManager::ReindexMatchingURLs**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager-reindexmatchingurls?branch=master)         | N/A      | N/A      | N/A      |
+| [**ISearchCatalogManager::ReindexSearchRoot**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager-reindexsearchroot?branch=master)             | N/A      | N/A      | N/A      |
+| [**ISearchCatalogManager2::PrioritizeMatchingURLs**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager2-prioritizematchingurls?branch=master) | N/A      | N/A      | N/A      |
 | Scope=                                                                                                          | Y        | Y        | Y        |
 | Directory=                                                                                                      | Y        | Y        | Y        |
 | ItemUrl=                                                                                                        | Y        | Y        | Y        |

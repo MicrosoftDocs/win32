@@ -4,17 +4,22 @@ description: Contains all quota specifications for the directory database.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '47ae1632-dad0-47d5-97f3-47b22d4d04f5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 47ae1632-dad0-47d5-97f3-47b22d4d04f5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Quota-Container class AD Schema", "msDS-QuotaContainer class AD Schema"]
+keywords:
+- ms-DS-Quota-Container class AD Schema
+- msDS-QuotaContainer class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Quota-Container
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Quota-Container class
@@ -35,12 +40,12 @@ Contains all quota specifications for the directory database.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam-attributes)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -68,7 +73,7 @@ Contains all quota specifications for the directory database.
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -175,7 +180,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 Extended Rights
 
-This class contains the following extended rights for Windows Server 2003:
+This class contains the following extended rights for Windows Server 2003:
 
 
 
@@ -337,7 +342,7 @@ This class contains the following extended rights for ADAM:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -447,7 +452,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2003 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2003 R2:
+This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
@@ -483,7 +488,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -604,7 +609,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008:
+This class contains the following extended rights for Windows Server 2008:
 
 
 
@@ -640,7 +645,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -768,7 +773,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008 R2:
+This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
@@ -804,7 +809,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -938,7 +943,7 @@ This class contains the following attributes for Windows Server 2012:
 
 ## Windows Server 2012 Extended Rights
 
-This class contains the following extended rights for Windows Server 2012:
+This class contains the following extended rights for Windows Server 2012:
 
 
 
@@ -948,9 +953,9 @@ This class contains the following extended rights for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Transport Layer Security (TLS) Record protocol secures application data using the keys created during the Handshake.'
-ms.assetid: '3ad4cbd9-ce7c-4882-9c53-c935068c0ba7'
+Description: The Transport Layer Security (TLS) Record protocol secures application data using the keys created during the Handshake.
+ms.assetid: 3ad4cbd9-ce7c-4882-9c53-c935068c0ba7
 title: TLS Record Protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLS Record Protocol

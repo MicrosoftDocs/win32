@@ -1,13 +1,16 @@
 ---
-Description: 'A qualifier is a tag that provides more information about a WMI object, method, or property.'
+Description: A qualifier is a tag that provides more information about a WMI object, method, or property.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '53a307da-2e81-4361-876a-16b51484512e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 53a307da-2e81-4361-876a-16b51484512e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing a WMI Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing a WMI Qualifier
@@ -139,7 +142,7 @@ The following procedure describes how to retrieve a qualifier using VBScript.
 
     
 
-    The most common way to retrieve an object is by using the [**GetObject**](iwbemservices-getobject.md) method. For more information, see [Retrieving a WMI Instance](retrieving-an-instance.md).
+    The most common way to retrieve an object is by using the [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) method. For more information, see [Retrieving a WMI Instance](retrieving-an-instance.md).
 
 2.  Access the qualifiers of the object through the [**SWbemObject.Qualifiers\_**](swbemobject-qualifiers-.md) property, as shown in the following example:
 
@@ -182,11 +185,11 @@ The following procedure describes how to retrieve a qualifier using C++.
 
 1.  Retrieve the object whose qualifiers you want to view.
 
-    The most common way to retrieve an object is by using a call to [**GetObject**](iwbemservices-getobject.md) or [**GetObjectAsync**](iwbemservices-getobjectasync.md). For more information, see [Retrieving WMI Class or Instance Data](retrieving-class-or-instance-data.md).
+    The most common way to retrieve an object is by using a call to [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master). For more information, see [Retrieving WMI Class or Instance Data](retrieving-class-or-instance-data.md).
 
-2.  Retrieve the qualifier set for a given property with a call to [**IWbemClassObject::GetPropertyQualifierSet**](iwbemclassobject-getpropertyqualifierset.md) or [**IWbemClassObject::GetMethodQualifierSet**](iwbemclassobject-getmethodqualifierset.md) methods.
+2.  Retrieve the qualifier set for a given property with a call to [**IWbemClassObject::GetPropertyQualifierSet**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset?branch=master) or [**IWbemClassObject::GetMethodQualifierSet**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-getmethodqualifierset?branch=master) methods.
 
-3.  Access the qualifiers of the object through the returned [**IWbemQualifierSet**](iwbemqualifierset.md) interface.
+3.  Access the qualifiers of the object through the returned [**IWbemQualifierSet**](/windows/win32/Wbemcli/nn-wbemcli-iwbemqualifierset?branch=master) interface.
 
 ## Examples
 

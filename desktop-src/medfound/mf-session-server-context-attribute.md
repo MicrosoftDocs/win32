@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables two instances of the Media Session to share the same Protected Media Path (PMP) process.'
-ms.assetid: 'a922c79b-d6c1-447d-b6fa-993970169a3f'
-title: 'MF\_SESSION\_SERVER\_CONTEXT attribute'
+---
+Description: Enables two instances of the Media Session to share the same Protected Media Path (PMP) process.
+ms.assetid: a922c79b-d6c1-447d-b6fa-993970169a3f
+title: MF\_SESSION\_SERVER\_CONTEXT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SESSION\_SERVER\_CONTEXT attribute
@@ -14,7 +19,7 @@ Enables two instances of the Media Session to share the same Protected Media Pat
 
 ## Remarks
 
-Use this attribute if you want to create the PMP Media Session in an existing PMP process. The value of the attribute is a pointer to the [**IMFPMPServer**](imfpmpserver.md) interface.
+Use this attribute if you want to create the PMP Media Session in an existing PMP process. The value of the attribute is a pointer to the [**IMFPMPServer**](/windows/win32/mfidl/nn-mfidl-imfpmpserver?branch=master) interface.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -37,10 +42,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUnknown**](imfattributes-getunknown.md)
+[**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUnknown**](imfattributes-setunknown.md)
+[**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master)
 </dt> <dt>
 
 [Media Session Attributes](media-session-attributes.md)

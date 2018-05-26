@@ -1,8 +1,31 @@
 ---
 title: WAB and Multi-User/Multi-Identity Profiles
 description: Beginning with version 5.0, the WAB provides support for multiple people who use the same logon name and password in the WAB.
-ms.assetid: 'c0df7598-c66b-40d5-9f05-acb4b17666b9'
-keywords: ["address books", "Windows Address Book (WAB),identities", "WAB (Windows Address Book),identities", "Windows Address Book (WAB),multi-user profiles", "WAB (Windows Address Book),multi-user profiles", "Windows Address Book (WAB),multi-identity profiles", "WAB (Windows Address Book),multi-identity profiles", "Windows Address Book (WAB),folders", "WAB (Windows Address Book),folders", "WAB API", "Windows Address Book (WAB),Root Table", "WAB (Windows Address Book),Root Table", "Windows Address Book (WAB),enhancements", "WAB (Windows Address Book),enhancements", "Windows Address Book (WAB),what's new", "WAB (Windows Address Book),what's new", "Windows Address Book (WAB),new features", "WAB (Windows Address Book),new features"]
+ms.assetid: c0df7598-c66b-40d5-9f05-acb4b17666b9
+keywords:
+- address books
+- Windows Address Book (WAB),identities
+- WAB (Windows Address Book),identities
+- Windows Address Book (WAB),multi-user profiles
+- WAB (Windows Address Book),multi-user profiles
+- Windows Address Book (WAB),multi-identity profiles
+- WAB (Windows Address Book),multi-identity profiles
+- Windows Address Book (WAB),folders
+- WAB (Windows Address Book),folders
+- WAB API
+- Windows Address Book (WAB),Root Table
+- WAB (Windows Address Book),Root Table
+- Windows Address Book (WAB),enhancements
+- WAB (Windows Address Book),enhancements
+- Windows Address Book (WAB),whats new
+- WAB (Windows Address Book),whats new
+- Windows Address Book (WAB),new features
+- WAB (Windows Address Book),new features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WAB and Multi-User/Multi-Identity Profiles
@@ -50,7 +73,7 @@ When a user creates a folder, the WAB creates an [IABContainer : IMAPIContainer]
 
 Support for multiple identities has been added to the WAB while fully preserving backward compatibility with any application shipped with a version of the WAB predating Microsoft Internet Explorer 5. Old applications continue to work as before with the new WAB. With new applications, users can choose either to take advantage of the WAB's multiple-user support capability or to continue in a single-user mode.
 
-To take advantage of multiple-user support, an application calls [**WABOpen**](-wab-wabopen.md) and sets the **WAB\_ENABLE\_PROFILES** flag in the **ulFlags** member of the [**WAB\_PARAM**](-wab-wab-param.md) structure that is passed into **WABOpen**.
+To take advantage of multiple-user support, an application calls [**WABOpen**](/windows/previous-versions/Wabapi/nc-wabapi-wabopen?branch=master) and sets the **WAB\_ENABLE\_PROFILES** flag in the **ulFlags** member of the [**WAB\_PARAM**](/windows/previous-versions/Wabapi/ns-wabapi-_tagwab_param?branch=master) structure that is passed into **WABOpen**.
 
 The exact behavior of the WAB depends on a combination of the following things:
 
@@ -71,11 +94,11 @@ The behavior of the WAB is summarized in the table below. The following definiti
 | WAB Session                                                                  | No multiple-users functionality. Everything is based on a single user.                                             | WAB checks with Identity Manager to see who the current user is.                                                                                                                                                                                           | WAB does not know who the current user is.                                                                                                                                                   |
 | Main WAB UI                                                                  | User can create top level folders. These folders are not represented programmatically as separate containers.      | A top level "Shared Contacts" folder exists and is common to all users. Each identity has a personal top-level folder not shared with other users. User can create one or more subfolders under the personal or shared top-level folder.                   | All folders are shown in the UI for all users because the WAB cannot tell who the current user is.                                                                                           |
 | RootContentsTable                                                            | Consists of a single WAB container followed by configured Lightweight Directory Access Protocol (LDAP) containers. | Consists of a set of WAB containers. There is a separate container for each of the user's personal folders and a separate container for each shared folder, followed by LDAP containers.                                                                   | Consists of all containers corresponding to every folder in the WAB, followed by LDAP containers.                                                                                            |
-| [**GetPAB**](-wab-iaddrbook-getpab.md)                                      | Returns the EntryID of the default WAB container. A single container represents the entire WAB.                    | Returns the EntryID of the default folder corresponding to the current identity. If an application manipulates data in this container, the data go directly into the current identity's default folder location.                                           | Returns the EntryID of the top level "Shared Contacts" folder. The WAB does not know who is using it, so the data go to a common place where all identities will be able to see it.          |
+| [**GetPAB**](/windows/previous-versions/Wabiab/?branch=master)                                      | Returns the EntryID of the default WAB container. A single container represents the entire WAB.                    | Returns the EntryID of the default folder corresponding to the current identity. If an application manipulates data in this container, the data go directly into the current identity's default folder location.                                           | Returns the EntryID of the top level "Shared Contacts" folder. The WAB does not know who is using it, so the data go to a common place where all identities will be able to see it.          |
 | [**GetContentsTable**](-wab-iabcontainer-getcontentstable.md)               | Returns list of all the WAB contents.                                                                              | Returns a list of contents corresponding to the current container only. An application can pass the flag **WAB\_PROFILE\_CONTENTS** to override this behavior and get a complete set of contents for all the personal and shared data of the current user. | Returns a list of all the WAB contents.                                                                                                                                                      |
-| [**ResolveName**](-wab-iaddrbook-resolvename.md)                            | Resolves names first against the complete WAB and then the LDAP contents.                                          | Resolves names against the current user's set of folders, the shared folders, and finally the LDAP contents.                                                                                                                                               | Resolves names against the full WAB, followed by LDAP.                                                                                                                                       |
+| [**ResolveName**](/windows/previous-versions/Wabiab/?branch=master)                            | Resolves names first against the complete WAB and then the LDAP contents.                                          | Resolves names against the current user's set of folders, the shared folders, and finally the LDAP contents.                                                                                                                                               | Resolves names against the full WAB, followed by LDAP.                                                                                                                                       |
 | LDAP Configuration                                                           | Consists of a single list of LDAP accounts                                                                         | Consists of a separate set of LDAP accounts for each identity. Accounts used for name resolution, shown in either the Root Contents Table or in the Find People dialog box, are all based on the current identity.                                         | The list of accounts that are used or displayed corresponds to the set of LDAP accounts for the default identity. The default identity is designated through the Identity Manager component. |
-| [**GetMe**](-wab-iwabobject-getme.md)[**SetMe**](-wab-iwabobject-setme.md) | Acts upon one ME entry per WAB                                                                                     | Manipulates a per-identity ME entry. Each identity can specify its own ME.                                                                                                                                                                                 | Returns/Sets ME entry for the default identity.                                                                                                                                              |
+| [**GetMe**](/windows/previous-versions/Wabapi/?branch=master)[**SetMe**](/windows/previous-versions/Wabapi/?branch=master) | Acts upon one ME entry per WAB                                                                                     | Manipulates a per-identity ME entry. Each identity can specify its own ME.                                                                                                                                                                                 | Returns/Sets ME entry for the default identity.                                                                                                                                              |
 
 
 
@@ -83,13 +106,13 @@ The behavior of the WAB is summarized in the table below. The following definiti
 
 ## Root Contents Table
 
-A client can enumerate all the containers within the WAB by obtaining a Root Table. The Root Table is a MAPITABLE that contains a list of all the containers within the WAB. The Root object can be obtained by calling [**OpenEntry**](-wab-iaddrbook-openentry.md) with a **NULL** EntryID. The client then calls [**GetContentsTable**](-wab-iabcontainer-getcontentstable.md) on the Root Object to obtain the Root Table.
+A client can enumerate all the containers within the WAB by obtaining a Root Table. The Root Table is a MAPITABLE that contains a list of all the containers within the WAB. The Root object can be obtained by calling [**OpenEntry**](/windows/previous-versions/Wabiab/?branch=master) with a **NULL** EntryID. The client then calls [**GetContentsTable**](-wab-iabcontainer-getcontentstable.md) on the Root Object to obtain the Root Table.
 
 In older versions of the WAB, the first entry in the root table represented the default WAB container, which contained all the contents in the address book. Any additional containers represented LDAP Directory Services specified by the user. In cases for which the WAB store was set to share data with Outlook, the first container represents the "Contacts" folder in the Outlook store, followed by containers representing additional Outlook Contact Folders, followed by any specified LDAP Directory Services.
 
 In the new WAB, a profile-independent session behaves like an old WAB in that a single container (the default WAB Container) represents the complete address book followed by LDAP containers. However, if the client has specified profile-aware functionality, the first container in the table represents the current user's main folder, followed by other personal folders, followed by the shared folders, followed by any specified LDAP Directory Services.
 
-Note that the default WAB container is the same as the container that is directly accessed through the [**GetPAB**](-wab-iaddrbook-getpab.md) method.
+Note that the default WAB container is the same as the container that is directly accessed through the [**GetPAB**](/windows/previous-versions/Wabiab/?branch=master) method.
 
 If the client wishes to enumerate only containers pertinent to the local address book and ignore LDAP containers, the client can specify the new flag, **WAB\_LOCAL\_CONTAINERS**, when calling [**GetContentsTable**](-wab-iabcontainer-getcontentstable.md) on the Root Object. The resulting Root Table will not contain any LDAP containers.
 
@@ -97,11 +120,11 @@ If the client wishes to enumerate only containers pertinent to the local address
 
 The following changes have been made to allow profile-enabled access to the WAB Data.
 
--   The [**IABContainer**](-wab-iabcontainer.md) interface works with all folder containers, instead of working only with the default WAB container.
--   [**GetPAB**](-wab-iaddrbook-getpab.md) returns the EntryID of the default WAB container. For a WAB that is identity-aware, this container corresponds to the current user's default folder. For identity-aware applications running in non-identity mode, this container corresponds to the "Shared Contacts" folder. For the non-identity WAB, this container corresponds to the entire WAB.
--   When calling [**NewEntry**](-wab-iaddrbook-newentry.md), the caller can specify a container EntryID. The new entry will be created in that particular folder or container.
--   If you call [**ResolveName**](-wab-iaddrbook-resolvename.md) with profile support turned off, the name resolution process works as before. Calling **ResolveName** with profiles turned on causes the name resolution to search containers linked to the current profile first. If no matches are found in the profile's container list, the name resolution process searches the entire address book, followed by appropriate LDAP servers.
--   [**CreateEntry**](-wab-iabcontainer-createentry.md) creates the new entry in the folder represented by the current Container.
+-   The [**IABContainer**](/windows/previous-versions/Wabdefs/?branch=master) interface works with all folder containers, instead of working only with the default WAB container.
+-   [**GetPAB**](/windows/previous-versions/Wabiab/?branch=master) returns the EntryID of the default WAB container. For a WAB that is identity-aware, this container corresponds to the current user's default folder. For identity-aware applications running in non-identity mode, this container corresponds to the "Shared Contacts" folder. For the non-identity WAB, this container corresponds to the entire WAB.
+-   When calling [**NewEntry**](/windows/previous-versions/Wabiab/?branch=master), the caller can specify a container EntryID. The new entry will be created in that particular folder or container.
+-   If you call [**ResolveName**](/windows/previous-versions/Wabiab/?branch=master) with profile support turned off, the name resolution process works as before. Calling **ResolveName** with profiles turned on causes the name resolution to search containers linked to the current profile first. If no matches are found in the profile's container list, the name resolution process searches the entire address book, followed by appropriate LDAP servers.
+-   [**CreateEntry**](/windows/previous-versions/Wabdefs/?branch=master) creates the new entry in the folder represented by the current Container.
 -   [**ResolveNames**](-wab-iabcontainer-resolvenames.md) performs name resolution only within the current container. The given name is matched only with the contacts that belong to the current folder-container. When calling **ResolveNames** on the default WAB container, there may be occasions when a profile-enabled client application will be required to resolve the name against the contents of the entire WAB, not just against the contacts belonging to the default WAB container (and show up in the "Contacts" folder). In this case, the client can specify a **WAB\_IGNORE\_PROFILES** flag, and the resolution will span the entire address book. This flag works only with the default WAB container.
 -   [**DeleteEntries**](-wab-iabcontainer-deleteentries.md) deletes the entry from the current container.
 -   [**GetContentsTable**](-wab-iabcontainer-getcontentstable.md) gets a contents table containing only the contents of the current folder-container. It is sometimes useful to the profile-enabled client to obtain a complete list of contents associated with a particular profile in a single contents-table, instead of having to call **GetContentsTable** on each table separately and then collate the results. To obtain this list, call **GetContentsTable** on the default WAB Container and specify the flag **WAB\_PROFILE\_CONTENTS**. The resulting contents-table will contain all the contacts associated with the profile.

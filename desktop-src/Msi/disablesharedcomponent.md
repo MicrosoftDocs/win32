@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-machine system policy is set to 1, no package on the system gets the shared component functionality enabled by the msidbComponentAttributesShared attribute in the Component table.'
-ms.assetid: '28181f8c-8c03-4962-a142-c35d0dd88940'
+Description: If this per-machine system policy is set to 1, no package on the system gets the shared component functionality enabled by the msidbComponentAttributesShared attribute in the Component table.
+ms.assetid: 28181f8c-8c03-4962-a142-c35d0dd88940
 title: DisableSharedComponent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableSharedComponent

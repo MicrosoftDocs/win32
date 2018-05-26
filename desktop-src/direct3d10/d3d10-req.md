@@ -1,7 +1,12 @@
 ---
-Description: 'Resource limitation constants.'
-ms.assetid: 'a6bfba45-7a0c-4894-a0a6-ee468002175d'
-title: 'D3D10\_REQ'
+Description: Resource limitation constants.
+ms.assetid: a6bfba45-7a0c-4894-a0a6-ee468002175d
+title: D3D10\_REQ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D10\_REQ

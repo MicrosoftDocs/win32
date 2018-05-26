@@ -1,8 +1,9 @@
 ---
 title: RegisterCMM function
 description: RegisterCMM associates a specified identification value with the specified color management module dynamic link library (CMM DLL). When this ID appears in a color profile, Windows can then locate the corresponding CMM so as to create a transform.
-ms.assetid: 'e26a98be-2165-437d-a197-08e07952d043'
-keywords: ["RegisterCMM function Windows Color System"]
+ms.assetid: e26a98be-2165-437d-a197-08e07952d043
+keywords:
+- RegisterCMM function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterCMM function
@@ -24,9 +30,9 @@ api_type:
 
 ```C++
 BOOL WINAPI RegisterCMM(
-   PCTSTR pMachineName,
-   DWORD  cmmID,
-   PCTSTR pCMMdll
+   PCTSTR pMachineName,
+   DWORD  cmmID,
+   PCTSTR pCMMdll
 );
 ```
 
@@ -69,8 +75,8 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -88,9 +94,9 @@ If this function fails, the return value is **FALSE**. For extended error inform
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

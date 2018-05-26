@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the number of type-information interfaces provided by an object.'
-ms.assetid: 'e16bc324-bb49-4df2-afeb-2c2cd1620693'
-title: 'CMediaEvent.GetTypeInfoCount method'
+Description: Retrieves the number of type-information interfaces provided by an object.
+ms.assetid: e16bc324-bb49-4df2-afeb-2c2cd1620693
+title: CMediaEvent.GetTypeInfoCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaEvent.GetTypeInfoCount method
@@ -13,7 +18,7 @@ Retrieves the number of type-information interfaces provided by an object.
 
 ```C++
 HRESULT GetTypeInfoCount(
-   UINT *pctinfo
+   UINT *pctinfo
 );
 ```
 
@@ -52,9 +57,9 @@ Returns E\_POINTER if *pctinfo* is invalid; otherwise, returns S\_OK.
 [**CMediaEvent Class**](cmediaevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

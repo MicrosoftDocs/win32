@@ -1,20 +1,25 @@
 ---
-Description: 'Proxy function for the CopyPalette method.'
-ms.assetid: '2775b389-d6e9-479c-93ea-147e4501551d'
-title: 'IWICBitmapDecoder\_CopyPalette\_Proxy function'
+Description: Proxy function for the CopyPalette method.
+ms.assetid: 2775b389-d6e9-479c-93ea-147e4501551d
+title: IWICBitmapDecoder\_CopyPalette\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapDecoder\_CopyPalette\_Proxy function
 
-Proxy function for the [**CopyPalette**](-wic-codec-iwicbitmapdecoder-copypalette.md) method.
+Proxy function for the [**CopyPalette**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-copypalette?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
-  _In_ IWICBitmapDecoder *THIS_PTR,
-  _In_ IWICPalette       *pIPalette
+  _In_ IWICBitmapDecoder *THIS_PTR,
+  _In_ IWICPalette       *pIPalette
 );
 ```
 
@@ -27,16 +32,16 @@ HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)\***
+Type: **[**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)\***
 
-Pointer to this [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) object.
+Pointer to this [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) object.
 
 </dd> <dt>
 
 *pIPalette* \[in\]
 </dt> <dd>
 
-Type: **[**IWICPalette**](-wic-codec-iwicpalette.md)\***
+Type: **[**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master)\***
 
 The image palette to copy.
 
@@ -56,15 +61,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

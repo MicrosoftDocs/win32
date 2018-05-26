@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generates mipmap chain using a particular texture filter.'
-ms.assetid: '19e651dd-dc34-405b-8769-00d91c097a1f'
+---
+Description: Generates mipmap chain using a particular texture filter.
+ms.assetid: 19e651dd-dc34-405b-8769-00d91c097a1f
 title: D3DX10FilterTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10FilterTexture function
@@ -28,9 +33,9 @@ HRESULT D3DX10FilterTexture(
 *pTexture* 
 </dt> <dd>
 
-Type: **[**ID3D10Resource**](id3d10resource.md)\***
+Type: **[**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master)\***
 
-The texture object to be filtered. See [**ID3D10Resource**](id3d10resource.md).
+The texture object to be filtered. See [**ID3D10Resource**](/windows/win32/D3D10/nn-d3d10-id3d10resource?branch=master).
 
 </dd> <dt>
 

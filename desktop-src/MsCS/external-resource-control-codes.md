@@ -4,11 +4,17 @@ description: The following lists all of the external control codes for resources
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '669e9e2e-8f09-42ed-be99-024464eb89bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 669e9e2e-8f09-42ed-be99-024464eb89bd
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource control codes Failover Cluster ,external", "control codes Failover Cluster ,resource,external", "resources Failover Cluster ,control codes,external"]
+keywords:
+- resource control codes Failover Cluster ,external
+- control codes Failover Cluster ,resource,external
+- resources Failover Cluster ,control codes,external
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # External Resource Control Codes
@@ -36,7 +42,7 @@ Updates the token used to validate a set of credentials for an [Cloud Witness](c
 [CLUSCTL\_RESOURCE\_ADD\_CRYPTO\_CHECKPOINT](clusctl-resource-add-crypto-checkpoint.md)
 </dt> <dd>
 
-Adds a cryptographic key container to the list of keys that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter.
+Adds a cryptographic key container to the list of keys that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -50,21 +56,21 @@ TBD.
 [CLUSCTL\_RESOURCE\_ADD\_REGISTRY\_CHECKPOINT](clusctl-resource-add-registry-checkpoint.md)
 </dt> <dd>
 
-Adds a registry tree to the list of registry trees that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a parameter in the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Adds a registry tree to the list of registry trees that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a parameter in the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
 [CLUSCTL\_RESOURCE\_ADD\_REGISTRY\_CHECKPOINT\_32BIT](clusctl-resource-add-registry-checkpoint-32bit.md)
 </dt> <dd>
 
-Adds a registry tree using the 32-bit view of the registry to the list of registry trees that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a parameter in the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Adds a registry tree using the 32-bit view of the registry to the list of registry trees that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a parameter in the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
 [CLUSCTL\_RESOURCE\_ADD\_REGISTRY\_CHECKPOINT\_64BIT](clusctl-resource-add-registry-checkpoint-64bit.md)
 </dt> <dd>
 
-Adds a registry tree using the 64-bit view of the registry to the list of registry trees that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a parameter in the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Adds a registry tree using the 64-bit view of the registry to the list of registry trees that are replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a parameter in the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
@@ -78,7 +84,7 @@ Removes a cryptographic key container from the list of keys that are being repli
 [CLUSCTL\_RESOURCE\_DELETE\_REGISTRY\_CHECKPOINT](clusctl-resource-delete-registry-checkpoint.md)
 </dt> <dd>
 
-Removes a registry tree from the list of registry trees that are being replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter.
+Removes a registry tree from the list of registry trees that are being replicated for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -155,7 +161,7 @@ Retrieves the class and subclass of a [resource](resources.md).
 [CLUSCTL\_RESOURCE\_GET\_COMMON\_PROPERTIES](clusctl-resource-get-common-properties.md)
 </dt> <dd>
 
-Retrieves the read/write [common properties](common-properties.md) for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceControl**](resourcecontrol.md) parameter.
+Retrieves the read/write [common properties](common-properties.md) for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) parameter.
 
 </dd> <dt>
 
@@ -183,7 +189,7 @@ Retrieves the DNS name of the designated resource.
 [CLUSCTL\_RESOURCE\_GET\_FAILURE\_INFO](clusctl-resource-get-failure-info.md)
 </dt> <dd>
 
-Retrieves information about a resource failure. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Retrieves information about a resource failure. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
@@ -218,14 +224,14 @@ Retrieves the name of a [resource](resources.md).
 [CLUSCTL\_RESOURCE\_GET\_NETWORK\_NAME](clusctl-resource-get-network-name.md)
 </dt> <dd>
 
-Retrieves the name [private property](private-properties.md) of a [Network Name](network-name.md) [resource](resources.md). This [control code](about-control-codes.md) is unsupported by the other default [resource types](resource-types.md). Applications can use this control code as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Retrieves the name [private property](private-properties.md) of a [Network Name](network-name.md) [resource](resources.md). This [control code](about-control-codes.md) is unsupported by the other default [resource types](resource-types.md). Applications can use this control code as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
 [CLUSCTL\_RESOURCE\_GET\_PRIVATE\_PROPERTIES](clusctl-resource-get-private-properties.md)
 </dt> <dd>
 
-Retrieves the read/write [private properties](private-properties.md) for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceControl**](resourcecontrol.md) parameter.
+Retrieves the read/write [private properties](private-properties.md) for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter, and [resource DLLs](resource-dlls.md) receive the control code as a [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) parameter.
 
 </dd> <dt>
 
@@ -239,7 +245,7 @@ Retrieves a [property list](property-lists.md) describing the format of each res
 [CLUSCTL\_RESOURCE\_GET\_REGISTRY\_CHECKPOINTS](clusctl-resource-get-registry-checkpoints.md)
 </dt> <dd>
 
-Retrieves a list of all the registry [checkpoints](checkpointing.md) set for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter.
+Retrieves a list of all the registry [checkpoints](checkpointing.md) set for a [resource](resources.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -302,7 +308,7 @@ Prevents a resource from being designated as the quorum resource.
 [CLUSCTL\_RESOURCE\_NETNAME\_CREDS\_UPDATED](clusctl-resource-netname-creds-updated.md)
 </dt> <dd>
 
-Notifies the resource that the credentials for the domain account associated with the resource has changed.. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Notifies the resource that the credentials for the domain account associated with the resource has changed.. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 > [!Note]  
 > The [CLUSCTL\_RESOURCE\_NETNAME\_CREDS\_UPDATED](clusctl-resource-netname-creds-updated.md) control code is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
@@ -314,7 +320,7 @@ Notifies the resource that the credentials for the domain account associated wit
 [CLUSCTL\_RESOURCE\_NETNAME\_DELETE\_CO](clusctl-resource-netname-delete-co.md)
 </dt> <dd>
 
-Deletes the security principal associated with a designated resource. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Deletes the security principal associated with a designated resource. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
@@ -344,7 +350,7 @@ Repairs the password for a security principal on a client based on the client's 
 
 Resets the password for a security principal on a client based on the client's alternate computer name.
 
-Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 </dd> <dt>
 
@@ -435,7 +441,7 @@ Sets the backup mode for a CSV
 [CLUSCTL\_RESOURCE\_STORAGE\_CLUSTER\_DISK](clusctl-resource-storage-cluster-disk.md)
 </dt> <dd>
 
-TBD. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+TBD. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 > [!Note]  
 > The [CLUSCTL\_RESOURCE\_STORAGE\_CLUSTER\_DISK](clusctl-resource-storage-cluster-disk.md) control code is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
@@ -496,7 +502,7 @@ Retrieves a list of path names for the specified partition.
 [CLUSCTL\_RESOURCE\_STORAGE\_GET\_SHARED\_VOLUME\_INFO](clusctl-resource-storage-get-shared-volume-info.md)
 </dt> <dd>
 
-Retrieves information on the specified shared volume. Applications use this control code as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [*ResourceControl*](resourcecontrol.md) callback function.
+Retrieves information on the specified shared volume. Applications use this control code as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) callback function.
 
 </dd> <dt>
 
@@ -545,7 +551,7 @@ verifies that [control codes](about-control-codes.md) are being processed on the
 [CLUSCTL\_RESOURCE\_UPGRADE\_DLL](clusctl-resource-upgrade-dll.md)
 </dt> <dd>
 
-Allows a setup application to upgrade a [resource DLL](resource-dlls.md) without stopping the [Cluster service](cluster-service.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](clusterresourcecontrol.md) parameter.
+Allows a setup application to upgrade a [resource DLL](resource-dlls.md) without stopping the [Cluster service](cluster-service.md). Applications use this [control code](about-control-codes.md) as a [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -580,7 +586,7 @@ updates the [**VmSwitchPorts**](virtual-machine-configurations-vmswitchports.md)
 [CLUSCTL\_RESOURCE\_VM\_SET\_NEXT\_OFFLINE\_ACTION](clusctl-resource-vm-set-next-offline-action.md)
 </dt> <dd>
 
-Specifies the offline action for the next [*Offline*](offline.md) operation on the virtual machine (VM) resource instance. This can be used to temporarily change the value of the [**OfflineAction**](virtual-machines-offlineaction.md) property without the overhead of modifying and restoring the resource property. Applications use this control code as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [*ResourceControl*](resourcecontrol.md) callback function.
+Specifies the offline action for the next [*Offline*](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master) operation on the virtual machine (VM) resource instance. This can be used to temporarily change the value of the [**OfflineAction**](virtual-machines-offlineaction.md) property without the overhead of modifying and restoring the resource property. Applications use this control code as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) callback function.
 
 </dd> <dt>
 
@@ -598,10 +604,10 @@ initiates the live migration of a VM from one node of a cluster to another node 
 [Resource Control Codes](resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceControl**](resourcecontrol.md)
+[**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master)
 </dt> </dl>
 
  

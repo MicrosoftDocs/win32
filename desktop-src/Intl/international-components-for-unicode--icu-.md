@@ -1,7 +1,12 @@
 ---
-Description: 'International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs.'
-ms.assetid: '4AEBE391-4121-44B2-B15B-0032645D7053'
-title: 'International Components for Unicode (ICU)'
+Description: International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs.
+ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
+title: International Components for Unicode (ICU)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # International Components for Unicode (ICU)

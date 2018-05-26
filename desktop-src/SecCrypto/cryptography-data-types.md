@@ -1,7 +1,12 @@
 ---
-Description: 'The following data types are used by cryptography functions, interfaces, and objects.'
-ms.assetid: '9d6a065d-c765-4d17-9f4c-38a984439278'
+Description: The following data types are used by cryptography functions, interfaces, and objects.
+ms.assetid: 9d6a065d-c765-4d17-9f4c-38a984439278
 title: Cryptography Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptography Data Types

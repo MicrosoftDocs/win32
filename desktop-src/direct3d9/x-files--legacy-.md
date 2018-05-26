@@ -1,7 +1,12 @@
 ---
-Description: 'The X file format refers to files with the .x file name extension.'
-ms.assetid: '06b3dcb3-03fc-4d99-b8c3-32f56d8bf49e'
-title: 'X Files (Legacy) (Direct3D 9)'
+Description: The X file format refers to files with the .x file name extension.
+ms.assetid: 06b3dcb3-03fc-4d99-b8c3-32f56d8bf49e
+title: X Files (Legacy) (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X Files (Legacy) (Direct3D 9)

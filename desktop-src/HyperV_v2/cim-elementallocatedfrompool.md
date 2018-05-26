@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a CIM\_LogicalElement object represents a resource allocated from a CIM\_ResourcePool object.'
-ms.assetid: '5e3c95c5-1cbb-40de-b285-0bf9b34a5ca8'
-title: 'CIM\_ElementAllocatedFromPool class'
+Description: Represents an association in which a CIM\_LogicalElement object represents a resource allocated from a CIM\_ResourcePool object.
+ms.assetid: 5e3c95c5-1cbb-40de-b285-0bf9b34a5ca8
+title: CIM\_ElementAllocatedFromPool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementAllocatedFromPool class
@@ -14,7 +19,7 @@ Represents an association in which a [**CIM\_LogicalElement**](cim-logicalelemen
 [Association, Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::Resource"), AMENDMENT]
 class CIM_ElementAllocatedFromPool : CIM_Dependency
 {
-  CIM_ResourcePool   REF Antecedent;
+  CIM_ResourcePool   REF Antecedent;
   CIM_LogicalElement REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The allocated resource.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The allocated resource.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

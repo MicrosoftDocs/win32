@@ -1,11 +1,16 @@
 ---
-Description: 'Demonstrates how to use the Shell\_NotifyIcon and Shell\_NotifyIconGetRect APIs to display a notification icon.'
+Description: Demonstrates how to use the Shell\_NotifyIcon and Shell\_NotifyIconGetRect APIs to display a notification icon.
 title: NotificationIcon Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NotificationIcon Sample
 
-Demonstrates how to use the [**Shell\_NotifyIcon**](shell-notifyicon.md) and [**Shell\_NotifyIconGetRect**](shell-notifyicongetrect.md) APIs to display a notification icon.
+Demonstrates how to use the [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) and [**Shell\_NotifyIconGetRect**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicongetrect?branch=master) APIs to display a notification icon.
 
 This topic contains the following sections.
 
@@ -17,10 +22,10 @@ This topic contains the following sections.
 
 ## Description
 
-In addition to the use of [**Shell\_NotifyIcon**](shell-notifyicon.md) and [**Shell\_NotifyIconGetRect**](shell-notifyicongetrect.md) to display a notification icon, this sample also demonstrates how to display a rich flyout window, context menu, and balloon notification.
+In addition to the use of [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) and [**Shell\_NotifyIconGetRect**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicongetrect?branch=master) to display a notification icon, this sample also demonstrates how to display a rich flyout window, context menu, and balloon notification.
 
 > [!Note]  
-> [**Shell\_NotifyIconGetRect**](shell-notifyicongetrect.md) is only available on Windows 7 and later versions.
+> [**Shell\_NotifyIconGetRect**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicongetrect?branch=master) is only available on Windows 7 and later versions.
 
  
 
@@ -73,7 +78,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 2.  At the command line, enter `NotificationIcon.exe`. Alternatively, from Windows Explorer double-click the icon for NotificationIcon.exe.
 
 > [!Note]  
-> Notification icons specified with a GUID are protected against spoofing by validating that only a single application registers them. This registration is performed the first time you call Shell\_NotifyIcon(NIM\_ADD, ...) and the full path name of the calling application is stored. If you later move your binary file to a different location, the system will not allow the icon to be added again. Please see [**Shell\_NotifyIcon**](shell-notifyicon.md) for more information.
+> Notification icons specified with a GUID are protected against spoofing by validating that only a single application registers them. This registration is performed the first time you call Shell\_NotifyIcon(NIM\_ADD, ...) and the full path name of the calling application is stored. If you later move your binary file to a different location, the system will not allow the icon to be added again. Please see [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) for more information.
 
  
 

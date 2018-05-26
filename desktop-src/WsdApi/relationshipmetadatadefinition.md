@@ -1,7 +1,12 @@
 ---
-Description: 'Generates a C constant definition for the hosting metadata specified in the hostMetadata element.'
-ms.assetid: 'c15f77a2-060b-4bc3-8759-d921ea57e5b5'
+Description: Generates a C constant definition for the hosting metadata specified in the hostMetadata element.
+ms.assetid: c15f77a2-060b-4bc3-8759-d921ea57e5b5
 title: relationshipMetadataDefinition element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # relationshipMetadataDefinition element
@@ -42,14 +47,14 @@ This element is generally used in C source files to provide the service host met
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

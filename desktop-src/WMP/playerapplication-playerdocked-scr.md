@@ -1,14 +1,20 @@
 ---
 title: PLAYERAPPLICATION.playerDocked
 description: The playerDocked attribute retrieves a value indicating whether Windows Media Player is in a docked state.
-ms.assetid: '8b95da72-037b-4179-a564-fc9bc63368ac'
-keywords: ["PLAYERAPPLICATION.playerDocked Windows Media Player"]
+ms.assetid: 8b95da72-037b-4179-a564-fc9bc63368ac
+keywords:
+- PLAYERAPPLICATION.playerDocked Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYERAPPLICATION.playerDocked
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYERAPPLICATION.playerDocked
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ This attribute is used only when remoting the Windows Media Player control.
 [**Remoting the Windows Media Player Control**](remoting-the-windows-media-player-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

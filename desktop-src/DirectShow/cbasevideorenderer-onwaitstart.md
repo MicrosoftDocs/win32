@@ -1,7 +1,12 @@
 ---
-Description: 'The OnWaitStart method updates times spent waiting and not waiting.'
-ms.assetid: '3f2e2bf2-f205-4b59-b969-cf8c2136437d'
-title: 'CBaseVideoRenderer.OnWaitStart method'
+Description: The OnWaitStart method updates times spent waiting and not waiting.
+ms.assetid: 3f2e2bf2-f205-4b59-b969-cf8c2136437d
+title: CBaseVideoRenderer.OnWaitStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.OnWaitStart method
@@ -47,9 +52,9 @@ This member function is called when starting to wait for a rendering event. It i
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

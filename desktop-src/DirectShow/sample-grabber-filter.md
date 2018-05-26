@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Sample Grabber filter provides a way to retrieve samples as they pass through the filter graph.'
-ms.assetid: '3c2fb52f-2b44-449a-ae96-3cf35a0a401d'
+---
+Description: The Sample Grabber filter provides a way to retrieve samples as they pass through the filter graph.
+ms.assetid: 3c2fb52f-2b44-449a-ae96-3cf35a0a401d
 title: Sample Grabber Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Grabber Filter
@@ -19,11 +24,11 @@ If you want to retrieve samples without rendering the data, connect the Sample G
 
 |                                          |                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                        | [**IBaseFilter**](ibasefilter.md), [**ISampleGrabber**](isamplegrabber.md)                                                                       |
+| Filter interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**ISampleGrabber**](isamplegrabber.md)                                                                       |
 | Input pin media types                    | Any media type.                                                                                                                                    |
-| Input pin interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                             |
+| Input pin interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                             |
 | Output pin media types                   | Any media type. Matches input media type.                                                                                                          |
-| Output pin interfaces                    | [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output pin interfaces                    | [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | CLSID\_SampleGrabber                                                                                                                               |
 | Property Page CLSID                      | No property page.                                                                                                                                  |
 | Executable                               | Qedit.dll                                                                                                                                          |
@@ -43,7 +48,7 @@ If you call [**ISampleGrabber::SetBufferSamples**](isamplegrabber-setbuffersampl
 The filter has the following limitations for video formats:
 
 -   It does not support video types with top-down orientation (negative **biHeight**).
--   It does not support the [**VIDEOINFOHEADER2**](videoinfoheader2.md) format structure (format type equal to **FORMAT\_VideoInfo2**).
+-   It does not support the [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) format structure (format type equal to **FORMAT\_VideoInfo2**).
 -   It rejects any video type where the surface stride does not match the video width.
 
 As a result, the Sample Grabber will not connect to the Video Mixing Renderer (VMR) for some video types.

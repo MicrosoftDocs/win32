@@ -3,14 +3,16 @@ title: CIM\_ManagedSystemElement class
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b3651874-b736-4210-9757-5d02da658452'
-ms.prod: 'windows-server-dev'
+ms.assetid: b3651874-b736-4210-9757-5d02da658452
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 description: 
-keywords: ["CIM_ManagedSystemElement class", "CIM_ManagedSystemElement class, described"]
+keywords:
+- CIM_ManagedSystemElement class
+- CIM_ManagedSystemElement class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedSystemElement class
@@ -55,20 +60,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.22.0"), AMENDMENT]
 class CIM_ManagedSystemElement : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
 };
 ```
 
@@ -1195,7 +1200,7 @@ Strings describing the various **OperationalStatus** array values. For example, 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -1209,9 +1214,9 @@ Strings describing the various **OperationalStatus** array values. For example, 
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

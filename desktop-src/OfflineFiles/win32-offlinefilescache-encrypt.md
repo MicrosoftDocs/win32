@@ -1,13 +1,16 @@
 ---
-Description: 'Encrypts or unencrypts the contents of the Offline Files cache that are cached for the calling user.'
+Description: Encrypts or unencrypts the contents of the Offline Files cache that are cached for the calling user.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f38d1668-1403-46af-8688-3ae6402e4ee9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f38d1668-1403-46af-8688-3ae6402e4ee9
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Encrypt method of the Win32\_OfflineFilesCache class'
+title: Encrypt method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Encrypt method of the Win32\_OfflineFilesCache class
@@ -19,8 +22,8 @@ Encrypts or unencrypts the contents of the Offline Files cache that are cached f
 
 ```mof
 uint32 Encrypt(
-  [in] boolean Encrypt,
-  [in] uint32  Flags
+  [in] boolean Encrypt,
+  [in] uint32  Flags
 );
 ```
 
@@ -107,7 +110,7 @@ This method returns either a [WMI return code](https://msdn.microsoft.com/librar
 
 The cancellation of this operation does not restore the cached files to their prior encryption state. This may leave the cache in a partially encrypted or unencrypted state. The same condition can occur if the operation is aborted due to an error. To resolve the partial state, repeat the operation until successful completion.
 
-Also note that the Offline Files service automatically performs the encryption operation in the background following user logon. This ensures that all files cached by that user are in the correct state—encrypted or unencrypted—to match the state of the cache.
+Also note that the Offline Files service automatically performs the encryption operation in the background following user logon. This ensures that all files cached by that user are in the correct state encrypted or unencrypted to match the state of the cache.
 
 
 
@@ -118,7 +121,7 @@ Also note that the Offline Files service automatically performs the encryption o
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -126,8 +129,8 @@ Also note that the Offline Files service automatically performs the encryption o
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -141,9 +144,9 @@ Also note that the Offline Files service automatically performs the encryption o
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

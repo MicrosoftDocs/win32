@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the categories of CryptoAPI tools.'
-ms.assetid: 'f7208137-5971-4aa5-a46f-b5a64985cd19'
+Description: Lists the categories of CryptoAPI tools.
+ms.assetid: f7208137-5971-4aa5-a46f-b5a64985cd19
 title: CryptoAPI Tools Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptoAPI Tools Reference

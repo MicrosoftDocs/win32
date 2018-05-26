@@ -4,11 +4,13 @@ description: Represents the provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf8a0c6c-5632-4416-8268-17f5fd350e0b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: bf8a0c6c-5632-4416-8268-17f5fd350e0b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ProviderEx class", "Win32_ProviderEx class, described"]
+keywords:
+- Win32_ProviderEx class
+- Win32_ProviderEx class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ProviderEx class
@@ -55,30 +60,30 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [AMENDMENT]
 class Win32_ProviderEx : __Win32Provider
 {
-  string   ClientLoadableCLSID;
-  string   CLSID;
-  sint32   Concurrency;
-  string   DefaultMachineName;
-  boolean  Enabled;
-  sint32   ImpersonationLevel = 0;
-  sint32   InitializationReentrancy;
+  string   ClientLoadableCLSID;
+  string   CLSID;
+  sint32   Concurrency;
+  string   DefaultMachineName;
+  boolean  Enabled;
+  sint32   ImpersonationLevel = 0;
+  sint32   InitializationReentrancy;
   datetime InitializationTimeoutInterval;
-  boolean  InitializeAsAdminFirst;
-  string   Name;
+  boolean  InitializeAsAdminFirst;
+  string   Name;
   datetime OperationTimeoutInterval;
-  boolean  PerLocaleInitialization = FALSE;
-  boolean  PerUserInitialization = FALSE;
-  boolean  Pure = TRUE;
-  boolean  SupportsExplicitShutdown;
-  boolean  SupportsExtendedStatus;
-  boolean  SupportsQuotas;
-  boolean  SupportsSendStatus;
-  boolean  SupportsShutdown;
-  boolean  SupportsThrottling;
+  boolean  PerLocaleInitialization = FALSE;
+  boolean  PerUserInitialization = FALSE;
+  boolean  Pure = TRUE;
+  boolean  SupportsExplicitShutdown;
+  boolean  SupportsExtendedStatus;
+  boolean  SupportsQuotas;
+  boolean  SupportsSendStatus;
+  boolean  SupportsShutdown;
+  boolean  SupportsThrottling;
   datetime UnloadTimeout;
-  string   HostingModel = "Decoupled:Com:FoldIdentity(FALSE)";
-  string   SecurityDescriptor;
-  UInt32   version = 1;
+  string   HostingModel = "Decoupled:Com:FoldIdentity(FALSE)";
+  string   SecurityDescriptor;
+  UInt32   version = 1;
 };
 ```
 
@@ -492,7 +497,7 @@ Version of the provider.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -506,9 +511,9 @@ Version of the provider.
 [**\_\_Win32Provider**](https://msdn.microsoft.com/library/aa394688)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

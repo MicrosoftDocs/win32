@@ -1,8 +1,9 @@
 ---
 title: glViewport function
 description: The glViewport function sets the viewport.
-ms.assetid: '11816b2f-ee18-42ef-a782-2e96699dd087'
-keywords: ["glViewport function OpenGL"]
+ms.assetid: 11816b2f-ee18-42ef-a782-2e96699dd087
+keywords:
+- glViewport function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glViewport function
@@ -22,10 +28,10 @@ The **glViewport** function sets the viewport.
 
 ```C++
 void WINAPI glViewport(
-   GLint   x,
-   GLint   y,
-   GLsizei width,
-   GLsizei height
+   GLint   x,
+   GLint   y,
+   GLsizei width,
+   GLsizei height
 );
 ```
 
@@ -95,7 +101,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 ## Remarks
 
-The **glViewport** function specifies the affine transformation of *x* and *y* from normalized device coordinates to window coordinates. Let (*x*<sub>nd</sub> , *y*<sub>nd</sub> ) be normalized device coordinates. The window coordinates (*x*<sub>w</sub> , *y*<sub>w</sub> ) are then computed as follows:
+The **glViewport** function specifies the affine transformation of *x* and *y* from normalized device coordinates to window coordinates. Let (*x*<sub>nd</sub> , *y*<sub>nd</sub> ) be normalized device coordinates. The window coordinates (*x*<sub>w</sub> , *y*<sub>w</sub> ) are then computed as follows:
 
 ![](images/view01.png)
 
@@ -113,8 +119,8 @@ The following functions retrieve information related to **glViewport**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ The following functions retrieve information related to **glViewport**:
 [**glDepthRange**](gldepthrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

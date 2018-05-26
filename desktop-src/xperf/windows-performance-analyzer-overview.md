@@ -1,8 +1,20 @@
 ---
 title: Windows Performance Analyzer Overview
 description: Windows Performance Analyzer Overview
-ms.assetid: '7eae462c-d404-4ce4-b8c1-da5e440d7280'
-keywords: ["Windows Performance Analyzer, about", "Windows Performance Analyzer, Event Tracing for Windows", "Windows Performance Analyzer, ETW", "Windows Performance Analyzer, graphs", "Windows Performance Analyzer, summary table", "Windows Performance Analyzer, stack walking", "Windows Performance Analyzer, actions"]
+ms.assetid: 7eae462c-d404-4ce4-b8c1-da5e440d7280
+keywords:
+- Windows Performance Analyzer, about
+- Windows Performance Analyzer, Event Tracing for Windows
+- Windows Performance Analyzer, ETW
+- Windows Performance Analyzer, graphs
+- Windows Performance Analyzer, summary table
+- Windows Performance Analyzer, stack walking
+- Windows Performance Analyzer, actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Performance Analyzer Overview

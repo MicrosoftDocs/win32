@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.'
-ms.assetid: '2c484adf-605d-420b-8059-942b35305acd'
-title: 'TRACE\_GUID\_INFO structure'
+---
+Description: Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.
+ms.assetid: 2c484adf-605d-420b-8059-942b35305acd
+title: TRACE\_GUID\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRACE\_GUID\_INFO structure

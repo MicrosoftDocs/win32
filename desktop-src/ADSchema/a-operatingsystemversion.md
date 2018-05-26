@@ -4,17 +4,22 @@ description: The operating system version string, for example, 4.0.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '54ad009e-4cf9-4aa7-b1a7-3823d96f7b0e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 54ad009e-4cf9-4aa7-b1a7-3823d96f7b0e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Operating-System-Version attribute AD Schema", "operatingSystemVersion attribute AD Schema"]
+keywords:
+- Operating-System-Version attribute AD Schema
+- operatingSystemVersion attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Operating-System-Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Operating-System-Version attribute
@@ -38,12 +43,12 @@ The operating system version string, for example, 4.0.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The operating system version string, for example, 4.0.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: float4x4 Structure
 description: A 4x4 matrix, used for 3D transforms.
-ms.assetid: 'C0D2198A-B547-4153-AD02-9A47835FD272'
-keywords: ["float4x4 Structure"]
+ms.assetid: C0D2198A-B547-4153-AD02-9A47835FD272
+keywords:
+- float4x4 Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # float4x4 Structure
@@ -36,7 +42,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Functions
 
@@ -83,7 +89,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Operators
 
@@ -106,7 +112,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Fields
 
@@ -133,7 +139,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -153,9 +159,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

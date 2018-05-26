@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a 2D affine transformation matrix in the xy plane. NULL arguments are treated as identity transformations.'
-ms.assetid: '335de919-ae4d-405d-b6bb-ca6bdc2d568a'
+---
+Description: Builds a 2D affine transformation matrix in the xy plane. NULL arguments are treated as identity transformations.
+ms.assetid: 335de919-ae4d-405d-b6bb-ca6bdc2d568a
 title: D3DXMatrixAffineTransformation2D function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixAffineTransformation2D function

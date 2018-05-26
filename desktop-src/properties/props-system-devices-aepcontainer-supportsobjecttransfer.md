@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the Device Association Endpoint Container Supports Object Transfer.'
-ms.assetid: 'a068c33b-b3bd-428d-8a38-1d28322ade23'
-title: 'System.Devices.AepContainer.SupportsObjectTransfer'
+Description: Indicates if the Device Association Endpoint Container Supports Object Transfer.
+ms.assetid: a068c33b-b3bd-428d-8a38-1d28322ade23
+title: System.Devices.AepContainer.SupportsObjectTransfer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.SupportsObjectTransfer

@@ -1,14 +1,19 @@
 ---
-Description: 'This article explains how to register an accessibility application with the Ease of Access Center. It also explains how to tailor your accessibility application so it works well with the secure desktop.'
-ms.assetid: 'B1887AB2-5EAA-4153-97D3-92EC32F600C7'
+Description: This article explains how to register an accessibility application with the Ease of Access Center. It also explains how to tailor your accessibility application so it works well with the secure desktop.
+ms.assetid: B1887AB2-5EAA-4153-97D3-92EC32F600C7
 title: Programming for the Ease of Access Center
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming for the Ease of Access Center
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-The Ease of Access Center is a Control Panel application for Microsoft Windows that brings together functionality for accessibility and ease of use. By using the Ease of Access Center, users can configure their computers to suit their physical and cognitive needs.
+The Ease of Access Center is a Control Panel application for Microsoft Windows that brings together functionality for accessibility and ease of use. By using the Ease of Access Center, users can configure their computers to suit their physical and cognitive needs.
 
 One function of the Ease of Access Center is to help users launch accessibility applications, including Narrator, On-Screen Keyboard, and Magnifier. Registered third-party applications also appear in the Ease of Access Center and can be launched directly from there.
 
@@ -33,7 +38,7 @@ This article contains the following sections:
 
 ## What's new
 
-Windows 8 introduces several configuration options that can help your accessibility application make smoother transitions between the user desktop and the secure desktop. These configuration options enable you to:
+Windows 8 introduces several configuration options that can help your accessibility application make smoother transitions between the user desktop and the secure desktop. These configuration options enable you to:
 
 -   Specify whether your accessibility application runs in a job. With this option, Windows automatically stops and restarts the application with each desktop transition.
 -   Copy the current running state of your accessibility application to the registry, and then use those settings to restore the state when the application starts running on the secure desktop.
@@ -41,7 +46,7 @@ Windows 8 introduces several configuration options that can help your accessibil
 
 The following sections provide more information about the configuration options.
 
-Beginning with Windows 8, your accessibility application can be launched on a slate device. If you register your application with the Ease of Access Center, it automatically appears in a list of applications that can be launched when the user presses the Windows logo key along with the volume-up key.
+Beginning with Windows 8, your accessibility application can be launched on a slate device. If you register your application with the Ease of Access Center, it automatically appears in a list of applications that can be launched when the user presses the Windows logo key along with the volume-up key.
 
 ## Registering with the Ease of Access Center
 
@@ -62,7 +67,7 @@ Accessibility applications register with the Ease of Access Center by creating o
 
 
 
- 
+ 
 
 ### Localization
 
@@ -115,7 +120,7 @@ The valid values for the **Accommodation type** attribute are as follows:
 > [!Note]  
 > These values are case sensitive.
 
- 
+ 
 
 If an accessibility application supports multiple accommodations, the Profile registry value should include an **Accommodation type** attribute for each accommodation.
 
@@ -173,7 +178,7 @@ If the TerminateOnDesktopSwitch key exists and is set to 0, Windows doesn't run 
 
 The disadvantages of not running in a job include:
 
--   Because the application isn’t restarted on desktop transitions, it must detect when the current desktop is inactive and respond appropriately. For example, the application must relinquish control of hardware so the secure desktop version of the application can use it, and the application should enter sleep mode to avoid using processor resources.
+-   Because the application isn t restarted on desktop transitions, it must detect when the current desktop is inactive and respond appropriately. For example, the application must relinquish control of hardware so the secure desktop version of the application can use it, and the application should enter sleep mode to avoid using processor resources.
 -   If the application can be started through the Start menu, Windows Explorer, or the command line, the Ease of Access Center needs to be informed. For more information, see [Windows Logo Key + U](#windows-logo-key-u).
 -   Because multiple copies of the application can run simultaneously on different desktops, the application must be written to support multiple running copies.
 
@@ -243,7 +248,7 @@ To copy settings, set the application's CopySettingsToLockedDesktop registry key
 
 **HKCU\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Accessibility\\ATConfig\\&lt;AT Key Name&gt;**
 
-The Ease of Access Center monitors this registry location while the application is running. When a transition to the secure desktop occurs, the Ease of Access Center copies the settings to the same location in the secure desktop’s HKCU hive. The application can then read the settings and resume its state.
+The Ease of Access Center monitors this registry location while the application is running. When a transition to the secure desktop occurs, the Ease of Access Center copies the settings to the same location in the secure desktop s HKCU hive. The application can then read the settings and resume its state.
 
 Your accessibility application should write its settings at regular intervals or whenever the values change. Writing settings on application exit will not work. If the application is running in a job, it is terminated on the transition away from the secure desktop, before the exit code has a chance to run. If the application is not running in a job, the application is not terminated on the transition away from the secure desktop.
 
@@ -251,7 +256,7 @@ Your accessibility application should write its settings at regular intervals or
 >
 > Because the registry keys described here are written in user mode, they are not secure. If your accessibility application reads the contents of these keys, it should carefully check the data and use it with caution. Specifically, your application should do a bounds check on **DWORD** values, be careful with string lengths, should not read plug-in DLL names, and should not execute any commands found in strings.
 
- 
+ 
 
 ## Registry examples
 
@@ -337,7 +342,7 @@ The values in the table are under the following key:
 
 
 
- 
+ 
 
 If the application provides both a screen reader and a screen magnifier in a single executable, the values for the screen reader component might look like this:
 
@@ -412,7 +417,7 @@ If the application provides both a screen reader and a screen magnifier in a sin
 
 
 
- 
+ 
 
 The values for the magnifier component would be in the following key:
 
@@ -487,11 +492,11 @@ The values for the magnifier component would be in the following key:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

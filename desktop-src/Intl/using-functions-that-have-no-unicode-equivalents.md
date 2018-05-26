@@ -1,7 +1,12 @@
 ---
-Description: 'Functions that have not been implemented with a Unicode version have typically been replaced by more powerful or extended functions that do support Unicode.'
-ms.assetid: '9e02c8fe-4fed-4b77-9b09-35850350859a'
+Description: Functions that have not been implemented with a Unicode version have typically been replaced by more powerful or extended functions that do support Unicode.
+ms.assetid: 9e02c8fe-4fed-4b77-9b09-35850350859a
 title: Using Functions That Have No Unicode Equivalents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Functions That Have No Unicode Equivalents
@@ -46,7 +51,7 @@ int num = atoi(tstr);
 
 In this example, the standard C library function **wcstombs** translates Unicode to ASCII. The example relies on the fact that the digits 0 through 9 can always be translated from Unicode to ASCII, even if some of the surrounding text cannot. The **atoi** function stops at any character that is not a digit.
 
-Your application can use the National Language Support (NLS) [**LCMapString**](lcmapstring.md) function to process text that includes the [native digits](digit-shapes.md) provided for some of the scripts in Unicode.
+Your application can use the National Language Support (NLS) [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master) function to process text that includes the [native digits](digit-shapes.md) provided for some of the scripts in Unicode.
 
 > \[!Caution\]  
 > Using the **wcstombs** function incorrectly can compromise the security of your application. Make sure that the application buffer for the string of 8-bit characters is at least of size 2\*(*char\_length* +1), where *char\_length* represents the length of the Unicode string. This restriction is made because, with [double-byte character sets](double-byte-character-sets.md) (DBCSs), each Unicode character can be mapped to two consecutive 8-bit characters. If the buffer does not hold the entire string, the result string is not null-terminated, posing a security risk. For more information about application security, see [Security Considerations: International Features](security-considerations--international-features.md).

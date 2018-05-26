@@ -4,11 +4,13 @@ description: The Columns object is a collection of Column objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14e3acb5-56ee-4203-aa70-0e7ffd5957ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 14e3acb5-56ee-4203-aa70-0e7ffd5957ce
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Columns Collection object MMC", "Columns Collection object MMC , described"]
+keywords:
+- Columns Collection object MMC
+- Columns Collection object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Columns Collection object
@@ -42,7 +47,7 @@ The **Columns Collection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +61,7 @@ The **Columns Collection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -80,8 +85,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -96,9 +101,9 @@ Next
 [**View.Columns Property**](view-columns.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

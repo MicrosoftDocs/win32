@@ -4,13 +4,15 @@ description: AffectedJobElement represents an association between a Job and the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b1d947c-d44b-4a4b-9685-465f62b1561b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7b1d947c-d44b-4a4b-9685-465f62b1561b
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AffectedJobElement class iSCSI Software Target API", "CIM_AffectedJobElement class iSCSI Software Target API , described"]
+keywords:
+- CIM_AffectedJobElement class iSCSI Software Target API
+- CIM_AffectedJobElement class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AffectedJobElement class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Job            REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Job            REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -171,16 +176,16 @@ Provides details for the 'effect' at the corresponding array position in Element
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

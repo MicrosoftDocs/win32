@@ -1,12 +1,17 @@
 ---
 title: HTTP Sessions
 description: Resources on the WWW are accessed by using http.
-ms.assetid: '0f307e28-9c38-41e7-9795-7eef08e99a3c'
+ms.assetid: 0f307e28-9c38-41e7-9795-7eef08e99a3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Sessions
 
-WinINet enables you to access resources on the World Wide Web (WWW). These resources can be accessed directly by using [**InternetOpenUrl**](internetopenurl.md) (for more information, see [Accessing URLs Directly](handling-uniform-resource-locators.md#accessing-urls-directly)).
+WinINet enables you to access resources on the World Wide Web (WWW). These resources can be accessed directly by using [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) (for more information, see [Accessing URLs Directly](handling-uniform-resource-locators.md#accessing-urls-directly)).
 
 Resources on the WWW are accessed by using http. The HTTP functions handle the underlying protocols, while allowing your application to access information on the WWW. As the HTTP protocol evolves, the underlying protocols are updated to maintain function behavior.
 
@@ -32,11 +37,11 @@ The following functions are used during HTTP sessions to access the WWW.
 
 | Function                                               | Description                                                                                                                                                                                  |
 |--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**HttpAddRequestHeaders**](httpaddrequestheaders.md) | Adds HTTP request headers to the HTTP request handle. This function requires a handle created by [**HttpOpenRequest**](httpopenrequest.md).                                                 |
-| [**HttpOpenRequest**](httpopenrequest.md)             | Opens an HTTP request handle. This function requires a handle created by [**InternetConnect**](internetconnect.md).                                                                         |
-| [**HttpQueryInfo**](httpqueryinfo.md)                 | Queries information about an HTTP request. This function requires a handle created by the [**HttpOpenRequest**](httpopenrequest.md) or [**InternetOpenUrl**](internetopenurl.md) function. |
-| [**HttpSendRequest**](httpsendrequest.md)             | Sends the specified HTTP request to the HTTP server. This function requires a handle created by [**HttpOpenRequest**](httpopenrequest.md).                                                  |
-| [**InternetErrorDlg**](interneterrordlg.md)           | Displays predefined dialog boxes for common Internet error conditions. This function requires the handle used in the call to [**HttpSendRequest**](httpsendrequest.md).                     |
+| [**HttpAddRequestHeaders**](/windows/win32/Wininet/nf-wininet-httpaddrequestheadersa?branch=master) | Adds HTTP request headers to the HTTP request handle. This function requires a handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master).                                                 |
+| [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master)             | Opens an HTTP request handle. This function requires a handle created by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master).                                                                         |
+| [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master)                 | Queries information about an HTTP request. This function requires a handle created by the [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) or [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) function. |
+| [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master)             | Sends the specified HTTP request to the HTTP server. This function requires a handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master).                                                  |
+| [**InternetErrorDlg**](/windows/win32/Wininet/nf-wininet-interneterrordlg?branch=master)           | Displays predefined dialog boxes for common Internet error conditions. This function requires the handle used in the call to [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master).                     |
 
 
 
@@ -44,17 +49,17 @@ The following functions are used during HTTP sessions to access the WWW.
 
 ### Initiating a Connection to the WWW
 
-To start a connection to the WWW, the application must call the [**InternetConnect**](internetconnect.md) function on the root [**HINTERNET**](appendix-a-hinternet-handles.md) returned by [**InternetOpen**](internetopen.md). [**InternetConnect**](internetconnect.md) must establish an HTTP session by declaring the INTERNET\_SERVICE\_HTTP service type. For more information on using [**InternetConnect**](internetconnect.md), see [Using InternetConnect](enabling-internet-functionality.md#using-internetconnect).
+To start a connection to the WWW, the application must call the [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) function on the root [**HINTERNET**](appendix-a-hinternet-handles.md) returned by [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master). [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) must establish an HTTP session by declaring the INTERNET\_SERVICE\_HTTP service type. For more information on using [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master), see [Using InternetConnect](enabling-internet-functionality.md#using-internetconnect).
 
 ### Opening a Request
 
-The [**HttpOpenRequest**](httpopenrequest.md) function opens an HTTP request and returns an [**HINTERNET**](appendix-a-hinternet-handles.md) handle that can be used by the other HTTP functions. Unlike the other open functions (such as [**FtpOpenFile**](ftpopenfile.md) and [**InternetOpenUrl**](internetopenurl.md)), [**HttpOpenRequest**](httpopenrequest.md) does not send the request to the Internet when called. The [**HttpSendRequest**](httpsendrequest.md) function sends the request and establishes a connection over the network.
+The [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) function opens an HTTP request and returns an [**HINTERNET**](appendix-a-hinternet-handles.md) handle that can be used by the other HTTP functions. Unlike the other open functions (such as [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master) and [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master)), [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) does not send the request to the Internet when called. The [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) function sends the request and establishes a connection over the network.
 
-[**HttpOpenRequest**](httpopenrequest.md) takes an HTTP session handle created by [**InternetConnect**](internetconnect.md) and an HTTP verb, object name, version string, referrer, accept types, flags, and context value.
+[**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) takes an HTTP session handle created by [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) and an HTTP verb, object name, version string, referrer, accept types, flags, and context value.
 
-The HTTP verb is a string to be used in the request. Common HTTP verbs used in requests include GET, PUT, and POST. If this value is set to **NULL**, [**HttpOpenRequest**](httpopenrequest.md) uses the default value GET.
+The HTTP verb is a string to be used in the request. Common HTTP verbs used in requests include GET, PUT, and POST. If this value is set to **NULL**, [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) uses the default value GET.
 
-The object name is a string that contains the name of the specified HTTP verb's target object. This is generally a file name, an executable module, or a search specifier. If the object name supplied is an empty string, [**HttpOpenRequest**](httpopenrequest.md) looks for the default page.
+The object name is a string that contains the name of the specified HTTP verb's target object. This is generally a file name, an executable module, or a search specifier. If the object name supplied is an empty string, [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) looks for the default page.
 
 The version string should contain the HTTP version. If this parameter is **NULL**, the function uses ""HTTP/1.1"".
 
@@ -64,39 +69,39 @@ The **null**-terminated string that contains the accept types indicates the cont
 
 The flag values control caching, cookies, and security issues. For Microsoft Network (MSN), NTLM, and other types of authentication, set the [INTERNET\_FLAG\_KEEP\_CONNECTION](api-flags.md#internet-flag-keep-connection) flag.
 
-If the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag was set in the call to [**InternetOpen**](internetopen.md), a nonzero context value should be set for proper asynchronous operation.
+If the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag was set in the call to [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master), a nonzero context value should be set for proper asynchronous operation.
 
-The following example is a sample call to [**HttpOpenRequest**](httpopenrequest.md).
+The following example is a sample call to [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master).
 
 `hHttpRequest = HttpOpenRequest( hHttpSession, "GET", "", NULL, "", NULL, 0, 0);`
 
 ### Adding Request Headers
 
-The [**HttpAddRequestHeaders**](httpaddrequestheaders.md) function enables applications to add one or more request headers to the initial request. This function allows an application to append additional free-format headers to the HTTP request handle; it is intended for use by sophisticated applications that require precise control over the request sent to the HTTP server.
+The [**HttpAddRequestHeaders**](/windows/win32/Wininet/nf-wininet-httpaddrequestheadersa?branch=master) function enables applications to add one or more request headers to the initial request. This function allows an application to append additional free-format headers to the HTTP request handle; it is intended for use by sophisticated applications that require precise control over the request sent to the HTTP server.
 
-[**HttpAddRequestHeaders**](httpaddrequestheaders.md) needs an HTTP request handle created by [**HttpOpenRequest**](httpopenrequest.md), a string that contains the headers, the length of the headers, and modifiers.
+[**HttpAddRequestHeaders**](/windows/win32/Wininet/nf-wininet-httpaddrequestheadersa?branch=master) needs an HTTP request handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master), a string that contains the headers, the length of the headers, and modifiers.
 
 ### Sending a Request
 
-[**HttpSendRequest**](httpsendrequest.md) establishes a connection to the Internet and sends the request to the specified site. This function requires an [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](httpopenrequest.md). [**HttpSendRequest**](httpsendrequest.md) can also send additional headers or optional information. The optional information is generally used for operations that write information to the server, such as PUT and POST.
+[**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) establishes a connection to the Internet and sends the request to the specified site. This function requires an [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master). [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) can also send additional headers or optional information. The optional information is generally used for operations that write information to the server, such as PUT and POST.
 
-After [**HttpSendRequest**](httpsendrequest.md) sends the request, the application can use the [**InternetReadFile**](internetreadfile.md), [**InternetQueryDataAvailable**](internetquerydataavailable.md), and [**InternetSetFilePointer**](internetsetfilepointer.md) functions on the [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](httpopenrequest.md) to download the server's resources.
+After [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) sends the request, the application can use the [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master), and [**InternetSetFilePointer**](/windows/win32/Wininet/nf-wininet-internetsetfilepointer?branch=master) functions on the [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) to download the server's resources.
 
 ### Posting Data to the Server
 
-To post data to a server, the HTTP verb in the call to [**HttpOpenRequest**](httpopenrequest.md) must be either POST or PUT. The address of the buffer that contains the POST data should then be passed to the *lpOptional* parameter in [**HttpSendRequest**](httpsendrequest.md). The *dwOptionalLength* parameter should be set to the size of the data.
+To post data to a server, the HTTP verb in the call to [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) must be either POST or PUT. The address of the buffer that contains the POST data should then be passed to the *lpOptional* parameter in [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master). The *dwOptionalLength* parameter should be set to the size of the data.
 
-You can also use the [**InternetWriteFile**](internetwritefile.md) function to post data on an [**HINTERNET**](appendix-a-hinternet-handles.md) handle sent using [**HttpSendRequestEx**](httpsendrequestex.md).
+You can also use the [**InternetWriteFile**](/windows/win32/Wininet/nf-wininet-internetwritefile?branch=master) function to post data on an [**HINTERNET**](appendix-a-hinternet-handles.md) handle sent using [**HttpSendRequestEx**](/windows/win32/Wininet/nf-wininet-httpsendrequestexa?branch=master).
 
 ### Getting Information About a Request
 
-[**HttpQueryInfo**](httpqueryinfo.md) allows an application to retrieve information about an HTTP request. The function requires an [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](httpopenrequest.md) or [**InternetOpenUrl**](internetopenurl.md), an information level value, and a buffer length. [**HttpQueryInfo**](httpqueryinfo.md) also accepts a buffer that stores the information and a zero-based header index that enumerates multiple headers with the same name.
+[**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) allows an application to retrieve information about an HTTP request. The function requires an [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) or [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), an information level value, and a buffer length. [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) also accepts a buffer that stores the information and a zero-based header index that enumerates multiple headers with the same name.
 
 ### Downloading Resources from the WWW
 
-After opening a request with [**HttpOpenRequest**](httpopenrequest.md) and sending it to the server with [**HttpSendRequest**](httpsendrequest.md), the application can use the [**InternetReadFile**](internetreadfile.md), [**InternetQueryDataAvailable**](internetquerydataavailable.md), and [**InternetSetFilePointer**](internetsetfilepointer.md) functions to download the resource from the HTTP server.
+After opening a request with [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) and sending it to the server with [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master), the application can use the [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master), and [**InternetSetFilePointer**](/windows/win32/Wininet/nf-wininet-internetsetfilepointer?branch=master) functions to download the resource from the HTTP server.
 
-The following example downloads a resource. The function accepts the handle to the current window, the identification number of an edit box, and an [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](httpopenrequest.md) and sent by [**HttpSendRequest**](httpsendrequest.md). It uses [**InternetQueryDataAvailable**](internetquerydataavailable.md) to determine the size of the resource and then downloads it using [**InternetReadFile**](internetreadfile.md). The contents are then displayed in the edit box.
+The following example downloads a resource. The function accepts the handle to the current window, the identification number of an edit box, and an [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) and sent by [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master). It uses [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master) to determine the size of the resource and then downloads it using [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master). The contents are then displayed in the edit box.
 
 
 ```C++

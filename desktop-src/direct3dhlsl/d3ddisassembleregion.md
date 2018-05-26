@@ -1,8 +1,9 @@
 ---
 title: D3DDisassembleRegion function
 description: Disassembles a specific region of compiled Microsoft High Level Shader Language (HLSL) code.
-ms.assetid: '4813FF62-42FA-425D-9C24-9E472F04E35B'
-keywords: ["D3DDisassembleRegion function HLSL"]
+ms.assetid: 4813FF62-42FA-425D-9C24-9E472F04E35B
+keywords:
+- D3DDisassembleRegion function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDisassembleRegion function
@@ -21,14 +27,14 @@ Disassembles a specific region of compiled Microsoft High Level Shader Language 
 
 ``` syntax
 HRESULT WINAPI D3DDisassembleRegion(
-  in      LPCVOID pSrcData,
-  in      SIZE_T SrcDataSize,
-  in      UINT Flags,
-  in_opt  LPCSTR szComments,
-  in      SIZE_T StartByteOffset,
-  in      SIZE_T NumInsts,
-  out_opt SIZE_T pFinishByteOffset,
-  out     ID3DBlob ppDisassembly
+  in      LPCVOID pSrcData,
+  in      SIZE_T SrcDataSize,
+  in      UINT Flags,
+  in_opt  LPCSTR szComments,
+  in      SIZE_T StartByteOffset,
+  in      SIZE_T NumInsts,
+  out_opt SIZE_T pFinishByteOffset,
+  out     ID3DBlob ppDisassembly
 );
 ```
 
@@ -69,7 +75,7 @@ A combination of zero or more of the following flags that are combined by using 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,7 +123,7 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 > [!Note]  
 > The D3dcompiler\_44.dll or later version of the file contains the **D3DDisassembleRegion** compiler function.
 
- 
+ 
 
 ## Requirements
 
@@ -138,9 +144,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

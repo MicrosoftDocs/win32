@@ -1,12 +1,17 @@
 ---
-Description: 'The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.'
-ms.assetid: 'c5c76cf8-1ca1-4fef-8776-7f4dcca32939'
-title: 'CBaseOutputPin.EndFlush method'
+Description: The EndFlush method ends a flush operation. This method implements the IPinEndFlush method.
+ms.assetid: c5c76cf8-1ca1-4fef-8776-7f4dcca32939
+title: CBaseOutputPin.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.EndFlush method
 
-The `EndFlush` method ends a flush operation. This method implements the [**IPin::EndFlush**](ipin-endflush.md) method.
+The `EndFlush` method ends a flush operation. This method implements the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ This method should only be called on input pins, so the **CBaseOutputPin** imple
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

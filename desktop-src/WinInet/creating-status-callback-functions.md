@@ -1,7 +1,12 @@
 ---
 title: Creating Status Callback Functions
 description: This tutorial describes how to create a status callback function used to monitor the status of an Internet request.
-ms.assetid: '518d0800-5ea6-4327-8459-901e6d9a8a5a'
+ms.assetid: 518d0800-5ea6-4327-8459-901e6d9a8a5a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Status Callback Functions
@@ -23,7 +28,7 @@ The context value can be any unsigned long integer value. Ideally, the context v
 
 One of the most useful ways to use the context value is to pass the address of a structure and cast it to a **DWORD\_PTR**. The structure can be used to store information about the request, so that it is passed to the status callback function.
 
-The following structure is an example of a possible context value. The members of the structure are chosen with the [**InternetOpenUrl**](internetopenurl.md) function in mind.
+The following structure is an example of a possible context value. The members of the structure are chosen with the [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) function in mind.
 
 
 ```C++
@@ -37,13 +42,13 @@ typedef struct{
 
 
 
-In this example, the status callback function would have access to the window handle, which would allow it to display a user interface. The [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpenUrl**](internetopenurl.md) could be passed to another function that can download the resource and an array of characters that can be used to pass information about the request.
+In this example, the status callback function would have access to the window handle, which would allow it to display a user interface. The [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) could be passed to another function that can download the resource and an array of characters that can be used to pass information about the request.
 
 The members of the structure can be changed to fit the needs of a particular application, so do not feel constrained by this example.
 
 ### Creating the Status Callback Function
 
-The status callback function must follow the format of [*InternetStatusCallback*](internetstatuscallback.md). To do this:
+The status callback function must follow the format of [*InternetStatusCallback*](/windows/win32/Wininet/nc-wininet-internet_status_callback?branch=master). To do this:
 
 1.  Write a function declaration for your status callback function.
 
@@ -61,7 +66,7 @@ The status callback function must follow the format of [*InternetStatusCallback*
 
 2.  Determine what your status callback function will do. For applications that are making asynchronous calls, the status callback function must handle the INTERNET\_STATUS\_REQUEST\_COMPLETE value, which indicates an asynchronous request is complete. The status callback function can also be used to track the progress of an Internet request.
 
-    In general, it works best to use a switch statement with *dwInternetStatus* as the switch value and the status values for the case statements. Depending on the types of functions your application is calling, you can ignore some of the status values. For a definition of the different status values, see the listing under the *dwInternetStatus* parameter of [*InternetStatusCallback*](internetstatuscallback.md).
+    In general, it works best to use a switch statement with *dwInternetStatus* as the switch value and the status values for the case statements. Depending on the types of functions your application is calling, you can ignore some of the status values. For a definition of the different status values, see the listing under the *dwInternetStatus* parameter of [*InternetStatusCallback*](/windows/win32/Wininet/nc-wininet-internet_status_callback?branch=master).
 
     The following switch statement is an example of how to handle status callbacks.
 
@@ -217,7 +222,7 @@ The status callback function must follow the format of [*InternetStatusCallback*
 
     
 
-4.  Use the [**InternetSetStatusCallback**](internetsetstatuscallback.md) function to set the status callback function on the [**HINTERNET**](appendix-a-hinternet-handles.md) handle for which you want to receive status callbacks.
+4.  Use the [**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master) function to set the status callback function on the [**HINTERNET**](appendix-a-hinternet-handles.md) handle for which you want to receive status callbacks.
 
     The following example demonstrates how to set a status callback function.
 
@@ -248,10 +253,10 @@ The status callback function must follow the format of [*InternetStatusCallback*
 [Creating Status Callback Functions](creating-status-callback-functions.md)
 </dt> <dt>
 
-[**InternetSetStatusCallback**](internetsetstatuscallback.md)
+[**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master)
 </dt> <dt>
 
-[*InternetStatusCallback*](internetstatuscallback.md)
+[*InternetStatusCallback*](/windows/win32/Wininet/nc-wininet-internet_status_callback?branch=master)
 </dt> </dl>
 
  

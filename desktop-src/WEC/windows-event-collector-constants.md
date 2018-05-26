@@ -2,9 +2,9 @@
 title: Windows Event Collector Constants
 description: The Windows Event Collector SDK contains the following constants.
 audience: developer
-ms.assetid: '2ba862f9-6849-43b3-8914-e18ede1d63c0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 2ba862f9-6849-43b3-8914-e18ede1d63c0
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -20,6 +20,9 @@ api_location:
 - Evcoll.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Event Collector Constants
@@ -36,7 +39,7 @@ The Windows Event Collector SDK contains the following constants.
 
 
 
-Used to mask out the array bit from the **Type** property of an [**EC\_VARIANT**](ec-variant.md) to extract the type of the variant value.
+Used to mask out the array bit from the **Type** property of an [**EC\_VARIANT**](/windows/win32/Evcoll/ns-evcoll-_ec_variant?branch=master) to extract the type of the variant value.
 
 
 </dt> </dl> </dd> <dt>
@@ -49,7 +52,7 @@ Used to mask out the array bit from the **Type** property of an [**EC\_VARIANT**
 
 
 
-When this bit is set in the **Type** property of an [**EC\_VARIANT**](ec-variant.md), the variant contains a pointer to an array of values, rather than the value itself.
+When this bit is set in the **Type** property of an [**EC\_VARIANT**](/windows/win32/Evcoll/ns-evcoll-_ec_variant?branch=master), the variant contains a pointer to an array of values, rather than the value itself.
 
 
 </dt> </dl> </dd> <dt>
@@ -88,7 +91,7 @@ Write access control permission that allows information to be written to the eve
 
 
 
-Opens an existing subscription or creates the subscription if it does not exist. Used by the [**EcOpenSubscription**](ecopensubscription.md) method.
+Opens an existing subscription or creates the subscription if it does not exist. Used by the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) method.
 
 
 </dt> </dl> </dd> <dt>
@@ -101,7 +104,7 @@ Opens an existing subscription or creates the subscription if it does not exist.
 
 
 
-A flag passed to the [**EcOpenSubscription**](ecopensubscription.md) function specifying that a new subscription should be created.
+A flag passed to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function specifying that a new subscription should be created.
 
 
 </dt> </dl> </dd> <dt>
@@ -114,7 +117,7 @@ A flag passed to the [**EcOpenSubscription**](ecopensubscription.md) function sp
 
 
 
-A flag passed to the [**EcOpenSubscription**](ecopensubscription.md) function specifying that an existing subscription should be opened.
+A flag passed to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function specifying that an existing subscription should be opened.
 
 
 </dt> </dl> </dd> </dl>
@@ -125,15 +128,15 @@ A flag passed to the [**EcOpenSubscription**](ecopensubscription.md) function sp
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Evcoll.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'WMI has several types of class and property qualifiers. Qualifiers can also have modifying flavors.'
+Description: WMI has several types of class and property qualifiers. Qualifiers can also have modifying flavors.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b889df69-327b-40d0-bbd7-a33d7924f3e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b889df69-327b-40d0-bbd7-a33d7924f3e1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Qualifiers

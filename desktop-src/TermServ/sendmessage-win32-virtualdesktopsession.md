@@ -4,11 +4,14 @@ description: Send a message to the user through the virtual desktop session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4bb9183e-c016-48f2-8e8c-0d5fb395c435'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4bb9183e-c016-48f2-8e8c-0d5fb395c435
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SendMessage method Remote Desktop Services", "SendMessage method Remote Desktop Services , Win32_VirtualDesktopSession class", "Win32_VirtualDesktopSession class Remote Desktop Services , SendMessage method"]
+keywords:
+- SendMessage method Remote Desktop Services
+- SendMessage method Remote Desktop Services , Win32_VirtualDesktopSession class
+- Win32_VirtualDesktopSession class Remote Desktop Services , SendMessage method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SendMessage method of the Win32\_VirtualDesktopSession class
@@ -28,8 +34,8 @@ Send a message to the user through the virtual desktop session.
 
 ```mof
 uint32 SendMessage(
-  [in] string Title,
-  [in] string Message
+  [in] string Title,
+  [in] string Message
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -78,9 +84,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_VirtualDesktopSession**](win32-virtualdesktopsession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

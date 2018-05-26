@@ -1,7 +1,12 @@
 ---
-Description: 'PNRP uses the WSAQUERYSET structure in conjunction with various functions to facilitate resolving names and enumerating names and clouds.'
-ms.assetid: '0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b'
+Description: PNRP uses the WSAQUERYSET structure in conjunction with various functions to facilitate resolving names and enumerating names and clouds.
+ms.assetid: 0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b
 title: PNRP and WSAQUERYSET
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP and WSAQUERYSET
@@ -28,9 +33,9 @@ The [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure is used extensiv
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
-| Version<br/>                  | Windows XP with SP1 with the Advanced Networking Pack for Windows XP<br/>  |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
+| Version<br/>                  | Windows XP with SP1 with the Advanced Networking Pack for Windows XP<br/>  |
 | Header<br/>                   | <dl> <dt>P2P.h</dt> </dl> |
 
 
@@ -45,9 +50,9 @@ The [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure is used extensiv
 [PNRP and WSASetService](pnrp-and-wsasetservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

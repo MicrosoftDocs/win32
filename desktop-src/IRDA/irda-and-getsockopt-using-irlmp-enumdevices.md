@@ -1,8 +1,16 @@
 ---
 title: IrDA and getsockopt Using IRLMP\_ENUMDEVICES
 description: The Windows Sockets getsockopt function is used to run a discovery.
-ms.assetid: '56efd580-e8da-4787-b24e-794f5c402336'
-keywords: ["IrDA and getsockopt using IRLMP_ENUMDEVICES", "Infrared Data Association IrDA , tasks, initiating a discovery", "Infrared Data Association IrDA , tasks, running a lazy discovery"]
+ms.assetid: 56efd580-e8da-4787-b24e-794f5c402336
+keywords:
+- IrDA and getsockopt using IRLMP_ENUMDEVICES
+- Infrared Data Association IrDA , tasks, initiating a discovery
+- Infrared Data Association IrDA , tasks, running a lazy discovery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and getsockopt Using IRLMP\_ENUMDEVICES

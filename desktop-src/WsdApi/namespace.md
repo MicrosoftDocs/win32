@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a namespace.'
-ms.assetid: '8e31526a-639f-481b-91f1-fcd376818cbf'
+Description: Describes a namespace.
+ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nameSpace element
@@ -81,14 +86,14 @@ The following XML shows a nameSpace element (with children omitted for brevity).
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

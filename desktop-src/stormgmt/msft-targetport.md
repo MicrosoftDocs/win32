@@ -1,8 +1,10 @@
 ---
 title: MSFT\_TargetPort class
 description: Represents a target port.
-ms.assetid: '00D10838-331D-4145-9040-2F96A85324EB'
-keywords: ["MSFT_TargetPort class Windows Storage Management API", "MSFT_TargetPort class Windows Storage Management API , described"]
+ms.assetid: 00D10838-331D-4145-9040-2F96A85324EB
+keywords:
+- MSFT_TargetPort class Windows Storage Management API
+- MSFT_TargetPort class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_TargetPort class
@@ -102,7 +109,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -608,8 +615,8 @@ In some circumstances, a target port may be identifiable as a front-end or back-
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -622,9 +629,9 @@ In some circumstances, a target port may be identifiable as a front-end or back-
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

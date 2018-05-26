@@ -1,7 +1,12 @@
 ---
 title: Sample Query
 description: Sample Query
-ms.assetid: '9e943b8a-f384-4c79-9bf8-61551d75741a'
+ms.assetid: 9e943b8a-f384-4c79-9bf8-61551d75741a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Query

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the ID3DXFileEnumObject interface to cycle through the child file data objects in the file and to retrieve a child object by its globally unique identifier (GUID) or by its name.'
-ms.assetid: '23b28f07-5832-4163-953b-615d20e781f6'
+---
+Description: Applications use the methods of the ID3DXFileEnumObject interface to cycle through the child file data objects in the file and to retrieve a child object by its globally unique identifier (GUID) or by its name.
+ms.assetid: 23b28f07-5832-4163-953b-615d20e781f6
 title: ID3DXFileEnumObject interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileEnumObject interface

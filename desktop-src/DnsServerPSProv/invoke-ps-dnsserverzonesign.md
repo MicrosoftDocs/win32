@@ -2,13 +2,16 @@
 title: Invoke method of the PS\_DnsServerZoneSign class
 description: Initiates an operation to sign a zone.
 audience: developer
-ms.assetid: 'baf9db9e-1166-4a80-a397-18afef2f54a5'
-ms.prod: 'windows-server-dev'
+ms.assetid: baf9db9e-1166-4a80-a397-18afef2f54a5
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Invoke method", "Invoke method, PS_DnsServerZoneSign class", "PS_DnsServerZoneSign class, Invoke method"]
+keywords:
+- Invoke method
+- Invoke method, PS_DnsServerZoneSign class
+- PS_DnsServerZoneSign class, Invoke method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Invoke method of the PS\_DnsServerZoneSign class
@@ -28,13 +34,13 @@ Initiates an operation to sign a zone.
 
 ```mof
 uint32 Invoke(
-  [in]  string               ZoneName,
-  [in]  boolean              SignWithDefault,
-  [in]  boolean              DoResign,
-  [in]  string               ComputerName,
-  [in]  boolean              Force,
-  [in]  boolean              PassThru,
-  [out] DnsServerPrimaryZone cmdletOutput
+  [in]  string               ZoneName,
+  [in]  boolean              SignWithDefault,
+  [in]  boolean              DoResign,
+  [in]  string               ComputerName,
+  [in]  boolean              Force,
+  [in]  boolean              PassThru,
+  [out] DnsServerPrimaryZone cmdletOutput
 );
 ```
 
@@ -100,7 +106,7 @@ An embedded instance of the [**DnsServerZoneSign**](dnsserverzonesigningmetadata
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ An embedded instance of the [**DnsServerZoneSign**](dnsserverzonesigningmetadata
 [**PS\_DnsServerZoneSign**](ps-dnsserverzonesign.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

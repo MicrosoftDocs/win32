@@ -1,14 +1,19 @@
 ---
-Description: 'The Graphics class provides several DrawImage methods, some of which have source and destination rectangle parameters that you can use to crop and scale images.'
-ms.assetid: 'cad64615-d8e6-4c03-a6c7-c98267a8f159'
+Description: The Graphics class provides several DrawImage methods, some of which have source and destination rectangle parameters that you can use to crop and scale images.
+ms.assetid: cad64615-d8e6-4c03-a6c7-c98267a8f159
 title: Cropping and Scaling Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cropping and Scaling Images
 
-The [**Graphics**](-gdiplus-class-graphics-class.md) class provides several **DrawImage** methods, some of which have source and destination rectangle parameters that you can use to crop and scale images.
+The [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class provides several **DrawImage** methods, some of which have source and destination rectangle parameters that you can use to crop and scale images.
 
-The following example constructs an [**Image**](-gdiplus-class-image-class.md) object from the file Apple.gif. The code draws the entire apple image in its original size. The code then calls the **DrawImage** method of a [**Graphics**](-gdiplus-class-graphics-class.md) object to draw a portion of the apple image in a destination rectangle that is larger than the original apple image.
+The following example constructs an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from the file Apple.gif. The code draws the entire apple image in its original size. The code then calls the **DrawImage** method of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object to draw a portion of the apple image in a destination rectangle that is larger than the original apple image.
 
 The **DrawImage** method determines which portion of the apple to draw by looking at the source rectangle, which is specified by the third, fourth, fifth, and sixth arguments. In this case, the apple is cropped to 75 percent of its width and 75 percent of its height.
 

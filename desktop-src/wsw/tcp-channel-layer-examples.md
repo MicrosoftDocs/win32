@@ -1,7 +1,12 @@
 ---
 title: TCP Channel Layer Examples
-ms.assetid: '0672544c-699b-4ab8-8e40-b6aa165daab0'
+ms.assetid: 0672544c-699b-4ab8-8e40-b6aa165daab0
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCP Channel Layer Examples

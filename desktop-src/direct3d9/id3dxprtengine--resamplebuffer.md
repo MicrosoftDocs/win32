@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resamples an input ID3DXPRTBuffer buffer and saves it to an output buffer. This method can be used to convert a vertex buffer to a texture buffer and vice-versa. It can also be used to convert single-channel buffers to 3-channel buffers and vice-versa.'
-ms.assetid: '78015044-38a9-4c08-a690-28f6427dae8c'
-title: 'ID3DXPRTEngine::ResampleBuffer method'
+---
+Description: Resamples an input ID3DXPRTBuffer buffer and saves it to an output buffer. This method can be used to convert a vertex buffer to a texture buffer and vice-versa. It can also be used to convert single-channel buffers to 3-channel buffers and vice-versa.
+ms.assetid: 78015044-38a9-4c08-a690-28f6427dae8c
+title: ID3DXPRTEngineResampleBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::ResampleBuffer method

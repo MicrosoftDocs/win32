@@ -1,7 +1,12 @@
 ---
 title: Registry Values Example
 description: The following example shows possible data for some of the authentication protocol registry values.
-ms.assetid: '07772af0-db56-4cc6-ad72-cf79d3813883'
+ms.assetid: 07772af0-db56-4cc6-ad72-cf79d3813883
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Values Example

@@ -4,17 +4,22 @@ description: For a resource property, this attribute indicates whether it is bei
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd020515f-5225-4576-bcc8-86cef84556ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d020515f-5225-4576-bcc8-86cef84556ac
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Is-Used-As-Resource-Security-Attribute attribute AD Schema", "msDS-IsUsedAsResourceSecurityAttribute attribute AD Schema"]
+keywords:
+- ms-DS-Is-Used-As-Resource-Security-Attribute attribute AD Schema
+- msDS-IsUsedAsResourceSecurityAttribute attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Is-Used-As-Resource-Security-Attribute
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Is-Used-As-Resource-Security-Attribute attribute
@@ -38,7 +43,7 @@ For a resource property, this attribute indicates whether it is being used as a 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a resource property, this attribute indicates whether it is being used as a 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

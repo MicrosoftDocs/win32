@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMQueryColorProfile function
-ms.assetid: 'a33a216d-f97e-44be-b9a5-bdadf1c422e1'
+ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 title: OEMQueryColorProfile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMQueryColorProfile function

@@ -1,7 +1,7 @@
 ---
 title: Built-in Callout Identifiers
 description: The identifiers for the callout functions that are built in to the Windows Filtering Platform (WFP) are each represented by a GUID. These identifiers are defined as follows.
-ms.assetid: 'b283cb2e-7f82-4d44-982a-38499504e3bc'
+ms.assetid: b283cb2e-7f82-4d44-982a-38499504e3bc
 topic_type:
 - apiref
 api_name:
@@ -31,6 +31,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Callout Identifiers
@@ -153,9 +158,9 @@ Applies IPsec policy modifiers to client applications.
 Signals to IPsec DoS Protection that traffic needs to be verified for potential DoS and may need to be rate limited.
 
 > [!Note]  
-> Available only in Windows 7 and Windows Server 2008 R2.
+> Available only in Windows 7 and Windows Server 2008 R2.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -210,9 +215,9 @@ Sets classify options on outbound flows.
 Sets classify options on inbound flows.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -235,9 +240,9 @@ This identifier is reserved for internal use.
 Signals to the Teredo service that an application requires a Teredo address.
 
 > [!Note]  
-> For Windows 7 and later, use **FWPM\_CALLOUT\_EDGE\_TRAVERSAL\_ALE\_LISTEN\_V6**.
+> For Windows 7 and later, use **FWPM\_CALLOUT\_EDGE\_TRAVERSAL\_ALE\_LISTEN\_V6**.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -250,9 +255,9 @@ Signals to the Teredo service that an application requires a Teredo address.
 Signals to the Teredo service that an application requires a Teredo address.
 
 > [!Note]  
-> For Windows 7 and later, use **FWPM\_CALLOUT\_EDGE\_TRAVERSAL\_ALE\_RESOURCE\_ASSIGNMENT\_V6**.
+> For Windows 7 and later, use **FWPM\_CALLOUT\_EDGE\_TRAVERSAL\_ALE\_RESOURCE\_ASSIGNMENT\_V6**.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -285,9 +290,9 @@ This identifier is reserved for future use.
 Applies TCP template settings for matching outgoing connections.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -300,9 +305,9 @@ Applies TCP template settings for matching outgoing connections.
 Applies TCP template settings for matching incoming connections.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available only in Windows 8 and Windows Server 2012.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -313,15 +318,15 @@ Applies TCP template settings for matching incoming connections.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

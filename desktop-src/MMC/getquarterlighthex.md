@@ -4,11 +4,14 @@ description: The GetQuarterLightHex method derives a \ 0034;lighter \ 0034; colo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f2a85ad-3c17-4314-9061-d16d0230bea4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6f2a85ad-3c17-4314-9061-d16d0230bea4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetQuarterLightHex method MMC", "GetQuarterLightHex method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetQuarterLightHex method"]
+keywords:
+- GetQuarterLightHex method MMC
+- GetQuarterLightHex method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetQuarterLightHex method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetQuarterLightHex method
@@ -89,9 +95,9 @@ A string that contains the hexadecimal value for the derived color specified by 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

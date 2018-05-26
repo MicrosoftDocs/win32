@@ -4,22 +4,27 @@ description: This is a multivalued attribute whose values consist of a 5 tuple (
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aafe4657-0295-4af2-a7d0-8c7561516e17'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: aafe4657-0295-4af2-a7d0-8c7561516e17
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Extra-Columns attribute AD Schema", "extraColumns attribute AD Schema"]
+keywords:
+- Extra-Columns attribute AD Schema
+- extraColumns attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Extra-Columns
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extra-Columns attribute
 
-This is a multivalued attribute whose values consist of a 5 tuple: (attribute name), (column title), (default visibility (0,1)), (column width (–1 for auto width)), 0 (reserved for future use must be zero). This value is used by the AD Users and Computers console.
+This is a multivalued attribute whose values consist of a 5 tuple: (attribute name), (column title), (default visibility (0,1)), (column width ( 1 for auto width)), 0 (reserved for future use must be zero). This value is used by the AD Users and Computers console.
 
 
 
@@ -38,11 +43,11 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
- 
+ 
 
- 
+ 
 
 
 

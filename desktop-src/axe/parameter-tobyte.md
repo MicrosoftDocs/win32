@@ -1,8 +1,11 @@
 ---
 title: Parameter ToByte method
 description: Retrieve the value of the parameter as a specific data type.
-ms.assetid: '94D0E85A-3FC4-4CEC-8FD3-6FE77FC2D2F6'
-keywords: ["ToByte method Access Execution Engine", "ToByte method Access Execution Engine , Parameter interface", "Parameter interface Access Execution Engine , ToByte method"]
+ms.assetid: 94D0E85A-3FC4-4CEC-8FD3-6FE77FC2D2F6
+keywords:
+- ToByte method Access Execution Engine
+- ToByte method Access Execution Engine , Parameter interface
+- Parameter interface Access Execution Engine , ToByte method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter::ToByte method
@@ -22,7 +30,7 @@ Retrieve the value of the parameter as a specific data type.
 
 ```C++
 virtual HRESULT ToByte(
-  [out] BYTE *paramValue
+  [out] BYTE *paramValue
 ) const = 0;
 ```
 
@@ -59,8 +67,8 @@ Managed code uses the [**Parameter.ToByte**](axe-parameter_tobyte_om) method
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -73,9 +81,9 @@ Managed code uses the [**Parameter.ToByte**](axe-parameter_tobyte_om) method
 [**Parameter**](parameter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

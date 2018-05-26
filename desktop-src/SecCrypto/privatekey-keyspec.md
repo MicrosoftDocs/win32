@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the key specification.'
-ms.assetid: '93c909cb-b1d1-4c2b-a66c-9d3f6dd9b340'
-title: 'PrivateKey.KeySpec property'
+---
+Description: Retrieves the key specification.
+ms.assetid: 93c909cb-b1d1-4c2b-a66c-9d3f6dd9b340
+title: PrivateKey.KeySpec property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.KeySpec property

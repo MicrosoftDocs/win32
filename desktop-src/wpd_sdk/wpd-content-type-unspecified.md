@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_UNSPECIFIED'
-ms.assetid: '0175940e-2de2-4e2b-a98e-8dcc59e7020f'
-title: 'WPD\_CONTENT\_TYPE\_UNSPECIFIED'
+Description: WPD\_CONTENT\_TYPE\_UNSPECIFIED
+ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
+title: WPD\_CONTENT\_TYPE\_UNSPECIFIED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_UNSPECIFIED

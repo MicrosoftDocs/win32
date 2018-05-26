@@ -1,7 +1,12 @@
 ---
-Description: 'When the user clicks Define Clip Region , the system issues a WM\_COMMAND message.'
-ms.assetid: '4b20f310-98c0-42c1-b3b3-eadf9bb2003c'
+Description: When the user clicks Define Clip Region , the system issues a WM\_COMMAND message.
+ms.assetid: 4b20f310-98c0-42c1-b3b3-eadf9bb2003c
 title: Defining the Clipping Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining the Clipping Region
@@ -101,7 +106,7 @@ switch (message)
 
 
 
-As the user drags the mouse, the system issues [**WM\_MOUSEMOVE**](_win32_wm_mousemove_cpp) messages and stores the new cursor coordinates in the *lParam* parameter. Each time the application receives a new **WM\_MOUSEMOVE** message, it erases the previous rectangle (if one exists) and draws the new rectangle by calling the [**Polyline**](polyline.md) function, passing it the coordinates of the four corners of the rectangle. The application performs the following tasks.
+As the user drags the mouse, the system issues [**WM\_MOUSEMOVE**](_win32_wm_mousemove_cpp) messages and stores the new cursor coordinates in the *lParam* parameter. Each time the application receives a new **WM\_MOUSEMOVE** message, it erases the previous rectangle (if one exists) and draws the new rectangle by calling the [**Polyline**](/windows/win32/Wingdi/nf-wingdi-polyline?branch=master) function, passing it the coordinates of the four corners of the rectangle. The application performs the following tasks.
 
 
 ```C++

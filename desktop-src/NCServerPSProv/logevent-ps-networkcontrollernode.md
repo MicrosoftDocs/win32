@@ -4,11 +4,14 @@ description: Logs an event on the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2c2d4417-7fa7-4662-ad64-6e1892063911'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2c2d4417-7fa7-4662-ad64-6e1892063911
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["LogEvent method", "LogEvent method, PS_NetworkControllerNode class", "PS_NetworkControllerNode class, LogEvent method"]
+keywords:
+- LogEvent method
+- LogEvent method, PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, LogEvent method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LogEvent method of the PS\_NetworkControllerNode class
@@ -28,11 +34,11 @@ Logs an event on the node.
 
 ```mof
 uint32 LogEvent(
-  [in] uint32                                    EventId,
-  [in] NetworkControllerClusterConfiguration     OldClusterConfiguration,
-  [in] NetworkControllerClusterConfiguration     NewClusterConfiguration,
-  [in] NetworkControllerApplicationConfiguration OldApplicationConfiguration,
-  [in] NetworkControllerApplicationConfiguration NewApplicationConfiguration
+  [in] uint32                                    EventId,
+  [in] NetworkControllerClusterConfiguration     OldClusterConfiguration,
+  [in] NetworkControllerClusterConfiguration     NewClusterConfiguration,
+  [in] NetworkControllerApplicationConfiguration OldApplicationConfiguration,
+  [in] NetworkControllerApplicationConfiguration NewApplicationConfiguration
 );
 ```
 
@@ -84,7 +90,7 @@ A [**NetworkControllerApplicationConfiguration**](networkcontrollerapplicationco
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ A [**NetworkControllerApplicationConfiguration**](networkcontrollerapplicationco
 [**PS\_NetworkControllerNode**](ps-networkcontrollernode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Player.MediaCollectionAttributeStringRemoved event
 description: The MediaCollectionAttributeStringRemoved event occurs when an attribute value is removed from the library.
-ms.assetid: 'f1253996-10d1-42fa-89f9-1e52ca830aea'
-keywords: ["MediaCollectionAttributeStringRemoved event Windows Media Player", "MediaCollectionAttributeStringRemoved event Windows Media Player , Player class", "Player class Windows Media Player , MediaCollectionAttributeStringRemoved event"]
+ms.assetid: f1253996-10d1-42fa-89f9-1e52ca830aea
+keywords:
+- MediaCollectionAttributeStringRemoved event Windows Media Player
+- MediaCollectionAttributeStringRemoved event Windows Media Player , Player class
+- Player class Windows Media Player , MediaCollectionAttributeStringRemoved event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaCollectionAttributeStringRemoved event
@@ -83,9 +91,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player.mediaCollection**](player-mediacollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

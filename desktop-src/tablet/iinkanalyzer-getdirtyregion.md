@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the area that has changed since the last analysis operation.'
-ms.assetid: '0cd62775-59c6-41f5-957e-709a53a8c257'
-title: 'IInkAnalyzer::GetDirtyRegion method'
+Description: Retrieves the area that has changed since the last analysis operation.
+ms.assetid: 0cd62775-59c6-41f5-957e-709a53a8c257
+title: IInkAnalyzerGetDirtyRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetDirtyRegion method
@@ -13,7 +18,7 @@ Retrieves the area that has changed since the last analysis operation.
 
 ```C++
 HRESULT GetDirtyRegion(
-  [out] IAnalysisRegion **ppDirtyRegion
+  [out] IAnalysisRegion **ppDirtyRegion
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppDirtyRegion* when you no longer need to use the object.
 
- 
+ 
 
 This method identifies the areas that need to be analyzed or reanalyzed. All of the [**IInkAnalyzer**](iinkanalyzer.md) methods that add, update, or remove stroke data update the dirty region. To manually mark an area for reanalysis:
 
@@ -59,7 +64,7 @@ Use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -103,9 +108,9 @@ Use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

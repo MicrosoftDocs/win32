@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETNEXTTEXT message
 description: Sets the text of the Next button in a wizard. You can send this message explicitly or by using the PropSheet\_SetNextText macro.
-ms.assetid: '4608425e-1724-4d0b-b0f6-9fec147a85f6'
-keywords: ["PSM_SETNEXTTEXT message Windows Controls"]
+ms.assetid: 4608425e-1724-4d0b-b0f6-9fec147a85f6
+keywords:
+- PSM_SETNEXTTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -12,11 +13,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETNEXTTEXT message
 
-Sets the text of the **Next** button in a wizard. You can send this message explicitly or by using the [**PropSheet\_SetNextText**](propsheet-setnexttext.md) macro.
+Sets the text of the **Next** button in a wizard. You can send this message explicitly or by using the [**PropSheet\_SetNextText**](/windows/win32/Prsht/nf-prsht-propsheet_setnexttext?branch=master) macro.
 
 ## Parameters
 
@@ -46,16 +52,16 @@ No meaningful return value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **PSM\_SETNEXTTEXTW** (Unicode)<br/>                                         |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

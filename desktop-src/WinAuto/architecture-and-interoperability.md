@@ -1,7 +1,12 @@
 ---
 title: Architecture and Interoperability
 description: This topic briefly describes the architecture of Microsoft Active Accessibility and Microsoft UI Automation, and the components that allow interoperability between applications based on the two different technologies.
-ms.assetid: '7309819c-7c72-4bb3-ab9c-608a27c56d42'
+ms.assetid: 7309819c-7c72-4bb3-ab9c-608a27c56d42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Architecture and Interoperability
@@ -24,7 +29,7 @@ Microsoft Active Accessibility exposes basic information about controls such as 
 
 Microsoft Active Accessibility consists of the following components:
 
--   Accessible object—A logical UI element (such as a button) that is represented by an [**IAccessible**](iaccessible.md) Component Object Model (COM) interface and an integer child identifier (ChildID).
+-   Accessible object—A logical UI element (such as a button) that is represented by an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) Component Object Model (COM) interface and an integer child identifier (ChildID).
 -   WinEvents—An event system that enables servers to notify clients when an accessible object changes. For more information, see [WinEvents](winevents-collision169.md).
 -   OLEACC.dll—The run-time, dynamic-link library that provides the Microsoft Active Accessibility API and the accessibility system framework. OLEACC implements proxy objects that provide default accessibility information for standard UI elements, including USER controls, USER menus, and common controls.
 
@@ -56,9 +61,9 @@ Similarly, the Microsoft Active Accessibility-to-UI Automation Proxy translates 
 
 ## The IAccessibleEx Interface
 
-The [**IAccessibleEx**](uiauto-iaccessibleex.md) interface enables existing applications or UI libraries to extend their Microsoft Active Accessibility object model to support UI Automation without rewriting the implementation from scratch. With **IAccessibleEx**, you can implement only the additional UI Automation properties and control patterns needed to fully describe the UI and its functionality.
+The [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface enables existing applications or UI libraries to extend their Microsoft Active Accessibility object model to support UI Automation without rewriting the implementation from scratch. With **IAccessibleEx**, you can implement only the additional UI Automation properties and control patterns needed to fully describe the UI and its functionality.
 
-Because the Microsoft Active Accessibility-to-UI Automation Proxy translates the object models of [**IAccessibleEx**](uiauto-iaccessibleex.md)-enabled Microsoft Active Accessibility servers as UI Automation object models, UI Automation clients do not need to do any extra work. The **IAccessibleEx** interface can also enable in-process Microsoft Active Accessibility clients to interact directly with UI Automation providers.
+Because the Microsoft Active Accessibility-to-UI Automation Proxy translates the object models of [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master)-enabled Microsoft Active Accessibility servers as UI Automation object models, UI Automation clients do not need to do any extra work. The **IAccessibleEx** interface can also enable in-process Microsoft Active Accessibility clients to interact directly with UI Automation providers.
 
 For more information, see [The IAccessibleEx Interface](iaccessibleex.md).
 

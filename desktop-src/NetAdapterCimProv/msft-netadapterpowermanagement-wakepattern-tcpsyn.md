@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_TcpSyn defines settings for a TCP SYN wake pattern.'
-ms.assetid: 'e8973c66-fba2-4475-b438-3294e29e7766'
-title: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_TcpSyn class'
+Description: MSFT\_NetAdapterPowerManagement\_WakePattern\_TcpSyn defines settings for a TCP SYN wake pattern.
+ms.assetid: e8973c66-fba2-4475-b438-3294e29e7766
+title: MSFT\_NetAdapterPowerManagement\_WakePattern\_TcpSyn class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_WakePattern\_TcpSyn class
@@ -94,16 +99,16 @@ Supplies the TCP source port number of the SYN packet.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

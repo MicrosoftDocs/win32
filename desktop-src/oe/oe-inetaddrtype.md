@@ -1,8 +1,10 @@
 ---
 title: INETADDRTYPE enumeration
 description: Indicates the type of address and Delivery Status Notification (DSN) request.
-ms.assetid: 'cc379a8a-6013-46ad-b2fc-6c612b988d89'
-keywords: ["INETADDRTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: cc379a8a-6013-46ad-b2fc-6c612b988d89
+keywords:
+- INETADDRTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INETADDRTYPE enumeration
@@ -24,12 +31,12 @@ Indicates the type of address and Delivery Status Notification (DSN) request.
 
 ```C++
 typedef enum tagINETADDRTYPE { 
-  ADDR_TO           = 0,
-  ADDR_FROM         = 1,
-  ADDR_DSN_NEVER    = 16,
-  ADDR_DSN_SUCCESS  = 32,
-  ADDR_DSN_FAILURE  = 64,
-  ADDR_DSN_DELAY    = 128
+  ADDR_TO           = 0,
+  ADDR_FROM         = 1,
+  ADDR_DSN_NEVER    = 16,
+  ADDR_DSN_SUCCESS  = 32,
+  ADDR_DSN_FAILURE  = 64,
+  ADDR_DSN_DELAY    = 128
 } ACCESSTYPE;
 ```
 
@@ -91,17 +98,17 @@ The Simple Mail Transport Protocol (SMTP) protocol distinguishes only between a 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

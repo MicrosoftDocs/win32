@@ -1,7 +1,12 @@
 ---
 title: IPv6 Internet Connection Firewall Interfaces
 description: The following table contains links and descriptions for the interfaces of this API.
-ms.assetid: 'fe52fd63-c812-401b-945a-b677fa2e85f4'
+ms.assetid: fe52fd63-c812-401b-945a-b677fa2e85f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Internet Connection Firewall Interfaces

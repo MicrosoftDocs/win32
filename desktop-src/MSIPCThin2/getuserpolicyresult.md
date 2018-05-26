@@ -4,11 +4,12 @@ description: Provides access for the referrer.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.GetUserPolicyResult'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.GetUserPolicyResult
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetUserPolicyResult class"]
+keywords:
+- GetUserPolicyResult class
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetUserPolicyResult class
 
-Provides access for the referrer. This class implements a workaround for Rights Management SDK 4.2 for Windows RT and Windows Phone by creating a structure for getting the referrer.
+Provides access for the referrer. This class implements a workaround for Rights Management SDK 4.2 for Windows RT and Windows Phone by creating a structure for getting the referrer.
 
 On other supported operating systems, *UserPolicy.AcquireAsync()* directly returns a *UserPolicy* and returns the referrer via a custom "no rights" exception or whatever error handling mechanism is used for the platform (ex. NSError in iOS/OS X).
 
@@ -54,7 +58,7 @@ The **GetUserPolicyResult** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,9 +81,9 @@ The **GetUserPolicyResult** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

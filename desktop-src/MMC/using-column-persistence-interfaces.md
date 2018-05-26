@@ -4,11 +4,15 @@ description: MMC provides snap-in developers with the following interface for wo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '66b876bc-f93c-4d7b-ab7e-2ccd8429f4f5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 66b876bc-f93c-4d7b-ab7e-2ccd8429f4f5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["column persistence MMC , interfaces"]
+keywords:
+- column persistence MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Column Persistence: Interfaces

@@ -2,7 +2,14 @@
 title: C/C++-Compiler Considerations
 description: The MIDL compiler must interoperate with the C compiler and C preprocessor.
 ms.assetid: 3d91d0e4-3a47-4aa2-82d6-c3af11df3a78
-keywords: ["MIDL compiler MIDL , C-compiler", "C-compiler MIDL"]
+keywords:
+- MIDL compiler MIDL , C-compiler
+- C-compiler MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++-Compiler Considerations

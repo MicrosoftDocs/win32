@@ -1,7 +1,12 @@
 ---
-Description: 'The Grouping API uses the following functions:'
-ms.assetid: '56ea2880-b468-4816-b6c9-5780c807b3f1'
+Description: The Grouping API uses the following functions
+ms.assetid: 56ea2880-b468-4816-b6c9-5780c807b3f1
 title: Grouping API Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Grouping API Functions
@@ -14,8 +19,8 @@ The Grouping API uses the following functions:
 
 | Function                                       | Description                                                                                                            |
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [**PeerGroupShutdown**](peergroupshutdown.md) | Closes a peer group created with [**PeerGroupStartup**](peergroupstartup.md) and disposes of any allocated resources. |
-| [**PeerGroupStartup**](peergroupstartup.md)   | Initiates a peer group by using a requested version of the Peer infrastructure.                                        |
+| [**PeerGroupShutdown**](/windows/win32/P2P/nf-p2p-peergroupshutdown?branch=master) | Closes a peer group created with [**PeerGroupStartup**](/windows/win32/P2P/nf-p2p-peergroupstartup?branch=master) and disposes of any allocated resources. |
+| [**PeerGroupStartup**](/windows/win32/P2P/nf-p2p-peergroupstartup?branch=master)   | Initiates a peer group by using a requested version of the Peer infrastructure.                                        |
 
 
 
@@ -27,19 +32,19 @@ The Grouping API uses the following functions:
 
 | Function                                                                       | Description                                                                                                                                                                                                  |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerGroupClose**](peergroupclose.md)                                       | Invalidates the peer group handle obtained by a previous call to the [**PeerGroupCreate**](peergroupcreate.md), [**PeerGroupJoin**](peergroupjoin.md), or [**PeerGroupOpen**](peergroupopen.md) function. |
-| [**PeerGroupConnect**](peergroupconnect.md)                                   | Initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.                             |
-| [**PeerGroupConnectByAddress**](peergroupconnectbyaddress.md)                 | Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.                                                                                                       |
-| [**PeerGroupCreate**](peergroupcreate.md)                                     | Creates a new peer group.                                                                                                                                                                                    |
-| [**PeerGroupCreateInvitation**](peergroupcreateinvitation.md)                 | Returns an XML string that can be used by the specified peer to join a group.                                                                                                                                |
-| [**PeerGroupCreatePasswordInvitation**](peergroupcreatepasswordinvitation.md) | Returns an XML string that can be used by the specified peer to join a group with a matching password.                                                                                                       |
-| [**PeerGroupDelete**](peergroupdelete.md)                                     | Deletes the local data and certificate associated with a peer group.                                                                                                                                         |
-| [**PeerGroupGetStatus**](peergroupgetstatus.md)                               | Retrieves the current status of a group.                                                                                                                                                                     |
-| [**PeerGroupIssueCredentials**](peergroupissuecredentials.md)                 | Issues credentials, including a GMC, to a specific identity, and optionally returns an invitation XML string the invited peer can use to join a peer group.                                                  |
-| [**PeerGroupJoin**](peergroupjoin.md)                                         | Allows a peer with an invitation to join an existing peer group.                                                                                                                                             |
-| [**PeerGroupOpen**](peergroupopen.md)                                         | Opens a peer group that a peer has created or joined.                                                                                                                                                        |
-| [**PeerGroupParseInvitation**](peergroupparseinvitation.md)                   | Returns a [**PEER\_INVITATION\_INFO**](peer-invitation-info.md) structure with the details of a specific invitation.                                                                                        |
-| [**PeerGroupPasswordJoin**](peergrouppasswordjoin.md)                         | Allows a peer with an invitation and the correct password to join a password-protected peer group.                                                                                                           |
+| [**PeerGroupClose**](/windows/win32/P2P/nf-p2p-peergroupclose?branch=master)                                       | Invalidates the peer group handle obtained by a previous call to the [**PeerGroupCreate**](/windows/win32/P2P/nf-p2p-peergroupcreate?branch=master), [**PeerGroupJoin**](/windows/win32/P2P/nf-p2p-peergroupjoin?branch=master), or [**PeerGroupOpen**](/windows/win32/P2P/nf-p2p-peergroupopen?branch=master) function. |
+| [**PeerGroupConnect**](/windows/win32/P2P/nf-p2p-peergroupconnect?branch=master)                                   | Initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.                             |
+| [**PeerGroupConnectByAddress**](/windows/win32/P2P/nf-p2p-peergroupconnectbyaddress?branch=master)                 | Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.                                                                                                       |
+| [**PeerGroupCreate**](/windows/win32/P2P/nf-p2p-peergroupcreate?branch=master)                                     | Creates a new peer group.                                                                                                                                                                                    |
+| [**PeerGroupCreateInvitation**](/windows/win32/P2P/nf-p2p-peergroupcreateinvitation?branch=master)                 | Returns an XML string that can be used by the specified peer to join a group.                                                                                                                                |
+| [**PeerGroupCreatePasswordInvitation**](/windows/win32/P2P/nf-p2p-peergroupcreatepasswordinvitation?branch=master) | Returns an XML string that can be used by the specified peer to join a group with a matching password.                                                                                                       |
+| [**PeerGroupDelete**](/windows/win32/P2P/nf-p2p-peergroupdelete?branch=master)                                     | Deletes the local data and certificate associated with a peer group.                                                                                                                                         |
+| [**PeerGroupGetStatus**](/windows/win32/P2P/nf-p2p-peergroupgetstatus?branch=master)                               | Retrieves the current status of a group.                                                                                                                                                                     |
+| [**PeerGroupIssueCredentials**](/windows/win32/P2P/nf-p2p-peergroupissuecredentials?branch=master)                 | Issues credentials, including a GMC, to a specific identity, and optionally returns an invitation XML string the invited peer can use to join a peer group.                                                  |
+| [**PeerGroupJoin**](/windows/win32/P2P/nf-p2p-peergroupjoin?branch=master)                                         | Allows a peer with an invitation to join an existing peer group.                                                                                                                                             |
+| [**PeerGroupOpen**](/windows/win32/P2P/nf-p2p-peergroupopen?branch=master)                                         | Opens a peer group that a peer has created or joined.                                                                                                                                                        |
+| [**PeerGroupParseInvitation**](/windows/win32/P2P/nf-p2p-peergroupparseinvitation?branch=master)                   | Returns a [**PEER\_INVITATION\_INFO**](/windows/win32/P2P/ns-p2p-peer_invitation_info_tag?branch=master) structure with the details of a specific invitation.                                                                                        |
+| [**PeerGroupPasswordJoin**](/windows/win32/P2P/nf-p2p-peergrouppasswordjoin?branch=master)                         | Allows a peer with an invitation and the correct password to join a password-protected peer group.                                                                                                           |
 
 
 
@@ -51,9 +56,9 @@ The Grouping API uses the following functions:
 
 | Function                                                 | Description                                                                                                                        |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerGroupEnumMembers**](peergroupenummembers.md)     | Creates an enumeration of available peer group members and the associated membership information.                                  |
-| [**PeerGroupGetProperties**](peergroupgetproperties.md) | Retrieves information on the properties of a specified group.                                                                      |
-| [**PeerGroupSetProperties**](peergroupsetproperties.md) | Sets the current peer group properties. In version 1.0 of this API, only the creator of the peer group can perform this operation. |
+| [**PeerGroupEnumMembers**](/windows/win32/P2P/nf-p2p-peergroupenummembers?branch=master)     | Creates an enumeration of available peer group members and the associated membership information.                                  |
+| [**PeerGroupGetProperties**](/windows/win32/P2P/nf-p2p-peergroupgetproperties?branch=master) | Retrieves information on the properties of a specified group.                                                                      |
+| [**PeerGroupSetProperties**](/windows/win32/P2P/nf-p2p-peergroupsetproperties?branch=master) | Sets the current peer group properties. In version 1.0 of this API, only the creator of the peer group can perform this operation. |
 
 
 
@@ -65,12 +70,12 @@ The Grouping API uses the following functions:
 
 | Function                                                 | Description                                                                          |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**PeerGroupAddRecord**](peergroupaddrecord.md)         | Adds a new record to the peer group, which is propagated to all participating peers. |
-| [**PeerGroupDeleteRecord**](peergroupdeleterecord.md)   | Deletes a record from a peer group. Only the creator of a record can delete it.      |
-| [**PeerGroupEnumRecords**](peergroupenumrecords.md)     | Creates an enumeration of peer group records.                                        |
-| [**PeerGroupGetRecord**](peergroupgetrecord.md)         | Retrieves a specific group record.                                                   |
-| [**PeerGroupSearchRecords**](peergroupsearchrecords.md) | Searches the local peer group database for records that match the supplied criteria. |
-| [**PeerGroupUpdateRecord**](peergroupupdaterecord.md)   | Updates a record within a specific peer group.                                       |
+| [**PeerGroupAddRecord**](/windows/win32/P2P/nf-p2p-peergroupaddrecord?branch=master)         | Adds a new record to the peer group, which is propagated to all participating peers. |
+| [**PeerGroupDeleteRecord**](/windows/win32/P2P/nf-p2p-peergroupdeleterecord?branch=master)   | Deletes a record from a peer group. Only the creator of a record can delete it.      |
+| [**PeerGroupEnumRecords**](/windows/win32/P2P/nf-p2p-peergroupenumrecords?branch=master)     | Creates an enumeration of peer group records.                                        |
+| [**PeerGroupGetRecord**](/windows/win32/P2P/nf-p2p-peergroupgetrecord?branch=master)         | Retrieves a specific group record.                                                   |
+| [**PeerGroupSearchRecords**](/windows/win32/P2P/nf-p2p-peergroupsearchrecords?branch=master) | Searches the local peer group database for records that match the supplied criteria. |
+| [**PeerGroupUpdateRecord**](/windows/win32/P2P/nf-p2p-peergroupupdaterecord?branch=master)   | Updates a record within a specific peer group.                                       |
 
 
 
@@ -82,8 +87,8 @@ The Grouping API uses the following functions:
 
 | Function                                                   | Description                                                                                                                                                                               |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerGroupExportDatabase**](peergroupexportdatabase.md) | Exports a peer group database to a specific file, which can be transported to another computer and imported with the [**PeerGroupImportDatabase**](peergroupimportdatabase.md) function. |
-| [**PeerGroupImportDatabase**](peergroupimportdatabase.md) | Imports a peer group database from a local file.                                                                                                                                          |
+| [**PeerGroupExportDatabase**](/windows/win32/P2P/nf-p2p-peergroupexportdatabase?branch=master) | Exports a peer group database to a specific file, which can be transported to another computer and imported with the [**PeerGroupImportDatabase**](/windows/win32/P2P/nf-p2p-peergroupimportdatabase?branch=master) function. |
+| [**PeerGroupImportDatabase**](/windows/win32/P2P/nf-p2p-peergroupimportdatabase?branch=master) | Imports a peer group database from a local file.                                                                                                                                          |
 
 
 
@@ -95,10 +100,10 @@ The Grouping API uses the following functions:
 
 | Function                                                                 | Description                                                         |
 |--------------------------------------------------------------------------|---------------------------------------------------------------------|
-| [**PeerGroupCloseDirectConnection**](peergroupclosedirectconnection.md) | Closes a specific direct connection between two peers.              |
-| [**PeerGroupEnumConnections**](peergroupenumconnections.md)             | Creates an enumeration of connections currently active on the peer. |
-| [**PeerGroupOpenDirectConnection**](peergroupopendirectconnection.md)   | Establishes a direct connection with another peer in a peer group.  |
-| [**PeerGroupSendData**](peergroupsenddata.md)                           | Sends data to a member over a neighbor or direct connection.        |
+| [**PeerGroupCloseDirectConnection**](/windows/win32/P2P/nf-p2p-peergroupclosedirectconnection?branch=master) | Closes a specific direct connection between two peers.              |
+| [**PeerGroupEnumConnections**](/windows/win32/P2P/nf-p2p-peergroupenumconnections?branch=master)             | Creates an enumeration of connections currently active on the peer. |
+| [**PeerGroupOpenDirectConnection**](/windows/win32/P2P/nf-p2p-peergroupopendirectconnection?branch=master)   | Establishes a direct connection with another peer in a peer group.  |
+| [**PeerGroupSendData**](/windows/win32/P2P/nf-p2p-peergroupsenddata?branch=master)                           | Sends data to a member over a neighbor or direct connection.        |
 
 
 
@@ -110,9 +115,9 @@ The Grouping API uses the following functions:
 
 | Function                                                     | Description                                                                                    |
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**PeerGroupGetEventData**](peergroupgeteventdata.md)       | Allows an application to retrieve the data returned by a grouping event.                       |
-| [**PeerGroupRegisterEvent**](peergroupregisterevent.md)     | Registers a peer for specific peer group events.                                               |
-| [**PeerGroupUnregisterEvent**](peergroupunregisterevent.md) | Unregisters a peer from notification of peer events associated with the supplied event handle. |
+| [**PeerGroupGetEventData**](/windows/win32/P2P/nf-p2p-peergroupgeteventdata?branch=master)       | Allows an application to retrieve the data returned by a grouping event.                       |
+| [**PeerGroupRegisterEvent**](/windows/win32/P2P/nf-p2p-peergroupregisterevent?branch=master)     | Registers a peer for specific peer group events.                                               |
+| [**PeerGroupUnregisterEvent**](/windows/win32/P2P/nf-p2p-peergroupunregisterevent?branch=master) | Unregisters a peer from notification of peer events associated with the supplied event handle. |
 
 
 
@@ -124,8 +129,8 @@ The Grouping API uses the following functions:
 
 | Function                                                                     | Description                                                                                                                   |
 |------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerGroupPeerTimeToUniversalTime**](peergrouppeertimetouniversaltime.md) | Converts the peer group-maintained reference time value to a localized time value appropriate for display on a peer computer. |
-| [**PeerGroupUniversalTimeToPeerTime**](peergroupuniversaltimetopeertime.md) | Converts a local time value from a peer's computer to a common peer group time value.                                         |
+| [**PeerGroupPeerTimeToUniversalTime**](/windows/win32/P2P/nf-p2p-peergrouppeertimetouniversaltime?branch=master) | Converts the peer group-maintained reference time value to a localized time value appropriate for display on a peer computer. |
+| [**PeerGroupUniversalTimeToPeerTime**](/windows/win32/P2P/nf-p2p-peergroupuniversaltimetopeertime?branch=master) | Converts a local time value from a peer's computer to a common peer group time value.                                         |
 
 
 
@@ -137,8 +142,8 @@ The Grouping API uses the following functions:
 
 | Function                                               | Description                                                                                                                       |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerGroupExportConfig**](peergroupexportconfig.md) | Exports the group configuration for a peer as an XML string that contains the identity, group name, and the GMC for the identity. |
-| [**PeerGroupImportConfig**](peergroupimportconfig.md) | Imports a peer group configuration for an identity based on the specific settings in a supplied XML configuration string.         |
+| [**PeerGroupExportConfig**](/windows/win32/P2P/nf-p2p-peergroupexportconfig?branch=master) | Exports the group configuration for a peer as an XML string that contains the identity, group name, and the GMC for the identity. |
+| [**PeerGroupImportConfig**](/windows/win32/P2P/nf-p2p-peergroupimportconfig?branch=master) | Imports a peer group configuration for an identity based on the specific settings in a supplied XML configuration string.         |
 
 
 

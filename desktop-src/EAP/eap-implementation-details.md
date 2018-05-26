@@ -1,7 +1,12 @@
 ---
 title: EAP Implementation Details
 description: Access Points (APs), such as Remote Access Service (RAS), interact with EAP implementations through the use of function calls that must be exported by the third-party EAP DLL.
-ms.assetid: '85775c03-7538-41a1-9f83-42e71025a79c'
+ms.assetid: 85775c03-7538-41a1-9f83-42e71025a79c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Implementation Details

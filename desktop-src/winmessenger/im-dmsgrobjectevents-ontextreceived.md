@@ -1,37 +1,45 @@
 ---
 title: DMsgrObjectEvents OnTextReceived event
 description: Indicates that a message has been received.
-ms.assetid: '15c6e599-422e-4c01-8ae5-07c555a55102'
-keywords: ["OnTextReceived event Windows Messenger", "OnTextReceived event Windows Messenger , DMsgrObjectEvents interface", "DMsgrObjectEvents interface Windows Messenger , OnTextReceived event"]
+ms.assetid: 15c6e599-422e-4c01-8ae5-07c555a55102
+keywords:
+- OnTextReceived event Windows Messenger
+- OnTextReceived event Windows Messenger , DMsgrObjectEvents interface
+- DMsgrObjectEvents interface Windows Messenger , OnTextReceived event
 topic_type:
 - apiref
 api_name:
 - DMsgrObjectEvents.OnTextReceived
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMsgrObjectEvents::OnTextReceived event
 
-\[**OnTextReceived** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnTextReceived** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that a message has been received.
 
 > [!Note]  
 > The **OnTextReceived** event is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 void OnTextReceived(
-  [in]      IMsgrIMSession *pIMSession,
-  [in]      IMsgrUser      *pSourceUser,
-  [in]      BSTR           bstrMsgHeader,
-  [in]      BSTR           bstrMsgText,
-  [in, out] VARIANT_BOOL   *pfEnableDefault
+  [in]      IMsgrIMSession *pIMSession,
+  [in]      IMsgrUser      *pSourceUser,
+  [in]      BSTR           bstrMsgHeader,
+  [in]      BSTR           bstrMsgText,
+  [in, out] VARIANT_BOOL   *pfEnableDefault
 );
 ```
 
@@ -86,14 +94,14 @@ This event does not return a value.
 
 |                                  |                                |
 |----------------------------------|--------------------------------|
-| End of client support<br/> | Windows XP<br/>          |
-| End of server support<br/> | Windows Server 2003<br/> |
+| End of client support<br/> | Windows XP<br/>          |
+| End of server support<br/> | Windows Server 2003<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

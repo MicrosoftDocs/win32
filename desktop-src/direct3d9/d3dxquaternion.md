@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a quaternion.'
-ms.assetid: '3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13'
+---
+Description: Describes a quaternion.
+ms.assetid: 3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13
 title: D3DXQUATERNION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQUATERNION structure

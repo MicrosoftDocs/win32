@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the square of the length of a quaternion.'
-ms.assetid: '358d2a2b-7baf-4ae9-9b92-7a7f01ca843b'
+---
+Description: Returns the square of the length of a quaternion.
+ms.assetid: 358d2a2b-7baf-4ae9-9b92-7a7f01ca843b
 title: D3DXQuaternionLengthSq function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionLengthSq function

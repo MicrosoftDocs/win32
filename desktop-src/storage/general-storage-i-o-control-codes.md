@@ -1,7 +1,12 @@
 ---
 title: General Storage I/O Control Codes
 description: General Storage I/O Control Codes
-ms.assetid: '24b54cc9-f56c-4d32-927c-0f774bc534d4'
+ms.assetid: 24b54cc9-f56c-4d32-927c-0f774bc534d4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Storage I/O Control Codes

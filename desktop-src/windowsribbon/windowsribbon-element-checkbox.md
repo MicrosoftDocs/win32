@@ -1,14 +1,20 @@
 ---
 title: CheckBox element
 description: Represents a Check Box control.
-ms.assetid: 'ebb44d6d-91fb-4a59-9b62-4a694fea8a4d'
-keywords: ["CheckBox element Windows Ribbon"]
+ms.assetid: ebb44d6d-91fb-4a59-9b62-4a694fea8a4d
+keywords:
+- CheckBox element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - CheckBox
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckBox element
@@ -131,7 +137,7 @@ This section of code shows the **CheckBox** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -143,9 +149,9 @@ This section of code shows the **CheckBox** control declarations.
 [Check Box control](windowsribbon-controls-checkbox.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

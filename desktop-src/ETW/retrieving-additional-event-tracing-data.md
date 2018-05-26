@@ -1,7 +1,12 @@
 ---
-Description: 'Once you have begun an event tracing session, you can use TraceSetInformation to instruct the system to return additional event tracing data.'
-ms.assetid: '65CCD658-869E-40C4-83AE-34CC2720B7CB'
+Description: Once you have begun an event tracing session, you can use TraceSetInformation to instruct the system to return additional event tracing data.
+ms.assetid: 65CCD658-869E-40C4-83AE-34CC2720B7CB
 title: Retrieving Additional Event Tracing Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Additional Event Tracing Data
@@ -18,7 +23,7 @@ The following procedure describes how to use the [**TraceSetInformation**](trace
 
 2.  Call [**TraceSetInformation**](tracesetinformation.md) to set additional event tracing data.
 
-    use the [**EVENT\_INFO\_CLASS**](event-info-class.md) enumeration in the *ClassInformation* parameter to describe the additional information you wish to retrieve. The following example describes how to call [**TraceSetInformation**](tracesetinformation.md), using the session handle returned from the call to [**StartTrace**](starttrace.md), and the **TraceProviderBinaryTracking** value from **EVENT\_INFO\_CLASS**.
+    use the [**EVENT\_INFO\_CLASS**](/windows/win32/Evntprov/ne-evntprov-_event_info_class?branch=master) enumeration in the *ClassInformation* parameter to describe the additional information you wish to retrieve. The following example describes how to call [**TraceSetInformation**](tracesetinformation.md), using the session handle returned from the call to [**StartTrace**](starttrace.md), and the **TraceProviderBinaryTracking** value from **EVENT\_INFO\_CLASS**.
 
     ```C++
     BOOLEAN enabled = TRUE;
@@ -33,7 +38,7 @@ The following procedure describes how to use the [**TraceSetInformation**](trace
 
 3.  Alternately, you can use [**TraceQueryInformation**](tracequeryinformation.md) to retrieve information about the current event tracing session settings.
 
-    Like [**TraceSetInformation**](tracesetinformation.md), [**TraceQueryInformation**](tracequeryinformation.md) uses the [**EVENT\_INFO\_CLASS**](event-info-class.md) enumeration to describe what information to retrieve from the system.
+    Like [**TraceSetInformation**](tracesetinformation.md), [**TraceQueryInformation**](tracequeryinformation.md) uses the [**EVENT\_INFO\_CLASS**](/windows/win32/Evntprov/ne-evntprov-_event_info_class?branch=master) enumeration to describe what information to retrieve from the system.
 
  
 

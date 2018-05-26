@@ -2,7 +2,15 @@
 title: MIDL and ODL
 description: The Microsoft Interface Definition Language (MIDL) now includes the complete Object Definition Language (ODL) syntax. This allows you to use the 32-bit MIDL compiler to generate a type library and optional header files for a COM application.
 ms.assetid: 83b84ae3-817e-4a74-bb48-dc71ed4e9178
-keywords: ["MIDL compiler MIDL , MIDL and ODL MIDL", "compilers MIDL , MIDL and ODL", "ODL MIDL"]
+keywords:
+- MIDL compiler MIDL , MIDL and ODL MIDL
+- compilers MIDL , MIDL and ODL
+- ODL MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL and ODL

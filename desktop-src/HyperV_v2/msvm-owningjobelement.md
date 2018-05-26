@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a job and the managed element responsible for the creation of the job.'
-ms.assetid: '1a100c7e-7e17-47dd-b730-c05c5e4dccda'
-title: 'Msvm\_OwningJobElement class'
+Description: Represents an association between a job and the managed element responsible for the creation of the job.
+ms.assetid: 1a100c7e-7e17-47dd-b730-c05c5e4dccda
+title: Msvm\_OwningJobElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_OwningJobElement class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_OwningJobElement : CIM_OwningJobElement
 {
   CIM_ManagedElement REF OwningElement;
-  Msvm_ConcreteJob   REF OwnedElement;
+  Msvm_ConcreteJob   REF OwnedElement;
 };
 ```
 
@@ -65,17 +70,17 @@ The managed element responsible for the creation of the job.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

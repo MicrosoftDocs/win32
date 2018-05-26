@@ -4,11 +4,15 @@ description: The Active Directory servers publish their addresses such that clie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b4928d53-2629-4ddb-bb43-ce7a187b41e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b4928d53-2629-4ddb-bb43-ce7a187b41e2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["dynamic DNS Active Directory"]
+keywords:
+- dynamic DNS Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Servers and Dynamic DNS

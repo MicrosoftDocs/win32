@@ -1,8 +1,44 @@
 ---
 title: Waveform Audio Reference
 description: This section lists the functions, structures, and messages associated with waveform audio, which are documented under Multimedia Reference. These elements are grouped as follows.
-ms.assetid: '723953f7-b38e-4f24-8d54-9849e013011d'
-keywords: ["Windows multimedia,waveform audio reference", "multimedia,waveform audio reference", "multimedia audio,waveform reference", "audio,waveform reference", "Windows multimedia,waveform audio", "multimedia,waveform audio", "multimedia audio,waveform", "audio,waveform", "waveform audio,reference", "waveform audio reference,about", "reference for wavefore audio,about", "waveform audio reference,auxiliary devices", "reference for wavefore audio,auxiliary devices", "waveform audio reference,playback", "reference for wavefore audio,playback", "waveform audio reference,errors", "reference for wavefore audio,errors", "waveform audio reference,opening", "reference for wavefore audio,opening", "waveform audio reference,closing", "reference for wavefore audio,closing", "waveform audio reference,pitch", "reference for wavefore audio,pitch", "waveform audio reference,volume", "reference for wavefore audio,volume", "waveform audio reference,messages", "reference for wavefore audio,messages", "waveform audio reference,current position", "reference for wavefore audio,current position", "waveform audio reference,recording", "reference for wavefore audio,recording"]
+ms.assetid: 723953f7-b38e-4f24-8d54-9849e013011d
+keywords:
+- Windows multimedia,waveform audio reference
+- multimedia,waveform audio reference
+- multimedia audio,waveform reference
+- audio,waveform reference
+- Windows multimedia,waveform audio
+- multimedia,waveform audio
+- multimedia audio,waveform
+- audio,waveform
+- waveform audio,reference
+- waveform audio reference,about
+- reference for wavefore audio,about
+- waveform audio reference,auxiliary devices
+- reference for wavefore audio,auxiliary devices
+- waveform audio reference,playback
+- reference for wavefore audio,playback
+- waveform audio reference,errors
+- reference for wavefore audio,errors
+- waveform audio reference,opening
+- reference for wavefore audio,opening
+- waveform audio reference,closing
+- reference for wavefore audio,closing
+- waveform audio reference,pitch
+- reference for wavefore audio,pitch
+- waveform audio reference,volume
+- reference for wavefore audio,volume
+- waveform audio reference,messages
+- reference for wavefore audio,messages
+- waveform audio reference,current position
+- reference for wavefore audio,current position
+- waveform audio reference,recording
+- reference for wavefore audio,recording
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waveform Audio Reference
@@ -20,8 +56,8 @@ This section lists the functions, structures, and messages associated with wavef
 
 ## Easy Playback
 
--   [**PlaySound**](playsound.md)
--   [**sndPlaySound**](sndplaysound.md)
+-   [**PlaySound**](/windows/win32/Mmsystem/?branch=master)
+-   [**sndPlaySound**](/windows/win32/Mmsystem/?branch=master)
 
 ## Errors
 
@@ -35,13 +71,13 @@ This section lists the functions, structures, and messages associated with wavef
 -   [**MM\_WIM\_OPEN**](mm-wim-open.md)
 -   [**MM\_WOM\_CLOSE**](mm-wom-close.md)
 -   [**MM\_WOM\_OPEN**](mm-wom-open.md)
--   [**WAVEFORMAT**](waveformat.md)
--   [**WAVEFORMATEX**](waveformatex.md)
+-   [**WAVEFORMAT**](/windows/win32/mmeapi/ns-mmeapi-twaveformatex?branch=master)
+-   [**WAVEFORMATEX**](/windows/win32/Mmreg/?branch=master)
 -   [**waveInClose**](waveinclose.md)
--   [**waveInProc**](waveinproc.md)
+-   [**waveInProc**](/windows/win32/Mmsystem/?branch=master)
 -   [**waveInOpen**](waveinopen.md)
 -   [**waveOutClose**](waveoutclose.md)
--   [**waveOutProc**](waveoutproc.md)
+-   [**waveOutProc**](/windows/win32/Mmsystem/?branch=master)
 -   [**waveOutOpen**](waveoutopen.md)
 -   [**WIM\_CLOSE**](wim-close.md)
 -   [**WIM\_OPEN**](wim-open.md)

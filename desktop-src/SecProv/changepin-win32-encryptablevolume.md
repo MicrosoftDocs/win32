@@ -1,7 +1,12 @@
-﻿---
-Description: 'Changes the PIN associated with an encrypted volume.'
-ms.assetid: '8b0043cc-cf86-44e5-ab7c-038a6782f347'
-title: 'ChangePIN method of the Win32\_EncryptableVolume class'
+---
+Description: Changes the PIN associated with an encrypted volume.
+ms.assetid: 8b0043cc-cf86-44e5-ab7c-038a6782f347
+title: ChangePIN method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangePIN method of the Win32\_EncryptableVolume class

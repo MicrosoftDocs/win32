@@ -1,8 +1,11 @@
 ---
 title: Subject GetClass method
 description: Returns the class name of the Subject.
-ms.assetid: 'F47A8555-FD2A-41BE-B38A-AF086074E6EB'
-keywords: ["GetClass method Access Execution Engine", "GetClass method Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , GetClass method"]
+ms.assetid: F47A8555-FD2A-41BE-B38A-AF086074E6EB
+keywords:
+- GetClass method Access Execution Engine
+- GetClass method Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , GetClass method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::GetClass method
@@ -22,7 +30,7 @@ Returns the class name of the **Subject**.
 
 ```C++
 virtual HRESULT GetClass(
-  [out] LPCWSTR *name
+  [out] LPCWSTR *name
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The class name is the value of element **Subject/Class/ProgrammaticName**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The class name is the value of element **Subject/Class/ProgrammaticName**.
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

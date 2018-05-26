@@ -1,21 +1,26 @@
 ---
-Description: 'The StopAt method informs the pin when to stop delivering data. This method implements the IAMStreamControl::StopAt method.'
-ms.assetid: 'cc9f0fdc-253b-4feb-95ce-56ebc575a49b'
-title: 'CBaseStreamControl.StopAt method'
+Description: The StopAt method informs the pin when to stop delivering data. This method implements the IAMStreamControlStopAt method.
+ms.assetid: cc9f0fdc-253b-4feb-95ce-56ebc575a49b
+title: CBaseStreamControl.StopAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.StopAt method
 
-The `StopAt` method informs the pin when to stop delivering data. This method implements the [**IAMStreamControl::StopAt**](iamstreamcontrol-stopat.md) method.
+The `StopAt` method informs the pin when to stop delivering data. This method implements the [**IAMStreamControl::StopAt**](/windows/win32/Strmif/nf-strmif-iamstreamcontrol-stopat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT StopAt(
-   const REFERENCE_TIME *ptStop = NULL,
-         BOOL           bSendExtra = FALSE,
-         DWORD          dwCookie = 0
+   const REFERENCE_TIME *ptStop = NULL,
+         BOOL           bSendExtra = FALSE,
+         DWORD          dwCookie = 0
 );
 ```
 
@@ -68,9 +73,9 @@ Returns S\_OK.
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: While you can use the Convert-MofToProvider tool to generate the so
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E2904906-21C9-4B02-9EC5-93BF749C6D7F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: E2904906-21C9-4B02-9EC5-93BF749C6D7F
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Create a Visual Studio Project for an MI Provider

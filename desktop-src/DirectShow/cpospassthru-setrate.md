@@ -1,19 +1,24 @@
 ---
-Description: 'The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.'
-ms.assetid: '1b38eb5d-38fd-408b-9f20-4f8d18158f92'
-title: 'CPosPassThru.SetRate method'
+Description: The SetRate method sets the playback rate. This method implements the IMediaSeekingSetRate method.
+ms.assetid: 1b38eb5d-38fd-408b-9f20-4f8d18158f92
+title: CPosPassThru.SetRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.SetRate method
 
-The `SetRate` method sets the playback rate. This method implements the [**IMediaSeeking::SetRate**](imediaseeking-setrate.md) method.
+The `SetRate` method sets the playback rate. This method implements the [**IMediaSeeking::SetRate**](/windows/win32/Strmif/nf-strmif-imediaseeking-setrate?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetRate(
-   double dRate
+   double dRate
 );
 ```
 
@@ -52,9 +57,9 @@ Returns E\_INVALIDARG if *dRate* is zero. Otherwise, returns the **HRESULT** val
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

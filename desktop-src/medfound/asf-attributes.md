@@ -1,7 +1,12 @@
 ---
 Description: ASF Attributes
-ms.assetid: 'c1570669-6e9c-4614-af4d-2a148f12e36f'
+ms.assetid: c1570669-6e9c-4614-af4d-2a148f12e36f
 title: ASF Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Attributes
@@ -58,10 +63,10 @@ For a list of attributes that apply to ASF presentation descriptors, see [Presen
 
 <dl> <dt>
 
-[**IMFASFProfile**](imfasfprofile.md)
+[**IMFASFProfile**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfprofile?branch=master)
 </dt> <dt>
 
-[**IMFASFStreamConfig**](imfasfstreamconfig.md)
+[**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

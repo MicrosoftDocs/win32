@@ -4,11 +4,14 @@ description: Removes a resource from the dependency collection but does not dele
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '904556e2-7d0b-4c03-8cf5-795342263045'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 904556e2-7d0b-4c03-8cf5-795342263045
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RemoveItem method Failover Cluster", "RemoveItem method Failover Cluster , ClusResDependencies class", "ClusResDependencies class Failover Cluster , RemoveItem method"]
+keywords:
+- RemoveItem method Failover Cluster
+- RemoveItem method Failover Cluster , ClusResDependencies class
+- ClusResDependencies class Failover Cluster , RemoveItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResDependencies.RemoveItem method
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>      |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>    |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>    |
@@ -77,9 +83,9 @@ This method does not return a value.
 [**ClusResDependencies.Count**](clusresdependencies-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

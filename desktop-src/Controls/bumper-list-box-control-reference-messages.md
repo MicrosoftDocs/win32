@@ -1,7 +1,12 @@
 ---
 title: List Box Messages
 description: .
-ms.assetid: '6594bfd1-550f-47ba-9b92-551f2a5c08a6'
+ms.assetid: 6594bfd1-550f-47ba-9b92-551f2a5c08a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Box Messages

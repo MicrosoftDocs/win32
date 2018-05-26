@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f26e9e34-f55b-4862-89b9-6aa122a85046'
-title: 'System.Contact.OtherAddress3Country'
+Description: .
+ms.assetid: f26e9e34-f55b-4862-89b9-6aa122a85046
+title: System.Contact.OtherAddress3Country
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress3Country

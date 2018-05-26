@@ -1,7 +1,12 @@
 ---
-Description: 'The GetResult method retrieves the resulting argument list, if one exists.'
-ms.assetid: 'a2a8b17c-3dcf-4f59-89c3-f42070d2a8eb'
-title: 'CDeferredCommand.GetResult method'
+Description: The GetResult method retrieves the resulting argument list, if one exists.
+ms.assetid: a2a8b17c-3dcf-4f59-89c3-f42070d2a8eb
+title: CDeferredCommand.GetResult method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.GetResult method
@@ -43,9 +48,9 @@ Returns a pointer to a **VARIANT** containing the method's argument list, if it 
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

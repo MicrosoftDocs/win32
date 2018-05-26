@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMFLOAT4X3 describes a 4\*3 floating point matrix.'
-ms.assetid: '6745ae3e-a0b5-4b3d-99d3-b6b024e1bea4'
+---
+Description: XMFLOAT4X3 describes a 4\*3 floating point matrix.
+ms.assetid: 6745ae3e-a0b5-4b3d-99d3-b6b024e1bea4
 title: XMFLOAT4X3 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMFLOAT4X3 Extensions
 
-[**XMFLOAT4X3**](xmfloat4x3.md) describes a 4\*3 floating point matrix.
+[**XMFLOAT4X3**](/windows/win32/DirectXMath/?branch=master) describes a 4\*3 floating point matrix.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMFLOAT4X3 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](xmfloat4x3.md)
+[**XMFLOAT4X3**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

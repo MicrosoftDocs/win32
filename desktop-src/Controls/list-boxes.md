@@ -1,7 +1,12 @@
 ---
 title: List Box
 description: This section contains information about the programming elements used with list boxes. A list box is a control window that contains a simple list of items from which the user can choose.
-ms.assetid: '359bb363-5b97-4e0c-bdc4-bfa6a6504a76'
+ms.assetid: 359bb363-5b97-4e0c-bdc4-bfa6a6504a76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Box
@@ -19,7 +24,7 @@ This section contains information about the programming elements used with list 
 
 
 
- 
+ 
 
 ### Functions
 
@@ -27,16 +32,16 @@ This section contains information about the programming elements used with list 
 
 | Topic                                    | Contents                                                                                                                |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**DlgDirList**](dlgdirlist.md)         | Replaces the contents of a list box with the names of the subdirectories and files in a specified directory.<br/> |
-| [**DlgDirSelectEx**](dlgdirselectex.md) | Retrieves the current selection from a single-selection list box.<br/>                                            |
-| [**DrawInsert**](drawinsert.md)         | Draws the insert icon in the parent window of the specified drag list box. <br/>                                  |
-| [**GetListBoxInfo**](getlistboxinfo.md) | Retrieves information about the specified list box.<br/>                                                          |
-| [**LBItemFromPt**](lbitemfrompt.md)     | Retrieves the index of the item at the specified point in a list box. <br/>                                       |
-| [**MakeDragList**](makedraglist.md)     | Changes the specified single-selection list box to a drag list box. <br/>                                         |
+| [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master)         | Replaces the contents of a list box with the names of the subdirectories and files in a specified directory.<br/> |
+| [**DlgDirSelectEx**](/windows/win32/Winuser/nf-winuser-dlgdirselectexa?branch=master) | Retrieves the current selection from a single-selection list box.<br/>                                            |
+| [**DrawInsert**](/windows/win32/Commctrl/nf-commctrl-drawinsert?branch=master)         | Draws the insert icon in the parent window of the specified drag list box. <br/>                                  |
+| [**GetListBoxInfo**](/windows/win32/Winuser/nf-winuser-getlistboxinfo?branch=master) | Retrieves information about the specified list box.<br/>                                                          |
+| [**LBItemFromPt**](/windows/win32/Commctrl/nf-commctrl-lbitemfrompt?branch=master)     | Retrieves the index of the item at the specified point in a list box. <br/>                                       |
+| [**MakeDragList**](/windows/win32/Commctrl/nf-commctrl-makedraglist?branch=master)     | Changes the specified single-selection list box to a drag list box. <br/>                                         |
 
 
 
- 
+ 
 
 ### Messages
 
@@ -50,7 +55,7 @@ This section contains information about the programming elements used with list 
 | [**LB\_DIR**](lb-dir.md)                                 | Adds names to the list displayed by a list box. <br/>                                                                                                                                                                                                                   |
 | [**LB\_FINDSTRING**](lb-findstring.md)                   | Finds the first string in a list box that begins with the specified string. <br/>                                                                                                                                                                                       |
 | [**LB\_FINDSTRINGEXACT**](lb-findstringexact.md)         | Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. <br/>                                                                                                                                          |
-| [**LB\_GETANCHORINDEX**](lb-getanchorindex.md)           | Gets the index of the anchor item—that is, the item from which a multiple selection starts. <br/>                                                                                                                                                                       |
+| [**LB\_GETANCHORINDEX**](lb-getanchorindex.md)           | Gets the index of the anchor item that is, the item from which a multiple selection starts. <br/>                                                                                                                                                                       |
 | [**LB\_GETCARETINDEX**](lb-getcaretindex.md)             | Retrieves the index of the item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. <br/>                                                                                                                               |
 | [**LB\_GETCOUNT**](lb-getcount.md)                       | Gets the number of items in a list box. <br/>                                                                                                                                                                                                                           |
 | [**LB\_GETCURSEL**](lb-getcursel.md)                     | Gets the index of the currently selected item, if any, in a single-selection list box. <br/>                                                                                                                                                                            |
@@ -73,7 +78,7 @@ This section contains information about the programming elements used with list 
 | [**LB\_SELECTSTRING**](lb-selectstring.md)               | Searches a list box for an item that begins with the characters in a specified string. <br/>                                                                                                                                                                            |
 | [**LB\_SELITEMRANGE**](lb-selitemrange.md)               | Selects or deselects one or more consecutive items in a multiple-selection list box. <br/>                                                                                                                                                                              |
 | [**LB\_SELITEMRANGEEX**](lb-selitemrangeex.md)           | Selects one or more consecutive items in a multiple-selection list box. <br/>                                                                                                                                                                                           |
-| [**LB\_SETANCHORINDEX**](lb-setanchorindex.md)           | Sets the anchor item—that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.<br/>                                                                                                        |
+| [**LB\_SETANCHORINDEX**](lb-setanchorindex.md)           | Sets the anchor item that is, the item from which a multiple selection starts. A multiple selection spans all items from the anchor item to the caret item.<br/>                                                                                                        |
 | [**LB\_SETCARETINDEX**](lb-setcaretindex.md)             | Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. <br/>                                                                                                               |
 | [**LB\_SETCOLUMNWIDTH**](lb-setcolumnwidth.md)           | Sets the width, in pixels, of all columns in a multiple-column list box. <br/>                                                                                                                                                                                          |
 | [**LB\_SETCOUNT**](lb-setcount.md)                       | Sets the count of items in a list box created with the [**LBS\_NODATA**](list-box-styles.md#lbs-nodata) style and not created with the [**LBS\_HASSTRINGS**](list-box-styles.md#lbs-hasstrings) style. <br/>                                                          |
@@ -88,7 +93,7 @@ This section contains information about the programming elements used with list 
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -113,7 +118,7 @@ This section contains information about the programming elements used with list 
 
 
 
- 
+ 
 
 ### Structures
 
@@ -121,12 +126,12 @@ This section contains information about the programming elements used with list 
 
 | Topic                                        | Contents                                                                                                                                                               |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DELETEITEMSTRUCT**](deleteitemstruct.md) | Contains information about a deleted list box or combo box item.<br/>                                                                                            |
-| [**DRAGLISTINFO**](draglistinfo.md)         | Contains information about a drag event. The pointer to [**DRAGLISTINFO**](draglistinfo.md) is passed as the *lParam* parameter of the drag list message. <br/> |
+| [**DELETEITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdeleteitemstruct?branch=master) | Contains information about a deleted list box or combo box item.<br/>                                                                                            |
+| [**DRAGLISTINFO**](/windows/win32/Commctrl/ns-commctrl-tagdraglistinfo?branch=master)         | Contains information about a drag event. The pointer to [**DRAGLISTINFO**](/windows/win32/Commctrl/ns-commctrl-tagdraglistinfo?branch=master) is passed as the *lParam* parameter of the drag list message. <br/> |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -138,11 +143,11 @@ This section contains information about the programming elements used with list 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

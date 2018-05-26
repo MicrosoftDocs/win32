@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables server-side pages hosted in a wizard to verify that the user has been authenticated through a Microsoft account.'
-ms.assetid: '8b99eb84-c434-489a-b177-1e00f18d2dcc'
-title: 'NewWDEvents.PassportAuthenticate method'
+---
+Description: Enables server-side pages hosted in a wizard to verify that the user has been authenticated through a Microsoft account.
+ms.assetid: 8b99eb84-c434-489a-b177-1e00f18d2dcc
+title: NewWDEvents.PassportAuthenticate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NewWDEvents.PassportAuthenticate method

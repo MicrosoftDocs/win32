@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a quaternion from a rotation matrix.'
-ms.assetid: '316bf3e0-32ff-4e5e-b771-99f7eea2e27c'
+---
+Description: Builds a quaternion from a rotation matrix.
+ms.assetid: 316bf3e0-32ff-4e5e-b771-99f7eea2e27c
 title: D3DXQuaternionRotationMatrix function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionRotationMatrix function

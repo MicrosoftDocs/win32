@@ -1,7 +1,12 @@
 ---
 title: Local Policy Module
 description: The Local Policy Module (LPM) is a QOS component responsible for retrieving and returning policy-based decisions used by the Admission Control Service (ACS).
-ms.assetid: '292496fc-cf5f-4c6c-8abb-9b3abe73a22b'
+ms.assetid: 292496fc-cf5f-4c6c-8abb-9b3abe73a22b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local Policy Module

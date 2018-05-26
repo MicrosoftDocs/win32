@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns information about the placement and orientation of a glyph in a character cell.'
-ms.assetid: '80a78e68-6f88-4cd2-bb7b-0c608ae700aa'
-title: 'ID3DXFont::GetGlyphData method'
+---
+Description: Returns information about the placement and orientation of a glyph in a character cell.
+ms.assetid: 80a78e68-6f88-4cd2-bb7b-0c608ae700aa
+title: ID3DXFontGetGlyphData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFont::GetGlyphData method
@@ -38,9 +43,9 @@ Glyph identifier.
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)\***
 
-Address of a pointer to a [**IDirect3DTexture9**](idirect3dtexture9.md) object that contains the glyph.
+Address of a pointer to a [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) object that contains the glyph.
 
 </dd> <dt>
 

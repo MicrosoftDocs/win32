@@ -1,7 +1,12 @@
 ---
-Description: 'The optional Boolean &lt;isDefaultNonOwnerSaveLocation&gt; element specifies whether the location described in the search connector should be used as the default save location when a user from another computer in a Homegroup chooses to save an item.'
-ms.assetid: '4286b122-2454-4dc3-9c06-9967b7a763dd'
-title: 'isDefaultNonOwnerSaveLocation Element (Search Connector Schema)'
+Description: The optional Boolean &lt;isDefaultNonOwnerSaveLocation&gt; element specifies whether the location described in the search connector should be used as the default save location when a user from another computer in a Homegroup chooses to save an item.
+ms.assetid: 4286b122-2454-4dc3-9c06-9967b7a763dd
+title: isDefaultNonOwnerSaveLocation Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # isDefaultNonOwnerSaveLocation Element (Search Connector Schema)

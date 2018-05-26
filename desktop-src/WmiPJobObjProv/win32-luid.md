@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LUID abstract WMI class represents a locally unique identifier (LUID), an identifier unique on the local computer that is used in security tokens.'
+Description: The Win32\_LUID abstract WMI class represents a locally unique identifier (LUID), an identifier unique on the local computer that is used in security tokens.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '61ddbf75-a0a6-4a34-bda7-1ed453595875'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 61ddbf75-a0a6-4a34-bda7-1ed453595875
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LUID class'
+title: Win32\_LUID class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LUID class
@@ -71,8 +74,8 @@ Least significant bits of the LUID.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -86,9 +89,9 @@ Least significant bits of the LUID.
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: SRV behavior with non-mapped tiles
 description: Behavior of shader resource view (SRV) reads that involve non-mapped tiles depends on the level of hardware support.
-ms.assetid: '9B720BEE-AB0C-4B75-92AD-3F382A107D48'
+ms.assetid: 9B720BEE-AB0C-4B75-92AD-3F382A107D48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SRV behavior with non-mapped tiles

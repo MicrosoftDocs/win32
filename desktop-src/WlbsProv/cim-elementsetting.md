@@ -4,13 +4,15 @@ description: Represents the association between managed system elements and the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c7dc9913-16ff-47d9-acae-170cd8f25e79'
-ms.prod: 'windows-server-dev'
+ms.assetid: c7dc9913-16ff-47d9-acae-170cd8f25e79
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ElementSetting class", "CIM_ElementSetting class, described"]
+keywords:
+- CIM_ElementSetting class
+- CIM_ElementSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementSetting class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementSetting
 {
   CIM_ManagedSystemElement REF Element;
-  CIM_Setting              REF Setting;
+  CIM_Setting              REF Setting;
 };
 ```
 
@@ -88,16 +93,16 @@ Represents the role of the CIM\_Setting object of the CIM\_ElementSetting associ
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

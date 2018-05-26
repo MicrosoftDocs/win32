@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a queued CMsg object containing a request.'
-ms.assetid: '65b76121-c21c-4525-8dde-138783a4964e'
-title: 'CMsgThread.GetThreadMsg method'
+Description: Retrieves a queued CMsg object containing a request.
+ms.assetid: 65b76121-c21c-4525-8dde-138783a4964e
+title: CMsgThread.GetThreadMsg method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.GetThreadMsg method
@@ -13,7 +18,7 @@ Retrieves a queued [**CMsg**](cmsg.md) object containing a request.
 
 ```C++
 virtual void GetThreadMsg(
-   CMsg *msg
+   CMsg *msg
 );
 ```
 
@@ -56,9 +61,9 @@ This member function is called from the worker thread's private [**ThreadProc**]
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

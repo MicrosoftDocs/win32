@@ -1,12 +1,17 @@
 ---
 Description: Unregistering a Filter
-ms.assetid: '5459d172-7dfe-4786-bcf2-031e441e30a2'
+ms.assetid: 5459d172-7dfe-4786-bcf2-031e441e30a2
 title: Unregistering a Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unregistering a Filter
 
-To unregister a filter, implement the **DllUnregisterServer** function. Within this function, call the DirectShow [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) function with a value of **FALSE**. If you called **IFilterMapper2::RegisterFilter** when you registered the filter, call the [**IFilterMapper2::UnregisterFilter**](ifiltermapper2-unregisterfilter.md) method here.
+To unregister a filter, implement the **DllUnregisterServer** function. Within this function, call the DirectShow [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) function with a value of **FALSE**. If you called **IFilterMapper2::RegisterFilter** when you registered the filter, call the [**IFilterMapper2::UnregisterFilter**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-unregisterfilter?branch=master) method here.
 
 The following example shows how to unregister a filter:
 

@@ -1,8 +1,9 @@
 ---
 title: CardQueryKeySizes function
 description: Retrieves the public key lengths supported by a smart card.
-ms.assetid: '912fdd13-2503-473d-88a9-9846ceca8863'
-keywords: ["CardQueryKeySizes function Security"]
+ms.assetid: 912fdd13-2503-473d-88a9-9846ceca8863
+keywords:
+- CardQueryKeySizes function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardQueryKeySizes function
@@ -24,10 +30,10 @@ The **CardQueryKeySizes** function, defined by a smart card module, retrieves th
 
 ```C++
 DWORD WINAPI CardQueryKeySizes(
-  _In_  PCARD_DATA      pCardData,
-  _In_  DWORD           dwKeySpec,
-  _In_  DWORD           dwFlags,
-  _Out_ PCARD_KEY_SIZES pKeySizes
+  _In_  PCARD_DATA      pCardData,
+  _In_  DWORD           dwKeySpec,
+  _In_  DWORD           dwFlags,
+  _Out_ PCARD_KEY_SIZES pKeySizes
 );
 ```
 
@@ -60,7 +66,7 @@ This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,8 +96,8 @@ If the function fails, it returns a nonzero value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -115,9 +121,9 @@ If the function fails, it returns a nonzero value.
 [**CardCreateContainer**](cardcreatecontainer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

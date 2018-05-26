@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the number of entries in the PMK cache on the client.'
-ms.assetid: '3a53f7fd-7f12-43d3-94e6-a11bec389a34'
-title: 'PMKCacheSize (security) Element'
+---
+Description: Specifies the number of entries in the PMK cache on the client.
+ms.assetid: 3a53f7fd-7f12-43d3-94e6-a11bec389a34
+title: PMKCacheSize (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PMKCacheSize (security) Element

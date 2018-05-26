@@ -1,7 +1,12 @@
 ---
 title: Translating to Java from C++
 description: Using the C++ programming language, developers can directly access the memory that stores a particular variable. Memory pointers provide this direct access. In Java, pointers are handled for you.
-ms.assetid: '2c8de3d9-3410-4153-b612-4afab8a69a18'
+ms.assetid: 2c8de3d9-3410-4153-b612-4afab8a69a18
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to Java from C++

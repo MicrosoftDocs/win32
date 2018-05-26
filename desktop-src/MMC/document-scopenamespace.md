@@ -4,11 +4,16 @@ description: The ScopeNamespace property returns the ScopeNamespace object for t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c4a7d7ac-5378-4e22-a1a9-f1810849d55f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c4a7d7ac-5378-4e22-a1a9-f1810849d55f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ScopeNamespace property MMC", "ScopeNamespace property MMC , Document object", "Document object MMC , ScopeNamespace property", "ScopeNamespace property MMC , Document interface", "Document interface MMC , ScopeNamespace property"]
+keywords:
+- ScopeNamespace property MMC
+- ScopeNamespace property MMC , Document object
+- Document object MMC , ScopeNamespace property
+- ScopeNamespace property MMC , Document interface
+- Document interface MMC , ScopeNamespace property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::ScopeNamespace property
@@ -60,8 +68,8 @@ Set objScopeNS = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ Set objScopeNS = Nothing
 [**ScopeNamespace**](scopenamespace-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: The \ first\_is\ and \ last\_is\ Attributes
 description: You can determine the number of transmitted elements by specifying the first and last elements.
-ms.assetid: 'bd4dcf42-64a7-4b05-ac55-be77c381eb2e'
-keywords: ["first_is", "last_is"]
+ms.assetid: bd4dcf42-64a7-4b05-ac55-be77c381eb2e
+keywords:
+- first_is
+- last_is
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The \[first\_is\] and \[last\_is\] Attributes

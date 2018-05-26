@@ -1,7 +1,12 @@
 ---
 Description: Password Filters
-ms.assetid: '777edb4d-1fb4-4269-8382-8fe73c0c3b23'
+ms.assetid: 777edb4d-1fb4-4269-8382-8fe73c0c3b23
 title: Password Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Password Filters

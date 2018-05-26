@@ -4,11 +4,13 @@ description: Provides access to the nodes that belong to the preferred owner lis
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3425825e-890c-4d3d-919e-a66963e1fc55'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3425825e-890c-4d3d-919e-a66963e1fc55
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResGroupPreferredOwnerNodes collection Failover Cluster", "ClusResGroupPreferredOwnerNodes collection Failover Cluster , described"]
+keywords:
+- ClusResGroupPreferredOwnerNodes collection Failover Cluster
+- ClusResGroupPreferredOwnerNodes collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResGroupPreferredOwnerNodes collection
@@ -49,7 +54,7 @@ The **ClusResGroupPreferredOwnerNodes** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -65,7 +70,7 @@ The **ClusResGroupPreferredOwnerNodes** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,7 +86,7 @@ A **ClusResGroupPreferredOwnerNodes** collection:
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>                  |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>                |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>                |
@@ -97,9 +102,9 @@ A **ClusResGroupPreferredOwnerNodes** collection:
 [Group Management Objects](group-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

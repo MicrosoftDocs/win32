@@ -1,8 +1,9 @@
 ---
 title: InterlockedAdd function
 description: Adds the value, atomically.
-ms.assetid: '27274aae-1e75-4626-9997-57c4e9393000'
-keywords: ["InterlockedAdd function HLSL"]
+ms.assetid: 27274aae-1e75-4626-9997-57c4e9393000
+keywords:
+- InterlockedAdd function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - winnt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedAdd function
@@ -21,9 +27,9 @@ Adds the value, atomically.
 
 ``` syntax
 void InterlockedAdd(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -76,7 +82,7 @@ This function is supported in the following types of shaders:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -98,9 +104,9 @@ This function is supported in the following types of shaders:
 [Shader Model 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

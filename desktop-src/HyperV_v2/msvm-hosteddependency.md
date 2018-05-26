@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual machine instance with the computer system object that represents the physical, hosting system.'
-ms.assetid: '755624D7-04D0-47EA-8623-DEDE6B1D5CBC'
-title: 'Msvm\_HostedDependency class'
+Description: Associates a virtual machine instance with the computer system object that represents the physical, hosting system.
+ms.assetid: 755624D7-04D0-47EA-8623-DEDE6B1D5CBC
+title: Msvm\_HostedDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedDependency class
@@ -69,8 +74,8 @@ Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filter
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -90,9 +95,9 @@ Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filter
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: A property sheet is a window that allows the user to view and edit 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b41508bf-8399-44bb-abad-754aa5d32776'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b41508bf-8399-44bb-abad-754aa5d32776
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["adding property pages and wizard pages MMC", "adding wizard pages and property pages MMC"]
+keywords:
+- adding property pages and wizard pages MMC
+- adding wizard pages and property pages MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Property Pages and Wizard Pages

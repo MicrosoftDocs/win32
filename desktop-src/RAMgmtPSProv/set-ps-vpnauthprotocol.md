@@ -2,13 +2,16 @@
 title: Set method of the PS\_VpnAuthProtocol class
 description: Updates the authentication method of an incoming S2S VPN interface of a RRAS server.
 audience: developer
-ms.assetid: '6ce9fbb9-7c43-4c7d-a9b1-470a9238e3cc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6ce9fbb9-7c43-4c7d-a9b1-470a9238e3cc
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_VpnAuthProtocol class", "PS_VpnAuthProtocol class, Set method"]
+keywords:
+- Set method
+- Set method, PS_VpnAuthProtocol class
+- PS_VpnAuthProtocol class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_VpnAuthProtocol class
@@ -28,14 +34,14 @@ Updates the authentication method of an incoming S2S VPN interface of a RRAS ser
 
 ```mof
 uint32 Set(
-  [in]  string          UserAuthProtocolAccepted[],
-  [in]  string          TunnelAuthProtocolsAdvertised,
-  [in]  uint8           RootCertificateNameToAccept[],
-  [in]  uint8           CertificateAdvertised[],
-  [in]  string          SharedSecret,
-  [in]  boolean         PassThru,
-  [in]  string          CertificateEKUsToAccept[],
-  [out] VpnAuthProtocol cmdletOutput
+  [in]  string          UserAuthProtocolAccepted[],
+  [in]  string          TunnelAuthProtocolsAdvertised,
+  [in]  uint8           RootCertificateNameToAccept[],
+  [in]  uint8           CertificateAdvertised[],
+  [in]  string          SharedSecret,
+  [in]  boolean         PassThru,
+  [in]  string          CertificateEKUsToAccept[],
+  [out] VpnAuthProtocol cmdletOutput
 );
 ```
 
@@ -90,7 +96,7 @@ Indicates whether the *cmdletOutput* parameter returns an object. **True** to re
 *CertificateEKUsToAccept* \[in\]
 </dt> <dd>
 
-**Windows Server 2012:** This parameter is unavailable prior to Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable prior to Windows Server 2012 R2.
 
 An array that contains the names of the allowed Enhanced Key Usage (EKU) certificates.
 
@@ -110,7 +116,7 @@ Receives the [**VpnAuthProtocol**](ps-vpnauthprotocol.md) object that contains t
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -124,9 +130,9 @@ Receives the [**VpnAuthProtocol**](ps-vpnauthprotocol.md) object that contains t
 [**PS\_VpnAuthProtocol**](ps-vpnauthprotocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

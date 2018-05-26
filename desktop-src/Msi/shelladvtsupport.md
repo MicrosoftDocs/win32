@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ShellAdvtSupport property is set by the installer if the system''s IShellLink interface supports installer descriptor resolution.'
-ms.assetid: '8c3503c5-2a9c-43ad-8cc5-ea10df39b24d'
+---
+Description: The ShellAdvtSupport property is set by the installer if the systems IShellLink interface supports installer descriptor resolution.
+ms.assetid: 8c3503c5-2a9c-43ad-8cc5-ea10df39b24d
 title: ShellAdvtSupport property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellAdvtSupport property

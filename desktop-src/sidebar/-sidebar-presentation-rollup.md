@@ -1,12 +1,17 @@
 ---
 title: Gadgets for Windows Sidebar - Presentation Object Reference
 description: This section describes the three Windows Sidebar scripting elements that define gadget presentation functionality such as backgrounds, images, and text handling.
-ms.assetid: 'd52ea6a2-7d8c-4132-9b19-23cc6b824dc6'
+ms.assetid: d52ea6a2-7d8c-4132-9b19-23cc6b824dc6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar - Presentation Object Reference
 
-\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
+\[ The Windows Gadget Platform/Sidebar is available for use in the following versions of Windows: Windows 7, Windows Vista, and Windows Server 2008. It may be altered or unavailable in subsequent versions. \]
 
 This section describes the three Windows Sidebar scripting elements that define gadget presentation functionality such as backgrounds, images, and text handling. These elements are composed of [**g:background**](background-element.md), [**g:text**](gtext.md), and [**g:image**](image-element.md) along with the `gimage` protocol (described in more detail in [Developing a Gadget for Windows Sidebar Part 2: The G:BACKGROUND, G:IMAGE, G:TEXT Presentation Elements and GIMAGE Protocol](-sidebar-overview-gdo2.md)).
 
@@ -57,15 +62,15 @@ The Windows Gadget Platform/Sidebar is available for use in the operating system
 
 
 
- 
+ 
 
 ## For More Information
 
 For Windows Vista User Experience Guidelines, see [Windows Vista User Experience Guidelines for the Sidebar](http://msdn.microsoft.com/library/aa974179.aspx)
 
- 
+ 
 
- 
+ 
 
 
 

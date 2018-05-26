@@ -1,8 +1,10 @@
 ---
 title: PCIIDE\_TRANSFER\_MODE\_SELECT structure
 description: The PCIIDE\_TRANSFER\_MODE\_SELECT structure contains transfer mode information for all devices attached to a channel of an IDE controller.
-ms.assetid: 'c8a006e4-0e26-4d21-816d-39533db90c4e'
-keywords: ["PCIIDE_TRANSFER_MODE_SELECT structure Storage Devices", "PPCIIDE_TRANSFER_MODE_SELECT structure pointer Storage Devices"]
+ms.assetid: c8a006e4-0e26-4d21-816d-39533db90c4e
+keywords:
+- PCIIDE_TRANSFER_MODE_SELECT structure Storage Devices
+- PPCIIDE_TRANSFER_MODE_SELECT structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ide.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PCIIDE\_TRANSFER\_MODE\_SELECT structure
@@ -22,22 +29,22 @@ The PCIIDE\_TRANSFER\_MODE\_SELECT structure contains transfer mode information 
 
 ```C++
 typedef struct _PCIIDE_TRANSFER_MODE_SELECT {
-  ULONG         Channel;
-  BOOLEAN       DevicePresent[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  BOOLEAN       FixedDisk[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  BOOLEAN       IoReadySupported[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         DeviceTransferModeSupported[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         BestPioCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         BestSwDmaCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         BestMwDmaCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         BestUDmaCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         DeviceTransferModeCurrent[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         UserChoiceTransferMode[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  ULONG         EnableUDMA66;
+  ULONG         Channel;
+  BOOLEAN       DevicePresent[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  BOOLEAN       FixedDisk[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  BOOLEAN       IoReadySupported[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         DeviceTransferModeSupported[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         BestPioCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         BestSwDmaCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         BestMwDmaCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         BestUDmaCycleTime[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         DeviceTransferModeCurrent[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         UserChoiceTransferMode[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  ULONG         EnableUDMA66;
   IDENTIFY_DATA IdentifyData[MAX_IDE_DEVICE];
-  ULONG         DeviceTransferModeSelected[MAX_IDE_DEVICE * MAX_IDE_LINE];
-  PULONG        TransferModeTimingTable;
-  ULONG         TransferModeTableLength;
+  ULONG         DeviceTransferModeSelected[MAX_IDE_DEVICE * MAX_IDE_LINE];
+  PULONG        TransferModeTimingTable;
+  ULONG         TransferModeTableLength;
 } PCIIDE_TRANSFER_MODE_SELECT, *PPCIIDE_TRANSFER_MODE_SELECT;
 ```
 
@@ -210,9 +217,9 @@ Member arrays **DeviceTransferModeSupported**, **DeviceTransferModeCurrent**, an
 [**IDE\_CONTROLLER\_PROPERTIES**](ide-controller-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20PCIIDE_TRANSFER_MODE_SELECT%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

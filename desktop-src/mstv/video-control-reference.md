@@ -1,7 +1,12 @@
 ---
 title: Video Control Reference
 description: Video Control Reference
-ms.assetid: '4d4559c1-ce2d-48a7-bf15-826cfb9512f1'
+ms.assetid: 4d4559c1-ce2d-48a7-bf15-826cfb9512f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Control Reference

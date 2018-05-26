@@ -1,8 +1,14 @@
 ---
 title: WS\_SERVICE\_HOST
 description: An opaque type used to reference a service host.
-ms.assetid: '1186e3ae-87d0-4d0b-a7cc-cce63dc091e2'
-keywords: ["WS_SERVICE_HOST"]
+ms.assetid: 1186e3ae-87d0-4d0b-a7cc-cce63dc091e2
+keywords:
+- WS_SERVICE_HOST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS\_SERVICE\_HOST
@@ -26,8 +32,8 @@ This object is thread safe. For more information, see [thread safety](thread-saf
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
 
 
@@ -42,9 +48,9 @@ This object is thread safe. For more information, see [thread safety](thread-saf
 [Thread Safety](thread-safety.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

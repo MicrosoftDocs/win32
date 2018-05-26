@@ -4,17 +4,22 @@ description: Used with RODCs to identify the user objects whose secrets have bee
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '92f6d8a9-7829-4400-9b60-f1afe8653bc0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 92f6d8a9-7829-4400-9b60-f1afe8653bc0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Revealed-Users attribute AD Schema", "msDS-RevealedUsers attribute AD Schema"]
+keywords:
+- ms-DS-Revealed-Users attribute AD Schema
+- msDS-RevealedUsers attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Revealed-Users
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Revealed-Users attribute
@@ -38,9 +43,9 @@ Used with RODCs to identify the user objects whose secrets have been disclosed t
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Used with RODCs to identify the user objects whose secrets have been disclosed t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

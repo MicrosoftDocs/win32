@@ -1,8 +1,9 @@
 ---
 title: LB\_GETTEXT message
 description: Gets a string from a list box.
-ms.assetid: '6bf7ec3b-237b-4668-9493-40c098a32428'
-keywords: ["LB_GETTEXT message Windows Controls"]
+ms.assetid: 6bf7ec3b-237b-4668-9493-40c098a32428
+keywords:
+- LB_GETTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETTEXT message
@@ -26,7 +32,7 @@ Gets a string from a list box.
 
 The zero-based index of the string to retrieve.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ If the list box has an owner-drawn style but not the [**LBS\_HASSTRINGS**](list-
 [**LB\_GETTEXTLEN**](lb-gettextlen.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

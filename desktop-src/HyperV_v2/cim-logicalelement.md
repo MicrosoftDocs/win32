@@ -1,7 +1,12 @@
 ---
-Description: 'CIM\_LogicalElement is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.'
-ms.assetid: 'd08a9552-7b89-4fab-870f-be770f0381a5'
-title: 'CIM\_LogicalElement class'
+Description: CIM\_LogicalElement is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.
+ms.assetid: d08a9552-7b89-4fab-870f-be770f0381a5
+title: CIM\_LogicalElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_LogicalElement class
@@ -27,8 +32,8 @@ The **CIM\_LogicalElement** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -42,9 +47,9 @@ The **CIM\_LogicalElement** class does not define any members.
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

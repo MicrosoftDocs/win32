@@ -4,17 +4,21 @@ description: Get the templates.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4E6C0C85-4D46-466F-A5F0-7B37E8D9EDA2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4E6C0C85-4D46-466F-A5F0-7B37E8D9EDA2
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSTemplateDescriptor templateListWithUserId userId authenticationCallback completionBlock method"]
+keywords:
+- MSTemplateDescriptor templateListWithUserId userId authenticationCallback completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSTemplateDescriptor templateListWithUserId userId authenticationCallback completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSTemplateDescriptor templateListWithUserId:userId:authenticationCallback:completionBlock method
@@ -24,7 +28,7 @@ Get the templates.
 > [!Note]  
 > **templateListWithUserId** should be invoked from the main thread.
 
- 
+ 
 
 ## Signature
 
@@ -46,7 +50,7 @@ Get the templates.
 
 
 
- 
+ 
 
 ## Returns
 
@@ -66,15 +70,15 @@ MSTemplateDescriptor.h
 
 
 
- 
+ 
 
 ## Remarks
 
 **templateListWithUserId** should be invoked from the main thread.
 
- 
+ 
 
- 
+ 
 
 
 

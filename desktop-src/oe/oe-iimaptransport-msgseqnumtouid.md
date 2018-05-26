@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport MsgSeqNumToUID method
 description: Returns the unique identifier (UID) that maps to the specified message sequence number in the MsgSeqNumToUID table.
-ms.assetid: 'f6d0303b-9bd2-49f9-b98e-13c999b0fc29'
-keywords: ["MsgSeqNumToUID method Windows Mail (formerly Outlook Express)", "MsgSeqNumToUID method Windows Mail (formerly Outlook Express) , IIMAPTransport interface", "IIMAPTransport interface Windows Mail (formerly Outlook Express) , MsgSeqNumToUID method"]
+ms.assetid: f6d0303b-9bd2-49f9-b98e-13c999b0fc29
+keywords:
+- MsgSeqNumToUID method Windows Mail (formerly Outlook Express)
+- MsgSeqNumToUID method Windows Mail (formerly Outlook Express) , IIMAPTransport interface
+- IIMAPTransport interface Windows Mail (formerly Outlook Express) , MsgSeqNumToUID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport::MsgSeqNumToUID method
@@ -24,8 +32,8 @@ Returns the unique identifier (UID) that maps to the specified message sequence 
 
 ```C++
 HRESULT MsgSeqNumToUID(
-  [in]  DWORD dwMsgSeqNum,
-  [out] DWORD *pdwUID
+  [in]  DWORD dwMsgSeqNum,
+  [out] DWORD *pdwUID
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,8 +89,8 @@ The MsgSeqNumToUID table maps message sequence numbers to unique identifiers (UI
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -90,9 +98,9 @@ The MsgSeqNumToUID table maps message sequence numbers to unique identifiers (UI
 
 
 
- 
+ 
 
- 
+ 
 
 
 

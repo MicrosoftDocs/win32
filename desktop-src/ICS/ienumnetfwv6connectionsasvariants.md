@@ -1,8 +1,10 @@
 ---
 title: IEnumNetFwV6ConnectionsAsVariants interface
 description: The IEnumNetFwV6ConnectionsAsVariants interface is a standard COM enumerator for the INetFwV6Connection interface. Unlike IEnumNetFwV6Connections this enumerator yields items of type VARIANT, as is required by the Automation collection model.
-ms.assetid: '5411d865-48fb-4058-bb38-3e895d243803'
-keywords: ["IEnumNetFwV6ConnectionsAsVariants interface ICS/ICF", "IEnumNetFwV6ConnectionsAsVariants interface ICS/ICF , described"]
+ms.assetid: 5411d865-48fb-4058-bb38-3e895d243803
+keywords:
+- IEnumNetFwV6ConnectionsAsVariants interface ICS/ICF
+- IEnumNetFwV6ConnectionsAsVariants interface ICS/ICF , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumNetFwV6ConnectionsAsVariants interface
@@ -40,7 +47,7 @@ The **IEnumNetFwV6ConnectionsAsVariants** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,10 +55,10 @@ The **IEnumNetFwV6ConnectionsAsVariants** interface has these methods.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -82,9 +89,9 @@ The **IEnumNetFwV6ConnectionsAsVariants** interface has these methods.
 [IUnknown](_com_iunknown)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

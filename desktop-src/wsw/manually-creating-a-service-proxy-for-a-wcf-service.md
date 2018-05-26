@@ -1,18 +1,23 @@
 ---
 title: Manually Creating a Service Proxy for a WCF Service
 description: The easiest way to create a client service proxy for a Windows Communication Foundation (WCF) service is at the Service Model layer with the WsUtil tool, as described in the Creating a Client topic.
-ms.assetid: 'ef545090-382b-44bd-b7ab-f5a285b6e202'
+ms.assetid: ef545090-382b-44bd-b7ab-f5a285b6e202
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manually Creating a Service Proxy for a WCF Service
 
-The easiest way to create a client service proxy for a Windows Communication Foundation (WCF) service is at the [Service Model](service-model-layer-overview.md) layer with the WsUtil tool, as described in the [Creating a Client](creating-a-client.md) topic. However, if necessary, you can also create a service proxy manually. This API includes a [**WsCreateServiceProxy**](wscreateserviceproxy.md) function for creating the service proxy as well as structures, enumerations, and so on for setting the properties necessary to interoperate with WCF.
+The easiest way to create a client service proxy for a Windows Communication Foundation (WCF) service is at the [Service Model](service-model-layer-overview.md) layer with the WsUtil tool, as described in the [Creating a Client](creating-a-client.md) topic. However, if necessary, you can also create a service proxy manually. This API includes a [**WsCreateServiceProxy**](/windows/win32/WebServices/nf-webservices-wscreateserviceproxy?branch=master) function for creating the service proxy as well as structures, enumerations, and so on for setting the properties necessary to interoperate with WCF.
 
 WCF provides a number of standard bindings, each targeting a specific usage scenario. Which binding the service you are trying to connect to uses, in turn, determines which channel properties you need to customize for your service proxy to communicate with the service.
 
 ## Creating a Service Proxy for WCF's WSHttpBinding
 
-WSHttpBinding is for the mainline Internet web services scenario. It uses the newer SOAP version 1.2 and WS-Addressing version 1.0 and enables a wide range of security settings over the public HTTP and HTTPS transports. WWSAPI does not have an equivalent of the WSHttpBinding (or any of the WCF standard bindings, for that matter), but since its default SOAP version, WS-Addressing version, and encoding format match those in WSHttpBinding, creating a service proxy for a service that uses the WSHttpBinding is straightforward. For example, to create a service proxy to talk to a WSHttpBinding endpoint without security, you can simply use code like following snippet (variable declaration, and heap and error creation are omitted). Notice that no channel properties or security description is specified in the call to the [**WsCreateServiceProxy**](wscreateserviceproxy.md) function.
+WSHttpBinding is for the mainline Internet web services scenario. It uses the newer SOAP version 1.2 and WS-Addressing version 1.0 and enables a wide range of security settings over the public HTTP and HTTPS transports. WWSAPI does not have an equivalent of the WSHttpBinding (or any of the WCF standard bindings, for that matter), but since its default SOAP version, WS-Addressing version, and encoding format match those in WSHttpBinding, creating a service proxy for a service that uses the WSHttpBinding is straightforward. For example, to create a service proxy to talk to a WSHttpBinding endpoint without security, you can simply use code like following snippet (variable declaration, and heap and error creation are omitted). Notice that no channel properties or security description is specified in the call to the [**WsCreateServiceProxy**](/windows/win32/WebServices/nf-webservices-wscreateserviceproxy?branch=master) function.
 
 
 ```C++
@@ -38,7 +43,7 @@ The function creates the service proxy and returns a pointer to it in the *servi
 
 When you manually create a service proxy for a WCF service that uses a BasicHttpBinding binding, however, it is necessary to set the SOAP version and WS-Addressing properties of the channel. This is because WWSAPI defaults to SOAP version 1.2 and WS-Addressing 1.0. WCF's BasicHttpBinding, on the other hand, uses SOAP version 1.1 and no WS-Addressing.
 
-To set the SOAP version and WS-Addrssing properties of the channel, declare an array of [**WS\_CHANNEL\_PROPERTY**](ws-channel-property.md) structures to hold the channel properties and related information.
+To set the SOAP version and WS-Addrssing properties of the channel, declare an array of [**WS\_CHANNEL\_PROPERTY**](/windows/win32/WebServices/ns-webservices-_ws_channel_property?branch=master) structures to hold the channel properties and related information.
 
 
 ```
@@ -64,7 +69,7 @@ channelPropertyCount++; // Increment property count
 
 
 
-Then pass the array of channel properties (channelProperties) and the count of properties (channelPropertyCount) to the [**WsCreateServiceProxy**](wscreateserviceproxy.md) (or [**WsCreateChannel**](wscreatechannel.md) if you are working at channel layer).
+Then pass the array of channel properties (channelProperties) and the count of properties (channelPropertyCount) to the [**WsCreateServiceProxy**](/windows/win32/WebServices/nf-webservices-wscreateserviceproxy?branch=master) (or [**WsCreateChannel**](/windows/win32/WebServices/nf-webservices-wscreatechannel?branch=master) if you are working at channel layer).
 
 
 ```

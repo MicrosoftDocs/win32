@@ -4,13 +4,15 @@ description: Represents a state change event. A state change event is generated 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1c17ad35-5898-40bf-a4d1-a2ccf82198cb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1c17ad35-5898-40bf-a4d1-a2ccf82198cb
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_EventStateChange class", "MSCluster_EventStateChange class, described"]
+keywords:
+- MSCluster_EventStateChange class
+- MSCluster_EventStateChange class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_EventStateChange class
@@ -41,7 +46,7 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{F68489E2-0301-4594-B25D-613637ECBA1A}"), AMENDMENT]
 class MSCluster_EventStateChange : MSCluster_Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -87,7 +92,7 @@ Current state of the object that is reporting a state change.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -317,16 +322,16 @@ The **MSCluster\_EventStateChange** class is derived from the [**MSCluster\_Even
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

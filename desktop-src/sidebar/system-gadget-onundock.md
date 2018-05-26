@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.onUndock event
 description: Event fired when the gadget is docked on the Windows Sidebar.
-ms.assetid: '0043a807-4d65-40ba-b9c6-91ea59cb7f85'
-keywords: ["onUndock event Windows Sidebar", "onUndock event Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , onUndock event"]
+ms.assetid: 0043a807-4d65-40ba-b9c6-91ea59cb7f85
+keywords:
+- onUndock event Windows Sidebar
+- onUndock event Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , onUndock event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.onUndock event
@@ -20,9 +28,9 @@ api_type:
 Event fired when the gadget is docked on the Windows Sidebar.
 
 > [!Note]  
-> For Windows 7, because there is no Sidebar associated with the Gadget Platform, the [**onDock**](system-gadget-ondock.md) and **onUndock** event listeners are linked to a new gadget icon ("Larger size" or "Smaller size"). Clicking this icon resizes the gadget and raises the dock ("Smaller size") or undock ("Larger size") event.
+> For Windows 7, because there is no Sidebar associated with the Gadget Platform, the [**onDock**](system-gadget-ondock.md) and **onUndock** event listeners are linked to a new gadget icon ("Larger size" or "Smaller size"). Clicking this icon resizes the gadget and raises the dock ("Smaller size") or undock ("Larger size") event.
 
- 
+ 
 
 ## Syntax
 
@@ -123,10 +131,10 @@ function CheckDockState()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -139,9 +147,9 @@ function CheckDockState()
 [**System.Gadget**](system-gadget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

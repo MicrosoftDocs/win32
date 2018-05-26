@@ -1,8 +1,15 @@
 ---
 title: MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01 class
 description: The MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01 class is used to onboard, determine configuration and health status, and offboard endpoints for Windows Defender Advanced Threat Protection.
-ms.assetid: 'b56d5d46-e994-404a-865a-c59bb948f2b3'
-keywords: ["MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class", "MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class, described"]
+ms.assetid: b56d5d46-e994-404a-865a-c59bb948f2b3
+keywords:
+- MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class
+- MDM_WindowsAdvancedThreatProtection_DeviceTagging01 class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WindowsAdvancedThreatProtection\_DeviceTagging01 class
@@ -108,7 +115,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -116,9 +123,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

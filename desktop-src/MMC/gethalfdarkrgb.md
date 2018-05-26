@@ -4,11 +4,14 @@ description: The GetHalfDarkRGB method derives a \ 0034;darker \ 0034; color by 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5b2896af-1fb3-41d4-87d7-26c8f27436ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5b2896af-1fb3-41d4-87d7-26c8f27436ad
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetHalfDarkRGB method MMC", "GetHalfDarkRGB method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetHalfDarkRGB method"]
+keywords:
+- GetHalfDarkRGB method MMC
+- GetHalfDarkRGB method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetHalfDarkRGB method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetHalfDarkRGB method
@@ -101,9 +107,9 @@ An integer that is the RGB value for the derived color specified by the method's
 
 
 
- 
+ 
 
- 
+ 
 
 
 

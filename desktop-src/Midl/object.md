@@ -2,13 +2,19 @@
 title: object attribute
 description: The \ object\ interface attribute identifies a COM interface.
 ms.assetid: 51e34ef3-eea7-45f4-b961-a9f742700fe5
-keywords: ["object attribute MIDL"]
+keywords:
+- object attribute MIDL
 topic_type:
 - apiref
 api_name:
 - object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # object attribute

@@ -1,7 +1,12 @@
 ---
 title: HTML Help End-User License Agreement
 description: END-USER LICENSE AGREEMENT FOR MICROSOFT SOFTWARE.
-ms.assetid: '46E37518-12FC-4a2f-A3C1-B5B5147C0A26'
+ms.assetid: 46E37518-12FC-4a2f-A3C1-B5B5147C0A26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help End-User License Agreement

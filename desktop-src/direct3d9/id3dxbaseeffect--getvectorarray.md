@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an array of vectors.'
-ms.assetid: '75fe454c-75f7-4f03-acd2-dd9cbf94fb96'
-title: 'ID3DXBaseEffect::GetVectorArray method'
+---
+Description: Gets an array of vectors.
+ms.assetid: 75fe454c-75f7-4f03-acd2-dd9cbf94fb96
+title: ID3DXBaseEffectGetVectorArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetVectorArray method

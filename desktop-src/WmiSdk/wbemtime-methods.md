@@ -1,13 +1,16 @@
 ---
-Description: 'The WBEMTime class exposes the following methods.'
+Description: The WBEMTime class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '56B21156-8FD2-4FF8-805E-DDA63C897F80'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 56B21156-8FD2-4FF8-805E-DDA63C897F80
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WBEMTime Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WBEMTime Methods
@@ -18,30 +21,30 @@ The [**WBEMTime**](wbemtime.md) class exposes the following methods.
 
 ## In this section
 
--   [**Clear method**](wbemtime-clear.md)
--   [**GetBSTR method**](wbemtime-getbstr.md)
--   [**GetDMTF method**](wbemtime-getdmtf.md)
--   [**GetDMTFNonNtfs method**](wbemtime-getdmtfnonntfs.md)
--   [**GetFILETIME method**](wbemtime-getfiletime.md)
--   [**GetLocalOffsetForDate methods**](wbemtime--getlocaloffsetfordate.md)
--   [**GetStructtm method**](wbemtime-getstructtm.md)
--   [**GetSYSTEMTIME method**](wbemtime-getsystemtime.md)
--   [**GetTime method**](wbemtime-gettime.md)
--   [**Gettime\_t method**](wbemtime-gettime-t.md)
--   [**IsOk method**](wbemtime-isok.md)
--   [**operator- operators**](wbemtime--operator-minus.md)
--   [**WBEMTime::operator != method**](wbemtime-comparison-operators-notequal.md)
--   [**WBEMTime::operator &lt; method**](wbemtime-comparison-operators-lessthan.md)
--   [**WBEMTime::operator &lt;= method**](wbemtime-comparison-operators-lessthanorequal.md)
--   [**WBEMTime::operator == method**](wbemtime-comparison-operators-equal.md)
--   [**WBEMTime::operator &gt; method**](wbemtime-comparison-operators-greaterthan.md)
--   [**WBEMTime::operator &gt;= method**](wbemtime-comparison-operators-greaterthanorequal.md)
--   [**operator+ method**](wbemtime-operator-plus.md)
--   [**operator+= method**](wbemtime-operator-plus-equal.md)
--   [**operator= operators**](wbemtime--operator-equal.md)
--   [**operator-= method**](wbemtime-operator-minus-equal.md)
--   [**SetDMTF method**](wbemtime-setdmtf.md)
--   [**WBEMTime constructors**](wbemtime-wbemtime.md)
+-   [**Clear method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-clear?branch=master)
+-   [**GetBSTR method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-getbstr?branch=master)
+-   [**GetDMTF method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-getdmtf?branch=master)
+-   [**GetDMTFNonNtfs method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-getdmtfnonntfs?branch=master)
+-   [**GetFILETIME method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-getfiletime?branch=master)
+-   [**GetLocalOffsetForDate methods**](/windows/win32/WbemTime/?branch=master)
+-   [**GetStructtm method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-getstructtm?branch=master)
+-   [**GetSYSTEMTIME method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-getsystemtime?branch=master)
+-   [**GetTime method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-gettime?branch=master)
+-   [**Gettime\_t method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-gettime_t?branch=master)
+-   [**IsOk method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-isok?branch=master)
+-   [**operator- operators**](/windows/win32/WbemTime/?branch=master)
+-   [**WBEMTime::operator != method**](/windows/win32/WbemTime/?branch=master)
+-   [**WBEMTime::operator &lt; method**](/windows/win32/WbemTime/?branch=master)
+-   [**WBEMTime::operator &lt;= method**](/windows/win32/WbemTime/?branch=master)
+-   [**WBEMTime::operator == method**](/windows/win32/WbemTime/?branch=master)
+-   [**WBEMTime::operator &gt; method**](/windows/win32/WbemTime/?branch=master)
+-   [**WBEMTime::operator &gt;= method**](/windows/win32/WbemTime/?branch=master)
+-   [**operator+ method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-operator+?branch=master)
+-   [**operator+= method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-operator+=?branch=master)
+-   [**operator= operators**](/windows/win32/WbemTime/?branch=master)
+-   [**operator-= method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-operator-=?branch=master)
+-   [**SetDMTF method**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-setdmtf?branch=master)
+-   [**WBEMTime constructors**](/windows/win32/WbemTime/nf-wbemtime-wbemtime-wbemtime(const bstr)?branch=master)
 
  
 

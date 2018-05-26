@@ -1,7 +1,12 @@
 ---
 Description: Selecting a Capture Device
-ms.assetid: '8f92873d-569a-48af-a913-6d4cce65640f'
+ms.assetid: 8f92873d-569a-48af-a913-6d4cce65640f
 title: Selecting a Capture Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting a Capture Device
@@ -11,7 +16,7 @@ To select an audio or video capture device, use the [System Device Enumerator](s
 To use the System Device Enumerator, perform the following steps.
 
 1.  Call [**CoCreateInstance**](com.cocreateinstance) to create an instance of the System Device Enumerator.
-2.  Call [**ICreateDevEnum::CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) and specify the device category as a GUID. For capture devices, the following categories are relevant. 
+2.  Call [**ICreateDevEnum::CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) and specify the device category as a GUID. For capture devices, the following categories are relevant. 
 
     | Category GUID                       | Description           |
     |-------------------------------------|-----------------------|
@@ -24,7 +29,7 @@ To use the System Device Enumerator, perform the following steps.
 
     If a video camera has an integrated microphone, it appears in both categories. However, the camera and microphone are treated as separate devices by the system, for purposes of enumeration, device creation, and data streaming.
 
-3.  The [**CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) method returns a pointer to the [**IEnumMoniker**](com.ienummoniker) interface. To enumerate the monikers, call [**IEnumMoniker::Next**](com.ienummoniker_next).
+3.  The [**CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) method returns a pointer to the [**IEnumMoniker**](com.ienummoniker) interface. To enumerate the monikers, call [**IEnumMoniker::Next**](com.ienummoniker_next).
 
 The following code creates an enumerator for a specified device category.
 
@@ -167,7 +172,7 @@ void main()
 
 
 
-To create a DirectShow capture filter for the device, call the [**IMoniker::BindToObject**](com.imoniker_bindtoobject) method to get an [**IBaseFilter**](ibasefilter.md) pointer. Then call [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) to add the filter to the filter graph:
+To create a DirectShow capture filter for the device, call the [**IMoniker::BindToObject**](com.imoniker_bindtoobject) method to get an [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) pointer. Then call [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) to add the filter to the filter graph:
 
 
 ```C++

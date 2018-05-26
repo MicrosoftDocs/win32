@@ -1,35 +1,40 @@
 ---
-Description: 'The PrivateFontCollection class inherits from the FontCollection abstract base class. You can use a PrivateFontCollection object to maintain a set of fonts specifically for your application.'
-ms.assetid: 'ae12afcf-12cc-4c84-9aba-de56fc39437b'
+Description: The PrivateFontCollection class inherits from the FontCollection abstract base class. You can use a PrivateFontCollection object to maintain a set of fonts specifically for your application.
+ms.assetid: ae12afcf-12cc-4c84-9aba-de56fc39437b
 title: Creating a Private Font Collection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Private Font Collection
 
-The [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md) class inherits from the [**FontCollection**](-gdiplus-class-fontcollection-class.md) abstract base class. You can use a **PrivateFontCollection** object to maintain a set of fonts specifically for your application.
+The [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master) class inherits from the [**FontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontcollection?branch=master) abstract base class. You can use a **PrivateFontCollection** object to maintain a set of fonts specifically for your application.
 
-A private font collection can include installed system fonts as well as fonts that have not been installed on the computer. To add a font file to a private font collection, call the [**PrivateFontCollection::AddFontFile**](-gdiplus-class-privatefontcollection-addfontfile-filename-.md) method of a [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md) object.
+A private font collection can include installed system fonts as well as fonts that have not been installed on the computer. To add a font file to a private font collection, call the [**PrivateFontCollection::AddFontFile**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-privatefontcollection-addfontfile?branch=master) method of a [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master) object.
 
 > [!Note]  
 > When you use the GDI+ API, you must never allow your application to download arbitrary fonts from untrusted sources. The operating system requires elevated privileges to assure that all installed fonts are trusted.
 
  
 
-The [**FontCollection::GetFamilies**](-gdiplus-class-fontcollection-getfamilies-numsought-gpfamilies-numfound-.md) method of a [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md) object returns an array of [**FontFamily**](-gdiplus-class-fontfamily-class.md) objects. Before you call **FontCollection::GetFamilies**, you must allocate a buffer large enough to hold that array. To determine the size of the required buffer, call the [**FontCollection::GetFamilyCount**](-gdiplus-class-fontcollection-getfamilycount-.md) method and multiply the return value by **sizeof**(**FontFamily**).
+The [**FontCollection::GetFamilies**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilies?branch=master) method of a [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master) object returns an array of [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) objects. Before you call **FontCollection::GetFamilies**, you must allocate a buffer large enough to hold that array. To determine the size of the required buffer, call the [**FontCollection::GetFamilyCount**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilycount?branch=master) method and multiply the return value by **sizeof**(**FontFamily**).
 
 The number of font families in a private font collection is not necessarily the same as the number of font files that have been added to the collection. For example, suppose you add the files ArialBd.tff, Times.tff, and TimesBd.tff to a collection. There will be three files but only two families in the collection because Times.tff and TimesBd.tff belong to the same family.
 
-The following example adds the following three font files to a [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md) object:
+The following example adds the following three font files to a [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master) object:
 
 -   C:\\WINNT\\Fonts\\Arial.tff (Arial, regular)
 -   C:\\WINNT\\Fonts\\CourBI.tff (Courier New, bold italic)
 -   C:\\WINNT\\Fonts\\TimesBd.tff (Times New Roman, bold)
 
-The code calls the [**FontCollection::GetFamilyCount**](-gdiplus-class-fontcollection-getfamilycount-.md) method of the [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md) object to determine the number of families in the private collection, and then calls [**FontCollection::GetFamilies**](-gdiplus-class-fontcollection-getfamilies-numsought-gpfamilies-numfound-.md) to retrieve an array of [**FontFamily**](-gdiplus-class-fontfamily-class.md) objects.
+The code calls the [**FontCollection::GetFamilyCount**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilycount?branch=master) method of the [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master) object to determine the number of families in the private collection, and then calls [**FontCollection::GetFamilies**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontcollection-getfamilies?branch=master) to retrieve an array of [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) objects.
 
-For each [**FontFamily**](-gdiplus-class-fontfamily-class.md) object in the collection, the code calls the [**FontFamily::IsStyleAvailable**](-gdiplus-class-fontfamily-isstyleavailable-style-.md) method to determine whether various styles (regular, bold, italic, bold italic, underline, and strikeout) are available. The arguments passed to the **FontFamily::IsStyleAvailable** method are members of the [**FontStyle**](-gdiplus-enum-fontstyle.md) enumeration, which is declared in Gdiplusenums.h.
+For each [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) object in the collection, the code calls the [**FontFamily::IsStyleAvailable**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-fontfamily-isstyleavailable?branch=master) method to determine whether various styles (regular, bold, italic, bold italic, underline, and strikeout) are available. The arguments passed to the **FontFamily::IsStyleAvailable** method are members of the [**FontStyle**](/windows/win32/Gdiplusenums/ne-gdiplusenums-fontstyle?branch=master) enumeration, which is declared in Gdiplusenums.h.
 
-If a particular family/style combination is available, a [**Font**](-gdiplus-class-font-class.md) object is constructed using that family and style. The first argument passed to the **Font** constructor is the font family name (not a [**FontFamily**](-gdiplus-class-fontfamily-class.md) object as is the case for other variations of the **Font** constructor), and the final argument is the address of the [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md) object. After the **Font** object is constructed, its address is passed to the [DrawString](-gdiplus-class-graphics-drawstring-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class to display the family name along with the name of the style.
+If a particular family/style combination is available, a [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object is constructed using that family and style. The first argument passed to the **Font** constructor is the font family name (not a [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) object as is the case for other variations of the **Font** constructor), and the final argument is the address of the [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master) object. After the **Font** object is constructed, its address is passed to the [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class to display the family name along with the name of the style.
 
 
 ```

@@ -1,7 +1,12 @@
 ---
 Description: Base Multimedia Streaming Interfaces
-ms.assetid: 'a94dbb64-dfca-4c24-8c11-761835faf8a8'
+ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: Base Multimedia Streaming Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Base Multimedia Streaming Interfaces
@@ -17,9 +22,9 @@ The base multimedia streaming interfaces provide a programmatic way to access mu
 
 | Interface                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMultiMediaStream**](imultimediastream.md) | Defines how to access the highest-level multimedia stream object; this object contains and provides access to other stream objects. [**IMultiMediaStream**](imultimediastream.md) has methods that enumerate or retrieve specific streams, as well as checking the stream's total time duration and seeking within the stream.                                                                                                       |
-| [**IMediaStream**](imediastream.md)           | Defines a generic stream object. Use its methods to retrieve a pointer to the stream, get information about the stream, and create samples from the stream data. You can also create shared stream samples, which multiple streams can access without duplicating the sample's data.                                                                                                                                                  |
-| [**IStreamSample**](istreamsample.md)         | Controls the behavior of a specific stream sample. You can retrieve the stream that created the sample, check the sample's start and end times and completion status, and perform a user-defined function on the sample itself (through the [**Update**](istreamsample-update.md) method). Typically, the Update method processes the sample data in an appropriate manner, such as rendering video data or playing back audio data. |
+| [**IMultiMediaStream**](/windows/win32/mmstream/nn-mmstream-imultimediastream?branch=master) | Defines how to access the highest-level multimedia stream object; this object contains and provides access to other stream objects. [**IMultiMediaStream**](/windows/win32/mmstream/nn-mmstream-imultimediastream?branch=master) has methods that enumerate or retrieve specific streams, as well as checking the stream's total time duration and seeking within the stream.                                                                                                       |
+| [**IMediaStream**](/windows/win32/mmstream/nn-mmstream-imediastream?branch=master)           | Defines a generic stream object. Use its methods to retrieve a pointer to the stream, get information about the stream, and create samples from the stream data. You can also create shared stream samples, which multiple streams can access without duplicating the sample's data.                                                                                                                                                  |
+| [**IStreamSample**](/windows/win32/mmstream/nn-mmstream-istreamsample?branch=master)         | Controls the behavior of a specific stream sample. You can retrieve the stream that created the sample, check the sample's start and end times and completion status, and perform a user-defined function on the sample itself (through the [**Update**](/windows/win32/mmstream/nf-mmstream-istreamsample-update?branch=master) method). Typically, the Update method processes the sample data in an appropriate manner, such as rendering video data or playing back audio data. |
 
 
 

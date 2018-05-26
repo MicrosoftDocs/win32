@@ -1,7 +1,12 @@
 ---
-Description: 'Turns NAT64 on.'
-ms.assetid: '685ba50e-152d-4731-a940-e78ab775fe72'
-title: 'Enable method of the MSFT\_NetNatTransitionConfiguration class'
+Description: Turns NAT64 on.
+ms.assetid: 685ba50e-152d-4731-a940-e78ab775fe72
+title: Enable method of the MSFT\_NetNatTransitionConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the MSFT\_NetNatTransitionConfiguration class
@@ -13,8 +18,8 @@ Turns NAT64 on.
 
 ```mof
 uint32 Enable(
-  [in]  boolean                            PassThru,
-  [out] MSFT_NetNatTransitionConfiguration OutputObject
+  [in]  boolean                            PassThru,
+  [out] MSFT_NetNatTransitionConfiguration OutputObject
 );
 ```
 
@@ -44,8 +49,8 @@ Receives the [**MSFT\_NetNatTransitionConfiguration**](msft-netnattransitionconf
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -59,9 +64,9 @@ Receives the [**MSFT\_NetNatTransitionConfiguration**](msft-netnattransitionconf
 [**MSFT\_NetNatTransitionConfiguration**](msft-netnattransitionconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

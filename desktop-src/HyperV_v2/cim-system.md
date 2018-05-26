@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a set of components that function as a single high-level entity.'
-ms.assetid: '784cee32-e0ae-4632-8dac-e5110513f5c9'
-title: 'CIM\_System class'
+Description: Represents a set of components that function as a single high-level entity.
+ms.assetid: 784cee32-e0ae-4632-8dac-e5110513f5c9
+title: CIM\_System class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_System class
@@ -168,8 +173,8 @@ An array that contains the roles carried out by the system in an enterprise envi
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -183,9 +188,9 @@ An array that contains the roles carried out by the system in an enterprise envi
 [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,11 +1,16 @@
-﻿---
-Description: 'Sent to the CPlApplet function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.'
-title: 'CPL\_STOP message'
+---
+Description: Sent to the CPlApplet function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
+title: CPL\_STOP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPL\_STOP message
 
-Sent to the [**CPlApplet**](cplapplet.md) function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
+Sent to the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function of a Control Panel application when the controlling application of the Control Panel closes. The controlling application sends the message once for each dialog box that the application supports.
 
 ## Parameters
 
@@ -21,13 +26,13 @@ The dialog box number.
 *lData* 
 </dt> <dd>
 
-The value that the Control Panel application loaded into the **lpData** member of the [**CPLINFO**](cplinfo.md) or [**NEWCPLINFO**](newcplinfo.md) structure for the dialog box. The application loads the **lpData** member in response to the [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message.
+The value that the Control Panel application loaded into the **lpData** member of the [**CPLINFO**](/windows/win32/Cpl/ns-cpl-tagcplinfo?branch=master) or [**NEWCPLINFO**](/windows/win32/Cpl/ns-cpl-tagnewcplinfoa?branch=master) structure for the dialog box. The application loads the **lpData** member in response to the [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md) message.
 
 </dd> </dl>
 
 ## Return value
 
-If the [**CPlApplet**](cplapplet.md) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function processes this message successfully, it should return zero.
 
 ## Remarks
 

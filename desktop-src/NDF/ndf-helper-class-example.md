@@ -1,14 +1,19 @@
 ---
 title: NDF Helper Class Extension
 description: This example illustrates how to implement NDF diagnosis and repair functions.
-ms.assetid: '18e66d09-e565-4b86-8bc3-600f2159a4bd'
+ms.assetid: 18e66d09-e565-4b86-8bc3-600f2159a4bd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDF Helper Class Extension
 
 This example illustrates how to implement NDF diagnosis and repair functions. In this example, a critical configuration file must exist for the system to remain healthy. Accordingly, the problem is to determine whether the file exists. If it does not, the system is unhealthy and the problem is diagnosed by NDF. The repair is to re-create the missing file.
 
-To diagnose and repair the problem requires using four [**INetDiagHelper**](inetdiaghelper.md) methods: [**Initialize**](inetdiaghelpe-initialize.md), [**LowHealth**](inetdiaghelpe-lowhealth.md), [**GetRepairInfo**](inetdiaghelpe-getrepairinfo.md), and [**Repair**](inetdiaghelpe-repair.md).
+To diagnose and repair the problem requires using four [**INetDiagHelper**](/windows/win32/ndhelper/nn-ndhelper-inetdiaghelper?branch=master) methods: [**Initialize**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-initialize?branch=master), [**LowHealth**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth?branch=master), [**GetRepairInfo**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-getrepairinfo?branch=master), and [**Repair**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-repair?branch=master).
 
 ## Initializing the Helper Class
 
@@ -80,7 +85,7 @@ HRESULT SimpleFileHelperClass::Initialize(
 
 ## Checking on the File's Existence
 
-The [**LowHealth**](inetdiaghelpe-lowhealth.md) method is used to check on the existence of the file. If the file exists, diagnosis status is set to **DS\_REJECTED**, indicating nothing is wrong. If the file cannot be found, the diagnosis status is set to **DS\_CONFIRMED**.
+The [**LowHealth**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth?branch=master) method is used to check on the existence of the file. If the file exists, diagnosis status is set to **DS\_REJECTED**, indicating nothing is wrong. If the file cannot be found, the diagnosis status is set to **DS\_CONFIRMED**.
 
 
 ```C++
@@ -131,7 +136,7 @@ HRESULT SimpleFileHelperClass::LowHealth(
 
 ## Determining the Repair Action
 
-If [**LowHealth**](inetdiaghelpe-lowhealth.md) returns **DS\_CONFIRMED**, [**GetRepairInfo**](inetdiaghelpe-getrepairinfo.md) is implemented to determine the appropriate repair action. In this example, that means re-creating the file.
+If [**LowHealth**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth?branch=master) returns **DS\_CONFIRMED**, [**GetRepairInfo**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-getrepairinfo?branch=master) is implemented to determine the appropriate repair action. In this example, that means re-creating the file.
 
 
 ```C++
@@ -199,7 +204,7 @@ Error:
 
 ## Repairing the Problem
 
-The user is presented with the fix options returned by the [**GetRepairInfo**](inetdiaghelpe-getrepairinfo.md), unless there is only one repair option, in which case it is automatically executed. The [**Repair**](inetdiaghelpe-repair.md) method is called with the applicable [**RepairInfo**](repairinfo.md) structure so the configuration file can be restored.
+The user is presented with the fix options returned by the [**GetRepairInfo**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-getrepairinfo?branch=master), unless there is only one repair option, in which case it is automatically executed. The [**Repair**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-repair?branch=master) method is called with the applicable [**RepairInfo**](/windows/win32/ndattrib/ns-ndattrib-tagrepairinfo?branch=master) structure so the configuration file can be restored.
 
 
 ```C++

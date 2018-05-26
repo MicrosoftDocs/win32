@@ -1,13 +1,26 @@
 ---
 title: Sliders
 description: Sliders
-ms.assetid: 'cfd82672-5b22-4b59-82b5-15ca68a451fc'
-keywords: ["audio mixers,controls", "audio mixers,sliders", "mixers,controls", "mixers,sliders", "slider controls", "MIXERCONTROLDETAILS_SIGNED structure", "pan control", "QSound pan control"]
+ms.assetid: cfd82672-5b22-4b59-82b5-15ca68a451fc
+keywords:
+- audio mixers,controls
+- audio mixers,sliders
+- mixers,controls
+- mixers,sliders
+- slider controls
+- MIXERCONTROLDETAILS_SIGNED structure
+- pan control
+- QSound pan control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sliders
 
-The slider controls are typically horizontal controls that can be adjusted to the left or right. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](mixercontroldetails-signed.md) structure to retrieve and set control properties. The following table describes the types of sliders.
+The slider controls are typically horizontal controls that can be adjusted to the left or right. These controls use the [**MIXERCONTROLDETAILS\_SIGNED**](/windows/win32/mmeapi/?branch=master) structure to retrieve and set control properties. The following table describes the types of sliders.
 
 
 

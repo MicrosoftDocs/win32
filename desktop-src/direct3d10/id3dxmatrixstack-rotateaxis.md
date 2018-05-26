@@ -1,7 +1,12 @@
-﻿---
-Description: 'Rotates (relative to world coordinate space) around an arbitrary axis.'
-ms.assetid: '7c842bf6-2d13-422e-8136-0506a76ce9fe'
-title: 'ID3DXMATRIXStack::RotateAxis method'
+---
+Description: Rotates (relative to world coordinate space) around an arbitrary axis.
+ms.assetid: 7c842bf6-2d13-422e-8136-0506a76ce9fe
+title: ID3DXMATRIXStackRotateAxis method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::RotateAxis method

@@ -1,14 +1,20 @@
 ---
 title: NEXTBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '0750966c-cc4c-4792-b350-1502788cd66b'
-keywords: ["NEXTBUTTON Windows Media Player"]
+ms.assetid: 0750966c-cc4c-4792-b350-1502788cd66b
+keywords:
+- NEXTBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - NEXTBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NEXTBUTTON
@@ -43,9 +49,9 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

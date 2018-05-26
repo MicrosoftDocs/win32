@@ -1,7 +1,12 @@
 ---
-Description: 'The AttachPropertyInstanceEx function maps an existing property to a specific location in the recognized data, and modifies the value of the property data.'
-ms.assetid: '08bd1959-5ce8-4cb8-af8b-abbf4839c484'
+Description: The AttachPropertyInstanceEx function maps an existing property to a specific location in the recognized data, and modifies the value of the property data.
+ms.assetid: 08bd1959-5ce8-4cb8-af8b-abbf4839c484
 title: AttachPropertyInstanceEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AttachPropertyInstanceEx function
@@ -13,15 +18,15 @@ The **AttachPropertyInstanceEx** function maps an existing property to a specifi
 
 ```C++
 BOOL WINAPI AttachPropertyInstanceEx(
-  _In_ HFRAME    hFrame,
-  _In_ HPROPERTY hProperty,
-  _In_ DWORD     Length,
-  _In_ ULPVOID   lpData,
-  _In_ DWORD     LengthEx,
-  _In_ ULPVOID   lpDataEx,
-  _In_ DWORD     HelpID,
-  _In_ DWORD     IndentLevel,
-  _In_ DWORD     IFlags
+  _In_ HFRAME    hFrame,
+  _In_ HPROPERTY hProperty,
+  _In_ DWORD     Length,
+  _In_ ULPVOID   lpData,
+  _In_ DWORD     LengthEx,
+  _In_ ULPVOID   lpDataEx,
+  _In_ DWORD     HelpID,
+  _In_ DWORD     IndentLevel,
+  _In_ DWORD     IFlags
 );
 ```
 
@@ -62,7 +67,7 @@ Pointer to the location in the recognized data where the property value is locat
 *LengthEx* \[in\]
 </dt> <dd>
 
-Length of the extended data — length in bytes.
+Length of the extended data   length in bytes.
 
 </dd> <dt>
 
@@ -106,7 +111,7 @@ A BIT field value that indicates the order of the BITs within a property. Previo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -130,17 +135,17 @@ During the implementation of [**AttachProperties**](attachproperties.md), call [
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

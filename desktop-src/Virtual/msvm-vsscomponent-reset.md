@@ -1,8 +1,11 @@
 ---
 title: Reset method of the Msvm\_VssComponent class
 description: Resets the logical device.
-ms.assetid: '03af6b63-39c5-47b8-8260-7cbdb8904636'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , Msvm_VssComponent class", "Msvm_VssComponent class Hyper-V , Reset method"]
+ms.assetid: 03af6b63-39c5-47b8-8260-7cbdb8904636
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , Msvm_VssComponent class
+- Msvm_VssComponent class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_VssComponent class
@@ -91,9 +99,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_VssComponent**](msvm-vsscomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

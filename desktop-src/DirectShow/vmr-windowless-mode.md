@@ -1,12 +1,17 @@
 ---
 Description: VMR Windowless Mode
-ms.assetid: '0dc871d2-79c4-4bf8-96ef-13c4d1ab4497'
+ms.assetid: 0dc871d2-79c4-4bf8-96ef-13c4d1ab4497
 title: VMR Windowless Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR Windowless Mode
 
-Windowless mode is the preferred way for applications to render video inside an application window. In windowless mode, the Video Mixing Renderer does not load its Window Manager component, and therefore does not support the [**IBasicVideo**](ibasicvideo.md) or [**IVideoWindow**](ivideowindow.md) interfaces. Instead, the application provides the playback window and sets a destination rectangle in the client area for the VMR to draw the video. The VMR uses a DirectDraw clipper object to ensure that the video is clipped to the application's window and does not appear on any other windows. The VMR does not subclass the application's window or install any system/process hooks.
+Windowless mode is the preferred way for applications to render video inside an application window. In windowless mode, the Video Mixing Renderer does not load its Window Manager component, and therefore does not support the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) or [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interfaces. Instead, the application provides the playback window and sets a destination rectangle in the client area for the VMR to draw the video. The VMR uses a DirectDraw clipper object to ensure that the video is clipped to the application's window and does not appear on any other windows. The VMR does not subclass the application's window or install any system/process hooks.
 
 In windowless mode, the sequence of events during connection and transition to the run state is as follows:
 
@@ -23,20 +28,20 @@ The following illustration shows the VMR in windowless mode with multiple input 
 To configure the VMR-7 for windowless mode, perform all of the following steps before connecting any of the VMR's input pins:
 
 1.  Create the filter and add it to the graph.
-2.  Call the [**IVMRFilterConfig::SetRenderingMode**](ivmrfilterconfig-setrenderingmode.md) method with the VMRMode\_Windowless flag.
-3.  Optionally, configure the VMR for multiple input streams by calling [**IVMRFilterConfig::SetNumberOfStreams**](ivmrfilterconfig-setnumberofstreams.md). The VMR creates an input pin for each stream. Use the [**IVMRMixerControl**](ivmrmixercontrol.md) interface to set the Z-order and other parameters for the stream. For more information, see [VMR with Multiple Streams (Mixing Mode)](vmr-with-multiple-streams--mixing-mode.md).
+2.  Call the [**IVMRFilterConfig::SetRenderingMode**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode?branch=master) method with the VMRMode\_Windowless flag.
+3.  Optionally, configure the VMR for multiple input streams by calling [**IVMRFilterConfig::SetNumberOfStreams**](/windows/win32/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams?branch=master). The VMR creates an input pin for each stream. Use the [**IVMRMixerControl**](/windows/win32/Strmif/nn-strmif-ivmrmixercontrol?branch=master) interface to set the Z-order and other parameters for the stream. For more information, see [VMR with Multiple Streams (Mixing Mode)](vmr-with-multiple-streams--mixing-mode.md).
 
     If you do not call **SetNumberOfStreams**, the VMR-7 defaults to one input pin. After the input pins are connected, the number of pins cannot be changed.
 
-4.  Call [**IVMRWindowlessControl::SetVideoClippingWindow**](ivmrwindowlesscontrol-setvideoclippingwindow.md) to specify the window in which the rendered video will appear.
+4.  Call [**IVMRWindowlessControl::SetVideoClippingWindow**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoclippingwindow?branch=master) to specify the window in which the rendered video will appear.
 
-Once these steps are completed, you can connect the VMR filter's input pins. There are various ways to build the graph, such as connecting pins directly, using Intelligent Connect methods such as [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md), or using the Capture Graph Builder's [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method. For more information, see [General Graph-Building Techniques](general-graph-building-techniques.md).
+Once these steps are completed, you can connect the VMR filter's input pins. There are various ways to build the graph, such as connecting pins directly, using Intelligent Connect methods such as [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master), or using the Capture Graph Builder's [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method. For more information, see [General Graph-Building Techniques](general-graph-building-techniques.md).
 
-To set the position of the video within the application window, call the [**IVMRWindowlessControl::SetVideoPosition**](ivmrwindowlesscontrol-setvideoposition.md) method. The [**IVMRWindowlessControl::GetNativeVideoSize**](ivmrwindowlesscontrol-getnativevideosize.md) method returns the native video size. During playback, the application should notify the VMR of the following Windows messages:
+To set the position of the video within the application window, call the [**IVMRWindowlessControl::SetVideoPosition**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition?branch=master) method. The [**IVMRWindowlessControl::GetNativeVideoSize**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize?branch=master) method returns the native video size. During playback, the application should notify the VMR of the following Windows messages:
 
--   WM\_PAINT: Call [**IVMRWindowlessControl::RepaintVideo**](ivmrwindowlesscontrol-repaintvideo.md) to repaint the image.
--   WM\_DISPLAYCHANGE: Call [**IVMRWindowlessControl::DisplayModeChanged**](ivmrwindowlesscontrol-displaymodechanged.md). The VMR takes any actions that are needed to display the video at the new resolution or color depth.
--   WM\_SIZE: Recalculate the position of the video and call [**SetVideoPosition**](ivmrwindowlesscontrol-setvideoposition.md) again if necessary.
+-   WM\_PAINT: Call [**IVMRWindowlessControl::RepaintVideo**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo?branch=master) to repaint the image.
+-   WM\_DISPLAYCHANGE: Call [**IVMRWindowlessControl::DisplayModeChanged**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged?branch=master). The VMR takes any actions that are needed to display the video at the new resolution or color depth.
+-   WM\_SIZE: Recalculate the position of the video and call [**SetVideoPosition**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition?branch=master) again if necessary.
 
 > [!Note]  
 > MFC applications must define an empty WM\_ERASEBKGND message handler, or the video display area will not repaint correctly.
@@ -45,7 +50,7 @@ To set the position of the video within the application window, call the [**IVMR
 
 **Configuring the VMR-9 for Windowless Mode**
 
-To configure the VMR-9 for windowless mode, use the steps described for the VMR-7 for Windowless mode, but use the [**IVMRFilterConfig9**](ivmrfilterconfig9.md) and [**IVMRWindowlessControl9**](ivmrwindowlesscontrol9.md) interfaces. The only significant difference is that the VMR-9 creates four input pins by default, rather than one input pin. Therefore, you only need to call **SetNumberOfStreams** if you are mixing more than four video streams.
+To configure the VMR-9 for windowless mode, use the steps described for the VMR-7 for Windowless mode, but use the [**IVMRFilterConfig9**](/windows/win32/Vmr9/nn-vmr9-ivmrfilterconfig9?branch=master) and [**IVMRWindowlessControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrwindowlesscontrol9?branch=master) interfaces. The only significant difference is that the VMR-9 creates four input pins by default, rather than one input pin. Therefore, you only need to call **SetNumberOfStreams** if you are mixing more than four video streams.
 
 **Example Code**
 

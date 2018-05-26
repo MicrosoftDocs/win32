@@ -1,7 +1,12 @@
 ---
-Description: 'Sorts a list of IP addresses.'
-ms.assetid: '1266d6f3-e9f5-4e6b-9431-7329df156f0a'
+Description: Sorts a list of IP addresses.
+ms.assetid: 1266d6f3-e9f5-4e6b-9431-7329df156f0a
 title: sortIpAddressList function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sortIpAddressList function

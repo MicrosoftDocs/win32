@@ -4,13 +4,15 @@ description: The Win32\_ComputerSystemEvent \ 32;WMI class represents events rel
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b3f7a784-8fa9-42e0-9872-5c1ef4bcc01e'
-ms.prod: 'windows-server-dev'
+ms.assetid: b3f7a784-8fa9-42e0-9872-5c1ef4bcc01e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ComputerSystemEvent class", "Win32_ComputerSystemEvent class, described"]
+keywords:
+- Win32_ComputerSystemEvent class
+- Win32_ComputerSystemEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ComputerSystemEvent class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{999A286E-CF9C-4f0c-8F0F-827C4C0D9CC6}"), AMENDMENT]
 class Win32_ComputerSystemEvent : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string MachineName;
 };
@@ -111,8 +116,8 @@ The **Win32\_ComputerSystemEvent** class is derived from [**\_\_ExtrinsicEvent**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
@@ -129,9 +134,9 @@ The **Win32\_ComputerSystemEvent** class is derived from [**\_\_ExtrinsicEvent**
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

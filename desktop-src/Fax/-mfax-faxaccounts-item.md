@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns a FaxAccount object from a IFaxAccounts collection.'
-ms.assetid: 'eab831e4-a260-4822-8582-532f7717dab8'
-title: 'FaxAccounts.Item property'
+---
+Description: Returns a FaxAccount object from a IFaxAccounts collection.
+ms.assetid: eab831e4-a260-4822-8582-532f7717dab8
+title: FaxAccounts.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccounts.Item property
 
-Returns a [**FaxAccount**](-mfax-faxaccount.md) object from a [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) collection.
+Returns a [**FaxAccount**](-mfax-faxaccount.md) object from a [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) collection.
 
 This property is read-only.
 
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxAccount**](-mfax-faxaccount-cpp.md) that receives the [**FaxAccount**](-mfax-faxaccount.md) object.
+A variable of type [**IFaxAccount**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccount?branch=master) that receives the [**FaxAccount**](-mfax-faxaccount.md) object.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ A variable of type [**IFaxAccount**](-mfax-faxaccount-cpp.md) that receives the 
 [**FaxAccounts**](-mfax-faxaccounts.md)
 </dt> <dt>
 
-[**IFaxAccounts**](-mfax-faxaccounts-cpp.md)
+[**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master)
 </dt> </dl>
 
  

@@ -4,11 +4,13 @@ description: Provides information about a partition on a Physical Disk resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b7af8ab1-83dc-4164-bf59-901cc9fae56f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b7af8ab1-83dc-4164-bf59-901cc9fae56f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusPartition object Failover Cluster", "ClusPartition object Failover Cluster , described"]
+keywords:
+- ClusPartition object Failover Cluster
+- ClusPartition object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusPartition object
@@ -50,7 +55,7 @@ The **ClusPartition** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +70,7 @@ A **ClusPartition** object:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -81,9 +86,9 @@ A **ClusPartition** object:
 [Resource Management Objects](resource-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

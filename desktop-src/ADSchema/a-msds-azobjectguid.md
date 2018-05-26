@@ -4,17 +4,22 @@ description: The unique and portable identifier of AzMan objects
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c4ea0e1a-92bc-4fd1-b3de-9631a5c4e30a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c4ea0e1a-92bc-4fd1-b3de-9631a5c4e30a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Az-Object-Guid attribute AD Schema", "msDS-AzObjectGuid attribute AD Schema"]
+keywords:
+- ms-DS-Az-Object-Guid attribute AD Schema
+- msDS-AzObjectGuid attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Az-Object-Guid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Az-Object-Guid attribute
@@ -38,9 +43,9 @@ The unique and portable identifier of AzMan objects
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ The unique and portable identifier of AzMan objects
 
 
 
- 
+ 
 
- 
+ 
 
 
 

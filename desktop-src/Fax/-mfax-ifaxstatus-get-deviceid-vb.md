@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the DeviceId property for the FaxStatus object of a parent FaxPort object. The DeviceId property is a number representing the permanent line identifier for the fax port.'
-ms.assetid: '14139556-eac3-41b8-9fc9-cb1eb6ffca8f'
-title: 'FaxStatus.DeviceId property'
+---
+Description: Retrieves the DeviceId property for the FaxStatus object of a parent FaxPort object. The DeviceId property is a number representing the permanent line identifier for the fax port.
+ms.assetid: 14139556-eac3-41b8-9fc9-cb1eb6ffca8f
+title: FaxStatus.DeviceId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.DeviceId property
@@ -53,13 +58,13 @@ It is possible for multiple fax ports to have the same user-friendly name. You c
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> </dl>
 
  

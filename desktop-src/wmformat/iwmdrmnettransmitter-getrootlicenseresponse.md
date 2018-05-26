@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetTransmitter GetRootLicenseResponse method
 description: The GetRootLicenseResponse method generates a root license response message.
-ms.assetid: 'c735ee52-f0e0-4404-881b-18ee9a7fa9f9'
-keywords: ["GetRootLicenseResponse method windows Media Format", "GetRootLicenseResponse method windows Media Format , IWMDRMNetTransmitter interface", "IWMDRMNetTransmitter interface windows Media Format , GetRootLicenseResponse method"]
+ms.assetid: c735ee52-f0e0-4404-881b-18ee9a7fa9f9
+keywords:
+- GetRootLicenseResponse method windows Media Format
+- GetRootLicenseResponse method windows Media Format , IWMDRMNetTransmitter interface
+- IWMDRMNetTransmitter interface windows Media Format , GetRootLicenseResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetTransmitter::GetRootLicenseResponse method
@@ -22,9 +30,9 @@ The **GetRootLicenseResponse** method generates a root license response message.
 
 ```C++
 HRESULT GetRootLicenseResponse(
-  [in]  BSTR  bstrKID,
-  [out] BYTE  **ppbLicenseResponse,
-  [out] DWORD *pcbLicenseResponse
+  [in]  BSTR  bstrKID,
+  [out] BYTE  **ppbLicenseResponse,
+  [out] DWORD *pcbLicenseResponse
 );
 ```
 
@@ -68,7 +76,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,9 +103,9 @@ The root license created by calling this method does not have any policies and i
 [**IWMDRMNetTransmitter Interface**](iwmdrmnettransmitter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

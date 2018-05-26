@@ -1,8 +1,11 @@
 ---
 title: System.Shell.refreshDesktop method
 description: Refreshes the desktop after adding or removing files.
-ms.assetid: 'aa8802e1-953f-46d6-9c4c-5e9da12c0925'
-keywords: ["refreshDesktop method Windows Sidebar", "refreshDesktop method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , refreshDesktop method"]
+ms.assetid: aa8802e1-953f-46d6-9c4c-5e9da12c0925
+keywords:
+- refreshDesktop method Windows Sidebar
+- refreshDesktop method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , refreshDesktop method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.refreshDesktop method
@@ -57,18 +65,18 @@ System.Shell.refreshDesktop();
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

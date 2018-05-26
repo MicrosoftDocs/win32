@@ -1,13 +1,16 @@
 ---
-Description: 'An event filter is a WMI class that describes which events WMI delivers to a physical consumer.'
+Description: An event filter is a WMI class that describes which events WMI delivers to a physical consumer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c0ce26a4-5ff2-44b4-8550-c7d8ad0ba0f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c0ce26a4-5ff2-44b4-8550-c7d8ad0ba0f0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating an Event Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating an Event Filter

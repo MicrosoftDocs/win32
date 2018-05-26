@@ -2,13 +2,19 @@
 title: propget attribute
 description: The \ propget\ attribute specifies a property accessor function. The property must have the same name as the function.
 ms.assetid: 0b76ece3-e19b-4c80-883c-ff414bc2e435
-keywords: ["propget attribute MIDL"]
+keywords:
+- propget attribute MIDL
 topic_type:
 - apiref
 api_name:
 - propget
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # propget attribute

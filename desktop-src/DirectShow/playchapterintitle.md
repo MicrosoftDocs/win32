@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayChapterInTitle event is sent when the PlayChapterInTitle command has been enabled or disabled.'
-ms.assetid: '1ac5072b-d397-4415-b4b9-656fd59a9269'
+Description: The PlayChapterInTitle event is sent when the PlayChapterInTitle command has been enabled or disabled.
+ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
 title: PlayChapterInTitle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayChapterInTitle

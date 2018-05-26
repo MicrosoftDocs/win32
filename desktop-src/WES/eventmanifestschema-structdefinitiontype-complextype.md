@@ -1,14 +1,20 @@
 ---
 title: StructDefinitionType Complex Type
 description: Defines a structure that includes one or more data items that you want to include with the event.
-ms.assetid: 'eb6b3682-1035-472b-8027-583d43c31748'
-keywords: ["StructDefinitionType complex type EventLog"]
+ms.assetid: eb6b3682-1035-472b-8027-583d43c31748
+keywords:
+- StructDefinitionType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - StructDefinitionType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StructDefinitionType Complex Type
@@ -61,8 +67,8 @@ Defines a structure that includes one or more data items that you want to includ
 | Name   | Type                                                            | Description                                                                                                                                                                                                                                                                               |
 |--------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | count  | [**CountType**](eventmanifestschema-counttype-simpletype.md)   | The number of elements in an array of structures. This attribute indicates that the structure is defining an array of structures. You can specify the actual count or the name of a data item outside of the structure that contains the count. <br/>                               |
-| length | [**LengthType**](eventmanifestschema-lengthtype-simpletype.md) | Not available.<br/> **Windows Server 2008 and Windows Vista:** The length of this structure, in bytes. Not available starting with Windows 7.<br/>                                                                                                                            |
-| name   | string                                                          | The name to the structure. You can use the name to reference the data item in your XML fragment if you specify a [**UserData**](eventmanifestschema-userdata-templateitemtype-element.md) section in your template.<br/> **Windows Vista:** This attribute is optional.<br/> |
+| length | [**LengthType**](eventmanifestschema-lengthtype-simpletype.md) | Not available.<br/> **Windows Server 2008 and Windows Vista:** The length of this structure, in bytes. Not available starting with Windows 7.<br/>                                                                                                                            |
+| name   | string                                                          | The name to the structure. You can use the name to reference the data item in your XML fragment if you specify a [**UserData**](eventmanifestschema-userdata-templateitemtype-element.md) section in your template.<br/> **Windows Vista:** This attribute is optional.<br/> |
 
 
 
@@ -78,14 +84,14 @@ You should not use structures but instead should define data items for each memb
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

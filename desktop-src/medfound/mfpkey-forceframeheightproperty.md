@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies an intermediate frame height for encoded video.'
-ms.assetid: '7382ec31-6d59-4e8c-94eb-804786074038'
-title: 'MFPKEY\_FORCEFRAMEHEIGHT Property'
+---
+Description: Specifies an intermediate frame height for encoded video.
+ms.assetid: 7382ec31-6d59-4e8c-94eb-804786074038
+title: MFPKEY\_FORCEFRAMEHEIGHT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FORCEFRAMEHEIGHT Property

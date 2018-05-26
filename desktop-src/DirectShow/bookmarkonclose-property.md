@@ -1,7 +1,12 @@
 ---
-Description: 'The DVDAdm.BookmarkOnClose property sets or retrieves a value that tells the MSDVDAdm object whether to automatically save a bookmark of the current location and settings when the user closes the application.'
-ms.assetid: '54901ad6-7989-4fb3-bb28-f54c7a2bca44'
+Description: The DVDAdm.BookmarkOnClose property sets or retrieves a value that tells the MSDVDAdm object whether to automatically save a bookmark of the current location and settings when the user closes the application.
+ms.assetid: 54901ad6-7989-4fb3-bb28-f54c7a2bca44
 title: BookmarkOnClose Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BookmarkOnClose Property

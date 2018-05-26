@@ -1,8 +1,9 @@
 ---
 title: modf
 description: Splits the value x into fractional and integer parts, each of which has the same sign as x.
-ms.assetid: '0cac1cf3-f0da-4b0a-ba30-4af5d65b04b2'
-keywords: ["modf HLSL"]
+ms.assetid: 0cac1cf3-f0da-4b0a-ba30-4af5d65b04b2
+keywords:
+- modf HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # modf
@@ -24,7 +30,7 @@ Splits the value x into fractional and integer parts, each of which has the same
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Splits the value x into fractional and integer parts, each of which has the same
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ The signed-fractional portion of x.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,9 +95,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

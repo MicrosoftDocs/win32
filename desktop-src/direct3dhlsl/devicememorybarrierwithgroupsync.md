@@ -1,14 +1,20 @@
 ---
 title: DeviceMemoryBarrierWithGroupSync function
 description: Blocks execution of all threads in a group until all device memory accesses have been completed and all threads in the group have reached this call.
-ms.assetid: '77c54064-a996-4c51-84b5-7da60e884c4f'
-keywords: ["DeviceMemoryBarrierWithGroupSync function HLSL"]
+ms.assetid: 77c54064-a996-4c51-84b5-7da60e884c4f
+keywords:
+- DeviceMemoryBarrierWithGroupSync function HLSL
 topic_type:
 - apiref
 api_name:
 - DeviceMemoryBarrierWithGroupSync
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceMemoryBarrierWithGroupSync function

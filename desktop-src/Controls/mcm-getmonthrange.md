@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETMONTHRANGE message
-description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can send this message explicitly or by using the MonthCal\_GetMonthRange macro.
-ms.assetid: 'f50ac4b7-1f58-4639-8c78-341bb33db3c3'
-keywords: ["MCM_GETMONTHRANGE message Windows Controls"]
+description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar controls display. You can send this message explicitly or by using the MonthCal\_GetMonthRange macro.
+ms.assetid: f50ac4b7-1f58-4639-8c78-341bb33db3c3
+keywords:
+- MCM_GETMONTHRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETMONTHRANGE message
 
-Retrieves date information (using [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structures) that represents the high and low limits of a month calendar control's display. You can send this message explicitly or by using the [**MonthCal\_GetMonthRange**](monthcal-getmonthrange.md) macro.
+Retrieves date information (using [**SYSTEMTIME**](https://msdn.microsoft.com/library/windows/desktop/ms724950) structures) that represents the high and low limits of a month calendar control's display. You can send this message explicitly or by using the [**MonthCal\_GetMonthRange**](/windows/win32/Commctrl/nf-commctrl-monthcal_getmonthrange?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Value specifying the scope of the range limits to be retrieved. This value must 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,8 +62,8 @@ Returns an INT value that represents the range, in months, spanned by the two li
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ Returns an INT value that represents the range, in months, spanned by the two li
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic explains how to create and register property handlers to work with the Windows property system.'
-ms.assetid: 'E583A00B-F615-41c8-AECF-061F1396DB9A'
+---
+Description: This topic explains how to create and register property handlers to work with the Windows property system.
+ms.assetid: E583A00B-F615-41c8-AECF-061F1396DB9A
 title: Property Handler Best Practices and FAQ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Handler Best Practices and FAQ

@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the restrictions on the properties of an associated CIM\_EnabledLogicalElement object.'
-ms.assetid: 'debce40c-9a0e-43a7-88fa-9336afd52e17'
-title: 'CIM\_EnabledLogicalElementCapabilities class'
+Description: Describes the restrictions on the properties of an associated CIM\_EnabledLogicalElement object.
+ms.assetid: debce40c-9a0e-43a7-88fa-9336afd52e17
+title: CIM\_EnabledLogicalElementCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_EnabledLogicalElementCapabilities class
@@ -15,9 +20,9 @@ Describes the restrictions on the properties of an associated [**CIM\_EnabledLog
 class CIM_EnabledLogicalElementCapabilities : CIM_Capabilities
 {
   boolean ElementNameEditSupported;
-  uint16  MaxElementNameLen;
-  uint16  RequestedStatesSupported[];
-  string  ElementNameMask;
+  uint16  MaxElementNameLen;
+  uint16  RequestedStatesSupported[];
+  string  ElementNameMask;
 };
 ```
 
@@ -66,7 +71,7 @@ A regular expression that indicates the restrictions on the **ElementName** prop
 > [!Note]  
 > If this property and the **ElementNameMask** property of the enable logical element describe the maximum length of **ElementName**, the smaller value is used.
 
- 
+ 
 
 </dd> <dt>
 
@@ -173,8 +178,8 @@ The possible states that can be requested on the enabled logical element by the 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -188,9 +193,9 @@ The possible states that can be requested on the enabled logical element by the 
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

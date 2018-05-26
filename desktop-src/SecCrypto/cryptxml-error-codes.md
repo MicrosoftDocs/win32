@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following are the run-time error codes, defined in Cryptxml.h, that may be returned by the CryptXML functions.'
-ms.assetid: 'c3678767-aab3-4771-b2f2-8d79545d420d'
+---
+Description: The following are the run-time error codes, defined in Cryptxml.h, that may be returned by the CryptXML functions.
+ms.assetid: c3678767-aab3-4771-b2f2-8d79545d420d
 title: CryptXML Error Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptXML Error Codes

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MinorVersion property is a value that specifies the minor part of the version number for the fax service provider (FSP) DLL.'
-ms.assetid: '9914e533-1fd6-4409-8ae9-a1ff3d517f2f'
-title: 'FaxDeviceProvider.MinorVersion property'
+---
+Description: The MinorVersion property is a value that specifies the minor part of the version number for the fax service provider (FSP) DLL.
+ms.assetid: 9914e533-1fd6-4409-8ae9-a1ff3d517f2f
+title: FaxDeviceProvider.MinorVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.MinorVersion property
@@ -50,7 +55,7 @@ The standard format for version numbers is MajorVersion.MinorVersion.MajorBuild.
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

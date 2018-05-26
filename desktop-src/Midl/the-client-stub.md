@@ -2,7 +2,15 @@
 title: The Client Stub
 description: The client stub module provides surrogate entry points on the client for each of the operations defined in the input IDL file.
 ms.assetid: 6b16a4ef-fa18-4cd0-b483-1365b8c2528b
-keywords: ["MIDL and RPC MIDL , interfaces, client stub", "interfaces MIDL", "interfaces MIDL , MIDL and RPC"]
+keywords:
+- MIDL and RPC MIDL , interfaces, client stub
+- interfaces MIDL
+- interfaces MIDL , MIDL and RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Client Stub

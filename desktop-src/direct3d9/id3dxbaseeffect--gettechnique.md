@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the handle of a technique.'
-ms.assetid: 'da139706-734b-4d5e-896d-52f045942218'
-title: 'ID3DXBaseEffect::GetTechnique method'
+---
+Description: Gets the handle of a technique.
+ms.assetid: da139706-734b-4d5e-896d-52f045942218
+title: ID3DXBaseEffectGetTechnique method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetTechnique method

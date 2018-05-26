@@ -1,8 +1,10 @@
 ---
 title: AtaControllerChannelEnabled routine
 description: The AtaControllerChannelEnabled miniport driver routine indicates whether the specified channel is enabled.Note The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
-ms.assetid: '67713537-6a5b-4108-8af9-fb5d16844b03'
-keywords: ["AtaControllerChannelEnabled routine Storage Devices", "IDE_CHANNEL_ENABLED"]
+ms.assetid: 67713537-6a5b-4108-8af9-fb5d16844b03
+keywords:
+- AtaControllerChannelEnabled routine Storage Devices
+- IDE_CHANNEL_ENABLED
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - irb.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AtaControllerChannelEnabled routine
@@ -20,7 +27,7 @@ The ***AtaControllerChannelEnabled*** miniport driver routine indicates whether 
 > [!Note]  
 > The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
@@ -29,8 +36,8 @@ The ***AtaControllerChannelEnabled*** miniport driver routine indicates whether 
 IDE_CHANNEL_ENABLED AtaControllerChannelEnabled;
 
 ATA_CHANNEL_STATE AtaControllerChannelEnabled(
-  _In_ PVOID ControllerExtension,
-  _In_ ULONG ChannelNumber
+  _In_ PVOID ControllerExtension,
+  _In_ ULONG ChannelNumber
 )
 { ... }
 ```
@@ -69,7 +76,7 @@ Specifies the channel number whose state will be determined.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -103,9 +110,9 @@ This routine should not have steps that are critical to the operation of the con
 [**IDE\_CONTROLLER\_CONFIGURATION**](ide-controller-configuration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20AtaControllerChannelEnabled%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

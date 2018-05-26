@@ -1,8 +1,9 @@
 ---
 title: FILEOKSTRING message
 description: An Open or Save As dialog box sends the FILEOKSTRING registered message to your hook procedure, OFNHookProc, when the user specifies a file name and clicks the OK button.
-ms.assetid: '32bf3cc7-76a2-4b78-81d7-682b088c4e14'
-keywords: ["FILEOKSTRING message Dialog Boxes"]
+ms.assetid: 32bf3cc7-76a2-4b78-81d7-682b088c4e14
+keywords:
+- FILEOKSTRING message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILEOKSTRING message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 An **Open** or **Save As** dialog box sends the **FILEOKSTRING** registered message to your hook procedure, [*OFNHookProc*](ofnhookproc.md), when the user specifies a file name and clicks the **OK** button. The hook procedure can accept the file name and allow the dialog box to close, or reject the file name and force the dialog box to remain open.
 
@@ -42,7 +48,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**OPENFILENAME**](openfilename-str.md) structure. The **lpstrFile** member of this structure contains the drive, path, and file name specified by the user.
+A pointer to an [**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master) structure. The **lpstrFile** member of this structure contains the drive, path, and file name specified by the user.
 
 </dd> </dl>
 
@@ -62,8 +68,8 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **FILEOKSTRINGW** (Unicode) and **FILEOKSTRINGA** (ANSI)<br/>                                      |
 
@@ -79,7 +85,7 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 [**CDN\_FILEOK**](cdn-fileok.md)
 </dt> <dt>
 
-[**OPENFILENAME**](openfilename-str.md)
+[**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master)
 </dt> <dt>
 
 [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947)
@@ -91,9 +97,9 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

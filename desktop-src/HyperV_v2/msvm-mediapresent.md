@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a storage drive with the media inserted into the drive.'
-ms.assetid: 'C0B2D604-0B55-4EA0-A46E-2450D89A5B22'
-title: 'Msvm\_MediaPresent class'
+Description: Associates a storage drive with the media inserted into the drive.
+ms.assetid: C0B2D604-0B55-4EA0-A46E-2450D89A5B22
+title: Msvm\_MediaPresent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MediaPresent class
@@ -17,8 +22,8 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_MediaPresent : CIM_MediaPresent
 {
   CIM_MediaAccessDevice REF Antecedent;
-  CIM_StorageExtent     REF Dependent;
-  boolean                   FixedMedia;
+  CIM_StorageExtent     REF Dependent;
+  boolean                   FixedMedia;
 };
 ```
 
@@ -83,8 +88,8 @@ Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering.
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

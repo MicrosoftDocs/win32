@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the unique identifier for a video adapter. Use this attribute when calling MFTEnum2 to enumerate MFTs associated with a specific adapter.'
-ms.assetid: '00E87398-2584-48B0-9618-87B057A12D0C'
-title: 'MFT\_ENUM\_ADAPTER\_LUID attribute'
+---
+Description: Specifies the unique identifier for a video adapter. Use this attribute when calling MFTEnum2 to enumerate MFTs associated with a specific adapter.
+ms.assetid: 00E87398-2584-48B0-9618-87B057A12D0C
+title: MFT\_ENUM\_ADAPTER\_LUID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_ENUM\_ADAPTER\_LUID attribute
 
-Specifies the unique identifier for a video adapter. Use this attribute when calling [**MFTEnum2**](mftenum2.md) to enumerate MFTs associated with a specific adapter.
+Specifies the unique identifier for a video adapter. Use this attribute when calling [**MFTEnum2**](/windows/win32/mfapi/nf-mfapi-mftenum2?branch=master) to enumerate MFTs associated with a specific adapter.
 
 ## Data type
 

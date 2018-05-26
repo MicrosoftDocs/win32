@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine GuestOS property
 description: Retrieves the guest operating system for this virtual machine.
-ms.assetid: '9cca2a4a-e3bb-4c41-873c-e5bc4863c415'
-keywords: ["GuestOS property Virtual PC", "GuestOS property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , GuestOS property"]
+ms.assetid: 9cca2a4a-e3bb-4c41-873c-e5bc4863c415
+keywords:
+- GuestOS property Virtual PC
+- GuestOS property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , GuestOS property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::GuestOS property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the guest operating system for this virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_GuestOS(
-  [out, retval] IVMGuestOS **guestOS
+  [out, retval] IVMGuestOS **guestOS
 );
 ```
 
@@ -56,9 +64,9 @@ The [**IVMGuestOS**](ivmguestos.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -72,9 +80,9 @@ The [**IVMGuestOS**](ivmguestos.md) object.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

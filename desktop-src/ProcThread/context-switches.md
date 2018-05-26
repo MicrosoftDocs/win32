@@ -1,7 +1,12 @@
 ---
-Description: 'The scheduler maintains a queue of executable threads for each priority level.'
-ms.assetid: '82463d71-9cef-4608-b997-25dc9c1e1c0a'
+Description: The scheduler maintains a queue of executable threads for each priority level.
+ms.assetid: 82463d71-9cef-4608-b997-25dc9c1e1c0a
 title: Context Switches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Context Switches
@@ -16,7 +21,7 @@ The scheduler maintains a queue of executable threads for each priority level. T
 The following classes of threads are not ready threads.
 
 -   Threads created with the CREATE\_SUSPENDED flag
--   Threads halted during execution with the [**SuspendThread**](suspendthread.md) or [**SwitchToThread**](switchtothread.md) function
+-   Threads halted during execution with the [**SuspendThread**](/windows/win32/WinBase/nf-processthreadsapi-suspendthread?branch=master) or [**SwitchToThread**](/windows/win32/WinBase/nf-processthreadsapi-switchtothread?branch=master) function
 -   Threads waiting for a synchronization object or input.
 
 Until threads that are suspended or blocked become ready to run, the scheduler does not allocate any processor time to them, regardless of their priority.

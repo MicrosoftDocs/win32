@@ -1,7 +1,12 @@
 ---
 title: Using OLE DB Provider for Indexing Service
 description: Using OLE DB Provider for Indexing Service
-ms.assetid: 'c0db336e-c3b7-48b8-9154-10170c0801d0'
+ms.assetid: c0db336e-c3b7-48b8-9154-10170c0801d0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using OLE DB Provider for Indexing Service

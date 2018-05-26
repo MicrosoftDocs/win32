@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_POOL Constants
 description: Specify the type of biometric unit pool to be used in the session.
-ms.assetid: 'e6e49b95-981a-477d-9889-ea132db5b387'
+ms.assetid: e6e49b95-981a-477d-9889-ea132db5b387
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_POOL Constants
 
-The following constants can be used in the [**WinBioOpenSession**](winbioopensession.md) function to specify the type of biometric unit pool to be used in the session.
+The following constants can be used in the [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) function to specify the type of biometric unit pool to be used in the session.
 
 
 
@@ -36,8 +41,8 @@ The following constants can be used in the [**WinBioOpenSession**](winbioopenses
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -49,9 +54,9 @@ The following constants can be used in the [**WinBioOpenSession**](winbioopenses
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

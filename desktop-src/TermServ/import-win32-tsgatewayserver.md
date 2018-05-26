@@ -1,14 +1,17 @@
 ---
 title: Import method of the Win32\_TSGatewayServer class
-description: Imports a given configuration to the Remote Desktop Gateway (RD Gateway) server.
+description: Imports a given configuration to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd849afb9-f6cb-41e6-aab5-e47b30a5581f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d849afb9-f6cb-41e6-aab5-e47b30a5581f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Import method Remote Desktop Services", "Import method Remote Desktop Services , Win32_TSGatewayServer class", "Win32_TSGatewayServer class Remote Desktop Services , Import method"]
+keywords:
+- Import method Remote Desktop Services
+- Import method Remote Desktop Services , Win32_TSGatewayServer class
+- Win32_TSGatewayServer class Remote Desktop Services , Import method
 topic_type:
 - apiref
 api_name:
@@ -17,21 +20,24 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Import method of the Win32\_TSGatewayServer class
 
-Imports a given configuration to the Remote Desktop Gateway (RD Gateway) server.
+Imports a given configuration to the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 Import(
-  [in]  uint32 ImportType,
-  [in]  string XmlString,
-  [in]  uint32 MergeOrReplace,
-  [out] string LogString
+  [in]  uint32 ImportType,
+  [in]  string XmlString,
+  [in]  uint32 MergeOrReplace,
+  [out] string LogString
 );
 ```
 
@@ -44,7 +50,7 @@ uint32 Import(
 *ImportType* \[in\]
 </dt> <dd>
 
-The content to import. Set the import type by setting the corresponding bits in the *ImportType* parameter. You can set multiple import types. For example, if the 0 bit is set, Remote Desktop Services connection authorization policies (RD CAPs) will be imported. If both the 0 and the 2nd bit is set, both RD CAPs and Remote Desktop Services resource authorization policies (RD RAPs) will be imported.
+The content to import. Set the import type by setting the corresponding bits in the *ImportType* parameter. You can set multiple import types. For example, if the 0 bit is set, Remote Desktop Services connection authorization policies (RD CAPs) will be imported. If both the 0 and the 2nd bit is set, both RD CAPs and Remote Desktop Services resource authorization policies (RD RAPs) will be imported.
 
 <dt>
 
@@ -55,7 +61,7 @@ The content to import. Set the import type by setting the corresponding bits in 
 
 </dt> <dd>
 
-Import all RD CAPs.
+Import all RD CAPs.
 
 </dd> <dt>
 
@@ -77,7 +83,7 @@ Import a list of all Network Policy Server (NPS) servers.
 
 </dt> <dd>
 
-Import all RD RAPs.
+Import all RD RAPs.
 
 </dd> <dt>
 
@@ -110,7 +116,7 @@ Import a list of all load-balancing servers.
 
 </dt> <dd>
 
-Import all RD Gateway-related server settings.
+Import all RD Gateway-related server settings.
 
 </dd> <dt>
 
@@ -123,9 +129,9 @@ Import all RD Gateway-related server settings.
 
 Import all health policies.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is not supported before Windows Server 2016.
+This value is not supported before Windows Server 2016.
 
 </dd> </dl> </dd> <dt>
 
@@ -144,7 +150,7 @@ Indicates whether to merge or replace data when a conflict occurs.
 > [!Note]  
 > Merge is not yet implemented. Therefore, this parameter value is ignored.
 
- 
+ 
 
 </dd> <dt>
 
@@ -168,7 +174,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -182,9 +188,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServer**](win32-tsgatewayserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

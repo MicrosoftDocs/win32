@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Media Audio and Video codecs are a collection of objects that you can use to compress and decompress digital media data.'
-ms.assetid: 'C0B0265C-AD20-433B-A554-112AEB0208B9'
+Description: The Windows Media Audio and Video codecs are a collection of objects that you can use to compress and decompress digital media data.
+ms.assetid: C0B0265C-AD20-433B-A554-112AEB0208B9
 title: Windows Media Codecs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Codecs
@@ -21,7 +26,7 @@ Every codec object implements two separate but similar interfaces:
 
 | Interface                              | Description                                 |
 |----------------------------------------|---------------------------------------------|
-| [**IMFTransform**](imftransform.md)   | Compatible with Microsoft Media Foundation. |
+| [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)   | Compatible with Microsoft Media Foundation. |
 | [**IMediaObject**](dshow.imediaobject) | Compatible with DirectShow.                 |
 
 

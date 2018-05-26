@@ -1,13 +1,21 @@
 ---
 title: AsmxTerraServiceSampleWithCustomProxy
 description: This examples shows service proxy talking to a ASMX TerraService service using WS\_HTTP\_PROXY\_SETTING\_MODE\_CUSTOM channel property.
-ms.assetid: '200dfcbc-ad16-4ac8-ab16-76291344a980'
-keywords: ["AsmxTerraServiceSampleWithCustomProxy Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 200dfcbc-ad16-4ac8-ab16-76291344a980
+keywords:
+- AsmxTerraServiceSampleWithCustomProxy Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AsmxTerraServiceSampleWithCustomProxy
 
-This examples shows service proxy talking to a ASMX TerraService service using [**WS\_HTTP\_PROXY\_SETTING\_MODE\_CUSTOM**](ws-http-proxy-setting-mode.md) channel property.
+This examples shows service proxy talking to a ASMX TerraService service using [**WS\_HTTP\_PROXY\_SETTING\_MODE\_CUSTOM**](/windows/win32/WebServices/ne-webservices-ws_http_proxy_setting_mode?branch=master) channel property.
 
 -   [AsmxCustomProxyClient.cpp](#asmxcustomproxyclientcpp)
 -   [terraserviceusa.com.wsdl](#terraserviceusacomwsdl)
@@ -1063,7 +1071,7 @@ Exit:
 
 <dl> <dt>
 
-[**WS\_HTTP\_PROXY\_SETTING\_MODE\_CUSTOM**](ws-http-proxy-setting-mode.md)
+[**WS\_HTTP\_PROXY\_SETTING\_MODE\_CUSTOM**](/windows/win32/WebServices/ne-webservices-ws_http_proxy_setting_mode?branch=master)
 </dt> </dl>
 
  

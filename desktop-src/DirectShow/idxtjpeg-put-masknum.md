@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_MaskNum method specifies the SMPTE wipe code of the wipe.'
-ms.assetid: 'd2d2382c-d920-49e7-b9b7-6897356a78de'
-title: 'IDxtJpeg::put\_MaskNum method'
+---
+Description: The put\_MaskNum method specifies the SMPTE wipe code of the wipe.
+ms.assetid: d2d2382c-d920-49e7-b9b7-6897356a78de
+title: IDxtJpegput\_MaskNum method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_MaskNum method

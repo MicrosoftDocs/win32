@@ -1,8 +1,9 @@
 ---
 title: GetColorProfileFromHandle function
 description: Given a handle to an open color profile, the GetColorProfileFromHandle function will copy the contents of the profile into a buffer supplied by the application.
-ms.assetid: 'ff51c6d5-4db2-4b64-a4e3-34a9e502f456'
-keywords: ["GetColorProfileFromHandle function Windows Color System"]
+ms.assetid: ff51c6d5-4db2-4b64-a4e3-34a9e502f456
+keywords:
+- GetColorProfileFromHandle function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetColorProfileFromHandle function
@@ -22,9 +28,9 @@ Given a handle to an open color profile, the **GetColorProfileFromHandle** funct
 
 ```C++
 BOOL WINAPI GetColorProfileFromHandle(
-   HPROFILE hProfile,
-   PBYTE    pBuffer,
-   PDWORD   pcbSize
+   HPROFILE hProfile,
+   PBYTE    pBuffer,
+   PDWORD   pcbSize
 );
 ```
 
@@ -67,8 +73,8 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -85,9 +91,9 @@ If this function fails, the return value is **FALSE**. For extended error inform
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

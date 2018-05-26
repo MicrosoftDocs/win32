@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.isDeleted method
 description: The isDeleted method retrieves a value indicating whether the specified media item is in the deleted items folder.
-ms.assetid: 'bb3ce9c9-9e43-45a5-8802-dc6783cf2ad7'
-keywords: ["isDeleted method Windows Media Player", "isDeleted method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , isDeleted method"]
+ms.assetid: bb3ce9c9-9e43-45a5-8802-dc6783cf2ad7
+keywords:
+- isDeleted method Windows Media Player
+- isDeleted method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , isDeleted method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.isDeleted method
@@ -104,9 +112,9 @@ else
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

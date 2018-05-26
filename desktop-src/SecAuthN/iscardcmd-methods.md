@@ -1,7 +1,12 @@
 ---
-Description: 'The ISCardCmd interface exposes the following methods.'
-ms.assetid: 'C5CC6A53-FF4B-4B54-B495-B6D43A382C09'
+Description: The ISCardCmd interface exposes the following methods.
+ms.assetid: C5CC6A53-FF4B-4B54-B495-B6D43A382C09
 title: ISCardCmd Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd Methods

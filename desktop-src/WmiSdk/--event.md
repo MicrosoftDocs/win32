@@ -1,13 +1,16 @@
 ---
-Description: 'Is an abstract base class that serves as the parent class for all intrinsic and extrinsic events.'
+Description: Is an abstract base class that serves as the parent class for all intrinsic and extrinsic events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4d2e4715-041c-49e9-b948-a148dfe85483'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4d2e4715-041c-49e9-b948-a148dfe85483
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_Event class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_Event class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract]
 class __Event : __IndicationRelated
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -77,8 +80,8 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -105,9 +108,9 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 [**\_\_NamespaceOperationEvent**](--namespaceoperationevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

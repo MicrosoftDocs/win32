@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.'
-ms.assetid: 'ae44f8d7-9447-425f-b7c4-fe0208205798'
-title: 'FaxStatus.PageCount property'
+---
+Description: Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.
+ms.assetid: ae44f8d7-9447-425f-b7c4-fe0208205798
+title: FaxStatus.PageCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.PageCount property
@@ -55,16 +60,16 @@ You can use the **PageCount** property of a [FaxStatus](-mfax-faxstatus.md) obje
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
 [**CurrentPage**](-mfax-ifaxstatus-get-currentpage-vb.md)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> </dl>
 
  

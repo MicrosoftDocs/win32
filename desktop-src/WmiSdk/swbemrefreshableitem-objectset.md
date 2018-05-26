@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefreshableItem.ObjectSet property represents the object set to be refreshed.'
+Description: The SWbemRefreshableItem.ObjectSet property represents the object set to be refreshed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f52101b1-bb6e-4798-b20f-d6efd31cf7c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f52101b1-bb6e-4798-b20f-d6efd31cf7c1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefreshableItem.ObjectSet property'
+title: SWbemRefreshableItem.ObjectSet property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefreshableItem.ObjectSet property
@@ -39,8 +42,8 @@ This property is **NULL** unless [**SWbemRefreshableItem.IsSet**](swbemrefreshab
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -59,9 +62,9 @@ This property is **NULL** unless [**SWbemRefreshableItem.IsSet**](swbemrefreshab
 [**SWbemRefreshableItem**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

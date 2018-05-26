@@ -1,7 +1,12 @@
 ---
 title: Provide Good Error Recovery
 description: Provide Good Error Recovery
-ms.assetid: '48e00638-9274-49db-93ec-ed444f526441'
+ms.assetid: 48e00638-9274-49db-93ec-ed444f526441
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provide Good Error Recovery

@@ -1,7 +1,12 @@
 ---
-Description: 'Well-known security identifiers (SIDs) identify generic groups and generic users.'
-ms.assetid: 'eb2f95c4-9465-409b-b76c-9ccae1d05eda'
-title: 'Well-known SIDs'
+Description: Well-known security identifiers (SIDs) identify generic groups and generic users.
+ms.assetid: eb2f95c4-9465-409b-b76c-9ccae1d05eda
+title: Well-known SIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Well-known SIDs
@@ -20,7 +25,7 @@ S-1-1-0
 
 This example uses the string notation for SIDs in which S identifies the string as a SID, the first 1 is the revision level of the SID, and the remaining two digits are the SECURITY\_WORLD\_SID\_AUTHORITY and SECURITY\_WORLD\_RID constants.
 
-You can use the [**AllocateAndInitializeSid**](allocateandinitializesid.md) function to build a SID by combining an identifier authority value with up to eight subauthority values. For example, to determine whether the logged-on user is a member of a particular well-known group, call **AllocateAndInitializeSid** to build a SID for the well-known group and use the [**EqualSid**](equalsid.md) function to compare that SID to the group SIDs in the user's [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly). For an example, see [Searching for a SID in an Access Token in C++](searching-for-a-sid-in-an-access-token-in-c--.md). You must call the [**FreeSid**](freesid.md) function to free a SID allocated by **AllocateAndInitializeSid**.
+You can use the [**AllocateAndInitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master) function to build a SID by combining an identifier authority value with up to eight subauthority values. For example, to determine whether the logged-on user is a member of a particular well-known group, call **AllocateAndInitializeSid** to build a SID for the well-known group and use the [**EqualSid**](equalsid.md) function to compare that SID to the group SIDs in the user's [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly). For an example, see [Searching for a SID in an Access Token in C++](searching-for-a-sid-in-an-access-token-in-c--.md). You must call the [**FreeSid**](freesid.md) function to free a SID allocated by **AllocateAndInitializeSid**.
 
 The remainder of this section contains tables of well-known SIDs and tables of identifier authority and subauthority constants that you can use to build well-known SIDs.
 
@@ -38,7 +43,7 @@ The following are some [*universal well-known SIDs*](https://msdn.microsoft.com/
 
 
 
- 
+ 
 
 The following table lists the predefined identifier authority constants. The first four values are used with universal well-known SIDs; the last value is used with Windows well-known SIDs.
 
@@ -54,7 +59,7 @@ The following table lists the predefined identifier authority constants. The fir
 
 
 
- 
+ 
 
 The following [*RID*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-relative-identifier-gly) values are used with [*universal well-known SIDs*](https://msdn.microsoft.com/library/windows/desktop/ms721629#-security-universal-well-known-security-identifier-gly). The Identifier authority column shows the prefix of the identifier authority with which you can combine the RID to create a universal well-known SID.
 
@@ -71,7 +76,7 @@ The following [*RID*](https://msdn.microsoft.com/library/windows/desktop/ms72160
 
 
 
- 
+ 
 
 The SECURITY\_NT\_AUTHORITY (S-1-5) predefined identifier authority produces SIDs that are not universal but are meaningful only on Windows installations. You can use the following RID values with SECURITY\_NT\_AUTHORITY to create well-known SIDs.
 
@@ -98,7 +103,7 @@ The SECURITY\_NT\_AUTHORITY (S-1-5) predefined identifier authority produces SID
 
 
 
- 
+ 
 
 The following RIDs are relative to each domain.
 
@@ -123,7 +128,7 @@ The following RIDs are relative to each domain.
 
 
 
- 
+ 
 
 The following RIDs are used to specify mandatory integrity level.
 
@@ -141,7 +146,7 @@ The following RIDs are used to specify mandatory integrity level.
 
 
 
- 
+ 
 
 The following table has examples of domain-relative RIDs that you can use to form well-known SIDs for local groups (aliases). For more information about local and global groups, see [Local Group Functions](https://msdn.microsoft.com/library/windows/desktop/aa370283) and [Group Functions](https://msdn.microsoft.com/library/windows/desktop/aa370266).
 
@@ -159,7 +164,7 @@ The following table has examples of domain-relative RIDs that you can use to for
 | DOMAIN\_ALIAS\_RID\_BACKUP\_OPS<br/>                       | 0x00000227<br/> | A local group used for controlling assignment of file backup-and-restore privileges.<br/>                                                                                                                                                                                            |
 | DOMAIN\_ALIAS\_RID\_REPLICATOR<br/>                        | 0x00000228<br/> | A local group responsible for copying security databases from the primary domain controller to the backup domain controllers. These accounts are used only by the system.<br/>                                                                                                       |
 | DOMAIN\_ALIAS\_RID\_RAS\_SERVERS<br/>                      | 0x00000229<br/> | A local group that represents RAS and IAS servers. This group permits access to various attributes of user objects.<br/>                                                                                                                                                             |
-| DOMAIN\_ALIAS\_RID\_PREW2KCOMPACCESS<br/>                  | 0x0000022A<br/> | A local group that exists only on systems running Windows 2000 Server. For more information, see [Allowing Anonymous Access](allowing-anonymous-access.md).<br/>                                                                                                                    |
+| DOMAIN\_ALIAS\_RID\_PREW2KCOMPACCESS<br/>                  | 0x0000022A<br/> | A local group that exists only on systems running Windows 2000 Server. For more information, see [Allowing Anonymous Access](allowing-anonymous-access.md).<br/>                                                                                                                    |
 | DOMAIN\_ALIAS\_RID\_REMOTE\_DESKTOP\_USERS<br/>            | 0x0000022B<br/> | A local group that represents all remote desktop users.<br/>                                                                                                                                                                                                                         |
 | DOMAIN\_ALIAS\_RID\_NETWORK\_CONFIGURATION\_OPS<br/>       | 0x0000022C<br/> | A local group that represents the network configuration. <br/>                                                                                                                                                                                                                       |
 | DOMAIN\_ALIAS\_RID\_INCOMING\_FOREST\_TRUST\_BUILDERS<br/> | 0x0000022D<br/> | A local group that represents any forest trust users.<br/>                                                                                                                                                                                                                           |
@@ -177,13 +182,13 @@ The following table has examples of domain-relative RIDs that you can use to for
 
 
 
- 
+ 
 
-The [**WELL\_KNOWN\_SID\_TYPE**](well-known-sid-type.md) enumeration defines the list of commonly used SIDs. Additionally, the [Security Descriptor Definition Language](security-descriptor-definition-language.md) (SDDL) uses [SID strings](sid-strings.md) to reference well-known SIDs in a string format.
+The [**WELL\_KNOWN\_SID\_TYPE**](/windows/win32/Winnt/ne-winnt-well_known_sid_type?branch=master) enumeration defines the list of commonly used SIDs. Additionally, the [Security Descriptor Definition Language](security-descriptor-definition-language.md) (SDDL) uses [SID strings](sid-strings.md) to reference well-known SIDs in a string format.
 
- 
+ 
 
- 
+ 
 
 
 

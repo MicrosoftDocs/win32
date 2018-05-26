@@ -1,8 +1,19 @@
 ---
 title: Digital Signatures Overview
 description: This topic describes the basics of using Packaging APIs to interact with package digital signatures, which can be used to confirm that signed package components have not been altered since the signature was generated.
-ms.assetid: 'd81f6569-6c95-4bb7-9d1d-51e10701b970'
-keywords: ["Packaging APIs,digital signatures", "packaging,digital signatures", "packages,digital signatures", "digital signatures", "signatures", "package components"]
+ms.assetid: d81f6569-6c95-4bb7-9d1d-51e10701b970
+keywords:
+- Packaging APIs,digital signatures
+- packaging,digital signatures
+- packages,digital signatures
+- digital signatures
+- signatures
+- package components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Signatures Overview
@@ -34,40 +45,40 @@ For a table of prerequisites, see [Packaging](packaging.md).
 
 ## Package Signatures
 
-Windows 7 enables the use of digital signature Packaging APIs by providing an object that implements the [**IOpcDigitalSignatureManager**](iopcdigitalsignaturemanager.md) interface. An instance of this object can be created by calling the [**IOpcFactory::CreateDigitalSignatureManager**](iopcfactory-createdigitalsignaturemanager.md) method of a Packaging factory. For information about how to create a factory for use with the Packaging APIs, see the [Getting Started with the Packaging API](packaging-api-overview.md).
+Windows 7 enables the use of digital signature Packaging APIs by providing an object that implements the [**IOpcDigitalSignatureManager**](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignaturemanager?branch=master) interface. An instance of this object can be created by calling the [**IOpcFactory::CreateDigitalSignatureManager**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-createdigitalsignaturemanager?branch=master) method of a Packaging factory. For information about how to create a factory for use with the Packaging APIs, see the [Getting Started with the Packaging API](packaging-api-overview.md).
 
 The following table lists the digital signature information that is represented by interfaces in the Packaging APIs. 
 
 | Signature information                     | Packaging interface                                                                        | Description                                                                                                                        |
 |-------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| package signature                         | [**IOpcDigitalSignature**](iopcdigitalsignature.md) interface                             | A signature that is created for a package and composed of representations of the other signature concepts.<br/>              |
-| reference to a part                       | [**IOpcSignaturePartReference**](iopcsignaturepartreference.md) interface                 | A reference to a part that has been signed. <br/>                                                                            |
-| reference to relationships                | [**IOpcSignatureRelationshipReference**](iopcsignaturerelationshipreference.md) interface | A reference to one or more relationships that have been signed and that are all stored in the same Relationships part. <br/> |
-| reference to data in the signature markup | [**IOpcSignatureReference**](iopcsignaturereference.md) interface                         | A reference to application data in the signature markup that has been signed. <br/>                                          |
-| object that contains application data     | [**IOpcSignatureCustomObject**](iopcsignaturecustomobject.md) interface                   | An application-specific object that contains application data in the signature markup that may have been signed.<br/>        |
+| package signature                         | [**IOpcDigitalSignature**](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignature?branch=master) interface                             | A signature that is created for a package and composed of representations of the other signature concepts.<br/>              |
+| reference to a part                       | [**IOpcSignaturePartReference**](/windows/previous-versions/msopc/nn-msopc-iopcsignaturepartreference?branch=master) interface                 | A reference to a part that has been signed. <br/>                                                                            |
+| reference to relationships                | [**IOpcSignatureRelationshipReference**](/windows/previous-versions/msopc/nn-msopc-iopcsignaturerelationshipreference?branch=master) interface | A reference to one or more relationships that have been signed and that are all stored in the same Relationships part. <br/> |
+| reference to data in the signature markup | [**IOpcSignatureReference**](/windows/previous-versions/msopc/nn-msopc-iopcsignaturereference?branch=master) interface                         | A reference to application data in the signature markup that has been signed. <br/>                                          |
+| object that contains application data     | [**IOpcSignatureCustomObject**](/windows/previous-versions/msopc/nn-msopc-iopcsignaturecustomobject?branch=master) interface                   | An application-specific object that contains application data in the signature markup that may have been signed.<br/>        |
 | certificate                               | [CERT\_CONTEXT](http://msdn.microsoft.com/library/aa377189(vs.85).aspx) structure    | An X.509 certificate that can be used in signature generation and validation.<br/>                                           |
 
 
 
- 
+ 
 
 ## Generating a Signature
 
 When a signature is generated, a signature part is created to store the associated signature information. Each item to be signed then has its cryptographic hash value (digest value) computed and stored in the package signature markup along with the encrypted hash value that was computed for the entire signature (signature value). These values are accessed when a package signature is validated.
 
-At any time before a signature is generated, the [**IOpcDigitalSignatureManager::SetSignatureOriginPartName**](iopcdigitalsignaturemanager-setsignatureoriginpartname.md) method can be used to set the part name of the Digital Signature Origin part. Although the Digital Signature Origin part does not contain signature markup, it serves as the starting point for locating all signatures in the package. If a part name is not set with this method, a name will be generated at signing time—unless a Digital Signature Origin part already exists in the package that is being signed.
+At any time before a signature is generated, the [**IOpcDigitalSignatureManager::SetSignatureOriginPartName**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-setsignatureoriginpartname?branch=master) method can be used to set the part name of the Digital Signature Origin part. Although the Digital Signature Origin part does not contain signature markup, it serves as the starting point for locating all signatures in the package. If a part name is not set with this method, a name will be generated at signing time unless a Digital Signature Origin part already exists in the package that is being signed.
 
 To generate a signature for signing a package, use the following procedure:
 
-1.  Call [**IOpcDigitalSignatureManager::CreateSigningOptions**](iopcdigitalsignaturemanager-createsigningoptions.md) to get a pointer to an object that implements the [**IOpcSigningOptions**](iopcsigningoptions.md) interface.
-2.  Use the [**IOpcSigningOptions**](iopcsigningoptions.md) interface methods to set necessary signature information.
+1.  Call [**IOpcDigitalSignatureManager::CreateSigningOptions**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-createsigningoptions?branch=master) to get a pointer to an object that implements the [**IOpcSigningOptions**](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface.
+2.  Use the [**IOpcSigningOptions**](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface methods to set necessary signature information.
 
     This must include, but is not exclusive to, calls to the following methods:
 
-    -   [**IOpcSigningOptions::SetDefaultDigestMethod**](iopcsigningoptions-setdefaultdigestmethod.md), to set the default digest method
-    -   [**IOpcSigningOptions::SetSignatureMethod**](iopcsigningoptions-setsignaturemethod.md), to set the signature method
+    -   [**IOpcSigningOptions::SetDefaultDigestMethod**](/windows/previous-versions/msopc/nf-msopc-iopcsigningoptions-setdefaultdigestmethod?branch=master), to set the default digest method
+    -   [**IOpcSigningOptions::SetSignatureMethod**](/windows/previous-versions/msopc/nf-msopc-iopcsigningoptions-setsignaturemethod?branch=master), to set the signature method
 
-3.  After all the signature information that is required has been set, call the [**IOpcDigitalSignatureManager::Sign**](iopcdigitalsignaturemanager-sign.md) method. Pass **Sign** a pointer to the [**IOpcSigningOptions**](iopcsigningoptions.md) interface of the object that contains the signature information.
+3.  After all the signature information that is required has been set, call the [**IOpcDigitalSignatureManager::Sign**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-sign?branch=master) method. Pass **Sign** a pointer to the [**IOpcSigningOptions**](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface of the object that contains the signature information.
 
 ### Packaging Interfaces and Methods Used in Signature Generation
 
@@ -82,35 +93,35 @@ The key Packaging interfaces and interface methods that are used to generate sig
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>IOpcDigitalSignatureManager::Sign</strong>](iopcdigitalsignaturemanager-sign.md) method</td>
-<td>Signs the package by creating a signature, using a provided certificate and an [<strong>IOpcSigningOptions</strong>](iopcsigningoptions.md) interface. <br/></td>
+<td>[<strong>IOpcDigitalSignatureManager::Sign</strong>](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-sign?branch=master) method</td>
+<td>Signs the package by creating a signature, using a provided certificate and an [<strong>IOpcSigningOptions</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IOpcSigningOptions</strong>](iopcsigningoptions.md) interface</td>
+<td>[<strong>IOpcSigningOptions</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface</td>
 <td>Used to set the signature options and properties that are needed to generate a package signature.<br/></td>
 </tr>
 <tr class="odd">
-<td>Set interfaces<br/> <dl>[<strong>IOpcCertificateSet</strong>](iopccertificateset.md)<br />
-[<strong>IOpcRelationshipSelectorSet</strong>](iopcrelationshipselectorset.md)<br />
-[<strong>IOpcSignatureCustomObjectSet</strong>](iopcsignaturecustomobjectset.md)<br />
-[<strong>IOpcSignaturePartReferenceSet</strong>](iopcsignaturepartreferenceset.md)<br />
-[<strong>IOpcSignatureReferenceSet</strong>](iopcsignaturereferenceset.md)<br />
-[<strong>IOpcSignatureRelationshipReferenceSet</strong>](iopcsignaturerelationshipreferenceset.md)<br />
+<td>Set interfaces<br/> <dl>[<strong>IOpcCertificateSet</strong>](/windows/previous-versions/msopc/nn-msopc-iopccertificateset?branch=master)<br />
+[<strong>IOpcRelationshipSelectorSet</strong>](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipselectorset?branch=master)<br />
+[<strong>IOpcSignatureCustomObjectSet</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturecustomobjectset?branch=master)<br />
+[<strong>IOpcSignaturePartReferenceSet</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturepartreferenceset?branch=master)<br />
+[<strong>IOpcSignatureReferenceSet</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturereferenceset?branch=master)<br />
+[<strong>IOpcSignatureRelationshipReferenceSet</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturerelationshipreferenceset?branch=master)<br />
 </dl></td>
-<td>These sets of Packaging signature interface pointers provide methods for the creation and deletion of the Packaging digital signature objects that are used to generate a signature. These interfaces are accessed through the [<strong>IOpcSigningOptions</strong>](iopcsigningoptions.md) interface.<br/></td>
+<td>These sets of Packaging signature interface pointers provide methods for the creation and deletion of the Packaging digital signature objects that are used to generate a signature. These interfaces are accessed through the [<strong>IOpcSigningOptions</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsigningoptions?branch=master) interface.<br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ### Signature Serialization
 
 When a signature is generated, it is serialized as specialized XML markup (signature markup) that complies with the W3C Recommendation for [XML Signature Syntax and Processing](http://go.microsoft.com/fwlink/p/?linkid=132847) (http://go.microsoft.com/fwlink/p/?linkid=132847) and the signature requirements specified in the *ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)*.
 
-The following code is an example of the signature markup for a serialized package signature. This markup has been reproduced, with comments added, from the Digital Signature Example in the *OPC*. It shows a serialized signature that has one signed part, several signed relationships (stored in the same Relationships part), and the signed XML markup of an application-specific **Object** element—the only application-specific **Object** that exists in the signature.
+The following code is an example of the signature markup for a serialized package signature. This markup has been reproduced, with comments added, from the Digital Signature Example in the *OPC*. It shows a serialized signature that has one signed part, several signed relationships (stored in the same Relationships part), and the signed XML markup of an application-specific **Object** element the only application-specific **Object** that exists in the signature.
 
 
 ```XML
@@ -249,33 +260,33 @@ The key Packaging interfaces and interface methods that are used to access signa
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>IOpcDigitalSignatureManager::GetSignatureEnumerator</strong>](iopcdigitalsignaturemanager-getsignatureenumerator.md) method</td>
-<td>Gets an enumerator of [<strong>IOpcDigitalSignature</strong>](iopcdigitalsignature.md) interfaces, which represent the signatures of the package. <br/></td>
+<td>[<strong>IOpcDigitalSignatureManager::GetSignatureEnumerator</strong>](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-getsignatureenumerator?branch=master) method</td>
+<td>Gets an enumerator of [<strong>IOpcDigitalSignature</strong>](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignature?branch=master) interfaces, which represent the signatures of the package. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IOpcDigitalSignatureManager::GetSignatureOriginPartName</strong>](iopcdigitalsignaturemanager-getsignatureoriginpartname.md) method</td>
-<td>Gets an [<strong>IOpcPartUri</strong>](iopcparturi.md) interface that represents the part name of the Digital Signature Origin part.<br/></td>
+<td>[<strong>IOpcDigitalSignatureManager::GetSignatureOriginPartName</strong>](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-getsignatureoriginpartname?branch=master) method</td>
+<td>Gets an [<strong>IOpcPartUri</strong>](/windows/previous-versions/msopc/nn-msopc-iopcparturi?branch=master) interface that represents the part name of the Digital Signature Origin part.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IOpcDigitalSignatureManager::RemoveSignature</strong>](iopcdigitalsignaturemanager-removesignature.md) method</td>
+<td>[<strong>IOpcDigitalSignatureManager::RemoveSignature</strong>](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-removesignature?branch=master) method</td>
 <td>Removes a specified part from the package. This part stores signature markup.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IOpcDigitalSignatureManager::ReplaceSignature</strong>](iopcdigitalsignaturemanager-replacesignaturexml.md) method</td>
+<td>[<strong>IOpcDigitalSignatureManager::ReplaceSignature</strong>](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-replacesignaturexml?branch=master) method</td>
 <td>Replaces the existing signature markup that is stored in a specified part.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IOpcDigitalSignature</strong>](iopcdigitalsignature.md) interface</td>
+<td>[<strong>IOpcDigitalSignature</strong>](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignature?branch=master) interface</td>
 <td>Represents a digital signature of a package.<br/></td>
 </tr>
 <tr class="even">
-<td>Enumerator interfaces<br/> <dl>[<strong>IOpcCertificateEnumerator</strong>](iopccertificateenumerator.md)<br />
-[<strong>IOpcDigitalSignatureEnumerator</strong>](iopcdigitalsignatureenumerator.md)<br />
-[<strong>IOpcRelationshipSelectorEnumerator</strong>](iopcrelationshipselectorenumerator.md)<br />
-[<strong>IOpcSignatureCustomObjectEnumerator</strong>](iopcsignaturecustomobjectenumerator.md)<br />
-[<strong>IOpcSignaturePartReferenceEnumerator</strong>](iopcsignaturepartreferenceenumerator.md)<br />
-[<strong>IOpcSignatureReferenceEnumerator</strong>](iopcsignaturereferenceenumerator.md)<br />
-[<strong>IOpcSignatureRelationshipReferenceEnumerator</strong>](iopcsignaturerelationshipreferenceenumerator.md)<br />
+<td>Enumerator interfaces<br/> <dl>[<strong>IOpcCertificateEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopccertificateenumerator?branch=master)<br />
+[<strong>IOpcDigitalSignatureEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignatureenumerator?branch=master)<br />
+[<strong>IOpcRelationshipSelectorEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopcrelationshipselectorenumerator?branch=master)<br />
+[<strong>IOpcSignatureCustomObjectEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturecustomobjectenumerator?branch=master)<br />
+[<strong>IOpcSignaturePartReferenceEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturepartreferenceenumerator?branch=master)<br />
+[<strong>IOpcSignatureReferenceEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturereferenceenumerator?branch=master)<br />
+[<strong>IOpcSignatureRelationshipReferenceEnumerator</strong>](/windows/previous-versions/msopc/nn-msopc-iopcsignaturerelationshipreferenceenumerator?branch=master)<br />
 </dl></td>
 <td>Read-only enumerators for sets that are used for Packaging digital signature tasks.<br/></td>
 </tr>
@@ -284,7 +295,7 @@ The key Packaging interfaces and interface methods that are used to access signa
 
 
 
- 
+ 
 
 ## Validating a Signature
 
@@ -293,11 +304,11 @@ The validation of a package signature indicates that signed package content has 
 > \[!Important\]  
 > The identity of the signer must be validated by the caller.
 
- 
+ 
 
 To validate the package signature the digest and signature values are recomputed and compared against the original values that were stored using signature markup when the package signature was generated. Any difference between the recomputed values and the original, stored values indicates that the original data has changed and that this signature is no longer valid.
 
-To validate a signature using the Packaging APIs, call the [**IOpcDigitalSignatureManager::Validate**](iopcdigitalsignaturemanager-validate.md) method.
+To validate a signature using the Packaging APIs, call the [**IOpcDigitalSignatureManager::Validate**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-validate?branch=master) method.
 
 ### Packaging Interfaces and Methods Used in Validation
 
@@ -305,11 +316,11 @@ The Packaging interface method that is used to validate signatures is shown in t
 
 | Packaging interface method                                                            | Description                                                                |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [**IOpcDigitalSignatureManager::Validate**](iopcdigitalsignaturemanager-validate.md) | Validates a package signature by using a specified certificate.<br/> |
+| [**IOpcDigitalSignatureManager::Validate**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-validate?branch=master) | Validates a package signature by using a specified certificate.<br/> |
 
 
 
- 
+ 
 
 ## Additional Resources
 
@@ -326,7 +337,7 @@ While not required to use the Packaging Digital Signature APIs, knowledge of the
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -365,9 +376,9 @@ While not required to use the Packaging Digital Signature APIs, knowledge of the
 [ECMA-376 OpenXML](http://go.microsoft.com/fwlink/p/?linkid=123375)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

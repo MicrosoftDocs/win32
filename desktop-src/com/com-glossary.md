@@ -2,7 +2,12 @@
 title: COM Glossary
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '9e2c56a2-0572-48b6-a2ef-650f1cf1b62e'
+ms.assetid: 9e2c56a2-0572-48b6-a2ef-650f1cf1b62e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Glossary
@@ -40,14 +45,14 @@ A COM object that caches, manages, and sends notifications of changes to contain
 <span id="com.advisory_sink_gloss"></span><span id="COM.ADVISORY_SINK_GLOSS"></span>**advisory sink**
 </dt> <dd>
 
-A COM object that can receive notifications of changes in an embedded object or linked object because it implements the [**IAdviseSink**](iadvisesink.md) or [**IAdviseSink2**](iadvisesink2.md) interface. Containers that need to be notified of changes in objects implement an advisory sink. Notifications originate in the server, which uses an advisory holder object to cache and manage notifications to containers.
+A COM object that can receive notifications of changes in an embedded object or linked object because it implements the [**IAdviseSink**](/windows/win32/ObjIdl/nn-objidl-iadvisesink?branch=master) or [**IAdviseSink2**](/windows/win32/ObjIdl/nn-objidl-iadvisesink2?branch=master) interface. Containers that need to be notified of changes in objects implement an advisory sink. Notifications originate in the server, which uses an advisory holder object to cache and manage notifications to containers.
 
 </dd> <dt>
 
 <span id="com.aggregate_object_gloss"></span><span id="COM.AGGREGATE_OBJECT_GLOSS"></span>**aggregate object**
 </dt> <dd>
 
-A COM object that is made up of one or more other COM objects. One object in the aggregate is designated the controlling object, which controls which interfaces in the aggregate are exposed and which are private. This controlling object has a special implementation of [**IUnknown**](iunknown.md) called the controlling **IUnknown**. All objects in the aggregate must pass calls to **IUnknown** methods through the controlling **IUnknown**.
+A COM object that is made up of one or more other COM objects. One object in the aggregate is designated the controlling object, which controls which interfaces in the aggregate are exposed and which are private. This controlling object has a special implementation of [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) called the controlling **IUnknown**. All objects in the aggregate must pass calls to **IUnknown** methods through the controlling **IUnknown**.
 
 </dd> <dt>
 
@@ -110,7 +115,7 @@ A way to manipulate an application's objects from outside the application. Autom
 <span id="com.bind_context_gloss"></span><span id="COM.BIND_CONTEXT_GLOSS"></span>**bind context**
 </dt> <dd>
 
-A COM object that implements the [**IBindCtx**](ibindctx.md) interface. Bind contexts are used in moniker operations to hold references to the objects activated when a moniker is bound. The bind context contains parameters that apply to all operations during the binding of a generic composite moniker and provides the moniker implementation with access to information about its environment.
+A COM object that implements the [**IBindCtx**](/windows/win32/ObjIdl/nn-objidl-ibindctx?branch=master) interface. Bind contexts are used in moniker operations to hold references to the objects activated when a moniker is bound. The bind context contains parameters that apply to all operations during the binding of a generic composite moniker and provides the moniker implementation with access to information about its environment.
 
 </dd> <dt>
 
@@ -131,7 +136,7 @@ A (usually temporary) local store of information. In OLE, a cache contains infor
 <span id="com.cache_initialization_gloss"></span><span id="COM.CACHE_INITIALIZATION_GLOSS"></span>**cache initialization**
 </dt> <dd>
 
-Filling a linked or embedded object's cache with presentation data. The [**IOleCache**](iolecache.md) interface provides methods that a container can call to control the data that gets cached for linked or embedded objects.
+Filling a linked or embedded object's cache with presentation data. The [**IOleCache**](/windows/win32/OleIdl/nn-oleidl-iolecache?branch=master) interface provides methods that a container can call to control the data that gets cached for linked or embedded objects.
 
 </dd> <dt>
 
@@ -145,7 +150,7 @@ The definition of an object in code. In C++, the class of an object is defined a
 <span id="com.class_factory_gloss"></span><span id="COM.CLASS_FACTORY_GLOSS"></span>**class factory**
 </dt> <dd>
 
-A COM object that implements the [**IClassFactory**](iclassfactory.md) interface and that creates one or more instances of an object identified by a given class identifier(CLSID).
+A COM object that implements the [**IClassFactory**](/windows/win32/unknwnbase/nn-unknwn-iclassfactory?branch=master) interface and that creates one or more instances of an object identified by a given class identifier(CLSID).
 
 </dd> <dt>
 
@@ -243,14 +248,14 @@ An object that conforms to the OLE Component Object Model (COM). A COM object is
 <span id="com.connectable_object_gloss"></span><span id="COM.CONNECTABLE_OBJECT_GLOSS"></span>**connectable object**
 </dt> <dd>
 
-A COM object that implements, at a minimum, the [**IConnectionPointContainer**](iconnectionpointcontainer.md) interface, for the management of connection point objects. Connectable objects support communication from the server to the client. A connectable object creates and manages one or more connection point subobjects, which receive events from interfaces implemented on other objects and send them on to the client.
+A COM object that implements, at a minimum, the [**IConnectionPointContainer**](/windows/win32/OCIdl/nn-ocidl-iconnectionpointcontainer?branch=master) interface, for the management of connection point objects. Connectable objects support communication from the server to the client. A connectable object creates and manages one or more connection point subobjects, which receive events from interfaces implemented on other objects and send them on to the client.
 
 </dd> <dt>
 
 <span id="com.connection_point_object_gloss"></span><span id="COM.CONNECTION_POINT_OBJECT_GLOSS"></span>**connection point object**
 </dt> <dd>
 
-A COM object that is managed by a connectable object and that implements the [**IConnectionPoint**](iconnectionpoint.md) interface. One or more connection point objects can be created and managed by a connectable object. Each connection point object manages incoming events from a specific interface on another object and sends those events on to the client.
+A COM object that is managed by a connectable object and that implements the [**IConnectionPoint**](/windows/win32/OCIdl/nn-ocidl-iconnectionpoint?branch=master) interface. One or more connection point objects can be created and managed by a connectable object. Each connection point object manages incoming events from a specific interface on another object and sends those events on to the client.
 
 </dd> <dt>
 
@@ -278,14 +283,14 @@ In COM+, a set of run-time properties associated with one or more COM objects th
 <span id="com.control_gloss"></span><span id="COM.CONTROL_GLOSS"></span>**control**
 </dt> <dd>
 
-An embeddable, reusable COM object that supports, at a minimum, the [**IOleControl**](iolecontrol.md) interface. Controls are typically associated with the user interface. They also support communication with a container and can be reused by multiple clients, depending upon licensing criteria.
+An embeddable, reusable COM object that supports, at a minimum, the [**IOleControl**](/windows/win32/OCIdl/nn-ocidl-iolecontrol?branch=master) interface. Controls are typically associated with the user interface. They also support communication with a container and can be reused by multiple clients, depending upon licensing criteria.
 
 </dd> <dt>
 
 <span id="com.control_container_gloss"></span><span id="COM.CONTROL_CONTAINER_GLOSS"></span>**control container**
 </dt> <dd>
 
-An application that supports embedding of controls by implementing the [**IOleControlSite**](iolecontrolsite.md) interface.
+An application that supports embedding of controls by implementing the [**IOleControlSite**](/windows/win32/OCIdl/nn-ocidl-iolecontrolsite?branch=master) interface.
 
 </dd> <dt>
 
@@ -299,7 +304,7 @@ A run-time property that is exposed and managed by the control itself. For examp
 <span id="com.controlling_object_gloss"></span><span id="COM.CONTROLLING_OBJECT_GLOSS"></span>**controlling object**
 </dt> <dd>
 
-The object within an aggregate object that controls which interfaces within the aggregate object are exposed and which are private. The [**IUnknown**](iunknown.md) interface of the controlling object is called the controlling **IUnknown**. Calls to **IUnknown** methods of other objects in the aggregate must be passed to the controlling **IUnknown**.
+The object within an aggregate object that controls which interfaces within the aggregate object are exposed and which are private. The [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface of the controlling object is called the controlling **IUnknown**. Calls to **IUnknown** methods of other objects in the aggregate must be passed to the controlling **IUnknown**.
 
 </dd> <dt>
 
@@ -313,7 +318,7 @@ A structure implemented by a control container for managing the display and stor
 <span id="com.data_transfer_object_gloss"></span><span id="COM.DATA_TRANSFER_OBJECT_GLOSS"></span>**data transfer object**
 </dt> <dd>
 
-An object that implements the [**IDataObject**](idataobject.md) interface and contains data to be transferred from one object to another through either the Clipboard or drag-and-drop operations.
+An object that implements the [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master) interface and contains data to be transferred from one object to another through either the Clipboard or drag-and-drop operations.
 
 </dd> <dt>
 
@@ -329,7 +334,7 @@ With the default object handler, it is possible to look at an object's stored da
 <span id="com.dependent_object_gloss"></span><span id="COM.DEPENDENT_OBJECT_GLOSS"></span>**dependent object**
 </dt> <dd>
 
-A COM object that is typically initialized by another object (the host object). Although the dependent object's lifetime may only make sense during the lifetime of the host object, the host object does not function as the controlling [**IUnknown**](iunknown.md) for the dependent object. In contrast, an object is an aggregated object when its lifetime (by means of its reference count) is completely controlled by the managing object.
+A COM object that is typically initialized by another object (the host object). Although the dependent object's lifetime may only make sense during the lifetime of the host object, the host object does not function as the controlling [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) for the dependent object. In contrast, an object is an aggregated object when its lifetime (by means of its reference count) is completely controlled by the managing object.
 
 </dd> <dt>
 
@@ -343,7 +348,7 @@ One of two access modes in which a storage object can be opened. In direct mode,
 <span id="com.document_object_gloss"></span><span id="COM.DOCUMENT_OBJECT_GLOSS"></span>**document object**
 </dt> <dd>
 
-An OLE document that can display one or more in-place activated views of its data within a native or foreign frame, such as a browser, while retaining full control over its user interface. In addition to implementing the usual OLE document and in-place activation interfaces, a document object must implement [**IOleDocument**](ioledocument.md), and each of its views (in the form of a document view object) must implement [**IOleDocumentView**](ioledocumentview.md).
+An OLE document that can display one or more in-place activated views of its data within a native or foreign frame, such as a browser, while retaining full control over its user interface. In addition to implementing the usual OLE document and in-place activation interfaces, a document object must implement [**IOleDocument**](/windows/win32/DocObj/nn-docobj-ioledocument?branch=master), and each of its views (in the form of a document view object) must implement [**IOleDocumentView**](/windows/win32/DocObj/nn-docobj-ioledocumentview?branch=master).
 
 </dd> <dt>
 
@@ -371,7 +376,7 @@ A client site implemented by a document object container for managing the displa
 <span id="com.document_site_object_gloss"></span><span id="COM.DOCUMENT_SITE_OBJECT_GLOSS"></span>**document site object**
 </dt> <dd>
 
-A COM object that implements the [**IOleDocumentSite**](ioledocumentsite.md) interface, in addition to the usual client-site interfaces (such as [**IOleClientSite**](ioleclientsite.md)).
+A COM object that implements the [**IOleDocumentSite**](/windows/win32/DocObj/nn-docobj-ioledocumentsite?branch=master) interface, in addition to the usual client-site interfaces (such as [**IOleClientSite**](/windows/win32/OleIdl/nn-oleidl-ioleclientsite?branch=master)).
 
 </dd> <dt>
 
@@ -385,7 +390,7 @@ A particular presentation of a document's data. A single document object can hav
 <span id="com.document_view_object_gloss"></span><span id="COM.DOCUMENT_VIEW_OBJECT_GLOSS"></span>**document view object**
 </dt> <dd>
 
-A COM object that implements the [**IOleDocumentView**](ioledocumentview.md) interface and corresponds to a particular document view. An object with multiple document views aggregates a separate document view object for each view.
+A COM object that implements the [**IOleDocumentView**](/windows/win32/DocObj/nn-docobj-ioledocumentview?branch=master) interface and corresponds to a particular document view. An object with multiple document views aggregates a separate document view object for each view.
 
 </dd> <dt>
 
@@ -399,7 +404,7 @@ An object aggregated by a document site object for managing the display space fo
 <span id="com.document_view_site_object_gloss"></span><span id="COM.DOCUMENT_VIEW_SITE_OBJECT_GLOSS"></span>**document view site object**
 </dt> <dd>
 
-A COM object that is aggregated in a document site object and implements the [**IOleInPlaceSite**](ioleinplacesite.md) interface and, optionally, the [**IContinueCallback**](icontinuecallback.md) interface.
+A COM object that is aggregated in a document site object and implements the [**IOleInPlaceSite**](/windows/win32/OleIdl/nn-oleidl-ioleinplacesite?branch=master) interface and, optionally, the [**IContinueCallback**](/windows/win32/DocObj/nn-docobj-icontinuecallback?branch=master) interface.
 
 </dd> <dt>
 
@@ -434,14 +439,14 @@ A run-time property, such as a control's position and size, that a user would as
 <span id="com.file_moniker_gloss"></span><span id="COM.FILE_MONIKER_GLOSS"></span>**file moniker**
 </dt> <dd>
 
-A moniker based on a path in the file system. File monikers can be used to identify objects that are saved in their own files. A file moniker is a COM object that supports the system-provided implementation of the [**IMoniker**](imoniker.md) interface for the file moniker class.
+A moniker based on a path in the file system. File monikers can be used to identify objects that are saved in their own files. A file moniker is a COM object that supports the system-provided implementation of the [**IMoniker**](/windows/win32/ObjIdl/nn-objidl-imoniker?branch=master) interface for the file moniker class.
 
 </dd> <dt>
 
 <span id="com.font_object_gloss"></span><span id="COM.FONT_OBJECT_GLOSS"></span>**font object**
 </dt> <dd>
 
-A COM object that provides access to Graphics Device Interface (GDI) fonts by implementing the [**IFont**](ifont.md) interface.
+A COM object that provides access to Graphics Device Interface (GDI) fonts by implementing the [**IFont**](/windows/win32/OCIdl/nn-ocidl-ifont?branch=master) interface.
 
 </dd> <dt>
 
@@ -462,7 +467,7 @@ The part of a container application responsible for negotiating menus, accelerat
 <span id="com.frame_object_gloss"></span><span id="COM.FRAME_OBJECT_GLOSS"></span>**frame object**
 </dt> <dd>
 
-A COM object that implements the [**IOleInPlaceFrame**](ioleinplaceframe.md) interface and, optionally, the [**IOleCommandTarget**](iolecommandtarget.md) interface.
+A COM object that implements the [**IOleInPlaceFrame**](/windows/win32/OleIdl/nn-oleidl-ioleinplaceframe?branch=master) interface and, optionally, the [**IOleCommandTarget**](/windows/win32/DocObj/nn-docobj-iolecommandtarget?branch=master) interface.
 
 </dd> <dt>
 
@@ -483,7 +488,7 @@ A function that encapsulates calls to other functions and interface methods publ
 <span id="com.host_object_gloss"></span><span id="COM.HOST_OBJECT_GLOSS"></span>**host object**
 </dt> <dd>
 
-A COM object that forms a hierarchical relationship with one or more other COM objects, known as the dependent objects. Typically, the host object instantiates the dependent objects, and their existence only makes sense within the lifetime of the host object. However, the host object does not act as the controlling [**IUnknown**](iunknown.md) for the dependent objects, nor does it directly delegate to the interface implementations of those objects.
+A COM object that forms a hierarchical relationship with one or more other COM objects, known as the dependent objects. Typically, the host object instantiates the dependent objects, and their existence only makes sense within the lifetime of the host object. However, the host object does not act as the controlling [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) for the dependent objects, nor does it directly delegate to the interface implementations of those objects.
 
 </dd> <dt>
 
@@ -595,14 +600,14 @@ A moniker based on a string that identifies an object in a container. Item monik
 <span id="com.licensing_gloss"></span><span id="COM.LICENSING_GLOSS"></span>**licensing**
 </dt> <dd>
 
-A feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](iclassfactory2.md) interface and by support for a license key that can be passed at run time.
+A feature of COM that provides control over object creation. Licensed objects can be created only by clients that are authorized to use them. Licensing is implemented in COM through the [**IClassFactory2**](/windows/win32/OCIdl/nn-ocidl-iclassfactory2?branch=master) interface and by support for a license key that can be passed at run time.
 
 </dd> <dt>
 
 <span id="com.link_object_gloss"></span><span id="COM.LINK_OBJECT_GLOSS"></span>**link object**
 </dt> <dd>
 
-A COM object that is created when a linked COM object is created or loaded. The link object is provided by OLE and implements the [**IOleLink**](iolelink.md) interface.
+A COM object that is created when a linked COM object is created or loaded. The link object is provided by OLE and implements the [**IOleLink**](/windows/win32/OleIdl/nn-oleidl-iolelink?branch=master) interface.
 
 </dd> <dt>
 
@@ -637,7 +642,7 @@ An out-of-process server implemented as an .EXE application running on the same 
 <span id="com.lock_gloss"></span><span id="COM.LOCK_GLOSS"></span>**lock**
 </dt> <dd>
 
-A pointer held to-and possibly, a reference count incremented on-a running object. OLE defines two types of locks that can be held on an object: strong and weak. To implement a strong lock, a server must maintain both a pointer and a reference count, so that the object will remain "locked" in memory at least until the server calls [**IUnknown::Release**](iunknown-release.md). To implement a weak lock, the server maintains only a pointer to the object, so that the object can be destroyed by another process.
+A pointer held to-and possibly, a reference count incremented on-a running object. OLE defines two types of locks that can be held on an object: strong and weak. To implement a strong lock, a server must maintain both a pointer and a reference count, so that the object will remain "locked" in memory at least until the server calls [**IUnknown::Release**](/windows/win32/unknwnbase/nf-unknwn-iunknown-release?branch=master). To implement a weak lock, the server maintains only a pointer to the object, so that the object can be destroyed by another process.
 
 </dd> <dt>
 
@@ -672,14 +677,14 @@ An Internet protocol originally developed to allow exchange of electronic mail m
 <span id="com.moniker_gloss"></span><span id="COM.MONIKER_GLOSS"></span>**moniker**
 </dt> <dd>
 
-An object that implements the [**IMoniker**](imoniker.md) interface. A moniker acts as a name that uniquely identifies a COM object. In the same way that a path identifies a file in the file system, a moniker identifies a COM object in the directory namespace.
+An object that implements the [**IMoniker**](/windows/win32/ObjIdl/nn-objidl-imoniker?branch=master) interface. A moniker acts as a name that uniquely identifies a COM object. In the same way that a path identifies a file in the file system, a moniker identifies a COM object in the directory namespace.
 
 </dd> <dt>
 
 <span id="com.moniker_class_gloss"></span><span id="COM.MONIKER_CLASS_GLOSS"></span>**moniker class**
 </dt> <dd>
 
-An implementation of the [**IMoniker**](imoniker.md) interface. System-supplied moniker classes include file monikers, item monikers, generic composite monikers, anti-monikers, pointer monikers, and URL monikers.
+An implementation of the [**IMoniker**](/windows/win32/ObjIdl/nn-objidl-imoniker?branch=master) interface. System-supplied moniker classes include file monikers, item monikers, generic composite monikers, anti-monikers, pointer monikers, and URL monikers.
 
 </dd> <dt>
 
@@ -714,7 +719,7 @@ The data used by an OLE server application when editing an embedded object.
 <span id="com.object_gloss"></span><span id="COM.OBJECT_GLOSS"></span>**object**
 </dt> <dd>
 
-In OLE, a programming structure encapsulating both data and functionality that are defined and allocated as a single unit and for which the only public access is through the programming structure's interfaces. A COM object must support, at a minimum, the [**IUnknown**](iunknown.md) interface, which maintains the object's existence while it is being used and provides access to the object's other interfaces.
+In OLE, a programming structure encapsulating both data and functionality that are defined and allocated as a single unit and for which the only public access is through the programming structure's interfaces. A COM object must support, at a minimum, the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface, which maintains the object's existence while it is being used and provides access to the object's other interfaces.
 
 </dd> <dt>
 
@@ -779,7 +784,7 @@ Storage of a file or object in a medium such as a file system or database so tha
 <span id="com.picture_object_gloss"></span><span id="COM.PICTURE_OBJECT_GLOSS"></span>**picture object**
 </dt> <dd>
 
-A COM object that provides access to GDI images by implementing the [**IPicture**](ipicture.md) interface.
+A COM object that provides access to GDI images by implementing the [**IPicture**](/windows/win32/OCIdl/nn-ocidl-ipicture?branch=master) interface.
 
 </dd> <dt>
 
@@ -814,7 +819,7 @@ Information that is associated with an object. In OLE, properties fall into two 
 <span id="com.property_frame_gloss"></span><span id="COM.PROPERTY_FRAME_GLOSS"></span>**property frame**
 </dt> <dd>
 
-The user interface mechanism that displays one or more property pages for a control. The OLE Controls run-time system provides a standard implementation of a property frame that can be accessed by using the [**OleCreatePropertyFrame**](olecreatepropertyframe.md) helper function.
+The user interface mechanism that displays one or more property pages for a control. The OLE Controls run-time system provides a standard implementation of a property frame that can be accessed by using the [**OleCreatePropertyFrame**](/windows/win32/OleCtl/nf-olectl-olecreatepropertyframe?branch=master) helper function.
 
 </dd> <dt>
 
@@ -828,14 +833,14 @@ A four-byte signed integer that identifies a persistent property within a proper
 <span id="com.property_page_gloss"></span><span id="COM.PROPERTY_PAGE_GLOSS"></span>**property page**
 </dt> <dd>
 
-A COM object with its own CLSID that is part of a user interface, implemented by a control, and allows the control's properties to be viewed and set. Property page objects implement the [**IPropertyPage**](ipropertypage.md) interface.
+A COM object with its own CLSID that is part of a user interface, implemented by a control, and allows the control's properties to be viewed and set. Property page objects implement the [**IPropertyPage**](/windows/win32/OCIdl/nn-ocidl-ipropertypage?branch=master) interface.
 
 </dd> <dt>
 
 <span id="com.property_page_site_gloss"></span><span id="COM.PROPERTY_PAGE_SITE_GLOSS"></span>**property page site**
 </dt> <dd>
 
-The location within a property frame where a property page is displayed. The property frame implements the [**IPropertyPageSite**](ipropertypagesite.md) interface, which contains methods to manage the sites of each of the property pages supplied by a control.
+The location within a property frame where a property page is displayed. The property frame implements the [**IPropertyPageSite**](/windows/win32/OCIdl/nn-ocidl-ipropertypagesite?branch=master) interface, which contains methods to manage the sites of each of the property pages supplied by a control.
 
 </dd> <dt>
 
@@ -1019,14 +1024,14 @@ One of two access modes in which a storage object can be opened. When opened in 
 <span id="com.type_information_gloss"></span><span id="COM.TYPE_INFORMATION_GLOSS"></span>**type information**
 </dt> <dd>
 
-Information about an object's class provided by a type library. To provide type information, a COM object implements the [**IProvideClassInfo**](iprovideclassinfo.md) interface.
+Information about an object's class provided by a type library. To provide type information, a COM object implements the [**IProvideClassInfo**](/windows/win32/OCIdl/nn-ocidl-iprovideclassinfo?branch=master) interface.
 
 </dd> <dt>
 
 <span id="com.uniform_data_transfer_gloss"></span><span id="COM.UNIFORM_DATA_TRANSFER_GLOSS"></span>**uniform data transfer**
 </dt> <dd>
 
-A model for transferring data through the clipboard, drag and drop, or Automation. Objects conforming to this model implement the [**IDataObject**](idataobject.md) interface. This model replaces DDE (dynamic data exchange).
+A model for transferring data through the clipboard, drag and drop, or Automation. Objects conforming to this model implement the [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master) interface. This model replaces DDE (dynamic data exchange).
 
 </dd> <dt>
 

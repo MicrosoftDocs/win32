@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandAUTHINFO method
 description: Issues an NNTPAUTHINFO command to the server along with the information provided.
-ms.assetid: '726d08a1-07f7-42ae-8f8e-abcb59127e11'
-keywords: ["CommandAUTHINFO method Windows Mail (formerly Outlook Express)", "CommandAUTHINFO method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandAUTHINFO method"]
+ms.assetid: 726d08a1-07f7-42ae-8f8e-abcb59127e11
+keywords:
+- CommandAUTHINFO method Windows Mail (formerly Outlook Express)
+- CommandAUTHINFO method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandAUTHINFO method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandAUTHINFO method
@@ -24,7 +32,7 @@ Issues an NNTPAUTHINFO command to the server along with the information provided
 
 ```C++
 HRESULT CommandAUTHINFO(
-  [in] LPNNTPAUTHINFO pAuthInfo
+  [in] LPNNTPAUTHINFO pAuthInfo
 );
 ```
 
@@ -56,7 +64,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,8 +79,8 @@ RFC 977 provides the following formats as valid AUTHINFO commands:
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -80,9 +88,9 @@ RFC 977 provides the following formats as valid AUTHINFO commands:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

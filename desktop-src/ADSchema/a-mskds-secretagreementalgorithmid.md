@@ -4,17 +4,22 @@ description: The name of the secret agreement algorithm to be used with public k
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '32a9a33c-8abd-463b-ba45-f4f862664b15'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 32a9a33c-8abd-463b-ba45-f4f862664b15
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-SecretAgreement-AlgorithmID attribute AD Schema", "msKds-SecretAgreementAlgorithmID attribute AD Schema"]
+keywords:
+- ms-Kds-SecretAgreement-AlgorithmID attribute AD Schema
+- msKds-SecretAgreementAlgorithmID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-SecretAgreement-AlgorithmID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-SecretAgreement-AlgorithmID attribute
@@ -38,7 +43,7 @@ The name of the secret agreement algorithm to be used with public keys.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ The name of the secret agreement algorithm to be used with public keys.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

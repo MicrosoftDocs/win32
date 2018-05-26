@@ -1,13 +1,19 @@
 ---
 title: LegacyAuthenticationLevel
 description: Sets the default authentication level for applications that do not call CoInitializeSecurity.
-ms.assetid: 'e14d2203-c84e-46af-befd-d82ef1936c9d'
-keywords: ["LegacyAuthenticationLevel registry value COM"]
+ms.assetid: e14d2203-c84e-46af-befd-d82ef1936c9d
+keywords:
+- LegacyAuthenticationLevel registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LegacyAuthenticationLevel
 
-Sets the default authentication level for applications that do not call [**CoInitializeSecurity**](coinitializesecurity.md).
+Sets the default authentication level for applications that do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master).
 
 > \[!Caution\]  
 > It is not recommended that you change this value, because this will affect all COM server applications that do not set their own process-wide security, and might prevent them from working properly. If you are changing this value to affect the security settings for a particular COM application, then you should instead change the process-wide security settings for that particular COM application. For more information on setting process-wide security, see [Setting Process-wide Security](setting-processwide-security.md).

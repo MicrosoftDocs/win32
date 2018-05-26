@@ -1,7 +1,12 @@
 ---
 title: Call Synchronization
 description: Call Synchronization
-ms.assetid: 'e74407ef-f500-4d13-aef4-ca6bb37d5858'
+ms.assetid: e74407ef-f500-4d13-aef4-ca6bb37d5858
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Call Synchronization
@@ -22,16 +27,16 @@ Most of the communication that takes place within COM is synchronous. When makin
 <span id="Asynchronous_notifications"></span><span id="asynchronous_notifications"></span><span id="ASYNCHRONOUS_NOTIFICATIONS"></span>*Asynchronous notifications*
 </dt> <dd>
 
-When sending asynchronous notifications, the caller does not wait for the reply. COM uses [**PostMessage**](_win32_PostMessage_cpp) or high-level events to send asynchronous notifications, depending on the platform. COM defines five asynchronous methods of [**IAdviseSink**](iadvisesink.md):
+When sending asynchronous notifications, the caller does not wait for the reply. COM uses [**PostMessage**](_win32_PostMessage_cpp) or high-level events to send asynchronous notifications, depending on the platform. COM defines five asynchronous methods of [**IAdviseSink**](/windows/win32/ObjIdl/nn-objidl-iadvisesink?branch=master):
 
--   [**OnDataChange**](iadvisesink-ondatachange.md)
--   [**OnViewChange**](iadvisesink-onviewchange.md)
--   [**OnRename**](iadvisesink-onrename.md)
--   [**OnSave**](iadvisesink-onsave.md)
--   [**OnClose**](iadvisesink-onclose.md)
+-   [**OnDataChange**](/windows/win32/ObjIdl/nf-objidl-iadvisesink-ondatachange?branch=master)
+-   [**OnViewChange**](/windows/win32/ObjIdl/nf-objidl-iadvisesink-onviewchange?branch=master)
+-   [**OnRename**](/windows/win32/ObjIdl/nf-objidl-iadvisesink-onrename?branch=master)
+-   [**OnSave**](/windows/win32/ObjIdl/nf-objidl-iadvisesink-onsave?branch=master)
+-   [**OnClose**](/windows/win32/ObjIdl/nf-objidl-iadvisesink-onclose?branch=master)
 
 > [!Note]  
-> While COM is processing an asynchronous call, synchronous calls cannot be made. For example, a container application's implementation of [**OnDataChange**](iadvisesink-ondatachange.md) cannot contain a call to [**IPersistStorage::Save**](ipersiststorage-save.md). These calls are the only asynchronous calls supported by COM. There is no way to create a custom interface that is asynchronous at this time.
+> While COM is processing an asynchronous call, synchronous calls cannot be made. For example, a container application's implementation of [**OnDataChange**](/windows/win32/ObjIdl/nf-objidl-iadvisesink-ondatachange?branch=master) cannot contain a call to [**IPersistStorage::Save**](/windows/win32/ObjIdl/nf-objidl-ipersiststorage-save?branch=master). These calls are the only asynchronous calls supported by COM. There is no way to create a custom interface that is asynchronous at this time.
 
  
 
@@ -42,16 +47,16 @@ When sending asynchronous notifications, the caller does not wait for the reply.
 
 When making input-synchronized calls, the object called must complete the call before yielding control. This helps ensure that focus management works correctly and that data entered by the user is processed appropriately. These calls are made by COM through the [**SendMessage**](_win32_SendMessage_cpp) function, without entering a modal loop. While processing an input-synchronized call, the object called must not call any function or method (including synchronous methods) that might yield control. The following methods are input synchronized
 
--   [**IOleWindow::GetWindow**](iolewindow-getwindow.md)
--   [**IOleInPlaceActiveObject::OnFrameWindowActivate**](ioleinplaceactiveobject-onframewindowactivate.md)
--   [**IOleInPlaceActiveObject::OnDocWindowActivate**](ioleinplaceactiveobject-ondocwindowactivate.md)
--   [**IOleInPlaceActiveObject::ResizeBorder**](ioleinplaceactiveobject-resizeborder.md)
--   [**IOleInPlaceUIWindow::GetBorder**](ioleinplaceuiwindow-getborder.md)
--   [**IOleInPlaceUIWindow::RequestBorderSpace**](ioleinplaceuiwindow-requestborderspace.md)
--   [**IOleInPlaceUIWindow::SetBorderSpace**](ioleinplaceuiwindow-setborderspace.md)
--   [**IOleInPlaceFrame::SetMenu**](ioleinplaceframe-setmenu.md)
--   [**IOleInPlaceFrame::SetStatusText**](ioleinplaceframe-setstatustext.md)
--   [**IOleInPlaceObject::SetObjectRects**](ioleinplaceobject-setobjectrects.md)
+-   [**IOleWindow::GetWindow**](/windows/win32/OleIdl/nf-oleidl-iolewindow-getwindow?branch=master)
+-   [**IOleInPlaceActiveObject::OnFrameWindowActivate**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate?branch=master)
+-   [**IOleInPlaceActiveObject::OnDocWindowActivate**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate?branch=master)
+-   [**IOleInPlaceActiveObject::ResizeBorder**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceactiveobject-resizeborder?branch=master)
+-   [**IOleInPlaceUIWindow::GetBorder**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceuiwindow-getborder?branch=master)
+-   [**IOleInPlaceUIWindow::RequestBorderSpace**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceuiwindow-requestborderspace?branch=master)
+-   [**IOleInPlaceUIWindow::SetBorderSpace**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceuiwindow-setborderspace?branch=master)
+-   [**IOleInPlaceFrame::SetMenu**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-setmenu?branch=master)
+-   [**IOleInPlaceFrame::SetStatusText**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceframe-setstatustext?branch=master)
+-   [**IOleInPlaceObject::SetObjectRects**](/windows/win32/OleIdl/nf-oleidl-ioleinplaceobject-setobjectrects?branch=master)
 
 </dd> </dl>
 

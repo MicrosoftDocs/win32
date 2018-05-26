@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the time synchronization service, which is responsible for synchronizing the system time of a virtual machine with the system time of the operating system running in the management operating system.'
-ms.assetid: '551A81E9-E924-4A9C-965D-02FF25EE4A49'
-title: 'Msvm\_TimeSyncComponent class'
+Description: Represents the state of the time synchronization service, which is responsible for synchronizing the system time of a virtual machine with the system time of the operating system running in the management operating system.
+ms.assetid: 551A81E9-E924-4A9C-965D-02FF25EE4A49
+title: Msvm\_TimeSyncComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TimeSyncComponent class
@@ -16,44 +21,44 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TimeSyncComponent : CIM_LogicalDevice
 {
-  string   InstanceID;
-  string   Caption = "Time Synchronization";
-  string   Description = "Microsoft Time Synchronization Service";
-  string   ElementName = "Time Synchronization";
+  string   InstanceID;
+  string   Caption = "Time Synchronization";
+  string   Description = "Microsoft Time Synchronization Service";
+  string   ElementName = "Time Synchronization";
   datetime InstallDate;
-  string   Name = "Time Synchronization";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = {"OK"};
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 7;
+  string   Name = "Time Synchronization";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = {"OK"};
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 7;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_TimeSyncComponent";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = {6};
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_TimeSyncComponent";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = {6};
+  uint64   MaxQuiesceTime;
 };
 ```
 
@@ -83,7 +88,7 @@ The **Msvm\_TimeSyncComponent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -123,7 +128,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -299,7 +304,7 @@ An administrator's default or startup configuration for the **EnabledState** of 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -323,7 +328,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -372,7 +377,7 @@ The current health of the element. This property is inherited from [**CIM\_Manag
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -555,7 +560,7 @@ The following are the possible values for the **OperationalStatus**\[0\] propert
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -676,7 +681,7 @@ The last requested or desired state for the element. This property is inherited 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -790,7 +795,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -804,8 +809,8 @@ Access to the **Msvm\_TimeSyncComponent** class might be restricted by UAC Filte
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -822,9 +827,9 @@ Access to the **Msvm\_TimeSyncComponent** class might be restricted by UAC Filte
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

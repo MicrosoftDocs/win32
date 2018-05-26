@@ -1,8 +1,9 @@
 ---
 title: D3DX\_SRGB\_to\_FLOAT\_inexact function
 description: Converts an SRGB value to FLOAT.
-ms.assetid: '6eadda6d-ff99-4a8e-9e30-ae455732438e'
-keywords: ["D3DX_SRGB_to_FLOAT_inexact function HLSL"]
+ms.assetid: 6eadda6d-ff99-4a8e-9e30-ae455732438e
+keywords:
+- D3DX_SRGB_to_FLOAT_inexact function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_SRGB\_to\_FLOAT\_inexact function
@@ -21,7 +27,7 @@ Converts an SRGB value to FLOAT.
 
 ``` syntax
 FLOAT D3DX_SRGB_to_FLOAT_inexact(
-   hlsl_precise FLOAT val
+   hlsl_precise FLOAT val
 );
 ```
 
@@ -64,9 +70,9 @@ This function doesn't have a high enough precision to give the exact answer. The
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyFilterState method notifies the pin when the filter''s state changes.'
-ms.assetid: '0eb3b0e5-9c44-464e-b4ca-bcded731e813'
-title: 'CBaseStreamControl.NotifyFilterState method'
+Description: The NotifyFilterState method notifies the pin when the filters state changes.
+ms.assetid: 0eb3b0e5-9c44-464e-b4ca-bcded731e813
+title: CBaseStreamControl.NotifyFilterState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.NotifyFilterState method
@@ -13,8 +18,8 @@ The `NotifyFilterState` method notifies the pin when the filter's state changes.
 
 ```C++
 void NotifyFilterState(
-   FILTER_STATE   new_state,
-   REFERENCE_TIME tStart = 0
+   FILTER_STATE   new_state,
+   REFERENCE_TIME tStart = 0
 );
 ```
 
@@ -27,14 +32,14 @@ void NotifyFilterState(
 *new\_state* 
 </dt> <dd>
 
-Specifies the new state, as a member of the [**FILTER\_STATE**](filter-state.md) enumeration.
+Specifies the new state, as a member of the [**FILTER\_STATE**](/windows/win32/strmif/ne-strmif-_filterstate?branch=master) enumeration.
 
 </dd> <dt>
 
 *tStart* 
 </dt> <dd>
 
-Specifies the start time. If the new filter state is State\_Running, pass in the value from the [**IMediaFilter::Run**](imediafilter-run.md) method. Otherwise, use the default value.
+Specifies the start time. If the new filter state is State\_Running, pass in the value from the [**IMediaFilter::Run**](/windows/win32/Strmif/nf-strmif-imediafilter-run?branch=master) method. Otherwise, use the default value.
 
 </dd> </dl>
 
@@ -92,9 +97,9 @@ STDMETHODIMP CMyFilter::Stop()
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

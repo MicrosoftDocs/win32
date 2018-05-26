@@ -1,8 +1,23 @@
 ---
 title: Names for WPD PROPERTYKEYs
 description: The following table lists the names that WPD Automation assigns to WPD PROPERTY KEYs.
-ms.assetid: 'eb6a5d4d-369a-408a-ba2f-54264471fb5a'
-keywords: ["WPD Automation,WPD PROPERTYKEYs", "WPD Automation,names for WPD PROPERTYKEYs", "Windows Portable Devices (WPD),WPD Automation", "WPD (Windows Portable Devices),WPD Automation", "Windows Portable Devices (WPD),PROPERTYKEYs", "WPD (Windows Portable Devices),PROPERTYKEYs", "Windows Portable Devices (WPD),names for WPD PROPERTYKEYs", "WPD (Windows Portable Devices),names for WPD PROPERTYKEYs", "WPD PROPERTYKEYs,list of", "PROPERTYKEYs,list of"]
+ms.assetid: eb6a5d4d-369a-408a-ba2f-54264471fb5a
+keywords:
+- WPD Automation,WPD PROPERTYKEYs
+- WPD Automation,names for WPD PROPERTYKEYs
+- Windows Portable Devices (WPD),WPD Automation
+- WPD (Windows Portable Devices),WPD Automation
+- Windows Portable Devices (WPD),PROPERTYKEYs
+- WPD (Windows Portable Devices),PROPERTYKEYs
+- Windows Portable Devices (WPD),names for WPD PROPERTYKEYs
+- WPD (Windows Portable Devices),names for WPD PROPERTYKEYs
+- WPD PROPERTYKEYs,list of
+- PROPERTYKEYs,list of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Names for WPD PROPERTYKEYs

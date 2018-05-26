@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the queue for the printer.'
-ms.assetid: '304C8AF5-EA4E-4401-A8EC-6E1B279038E8'
-title: 'IPrinterExtensionContext::PrinterQueue property'
+---
+Description: Gets the queue for the printer.
+ms.assetid: 304C8AF5-EA4E-4401-A8EC-6E1B279038E8
+title: IPrinterExtensionContextPrinterQueue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContext::PrinterQueue property

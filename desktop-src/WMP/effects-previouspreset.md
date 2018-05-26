@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.previousPreset
 description: The previousPreset method displays the previous preset of the current visualization.
-ms.assetid: '89127112-5581-49ba-87c2-a18d3502f7f1'
-keywords: ["EFFECTS.previousPreset Windows Media Player"]
+ms.assetid: 89127112-5581-49ba-87c2-a18d3502f7f1
+keywords:
+- EFFECTS.previousPreset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.previousPreset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.previousPreset
@@ -54,9 +60,9 @@ If the current preset is the first one in the list for the current visualization
 [**EFFECTS.previous**](effects-previous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

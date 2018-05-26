@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows how to enumerate log containers.'
-ms.assetid: 'dc7e204c-201d-4a84-9a87-576c73627f67'
+Description: This topic shows how to enumerate log containers.
+ms.assetid: dc7e204c-201d-4a84-9a87-576c73627f67
 title: Enumerating Log Containers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Log Containers

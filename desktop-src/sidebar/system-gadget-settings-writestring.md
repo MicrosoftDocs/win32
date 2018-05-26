@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Settings.writeString method
 description: Stores a String value with an associated Settings key.
-ms.assetid: 'fcd50d9b-ec5a-4143-8d78-69bb7bb79dfd'
-keywords: ["writeString method Windows Sidebar", "writeString method Windows Sidebar , System.Gadget.Settings object", "System.Gadget.Settings object Windows Sidebar , writeString method"]
+ms.assetid: fcd50d9b-ec5a-4143-8d78-69bb7bb79dfd
+keywords:
+- writeString method Windows Sidebar
+- writeString method Windows Sidebar , System.Gadget.Settings object
+- System.Gadget.Settings object Windows Sidebar , writeString method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.writeString method
@@ -48,7 +56,7 @@ System.Gadget.Settings.writeString(
 > [!Note]  
 > The Windows Gadget Platform/Sidebar is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
 
- 
+ 
 
 The **String** value to store.
 
@@ -100,10 +108,10 @@ function SettingsClosing(event)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -119,9 +127,9 @@ function SettingsClosing(event)
 [**readString**](system-gadget-settings-readstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

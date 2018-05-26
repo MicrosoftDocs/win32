@@ -1,15 +1,18 @@
 ---
-Description: 'The GetOwner&\#8194;WMI class method retrieves the user name and domain name under which the process is running.'
+Description: The GetOwner&\#8194;WMI class method retrieves the user name and domain name under which the process is running.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bbd6d22b-ca54-42f3-8098-d3034048ec4d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bbd6d22b-ca54-42f3-8098-d3034048ec4d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetOwner method of the Win32\_Process class'
+title: GetOwner method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetOwner method of the Win32\_Process class
@@ -23,8 +26,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetOwner(
-  [out] string User,
-  [out] string Domain
+  [out] string User,
+  [out] string Domain
 );
 ```
 
@@ -72,7 +75,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For a
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Examples
@@ -113,8 +116,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -131,9 +134,9 @@ Next
 [**Win32\_Process**](win32-process.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

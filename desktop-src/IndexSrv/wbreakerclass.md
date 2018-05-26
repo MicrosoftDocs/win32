@@ -1,7 +1,12 @@
 ---
 title: WBreakerClass
 description: WBreakerClass
-ms.assetid: 'd7cebb74-008b-46ff-ba45-3034945ee4aa'
+ms.assetid: d7cebb74-008b-46ff-ba45-3034945ee4aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WBreakerClass

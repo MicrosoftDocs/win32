@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_StartupCommand&\#8194;WMI class represents a command that runs automatically when a user logs onto the computer system.'
+---
+Description: The Win32\_StartupCommand&\#8194;WMI class represents a command that runs automatically when a user logs onto the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7184ade8-fcc9-47b3-af04-8054b2fca937'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7184ade8-fcc9-47b3-af04-8054b2fca937
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_StartupCommand class'
+title: Win32\_StartupCommand class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_StartupCommand class

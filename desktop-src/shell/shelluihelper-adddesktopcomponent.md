@@ -1,6 +1,11 @@
-﻿---
-Description: 'Adds an item to the Microsoft Active Desktop.'
-title: 'ShellUIHelper.AddDesktopComponent method'
+---
+Description: Adds an item to the Microsoft Active Desktop.
+title: ShellUIHelper.AddDesktopComponent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellUIHelper.AddDesktopComponent method

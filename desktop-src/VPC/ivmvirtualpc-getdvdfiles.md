@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC GetDVDFiles method
 description: Retrieves an array of known DVD files.
-ms.assetid: '9fe2191f-c5c0-464d-a190-29b2aba69682'
-keywords: ["GetDVDFiles method Virtual PC", "GetDVDFiles method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , GetDVDFiles method"]
+ms.assetid: 9fe2191f-c5c0-464d-a190-29b2aba69682
+keywords:
+- GetDVDFiles method Virtual PC
+- GetDVDFiles method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , GetDVDFiles method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::GetDVDFiles method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves an array of known DVD files.
 
@@ -24,8 +32,8 @@ Retrieves an array of known DVD files.
 
 ```C++
 HRESULT GetDVDFiles(
-  [in]          VARIANT inAdditionalSearchPaths,
-  [out, retval] VARIANT *outDVDFileList
+  [in]          VARIANT inAdditionalSearchPaths,
+  [out, retval] VARIANT *outDVDFileList
 );
 ```
 
@@ -65,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +85,9 @@ The search paths used to retrieve the array of files will include those set prev
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -93,9 +101,9 @@ The search paths used to retrieve the array of files will include those set prev
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'A FirstRun dialog box sequence collects user name, company name, and product ID information. The installer verifies the product ID during this dialog.'
-ms.assetid: 'bb77296f-705a-4409-b2ca-a76bbaf7ea57'
+Description: A FirstRun dialog box sequence collects user name, company name, and product ID information. The installer verifies the product ID during this dialog.
+ms.assetid: bb77296f-705a-4409-b2ca-a76bbaf7ea57
 title: FirstRun Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FirstRun Dialog
 
 A FirstRun dialog box sequence collects user name, company name, and product ID information. The installer verifies the product ID during this dialog.
 
-A FirstRun dialog box sequence is usually not a part of the action sequence and is instead called by the [**MsiCollectUserInfo**](msicollectuserinfo.md) function on the first run of the product.
+A FirstRun dialog box sequence is usually not a part of the action sequence and is instead called by the [**MsiCollectUserInfo**](/windows/win32/Msi/nf-msi-msicollectuserinfoa?branch=master) function on the first run of the product.
 
 An author of an installer package may use the template dialog sequence or create a different sequence. The dialog sequence however needs to have the user set the following properties:
 

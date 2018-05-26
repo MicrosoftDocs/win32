@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sends a Unicode string to the debugger for display.'
-ms.assetid: '26cf4750-8ca1-4a9a-8378-d65ed288b358'
+---
+Description: Sends a Unicode string to the debugger for display.
+ms.assetid: 26cf4750-8ca1-4a9a-8378-d65ed288b358
 title: OutputDebugStringWrapW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OutputDebugStringWrapW function

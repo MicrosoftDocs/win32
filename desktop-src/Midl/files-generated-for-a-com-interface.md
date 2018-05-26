@@ -2,7 +2,14 @@
 title: Files Generated for a COM Interface
 description: For COM interfaces, the MIDL compiler combines all client and object server auxiliary routines and data into a single interface proxy file.
 ms.assetid: 13063ee8-cb41-48a7-b90b-ea08c19c5230
-keywords: ["MIDL compiler MIDL , MIDL and COM", "COM MIDL"]
+keywords:
+- MIDL compiler MIDL , MIDL and COM
+- COM MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Files Generated for a COM Interface

@@ -1,13 +1,16 @@
 ---
-Description: 'The Job Object provider supports access to data about named kernel job objects.'
+Description: The Job Object provider supports access to data about named kernel job objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '98407891-c628-40d9-9ec9-3e6934aaa2d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 98407891-c628-40d9-9ec9-3e6934aaa2d2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Job Object Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Job Object Provider

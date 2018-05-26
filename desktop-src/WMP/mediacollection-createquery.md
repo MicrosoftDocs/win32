@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.createQuery method
 description: The createQuery method creates a new Query object.
-ms.assetid: 'f6360717-ea36-456c-8f3d-683ab6df012e'
-keywords: ["createQuery method Windows Media Player", "createQuery method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , createQuery method"]
+ms.assetid: f6360717-ea36-456c-8f3d-683ab6df012e
+keywords:
+- createQuery method Windows Media Player
+- createQuery method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , createQuery method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.createQuery method
@@ -59,9 +67,9 @@ Creating a new **Query** object is the first step toward creating a compound que
 [**Query Object**](query-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

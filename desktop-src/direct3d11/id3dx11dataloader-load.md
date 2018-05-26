@@ -1,8 +1,11 @@
 ---
 title: ID3DX11DataLoader Load method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Loads data from a disk.
-ms.assetid: '21dee078-af8f-4ca1-bb2e-d4ecc0471609'
-keywords: ["Load method Direct3D 11", "Load method Direct3D 11 , ID3DX11DataLoader interface", "ID3DX11DataLoader interface Direct3D 11 , Load method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Loads data from a disk.
+ms.assetid: 21dee078-af8f-4ca1-bb2e-d4ecc0471609
+keywords:
+- Load method Direct3D 11
+- Load method Direct3D 11 , ID3DX11DataLoader interface
+- ID3DX11DataLoader interface Direct3D 11 , Load method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11DataLoader::Load method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Loads data from a disk.
 
@@ -67,9 +75,9 @@ This method is used by an [**ID3DX11ThreadPump Interface**](id3dx11threadpump.md
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

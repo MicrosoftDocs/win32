@@ -4,13 +4,15 @@ description: A logical element that contains the information necessary to repres
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4207fe27-2dac-4131-b5cc-3f228931f884'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4207fe27-2dac-4131-b5cc-3f228931f884
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Service class", "CIM_Service class, described"]
+keywords:
+- CIM_Service class
+- CIM_Service class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Service class
@@ -43,16 +48,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, AMENDMENT]
 class CIM_Service : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   StartMode;
-  boolean  Started;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   StartMode;
+  boolean  Started;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -76,7 +81,7 @@ The **CIM\_Service** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -327,7 +332,7 @@ The name of the system that hosts this service
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -341,9 +346,9 @@ The name of the system that hosts this service
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

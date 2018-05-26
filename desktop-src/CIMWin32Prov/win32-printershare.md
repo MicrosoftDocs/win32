@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_PrinterShare association WMI class relates a local printer and the share that represents it as it is viewed over a network.'
+---
+Description: The Win32\_PrinterShare association WMI class relates a local printer and the share that represents it as it is viewed over a network.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9ac99e52-5e8f-4329-960f-7bd1fd229e37'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9ac99e52-5e8f-4329-960f-7bd1fd229e37
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PrinterShare class'
+title: Win32\_PrinterShare class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PrinterShare class

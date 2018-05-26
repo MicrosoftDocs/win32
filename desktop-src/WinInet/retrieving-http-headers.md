@@ -1,7 +1,12 @@
 ---
 title: Retrieving HTTP Headers
 description: This tutorial describes how to retrieve header information from HTTP requests.
-ms.assetid: '347e4fb3-5f96-488a-bef8-4df0b8d1ade1'
+ms.assetid: 347e4fb3-5f96-488a-bef8-4df0b8d1ade1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving HTTP Headers
@@ -17,18 +22,18 @@ There are two ways to retrieve the header information:
 
 Using the constant associated with the HTTP header that your application needs is faster internally, but there might be HTTP headers that do not have a constant associated with them. For those cases, the method using the HTTP\_QUERY\_CUSTOM attribute flag is available.
 
-Both methods use the [**HttpQueryInfo**](httpqueryinfo.md) function. [**HttpQueryInfo**](httpqueryinfo.md) takes the [**HINTERNET**](appendix-a-hinternet-handles.md) handle on which the HTTP request was made, one attribute, a buffer, a DWORD value that contains the buffer size, and an index value. A modifier can also be added to the attribute passed to [**HttpQueryInfo**](httpqueryinfo.md) to indicate in what format the data should be returned.
+Both methods use the [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) function. [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) takes the [**HINTERNET**](appendix-a-hinternet-handles.md) handle on which the HTTP request was made, one attribute, a buffer, a DWORD value that contains the buffer size, and an index value. A modifier can also be added to the attribute passed to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) to indicate in what format the data should be returned.
 
 ### Retrieving Headers Using a Constant
 
-To use the [**HttpQueryInfo**](httpqueryinfo.md) function to retrieve an HTTP header using a constant, follow these steps:
+To use the [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) function to retrieve an HTTP header using a constant, follow these steps:
 
-1.  Call [**HttpQueryInfo**](httpqueryinfo.md) with a constant from the [**Attributes**](query-info-flags.md) list, a **NULL** buffer, and the variable that holds the buffer size set to zero. Also, if your application needs the data in a particular format, you can add a constant from the [**Modifiers**](query-info-flags.md) list.
-2.  If the requested HTTP header exists, the call to [**HttpQueryInfo**](httpqueryinfo.md) should fail, [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) should return ERROR\_INSUFFICIENT\_BUFFER, and the variable passed for the *lpdwBufferLength* parameter should be set to the number of bytes required.
+1.  Call [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) with a constant from the [**Attributes**](query-info-flags.md) list, a **NULL** buffer, and the variable that holds the buffer size set to zero. Also, if your application needs the data in a particular format, you can add a constant from the [**Modifiers**](query-info-flags.md) list.
+2.  If the requested HTTP header exists, the call to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) should fail, [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) should return ERROR\_INSUFFICIENT\_BUFFER, and the variable passed for the *lpdwBufferLength* parameter should be set to the number of bytes required.
 3.  Allocate a buffer with the number of bytes required.
-4.  Retry the call to [**HttpQueryInfo**](httpqueryinfo.md).
+4.  Retry the call to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master).
 
-The following sample demonstrates a call to [**HttpQueryInfo**](httpqueryinfo.md) using the HTTP\_QUERY\_RAW\_HEADERS\_CRLF constant, which is a special value that requests all of the returned HTTP headers.
+The following sample demonstrates a call to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) using the HTTP\_QUERY\_RAW\_HEADERS\_CRLF constant, which is a special value that requests all of the returned HTTP headers.
 
 
 ```C++
@@ -86,16 +91,16 @@ retry:
 
 ### Retrieving Headers Using HTTP\_QUERY\_CUSTOM
 
-To use the [**HttpQueryInfo**](httpqueryinfo.md) function to retrieve an HTTP header using HTTP\_QUERY\_CUSTOM, follow these steps:
+To use the [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) function to retrieve an HTTP header using HTTP\_QUERY\_CUSTOM, follow these steps:
 
 1.  Allocate a buffer that is large enough to hold the string name of the HTTP header.
 2.  Write the string name of the HTTP header into the buffer.
-3.  Call [**HttpQueryInfo**](httpqueryinfo.md) with HTTP\_QUERY\_CUSTOM, the buffer that contains the string name of the HTTP header, and the variable that holds the buffer size. Also, if your application needs the data in a particular format, you can add a constant from the [**Modifiers**](query-info-flags.md) list.
-4.  If the call to [**HttpQueryInfo**](httpqueryinfo.md) fails and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_INSUFFICIENT\_BUFFER, reallocate a buffer with the number of bytes required.
+3.  Call [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) with HTTP\_QUERY\_CUSTOM, the buffer that contains the string name of the HTTP header, and the variable that holds the buffer size. Also, if your application needs the data in a particular format, you can add a constant from the [**Modifiers**](query-info-flags.md) list.
+4.  If the call to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) fails and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_INSUFFICIENT\_BUFFER, reallocate a buffer with the number of bytes required.
 5.  Write the string name of the HTTP header into the buffer again.
-6.  Retry the call to [**HttpQueryInfo**](httpqueryinfo.md).
+6.  Retry the call to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master).
 
-The following sample demonstrates a call to [**HttpQueryInfo**](httpqueryinfo.md) using the HTTP\_QUERY\_CUSTOM constant to request the Content-Type HTTP header.
+The following sample demonstrates a call to [**HttpQueryInfo**](/windows/win32/Wininet/nf-wininet-httpqueryinfoa?branch=master) using the HTTP\_QUERY\_CUSTOM constant to request the Content-Type HTTP header.
 
 
 ```C++

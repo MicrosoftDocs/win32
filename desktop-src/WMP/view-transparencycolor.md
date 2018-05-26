@@ -1,14 +1,20 @@
 ---
 title: VIEW.transparencyColor
 description: The transparencyColor attribute specifies or retrieves the transparency color of the background image.
-ms.assetid: 'f9351df1-d502-4a96-9250-13b805c115c8'
-keywords: ["VIEW.transparencyColor Windows Media Player"]
+ms.assetid: f9351df1-d502-4a96-9250-13b805c115c8
+keywords:
+- VIEW.transparencyColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.transparencyColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.transparencyColor
@@ -45,9 +51,9 @@ Because JPGs are lossy and therefore subject to unexpected color change, they ar
 [**Color Reference**](color-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

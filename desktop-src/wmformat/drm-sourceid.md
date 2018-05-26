@@ -1,14 +1,20 @@
 ---
 title: DRM\_SourceID
 description: The DRM\_SourceID attribute contains an identifier that associates protected content with a source.
-ms.assetid: '69a07b3f-df75-4b05-bddb-924af516a962'
-keywords: ["DRM_SourceID windows Media Format"]
+ms.assetid: 69a07b3f-df75-4b05-bddb-924af516a962
+keywords:
+- DRM_SourceID windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_SourceID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_SourceID

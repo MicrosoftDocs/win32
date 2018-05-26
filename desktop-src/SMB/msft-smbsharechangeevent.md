@@ -4,13 +4,15 @@ description: This is an indication class. Any subscriber to it will receive an i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2934f452-9cc0-49f9-b505-93e58a0c1dac'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2934f452-9cc0-49f9-b505-93e58a0c1dac
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbShareChangeEvent class SMB", "MSFT_SmbShareChangeEvent class SMB , described"]
+keywords:
+- MSFT_SmbShareChangeEvent class SMB
+- MSFT_SmbShareChangeEvent class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbShareChangeEvent class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, dynamic, provider("smbwmiv2"), ClassVersion("7")]
 class MSFT_SmbShareChangeEvent
 {
-  uint32        EventType;
+  uint32        EventType;
   MSFT_SmbShare Share;
 };
 ```
@@ -109,7 +114,7 @@ An instance of the [**MSFT\_SmbShare**](msft-smbshare.md) class that represents 
 > [!Note]  
 > Subscribers must be administrators.
 
- 
+ 
 
 ## Requirements
 
@@ -117,17 +122,17 @@ An instance of the [**MSFT\_SmbShare**](msft-smbshare.md) class that represents 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

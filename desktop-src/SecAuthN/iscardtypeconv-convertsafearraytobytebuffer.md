@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a byte array defined as a SAFEARRAY into a universal buffer of bytes (IStream object).'
-ms.assetid: 'faa07bb5-cfdb-4181-b86a-f82a9c6b251a'
-title: 'ISCardTypeConv::ConvertSafeArrayToByteBuffer method'
+---
+Description: Converts a byte array defined as a SAFEARRAY into a universal buffer of bytes (IStream object).
+ms.assetid: faa07bb5-cfdb-4181-b86a-f82a9c6b251a
+title: ISCardTypeConvConvertSafeArrayToByteBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardTypeConv::ConvertSafeArrayToByteBuffer method

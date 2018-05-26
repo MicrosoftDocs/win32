@@ -1,7 +1,12 @@
 ---
-Description: 'In C++, every Certificate Services method directly returns an HRESULT value that indicates whether the method call succeeded or failed. If the call failed, the return value indicates why it failed.'
-ms.assetid: '4ab1b5ba-dd19-4802-aa9c-02bd5406681f'
+Description: In C++, every Certificate Services method directly returns an HRESULT value that indicates whether the method call succeeded or failed. If the call failed, the return value indicates why it failed.
+ms.assetid: 4ab1b5ba-dd19-4802-aa9c-02bd5406681f
 title: Error Checking in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Checking in C++

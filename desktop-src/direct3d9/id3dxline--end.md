@@ -1,7 +1,12 @@
-﻿---
-Description: 'Restores the device state to how it was when ID3DXLine::Begin was called.'
-ms.assetid: '06243c30-2d1d-4101-a373-46fd9a0d88d3'
-title: 'ID3DXLine::End method'
+---
+Description: Restores the device state to how it was when ID3DXLineBegin was called.
+ms.assetid: 06243c30-2d1d-4101-a373-46fd9a0d88d3
+title: ID3DXLineEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::End method
@@ -29,7 +34,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-**ID3DXLine::End** cannot be used as a substitute for either [**IDirect3DDevice9::EndScene**](idirect3ddevice9--endscene.md) or [**ID3DXRenderToSurface::EndScene**](id3dxrendertosurface--endscene.md).
+**ID3DXLine::End** cannot be used as a substitute for either [**IDirect3DDevice9::EndScene**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endscene?branch=master) or [**ID3DXRenderToSurface::EndScene**](id3dxrendertosurface--endscene.md).
 
 ## Requirements
 

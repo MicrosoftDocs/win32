@@ -1,8 +1,10 @@
 ---
 title: System.Shell.Item object
 description: Defines the properties of each member of the Items collection.
-ms.assetid: '78d971cb-4a29-42a2-a650-d9c3aa4f5b55'
-keywords: ["System.Shell.Item object Windows Sidebar", "System.Shell.Item object Windows Sidebar , described"]
+ms.assetid: 78d971cb-4a29-42a2-a650-d9c3aa4f5b55
+keywords:
+- System.Shell.Item object Windows Sidebar
+- System.Shell.Item object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item object
@@ -39,7 +46,7 @@ The **System.Shell.Item** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +69,7 @@ The **System.Shell.Item** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,18 +81,18 @@ Each **System.Shell.Item** in the [**Items**](system-shell-folder-items.md) coll
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

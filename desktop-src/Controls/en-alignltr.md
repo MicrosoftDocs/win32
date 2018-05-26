@@ -1,8 +1,9 @@
 ---
 title: EN\_ALIGNLTR notification code
-description: Notifies a rich edit control's parent window that the paragraph direction has changed to left-to-right. A rich edit control sends this notification code in the form of a WM\_COMMAND message.
-ms.assetid: '754ac2b5-bcec-487b-a1ab-b653f673830a'
-keywords: ["EN_ALIGNLTR notification code Windows Controls"]
+description: Notifies a rich edit controls parent window that the paragraph direction has changed to left-to-right. A rich edit control sends this notification code in the form of a WM\_COMMAND message.
+ms.assetid: 754ac2b5-bcec-487b-a1ab-b653f673830a
+keywords:
+- EN_ALIGNLTR notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_ALIGNLTR notification code
@@ -55,8 +61,8 @@ This notification code does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ This notification code does not return a value.
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

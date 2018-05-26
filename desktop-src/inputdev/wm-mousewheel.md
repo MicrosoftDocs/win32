@@ -1,8 +1,9 @@
 ---
 title: WM\_MOUSEWHEEL message
 description: Sent to the focus window when the mouse wheel is rotated.
-ms.assetid: '9831cceb-bbf3-42a0-a0f9-c2d6ad4573eb'
-keywords: ["WM_MOUSEWHEEL message Keyboard and Mouse Input"]
+ms.assetid: 9831cceb-bbf3-42a0-a0f9-c2d6ad4573eb
+keywords:
+- WM_MOUSEWHEEL message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MOUSEWHEEL message
@@ -51,7 +57,7 @@ The low-order word indicates whether various virtual keys are down. This paramet
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,7 +101,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 The wheel rotation will be a multiple of **WHEEL\_DELTA**, which is set at 120. This is the threshold for action to be taken, and one such action (for example, scrolling one increment) should occur for each delta.
 
@@ -111,8 +117,8 @@ It is up to the application to forward **MSH\_MOUSEWHEEL** to any embedded objec
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -166,9 +172,9 @@ It is up to the application to forward **MSH\_MOUSEWHEEL** to any embedded objec
 [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

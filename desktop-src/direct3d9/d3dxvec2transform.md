@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms a 2D vector by a given matrix.'
-ms.assetid: 'ccde9e34-2d99-4112-a8ed-3820d018b547'
+---
+Description: Transforms a 2D vector by a given matrix.
+ms.assetid: ccde9e34-2d99-4112-a8ed-3820d018b547
 title: D3DXVec2Transform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2Transform function

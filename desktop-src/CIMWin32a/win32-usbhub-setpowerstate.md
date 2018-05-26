@@ -4,13 +4,16 @@ description: The SetPowerState method of the CIM\_USBHub class sets the desired 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9ca54319-7226-4718-a515-3c3839bba640'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9ca54319-7226-4718-a515-3c3839bba640
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, Win32_USBHub class", "Win32_USBHub class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, Win32_USBHub class
+- Win32_USBHub class, SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - CIMWin32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the Win32\_USBHub class
@@ -28,15 +34,15 @@ The [**SetPowerState**](https://msdn.microsoft.com/library/aa393577) method of t
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -63,21 +69,21 @@ Full power.
 2
 </dt> <dd>
 
-Power save — low-power mode.
+Power save   low-power mode.
 
 </dd> <dt>
 
 3
 </dt> <dd>
 
-Power save — standby.
+Power save   standby.
 
 </dd> <dt>
 
 4
 </dt> <dd>
 
-Power save — other.
+Power save   other.
 
 </dd> <dt>
 
@@ -118,8 +124,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -136,9 +142,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**Win32\_USBHub**](win32-usbhub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

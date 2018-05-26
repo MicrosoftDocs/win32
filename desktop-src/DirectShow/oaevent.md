@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OAEVENT data type defines an event handle that can be used by OLE Automation clients, such as Microsoft Visual Basic 6.0.'
-ms.assetid: '2c260592-98a9-4f85-accf-282bd5231d5c'
+---
+Description: The OAEVENT data type defines an event handle that can be used by OLE Automation clients, such as Microsoft Visual Basic 6.0.
+ms.assetid: 2c260592-98a9-4f85-accf-282bd5231d5c
 title: OAEVENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OAEVENT
@@ -32,7 +37,7 @@ typedef LONG_PTR OAEVENT;
 [DirectShow Data Types](directshow-data-types.md)
 </dt> <dt>
 
-[**IMediaEvent::GetEventHandle**](imediaevent-geteventhandle.md)
+[**IMediaEvent::GetEventHandle**](/windows/win32/Control/nf-control-imediaevent-geteventhandle?branch=master)
 </dt> </dl>
 
  

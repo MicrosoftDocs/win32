@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the submission identifier for the fax document.'
-ms.assetid: '13224162-3df7-4c69-ba9b-d7c839546f3e'
-title: 'FaxDocument.SubmissionId property'
+---
+Description: Retrieves the submission identifier for the fax document.
+ms.assetid: 13224162-3df7-4c69-ba9b-d7c839546f3e
+title: FaxDocument.SubmissionId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.SubmissionId property
@@ -52,7 +57,7 @@ This property is set whenever a method that submits a fax completes.
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument2**](-mfax-faxdocument2-cpp.md)
+[**IFaxDocument2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument2?branch=master)
 </dt> </dl>
 
  

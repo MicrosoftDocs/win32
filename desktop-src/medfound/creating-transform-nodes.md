@@ -1,7 +1,12 @@
 ---
 Description: Creating Transform Nodes
-ms.assetid: 'd70a3c2b-2f0e-4e29-9a8f-84a50d9f1682'
+ms.assetid: d70a3c2b-2f0e-4e29-9a8f-84a50d9f1682
 title: Creating Transform Nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Transform Nodes
@@ -18,10 +23,10 @@ If you are going to load the topology inside the protected media path (PMP), you
 
 To create a transform node from an MFT, do the following:
 
-1.  Create an instance of the MFT and get a pointer to the [**IMFTransform**](imftransform.md) interface of the MFT.
-2.  Call [**MFCreateTopologyNode**](mfcreatetopologynode.md) with the **MF\_TOPOLOGY\_TRANSFORM\_NODE** flag to create the transform node.
-3.  Call [**IMFTopologyNode::SetObject**](imftopologynode-setobject.md) and pass in the [**IMFTransform**](imftransform.md) pointer.
-4.  Call [**IMFTopology::AddNode**](imftopology-addnode.md) to add the node to the topology.
+1.  Create an instance of the MFT and get a pointer to the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface of the MFT.
+2.  Call [**MFCreateTopologyNode**](/windows/win32/mfidl/nf-mfidl-mfcreatetopologynode?branch=master) with the **MF\_TOPOLOGY\_TRANSFORM\_NODE** flag to create the transform node.
+3.  Call [**IMFTopologyNode::SetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-setobject?branch=master) and pass in the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) pointer.
+4.  Call [**IMFTopology::AddNode**](/windows/win32/mfidl/nf-mfidl-imftopology-addnode?branch=master) to add the node to the topology.
 
 The following example creates and initializes a transform node from an MFT.
 
@@ -70,10 +75,10 @@ HRESULT AddTransformNode(
 
 To create a transform node from a CLSID, do the following:
 
-1.  Find the CLSID of the MFT. You can use the [**MFTEnum**](mftenum.md) function to find the CLSIDs of MFTs by category, such as decoders or encoders. You might also know the CLSID of a particular MFT that you want to use (for example, if you implemented your own custom MFT).
-2.  Call [**MFCreateTopologyNode**](mfcreatetopologynode.md) with the **MF\_TOPOLOGY\_TRANSFORM\_NODE** flag to create the transform node.
+1.  Find the CLSID of the MFT. You can use the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function to find the CLSIDs of MFTs by category, such as decoders or encoders. You might also know the CLSID of a particular MFT that you want to use (for example, if you implemented your own custom MFT).
+2.  Call [**MFCreateTopologyNode**](/windows/win32/mfidl/nf-mfidl-mfcreatetopologynode?branch=master) with the **MF\_TOPOLOGY\_TRANSFORM\_NODE** flag to create the transform node.
 3.  Set the **MF\_TOPONODE\_TRANSFORM\_OBJECTID** attribute on the node. The attribute value is the CLSID.
-4.  Call [**IMFTopology::AddNode**](imftopology-addnode.md) to add the node to the topology.
+4.  Call [**IMFTopology::AddNode**](/windows/win32/mfidl/nf-mfidl-imftopology-addnode?branch=master) to add the node to the topology.
 
 The following example creates and initializes a transform node from a CLSID.
 
@@ -121,16 +126,16 @@ HRESULT AddTransformNode(
 
 ## Creating a Transform Node from an Activation Object
 
-Some MFTs provide activation objects. For example, the [**MFCreateWMAEncoderActivate**](mfcreatewmaencoderactivate.md) function returns an activation object for the Windows Media Audio (WMA) encoder. The exact function depends on the MFT. Not every MFT provides an activation object. For more information, see [Activation Objects](activation-objects.md).
+Some MFTs provide activation objects. For example, the [**MFCreateWMAEncoderActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate?branch=master) function returns an activation object for the Windows Media Audio (WMA) encoder. The exact function depends on the MFT. Not every MFT provides an activation object. For more information, see [Activation Objects](activation-objects.md).
 
-You can also get an MFT activation object by calling the [**MFTEnumEx**](mftenumex.md) function.
+You can also get an MFT activation object by calling the [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function.
 
 To create a transform node from an activation object, do the following:
 
-1.  Create the activation object and get a pointer to the [**IMFActivate**](imfactivate.md) interface of the activation object.
-2.  Call [**MFCreateTopologyNode**](mfcreatetopologynode.md) with the **MF\_TOPOLOGY\_TRANSFORM\_NODE** flag to create the transform node.
-3.  Call [**IMFTopologyNode::SetObject**](imftopologynode-setobject.md) and pass in the [**IMFActivate**](imfactivate.md) pointer.
-4.  Call [**IMFTopology::AddNode**](imftopology-addnode.md) to add the node to the topology.
+1.  Create the activation object and get a pointer to the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface of the activation object.
+2.  Call [**MFCreateTopologyNode**](/windows/win32/mfidl/nf-mfidl-mfcreatetopologynode?branch=master) with the **MF\_TOPOLOGY\_TRANSFORM\_NODE** flag to create the transform node.
+3.  Call [**IMFTopologyNode::SetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-setobject?branch=master) and pass in the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer.
+4.  Call [**IMFTopology::AddNode**](/windows/win32/mfidl/nf-mfidl-imftopology-addnode?branch=master) to add the node to the topology.
 
 The following example creates and initializes a transform node from an activation object.
 
@@ -185,7 +190,7 @@ HRESULT AddTransformNode(
 [Topologies](topologies.md)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> </dl>
 
  

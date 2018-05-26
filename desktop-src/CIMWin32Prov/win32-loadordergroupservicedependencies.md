@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_LoadOrderGroupServiceDependencies association WMI class relates a base service and a load order group that the service depends on to start running.'
+Description: The Win32\_LoadOrderGroupServiceDependencies association WMI class relates a base service and a load order group that the service depends on to start running.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '56739b80-9028-4a2e-85ed-973a078860c1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 56739b80-9028-4a2e-85ed-973a078860c1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LoadOrderGroupServiceDependencies class'
+title: Win32\_LoadOrderGroupServiceDependencies class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LoadOrderGroupServiceDependencies class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_LoadOrderGroupServiceDependencies : CIM_Dependency
 {
   Win32_LoadOrderGroup REF Antecedent;
-  Win32_BaseService    REF Dependent;
+  Win32_BaseService    REF Dependent;
 };
 ```
 
@@ -83,8 +86,8 @@ The **Win32\_LoadOrderGroupServiceDependencies** class is derived from [**CIM\_D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_LoadOrderGroupServiceDependencies** class is derived from [**CIM\_D
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

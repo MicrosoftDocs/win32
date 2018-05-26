@@ -1,7 +1,12 @@
 ---
 title: UAV Counters
 description: UAV counters can be used to associate a 32-bit atomic counter with an unordered-access-view (UAV).
-ms.assetid: '0B77E238-E8CF-466B-9188-3DE96AF97F42'
+ms.assetid: 0B77E238-E8CF-466B-9188-3DE96AF97F42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UAV Counters
@@ -27,9 +32,9 @@ Outside of the shaders Direct3D 11 uses API methods to access the counters, in D
 
 The app is responsible for allocating 32-bits of storage for UAV counters. This storage can be allocated in a different resource as the one that contains data accessible via the UAV.
 
-Refer to [**CreateUnorderedAccessView**](id3d12device-createunorderedaccessview.md), [**D3D12\_BUFFER\_UAV\_FLAGS**](d3d12-buffer-uav-flags.md) and [**D3D12\_BUFFER\_UAV**](d3d12-buffer-uav.md).
+Refer to [**CreateUnorderedAccessView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createunorderedaccessview?branch=master), [**D3D12\_BUFFER\_UAV\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_buffer_uav_flags?branch=master) and [**D3D12\_BUFFER\_UAV**](/windows/win32/D3D12/ns-d3d12-d3d12_buffer_uav?branch=master).
 
-If *pCounterResource* is specified in the call to [**CreateUnorderedAccessView**](id3d12device-createunorderedaccessview.md), then there is a counter associated with the UAV. In this case:
+If *pCounterResource* is specified in the call to [**CreateUnorderedAccessView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createunorderedaccessview?branch=master), then there is a counter associated with the UAV. In this case:
 
 -   *StructureByteStride* must be greater than zero
 -   Format must be DXGI\_FORMAT\_UNKNOWN
@@ -49,9 +54,9 @@ And note the following use cases:
 
 Direct3D 12 removes the distinction between append and counter UAVs (although the distinction still exists in HLSL bytecode).
 
-The core runtime will validate these restrictions inside of [**CreateUnorderedAccessView**](id3d12device-createunorderedaccessview.md).
+The core runtime will validate these restrictions inside of [**CreateUnorderedAccessView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createunorderedaccessview?branch=master).
 
-During Draw/Dispatch, the counter resource must be in the state [**D3D12\_RESOURCE\_STATE\_UNORDERED\_ACCESS**](d3d12-resource-states.md). Also, within a single Draw/Dispatch call, it is invalid for an application to access the same 32-bit memory location via two separate UAV counters. The debug layer will issue errors if either of these is detected.
+During Draw/Dispatch, the counter resource must be in the state [**D3D12\_RESOURCE\_STATE\_UNORDERED\_ACCESS**](/windows/win32/D3D12/ne-d3d12-d3d12_resource_states?branch=master). Also, within a single Draw/Dispatch call, it is invalid for an application to access the same 32-bit memory location via two separate UAV counters. The debug layer will issue errors if either of these is detected.
 
 There are no "SetUnorderedAccessViewCounterValue" or "CopyStructureCount" methods because apps can simply copy data to and from the counter value directly.
 

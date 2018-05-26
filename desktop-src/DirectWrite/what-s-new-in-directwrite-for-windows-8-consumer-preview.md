@@ -1,7 +1,12 @@
 ---
-title: What's new in DirectWrite
+title: Whats new in DirectWrite
 description: Here are some of the new additions to DirectWrite.
-ms.assetid: '2512D222-C6EB-4C2D-80A6-7978FED56F7A'
+ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's new in DirectWrite
@@ -54,7 +59,7 @@ Starting in Windows 10 Anniversary Update, DirectWrite provides built-in support
 
 Some font services, such as Adobe Typekit, have client-side utilities that allow a user to load fonts from the service and use them in different applications on their Windows machine. These utilities typically work by making run-time calls to GDI to load additional fonts, rather than permanently installing fonts on the system. Because of that design, on earlier Windows versions, the fonts would be usable in GDI-based applications, but not in DirectWrite applications. Starting in the Windows 10 Anniversary Update, fonts that are loaded by such utilities will also be available in DirectWrite as well as in GDI.
 
-Fonts loaded by a font-service utility are visible in the system font collection obtained by calling the [**IDWriteFactory::GetSystemFontCollection**](idwritefactory-getsystemfontcollection.md) method. Because font services typically follow a per-user licensing model, fonts loaded by these utilities are managed on a per-user basis. As a result, existing DirectWrite applications can utilize fonts that end-users have obtained using such services, without any code changes required in the application, providing a more seamless experience for users.
+Fonts loaded by a font-service utility are visible in the system font collection obtained by calling the [**IDWriteFactory::GetSystemFontCollection**](/windows/win32/dwrite/?branch=master) method. Because font services typically follow a per-user licensing model, fonts loaded by these utilities are managed on a per-user basis. As a result, existing DirectWrite applications can utilize fonts that end-users have obtained using such services, without any code changes required in the application, providing a more seamless experience for users.
 
 ### Support for OpenType collections using CFF outlines
 
@@ -68,10 +73,10 @@ Starting in Windows 10, fonts that are included with Windows are available in an
 
 Support for the DirectWrite font-service mechanisms has been implemented in the XAML framework, which means that any applications that use XAML require no code changes in order to take advantage of the font service. The [Downloadable fonts (XAML) code sample](http://go.microsoft.com/fwlink/p/?LinkId=620632) demonstrates this. Applications that call DirectWrite APIs directly will need to use new APIs to make use of the font-service mechanisms. For more information, see the following topics:
 
--   [**IDWriteFactory3::GetSystemFontCollection**](idwritefactory3-getsystemfontcollection.md) method
+-   [**IDWriteFactory3::GetSystemFontCollection**](/windows/win32/dwrite_3/?branch=master) method
 -   [**IDWriteTextLayout3**](idwritetextlayout3.md) interface
--   [**IDWriteFontDownloadQueue**](idwritefontdownloadqueue.md) interface
--   [**IDWriteFontDownloadListener**](idwritefontdownloadlistener.md) interface
+-   [**IDWriteFontDownloadQueue**](/windows/win32/dwrite_3/?branch=master) interface
+-   [**IDWriteFontDownloadListener**](/windows/win32/dwrite_3/?branch=master) interface
 
 The [Downloadable fonts (DirectWrite) code sample](http://go.microsoft.com/fwlink/p/?LinkId=620539) illustrates the use of several of the new APIs.
 
@@ -83,10 +88,10 @@ In Windows 10, this more flexible font-handling mechanism is made available to a
 
 For more information, see the following topics:
 
--   [**IDWriteFontSet**](idwritefontset.md) interface
--   [**IDWriteFontSetBuilder**](idwritefontsetbuilder.md) interface
--   [**DWRITE\_FONT\_PROPERTY\_ID**](dwrite-font-property-id.md) enumeration
--   [**IDWriteFontFactory3::GetSystemFontSet**](idwritefactory3-getsystemfontset.md) method
+-   [**IDWriteFontSet**](/windows/win32/dwrite_3/?branch=master) interface
+-   [**IDWriteFontSetBuilder**](/windows/win32/dwrite_3/?branch=master) interface
+-   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/dwrite_3/ne-dwrite_3-dwrite_font_property_id?branch=master) enumeration
+-   [**IDWriteFontFactory3::GetSystemFontSet**](/windows/win32/dwrite_3/?branch=master) method
 
 ### New text-layout line-spacing modes
 
@@ -94,11 +99,11 @@ DirectWrite’s text format and text layout interfaces support new line-spacing 
 
 -   [**IDWriteTextLayout3**](idwritetextlayout3.md) interface
 -   [**IDWriteTextLayout3::SetLineSpacing**](idwritetextlayout3-setlinespacing.md) method
--   [**DWRITE\_LINE\_SPACING**](dwrite-line-spacing.md) structure
--   [**DWRITE\_LINE\_SPACING\_METHOD**](dwrite-line-spacing-method.md) enumeration
--   [**DWRITE\_FONT\_LINE\_GAP\_USAGE**](dwrite-font-line-gap-usage.md) enumeration
+-   [**DWRITE\_LINE\_SPACING**](/windows/win32/Dwrite_3/ns-dwrite_3-dwrite_line_spacing?branch=master) structure
+-   [**DWRITE\_LINE\_SPACING\_METHOD**](/windows/win32/dwrite/ne-dwrite-dwrite_line_spacing_method?branch=master) enumeration
+-   [**DWRITE\_FONT\_LINE\_GAP\_USAGE**](/windows/win32/dwrite_3/ne-dwrite_3-dwrite_font_line_gap_usage?branch=master) enumeration
 -   [**IDWriteTextLayout3::GetLineMetrics**](idwritetextlayout3-getlinemetrics.md) method
--   [**DWRITE\_LINE\_METRICS1**](dwrite-line-metrics1.md) structure
+-   [**DWRITE\_LINE\_METRICS1**](/windows/win32/dwrite_3/ns-dwrite_3-dwrite_line_metrics1?branch=master) structure
 
 The [Line spacing (DirectWrite) code sample](http://go.microsoft.com/fwlink/p/?LinkId=620538) illustrates use of several of the new APIs, and also provides a visualization of all of the different line-spacing modes that makes it much easier to understand the various line-spacing options that are available.
 
@@ -106,7 +111,7 @@ The [Line spacing (DirectWrite) code sample](http://go.microsoft.com/fwlink/p/?L
 
 Since its introduction in Windows 7, DirectWrite has provided a migration path for applications that were originally implemented using GDI’s font model, text layout and rendering. This was provided via the \[\[IDWriteGdiInterop\]\] interface. In Windows 10, additional APIs provide additional GDI-interop capabilities. For additional information, see the following topic:
 
--   [**IDWriteGdiInterop1**](idwritegdiinterop1.md) interface
+-   [**IDWriteGdiInterop1**](/windows/win32/dwrite_3/?branch=master) interface
 
 ## What's new in Windows 8.1
 
@@ -115,30 +120,30 @@ Since its introduction in Windows 7, DirectWrite has provided a migration path f
 Starting in Windows Windows 8.1, DirectWrite provides support for color fonts. [Direct2D](https://msdn.microsoft.com/library/windows/desktop/dd370990), which uses DirectWrite for text rendering, has added the enum value D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT to enable this feature when drawing text. For more information, see the following topics:
 
 -   [**D2D1\_DRAW\_TEXT\_OPTIONS**](https://msdn.microsoft.com/library/windows/desktop/dd368095) enumeration
--   [**IDWriteFactory2::TranslateColorGlyphRun**](idwritefactory2-translatecolorglyphrun.md) method
+-   [**IDWriteFactory2::TranslateColorGlyphRun**](/windows/win32/dwrite_2/?branch=master) method
 
 ## What's new in Windows 8
 
-A new factory interface, [**IDWriteFactory1**](idwritefactory1.md), for creating additional interfaces that are available.
+A new factory interface, [**IDWriteFactory1**](/windows/win32/dwrite_1/?branch=master), for creating additional interfaces that are available.
 
 Additional font properties, such as: super/subscript, caret slope, PANOSE, and Unicode ranges.
 
--   [**IDWriteFont1**](idwritefont1.md)
--   [**IDWriteFontFace1**](idwritefontface1.md)
+-   [**IDWriteFont1**](/windows/win32/dwrite_1/?branch=master)
+-   [**IDWriteFontFace1**](/windows/win32/dwrite_1/?branch=master)
 
 Spacing improvements, such as: control character spacing, legacy kerning pairs, and justification. See the [Justification, Kerning, and Spacing](justification--kerning--and-spacing.md) topic for more info.
 
--   [**IDWriteTextLayout1**](idwritetextlayout1.md)
--   [**IDWriteTextAnalyzer1**](idwritetextanalyzer1.md)
+-   [**IDWriteTextLayout1**](/windows/win32/dwrite_1/?branch=master)
+-   [**IDWriteTextAnalyzer1**](/windows/win32/dwrite_1/?branch=master)
 
 Improved render targets and parameters.
 
--   [**IDWriteBitmapRenderTarget1**](idwritebitmaprendertarget1.md)
--   [**IDWriteRenderingParams1**](idwriterenderingparams1.md)
+-   [**IDWriteBitmapRenderTarget1**](/windows/win32/dwrite_1/?branch=master)
+-   [**IDWriteRenderingParams1**](/windows/win32/dwrite_1/?branch=master)
 
 Text complexity analysis improvements.
 
--   [**IDWriteTextAnalyzer1**](idwritetextanalyzer1.md)
+-   [**IDWriteTextAnalyzer1**](/windows/win32/dwrite_1/?branch=master)
 
 New script properties, new script support (Unicode 6), font fallback additions, paired parentheses, and bidi augmentation.
 
@@ -170,7 +175,7 @@ Starting in Windows 8, [DirectWrite](direct-write-portal.md) supports the block
 
 ### New scripts
 
-Starting in Windows 8, the [**GetScriptProperties**](idwritetextanalyzer1-getscriptproperties.md) method returns info for a number of new scripts. Here is the list of scripts that [DirectWrite](direct-write-portal.md) supports in Windows 8 and after.
+Starting in Windows 8, the [**GetScriptProperties**](/windows/win32/dwrite_1/?branch=master) method returns info for a number of new scripts. Here is the list of scripts that [DirectWrite](direct-write-portal.md) supports in Windows 8 and after.
 
 -   Avestan
 -   Bamum

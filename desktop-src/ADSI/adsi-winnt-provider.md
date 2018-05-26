@@ -4,11 +4,16 @@ description: The Microsoft ADSI provider implements a set of ADSI objects to sup
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6341be08-2e53-4708-a403-09c86fcc31a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6341be08-2e53-4708-a403-09c86fcc31a8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["adsi winnt provider ADSI", "WinNT service provider ADSI"]
+keywords:
+- adsi winnt provider ADSI
+- WinNT service provider ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI WinNT Provider

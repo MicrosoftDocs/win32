@@ -4,11 +4,14 @@ description: Returns a list of paths that match the static namespaces in the inp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '90de868b-5ab5-4397-90cf-d165af66dcfb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 90de868b-5ab5-4397-90cf-d165af66dcfb
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["GetEffectiveNamespace method File Server Resource Manager", "GetEffectiveNamespace method File Server Resource Manager , MSFT_FSRMEffectiveNamespace class", "MSFT_FSRMEffectiveNamespace class File Server Resource Manager , GetEffectiveNamespace method"]
+keywords:
+- GetEffectiveNamespace method File Server Resource Manager
+- GetEffectiveNamespace method File Server Resource Manager , MSFT_FSRMEffectiveNamespace class
+- MSFT_FSRMEffectiveNamespace class File Server Resource Manager , GetEffectiveNamespace method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetEffectiveNamespace method of the MSFT\_FSRMEffectiveNamespace class
@@ -28,8 +34,8 @@ Returns a list of paths that match the static namespaces in the input list and a
 
 ```mof
 uint64 GetEffectiveNamespace(
-  [in]  string Namespace[],
-  [out] string EffectiveNamespace[]
+  [in]  string Namespace[],
+  [out] string EffectiveNamespace[]
 );
 ```
 
@@ -60,7 +66,7 @@ A list of all paths that the provided object considers in scope on the server. I
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -74,9 +80,9 @@ A list of all paths that the provided object considers in scope on the server. I
 [**MSFT\_FSRMEffectiveNamespace**](msft-fsrmeffectivenamespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

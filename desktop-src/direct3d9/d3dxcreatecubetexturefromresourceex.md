@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a cube texture from a resource specified by a string. This is a more advanced function than D3DXCreateCubeTextureFromResource.'
-ms.assetid: '4d263386-8270-4967-8ef5-e9ac69e502a5'
+---
+Description: Creates a cube texture from a resource specified by a string. This is a more advanced function than D3DXCreateCubeTextureFromResource.
+ms.assetid: 4d263386-8270-4967-8ef5-e9ac69e502a5
 title: D3DXCreateCubeTextureFromResourceEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateCubeTextureFromResourceEx function
@@ -39,9 +44,9 @@ HRESULT D3DXCreateCubeTextureFromResourceEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the cube texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the cube texture.
 
 </dd> <dt>
 
@@ -86,7 +91,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0 or D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md). D3DUSAGE\_DYNAMIC indicates that the surface should be handled dynamically. For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
+0 or D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master). D3DUSAGE\_DYNAMIC indicates that the surface should be handled dynamically. For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
 </dd> <dt>
 
@@ -147,18 +152,18 @@ Pointer to a [**D3DXIMAGE\_INFO**](d3dximage-info.md) structure to be filled wit
 *pPalette* \[out\]
 </dt> <dd>
 
-Type: **[**PALETTEENTRY**](paletteentry.md)\***
+Type: **[**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure, representing a 256-color palette to fill in or **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure, representing a 256-color palette to fill in or **NULL**.
 
 </dd> <dt>
 
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](idirect3dcubetexture9.md)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](idirect3dcubetexture9.md) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master) interface, representing the created cube texture object.
 
 </dd> </dl>
 
@@ -174,7 +179,7 @@ The compiler setting determines the function version. If Unicode is defined, the
 
 This function supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](direct3d9.d3dximage_fileformat).
 
-Cube textures differ from other surfaces in that they are collections of surfaces. To call [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) with a cube texture, you must select an individual face using [**GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md) and pass the resulting surface to **SetRenderTarget**.
+Cube textures differ from other surfaces in that they are collections of surfaces. To call [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) with a cube texture, you must select an individual face using [**GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master) and pass the resulting surface to **SetRenderTarget**.
 
 **D3DXCreateCubeTextureFromResourceEx** uses the DirectDraw surface (DDS) file format. The DirectX Texture Editor (Dxtex.exe) enables you to generate a cube map from other file formats and save it in the DDS file format. You can get Dxtex.exe and learn about it from the DirectX SDK. For info about the DirectX SDK, see [Where is the DirectX SDK?](nodepage.directx_sdk__august_2009_).
 

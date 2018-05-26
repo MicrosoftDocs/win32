@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.'
-ms.assetid: 'e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd'
+---
+Description: Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
+ms.assetid: e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd
 title: ISearchItem interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISearchItem interface
@@ -23,7 +28,7 @@ The **ISearchItem** interface has these methods.
 | Method                                                         | Description                                                                                                                               |
 |:---------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetParentFolder**](-search-isearchitem-getparentfolder.md) | Gets the **ISearchItem** object if the URL represents an actual Shell data source (also known as a Shell namespace extension).<br/> |
-| [**GetUIObjectOf**](-search-isearchitem-getuiobjectof.md)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
+| [**GetUIObjectOf**](/windows/win32/shobjidl_core/?branch=master)     | Gets the user interface (UI) object of **ISearchItem**.<br/>                                                                        |
 
 
 

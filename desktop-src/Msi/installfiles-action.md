@@ -1,7 +1,12 @@
 ---
-Description: 'The InstallFiles action copies files specified in the File table from the source directory to the destination directory.'
-ms.assetid: '187ad82f-13f5-4ea3-913c-2ae7561a6ee6'
+Description: The InstallFiles action copies files specified in the File table from the source directory to the destination directory.
+ms.assetid: 187ad82f-13f5-4ea3-913c-2ae7561a6ee6
 title: InstallFiles Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallFiles Action

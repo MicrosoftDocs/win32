@@ -1,14 +1,19 @@
 ---
 title: Modifying the Security Defaults for a Computer
 description: Modifying the Security Defaults for a Computer
-ms.assetid: 'c6d84375-59ea-42d5-87f9-af514b6f7d7c'
+ms.assetid: c6d84375-59ea-42d5-87f9-af514b6f7d7c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the Security Defaults for a Computer
 
 It is not recommended that you change the system-wide security settings, because this will affect all COM server applications that do not set their own process-wide security, and might prevent them from working properly. If you are changing the system-wide security settings to affect the security settings for a particular COM application, then you should instead change the process-wide security settings for that particular COM application. For more information about setting process-wide security, see [Setting Process-Wide Security](setting-processwide-security.md).
 
-Certain values in the registry determine security settings for applications that do not call [**CoInitializeSecurity**](coinitializesecurity.md). You can modify these settings using Dcomcnfg.exe.
+Certain values in the registry determine security settings for applications that do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master). You can modify these settings using Dcomcnfg.exe.
 
 For more information, see the following topics:
 

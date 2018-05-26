@@ -4,11 +4,14 @@ description: Sends an email to request additional access to a file.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f9e33884-0361-43ae-a774-9575613c6c19'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: f9e33884-0361-43ae-a774-9575613c6c19
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["SendRequestEmail method File Server Resource Manager", "SendRequestEmail method File Server Resource Manager , MSFT_FSRMAdr class", "MSFT_FSRMAdr class File Server Resource Manager , SendRequestEmail method"]
+keywords:
+- SendRequestEmail method File Server Resource Manager
+- SendRequestEmail method File Server Resource Manager , MSFT_FSRMAdr class
+- MSFT_FSRMAdr class File Server Resource Manager , SendRequestEmail method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SendRequestEmail method of the MSFT\_FSRMAdr class
@@ -28,10 +34,10 @@ Sends an email to request additional access to a file.
 
 ```mof
 uint64 SendRequestEmail(
-  [in] string Path,
-  [in] string ServerPath,
-  [in] uint32 Event,
-  [in] string UserMessage
+  [in] string Path,
+  [in] string ServerPath,
+  [in] uint32 Event,
+  [in] string UserMessage
 );
 ```
 
@@ -98,7 +104,7 @@ A string to include in the request email, not to exceed 1KB.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -112,9 +118,9 @@ A string to include in the request email, not to exceed 1KB.
 [**MSFT\_FSRMAdr**](msft-fsrmadr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

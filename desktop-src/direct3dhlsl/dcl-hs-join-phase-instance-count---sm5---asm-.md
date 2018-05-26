@@ -1,7 +1,12 @@
 ---
 title: dcl\_hs\_join\_phase\_instance\_count (sm5 - asm)
 description: Declare the join phase instance count in a hull shader join phase.
-ms.assetid: '9951B849-0537-4D08-9ADE-8CF6FF51A193'
+ms.assetid: 9951B849-0537-4D08-9ADE-8CF6FF51A193
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_hs\_join\_phase\_instance\_count (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the join phase instance count in a hull shader join phase.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the join phase instance count in a hull shader join phase.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -58,7 +63,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +72,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

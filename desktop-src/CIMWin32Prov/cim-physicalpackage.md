@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PhysicalPackage class represents physical elements that contain or host other components. Examples are a rack enclosure or an adapter card.'
+Description: The CIM\_PhysicalPackage class represents physical elements that contain or host other components. Examples are a rack enclosure or an adapter card.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9182d413-aa7e-4c2f-94fe-12e99980520c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9182d413-aa7e-4c2f-94fe-12e99980520c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalPackage class'
+title: CIM\_PhysicalPackage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalPackage class
@@ -19,7 +22,7 @@ The **CIM\_PhysicalPackage** class represents physical elements that contain or 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,28 +32,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B6E-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_PhysicalPackage : CIM_PhysicalElement
 {
-  string   Caption;
-  string   CreationClassName;
-  real32   Depth;
-  string   Description;
-  real32   Height;
-  boolean  HotSwappable;
+  string   Caption;
+  string   CreationClassName;
+  real32   Depth;
+  string   Description;
+  real32   Height;
+  boolean  HotSwappable;
   datetime InstallDate;
-  string   Manufacturer;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  boolean  Removable;
-  boolean  Replaceable;
-  string   SerialNumber;
-  string   SKU;
-  string   Status;
-  string   Tag;
-  string   Version;
-  real32   Weight;
-  real32   Width;
+  string   Manufacturer;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  boolean  Removable;
+  boolean  Replaceable;
+  string   SerialNumber;
+  string   SKU;
+  string   Status;
+  string   Tag;
+  string   Version;
+  real32   Weight;
+  real32   Width;
 };
 ```
 
@@ -73,7 +76,7 @@ The **CIM\_PhysicalPackage** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -550,8 +553,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -565,9 +568,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalElement**](cim-physicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

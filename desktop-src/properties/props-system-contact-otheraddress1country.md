@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '903e4d64-cabe-40ff-9464-8c6388691c7f'
-title: 'System.Contact.OtherAddress1Country'
+Description: .
+ms.assetid: 903e4d64-cabe-40ff-9464-8c6388691c7f
+title: System.Contact.OtherAddress1Country
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress1Country

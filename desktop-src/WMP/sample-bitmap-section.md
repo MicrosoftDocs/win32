@@ -1,8 +1,18 @@
 ---
 title: Sample Bitmap Section
 description: Sample Bitmap Section
-ms.assetid: '51b84b34-3cbb-4863-b7dc-e33e80d6ba23'
-keywords: ["Windows Media Player Mobile skins,bitmaps", "skins,bitmaps", "reference for skins,bitmaps", "bitmaps in skins,Bitmaps section", "skin definition files,Bitmaps section"]
+ms.assetid: 51b84b34-3cbb-4863-b7dc-e33e80d6ba23
+keywords:
+- Windows Media Player Mobile skins,bitmaps
+- skins,bitmaps
+- reference for skins,bitmaps
+- bitmaps in skins,Bitmaps section
+- skin definition files,Bitmaps section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Bitmap Section

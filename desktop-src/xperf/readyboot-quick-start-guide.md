@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Quick Start Guide
 description: ReadyBoot Quick Start Guide
-ms.assetid: '004b6a78-15d6-4508-b3e0-7aea8ec5d216'
+ms.assetid: 004b6a78-15d6-4508-b3e0-7aea8ec5d216
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot Quick Start Guide

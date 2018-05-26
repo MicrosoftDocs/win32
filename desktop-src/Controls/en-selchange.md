@@ -1,8 +1,9 @@
 ---
 title: EN\_SELCHANGE notification code
-description: Notifies a rich edit control's parent window that the current selection has changed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '53d47b53-a73c-4652-889c-2374f8e99382'
-keywords: ["EN_SELCHANGE notification code Windows Controls"]
+description: Notifies a rich edit controls parent window that the current selection has changed. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: 53d47b53-a73c-4652-889c-2374f8e99382
+keywords:
+- EN_SELCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_SELCHANGE notification code
@@ -33,7 +39,7 @@ EN_SELCHANGE
 *lParam* 
 </dt> <dd>
 
-A [**SELCHANGE**](selchange.md) structure that receives information about the selection.
+A [**SELCHANGE**](/windows/win32/Richedit/ns-richedit-_selchange?branch=master) structure that receives information about the selection.
 
 </dd> </dl>
 
@@ -53,8 +59,8 @@ This notification code is sent when the caret position changes and no text is se
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -66,15 +72,15 @@ This notification code is sent when the caret position changes and no text is se
 **Reference**
 </dt> <dt>
 
-[**SELCHANGE**](selchange.md)
+[**SELCHANGE**](/windows/win32/Richedit/ns-richedit-_selchange?branch=master)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a container for characteristics of a supported frequency range.'
-ms.assetid: 'eb07c10b-8d92-40bb-8a93-ebc5db46cfd3'
+Description: Represents a container for characteristics of a supported frequency range.
+ms.assetid: eb07c10b-8d92-40bb-8a93-ebc5db46cfd3
 title: FrequencyRangeDescriptor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FrequencyRangeDescriptor class
@@ -13,7 +18,7 @@ The **FrequencyRangeDescriptor** WMI class represents a container for characteri
 ``` syntax
 class FrequencyRangeDescriptor
 {
-  uint8  Origin;
+  uint8  Origin;
   uint32 MinVSyncNumerator;
   uint32 MinVSyncDenominator;
   uint32 MaxVSyncNumerator;
@@ -216,8 +221,8 @@ Origin.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -231,9 +236,9 @@ Origin.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Applications that use Windows Installer 4.0 for installation and servicing on Windows Vista automatically use the Restart Manager to reduce system restarts.'
-ms.assetid: '821739ff-f7a7-4192-ad34-254aa7d74d13'
+Description: Applications that use Windows Installer 4.0 for installation and servicing on Windows Vista automatically use the Restart Manager to reduce system restarts.
+ms.assetid: 821739ff-f7a7-4192-ad34-254aa7d74d13
 title: Using Windows Installer with Restart Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Installer with Restart Manager
@@ -15,7 +20,7 @@ Windows Installer developers can perform the following actions to prepare their 
     End-users typically run installations at the Full UI [user interface level](user-interface-levels.md). Basic UI or Reduced UI level installations give the user the option of using the [Restart Manager](rstmgr.portal) to reduce system restarts even if the [MsiRMFilesInUse](msirmfilesinuse-dialog.md) dialog box is not present. Silent UI level installations always shut down applications and services, and on Windows Vista, always use Restart Manager.
 
 -   Register applications for a restart using the [**RegisterApplicationRestart**](base.registerapplicationrestart) function. Restart Manager can only restart applications that have been registered for restart. Restart Manager restarts registered applications after the installation. If the installation requires a system restart, Restart Manager restarts the registered application after the system restart.
--   Specify INSTALLLOGMODE\_RMFILESINUSE when enabling an external user-interface handler with the [**MsiSetExternalUI**](msisetexternalui.md) and [**MsiSetExternalUIRecord**](msisetexternaluirecord.md) functions. Windows Installer will send a INSTALLMESSAGE\_RMFILESINUSE message for external user-interface handlers that support the [Restart Manager](rstmgr.portal). If no registered or internal user-interface handles the INSTALLMESSAGE\_RMFILESINUSE message, the installer sends a INSTALLMESSAGE\_FILESINUSE message for user-interface handlers that support the [FilesInUse](filesinuse-dialog.md) dialog box. For more information, see [Using Restart Manager with an External UI](using-restart-manager-with-an-external-ui-.md).
+-   Specify INSTALLLOGMODE\_RMFILESINUSE when enabling an external user-interface handler with the [**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master) and [**MsiSetExternalUIRecord**](/windows/win32/Msi/nf-msi-msisetexternaluirecord?branch=master) functions. Windows Installer will send a INSTALLMESSAGE\_RMFILESINUSE message for external user-interface handlers that support the [Restart Manager](rstmgr.portal). If no registered or internal user-interface handles the INSTALLMESSAGE\_RMFILESINUSE message, the installer sends a INSTALLMESSAGE\_FILESINUSE message for user-interface handlers that support the [FilesInUse](filesinuse-dialog.md) dialog box. For more information, see [Using Restart Manager with an External UI](using-restart-manager-with-an-external-ui-.md).
 -   Custom actions can add resources belonging to a [Restart Manager](rstmgr.portal) session. The custom action should be sequenced before the [InstallValidate](installvalidate-action.md) action. Custom actions can use the [**MsiRestartManagerSessionKey**](msirestartmanagersessionkey.md) property to obtain the session key, and should call the [**RmJoinSession**](rstmgr.rmjoinsession) and [**RmEndSession**](rstmgr.rmendsession) functions of the Restart Manager API. Custom actions cannot remove resources belonging to a Restart Manager session. Custom actions should not attempt to shutdown or restart applications using the [**RmShutdown**](rstmgr.rmshutdown), [**RmGetList**](rstmgr.rmgetlist) and [**RmRestart**](rstmgr.rmrestart) functions.
 -   Package authors can base a condition in the [LaunchCondition table](launchcondition-table.md) on the [**MsiSystemRebootPending**](msisystemrebootpending.md) property to prevent the installation of their package when a system restart is pending.
 -   Package authors and administrators can control the interaction of the Windows Installer and Restart Manager by using the [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md), [**MSIDISABLERMRESTART**](msidisablermrestart.md), [**MSIRMSHUTDOWN**](msirmshutdown.md) properties and the [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) policy.

@@ -1,7 +1,12 @@
 ---
 title: To add a default frame location to the table of contents file
 description: To add a default frame location to the table of contents file
-ms.assetid: '31842E86-965B-41b2-A1F0-CCFFB9A9A413'
+ms.assetid: 31842E86-965B-41b2-A1F0-CCFFB9A9A413
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a default frame location to the table of contents file
@@ -14,7 +19,7 @@ ms.assetid: '31842E86-965B-41b2-A1F0-CCFFB9A9A413'
 
     
 
-     
+     
 
 2.  In the **Default frame** box, type: **right**.
 3.  Save the contents file.
@@ -26,9 +31,9 @@ ms.assetid: '31842E86-965B-41b2-A1F0-CCFFB9A9A413'
 [Step 4: Add a Topic Frame](to-add-a-topic-frame.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

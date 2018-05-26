@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact CanPage property
 description: Retrieves a Boolean value that declares whether the contact associated with this MessengerContact object has mobile preferences established or visible.
-ms.assetid: '4b4071b7-23a9-4d20-87ea-5fa64fc15a30'
-keywords: ["CanPage property Windows Messenger", "CanPage property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , CanPage property"]
+ms.assetid: 4b4071b7-23a9-4d20-87ea-5fa64fc15a30
+keywords:
+- CanPage property Windows Messenger
+- CanPage property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , CanPage property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::CanPage property
 
-\[**CanPage** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**CanPage** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a Boolean value that declares whether the contact associated with this [**MessengerContact**](im-messengercontact.md) object has mobile preferences established or visible.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_CanPage(
-  [out, retval] VARIANT_BOOL *pBoolPage
+  [out, retval] VARIANT_BOOL *pBoolPage
 );
 ```
 
@@ -68,7 +76,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 To use this method with Windows Messenger, you must install an add-in component that supports paging.
 
@@ -79,7 +87,7 @@ Assuming the [**MessengerContact**](im-messengercontact.md) object can be succes
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -117,8 +125,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -135,9 +143,9 @@ End Sub
 [**OnContactPagerChange**](im-dmessengerevents-oncontactpagerchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

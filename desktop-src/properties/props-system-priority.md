@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '43f81cb5-7f2e-4f8f-ad31-8aad71765f60'
-title: 'System.Priority'
+Description: .
+ms.assetid: 43f81cb5-7f2e-4f8f-ad31-8aad71765f60
+title: System.Priority
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Priority

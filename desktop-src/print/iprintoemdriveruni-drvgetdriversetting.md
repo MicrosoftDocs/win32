@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUni::DrvGetDriverSetting method is provided by the Unidrv driver so that rendering plug-ins can obtain the current status of printer features and other internal information.'
-ms.assetid: '29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf'
-title: 'IPrintOemDriverUni::DrvGetDriverSetting method'
+---
+Description: The IPrintOemDriverUniDrvGetDriverSetting method is provided by the Unidrv driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
+ms.assetid: 29ccd7e6-60eb-4a8e-9a71-9fbed4b2bdcf
+title: IPrintOemDriverUniDrvGetDriverSetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUni::DrvGetDriverSetting method

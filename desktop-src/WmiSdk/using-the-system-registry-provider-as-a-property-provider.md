@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the System Registry Provider as either an instance or a property provider.'
+Description: You can use the System Registry Provider as either an instance or a property provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0a8198c0-57c1-4d96-9965-3867c8c0e738'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0a8198c0-57c1-4d96-9965-3867c8c0e738
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Using the System Registry Provider as a Property Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the System Registry Provider as a Property Provider
@@ -18,9 +21,9 @@ If you choose to access the property provider interfaces, you must mark your WMI
 
 **To use the system registry provider as a property provider**
 
--   Define your WMI class with the **DynProps**, [**Provider**](provider.md), and **PropertyContext** standard qualifiers.
+-   Define your WMI class with the **DynProps**, [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master), and **PropertyContext** standard qualifiers.
 
-    The **DynProps** qualifier identifies a class as having properties that are maintained by the property provider identified by the [**Provider**](provider.md) qualifier. The **PropertyContext** qualifier specifies the name of the registry value to be stored by the property. The format of the **PropertyContext** qualifier is the same as the format of the **ClassContext** qualifier with additional *valuename* and *expression* values.
+    The **DynProps** qualifier identifies a class as having properties that are maintained by the property provider identified by the [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifier. The **PropertyContext** qualifier specifies the name of the registry value to be stored by the property. The format of the **PropertyContext** qualifier is the same as the format of the **ClassContext** qualifier with additional *valuename* and *expression* values.
 
     ``` syntax
     MACHINE_NAME | Subtree\\KeyPath [|valuename [expression]]

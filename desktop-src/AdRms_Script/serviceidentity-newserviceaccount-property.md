@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a new service account object that can be populated and set on the server.'
+Description: Retrieves a new service account object that can be populated and set on the server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '75b7af80-864d-4008-aec1-9e2fb7e7c7b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 75b7af80-864d-4008-aec1-9e2fb7e7c7b4
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServiceIdentity.NewServiceAccount property'
+title: ServiceIdentity.NewServiceAccount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServiceIdentity.NewServiceAccount property
@@ -106,7 +109,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END FUNCTION
 [**ServiceIdentity**](serviceidentity-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

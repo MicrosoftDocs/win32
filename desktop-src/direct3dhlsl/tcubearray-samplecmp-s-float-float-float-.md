@@ -1,14 +1,20 @@
 ---
 title: SampleCmp(S,float,float,float) function
 description: Samples a texture, using a comparison value to reject samples, with an optional value to clamp sample level-of-detail (LOD) values to.
-ms.assetid: 'A8824A82-A3FD-4FEE-BC10-56843997BBCE'
-keywords: ["SampleCmp function HLSL"]
+ms.assetid: A8824A82-A3FD-4FEE-BC10-56843997BBCE
+keywords:
+- SampleCmp function HLSL
 topic_type:
 - apiref
 api_name:
 - SampleCmp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleCmp(S,float,float,float) function

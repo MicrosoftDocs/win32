@@ -1,7 +1,12 @@
-﻿---
-Description: 'In Windows 10, the IXpsRasterizationFactory2 interface represents an object factory for creating components that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.'
-ms.assetid: '23994CD9-A65B-4BD7-9070-3F575D011953'
+---
+Description: In Windows 10, the IXpsRasterizationFactory2 interface represents an object factory for creating components that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
+ms.assetid: 23994CD9-A65B-4BD7-9070-3F575D011953
 title: IXpsRasterizationFactory2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizationFactory2 interface

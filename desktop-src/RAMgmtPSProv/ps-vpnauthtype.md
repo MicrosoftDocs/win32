@@ -2,13 +2,15 @@
 title: PS\_VpnAuthType class
 description: Represent the authentication type for VPN.
 audience: developer
-ms.assetid: 'aa5b10fa-acf8-4ff8-a320-f4382332222e'
-ms.prod: 'windows-server-dev'
+ms.assetid: aa5b10fa-acf8-4ff8-a320-f4382332222e
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_VpnAuthType class", "PS_VpnAuthType class, described"]
+keywords:
+- PS_VpnAuthType class
+- PS_VpnAuthType class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_VpnAuthType class
@@ -52,7 +57,7 @@ The **PS\_VpnAuthType** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,16 +66,16 @@ The **PS\_VpnAuthType** class has these methods.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

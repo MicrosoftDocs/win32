@@ -1,8 +1,15 @@
 ---
 title: The represent\_as Attribute
 description: The \ represent\_as\ attribute lets you specify how a particular transmittable data type is represented to the application.
-ms.assetid: '6f07ab90-b5bb-48ae-870c-5abaf80ce0e5'
-keywords: ["Remote Procedure Call RPC , attributes, represent_as", "represent_as"]
+ms.assetid: 6f07ab90-b5bb-48ae-870c-5abaf80ce0e5
+keywords:
+- Remote Procedure Call RPC , attributes, represent_as
+- represent_as
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The represent\_as Attribute

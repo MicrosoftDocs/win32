@@ -4,11 +4,13 @@ description: Encapsulates the properties of Windows event provider. Can also be 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '439df0b3-928c-4741-9888-b79326082482'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 439df0b3-928c-4741-9888-b79326082482
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTEventProvider class", "MSFT_MTEventProvider class, described"]
+keywords:
+- MSFT_MTEventProvider class
+- MSFT_MTEventProvider class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTEventProvider class
@@ -70,7 +75,7 @@ The **MSFT\_MTEventProvider** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -202,8 +207,8 @@ The unique and language neutral identifier of the Windows event provider.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -217,9 +222,9 @@ The unique and language neutral identifier of the Windows event provider.
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

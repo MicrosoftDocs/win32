@@ -1,7 +1,12 @@
-﻿---
-Description: 'Percent of time processing data in the driver. These statistics may help identify cases when the driver is waiting for other resources.'
-ms.assetid: '2c613349-61eb-44aa-aa7b-3161dd1fc95e'
-title: 'D3DDEVINFO\_D3D9INTERFACETIMINGS structure'
+---
+Description: Percent of time processing data in the driver. These statistics may help identify cases when the driver is waiting for other resources.
+ms.assetid: 2c613349-61eb-44aa-aa7b-3161dd1fc95e
+title: D3DDEVINFO\_D3D9INTERFACETIMINGS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVINFO\_D3D9INTERFACETIMINGS structure
@@ -58,7 +63,7 @@ Type: **[**FLOAT**](winprog.windows_data_types)**
 
 Percentage of time the driver spent waiting for the GPU latency to reduce to less than three rendering frames.
 
-If an application is GPU-limited, the driver must stall the CPU until the GPU gets within three frames. This prevents an application from queuing up many seconds' worth of rendering calls which may dramatically increase the latency between when the user inputs new data and when the user sees the results of that input. In general, the driver can track the number of times [**Present**](idirect3ddevice9--present.md) is called to prevent queuing up more than three frames of rendering work.
+If an application is GPU-limited, the driver must stall the CPU until the GPU gets within three frames. This prevents an application from queuing up many seconds' worth of rendering calls which may dramatically increase the latency between when the user inputs new data and when the user sees the results of that input. In general, the driver can track the number of times [**Present**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) is called to prevent queuing up more than three frames of rendering work.
 
 </dd> <dt>
 
@@ -107,7 +112,7 @@ These system-global metrics may or may not be implemented. Depending on the spec
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](idirect3dquery9--getdata.md)
+[**GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 Description: Time and Clocks in DirectShow
-ms.assetid: '7d883638-5ddb-48b9-9d0b-104944a151e9'
+ms.assetid: 7d883638-5ddb-48b9-9d0b-104944a151e9
 title: Time and Clocks in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time and Clocks in DirectShow

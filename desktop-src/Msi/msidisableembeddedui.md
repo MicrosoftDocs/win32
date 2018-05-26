@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-machine system policy is set to 1, the capability to use embedded UI is disabled on the computer. The default value is 0, which enables the embedded UI handlers capability.'
-ms.assetid: 'f69d69a3-3c28-4841-a334-3acb61a06bc2'
+Description: If this per-machine system policy is set to 1, the capability to use embedded UI is disabled on the computer. The default value is 0, which enables the embedded UI handlers capability.
+ms.assetid: f69d69a3-3c28-4841-a334-3acb61a06bc2
 title: MsiDisableEmbeddedUI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiDisableEmbeddedUI

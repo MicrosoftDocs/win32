@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.'
-ms.assetid: 'a7cfaa6d-e17d-458a-ae63-72963615bef8'
-title: 'How-to: Re-encode a JPEG Image with Metadata'
+Description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
+ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
+title: How-to Re-encode a JPEG Image with Metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How-to: Re-encode a JPEG Image with Metadata
@@ -55,7 +60,7 @@ Before you can copy image data or metadata to a new image file, you must first c
 
 
 
-The call to **CreateDecoderFromFilename** used the value WICDecodeMetadataCacheOnDemand from the [**WICDecodeOptions**](-wic-codec-wicdecodeoptions.md) enumeration as the fourth parameter. This tells the decoder to cache the metadata when the metadata is needed, either by obtaining a query reader or by using the underlying metadata reader. Using this option enables you to retain the stream to the metadata, which is required for performing fast metadata encoding and enables lossless decoding and encoding of JPEG images. Alternatively, you could use the other **WICDecodeOptions** value, WICDecodeMetadataCacheOnLoad, which caches the embedded image metadata as soon as the image is loaded.
+The call to **CreateDecoderFromFilename** used the value WICDecodeMetadataCacheOnDemand from the [**WICDecodeOptions**](/windows/win32/Wincodec/ne-wincodec-wicdecodeoptions?branch=master) enumeration as the fourth parameter. This tells the decoder to cache the metadata when the metadata is needed, either by obtaining a query reader or by using the underlying metadata reader. Using this option enables you to retain the stream to the metadata, which is required for performing fast metadata encoding and enables lossless decoding and encoding of JPEG images. Alternatively, you could use the other **WICDecodeOptions** value, WICDecodeMetadataCacheOnLoad, which caches the embedded image metadata as soon as the image is loaded.
 
 ## Part 2: Create and Initialize the Image Encoder
 

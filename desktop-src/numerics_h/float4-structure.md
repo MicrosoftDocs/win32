@@ -1,8 +1,9 @@
 ---
 title: float4 Structure
 description: A vector with four components.
-ms.assetid: 'AC07C6D0-E7FD-4582-B40D-4838F49FB8B4'
-keywords: ["float4 Structure"]
+ms.assetid: AC07C6D0-E7FD-4582-B40D-4838F49FB8B4
+keywords:
+- float4 Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # float4 Structure
@@ -36,7 +42,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Functions
 
@@ -63,7 +69,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Methods
 
@@ -80,7 +86,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Operators
 
@@ -108,7 +114,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Fields
 
@@ -123,7 +129,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -143,9 +149,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

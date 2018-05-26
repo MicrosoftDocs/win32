@@ -4,11 +4,14 @@ description: Returns a single domain name from a DomainNames collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b4d57afc-82d1-4cdd-8347-da9053cafdcb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b4d57afc-82d1-4cdd-8347-da9053cafdcb
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , DomainNames collection", "DomainNames collection Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , DomainNames collection
+- DomainNames collection Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DomainNames.Item property
@@ -49,7 +55,7 @@ DomainNames.Item( _
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -68,9 +74,9 @@ DomainNames.Item( _
 [**DomainNames**](domainnames-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

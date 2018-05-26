@@ -1,8 +1,10 @@
 ---
 title: MSFT\_DiskToStorageReliabilityCounter class
 description: Association between a MSFT\_Disk object and the corresponding MSFT\_StorageReliabilityCounter object.
-ms.assetid: 'A9B5BF06-4062-4244-9A27-9B4AC5ACEA00'
-keywords: ["MSFT_DiskToStorageReliabilityCounter class Windows Storage Management API", "MSFT_DiskToStorageReliabilityCounter class Windows Storage Management API , described"]
+ms.assetid: A9B5BF06-4062-4244-9A27-9B4AC5ACEA00
+keywords:
+- MSFT_DiskToStorageReliabilityCounter class Windows Storage Management API
+- MSFT_DiskToStorageReliabilityCounter class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_name:
 - MSFT_DiskToStorageReliabilityCounter.StorageReliabilityCounter
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_DiskToStorageReliabilityCounter class

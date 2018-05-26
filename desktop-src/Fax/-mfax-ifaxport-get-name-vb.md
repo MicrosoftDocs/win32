@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Name property is a null-terminated string that contains the user-friendly display name for a fax port.'
-ms.assetid: 'f94a4330-6447-4f93-9f5e-1a1ec660064d'
-title: 'FaxPort.Name property'
+---
+Description: The Name property is a null-terminated string that contains the user-friendly display name for a fax port.
+ms.assetid: f94a4330-6447-4f93-9f5e-1a1ec660064d
+title: FaxPort.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Name property
@@ -55,10 +60,10 @@ Note that it is possible for multiple fax ports to have the same user-friendly n
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
 [**DeviceId**](-mfax-ifaxport-get-deviceid-vb.md)

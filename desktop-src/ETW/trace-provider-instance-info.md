@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines an instance of the provider GUID.'
-ms.assetid: '49c11cd5-2cb1-474a-8b51-2d86b4501da1'
-title: 'TRACE\_PROVIDER\_INSTANCE\_INFO structure'
+---
+Description: Defines an instance of the provider GUID.
+ms.assetid: 49c11cd5-2cb1-474a-8b51-2d86b4501da1
+title: TRACE\_PROVIDER\_INSTANCE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRACE\_PROVIDER\_INSTANCE\_INFO structure
@@ -56,7 +61,7 @@ Can be one of the following flags.
 
 | Value                                                                                                                                                                                                               | Meaning                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="TRACE_PROVIDER_FLAG_LEGACY"></span><span id="trace_provider_flag_legacy"></span><dl> <dt>**TRACE\_PROVIDER\_FLAG\_LEGACY**</dt> </dl>              | The provider used [**RegisterTraceGuids**](registertraceguids.md) instead of [**EventRegister**](eventregister-func.md) to register itself. <br/> |
+| <span id="TRACE_PROVIDER_FLAG_LEGACY"></span><span id="trace_provider_flag_legacy"></span><dl> <dt>**TRACE\_PROVIDER\_FLAG\_LEGACY**</dt> </dl>              | The provider used [**RegisterTraceGuids**](registertraceguids.md) instead of [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master) to register itself. <br/> |
 | <span id="TRACE_PROVIDER_FLAG_PRE_ENABLE"></span><span id="trace_provider_flag_pre_enable"></span><dl> <dt>**TRACE\_PROVIDER\_FLAG\_PRE\_ENABLE**</dt> </dl> | The provider is not registered; however, one or more sessions have enabled the provider.<br/>                                                       |
 
 

@@ -1,20 +1,25 @@
 ---
 Description: OPM Status Requests
-ms.assetid: '428d08c6-e9f0-49fb-9ef9-d0f95416669d'
+ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: OPM Status Requests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Status Requests
 
-This section lists the available status requests for [Output Protection Manager](output-protection-manager.md) (OPM). To send an OPM status request, call [**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md). For each request, the following information is listed.
+This section lists the available status requests for [Output Protection Manager](output-protection-manager.md) (OPM). To send an OPM status request, call [**IOPMVideoOutput::GetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-getinformation?branch=master). For each request, the following information is listed.
 
 
 
 |              |                                                                                                                                                            |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Request GUID | Identifies the request. Set the **guidSetting** member of the [**OPM\_GET\_INFO\_PARAMETERS**](opm-get-info-parameters.md) structure equal to this value. |
-| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_GET\_INFO\_PARAMETERS**](opm-get-info-parameters.md) structure.                      |
-| Output data  | Specifies how to interpret the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](opm-requested-information.md) structure.         |
+| Request GUID | Identifies the request. Set the **guidSetting** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_get_info_parameters?branch=master) structure equal to this value. |
+| Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_get_info_parameters?branch=master) structure.                      |
+| Output data  | Specifies how to interpret the **abRequestedInformation** array in the [**OPM\_REQUESTED\_INFORMATION**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_requested_information?branch=master) structure.         |
 
 
 

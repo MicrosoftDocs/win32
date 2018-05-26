@@ -1,12 +1,17 @@
 ---
-Description: 'Windows GDI+ provides the Image class and the Bitmap class for storing images in memory and manipulating images in memory.'
-ms.assetid: 'f9a5b4b1-4e25-42c8-a96b-a3104841e5f3'
+Description: Windows GDI+ provides the Image class and the Bitmap class for storing images in memory and manipulating images in memory.
+ms.assetid: f9a5b4b1-4e25-42c8-a96b-a3104841e5f3
 title: Using Image Encoders and Decoders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Image Encoders and Decoders
 
-Windows GDI+ provides the [**Image**](-gdiplus-class-image-class.md) class and the [**Bitmap**](-gdiplus-class-bitmap-class.md) class for storing images in memory and manipulating images in memory. GDI+ writes images to disk files with the help of image encoders and loads images from disk files with the help of image decoders. An encoder translates the data in an **Image** or **Bitmap** object into a designated disk file format. A decoder translates the data in a disk file to the format required by the **Image** and **Bitmap** objects. GDI+ has built-in encoders and decoders that support the following file types:
+Windows GDI+ provides the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class and the [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) class for storing images in memory and manipulating images in memory. GDI+ writes images to disk files with the help of image encoders and loads images from disk files with the help of image decoders. An encoder translates the data in an **Image** or **Bitmap** object into a designated disk file format. A decoder translates the data in a disk file to the format required by the **Image** and **Bitmap** objects. GDI+ has built-in encoders and decoders that support the following file types:
 
 -   BMP
 -   GIF

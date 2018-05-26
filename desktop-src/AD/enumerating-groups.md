@@ -4,11 +4,15 @@ description: This section contains the following information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '92e8a6e9-616a-4d95-a8c8-ed972530a560'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 92e8a6e9-616a-4d95-a8c8-ed972530a560
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["groups AD ,enumerating"]
+keywords:
+- groups AD ,enumerating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Groups

@@ -4,11 +4,15 @@ description: This topic contains VB and C++ code samples that demonstrate how to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c4acc848-f89e-4cd1-905a-2ed20443b03c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c4acc848-f89e-4cd1-905a-2ed20443b03c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Reading a Constructed Attribute ADSI"]
+keywords:
+- Example Code for Reading a Constructed Attribute ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Reading a Constructed Attribute

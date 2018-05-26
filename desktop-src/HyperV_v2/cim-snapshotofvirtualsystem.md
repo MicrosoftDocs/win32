@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual system a snapshot of the virtual system.'
-ms.assetid: 'f85f6914-dbb8-42c9-a732-11d48613c15c'
-title: 'CIM\_SnapshotOfVirtualSystem class'
+Description: Associates a virtual system a snapshot of the virtual system.
+ms.assetid: f85f6914-dbb8-42c9-a732-11d48613c15c
+title: CIM\_SnapshotOfVirtualSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SnapshotOfVirtualSystem class
@@ -14,7 +19,7 @@ Associates a virtual system a snapshot of the virtual system.
 [Association, Abstract, Version("2.22.0"), AMENDMENT]
 class CIM_SnapshotOfVirtualSystem : CIM_Dependency
 {
-  CIM_ComputerSystem           REF Antecedent;
+  CIM_ComputerSystem           REF Antecedent;
   CIM_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ A reference to the settings data object that represents the snapshot of the virt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A reference to the settings data object that represents the snapshot of the virt
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

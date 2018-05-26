@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how a Media Foundation transform (MFT) should handle format changes during streaming.'
-ms.assetid: 'b0a94760-b4dd-4e50-a5ce-a1f674dde156'
+Description: This topic describes how a Media Foundation transform (MFT) should handle format changes during streaming.
+ms.assetid: b0a94760-b4dd-4e50-a5ce-a1f674dde156
 title: Handling Stream Changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Stream Changes
@@ -42,13 +47,13 @@ The remainder of this topic describes how the client should process a format cha
 
 Any MFT can initiate a change to its output type, as follows:
 
-1.  The client calls [**IMFTransform::ProcessOutput**](imftransform-processoutput.md). The MFT responds as follows:
-    1.  The MFT does not produce an output sample in [**ProcessOutput**](imftransform-processoutput.md).
-    2.  The MFT sets the **MFT\_OUTPUT\_DATA\_BUFFER\_FORMAT\_CHANGE** flag in the **dwStatus** member of the [**MFT\_OUTPUT\_DATA\_BUFFER**](mft-output-data-buffer.md) structure.
-    3.  The [**ProcessOutput**](imftransform-processoutput.md) method returns the error code **MF\_E\_TRANSFORM\_STREAM\_CHANGE**.
-2.  The client calls [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md). This method returns an updated set of output types.
-3.  The client calls [**SetOutputType**](imftransform-setoutputtype.md) to set a new output type.
-4.  The client resumes calling [**ProcessInput**](imfqualitymanager-notifyprocessinput.md)/[**ProcessOutput**](imftransform-processoutput.md).
+1.  The client calls [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master). The MFT responds as follows:
+    1.  The MFT does not produce an output sample in [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master).
+    2.  The MFT sets the **MFT\_OUTPUT\_DATA\_BUFFER\_FORMAT\_CHANGE** flag in the **dwStatus** member of the [**MFT\_OUTPUT\_DATA\_BUFFER**](/windows/win32/mftransform/ns-mftransform-_mft_output_data_buffer?branch=master) structure.
+    3.  The [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method returns the error code **MF\_E\_TRANSFORM\_STREAM\_CHANGE**.
+2.  The client calls [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master). This method returns an updated set of output types.
+3.  The client calls [**SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) to set a new output type.
+4.  The client resumes calling [**ProcessInput**](/windows/win32/mfidl/nf-mfidl-imfqualitymanager-notifyprocessinput?branch=master)/[**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master).
 
 ### Input Type
 
@@ -67,31 +72,31 @@ The exact sequence of events depends on the value of the [**MFT\_SUPPORT\_DYNAMI
 
  
 
-An MFT exposes this attribute through its [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method. The default value of this attribute is **FALSE**; if the MFT does not set the attribute, treat the value as **FALSE**.
+An MFT exposes this attribute through its [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method. The default value of this attribute is **FALSE**; if the MFT does not set the attribute, treat the value as **FALSE**.
 
 **MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE is FALSE**
 
 1.  The client sends the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message.
-2.  The client drains the MFT by calling [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) until **ProcessOutput** returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**.
-3.  The client calls [**IMFTransform::SetInputType**](imftransform-setinputtype.md) to set the new input type.
-4.  The MFT validates the input type. If the type is invalid, [**SetInputType**](imftransform-setinputtype.md) returns **MF\_E\_INVALIDMEDIATYPE** or another error code. Otherwise, **SetInputType** returns S\_OK.
+2.  The client drains the MFT by calling [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) until **ProcessOutput** returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**.
+3.  The client calls [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) to set the new input type.
+4.  The MFT validates the input type. If the type is invalid, [**SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) returns **MF\_E\_INVALIDMEDIATYPE** or another error code. Otherwise, **SetInputType** returns S\_OK.
 5.  Assuming the input type is valid, the MFT evaluates whether the output type also changes. If not, streaming continues, and no further action is required.
 6.  If the output type changes:
     1.  The MFT invalidates its current output media type, and updates the list of available output media types.
-    2.  The next call to [**ProcessOutput**](imftransform-processoutput.md) returns **MF\_E\_TRANSFORM\_STREAM\_CHANGE**, as described in the previous section.
-    3.  The client calls [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) to get the updated list of output types.
-    4.  The client calls [**SetOutputType**](imftransform-setoutputtype.md).
+    2.  The next call to [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) returns **MF\_E\_TRANSFORM\_STREAM\_CHANGE**, as described in the previous section.
+    3.  The client calls [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) to get the updated list of output types.
+    4.  The client calls [**SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master).
 
 **MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE is TRUE**
 
-1.  The client calls [**IMFTransform::SetInputType**](imftransform-setinputtype.md) to set the new input type.
-2.  The MFT validates the input type. If the type is invalid, [**SetInputType**](imftransform-setinputtype.md) returns **MF\_E\_INVALIDMEDIATYPE** or another error code. Otherwise, **SetInputType** returns S\_OK.
+1.  The client calls [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) to set the new input type.
+2.  The MFT validates the input type. If the type is invalid, [**SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) returns **MF\_E\_INVALIDMEDIATYPE** or another error code. Otherwise, **SetInputType** returns S\_OK.
 3.  Assuming the input type is valid, the MFT evaluates whether the output type also changes. If not, streaming continues, and no further action is required.
 4.  Before the output type changes, the MFT must process any cached input samples, as follows:
     1.  The MFT does not invalidate its current output type.
     2.  The MFT produces as much output as it can from the cached input samples.
     3.  It is optional whether the MFT accepts new input samples while it processes the cached samples. If so, the new input samples will use the new input format, so the MFT must keep track of the point when the format changed.
-5.  After the MFT processes all of the samples that it received before the input type changed, the [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) returns **MF\_E\_TRANSFORM\_STREAM\_CHANGE**.
+5.  After the MFT processes all of the samples that it received before the input type changed, the [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) returns **MF\_E\_TRANSFORM\_STREAM\_CHANGE**.
 6.  The MFT invalidates its current output type, and updates the list of available output media types.
 7.  The client negotiates the new output type, as described previously.
 

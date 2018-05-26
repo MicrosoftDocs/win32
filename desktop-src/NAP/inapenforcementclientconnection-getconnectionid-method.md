@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection GetConnectionId method
 description: Is used to get the unique connection ID of the client.
-ms.assetid: 'bf744aa6-5786-473f-9508-db4ee0c75578'
-keywords: ["GetConnectionId method NAP", "GetConnectionId method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , GetConnectionId method"]
+ms.assetid: bf744aa6-5786-473f-9508-db4ee0c75578
+keywords:
+- GetConnectionId method NAP
+- GetConnectionId method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , GetConnectionId method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::GetConnectionId method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::GetConnectionId** method is used to get the unique connection ID of the client.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::GetConnectionId** method is used to get t
 
 ```C++
 HRESULT GetConnectionId(
-  [out] ConnectionId **connectionId
+  [out] ConnectionId **connectionId
 );
 ```
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ The connection ID is primarily used for logging purposes.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -85,9 +93,9 @@ The connection ID is primarily used for logging purposes.
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

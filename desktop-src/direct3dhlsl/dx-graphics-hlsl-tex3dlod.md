@@ -1,14 +1,20 @@
 ---
 title: tex3Dlod
 description: Samples a 3D texture with mipmaps. The mipmap LOD is specified in t.w.
-ms.assetid: '9bdd8fa1-8c02-4765-8f4d-61ceb532354e'
-keywords: ["tex3Dlod HLSL"]
+ms.assetid: 9bdd8fa1-8c02-4765-8f4d-61ceb532354e
+keywords:
+- tex3Dlod HLSL
 topic_type:
 - apiref
 api_name:
 - tex3Dlod
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex3Dlod
@@ -22,7 +28,7 @@ Samples a 3D texture with mipmaps. The mipmap LOD is specified in t.w.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 3D texture with mipmaps. The mipmap LOD is specified in t.w.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: DRM\_LICENSE\_STATE\_CATEGORY enumeration
 description: The DRM\_LICENSE\_STATE\_CATEGORY enumeration type specifies the type of license restriction that is described by a DRM\_LICENSE\_STATE\_DATA structure.
-ms.assetid: '51258be9-2f4d-4f25-97f7-2cac6c155ade'
-keywords: ["DRM_LICENSE_STATE_CATEGORY enumeration windows Media Format"]
+ms.assetid: 51258be9-2f4d-4f25-97f7-2cac6c155ade
+keywords:
+- DRM_LICENSE_STATE_CATEGORY enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_LICENSE\_STATE\_CATEGORY enumeration
@@ -22,7 +28,7 @@ The **DRM\_LICENSE\_STATE\_CATEGORY** enumeration type specifies the type of lic
 
 ```C++
 typedef enum DRM_LICENSE_STATE_CATEGORY { 
-  WM_DRM_LICENSE_STATE_NORIGHT                    = 0,
+  WM_DRM_LICENSE_STATE_NORIGHT                    = 0,
   WM_DRM_LICENSE_STATE_UNLIM,
   WM_DRM_LICENSE_STATE_COUNT,
   WM_DRM_LICENSE_STATE_FROM,
@@ -132,9 +138,9 @@ None.
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

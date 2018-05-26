@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SystemExportSettingData class
 description: Associates a virtual system and its export setting data.
-ms.assetid: 'eac54cf3-4216-42d8-af60-012ebe951f07'
-keywords: ["Msvm_SystemExportSettingData class Hyper-V", "Msvm_SystemExportSettingData class Hyper-V , described"]
+ms.assetid: eac54cf3-4216-42d8-af60-012ebe951f07
+keywords:
+- Msvm_SystemExportSettingData class Hyper-V
+- Msvm_SystemExportSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemExportSettingData class
@@ -32,12 +39,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemExportSettingData : CIM_ElementSettingData
 {
-  uint16                                  IsDefault;
-  uint16                                  IsCurrent;
-  uint16                                  IsNext;
-  uint16                                  IsMaximum = 0;
-  uint16                                  IsMinimum = 0;
-  Msvm_ComputerSystem                 REF ManagedElement;
+  uint16                                  IsDefault;
+  uint16                                  IsCurrent;
+  uint16                                  IsNext;
+  uint16                                  IsMaximum = 0;
+  uint16                                  IsMinimum = 0;
+  Msvm_ComputerSystem                 REF ManagedElement;
   Msvm_VirtualSystemExportSettingData REF SettingData;
 };
 ```
@@ -337,17 +344,17 @@ Access to the **Msvm\_SystemExportSettingData** class might be restricted by UAC
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                    |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

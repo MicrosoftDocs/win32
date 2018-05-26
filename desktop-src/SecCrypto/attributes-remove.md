@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes an indexed Attribute object from the collection.'
-ms.assetid: '6d9423e3-ab24-4973-b0aa-32e38abd607a'
-title: 'Attributes.Remove method'
+---
+Description: Removes an indexed Attribute object from the collection.
+ms.assetid: 6d9423e3-ab24-4973-b0aa-32e38abd607a
+title: Attributes.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes.Remove method

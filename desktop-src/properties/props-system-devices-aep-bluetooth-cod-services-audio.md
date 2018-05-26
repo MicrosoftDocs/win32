@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth class of device service audio.'
-ms.assetid: '0c9c1b43-d33f-43cb-a17e-8433ada42395'
-title: 'System.Devices.Aep.Bluetooth.Cod.Services.Audio'
+Description: Bluetooth class of device service audio.
+ms.assetid: 0c9c1b43-d33f-43cb-a17e-8433ada42395
+title: System.Devices.Aep.Bluetooth.Cod.Services.Audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Bluetooth.Cod.Services.Audio

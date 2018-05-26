@@ -1,7 +1,12 @@
 ---
-Description: 'The Render method renders a sample.'
-ms.assetid: '82b47777-2900-4821-ab79-1856da432832'
-title: 'CBaseRenderer.Render method'
+Description: The Render method renders a sample.
+ms.assetid: 82b47777-2900-4821-ab79-1856da432832
+title: CBaseRenderer.Render method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Render method
@@ -13,7 +18,7 @@ The `Render` method renders a sample.
 
 ```C++
 virtual Render(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual Render(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ Immediately before calling **DoRenderSample**, this method calls the [**CBaseRen
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: State Information Reference
 description: The following list contains the functions that get state information.
-ms.assetid: '8ff75690-41ed-43cf-a000-1893755163f4'
-keywords: ["OpenGL,state information reference"]
+ms.assetid: 8ff75690-41ed-43cf-a000-1893755163f4
+keywords:
+- OpenGL,state information reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # State Information Reference

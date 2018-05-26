@@ -4,17 +4,21 @@ description: The FILEMGMT\_SNAPIN\_SESSION\_USER\_NAME clipboard format returns 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '526d5cd3-ea72-40e3-ab66-7a593183ef97'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 526d5cd3-ea72-40e3-ab66-7a593183ef97
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["FILEMGMT_SNAPIN_SESSION_USER_NAME clipboard format MMC"]
+keywords:
+- FILEMGMT_SNAPIN_SESSION_USER_NAME clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - FILEMGMT_SNAPIN_SESSION_USER_NAME
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FILEMGMT\_SNAPIN\_SESSION\_USER\_NAME clipboard format

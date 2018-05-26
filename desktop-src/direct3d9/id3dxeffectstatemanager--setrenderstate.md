@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback function that must be implemented by a user to set render state.'
-ms.assetid: 'a5a27e30-c141-44a4-b8d4-38c1d6076b2a'
-title: 'ID3DXEffectStateManager::SetRenderState method'
+---
+Description: A callback function that must be implemented by a user to set render state.
+ms.assetid: a5a27e30-c141-44a4-b8d4-38c1d6076b2a
+title: ID3DXEffectStateManagerSetRenderState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectStateManager::SetRenderState method
@@ -49,7 +54,7 @@ Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master)) will fail.
 
 ## Requirements
 

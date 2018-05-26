@@ -1,7 +1,12 @@
 ---
-Description: 'The SetGuidValue method adds a new GUID value (type VT\_CLSID) or overwrites an existing one.'
-ms.assetid: '429a83c0-59b6-4e2f-a657-cbec1dfb9070'
-title: 'IPortableDeviceValues::SetGuidValue method'
+Description: The SetGuidValue method adds a new GUID value (type VT\_CLSID) or overwrites an existing one.
+ms.assetid: 429a83c0-59b6-4e2f-a657-cbec1dfb9070
+title: IPortableDeviceValuesSetGuidValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetGuidValue method
@@ -13,8 +18,8 @@ The **SetGuidValue** method adds a new **GUID** value (type VT\_CLSID) or overwr
 
 ```C++
 HRESULT SetGuidValue(
-  [in] REFPROPERTYKEY key,
-  [in] REFGUID        Value
+  [in] REFPROPERTYKEY key,
+  [in] REFGUID        Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +85,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetGuidValue**](iportabledevicevalues-getguidvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

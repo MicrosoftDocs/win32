@@ -1,12 +1,17 @@
 ---
 title: Accessing Members Through VTBLs
 description: Demonstrates how to access a member through its vtable.
-ms.assetid: 'ad374979-d7a8-47a9-985c-3d9b5f188b5c'
+ms.assetid: ad374979-d7a8-47a9-985c-3d9b5f188b5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing Members Through VTBLs
 
-For objects that have dual interfaces, the first seven members of the VTBL are the members of **IUnknown** and [**IDispatch**](idispatch.md), and the subsequent members are standard COM entries for the interface's member functions. You can call these entries directly from C++.
+For objects that have dual interfaces, the first seven members of the VTBL are the members of **IUnknown** and [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master), and the subsequent members are standard COM entries for the interface's member functions. You can call these entries directly from C++.
 
 ## To access a method or property through the VTBL
 
@@ -55,7 +60,7 @@ OleUninitialize();
 
 The example initializes OLE, and then calls the **CLSIDFromProgID** function to obtain the class identifier (CLSID) for the Hello application. With the CLSID, the example can call **CoCreateInstance** to create an instance of the Hello Application object. **CoCreateInstance** returns a pointer to the object's **IUnknown** interface (punk), and this, in turn, is used to call **QueryInterface** to get pHello, a pointer to the IID\_IHello dual interface. The punk is no longer needed, so the example releases it. The example then sets the value of the **Visible** property to **True**.
 
-The values returned in the hr variable should be tested for error codes. If any of the function calls return an error HRESULT, you can get detailed, contextual information through the [**IErrorInfo**](ierrorinfo.md) interface. For details see [Error Handling Interfaces](error-handling-interfaces.md).
+The values returned in the hr variable should be tested for error codes. If any of the function calls return an error HRESULT, you can get detailed, contextual information through the [**IErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-ierrorinfo?branch=master) interface. For details see [Error Handling Interfaces](error-handling-interfaces.md).
 
  
 

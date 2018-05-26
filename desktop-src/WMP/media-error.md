@@ -1,8 +1,9 @@
 ---
 title: Media.error
 description: The error property retrieves an ErrorItem object if the media item has an error condition.
-ms.assetid: 'cd572688-12f9-4615-8f22-9442d615a2b6'
-keywords: ["Media.error Windows Media Player"]
+ms.assetid: cd572688-12f9-4615-8f22-9442d615a2b6
+keywords:
+- Media.error Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.error
@@ -50,9 +56,9 @@ If the media item cannot be played, this property retrieves an **ErrorItem** obj
 [**Media Object**](media-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

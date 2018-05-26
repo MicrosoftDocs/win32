@@ -4,13 +4,15 @@ description: Represents the instance value of a metric defined by an instance of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64d67945-651f-4695-a0df-bba38d3d61e5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64d67945-651f-4695-a0df-bba38d3d61e5
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AggregationMetricValue class", "CIM_AggregationMetricValue class, described"]
+keywords:
+- CIM_AggregationMetricValue class
+- CIM_AggregationMetricValue class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AggregationMetricValue class
@@ -47,18 +52,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Metrics::BaseMetric")]
 class CIM_AggregationMetricValue : CIM_BaseMetricValue
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   InstanceID;
-  string   MetricDefinitionId;
-  string   MeasuredElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   InstanceID;
+  string   MetricDefinitionId;
+  string   MeasuredElementName;
   datetime TimeStamp;
   datetime Duration;
-  string   MetricValue;
-  string   BreakdownDimension;
-  string   BreakdownValue;
-  boolean  Volatile;
+  string   MetricValue;
+  string   BreakdownDimension;
+  string   BreakdownValue;
+  boolean  Volatile;
   datetime AggregationTimeStamp;
   datetime AggregationDuration;
 };
@@ -230,7 +235,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_BaseMetricValue**](cim-basemetricvalue.md).
 
@@ -333,7 +338,7 @@ This property is inherited from [**CIM\_BaseMetricValue**](cim-basemetricvalue.m
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -350,9 +355,9 @@ This property is inherited from [**CIM\_BaseMetricValue**](cim-basemetricvalue.m
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

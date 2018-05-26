@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'e9d833cd-29d6-4c71-ba90-8d7dcf934420'
+---
+Description: .
+ms.assetid: e9d833cd-29d6-4c71-ba90-8d7dcf934420
 title: InitializeMonitor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializeMonitor function

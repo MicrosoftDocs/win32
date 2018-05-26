@@ -1,7 +1,12 @@
 ---
 title: Creating Query Forms
 description: Creating Query Forms
-ms.assetid: '40615954-2ec8-4abc-b7d8-88e68c88e0c9'
+ms.assetid: 40615954-2ec8-4abc-b7d8-88e68c88e0c9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Query Forms

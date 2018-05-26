@@ -1,8 +1,10 @@
 ---
 title: INetFwV6ConnectionCollection interface
 description: The INetFwV6ConnectionCollection interface is a standard Automation collection for the INetFwV6Connection interface.
-ms.assetid: '3e9f63f1-a201-4174-934b-62fdfe87ecca'
-keywords: ["INetFwV6ConnectionCollection interface ICS/ICF", "INetFwV6ConnectionCollection interface ICS/ICF , described"]
+ms.assetid: 3e9f63f1-a201-4174-934b-62fdfe87ecca
+keywords:
+- INetFwV6ConnectionCollection interface ICS/ICF
+- INetFwV6ConnectionCollection interface ICS/ICF , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6ConnectionCollection interface
@@ -39,7 +46,7 @@ The **INetFwV6ConnectionCollection** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -54,7 +61,7 @@ The **INetFwV6ConnectionCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,10 +69,10 @@ The **INetFwV6ConnectionCollection** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -90,9 +97,9 @@ The **INetFwV6ConnectionCollection** interface has these properties.
 [IUnknown](_com_iunknown)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

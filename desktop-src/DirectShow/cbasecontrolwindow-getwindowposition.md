@@ -1,7 +1,12 @@
 ---
-Description: 'The GetWindowPosition method retrieves the current coordinates for the window.'
-ms.assetid: 'a2f46a87-b2cd-450f-8d2b-0f8695432fda'
-title: 'CBaseControlWindow.GetWindowPosition method'
+Description: The GetWindowPosition method retrieves the current coordinates for the window.
+ms.assetid: a2f46a87-b2cd-450f-8d2b-0f8695432fda
+title: CBaseControlWindow.GetWindowPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.GetWindowPosition method
@@ -13,10 +18,10 @@ The `GetWindowPosition` method retrieves the current coordinates for the window.
 
 ```C++
 HRESULT GetWindowPosition(
-   long *pLeft,
-   long *pTop,
-   long *pWidth,
-   long *pHeight
+   long *pLeft,
+   long *pTop,
+   long *pWidth,
+   long *pHeight
 );
 ```
 
@@ -76,9 +81,9 @@ Returns an **HRESULT** value.
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

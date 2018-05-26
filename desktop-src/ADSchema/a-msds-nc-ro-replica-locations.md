@@ -4,17 +4,22 @@ description: A linked attribute on a cross reference object for a partition. Lis
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2473f201-abf7-4fb1-b005-c8db528aeab8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2473f201-abf7-4fb1-b005-c8db528aeab8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-NC-RO-Replica-Locations attribute AD Schema", "msDS-NC-RO-Replica-Locations attribute AD Schema"]
+keywords:
+- ms-DS-NC-RO-Replica-Locations attribute AD Schema
+- msDS-NC-RO-Replica-Locations attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-NC-RO-Replica-Locations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-NC-RO-Replica-Locations attribute
@@ -38,9 +43,9 @@ A linked attribute on a cross reference object for a partition. Lists the DC tha
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ A linked attribute on a cross reference object for a partition. Lists the DC tha
 
 
 
- 
+ 
 
- 
+ 
 
 
 

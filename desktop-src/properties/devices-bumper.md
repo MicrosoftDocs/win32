@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '9e744e0c-a59d-47db-a785-026698d54ee0'
+---
+Description: .
+ms.assetid: 9e744e0c-a59d-47db-a785-026698d54ee0
 title: Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Devices

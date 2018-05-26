@@ -1,7 +1,12 @@
 ---
 title: Toolbar Control Constants
 description: .
-ms.assetid: '8c38a806-d9fd-4050-be34-9c0daa7180dd'
+ms.assetid: 8c38a806-d9fd-4050-be34-9c0daa7180dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toolbar Control Constants

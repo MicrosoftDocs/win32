@@ -1,8 +1,11 @@
 ---
 title: SaveProperties method of the Msvm\_TimeSyncComponent class
 description: Saves the configuration and state of the logical device.
-ms.assetid: 'b36ba8a9-27ec-4994-ba36-eaceef82cdec'
-keywords: ["SaveProperties method Hyper-V", "SaveProperties method Hyper-V , Msvm_TimeSyncComponent class", "Msvm_TimeSyncComponent class Hyper-V , SaveProperties method"]
+ms.assetid: b36ba8a9-27ec-4994-ba36-eaceef82cdec
+keywords:
+- SaveProperties method Hyper-V
+- SaveProperties method Hyper-V , Msvm_TimeSyncComponent class
+- Msvm_TimeSyncComponent class Hyper-V , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveProperties method of the Msvm\_TimeSyncComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_TimeSyncComponent**](msvm-timesynccomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

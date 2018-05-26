@@ -1,7 +1,12 @@
 ---
-Description: 'The FindI method retrieves the first position that holds the specified item.'
-ms.assetid: 'a95fac19-0f93-4bb4-8e76-0da82745a1d2'
-title: 'CBaseList.FindI method'
+Description: The FindI method retrieves the first position that holds the specified item.
+ms.assetid: a95fac19-0f93-4bb4-8e76-0da82745a1d2
+title: CBaseList.FindI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.FindI method
@@ -13,7 +18,7 @@ The `FindI` method retrieves the first position that holds the specified item.
 
 ```C++
 POSITION FindI(
-   void *pObj
+   void *pObj
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a POSITION value, or **NULL** if the item is not in the list.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

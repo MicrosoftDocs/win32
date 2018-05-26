@@ -1,8 +1,14 @@
 ---
 title: Command Help
 description: Commands in NetShell helpers should provide a common method of providing help. If the command show adapters is a valid operation, then show adapters should provide useful help that describes how to complete the command.
-ms.assetid: 'd4ecccd9-9987-4e5d-8f9d-290348b39dae'
-keywords: ["helper NetSh , command syntax, command help"]
+ms.assetid: d4ecccd9-9987-4e5d-8f9d-290348b39dae
+keywords:
+- helper NetSh , command syntax, command help
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Help

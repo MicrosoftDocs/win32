@@ -1,7 +1,12 @@
 ---
-Description: 'These constants define values that specify the type of IContextNode objects.'
-ms.assetid: '333db79e-f503-4545-84fd-7c1a39a96728'
+Description: These constants define values that specify the type of IContextNode objects.
+ms.assetid: 333db79e-f503-4545-84fd-7c1a39a96728
 title: Context Node Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Context Node Types
@@ -111,7 +116,7 @@ For more information about the different context node types, see [Ink Analysis O
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | None supported<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Iaguid.h</dt> </dl> |
 
@@ -148,9 +153,9 @@ For more information about the different context node types, see [Ink Analysis O
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

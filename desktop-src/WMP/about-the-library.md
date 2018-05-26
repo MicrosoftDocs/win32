@@ -1,8 +1,23 @@
 ---
 title: About the Library
 description: About the Library
-ms.assetid: 'a43c57ac-deb4-4c86-a8a2-bcfd214b9d0a'
-keywords: ["Windows Media Player,library", "Windows Media Player object model,library", "object model,library", "Windows Media Player ActiveX control,library for object model", "ActiveX control,library for object model", "Windows Media Player Mobile ActiveX control,library for object model", "Windows Media Player Mobile,library for object model", "Windows Media Player library,about", "library,about", "metadata,Windows Media Player library"]
+ms.assetid: a43c57ac-deb4-4c86-a8a2-bcfd214b9d0a
+keywords:
+- Windows Media Player,library
+- Windows Media Player object model,library
+- object model,library
+- Windows Media Player ActiveX control,library for object model
+- ActiveX control,library for object model
+- Windows Media Player Mobile ActiveX control,library for object model
+- Windows Media Player Mobile,library for object model
+- Windows Media Player library,about
+- library,about
+- metadata,Windows Media Player library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Library

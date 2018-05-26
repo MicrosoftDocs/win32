@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculates the inverse of a matrix.'
-ms.assetid: 'b8cad5c5-caa5-4426-b045-1770f8806b6b'
+---
+Description: Calculates the inverse of a matrix.
+ms.assetid: b8cad5c5-caa5-4426-b045-1770f8806b6b
 title: D3DXMatrixInverse function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixInverse function

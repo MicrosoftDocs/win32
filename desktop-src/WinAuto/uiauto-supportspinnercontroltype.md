@@ -1,8 +1,29 @@
 ---
 title: Spinner Control Type
 description: This topic provides information about Microsoft UI Automation support for the Spinner control type.
-ms.assetid: '28673ad5-645d-4314-96c4-81a951226256'
-keywords: ["UI Automation,support for Spinner control type", "UI Automation,Spinner control type", "UI Automation,tree structure for Spinner control type", "UI Automation,properties for Spinner control type", "UI Automation,control patterns for Spinner control type", "UI Automation,events for Spinner control type", "tree structures,Spinner control type", "properties,Spinner control type", "control patterns,Spinner control type", "events,Spinner control type", "support for Spinner control type", "Spinner control type", "control types,tree structure for Spinner control type", "control types,control patterns for Spinner control type", "control types,support for Spinner", "control types,Spinner"]
+ms.assetid: 28673ad5-645d-4314-96c4-81a951226256
+keywords:
+- UI Automation,support for Spinner control type
+- UI Automation,Spinner control type
+- UI Automation,tree structure for Spinner control type
+- UI Automation,properties for Spinner control type
+- UI Automation,control patterns for Spinner control type
+- UI Automation,events for Spinner control type
+- tree structures,Spinner control type
+- properties,Spinner control type
+- control patterns,Spinner control type
+- events,Spinner control type
+- support for Spinner control type
+- Spinner control type
+- control types,tree structure for Spinner control type
+- control types,control patterns for Spinner control type
+- control types,support for Spinner
+- control types,Spinner
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spinner Control Type
@@ -132,10 +153,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                         | Support/Value | Notes                                                                                                                                     |
 |--------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IRangeValueProvider**](uiauto-irangevalueprovider.md)                | Depends       | Spinner controls that span a numeric range can support the [RangeValue](uiauto-implementingrangevalue.md) control pattern.               |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md)                  | Depends       | Spinner controls that have a list of items to be selected must support the [Selection](uiauto-implementingselection.md) control pattern. |
-| [**CanSelectMultiple**](uiauto-iselectionprovider-canselectmultiple.md) | FALSE         | Spinner controls are always single selection containers.                                                                                  |
-| [**IValueProvider**](uiauto-ivalueprovider.md)                          | Depends       | Spinner controls that span a descrete set of options or numbers can support the [Value](uiauto-implementingvalue.md) control pattern.    |
+| [**IRangeValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irangevalueprovider?branch=master)                | Depends       | Spinner controls that span a numeric range can support the [RangeValue](uiauto-implementingrangevalue.md) control pattern.               |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master)                  | Depends       | Spinner controls that have a list of items to be selected must support the [Selection](uiauto-implementingselection.md) control pattern. |
+| [**CanSelectMultiple**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple?branch=master) | FALSE         | Spinner controls are always single selection containers.                                                                                  |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)                          | Depends       | Spinner controls that span a descrete set of options or numbers can support the [Value](uiauto-implementingvalue.md) control pattern.    |
 
 
 

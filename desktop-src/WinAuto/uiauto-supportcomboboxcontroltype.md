@@ -1,8 +1,29 @@
 ---
 title: ComboBox Control Type
 description: This topic provides information about Microsoft UI Automation support for the ComboBox control type.
-ms.assetid: 'e7c64dc1-e1e3-4f99-adde-d0d63eb6c4c9'
-keywords: ["UI Automation,support for ComboBox control type", "UI Automation,ComboBox control type", "UI Automation,tree structure for ComboBox control type", "UI Automation,properties for ComboBox control type", "UI Automation,control patterns for ComboBox control type", "UI Automation,events for ComboBox control type", "tree structures,ComboBox control type", "properties,ComboBox control type", "control patterns,ComboBox control type", "events,ComboBox control type", "support for ComboBox control type", "ComboBox control type", "control types,tree structure for ComboBox control type", "control types,control patterns for ComboBox control type", "control types,support for ComboBox", "control types,ComboBox"]
+ms.assetid: e7c64dc1-e1e3-4f99-adde-d0d63eb6c4c9
+keywords:
+- UI Automation,support for ComboBox control type
+- UI Automation,ComboBox control type
+- UI Automation,tree structure for ComboBox control type
+- UI Automation,properties for ComboBox control type
+- UI Automation,control patterns for ComboBox control type
+- UI Automation,events for ComboBox control type
+- tree structures,ComboBox control type
+- properties,ComboBox control type
+- control patterns,ComboBox control type
+- events,ComboBox control type
+- support for ComboBox control type
+- ComboBox control type
+- control types,tree structure for ComboBox control type
+- control types,control patterns for ComboBox control type
+- control types,support for ComboBox
+- control types,ComboBox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComboBox Control Type
@@ -97,10 +118,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support  | Notes                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Required | The [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern must be supported because a combo box control must always contain a drop-down button.                                                                                                                                                                                |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md)           | Depends  | Displays the current selection in the combo box. Support for the [Selection](uiauto-implementingselection.md) control pattern is delegated to the list box beneath the combo box, but may not always be feasible.                                                                                                                               |
-| [**IValueProvider**](uiauto-ivalueprovider.md)                   | Depends  | If the combo box can take arbitrary text values, the [Value](uiauto-implementingvalue.md) control pattern must be supported. This pattern enables the string contents of the combo box to be set programmatically. If the Value control pattern is not supported, the user must select from the list items within the subtree of the combo box. |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)                 | Never    | The [Scroll](uiauto-implementingscroll.md) control pattern is never supported directly on a combo box. It is supported if a list box contained within a combo box can scroll, and only when the list box is visible on the screen.                                                                                                              |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Required | The [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern must be supported because a combo box control must always contain a drop-down button.                                                                                                                                                                                |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master)           | Depends  | Displays the current selection in the combo box. Support for the [Selection](uiauto-implementingselection.md) control pattern is delegated to the list box beneath the combo box, but may not always be feasible.                                                                                                                               |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)                   | Depends  | If the combo box can take arbitrary text values, the [Value](uiauto-implementingvalue.md) control pattern must be supported. This pattern enables the string contents of the combo box to be set programmatically. If the Value control pattern is not supported, the user must select from the list items within the subtree of the combo box. |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)                 | Never    | The [Scroll](uiauto-implementingscroll.md) control pattern is never supported directly on a combo box. It is supported if a list box contained within a combo box can scroll, and only when the list box is visible on the screen.                                                                                                              |
 
 
 

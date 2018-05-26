@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the OutOfDiskSpace property to TRUE if any volume that is a target of the current installation has insufficient disk space to accommodate the installation.'
-ms.assetid: 'fb1e3be7-12dd-4036-b657-b91b480fca4a'
+---
+Description: The installer sets the OutOfDiskSpace property to TRUE if any volume that is a target of the current installation has insufficient disk space to accommodate the installation.
+ms.assetid: fb1e3be7-12dd-4036-b657-b91b480fca4a
 title: OutOfDiskSpace property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OutOfDiskSpace property

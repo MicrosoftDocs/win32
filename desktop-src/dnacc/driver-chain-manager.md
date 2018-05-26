@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '4cbe0dbb-de18-4732-b4d7-b892b816b459'
+ms.assetid: 4cbe0dbb-de18-4732-b4d7-b892b816b459
 title: Driver Chain Manager in Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Driver Chain Manager in Windows XP

@@ -1,8 +1,33 @@
 ---
 title: Using the Windows Media Player Control with Microsoft Visual Studio
 description: Using the Windows Media Player Control with Microsoft Visual Studio
-ms.assetid: 'e007876e-f215-4976-8a70-018fedc0e67d'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,.NET Framework", "Windows Media Player object model,.NET Framework", "object model,.NET Framework", "Windows Media Player Mobile,.NET Framework", "Windows Media Player ActiveX control,.NET Framework", "Windows Media Player Mobile ActiveX control,.NET Framework", "ActiveX control,.NET Framework", "Windows Media Player ActiveX control,Visual Studio", "Windows Media Player Mobile ActiveX control,Visual Studio", "ActiveX control,Visual Studio", ".NET Framework,Visual Studio program embedding", "embedding,Visual Studio programs", "Visual Studio,program embedding"]
+ms.assetid: e007876e-f215-4976-8a70-018fedc0e67d
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,.NET Framework
+- Windows Media Player object model,.NET Framework
+- object model,.NET Framework
+- Windows Media Player Mobile,.NET Framework
+- Windows Media Player ActiveX control,.NET Framework
+- Windows Media Player Mobile ActiveX control,.NET Framework
+- ActiveX control,.NET Framework
+- Windows Media Player ActiveX control,Visual Studio
+- Windows Media Player Mobile ActiveX control,Visual Studio
+- ActiveX control,Visual Studio
+- .NET Framework,Visual Studio program embedding
+- embedding,Visual Studio programs
+- Visual Studio,program embedding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player Control with Microsoft Visual Studio

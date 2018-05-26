@@ -1,7 +1,12 @@
 ---
 title: Close the Parent Recordset Object
 description: Close the Parent Recordset Object
-ms.assetid: 'a88d77ca-1337-499f-92a9-bf597ea96b01'
+ms.assetid: a88d77ca-1337-499f-92a9-bf597ea96b01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Close the Parent Recordset Object

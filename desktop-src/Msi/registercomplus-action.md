@@ -1,7 +1,12 @@
 ---
-Description: 'The RegisterComPlus action registers COM+ applications.'
-ms.assetid: 'e42bb993-7079-4d5b-bb2e-c958e99e705e'
+Description: The RegisterComPlus action registers COM+ applications.
+ms.assetid: e42bb993-7079-4d5b-bb2e-c958e99e705e
 title: RegisterComPlus Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterComPlus Action

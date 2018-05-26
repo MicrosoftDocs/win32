@@ -1,7 +1,12 @@
 ---
 Description: Registering MPEG2 Codecs
-ms.assetid: 'f730a7df-af8f-4dce-9bfe-6ee1eca8fd90'
+ms.assetid: f730a7df-af8f-4dce-9bfe-6ee1eca8fd90
 title: Registering MPEG2 Codecs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering MPEG2 Codecs

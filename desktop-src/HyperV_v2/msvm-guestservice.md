@@ -1,7 +1,12 @@
 ---
-Description: 'Msvm\_GuestService is the abstract base class for services in the guest that can be accessed from the host.'
-ms.assetid: 'F9E6FFE6-B8C5-4F06-BF22-A4BDB20F813A'
-title: 'Msvm\_GuestService class'
+Description: Msvm\_GuestService is the abstract base class for services in the guest that can be accessed from the host.
+ms.assetid: F9E6FFE6-B8C5-4F06-BF22-A4BDB20F813A
+title: Msvm\_GuestService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestService class
@@ -16,16 +21,16 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, AMENDMENT]
 class Msvm_GuestService : CIM_Service
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  boolean  Started;
-  string   StartMode;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Name;
+  boolean  Started;
+  string   StartMode;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -50,7 +55,7 @@ The **Msvm\_GuestService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -244,8 +249,8 @@ Name of the system that hosts the service.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -262,9 +267,9 @@ Name of the system that hosts the service.
 [**CIM\_Service**](https://msdn.microsoft.com/library/aa388442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

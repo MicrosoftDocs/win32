@@ -1,7 +1,12 @@
 ---
 title: Management and Deployment
 description: IT professionals or developers preparing to deploy Windows 7 will have increased confidence and experience a shorter evaluation cycle because of improvements in imaging features and tools.
-ms.assetid: '217090c4-6385-4333-a380-f75f2c80e369'
+ms.assetid: 217090c4-6385-4333-a380-f75f2c80e369
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Management and Deployment

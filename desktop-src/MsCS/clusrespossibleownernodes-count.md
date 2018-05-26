@@ -4,11 +4,14 @@ description: Returns the number of possible owner nodes listed for a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09c2aa3a-f431-48da-81ee-3ce347491b45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 09c2aa3a-f431-48da-81ee-3ce347491b45
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Count property Failover Cluster", "Count property Failover Cluster , ClusResPossibleOwnerNodes class", "ClusResPossibleOwnerNodes class Failover Cluster , Count property"]
+keywords:
+- Count property Failover Cluster
+- Count property Failover Cluster , ClusResPossibleOwnerNodes class
+- ClusResPossibleOwnerNodes class Failover Cluster , Count property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResPossibleOwnerNodes.Count property
@@ -47,7 +53,7 @@ ClusResPossibleOwnerNodes.Count
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                      |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                      |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>            |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>          |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>          |
@@ -63,9 +69,9 @@ ClusResPossibleOwnerNodes.Count
 [**ClusResPossibleOwnerNodes**](clusrespossibleownernodes-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: SMTPRESPONSE structure
 description: Contains information about a Simple Mail Transport Protocol (SMTP) response.
-ms.assetid: '9a106233-dd5d-4f52-8c8b-28dfefe2a9c8'
-keywords: ["SMTPRESPONSE structure Windows Mail (formerly Outlook Express)", "LPSMTPRESPONSE structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 9a106233-dd5d-4f52-8c8b-28dfefe2a9c8
+keywords:
+- SMTPRESPONSE structure Windows Mail (formerly Outlook Express)
+- LPSMTPRESPONSE structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMTPRESPONSE structure
@@ -24,11 +31,11 @@ Contains information about a Simple Mail Transport Protocol (SMTP) response.
 
 ```C++
 typedef struct tagSMTPRESPONSE {
-  SMTPCOMMAND    command;
-  BOOL           fDone;
-  IXPRESULT      rIxpResult;
+  SMTPCOMMAND    command;
+  BOOL           fDone;
+  IXPRESULT      rIxpResult;
   ISMTPTransport *pTransport;
-  SMTPSTREAM     rStreamInfo;
+  SMTPSTREAM     rStreamInfo;
 } SMTPRESPONSE, *LPSMTPRESPONSE;
 ```
 
@@ -99,17 +106,17 @@ Contains the [**SMTPSTREAM**](oe-smtpstream.md) structure that contains informat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

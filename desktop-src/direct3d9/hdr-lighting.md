@@ -1,7 +1,12 @@
 ---
-Description: 'Lighting in the real world contains a very high dynamic range (HDR) of luminance values.'
-ms.assetid: '537700e2-802d-4fd1-b026-142d6f4f0559'
-title: 'HDR Lighting (Direct3D 9)'
+Description: Lighting in the real world contains a very high dynamic range (HDR) of luminance values.
+ms.assetid: 537700e2-802d-4fd1-b026-142d6f4f0559
+title: HDR Lighting (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDR Lighting (Direct3D 9)

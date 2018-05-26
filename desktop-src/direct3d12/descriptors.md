@@ -1,7 +1,12 @@
 ---
 title: Descriptors
 description: Descriptors are the primary unit of binding for a single resource in D3D12.
-ms.assetid: '65AE4D96-6221-46B5-BF55-F86479FCF97C'
+ms.assetid: 65AE4D96-6221-46B5-BF55-F86479FCF97C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Descriptors
@@ -16,11 +21,11 @@ Descriptors are the primary unit of binding for a single resource in D3D12.
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Descriptors Overview](descriptors-overview.md)<br/> | Descriptors are created by API calls and identify resources.<br/>                                                                                                                                                                                                                                                                                                                   |
 | [Creating Descriptors](creating-descriptors.md)<br/> | Describes and shows examples for creating index, vertex, and constant buffer views; shader resource, render target, unordered access, stream output and depth-stencil views; and samplers. All methods for creating descriptors are free threaded.<br/>                                                                                                                             |
-| [Copying Descriptors](copying-descriptors.md)<br/>   | The [**ID3D12Device::CopyDescriptors**](id3d12device-copydescriptors.md) and [**ID3D12Device::CopyDescriptorsSimple**](id3d12device-copydescriptorssimple.md) methods on the device interface use the CPU to immediately copy descriptors. They can be called free threaded as long as multiple threads on the CPU or GPU do not perform any potentially conflicting writes.<br/> |
+| [Copying Descriptors](copying-descriptors.md)<br/>   | The [**ID3D12Device::CopyDescriptors**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptors?branch=master) and [**ID3D12Device::CopyDescriptorsSimple**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptorssimple?branch=master) methods on the device interface use the CPU to immediately copy descriptors. They can be called free threaded as long as multiple threads on the CPU or GPU do not perform any potentially conflicting writes.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +43,9 @@ Descriptors are the primary unit of binding for a single resource in D3D12.
 [Root Signatures](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

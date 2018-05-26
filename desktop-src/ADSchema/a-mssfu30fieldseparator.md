@@ -4,17 +4,22 @@ description: Contains the field separator for each NIS map.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '378a37a8-a0a2-467f-ad30-40a9d522f7a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 378a37a8-a0a2-467f-ad30-40a9d522f7a2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Field-Separator attribute AD Schema", "msSFU30FieldSeparator attribute AD Schema"]
+keywords:
+- msSFU-30-Field-Separator attribute AD Schema
+- msSFU30FieldSeparator attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Field-Separator
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Field-Separator attribute
@@ -38,10 +43,10 @@ Contains the field separator for each NIS map.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the field separator for each NIS map.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

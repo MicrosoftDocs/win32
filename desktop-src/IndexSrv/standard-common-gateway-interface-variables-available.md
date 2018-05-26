@@ -1,15 +1,20 @@
 ---
 title: Standard Common Gateway Interface Variables Available
 description: Standard Common Gateway Interface Variables Available
-ms.assetid: '6203fd4c-20db-4b29-9431-86c704e3d95a'
+ms.assetid: 6203fd4c-20db-4b29-9431-86c704e3d95a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard Common Gateway Interface Variables Available
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The variables below are normally set by Common Gateway Interface (CGI) program execution and can be referred to in the .idq or .htx files.
 
@@ -22,7 +27,7 @@ The variables below are normally set by Common Gateway Interface (CGI) program e
 | CONTENT\_LENGTH    | The number of bytes that the script can expect to receive from the client.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | CONTENT\_TYPE      | The content type of the information supplied in the body of a POST request.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | GATEWAY\_INTERFACE | The revision of the Common Gateway Interface (CGI) specification with which this server complies. The current version is 1.1.                                                                                                                                                                                                                                                                                                                                                                                           |
-| HTTP\_ACCEPT       | Special-case HTTP header. Values of the Accept: fields are concatenated, separated by “,”; for example, if the following lines are part of the HTTP header: accept: \*/\*; q=0.1 accept: text/html accept: image/jpeg then the HTTP\_ACCEPT variable will have a value of: \*/\*; q=0.1, text/html, image/jpeg.                                                                                                                                                                                                         |
+| HTTP\_ACCEPT       | Special-case HTTP header. Values of the Accept: fields are concatenated, separated by  , ; for example, if the following lines are part of the HTTP header: accept: \*/\*; q=0.1 accept: text/html accept: image/jpeg then the HTTP\_ACCEPT variable will have a value of: \*/\*; q=0.1, text/html, image/jpeg.                                                                                                                                                                                                         |
 | PATH\_INFO         | Additional path information, as given by the client. This comprises the trailing part of the URL after the script name but before the query string (if any).                                                                                                                                                                                                                                                                                                                                                            |
 | PATH\_TRANSLATED   | This is the value of PATH\_INFO, but with any virtual path name expanded into a directory specification.                                                                                                                                                                                                                                                                                                                                                                                                                |
 | QUERY\_STRING      | The information which follows the question mark (?) in the URL that referenced this script.                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -31,18 +36,18 @@ The variables below are normally set by Common Gateway Interface (CGI) program e
 | REMOTE\_USER       | This contains the user name supplied by the client and authenticated by the server.                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | REQUEST\_METHOD    | The HTTP request method.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | SCRIPT\_NAME       | The name of the script program that is being run.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| SERVER\_NAME       | The server’s host name (or IP address) as it should appear in self-referencing URLs.                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| SERVER\_NAME       | The server s host name (or IP address) as it should appear in self-referencing URLs.                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | SERVER\_PORT       | The TCP/IP port on which the request was received.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | SERVER\_PROTOCOL   | The name and version of the information-retrieval protocol relating to this request, usually HTTP 1.0.                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | SERVER\_SOFTWARE   | The name and version of the web server under which the Internet Server Extension is running.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

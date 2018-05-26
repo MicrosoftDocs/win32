@@ -1,7 +1,12 @@
 ---
-Description: 'Tooltip for the default state.'
-ms.assetid: '24DA07DD-A2C1-4a3e-9007-100BE6813A02'
-title: 'System.Devices.DefaultTooltip'
+Description: Tooltip for the default state.
+ms.assetid: 24DA07DD-A2C1-4a3e-9007-100BE6813A02
+title: System.Devices.DefaultTooltip
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.DefaultTooltip

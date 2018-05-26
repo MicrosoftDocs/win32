@@ -1,7 +1,12 @@
 ---
 Description: About Rate Control
-ms.assetid: '509b2cc8-6017-41a9-ae80-9af21dce9367'
+ms.assetid: 509b2cc8-6017-41a9-ae80-9af21dce9367
 title: About Rate Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Rate Control
@@ -10,10 +15,10 @@ In Media Foundation, the *playback rate* is expressed as the ratio of the curren
 
 Applications use the following interfaces to control the playback rate.
 
--   [**IMFRateSupport**](imfratesupport.md). Used to find out the fastest and slowest playback rates that are possible.
--   [**IMFRateControl**](imfratecontrol.md). Used to change the playback rate.
+-   [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master). Used to find out the fastest and slowest playback rates that are possible.
+-   [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master). Used to change the playback rate.
 
-To get these two interfaces, call [**IMFGetService::GetService**](imfgetservice-getservice.md) on the Media Session. The service identifier is MF\_RATE\_CONTROL\_SERVICE.
+To get these two interfaces, call [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) on the Media Session. The service identifier is MF\_RATE\_CONTROL\_SERVICE.
 
 By using the rate control service, an application can implement fast forward and reverse playback.
 

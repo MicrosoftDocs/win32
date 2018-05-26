@@ -1,8 +1,10 @@
 ---
 title: text object
 description: Specifies a text element to display in a gadget.
-ms.assetid: '84b22483-88bc-4d5c-a86b-b3c5a2a5e6d3'
-keywords: ["text object Windows Sidebar", "text object Windows Sidebar , described"]
+ms.assetid: 84b22483-88bc-4d5c-a86b-b3c5a2a5e6d3
+keywords:
+- text object Windows Sidebar
+- text object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text object
@@ -39,7 +46,7 @@ The **text** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -65,16 +72,16 @@ The **text** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
 This element can be declared in the gadget HTML file or created with the [**addTextObject**](addtextobject-method-gbackground.md) method from a script file. However, if the element is declared in the HTML file, it will not be accessible from script and will affect the gadget element layout rather than being part of the background.
 
 > \[!Important\]  
-> For Windows 7, when the new `<autoscaleDPI>` element of the gadget manifest is set to true (for high-DPI support) gadgets should explicitly specify a text size.
+> For Windows 7, when the new `<autoscaleDPI>` element of the gadget manifest is set to true (for high-DPI support) gadgets should explicitly specify a text size.
 
- 
+ 
 
 This element is not rendered.
 
@@ -107,18 +114,18 @@ var txtShadow = imgBackground.addTextObject("test", "Verdana", 25, "Red", 50, 50
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

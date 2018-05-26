@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UpdatePrintDeviceObject function updates the properties of a device object that is in the print provider queue.'
-ms.assetid: '52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F'
+---
+Description: The UpdatePrintDeviceObject function updates the properties of a device object that is in the print provider queue.
+ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 title: UpdatePrintDeviceObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdatePrintDeviceObject function

@@ -1,7 +1,12 @@
 ---
 title: dlt (sm5 - asm)
 description: Component-wise double-precision less-than comparison.
-ms.assetid: 'A9DE5007-4ADD-403D-A2B7-EAE475E9DCCB'
+ms.assetid: A9DE5007-4ADD-403D-A2B7-EAE475E9DCCB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dlt (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise double-precision less-than comparison.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise double-precision less-than comparison.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +59,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -73,7 +78,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -82,9 +87,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

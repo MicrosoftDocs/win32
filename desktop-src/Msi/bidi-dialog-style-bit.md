@@ -1,7 +1,12 @@
 ---
-Description: 'This is a combination of the right to left reading order RTLRO, the RightAligned, and the LeftScroll dialog style bits.'
-ms.assetid: '26f2f0bf-b844-4915-9c3f-1ef1ec612118'
+Description: This is a combination of the right to left reading order RTLRO, the RightAligned, and the LeftScroll dialog style bits.
+ms.assetid: 26f2f0bf-b844-4915-9c3f-1ef1ec612118
 title: BiDi Dialog Style Bit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BiDi Dialog Style Bit

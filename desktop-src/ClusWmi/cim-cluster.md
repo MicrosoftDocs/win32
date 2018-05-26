@@ -1,16 +1,18 @@
 ---
 title: CIM\_Cluster class
-description: A class derived from ComputerSystem that 'is made up of' two or more ComputerSystems which operate together as an atomic, functional whole to increase the performance, resources and/or RAS (Reliability, Availability and Serviceability) of the component ComputerSystems, related to some aspects of these ComputerSystems.
+description: A class derived from ComputerSystem that is made up of two or more ComputerSystems which operate together as an atomic, functional whole to increase the performance, resources and/or RAS (Reliability, Availability and Serviceability) of the component ComputerSystems, related to some aspects of these ComputerSystems.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '30efe9ba-d53b-4149-83c4-b5d40f481b90'
-ms.prod: 'windows-server-dev'
+ms.assetid: 30efe9ba-d53b-4149-83c4-b5d40f481b90
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Cluster class", "CIM_Cluster class, described"]
+keywords:
+- CIM_Cluster class
+- CIM_Cluster class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Cluster class
@@ -47,20 +52,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{35239F78-E086-44a2-B506-140D0D1F7DBA}"), AMENDMENT]
 class CIM_Cluster : CIM_ComputerSystem
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
-  uint32   MaxNumberOfNodes;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
+  uint32   MaxNumberOfNodes;
 };
 ```
 
@@ -594,7 +599,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -608,9 +613,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

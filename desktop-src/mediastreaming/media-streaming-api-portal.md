@@ -1,7 +1,12 @@
 ---
 title: Windows Media Streaming API
 description: .
-ms.assetid: '24b2824b-59ea-4479-80c3-f4515285edfa'
+ms.assetid: 24b2824b-59ea-4479-80c3-f4515285edfa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Streaming API
@@ -25,15 +30,15 @@ The Media Streaming API models the Digital Media Renderer (DMR) and Digital Medi
 
 
 
- 
+ 
 
 ## Developer audience
 
 Media Streaming API is designed for use by C++ developers creating digital media applications that interact with DLNA devices.
 
- 
+ 
 
- 
+ 
 
 
 

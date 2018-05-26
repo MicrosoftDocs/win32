@@ -1,7 +1,12 @@
 ---
 title: To specify a location for a compiled help file
 description: To specify a location for a compiled help file
-ms.assetid: '026F0B51-7CA9-4fa8-8EE0-298887384C38'
+ms.assetid: 026F0B51-7CA9-4fa8-8EE0-298887384C38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify a location for a compiled help file
@@ -16,7 +21,7 @@ ms.assetid: '026F0B51-7CA9-4fa8-8EE0-298887384C38'
 
     
 
-     
+     
 
 2.  Click the **Files** tab, and then enter a path in the **Compiled file** box.
 
@@ -27,9 +32,9 @@ ms.assetid: '026F0B51-7CA9-4fa8-8EE0-298887384C38'
 [About Help Projects Files](create-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

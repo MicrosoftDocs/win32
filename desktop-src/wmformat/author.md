@@ -1,14 +1,20 @@
 ---
 title: Author
 description: The Author attribute contains the name of a media artist or actor associated with the content.
-ms.assetid: 'fdad5790-42b6-449c-a24c-aa0718d33e5d'
-keywords: ["Author windows Media Format"]
+ms.assetid: fdad5790-42b6-449c-a24c-aa0718d33e5d
+keywords:
+- Author windows Media Format
 topic_type:
 - apiref
 api_name:
 - Author
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Author

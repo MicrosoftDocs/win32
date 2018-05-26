@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_WindowStyle method sets the standard window styles.'
-ms.assetid: '3b3aa035-6aa1-4f11-80d8-03268fcf98e1'
-title: 'CBaseControlWindow.put\_WindowStyle method'
+Description: The put\_WindowStyle method sets the standard window styles.
+ms.assetid: 3b3aa035-6aa1-4f11-80d8-03268fcf98e1
+title: CBaseControlWindow.put\_WindowStyle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_WindowStyle method
@@ -13,7 +18,7 @@ The `put_WindowStyle` method sets the standard window styles.
 
 ```C++
 HRESULT put_WindowStyle(
-   long WindowStyle
+   long WindowStyle
 );
 ```
 
@@ -56,9 +61,9 @@ Take care when changing the window styles. In most cases, an application should 
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

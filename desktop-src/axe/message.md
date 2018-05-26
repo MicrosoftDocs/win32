@@ -1,14 +1,20 @@
 ---
 title: Message element
 description: Contains a message that describes the error.
-ms.assetid: '9aadd9fb-96a4-41d8-a50c-f48c322c0cd1'
-keywords: ["Message element Access Execution Engine"]
+ms.assetid: 9aadd9fb-96a4-41d8-a50c-f48c322c0cd1
+keywords:
+- Message element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Message
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message element
@@ -63,9 +69,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

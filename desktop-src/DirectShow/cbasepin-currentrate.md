@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentRate method retrieves the segment rate, set by the CBasePin::NewSegment method.'
-ms.assetid: '19780dd2-2dcf-4e5d-8a70-a46be05e040c'
-title: 'CBasePin.CurrentRate method'
+Description: The CurrentRate method retrieves the segment rate, set by the CBasePinNewSegment method.
+ms.assetid: 19780dd2-2dcf-4e5d-8a70-a46be05e040c
+title: CBasePin.CurrentRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.CurrentRate method
@@ -43,9 +48,9 @@ Returns the value of [**CBasePin::m\_dRate**](cbasepin-m-drate.md).
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

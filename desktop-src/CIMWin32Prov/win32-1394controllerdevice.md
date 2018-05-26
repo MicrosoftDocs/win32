@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_1394ControllerDevice association WMI class relates the high-speed serial bus (IEEE 1394 Firewire) Controller and the CIM\_LogicalDevice instance connected to it.'
+Description: The Win32\_1394ControllerDevice association WMI class relates the high-speed serial bus (IEEE 1394 Firewire) Controller and the CIM\_LogicalDevice instance connected to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '327fbced-4637-4402-a06f-6ac352da920c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 327fbced-4637-4402-a06f-6ac352da920c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_1394ControllerDevice class'
+title: Win32\_1394ControllerDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_1394ControllerDevice class
@@ -24,13 +27,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8835CFC9-BAEF-11d2-85E5-0000F8102E5F}"), AMENDMENT]
 class Win32_1394ControllerDevice : CIM_ControlledBy
 {
-  uint32                   NegotiatedDataWidth;
-  uint64                   NegotiatedSpeed;
-  uint16                   AccessState;
-  uint32                   NumberOfHardResets;
-  uint32                   NumberOfSoftResets;
+  uint32                   NegotiatedDataWidth;
+  uint64                   NegotiatedSpeed;
+  uint16                   AccessState;
+  uint32                   NumberOfHardResets;
+  uint32                   NumberOfSoftResets;
   Win32_1394Controller REF Antecedent;
-  CIM_LogicalDevice    REF Dependent;
+  CIM_LogicalDevice    REF Dependent;
 };
 ```
 
@@ -258,8 +261,8 @@ Number of Soft Resets :
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -276,9 +279,9 @@ Number of Soft Resets :
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

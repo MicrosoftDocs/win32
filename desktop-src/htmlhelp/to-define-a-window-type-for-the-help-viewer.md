@@ -1,7 +1,12 @@
 ---
 title: To define a window type for the Help Viewer
 description: To define a window type for the Help Viewer
-ms.assetid: '6077012A-B4B9-435d-91BC-613B807B0FDD'
+ms.assetid: 6077012A-B4B9-435d-91BC-613B807B0FDD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To define a window type for the Help Viewer
@@ -14,7 +19,7 @@ ms.assetid: '6077012A-B4B9-435d-91BC-613B807B0FDD'
 
     
 
-     
+     
 
 2.  Type a name for the Help Viewer in the **Create a window type named** box.
 3.  On the **General**, **Buttons**, **Position**, **Files**, **Navigation Pane**, **Styles** and **Extended Styles** tabs select the options you want for the Help Viewer.
@@ -22,7 +27,7 @@ ms.assetid: '6077012A-B4B9-435d-91BC-613B807B0FDD'
 > [!Note]  
 > To change the name of the Help Viewer, open a project (.hhp) file, click **Add/Modify Window Definitions**, and then type the new name in the **Window type** box.
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ ms.assetid: '6077012A-B4B9-435d-91BC-613B807B0FDD'
 [About Customizing the Help Viewer](customize-the-help-viewer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

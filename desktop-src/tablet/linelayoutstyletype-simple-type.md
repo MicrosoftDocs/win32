@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the valid values for the Style attribute of the LineLayout element.'
-ms.assetid: 'b257f0da-1bee-4d1b-9829-70f91cdcabe0'
+Description: Defines the valid values for the Style attribute of the LineLayout element.
+ms.assetid: b257f0da-1bee-4d1b-9829-70f91cdcabe0
 title: LineLayoutStyleType Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LineLayoutStyleType Simple Type
@@ -44,14 +49,14 @@ Valid values for the **Style** attribute of the [LineLayout element](linelayout-
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

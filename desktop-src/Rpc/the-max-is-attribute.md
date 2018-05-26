@@ -1,8 +1,14 @@
 ---
 title: The \ max\_is\ Attribute
 description: You can specify the valid bounds of the index numbers of an array using the \ max\_is\ attribute.
-ms.assetid: 'b629e3cf-544d-47ee-8f8f-b049f693897c'
-keywords: ["max_is"]
+ms.assetid: b629e3cf-544d-47ee-8f8f-b049f693897c
+keywords:
+- max_is
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The \[max\_is\] Attribute

@@ -4,17 +4,21 @@ description: Controls how many heartbeats can be missed on the same subnet befor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '149B942D-4782-4911-B669-A5B9BF7EDEA0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 149B942D-4782-4911-B669-A5B9BF7EDEA0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SameSubnetThreshold Failover Cluster"]
+keywords:
+- SameSubnetThreshold Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SameSubnetThreshold
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SameSubnetThreshold
@@ -27,14 +31,14 @@ Controls how many heartbeats can be missed on the same subnet before the route i
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 3                                         |
 | Maximum   | 120                                       |
 | Default   | 5                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_SAME\_SUBNET\_THRESHOLD**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_SAME\_SUBNET\_THRESHOLD**.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

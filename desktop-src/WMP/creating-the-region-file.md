@@ -1,8 +1,17 @@
 ---
 title: Creating the Region File
 description: Creating the Region File
-ms.assetid: 'e901dfa1-1e06-4136-b877-64be03107f6f'
-keywords: ["Windows Media Player Mobile skins,Region files", "skins,Region files", "creating skins,Region files", "Region files in skins"]
+ms.assetid: e901dfa1-1e06-4136-b877-64be03107f6f
+keywords:
+- Windows Media Player Mobile skins,Region files
+- skins,Region files
+- creating skins,Region files
+- Region files in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Region File

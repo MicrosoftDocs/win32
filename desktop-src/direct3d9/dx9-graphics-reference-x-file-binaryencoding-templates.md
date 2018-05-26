@@ -1,7 +1,12 @@
 ---
-Description: 'A template has the following syntax definition.'
-ms.assetid: '77eb739d-8da3-4481-8dd1-f9f2f0eda136'
+Description: A template has the following syntax definition.
+ms.assetid: 77eb739d-8da3-4481-8dd1-f9f2f0eda136
 title: Templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Templates

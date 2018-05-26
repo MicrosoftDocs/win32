@@ -4,11 +4,13 @@ description: Provides methods that receive information from the server that are 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CF1DA4C8-94A5-4E6A-AEB7-6F46117E9DF2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: CF1DA4C8-94A5-4E6A-AEB7-6F46117E9DF2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IRemoteDesktopClientEvents interface Remote Desktop Services", "IRemoteDesktopClientEvents interface Remote Desktop Services , described"]
+keywords:
+- IRemoteDesktopClientEvents interface Remote Desktop Services
+- IRemoteDesktopClientEvents interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IRemoteDesktopClientEvents interface
@@ -50,11 +55,11 @@ The **IRemoteDesktopClientEvents** interface has these methods.
 | [**OnNetworkStatusChanged**](iremotedesktopclientevents-onnetworkstatuschanged.md)         | Called when the network status has changed. <br/>                                                                                                             |
 | [**OnRemoteDesktopSizeChanged**](iremotedesktopclientevents-onremotedesktopsizechanged.md) | Called when the remote desktop size has changed. <br/>                                                                                                        |
 | [**OnStatusChanged**](iremotedesktopclientevents-onstatuschanged.md)                       | Called when the client control has updated its status. <br/>                                                                                                  |
-| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](iremotedesktopclienttouchpointer-eventsenabled.md) property is set to true. <br/> |
+| [**OnTouchPointerCursorMoved**](iremotedesktopclientevents-ontouchpointercursormoved.md)   | Called when the touch pointer cursor has moved and the [**EventsEnabled**](/windows/win32/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclienttouchpointer-get_eventsenabled?branch=master) property is set to true. <br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,8 +67,8 @@ The **IRemoteDesktopClientEvents** interface has these methods.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | CLSID<br/>                    | CLSID\_RemoteDesktopClient is defined as EAB16C5D-EED1-4E95-868B-0FBA1B42C092<br/>       |
@@ -78,9 +83,9 @@ The **IRemoteDesktopClientEvents** interface has these methods.
 [Remote Desktop ActiveX control reference](remote-desktop-activex-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

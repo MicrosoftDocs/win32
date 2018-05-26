@@ -1,7 +1,12 @@
 ---
-Description: 'The subscriber's moniker.'
-ms.assetid: 'd33d8c80-3251-4ec7-9cf3-d0b60d91ed5a'
-title: 'IEventSubscription2::SubscriberMoniker property'
+Description: The subscribers moniker.
+ms.assetid: d33d8c80-3251-4ec7-9cf3-d0b60d91ed5a
+title: IEventSubscription2SubscriberMoniker property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEventSubscription2::SubscriberMoniker property
@@ -15,11 +20,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SubscriberMoniker(
-  [in]          BSTR bstrMoniker
+  [in]          BSTR bstrMoniker
 );
 
 HRESULT get_SubscriberMoniker(
-  [out, retval] BSTR *pbstrMoniker
+  [out, retval] BSTR *pbstrMoniker
 );
 ```
 
@@ -39,8 +44,8 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -51,9 +56,9 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 [**IEventSubscription2**](ieventsubscription2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

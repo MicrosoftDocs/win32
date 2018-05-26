@@ -1,7 +1,12 @@
 ---
-Description: 'Properties are extracted from items using registered property handlers, or using filters registered for specific file types. A filter handler (an implementation of the IFilter interface) can interpret the contents of a file type in any number of ways.'
-ms.assetid: '6701d151-c36f-43e5-929b-9831c5ce5823'
+Description: Properties are extracted from items using registered property handlers, or using filters registered for specific file types. A filter handler (an implementation of the IFilter interface) can interpret the contents of a file type in any number of ways.
+ms.assetid: 6701d151-c36f-43e5-929b-9831c5ce5823
 title: Returning Properties from a Filter Handler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Returning Properties from a Filter Handler
@@ -23,7 +28,7 @@ Best practices for property filtering are listed in the following table.
 
 | Method                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IFilter::Init**](search._search_IFilter_Init)      | Returns the [**IFILTER\_FLAGS**](-search-ifilter-flags.md) enumeration. If the *IFILTER\_FLAGS\_OLE\_PROPERTIES* member of this enumeration is set to one, then Windows Search uses the [IPropertySetStorage](http://msdn.microsoft.com/en-us/library/Aa379840(VS.85).aspx) and [IPropertyStorage](http://msdn.microsoft.com/en-us/library/Aa379968(VS.85).aspx) interfaces interfaces to enumerate and access external value-type properties. |
+| [**IFilter::Init**](search._search_IFilter_Init)      | Returns the [**IFILTER\_FLAGS**](/windows/win32/Filter/?branch=master) enumeration. If the *IFILTER\_FLAGS\_OLE\_PROPERTIES* member of this enumeration is set to one, then Windows Search uses the [IPropertySetStorage](http://msdn.microsoft.com/en-us/library/Aa379840(VS.85).aspx) and [IPropertyStorage](http://msdn.microsoft.com/en-us/library/Aa379968(VS.85).aspx) interfaces interfaces to enumerate and access external value-type properties. |
 | [**IFilter::GetChunk**](-search-ifilter-getchunk.md) | Returns information from a document in "chunks" with chunk type (text or value), name, and locale. A chunk contains one document property.                                                                                                                                                                                                                                                                                                      |
 | [**IFilter::GetText**](-search-ifilter-gettext.md)   | Gets a text-type property from a chunk.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [**IFilter::GetValue**](-search-ifilter-getvalue.md) | Gets a value-type property from a chunk.                                                                                                                                                                                                                                                                                                                                                                                                        |

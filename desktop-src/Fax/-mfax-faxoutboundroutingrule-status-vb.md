@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Status property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.'
-ms.assetid: '41e1552e-e7eb-4fd4-82b5-73c54e5f37bd'
-title: 'FaxOutboundRoutingRule.Status property'
+---
+Description: The Status property indicates the current status of the outbound routing rule; for example, whether the rule is valid and whether it can apply to fax jobs.
+ms.assetid: 41e1552e-e7eb-4fd4-82b5-73c54e5f37bd
+title: FaxOutboundRoutingRule.Status property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRule.Status property
@@ -21,11 +26,11 @@ Property Status As Integer
 
 ## Property value
 
-Value from the [**FAX\_RULE\_STATUS\_ENUM**](-mfax-fax-rule-status-enum.md) enumeration that specifies the rule status.
+Value from the [**FAX\_RULE\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_rule_status_enum?branch=master) enumeration that specifies the rule status.
 
 ## Remarks
 
-To read this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-acc
 [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule-cpp.md)
+[**IFaxOutboundRoutingRule**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrule?branch=master)
 </dt> </dl>
 
  

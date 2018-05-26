@@ -1,7 +1,7 @@
 ---
 title: TF\_LBI\_STATUS\_\ Constants
 description: The TF\_LBI\_STATUS\_\ constants indicate the status of a language bar item. These values are used with the ITfLangBarItem GetStatus method.
-ms.assetid: '5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc'
+ms.assetid: 5f2c0e61-f7e5-4dcc-86a3-7bd1c994b8bc
 topic_type:
 - apiref
 api_name:
@@ -12,11 +12,16 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_LBI\_STATUS\_\* Constants
 
-The **TF\_LBI\_STATUS\_\*** constants indicate the status of a language bar item. These values are used with the [ITfLangBarItem::GetStatus](itflangbaritem-getstatus.md) method.
+The **TF\_LBI\_STATUS\_\*** constants indicate the status of a language bar item. These values are used with the [ITfLangBarItem::GetStatus](/windows/win32/Ctfutb/nf-ctfutb-itflangbaritem-getstatus?branch=master) method.
 
 
 
@@ -34,9 +39,9 @@ The **TF\_LBI\_STATUS\_\*** constants indicate the status of a language bar item
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ctfutb.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ctfutb.idl</dt> </dl> |
 
@@ -46,12 +51,12 @@ The **TF\_LBI\_STATUS\_\*** constants indicate the status of a language bar item
 
 <dl> <dt>
 
-[ITfLangBarItem::GetStatus](itflangbaritem-getstatus.md)
+[ITfLangBarItem::GetStatus](/windows/win32/Ctfutb/nf-ctfutb-itflangbaritem-getstatus?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

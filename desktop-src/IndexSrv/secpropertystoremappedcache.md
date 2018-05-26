@@ -1,7 +1,12 @@
 ---
 title: SecPropertyStoreMappedCache
 description: SecPropertyStoreMappedCache
-ms.assetid: 'bea0c1e3-d1ec-467e-90a7-46f5732b4630'
+ms.assetid: bea0c1e3-d1ec-467e-90a7-46f5732b4630
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SecPropertyStoreMappedCache

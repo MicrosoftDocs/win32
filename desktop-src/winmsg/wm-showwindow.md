@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window when the window is about to be hidden or shown.'
-ms.assetid: 'dea7c9aa-eba7-4b93-a4c5-9b2d36999780'
-title: 'WM\_SHOWWINDOW message'
+---
+Description: Sent to a window when the window is about to be hidden or shown.
+ms.assetid: dea7c9aa-eba7-4b93-a4c5-9b2d36999780
+title: WM\_SHOWWINDOW message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SHOWWINDOW message

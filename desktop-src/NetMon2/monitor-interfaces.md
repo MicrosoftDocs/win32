@@ -1,7 +1,12 @@
 ---
-Description: 'The following COM interfaces are used to develop monitors.'
-ms.assetid: '619991f5-1db1-400a-bf18-d4a6dd6999a8'
+Description: The following COM interfaces are used to develop monitors.
+ms.assetid: 619991f5-1db1-400a-bf18-d4a6dd6999a8
 title: Monitor Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitor Interfaces

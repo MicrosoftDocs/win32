@@ -1,7 +1,12 @@
 ---
 title: Input Color Register
 description: Pixel shader input register containing vertex color.
-ms.assetid: 'd2e21f87-000e-410a-aaba-172000ed1c5f'
+ms.assetid: d2e21f87-000e-410a-aaba-172000ed1c5f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Color Register

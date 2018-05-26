@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbGetCounterPathFromList function copies the counter path referenced by the Index parameter from a counter path list created by the user from the most recent call to the PdhVbCreateCounterPathList function.'
-ms.assetid: 'e77a022d-42f2-4c48-acb7-36cb013730dd'
+Description: The PdhVbGetCounterPathFromList function copies the counter path referenced by the Index parameter from a counter path list created by the user from the most recent call to the PdhVbCreateCounterPathList function.
+ms.assetid: e77a022d-42f2-4c48-acb7-36cb013730dd
 title: PdhVbGetCounterPathFromList function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbGetCounterPathFromList function
@@ -45,8 +50,8 @@ The function returns the number of characters copied to Buffer.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -65,9 +70,9 @@ The function returns the number of characters copied to Buffer.
 [**PdhVbGetOneCounterPath**](pdhvbgetonecounterpath.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

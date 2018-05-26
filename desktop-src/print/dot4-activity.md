@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'CD3DBBA5-AE5C-4DC1-BE52-696138494701'
-title: 'DOT4\_ACTIVITY structure'
+---
+Description: .
+ms.assetid: CD3DBBA5-AE5C-4DC1-BE52-696138494701
+title: DOT4\_ACTIVITY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT4\_ACTIVITY structure

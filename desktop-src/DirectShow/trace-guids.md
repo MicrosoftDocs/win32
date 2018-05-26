@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following GUIDs are used for event tracing in DirectShow.'
-ms.assetid: '438938fe-37e7-45d6-b49a-d96698307f25'
+---
+Description: The following GUIDs are used for event tracing in DirectShow.
+ms.assetid: 438938fe-37e7-45d6-b49a-d96698307f25
 title: Trace GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace GUIDs

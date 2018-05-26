@@ -4,11 +4,16 @@ description: The Enabled property returns whether the menu item is enabled or di
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a61af446-e9f1-4426-8108-9738ed5c72e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a61af446-e9f1-4426-8108-9738ed5c72e7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Enabled property MMC", "Enabled property MMC , MenuItem object", "MenuItem object MMC , Enabled property", "Enabled property MMC , MenuItem interface", "MenuItem interface MMC , Enabled property"]
+keywords:
+- Enabled property MMC
+- Enabled property MMC , MenuItem object
+- MenuItem object MMC , Enabled property
+- Enabled property MMC , MenuItem interface
+- MenuItem interface MMC , Enabled property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MenuItem::Enabled property
@@ -59,8 +67,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -75,9 +83,9 @@ End If
 [**MenuItem.Execute**](menuitem-execute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

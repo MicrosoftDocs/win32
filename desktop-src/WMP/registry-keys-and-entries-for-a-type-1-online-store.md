@@ -1,8 +1,17 @@
 ---
 title: Registry Keys and Entries for a Type 1 Online Store
 description: Registry Keys and Entries for a Type 1 Online Store
-ms.assetid: 'cf25a004-e0c3-407c-8704-54be3601528b'
-keywords: ["Windows Media Player online stores,registry", "online stores,registry", "type 1 online stores,registry", "registry,type 1 online stores"]
+ms.assetid: cf25a004-e0c3-407c-8704-54be3601528b
+keywords:
+- Windows Media Player online stores,registry
+- online stores,registry
+- type 1 online stores,registry
+- registry,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Keys and Entries for a Type 1 Online Store
@@ -34,7 +43,7 @@ To make a type 1 online store available in Windows Media Player, the online stor
 > [!Note]  
 > Setting the value of DllSurrogate to the empty string indicates that the COM runtime will load the online store's plug-in into the default DLL surrogate, dllhost.exe.
 
- 
+ 
 
 In the preceding registry syntax, the symbols in italic are placeholders for names and globally unique identifiers (GUIDs) that are specific to the online store. The following table describes those placeholders.
 
@@ -43,7 +52,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 | Placeholder    | Description                                                                                                                                                                                                                                                                                                                     |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *keyName*      | A string agreed upon between Microsoft and the online store. This string uniquely identifies the online store.Example: "Proseware"<br/>                                                                                                                                                                                   |
-| *flags*        | A bitwise **OR** of one or more plug-in capability flags These flags specify whether Windows Media Player should call particular methods of [IWMPContentPartner](iwmpcontentpartner.md). For information about supported flags, see the table of plug-in capability flags that follows this table.Example: 00000058<br/> |
+| *flags*        | A bitwise **OR** of one or more plug-in capability flags These flags specify whether Windows Media Player should call particular methods of [IWMPContentPartner](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentpartner?branch=master). For information about supported flags, see the table of plug-in capability flags that follows this table.Example: 00000058<br/> |
 | *clsid*        | A GUID that is the class identifier (CLSID) for the class that implements **IWMPContentPartner** in the online store's plug-in. This GUID must be in registry format, complete with the curly braces.Format: {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}<br/>                                                                  |
 | *friendlyname* | A friendly name for the online store.Example: "Proseware Music Service"<br/>                                                                                                                                                                                                                                              |
 | *appid*        | A GUID that is the application identifier (AppID) for the online store's plug-in. This GUID must be in registry format, complete with the curly braces.Format: {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}<br/>                                                                                                                |
@@ -54,7 +63,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 
 
 
- 
+ 
 
 The following table describes the plug-in capability flags.
 
@@ -62,14 +71,14 @@ The following table describes the plug-in capability flags.
 
 | Flag                                    | Value | Description                                                                                                                                                                                                                                                                 |
 |-----------------------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SUBSCRIPTION\_CAP\_BACKGROUNDPROCESSING | 0x8   | Windows Media Player should call [IWMPContentPartner::Notify](iwmpcontentpartner-notify.md) to inform the plug-in when it should start and stop background processing.                                                                                                     |
-| SUBSCRIPTION\_CAP\_DEVICEAVAILABLE      | 0x10  | Windows Media Player should call [IWMPContentPartner::UpdateDevice](iwmpcontentpartner-updatedevice.md).                                                                                                                                                                   |
+| SUBSCRIPTION\_CAP\_BACKGROUNDPROCESSING | 0x8   | Windows Media Player should call [IWMPContentPartner::Notify](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-notify?branch=master) to inform the plug-in when it should start and stop background processing.                                                                                                     |
+| SUBSCRIPTION\_CAP\_DEVICEAVAILABLE      | 0x10  | Windows Media Player should call [IWMPContentPartner::UpdateDevice](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice?branch=master).                                                                                                                                                                   |
 | SUBSCRIPTION\_CAP\_IS\_CONTENTPARTNER   | 0x40  | Informs Windows Media Player that the plug-in implements the **IWMPContentPartner** interface. All type 1 online store plug-ins must set this flag.                                                                                                                         |
-| SUBSCRIPTION\_CAP\_ALTLOGIN             | 0x80  | Informs Windows Media Player that the plug-in supports an alternate login. If the plug-in supports an alternate login, Windows Media Player retrieves the alternate login URL and caption by calling [IWMPContentPartner::GetItemInfo](iwmpcontentpartner-getiteminfo.md). |
+| SUBSCRIPTION\_CAP\_ALTLOGIN             | 0x80  | Informs Windows Media Player that the plug-in supports an alternate login. If the plug-in supports an alternate login, Windows Media Player retrieves the alternate login URL and caption by calling [IWMPContentPartner::GetItemInfo](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo?branch=master). |
 
 
 
- 
+ 
 
 **Registry Entries for Development and Testing**
 
@@ -116,9 +125,9 @@ In the preceding registry syntax, *serviceInfo* is a placeholder for a string th
 [**Reference for Type 1 Online Stores**](reference-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

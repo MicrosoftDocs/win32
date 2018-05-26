@@ -1,8 +1,9 @@
 ---
 title: gluLoadSamplingMatrices function
 description: The gluLoadSamplingMatrices function loads Non-Uniform Rational B-Spline (NURBS) sampling and culling matrices.
-ms.assetid: '7fdbc4e2-a037-4f07-bb03-e51feea42775'
-keywords: ["gluLoadSamplingMatrices function OpenGL"]
+ms.assetid: 7fdbc4e2-a037-4f07-bb03-e51feea42775
+keywords:
+- gluLoadSamplingMatrices function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluLoadSamplingMatrices function
@@ -22,10 +28,10 @@ The **gluLoadSamplingMatrices** function loads Non-Uniform Rational B-Spline ([N
 
 ```C++
 void WINAPI gluLoadSamplingMatrices(
-         GLUnurbs *nobj,
-   const GLfloat  modelMatrix[16],
-   const GLfloat  projMatrix[16],
-   const GLint    viewport[4]
+         GLUnurbs *nobj,
+   const GLfloat  modelMatrix[16],
+   const GLfloat  projMatrix[16],
+   const GLint    viewport[4]
 );
 ```
 
@@ -79,8 +85,8 @@ The **gluLoadSamplingMatrices** function is necessary only if the GLU\_AUTO\_LOA
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -103,9 +109,9 @@ The **gluLoadSamplingMatrices** function is necessary only if the GLU\_AUTO\_LOA
 [**gluNewNurbsRenderer**](glunewnurbsrenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

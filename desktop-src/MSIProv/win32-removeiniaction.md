@@ -1,8 +1,10 @@
 ---
 title: Win32\_RemoveIniAction class
 description: The Win32\_RemoveIniAction WMI class deletes whatever .INI file information that the application requires.
-ms.assetid: '4bd36dfa-d7a9-4d65-95b5-fcaa5fbf2fe4'
-keywords: ["Win32_RemoveIniAction class", "Win32_RemoveIniAction class, described"]
+ms.assetid: 4bd36dfa-d7a9-4d65-95b5-fcaa5fbf2fe4
+keywords:
+- Win32_RemoveIniAction class
+- Win32_RemoveIniAction class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RemoveIniAction class
@@ -33,7 +40,7 @@ The **Win32\_RemoveIniAction** [WMI class](https://msdn.microsoft.com/library/aa
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -78,7 +85,7 @@ The **Win32\_RemoveIniAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -106,7 +113,7 @@ Type of modification made.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -169,7 +176,7 @@ Whether a particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa3865
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -247,7 +254,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -327,7 +334,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -367,8 +374,8 @@ The **Win32\_RemoveIniAction** class is derived from [**CIM\_Action**](https://m
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -382,9 +389,9 @@ The **Win32\_RemoveIniAction** class is derived from [**CIM\_Action**](https://m
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

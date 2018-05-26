@@ -1,15 +1,18 @@
 ---
-Description: 'The DeleteEx WMI class method will delete the logical file (or directory) specified in the object path. DeleteEx is an extended version of the Delete method.'
+Description: The DeleteEx WMI class method will delete the logical file (or directory) specified in the object path. DeleteEx is an extended version of the Delete method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6e5447c1-4d71-4a51-a1e0-b5785c13dfd2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6e5447c1-4d71-4a51-a1e0-b5785c13dfd2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'DeleteEx method of the Win32\_Directory class'
+title: DeleteEx method of the Win32\_Directory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteEx method of the Win32\_Directory class
@@ -23,8 +26,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 DeleteEx(
-  [out]          string StopFileName,
-  [in, optional] string StartFileName
+  [out]          string StopFileName,
+  [in, optional] string StartFileName
 );
 ```
 
@@ -151,8 +154,8 @@ A parameter specified is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -169,9 +172,9 @@ A parameter specified is not valid.
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

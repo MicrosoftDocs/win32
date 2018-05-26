@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the filter''s reference clock.'
-ms.assetid: '164ea59d-d36d-41ab-9e25-815b30e21e95'
-title: 'CBaseFilter::m\_pClock member'
+Description: Pointer to the filters reference clock.
+ms.assetid: 164ea59d-d36d-41ab-9e25-815b30e21e95
+title: CBaseFilterm\_pClock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter::m\_pClock member
@@ -35,9 +40,9 @@ IReferenceClock *m_pClock;
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

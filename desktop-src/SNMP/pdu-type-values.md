@@ -1,7 +1,7 @@
 ---
 title: PDU Type Values
 description: The PDU type values are used in the pdu\_type field of the PDU to describe its type.
-ms.assetid: '9d7a3f1c-7940-428b-a4e0-3c9e61dd755f'
+ms.assetid: 9d7a3f1c-7940-428b-a4e0-3c9e61dd755f
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDU Type Values
@@ -46,8 +51,8 @@ The PDU type values are used in the **pdu\_type** field of the PDU to describe i
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -65,9 +70,9 @@ The PDU type values are used in the **pdu\_type** field of the PDU to describe i
 [SNMP Constants](snmp-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

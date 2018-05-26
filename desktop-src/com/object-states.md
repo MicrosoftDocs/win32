@@ -1,7 +1,12 @@
 ---
 title: Object States
 description: Object States
-ms.assetid: '8ebef6d6-7a2f-4b95-91ca-999646cde82d'
+ms.assetid: 8ebef6d6-7a2f-4b95-91ca-999646cde82d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object States
@@ -10,7 +15,7 @@ A compound object exists in one of three states: passive, loaded, or running. A 
 
 
 
-| Object state       | Description                                                                                                                                                                                                                                                                                                                                                                                         |
+| Object state       | Description                                                                                                                                                                                                                                                                                                                                                                                         |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Passive<br/> | The compound-document object exists only in storage, either on disk or in a database. In this state, the object is unavailable for viewing or editing.<br/>                                                                                                                                                                                                                                   |
 | Loaded<br/>  | The object's data structures created by the object handler are in the container's memory. The container has established communication with the object handler and there is cached presentation data available for rendering the object. Calls are processed by the object handler. This state, because of its low overhead, is used when a user is simply viewing or printing an object.<br/> |
@@ -18,7 +23,7 @@ A compound object exists in one of three states: passive, loaded, or running. A 
 
 
 
- 
+ 
 
 For more information, see the following topics:
 
@@ -33,9 +38,9 @@ For more information, see the following topics:
 [Compound Documents](compound-documents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

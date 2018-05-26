@@ -1,7 +1,12 @@
 ---
-Description: 'ICE39 validates the Summary Information Stream of the database.'
-ms.assetid: '9de72de6-fd9c-4d94-92f7-61b85dff0f6a'
+Description: ICE39 validates the Summary Information Stream of the database.
+ms.assetid: 9de72de6-fd9c-4d94-92f7-61b85dff0f6a
 title: ICE39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE39

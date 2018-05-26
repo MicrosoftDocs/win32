@@ -4,17 +4,21 @@ description: A string that represents an array of bytes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '519ec9f3-f6ce-4542-937e-4cf5dfbda6e1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 519ec9f3-f6ce-4542-937e-4cf5dfbda6e1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Octet) syntax AD Schema"]
+keywords:
+- String(Octet) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Octet)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Octet) syntax

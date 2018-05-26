@@ -1,13 +1,16 @@
 ---
-Description: 'You have two choices when compiling a MOF file: using the command-line utility or using a programmatic interface.'
+Description: You have two choices when compiling a MOF file using the command-line utility or using a programmatic interface.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1760f1bd-7027-4201-97a2-ca902f945b52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1760f1bd-7027-4201-97a2-ca902f945b52
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Running the MOF Compiler on a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running the MOF Compiler on a File
@@ -31,7 +34,7 @@ Until you run the MOF compiler, [**Mofcomp.exe**](mofcomp.md), a provider is not
     1.  Use the **-N** switch for the **mofcomp** command.
     2.  Insert the preprocessor command \#[**pragma namespace**](pragma-namespace.md) in the MOF file.
 
-2.  Optionally, you can compile a MOF file programmatically. For more information, see [**IMofCompiler**](imofcompiler.md).
+2.  Optionally, you can compile a MOF file programmatically. For more information, see [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master).
 
 ## Related topics
 

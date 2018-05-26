@@ -1,8 +1,14 @@
 ---
 title: Stream-Output Stage
 description: The purpose of the stream-output stage is to continuously output (or stream) vertex data from the geometry-shader stage (or the vertex-shader stage if the geometry-shader stage is inactive) to one or more buffers in memory (see Getting Started with the Stream-Output Stage).
-ms.assetid: 'f902dc93-9612-481b-a6bd-073e924a4c79'
-keywords: ["stream output stage (Direct3D 10)"]
+ms.assetid: f902dc93-9612-481b-a6bd-073e924a4c79
+keywords:
+- stream output stage (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream-Output Stage
@@ -13,7 +19,7 @@ The stream-output stage (SO) is located in the pipeline right after the geometry
 
 ![diagram of the stream-output stage's location in the pipeline](images/d3d10-pipeline-stages-so.png)
 
-Data streamed out to memory can be read back into the pipeline in a subsequent rendering pass, or can be copied to a staging resource (so it can be read by the CPU). The amount of data streamed out can vary; the [**ID3D11DeviceContext::DrawAuto**](id3d11devicecontext-drawauto.md) API is designed to handle the data without the need to query (the GPU) about the amount of data written.
+Data streamed out to memory can be read back into the pipeline in a subsequent rendering pass, or can be copied to a staging resource (so it can be read by the CPU). The amount of data streamed out can vary; the [**ID3D11DeviceContext::DrawAuto**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-drawauto?branch=master) API is designed to handle the data without the need to query (the GPU) about the amount of data written.
 
 When a triangle or line strip is bound to the input-assembler stage, each strip is converted into a list before they are streamed out. Vertices are always written out as complete primitives (for example, 3 vertices at a time for triangles); incomplete primitives are never streamed out. Primitive types with adjacency discard the adjacency data before streaming data out.
 
@@ -39,7 +45,7 @@ To use a buffer as a stream-output resource, create the buffer with the [**D3D11
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -51,9 +57,9 @@ To use a buffer as a stream-output resource, create the buffer with the [**D3D11
 [Pipeline Stages (Direct3D 10)](https://msdn.microsoft.com/library/windows/desktop/bb205123)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

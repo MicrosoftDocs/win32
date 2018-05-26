@@ -1,7 +1,12 @@
 ---
-Description: 'Defines standard, specific, and generic rights. These rights are used in access control entries (ACEs) and are the primary means of specifying the requested or granted access to an object.'
-ms.assetid: 'f115ee54-3333-4109-8004-d71904a7a943'
-title: 'ACCESS\_MASK'
+Description: Defines standard, specific, and generic rights. These rights are used in access control entries (ACEs) and are the primary means of specifying the requested or granted access to an object.
+ms.assetid: f115ee54-3333-4109-8004-d71904a7a943
+title: ACCESS\_MASK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACCESS\_MASK
@@ -24,11 +29,11 @@ The bits in this value are allocated as follows.
 
 | Bits             | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0–15<br/>  | Specific rights. Contains the access mask specific to the object type associated with the mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
-| 16–23<br/> | Standard rights. Contains the object's standard access rights.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 0 15<br/>  | Specific rights. Contains the access mask specific to the object type associated with the mask.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 16 23<br/> | Standard rights. Contains the object's standard access rights.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | 24<br/>    | Access system security (**ACCESS\_SYSTEM\_SECURITY**). It is used to indicate access to a [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). This type of access requires the calling process to have the **SE\_SECURITY\_NAME** (Manage auditing and security log) privilege. If this flag is set in the access mask of an audit access ACE (successful or unsuccessful access), the SACL access will be audited.<br/> |
 | 25<br/>    | Maximum allowed (**MAXIMUM\_ALLOWED**).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| 26–27<br/> | Reserved.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 26 27<br/> | Reserved.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 28<br/>    | Generic all (**GENERIC\_ALL**).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 29<br/>    | Generic execute (**GENERIC\_EXECUTE**).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 30<br/>    | Generic write (**GENERIC\_WRITE**).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -36,7 +41,7 @@ The bits in this value are allocated as follows.
 
 
 
- 
+ 
 
 Standard rights bits, 16 to 23, contain the object's standard access rights and can be a combination of the following predefined flags.
 
@@ -52,7 +57,7 @@ Standard rights bits, 16 to 23, contain the object's standard access rights and 
 
 
 
- 
+ 
 
 The following constants defined in Winnt.h represent the specific and standard access rights.
 
@@ -83,8 +88,8 @@ The following constants defined in Winnt.h represent the specific and standard a
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Winnt.h (include Windows.h)</dt> </dl> |
 
 
@@ -102,12 +107,12 @@ The following constants defined in Winnt.h represent the specific and standard a
 [Access Rights and Access Masks](access-rights-and-access-masks.md)
 </dt> <dt>
 
-[**GENERIC\_MAPPING**](generic-mapping.md)
+[**GENERIC\_MAPPING**](/windows/win32/Winnt/ns-winnt-_generic_mapping?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

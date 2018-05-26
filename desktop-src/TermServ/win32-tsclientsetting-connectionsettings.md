@@ -4,11 +4,14 @@ description: The ConnectionSettings method sets the session settings that apply 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '603807fe-f341-4358-a3b0-0300785cbdb1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 603807fe-f341-4358-a3b0-0300785cbdb1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ConnectionSettings method Remote Desktop Services", "ConnectionSettings method Remote Desktop Services , Win32_TSClientSetting class", "Win32_TSClientSetting class Remote Desktop Services , ConnectionSettings method"]
+keywords:
+- ConnectionSettings method Remote Desktop Services
+- ConnectionSettings method Remote Desktop Services , Win32_TSClientSetting class
+- Win32_TSClientSetting class Remote Desktop Services , ConnectionSettings method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConnectionSettings method of the Win32\_TSClientSetting class
@@ -28,9 +34,9 @@ The **ConnectionSettings** method sets the session settings that apply to the co
 
 ```mof
 uint32 ConnectionSettings(
-  [in] uint32 ConnectClientDrivesAtLogon,
-  [in] uint32 ConnectPrinterAtLogon,
-  [in] uint32 DefaultToClientPrinter
+  [in] uint32 ConnectClientDrivesAtLogon,
+  [in] uint32 ConnectPrinterAtLogon,
+  [in] uint32 DefaultToClientPrinter
 );
 ```
 
@@ -141,8 +147,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -156,9 +162,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSClientSetting**](win32-tsclientsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

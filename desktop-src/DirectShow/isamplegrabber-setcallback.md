@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetCallback method specifies a callback method to call on incoming samples.'
-ms.assetid: 'b84d3f52-b986-492a-a8b9-1d98618dcdd3'
-title: 'ISampleGrabber::SetCallback method'
+---
+Description: The SetCallback method specifies a callback method to call on incoming samples.
+ms.assetid: b84d3f52-b986-492a-a8b9-1d98618dcdd3
+title: ISampleGrabberSetCallback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabber::SetCallback method
@@ -45,7 +50,7 @@ Index specifying the callback method. Must be one of the following values.
 
 | Value | Description                                                                                                                                                                                     |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | The Sample Grabber filter calls the [**ISampleGrabberCB::SampleCB**](isamplegrabbercb-samplecb.md) method. This method receives an [**IMediaSample**](imediasample.md) pointer.               |
+| 0     | The Sample Grabber filter calls the [**ISampleGrabberCB::SampleCB**](isamplegrabbercb-samplecb.md) method. This method receives an [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) pointer.               |
 | 1     | The Sample Grabber filter calls the [**ISampleGrabberCB::BufferCB**](isamplegrabbercb-buffercb.md) method. This method receives a pointer to the buffer that is contained in the media sample. |
 
 
@@ -62,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 The data processing thread blocks until the callback method returns. If the callback does not return quickly, it can interfere with playback.
 
-The filter does not invoke the callback function for preroll samples, or for samples in which the **dwStreamId** member of the [**AM\_SAMPLE2\_PROPERTIES**](am-sample2-properties.md) structure is anything other than AM\_STREAM\_MEDIA.
+The filter does not invoke the callback function for preroll samples, or for samples in which the **dwStreamId** member of the [**AM\_SAMPLE2\_PROPERTIES**](/windows/win32/strmif/ns-strmif-tagam_sample2_properties?branch=master) structure is anything other than AM\_STREAM\_MEDIA.
 
 > [!Note]  
 > The header file Qedit.h is not compatible with Direct3D headers later than version 7.

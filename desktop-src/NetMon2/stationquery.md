@@ -1,7 +1,12 @@
 ---
-Description: 'The STATIONQUERY structure provides information about a specific computer using Network Monitor.'
-ms.assetid: 'b7202c6b-e2b9-4a6f-8b87-3d11879f1d69'
+Description: The STATIONQUERY structure provides information about a specific computer using Network Monitor.
+ms.assetid: b7202c6b-e2b9-4a6f-8b87-3d11879f1d69
 title: STATIONQUERY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STATIONQUERY structure
@@ -14,13 +19,13 @@ The **STATIONQUERY** structure provides information about a specific computer us
 ```C++
 typedef struct _STATIONQUERY {
   DWORD Flags;
-  BYTE  BCDVerMinor;
-  BYTE  BCDVerMajor;
+  BYTE  BCDVerMinor;
+  BYTE  BCDVerMajor;
   DWORD LicenseNumber;
-  BYTE  MachineName[MACHINE_NAME_LENGTH];
-  BYTE  UserName[USER_NAME_LENGTH];
-  BYTE  Reserved[32];
-  BYTE  AdapterAddress[6];
+  BYTE  MachineName[MACHINE_NAME_LENGTH];
+  BYTE  UserName[USER_NAME_LENGTH];
+  BYTE  Reserved[32];
+  BYTE  AdapterAddress[6];
   WCHAR WMachineName[MACHINE_NAME_LENGTH];
   WCHAR WUserName[USER_NAME_LENGTH];
 } STATIONQUERY, *LPSTATIONQUERY;
@@ -48,7 +53,7 @@ Flags that Identify the current state of Network Monitor.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -125,8 +130,8 @@ An array of these structures is used by the [QUERYTABLE](querytable.md) structur
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -138,9 +143,9 @@ An array of these structures is used by the [QUERYTABLE](querytable.md) structur
 [QUERYTABLE](querytable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

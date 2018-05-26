@@ -1,7 +1,12 @@
 ---
 title: Displaying Progress Messages
 description: By default, RC compiles without displaying progress messages. However, you can specify that RC is to display progress messages. To do so, use the /v option.
-ms.assetid: '493b6bf0-7dff-4af9-8135-b2999eadce80'
+ms.assetid: 493b6bf0-7dff-4af9-8135-b2999eadce80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Progress Messages

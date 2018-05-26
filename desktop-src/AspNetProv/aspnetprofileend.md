@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the ProfileEnd event.'
+---
+Description: The event type class for the ProfileEnd event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '04d9f381-58fb-4da6-b60b-16543d543c57'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 04d9f381-58fb-4da6-b60b-16543d543c57
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetProfileEnd class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetProfileEnd class

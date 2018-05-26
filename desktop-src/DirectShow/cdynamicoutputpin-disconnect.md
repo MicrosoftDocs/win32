@@ -1,12 +1,17 @@
 ---
-Description: 'The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.'
-ms.assetid: '8d92a504-98ad-4f8f-89a4-f0c80763db44'
-title: 'CDynamicOutputPin.Disconnect method'
+Description: The Disconnect method breaks the current pin connection. This method implements the IPinDisconnect method.
+ms.assetid: 8d92a504-98ad-4f8f-89a4-f0c80763db44
+title: CDynamicOutputPin.Disconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.Disconnect method
 
-The `Disconnect` method breaks the current pin connection. This method implements the [**IPin::Disconnect**](ipin-disconnect.md) method.
+The `Disconnect` method breaks the current pin connection. This method implements the [**IPin::Disconnect**](/windows/win32/Strmif/nf-strmif-ipin-disconnect?branch=master) method.
 
 ## Syntax
 
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ This method overrides the [**CBasePin::Disconnect**](cbasepin-disconnect.md) met
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

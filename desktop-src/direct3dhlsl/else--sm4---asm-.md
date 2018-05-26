@@ -1,7 +1,12 @@
 ---
 title: else (sm4 - asm)
 description: Starts an else block.
-ms.assetid: 'CFF25E78-D986-4EC5-B542-B3396EFF88E1'
+ms.assetid: CFF25E78-D986-4EC5-B542-B3396EFF88E1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # else (sm4 - asm)

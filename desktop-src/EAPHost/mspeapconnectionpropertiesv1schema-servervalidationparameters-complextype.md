@@ -1,14 +1,20 @@
 ---
 title: ServerValidationParameters Complex Type
 description: Contains information about how to perform server validation.
-ms.assetid: '65b3199c-9462-447b-b560-0713348f9130'
-keywords: ["ServerValidationParameters complex type EAPHost"]
+ms.assetid: 65b3199c-9462-447b-b560-0713348f9130
+keywords:
+- ServerValidationParameters complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - ServerValidationParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServerValidationParameters Complex Type
@@ -56,7 +62,7 @@ The **ServerValidationParameters** complex type contains information about how t
 
 | Name                    | Type    | Description                                                                                                                                                                                                                  |
 |-------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PerformServerValidation | boolean | Windows 7 or leter: Indicates whether server validation is performed. The [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md) element is optional.<br/> |
+| PerformServerValidation | boolean | Windows 7 or leter: Indicates whether server validation is performed. The [**PerformServerValidation**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md) element is optional.<br/> |
 
 
 
@@ -66,8 +72,8 @@ The **ServerValidationParameters** complex type contains information about how t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -87,9 +93,9 @@ The **ServerValidationParameters** complex type contains information about how t
 [**AcceptServerName**](mspeapconnectionpropertiesv1schema-acceptservername-peapextensionstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

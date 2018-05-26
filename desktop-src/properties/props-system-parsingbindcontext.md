@@ -1,7 +1,12 @@
 ---
-Description: 'Used to get the IBindCtx for an item to be parsed.'
-ms.assetid: 'f896a441-dd25-498b-b199-a2be9584381b'
-title: 'System.ParsingBindContext'
+Description: Used to get the IBindCtx for an item to be parsed.
+ms.assetid: f896a441-dd25-498b-b199-a2be9584381b
+title: System.ParsingBindContext
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ParsingBindContext

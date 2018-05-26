@@ -4,17 +4,21 @@ description: Thrown when the publishing license that was supplied is corrupted. 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c37ba2b8-5edf-4e89-b448-5afbc31976d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: c37ba2b8-5edf-4e89-b448-5afbc31976d3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["InvalidPLException class"]
+keywords:
+- InvalidPLException class
 topic_type:
 - apiref
 api_name:
 - InvalidPLException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InvalidPLException class
@@ -34,7 +38,7 @@ public class InvalidPLException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -45,7 +49,7 @@ public class InvalidPLException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -57,7 +61,7 @@ public class InvalidPLException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -75,9 +79,9 @@ The **InvalidPLException** class extends the [**ProtectionException**](protectio
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

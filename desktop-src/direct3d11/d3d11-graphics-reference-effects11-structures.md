@@ -1,7 +1,12 @@
 ---
 title: Effects 11 Structures
 description: This section contains information about the Effects 11 structures.
-ms.assetid: '73e34792-eb46-4402-9424-b8e4e4819efd'
+ms.assetid: 73e34792-eb46-4402-9424-b8e4e4819efd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects 11 Structures
@@ -28,7 +33,7 @@ This section contains information about the Effects 11 structures.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +42,9 @@ This section contains information about the Effects 11 structures.
 [Effects 11 Reference](d3d11-graphics-reference-effects11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

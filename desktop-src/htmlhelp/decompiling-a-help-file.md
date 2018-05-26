@@ -1,7 +1,12 @@
 ---
 title: Decompiling a Help File
 description: Decompiling a help file involves copying the files in a compiled help file to a directory that you specify while leaving the compiled help file intact.
-ms.assetid: '2A738852-F135-487b-9C1B-8194C06A80A0'
+ms.assetid: 2A738852-F135-487b-9C1B-8194C06A80A0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decompiling a Help File

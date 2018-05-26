@@ -1,7 +1,12 @@
 ---
 title: HH\_DISPLAY\_TOC command
 description: Selects the Contents tab in the Navigation pane of the HTML Help Viewer.
-ms.assetid: '15D66EC6-71E5-43ad-8D75-9711293FFAB8'
+ms.assetid: 15D66EC6-71E5-43ad-8D75-9711293FFAB8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_DISPLAY\_TOC command

@@ -1,8 +1,21 @@
 ---
 title: WCS Transform Creation Algorithms
 description: WCS Transform Creation Algorithms
-ms.assetid: '526bbbfc-fb60-415d-b4f0-6a44a5d11a55'
-keywords: ["Windows Color System (WCS),transform creation", "WCS (Windows Color System),transform creation", "image color management,transform creation", "color management,transform creation", "colors,transform creation", "transform creation", "WCS transform creation", "algorithms,transform creation"]
+ms.assetid: 526bbbfc-fb60-415d-b4f0-6a44a5d11a55
+keywords:
+- Windows Color System (WCS),transform creation
+- WCS (Windows Color System),transform creation
+- image color management,transform creation
+- color management,transform creation
+- colors,transform creation
+- transform creation
+- WCS transform creation
+- algorithms,transform creation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Transform Creation Algorithms
@@ -31,16 +44,16 @@ keywords: ["Windows Color System (WCS),transform creation", "WCS (Windows Color 
 
 ## Creation of Transforms
 
-To properly explain how color transforms work, it is helpful to explain the complete processing path through both ICM 2.0 and the internals of the CTE. The ICM 2.0 [**CreateColorTransform**](createcolortransform.md) function creates a color transform that applications can use to perform color management. This function creates a color context from the [**LOGCOLORSPACE**](logcolorspace.md) and intent inputs. The intents are mapped to baseline ICC gamut mapping algorithm correlates. The function then calls ICM 2.0 function [**CreateMultiProfileTransform**](cmcreatemultiprofiletransform.md) for consistent color processing. The **CreateColorTransform** function generally copies data into the internal optimized transform structure.
+To properly explain how color transforms work, it is helpful to explain the complete processing path through both ICM 2.0 and the internals of the CTE. The ICM 2.0 [**CreateColorTransform**](createcolortransform.md) function creates a color transform that applications can use to perform color management. This function creates a color context from the [**LOGCOLORSPACE**](/windows/win32/Wingdi/ns-wingdi-taglogcolorspacea?branch=master) and intent inputs. The intents are mapped to baseline ICC gamut mapping algorithm correlates. The function then calls ICM 2.0 function [**CreateMultiProfileTransform**](/windows/win32/Wingdi/?branch=master) for consistent color processing. The **CreateColorTransform** function generally copies data into the internal optimized transform structure.
 
 The ICM 2.0 CreateMultiProfileTransform function accepts an array of profiles and an array of intents or a single device link profile and creates a color transform that applications can use to perform color mapping. It processes those input profiles and intents to create device models, color appearance models, gamut boundary descriptions, and gamut mapping models. Here's how this is done:
 
--   Device models are initialized directly from DM profiles. There is one device model created for each profile in the call to [**CreateMultiProfileTransform**](cmcreatemultiprofiletransform.md).
--   Color appearance models are initialized directly from CAM profiles. There is one CAM profile for each profile in the call to [**CreateMultiProfileTransform**](cmcreatemultiprofiletransform.md). The same CAM profile can be specified for more than one profile, however.
--   Gamut boundary descriptions are initialized from a device model object and a CAM object. There is one gamut boundary description for each profile in the call to [**CreateMultiProfileTransform**](cmcreatemultiprofiletransform.md).
--   Gamut mapping models are initialized from two gamut boundaries and an intent. You must create a gamut mapping model between each pair of device models created from the call to [**CreateMultiProfileTransform**](cmcreatemultiprofiletransform.md). Note that this means that you use one fewer gamut map model than device model. Because the number of intents matches the number of device models, there is also one more intent than required. The first intent in the list is skipped. You walk through the list of device models and intents, creating gamut mapping models. Pick up the first and second device models and the second intent, and then initialize the first gamut mapping model. Pick up the second and third device models and the third intent, and then initialize the second gamut mapping model. Continue in this manner until you have created all the gamut mapping models.
+-   Device models are initialized directly from DM profiles. There is one device model created for each profile in the call to [**CreateMultiProfileTransform**](/windows/win32/Wingdi/?branch=master).
+-   Color appearance models are initialized directly from CAM profiles. There is one CAM profile for each profile in the call to [**CreateMultiProfileTransform**](/windows/win32/Wingdi/?branch=master). The same CAM profile can be specified for more than one profile, however.
+-   Gamut boundary descriptions are initialized from a device model object and a CAM object. There is one gamut boundary description for each profile in the call to [**CreateMultiProfileTransform**](/windows/win32/Wingdi/?branch=master).
+-   Gamut mapping models are initialized from two gamut boundaries and an intent. You must create a gamut mapping model between each pair of device models created from the call to [**CreateMultiProfileTransform**](/windows/win32/Wingdi/?branch=master). Note that this means that you use one fewer gamut map model than device model. Because the number of intents matches the number of device models, there is also one more intent than required. The first intent in the list is skipped. You walk through the list of device models and intents, creating gamut mapping models. Pick up the first and second device models and the second intent, and then initialize the first gamut mapping model. Pick up the second and third device models and the third intent, and then initialize the second gamut mapping model. Continue in this manner until you have created all the gamut mapping models.
 
-When the profiles have been properly processed and all intermediate objects have been created and initialized, then you can create the CITE transform with the following call. The *pDestCAM* and *pDestDM* are those associated with the last profile in the call to [**CreateMultiProfileTransform**](cmcreatemultiprofiletransform.md).
+When the profiles have been properly processed and all intermediate objects have been created and initialized, then you can create the CITE transform with the following call. The *pDestCAM* and *pDestDM* are those associated with the last profile in the call to [**CreateMultiProfileTransform**](/windows/win32/Wingdi/?branch=master).
 
 
 ```C++
@@ -101,7 +114,7 @@ Therefore, the approach is to stratify the whole device space into subspaces of 
 
 To fix notations, *n* is the number of channels in the source color space of the color transformation that you want to sample. You can also refer to *n* as the input dimension, and ![](images/transformcreation-image004.gif) , unless otherwise specified.
 
-The basic building blocks are LUTs of various input *dimensions* and sizes, instead of one uniform LUT with input dimension *n*. To be more precise, a*LUT* is a rectangular lattice imposed on a unit cube; that is, all the device coordinates are normalized to the range \[0, 1\]). if � is the input dimension of the lut (note that � does not have to be equal to *n*, although ![](images/transformcreation-image006.gif) is required), then it consists of ν one-dimensional sampling grids:
+The basic building blocks are LUTs of various input *dimensions* and sizes, instead of one uniform LUT with input dimension *n*. To be more precise, a*LUT* is a rectangular lattice imposed on a unit cube; that is, all the device coordinates are normalized to the range \[0, 1\]). if   is the input dimension of the lut (note that   does not have to be equal to *n*, although ![](images/transformcreation-image006.gif) is required), then it consists of ν one-dimensional sampling grids:
 
 Samp *i*: ![](images/transformcreation-image008.gif)
 
@@ -469,7 +482,7 @@ For non-HDR RGB virtual devices, you are also generating a display ICC profile f
 
 Implementation of black preservation is tied together with the generation of the black channel in devices that support a black channel. To accomplish this, information about each source color is collected to allow device models that support a black channel to determine how best to set the black channel on output. While black preservation is pertinent for color transforms that convert between one black-channel device to another, black generation is implemented for all transform involving a black-channel destination device.
 
-Black channel information is recorded in a data structure called [**BlackInformation**](blackinformation.md). The **BlackInformation** structure contains a boolean indicating whether the color contains only black colorant and a numeric value indicating the degree of "blackness" called black weight. For source devices that support a black channel, the black weight is the percentage of black colorant in the source color. For source devices that do not contain a black channel, the black weight is computed using the other colorants and the appearance value. A value called "color purity" is computed by taking the difference between the maximum colorant value and the minimum colorant value divided by the maximum colorant value. A value called "relative lightness" is computed by taking the difference between the lightness of the color and the minimum lightness for the destination device divided by the difference between the minimum and maximum lightness for the destination device. If the source device is an additive device (monitor or projector), the black weight is determined to be the 1.0 minus the color purity multiplied by the relative lightness. For example, if the source device is an RGB monitor, the maximum value and minimum value of R, G, and B for each color is computed and the black weight is determined by the formula:
+Black channel information is recorded in a data structure called [**BlackInformation**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_blackinformation?branch=master). The **BlackInformation** structure contains a boolean indicating whether the color contains only black colorant and a numeric value indicating the degree of "blackness" called black weight. For source devices that support a black channel, the black weight is the percentage of black colorant in the source color. For source devices that do not contain a black channel, the black weight is computed using the other colorants and the appearance value. A value called "color purity" is computed by taking the difference between the maximum colorant value and the minimum colorant value divided by the maximum colorant value. A value called "relative lightness" is computed by taking the difference between the lightness of the color and the minimum lightness for the destination device divided by the difference between the minimum and maximum lightness for the destination device. If the source device is an additive device (monitor or projector), the black weight is determined to be the 1.0 minus the color purity multiplied by the relative lightness. For example, if the source device is an RGB monitor, the maximum value and minimum value of R, G, and B for each color is computed and the black weight is determined by the formula:
 
 BW = (1.0 – (max(R,G,B) – min(R,G,B)) / max(R, G, B)) \* relative lightness
 

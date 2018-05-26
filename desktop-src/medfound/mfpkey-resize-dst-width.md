@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the width of the destination rectangle, in pixels.'
-ms.assetid: '8f0066ca-c464-480d-b38f-3c1134fc51b7'
-title: 'MFPKEY\_RESIZE\_DST\_WIDTH Property'
+---
+Description: Specifies the width of the destination rectangle, in pixels.
+ms.assetid: 8f0066ca-c464-480d-b38f-3c1134fc51b7
+title: MFPKEY\_RESIZE\_DST\_WIDTH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_DST\_WIDTH Property

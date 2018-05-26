@@ -2,7 +2,18 @@
 title: ODL Language Features in MIDL
 description: Object Description Language (ODL) attributes, keywords, statements, and directives that are part of MIDL.
 ms.assetid: beca14a6-01c4-4605-b1c5-214d48a7f46a
-keywords: ["MIDL and ODL MIDL , language features", "ODL MIDL , in MIDL", "ODL MIDL , attributes", "ODL MIDL , keywords", "ODL MIDL , statements", "ODL MIDL , directives"]
+keywords:
+- MIDL and ODL MIDL , language features
+- ODL MIDL , in MIDL
+- ODL MIDL , attributes
+- ODL MIDL , keywords
+- ODL MIDL , statements
+- ODL MIDL , directives
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODL Language Features in MIDL

@@ -1,7 +1,12 @@
 ---
 Description: ASF ContentInfo Object
-ms.assetid: '6b7f8b68-fe98-4aeb-9842-a80ac6235999'
+ms.assetid: 6b7f8b68-fe98-4aeb-9842-a80ac6235999
 title: ASF ContentInfo Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF ContentInfo Object
@@ -16,7 +21,7 @@ For information about the structure of an ASF file, see [ASF File Structure](asf
 
 ## Creating the ContentInfo Object
 
-To create a new instance of the ContentInfo object, call the [**MFCreateASFContentInfo**](mfcreateasfcontentinfo.md) function. This method returns a pointer to an empty ContentInfo object that must be initialized to work with a specific ASF file. Depending on whether the application is reading an existing file or writing a new ASF file, it must call [**IMFASFContentInfo::ParseHeader**](imfasfcontentinfo-parseheader.md) or [**IMFASFContentInfo::SetProfile**](imfasfcontentinfo-setprofile.md) to populate the empty object.
+To create a new instance of the ContentInfo object, call the [**MFCreateASFContentInfo**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo?branch=master) function. This method returns a pointer to an empty ContentInfo object that must be initialized to work with a specific ASF file. Depending on whether the application is reading an existing file or writing a new ASF file, it must call [**IMFASFContentInfo::ParseHeader**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader?branch=master) or [**IMFASFContentInfo::SetProfile**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile?branch=master) to populate the empty object.
 
 For more information about these method calls, see the following topics:
 

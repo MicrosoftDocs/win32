@@ -1,7 +1,12 @@
 ---
 title: DefaultCharacterChange Event
 description: DefaultCharacterChange Event
-ms.assetid: '14b86a44-8fd2-4719-b7b5-cdcc618d27cd'
+ms.assetid: 14b86a44-8fd2-4719-b7b5-cdcc618d27cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultCharacterChange Event

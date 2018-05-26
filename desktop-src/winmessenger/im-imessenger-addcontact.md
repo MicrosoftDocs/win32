@@ -1,8 +1,11 @@
 ---
 title: IMessenger AddContact method
 description: Launches the Add a Contact wizard.
-ms.assetid: 'e0b495c6-72e5-493a-8be0-d738612daf30'
-keywords: ["AddContact method Windows Messenger", "AddContact method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , AddContact method"]
+ms.assetid: e0b495c6-72e5-493a-8be0-d738612daf30
+keywords:
+- AddContact method Windows Messenger
+- AddContact method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , AddContact method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::AddContact method
 
-\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**AddContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Add a Contact** wizard.
 
@@ -24,8 +32,8 @@ Launches the **Add a Contact** wizard.
 
 ```C++
 HRESULT AddContact(
-  [in] long hwndParent,
-  [in] BSTR bstrEMail
+  [in] long hwndParent,
+  [in] BSTR bstrEMail
 );
 ```
 
@@ -75,7 +83,7 @@ For a table of MSGR\_E\_\* constants, see [**MSGRConstants**](im-msgrconstants.m
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -94,7 +102,7 @@ Calling this API while the client is offline does not throw an error. To determi
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -102,17 +110,17 @@ Calling this API while the client is offline does not throw an error. To determi
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

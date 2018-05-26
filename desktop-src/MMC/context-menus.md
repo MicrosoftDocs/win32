@@ -4,11 +4,15 @@ description: Describes the use and contents of a context menu.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd3ad30f2-820c-4cf9-a7d0-0445011e1c28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d3ad30f2-820c-4cf9-a7d0-0445011e1c28
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in UI MMC , context menus"]
+keywords:
+- snap-in UI MMC , context menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Context Menus

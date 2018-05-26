@@ -1,7 +1,12 @@
 ---
-Description: 'The following globally unique identifiers (GUIDs) are used by Windows Journal to identify custom properties on strokes or drawing attributes.'
-ms.assetid: 'a7488c26-b61f-47d8-a19b-d630a8c00875'
+Description: The following globally unique identifiers (GUIDs) are used by Windows Journal to identify custom properties on strokes or drawing attributes.
+ms.assetid: a7488c26-b61f-47d8-a19b-d630a8c00875
 title: Custom Property GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Property GUIDs
@@ -38,7 +43,7 @@ GUID_STROKE_TIMEID = {50B6BC8-3B7D-4816-8C61-BC7E905B2132}
 
 
 
-This is a **TIMEID** structure. It allows stroke order to be maintained across paste and drop operations. Without the **TIMEID** structure, the timestamp for all [**IInkStrokeDisp Interface**](iinkstrokedisp.md) objects cut and pasted in a [InkStrokes Collection](inkstrokes-collection.md) will be the same.
+This is a **TIMEID** structure. It allows stroke order to be maintained across paste and drop operations. Without the **TIMEID** structure, the timestamp for all [**IInkStrokeDisp Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects cut and pasted in a [InkStrokes Collection](/windows/win32/msinkaut/?branch=master) will be the same.
 
 
 ```C++

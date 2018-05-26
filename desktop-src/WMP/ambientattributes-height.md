@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.height
 description: The height attribute specifies or retrieves the height of the control.
-ms.assetid: 'a5c85d86-15d4-451d-b8bc-ed3b6e0dfd7d'
-keywords: ["AmbientAttributes.height Windows Media Player"]
+ms.assetid: a5c85d86-15d4-451d-b8bc-ed3b6e0dfd7d
+keywords:
+- AmbientAttributes.height Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.height
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.height
@@ -44,9 +50,9 @@ If the height specified is smaller than the height of the image provided, then t
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

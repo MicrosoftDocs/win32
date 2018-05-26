@@ -1,7 +1,12 @@
 ---
-Description: 'You can control the ability of a process to access securable objects or to perform system administration tasks.'
-ms.assetid: 'a5d8eaaa-4585-44a3-ab92-2a323d9af80c'
+Description: You can control the ability of a process to access securable objects or to perform system administration tasks.
+ms.assetid: a5d8eaaa-4585-44a3-ab92-2a323d9af80c
 title: Specifying a Security Descriptor From an INF File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying a Security Descriptor From an INF File

@@ -1,7 +1,12 @@
 ---
-Description: 'Updates the area of this IContextNode.'
-ms.assetid: 'e7001411-17e4-4f33-af04-dd3220275895'
-title: 'IContextNode::SetLocation method'
+Description: Updates the area of this IContextNode.
+ms.assetid: e7001411-17e4-4f33-af04-dd3220275895
+title: IContextNodeSetLocation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::SetLocation method
@@ -13,7 +18,7 @@ Updates the area of this [**IContextNode**](icontextnode.md).
 
 ```C++
 HRESULT SetLocation(
-  [in] IAnalysisRegion *pIAnalysisRegion
+  [in] IAnalysisRegion *pIAnalysisRegion
 );
 ```
 
@@ -44,7 +49,7 @@ Use this method to update the context node's location (see [**IContextNode::GetL
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -70,9 +75,9 @@ Use this method to update the context node's location (see [**IContextNode::GetL
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to create a driver-level command or vertex buffer of the specified description.'
-ms.assetid: 'c65403a1-5686-4c7d-80a4-6e49417c11eb'
+---
+Description: Used to create a driver-level command or vertex buffer of the specified description.
+ms.assetid: c65403a1-5686-4c7d-80a4-6e49417c11eb
 title: NtGdiDdCreateD3DBuffer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdCreateD3DBuffer function

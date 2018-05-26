@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MajorVersion property is a value that specifies the major part of the version number for the fax service.'
-ms.assetid: 'a4f5af45-8f86-4a58-b3cb-bea29b5e3ed7'
-title: 'FaxServer.MajorVersion property'
+---
+Description: The MajorVersion property is a value that specifies the major part of the version number for the fax service.
+ms.assetid: a4f5af45-8f86-4a58-b3cb-bea29b5e3ed7
+title: FaxServer.MajorVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.MajorVersion property
@@ -50,7 +55,7 @@ The format for the fax service build number is MajorVersion.MinorVersion.MajorBu
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

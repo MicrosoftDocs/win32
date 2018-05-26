@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PipelineModuleEnter event.'
+---
+Description: The event type class for the PipelineModuleEnter event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e140a4ab-4a96-428f-b657-4fbcf97fb8c7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e140a4ab-4a96-428f-b657-4fbcf97fb8c7
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPipelineModuleEnter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPipelineModuleEnter class

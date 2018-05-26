@@ -4,13 +4,16 @@ description: Gets the failover relationships configured on the server for the sp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '76cecbcc-48eb-4efb-b33e-18a4ae384676'
-ms.prod: 'windows-server-dev'
+ms.assetid: 76cecbcc-48eb-4efb-b33e-18a4ae384676
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByScopeId method", "GetByScopeId method, PS_DhcpServerv4Failover class", "PS_DhcpServerv4Failover class, GetByScopeId method"]
+keywords:
+- GetByScopeId method
+- GetByScopeId method, PS_DhcpServerv4Failover class
+- PS_DhcpServerv4Failover class, GetByScopeId method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByScopeId method of the PS\_DhcpServerv4Failover class
@@ -30,9 +36,9 @@ Gets the failover relationships configured on the server for the specific failov
 
 ```mof
 uint32 GetByScopeId(
-  [in]  string               ComputerName,
-  [in]  string               ScopeId[],
-  [out] DhcpServerv4Failover cmdletOutput[]
+  [in]  string               ComputerName,
+  [in]  string               ScopeId[],
+  [out] DhcpServerv4Failover cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of a [**DhcpServerv4Failover**](dhcpserverv4failover.md) ob
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of a [**DhcpServerv4Failover**](dhcpserverv4failover.md) ob
 [**PS\_DhcpServerv4Failover**](ps-dhcpserverv4failover.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

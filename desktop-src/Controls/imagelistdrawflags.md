@@ -1,7 +1,7 @@
 ---
 title: IMAGELISTDRAWFLAGS
 description: Passed to the IImageList Draw method in the fStyle member of IMAGELISTDRAWPARAMS.
-ms.assetid: '99fd2cb2-0cb0-40c2-b184-b6d8e54397b4'
+ms.assetid: 99fd2cb2-0cb0-40c2-b184-b6d8e54397b4
 topic_type:
 - apiref
 api_name:
@@ -24,11 +24,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAGELISTDRAWFLAGS
 
-Passed to the [**IImageList::Draw**](iimagelist-draw.md) method in the **fStyle** member of [**IMAGELISTDRAWPARAMS**](imagelistdrawparams.md).
+Passed to the [**IImageList::Draw**](/windows/win32/CommonControls/nf-commoncontrols-iimagelist-draw?branch=master) method in the **fStyle** member of [**IMAGELISTDRAWPARAMS**](/windows/win32/commoncontrols/ns-commctrl-_imagelistdrawparams?branch=master).
 
 
 
@@ -48,7 +53,7 @@ Passed to the [**IImageList::Draw**](iimagelist-draw.md) method in the **fStyle*
 | <span id="ILD_PRESERVEALPHA"></span><span id="ild_preservealpha"></span><dl> <dt>**ILD\_PRESERVEALPHA**</dt> <dt>0x00001000</dt> </dl> | Preserves the alpha channel in the destination.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="ILD_SCALE"></span><span id="ild_scale"></span><dl> <dt>**ILD\_SCALE**</dt> <dt>0x00002000</dt> </dl>                         | Causes the image to be scaled to cx, cy instead of being clipped.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="ILD_DPISCALE"></span><span id="ild_dpiscale"></span><dl> <dt>**ILD\_DPISCALE**</dt> <dt>0x00004000</dt> </dl>                | Scales the image to the current dpi of the display.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| <span id="ILD_ASYNC"></span><span id="ild_async"></span><dl> <dt>**ILD\_ASYNC**</dt> <dt>0x00008000</dt> </dl>                         | **Windows Vista and later.** Draw the image if it is available in the cache. Do not extract it automatically. The called draw method returns E\_PENDING to the calling component, which should then take an alternative action, such as, provide another image and queue a background task to force the image to be loaded via [**ForceImagePresent**](iimagelist2-forceimagepresent.md) using the ILFIP\_ALWAYS flag. The ILD\_ASYNC flag then prevents the extraction operation from blocking the current thread and is especially important if a draw method is called from the user interface (UI) thread.<br/> |
+| <span id="ILD_ASYNC"></span><span id="ild_async"></span><dl> <dt>**ILD\_ASYNC**</dt> <dt>0x00008000</dt> </dl>                         | **Windows Vista and later.** Draw the image if it is available in the cache. Do not extract it automatically. The called draw method returns E\_PENDING to the calling component, which should then take an alternative action, such as, provide another image and queue a background task to force the image to be loaded via [**ForceImagePresent**](/windows/win32/Commoncontrols/nf-commoncontrols-iimagelist2-forceimagepresent?branch=master) using the ILFIP\_ALWAYS flag. The ILD\_ASYNC flag then prevents the extraction operation from blocking the current thread and is especially important if a draw method is called from the user interface (UI) thread.<br/> |
 
 
 
@@ -58,15 +63,15 @@ Passed to the [**IImageList::Draw**](iimagelist-draw.md) method in the **fStyle*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

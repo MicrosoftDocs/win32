@@ -1,7 +1,12 @@
 ---
 Description: About the ACM Architecture
-ms.assetid: '4a5c0085-0e7b-424d-9205-5ec39518a088'
+ms.assetid: 4a5c0085-0e7b-424d-9205-5ec39518a088
 title: About the ACM Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the ACM Architecture

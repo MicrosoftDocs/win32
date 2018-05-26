@@ -1,8 +1,9 @@
 ---
 title: TVN\_SELCHANGED notification code
-description: Notifies a tree-view control's parent window that the selection has changed from one item to another. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '682170d3-5843-4d92-afeb-c37f3502ed5d'
-keywords: ["TVN_SELCHANGED notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that the selection has changed from one item to another. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 682170d3-5843-4d92-afeb-c37f3502ed5d
+keywords:
+- TVN_SELCHANGED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_SELCHANGED notification code
@@ -35,7 +41,7 @@ TVN_SELCHANGED
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure. The **itemOld** and **itemNew** members of the **NMTREEVIEW** structure are [**TVITEM**](tvitem.md) structures that contain information about the previously selected item and the newly selected item. Only the **mask**, **hItem**, **state**, and **lParam** members of these structures are valid. The **stateMask** members of the **TVITEM** structures specified by **itemOld** and **itemNew** are undefined on input. The **action** member of the **NMTREEVIEW** structure indicates the type of action that caused the selection to change. It can be one of the following values:
+Pointer to an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure. The **itemOld** and **itemNew** members of the **NMTREEVIEW** structure are [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structures that contain information about the previously selected item and the newly selected item. Only the **mask**, **hItem**, **state**, and **lParam** members of these structures are valid. The **stateMask** members of the **TVITEM** structures specified by **itemOld** and **itemNew** are undefined on input. The **action** member of the **NMTREEVIEW** structure indicates the type of action that caused the selection to change. It can be one of the following values:
 
 
 
@@ -47,7 +53,7 @@ Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure. The **itemOld** and **i
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -61,16 +67,16 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_SELCHANGEDW** (Unicode) and **TVN\_SELCHANGEDA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Trackbars
 description: Trackbars
-ms.assetid: 'b9676697-c3ab-465c-8b50-eb784f53bb11'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "reference for skins,trackbars", "trackbars in skins,about"]
+ms.assetid: b9676697-c3ab-465c-8b50-eb784f53bb11
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- reference for skins,trackbars
+- trackbars in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbars

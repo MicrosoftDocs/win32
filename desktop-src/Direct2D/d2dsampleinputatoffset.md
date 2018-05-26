@@ -1,8 +1,9 @@
 ---
 title: D2DSampleInputAtOffset function
 description: Samples input N at an offset of offset from the input coordinate. Only available for complex inputs.
-ms.assetid: '4A01264E-04E3-49BD-9EF8-7834D9B8B0B8'
-keywords: ["D2DSampleInputAtOffset function Direct2D"]
+ms.assetid: 4A01264E-04E3-49BD-9EF8-7834D9B8B0B8
+keywords:
+- D2DSampleInputAtOffset function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2DSampleInputAtOffset function
@@ -21,8 +27,8 @@ Samples input N at an offset of offset from the input coordinate. Only available
 
 ``` syntax
 float4 WINAPI D2DSampleInputAtOffset(
-  in uint N,
-  in float2 offset
+  in uint N,
+  in float2 offset
 );
 ```
 
@@ -94,9 +100,9 @@ D2D_PS_ENTRY(HighlightsAndShadowsGradientMask)
 [HLSL Helpers](hlsl-helpers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

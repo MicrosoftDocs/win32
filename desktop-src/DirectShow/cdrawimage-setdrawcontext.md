@@ -1,7 +1,12 @@
 ---
-Description: 'The SetDrawContext method sets the device contexts used for drawing.'
-ms.assetid: 'dd752970-99b3-42bb-95a5-8103cab276da'
-title: 'CDrawImage.SetDrawContext method'
+Description: The SetDrawContext method sets the device contexts used for drawing.
+ms.assetid: dd752970-99b3-42bb-95a5-8103cab276da
+title: CDrawImage.SetDrawContext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.SetDrawContext method
@@ -47,9 +52,9 @@ This method retrieves the window and memory device contexts from the owning [**C
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

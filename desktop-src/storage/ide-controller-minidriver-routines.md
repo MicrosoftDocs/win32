@@ -1,7 +1,12 @@
 ---
 title: IDE Controller Minidriver Routines
 description: IDE Controller Minidriver Routines
-ms.assetid: 'e5a4fcf0-2d30-470a-bd36-ca80201c5983'
+ms.assetid: e5a4fcf0-2d30-470a-bd36-ca80201c5983
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDE Controller Minidriver Routines

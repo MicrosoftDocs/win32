@@ -1,7 +1,12 @@
 ---
-Description: 'A Shell link is a data object that contains information used to access another object in the Shell''s namespace&\#8212;that is, any object visible through Windows Explorer.'
-ms.assetid: '54a03536-6fe6-4304-a555-58e5bca128b9'
+Description: A Shell link is a data object that contains information used to access another object in the Shells namespace&\#8212;that is, any object visible through Windows Explorer.
+ms.assetid: 54a03536-6fe6-4304-a555-58e5bca128b9
 title: Shell Links
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell Links
@@ -21,22 +26,22 @@ A *Shell link* is a data object that contains information used to access another
 
 The user creates a Shell link by choosing the **Create Shortcut** command from an object's shortcut menu. The system automatically creates an icon for the Shell link by combining the object's icon with a small arrow (known as the system-defined link overlay icon) that appears in the lower left corner of the icon. A Shell link that has an icon is called a shortcut; however, the terms Shell link and shortcut are often used interchangeably. Typically, the user creates shortcuts to gain quick access to objects stored in subfolders or in shared folders on other computers. For example, a user can create a shortcut to a Microsoft Word document that is located in a subfolder and place the shortcut icon on the desktop. The user can then open the document by double-clicking the shortcut icon. If the document is moved or renamed after the shortcut is created, the system will attempt to update the shortcut the next time the user selects it.
 
-Applications can also create and use Shell links and shortcuts. For example, a word processing application might create a Shell link to implement a list of the most recently used documents. An application creates a Shell link by using the [**IShellLink**](ishelllink.md) interface to create a Shell link object. The application uses the [**IPersistFile**](com.ipersistfile) or [**IPersistStream**](com.ipersiststream) interface to store the object in a file or stream.
+Applications can also create and use Shell links and shortcuts. For example, a word processing application might create a Shell link to implement a list of the most recently used documents. An application creates a Shell link by using the [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) interface to create a Shell link object. The application uses the [**IPersistFile**](com.ipersistfile) or [**IPersistStream**](com.ipersiststream) interface to store the object in a file or stream.
 
 > [!Note]  
-> You cannot use [**IShellLink**](ishelllink.md) to create a link to a URL.
+> You cannot use [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) to create a link to a URL.
 
  
 
-This overview describes the [**IShellLink**](ishelllink.md) interface and explains how to use it to create and resolve Shell links from within a Microsoft Win32-based application. Because the design of Shell links is based on the OLE Component Object Model (COM), you should be familiar with the basic concepts of COM and OLE programming before reading this overview.
+This overview describes the [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) interface and explains how to use it to create and resolve Shell links from within a Microsoft Win32-based application. Because the design of Shell links is based on the OLE Component Object Model (COM), you should be familiar with the basic concepts of COM and OLE programming before reading this overview.
 
 ### Link Resolution
 
-If a user creates a shortcut to an object and the name or location of the object is later changed, the system automatically takes steps to update, or resolve, the shortcut the next time the user selects it. However, if an application creates a Shell link and stores it in a stream, the system does not automatically attempt to resolve the link. The application must resolve the link by calling the [**IShellLink::Resolve**](ishelllink-resolve.md) method.
+If a user creates a shortcut to an object and the name or location of the object is later changed, the system automatically takes steps to update, or resolve, the shortcut the next time the user selects it. However, if an application creates a Shell link and stores it in a stream, the system does not automatically attempt to resolve the link. The application must resolve the link by calling the [**IShellLink::Resolve**](/windows/win32/Shobjidl_core/?branch=master) method.
 
-When a Shell link is created, the system saves information about the link. When resolving a link—either automatically or with an [**IShellLink::Resolve**](ishelllink-resolve.md) call—the system first retrieves the path associated with the Shell link by using a pointer to the Shell link's identifier list. For more information about the identifier list, see [Item Identifiers and Identifier Lists](#item-identifiers-and-identifier-lists). The system searches for the associated object in that path and, if it finds the object, resolves the link. If the system cannot find the object, it calls on the [Distributed Link Tracking and Object Identifiers](fs.distributed_link_tracking_and_object_identifiers) (DLT) service, if available, to locate the object. If the DLT service is not available or cannot find the object, the system looks in the same directory for an object with the same file creation time and attributes but with a different name. This type of search resolves a link to an object that has been renamed.
+When a Shell link is created, the system saves information about the link. When resolving a link—either automatically or with an [**IShellLink::Resolve**](/windows/win32/Shobjidl_core/?branch=master) call—the system first retrieves the path associated with the Shell link by using a pointer to the Shell link's identifier list. For more information about the identifier list, see [Item Identifiers and Identifier Lists](#item-identifiers-and-identifier-lists). The system searches for the associated object in that path and, if it finds the object, resolves the link. If the system cannot find the object, it calls on the [Distributed Link Tracking and Object Identifiers](fs.distributed_link_tracking_and_object_identifiers) (DLT) service, if available, to locate the object. If the DLT service is not available or cannot find the object, the system looks in the same directory for an object with the same file creation time and attributes but with a different name. This type of search resolves a link to an object that has been renamed.
 
-If the system still cannot find the object, it searches the directories, the desktop, and local volumes, looking recursively though the directory tree for an object with either the same name or creation time. If the system still does not find a match, it displays a dialog box prompting the user for a location. An application can suppress the dialog box by specifying the **SLR\_NO\_UI** value in a call to [**IShellLink::Resolve**](ishelllink-resolve.md).
+If the system still cannot find the object, it searches the directories, the desktop, and local volumes, looking recursively though the directory tree for an object with either the same name or creation time. If the system still does not find a match, it displays a dialog box prompting the user for a location. An application can suppress the dialog box by specifying the **SLR\_NO\_UI** value in a call to [**IShellLink::Resolve**](/windows/win32/Shobjidl_core/?branch=master).
 
 ### Initialization of the Component Object Library
 
@@ -52,7 +57,7 @@ When the user creates a shortcut to an object by choosing the **Create Shortcut*
 
 -   The location (path) of the object referenced by the shortcut (called the corresponding object).
 -   The working directory of the corresponding object.
--   The list of arguments that the system passes to the corresponding object when the [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md) method is activated for the shortcut.
+-   The list of arguments that the system passes to the corresponding object when the [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) method is activated for the shortcut.
 -   The show command used to set the initial show state of the corresponding object. This is one of the SW\_ values described in [**ShowWindow**](winmsg.showwindow).
 -   The location (path and index) of the shortcut's icon.
 -   The shortcut's description string.
@@ -78,39 +83,39 @@ The shortcut's name, which is a string that appears below the Shell link icon, i
 
 ### Location of shortcuts in the namespace
 
-A shortcut can exist on the desktop or anywhere in the Shell's namespace. Similarly, the object that is associated with the shortcut can also exist anywhere in the Shell's namespace. An application can use the [**IShellLink::SetPath**](ishelllink-setpath.md) method to set the path and file name for the associated object, and the [**IShellLink::GetPath**](ishelllink-getpath.md) method to retrieve the current path and file name for the object.
+A shortcut can exist on the desktop or anywhere in the Shell's namespace. Similarly, the object that is associated with the shortcut can also exist anywhere in the Shell's namespace. An application can use the [**IShellLink::SetPath**](/windows/win32/Shobjidl_core/?branch=master) method to set the path and file name for the associated object, and the [**IShellLink::GetPath**](/windows/win32/Shobjidl_core/?branch=master) method to retrieve the current path and file name for the object.
 
 ### Shortcut working directory
 
-The working directory is the directory where the corresponding object of a shortcut loads or stores files when the user does not identify a specific directory. A link file contains the name of the working directory for the corresponding object. An application can set the name of the working directory for the corresponding object by using the [**IShellLink::SetWorkingDirectory**](ishelllink-setworkingdirectory.md) method and can retrieve the name of the current working directory for the corresponding object by using the [**IShellLink::GetWorkingDirectory**](ishelllink-getworkingdirectory.md) method.
+The working directory is the directory where the corresponding object of a shortcut loads or stores files when the user does not identify a specific directory. A link file contains the name of the working directory for the corresponding object. An application can set the name of the working directory for the corresponding object by using the [**IShellLink::SetWorkingDirectory**](/windows/win32/Shobjidl_core/?branch=master) method and can retrieve the name of the current working directory for the corresponding object by using the [**IShellLink::GetWorkingDirectory**](/windows/win32/Shobjidl_core/?branch=master) method.
 
 ### Shortcut command-line arguments
 
-A link file contains command-line arguments that the Shell passes to the corresponding object when the user selects the link. An application can set the command-line arguments for a shortcut by using the [**IShellLink::SetArguments**](ishelllink-setarguments.md) method. It is useful to set command-line arguments when the corresponding application, such as a linker or compiler, takes special flags as arguments. An application can retrieve the command-line arguments from a shortcut by using the [**IShellLink::GetArguments**](ishelllink-getarguments.md) method.
+A link file contains command-line arguments that the Shell passes to the corresponding object when the user selects the link. An application can set the command-line arguments for a shortcut by using the [**IShellLink::SetArguments**](/windows/win32/Shobjidl_core/?branch=master) method. It is useful to set command-line arguments when the corresponding application, such as a linker or compiler, takes special flags as arguments. An application can retrieve the command-line arguments from a shortcut by using the [**IShellLink::GetArguments**](/windows/win32/Shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments?branch=master) method.
 
 ### Shortcut show commands
 
-When the user double-clicks a shortcut, the system starts the application associated with the corresponding object and sets the initial show state of the application based on the show command specified by the shortcut. The show command can be any of the SW\_ values included in the description of the [**ShowWindow**](winmsg.showwindow) function. An application can set the show command for a shortcut by using the [**IShellLink::SetShowCmd**](ishelllink-setshowcmd.md) method and can retrieve the current show command by using the [**IShellLink::GetShowCmd**](ishelllink-getshowcmd.md) method.
+When the user double-clicks a shortcut, the system starts the application associated with the corresponding object and sets the initial show state of the application based on the show command specified by the shortcut. The show command can be any of the SW\_ values included in the description of the [**ShowWindow**](winmsg.showwindow) function. An application can set the show command for a shortcut by using the [**IShellLink::SetShowCmd**](/windows/win32/Shobjidl_core/?branch=master) method and can retrieve the current show command by using the [**IShellLink::GetShowCmd**](/windows/win32/Shobjidl_core/?branch=master) method.
 
 ### Shortcut icons
 
-Like other Shell objects, a shortcut has an icon. The user accesses the object associated with a shortcut by double-clicking the shortcut's icon. When the system creates an icon for a shortcut, it uses the bitmap of the corresponding object and adds the system-defined link overlay icon (a small arrow) to the lower left corner. An application can set the location (path and index) of a shortcut's icon by using the [**IShellLink::SetIconLocation**](ishelllink-seticonlocation.md) method. An application can retrieve this location by using the [**IShellLink::GetIconLocation**](ishelllink-geticonlocation.md) method.
+Like other Shell objects, a shortcut has an icon. The user accesses the object associated with a shortcut by double-clicking the shortcut's icon. When the system creates an icon for a shortcut, it uses the bitmap of the corresponding object and adds the system-defined link overlay icon (a small arrow) to the lower left corner. An application can set the location (path and index) of a shortcut's icon by using the [**IShellLink::SetIconLocation**](/windows/win32/Shobjidl_core/?branch=master) method. An application can retrieve this location by using the [**IShellLink::GetIconLocation**](/windows/win32/Shobjidl_core/?branch=master) method.
 
 ### Shortcut descriptions
 
-Shortcuts have descriptions, but the user never sees them. An application can use a description to store any text information. Descriptions are set using the [**IShellLink::SetDescription**](ishelllink-setdescription.md) method and retrieved using the [**IShellLink::GetDescription**](ishelllink-getdescription.md) method.
+Shortcuts have descriptions, but the user never sees them. An application can use a description to store any text information. Descriptions are set using the [**IShellLink::SetDescription**](/windows/win32/Shobjidl_core/?branch=master) method and retrieved using the [**IShellLink::GetDescription**](/windows/win32/Shobjidl_core/?branch=master) method.
 
 ### Shortcut Keyboard Shortcuts
 
-A shortcut object can have a keyboard shortcut associated with it. Keyboard shortcuts allow a user to press a combination of keys to activate a shortcut. An application can set the keyboard shortcut for a shortcut by using the [**IShellLink::SetHotkey**](ishelllink-sethotkey.md) method and can retrieve the current keyboard shortcut by using the [**IShellLink::GetHotkey**](ishelllink-gethotkey.md) method.
+A shortcut object can have a keyboard shortcut associated with it. Keyboard shortcuts allow a user to press a combination of keys to activate a shortcut. An application can set the keyboard shortcut for a shortcut by using the [**IShellLink::SetHotkey**](/windows/win32/Shobjidl_core/?branch=master) method and can retrieve the current keyboard shortcut by using the [**IShellLink::GetHotkey**](/windows/win32/Shobjidl_core/?branch=master) method.
 
 ### Item Identifiers and Identifier Lists
 
-The Shell uses object identifiers within the Shell's namespace. All objects visible in the Shell (files, directories, servers, workgroups, and so on) have unique identifiers among the objects within their parent folder. These identifiers are called item identifiers, and they have the [**SHITEMID**](shitemid.md) data type as defined in the Shtypes.h header file. An item identifier is a variable-length byte stream that contains information that identifies an object within a folder. Only the creator of an item identifier knows the content and format of the identifier. The only part of an item identifier that the Shell uses is the first two bytes, which specify the size of the identifier.
+The Shell uses object identifiers within the Shell's namespace. All objects visible in the Shell (files, directories, servers, workgroups, and so on) have unique identifiers among the objects within their parent folder. These identifiers are called item identifiers, and they have the [**SHITEMID**](/windows/win32/Shtypes/ns-shtypes-_shitemid?branch=master) data type as defined in the Shtypes.h header file. An item identifier is a variable-length byte stream that contains information that identifies an object within a folder. Only the creator of an item identifier knows the content and format of the identifier. The only part of an item identifier that the Shell uses is the first two bytes, which specify the size of the identifier.
 
-Each parent folder has its own item identifier that identifies it within its own parent folder. Thus, any Shell object can be uniquely identified by a list of item identifiers. A parent folder keeps a list of identifiers for the items it contains. The list has the [**ITEMIDLIST**](itemidlist.md) data type. Item identifier lists are allocated by the Shell and may be passed across Shell interfaces, such as [**IShellFolder**](ishellfolder.md). It is important to remember that each identifier in an item identifier list is only meaningful within the context of its parent folder.
+Each parent folder has its own item identifier that identifies it within its own parent folder. Thus, any Shell object can be uniquely identified by a list of item identifiers. A parent folder keeps a list of identifiers for the items it contains. The list has the [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) data type. Item identifier lists are allocated by the Shell and may be passed across Shell interfaces, such as [**IShellFolder**](ishellfolder.md). It is important to remember that each identifier in an item identifier list is only meaningful within the context of its parent folder.
 
-An application can set a shortcut's item identifier list by using the [**IShellLink::SetIDList**](ishelllink-setidlist.md) method. This method is useful when setting a shortcut to an object that is not a file, such as a printer or disk drive. An application can retrieve a shortcut's item identifier list by using the [**IShellLink::GetIDList**](ishelllink-getidlist.md) method.
+An application can set a shortcut's item identifier list by using the [**IShellLink::SetIDList**](/windows/win32/Shobjidl_core/?branch=master) method. This method is useful when setting a shortcut to an object that is not a file, such as a printer or disk drive. An application can retrieve a shortcut's item identifier list by using the [**IShellLink::GetIDList**](/windows/win32/Shobjidl_core/?branch=master) method.
 
 ## Using Shell Links
 
@@ -122,7 +127,7 @@ The CreateLink sample function in the following example creates a shortcut. The 
 
 To create a folder shortcut using the CreateLink sample function, call [**CoCreateInstance**](com.cocreateinstance) using CLSID\_FolderShortcut, instead of CLSID\_ShellLink (CLSID\_FolderShortcut supports IShellLink). All other code remains the same.
 
-Because CreateLink calls the [**CoCreateInstance**](com.cocreateinstance) function, it is assumed that the [**CoInitialize**](com.coinitialize) function has already been called. CreateLink uses the [**IPersistFile**](com.ipersistfile) interface to save the shortcut and the [**IShellLink**](ishelllink.md) interface to store the file name and description.
+Because CreateLink calls the [**CoCreateInstance**](com.cocreateinstance) function, it is assumed that the [**CoInitialize**](com.coinitialize) function has already been called. CreateLink uses the [**IPersistFile**](com.ipersistfile) interface to save the shortcut and the [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) interface to store the file name and description.
 
 
 ```C++
@@ -195,7 +200,7 @@ An application may need to access and manipulate a shortcut that was previously 
 
 The application-defined ResolveIt function in the following example resolves a shortcut. Its parameters include a window handle, a pointer to the path of the shortcut, and the address of a buffer that receives the new path to the object. The window handle identifies the parent window for any message boxes that the Shell may need to display. For example, the Shell can display a message box if the link is on unshared media, if network problems occur, if the user needs to insert a floppy disk, and so on.
 
-The ResolveIt function calls the [**CoCreateInstance**](com.cocreateinstance) function and assumes that the [**CoInitialize**](com.coinitialize) function has already been called. Note that ResolveIt needs to use the [**IPersistFile**](com.ipersistfile) interface to store the link information. **IPersistFile** is implemented by the [**IShellLink**](ishelllink.md) object. The link information must be loaded before the path information is retrieved, which is shown later in the example. Failing to load the link information causes the calls to the [**IShellLink::GetPath**](ishelllink-getpath.md) and [**IShellLink::GetDescription**](ishelllink-getdescription.md) member functions to fail.
+The ResolveIt function calls the [**CoCreateInstance**](com.cocreateinstance) function and assumes that the [**CoInitialize**](com.coinitialize) function has already been called. Note that ResolveIt needs to use the [**IPersistFile**](com.ipersistfile) interface to store the link information. **IPersistFile** is implemented by the [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) object. The link information must be loaded before the path information is retrieved, which is shown later in the example. Failing to load the link information causes the calls to the [**IShellLink::GetPath**](/windows/win32/Shobjidl_core/?branch=master) and [**IShellLink::GetDescription**](/windows/win32/Shobjidl_core/?branch=master) member functions to fail.
 
 
 ```C++
@@ -301,13 +306,13 @@ HRESULT ResolveIt(HWND hwnd, LPCSTR lpszLinkFile, LPWSTR lpszPath, int iPathBuff
 
 ### Creating a Shortcut to a Nonfile Object
 
-Creating a shortcut to a nonfile object, such as a printer, is similar to creating a shortcut to a file except that rather than setting the path to the file, you must set the identifier list to the printer. To set the identifier list, call the [**IShellLink::SetIDList**](ishelllink-setidlist.md) method, specifying the address of an identifier list.
+Creating a shortcut to a nonfile object, such as a printer, is similar to creating a shortcut to a file except that rather than setting the path to the file, you must set the identifier list to the printer. To set the identifier list, call the [**IShellLink::SetIDList**](/windows/win32/Shobjidl_core/?branch=master) method, specifying the address of an identifier list.
 
 Each object within the Shell's namespace has an item identifier. The Shell often concatenates item identifiers into null-terminated lists consisting of any number of item identifiers. For more information about item identifiers, see [Item Identifiers and Identifier Lists](#item-identifiers-and-identifier-lists).
 
 In general, if you need to set a shortcut to an item that does not have a file name, such as a printer, you will already have a pointer to the object's [**IShellFolder**](ishellfolder.md) interface. **IShellFolder** is used to create namespace extensions.
 
-Once you have the class identifier for [**IShellFolder**](ishellfolder.md), you can call the [**CoCreateInstance**](com.cocreateinstance) function to retrieve the address of the interface. Then you can call the interface to enumerate the objects in the folder and retrieve the address of the item identifier for the object that you are searching for. Finally, you can use the address in a call to the [**IShellLink::SetIDList**](ishelllink-setidlist.md) member function to create a shortcut to the object.
+Once you have the class identifier for [**IShellFolder**](ishellfolder.md), you can call the [**CoCreateInstance**](com.cocreateinstance) function to retrieve the address of the interface. Then you can call the interface to enumerate the objects in the folder and retrieve the address of the item identifier for the object that you are searching for. Finally, you can use the address in a call to the [**IShellLink::SetIDList**](/windows/win32/Shobjidl_core/?branch=master) member function to create a shortcut to the object.
 
  
 

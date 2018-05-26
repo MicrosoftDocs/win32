@@ -1,7 +1,12 @@
 ---
 title: To create an ALink in a topic that links to a target file
 description: To create an ALink in a topic that links to a target file
-ms.assetid: '5304EE18-0426-4f35-9A5A-3EA64E06E3AE'
+ms.assetid: 5304EE18-0426-4f35-9A5A-3EA64E06E3AE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create an ALink in a topic that links to a target file
@@ -17,7 +22,7 @@ ms.assetid: '5304EE18-0426-4f35-9A5A-3EA64E06E3AE'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **ALink Search**, and then choose the appropriate display type and button options.
 4.  In the **Related Topics** dialog box, specify the ALink names you want to jump to.
@@ -36,9 +41,9 @@ ms.assetid: '5304EE18-0426-4f35-9A5A-3EA64E06E3AE'
 [About Working with Links](work-with-links.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

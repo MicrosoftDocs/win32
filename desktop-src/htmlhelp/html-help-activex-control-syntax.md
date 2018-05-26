@@ -1,7 +1,12 @@
 ---
 title: HTML Help ActiveX Control Syntax
 description: HTML Help ActiveX Control Syntax
-ms.assetid: 'BD2CAA6F-0942-4ca6-AA45-9FC1F9022462'
+ms.assetid: BD2CAA6F-0942-4ca6-AA45-9FC1F9022462
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help ActiveX Control Syntax
@@ -26,7 +31,7 @@ The &lt;OBJECT&gt; tag enables you to embed the HTML Help ActiveX control direct
 
 
 
- 
+ 
 
 ## Notes
 
@@ -34,9 +39,9 @@ The &lt;OBJECT&gt; tag enables you to embed the HTML Help ActiveX control direct
 -   **WIDTH** and **HEIGHT** values can be expressed in percentage, followed by a percent sign, or in pixels (numeric value only).
 -   The HTML Help ActiveX control does not support the &lt;OBJECT&gt; tag **DATA** attribute.
 
- 
+ 
 
- 
+ 
 
 
 

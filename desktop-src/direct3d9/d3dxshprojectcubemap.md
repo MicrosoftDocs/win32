@@ -1,7 +1,12 @@
-﻿---
-Description: 'Projects a function represented on a cube map into spherical harmonics (SH).'
-ms.assetid: 'da5a3195-801e-4f1c-b52c-9eafc6e2e7b4'
+---
+Description: Projects a function represented on a cube map into spherical harmonics (SH).
+ms.assetid: da5a3195-801e-4f1c-b52c-9eafc6e2e7b4
 title: D3DXSHProjectCubeMap function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHProjectCubeMap function
@@ -39,9 +44,9 @@ Order of the spherical harmonic (SH) evaluation. Must be in the range of [D3DXSH
 *pCubeMap* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](idirect3dcubetexture9.md)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master)**
 
-Pointer to a source cube texture. See [**IDirect3DCubeTexture9**](idirect3dcubetexture9.md).
+Pointer to a source cube texture. See [**IDirect3DCubeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master).
 
 </dd> <dt>
 

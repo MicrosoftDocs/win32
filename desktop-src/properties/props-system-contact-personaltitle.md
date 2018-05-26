@@ -1,7 +1,12 @@
 ---
-Description: 'Contact''s personal title.'
-ms.assetid: '75c0d045-2145-41ac-a2bc-9bf785325e15'
-title: 'System.Contact.PersonalTitle'
+Description: Contacts personal title.
+ms.assetid: 75c0d045-2145-41ac-a2bc-9bf785325e15
+title: System.Contact.PersonalTitle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PersonalTitle

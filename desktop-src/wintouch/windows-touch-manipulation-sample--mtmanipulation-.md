@@ -1,21 +1,33 @@
 ---
 title: Windows Touch Manipulation Sample (MTManipulation)
 description: This section describes the Windows Touch Manipulation sample.
-ms.assetid: '59b9279c-ffa3-42c3-a01f-3ea7aca8f235'
-keywords: ["Windows Touch,code samples", "Windows Touch,sample code", "Windows Touch,manipulations", "Windows Touch,Manipulation sample", "manipulations,sample code", "manipulations,code samples", "Manipulation sample"]
+ms.assetid: 59b9279c-ffa3-42c3-a01f-3ea7aca8f235
+keywords:
+- Windows Touch,code samples
+- Windows Touch,sample code
+- Windows Touch,manipulations
+- Windows Touch,Manipulation sample
+- manipulations,sample code
+- manipulations,code samples
+- Manipulation sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Manipulation Sample (MTManipulation)
 
 This section describes the Windows Touch Manipulation sample.
 
-The Windows Touch Manipulation sample demonstrates how to translate, rotate, and scale an object using the [**IManipulationProcessor**](imanipulationprocessor.md) interface and implementing an [**\_IManipulationEvents**](-imanipulationevents.md) event sink. The following screen shot shows how the sample looks when it is running.
+The Windows Touch Manipulation sample demonstrates how to translate, rotate, and scale an object using the [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) interface and implementing an [**\_IManipulationEvents**](/windows/win32/manipulations/nn-manipulations-_imanipulationevents?branch=master) event sink. The following screen shot shows how the sample looks when it is running.
 
 ![screen shot showing the windows touch manipulation sample, with a rotated blue-outlined white rectangle with blue lines drawn from opposite corners](images/mtmanipulation.png)
 
-For this sample, a **CDrawingObject** class is created that can be programmatically translated, rotated, or scaled. An [**IManipulationProcessor**](imanipulationprocessor.md) interface is instantiated. A manipulation event sink is created that accepts a pointer to the **CDrawingObject** class and the **IManipulationProcessor** interface on its constructor. A connection point to the IManipulationProcessor is created in the manipulation event sink implementation so that events raised by the **IManipulationProcessor** are received by the event sink. Touch data is fed to the **IManipulationProcessor** interface and the interface will then raise [**\_IManipulationEvent**](-imanipulationevents.md) events. The event handlers in the **CManipulationEventSink** class will update the orientation of the **CDrawingObject** by calling accessors on the pointer to the **CDrawingObject**.
+For this sample, a **CDrawingObject** class is created that can be programmatically translated, rotated, or scaled. An [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) interface is instantiated. A manipulation event sink is created that accepts a pointer to the **CDrawingObject** class and the **IManipulationProcessor** interface on its constructor. A connection point to the IManipulationProcessor is created in the manipulation event sink implementation so that events raised by the **IManipulationProcessor** are received by the event sink. Touch data is fed to the **IManipulationProcessor** interface and the interface will then raise [**\_IManipulationEvent**](/windows/win32/manipulations/nn-manipulations-_imanipulationevents?branch=master) events. The event handlers in the **CManipulationEventSink** class will update the orientation of the **CDrawingObject** by calling accessors on the pointer to the **CDrawingObject**.
 
-The following code shows how the window is set up for touch and how the **CDrawingObject** and [**IManipulationProcessor**](imanipulationprocessor.md) are instantiated and passed to the **CManipulationEventSink** constructor.
+The following code shows how the window is set up for touch and how the **CDrawingObject** and [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) are instantiated and passed to the **CManipulationEventSink** constructor.
 
 
 ```C++

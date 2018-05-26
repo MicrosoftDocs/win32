@@ -1,7 +1,7 @@
 ---
 title: CODEPAGEID
 description: Do not use. DWORD that identifies a code page. MimeOLE defines a few constants for commonly-used code page IDs.
-ms.assetid: '85264e16-2c85-4b19-8e2e-8e2bfcff553e'
+ms.assetid: 85264e16-2c85-4b19-8e2e-8e2bfcff553e
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODEPAGEID
@@ -40,17 +45,17 @@ Do not use. DWORD that identifies a code page. MimeOLE defines a few constants f
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The pattern match filter notifies the driver to accept frames that have a specific pattern at a specific offset.'
-ms.assetid: '8ee354f6-385d-49fa-baef-f70f6b3bd6a1'
+Description: The pattern match filter notifies the driver to accept frames that have a specific pattern at a specific offset.
+ms.assetid: 8ee354f6-385d-49fa-baef-f70f6b3bd6a1
 title: Writing the PATTERNMATCH Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing the PATTERNMATCH Filter

@@ -1,7 +1,12 @@
 ---
 title: Silent Acquisition Registry Setting
 description: Silent Acquisition Registry Setting
-ms.assetid: '50e0b27e-ddf8-441f-adcd-d88d36f3edaf'
+ms.assetid: 50e0b27e-ddf8-441f-adcd-d88d36f3edaf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Silent Acquisition Registry Setting

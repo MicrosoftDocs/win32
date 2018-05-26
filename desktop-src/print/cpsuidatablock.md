@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC\_SET\_DATABLOCK or CPSFUNC\_QUERY\_DATABLOCK.'
-ms.assetid: 'c5b488ac-dd8d-4484-81ca-b64fdf517100'
+---
+Description: The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC\_SET\_DATABLOCK or CPSFUNC\_QUERY\_DATABLOCK.
+ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 title: CPSUIDATABLOCK structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPSUIDATABLOCK structure

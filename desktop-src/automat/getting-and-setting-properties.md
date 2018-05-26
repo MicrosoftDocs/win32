@@ -1,7 +1,12 @@
 ---
 title: Getting and Setting Properties
 description: Properties are accessed in the same way as methods, except you specify DISPATCH\_PROPERTYGET or DISPATCH\_PROPERTYPUT instead of DISPATCH\_METHOD.
-ms.assetid: 'b96d718b-d0c0-445e-bb04-a4ccbb0d1d83'
+ms.assetid: b96d718b-d0c0-445e-bb04-a4ccbb0d1d83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting and Setting Properties
@@ -27,7 +32,7 @@ DISPATCH_PROPERTYGET,
 
 
 
-As in the previous example, the code calls [**GetIDsOfNames**](idispatch-getidsofnames.md) for the DISPID of the "On" property, and then passes the ID to [**Invoke**](idispatch-invoke.md). Then, **Invoke** returns the property's value in pVarResult. In general, the return value does not set VT\_BYREF. However, this bit may be set and a pointer returned to the return value, if the lifetime of the return value is the same as that of the object.
+As in the previous example, the code calls [**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master) for the DISPID of the "On" property, and then passes the ID to [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). Then, **Invoke** returns the property's value in pVarResult. In general, the return value does not set VT\_BYREF. However, this bit may be set and a pointer returned to the return value, if the lifetime of the return value is the same as that of the object.
 
 To change the property's value, the call looks like this:
 

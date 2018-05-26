@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) supports dynamic format changes.'
-ms.assetid: '64d32c78-8bee-4d3c-a770-5a097cb71b13'
-title: 'MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE attribute'
+---
+Description: Specifies whether a Media Foundation transform (MFT) supports dynamic format changes.
+ms.assetid: 64d32c78-8bee-4d3c-a770-5a097cb71b13
+title: MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_SUPPORT\_DYNAMIC\_FORMAT\_CHANGE attribute
@@ -29,9 +34,9 @@ This attribute can have the following values.
 
  
 
-To get this attribute, first call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) to get the global attribute store for the MFT. Then call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md) to get the attribute value.
+To get this attribute, first call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) to get the global attribute store for the MFT. Then call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master) to get the attribute value.
 
-If [**GetAttributes**](imftransform-getattributes.md) fails or the attribute is not present, the default value if **FALSE**.
+If [**GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) fails or the attribute is not present, the default value if **FALSE**.
 
 [Asynchronous MFTs](asynchronous-mfts.md) must return the value **TRUE**.
 
@@ -64,13 +69,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Transform Attributes](transform-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFTransform**](imftransform.md)
+[**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 </dt> </dl>
 
  

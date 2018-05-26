@@ -1,7 +1,12 @@
 ---
-Description: 'Generates declarations for the QueryInterface, AddRef and Release functions.'
-ms.assetid: '347978e3-87f2-4a8b-969d-c196d1815881'
+Description: Generates declarations for the QueryInterface, AddRef and Release functions.
+ms.assetid: 347978e3-87f2-4a8b-969d-c196d1815881
 title: IUnknownDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUnknownDeclarations element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

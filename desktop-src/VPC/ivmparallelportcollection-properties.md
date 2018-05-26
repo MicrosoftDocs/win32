@@ -1,7 +1,12 @@
 ---
 title: IVMParallelPortCollection Properties
 description: The IVMParallelPortCollection interface exposes the following properties.
-ms.assetid: '8768E8D8-CDAE-472F-BEEE-8DCFC7E5C8FF'
+ms.assetid: 8768E8D8-CDAE-472F-BEEE-8DCFC7E5C8FF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPortCollection Properties

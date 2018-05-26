@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer QueryLocale method
 description: The QueryLocale method returns the preferred Virtual Server service locale selected from the set of languages specified by an RFC-2616 compliant language string.
-ms.assetid: '344bb1e6-60ba-489d-b086-5b0fd7f92229'
-keywords: ["QueryLocale method Virtual Server", "QueryLocale method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , QueryLocale method"]
+ms.assetid: 344bb1e6-60ba-489d-b086-5b0fd7f92229
+keywords:
+- QueryLocale method Virtual Server
+- QueryLocale method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , QueryLocale method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::QueryLocale method
@@ -22,8 +30,8 @@ The **QueryLocale** method returns the preferred Virtual Server service locale s
 
 ```C++
 HRESULT QueryLocale(
-  [in]  BSTR  inLanguage,
-  [out] ULONG *outLocale
+  [in]  BSTR  inLanguage,
+  [out] ULONG *outLocale
 );
 ```
 
@@ -61,7 +69,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,8 +77,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -88,9 +96,9 @@ This method can return one of these values.
 [**Locale**](ivmvirtualserver-locale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

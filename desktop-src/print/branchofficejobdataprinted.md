@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.'
-ms.assetid: '77737A33-9592-43A3-B12A-5BFDCA0209BE'
+---
+Description: Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.
+ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 title: BranchOfficeJobDataPrinted structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeJobDataPrinted structure

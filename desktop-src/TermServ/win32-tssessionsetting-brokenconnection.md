@@ -4,11 +4,14 @@ description: Sets the BrokenConnectionAction property, which is the action the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2422e314-9e1c-4bed-a958-eedd2daeca66'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2422e314-9e1c-4bed-a958-eedd2daeca66
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["BrokenConnection method Remote Desktop Services", "BrokenConnection method Remote Desktop Services , Win32_TSSessionSetting class", "Win32_TSSessionSetting class Remote Desktop Services , BrokenConnection method"]
+keywords:
+- BrokenConnection method Remote Desktop Services
+- BrokenConnection method Remote Desktop Services , Win32_TSSessionSetting class
+- Win32_TSSessionSetting class Remote Desktop Services , BrokenConnection method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BrokenConnection method of the Win32\_TSSessionSetting class
@@ -28,7 +34,7 @@ Sets the **BrokenConnectionAction** property, which is the action the server tak
 
 ```mof
 uint32 BrokenConnection(
-  [in] uint32 BrokenConnectionAction
+  [in] uint32 BrokenConnectionAction
 );
 ```
 
@@ -81,8 +87,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Wtsprotocol.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl>  |
@@ -97,9 +103,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionSetting**](win32-tssessionsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

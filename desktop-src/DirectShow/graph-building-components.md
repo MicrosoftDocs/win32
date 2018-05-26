@@ -1,17 +1,22 @@
 ---
-Description: 'Graph-Building Components'
-ms.assetid: 'd803c56c-6fb1-4937-92e7-9ed2db2afc46'
-title: 'Graph-Building Components'
+Description: Graph-Building Components
+ms.assetid: d803c56c-6fb1-4937-92e7-9ed2db2afc46
+title: Graph-Building Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graph-Building Components
 
 DirectShow provides several components that can be used to build filter graphs. These include the following:
 
--   [Filter Graph Manager](filter-graph-manager.md). This object controls the filter graph. It supports the [**IGraphBuilder**](igraphbuilder.md), [**IMediaControl**](imediacontrol.md), and [**IMediaEventEx**](imediaeventex.md) interfaces, among others. All DirectShow applications use this object at some point, although in some cases another object creates the Filter Graph Manager for the application.
--   [Capture Graph Builder](capture-graph-builder.md). This object provides additional methods for building filter graphs. It was originally designed for building graphs that perform video capture (hence the name) but is useful for many other types of custom filter graph. It supports the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface.
+-   [Filter Graph Manager](filter-graph-manager.md). This object controls the filter graph. It supports the [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master), [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master), and [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) interfaces, among others. All DirectShow applications use this object at some point, although in some cases another object creates the Filter Graph Manager for the application.
+-   [Capture Graph Builder](capture-graph-builder.md). This object provides additional methods for building filter graphs. It was originally designed for building graphs that perform video capture (hence the name) but is useful for many other types of custom filter graph. It supports the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface.
 -   [Filter Mapper](filter-mapper.md) and [System Device Enumerator](system-device-enumerator.md). These objects locate filters that are registered on the user's system, or that represent hardware devices.
--   [DVD Graph Builder](dvd-graph-builder.md). This object builds filter graphs for DVD playback and navigation. It supports the [**IDvdGraphBuilder**](idvdgraphbuilder.md) interface.
+-   [DVD Graph Builder](dvd-graph-builder.md). This object builds filter graphs for DVD playback and navigation. It supports the [**IDvdGraphBuilder**](/windows/win32/Strmif/nn-strmif-idvdgraphbuilder?branch=master) interface.
 
 ### Intelligent Connect
 

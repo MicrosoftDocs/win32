@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the basic constraints extension of a certificate.'
-ms.assetid: 'c21794f6-7654-4140-8114-0edb398d6de8'
+---
+Description: Represents the basic constraints extension of a certificate.
+ms.assetid: c21794f6-7654-4140-8114-0edb398d6de8
 title: BasicConstraints object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicConstraints object

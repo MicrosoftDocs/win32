@@ -1,7 +1,12 @@
 ---
 title: Accessing a Remote Object
 description: Demonstrates how to access a remote object.
-ms.assetid: '826dbe0d-7bd1-4b70-9d15-4de3a97a8db2'
+ms.assetid: 826dbe0d-7bd1-4b70-9d15-4de3a97a8db2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing a Remote Object

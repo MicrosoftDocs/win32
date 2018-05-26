@@ -1,7 +1,7 @@
 ---
 title: TF\_FLOATINGLANGBAR\_\ Constants
 description: The define a TF\_FLOATINGLANGBAR\_\ constants string for the title of the language bar window.
-ms.assetid: '05394b71-2cc3-440e-943b-d69ee0432fb0'
+ms.assetid: 05394b71-2cc3-440e-943b-d69ee0432fb0
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_FLOATINGLANGBAR\_\* Constants
@@ -38,17 +43,17 @@ Although there are three constants in this group, the primary one is TF\_FLOATIN
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ctfutb.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ctfutb.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

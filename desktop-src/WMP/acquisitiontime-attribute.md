@@ -1,14 +1,20 @@
 ---
 title: AcquisitionTime Attribute
 description: The AcquisitionTime attribute is the date and time the item was added to the library.
-ms.assetid: '5184aa35-ef07-47ec-97b3-2d602bd00568'
-keywords: ["AcquisitionTime Attribute Windows Media Player"]
+ms.assetid: 5184aa35-ef07-47ec-97b3-2d602bd00568
+keywords:
+- AcquisitionTime Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AcquisitionTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AcquisitionTime Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic defines the calendar identifiers (data type CALID) that are used to specify different calendars.'
-ms.assetid: 'ba2e841e-e24e-476a-851e-a29b3af4f04d'
+Description: This topic defines the calendar identifiers (data type CALID) that are used to specify different calendars.
+ms.assetid: ba2e841e-e24e-476a-851e-a29b3af4f04d
 title: Calendar Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calendar Identifiers
@@ -9,16 +14,16 @@ title: Calendar Identifiers
 This topic defines the calendar identifiers (data type CALID) that are used to specify different calendars. Your applications can use these identifiers when using the following NLS functions and callback functions, which have parameters that take the CALID data type:
 
 -   [**ConvertSystemTimeToCalDateTime**](convertsystemtimetocaldatetime.md)
--   [**EnumCalendarInfo**](enumcalendarinfo.md)
--   [**EnumCalendarInfoEx**](enumcalendarinfoex.md)
--   [**EnumCalendarInfoExEx**](enumcalendarinfoexex.md)
+-   [**EnumCalendarInfo**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoa?branch=master)
+-   [**EnumCalendarInfoEx**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoexa?branch=master)
+-   [**EnumCalendarInfoExEx**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoexex?branch=master)
 -   [**EnumCalendarInfoProcEx**](intl.enumcalendarinfoprocex)
 -   [**EnumDateFormatsProcEx**](intl.enumdateformatsprocex)
--   [**GetCalendarInfo**](getcalendarinfo.md)
--   [**GetCalendarInfoEx**](getcalendarinfoex.md)
+-   [**GetCalendarInfo**](/windows/win32/Winnls/nf-winnls-getcalendarinfoa?branch=master)
+-   [**GetCalendarInfoEx**](/windows/win32/Winnls/nf-winnls-getcalendarinfoex?branch=master)
 -   [**GetCalendarSupportedDateRange**](getcalendarsupporteddaterange.md)
 -   [**IsCalendarLeapYear**](iscalendarleapyear.md)
--   [**SetCalendarInfo**](setcalendarinfo.md)
+-   [**SetCalendarInfo**](/windows/win32/Winnls/nf-winnls-setcalendarinfoa?branch=master)
 
 The following values are defined. All other values are reserved. These values cannot be combined with one another.
 
@@ -115,7 +120,7 @@ CAL\_UMALQURA
 
  
 
-In addition, [**EnumCalendarInfo**](enumcalendarinfo.md) and [**EnumCalendarInfoEx**](enumcalendarinfoex.md) allow the use of the value ENUM\_ALL\_CALENDARS to request an enumeration of all applicable calendars.
+In addition, [**EnumCalendarInfo**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoa?branch=master) and [**EnumCalendarInfoEx**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoexa?branch=master) allow the use of the value ENUM\_ALL\_CALENDARS to request an enumeration of all applicable calendars.
 
 Value
 

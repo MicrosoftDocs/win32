@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information about the specified directory object.'
-ms.assetid: 'a2c67c4d-4753-4d47-a404-31d067a78bf4'
+---
+Description: Retrieves information about the specified directory object.
+ms.assetid: a2c67c4d-4753-4d47-a404-31d067a78bf4
 title: NtQueryDirectoryObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtQueryDirectoryObject function

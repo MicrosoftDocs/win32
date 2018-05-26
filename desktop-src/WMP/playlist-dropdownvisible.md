@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.dropDownVisible
 description: The dropDownVisible attribute specifies or retrieves a value indicating whether the Playlist drop-down list is visible.
-ms.assetid: '68b91e0b-7e86-4d25-9a00-0ad7a9ce95b6'
-keywords: ["PLAYLIST.dropDownVisible Windows Media Player"]
+ms.assetid: 68b91e0b-7e86-4d25-9a00-0ad7a9ce95b6
+keywords:
+- PLAYLIST.dropDownVisible Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.dropDownVisible
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.dropDownVisible
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read/write **Boolean**.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

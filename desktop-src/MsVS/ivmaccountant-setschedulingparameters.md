@@ -1,8 +1,13 @@
 ---
 title: IVMAccountant SetSchedulingParameters method
 description: The SetSchedulingParameters method sets the scheduling parameters for a virtual machine.
-ms.assetid: 'bacbb3cf-eef2-4016-96cd-3006e7609c32'
-keywords: ["SetSchedulingParameters method Virtual Server", "SetSchedulingParameters method Virtual Server , IVMAccountant interface", "IVMAccountant interface Virtual Server , SetSchedulingParameters method", "SetSchedulingParameters method Virtual Server , VMAccountant interface", "VMAccountant interface Virtual Server , SetSchedulingParameters method"]
+ms.assetid: bacbb3cf-eef2-4016-96cd-3006e7609c32
+keywords:
+- SetSchedulingParameters method Virtual Server
+- SetSchedulingParameters method Virtual Server , IVMAccountant interface
+- IVMAccountant interface Virtual Server , SetSchedulingParameters method
+- SetSchedulingParameters method Virtual Server , VMAccountant interface
+- VMAccountant interface Virtual Server , SetSchedulingParameters method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::SetSchedulingParameters method
@@ -23,9 +33,9 @@ The **SetSchedulingParameters** method sets the scheduling parameters for a virt
 
 ```C++
 HRESULT SetSchedulingParameters(
-  [in] VARIANT reservedSystemCapacity,
-  [in] VARIANT maxSystemCapacity,
-  [in] long    relativeWeight
+  [in] VARIANT reservedSystemCapacity,
+  [in] VARIANT maxSystemCapacity,
+  [in] long    relativeWeight
 );
 ```
 
@@ -71,7 +81,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,8 +93,8 @@ The maximum values for *reservedSystemCapacity* and *maxSystemCapacity* depend o
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ The maximum values for *reservedSystemCapacity* and *maxSystemCapacity* depend o
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

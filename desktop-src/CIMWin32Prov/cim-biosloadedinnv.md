@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_BIOSLoadedInNV class associates a BIOS element and the non-volatile storage in which it is loaded.'
+Description: The CIM\_BIOSLoadedInNV class associates a BIOS element and the non-volatile storage in which it is loaded.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '11641616-e11d-49ff-bfe4-f95fe27f00b8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 11641616-e11d-49ff-bfe4-f95fe27f00b8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_BIOSLoadedInNV class'
+title: CIM\_BIOSLoadedInNV class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BIOSLoadedInNV class
@@ -19,7 +22,7 @@ The **CIM\_BIOSLoadedInNV** class associates a BIOS element and the non-volatile
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,10 +32,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{524ED194-DB35-11d2-85FC-0000F8102E5F}"), AMENDMENT]
 class CIM_BIOSLoadedInNV : CIM_Dependency
 {
-  CIM_BIOSElement        REF Dependent;
+  CIM_BIOSElement        REF Dependent;
   CIM_NonVolatileStorage REF Antecedent;
-  uint64                     EndingAddress;
-  uint64                     StartingAddress;
+  uint64                     EndingAddress;
+  uint64                     StartingAddress;
 };
 ```
 
@@ -124,8 +127,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -139,9 +142,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

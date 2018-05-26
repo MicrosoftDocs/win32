@@ -4,17 +4,23 @@ description: Specifies the auto balancer level.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '817F7375-777C-4F61-A8D5-D2266675B038'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 817F7375-777C-4F61-A8D5-D2266675B038
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AutoBalancerLevel", "CLUSTER_NAME_AUTO_BALANCER_LEVEL", "AutoBalancerLevel Failover Cluster"]
+keywords:
+- AutoBalancerLevel
+- CLUSTER_NAME_AUTO_BALANCER_LEVEL
+- AutoBalancerLevel Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AutoBalancerLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AutoBalancerLevel
@@ -27,14 +33,14 @@ Specifies the auto balancer level.
 |----------------------|---------------------------------------------|
 | Data type<br/> | **DWORD**                                   |
 | Access<br/>    | [Read/write](read-write-properties.md)     |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)   |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)   |
 | Minimum<br/>   | **CLUSTER\_AUTO\_BALANCER\_LEVEL\_MIN**     |
 | Maximum<br/>   | **CLUSTER\_AUTO\_BALANCER\_LEVEL\_MAX**     |
 | Default<br/>   | **CLUSTER\_AUTO\_BALANCER\_LEVEL\_DEFAULT** |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +61,7 @@ This property can contain the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +70,7 @@ This property can contain the following values.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -75,9 +81,9 @@ This property can contain the following values.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Contains the password required to recover a Full Volume Encryption 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '460e7014-42ce-4e49-a642-9f97fe9044fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 460e7014-42ce-4e49-a642-9f97fe9044fc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-FVE-RecoveryPassword attribute AD Schema", "msFVE-RecoveryPassword attribute AD Schema"]
+keywords:
+- ms-FVE-RecoveryPassword attribute AD Schema
+- msFVE-RecoveryPassword attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-FVE-RecoveryPassword
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-FVE-RecoveryPassword attribute
@@ -38,9 +43,9 @@ Contains the password required to recover a Full Volume Encryption (FVE) volume.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the password required to recover a Full Volume Encryption (FVE) volume.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

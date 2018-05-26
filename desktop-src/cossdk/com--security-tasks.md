@@ -1,7 +1,12 @@
 ---
 Description: COM+ Security Tasks
-ms.assetid: 'ab00de56-a5e6-41e9-9193-adb60d17854f'
+ms.assetid: ab00de56-a5e6-41e9-9193-adb60d17854f
 title: COM+ Security Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Security Tasks
@@ -21,7 +26,7 @@ The following topics in this section provide step-by-step instructions for using
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ The following topics in this section provide step-by-step instructions for using
 [COM+ Security Concepts](com--security-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

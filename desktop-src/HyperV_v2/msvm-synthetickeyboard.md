@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a synthetic keyboard device.'
-ms.assetid: '8fe9bdd5-59e8-421d-812a-08aa3c54c88f'
-title: 'Msvm\_SyntheticKeyboard class'
+Description: Represents a synthetic keyboard device.
+ms.assetid: 8fe9bdd5-59e8-421d-812a-08aa3c54c88f
+title: Msvm\_SyntheticKeyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticKeyboard class
@@ -38,7 +43,7 @@ The **Msvm\_SyntheticKeyboard** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,8 +51,8 @@ The **Msvm\_SyntheticKeyboard** class has these methods.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -61,9 +66,9 @@ The **Msvm\_SyntheticKeyboard** class has these methods.
 [**CIM\_UserDevice**](cim-userdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxIncomingArchive object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.'
-ms.assetid: '840d3caa-9082-4da5-9a77-be8c9e13597b'
-title: 'FaxIncomingArchive.Refresh method'
+---
+Description: The Refresh method refreshes FaxIncomingArchive object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
+ms.assetid: 840d3caa-9082-4da5-9a77-be8c9e13597b
+title: FaxIncomingArchive.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.Refresh method
@@ -32,7 +37,7 @@ This method does not return a value.
 
  
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -56,7 +61,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

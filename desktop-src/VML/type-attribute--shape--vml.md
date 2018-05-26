@@ -1,7 +1,12 @@
 ---
 title: Type Attribute (Shape)(VML)
 description: Type Attribute (Shape)(VML)
-ms.assetid: '41f0d1d3-3a2c-47cf-b2ec-d983b14aea87'
+ms.assetid: 41f0d1d3-3a2c-47cf-b2ec-d983b14aea87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Attribute (Shape)(VML)

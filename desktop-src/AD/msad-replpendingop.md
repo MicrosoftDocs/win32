@@ -4,11 +4,13 @@ description: Represents the DS\_REPL\_OP structure, which describes a replicatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd1c101fa-ae33-48da-9b00-93fde553a4f9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d1c101fa-ae33-48da-9b00-93fde553a4f9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["MSAD_ReplPendingOp class Active Directory", "MSAD_ReplPendingOp class Active Directory , described"]
+keywords:
+- MSAD_ReplPendingOp class Active Directory
+- MSAD_ReplPendingOp class Active Directory , described
 topic_type:
 - apiref
 api_name:
@@ -29,11 +31,14 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSAD\_ReplPendingOp class
 
-Represents the [**DS\_REPL\_OP**](ds-repl-op.md) structure, which describes a replication task that is currently executing or pending execution. This structure is returned by the [**DsReplicaGetInfo**](dsreplicagetinfo.md) function.
+Represents the [**DS\_REPL\_OP**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_opw?branch=master) structure, which describes a replication task that is currently executing or pending execution. This structure is returned by the [**DsReplicaGetInfo**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicagetinfow?branch=master) function.
 
 ## Syntax
 
@@ -41,18 +46,18 @@ Represents the [**DS\_REPL\_OP**](ds-repl-op.md) structure, which describes a re
 [dynamic, provider("ReplProv1")]
 class MSAD_ReplPendingOp
 {
-  uint32   SerialNumber;
-  uint32   PositionInQ;
+  uint32   SerialNumber;
+  uint32   PositionInQ;
   datetime OpStartTime;
   datetime TimeEnqueued;
-  uint32   Priority;
-  uint32   OpType;
-  uint32   Options;
-  String   NamingContextDN;
-  String   NamingContextObjGuid;
-  String   DsaDN;
-  String   DsaAddress;
-  String   DsaObjGuid;
+  uint32   Priority;
+  uint32   OpType;
+  uint32   Options;
+  String   NamingContextDN;
+  String   NamingContextObjGuid;
+  String   DsaDN;
+  String   DsaAddress;
+  String   DsaObjGuid;
 };
 ```
 
@@ -166,7 +171,7 @@ Gets the set of flags that provides additional data about the operation. The con
 
 </dt> <dd>
 
-Contains zero or a combination of one or more of the **DS\_REPSYNC\_\*** values as defined for the *Options* parameter in [**DsReplicaSync**](dsreplicasync.md).
+Contains zero or a combination of one or more of the **DS\_REPSYNC\_\*** values as defined for the *Options* parameter in [**DsReplicaSync**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicasynca?branch=master).
 
 </dd> <dt>
 
@@ -177,7 +182,7 @@ Contains zero or a combination of one or more of the **DS\_REPSYNC\_\*** values 
 
 </dt> <dd>
 
-Contains zero or a combination of one or more of the **DS\_REPADD\_\*** values as defined for the *Options* parameter in [**DsReplicaAdd**](dsreplicaadd.md).
+Contains zero or a combination of one or more of the **DS\_REPADD\_\*** values as defined for the *Options* parameter in [**DsReplicaAdd**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicaadda?branch=master).
 
 </dd> <dt>
 
@@ -188,7 +193,7 @@ Contains zero or a combination of one or more of the **DS\_REPADD\_\*** values a
 
 </dt> <dd>
 
-Contains zero or a combination of one or more of the **DS\_REPDEL\_\*** values as defined for the *Options* parameter in [**DsReplicaDel**](dsreplicadel.md).
+Contains zero or a combination of one or more of the **DS\_REPDEL\_\*** values as defined for the *Options* parameter in [**DsReplicaDel**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicadela?branch=master).
 
 </dd> <dt>
 
@@ -199,7 +204,7 @@ Contains zero or a combination of one or more of the **DS\_REPDEL\_\*** values a
 
 </dt> <dd>
 
-Contains zero or a combination of one or more of the **DS\_REPMOD\_\*** values as defined for the *Options* parameter in [**DsReplicaModify**](dsreplicamodify.md).
+Contains zero or a combination of one or more of the **DS\_REPMOD\_\*** values as defined for the *Options* parameter in [**DsReplicaModify**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicamodifya?branch=master).
 
 </dd> <dt>
 
@@ -210,7 +215,7 @@ Contains zero or a combination of one or more of the **DS\_REPMOD\_\*** values a
 
 </dt> <dd>
 
-Contains zero or a combination of one or more of the **DS\_REPSUPD\_\*** values as defined for the *Options* parameter in [**DsReplicaUpdateRefs**](dsreplicaupdaterefs.md).
+Contains zero or a combination of one or more of the **DS\_REPSUPD\_\*** values as defined for the *Options* parameter in [**DsReplicaUpdateRefs**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa?branch=master).
 
 </dd> </dl>
 
@@ -225,7 +230,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Gets the [**DS\_REPL\_OP\_TYPE**](ds-repl-op-type.md) value that indicates the type of operation that this class represents.
+Gets the [**DS\_REPL\_OP\_TYPE**](/windows/win32/Ntdsapi/ne-ntdsapi-_ds_repl_op_type?branch=master) value that indicates the type of operation that this class represents.
 
 </dd> <dt>
 
@@ -291,16 +296,16 @@ Gets the time at which this operation was added to the queue.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

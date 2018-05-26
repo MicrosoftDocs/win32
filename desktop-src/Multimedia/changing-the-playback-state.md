@@ -1,12 +1,17 @@
 ---
 title: Changing the Playback State
 description: Changing the Playback State
-ms.assetid: '69ede616-aea4-4b7c-a12b-014ac0485b1c'
+ms.assetid: 69ede616-aea4-4b7c-a12b-014ac0485b1c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the Playback State
 
-The following examples show how to use the [**pause**](pause.md), [**resume**](resume.md), [**stop**](stop.md), and [**seek**](seek.md) commands in the [**mciSendString**](mcisendstring.md) function.
+The following examples show how to use the [**pause**](pause.md), [**resume**](resume.md), [**stop**](stop.md), and [**seek**](seek.md) commands in the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

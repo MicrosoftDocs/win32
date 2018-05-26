@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the private key associated with the certificate.'
-ms.assetid: '976d81b4-5cbe-4824-9087-9a908b0e60e5'
-title: 'Certificate.PrivateKey property'
+---
+Description: Sets or retrieves the private key associated with the certificate.
+ms.assetid: 976d81b4-5cbe-4824-9087-9a908b0e60e5
+title: Certificate.PrivateKey property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.PrivateKey property

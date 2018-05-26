@@ -1,8 +1,10 @@
 ---
 title: IHelpKeyValuePair interface
 description: Key/value pair for IHelpFilter objects
-ms.assetid: '68be3b75-23d6-4948-95b1-2943790a9688'
-keywords: ["IHelpKeyValuePair interface HelpAPI", "IHelpKeyValuePair interface HelpAPI , described"]
+ms.assetid: 68be3b75-23d6-4948-95b1-2943790a9688
+keywords:
+- IHelpKeyValuePair interface HelpAPI
+- IHelpKeyValuePair interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHelpKeyValuePair interface
@@ -36,7 +43,7 @@ The **IHelpKeyValuePair** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -50,7 +57,7 @@ The **IHelpKeyValuePair** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -58,15 +65,15 @@ The **IHelpKeyValuePair** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

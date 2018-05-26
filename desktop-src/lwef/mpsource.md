@@ -1,8 +1,10 @@
 ---
 title: MPSOURCE enumeration
 description: Possible category of source.
-ms.assetid: '1AD12D67-C74B-481A-AC9B-D119AABDB6E9'
-keywords: ["MPSOURCE enumeration Legacy Windows Environment Features", "PMPSOURCE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 1AD12D67-C74B-481A-AC9B-D119AABDB6E9
+keywords:
+- MPSOURCE enumeration Legacy Windows Environment Features
+- PMPSOURCE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPSOURCE enumeration
@@ -22,19 +29,19 @@ Possible category of source.
 
 ```C++
 typedef enum tagMPSOURCE { 
-  MPSOURCE_UNKNOWN             = 0,
-  MPSOURCE_USER                = 1,
-  MPSOURCE_SYSTEM              = 2,
-  MPSOURCE_REALTIME            = 3,
-  MPSOURCE_IOAV                = 4,
-  MPSOURCE_NIS                 = 5,
-  MPSOURCE_BHO                 = 6,
-  MPSOURCE_IEPROTECT           = 6,
-  MPSOURCE_ELAM                = 7,
-  MPSOURCE_LOCAL_ATTESTATION   = 8,
-  MPSOURCE_REMOTE_ATTESTATION  = 9,
-  MPSOURCE_AMSI                = 10,
-  MP_SOURCE_MAXVALUE           = 10
+  MPSOURCE_UNKNOWN             = 0,
+  MPSOURCE_USER                = 1,
+  MPSOURCE_SYSTEM              = 2,
+  MPSOURCE_REALTIME            = 3,
+  MPSOURCE_IOAV                = 4,
+  MPSOURCE_NIS                 = 5,
+  MPSOURCE_BHO                 = 6,
+  MPSOURCE_IEPROTECT           = 6,
+  MPSOURCE_ELAM                = 7,
+  MPSOURCE_LOCAL_ATTESTATION   = 8,
+  MPSOURCE_REMOTE_ATTESTATION  = 9,
+  MPSOURCE_AMSI                = 10,
+  MP_SOURCE_MAXVALUE           = 10
 } MPSOURCE, *PMPSOURCE;
 ```
 
@@ -141,15 +148,15 @@ Maximum value possible.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

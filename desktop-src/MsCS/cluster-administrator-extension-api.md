@@ -4,11 +4,15 @@ description: The Cluster Administrator Extension API defines interfaces based on
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fcfd196d-9129-49b9-9d94-95940587b387'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fcfd196d-9129-49b9-9d94-95940587b387
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Cluster Administrator Failover Cluster ,Cluster Administrator Extension API"]
+keywords:
+- Cluster Administrator Failover Cluster ,Cluster Administrator Extension API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Administrator Extension API

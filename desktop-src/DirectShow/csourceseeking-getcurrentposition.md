@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. Not implemented.'
-ms.assetid: '386f41e4-a673-4c67-a28f-e155810fbb5a'
-title: 'CSourceSeeking.GetCurrentPosition method'
+Description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. Not implemented.
+ms.assetid: 386f41e4-a673-4c67-a28f-e155810fbb5a
+title: CSourceSeeking.GetCurrentPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetCurrentPosition method
@@ -13,7 +18,7 @@ The `GetCurrentPosition` method retrieves the current position, relative to the 
 
 ```C++
 HRESULT GetCurrentPosition(
-   LONGLONG *pCurrent
+   LONGLONG *pCurrent
 );
 ```
 
@@ -56,9 +61,9 @@ Source filters typically do not support this method. Instead, renderer filters r
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Enables a binding to a network adapter.'
-ms.assetid: 'c504ad87-1a38-458b-b2bc-904c0c52a5f3'
-title: 'Enable method of the MSFT\_NetAdapterBindingSettingData class'
+Description: Enables a binding to a network adapter.
+ms.assetid: c504ad87-1a38-458b-b2bc-904c0c52a5f3
+title: Enable method of the MSFT\_NetAdapterBindingSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the MSFT\_NetAdapterBindingSettingData class
@@ -13,7 +18,7 @@ Enables a binding to a network adapter.
 
 ```mof
 uint32 Enable(
-  [out] string cmdletOutput
+  [out] string cmdletOutput
 );
 ```
 
@@ -37,7 +42,7 @@ An embedded instance of the [**MSFT\_NetAdapterBindingSettingData**](msft-netada
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ An embedded instance of the [**MSFT\_NetAdapterBindingSettingData**](msft-netada
 [**MSFT\_NetAdapterBindingSettingData**](msft-netadapterbindingsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

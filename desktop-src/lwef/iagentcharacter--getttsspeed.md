@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetTTSSpeed
 description: IAgentCharacter GetTTSSpeed
-ms.assetid: '25526ef7-581f-489c-a299-bd3b5ac9ea61'
+ms.assetid: 25526ef7-581f-489c-a299-bd3b5ac9ea61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetTTSSpeed

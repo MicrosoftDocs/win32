@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn refreshStatus method
 description: The refreshStatus method updates the status information for the current burn playlist.
-ms.assetid: '4dd90e76-92b5-4a00-b027-b54502e56804'
-keywords: ["refreshStatus method Windows Media Player", "refreshStatus method Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , refreshStatus method"]
+ms.assetid: 4dd90e76-92b5-4a00-b027-b54502e56804
+keywords:
+- refreshStatus method Windows Media Player
+- refreshStatus method Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , refreshStatus method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::refreshStatus method
@@ -81,12 +89,12 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 [**IWMPCdromBurn.burnState (VB and C#)**](wmplibiwmpcdromburn-iwmpcdromburn-burnstate--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnState**](wmpburnstate.md)
+[**WMPBurnState**](/windows/win32/wmp/ne-wmp-wmpburnstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

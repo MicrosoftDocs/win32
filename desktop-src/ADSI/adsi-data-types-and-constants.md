@@ -4,11 +4,18 @@ description: Active Directory Service Interfaces (ADSI) provides data types and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e6e94631-808f-4162-96ea-fb421ec733d7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e6e94631-808f-4162-96ea-fb421ec733d7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI ,reference,constants", "ADSI ADSI ,reference,data types", "constants ADSI", "data types ADSI"]
+keywords:
+- ADSI ADSI ,reference,constants
+- ADSI ADSI ,reference,data types
+- constants ADSI
+- data types ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Data Types and Constants

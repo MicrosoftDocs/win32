@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_EXTENDED\_ENROLLMENT\_PARAMETERS structure
 description: Contains additional information that an engine adapter needs to create an enrollment template.
-ms.assetid: 'E8007316-0A9D-4F35-A266-273B2406D545'
-keywords: ["WINBIO_EXTENDED_ENROLLMENT_PARAMETERS structure Windows Biometric Framework API", "PWINBIO_EXTENDED_ENROLLMENT_PARAMETERS structure pointer Windows Biometric Framework API"]
+ms.assetid: E8007316-0A9D-4F35-A266-273B2406D545
+keywords:
+- WINBIO_EXTENDED_ENROLLMENT_PARAMETERS structure Windows Biometric Framework API
+- PWINBIO_EXTENDED_ENROLLMENT_PARAMETERS structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Winbio_adapter.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EXTENDED\_ENROLLMENT\_PARAMETERS structure
@@ -22,7 +29,7 @@ The **WINBIO\_EXTENDED\_ENROLLMENT\_PARAMETERS** structure contains additional i
 
 ```C++
 typedef struct _WINBIO_EXTENDED_ENROLLMENT_PARAMETERS {
-  SIZE_T                   Size;
+  SIZE_T                   Size;
   WINBIO_BIOMETRIC_SUBTYPE SubFactor;
 } WINBIO_EXTENDED_ENROLLMENT_PARAMETERS, *PWINBIO_EXTENDED_ENROLLMENT_PARAMETERS;
 ```
@@ -49,7 +56,7 @@ One of the [**WINBIO\_BIOMETRIC\_SUBTYPE Constants**](winbio-biometric-subtype-c
 
 ## Remarks
 
-The Windows Biometric Framework passes this structure to the [**EngineAdapterSetEnrollmentParameters**](engineadaptersetenrollmentparameters.md) method during an enrollment operation.
+The Windows Biometric Framework passes this structure to the [**EngineAdapterSetEnrollmentParameters**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_enrollment_parameters_fn?branch=master) method during an enrollment operation.
 
 ## Requirements
 
@@ -57,15 +64,15 @@ The Windows Biometric Framework passes this structure to the [**EngineAdapterSet
 
 |                                     |                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_adapter.h (include Winbio\_adapter.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Enables or disables the requirement that users must be authenticate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a0581326-fecc-4d23-87bf-3696c93366e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a0581326-fecc-4d23-87bf-3696c93366e8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetUserAuthenticationRequired method Remote Desktop Services", "SetUserAuthenticationRequired method Remote Desktop Services , Win32_TSGeneralSetting class", "Win32_TSGeneralSetting class Remote Desktop Services , SetUserAuthenticationRequired method"]
+keywords:
+- SetUserAuthenticationRequired method Remote Desktop Services
+- SetUserAuthenticationRequired method Remote Desktop Services , Win32_TSGeneralSetting class
+- Win32_TSGeneralSetting class Remote Desktop Services , SetUserAuthenticationRequired method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetUserAuthenticationRequired method of the Win32\_TSGeneralSetting class
@@ -28,7 +34,7 @@ Enables or disables the requirement that users must be authenticated at connecti
 
 ```mof
 uint32 SetUserAuthenticationRequired(
-  [in] uint32 UserAuthenticationRequired
+  [in] uint32 UserAuthenticationRequired
 );
 ```
 
@@ -73,8 +79,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -88,9 +94,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGeneralSetting**](win32-tsgeneralsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

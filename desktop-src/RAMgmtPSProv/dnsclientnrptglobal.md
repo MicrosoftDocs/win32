@@ -2,13 +2,15 @@
 title: DnsClientNrptGlobal class
 description: Contains the global settings for the DNS Client Name Resolution Policy table.
 audience: developer
-ms.assetid: 'e7379e20-5e9d-4ab7-9436-e5d97186522f'
-ms.prod: 'windows-server-dev'
+ms.assetid: e7379e20-5e9d-4ab7-9436-e5d97186522f
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsClientNrptGlobal class", "DnsClientNrptGlobal class, described"]
+keywords:
+- DnsClientNrptGlobal class
+- DnsClientNrptGlobal class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsClientNrptGlobal class
@@ -181,16 +186,16 @@ Controls the DNS client name resolution fallback policy.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

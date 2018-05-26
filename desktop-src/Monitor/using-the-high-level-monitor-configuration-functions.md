@@ -1,21 +1,37 @@
 ---
 title: Using the High-Level Monitor Configuration Functions
 description: Using the High-Level Monitor Configuration Functions
-ms.assetid: '23e5d45d-a924-4119-b21d-b24764b53a94'
-keywords: ["monitor,functions", "monitor,high-level configuration functions", "monitor,enumerating physical monitors", "monitor,continuous settings", "monitor configuration,high-level configuration functions", "monitor configuration,functions", "monitor configuration,enumerating physical monitors", "monitor configuration,continuous settings", "enumerating physical monitors", "high-level configuration functions", "continuous monitor settings"]
+ms.assetid: 23e5d45d-a924-4119-b21d-b24764b53a94
+keywords:
+- monitor,functions
+- monitor,high-level configuration functions
+- monitor,enumerating physical monitors
+- monitor,continuous settings
+- monitor configuration,high-level configuration functions
+- monitor configuration,functions
+- monitor configuration,enumerating physical monitors
+- monitor configuration,continuous settings
+- enumerating physical monitors
+- high-level configuration functions
+- continuous monitor settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the High-Level Monitor Configuration Functions
 
 ## Enumerating Physical Monitors
 
-There are several functions that enumerate display devices, including [**EnumDisplayMonitors**](https://msdn.microsoft.com/library/windows/desktop/dd162610) and [**MonitorFromWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145064). These functions are documented in the Windows GDI documentation, under the topic [Multiple Display Monitors](https://msdn.microsoft.com/library/windows/desktop/dd145071). These functions return **HMONITOR** handles. Despite the name, however, an **HMONITOR** handle can be associated with more than one physical monitor. To configure the settings on a monitor, the application must get a unique handle to the physical monitor by calling [**GetPhysicalMonitorsFromHMONITOR**](getphysicalmonitorsfromhmonitor.md).
+There are several functions that enumerate display devices, including [**EnumDisplayMonitors**](https://msdn.microsoft.com/library/windows/desktop/dd162610) and [**MonitorFromWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145064). These functions are documented in the Windows GDI documentation, under the topic [Multiple Display Monitors](https://msdn.microsoft.com/library/windows/desktop/dd145071). These functions return **HMONITOR** handles. Despite the name, however, an **HMONITOR** handle can be associated with more than one physical monitor. To configure the settings on a monitor, the application must get a unique handle to the physical monitor by calling [**GetPhysicalMonitorsFromHMONITOR**](/windows/win32/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor?branch=master).
 
-If your application uses Direct3D, you can get a monitor handle from a Direct3D device by calling [**GetPhysicalMonitorsFromIDirect3DDevice9**](getphysicalmonitorsfromidirect3ddevice9.md).
+If your application uses Direct3D, you can get a monitor handle from a Direct3D device by calling [**GetPhysicalMonitorsFromIDirect3DDevice9**](/windows/win32/PhysicalMonitorEnumerationAPI/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9?branch=master).
 
 ## Supported Functions
 
-A monitor might not support all of the monitor configuration functions. To find out which functions a monitor supports, call [**GetMonitorCapabilities**](getmonitorcapabilities.md).
+A monitor might not support all of the monitor configuration functions. To find out which functions a monitor supports, call [**GetMonitorCapabilities**](/windows/win32/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-getmonitorcapabilities?branch=master).
 
 ## Continuous Monitor Settings
 
@@ -30,7 +46,7 @@ A monitor can change states for various reasons, including:
 -   The user changes the settings with the monitor's front-panel controls.
 -   The user changes the monitor's screen resolution, refresh rate, or bit depth.
 -   The application uses the low-level monitor functions to change a setting that is not accessible from the high-level functions.
--   The application calls [**RestoreMonitorFactoryColorDefaults**](restoremonitorfactorycolordefaults.md) or [**RestoreMonitorFactoryDefaults**](restoremonitorfactorydefaults.md).
+-   The application calls [**RestoreMonitorFactoryColorDefaults**](/windows/win32/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorycolordefaults?branch=master) or [**RestoreMonitorFactoryDefaults**](/windows/win32/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults?branch=master).
 
 All of these events can change monitor settings. They can also change the minimum and maximum value of a setting.
 
@@ -49,7 +65,7 @@ An application cannot disable any monitor settings by calling the high-level mon
 If a monitor setting becomes disabled, any function that sets or retrieves that setting will fail and set the last-error code to ERROR\_DISABLED\_MONITOR\_SETTING. When this occurs, the application can do one of the following:
 
 -   Display an error message and suggest to the user that he or she try adjusting the setting by using the front-panel control.
--   Call the [**RestoreMonitorFactoryDefaults**](restoremonitorfactorydefaults.md) function. If a monitor has the MC\_RESTORE\_FACTORY\_DEFAULTS\_ENABLES\_MONITOR\_SETTINGS capabilities flag, this function enables all of the monitor settings that are supported by the high-level monitor functions. Unfortunately, the function also resets the monitor settings to their factory default.
+-   Call the [**RestoreMonitorFactoryDefaults**](/windows/win32/HighLevelMonitorConfigurationAPI/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults?branch=master) function. If a monitor has the MC\_RESTORE\_FACTORY\_DEFAULTS\_ENABLES\_MONITOR\_SETTINGS capabilities flag, this function enables all of the monitor settings that are supported by the high-level monitor functions. Unfortunately, the function also resets the monitor settings to their factory default.
 
 ## Related topics
 

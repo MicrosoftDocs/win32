@@ -4,17 +4,22 @@ description: Scopes where this optional feature is enabled.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '851f90d2-0ffd-4873-b2ea-07546d015cb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 851f90d2-0ffd-4873-b2ea-07546d015cb5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Enabled-Feature-BL attribute AD Schema", "msDS-EnabledFeatureBL attribute AD Schema"]
+keywords:
+- ms-DS-Enabled-Feature-BL attribute AD Schema
+- msDS-EnabledFeatureBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Enabled-Feature-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Enabled-Feature-BL attribute
@@ -38,8 +43,8 @@ Scopes where this optional feature is enabled.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Scopes where this optional feature is enabled.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

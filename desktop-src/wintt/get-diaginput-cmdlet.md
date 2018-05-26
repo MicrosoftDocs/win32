@@ -1,7 +1,12 @@
 ---
 title: Get-DiagInput Cmdlet
 description: Displays interactions that get information from or provide information to the user.
-ms.assetid: 'ef4f25ca-9cce-4159-9359-a0b7d338bec0'
+ms.assetid: ef4f25ca-9cce-4159-9359-a0b7d338bec0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get-DiagInput Cmdlet
@@ -45,7 +50,7 @@ An identifier that identifies the interaction in the troubleshooting pack's mani
 
 
 
- 
+ 
 
 ### -Parameter *Collections.Hashtable*
 
@@ -64,7 +69,7 @@ A hash table of key/value pairs that define the parameters used by the interacti
 
 
 
- 
+ 
 
 ### -Choice *Collections.Hashtable\[\]*
 
@@ -72,10 +77,10 @@ An array of hash tables that specify the dynamic values for a single-response or
 
 Each hash table in the array specifies a single choice. The hash table must contain the following key/value pairs:
 
--   Name—The value for this key is the display name for the choice. The name should be localized.
--   Value—The value for this key is the value to return if the user selects this choice.
--   Description—The value for this key is a description of the choice. The description is shown as a tooltip in MSDT when the user hovers over the choice.
--   ExtensionPoint—An XML string that contains one or more extension points that the client supports.
+-   Name The value for this key is the display name for the choice. The name should be localized.
+-   Value The value for this key is the value to return if the user selects this choice.
+-   Description The value for this key is a description of the choice. The description is shown as a tooltip in MSDT when the user hovers over the choice.
+-   ExtensionPoint An XML string that contains one or more extension points that the client supports.
 
 You must specify a value for the Name and Value key/value pairs; however, the value for the Description and ExtensionPoint key/value pairs are optional. The key names are case insensitive.
 
@@ -94,7 +99,7 @@ Specify this parameter only if the single-response or multiple-response interact
 
 
 
- 
+ 
 
 ## Input and Return Types
 
@@ -107,7 +112,7 @@ The input type is the type of the objects that you can pipe to the cmdlet. The r
 
 
 
- 
+ 
 
 ## Examples
 
@@ -131,9 +136,9 @@ The following example shows how to pass a list of choices to the MultipleRespons
 
 **$input = Get-DiagInput -Id "MultipleResponse" -Choice @{"Name"="Choice1"; "Value"="Value that Choice1 returns"}**
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,21 @@
 ---
 title: Authentication
 description: Authentication
-ms.assetid: '9c181615-e864-4588-846f-d04d73824f5f'
-keywords: ["Windows Media Format SDK,authentication", "Windows Media Format SDK,network authentication", "Advanced Systems Format (ASF),authentication", "ASF (Advanced Systems Format),authentication", "Advanced Systems Format (ASF),network authentication", "ASF (Advanced Systems Format),network authentication", "authentication", "network authentication,about"]
+ms.assetid: 9c181615-e864-4588-846f-d04d73824f5f
+keywords:
+- Windows Media Format SDK,authentication
+- Windows Media Format SDK,network authentication
+- Advanced Systems Format (ASF),authentication
+- ASF (Advanced Systems Format),authentication
+- Advanced Systems Format (ASF),network authentication
+- ASF (Advanced Systems Format),network authentication
+- authentication
+- network authentication,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication
@@ -17,7 +30,7 @@ The reader object can handle network authentication challenges, including digest
 
      
 
-As noted, in some cases the application must provide the user's credentials. This occurs through the **IWMCredentialCallback** interface, which has a single method, **AcquireCredentials**. To support authentication, implement this interface in your application. The reader object queries for this interface by calling **QueryInterface** on the [**IWMReaderCallback**](iwmreadercallback.md) pointer that it received from the application in the [**IWMReader::Open**](iwmreader-open.md) method. If the reader object needs to get the user's credentials, it calls the application's **AcquireCredentials** method.
+As noted, in some cases the application must provide the user's credentials. This occurs through the **IWMCredentialCallback** interface, which has a single method, **AcquireCredentials**. To support authentication, implement this interface in your application. The reader object queries for this interface by calling **QueryInterface** on the [**IWMReaderCallback**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreadercallback?branch=master) pointer that it received from the application in the [**IWMReader::Open**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-open?branch=master) method. If the reader object needs to get the user's credentials, it calls the application's **AcquireCredentials** method.
 
 If the credentials will be sent over the network without encryption, the reader sets the WMT\_CREDENTIAL\_CLEAR\_TEXT flag in the *pdwFlags* parameter. This gives the application an opportunity to warn the user that his or her credentials will be sent in plain text.
 
@@ -29,10 +42,10 @@ Generally, it is not necessary to encrypt the data, because the reader object en
 
 <dl> <dt>
 
-[**IWMCredentialCallback Interface**](iwmcredentialcallback.md)
+[**IWMCredentialCallback Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback?branch=master)
 </dt> <dt>
 
-[**IWMReader Interface**](iwmreader.md)
+[**IWMReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreader?branch=master)
 </dt> </dl>
 
  

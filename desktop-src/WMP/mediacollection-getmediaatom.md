@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getMediaAtom method
 description: The getMediaAtom method retrieves the index at which a specified attribute resides within the set of available attributes.
-ms.assetid: '22024108-398e-4a05-b5ed-311583c69497'
-keywords: ["getMediaAtom method Windows Media Player", "getMediaAtom method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getMediaAtom method"]
+ms.assetid: 22024108-398e-4a05-b5ed-311583c69497
+keywords:
+- getMediaAtom method Windows Media Player
+- getMediaAtom method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getMediaAtom method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getMediaAtom method
@@ -82,9 +90,9 @@ To use this method, read access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

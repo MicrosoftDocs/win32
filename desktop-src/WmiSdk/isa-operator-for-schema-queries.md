@@ -1,13 +1,16 @@
 ---
-Description: 'The ISA operator is a WQL-specific operator that can be used in data, event, and schema queries.'
+Description: The ISA operator is a WQL-specific operator that can be used in data, event, and schema queries.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0520470c-ebfc-4c45-8a1f-47fd66bf8414'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0520470c-ebfc-4c45-8a1f-47fd66bf8414
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ISA Operator for Schema Queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISA Operator for Schema Queries

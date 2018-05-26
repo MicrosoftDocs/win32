@@ -1,15 +1,18 @@
 ---
-Description: 'Invokes the chkdsk operation on the disk.'
+Description: Invokes the chkdsk operation on the disk.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '65942702-b660-46cd-b614-e3e1ec3df7b9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 65942702-b660-46cd-b614-e3e1ec3df7b9
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Chkdsk method of the Win32\_LogicalDisk class'
+title: Chkdsk method of the Win32\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Chkdsk method of the Win32\_LogicalDisk class
@@ -23,12 +26,12 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Chkdsk(
-  [in] boolean FixErrors = ,
-  [in] boolean VigorousIndexCheck = ,
-  [in] boolean SkipFolderCycle = ,
-  [in] boolean ForceDismount = ,
-  [in] boolean RecoverBadSectors = ,
-  [in] boolean OKToRunAtBootUp = 
+  [in] boolean FixErrors = ,
+  [in] boolean VigorousIndexCheck = ,
+  [in] boolean SkipFolderCycle = ,
+  [in] boolean ForceDismount = ,
+  [in] boolean RecoverBadSectors = ,
+  [in] boolean OKToRunAtBootUp = 
 );
 ```
 
@@ -156,8 +159,8 @@ errReturn = objDisk.ChkDsk(FIX_ERRORS)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -174,9 +177,9 @@ errReturn = objDisk.ChkDsk(FIX_ERRORS)
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

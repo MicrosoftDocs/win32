@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Priority
 description: This example retrieves the priority level of a task and displays the path to the working directory on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '6e7eccce-406a-4827-8fe2-abe93251668a'
-keywords: ["retrieving task priority Task Scheduler", "retrieving task properties Task Scheduler , priority"]
+ms.assetid: 6e7eccce-406a-4827-8fe2-abe93251668a
+keywords:
+- retrieving task priority Task Scheduler
+- retrieving task properties Task Scheduler , priority
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Priority

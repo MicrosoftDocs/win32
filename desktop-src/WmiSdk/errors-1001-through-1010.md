@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 1001 through 1010.'
+Description: Describes WMI SNMP provider errors 1001 through 1010.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dbc0e062-6b2f-41b1-8d6a-ab2c37d2dd1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dbc0e062-6b2f-41b1-8d6a-ab2c37d2dd1f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1001 through 1010
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 1001 through 1010

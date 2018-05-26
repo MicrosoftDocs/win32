@@ -1,8 +1,10 @@
 ---
 title: DRM\_COPY\_OPL structure
 description: The DRM\_COPY\_OPL structure holds information about the output protection levels (OPLs) specified in a license for copy actions.
-ms.assetid: '439cbd56-05c1-46f8-86b9-ac1341902a40'
-keywords: ["DRM_COPY_OPL structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 439cbd56-05c1-46f8-86b9-ac1341902a40
+keywords:
+- DRM_COPY_OPL structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_COPY\_OPL structure
@@ -22,7 +29,7 @@ The **DRM\_COPY\_OPL** structure holds information about the output protection l
 
 ```C++
 typedef struct DRM_COPY_OPL {
-  WORD               wMinimumCopyLevel;
+  WORD               wMinimumCopyLevel;
   DRM_OPL_OUTPUT_IDS oplIdIncludes;
   DRM_OPL_OUTPUT_IDS oplIdExcludes;
 } ;
@@ -75,9 +82,9 @@ Minimum OPL for copy actions.
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

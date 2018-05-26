@@ -1,7 +1,12 @@
 ---
-Description: 'The Network Monitor functions, listed in the following table, can be used to develop either parsers or experts.'
-ms.assetid: '26eb4f99-a8dc-43a2-abb9-9577518b6f2f'
+Description: The Network Monitor functions, listed in the following table, can be used to develop either parsers or experts.
+ms.assetid: 26eb4f99-a8dc-43a2-abb9-9577518b6f2f
 title: Expert and Parser Common Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Expert and Parser Common Functions

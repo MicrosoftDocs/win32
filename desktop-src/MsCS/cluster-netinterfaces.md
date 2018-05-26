@@ -4,11 +4,14 @@ description: Returns a ClusNetInterfaces collection providing access to the netw
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4fbac67-f196-4fd8-a678-8f7877e70f6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f4fbac67-f196-4fd8-a678-8f7877e70f6a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NetInterfaces property Failover Cluster", "NetInterfaces property Failover Cluster , Cluster object", "Cluster object Failover Cluster , NetInterfaces property"]
+keywords:
+- NetInterfaces property Failover Cluster
+- NetInterfaces property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , NetInterfaces property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.NetInterfaces property
@@ -48,7 +54,7 @@ A [**ClusNetInterfaces**](clusnetinterfaces-collection.md) collection.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -67,9 +73,9 @@ A [**ClusNetInterfaces**](clusnetinterfaces-collection.md) collection.
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

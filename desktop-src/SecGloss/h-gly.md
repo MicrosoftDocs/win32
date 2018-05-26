@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter H.'
-Robots: 'noindex, nofollow'
-ms.assetid: '4165b820-30fc-477e-a690-81109f161323'
+Description: Contains definitions of security terms that begin with the letter H.
+Robots: noindex, nofollow
+ms.assetid: 4165b820-30fc-477e-a690-81109f161323
 title: H
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H

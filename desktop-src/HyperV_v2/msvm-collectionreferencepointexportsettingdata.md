@@ -1,7 +1,12 @@
 ---
-Description: 'Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.'
-ms.assetid: '38299050-a53a-496c-8792-9199c394591d'
-title: 'Msvm\_CollectionReferencePointExportSettingData class'
+Description: Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.
+ms.assetid: 38299050-a53a-496c-8792-9199c394591d
+title: Msvm\_CollectionReferencePointExportSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectionReferencePointExportSettingData class
@@ -68,8 +73,8 @@ List of "VirtualMachines To DisksToExport" map information for which data needs 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -83,9 +88,9 @@ List of "VirtualMachines To DisksToExport" map information for which data needs 
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

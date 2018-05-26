@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a floating-point number.'
-ms.assetid: '920cbcf2-ccb9-4533-abbc-6bab8b159ebe'
-title: 'ID3DXConstantTable::SetFloat method'
+---
+Description: Sets a floating-point number.
+ms.assetid: 920cbcf2-ccb9-4533-abbc-6bab8b159ebe
+title: ID3DXConstantTableSetFloat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::SetFloat method
@@ -28,9 +33,9 @@ HRESULT SetFloat(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 

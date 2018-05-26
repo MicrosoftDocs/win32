@@ -1,8 +1,20 @@
 ---
 title: Windows Touch Gestures in C\ Sample (MTGesturesCS)
 description: This section describes the Windows Touch Gestures sample in C\ .
-ms.assetid: '4b2d70bb-47e4-4448-97e2-6f6e29d1dfdf'
-keywords: ["Windows Touch,code samples", "Windows Touch,sample code", "Windows Touch,gestures", "Windows Touch,Gesture samples", "Gesture samples", "gestures,sample code", "gestures,code samples"]
+ms.assetid: 4b2d70bb-47e4-4448-97e2-6f6e29d1dfdf
+keywords:
+- Windows Touch,code samples
+- Windows Touch,sample code
+- Windows Touch,gestures
+- Windows Touch,Gesture samples
+- Gesture samples
+- gestures,sample code
+- gestures,code samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Gestures in C# Sample (MTGesturesCS)

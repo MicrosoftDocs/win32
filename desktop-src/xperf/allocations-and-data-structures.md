@@ -1,7 +1,12 @@
 ---
 title: Allocations and Data Structures
 description: Allocations and Data Structures
-ms.assetid: '27ddee1d-1894-49d9-a058-5712a89b3a54'
+ms.assetid: 27ddee1d-1894-49d9-a058-5712a89b3a54
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Allocations and Data Structures

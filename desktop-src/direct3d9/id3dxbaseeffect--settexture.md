@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a texture.'
-ms.assetid: 'edf5bf61-508a-4417-bdf8-c36e6ba7ab30'
-title: 'ID3DXBaseEffect::SetTexture method'
+---
+Description: Sets a texture.
+ms.assetid: edf5bf61-508a-4417-bdf8-c36e6ba7ab30
+title: ID3DXBaseEffectSetTexture method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetTexture method
@@ -36,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](idirect3dbasetexture9.md)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master)**
 
-Texture object. See [**IDirect3DBaseTexture9**](idirect3dbasetexture9.md).
+Texture object. See [**IDirect3DBaseTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master).
 
 </dd> </dl>
 

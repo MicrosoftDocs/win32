@@ -1,12 +1,17 @@
 ---
-Description: 'A closed figure such as a rectangle or an ellipse consists of an outline and an interior.'
-ms.assetid: '889558d5-9181-43ff-b862-e92966324208'
+Description: A closed figure such as a rectangle or an ellipse consists of an outline and an interior.
+ms.assetid: 889558d5-9181-43ff-b862-e92966324208
 title: Brushes and Filled Shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Brushes and Filled Shapes
 
-A closed figure such as a rectangle or an ellipse consists of an outline and an interior. The outline is drawn with a [**Pen**](-gdiplus-class-pen-class.md) object and the interior is filled with a [**Brush**](-gdiplus-class-brush-class.md) object. Windows GDI+ provides several brush classes for filling the interiors of closed figures: [**SolidBrush**](-gdiplus-class-solidbrush-class.md), [**HatchBrush**](-gdiplus-class-hatchbrush-class.md), [**TextureBrush**](-gdiplus-class-texturebrush-class.md), [**LinearGradientBrush**](-gdiplus-class-lineargradientbrush-class.md), and [**PathGradientBrush**](-gdiplus-class-pathgradientbrush-class.md). All these classes inherit from the **Brush** class. The following illustration shows a rectangle filled with a solid brush and an ellipse filled with a hatch brush.
+A closed figure such as a rectangle or an ellipse consists of an outline and an interior. The outline is drawn with a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object and the interior is filled with a [**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master) object. Windows GDI+ provides several brush classes for filling the interiors of closed figures: [**SolidBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-solidbrush?branch=master), [**HatchBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-hatchbrush?branch=master), [**TextureBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-texturebrush?branch=master), [**LinearGradientBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush?branch=master), and [**PathGradientBrush**](/windows/win32/gdipluspath/nl-gdipluspath-pathgradientbrush?branch=master). All these classes inherit from the **Brush** class. The following illustration shows a rectangle filled with a solid brush and an ellipse filled with a hatch brush.
 
 ![illustration showing a blue rectangle, and a magenta ellipse filled with a blue hatch pattern](images/aboutgdip02-art17.png)
 
@@ -19,7 +24,7 @@ A closed figure such as a rectangle or an ellipse consists of an outline and an 
 
 ## Solid Brushes
 
-To fill a closed shape, you need a [**Graphics**](-gdiplus-class-graphics-class.md) object and a [**Brush**](-gdiplus-class-brush-class.md) object. The **Graphics** object provides methods, such as [FillRectangle](-gdiplus-class-graphics-fillrectangle-methods.md) and [FillEllipse](-gdiplus-class-graphics-fillellipse-methods.md), and the **Brush** object stores attributes of the fill, such as color and pattern. The address of the **Brush** object is passed as one of the arguments to the fill method. The following example fills an ellipse with a solid red color.
+To fill a closed shape, you need a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and a [**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master) object. The **Graphics** object provides methods, such as [FillRectangle](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(in const brush,in const rect &)?branch=master) and [FillEllipse](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillellipse(in const brush,in const rect &)?branch=master), and the **Brush** object stores attributes of the fill, such as color and pattern. The address of the **Brush** object is passed as one of the arguments to the fill method. The following example fills an ellipse with a solid red color.
 
 
 ```
@@ -29,7 +34,7 @@ myGraphics.FillEllipse(&amp;mySolidBrush, 0, 0, 60, 40);
 
 
 
-Note that in the preceding example, the brush is of type [**SolidBrush**](-gdiplus-class-solidbrush-class.md), which inherits from [**Brush**](-gdiplus-class-brush-class.md).
+Note that in the preceding example, the brush is of type [**SolidBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-solidbrush?branch=master), which inherits from [**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master).
 
 ## Hatch Brushes
 
@@ -45,7 +50,7 @@ HatchBrush myHatchBrush(
 
 
 
-GDI+ provides more than 50 hatch styles, specified in [**HatchStyle**](-gdiplus-enum-hatchstyle.md). The three styles shown in the following illustration are Horizontal, ForwardDiagonal, and Cross.
+GDI+ provides more than 50 hatch styles, specified in [**HatchStyle**](/windows/win32/Gdiplusenums/ne-gdiplusenums-hatchstyle?branch=master). The three styles shown in the following illustration are Horizontal, ForwardDiagonal, and Cross.
 
 ![illustration showing three teal-colored ellipses, each with a differnt hatch style](images/aboutgdip02-art18.png)
 

@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_EVENT structure
 description: Contains status information sent to the callback routine when an event notice is raised.
-ms.assetid: 'f46df7ff-8197-49cb-b1f8-4e7e3288e3df'
-keywords: ["WINBIO_EVENT structure Windows Biometric Framework API", "PWINBIO_EVENT structure pointer Windows Biometric Framework API"]
+ms.assetid: f46df7ff-8197-49cb-b1f8-4e7e3288e3df
+keywords:
+- WINBIO_EVENT structure Windows Biometric Framework API
+- PWINBIO_EVENT structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_EVENT structure
@@ -25,19 +32,19 @@ typedef struct _WINBIO_EVENT {
   WINBIO_EVENT_TYPE Type;
   union {
     struct {
-      WINBIO_UNIT_ID       UnitId;
+      WINBIO_UNIT_ID       UnitId;
       WINBIO_REJECT_DETAIL RejectDetail;
-    } Unclaimed;
+    } Unclaimed;
     struct {
-      WINBIO_UNIT_ID           UnitId;
-      WINBIO_IDENTITY          Identity;
+      WINBIO_UNIT_ID           UnitId;
+      WINBIO_IDENTITY          Identity;
       WINBIO_BIOMETRIC_SUBTYPE SubFactor;
-      WINBIO_REJECT_DETAIL     RejectDetail;
-    } UnclaimedIdentify;
+      WINBIO_REJECT_DETAIL     RejectDetail;
+    } UnclaimedIdentify;
     struct {
       HRESULT ErrorCode;
-    } Error;
-  } Parameters;
+    } Error;
+  } Parameters;
 } WINBIO_EVENT, *PWINBIO_EVENT;
 ```
 
@@ -140,7 +147,7 @@ A [**WINBIO\_BIOMETRIC\_SUBTYPE**](winbio-biometric-subtype-constants.md) value 
 >
 > Do not attempt to validate the value supplied for the *SubFactor* value. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is **WINBIO\_SUBTYPE\_NO\_INFORMATION** or **WINBIO\_SUBTYPE\_ANY**, then validate where appropriate.
 
- 
+ 
 
 </dd> <dt>
 
@@ -178,7 +185,7 @@ Structure that identifies the success or failure of the operation being monitore
 
 ## Remarks
 
-Call the [**WinBioRegisterEventMonitor**](winbioregistereventmonitor.md) function to register a callback routine to receive event notifications from the Windows Biometric Framework. The callback is a custom function that you must define for your application.
+Call the [**WinBioRegisterEventMonitor**](/windows/win32/Winbio/nf-winbio-winbioregistereventmonitor?branch=master) function to register a callback routine to receive event notifications from the Windows Biometric Framework. The callback is a custom function that you must define for your application.
 
 ## Requirements
 
@@ -186,8 +193,8 @@ Call the [**WinBioRegisterEventMonitor**](winbioregistereventmonitor.md) functio
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -199,12 +206,12 @@ Call the [**WinBioRegisterEventMonitor**](winbioregistereventmonitor.md) functio
 [Client Application Structures](client-application-structures.md)
 </dt> <dt>
 
-[**WinBioRegisterEventMonitor**](winbioregistereventmonitor.md)
+[**WinBioRegisterEventMonitor**](/windows/win32/Winbio/nf-winbio-winbioregistereventmonitor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

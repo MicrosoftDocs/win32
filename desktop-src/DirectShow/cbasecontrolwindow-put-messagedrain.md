@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_MessageDrain method sets the window to receive window messages sent to the video renderer.'
-ms.assetid: 'b2d2d489-a66f-474a-b8bf-b019179f6f69'
-title: 'CBaseControlWindow.put\_MessageDrain method'
+Description: The put\_MessageDrain method sets the window to receive window messages sent to the video renderer.
+ms.assetid: b2d2d489-a66f-474a-b8bf-b019179f6f69
+title: CBaseControlWindow.put\_MessageDrain method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_MessageDrain method
@@ -13,7 +18,7 @@ The `put_MessageDrain` method sets the window to receive window messages sent to
 
 ```C++
 HRESULT put_MessageDrain(
-   OAHWND Drain
+   OAHWND Drain
 );
 ```
 
@@ -56,9 +61,9 @@ Messages sent to the video renderer filter can be posted to another window. This
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Why does the audio encoder report no supported input types?'
-ms.assetid: 'b3ff56bb-0ce3-422c-8b20-5c80ec710585'
-title: 'Why does the audio encoder report no supported input types?'
+Description: Why does the audio encoder report no supported input types?
+ms.assetid: b3ff56bb-0ce3-422c-8b20-5c80ec710585
+title: Why does the audio encoder report no supported input types?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Why does the audio encoder report no supported input types?

@@ -1,8 +1,10 @@
 ---
 title: MPIO\_PASS\_THROUGH\_PATH\_DIRECT\_EX structure
 description: The MPIO\_PASS\_THROUGH\_PATH\_DIRECT\_EX structure is used together with an IOCTL\_MPIO\_PASS\_THROUGH\_PATH\_DIRECT\_EX request to instruct the port driver to send an embedded SCSI command to the target device.
-ms.assetid: '2B5AF281-C080-4ED9-9C58-5757CDE0117A'
-keywords: ["MPIO_PASS_THROUGH_PATH_DIRECT_EX structure Storage Devices", "PMPIO_PASS_THROUGH_PATH_DIRECT_EX structure pointer Storage Devices"]
+ms.assetid: 2B5AF281-C080-4ED9-9C58-5757CDE0117A
+keywords:
+- MPIO_PASS_THROUGH_PATH_DIRECT_EX structure Storage Devices
+- PMPIO_PASS_THROUGH_PATH_DIRECT_EX structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddscsi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPIO\_PASS\_THROUGH\_PATH\_DIRECT\_EX structure
@@ -22,11 +29,11 @@ The **MPIO\_PASS\_THROUGH\_PATH\_DIRECT\_EX** structure is used together with an
 
 ```C++
 typedef struct _MPIO_PASS_THROUGH_PATH_DIRECT_EX {
-  ULONG     PassThroughOffset;
-  ULONG     Version;
-  USHORT    Length;
-  UCHAR     Flags;
-  UCHAR     PortNumber;
+  ULONG     PassThroughOffset;
+  ULONG     Version;
+  USHORT    Length;
+  UCHAR     Flags;
+  UCHAR     PortNumber;
   ULONGLONG MpioPathId;
 } MPIO_PASS_THROUGH_PATH_DIRECT_EX, *PMPIO_PASS_THROUGH_PATH_DIRECT_EX;
 ```
@@ -76,7 +83,7 @@ In the following table, either the first or the second flag must be set, but not
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -100,7 +107,7 @@ The **PathId** for the real LUN. This value can be obtained by using a WMI reque
 > [!Note]  
 > All 32 bit processes running on a 64 bit version of Windows must use the **MPIO\_PASS\_THROUGH\_PATH\_DIRECT32\_EX** structure when issuing an [**IOCTL\_MPIO\_PASS\_THROUGH\_PATH\_DIRECT\_EX**](ioctl-mpio-pass-through-path-direct-ex.md) request.
 
- 
+ 
 
 ## Requirements
 
@@ -108,7 +115,7 @@ The **PathId** for the real LUN. This value can be obtained by using a WMI reque
 
 |                    |                                                                                                            |
 |--------------------|------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Available starting with Windows 8.<br/>                                                              |
+| Version<br/> | Available starting with Windows 8.<br/>                                                              |
 | Header<br/>  | <dl> <dt>Ntddscsi.h (include Ntddscsi.h)</dt> </dl> |
 
 
@@ -129,9 +136,9 @@ The **PathId** for the real LUN. This value can be obtained by using a WMI reque
 [**STORAGE\_REQUEST\_BLOCK**](storage-request-block.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20MPIO_PASS_THROUGH_PATH_DIRECT_EX%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

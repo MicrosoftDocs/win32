@@ -1,7 +1,12 @@
 ---
 title: To create an image map
 description: To create an image map
-ms.assetid: 'DF47F304-AD2C-4ca3-BB4C-A4E50CB01FC4'
+ms.assetid: DF47F304-AD2C-4ca3-BB4C-A4E50CB01FC4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create an image map

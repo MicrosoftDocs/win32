@@ -1,7 +1,12 @@
-﻿---
-Description: 'A value that defines the units for a depth value in a video frame.'
-ms.assetid: '0D7238F3-C224-48BD-8654-B3182DFB244C'
-title: 'MF\_MT\_DEPTH\_VALUE\_UNIT attribute'
+---
+Description: A value that defines the units for a depth value in a video frame.
+ms.assetid: 0D7238F3-C224-48BD-8654-B3182DFB244C
+title: MF\_MT\_DEPTH\_VALUE\_UNIT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_DEPTH\_VALUE\_UNIT attribute
@@ -22,7 +27,7 @@ Depth cameras cannot sense the depth of all pixels. When the confidence of a pix
 
 When a depth pixel value is 0, the pixel is invalid.
 
-Some depth cameras attach bitmask metadata for each pixel in addition to the depth value to represent the reason why the depth of pixel is invalid, due to material, occlusion or out of range etc. We recommend that you avoid attaching such metadata as bits in depth value, because it will typically lead to difficulty when using such values in pixel shader. Instead. we recommend that you use a separate 8bit image buffer with same resolution and attach it as attribute of the [**IMFSample**](imfsample.md). Such metadata varies for each camera vendor and is not standardized by the platform. We recommend using full 16 bits for the depth value for easier processing downstream and using a fixed value such as 0 for invalidation.
+Some depth cameras attach bitmask metadata for each pixel in addition to the depth value to represent the reason why the depth of pixel is invalid, due to material, occlusion or out of range etc. We recommend that you avoid attaching such metadata as bits in depth value, because it will typically lead to difficulty when using such values in pixel shader. Instead. we recommend that you use a separate 8bit image buffer with same resolution and attach it as attribute of the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master). Such metadata varies for each camera vendor and is not standardized by the platform. We recommend using full 16 bits for the depth value for easier processing downstream and using a fixed value such as 0 for invalidation.
 
 ## Requirements
 

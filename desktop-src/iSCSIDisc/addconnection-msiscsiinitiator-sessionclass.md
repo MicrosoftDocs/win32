@@ -1,7 +1,12 @@
 ---
-Description: 'The AddConnection method adds a new connection to the specified session.'
-ms.assetid: '6f116e76-7c62-46ba-bb8f-ea23e1d8fa87'
-title: 'AddConnection method of the MSIscsiInitiator\_SessionClass class'
+Description: The AddConnection method adds a new connection to the specified session.
+ms.assetid: 6f116e76-7c62-46ba-bb8f-ea23e1d8fa87
+title: AddConnection method of the MSIscsiInitiator\_SessionClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddConnection method of the MSIscsiInitiator\_SessionClass class
@@ -13,12 +18,12 @@ The **AddConnection** method adds a new connection to the specified session.
 
 ```mof
 uint32 AddConnection(
-  [in]  uint32                              InitiatorPortNumber,
-  [in]  MSIscsiInitiator_Portal             TargetPortal,
-  [in]  ISCSI_SECURITY_FLAGS                SecurityFlags,
-  [in]  MSIscsiInitiator_TargetLoginOptions LoginOptions,
-  [in]  uint8                               Key[],
-  [out] string                              UniqueConnectionId
+  [in]  uint32                              InitiatorPortNumber,
+  [in]  MSIscsiInitiator_Portal             TargetPortal,
+  [in]  ISCSI_SECURITY_FLAGS                SecurityFlags,
+  [in]  MSIscsiInitiator_TargetLoginOptions LoginOptions,
+  [in]  uint8                               Key[],
+  [out] string                              UniqueConnectionId
 );
 ```
 
@@ -61,7 +66,7 @@ A bitmap that defines the security characteristics of a login connection.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -92,8 +97,8 @@ The unique ID associated with the new connection.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Namespace<br/>                | Root\\WMI<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>Iscsidsc.mof</dt> </dl> |
 
@@ -106,9 +111,9 @@ The unique ID associated with the new connection.
 [**MSIscsiInitiator\_SessionClass**](msiscsiinitiator-sessionclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

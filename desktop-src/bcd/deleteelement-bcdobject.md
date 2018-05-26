@@ -1,8 +1,11 @@
 ---
 title: DeleteElement method of the BcdObject class
 description: Deletes the specified element.
-ms.assetid: '5f806b25-c5a4-425d-b2c3-cc7275fd2545'
-keywords: ["DeleteElement method Boot Config", "DeleteElement method Boot Config , BcdObject class", "BcdObject class Boot Config , DeleteElement method"]
+ms.assetid: 5f806b25-c5a4-425d-b2c3-cc7275fd2545
+keywords:
+- DeleteElement method Boot Config
+- DeleteElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , DeleteElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - ahadmin.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteElement method of the BcdObject class
@@ -22,7 +30,7 @@ Deletes the specified element.
 
 ```mof
 boolean DeleteElement(
-  [in] uint32 Type
+  [in] uint32 Type
 );
 ```
 
@@ -53,8 +61,8 @@ It can also be a custom element type created for your own use.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Namespace<br/>                | Root\\WMI<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>Ahadmin.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl>   |
@@ -68,9 +76,9 @@ It can also be a custom element type created for your own use.
 [**BcdObject**](bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EVENT\_INSTANCE\_INFO structure maps a unique transaction identifier to a registered event trace class.'
-ms.assetid: '83a3802c-b992-43a2-a98a-bdee2ecfef24'
-title: 'EVENT\_INSTANCE\_INFO structure'
+---
+Description: The EVENT\_INSTANCE\_INFO structure maps a unique transaction identifier to a registered event trace class.
+ms.assetid: 83a3802c-b992-43a2-a98a-bdee2ecfef24
+title: EVENT\_INSTANCE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVENT\_INSTANCE\_INFO structure

@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_TECHNIQUE\_DESC structure
 description: Describes an effect technique.
-ms.assetid: '89690a68-d7e8-4f44-9f67-c55d0a400602'
-keywords: ["D3DX11_TECHNIQUE_DESC structure Direct3D 11"]
+ms.assetid: 89690a68-d7e8-4f44-9f67-c55d0a400602
+keywords:
+- D3DX11_TECHNIQUE_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_TECHNIQUE\_DESC structure
@@ -23,8 +29,8 @@ Describes an effect technique.
 ```C++
 typedef struct _D3DX11_TECHNIQUE_DESC {
   LPCSTR Name;
-  UINT   Passes;
-  UINT   Annotations;
+  UINT   Passes;
+  UINT   Annotations;
 } D3DX11_TECHNIQUE_DESC;
 ```
 
@@ -88,9 +94,9 @@ D3DX11\_TECHNIQUE\_DESC is used with [**ID3DX11EffectTechnique::GetDesc**](id3dx
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

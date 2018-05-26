@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a group of ANDEXP arrays evaluated as peers.'
-ms.assetid: '14fa568c-9535-4415-923d-7e93ba4d2e80'
+Description: Contains a group of ANDEXP arrays evaluated as peers.
+ms.assetid: 14fa568c-9535-4415-923d-7e93ba4d2e80
 title: EXPRESSION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXPRESSION structure
@@ -15,7 +20,7 @@ The **EXPRESSION** structure contains a group of **ANDEXP** arrays evaluated as 
 
 ```C++
 typedef struct _EXPRESSION {
-  DWORD  nAndExps;
+  DWORD  nAndExps;
   ANDEXP AndExp[MAX_PATTERNS];
 } EXPRESSION, *LPEXPRESSION;
 ```
@@ -50,8 +55,8 @@ For more information about implementing this structure as part of a capture filt
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -66,9 +71,9 @@ For more information about implementing this structure as part of a capture filt
 [CAPTUREFILTER](capturefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 title: HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Ole
 description: The registry values associated with the HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Ole key control the default launch and access permission settings and call-level security capabilities for COM-based applications that do not call CoInitializeSecurity.
-ms.assetid: '871ae88f-ed2c-4078-8160-b0a490390426'
+ms.assetid: 871ae88f-ed2c-4078-8160-b0a490390426
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Ole
 
-The registry values associated with the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Ole** key control the default launch and access permission settings and call-level security capabilities for COM-based applications that do not call [**CoInitializeSecurity**](coinitializesecurity.md).
+The registry values associated with the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Ole** key control the default launch and access permission settings and call-level security capabilities for COM-based applications that do not call [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master).
 
 Only administrators, the object creator, and the system have full access to this portion of the registry. All other users have read-only access.
 

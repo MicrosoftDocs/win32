@@ -1,7 +1,12 @@
 ---
-Description: 'Protocol-independent name resolution and Windows Sockets (Winsock).'
-ms.assetid: 'f55219b9-1518-4b49-a0da-6a3fa025cca3'
-title: 'Protocol-Independent Name Resolution'
+Description: Protocol-independent name resolution and Windows Sockets (Winsock).
+ms.assetid: f55219b9-1518-4b49-a0da-6a3fa025cca3
+title: Protocol-Independent Name Resolution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protocol-Independent Name Resolution

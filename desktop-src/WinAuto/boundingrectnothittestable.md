@@ -1,7 +1,12 @@
 ---
 title: BoundingRectNotHitTestable
 description: BoundingRectNotHitTestable
-ms.assetid: 'E728F250-6D92-4C8A-BAA3-C7D8F64C50FB'
+ms.assetid: E728F250-6D92-4C8A-BAA3-C7D8F64C50FB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingRectNotHitTestable
@@ -22,10 +27,10 @@ The bounding rectangle of the element is not reachable by hit testing. For examp
 
 <dl> <dt>
 
-[**IAccessible::accHitTest**](iaccessible-iaccessible--acchittest.md)
+[**IAccessible::accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
 </dt> <dt>
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 </dt> </dl>
 
  

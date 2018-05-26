@@ -2,7 +2,13 @@
 title: Nonencapsulated Unions
 description: A nonencapsulated union is a union which is not contained in a structure with its discriminant. The nonencapsulated union is indicated by the presence of the type attribute \ switch\_type\ and the field attribute \ switch\_is\ .
 ms.assetid: d883b0ed-ceab-49f0-bbe5-b96a503c431d
-keywords: ["data types MIDL , nonencapsulated unions"]
+keywords:
+- data types MIDL , nonencapsulated unions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Nonencapsulated Unions

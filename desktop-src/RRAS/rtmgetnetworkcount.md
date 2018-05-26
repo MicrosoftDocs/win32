@@ -1,8 +1,9 @@
 ---
 title: RtmGetNetworkCount function
 description: The RtmGetNetworkCount function retrieves the number of networks to which the routing table manager has routes.
-ms.assetid: 'd0c04b8d-a6c4-44bf-a3f2-de822d635131'
-keywords: ["RtmGetNetworkCount function RAS"]
+ms.assetid: d0c04b8d-a6c4-44bf-a3f2-de822d635131
+keywords:
+- RtmGetNetworkCount function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmGetNetworkCount function
@@ -24,7 +30,7 @@ The **RtmGetNetworkCount** function retrieves the number of networks to which th
 
 ```C++
 ULONG RtmGetNetworkCount(
-  _In_ DWORD ProtocolFamily
+  _In_ DWORD ProtocolFamily
 );
 ```
 
@@ -56,7 +62,7 @@ If the return value is zero, either no routes are available, or the operation fa
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +71,8 @@ If the return value is zero, either no routes are available, or the operation fa
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -89,9 +95,9 @@ If the return value is zero, either no routes are available, or the operation fa
 [RTMv1 Protocol Family Identifiers](routing-table-manager-version-1-protocol-family-identifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

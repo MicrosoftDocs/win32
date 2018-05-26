@@ -4,13 +4,16 @@ description: Creates a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c577fdbc-935a-4eb8-b461-e974069b3f11'
-ms.prod: 'windows-server-dev'
+ms.assetid: c577fdbc-935a-4eb8-b461-e974069b3f11
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateResource method", "CreateResource method, MSCluster_Resource class", "MSCluster_Resource class, CreateResource method"]
+keywords:
+- CreateResource method
+- CreateResource method, MSCluster_Resource class
+- MSCluster_Resource class, CreateResource method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateResource method of the MSCluster\_Resource class
@@ -30,11 +36,11 @@ Creates a [resource](https://msdn.microsoft.com/library/aa372152).
 
 ```mof
 void CreateResource(
-  [in]      string  Group,
-  [in]      string  ResourceName,
-  [in]      string  ResourceType,
-  [in]      boolean SeparateMonitor = ,
-  [in, out] string  Id
+  [in]      string  Group,
+  [in]      string  ResourceName,
+  [in]      string  ResourceType,
+  [in]      boolean SeparateMonitor = ,
+  [in, out] string  Id
 );
 ```
 
@@ -77,9 +83,9 @@ The type of resource to create.
 
 Id of the resource.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This parameter is not supported before Windows Server 2012.
+This parameter is not supported before Windows Server 2012.
 
 </dd> </dl>
 
@@ -94,7 +100,7 @@ This method has no return values.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -108,9 +114,9 @@ This method has no return values.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

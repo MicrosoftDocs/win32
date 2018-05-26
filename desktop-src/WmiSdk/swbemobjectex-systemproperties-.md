@@ -1,13 +1,16 @@
 ---
-Description: 'Returns an SWbemPropertySet object that contains the collection of WMI System Properties that apply to the object.'
+Description: Returns an SWbemPropertySet object that contains the collection of WMI System Properties that apply to the object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e95c325a-8851-4f55-a99d-4346d064e308'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e95c325a-8851-4f55-a99d-4346d064e308
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectEx.SystemProperties\_ property'
+title: SWbemObjectEx.SystemProperties\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectEx.SystemProperties\_ property
@@ -68,8 +71,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -85,9 +88,9 @@ Next
 [**SWbemObjectEx**](swbemobjectex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

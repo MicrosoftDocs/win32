@@ -4,17 +4,22 @@ description: Confirmation ID (CID) used for phone activation of the Active Direc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2f9dc53c-5888-4427-9faa-2d613f97db4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 2f9dc53c-5888-4427-9faa-2d613f97db4b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-SPP-Confirmation-Id attribute AD Schema", "msSPP-ConfirmationId attribute AD Schema"]
+keywords:
+- ms-SPP-Confirmation-Id attribute AD Schema
+- msSPP-ConfirmationId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-SPP-Confirmation-Id
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-SPP-Confirmation-Id attribute
@@ -38,7 +43,7 @@ Confirmation ID (CID) used for phone activation of the Active Directory forest
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Confirmation ID (CID) used for phone activation of the Active Directory forest
 
 
 
- 
+ 
 
- 
+ 
 
 
 

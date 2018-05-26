@@ -4,11 +4,13 @@ description: Describes the configuration information for a network controller cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '44fd9c69-4875-4a6b-9bfb-0b9d3b902c6c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 44fd9c69-4875-4a6b-9bfb-0b9d3b902c6c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NetworkControllerClusterConfiguration class", "NetworkControllerClusterConfiguration class, described"]
+keywords:
+- NetworkControllerClusterConfiguration class
+- NetworkControllerClusterConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NetworkControllerClusterConfiguration class
@@ -44,19 +49,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("NcServerPSProvider"), AMENDMENT]
 class NetworkControllerClusterConfiguration
 {
-  string                           Version;
-  string                           ServiceFabricVersion;
+  string                           Version;
+  string                           ServiceFabricVersion;
   NetworkControllerNodeClusterInfo NodeList[];
-  string                           ClusterAuthentication;
-  string                           ClusterSpn;
-  string                           ClusterGmsaAccountName;
-  string                           ClusterAdminSecurityGroup;
-  boolean                          IsNCDeployed;
-  NetworkControllerDiagnosticInfo  DiagnosticInfo;
-  uint8                            EncryptionCertificateRawData[];
-  string                           ImageStorePSK;
-  boolean                          IsInitialClusterUpgrade;
-  boolean                          EnableUpdates;
+  string                           ClusterAuthentication;
+  string                           ClusterSpn;
+  string                           ClusterGmsaAccountName;
+  string                           ClusterAdminSecurityGroup;
+  boolean                          IsNCDeployed;
+  NetworkControllerDiagnosticInfo  DiagnosticInfo;
+  uint8                            EncryptionCertificateRawData[];
+  string                           ImageStorePSK;
+  boolean                          IsInitialClusterUpgrade;
+  boolean                          EnableUpdates;
 };
 ```
 
@@ -282,16 +287,16 @@ Gets the version of the cluster deployment.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

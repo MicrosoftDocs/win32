@@ -1,7 +1,12 @@
 ---
 title: Windows Mail Database Reference
 description: This documentation provides database-related information about the set of interfaces for objects related to Windows Mail (formerly Outlook Express).
-ms.assetid: 'f785fba4-20bb-4def-bc09-219b242a9946'
+ms.assetid: f785fba4-20bb-4def-bc09-219b242a9946
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mail Database Reference
@@ -32,7 +37,7 @@ The IDatabase interface enables access to database files written by Outlook Expr
 
 
 
- 
+ 
 
 ### Enums
 
@@ -51,7 +56,7 @@ The IDatabase interface enables access to database files written by Outlook Expr
 
 
 
- 
+ 
 
 ### Structures
 
@@ -69,7 +74,7 @@ The IDatabase interface enables access to database files written by Outlook Expr
 
 
 
- 
+ 
 
 ### Constants
 
@@ -85,7 +90,7 @@ The IDatabase interface enables access to database files written by Outlook Expr
 
 
 
- 
+ 
 
 The following is an example idl for Windows Mail database references.
 
@@ -1286,9 +1291,9 @@ extern const TABLESCHEMA g_SyncOpTableSchema;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

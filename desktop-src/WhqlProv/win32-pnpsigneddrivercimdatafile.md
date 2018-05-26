@@ -1,8 +1,10 @@
 ---
 title: Win32\_PnPSignedDriverCIMDataFile class
 description: The Win32\_PnPSignedDriverCIMDataFile association WMI class finds all binary files associated with a PnP driver.
-ms.assetid: 'd919605f-dd81-405d-9e06-d35fc5389fd4'
-keywords: ["Win32_PnPSignedDriverCIMDataFile class", "Win32_PnPSignedDriverCIMDataFile class, described"]
+ms.assetid: d919605f-dd81-405d-9e06-d35fc5389fd4
+keywords:
+- Win32_PnPSignedDriverCIMDataFile class
+- Win32_PnPSignedDriverCIMDataFile class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - SignDrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PnPSignedDriverCIMDataFile class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_PnPSignedDriverCIMDataFile : CIM_Dependency
 {
   Win32_PnPSignedDriver REF Antecedent;
-  CIM_DataFile          REF Dependent;
+  CIM_DataFile          REF Dependent;
 };
 ```
 
@@ -75,8 +82,8 @@ Reference to a [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236) 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>WhqlProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SignDrv.dll</dt> </dl>  |
@@ -90,9 +97,9 @@ Reference to a [**CIM\_DataFile**](https://msdn.microsoft.com/library/aa387236) 
 [Computer System Hardware Classes](https://msdn.microsoft.com/library/aa389273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

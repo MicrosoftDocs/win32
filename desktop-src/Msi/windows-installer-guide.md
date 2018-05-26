@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer Guide contains information of interest to authors of Windows Installer packages and users of the Windows Installer service.'
-ms.assetid: '6c68ca12-f601-4dc3-8415-e22f394b3407'
+Description: The Windows Installer Guide contains information of interest to authors of Windows Installer packages and users of the Windows Installer service.
+ms.assetid: 6c68ca12-f601-4dc3-8415-e22f394b3407
 title: Windows Installer Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Installer Guide

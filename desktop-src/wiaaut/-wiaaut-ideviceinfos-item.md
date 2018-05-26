@@ -1,8 +1,11 @@
 ---
 title: DeviceInfos.Item property
 description: Retrieves the specified item in the collection either by position or device ID.
-ms.assetid: 'f1b09dbe-8abd-43e3-a000-ca6479e68494'
-keywords: ["Item property WIA Automation", "Item property WIA Automation , DeviceInfos object", "DeviceInfos object WIA Automation , Item property"]
+ms.assetid: f1b09dbe-8abd-43e3-a000-ca6479e68494
+keywords:
+- Item property WIA Automation
+- Item property WIA Automation , DeviceInfos object
+- DeviceInfos object WIA Automation , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfos.Item property
@@ -42,8 +50,8 @@ For example code, see [List all Available Devices by Name and DeviceID](-wiaaut-
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -62,9 +70,9 @@ For example code, see [List all Available Devices by Name and DeviceID](-wiaaut-
 [**DeviceInfos**](-wiaaut-deviceinfos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

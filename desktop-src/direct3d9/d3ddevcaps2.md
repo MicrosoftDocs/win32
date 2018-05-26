@@ -1,7 +1,12 @@
 ---
-Description: 'D3DDEVCAPS2 driver capability flags.'
-ms.assetid: '3f3b9f86-dee3-4506-bd2e-1dcc8ba617ed'
+Description: D3DDEVCAPS2 driver capability flags.
+ms.assetid: 3f3b9f86-dee3-4506-bd2e-1dcc8ba617ed
 title: D3DDEVCAPS2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVCAPS2
@@ -15,7 +20,7 @@ D3DDEVCAPS2 driver capability flags.
 | \#define                                        | Description                                                                                                                                                                                                               |
 | D3DDEVCAPS2\_ADAPTIVETESSRTPATCH                | Device supports adaptive tessellation of RT-patches                                                                                                                                                                       |
 | D3DDEVCAPS2\_ADAPTIVETESSNPATCH                 | Device supports adaptive tessellation of N-patches.                                                                                                                                                                       |
-| D3DDEVCAPS2\_CAN\_STRETCHRECT\_FROM\_TEXTURES   | Device supports [**StretchRect**](idirect3ddevice9--stretchrect.md) using a texture as the source.                                                                                                                       |
+| D3DDEVCAPS2\_CAN\_STRETCHRECT\_FROM\_TEXTURES   | Device supports [**StretchRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-stretchrect?branch=master) using a texture as the source.                                                                                                                       |
 | D3DDEVCAPS2\_DMAPNPATCH                         | Device supports displacement maps for N-patches.                                                                                                                                                                          |
 | D3DDEVCAPS2\_PRESAMPLEDDMAPNPATCH               | Device supports presampled displacement maps for N-patches. For more information about displacement mapping, see [Displacement Mapping (Direct3D 9)](displacement-mapping.md).                                           |
 | D3DDEVCAPS2\_STREAMOFFSET                       | Device supports stream offsets.                                                                                                                                                                                           |

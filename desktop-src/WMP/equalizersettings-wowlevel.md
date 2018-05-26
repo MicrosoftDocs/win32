@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.wowLevel
 description: The wowLevel attribute specifies or retrieves the SRS WOW Effect level.
-ms.assetid: '8f99d7e1-39b9-42be-ab6d-8435ba7022fa'
-keywords: ["EQUALIZERSETTINGS.wowLevel Windows Media Player"]
+ms.assetid: 8f99d7e1-39b9-42be-ab6d-8435ba7022fa
+keywords:
+- EQUALIZERSETTINGS.wowLevel Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.wowLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.wowLevel
@@ -47,9 +53,9 @@ The SRS WOW Effect is an audio enhancement effect. This attribute is ignored if 
 [**EQUALIZERSETTINGS.enhancedAudio**](equalizersettings-enhancedaudio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

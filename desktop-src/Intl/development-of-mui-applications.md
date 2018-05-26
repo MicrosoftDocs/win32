@@ -1,7 +1,12 @@
 ---
-Description: 'This topic summarizes the main programming considerations to keep in mind when adding MUI functionality to your applications.'
-ms.assetid: '10064f5c-5563-44f8-afb5-c6c77991e13c'
+Description: This topic summarizes the main programming considerations to keep in mind when adding MUI functionality to your applications.
+ms.assetid: 10064f5c-5563-44f8-afb5-c6c77991e13c
 title: Development of MUI Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Development of MUI Applications
@@ -30,7 +35,7 @@ When planning your MUI application, you must first decide on the languages for t
 This section describes the possibilities for creating the user interface language resources for the application. For more information, see [Preparing Resources](preparing-resources.md).
 
 > [!Note]  
-> On pre-Windows Vista operating systems, you generally create static and separately packaged single-language localized applications with the languages supported by resource sections included in the executable files. This type of implementation is largely obsolete, and you are recommended to choose one of the other resource creation techniques described in this section, supported for Windows Vista and later. The application can then be made to run on pre-Windows Vista operating systems by the use of [**LoadMUILibrary**](loadmuilibrary.md).
+> On pre-Windows Vista operating systems, you generally create static and separately packaged single-language localized applications with the languages supported by resource sections included in the executable files. This type of implementation is largely obsolete, and you are recommended to choose one of the other resource creation techniques described in this section, supported for Windows Vista and later. The application can then be made to run on pre-Windows Vista operating systems by the use of [**LoadMUILibrary**](/windows/win32/Muiload/nf-muiload-loadmuilibrarya?branch=master).
 
  
 

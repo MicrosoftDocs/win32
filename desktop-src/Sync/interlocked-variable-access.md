@@ -1,7 +1,12 @@
 ---
-Description: 'Applications must synchronize access to variables that are shared by multiple threads.'
-ms.assetid: '729c0e68-ef52-4d6c-b771-a89043a937e6'
+Description: Applications must synchronize access to variables that are shared by multiple threads.
+ms.assetid: 729c0e68-ef52-4d6c-b771-a89043a937e6
 title: Interlocked Variable Access
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interlocked Variable Access
@@ -16,17 +21,17 @@ Simple reads and writes to properly aligned 64-bit variables are atomic on 64-bi
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. They also perform operations on variables in an atomic manner. The threads of different processes can use these functions if the variable is in shared memory.
 
-The [**InterlockedIncrement**](interlockedincrement.md) and [**InterlockedDecrement**](interlockeddecrement.md) functions combine the steps involved in incrementing or decrementing a variable into an atomic operation. This feature is useful in a multitasking operating system, in which the system can interrupt one thread's execution to grant a slice of processor time to another thread. Without such synchronization, two threads could read the same value, increment it by 1, and store the new value for a total increase of 1 instead of 2. The interlocked variable-access functions protect against this kind of error.
+The [**InterlockedIncrement**](/windows/win32/WinBase/nf-winbase-interlockedincrement?branch=master) and [**InterlockedDecrement**](/windows/win32/WinBase/nf-winbase-interlockeddecrement?branch=master) functions combine the steps involved in incrementing or decrementing a variable into an atomic operation. This feature is useful in a multitasking operating system, in which the system can interrupt one thread's execution to grant a slice of processor time to another thread. Without such synchronization, two threads could read the same value, increment it by 1, and store the new value for a total increase of 1 instead of 2. The interlocked variable-access functions protect against this kind of error.
 
-The [**InterlockedExchange**](interlockedexchange.md) and [**InterlockedExchangePointer**](interlockedexchangepointer.md) functions atomically exchange the values of the specified variables. The [**InterlockedExchangeAdd**](interlockedexchangeadd.md) function combines two operations: adding two variables together and storing the result in one of the variables.
+The [**InterlockedExchange**](/windows/win32/WinBase/nf-winbase-interlockedexchange?branch=master) and [**InterlockedExchangePointer**](/windows/win32/WinBase/nf-miniport-_inlineinterlockedexchangepointer?branch=master) functions atomically exchange the values of the specified variables. The [**InterlockedExchangeAdd**](/windows/win32/WinBase/nf-winbase-interlockedexchangeadd?branch=master) function combines two operations: adding two variables together and storing the result in one of the variables.
 
-The [**InterlockedCompareExchange**](interlockedcompareexchange.md), [**InterlockedCompare64Exchange128**](interlockedcompare64exchange128.md), and [**InterlockedCompareExchangePointer**](interlockedcompareexchangepointer.md) functions combine two operations: comparing two values and storing a third value in one of the variables, based on the outcome of the comparison.
+The [**InterlockedCompareExchange**](/windows/win32/WinBase/nf-winbase-interlockedcompareexchange?branch=master), [**InterlockedCompare64Exchange128**](/windows/win32/WinBase/?branch=master), and [**InterlockedCompareExchangePointer**](/windows/win32/WinBase/nf-miniport-_inlineinterlockedcompareexchangepointer?branch=master) functions combine two operations: comparing two values and storing a third value in one of the variables, based on the outcome of the comparison.
 
-The [**InterlockedAnd**](interlockedand.md), [**InterlockedOr**](interlockedor.md), and [**InterlockedXor**](interlockedxor.md) functions atomically perform AND, OR, and XOR operations, respectively.
+The [**InterlockedAnd**](/windows/win32/WinBase/nf-winbase-interlockedand?branch=master), [**InterlockedOr**](/windows/win32/WinBase/nf-winbase-interlockedor?branch=master), and [**InterlockedXor**](/windows/win32/WinBase/nf-winbase-interlockedxor?branch=master) functions atomically perform AND, OR, and XOR operations, respectively.
 
-There are functions that are specifically designed to perform interlocked variable access on 64-bit memory values and addresses, and are optimized for use on 64-bit Windows. Each of these functions contains "64" in the name; for example, [**InterlockedDecrement64**](interlockeddecrement64.md) and [**InterlockedCompareExchangeAcquire64**](interlockedcompareexchangeacquire64.md).
+There are functions that are specifically designed to perform interlocked variable access on 64-bit memory values and addresses, and are optimized for use on 64-bit Windows. Each of these functions contains "64" in the name; for example, [**InterlockedDecrement64**](/windows/win32/WinBase/nf-miniport-_inlineinterlockeddecrement64?branch=master) and [**InterlockedCompareExchangeAcquire64**](/windows/win32/WinBase/?branch=master).
 
-Most of the interlocked functions provide full memory barriers on all Windows platforms. There are also functions that combine the basic interlocked variable access operations with the acquire and release memory ordering semantics supported by certain processors. Each of these functions contains the word "Acquire" or "Release" in their names; for example, [**InterlockedDecrementAcquire**](interlockeddecrementacquire.md) and [**InterlockedDecrementRelease**](interlockeddecrementrelease.md). Acquire memory semantics specify that the memory operation being performed by the current thread will be visible before any other memory operations are attempted. Release memory semantics specify that the memory operation being performed by the current thread will be visible after all other memory operations have been completed. These semantics allow you to force memory operations to be performed in a specific order. Use acquire semantics when entering a protected region and release semantics when leaving it.
+Most of the interlocked functions provide full memory barriers on all Windows platforms. There are also functions that combine the basic interlocked variable access operations with the acquire and release memory ordering semantics supported by certain processors. Each of these functions contains the word "Acquire" or "Release" in their names; for example, [**InterlockedDecrementAcquire**](/windows/win32/WinBase/?branch=master) and [**InterlockedDecrementRelease**](/windows/win32/WinBase/?branch=master). Acquire memory semantics specify that the memory operation being performed by the current thread will be visible before any other memory operations are attempted. Release memory semantics specify that the memory operation being performed by the current thread will be visible after all other memory operations have been completed. These semantics allow you to force memory operations to be performed in a specific order. Use acquire semantics when entering a protected region and release semantics when leaving it.
 
 ## Related topics
 

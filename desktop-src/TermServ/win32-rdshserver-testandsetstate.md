@@ -4,11 +4,14 @@ description: Compares the current state to the specified comparand; if the two m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1bb0076-251b-4c0d-92f9-1c460e1b26bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f1bb0076-251b-4c0d-92f9-1c460e1b26bb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TestAndSetState method Remote Desktop Services", "TestAndSetState method Remote Desktop Services , Win32_RDSHServer class", "Win32_RDSHServer class Remote Desktop Services , TestAndSetState method"]
+keywords:
+- TestAndSetState method Remote Desktop Services
+- TestAndSetState method Remote Desktop Services , Win32_RDSHServer class
+- Win32_RDSHServer class Remote Desktop Services , TestAndSetState method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TestAndSetState method of the Win32\_RDSHServer class
@@ -28,9 +34,9 @@ Compares the current state to the specified comparand; if the two match, the sta
 
 ```mof
 uint32 TestAndSetState(
-  [in]  uint32 Comparand,
-  [in]  uint32 NewState,
-  [out] uint32 InitState
+  [in]  uint32 Comparand,
+  [in]  uint32 NewState,
+  [out] uint32 InitState
 );
 ```
 
@@ -68,7 +74,7 @@ On success or failure, returns the current state.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -82,9 +88,9 @@ On success or failure, returns the current state.
 [**Win32\_RDSHServer**](win32-rdshserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

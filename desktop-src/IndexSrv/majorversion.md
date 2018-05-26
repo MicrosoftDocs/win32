@@ -1,7 +1,12 @@
 ---
 title: MajorVersion
 description: MajorVersion
-ms.assetid: '2e89209f-5cb9-49cd-a833-f583a03c905b'
+ms.assetid: 2e89209f-5cb9-49cd-a833-f583a03c905b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MajorVersion

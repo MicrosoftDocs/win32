@@ -1,8 +1,15 @@
 ---
 title: Designing Profiles
 description: Designing Profiles
-ms.assetid: 'abf06fe4-0b5d-40a4-a263-a78150cd37c7'
-keywords: ["Windows Media Format SDK,profiles", "profiles,designing"]
+ms.assetid: abf06fe4-0b5d-40a4-a263-a78150cd37c7
+keywords:
+- Windows Media Format SDK,profiles
+- profiles,designing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Profiles

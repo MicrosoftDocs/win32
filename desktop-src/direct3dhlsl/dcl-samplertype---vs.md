@@ -1,7 +1,12 @@
 ---
 title: dcl\_samplerType (sm3 - vs asm)
 description: Declare a vertex shader sampler.
-ms.assetid: '733307ac-24ab-4db7-bf70-58a83b4c39b1'
+ms.assetid: 733307ac-24ab-4db7-bf70-58a83b4c39b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_samplerType (sm3 - vs asm)

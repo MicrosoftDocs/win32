@@ -1,7 +1,12 @@
 ---
 title: Volume Manager I/O Control Codes
 description: Volume Manager I/O Control Codes
-ms.assetid: 'f64c8386-bdc6-430e-9236-9ffffe88c768'
+ms.assetid: f64c8386-bdc6-430e-9236-9ffffe88c768
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Manager I/O Control Codes

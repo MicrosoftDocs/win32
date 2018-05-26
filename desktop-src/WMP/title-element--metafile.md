@@ -1,14 +1,20 @@
 ---
 title: TITLE Element (metafile)
 description: The TITLE element defines a text string specifying the title for an ASX or ENTRY element.
-ms.assetid: 'd7ad7f00-fcf2-456d-a106-98bf0a258b81'
-keywords: ["TITLE Element (metafile) Windows Media Player"]
+ms.assetid: d7ad7f00-fcf2-456d-a106-98bf0a258b81
+keywords:
+- TITLE Element (metafile) Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TITLE Element (metafile)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TITLE Element (metafile)
@@ -36,7 +42,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,9 +89,9 @@ Each parent **ASX** and **ENTRY** element should contain at most one child **TIT
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

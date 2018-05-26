@@ -1,8 +1,14 @@
 ---
 title: The Wait Flag
 description: The Wait Flag
-ms.assetid: 'b971ccd4-0507-4f05-adb3-d4930496034d'
-keywords: ["MCI_WAIT flag"]
+ms.assetid: b971ccd4-0507-4f05-adb3-d4930496034d
+keywords:
+- MCI_WAIT flag
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Wait Flag

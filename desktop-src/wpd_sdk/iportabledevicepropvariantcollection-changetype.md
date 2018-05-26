@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeType method converts all items in the collection to the specified VARTYPE.'
-ms.assetid: 'b01b6205-c900-4b2e-810f-426e1e71a008'
-title: 'IPortableDevicePropVariantCollection::ChangeType method'
+Description: The ChangeType method converts all items in the collection to the specified VARTYPE.
+ms.assetid: b01b6205-c900-4b2e-810f-426e1e71a008
+title: IPortableDevicePropVariantCollectionChangeType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection::ChangeType method
@@ -13,7 +18,7 @@ The **ChangeType** method converts all items in the collection to the specified 
 
 ```C++
 HRESULT ChangeType(
-  [in] const VARTYPE vt
+  [in] const VARTYPE vt
 );
 ```
 
@@ -42,7 +47,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +71,9 @@ If this method fails, the collection may be left in an intermediate state, with 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

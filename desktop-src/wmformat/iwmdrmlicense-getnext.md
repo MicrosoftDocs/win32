@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense GetNext method
 description: The GetNext method loads the information about the next item in the list.
-ms.assetid: '5ef91751-2883-4a8e-9908-7a6dfe6d2af3'
-keywords: ["GetNext method windows Media Format", "GetNext method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , GetNext method"]
+ms.assetid: 5ef91751-2883-4a8e-9908-7a6dfe6d2af3
+keywords:
+- GetNext method windows Media Format
+- GetNext method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , GetNext method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::GetNext method
@@ -45,7 +53,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +77,9 @@ The methods of the [**IWMDRMLicense**](iwmdrmlicense.md) interface provide data 
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

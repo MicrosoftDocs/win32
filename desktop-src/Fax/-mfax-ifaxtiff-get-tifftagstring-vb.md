@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the TiffTagString property for a FaxTiff object. The TiffTagString property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).'
-ms.assetid: 'ec519cec-74e9-42ff-bbc3-b05cdcaff064'
-title: 'FaxTiff.TiffTagString property'
+---
+Description: Retrieves the TiffTagString property for a FaxTiff object. The TiffTagString property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).
+ms.assetid: ec519cec-74e9-42ff-bbc3-b05cdcaff064
+title: FaxTiff.TiffTagString property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.TiffTagString property
@@ -65,7 +70,7 @@ The **get\_TiffTagString** method allocates the memory required for the buffer p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

@@ -1,14 +1,20 @@
 ---
 title: RequireCryptoBinding (EapType) Element
 description: Indicates whether to authenticate with servers that support cryptobinding.
-ms.assetid: '6b6a131d-8fce-4a5c-a649-891c4617b0f2'
-keywords: ["RequireCryptoBinding element EAPHost"]
+ms.assetid: 6b6a131d-8fce-4a5c-a649-891c4617b0f2
+keywords:
+- RequireCryptoBinding element EAPHost
 topic_type:
 - apiref
 api_name:
 - RequireCryptoBinding
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequireCryptoBinding (EapType) Element
@@ -33,8 +39,8 @@ If the **RequireCryptoBinding** element is TRUE, then PEAP will authenticate wit
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ If the **RequireCryptoBinding** element is TRUE, then PEAP will authenticate wit
 [mspeapconnectionpropertiesv1 Schema Elements](mspeapconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

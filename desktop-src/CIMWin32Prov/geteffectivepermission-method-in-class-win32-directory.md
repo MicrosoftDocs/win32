@@ -1,15 +1,18 @@
 ---
-Description: 'Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).'
+Description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ece22cb0-a4ca-4ad7-b6d3-213dda4ce5b1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ece22cb0-a4ca-4ad7-b6d3-213dda4ce5b1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetEffectivePermission method of the Win32\_Directory class'
+title: GetEffectivePermission method of the Win32\_Directory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetEffectivePermission method of the Win32\_Directory class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 boolean GetEffectivePermission(
-  [in] uint32 Permissions
+  [in] uint32 Permissions
 );
 ```
 
@@ -204,8 +207,8 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Aclui.h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -223,9 +226,9 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 [**Win32\_Directory**](win32-directory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

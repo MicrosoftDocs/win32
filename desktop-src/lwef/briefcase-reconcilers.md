@@ -1,8 +1,17 @@
 ---
 title: Creating Briefcase Reconcilers
 description: A briefcase reconciler gives Briefcase the means to reconcile different versions of a document.
-ms.assetid: '86d66291-96ae-40ea-98ef-ef263f25aa82'
-keywords: ["briefcase reconcilers", "reconciliation", "IReconcilableObject", "IReconcileInitiator"]
+ms.assetid: 86d66291-96ae-40ea-98ef-ef263f25aa82
+keywords:
+- briefcase reconcilers
+- reconciliation
+- IReconcilableObject
+- IReconcileInitiator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Briefcase Reconcilers
@@ -42,13 +51,13 @@ Some briefcase reconcilers work with Briefcase to allow the user to terminate re
 
 ### Creating a Briefcase Reconciler
 
-You create a briefcase reconciler by implementing the reconciliation interfaces. At a minimum, a reconciler implements the [**IReconcilableObject**](ireconcilableobject.md) interface and the [IPersistStorage](http://msdn.microsoft.com/library/ms679731(VS.85).aspx) or [IPersistFile](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) interface. As the initiator, Briefcase determines when reconciliation is needed and calls the [**IReconcilableObject::Reconcile**](ireconcilableobject-reconcile.md) method to initiate reconciliation.
+You create a briefcase reconciler by implementing the reconciliation interfaces. At a minimum, a reconciler implements the [**IReconcilableObject**](/windows/win32/Reconcil/?branch=master) interface and the [IPersistStorage](http://msdn.microsoft.com/library/ms679731(VS.85).aspx) or [IPersistFile](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) interface. As the initiator, Briefcase determines when reconciliation is needed and calls the [**IReconcilableObject::Reconcile**](/windows/win32/Reconcil/?branch=master) method to initiate reconciliation.
 
-Although [**IReconcilableObject::Reconcile**](ireconcilableobject-reconcile.md) provides a wide-ranging set of reconciliation capabilities, a briefcase reconciler carries out only minimal reconciliation in most cases. In particular, Briefcase does not require the reconciler to support residue generation or to support the termination object. Also, the reconciler carries out a single top-to-bottom reconciliation and must not return the REC\_E\_NOTCOMPLETE value; that is, it should not attempt partial reconciliation.
+Although [**IReconcilableObject::Reconcile**](/windows/win32/Reconcil/?branch=master) provides a wide-ranging set of reconciliation capabilities, a briefcase reconciler carries out only minimal reconciliation in most cases. In particular, Briefcase does not require the reconciler to support residue generation or to support the termination object. Also, the reconciler carries out a single top-to-bottom reconciliation and must not return the REC\_E\_NOTCOMPLETE value; that is, it should not attempt partial reconciliation.
 
-Briefcase provides the [**IReconcileInitiator**](ireconcileinitiator.md) interface. The briefcase reconciler can use the [**IReconcileInitiator::SetAbortCallback**](ireconcileinitiator-setabortcallback.md) method to set the termination object. Briefcase does not use version identifiers and cannot, therefore, provide previous versions of a document if a reconciler requests them using the corresponding methods in **IReconcileInitiator**.
+Briefcase provides the [**IReconcileInitiator**](ireconcileinitiator.md) interface. The briefcase reconciler can use the [**IReconcileInitiator::SetAbortCallback**](/windows/win32/Reconcil/?branch=master) method to set the termination object. Briefcase does not use version identifiers and cannot, therefore, provide previous versions of a document if a reconciler requests them using the corresponding methods in **IReconcileInitiator**.
 
-Briefcase passes to [**IReconcilableObject::Reconcile**](ireconcilableobject-reconcile.md) file monikers representing the versions of the document to be reconciled. The briefcase reconciler gains access to the versions by using either the [IMoniker::BindToObject](http://msdn.microsoft.com/library/ms691433(VS.85).aspx) or [IMoniker::BindToStorage](http://msdn.microsoft.com/library/ms688738(VS.85).aspx) method. The latter is generally faster and is recommended. The reconciler must release any objects or storage to which it binds.
+Briefcase passes to [**IReconcilableObject::Reconcile**](/windows/win32/Reconcil/?branch=master) file monikers representing the versions of the document to be reconciled. The briefcase reconciler gains access to the versions by using either the [IMoniker::BindToObject](http://msdn.microsoft.com/library/ms691433(VS.85).aspx) or [IMoniker::BindToStorage](http://msdn.microsoft.com/library/ms688738(VS.85).aspx) method. The latter is generally faster and is recommended. The reconciler must release any objects or storage to which it binds.
 
 When the briefcase reconciler uses [IMoniker::BindToStorage](http://msdn.microsoft.com/library/ms688738(VS.85).aspx), it binds to storage that is either flat storage (a stream) or OLE-defined structured storage. If the reconciler expects flat storage, it should use IMoniker::BindToStorage to request the [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) interface. If the reconciler expects structured storage, it should request the [IStorage](http://msdn.microsoft.com/library/Aa380015(VS.85).aspx) interface. In both cases, it should request read-only direct (nontransacted) access to the storage; read/write access might not be available.
 
@@ -82,13 +91,13 @@ To carry out the recursion, the briefcase reconciler loads the object and querie
 
 The initiator stores the document versions being merged. In many cases, the initiator has access to the storage of each version and saves the result of reconciliation using similar storage. Sometimes, however, the initiator might have an in-memory object for which no persistent version is available. This situation can occur when a document containing open embedded objects must be reconciled before being saved. In such cases, the initiator saves the result of the reconciliation in the version found in memory.
 
-The initiator uses the [IPersistStorage](http://msdn.microsoft.com/library/ms679731(VS.85).aspx) interface to bind (load) the merged version. The initiator uses the [IPersistStorage::Load](http://msdn.microsoft.com/library/ms680557(VS.85).aspx) method if an initial version has already been created and uses the [IPersistStorage::InitNew](http://msdn.microsoft.com/library/ms687194(VS.85).aspx) method for the initial version. When the merged version is loaded, the initiator uses [QueryInterface](http://msdn.microsoft.com/library/ms682521(VS.85).aspx) to retrieve the address of the [**IReconcilableObject**](ireconcilableobject.md) interface. This interface gives the initiator access to the storage of the existing residues and gives it a way to create storage for any new residues. Then the initiator directs the interface to carry out the reconciliation. The initiator actually queries for the [IPersistFile](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) interface before IPersistStorage. If the reconciler supports IPersistFile, the initiator manipulates the replica through the IPersistFile rather than the IPersistStorage methods. This permits reconciliation of files that are not stored as compound documents.
+The initiator uses the [IPersistStorage](http://msdn.microsoft.com/library/ms679731(VS.85).aspx) interface to bind (load) the merged version. The initiator uses the [IPersistStorage::Load](http://msdn.microsoft.com/library/ms680557(VS.85).aspx) method if an initial version has already been created and uses the [IPersistStorage::InitNew](http://msdn.microsoft.com/library/ms687194(VS.85).aspx) method for the initial version. When the merged version is loaded, the initiator uses [QueryInterface](http://msdn.microsoft.com/library/ms682521(VS.85).aspx) to retrieve the address of the [**IReconcilableObject**](/windows/win32/Reconcil/?branch=master) interface. This interface gives the initiator access to the storage of the existing residues and gives it a way to create storage for any new residues. Then the initiator directs the interface to carry out the reconciliation. The initiator actually queries for the [IPersistFile](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) interface before IPersistStorage. If the reconciler supports IPersistFile, the initiator manipulates the replica through the IPersistFile rather than the IPersistStorage methods. This permits reconciliation of files that are not stored as compound documents.
 
 When the reconciliation is complete, the initiator can save the merged version by using the [IPersistStorage](http://msdn.microsoft.com/library/ms679731(VS.85).aspx) or [IPersistFile](http://msdn.microsoft.com/library/ms687223(VS.85).aspx) interface. During reconciliation, the briefcase reconciler creates residues as needed and writes their persistent bits to storage. If the merged version is a stream, the [IStorage](http://msdn.microsoft.com/library/Aa380015(VS.85).aspx) interface passed to [IPersistStorage::Load](http://msdn.microsoft.com/library/ms680557(VS.85).aspx) contains a stream named "Contents" with its storage state set to STATEBITS\_FLAT. (You can set the state bits by using the [IStorage::Stat](http://msdn.microsoft.com/library/Aa380033(VS.85).aspx) method.) After the merge, the initiator saves the merged version by writing the data in an appropriate manner. It should ensure that STATEBITS\_FLAT is set as appropriate for the storage.
 
 ### Residues
 
-The initiator indicates whether it wants residues by setting the *pstgNewResidues* parameter to a valid address when calling the [**IReconcilableObject::Reconcile**](ireconcilableobject-reconcile.md) method. If the reconciler does not support the creation of residues, it must return immediately the REC\_E\_NORESIDUES value, unless the *dwFlags* parameter specifies the **RECONCILEF\_NORESIDUESOK** value.
+The initiator indicates whether it wants residues by setting the *pstgNewResidues* parameter to a valid address when calling the [**IReconcilableObject::Reconcile**](/windows/win32/Reconcil/?branch=master) method. If the reconciler does not support the creation of residues, it must return immediately the REC\_E\_NORESIDUES value, unless the *dwFlags* parameter specifies the **RECONCILEF\_NORESIDUESOK** value.
 
 The briefcase reconciler returns residues to the initiator by creating new storage elements and copying them to the array pointed to by *pstgNewResidues*. For structured storage residues, the reconciler copies an [IStorage](http://msdn.microsoft.com/library/Aa380015(VS.85).aspx) interface, and for flat storage residues, it copies either an [IStream](http://msdn.microsoft.com/library/Aa380034(VS.85).aspx) or an IStorage interface with the STATEBITS\_FLAT flag set. The reconciler uses IStorage to create the necessary storage, using [IStorage::CreateStream](http://msdn.microsoft.com/library/Aa380020(VS.85).aspx) to create flat storage for a residue that is a stream and [IStorage::CreateStorage](http://msdn.microsoft.com/library/Aa380019(VS.85).aspx) to create structured storage.
 
@@ -102,13 +111,13 @@ This section contains information about the reconciliation interfaces. When hand
 
 ### Briefcase Reconciler Interfaces and Methods
 
--   [**IReconcilableObject**](ireconcilableobject.md) 
-    -   -   [**IReconcilableObject::GetProgressFeedbackMaxEstimate**](ireconcilableobject-getprogressfeedbackmaxestimate.md)
-        -   [**IReconcilableObject::Reconcile**](ireconcilableobject-reconcile.md)
+-   [**IReconcilableObject**](/windows/win32/Reconcil/?branch=master) 
+    -   -   [**IReconcilableObject::GetProgressFeedbackMaxEstimate**](/windows/win32/Reconcil/?branch=master)
+        -   [**IReconcilableObject::Reconcile**](/windows/win32/Reconcil/?branch=master)
 
 -   [**IReconcileInitiator**](ireconcileinitiator.md) 
-    -   -   [**IReconcileInitiator::SetAbortCallback**](ireconcileinitiator-setabortcallback.md)
-        -   [**IReconcileInitiator::SetProgressFeedback**](ireconcileinitiator-setprogressfeedback.md)
+    -   -   [**IReconcileInitiator::SetAbortCallback**](/windows/win32/Reconcil/?branch=master)
+        -   [**IReconcileInitiator::SetProgressFeedback**](/windows/win32/Reconcil/?branch=master)
 
 -   [**INotifyReplica**](https://msdn.microsoft.com/library/windows/desktop/bb775412) 
     -   -   [**INotifyReplica::YouAreAReplica**](https://msdn.microsoft.com/library/windows/desktop/bb775414)

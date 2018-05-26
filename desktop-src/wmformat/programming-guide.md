@@ -1,8 +1,17 @@
 ---
 title: Programming Guide
 description: Programming Guide
-ms.assetid: 'e7b179b3-ed14-4ea0-9a00-9d96557a2e2e'
-keywords: ["Windows Media Format SDK,Programming Guide", "Windows Media Format SDK,Advanced Systems Format (ASF)", "Advanced Systems Format (ASF),Programming Guide", "ASF (Advanced Systems Format),Programming Guide"]
+ms.assetid: e7b179b3-ed14-4ea0-9a00-9d96557a2e2e
+keywords:
+- Windows Media Format SDK,Programming Guide
+- Windows Media Format SDK,Advanced Systems Format (ASF)
+- Advanced Systems Format (ASF),Programming Guide
+- ASF (Advanced Systems Format),Programming Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

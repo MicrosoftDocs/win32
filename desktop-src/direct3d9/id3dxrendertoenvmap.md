@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ID3DXRenderToEnvMap interface is used to generalize the process of rendering to environment maps.'
-ms.assetid: 'd72db260-5493-4381-9269-521ad333f0b2'
+---
+Description: The ID3DXRenderToEnvMap interface is used to generalize the process of rendering to environment maps.
+ms.assetid: d72db260-5493-4381-9269-521ad333f0b2
 title: ID3DXRenderToEnvMap interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap interface

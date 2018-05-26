@@ -4,11 +4,16 @@ description: Support operations on individual nodes, their properties, and relat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8bf2124b-7e29-493c-a1ac-12e5f1cf5fe6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8bf2124b-7e29-493c-a1ac-12e5f1cf5fe6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["node management objects Failover Cluster", "nodes Failover Cluster ,management objects"]
+keywords:
+- node management objects Failover Cluster
+- nodes Failover Cluster ,management objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node Management Objects

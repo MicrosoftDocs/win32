@@ -1,7 +1,12 @@
-﻿---
-Description: 'The StringFromResource function loads a string from a resource file with the given resource identifier.'
-ms.assetid: '26b40905-db16-46d1-8621-9aa8cb8e7232'
+---
+Description: The StringFromResource function loads a string from a resource file with the given resource identifier.
+ms.assetid: 26b40905-db16-46d1-8621-9aa8cb8e7232
 title: StringFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringFromResource function

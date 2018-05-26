@@ -1,14 +1,21 @@
 ---
 title: IWMDRMDeviceApp interface
-description: The IWMDRMDeviceApp interface enables an application to meter, synchronize licenses, and update a device's DRM components.
-ms.assetid: 'e47167c2-ea14-4173-8ce9-8d8540a0fc73'
-keywords: ["IWMDRMDeviceApp interface windows Media Device Manager", "IWMDRMDeviceApp interface windows Media Device Manager , described"]
+description: The IWMDRMDeviceApp interface enables an application to meter, synchronize licenses, and update a devices DRM components.
+ms.assetid: e47167c2-ea14-4173-8ce9-8d8540a0fc73
+keywords:
+- IWMDRMDeviceApp interface windows Media Device Manager
+- IWMDRMDeviceApp interface windows Media Device Manager , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMDeviceApp
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp interface
@@ -22,7 +29,7 @@ To get this interface, call **CoCreateInstance**, passing in CLSID\_WMDRMDeviceA
 > [!Note]  
 > This interface is defined in the header file built from WMDRMDeviceApp.idl. This header **\#include**s "wmdm.h". You might need to change this file name to match the header built from WMDM.idl.
 
- 
+ 
 
 ## Members
 
@@ -46,7 +53,7 @@ The **IWMDRMDeviceApp** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -61,9 +68,9 @@ The **IWMDRMDeviceApp** interface has these methods.
 [**Metering Content Usage**](metering-content-usage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

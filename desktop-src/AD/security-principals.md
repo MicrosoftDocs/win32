@@ -4,11 +4,15 @@ description: In Windows 2000, a security principal is a user, group, or compute
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '213ee563-35cd-43d2-abb2-f66652df5be1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 213ee563-35cd-43d2-abb2-f66652df5be1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["security principals AD"]
+keywords:
+- security principals AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Principals

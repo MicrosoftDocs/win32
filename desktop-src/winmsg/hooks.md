@@ -1,7 +1,12 @@
 ---
-Description: 'This section discusses hooks. A hook is a point in the system message-handling mechanism where an application can install a subroutine to monitor the message traffic.'
-ms.assetid: '9ced0ac4-e602-425f-b954-6af9c741699a'
+Description: This section discusses hooks. A hook is a point in the system message-handling mechanism where an application can install a subroutine to monitor the message traffic.
+ms.assetid: 9ced0ac4-e602-425f-b954-6af9c741699a
 title: Hooks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hooks
@@ -20,7 +25,7 @@ A hook is a point in the system message-handling mechanism where an application 
 
 
 
- 
+ 
 
 ### Hook Functions
 
@@ -35,14 +40,14 @@ A hook is a point in the system message-handling mechanism where an application 
 | [*CBTProc*](cbtproc.md)                           | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function before activating, creating, destroying, minimizing, maximizing, moving, or sizing a window; before completing a system command; before removing a mouse or keyboard event from the system message queue; before setting the keyboard focus; or before synchronizing with the system message queue. A computer-based training (CBT) application uses this hook procedure to receive useful notifications from the system. <br/> |
 | [*DebugProc*](debugproc.md)                       | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function before calling the hook procedures associated with any type of hook. The system passes information about the hook to be called to the [*DebugProc*](debugproc.md) hook procedure, which examines the information and determines whether to allow the hook to be called. <br/>                                                                                                                                                  |
 | [*ForegroundIdleProc*](foregroundidleproc.md)     | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever the foreground thread is about to become idle. <br/>                                                                                                                                                                                                                                                                                                                                                                   |
-| [*GetMsgProc*](getmsgproc.md)                     | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function has retrieved a message from an application message queue. Before returning the retrieved message to the caller, the system passes the message to the hook procedure. <br/>                                                                                                                                                        |
+| [*GetMsgProc*](getmsgproc.md)                     | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function has retrieved a message from an application message queue. Before returning the retrieved message to the caller, the system passes the message to the hook procedure. <br/>                                                                                                                                                        |
 | [*JournalPlaybackProc*](journalplaybackproc.md)   | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. Typically, an application uses this function to play back a series of mouse and keyboard messages recorded previously by the [*JournalRecordProc*](journalrecordproc.md) hook procedure. As long as a [*JournalPlaybackProc*](journalplaybackproc.md) hook procedure is installed, regular mouse and keyboard input is disabled. <br/>                                                                                                                       |
 | [*JournalRecordProc*](journalrecordproc.md)       | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The function records messages the system removes from the system message queue. Later, an application can use a [*JournalPlaybackProc*](journalplaybackproc.md) hook procedure to play back the messages. <br/>                                                                                                                                                                                                                                               |
-| [*KeyboardProc*](keyboardproc.md)                 | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever an application calls the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function and there is a keyboard message ([**WM\_KEYUP**](https://msdn.microsoft.com/library/windows/desktop/ms646281) or [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280)) to be processed. <br/>                                                                                                                                                                         |
+| [*KeyboardProc*](keyboardproc.md)                 | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever an application calls the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function and there is a keyboard message ([**WM\_KEYUP**](https://msdn.microsoft.com/library/windows/desktop/ms646281) or [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280)) to be processed. <br/>                                                                                                                                                                         |
 | [*LowLevelKeyboardProc*](lowlevelkeyboardproc.md) | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function every time a new keyboard input event is about to be posted into a thread input queue.<br/>                                                                                                                                                                                                                                                                                                                                     |
 | [*LowLevelMouseProc*](lowlevelmouseproc.md)       | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function every time a new mouse input event is about to be posted into a thread input queue.<br/>                                                                                                                                                                                                                                                                                                                                        |
 | [*MessageProc*](messageproc.md)                   | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function after an input event occurs in a dialog box, message box, menu, or scroll bar, but before the message generated by the input event is processed. The hook procedure can monitor messages for a dialog box, message box, menu, or scroll bar created by a particular application or all applications.<br/>                                                                                                                       |
-| [*MouseProc*](mouseproc.md)                       | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever an application calls the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function and there is a mouse message to be processed. <br/>                                                                                                                                                                                                                                                           |
+| [*MouseProc*](mouseproc.md)                       | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function whenever an application calls the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function and there is a mouse message to be processed. <br/>                                                                                                                                                                                                                                                           |
 | [**SetWindowsHookEx**](setwindowshookex.md)       | Installs an application-defined hook procedure into a hook chain. You would install a hook procedure to monitor the system for certain types of events. These events are associated either with a specific thread or with all threads in the same desktop as the calling thread.<br/>                                                                                                                                                                                                                                                                                                           |
 | [*ShellProc*](shellproc.md)                       | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The function receives notifications of Shell events from the system.<br/>                                                                                                                                                                                                                                                                                                                                                                                      |
 | [*SysMsgProc*](sysmsgproc.md)                     | An application-defined or library-defined callback function used with the [**SetWindowsHookEx**](setwindowshookex.md) function. The system calls this function after an input event occurs in a dialog box, message box, menu, or scroll bar, but before the message generated by the input event is processed. The function can monitor messages for any dialog box, message box, menu, or scroll bar in the system. <br/>                                                                                                                                                                    |
@@ -50,7 +55,7 @@ A hook is a point in the system message-handling mechanism where an application 
 
 
 
- 
+ 
 
 ### Hook Notifications
 
@@ -63,7 +68,7 @@ A hook is a point in the system message-handling mechanism where an application 
 
 
 
- 
+ 
 
 ### Hook Structures
 
@@ -84,7 +89,7 @@ A hook is a point in the system message-handling mechanism where an application 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -93,9 +98,9 @@ A hook is a point in the system message-handling mechanism where an application 
 [**SetWinEventHook**](https://msdn.microsoft.com/library/windows/desktop/dd373640)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

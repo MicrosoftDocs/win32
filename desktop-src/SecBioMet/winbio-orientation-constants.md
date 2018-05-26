@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ORIENTATION Constants
 description: The following constants specify the possible camera orientations that the sensor component specifies as mandatory.
-ms.assetid: 'E44A6F17-5F38-47C7-947B-FB6FB79B1217'
+ms.assetid: E44A6F17-5F38-47C7-947B-FB6FB79B1217
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ORIENTATION Constants
@@ -36,8 +41,8 @@ The following constants specify the possible camera orientations that the sensor
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -49,9 +54,9 @@ The following constants specify the possible camera orientations that the sensor
 [**WINBIO\_EXTENDED\_SENSOR\_INFO**](winbio-extended-sensor-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

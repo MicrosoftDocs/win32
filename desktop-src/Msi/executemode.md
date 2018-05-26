@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EXECUTEMODE property specifies how the installer executes system updates.'
-ms.assetid: '7b90d2e6-d661-412b-b054-2c218c95c02a'
+---
+Description: The EXECUTEMODE property specifies how the installer executes system updates.
+ms.assetid: 7b90d2e6-d661-412b-b054-2c218c95c02a
 title: EXECUTEMODE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXECUTEMODE property

@@ -1,8 +1,19 @@
 ---
 title: Modifying the Echo Dialog Resource
 description: Modifying the Echo Dialog Resource
-ms.assetid: '2a371004-82a5-42fb-b19c-ea1928a122a1'
-keywords: ["Windows Media Player plug-ins,Echo sample property pages", "plug-ins,Echo sample property pages", "digital signal processing plug-ins,Echo sample property pages", "DSP plug-ins,Echo sample property pages", "Echo DSP plug-in sample,property pages", "Echo DSP plug-in sample,dialog resource"]
+ms.assetid: 2a371004-82a5-42fb-b19c-ea1928a122a1
+keywords:
+- Windows Media Player plug-ins,Echo sample property pages
+- plug-ins,Echo sample property pages
+- digital signal processing plug-ins,Echo sample property pages
+- DSP plug-ins,Echo sample property pages
+- Echo DSP plug-in sample,property pages
+- Echo DSP plug-in sample,dialog resource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the Echo Dialog Resource

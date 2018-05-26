@@ -1,13 +1,16 @@
 ---
-Description: 'The application must create the properties with a data type that maps to the registry data type.'
+Description: The application must create the properties with a data type that maps to the registry data type.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aa86565c-47eb-40d3-a533-03464cd1c6cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aa86565c-47eb-40d3-a533-03464cd1c6cd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Mapping a Registry Data Type to a WMI Data Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mapping a Registry Data Type to a WMI Data Type
@@ -30,7 +33,7 @@ The following table lists the mapping between registry and WMI data types used i
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +42,9 @@ The following table lists the mapping between registry and WMI data types used i
 [Defining Classes for the System Registry Provider](defining-classes-for-the-system-registry-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

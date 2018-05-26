@@ -4,11 +4,14 @@ description: Starts the Microsoft storage service discovery process.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ba1d32a-6dab-48c7-b833-e4d078512286'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2ba1d32a-6dab-48c7-b833-e4d078512286
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StartDiscovery method", "StartDiscovery method, MSFT_SMStorageDiscovery class", "MSFT_SMStorageDiscovery class, StartDiscovery method"]
+keywords:
+- StartDiscovery method
+- StartDiscovery method, MSFT_SMStorageDiscovery class
+- MSFT_SMStorageDiscovery class, StartDiscovery method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartDiscovery method of the MSFT\_SMStorageDiscovery class
@@ -28,15 +34,15 @@ Starts the Microsoft storage service discovery process.
 
 ```mof
 Uint32 StartDiscovery(
-  [in]            String                host,
-  [in, optional]  String                hostType,
-  [in]            Boolean               forceRediscovery = false,
-  [in]            Uint32                discoveryLevel,
-  [in]            String                interopNamespace,
-  [in]            String                username,
-  [in]            String                password,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                host,
+  [in, optional]  String                hostType,
+  [in]            Boolean               forceRediscovery = false,
+  [in]            Uint32                discoveryLevel,
+  [in]            String                interopNamespace,
+  [in]            String                username,
+  [in]            String                password,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -182,7 +188,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object that contains t
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -196,9 +202,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object that contains t
 [**MSFT\_SMStorageDiscovery**](msft-smstoragediscovery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

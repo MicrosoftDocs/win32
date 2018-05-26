@@ -1,8 +1,14 @@
 ---
 title: CMYKCOLOR structure
 description: TBD.
-ms.assetid: 'af0b0522-b519-4fe8-8dab-3d9f40643902'
-keywords: ["CMYKCOLOR structure Windows Color System"]
+ms.assetid: af0b0522-b519-4fe8-8dab-3d9f40643902
+keywords:
+- CMYKCOLOR structure Windows Color System
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMYKCOLOR structure
@@ -65,9 +71,9 @@ TBD
 
 
 
- 
+ 
 
- 
+ 
 
 
 

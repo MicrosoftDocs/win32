@@ -1,14 +1,20 @@
 ---
 title: Settings (taskType) Element
 description: Specifies the settings that the Task Scheduler uses to perform the task.
-ms.assetid: '72d2929a-0dd2-44cd-be7b-72eca23a5e14'
-keywords: ["Settings element Task Scheduler"]
+ms.assetid: 72d2929a-0dd2-44cd-be7b-72eca23a5e14
+keywords:
+- Settings element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Settings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings (taskType) Element
@@ -65,7 +71,7 @@ The **Settings** element is defined by the [**taskType**](taskschedulerschema-ta
 
 You can select one or more of the child elements referenced above.
 
-For C++ development, the registration information of a task is specified using the [**Settings property of ITaskDefinition**](itaskdefinition-settings.md).
+For C++ development, the registration information of a task is specified using the [**Settings property of ITaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskdefinition-get_settings?branch=master).
 
 For scripting development, the registration information of a task is specified using the [**TaskDefinition.Settings**](taskdefinition-settings.md) property.
 
@@ -93,8 +99,8 @@ For more information and a complete example of the XML for setting task settings
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -108,9 +114,9 @@ For more information and a complete example of the XML for setting task settings
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

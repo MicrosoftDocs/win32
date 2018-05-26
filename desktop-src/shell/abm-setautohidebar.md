@@ -1,6 +1,11 @@
 ---
-Description: 'Registers or unregisters an autohide appbar for a given edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.'
-title: 'ABM\_SETAUTOHIDEBAR message'
+Description: Registers or unregisters an autohide appbar for a given edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
+title: ABM\_SETAUTOHIDEBAR message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABM\_SETAUTOHIDEBAR message
@@ -10,7 +15,7 @@ Registers or unregisters an autohide appbar for a given edge of the screen. If t
 > [!Note]  
 > To register or unregister an autohide appbar on a specific monitor, use [**ABM\_SETAUTOHIDEBAREX**](abm-setautohidebarex.md).
 
- 
+ 
 
 
 ```C++
@@ -26,7 +31,7 @@ fSuccess = (BOOL) SHAppBarMessage(ABM_SETAUTOHIDEBAR, pabd);
 *pabd* 
 </dt> <dd>
 
-A pointer to an [**APPBARDATA**](appbardata.md) structure. Set the **lParam** member to **TRUE** to register the appbar or **FALSE** to unregister it. You must specify the **cbSize**, **hWnd**, **uEdge**, and **lParam** members when sending this message; all other members are ignored.
+A pointer to an [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure. Set the **lParam** member to **TRUE** to register the appbar or **FALSE** to unregister it. You must specify the **cbSize**, **hWnd**, **uEdge**, and **lParam** members when sending this message; all other members are ignored.
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ Returns **TRUE** if successful, or **FALSE** if an error occurs or if an autohid
 
 ## Remarks
 
-The system allows only one autohide appbar for each edge of the screen. This is determined when the member **uEdge** of the [**APPBARDATA**](appbardata.md) structure is set.
+The system allows only one autohide appbar for each edge of the screen. This is determined when the member **uEdge** of the [**APPBARDATA**](/windows/win32/Shellapi/ns-shellapi-_appbardata?branch=master) structure is set.
 
 ## Requirements
 
@@ -44,8 +49,8 @@ The system allows only one autohide appbar for each edge of the screen. This is 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Shellapi.h</dt> </dl> |
 
 
@@ -63,9 +68,9 @@ The system allows only one autohide appbar for each edge of the screen. This is 
 [**ABM\_SETAUTOHIDEBAREX**](abm-setautohidebarex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: VIEW.backgroundImage
 description: The backgroundImage attribute specifies or retrieves the background image of the VIEW or SUBVIEW.
-ms.assetid: '60ffb257-2f43-4ae3-869d-3eb981ef4ae7'
-keywords: ["VIEW.backgroundImage Windows Media Player"]
+ms.assetid: 60ffb257-2f43-4ae3-869d-3eb981ef4ae7
+keywords:
+- VIEW.backgroundImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.backgroundImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.backgroundImage
@@ -52,9 +58,9 @@ In a Windows Media Download package, if you specify the **backgroundImage** attr
 [**VIEW.backgroundImageSaturation**](view-backgroundimagesaturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

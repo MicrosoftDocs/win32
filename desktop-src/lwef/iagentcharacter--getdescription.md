@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter GetDescription
 description: IAgentCharacter GetDescription
-ms.assetid: '729f54ac-1c60-4a7b-b993-5682a6ea2b3c'
+ms.assetid: 729f54ac-1c60-4a7b-b993-5682a6ea2b3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::GetDescription

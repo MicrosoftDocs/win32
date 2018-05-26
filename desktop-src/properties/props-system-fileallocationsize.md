@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ca3290ce-5690-44e1-80fd-0524a13ced5d'
-title: 'System.FileAllocationSize'
+Description: .
+ms.assetid: ca3290ce-5690-44e1-80fd-0524a13ced5d
+title: System.FileAllocationSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileAllocationSize

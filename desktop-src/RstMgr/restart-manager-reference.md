@@ -1,8 +1,14 @@
 ---
 title: Restart Manager Reference
 description: The Restart Manager API contains the following parts.Restart Manager Callback FunctionsRestart Manager EnumerationsRestart Manager FunctionsRestart Manager Structures
-ms.assetid: 'e7d29afc-8180-4d6d-8c99-d4e5fbf85e26'
-keywords: ["Restart Manager Restart Mgr , reference"]
+ms.assetid: e7d29afc-8180-4d6d-8c99-d4e5fbf85e26
+keywords:
+- Restart Manager Restart Mgr , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restart Manager Reference

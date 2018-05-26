@@ -1,19 +1,26 @@
 ---
 title: RECORD\_HEADER structure
 description: The record header used by the CHANGE\_LOG\_ENTRY and CHANGE\_LOG\_HEADER structures.
-ms.assetid: 'f8d2147c-ad13-4be4-94d7-ae0ca26511da'
-keywords: ["RECORD_HEADER structure System Restore", "PRECORD_HEADER structure pointer System Restore"]
+ms.assetid: f8d2147c-ad13-4be4-94d7-ae0ca26511da
+keywords:
+- RECORD_HEADER structure System Restore
+- PRECORD_HEADER structure pointer System Restore
 topic_type:
 - apiref
 api_name:
 - RECORD_HEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RECORD\_HEADER structure
 
-\[This information applies only to Windows XP with Service Pack 2 (SP2).\]
+\[This information applies only to Windows XP with Service Pack 2 (SP2).\]
 
 The record header used by the [**CHANGE\_LOG\_ENTRY**](change-log-entry.md) and [**CHANGE\_LOG\_HEADER**](change-log-header.md) structures.
 
@@ -62,7 +69,7 @@ The record type. This member may be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,15 +93,15 @@ typedef struct _SR_LOG_DEBUG_INFO {
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                            |
-| End of client support<br/>    | Windows XP with SP2<br/>                       |
+| End of client support<br/>    | Windows XP with SP2<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

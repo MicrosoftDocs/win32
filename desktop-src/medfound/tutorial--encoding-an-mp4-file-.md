@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial shows how to use the Transcode API to encode an MP4 file, using H.264 for the video stream and AAC for the audio stream.'
-ms.assetid: '60873aa6-46ec-4a73-94b9-0d8ac602f850'
-title: 'Tutorial: Encoding an MP4 File'
+Description: This tutorial shows how to use the Transcode API to encode an MP4 file, using H.264 for the video stream and AAC for the audio stream.
+ms.assetid: 60873aa6-46ec-4a73-94b9-0d8ac602f850
+title: Tutorial Encoding an MP4 File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial: Encoding an MP4 File
@@ -77,7 +82,7 @@ H264ProfileInfo h264_profiles[] =
 
 
 
-H.264 profiles are specified using the [**eAVEncH264VProfile**](eavench264vprofile.md) enumeration. You could also specify the H.264 level, but the Microsoft Media Foundation [**H.264 Video Encoder**](h-264-video-encoder.md) can derive the proper level for a given video stream, so it is recommended not to override the encoder's selected level. For interlaced content, you would also specify the interlace mode (see [Video Interlacing](video-interlacing.md)).
+H.264 profiles are specified using the [**eAVEncH264VProfile**](/windows/win32/codecapi/ne-codecapi-eavench264vprofile?branch=master) enumeration. You could also specify the H.264 level, but the Microsoft Media Foundation [**H.264 Video Encoder**](h-264-video-encoder.md) can derive the proper level for a given video stream, so it is recommended not to override the encoder's selected level. For interlaced content, you would also specify the interlace mode (see [Video Interlacing](video-interlacing.md)).
 
 For AAC audio, the most important format attributes are the audio sample rate, the number of channels, the number of bits per sample, and the encoded bit rate. Optionally, you can set the AAC audio profile level indication. For more information, see [**AAC Encoder**](aac-encoder.md). The following array contains a list of AAC encoding formats.
 
@@ -167,9 +172,9 @@ int wmain(int argc, wchar_t* argv[])
 The `wmain` function does the following:
 
 1.  Calls the [**CoInitializeEx**](com.coinitializeex) function to initialize the COM library.
-2.  Calls the [**MFStartup**](mfstartup.md) function to initialize Media Foundation.
+2.  Calls the [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) function to initialize Media Foundation.
 3.  Calls the application-defined `EncodeFile` function. This function transcodes the input file to the output file, and is shown in the next section.
-4.  Calls the [**MFShutdown**](mfshutdown.md) function to shut down Media Foundation.
+4.  Calls the [**MFShutdown**](/windows/win32/mfapi/nf-mfapi-mfshutdown?branch=master) function to shut down Media Foundation.
 5.  Call the [**CoUninitialize**](com.couninitialize) function to uninitialize the COM library.
 
 ## Encode the File
@@ -246,10 +251,10 @@ The `EncodeFile` function performs the following steps.
 1.  Creates a media source for the input file, using the URL or file path of the input file. (See [Create the Media Source](#create-the-media-source).)
 2.  Gets the duration of the input file. (See [Get the Source Duration](#get-the-source-duration).)
 3.  Create the transcode profile. (See [Create the Transcode Profile](#create-the-transcode-profile).)
-4.  Call [**MFCreateTranscodeTopology**](mfcreatetranscodetopology.md) to create the partial transcode topology.
+4.  Call [**MFCreateTranscodeTopology**](/windows/win32/mfidl/nf-mfidl-mfcreatetranscodetopology?branch=master) to create the partial transcode topology.
 5.  Create a helper object that manages the Media Session. (See Media Session Helper).
 6.  Run the encoding session and wait for it to complete. (See [Run the Encoding Session](#run-the-encoding-session).)
-7.  Call [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md) to shut down the media source.
+7.  Call [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master) to shut down the media source.
 8.  Release interface pointers. This code uses the [SafeRelease](saferelease.md) function to release interface pointers. Another option is to use a COM smart pointer class, such as **CComPtr**.
 
 ### Create the Media Source
@@ -296,7 +301,7 @@ For more information, see [Using the Source Resolver](using-the-source-resolver.
 
 ### Get the Source Duration
 
-Although not required, it is useful to query the media source for the duration of the input file. This value can be used to track the encoding progress. The duration is stored in the [**MF\_PD\_DURATION**](mf-pd-duration-attribute.md) attribute of the presentation descriptor. Get the presentation descriptor by calling [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md).
+Although not required, it is useful to query the media source for the duration of the input file. This value can be used to track the encoding progress. The duration is stored in the [**MF\_PD\_DURATION**](mf-pd-duration-attribute.md) attribute of the presentation descriptor. Get the presentation descriptor by calling [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master).
 
 
 ```C++
@@ -322,12 +327,12 @@ HRESULT GetSourceDuration(IMFMediaSource *pSource, MFTIME *pDuration)
 
 The transcode profile describes the encoding parameters. For more information about creating a transcode profile, see [Using the Transcode API](fast-transcode-objects.md). To create the profile, perform the following steps.
 
-1.  Call [**MFCreateTranscodeProfile**](mfcreatetranscodeprofile.md) to create the empty profile.
-2.  Create a media type for the AAC audio stream. Add it to the profile by calling [**IMFTranscodeProfile::SetAudioAttributes**](imftranscodeprofile-setaudioattributes.md).
-3.  Create a media type for the H.264 video stream. Add it to the profile by calling [**IMFTranscodeProfile::SetVideoAttributes**](imftranscodeprofile-setvideoattributes.md).
-4.  Call [**MFCreateAttributes**](mfcreateattributes.md) to create an attribute store for the container-level attributes.
+1.  Call [**MFCreateTranscodeProfile**](/windows/win32/mfidl/nf-mfidl-mfcreatetranscodeprofile?branch=master) to create the empty profile.
+2.  Create a media type for the AAC audio stream. Add it to the profile by calling [**IMFTranscodeProfile::SetAudioAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes?branch=master).
+3.  Create a media type for the H.264 video stream. Add it to the profile by calling [**IMFTranscodeProfile::SetVideoAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes?branch=master).
+4.  Call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create an attribute store for the container-level attributes.
 5.  Set the [MF\_TRANSCODE\_CONTAINERTYPE](mf-transcode-containertype.md) attribute. This is the only required container-level attribute. For MP4 file output, set this attribute to **MFTranscodeContainerType\_MPEG4**.
-6.  Call [**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md) to set the container-level attributes.
+6.  Call [**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master) to set the container-level attributes.
 
 The following code shows these steps.
 
@@ -552,7 +557,7 @@ HRESULT CreateAACProfile(DWORD index, IMFAttributes **ppAttributes)
 
 
 
-Note that the transcode API does not require a true media type, although it uses media-type attributes. In particular, the [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) attribute it not required, because the [**SetVideoAttributes**](imftranscodeprofile-setvideoattributes.md) and [**SetAudioAttributes**](imftranscodeprofile-setaudioattributes.md) methods imply the major type. However, it also valid to pass an actual media type to these methods. (The [**IMFMediaType**](imfmediatype.md) interface inherits [**IMFAttributes**](imfattributes.md).)
+Note that the transcode API does not require a true media type, although it uses media-type attributes. In particular, the [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) attribute it not required, because the [**SetVideoAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes?branch=master) and [**SetAudioAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes?branch=master) methods imply the major type. However, it also valid to pass an actual media type to these methods. (The [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface inherits [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master).)
 
 ### Run the Encoding Session
 
@@ -603,7 +608,7 @@ The [Media Session](media-session.md) is described more fully in the [Media Foun
 | Event                                  | Desription                                                                                                                                                       |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [MESessionEnded](mesessionended.md)   | Raised when the encoding is complete.                                                                                                                            |
-| [MESessionClosed](mesessionclosed.md) | Raised when the [**IMFMediaSession::Close**](imfmediasession-close.md) method completes. After this event is raised, it is safe to shut down the Media Session. |
+| [MESessionClosed](mesessionclosed.md) | Raised when the [**IMFMediaSession::Close**](/windows/win32/mfidl/nf-mfidl-imfmediasession-close?branch=master) method completes. After this event is raised, it is safe to shut down the Media Session. |
 
 
 
@@ -611,9 +616,9 @@ The [Media Session](media-session.md) is described more fully in the [Media Foun
 
 For a console application, it is reasonable to block and wait for events. Depending on the source file and the encoding settings, it might take awhile to complete the encoding. You can get progress updates as follows:
 
-1.  Call [**IMFMediaSession::GetClock**](imfmediasession-getclock.md) to get the presentation clock.
-2.  Query the clock for the [**IMFPresentationClock**](imfpresentationclock.md) interface.
-3.  Call [**IMFPresentationClock::GetTime**](imfpresentationclock-gettime.md) to get the current position.
+1.  Call [**IMFMediaSession::GetClock**](/windows/win32/mfidl/nf-mfidl-imfmediasession-getclock?branch=master) to get the presentation clock.
+2.  Query the clock for the [**IMFPresentationClock**](/windows/win32/mfidl/nn-mfidl-imfpresentationclock?branch=master) interface.
+3.  Call [**IMFPresentationClock::GetTime**](/windows/win32/mfidl/nf-mfidl-imfpresentationclock-gettime?branch=master) to get the current position.
 4.  The position is given in units of time. To get the percentage completed, use the value `(100 * position) / duration`.
 
 Here is the declaration of the `CSession` class.

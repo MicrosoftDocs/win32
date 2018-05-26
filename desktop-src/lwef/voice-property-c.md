@@ -1,7 +1,12 @@
 ---
 title: Voice Property
 description: Voice Property
-ms.assetid: 'e393aa89-6fa7-4080-9faf-66faca83d561'
+ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Voice Property

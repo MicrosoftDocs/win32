@@ -1,8 +1,26 @@
 ---
 title: Sorting Playlists by Synchronization Priority
 description: Sorting Playlists by Synchronization Priority
-ms.assetid: '0f7f1ed3-0639-47bf-bf8e-52ae0a1d7ab2'
-keywords: ["Windows Media Player,synchronization playlists", "Windows Media Player object model,synchronization playlists", "object model,synchronization playlists", "Windows Media Player Mobile,synchronization playlists", "Windows Media Player ActiveX control,synchronization playlists", "Windows Media Player Mobile ActiveX control,synchronization playlists", "ActiveX control,synchronization playlists", "playlists,synchronization", "metafile playlists,synchronization", "Windows Media metafile playlists,synchronization", "portable devices,sorting synchronization playlists", "synchronization playlists,sorting", "synchronization playlists,priorities"]
+ms.assetid: 0f7f1ed3-0639-47bf-bf8e-52ae0a1d7ab2
+keywords:
+- Windows Media Player,synchronization playlists
+- Windows Media Player object model,synchronization playlists
+- object model,synchronization playlists
+- Windows Media Player Mobile,synchronization playlists
+- Windows Media Player ActiveX control,synchronization playlists
+- Windows Media Player Mobile ActiveX control,synchronization playlists
+- ActiveX control,synchronization playlists
+- playlists,synchronization
+- metafile playlists,synchronization
+- Windows Media metafile playlists,synchronization
+- portable devices,sorting synchronization playlists
+- synchronization playlists,sorting
+- synchronization playlists,priorities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sorting Playlists by Synchronization Priority
@@ -107,13 +125,13 @@ STDMETHODIMP CSyncSettings::SortPlaylist(IWMPPlaylist *pPlaylist, BSTR bstrSyncA
 
 <dl> <dt>
 
-[**IWMPMedia::getItemInfo**](iwmpmedia-getiteminfo.md)
+[**IWMPMedia::getItemInfo**](/windows/win32/wmp/nf-wmp-iwmpmedia-getiteminfo?branch=master)
 </dt> <dt>
 
-[**IWMPPlaylist::get\_item**](iwmpplaylist-get-item.md)
+[**IWMPPlaylist::get\_item**](/windows/win32/wmp/nf-wmp-iwmpplaylist-get_item?branch=master)
 </dt> <dt>
 
-[**IWMPPlaylist::moveItem**](iwmpplaylist-moveitem.md)
+[**IWMPPlaylist::moveItem**](/windows/win32/wmp/nf-wmp-iwmpplaylist-moveitem?branch=master)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

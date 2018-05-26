@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_NamedJobObjectStatistics association WMI class relates a job object and the job object I/O accounting information class.'
+Description: The Win32\_NamedJobObjectStatistics association WMI class relates a job object and the job object I/O accounting information class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '77ee3129-7e4c-4097-af21-683198eaa12d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 77ee3129-7e4c-4097-af21-683198eaa12d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NamedJobObjectStatistics class'
+title: Win32\_NamedJobObjectStatistics class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NamedJobObjectStatistics class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("CIMWin32a"), Dynamic, UUID("{C741E1B8-2F7F-4f2b-9A0C-57FCFD89F5C8}"), AMENDMENT]
 class Win32_NamedJobObjectStatistics : Win32_CollectionStatistics
 {
-  Win32_NamedJobObject         REF Collection;
+  Win32_NamedJobObject         REF Collection;
   Win32_NamedJobObjectActgInfo REF Stats;
 };
 ```
@@ -81,8 +84,8 @@ The **Win32\_NamedJobObjectStatistics** class is derived from [**Win32\_Collecti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -99,9 +102,9 @@ The **Win32\_NamedJobObjectStatistics** class is derived from [**Win32\_Collecti
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

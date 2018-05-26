@@ -1,7 +1,12 @@
 ---
 title: Bluetooth drivers
 description: Bluetooth drivers
-ms.assetid: '3540B4B7-3CA9-46CB-B1A2-D27AAFA5E089'
+ms.assetid: 3540B4B7-3CA9-46CB-B1A2-D27AAFA5E089
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth drivers

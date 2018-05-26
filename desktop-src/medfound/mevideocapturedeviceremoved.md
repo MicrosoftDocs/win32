@@ -1,16 +1,21 @@
-﻿---
-Description: 'Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been removed.'
-ms.assetid: '107AFF19-B444-4B62-9217-46A99AC3632C'
+---
+Description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been removed.
+ms.assetid: 107AFF19-B444-4B62-9217-46A99AC3632C
 title: MEVideoCaptureDeviceRemoved event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEVideoCaptureDeviceRemoved event
 
-Sent by the [**IMFMediaSource**](imfmediasource.md) that encapsulates the device to indicate that the device has been removed.
+Sent by the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) that encapsulates the device to indicate that the device has been removed.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -22,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 ## Remarks
 
-This event is sent by the [**IMFMediaSource**](imfmediasource.md) that encapsulates the device.
+This event is sent by the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) that encapsulates the device.
 
 ## Requirements
 

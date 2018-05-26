@@ -1,14 +1,20 @@
 ---
 title: ShellExecute element
 description: AXE supports the ShellExecute method. Here we would use the shell (explorer.exe) to launch a process. The parameters are an operation (verb), file to operate on, command line parameters, and a directory.
-ms.assetid: '0D98F410-C826-49AE-9FD3-D8A6C6A64829'
-keywords: ["ShellExecute element Access Execution Engine"]
+ms.assetid: 0D98F410-C826-49AE-9FD3-D8A6C6A64829
+keywords:
+- ShellExecute element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ShellExecute
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellExecute element
@@ -59,7 +65,7 @@ There are no attributes.
 
 ## Remarks
 
-This node’s presence is exclusive from &lt;CreateProcess&gt; and &lt;PowerShell&gt;.
+This node s presence is exclusive from &lt;CreateProcess&gt; and &lt;PowerShell&gt;.
 
 This tag specifies that AXE uses the Win32 API ShellExecuteEx() to run the assessment. This node requires the following sub nodes. Note that AXE only calls the UNICODE (wide) version of this API.
 
@@ -82,9 +88,9 @@ Here, AXE determines the command line as documented in the AXE Assessment Assemb
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

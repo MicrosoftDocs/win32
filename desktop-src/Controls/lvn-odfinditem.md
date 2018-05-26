@@ -1,8 +1,9 @@
 ---
 title: LVN\_ODFINDITEM message
 description: Sent by a virtual list-view control when it needs the owner to find a particular callback item.
-ms.assetid: '5a3f9fed-0c57-46bf-b986-ea8b54290b5e'
-keywords: ["LVN_ODFINDITEM message Windows Controls"]
+ms.assetid: 5a3f9fed-0c57-46bf-b986-ea8b54290b5e
+keywords:
+- LVN_ODFINDITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_ODFINDITEM message
@@ -35,7 +41,7 @@ LVN_ODFINDITEM
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVFINDITEM**](nmlvfinditem.md) structure that includes information to be used for the search.
+Pointer to an [**NMLVFINDITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmlvfinditema?branch=master) structure that includes information to be used for the search.
 
 </dd> </dl>
 
@@ -45,7 +51,7 @@ Return the index of the item found, or -1 if no item is found.
 
 ## Remarks
 
-Search information is sent in the form of an [**LVFINDINFO**](lvfindinfo.md) structure, which is a member of the [**NMLVFINDITEM**](nmlvfinditem.md) structure.
+Search information is sent in the form of an [**LVFINDINFO**](/windows/win32/Commctrl/ns-commctrl-taglvfindinfoa?branch=master) structure, which is a member of the [**NMLVFINDITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmlvfinditema?branch=master) structure.
 
 ## Requirements
 
@@ -53,16 +59,16 @@ Search information is sent in the form of an [**LVFINDINFO**](lvfindinfo.md) str
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVN\_ODFINDITEMW** (Unicode) and **LVN\_ODFINDITEMA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the display mode.'
-ms.assetid: 'e83c03ee-2067-45c9-8fd8-8c4db5558df4'
+---
+Description: Describes the display mode.
+ms.assetid: e83c03ee-2067-45c9-8fd8-8c4db5558df4
 title: D3DDISPLAYMODE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDISPLAYMODE structure
@@ -87,13 +92,13 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**EnumAdapterModes**](idirect3d9--enumadaptermodes.md)
+[**EnumAdapterModes**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-enumadaptermodes?branch=master)
 </dt> <dt>
 
-[**GetAdapterDisplayMode**](idirect3d9--getadapterdisplaymode.md)
+[**GetAdapterDisplayMode**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-getadapterdisplaymode?branch=master)
 </dt> <dt>
 
-[**GetDisplayMode**](idirect3ddevice9--getdisplaymode.md)
+[**GetDisplayMode**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdisplaymode?branch=master)
 </dt> </dl>
 
  

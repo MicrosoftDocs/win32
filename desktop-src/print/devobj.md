@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DEVOBJ structure is used as an input argument to several of a rendering plug-in''s COM interface methods.'
-ms.assetid: 'cdcd0437-e4fc-4041-827f-caa3c435325c'
+---
+Description: The DEVOBJ structure is used as an input argument to several of a rendering plug-ins COM interface methods.
+ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 title: DEVOBJ structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVOBJ structure

@@ -4,11 +4,14 @@ description: Gets the policy descriptor.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.PolicyDescriptor'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.PolicyDescriptor
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor property", "PolicyDescriptor property, UserPolicy class", "UserPolicy class, PolicyDescriptor property"]
+keywords:
+- PolicyDescriptor property
+- PolicyDescriptor property, UserPolicy class
+- UserPolicy class, PolicyDescriptor property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.PolicyDescriptor property
@@ -27,7 +33,7 @@ Gets the policy descriptor.
 > [!Note]  
 > This property will be null for template based policies.
 
- 
+ 
 
 ## Syntax
 
@@ -50,7 +56,7 @@ The policy descriptor.
 > [!Note]  
 > ApiNamespace()::PolicyDescriptor
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +79,9 @@ The policy descriptor.
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

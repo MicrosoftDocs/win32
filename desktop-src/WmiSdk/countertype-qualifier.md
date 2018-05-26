@@ -1,13 +1,16 @@
 ---
-Description: 'The CounterType qualifier contains the integer value for the property counter type for properties in Win32\_PerfRawData classes. The CookingType contains the constants for property formula types in Win32\_PerfFormattedData classes.'
+Description: The CounterType qualifier contains the integer value for the property counter type for properties in Win32\_PerfRawData classes. The CookingType contains the constants for property formula types in Win32\_PerfFormattedData classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aa79fcdb-503f-4928-b2b7-f07baeaf9fb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aa79fcdb-503f-4928-b2b7-f07baeaf9fb5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CounterType Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CounterType Qualifier
@@ -63,7 +66,7 @@ For more information and a breakdown of counter types by function, see [Counter 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,8 +74,8 @@ For more information and a breakdown of counter types by function, see [Counter 
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -83,9 +86,9 @@ For more information and a breakdown of counter types by function, see [Counter 
 [Qualifiers Specific to WMI Performance Classes](qualifiers-specific-to-wmi-performance-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

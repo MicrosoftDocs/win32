@@ -1,8 +1,9 @@
 ---
 title: TCM\_SETCURSEL message
 description: Selects a tab in a tab control. You can send this message explicitly or by using the TabCtrl\_SetCurSel macro.
-ms.assetid: 'cf709d8c-c522-47c8-8ff3-463dc8e924b5'
-keywords: ["TCM_SETCURSEL message Windows Controls"]
+ms.assetid: cf709d8c-c522-47c8-8ff3-463dc8e924b5
+keywords:
+- TCM_SETCURSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_SETCURSEL message
 
-Selects a tab in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetCurSel**](tabctrl-setcursel.md) macro.
+Selects a tab in a tab control. You can send this message explicitly or by using the [**TabCtrl\_SetCurSel**](/windows/win32/Commctrl/nf-commctrl-tabctrl_setcursel?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ A tab control does not send a [TCN\_SELCHANGING](tcn-selchanging.md) or [TCN\_SE
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

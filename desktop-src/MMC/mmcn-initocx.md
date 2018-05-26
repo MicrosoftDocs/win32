@@ -4,11 +4,12 @@ description: The MMCN\_INITOCX notification message is sent to snap-ins having a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '79256d4a-a936-419e-a953-80d743d05290'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 79256d4a-a936-419e-a953-80d743d05290
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_INITOCX message MMC"]
+keywords:
+- MMCN_INITOCX message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_INITOCX message
@@ -80,8 +84,8 @@ If a snap-in implements [**IComponent2**](icomponent2.md) and uses an OCX for th
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -93,9 +97,9 @@ If a snap-in implements [**IComponent2**](icomponent2.md) and uses an OCX for th
 [**IConsole::QueryResultView**](iconsole2-queryresultview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

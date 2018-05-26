@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '8a4ebbe7-ba5b-487f-add4-20c5509ce0db'
-title: 'System.Contact.BusinessAddress2Street'
+Description: .
+ms.assetid: 8a4ebbe7-ba5b-487f-add4-20c5509ce0db
+title: System.Contact.BusinessAddress2Street
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddress2Street

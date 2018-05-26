@@ -4,13 +4,15 @@ description: DhcpServerInDC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69c654eb-e5e4-404c-8edc-6b78fe9621e1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 69c654eb-e5e4-404c-8edc-6b78fe9621e1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DhcpServerInDC class", "PS_DhcpServerInDC class, described"]
+keywords:
+- PS_DhcpServerInDC class
+- PS_DhcpServerInDC class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DhcpServerInDC class
@@ -56,7 +61,7 @@ The **PS\_DhcpServerInDC** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,16 +70,16 @@ The **PS\_DhcpServerInDC** class has these methods.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

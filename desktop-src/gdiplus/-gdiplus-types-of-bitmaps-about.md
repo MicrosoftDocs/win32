@@ -1,7 +1,12 @@
 ---
-Description: 'A bitmap is an array of bits that specifies the color of each pixel in a rectangular array of pixels.'
-ms.assetid: 'fac60d01-d07e-41e9-98a3-34c592d97a92'
+Description: A bitmap is an array of bits that specifies the color of each pixel in a rectangular array of pixels.
+ms.assetid: fac60d01-d07e-41e9-98a3-34c592d97a92
 title: Types of Bitmaps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Bitmaps

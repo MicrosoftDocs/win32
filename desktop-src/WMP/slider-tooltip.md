@@ -1,14 +1,20 @@
 ---
 title: SLIDER.toolTip
 description: The toolTip attribute specifies or retrieves the ToolTip text for the slider control.
-ms.assetid: 'ac82b811-8396-4a02-b617-627e808b8faf'
-keywords: ["SLIDER.toolTip Windows Media Player"]
+ms.assetid: ac82b811-8396-4a02-b617-627e808b8faf
+keywords:
+- SLIDER.toolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.toolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.toolTip
@@ -44,9 +50,9 @@ When this attribute is set to "" (empty string), no ToolTip is displayed.
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

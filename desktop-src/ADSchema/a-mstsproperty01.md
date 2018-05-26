@@ -4,17 +4,22 @@ description: Reserved for future use.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '273d720c-5cce-4c26-a765-5a669e0e3237'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 273d720c-5cce-4c26-a765-5a669e0e3237
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-Property01 attribute AD Schema", "msTSProperty01 attribute AD Schema"]
+keywords:
+- MS-TS-Property01 attribute AD Schema
+- msTSProperty01 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-Property01
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-Property01 attribute
@@ -38,9 +43,9 @@ Reserved for future use.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Reserved for future use.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

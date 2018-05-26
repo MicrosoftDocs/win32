@@ -1,8 +1,10 @@
 ---
 title: BG\_JOB\_STATE enumeration
 description: The BG\_JOB\_STATE enumeration defines constant values for the different states of a job.
-ms.assetid: 'DB4806BD-08BC-4F0B-A7F4-BA0719112811'
-keywords: ["BG_JOB_STATE enumeration", "BG_JOB_STATE enumeration"]
+ms.assetid: DB4806BD-08BC-4F0B-A7F4-BA0719112811
+keywords:
+- BG_JOB_STATE enumeration
+- BG_JOB_STATE enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_JOB\_STATE enumeration
@@ -109,7 +116,7 @@ Specifies that you called the [**IBackgroundCopyJob::Cancel**](ibackgroundcopyjo
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -122,9 +129,9 @@ Specifies that you called the [**IBackgroundCopyJob::Cancel**](ibackgroundcopyjo
 [**IBackgroundCopyJob::GetState**](ibackgroundcopyjob-getstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

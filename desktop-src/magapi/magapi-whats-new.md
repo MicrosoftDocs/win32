@@ -1,12 +1,17 @@
 ---
-title: What's New
-description: This topic summarizes the changes that were made to the Magnification API for Windows 8.
-ms.assetid: '62ADB373-1B5A-4B68-A376-DB5CE8813EBE'
+title: Whats New
+description: This topic summarizes the changes that were made to the Magnification API for Windows 8.
+ms.assetid: 62ADB373-1B5A-4B68-A376-DB5CE8813EBE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New
 
-This topic summarizes the changes that were made to the Magnification API for Windows 8. The following sections describe the changes:
+This topic summarizes the changes that were made to the Magnification API for Windows 8. The following sections describe the changes:
 
 -   [Full-Screen Magnifiers](#full-screen-magnifiers)
 -   [Input Transformations](#input-transformations)
@@ -22,14 +27,14 @@ The following functions were added to support a full-screen magnifier, and to ap
 
 | Topic                                                                                | Description                                                                                     |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**MagGetFullscreenColorEffect**](magapi-maggetfullscreencoloreffect.md)<br/> | Retrieves the color transformation matrix associated with the full-screen magnifier.<br/> |
-| [**MagGetFullscreenTransform**](magapi-maggetfullscreentransform.md)<br/>     | Retrieves the magnification settings for the full-screen magnifier.<br/>                  |
-| [**MagSetFullscreenColorEffect**](magapi-magsetfullscreencoloreffect.md)<br/> | Changes the color transformation matrix associated with the full-screen magnifier.<br/>   |
-| [**MagSetFullscreenTransform**](magapi-magsetfullscreentransform.md)<br/>     | Changes the magnification settings for the full-screen magnifier.<br/>                    |
+| [**MagGetFullscreenColorEffect**](/windows/previous-versions/Magnification/nf-magnification-maggetfullscreencoloreffect?branch=master)<br/> | Retrieves the color transformation matrix associated with the full-screen magnifier.<br/> |
+| [**MagGetFullscreenTransform**](/windows/previous-versions/Magnification/nf-magnification-maggetfullscreentransform?branch=master)<br/>     | Retrieves the magnification settings for the full-screen magnifier.<br/>                  |
+| [**MagSetFullscreenColorEffect**](/windows/previous-versions/Magnification/nf-magnification-magsetfullscreencoloreffect?branch=master)<br/> | Changes the color transformation matrix associated with the full-screen magnifier.<br/>   |
+| [**MagSetFullscreenTransform**](/windows/previous-versions/Magnification/nf-magnification-magsetfullscreentransform?branch=master)<br/>     | Changes the magnification settings for the full-screen magnifier.<br/>                    |
 
 
 
- 
+ 
 
 ## Input Transformations
 
@@ -39,12 +44,12 @@ An input transformation maps the coordinate space of the magnified screen conten
 
 | Topic                                                                  | Description                                            |
 |------------------------------------------------------------------------|--------------------------------------------------------|
-| [**MagGetInputTransform**](magapi-maggetinputtransform.md)<br/> | Retrieves the current input transformation.<br/> |
-| [**MagSetInputTransform**](magapi-magsetinputtransform.md)<br/> | Sets the input transformation.<br/>              |
+| [**MagGetInputTransform**](/windows/previous-versions/Magnification/nf-magnification-maggetinputtransform?branch=master)<br/> | Retrieves the current input transformation.<br/> |
+| [**MagSetInputTransform**](/windows/previous-versions/Magnification/nf-magnification-magsetinputtransform?branch=master)<br/> | Sets the input transformation.<br/>              |
 
 
 
- 
+ 
 
 ## Visibility of the System Cursor
 
@@ -54,11 +59,11 @@ The following function was added to enable showing or hiding the system cursor.
 
 | Topic                                                                | Description                                  |
 |----------------------------------------------------------------------|----------------------------------------------|
-| [**MagShowSystemCursor**](magapi-magshowsystemcursor.md)<br/> | Shows or hides the system cursor.<br/> |
+| [**MagShowSystemCursor**](/windows/previous-versions/Magnification/nf-magnification-magshowsystemcursor?branch=master)<br/> | Shows or hides the system cursor.<br/> |
 
 
 
- 
+ 
 
 ## Updated Magnifier Sample Application
 
@@ -71,9 +76,9 @@ The magnifier sample application was updated to demonstrate the full-screen and 
 [Magnification API](entry-magapi-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

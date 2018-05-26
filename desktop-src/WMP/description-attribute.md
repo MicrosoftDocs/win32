@@ -1,14 +1,20 @@
 ---
 title: Description Attribute
 description: The Description attribute is a description of the content.
-ms.assetid: '8bf76bf5-2bba-4ceb-bc98-f8b8ab2c8b6f'
-keywords: ["Description Attribute Windows Media Player"]
+ms.assetid: 8bf76bf5-2bba-4ceb-bc98-f8b8ab2c8b6f
+keywords:
+- Description Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Description
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description Attribute
@@ -46,9 +52,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

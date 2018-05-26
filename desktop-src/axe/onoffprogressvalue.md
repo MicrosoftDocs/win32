@@ -1,8 +1,9 @@
 ---
 title: OnOffProgressValue enumeration
 description: The types of power transitions Axe can track. It also specifies the type of tracing the OnOffHelper API provides.
-ms.assetid: '2E0ACB05-9F10-4A16-B244-9766764D4F6A'
-keywords: ["OnOffProgressValue enumeration Access Execution Engine"]
+ms.assetid: 2E0ACB05-9F10-4A16-B244-9766764D4F6A
+keywords:
+- OnOffProgressValue enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnOffProgressValue enumeration
@@ -22,8 +28,8 @@ The types of power transitions Axe can track. It also specifies the type of trac
 
 ```C++
 enum OnOffProgressValue {
-  None                = 0, 
-  NotifyOnly          = 0, 
+  None                = 0, 
+  NotifyOnly          = 0, 
   CancelNotification, 
   HybridBoot, 
   Boot, 
@@ -124,8 +130,8 @@ Managed code uses the [**OnOffProgressValue**](axe-onoffprogressvalue_om) enum.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl> |
 
 
@@ -137,9 +143,9 @@ Managed code uses the [**OnOffProgressValue**](axe-onoffprogressvalue_om) enum.
 [**ProgressType**](progresstype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

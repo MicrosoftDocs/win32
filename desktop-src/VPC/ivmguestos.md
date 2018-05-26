@@ -1,8 +1,10 @@
 ---
 title: IVMGuestOS interface
 description: Defines the guest operating system running inside a virtual machine.
-ms.assetid: 'fb31f294-94ad-4545-8d59-849a5f2fe780'
-keywords: ["IVMGuestOS interface Virtual PC", "IVMGuestOS interface Virtual PC , described"]
+ms.assetid: fb31f294-94ad-4545-8d59-849a5f2fe780
+keywords:
+- IVMGuestOS interface Virtual PC
+- IVMGuestOS interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the guest operating system running inside a virtual machine. This interface allows you to interact with the integration components running inside the guest operating system. The **IVMGuestOS** for a virtual machine can be retrieved using the [**IVMVirtualMachine::GuestOS**](ivmvirtualmachine-guestos.md) property.
 
@@ -45,7 +52,7 @@ The **IVMGuestOS** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ The **IVMGuestOS** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,18 +94,18 @@ The **IVMGuestOS** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

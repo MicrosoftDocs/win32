@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens an existing symbolic link.'
-ms.assetid: '37684707-4f65-4904-8bfc-d0679ebbd924'
+---
+Description: Opens an existing symbolic link.
+ms.assetid: 37684707-4f65-4904-8bfc-d0679ebbd924
 title: NtOpenSymbolicLinkObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtOpenSymbolicLinkObject function

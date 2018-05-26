@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides guidelines for installing or reinstalling a multiple instance installation that uses instance transforms.'
-ms.assetid: 'cf9076b1-5674-4ba8-9890-e981221d7b03'
+Description: This topic provides guidelines for installing or reinstalling a multiple instance installation that uses instance transforms.
+ms.assetid: cf9076b1-5674-4ba8-9890-e981221d7b03
 title: Installing Multiple Instances with Instance Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Multiple Instances with Instance Transforms
@@ -16,7 +21,7 @@ The following example shows installing a new instance from a command line where 
 
 **msiexec /I mypackage.msi TRANSFORMS=:instance.mst MSINEWINSTANCE=1 /qb**
 
-The following example shows installing a new instance using [**MsiInstallProduct**](msiinstallproduct.md).
+The following example shows installing a new instance using [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master).
 
 ``` syntax
 UINT uiStat = MsiInstallProduct(_T("path to mypackage.msi"), _T("TRANSFORMS=:instance.mst MSINEWINSTANCE=1"));
@@ -66,7 +71,7 @@ The following example shows how to apply a patch to an instance from a command l
 
 **msiexec /p mypatch.msp /n {00000001-0002-0000-0000-624474736554} /qb**
 
-The following example shows how to apply a patch to an instance installation using [**MsiApplyPatch**](msiapplypatch.md).
+The following example shows how to apply a patch to an instance installation using [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master).
 
 ``` syntax
 UINT uiStat = MsiApplyPatch(_T("path to mypatch.msp"), _T("{00000001-0002-0000-0000-624474736554}"), INSTALLTYPE_SINGLE_INSTANCE, _T("REINSTALL=ALL REINSTALLMODE=omus"));

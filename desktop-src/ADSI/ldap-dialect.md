@@ -4,11 +4,16 @@ description: The LDAP dialect is a format for query statements that use the LDAP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '29aca7e6-3ed5-4efd-8b03-6a2ee0571f1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 29aca7e6-3ed5-4efd-8b03-6a2ee0571f1f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["LDAP Dialect ADSI", "dialects ADSI , LDAP dialect"]
+keywords:
+- LDAP Dialect ADSI
+- dialects ADSI , LDAP dialect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP Dialect
@@ -17,7 +22,7 @@ The LDAP dialect is a format for query statements that use the [LDAP search filt
 
 -   The [ActiveX Data Object (ADO)](searching-with-activex-data-objects-ado.md) interfaces, which are Automation interfaces that use OLE DB.
 -   [OLE DB](searching-with-ole-db.md), which is a set of C/C++ interfaces for querying databases.
--   [**IDirectorySearch**](idirectorysearch.md), which is the C/C++ interface for Active Directory.
+-   [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master), which is the C/C++ interface for Active Directory.
 
 An LDAP dialect string consists of four parts separated by semicolons (;).
 

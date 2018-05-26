@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes the specified item from the protected storage.'
-ms.assetid: '1d071245-a563-4fba-9300-c47ca9a9d625'
-title: 'IPStore::DeleteItem method'
+---
+Description: Deletes the specified item from the protected storage.
+ms.assetid: 1d071245-a563-4fba-9300-c47ca9a9d625
+title: IPStoreDeleteItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::DeleteItem method

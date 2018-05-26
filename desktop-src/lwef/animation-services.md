@@ -1,7 +1,12 @@
 ---
 title: Animation Services
 description: Animation Services
-ms.assetid: 'd28bd71e-93ae-406e-b5a6-0806c00ec2d9'
+ms.assetid: d28bd71e-93ae-406e-b5a6-0806c00ec2d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animation Services

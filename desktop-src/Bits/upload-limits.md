@@ -1,7 +1,12 @@
 ---
 title: Upload Limits
 description: To limit the size of uploads, set the BITSMaximumUploadSize IIS extension property.
-ms.assetid: '01ad2f32-18be-43a5-a07f-e6f28f7a471b'
+ms.assetid: 01ad2f32-18be-43a5-a07f-e6f28f7a471b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Upload Limits

@@ -1,8 +1,11 @@
 ---
 title: IWMPErrorItem errorCode property
 description: The errorCode property gets the current error code.
-ms.assetid: '00719067-685d-4ef2-9eec-72c7892fcdb9'
-keywords: ["errorCode property Windows Media Player", "errorCode property Windows Media Player , IWMPErrorItem interface", "IWMPErrorItem interface Windows Media Player , errorCode property"]
+ms.assetid: 00719067-685d-4ef2-9eec-72c7892fcdb9
+keywords:
+- errorCode property Windows Media Player
+- errorCode property Windows Media Player , IWMPErrorItem interface
+- IWMPErrorItem interface Windows Media Player , errorCode property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem::errorCode property
@@ -118,9 +126,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.enableErrorDialogs (VB and C#)**](wmplibiwmpsettings-iwmpsettings-enableerrordialogs--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

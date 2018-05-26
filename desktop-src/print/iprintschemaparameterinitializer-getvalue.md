@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Value (get\_Value) property gets the current value of the IPrintSchemaParameterInitializer object.'
-ms.assetid: 'CDBAB58C-F051-4047-A538-5504F0E28EC7'
-title: 'IPrintSchemaParameterInitializer::Value property'
+---
+Description: The Value (get\_Value) property gets the current value of the IPrintSchemaParameterInitializer object.
+ms.assetid: CDBAB58C-F051-4047-A538-5504F0E28EC7
+title: IPrintSchemaParameterInitializerValue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterInitializer::Value property

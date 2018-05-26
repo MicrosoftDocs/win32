@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BINARY\_CONTAINER structure is a container for binary data.'
-ms.assetid: 'bac960c5-7c29-4550-9b82-5adb6a0cc243'
-title: 'BINARY\_CONTAINER structure'
+---
+Description: The BINARY\_CONTAINER structure is a container for binary data.
+ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
+title: BINARY\_CONTAINER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BINARY\_CONTAINER structure

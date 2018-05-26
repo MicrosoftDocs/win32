@@ -2,13 +2,19 @@
 title: optional attribute
 description: The \ optional\ attribute specifies an optional parameter for a member function.
 ms.assetid: 683e5c9e-5b25-4beb-99ce-cfae4fee4ea6
-keywords: ["optional attribute MIDL"]
+keywords:
+- optional attribute MIDL
 topic_type:
 - apiref
 api_name:
 - optional
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # optional attribute

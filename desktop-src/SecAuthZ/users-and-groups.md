@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the definition of users and groups in the Authorization Manager API.'
-ms.assetid: '783be0b2-7894-4780-900d-98918f824a04'
+Description: Explains the definition of users and groups in the Authorization Manager API.
+ms.assetid: 783be0b2-7894-4780-900d-98918f824a04
 title: Users and Groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Users and Groups
@@ -48,7 +53,7 @@ The following query finds all members of the someone alias at www.fabrikam.com.
 
 ## Basic Application Groups
 
-In the Authorization Manager API, an application group is represented by an [**IAzApplicationGroup**](iazapplicationgroup.md) object. A basic application group is a type of application group.
+In the Authorization Manager API, an application group is represented by an [**IAzApplicationGroup**](/windows/win32/Azroles/nn-azroles-iazapplicationgroup?branch=master) object. A basic application group is a type of application group.
 
 To define basic application group membership, define who is a member and define who is not a member. Both of these steps are carried out in the same way. Specify zero or more Windows users and groups, previously defined basic application groups, or LDAP query groups. The membership of the basic application group is calculated by removing any nonmembers from the group. Authorization Manager does this automatically at run time.
 

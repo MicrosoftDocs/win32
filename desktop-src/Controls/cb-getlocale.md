@@ -1,8 +1,9 @@
 ---
 title: CB\_GETLOCALE message
 description: Gets the current locale of the combo box. The locale is used to determine the correct sorting order of displayed text for combo boxes with the CBS\_SORT style and text added by using the CB\_ADDSTRING message.
-ms.assetid: '57c77ce2-bad0-43f3-8325-f2a7227994ec'
-keywords: ["CB_GETLOCALE message Windows Controls"]
+ms.assetid: 57c77ce2-bad0-43f3-8325-f2a7227994ec
+keywords:
+- CB_GETLOCALE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETLOCALE message
@@ -49,8 +55,8 @@ The language identifier is made up of a sublanguage identifier and a primary lan
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ The language identifier is made up of a sublanguage identifier and a primary lan
 [**SUBLANGID**](https://msdn.microsoft.com/library/windows/desktop/dd374066)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Manages a virtual desktop session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a5a0d2a4-6e19-42ac-988c-2d3787946325'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a5a0d2a4-6e19-42ac-988c-2d3787946325
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_VirtualDesktopSession class Remote Desktop Services", "Win32_VirtualDesktopSession class Remote Desktop Services , described"]
+keywords:
+- Win32_VirtualDesktopSession class Remote Desktop Services
+- Win32_VirtualDesktopSession class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_VirtualDesktopSession class
@@ -71,7 +76,7 @@ The **Win32\_VirtualDesktopSession** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -196,7 +201,7 @@ Gets the name of the virtual machine that is assigned to the session.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -210,9 +215,9 @@ Gets the name of the virtual machine that is assigned to the session.
 [Remote Desktop Management Services Provider](rdms-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,9 +4,9 @@ description: Session options can be specified after the LDAP session is initiali
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a968e66d-933f-44b7-b74d-d18a92d7de3f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: a968e66d-933f-44b7-b74d-d18a92d7de3f
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -64,19 +64,22 @@ api_location:
 - Winldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session Options
 
 Session options can be specified after the LDAP session is initialized. The session option constants identify which session options to access.
 
-The LDAP session handle, returned by the [**ldap\_init**](ldap-init.md) function, is a pointer to an opaque data type that represents an LDAP session.
+The LDAP session handle, returned by the [**ldap\_init**](/windows/previous-versions/Winldap/nf-winldap-ldap_init?branch=master) function, is a pointer to an opaque data type that represents an LDAP session.
 
 In earlier versions of LDAP, this data type was a structure exposed to the caller, and various fields in the structure could be set to control attributes of the session, such as result set size and search time limit.
 
 To protect callers from inevitable changes to this structure, these session attributes are now accessed through a pair of accessor functions.
 
-Call [**ldap\_get\_option**](ldap-get-option.md) to access the current value of session-wide optional parameters. In the following list, the Output Values column provides information about the data returned from calling the **ldap\_get\_option** function. Call [**ldap\_set\_option**](ldap-set-option.md) to set the value of these parameters. For more information about how to use these functions, see [Getting and Setting Session Options](getting-and-setting-session-options.md).
+Call [**ldap\_get\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_get_option?branch=master) to access the current value of session-wide optional parameters. In the following list, the Output Values column provides information about the data returned from calling the **ldap\_get\_option** function. Call [**ldap\_set\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_set_option?branch=master) to set the value of these parameters. For more information about how to use these functions, see [Getting and Setting Session Options](getting-and-setting-session-options.md).
 
 The options, listed in the following list, are defined, where **LDAP\_OPT\_ON** = 1 and **LDAP\_OPT\_OFF** = 0.
 
@@ -90,7 +93,7 @@ The options, listed in the following list, are defined, where **LDAP\_OPT\_ON** 
 
 
 
-Sets or retrieves the pointer to an [**LDAPAPIInfo**](ldapapiinfo.md) structure. This structure holds the current API information (including supported extensions).
+Sets or retrieves the pointer to an [**LDAPAPIInfo**](/windows/previous-versions/Winldap/ns-winldap-ldapapiinfoa?branch=master) structure. This structure holds the current API information (including supported extensions).
 
 
 </dt> </dl> </dd> <dt>
@@ -103,7 +106,7 @@ Sets or retrieves the pointer to an [**LDAPAPIInfo**](ldapapiinfo.md) structure.
 
 
 
-Sets or retrieves the pointer to an [**LDAPAPIFeatureInfo**](ldapapifeatureinfo.md) structure. This structure holds data about the extensions supported by the current API.
+Sets or retrieves the pointer to an [**LDAPAPIFeatureInfo**](/windows/previous-versions/Winldap/ns-winldap-ldap_apifeature_infoa?branch=master) structure. This structure holds data about the extensions supported by the current API.
 
 
 </dt> </dl> </dd> <dt>
@@ -185,7 +188,7 @@ Not supported. Returns **LDAP\_LOCAL\_ERROR** when an attempt is made to set or 
 
 
 
-Sets or retrieves the pointer to a [**QUERYCLIENTCERT**](queryclientcert.md) callback routine. The routine specifies client certificates while establishing an SSL connection.
+Sets or retrieves the pointer to a [**QUERYCLIENTCERT**](/windows/previous-versions/Winldap/nc-winldap-queryclientcert?branch=master) callback routine. The routine specifies client certificates while establishing an SSL connection.
 
 
 </dt> </dl> </dd> <dt>
@@ -211,7 +214,7 @@ Determines how aliases are handled during search.
 
 
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -334,7 +337,7 @@ The flags include:
 
 
 
-Sets or retrieves the pointer to a **TCHAR** string giving the name of the LDAP server associated with the connection. The server-name string returned by this option should not be freed by the user, as it is automatically freed when [**ldap\_unbind**](ldap-unbind.md) is called.
+Sets or retrieves the pointer to a **TCHAR** string giving the name of the LDAP server associated with the connection. The server-name string returned by this option should not be freed by the user, as it is automatically freed when [**ldap\_unbind**](/windows/previous-versions/Winldap/nf-winldap-ldap_unbind?branch=master) is called.
 
 
 </dt> </dl> </dd> <dt>
@@ -485,7 +488,7 @@ Not supported. Returns **LDAP\_LOCAL\_ERROR** when an attempt is made to get or 
 
 
 
-Enables/disables the referencing of the connection on a per message basis. Must be set before calling the [**ldap\_conn\_from\_msg**](ldap-conn-from-msg.md) function.
+Enables/disables the referencing of the connection on a per message basis. Must be set before calling the [**ldap\_conn\_from\_msg**](/windows/previous-versions/Winldap/nf-winldap-ldap_conn_from_msg?branch=master) function.
 
 Sets or retrieves a **ULONG** value of either **LDAP\_OPT\_ON** or **LDAP\_OPT\_OFF** (default).
 
@@ -500,7 +503,7 @@ Sets or retrieves a **ULONG** value of either **LDAP\_OPT\_ON** or **LDAP\_OPT\_
 
 
 
-Sets or retrieves the pointer to an [**LDAP\_REFERRAL\_CALLBACK**](ldap-referral-callback.md) structure. This structure contains the default callback routines required when chasing referrals.
+Sets or retrieves the pointer to an [**LDAP\_REFERRAL\_CALLBACK**](/windows/previous-versions/Winldap/ns-winldap-ldapreferralcallback?branch=master) structure. This structure contains the default callback routines required when chasing referrals.
 
 
 </dt> </dl> </dd> <dt>
@@ -515,7 +518,7 @@ Sets or retrieves the pointer to an [**LDAP\_REFERRAL\_CALLBACK**](ldap-referral
 
 The maximum number of referrals that will be followed when automatically chasing a referral for a particular request.
 
-Sets or retrieves a **ULONG** value in the range between 0 and 2³²-1. A value of **LDAP\_NO\_LIMIT** (zero) means that there is no limit. For more information, see the **LDAP\_OPT\_REFERRALS** session option. The default value is 32.
+Sets or retrieves a **ULONG** value in the range between 0 and 2  -1. A value of **LDAP\_NO\_LIMIT** (zero) means that there is no limit. For more information, see the **LDAP\_OPT\_REFERRALS** session option. The default value is 32.
 
 
 </dt> </dl> </dd> <dt>
@@ -610,7 +613,7 @@ Sets or retrieves the **PCtxtHandle** pointer to the **CtxtHandle** structure.
 
 A limit on the number of seconds that the local LDAP client will wait while attempting to send data to a remote computer. If the send operation is not completed before the timeout period expires, the LDAP call will fail with an **LDAP\_TIMEOUT** error code.
 
-Sets or retrieves a **ULONG** value in the range between 0 and 2³²-1. A value of **LDAP\_NO\_LIMIT** (zero) means that send timeouts are disabled. The default value is 0.
+Sets or retrieves a **ULONG** value in the range between 0 and 2  -1. A value of **LDAP\_NO\_LIMIT** (zero) means that send timeouts are disabled. The default value is 0.
 
 
 </dt> </dl> </dd> <dt>
@@ -640,7 +643,7 @@ Sets or retrieves a pointer to a **TCHAR** string containing a list of space-sep
 
 You should provide both IPv4 and IPv6 local addresses, if available, because both IPv4 and IPv6 server addresses can be used for socket connect. Socket [bind](http://go.microsoft.com/fwlink/p/?linkid=83971) will fail if there is an address family mismatch. On the Domain Controller, for the default Server (*HostName*=NULL), loopback addresses will be used for socket connect. Set loopback addresses (for both IPv4 and IPv6) for this option to work.
 
-This option can only be set before a connection is established. That is, just after [**ldap\_init**](ldap-init.md).
+This option can only be set before a connection is established. That is, just after [**ldap\_init**](/windows/previous-versions/Winldap/nf-winldap-ldap_init?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -655,7 +658,7 @@ This option can only be set before a connection is established. That is, just af
 
 Sets or retrieves the default callback routine for verifying server certificates while establishing an SSL connection.
 
-Sets or retrieves the pointer to a [**VERIFYSERVERCERT**](verifyservercert.md) callback routine.
+Sets or retrieves the pointer to a [**VERIFYSERVERCERT**](/windows/previous-versions/Winldap/nc-winldap-verifyservercert?branch=master) callback routine.
 
 
 </dt> </dl> </dd> <dt>
@@ -713,7 +716,7 @@ Sets or retrieves a **ULONG** value of either **LDAP\_OPT\_ON** or **LDAP\_OPT\_
 
 The limit on the number of entries to return from a search.
 
-Sets or retrieves a **ULONG** value in the range between 0 and 2³²-1. A value of **LDAP\_NO\_LIMIT** (zero) indicates that there is no limit (default).
+Sets or retrieves a **ULONG** value in the range between 0 and 2  -1. A value of **LDAP\_NO\_LIMIT** (zero) indicates that there is no limit (default).
 
 
 </dt> </dl> </dd> <dt>
@@ -799,7 +802,7 @@ Not supported. Returns **LDAP\_LOCAL\_ERROR** when an attempt is made to get or 
 
 A limit on the number of seconds the server will wait to complete a bind. This also specifies the limit on the number of seconds the server spends on a search.
 
-Sets or retrieves a **ULONG** value in the range between 0 and 2³²-1. A value of 0 (zero) for a bind will cause the server to use its default value of 120 seconds. A value of **LDAP\_NO\_LIMIT** (zero) for a search operation means that there is no limit (default).
+Sets or retrieves a **ULONG** value in the range between 0 and 2  -1. A value of 0 (zero) for a bind will cause the server to use its default value of 120 seconds. A value of **LDAP\_NO\_LIMIT** (zero) for a search operation means that there is no limit (default).
 
 
 </dt> </dl> </dd> </dl>
@@ -810,8 +813,8 @@ Sets or retrieves a **ULONG** value in the range between 0 and 2³²-1. A value of
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winldap.h</dt> </dl> |
 
 
@@ -823,9 +826,9 @@ Sets or retrieves a **ULONG** value in the range between 0 and 2³²-1. A value of
 [Getting and Setting Session Options](getting-and-setting-session-options.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

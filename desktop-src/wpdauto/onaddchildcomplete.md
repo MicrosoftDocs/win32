@@ -1,14 +1,22 @@
 ---
 title: WPDObject.onAddChildComplete event
 description: The onAddChildComplete event occurs, and a callback handler is invoked, when an AddChild operation has completed.
-ms.assetid: '957a7af2-a57a-4597-8282-fc8cb19d26af'
-keywords: ["onAddChildComplete event WPD Automation", "onAddChildComplete event WPD Automation , WPDObject object", "WPDObject object WPD Automation , onAddChildComplete event"]
+ms.assetid: 957a7af2-a57a-4597-8282-fc8cb19d26af
+keywords:
+- onAddChildComplete event WPD Automation
+- onAddChildComplete event WPD Automation , WPDObject object
+- WPDObject object WPD Automation , onAddChildComplete event
 topic_type:
 - apiref
 api_name:
 - WPDObject.onAddChildComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.onAddChildComplete event
@@ -78,8 +86,8 @@ WPDObject.onAddChildComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -90,9 +98,9 @@ WPDObject.onAddChildComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

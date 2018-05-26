@@ -4,11 +4,16 @@ description: Provides an overview of the MMC elements that affect snap-in develo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4de7379e-70c7-4ccf-9960-3f67160aed08'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4de7379e-70c7-4ccf-9960-3f67160aed08
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["About MMC 2.0", "Microsoft Management Console MMC 2.0 , described"]
+keywords:
+- About MMC 2.0
+- Microsoft Management Console MMC 2.0 , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About MMC 2.0

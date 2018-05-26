@@ -1,8 +1,9 @@
 ---
 title: LVN\_GETEMPTYMARKUP notification code
 description: Sent by list-view control to its parent window when the control has no items. The LVN\_GETEMPTYMARKUP notification code is a request for the parent window to provide markup text. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '5ea74120-f347-493a-af14-6bda5b8f6082'
-keywords: ["LVN_GETEMPTYMARKUP notification code Windows Controls"]
+ms.assetid: 5ea74120-f347-493a-af14-6bda5b8f6082
+keywords:
+- LVN_GETEMPTYMARKUP notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_GETEMPTYMARKUP notification code
@@ -33,7 +39,7 @@ LVN_GETEMPTYMARKUP
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMLVEMPTYMARKUP**](nmlvemptymarkup.md) structure. Set the members of this structure to provide markup text for the list-view control.
+Pointer to a [**NMLVEMPTYMARKUP**](/windows/win32/Commctrl/ns-commctrl-tagnmlvemptymarkup?branch=master) structure. Set the members of this structure to provide markup text for the list-view control.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ Return **TRUE** to set the markup text in the list-view control, or **FALSE** ot
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVEMPTYMARKUP**](nmlvemptymarkup.md) structure. The *wParam* parameter contains the ID of the control that sends this message.
+The notification receiver casts *lParam* to retrieve the [**NMLVEMPTYMARKUP**](/windows/win32/Commctrl/ns-commctrl-tagnmlvemptymarkup?branch=master) structure. The *wParam* parameter contains the ID of the control that sends this message.
 
 ## Requirements
 
@@ -51,15 +57,15 @@ The notification receiver casts *lParam* to retrieve the [**NMLVEMPTYMARKUP**](n
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

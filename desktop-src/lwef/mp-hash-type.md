@@ -1,8 +1,10 @@
 ---
 title: MP\_HASH\_TYPE enumeration
 description: Possible hash types.
-ms.assetid: '46432C40-6DE1-4FB8-B7C1-C2712CCEB208'
-keywords: ["MP_HASH_TYPE enumeration Legacy Windows Environment Features", "PMP_HASH_TYPE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 46432C40-6DE1-4FB8-B7C1-C2712CCEB208
+keywords:
+- MP_HASH_TYPE enumeration Legacy Windows Environment Features
+- PMP_HASH_TYPE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MP\_HASH\_TYPE enumeration
@@ -22,11 +29,11 @@ Possible hash types.
 
 ```C++
 typedef enum tagMP_HASH_TYPE { 
-  MP_HASH_TYPE_NONE    = 0,
-  MP_HASH_TYPE_CRC32   = 2,
-  MP_HASH_TYPE_MD5     = 4,
-  MP_HASH_TYPE_SHA1    = 8,
-  MP_HASH_TYPE_SHA256  = 16
+  MP_HASH_TYPE_NONE    = 0,
+  MP_HASH_TYPE_CRC32   = 2,
+  MP_HASH_TYPE_MD5     = 4,
+  MP_HASH_TYPE_SHA1    = 8,
+  MP_HASH_TYPE_SHA256  = 16
 } MP_HASH_TYPE, *PMP_HASH_TYPE;
 ```
 
@@ -77,15 +84,15 @@ SHA 256
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

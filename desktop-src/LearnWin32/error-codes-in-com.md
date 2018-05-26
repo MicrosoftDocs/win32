@@ -1,7 +1,12 @@
 ---
 title: Error Codes in COM
 description: .
-ms.assetid: 'ed430863-f416-4611-81b4-0c31d819944a'
+ms.assetid: ed430863-f416-4611-81b4-0c31d819944a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes in COM

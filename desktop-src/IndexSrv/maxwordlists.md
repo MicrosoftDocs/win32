@@ -1,7 +1,12 @@
 ---
 title: MaxWordLists
 description: MaxWordLists
-ms.assetid: '5cbf089f-07c0-49a0-b3e3-0464efb595dd'
+ms.assetid: 5cbf089f-07c0-49a0-b3e3-0464efb595dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxWordLists

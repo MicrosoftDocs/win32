@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a reset of the LogicalDevice.'
-ms.assetid: 'd048be64-fa0c-4006-b0a9-58591006bdca'
-title: 'Reset method of the CIM\_NetworkPort class'
+Description: Requests a reset of the LogicalDevice.
+ms.assetid: d048be64-fa0c-4006-b0a9-58591006bdca
+title: Reset method of the CIM\_NetworkPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the CIM\_NetworkPort class
@@ -31,8 +36,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -46,9 +51,9 @@ TBD
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

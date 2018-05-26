@@ -4,11 +4,15 @@ description: This section includes information about how to add snap-in support 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '26d208a3-ce36-4baf-91b7-2579dfcc7c6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 26d208a3-ce36-4baf-91b7-2579dfcc7c6a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["column persistence MMC , implementation details"]
+keywords:
+- column persistence MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Column Persistence: Implementation Details

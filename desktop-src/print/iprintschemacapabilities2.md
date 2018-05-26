@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintSchemaCapabilities2 interface represents an extension to the IPrintSchemaCapabilities object, which provides wrapper methods over a print capabilities document.'
-ms.assetid: '1C361DC6-6517-4845-BEA6-09D2BB3B3232'
+---
+Description: The IPrintSchemaCapabilities2 interface represents an extension to the IPrintSchemaCapabilities object, which provides wrapper methods over a print capabilities document.
+ms.assetid: 1C361DC6-6517-4845-BEA6-09D2BB3B3232
 title: IPrintSchemaCapabilities2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities2 interface

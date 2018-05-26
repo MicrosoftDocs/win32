@@ -1,8 +1,10 @@
 ---
 title: MDM\_DevDetail class
 description: The MDM\_DevDetail class handles the management object which provides device-specific parameters to the OMA DM server.
-ms.assetid: '1a709051-656a-4900-b354-efbd208b46fc'
-keywords: ["MDM_DevDetail class", "MDM_DevDetail class, described"]
+ms.assetid: 1a709051-656a-4900-b354-efbd208b46fc
+keywords:
+- MDM_DevDetail class
+- MDM_DevDetail class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_DevDetail class
@@ -29,13 +36,13 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_DevDetail
 {
-  string  InstanceID;
-  string  ParentID;
-  string  DevTyp;
-  string  OEM;
-  string  FwV;
-  string  SwV;
-  string  HwV;
+  string  InstanceID;
+  string  ParentID;
+  string  DevTyp;
+  string  OEM;
+  string  FwV;
+  string  SwV;
+  string  HwV;
   boolean LrgObj;
 };
 ```
@@ -156,7 +163,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -171,9 +178,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

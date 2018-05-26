@@ -1,14 +1,20 @@
 ---
 title: Visible element
 description: Indicates that the parameter definition is visible (expanded) when first presented.
-ms.assetid: 'C2F67BE1-304F-434F-9D5F-7AD72C01727D'
-keywords: ["Visible element Access Execution Engine"]
+ms.assetid: C2F67BE1-304F-434F-9D5F-7AD72C01727D
+keywords:
+- Visible element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Visible
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible element

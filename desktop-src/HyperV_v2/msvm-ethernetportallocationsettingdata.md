@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an allocation request for a static or dynamic switch port, or represents the active configuration of a currently allocated static or dynamic switch port.'
-ms.assetid: 'ef70b72f-75a0-448e-a648-6a28c12f0da1'
-title: 'Msvm\_EthernetPortAllocationSettingData class'
+Description: Represents an allocation request for a static or dynamic switch port, or represents the active configuration of a currently allocated static or dynamic switch port.
+ms.assetid: ef70b72f-75a0-448e-a648-6a28c12f0da1
+title: Msvm\_EthernetPortAllocationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetPortAllocationSettingData class
@@ -16,38 +21,38 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EthernetPortAllocationSettingData : CIM_EthernetPortAllocationSettingData
 {
-  string  InstanceID = "Microsoft:GUID\DeviceSpecificData";
-  string  Caption = "Ethernet Switch Port Settings";
-  string  Description = "Ethernet Switch Port Settings";
-  string  ElementName;
-  uint16  ResourceType = 33;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight = 0;
+  string  InstanceID = "Microsoft:GUID\DeviceSpecificData";
+  string  Caption = "Ethernet Switch Port Settings";
+  string  Description = "Ethernet Switch Port Settings";
+  string  ElementName;
+  uint16  ResourceType = 33;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight = 0;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  uint16  DesiredVLANEndpointMode;
-  string  OtherEndpointMode;
-  uint16  EnabledState;
-  string  LastKnownSwitchName;
-  string  RequiredFeatures[];
-  string  RequiredFeatureHints[];
-  string  TestReplicaPoolID;
-  string  TestReplicaSwitchName;
-  string  CompartmentGuid;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  uint16  DesiredVLANEndpointMode;
+  string  OtherEndpointMode;
+  uint16  EnabledState;
+  string  LastKnownSwitchName;
+  string  RequiredFeatures[];
+  string  RequiredFeatureHints[];
+  string  TestReplicaPoolID;
+  string  TestReplicaSwitchName;
+  string  CompartmentGuid;
 };
 ```
 
@@ -156,9 +161,9 @@ Access type: Read/write
 This property specifies the target network compartment for the port. It is only supported for internal adapters.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -297,9 +302,9 @@ Access type: Read-only
 The last known friendly name of the switch this port had a hard affinity to, if any.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -509,7 +514,7 @@ Access type: Read-only
 
 An integer that defines the weight for each virtual switch. This property is inherited from [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214).
 
-Range: 0–1000
+Range: 0 1000
 
 </dd> </dl>
 
@@ -519,17 +524,17 @@ Range: 0–1000
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

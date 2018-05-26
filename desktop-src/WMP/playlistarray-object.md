@@ -1,14 +1,20 @@
 ---
 title: PlaylistArray Object
 description: The PlaylistArray object provides a way to access playlists by index number.
-ms.assetid: '8a29f36c-9c7c-4bc7-9adb-b34cc4231d81'
-keywords: ["PlaylistArray Object Windows Media Player"]
+ms.assetid: 8a29f36c-9c7c-4bc7-9adb-b34cc4231d81
+keywords:
+- PlaylistArray Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PlaylistArray Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistArray Object

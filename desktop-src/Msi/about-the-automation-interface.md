@@ -1,7 +1,12 @@
 ---
-Description: 'An Installer object must be created initially to load the automation support required to access the installer components through COM.'
-ms.assetid: '113ed443-a866-43d4-86bd-fc3b244f2edb'
+Description: An Installer object must be created initially to load the automation support required to access the installer components through COM.
+ms.assetid: 113ed443-a866-43d4-86bd-fc3b244f2edb
 title: About the Automation Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Automation Interface

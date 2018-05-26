@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ApplyMultiplePatches method applies one or more patches to products that are eligible to receive the patch. The method sets the PATCH property.'
-ms.assetid: '40c40e2c-60ef-4492-a4ab-0bb6b874fe80'
-title: 'Installer.ApplyMultiplePatches method'
+---
+Description: The ApplyMultiplePatches method applies one or more patches to products that are eligible to receive the patch. The method sets the PATCH property.
+ms.assetid: 40c40e2c-60ef-4492-a4ab-0bb6b874fe80
+title: Installer.ApplyMultiplePatches method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ApplyMultiplePatches method
@@ -78,7 +83,7 @@ This method does not return a value.
 [Setting Public Property Values on the Command Line](setting-public-property-values-on-the-command-line.md)
 </dt> <dt>
 
-[**MsiApplyMultiplePatches**](msiapplymultiplepatches.md)
+[**MsiApplyMultiplePatches**](/windows/win32/Msi/nf-msi-msiapplymultiplepatchesa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

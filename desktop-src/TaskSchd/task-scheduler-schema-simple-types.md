@@ -1,7 +1,12 @@
 ---
 title: Task Scheduler Schema Simple Types
 description: This section contains the simple types used to define the child elements and attributes that are used by other elements. This information is provided for those who want to extend the Task Scheduler schema.
-ms.assetid: '274fd142-4014-4d60-be3f-b4c7197c2380'
+ms.assetid: 274fd142-4014-4d60-be3f-b4c7197c2380
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler Schema Simple Types

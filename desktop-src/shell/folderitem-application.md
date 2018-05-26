@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the Application object of the folder item.'
-ms.assetid: 'cd8d6dea-1d16-4d62-b56b-c915192f730b'
-title: 'FolderItem.Application property'
+---
+Description: Contains the Application object of the folder item.
+ms.assetid: cd8d6dea-1d16-4d62-b56b-c915192f730b
+title: FolderItem.Application property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.Application property

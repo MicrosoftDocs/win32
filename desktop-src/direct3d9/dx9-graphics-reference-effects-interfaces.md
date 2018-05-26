@@ -1,7 +1,12 @@
 ---
-Description: 'Effects are implemented with the following interfaces.'
-ms.assetid: '7170b9db-7c6b-4a1d-a920-15b5b2eab8b0'
+Description: Effects are implemented with the following interfaces.
+ms.assetid: 7170b9db-7c6b-4a1d-a920-15b5b2eab8b0
 title: Effect Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Interfaces

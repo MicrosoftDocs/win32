@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method updates FaxJob object information for the associated fax job.'
-ms.assetid: '655acc35-304e-4e40-97c4-dd201fbad219'
-title: 'FaxJob.Refresh method'
+---
+Description: The Refresh method updates FaxJob object information for the associated fax job.
+ms.assetid: 655acc35-304e-4e40-97c4-dd201fbad219
+title: FaxJob.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.Refresh method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-Call the **Refresh** method to poll the fax service for new information about a specified fax job. After you successfully call **Refresh**, you must call the appropriate [**IFaxJob**](-mfax-ifaxjob.md) interface method to retrieve new attribute values that are valid.
+Call the **Refresh** method to poll the fax service for new information about a specified fax job. After you successfully call **Refresh**, you must call the appropriate [**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master) interface method to retrieve new attribute values that are valid.
 
 It is recommended that you limit calls to this method because frequent calls to **Refresh** can degrade system performance.
 
@@ -53,10 +58,10 @@ It is recommended that you limit calls to this method because frequent calls to 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

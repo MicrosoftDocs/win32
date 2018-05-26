@@ -1,8 +1,9 @@
 ---
 title: TB\_SETROWS message
 description: Sets the number of rows of buttons in a toolbar.
-ms.assetid: 'd8ea7b80-d23e-4593-8eb1-d23808173fc9'
-keywords: ["TB_SETROWS message Windows Controls"]
+ms.assetid: d8ea7b80-d23e-4593-8eb1-d23808173fc9
+keywords:
+- TB_SETROWS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETROWS message
@@ -51,15 +57,15 @@ Because the system does not break up button groups when setting the number of ro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

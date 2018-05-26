@@ -1,8 +1,16 @@
 ---
 title: Designing the Interface
 description: Designing the Interface
-ms.assetid: '7b87bab4-8246-461a-a9cd-2d348e7f0d48'
-keywords: ["Windows Media Player Mobile skins,user interfaces", "skins,user interfaces", "creating skins,user interfaces"]
+ms.assetid: 7b87bab4-8246-461a-a9cd-2d348e7f0d48
+keywords:
+- Windows Media Player Mobile skins,user interfaces
+- skins,user interfaces
+- creating skins,user interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing the Interface

@@ -1,7 +1,12 @@
 ---
 title: Clipboard Messages
 description: .
-ms.assetid: 'd6c9d2b2-ee77-4c15-a859-989efbf89a31'
+ms.assetid: d6c9d2b2-ee77-4c15-a859-989efbf89a31
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipboard Messages

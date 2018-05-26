@@ -1,7 +1,12 @@
 ---
 title: About Combo Boxes
 description: This section discusses the different kinds of combo boxes.
-ms.assetid: '76410a87-aa0e-4da9-9e78-c80ac485e3cd'
+ms.assetid: 76410a87-aa0e-4da9-9e78-c80ac485e3cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Combo Boxes
@@ -52,7 +57,7 @@ In the third screen shot, the user has opened the drop-down list combo box. The 
 There are also a number of combo box styles that define specific properties. Combo box styles define specific properties of a combo box. You can combine styles; however, some styles apply only to certain combo box types. For a table of combo box styles, see [Combo Box Styles](combo-box-styles.md).
 
 > [!Note]  
-> To use visual styles with combo boxes, an application must include a manifest and must call [**InitCommonControls**](initcommoncontrols.md) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+> To use visual styles with combo boxes, an application must include a manifest and must call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
  
 

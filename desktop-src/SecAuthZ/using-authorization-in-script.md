@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the Authorization Manager API in Script to control access to application resources.'
-ms.assetid: '96852608-2362-419a-beb8-c4b9d0363d6e'
+Description: You can use the Authorization Manager API in Script to control access to application resources.
+ms.assetid: 96852608-2362-419a-beb8-c4b9d0363d6e
 title: Using Authorization in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Authorization in Script

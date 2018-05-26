@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '238c95eb-951e-43d3-8125-86e849cd31d7'
+---
+Description: .
+ms.assetid: 238c95eb-951e-43d3-8125-86e849cd31d7
 title: Shell
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for page fault events. The following syntax is simplified from MOF code.'
-ms.assetid: 'cc2b7a93-6974-4872-98f3-d6cb81861ae5'
-title: 'PageFault\_TransitionFault class'
+---
+Description: This class is the event type class for page fault events. The following syntax is simplified from MOF code.
+ms.assetid: cc2b7a93-6974-4872-98f3-d6cb81861ae5
+title: PageFault\_TransitionFault class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PageFault\_TransitionFault class

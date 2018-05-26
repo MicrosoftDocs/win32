@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the authentication and encryption pair to be used for this profile.'
-ms.assetid: 'd7a69b82-3f04-49eb-80cc-675d5a0a559a'
-title: 'authEncryption (security) Element'
+---
+Description: Specifies the authentication and encryption pair to be used for this profile.
+ms.assetid: d7a69b82-3f04-49eb-80cc-675d5a0a559a
+title: authEncryption (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # authEncryption (security) Element

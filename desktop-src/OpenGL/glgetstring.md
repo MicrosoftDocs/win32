@@ -1,8 +1,9 @@
 ---
 title: glGetString function
 description: The glGetString function returns a string describing the current OpenGL connection.
-ms.assetid: '768e6ec2-3f00-44e6-b3cb-de0f06d6a73d'
-keywords: ["glGetString function OpenGL"]
+ms.assetid: 768e6ec2-3f00-44e6-b3cb-de0f06d6a73d
+keywords:
+- glGetString function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetString function
@@ -22,7 +28,7 @@ The **glGetString** function returns a string describing the current OpenGL conn
 
 ```C++
 const GLubyte* WINAPI glGetString(
-   GLenum name
+   GLenum name
 );
 ```
 
@@ -48,7 +54,7 @@ One of the following symbolic constants.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -104,8 +110,8 @@ If an error is generated, **glGetString** returns zero.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -122,9 +128,9 @@ If an error is generated, **glGetString** returns zero.
 [**glEnd**](glend.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Warning element
 description: Describes a warning.
-ms.assetid: '87DE42C6-E829-465E-B595-D527F53ED8AF'
-keywords: ["Warning element Access Execution Engine"]
+ms.assetid: 87DE42C6-E829-465E-B595-D527F53ED8AF
+keywords:
+- Warning element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Warning
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Warning element
@@ -74,9 +80,9 @@ There are no attributes.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The optional &lt;locationProvider&gt; element specifies the search provider to be used by the web service provider search connector. This element contains one mandatory attribute and an optional child element.'
-ms.assetid: '5481b1ae-e166-4f09-bf0d-d6b7f7c8a331'
-title: 'locationProvider Element (Search Connector Schema)'
+Description: The optional &lt;locationProvider&gt; element specifies the search provider to be used by the web service provider search connector. This element contains one mandatory attribute and an optional child element.
+ms.assetid: 5481b1ae-e166-4f09-bf0d-d6b7f7c8a331
+title: locationProvider Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # locationProvider Element (Search Connector Schema)

@@ -1,8 +1,11 @@
 ---
 title: CreateRestorePoint method of the SystemRestore class
 description: Creates a restore point.
-ms.assetid: '30e1ff03-816c-463f-9f80-6d84149f0e0b'
-keywords: ["CreateRestorePoint method System Restore", "CreateRestorePoint method System Restore , SystemRestore class", "SystemRestore class System Restore , CreateRestorePoint method"]
+ms.assetid: 30e1ff03-816c-463f-9f80-6d84149f0e0b
+keywords:
+- CreateRestorePoint method System Restore
+- CreateRestorePoint method System Restore , SystemRestore class
+- SystemRestore class System Restore , CreateRestorePoint method
 topic_type:
 - apiref
 api_name:
@@ -11,22 +14,27 @@ api_location:
 - Root\Default
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateRestorePoint method of the SystemRestore class
 
 Creates a restore point.
 
-This method is the scriptable equivalent of the [**SRSetRestorePoint**](srsetrestorepoint.md) function.
+This method is the scriptable equivalent of the [**SRSetRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa?branch=master) function.
 
 ## Syntax
 
 
 ```mof
 uint32 CreateRestorePoint(
-  [in] String Description,
-  [in] uint32 RestorePointType,
-  [in] uint32 EventType
+  [in] String Description,
+  [in] uint32 RestorePointType,
+  [in] uint32 EventType
 );
 ```
 
@@ -60,7 +68,7 @@ The type of restore point. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +88,7 @@ The type of event. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -90,7 +98,7 @@ If the method succeeds, the return value is S\_OK. Otherwise, the method returns
 
 ## Remarks
 
-**Windows 8:  **
+**Windows 8:  **
 
 A new registry key enables application developers to change the frequency of restore-point creation.
 
@@ -136,7 +144,7 @@ End If
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\Default<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -150,9 +158,9 @@ End If
 [**SystemRestore**](systemrestore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

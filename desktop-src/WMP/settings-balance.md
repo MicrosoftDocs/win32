@@ -1,8 +1,9 @@
 ---
 title: Settings.balance
 description: The balance property specifies or retrieves the current stereo balance.
-ms.assetid: '26f04989-a1b1-4aec-8a15-c4e3737a4e62'
-keywords: ["Settings.balance Windows Media Player"]
+ms.assetid: 26f04989-a1b1-4aec-8a15-c4e3737a4e62
+keywords:
+- Settings.balance Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.balance
@@ -23,11 +29,11 @@ player.settings.balance
 
 ## Possible Values
 
-This property is a read/write **Number** (**long**). Values range from –100 to 100, with a default value of zero.
+This property is a read/write **Number** (**long**). Values range from  100 to 100, with a default value of zero.
 
 ## Remarks
 
-The value zero indicates that the audio plays at equal volume on both left and right channels. A value of –100 indicates that audio plays only on the left channel. A value of 100 indicates that audio plays only on the right channel.
+The value zero indicates that the audio plays at equal volume on both left and right channels. A value of  100 indicates that audio plays only on the left channel. A value of 100 indicates that audio plays only on the right channel.
 
 ## Requirements
 
@@ -47,9 +53,9 @@ The value zero indicates that the audio plays at equal volume on both left and r
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

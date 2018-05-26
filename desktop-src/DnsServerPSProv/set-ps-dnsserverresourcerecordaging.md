@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerResourceRecordAging class
 description: Ages RRs under a node.
 audience: developer
-ms.assetid: '9cc13e79-67e2-4826-ac82-41f0060dfe14'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9cc13e79-67e2-4826-ac82-41f0060dfe14
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerResourceRecordAging class", "PS_DnsServerResourceRecordAging class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerResourceRecordAging class
+- PS_DnsServerResourceRecordAging class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerResourceRecordAging class
@@ -28,11 +34,11 @@ Ages RRs under a node.
 
 ```mof
 uint32 Set(
-  [in] string  ComputerName,
-  [in] string  ZoneName,
-  [in] string  NodeName,
-  [in] boolean Recurse,
-  [in] boolean Force
+  [in] string  ComputerName,
+  [in] string  ZoneName,
+  [in] string  NodeName,
+  [in] boolean Recurse,
+  [in] boolean Force
 );
 ```
 
@@ -84,7 +90,7 @@ Specifies if records of all the nodes under the specified zone need to be aged
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ Specifies if records of all the nodes under the specified zone need to be aged
 [**PS\_DnsServerResourceRecordAging**](ps-dnsserverresourcerecordaging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

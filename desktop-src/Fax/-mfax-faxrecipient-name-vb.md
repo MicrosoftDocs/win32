@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Name property is a null-terminated string that contains the name of the recipient.'
-ms.assetid: 'c5ade4f7-8c44-4d7a-a4d5-a81eebb01276'
-title: 'FaxRecipient.Name property'
+---
+Description: The Name property is a null-terminated string that contains the name of the recipient.
+ms.assetid: c5ade4f7-8c44-4d7a-a4d5-a81eebb01276
+title: FaxRecipient.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipient.Name property
@@ -43,7 +48,7 @@ A **String** that specifies or receives the name of the recipient. The string is
 [**FaxRecipient**](-mfax-faxrecipient.md)
 </dt> <dt>
 
-[**IFaxRecipient**](-mfax-faxrecipient-cpp.md)
+[**IFaxRecipient**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipient?branch=master)
 </dt> <dt>
 
 [Broadcasting a Fax](-mfax-broadcasting-a-fax.md)

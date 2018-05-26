@@ -1,8 +1,16 @@
 ---
 title: SessionfullCalculatorClientExample
 description: Client application to talk to a sessionful calculator service.
-ms.assetid: '0981474c-cb87-4069-ab84-7662776c182e'
-keywords: ["SessionfullCalculatorClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 0981474c-cb87-4069-ab84-7662776c182e
+keywords:
+- SessionfullCalculatorClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SessionfullCalculatorClientExample

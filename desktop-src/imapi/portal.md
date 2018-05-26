@@ -1,7 +1,12 @@
 ---
 title: Image Mastering API
 description: .
-ms.assetid: '4902d3fb-3195-4909-ab64-28f8a77ba14c'
+ms.assetid: 4902d3fb-3195-4909-ab64-28f8a77ba14c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Mastering API
@@ -18,12 +23,12 @@ Knowledge of CD, DVD, and Blu-ray technologies and file systems is recommended. 
 
 ## Run-time requirements
 
-IMAPI 2.0 is supported natively starting with Windows Vista and Windows Server 2008. Enabling IMAPI 2.0 functionality for Windows XP and Windows Server 2003 requires the installation of the [KB932716](http://go.microsoft.com/fwlink/p/?linkid=93780) update package. If this package is not installed, Windows XP still natively supports [IMAPI 1.0](imapiv1.md).
+IMAPI 2.0 is supported natively starting with Windows Vista and Windows Server 2008. Enabling IMAPI 2.0 functionality for Windows XP and Windows Server 2003 requires the installation of the [KB932716](http://go.microsoft.com/fwlink/p/?linkid=93780) update package. If this package is not installed, Windows XP still natively supports [IMAPI 1.0](imapiv1.md).
 
 > [!Note]  
 > The Windows Feature Pack for Storage is available to the public via the [Microsoft Download Center](http://go.microsoft.com/fwlink/p/?linkid=141659). Additional information regarding specific API changes can be found in the [What's New](what-s-new.md) section.
 
- 
+ 
 
 ## In this section
 
@@ -38,7 +43,7 @@ IMAPI 2.0 is supported natively starting with Windows Vista and Windows Server 2
 
 
 
- 
+ 
 
 ## Additional resources
 
@@ -55,11 +60,11 @@ Further information regarding IMAPI and other related subjects can be found at t
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

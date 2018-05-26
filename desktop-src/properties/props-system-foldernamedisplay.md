@@ -1,7 +1,12 @@
 ---
-Description: 'This property is similar to System.ItemNameDisplay except it is only set for folders, for files it will be empty.'
-ms.assetid: '4517a4bf-3cc1-4835-b21b-03de5b33db0c'
-title: 'System.FolderNameDisplay'
+Description: This property is similar to System.ItemNameDisplay except it is only set for folders, for files it will be empty.
+ms.assetid: 4517a4bf-3cc1-4835-b21b-03de5b33db0c
+title: System.FolderNameDisplay
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FolderNameDisplay

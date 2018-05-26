@@ -1,7 +1,12 @@
 ---
 Description: Device Mode
-ms.assetid: 'd56021be-616b-41cd-8cf0-9e0d314f62cd'
+ms.assetid: d56021be-616b-41cd-8cf0-9e0d314f62cd
 title: Device Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Mode
@@ -10,7 +15,7 @@ IEEE 1394 and USB camcorders can switch between camera mode and video tape recor
 
 **MSDV Driver**
 
-To get the current mode on an IEEE 1394 device, call the [**IAMExtDevice::GetCapability**](iamextdevice-getcapability.md) method with the value ED\_DEVCAP\_DEVICE\_TYPE. If the method returns the value ED\_DEVTYPE\_VCR, the device is in VTR mode and has functions such as pause, stop, fast-forward, and rewind. Otherwise, if the method returns ED\_DEVTYPE\_CAMERA, the device is in camera mode. The following code example shows how to query the device type:
+To get the current mode on an IEEE 1394 device, call the [**IAMExtDevice::GetCapability**](/windows/win32/Strmif/nf-strmif-iamextdevice-getcapability?branch=master) method with the value ED\_DEVCAP\_DEVICE\_TYPE. If the method returns the value ED\_DEVTYPE\_VCR, the device is in VTR mode and has functions such as pause, stop, fast-forward, and rewind. Otherwise, if the method returns ED\_DEVTYPE\_CAMERA, the device is in camera mode. The following code example shows how to query the device type:
 
 
 ```C++
@@ -37,7 +42,7 @@ If the camcorder goes offline, you should query it again when it next becomes av
 
 **UVC Driver**
 
-Because USB video devices can switch modes without resetting, the code shown in the previous examples is not reliable for USB devices. Instead, use the [**ISelector**](iselector.md) interface to get the current mode. You can also use this interface to switch modes programmatically if the device supports it.
+Because USB video devices can switch modes without resetting, the code shown in the previous examples is not reliable for USB devices. Instead, use the [**ISelector**](/windows/win32/Vidcap/nn-vidcap-iselector?branch=master) interface to get the current mode. You can also use this interface to switch modes programmatically if the device supports it.
 
 ## Related topics
 

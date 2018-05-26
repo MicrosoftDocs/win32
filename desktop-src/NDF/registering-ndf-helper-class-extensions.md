@@ -1,7 +1,12 @@
 ---
 title: Registering NDF Helper Class Extensions
 description: Each helper class extension has a number of registry keys associated with it. Some keys are required by COM, and some keys are required by NDF.
-ms.assetid: '9ff3266d-5ffc-4a00-be24-2f85461c6ea6'
+ms.assetid: 9ff3266d-5ffc-4a00-be24-2f85461c6ea6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering NDF Helper Class Extensions
@@ -10,7 +15,7 @@ Each helper class extension has a number of registry keys associated with it. So
 
 ## COM Registry Keys
 
-Helper class extensions must be implemented as COM servers. COM registration must be completed for each helper class extension. The object's CLSID, the [**INetDiagHelperInfo**](inetdiaghelperinfo.md) interface, and the [**INetDiagHelper**](inetdiaghelper.md) interface must be registered. Registration creates a number of COM-related registry keys for the NDF helper class extension.
+Helper class extensions must be implemented as COM servers. COM registration must be completed for each helper class extension. The object's CLSID, the [**INetDiagHelperInfo**](/windows/win32/ndhelper/nn-ndhelper-inetdiaghelperinfo?branch=master) interface, and the [**INetDiagHelper**](/windows/win32/ndhelper/nn-ndhelper-inetdiaghelper?branch=master) interface must be registered. Registration creates a number of COM-related registry keys for the NDF helper class extension.
 
 ## NDF Registry Keys
 

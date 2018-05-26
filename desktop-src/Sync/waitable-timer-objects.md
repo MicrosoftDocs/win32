@@ -1,7 +1,12 @@
 ---
-Description: 'A waitable timer object is a synchronization object whose state is set to signaled when the specified due time arrives.'
-ms.assetid: '3c84c2ad-6bac-4f14-a633-51d4529314af'
+Description: A waitable timer object is a synchronization object whose state is set to signaled when the specified due time arrives.
+ms.assetid: 3c84c2ad-6bac-4f14-a633-51d4529314af
 title: Waitable Timer Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waitable Timer Objects
@@ -12,7 +17,7 @@ A *waitable timer object* is a synchronization object whose state is set to sign
 
 | Object                | Description                                                                                                                                                                                             |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| manual-reset timer    | A timer whose state remains signaled until [**SetWaitableTimer**](setwaitabletimer.md) is called to establish a new due time.                                                                          |
+| manual-reset timer    | A timer whose state remains signaled until [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master) is called to establish a new due time.                                                                          |
 | synchronization timer | A timer whose state remains signaled until a thread completes a wait operation on the timer object.                                                                                                     |
 | periodic timer        | A timer that is reactivated each time the specified period expires, until the timer is reset or canceled. A periodic timer is either a periodic manual-reset timer or a periodic synchronization timer. |
 
@@ -25,13 +30,13 @@ A *waitable timer object* is a synchronization object whose state is set to sign
 
  
 
-A thread uses the [**CreateWaitableTimer**](createwaitabletimer.md) or [**CreateWaitableTimerEx**](createwaitabletimerex.md) function to create a timer object. The creating thread specifies whether the timer is a manual-reset timer or a synchronization timer. The creating thread can specify a name for the timer object. Threads in other processes can open a handle to an existing timer by specifying its name in a call to the [**OpenWaitableTimer**](openwaitabletimer.md) function. Any thread with a handle to a timer object can use one of the [wait functions](wait-functions.md) to wait for the timer state to be set to signaled.
+A thread uses the [**CreateWaitableTimer**](/windows/win32/WinBase/nf-winbase-createwaitabletimera?branch=master) or [**CreateWaitableTimerEx**](/windows/win32/WinBase/nf-winbase-createwaitabletimerexa?branch=master) function to create a timer object. The creating thread specifies whether the timer is a manual-reset timer or a synchronization timer. The creating thread can specify a name for the timer object. Threads in other processes can open a handle to an existing timer by specifying its name in a call to the [**OpenWaitableTimer**](/windows/win32/WinBase/nf-winbase-openwaitabletimera?branch=master) function. Any thread with a handle to a timer object can use one of the [wait functions](wait-functions.md) to wait for the timer state to be set to signaled.
 
--   The thread calls the [**SetWaitableTimer**](setwaitabletimer.md) function to activate the timer. Note the use of the following parameters for **SetWaitableTimer**:
--   Use the *lpDueTime* parameter to specify the time at which the timer is to be set to the signaled state. When a manual-reset timer is set to the signaled state, it remains in this state until [**SetWaitableTimer**](setwaitabletimer.md) establishes a new due time. When a synchronization timer is set to the signaled state, it remains in this state until a thread completes a wait operation on the timer object.
--   Use the *lPeriod* parameter of the [**SetWaitableTimer**](setwaitabletimer.md) function to specify the timer period. If the period is not zero, the timer is a periodic timer; it is reactivated each time the period expires, until the timer is reset or canceled. If the period is zero, the timer is not a periodic timer; it is signaled once and then deactivated.
+-   The thread calls the [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master) function to activate the timer. Note the use of the following parameters for **SetWaitableTimer**:
+-   Use the *lpDueTime* parameter to specify the time at which the timer is to be set to the signaled state. When a manual-reset timer is set to the signaled state, it remains in this state until [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master) establishes a new due time. When a synchronization timer is set to the signaled state, it remains in this state until a thread completes a wait operation on the timer object.
+-   Use the *lPeriod* parameter of the [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master) function to specify the timer period. If the period is not zero, the timer is a periodic timer; it is reactivated each time the period expires, until the timer is reset or canceled. If the period is zero, the timer is not a periodic timer; it is signaled once and then deactivated.
 
-A thread can use the [**CancelWaitableTimer**](cancelwaitabletimer.md) function to set the timer to the inactive state. To reset the timer, call [**SetWaitableTimer**](setwaitabletimer.md). When you are finished with the timer object, call [**CloseHandle**](base.closehandle) to close the handle to the timer object.
+A thread can use the [**CancelWaitableTimer**](/windows/win32/WinBase/nf-synchapi-cancelwaitabletimer?branch=master) function to set the timer to the inactive state. To reset the timer, call [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master). When you are finished with the timer object, call [**CloseHandle**](base.closehandle) to close the handle to the timer object.
 
 The behavior of a waitable timer can be summarized as follows:
 

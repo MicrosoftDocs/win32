@@ -1,8 +1,9 @@
 ---
 title: Settings.rate
 description: The rate property specifies or retrieves the current playback rate of video media.
-ms.assetid: '0f95f7ac-1bb6-4c80-89eb-eb300a03a0f1'
-keywords: ["Settings.rate Windows Media Player"]
+ms.assetid: 0f95f7ac-1bb6-4c80-89eb-eb300a03a0f1
+keywords:
+- Settings.rate Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.rate
@@ -33,10 +39,10 @@ Windows Media Player will attempt to use the most effective of four different pl
 
 Other considerations apply as well, depending on media type:
 
--   Windows Media Format (WMV) and ASF files: Optimal values for this property are from 1 to 10, or from –1 to –10 for reverse play. Values from 0.5 to 1.0 or from -0.5 to -1.0 may also work well in cases where audio pitch can be maintained, for example, when playing files located on the local computer. Values with an absolute magnitude greater than 10 are allowed, but are not very meaningful.
+-   Windows Media Format (WMV) and ASF files: Optimal values for this property are from 1 to 10, or from  1 to  10 for reverse play. Values from 0.5 to 1.0 or from -0.5 to -1.0 may also work well in cases where audio pitch can be maintained, for example, when playing files located on the local computer. Values with an absolute magnitude greater than 10 are allowed, but are not very meaningful.
 -   Other Video Media Types: This property can range from 0 to 9. Negative values are not allowed. Values less than 1 represent slow motion. Values above 9 are allowed, but are not very meaningful.
 
-The *Controls*.**fastForward** method changes the value of **rate** to 5.0, while the *Controls*.**fastReverse** method changes **rate** to –5.0.
+The *Controls*.**fastForward** method changes the value of **rate** to 5.0, while the *Controls*.**fastReverse** method changes **rate** to  5.0.
 
 The playback rate of some media types cannot be altered. Use the *Settings*.**isAvailable** method to determine whether this property can be specified for a particular media item.
 
@@ -96,9 +102,9 @@ The following example creates an HTML SELECT element that allows the user to cha
 [**Settings.isAvailable**](settings-isavailable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

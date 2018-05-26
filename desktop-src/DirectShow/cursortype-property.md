@@ -1,7 +1,12 @@
 ---
-Description: 'The CursorType property sets or retrieves the current cursor type.'
-ms.assetid: 'f362e790-a7c7-4fb6-86f3-7cd25f78fe0e'
+Description: The CursorType property sets or retrieves the current cursor type.
+ms.assetid: f362e790-a7c7-4fb6-86f3-7cd25f78fe0e
 title: CursorType Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CursorType Property

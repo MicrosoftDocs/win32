@@ -1,7 +1,12 @@
 ---
 title: IsIndexingNNTPSvc
 description: IsIndexingNNTPSvc
-ms.assetid: 'e3d9ad9e-1c7d-448f-a245-6e37dfdc3252'
+ms.assetid: e3d9ad9e-1c7d-448f-a245-6e37dfdc3252
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsIndexingNNTPSvc

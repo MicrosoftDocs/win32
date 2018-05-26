@@ -1,13 +1,16 @@
 ---
-Description: 'CIM\_ManagedSystemElement is the base class for the System Element hierarchy.'
+Description: CIM\_ManagedSystemElement is the base class for the System Element hierarchy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '64a28515-8d0e-493f-b2bd-d05b9c29caf7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 64a28515-8d0e-493f-b2bd-d05b9c29caf7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ManagedSystemElement class'
+title: CIM\_ManagedSystemElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedSystemElement class
@@ -22,20 +25,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.22.0"), AMENDMENT]
 class CIM_ManagedSystemElement : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
 };
 ```
 
@@ -122,14 +125,14 @@ CommunicationStatus indicates the ability of the instrumentation to communicate 
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -211,14 +214,14 @@ DetailedStatus compliments PrimaryStatus with additional status detail. It consi
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -496,14 +499,14 @@ OperatingStatus provides a current status value for the operational condition of
 **DMTF Reserved**
 
 
-</dt> <dd>17–32767</dd> <dt>
+</dt> <dd>17 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -661,14 +664,14 @@ Indicates the current statuses of the element. Various operational statuses are 
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -721,14 +724,14 @@ PrimaryStatus provides a high level status value, intended to align with Red-Yel
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -863,17 +866,17 @@ Strings describing the various OperationalStatus array values. For example, if "
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

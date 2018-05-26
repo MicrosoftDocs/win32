@@ -1,14 +1,20 @@
 ---
 title: DURATION Element
 description: The DURATION element defines the length of time Windows Media Player will render the associated playlist entry.
-ms.assetid: 'fe5c242e-08c9-44f0-a6fc-3f0fa432ba38'
-keywords: ["DURATION Element Windows Media Player"]
+ms.assetid: fe5c242e-08c9-44f0-a6fc-3f0fa432ba38
+keywords:
+- DURATION Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - DURATION Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DURATION Element
@@ -38,7 +44,7 @@ The length of time, in hours, minutes, seconds, and hundredths of a second, that
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +85,9 @@ The **DURATION** element overrides a **PREVIEWDURATION** element.
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

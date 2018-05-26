@@ -4,11 +4,14 @@ description: Creates a UserRights object.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.UserRights.UserRights(Windows.Foundation.Collections.IIterable\`1,Windows.Foundation.Collections.IIterable\`1)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.UserRights.UserRights(Windows.Foundation.Collections.IIterable\`1,Windows.Foundation.Collections.IIterable\`1)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRights constructor", "UserRights constructor, UserRights class", "UserRights class, UserRights constructor"]
+keywords:
+- UserRights constructor
+- UserRights constructor, UserRights class
+- UserRights class, UserRights constructor
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRights.UserRights constructor
@@ -82,9 +88,9 @@ The rights that are granted.
 [**Users**](userrights-users.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

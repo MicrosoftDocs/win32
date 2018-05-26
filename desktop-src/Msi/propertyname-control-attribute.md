@@ -1,7 +1,12 @@
 ---
-Description: 'This is the name of the property associated with this control.'
-ms.assetid: 'f6834427-014b-4c6f-b6bb-d8df6189f43b'
+Description: This is the name of the property associated with this control.
+ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
 title: PropertyName Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PropertyName Control Attribute

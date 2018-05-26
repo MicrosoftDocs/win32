@@ -1,7 +1,12 @@
 ---
 title: sync (sm5 - asm)
 description: Thread group sync or memory barrier.
-ms.assetid: 'DCA637FE-8F5C-41D0-8B5E-F913463BA387'
+ms.assetid: DCA637FE-8F5C-41D0-8B5E-F913463BA387
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sync (sm5 - asm)

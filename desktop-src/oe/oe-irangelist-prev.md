@@ -1,8 +1,11 @@
 ---
 title: IRangeList Prev method
 description: Returns the previous value in the message range list by determining the largest value in the list that is less than the specified value.
-ms.assetid: '7d861405-7cae-4e2c-83d0-a7032bdef626'
-keywords: ["Prev method Windows Mail (formerly Outlook Express)", "Prev method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , Prev method"]
+ms.assetid: 7d861405-7cae-4e2c-83d0-a7032bdef626
+keywords:
+- Prev method Windows Mail (formerly Outlook Express)
+- Prev method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , Prev method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::Prev method
@@ -24,8 +32,8 @@ Returns the previous value in the message range list by determining the largest 
 
 ```C++
 HRESULT Prev(
-  [in]  const ULONG current,
-  [out]       ULONG *pulPrev
+  [in]  const ULONG current,
+  [out]       ULONG *pulPrev
 );
 ```
 
@@ -50,7 +58,7 @@ Specifies a **ULONG** that contains the value to use as the basis for finding th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -69,7 +77,7 @@ Receives a pointer to a **ULONG** that contains the previous number in the range
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,7 +89,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-For example, for the range list "10–20,31,44,50–65", **Prev**(31) returns 20.
+For example, for the range list "10 20,31,44,50 65", **Prev**(31) returns 20.
 
 ## Requirements
 
@@ -89,8 +97,8 @@ For example, for the range list "10–20,31,44,50–65", **Prev**(31) returns 20.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -98,9 +106,9 @@ For example, for the range list "10–20,31,44,50–65", **Prev**(31) returns 20.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

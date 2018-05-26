@@ -1,7 +1,12 @@
-﻿---
-Description: 'The methods in the IPrintPipelineFilter interface are called for initialization and shutdown. A filter must implement these methods.'
-ms.assetid: 'e8841091-1d62-4770-aa85-993b49efbd48'
+---
+Description: The methods in the IPrintPipelineFilter interface are called for initialization and shutdown. A filter must implement these methods.
+ms.assetid: e8841091-1d62-4770-aa85-993b49efbd48
 title: IPrintPipelineFilter interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineFilter interface

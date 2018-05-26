@@ -1,12 +1,17 @@
 ---
-Description: 'The following example reads data written to a log file in the Writing Performance Data to a Log File example.'
-ms.assetid: 'acec1506-473a-43c9-9b57-ad8c00e8f250'
+Description: The following example reads data written to a log file in the Writing Performance Data to a Log File example.
+ms.assetid: acec1506-473a-43c9-9b57-ad8c00e8f250
 title: Reading Performance Data from a Log File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Performance Data from a Log File
 
-The following example reads data written to a log file in the [Writing Performance Data to a Log File](writing-performance-data-to-a-log-file.md) example. It uses the [**PdhCollectQueryData**](pdhcollectquerydata.md) function to retrieve the data from the log file and the [**PdhGetFormattedCounterValue**](pdhgetformattedcountervalue.md) function to format the data for display.
+The following example reads data written to a log file in the [Writing Performance Data to a Log File](writing-performance-data-to-a-log-file.md) example. It uses the [**PdhCollectQueryData**](/windows/win32/Pdh/nf-pdh-pdhcollectquerydata?branch=master) function to retrieve the data from the log file and the [**PdhGetFormattedCounterValue**](/windows/win32/Pdh/nf-pdh-pdhgetformattedcountervalue?branch=master) function to format the data for display.
 
 
 ```C++

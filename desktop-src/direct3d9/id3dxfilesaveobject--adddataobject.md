@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a data object as a child of the ID3DXFileSaveData object.'
-ms.assetid: '710a1588-d766-4555-97a3-4b5a517ce805'
-title: 'ID3DXFileSaveObject::AddDataObject method'
+---
+Description: Adds a data object as a child of the ID3DXFileSaveData object.
+ms.assetid: 710a1588-d766-4555-97a3-4b5a517ce805
+title: ID3DXFileSaveObjectAddDataObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileSaveObject::AddDataObject method

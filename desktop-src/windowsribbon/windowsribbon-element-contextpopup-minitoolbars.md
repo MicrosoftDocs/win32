@@ -1,14 +1,20 @@
 ---
 title: ContextPopup.MiniToolbars property
 description: Represents a container for MiniToolbar elements.
-ms.assetid: '5c17e070-0520-44e6-a066-476107691205'
-keywords: ["ContextPopup.MiniToolbars property Windows Ribbon"]
+ms.assetid: 5c17e070-0520-44e6-a066-476107691205
+keywords:
+- ContextPopup.MiniToolbars property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ContextPopup.MiniToolbars
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextPopup.MiniToolbars property
@@ -152,8 +158,8 @@ This section of code shows the **ContextPopup.MiniToolbars** control declaration
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -164,9 +170,9 @@ This section of code shows the **ContextPopup.MiniToolbars** control declaration
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

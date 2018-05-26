@@ -4,11 +4,14 @@ description: Retrieves whether the \ 0034;prevent license upgrade \ 0034; group 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f78585b8-a50c-402b-ab20-f405eba0c079'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f78585b8-a50c-402b-ab20-f405eba0c079
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsLSPreventUpgradeGPEnabled method Remote Desktop Services", "IsLSPreventUpgradeGPEnabled method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , IsLSPreventUpgradeGPEnabled method"]
+keywords:
+- IsLSPreventUpgradeGPEnabled method Remote Desktop Services
+- IsLSPreventUpgradeGPEnabled method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , IsLSPreventUpgradeGPEnabled method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsLSPreventUpgradeGPEnabled method of the Win32\_TSLicenseServer class
@@ -28,7 +34,7 @@ Retrieves whether the "prevent license upgrade" group policy setting is enabled 
 
 ```mof
 uint32 IsLSPreventUpgradeGPEnabled(
-  [out] boolean Enabled
+  [out] boolean Enabled
 );
 ```
 
@@ -53,7 +59,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 
 You must be a member of the Administrators group to call this method.
 
-If the "prevent license upgrade" policy setting is enabled, the license server will only issue a temporary RDS CAL to the client if an appropriate RDS CAL for the Remote Desktop Session Host (RD Session Host) server is not available.
+If the "prevent license upgrade" policy setting is enabled, the license server will only issue a temporary RDS CAL to the client if an appropriate RDS CAL for the Remote Desktop Session Host (RD Session Host) server is not available.
 
 The policy setting is located in the following node of the local group policy editor:
 
@@ -68,7 +74,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

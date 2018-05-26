@@ -1,8 +1,9 @@
 ---
 title: CardGetFileInfo function
 description: Gets the size and access permissions of a smart card file.
-ms.assetid: '964b6fb3-c7cc-4a9c-a784-3a1297e23bef'
-keywords: ["CardGetFileInfo function Security"]
+ms.assetid: 964b6fb3-c7cc-4a9c-a784-3a1297e23bef
+keywords:
+- CardGetFileInfo function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardGetFileInfo function
@@ -24,10 +30,10 @@ The **CardGetFileInfo** function, defined by a smart card module, gets the size 
 
 ```C++
 DWORD WINAPI CardGetFileInfo(
-  _In_    PCARD_DATA      pCardData,
-  _In_    LPSTR           pszDirectoryName,
-  _In_    LPSTR           pszFileName,
-  _Inout_ PCARD_FILE_INFO pCardFileInfo
+  _In_    PCARD_DATA      pCardData,
+  _In_    LPSTR           pszDirectoryName,
+  _In_    LPSTR           pszFileName,
+  _Inout_ PCARD_FILE_INFO pCardFileInfo
 );
 ```
 
@@ -79,8 +85,8 @@ If the function fails, it returns a nonzero value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -101,9 +107,9 @@ If the function fails, it returns a nonzero value.
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

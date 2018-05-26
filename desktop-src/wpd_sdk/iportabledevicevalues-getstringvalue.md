@@ -1,7 +1,12 @@
 ---
-Description: 'The GetStringValue method retrieves a string value (type VT\_LPWSTR) specified by a key.'
-ms.assetid: 'c6feecc0-7a06-4f78-9cf1-e2897333b62e'
-title: 'IPortableDeviceValues::GetStringValue method'
+Description: The GetStringValue method retrieves a string value (type VT\_LPWSTR) specified by a key.
+ms.assetid: c6feecc0-7a06-4f78-9cf1-e2897333b62e
+title: IPortableDeviceValuesGetStringValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetStringValue method
@@ -13,8 +18,8 @@ The **GetStringValue** method retrieves a string value (type VT\_LPWSTR) specifi
 
 ```C++
 HRESULT GetStringValue(
-  [in]  REFPROPERTYKEY key,
-  [out] LPWSTR         *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] LPWSTR         *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -91,9 +96,9 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 [Retrieving Supported Service Methods](retrieving-supported-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

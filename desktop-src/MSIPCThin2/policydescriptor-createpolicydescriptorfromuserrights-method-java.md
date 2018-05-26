@@ -4,17 +4,21 @@ description: Creates a new policy descriptor using a user rights list.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F18703D7-A031-4016-9750-D0A7D675E81C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F18703D7-A031-4016-9750-D0A7D675E81C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor createPolicyDescriptorFromUserRights method"]
+keywords:
+- PolicyDescriptor createPolicyDescriptorFromUserRights method
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor createPolicyDescriptorFromUserRights method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor createPolicyDescriptorFromUserRights method
@@ -37,7 +41,7 @@ public static PolicyDescriptor createPolicyDescriptorFromUserRights(Collection<U
 
 
 
- 
+ 
 
 ## Returns
 
@@ -57,11 +61,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

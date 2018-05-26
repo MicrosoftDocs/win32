@@ -1,7 +1,12 @@
 ---
 Description: COM+ Transactions Tasks
-ms.assetid: 'fe4374f1-2452-4316-be57-b866c438404d'
+ms.assetid: fe4374f1-2452-4316-be57-b866c438404d
 title: COM+ Transactions Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Transactions Tasks
@@ -22,12 +27,12 @@ The following topics discuss specific programming options related to transaction
 
 
 
- 
+ 
 
 > [!Note]  
 > As a general rule, any component that updates persistent state should support transactions. Components that combine the operations of two or more objects into a single task should use transactions to simplify error recovery. Also, to release resources, such as database connections, transactions in COM+ should be as short as you can make them.
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ The following topics discuss specific programming options related to transaction
 [COM+ Transactions Concepts](com--transactions-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

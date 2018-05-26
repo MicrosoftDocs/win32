@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IScanProfileUI interface enables applications to display a dialog box so that users can create, modify, and delete scan profiles.'
-ms.assetid: 'd0c7edcc-00d8-49b2-a0f7-fe4bbba90bfb'
+---
+Description: The IScanProfileUI interface enables applications to display a dialog box so that users can create, modify, and delete scan profiles.
+ms.assetid: d0c7edcc-00d8-49b2-a0f7-fe4bbba90bfb
 title: IScanProfileUI interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileUI interface

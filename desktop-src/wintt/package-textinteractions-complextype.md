@@ -1,14 +1,20 @@
 ---
 title: TextInteractions Complex Type
 description: Defines a collection of interactions that request input from the user.
-ms.assetid: '8acf4597-322f-4ae9-aa07-115790e612de'
-keywords: ["TextInteractions complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 8acf4597-322f-4ae9-aa07-115790e612de
+keywords:
+- TextInteractions complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - TextInteractions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextInteractions Complex Type
@@ -43,8 +49,8 @@ Defines a collection of interactions that request input from the user.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -58,9 +64,9 @@ Defines a collection of interactions that request input from the user.
 [**TextInteractions (Interactions) Element**](package-textinteractions-interactions-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

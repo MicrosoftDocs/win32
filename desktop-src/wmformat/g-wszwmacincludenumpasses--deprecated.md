@@ -1,8 +1,9 @@
 ---
 title: g\_wszWMACIncludeNumPasses
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: '616dcd0a-b442-430f-bdf7-698fe0ed34ee'
-keywords: ["g_wszWMACIncludeNumPasses windows Media Format"]
+ms.assetid: 616dcd0a-b442-430f-bdf7-698fe0ed34ee
+keywords:
+- g_wszWMACIncludeNumPasses windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmcodecdsp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # g\_wszWMACIncludeNumPasses
@@ -27,9 +33,9 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

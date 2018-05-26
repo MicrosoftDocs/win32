@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ExecuteProgram class represents files that can be executed on the system where the software element is installed.'
+Description: The CIM\_ExecuteProgram class represents files that can be executed on the system where the software element is installed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4329d228-4069-4a5a-b1eb-2dbad9644118'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4329d228-4069-4a5a-b1eb-2dbad9644118
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ExecuteProgram class'
+title: CIM\_ExecuteProgram class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ExecuteProgram class
@@ -19,7 +22,7 @@ The **CIM\_ExecuteProgram** class represents files that can be executed on the s
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -62,7 +65,7 @@ The **CIM\_ExecuteProgram** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -842,8 +845,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -857,9 +860,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Action**](cim-action.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

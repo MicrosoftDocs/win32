@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_GPS\_Speed.'
-ms.assetid: 'decae1d2-d3f8-495a-9fb9-70e48a9ca2cc'
-title: 'System.GPS.SpeedNumerator'
+Description: The numerator of PKEY\_GPS\_Speed.
+ms.assetid: decae1d2-d3f8-495a-9fb9-70e48a9ca2cc
+title: System.GPS.SpeedNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.SpeedNumerator

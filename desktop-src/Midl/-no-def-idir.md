@@ -2,13 +2,19 @@
 title: /no\_def\_idir switch
 description: When directories are specified with the /I switch, the /no\_def\_idir switch instructs the MIDL compiler to search only directories specified with the /I switch.
 ms.assetid: 9a396de4-332d-4832-8e8b-291690cd3a10
-keywords: ["/no_def_idir switch MIDL"]
+keywords:
+- /no_def_idir switch MIDL
 topic_type:
 - apiref
 api_name:
 - /no_def_idir
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /no\_def\_idir switch

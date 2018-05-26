@@ -4,17 +4,21 @@ description: Overrides cluster service determination of filters as incompatible.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93A81F51-EA4C-4EB3-B529-47873D4D0B30'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 93A81F51-EA4C-4EB3-B529-47873D4D0B30
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SharedVolumeCompatibleFilters Failover Cluster"]
+keywords:
+- SharedVolumeCompatibleFilters Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SharedVolumeCompatibleFilters
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SharedVolumeCompatibleFilters
@@ -27,13 +31,13 @@ Overrides cluster service determination of filters as incompatible. Certain clas
 |-----------|------------------------------------------------------------------|
 | Data type | **LPCWSTR** pointer or a **WCHAR** array                         |
 | Access    | [Read/write](read-write-properties.md)                          |
-| Structure | [**CLUSPROP\_MULTI\_SZ**](clusprop-multi-sz.md)                 |
+| Structure | [**CLUSPROP\_MULTI\_SZ**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_sz?branch=master)                 |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +52,7 @@ Compatible filter driver names are specified without the .sys extension.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,9 +63,9 @@ Compatible filter driver names are specified without the .sys extension.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

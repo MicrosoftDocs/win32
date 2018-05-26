@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies that the MFT encoder supports receiving MEEncodingParameter events while streaming.'
-ms.assetid: '8DE04537-641C-4154-9C7F-A7D025CA4C39'
-title: 'MFT\_ENCODER\_SUPPORTS\_CONFIG\_EVENT attribute'
+---
+Description: Specifies that the MFT encoder supports receiving MEEncodingParameter events while streaming.
+ms.assetid: 8DE04537-641C-4154-9C7F-A7D025CA4C39
+title: MFT\_ENCODER\_SUPPORTS\_CONFIG\_EVENT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_ENCODER\_SUPPORTS\_CONFIG\_EVENT attribute
@@ -14,7 +19,7 @@ Specifies that the MFT encoder supports receiving [MEEncodingParameter](meencodi
 
 ## Remarks
 
-Sent by the MFT encoder through [**IMFTransform::ProcessEvent**](imftransform-processevent.md).
+Sent by the MFT encoder through [**IMFTransform::ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master).
 
 ## Requirements
 
@@ -36,7 +41,7 @@ Sent by the MFT encoder through [**IMFTransform::ProcessEvent**](imftransform-pr
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFTransform::ProcessEvent**](imftransform-processevent.md)
+[**IMFTransform::ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master)
 </dt> </dl>
 
  

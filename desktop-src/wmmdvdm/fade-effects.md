@@ -1,8 +1,19 @@
 ---
 title: Fade Effects
 description: Fade Effects
-ms.assetid: 'a820e8ff-fcce-45d3-9a22-df84772c1f6d'
-keywords: ["Windows Movie Maker,fade effects", "Movie Maker,fade effects", "programming reference,Windows Movie Maker effects", "reference for Windows Movie Maker,effects", "fade effects", "effects,fade"]
+ms.assetid: a820e8ff-fcce-45d3-9a22-df84772c1f6d
+keywords:
+- Windows Movie Maker,fade effects
+- Movie Maker,fade effects
+- programming reference,Windows Movie Maker effects
+- reference for Windows Movie Maker,effects
+- fade effects
+- effects,fade
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fade Effects
@@ -79,7 +90,7 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 
 
- 
+ 
 
 ## Customizable Parameters
 
@@ -87,12 +98,12 @@ Following the XML are tables that specify which parameters in this XML can be ch
 
 | Parameter or element | Type   | Range/options | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
 |----------------------|--------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *FadeColor*          | float4 | 0.0 – 1.0     | Represents the color (and alpha value) applied to the image/video.The *FadeColor* is defined as an array of 4 floats. Each float represents a color channel, in this order: Red, Green, Blue, Alpha.<br/>                                                                                                                                                                                                       |
-| **Point**            | float  | 0.0 – 1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
+| *FadeColor*          | float4 | 0.0   1.0     | Represents the color (and alpha value) applied to the image/video.The *FadeColor* is defined as an array of 4 floats. Each float represents a color channel, in this order: Red, Green, Blue, Alpha.<br/>                                                                                                                                                                                                       |
+| **Point**            | float  | 0.0   1.0     | The point within the duration of the effect at which the enclosing element will have the specified **value**. When the **time** attribute is equal to 0.0, it indicates the starting point of the clip; when the **time** attribute is equal to 1.0, it indicates the end point of the clip.For more information on the **Point** element, see [Changes to the XML Schema](changes-to-the-xml-schema.md).<br/> |
 
 
 
- 
+ 
 
 **Note** The "float4" type refers to a comma-delimited array of four floating point numbers. For instance, "(0.0,1.0,0.2,0.4)".
 
@@ -103,9 +114,9 @@ Following the XML are tables that specify which parameters in this XML can be ch
 [**Effects**](effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

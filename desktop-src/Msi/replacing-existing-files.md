@@ -1,7 +1,12 @@
-﻿---
-Description: 'Because unnecessary file copying slows an installation, the Windows Installer determines whether the component''s key file is already installed before attempting to install the files of any component.'
-ms.assetid: '8be734c7-4f16-4f54-93db-bb8efb1ea6da'
+---
+Description: Because unnecessary file copying slows an installation, the Windows Installer determines whether the components key file is already installed before attempting to install the files of any component.
+ms.assetid: 8be734c7-4f16-4f54-93db-bb8efb1ea6da
 title: Replacing Existing Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Replacing Existing Files

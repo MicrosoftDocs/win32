@@ -2,13 +2,16 @@
 title: Set method of the PS\_DAClient class
 description: This cmdlet configures the properties related to a DA client.
 audience: developer
-ms.assetid: 'a7752ac5-2e42-4683-a9dd-e1ea4ed100c6'
-ms.prod: 'windows-server-dev'
+ms.assetid: a7752ac5-2e42-4683-a9dd-e1ea4ed100c6
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DAClient class", "PS_DAClient class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DAClient class
+- PS_DAClient class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DAClient class
@@ -28,12 +34,12 @@ This cmdlet configures the properties related to a DA client.
 
 ```mof
 uint32 Set(
-  [in]  string           ComputerName,
-  [in]  string           ForceTunnel,
-  [in]  string           OnlyRemoteComputers,
-  [in]  string           Downlevel,
-  [in]  boolean          PassThru,
-  [out] DAClientSettings cmdletOutput
+  [in]  string           ComputerName,
+  [in]  string           ForceTunnel,
+  [in]  string           OnlyRemoteComputers,
+  [in]  string           Downlevel,
+  [in]  boolean          PassThru,
+  [out] DAClientSettings cmdletOutput
 );
 ```
 
@@ -134,7 +140,7 @@ Returns the client settings object. By default this cmdlet does not generate any
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -148,9 +154,9 @@ Returns the client settings object. By default this cmdlet does not generate any
 [**PS\_DAClient**](ps-daclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

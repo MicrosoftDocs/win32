@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.value
 description: The value attribute specifies or retrieves the current position of the slider.
-ms.assetid: '29e17f48-1848-458d-9da4-316013b21980'
-keywords: ["CUSTOMSLIDER.value Windows Media Player"]
+ms.assetid: 29e17f48-1848-458d-9da4-316013b21980
+keywords:
+- CUSTOMSLIDER.value Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.value
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.value
@@ -48,9 +54,9 @@ See the [positionImage](customslider-positionimage.md) attribute for a sample il
 [**CUSTOMSLIDER Element**](customslider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

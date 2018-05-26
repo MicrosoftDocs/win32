@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMStretchBltROP function performs a stretching bit-block transfer using a raster operation (ROP).'
-ms.assetid: '2e265dc6-3e04-4f25-ae3b-6cb7ce5ce9ae'
+---
+Description: The OEMStretchBltROP function performs a stretching bit-block transfer using a raster operation (ROP).
+ms.assetid: 2e265dc6-3e04-4f25-ae3b-6cb7ce5ce9ae
 title: OEMStretchBltROP function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMStretchBltROP function

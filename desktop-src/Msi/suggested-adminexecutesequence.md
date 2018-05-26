@@ -1,7 +1,12 @@
 ---
-Description: 'The suggested action sequences for a basic AdminExecuteSequence table in a Windows Installer database.'
-ms.assetid: 'c54181d3-a16a-4007-a9ac-03ace98b637e'
+Description: The suggested action sequences for a basic AdminExecuteSequence table in a Windows Installer database.
+ms.assetid: c54181d3-a16a-4007-a9ac-03ace98b637e
 title: Suggested AdminExecuteSequence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Suggested AdminExecuteSequence

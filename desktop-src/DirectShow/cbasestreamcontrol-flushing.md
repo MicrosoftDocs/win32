@@ -1,7 +1,12 @@
 ---
-Description: 'The Flushing method notifies the base class that the pin has started or stopped flushing.'
-ms.assetid: 'a3c000e1-18a1-48f7-9e2e-fe63cf13fc5c'
-title: 'CBaseStreamControl.Flushing method'
+Description: The Flushing method notifies the base class that the pin has started or stopped flushing.
+ms.assetid: a3c000e1-18a1-48f7-9e2e-fe63cf13fc5c
+title: CBaseStreamControl.Flushing method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.Flushing method
@@ -13,7 +18,7 @@ The `Flushing` method notifies the base class that the pin has started or stoppe
 
 ```C++
 void Flushing(
-   BOOL bInProgress
+   BOOL bInProgress
 );
 ```
 
@@ -36,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-The pin must call this method from within its [**IPin::BeginFlush**](ipin-beginflush.md) and [**IPin::EndFlush**](ipin-endflush.md) methods. Specify **TRUE** in **BeginFlush** and **FALSE** in **EndFlush**.
+The pin must call this method from within its [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) and [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) methods. Specify **TRUE** in **BeginFlush** and **FALSE** in **EndFlush**.
 
 This method causes the [**CBaseStreamControl::CheckStreamState**](cbasestreamcontrol-checkstreamstate.md) method to stop waiting. While the pin is flushing, **CheckStreamState** always returns STREAM\_DISCARDING.
 
@@ -58,9 +63,9 @@ This method causes the [**CBaseStreamControl::CheckStreamState**](cbasestreamcon
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

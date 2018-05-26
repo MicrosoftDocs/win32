@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_DOCUMENT'
-ms.assetid: 'c3859590-7674-4315-b171-3747e5d9350b'
-title: 'WPD\_CONTENT\_TYPE\_DOCUMENT'
+Description: WPD\_CONTENT\_TYPE\_DOCUMENT
+ms.assetid: c3859590-7674-4315-b171-3747e5d9350b
+title: WPD\_CONTENT\_TYPE\_DOCUMENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_DOCUMENT

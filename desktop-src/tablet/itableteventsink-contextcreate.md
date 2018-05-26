@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a new tablet context is created.'
-ms.assetid: '64e1f778-90c1-417d-a80b-37aeecffd411'
-title: 'ITabletEventSink::ContextCreate method'
+Description: Occurs when a new tablet context is created.
+ms.assetid: 64e1f778-90c1-417d-a80b-37aeecffd411
+title: ITabletEventSinkContextCreate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::ContextCreate method
@@ -13,7 +18,7 @@ Occurs when a new tablet context is created.
 
 ```C++
 HRESULT ContextCreate(
-  [in] TABLET_CONTEXT_ID tcid
+  [in] TABLET_CONTEXT_ID tcid
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -64,9 +69,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

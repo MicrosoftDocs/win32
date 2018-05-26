@@ -1,14 +1,20 @@
 ---
 title: GatherCmpAlpha(S,float,float,int2,int2,int2,int2,uint) function
 description: Samples a texture, tests the samples against a compare value, and returns the alpha component along with status about the operation.
-ms.assetid: 'DDE72BD4-5F46-4C65-8C79-6B7A24170918'
-keywords: ["GatherCmpAlpha function HLSL"]
+ms.assetid: DDE72BD4-5F46-4C65-8C79-6B7A24170918
+keywords:
+- GatherCmpAlpha function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherCmpAlpha
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherCmpAlpha(S,float,float,int2,int2,int2,int2,uint) function

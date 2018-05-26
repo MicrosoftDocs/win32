@@ -1,7 +1,12 @@
 ---
-Description: 'The ReconnectPin method breaks an existing pin connection and reconnects it to the same pin, using a specified media type.'
-ms.assetid: '9e2dea49-a2bd-4abd-b896-54b13b2271bb'
-title: 'CBaseFilter.ReconnectPin method'
+Description: The ReconnectPin method breaks an existing pin connection and reconnects it to the same pin, using a specified media type.
+ms.assetid: 9e2dea49-a2bd-4abd-b896-54b13b2271bb
+title: CBaseFilter.ReconnectPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.ReconnectPin method
@@ -13,8 +18,8 @@ The `ReconnectPin` method breaks an existing pin connection and reconnects it to
 
 ```C++
 HRESULT ReconnectPin(
-   IPin                *pPin,
-   AM_MEDIA_TYPE const *pmt
+   IPin                *pPin,
+   AM_MEDIA_TYPE const *pmt
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT ReconnectPin(
 *pPin* 
 </dt> <dd>
 
-Pointer to the pin's [**IPin**](ipin.md) interface.
+Pointer to the pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> <dt>
 
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type, or **NULL**.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type, or **NULL**.
 
 </dd> </dl>
 
@@ -51,11 +56,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method calls the [**IFilterGraph2::ReconnectEx**](ifiltergraph2-reconnectex.md) method on the filter graph manager. If the [**IFilterGraph2**](ifiltergraph2.md) interface is not available, the method calls [**IFilterGraph::Reconnect**](ifiltergraph-reconnect.md).
+This method calls the [**IFilterGraph2::ReconnectEx**](/windows/win32/Strmif/nf-strmif-ifiltergraph2-reconnectex?branch=master) method on the filter graph manager. If the [**IFilterGraph2**](/windows/win32/Strmif/nn-strmif-ifiltergraph2?branch=master) interface is not available, the method calls [**IFilterGraph::Reconnect**](/windows/win32/Strmif/nf-strmif-ifiltergraph-reconnect?branch=master).
 
 ## Requirements
 
@@ -75,9 +80,9 @@ This method calls the [**IFilterGraph2::ReconnectEx**](ifiltergraph2-reconnectex
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

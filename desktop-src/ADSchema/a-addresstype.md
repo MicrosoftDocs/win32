@@ -1,20 +1,25 @@
 ---
 title: Address-Type attribute
-description: A character string that describes the format of the user's address. Address types map to address formats. That is, by looking at a recipient's address type, client applications can determine how to format an address that is appropriate for the recipient.
+description: A character string that describes the format of the users address. Address types map to address formats. That is, by looking at a recipients address type, client applications can determine how to format an address that is appropriate for the recipient.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ff39b1f5-1844-43e9-a4a5-2b5f7c396f34'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ff39b1f5-1844-43e9-a4a5-2b5f7c396f34
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Address-Type attribute AD Schema", "addressType attribute AD Schema"]
+keywords:
+- Address-Type attribute AD Schema
+- addressType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Address-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Address-Type attribute
@@ -38,12 +43,12 @@ A character string that describes the format of the user's address. Address type
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ A character string that describes the format of the user's address. Address type
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,15 @@ description: Shielded VM Provisioning Service WMI Provider enables developers to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '704e38f1-ef69-467f-879f-9a75785946be'
-ms.prod: 'windows-server-dev'
+ms.assetid: 704e38f1-ef69-467f-879f-9a75785946be
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shielded VM Provisioning Service WMI Provider

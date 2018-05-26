@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether an ASF image stream is a degradable JPEG type.'
-ms.assetid: 'e29d0893-8561-4a8c-99e2-168186becd82'
-title: 'MF\_MT\_IMAGE\_LOSS\_TOLERANT attribute'
+---
+Description: Specifies whether an ASF image stream is a degradable JPEG type.
+ms.assetid: e29d0893-8561-4a8c-99e2-168186becd82
+title: MF\_MT\_IMAGE\_LOSS\_TOLERANT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_IMAGE\_LOSS\_TOLERANT attribute
@@ -14,13 +19,13 @@ Specifies whether an ASF image stream is a degradable JPEG type.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 
 ## Remarks
 

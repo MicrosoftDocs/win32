@@ -1,8 +1,13 @@
 ---
-title: \_IVMRCClientControlEvents OnSwitchedDisplay method
+title: '\_IVMRCClientControlEvents OnSwitchedDisplay method'
 description: Called when the VMRC client switches to a different machine.
-ms.assetid: 'dbe36d71-79d6-4e2b-90bb-de16ecf050d1'
-keywords: ["OnSwitchedDisplay method Virtual Server", "OnSwitchedDisplay method Virtual Server , _IVMRCClientControlEvents interface", "_IVMRCClientControlEvents interface Virtual Server , OnSwitchedDisplay method", "OnSwitchedDisplay method Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , OnSwitchedDisplay method"]
+ms.assetid: dbe36d71-79d6-4e2b-90bb-de16ecf050d1
+keywords:
+- OnSwitchedDisplay method Virtual Server
+- OnSwitchedDisplay method Virtual Server , _IVMRCClientControlEvents interface
+- _IVMRCClientControlEvents interface Virtual Server , OnSwitchedDisplay method
+- OnSwitchedDisplay method Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , OnSwitchedDisplay method
 topic_type:
 - apiref
 api_name:
@@ -10,6 +15,11 @@ api_name:
 - VMRCClientControl.OnSwitchedDisplay
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IVMRCClientControlEvents::OnSwitchedDisplay method
@@ -21,7 +31,7 @@ The **OnSwitchedDisplay** method is called when the VMRC client switches to a di
 
 ```C++
 HRESULT OnSwitchedDisplay(
-  [in] BSTR displayName
+  [in] BSTR displayName
 );
 ```
 
@@ -52,8 +62,8 @@ This method is called when the VMRC display is switched from the administrative 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 
 
 
@@ -64,9 +74,9 @@ This method is called when the VMRC display is switched from the administrative 
 [**\_IVMRCClientControlEvents**](-ivmrcclientcontrolevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: GetObjectDataOnClearChannel method
 description: The GetObjectDataOnClearChannel method transfers a block of object data on a clear channel back to Windows Media Device Manager.
-ms.assetid: '62122415-b45b-436e-8c5f-28be759ba8c0'
-keywords: ["GetObjectDataOnClearChannel method windows Media Device Manager"]
+ms.assetid: 62122415-b45b-436e-8c5f-28be759ba8c0
+keywords:
+- GetObjectDataOnClearChannel method windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -12,22 +13,27 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetObjectDataOnClearChannel method
 
 The **GetObjectDataOnClearChannel** method transfers a block of object data on a clear channel back to Windows Media Device Manager.
 
-This method is identical to [**ISCPSecureExchange::ObjectData**](iscpsecureexchange-objectdata.md) except that the data returned by this method is not encrypted. Consequently this method is more efficient.
+This method is identical to [**ISCPSecureExchange::ObjectData**](/windows/win32/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata?branch=master) except that the data returned by this method is not encrypted. Consequently this method is more efficient.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetObjectDataOnClearChannel(
-   IMDSPDevice *pDevice,
-   BYTE        *pData,
-   DWORD       *pdwSize
+   IMDSPDevice *pDevice,
+   BYTE        *pData,
+   DWORD       *pdwSize
 );
 ```
 
@@ -74,13 +80,13 @@ If the method succeeds, it returns S\_OK. If the method fails, it returns an **H
 
 
 
- 
+ 
 
 ## Remarks
 
-To transfer data, Windows Media Device Manager calls the [TransferContainerDataOnClearChannel](iscpsecureexchange3--transfercontainerdataonclearchannel.md) method to obtain the container data. **GetObjectDataOnClearChannel** is then called to transfer blocks of object data from the content provider to Windows Media Device Manager. If S\_OK is returned with *pdwSize* set to zero, Windows Media Device Manager will request no further data.
+To transfer data, Windows Media Device Manager calls the [TransferContainerDataOnClearChannel](/windows/win32/mswmdm/nf-mswmdm-iscpsecureexchange3-transfercontainerdataonclearchannel?branch=master) method to obtain the container data. **GetObjectDataOnClearChannel** is then called to transfer blocks of object data from the content provider to Windows Media Device Manager. If S\_OK is returned with *pdwSize* set to zero, Windows Media Device Manager will request no further data.
 
-This method is identical to [**ISCPSecureExchange::ObjectData**](iscpsecureexchange-objectdata.md) except that the data returned by this method is not encrypted. Consequently this method is more efficient.
+This method is identical to [**ISCPSecureExchange::ObjectData**](/windows/win32/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata?branch=master) except that the data returned by this method is not encrypted. Consequently this method is more efficient.
 
 ## Requirements
 
@@ -97,15 +103,15 @@ This method is identical to [**ISCPSecureExchange::ObjectData**](iscpsecureexcha
 
 <dl> <dt>
 
-[**ISCPSecureExchange::ObjectData**](iscpsecureexchange-objectdata.md)
+[**ISCPSecureExchange::ObjectData**](/windows/win32/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata?branch=master)
 </dt> <dt>
 
-[**ISCPSecureExchange3 Interface**](iscpsecureexchange3.md)
+[**ISCPSecureExchange3 Interface**](/windows/win32/mswmdm/nn-mswmdm-iscpsecureexchange3?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

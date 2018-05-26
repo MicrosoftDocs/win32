@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the longitude destination point is east or west longitude.'
-ms.assetid: '47c3720f-4650-49ad-a32b-9339718d7c8f'
-title: 'System.GPS.DestLongitudeRef'
+Description: Indicates whether the longitude destination point is east or west longitude.
+ms.assetid: 47c3720f-4650-49ad-a32b-9339718d7c8f
+title: System.GPS.DestLongitudeRef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestLongitudeRef

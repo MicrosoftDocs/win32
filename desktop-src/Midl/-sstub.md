@@ -2,13 +2,19 @@
 title: /sstub switch
 description: The /sstub switch specifies the name of the server stub file for an RPC interface.
 ms.assetid: 8e695e81-7c1b-40c0-aeaa-5390512fa099
-keywords: ["/sstub switch MIDL"]
+keywords:
+- /sstub switch MIDL
 topic_type:
 - apiref
 api_name:
 - /sstub
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /sstub switch

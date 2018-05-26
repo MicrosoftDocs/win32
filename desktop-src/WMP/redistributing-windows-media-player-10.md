@@ -1,7 +1,12 @@
 ---
 title: Redistributing Windows Media Player 10
 description: Redistributing Windows Media Player 10
-ms.assetid: '58d601d4-e3d4-4a29-969c-799b2819f92c'
+ms.assetid: 58d601d4-e3d4-4a29-969c-799b2819f92c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Redistributing Windows Media Player 10

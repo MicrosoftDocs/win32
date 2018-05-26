@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the REFERENCE\_TIME value.'
-ms.assetid: '8004f7a2-c882-40dd-a248-cf8da06eebec'
-title: 'CRefTime::m\_time member'
+Description: Specifies the REFERENCE\_TIME value.
+ms.assetid: 8004f7a2-c882-40dd-a248-cf8da06eebec
+title: CRefTimem\_time member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime::m\_time member
@@ -29,9 +34,9 @@ REFERENCE_TIME m_time;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

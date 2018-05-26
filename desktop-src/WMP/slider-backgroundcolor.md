@@ -1,14 +1,20 @@
 ---
 title: SLIDER.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color of the slider control.
-ms.assetid: '8f2c48ec-29f5-4fbe-aa62-c7cfb8a8678c'
-keywords: ["SLIDER.backgroundColor Windows Media Player"]
+ms.assetid: 8f2c48ec-29f5-4fbe-aa62-c7cfb8a8678c
+keywords:
+- SLIDER.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.backgroundColor
@@ -68,9 +74,9 @@ See the *CUSTOMSLIDER*.[positionImage](customslider-positionimage.md) attribute 
 [**SLIDER.foregroundImage**](slider-foregroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

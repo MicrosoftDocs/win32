@@ -1,12 +1,17 @@
-﻿---
-Description: 'The WM\_PAINT message is sent when the system or another application makes a request to paint a portion of an application''s window.'
-ms.assetid: 'afebaa07-cf00-47db-a919-46436f164881'
-title: 'WM\_PAINT message'
+---
+Description: The WM\_PAINT message is sent when the system or another application makes a request to paint a portion of an applications window.
+ms.assetid: afebaa07-cf00-47db-a919-46436f164881
+title: WM\_PAINT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PAINT message
 
-The **WM\_PAINT** message is sent when the system or another application makes a request to paint a portion of an application's window. The message is sent when the [**UpdateWindow**](updatewindow.md) or [**RedrawWindow**](redrawwindow.md) function is called, or by the [**DispatchMessage**](_win32_dispatchmessage_cpp) function when the application obtains a **WM\_PAINT** message by using the [**GetMessage**](_win32_getmessage_cpp) or [**PeekMessage**](_win32_peekmessage_cpp) function.
+The **WM\_PAINT** message is sent when the system or another application makes a request to paint a portion of an application's window. The message is sent when the [**UpdateWindow**](/windows/win32/Winuser/nf-winuser-updatewindow?branch=master) or [**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master) function is called, or by the [**DispatchMessage**](_win32_dispatchmessage_cpp) function when the application obtains a **WM\_PAINT** message by using the [**GetMessage**](_win32_getmessage_cpp) or [**PeekMessage**](_win32_peekmessage_cpp) function.
 
 A window receives this message through its [**WindowProc**](_win32_windowproc_cpp) function.
 
@@ -52,11 +57,11 @@ The [**DefWindowProc**](_win32_defwindowproc_cpp) function validates the update 
 
 The system sends this message when there are no other messages in the application's message queue. [**DispatchMessage**](_win32_dispatchmessage_cpp) determines where to send the message; [**GetMessage**](_win32_getmessage_cpp) determines which message to dispatch. **GetMessage** returns the **WM\_PAINT** message when there are no other messages in the application's message queue, and **DispatchMessage** sends the message to the appropriate window procedure.
 
-A window may receive internal paint messages as a result of calling [**RedrawWindow**](redrawwindow.md) with the RDW\_INTERNALPAINT flag set. In this case, the window may not have an update region. An application may call the [**GetUpdateRect**](getupdaterect.md) function to determine whether the window has an update region. If **GetUpdateRect** returns zero, the application need not call the [**BeginPaint**](beginpaint.md) and [**EndPaint**](endpaint.md) functions.
+A window may receive internal paint messages as a result of calling [**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master) with the RDW\_INTERNALPAINT flag set. In this case, the window may not have an update region. An application may call the [**GetUpdateRect**](/windows/win32/Winuser/nf-winuser-getupdaterect?branch=master) function to determine whether the window has an update region. If **GetUpdateRect** returns zero, the application need not call the [**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master) and [**EndPaint**](/windows/win32/Winuser/nf-winuser-endpaint?branch=master) functions.
 
-An application must check for any necessary internal painting by looking at its internal data structures for each **WM\_PAINT** message, because a **WM\_PAINT** message may have been caused by both a non-NULL update region and a call to [**RedrawWindow**](redrawwindow.md) with the RDW\_INTERNALPAINT flag set.
+An application must check for any necessary internal painting by looking at its internal data structures for each **WM\_PAINT** message, because a **WM\_PAINT** message may have been caused by both a non-NULL update region and a call to [**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master) with the RDW\_INTERNALPAINT flag set.
 
-The system sends an internal **WM\_PAINT** message only once. After an internal **WM\_PAINT** message is returned from [**GetMessage**](_win32_getmessage_cpp) or [**PeekMessage**](_win32_peekmessage_cpp) or is sent to a window by [**UpdateWindow**](updatewindow.md), the system does not post or send further **WM\_PAINT** messages until the window is invalidated or until [**RedrawWindow**](redrawwindow.md) is called again with the RDW\_INTERNALPAINT flag set.
+The system sends an internal **WM\_PAINT** message only once. After an internal **WM\_PAINT** message is returned from [**GetMessage**](_win32_getmessage_cpp) or [**PeekMessage**](_win32_peekmessage_cpp) or is sent to a window by [**UpdateWindow**](/windows/win32/Winuser/nf-winuser-updatewindow?branch=master), the system does not post or send further **WM\_PAINT** messages until the window is invalidated or until [**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master) is called again with the RDW\_INTERNALPAINT flag set.
 
 For some common controls, the default **WM\_PAINT** message processing checks the *wParam* parameter. If *wParam* is non-NULL, the control assumes that the value is an HDC and paints using that device context.
 
@@ -82,7 +87,7 @@ For some common controls, the default **WM\_PAINT** message processing checks th
 [Painting and Drawing Messages](painting-and-drawing-messages.md)
 </dt> <dt>
 
-[**BeginPaint**](beginpaint.md)
+[**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master)
 </dt> <dt>
 
 [**DefWindowProc**](_win32_defwindowproc_cpp)
@@ -91,22 +96,22 @@ For some common controls, the default **WM\_PAINT** message processing checks th
 [**DispatchMessage**](_win32_dispatchmessage_cpp)
 </dt> <dt>
 
-[**EndPaint**](endpaint.md)
+[**EndPaint**](/windows/win32/Winuser/nf-winuser-endpaint?branch=master)
 </dt> <dt>
 
 [**GetMessage**](_win32_getmessage_cpp)
 </dt> <dt>
 
-[**GetUpdateRect**](getupdaterect.md)
+[**GetUpdateRect**](/windows/win32/Winuser/nf-winuser-getupdaterect?branch=master)
 </dt> <dt>
 
 [**PeekMessage**](_win32_peekmessage_cpp)
 </dt> <dt>
 
-[**RedrawWindow**](redrawwindow.md)
+[**RedrawWindow**](/windows/win32/Winuser/nf-winuser-redrawwindow?branch=master)
 </dt> <dt>
 
-[**UpdateWindow**](updatewindow.md)
+[**UpdateWindow**](/windows/win32/Winuser/nf-winuser-updatewindow?branch=master)
 </dt> <dt>
 
 [**WM\_ERASEBKGND**](_win32_wm_erasebkgnd_cpp)

@@ -1,8 +1,15 @@
 ---
 title: Printing an OpenGL Image
 description: You can print OpenGL images rendered in enhanced metafiles.
-ms.assetid: '6099cbe2-82f9-46ec-a3ca-74486c111639'
-keywords: ["OpenGL on Windows,printing", "printing OpenGL images OpenGL"]
+ms.assetid: 6099cbe2-82f9-46ec-a3ca-74486c111639
+keywords:
+- OpenGL on Windows,printing
+- printing OpenGL images OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printing an OpenGL Image

@@ -1,7 +1,12 @@
 ---
 title: Accessing Members Through IDispatch
 description: Demonstrates how to access members through IDispatch.
-ms.assetid: 'f537070d-0dcc-407f-8620-890c337dc1fa'
+ms.assetid: f537070d-0dcc-407f-8620-890c337dc1fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing Members Through IDispatch
@@ -16,13 +21,13 @@ To bind to exposed objects at run time, use the **IDispatch** interface.
 
 3.  Obtain a reference to the object's **IDispatch** interface (if it has implemented one).
 
-4.  Manipulate the object through the methods and properties exposed in its [**IDispatch**](idispatch.md) interface.
+4.  Manipulate the object through the methods and properties exposed in its [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface.
 
-5.  Terminate the object by invoking the appropriate method in its [**IDispatch**](idispatch.md) interface, or by releasing all references to the object.
+5.  Terminate the object by invoking the appropriate method in its [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface, or by releasing all references to the object.
 
 6.  Uninitialize OLE.
 
-The following table shows the minimum set of functions necessary to manipulate a remote object through [**IDispatch**](idispatch.md).
+The following table shows the minimum set of functions necessary to manipulate a remote object through [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master).
 
 
 
@@ -30,17 +35,17 @@ The following table shows the minimum set of functions necessary to manipulate a
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
 | **OleInitialize**<br/>                                | Initializes OLE.<br/>                                                                                                                                          | OLE API function<br/>               |
 | **CoCreateInstance**<br/>                             | Creates an instance of the class **IDispatch::GetTypeInforesented** by the specified CLSID, and returns a pointer to the object's **IUnknown** interface.<br/> | Component object API function<br/>  |
-| **QueryInterface**<br/>                               | Checks whether [**IDispatch**](idispatch.md) has been implemented for the object. If so, returns a pointer to the **IDispatch** implementation.<br/>          | **IUnknown**<br/>                   |
-| [**GetIDsOfNames**](idispatch-getidsofnames.md)<br/> | Returns dispatch identifiers (DISPIDs) for properties and methods and their parameters.<br/>                                                                   | [**IDispatch**](idispatch.md)<br/> |
-| [**Invoke**](idispatch-invoke.md)<br/>               | Invokes a method, or sets or gets a property of the remote object.<br/>                                                                                        | [**IDispatch**](idispatch.md)<br/> |
-| **Release**<br/>                                      | Decrements the reference count for an **IUnknown** or [**IDispatch**](idispatch.md) object.<br/>                                                              | **IUnknown**<br/>                   |
+| **QueryInterface**<br/>                               | Checks whether [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) has been implemented for the object. If so, returns a pointer to the **IDispatch** implementation.<br/>          | **IUnknown**<br/>                   |
+| [**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master)<br/> | Returns dispatch identifiers (DISPIDs) for properties and methods and their parameters.<br/>                                                                   | [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master)<br/> |
+| [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master)<br/>               | Invokes a method, or sets or gets a property of the remote object.<br/>                                                                                        | [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master)<br/> |
+| **Release**<br/>                                      | Decrements the reference count for an **IUnknown** or [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) object.<br/>                                                              | **IUnknown**<br/>                   |
 | **OleUninitialize**<br/>                              | Uninitializes OLE.<br/>                                                                                                                                        | OLE API function<br/>               |
 
 
 
- 
+ 
 
-The following code examples are from a generalized Windows-based ActiveX client. The controller relies on helper functions provided in the file Invhelp.cpp, available in the COM Fundamentals Browse sample. The two functions that follow initialize OLE, and then create an instance of an object and get a pointer to the object's [**IDispatch**](idispatch.md) interface (Invhelp.cpp):
+The following code examples are from a generalized Windows-based ActiveX client. The controller relies on helper functions provided in the file Invhelp.cpp, available in the COM Fundamentals Browse sample. The two functions that follow initialize OLE, and then create an instance of an object and get a pointer to the object's [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface (Invhelp.cpp):
 
 
 ```C++
@@ -91,7 +96,7 @@ error:
 
 
 
-The **CreateObject** function is passed a ProgID and returns a pointer to the [**IDispatch**](idispatch.md) implementation of the specified object. **CreateObject** calls the OLE API [**CLSIDFromProgID**](https://msdn.microsoft.com/library/windows/desktop/ms688386) to get the CLSID that corresponds to the requested object, and then passes the CLSID to **CoCreateInstance** to create an instance of the object and get a pointer to the object's **IUnknown** interface. With this pointer, **CreateObject** calls **IUnknown::QueryInterface**, specifying IID\_IDispatch, to get a pointer to the object's **IDispatch** interface.
+The **CreateObject** function is passed a ProgID and returns a pointer to the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) implementation of the specified object. **CreateObject** calls the OLE API [**CLSIDFromProgID**](https://msdn.microsoft.com/library/windows/desktop/ms688386) to get the CLSID that corresponds to the requested object, and then passes the CLSID to **CoCreateInstance** to create an instance of the object and get a pointer to the object's **IUnknown** interface. With this pointer, **CreateObject** calls **IUnknown::QueryInterface**, specifying IID\_IDispatch, to get a pointer to the object's **IDispatch** interface.
 
 
 ```C++
@@ -211,11 +216,11 @@ cleanup:
 
 
 
-In this example, the [**Invoke**](idispatch-invoke.md) function is a general-purpose function that calls [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) to invoke a property or method of an ActiveX object. As arguments, it accepts the object's [**IDispatch**](idispatch.md) implementation, the name of the member to invoke, flags that control the invocation, and a variable list of the member's arguments. It can be found in the Browse sample in the file Invhelp.cpp.
+In this example, the [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) function is a general-purpose function that calls [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) to invoke a property or method of an ActiveX object. As arguments, it accepts the object's [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) implementation, the name of the member to invoke, flags that control the invocation, and a variable list of the member's arguments. It can be found in the Browse sample in the file Invhelp.cpp.
 
-Using the object's [**IDispatch**](idispatch.md) implementation and the name of the member, it calls [**GetIDsOfNames**](idispatch-getidsofnames.md) to get the DISPID of the requested member. The member's DISPID must be used later, in the call to [**Invoke**](idispatch-invoke.md).
+Using the object's [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) implementation and the name of the member, it calls [**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master) to get the DISPID of the requested member. The member's DISPID must be used later, in the call to [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master).
 
-The invocation flags specify whether a method, PROPERTYPUT, or PROPERTYGET function is being invoked. The helper function simply passes these flags directly to [**Invoke**](idispatch-invoke.md).
+The invocation flags specify whether a method, PROPERTYPUT, or PROPERTYGET function is being invoked. The helper function simply passes these flags directly to [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master).
 
 The helper function next fills in the DISPPARAMS structure with the parameters of the member. DISPPARAMS structures have the following form:
 
@@ -235,7 +240,7 @@ The **rgvarg** field is a pointer to an array of VARIANTARG structures. Each ele
 
 For methods and property get functions, all arguments can be accessed as positional, or they can be accessed as named arguments. Property put functions have a named argument that is the new value for the property. The DISPID of this argument is DISPID\_PROPERTYPUT.
 
-To build the **rgvarg** array, the [**Invoke**](idispatch-invoke.md) helper function retrieves the parameter values and types from its own argument list, and constructs a VARIANTARG structure for each one. (For a description of the format string that specifies the types of the parameters, see the file Invhelp.cpp.) Parameters are put in the array in reverse order, so that the last parameter is in **rgvarg**\[0\], and so forth. Although VARIANTARG has the following five fields, only the first and fifth are used.
+To build the **rgvarg** array, the [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) helper function retrieves the parameter values and types from its own argument list, and constructs a VARIANTARG structure for each one. (For a description of the format string that specifies the types of the parameters, see the file Invhelp.cpp.) Parameters are put in the array in reverse order, so that the last parameter is in **rgvarg**\[0\], and so forth. Although VARIANTARG has the following five fields, only the first and fifth are used.
 
 
 ```C++
@@ -264,7 +269,7 @@ The first field contains the argument's type, and the fifth contains its value. 
 
 In addition, for property put functions, the first element of the **rgdispidNamedArgs** array must contain DISPID\_PROPERTYPUT.
 
-After filling the DISPPARAMS structure, the [**Invoke**](idispatch-invoke.md) helper function initializes pvRet, a variant in which [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) returns a value from the method or property. The following is the actual call to **Invoke**:
+After filling the DISPPARAMS structure, the [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) helper function initializes pvRet, a variant in which [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) returns a value from the method or property. The following is the actual call to **Invoke**:
 
 
 ```C++
@@ -274,15 +279,15 @@ hr = pdisp->Invoke(dispid, IID_NULL, LOCALE_USER_DEFAULT, wFlags,
 
 
 
-The variable pdisp is a pointer to the object's [**IDispatch**](idispatch.md) interface. DISPID indicates the method or property being invoked. The value IID\_NULL must be specified for all [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) calls, and LOCALE\_USER\_DEFAULT is a constant denoting the default locale identifier (LCID) for the current user. In the final two arguments, pexcepinfo and pnArgErr, [**Invoke**](idispatch-invoke.md) can return error information.
+The variable pdisp is a pointer to the object's [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface. DISPID indicates the method or property being invoked. The value IID\_NULL must be specified for all [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) calls, and LOCALE\_USER\_DEFAULT is a constant denoting the default locale identifier (LCID) for the current user. In the final two arguments, pexcepinfo and pnArgErr, [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) can return error information.
 
 If the invoked member has defined an exception handler, it returns exception information in pexcepinfo. If certain errors occur in the argument vector, pnArgErr points to the errant argument. The function return value hr is an HRESULT that indicates success or various types of failure.
 
 For more information, including how to pass optional arguments, see [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D) and [Dispatch Interface and API Functions](75BFF268-BD85-49C4-B761-B557F4B1C588).
 
- 
+ 
 
- 
+ 
 
 
 

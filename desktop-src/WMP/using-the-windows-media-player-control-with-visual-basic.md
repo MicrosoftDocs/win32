@@ -1,8 +1,29 @@
 ---
 title: Using the Windows Media Player Control with Visual Basic
 description: Using the Windows Media Player Control with Visual Basic
-ms.assetid: '83e5440b-096b-42e1-9038-d779895d9519'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,Visual Basic", "Windows Media Player object model,Visual Basic", "object model,Visual Basic", "Windows Media Player Mobile,Visual Basic", "Windows Media Player ActiveX control,Visual Basic", "Windows Media Player Mobile ActiveX control,Visual Basic", "ActiveX control,Visual Basic", "Visual Basic-based program embedding", "embedding,Visual Basic-based programs"]
+ms.assetid: 83e5440b-096b-42e1-9038-d779895d9519
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,Visual Basic
+- Windows Media Player object model,Visual Basic
+- object model,Visual Basic
+- Windows Media Player Mobile,Visual Basic
+- Windows Media Player ActiveX control,Visual Basic
+- Windows Media Player Mobile ActiveX control,Visual Basic
+- ActiveX control,Visual Basic
+- Visual Basic-based program embedding
+- embedding,Visual Basic-based programs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player Control with Visual Basic

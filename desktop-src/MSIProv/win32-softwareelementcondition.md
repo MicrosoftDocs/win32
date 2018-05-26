@@ -1,8 +1,10 @@
 ---
 title: Win32\_SoftwareElementCondition class
 description: The Win32\_SoftwareElementCondition WMI class represents conditional checks that must be evaluated to TRUE before their associated Win32\_SoftwareElement component can be installed.
-ms.assetid: '5c655f11-8d30-47fd-b928-0ae04a87fd4a'
-keywords: ["Win32_SoftwareElementCondition class", "Win32_SoftwareElementCondition class, described"]
+ms.assetid: 5c655f11-8d30-47fd-b928-0ae04a87fd4a
+keywords:
+- Win32_SoftwareElementCondition class
+- Win32_SoftwareElementCondition class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareElementCondition class
@@ -30,7 +37,7 @@ The **Win32\_SoftwareElementCondition** [WMI class](https://msdn.microsoft.com/l
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -40,16 +47,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_SoftwareElementCondition : CIM_Check
 {
-  string  Caption;
-  string  CheckID;
+  string  Caption;
+  string  CheckID;
   boolean CheckMode;
-  string  Condition;
-  string  Description;
-  string  Name;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  string  Condition;
+  string  Description;
+  string  Name;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint16  TargetOperatingSystem;
+  string  Version;
 };
 ```
 
@@ -72,7 +79,7 @@ The **Win32\_SoftwareElementCondition** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -193,7 +200,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -273,7 +280,7 @@ Target operating system of the software element. The possible values for this pr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -300,8 +307,8 @@ The **Win32\_SoftwareElementCondition** class is derived from [**CIM\_Check**](h
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -315,9 +322,9 @@ The **Win32\_SoftwareElementCondition** class is derived from [**CIM\_Check**](h
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: STOWED\_EXCEPTION\_INFORMATION\_HEADER structure
 description: Contains info that identifies the parent structure.
-ms.assetid: '0BC1FDAA-C750-4DEC-AF6A-B2CB3240B67C'
-keywords: ["STOWED_EXCEPTION_INFORMATION_HEADER structure Windows Error Reporting", "PSTOWED_EXCEPTION_INFORMATION_HEADER structure pointer Windows Error Reporting"]
+ms.assetid: 0BC1FDAA-C750-4DEC-AF6A-B2CB3240B67C
+keywords:
+- STOWED_EXCEPTION_INFORMATION_HEADER structure Windows Error Reporting
+- PSTOWED_EXCEPTION_INFORMATION_HEADER structure pointer Windows Error Reporting
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - none
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STOWED\_EXCEPTION\_INFORMATION\_HEADER structure
@@ -62,7 +69,7 @@ A 32-bit value that specifies the signature of the parent structure.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -78,8 +85,8 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                            |
 | Header<br/>                   | <dl> <dt>None</dt> </dl> |
 
 
@@ -91,9 +98,9 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 [**STOWED\_EXCEPTION\_INFORMATION\_V2**](stowed-exception-information-v2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

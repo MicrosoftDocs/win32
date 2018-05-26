@@ -4,11 +4,15 @@ description: This feature is introduced in MMC 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3dc9b2db-1fc0-495b-9acc-3366a24a18a7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3dc9b2db-1fc0-495b-9acc-3366a24a18a7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["dynamic namespace extensions MMC"]
+keywords:
+- dynamic namespace extensions MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Namespace Extensions

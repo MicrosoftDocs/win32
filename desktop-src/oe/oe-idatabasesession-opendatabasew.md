@@ -1,8 +1,11 @@
 ---
 title: IDatabaseSession OpenDatabaseW method
 description: Opens or creates the specified file as a database using the specified schema.
-ms.assetid: '9fe1a259-ff7b-43dc-9f97-2cc1dd1f0bc4'
-keywords: ["OpenDatabaseW method Windows Mail (formerly Outlook Express)", "OpenDatabaseW method Windows Mail (formerly Outlook Express) , IDatabaseSession interface", "IDatabaseSession interface Windows Mail (formerly Outlook Express) , OpenDatabaseW method"]
+ms.assetid: 9fe1a259-ff7b-43dc-9f97-2cc1dd1f0bc4
+keywords:
+- OpenDatabaseW method Windows Mail (formerly Outlook Express)
+- OpenDatabaseW method Windows Mail (formerly Outlook Express) , IDatabaseSession interface
+- IDatabaseSession interface Windows Mail (formerly Outlook Express) , OpenDatabaseW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabaseSession::OpenDatabaseW method
@@ -24,11 +32,11 @@ Opens or creates the specified file as a database using the specified schema.
 
 ```C++
 HRESULT OpenDatabaseW(
-  [in]  LPCWSTR            pszFile,
-  [in]  OPENDATABASEFLAGS  dwFlags,
-  [in]  LPCTABLESCHEMA     pSchema,
-  [in]  IDatabaseExtension *pExtension,
-  [out] IDatabase          **ppDB
+  [in]  LPCWSTR            pszFile,
+  [in]  OPENDATABASEFLAGS  dwFlags,
+  [in]  LPCTABLESCHEMA     pSchema,
+  [in]  IDatabaseExtension *pExtension,
+  [out] IDatabase          **ppDB
 );
 ```
 
@@ -95,16 +103,16 @@ Use the SUCCEEDED macro to determine whether this function failed.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

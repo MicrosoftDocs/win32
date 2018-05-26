@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object that can be used to manage server exclusion policies.'
+Description: Retrieves an object that can be used to manage server exclusion policies.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '4a73bb99-932a-4d56-9148-6d2bf5ddf038'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 4a73bb99-932a-4d56-9148-6d2bf5ddf038
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Enterprise.ExclusionPolicy property'
+title: Enterprise.ExclusionPolicy property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enterprise.ExclusionPolicy property
@@ -98,7 +101,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -110,9 +113,9 @@ END FUNCTION
 [**Enterprise**](enterprise-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_CHARFROMPOS message
 description: Gets information about the character closest to a specified point in the client area of an edit control. You can send this message to either an edit control or a rich edit control.
-ms.assetid: 'fe9f96f2-5b3c-4039-befd-5e9a456ba32d'
-keywords: ["EM_CHARFROMPOS message Windows Controls"]
+ms.assetid: fe9f96f2-5b3c-4039-befd-5e9a456ba32d
+keywords:
+- EM_CHARFROMPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_CHARFROMPOS message
@@ -47,7 +53,7 @@ The coordinates of a point in the control's client area. The coordinates are in 
 
 ## Remarks
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 If a point is passed to **EM\_CHARFROMPOS** as the *lParam* and the point is outside the bounds of the edit control, then the *lResult* is (65535, 65535).
 
@@ -57,8 +63,8 @@ If a point is passed to **EM\_CHARFROMPOS** as the *lParam* and the point is out
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ If a point is passed to **EM\_CHARFROMPOS** as the *lParam* and the point is out
 [**POINTL**](https://msdn.microsoft.com/library/windows/desktop/dd162807)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A service can register to be started or stopped when a trigger event occurs.'
-ms.assetid: 'ca02a3ae-b16a-4427-b6db-b935c9cf23b3'
+Description: A service can register to be started or stopped when a trigger event occurs.
+ms.assetid: ca02a3ae-b16a-4427-b6db-b935c9cf23b3
 title: Service Trigger Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Trigger Events
@@ -12,7 +17,7 @@ A service can register to be started or stopped when a trigger event occurs. Thi
 
 A trigger consists of a trigger event type, a trigger event subtype, the action to be taken in response to the trigger event, and (for certain trigger event types) one or more trigger-specific data items. The subtype and the trigger-specific data items together specify the conditions for notifying the service of the event. The format of a data item depends on the trigger event type; a data item can be binary data, a string, or a multistring. Strings must be Unicode; ANSI strings are not supported.
 
-To register for trigger events, the service calls [**ChangeServiceConfig2**](changeserviceconfig2.md) with **SERVICE\_CONFIG\_TRIGGER\_INFO** and supplies a [**SERVICE\_TRIGGER\_INFO**](service-trigger-info.md) structure. The **SERVICE\_TRIGGER\_INFO** structure points to an array of [**SERVICE\_TRIGGER**](service-trigger.md) structures, each specifying one trigger.
+To register for trigger events, the service calls [**ChangeServiceConfig2**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfig2a?branch=master) with **SERVICE\_CONFIG\_TRIGGER\_INFO** and supplies a [**SERVICE\_TRIGGER\_INFO**](/windows/win32/winsvc/ns-winsvc-_service_trigger_info?branch=master) structure. The **SERVICE\_TRIGGER\_INFO** structure points to an array of [**SERVICE\_TRIGGER**](/windows/win32/winsvc/ns-winsvc-_service_trigger?branch=master) structures, each specifying one trigger.
 
 The specified trigger action is taken if the trigger condition is true when the system starts, or if the trigger condition becomes true while the system is running. For example, if a service registers to be started when a particular device is available, the service is started when the system starts if the device is already plugged in to the computer; the service is started when the device arrives if the user plugs in the device while the system is running.
 
@@ -22,13 +27,13 @@ When a service is started in response to a trigger event, the service receives *
 
 A service that registers to be started in response to a trigger event might stop itself after an idle time-out when the service has no work to do. A service that stops itself must be prepared to handle **SERVICE\_CONTROL\_TRIGGEREVENT** control requests that arrive while the service is stopping itself. The SCM sends a **SERVICE\_CONTROL\_TRIGGEREVENT** control request whenever a new trigger event occurs while the service is in the running state. To avoid losing trigger events, the service should return **ERROR\_SHUTDOWN\_IN\_PROGRESS** for any **SERVICE\_CONTROL\_TRIGGEREVENT** control request that arrives while the service is transitioning from running to stopped. This instructs the SCM to queue trigger events and wait for the service to enter the stopped state. The SCM then takes the action associated with the queued trigger event, such as starting the service.
 
-When the service is ready to handle trigger events again, it sets **SERVICE\_ACCEPT\_TRIGGEREVENT** in its controls-accepted mask in a call to [**SetServiceStatus**](setservicestatus.md). This is usually done when the service calls **SetServiceStatus** with **SERVICE\_RUNNING**. The SCM then issues a **SERVICE\_CONTROL\_TRIGGEREVENT** request for each queued trigger event until the queue is empty.
+When the service is ready to handle trigger events again, it sets **SERVICE\_ACCEPT\_TRIGGEREVENT** in its controls-accepted mask in a call to [**SetServiceStatus**](/windows/win32/Winsvc/nf-winsvc-setservicestatus?branch=master). This is usually done when the service calls **SetServiceStatus** with **SERVICE\_RUNNING**. The SCM then issues a **SERVICE\_CONTROL\_TRIGGEREVENT** request for each queued trigger event until the queue is empty.
 
 A service that has dependent services running cannot be stopped in response to a trigger event.
 
 Trigger-start and trigger-stop requests are not guaranteed under low memory conditions.
 
-Use the [**QueryServiceConfig2**](queryserviceconfig2.md) function to retrieve a service’s trigger event configuration.
+Use the [**QueryServiceConfig2**](/windows/win32/Winsvc/nf-winsvc-queryserviceconfig2a?branch=master) function to retrieve a service’s trigger event configuration.
 
 The SC tool (sc.exe) can be used to configure or query a service’s trigger events at the command prompt. Use the **triggerinfo** option to configure a service to start or stop in response to a trigger event. Use the **qtriggerinfo** option to query the trigger configuration of a service.
 

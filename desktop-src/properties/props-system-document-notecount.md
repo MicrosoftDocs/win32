@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '1bc6af1d-a676-4c0b-898f-a2230f0d02da'
-title: 'System.Document.NoteCount'
+Description: .
+ms.assetid: 1bc6af1d-a676-4c0b-898f-a2230f0d02da
+title: System.Document.NoteCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.NoteCount

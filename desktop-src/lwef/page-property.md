@@ -1,7 +1,12 @@
 ---
 title: Page Property
 description: Page Property
-ms.assetid: 'c3cf07e9-a324-443b-a0c0-2fb80463548f'
+ms.assetid: c3cf07e9-a324-443b-a0c0-2fb80463548f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Page Property
@@ -30,7 +35,7 @@ Returns or sets the page displayed in the Microsoft Agent property sheet window.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -41,11 +46,11 @@ If no speech engine is installed, setting **Page** to **"Speech"** has no effect
 > [!Note]  
 > The user can override this property.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

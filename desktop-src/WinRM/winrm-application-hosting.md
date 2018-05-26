@@ -4,10 +4,13 @@ description: Windows Remote Management 2.0 (WinRM) introduces a hosting framewor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '924dcc70-9a29-45a6-99a2-5681235e4574'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 924dcc70-9a29-45a6-99a2-5681235e4574
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Infrastructure for Managing Hosted Services

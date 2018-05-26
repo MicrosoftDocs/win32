@@ -1,7 +1,12 @@
 ---
 title: Data Structure Sizing Recommendations
 description: Data Structure Sizing Recommendations
-ms.assetid: '14b78674-a32f-489a-bbbb-3254a9ea33a7'
+ms.assetid: 14b78674-a32f-489a-bbbb-3254a9ea33a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Structure Sizing Recommendations

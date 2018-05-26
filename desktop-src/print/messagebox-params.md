@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MESSAGEBOX\_PARAMS structure is used by the SplPromptUIInUsersSession function to hold information about the appearance and behavior of a message box.'
-ms.assetid: '28a94e25-9beb-46a1-9e9d-9fe4823372be'
-title: 'MESSAGEBOX\_PARAMS structure'
+---
+Description: The MESSAGEBOX\_PARAMS structure is used by the SplPromptUIInUsersSession function to hold information about the appearance and behavior of a message box.
+ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
+title: MESSAGEBOX\_PARAMS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESSAGEBOX\_PARAMS structure

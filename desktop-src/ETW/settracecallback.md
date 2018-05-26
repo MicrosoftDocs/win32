@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.'
-ms.assetid: '8663f64f-a203-43e5-94e8-337f2d81c3a0'
+---
+Description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
+ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
 title: SetTraceCallback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetTraceCallback function
@@ -83,7 +88,7 @@ You can only specify one callback function for an event trace class. If you spec
 
 To stop the callback function from receiving events for the event trace class, call the [**RemoveTraceCallback**](removetracecallback.md) function. The callback automatically stops receiving callbacks when you close the trace.
 
-You can use this function to receive events written using one of the [**TraceEvent**](traceevent.md) functions. You cannot use this function to consume events from a provider that used one of the [**EventWrite**](eventwrite-func.md) functions to log events.
+You can use this function to receive events written using one of the [**TraceEvent**](traceevent.md) functions. You cannot use this function to consume events from a provider that used one of the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) functions to log events.
 
 ## Requirements
 

@@ -1,8 +1,11 @@
 ---
 title: LinkCollection Clear method
 description: Deletes all Link objects from the LinkCollection.
-ms.assetid: 'D1E8C7CD-3CAE-4424-A08C-4A3B380EDDFD'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , LinkCollection interface", "LinkCollection interface Access Execution Engine , Clear method"]
+ms.assetid: D1E8C7CD-3CAE-4424-A08C-4A3B380EDDFD
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , LinkCollection interface
+- LinkCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkCollection::Clear method
@@ -46,8 +54,8 @@ A **Link** holds data from a **Links/Link** or **AnalysisLinks/Link** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ A **Link** holds data from a **Links/Link** or **AnalysisLinks/Link** element.
 [**LinkCollection**](linkcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_MonitorResolution class represents the relationship between horizontal and vertical resolutions and the refresh rate and scan mode for a desktop monitor. Values are specified in the video controller object.'
+Description: The CIM\_MonitorResolution class represents the relationship between horizontal and vertical resolutions and the refresh rate and scan mode for a desktop monitor. Values are specified in the video controller object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '064620dd-2d92-42d0-9167-35867830a077'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 064620dd-2d92-42d0-9167-35867830a077
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_MonitorResolution class'
+title: CIM\_MonitorResolution class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MonitorResolution class
@@ -19,7 +22,7 @@ The **CIM\_MonitorResolution** class represents the relationship between horizon
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -247,8 +250,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -262,9 +265,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Setting**](cim-setting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

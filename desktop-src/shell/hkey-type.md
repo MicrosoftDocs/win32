@@ -1,6 +1,11 @@
-﻿---
-Description: 'These data types can be used to specify the type of a registry value.'
+---
+Description: These data types can be used to specify the type of a registry value.
 title: Registry Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Data Types

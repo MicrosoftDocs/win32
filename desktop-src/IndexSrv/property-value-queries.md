@@ -1,7 +1,12 @@
 ---
 title: Property-Value Queries
 description: Property-value queries find documents with value-type properties that match a given criterion.
-ms.assetid: 'c0b0bf19-4ae6-4df4-b457-6e6ea70f6999'
+ms.assetid: c0b0bf19-4ae6-4df4-b457-6e6ea70f6999
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property-Value Queries

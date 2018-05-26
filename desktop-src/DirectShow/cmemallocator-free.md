@@ -1,7 +1,12 @@
 ---
-Description: 'The Free method is called during a decommit operation.'
-ms.assetid: '71a84730-ca71-4418-bf76-52fd42fc7a5a'
-title: 'CMemAllocator.Free method'
+Description: The Free method is called during a decommit operation.
+ms.assetid: 71a84730-ca71-4418-bf76-52fd42fc7a5a
+title: CMemAllocator.Free method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.Free method
@@ -43,9 +48,9 @@ This method does not return a value.
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: D3DCOMPILER\_STRIP\_FLAGS enumeration
 description: Strip flag options.
-ms.assetid: '44e2af42-f5db-4206-aa00-37d070b2ca3b'
-keywords: ["D3DCOMPILER_STRIP_FLAGS enumeration HLSL"]
+ms.assetid: 44e2af42-f5db-4206-aa00-37d070b2ca3b
+keywords:
+- D3DCOMPILER_STRIP_FLAGS enumeration HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3Dcompiler.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOMPILER\_STRIP\_FLAGS enumeration
@@ -99,9 +105,9 @@ These flags are used by [**D3DStripShader**](d3dstripshader.md).
 [Enumerations](dx-graphics-d3dcompiler-reference-enums.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

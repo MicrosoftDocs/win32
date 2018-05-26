@@ -1,7 +1,12 @@
 ---
-Description: 'Orca.exe is a database table editor for creating and editing Windows Installer packages and merge modules.'
-ms.assetid: '4dddc262-1271-4e00-a986-53380b957b17'
-title: 'Orca.exe'
+Description: Orca.exe is a database table editor for creating and editing Windows Installer packages and merge modules.
+ms.assetid: 4dddc262-1271-4e00-a986-53380b957b17
+title: Orca.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Orca.exe

@@ -4,13 +4,16 @@ description: Requests that the Device re-establish its configuration, setup and/
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd652c4c-31b9-4f24-b381-73702cbd1380'
-ms.prod: 'windows-server-dev'
+ms.assetid: bd652c4c-31b9-4f24-b381-73702cbd1380
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RestoreProperties method iSCSI Software Target API", "RestoreProperties method iSCSI Software Target API , CIM_EthernetPort class", "CIM_EthernetPort class iSCSI Software Target API , RestoreProperties method"]
+keywords:
+- RestoreProperties method iSCSI Software Target API
+- RestoreProperties method iSCSI Software Target API , CIM_EthernetPort class
+- CIM_EthernetPort class iSCSI Software Target API , RestoreProperties method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestoreProperties method of the CIM\_EthernetPort class
@@ -45,7 +51,7 @@ This method has no parameters.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -59,9 +65,9 @@ This method has no parameters.
 [**CIM\_EthernetPort**](cim-ethernetport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

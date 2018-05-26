@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VssComponent class
 description: Represents the state of the Volume Shadow Copy Service (VSS) service, which implements the VSS Requester in the guest operating system.
-ms.assetid: '277294d3-e466-4e5e-b286-a99e1c7e5bfb'
-keywords: ["Msvm_VssComponent class Hyper-V", "Msvm_VssComponent class Hyper-V , described"]
+ms.assetid: 277294d3-e466-4e5e-b286-a99e1c7e5bfb
+keywords:
+- Msvm_VssComponent class Hyper-V
+- Msvm_VssComponent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -51,6 +53,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VssComponent class
@@ -65,38 +72,38 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VssComponent : CIM_LogicalDevice
 {
-  string   Caption = "VSS";
-  string   Description = "Microsoft VSS Component";
-  string   ElementName = "VSS";
-  string   Name = "VSS";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 7;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VssComponent";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
+  string   Caption = "VSS";
+  string   Description = "Microsoft VSS Component";
+  string   ElementName = "VSS";
+  string   Name = "VSS";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 7;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VssComponent";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
   datetime InstallDate;
   datetime TimeOfLastStateChange;
-  string   DeviceID = "Microsoft:VMGUID\GUID";
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
+  string   DeviceID = "Microsoft:VMGUID\GUID";
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
 };
 ```
 
@@ -126,7 +133,7 @@ The **Msvm\_VssComponent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -463,7 +470,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 The current status of the element. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
 
-**Windows Server 2008:** The **OperationalStatus**\[0\] property is always set to 2 (OK).
+**Windows Server 2008:** The **OperationalStatus**\[0\] property is always set to 2 (OK).
 
 <dt>
 
@@ -619,7 +626,7 @@ Qualifiers: [**ArrayType**](https://msdn.microsoft.com/library/aa393650) ("Index
 
 Strings that describe the various **OperationalStatus** array values. This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
 
-**Windows Server 2008:** The **OperationalStatus**\[0\] property value is always set to "OK" before Windows Server 2008 R2.
+**Windows Server 2008:** The **OperationalStatus**\[0\] property value is always set to "OK" before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -711,9 +718,9 @@ Access to the **Msvm\_VssComponent** class might be restricted by UAC Filtering.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -732,9 +739,9 @@ Access to the **Msvm\_VssComponent** class might be restricted by UAC Filtering.
 [Integration Services Classes](integration-components-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

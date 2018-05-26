@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a sprite object which is associated with a particular device. Sprite objects are used to draw 2D images to the screen.'
-ms.assetid: '1611073f-0590-415a-8ea5-dc1d224f20b9'
+---
+Description: Creates a sprite object which is associated with a particular device. Sprite objects are used to draw 2D images to the screen.
+ms.assetid: 1611073f-0590-415a-8ea5-dc1d224f20b9
 title: D3DXCreateSprite function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateSprite function
@@ -27,9 +32,9 @@ HRESULT D3DXCreateSprite(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, the device to be associated with the sprite.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, the device to be associated with the sprite.
 
 </dd> <dt>
 

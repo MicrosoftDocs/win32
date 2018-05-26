@@ -4,17 +4,21 @@ description: Signals an invalid parameter exception has occurred. Extends the Pr
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '947c218f-18ad-452e-8d54-c1ecd90bff2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 947c218f-18ad-452e-8d54-c1ecd90bff2a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["InvalidParameterException class"]
+keywords:
+- InvalidParameterException class
 topic_type:
 - apiref
 api_name:
 - InvalidParameterException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InvalidParameterException class
@@ -34,7 +38,7 @@ public class InvalidParameterException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -45,7 +49,7 @@ public class InvalidParameterException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -57,7 +61,7 @@ public class InvalidParameterException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -75,9 +79,9 @@ The **InvalidParameterException** class extends the [**ProtectionException**](pr
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

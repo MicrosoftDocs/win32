@@ -1,15 +1,18 @@
 ---
-Description: 'A instantiable unit of work to run, such as a batch or a print job.'
+Description: A instantiable unit of work to run, such as a batch or a print job.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '931c9f07-10e1-4aee-bc11-5d0d38e34835'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 931c9f07-10e1-4aee-bc11-5d0d38e34835
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ConcreteJob class'
+title: CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ConcreteJob class
@@ -24,42 +27,42 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Version("2.22.0"), AMENDMENT]
 class CIM_ConcreteJob : CIM_Job
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  string   Name;
-  string   InstanceID;
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  string   Name;
+  string   InstanceID;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = "00000000000500.000000:000";
 };
@@ -111,7 +114,7 @@ This method is deprecated. Instead we recommend that you use the <strong>Request
 
 
 
- 
+ 
 
 ### Properties
 
@@ -239,7 +242,7 @@ Access type: Read/write
 > [!Note]  
 > This property will not delete jobs that complete before this property is set to **True**.
 
- 
+ 
 
 This property is inherited from [**CIM\_Job**](cim-job.md).
 
@@ -574,7 +577,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -613,7 +616,7 @@ Run the job once. This is the default value.
 
 </dd> <dt>
 
-2–...
+2 ...
 </dt> <dd>
 
 Run the job for the specified number of times.
@@ -1357,7 +1360,7 @@ The percentage of the job that is complete.
 > [!Note]  
 > The value "101" is undefined and will be not be allowed in the next major revision of the specification.
 
- 
+ 
 
 This property is inherited from [**CIM\_Job**](cim-job.md).
 
@@ -1888,7 +1891,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 > [!Note]  
 > This property is deprecated. Instead we recommend that you use the **RunMonth**, **RunDay**, **RunDayOfWeek**, and **RunStartInterval** properties.
 
- 
+ 
 
 The time when the current job is scheduled to start. This time can be represented by a date and time, or an interval relative to the time when the property is requested. A value of all zeroes indicates that the job is already executing.
 
@@ -2076,7 +2079,7 @@ The date or time when the state of the job last changed.
 > [!Note]  
 > If the state of the Job has not changed and this property is populated, then it must be set to a zero interval value.
 
- 
+ 
 
 </dd> <dt>
 
@@ -2120,16 +2123,16 @@ This property is inherited from [**CIM\_Job**](cim-job.md).
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

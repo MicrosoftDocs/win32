@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETFOOTERITEMRECT message
 description: Gets the coordinates of a footer for a specified item in a list-view control. Send this message explicitly or by using the ListView\_GetFooterItemRect macro.
-ms.assetid: '4a6055d3-1cc1-4c3d-a5f6-006617ff3bce'
-keywords: ["LVM_GETFOOTERITEMRECT message Windows Controls"]
+ms.assetid: 4a6055d3-1cc1-4c3d-a5f6-006617ff3bce
+keywords:
+- LVM_GETFOOTERITEMRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETFOOTERITEMRECT message
 
-Gets the coordinates of a footer for a specified item in a list-view control. Send this message explicitly or by using the [**ListView\_GetFooterItemRect**](listview-getfooteritemrect.md) macro.
+Gets the coordinates of a footer for a specified item in a list-view control. Send this message explicitly or by using the [**ListView\_GetFooterItemRect**](/windows/win32/Commctrl/nf-commctrl-listview_getfooteritemrect?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Security Considerations
 description: This overview provides information about security considerations related to still images. This document does not provide all you need to know about security issues instead, use it as a starting point and reference for this technology area.
-ms.assetid: '5dc0f20e-3f89-4623-8b37-76ea55636845'
-keywords: ["Still Image (STI),security", "STI (Still Image),security", "Still Image API,security", "still images,security", "security for Still Image (STI)"]
+ms.assetid: 5dc0f20e-3f89-4623-8b37-76ea55636845
+keywords:
+- Still Image (STI),security
+- STI (Still Image),security
+- Still Image API,security
+- still images,security
+- security for Still Image (STI)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations

@@ -1,8 +1,39 @@
 ---
 title: Player Object Model for Scripting Languages
 description: Player Object Model for Scripting Languages
-ms.assetid: '785c1a3a-902a-4f30-8419-bbfb11b584a3'
-keywords: ["Windows Media Player,object model", "Windows Media Player object model,about", "object model,about", "Windows Media Player ActiveX control,object model", "ActiveX control,object model", "Windows Media Player Mobile ActiveX control,object model", "Windows Media Player Mobile,object model", "software development kit (SDK),Windows Media Player ActiveX control object model", "SDK (software development kit),Windows Media Player ActiveX control object model", "documentation,Windows Media Player ActiveX control object model", "Windows Media Player,scripting languages", "Windows Media Player object model,scripting languages", "object model,scripting languages", "Windows Media Player ActiveX control,scripting languages", "ActiveX control,scripting languages", "Windows Media Player Mobile ActiveX control,scripting languages", "Windows Media Player Mobile,scripting languages", "scripting languages", "Windows Media Player,Player object", "Windows Media Player object model,Player object", "object model,Player object", "Windows Media Player ActiveX control,Player object", "ActiveX control,Player object", "Windows Media Player Mobile ActiveX control,Player object", "Windows Media Player Mobile,Player object", "Player object"]
+ms.assetid: 785c1a3a-902a-4f30-8419-bbfb11b584a3
+keywords:
+- Windows Media Player,object model
+- Windows Media Player object model,about
+- object model,about
+- Windows Media Player ActiveX control,object model
+- ActiveX control,object model
+- Windows Media Player Mobile ActiveX control,object model
+- Windows Media Player Mobile,object model
+- software development kit (SDK),Windows Media Player ActiveX control object model
+- SDK (software development kit),Windows Media Player ActiveX control object model
+- documentation,Windows Media Player ActiveX control object model
+- Windows Media Player,scripting languages
+- Windows Media Player object model,scripting languages
+- object model,scripting languages
+- Windows Media Player ActiveX control,scripting languages
+- ActiveX control,scripting languages
+- Windows Media Player Mobile ActiveX control,scripting languages
+- Windows Media Player Mobile,scripting languages
+- scripting languages
+- Windows Media Player,Player object
+- Windows Media Player object model,Player object
+- object model,Player object
+- Windows Media Player ActiveX control,Player object
+- ActiveX control,Player object
+- Windows Media Player Mobile ActiveX control,Player object
+- Windows Media Player Mobile,Player object
+- Player object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player Object Model for Scripting Languages

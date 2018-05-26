@@ -1,8 +1,22 @@
 ---
 title: UI Plug-in Options
 description: UI Plug-in Options
-ms.assetid: '3c188506-865c-4e0c-965d-1429eafd01ef'
-keywords: ["Windows Media Player plug-ins,options", "plug-ins,options", "user interface plug-ins,options", "UI plug-ins,options", "settings area plug-ins", "background plug-ins", "separate window plug-ins", "metadata area plug-ins", "display area plug-ins"]
+ms.assetid: 3c188506-865c-4e0c-965d-1429eafd01ef
+keywords:
+- Windows Media Player plug-ins,options
+- plug-ins,options
+- user interface plug-ins,options
+- UI plug-ins,options
+- settings area plug-ins
+- background plug-ins
+- separate window plug-ins
+- metadata area plug-ins
+- display area plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Plug-in Options

@@ -1,7 +1,12 @@
 ---
 title: dispinterface
 description: This statement defines a set of properties and methods on which IDispatch Invoke can be called. A dispinterface can be defined by explicitly listing the set of supported methods and properties (Syntax 1) or by listing a single interface (Syntax 2).
-ms.assetid: 'e8c18ae5-3d9e-4dff-aa20-b5acc723eacf'
+ms.assetid: e8c18ae5-3d9e-4dff-aa20-b5acc723eacf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dispinterface
@@ -46,7 +51,7 @@ The name by which the dispinterface is known in the type library. This name must
 <span id="interfacename"></span><span id="INTERFACENAME"></span>*interfacename*
 </dt> <dd>
 
-(Syntax 2) The name of the interface to declare as an [**IDispatch**](idispatch.md) interface.
+(Syntax 2) The name of the interface to declare as an [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface.
 
 </dd> <dt>
 
@@ -103,7 +108,7 @@ dispinterface helloPro {
 
 This example declares all of the members of the Hello sample and all of the members that it inherits to support IDispatch. In this case, if Hello was declared earlier with lcid and retval members that returned HRESULTs, MIDL would remove each lcidparameter and HRESULT return type, and instead mark the return type as that of the base type of the retval parameter.
 
-The properties and methods of a dispinterface are not part of the VTBL of the dispinterface. Consequently, [**CreateStdDispatch**](createstddispatch.md) and [**DispInvoke**](dispinvoke.md) cannot be used to implement [**IDispatch::Invoke**](idispatch-invoke.md). The dispinterface is used when an application needs to expose existing non-VTBL functions through Automation. These applications can implement **IDispatch::Invoke** by examining the *dispidMember* parameter and directly calling the corresponding function.
+The properties and methods of a dispinterface are not part of the VTBL of the dispinterface. Consequently, [**CreateStdDispatch**](/windows/previous-versions/OleAuto/nf-oleauto-createstddispatch?branch=master) and [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master) cannot be used to implement [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). The dispinterface is used when an application needs to expose existing non-VTBL functions through Automation. These applications can implement **IDispatch::Invoke** by examining the *dispidMember* parameter and directly calling the corresponding function.
 
 ## Example
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resets the current security context of the smart card.'
-ms.assetid: 'fcd55b65-a741-4244-8597-ec61cea3f4b7'
-title: 'ISCardVerify::ResetSecurityState method'
+---
+Description: Resets the current security context of the smart card.
+ms.assetid: fcd55b65-a741-4244-8597-ec61cea3f4b7
+title: ISCardVerifyResetSecurityState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardVerify::ResetSecurityState method
@@ -40,7 +45,7 @@ The method returns one of the following possible values:
 
 ## Remarks
 
-To re-enable the [*security context*](security.s_gly#-security-security-context-gly) without resetting, call [**Unblock**](iscardverify-unblock.md).
+To re-enable the [*security context*](security.s_gly#-security-security-context-gly) without resetting, call [**Unblock**](/windows/win32/mbnapi/?branch=master).
 
 For a list of all the methods defined by this interface, see [**ISCardVerify**](iscardverify.md).
 
@@ -66,7 +71,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 [**ISCardVerify**](iscardverify.md)
 </dt> <dt>
 
-[**Unblock**](iscardverify-unblock.md)
+[**Unblock**](/windows/win32/mbnapi/?branch=master)
 </dt> </dl>
 
  

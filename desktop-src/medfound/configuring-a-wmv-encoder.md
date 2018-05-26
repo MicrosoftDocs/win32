@@ -1,7 +1,12 @@
 ---
 Description: Configuring a WMV Encoder
-ms.assetid: '6e690d17-da17-452a-aa9a-9701a560856b'
+ms.assetid: 6e690d17-da17-452a-aa9a-9701a560856b
 title: Configuring a WMV Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring a WMV Encoder
@@ -17,11 +22,11 @@ The configuration properties are documented in the Windows Media Audio and Video
 
 To get a valid output type for the encoder, perform the following steps.
 
-1.  Use the [**MFTEnum**](mftenum.md) or [**MFTEnumEx**](mftenumex.md) function to create an instance of the encoder.
+1.  Use the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) or [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function to create an instance of the encoder.
 2.  Query the encoder for the **IPropertyStore** interface.
 3.  Use the **IPropertyStore** interface to configure the encoder.
-4.  Call [**IMFTransform::SetInputType**](imftransform-setinputtype.md) to set the uncompressed video type on the encoder.
-5.  Call [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) to get the list of compression formats from the encoder. The WMV encoders do not return a complete media type from this method. The media types are missing two pieces of information:
+4.  Call [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) to set the uncompressed video type on the encoder.
+5.  Call [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) to get the list of compression formats from the encoder. The WMV encoders do not return a complete media type from this method. The media types are missing two pieces of information:
 
     -   The target bitrate.
     -   Private codec data from the encoder.
@@ -30,7 +35,7 @@ To get a valid output type for the encoder, perform the following steps.
 
 6.  To specify the target bitrate, set the [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute on the media type.
 7.  Add the private codec data to the media type, as explained in the next section.
-8.  Call [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) to set the compression media type on the encoder.
+8.  Call [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) to set the compression media type on the encoder.
 
 ### Private Codec Data
 
@@ -38,9 +43,9 @@ The private codec data is an opaque data structure that you must get from the WM
 
 To get the private codec data, perform the following steps:
 
-1.  Call [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) to get a media type from the encoder. (This is step 6 from the previous section.)
+1.  Call [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) to get a media type from the encoder. (This is step 6 from the previous section.)
 2.  Specify the target bitrate by setting the [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute on the media type.
-3.  Convert the media type into a [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure by calling the [**MFInitAMMediaTypeFromMFMediaType**](mfinitammediatypefrommfmediatype.md) function.
+3.  Convert the media type into a [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure by calling the [**MFInitAMMediaTypeFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype?branch=master) function.
 4.  Query the encoder for the **IWMCodecPrivateData** interface.
 5.  Call the **IWMCodecPrivateData::SetPartialOutputType** method, passing in the converted [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure.
 6.  Call the **IWMCodecPrivateData::GetPrivateData** method twice, once to get the size of the buffer for the private data, and once to copy the data into the buffer.

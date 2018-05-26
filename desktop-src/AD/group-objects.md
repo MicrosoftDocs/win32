@@ -4,10 +4,13 @@ description: A group is represented as a group object in Active Directory Domain
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2dd5a293-047a-4639-9c95-7074578952be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2dd5a293-047a-4639-9c95-7074578952be
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Objects
@@ -49,7 +52,7 @@ A group is represented as a [**group**](https://msdn.microsoft.com/library/ms682
 </tr>
 <tr class="even">
 <td><strong>memberOf</strong></td>
-<td>The <strong>memberOf</strong> attribute is a multiple-value attribute that contains the list of distinguished names for groups that contain the group as a member. This attribute lists the groups beneath which the group is directly nested—it does not contain the recursive list of nested predecessors. For example, if group D were nested in group C and group B and group B were nested in group A, the <strong>memberOf</strong> attribute of group D would list group C and group B, but not group A.<br/></td>
+<td>The <strong>memberOf</strong> attribute is a multiple-value attribute that contains the list of distinguished names for groups that contain the group as a member. This attribute lists the groups beneath which the group is directly nested it does not contain the recursive list of nested predecessors. For example, if group D were nested in group C and group B and group B were nested in group A, the <strong>memberOf</strong> attribute of group D would list group C and group B, but not group A.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>objectGUID</strong></td>
@@ -57,18 +60,18 @@ A group is represented as a [**group**](https://msdn.microsoft.com/library/ms682
 </tr>
 <tr class="even">
 <td><strong>objectSid</strong></td>
-<td>The <strong>objectSid</strong> attribute is a single-value attribute that specifies the security identifier (SID) of the group. The SID is a unique value used to identify the group as a security principal. It is a binary value that the system sets when the group is created.<br/> Each group has a unique SID that the Windows NT/Windows 2000 Server domain issues that is stored in the <strong>objectSid</strong> attribute of the group object in the directory. Each time a user logs on, the system retrieves the SID for the groups of which the user is a member and places it in the user's access token. The system uses the SIDs in the user's access token to identify the user and his/her group memberships in all subsequent interactions with Windows NT/Windows 2000 security.<br/> When an SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group.<br/></td>
+<td>The <strong>objectSid</strong> attribute is a single-value attribute that specifies the security identifier (SID) of the group. The SID is a unique value used to identify the group as a security principal. It is a binary value that the system sets when the group is created.<br/> Each group has a unique SID that the Windows NT/Windows 2000 Server domain issues that is stored in the <strong>objectSid</strong> attribute of the group object in the directory. Each time a user logs on, the system retrieves the SID for the groups of which the user is a member and places it in the user's access token. The system uses the SIDs in the user's access token to identify the user and his/her group memberships in all subsequent interactions with Windows NT/Windows 2000 security.<br/> When an SID has been used as the unique identifier for a user or group, it cannot ever be used again to identify another user or group.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>sAMAccountName</strong></td>
-<td>The <strong>sAMAccountName</strong> attribute is a single-value attribute that is the logon name used to support clients and servers from a previous version (Windows 95, Windows 98, and LAN Manager). The <strong>sAMAccountName</strong> should be less than 20 characters to support clients and servers from a previous version.<br/> The <strong>sAMAccountName</strong> must be unique among all security principal objects within a domain.<br/></td>
+<td>The <strong>sAMAccountName</strong> attribute is a single-value attribute that is the logon name used to support clients and servers from a previous version (Windows 95, Windows 98, and LAN Manager). The <strong>sAMAccountName</strong> should be less than 20 characters to support clients and servers from a previous version.<br/> The <strong>sAMAccountName</strong> must be unique among all security principal objects within a domain.<br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Group Types
 
@@ -82,7 +85,7 @@ For more information about group types in Active Directory Domain Services, see 
 
 ## Group Scope
 
-There are three group scopes that are defined by Active Directory Domain Services, *Universal*, *Global* and *Domain Local*. The scope of the group defines what types of object can belong to the group, what types of groups the group can be a member of and the scope of objects that security groups can be given access to. When the domain functional level is set to Windows 2000 mixed mode, security groups with universal scope cannot be created.
+There are three group scopes that are defined by Active Directory Domain Services, *Universal*, *Global* and *Domain Local*. The scope of the group defines what types of object can belong to the group, what types of groups the group can be a member of and the scope of objects that security groups can be given access to. When the domain functional level is set to Windows 2000 mixed mode, security groups with universal scope cannot be created.
 
 The following table lists the three group scopes and more information about each scope for a security group.
 
@@ -94,11 +97,11 @@ The following table lists the three group scopes and more information about each
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

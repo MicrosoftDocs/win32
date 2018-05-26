@@ -1,14 +1,20 @@
 ---
 title: BcdResumeElementTypes enumeration
 description: Specifies the resume loader element types.
-ms.assetid: '8C6A64CA-5113-4318-BEBD-81F6165B0354'
-keywords: ["BcdResumeElementTypes enumeration Boot Config"]
+ms.assetid: 8C6A64CA-5113-4318-BEBD-81F6165B0354
+keywords:
+- BcdResumeElementTypes enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdResumeElementTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdResumeElementTypes enumeration
@@ -20,12 +26,12 @@ Specifies the resume loader element types.
 
 ```C++
 typedef enum _BcdResumeElementTypes { 
-  Reserved1                            = 0x21000001,
-  Reserved2                            = 0x22000002,
-  BcdResumeBoolean_UseCustomSettings   = 0x26000003,
-  BcdResumeDevice_AssociatedOsDevice   = 0x21000005,
-  BcdResumeBoolean_DebugOptionEnabled  = 0x26000006,
-  BcdResumeInteger_BootMenuPolicy      = 0x25000008
+  Reserved1                            = 0x21000001,
+  Reserved2                            = 0x22000002,
+  BcdResumeBoolean_UseCustomSettings   = 0x26000003,
+  BcdResumeDevice_AssociatedOsDevice   = 0x21000005,
+  BcdResumeBoolean_DebugOptionEnabled  = 0x26000006,
+  BcdResumeInteger_BootMenuPolicy      = 0x25000008
 } BcdResumeElementTypes;
 ```
 
@@ -83,14 +89,14 @@ Defines the type of boot menus the system will use. Possible values are **menupo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

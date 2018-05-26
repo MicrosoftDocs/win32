@@ -4,13 +4,16 @@ description: Deletes or starts a job to delete a MSISCSITARGET\_StoragePool inst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '082d3513-611e-490e-bd8f-36f0e4e7cf12'
-ms.prod: 'windows-server-dev'
+ms.assetid: 082d3513-611e-490e-bd8f-36f0e4e7cf12
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteStoragePool method iSCSI Software Target API", "DeleteStoragePool method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class", "MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , DeleteStoragePool method"]
+keywords:
+- DeleteStoragePool method iSCSI Software Target API
+- DeleteStoragePool method iSCSI Software Target API , MSISCSITARGET_StorageConfigurationService class
+- MSISCSITARGET_StorageConfigurationService class iSCSI Software Target API , DeleteStoragePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteStoragePool method of the MSISCSITARGET\_StorageConfigurationService class
@@ -32,8 +38,8 @@ This method is inherited from the **CIM\_StorageConfigurationService** class.
 
 ```mof
 uint32 DeleteStoragePool(
-  [out] CIM_ConcreteJob Ref Job,
-  [in]  CIM_StoragePool Ref Pool
+  [out] CIM_ConcreteJob Ref Job,
+  [in]  CIM_StoragePool Ref Pool
 );
 ```
 
@@ -84,16 +90,16 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -103,7 +109,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -120,9 +126,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_StoragePool**](msiscsitarget-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

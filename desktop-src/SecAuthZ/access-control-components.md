@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the parts of the access control model.'
-ms.assetid: 'cca78195-90f5-45ee-9d16-c445d87e9f5e'
+Description: Explains the parts of the access control model.
+ms.assetid: cca78195-90f5-45ee-9d16-c445d87e9f5e
 title: Parts of the Access Control Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parts of the Access Control Model

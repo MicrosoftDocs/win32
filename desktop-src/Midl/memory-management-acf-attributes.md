@@ -2,7 +2,13 @@
 title: Memory Management ACF Attributes
 description: The attributes listed in the following table enable you to perform memory management from the client side.
 ms.assetid: ca03c7fe-6649-431b-89dc-5d07a3c8d591
-keywords: ["ACF MIDL , attributes, memory management"]
+keywords:
+- ACF MIDL , attributes, memory management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management ACF Attributes

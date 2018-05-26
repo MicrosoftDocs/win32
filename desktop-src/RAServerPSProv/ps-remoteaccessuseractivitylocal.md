@@ -2,13 +2,15 @@
 title: PS\_RemoteAccessUserActivityLocal class
 description: Refers to the resources in corpnet accessed by a user over a remote access connection.
 audience: developer
-ms.assetid: '5b7a94f3-21df-4df1-b794-902a885bc015'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5b7a94f3-21df-4df1-b794-902a885bc015
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_RemoteAccessUserActivityLocal class", "PS_RemoteAccessUserActivityLocal class, described"]
+keywords:
+- PS_RemoteAccessUserActivityLocal class
+- PS_RemoteAccessUserActivityLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_RemoteAccessUserActivityLocal class
@@ -54,7 +59,7 @@ The **PS\_RemoteAccessUserActivityLocal** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,16 +68,16 @@ The **PS\_RemoteAccessUserActivityLocal** class has these methods.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

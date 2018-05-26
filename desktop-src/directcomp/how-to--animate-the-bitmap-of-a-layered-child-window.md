@@ -1,7 +1,12 @@
 ---
 title: How to animate the bitmap of a layered child window
-description: This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visual's content.
-ms.assetid: '8912CCF9-C343-45CB-AB31-55D26C118AF2'
+description: This topic describes how to create and animate a visual that uses the bitmap of a layered child window as the visuals content.
+ms.assetid: 8912CCF9-C343-45CB-AB31-55D26C118AF2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to animate the bitmap of a layered child window
@@ -105,10 +110,10 @@ Create the device object and the composition target object. For more information
 
 Use the following steps to create a visual, set its content property to use the layered child window's bitmap, and then add the visual to the visual tree.
 
-1.  Call [**IDCompositionDevice::CreateVisual**](idcompositiondevice-createvisual.md) to create a visual object.
-2.  Create a Microsoft DirectComposition surface for the layered child window by passing the child window's handle to the [**CreateSurfaceFromHwnd**](idcompositiondevice-createsurfacefromhwnd.md) function.
-3.  Call the visual object's [**IDCompositionVisual::SetContent**](idcompositionvisual-setcontent.md) method to set the new surface as the visual content of the layered child window.
-4.  Add the visual object to the visual tree. To add the visual to the root of the tree, call the [**IDCompositionTarget::SetRoot**](idcompositiontarget-setroot.md) method. To add the visual as a child of another visual, use the [**IDCompositionVisual::AddVisual**](idcompositionvisual-addvisual.md) method of the parent visual.
+1.  Call [**IDCompositionDevice::CreateVisual**](/windows/win32/Dcomp/?branch=master) to create a visual object.
+2.  Create a Microsoft DirectComposition surface for the layered child window by passing the child window's handle to the [**CreateSurfaceFromHwnd**](/windows/win32/Dcomp/?branch=master) function.
+3.  Call the visual object's [**IDCompositionVisual::SetContent**](/windows/win32/Dcomp/?branch=master) method to set the new surface as the visual content of the layered child window.
+4.  Add the visual object to the visual tree. To add the visual to the root of the tree, call the [**IDCompositionTarget::SetRoot**](/windows/win32/Dcomp/?branch=master) method. To add the visual as a child of another visual, use the [**IDCompositionVisual::AddVisual**](/windows/win32/Dcomp/?branch=master) method of the parent visual.
 
 The following example creates a visual object, sets its Content property to use the layered child window's bitmap, and adds the visual to the root of the visual tree.
 
@@ -138,7 +143,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Create an animation object and a scale transform object
 
-Use the [**IDCompositionDevice::CreateAnimation**](idcompositiondevice-createanimation.md) method to create an animation object, and the [**IDCompositionDevice::CreateScaleTransform**](idcompositiondevice-createscaletransform.md) method to create a scale transform object.
+Use the [**IDCompositionDevice::CreateAnimation**](/windows/win32/Dcomp/?branch=master) method to create an animation object, and the [**IDCompositionDevice::CreateScaleTransform**](/windows/win32/Dcomp/?branch=master) method to create a scale transform object.
 
 
 ```C++
@@ -161,7 +166,7 @@ if (SUCCEEDED(hr))
 
 ### Step 5: Build the animation function
 
-Use the methods of the animation object's [**IDCompositionAnimation**](idcompositionanimation.md) interface to build an animation function.
+Use the methods of the animation object's [**IDCompositionAnimation**](/windows/win32/DcompAnimation/nn-dcompanimation-idcompositionanimation?branch=master) interface to build an animation function.
 
 The following example builds a simple animation function that consists of one cubic polynomial segment and one end segment.
 
@@ -180,7 +185,7 @@ pAnimateScale->End(1.0f, 1.0f);
 
 ### Step 6: Apply the animation object to properties of the scale transform object
 
-Use the [**IDCompositionScale::SetScaleX**](idcompositionscaletransform-setscalex-idcompositionanimation.md) and [**SetScaleY**](idcompositionscaletransform-setscaley-idcompositionanimation.md) methods to apply the animation object to the ScaleX and ScaleY properties of the scale transform object.
+Use the [**IDCompositionScale::SetScaleX**](/windows/win32/Dcomp/?branch=master) and [**SetScaleY**](/windows/win32/Dcomp/?branch=master) methods to apply the animation object to the ScaleX and ScaleY properties of the scale transform object.
 
 
 ```C++
@@ -204,7 +209,7 @@ pScale->SetScaleY(pAnimateScale);
 
 ### Step 7: Apply the scale transform object to the transform property of the visual
 
-Use the [**IDCompositionVisual::SetTransform**](idcompositionvisual-settransform-idcompositiontransform.md) method to apply the scale transform object to the Transform property of the visual.
+Use the [**IDCompositionVisual::SetTransform**](/windows/win32/Dcomp/?branch=master) method to apply the scale transform object to the Transform property of the visual.
 
 
 ```C++
@@ -230,7 +235,7 @@ DwmSetWindowAttribute(pDemoApp->m_hwndLayeredChild,
 
 ### Step 9: Commit the composition
 
-Use the [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) method to commit the batch of commands to Microsoft DirectComposition for processing. The animation will appear in the target window.
+Use the [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) method to commit the batch of commands to Microsoft DirectComposition for processing. The animation will appear in the target window.
 
 ### Step 10: Uncloak the layered child window
 

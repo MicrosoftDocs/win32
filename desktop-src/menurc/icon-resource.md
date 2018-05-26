@@ -1,14 +1,20 @@
 ---
 title: ICON resource
 description: Defines a bitmap that defines the shape of the icon to be used for a given application or an animated icon.
-ms.assetid: 'a8e3205e-e17a-4daf-a599-4dc89cb1e640'
-keywords: ["ICON resource Menus and Other Resources"]
+ms.assetid: a8e3205e-e17a-4daf-a599-4dc89cb1e640
+keywords:
+- ICON resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - ICON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICON resource

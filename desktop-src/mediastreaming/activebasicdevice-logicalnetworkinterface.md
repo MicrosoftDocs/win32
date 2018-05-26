@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice LogicalNetworkInterface property
 description: Gets the id of the logical network interface.
-ms.assetid: '47C2E0BE-D3E3-4A9F-9FC6-873882811506'
-keywords: ["LogicalNetworkInterface property Media Streaming API", "LogicalNetworkInterface property Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , LogicalNetworkInterface property"]
+ms.assetid: 47C2E0BE-D3E3-4A9F-9FC6-873882811506
+keywords:
+- LogicalNetworkInterface property Media Streaming API
+- LogicalNetworkInterface property Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , LogicalNetworkInterface property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::LogicalNetworkInterface property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_LogicalNetworkInterface(
-  [out] GUID *value
+  [out] GUID *value
 );
 ```
 
@@ -41,8 +49,8 @@ A pointer to a**GUID** that specifies the id of the logical network interface.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -56,9 +64,9 @@ A pointer to a**GUID** that specifies the id of the logical network interface.
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

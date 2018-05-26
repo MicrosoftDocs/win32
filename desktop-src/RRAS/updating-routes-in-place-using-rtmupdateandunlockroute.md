@@ -1,12 +1,17 @@
 ---
 title: Updating Routes In Place Using RtmUpdateAndUnlockRoute
 description: Updating in place is generally more efficient than updating the routing table with an indirect method such as that used by the RtmAddRouteToDest function.
-ms.assetid: 'd4b0b14e-957a-43d5-bacc-8eee4512e2ab'
+ms.assetid: d4b0b14e-957a-43d5-bacc-8eee4512e2ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Routes In Place Using RtmUpdateAndUnlockRoute
 
-Updating in place is generally more efficient than updating the routing table with an indirect method such as that used by the [**RtmAddRouteToDest**](rtmaddroutetodest.md) function. This method is more efficient because the client is not required to obtain a handle, nor to pass the [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure to and from the routing table manager. This method also takes less time. However, directly updating the routing table can be risky, since the routing table manager is not functioning as an intermediary.
+Updating in place is generally more efficient than updating the routing table with an indirect method such as that used by the [**RtmAddRouteToDest**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddroutetodest?branch=master) function. This method is more efficient because the client is not required to obtain a handle, nor to pass the [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure to and from the routing table manager. This method also takes less time. However, directly updating the routing table can be risky, since the routing table manager is not functioning as an intermediary.
 
 For sample code that shows how to use these functions, see [Update a Route In Place Using RtmUpdateAndUnlockRoute](update-a-route-in-place-using-rtmupdateandunlockroute.md).
 

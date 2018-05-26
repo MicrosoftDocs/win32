@@ -1,7 +1,12 @@
 ---
-Description: 'Step 7.'
-ms.assetid: '12bb1288-e764-4bc1-bea5-196e17cf3557'
-title: 'Step 7. Handle Window Messages'
+Description: Step 7.
+ms.assetid: 12bb1288-e764-4bc1-bea5-196e17cf3557
+title: Step 7. Handle Window Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 7. Handle Window Messages

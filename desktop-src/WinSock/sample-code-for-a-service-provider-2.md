@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains a source code sample that demonstrates how to implement the GetXbyY functions using the new, protocol-independent RNR functions.'
-ms.assetid: 'd6246d47-11c2-4e4b-8a2b-17fd9cb041fc'
+Description: This section contains a source code sample that demonstrates how to implement the GetXbyY functions using the new, protocol-independent RNR functions.
+ms.assetid: d6246d47-11c2-4e4b-8a2b-17fd9cb041fc
 title: Sample Code for a Service Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Code for a Service Provider

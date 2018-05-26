@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates when play rights begin.'
-ms.assetid: 'a5d67f83-ac2c-4d6c-b370-654943670125'
-title: 'System.DRM.DatePlayStarts'
+Description: Indicates when play rights begin.
+ms.assetid: a5d67f83-ac2c-4d6c-b370-654943670125
+title: System.DRM.DatePlayStarts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DRM.DatePlayStarts

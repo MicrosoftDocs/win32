@@ -4,11 +4,17 @@ description: To enable this option, set the PasswordExpired attribute of the use
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '97dd4232-dcd3-44bd-8a2a-1dcb0f85d53c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 97dd4232-dcd3-44bd-8a2a-1dcb0f85d53c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["User Must Change Password at Next Logon (WinNT Provider) ADSI", "User Must Change Password at Next Logon ADSI , WinNT provider", "WinNT provider ADSI , user management examples, User Must Change Password at Next Logon"]
+keywords:
+- User Must Change Password at Next Logon (WinNT Provider) ADSI
+- User Must Change Password at Next Logon ADSI , WinNT provider
+- WinNT provider ADSI , user management examples, User Must Change Password at Next Logon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Must Change Password at Next Logon (WinNT Provider)

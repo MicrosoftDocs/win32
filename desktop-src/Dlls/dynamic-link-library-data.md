@@ -1,7 +1,12 @@
 ---
-Description: 'A Dynamic-Link Library (DLL) can contain global data or local data.'
-ms.assetid: 'b1f6811e-c413-4124-9ccb-ea59b7a8a7ff'
-title: 'Dynamic-Link Library Data'
+Description: A Dynamic-Link Library (DLL) can contain global data or local data.
+ms.assetid: b1f6811e-c413-4124-9ccb-ea59b7a8a7ff
+title: Dynamic-Link Library Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic-Link Library Data
@@ -27,7 +32,7 @@ A DLL can use file mapping to allocate memory that can be shared among processes
 
 The thread local storage (TLS) functions enable a DLL to allocate an index for storing and retrieving a different value for each thread of a multithreaded process. For example, a spreadsheet application can create a new instance of the same thread each time the user opens a new spreadsheet. A DLL providing the functions for various spreadsheet operations can use TLS to save information about the current state of each spreadsheet (row, column, and so on). For a general discussion of thread local storage, see [Thread Local Storage](https://msdn.microsoft.com/library/windows/desktop/ms686749). For an example that uses the [**DllMain**](dllmain.md) function to set up thread local storage, see [Using Thread Local Storage in a Dynamic-Link Library](using-thread-local-storage-in-a-dynamic-link-library.md).
 
-**Windows Server 2003 and Windows XP:** The Visual C++ compiler supports a syntax that enables you to declare thread-local variables: **\_declspec(thread)**. If you use this syntax in a DLL, you will not be able to load the DLL explicitly using [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](loadlibraryex.md) on versions of Windows prior to Windows Vista. If your DLL will be loaded explicitly, you must use the thread local storage functions instead of **\_declspec(thread)**.
+**Windows Server 2003 and Windows XP:** The Visual C++ compiler supports a syntax that enables you to declare thread-local variables: **\_declspec(thread)**. If you use this syntax in a DLL, you will not be able to load the DLL explicitly using [**LoadLibrary**](loadlibrary.md) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) on versions of Windows prior to Windows Vista. If your DLL will be loaded explicitly, you must use the thread local storage functions instead of **\_declspec(thread)**.
 
  
 

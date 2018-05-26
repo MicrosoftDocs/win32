@@ -4,11 +4,14 @@ description: Read/write common properties of a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14f80d93-541c-4893-8aa6-7b4ba90ecdea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 14f80d93-541c-4893-8aa6-7b4ba90ecdea
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CommonProperties property Failover Cluster", "CommonProperties property Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , CommonProperties property"]
+keywords:
+- CommonProperties property Failover Cluster
+- CommonProperties property Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , CommonProperties property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.CommonProperties property
@@ -47,7 +53,7 @@ A [**ClusProperties**](clusproperties-collection.md) collection that receives th
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +75,9 @@ A [**ClusProperties**](clusproperties-collection.md) collection that receives th
 [**ClusResource.CommonROProperties**](clusresource-commonroproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

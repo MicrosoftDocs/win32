@@ -4,11 +4,13 @@ description: Represents the DS\_REPL\_NEIGHBOR structure, which contains the inb
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fdd3934b-a3f6-49ad-827b-077bcd21cf23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fdd3934b-a3f6-49ad-827b-077bcd21cf23
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["MSAD_ReplNeighbor class Active Directory", "MSAD_ReplNeighbor class Active Directory , described"]
+keywords:
+- MSAD_ReplNeighbor class Active Directory
+- MSAD_ReplNeighbor class Active Directory , described
 topic_type:
 - apiref
 api_name:
@@ -49,11 +51,14 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSAD\_ReplNeighbor class
 
-Represents the [**DS\_REPL\_NEIGHBOR**](ds-repl-neighbor.md) structure, which contains the inbound replication state information for a particular naming context (NC) and source server pair, as returned by the [**DsReplicaGetInfo**](dsreplicagetinfo.md) function.
+Represents the [**DS\_REPL\_NEIGHBOR**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_neighborw?branch=master) structure, which contains the inbound replication state information for a particular naming context (NC) and source server pair, as returned by the [**DsReplicaGetInfo**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicagetinfow?branch=master) function.
 
 ## Syntax
 
@@ -61,38 +66,38 @@ Represents the [**DS\_REPL\_NEIGHBOR**](ds-repl-neighbor.md) structure, which co
 [dynamic, provider("ReplProv1")]
 class MSAD_ReplNeighbor
 {
-  String   NamingContextDN;
-  String   SourceDsaObjGuid;
-  String   NamingContextObjGuid;
-  String   SourceDsaDN;
-  String   SourceDsaAddress;
-  String   SourceDsaInvocationID;
-  String   AsyncIntersiteTransportDN;
-  String   AsyncIntersiteTransportObjGuid;
-  uint64   USNLastObjChangeSynced;
-  uint64   USNAttributeFilter;
+  String   NamingContextDN;
+  String   SourceDsaObjGuid;
+  String   NamingContextObjGuid;
+  String   SourceDsaDN;
+  String   SourceDsaAddress;
+  String   SourceDsaInvocationID;
+  String   AsyncIntersiteTransportDN;
+  String   AsyncIntersiteTransportObjGuid;
+  uint64   USNLastObjChangeSynced;
+  uint64   USNAttributeFilter;
   datetime TimeOfLastSyncSuccess;
   datetime TimeOfLastSyncAttempt;
-  uint32   LastSyncResult;
-  uint32   NumConsecutiveSyncFailures;
-  uint32   ReplicaFlags;
-  boolean  Writeable = FALSE;
-  boolean  SyncOnStartup = FALSE;
-  boolean  DoScheduledSyncs = FALSE;
-  boolean  UseAsyncIntersiteTransport = FALSE;
-  boolean  TwoWaySync = FALSE;
-  boolean  FullSyncInProgress = FALSE;
-  boolean  FullSyncNextPacket = FALSE;
-  boolean  NeverSynced = FALSE;
-  boolean  IgnoreChangeNotifications = FALSE;
-  boolean  DisableScheduledSync = FALSE;
-  boolean  CompressChanges = FALSE;
-  boolean  NoChangeNotifications = FALSE;
-  String   SourceDsaSite;
-  String   SourceDsaCN;
-  String   Domain;
-  boolean  IsDeletedSourceDsa = FALSE;
-  uint32   ModifiedNumConsecutiveSyncFailures;
+  uint32   LastSyncResult;
+  uint32   NumConsecutiveSyncFailures;
+  uint32   ReplicaFlags;
+  boolean  Writeable = FALSE;
+  boolean  SyncOnStartup = FALSE;
+  boolean  DoScheduledSyncs = FALSE;
+  boolean  UseAsyncIntersiteTransport = FALSE;
+  boolean  TwoWaySync = FALSE;
+  boolean  FullSyncInProgress = FALSE;
+  boolean  FullSyncNextPacket = FALSE;
+  boolean  NeverSynced = FALSE;
+  boolean  IgnoreChangeNotifications = FALSE;
+  boolean  DisableScheduledSync = FALSE;
+  boolean  CompressChanges = FALSE;
+  boolean  NoChangeNotifications = FALSE;
+  String   SourceDsaSite;
+  String   SourceDsaCN;
+  String   Domain;
+  boolean  IsDeletedSourceDsa = FALSE;
+  uint32   ModifiedNumConsecutiveSyncFailures;
 };
 ```
 
@@ -115,7 +120,7 @@ The **MSAD\_ReplNeighbor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -433,7 +438,7 @@ This neighbor is in a state where it returns parent objects before children obje
 
 </dt> <dd>
 
-The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (such as [**DS\_REPL\_CURSORS**](ds-repl-cursors.md)) for filtering updates. Full synchronizations are not used as a part of the default replication protocol.
+The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (such as [**DS\_REPL\_CURSORS**](/windows/win32/Ntdsapi/ns-ntdsapi-_ds_repl_cursors?branch=master)) for filtering updates. Full synchronizations are not used as a part of the default replication protocol.
 
 </dd> <dt>
 
@@ -541,7 +546,7 @@ Gets the DNS address of the source DC.
 > [!Note]  
 > This string contains a modified GUID, not the commonly used canonical DNS name.
 
- 
+ 
 
 </dd> <dt>
 
@@ -724,16 +729,16 @@ Gets the value that indicates whether the **DS\_REPL\_NBR\_WRITEABLE** flag has 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

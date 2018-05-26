@@ -1,8 +1,14 @@
 ---
-title: What's New in the BCD WMI Provider
+title: Whats New in the BCD WMI Provider
 description: Windows 7 and Windows Server 2008 R2 include the following new programming elements in the Boot Configuration Data (BCD) Windows Management Instrumentation (WMI) provider.
-ms.assetid: '4e6397fd-7083-4e9f-bbc5-2a7323bcb9ae'
-keywords: ["Boot Configuration Data WMI Provider Boot Config , what's new"]
+ms.assetid: 4e6397fd-7083-4e9f-bbc5-2a7323bcb9ae
+keywords:
+- Boot Configuration Data WMI Provider Boot Config , whats new
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in the BCD WMI Provider

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the URL of the IFO (DVD Information) file specified by the HTTP server in the HTTP header, &\#0034;Pragma: ifoFileURI.dlna.org&\#0034;.'
-ms.assetid: '007e0f4d-fb37-4dec-96a7-311df567eb04'
-title: 'MF\_BYTESTREAM\_IFO\_FILE\_URI attribute'
+---
+Description: Contains the URL of the IFO (DVD Information) file specified by the HTTP server in the HTTP header, &\#0034;Pragma ifoFileURI.dlna.org&\#0034;.
+ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
+title: MF\_BYTESTREAM\_IFO\_FILE\_URI attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_BYTESTREAM\_IFO\_FILE\_URI attribute
@@ -14,13 +19,13 @@ Contains the URL of the IFO (DVD Information) file specified by the HTTP server 
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetString**](imfattributes-getstring.md).
+To get this attribute, call [**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetString**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Applies to
 
-[**IMFByteStream**](imfbytestream.md)
+[**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master)
 
 ## Remarks
 
@@ -50,7 +55,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Byte Stream Attributes](byte-stream-attributes.md)
 </dt> <dt>
 
-[**IMFByteStream**](imfbytestream.md)
+[**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master)
 </dt> </dl>
 
  

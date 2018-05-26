@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the handle for the server-side printer that is used to make direct API calls from the client to the server without the overhead of the RPC.'
-ms.assetid: '713246FE-355B-4C01-A8DF-535BDBA0FCB8'
-title: 'SPLCLIENT\_INFO\_2\_W2K structure'
+---
+Description: Contains the handle for the server-side printer that is used to make direct API calls from the client to the server without the overhead of the RPC.
+ms.assetid: 713246FE-355B-4C01-A8DF-535BDBA0FCB8
+title: SPLCLIENT\_INFO\_2\_W2K structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPLCLIENT\_INFO\_2\_W2K structure

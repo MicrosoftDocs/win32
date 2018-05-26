@@ -1,7 +1,12 @@
 ---
 title: VML Text-Decoration Attribute
 description: VML Text-Decoration Attribute
-ms.assetid: 'a64985bd-d025-4e9c-bb4b-bf0450d5143a'
+ms.assetid: a64985bd-d025-4e9c-bb4b-bf0450d5143a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Text-Decoration Attribute

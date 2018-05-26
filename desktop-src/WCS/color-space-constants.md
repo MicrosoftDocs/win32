@@ -1,7 +1,12 @@
 ---
 title: Color Space Constants
 description: A signature value that indicates the color space in which the profile data is defined.
-ms.assetid: '714c122f-3d68-4466-900c-1d129e544d45'
+ms.assetid: 714c122f-3d68-4466-900c-1d129e544d45
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Space Constants

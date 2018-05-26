@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates the second constant (in register src3) for the sincos - ps pixel shader instruction.'
-ms.assetid: '267afcb4-660f-4ef8-b77f-d9cbb91e81e3'
+---
+Description: Creates the second constant (in register src3) for the sincos - ps pixel shader instruction.
+ms.assetid: 267afcb4-660f-4ef8-b77f-d9cbb91e81e3
 title: D3DSINCOSCONST2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSINCOSCONST2

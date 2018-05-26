@@ -1,7 +1,12 @@
 ---
-Description: 'Contains one or more Animation objects. Each animation within an animation set has the same time at any given point. Increasing the animation set''s time increases the time for all the animations it contains.'
-ms.assetid: 'a0c559f9-f74f-4ac2-96bf-4cd7d5ae4c55'
+Description: Contains one or more Animation objects. Each animation within an animation set has the same time at any given point. Increasing the animation sets time increases the time for all the animations it contains.
+ms.assetid: a0c559f9-f74f-4ac2-96bf-4cd7d5ae4c55
 title: AnimationSet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnimationSet

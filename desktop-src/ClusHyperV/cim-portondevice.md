@@ -4,13 +4,15 @@ description: Represents an association between a port or connection point and a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7e8ab5c9-e002-4814-8db0-ac67e04798df'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7e8ab5c9-e002-4814-8db0-ac67e04798df
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_PortOnDevice class", "CIM_PortOnDevice class, described"]
+keywords:
+- CIM_PortOnDevice class
+- CIM_PortOnDevice class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PortOnDevice class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_PortOnDevice : CIM_HostedDependency
 {
   CIM_LogicalDevice REF Antecedent;
-  CIM_LogicalPort   REF Dependent;
+  CIM_LogicalPort   REF Dependent;
 };
 ```
 
@@ -91,7 +96,7 @@ The port on the device.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ The port on the device.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

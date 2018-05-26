@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the data in an index buffer.'
-ms.assetid: '8e14a047-a8a6-4763-88c7-3b439044eeb4'
-title: 'ID3DXBaseMesh::GetIndexBuffer method'
+---
+Description: Retrieves the data in an index buffer.
+ms.assetid: 8e14a047-a8a6-4763-88c7-3b439044eeb4
+title: ID3DXBaseMeshGetIndexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::GetIndexBuffer method
@@ -26,9 +31,9 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](idirect3dindexbuffer9.md)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DIndexBuffer9**](idirect3dindexbuffer9.md) interface, representing the index buffer object associated with the mesh.
+Address of a pointer to an [**IDirect3DIndexBuffer9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master) interface, representing the index buffer object associated with the mesh.
 
 </dd> </dl>
 

@@ -1,8 +1,24 @@
 ---
 title: Mapping Waveform-Audio Devices
 description: Mapping Waveform-Audio Devices
-ms.assetid: 'e23919c9-c5fa-4406-920c-1fdbeea4821d'
-keywords: ["multimedia audio,mapping waveform-audio devices", "audio,mapping waveform-audio devices", "audio compression manager (ACM),mapping waveform-audio devices", "ACM (audio compression manager),mapping waveform-audio devices", "mapping waveform-audio devices", "multimedia audio,mapper", "audio,mapper", "audio compression manager (ACM),mapper", "ACM (audio compression manager),mapper", "mapper", "waveform audio,mapping devices"]
+ms.assetid: e23919c9-c5fa-4406-920c-1fdbeea4821d
+keywords:
+- multimedia audio,mapping waveform-audio devices
+- audio,mapping waveform-audio devices
+- audio compression manager (ACM),mapping waveform-audio devices
+- ACM (audio compression manager),mapping waveform-audio devices
+- mapping waveform-audio devices
+- multimedia audio,mapper
+- audio,mapper
+- audio compression manager (ACM),mapper
+- ACM (audio compression manager),mapper
+- mapper
+- waveform audio,mapping devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Waveform-Audio Devices

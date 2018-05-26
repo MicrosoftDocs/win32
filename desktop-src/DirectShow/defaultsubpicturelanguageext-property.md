@@ -1,7 +1,12 @@
 ---
-Description: 'The DefaultSubpictureLanguageExt property retrieves the default DVD subpicture language extension.'
-ms.assetid: 'bd437844-6e5c-4237-a968-700a53e18635'
+Description: The DefaultSubpictureLanguageExt property retrieves the default DVD subpicture language extension.
+ms.assetid: bd437844-6e5c-4237-a968-700a53e18635
 title: DefaultSubpictureLanguageExt Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultSubpictureLanguageExt Property

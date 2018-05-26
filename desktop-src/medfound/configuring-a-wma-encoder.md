@@ -1,7 +1,12 @@
 ---
 Description: Setting an Output Type for a WMA Encoder
-ms.assetid: '0a1a22bb-460f-4ac2-be76-4249997441de'
+ms.assetid: 0a1a22bb-460f-4ac2-be76-4249997441de
 title: Setting an Output Type for a WMA Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting an Output Type for a WMA Encoder
@@ -17,22 +22,22 @@ To create a valid output type for a Windows Media Audio (WMA) encoder, you must 
 
 To get a valid output type for the encoder, perform the following steps.
 
-1.  Use the [**MFTEnum**](mftenum.md) or [**MFTEnumEx**](mftenumex.md) function to create an instance of the encoder.
+1.  Use the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) or [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function to create an instance of the encoder.
 2.  Query the encoder for the **IPropertyStore** interface.
 3.  Use the **IPropertyStore** interface to configure the encoder.
-4.  Retrieve the supported output types by calling [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) in a loop until the encoder returns **MF\_E\_NO\_MORE\_TYPES** and you choose the target media type. I
-5.  Call [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) to set the compression media type on the encoder.
+4.  Retrieve the supported output types by calling [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) in a loop until the encoder returns **MF\_E\_NO\_MORE\_TYPES** and you choose the target media type. I
+5.  Call [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) to set the compression media type on the encoder.
 
 ### Windows 7
 
-To get a valid output type for the encoder in Windows 7, Media Foundation provides the [**MFTranscodeGetAudioOutputAvailableTypes**](mftranscodegetaudiooutputavailabletypes.md) function. An application must pass required the audio subtype that repesents the encoded WMA and the encoding properties. The properties are required because the encoder changes the supported output types depending upon the mode set.
+To get a valid output type for the encoder in Windows 7, Media Foundation provides the [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/win32/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes?branch=master) function. An application must pass required the audio subtype that repesents the encoded WMA and the encoding properties. The properties are required because the encoder changes the supported output types depending upon the mode set.
 
 > [!Note]  
-> [**MFTranscodeGetAudioOutputAvailableTypes**](mftranscodegetaudiooutputavailabletypes.md)is only supported for [Constant Bit Rate Encoding](constant-bit-rate-encoding.md).
+> [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/win32/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes?branch=master)is only supported for [Constant Bit Rate Encoding](constant-bit-rate-encoding.md).
 
  
 
-If the call succeeds, the application receives a list of IUnknown pointers of the supported output media types in an [**IMFCollection**](imfcollection.md) object. To set the output media type, find the one that matches your target type and call [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) to set the compression media type on the encoder.
+If the call succeeds, the application receives a list of IUnknown pointers of the supported output media types in an [**IMFCollection**](/windows/win32/mfobjects/nn-mfobjects-imfcollection?branch=master) object. To set the output media type, find the one that matches your target type and call [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) to set the compression media type on the encoder.
 
 ## Related topics
 

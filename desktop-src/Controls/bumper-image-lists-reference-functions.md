@@ -1,51 +1,56 @@
 ---
 title: Image List Functions
 description: .
-ms.assetid: 'b5754633-f673-414e-9e0b-3f6f211ecd2a'
+ms.assetid: b5754633-f673-414e-9e0b-3f6f211ecd2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image List Functions
 
 ## In This Section
 
--   [**HIMAGELIST\_QueryInterface**](himagelist-queryinterface.md)
--   [**ImageList\_Add**](imagelist-add.md)
--   [**ImageList\_AddMasked**](imagelist-addmasked.md)
--   [**ImageList\_BeginDrag**](imagelist-begindrag.md)
--   [**ImageList\_CoCreateInstance**](imagelist-cocreateinstance.md)
--   [**ImageList\_Copy**](imagelist-copy.md)
--   [**ImageList\_Create**](imagelist-create.md)
--   [**ImageList\_Destroy**](imagelist-destroy.md)
--   [**ImageList\_DragEnter**](imagelist-dragenter.md)
--   [**ImageList\_DragLeave**](imagelist-dragleave.md)
--   [**ImageList\_DragMove**](imagelist-dragmove.md)
--   [**ImageList\_DragShowNolock**](imagelist-dragshownolock.md)
--   [**ImageList\_Draw**](imagelist-draw.md)
--   [**ImageList\_DrawEx**](imagelist-drawex.md)
--   [**ImageList\_DrawIndirect**](imagelist-drawindirect.md)
--   [**ImageList\_Duplicate**](imagelist-duplicate.md)
--   [**ImageList\_EndDrag**](imagelist-enddrag.md)
--   [**ImageList\_GetBkColor**](imagelist-getbkcolor.md)
--   [**ImageList\_GetDragImage**](imagelist-getdragimage.md)
--   [**ImageList\_GetIcon**](imagelist-geticon.md)
--   [**ImageList\_GetIconSize**](imagelist-geticonsize.md)
--   [**ImageList\_GetImageCount**](imagelist-getimagecount.md)
--   [**ImageList\_GetImageInfo**](imagelist-getimageinfo.md)
--   [**ImageList\_LoadImage**](imagelist-loadimage.md)
--   [**ImageList\_Merge**](imagelist-merge.md)
--   [**ImageList\_Read**](imagelist-read.md)
--   [**ImageList\_ReadEx**](imagelist-readex.md)
--   [**ImageList\_Remove**](imagelist-remove.md)
--   [**ImageList\_Replace**](imagelist-replace.md)
--   [**ImageList\_ReplaceIcon**](imagelist-replaceicon.md)
--   [**ImageList\_SetBkColor**](imagelist-setbkcolor.md)
+-   [**HIMAGELIST\_QueryInterface**](/windows/win32/Commctrl/nf-commctrl-himagelist_queryinterface?branch=master)
+-   [**ImageList\_Add**](/windows/win32/Commctrl/nf-commctrl-imagelist_add?branch=master)
+-   [**ImageList\_AddMasked**](/windows/win32/Commctrl/nf-commctrl-imagelist_addmasked?branch=master)
+-   [**ImageList\_BeginDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_begindrag?branch=master)
+-   [**ImageList\_CoCreateInstance**](/windows/win32/CommonControls/nf-commoncontrols-imagelist_cocreateinstance?branch=master)
+-   [**ImageList\_Copy**](/windows/win32/Commctrl/nf-commctrl-imagelist_copy?branch=master)
+-   [**ImageList\_Create**](/windows/win32/Commctrl/nf-commctrl-imagelist_create?branch=master)
+-   [**ImageList\_Destroy**](/windows/win32/Commctrl/nf-commctrl-imagelist_destroy?branch=master)
+-   [**ImageList\_DragEnter**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragenter?branch=master)
+-   [**ImageList\_DragLeave**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragleave?branch=master)
+-   [**ImageList\_DragMove**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragmove?branch=master)
+-   [**ImageList\_DragShowNolock**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragshownolock?branch=master)
+-   [**ImageList\_Draw**](/windows/win32/Commctrl/nf-commctrl-imagelist_draw?branch=master)
+-   [**ImageList\_DrawEx**](/windows/win32/Commctrl/nf-commctrl-imagelist_drawex?branch=master)
+-   [**ImageList\_DrawIndirect**](/windows/win32/Commctrl/nf-commctrl-imagelist_drawindirect?branch=master)
+-   [**ImageList\_Duplicate**](/windows/win32/Commctrl/nf-commctrl-imagelist_duplicate?branch=master)
+-   [**ImageList\_EndDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_enddrag?branch=master)
+-   [**ImageList\_GetBkColor**](/windows/win32/Commctrl/nf-commctrl-imagelist_getbkcolor?branch=master)
+-   [**ImageList\_GetDragImage**](/windows/win32/Commctrl/nf-commctrl-imagelist_getdragimage?branch=master)
+-   [**ImageList\_GetIcon**](/windows/win32/Commctrl/nf-commctrl-imagelist_geticon?branch=master)
+-   [**ImageList\_GetIconSize**](/windows/win32/Commctrl/nf-commctrl-imagelist_geticonsize?branch=master)
+-   [**ImageList\_GetImageCount**](/windows/win32/Commctrl/nf-commctrl-imagelist_getimagecount?branch=master)
+-   [**ImageList\_GetImageInfo**](/windows/win32/Commctrl/nf-commctrl-imagelist_getimageinfo?branch=master)
+-   [**ImageList\_LoadImage**](/windows/win32/Commctrl/nf-commctrl-imagelist_loadimagea?branch=master)
+-   [**ImageList\_Merge**](/windows/win32/Commctrl/nf-commctrl-imagelist_merge?branch=master)
+-   [**ImageList\_Read**](/windows/win32/Commctrl/nf-commctrl-imagelist_read?branch=master)
+-   [**ImageList\_ReadEx**](/windows/win32/Commctrl/nf-commctrl-imagelist_readex?branch=master)
+-   [**ImageList\_Remove**](/windows/win32/Commctrl/nf-commctrl-imagelist_remove?branch=master)
+-   [**ImageList\_Replace**](/windows/win32/Commctrl/nf-commctrl-imagelist_replace?branch=master)
+-   [**ImageList\_ReplaceIcon**](/windows/win32/Commctrl/nf-commctrl-imagelist_replaceicon?branch=master)
+-   [**ImageList\_SetBkColor**](/windows/win32/Commctrl/nf-commctrl-imagelist_setbkcolor?branch=master)
 -   [**ImageList\_SetColorTable**](imagelist-setcolortable.md)
--   [**ImageList\_SetDragCursorImage**](imagelist-setdragcursorimage.md)
--   [**ImageList\_SetIconSize**](imagelist-seticonsize.md)
--   [**ImageList\_SetImageCount**](imagelist-setimagecount.md)
--   [**ImageList\_SetOverlayImage**](imagelist-setoverlayimage.md)
--   [**ImageList\_Write**](imagelist-write.md)
--   [**ImageList\_WriteEx**](imagelist-writeex.md)
+-   [**ImageList\_SetDragCursorImage**](/windows/win32/Commctrl/nf-commctrl-imagelist_setdragcursorimage?branch=master)
+-   [**ImageList\_SetIconSize**](/windows/win32/Commctrl/nf-commctrl-imagelist_seticonsize?branch=master)
+-   [**ImageList\_SetImageCount**](/windows/win32/Commctrl/nf-commctrl-imagelist_setimagecount?branch=master)
+-   [**ImageList\_SetOverlayImage**](/windows/win32/Commctrl/nf-commctrl-imagelist_setoverlayimage?branch=master)
+-   [**ImageList\_Write**](/windows/win32/Commctrl/nf-commctrl-imagelist_write?branch=master)
+-   [**ImageList\_WriteEx**](/windows/win32/Commctrl/nf-commctrl-imagelist_writeex?branch=master)
 
  
 

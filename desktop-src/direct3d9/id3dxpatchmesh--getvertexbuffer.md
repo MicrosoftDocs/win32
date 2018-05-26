@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the mesh vertex buffer.'
-ms.assetid: '4ea4e99b-5c2c-467b-8b5d-8174c446680a'
-title: 'ID3DXPatchMesh::GetVertexBuffer method'
+---
+Description: Gets the mesh vertex buffer.
+ms.assetid: 4ea4e99b-5c2c-467b-8b5d-8174c446680a
+title: ID3DXPatchMeshGetVertexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetVertexBuffer method
@@ -26,7 +31,7 @@ HRESULT GetVertexBuffer(
 *ppVB* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](idirect3dvertexbuffer9.md)\***
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexbuffer9?branch=master)\***
 
 Pointer to the vertex buffer.
 

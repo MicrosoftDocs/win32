@@ -4,11 +4,12 @@ description: Used with extended LDAP add and modify requests to instruct the DC 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bb2f605a-2fb0-4e5c-9b26-edeace202c58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: bb2f605a-2fb0-4e5c-9b26-edeace202c58
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_VERIFY_NAME_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_VERIFY_NAME_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_VERIFY\_NAME\_OID control code
 
 The LDAP\_SERVER\_VERIFY\_NAME\_OID control is used with extended LDAP add and modify requests to instruct the DC accepting the update which DC it should verify with, the existence of any DN attribute values.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows:
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows:
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_VERIFY_NAME_OID;
@@ -45,7 +49,7 @@ A pointer to a wide, null-terminated string, LDAP\_SERVER\_VERIFY\_NAME\_OID, wh
 **ldctl\_value**
 </dt> <dd>
 
-Specifies a BER-encoded sequence of parameters that enables the application to specify a server to verify the existence of an object. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the flag and server name data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Specifies a BER-encoded sequence of parameters that enables the application to specify a server to verify the existence of an object. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the flag and server name data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -58,7 +62,7 @@ Can be **TRUE** or **FALSE** depending on whether the extended search function i
 
 ## Remarks
 
-The Verify Name control is used with [**ldap\_modify\_ext**](ldap-modify-ext.md) or [**ldap\_add\_ext**](ldap-add-ext.md) to specify the specific server used to verify the existence of an object. The **ldctl\_value** field is set to the following BER-encoded sequence:
+The Verify Name control is used with [**ldap\_modify\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_modify_ext?branch=master) or [**ldap\_add\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_add_ext?branch=master) to specify the specific server used to verify the existence of an object. The **ldctl\_value** field is set to the following BER-encoded sequence:
 
 
 ```C++
@@ -70,7 +74,7 @@ Sequence {
 
 
 
-The [**ber\_printf**](ber-printf.md) function is used to create the sequence data. The flags portion is set to 0, and the *ServerName* is a Unicode string that contains the fully qualified DNS name of the server to contact for verification.
+The [**ber\_printf**](/windows/previous-versions/Winber/nf-winber-ber_printf?branch=master) function is used to create the sequence data. The flags portion is set to 0, and the *ServerName* is a Unicode string that contains the fully qualified DNS name of the server to contact for verification.
 
 When a DN valued attribute is updated with new values, the DC on which the update occurs verifies that an object with the new DN exists somewhere in the forest. The DC will first verify that the object is held locally, and failing that, the DC will find a GC and ask the GC if it knows about an object with the new DN.
 
@@ -84,8 +88,8 @@ However, if the two objects are in different domains and therefore held on two d
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -97,9 +101,9 @@ However, if the two objects are in different domains and therefore held on two d
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

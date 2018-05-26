@@ -1,7 +1,7 @@
 ---
 title: Heading Level Identifiers
 description: Indicates the heading level of a Microsoft UI Automation element.
-ms.assetid: 'D77D70DA-0EEE-438F-B467-159E0A8BF2B3'
+ms.assetid: D77D70DA-0EEE-438F-B467-159E0A8BF2B3
 topic_type:
 - apiref
 api_name:
@@ -19,6 +19,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heading Level Identifiers
@@ -165,15 +170,15 @@ Heading level 9.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The iSCSI Discovery Library API allows initiators to locate any accessible target devices as well as the associated addresses with a minimal amount of required configurations.'
-ms.assetid: '84bb8bbc-3b7e-46ee-8b53-a20b5e2aea05'
+Description: The iSCSI Discovery Library API allows initiators to locate any accessible target devices as well as the associated addresses with a minimal amount of required configurations.
+ms.assetid: 84bb8bbc-3b7e-46ee-8b53-a20b5e2aea05
 title: iSCSI Discovery Library API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI Discovery Library API

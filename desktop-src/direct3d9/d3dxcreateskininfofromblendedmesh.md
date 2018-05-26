@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a skin mesh from another mesh.'
-ms.assetid: '4c69377e-61ef-42b8-8864-c116164d4b22'
+---
+Description: Creates a skin mesh from another mesh.
+ms.assetid: 4c69377e-61ef-42b8-8864-c116164d4b22
 title: D3DXCreateSkinInfoFromBlendedMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateSkinInfoFromBlendedMesh function

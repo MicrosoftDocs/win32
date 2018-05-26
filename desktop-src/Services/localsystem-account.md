@@ -1,12 +1,17 @@
 ---
-Description: 'The LocalSystem account is a predefined local account used by the service control manager.'
-ms.assetid: '692bceb6-f5bd-4b83-ab3b-ef8099dc84e1'
+Description: The LocalSystem account is a predefined local account used by the service control manager.
+ms.assetid: 692bceb6-f5bd-4b83-ab3b-ef8099dc84e1
 title: LocalSystem Account
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalSystem Account
 
-The LocalSystem account is a predefined local account used by the service control manager. This account is not recognized by the security subsystem, so you cannot specify its name in a call to the [**LookupAccountName**](https://msdn.microsoft.com/library/windows/desktop/aa379159) function. It has extensive privileges on the local computer, and acts as the computer on the network. Its token includes the NT AUTHORITY\\SYSTEM and BUILTIN\\Administrators SIDs; these accounts have access to most system objects. The name of the account in all locales is .\\LocalSystem. The name, LocalSystem or *ComputerName*\\LocalSystem can also be used. This account does not have a password. If you specify the LocalSystem account in a call to the [**CreateService**](createservice.md) or [**ChangeServiceConfig**](changeserviceconfig.md) function, any password information you provide is ignored.
+The LocalSystem account is a predefined local account used by the service control manager. This account is not recognized by the security subsystem, so you cannot specify its name in a call to the [**LookupAccountName**](https://msdn.microsoft.com/library/windows/desktop/aa379159) function. It has extensive privileges on the local computer, and acts as the computer on the network. Its token includes the NT AUTHORITY\\SYSTEM and BUILTIN\\Administrators SIDs; these accounts have access to most system objects. The name of the account in all locales is .\\LocalSystem. The name, LocalSystem or *ComputerName*\\LocalSystem can also be used. This account does not have a password. If you specify the LocalSystem account in a call to the [**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master) or [**ChangeServiceConfig**](/windows/win32/Winsvc/nf-winsvc-changeserviceconfiga?branch=master) function, any password information you provide is ignored.
 
 A service that runs in the context of the LocalSystem account inherits the security context of the SCM. The user SID is created from the **SECURITY\_LOCAL\_SYSTEM\_RID** value. The account is not associated with any logged-on user account. This has several implications:
 

@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree SaveOffsetTable method
 description: Saves the offset table of a message for quicker loading.
-ms.assetid: '87f54c6a-d352-4a80-ad95-f6dcfb3d9fa5'
-keywords: ["SaveOffsetTable method Windows Mail (formerly Outlook Express)", "SaveOffsetTable method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , SaveOffsetTable method"]
+ms.assetid: 87f54c6a-d352-4a80-ad95-f6dcfb3d9fa5
+keywords:
+- SaveOffsetTable method Windows Mail (formerly Outlook Express)
+- SaveOffsetTable method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , SaveOffsetTable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::SaveOffsetTable method
@@ -22,8 +30,8 @@ Saves the offset table of a message for quicker loading.
 
 ```C++
 HRESULT SaveOffsetTable(
-  [in] IStream *pStream,
-  [in] DWORD   dwFlags
+  [in] IStream *pStream,
+  [in] DWORD   dwFlags
 );
 ```
 
@@ -59,7 +67,7 @@ Specifies how an [**IMimeMessageTree**](oe-imimemessagetree.md) object should be
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -82,7 +90,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -118,8 +126,8 @@ IMimeMessageTree::Load(*pMessageSource);
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -146,9 +154,9 @@ IMimeMessageTree::Load(*pMessageSource);
 [**IPersistStreamInit::Load**](https://msdn.microsoft.com/library/windows/desktop/ms680730)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

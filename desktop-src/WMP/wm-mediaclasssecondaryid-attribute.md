@@ -1,14 +1,20 @@
 ---
 title: WM/MediaClassSecondaryID Attribute
 description: The WM/MediaClassSecondaryID attribute is a GUID specifying the secondary media class, which is a subclass of the primary media class.
-ms.assetid: '8112513a-b73a-497a-9c24-24ccef31cffc'
-keywords: ["WM/MediaClassSecondaryID Attribute Windows Media Player"]
+ms.assetid: 8112513a-b73a-497a-9c24-24ccef31cffc
+keywords:
+- WM/MediaClassSecondaryID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/MediaClassSecondaryID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaClassSecondaryID Attribute
@@ -40,7 +46,7 @@ The following table lists the supported GUIDs and their descriptions.
 
 
 
- 
+ 
 
 **MediaClassSecondaryID** is an alias for this attribute.
 
@@ -65,9 +71,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,23 @@
 ---
 title: HttpCalculatorWithUsernameXmlTokenOverSslClientExample
 description: This example shows a HTTP client that uses service proxy to talk to a calculator service, with XML security token over SSL mixed-mode security.
-ms.assetid: '9b687099-c59f-4aea-862f-c29d1978d955'
-keywords: ["HttpCalculatorWithUsernameXmlTokenOverSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 9b687099-c59f-4aea-862f-c29d1978d955
+keywords:
+- HttpCalculatorWithUsernameXmlTokenOverSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithUsernameXmlTokenOverSslClientExample
 
 This example shows a HTTP client that uses service proxy to talk to a calculator service, with XML security token over SSL mixed-mode security. In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication. Client authentication is provided by a WS-Security username/password pair that is used as an XML security token by the example.
 
-Note that this client side example uses the [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](ws-xml-token-message-security-binding.md). An equivalent way of doing the same client side security using the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](ws-username-message-security-binding.md) is illustrated by the example [HttpCalculatorWithUsernameOverSslClientExample](httpcalculatorwithusernameoversslclientexample.md).
+Note that this client side example uses the [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_xml_token_message_security_binding?branch=master). An equivalent way of doing the same client side security using the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_username_message_security_binding?branch=master) is illustrated by the example [HttpCalculatorWithUsernameOverSslClientExample](httpcalculatorwithusernameoversslclientexample.md).
 
 A matching server side for both of these client side examples is provided by the example [HttpCalculatorWithUserNameOverSslServiceExample](httpcalculatorwithusernameoversslserviceexample.md).
 
@@ -488,10 +496,10 @@ clean:
 
 <dl> <dt>
 
-[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](ws-xml-token-message-security-binding.md)
+[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_xml_token_message_security_binding?branch=master)
 </dt> <dt>
 
-[**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](ws-username-message-security-binding.md)
+[**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_username_message_security_binding?branch=master)
 </dt> <dt>
 
 [HttpCalculatorWithUsernameOverSslClientExample](httpcalculatorwithusernameoversslclientexample.md)

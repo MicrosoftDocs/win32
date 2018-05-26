@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'facc2c9d-034a-4fed-b6fe-77a40e36c305'
-title: 'CSystemClock.CSystemClock constructor'
+Description: Constructor method.
+ms.assetid: facc2c9d-034a-4fed-b6fe-77a40e36c305
+title: CSystemClock.CSystemClock constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSystemClock.CSystemClock constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CSystemClock(
-   TCHAR     *pName,
-   LPUNKNOWN pUnk,
-   HRESULT   *phr
+   TCHAR     *pName,
+   LPUNKNOWN pUnk,
+   HRESULT   *phr
 );
 ```
 
@@ -57,9 +62,9 @@ Pointer to the **HRESULT** value. If an error occurs, the method returns an erro
 
 
 
- 
+ 
 
- 
+ 
 
 
 

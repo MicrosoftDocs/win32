@@ -1,7 +1,12 @@
 ---
-title: Windows 8.1 and Windows Server 2012 R2 client and server compatibility
-description: Windows 8.1 and Windows Server 2012 R2 client and server compatibility
-ms.assetid: '45C37E2D-3513-4708-A562-1426D2B832F0'
+title: Windows 8.1 and Windows Server 2012 R2 client and server compatibility
+description: Windows 8.1 and Windows Server 2012 R2 client and server compatibility
+ms.assetid: 45C37E2D-3513-4708-A562-1426D2B832F0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 8.1 and Windows Server 2012 R2 client and server compatibility
@@ -21,7 +26,7 @@ This section describes changes in the operating system that you should pay speci
 | [Mousewheel input for Windows 8.1](mousewheel-input-for-windows-8-1.md)<br/>                                                                                                                                           |             |
 | [Windows precision touchpad devices](windows-precision-touchpad-devices.md)<br/>                                                                                                                                       |             |
 | [High DPI for desktop apps in Windows 8.1](high-dpi-for-desktop-apps-in-windows-8-1.md)<br/>                                                                                                                           |             |
-| [Edge UI is suppressed in “in-out-in” and “inertia” scenarios](edge-ui-is-suppressed-in--in-out-in--and--inertia--scenarios.md)<br/>                                                                                   |             |
+| [Edge UI is suppressed in  in-out-in  and  inertia  scenarios](edge-ui-is-suppressed-in--in-out-in--and--inertia--scenarios.md)<br/>                                                                                   |             |
 | [Calling ImmSetConversionStatus() or ImmGetConversionStatus() from Windows Store apps is not supported](calling-immsetconversionstatus---or-immgetconversionstatus---from-windows-store-apps-is-not-supported.md)<br/> |             |
 | [IME mode model changed from per-user to per-thread](ime-mode-model-changed-from-per-user-to-per-thread.md)<br/>                                                                                                       |             |
 | [Input Method manager APIs are not supported by Simplified Chinese IME](input-method-manager-apis-are-not-supported-by-simplified-chinese-ime.md)<br/>                                                                 |             |
@@ -29,11 +34,11 @@ This section describes changes in the operating system that you should pay speci
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

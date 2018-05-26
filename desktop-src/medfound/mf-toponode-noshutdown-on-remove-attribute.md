@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies how the Media Session shuts down an object in the topology.'
-ms.assetid: '53b4faba-860f-4d6c-a145-09ea4ae63b8b'
-title: 'MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE attribute'
+---
+Description: Specifies how the Media Session shuts down an object in the topology.
+ms.assetid: 53b4faba-860f-4d6c-a145-09ea4ae63b8b
+title: MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_NOSHUTDOWN\_ON\_REMOVE attribute
@@ -45,8 +50,8 @@ The attribute can have the following values:
 <td><strong>FALSE</strong></td>
 <td>When the Media Session switches to a new topology or clears the current topology, it shuts down the node object, as follows:
 <ul>
-<li>Output nodes: The session calls [<strong>IMFMediaSink::Shutdown</strong>](imfmediasink-shutdown.md) on the media sink.</li>
-<li>Transform nodes: The session calls [<strong>IMFShutdown::Shutdown</strong>](imfshutdown-shutdown.md) on the MFT.</li>
+<li>Output nodes: The session calls [<strong>IMFMediaSink::Shutdown</strong>](/windows/win32/mfidl/nf-mfidl-imfmediasink-shutdown?branch=master) on the media sink.</li>
+<li>Transform nodes: The session calls [<strong>IMFShutdown::Shutdown</strong>](/windows/win32/mfidl/nf-mfidl-imfshutdown-shutdown?branch=master) on the MFT.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -60,7 +65,7 @@ The default value is **TRUE**.
 
 If your application queues multiple topologies, it is a good idea to set this attribute to **FALSE**. Otherwise, objects in the topology might not be shut down correctly.
 
-This attribute does not apply when the application shuts down the Media Session by calling [**IMFMediaSession::Shutdown**](imfmediasession-shutdown.md). When the Media Session shuts down, it always shuts down the media sinks and asynchronous MFTs in the current topology.
+This attribute does not apply when the application shuts down the Media Session by calling [**IMFMediaSession::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasession-shutdown?branch=master). When the Media Session shuts down, it always shuts down the media sinks and asynchronous MFTs in the current topology.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -89,13 +94,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Topology Node Attributes](topology-node-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> </dl>
 
  

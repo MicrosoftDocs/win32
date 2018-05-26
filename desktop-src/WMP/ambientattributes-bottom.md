@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.bottom
 description: The bottom attribute specifies or retrieves the bottom coordinate of the control.
-ms.assetid: 'a07af5b0-154d-4c3f-be8b-39aeb52a6f1e'
-keywords: ["AmbientAttributes.bottom Windows Media Player"]
+ms.assetid: a07af5b0-154d-4c3f-be8b-39aeb52a6f1e
+keywords:
+- AmbientAttributes.bottom Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.bottom
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.bottom
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) representing the distance i
 [**AmbientAttributes.id**](ambientattributes-id.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

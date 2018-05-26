@@ -1,13 +1,16 @@
 ---
-Description: 'The Qualifiers\_ property of the SWbemMethod object returns an SWbemQualifierSet object that is the collection of qualifiers for this method. This property is read-only.'
+Description: The Qualifiers\_ property of the SWbemMethod object returns an SWbemQualifierSet object that is the collection of qualifiers for this method. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8cbbec60-3b8a-4390-97b6-1cb616e5b944'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8cbbec60-3b8a-4390-97b6-1cb616e5b944
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemMethod.Qualifiers\_ property'
+title: SWbemMethod.Qualifiers\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemMethod.Qualifiers\_ property
@@ -33,8 +36,8 @@ SWbemMethod.Qualifiers_ As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -43,9 +46,9 @@ SWbemMethod.Qualifiers_ As Object
 
 
 
- 
+ 
 
- 
+ 
 
 
 

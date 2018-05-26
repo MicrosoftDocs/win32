@@ -4,17 +4,22 @@ description: Provides the name of the spooler folder for the Print Spooler resou
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c357b3fc-c088-4f13-934c-a49d43aacec0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c357b3fc-c088-4f13-934c-a49d43aacec0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DefaultSpoolDirectory Failover Cluster ,for print spoolers", "DefaultSpoolDirectory Failover Cluster"]
+keywords:
+- DefaultSpoolDirectory Failover Cluster ,for print spoolers
+- DefaultSpoolDirectory Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DefaultSpoolDirectory
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DefaultSpoolDirectory
@@ -28,17 +33,17 @@ Provides the name of the spooler folder for the [Print Spooler](print-spooler.md
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Required                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -66,7 +71,7 @@ StringCbCopy( DefaultSpoolDirValue.sz,
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -77,15 +82,15 @@ StringCbCopy( DefaultSpoolDirValue.sz,
 [Print Spooler Private Properties](print-spooler-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

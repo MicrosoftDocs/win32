@@ -1,14 +1,20 @@
 ---
 title: Shader Type
 description: The syntax for declaring a shader variable in an effect changed from Direct3D 9 to Direct3D 10.
-ms.assetid: 'd24ae9ad-1b3a-4a05-b28b-b6a0583c3da8'
-keywords: ["Shader Type HLSL"]
+ms.assetid: d24ae9ad-1b3a-4a05-b28b-b6a0583c3da8
+keywords:
+- Shader Type HLSL
 topic_type:
 - apiref
 api_name:
 - Shader Type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Type
@@ -27,7 +33,7 @@ Declare a shader variable within an effect pass (in Direct3D 10) using the shade
 
 
 
- 
+ 
 
 ### Parameters
 
@@ -41,7 +47,7 @@ Declare a shader variable within an effect pass (in Direct3D 10) using the shade
 
 
 
- 
+ 
 
 ### Example
 
@@ -75,7 +81,7 @@ Declare a shader variable within an effect pass (for Direct3D 9) using the shade
 
 
 
- 
+ 
 
 ### Parameters
 
@@ -89,7 +95,7 @@ Declare a shader variable within an effect pass (for Direct3D 9) using the shade
 
 
 
- 
+ 
 
 ### Example
 
@@ -117,9 +123,9 @@ technique RenderSceneWithTexture1Light
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

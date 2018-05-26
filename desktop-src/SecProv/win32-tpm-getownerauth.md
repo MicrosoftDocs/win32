@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the owner authorization information for a TPM if one is available in the registry.'
-ms.assetid: '3E2C28C8-4154-4B1B-9C47-AEDFD5622979'
-title: 'Win32\_Tpm::GetOwnerAuth method'
+---
+Description: Gets the owner authorization information for a TPM if one is available in the registry.
+ms.assetid: 3E2C28C8-4154-4B1B-9C47-AEDFD5622979
+title: Win32\_TpmGetOwnerAuth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm::GetOwnerAuth method

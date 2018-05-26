@@ -4,17 +4,22 @@ description: Password-reversible encryption status for user accounts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fcde0b75-ad26-4c3c-a1e7-0bb854c79d05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fcde0b75-ad26-4c3c-a1e7-0bb854c79d05
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Password-Reversible-Encryption-Enabled attribute AD Schema", "msDS-PasswordReversibleEncryptionEnabled attribute AD Schema"]
+keywords:
+- ms-DS-Password-Reversible-Encryption-Enabled attribute AD Schema
+- msDS-PasswordReversibleEncryptionEnabled attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Password-Reversible-Encryption-Enabled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Password-Reversible-Encryption-Enabled attribute
@@ -38,9 +43,9 @@ Password-reversible encryption status for user accounts.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Password-reversible encryption status for user accounts.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

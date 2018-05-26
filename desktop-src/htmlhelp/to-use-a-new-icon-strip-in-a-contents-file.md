@@ -1,7 +1,12 @@
 ---
 title: To use a new icon strip in a contents file
 description: To use a new icon strip in a contents file
-ms.assetid: '206A1B16-E7BE-4ff4-B4F9-111167219241'
+ms.assetid: 206A1B16-E7BE-4ff4-B4F9-111167219241
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To use a new icon strip in a contents file
@@ -14,7 +19,7 @@ ms.assetid: '206A1B16-E7BE-4ff4-B4F9-111167219241'
 
     
 
-     
+     
 
 2.  Select the **Use custom images from a file** check box.
 3.  In the **Image file** box, enter the path to an [icon strip](about-creating-a-new-icon-image-strip-for-a-contents-file.md) bitmap (.bmp) file that contains the images you want to use instead of the default images.
@@ -24,7 +29,7 @@ ms.assetid: '206A1B16-E7BE-4ff4-B4F9-111167219241'
 > [!Note]  
 > If you want to use folders and pages instead of books and topics, click **Contents Properties**, and then select the **Use folders instead of books** check box.
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ ms.assetid: '206A1B16-E7BE-4ff4-B4F9-111167219241'
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

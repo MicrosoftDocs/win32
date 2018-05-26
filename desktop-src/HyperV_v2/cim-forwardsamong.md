@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which protocol endpoints depend on a forwarding service to forward data.'
-ms.assetid: 'b63dbd2c-2842-498a-a352-b7ab7f7c841a'
-title: 'CIM\_ForwardsAmong class'
+Description: Represents an association in which protocol endpoints depend on a forwarding service to forward data.
+ms.assetid: b63dbd2c-2842-498a-a352-b7ab7f7c841a
+title: CIM\_ForwardsAmong class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ForwardsAmong class
@@ -14,7 +19,7 @@ Represents an association in which protocol endpoints depend on a forwarding ser
 [Association, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Network::RoutingForwarding")]
 class CIM_ForwardsAmong : CIM_ServiceSAPDependency
 {
-  CIM_ProtocolEndpoint  REF Antecedent;
+  CIM_ProtocolEndpoint  REF Antecedent;
   CIM_ForwardingService REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The forwarding service that forwards the data.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The forwarding service that forwards the data.
 [**CIM\_ServiceSAPDependency**](cim-servicesapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

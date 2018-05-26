@@ -2,7 +2,12 @@
 title: O
 description: Words starting with O in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: '36f7998d-6f4a-43d9-ba17-44260cdca405'
+ms.assetid: 36f7998d-6f4a-43d9-ba17-44260cdca405
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # O

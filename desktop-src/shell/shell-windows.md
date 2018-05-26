@@ -1,6 +1,11 @@
-﻿---
-Description: 'Creates and returns a ShellWindows object. This object represents a collection of all of the open windows that belong to the Shell.'
-title: 'Shell.Windows method'
+---
+Description: Creates and returns a ShellWindows object. This object represents a collection of all of the open windows that belong to the Shell.
+title: Shell.Windows method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.Windows method

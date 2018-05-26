@@ -1,14 +1,21 @@
 ---
 title: Storage object
 description: The Storage object represents an individual legacy storage on the device and provides access to the properties that are exposed by the storage.
-ms.assetid: '85ab290a-16f5-49cd-9ee4-ee640604f855'
-keywords: ["Storage object WPD Automation", "Storage object WPD Automation , described"]
+ms.assetid: 85ab290a-16f5-49cd-9ee4-ee640604f855
+keywords:
+- Storage object WPD Automation
+- Storage object WPD Automation , described
 topic_type:
 - apiref
 api_name:
 - Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage object
@@ -49,7 +56,7 @@ The **Storage** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -66,7 +73,7 @@ The **Storage** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -81,7 +88,7 @@ The **Storage** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +96,8 @@ The **Storage** object has these properties.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -110,9 +117,9 @@ The **Storage** object has these properties.
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

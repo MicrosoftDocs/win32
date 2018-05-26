@@ -1,7 +1,12 @@
 ---
-Description: 'The Shell namespace path to the item.'
-ms.assetid: 'e0fb2092-0427-40c9-9e09-aefc5ef017e6'
-title: 'System.ParsingPath'
+Description: The Shell namespace path to the item.
+ms.assetid: e0fb2092-0427-40c9-9e09-aefc5ef017e6
+title: System.ParsingPath
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ParsingPath

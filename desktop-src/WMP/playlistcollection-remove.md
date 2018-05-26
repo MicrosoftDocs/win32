@@ -1,8 +1,11 @@
 ---
 title: PlaylistCollection.remove method
 description: The remove method removes a playlist from the library.
-ms.assetid: 'ed678c2c-bfde-424b-9c71-21270a32a08e'
-keywords: ["remove method Windows Media Player", "remove method Windows Media Player , PlaylistCollection class", "PlaylistCollection class Windows Media Player , remove method"]
+ms.assetid: ed678c2c-bfde-424b-9c71-21270a32a08e
+keywords:
+- remove method Windows Media Player
+- remove method Windows Media Player , PlaylistCollection class
+- PlaylistCollection class Windows Media Player , remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection.remove method
@@ -77,9 +85,9 @@ To use this method, full access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Checksums and object counts are detection strategies that allow an 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '14829a74-c186-4250-beac-036c5ecc5913'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 14829a74-c186-4250-beac-036c5ecc5913
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Checksums and Object Counts

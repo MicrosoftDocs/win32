@@ -1,8 +1,9 @@
 ---
 title: MM\_JOY1BUTTONDOWN message
 description: The MM\_JOY1BUTTONDOWN message notifies the window that has captured joystick JOYSTICKID1 that a button has been pressed.
-ms.assetid: '764f4bb4-134d-46b8-badb-3fb06af31e13'
-keywords: ["MM_JOY1BUTTONDOWN message Windows Multimedia"]
+ms.assetid: 764f4bb4-134d-46b8-badb-3fb06af31e13
+keywords:
+- MM_JOY1BUTTONDOWN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_JOY1BUTTONDOWN message
@@ -47,7 +53,7 @@ Identifies the button that has changed state and the buttons that are pressed. I
 
 
 
- 
+ 
 
 and one or more of the following:
 
@@ -62,7 +68,7 @@ and one or more of the following:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -86,8 +92,8 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -102,9 +108,9 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 [Multimedia Joystick Messages](multimedia-joystick-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

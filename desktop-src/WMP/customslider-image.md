@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.image
 description: The image attribute specifies or retrieves the name of the file containing the images corresponding to the various states of the custom slider.
-ms.assetid: '7db4f924-76af-4451-831c-1ed8ab1315ee'
-keywords: ["CUSTOMSLIDER.image Windows Media Player"]
+ms.assetid: 7db4f924-76af-4451-831c-1ed8ab1315ee
+keywords:
+- CUSTOMSLIDER.image Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.image
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.image
@@ -57,9 +63,9 @@ The **positionImage** attribute also contains a code sample illustrating how the
 [**CUSTOMSLIDER.positionImage**](customslider-positionimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

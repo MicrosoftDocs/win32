@@ -1,14 +1,20 @@
 ---
 title: Sample(S,float,int,float,uint) function
 description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
-ms.assetid: 'DB8401A1-1065-4616-BDDE-9ADB59B09C8B'
-keywords: ["Sample function HLSL"]
+ms.assetid: DB8401A1-1065-4616-BDDE-9ADB59B09C8B
+keywords:
+- Sample function HLSL
 topic_type:
 - apiref
 api_name:
 - Sample
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample(S,float,int,float,uint) function

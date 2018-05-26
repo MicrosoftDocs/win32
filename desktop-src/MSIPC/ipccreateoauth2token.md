@@ -4,11 +4,12 @@ description: Returns a handle to an authentication token object that is created 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2F202E11-3AFD-4EC3-9C86-C1AEB35F7F6B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2F202E11-3AFD-4EC3-9C86-C1AEB35F7F6B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcCreateOAuth2Token function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcCreateOAuth2Token function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcCreateOAuth2Token function
@@ -28,8 +32,8 @@ Returns a handle to an authentication token object that is created from an authe
 
 ```C++
 HRESULT WINAPI IpcCreateOAuth2Token(
-  _In_  LPCWSTR                wszAuthToken,
-  _Out_ PIPC_AUTH_TOKEN_HANDLE phIpcAuthToken
+  _In_  LPCWSTR                wszAuthToken,
+  _Out_ PIPC_AUTH_TOKEN_HANDLE phIpcAuthToken
 );
 ```
 
@@ -54,7 +58,7 @@ A pointer to a variable that receives a handle to the authentication token objec
 > [!Note]  
 > This key handle should only be closed with [**IpcCloseHandle**](ipcclosehandle.md) when [*IPC\_OAUTH2\_CALLBACK*](ipc-oauth2-callback.md) does not return successfully.
 
- 
+ 
 
 </dd> </dl>
 
@@ -62,7 +66,7 @@ A pointer to a variable that receives a handle to the authentication token objec
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Remarks
 
@@ -74,8 +78,8 @@ When calling **IpcCreateOAuth2Token** from inside your [*IPC\_OAUTH2\_CALLBACK*]
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -104,9 +108,9 @@ When calling **IpcCreateOAuth2Token** from inside your [*IPC\_OAUTH2\_CALLBACK*]
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

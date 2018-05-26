@@ -1,7 +1,7 @@
 ---
 title: TS\_AS\_\ Constants
 description: The following flags specify the events that call the AdviseSink methods.
-ms.assetid: '8f406b67-f846-4712-b4be-811dbcc6ad55'
+ms.assetid: 8f406b67-f846-4712-b4be-811dbcc6ad55
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_AS\_\* Constants
@@ -40,17 +45,17 @@ The following flags specify the events that call the **AdviseSink** methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

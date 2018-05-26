@@ -1,7 +1,12 @@
 ---
 title: Constants
 description: .
-ms.assetid: 'b3f9d702-ef19-475a-9643-92ab735aacd8'
+ms.assetid: b3f9d702-ef19-475a-9643-92ab735aacd8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants

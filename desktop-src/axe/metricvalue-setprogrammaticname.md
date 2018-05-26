@@ -1,8 +1,11 @@
 ---
 title: MetricValue SetProgrammaticName method
 description: Sets the programmatic name of the MetricValue.
-ms.assetid: '15934519-5F44-44A6-B5BD-75C4F1159D6B'
-keywords: ["SetProgrammaticName method Access Execution Engine", "SetProgrammaticName method Access Execution Engine , MetricValue interface", "MetricValue interface Access Execution Engine , SetProgrammaticName method"]
+ms.assetid: 15934519-5F44-44A6-B5BD-75C4F1159D6B
+keywords:
+- SetProgrammaticName method Access Execution Engine
+- SetProgrammaticName method Access Execution Engine , MetricValue interface
+- MetricValue interface Access Execution Engine , SetProgrammaticName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValue::SetProgrammaticName method
@@ -22,7 +30,7 @@ Sets the programmatic name of the **MetricValue**.
 
 ```C++
 virtual HRESULT SetProgrammaticName(
-  [in] LPCWSTR programmaticName
+  [in] LPCWSTR programmaticName
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The programmatic name is the value of element **MetricValue/ProgrammaticName**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The programmatic name is the value of element **MetricValue/ProgrammaticName**.
 [**MetricValue**](metricvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

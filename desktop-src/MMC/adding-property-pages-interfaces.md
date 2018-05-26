@@ -4,11 +4,15 @@ description: MMC provides snap-in developers with the following interfaces for w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd153dcb6-ae09-4949-a62b-4033dd245c0e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d153dcb6-ae09-4949-a62b-4033dd245c0e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["property pages MMC , interfaces"]
+keywords:
+- property pages MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Property Pages: Interfaces
@@ -24,7 +28,7 @@ MMC provides snap-in developers with the following interfaces for working with p
 The following constructs are also used for working with property pages:
 
 -   [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification
--   [**PROPSHEETPAGE**](propsheetpage.md) structure
+-   [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure
 -   [**CreatePropertySheetPage**](_win32_createpropertysheetpage_cpp) API function
 -   [**MMCFreeNotifyHandle**](mmcfreenotifyhandle.md) function
 -   [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function

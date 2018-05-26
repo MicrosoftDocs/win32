@@ -4,17 +4,22 @@ description: Provides the name of a TAPI multicast conference. It is the naming 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a8162af7-0169-4381-8edc-3dbbf178e8ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a8162af7-0169-4381-8edc-3dbbf178e8ed
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TAPI-Unique-Identifier attribute AD Schema", "msTAPI-uid attribute AD Schema"]
+keywords:
+- ms-TAPI-Unique-Identifier attribute AD Schema
+- msTAPI-uid attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TAPI-Unique-Identifier
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TAPI-Unique-Identifier attribute
@@ -38,11 +43,11 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Provides the name of a TAPI multicast conference. It is the naming attribute of 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

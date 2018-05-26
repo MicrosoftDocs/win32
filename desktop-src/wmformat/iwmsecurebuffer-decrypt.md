@@ -1,8 +1,11 @@
 ---
 title: IWMSecureBuffer Decrypt method
 description: The Decrypt method decrypts a data pointer that was encrypted by calling the Encrypt method.
-ms.assetid: '15cedb56-686a-4a3c-81a5-b1797cfe0838'
-keywords: ["Decrypt method windows Media Format", "Decrypt method windows Media Format , IWMSecureBuffer interface", "IWMSecureBuffer interface windows Media Format , Decrypt method"]
+ms.assetid: 15cedb56-686a-4a3c-81a5-b1797cfe0838
+keywords:
+- Decrypt method windows Media Format
+- Decrypt method windows Media Format , IWMSecureBuffer interface
+- IWMSecureBuffer interface windows Media Format , Decrypt method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMSecureBuffer::Decrypt method
@@ -23,7 +31,7 @@ The **Decrypt** method decrypts a data pointer that was encrypted by calling the
 
 ```C++
 HRESULT Decrypt(
-  [in] IWMSecureChannel *pSecureChannel
+  [in] IWMSecureChannel *pSecureChannel
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +87,9 @@ None.
 [**IWMSecureBuffer Interface**](iwmsecurebuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

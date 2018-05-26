@@ -1,13 +1,27 @@
 ---
 title: Producing a Dialog Box for Selecting a Format for Saving
 description: Producing a Dialog Box for Selecting a Format for Saving
-ms.assetid: 'f833b28c-13e1-497c-bfc4-2e3bc84d7fff'
-keywords: ["audio compression manager (ACM),producing dialog boxes", "ACM (audio compression manager),producing dialog boxes", "ACM examples,producing dialog boxes", "producing dialog boxes", "acmFormatChoose function", "audio compression manager (ACM),selecting format for saving", "ACM (audio compression manager),selecting format for saving", "ACM examples,selecting format for saving", "selecting format for saving"]
+ms.assetid: f833b28c-13e1-497c-bfc4-2e3bc84d7fff
+keywords:
+- audio compression manager (ACM),producing dialog boxes
+- ACM (audio compression manager),producing dialog boxes
+- ACM examples,producing dialog boxes
+- producing dialog boxes
+- acmFormatChoose function
+- audio compression manager (ACM),selecting format for saving
+- ACM (audio compression manager),selecting format for saving
+- ACM examples,selecting format for saving
+- selecting format for saving
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Producing a Dialog Box for Selecting a Format for Saving
 
-You might want an application to save existing waveform-audio data in another format. For example, a waveform-audio editor could save a waveform-audio file as a compressed file. To list only the suggested destination formats for a specified source format in the dialog box created by the [**acmFormatChoose**](acmformatchoose.md) function, specify the source format in the **pwfxEnum** member and the ACM\_FORMATENUMF\_SUGGEST flag in the **fdwEnum** member of the [**ACMFORMATCHOOSE**](acmformatchoose-struct.md) structure.
+You might want an application to save existing waveform-audio data in another format. For example, a waveform-audio editor could save a waveform-audio file as a compressed file. To list only the suggested destination formats for a specified source format in the dialog box created by the [**acmFormatChoose**](/windows/win32/Msacm/nf-msacm-acmformatchoose?branch=master) function, specify the source format in the **pwfxEnum** member and the ACM\_FORMATENUMF\_SUGGEST flag in the **fdwEnum** member of the [**ACMFORMATCHOOSE**](/windows/win32/Msacm/ns-msacm-tacmformatchoose?branch=master) structure.
 
 Similarly, to list valid destination formats for a specified format, use the ACM\_FORMATENUMF\_CONVERT flag instead of the ACM\_FORMATENUMF\_SUGGEST flag.
 

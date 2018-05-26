@@ -1,7 +1,12 @@
 ---
-Description: 'ICE07 validates that installation package specifies that fonts be installed into the FontsFolder. If a font is installed to a folder other than the FontsFolder the installer creates a shortcut rather than actually installing the font.'
-ms.assetid: 'aa51b077-fb7b-4e09-9de1-ef1905144a94'
+Description: ICE07 validates that installation package specifies that fonts be installed into the FontsFolder. If a font is installed to a folder other than the FontsFolder the installer creates a shortcut rather than actually installing the font.
+ms.assetid: aa51b077-fb7b-4e09-9de1-ef1905144a94
 title: ICE07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE07

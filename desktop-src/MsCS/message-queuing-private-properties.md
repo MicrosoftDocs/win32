@@ -4,11 +4,18 @@ description: Message queuing resources have the following private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F74415B8-A97F-4591-B440-13A3EED40888'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F74415B8-A97F-4591-B440-13A3EED40888
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Message Queuing resource type Failover Cluster ,properties", "properties Failover Cluster ,Message Queuing (private) properties", "Message Queuing resource type Failover Cluster ,properties", "properties Failover Cluster ,Message Queuing (private) properties"]
+keywords:
+- Message Queuing resource type Failover Cluster ,properties
+- properties Failover Cluster ,Message Queuing (private) properties
+- Message Queuing resource type Failover Cluster ,properties
+- properties Failover Cluster ,Message Queuing (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Message Queuing Private Properties
@@ -37,11 +44,11 @@ keywords: ["Message Queuing resource type Failover Cluster ,properties", "proper
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

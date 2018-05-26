@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the faces of a cubemap.'
-ms.assetid: '6d18b410-6f22-4202-86ae-6b3ef85e6f69'
-title: 'D3DCUBEMAP\_FACES enumeration'
+---
+Description: Defines the faces of a cubemap.
+ms.assetid: 6d18b410-6f22-4202-86ae-6b3ef85e6f69
+title: D3DCUBEMAP\_FACES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCUBEMAP\_FACES enumeration
@@ -95,16 +100,16 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::AddDirtyRect**](idirect3dcubetexture9--adddirtyrect.md)
+[**IDirect3DCubeTexture9::AddDirtyRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-adddirtyrect?branch=master)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::GetCubeMapSurface**](idirect3dcubetexture9--getcubemapsurface.md)
+[**IDirect3DCubeTexture9::GetCubeMapSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getcubemapsurface?branch=master)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::LockRect**](idirect3dcubetexture9--lockrect.md)
+[**IDirect3DCubeTexture9::LockRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-lockrect?branch=master)
 </dt> <dt>
 
-[**IDirect3DCubeTexture9::UnlockRect**](idirect3dcubetexture9--unlockrect.md)
+[**IDirect3DCubeTexture9::UnlockRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-unlockrect?branch=master)
 </dt> </dl>
 
  

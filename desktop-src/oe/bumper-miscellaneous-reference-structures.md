@@ -1,7 +1,12 @@
 ---
 title: Structures
 description: .
-ms.assetid: '49070956-fd70-4ab5-9bc5-583a5feb3d13'
+ms.assetid: 49070956-fd70-4ab5-9bc5-583a5feb3d13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures

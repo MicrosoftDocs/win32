@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes the Aux\_klib library.'
-ms.assetid: '516bb359-d3a3-415b-90af-09e544366a12'
+---
+Description: Initializes the Aux\_klib library.
+ms.assetid: 516bb359-d3a3-415b-90af-09e544366a12
 title: AuxKlibInitialize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuxKlibInitialize function

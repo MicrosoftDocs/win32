@@ -1,7 +1,12 @@
 ---
 Description: Building Filter Graphs to Write ASF Files
-ms.assetid: 'c4885152-d7d2-4749-a79a-e0effd38837d'
+ms.assetid: c4885152-d7d2-4749-a79a-e0effd38837d
 title: Building Filter Graphs to Write ASF Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Filter Graphs to Write ASF Files
@@ -26,7 +31,7 @@ Inserting Native Stream Formats Into ASF Files
 
 By default, the WM ASF Writer filter expects uncompressed audio and video streams on its input pins, and uses the Windows Media Audio and Windows Media Video codecs to compress the streams. However, the ASF file container can be used for any type of data. By placing digital media data into an ASF file container, you can add features provided by ASF, such as metadata and digital rights management (DRM), without having to transcode your content.
 
-To create an ASF file that contains content that is not Windows Media–based, the application must compress the stream in the filter graph upstream of the WM ASF Writer and bypass the WM ASF Writer's compression mechanism by calling [**IConfigAsfWriter2::SetParam**](iconfigasfwriter2-setparam.md) as follows:
+To create an ASF file that contains content that is not Windows Media–based, the application must compress the stream in the filter graph upstream of the WM ASF Writer and bypass the WM ASF Writer's compression mechanism by calling [**IConfigAsfWriter2::SetParam**](/windows/win32/Dshowasf/nf-dshowasf-iconfigasfwriter2-setparam?branch=master) as follows:
 
 
 ```C++

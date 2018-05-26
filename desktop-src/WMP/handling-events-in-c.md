@@ -1,8 +1,26 @@
 ---
 title: Handling Events in C++
 description: Handling Events in C++
-ms.assetid: '5d9eb1c7-7022-4442-b67a-6a96fe5ce97f'
-keywords: ["Windows Media Player,C++", "Windows Media Player object model,C++", "object model,C++", "Windows Media Player Mobile,C++", "Windows Media Player ActiveX control,C++", "Windows Media Player Mobile ActiveX control,C++", "ActiveX control,C++", "C++ program embedding", "embedding,C++ programs", "Windows Media Player ActiveX control,event handling", "Windows Media Player Mobile ActiveX control,event handling", "ActiveX control,event handling", "events,C++"]
+ms.assetid: 5d9eb1c7-7022-4442-b67a-6a96fe5ce97f
+keywords:
+- Windows Media Player,C++
+- Windows Media Player object model,C++
+- object model,C++
+- Windows Media Player Mobile,C++
+- Windows Media Player ActiveX control,C++
+- Windows Media Player Mobile ActiveX control,C++
+- ActiveX control,C++
+- C++ program embedding
+- embedding,C++ programs
+- Windows Media Player ActiveX control,event handling
+- Windows Media Player Mobile ActiveX control,event handling
+- ActiveX control,event handling
+- events,C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Events in C++

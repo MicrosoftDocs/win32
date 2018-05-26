@@ -1,11 +1,16 @@
 ---
-Description: 'Demonstrates how to use the IThumbnailProvider interface to extract the thumbnail for an item from the Windows thumbnail cache system.'
+Description: Demonstrates how to use the IThumbnailProvider interface to extract the thumbnail for an item from the Windows thumbnail cache system.
 title: Using Thumbnail Providers Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Thumbnail Providers Sample
 
-Demonstrates how to use the [**IThumbnailProvider**](ithumbnailprovider.md) interface to extract the thumbnail for an item from the Windows thumbnail cache system.
+Demonstrates how to use the [**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) interface to extract the thumbnail for an item from the Windows thumbnail cache system.
 
 This topic contains the following sections.
 

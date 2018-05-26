@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a device that can use media to store and retrieve data.'
-ms.assetid: 'c63b1731-dbc0-4e5e-acb8-cd91b5569dd2'
-title: 'CIM\_MediaAccessDevice class'
+Description: Represents a device that can use media to store and retrieve data.
+ms.assetid: c63b1731-dbc0-4e5e-acb8-cd91b5569dd2
+title: CIM\_MediaAccessDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MediaAccessDevice class
@@ -14,29 +19,29 @@ Represents a device that can use media to store and retrieve data.
 [Abstract, Version("2.6.0"), UMLPackagePath("CIM::Device::StorageDevices"), AMENDMENT]
 class CIM_MediaAccessDevice : CIM_LogicalDevice
 {
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   ErrorMethodology;
-  string   CompressionMethod;
-  uint32   NumberOfMediaSupported;
-  uint64   MaxMediaSize;
-  uint64   DefaultBlockSize;
-  uint64   MaxBlockSize;
-  uint64   MinBlockSize;
-  boolean  NeedsCleaning;
-  boolean  MediaIsLocked;
-  uint16   Security;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   ErrorMethodology;
+  string   CompressionMethod;
+  uint32   NumberOfMediaSupported;
+  uint64   MaxMediaSize;
+  uint64   DefaultBlockSize;
+  uint64   MaxBlockSize;
+  uint64   MinBlockSize;
+  boolean  NeedsCleaning;
+  boolean  MediaIsLocked;
+  uint16   Security;
   datetime LastCleaned;
-  uint64   MaxAccessTime;
-  uint32   UncompressedDataRate;
-  uint64   LoadTime;
-  uint64   UnloadTime;
-  uint64   MountCount;
+  uint64   MaxAccessTime;
+  uint32   UncompressedDataRate;
+  uint64   LoadTime;
+  uint64   UnloadTime;
+  uint64   MountCount;
   datetime TimeOfLastMount;
-  uint64   TotalMountTime;
-  string   UnitsDescription;
-  uint64   MaxUnitsBeforeCleaning;
-  uint64   UnitsUsed;
+  uint64   TotalMountTime;
+  string   UnitsDescription;
+  uint64   MaxUnitsBeforeCleaning;
+  uint64   UnitsUsed;
 };
 ```
 
@@ -59,7 +64,7 @@ The **CIM\_MediaAccessDevice** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -205,9 +210,9 @@ The name of the algorithm or tool used by the device to support compression.
 
 If a compression type is not specified, one of the following values can be used:
 
--   "Unknown" — compression support is unknown or not specified.
--   "Compressed" — compression is supported but the type is unknown or unspecified.
--   "Not Compressed" — the device does not support compression capabilities.
+-   "Unknown"   compression support is unknown or not specified.
+-   "Compressed"   compression is supported but the type is unknown or unspecified.
+-   "Not Compressed"   the device does not support compression capabilities.
 
 </dd> <dt>
 
@@ -392,7 +397,7 @@ Access type: Read-only
 > [!Note]  
 > The **Capabilities** property indicates whether manual or automatic cleaning is possible.
 
- 
+ 
 
 </dd> <dt>
 
@@ -572,8 +577,8 @@ The time it takes, in milliseconds, for the device to transition from reading or
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -587,9 +592,9 @@ The time it takes, in milliseconds, for the device to transition from reading or
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the IMFNetProxyLocatorFactory interface.'
-ms.assetid: '455325c0-5116-4e81-9729-fab9c6a367c7'
-title: 'MFNETSOURCE\_PROXYLOCATORFACTORY property'
+---
+Description: Contains a pointer to the IMFNetProxyLocatorFactory interface.
+ms.assetid: 455325c0-5116-4e81-9729-fab9c6a367c7
+title: MFNETSOURCE\_PROXYLOCATORFACTORY property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROXYLOCATORFACTORY property
 
-Contains a pointer to the [**IMFNetProxyLocatorFactory**](imfnetproxylocatorfactory.md) interface.
+Contains a pointer to the [**IMFNetProxyLocatorFactory**](/windows/win32/mfidl/nn-mfidl-imfnetproxylocatorfactory?branch=master) interface.
 
 
 

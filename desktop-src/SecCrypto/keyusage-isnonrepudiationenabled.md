@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the nonRepudiationEnabled bit is set.'
-ms.assetid: 'd9bcf0fc-8b2d-408c-b587-71903ef5f5f6'
-title: 'KeyUsage.IsNonRepudiationEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the nonRepudiationEnabled bit is set.
+ms.assetid: d9bcf0fc-8b2d-408c-b587-71903ef5f5f6
+title: KeyUsage.IsNonRepudiationEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsNonRepudiationEnabled property

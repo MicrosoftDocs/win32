@@ -1,14 +1,19 @@
 ---
 Description: Setting Video Compression Properties
-ms.assetid: '2be03a2c-39a5-46da-9bbc-af42c08150ab'
+ms.assetid: 2be03a2c-39a5-46da-9bbc-af42c08150ab
 title: Setting Video Compression Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Video Compression Properties
 
-Video compression filters can support the [**IAMVideoCompression**](iamvideocompression.md) interface on their output pins. Use this interface to set compression properties, such as the key frame rate, the number of predicted (P) frames per key frame, and the relative compression quality.
+Video compression filters can support the [**IAMVideoCompression**](/windows/win32/Strmif/nn-strmif-iamvideocompression?branch=master) interface on their output pins. Use this interface to set compression properties, such as the key frame rate, the number of predicted (P) frames per key frame, and the relative compression quality.
 
-First, call the [**IBaseFilter::EnumPins**](ibasefilter-enumpins.md) method to find the filter's output pin, and query the pin for the interface. Some filters may not support the interface at all. Others may expose the interface but not support every compression property. To determine which properties are supported, call [**IAMVideoCompression::GetInfo**](iamvideocompression-getinfo.md). This method returns several pieces of information:
+First, call the [**IBaseFilter::EnumPins**](/windows/win32/Strmif/nf-strmif-ibasefilter-enumpins?branch=master) method to find the filter's output pin, and query the pin for the interface. Some filters may not support the interface at all. Others may expose the interface but not support every compression property. To determine which properties are supported, call [**IAMVideoCompression::GetInfo**](/windows/win32/Strmif/nf-strmif-iamvideocompression-getinfo?branch=master). This method returns several pieces of information:
 
 -   A set of capabilities flags
 -   A descriptive string and version-number string
@@ -24,7 +29,7 @@ hr = pCompress->GetInfo(pszVersion, &amp;cbVersion, pszDesc, &amp;cbDesc,
 
 
 
-The *pszVersion* and *pszDesc* parameters are wide-character buffers that receive the version string and description string. The *cbVersion* and *cbDesc* parameters receive the required buffer sizes in bytes (not characters). The *lKeyFrame*, *lPFrame*, and *dblQuality* parameters receive the default values for the key frame rate, P frame rate, and quality. Quality is expressed as a floating-point number from 0.0 to 1.0. The *lCap* parameter receives a bitwise **OR** of the capabilities flags, which are defined by the [**CompressionCaps**](compressioncaps.md) enumerated type.
+The *pszVersion* and *pszDesc* parameters are wide-character buffers that receive the version string and description string. The *cbVersion* and *cbDesc* parameters receive the required buffer sizes in bytes (not characters). The *lKeyFrame*, *lPFrame*, and *dblQuality* parameters receive the default values for the key frame rate, P frame rate, and quality. Quality is expressed as a floating-point number from 0.0 to 1.0. The *lCap* parameter receives a bitwise **OR** of the capabilities flags, which are defined by the [**CompressionCaps**](/windows/win32/strmif/ne-strmif-compressioncaps?branch=master) enumerated type.
 
 Any of these parameters can be **NULL**, in which case the method ignores that parameter. For example, to allocate buffers for the version and description strings, first call the method with **NULL** in the first and third parameters. Use the returned values for *cbVersion* and *cbDesc* to allocate the buffers and then call the method again:
 
@@ -42,7 +47,7 @@ if (SUCCEEDED(hr))
 
 
 
-The value of *lCap* indicates which of the other **IAMVideoCompression** methods the filter supports. For example, if *lCap* contains the CompressionCaps\_CanKeyFrame flag, you can call [**IAMVideoCompression::get\_KeyFrameRate**](iamvideocompression-get-keyframerate.md) to get the key frame rate and [**IAMVideoCompression::put\_KeyFrameRate**](iamvideocompression-put-keyframerate.md) to set the key frame rate. A negative value indicates that the filter will use the default value, as obtained from [**IAMVideoCompression::GetInfo**](iamvideocompression-getinfo.md). For example:
+The value of *lCap* indicates which of the other **IAMVideoCompression** methods the filter supports. For example, if *lCap* contains the CompressionCaps\_CanKeyFrame flag, you can call [**IAMVideoCompression::get\_KeyFrameRate**](/windows/win32/Strmif/nf-strmif-iamvideocompression-get_keyframerate?branch=master) to get the key frame rate and [**IAMVideoCompression::put\_KeyFrameRate**](/windows/win32/Strmif/nf-strmif-iamvideocompression-put_keyframerate?branch=master) to set the key frame rate. A negative value indicates that the filter will use the default value, as obtained from [**IAMVideoCompression::GetInfo**](/windows/win32/Strmif/nf-strmif-iamvideocompression-getinfo?branch=master). For example:
 
 
 ```C++
@@ -117,7 +122,7 @@ if (SUCCEEDED(hr))
 
 
 > [!Note]  
-> If you are using the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface to build your graph, you can obtain the **IAMVideoCompression** interface by calling [**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md), instead of using **IBaseFilter::EnumPins**. The **FindInterface** method is a helper method that searches filters and pins in the graph for a specified interface.
+> If you are using the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface to build your graph, you can obtain the **IAMVideoCompression** interface by calling [**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master), instead of using **IBaseFilter::EnumPins**. The **FindInterface** method is a helper method that searches filters and pins in the graph for a specified interface.
 
  
 

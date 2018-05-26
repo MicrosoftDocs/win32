@@ -1,8 +1,10 @@
 ---
 title: IMAP\_RESPONSE structure
 description: Holds responses from the Internet Message Access Protocol (IMAP) server.
-ms.assetid: 'e62265c9-3627-4f3d-9b45-9a3c22d5af05'
-keywords: ["IMAP_RESPONSE structure Windows Mail (formerly Outlook Express)", "IMAPADDR structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: e62265c9-3627-4f3d-9b45-9a3c22d5af05
+keywords:
+- IMAP_RESPONSE structure Windows Mail (formerly Outlook Express)
+- IMAPADDR structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAP\_RESPONSE structure
@@ -24,10 +31,10 @@ Holds responses from the Internet Message Access Protocol (IMAP) server.
 
 ```C++
 typedef struct tagIMAP_RESPONSE {
-  WPARAM             wParam;
-  LPARAM             lParam;
-  HRESULT            hrResult;
-  LPSTR              lpszResponseText;
+  WPARAM             wParam;
+  LPARAM             lParam;
+  HRESULT            hrResult;
+  LPSTR              lpszResponseText;
   IMAP_RESPONSE_TYPE irtResponseType;
   IMAP_RESPONSE_DATA irdResponseData;
 } IMAPADDR;
@@ -111,17 +118,17 @@ Contains an [**IMAP\_RESPONSE\_DATA**](oe-imap-response-data.md) structure that 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

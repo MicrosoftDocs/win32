@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sprite flags that tell the sprite drawing API how to behave. These are passed into ID3DX10Sprite::Begin.'
-ms.assetid: '734096e6-1482-479c-b287-a77a4695487c'
-title: 'D3DX10\_SPRITE\_FLAG enumeration'
+---
+Description: Sprite flags that tell the sprite drawing API how to behave. These are passed into ID3DX10SpriteBegin.
+ms.assetid: 734096e6-1482-479c-b287-a77a4695487c
+title: D3DX10\_SPRITE\_FLAG enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_SPRITE\_FLAG enumeration

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether or not WsdCodeGen should try to automatically flag certain generated fields as static.'
-ms.assetid: '0c858567-e17a-46a0-b3ff-a0dc8089b0cd'
+Description: Indicates whether or not WsdCodeGen should try to automatically flag certain generated fields as static.
+ms.assetid: 0c858567-e17a-46a0-b3ff-a0dc8089b0cd
 title: autoStatic element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # autoStatic element
@@ -44,14 +49,14 @@ Possible values are 1 (enabled, default) and 0 (disabled). Enabling **autoStatic
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

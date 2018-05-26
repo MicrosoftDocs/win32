@@ -1,13 +1,16 @@
 ---
-Description: 'Reads the BMC SEL log.'
+Description: Reads the BMC SEL log.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '03a58db7-be7c-418b-a88f-0cd2455f4cbb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 03a58db7-be7c-418b-a88f-0cd2455f4cbb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ReadLog method of the MSFT\_PCSVDevice class'
+title: ReadLog method of the MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReadLog method of the MSFT\_PCSVDevice class
@@ -19,8 +22,8 @@ Reads the BMC SEL log.
 
 ```mof
 uint32 ReadLog(
-  [out]     MSFT_PCSVLogRecord  LogRecords[],
-  [in, out] CIM_ConcreteJob REF Job
+  [out]     MSFT_PCSVLogRecord  LogRecords[],
+  [in, out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -59,16 +62,16 @@ This method returns one of the following values.
 **Failed** (2)
 </dt> <dt>
 
-**Reserved** (3–4095)
+**Reserved** (3 4095)
 </dt> <dt>
 
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -77,8 +80,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
@@ -92,9 +95,9 @@ This method returns one of the following values.
 [**MSFT\_PCSVDevice**](msft-pcsvdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

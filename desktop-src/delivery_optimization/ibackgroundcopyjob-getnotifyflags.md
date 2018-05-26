@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetNotifyFlags method
 description: Retrieves the event notification flags for the job.
-ms.assetid: '95ADC97F-63DC-4EB6-B85C-7BCC79238C12'
-keywords: ["GetNotifyFlags method", "GetNotifyFlags method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetNotifyFlags method"]
+ms.assetid: 95ADC97F-63DC-4EB6-B85C-7BCC79238C12
+keywords:
+- GetNotifyFlags method
+- GetNotifyFlags method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetNotifyFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetNotifyFlags method
@@ -22,7 +30,7 @@ Retrieves the event notification flags for the job.
 
 ```C++
 HRESULT GetNotifyFlags(
-  [out] ULONG *pNotifyFlags
+  [out] ULONG *pNotifyFlags
 );
 ```
 
@@ -48,7 +56,7 @@ Identifies the events that your application receives. The following table lists 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -64,7 +72,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,7 +80,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -98,9 +106,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

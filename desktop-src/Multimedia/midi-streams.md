@@ -1,8 +1,16 @@
 ---
 title: MIDI Streams
 description: MIDI Streams
-ms.assetid: '622472d9-2888-407f-bdaa-4943896c0bac'
-keywords: ["Musical Instrument Digital Interface (MIDI),streams", "MIDI (Musical Instrument Digital Interface),streams", "stream buffers,MIDI streams"]
+ms.assetid: 622472d9-2888-407f-bdaa-4943896c0bac
+keywords:
+- Musical Instrument Digital Interface (MIDI),streams
+- MIDI (Musical Instrument Digital Interface),streams
+- stream buffers,MIDI streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Streams

@@ -1,12 +1,17 @@
-﻿---
-Description: 'These escapes are used with the ImmEscape function.'
-ms.assetid: 'ede886dc-8a92-428c-8975-3feadc1d4f90'
+---
+Description: These escapes are used with the ImmEscape function.
+ms.assetid: ede886dc-8a92-428c-8975-3feadc1d4f90
 title: IME Escapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IME Escapes
 
-These escapes are used with the [**ImmEscape**](immescape.md) function.
+These escapes are used with the [**ImmEscape**](/windows/win32/Imm/nf-imm-immescapea?branch=master) function.
 
 
 

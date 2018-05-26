@@ -1,7 +1,12 @@
 ---
 title: cut (sm4 - asm)
 description: Geometry Shader instruction that completes the current primitive topology (if any vertices have been emitted), and starts a new topology of the type declared by the Geometry Shader.
-ms.assetid: '9B28E33D-F518-4844-BE3F-BE61B5F08B4F'
+ms.assetid: 9B28E33D-F518-4844-BE3F-BE61B5F08B4F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cut (sm4 - asm)

@@ -1,15 +1,30 @@
 ---
 title: Table Control Pattern
 description: Describes guidelines and conventions for implementing ITableProvider, including information about properties and methods. The Table control pattern is used to support controls that act as containers for a collection of child elements.
-ms.assetid: '81a1a316-cdd6-4490-8de2-1b6db52d84e6'
-keywords: ["UI Automation,implementing Table control pattern", "UI Automation,Table control pattern", "UI Automation,ITableProvider", "ITableProvider", "implementing UI Automation Table control patterns", "Table control patterns", "control patterns,ITableProvider", "control patterns,implementing UI Automation Table", "control patterns,Table", "interfaces,ITableProvider"]
+ms.assetid: 81a1a316-cdd6-4490-8de2-1b6db52d84e6
+keywords:
+- UI Automation,implementing Table control pattern
+- UI Automation,Table control pattern
+- UI Automation,ITableProvider
+- ITableProvider
+- implementing UI Automation Table control patterns
+- Table control patterns
+- control patterns,ITableProvider
+- control patterns,implementing UI Automation Table
+- control patterns,Table
+- interfaces,ITableProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Table Control Pattern
 
-Describes guidelines and conventions for implementing [**ITableProvider**](uiauto-itableprovider.md), including information about properties and methods. The **Table** control pattern is used to support controls that act as containers for a collection of child elements.
+Describes guidelines and conventions for implementing [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master), including information about properties and methods. The **Table** control pattern is used to support controls that act as containers for a collection of child elements.
 
-The children of the container element must implement [**ITableItemProvider**](uiauto-itableitemprovider.md) and be organized in a two-dimensional logical coordinate system that can be traversed by row and column. This control pattern is analogous to [**IGridProvider**](uiauto-igridprovider.md) with the distinction that any control implementing [**ITableProvider**](uiauto-itableprovider.md) must also expose a column and/or row header relationship for each child element. For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
+The children of the container element must implement [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master) and be organized in a two-dimensional logical coordinate system that can be traversed by row and column. This control pattern is analogous to [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master) with the distinction that any control implementing [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master) must also expose a column and/or row header relationship for each child element. For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
 This topic contains the following sections.
 
@@ -21,7 +36,7 @@ This topic contains the following sections.
 
 When implementing the **Table** control pattern, note the following guidelines and conventions:
 
--   Access to the content of individual cells is through a two-dimensional logical coordinate system or array provided by the required, concurrent implementation of [**IGridProvider**](uiauto-igridprovider.md).
+-   Access to the content of individual cells is through a two-dimensional logical coordinate system or array provided by the required, concurrent implementation of [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master).
 -   A column or row header can be contained within a table object or be a separate header object that is associated with a table object.
 -   Column and row headers may include both a primary header as well as any supporting headers.
     > [!Note]  
@@ -35,21 +50,21 @@ When implementing the **Table** control pattern, note the following guidelines a
 
     ![table with complex column headers](images/uia-valuepattern-colorpicker.jpg)
 
-    The following image shows a table with an ambiguous [**ITableProvider::RowOrColumnMajor**](uiauto-itableprovider-roworcolumnmajor.md) property.
+    The following image shows a table with an ambiguous [**ITableProvider::RowOrColumnMajor**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor?branch=master) property.
 
     ![table with an ambiguous roworcolumnmajor property](images/uia-tablepattern-roworcolumnmajorproperty.jpg)
 
 ## Required Members for **ITableProvider**
 
-The following properties and methods are required for implementing the [**ITableProvider**](uiauto-itableprovider.md) interface.
+The following properties and methods are required for implementing the [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master) interface.
 
 
 
 | Required members                                                   | Member type | Notes |
 |--------------------------------------------------------------------|-------------|-------|
-| [**RowOrColumnMajor**](uiauto-itableprovider-roworcolumnmajor.md) | Property    | None  |
-| [**GetColumnHeaders**](uiauto-itableprovider-getcolumnheaders.md) | Method      | None  |
-| [**GetRowHeaders**](uiauto-itableprovider-getrowheaders.md)       | Method      | None  |
+| [**RowOrColumnMajor**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor?branch=master) | Property    | None  |
+| [**GetColumnHeaders**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itableprovider-getcolumnheaders?branch=master) | Method      | None  |
+| [**GetRowHeaders**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itableprovider-getrowheaders?branch=master)       | Method      | None  |
 
 
 

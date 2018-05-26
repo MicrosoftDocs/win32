@@ -1,7 +1,12 @@
 ---
-Description: 'The IsStreaming method queries whether the filter is streaming data.'
-ms.assetid: 'af1529e1-f79d-469e-b234-7742916a3431'
-title: 'CBaseRenderer.IsStreaming method'
+Description: The IsStreaming method queries whether the filter is streaming data.
+ms.assetid: af1529e1-f79d-469e-b234-7742916a3431
+title: CBaseRenderer.IsStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.IsStreaming method
@@ -43,9 +48,9 @@ Returns the [**CBaseRenderer::m\_bStreaming**](cbaserenderer-m-bstreaming.md) fl
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

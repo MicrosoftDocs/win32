@@ -1,7 +1,12 @@
 ---
-Description: 'A user-friendly description of the file.'
-ms.assetid: '061299cd-ed41-46cd-bae3-eeb98bab3142'
-title: 'System.FileDescription'
+Description: A user-friendly description of the file.
+ms.assetid: 061299cd-ed41-46cd-bae3-eeb98bab3142
+title: System.FileDescription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileDescription

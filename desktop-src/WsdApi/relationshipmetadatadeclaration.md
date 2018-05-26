@@ -1,7 +1,12 @@
 ---
-Description: 'Generates a forward declaration for the hosting metadata specified in the hostMetadata element.'
-ms.assetid: '595adb84-e1a7-4636-b61f-eb0a4b3057b9'
+Description: Generates a forward declaration for the hosting metadata specified in the hostMetadata element.
+ms.assetid: 595adb84-e1a7-4636-b61f-eb0a4b3057b9
 title: relationshipMetadataDeclaration element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # relationshipMetadataDeclaration element
@@ -42,14 +47,14 @@ Hosting metadata is referenced by the application when it initializes the host. 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

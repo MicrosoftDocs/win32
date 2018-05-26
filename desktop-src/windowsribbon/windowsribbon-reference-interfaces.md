@@ -1,7 +1,12 @@
 ---
 title: Interfaces
 description: Reference documentation for the Windows Ribbon framework interfaces.
-ms.assetid: 'd5fd6e4f-ca10-4010-aab4-d2728b0ac53c'
+ms.assetid: d5fd6e4f-ca10-4010-aab4-d2728b0ac53c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces
@@ -27,7 +32,7 @@ Reference documentation for the Windows Ribbon framework interfaces.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ Reference documentation for the Windows Ribbon framework interfaces.
 [Windows Ribbon Framework Reference](windowsribbon-reference-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

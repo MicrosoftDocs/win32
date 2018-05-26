@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUIMXDC::AdjustImageableArea method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.'
-ms.assetid: 'a698fcb9-1285-4201-9b49-e79dcda66043'
-title: 'IPrintOemUIMXDC::AdjustImageableArea method'
+---
+Description: The IPrintOemUIMXDCAdjustImageableArea method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.
+ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
+title: IPrintOemUIMXDCAdjustImageableArea method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUIMXDC::AdjustImageableArea method

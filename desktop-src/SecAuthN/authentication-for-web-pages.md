@@ -1,7 +1,12 @@
 ---
-Description: 'Authentication is proving who you are.'
-ms.assetid: '5B058197-67B3-40DD-80D8-7BD8EE084CC9'
+Description: Authentication is proving who you are.
+ms.assetid: 5B058197-67B3-40DD-80D8-7BD8EE084CC9
 title: Authentication for web pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication for web pages

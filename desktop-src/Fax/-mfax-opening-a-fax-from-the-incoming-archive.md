@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to retrieve a fax from the incoming archive using the incoming fax iterator.'
-ms.assetid: 'bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e'
+Description: The following Microsoft Visual Basic code example demonstrates how to retrieve a fax from the incoming archive using the incoming fax iterator.
+ms.assetid: bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e
 title: Opening a Fax from the Incoming Archive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Fax from the Incoming Archive

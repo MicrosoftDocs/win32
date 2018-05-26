@@ -1,7 +1,12 @@
 ---
 title: MaxCharacterization
 description: MaxCharacterization
-ms.assetid: '48c20717-c77b-49ef-a1b4-7fef89ab56e6'
+ms.assetid: 48c20717-c77b-49ef-a1b4-7fef89ab56e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxCharacterization

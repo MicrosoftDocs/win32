@@ -1,8 +1,18 @@
 ---
 title: Implementing the Property Page for a DSP Plug-in
 description: Implementing the Property Page for a DSP Plug-in
-ms.assetid: '3dd3e547-fd06-4f01-8731-da1f8c958a32'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,audio properties", "DSP plug-ins,audio properties", "audio DSP plug-ins,properties"]
+ms.assetid: 3dd3e547-fd06-4f01-8731-da1f8c958a32
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,audio properties
+- DSP plug-ins,audio properties
+- audio DSP plug-ins,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the Property Page for a DSP Plug-in

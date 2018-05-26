@@ -1,7 +1,12 @@
 ---
-Description: 'The CAMMsgEvent class is a wrapper for event objects that perform message processing.'
-ms.assetid: '4b94febe-169f-4f04-be93-043a8c75e3b4'
+Description: The CAMMsgEvent class is a wrapper for event objects that perform message processing.
+ms.assetid: 4b94febe-169f-4f04-be93-043a8c75e3b4
 title: CAMMsgEvent class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMMsgEvent class
@@ -21,7 +26,7 @@ This class derives from the [**CAMEvent**](camevent.md) object. It adds one meth
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -34,9 +39,9 @@ This class derives from the [**CAMEvent**](camevent.md) object. It adds one meth
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,22 @@ description: The following enumerations contain values used for building MMC sna
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40172f14-711e-44bf-b797-0173331b191b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 40172f14-711e-44bf-b797-0173331b191b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["enumerations MMC 2.0"]
+keywords:
+- enumerations MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Enumerations
 
 The following enumerations contain values used for building MMC snap-in components or [MMC 2.0 Automation Object Model](mmc-2-0-automation-object-model.md) applications.
 
-[**ColumnSortOrder**](columnsortorder.md)
+[**ColumnSortOrder**](/windows/win32/MmcObj/ne-mmcobj-columnsortorder?branch=master)
 
 [**DATA\_OBJECT\_TYPES**](data-object-types.md)
 

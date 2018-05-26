@@ -4,13 +4,16 @@ description: The majority of the methods in this class accept ReplicationType wh
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dddff2cb-b6d9-495f-89e8-23cbb8a975d1'
-ms.prod: 'windows-server-dev'
+ms.assetid: dddff2cb-b6d9-495f-89e8-23cbb8a975d1
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ConvertSyncTypeToReplicationType method iSCSI Software Target API", "ConvertSyncTypeToReplicationType method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , ConvertSyncTypeToReplicationType method"]
+keywords:
+- ConvertSyncTypeToReplicationType method iSCSI Software Target API
+- ConvertSyncTypeToReplicationType method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , ConvertSyncTypeToReplicationType method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConvertSyncTypeToReplicationType method of the CIM\_ReplicationServiceCapabilities class
@@ -30,10 +36,10 @@ The majority of the methods in this class accept ReplicationType which represent
 
 ```mof
 uint32 ConvertSyncTypeToReplicationType(
-  [in]  uint16 SyncType,
-  [in]  uint16 Mode,
-  [in]  uint16 LocalOrRemote,
-  [out] uint16 SupportedReplicationTypes
+  [in]  uint16 SyncType,
+  [in]  uint16 Mode,
+  [in]  uint16 LocalOrRemote,
+  [out] uint16 SupportedReplicationTypes
 );
 ```
 
@@ -131,14 +137,14 @@ Mode describes whether the target elements will be updated synchronously or asyn
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *LocalOrRemote* \[in\]
 </dt> <dd>
@@ -166,14 +172,14 @@ Copy to local or remote replica.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *SupportedReplicationTypes* \[out\]
 </dt> <dd>
@@ -207,10 +213,10 @@ A value representing the ReplicationType.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -220,7 +226,7 @@ A value representing the ReplicationType.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -234,9 +240,9 @@ A value representing the ReplicationType.
 [**CIM\_ReplicationServiceCapabilities**](cim-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

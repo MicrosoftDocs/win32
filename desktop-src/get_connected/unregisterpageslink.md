@@ -1,8 +1,9 @@
 ---
 title: UnregisterPagesLink function
 description: Removes a registration link between two pages created with the RegisterPageWithPage function.
-ms.assetid: '78298ab2-60bb-4db1-ad6c-84d8b29c754a'
-keywords: ["UnregisterPagesLink function Get Connected Wizard API"]
+ms.assetid: 78298ab2-60bb-4db1-ad6c-84d8b29c754a
+keywords:
+- UnregisterPagesLink function Get Connected Wizard API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - connect.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnregisterPagesLink function
@@ -22,8 +28,8 @@ The **UnregisterPagesLink** function removes a registration link between two pag
 
 ```C++
 HRESULT WINAPI UnregisterPagesLink(
-  _In_ const GUID *pguidParentPage,
-  _In_ const GUID *pguidChildPage
+  _In_ const GUID *pguidParentPage,
+  _In_ const GUID *pguidChildPage
 );
 ```
 
@@ -65,15 +71,15 @@ An import library containing the **UnregisterPagesLink** function is not include
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Connect.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

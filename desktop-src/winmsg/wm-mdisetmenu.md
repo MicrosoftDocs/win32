@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application sends the WM\_MDISETMENU message to a multiple-document interface (MDI) client window to replace the entire menu of an MDI frame window, to replace the window menu of the frame window, or both.'
-ms.assetid: '5cc85032-5378-44a0-abd4-d583deaa3294'
-title: 'WM\_MDISETMENU message'
+---
+Description: An application sends the WM\_MDISETMENU message to a multiple-document interface (MDI) client window to replace the entire menu of an MDI frame window, to replace the window menu of the frame window, or both.
+ms.assetid: 5cc85032-5378-44a0-abd4-d583deaa3294
+title: WM\_MDISETMENU message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MDISETMENU message

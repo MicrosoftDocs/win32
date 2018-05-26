@@ -4,11 +4,14 @@ description: Returns a description of the operational condition of a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3bae66a8-cc45-49e6-acea-c506623b25bc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3bae66a8-cc45-49e6-acea-c506623b25bc
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["State property Failover Cluster", "State property Failover Cluster , ClusResource object", "ClusResource object Failover Cluster , State property"]
+keywords:
+- State property Failover Cluster
+- State property Failover Cluster , ClusResource object
+- ClusResource object Failover Cluster , State property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.State property
@@ -38,7 +44,7 @@ ClusResource.State
 
 ## Property value
 
-**Long** that receives a constant describing the state of the resource. The values are enumerated from the [**CLUSTER\_RESOURCE\_STATE**](cluster-resource-state.md) enumeration.
+**Long** that receives a constant describing the state of the resource. The values are enumerated from the [**CLUSTER\_RESOURCE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_state?branch=master) enumeration.
 
 <dt>
 
@@ -152,7 +158,7 @@ For information about making constants defined by the Cluster Automation Server 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -168,12 +174,12 @@ For information about making constants defined by the Cluster Automation Server 
 [**ClusResource**](clusresource-object.md)
 </dt> <dt>
 
-[**CLUSTER\_RESOURCE\_STATE**](cluster-resource-state.md)
+[**CLUSTER\_RESOURCE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_resource_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

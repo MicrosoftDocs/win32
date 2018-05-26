@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni3::GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.'
-ms.assetid: 'bb7d7248-9520-4bc8-8483-b05b78608fc7'
-title: 'IPrintOemUni3::GetPDEVAdjustment method'
+---
+Description: The IPrintOemUni3GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.
+ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
+title: IPrintOemUni3GetPDEVAdjustment method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni3::GetPDEVAdjustment method

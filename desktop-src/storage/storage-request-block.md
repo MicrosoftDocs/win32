@@ -1,8 +1,10 @@
 ---
 title: STORAGE\_REQUEST\_BLOCK structure
 description: The STORAGE\_REQUEST\_BLOCK is the extended format SCSI Request Block (SRB) structure.
-ms.assetid: '67A5077D-B1AD-49B7-B024-D139E375483F'
-keywords: ["STORAGE_REQUEST_BLOCK structure Storage Devices", "PSTORAGE_REQUEST_BLOCK structure pointer Storage Devices"]
+ms.assetid: 67A5077D-B1AD-49B7-B024-D139E375483F
+keywords:
+- STORAGE_REQUEST_BLOCK structure Storage Devices
+- PSTORAGE_REQUEST_BLOCK structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_REQUEST\_BLOCK structure
@@ -20,40 +27,40 @@ The **STORAGE\_REQUEST\_BLOCK** is the extended format SCSI Request Block (SRB) 
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef struct _STORAGE_REQUEST_BLOCK {
-  USHORT                        Length;
-  UCHAR                         Function;
-  UCHAR                         SrbStatus;
-  UCHAR                         ReservedUchar[4];
-  ULONG                         Signature;
-  ULONG                         Version;
-  ULONG                         SrbLength;
-  ULONG                         SrbFunction;
-  ULONG                         SrbFlags;
-  ULONG                         ReservedUlong;
-  ULONG                         RequestTag;
-  USHORT                        RequestPriority;
-  USHORT                        RequestAttribute;
-  ULONG                         TimeOutValue;
-  ULONG                         SystemStatus;
-  ULONG                         ZeroGuard1;
-  ULONG                         AddressOffset;
-  ULONG                         NumSrbExData;
-  ULONG                         DataTransferLength;
-  PVOID                         DataBuffer;
-  PVOID                         ZeroGuard2;
-  PVOID                         OriginalRequest;
-  PVOID                         ClassContext;
-  PVOID                         PortContext;
-  PVOID                         MiniportContext;
-  struct _STORAGE_REQUEST_BLOCK  *NextSrb;
-  ULONG                         SrbExDataOffset[ANYSIZE_ARRAY];
+  USHORT                        Length;
+  UCHAR                         Function;
+  UCHAR                         SrbStatus;
+  UCHAR                         ReservedUchar[4];
+  ULONG                         Signature;
+  ULONG                         Version;
+  ULONG                         SrbLength;
+  ULONG                         SrbFunction;
+  ULONG                         SrbFlags;
+  ULONG                         ReservedUlong;
+  ULONG                         RequestTag;
+  USHORT                        RequestPriority;
+  USHORT                        RequestAttribute;
+  ULONG                         TimeOutValue;
+  ULONG                         SystemStatus;
+  ULONG                         ZeroGuard1;
+  ULONG                         AddressOffset;
+  ULONG                         NumSrbExData;
+  ULONG                         DataTransferLength;
+  PVOID                         DataBuffer;
+  PVOID                         ZeroGuard2;
+  PVOID                         OriginalRequest;
+  PVOID                         ClassContext;
+  PVOID                         PortContext;
+  PVOID                         MiniportContext;
+  struct _STORAGE_REQUEST_BLOCK  *NextSrb;
+  ULONG                         SrbExDataOffset[ANYSIZE_ARRAY];
 } STORAGE_REQUEST_BLOCK, *PSTORAGE_REQUEST_BLOCK;
 ```
 
@@ -483,7 +490,7 @@ A SCSIMESS\_ABORT message should be sent to cancel the request pointed to by the
 > [!Note]  
 > This function is not sent to the miniport by Storport.
 
- 
+ 
 
 </dd> <dt>
 
@@ -532,7 +539,7 @@ A SCSIMESS\_TERMINATE\_IO\_PROCESS message should be sent to cancel the request 
 > [!Note]  
 > This function is not sent to the miniport by Storport.
 
- 
+ 
 
 </dd> <dt>
 
@@ -548,7 +555,7 @@ A SCSIMESS\_RELEASE\_RECOVERY message should be sent to the target controller. E
 > [!Note]  
 > This function is not sent to the miniport by Storport.
 
- 
+ 
 
 </dd> <dt>
 
@@ -564,7 +571,7 @@ The HBA should be prepared to receive an asynchronous event notification from th
 > [!Note]  
 > This function is not sent to the miniport by Storport.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1033,7 +1040,7 @@ An array of offsets specifying the location of extended data blocks for the SRB.
 
 ## Remarks
 
-Starting in Windows 8, an extended SRB type is supported with the use of the **STORAGE\_REQUEST\_BLOCK** structure. **STORAGE\_REQUEST\_BLOCK** extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the [**SCSI\_REQUEST\_BLOCK**](scsi-request-block.md) structure will continue.
+Starting in Windows 8, an extended SRB type is supported with the use of the **STORAGE\_REQUEST\_BLOCK** structure. **STORAGE\_REQUEST\_BLOCK** extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the [**SCSI\_REQUEST\_BLOCK**](scsi-request-block.md) structure will continue.
 
 If **NumSrbExData** &gt; 0, the offsets for the SRB extended data blocks are in the **SrbExDataOffset** array. Each offset is relative to the beginning of this structure and points to a [**SRBEX\_DATA**](srbex-data.md) structure containing the extended data block.
 
@@ -1045,7 +1052,7 @@ The target device address for the SRB is in a [**STOR\_ADDRESS**](stor-address.m
 
 |                    |                                                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Available in Windows 8 and later versions of Windows.<br/>                                                                 |
+| Version<br/> | Available in Windows 8 and later versions of Windows.<br/>                                                                 |
 | Header<br/>  | <dl> <dt>Storport.h (include Storport.h, Srb.h, or Minitape.h)</dt> </dl> |
 
 
@@ -1060,9 +1067,9 @@ The target device address for the SRB is in a [**STOR\_ADDRESS**](stor-address.m
 [**STOR\_ADDRESS**](stor-address.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20STORAGE_REQUEST_BLOCK%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

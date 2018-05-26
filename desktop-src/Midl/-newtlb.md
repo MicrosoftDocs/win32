@@ -2,13 +2,19 @@
 title: /newtlb switch
 description: This is the default setting for choosing a type library format.
 ms.assetid: 460bc6bc-0958-42bd-92e0-838b019ec79d
-keywords: ["/newtlb switch MIDL"]
+keywords:
+- /newtlb switch MIDL
 topic_type:
 - apiref
 api_name:
 - /newtlb
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /newtlb switch

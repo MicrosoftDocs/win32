@@ -4,10 +4,13 @@ description: This topic contains important information about this and previous r
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'CE379738-4E1D-42AD-83F4-F89B70456EBB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: CE379738-4E1D-42AD-83F4-F89B70456EBB
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Release notes

@@ -1,7 +1,12 @@
 ---
-Description: 'The graph is dropping samples, for quality control.'
-ms.assetid: 'a21fe766-58a5-4851-a282-883374287e18'
-title: 'EC\_QUALITY\_CHANGE'
+Description: The graph is dropping samples, for quality control.
+ms.assetid: a21fe766-58a5-4851-a282-883374287e18
+title: EC\_QUALITY\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_QUALITY\_CHANGE
@@ -54,9 +59,9 @@ A filter sends this event if it drops samples in response to a quality control m
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

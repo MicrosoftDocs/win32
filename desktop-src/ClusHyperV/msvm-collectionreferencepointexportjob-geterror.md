@@ -4,13 +4,16 @@ description: Retrieves error information for the operational status of a concret
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0ab4133-c39b-4bc0-bd5b-911512ceff3a'
-ms.prod: 'windows-server-dev'
+ms.assetid: f0ab4133-c39b-4bc0-bd5b-911512ceff3a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetError method", "GetError method, Msvm_CollectionReferencePointExportJob class", "Msvm_CollectionReferencePointExportJob class, GetError method"]
+keywords:
+- GetError method
+- GetError method, Msvm_CollectionReferencePointExportJob class
+- Msvm_CollectionReferencePointExportJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the Msvm\_CollectionReferencePointExportJob class
@@ -30,7 +36,7 @@ Retrieves error information for the operational status of a concrete job. This m
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -96,7 +102,7 @@ This function returns one of the following values.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -110,9 +116,9 @@ This function returns one of the following values.
 [**Msvm\_CollectionReferencePointExportJob**](msvm-collectionreferencepointexportjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

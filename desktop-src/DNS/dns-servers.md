@@ -1,8 +1,14 @@
 ---
 title: DNS Servers
 description: A DNS Server is a computer that completes the process of name resolution in DNS.
-ms.assetid: 'c7ce6e46-491c-482e-8d72-a79b911c3f68'
-keywords: ["DNS Servers"]
+ms.assetid: c7ce6e46-491c-482e-8d72-a79b911c3f68
+keywords:
+- DNS Servers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS Servers

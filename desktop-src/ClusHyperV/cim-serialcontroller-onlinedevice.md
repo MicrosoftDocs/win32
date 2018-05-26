@@ -4,13 +4,16 @@ description: Deprecated description Brings the logical device online so it can a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '790be9d8-1769-4332-8454-e022826148fc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 790be9d8-1769-4332-8454-e022826148fc
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["OnlineDevice method", "OnlineDevice method, CIM_SerialController class", "CIM_SerialController class, OnlineDevice method"]
+keywords:
+- OnlineDevice method
+- OnlineDevice method, CIM_SerialController class
+- CIM_SerialController class, OnlineDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineDevice method of the CIM\_SerialController class
@@ -32,7 +38,7 @@ This method is deprecated. Instead we recommend that you use the **RequestStateC
 
 ```mof
 uint32 OnlineDevice(
-  [in] boolean Online
+  [in] boolean Online
 );
 ```
 
@@ -85,7 +91,7 @@ The operation is not supported when the device is in the current state.
 
 </dt> <dd>
 
-3–...
+3 ...
 
 The operation was not completed because an error occurred.
 
@@ -98,7 +104,7 @@ The operation was not completed because an error occurred.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -112,9 +118,9 @@ The operation was not completed because an error occurred.
 [**CIM\_SerialController**](cim-serialcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

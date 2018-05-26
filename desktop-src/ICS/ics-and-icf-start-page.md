@@ -1,8 +1,20 @@
 ---
 title: Internet Connection Sharing and Internet Connection Firewall
 description: Internet Connection Sharing (ICS) makes it possible for home and small office users to share a single connection to the Internet.
-ms.assetid: 'a9f46f63-a905-48c9-bfbe-a6cec5b6edcf'
-keywords: ["Internet Connection Sharing and Internet Connection Firewall ICS/ICF", "Internet Connection Sharing and Internet Connection Firewall ICS/ICF , start page", "sharing", "firewall", "ICS ICS/ICF", "ICS ICS/ICF , start page", "ICF"]
+ms.assetid: a9f46f63-a905-48c9-bfbe-a6cec5b6edcf
+keywords:
+- Internet Connection Sharing and Internet Connection Firewall ICS/ICF
+- Internet Connection Sharing and Internet Connection Firewall ICS/ICF , start page
+- sharing
+- firewall
+- ICS ICS/ICF
+- ICS ICS/ICF , start page
+- ICF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Connection Sharing and Internet Connection Firewall
@@ -25,7 +37,7 @@ The ICS/ICF API is designed for use by programmers using C/C++, Microsoft Visual
 
 ## Run-time requirements
 
-The ICS/ICF API is supported on Windows XP.
+The ICS/ICF API is supported on Windows XP.
 
 ## In this section
 
@@ -39,7 +51,7 @@ The ICS/ICF API is supported on Windows XP.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -51,9 +63,9 @@ The ICS/ICF API is supported on Windows XP.
 [Windows Firewall](windows-firewall-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

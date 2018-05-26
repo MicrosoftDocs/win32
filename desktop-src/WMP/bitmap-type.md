@@ -1,8 +1,18 @@
 ---
 title: Bitmap Type
 description: Bitmap Type
-ms.assetid: '208df4b9-d1be-49ff-bc0b-2e000608e9c7'
-keywords: ["Windows Media Player Mobile skins,bitmaps", "skins,bitmaps", "reference for skins,bitmaps", "bitmaps in skins,types", "bitmaps in skins,values"]
+ms.assetid: 208df4b9-d1be-49ff-bc0b-2e000608e9c7
+keywords:
+- Windows Media Player Mobile skins,bitmaps
+- skins,bitmaps
+- reference for skins,bitmaps
+- bitmaps in skins,types
+- bitmaps in skins,values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap Type

@@ -1,8 +1,29 @@
 ---
 title: Importing License and Key Material
 description: Importing License and Key Material
-ms.assetid: '72ce5901-3e5b-4339-b695-592895ac6bfe'
-keywords: ["Windows Media Format SDK,DRM import", "Windows Media Format SDK,import", "Windows Media Format SDK,licenses", "digital rights management (DRM),import", "DRM (digital rights management),import", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),key material", "DRM (digital rights management),key material", "DRM Client Extended APIs,import", "Client Extended APIs,import", "DRM Client Extended APIs,licenses", "Client Extended APIs,licenses", "DRM Client Extended APIs,key material", "Client Extended APIs,key material", "licenses,importing"]
+ms.assetid: 72ce5901-3e5b-4339-b695-592895ac6bfe
+keywords:
+- Windows Media Format SDK,DRM import
+- Windows Media Format SDK,import
+- Windows Media Format SDK,licenses
+- digital rights management (DRM),import
+- DRM (digital rights management),import
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),key material
+- DRM (digital rights management),key material
+- DRM Client Extended APIs,import
+- Client Extended APIs,import
+- DRM Client Extended APIs,licenses
+- Client Extended APIs,licenses
+- DRM Client Extended APIs,key material
+- Client Extended APIs,key material
+- licenses,importing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing License and Key Material

@@ -1,8 +1,29 @@
 ---
 title: About the Cdrom and CdromCollection Objects
 description: About the Cdrom and CdromCollection Objects
-ms.assetid: 'b764806b-d9e1-4c36-b86b-24613501c926'
-keywords: ["Windows Media Player,Cdrom object", "Windows Media Player object model,Cdrom object", "object model,Cdrom object", "Windows Media Player ActiveX control,Cdrom object", "ActiveX control,Cdrom object", "Windows Media Player Mobile ActiveX control,Cdrom object", "Windows Media Player Mobile,Cdrom object", "Cdrom object", "Windows Media Player,CdromCollection object", "Windows Media Player object model,CdromCollection object", "object model,CdromCollection object", "Windows Media Player ActiveX control,CdromCollection object", "ActiveX control,CdromCollection object", "Windows Media Player Mobile ActiveX control,CdromCollection object", "Windows Media Player Mobile,CdromCollection object", "CdromCollection object"]
+ms.assetid: b764806b-d9e1-4c36-b86b-24613501c926
+keywords:
+- Windows Media Player,Cdrom object
+- Windows Media Player object model,Cdrom object
+- object model,Cdrom object
+- Windows Media Player ActiveX control,Cdrom object
+- ActiveX control,Cdrom object
+- Windows Media Player Mobile ActiveX control,Cdrom object
+- Windows Media Player Mobile,Cdrom object
+- Cdrom object
+- Windows Media Player,CdromCollection object
+- Windows Media Player object model,CdromCollection object
+- object model,CdromCollection object
+- Windows Media Player ActiveX control,CdromCollection object
+- ActiveX control,CdromCollection object
+- Windows Media Player Mobile ActiveX control,CdromCollection object
+- Windows Media Player Mobile,CdromCollection object
+- CdromCollection object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Cdrom and CdromCollection Objects

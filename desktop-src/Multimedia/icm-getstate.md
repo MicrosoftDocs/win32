@@ -1,8 +1,9 @@
 ---
 title: ICM\_GETSTATE message
 description: The ICM\_GETSTATE message queries a video compression driver to return its current configuration in a block of memory or to determine the amount of memory required to retrieve the configuration information.
-ms.assetid: '4b77e294-f3aa-45f9-a4f4-f103b83eae8d'
-keywords: ["ICM_GETSTATE message Windows Multimedia"]
+ms.assetid: 4b77e294-f3aa-45f9-a4f4-f103b83eae8d
+keywords:
+- ICM_GETSTATE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_GETSTATE message
 
-The **ICM\_GETSTATE** message queries a video compression driver to return its current configuration in a block of memory or to determine the amount of memory required to retrieve the configuration information. You can send this message explicitly or by using the [**ICGetState**](icgetstate.md) macro.
+The **ICM\_GETSTATE** message queries a video compression driver to return its current configuration in a block of memory or to determine the amount of memory required to retrieve the configuration information. You can send this message explicitly or by using the [**ICGetState**](/windows/win32/Vfw/nf-vfw-icgetstate?branch=master) macro.
 
 
 ```C++
@@ -33,7 +39,7 @@ lParam = (DWORD_PTR) cb;
 <span id="pv"></span><span id="PV"></span>*pv*
 </dt> <dd>
 
-Pointer to a block of memory to contain the current configuration information. You can specify **NULL** for this parameter to determine the amount of memory required for the configuration information, as in [**ICGetStateSize**](icgetstatesize.md).
+Pointer to a block of memory to contain the current configuration information. You can specify **NULL** for this parameter to determine the amount of memory required for the configuration information, as in [**ICGetStateSize**](/windows/win32/Vfw/nf-vfw-icgetstatesize?branch=master).
 
 </dd> <dt>
 
@@ -60,8 +66,8 @@ The structure used to represent configuration information is driver specific and
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The structure used to represent configuration information is driver specific and
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Validation Tests for On-boarding Type 2 Online Stores
 description: This topic describes tests that Microsoft will perform to validate your Type 2 online store. Microsoft requires that you run these tests before you submit a release candidate. Your online store must successfully pass these tests to be published.
-ms.assetid: '1da51772-9711-4913-b05d-830fabe49da2'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: 1da51772-9711-4913-b05d-830fabe49da2
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Validation Tests for On-boarding Type 2 Online Stores

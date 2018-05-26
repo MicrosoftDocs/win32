@@ -1,26 +1,31 @@
 ---
-Description: 'The CPlApplet callback function processes all messages sent to a Control Panel item by Windows. Messages sent to the function are in a specific order. By the same token, the .cpl item requires the messages to be processed in a specific way.'
-ms.assetid: '70302698-f9d5-4de4-a662-4815002eea52'
+Description: The CPlApplet callback function processes all messages sent to a Control Panel item by Windows. Messages sent to the function are in a specific order. By the same token, the .cpl item requires the messages to be processed in a specific way.
+ms.assetid: 70302698-f9d5-4de4-a662-4815002eea52
 title: Control Panel Message Processing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Panel Message Processing
 
-The [**CPlApplet**](cplapplet.md) callback function processes all messages sent to a Control Panel item by Windows. Messages sent to the function are in a specific order. By the same token, the .cpl item requires the messages to be processed in a specific way.
+The [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) callback function processes all messages sent to a Control Panel item by Windows. Messages sent to the function are in a specific order. By the same token, the .cpl item requires the messages to be processed in a specific way.
 
-First, the [**CPlApplet**](cplapplet.md) function receives the CPL\_INIT message when Windows first loads the Control Panel item. The function should carry out any initialization, such as allocating memory, and return nonzero. If **CPlApplet** cannot complete the initialization, it must return zero, directing Windows to terminate communication and release the DLL.
+First, the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function receives the CPL\_INIT message when Windows first loads the Control Panel item. The function should carry out any initialization, such as allocating memory, and return nonzero. If **CPlApplet** cannot complete the initialization, it must return zero, directing Windows to terminate communication and release the DLL.
 
 Next, if the CPL\_INIT message succeeded, Windows sends the CPL\_GETCOUNT message. The function must then return the number of Control Panel items supported by the .dll file.
 
-The [**CPlApplet**](cplapplet.md) function then receives one CPL\_INQUIRE message and one CPL\_NEWINQUIRE message for each Control Panel item supported by the .dll file. The function fills in a [**CPLINFO**](cplinfo.md) or [**NEWCPLINFO**](newcplinfo.md) structure with information about your item, such as its name, icon, and a descriptive string. Most applications should process the CPL\_INQUIRE message and ignore the CPL\_NEWINQUIRE message. The CPL\_INQUIRE message provides information in a form that Windows can cache, which results in much better performance. The CPL\_NEWINQUIRE message is used only if you need to change your item's icon or display strings based on the state of the computer. Control Panel items that use CPL\_NEWINQUIRE cannot be found by a **Start** menu search in Windows Vista because it relies on caching.
+The [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function then receives one CPL\_INQUIRE message and one CPL\_NEWINQUIRE message for each Control Panel item supported by the .dll file. The function fills in a [**CPLINFO**](/windows/win32/Cpl/ns-cpl-tagcplinfo?branch=master) or [**NEWCPLINFO**](/windows/win32/Cpl/ns-cpl-tagnewcplinfoa?branch=master) structure with information about your item, such as its name, icon, and a descriptive string. Most applications should process the CPL\_INQUIRE message and ignore the CPL\_NEWINQUIRE message. The CPL\_INQUIRE message provides information in a form that Windows can cache, which results in much better performance. The CPL\_NEWINQUIRE message is used only if you need to change your item's icon or display strings based on the state of the computer. Control Panel items that use CPL\_NEWINQUIRE cannot be found by a **Start** menu search in Windows Vista because it relies on caching.
 
-The [**CPlApplet**](cplapplet.md) function next receives a CPL\_DBLCLK message as a notification that the user has chosen the icon that represents the Control Panel item. The function might receive this message any number of times. The message includes the item identifier and the **lpData** pointer returned in the [**CPLINFO**](cplinfo.md) or [**NEWCPLINFO**](newcplinfo.md) structure in the call to [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md). The function should display the corresponding dialog box and process subsequent user input.
+The [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function next receives a CPL\_DBLCLK message as a notification that the user has chosen the icon that represents the Control Panel item. The function might receive this message any number of times. The message includes the item identifier and the **lpData** pointer returned in the [**CPLINFO**](/windows/win32/Cpl/ns-cpl-tagcplinfo?branch=master) or [**NEWCPLINFO**](/windows/win32/Cpl/ns-cpl-tagnewcplinfoa?branch=master) structure in the call to [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md). The function should display the corresponding dialog box and process subsequent user input.
 
 Besides CPL\_DBLCLK, the CPL\_STARTWPARMS message can be sent if a Control Panel item is invoked with input parameters, such as from a command prompt or from another program. The message includes the item identifier along with the additional parameter string.
 
-Before the controlling application terminates, [**CPlApplet**](cplapplet.md) receives the CPL\_STOP message once for each Control Panel item supported by the .dll file. The message includes the identifier for the Control Panel item and the **lpData** pointer returned in the [**CPLINFO**](cplinfo.md) or [**NEWCPLINFO**](newcplinfo.md) structure in the call to [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md). The function should free any memory that it allocated for the specified dialog box.
+Before the controlling application terminates, [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) receives the CPL\_STOP message once for each Control Panel item supported by the .dll file. The message includes the identifier for the Control Panel item and the **lpData** pointer returned in the [**CPLINFO**](/windows/win32/Cpl/ns-cpl-tagcplinfo?branch=master) or [**NEWCPLINFO**](/windows/win32/Cpl/ns-cpl-tagnewcplinfoa?branch=master) structure in the call to [**CPL\_INQUIRE**](cpl-inquire.md) or [**CPL\_NEWINQUIRE**](cpl-newinquire.md). The function should free any memory that it allocated for the specified dialog box.
 
-After the last CPL\_STOP message, [**CPlApplet**](cplapplet.md) receives a CPL\_EXIT message. The function should free all remaining allocated memory and unregister any private window classes that it might have registered. Immediately after the function returns from this message, Windows releases the Control Panel item by calling the [**FreeLibrary**](base.freelibrary) function.
+After the last CPL\_STOP message, [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) receives a CPL\_EXIT message. The function should free all remaining allocated memory and unregister any private window classes that it might have registered. Immediately after the function returns from this message, Windows releases the Control Panel item by calling the [**FreeLibrary**](base.freelibrary) function.
 
 ## Related topics
 

@@ -1,7 +1,12 @@
 ---
-Description: 'All information about a file, including its size, time and date stamps, permissions, and data content, is stored either in master file table (MFT) entries, or in space outside the MFT that is described by MFT entries.'
-ms.assetid: 'e0933846-278e-4bc8-8982-c5819c252dad'
+Description: All information about a file, including its size, time and date stamps, permissions, and data content, is stored either in master file table (MFT) entries, or in space outside the MFT that is described by MFT entries.
+ms.assetid: e0933846-278e-4bc8-8982-c5819c252dad
 title: Master File Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Master File Table
@@ -18,7 +23,7 @@ The MFT itself can be defragmented. To reduce the chance of the MFT zone becomin
 
 The default MFT zone is calculated and reserved by the system when it mounts the volume, and is based on volume size. You can increase the MFT zone by means of the registry entry detailed in [Microsoft Knowledge Base Article 174619](Http://go.microsoft.com/fwlink/p/?linkid=83991), but you cannot make the default MFT zone smaller than what is calculated. Increasing the MFT zone does not decrease the disk space that users can use for data files.
 
-To determine the current size of the MFT, analyze the NTFS file system drive with Disk Defragmenter, then click the **View Report** button. The drive statistics will be displayed, including the current MFT size, and number of fragments. You can also obtain the size of the MFT by using the [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](fsctl-get-ntfs-volume-data.md) control code.
+To determine the current size of the MFT, analyze the NTFS file system drive with Disk Defragmenter, then click the **View Report** button. The drive statistics will be displayed, including the current MFT size, and number of fragments. You can also obtain the size of the MFT by using the [**FSCTL\_GET\_NTFS\_VOLUME\_DATA**](/windows/win32/WinIoCtl/?branch=master) control code.
 
  
 

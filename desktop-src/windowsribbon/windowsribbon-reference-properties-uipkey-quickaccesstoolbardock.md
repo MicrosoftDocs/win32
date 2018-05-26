@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_QuickAccessToolbarDock
 description: Identifies the UI\_PKEY\_QuickAccessToolbarDock property.
-ms.assetid: '77f7b0a8-f276-4501-9d53-fb5a3185edcc'
+ms.assetid: 77f7b0a8-f276-4501-9d53-fb5a3185edcc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_QuickAccessToolbarDock
@@ -10,12 +15,12 @@ Identifies the UI\_PKEY\_QuickAccessToolbarDock property.
 
 ```
 propertyDescription
-   name = UI_PKEY_QuickAccessToolbarDock
-   shellPKey = UI_PKEY_QuickAccessToolbarDock
-   formatID = 00001002-7363-696e-8441798acf5aebb7
-   propID = 1002
-   typeInfo
-      type = UI_CONTROLDOCK
+   name = UI_PKEY_QuickAccessToolbarDock
+   shellPKey = UI_PKEY_QuickAccessToolbarDock
+   formatID = 00001002-7363-696e-8441798acf5aebb7
+   propID = 1002
+   typeInfo
+      type = UI_CONTROLDOCK
 ```
 
 ## Remarks
@@ -33,7 +38,7 @@ The property value is from the [**UI\_CONTROLDOCK**](https://msdn.microsoft.com/
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -42,9 +47,9 @@ The property value is from the [**UI\_CONTROLDOCK**](https://msdn.microsoft.com/
 [Ribbon Properties](windowsribbon-reference-properties-ribbon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

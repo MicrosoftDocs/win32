@@ -1,13 +1,16 @@
 ---
 title: How to Register an MI Provider
-description: Once you've successfully built an MI provider, you can register it on the target Windows 8 or Windows Server 2012 machine using the Register-CimProvider tool that ships in Windows. The following steps detail how to do that.
+description: Once youve successfully built an MI provider, you can register it on the target Windows 8 or Windows Server 2012 machine using the Register-CimProvider tool that ships in Windows. The following steps detail how to do that.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13295157-C279-4730-8FC2-EF21AFCEB503'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 13295157-C279-4730-8FC2-EF21AFCEB503
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Register an MI Provider

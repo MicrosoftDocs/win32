@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMESTATUS message
 description: Gets a set of status flags that indicate how the edit control interacts with the Input Method Editor (IME).
-ms.assetid: '56705aed-afab-4f4d-9e0b-dc533b516a15'
-keywords: ["EM_GETIMESTATUS message Windows Controls"]
+ms.assetid: 56705aed-afab-4f4d-9e0b-dc533b516a15
+keywords:
+- EM_GETIMESTATUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMESTATUS message
@@ -34,7 +40,7 @@ The type of status to retrieve. This parameter can be the following value.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Data specific to the type of status to retrieve. With the **EMSIS\_COMPOSITIONST
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,8 +77,8 @@ Data specific to the type of status to retrieve. With the **EMSIS\_COMPOSITIONST
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -84,9 +90,9 @@ Data specific to the type of status to retrieve. With the **EMSIS\_COMPOSITIONST
 [**EM\_SETIMESTATUS**](em-setimestatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

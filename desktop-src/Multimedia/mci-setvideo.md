@@ -1,8 +1,9 @@
 ---
 title: MCI\_SETVIDEO command
 description: The MCI\_SETVIDEO command sets values associated with video playback. Digital-video and VCR devices recognize this command.
-ms.assetid: 'b84956d8-01a0-49f6-a96c-2693a25e6f2a'
-keywords: ["MCI_SETVIDEO command Windows Multimedia"]
+ms.assetid: b84956d8-01a0-49f6-a96c-2693a25e6f2a
+keywords:
+- MCI_SETVIDEO command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SETVIDEO command
 
 The MCI\_SETVIDEO command sets values associated with video playback. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -283,7 +289,7 @@ Enables video output.
 
 </dd> </dl>
 
-For digital-video devices, the *lpSetVideo* parameter points to an [**MCI\_DGV\_SETVIDEO\_PARMS**](mci-dgv-setvideo-parms.md) structure.
+For digital-video devices, the *lpSetVideo* parameter points to an [**MCI\_DGV\_SETVIDEO\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_setvideo_parmsa?branch=master) structure.
 
 The following additional flags are used with the "vcr" device type:
 
@@ -339,8 +345,8 @@ For VCR devices, the *lpSetVideo* parameter points to an [**MCI\_VCR\_SETVIDEO\_
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -355,9 +361,9 @@ For VCR devices, the *lpSetVideo* parameter points to an [**MCI\_VCR\_SETVIDEO\_
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

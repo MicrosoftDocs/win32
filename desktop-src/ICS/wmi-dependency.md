@@ -1,7 +1,12 @@
 ---
 title: WMI Dependency
-ms.assetid: '94f74d56-a3be-4122-9714-d9a764145d80'
+ms.assetid: 94f74d56-a3be-4122-9714-d9a764145d80
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMI Dependency

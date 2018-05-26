@@ -1,7 +1,12 @@
 ---
 title: Using shader linking
 description: We show how to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run-time.
-ms.assetid: '3A1597FF-F848-415E-BDF8-199C69C05C3B'
+ms.assetid: 3A1597FF-F848-415E-BDF8-199C69C05C3B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using shader linking

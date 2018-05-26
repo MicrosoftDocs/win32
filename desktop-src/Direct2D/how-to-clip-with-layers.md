@@ -1,7 +1,12 @@
 ---
 title: How to Clip to a Geometric Mask
 description: Shows how to clip a region with layers.
-ms.assetid: 'eaeb6cfd-de62-46f1-972d-a11e0ccc11d9'
+ms.assetid: eaeb6cfd-de62-46f1-972d-a11e0ccc11d9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Clip to a Geometric Mask
@@ -10,17 +15,17 @@ This topic describes how to use a geometric mask to clip a region of a layer.
 
 **To clip a region with a geometric mask**
 
-1.  Create the [**ID2D1Geometry**](id2d1geometry.md) that will be used to clip the region.
-2.  Call [**ID2D1RenderTarget::CreateLayer**](id2d1rendertarget-createlayer.md) to create a layer.
-3.  Call [**ID2D1RenderTarget::PushLayer**](id2d1rendertarget-pushlayer-ref-d2d1-layer-parameters-ptr-id2d1layer.md) and pass the geometric mask you defined in step 1.
+1.  Create the [**ID2D1Geometry**](/windows/win32/d2d1/?branch=master) that will be used to clip the region.
+2.  Call [**ID2D1RenderTarget::CreateLayer**](/windows/win32/d2d1/nf-d2d1-createlayer?branch=master) to create a layer.
+3.  Call [**ID2D1RenderTarget::PushLayer**](/windows/win32/d2d1/?branch=master) and pass the geometric mask you defined in step 1.
 4.  Draw the content to clip.
-5.  Call [**ID2D1RenderTarget::PopLayer**](id2d1rendertarget-poplayer.md) to remove the layer from the render target.
+5.  Call [**ID2D1RenderTarget::PopLayer**](/windows/win32/d2d1/?branch=master) to remove the layer from the render target.
 
 The example that follows uses a geometric mask to clip an image and several rectangles. The following illustration shows the original bitmap on the left, and the bitmap clipped to the geometric mask on the right.
 
 ![illustration of a goldfish bitmap before and after the bitmap is clipped to a star-shaped mask](images/cliparegion-layers.png)
 
-To clip the drawing as shown in the preceding illustration, you create an [**ID2D1PathGeometry**](id2d1pathgeometry.md) and use it to define a star. The following code shows how to do this.
+To clip the drawing as shown in the preceding illustration, you create an [**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master) and use it to define a star. The following code shows how to do this.
 
 
 ```C++
@@ -53,14 +58,14 @@ SafeRelease(&amp;pSink);
 
 
 
-Call [**CreateLayer**](id2d1rendertarget-createlayer.md) to create a layer.
+Call [**CreateLayer**](/windows/win32/d2d1/nf-d2d1-createlayer?branch=master) to create a layer.
 
 > [!Note]  
-> Starting with Windows 8, you don't need to call [**CreateLayer**](id2d1rendertarget-createlayer.md). In most situations performance is better if you don't call this method and Direct2D manages the layer resources.
+> Starting with Windows 8, you don't need to call [**CreateLayer**](/windows/win32/d2d1/nf-d2d1-createlayer?branch=master). In most situations performance is better if you don't call this method and Direct2D manages the layer resources.
 
  
 
-Call [**PushLayer**](id2d1rendertarget-pushlayer-ref-d2d1-layer-parameters-ptr-id2d1layer.md) with the geometry mask to push the layer. Draw the content to clip, then call [**PopLayer**](id2d1rendertarget-poplayer.md) to pop the layer. This produces the star-shaped drawing. The following code shows how to do this.
+Call [**PushLayer**](/windows/win32/d2d1/?branch=master) with the geometry mask to push the layer. Draw the content to clip, then call [**PopLayer**](/windows/win32/d2d1/?branch=master) to pop the layer. This produces the star-shaped drawing. The following code shows how to do this.
 
 
 ```C++

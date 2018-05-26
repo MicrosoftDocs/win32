@@ -4,17 +4,21 @@ description: Number of days to maintain the off-line caching.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '9D54BBAF-9122-413E-AFD0-56D15FD9CD16'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 9D54BBAF-9122-413E-AFD0-56D15FD9CD16
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor offlineCacheLifetimeInDays property"]
+keywords:
+- MSPolicyDescriptor offlineCacheLifetimeInDays property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor offlineCacheLifetimeInDays property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor offlineCacheLifetimeInDays property
@@ -37,7 +41,7 @@ Number of days to maintain the off-line caching.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,15 +57,15 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
 ## Remarks
 
 Your app could use constants from the [**MSOfflineCacheLifetimeConstants**](msofflinecachelifetimeconstants-interface-objc.md) object.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: These are the minimal test suggestions for console taskpads, which 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '39af517d-df72-4319-bc21-6196a2b9f244'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 39af517d-df72-4319-bc21-6196a2b9f244
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Testing the Console Taskpads

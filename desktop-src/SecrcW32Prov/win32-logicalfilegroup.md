@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalFileGroup association WMI class relates the security settings of a file or directory and its group. You cannot enumerate this class.'
+Description: The Win32\_LogicalFileGroup association WMI class relates the security settings of a file or directory and its group. You cannot enumerate this class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dfc0c3b3-2421-44fa-8463-b1a2a43bba4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dfc0c3b3-2421-44fa-8463-b1a2a43bba4c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalFileGroup class'
+title: Win32\_LogicalFileGroup class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalFileGroup class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SECRCW32"), UUID("{8502C58F-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_LogicalFileGroup : Win32_SecuritySettingGroup
 {
-  Win32_SID                        REF Group;
+  Win32_SID                        REF Group;
   Win32_LogicalFileSecuritySetting REF SecuritySetting;
 };
 ```
@@ -81,8 +84,8 @@ The **Win32\_LogicalFileGroup** class is derived from [**Win32\_SecuritySettingG
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -99,9 +102,9 @@ The **Win32\_LogicalFileGroup** class is derived from [**Win32\_SecuritySettingG
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

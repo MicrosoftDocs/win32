@@ -4,17 +4,22 @@ description: The location of the desktop profile for a user or group of users. N
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cbab8930-ce18-4b9c-ad60-5875bb23b822'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cbab8930-ce18-4b9c-ad60-5875bb23b822
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Desktop-Profile attribute AD Schema", "desktopProfile attribute AD Schema"]
+keywords:
+- Desktop-Profile attribute AD Schema
+- desktopProfile attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Desktop-Profile
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Desktop-Profile attribute
@@ -38,13 +43,13 @@ The location of the desktop profile for a user or group of users. Not used.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The location of the desktop profile for a user or group of users. Not used.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

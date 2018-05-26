@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and WSALookupServiceNext
 description: Bluetooth uses the WSALookupServiceNext function to match queries specified in a previous call to WSALookupServiceBegin.
-ms.assetid: 'd43cf444-adb6-4313-9614-a8d6d868a88f'
-keywords: ["Bluetooth", "WSALookupServiceNext", "Bluetooth and WSALookupServiceNext"]
+ms.assetid: d43cf444-adb6-4313-9614-a8d6d868a88f
+keywords:
+- Bluetooth
+- WSALookupServiceNext
+- Bluetooth and WSALookupServiceNext
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and WSALookupServiceNext
@@ -27,13 +35,13 @@ The steps for device inquiry and service discovery in Bluetooth are sufficiently
 [Bluetooth and WSALookupServiceEnd](bluetooth-and-wsalookupserviceend.md)
 </dt> <dt>
 
-[**BTH\_QUERY\_SERVICE**](bth-query-service.md)
+[**BTH\_QUERY\_SERVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master)
 </dt> <dt>
 
 [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> <dt>
 
 [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633)

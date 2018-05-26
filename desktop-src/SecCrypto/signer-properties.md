@@ -1,7 +1,12 @@
 ---
-Description: 'The Signer object exposes the following properties.'
-ms.assetid: '6CAC3769-E295-41ED-86D6-9C2BE54581DC'
+Description: The Signer object exposes the following properties.
+ms.assetid: 6CAC3769-E295-41ED-86D6-9C2BE54581DC
 title: Signer Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signer Properties

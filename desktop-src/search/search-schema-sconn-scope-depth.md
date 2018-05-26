@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;depth&gt; element specifies whether the search connector''s scope should include child URLs. The allowed values are Deep and Shallow. This element has no child elements and no attributes.'
-ms.assetid: '859decab-cbe3-4cec-b37c-6d0e7c353876'
-title: 'depth Element (Search Connector Schema)'
+Description: The &lt;depth&gt; element specifies whether the search connectors scope should include child URLs. The allowed values are Deep and Shallow. This element has no child elements and no attributes.
+ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
+title: depth Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # depth Element (Search Connector Schema)

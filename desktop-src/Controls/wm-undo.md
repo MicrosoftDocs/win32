@@ -1,8 +1,9 @@
 ---
 title: WM\_UNDO message
 description: An application sends a WM\_UNDO message to an edit control to undo the last operation. When this message is sent to an edit control, the previously deleted text is restored or the previously added text is deleted.
-ms.assetid: 'bb5a3425-bf99-4a08-8747-82c24c5889ad'
-keywords: ["WM_UNDO message Windows Controls"]
+ms.assetid: bb5a3425-bf99-4a08-8747-82c24c5889ad
+keywords:
+- WM_UNDO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_UNDO message
@@ -51,8 +57,8 @@ If the message fails, the return value is **FALSE**.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ If the message fails, the return value is **FALSE**.
 [**WM\_PASTE**](https://msdn.microsoft.com/library/windows/desktop/ms649028)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INapCertRelyingParty UnSubscribeCertByGroup method
 description: Unsubscribes from a health certificate server (HCS).
-ms.assetid: '2b26b110-8aba-487e-bd49-c6afc6af11f8'
-keywords: ["UnSubscribeCertByGroup method NAP", "UnSubscribeCertByGroup method NAP , INapCertRelyingParty interface", "INapCertRelyingParty interface NAP , UnSubscribeCertByGroup method"]
+ms.assetid: 2b26b110-8aba-487e-bd49-c6afc6af11f8
+keywords:
+- UnSubscribeCertByGroup method NAP
+- UnSubscribeCertByGroup method NAP , INapCertRelyingParty interface
+- INapCertRelyingParty interface NAP , UnSubscribeCertByGroup method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapCertRelyingParty::UnSubscribeCertByGroup method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **UnSubscribeCertByGroup** method unsubscribes from a health certificate server (HCS).
 
@@ -27,8 +35,8 @@ The **UnSubscribeCertByGroup** method unsubscribes from a health certificate ser
 
 ```C++
 HRESULT UnSubscribeCertByGroup(
-  [in]        EnforcementEntityId   id,
-  [in] const  VARIANT             * reserved
+  [in]        EnforcementEntityId   id,
+  [in] const  VARIANT             * reserved
 );
 ```
 
@@ -66,7 +74,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ Before calling this method, call [**SubscribeCertByGroup**](inapcertrelyingparty
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapCertRelyingParty.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCertRelyingParty.idl</dt> </dl> |
 
@@ -94,9 +102,9 @@ Before calling this method, call [**SubscribeCertByGroup**](inapcertrelyingparty
 [**INapCertRelyingParty**](inapcertrelyingparty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

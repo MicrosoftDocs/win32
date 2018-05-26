@@ -1,8 +1,9 @@
 ---
 title: SB\_GETBORDERS message
 description: Retrieves the current widths of the horizontal and vertical borders of a status window.
-ms.assetid: '120c1e0d-6f42-424e-94e0-a080d216d39d'
-keywords: ["SB_GETBORDERS message Windows Controls"]
+ms.assetid: 120c1e0d-6f42-424e-94e0-a080d216d39d
+keywords:
+- SB_GETBORDERS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_GETBORDERS message
@@ -45,15 +51,15 @@ The borders determine the spacing between the outside edge of the window and the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

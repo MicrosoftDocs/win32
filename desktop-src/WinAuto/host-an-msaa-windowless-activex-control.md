@@ -1,8 +1,15 @@
 ---
 title: How to Host an MSAA Windowless ActiveX Control
 description: Learn how to create a control container that can host windowless Microsoft ActiveX controls that implement Microsoft Active Accessibility.
-ms.assetid: '9497561C-37ED-4094-A6B0-C219F63C04B6'
-keywords: ["MSAA, Windowless ActiveX control", "Windowless ActiveX control, MSAA"]
+ms.assetid: 9497561C-37ED-4094-A6B0-C219F63C04B6
+keywords:
+- MSAA, Windowless ActiveX control
+- Windowless ActiveX control, MSAA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Host an MSAA Windowless ActiveX Control
@@ -27,23 +34,23 @@ Learn how to create a control container that can host windowless Microsoft Activ
 
 ### Step 1: Provide the root IAccessible interface on behalf of the windowless control.
 
-Whenever the system needs the [**IAccessible**](iaccessible.md) pointer for the root of a windowless control, the system queries the control container. To retrieve the pointer, the container calls the windowless control's implementation of the [**IServiceProvider::QueryService**](_inet_IServiceProvider_QueryService_Method) method.
+Whenever the system needs the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) pointer for the root of a windowless control, the system queries the control container. To retrieve the pointer, the container calls the windowless control's implementation of the [**IServiceProvider::QueryService**](_inet_IServiceProvider_QueryService_Method) method.
 
-If the control container has a Microsoft Active Accessibility implementation, it can return the windowless control's [**IAccessible**](iaccessible.md) pointer to the system.
+If the control container has a Microsoft Active Accessibility implementation, it can return the windowless control's [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) pointer to the system.
 
-If the control container has a Microsoft UI Automation implementation, call the [**UiaProviderFromIAccessible**](uiauto-uiaproviderfromiaccessiblefunction.md) function to obtain an [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface pointer that represents the control, and then return the **IRawElementProviderSimple** interface pointer to the system.
+If the control container has a Microsoft UI Automation implementation, call the [**UiaProviderFromIAccessible**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaproviderfromiaccessible?branch=master) function to obtain an [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface pointer that represents the control, and then return the **IRawElementProviderSimple** interface pointer to the system.
 
 ### Step 2: Respond to the WM\_GETOBJECT message on behalf of the windowless control.
 
 When a client application responds to a WinEvent raised by a windowless control, the control container receives a [**WM\_GETOBJECT**](wm-getobject.md) message on behalf of the control. The message includes the object ID of the windowless control that raised the event.
 
-The control container responds by looking up the windowless control that "owns" the object ID, and then calling that control's [**IAccessibleHandler::AccessibleObjectFromID**](iaccessiblehandler-iaccessiblehandler--accessibleobjectfromid.md) method. The **AccessibleObjectFromID** method returns the [**IAccessible**](iaccessible.md) interface pointer for the UI item, and the control container returns the pointer to the system, which forwards it to the client application.
+The control container responds by looking up the windowless control that "owns" the object ID, and then calling that control's [**IAccessibleHandler::AccessibleObjectFromID**](/windows/win32/Oleacc/nf-oleacc-iaccessiblehandler-accessibleobjectfromid?branch=master) method. The **AccessibleObjectFromID** method returns the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer for the UI item, and the control container returns the pointer to the system, which forwards it to the client application.
 
 ### Step 3: Implement the IAccessibleWindowlessSite interface.
 
 1.  Implement the [**IAccessibleWindowlessSite::GetParentAccessible**](https://msdn.microsoft.com/library/windows/desktop/hh448754) method.
 
-    When a client application needs accessibility information about the parent of the windowless control's root provider, the system calls the windowless control's [**IAccessible::get\_accParent**](iaccessible-iaccessible--get-accparent.md) method. The control responds by calling the control container's [**IAccessibleWindowlessSite::GetParentAccessible**](https://msdn.microsoft.com/library/windows/desktop/hh448754) method, which provides the [**IAccessible**](iaccessible.md) pointer of the windowless control's parent.
+    When a client application needs accessibility information about the parent of the windowless control's root provider, the system calls the windowless control's [**IAccessible::get\_accParent**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accparent?branch=master) method. The control responds by calling the control container's [**IAccessibleWindowlessSite::GetParentAccessible**](https://msdn.microsoft.com/library/windows/desktop/hh448754) method, which provides the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) pointer of the windowless control's parent.
 
 2.  Implement the [**IAccessibleWindowlessSite::AcquireObjectIdRange**](https://msdn.microsoft.com/library/windows/desktop/hh448753), [**QueryObjectIdRange**](https://msdn.microsoft.com/library/windows/desktop/hh448755), and [**ReleaseObjectIdRange**](https://msdn.microsoft.com/library/windows/desktop/hh448756) methods.
 
@@ -65,7 +72,7 @@ The control container responds by looking up the windowless control that "owns" 
 
 ### Step 4: Optional: Implement the IAccessibleHostingElementProviders interface.
 
-Implement the [**IAccessibleHostingElementProviders**](iaccessiblehostingelementproviders.md) interface if your control container has a Microsoft Active Accessibility server implementation and the server is the root of an accessibility tree that includes windowless ActiveX controls that support UI Automation. The **IAccessibleHostingElementProviders** interface has a single method, [**GetEmbeddedFragmentRoots**](uiauto-irawelementproviderfragment-getembeddedfragmentroots.md), which retrieves the [**IRawElementProviderFragmentRoot**](uiauto-irawelementproviderfragmentroot.md) interface pointers of all UI Automation windowless ActiveX controls that are hosted by your control container.
+Implement the [**IAccessibleHostingElementProviders**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessiblehostingelementproviders?branch=master) interface if your control container has a Microsoft Active Accessibility server implementation and the server is the root of an accessibility tree that includes windowless ActiveX controls that support UI Automation. The **IAccessibleHostingElementProviders** interface has a single method, [**GetEmbeddedFragmentRoots**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots?branch=master), which retrieves the [**IRawElementProviderFragmentRoot**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot?branch=master) interface pointers of all UI Automation windowless ActiveX controls that are hosted by your control container.
 
 ## Related topics
 

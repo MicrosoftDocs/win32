@@ -4,11 +4,14 @@ description: Creates a new system service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '805754AA-B62A-4324-B289-503C42BEFA49'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 805754AA-B62A-4324-B289-503C42BEFA49
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Create method Remote Desktop Services", "Create method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , Create method"]
+keywords:
+- Create method Remote Desktop Services
+- Create method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , Create method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_Service class
@@ -30,18 +36,18 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in] string  Name,
-  [in] string  DisplayName,
-  [in] string  PathName,
-  [in] uint8   ServiceType,
-  [in] uint8   ErrorControl,
-  [in] string  StartMode,
-  [in] boolean DesktopInteract,
-  [in] string  StartName,
-  [in] string  StartPassword,
-  [in] string  LoadOrderGroup,
-  [in] string  LoadOrderGroupDependencies[],
-  [in] string  ServiceDependencies[]
+  [in] string  Name,
+  [in] string  DisplayName,
+  [in] string  PathName,
+  [in] uint8   ServiceType,
+  [in] uint8   ErrorControl,
+  [in] string  StartMode,
+  [in] boolean DesktopInteract,
+  [in] string  StartName,
+  [in] string  StartPassword,
+  [in] string  LoadOrderGroup,
+  [in] string  LoadOrderGroupDependencies[],
+  [in] string  ServiceDependencies[]
 );
 ```
 
@@ -452,8 +458,8 @@ The *LoadOrderGroup* parameter represents a grouping of system services defining
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -476,9 +482,9 @@ The *LoadOrderGroup* parameter represents a grouping of system services defining
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

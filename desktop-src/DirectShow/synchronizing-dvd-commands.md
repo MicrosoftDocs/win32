@@ -1,12 +1,17 @@
 ---
 Description: Synchronizing DVD Commands
-ms.assetid: '37e8f940-617d-43f6-92bd-aadccafe0059'
+ms.assetid: 37e8f940-617d-43f6-92bd-aadccafe0059
 title: Synchronizing DVD Commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronizing DVD Commands
 
-DVD commands do not always complete instantly. For this reason, some of the methods in [**IDvdControl2**](idvdcontrol2.md) are asynchronous. These include playback methods, such as **PlayTitle**, and menu navigation methods, such as **ShowMenu** and **ReturnFromSubmenu**. An asynchronous method returns immediately, without waiting for the command to complete. After the method returns, other events may prevent the command from completing, even if the method succeeded. DirectShow provides several options for synchronizing commands, ranging from no synchronization to full synchronization using filter graph events.
+DVD commands do not always complete instantly. For this reason, some of the methods in [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) are asynchronous. These include playback methods, such as **PlayTitle**, and menu navigation methods, such as **ShowMenu** and **ReturnFromSubmenu**. An asynchronous method returns immediately, without waiting for the command to complete. After the method returns, other events may prevent the command from completing, even if the method succeeded. DirectShow provides several options for synchronizing commands, ranging from no synchronization to full synchronization using filter graph events.
 
 All of the asynchronous methods have a *dwFlags* parameter and a *ppCmd* parameter. The *dwFlags* parameter specifies the synchronization behavior, and the *ppCmd* parameter returns a pointer to an optional synchronization object. Different behaviors result depending on what values you give for these parameters.
 
@@ -38,7 +43,7 @@ In effect, this flag turns an asynchronous method into a synchronous method. The
 
 **Synchronization Object**
 
-All of the asynchronous methods can return a synchronization object, which you can use to wait for the command to start or end. To get this object, pass the address of an [**IDvdCmd**](idvdcmd.md) pointer in the *ppCmd* parameter:
+All of the asynchronous methods can return a synchronization object, which you can use to wait for the command to start or end. To get this object, pass the address of an [**IDvdCmd**](/windows/win32/Strmif/nn-strmif-idvdcmd?branch=master) pointer in the *ppCmd* parameter:
 
 
 ```C++
@@ -48,7 +53,7 @@ hr = pDVDControl2->PlayTitle(uTitle, DVD_CMD_FLAG_None, &amp;pCmdObj);
 
 
 
-If the method succeeds, it returns a new **IDvdCmd** object. The [**IDvdCmd::WaitForStart**](idvdcmd-waitforstart.md) method blocks until the command begins, and the [**IDvdCmd::WaitForEnd**](idvdcmd-waitforend.md) method blocks until the command ends. The return value indicates the status of the command.
+If the method succeeds, it returns a new **IDvdCmd** object. The [**IDvdCmd::WaitForStart**](/windows/win32/Strmif/nf-strmif-idvdcmd-waitforstart?branch=master) method blocks until the command begins, and the [**IDvdCmd::WaitForEnd**](/windows/win32/Strmif/nf-strmif-idvdcmd-waitforend?branch=master) method blocks until the command ends. The return value indicates the status of the command.
 
 The following code is functionally equivalent to setting the EC\_DVD\_CMD\_FLAG\_Block flag, shown previously.
 
@@ -72,7 +77,7 @@ In this case, the **PlayTitle** method does not block, but the application block
 
 If you set the DVD\_CMD\_FLAG\_SendEvents flag in the *dwFlags* parameter, the DVD Navigator sends an [**EC\_DVD\_CMD\_START**](ec-dvd-cmd-start.md) event when the command begins and an [**EC\_DVD\_CMD\_END**](ec-dvd-cmd-end.md) event when the command ends.
 
-The event's *lParam2* parameter is the HRESULT return value for the command. The event's *lParam1* parameter provides a way get the synchronization object for the command. If you pass *lParam1* to the [**IDvdInfo2::GetCmdFromEvent**](idvdinfo2-getcmdfromevent.md) method, the method returns a pointer to the synchronization object's **IDvdCmd** interface. You can use this interface to wait for completion of the command, as described earlier. However, if you passed **NULL** for the *ppCmd* parameter in the original **IDvdControl2** method, the DVD Navigator does not create a synchronization object, and **GetCmdFromEvent** returns E\_FAIL.
+The event's *lParam2* parameter is the HRESULT return value for the command. The event's *lParam1* parameter provides a way get the synchronization object for the command. If you pass *lParam1* to the [**IDvdInfo2::GetCmdFromEvent**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getcmdfromevent?branch=master) method, the method returns a pointer to the synchronization object's **IDvdCmd** interface. You can use this interface to wait for completion of the command, as described earlier. However, if you passed **NULL** for the *ppCmd* parameter in the original **IDvdControl2** method, the DVD Navigator does not create a synchronization object, and **GetCmdFromEvent** returns E\_FAIL.
 
 The following code shows how to use command status events with no synchronization object.
 

@@ -1,8 +1,29 @@
 ---
 title: Table Control Type
 description: This topic provides information about Microsoft UI Automation support for the Table control type.
-ms.assetid: '508db2af-1ca3-4003-8e1f-6e225cf79b7a'
-keywords: ["UI Automation,support for Table control type", "UI Automation,Table control type", "UI Automation,tree structure for Table control type", "UI Automation,properties for Table control type", "UI Automation,control patterns for Table control type", "UI Automation,events for Table control type", "tree structures,Table control type", "properties,Table control type", "control patterns,Table control type", "events,Table control type", "support for Table control type", "Table control type", "control types,tree structure for Table control type", "control types,control patterns for Table control type", "control types,support for Table", "control types,Table"]
+ms.assetid: 508db2af-1ca3-4003-8e1f-6e225cf79b7a
+keywords:
+- UI Automation,support for Table control type
+- UI Automation,Table control type
+- UI Automation,tree structure for Table control type
+- UI Automation,properties for Table control type
+- UI Automation,control patterns for Table control type
+- UI Automation,events for Table control type
+- tree structures,Table control type
+- properties,Table control type
+- control patterns,Table control type
+- events,Table control type
+- support for Table control type
+- Table control type
+- control types,tree structure for Table control type
+- control types,control patterns for Table control type
+- control types,support for Table
+- control types,Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Table Control Type
@@ -63,7 +84,7 @@ The following table depicts a typical control and content view of the UI Automat
 
  
 
-If a table control has row or column headers, they must be exposed in the control view of the UI Automation tree. The content view does not need to expose this information because it can be accessed using [**IUIAutomationTablePattern**](uiauto-iuiautomationtablepattern.md).
+If a table control has row or column headers, they must be exposed in the control view of the UI Automation tree. The content view does not need to expose this information because it can be accessed using [**IUIAutomationTablePattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtablepattern?branch=master).
 
 ## Relevant Properties
 
@@ -98,10 +119,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support                     | Notes                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridProvider**](uiauto-igridprovider.md)           | Required                    | Because the table control contains items presented in a grid, it always supports the [Grid](uiauto-implementinggrid.md) control pattern.                                                                                                                                                    |
-| [**IGridItemProvider**](uiauto-igriditemprovider.md)   | Required with child objects | The inner objects of a table should support both the [GridItem](uiauto-implementinggriditem.md) and [TableItem](uiauto-implementingtableitem.md) control patterns. The table itself need not support the GridItem or TableItem control pattern unless the table is part of another table.  |
-| [**ITableProvider**](uiauto-itableprovider.md)         | Required                    | The table control can always have headers associated with the content.                                                                                                                                                                                                                       |
-| [**ITableItemProvider**](uiauto-itableitemprovider.md) | Required with child objects | The inner objects of a table should support both the [GridItem](uiauto-implementinggriditem.md) and [TableItem](uiauto-implementingtableitem.md) control patterns. The table itself need not support the GridItem or TableItem control patterns unless the table is part of another table. |
+| [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master)           | Required                    | Because the table control contains items presented in a grid, it always supports the [Grid](uiauto-implementinggrid.md) control pattern.                                                                                                                                                    |
+| [**IGridItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igriditemprovider?branch=master)   | Required with child objects | The inner objects of a table should support both the [GridItem](uiauto-implementinggriditem.md) and [TableItem](uiauto-implementingtableitem.md) control patterns. The table itself need not support the GridItem or TableItem control pattern unless the table is part of another table.  |
+| [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master)         | Required                    | The table control can always have headers associated with the content.                                                                                                                                                                                                                       |
+| [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master) | Required with child objects | The inner objects of a table should support both the [GridItem](uiauto-implementinggriditem.md) and [TableItem](uiauto-implementingtableitem.md) control patterns. The table itself need not support the GridItem or TableItem control patterns unless the table is part of another table. |
 
 
 

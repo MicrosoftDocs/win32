@@ -1,8 +1,16 @@
 ---
 title: Configuring Web Streams
 description: Configuring Web Streams
-ms.assetid: '1eeb6243-5095-4dba-994c-2083beda7b78'
-keywords: ["streams,configuring Web streams", "codecs,configuring Web streams", "Web streams,configuring"]
+ms.assetid: 1eeb6243-5095-4dba-994c-2083beda7b78
+keywords:
+- streams,configuring Web streams
+- codecs,configuring Web streams
+- Web streams,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Web Streams

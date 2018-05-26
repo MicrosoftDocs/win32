@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.accDescription
 description: The accDescription attribute specifies or retrieves a description for any element.
-ms.assetid: '660d886d-5dd2-4f7d-b343-6d9c7c8f8389'
-keywords: ["AmbientAttributes.accDescription Windows Media Player"]
+ms.assetid: 660d886d-5dd2-4f7d-b343-6d9c7c8f8389
+keywords:
+- AmbientAttributes.accDescription Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.accDescription
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.accDescription
@@ -46,9 +52,9 @@ This attribute also applies to button elements inside the button group control.
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

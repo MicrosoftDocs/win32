@@ -1,7 +1,12 @@
 ---
-Description: 'Registers the provider and initializes the counter sets.'
-ms.assetid: 'edcf8df3-0f6d-4849-b41d-270509499b8e'
+Description: Registers the provider and initializes the counter sets.
+ms.assetid: edcf8df3-0f6d-4849-b41d-270509499b8e
 title: CounterInitialize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterInitialize function
@@ -27,7 +32,7 @@ Returns ERROR\_SUCCESS on success; otherwise, a standard Win32 error code.
 
 ## Remarks
 
-Your provider calls this function. The function includes calls to the [**PerfStartProvider**](perfstartprovider.md) function and the [**PerfSetCounterSetInfo**](perfsetcountersetinfo.md) function.
+Your provider calls this function. The function includes calls to the [**PerfStartProvider**](/windows/win32/Perflib/nf-perflib-perfstartprovider?branch=master) function and the [**PerfSetCounterSetInfo**](/windows/win32/Perflib/nf-perflib-perfsetcountersetinfo?branch=master) function.
 
 The [**CTRPP**](ctrpp.md) tool generates this inline function when you specify the **-o** argument. The function's name include a *prefix* string if you specify the **-prefix** argument.
 
@@ -49,21 +54,21 @@ where,
 <span id="NotificationCallback"></span><span id="notificationcallback"></span><span id="NOTIFICATIONCALLBACK"></span>NotificationCallback
 </dt> <dd>
 
-The name of your [*ControlCallback*](controlcallback-perflibv2.md) callback function that you implement to receive notification of consumer requests (for example, requests to add or remove counters from the query). Set to **NULL** if you do not implement the *ControlCallback* callback function.
+The name of your [*ControlCallback*](/windows/win32/Perflib/nc-perflib-perflibrequest?branch=master) callback function that you implement to receive notification of consumer requests (for example, requests to add or remove counters from the query). Set to **NULL** if you do not implement the *ControlCallback* callback function.
 
 </dd> <dt>
 
 <span id="MemoryAllocationFunction"></span><span id="memoryallocationfunction"></span><span id="MEMORYALLOCATIONFUNCTION"></span>MemoryAllocationFunction
 </dt> <dd>
 
-The name of your [*AllocateMemory*](allocatememory.md) callback function that PERFLIB calls to allocate memory. Set to **NULL** if you did not specify the **-MemoryRoutines** argument.
+The name of your [*AllocateMemory*](/windows/win32/Perflib/nc-perflib-perf_mem_alloc?branch=master) callback function that PERFLIB calls to allocate memory. Set to **NULL** if you did not specify the **-MemoryRoutines** argument.
 
 </dd> <dt>
 
 <span id="MemoryFreeFunction"></span><span id="memoryfreefunction"></span><span id="MEMORYFREEFUNCTION"></span>MemoryFreeFunction
 </dt> <dd>
 
-The name of your [*FreeMemory*](freememory.md) callback function that PERFLIB calls to free the memory allocated using the [*AllocateMemory*](allocatememory.md) function. Set to **NULL** if *MemoryAllocationFunction* is **NULL**.
+The name of your [*FreeMemory*](/windows/win32/Perflib/nc-perflib-perf_mem_free?branch=master) callback function that PERFLIB calls to free the memory allocated using the [*AllocateMemory*](/windows/win32/Perflib/nc-perflib-perf_mem_alloc?branch=master) function. Set to **NULL** if *MemoryAllocationFunction* is **NULL**.
 
 </dd> <dt>
 
@@ -80,14 +85,14 @@ Context information to pass to your memory allocation and free routines. Can be 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

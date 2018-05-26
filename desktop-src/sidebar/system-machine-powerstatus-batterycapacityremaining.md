@@ -1,8 +1,11 @@
 ---
 title: System.Machine.PowerStatus.batteryCapacityRemaining property
 description: Gets the remaining capacity of the computer battery in seconds.
-ms.assetid: 'a24b9c19-c049-4b31-bf65-8c2fdd12d844'
-keywords: ["batteryCapacityRemaining property Windows Sidebar", "batteryCapacityRemaining property Windows Sidebar , System.Machine.PowerStatus object", "System.Machine.PowerStatus object Windows Sidebar , batteryCapacityRemaining property"]
+ms.assetid: a24b9c19-c049-4b31-bf65-8c2fdd12d844
+keywords:
+- batteryCapacityRemaining property Windows Sidebar
+- batteryCapacityRemaining property Windows Sidebar , System.Machine.PowerStatus object
+- System.Machine.PowerStatus object Windows Sidebar , batteryCapacityRemaining property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Machine.PowerStatus.batteryCapacityRemaining property
@@ -75,18 +83,18 @@ function GetPowerStatus()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

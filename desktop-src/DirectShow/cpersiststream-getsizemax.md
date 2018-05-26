@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the maximum byte size needed for the current stream, including the version number.'
-ms.assetid: '55ea4568-5ca4-4139-8def-bef20071835d'
-title: 'CPersistStream.GetSizeMax method'
+Description: Retrieves the maximum byte size needed for the current stream, including the version number.
+ms.assetid: 55ea4568-5ca4-4139-8def-bef20071835d
+title: CPersistStream.GetSizeMax method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.GetSizeMax method
@@ -13,7 +18,7 @@ Retrieves the maximum byte size needed for the current stream, including the ver
 
 ```C++
 HRESULT GetSizeMax(
-   ULARGE_INTEGER *pcbSize
+   ULARGE_INTEGER *pcbSize
 );
 ```
 
@@ -56,9 +61,9 @@ This member function implements the **IPersistStream::GetSizeMax** method.
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

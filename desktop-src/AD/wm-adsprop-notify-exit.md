@@ -4,11 +4,12 @@ description: An Active Directory property sheet extension sends the WM\_ADSPROP\
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b0f58c73-8953-412d-b801-bf34967fe0b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b0f58c73-8953-412d-b801-bf34967fe0b4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WM_ADSPROP_NOTIFY_EXIT message Active Directory"]
+keywords:
+- WM_ADSPROP_NOTIFY_EXIT message Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WM\_ADSPROP\_NOTIFY\_EXIT message
@@ -41,7 +45,7 @@ WM_ADSPROP_NOTIFY_EXIT
 *hwnd* 
 </dt> <dd>
 
-The handle of the notification object. To obtain this handle, call [**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md).
+The handle of the notification object. To obtain this handle, call [**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master).
 
 </dd> <dt>
 
@@ -73,8 +77,8 @@ The notification object will delete itself in response to this message. When thi
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Adsprop.h</dt> </dl> |
 
 
@@ -83,15 +87,15 @@ The notification object will delete itself in response to this message. When thi
 
 <dl> <dt>
 
-[**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md)
+[**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master)
 </dt> <dt>
 
 [Messages in Active Directory Domain Services](messages-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

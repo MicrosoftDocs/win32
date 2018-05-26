@@ -1,7 +1,12 @@
 ---
 title: Formatting the Results (.Htx File)
 description: Formatting the Results (.Htx File)
-ms.assetid: 'be8af6d5-049e-4bf3-bcb3-5298b3fc7d7b'
+ms.assetid: be8af6d5-049e-4bf3-bcb3-5298b3fc7d7b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting the Results (.Htx File)

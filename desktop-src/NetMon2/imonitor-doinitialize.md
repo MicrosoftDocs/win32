@@ -1,7 +1,12 @@
 ---
-Description: 'The DoInitialize method must be implemented by the monitor. The MCSVC calls this method to obtain a capture filter immediately before calling the NPP's IRTC::Connect method.'
-ms.assetid: '5e43be75-21b3-4f37-ad53-3ffdd55f56a1'
-title: 'IMonitor::DoInitialize method'
+Description: The DoInitialize method must be implemented by the monitor. The MCSVC calls this method to obtain a capture filter immediately before calling the NPPs IRTCConnect method.
+ms.assetid: 5e43be75-21b3-4f37-ad53-3ffdd55f56a1
+title: IMonitorDoInitialize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitor::DoInitialize method
@@ -13,8 +18,8 @@ The **DoInitialize** method must be implemented by the monitor. The MCSVC calls 
 
 ```C++
 HRESULT DoInitialize(
-  [in]      IUnknown *pUnkMonitorCtrl,
-  [in, out] HBLOB    hNPPBlob
+  [in]      IUnknown *pUnkMonitorCtrl,
+  [in, out] HBLOB    hNPPBlob
 );
 ```
 
@@ -56,15 +61,15 @@ The MCSVC calls the **DoInitialize** method to perform any required monitor init
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

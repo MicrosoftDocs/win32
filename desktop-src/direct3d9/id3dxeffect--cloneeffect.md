@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a copy of an effect.'
-ms.assetid: '6272bce0-b712-4a61-afe2-8f572993b03e'
-title: 'ID3DXEffect::CloneEffect method'
+---
+Description: Creates a copy of an effect.
+ms.assetid: 6272bce0-b712-4a61-afe2-8f572993b03e
+title: ID3DXEffectCloneEffect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::CloneEffect method
@@ -27,9 +32,9 @@ HRESULT CloneEffect(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the effect.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the effect.
 
 </dd> <dt>
 

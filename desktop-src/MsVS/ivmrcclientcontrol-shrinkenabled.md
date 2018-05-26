@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ShrinkEnabled property
-description: Indicates whether the client's window stretches its contents to fit its size.
-ms.assetid: '5aaa9d78-c643-47c2-84e0-bc124c437e53'
-keywords: ["ShrinkEnabled property Virtual Server", "ShrinkEnabled property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ShrinkEnabled property", "ShrinkEnabled property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ShrinkEnabled property"]
+description: Indicates whether the clients window stretches its contents to fit its size.
+ms.assetid: 5aaa9d78-c643-47c2-84e0-bc124c437e53
+keywords:
+- ShrinkEnabled property Virtual Server
+- ShrinkEnabled property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ShrinkEnabled property
+- ShrinkEnabled property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ShrinkEnabled property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ShrinkEnabled property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ShrinkEnabled(
-  [in]  VARIANT_BOOL stretchEnabled
+  [in]  VARIANT_BOOL stretchEnabled
 );
 
 HRESULT get_ShrinkEnabled(
-  [out] VARIANT_BOOL *stretchEnabled
+  [out] VARIANT_BOOL *stretchEnabled
 );
 ```
 
@@ -83,7 +93,7 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -96,9 +106,9 @@ This property value is read/write.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

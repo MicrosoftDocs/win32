@@ -1,8 +1,17 @@
 ---
 title: Level 2 Audio Requirements
 description: Level 2 Audio Requirements
-ms.assetid: '203648f2-9d20-438d-975b-b80e50b0fb9b'
-keywords: ["Multimedia PC (MPC),Level 2", "MPC (Multimedia PC),Level 2", "Multimedia PC Marketing Council,Level 2", "MPC Level 2,audio requirements"]
+ms.assetid: 203648f2-9d20-438d-975b-b80e50b0fb9b
+keywords:
+- Multimedia PC (MPC),Level 2
+- MPC (Multimedia PC),Level 2
+- Multimedia PC Marketing Council,Level 2
+- MPC Level 2,audio requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level 2 Audio Requirements

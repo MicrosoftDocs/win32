@@ -1,13 +1,16 @@
 ---
-Description: 'Executes a method that is exported by a method provider.'
+Description: Executes a method that is exported by a method provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '933a4c64-7538-474e-9f6f-f94da6066b46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 933a4c64-7538-474e-9f6f-f94da6066b46
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.ExecMethodAsync method'
+title: SWbemServices.ExecMethodAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.ExecMethodAsync method
@@ -248,8 +251,8 @@ end sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -280,9 +283,9 @@ end sub
 [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

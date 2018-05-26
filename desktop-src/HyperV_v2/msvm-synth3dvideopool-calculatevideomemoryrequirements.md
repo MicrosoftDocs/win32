@@ -1,7 +1,12 @@
 ---
-Description: 'Calculates the amount of video memory required for a RemoteFX virtual machine.'
-ms.assetid: 'F8C30601-EDA3-47F1-A717-9FE7E9DB8F62'
-title: 'CalculateVideoMemoryRequirements method of the Msvm\_Synth3dVideoPool class'
+Description: Calculates the amount of video memory required for a RemoteFX virtual machine.
+ms.assetid: F8C30601-EDA3-47F1-A717-9FE7E9DB8F62
+title: CalculateVideoMemoryRequirements method of the Msvm\_Synth3dVideoPool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CalculateVideoMemoryRequirements method of the Msvm\_Synth3dVideoPool class
@@ -13,9 +18,9 @@ Calculates the amount of video memory required for a RemoteFX virtual machine.
 
 ```mof
 uint32 CalculateVideoMemoryRequirements(
-  [in]  uint32 monitorResolution,
-  [in]  uint32 numberOfMonitors,
-  [out] uint64 requiredVideoMemory
+  [in]  uint32 monitorResolution,
+  [in]  uint32 numberOfMonitors,
+  [out] uint64 requiredVideoMemory
 );
 ```
 
@@ -34,14 +39,14 @@ The maximum monitor resolution for the virtual machine. This must be one of the 
 
 | Value                                                                        | Meaning                                           |
 |------------------------------------------------------------------------------|---------------------------------------------------|
-| <dl> <dt>0</dt> </dl> | The maximum resolution is 1024 × 768.<br/>  |
-| <dl> <dt>1</dt> </dl> | The maximum resolution is 1280 × 1024.<br/> |
-| <dl> <dt>2</dt> </dl> | The maximum resolution is 1600 × 1200.<br/> |
-| <dl> <dt>3</dt> </dl> | The maximum resolution is 1920 × 1200.<br/> |
+| <dl> <dt>0</dt> </dl> | The maximum resolution is 1024   768.<br/>  |
+| <dl> <dt>1</dt> </dl> | The maximum resolution is 1280   1024.<br/> |
+| <dl> <dt>2</dt> </dl> | The maximum resolution is 1600   1200.<br/> |
+| <dl> <dt>3</dt> </dl> | The maximum resolution is 1920   1200.<br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -54,14 +59,14 @@ The maximum number of monitors for the virtual machine. The minimum number of mo
 
 | Resolution             | Maximum monitors |
 |------------------------|------------------|
-| 1024 × 768<br/>  | 4<br/>     |
-| 1280 × 1024<br/> | 4<br/>     |
-| 1600 × 1200<br/> | 3<br/>     |
-| 1920 × 1200<br/> | 2<br/>     |
+| 1024   768<br/>  | 4<br/>     |
+| 1280   1024<br/> | 4<br/>     |
+| 1600   1200<br/> | 3<br/>     |
+| 1920   1200<br/> | 2<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +101,7 @@ Returns a status code, which can be one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,8 +113,8 @@ This method is typically called on the host system to determine if the host has 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -126,9 +131,9 @@ This method is typically called on the host system to determine if the host has 
 [**Msvm\_Synth3dVideoPool**](msvm-synth3dvideopool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

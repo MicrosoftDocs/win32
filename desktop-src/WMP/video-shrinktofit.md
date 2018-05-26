@@ -1,14 +1,20 @@
 ---
 title: VIDEO.shrinkToFit
 description: The shrinkToFit attribute specifies or retrieves a value indicating whether the video will shrink to the width and height defined for the Video control.
-ms.assetid: '94ab33b0-b08c-4063-a3e6-1315bb527e1c'
-keywords: ["VIDEO.shrinkToFit Windows Media Player"]
+ms.assetid: 94ab33b0-b08c-4063-a3e6-1315bb527e1c
+keywords:
+- VIDEO.shrinkToFit Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.shrinkToFit
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.shrinkToFit
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ If no width or height is specified, this attribute is ignored.
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'A service configuration program uses the OpenService function to get a handle to an installed service object. The program can then use the service object handle in the DeleteService function to delete the service from the SCM database.'
-ms.assetid: '3bfe4d42-a8a0-4613-9b0f-a80eef54b622'
+Description: A service configuration program uses the OpenService function to get a handle to an installed service object. The program can then use the service object handle in the DeleteService function to delete the service from the SCM database.
+ms.assetid: 3bfe4d42-a8a0-4613-9b0f-a80eef54b622
 title: Deleting a Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting a Service
 
-A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](openservice.md) function to get a handle to an installed service object. The program can then use the service object handle in the [**DeleteService**](deleteservice.md) function to delete the service from the SCM database.
+A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](/windows/win32/Winsvc/nf-winsvc-openservicea?branch=master) function to get a handle to an installed service object. The program can then use the service object handle in the [**DeleteService**](/windows/win32/Winsvc/nf-winsvc-deleteservice?branch=master) function to delete the service from the SCM database.
 
 The DoDeleteSvc function in the following example shows how to delete a service from the SCM database. The szSvcName variable is a global variable that contains the name of the service to be deleted. For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).
 

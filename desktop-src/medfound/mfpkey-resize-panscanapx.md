@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the x-coordinate of the upper-left corner of the pan/scan region.'
-ms.assetid: '1aed8614-d856-4885-80fe-c3f2bf3304ad'
-title: 'MFPKEY\_RESIZE\_PANSCANAPX Property'
+---
+Description: Specifies the x-coordinate of the upper-left corner of the pan/scan region.
+ms.assetid: 1aed8614-d856-4885-80fe-c3f2bf3304ad
+title: MFPKEY\_RESIZE\_PANSCANAPX Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_PANSCANAPX Property

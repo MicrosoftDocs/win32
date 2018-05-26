@@ -4,11 +4,16 @@ description: Attributes may be indexed. Indexing an attribute can improve the pe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '20e10fc9-d767-4d82-9ed6-b9f384e77b12'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 20e10fc9-d767-4d82-9ed6-b9f384e77b12
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Indexed Attributes AD", "Attributes AD , indexed"]
+keywords:
+- Indexed Attributes AD
+- Attributes AD , indexed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Indexed Attributes

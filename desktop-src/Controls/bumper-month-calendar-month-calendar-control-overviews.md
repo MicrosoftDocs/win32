@@ -1,7 +1,12 @@
 ---
 title: Month Calendar Control Overviews
 description: .
-ms.assetid: 'af301cb0-0cd2-403f-9c63-8283f0fd2f2e'
+ms.assetid: af301cb0-0cd2-403f-9c63-8283f0fd2f2e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Month Calendar Control Overviews

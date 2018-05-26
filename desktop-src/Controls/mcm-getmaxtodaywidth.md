@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETMAXTODAYWIDTH message
 description: Retrieves the maximum width of the \ 0034;today \ 0034; string in a month calendar control. This includes the label text and the date text. You can send this message explicitly or by using the MonthCal\_GetMaxTodayWidth macro.
-ms.assetid: 'bb55c24e-ba04-4a57-97b0-ff04d77e1d43'
-keywords: ["MCM_GETMAXTODAYWIDTH message Windows Controls"]
+ms.assetid: bb55c24e-ba04-4a57-97b0-ff04d77e1d43
+keywords:
+- MCM_GETMAXTODAYWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETMAXTODAYWIDTH message
 
-Retrieves the maximum width of the "today" string in a month calendar control. This includes the label text and the date text. You can send this message explicitly or by using the [**MonthCal\_GetMaxTodayWidth**](monthcal-getmaxtodaywidth.md) macro.
+Retrieves the maximum width of the "today" string in a month calendar control. This includes the label text and the date text. You can send this message explicitly or by using the [**MonthCal\_GetMaxTodayWidth**](/windows/win32/Commctrl/nf-commctrl-monthcal_getmaxtodaywidth?branch=master) macro.
 
 ## Parameters
 
@@ -37,15 +43,15 @@ Returns the width of the "today" string, in pixels.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

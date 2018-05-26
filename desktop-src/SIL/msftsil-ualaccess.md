@@ -4,13 +4,15 @@ description: The MsftSil\_UalAccess WMI class aggregates User Access Logging (UA
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ca4e35b7-bcce-4217-83cb-5c5bd4955c6e'
-ms.prod: 'windows-server-dev'
+ms.assetid: ca4e35b7-bcce-4217-83cb-5c5bd4955c6e
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MsftSil_UalAccess class Software Inventory Logging", "MsftSil_UalAccess class Software Inventory Logging , described"]
+keywords:
+- MsftSil_UalAccess class Software Inventory Logging
+- MsftSil_UalAccess class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SILProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftSil\_UalAccess class
@@ -39,12 +44,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("silprovider"), AMENDMENT]
 class MsftSil_UalAccess : MsftSil_Data
 {
-  string   ProductName;
-  string   RoleGuid;
-  string   RoleName;
+  string   ProductName;
+  string   RoleGuid;
+  string   RoleName;
   datetime SampleDate;
-  uint32   UniqueDeviceAccessCount;
-  uint32   UniqueUserAccessCount;
+  uint32   UniqueDeviceAccessCount;
+  uint32   UniqueUserAccessCount;
 };
 ```
 
@@ -148,7 +153,7 @@ Retrieves the number of unique users that accessed the product role.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SILProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SILProvider.dll</dt> </dl> |
@@ -165,9 +170,9 @@ Retrieves the number of unique users that accessed the product role.
 [Software Inventory Logging WMI Data Provider Classes](software-inventory-logging-wmi-data-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

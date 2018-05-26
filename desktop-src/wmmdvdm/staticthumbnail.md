@@ -1,14 +1,20 @@
 ---
 title: StaticThumbnail element
 description: Specifies an image that represents the button or menu style (depending on the context) in the Windows DVD Maker user interface (UI).
-ms.assetid: '9a7d4ad2-7828-413a-9056-74dbcb1f9d1f'
-keywords: ["StaticThumbnail element Windows Movie Maker and DVD Maker"]
+ms.assetid: 9a7d4ad2-7828-413a-9056-74dbcb1f9d1f
+keywords:
+- StaticThumbnail element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - StaticThumbnail
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StaticThumbnail element
@@ -50,7 +56,7 @@ This element is required within each **DVDButton** element.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -62,9 +68,9 @@ This element is required within each **DVDButton** element.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

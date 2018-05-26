@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'a51d90c9-4046-42dc-b7cf-51b904c5f57a'
-title: 'CSourceSeeking.CSourceSeeking constructor'
+Description: Constructor method.
+ms.assetid: a51d90c9-4046-42dc-b7cf-51b904c5f57a
+title: CSourceSeeking.CSourceSeeking constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.CSourceSeeking constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CSourceSeeking(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk,
-         HRESULT   *phr,
-         CCritSec  *pLock
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk,
+         HRESULT   *phr,
+         CCritSec  *pLock
 );
 ```
 
@@ -72,9 +77,9 @@ Pointer to a [**CCritSec**](ccritsec.md) object. In your derived class, declare 
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

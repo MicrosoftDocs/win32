@@ -1,7 +1,12 @@
 ---
 title: Effects (Direct3D 11)
 description: A DirectX effect is a collection of pipeline state, set by expressions written in HLSL and some syntax that is specific to the effect framework.
-ms.assetid: 'd52a2cad-eac9-4442-9ee5-114bebe0f245'
+ms.assetid: d52a2cad-eac9-4442-9ee5-114bebe0f245
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effects (Direct3D 11)
@@ -33,7 +38,7 @@ A set of techniques can be grouped in a group (which uses the syntax "fxgroup").
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -42,9 +47,9 @@ A set of techniques can be grouped in a group (which uses the syntax "fxgroup").
 [Programming Guide for Direct3D 11](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

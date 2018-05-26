@@ -1,7 +1,12 @@
 ---
-Description: 'Stream routing is the ability of a media application to switch streams between devices with minimal interruption to the playback or the capture session.'
-ms.assetid: '718CBEB9-A7A0-4898-81B7-CBD76AFA3A06'
+Description: Stream routing is the ability of a media application to switch streams between devices with minimal interruption to the playback or the capture session.
+ms.assetid: 718CBEB9-A7A0-4898-81B7-CBD76AFA3A06
 title: Stream Routing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Routing

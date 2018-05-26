@@ -1,7 +1,12 @@
 ---
 title: To compile a project compatible with HTML Help version 1.0
 description: To compile a project compatible with HTML Help version 1.0
-ms.assetid: '35E7F6D0-A88B-4d1d-BF9C-F145860D4C19'
+ms.assetid: 35E7F6D0-A88B-4d1d-BF9C-F145860D4C19
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To compile a project compatible with HTML Help version 1.0
@@ -14,7 +19,7 @@ ms.assetid: '35E7F6D0-A88B-4d1d-BF9C-F145860D4C19'
 
     
 
-     
+     
 
 2.  In the **Compatibility** box, click **1.0**.
 
@@ -30,9 +35,9 @@ ms.assetid: '35E7F6D0-A88B-4d1d-BF9C-F145860D4C19'
 [About Compiling a Help Project](compile-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

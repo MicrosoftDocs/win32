@@ -1,8 +1,10 @@
 ---
 title: IXPRESULT structure
 description: Holds information about a server response or a transport result error.
-ms.assetid: '308b841c-7083-4724-a9f3-722741bb7441'
-keywords: ["IXPRESULT structure Windows Mail (formerly Outlook Express)", "LPIXPRESULT structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 308b841c-7083-4724-a9f3-722741bb7441
+keywords:
+- IXPRESULT structure Windows Mail (formerly Outlook Express)
+- LPIXPRESULT structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXPRESULT structure
@@ -25,11 +32,11 @@ Holds information about a server response or a transport result error.
 ```C++
 typedef struct tagIXPRESULT {
   HRESULT hrResult;
-  LPSTR   pszResponse;
-  UINT    uiServerError;
+  LPSTR   pszResponse;
+  UINT    uiServerError;
   HRESULT hrServerError;
-  DWORD   dwSocketError;
-  LPSTR   pszProblem;
+  DWORD   dwSocketError;
+  LPSTR   pszProblem;
 } IXPRESULT, *LPIXPRESULT;
 ```
 
@@ -111,17 +118,17 @@ Contains additional information.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

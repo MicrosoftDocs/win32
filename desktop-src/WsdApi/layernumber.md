@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the number of the code layer to be generated.'
-ms.assetid: 'ad67a6fb-4bb6-4550-a9e9-f5219f3868c6'
+Description: Defines the number of the code layer to be generated.
+ms.assetid: ad67a6fb-4bb6-4550-a9e9-f5219f3868c6
 title: layerNumber element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # layerNumber element
@@ -46,14 +51,14 @@ Legal values, except in the case of WSDAPI itself are greater than 0 and less th
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

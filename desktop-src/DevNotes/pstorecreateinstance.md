@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an interface pointer to a storage provider.'
-ms.assetid: '22b5b003-82fa-48f1-96db-a8d6dd70d6d1'
+---
+Description: Retrieves an interface pointer to a storage provider.
+ms.assetid: 22b5b003-82fa-48f1-96db-a8d6dd70d6d1
 title: PStoreCreateInstance function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PStoreCreateInstance function

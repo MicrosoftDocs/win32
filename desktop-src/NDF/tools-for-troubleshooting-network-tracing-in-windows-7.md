@@ -1,7 +1,12 @@
 ---
 title: Tools for Troubleshooting using Network Tracing in Windows 7
 description: There are a number of tools which can be used to help enable and manage Network Tracing and to view the resulting data.
-ms.assetid: '4eee2420-85b8-4a07-95a1-b91aa816a0d6'
+ms.assetid: 4eee2420-85b8-4a07-95a1-b91aa816a0d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tools for Troubleshooting using Network Tracing in Windows 7

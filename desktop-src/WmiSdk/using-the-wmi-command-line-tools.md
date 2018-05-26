@@ -1,13 +1,16 @@
 ---
-Description: 'In addition to supplying services, providers, classes, and instances, WMI also comes with several tools.'
+Description: In addition to supplying services, providers, classes, and instances, WMI also comes with several tools.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '452a396b-c7da-4ccd-873e-f381ee7c289a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 452a396b-c7da-4ccd-873e-f381ee7c289a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Using the WMI Command-Line Tools'
+title: Using the WMI Command-Line Tools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the WMI Command-Line Tools

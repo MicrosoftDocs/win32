@@ -1,8 +1,10 @@
 ---
 title: CIM\_VirtualSystemManagementService class
 description: Represents a service that manages virtual systems.
-ms.assetid: '610dd3c3-978a-41cd-aaf4-17a41d1fc123'
-keywords: ["CIM_VirtualSystemManagementService class Hyper-V", "CIM_VirtualSystemManagementService class Hyper-V , described"]
+ms.assetid: 610dd3c3-978a-41cd-aaf4-17a41d1fc123
+keywords:
+- CIM_VirtualSystemManagementService class Hyper-V
+- CIM_VirtualSystemManagementService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemManagementService class
@@ -49,27 +56,27 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, AMENDMENT]
 class CIM_VirtualSystemManagementService : CIM_Service
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started;
 };
 ```
 
@@ -106,7 +113,7 @@ The **CIM\_VirtualSystemManagementService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -244,14 +251,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -578,7 +585,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -890,7 +897,7 @@ Indicates the last requested state for the element. The current state is indicat
 > [!Note]  
 > When the value of the **EnabledState** property is **Not Applicable**, this property has no meaning.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -1086,7 +1093,7 @@ This property is deprecated. Instead, use the **EnabledDefault** property that i
 > [!Note]  
 > Deprecated description: Indicates whether the service is automatically started (for example, by an operating system) or only started upon request.
 
- 
+ 
 
 This property is inherited from [**CIM\_Service**](cim-service.md).
 
@@ -1109,7 +1116,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1191,9 +1198,9 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1206,9 +1213,9 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

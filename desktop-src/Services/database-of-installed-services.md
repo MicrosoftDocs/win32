@@ -1,14 +1,19 @@
 ---
-Description: 'The SCM maintains a database of installed services in the registry.'
-ms.assetid: '70f24e15-2607-4c32-9192-a9413b74558b'
+Description: The SCM maintains a database of installed services in the registry.
+ms.assetid: 70f24e15-2607-4c32-9192-a9413b74558b
 title: Database of Installed Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database of Installed Services
 
 The SCM maintains a database of installed services in the registry. The database is used by the SCM and programs that add, modify, or configure services. The following is the registry key for this database: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services**.
 
-This key contains a subkey for each installed service and driver service. The name of the subkey is the name of the service, as specified by the [**CreateService**](createservice.md) function when the service was installed by a service configuration program.
+This key contains a subkey for each installed service and driver service. The name of the subkey is the name of the service, as specified by the [**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master) function when the service was installed by a service configuration program.
 
 An initial copy of the database is created when the system is installed. The database contains entries for the device drivers required during system boot. The database includes the following information about each installed service and driver service:
 

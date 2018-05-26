@@ -1,7 +1,12 @@
 ---
 title: Creating a Recordset Object with the Query Helper API
 description: Creating a Recordset Object with the Query Helper API
-ms.assetid: 'b280c705-8b2b-4e08-b875-57e66bb453a2'
+ms.assetid: b280c705-8b2b-4e08-b875-57e66bb453a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Recordset Object with the Query Helper API

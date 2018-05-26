@@ -1,7 +1,12 @@
 ---
-Description: 'The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.'
-ms.assetid: 'eb349493-a2b2-4b58-bcbc-ee09953c8dc8'
+Description: The following are frequently asked questions (FAQ) about developing for the Tablet PC platform components installed by the Windows Vista SDK.
+ms.assetid: eb349493-a2b2-4b58-bcbc-ee09953c8dc8
 title: Frequently Asked Questions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frequently Asked Questions
@@ -18,7 +23,7 @@ There is also support for browser deployment of applications that use Windows Pr
 
 A. No, the Tablet PC platform components installed by the Windows SDK include the extensions and utilities needed to develop software for the Tablet PC on a desktop or laptop computer. You can use a mouse or external tablet for pen and handwriting input.
 
-The Tablet PC platform components installed by the Windows SDK can be installed on Windows XP Professional, or Windows Server 2003, but less functionality is available for your applications. On these platforms, your application can collect ink with the [**InkCollector**](inkcollector-class.md) and [**InkOverlay**](inkoverlay-class.md) objects and can be tested and debugged.
+The Tablet PC platform components installed by the Windows SDK can be installed on Windows XP Professional, or Windows Server 2003, but less functionality is available for your applications. On these platforms, your application can collect ink with the [**InkCollector**](/windows/win32/msinkaut/?branch=master) and [**InkOverlay**](/windows/win32/msinkaut/?branch=master) objects and can be tested and debugged.
 
 Also, the [InkEdit](inkedit-control-reference.md) and [InkPicture](inkpicture-control-reference.md) controls can collect ink on these operating systems only if the Tablet PC platform components have been installed from the Windows SDK (or an older version of the Tablet PC Development Kit); they do not collect ink in applications that are redistributed to non-Tablet computers without the platform components installed.
 
@@ -86,7 +91,7 @@ A. Certain parts of the Tablet PC platform may be installed on non-Tablet versio
 
 The proper way to determine if a component of the API is installed is to attempt to create an instance of an object or control and check that it exists before attempting to use it.
 
-For example, to determine if the [**InkCollector**](inkcollector-class.md) object is available, attempt to create it using [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
+For example, to determine if the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object is available, attempt to create it using [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615).
 
 
 ```C++

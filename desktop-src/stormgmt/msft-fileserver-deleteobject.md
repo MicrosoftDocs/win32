@@ -1,8 +1,11 @@
 ---
 title: DeleteObject method of the MSFT\_FileServer class
 description: Deletes the file server. If the file server contains any file shares, these shares must be removed first.
-ms.assetid: '81C51A89-AB40-4125-919E-EFADB101AC83'
-keywords: ["DeleteObject method Windows Storage Management API", "DeleteObject method Windows Storage Management API , MSFT_FileServer class", "MSFT_FileServer class Windows Storage Management API , DeleteObject method"]
+ms.assetid: 81C51A89-AB40-4125-919E-EFADB101AC83
+keywords:
+- DeleteObject method Windows Storage Management API
+- DeleteObject method Windows Storage Management API , MSFT_FileServer class
+- MSFT_FileServer class Windows Storage Management API , DeleteObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteObject method of the MSFT\_FileServer class
@@ -22,8 +30,8 @@ Deletes the file server. If the file server contains any file shares, these shar
 
 ```mof
 UInt32 DeleteObject(
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -107,8 +115,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -121,9 +129,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileServer**](msft-fileserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

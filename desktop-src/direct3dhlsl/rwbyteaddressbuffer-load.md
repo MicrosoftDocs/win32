@@ -1,12 +1,18 @@
 ---
 title: RWByteAddressBuffer Load methods
 description: Gets one value from a RWByteAddressBuffer.
-ms.assetid: 'AD284B6B-A552-4036-954A-988A9593E0A4'
-keywords: ["Load methods HLSL"]
+ms.assetid: AD284B6B-A552-4036-954A-988A9593E0A4
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWByteAddressBuffer::Load methods
@@ -31,9 +37,9 @@ Gets one value from a [**RWByteAddressBuffer**](sm5-object-rwbyteaddressbuffer.m
 [RWByteAddressBuffer](sm5-object-rwbyteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

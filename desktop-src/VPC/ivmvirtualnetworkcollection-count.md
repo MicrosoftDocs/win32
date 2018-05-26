@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualNetworkCollection Count property
 description: Retrieves the number of virtual networks in this collection.
-ms.assetid: 'a9a3ab48-74a0-498e-936e-a99c7b027a85'
-keywords: ["Count property Virtual PC", "Count property Virtual PC , IVMVirtualNetworkCollection interface", "IVMVirtualNetworkCollection interface Virtual PC , Count property"]
+ms.assetid: a9a3ab48-74a0-498e-936e-a99c7b027a85
+keywords:
+- Count property Virtual PC
+- Count property Virtual PC , IVMVirtualNetworkCollection interface
+- IVMVirtualNetworkCollection interface Virtual PC , Count property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetworkCollection::Count property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the number of virtual networks in this collection.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out, retval] long *count
+  [out, retval] long *count
 );
 ```
 
@@ -55,9 +63,9 @@ The number of virtual networks.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
-| End of client support<br/>    | Windows 7<br/>                                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                           |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl>  |
 | IID<br/>                      | IID\_IVMVirtualNetworkCollection is defined as 8ed680be-4242-4b2a-a21c-1982d8b0f675<br/> |
@@ -71,9 +79,9 @@ The number of virtual networks.
 [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

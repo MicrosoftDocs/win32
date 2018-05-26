@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer-to-Peer Infrastructure offers you many options for developing peer-to-peer networking applications.'
-ms.assetid: 'b0e647d3-4562-46db-b676-0f7a0d9bb594'
+Description: The Peer-to-Peer Infrastructure offers you many options for developing peer-to-peer networking applications.
+ms.assetid: b0e647d3-4562-46db-b676-0f7a0d9bb594
 title: Peer Networking Scenarios
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer Networking Scenarios

@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the cluster information on a disk.'
-ms.assetid: 'AB2243D9-4913-4412-87E0-2C8DB8AB10B8'
-title: 'IOCTL\_DISK\_SET\_CLUSTER\_INFO control code'
+Description: Sets the cluster information on a disk.
+ms.assetid: AB2243D9-4913-4412-87E0-2C8DB8AB10B8
+title: IOCTL\_DISK\_SET\_CLUSTER\_INFO control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DISK\_SET\_CLUSTER\_INFO control code
@@ -35,7 +40,7 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to device
 
 A handle to the disk.
 
-To retrieve a device handle, call the [**CreateFile**](createfile.md) function.
+To retrieve a device handle, call the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function.
 
 </dd> <dt>
 
@@ -109,7 +114,7 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Ntdddisk.h</dt> </dl> |
 
 
@@ -130,9 +135,9 @@ If the operation fails or is pending, [**DeviceIoControl**](https://msdn.microso
 [**IOCTL\_DISK\_GET\_CLUSTER\_INFO**](ioctl-disk-get-cluster-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

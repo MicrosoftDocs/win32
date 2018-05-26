@@ -1,8 +1,9 @@
 ---
 title: External.OnViewChange Event
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The OnViewChange event occurs when the view changes in Windows Media Player.
-ms.assetid: 'aa1378ad-8b84-4592-85c5-5e284be05ea6'
-keywords: ["External.OnViewChange Event Windows Media Player"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The OnViewChange event occurs when the view changes in Windows Media Player.
+ms.assetid: aa1378ad-8b84-4592-85c5-5e284be05ea6
+keywords:
+- External.OnViewChange Event Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.OnViewChange Event
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **OnViewChange** event occurs when the view changes in Windows Media Player.
 
@@ -42,7 +48,7 @@ The view in Windows Media Player can change for any of the following reasons:
 -   The user interacts with a discovery page, and script on the discovery page calls [External.changeView](external-changeview.md).
 -   The user interacts with a discovery page, and script on the discovery page calls [External.changeViewOnlineList](external-changeviewonlinelist.md).
 
-When the view changes in Windows Media Player, the Player calls [IWMPContentPartner::GetTemplate](iwmpcontentpartner-gettemplate.md) to get the URL of the next discovery page to display. However, before the Player displays the new discovery page, it raises the **OnViewChange** event. If the **OnViewChange** event handler calls [External.cancelNavigate](external-cancelnavigate.md), Windows Media Player does not display the new discovery page. Instead, it continues to display the current discovery page.
+When the view changes in Windows Media Player, the Player calls [IWMPContentPartner::GetTemplate](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate?branch=master) to get the URL of the next discovery page to display. However, before the Player displays the new discovery page, it raises the **OnViewChange** event. If the **OnViewChange** event handler calls [External.cancelNavigate](external-cancelnavigate.md), Windows Media Player does not display the new discovery page. Instead, it continues to display the current discovery page.
 
 ## Requirements
 
@@ -68,9 +74,9 @@ When the view changes in Windows Media Player, the Player calls [IWMPContentPart
 [**External.changeViewOnlineList**](external-changeviewonlinelist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

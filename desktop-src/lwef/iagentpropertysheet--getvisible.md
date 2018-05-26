@@ -1,7 +1,12 @@
 ---
 title: IAgentPropertySheet GetVisible
 description: IAgentPropertySheet GetVisible
-ms.assetid: '5e95c4da-28a3-4686-8699-ff7b16b3808f'
+ms.assetid: 5e95c4da-28a3-4686-8699-ff7b16b3808f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentPropertySheet::GetVisible

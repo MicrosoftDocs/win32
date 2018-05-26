@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetNotifyInterface method
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
-ms.assetid: '1AA50C03-AC84-4AA9-8EC3-3FBA865C70C0'
-keywords: ["GetNotifyInterface method", "GetNotifyInterface method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetNotifyInterface method"]
+ms.assetid: 1AA50C03-AC84-4AA9-8EC3-3FBA865C70C0
+keywords:
+- GetNotifyInterface method
+- GetNotifyInterface method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetNotifyInterface method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetNotifyInterface method
@@ -22,7 +30,7 @@ Retrieves the interface pointer to your implementation of the [**IBackgroundCopy
 
 ```C++
 HRESULT GetNotifyInterface(
-  [out] IUnknown **ppNotifyInterface
+  [out] IUnknown **ppNotifyInterface
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +67,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -85,9 +93,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

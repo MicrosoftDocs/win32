@@ -1,8 +1,17 @@
 ---
 title: External Object for Type 1 Online Stores
 description: External Object for Type 1 Online Stores
-ms.assetid: '5c42e1a9-c5c6-4725-8528-de2839d84e77'
-keywords: ["Windows Media Player online stores,external objects", "online stores,external objects", "type 1 online stores,external objects", "external objects"]
+ms.assetid: 5c42e1a9-c5c6-4725-8528-de2839d84e77
+keywords:
+- Windows Media Player online stores,external objects
+- online stores,external objects
+- type 1 online stores,external objects
+- external objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External Object for Type 1 Online Stores

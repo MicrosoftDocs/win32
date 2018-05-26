@@ -4,11 +4,16 @@ description: The ActiveX Data Object (ADO) model consists of objects listed in t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '27298f53-a652-49f2-a6e6-d92c7c6022af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 27298f53-a652-49f2-a6e6-d92c7c6022af
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ActiveX Data Objects ADSI , Searching with ADO", "Searching with ActiveX Data Objects ADSI"]
+keywords:
+- ActiveX Data Objects ADSI , Searching with ADO
+- Searching with ActiveX Data Objects ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching with ActiveX Data Objects (ADO)
@@ -29,7 +34,7 @@ The ActiveX Data Object (ADO) model consists of objects listed in the following 
 
 
 
- 
+ 
 
 For ADO to communicate with ADSI, there must be, at least, two ADO objects: **Connection** and **RecordSet**. These ADO objects serve to authenticate users and enumerate results, respectively. Typically, you will also use a **Command** object to maintain an active connection, specify query parameters, such as page size and search scope, and perform a query. For more information about the search filter syntax, see [Search Filter Syntax](search-filter-syntax.md).
 
@@ -73,14 +78,14 @@ Specify user authentication data by setting the properties of the **Connection**
 
 | Property           | Description                                                                                                                                                                                                                                                                                                                                    |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| "User ID"          | A string that identifies the user whose security context is used when performing the search. For more information about the format of the user name string, see [**IADsOpenDSObject::OpenDSObject**](iadsopendsobject-opendsobject.md). If not specified, the default is the logged on user, or the user impersonated by the calling process. |
+| "User ID"          | A string that identifies the user whose security context is used when performing the search. For more information about the format of the user name string, see [**IADsOpenDSObject::OpenDSObject**](/windows/win32/Iads/nf-iads-iadsopendsobject-opendsobject?branch=master). If not specified, the default is the logged on user, or the user impersonated by the calling process. |
 | "Password"         | A string that specifies the password of the user identified by "User ID".                                                                                                                                                                                                                                                                      |
 | "Encrypt Password" | A Boolean value that specifies whether the password is encrypted. The default is **false**.                                                                                                                                                                                                                                                    |
-| "ADSI Flag"        | A set of flags from the [**ADS\_AUTHENTICATION\_ENUM**](ads-authentication-enum.md) enumeration that specify the binding authentication options. The default is zero.                                                                                                                                                                         |
+| "ADSI Flag"        | A set of flags from the [**ADS\_AUTHENTICATION\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018?branch=master) enumeration that specify the binding authentication options. The default is zero.                                                                                                                                                                         |
 
 
 
- 
+ 
 
 The following code example shows how the properties are set before creating the **Command** object.
 
@@ -129,11 +134,11 @@ Search options for the **Command** object are specified by setting the **Propert
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "Asynchronous"      | A Boolean value that specifies whether the search is synchronous or asynchronous. The default is False (synchronous). A synchronous search blocks until the server returns the entire result, or for a paged search, the entire page. An asynchronous search blocks until one row of the search results is available, or until the time specified by the "Timeout" property elapses.                           |
 | "Cache results"     | A Boolean value that specifies whether the result should be cached on the client side. The default is **true**; ADSI caches the result set. Turning off this option may be desirable for large result sets.                                                                                                                                                                                                    |
-| "Chase referrals"   | A value from the [**ADS\_CHASE\_REFERRALS\_ENUM**](ads-chase-referrals-enum.md) that specifies how the search chases referrals. The default is **ADS\_CHASE\_REFERRALS\_NEVER**.For more information about this property, see [Referrals](https://msdn.microsoft.com/library/ms677913).<br/>                                                                                                                                           |
+| "Chase referrals"   | A value from the [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024?branch=master) that specifies how the search chases referrals. The default is **ADS\_CHASE\_REFERRALS\_NEVER**.For more information about this property, see [Referrals](https://msdn.microsoft.com/library/ms677913).<br/>                                                                                                                                           |
 | "Column Names Only" | A Boolean value that indicates that the search should retrieve only the name of attributes to which values have been assigned. The default is **false**.                                                                                                                                                                                                                                                       |
 | "Deref Aliases"     | A Boolean value that specifies whether aliases of found objects are resolved. The default is **false**.                                                                                                                                                                                                                                                                                                        |
 | "Page size"         | An integer value that turns on paging and specifies the maximum number of objects to return in a results set. The default is no page size. For more information, see [Retrieving Large Results Sets](retrieving-large-results-sets.md).                                                                                                                                                                       |
-| "SearchScope"       | A value from the [**ADS\_SCOPEENUM**](ads-scopeenum.md) enumeration that specifies the search scope. The default is **ADS\_SCOPE\_SUBTREE**.                                                                                                                                                                                                                                                                  |
+| "SearchScope"       | A value from the [**ADS\_SCOPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0021?branch=master) enumeration that specifies the search scope. The default is **ADS\_SCOPE\_SUBTREE**.                                                                                                                                                                                                                                                                  |
 | "Size Limit"        | An integer value that specifies the size limit for the search. For Active Directory, the size limit specifies the maximum number of returned objects. The server stops searching when the size limit is reached and returns the results accumulated. The default is no limit.                                                                                                                                  |
 | "Sort on"           | A string that specifies a comma-separated list of attributes to use as sort keys. This property works only for directory servers that support the LDAP control for server-side sorting. Active Directory supports the sort control, but it can impact server performance, particularly if the results set is large. Be aware that Active Directory supports only a single sort key. The default is no sorting. |
 | "Time Limit"        | An integer value that specifies the time limit, in seconds, for the search. When the time limit is reached, the server stops searching and returns the results accumulated. The default is no time limit.                                                                                                                                                                                                      |
@@ -141,7 +146,7 @@ Search options for the **Command** object are specified by setting the **Propert
 
 
 
- 
+ 
 
 The following code example shows how to set search options.
 
@@ -232,9 +237,9 @@ Wend
 
 For more information about the ADO object model, see [Microsoft ActiveX Data Objects](http://go.microsoft.com/fwlink/p/?linkid=83858).
 
- 
+ 
 
- 
+ 
 
 
 

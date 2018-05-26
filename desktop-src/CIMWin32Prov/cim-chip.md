@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Chip class represents the type of integrated circuit hardware, including ASICs, processors, memory chips, and so on.'
+Description: The CIM\_Chip class represents the type of integrated circuit hardware, including ASICs, processors, memory chips, and so on.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3c2b0023-5d02-49b9-90f5-d66eb8a103f0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3c2b0023-5d02-49b9-90f5-d66eb8a103f0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Chip class'
+title: CIM\_Chip class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Chip class
@@ -19,7 +22,7 @@ The **CIM\_Chip** class represents the type of integrated circuit hardware, incl
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,25 +32,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B7A-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_Chip : CIM_PhysicalComponent
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   CreationClassName;
-  string   Manufacturer;
-  string   Model;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   SerialNumber;
-  string   SKU;
-  string   Tag;
-  string   Version;
-  boolean  HotSwappable;
-  boolean  Removable;
-  boolean  Replaceable;
-  uint16   FormFactor;
+  string   Name;
+  string   Status;
+  string   CreationClassName;
+  string   Manufacturer;
+  string   Model;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   SerialNumber;
+  string   SKU;
+  string   Tag;
+  string   Version;
+  boolean  HotSwappable;
+  boolean  Removable;
+  boolean  Replaceable;
+  uint16   FormFactor;
 };
 ```
 
@@ -666,8 +669,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -681,9 +684,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalComponent**](cim-physicalcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

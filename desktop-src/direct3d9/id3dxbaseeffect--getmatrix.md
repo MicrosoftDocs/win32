@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a nontransposed matrix.'
-ms.assetid: 'd507c82c-b1a5-4e83-8921-5d45f52faba0'
-title: 'ID3DXBaseEffect::GetMatrix method'
+---
+Description: Gets a nontransposed matrix.
+ms.assetid: d507c82c-b1a5-4e83-8921-5d45f52faba0
+title: ID3DXBaseEffectGetMatrix method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetMatrix method

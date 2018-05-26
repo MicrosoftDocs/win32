@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderClientExample
 description: This example show how to use the service proxy to talk to an HTTP based PurchaseOrder service.
-ms.assetid: 'e577b06c-28b1-4f8f-a6af-025b9672cf27'
-keywords: ["HttpPurchaseOrderClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: e577b06c-28b1-4f8f-a6af-025b9672cf27
+keywords:
+- HttpPurchaseOrderClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderClientExample

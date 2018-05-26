@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the DiagnosticTraceWarning event.'
+---
+Description: The event type class for the DiagnosticTraceWarning event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '33d25596-bec8-4a75-91c4-173bb8bd8ba8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 33d25596-bec8-4a75-91c4-173bb8bd8ba8
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetModuleDiagWarningEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetModuleDiagWarningEvent class

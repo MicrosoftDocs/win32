@@ -1,7 +1,12 @@
 ---
 title: Adding a LAN Rule
 description: This example adds a LAN rule using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: 'f3fbcdad-7579-48e6-8116-87f805aaa0aa'
+ms.assetid: f3fbcdad-7579-48e6-8116-87f805aaa0aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a LAN Rule

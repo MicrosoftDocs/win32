@@ -1,7 +1,12 @@
 ---
-Description: 'Schannel credentials are represented internally as CERT\_CONTEXT structures.'
-ms.assetid: '3d2deb61-8e86-4461-8f2a-4880ca5b9d34'
-title: 'CryptoAPI 2.0 Private Keys'
+Description: Schannel credentials are represented internally as CERT\_CONTEXT structures.
+ms.assetid: 3d2deb61-8e86-4461-8f2a-4880ca5b9d34
+title: CryptoAPI 2.0 Private Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptoAPI 2.0 Private Keys
@@ -14,7 +19,7 @@ Every Schannel credential contains a reference to one or more private keys, each
 
 Client [*private keys*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-private-key-gly) are managed by the [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP) in use. Client private keys are typically stored by CSPs of type [PROV\_RSA\_FULL](https://msdn.microsoft.com/library/windows/desktop/aa387448) or PROV\_RSA\_SIGNATURE.
 
-If the client application makes the [**CryptAcquireContext**](https://msdn.microsoft.com/library/windows/desktop/aa379886) call manually then before calling [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md), the client must bind the CSP's handle to the certificate context using the CERT\_KEY\_PROV\_HANDLE\_PROP\_ID property. If Schannel finds this property set, it does not use the CERT\_KEY\_PROV\_INFO\_PROP\_ID property.
+If the client application makes the [**CryptAcquireContext**](https://msdn.microsoft.com/library/windows/desktop/aa379886) call manually then before calling [**AcquireCredentialsHandle**](/windows/win32/Sspi/?branch=master), the client must bind the CSP's handle to the certificate context using the CERT\_KEY\_PROV\_HANDLE\_PROP\_ID property. If Schannel finds this property set, it does not use the CERT\_KEY\_PROV\_INFO\_PROP\_ID property.
 
 ## Server Private Keys
 

@@ -1,14 +1,20 @@
 ---
 title: asint
 description: Interprets the bit pattern of x as an integer.
-ms.assetid: 'e17e0a11-ef52-4b23-94b8-5db0b18aff4d'
-keywords: ["asint HLSL"]
+ms.assetid: e17e0a11-ef52-4b23-94b8-5db0b18aff4d
+keywords:
+- asint HLSL
 topic_type:
 - apiref
 api_name:
 - asint
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # asint
@@ -22,7 +28,7 @@ Interprets the bit pattern of *x* as an integer.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Interprets the bit pattern of *x* as an integer.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The input interpreted as an integer.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -77,9 +83,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

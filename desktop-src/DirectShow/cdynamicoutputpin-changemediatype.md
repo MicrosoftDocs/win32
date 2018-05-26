@@ -1,7 +1,12 @@
 ---
-Description: 'The ChangeMediaType method dynamically changes the media type for the connection.'
-ms.assetid: '38efdfdc-f636-4cad-b8d3-8c63a277644e'
-title: 'CDynamicOutputPin.ChangeMediaType method'
+Description: The ChangeMediaType method dynamically changes the media type for the connection.
+ms.assetid: 38efdfdc-f636-4cad-b8d3-8c63a277644e
+title: CDynamicOutputPin.ChangeMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.ChangeMediaType method
@@ -13,7 +18,7 @@ The `ChangeMediaType` method dynamically changes the media type for the connecti
 
 ```C++
 HRESULT ChangeMediaType(
-   const CMediaType *pmt
+   const CMediaType *pmt
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT ChangeMediaType(
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type.
 
 </dd> </dl>
 
@@ -44,13 +49,13 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
 Call the [**CDynamicOutputPin::StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) method before calling this method.
 
-This method first checks whether the downstream input pin can accept the new format without reconnecting. It queries the input pin for the [**IPinConnection**](ipinconnection.md) interface. If the input pin supports **IPinConnection**, the method calls the [**IPinConnection::DynamicQueryAccept**](ipinconnection-dynamicqueryaccept.md) method with the proposed media type. If the input pin accepts the new media type, the method calls the [**IPin::ReceiveConnection**](ipin-receiveconnection.md) method and renegotiates the allocator requirements.
+This method first checks whether the downstream input pin can accept the new format without reconnecting. It queries the input pin for the [**IPinConnection**](/windows/win32/Strmif/nn-strmif-ipinconnection?branch=master) interface. If the input pin supports **IPinConnection**, the method calls the [**IPinConnection::DynamicQueryAccept**](/windows/win32/Strmif/nf-strmif-ipinconnection-dynamicqueryaccept?branch=master) method with the proposed media type. If the input pin accepts the new media type, the method calls the [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) method and renegotiates the allocator requirements.
 
 On the other hand, if the downstream pin does not support **IPinConnection**, or if it rejects the new media type, the method calls the [**CDynamicOutputPin::DynamicReconnect**](cdynamicoutputpin-dynamicreconnect.md) method to perform a dynamic reconnection.
 
@@ -72,9 +77,9 @@ On the other hand, if the downstream pin does not support **IPinConnection**, or
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

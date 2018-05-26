@@ -4,11 +4,14 @@ description: Returns the read/write private properties of a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eca63b55-9101-40fb-b2b2-3fb68e707745'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: eca63b55-9101-40fb-b2b2-3fb68e707745
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["PrivateProperties property Failover Cluster", "PrivateProperties property Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , PrivateProperties property"]
+keywords:
+- PrivateProperties property Failover Cluster
+- PrivateProperties property Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , PrivateProperties property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.PrivateProperties property
@@ -47,7 +53,7 @@ A [**ClusProperties**](clusproperties-collection.md) collection that receives th
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**ClusProperties**](clusproperties-collection.md) collection that receives th
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

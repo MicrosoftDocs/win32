@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Server 2008 R2.'
-ms.assetid: '85b98a7e-7897-4bf2-b56f-37785261b9da'
-title: 'What's New in Network Share Management in Windows Server 2008 R2 and Windows 7'
+Description: Windows Server 2008 R2.
+ms.assetid: 85b98a7e-7897-4bf2-b56f-37785261b9da
+title: Whats New in Network Share Management in Windows Server 2008 R2 and Windows 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Network Share Management in Windows Server 2008 R2 and Windows 7
@@ -12,7 +17,7 @@ Windows Server 2008 R2 and Windows 7 introduce the following changes to Netwo
 
 <dl>
 
-[**SHARE\_INFO\_1005**](share-info-1005-str.md) structureAdded **shi1005\_flags** values: <dl> **SHI1005\_FLAGS\_FORCE\_LEVELII\_OPLOCK**  
+[**SHARE\_INFO\_1005**](/windows/win32/Lmshare/ns-lmshare-_share_info_1005?branch=master) structureAdded **shi1005\_flags** values: <dl> **SHI1005\_FLAGS\_FORCE\_LEVELII\_OPLOCK**  
 **SHI1005\_FLAGS\_ENABLE\_HASH**  
 </dl> </dd> </dl>
 

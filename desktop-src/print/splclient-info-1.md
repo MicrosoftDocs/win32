@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SPLCLIENT\_INFO\_1 structure is used as input to the GenerateCopyFilePaths function that is exported by Point and Print DLLs.'
-ms.assetid: 'a9659f77-e84b-471a-a778-a4628d89ce19'
-title: 'SPLCLIENT\_INFO\_1 structure'
+---
+Description: The SPLCLIENT\_INFO\_1 structure is used as input to the GenerateCopyFilePaths function that is exported by Point and Print DLLs.
+ms.assetid: a9659f77-e84b-471a-a778-a4628d89ce19
+title: SPLCLIENT\_INFO\_1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPLCLIENT\_INFO\_1 structure

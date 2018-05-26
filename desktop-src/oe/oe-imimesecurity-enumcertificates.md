@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity EnumCertificates method
 description: Enumerates the certificates from the specified store.
-ms.assetid: '74dfcd2a-25ad-4106-b2a8-3af863c6d5c0'
-keywords: ["EnumCertificates method Windows Mail (formerly Outlook Express)", "EnumCertificates method Windows Mail (formerly Outlook Express) , IMimeSecurity interface", "IMimeSecurity interface Windows Mail (formerly Outlook Express) , EnumCertificates method"]
+ms.assetid: 74dfcd2a-25ad-4106-b2a8-3af863c6d5c0
+keywords:
+- EnumCertificates method Windows Mail (formerly Outlook Express)
+- EnumCertificates method Windows Mail (formerly Outlook Express) , IMimeSecurity interface
+- IMimeSecurity interface Windows Mail (formerly Outlook Express) , EnumCertificates method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity::EnumCertificates method
@@ -22,10 +30,10 @@ Enumerates the certificates from the specified store.
 
 ```C++
 HRESULT EnumCertificates(
-  [in]  HCAPICERTSTORE hc,
-  [in]  DWORD          dwUsage,
-  [in]  PCX509CERT     pPrev,
-  [out] PCX509CERT     *ppCert
+  [in]  HCAPICERTSTORE hc,
+  [in]  DWORD          dwUsage,
+  [in]  PCX509CERT     pPrev,
+  [out] PCX509CERT     *ppCert
 );
 ```
 
@@ -94,7 +102,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -102,8 +110,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -111,9 +119,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

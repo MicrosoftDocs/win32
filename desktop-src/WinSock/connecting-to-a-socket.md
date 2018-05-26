@@ -1,7 +1,12 @@
 ---
-Description: 'For a client to communicate on a network, it must connect to a server.'
-ms.assetid: 'fb52d2b7-70fa-497a-bbb4-42b25ea9d136'
+Description: For a client to communicate on a network, it must connect to a server.
+ms.assetid: fb52d2b7-70fa-497a-bbb4-42b25ea9d136
 title: Connecting to a Socket
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting to a Socket
@@ -10,7 +15,7 @@ For a client to communicate on a network, it must connect to a server.
 
 ## To connect to a socket
 
-Call the [**connect**](connect-2.md) function, passing the created socket and the [**sockaddr**](sockaddr-2.md) structure as parameters. Check for general errors.
+Call the [**connect**](/windows/win32/Winsock2/nf-winsock2-connect?branch=master) function, passing the created socket and the [**sockaddr**](sockaddr-2.md) structure as parameters. Check for general errors.
 
 
 ```C++
@@ -37,12 +42,12 @@ if (ConnectSocket == INVALID_SOCKET) {
 
 
 
-The [**getaddrinfo**](getaddrinfo-2.md) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure. In this example, the first IP address returned by the **getaddrinfo** function is used to specify the **sockaddr** structure passed to the [**connect**](connect-2.md). If the **connect** call fails to the first IP address, then try the next [**addrinfo**](addrinfo-2.md) structure in the linked list returned from the **getaddrinfo** function.
+The [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function is used to determine the values in the [**sockaddr**](sockaddr-2.md) structure. In this example, the first IP address returned by the **getaddrinfo** function is used to specify the **sockaddr** structure passed to the [**connect**](/windows/win32/Winsock2/nf-winsock2-connect?branch=master). If the **connect** call fails to the first IP address, then try the next [**addrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-freeaddrinfo?branch=master) structure in the linked list returned from the **getaddrinfo** function.
 
 The information specified in the [**sockaddr**](sockaddr-2.md) structure includes:
 
 -   the IP address of the server that the client will try to connect to.
--   the port number on the server that the client will connect to. This port was specified as port 27015 when the client called the [**getaddrinfo**](getaddrinfo-2.md) function.
+-   the port number on the server that the client will connect to. This port was specified as port 27015 when the client called the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function.
 
 Next Step: [Sending and Receiving Data on the Client](sending-and-receiving-data-on-the-client.md)
 

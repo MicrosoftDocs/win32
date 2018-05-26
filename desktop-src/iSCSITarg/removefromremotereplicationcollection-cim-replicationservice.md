@@ -4,13 +4,16 @@ description: Remove (or start a job to remove) service access points (i.e.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2edc2d46-d47e-4254-9a64-fb816b48cbdf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2edc2d46-d47e-4254-9a64-fb816b48cbdf
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveFromRemoteReplicationCollection method iSCSI Software Target API", "RemoveFromRemoteReplicationCollection method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , RemoveFromRemoteReplicationCollection method"]
+keywords:
+- RemoveFromRemoteReplicationCollection method iSCSI Software Target API
+- RemoveFromRemoteReplicationCollection method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , RemoveFromRemoteReplicationCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveFromRemoteReplicationCollection method of the CIM\_ReplicationService class
@@ -30,11 +36,11 @@ Remove (or start a job to remove) service access points (i.e. ProtocolEndpoints)
 
 ```mof
 uint32 RemoveFromRemoteReplicationCollection(
-  [in]  CIM_ServiceAccessPoint     REF LocalAccessPoints[],
-  [in]  CIM_ServiceAccessPoint     REF RemoteAccessPoints[],
-  [in]  CIM_ComputerSystem         REF RemoteComputerSystem,
-  [out] CIM_ConcreteJob            REF Job,
-  [in]  CIM_ConnectivityCollection REF ConnectivityCollection
+  [in]  CIM_ServiceAccessPoint     REF LocalAccessPoints[],
+  [in]  CIM_ServiceAccessPoint     REF RemoteAccessPoints[],
+  [in]  CIM_ComputerSystem         REF RemoteComputerSystem,
+  [out] CIM_ConcreteJob            REF Job,
+  [in]  CIM_ConnectivityCollection REF ConnectivityCollection
 );
 ```
 
@@ -104,16 +110,16 @@ The reference to the RemoteReplicationCollection to affect.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -123,7 +129,7 @@ The reference to the RemoteReplicationCollection to affect.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -137,9 +143,9 @@ The reference to the RemoteReplicationCollection to affect.
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

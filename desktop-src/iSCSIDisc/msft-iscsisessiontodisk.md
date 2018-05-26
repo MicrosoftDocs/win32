@@ -1,7 +1,12 @@
-﻿---
-Description: 'Association between iSCSISession and MSFT\_Disk.'
-ms.assetid: '6D9024FE-49FE-4B11-A024-2C9FBBFA34BC'
-title: 'MSFT\_iSCSISessionToDisk class'
+---
+Description: Association between iSCSISession and MSFT\_Disk.
+ms.assetid: 6D9024FE-49FE-4B11-A024-2C9FBBFA34BC
+title: MSFT\_iSCSISessionToDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSISessionToDisk class

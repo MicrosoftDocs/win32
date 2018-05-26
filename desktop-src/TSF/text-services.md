@@ -1,8 +1,16 @@
 ---
 title: Text Services
 description: Text Services
-ms.assetid: '870ed892-dc68-4f36-a450-1400747211d6'
-keywords: ["Text Services Framework (TSF),text services", "TSF (Text Services Framework),text services", "text services,about"]
+ms.assetid: 870ed892-dc68-4f36-a450-1400747211d6
+keywords:
+- Text Services Framework (TSF),text services
+- TSF (Text Services Framework),text services
+- text services,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Services

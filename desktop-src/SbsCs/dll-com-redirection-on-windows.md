@@ -1,7 +1,12 @@
 ---
-Description: 'DLL/COM redirection is an application isolation strategy employed by corporate administrators on Windows XP.'
-ms.assetid: '5bbb0bee-d457-4dfa-93a0-82537fe11f2d'
-title: 'DLL/COM Redirection on Windows'
+Description: DLL/COM redirection is an application isolation strategy employed by corporate administrators on Windows XP.
+ms.assetid: 5bbb0bee-d457-4dfa-93a0-82537fe11f2d
+title: DLL/COM Redirection on Windows
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DLL/COM Redirection on Windows

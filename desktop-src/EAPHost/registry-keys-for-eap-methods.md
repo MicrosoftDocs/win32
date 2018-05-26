@@ -1,7 +1,12 @@
 ---
 title: Configuring Registry Values for EAP Methods
 description: Configuring Registry Values for EAP Methods
-ms.assetid: '1022cfa6-2e12-40e7-b5d6-bb60a4d787be'
+ms.assetid: 1022cfa6-2e12-40e7-b5d6-bb60a4d787be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Registry Values for EAP Methods

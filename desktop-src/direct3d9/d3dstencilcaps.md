@@ -1,7 +1,12 @@
 ---
-Description: 'Driver stencil capability flags.'
-ms.assetid: '187c758c-5e7f-48ee-97cb-b1f30b709723'
+Description: Driver stencil capability flags.
+ms.assetid: 187c758c-5e7f-48ee-97cb-b1f30b709723
 title: D3DSTENCILCAPS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSTENCILCAPS
@@ -29,7 +34,7 @@ Driver stencil capability flags.
 
 Stencil-buffer entries are integer values ranging from 0 through 2ⁿ - 1, where n is the bit depth of the stencil buffer.
 
-These constants are used by the StencilCaps member of [**D3DCAPS9**](d3dcaps9.md).
+These constants are used by the StencilCaps member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 ## Constant Information
 

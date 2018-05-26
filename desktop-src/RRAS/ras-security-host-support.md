@@ -1,8 +1,15 @@
 ---
 title: RAS Security Host Support
 description: Windows NT 4.0 provides a way for a third-party RAS security DLL to enhance the built-in RAS security features. Windows 95 does not provide this support.
-ms.assetid: '1cbacd7f-c9b9-4fb4-b505-a4b1d1b6f632'
-keywords: ["Host Support, RAS", "Security Host Support, RAS"]
+ms.assetid: 1cbacd7f-c9b9-4fb4-b505-a4b1d1b6f632
+keywords:
+- Host Support, RAS
+- Security Host Support, RAS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS Security Host Support

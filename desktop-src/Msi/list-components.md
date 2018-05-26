@@ -1,7 +1,12 @@
 ---
-Description: 'The VBScript file WiCompon.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script can be used to list the components in a Windows Installer database.'
-ms.assetid: '4e6cc6f4-821a-4a10-a897-5c6aace1f702'
+Description: The VBScript file WiCompon.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script can be used to list the components in a Windows Installer database.
+ms.assetid: 4e6cc6f4-821a-4a10-a897-5c6aace1f702
 title: List Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List Components

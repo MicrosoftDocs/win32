@@ -1,8 +1,32 @@
 ---
 title: How the Audio Compression Manager Works
 description: How the Audio Compression Manager Works
-ms.assetid: '7f1c3f21-262f-42a1-b9f7-069fb13b9d8f'
-keywords: ["multimedia audio,audio compression manager (ACM)", "audio,audio compression manager (ACM)", "audio compression manager (ACM),about", "ACM (audio compression manager),about", "audio compression manager (ACM),codec drivers", "ACM (audio compression manager),codec drivers", "audio compression manager (ACM),format converter drivers", "ACM (audio compression manager),format converter drivers", "audio compression manager (ACM),filter drivers", "ACM (audio compression manager),filter drivers", "audio compression manager (ACM),compressor drivers", "ACM (audio compression manager),compressor drivers", "audio compression manager (ACM),decompressor drivers", "ACM (audio compression manager),decompressor drivers", "codec drivers", "format converter drivers", "filter drivers", "compressor drivers", "decompressor drivers"]
+ms.assetid: 7f1c3f21-262f-42a1-b9f7-069fb13b9d8f
+keywords:
+- multimedia audio,audio compression manager (ACM)
+- audio,audio compression manager (ACM)
+- audio compression manager (ACM),about
+- ACM (audio compression manager),about
+- audio compression manager (ACM),codec drivers
+- ACM (audio compression manager),codec drivers
+- audio compression manager (ACM),format converter drivers
+- ACM (audio compression manager),format converter drivers
+- audio compression manager (ACM),filter drivers
+- ACM (audio compression manager),filter drivers
+- audio compression manager (ACM),compressor drivers
+- ACM (audio compression manager),compressor drivers
+- audio compression manager (ACM),decompressor drivers
+- ACM (audio compression manager),decompressor drivers
+- codec drivers
+- format converter drivers
+- filter drivers
+- compressor drivers
+- decompressor drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the Audio Compression Manager Works

@@ -2,7 +2,15 @@
 title: Marshaling OLE Data Types
 description: Marshaling Automation and OLE data types.
 ms.assetid: 0cab4208-d40d-40a1-88f2-4933b52c0c29
-keywords: ["MIDL and COM MIDL , marshaling OLE data types", "marshaling MIDL", "OLE data MIDL"]
+keywords:
+- MIDL and COM MIDL , marshaling OLE data types
+- marshaling MIDL
+- OLE data MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marshaling OLE Data Types

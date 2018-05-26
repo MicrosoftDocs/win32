@@ -4,10 +4,13 @@ description: Applications should store user-specific information in user-specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32bd1d24-1d2e-4c0a-acdb-0cc67f275e6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 32bd1d24-1d2e-4c0a-acdb-0cc67f275e6e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storing user-specific information

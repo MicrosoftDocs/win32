@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens the shim database.'
-ms.assetid: 'ece1bd39-20a1-42e6-8e2b-1d38f7223d42'
+---
+Description: Opens the shim database.
+ms.assetid: ece1bd39-20a1-42e6-8e2b-1d38f7223d42
 title: SdbInitDatabase function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbInitDatabase function

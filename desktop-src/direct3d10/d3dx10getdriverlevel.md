@@ -1,7 +1,12 @@
 ---
-Description: 'This function has been deprecated, use D3DX10GetFeatureLevel1 instead.'
-ms.assetid: '84082c82-8496-40fd-a942-07c1a4d8c8ca'
+Description: This function has been deprecated, use D3DX10GetFeatureLevel1 instead.
+ms.assetid: 84082c82-8496-40fd-a942-07c1a4d8c8ca
 title: D3DX10GetDriverLevel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10GetDriverLevel

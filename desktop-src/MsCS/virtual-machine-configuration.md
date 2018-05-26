@@ -4,11 +4,17 @@ description: The Virtual Machine Configuration resource type is used to control 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09440a94-b6eb-4f03-b6c3-8abf960bb4d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 09440a94-b6eb-4f03-b6c3-8abf960bb4d2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Virtual Machine Configuration", "Virtual Machine Configuration resource type Failover Cluster", "Virtual Machine Configuration resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,Virtual Machine Configuration
+- Virtual Machine Configuration resource type Failover Cluster
+- Virtual Machine Configuration resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Virtual Machine Configuration
@@ -27,11 +33,11 @@ The following table summarizes the characteristics of the Virtual Machine Config
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

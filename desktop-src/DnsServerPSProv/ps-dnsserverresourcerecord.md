@@ -2,13 +2,15 @@
 title: PS\_DnsServerResourceRecord class
 description: A DNS Server Resource Record definition.
 audience: developer
-ms.assetid: 'eb36f338-10fe-48b4-927f-7c005b960ef7'
-ms.prod: 'windows-server-dev'
+ms.assetid: eb36f338-10fe-48b4-927f-7c005b960ef7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, described"]
+keywords:
+- PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerResourceRecord class
@@ -80,7 +85,7 @@ The **PS\_DnsServerResourceRecord** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,7 +94,7 @@ The **PS\_DnsServerResourceRecord** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -103,9 +108,9 @@ The **PS\_DnsServerResourceRecord** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

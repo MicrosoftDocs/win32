@@ -1,14 +1,20 @@
 ---
 title: D1105 Threading Violation
-ms.assetid: '2c6cf90b-ce9e-4ea9-849d-22170f65ffb0'
+ms.assetid: 2c6cf90b-ce9e-4ea9-849d-22170f65ffb0
 description: 
-keywords: ["D1105 Threading Violation Direct2D"]
+keywords:
+- D1105 Threading Violation Direct2D
 topic_type:
 - apiref
 api_name:
 - D1105 Threading Violation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1105: Threading Violation

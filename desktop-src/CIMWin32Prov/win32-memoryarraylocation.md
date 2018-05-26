@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_MemoryArrayLocation association WMI class relates a logical memory array and the physical memory array on which it exists.'
+Description: The Win32\_MemoryArrayLocation association WMI class relates a logical memory array and the physical memory array on which it exists.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '455daeee-ad67-4599-84d6-fa3f4ac593aa'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 455daeee-ad67-4599-84d6-fa3f4ac593aa
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_MemoryArrayLocation class'
+title: Win32\_MemoryArrayLocation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_MemoryArrayLocation class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{B24EF561-BBBE-11d2-ABFB-00805F538618}"), AMENDMENT]
 class Win32_MemoryArrayLocation : CIM_Realizes
 {
-  Win32_MemoryArray         REF Dependent;
+  Win32_MemoryArray         REF Dependent;
   Win32_PhysicalMemoryArray REF Antecedent;
 };
 ```
@@ -83,8 +86,8 @@ The **Win32\_MemoryArrayLocation** class is derived from [**CIM\_Realizes**](cim
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_MemoryArrayLocation** class is derived from [**CIM\_Realizes**](cim
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

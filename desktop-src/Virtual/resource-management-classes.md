@@ -1,7 +1,12 @@
 ---
 title: Resource Management Classes
 description: Virtualization WMI classes related to resource management.
-ms.assetid: '8b4b9d17-cff5-44fb-b1aa-ed5f4ea7bddc'
+ms.assetid: 8b4b9d17-cff5-44fb-b1aa-ed5f4ea7bddc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Management Classes
@@ -24,7 +29,7 @@ The following are virtualization WMI classes related to resource management.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ The following are virtualization WMI classes related to resource management.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

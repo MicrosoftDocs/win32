@@ -1,7 +1,12 @@
 ---
 title: Device Access API C++ Programming Reference
 description: Provides reference pages for the functions and interfaces in the Device Access API.
-ms.assetid: '8B2DD325-53D6-4221-A175-88754242D7A3'
+ms.assetid: 8B2DD325-53D6-4221-A175-88754242D7A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Access API C++ Programming Reference
@@ -19,7 +24,7 @@ Provides reference pages for the functions and interfaces in the Device Access A
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -46,9 +51,9 @@ Provides reference pages for the functions and interfaces in the Device Access A
 [Device Experience for Windows 8](http://go.microsoft.com/fwlink/p/?linkid=241442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

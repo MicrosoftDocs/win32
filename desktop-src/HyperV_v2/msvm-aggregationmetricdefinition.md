@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the definition aspects of a metric that is derived from another metric value.'
-ms.assetid: '642f53fe-e51c-4c73-babf-19adb2cf55f4'
-title: 'Msvm\_AggregationMetricDefinition class'
+Description: Represents the definition aspects of a metric that is derived from another metric value.
+ms.assetid: 642f53fe-e51c-4c73-babf-19adb2cf55f4
+title: Msvm\_AggregationMetricDefinition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AggregationMetricDefinition class
@@ -16,22 +21,22 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_AggregationMetricDefinition : CIM_AggregationMetricDefinition
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  Id;
-  string  Name;
-  uint16  DataType;
-  uint16  Calculable;
-  string  Units;
-  string  BreakdownDimensions[];
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  Id;
+  string  Name;
+  uint16  DataType;
+  uint16  Calculable;
+  string  Units;
+  string  BreakdownDimensions[];
   boolean IsContinuous;
-  uint16  ChangeType;
-  uint16  TimeScope;
-  uint16  GatheringType;
-  string  ProgrammaticUnits;
-  uint16  SimpleFunction;
+  uint16  ChangeType;
+  uint16  TimeScope;
+  uint16  GatheringType;
+  string  ProgrammaticUnits;
+  uint16  SimpleFunction;
 };
 ```
 
@@ -81,7 +86,7 @@ Describes the characteristics of the metric for purposes of performing calculati
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +127,7 @@ Indicates how the metric value changes, in the form of typical combinations of f
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -233,7 +238,7 @@ Indicates how the metric values are gathered by the underlying instrumentation. 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -362,7 +367,7 @@ Indicates the time scope to which the metric value applies. This property is inh
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -385,17 +390,17 @@ Identifies the units of a value, for example, "megabytes". This property is inhe
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

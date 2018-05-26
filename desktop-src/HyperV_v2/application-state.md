@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the health state of an application.'
-ms.assetid: 'CA06AA34-A549-4CFC-9B52-D2E0B200C3E9'
-title: 'APPLICATION\_STATE enumeration'
+Description: Specifies the health state of an application.
+ms.assetid: CA06AA34-A549-4CFC-9B52-D2E0B200C3E9
+title: APPLICATION\_STATE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # APPLICATION\_STATE enumeration
@@ -13,7 +18,7 @@ Specifies the health state of an application.
 
 ```C++
 typedef enum _APPLICATION_STATE { 
-  ApplicationStateHealthy   = 0,
+  ApplicationStateHealthy   = 0,
   ApplicationStateCritical
 } APPLICATION_STATE, *PAPPLICATION_STATE;
 ```
@@ -40,7 +45,7 @@ The application state is critical.
 
 ## Remarks
 
-To use this programming element, the Windows 8 integration components must be installed on the virtual machine that the application is running in.
+To use this programming element, the Windows 8 integration components must be installed on the virtual machine that the application is running in.
 
 ## Requirements
 
@@ -48,9 +53,9 @@ To use this programming element, the Windows 8 integration components must be in
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                      |
-| Version<br/>                  | Integration components for Windows 8<br/>                                                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                      |
+| Version<br/>                  | Integration components for Windows 8<br/>                                                           |
 | IDL<br/>                      | <dl> <dt>VmApplicationHealthMonitor.idl</dt> </dl> |
 
 
@@ -62,9 +67,9 @@ To use this programming element, the Windows 8 integration components must be in
 [**SetApplicationState**](ivmapplicationhealthmonitor-setapplicationstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

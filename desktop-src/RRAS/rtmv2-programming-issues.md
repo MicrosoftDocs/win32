@@ -1,8 +1,14 @@
 ---
 title: RTMv2 Programming Issues
 description: RTMv2 functions are written with the following assumptions.
-ms.assetid: 'c8c6f553-57cc-4eec-bbc0-b6b50897cc75'
-keywords: ["Programming issues, RTMv2"]
+ms.assetid: c8c6f553-57cc-4eec-bbc0-b6b50897cc75
+keywords:
+- Programming issues, RTMv2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RTMv2 Programming Issues

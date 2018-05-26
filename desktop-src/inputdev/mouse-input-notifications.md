@@ -1,7 +1,12 @@
 ---
 title: Mouse Input Notifications
 description: .
-ms.assetid: 'bf010650-4117-4ea5-8563-ca067d48f9cc'
+ms.assetid: bf010650-4117-4ea5-8563-ca067d48f9cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mouse Input Notifications

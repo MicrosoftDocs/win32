@@ -4,11 +4,13 @@ description: Provides access to SCSI information about a Physical Disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7becbcf6-bad9-44e2-9731-d53de8299b99'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7becbcf6-bad9-44e2-9731-d53de8299b99
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusScsiAddress object Failover Cluster", "ClusScsiAddress object Failover Cluster , described"]
+keywords:
+- ClusScsiAddress object Failover Cluster
+- ClusScsiAddress object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusScsiAddress object
@@ -47,7 +52,7 @@ The **ClusScsiAddress** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,7 +65,7 @@ A **ClusScsiAddress** object is obtained from [**ClusDisk.ScsiAddress**](clusdis
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -76,12 +81,12 @@ A **ClusScsiAddress** object is obtained from [**ClusDisk.ScsiAddress**](clusdis
 [Disk Management Objects](disk-management-objects.md)
 </dt> <dt>
 
-[**CLUS\_SCSI\_ADDRESS**](clus-scsi-address.md)
+[**CLUS\_SCSI\_ADDRESS**](/windows/previous-versions/ClusAPI/ns-clusapi-clus_scsi_address?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

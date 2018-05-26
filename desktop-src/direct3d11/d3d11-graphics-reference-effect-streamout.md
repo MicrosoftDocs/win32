@@ -1,12 +1,17 @@
 ---
 title: Stream Out Syntax
 description: A geometry shader with stream out is declared with a particular syntax.
-ms.assetid: '58cf6503-0dde-4c88-837d-ae0e0eda17d5'
+ms.assetid: 58cf6503-0dde-4c88-837d-ae0e0eda17d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Out Syntax
 
-A geometry shader with stream out is declared with a particular syntax. This topic describes the syntax. In the effect runtime, this syntax will be converted to a call to [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](id3d11device-creategeometryshaderwithstreamoutput.md).
+A geometry shader with stream out is declared with a particular syntax. This topic describes the syntax. In the effect runtime, this syntax will be converted to a call to [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](/windows/win32/D3D11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput?branch=master).
 
 ## Construct Syntax
 

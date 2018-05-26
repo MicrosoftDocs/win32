@@ -4,11 +4,14 @@ description: Runs diagnostics on the file system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a27a1f2e-9e76-402a-8b5f-d08719ff1a8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a27a1f2e-9e76-402a-8b5f-d08719ff1a8c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Diagnose method", "Diagnose method, MSFT_SMFileSystem class", "MSFT_SMFileSystem class, Diagnose method"]
+keywords:
+- Diagnose method
+- Diagnose method, MSFT_SMFileSystem class
+- MSFT_SMFileSystem class, Diagnose method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Diagnose method of the MSFT\_SMFileSystem class
@@ -28,10 +34,10 @@ Runs diagnostics on the file system.
 
 ```mof
 UInt32 Diagnose(
-  [in, optional] String                       username,
-  [in, optional] String                       password,
-  [out]          MSFT_SMStorageDiagnoseResult DiagnoseResults[],
-  [out]          MSFT_SMExtendedStatus        ExtendedStatus
+  [in, optional] String                       username,
+  [in, optional] String                       password,
+  [out]          MSFT_SMStorageDiagnoseResult DiagnoseResults[],
+  [out]          MSFT_SMExtendedStatus        ExtendedStatus
 );
 ```
 
@@ -80,7 +86,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -94,9 +100,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_SMFileSystem**](msft-smfilesystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

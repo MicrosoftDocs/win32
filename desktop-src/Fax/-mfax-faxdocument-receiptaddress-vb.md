@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReceiptAddress property is a null-terminated string that indicates the email address to which the fax service should send a delivery receipt when the fax job reaches a final state.'
-ms.assetid: 'ad532f2e-66da-4dc1-856d-6cc65dadf71d'
-title: 'FaxDocument.ReceiptAddress property'
+---
+Description: The ReceiptAddress property is a null-terminated string that indicates the email address to which the fax service should send a delivery receipt when the fax job reaches a final state.
+ms.assetid: ad532f2e-66da-4dc1-856d-6cc65dadf71d
+title: FaxDocument.ReceiptAddress property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.ReceiptAddress property
@@ -50,7 +55,7 @@ This property has meaning only if the [**ReceiptType**](-mfax-faxdocument-receip
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

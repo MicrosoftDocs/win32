@@ -1,7 +1,12 @@
 ---
 title: continuec (sm4 - asm)
 description: Conditionally continues execution at the beginning of the current loop.
-ms.assetid: '1A5B1951-CE1E-479C-AE0F-FC5FB93E0DE9'
+ms.assetid: 1A5B1951-CE1E-479C-AE0F-FC5FB93E0DE9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # continuec (sm4 - asm)
@@ -15,7 +20,7 @@ Conditionally continues execution at the beginning of the current loop.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Conditionally continues execution at the beginning of the current loop.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +69,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -83,7 +88,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -92,9 +97,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

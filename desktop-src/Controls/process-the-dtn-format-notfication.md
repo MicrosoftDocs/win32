@@ -1,7 +1,12 @@
 ---
 title: How to Process the DTN\_FORMAT Notification
 description: This topic demonstrates how to process a format notification sent by the date and time picker (DTP) control.
-ms.assetid: '7B559846-FE52-4181-B25D-888BE90EB038'
+ms.assetid: 7B559846-FE52-4181-B25D-888BE90EB038
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Process the DTN\_FORMAT Notification

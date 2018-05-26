@@ -1,7 +1,12 @@
 ---
-Description: 'The Active method creates a worker thread that pulls data from the output pin. This method also commits the allocator.'
-ms.assetid: '9efa20f3-7909-4d87-bfa8-314d055b80f8'
-title: 'CPullPin.Active method'
+Description: The Active method creates a worker thread that pulls data from the output pin. This method also commits the allocator.
+ms.assetid: 9efa20f3-7909-4d87-bfa8-314d055b80f8
+title: CPullPin.Active method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.Active method
@@ -35,7 +40,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +66,9 @@ Before calling this method, call the [**CPullPin::Connect**](cpullpin-connect.md
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

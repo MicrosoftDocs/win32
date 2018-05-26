@@ -1,8 +1,14 @@
 ---
 title: Makefiles
 description: The makefiles for each of the code samples in this series are generic Microsoft Win32 makefiles and are meant to be built from the Command Prompt window.
-ms.assetid: 'f9944069-b536-4ae2-8411-f02c3a78978c'
-keywords: ["Makefiles Structured Storage"]
+ms.assetid: f9944069-b536-4ae2-8411-f02c3a78978c
+keywords:
+- Makefiles Structured Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Makefiles

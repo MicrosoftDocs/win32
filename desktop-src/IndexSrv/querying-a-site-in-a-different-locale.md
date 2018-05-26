@@ -1,7 +1,12 @@
 ---
 title: Querying a Site in a Different Locale
 description: Querying a Site in a Different Locale
-ms.assetid: '94402bf1-64de-4a99-a2ac-937242117971'
+ms.assetid: 94402bf1-64de-4a99-a2ac-937242117971
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying a Site in a Different Locale

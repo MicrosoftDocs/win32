@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AddGroup method adds a group to the timeline.'
-ms.assetid: 'c7fc3b59-5852-4a3c-b9bf-f87e659819b5'
-title: 'IAMTimeline::AddGroup method'
+---
+Description: The AddGroup method adds a group to the timeline.
+ms.assetid: c7fc3b59-5852-4a3c-b9bf-f87e659819b5
+title: IAMTimelineAddGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::AddGroup method

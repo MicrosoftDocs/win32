@@ -1,8 +1,11 @@
 ---
 title: IMessengerServices PrimaryService property
 description: Returns the MessengerService object for the primary service for the primary client.
-ms.assetid: 'b15e9e97-00f8-46b3-b2b3-004768879197'
-keywords: ["PrimaryService property Windows Messenger", "PrimaryService property Windows Messenger , IMessengerServices interface", "IMessengerServices interface Windows Messenger , PrimaryService property"]
+ms.assetid: b15e9e97-00f8-46b3-b2b3-004768879197
+keywords:
+- PrimaryService property Windows Messenger
+- PrimaryService property Windows Messenger , IMessengerServices interface
+- IMessengerServices interface Windows Messenger , PrimaryService property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerServices::PrimaryService property
 
-\[**PrimaryService** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**PrimaryService** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Returns the [**MessengerService**](im-messengerservice.md) object for the primary service for the primary client.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_PrimaryService(
-  [out, retval] IDispatch **ppService
+  [out, retval] IDispatch **ppService
 );
 ```
 
@@ -59,7 +67,7 @@ The primary service is the service used when the [**AutoSignin**](im-imessenger-
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -88,8 +96,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -106,9 +114,9 @@ End Sub
 [Using the Registration Mechanism](im-registration-mechanism.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

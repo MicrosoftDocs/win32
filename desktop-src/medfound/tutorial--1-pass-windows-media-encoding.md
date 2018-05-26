@@ -1,7 +1,12 @@
-﻿---
-Description: 'Encoding refers to the process of converting digital media from one format into another. For example, converting MP3 audio into Windows Media Audio format as defined by the Advanced Systems Format (ASF) specification.'
-ms.assetid: '4fe202d8-c8f5-4e9a-ad40-1aea8f767362'
-title: 'Tutorial: 1-Pass Windows Media Encoding'
+---
+Description: Encoding refers to the process of converting digital media from one format into another. For example, converting MP3 audio into Windows Media Audio format as defined by the Advanced Systems Format (ASF) specification.
+ms.assetid: 4fe202d8-c8f5-4e9a-ad40-1aea8f767362
+title: Tutorial 1-Pass Windows Media Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial: 1-Pass Windows Media Encoding
@@ -153,8 +158,8 @@ To create the media source, use the [Source Resolver](source-resolver.md). This 
 
 Make the following calls:
 
--   [**MFCreateSourceResolver**](mfcreatesourceresolver.md)
--   [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md)
+-   [**MFCreateSourceResolver**](/windows/win32/mfidl/nf-mfidl-mfcreatesourceresolver?branch=master)
+-   [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master)
 
     For more information about these calls, see [Using the Source Resolver](using-the-source-resolver.md).
 
@@ -239,26 +244,26 @@ The following steps describe the process of creating the ASF profile and the tar
 
 **To create the ASF profile**
 
-1.  Call [**MFCreateASFProfile**](mfcreateasfprofile.md) to create an empty profile object.
-2.  Call [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md) to create the presentation descriptor for the media source created in the step described in the "Create the Media Source" section of this tutorial.
-3.  Call [**IMFPresentationDescriptor::GetStreamDescriptorCount**](imfpresentationdescriptor-getstreamdescriptorcount.md) to get the number of streams in the media source.
-4.  Call [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](imfpresentationdescriptor-getstreamdescriptorbyindex.md) for each stream in the media source, get the stream's stream descriptor.
-5.  Call [**IMFStreamDescriptor::GetMediaTypeHandler**](imfstreamdescriptor-getmediatypehandler.md) followed by [**IMFMediaTypeHandler::GetMediaTypeByIndex**](imfmediatypehandler-getmediatypebyindex.md) and get the first media type for the stream.
+1.  Call [**MFCreateASFProfile**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfprofile?branch=master) to create an empty profile object.
+2.  Call [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master) to create the presentation descriptor for the media source created in the step described in the "Create the Media Source" section of this tutorial.
+3.  Call [**IMFPresentationDescriptor::GetStreamDescriptorCount**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount?branch=master) to get the number of streams in the media source.
+4.  Call [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex?branch=master) for each stream in the media source, get the stream's stream descriptor.
+5.  Call [**IMFStreamDescriptor::GetMediaTypeHandler**](/windows/win32/mfidl/nf-mfidl-imfstreamdescriptor-getmediatypehandler?branch=master) followed by [**IMFMediaTypeHandler::GetMediaTypeByIndex**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getmediatypebyindex?branch=master) and get the first media type for the stream.
 
     **Note**   To avoid complex calls, assume that only one media type exists per stream and select the first media type of the stream. For complex streams, you need to enumerate each media type from the media type handler and choose the media type that you would like to encode.
 
-6.  Call I[**IMFMediaType::GetMajorType**](imfmediatype-getmajortype.md) to get the major type of the stream to determine whether the stream is contains audio or video.
+6.  Call I[**IMFMediaType::GetMajorType**](/windows/win32/mfobjects/nf-mfobjects-imfmediatype-getmajortype?branch=master) to get the major type of the stream to determine whether the stream is contains audio or video.
 7.  Depending on the major type of the stream, create target media types. These media types will hold format information that the encoder will use during the encoding session. The following sections of this tutorial describe the process of creating the target media types.
     -   Create a Compressed Audio Media Type
     -   Create a Compressed Video Media Type
 8.  Create a stream based on the target media type, configure the stream according to the application's requirements, and add the stream to the profile. For more information, see [Adding Stream Information to the ASF File Sink](adding-stream-information-to-the-asf-file-sink.md).
 
-    1.  Call [**IMFASFProfile::CreateStream**](imfasfprofile-createstream.md) and pass the target media type to create the output stream. The method retrieves the IMFASFStreamConfig interface of the stream object.
+    1.  Call [**IMFASFProfile::CreateStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-createstream?branch=master) and pass the target media type to create the output stream. The method retrieves the IMFASFStreamConfig interface of the stream object.
     2.  Configure the stream.
-        -   Call [**IMFASFStreamConfig::SetStreamNumber**](imfasfstreamconfig-setstreamnumber.md) to assign a number to the stream. This setting is mandatory.
-        -   Optionally configure the leaky bucket parameters, payload extension, mutual exclusion on each stream by calling [**IMFASFStreamConfig**](imfasfstreamconfig.md) methods and relevant stream configuration attributes.
+        -   Call [**IMFASFStreamConfig::SetStreamNumber**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber?branch=master) to assign a number to the stream. This setting is mandatory.
+        -   Optionally configure the leaky bucket parameters, payload extension, mutual exclusion on each stream by calling [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) methods and relevant stream configuration attributes.
     3.  Add the stream level encoding properties by using the ASF ContentInfo object. For more information about this step, see the "Create the ASF ContentInfo Object" section in this tutorial.
-    4.  Call [**IMFASFProfile::SetStream**](imfasfprofile-setstream.md) to add the stream to the profile.
+    4.  Call [**IMFASFProfile::SetStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-setstream?branch=master) to add the stream to the profile.
 
     The following code example creates an output audio stream.
 
@@ -487,9 +492,9 @@ The following code example creates output streams depending on the streams in th
 
 ### Create a Compressed Audio Media Type
 
-If you want to include an audio stream in the output file, create an audio type by specifying the characteristics of the encoded type by setting the required attributes. To make sure that the audio type is compatible with the Windows Media audio encoder, instantiate the encoder MFT, set the encoding properties, and get a media type by calling [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md). Get the required output type by looping through all the available types, getting the attributes of each media type, and selecting the type that is closest to your requirements. In this tutorial, get the first available type from the list of output media types supported by the encoder.
+If you want to include an audio stream in the output file, create an audio type by specifying the characteristics of the encoded type by setting the required attributes. To make sure that the audio type is compatible with the Windows Media audio encoder, instantiate the encoder MFT, set the encoding properties, and get a media type by calling [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master). Get the required output type by looping through all the available types, getting the attributes of each media type, and selecting the type that is closest to your requirements. In this tutorial, get the first available type from the list of output media types supported by the encoder.
 
-**Note**  For Windows 7, Media Foundation provides a new function, [**MFTranscodeGetAudioOutputAvailableTypes**](mftranscodegetaudiooutputavailabletypes.md) that retrieves a list of the compatible audio types. This function only gets media types for CBR encoding.
+**Note**  For Windows 7, Media Foundation provides a new function, [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/win32/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes?branch=master) that retrieves a list of the compatible audio types. This function only gets media types for CBR encoding.
 
 A complete audio type must have the following attributes set:
 
@@ -772,7 +777,7 @@ There are two ways you can create a complete video media type.
 
     
 
--   Get a compatible media type from the Windows Media video encoder by setting the encoding properties and then calling [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md). This method returns the partial type. Make sure you convert the partial type to a complete type by adding the following information:
+-   Get a compatible media type from the Windows Media video encoder by setting the encoding properties and then calling [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master). This method returns the partial type. Make sure you convert the partial type to a complete type by adding the following information:
 
     -   Set the video bit rate in the [**MF\_MT\_AVG\_BITRATE**](mf-mt-avg-bitrate-attribute.md) attribute.
     -   Add codec private data by setting the [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) attribute. For detailed instructions, see "Private Codec Data" in [Configuring a WMV Encoder](configuring-a-wmv-encoder.md).
@@ -1125,7 +1130,7 @@ There are two ways you can create a complete video media type.
 
 The ASF ContentInfo object is a WMContainer level component that is primarily designed to store ASF Header Object information. The ASF file sink, implements the ContentInfo object in order to store information (in a property store) that will be used to write the ASF Header Object of the encoded file. To do so, you must create and configure the following set of information on the ContentInfo object before starting the encoding session.
 
-1.  Call [**MFCreateASFContentInfo**](mfcreateasfcontentinfo.md) to create an empty ContentInfo object.
+1.  Call [**MFCreateASFContentInfo**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo?branch=master) to create an empty ContentInfo object.
 
     The following code example creates an empty ContentInfo object.
 
@@ -1141,7 +1146,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
     
 
-2.  Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md) to get the file sink's stream-level property store. In this call, you need to pass the stream number that you assigned for the stream while creating the ASF profile.
+2.  Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master) to get the file sink's stream-level property store. In this call, you need to pass the stream number that you assigned for the stream while creating the ASF profile.
 3.  Set the stream-level [Encoding Properties](configuring-the-encoder.md) in the file sink's stream property store. For more information, see "Stream Encoding Properties" in [Setting Properties in the File Sink](setting-properties-in-the-file-sink.md).
 
     The following code example sets the stream level properties in the file sink's property store.
@@ -1300,7 +1305,7 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
     
 
-4.  Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md) to get the file sink's global property store. In this call, you need to pass 0 in the first parameter. For more information, see "Global File Sink Properties" in [Setting Properties in the File Sink](setting-properties-in-the-file-sink.md).
+4.  Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master) to get the file sink's global property store. In this call, you need to pass 0 in the first parameter. For more information, see "Global File Sink Properties" in [Setting Properties in the File Sink](setting-properties-in-the-file-sink.md).
 5.  Set the [**MFPKEY\_ASFMEDIASINK\_AUTOADJUST\_BITRATE**](mfpkey-asfmediasink-autoadjust-bitrate-property.md) to VARIANT\_TRUE to ensure the leaky bucket values in the ASF multiplexer are adjusted properly. For information about this property, see "Multiplexer Initialization and Leaky Bucket Settings" in [Creating the Multiplexer Object](creating-the-multiplexer-object.md).
 
     The following code example sets the stream level properties in the file sink's property store.
@@ -1336,11 +1341,11 @@ The ASF ContentInfo object is a WMContainer level component that is primarily de
 
 You will use the configured ASF ContentInfo to create an activation object for the ASF file sink (described in the next section).
 
-If you are creating an out-of-process file sink ([**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md)), that is by using an activation object, you can use the configured ContentInfo object to instantiate the ASF media sink (described in the next section). If you are creating an in-process file sink ([**MFCreateASFMediaSink**](mfcreateasfmediasink.md)), instead of creating the empty ContentInfo object as described in step 1, get a reference to the [**IMFASFContentInfo**](imfasfcontentinfo.md) interface by calling **IMFMediaSink::QueryInterface** on the file sink. You must then configure the ContentInfo object as described in this section.
+If you are creating an out-of-process file sink ([**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master)), that is by using an activation object, you can use the configured ContentInfo object to instantiate the ASF media sink (described in the next section). If you are creating an in-process file sink ([**MFCreateASFMediaSink**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasink?branch=master)), instead of creating the empty ContentInfo object as described in step 1, get a reference to the [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) interface by calling **IMFMediaSink::QueryInterface** on the file sink. You must then configure the ContentInfo object as described in this section.
 
 ### Create the ASF File Sink
 
-In this step of the tutorial, you will use the configured ASF ContentInfo, which you created in the previous step, to create an activation object for the ASF file sink by calling the [**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md) function. For more information, see [Creating the ASF File Sink](creating-the-asf-file-sink.md).
+In this step of the tutorial, you will use the configured ASF ContentInfo, which you created in the previous step, to create an activation object for the ASF file sink by calling the [**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master) function. For more information, see [Creating the ASF File Sink](creating-the-asf-file-sink.md).
 
 The following code example creates the activation object for the file sink.
 
@@ -1359,7 +1364,7 @@ The following code example creates the activation object for the file sink.
 
 ## Build the Partial Encoding Topology
 
-Next, you will build a partial encoding topology by creating topology nodes for the media source, the required Windows Media encoders, and the ASF file sink. After adding the topology nodes, you will connect the source, transform, and the sink nodes. Before adding topology nodes, you must create an empty topology object by calling [**MFCreateTopology**](mfcreatetopology.md).
+Next, you will build a partial encoding topology by creating topology nodes for the media source, the required Windows Media encoders, and the ASF file sink. After adding the topology nodes, you will connect the source, transform, and the sink nodes. Before adding topology nodes, you must create an empty topology object by calling [**MFCreateTopology**](/windows/win32/mfidl/nf-mfidl-mfcreatetopology?branch=master).
 
 ### Create the Source Topology Node for the Media Source
 
@@ -1368,7 +1373,7 @@ In this step, you will create the source topology node for the media source.
 To create this node you need the following references:
 
 -   A pointer to the media source that you created in the step described in the "Create the Media Source" section of this tutorial.
--   A pointer to the presentation descriptor for the media source. You can get a reference to IMFPresentationDescriptor interface of the media source by calling [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md).
+-   A pointer to the presentation descriptor for the media source. You can get a reference to IMFPresentationDescriptor interface of the media source by calling [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master).
 -   A pointer to the stream descriptor for each stream in the media source for which you have created a target stream in the step described in the "Create the ASF Profile Object" section of this tutorial.
 
 For more information about creating source nodes and code example, see [Creating Source Nodes](creating-source-nodes.md).
@@ -1593,35 +1598,35 @@ For an overview on creating encoders through activation objects, see [Using an E
 
 The following procedure describes the steps required to instantiate the required encoders.
 
-1.  Get a reference to the sink's ContentInfo object by calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) on the file sink activate and then querying for [**IMFASFContentInfo**](imfasfcontentinfo.md) from the file sink by calling **QueryInterface**.
-2.  Get the ASF profile associated with the ContentInfo object by calling [**IMFASFContentInfo::GetProfile**](imfasfcontentinfo-getprofile.md).
-3.  Enumerate the streams in the profile. For this you will need the stream count and a reference to each stream's [**IMFASFStreamConfig**](imfasfstreamconfig.md) interface.
+1.  Get a reference to the sink's ContentInfo object by calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) on the file sink activate and then querying for [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) from the file sink by calling **QueryInterface**.
+2.  Get the ASF profile associated with the ContentInfo object by calling [**IMFASFContentInfo::GetProfile**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getprofile?branch=master).
+3.  Enumerate the streams in the profile. For this you will need the stream count and a reference to each stream's [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) interface.
 
     Call the following methods:
 
-    -   [**IMFASFProfile::GetStreamCount**](imfasfprofile-getstreamcount.md)
-    -   [**IMFASFProfile::GetStream**](imfasfprofile-getstream.md)
+    -   [**IMFASFProfile::GetStreamCount**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount?branch=master)
+    -   [**IMFASFProfile::GetStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-getstream?branch=master)
 
 4.  For each stream get the major type and the stream's encoding properties from the ContentInfo object.
 
     Call the following methods:
 
-    -   [**IMFASFStreamConfig::GetMediaType**](imfasfstreamconfig-getmediatype.md)
-    -   [**IMFMediaType::GetMajorType**](imfmediatype-getmajortype.md)
-    -   [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md)
+    -   [**IMFASFStreamConfig::GetMediaType**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype?branch=master)
+    -   [**IMFMediaType::GetMajorType**](/windows/win32/mfobjects/nf-mfobjects-imfmediatype-getmajortype?branch=master)
+    -   [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master)
 
-        For this call you need the stream number retrieved by the [**IMFASFProfile::GetStream**](imfasfprofile-getstream.md) call.
+        For this call you need the stream number retrieved by the [**IMFASFProfile::GetStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-getstream?branch=master) call.
 
-5.  Depending on the type of the stream, audio or video, instantiate the activation object for the encoder by calling [**MFCreateWMAEncoderActivate**](mfcreatewmaencoderactivate.md) or [**MFCreateWMVEncoderActivate**](mfcreatewmvencoderactivate.md).
+5.  Depending on the type of the stream, audio or video, instantiate the activation object for the encoder by calling [**MFCreateWMAEncoderActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate?branch=master) or [**MFCreateWMVEncoderActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate?branch=master).
 
     To call these functions, you need the following references:
 
-    -   A pointer to the stream's media type retrieved by [**IMFASFStreamConfig::GetMediaType**](imfasfstreamconfig-getmediatype.md) in the previous step.
-    -   A pointer to the stream's encoding property store retrieved by [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md). By passing a pointer to the property store, the stream properties set in the file sink are copied on the encoder MFT.
+    -   A pointer to the stream's media type retrieved by [**IMFASFStreamConfig::GetMediaType**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getmediatype?branch=master) in the previous step.
+    -   A pointer to the stream's encoding property store retrieved by [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master). By passing a pointer to the property store, the stream properties set in the file sink are copied on the encoder MFT.
 
 6.  Update the leaky bucket parameter for the audio stream.
 
-    [**MFCreateWMAEncoderActivate**](mfcreatewmaencoderactivate.md) sets the output type on the underlying encoder MFT for the Windows Media audio codec. After the output media type is set, the encoder gets the average bit rate from the output media type, calculates the buffer window rage bit rate, and sets the leaky bucket values that will be used during the encoding session. You can update these values in the file sink by either querying the encoder or setting custom values. To update values you need the following set of information:
+    [**MFCreateWMAEncoderActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate?branch=master) sets the output type on the underlying encoder MFT for the Windows Media audio codec. After the output media type is set, the encoder gets the average bit rate from the output media type, calculates the buffer window rage bit rate, and sets the leaky bucket values that will be used during the encoding session. You can update these values in the file sink by either querying the encoder or setting custom values. To update values you need the following set of information:
 
     -   Average bit rate: Get the average bit rate from the [**MF\_MT\_AUDIO\_AVG\_BYTES\_PER\_SECOND**](mf-mt-audio-avg-bytes-per-second-attribute.md) attribute set on the output media type that is selected during media type negotiation.
     -   Buffer window: you can retrieve it by calling [**IWMCodecLeakyBucket::GetBufferSizeBits**](wmformat.iwmcodecleakybucket_getbuffersizebits).
@@ -1949,17 +1954,17 @@ In this step, you will connect the source node to the transform node referencing
 
 In the step, you will perform the following steps:
 
-1.  Call [**MFCreateMediaSession**](mfcreatemediasession.md) to create an encoding session.
-2.  Call [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) to set the encoding topology on the session. If the call completes, the Media Session evaluates the topology nodes and inserts additional transform objects such as a decoder that converts the specified compressed source to uncompressed samples to feed as input to the encoder.
-3.  Call [**IMFMediaSession::GetEvent**](imfmediaeventgenerator-getevent.md) to request for the events raised by the Media Session.
+1.  Call [**MFCreateMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatemediasession?branch=master) to create an encoding session.
+2.  Call [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) to set the encoding topology on the session. If the call completes, the Media Session evaluates the topology nodes and inserts additional transform objects such as a decoder that converts the specified compressed source to uncompressed samples to feed as input to the encoder.
+3.  Call [**IMFMediaSession::GetEvent**](/windows/win32/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent?branch=master) to request for the events raised by the Media Session.
 
-    In the event loop you will start and close the encoding session depending on the events raised by the Media Session. The [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) call results in Media Session raising the [MESessionTopologyStatus](mesessiontopologystatus.md) event with the MF\_TOPOSTATUS\_READY flag set. All events are generated asynchronously and an application can retrieve these events synchronously or asynchronously. Because the application in this tutorial is a console application and blocking user interface threads is not a concern, we will get the events from Media Session synchronously.
+    In the event loop you will start and close the encoding session depending on the events raised by the Media Session. The [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) call results in Media Session raising the [MESessionTopologyStatus](mesessiontopologystatus.md) event with the MF\_TOPOSTATUS\_READY flag set. All events are generated asynchronously and an application can retrieve these events synchronously or asynchronously. Because the application in this tutorial is a console application and blocking user interface threads is not a concern, we will get the events from Media Session synchronously.
 
-    To get the events asynchronously, your application must implement the [**IMFAsyncCallback**](imfasynccallback.md) interface. For more information and an example implementation of this interface, see "Handling Session Events" in [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).
+    To get the events asynchronously, your application must implement the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface. For more information and an example implementation of this interface, see "Handling Session Events" in [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).
 
-In the event loop for getting Media Session events, wait for the [MESessionTopologyStatus](mesessiontopologystatus.md) event that is raised when the [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) completes and the topology is resolved. Upon getting the MESessionTopologyStatus event, start the encoding session by calling [**IMFMediaSession::Start**](imfmediasession-start.md). The Media Session generates the [MEEndOfPresentation](meendofpresentation.md) event when all of the encoding operations are complete. This event must be handled for VBR encoding and is discussed in the next section "Update Encoding Properties on the File Sink for VBR Encoding" of this tutorial.
+In the event loop for getting Media Session events, wait for the [MESessionTopologyStatus](mesessiontopologystatus.md) event that is raised when the [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) completes and the topology is resolved. Upon getting the MESessionTopologyStatus event, start the encoding session by calling [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master). The Media Session generates the [MEEndOfPresentation](meendofpresentation.md) event when all of the encoding operations are complete. This event must be handled for VBR encoding and is discussed in the next section "Update Encoding Properties on the File Sink for VBR Encoding" of this tutorial.
 
-The Media Session generates the ASF Header Object and finalizes the file when the encoding session completes and then raises the [MESessionClosed](mesessionclosed.md) event. This event must be handled by performing proper shutdown operations on the Media Session. To begin the shutdown operations, call [**IMFMediaSession::Shutdown**](imfmediasession-shutdown.md). After the encoding session is closed, you cannot set another topology for encoding on the same Media Session instance. To encode another file, the current Media Session must be closed and released and the new topology must be set on a newly created Media Session. The following code example creates the Media Session, sets the encoding topology and handles the Media Session events.
+The Media Session generates the ASF Header Object and finalizes the file when the encoding session completes and then raises the [MESessionClosed](mesessionclosed.md) event. This event must be handled by performing proper shutdown operations on the Media Session. To begin the shutdown operations, call [**IMFMediaSession::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasession-shutdown?branch=master). After the encoding session is closed, you cannot set another topology for encoding on the same Media Session instance. To encode another file, the current Media Session must be closed and released and the new topology must be set on a newly created Media Session. The following code example creates the Media Session, sets the encoding topology and handles the Media Session events.
 
 The following code example creates the Media Session, sets the encoding topology, and controls the encoding session by handling events from the Media Session.
 
@@ -2133,10 +2138,10 @@ The following procedure describes the steps required to traverse the nodes in th
 
 **To update the post encoding property values on the ASF file sink**
 
-1.  Call [**IMFTopology::GetOutputNodeCollection**](imftopology-getoutputnodecollection.md) to get the output node collection from the encoding topology.
-2.  For each node, get a pointer to the stream sink in the node by calling [**IMFTopologyNode::GetObject**](imftopologynode-getobject.md). Query for the [**IMFStreamSink**](imfstreamsink.md) interface on the [**IUnknown**](com.iunknown) pointer returned by **IMFTopologyNode::GetObject**.
-3.  For each stream sink get the downstream node (encoder) by calling [**IMFTopologyNode::GetInput**](imftopologynode-getinput.md).
-4.  Query the node to get the [**IMFTransform**](imftransform.md) pointer from the encoder node.
+1.  Call [**IMFTopology::GetOutputNodeCollection**](/windows/win32/mfidl/nf-mfidl-imftopology-getoutputnodecollection?branch=master) to get the output node collection from the encoding topology.
+2.  For each node, get a pointer to the stream sink in the node by calling [**IMFTopologyNode::GetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-getobject?branch=master). Query for the [**IMFStreamSink**](/windows/win32/mfidl/nn-mfidl-imfstreamsink?branch=master) interface on the [**IUnknown**](com.iunknown) pointer returned by **IMFTopologyNode::GetObject**.
+3.  For each stream sink get the downstream node (encoder) by calling [**IMFTopologyNode::GetInput**](/windows/win32/mfidl/nf-mfidl-imftopologynode-getinput?branch=master).
+4.  Query the node to get the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) pointer from the encoder node.
 5.  Query the encoder for the [**IPropertyStore**](shell_IPropertyStore) pointer to get the encoding property store from the encoder.
 6.  Query the stream sink for the [**IPropertyStore**](shell_IPropertyStore) pointer to get the stream sink's property store.
 7.  Call [**IPropertyStore::GetValue**](shell_IPropertyStore) to get the required property values from the encoder's property store and copy them to the stream sink's property store by calling **IPropertyStore::SetValue**.
@@ -2527,11 +2532,11 @@ The following list describes a check list for testing the encoded file. These va
 
 The following list describes the common error codes that your might receive and the debugging tips.
 
--   The call to [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md) stalls the application.
+-   The call to [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master) stalls the application.
 
-    Make sure that you have initialized the Media Foundation platform by calling [**MFStartup**](mfstartup.md). This function sets up the asynchronous platform that is used by all methods that start asynchronous operations, such as [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md), internally.
+    Make sure that you have initialized the Media Foundation platform by calling [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master). This function sets up the asynchronous platform that is used by all methods that start asynchronous operations, such as [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master), internally.
 
--   [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md) returns HRESULT 0x80070002 "The system cannot find the file specified.
+-   [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master) returns HRESULT 0x80070002 "The system cannot find the file specified.
 
     Make sure that the input file name specified by the user in the first argument exists.
 
@@ -2539,7 +2544,7 @@ The following list describes the common error codes that your might receive and 
 
     Make sure that the input and the output files are not currently in use by another resource in the system.
 
--   Calls to [**IMFTransform**](imftransform.md) methods return MF\_E\_INVALIDMEDIATYPE.
+-   Calls to [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) methods return MF\_E\_INVALIDMEDIATYPE.
 
     Make sure that the following conditions are true:
 

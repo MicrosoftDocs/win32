@@ -1,7 +1,12 @@
 ---
 title: round\_z (sm4 - asm)
 description: Floating-point round to integral float.
-ms.assetid: '97C0E0F2-2571-4A94-BB04-B0CDBA0B5C0C'
+ms.assetid: 97C0E0F2-2571-4A94-BB04-B0CDBA0B5C0C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # round\_z (sm4 - asm)
@@ -15,7 +20,7 @@ Floating-point round to integral float.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Floating-point round to integral float.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ The following table shows the results obtained when executing the instruction wi
 
 
 
- 
+ 
 
 F means finite-real number.
 
@@ -59,7 +64,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -78,7 +83,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -87,9 +92,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

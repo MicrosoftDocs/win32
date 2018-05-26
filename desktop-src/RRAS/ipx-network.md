@@ -1,8 +1,10 @@
 ---
 title: IPX\_NETWORK structure
 description: The IPX\_NETWORK structure describes an IPX network address.
-ms.assetid: '83fc4022-8515-4a51-ac47-f92572447fbf'
-keywords: ["IPX_NETWORK structure RAS", "PIPX_NETWORK structure pointer RAS"]
+ms.assetid: 83fc4022-8515-4a51-ac47-f92572447fbf
+keywords:
+- IPX_NETWORK structure RAS
+- PIPX_NETWORK structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPX\_NETWORK structure
@@ -48,8 +55,8 @@ Contains the IPX network number in machine-byte order.
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -67,9 +74,9 @@ Contains the IPX network number in machine-byte order.
 [**RTM\_IPX\_ROUTE**](rtm-ipx-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

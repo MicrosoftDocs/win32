@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of the current physical scan line.'
-ms.assetid: '159d5ea0-25b8-4c2d-9cd4-cf4ee0ca0561'
+---
+Description: Returns the number of the current physical scan line.
+ms.assetid: 159d5ea0-25b8-4c2d-9cd4-cf4ee0ca0561
 title: NtGdiDdGetScanLine function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdGetScanLine function

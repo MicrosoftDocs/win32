@@ -1,14 +1,15 @@
 ---
 title: CCF\_DISPLAY\_NAME clipboard format
-description: The CCF\_DISPLAY\_NAME clipboard format is required for a snap-in to specify the display name for the snap-in's static node, which is displayed in the Standalone tab of the Add/Remove Snap-ins dialog box and the scope pane.
+description: The CCF\_DISPLAY\_NAME clipboard format is required for a snap-in to specify the display name for the snap-ins static node, which is displayed in the Standalone tab of the Add/Remove Snap-ins dialog box and the scope pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '437d1216-de2f-4076-95a5-cefd6ac0add4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 437d1216-de2f-4076-95a5-cefd6ac0add4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CCF_DISPLAY_NAME clipboard format MMC"]
+keywords:
+- CCF_DISPLAY_NAME clipboard format MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CCF\_DISPLAY\_NAME clipboard format
@@ -39,15 +43,15 @@ When a stand-alone snap-in is added to a console file, MMC calls the snap-in's [
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

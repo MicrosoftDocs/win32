@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the raw data from a Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure.'
-ms.assetid: 'a51b73bb-a5f7-4e01-9c88-780105e9952b'
+Description: Represents the raw data from a Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure.
+ms.assetid: a51b73bb-a5f7-4e01-9c88-780105e9952b
 title: WmiMonitorRawEEdidV1Block class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorRawEEdidV1Block class
@@ -14,10 +19,10 @@ The **WmiMonitorRawEEdidV1Block** WMI class represents the raw data from a Video
 class WmiMonitorRawEEdidV1Block : MSMonitorClass
 {
   boolean Active;
-  string  InstanceName;
-  uint8   Id;
-  uint8   Type;
-  uint8   Content[];
+  string  InstanceName;
+  uint8   Id;
+  uint8   Type;
+  uint8   Content[];
 };
 ```
 
@@ -110,7 +115,7 @@ Type of data block. The following table lists possible values that can be return
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -120,8 +125,8 @@ Type of data block. The following table lists possible values that can be return
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -138,9 +143,9 @@ Type of data block. The following table lists possible values that can be return
 [**WmiGetMonitorRawEEdidV1Block**](wmigetmonitorraweedidv1block-wmimonitordescriptormethods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

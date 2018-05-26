@@ -1,7 +1,12 @@
 ---
-Description: 'Pronounciation of the last name.'
-ms.assetid: '4aed9a52-164a-4c4b-aa52-b55d0eb1d92e'
-title: 'System.Contact.JA.LastNamePhonetic'
+Description: Pronounciation of the last name.
+ms.assetid: 4aed9a52-164a-4c4b-aa52-b55d0eb1d92e
+title: System.Contact.JA.LastNamePhonetic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JA.LastNamePhonetic

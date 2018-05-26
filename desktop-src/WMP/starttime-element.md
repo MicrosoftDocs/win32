@@ -1,14 +1,20 @@
 ---
 title: STARTTIME Element
 description: The STARTTIME element defines a time index from which Windows Media Player will start rendering the stream.
-ms.assetid: '9b0199c8-5c95-4b4e-a943-e3bd037bf0bc'
-keywords: ["STARTTIME Element Windows Media Player"]
+ms.assetid: 9b0199c8-5c95-4b4e-a943-e3bd037bf0bc
+keywords:
+- STARTTIME Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - STARTTIME Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STARTTIME Element
@@ -38,7 +44,7 @@ The time index (in hours, minutes, seconds, and hundredths of a second) from whi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,9 +79,9 @@ This element defines a time index into the content where Windows Media Player is
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

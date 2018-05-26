@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ConfigureProduct method of the Installer object installs or uninstalls a product.'
-ms.assetid: '1215a03f-6c96-4416-881f-0071c1b3c5df'
-title: 'Installer.ConfigureProduct method'
+---
+Description: The ConfigureProduct method of the Installer object installs or uninstalls a product.
+ms.assetid: 1215a03f-6c96-4416-881f-0071c1b3c5df
+title: Installer.ConfigureProduct method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ConfigureProduct method
@@ -88,7 +93,7 @@ If the *InstallState* parameter is set to any other value than msiInstallStateDe
 
 <dl> <dt>
 
-[**MsiConfigureProduct**](msiconfigureproduct.md)
+[**MsiConfigureProduct**](/windows/win32/Msi/nf-msi-msiconfigureproducta?branch=master)
 </dt> <dt>
 
 [Installation and Configuration Functions](installer-function-reference.md)

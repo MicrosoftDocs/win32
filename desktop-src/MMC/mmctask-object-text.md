@@ -4,11 +4,14 @@ description: Returns the text label for the task.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a3e7d74f-755b-4009-8cd2-49f9ca5bfc65'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a3e7d74f-755b-4009-8cd2-49f9ca5bfc65
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Text property MMC", "Text property MMC , MMCListPadInfo class", "MMCListPadInfo class MMC , Text property"]
+keywords:
+- Text property MMC
+- Text property MMC , MMCListPadInfo class
+- MMCListPadInfo class MMC , Text property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCListPadInfo.Text property
@@ -49,9 +55,9 @@ The Text property is the string specified in the **szText** member of the [**MMC
 
 
 
- 
+ 
 
- 
+ 
 
 
 

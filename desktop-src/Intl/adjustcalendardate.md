@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deprecated. Adjusts a date by a specified number of years, months, weeks, or days.'
-ms.assetid: 'be8d61fd-efa3-4386-969f-30216c282ebc'
+---
+Description: Deprecated. Adjusts a date by a specified number of years, months, weeks, or days.
+ms.assetid: be8d61fd-efa3-4386-969f-30216c282ebc
 title: AdjustCalendarDate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AdjustCalendarDate function

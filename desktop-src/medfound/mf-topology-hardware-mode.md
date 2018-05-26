@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether to load hardware-based Microsoft Media Foundation transforms (MFTs) in the topology.'
-ms.assetid: 'f7ac3c9b-c163-412f-84c0-27bf551091d8'
-title: 'MF\_TOPOLOGY\_HARDWARE\_MODE attribute'
+---
+Description: Specifies whether to load hardware-based Microsoft Media Foundation transforms (MFTs) in the topology.
+ms.assetid: f7ac3c9b-c163-412f-84c0-27bf551091d8
+title: MF\_TOPOLOGY\_HARDWARE\_MODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_HARDWARE\_MODE attribute
@@ -10,17 +15,17 @@ Specifies whether to load hardware-based Microsoft Media Foundation transforms (
 
 ## Data type
 
-**[**MFTOPOLOGY\_HARDWARE\_MODE**](mftopology-hardware-mode.md)** stored as **UINT32**
+**[**MFTOPOLOGY\_HARDWARE\_MODE**](/windows/win32/mfidl/ne-mfidl-mftopology_hardware_mode?branch=master)** stored as **UINT32**
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 

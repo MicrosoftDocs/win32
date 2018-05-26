@@ -1,7 +1,12 @@
 ---
 title: ComboBoxEx Control Reference
 description: This section contains information about the programming elements used with ComboBoxEx controls.
-ms.assetid: '409b3460-ef2e-4cc1-8a85-0a376e0f89eb'
+ms.assetid: 409b3460-ef2e-4cc1-8a85-0a376e0f89eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComboBoxEx Control Reference
@@ -19,7 +24,7 @@ This section contains information about the programming elements used with Combo
 
 
 
- 
+ 
 
 ### Messages
 
@@ -46,7 +51,7 @@ This section contains information about the programming elements used with Combo
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -64,7 +69,7 @@ This section contains information about the programming elements used with Combo
 
 
 
- 
+ 
 
 ### Structures
 
@@ -72,14 +77,14 @@ This section contains information about the programming elements used with Combo
 
 | Topic                                    | Contents                                                                                                                                                                                     |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**COMBOBOXEXITEM**](comboboxexitem.md) | Contains information about an item in a ComboBoxEx control.<br/>                                                                                                                       |
-| [**NMCBEDRAGBEGIN**](nmcbedragbegin.md) | Contains information used with the [CBEN\_DRAGBEGIN](cben-dragbegin.md) notification code. <br/>                                                                                      |
-| [**NMCBEENDEDIT**](nmcbeendedit.md)     | Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the [CBEN\_ENDEDIT](cben-endedit.md) notification code. <br/> |
-| [**NMCOMBOBOXEX**](nmcomboboxex.md)     | Contains information specific to ComboBoxEx items for use with notification codes. <br/>                                                                                               |
+| [**COMBOBOXEXITEM**](/windows/win32/Commctrl/ns-commctrl-tagcomboboxexitema?branch=master) | Contains information about an item in a ComboBoxEx control.<br/>                                                                                                                       |
+| [**NMCBEDRAGBEGIN**](/windows/win32/Commctrl/ns-commctrl-nmcbedragbegina?branch=master) | Contains information used with the [CBEN\_DRAGBEGIN](cben-dragbegin.md) notification code. <br/>                                                                                      |
+| [**NMCBEENDEDIT**](/windows/win32/Commctrl/ns-commctrl-nmcbeendedita?branch=master)     | Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the [CBEN\_ENDEDIT](cben-endedit.md) notification code. <br/> |
+| [**NMCOMBOBOXEX**](/windows/win32/Commctrl/ns-commctrl-nmcomboboxexa?branch=master)     | Contains information specific to ComboBoxEx items for use with notification codes. <br/>                                                                                               |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -91,11 +96,11 @@ This section contains information about the programming elements used with Combo
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

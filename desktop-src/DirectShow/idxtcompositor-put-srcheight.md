@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_SrcHeight method specifies the height of the source rectangle.'
-ms.assetid: '80c8cf92-36e2-4e57-8ce7-6a114bc8bab4'
-title: 'IDxtCompositor::put\_SrcHeight method'
+---
+Description: The put\_SrcHeight method specifies the height of the source rectangle.
+ms.assetid: 80c8cf92-36e2-4e57-8ce7-6a114bc8bab4
+title: IDxtCompositorput\_SrcHeight method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::put\_SrcHeight method

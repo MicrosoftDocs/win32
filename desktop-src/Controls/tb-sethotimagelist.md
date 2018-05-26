@@ -1,8 +1,9 @@
 ---
 title: TB\_SETHOTIMAGELIST message
 description: Sets the image list that the toolbar control will use to display hot buttons.
-ms.assetid: '3c29cdde-bd57-4194-984f-220dbf963733'
-keywords: ["TB_SETHOTIMAGELIST message Windows Controls"]
+ms.assetid: 3c29cdde-bd57-4194-984f-220dbf963733
+keywords:
+- TB_SETHOTIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETHOTIMAGELIST message
@@ -45,15 +51,15 @@ A button is hot when the cursor is over it. Toolbar controls must have the [**TB
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

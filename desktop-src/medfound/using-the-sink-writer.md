@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'BE89E2E0-711F-4BD5-BB86-AA4CCA2D3E7F'
+Description: .
+ms.assetid: BE89E2E0-711F-4BD5-BB86-AA4CCA2D3E7F
 title: Using the Sink Writer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Sink Writer
@@ -31,12 +36,12 @@ The sink writer does not support video resizing, frame-rate conversion, or audio
 
 There are two functions that create the sink writer:
 
--   [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md) takes the URL of an output file or a pointer to a byte stream. This function creates the media sink internally.
--   [**MFCreateSinkWriterFromMediaSink**](mfcreatesinkwriterfrommediasink.md) takes a pointer to a media sink that has already been created by the application.
+-   [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master) takes the URL of an output file or a pointer to a byte stream. This function creates the media sink internally.
+-   [**MFCreateSinkWriterFromMediaSink**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink?branch=master) takes a pointer to a media sink that has already been created by the application.
 
-If you are using one of the built-in media sinks, the [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md) function is preferable, because the caller does not need to configure the media sink.
+If you are using one of the built-in media sinks, the [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master) function is preferable, because the caller does not need to configure the media sink.
 
-The [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md) method provides several options for specifying the type of file container. In the simplest case, the function uses the file name extension in the URL to select the file container. For details, refer to the function reference page.
+The [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master) method provides several options for specifying the type of file container. In the simplest case, the function uses the file name extension in the URL to select the file container. For details, refer to the function reference page.
 
 For example, the following code specifies the file name "output.wmv" for the URL. Based on the file name extension, the sink writer will load the [ASF Media Sink](asf-media-sinks.md) to create an Advanced Systems Format (ASF) file.
 
@@ -47,7 +52,7 @@ For example, the following code specifies the file name "output.wmv" for the URL
 
 
 
-In the case of [**MFCreateSinkWriterFromMediaSink**](mfcreatesinkwriterfrommediasink.md), the file type is determined by the media sink.
+In the case of [**MFCreateSinkWriterFromMediaSink**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink?branch=master), the file type is determined by the media sink.
 
 ## Related topics
 

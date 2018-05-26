@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '837633aa-3c90-435b-ae6b-947b894ef24a'
-title: 'System.Document.RevisionNumber'
+Description: .
+ms.assetid: 837633aa-3c90-435b-ae6b-947b894ef24a
+title: System.Document.RevisionNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.RevisionNumber

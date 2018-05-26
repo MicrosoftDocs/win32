@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to implement a DLL for a DirectShow filter, using the DirectShow Base Classes.'
-ms.assetid: 'd47980d1-6d0c-4b0d-a875-7b072562944a'
+Description: This topic describes how to implement a DLL for a DirectShow filter, using the DirectShow Base Classes.
+ms.assetid: d47980d1-6d0c-4b0d-a875-7b072562944a
 title: Class Factories and Factory Templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Class Factories and Factory Templates

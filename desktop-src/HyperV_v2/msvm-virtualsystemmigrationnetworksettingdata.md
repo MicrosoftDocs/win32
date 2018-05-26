@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the network on which the virtual system migration service is listening for incoming virtual system migration.'
-ms.assetid: '24458602-ff5c-45c2-8053-00315b59d3bb'
-title: 'Msvm\_VirtualSystemMigrationNetworkSettingData class'
+Description: Represents the network on which the virtual system migration service is listening for incoming virtual system migration.
+ms.assetid: 24458602-ff5c-45c2-8053-00315b59d3bb
+title: Msvm\_VirtualSystemMigrationNetworkSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemMigrationNetworkSettingData class
@@ -21,7 +26,7 @@ class Msvm_VirtualSystemMigrationNetworkSettingData : CIM_SettingData
   string Description;
   string ElementName;
   string SubnetNumber;
-  uint8  PrefixLength;
+  uint8  PrefixLength;
   uint32 Metric;
   string Tags[];
 };
@@ -152,8 +157,8 @@ An array of tags to represent which management system has set this network for v
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -170,9 +175,9 @@ An array of tags to represent which management system has set this network for v
 [**ModifyNetworkSettings**](modifynetworksettings-msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

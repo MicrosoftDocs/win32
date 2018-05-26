@@ -1,8 +1,9 @@
 ---
 title: IMAPADDR structure
 description: Contains various fields inside the parentheses of an Internet Message Access Protocol (IMAP) address defined in the \ 0034;Formal Syntax \ 0034; section of RFC 2060.
-ms.assetid: '98c5db50-cb50-45a1-a526-3b87eb42a9e3'
-keywords: ["IMAPADDR structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 98c5db50-cb50-45a1-a526-3b87eb42a9e3
+keywords:
+- IMAPADDR structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPADDR structure
@@ -24,10 +30,10 @@ Contains various fields inside the parentheses of an Internet Message Access Pro
 
 ```C++
 typedef struct tagIMAPADDR {
-  LPSTR    pszName;
-  LPSTR    pszADL;
-  LPSTR    pszMailbox;
-  LPSTR    pszHost;
+  LPSTR    pszName;
+  LPSTR    pszADL;
+  LPSTR    pszMailbox;
+  LPSTR    pszHost;
   IMAPADDR *pNext;
 } IMAPADDR;
 ```
@@ -99,17 +105,17 @@ Contains a pointer to the next **IMAPADDR** structure in the chain.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

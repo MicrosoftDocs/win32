@@ -1,12 +1,17 @@
 ---
 title: Enumerating All Processes
 description: The following sample code uses the EnumProcesses function to enumerate the current processes in the system.
-ms.assetid: '0ed81548-4936-40e9-bfc8-baa71492310e'
+ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating All Processes
 
-The following sample code uses the [**EnumProcesses**](enumprocesses.md) function to enumerate the current processes in the system.
+The following sample code uses the [**EnumProcesses**](/windows/win32/Psapi/nf-psapi-enumprocesses?branch=master) function to enumerate the current processes in the system.
 
 
 ```C++
@@ -85,7 +90,7 @@ int main( void )
 
 
 
-The main function obtains a list of processes by using the [**EnumProcesses**](enumprocesses.md) function. For each process, main calls the **PrintProcessNameAndID** function, passing it the process identifier. **PrintProcessNameAndID** in turn calls the [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) function to obtain the process handle. If **OpenProcess** fails, the output shows the process name as &lt;unknown&gt;. For example, **OpenProcess** fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them. Next, **PrintProcessNameAndID** calls the [**EnumProcessModules**](enumprocessmodules.md) function to obtain the module handles. Finally, **PrintProcessNameAndID** calls the [**GetModuleBaseName**](getmodulebasename.md) function to obtain the name of the executable file and displays the name along with the process identifier.
+The main function obtains a list of processes by using the [**EnumProcesses**](/windows/win32/Psapi/nf-psapi-enumprocesses?branch=master) function. For each process, main calls the **PrintProcessNameAndID** function, passing it the process identifier. **PrintProcessNameAndID** in turn calls the [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) function to obtain the process handle. If **OpenProcess** fails, the output shows the process name as &lt;unknown&gt;. For example, **OpenProcess** fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them. Next, **PrintProcessNameAndID** calls the [**EnumProcessModules**](/windows/win32/Psapi/nf-psapi-enumprocessmodules?branch=master) function to obtain the module handles. Finally, **PrintProcessNameAndID** calls the [**GetModuleBaseName**](/windows/win32/Psapi/nf-psapi-getmodulebasenamea?branch=master) function to obtain the name of the executable file and displays the name along with the process identifier.
 
  
 

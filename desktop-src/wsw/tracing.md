@@ -1,8 +1,16 @@
 ---
 title: Tracing
 description: Tracing uses Event Tracing for Windows (ETW).
-ms.assetid: 'b008bae2-9423-4e72-ae03-9cd50f73d812'
-keywords: ["Tracing Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: b008bae2-9423-4e72-ae03-9cd50f73d812
+keywords:
+- Tracing Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tracing
@@ -157,7 +165,7 @@ When enabling tracing, administrators should take into account that it consumes 
 
 The following enumeration is used with tracing:
 
--   [**WS\_TRACE\_API**](ws-trace-api.md)
+-   [**WS\_TRACE\_API**](/windows/win32/WebServices/ne-webservices-ws_trace_api?branch=master)
 
  
 

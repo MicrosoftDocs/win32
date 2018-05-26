@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.'
-ms.assetid: '19C3A3C5-446B-48FD-8E77-2E0F787B16B1'
-title: 'IPrintSchemaCapabilities2::GetParameterDefinition method'
+---
+Description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psfParameterDef&gt; element in the PrintCapabilites XML.
+ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
+title: IPrintSchemaCapabilities2GetParameterDefinition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities2::GetParameterDefinition method

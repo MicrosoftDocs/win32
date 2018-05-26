@@ -1,7 +1,12 @@
 ---
 title: How to Create a Simple Combo Box
 description: This topic describes how to create, add items to, and retrieve items from a simple combo box.
-ms.assetid: 'E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA'
+ms.assetid: E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Simple Combo Box

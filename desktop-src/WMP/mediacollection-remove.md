@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.remove method
 description: The remove method removes an item from the media collection.
-ms.assetid: '646d2e3c-623b-4040-af82-1cefac6fc1ae'
-keywords: ["remove method Windows Media Player", "remove method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , remove method"]
+ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
+keywords:
+- remove method Windows Media Player
+- remove method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.remove method
@@ -116,9 +124,9 @@ if (answer){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MB\_GetString function
 description: Returns strings for standard message box buttons.
-ms.assetid: 'D2AF238D-F5A8-477D-BF47-0F5D4D68B27E'
-keywords: ["MB_GetString function Dialog Boxes"]
+ms.assetid: D2AF238D-F5A8-477D-BF47-0F5D4D68B27E
+keywords:
+- MB_GetString function Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - user32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MB\_GetString function
@@ -22,7 +28,7 @@ Returns strings for standard message box buttons.
 
 ```C++
 LPCWSTR WINAPI MB_GetString(
-   UINT wBtn
+   UINT wBtn
 );
 ```
 
@@ -55,9 +61,9 @@ The string, or NULL if not found.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

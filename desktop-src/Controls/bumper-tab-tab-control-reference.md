@@ -1,7 +1,12 @@
 ---
 title: Tab Control Reference
 description: .
-ms.assetid: '3403acf7-54f6-45dd-ba5e-3b1eeccfb5b2'
+ms.assetid: 3403acf7-54f6-45dd-ba5e-3b1eeccfb5b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Reference

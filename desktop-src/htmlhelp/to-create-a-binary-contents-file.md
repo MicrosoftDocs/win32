@@ -1,7 +1,12 @@
 ---
 title: To create a binary contents file
 description: To create a binary contents file
-ms.assetid: '3D609C37-5F12-456e-A468-DF01BEF7D0A1'
+ms.assetid: 3D609C37-5F12-456e-A468-DF01BEF7D0A1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a binary contents file
@@ -16,7 +21,7 @@ ms.assetid: '3D609C37-5F12-456e-A468-DF01BEF7D0A1'
 
     
 
-     
+     
 
 2.  Click the **Compiler** tab, and select the **Create a binary TOC** checkbox.
 
@@ -33,9 +38,9 @@ ms.assetid: '3D609C37-5F12-456e-A468-DF01BEF7D0A1'
 [About Binary Contents Files](about-binary-contents-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

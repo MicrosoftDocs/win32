@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDefaultEffectB method retrieves the default effect. This method is equivalent to IAMTimeline::GetDefaultEffect, but receives a BSTR value rather than a GUID.'
-ms.assetid: '62c37a61-9875-4140-8552-83d82c060715'
-title: 'IAMTimeline::GetDefaultEffectB method'
+---
+Description: The GetDefaultEffectB method retrieves the default effect. This method is equivalent to IAMTimelineGetDefaultEffect, but receives a BSTR value rather than a GUID.
+ms.assetid: 62c37a61-9875-4140-8552-83d82c060715
+title: IAMTimelineGetDefaultEffectB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetDefaultEffectB method

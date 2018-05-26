@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines an 802.11 PHY and media type.'
-ms.assetid: 'f3804e57-c633-4288-9749-2b267b1353ae'
-title: 'DOT11\_PHY\_TYPE enumeration'
+---
+Description: Defines an 802.11 PHY and media type.
+ms.assetid: f3804e57-c633-4288-9749-2b267b1353ae
+title: DOT11\_PHY\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT11\_PHY\_TYPE enumeration
@@ -141,10 +146,10 @@ An IHV can assign a value for its proprietary PHY types from **dot11\_phy\_type\
 
 <dl> <dt>
 
-[**WLAN\_ASSOCIATION\_ATTRIBUTES**](wlan-association-attributes.md)
+[**WLAN\_ASSOCIATION\_ATTRIBUTES**](/windows/win32/wlanapi/ns-wlanapi-_wlan_association_attributes?branch=master)
 </dt> <dt>
 
-[**WLAN\_INTERFACE\_CAPABILITY**](wlan-interface-capability.md)
+[**WLAN\_INTERFACE\_CAPABILITY**](/windows/win32/wlanapi/ns-wlanapi-_wlan_interface_capability?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: Accessibility Best Practices
 description: Implementing the best practices described in this section helps ensure that your application is accessible to people who use assistive technology products.
-ms.assetid: 'ef694361-49b7-424c-a583-1eadc2519db7'
+ms.assetid: ef694361-49b7-424c-a583-1eadc2519db7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessibility Best Practices

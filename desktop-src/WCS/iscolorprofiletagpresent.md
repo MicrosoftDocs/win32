@@ -1,8 +1,9 @@
 ---
 title: IsColorProfileTagPresent function
 description: The IsColorProfileTagPresent function reports whether a specified International Color Consortium (ICC) tag is present in the specified color profile.
-ms.assetid: '6cd5fed1-37ee-47b0-991b-f843b3028b17'
-keywords: ["IsColorProfileTagPresent function Windows Color System"]
+ms.assetid: 6cd5fed1-37ee-47b0-991b-f843b3028b17
+keywords:
+- IsColorProfileTagPresent function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsColorProfileTagPresent function
@@ -22,9 +28,9 @@ The **IsColorProfileTagPresent** function reports whether a specified Internatio
 
 ```C++
 BOOL WINAPI IsColorProfileTagPresent(
-   HPROFILE hProfile,
-   TAGTYPE  tag,
-   PBOOL    pbPresent
+   HPROFILE hProfile,
+   TAGTYPE  tag,
+   PBOOL    pbPresent
 );
 ```
 
@@ -73,8 +79,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -91,9 +97,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

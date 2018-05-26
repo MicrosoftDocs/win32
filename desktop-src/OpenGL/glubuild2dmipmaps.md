@@ -1,8 +1,9 @@
 ---
 title: gluBuild2DMipmaps function
 description: The gluBuild2DMipmaps function creates 2-D mipmaps.
-ms.assetid: 'ea19a9b0-baf7-436f-afd5-609bc364b3ba'
-keywords: ["gluBuild2DMipmaps function OpenGL"]
+ms.assetid: ea19a9b0-baf7-436f-afd5-609bc364b3ba
+keywords:
+- gluBuild2DMipmaps function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluBuild2DMipmaps function
@@ -22,13 +28,13 @@ The **gluBuild2DMipmaps** function creates 2-D mipmaps.
 
 ```C++
 void WINAPI gluBuild2DMipmaps(
-         GLenum target,
-         GLint  components,
-         GLint  width,
-         GLInt  height,
-         GLenum format,
-         GLenum type,
-   const void   *data
+         GLenum target,
+         GLint  components,
+         GLint  width,
+         GLInt  height,
+         GLenum format,
+         GLenum type,
+   const void   *data
 );
 ```
 
@@ -105,8 +111,8 @@ For a description of the acceptable values for the *format* parameter, see **glT
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -129,9 +135,9 @@ For a description of the acceptable values for the *format* parameter, see **glT
 [**gluScaleImage**](gluscaleimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

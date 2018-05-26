@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the encapsulation types the Adapter can support for LSO.'
-ms.assetid: '3a7dcfc7-c16b-4975-bb07-a7c7779a3f33'
-title: 'MSFT\_NetAdapterLsoEncapsulationTypes class'
+Description: Defines the encapsulation types the Adapter can support for LSO.
+ms.assetid: 3a7dcfc7-c16b-4975-bb07-a7c7779a3f33
+title: MSFT\_NetAdapterLsoEncapsulationTypes class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterLsoEncapsulationTypes class
@@ -122,16 +127,16 @@ Specifies that no encapsulation offload is supported.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: COM+ Service Application Concepts
-ms.assetid: 'd6b1cf4a-ca39-4d50-a33d-aa639937ef9e'
+ms.assetid: d6b1cf4a-ca39-4d50-a33d-aa639937ef9e
 title: COM+ Service Application Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Service Application Concepts

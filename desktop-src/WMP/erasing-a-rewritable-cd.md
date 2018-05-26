@@ -1,15 +1,30 @@
 ---
 title: Erasing a Rewritable CD
 description: Erasing a Rewritable CD
-ms.assetid: '272fdd2b-c174-4bde-b05e-839d547532a6'
-keywords: ["Windows Media Player,CD burning", "Windows Media Player object model,CD burning", "object model,CD burning", "Windows Media Player ActiveX control,CD burning", "ActiveX control,CD burning", "Windows Media Player Mobile ActiveX control,CD burning", "Windows Media Player Mobile,CD burning", "CD burning,erasing rewritable CDs", "burning CDs,erasing rewritable CDs", "erasing rewritable CDs"]
+ms.assetid: 272fdd2b-c174-4bde-b05e-839d547532a6
+keywords:
+- Windows Media Player,CD burning
+- Windows Media Player object model,CD burning
+- object model,CD burning
+- Windows Media Player ActiveX control,CD burning
+- ActiveX control,CD burning
+- Windows Media Player Mobile ActiveX control,CD burning
+- Windows Media Player Mobile,CD burning
+- CD burning,erasing rewritable CDs
+- burning CDs,erasing rewritable CDs
+- erasing rewritable CDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Erasing a Rewritable CD
 
-The [IWMPCdromBurn](iwmpcdromburn.md) interface provides a method for erasing CD-RW discs. Before erasing a CD, you must first ensure that the operation is supported. For more information, see [Retrieving the Drive and Disc Status](retrieving-the-drive-and-disc-status.md).
+The [IWMPCdromBurn](/windows/win32/wmp/nn-wmp-iwmpcdromburn?branch=master) interface provides a method for erasing CD-RW discs. Before erasing a CD, you must first ensure that the operation is supported. For more information, see [Retrieving the Drive and Disc Status](retrieving-the-drive-and-disc-status.md).
 
-To begin erasing the contents of a rewritable CD, call [IWMPCdromBurn::erase](iwmpcdromburn-erase.md).
+To begin erasing the contents of a rewritable CD, call [IWMPCdromBurn::erase](/windows/win32/wmp/nf-wmp-iwmpcdromburn-erase?branch=master).
 
 
 ```C++

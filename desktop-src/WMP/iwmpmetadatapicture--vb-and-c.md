@@ -1,8 +1,10 @@
 ---
 title: IWMPMetadataPicture (VB and C\ ) interface
 description: Provides properties for getting information about the image contained in a digital media file that is represented by a WM/Picturemetadata attribute.
-ms.assetid: 'f8260882-dfb8-4ff0-954c-5060cb7a6995'
-keywords: ["IWMPMetadataPicture (VB and C ) interface Windows Media Player", "IWMPMetadataPicture (VB and C ) interface Windows Media Player , described"]
+ms.assetid: f8260882-dfb8-4ff0-954c-5060cb7a6995
+keywords:
+- IWMPMetadataPicture (VB and C ) interface Windows Media Player
+- IWMPMetadataPicture (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMetadataPicture (VB and C#) interface
@@ -30,7 +37,7 @@ The **IWMPMetadataPicture** interface exposes the following properties.
 
 
 
- 
+ 
 
 Get an **IWMPMetadataPicture** interface by passing in the attribute name [**WM/Picture**](https://msdn.microsoft.com/library/windows/desktop/dd757832) to the following method and casting the object that is returned.
 
@@ -42,7 +49,7 @@ Get an **IWMPMetadataPicture** interface by passing in the attribute name [**WM/
 
 
 
- 
+ 
 
 ## Members
 
@@ -65,9 +72,9 @@ The **IWMPMetadataPicture (VB and C#)** interface does not define any members.
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

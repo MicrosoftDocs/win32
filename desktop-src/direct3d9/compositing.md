@@ -1,7 +1,12 @@
 ---
-Description: 'Your application can use the stencil buffer to composite 2D or 3D images onto a 3D scene.'
-ms.assetid: '9233d15d-fa99-41a2-a253-22f5ae5bf788'
-title: 'Compositing (Direct3D 9)'
+Description: Your application can use the stencil buffer to composite 2D or 3D images onto a 3D scene.
+ms.assetid: 9233d15d-fa99-41a2-a253-22f5ae5bf788
+title: Compositing (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compositing (Direct3D 9)

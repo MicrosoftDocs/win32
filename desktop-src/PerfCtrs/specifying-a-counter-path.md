@@ -1,7 +1,12 @@
 ---
-Description: 'The system uses counters to collect performance data.'
-ms.assetid: 'd1f1a90c-425a-4606-b86d-2948305ea84a'
+Description: The system uses counters to collect performance data.
+ms.assetid: d1f1a90c-425a-4606-b86d-2948305ea84a
 title: Specifying a Counter Path
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying a Counter Path
@@ -76,7 +81,7 @@ Counter paths may contain a wildcard character only for the instance name as sho
 \Process(*)\% Processor Time
 ```
 
-To expand the wildcard into a list of counter paths that contain instances found on the computer or in the log file, call [**PdhExpandWildCardPath**](pdhexpandwildcardpath.md).
+To expand the wildcard into a list of counter paths that contain instances found on the computer or in the log file, call [**PdhExpandWildCardPath**](/windows/win32/Pdh/nf-pdh-pdhexpandwildcardpatha?branch=master).
 
  
 

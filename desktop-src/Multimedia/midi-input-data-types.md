@@ -1,8 +1,17 @@
 ---
 title: MIDI Input Data Types
 description: MIDI Input Data Types
-ms.assetid: 'c67f149e-60b8-4f9e-8e3c-a88cd579d29f'
-keywords: ["Musical Instrument Digital Interface (MIDI),input data types", "MIDI (Musical Instrument Digital Interface),input data types", "recording MIDI audio,input data types", "MIDI input data types"]
+ms.assetid: c67f149e-60b8-4f9e-8e3c-a88cd579d29f
+keywords:
+- Musical Instrument Digital Interface (MIDI),input data types
+- MIDI (Musical Instrument Digital Interface),input data types
+- recording MIDI audio,input data types
+- MIDI input data types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Input Data Types

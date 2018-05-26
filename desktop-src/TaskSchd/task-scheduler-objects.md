@@ -1,8 +1,14 @@
 ---
 title: Task Scheduler Scripting Objects
 description: The scripting objects that are described in the following topics provide programmatic access to the functionality that is available within the Task Scheduler for Visual Basic and Visual Basic script developers.
-ms.assetid: '632bc9ae-b300-42ed-9d2c-f1d2d53d44fb'
-keywords: ["Task Scheduler Task Scheduler , reference, scripting objects"]
+ms.assetid: 632bc9ae-b300-42ed-9d2c-f1d2d53d44fb
+keywords:
+- Task Scheduler Task Scheduler , reference, scripting objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler Scripting Objects

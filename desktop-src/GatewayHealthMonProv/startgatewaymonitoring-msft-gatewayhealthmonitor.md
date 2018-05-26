@@ -4,13 +4,16 @@ description: Starts the gateway health monitoring agent.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6a09be57-3ee9-4dea-b17c-b1ce1a5521cd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6a09be57-3ee9-4dea-b17c-b1ce1a5521cd
+ms.prod: windows-server-dev
 ms.technology:
-- 'gateway-health-monitor'
-- 'windows-management-instrumentation'
+- gateway-health-monitor
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StartGatewayMonitoring method", "StartGatewayMonitoring method, MSFT_GatewayHealthMonitor class", "MSFT_GatewayHealthMonitor class, StartGatewayMonitoring method"]
+keywords:
+- StartGatewayMonitoring method
+- StartGatewayMonitoring method, MSFT_GatewayHealthMonitor class
+- MSFT_GatewayHealthMonitor class, StartGatewayMonitoring method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - GatewayHealthMonitorProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartGatewayMonitoring method of the MSFT\_GatewayHealthMonitor class
@@ -30,8 +36,8 @@ Starts the gateway health monitoring agent.
 
 ```mof
 uint32 StartGatewayMonitoring(
-  [in] string InterfaceList[],
-  [in] string ServiceList[]
+  [in] string InterfaceList[],
+  [in] string ServiceList[]
 );
 ```
 
@@ -62,7 +68,7 @@ Specifies the list of services that are to be monitored.
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\GatewayHealthMonitor<br/>                                     |
 | MOF<br/>                      | <dl> <dt>GatewayHealthMonitorProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>GatewayHealthMonitorProvider.dll</dt> </dl> |
@@ -76,9 +82,9 @@ Specifies the list of services that are to be monitored.
 [**MSFT\_GatewayHealthMonitor**](msft-gatewayhealthmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

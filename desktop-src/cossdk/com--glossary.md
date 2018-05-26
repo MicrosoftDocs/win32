@@ -1,8 +1,13 @@
 ---
 Description: Glossary page
-Robots: 'noindex, nofollow'
-ms.assetid: '26a72de1-24bc-41e6-8d41-61d45f581e51'
+Robots: noindex, nofollow
+ms.assetid: 26a72de1-24bc-41e6-8d41-61d45f581e51
 title: COM+ Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Glossary

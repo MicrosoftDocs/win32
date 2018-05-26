@@ -1,14 +1,20 @@
 ---
 title: QuickAccessToolbar element
 description: Represents the Quick Access Toolbar (QAT), a small toolbar that displays shortcuts to Ribbon Commands.
-ms.assetid: '59aa35c3-a844-46b3-b066-c9a321fb0891'
-keywords: ["QuickAccessToolbar element Windows Ribbon"]
+ms.assetid: 59aa35c3-a844-46b3-b066-c9a321fb0891
+keywords:
+- QuickAccessToolbar element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - QuickAccessToolbar
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuickAccessToolbar element
@@ -136,7 +142,7 @@ This section of code shows the **QuickAccessToolbar** control declaration.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -148,9 +154,9 @@ This section of code shows the **QuickAccessToolbar** control declaration.
 [Quick Access Toolbar control](windowsribbon-controls-quickaccesstoolbar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

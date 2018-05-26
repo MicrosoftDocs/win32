@@ -1,8 +1,17 @@
 ---
 title: Reading ASF Files
 description: Reading ASF Files
-ms.assetid: 'e0aabe05-b317-42ac-85fc-5a75165722d4'
-keywords: ["Windows Media Format SDK,reading ASF files", "Windows Media Format SDK,Advanced Systems Format (ASF)", "Advanced Systems Format (ASF),reading files", "ASF (Advanced Systems Format),reading files"]
+ms.assetid: e0aabe05-b317-42ac-85fc-5a75165722d4
+keywords:
+- Windows Media Format SDK,reading ASF files
+- Windows Media Format SDK,Advanced Systems Format (ASF)
+- Advanced Systems Format (ASF),reading files
+- ASF (Advanced Systems Format),reading files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading ASF Files

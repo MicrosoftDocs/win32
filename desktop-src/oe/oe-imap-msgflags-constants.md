@@ -1,7 +1,7 @@
 ---
 title: IMAP\_MSGFLAGS
 description: DWORD that identifies optional flags sent with some Internet Message Access Protocol (IMAP) server commands or returned in server responses.
-ms.assetid: '6c3797b7-b576-4b13-a392-822a7e498037'
+ms.assetid: 6c3797b7-b576-4b13-a392-822a7e498037
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAP\_MSGFLAGS
@@ -44,17 +49,17 @@ api_type:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

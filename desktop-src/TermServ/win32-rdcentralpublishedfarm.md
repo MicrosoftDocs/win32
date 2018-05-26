@@ -4,11 +4,13 @@ description: The list of farms from which desktops or applications have been pub
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8fead659-42b4-4a10-892a-a6b616c47255'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8fead659-42b4-4a10-892a-a6b616c47255
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDCentralPublishedFarm class Remote Desktop Services", "Win32_RDCentralPublishedFarm class Remote Desktop Services , described"]
+keywords:
+- Win32_RDCentralPublishedFarm class Remote Desktop Services
+- Win32_RDCentralPublishedFarm class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDCentralPublishedFarm class
@@ -42,17 +47,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [provider("Win32_TSCentralPublisher_Prov"), dynamic]
 class Win32_RDCentralPublishedFarm : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   Alias;
-  uint32   FarmType;
-  boolean  IsUserAdmin;
-  boolean  RollbackEnabled;
-  string   SecurityDescriptor;
-  string   VmFarmSettings;
+  string   Name;
+  string   Status;
+  string   Alias;
+  uint32   FarmType;
+  boolean  IsUserAdmin;
+  boolean  RollbackEnabled;
+  string   SecurityDescriptor;
+  string   VmFarmSettings;
 };
 ```
 
@@ -343,16 +348,16 @@ The virtual machine farm settings.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>Tscpub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

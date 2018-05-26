@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.setSelectedState2
 description: The setSelectedState2 method sets the selected state of the item with the specified index in the PLAYLIST element.
-ms.assetid: '990b834a-f7ed-45b8-99e1-3efd7f4447f4'
-keywords: ["PLAYLIST.setSelectedState2 Windows Media Player"]
+ms.assetid: 990b834a-f7ed-45b8-99e1-3efd7f4447f4
+keywords:
+- PLAYLIST.setSelectedState2 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.setSelectedState2
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.setSelectedState2
@@ -43,7 +49,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method can work with nested playlists and replaces the **setSelectedState** method which cannot. You can set all items to the requested state by specifying –1 in the *item* parameter.
+This method can work with nested playlists and replaces the **setSelectedState** method which cannot. You can set all items to the requested state by specifying  1 in the *item* parameter.
 
 ## Requirements
 
@@ -65,9 +71,9 @@ This method can work with nested playlists and replaces the **setSelectedState**
 [**PLAYLIST.setSelectedState**](playlist-setselectedstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

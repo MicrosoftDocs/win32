@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.'
-ms.assetid: '5143b0cc-c171-46af-8d7f-4d029af71fb4'
-title: 'Windows Media MPEG-4 V3 Decoder'
+---
+Description: The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.
+ms.assetid: 5143b0cc-c171-46af-8d7f-4d029af71fb4
+title: Windows Media MPEG-4 V3 Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media MPEG-4 V3 Decoder
@@ -41,7 +46,7 @@ The Windows Media MPEG-4 V3 decoder supports the following output media subtypes
 
 ## Remarks
 
-The Windows Media MPEG-4 V3 decoder object exposes the [**IMediaObject**](dshow.imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](imftransform.md) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
+The Windows Media MPEG-4 V3 decoder object exposes the [**IMediaObject**](dshow.imediaobject) interface so that the object can be used as a DirectX Media Object (DMO), and it exposes the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface so that the object can be used as a Media Foundation Transform (MFT). The object has the same class identifier (CLSID) regardless of whether it acts as a DMO or an MFT.
 
 The MPEG-4 V3 decoder behaves as a DMO or an MFT depending on which interfaces you obtain and which version of Windows is running. The following table shows the conditions under which an MPEG-4 V3 decoder behaves as a DMO or an MFT.
 
@@ -50,7 +55,7 @@ The MPEG-4 V3 decoder behaves as a DMO or an MFT depending on which interfaces y
 | Operating system            | Decoder behavior                                                                                                                                                    |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows XP                  | The MPEG-4 V3 decoder always behaves as a DMO.                                                                                                                      |
-| Windows Vista and Windows 7 | By default, the MPEG-4 V3 decoder behaves as a DMO. If you obtain an [**IMFTransform**](imftransform.md) interface on the MPEG-4 V3 decoder, it behaves as an MFT. |
+| Windows Vista and Windows 7 | By default, the MPEG-4 V3 decoder behaves as a DMO. If you obtain an [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface on the MPEG-4 V3 decoder, it behaves as an MFT. |
 
 
 

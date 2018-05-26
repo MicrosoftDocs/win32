@@ -1,7 +1,12 @@
 ---
 title: Roadmap for Desktop DirectX apps
 description: Here are key resources to help you get started with using DirectX and C++ to develop graphics-intensive Desktop apps, like games.
-ms.assetid: 'd7921f38-e384-4a83-b458-ee71f7044468'
+ms.assetid: d7921f38-e384-4a83-b458-ee71f7044468
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Roadmap for Desktop DirectX apps
@@ -10,7 +15,7 @@ Here are key resources to help you get started with using DirectX and C++ to dev
 
 ## Get started
 
-Looking to get started quickly? Here are the key topics: setting up your DirectX project, acclimating yourself to Windows 8.1, and diving into samples.
+Looking to get started quickly? Here are the key topics: setting up your DirectX project, acclimating yourself to Windows 8.1, and diving into samples.
 
 
 
@@ -23,12 +28,12 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 | [Programming Guide for Direct3D 11](https://msdn.microsoft.com/library/windows/desktop/ff476345)<br/>                                 | The programming guide contains information about how to use the Microsoft Direct3D 11 programmable pipeline to create realtime 3D graphics for desktop applications.<br/>                                                                                                                                                                                                                                 |
 | [Tools for DirectX Graphics](https://msdn.microsoft.com/library/windows/desktop/bb232917)<br/>                                         | Documentation for tools used to support DirectX development.<br/>                                                                                                                                                                                                                                                                                                                                         |
 | [What's new in Direct3D 11](https://msdn.microsoft.com/library/windows/desktop/ff476346)<br/>                            | A breakdown of all the features added in the most recent versions of DirectX and Direct3D (currently 11.2).<br/>                                                                                                                                                                                                                                                                                          |
-| [Download Visual Studio 2013](http://go.microsoft.com/fwlink/p/?linkid=232448)<br/>                        | You must have Visual Studio Express 2013 for Windows Desktop to create Windows Store games. For a tour of Visual Studio, see [Develop Windows Store apps using Visual Studio 2012](https://msdn.microsoft.com/library/windows/apps/br211384). For info about new features in Visual Studio, see [Product Highlights for Visual Studio 2013](http://go.microsoft.com/fwlink/p/?linkid=227279).<br/> |
+| [Download Visual Studio 2013](http://go.microsoft.com/fwlink/p/?linkid=232448)<br/>                        | You must have Visual Studio Express 2013 for Windows Desktop to create Windows Store games. For a tour of Visual Studio, see [Develop Windows Store apps using Visual Studio 2012](https://msdn.microsoft.com/library/windows/apps/br211384). For info about new features in Visual Studio, see [Product Highlights for Visual Studio 2013](http://go.microsoft.com/fwlink/p/?linkid=227279).<br/> |
 | [Where is the DirectX SDK?](https://msdn.microsoft.com/library/windows/desktop/ee663275)<br/>                                       | Contains guidance for devs who want to bring their DirectX projects into Microsoft Visual Studio.<br/>                                                                                                                                                                                                                                                                                                    |
 
 
 
- 
+ 
 
 ## Grab some samples
 
@@ -48,7 +53,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 
 
 
- 
+ 
 
 ## Review key Direct3D 11 concepts
 
@@ -71,7 +76,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 
 
 
- 
+ 
 
 ## Graphics APIs
 
@@ -91,7 +96,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 
 
 
- 
+ 
 
 ## Audio, media and input APIs
 
@@ -107,7 +112,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 
 
 
- 
+ 
 
 ## Port to DirectX 11
 
@@ -121,7 +126,7 @@ Looking to get started quickly? Here are the key topics: setting up your DirectX
 
 
 
- 
+ 
 
 ## Work with C++/CX
 
@@ -130,13 +135,13 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 | Topic                                                                                                   | Description                                                                                                             |
 |---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [**Visual C++ language reference (C++/CX)**](3f6abf92-4e5e-4ed8-8e11-f9252380d30a)<br/>           | High-level page that links to content related to C++.<br/>                                                        |
-| [**Quick Reference (Windows Runtime and Visual C++)**](ba457195-26e5-43aa-b99d-24a871e550f4)<br/> | Table that provides quick info about Visual C++ component extensions (C++/CX) operators and keywords.<br/>        |
+| [**Quick Reference (Windows Runtime and Visual C++)**](ba457195-26e5-43aa-b99d-24a871e550f4)<br/> | Table that provides quick info about Visual C++ component extensions (C++/CX) operators and keywords.<br/>        |
 | [**Type system (C++/CX)**](b67bee8a-b526-4872-969e-ef22724e88fe)<br/>                             | Reference content for the types that are supported by C++/CX.<br/>                                                |
 | [**Namespaces (C++/CX)**](5ebc0b49-1f22-48a7-90c4-a310bab9aba6)<br/>                              | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps.<br/> |
 
 
 
- 
+ 
 
 
 
@@ -149,7 +154,7 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 
 
 
- 
+ 
 
 ## Additional useful libraries for Windows C++ programming
 
@@ -163,7 +168,7 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 
 
 
- 
+ 
 
 ## Blogs and other resources
 
@@ -179,11 +184,11 @@ If you're an old hand with C++ on Windows platforms, things may look just a litt
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

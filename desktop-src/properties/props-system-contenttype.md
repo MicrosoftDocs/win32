@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e12123c2-bcab-41a0-85dd-a4a46f64aed9'
-title: 'System.ContentType'
+Description: .
+ms.assetid: e12123c2-bcab-41a0-85dd-a4a46f64aed9
+title: System.ContentType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ContentType

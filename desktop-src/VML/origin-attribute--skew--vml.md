@@ -1,7 +1,12 @@
 ---
 title: Origin Attribute (Skew)(VML)
 description: Origin Attribute (Skew)(VML)
-ms.assetid: '36f77073-7438-41b3-9107-95e27b01b776'
+ms.assetid: 36f77073-7438-41b3-9107-95e27b01b776
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Origin Attribute (Skew)(VML)

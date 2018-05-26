@@ -1,7 +1,12 @@
 ---
-Description: 'Whether you are designing an application for conducting online commerce, tracking information, accessing data in legacy systems, messaging, resource planning, publishing and knowledge management, or a critical LOB (line of business) application, you can enhance and streamline your middle-tier design by integrating COM+ services. The most common way to do this is by grouping components into COM+ applications.'
-ms.assetid: '2d08bd05-5b0c-480c-91fd-b2bf321fc21e'
+Description: Whether you are designing an application for conducting online commerce, tracking information, accessing data in legacy systems, messaging, resource planning, publishing and knowledge management, or a critical LOB (line of business) application, you can enhance and streamline your middle-tier design by integrating COM+ services. The most common way to do this is by grouping components into COM+ applications.
+ms.assetid: 2d08bd05-5b0c-480c-91fd-b2bf321fc21e
 title: Designing COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing COM+ Applications
@@ -22,11 +27,11 @@ While a complete methodology review for using COM+ in all situations is beyond t
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

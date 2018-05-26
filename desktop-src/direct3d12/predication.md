@@ -1,7 +1,12 @@
 ---
 title: Predication
 description: Predication is a feature that enables the GPU rather than the CPU to determine to not draw, copy or dispatch an object.
-ms.assetid: '21526012-A675-40E8-A11C-4CBA5C12B9CF'
+ms.assetid: 21526012-A675-40E8-A11C-4CBA5C12B9CF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predication
@@ -20,9 +25,9 @@ Unlike Direct3D 11, predication is decoupled from queries, and is expanded in Di
 
 ## SetPredication
 
-Predication can be set based on the value of 64-bits within a buffer (refer to [**D3D12\_PREDICATION\_OP**](d3d12-predication-op.md)).
+Predication can be set based on the value of 64-bits within a buffer (refer to [**D3D12\_PREDICATION\_OP**](/windows/win32/D3D12/ne-d3d12-d3d12_predication_op?branch=master)).
 
-When the GPU executes a [**SetPredication**](id3d12graphicscommandlist-setpredication.md) command it snaps the value in the buffer. Future changes to the data in the buffer do not retroactively affect the predication state.
+When the GPU executes a [**SetPredication**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication?branch=master) command it snaps the value in the buffer. Future changes to the data in the buffer do not retroactively affect the predication state.
 
 If the input parameter Buffer is NULL, then predication is disabled.
 
@@ -33,7 +38,7 @@ The core runtime will validate the following:
 -   *AlignedBufferOffset* is a multiple of 8 bytes
 -   The resource is a buffer
 -   The operation is a valid member of the enumeration
--   [**SetPredication**](id3d12graphicscommandlist-setpredication.md) cannot be called from within a bundle
+-   [**SetPredication**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication?branch=master) cannot be called from within a bundle
 -   The command list type supports predication
 -   The offset does not exceed the buffer size
 
@@ -41,23 +46,23 @@ The debug layer will issue an error if the source buffer is not in the D3D12\_RE
 
 The set of operations which can be predicated are:
 
--   [**DrawInstanced**](id3d12graphicscommandlist-drawinstanced.md)
--   [**DrawIndexedInstanced**](id3d12graphicscommandlist-drawindexedinstanced.md)
--   [**Dispatch**](id3d12graphicscommandlist-dispatch.md)
--   [**CopyTextureRegion**](id3d12graphicscommandlist-copytextureregion.md)
--   [**CopyBufferRegion**](id3d12graphicscommandlist-copybufferregion.md)
--   [**CopyResource**](id3d12graphicscommandlist-copyresource.md)
--   [**CopyTiles**](id3d12graphicscommandlist-copytiles.md)
--   [**ResolveSubresource**](id3d12graphicscommandlist-resolvesubresource.md)
--   [**ClearDepthStencilView**](id3d12graphicscommandlist-cleardepthstencilview.md)
--   [**ClearRenderTargetView**](id3d12graphicscommandlist-clearrendertargetview.md)
--   [**ClearUnorderedAccessViewUint**](id3d12graphicscommandlist-clearunorderedaccessviewuint.md)
--   [**ClearUnorderedAccessViewFloat**](id3d12graphicscommandlist-clearunorderedaccessviewfloat.md)
--   [**ExecuteIndirect**](id3d12graphicscommandlist-executeindirect.md)
+-   [**DrawInstanced**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master)
+-   [**DrawIndexedInstanced**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced?branch=master)
+-   [**Dispatch**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch?branch=master)
+-   [**CopyTextureRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion?branch=master)
+-   [**CopyBufferRegion**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion?branch=master)
+-   [**CopyResource**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource?branch=master)
+-   [**CopyTiles**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles?branch=master)
+-   [**ResolveSubresource**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource?branch=master)
+-   [**ClearDepthStencilView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview?branch=master)
+-   [**ClearRenderTargetView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview?branch=master)
+-   [**ClearUnorderedAccessViewUint**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint?branch=master)
+-   [**ClearUnorderedAccessViewFloat**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat?branch=master)
+-   [**ExecuteIndirect**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect?branch=master)
 
-[**ExecuteBundle**](id3d12graphicscommandlist-executebundle.md) is not predicated itself. Instead, individual operations from the list above which are contained in side of the bundle are predicated.
+[**ExecuteBundle**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-executebundle?branch=master) is not predicated itself. Instead, individual operations from the list above which are contained in side of the bundle are predicated.
 
-The ID3D12GraphicsCommandList methods [**ResolveQueryData**](id3d12graphicscommandlist-resolvequerydata.md), [**BeginQuery**](id3d12graphicscommandlist-beginquery.md) and [**EndQuery**](id3d12graphicscommandlist-endquery.md) are not predicated.
+The ID3D12GraphicsCommandList methods [**ResolveQueryData**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata?branch=master), [**BeginQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery?branch=master) and [**EndQuery**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery?branch=master) are not predicated.
 
 ## Related topics
 

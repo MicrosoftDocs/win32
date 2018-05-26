@@ -2,13 +2,16 @@
 title: SetByVpnIPv6PrefixEntrypoint method of the PS\_VpnIPAddressAssignment class
 description: This cmdlet does the following1. Configure the IPv4 address assignment method2. Configure the IPv6 prefix for IPv6 address assignment.
 audience: developer
-ms.assetid: '0e8f6881-44ce-462f-887e-8560d98843ee'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0e8f6881-44ce-462f-887e-8560d98843ee
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByVpnIPv6PrefixEntrypoint method", "SetByVpnIPv6PrefixEntrypoint method, PS_VpnIPAddressAssignment class", "PS_VpnIPAddressAssignment class, SetByVpnIPv6PrefixEntrypoint method"]
+keywords:
+- SetByVpnIPv6PrefixEntrypoint method
+- SetByVpnIPv6PrefixEntrypoint method, PS_VpnIPAddressAssignment class
+- PS_VpnIPAddressAssignment class, SetByVpnIPv6PrefixEntrypoint method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByVpnIPv6PrefixEntrypoint method of the PS\_VpnIPAddressAssignment class
@@ -28,11 +34,11 @@ This cmdlet does the following1. Configure the IPv4 address assignment method2. 
 
 ```mof
 uint32 SetByVpnIPv6PrefixEntrypoint(
-  [in]  string                 ComputerName,
-  [in]  string                 IPv6Prefix,
-  [in]  boolean                PassThru,
-  [in]  string                 EntrypointName,
-  [out] VpnIPAddressAssignment cmdletOutput
+  [in]  string                 ComputerName,
+  [in]  string                 IPv6Prefix,
+  [in]  boolean                PassThru,
+  [in]  string                 EntrypointName,
+  [out] VpnIPAddressAssignment cmdletOutput
 );
 ```
 
@@ -88,7 +94,7 @@ If both entrypoint and ComputerName are specified and the ComputerName does not 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -102,9 +108,9 @@ If both entrypoint and ComputerName are specified and the ComputerName does not 
 [**PS\_VpnIPAddressAssignment**](ps-vpnipaddressassignment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

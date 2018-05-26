@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IDATE'
-ms.assetid: 'ac919b9b-2532-49f6-ba7f-a8eb16a178e5'
-title: 'LOCALE\_IDATE'
+Description: LOCALE\_IDATE
+ms.assetid: ac919b9b-2532-49f6-ba7f-a8eb16a178e5
+title: LOCALE\_IDATE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IDATE

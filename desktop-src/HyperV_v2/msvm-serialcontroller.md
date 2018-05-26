@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the capabilities and management of the serial controller.'
-ms.assetid: '0F4DCF98-8EE4-4005-ADD5-BA23CB4CBE82'
-title: 'Msvm\_SerialController class'
+Description: Represents the capabilities and management of the serial controller.
+ms.assetid: 0F4DCF98-8EE4-4005-ADD5-BA23CB4CBE82
+title: Msvm\_SerialController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SerialController class
@@ -11,7 +16,7 @@ Represents the capabilities and management of the serial controller. Serial cont
 > [!Note]  
 > Serial controllers are optional in [generation 2 virtual machines](virtualization-glossary.md#gen2vm).
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,52 +26,52 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SerialController : CIM_SerialController
 {
-  string   InstanceID;
-  string   Caption = "Serial Controller";
-  string   Description = "Microsoft Virtual Serial Controller";
-  string   ElementName = "Serial Controller";
+  string   InstanceID;
+  string   Caption = "Serial Controller";
+  string   Description = "Microsoft Virtual Serial Controller";
+  string   ElementName = "Serial Controller";
   datetime InstallDate;
-  string   Name = "Serial Controller";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Serial Controller";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_SerialController";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = { 6 };
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_SerialController";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = { 6 };
+  uint64   MaxQuiesceTime;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 26;
-  uint32   MaxNumberControlled = 2;
-  string   ProtocolDescription;
-  uint16   Capabilities[] = { 5 };
-  string   CapabilityDescriptions[] = { "16550 compatible" };
-  uint32   MaxBaudRate = 115200;
-  uint16   Security = 3;
+  uint16   ProtocolSupported = 26;
+  uint32   MaxNumberControlled = 2;
+  string   ProtocolDescription;
+  uint16   Capabilities[] = { 5 };
+  string   CapabilityDescriptions[] = { "16550 compatible" };
+  uint32   MaxBaudRate = 115200;
+  uint16   Security = 3;
 };
 ```
 
@@ -96,7 +101,7 @@ The **Msvm\_SerialController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -124,7 +129,7 @@ Any additional availability and status of the device. This property is inherited
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -147,7 +152,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -349,7 +354,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -372,7 +377,7 @@ The enabled and disabled states of an element. It can also indicate the transiti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -737,7 +742,7 @@ The protocol used by the controller to access controlled devices. This property 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -760,7 +765,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -783,7 +788,7 @@ The operational security for the controller. This property is inherited from [**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -914,8 +919,8 @@ Access to the **Msvm\_SerialController** class might be restricted by UAC Filter
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -935,9 +940,9 @@ Access to the **Msvm\_SerialController** class might be restricted by UAC Filter
 [Serial Devices Classes](serial-devices-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

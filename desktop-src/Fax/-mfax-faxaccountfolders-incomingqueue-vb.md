@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the queue of incoming faxes for a particular fax account. These are the incoming faxes that have not yet been fully processed.'
-ms.assetid: '7b8fac52-d7c0-4ff4-bc13-e11494d1d6c5'
-title: 'FaxAccountFolders.IncomingQueue property'
+---
+Description: Represents the queue of incoming faxes for a particular fax account. These are the incoming faxes that have not yet been fully processed.
+ms.assetid: 7b8fac52-d7c0-4ff4-bc13-e11494d1d6c5
+title: FaxAccountFolders.IncomingQueue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountFolders.IncomingQueue property
@@ -21,7 +26,7 @@ Property IncomingQueue As IFaxAccountIncomingQueue
 
 ## Property value
 
-A variable of type [**IFaxAccountIncomingQueue**](-mfax-faxaccountincomingqueue-cpp.md) that receives a [**FaxIncomingQueue**](-mfax-faxincomingqueue.md) object.
+A variable of type [**IFaxAccountIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountincomingqueue?branch=master) that receives a [**FaxIncomingQueue**](-mfax-faxincomingqueue.md) object.
 
 ## Requirements
 
@@ -43,7 +48,7 @@ A variable of type [**IFaxAccountIncomingQueue**](-mfax-faxaccountincomingqueue-
 [**FaxAccountFolders**](-mfax-faxaccountfolders.md)
 </dt> <dt>
 
-[**IFaxAccountFolders**](-mfax-faxaccountfolders-cpp.md)
+[**IFaxAccountFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountfolders?branch=master)
 </dt> </dl>
 
  

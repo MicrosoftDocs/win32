@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to enable logging and to retrieve information that identifies where data is logged and the name of the logging service and queue.'
+Description: Can be used to enable logging and to retrieve information that identifies where data is logged and the name of the logging service and queue.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '0722186b-2400-4168-9cb4-dbdfb7fb50b5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 0722186b-2400-4168-9cb4-dbdfb7fb50b5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: AuditReport object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # AuditReport object
@@ -39,7 +42,7 @@ The **AuditReport** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +59,7 @@ The **AuditReport** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -158,7 +161,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -173,9 +176,9 @@ END SUB
 [**LoggingSystemInformation**](loggingsysteminformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

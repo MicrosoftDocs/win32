@@ -1,8 +1,9 @@
 ---
 title: ICM\_DECOMPRESS\_QUERY message
 description: The ICM\_DECOMPRESS\_QUERY message queries a video decompression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format.
-ms.assetid: '622dd1de-3f7a-4841-913c-282c2ad766f4'
-keywords: ["ICM_DECOMPRESS_QUERY message Windows Multimedia"]
+ms.assetid: 622dd1de-3f7a-4841-913c-282c2ad766f4
+keywords:
+- ICM_DECOMPRESS_QUERY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DECOMPRESS\_QUERY message
 
-The **ICM\_DECOMPRESS\_QUERY** message queries a video decompression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format. You can send this message explicitly or by using the [**ICDecompressQuery**](icdecompressquery.md) macro.
+The **ICM\_DECOMPRESS\_QUERY** message queries a video decompression driver to determine if it supports a specific input format or if it can decompress a specific input format to a specific output format. You can send this message explicitly or by using the [**ICDecompressQuery**](/windows/win32/Vfw/nf-vfw-icdecompressquery?branch=master) macro.
 
 
 ```C++
@@ -54,8 +60,8 @@ Returns ICERR\_OK if the specified decompression is supported or ICERR\_BADFORMA
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ Returns ICERR\_OK if the specified decompression is supported or ICERR\_BADFORMA
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

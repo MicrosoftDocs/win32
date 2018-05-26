@@ -1,8 +1,20 @@
 ---
 title: Background File
 description: Background File
-ms.assetid: '67abe36c-8057-44d7-8ae9-f481a5b65416'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,Background files", "Windows Media Player Mobile skins,Background files", "skins,Background files", "Background files in skins"]
+ms.assetid: 67abe36c-8057-44d7-8ae9-f481a5b65416
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,Background files
+- Windows Media Player Mobile skins,Background files
+- skins,Background files
+- Background files in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Background File

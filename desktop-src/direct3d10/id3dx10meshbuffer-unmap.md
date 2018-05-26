@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unmap a buffer.'
-ms.assetid: '47f125cd-5c0a-4814-93c5-f2f11ce33ea6'
-title: 'ID3DX10MeshBuffer::Unmap method'
+---
+Description: Unmap a buffer.
+ms.assetid: 47f125cd-5c0a-4814-93c5-f2f11ce33ea6
+title: ID3DX10MeshBufferUnmap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10MeshBuffer::Unmap method

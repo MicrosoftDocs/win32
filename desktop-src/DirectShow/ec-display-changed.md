@@ -1,7 +1,12 @@
 ---
-Description: 'The display mode has changed.'
-ms.assetid: '1f5b066b-6d5d-44bb-851a-424b2bd389c0'
-title: 'EC\_DISPLAY\_CHANGED'
+Description: The display mode has changed.
+ms.assetid: 1f5b066b-6d5d-44bb-851a-424b2bd389c0
+title: EC\_DISPLAY\_CHANGED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DISPLAY\_CHANGED
@@ -15,7 +20,7 @@ The display mode has changed.
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-(**IUnknown**\*) Pointer to an array of [**IPin**](ipin.md) interfaces for the video renderer's input pins. If *lParam2* is zero, this parameter can be **NULL**.
+(**IUnknown**\*) Pointer to an array of [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interfaces for the video renderer's input pins. If *lParam2* is zero, this parameter can be **NULL**.
 
 </dd> <dt>
 
@@ -60,9 +65,9 @@ A custom presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

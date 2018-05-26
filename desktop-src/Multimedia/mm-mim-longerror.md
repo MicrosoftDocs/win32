@@ -1,8 +1,9 @@
 ---
 title: MM\_MIM\_LONGERROR message
 description: The MM\_MIM\_LONGERROR message is sent to a window when an invalid or incomplete MIDI system-exclusive message is received.
-ms.assetid: '2de4c2f8-2ded-4994-934c-6e72c95637b2'
-keywords: ["MM_MIM_LONGERROR message Windows Multimedia"]
+ms.assetid: 2de4c2f8-2ded-4994-934c-6e72c95637b2
+keywords:
+- MM_MIM_LONGERROR message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_MIM\_LONGERROR message
@@ -58,8 +64,8 @@ The returned buffer might not be full. To determine the number of bytes recorded
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The returned buffer might not be full. To determine the number of bytes recorded
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

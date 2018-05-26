@@ -1,8 +1,11 @@
 ---
 title: MetricValueCollection GetCount method
 description: Returns a count of the MetricValue objects in the MetricValueCollection.
-ms.assetid: '194A706B-5C58-40D9-8DF6-DD2B119DF720'
-keywords: ["GetCount method Access Execution Engine", "GetCount method Access Execution Engine , MetricValueCollection interface", "MetricValueCollection interface Access Execution Engine , GetCount method"]
+ms.assetid: 194A706B-5C58-40D9-8DF6-DD2B119DF720
+keywords:
+- GetCount method Access Execution Engine
+- GetCount method Access Execution Engine , MetricValueCollection interface
+- MetricValueCollection interface Access Execution Engine , GetCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValueCollection::GetCount method
@@ -22,7 +30,7 @@ Returns a count of the [**MetricValue**](metricvalue-struct.md) objects in the *
 
 ```C++
 virtual HRESULT GetCount(
-  [out] INT *count
+  [out] INT *count
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ A **MetricValue** object holds data from a **MetricValues/MetricValue** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ A **MetricValue** object holds data from a **MetricValues/MetricValue** element.
 [**MetricValueCollection**](metricvaluecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OpenModule method of the Merge object opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database.'
-ms.assetid: '37225e61-c24f-4a44-8fdf-673590a6e09d'
-title: 'Merge.OpenModule method'
+---
+Description: The OpenModule method of the Merge object opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database.
+ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d
+title: Merge.OpenModule method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.OpenModule method
@@ -50,7 +55,7 @@ The installer attempts to open the module in the language specified by *Language
 
 ### C++
 
-See [**OpenModule**](imsmmerge-openmodule.md) function.
+See [**OpenModule**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an entry in the forwarding (filtering) database that is associated with the transparent bridging service.'
-ms.assetid: '3C9FAE99-9543-4A6A-B578-3F4626598DB3'
-title: 'Msvm\_DynamicForwardingEntry class'
+Description: Represents an entry in the forwarding (filtering) database that is associated with the transparent bridging service.
+ms.assetid: 3C9FAE99-9543-4A6A-B578-3F4626598DB3
+title: Msvm\_DynamicForwardingEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DynamicForwardingEntry class
@@ -16,28 +21,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DynamicForwardingEntry : CIM_DynamicForwardingEntry
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   ServiceCreationClassName;
-  string   ServiceName;
-  string   CreationClassName;
-  string   MACAddress;
-  uint16   DynamicStatus;
-  uint16   VlanId;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   ServiceCreationClassName;
+  string   ServiceName;
+  string   CreationClassName;
+  string   MACAddress;
+  uint16   DynamicStatus;
+  uint16   VlanId;
 };
 ```
 
@@ -394,8 +399,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -412,9 +417,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_DynamicForwardingEntry**](https://msdn.microsoft.com/library/cc136814)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

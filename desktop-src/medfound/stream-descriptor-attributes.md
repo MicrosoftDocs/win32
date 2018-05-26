@@ -1,7 +1,12 @@
 ---
 Description: Stream Descriptor Attributes
-ms.assetid: '1364d7c5-67e8-49b6-8038-d6d4ea03fb7d'
+ms.assetid: 1364d7c5-67e8-49b6-8038-d6d4ea03fb7d
 title: Stream Descriptor Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Descriptor Attributes
@@ -61,7 +66,7 @@ The following attribute applies to the stream descriptor for the SAMI media sour
 
 <dl> <dt>
 
-[**IMFStreamDescriptor**](imfstreamdescriptor.md)
+[**IMFStreamDescriptor**](/windows/win32/mfidl/nn-mfidl-imfstreamdescriptor?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

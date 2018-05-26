@@ -1,8 +1,11 @@
 ---
 title: DeviceManager.OnEvent event
 description: Fires for any event registered with RegisterEvent.
-ms.assetid: 'fa3a7098-6331-490e-87d8-77351e531855'
-keywords: ["OnEvent event WIA Automation", "OnEvent event WIA Automation , DeviceManager object", "DeviceManager object WIA Automation , OnEvent event"]
+ms.assetid: fa3a7098-6331-490e-87d8-77351e531855
+keywords:
+- OnEvent event WIA Automation
+- OnEvent event WIA Automation , DeviceManager object
+- DeviceManager object WIA Automation , OnEvent event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceManager.OnEvent event
@@ -69,16 +77,16 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

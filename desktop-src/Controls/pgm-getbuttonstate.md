@@ -1,8 +1,9 @@
 ---
 title: PGM\_GETBUTTONSTATE message
 description: Retrieves the state of the specified button in a pager control. You can send this message explicitly or use the Pager\_GetButtonState macro.
-ms.assetid: '58f99b67-fef7-4695-86e2-0579a2f6de2f'
-keywords: ["PGM_GETBUTTONSTATE message Windows Controls"]
+ms.assetid: 58f99b67-fef7-4695-86e2-0579a2f6de2f
+keywords:
+- PGM_GETBUTTONSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_GETBUTTONSTATE message
 
-Retrieves the state of the specified button in a pager control. You can send this message explicitly or use the [**Pager\_GetButtonState**](pager-getbuttonstate.md) macro.
+Retrieves the state of the specified button in a pager control. You can send this message explicitly or use the [**Pager\_GetButtonState**](/windows/win32/Commctrl/nf-commctrl-pager_getbuttonstate?branch=master) macro.
 
 ## Parameters
 
@@ -38,7 +44,7 @@ Indicates which button to retrieve the state for. This can be one of the followi
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,7 +64,7 @@ Returns the state of the button specified in *lParam*. This will be one or more 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,15 +72,15 @@ Returns the state of the button specified in *lParam*. This will be one or more 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

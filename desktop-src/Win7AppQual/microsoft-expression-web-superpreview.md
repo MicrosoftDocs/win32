@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'A087CE3C-C14E-4483-850D-E140FEC589BF'
+Description: .
+ms.assetid: A087CE3C-C14E-4483-850D-E140FEC589BF
 title: Microsoft Expression Web SuperPreview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Expression Web SuperPreview

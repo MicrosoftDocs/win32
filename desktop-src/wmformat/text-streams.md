@@ -1,8 +1,20 @@
 ---
 title: Text Streams
 description: Text Streams
-ms.assetid: 'd99baac5-69e5-4e0a-9cd6-35b288d8181a'
-keywords: ["Windows Media Format SDK,text streams", "Advanced Systems Format (ASF),text streams", "ASF (Advanced Systems Format),text streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "text streams,about"]
+ms.assetid: d99baac5-69e5-4e0a-9cd6-35b288d8181a
+keywords:
+- Windows Media Format SDK,text streams
+- Advanced Systems Format (ASF),text streams
+- ASF (Advanced Systems Format),text streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- text streams,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Streams

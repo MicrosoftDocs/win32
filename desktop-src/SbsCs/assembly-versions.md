@@ -1,7 +1,12 @@
 ---
-Description: 'Every side-by-side assembly must have a version.'
-ms.assetid: '0b78ecf6-fbff-4172-9b0d-09f993666db1'
+Description: Every side-by-side assembly must have a version.
+ms.assetid: 0b78ecf6-fbff-4172-9b0d-09f993666db1
 title: Assembly Versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assembly Versions

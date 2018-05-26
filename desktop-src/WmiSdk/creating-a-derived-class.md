@@ -1,13 +1,16 @@
 ---
-Description: 'Creating a derived class in WMI is very similar to creating a base class. As with a base class, you must first define the derived class and then register the derived class with WMI.'
+Description: Creating a derived class in WMI is very similar to creating a base class. As with a base class, you must first define the derived class and then register the derived class with WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8dd483b8-8bc2-4a5c-b981-6c2ffaccdb95'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8dd483b8-8bc2-4a5c-b981-6c2ffaccdb95
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Derived Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a WMI Derived Class
@@ -25,7 +28,7 @@ After you create your class, you must delete all instances of your class before 
 -   Add or remove [**Singleton**](standard-wmi-qualifiers.md), **Dynamic**, or [**Abstract**](standard-qualifiers.md) qualifiers.
 
 > [!Note]  
-> To add, remove, or modify a property or qualifier, call [**IWbemServices::PutClass**](iwbemservices-putclass.md) or [**SWbemObject.Put\_**](swbemobject-put-.md) and set the flag parameter to "force mode". The [**Abstract**](standard-qualifiers.md) qualifier can be used only if the parent class is abstract.
+> To add, remove, or modify a property or qualifier, call [**IWbemServices::PutClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclass?branch=master) or [**SWbemObject.Put\_**](swbemobject-put-.md) and set the flag parameter to "force mode". The [**Abstract**](standard-qualifiers.md) qualifier can be used only if the parent class is abstract.
 
  
 
@@ -70,7 +73,7 @@ The following procedure describes how to create a derived class using C++.
 
 **To create a derived class using C++**
 
-1.  Locate the base class with a call to [**IWbemServices::GetObject**](iwbemservices-getobject.md).
+1.  Locate the base class with a call to [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master).
 
     The following code example shows how to locate the Example base class.
 
@@ -89,7 +92,7 @@ The following procedure describes how to create a derived class using C++.
 
     
 
-2.  Create a derived object from the base class with a call to [**IWbemClassObject::SpawnDerivedClass**](iwbemclassobject-spawnderivedclass.md).
+2.  Create a derived object from the base class with a call to [**IWbemClassObject::SpawnDerivedClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-spawnderivedclass?branch=master).
 
     The following code example shows how to create a derived class object.
 
@@ -100,7 +103,7 @@ The following procedure describes how to create a derived class using C++.
 
     
 
-3.  Establish a name for the class by setting the **\_\_CLASS** system property with a call to the [**IWbemClassObject::Put**](iwbemclassobject-put.md) method.
+3.  Establish a name for the class by setting the **\_\_CLASS** system property with a call to the [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master) method.
 
     The following code example shows how to assign a name to the derived class.
 
@@ -118,7 +121,7 @@ The following procedure describes how to create a derived class using C++.
 
     
 
-4.  Create additional properties with [**IWbemClassObject::Put**](iwbemclassobject-put.md).
+4.  Create additional properties with [**IWbemClassObject::Put**](/windows/win32/WbemCli/nf-wbemcli-iwbemclassobject-put?branch=master).
 
     The following code example shows how to create additional properties.
 
@@ -130,7 +133,7 @@ The following procedure describes how to create a derived class using C++.
 
     
 
-5.  Save the new class by calling [**IWbemServices::PutClass**](iwbemservices-putclass.md).
+5.  Save the new class by calling [**IWbemServices::PutClass**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclass?branch=master).
 
     The following code example shows how to save the new derived class.
 

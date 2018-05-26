@@ -1,8 +1,17 @@
 ---
 title: Manipulations and Inertia
 description: This section contains topics related to manipulations and inertia.
-ms.assetid: 'ba56fa56-c74f-47ac-a15c-ba82a0521995'
-keywords: ["Windows Touch,manipulations", "Windows Touch,inertia", "manipulations,about", "inertia,about"]
+ms.assetid: ba56fa56-c74f-47ac-a15c-ba82a0521995
+keywords:
+- Windows Touch,manipulations
+- Windows Touch,inertia
+- manipulations,about
+- inertia,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manipulations and Inertia

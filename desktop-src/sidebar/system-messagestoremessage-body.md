@@ -1,8 +1,11 @@
 ---
 title: System.MessageStore.Message.body property
 description: Gets the Windows Mail (formerly Outlook Express) message body.
-ms.assetid: '162cdd6f-e551-48b8-a59c-656c586f04e3'
-keywords: ["body property Windows Sidebar", "body property Windows Sidebar , System.MessageStore.Message object", "System.MessageStore.Message object Windows Sidebar , body property"]
+ms.assetid: 162cdd6f-e551-48b8-a59c-656c586f04e3
+keywords:
+- body property Windows Sidebar
+- body property Windows Sidebar , System.MessageStore.Message object
+- System.MessageStore.Message object Windows Sidebar , body property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Message.body property
@@ -36,7 +44,7 @@ A **String** that receives the message body.
 
 ## Remarks
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
 
 ## Examples
 
@@ -83,10 +91,10 @@ function ShowFlyout(iFolderIndex)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -123,9 +131,9 @@ function ShowFlyout(iFolderIndex)
 [**Messages**](system-messagestorefolder-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer.'
-ms.assetid: '0dc10f14-1ae3-47e5-aab2-53ddaa45b8a0'
-title: 'FaxIncomingMessageIterator.PrefetchSize property'
+---
+Description: The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer.
+ms.assetid: 0dc10f14-1ae3-47e5-aab2-53ddaa45b8a0
+title: FaxIncomingMessageIterator.PrefetchSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessageIterator.PrefetchSize property
@@ -29,7 +34,7 @@ The prefetch buffer contains messages and makes the iteration process more effic
 
 Changes you make to the size of the prefetch buffer take place immediately because [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md) is a local object.
 
-To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-a
 [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md)
 </dt> <dt>
 
-[**PrefetchSize**](-mfax-faxincomingmessageiterator-prefetchsize-cpp.md)
+[**PrefetchSize**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxincomingmessageiterator-get_prefetchsize?branch=master)
 </dt> </dl>
 
  

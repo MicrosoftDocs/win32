@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DCOMApplicationSetting&\#8194;WMI class represents the settings of a DCOM application.'
+Description: The Win32\_DCOMApplicationSetting&\#8194;WMI class represents the settings of a DCOM application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'afa23faa-bf4d-4f54-9ee9-227956ff3292'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: afa23faa-bf4d-4f54-9ee9-227956ff3292
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DCOMApplicationSetting class'
+title: Win32\_DCOMApplicationSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DCOMApplicationSetting class
@@ -24,17 +27,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{E5D8A561-F6C0-11d2-B35E-00105A1F8569}"), AMENDMENT]
 class Win32_DCOMApplicationSetting : Win32_COMSetting
 {
-  string  Caption;
-  string  Description;
-  string  SettingID;
-  string  AppID;
-  uint32  AuthenticationLevel;
-  string  CustomSurrogate;
+  string  Caption;
+  string  Description;
+  string  SettingID;
+  string  AppID;
+  uint32  AuthenticationLevel;
+  string  CustomSurrogate;
   boolean EnableAtStorageActivation;
-  string  LocalService;
-  string  RemoteServerName;
-  string  RunAsUser;
-  string  ServiceParameters;
+  string  LocalService;
+  string  RemoteServerName;
+  string  RunAsUser;
+  string  ServiceParameters;
   boolean UseSurrogate;
 };
 ```
@@ -63,7 +66,7 @@ The **Win32\_DCOMApplicationSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -344,8 +347,8 @@ The **Win32\_DCOMApplicationSetting** class is derived from [**Win32\_COMSetting
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -371,9 +374,9 @@ The **Win32\_DCOMApplicationSetting** class is derived from [**Win32\_COMSetting
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

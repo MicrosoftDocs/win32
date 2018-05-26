@@ -1,12 +1,17 @@
 ---
 title: Passing a Safearray of UDTs
 description: For passing a safearrray of UDTs, the designer of the server describes the data types of the UDT in a IDL file. The client needs the type library to fetch the IRecordInfo Interface. The safearray is then created with SafeArrayCreateEx.
-ms.assetid: '55a1effb-067f-4ae7-9e88-bccbfd7da433'
+ms.assetid: 55a1effb-067f-4ae7-9e88-bccbfd7da433
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Passing a Safearray of UDTs
 
-For passing a safearrray of UDTs, the designer of the server describes the data types of the UDT in a IDL file. The client needs the type library to fetch the [**IRecordInfo**](irecordinfo.md) Interface. The safearray is then created with [**SafeArrayCreateEx**](safearraycreateex.md).
+For passing a safearrray of UDTs, the designer of the server describes the data types of the UDT in a IDL file. The client needs the type library to fetch the [**IRecordInfo**](/windows/previous-versions/oaidl/nn-oaidl-irecordinfo?branch=master) Interface. The safearray is then created with [**SafeArrayCreateEx**](/windows/previous-versions/OleAuto/nf-oleauto-safearraycreateex?branch=master).
 
 The following is the IDL for a safearray of UDTs to be passed:
 
@@ -40,7 +45,7 @@ HRESULT Test2([in,out] SAFEARRAY(StudentStruct));
 
 
 
-For passing a safearray of UDTs the type library is necessary for fetching the [**IRecordInfo**](irecordinfo.md) Interface. The type library of the UDT is first loaded by calling [**LoadRegTypeLib**](loadregtypelib.md) and the type information of the UDT is obtained with [**GetTypeInfoOfGuid**](itypelib-gettypeinfoofguid.md). The [**GetRecordInfoFromTypeInfo**](getrecordinfofromtypeinfo.md) function is then called to obtain the record information from the type information of the UDT. At this point the record information is returned to *pRecInfo*.
+For passing a safearray of UDTs the type library is necessary for fetching the [**IRecordInfo**](/windows/previous-versions/oaidl/nn-oaidl-irecordinfo?branch=master) Interface. The type library of the UDT is first loaded by calling [**LoadRegTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-loadregtypelib?branch=master) and the type information of the UDT is obtained with [**GetTypeInfoOfGuid**](/windows/previous-versions/oaidl/nf-oaidl-itypelib-gettypeinfoofguid?branch=master). The [**GetRecordInfoFromTypeInfo**](/windows/previous-versions/OleAuto/nf-oleauto-getrecordinfofromtypeinfo?branch=master) function is then called to obtain the record information from the type information of the UDT. At this point the record information is returned to *pRecInfo*.
 
 
 ```C++
@@ -65,7 +70,7 @@ RELEASEINTERFACE(pTypelib);
 
 
 
-After *pRecInfo* is obtained from the type library, [**SafeArrayCreateEx**](safearraycreateex.md) is called to create the safearray, where its last parameter is *pRecInfo*. [**SafeArrayAccessData**](safearrayaccessdata.md) is then called to increment the lock count of the array.
+After *pRecInfo* is obtained from the type library, [**SafeArrayCreateEx**](/windows/previous-versions/OleAuto/nf-oleauto-safearraycreateex?branch=master) is called to create the safearray, where its last parameter is *pRecInfo*. [**SafeArrayAccessData**](/windows/previous-versions/OleAuto/nf-oleauto-safearrayaccessdata?branch=master) is then called to increment the lock count of the array.
 
 
 ```C++
@@ -98,7 +103,7 @@ pStudentStruct[3].type = teachers_Favorite;
 
 
 
-[**SafeArrayUnaccessData**](safearrayunaccessdata.md) is then called to decrement the lock count of the array, and invalidate the pointer retrieved by [**SafeArrayAccessData**](safearrayaccessdata.md):
+[**SafeArrayUnaccessData**](/windows/previous-versions/OleAuto/nf-oleauto-safearrayunaccessdata?branch=master) is then called to decrement the lock count of the array, and invalidate the pointer retrieved by [**SafeArrayAccessData**](/windows/previous-versions/OleAuto/nf-oleauto-safearrayaccessdata?branch=master):
 
 
 ```C++
@@ -121,28 +126,28 @@ hr = pStudent->Test2(psaStudent);
 
 <dl> <dt>
 
-[**SafeArrayGetRecordInfo**](safearraygetrecordinfo.md)
+[**SafeArrayGetRecordInfo**](/windows/previous-versions/OleAuto/nf-oleauto-safearraygetrecordinfo?branch=master)
 </dt> <dt>
 
-[**SafeArraySetRecordInfo**](safearraysetrecordinfo.md)
+[**SafeArraySetRecordInfo**](/windows/previous-versions/OleAuto/nf-oleauto-safearraysetrecordinfo?branch=master)
 </dt> <dt>
 
-[**SafeArrayAllocDescriptorEx**](safearrayallocdescriptorex.md)
+[**SafeArrayAllocDescriptorEx**](/windows/previous-versions/OleAuto/nf-oleauto-safearrayallocdescriptorex?branch=master)
 </dt> <dt>
 
-[**ITypeLib::GetTypeInfoOfGuid**](itypelib-gettypeinfoofguid.md)
+[**ITypeLib::GetTypeInfoOfGuid**](/windows/previous-versions/oaidl/nf-oaidl-itypelib-gettypeinfoofguid?branch=master)
 </dt> <dt>
 
-[**SafeArrayCreateEx**](safearraycreateex.md)
+[**SafeArrayCreateEx**](/windows/previous-versions/OleAuto/nf-oleauto-safearraycreateex?branch=master)
 </dt> <dt>
 
-[**SafeArrayCreateVectorEx**](safearraycreatevectorex.md)
+[**SafeArrayCreateVectorEx**](/windows/previous-versions/OleAuto/nf-oleauto-safearraycreatevectorex?branch=master)
 </dt> <dt>
 
-[**SafeArrayUnaccessData**](safearrayunaccessdata.md)
+[**SafeArrayUnaccessData**](/windows/previous-versions/OleAuto/nf-oleauto-safearrayunaccessdata?branch=master)
 </dt> <dt>
 
-[**SafeArrayAccessData**](safearrayaccessdata.md)
+[**SafeArrayAccessData**](/windows/previous-versions/OleAuto/nf-oleauto-safearrayaccessdata?branch=master)
 </dt> </dl>
 
  

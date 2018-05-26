@@ -1,12 +1,17 @@
 ---
-Description: 'Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMATION structure.'
-ms.assetid: 'B42CB8E8-0010-4B11-AB0D-6D196DCCC90A'
-title: 'CPU\_SET\_INFORMATION\_TYPE enumeration'
+Description: Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMATION structure.
+ms.assetid: B42CB8E8-0010-4B11-AB0D-6D196DCCC90A
+title: CPU\_SET\_INFORMATION\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU\_SET\_INFORMATION\_TYPE enumeration
 
-Represents the type of information in the [**SYSTEM\_CPU\_SET\_INFORMATION**](system-cpu-set-information.md) structure.
+Represents the type of information in the [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/win32/winnt/ns-winnt-_system_cpu_set_information?branch=master) structure.
 
 ## Syntax
 
@@ -36,15 +41,15 @@ The structure contains CPU Set information.
 
 |                                     |                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Processthreadapi.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

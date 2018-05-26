@@ -1,8 +1,9 @@
 ---
 title: VMTaskResult enumeration
 description: The VMTaskResult enumeration specifies the result of a task.
-ms.assetid: '62fa0a34-cb9b-4c61-ad42-8e41ee5a503b'
-keywords: ["VMTaskResult enumeration Virtual Server"]
+ms.assetid: 62fa0a34-cb9b-4c61-ad42-8e41ee5a503b
+keywords:
+- VMTaskResult enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMTaskResult enumeration
@@ -22,15 +28,15 @@ The **VMTaskResult** enumeration specifies the result of a task.
 
 ```C++
 typedef enum  { 
-  vmTaskResult_Success                      = 0,
-  vmTaskResult_Cancelled                    = 1,
-  vmTaskResult_UnexpectedError              = 2,
-  vmTaskResult_OutOfMemoryError             = 3,
-  vmTaskResult_DiskRelatedError             = 4,
-  vmTaskResult_IncompatibleSavedStateError  = 5,
-  vmTaskResult_TimeOutError                 = 6,
-  vmTaskResult_IllegalValueError            = 7,
-  vmTaskResult_ThreadCrashError             = 8
+  vmTaskResult_Success                      = 0,
+  vmTaskResult_Cancelled                    = 1,
+  vmTaskResult_UnexpectedError              = 2,
+  vmTaskResult_OutOfMemoryError             = 3,
+  vmTaskResult_DiskRelatedError             = 4,
+  vmTaskResult_IncompatibleSavedStateError  = 5,
+  vmTaskResult_TimeOutError                 = 6,
+  vmTaskResult_IllegalValueError            = 7,
+  vmTaskResult_ThreadCrashError             = 8
 } VMTaskResult;
 ```
 
@@ -109,15 +115,15 @@ The task aborted because a thread associated with the task crashed.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

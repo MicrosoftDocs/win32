@@ -1,7 +1,12 @@
 ---
 title: Microsoft Windows 8 Developer License Privacy Statement
 description: .
-ms.assetid: '6864BFBF-755B-4FE3-8684-93D85984FF1E'
+ms.assetid: 6864BFBF-755B-4FE3-8684-93D85984FF1E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Windows 8 Developer License Privacy Statement

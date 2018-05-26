@@ -1,7 +1,12 @@
 ---
-Description: 'This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.'
-ms.assetid: '67b3a96e-4549-41e0-8097-f8d145df0c49'
-title: 'CIM\_NetworkService class'
+Description: This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.
+ms.assetid: 67b3a96e-4549-41e0-8097-f8d145df0c49
+title: CIM\_NetworkService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_NetworkService class
@@ -50,7 +55,7 @@ This property is deprecated and should not be used.
 > [!Note]  
 > Deprecated description: An array of keywords that can be used in queries.
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,7 +76,7 @@ This property is deprecated. Instead, we recommend the **CIM\_ServiceAccessURI**
 > [!Note]  
 > Deprecated description: A URL that provides the protocol, network location, and other service-specific information required in order to access the service.
 
- 
+ 
 
 </dd> <dt>
 
@@ -92,7 +97,7 @@ This property is deprecated and should not be used.
 > [!Note]  
 > Deprecated description: The pre-conditions that must be met in order for this service to start correctly.
 
- 
+ 
 
 </dd> <dt>
 
@@ -113,7 +118,7 @@ This property is deprecated and should not be used.
 > [!Note]  
 > Deprecated description: The parameters that must be supplied to the **StartService** method in order for this service to start correctly.
 
- 
+ 
 
 </dd> </dl>
 
@@ -123,8 +128,8 @@ This property is deprecated and should not be used.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -138,9 +143,9 @@ This property is deprecated and should not be used.
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

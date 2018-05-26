@@ -1,11 +1,16 @@
-﻿---
-Description: 'Estimates the risk of executing unknown code when a handler is called on a given file. This risk is based on an understanding of the handler and the code content of the file.'
+---
+Description: Estimates the risk of executing unknown code when a handler is called on a given file. This risk is based on an understanding of the handler and the code content of the file.
 title: EstimateFileRiskLevel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EstimateFileRiskLevel function
 
-\[This function is available on Windows XP with Service Pack 2 (SP2) through Windows Vista. It might be altered or unavailable in subsequent versions of Windows. Client applications instead should use [**IAttachmentExecute**](iattachmentexecute.md) to present a user environment that provides safe download and exchange of files through email and messaging attachments.\]
+\[This function is available on Windows XP with Service Pack 2 (SP2) through Windows Vista. It might be altered or unavailable in subsequent versions of Windows. Client applications instead should use [**IAttachmentExecute**](/windows/win32/shobjidl_core/nn-shobjidl_core-iattachmentexecute?branch=master) to present a user environment that provides safe download and exchange of files through email and messaging attachments.\]
 
 Estimates the risk of executing unknown code when a handler is called on a given file. This risk is based on an understanding of the handler and the code content of the file.
 

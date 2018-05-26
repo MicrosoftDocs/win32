@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains an object that represents an application.'
-ms.assetid: '61B85691-399D-41c1-9901-825345A38E5A'
-title: 'IShellDispatch.Application property'
+---
+Description: Contains an object that represents an application.
+ms.assetid: 61B85691-399D-41c1-9901-825345A38E5A
+title: IShellDispatch.Application property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.Application property

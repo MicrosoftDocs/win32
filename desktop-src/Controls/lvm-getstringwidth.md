@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETSTRINGWIDTH message
-description: Determines the width of a specified string using the specified list-view control's current font. You can send this message explicitly or by using the ListView\_GetStringWidth macro.
-ms.assetid: 'ffe97640-d4b6-45ae-be5d-71fed69c2026'
-keywords: ["LVM_GETSTRINGWIDTH message Windows Controls"]
+description: Determines the width of a specified string using the specified list-view controls current font. You can send this message explicitly or by using the ListView\_GetStringWidth macro.
+ms.assetid: ffe97640-d4b6-45ae-be5d-71fed69c2026
+keywords:
+- LVM_GETSTRINGWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETSTRINGWIDTH message
 
-Determines the width of a specified string using the specified list-view control's current font. You can send this message explicitly or by using the [**ListView\_GetStringWidth**](listview-getstringwidth.md) macro.
+Determines the width of a specified string using the specified list-view control's current font. You can send this message explicitly or by using the [**ListView\_GetStringWidth**](/windows/win32/Commctrl/nf-commctrl-listview_getstringwidth?branch=master) macro.
 
 ## Parameters
 
@@ -47,16 +53,16 @@ The LVM\_GETSTRINGWIDTH message returns the exact width, in pixels, of the speci
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVM\_GETSTRINGWIDTHW** (Unicode) and **LVM\_GETSTRINGWIDTHA** (ANSI)<br/>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

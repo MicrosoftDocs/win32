@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SET\_PREVIEW message
 description: The WM\_CAP\_SET\_PREVIEW message enables or disables preview mode.
-ms.assetid: 'ef6218d6-4fff-469f-b2e0-d7990998a3e5'
-keywords: ["WM_CAP_SET_PREVIEW message Windows Multimedia"]
+ms.assetid: ef6218d6-4fff-469f-b2e0-d7990998a3e5
+keywords:
+- WM_CAP_SET_PREVIEW message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SET\_PREVIEW message
 
-The **WM\_CAP\_SET\_PREVIEW** message enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can send this message explicitly or by using the [**capPreview**](cappreview.md) macro.
+The **WM\_CAP\_SET\_PREVIEW** message enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can send this message explicitly or by using the [**capPreview**](/windows/win32/Vfw/nf-vfw-cappreview?branch=master) macro.
 
 
 ```C++
@@ -43,7 +49,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 ## Remarks
 
-The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The **fLiveWindow** member of the [**CAPSTATUS**](capstatus.md) structure indicates if preview mode is currently enabled.
+The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The **fLiveWindow** member of the [**CAPSTATUS**](/windows/win32/Vfw/ns-vfw-tagcapstatus?branch=master) structure indicates if preview mode is currently enabled.
 
 Enabling preview mode automatically disables overlay mode.
 
@@ -53,8 +59,8 @@ Enabling preview mode automatically disables overlay mode.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ Enabling preview mode automatically disables overlay mode.
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

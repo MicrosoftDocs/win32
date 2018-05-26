@@ -1,8 +1,25 @@
 ---
 title: Determining Playlist Synchronization State
 description: Determining Playlist Synchronization State
-ms.assetid: '634b659b-c3ae-4957-b17e-18fd92e915be'
-keywords: ["Windows Media Player,synchronization playlists", "Windows Media Player object model,synchronization playlists", "object model,synchronization playlists", "Windows Media Player Mobile,synchronization playlists", "Windows Media Player ActiveX control,synchronization playlists", "Windows Media Player Mobile ActiveX control,synchronization playlists", "ActiveX control,synchronization playlists", "playlists,synchronization", "metafile playlists,synchronization", "Windows Media metafile playlists,synchronization", "portable devices,determining synchronization playlist state", "synchronization playlists,synchronization state"]
+ms.assetid: 634b659b-c3ae-4957-b17e-18fd92e915be
+keywords:
+- Windows Media Player,synchronization playlists
+- Windows Media Player object model,synchronization playlists
+- object model,synchronization playlists
+- Windows Media Player Mobile,synchronization playlists
+- Windows Media Player ActiveX control,synchronization playlists
+- Windows Media Player Mobile ActiveX control,synchronization playlists
+- ActiveX control,synchronization playlists
+- playlists,synchronization
+- metafile playlists,synchronization
+- Windows Media metafile playlists,synchronization
+- portable devices,determining synchronization playlist state
+- synchronization playlists,synchronization state
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining Playlist Synchronization State
@@ -78,10 +95,10 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
 
 <dl> <dt>
 
-[**IWMPMedia Interface**](iwmpmedia.md)
+[**IWMPMedia Interface**](/windows/win32/wmp/nn-wmp-iwmpmedia?branch=master)
 </dt> <dt>
 
-[**IWMPMedia3::getItemInfoByType**](iwmpmedia3-getiteminfobytype.md)
+[**IWMPMedia3::getItemInfoByType**](/windows/win32/wmp/nf-wmp-iwmpmedia3-getiteminfobytype?branch=master)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

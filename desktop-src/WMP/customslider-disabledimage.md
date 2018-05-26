@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.disabledImage
 description: The disabledImage attribute specifies or retrieves the image of the slider used when the slider is disabled.
-ms.assetid: '91b1c2e3-6c92-4baa-b1f3-e44707157f4b'
-keywords: ["CUSTOMSLIDER.disabledImage Windows Media Player"]
+ms.assetid: 91b1c2e3-6c92-4baa-b1f3-e44707157f4b
+keywords:
+- CUSTOMSLIDER.disabledImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.disabledImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.disabledImage
@@ -51,9 +57,9 @@ The supported image file types are BMP, JPG, PNG, and GIF (not including animate
 [**CUSTOMSLIDER.image**](customslider-image.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

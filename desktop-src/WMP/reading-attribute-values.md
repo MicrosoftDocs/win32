@@ -1,8 +1,24 @@
 ---
 title: Reading Attribute Values
 description: Reading Attribute Values
-ms.assetid: '5f791f47-472e-409f-b716-2ace11f34742'
-keywords: ["Windows Media Player,attributes for media items", "Windows Media Player object model,attributes for media items", "object model,attributes for media items", "Windows Media Player Mobile,attributes for media items", "Windows Media Player ActiveX control,attributes for media items", "Windows Media Player Mobile ActiveX control,attributes for media items", "ActiveX control,attributes for media items", "Windows Media Player library,attributes for media items", "library,attributes for media items", "attributes,reading values", "reading attribute values"]
+ms.assetid: 5f791f47-472e-409f-b716-2ace11f34742
+keywords:
+- Windows Media Player,attributes for media items
+- Windows Media Player object model,attributes for media items
+- object model,attributes for media items
+- Windows Media Player Mobile,attributes for media items
+- Windows Media Player ActiveX control,attributes for media items
+- Windows Media Player Mobile ActiveX control,attributes for media items
+- ActiveX control,attributes for media items
+- Windows Media Player library,attributes for media items
+- library,attributes for media items
+- attributes,reading values
+- reading attribute values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Attribute Values

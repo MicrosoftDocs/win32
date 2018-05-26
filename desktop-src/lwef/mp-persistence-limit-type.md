@@ -1,8 +1,10 @@
 ---
 title: MP\_PERSISTENCE\_LIMIT\_TYPE enumeration
 description: Persistence limit type.
-ms.assetid: '57423110-7966-4240-8B15-1859D3D9EA4C'
-keywords: ["MP_PERSISTENCE_LIMIT_TYPE enumeration Legacy Windows Environment Features", "PMP_PERSISTENCE_LIMIT_TYPE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 57423110-7966-4240-8B15-1859D3D9EA4C
+keywords:
+- MP_PERSISTENCE_LIMIT_TYPE enumeration Legacy Windows Environment Features
+- PMP_PERSISTENCE_LIMIT_TYPE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MP\_PERSISTENCE\_LIMIT\_TYPE enumeration
@@ -22,12 +29,12 @@ Persistence limit type.
 
 ```C++
 typedef enum tagMP_PERSISTENCE_LIMIT_TYPE { 
-  MP_PERSISTENCE_UNKNOWN      = 0,
-  MP_PERSISTENCE_NO_LIMIT     = 1,
-  MP_PERSISTENCE_DURATION     = 2,
-  MP_PERSISTENCE_VDM_VERSION  = 3,
-  MP_PERSISTENCE_TIMESTAMP    = 4,
-  MP_PERSISTENCE_FORCED       = 5
+  MP_PERSISTENCE_UNKNOWN      = 0,
+  MP_PERSISTENCE_NO_LIMIT     = 1,
+  MP_PERSISTENCE_DURATION     = 2,
+  MP_PERSISTENCE_VDM_VERSION  = 3,
+  MP_PERSISTENCE_TIMESTAMP    = 4,
+  MP_PERSISTENCE_FORCED       = 5
 } MP_PERSISTENCE_LIMIT_TYPE, *PMP_PERSISTENCE_LIMIT_TYPE;
 ```
 
@@ -85,15 +92,15 @@ Forced.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

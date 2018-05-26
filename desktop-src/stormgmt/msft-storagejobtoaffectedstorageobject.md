@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageJobToAffectedStorageObject class
 description: Association between a MSFT\_StorageJob and MSFT\_StorageObject objects that are affected by the job operation.
-ms.assetid: '86056850-8918-4AD4-BAFC-EE73DEFF8958'
-keywords: ["MSFT_StorageJobToAffectedStorageObject class Windows Storage Management API", "MSFT_StorageJobToAffectedStorageObject class Windows Storage Management API , described"]
+ms.assetid: 86056850-8918-4AD4-BAFC-EE73DEFF8958
+keywords:
+- MSFT_StorageJobToAffectedStorageObject class Windows Storage Management API
+- MSFT_StorageJobToAffectedStorageObject class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageJobToAffectedStorageObject class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 [Association]
 class MSFT_StorageJobToAffectedStorageObject
 {
-  MSFT_StorageJob    REF StorageJob;
+  MSFT_StorageJob    REF StorageJob;
   MSFT_StorageObject REF AffectedStorageObject;
 };
 ```
@@ -82,8 +89,8 @@ The job object for the storage job.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -99,9 +106,9 @@ The job object for the storage job.
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

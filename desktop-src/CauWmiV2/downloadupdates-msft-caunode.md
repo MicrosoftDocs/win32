@@ -4,13 +4,16 @@ description: Downloads updates to the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f408f88c-bcc2-4c52-8e11-958c1eea02d6'
-ms.prod: 'windows-server-dev'
+ms.assetid: f408f88c-bcc2-4c52-8e11-958c1eea02d6
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DownloadUpdates method", "DownloadUpdates method, MSFT_CAUNode class", "MSFT_CAUNode class, DownloadUpdates method"]
+keywords:
+- DownloadUpdates method
+- DownloadUpdates method, MSFT_CAUNode class
+- MSFT_CAUNode class, DownloadUpdates method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DownloadUpdates method of the MSFT\_CAUNode class
@@ -30,9 +36,9 @@ Downloads updates to the node.
 
 ```mof
 uint32 DownloadUpdates(
-  [in]  string                      QueryString,
-  [in]  boolean                     IncludeRecommendedUpdates,
-  [out] MSFT_CAU_DownloadUpdateInfo Info[]
+  [in]  string                      QueryString,
+  [in]  boolean                     IncludeRecommendedUpdates,
+  [out] MSFT_CAU_DownloadUpdateInfo Info[]
 );
 ```
 
@@ -70,7 +76,7 @@ An array of [**MSFT\_CAU\_DownloadUpdateInfo**](msft-cau-downloadupdateinfo.md) 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An array of [**MSFT\_CAU\_DownloadUpdateInfo**](msft-cau-downloadupdateinfo.md) 
 [**MSFT\_CAUNode**](msft-caunode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

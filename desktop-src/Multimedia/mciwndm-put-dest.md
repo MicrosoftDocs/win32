@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_PUT\_DEST message
 description: The MCIWNDM\_PUT\_DEST message redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the MCIWndPutDest macro.
-ms.assetid: '0b13d473-ef93-41a2-bbb2-09fbf264493e'
-keywords: ["MCIWNDM_PUT_DEST message Windows Multimedia"]
+ms.assetid: 0b13d473-ef93-41a2-bbb2-09fbf264493e
+keywords:
+- MCIWNDM_PUT_DEST message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_PUT\_DEST message
 
-The **MCIWNDM\_PUT\_DEST** message redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndPutDest**](mciwndputdest.md) macro.
+The **MCIWNDM\_PUT\_DEST** message redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can send this message explicitly or by using the [**MCIWndPutDest**](/windows/win32/Vfw/nf-vfw-mciwndputdest?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndPutDest**](mciwndputdest.md)
+[**MCIWndPutDest**](/windows/win32/Vfw/nf-vfw-mciwndputdest?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

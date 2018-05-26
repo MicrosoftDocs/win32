@@ -1,7 +1,12 @@
 ---
 title: IAgentPropertySheet GetPosition
 description: IAgentPropertySheet GetPosition
-ms.assetid: '5d3de366-e48a-4643-81c5-ac4808671763'
+ms.assetid: 5d3de366-e48a-4643-81c5-ac4808671763
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentPropertySheet::GetPosition

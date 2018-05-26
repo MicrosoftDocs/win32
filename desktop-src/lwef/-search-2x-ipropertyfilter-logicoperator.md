@@ -1,8 +1,11 @@
 ---
 title: IPropertyFilter LogicOperator property
 description: Logic Operator to use when applying a filter.
-ms.assetid: '9461c7a3-1c70-41bf-a4fe-8dacd4d2ba49'
-keywords: ["LogicOperator property Legacy Windows Environment Features", "LogicOperator property Legacy Windows Environment Features , IPropertyFilter interface", "IPropertyFilter interface Legacy Windows Environment Features , LogicOperator property"]
+ms.assetid: 9461c7a3-1c70-41bf-a4fe-8dacd4d2ba49
+keywords:
+- LogicOperator property Legacy Windows Environment Features
+- LogicOperator property Legacy Windows Environment Features , IPropertyFilter interface
+- IPropertyFilter interface Legacy Windows Environment Features , LogicOperator property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilter::LogicOperator property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_LogicOperator(
-  [in]          FilterLogicOperator op
+  [in]          FilterLogicOperator op
 );
 
 HRESULT get_LogicOperator(
-  [out, retval] FilterLogicOperator *op
+  [out, retval] FilterLogicOperator *op
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the logic operator type.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

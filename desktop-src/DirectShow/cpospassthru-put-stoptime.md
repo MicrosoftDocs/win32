@@ -1,19 +1,24 @@
 ---
-Description: 'The put\_StopTime method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::put\_StopTime method.'
-ms.assetid: '0a344cad-df93-47f1-8c7f-5d5ef775b850'
-title: 'CPosPassThru.put\_StopTime method'
+Description: The put\_StopTime method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPositionput\_StopTime method.
+ms.assetid: 0a344cad-df93-47f1-8c7f-5d5ef775b850
+title: CPosPassThru.put\_StopTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.put\_StopTime method
 
-The `put_StopTime` method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the [**IMediaPosition::put\_StopTime**](imediaposition-put-stoptime.md) method.
+The `put_StopTime` method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the [**IMediaPosition::put\_StopTime**](/windows/win32/Control/nf-control-imediaposition-put_stoptime?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT put_StopTime(
-   REFTIME llTime
+   REFTIME llTime
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Retrieves a string property for the deployment settings of a virtua
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '468ffdea-57a9-4478-adae-3629e4522762'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 468ffdea-57a9-4478-adae-3629e4522762
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetStringProperty method Remote Desktop Services", "GetStringProperty method Remote Desktop Services , Win32_RDMSDeploymentSettings class", "Win32_RDMSDeploymentSettings class Remote Desktop Services , GetStringProperty method"]
+keywords:
+- GetStringProperty method Remote Desktop Services
+- GetStringProperty method Remote Desktop Services , Win32_RDMSDeploymentSettings class
+- Win32_RDMSDeploymentSettings class Remote Desktop Services , GetStringProperty method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetStringProperty method of the Win32\_RDMSDeploymentSettings class
@@ -28,8 +34,8 @@ Retrieves a string property for the deployment settings of a virtual desktop col
 
 ```mof
 uint32 GetStringProperty(
-  [in]  string Key,
-  [out] string Value
+  [in]  string Key,
+  [out] string Value
 );
 ```
 
@@ -60,7 +66,7 @@ A string that receives the retrieved value.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -74,9 +80,9 @@ A string that receives the retrieved value.
 [**Win32\_RDMSDeploymentSettings**](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

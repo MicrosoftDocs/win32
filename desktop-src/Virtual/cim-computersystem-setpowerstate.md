@@ -1,8 +1,11 @@
 ---
 title: SetPowerState method of the CIM\_ComputerSystem class
 description: Deprecated description Sets the power state of the computer.This method is deprecated. Instead, use the RequestPowerStateChange method in the CIM\_PowerManagementService class.
-ms.assetid: '26eb93ac-bb61-4767-82ad-6f0f291f04ee'
-keywords: ["SetPowerState method Hyper-V", "SetPowerState method Hyper-V , CIM_ComputerSystem class", "CIM_ComputerSystem class Hyper-V , SetPowerState method"]
+ms.assetid: 26eb93ac-bb61-4767-82ad-6f0f291f04ee
+keywords:
+- SetPowerState method Hyper-V
+- SetPowerState method Hyper-V , CIM_ComputerSystem class
+- CIM_ComputerSystem class Hyper-V , SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPowerState method of the CIM\_ComputerSystem class
@@ -24,8 +32,8 @@ This method is deprecated. Instead, use the **RequestPowerStateChange** method i
 
 ```mof
 uint32 SetPowerState(
-  [in] uint32   PowerState,
-  [in] datetime Time
+  [in] uint32   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -127,9 +135,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

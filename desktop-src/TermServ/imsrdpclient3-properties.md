@@ -4,10 +4,13 @@ description: The IMsRdpClient3 interface exposes the following properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1516D464-EB54-49C5-8333-9E742D990D29'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1516D464-EB54-49C5-8333-9E742D990D29
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient3 Properties

@@ -1,8 +1,16 @@
 ---
 title: About Skins
 description: About Skins
-ms.assetid: '35c8c8b0-6feb-4fc5-b944-da712b521300'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,about", "skins,about"]
+ms.assetid: 35c8c8b0-6feb-4fc5-b944-da712b521300
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,about
+- skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Skins

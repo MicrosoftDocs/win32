@@ -4,13 +4,15 @@ description: Represents the health of Storage Replica Objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '50490694-9325-41f0-a16c-b47e1bf6542c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 50490694-9325-41f0-a16c-b47e1bf6542c
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WvrHealth class", "MSFT_WvrHealth class, described"]
+keywords:
+- MSFT_WvrHealth class
+- MSFT_WvrHealth class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WvrHealth class
@@ -276,16 +281,16 @@ Indicates the object that this health object belongs to.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

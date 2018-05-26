@@ -1,8 +1,11 @@
 ---
 title: IDatabaseProgress Update method
 description: Will be called when progress has occurred during a Compact operation.
-ms.assetid: '66600637-b59b-4756-8a04-cbc23b74b908'
-keywords: ["Update method Windows Mail (formerly Outlook Express)", "Update method Windows Mail (formerly Outlook Express) , IDatabaseProgress interface", "IDatabaseProgress interface Windows Mail (formerly Outlook Express) , Update method"]
+ms.assetid: 66600637-b59b-4756-8a04-cbc23b74b908
+keywords:
+- Update method Windows Mail (formerly Outlook Express)
+- Update method Windows Mail (formerly Outlook Express) , IDatabaseProgress interface
+- IDatabaseProgress interface Windows Mail (formerly Outlook Express) , Update method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabaseProgress::Update method
@@ -22,7 +30,7 @@ Will be called when progress has occurred during a Compact operation.
 
 ```C++
 HRESULT Update(
-  [in] DWORD cCount
+  [in] DWORD cCount
 );
 ```
 
@@ -53,16 +61,16 @@ If the return value from this function causes the SUCCEEDED macro to return **FA
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

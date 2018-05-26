@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetDefaultTransition method sets the default transition. If the render engine cannot render a transition, it substitutes the default transition.'
-ms.assetid: '5ee84a12-402f-4f1c-9f08-206431c7ecdb'
-title: 'IAMTimeline::SetDefaultTransition method'
+---
+Description: The SetDefaultTransition method sets the default transition. If the render engine cannot render a transition, it substitutes the default transition.
+ms.assetid: 5ee84a12-402f-4f1c-9f08-206431c7ecdb
+title: IAMTimelineSetDefaultTransition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::SetDefaultTransition method

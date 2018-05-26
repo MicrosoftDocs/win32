@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the latitude based on the reference in PKEY\_GPS\_LatitudeRef. Calculated from PKEY\_GPS\_LatitudeNumerator and PKEY\_GPS\_LatitudeDenominator.'
-ms.assetid: 'f896d6eb-052e-4aa7-b479-3f0117055c78'
-title: 'System.GPS.LatitudeDecimal'
+Description: Indicates the latitude based on the reference in PKEY\_GPS\_LatitudeRef. Calculated from PKEY\_GPS\_LatitudeNumerator and PKEY\_GPS\_LatitudeDenominator.
+ms.assetid: f896d6eb-052e-4aa7-b479-3f0117055c78
+title: System.GPS.LatitudeDecimal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.LatitudeDecimal

@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.transparencyColor
 description: The transparencyColor attribute specifies or retrieves the transparent color of the BUTTONGROUP images.
-ms.assetid: '604c5b29-50b9-4df6-9e48-488bf4fb7227'
-keywords: ["BUTTONGROUP.transparencyColor Windows Media Player"]
+ms.assetid: 604c5b29-50b9-4df6-9e48-488bf4fb7227
+keywords:
+- BUTTONGROUP.transparencyColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.transparencyColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.transparencyColor
@@ -33,7 +39,7 @@ This attribute is a read/write **String** with no default, containing one of the
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +71,9 @@ Because JPGs are lossy and therefore subject to unexpected color change, they ar
 [**Color Reference**](color-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

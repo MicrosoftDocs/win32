@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromBurn erase method
 description: The erase method erases the current CD.
-ms.assetid: 'ed0fbd7e-61a6-445a-bca5-ed2969d5cadc'
-keywords: ["erase method Windows Media Player", "erase method Windows Media Player , IWMPCdromBurn interface", "IWMPCdromBurn interface Windows Media Player , erase method"]
+ms.assetid: ed0fbd7e-61a6-445a-bca5-ed2969d5cadc
+keywords:
+- erase method Windows Media Player
+- erase method Windows Media Player , IWMPCdromBurn interface
+- IWMPCdromBurn interface Windows Media Player , erase method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn::erase method
@@ -76,9 +84,9 @@ This method will not work if the disc in the drive is not rewritable. Use [IWMPC
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

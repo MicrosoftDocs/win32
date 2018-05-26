@@ -4,11 +4,15 @@ description: The following list describes what can be contained in a group that 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7992ef2d-9dcf-4087-b09a-35235b23e499'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7992ef2d-9dcf-4087-b09a-35235b23e499
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Nesting in Native Mode AD"]
+keywords:
+- Nesting in Native Mode AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nesting in Native Mode

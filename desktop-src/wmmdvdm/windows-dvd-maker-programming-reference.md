@@ -1,8 +1,18 @@
 ---
 title: Windows DVD Maker Programming Reference
 description: Windows DVD Maker Programming Reference
-ms.assetid: '460ba355-ad82-4ec3-85b5-a045a85c6092'
-keywords: ["Windows DVD Maker,programming reference", "DVD Maker,programming reference", "programming reference,Windows DVD Maker", "reference for Windows DVD Maker,about", "Windows Vista,Windows DVD Maker programming reference"]
+ms.assetid: 460ba355-ad82-4ec3-85b5-a045a85c6092
+keywords:
+- Windows DVD Maker,programming reference
+- DVD Maker,programming reference
+- programming reference,Windows DVD Maker
+- reference for Windows DVD Maker,about
+- Windows Vista,Windows DVD Maker programming reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows DVD Maker Programming Reference

@@ -1,7 +1,12 @@
 ---
 title: Disk Management Routines
 description: Disk Management Routines
-ms.assetid: '805997db-bca8-4f94-ab1b-5e71e27d2e40'
+ms.assetid: 805997db-bca8-4f94-ab1b-5e71e27d2e40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Management Routines

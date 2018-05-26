@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MIDI Renderer filter renders MIDI data from the MIDI Parser filter.'
-ms.assetid: '2675a21d-41d0-4095-96c4-f12f52c00d5a'
+---
+Description: The MIDI Renderer filter renders MIDI data from the MIDI Parser filter.
+ms.assetid: 2675a21d-41d0-4095-96c4-f12f52c00d5a
 title: MIDI Renderer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Renderer Filter
@@ -12,9 +17,9 @@ The MIDI Renderer filter renders MIDI data from the [MIDI Parser](midi-parser-fi
 
 |                                          |                                                                                                                                                                                                                                                                                                                                                                                      |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMClockSlave**](iamclockslave.md), [**IAMDirectSound**](iamdirectsound.md), [**IAMResourceControl**](iamresourcecontrol.md), [**IBaseFilter**](ibasefilter.md), [**IBasicAudio**](ibasicaudio.md), [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IQualityControl**](iqualitycontrol.md), [**IReferenceClock**](ireferenceclock.md) |
+| Filter Interfaces                        | [**IAMClockSlave**](/windows/win32/Strmif/nn-strmif-iamclockslave?branch=master), [**IAMDirectSound**](/windows/win32/Amaudio/nn-amaudio-iamdirectsound?branch=master), [**IAMResourceControl**](/windows/win32/Strmif/nn-strmif-iamresourcecontrol?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IBasicAudio**](/windows/win32/Control/nn-control-ibasicaudio?branch=master), [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) |
 | Input Pin Media Types                    | MEDIATYPE\_Midi, MEDIASUBTYPE\_NULL                                                                                                                                                                                                                                                                                                                                                  |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                                                                                                                                                                                               |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                                                                                                                                                                                               |
 | Output Pin Media Types                   | Not applicable                                                                                                                                                                                                                                                                                                                                                                       |
 | Output Pin Interfaces                    | Not applicable                                                                                                                                                                                                                                                                                                                                                                       |
 | Filter CLSID                             | CLSID\_AVIMIDIRender                                                                                                                                                                                                                                                                                                                                                                 |

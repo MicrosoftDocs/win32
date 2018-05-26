@@ -1,12 +1,17 @@
-﻿---
-Description: 'Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an IDirect3DTexture9 object.'
-ms.assetid: '75854676-706a-4675-857e-4f2f8fc8365b'
-title: 'ID3DXPRTBuffer::ExtractTexture method'
+---
+Description: Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an IDirect3DTexture9 object.
+ms.assetid: 75854676-706a-4675-857e-4f2f8fc8365b
+title: ID3DXPRTBufferExtractTexture method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer::ExtractTexture method
 
-Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](idirect3dtexture9.md) object.
+Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) object.
 
 ## Syntax
 
@@ -56,9 +61,9 @@ Number of scalars, beginning at StartCoefficient, from which to extract texture 
 *pTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to a [**IDirect3DTexture9**](idirect3dtexture9.md) texture object that will store coefficients.
+Pointer to a [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object that will store coefficients.
 
 </dd> </dl>
 

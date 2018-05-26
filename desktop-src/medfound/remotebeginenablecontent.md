@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFContentProtectionManager::BeginEnableContent method.'
-ms.assetid: 'd06f752f-3f9a-4c7c-9c49-c886a675fe3a'
+---
+Description: Remotable version of the IMFContentProtectionManagerBeginEnableContent method.
+ms.assetid: d06f752f-3f9a-4c7c-9c49-c886a675fe3a
 title: RemoteBeginEnableContent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteBeginEnableContent
 
-Remotable version of the [**IMFContentProtectionManager::BeginEnableContent**](imfcontentprotectionmanager-beginenablecontent.md) method.
+Remotable version of the [**IMFContentProtectionManager::BeginEnableContent**](/windows/win32/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent?branch=master) method.
 
 ``` syntax
 [call_as(BeginEnableContent)]
@@ -20,7 +25,7 @@ HRESULT RemoteBeginEnableContent(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginEnableContent**](imfcontentprotectionmanager-beginenablecontent.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginEnableContent**](/windows/win32/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -39,7 +44,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFContentProtectionManager**](imfcontentprotectionmanager.md)
+[**IMFContentProtectionManager**](/windows/win32/mfidl/nn-mfidl-imfcontentprotectionmanager?branch=master)
 </dt> </dl>
 
  

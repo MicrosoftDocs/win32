@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a single certificate extension.'
-ms.assetid: '489c58b6-a704-4f54-bc64-34eacafc347c'
+---
+Description: Represents a single certificate extension.
+ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
 title: Extension object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extension object

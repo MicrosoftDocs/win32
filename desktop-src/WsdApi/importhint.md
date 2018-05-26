@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the download location for a &lt;wsdl:import&gt; directive that does not explicitly specify a location.'
-ms.assetid: '81d0a30b-8f15-4518-b833-de57e0dae978'
+Description: Specifies the download location for a &lt;wsdlimport&gt; directive that does not explicitly specify a location.
+ms.assetid: 81d0a30b-8f15-4518-b833-de57e0dae978
 title: importHint element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # importHint element
@@ -56,14 +61,14 @@ There are no attributes.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

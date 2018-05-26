@@ -1,7 +1,12 @@
 ---
-Description: 'Represents global Teredo configuration shared across all Teredo interfaces.'
-ms.assetid: 'ab40dee3-8154-4dfc-bba4-ea5ac96246bb'
-title: 'MSFT\_NetTeredoConfiguration class'
+Description: Represents global Teredo configuration shared across all Teredo interfaces.
+ms.assetid: ab40dee3-8154-4dfc-bba4-ea5ac96246bb
+title: MSFT\_NetTeredoConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetTeredoConfiguration class
@@ -16,14 +21,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetTtCim")]
 class MSFT_NetTeredoConfiguration : MSFT_NetSettingData
 {
-  string     PolicyStore;
-  uint32     Type;
-  string     ServerName;
+  string     PolicyStore;
+  uint32     Type;
+  string     ServerName;
   uint32 REF msft_netteredoconfiguration;
-  uint32     ClientPort;
-  boolean    ServerShunt;
-  string     ServerVirtualIP;
-  boolean    DefaultQualified;
+  uint32     ClientPort;
+  boolean    ServerShunt;
+  string     ServerVirtualIP;
+  boolean    DefaultQualified;
 };
 ```
 
@@ -46,7 +51,7 @@ The **MSFT\_NetTeredoConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -187,17 +192,17 @@ Describes the Teredo service using one of the following values:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

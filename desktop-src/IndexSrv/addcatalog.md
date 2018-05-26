@@ -1,7 +1,12 @@
 ---
 title: AddCatalog
 description: AddCatalog
-ms.assetid: 'e2542cb6-aaa6-4e67-83b1-b2349c57667b'
+ms.assetid: e2542cb6-aaa6-4e67-83b1-b2349c57667b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddCatalog

@@ -1,8 +1,9 @@
 ---
 title: EN\_CORRECTTEXT notification code
 description: Notifies a rich edit control parent window that a SYV\_CORRECT gesture occurred, giving the parent window a chance to cancel correcting the text. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: 'd6f6278f-ff63-4f6a-a352-2b4d70df3e1a'
-keywords: ["EN_CORRECTTEXT notification code Windows Controls"]
+ms.assetid: d6f6278f-ff63-4f6a-a352-2b4d70df3e1a
+keywords:
+- EN_CORRECTTEXT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_CORRECTTEXT notification code
@@ -33,7 +39,7 @@ EN_CORRECTTEXT
 *lParam* 
 </dt> <dd>
 
-An [**ENCORRECTTEXT**](encorrecttext.md) structure specifying the selection to be corrected.
+An [**ENCORRECTTEXT**](/windows/win32/Richedit/ns-richedit-_encorrecttext?branch=master) structure specifying the selection to be corrected.
 
 </dd> </dl>
 
@@ -52,7 +58,7 @@ To receive EN\_CORRECTTEXT notification codes, specify [**ENM\_CORRECTTEXT**](ri
 > [!Note]  
 > The EN\_CORRECTTEXT notification code is only supported in rich edit version 1.0. It is not supported in later versions of rich edit. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
- 
+ 
 
 ## Requirements
 
@@ -60,8 +66,8 @@ To receive EN\_CORRECTTEXT notification codes, specify [**ENM\_CORRECTTEXT**](ri
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -73,12 +79,12 @@ To receive EN\_CORRECTTEXT notification codes, specify [**ENM\_CORRECTTEXT**](ri
 **Reference**
 </dt> <dt>
 
-[**ENCORRECTTEXT**](encorrecttext.md)
+[**ENCORRECTTEXT**](/windows/win32/Richedit/ns-richedit-_encorrecttext?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

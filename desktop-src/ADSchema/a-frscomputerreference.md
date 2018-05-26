@@ -1,20 +1,25 @@
 ---
 title: Frs-Computer-Reference attribute
-description: Reference to a replica set member's computer object.
+description: Reference to a replica set members computer object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07973ca8-2559-41ee-b074-840c8b523fae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 07973ca8-2559-41ee-b074-840c8b523fae
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Frs-Computer-Reference attribute AD Schema", "frsComputerReference attribute AD Schema"]
+keywords:
+- Frs-Computer-Reference attribute AD Schema
+- frsComputerReference attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Frs-Computer-Reference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Frs-Computer-Reference attribute
@@ -38,12 +43,12 @@ Reference to a replica set member's computer object.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Reference to a replica set member's computer object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

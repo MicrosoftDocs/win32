@@ -1,7 +1,12 @@
 ---
 title: phase - ps
 description: The phase instruction marks the transition between phase 1 and phase 2. If no phase instruction is present, the entire shader runs as if it is a phase 2 shader.
-ms.assetid: 'e0e89425-dc8e-489f-a0d1-3eefbfd09178'
+ms.assetid: e0e89425-dc8e-489f-a0d1-3eefbfd09178
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # phase - ps

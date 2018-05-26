@@ -1,7 +1,12 @@
 ---
 title: Setting Charset
 description: Setting Charset
-ms.assetid: 'd2720abc-091a-48d9-b568-0fccc6deec8f'
+ms.assetid: d2720abc-091a-48d9-b568-0fccc6deec8f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Charset

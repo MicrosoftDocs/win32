@@ -1,7 +1,12 @@
 ---
-Description: 'Right-clicking an object normally causes the display of a shortcut menu. This menu contains a list of commands that the user can select to perform various actions on the object. This section is an introduction to shortcut menus for file system objects.'
-ms.assetid: 'd951d1e8-0f88-49c4-8373-e6db0e18cd72'
+Description: Right-clicking an object normally causes the display of a shortcut menu. This menu contains a list of commands that the user can select to perform various actions on the object. This section is an introduction to shortcut menus for file system objects.
+ms.assetid: d951d1e8-0f88-49c4-8373-e6db0e18cd72
 title: Extending Shortcut Menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending Shortcut Menus
@@ -40,7 +45,7 @@ All that is required to extend the shortcut menu for a file type is to create a 
 
 ## Shortcut Menu Verbs
 
-Each command on the shortcut menu is identified in the registry by its *verb*. These verbs are the same as those used by [**ShellExecuteEx**](shellexecuteex.md) when launching applications programmatically. For further information about the use of **ShellExecuteEx**, see the discussion in [Launching Applications](launch.md).
+Each command on the shortcut menu is identified in the registry by its *verb*. These verbs are the same as those used by [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) when launching applications programmatically. For further information about the use of **ShellExecuteEx**, see the discussion in [Launching Applications](launch.md).
 
 A verb is a simple text string that is used by the Shell to identify the associated command. Each verb corresponds to the *command string* used to launch the command in a console window or batch (.bat) file. For example, the **open** verb normally launches a program to open a file. Its command string typically looks something like this:
 
@@ -89,7 +94,7 @@ When the user right-clicks an object, the shortcut menu contains all the normal 
 
 The simplest way to extend the shortcut menu for a file type is with the registry. To do this, add a **Shell** subkey below the key for the ProgID of the application associated with the [file type](fa-file-types.md). Optionally, you can define a *default verb* for the file type by making it the default value of the **Shell** subkey.
 
-The default verb is displayed first on the shortcut menu. Its purpose is to provide the Shell with a verb it can use when [**ShellExecuteEx**](shellexecuteex.md) is called but no verb is specified. The Shell does not necessarily select the default verb when **ShellExecuteEx** is used in this fashion. For Shell [versions 5.0](versions.md) and later, found on Windows 2000 and later systems, the Shell uses the first available verb from the following list. If none are available, the operation fails.
+The default verb is displayed first on the shortcut menu. Its purpose is to provide the Shell with a verb it can use when [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) is called but no verb is specified. The Shell does not necessarily select the default verb when **ShellExecuteEx** is used in this fashion. For Shell [versions 5.0](versions.md) and later, found on Windows 2000 and later systems, the Shell uses the first available verb from the following list. If none are available, the operation fails.
 
 -   The open verb
 -   The default verb
@@ -131,7 +136,7 @@ HKEY_CLASSES_ROOT
 
 Although the **Open With** command is above the first separator, it is automatically created by the system and does not require a registry entry. The system automatically creates display names for the canonical verbs open and print. Because doit is not a canonical verb, it is assigned a display name, "&Do It", which can be selected by pressing the D key. The printto verb does not appear on the shortcut menu, but including it allows the user to print files by dropping them on a printer icon. In this example, %1 represents the file name and %2 the printer name.
 
-Verbs can be suppressed through policy settings by adding a SuppressionPolicy value to the verb's key. Set the value of SuppressionPolicy to the policy ID. If the policy is turned on, the verb and its associated shortcut menu entry are suppressed. For possible policy ID values, see the [**RESTRICTIONS**](restrictions.md) enumeration.
+Verbs can be suppressed through policy settings by adding a SuppressionPolicy value to the verb's key. Set the value of SuppressionPolicy to the policy ID. If the policy is turned on, the verb and its associated shortcut menu entry are suppressed. For possible policy ID values, see the [**RESTRICTIONS**](/windows/win32/shlobj_core/ne-shlobj_core-restrictions?branch=master) enumeration.
 
 ## Extending the Shortcut Menu for Predefined Shell Objects
 

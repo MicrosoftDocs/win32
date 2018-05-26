@@ -1,7 +1,12 @@
 ---
-Description: 'Is obsolete and should not be used.'
-ms.assetid: 'cbe89779-403d-406e-af3c-d6530bf3008e'
+Description: Is obsolete and should not be used.
+ms.assetid: cbe89779-403d-406e-af3c-d6530bf3008e
 title: ADDRESS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDRESS structure
@@ -15,20 +20,20 @@ The **ADDRESS** structure is obsolete and should not be used.
 typedef struct _ADDRESS {
   DWORD Type;
   union {
-    BYTE                  MACAddress[MAC_ADDRESS_SIZE];
-    BYTE                  IPAddress[IP_ADDRESS_SIZE];
-    BYTE                  IPXRawAddress[IPX_ADDRESS_SIZE];
-    IPX_ADDRESS           IPXAddress;
-    BYTE                  VinesIPRawAddress[VINES_IP_ADDRESS_SIZE];
-    VINES_IP_ADDRESS      VinesIPAddress;
-    ETHERNET_SRC_ADDRESS  EthernetSrcAddress;
-    ETHERNET_DST_ADDRESS  EthernetDstAddress;
+    BYTE                  MACAddress[MAC_ADDRESS_SIZE];
+    BYTE                  IPAddress[IP_ADDRESS_SIZE];
+    BYTE                  IPXRawAddress[IPX_ADDRESS_SIZE];
+    IPX_ADDRESS           IPXAddress;
+    BYTE                  VinesIPRawAddress[VINES_IP_ADDRESS_SIZE];
+    VINES_IP_ADDRESS      VinesIPAddress;
+    ETHERNET_SRC_ADDRESS  EthernetSrcAddress;
+    ETHERNET_DST_ADDRESS  EthernetDstAddress;
     TOKENRING_SRC_ADDRESS TokenringSrcAddress;
     TOKENRING_DST_ADDRESS TokenringDstAddress;
-    FDDI_SRC_ADDRESS      FddiSrcAddress;
-    FDDI_DST_ADDRESS      FddiDstAddress;
+    FDDI_SRC_ADDRESS      FddiSrcAddress;
+    FDDI_DST_ADDRESS      FddiDstAddress;
   };
-  WORD  Flags;
+  WORD  Flags;
 } ADDRESS, *LPADDRESS;
 ```
 
@@ -142,15 +147,15 @@ A set of flags that modify the address properties.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

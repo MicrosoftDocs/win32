@@ -1,14 +1,20 @@
 ---
 title: DisplayInformation (TextInteraction) Element
 description: The name and description of this interaction.
-ms.assetid: '11831869-a093-49ba-be19-c1c762998b42'
-keywords: ["DisplayInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 11831869-a093-49ba-be19-c1c762998b42
+keywords:
+- DisplayInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DisplayInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisplayInformation (TextInteraction) Element
@@ -27,14 +33,14 @@ The **DisplayInformation** element is defined by the [**TextInteraction**](packa
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

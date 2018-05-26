@@ -1,7 +1,7 @@
 ---
 title: UI\_ANIMATION\_SECONDS\_INFINITE
 description: Indicates that there are no scheduled events.
-ms.assetid: '7DDE96A5-5639-49EC-B5C0-3FBE60B84197'
+ms.assetid: 7DDE96A5-5639-49EC-B5C0-3FBE60B84197
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_ANIMATION\_SECONDS\_INFINITE
@@ -26,7 +31,7 @@ Indicates that there are no scheduled events.
 
 ## Remarks
 
-This value can be returned in a call to the [**IUIAnimationManager2::EstimateNextEventTime**](iuianimationmanager2-estimatenexteventtime.md) method.
+This value can be returned in a call to the [**IUIAnimationManager2::EstimateNextEventTime**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager2-estimatenexteventtime?branch=master) method.
 
 ## Requirements
 
@@ -34,7 +39,7 @@ This value can be returned in a call to the [**IUIAnimationManager2::EstimateNex
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
+| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>UIAnimation.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>UIAnimation.idl</dt> </dl> |
@@ -48,12 +53,12 @@ This value can be returned in a call to the [**IUIAnimationManager2::EstimateNex
 [Constants](constants.md)
 </dt> <dt>
 
-[**IUIAnimationManager2::EstimateNextEventTime Method**](iuianimationmanager2-estimatenexteventtime.md)
+[**IUIAnimationManager2::EstimateNextEventTime Method**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager2-estimatenexteventtime?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

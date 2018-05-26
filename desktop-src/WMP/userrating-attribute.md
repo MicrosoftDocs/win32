@@ -1,14 +1,20 @@
 ---
 title: UserRating Attribute
 description: The UserRating attribute is the rating specified by the user in the library.
-ms.assetid: '33df5316-1506-4ecb-b729-c2d66b878825'
-keywords: ["UserRating Attribute Windows Media Player"]
+ms.assetid: 33df5316-1506-4ecb-b729-c2d66b878825
+keywords:
+- UserRating Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserRating Attribute
@@ -40,7 +46,7 @@ User ratings are represented by integer values, as described in the following ta
 
 
 
- 
+ 
 
 This attribute is stored only in the library.
 
@@ -63,9 +69,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

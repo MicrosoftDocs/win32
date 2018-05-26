@@ -1,14 +1,20 @@
 ---
 title: Username Element
 description: Captures the user name to be sent in the EAP-Identity response.
-ms.assetid: 'dda4a7dd-36ba-418d-9b26-2818ef20854d'
-keywords: ["Username element EAPHost"]
+ms.assetid: dda4a7dd-36ba-418d-9b26-2818ef20854d
+keywords:
+- Username element EAPHost
 topic_type:
 - apiref
 api_name:
 - Username
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Username Element
@@ -29,8 +35,8 @@ If the **Username** element is absent, then EAP-TLS uses the name in the certifi
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ If the **Username** element is absent, then EAP-TLS uses the name in the certifi
 [eaptlsuserpropertiesv1 Schema](eaptlsuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

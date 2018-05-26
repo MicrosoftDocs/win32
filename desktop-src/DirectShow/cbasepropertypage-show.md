@@ -1,7 +1,12 @@
 ---
-Description: 'The Show method shows or hides the dialog box. This method implements the IPropertyPage::Show method.'
-ms.assetid: '03796779-ed41-4b68-852d-6b1849a9dc10'
-title: 'CBasePropertyPage.Show method'
+Description: The Show method shows or hides the dialog box. This method implements the IPropertyPageShow method.
+ms.assetid: 03796779-ed41-4b68-852d-6b1849a9dc10
+title: CBasePropertyPage.Show method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.Show method
@@ -13,7 +18,7 @@ The `Show` method shows or hides the dialog box. This method implements the **IP
 
 ```C++
 HRESULT Show(
-   UINT nCmdShow
+   UINT nCmdShow
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

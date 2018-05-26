@@ -1,8 +1,10 @@
 ---
 title: MDM\_ClientCertificateInstall\_PFXCertInstall01\_01 class
 description: The MDM\_ClientCertificateInstall\_PFXCertInstall01\_01 class enables the enterprise to use unique IDs to differentiate different certificate install requests.
-ms.assetid: '13b4d646-b49e-4a9d-b644-b52279249063'
-keywords: ["MDM_ClientCertificateInstall_PFXCertInstall01_01 class", "MDM_ClientCertificateInstall_PFXCertInstall01_01 class, described"]
+ms.assetid: 13b4d646-b49e-4a9d-b644-b52279249063
+keywords:
+- MDM_ClientCertificateInstall_PFXCertInstall01_01 class
+- MDM_ClientCertificateInstall_PFXCertInstall01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ClientCertificateInstall\_PFXCertInstall01\_01 class
@@ -31,17 +38,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [InPartition("local-system", "local-user"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_ClientCertificateInstall_PFXCertInstall01_01
 {
-  string  InstanceID;
-  string  ParentID;
-  sint32  KeyLocation;
-  string  ContainerName;
-  string  PFXCertBlob;
-  string  PFXCertPassword;
-  sint32  PFXCertPasswordEncryptionType;
+  string  InstanceID;
+  string  ParentID;
+  sint32  KeyLocation;
+  string  ContainerName;
+  string  PFXCertBlob;
+  string  PFXCertPassword;
+  sint32  PFXCertPasswordEncryptionType;
   boolean PFXKeyExportable;
-  string  Thumbprint;
-  sint32  Status;
-  string  PFXCertPasswordEncryptionStore;
+  string  Thumbprint;
+  sint32  Status;
+  string  PFXCertPasswordEncryptionStore;
 };
 ```
 
@@ -199,7 +206,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -214,9 +221,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

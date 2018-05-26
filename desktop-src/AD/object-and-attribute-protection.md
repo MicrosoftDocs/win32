@@ -4,11 +4,16 @@ description: An access-control list (ACL) protects all objects in Active Directo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '64ac1f88-57d6-4821-bd17-f7ef1004922c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 64ac1f88-57d6-4821-bd17-f7ef1004922c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Object and Attribute Protection", "security AD , object and attribute protection"]
+keywords:
+- Object and Attribute Protection
+- security AD , object and attribute protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Object and Attribute Protection

@@ -1,8 +1,11 @@
 ---
 title: RemoveKvpItems method of the Msvm\_VirtualSystemManagementService class
 description: Removes existing key-value pairs from a virtual system.
-ms.assetid: 'c3afde03-9f13-4464-bf43-7cf57ece9b0a'
-keywords: ["RemoveKvpItems method Hyper-V", "RemoveKvpItems method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , RemoveKvpItems method"]
+ms.assetid: c3afde03-9f13-4464-bf43-7cf57ece9b0a
+keywords:
+- RemoveKvpItems method Hyper-V
+- RemoveKvpItems method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , RemoveKvpItems method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveKvpItems method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Removes existing key-value pairs from a virtual system.
 
 ```mof
 uint32 RemoveKvpItems(
-  [in]  CIM_ComputerSystem REF TargetSystem,
-  [in]  string                 DataItems[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF TargetSystem,
+  [in]  string                 DataItems[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -119,7 +127,7 @@ The following C# sample removes key-value pairs from a virtual system. The refer
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -201,7 +209,7 @@ The following VBScript sample removes key-value pairs from a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -362,9 +370,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -377,9 +385,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The DIBDATA structure contains information about a GDI device-independent bitmap (DIB).'
-ms.assetid: 'ec337336-69ec-47ff-a522-42c0388f9bc0'
+Description: The DIBDATA structure contains information about a GDI device-independent bitmap (DIB).
+ms.assetid: ec337336-69ec-47ff-a522-42c0388f9bc0
 title: DIBDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIBDATA structure
@@ -13,11 +18,11 @@ The `DIBDATA` structure contains information about a GDI device-independent bitm
 
 ```C++
 typedef struct tagDIBDATA {
-  LONG       PaletteVersion;
+  LONG       PaletteVersion;
   DIBSECTION DibSection;
-  HBITMAP    hBitmap;
-  HANDLE     hMapping;
-  BYTE       *pBase;
+  HBITMAP    hBitmap;
+  HANDLE     hMapping;
+  BYTE       *pBase;
 } DIBDATA;
 ```
 
@@ -72,9 +77,9 @@ Address of the bitmap.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

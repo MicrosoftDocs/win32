@@ -1,7 +1,12 @@
 ---
-Description: 'Subscribes for service status change notifications using a callback function.'
-ms.assetid: 'd67113eb-2141-444c-9f09-eaa772bcad8a'
+Description: Subscribes for service status change notifications using a callback function.
+ms.assetid: d67113eb-2141-444c-9f09-eaa772bcad8a
 title: SubscribeServiceChangeNotifications function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SubscribeServiceChangeNotifications function
@@ -13,11 +18,11 @@ Subscribes for service status change notifications using a callback function.
 
 ```C++
 DWORD WINAPI SubscribeServiceChangeNotifications(
-  _In_     SC_HANDLE                     hService,
-  _In_     SC_EVENT_TYPE                 eEventType,
-  _In_     PSC_NOTIFICATION_CALLBACK     pCallback,
-  _In_opt_ PVOID                         pCallbackContext,
-  _Out_    PSC_NOTIFICATION_REGISTRATION *pSubscription
+  _In_     SC_HANDLE                     hService,
+  _In_     SC_EVENT_TYPE                 eEventType,
+  _In_     PSC_NOTIFICATION_CALLBACK     pCallback,
+  _In_opt_ PVOID                         pCallbackContext,
+  _Out_    PSC_NOTIFICATION_REGISTRATION *pSubscription
 );
 ```
 
@@ -32,7 +37,7 @@ DWORD WINAPI SubscribeServiceChangeNotifications(
 
 A handle to the service or a handle to the service control manager (SCM) to monitor for changes.
 
-Handles to services are returned by the [**OpenService**](openservice.md) and [**CreateService**](createservice.md) function and must have the **SERVICE\_QUERY\_STATUS** access right. Handles to the service control manager are returned by the [**OpenSCManager**](openscmanager.md) function and must have the **SC\_MANAGER\_ENUMERATE\_SERVICE** access right.
+Handles to services are returned by the [**OpenService**](/windows/win32/Winsvc/nf-winsvc-openservicea?branch=master) and [**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master) function and must have the **SERVICE\_QUERY\_STATUS** access right. Handles to the service control manager are returned by the [**OpenSCManager**](/windows/win32/Winsvc/nf-winsvc-openscmanagera?branch=master) function and must have the **SC\_MANAGER\_ENUMERATE\_SERVICE** access right.
 
 </dd> <dt>
 
@@ -51,7 +56,7 @@ Specifies the type of status changes that should be reported. This parameter is 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,8 +112,8 @@ The callback function must not block execution. If you expect the execution of t
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Winsvcp.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>SecHost.dll</dt> </dl> |
 
@@ -118,24 +123,24 @@ The callback function must not block execution. If you expect the execution of t
 
 <dl> <dt>
 
-[**CreateService**](createservice.md)
+[**CreateService**](/windows/win32/Winsvc/nf-winsvc-createservicea?branch=master)
 </dt> <dt>
 
-[**OpenService**](openservice.md)
+[**OpenService**](/windows/win32/Winsvc/nf-winsvc-openservicea?branch=master)
 </dt> <dt>
 
-[**OpenSCManager**](openscmanager.md)
+[**OpenSCManager**](/windows/win32/Winsvc/nf-winsvc-openscmanagera?branch=master)
 </dt> <dt>
 
 [**UnsubscribeServiceChangeNotifications**](unsubscribeservicechangenotifications.md)
 </dt> <dt>
 
-[**QueryServiceDynamicInformation**](queryservicedynamicinformation.md)
+[**QueryServiceDynamicInformation**](/windows/win32/Winsvc/nf-winsvc-queryservicedynamicinformation?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IssueCollection Clear method
 description: Deletes all Issue objects from the IssueCollection.
-ms.assetid: 'D7278046-CC4D-4683-9E25-451F79D0CA56'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , IssueCollection interface", "IssueCollection interface Access Execution Engine , Clear method"]
+ms.assetid: D7278046-CC4D-4683-9E25-451F79D0CA56
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , IssueCollection interface
+- IssueCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueCollection::Clear method
@@ -46,8 +54,8 @@ The **Issue** objects hold data from **Issues/Issue** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ The **Issue** objects hold data from **Issues/Issue** elements.
 [**IssueCollection**](issuecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

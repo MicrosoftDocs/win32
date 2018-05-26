@@ -4,11 +4,15 @@ description: You can use Microsoft Foundation Classes (MFC) in your snap-in code
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e217db44-4a0e-402a-b850-75940f63ed10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e217db44-4a0e-402a-b850-75940f63ed10
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MFC and snap-in development MMC"]
+keywords:
+- MFC and snap-in development MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MFC and Snap-in Development
@@ -41,7 +45,7 @@ STDAPI MMCPropPageCallback(
 
 
 
-The vpsp argument is the pointer to a Windows [**PROPSHEETPAGE**](propsheetpage.md) structure. By default, MFC specifies its own callback function in the pfnCallback member of the structure. Therefore, for each page you create derived from the MFC class CPropertyPage, you must call [**MMCPropPageCallback**](mmcproppagecallback.md) with a pointer to the page's callback.
+The vpsp argument is the pointer to a Windows [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure. By default, MFC specifies its own callback function in the pfnCallback member of the structure. Therefore, for each page you create derived from the MFC class CPropertyPage, you must call [**MMCPropPageCallback**](mmcproppagecallback.md) with a pointer to the page's callback.
 
 Be aware that [**MMCPropPageCallback**](mmcproppagecallback.md) should not be called by snap-ins that statically link MFC libraries. A call to this function by such a snap-in will not link correctly.
 

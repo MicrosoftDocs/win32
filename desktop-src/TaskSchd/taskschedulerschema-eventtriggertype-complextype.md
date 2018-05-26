@@ -1,14 +1,20 @@
 ---
 title: eventTriggerType Complex Type
 description: Defines the child elements and sequencing information for the EventTrigger element.
-ms.assetid: 'c678af6f-bdfb-4c4d-85d7-2d93abfc2a7d'
-keywords: ["eventTriggerType complex type Task Scheduler"]
+ms.assetid: c678af6f-bdfb-4c4d-85d7-2d93abfc2a7d
+keywords:
+- eventTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - eventTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # eventTriggerType Complex Type
@@ -62,8 +68,8 @@ In addition to the child element defined here, the [**EventTrigger**](taskschedu
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -77,9 +83,9 @@ In addition to the child element defined here, the [**EventTrigger**](taskschedu
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

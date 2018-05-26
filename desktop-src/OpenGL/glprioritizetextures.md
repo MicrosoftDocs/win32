@@ -1,8 +1,9 @@
 ---
 title: glPrioritizeTextures function
 description: The glPrioritizeTextures function sets the residence priority of textures.
-ms.assetid: '09018c86-c667-4e43-a95a-51a8077aed33'
-keywords: ["glPrioritizeTextures function OpenGL"]
+ms.assetid: 09018c86-c667-4e43-a95a-51a8077aed33
+keywords:
+- glPrioritizeTextures function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPrioritizeTextures function
@@ -22,9 +28,9 @@ The **glPrioritizeTextures** function sets the residence priority of textures.
 
 ```C++
 void WINAPI glPrioritizeTextures(
-         GLsizei  n,
-   const GLuint   *textures,
-   const GLclampf *priorities
+         GLsizei  n,
+   const GLuint   *textures,
+   const GLclampf *priorities
 );
 ```
 
@@ -106,7 +112,7 @@ The following function retrieves the priority of a currently-bound texture relat
 > [!Note]  
 > The **glPrioritizeTextures** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 ## Requirements
 
@@ -114,8 +120,8 @@ The following function retrieves the priority of a currently-bound texture relat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -147,9 +153,9 @@ The following function retrieves the priority of a currently-bound texture relat
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

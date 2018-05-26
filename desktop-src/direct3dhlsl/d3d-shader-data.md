@@ -1,8 +1,9 @@
 ---
 title: D3D\_SHADER\_DATA structure
 description: Describes shader data.
-ms.assetid: '34cde0c9-e8ee-428d-86f5-87c91b95f5d8'
-keywords: ["D3D_SHADER_DATA structure HLSL"]
+ms.assetid: 34cde0c9-e8ee-428d-86f5-87c91b95f5d8
+keywords:
+- D3D_SHADER_DATA structure HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3Dcompiler.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D\_SHADER\_DATA structure
@@ -23,7 +29,7 @@ Describes shader data.
 ```C++
 typedef struct _D3D_SHADER_DATA {
   LPCVOID pBytecode;
-  SIZE_T  BytecodeLength;
+  SIZE_T  BytecodeLength;
 } D3D_SHADER_DATA;
 ```
 
@@ -68,9 +74,9 @@ An array of **D3D\_SHADER\_DATA** structures is passed to [**D3DCompressShaders*
 [Structures](dx-graphics-d3dcompiler-reference-structs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

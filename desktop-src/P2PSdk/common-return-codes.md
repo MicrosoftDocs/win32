@@ -1,6 +1,11 @@
 ---
-ms.assetid: '88bf94b0-b8fe-4293-aa22-8a04aa0de48a'
+ms.assetid: 88bf94b0-b8fe-4293-aa22-8a04aa0de48a
 title: Common Return Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Return Codes
@@ -100,11 +105,11 @@ The following codes are commonly returned by Peer Networking:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

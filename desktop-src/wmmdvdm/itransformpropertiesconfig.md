@@ -1,14 +1,21 @@
 ---
 title: ITransformPropertiesConfig interface
 description: The ITransformPropertiesConfig interface is used to create, add, and remove properties from a collection. To get this interface, query ITransformProperty or ITransformProperties.
-ms.assetid: 'b94c1a44-495d-4446-aa9e-b9479079f44c'
-keywords: ["ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker", "ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: b94c1a44-495d-4446-aa9e-b9479079f44c
+keywords:
+- ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker
+- ITransformPropertiesConfig interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - ITransformPropertiesConfig
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformPropertiesConfig interface
@@ -38,7 +45,7 @@ The **ITransformPropertiesConfig** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -47,9 +54,9 @@ The **ITransformPropertiesConfig** interface has these methods.
 [**Property Management Interfaces**](property-management-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

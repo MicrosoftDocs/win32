@@ -1,7 +1,12 @@
-﻿---
-Description: 'Windows Installer provides package developers the capability to author an internal user interface that has multiple levels of functionality.'
-ms.assetid: '9f5796a7-e244-4fc8-af85-52a147bb2c0b'
+---
+Description: Windows Installer provides package developers the capability to author an internal user interface that has multiple levels of functionality.
+ms.assetid: 9f5796a7-e244-4fc8-af85-52a147bb2c0b
 title: User Interface Levels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Levels
@@ -50,7 +55,7 @@ Modal dialog boxes require user input before the installation can continue and a
 
  
 
-The level of the internal UI can be set using [**MsiSetInternalUI**](msisetinternalui.md). The installer sets the [**UILevel**](uilevel.md) property to the current level of the UI.
+The level of the internal UI can be set using [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master). The installer sets the [**UILevel**](uilevel.md) property to the current level of the UI.
 
 If the [**LIMITUI**](limitui.md) property is set, the user interface (UI) level used when installing the package is restricted to Basic.
 

@@ -4,17 +4,22 @@ description: Properties associated with DFS root or link.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e7711f37-21ae-43ca-a064-917a730bb94a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e7711f37-21ae-43ca-a064-917a730bb94a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Properties-v2 attribute AD Schema", "msDFS-Propertiesv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Properties-v2 attribute AD Schema
+- msDFS-Propertiesv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Properties-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Properties-v2 attribute
@@ -38,9 +43,9 @@ Properties associated with DFS root or link.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Properties associated with DFS root or link.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

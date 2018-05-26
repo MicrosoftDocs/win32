@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'D058EF0A-014A-4A91-A8B5-6D4ACB1667E0'
-title: 'SPLCLIENT\_INFO\_2\_LONGHORN structure'
+---
+Description: .
+ms.assetid: D058EF0A-014A-4A91-A8B5-6D4ACB1667E0
+title: SPLCLIENT\_INFO\_2\_LONGHORN structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPLCLIENT\_INFO\_2\_LONGHORN structure

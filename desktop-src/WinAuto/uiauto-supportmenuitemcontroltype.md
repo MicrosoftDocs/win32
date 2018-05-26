@@ -1,8 +1,29 @@
 ---
 title: MenuItem Control Type
 description: This topic provides information about Microsoft UI Automation support for the MenuItem control type.
-ms.assetid: 'a6a04489-8e28-44ff-a3b0-ecf19c24daab'
-keywords: ["UI Automation,support for MenuItem control type", "UI Automation,MenuItem control type", "UI Automation,tree structure for MenuItem control type", "UI Automation,properties for MenuItem control type", "UI Automation,control patterns for MenuItem control type", "UI Automation,events for MenuItem control type", "tree structures,MenuItem control type", "properties,MenuItem control type", "control patterns,MenuItem control type", "events,MenuItem control type", "support for MenuItem control type", "MenuItem control type", "control types,tree structure for MenuItem control type", "control types,control patterns for MenuItem control type", "control types,support for MenuItem", "control types,MenuItem"]
+ms.assetid: a6a04489-8e28-44ff-a3b0-ecf19c24daab
+keywords:
+- UI Automation,support for MenuItem control type
+- UI Automation,MenuItem control type
+- UI Automation,tree structure for MenuItem control type
+- UI Automation,properties for MenuItem control type
+- UI Automation,control patterns for MenuItem control type
+- UI Automation,events for MenuItem control type
+- tree structures,MenuItem control type
+- properties,MenuItem control type
+- control patterns,MenuItem control type
+- events,MenuItem control type
+- support for MenuItem control type
+- MenuItem control type
+- control types,tree structure for MenuItem control type
+- control types,control patterns for MenuItem control type
+- control types,support for MenuItem
+- control types,MenuItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MenuItem Control Type
@@ -100,10 +121,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support | Notes                                                                                                                                                |
 |-------------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Depends | If the control can be expanded or collapsed, implement [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md).                            |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)                 | Depends | If the control executes a single action or command, implement [**IInvokeProvider**](uiauto-iinvokeprovider.md).                                     |
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md)   | Depends | If the control is used to select from a list of options among menu items, implement [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md). |
-| [**IToggleProvider**](uiauto-itoggleprovider.md)                 | Depends | If the control represents an option that can be turned on or off, implement [**IToggleProvider**](uiauto-itoggleprovider.md).                       |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Depends | If the control can be expanded or collapsed, implement [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master).                            |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)                 | Depends | If the control executes a single action or command, implement [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master).                                     |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master)   | Depends | If the control is used to select from a list of options among menu items, implement [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master). |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master)                 | Depends | If the control represents an option that can be turned on or off, implement [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master).                       |
 
 
 

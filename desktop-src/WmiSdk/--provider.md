@@ -1,13 +1,16 @@
 ---
-Description: 'Serves as the parent class for the \_\_Win32Provider system class.'
+Description: Serves as the parent class for the \_\_Win32Provider system class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e4cad7c6-4650-4334-b8c4-ac65381bced7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e4cad7c6-4650-4334-b8c4-ac65381bced7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_Provider class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_Provider class
@@ -72,8 +75,8 @@ Providers create [**\_\_Win32Provider**](--win32provider.md) instances to specif
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -91,9 +94,9 @@ Providers create [**\_\_Win32Provider**](--win32provider.md) instances to specif
 [**\_\_Win32Provider**](--win32provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

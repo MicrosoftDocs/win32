@@ -4,13 +4,15 @@ description: A generic association that is used to represent dependency relation
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '379a9bb2-bc13-456d-a25b-e598c9cce676'
-ms.prod: 'windows-server-dev'
+ms.assetid: 379a9bb2-bc13-456d-a25b-e598c9cce676
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_ConcreteDependency class iSCSI Software Target API", "MSISCSITARGET_ConcreteDependency class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_ConcreteDependency class iSCSI Software Target API
+- MSISCSITARGET_ConcreteDependency class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_ConcreteDependency class
@@ -30,7 +35,7 @@ A generic association that is used to represent dependency relationships between
 > [!Note]  
 > The **MSISCSITARGET\_ConcreteDependency** class is limited in its use to instances of a general dependency and should not be used as a base class for more specific dependency classes. Instead, define a concrete subclass of [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238) or one of its abstract subclasses.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -94,7 +99,7 @@ This property is inherited from [**CIM\_ConcreteDependency**](cim-concretedepend
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -111,9 +116,9 @@ This property is inherited from [**CIM\_ConcreteDependency**](cim-concretedepend
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

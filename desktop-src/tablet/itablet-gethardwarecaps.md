@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a value that represents the capabilities of the tablet hardware.'
-ms.assetid: '68936dab-3df4-42c4-9945-bcd525c996f3'
-title: 'ITablet::GetHardwareCaps method'
+Description: Returns a value that represents the capabilities of the tablet hardware.
+ms.assetid: 68936dab-3df4-42c4-9945-bcd525c996f3
+title: ITabletGetHardwareCaps method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::GetHardwareCaps method
@@ -13,7 +18,7 @@ Returns a value that represents the capabilities of the tablet hardware.
 
 ```C++
 HRESULT GetHardwareCaps(
-  [out] DWORD *pdwCaps
+  [out] DWORD *pdwCaps
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,7 +65,7 @@ The *pdwCaps* parameter is a set of bit flags that describe tablet hardware capa
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,7 +73,7 @@ The *pdwCaps* parameter is a set of bit flags that describe tablet hardware capa
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -81,9 +86,9 @@ The *pdwCaps* parameter is a set of bit flags that describe tablet hardware capa
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

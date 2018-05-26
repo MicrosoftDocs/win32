@@ -1,7 +1,12 @@
 ---
-Description: 'An application cannot change the access control list of an object unless the application has the rights to do so.'
-ms.assetid: '5f710fd8-33de-47c0-a8b2-baf3008c4ed7'
-title: 'Access Rights for Access-Token Objects'
+Description: An application cannot change the access control list of an object unless the application has the rights to do so.
+ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
+title: Access Rights for Access-Token Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Rights for Access-Token Objects
@@ -10,7 +15,7 @@ An application cannot change the access control list of an object unless the app
 
 To get or set the [security descriptor](security-descriptors.md) for an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly), call the [**GetKernelObjectSecurity**](getkernelobjectsecurity.md) and [**SetKernelObjectSecurity**](setkernelobjectsecurity.md) functions.
 
-When you call the [**OpenProcessToken**](openprocesstoken.md) or [**OpenThreadToken**](openthreadtoken.md) function to get a handle to an access token, the system checks the requested [access rights](access-rights-and-access-masks.md) against the DACL in the token's security descriptor.
+When you call the [**OpenProcessToken**](/windows/win32/Winbase/nf-ntifs-ntopenprocesstoken?branch=master) or [**OpenThreadToken**](/windows/win32/Winbase/nf-ntifs-ntopenthreadtoken?branch=master) function to get a handle to an access token, the system checks the requested [access rights](access-rights-and-access-masks.md) against the DACL in the token's security descriptor.
 
 The following are valid access rights for access-token objects:
 

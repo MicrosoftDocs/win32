@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemCount
 description: The itemCount attribute retrieves the number of items currently displayed in the PLAYLIST element.
-ms.assetid: 'd090d95c-e3c3-41bc-951e-ffeb0a314a0c'
-keywords: ["PLAYLIST.itemCount Windows Media Player"]
+ms.assetid: d090d95c-e3c3-41bc-951e-ffeb0a314a0c
+keywords:
+- PLAYLIST.itemCount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemCount
@@ -44,9 +50,9 @@ The **itemCount** property will count the total number of expanded items. For ex
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

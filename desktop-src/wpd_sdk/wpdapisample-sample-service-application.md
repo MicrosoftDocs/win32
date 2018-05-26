@@ -1,7 +1,12 @@
 ---
 Description: WpdServicesApiSample Application
-ms.assetid: '857753f7-bca1-4f4a-a8f9-0b2232e2f0dc'
+ms.assetid: 857753f7-bca1-4f4a-a8f9-0b2232e2f0dc
 title: WpdServicesApiSample Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WpdServicesApiSample Application

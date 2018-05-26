@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows SDK Components for Windows Installer Developers contains VBScript files that show you how the Windows Installer automation interface is used to modify Windows Installer packages.'
-ms.assetid: '93747a8d-32e0-4f31-a5cf-f95fb26b97df'
+Description: The Windows SDK Components for Windows Installer Developers contains VBScript files that show you how the Windows Installer automation interface is used to modify Windows Installer packages.
+ms.assetid: 93747a8d-32e0-4f31-a5cf-f95fb26b97df
 title: Windows Installer Scripting Examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Installer Scripting Examples

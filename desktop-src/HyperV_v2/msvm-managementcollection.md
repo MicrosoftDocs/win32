@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a collection of other collections.'
-ms.assetid: '1f7f5517-55d9-44a3-b0ca-444a9d7d5941'
-title: 'Msvm\_ManagementCollection class'
+Description: Represents a collection of other collections.
+ms.assetid: 1f7f5517-55d9-44a3-b0ca-444a9d7d5941
+title: Msvm\_ManagementCollection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ManagementCollection class
@@ -71,8 +76,8 @@ An user-defined name for the collection. Note this is not guaranteed to be uniqu
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ An user-defined name for the collection. Note this is not guaranteed to be uniqu
 [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

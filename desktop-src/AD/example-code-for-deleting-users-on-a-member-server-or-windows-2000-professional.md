@@ -4,11 +4,15 @@ description: This topic contain a code example that shows how to delete a user o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '04469061-f95c-4810-99d0-03d98b70d3d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 04469061-f95c-4810-99d0-03d98b70d3d3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , deleting users on a member server or Windows 2000 Professional"]
+keywords:
+- Active Directory examples Active Directory , deleting users on a member server or Windows 2000 Professional
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Deleting Users on a Member Server or Windows 2000 Professional

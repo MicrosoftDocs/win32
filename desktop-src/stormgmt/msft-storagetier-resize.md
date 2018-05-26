@@ -1,8 +1,11 @@
 ---
 title: Resize method of the MSFT\_StorageTier class
 description: Resizes the storage tier on the virtual disk.
-ms.assetid: '54CD7F91-DA1B-4634-9EA0-430A835F0951'
-keywords: ["Resize method Windows Storage Management API", "Resize method Windows Storage Management API , MSFT_StorageTier class", "MSFT_StorageTier class Windows Storage Management API , Resize method"]
+ms.assetid: 54CD7F91-DA1B-4634-9EA0-430A835F0951
+keywords:
+- Resize method Windows Storage Management API
+- Resize method Windows Storage Management API , MSFT_StorageTier class
+- MSFT_StorageTier class Windows Storage Management API , Resize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resize method of the MSFT\_StorageTier class
@@ -22,10 +30,10 @@ Resizes the storage tier on the virtual disk. This method is not available for p
 
 ```mof
 UInt32 Resize(
-  [in]  UInt64              Size,
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  UInt64              Size,
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -50,7 +58,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -116,8 +124,8 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -130,9 +138,9 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 [**MSFT\_StorageTier**](msft-storagetier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

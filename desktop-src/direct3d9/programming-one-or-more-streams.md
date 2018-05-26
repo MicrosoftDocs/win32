@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes shaders that can be used for the programmable stream model.'
-ms.assetid: '800aaa27-e1e6-4d35-8de4-7ac94d646870'
-title: 'Programming One or More Streams (Direct3D 9)'
+Description: This section describes shaders that can be used for the programmable stream model.
+ms.assetid: 800aaa27-e1e6-4d35-8de4-7ac94d646870
+title: Programming One or More Streams (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming One or More Streams (Direct3D 9)
@@ -16,7 +21,7 @@ DirectX 8 introduced the notion of a stream to bind data to input registers for 
 -   A stream is composed of m elements.
 -   An element is \[position, color, normal, texture coordinate\].
 
-The [**IDirect3DDevice9::SetStreamSource**](idirect3ddevice9--setstreamsource.md) method binds a vertex buffer to a device data stream, creating an association between the vertex data and one of several data stream ports that feed the primitive processing functions. The actual references to the stream data do not occur until a drawing method, such as [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md), is called.
+The [**IDirect3DDevice9::SetStreamSource**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setstreamsource?branch=master) method binds a vertex buffer to a device data stream, creating an association between the vertex data and one of several data stream ports that feed the primitive processing functions. The actual references to the stream data do not occur until a drawing method, such as [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master), is called.
 
 The mapping of the input vertex elements to the vertex input registers for programmable vertex shaders is defined in the shader declaration, but the input vertex elements do not have specific semantics about their use. The interpretation of the input vertex elements is programmed using the shader instructions. The vertex shader function is defined by an array of instructions that are applied to each vertex. The vertex output registers are explicitly written to, using instructions in the shader function.
 
@@ -217,7 +222,7 @@ m_pd3dDevice->SetStreamSource(2, m_pVBTexC1, 0,
 
 
 
-In every case, the following [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md) invocation suffices.
+In every case, the following [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master) invocation suffices.
 
 
 ```

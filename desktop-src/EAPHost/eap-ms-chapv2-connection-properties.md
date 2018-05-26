@@ -1,7 +1,12 @@
 ---
 title: EAP MS-CHAPv2 Connection Properties
 description: Is an instance of the mschapv2connectionpropertiesv1 legacy schema.
-ms.assetid: 'd6a057e0-56f6-4a31-9391-fde631ac2898'
+ms.assetid: d6a057e0-56f6-4a31-9391-fde631ac2898
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP MS-CHAPv2 Connection Properties

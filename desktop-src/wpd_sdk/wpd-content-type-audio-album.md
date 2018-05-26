@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_AUDIO\_ALBUM'
-ms.assetid: '41b7a587-01e0-4eee-b750-2f6be06c3227'
-title: 'WPD\_CONTENT\_TYPE\_AUDIO\_ALBUM'
+Description: WPD\_CONTENT\_TYPE\_AUDIO\_ALBUM
+ms.assetid: 41b7a587-01e0-4eee-b750-2f6be06c3227
+title: WPD\_CONTENT\_TYPE\_AUDIO\_ALBUM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_AUDIO\_ALBUM

@@ -1,8 +1,9 @@
 ---
 title: TVM\_SHOWINFOTIP message
 description: Shows the infotip for a specified item in a tree-view control. You can send this message explicitly or by using the TreeView\_ShowInfoTip macro..
-ms.assetid: 'ed5a1bda-5754-4bb3-aa22-8faaf1af1268'
-keywords: ["TVM_SHOWINFOTIP message Windows Controls"]
+ms.assetid: ed5a1bda-5754-4bb3-aa22-8faaf1af1268
+keywords:
+- TVM_SHOWINFOTIP message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SHOWINFOTIP message
 
-Shows the infotip for a specified item in a tree-view control. You can send this message explicitly or by using the [**TreeView\_ShowInfoTip**](treeview-showinfotip.md) macro..
+Shows the infotip for a specified item in a tree-view control. You can send this message explicitly or by using the [**TreeView\_ShowInfoTip**](/windows/win32/Commctrl/nf-commctrl-treeview_showinfotip?branch=master) macro..
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Most applications do not use this message. Infotips are shown automatically. For
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

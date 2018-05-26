@@ -4,11 +4,15 @@ description: Every static node in each MDI child (view) can have its own subtree
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd9a2316f-5934-460f-b607-b7df2b053528'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d9a2316f-5934-460f-b607-b7df2b053528
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC enumerated nodes"]
+keywords:
+- MMC enumerated nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Enumerated Nodes

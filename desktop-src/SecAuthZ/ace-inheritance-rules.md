@@ -1,7 +1,12 @@
 ---
-Description: 'The system propagates inheritable access control entries (ACEs) to child objects according to a set of inheritance rules.'
-ms.assetid: '08f76aaa-8379-4ba8-9735-7568001bcd53'
+Description: The system propagates inheritable access control entries (ACEs) to child objects according to a set of inheritance rules.
+ms.assetid: 08f76aaa-8379-4ba8-9735-7568001bcd53
 title: ACE Inheritance Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACE Inheritance Rules
@@ -21,7 +26,7 @@ The ACEs inherited by container and noncontainer child objects differ, depending
 
 
 
- 
+ 
 
 If an inherited ACE is an effective ACE for the child object, the system maps any generic rights to the specific rights for the child object. Similarly, the system maps generic [*security identifiers*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-identifier-gly) (SIDs), such as CREATOR\_OWNER, to the appropriate SID. If an inherited ACE is an inherit-only ACE, any generic rights or generic SIDs are left unchanged so that they can be mapped appropriately when the ACE is inherited by the next generation of child objects.
 
@@ -33,9 +38,9 @@ If the **InheritedObjectType** GUID is not specified, the inheritance rules for 
 
 If the **InheritedObjectType** GUID is specified, the ACE is inheritable by objects that match the GUID if OBJECT\_INHERIT\_ACE is set, and by containers that match the GUID if CONTAINER\_INHERIT\_ACE is set. Note that currently only DS objects support object-specific ACEs, and the DS treats all object types as containers.
 
- 
+ 
 
- 
+ 
 
 
 

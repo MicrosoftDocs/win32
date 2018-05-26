@@ -1,8 +1,11 @@
 ---
 title: SetSslCertificate method of the BitsCompactServerUrlGroup class
 description: The SetSslCertificate method sets the SSL certificate for a port.
-ms.assetid: '888e4468-bbdf-4b28-a95c-24e8ff149a9f'
-keywords: ["SetSslCertificate method", "SetSslCertificate method, BitsCompactServerUrlGroup class", "BitsCompactServerUrlGroup class, SetSslCertificate method"]
+ms.assetid: 888e4468-bbdf-4b28-a95c-24e8ff149a9f
+keywords:
+- SetSslCertificate method
+- SetSslCertificate method, BitsCompactServerUrlGroup class
+- BitsCompactServerUrlGroup class, SetSslCertificate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetSslCertificate method of the BitsCompactServerUrlGroup class
@@ -22,9 +30,9 @@ The **SetSslCertificate** method sets the SSL certificate for a port.
 
 ```mof
 uint32 SetSslCertificate(
-  [in] uint16 Port,
-  [in] string StoreName,
-  [in] uint8  hashBlob[]
+  [in] uint16 Port,
+  [in] string StoreName,
+  [in] uint8  hashBlob[]
 );
 ```
 
@@ -62,8 +70,8 @@ Specifies the SHA1 hash that identifies the certificate.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -76,9 +84,9 @@ Specifies the SHA1 hash that identifies the certificate.
 [**BitsCompactServerUrlGroup**](bitslightweightserverurlgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

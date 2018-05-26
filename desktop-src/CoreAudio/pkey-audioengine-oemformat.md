@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_AudioEngine\_OEMFormat property specifies the default format of the device that is used for rendering or capturing a stream. The values are populated by the OEM in an .inf file.'
-ms.assetid: '3a199ecf-642c-491c-a565-f0083783d180'
-title: 'PKEY\_AudioEngine\_OEMFormat'
+---
+Description: The PKEY\_AudioEngine\_OEMFormat property specifies the default format of the device that is used for rendering or capturing a stream. The values are populated by the OEM in an .inf file.
+ms.assetid: 3a199ecf-642c-491c-a565-f0083783d180
+title: PKEY\_AudioEngine\_OEMFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEngine\_OEMFormat

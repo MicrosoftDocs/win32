@@ -1,8 +1,14 @@
 ---
 title: CPU Usage by CPU \ Thread Priority 1\
 description: CPU Usage by CPU \ Thread Priority 1\
-ms.assetid: '18824a19-80aa-47e4-9cc3-67db425e23fe'
-keywords: ["usage graph"]
+ms.assetid: 18824a19-80aa-47e4-9cc3-67db425e23fe
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Usage by CPU \[Thread Priority &gt;= 1\]

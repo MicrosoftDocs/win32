@@ -1,8 +1,14 @@
 ---
 title: Geometry-Shader Object
 description: A geometry-shader object processes entire primitives. Use the following syntax to declare a geometry-shader object.
-ms.assetid: 'd5c1c22b-6fa6-40a8-900f-6d74f74468c1'
-keywords: ["maxvertexcount (DirectX HLSL)"]
+ms.assetid: d5c1c22b-6fa6-40a8-900f-6d74f74468c1
+keywords:
+- maxvertexcount (DirectX HLSL)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Geometry-Shader Object
@@ -13,11 +19,11 @@ A geometry-shader object processes entire primitives. Use the following syntax t
 
 |                                                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------|
-| \[maxvertexcount(*NumVerts*)\] void *ShaderName* (   *PrimitiveType DataType Name \[ NumElements \]*,   inout *StreamOutputObject*  ); |
+| \[maxvertexcount(*NumVerts*)\] void *ShaderName* (   *PrimitiveType DataType Name \[ NumElements \]*,   inout *StreamOutputObject*  ); |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -57,7 +63,7 @@ A geometry-shader object processes entire primitives. Use the following syntax t
 
 
 
- 
+ 
 
 *DataType* - \[in\] An input data type; can be any [HLSL data type](dx-graphics-hlsl-data-types.md).
 
@@ -75,7 +81,7 @@ A geometry-shader object processes entire primitives. Use the following syntax t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -138,7 +144,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -147,9 +153,9 @@ This object is supported in the following shader models.
 [Shader Model 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

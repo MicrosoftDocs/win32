@@ -4,11 +4,14 @@ description: Deletes servers from the Servers property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ef44725-82b6-464a-abab-a68cc8799669'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5ef44725-82b6-464a-abab-a68cc8799669
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeleteServers method Remote Desktop Services", "DeleteServers method Remote Desktop Services , Win32_TSGatewayLoadBalancer class", "Win32_TSGatewayLoadBalancer class Remote Desktop Services , DeleteServers method"]
+keywords:
+- DeleteServers method Remote Desktop Services
+- DeleteServers method Remote Desktop Services , Win32_TSGatewayLoadBalancer class
+- Win32_TSGatewayLoadBalancer class Remote Desktop Services , DeleteServers method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteServers method of the Win32\_TSGatewayLoadBalancer class
@@ -28,7 +34,7 @@ Deletes servers from the **Servers** property.
 
 ```mof
 uint32 DeleteServers(
-  [in] string Servers
+  [in] string Servers
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 DeleteServers(
 *Servers* \[in\]
 </dt> <dd>
 
-Semicolon-separated list of RD Gateway load-balancing servers to delete from the **Servers** property.
+Semicolon-separated list of RD Gateway load-balancing servers to delete from the **Servers** property.
 
 </dd> </dl>
 
@@ -64,7 +70,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayLoadBalancer**](win32-tsgatewayloadbalancer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

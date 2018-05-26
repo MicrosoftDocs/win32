@@ -1,8 +1,21 @@
 ---
 title: About the Controls Object
 description: About the Controls Object
-ms.assetid: '1678c931-af47-42c9-a8a5-b6b775aebda8'
-keywords: ["Windows Media Player,Controls object", "Windows Media Player object model,Controls object", "object model,Controls object", "Windows Media Player ActiveX control,Controls object", "ActiveX control,Controls object", "Windows Media Player Mobile ActiveX control,Controls object", "Windows Media Player Mobile,Controls object", "Controls object"]
+ms.assetid: 1678c931-af47-42c9-a8a5-b6b775aebda8
+keywords:
+- Windows Media Player,Controls object
+- Windows Media Player object model,Controls object
+- object model,Controls object
+- Windows Media Player ActiveX control,Controls object
+- ActiveX control,Controls object
+- Windows Media Player Mobile ActiveX control,Controls object
+- Windows Media Player Mobile,Controls object
+- Controls object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Controls Object

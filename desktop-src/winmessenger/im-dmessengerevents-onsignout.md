@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnSignout event
 description: Indicates that the local client has signed out of the primary service.
-ms.assetid: 'b33f75d5-fb05-403a-8e68-695223132470'
-keywords: ["OnSignout event Windows Messenger", "OnSignout event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnSignout event"]
+ms.assetid: b33f75d5-fb05-403a-8e68-695223132470
+keywords:
+- OnSignout event Windows Messenger
+- OnSignout event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnSignout event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnSignout event
 
-\[**OnSignout** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnSignout** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the local client has signed out of the primary service.
 
@@ -43,7 +51,7 @@ This event is used to verify that the local client is signing out. This event is
 > [!Note]  
 > This event is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -51,10 +59,10 @@ This event is used to verify that the local client is signing out. This event is
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -72,9 +80,9 @@ This event is used to verify that the local client is signing out. This event is
 [**OnAppShutdown**](im-dmessengerevents-onappshutdown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

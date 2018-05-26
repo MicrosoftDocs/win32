@@ -1,8 +1,24 @@
 ---
 title: Using SAMI with the Windows Media Player Control in a Browser
 description: Using SAMI with the Windows Media Player Control in a Browser
-ms.assetid: '41906e57-adaa-4df7-86ba-19b8a757e216'
-keywords: ["Windows Media Player,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)", "object model,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "ActiveX control,Synchronized Accessible Media Interchange (SAMI)", "Synchronized Accessible Media Interchange (SAMI),files", "SAMI (Synchronized Accessible Media Interchange),files", "Synchronized Accessible Media Interchange (SAMI),example code", "SAMI (Synchronized Accessible Media Interchange),example code"]
+ms.assetid: 41906e57-adaa-4df7-86ba-19b8a757e216
+keywords:
+- Windows Media Player,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player object model,Synchronized Accessible Media Interchange (SAMI)
+- object model,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Windows Media Player Mobile ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- ActiveX control,Synchronized Accessible Media Interchange (SAMI)
+- Synchronized Accessible Media Interchange (SAMI),files
+- SAMI (Synchronized Accessible Media Interchange),files
+- Synchronized Accessible Media Interchange (SAMI),example code
+- SAMI (Synchronized Accessible Media Interchange),example code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SAMI with the Windows Media Player Control in a Browser

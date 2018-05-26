@@ -4,17 +4,21 @@ description: Type of user notification.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'D114D56B-3AF0-43D9-BC16-68612A5DBC33'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: D114D56B-3AF0-43D9-BC16-68612A5DBC33
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NotificationType enum"]
+keywords:
+- NotificationType enum
 topic_type:
 - apiref
 api_name:
 - NotificationType enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NotificationType enum
@@ -44,7 +48,7 @@ public enum  NotificationType
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -60,15 +64,15 @@ NotificationType.java
 
 
 
- 
+ 
 
 ## Package
 
 com.microsoft.rightsmanagement
 
- 
+ 
 
- 
+ 
 
 
 

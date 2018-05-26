@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a save object. Deprecated.'
-ms.assetid: '50a7dbde-1dd4-4aae-a9ab-97d6f99618c0'
-title: 'IDirectXFile::CreateSaveObject method'
+---
+Description: Creates a save object. Deprecated.
+ms.assetid: 50a7dbde-1dd4-4aae-a9ab-97d6f99618c0
+title: IDirectXFileCreateSaveObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFile::CreateSaveObject method

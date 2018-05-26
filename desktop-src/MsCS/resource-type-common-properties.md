@@ -4,11 +4,17 @@ description: Common properties for resource types are data values stored in the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ade5a225-5532-4957-b5f9-c44c75d517b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ade5a225-5532-4957-b5f9-c44c75d517b2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource type properties Failover Cluster", "properties Failover Cluster ,resource type (common) properties", "resource types Failover Cluster ,properties"]
+keywords:
+- resource type properties Failover Cluster
+- properties Failover Cluster ,resource type (common) properties
+- resource types Failover Cluster ,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Type Common Properties
@@ -85,14 +91,14 @@ Specifies the enabled event logs for a resource type.
 [**IsAlivePollInterval**](resource-types-isalivepollinterval.md)
 </dt> <dd>
 
-Specifies the recommended interval in milliseconds at which a [Resource Monitor](resource-monitor.md) should poll resources of the particular [resource type](resource-types.md) to determine if they are operational. The polling occurs when the Resource Monitor calls a resource DLL's [**IsAlive**](isalive.md) entry point function. The following table summarizes the attributes of the [**IsAlivePollInterval**](resource-types-isalivepollinterval.md) property.
+Specifies the recommended interval in milliseconds at which a [Resource Monitor](resource-monitor.md) should poll resources of the particular [resource type](resource-types.md) to determine if they are operational. The polling occurs when the Resource Monitor calls a resource DLL's [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) entry point function. The following table summarizes the attributes of the [**IsAlivePollInterval**](resource-types-isalivepollinterval.md) property.
 
 </dd> <dt>
 
 [**LooksAlivePollInterval**](resource-types-looksalivepollinterval.md)
 </dt> <dd>
 
-Specifies the recommended interval in milliseconds at which the [Cluster service](cluster-service.md) should poll [resources](resources.md) of the particular [resource type](resource-types.md) to determine if they appear operational. The polling occurs when the [Resource Monitor](resource-monitor.md) calls a resource DLL's [**LooksAlive**](looksalive.md) entry point function. The following table summarizes the attributes of the [**LooksAlivePollInterval**](resource-types-looksalivepollinterval.md) property.
+Specifies the recommended interval in milliseconds at which the [Cluster service](cluster-service.md) should poll [resources](resources.md) of the particular [resource type](resource-types.md) to determine if they appear operational. The polling occurs when the [Resource Monitor](resource-monitor.md) calls a resource DLL's [**LooksAlive**](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master) entry point function. The following table summarizes the attributes of the [**LooksAlivePollInterval**](resource-types-looksalivepollinterval.md) property.
 
 </dd> <dt>
 

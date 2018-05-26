@@ -1,7 +1,12 @@
 ---
 Description: Using Multilingual User Interface
-ms.assetid: 'caf167ad-f9a8-4093-9581-57bc507d1f6a'
+ms.assetid: caf167ad-f9a8-4093-9581-57bc507d1f6a
 title: Using Multilingual User Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multilingual User Interface

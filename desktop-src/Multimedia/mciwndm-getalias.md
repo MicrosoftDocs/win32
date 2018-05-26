@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_GETALIAS message
 description: The MCIWNDM\_GETALIAS message retrieves the alias used to open an MCI device or file with the mciSendString function. You can send this message explicitly or by using the MCIWndGetAlias macro.
-ms.assetid: '37131b89-275c-4ab6-9278-0e08c42471bd'
-keywords: ["MCIWNDM_GETALIAS message Windows Multimedia"]
+ms.assetid: 37131b89-275c-4ab6-9278-0e08c42471bd
+keywords:
+- MCIWNDM_GETALIAS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_GETALIAS message
 
-The **MCIWNDM\_GETALIAS** message retrieves the alias used to open an MCI device or file with the [**mciSendString**](mcisendstring.md) function. You can send this message explicitly or by using the [**MCIWndGetAlias**](mciwndgetalias.md) macro.
+The **MCIWNDM\_GETALIAS** message retrieves the alias used to open an MCI device or file with the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function. You can send this message explicitly or by using the [**MCIWndGetAlias**](/windows/win32/Vfw/nf-vfw-mciwndgetalias?branch=master) macro.
 
 
 ```C++
@@ -36,8 +42,8 @@ Returns the device alias.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -46,15 +52,15 @@ Returns the device alias.
 
 <dl> <dt>
 
-[**mciSendString**](mcisendstring.md)
+[**mciSendString**](/windows/win32/Mmsystem/?branch=master)
 </dt> <dt>
 
-[**MCIWndGetAlias**](mciwndgetalias.md)
+[**MCIWndGetAlias**](/windows/win32/Vfw/nf-vfw-mciwndgetalias?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

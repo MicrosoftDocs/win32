@@ -1,12 +1,17 @@
 ---
-Description: 'If you choose to implement erasing in your application other than by using the InkOverlay object, you can do so by using one of the following two methods.'
-ms.assetid: 'c05c7dbf-c3e0-42a7-a97e-bb9d9764209d'
+Description: If you choose to implement erasing in your application other than by using the InkOverlay object, you can do so by using one of the following two methods.
+ms.assetid: c05c7dbf-c3e0-42a7-a97e-bb9d9764209d
 title: Erasing by Using the Pen
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Erasing by Using the Pen
 
-If you choose to implement erasing in your application other than by using the [**InkOverlay**](inkoverlay-class.md) object, you can do so by using one of the following two methods.
+If you choose to implement erasing in your application other than by using the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object, you can do so by using one of the following two methods.
 
 ## Using the Tip of the Pen
 
@@ -16,7 +21,7 @@ For an example of how to use an erase mode to erase ink, see the [Ink Erasing Sa
 
 ## Using the Top of the Pen
 
-To implement erasing with the top of the tablet pen, your application must look for a change in the cursor. To look for the inverted cursor, listen for the [**CursorInRange**](inkoverlay-cursorinrange.md) event to determine when the cursor is within the context of your application. When the cursor is in range, look for the [**Inverted**](iinkcursor-inverted.md) property on the [**Cursor**](iinkcursor.md) object. If the **Inverted** property is **true**, perform hit testing to determine which ink the cursor is moving over. Erase either the ink or the strokes that intersect the path of the cursor, depending upon design or functional considerations.
+To implement erasing with the top of the tablet pen, your application must look for a change in the cursor. To look for the inverted cursor, listen for the [**CursorInRange**](inkoverlay-cursorinrange.md) event to determine when the cursor is within the context of your application. When the cursor is in range, look for the [**Inverted**](/windows/win32/msinkaut/nf-msinkaut-iinkcursor-get_inverted?branch=master) property on the [**Cursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object. If the **Inverted** property is **true**, perform hit testing to determine which ink the cursor is moving over. Erase either the ink or the strokes that intersect the path of the cursor, depending upon design or functional considerations.
 
 For an example of how to use the top of the pen to erase ink, see the [Ink Erasing Sample](ink-erasing-sample.md).
 

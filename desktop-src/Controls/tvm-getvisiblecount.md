@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETVISIBLECOUNT message
 description: Obtains the number of items that can be fully visible in the client window of a tree-view control. You can send this message explicitly or by using the TreeView\_GetVisibleCount macro.
-ms.assetid: 'c3519543-3fb2-4ecf-ac01-905d0946cb1b'
-keywords: ["TVM_GETVISIBLECOUNT message Windows Controls"]
+ms.assetid: c3519543-3fb2-4ecf-ac01-905d0946cb1b
+keywords:
+- TVM_GETVISIBLECOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETVISIBLECOUNT message
 
-Obtains the number of items that can be fully visible in the client window of a tree-view control. You can send this message explicitly or by using the [**TreeView\_GetVisibleCount**](treeview-getvisiblecount.md) macro.
+Obtains the number of items that can be fully visible in the client window of a tree-view control. You can send this message explicitly or by using the [**TreeView\_GetVisibleCount**](/windows/win32/Commctrl/nf-commctrl-treeview_getvisiblecount?branch=master) macro.
 
 ## Parameters
 
@@ -43,15 +49,15 @@ Note that the return value is the number of items that can be *fully* visible. I
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

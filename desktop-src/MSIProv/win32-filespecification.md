@@ -1,8 +1,10 @@
 ---
 title: Win32\_FileSpecification class
 description: The Win32\_FileSpecification WMI class represents a source file with its various attributes, ordered by a unique, nonlocalized identifier.
-ms.assetid: '89dbcb09-a29e-41d9-a21a-bc419947b3e3'
-keywords: ["Win32_FileSpecification class", "Win32_FileSpecification class, described"]
+ms.assetid: 89dbcb09-a29e-41d9-a21a-bc419947b3e3
+keywords:
+- Win32_FileSpecification class
+- Win32_FileSpecification class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FileSpecification class
@@ -39,7 +46,7 @@ The **Win32\_FileSpecification** [WMI class](https://msdn.microsoft.com/library/
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.
 
@@ -49,25 +56,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_FileSpecification : CIM_FileSpecification
 {
-  uint16   Attributes;
-  string   Caption;
-  string   CheckID;
-  boolean  CheckMode;
-  uint32   CheckSum;
-  uint32   CRC1;
-  uint32   CRC2;
+  uint16   Attributes;
+  string   Caption;
+  string   CheckID;
+  boolean  CheckMode;
+  uint32   CheckSum;
+  uint32   CRC1;
+  uint32   CRC2;
   datetime CreateTimeStamp;
-  string   Description;
-  string   FileID;
-  uint64   FileSize;
-  string   Language;
-  string   MD5CheckSum;
-  string   Name;
-  uint16   Sequence;
-  string   SoftwareElementID;
-  uint16   SoftwareElementState;
-  uint16   TargetOperatingSystem;
-  string   Version;
+  string   Description;
+  string   FileID;
+  uint64   FileSize;
+  string   Language;
+  string   MD5CheckSum;
+  string   Name;
+  uint16   Sequence;
+  string   SoftwareElementID;
+  uint16   SoftwareElementState;
+  uint16   TargetOperatingSystem;
+  string   Version;
 };
 ```
 
@@ -90,7 +97,7 @@ The **Win32\_FileSpecification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -125,7 +132,7 @@ Integer that contains bit flags representing file attributes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -348,7 +355,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -428,7 +435,7 @@ Target operating system of the software element. The following list identifies t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -455,8 +462,8 @@ The **Win32\_FileSpecification** class is derived from [**CIM\_FileSpecification
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -470,9 +477,9 @@ The **Win32\_FileSpecification** class is derived from [**CIM\_FileSpecification
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

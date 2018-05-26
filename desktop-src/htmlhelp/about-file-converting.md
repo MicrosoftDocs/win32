@@ -1,7 +1,12 @@
 ---
 title: About File Converting
 description: About File Converting
-ms.assetid: '5E695C9A-D446-4e8c-9C77-F03EE67F9F86'
+ms.assetid: 5E695C9A-D446-4e8c-9C77-F03EE67F9F86
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About File Converting

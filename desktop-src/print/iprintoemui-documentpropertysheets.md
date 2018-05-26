@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::DocumentPropertySheets method allows a user interface plug-in to append a new page to a printer device''s document property sheet.'
-ms.assetid: 'a8c7eb0d-792f-4a6c-af47-bb4558feb790'
-title: 'IPrintOemUI::DocumentPropertySheets method'
+---
+Description: The IPrintOemUIDocumentPropertySheets method allows a user interface plug-in to append a new page to a printer devices document property sheet.
+ms.assetid: a8c7eb0d-792f-4a6c-af47-bb4558feb790
+title: IPrintOemUIDocumentPropertySheets method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::DocumentPropertySheets method

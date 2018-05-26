@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the means by which a client can discover the valid range of default settings for an Ethernet switch feature.'
-ms.assetid: '84ae7656-2cc4-4ca7-b4ae-95d9905c9aad'
-title: 'Msvm\_EthernetSwitchFeatureCapabilities class'
+Description: Defines the means by which a client can discover the valid range of default settings for an Ethernet switch feature.
+ms.assetid: 84ae7656-2cc4-4ca7-b4ae-95d9905c9aad
+title: Msvm\_EthernetSwitchFeatureCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchFeatureCapabilities class
@@ -164,17 +169,17 @@ The version of the feature in a format of "major.minor", for example "2.0".
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

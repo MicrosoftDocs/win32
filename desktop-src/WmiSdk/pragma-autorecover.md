@@ -1,13 +1,16 @@
 ---
-Description: 'Adds a MOF file to the list of files compiled during repository recovery.'
+Description: Adds a MOF file to the list of files compiled during repository recovery.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8901c04e-f8c1-45b0-b69d-e2ebc948f088'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8901c04e-f8c1-45b0-b69d-e2ebc948f088
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma autorecover
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # pragma autorecover
@@ -51,8 +54,8 @@ However, you must observe the following restrictions when using this command:
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -63,9 +66,9 @@ However, you must observe the following restrictions when using this command:
 [Preprocessor Commands](preprocessor-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BIDI\_DATA structure is used to store the values of a bidi schema.'
-ms.assetid: '9e0f3044-01c0-4dec-b34c-0f33ccfe3300'
-title: 'BIDI\_DATA structure'
+---
+Description: The BIDI\_DATA structure is used to store the values of a bidi schema.
+ms.assetid: 9e0f3044-01c0-4dec-b34c-0f33ccfe3300
+title: BIDI\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIDI\_DATA structure

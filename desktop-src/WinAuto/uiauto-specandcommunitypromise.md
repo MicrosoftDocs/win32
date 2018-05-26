@@ -1,8 +1,18 @@
 ---
 title: UI Automation Specification and Community Promise
 description: The UI Automation Specification provides information about Microsoft accessibility frameworks, including Microsoft Active Accessibility and Microsoft UI Automation.
-ms.assetid: '5fab2d7a-0b1c-4119-b7f4-afdf86db74e7'
-keywords: ["UI Automation,specifications", "UI Automation,community promise", "specifications for UI Automation", "community promise for UI Automation", "UI Automation,about"]
+ms.assetid: 5fab2d7a-0b1c-4119-b7f4-afdf86db74e7
+keywords:
+- UI Automation,specifications
+- UI Automation,community promise
+- specifications for UI Automation
+- community promise for UI Automation
+- UI Automation,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Specification and Community Promise

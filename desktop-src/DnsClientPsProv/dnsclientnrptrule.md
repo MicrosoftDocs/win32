@@ -4,13 +4,15 @@ description: DNS Client Name Resolution Policy Table entry.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '930af913-c764-409f-bcf7-7136a351014d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 930af913-c764-409f-bcf7-7136a351014d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsClientNrptRule class", "DnsClientNrptRule class, described"]
+keywords:
+- DnsClientNrptRule class
+- DnsClientNrptRule class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - DnsClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsClientNrptRule class
@@ -51,24 +56,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsClientPSProvider"), AMENDMENT]
 class DnsClientNrptRule
 {
-  uint32  Version;
-  string  Namespace[];
-  string  Name;
-  string  DisplayName;
+  uint32  Version;
+  string  Namespace[];
+  string  Name;
+  string  DisplayName;
   boolean DnsSecEnabled;
   boolean DnsSecValidationRequired;
   boolean DnsSecQueryIPsecRequired;
-  string  DnsSecQueryIPsecEncryption;
+  string  DnsSecQueryIPsecEncryption;
   boolean DirectAccessEnabled;
-  string  IPsecCARestriction;
-  string  DirectAccessDnsServers[];
+  string  IPsecCARestriction;
+  string  DirectAccessDnsServers[];
   boolean DirectAccessQueryIPsecRequired;
-  string  DirectAccessQueryIPsecEncryption;
-  string  DirectAccessProxyType;
-  string  DirectAccessProxyName;
-  string  NameServers[];
-  string  NameEncoding;
-  string  Comment;
+  string  DirectAccessQueryIPsecEncryption;
+  string  DirectAccessProxyType;
+  string  DirectAccessProxyName;
+  string  NameServers[];
+  string  NameEncoding;
+  string  Comment;
 };
 ```
 
@@ -437,17 +442,17 @@ The version for NRPT entry.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

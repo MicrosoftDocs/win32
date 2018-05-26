@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl Disconnect method
 description: The Disconnect method disconnects the control from the current VMRC server.
-ms.assetid: '6a5bdc1b-3906-4748-a2c8-5bbcf474493b'
-keywords: ["Disconnect method Virtual Server", "Disconnect method Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , Disconnect method", "Disconnect method Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , Disconnect method"]
+ms.assetid: 6a5bdc1b-3906-4748-a2c8-5bbcf474493b
+keywords:
+- Disconnect method Virtual Server
+- Disconnect method Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , Disconnect method
+- Disconnect method Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , Disconnect method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::Disconnect method
@@ -44,7 +54,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +62,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -66,9 +76,9 @@ This method can return one of these values.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

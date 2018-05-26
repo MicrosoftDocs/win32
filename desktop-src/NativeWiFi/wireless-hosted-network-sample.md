@@ -1,7 +1,12 @@
 ---
-Description: 'Demonstrates the use of wireless Hosted Network functions.'
-ms.assetid: '3da903c2-bdfa-4c1f-92e7-962551f0e08e'
+Description: Demonstrates the use of wireless Hosted Network functions.
+ms.assetid: 3da903c2-bdfa-4c1f-92e7-962551f0e08e
 title: Wireless Hosted Network Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless Hosted Network Sample
@@ -32,37 +37,37 @@ The wireless Hosted Network functions are used to start and stop the wireless Ho
 [Using Hosted Network and Internet Connection Sharing](using-hosted-network-and-internet-connection-sharing.md)
 </dt> <dt>
 
-[**WlanHostedNetworkForceStart**](wlanhostednetworkforcestart.md)
+[**WlanHostedNetworkForceStart**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkInitSettings**](wlanhostednetworkinitsettings.md)
+[**WlanHostedNetworkInitSettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkinitsettings?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkQueryProperty**](wlanhostednetworkqueryproperty.md)
+[**WlanHostedNetworkQueryProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkQuerySecondaryKey**](wlanhostednetworkquerysecondarykey.md)
+[**WlanHostedNetworkQuerySecondaryKey**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerysecondarykey?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkQueryStatus**](wlanhostednetworkquerystatus.md)
+[**WlanHostedNetworkQueryStatus**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkquerystatus?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkRefreshSecuritySettings**](wlanhostednetworkrefreshsecuritysettings.md)
+[**WlanHostedNetworkRefreshSecuritySettings**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkrefreshsecuritysettings?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkSetProperty**](wlanhostednetworksetproperty.md)
+[**WlanHostedNetworkSetProperty**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworksetproperty?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkSetSecondaryKey**](wlanhostednetworksetsecondarykey.md)
+[**WlanHostedNetworkSetSecondaryKey**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkStartUsing**](wlanhostednetworkstartusing.md)
+[**WlanHostedNetworkStartUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing?branch=master)
 </dt> <dt>
 
-[**WlanHostedNetworkStopUsing**](wlanhostednetworkstopusing.md)
+[**WlanHostedNetworkStopUsing**](/windows/win32/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing?branch=master)
 </dt> <dt>
 
-[**WlanRegisterVirtualStationNotification**](wlanregistervirtualstationnotification.md)
+[**WlanRegisterVirtualStationNotification**](/windows/win32/Wlanapi/nf-wlanapi-wlanregistervirtualstationnotification?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySet IsContentType method
 description: Queries the Content-Type of a property set.
-ms.assetid: '401bbddb-2918-41a8-b2e9-55f86f6ca0dd'
-keywords: ["IsContentType method Windows Mail (formerly Outlook Express)", "IsContentType method Windows Mail (formerly Outlook Express) , IMimePropertySet interface", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , IsContentType method"]
+ms.assetid: 401bbddb-2918-41a8-b2e9-55f86f6ca0dd
+keywords:
+- IsContentType method Windows Mail (formerly Outlook Express)
+- IsContentType method Windows Mail (formerly Outlook Express) , IMimePropertySet interface
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , IsContentType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet::IsContentType method
@@ -22,8 +30,8 @@ Queries the [Content-Type](http://msdn.microsoft.com/library/cdosys/html/48f7ae1
 
 ```C++
 HRESULT IsContentType(
-  [in] LPCSTR pszPriType,
-  [in] LPCSTR pszSubType
+  [in] LPCSTR pszPriType,
+  [in] LPCSTR pszSubType
 );
 ```
 
@@ -66,7 +74,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ This method is more efficient than fetching the [Content-Type](http://msdn.micro
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -87,9 +95,9 @@ This method is more efficient than fetching the [Content-Type](http://msdn.micro
 
 
 
- 
+ 
 
- 
+ 
 
 
 

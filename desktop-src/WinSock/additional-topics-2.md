@@ -1,7 +1,12 @@
 ---
-Description: 'Navigation page for additional information related to the Microsoft IPv6 Technology Preview protocol.'
-ms.assetid: '84286f0c-2519-47b9-a057-b10bde384a8f'
+Description: Navigation page for additional information related to the Microsoft IPv6 Technology Preview protocol.
+ms.assetid: 84286f0c-2519-47b9-a057-b10bde384a8f
 title: Additional IPv6 Topics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Additional IPv6 Topics

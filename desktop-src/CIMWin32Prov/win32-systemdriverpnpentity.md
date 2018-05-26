@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_SystemDriverPNPEntity association WMI class relates a Plug and Play device on the computer system running Windows and the driver that supports the Plug and Play device.'
+---
+Description: The Win32\_SystemDriverPNPEntity association WMI class relates a Plug and Play device on the computer system running Windows and the driver that supports the Plug and Play device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2696c8e5-3bc3-42e3-807b-a387607c7c09'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2696c8e5-3bc3-42e3-807b-a387607c7c09
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SystemDriverPNPEntity class'
+title: Win32\_SystemDriverPNPEntity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SystemDriverPNPEntity class

@@ -1,7 +1,12 @@
 ---
-Description: 'In processing a backup under VSS, requesters and writers worked together to produce a stable system image from which to back up data, which required coordination and the creation of a shadow copy of the current system.'
-ms.assetid: '1cefb6ac-f2bb-464b-a62f-05be91ae56f7'
+Description: In processing a backup under VSS, requesters and writers worked together to produce a stable system image from which to back up data, which required coordination and the creation of a shadow copy of the current system.
+ms.assetid: 1cefb6ac-f2bb-464b-a62f-05be91ae56f7
 title: Overview of Processing a Restore Under VSS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Processing a Restore Under VSS

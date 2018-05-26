@@ -1,8 +1,11 @@
 ---
 title: IMessengerServices Count property
 description: Retrieves the number of MessengerServices objects in the collection.
-ms.assetid: '1f57bd67-ac66-45d2-a77c-540d4f877995'
-keywords: ["Count property Windows Messenger", "Count property Windows Messenger , IMessengerServices interface", "IMessengerServices interface Windows Messenger , Count property"]
+ms.assetid: 1f57bd67-ac66-45d2-a77c-540d4f877995
+keywords:
+- Count property Windows Messenger
+- Count property Windows Messenger , IMessengerServices interface
+- IMessengerServices interface Windows Messenger , Count property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerServices::Count property
 
-\[**Count** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Count** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the number of [**MessengerServices**](im-messengerservices.md) objects in the collection.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out, retval] LONG *pcServices
+  [out, retval] LONG *pcServices
 );
 ```
 
@@ -39,7 +47,7 @@ Pointer to a **LONG** that provides the number of [**MessengerServices**](im-mes
 
 ## Error codes
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -61,7 +69,7 @@ If this method is called while the client is offline, the method call will not f
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -87,8 +95,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -105,9 +113,9 @@ End Sub
 [**Item**](im-imessengerservices-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: The TCP/IP address for a network segment. Also called the subnet ad
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'caccb00f-8418-43b8-87c7-7ccb7e2ee51d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: caccb00f-8418-43b8-87c7-7ccb7e2ee51d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Network-Address attribute AD Schema", "networkAddress attribute AD Schema"]
+keywords:
+- Network-Address attribute AD Schema
+- networkAddress attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Network-Address
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network-Address attribute
@@ -38,13 +43,13 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The TCP/IP address for a network segment. Also called the subnet address.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

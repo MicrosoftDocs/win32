@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_EFFECT\_TYPE\_DESC structure
 description: Describes an effect-variable type.
-ms.assetid: 'bf2aa5b7-c68c-42bb-ae70-2fe16f8669a4'
-keywords: ["D3DX11_EFFECT_TYPE_DESC structure Direct3D 11"]
+ms.assetid: bf2aa5b7-c68c-42bb-ae70-2fe16f8669a4
+keywords:
+- D3DX11_EFFECT_TYPE_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_EFFECT\_TYPE\_DESC structure
@@ -22,16 +28,16 @@ Describes an effect-variable type.
 
 ```C++
 typedef struct _D3DX11_EFFECT_TYPE_DESC {
-  LPCSTR                      TypeName;
+  LPCSTR                      TypeName;
   D3D10_SHADER_VARIABLE_CLASS Class;
-  D3D10_SHADER_VARIABLE_TYPE  Type;
-  UINT                        Elements;
-  UINT                        Members;
-  UINT                        Rows;
-  UINT                        Columns;
-  UINT                        PackedSize;
-  UINT                        UnpackedSize;
-  UINT                        Stride;
+  D3D10_SHADER_VARIABLE_TYPE  Type;
+  UINT                        Elements;
+  UINT                        Members;
+  UINT                        Rows;
+  UINT                        Columns;
+  UINT                        PackedSize;
+  UINT                        UnpackedSize;
+  UINT                        Stride;
 } D3DX11_EFFECT_TYPE_DESC;
 ```
 
@@ -172,9 +178,9 @@ D3DX11\_EFFECT\_TYPE\_DESC is used with [**ID3DX11EffectType::GetDesc**](id3dx11
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetBufferFromIPortableDeviceValues method serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.'
-ms.assetid: 'fd856394-9cb3-41cb-875b-1d490ca859df'
-title: 'IWpdSerializer::GetBufferFromIPortableDeviceValues method'
+Description: The GetBufferFromIPortableDeviceValues method serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
+ms.assetid: fd856394-9cb3-41cb-875b-1d490ca859df
+title: IWpdSerializerGetBufferFromIPortableDeviceValues method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWpdSerializer::GetBufferFromIPortableDeviceValues method
@@ -13,9 +18,9 @@ The **GetBufferFromIPortableDeviceValues** method serializes a submitted **IPort
 
 ```C++
 HRESULT GetBufferFromIPortableDeviceValues(
-  [in]  IPortableDeviceValues *pSource,
-  [out] BYTE                  **ppBuffer,
-  [out] DWORD                 *pdwBufferSize
+  [in]  IPortableDeviceValues *pSource,
+  [out] BYTE                  **ppBuffer,
+  [out] DWORD                 *pdwBufferSize
 );
 ```
 
@@ -60,7 +65,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +85,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWpdSerializer Interface**](iwpdserializer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

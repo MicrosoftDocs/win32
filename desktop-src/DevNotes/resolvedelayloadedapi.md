@@ -1,7 +1,12 @@
-﻿---
-Description: 'Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.'
-ms.assetid: '4ab79b7c-81d1-40bf-a76b-217d93567e40'
+---
+Description: Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.
+ms.assetid: 4ab79b7c-81d1-40bf-a76b-217d93567e40
 title: ResolveDelayLoadedAPI function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResolveDelayLoadedAPI function

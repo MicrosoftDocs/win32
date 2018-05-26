@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key.'
-ms.assetid: '834534b8-540a-48c2-8eb0-3511d5a20cb4'
+Description: The MsiDigitalCertificate table stores certificates in binary stream format and associates each certificate with a primary key.
+ms.assetid: 834534b8-540a-48c2-8eb0-3511d5a20cb4
 title: MsiDigitalCertificate Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiDigitalCertificate Table
@@ -41,7 +46,7 @@ Identifies the digital signature certificate. Primary key of table.
 <span id="CertData"></span><span id="certdata"></span><span id="CERTDATA"></span>CertData
 </dt> <dd>
 
-The binary representation of the digital certificate. The CertData column contains the encoded byte array of a certificate context. This is the **pbCertEncoded** member of the [**CERT\_CONTEXT**](security.cert_context) structure. The certificate context can be obtained by calling [**WinVerifyTrust**](security.winverifytrust), [**MsiGetFileSignatureInformation**](msigetfilesignatureinformation.md), or by importing a .cer file.
+The binary representation of the digital certificate. The CertData column contains the encoded byte array of a certificate context. This is the **pbCertEncoded** member of the [**CERT\_CONTEXT**](security.cert_context) structure. The certificate context can be obtained by calling [**WinVerifyTrust**](security.winverifytrust), [**MsiGetFileSignatureInformation**](/windows/win32/Msi/nf-msi-msigetfilesignatureinformationa?branch=master), or by importing a .cer file.
 
 </dd> </dl>
 
@@ -61,7 +66,7 @@ The binary representation of the digital certificate. The CertData column contai
 
 <dl> <dt>
 
-[**MsiGetFileSignatureInformation**](msigetfilesignatureinformation.md)
+[**MsiGetFileSignatureInformation**](/windows/win32/Msi/nf-msi-msigetfilesignatureinformationa?branch=master)
 </dt> <dt>
 
 [MsiDigitalSignature table](msidigitalsignature-table.md)

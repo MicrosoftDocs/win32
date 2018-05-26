@@ -1,7 +1,12 @@
 ---
 title: gather4\_po\_c (sm5 - asm)
 description: Behaves the same as gather4\_po, except performs comparison on texels, similar to sample\_c.
-ms.assetid: 'B128EEF3-3440-4F00-9792-20FB1AE075E9'
+ms.assetid: B128EEF3-3440-4F00-9792-20FB1AE075E9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gather4\_po\_c (sm5 - asm)
@@ -15,7 +20,7 @@ Behaves the same as [**gather4\_po**](gather4-po--sm5---asm-.md), except perform
 
 
 
- 
+ 
 
 
 
@@ -30,7 +35,7 @@ Behaves the same as [**gather4\_po**](gather4-po--sm5---asm-.md), except perform
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +61,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -75,7 +80,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -84,9 +89,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

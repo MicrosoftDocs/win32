@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_INITIATE message
 description: A Dynamic Data Exchange (DDE) client application sends a WM\_DDE\_INITIATE message to initiate a conversation with a server application responding to the specified application and topic names.
-ms.assetid: 'd486f584-75a3-4ffd-ba5d-f95f2692cd6c'
-keywords: ["WM_DDE_INITIATE message Data Exchange"]
+ms.assetid: d486f584-75a3-4ffd-ba5d-f95f2692cd6c
+keywords:
+- WM_DDE_INITIATE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_INITIATE message
@@ -54,7 +60,7 @@ The client broadcasts the message to all top-level windows by setting the first 
 
 If the client application has already obtained the window handle of the desired server, it can send **WM\_DDE\_INITIATE** directly to the server window by passing the server's window handle as the first parameter of [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950).
 
-The client application allocates atoms by calling the [**GlobalAddAtom**](globaladdatom.md) function.
+The client application allocates atoms by calling the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) function.
 
 When [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) returns, the client application must delete the atoms.
 
@@ -68,8 +74,8 @@ To complete the initiation of a conversation, the server application must respon
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,7 +87,7 @@ To complete the initiation of a conversation, the server application must respon
 **Reference**
 </dt> <dt>
 
-[**GlobalAddAtom**](globaladdatom.md)
+[**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
@@ -99,9 +105,9 @@ To complete the initiation of a conversation, the server application must respon
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

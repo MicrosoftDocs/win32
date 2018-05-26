@@ -1,8 +1,11 @@
 ---
 title: INapComponentInfo GetIcon method
 description: Is used by the NAP System to get the icon of a health client.
-ms.assetid: '6501fe12-1ec0-43a1-b672-b6cfd9a08d85'
-keywords: ["GetIcon method NAP", "GetIcon method NAP , INapComponentInfo interface", "INapComponentInfo interface NAP , GetIcon method"]
+ms.assetid: 6501fe12-1ec0-43a1-b672-b6cfd9a08d85
+keywords:
+- GetIcon method NAP
+- GetIcon method NAP , INapComponentInfo interface
+- INapComponentInfo interface NAP , GetIcon method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentInfo::GetIcon method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentInfo::GetIcon** callback method is used by the NAP System to get the icon of a health client.
 
@@ -27,8 +35,8 @@ The **INapComponentInfo::GetIcon** callback method is used by the NAP System to 
 
 ```C++
 HRESULT GetIcon(
-  [out] CountedString **dllFilePath,
-  [out] UINT32        *iconResourceId
+  [out] CountedString **dllFilePath,
+  [out] UINT32        *iconResourceId
 );
 ```
 
@@ -41,7 +49,7 @@ HRESULT GetIcon(
 *dllFilePath* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) used to return the file path of the DLL that contains the icon.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) used to return the file path of the DLL that contains the icon.
 
 </dd> <dt>
 
@@ -66,7 +74,7 @@ Return one of these error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ Icons should be localized according to the calling thread's language-id.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -95,9 +103,9 @@ Icons should be localized according to the calling thread's language-id.
 [**INapComponentInfo**](inapcomponentinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

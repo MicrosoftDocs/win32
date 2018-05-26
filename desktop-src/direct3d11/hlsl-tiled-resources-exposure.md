@@ -1,7 +1,12 @@
 ---
 title: HLSL tiled resources exposure
 description: New Microsoft High Level Shader Language (HLSL) syntax is required to support tiled resources in Shader Model 5.
-ms.assetid: 'B6CE51E6-1BA9-4D15-9654-86FE9BAAF585'
+ms.assetid: B6CE51E6-1BA9-4D15-9654-86FE9BAAF585
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HLSL tiled resources exposure
@@ -44,7 +49,7 @@ This is the summary table of HLSL methods that are changed to support feedback a
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -53,9 +58,9 @@ This is the summary table of HLSL methods that are changed to support feedback a
 [Pipeline access to tiled resources](pipeline-access-to-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

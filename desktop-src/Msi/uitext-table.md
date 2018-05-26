@@ -1,7 +1,12 @@
 ---
-Description: 'The UIText table contains the localized versions of some of the strings used in the user interface. These strings are not part of any other table. The UIText table is for strings that have no logical place in any other table.'
-ms.assetid: '2965e3a8-2cbf-4445-963b-ec2040692106'
+Description: The UIText table contains the localized versions of some of the strings used in the user interface. These strings are not part of any other table. The UIText table is for strings that have no logical place in any other table.
+ms.assetid: 2965e3a8-2cbf-4445-963b-ec2040692106
 title: UIText Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UIText Table

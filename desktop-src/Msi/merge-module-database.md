@@ -1,7 +1,12 @@
 ---
-Description: 'The database of a merge module contains all the installation properties and setup logic for the module.'
-ms.assetid: '72e42392-54e6-4be8-9a43-04158552be3d'
+Description: The database of a merge module contains all the installation properties and setup logic for the module.
+ms.assetid: 72e42392-54e6-4be8-9a43-04158552be3d
 title: Merge Module Database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge Module Database

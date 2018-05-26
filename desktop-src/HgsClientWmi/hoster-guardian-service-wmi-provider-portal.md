@@ -4,12 +4,15 @@ description: Grants access to the configuration and security capabilities of the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd7cb795d-426c-4513-aecd-4d0c4b935690'
-ms.prod: 'windows-server-dev'
+ms.assetid: d7cb795d-426c-4513-aecd-4d0c4b935690
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Host Guardian Service WMI Provider

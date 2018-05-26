@@ -1,14 +1,20 @@
 ---
 title: DisallowStartIfOnBatteries (settingsType) Element
 description: Specifies that the task will not be started if the computer is running on batteries.
-ms.assetid: '48c0fd32-4441-4628-8090-c736f2945b4d'
-keywords: ["DisallowStartIfOnBatteries element Task Scheduler"]
+ms.assetid: 48c0fd32-4441-4628-8090-c736f2945b4d
+keywords:
+- DisallowStartIfOnBatteries element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DisallowStartIfOnBatteries
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisallowStartIfOnBatteries (settingsType) Element
@@ -39,7 +45,7 @@ The default setting for this element is True.
 
 For scripting development, this information is accessed through the [**TaskSettings.DisallowStartIfOnBatteries**](tasksettings-disallowstartifonbatteries.md) property.
 
-For C++ development, this information is accessed through the [**ITaskSettings::DisallowStartIfOnBatteries**](itasksettings-disallowstartifonbatteries.md) property.
+For C++ development, this information is accessed through the [**ITaskSettings::DisallowStartIfOnBatteries**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_disallowstartifonbatteries?branch=master) property.
 
 ## Examples
 
@@ -61,8 +67,8 @@ The following XML defines a settings element that does not allow the task to run
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -73,9 +79,9 @@ The following XML defines a settings element that does not allow the task to run
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

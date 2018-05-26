@@ -4,13 +4,16 @@ description: Moves a DFS folder to another location within the same namespace.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '226c0dac-d424-4492-b5d3-85f661ccfb96'
-ms.prod: 'windows-server-dev'
+ms.assetid: 226c0dac-d424-4492-b5d3-85f661ccfb96
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MoveNamespaceFolder method", "MoveNamespaceFolder method, MSFT_DfsNamespaceFolder class", "MSFT_DfsNamespaceFolder class, MoveNamespaceFolder method"]
+keywords:
+- MoveNamespaceFolder method
+- MoveNamespaceFolder method, MSFT_DfsNamespaceFolder class
+- MSFT_DfsNamespaceFolder class, MoveNamespaceFolder method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MoveNamespaceFolder method of the MSFT\_DfsNamespaceFolder class
@@ -30,8 +36,8 @@ Moves a DFS folder to another location within the same namespace.
 
 ```mof
 uint32 MoveNamespaceFolder(
-  [in] string NamespacePath,
-  [in] string NewNamespacePath
+  [in] string NamespacePath,
+  [in] string NewNamespacePath
 );
 ```
 
@@ -66,7 +72,7 @@ The UNC path of another location in the namespace to move the DFS folder to.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -80,9 +86,9 @@ The UNC path of another location in the namespace to move the DFS folder to.
 [**MSFT\_DfsNamespaceFolder**](msft-dfsnamespacefolder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

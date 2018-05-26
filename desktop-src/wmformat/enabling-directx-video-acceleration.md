@@ -1,8 +1,26 @@
 ---
 title: Enabling DirectX Video Acceleration
 description: Enabling DirectX Video Acceleration
-ms.assetid: '5cb2f564-88e3-4b60-bde3-6ccf69c97c48'
-keywords: ["Windows Media Format SDK,enabling DXVA", "Windows Media Format SDK,DirectX Video Acceleration (DXVA)", "Windows Media Format SDK,video acceleration", "Advanced Systems Format (ASF),enabling DXVA", "ASF (Advanced Systems Format),enabling DXVA", "Advanced Systems Format (ASF),DirectX Video Acceleration (DXVA)", "ASF (Advanced Systems Format),DirectX Video Acceleration (DXVA)", "Advanced Systems Format (ASF),video acceleration", "ASF (Advanced Systems Format),video acceleration", "DirectX Video Acceleration (DXVA),enabling", "DXVA (DirectX Video Acceleration),enabling", "DirectX Video Acceleration (DXVA),order of operations", "DXVA (DirectX Video Acceleration),order of operations"]
+ms.assetid: 5cb2f564-88e3-4b60-bde3-6ccf69c97c48
+keywords:
+- Windows Media Format SDK,enabling DXVA
+- Windows Media Format SDK,DirectX Video Acceleration (DXVA)
+- Windows Media Format SDK,video acceleration
+- Advanced Systems Format (ASF),enabling DXVA
+- ASF (Advanced Systems Format),enabling DXVA
+- Advanced Systems Format (ASF),DirectX Video Acceleration (DXVA)
+- ASF (Advanced Systems Format),DirectX Video Acceleration (DXVA)
+- Advanced Systems Format (ASF),video acceleration
+- ASF (Advanced Systems Format),video acceleration
+- DirectX Video Acceleration (DXVA),enabling
+- DXVA (DirectX Video Acceleration),enabling
+- DirectX Video Acceleration (DXVA),order of operations
+- DXVA (DirectX Video Acceleration),order of operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling DirectX Video Acceleration
@@ -31,9 +49,9 @@ Three interfaces are defined to enable the necessary communications between the 
 
 | Interface                                                        | Description                                                                                                                                                                                        |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMCodecAMVideoAccelerator**](iwmcodecamvideoaccelerator.md) | Exposed by the Windows Media Decoder DMO and called by a media player's source filter to set up the various connections required to enable DirectX VA for decoding of Windows Media Video content. |
-| [**IWMPlayerTimestampHook**](iwmplayertimestamphook.md)         | Implemented on the player's source filter. It enables the filter to modify the time stamps on the video samples before delivering them downstream.                                                 |
-| [**IWMReaderAccelerator**](iwmreaderaccelerator.md)             | Implemented on the WM Reader object. It is called by a player source filter to obtain interfaces from the decoder DMO.                                                                             |
+| [**IWMCodecAMVideoAccelerator**](/windows/win32/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator?branch=master) | Exposed by the Windows Media Decoder DMO and called by a media player's source filter to set up the various connections required to enable DirectX VA for decoding of Windows Media Video content. |
+| [**IWMPlayerTimestampHook**](/windows/win32/wmdxva/nn-wmdxva-iwmplayertimestamphook?branch=master)         | Implemented on the player's source filter. It enables the filter to modify the time stamps on the video samples before delivering them downstream.                                                 |
+| [**IWMReaderAccelerator**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator?branch=master)             | Implemented on the WM Reader object. It is called by a player source filter to obtain interfaces from the decoder DMO.                                                                             |
 
 
 

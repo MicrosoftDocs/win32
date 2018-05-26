@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthValidationRequest2 GetConfigID method
 description: Used by the System Health Validators (SHVs) to retrieve the configuration ID in a validation request.
-ms.assetid: '6d5564e4-8386-444b-a859-f0c855e4ee30'
-keywords: ["GetConfigID method NAP", "GetConfigID method NAP , INapSystemHealthValidationRequest2 interface", "INapSystemHealthValidationRequest2 interface NAP , GetConfigID method"]
+ms.assetid: 6d5564e4-8386-444b-a859-f0c855e4ee30
+keywords:
+- GetConfigID method NAP
+- GetConfigID method NAP , INapSystemHealthValidationRequest2 interface
+- INapSystemHealthValidationRequest2 interface NAP , GetConfigID method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthValidationRequest2::GetConfigID method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthValidationRequest2::GetConfigId** method is used by the System Health Validators (SHVs) to retrieve the configuration ID in a validation request.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthValidationRequest2::GetConfigId** method is used by the Sy
 
 ```C++
 HRESULT GetConfigID(
-  [out] UINT32 *configID
+  [out] UINT32 *configID
 ) const;
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,7 +74,7 @@ Returns one of the following error codes based on the result of this operation.
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -80,9 +88,9 @@ Returns one of the following error codes based on the result of this operation.
 [**INapSystemHealthValidationRequest2**](inapsystemhealthvalidationrequest2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

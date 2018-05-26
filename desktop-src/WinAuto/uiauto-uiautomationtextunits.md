@@ -1,8 +1,16 @@
 ---
 title: UI Automation Text Units
 description: This topic describes the text units supported by the Microsoft UI Automation \ 32;TextRange control pattern. UI Automation providers and clients use text units to specify the amount by which to move or change the size of a text range.
-ms.assetid: '3ec43a81-c4f1-4c73-865f-a60c751fc3fb'
-keywords: ["UI Automation,text units", "text units,about", "UI Automation,list of text units"]
+ms.assetid: 3ec43a81-c4f1-4c73-865f-a60c751fc3fb
+keywords:
+- UI Automation,text units
+- text units,about
+- UI Automation,list of text units
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Text Units
@@ -25,14 +33,14 @@ This topic describes the text units supported by the Microsoft UI Automation [Te
 
 The UI Automation API includes the following methods that require a text unit to be specified:
 
--   [**ITextRangeProvider::Move**](uiauto-itextrangeprovider-move.md)
--   [**ITextRangeProvider::ExpandToEnclosingUnit**](uiauto-itextrangeprovider-expandtoenclosingunit.md)
--   [**ITextRangeProvider::MoveEndpointByUnit**](uiauto-itextrangeprovider-moveendpointbyunit.md)
--   [**IUIAutomationTextRange::Move**](uiauto-iuiautomationtextrange-move.md)
--   [**IUIAutomationTextRange::ExpandToEnclosingUnit**](uiauto-iuiautomationtextrange-expandtoenclosingunit.md)
--   [**IUIAutomationTextRange::MoveEndpointByUnit**](uiauto-iuiautomationtextrange-moveendpointbyunit.md)
+-   [**ITextRangeProvider::Move**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-move?branch=master)
+-   [**ITextRangeProvider::ExpandToEnclosingUnit**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-expandtoenclosingunit?branch=master)
+-   [**ITextRangeProvider::MoveEndpointByUnit**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextrangeprovider-moveendpointbyunit?branch=master)
+-   [**IUIAutomationTextRange::Move**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move?branch=master)
+-   [**IUIAutomationTextRange::ExpandToEnclosingUnit**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-expandtoenclosingunit?branch=master)
+-   [**IUIAutomationTextRange::MoveEndpointByUnit**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-moveendpointbyunit?branch=master)
 
-The [**TextUnit**](uiauto-textunitenum.md) enumeration defines the text units that are supported by UI Automation text ranges. To specify the text unit, a member of the **TextUnit** enumeration is specified in a call to an [**ITextRangeProvider**](uiauto-itextrangeprovider.md) or [**IUIAutomationTextRange**](uiauto-iuiautomationtextrange.md) method. The text units, from smallest to largest, are as follows:
+The [**TextUnit**](/windows/win32/UIAutomationCore/ne-uiautomationcore-textunit?branch=master) enumeration defines the text units that are supported by UI Automation text ranges. To specify the text unit, a member of the **TextUnit** enumeration is specified in a call to an [**ITextRangeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextrangeprovider?branch=master) or [**IUIAutomationTextRange**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange?branch=master) method. The text units, from smallest to largest, are as follows:
 
 -   [**TextUnit\_Character**](uiauto-textunitenum.md#textunit-character)
 -   [**TextUnit\_Format**](uiauto-textunitenum.md#textunit-format)
@@ -60,7 +68,7 @@ Punctuation marks and word break characters such as spaces should be considered 
 
 ### Format
 
-[**TextUnit\_Format**](uiauto-textunitenum.md#textunit-format) is used to position the boundary of a text range based on the formatting attributes of the text. For example, if a text range is currently positioned on a single character of a word, specifying **TextUnit\_Format** in a call to [**IUIAutomationTextRange::ExpandToEnclosingUnit**](uiauto-iuiautomationtextrange-expandtoenclosingunit.md) expands the text range to include all text that shares all the same attributes as the single character. The resulting text range might or might not include the entire word. Also, using the format text unit will not expand a text range across the boundary of an embedded object such as an image or hyperlink.
+[**TextUnit\_Format**](uiauto-textunitenum.md#textunit-format) is used to position the boundary of a text range based on the formatting attributes of the text. For example, if a text range is currently positioned on a single character of a word, specifying **TextUnit\_Format** in a call to [**IUIAutomationTextRange::ExpandToEnclosingUnit**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-expandtoenclosingunit?branch=master) expands the text range to include all text that shares all the same attributes as the single character. The resulting text range might or might not include the entire word. Also, using the format text unit will not expand a text range across the boundary of an embedded object such as an image or hyperlink.
 
 Unlike the other text units, which include the text units that are smaller than themselves, [**TextUnit\_Format**](uiauto-textunitenum.md#textunit-format) can be smaller or larger than the other units. For example, if an entire document shares the same text attributes and contains no embedded objects, expanding a text range by **TextUnit\_Format** would create a new range that encompasses the entire document, while expanding the text range by [**TextUnit\_Word**](uiauto-textunitenum.md#textunit-word) would create a smaller range.
 
@@ -88,7 +96,7 @@ When [**TextUnit\_Word**](uiauto-textunitenum.md#textunit-word) is used to set t
 
 ## Other Potential Ranges
 
-The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern specification does not allow new text unit values to be added to the [**TextUnit**](uiauto-textunitenum.md) enumeration, nor does it allow the existing text unit values to be redefined. To expose other potential ranges, such as headers and annotations, a provider should expose these ranges as embedded objects with an associated text range. That way, you can also add support for the appropriate control patterns. This solution is more flexible and extensible than defining new text units.
+The current [TextRange](uiauto-implementingtextandtextrange.md) control pattern specification does not allow new text unit values to be added to the [**TextUnit**](/windows/win32/UIAutomationCore/ne-uiautomationcore-textunit?branch=master) enumeration, nor does it allow the existing text unit values to be redefined. To expose other potential ranges, such as headers and annotations, a provider should expose these ranges as embedded objects with an associated text range. That way, you can also add support for the appropriate control patterns. This solution is more flexible and extensible than defining new text units.
 
 ## Related topics
 

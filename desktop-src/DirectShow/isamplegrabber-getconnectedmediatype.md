@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetConnectedMediaType method retrieves the media type for the connection on the input pin of the Sample Grabber.'
-ms.assetid: '65f5603a-1151-4ffd-a662-84e265663b04'
-title: 'ISampleGrabber::GetConnectedMediaType method'
+---
+Description: The GetConnectedMediaType method retrieves the media type for the connection on the input pin of the Sample Grabber.
+ms.assetid: 65f5603a-1151-4ffd-a662-84e265663b04
+title: ISampleGrabberGetConnectedMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabber::GetConnectedMediaType method
@@ -31,7 +36,7 @@ HRESULT GetConnectedMediaType(
 *pType* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure allocated by the caller.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure allocated by the caller.
 
 </dd> </dl>
 

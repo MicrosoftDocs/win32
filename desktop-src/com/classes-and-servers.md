@@ -1,7 +1,12 @@
 ---
 title: Classes and Servers
 description: Classes and Servers
-ms.assetid: 'cc88be56-0d96-47d2-b23b-6a6ad376bdae'
+ms.assetid: cc88be56-0d96-47d2-b23b-6a6ad376bdae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Classes and Servers
@@ -10,8 +15,8 @@ COM uses **HKEY\_CLASSES\_ROOT** for computer-wide settings but also allows per-
 
 COM servers support self-registration. For an in-process server, this means that the DLL must export the following functions:
 
--   [**DllRegisterServer**](dllregisterserver.md)
--   [**DllUnregisterServer**](dllunregisterserver.md)
+-   [**DllRegisterServer**](/windows/win32/Olectl/nf-olectl-dllregisterserver?branch=master)
+-   [**DllUnregisterServer**](/windows/win32/Olectl/nf-olectl-dllunregisterserver?branch=master)
 
 You must explicitly export these functions by using a module definition file, linker switches, or compiler directives. The class store uses these functions to configure the local registry after downloading the file to the client machine. In addition to class store, these functions are also used by other environments to install servers on host computers.
 

@@ -1,14 +1,19 @@
 ---
 title: Implementing the IDispatch Member Functions
 description: The IDispatch member functions must be implemented in such a way as to take into account any language-specific features.
-ms.assetid: 'a6315b63-0139-4a5d-a65b-2660740889c4'
+ms.assetid: a6315b63-0139-4a5d-a65b-2660740889c4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the IDispatch Member Functions
 
-The following example code from the Hello sample implements language-sensitive versions of [**GetTypeInfoCount**](idispatch-gettypeinfocount.md), [**GetIDsOfNames**](idispatch-getidsofnames.md), and [**Invoke**](idispatch-invoke.md). Note that **Invoke** does not check the LCID, but merely passes it to [DispInvoke](69B89E5C-2A04-4A6A-BEB0-18E68F8866AC). **GetTypeInfoCount** does not contain any language-specific information; however, [**GetTypeInfo**](idispatch-gettypeinfo.md) does.
+The following example code from the Hello sample implements language-sensitive versions of [**GetTypeInfoCount**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-gettypeinfocount?branch=master), [**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master), and [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). Note that **Invoke** does not check the LCID, but merely passes it to [DispInvoke](69B89E5C-2A04-4A6A-BEB0-18E68F8866AC). **GetTypeInfoCount** does not contain any language-specific information; however, [**GetTypeInfo**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-gettypeinfo?branch=master) does.
 
-The [**IDispatch**](idispatch.md) member functions must be implemented in such a way as to take into account any language-specific features. [**DispInvoke**](dispinvoke.md) is passed only the U.S. English type information pointer.
+The [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) member functions must be implemented in such a way as to take into account any language-specific features. [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master) is passed only the U.S. English type information pointer.
 
 
 ```C++

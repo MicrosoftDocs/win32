@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an asynchronous-data processor for an effect.'
-ms.assetid: '90a0dcd1-e495-4068-9f28-e2645370b984'
+---
+Description: Create an asynchronous-data processor for an effect.
+ms.assetid: 90a0dcd1-e495-4068-9f28-e2645370b984
 title: D3DX10CreateAsyncEffectCompilerProcessor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateAsyncEffectCompilerProcessor function
@@ -42,18 +47,18 @@ A string that contains the effect filename.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)\***
 
-A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)); set this to **NULL** to specify no macros.
+A NULL-terminated array of shader macros (see [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)); set this to **NULL** to specify no macros.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](id3d10include.md)**
+Type: **[**LPD3D10INCLUDE**](/windows/win32/D3D10Shader/?branch=master)**
 
-A pointer to an include interface (see [**ID3D10Include Interface**](id3d10include.md)). This parameter can be **NULL**.
+A pointer to an include interface (see [**ID3D10Include Interface**](/windows/win32/D3D10Shader/?branch=master)). This parameter can be **NULL**.
 
 </dd> <dt>
 
@@ -78,18 +83,18 @@ Type: **[**UINT**](winprog.windows_data_types)**
 *ppCompiledShader* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-Address of a pointer to buffer (see [**ID3D10Blob Interface**](id3d10blob.md)) that contains the compiled effect.
+Address of a pointer to buffer (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) that contains the compiled effect.
 
 </dd> <dt>
 
 *ppErrorBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-Address of a pointer to a buffer (see [**ID3D10Blob Interface**](id3d10blob.md)) that contains compile errors.
+Address of a pointer to a buffer (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) that contains compile errors.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '575f7f94-5f55-4834-bdb6-0db877187388'
-title: 'CBaseControlWindow.CBaseControlWindow constructor'
+Description: Constructor method.
+ms.assetid: 575f7f94-5f55-4834-bdb6-0db877187388
+title: CBaseControlWindow.CBaseControlWindow constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.CBaseControlWindow constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CBaseControlWindow(
-   CBaseMediaFilter *pFilter,
-   CCritSec         *pInterfaceLock,
-   TCHAR            *pName,
-   LPUNKNOWN        pUnk,
-   HRESULT          *phr
+   CBaseMediaFilter *pFilter,
+   CCritSec         *pInterfaceLock,
+   TCHAR            *pName,
+   LPUNKNOWN        pUnk,
+   HRESULT          *phr
 );
 ```
 
@@ -80,9 +85,9 @@ Pointer to a variable that receives an HRESULT value indicating the success or f
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: CERT\_CAPABILITY
 description: The following constants indicate the capabilities, algorithms, and cryptography supported by the certificate silo.
-ms.assetid: '304d0632-630a-4eea-903b-e0636c5cb12e'
+ms.assetid: 304d0632-630a-4eea-903b-e0636c5cb12e
 topic_type:
 - apiref
 api_name:
@@ -22,6 +22,11 @@ api_location:
 - EhStorExtensions.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CERT\_CAPABILITY
@@ -205,15 +210,15 @@ Identifier used to communicate support for RSASSA PSS-SHA-512 signature algorith
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2 \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista with SP2 \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>EhStorExtensions.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Verifies that a path is on a CSV and returns the resource identifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e470934-f1c1-40b2-93b7-10a9b3de3032'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0e470934-f1c1-40b2-93b7-10a9b3de3032
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID control code Failover Cluster"]
+keywords:
+- CLUSCTL_CLUSTER_GET_SHARED_VOLUME_ID control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_CLUSTER\_GET\_SHARED\_VOLUME\_ID control code
 
-Verifies that a path is on a cluster shared volume (CSV) and returns the [resource identifier](resource-identifiers.md) of the CSV and the volume offset of the specific volume (partition). Applications use this control code as a parameter to the [**ClusterControl**](clustercontrol.md) function
+Verifies that a path is on a cluster shared volume (CSV) and returns the [resource identifier](resource-identifiers.md) of the CSV and the volume offset of the specific volume (partition). Applications use this control code as a parameter to the [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) function
 
 
 ```C++
@@ -39,7 +43,7 @@ ClusterControl( hCluster,                             // cluster handle
 
 ## Parameters
 
-The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md).
+The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master).
 
 <dl> <dt>
 
@@ -80,7 +84,7 @@ Returns the actual size (in bytes) of the data resulting from the operation.
 
 ## Return value
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) returns one of the following values.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -126,17 +130,17 @@ The 32 bits of CLUSCTL\_CLUSTER\_GET\_SHARED\_VOLUME\_ID (0x07000291) are define
 
 | Component                 | Bit location     | Value                                                 |
 |---------------------------|------------------|-------------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>            |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>            |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_NO\_MODIFY** (0x0)<br/>                 |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>             |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                             |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_GET\_SHARED\_VOLUME\_ID** (0x291)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_NO\_MODIFY** (0x0)<br/>                 |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_GET\_SHARED\_VOLUME\_ID** (0x291)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_NO\_MODIFY** (0x0)<br/>                 |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -147,7 +151,7 @@ For more information, see [Control Code Architecture](control-code-architecture.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -159,15 +163,15 @@ For more information, see [Control Code Architecture](control-code-architecture.
 [External Resource Control Codes](external-resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dt>
 
-[*ResourceControl*](resourcecontrol.md)
+[*ResourceControl*](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

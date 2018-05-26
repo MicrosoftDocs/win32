@@ -1,7 +1,12 @@
 ---
-Description: 'Implements the IAxiService and IeAxiServiceCallback interfaces.'
-ms.assetid: '39f2ee3a-d4fd-4091-acd6-3d6b715bea75'
+Description: Implements the IAxiService and IeAxiServiceCallback interfaces.
+ms.assetid: 39f2ee3a-d4fd-4091-acd6-3d6b715bea75
 title: CIeAxiInstallerService object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIeAxiInstallerService object
@@ -28,7 +33,7 @@ This object is not declared in a public header. Applications must define it them
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
 
 
@@ -43,9 +48,9 @@ This object is not declared in a public header. Applications must define it them
 [**IeAxiServiceCallback**](ieaxiservicecallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

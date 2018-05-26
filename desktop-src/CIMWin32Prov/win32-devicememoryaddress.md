@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DeviceMemoryAddress WMI class represents a device memory address on a computer system running Windows.'
+Description: The Win32\_DeviceMemoryAddress WMI class represents a device memory address on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f0a70724-5ced-47fe-b17e-e153e65b80df'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f0a70724-5ced-47fe-b17e-e153e65b80df
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DeviceMemoryAddress class'
+title: Win32\_DeviceMemoryAddress class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DeviceMemoryAddress class
@@ -24,17 +27,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4CF-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_DeviceMemoryAddress : Win32_SystemMemoryResource
 {
-  string   Caption;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  uint64   EndingAddress;
+  string   Caption;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  uint64   EndingAddress;
   datetime InstallDate;
-  string   MemoryType;
-  string   Name;
-  uint64   StartingAddress;
-  string   Status;
+  string   MemoryType;
+  string   Name;
+  uint64   StartingAddress;
+  string   Status;
 };
 ```
 
@@ -62,7 +65,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -449,8 +452,8 @@ The **Win32\_DeviceMemoryAddress** class is derived from [**Win32\_SystemMemoryR
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -467,9 +470,9 @@ The **Win32\_DeviceMemoryAddress** class is derived from [**Win32\_SystemMemoryR
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,21 @@
 ---
 title: MetadataImportWithX509OverSslExample
 description: This example illustrates importing metadata from an endpoint that supports using a X509 token using WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING with WS\_SSL\_TRANSPORT\_SECURITY\_BINDING.
-ms.assetid: '9dbeea65-1752-4fe1-b425-f622e24acef0'
-keywords: ["MetadataImportWithX509OverSslExample Windows Web Services API", "WWSAPI", "WWS"]
+ms.assetid: 9dbeea65-1752-4fe1-b425-f622e24acef0
+keywords:
+- MetadataImportWithX509OverSslExample Windows Web Services API
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataImportWithX509OverSslExample
 
-This example illustrates importing metadata from an endpoint that supports using a X509 token using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](ws-xml-token-message-security-binding.md) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](ws-ssl-transport-security-binding.md).
+This example illustrates importing metadata from an endpoint that supports using a X509 token using [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_xml_token_message_security_binding?branch=master) with [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_ssl_transport_security_binding?branch=master).
 
 ## MetadataImportWithX509OverSslExample.cpp
 
@@ -577,10 +585,10 @@ Exit:
 
 <dl> <dt>
 
-[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](ws-xml-token-message-security-binding.md)
+[**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_xml_token_message_security_binding?branch=master)
 </dt> <dt>
 
-[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](ws-ssl-transport-security-binding.md)
+[**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/win32/WebServices/ns-webservices-_ws_ssl_transport_security_binding?branch=master)
 </dt> </dl>
 
  

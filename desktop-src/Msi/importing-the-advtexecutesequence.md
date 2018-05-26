@@ -1,7 +1,12 @@
 ---
-Description: 'The AdvtExecuteSequence table lists actions the installer calls when it executes the top-level ADVERTISE action. See Installation Procedure Tables Group, Using a Sequence Table, and the Sequence Table Detailed Example.'
-ms.assetid: '269bd28c-fa45-42b8-a610-1c4c5fcabc19'
+Description: The AdvtExecuteSequence table lists actions the installer calls when it executes the top-level ADVERTISE action. See Installation Procedure Tables Group, Using a Sequence Table, and the Sequence Table Detailed Example.
+ms.assetid: 269bd28c-fa45-42b8-a610-1c4c5fcabc19
 title: Importing the AdvtExecuteSequence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing the AdvtExecuteSequence

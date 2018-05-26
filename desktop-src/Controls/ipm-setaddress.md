@@ -1,8 +1,9 @@
 ---
 title: IPM\_SETADDRESS message
 description: Sets the address values for all four fields in the IP address control.
-ms.assetid: '52e72437-3558-4789-844f-5ab5b0b7967c'
-keywords: ["IPM_SETADDRESS message Windows Controls"]
+ms.assetid: 52e72437-3558-4789-844f-5ab5b0b7967c
+keywords:
+- IPM_SETADDRESS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPM\_SETADDRESS message
@@ -27,7 +33,7 @@ Sets the address values for all four fields in the IP address control.
 *lParam* 
 </dt> <dd>
 
-A **DWORD** value that contains the new address. The field 3 value is contained in bits 0 through 7. The field 2 value is contained in bits 8 through 15. The field 1 value is contained in bits 16 through 23. The field 0 value is contained in bits 24 through 31. The [**MAKEIPADDRESS**](makeipaddress.md) macro can also be used to create the address information.
+A **DWORD** value that contains the new address. The field 3 value is contained in bits 0 through 7. The field 2 value is contained in bits 8 through 15. The field 1 value is contained in bits 16 through 23. The field 0 value is contained in bits 24 through 31. The [**MAKEIPADDRESS**](/windows/win32/Commctrl/nf-commctrl-makeipaddress?branch=master) macro can also be used to create the address information.
 
 </dd> </dl>
 
@@ -45,15 +51,15 @@ This message does not generate an [**IPN\_FIELDCHANGED**](ipn-fieldchanged.md) n
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

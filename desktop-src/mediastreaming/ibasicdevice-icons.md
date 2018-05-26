@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice Icons method
 description: Returns a vector of IDeviceIcon interfaces.
-ms.assetid: '0C083AF3-FE22-4A8E-87B7-0FFA7B65ADBD'
-keywords: ["Icons method Media Streaming API", "Icons method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , Icons method"]
+ms.assetid: 0C083AF3-FE22-4A8E-87B7-0FFA7B65ADBD
+keywords:
+- Icons method Media Streaming API
+- Icons method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , Icons method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.Icons
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::Icons method
@@ -20,7 +28,7 @@ Returns a vector of [**IDeviceIcon**](ideviceicon.md) interfaces.
 
 ```C++
 HRESULT Icons(
-  [out] IVector< IDeviceIcon > **value
+  [out] IVector< IDeviceIcon > **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

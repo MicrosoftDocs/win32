@@ -1,7 +1,12 @@
 ---
-Description: 'The primary language of the file, particularly if that file is a document.'
-ms.assetid: 'fc25ebaa-42f6-42fc-8a3e-7704dbfbc0d8'
-title: 'System.Language'
+Description: The primary language of the file, particularly if that file is a document.
+ms.assetid: fc25ebaa-42f6-42fc-8a3e-7704dbfbc0d8
+title: System.Language
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Language

@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager Unadvise method
 description: Removes an advise account object from an array of advise account objects at the specified index.
-ms.assetid: '2499e0fa-4278-4982-b7e9-b0ba95591eab'
-keywords: ["Unadvise method Windows Mail (formerly Outlook Express)", "Unadvise method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , Unadvise method"]
+ms.assetid: 2499e0fa-4278-4982-b7e9-b0ba95591eab
+keywords:
+- Unadvise method Windows Mail (formerly Outlook Express)
+- Unadvise method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , Unadvise method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::Unadvise method
@@ -24,7 +32,7 @@ Removes an advise account object from an array of advise account objects at the 
 
 ```C++
 HRESULT Unadvise(
-  [in] DWORD dwConnection
+  [in] DWORD dwConnection
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

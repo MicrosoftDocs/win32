@@ -1,14 +1,20 @@
 ---
 title: ScheduleByMonthDayOfWeek (calendarTriggerType) Element
 description: Specifies a monthly day-of-week schedule.
-ms.assetid: '7ff17bea-fa26-40c4-90fa-d94a3690e464'
-keywords: ["ScheduleByMonthDayOfWeek element Task Scheduler"]
+ms.assetid: 7ff17bea-fa26-40c4-90fa-d94a3690e464
+keywords:
+- ScheduleByMonthDayOfWeek element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ScheduleByMonthDayOfWeek
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScheduleByMonthDayOfWeek (calendarTriggerType) Element
@@ -51,7 +57,7 @@ The time of day that the task is started is set by the [**StartBoundary**](tasks
 
 For scripting development, a monthly day-of-week trigger is specified using the [**MonthlyDOWTrigger**](monthlydowtrigger.md) object.
 
-For C++ development, a monthly day-of-week trigger is specified using the [**IMonthlyDOWTrigger**](imonthlydowtrigger.md) interface.
+For C++ development, a monthly day-of-week trigger is specified using the [**IMonthlyDOWTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlydowtrigger?branch=master) interface.
 
 The child elements listed above are defined by the [**monthlyDayOfWeekScheduleType**](taskschedulerschema-monthlydayofweekscheduletype-complextype.md) complex element types.
 
@@ -97,8 +103,8 @@ The following XML defines a monthly day of week calendar trigger that starts a t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -112,9 +118,9 @@ The following XML defines a monthly day of week calendar trigger that starts a t
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

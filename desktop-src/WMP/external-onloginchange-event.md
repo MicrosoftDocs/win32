@@ -1,8 +1,9 @@
 ---
 title: External.OnLoginChange Event
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '096794d5-977a-414f-8a98-b7998674c268'
-keywords: ["External.OnLoginChange Event Windows Media Player"]
+ms.assetid: 096794d5-977a-414f-8a98-b7998674c268
+keywords:
+- External.OnLoginChange Event Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.OnLoginChange Event
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **OnLoginChange** event occurs when the user's log-in status changes or when an attempt to log in fails.
 
@@ -36,7 +42,7 @@ The function that handles this event takes no parameters.
 
 ## Remarks
 
-This event occurs every time the online store's plug-in calls [IWMPContentPartnerCallback::Notify](iwmpcontentpartnercallback-notify.md), passing wmpcnLoginStateChange in the *type* parameter. Sometimes the plug-in makes this call to notify Windows Media Player that there was a change in the user's log-in state. Other times, the plug-in makes this call to notify the Player that an attempt to log in failed. The *pContext* parameter of the **Notify** method specifies whether the notification is for a change of log-in state or for a failed log-in attempt.
+This event occurs every time the online store's plug-in calls [IWMPContentPartnerCallback::Notify](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify?branch=master), passing wmpcnLoginStateChange in the *type* parameter. Sometimes the plug-in makes this call to notify Windows Media Player that there was a change in the user's log-in state. Other times, the plug-in makes this call to notify the Player that an attempt to log in failed. The *pContext* parameter of the **Notify** method specifies whether the notification is for a change of log-in state or for a failed log-in attempt.
 
 Because every call to `Notify(wmpcnLoginStateChange, ...)` causes Windows Media Player to raise the **OnLoginChange** event, the **OnLoginChange** event handler is called sometimes as the result of a change in log-in state and sometimes as the result of a failed log-in attempt. To determine the user's current log-in state, the **OnLoginChange** event handler must call [External.userLoggedIn](external-userloggedin.md).
 
@@ -64,9 +70,9 @@ Because every call to `Notify(wmpcnLoginStateChange, ...)` causes Windows Media 
 [**External.userLoggedIn**](external-userloggedin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

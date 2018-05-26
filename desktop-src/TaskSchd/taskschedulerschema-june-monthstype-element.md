@@ -1,14 +1,20 @@
 ---
 title: June (monthsType) Element
 description: Specifies that the task runs in June.
-ms.assetid: '15b0e8c2-4dc1-4ca3-99c5-bd9a36718904'
-keywords: ["June element Task Scheduler"]
+ms.assetid: 15b0e8c2-4dc1-4ca3-99c5-bd9a36718904
+keywords:
+- June element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - June
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # June (monthsType) Element
@@ -53,8 +59,8 @@ The following XML defines a months calendar that runs the task in June.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ The following XML defines a months calendar that runs the task in June.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

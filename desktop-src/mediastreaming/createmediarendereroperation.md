@@ -1,14 +1,21 @@
 ---
 title: CreateMediaRendererOperation class
 description: Registers an event handler that is invoked when the asynchronous operation started by CreateMediaRendererAsync or CreateMediaRendererFromBasicDeviceAsync completes, and provides a method that returns the results of the operation.
-ms.assetid: '0BC87D9E-5285-4F98-96B4-C841DDECBBE0'
-keywords: ["CreateMediaRendererOperation class Media Streaming API", "CreateMediaRendererOperation class Media Streaming API , described"]
+ms.assetid: 0BC87D9E-5285-4F98-96B4-C841DDECBBE0
+keywords:
+- CreateMediaRendererOperation class Media Streaming API
+- CreateMediaRendererOperation class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - CreateMediaRendererOperation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMediaRendererOperation class
@@ -32,7 +39,7 @@ The **CreateMediaRendererOperation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -46,11 +53,11 @@ The **CreateMediaRendererOperation** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

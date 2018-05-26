@@ -4,17 +4,21 @@ description: Gets the set of roles.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'B7B22A73-95B7-4A4C-8A70-BD6C79CF8A9E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: B7B22A73-95B7-4A4C-8A70-BD6C79CF8A9E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRoles roles property"]
+keywords:
+- MSUserRoles roles property
 topic_type:
 - apiref
 api_name:
 - MSUserRoles roles property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRoles roles property
@@ -37,7 +41,7 @@ Gets the set of roles.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserRoles.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

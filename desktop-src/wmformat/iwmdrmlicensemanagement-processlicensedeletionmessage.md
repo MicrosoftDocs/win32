@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement ProcessLicenseDeletionMessage method
 description: The ProcessLicenseDeletion method deletes a license that was imported for content originally protected with another content protection system.
-ms.assetid: '478dd156-feb8-4eda-9d3a-35db3e65c227'
-keywords: ["ProcessLicenseDeletionMessage method windows Media Format", "ProcessLicenseDeletionMessage method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , ProcessLicenseDeletionMessage method"]
+ms.assetid: 478dd156-feb8-4eda-9d3a-35db3e65c227
+keywords:
+- ProcessLicenseDeletionMessage method windows Media Format
+- ProcessLicenseDeletionMessage method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , ProcessLicenseDeletionMessage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::ProcessLicenseDeletionMessage method
@@ -22,7 +30,7 @@ The **ProcessLicenseDeletion** method deletes a license that was imported for co
 
 ```C++
 HRESULT ProcessLicenseDeletionMessage(
-  [in] BSTR bstrDeletionMessage
+  [in] BSTR bstrDeletionMessage
 );
 ```
 
@@ -51,7 +59,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +82,9 @@ None.
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

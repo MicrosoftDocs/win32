@@ -1,7 +1,12 @@
 ---
-Description: 'The at element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the parameter.'
-ms.assetid: '523aa25c-790b-4532-9c69-76544235bdfe'
+Description: The at element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the parameter.
+ms.assetid: 523aa25c-790b-4532-9c69-76544235bdfe
 title: at Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # at Element

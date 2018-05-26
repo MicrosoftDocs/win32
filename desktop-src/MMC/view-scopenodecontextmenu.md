@@ -4,11 +4,16 @@ description: The ScopeNodeContextMenu property returns the context menu for the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3b511af6-9265-467e-b075-8e584196f78c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3b511af6-9265-467e-b075-8e584196f78c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ScopeNodeContextMenu property MMC", "ScopeNodeContextMenu property MMC , View object", "View object MMC , ScopeNodeContextMenu property", "ScopeNodeContextMenu property MMC , View interface", "View interface MMC , ScopeNodeContextMenu property"]
+keywords:
+- ScopeNodeContextMenu property MMC
+- ScopeNodeContextMenu property MMC , View object
+- View object MMC , ScopeNodeContextMenu property
+- ScopeNodeContextMenu property MMC , View interface
+- View interface MMC , ScopeNodeContextMenu property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ScopeNodeContextMenu property
@@ -64,8 +72,8 @@ MsgBox ("objCtxMenu.Count = " & objCtxMenu.Count)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -86,9 +94,9 @@ MsgBox ("objCtxMenu.Count = " & objCtxMenu.Count)
 [**Document.ScopeNamespace**](document-scopenamespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,23 @@
 ---
 title: Using Waveform and Auxiliary Audio
 description: Using Waveform and Auxiliary Audio
-ms.assetid: 'fe3e1397-7cf9-4347-9093-be80341ead7c'
-keywords: ["Windows multimedia,waveform audio", "multimedia,waveform audio", "multimedia audio,waveform", "audio,waveform", "Windows multimedia,auxiliary audio", "multimedia,auxiliary audio", "multimedia audio,auxiliary", "audio,auxiliary", "waveform audio,about", "auxiliary audio,about"]
+ms.assetid: fe3e1397-7cf9-4347-9093-be80341ead7c
+keywords:
+- Windows multimedia,waveform audio
+- multimedia,waveform audio
+- multimedia audio,waveform
+- audio,waveform
+- Windows multimedia,auxiliary audio
+- multimedia,auxiliary audio
+- multimedia audio,auxiliary
+- audio,auxiliary
+- waveform audio,about
+- auxiliary audio,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Waveform and Auxiliary Audio

@@ -1,13 +1,16 @@
 ---
-Description: 'Scripts and Visual Basic applications must set DCOM security, especially for remote access, and may also need to enable privileges.'
+Description: Scripts and Visual Basic applications must set DCOM security, especially for remote access, and may also need to enable privileges.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4816914d-a1cf-47d8-af20-2b22c53042d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4816914d-a1cf-47d8-af20-2b22c53042d6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Securing Scripting Clients
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Securing Scripting Clients

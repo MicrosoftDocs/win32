@@ -4,13 +4,18 @@ description: The DFSR WMI provider provides classes for monitoring DFSR resource
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '913e0943-c4b8-49f1-b953-797d28bb3af2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 913e0943-c4b8-49f1-b953-797d28bb3af2
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , monitoring", "monitoring Distributed File System Replication Files"]
+keywords:
+- Distributed File System Replication Files , monitoring
+- monitoring Distributed File System Replication Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Monitoring DFSR

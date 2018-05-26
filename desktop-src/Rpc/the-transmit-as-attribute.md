@@ -1,8 +1,15 @@
 ---
 title: The transmit\_as Attribute
 description: The \ transmit\_as\ attribute offers a way to control data marshaling without worrying about marshaling data at a low level \ 8212;that is, without worrying about data sizes or byte swapping in a heterogeneous environment.
-ms.assetid: '04e670c9-b091-457d-aeca-058cf5b664e8'
-keywords: ["Remote Procedure Call RPC , attributes, transmit_as", "transmit_as"]
+ms.assetid: 04e670c9-b091-457d-aeca-058cf5b664e8
+keywords:
+- Remote Procedure Call RPC , attributes, transmit_as
+- transmit_as
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The transmit\_as Attribute

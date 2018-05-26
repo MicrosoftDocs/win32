@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the battery's current tag.'
-ms.assetid: '0bbe59ba-e037-47ce-a54a-6500ea7c9bc5'
-title: 'IOCTL\_BATTERY\_QUERY\_TAG control code'
+Description: Retrieves the batterys current tag.
+ms.assetid: 0bbe59ba-e037-47ce-a54a-6500ea7c9bc5
+title: IOCTL\_BATTERY\_QUERY\_TAG control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_BATTERY\_QUERY\_TAG control code
@@ -119,9 +124,9 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>BatClass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>BatClass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -147,9 +152,9 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 [**IOCTL\_BATTERY\_SET\_INFORMATION**](ioctl-battery-set-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

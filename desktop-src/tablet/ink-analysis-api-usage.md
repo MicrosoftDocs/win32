@@ -1,7 +1,12 @@
 ---
-Description: 'There are four layers to the Ink Analysis library: Windows Forms, WPF, COM, and the base layer. This section describes when to use each layer.'
-ms.assetid: 'bd190606-5bd8-4280-ba2b-267588904ed3'
+Description: There are four layers to the Ink Analysis library Windows Forms, WPF, COM, and the base layer. This section describes when to use each layer.
+ms.assetid: bd190606-5bd8-4280-ba2b-267588904ed3
 title: Ink Analysis API Usage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis API Usage
@@ -42,7 +47,7 @@ You must \#include "IACom.h". You will most likely use the libraries in conjunct
 
 ### RTS and Other Applications
 
-The Ink Analysis base layer works differently than the others in that it takes point data for analysis rather than [Stroke](T:Microsoft.Ink.Stroke) objects. Examples of where you would work with the Base layer directly rather than using the Windows forms or COM layers include applications that do not use first generation Tablet PC Platform Ink objects, or applications that use the [**RealTimeStylus**](realtimestylus-class.md) APIs to manage stylus input rather than using the Tablet PC Platform [Ink](T:Microsoft.Ink.Ink) objects.
+The Ink Analysis base layer works differently than the others in that it takes point data for analysis rather than [Stroke](T:Microsoft.Ink.Stroke) objects. Examples of where you would work with the Base layer directly rather than using the Windows forms or COM layers include applications that do not use first generation Tablet PC Platform Ink objects, or applications that use the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) APIs to manage stylus input rather than using the Tablet PC Platform [Ink](T:Microsoft.Ink.Ink) objects.
 
 ## 32-bit Support Only
 

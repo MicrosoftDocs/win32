@@ -1,8 +1,14 @@
 ---
 title: Plug-in Wrapper Functions
 description: Wrapper functions that allow you to call a public function on any adapter attached to the pipeline without manually acquiring a pointer to the adapter.
-ms.assetid: 'a87536bf-3a10-4062-a509-db7f03172307'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , plug-in wrapper functions"]
+ms.assetid: a87536bf-3a10-4062-a509-db7f03172307
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , plug-in wrapper functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Plug-in Wrapper Functions
@@ -37,7 +43,7 @@ WbioEngineSetHashAlgorithm(
 
 
 
-The function verifies that the *Pipeline* argument is not **NULL**, that an engine adapter exists, and that the [**EngineAdapterSetHashAlgorithm**](engineadaptersethashalgorithm.md) function exists. All wrapper functions are defined in the Winbio\_adapter.h header file. The following topics discuss the available wrappers.
+The function verifies that the *Pipeline* argument is not **NULL**, that an engine adapter exists, and that the [**EngineAdapterSetHashAlgorithm**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn?branch=master) function exists. All wrapper functions are defined in the Winbio\_adapter.h header file. The following topics discuss the available wrappers.
 
 ## In this section
 
@@ -51,7 +57,7 @@ The function verifies that the *Pipeline* argument is not **NULL**, that an engi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -60,9 +66,9 @@ The function verifies that the *Pipeline* argument is not **NULL**, that an engi
 [Plug-in Reference](plug-in-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl UserDomain property
 description: The UserDomain property contains the network domain to use for validating credentials with the VMRC server.
-ms.assetid: 'c627d622-22d3-4f8c-98bf-e2fed1997c85'
-keywords: ["UserDomain property Virtual Server", "UserDomain property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , UserDomain property", "UserDomain property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , UserDomain property"]
+ms.assetid: c627d622-22d3-4f8c-98bf-e2fed1997c85
+keywords:
+- UserDomain property Virtual Server
+- UserDomain property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , UserDomain property
+- UserDomain property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , UserDomain property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::UserDomain property
@@ -27,7 +37,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_UserDomain(
-  [in] BSTR userDomain
+  [in] BSTR userDomain
 );
 ```
 
@@ -81,8 +91,8 @@ This property is used in conjunction with the [**IVMRCClientControl::UserName**]
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -95,9 +105,9 @@ This property is used in conjunction with the [**IVMRCClientControl::UserName**]
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

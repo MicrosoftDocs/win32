@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of children in this file data object.'
-ms.assetid: 'ebc6905b-a453-4a15-adae-956ce7034084'
-title: 'ID3DXFileData::GetChildren method'
+---
+Description: Retrieves the number of children in this file data object.
+ms.assetid: ebc6905b-a453-4a15-adae-956ce7034084
+title: ID3DXFileDataGetChildren method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileData::GetChildren method

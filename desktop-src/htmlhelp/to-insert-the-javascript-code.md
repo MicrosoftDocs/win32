@@ -1,7 +1,12 @@
 ---
 title: To insert the JavaScript code
 description: To insert the JavaScript code
-ms.assetid: '4DB35E67-3FA1-4c84-A193-6B0840EB7679'
+ms.assetid: 4DB35E67-3FA1-4c84-A193-6B0840EB7679
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To insert the JavaScript code

@@ -4,11 +4,14 @@ description: Removes one or more existing DSNs from the system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73e6d214-33da-41eb-8d74-0ed2a872ea60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 73e6d214-33da-41eb-8d74-0ed2a872ea60
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByName method", "RemoveByName method, MSFT_OdbcDsnTask class", "MSFT_OdbcDsnTask class, RemoveByName method"]
+keywords:
+- RemoveByName method
+- RemoveByName method, MSFT_OdbcDsnTask class
+- MSFT_OdbcDsnTask class, RemoveByName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByName method of the MSFT\_OdbcDsnTask class
@@ -28,12 +34,12 @@ Removes one or more existing DSNs from the system.
 
 ```mof
 uint32 RemoveByName(
-  [in]  boolean      PassThru,
-  [in]  string       Name,
-  [in]  string       DriverName,
-  [in]  string       Platform,
-  [in]  string       DsnType,
-  [out] MSFT_OdbcDsn cmdletOutput[]
+  [in]  boolean      PassThru,
+  [in]  string       Name,
+  [in]  string       DriverName,
+  [in]  string       Platform,
+  [in]  string       DsnType,
+  [out] MSFT_OdbcDsn cmdletOutput[]
 );
 ```
 
@@ -91,8 +97,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDsn**](msft-odbcdsn.m
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -109,9 +115,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDsn**](msft-odbcdsn.m
 [**MSFT\_OdbcDsn**](msft-odbcdsn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

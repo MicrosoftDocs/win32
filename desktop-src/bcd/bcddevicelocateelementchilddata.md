@@ -1,8 +1,10 @@
 ---
 title: BcdDeviceLocateElementChildData class
-description: Represents the element to locate within the virtual hard disk (VHD) and specifies the VHD file's parent device for a VPART locate device.
-ms.assetid: '07e62261-ade7-4786-aa22-6b7d1b5d78f3'
-keywords: ["BcdDeviceLocateElementChildData class Boot Config", "BcdDeviceLocateElementChildData class Boot Config , described"]
+description: Represents the element to locate within the virtual hard disk (VHD) and specifies the VHD files parent device for a VPART locate device.
+ms.assetid: 07e62261-ade7-4786-aa22-6b7d1b5d78f3
+keywords:
+- BcdDeviceLocateElementChildData class Boot Config
+- BcdDeviceLocateElementChildData class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceLocateElementChildData class
@@ -24,7 +31,7 @@ Represents the element to locate within the virtual hard disk (VHD) and specifie
 ``` syntax
 class BcdDeviceLocateElementChildData : BcdDeviceLocateData
 {
-  uint32        Element;
+  uint32        Element;
   BcdDeviceData Parent;
 };
 ```
@@ -79,8 +86,8 @@ A VHD file's parent device is always a [**BcdDeviceFileData**](bcddevicefiledata
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -96,9 +103,9 @@ A VHD file's parent device is always a [**BcdDeviceFileData**](bcddevicefiledata
 [**SetVhdDeviceElement**](setvhddeviceelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

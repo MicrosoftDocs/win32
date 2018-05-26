@@ -4,13 +4,16 @@ description: Adds members to an existing replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22690ac3-7d2a-48a6-9e3f-d665d79f87c1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 22690ac3-7d2a-48a6-9e3f-d665d79f87c1
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddMembers method iSCSI Software Target API", "AddMembers method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , AddMembers method"]
+keywords:
+- AddMembers method iSCSI Software Target API
+- AddMembers method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , AddMembers method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddMembers method of the MSISCSITARGET\_ReplicationService class
@@ -32,10 +38,10 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 AddMembers(
-  [in]           CIM_LogicalElement Ref     Members[],
-  [in]           CIM_ReplicationGroup Ref   ReplicationGroup,
-  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
-  [in, optional] string                     ReplicationSettingData
+  [in]           CIM_LogicalElement Ref     Members[],
+  [in]           CIM_ReplicationGroup Ref   ReplicationGroup,
+  [in, optional] CIM_ServiceAccessPoint Ref ServiceAccessPoint,
+  [in, optional] string                     ReplicationSettingData
 );
 ```
 
@@ -103,7 +109,7 @@ This method returns one of the following values:
 **Group does not exist** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–0x7FFF)
+**DMTF Reserved** (8 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -116,7 +122,7 @@ This method returns one of the following values:
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -130,9 +136,9 @@ This method returns one of the following values:
 [**MSISCSITARGET\_ReplicationService**](msiscsitarget-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

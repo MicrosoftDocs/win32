@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetResult method tells whether the bidi request was successful.'
-ms.assetid: 'd3d37fd2-b3fa-4664-ba4b-c355197d9b40'
-title: 'IBidiRequest::GetResult method'
+---
+Description: The GetResult method tells whether the bidi request was successful.
+ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
+title: IBidiRequestGetResult method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequest::GetResult method

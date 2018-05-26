@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains reference information for the constants defined in Direct3D.'
-ms.assetid: '77b80ffa-edb7-42bc-943a-5abfdbe5cf42'
+---
+Description: This section contains reference information for the constants defined in Direct3D.
+ms.assetid: 77b80ffa-edb7-42bc-943a-5abfdbe5cf42
 title: Direct3D Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D Constants
@@ -45,7 +50,7 @@ This section contains reference information for the constants defined in Direct3
 -   [D3DPRESENT](d3dpresent.md) - Presentation timing constants
 -   [D3DPRESENT\_BACK\_BUFFERS](d3dpresent-back-buffers.md) - Back buffer quantity constants
 -   [D3DPRESENTFLAG](d3dpresentflag.md) - Presentation constants
--   [**D3DPSHADERCAPS2\_0**](d3dpshadercaps2-0.md) - Pixel shader "2\_0 Extended" constants
+-   [**D3DPSHADERCAPS2\_0**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dpshadercaps2_0?branch=master) - Pixel shader "2\_0 Extended" constants
 -   [D3DPTFILTERCAPS](d3dptfiltercaps.md) - Texture filtering constants
 -   [D3DSTENCILCAPS](d3dstencilcaps.md) - Driver stencil capability flags
 -   [D3DTA](d3dta.md) - Texture argument constants

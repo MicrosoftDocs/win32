@@ -1,7 +1,12 @@
-﻿---
-Description: 'The identifier of the index to be accessed in a database.'
-ms.assetid: '559e73bf-91c2-4dbf-a667-e5c0431aaffa'
+---
+Description: The identifier of the index to be accessed in a database.
+ms.assetid: 559e73bf-91c2-4dbf-a667-e5c0431aaffa
 title: INDEXID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INDEXID

@@ -4,11 +4,16 @@ description: Print Spooler resources have several private properties, some that 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '82962df4-8146-4d7a-bb0c-0cfdb61f4e62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 82962df4-8146-4d7a-bb0c-0cfdb61f4e62
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Print Spooler resource type Failover Cluster ,properties", "properties Failover Cluster ,Print Spooler (private) properties"]
+keywords:
+- Print Spooler resource type Failover Cluster ,properties
+- properties Failover Cluster ,Print Spooler (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print Spooler Private Properties
@@ -27,7 +32,7 @@ keywords: ["Print Spooler resource type Failover Cluster ,properties", "properti
 
 
 
- 
+ 
 
 [Cluster Administrator](cluster-administrator.md) presents these properties on the property page associated with the **Parameters** tab for Print Spooler resources.
 
@@ -38,9 +43,9 @@ keywords: ["Print Spooler resource type Failover Cluster ,properties", "properti
 [Cluster Object Private Properties](private-properties-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

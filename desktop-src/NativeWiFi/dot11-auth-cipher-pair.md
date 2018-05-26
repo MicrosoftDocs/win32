@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a pair of 802.11 authentication and cipher algorithms that can be enabled at the same time on the 802.11 station.'
-ms.assetid: '5fbe23f6-7902-46d4-a1f0-57f045d78662'
-title: 'DOT11\_AUTH\_CIPHER\_PAIR structure'
+---
+Description: Defines a pair of 802.11 authentication and cipher algorithms that can be enabled at the same time on the 802.11 station.
+ms.assetid: 5fbe23f6-7902-46d4-a1f0-57f045d78662
+title: DOT11\_AUTH\_CIPHER\_PAIR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT11\_AUTH\_CIPHER\_PAIR structure

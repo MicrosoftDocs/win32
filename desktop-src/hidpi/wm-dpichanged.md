@@ -1,8 +1,9 @@
 ---
 title: WM\_DPICHANGED message
 description: Sent when the effective dots per inch (dpi) for a window has changed.
-ms.assetid: '97C458F2-89CD-45FF-ABEE-F158A3BCE0B8'
-keywords: ["WM_DPICHANGED message High DPI"]
+ms.assetid: 97C458F2-89CD-45FF-ABEE-F158A3BCE0B8
+keywords:
+- WM_DPICHANGED message High DPI
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - WinUser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DPICHANGED message
@@ -53,7 +59,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-This message is only relevant for **PROCESS\_PER\_MONITOR\_DPI\_AWARE** applications or **DPI\_AWARENESS\_PER\_MONITOR\_AWARE** threads. It may be received on certain DPI changes if your top-level window or process is running as **DPI unaware** or **system DPI aware**, but in those situations it can be safely ignored. For more information about the different types of awareness, see [**PROCESS\_DPI\_AWARENESS**](process-dpi-awareness.md) and [**DPI\_AWARENESS**](dpi-awareness.md). Older versions of Windows required DPI awareness to be tied at the level of an application. Those apps use **PROCESS\_DPI\_AWARENESS**. Currently, DPI awareness is tied to threads and individual windows rather than the entire application. These apps use **DPI\_AWARENESS**.
+This message is only relevant for **PROCESS\_PER\_MONITOR\_DPI\_AWARE** applications or **DPI\_AWARENESS\_PER\_MONITOR\_AWARE** threads. It may be received on certain DPI changes if your top-level window or process is running as **DPI unaware** or **system DPI aware**, but in those situations it can be safely ignored. For more information about the different types of awareness, see [**PROCESS\_DPI\_AWARENESS**](/windows/win32/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness?branch=master) and [**DPI\_AWARENESS**](/windows/win32/windef/ne-windef-dpi_awareness?branch=master). Older versions of Windows required DPI awareness to be tied at the level of an application. Those apps use **PROCESS\_DPI\_AWARENESS**. Currently, DPI awareness is tied to threads and individual windows rather than the entire application. These apps use **DPI\_AWARENESS**.
 
 You only need to use either the X-axis or the Y-axis value when scaling your application since they are the same.
 
@@ -72,7 +78,7 @@ The base value of DPI is defined as **USER\_DEFAULT\_SCREEN\_DPI** which is set 
 
 
 
- 
+ 
 
 The following example provides a sample DPI change handler.
 
@@ -124,8 +130,8 @@ An alternative way to scale a value is to convert the DPI value into a scale fac
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>WinUser.h</dt> </dl> |
 
 
@@ -134,15 +140,15 @@ An alternative way to scale a value is to convert the DPI value into a scale fac
 
 <dl> <dt>
 
-[**DPI\_AWARENESS**](dpi-awareness.md)
+[**DPI\_AWARENESS**](/windows/win32/windef/ne-windef-dpi_awareness?branch=master)
 </dt> <dt>
 
-[**PROCESS\_DPI\_AWARENESS**](process-dpi-awareness.md)
+[**PROCESS\_DPI\_AWARENESS**](/windows/win32/ShellScalingApi/ne-shellscalingapi-process_dpi_awareness?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a switch port that sends and receives data frames.'
-ms.assetid: '015eed2a-1393-40ef-a190-832ab48766f9'
-title: 'CIM\_SwitchPort class'
+Description: Represents a switch port that sends and receives data frames.
+ms.assetid: 015eed2a-1393-40ef-a190-832ab48766f9
+title: CIM\_SwitchPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SwitchPort class
@@ -52,8 +57,8 @@ The numeric identifier of the switch port.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -67,9 +72,9 @@ The numeric identifier of the switch port.
 [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

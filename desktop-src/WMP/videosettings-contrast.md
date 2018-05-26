@@ -1,14 +1,20 @@
 ---
 title: VIDEOSETTINGS.contrast
 description: The contrast attribute specifies or retrieves the contrast setting of the video.
-ms.assetid: '8a7b90b3-5551-4910-9028-f354d0e836f7'
-keywords: ["VIDEOSETTINGS.contrast Windows Media Player"]
+ms.assetid: 8a7b90b3-5551-4910-9028-f354d0e836f7
+keywords:
+- VIDEOSETTINGS.contrast Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEOSETTINGS.contrast
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEOSETTINGS.contrast
@@ -40,9 +46,9 @@ This attribute is a read/write **Number** (**long**) with a value ranging from -
 [**VIDEOSETTINGS Element**](videosettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

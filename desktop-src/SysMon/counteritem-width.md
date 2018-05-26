@@ -1,8 +1,11 @@
 ---
 title: CounterItem.Width property
 description: Retrieves or sets the line width used to graph the counter value.
-ms.assetid: '1f5c1e74-18d4-4005-b83f-bf7265d356cb'
-keywords: ["Width property SysMon", "Width property SysMon , CounterItem class", "CounterItem class SysMon , Width property"]
+ms.assetid: 1f5c1e74-18d4-4005-b83f-bf7265d356cb
+keywords:
+- Width property SysMon
+- Width property SysMon , CounterItem class
+- CounterItem class SysMon , Width property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.Width property
@@ -32,7 +40,7 @@ Property Width As Long
 
 Line width used in a line graph. Valid values range from 1 to 3, where 1 (the default value) is the narrowest width.
 
-**Prior to Windows Vista:** Valid values range from 1 to 9. Do not use a width value greater than 3 if your application will be run on Windows Vista.
+**Prior to Windows Vista:** Valid values range from 1 to 9. Do not use a width value greater than 3 if your application will be run on Windows Vista.
 
 ## Exceptions
 
@@ -44,7 +52,7 @@ Line width used in a line graph. Valid values range from 1 to 3, where 1 (the de
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,8 +66,8 @@ To specify a [**line style**](counteritem-linestyle.md) other than solid, the wi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -71,9 +79,9 @@ To specify a [**line style**](counteritem-linestyle.md) other than solid, the wi
 [**CounterItem**](counteritem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

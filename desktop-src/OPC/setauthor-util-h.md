@@ -1,8 +1,25 @@
 ---
 title: util.h
 description: util.h
-ms.assetid: '9a91b007-7378-40ee-a39b-0b64fe049b0b'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,set author sample", "packaging,set author sample", "packages,set author sample", "set author sample,util.h", "Packaging APIs,util.h", "packaging,util.h", "packages,util.h", "util.h,set author sample", "sample applications,set author"]
+ms.assetid: 9a91b007-7378-40ee-a39b-0b64fe049b0b
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,set author sample
+- packaging,set author sample
+- packages,set author sample
+- set author sample,util.h
+- Packaging APIs,util.h
+- packaging,util.h
+- packages,util.h
+- util.h,set author sample
+- sample applications,set author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # util.h

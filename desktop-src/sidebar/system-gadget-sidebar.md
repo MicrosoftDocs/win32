@@ -1,8 +1,10 @@
 ---
 title: System.Gadget.Sidebar object
 description: Defines the properties and events that provide basic Windows Sidebar functionality.
-ms.assetid: '74d7ae80-73b8-4088-a496-1c49bec20316'
-keywords: ["System.Gadget.Sidebar object Windows Sidebar", "System.Gadget.Sidebar object Windows Sidebar , described"]
+ms.assetid: 74d7ae80-73b8-4088-a496-1c49bec20316
+keywords:
+- System.Gadget.Sidebar object Windows Sidebar
+- System.Gadget.Sidebar object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Sidebar object
@@ -38,7 +45,7 @@ The **System.Gadget.Sidebar** object has these events.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -52,7 +59,7 @@ The **System.Gadget.Sidebar** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,18 +67,18 @@ The **System.Gadget.Sidebar** object has these properties.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

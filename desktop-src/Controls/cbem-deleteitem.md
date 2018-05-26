@@ -1,8 +1,9 @@
 ---
 title: CBEM\_DELETEITEM message
 description: Removes an item from a ComboBoxEx control.
-ms.assetid: '688cf388-54ba-4b45-88d7-628da49d8615'
-keywords: ["CBEM_DELETEITEM message Windows Controls"]
+ms.assetid: 688cf388-54ba-4b45-88d7-628da49d8615
+keywords:
+- CBEM_DELETEITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_DELETEITEM message
@@ -45,15 +51,15 @@ This message maps to the combo box control message [**CB\_DELETESTRING**](cb-del
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

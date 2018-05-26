@@ -4,11 +4,15 @@ description: This topic lists messages that a directory service can send from a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c81a3c44-c01d-4029-8a7d-6e0911d4f5ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c81a3c44-c01d-4029-8a7d-6e0911d4f5ab
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Messages Communicated through User Interfaces"]
+keywords:
+- Messages Communicated through User Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Messages Communicated through User Interfaces
@@ -17,7 +21,7 @@ This topic lists messages that a directory service can send from a user interfac
 
 ## Common Query Page Messages
 
-The following messages are sent to a directory service query form extension page in the [**CQPageProc**](cqpageproc.md) callback function:
+The following messages are sent to a directory service query form extension page in the [**CQPageProc**](/windows/win32/Cmnquery/nc-cmnquery-lpcqpageproc?branch=master) callback function:
 
 -   [**CQPM\_CLEARFORM**](cqpm-clearform.md)
 -   [**CQPM\_ENABLE**](cqpm-enable.md)

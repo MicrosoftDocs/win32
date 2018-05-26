@@ -1,12 +1,17 @@
 ---
 Description: Setting the Playback Rate
-ms.assetid: '74ae45d3-4fea-491c-af1f-46768df41c5f'
+ms.assetid: 74ae45d3-4fea-491c-af1f-46768df41c5f
 title: Setting the Playback Rate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Playback Rate
 
-To change the playback rate, call the [**IMediaSeeking::SetRate**](imediaseeking-setrate.md) method. Specify the new rate as a fraction of the original rate. For example, to play at twice-normal speed, use the following:
+To change the playback rate, call the [**IMediaSeeking::SetRate**](/windows/win32/Strmif/nf-strmif-imediaseeking-setrate?branch=master) method. Specify the new rate as a fraction of the original rate. For example, to play at twice-normal speed, use the following:
 
 
 ```C++

@@ -1,8 +1,16 @@
 ---
 title: Bluetooth Programming with Windows Sockets
 description: This section describes how to use Windows Sockets functions and structures to program a Bluetooth application.
-ms.assetid: '0f15cb84-1d7a-4b64-86e8-b1b23c956c64'
-keywords: ["Bluetooth, tasks", "Windows Sockets", "programming"]
+ms.assetid: 0f15cb84-1d7a-4b64-86e8-b1b23c956c64
+keywords:
+- Bluetooth, tasks
+- Windows Sockets
+- programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth Programming with Windows Sockets
@@ -42,7 +50,7 @@ The following topics provide guidance in the use of Windows Sockets functions an
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -51,9 +59,9 @@ The following topics provide guidance in the use of Windows Sockets functions an
 [Windows Sockets](https://msdn.microsoft.com/library/windows/desktop/ms740673)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

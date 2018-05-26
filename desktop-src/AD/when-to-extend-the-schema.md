@@ -4,11 +4,16 @@ description: Extend the schema only if no existing object class fulfills the req
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '92231f31-d2af-4c3b-981e-e55cc478899d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 92231f31-d2af-4c3b-981e-e55cc478899d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["When to Extend the Schema AD", "schema AD , when to extend"]
+keywords:
+- When to Extend the Schema AD
+- schema AD , when to extend
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # When to Extend the Schema

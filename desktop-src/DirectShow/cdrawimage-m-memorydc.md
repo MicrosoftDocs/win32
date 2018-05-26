@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_MemoryDC member variable is a handle to the memory device context of the owning window.'
-ms.assetid: 'b8fda761-3d06-478e-8c43-90f66b983bd7'
-title: 'CDrawImage::m\_MemoryDC member'
+Description: The m\_MemoryDC member variable is a handle to the memory device context of the owning window.
+ms.assetid: b8fda761-3d06-478e-8c43-90f66b983bd7
+title: CDrawImagem\_MemoryDC member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage::m\_MemoryDC member
@@ -38,9 +43,9 @@ HDC m_MemoryDC;
 [**CDrawImage::SetDrawContext**](cdrawimage-setdrawcontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

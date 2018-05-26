@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the COM+ Compensating Resource Manager (CRM) to easily and quickly integrate application resources with Microsoft Distributed Transaction Coordinator (DTC) transactions.'
-ms.assetid: '8d1d034f-8a09-40ae-842a-5251135bd3c8'
+Description: You can use the COM+ Compensating Resource Manager (CRM) to easily and quickly integrate application resources with Microsoft Distributed Transaction Coordinator (DTC) transactions.
+ms.assetid: 8d1d034f-8a09-40ae-842a-5251135bd3c8
 title: COM+ Compensating Resource Manager Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Compensating Resource Manager Concepts
@@ -21,8 +26,8 @@ During failures prior to recovery of the CRM server application, an interrupted 
 
 The CRM defines three interface types for the basic CRM functions:
 
--   [**ICrmLogControl**](icrmlogcontrol.md) is implemented on the CRM clerk and is used by the CRM Worker to write log records to the log. It can also used by the CRM Compensator.
--   [**ICrmCompensator**](icrmcompensator.md) and [**ICrmCompensatorVariants**](icrmcompensatorvariants.md) are implemented on the CRM Compensator. These interfaces are used to deliver transaction outcome notifications and their associated log records to the CRM Compensator. Normally, the CRM Compensator would implement only one of these interfaces, depending on whether it required unstructured or structured log records. *Structured log records* are those that are built up as a collection of Variants and are typically for use by Microsoft Visual Basic. *Unstructured log records* are just a buffer of bytes and are typically for use by Microsoft Visual C++. A CRM Compensator can implement both of the compensator interfaces; however, only one at a time is used to deliver log records.
+-   [**ICrmLogControl**](/windows/win32/ComSvcs/nn-comsvcs-icrmlogcontrol?branch=master) is implemented on the CRM clerk and is used by the CRM Worker to write log records to the log. It can also used by the CRM Compensator.
+-   [**ICrmCompensator**](/windows/win32/ComSvcs/nn-comsvcs-icrmcompensator?branch=master) and [**ICrmCompensatorVariants**](/windows/win32/ComSvcs/nn-comsvcs-icrmcompensatorvariants?branch=master) are implemented on the CRM Compensator. These interfaces are used to deliver transaction outcome notifications and their associated log records to the CRM Compensator. Normally, the CRM Compensator would implement only one of these interfaces, depending on whether it required unstructured or structured log records. *Structured log records* are those that are built up as a collection of Variants and are typically for use by Microsoft Visual Basic. *Unstructured log records* are just a buffer of bytes and are typically for use by Microsoft Visual C++. A CRM Compensator can implement both of the compensator interfaces; however, only one at a time is used to deliver log records.
 -   The COM+ CRM monitoring interfaces are used for monitoring the CRMs within a particular server application. For detailed information about the monitoring interfaces, see [COM+ CRM Monitoring Interfaces](com--crm-monitoring-interfaces.md).
 
 The following topics in this section provide more detail about the COM+ CRM service:

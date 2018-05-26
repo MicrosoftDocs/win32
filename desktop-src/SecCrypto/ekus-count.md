@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of EKU objects in the collection.'
-ms.assetid: 'a38ac480-4f9b-4d69-a7e6-fae4993fe2cf'
-title: 'EKUs.Count property'
+---
+Description: Retrieves the number of EKU objects in the collection.
+ms.assetid: a38ac480-4f9b-4d69-a7e6-fae4993fe2cf
+title: EKUs.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EKUs.Count property

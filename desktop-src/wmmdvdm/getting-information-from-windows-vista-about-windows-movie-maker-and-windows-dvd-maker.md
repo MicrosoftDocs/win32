@@ -1,8 +1,21 @@
 ---
 title: Getting Information from Windows Vista About Windows Movie Maker and Windows DVD Maker
 description: Getting Information from Windows Vista About Windows Movie Maker and Windows DVD Maker
-ms.assetid: '82e4ea90-a41c-4318-9a0f-ab88080cab7f'
-keywords: ["Windows Movie Maker,getting information from Windows Vista", "Movie Maker,getting information from Windows Vista", "Windows DVD Maker,getting information from Windows Vista", "DVD Maker,getting information from Windows Vista", "programming guide,Windows Vista information for Windows Movie Maker", "programming guide,Windows Vista information for Windows DVD Maker", "Windows Vista,Windows Movie Maker information", "Windows VIsta,Windows DVD Maker information"]
+ms.assetid: 82e4ea90-a41c-4318-9a0f-ab88080cab7f
+keywords:
+- Windows Movie Maker,getting information from Windows Vista
+- Movie Maker,getting information from Windows Vista
+- Windows DVD Maker,getting information from Windows Vista
+- DVD Maker,getting information from Windows Vista
+- programming guide,Windows Vista information for Windows Movie Maker
+- programming guide,Windows Vista information for Windows DVD Maker
+- Windows Vista,Windows Movie Maker information
+- Windows VIsta,Windows DVD Maker information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Information from Windows Vista About Windows Movie Maker and Windows DVD Maker

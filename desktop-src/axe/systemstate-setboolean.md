@@ -1,8 +1,11 @@
 ---
 title: SystemState SetBoolean method
 description: Sets specified system settings.
-ms.assetid: '8C223BDE-2AF5-44DE-9462-CE06DC99FAA5'
-keywords: ["SetBoolean method Access Execution Engine", "SetBoolean method Access Execution Engine , SystemState interface", "SystemState interface Access Execution Engine , SetBoolean method"]
+ms.assetid: 8C223BDE-2AF5-44DE-9462-CE06DC99FAA5
+keywords:
+- SetBoolean method Access Execution Engine
+- SetBoolean method Access Execution Engine , SystemState interface
+- SystemState interface Access Execution Engine , SetBoolean method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemState::SetBoolean method
@@ -22,8 +30,8 @@ Sets specified system settings.
 
 ```C++
 virtual HRESULT SetBoolean(
-  [in] SystemSetting setting,
-  [in] BOOL          enable
+  [in] SystemSetting setting,
+  [in] BOOL          enable
 ) = 0;
 ```
 
@@ -63,8 +71,8 @@ Managed code uses [**SystemState.SetBoolean**](axe-systemstate_setboolean_om) me
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses [**SystemState.SetBoolean**](axe-systemstate_setboolean_om) me
 [**SystemState**](systemstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

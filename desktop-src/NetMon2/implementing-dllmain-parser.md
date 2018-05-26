@@ -1,7 +1,12 @@
 ---
-Description: 'Network Monitor uses the DllMain export function to identify the existence of the parser, and release resources that Network Monitor uses to store information about the parser.'
-ms.assetid: '1741a12c-3645-4e83-b97f-37e67218c5eb'
+Description: Network Monitor uses the DllMain export function to identify the existence of the parser, and release resources that Network Monitor uses to store information about the parser.
+ms.assetid: 1741a12c-3645-4e83-b97f-37e67218c5eb
 title: Implementing DllMain Parser
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing DllMain Parser

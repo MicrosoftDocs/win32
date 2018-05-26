@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method notifies the pin that the filter has stopped.'
-ms.assetid: 'f7efb67b-cc3f-47c4-a8ba-b2365aef0d96'
-title: 'CDynamicOutputPin.Inactive method'
+Description: The Inactive method notifies the pin that the filter has stopped.
+ms.assetid: f7efb67b-cc3f-47c4-a8ba-b2365aef0d96
+title: CDynamicOutputPin.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.Inactive method
@@ -47,9 +52,9 @@ This method overrides the [**CBaseOutputPin::Inactive**](cbaseoutputpin-inactive
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

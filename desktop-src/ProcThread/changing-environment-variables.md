@@ -1,7 +1,12 @@
 ---
-Description: 'Each process has an environment block associated with it.'
-ms.assetid: 'b428688c-7b16-48c7-8d89-55d066496d1c'
+Description: Each process has an environment block associated with it.
+ms.assetid: b428688c-7b16-48c7-8d89-55d066496d1c
 title: Changing Environment Variables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Environment Variables
@@ -14,7 +19,7 @@ All strings in the environment block must be sorted alphabetically by name. The 
 
 ## Example 1
 
-By default, a child process inherits a copy of the environment block of the parent process. The following example demonstrates how to create a new environment block to pass to a child process using [**CreateProcess**](createprocess.md).
+By default, a child process inherits a copy of the environment block of the parent process. The following example demonstrates how to create a new environment block to pass to a child process using [**CreateProcess**](/windows/win32/WinBase/nf-processthreadsapi-createprocessa?branch=master).
 
 This example uses the code in example three as the child process, Ex3.exe.
 
@@ -87,7 +92,7 @@ int _tmain()
 
 Altering the environment variables of a child process during process creation is the only way one process can directly change the environment variables of another process. A process can never directly change the environment variables of another process that is not a child of that process.
 
-If you want the child process to inherit most of the parent's environment with only a few changes, retrieve the current values using [**GetEnvironmentVariable**](getenvironmentvariable.md), save these values, create an updated block for the child process to inherit, create the child process, and then restore the saved values using [**SetEnvironmentVariable**](setenvironmentvariable.md), as shown in the following example.
+If you want the child process to inherit most of the parent's environment with only a few changes, retrieve the current values using [**GetEnvironmentVariable**](/windows/win32/WinBase/nf-winbase-getenvironmentvariable?branch=master), save these values, create an updated block for the child process to inherit, create the child process, and then restore the saved values using [**SetEnvironmentVariable**](/windows/win32/WinBase/nf-winbase-setenvironmentvariable?branch=master), as shown in the following example.
 
 This example uses the code in example three as the child process, Ex3.exe.
 
@@ -199,7 +204,7 @@ int _tmain()
 
 ## Example 3
 
-The following example retrieves the process's environment block using [**GetEnvironmentStrings**](getenvironmentstrings.md) and prints the contents to the console.
+The following example retrieves the process's environment block using [**GetEnvironmentStrings**](/windows/win32/WinBase/?branch=master) and prints the contents to the console.
 
 
 ```C++

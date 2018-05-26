@@ -1,7 +1,12 @@
 ---
-Description: 'The following message is used with fonts.'
-ms.assetid: '58d41727-2125-44f2-b68c-dd2868f6c608'
+Description: The following message is used with fonts.
+ms.assetid: 58d41727-2125-44f2-b68c-dd2868f6c608
 title: Font and Text Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font and Text Messages

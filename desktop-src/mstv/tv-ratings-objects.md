@@ -1,7 +1,12 @@
 ---
 title: TV Ratings Objects
 description: TV Ratings Objects
-ms.assetid: '0479269e-b415-4143-8c11-536554983322'
+ms.assetid: 0479269e-b415-4143-8c11-536554983322
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TV Ratings Objects

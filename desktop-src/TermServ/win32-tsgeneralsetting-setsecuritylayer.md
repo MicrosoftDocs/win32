@@ -4,11 +4,14 @@ description: The SetSecurityLayer method sets the security layer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3b894494-2180-4f1d-8e67-a66c679d286c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3b894494-2180-4f1d-8e67-a66c679d286c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSecurityLayer method Remote Desktop Services", "SetSecurityLayer method Remote Desktop Services , Win32_TSGeneralSetting class", "Win32_TSGeneralSetting class Remote Desktop Services , SetSecurityLayer method"]
+keywords:
+- SetSecurityLayer method Remote Desktop Services
+- SetSecurityLayer method Remote Desktop Services , Win32_TSGeneralSetting class
+- Win32_TSGeneralSetting class Remote Desktop Services , SetSecurityLayer method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSecurityLayer method of the Win32\_TSGeneralSetting class
@@ -28,7 +34,7 @@ The **SetSecurityLayer** method sets the security layer.
 
 ```mof
 uint32 SetSecurityLayer(
-  [in] uint32 SecurityLayer
+  [in] uint32 SecurityLayer
 );
 ```
 
@@ -92,8 +98,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -110,9 +116,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**SetEncryptionLevel**](win32-tsgeneralsetting-setencryptionlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

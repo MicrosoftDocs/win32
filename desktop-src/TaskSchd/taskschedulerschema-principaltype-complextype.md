@@ -1,14 +1,20 @@
 ---
 title: principalType Complex Type
 description: Defines the attribute, child elements, and sequencing information for the Principal element.
-ms.assetid: '0f39d0a7-c9c9-402f-afe1-4378466ac1b6'
-keywords: ["principalType complex type Task Scheduler"]
+ms.assetid: 0f39d0a7-c9c9-402f-afe1-4378466ac1b6
+keywords:
+- principalType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - principalType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # principalType Complex Type
@@ -88,8 +94,8 @@ Defines the attribute, child elements, and sequencing information for the [**Pri
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -103,9 +109,9 @@ Defines the attribute, child elements, and sequencing information for the [**Pri
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

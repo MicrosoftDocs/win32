@@ -1,8 +1,10 @@
 ---
 title: CIM\_DynamicForwardingEntry class
 description: Represents an entry in the forwarding database associated with the CIM\_TransparentBridgingService class.
-ms.assetid: 'dfb362ba-a8a6-4afd-bed7-377b2ba09840'
-keywords: ["CIM_DynamicForwardingEntry class Hyper-V", "CIM_DynamicForwardingEntry class Hyper-V , described"]
+ms.assetid: dfb362ba-a8a6-4afd-bed7-377b2ba09840
+keywords:
+- CIM_DynamicForwardingEntry class Hyper-V
+- CIM_DynamicForwardingEntry class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DynamicForwardingEntry class
@@ -41,22 +48,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.7.0"), AMENDMENT]
 class CIM_DynamicForwardingEntry : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   ServiceCreationClassName;
-  string   ServiceName;
-  string   CreationClassName;
-  string   MACAddress;
-  uint16   DynamicStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   ServiceCreationClassName;
+  string   ServiceName;
+  string   CreationClassName;
+  string   MACAddress;
+  uint16   DynamicStatus;
 };
 ```
 
@@ -363,7 +370,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -653,7 +660,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -716,9 +723,9 @@ The name of the scoping system.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -731,9 +738,9 @@ The name of the scoping system.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachineCollection Item property
 description: The Item property contains the IVMVirtualMachine object that corresponds to the given index in this collection.
-ms.assetid: 'f3c2c2de-2e1a-469a-aa78-8c3bb5c95a18'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMVirtualMachineCollection interface", "IVMVirtualMachineCollection interface Virtual Server , Item property", "Item property Virtual Server , VMVirtualMachineCollection class", "VMVirtualMachineCollection class Virtual Server , Item property"]
+ms.assetid: f3c2c2de-2e1a-469a-aa78-8c3bb5c95a18
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMVirtualMachineCollection interface
+- IVMVirtualMachineCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMVirtualMachineCollection class
+- VMVirtualMachineCollection class Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineCollection::Item property
@@ -26,9 +36,9 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long              index,
-        Long              index,
-  [out] IVMVirtualMachine **virtualMachine
+  [in]  long              index,
+        Long              index,
+  [out] IVMVirtualMachine **virtualMachine
 );
 ```
 
@@ -81,8 +91,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +104,9 @@ This property value is read-only.
 [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

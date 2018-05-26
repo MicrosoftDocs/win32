@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_REALIZE message
 description: The MCIWNDM\_REALIZE message realizes the palette currently used by the MCI device in an MCIWnd window. This macro is defined with the MCIWNDM\_REALIZE message. You can send this message explicitly or by using the MCIWndRealize macro.
-ms.assetid: 'fe8803b5-3500-44b4-97f7-784bedf0b362'
-keywords: ["MCIWNDM_REALIZE message Windows Multimedia"]
+ms.assetid: fe8803b5-3500-44b4-97f7-784bedf0b362
+keywords:
+- MCIWNDM_REALIZE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_REALIZE message
 
-The **MCIWNDM\_REALIZE** message realizes the palette currently used by the MCI device in an MCIWnd window. This macro is defined with the **MCIWNDM\_REALIZE** message. You can send this message explicitly or by using the [**MCIWndRealize**](mciwndrealize.md) macro.
+The **MCIWNDM\_REALIZE** message realizes the palette currently used by the MCI device in an MCIWnd window. This macro is defined with the **MCIWNDM\_REALIZE** message. You can send this message explicitly or by using the [**MCIWndRealize**](/windows/win32/Vfw/nf-vfw-mciwndrealize?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -61,7 +67,7 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndRealize**](mciwndrealize.md)
+[**MCIWndRealize**](/windows/win32/Vfw/nf-vfw-mciwndrealize?branch=master)
 </dt> <dt>
 
 [**RealizePalette**](https://msdn.microsoft.com/library/windows/desktop/dd162896)
@@ -73,9 +79,9 @@ Returns zero if successful or an error otherwise.
 [**WM\_QUERYNEWPALETTE**](https://msdn.microsoft.com/library/windows/desktop/dd145218)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

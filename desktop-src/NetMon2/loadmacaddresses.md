@@ -1,7 +1,12 @@
 ---
-Description: 'The LoadMACAddresses function is called by the monitor to fill in a MAC address list with addresses taken from an HTML configuration string variable.'
-ms.assetid: 'cb7d2812-e234-4858-8b25-f8fc72aeee79'
+Description: The LoadMACAddresses function is called by the monitor to fill in a MAC address list with addresses taken from an HTML configuration string variable.
+ms.assetid: cb7d2812-e234-4858-8b25-f8fc72aeee79
 title: LoadMACAddresses function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadMACAddresses function
@@ -13,10 +18,10 @@ The **LoadMACAddresses** function is called by the monitor to fill in a MAC addr
 
 ```C++
 BOOL LoadMACAddresses(
-  _In_  const char   *pConfig,
-  _In_  const char   *pVarName,
-  _Out_       LPBYTE *ppAddresses,
-  _Out_       DWORD  *pNumAddresses
+  _In_  const char   *pConfig,
+  _In_  const char   *pVarName,
+  _Out_       LPBYTE *ppAddresses,
+  _Out_       DWORD  *pNumAddresses
 );
 ```
 
@@ -66,17 +71,17 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

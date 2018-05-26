@@ -4,13 +4,16 @@ description: Gets the DNS Update settings configured on the DHCP Server for a sp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c8e19290-0bfb-4c02-b3e3-43424d6bdcd1'
-ms.prod: 'windows-server-dev'
+ms.assetid: c8e19290-0bfb-4c02-b3e3-43424d6bdcd1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv6DnsSetting class", "PS_DhcpServerv6DnsSetting class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv6DnsSetting class
+- PS_DhcpServerv6DnsSetting class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv6DnsSetting class
@@ -30,10 +36,10 @@ Gets the DNS Update settings configured on the DHCP Server for a specific scope 
 
 ```mof
 uint32 Get(
-  [in]  string                 ComputerName,
-  [in]  string                 Prefix,
-  [in]  string                 IPAddress,
-  [out] DhcpServerv6DnsSetting cmdletOutput
+  [in]  string                 ComputerName,
+  [in]  string                 Prefix,
+  [in]  string                 IPAddress,
+  [out] DhcpServerv6DnsSetting cmdletOutput
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv6DnsSetting**](dhcpserverv6dnssetting.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv6DnsSetting**](dhcpserverv6dnssetting.
 [**PS\_DhcpServerv6DnsSetting**](ps-dhcpserverv6dnssetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

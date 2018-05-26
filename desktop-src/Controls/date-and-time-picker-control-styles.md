@@ -1,7 +1,7 @@
 ---
 title: Date and Time Picker Control Styles
 description: The window styles listed here are specific to date and time picker controls.
-ms.assetid: 'd3b95521-75ef-4cca-b801-94c6f749aa47'
+ms.assetid: d3b95521-75ef-4cca-b801-94c6f749aa47
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date and Time Picker Control Styles
@@ -52,9 +57,9 @@ The DTS\_XXXFORMAT styles that define the display format cannot be combined. If 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

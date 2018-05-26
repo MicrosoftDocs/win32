@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMFLOAT4X4.'
-ms.assetid: '943d7238-57e0-4908-bc58-bf434f2fbde0'
+---
+Description: Constructors exposed by XMFLOAT4X4.
+ms.assetid: 943d7238-57e0-4908-bc58-bf434f2fbde0
 title: XMFLOAT4X4 constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMFLOAT4X4 constructors
 
 Constructors exposed by `XMFLOAT4X4`.
 
-Constructs instances of the [**XMFLOAT4X4**](xmfloat4x4.md) structure.
+Constructs instances of the [**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMFLOAT4X4**](xmfloat4x4.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMFLOAT4X4 (float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)</strong>](xmfloat4x4-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from sixteen scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](xmfloat4x4.md) structure from sixteen scalar <code>float</code> values. <br/>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from sixteen scalar <code>float</code> values. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](/windows/win32/DirectXMath/?branch=master) structure from sixteen scalar <code>float</code> values. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -42,7 +47,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMFLOAT4X4 ()</strong>](xmfloat4x4-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT4X4</code><br/> Default constructor for [<strong>XMFLOAT4X4</strong>](xmfloat4x4.md)<br/>
+<td style="text-align: left;">Default constructor for <code>XMFLOAT4X4</code><br/> Default constructor for [<strong>XMFLOAT4X4</strong>](/windows/win32/DirectXMath/?branch=master)<br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -51,7 +56,7 @@ This is only available for C++ based development.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMFLOAT4X4 (const float*)</strong>](xmfloat4x4-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from a sixteen element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](xmfloat4x4.md) structure from a sixteen element <code>float</code> array. <br/>
+<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X4</code> structure from a sixteen element <code>float</code> array. <br/> Initializes a new instance of the [<strong>XMFLOAT4X4</strong>](/windows/win32/DirectXMath/?branch=master) structure from a sixteen element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -73,7 +78,7 @@ This constructor is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X4**](xmfloat4x4.md)
+[**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

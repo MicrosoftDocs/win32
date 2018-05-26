@@ -1,7 +1,12 @@
 ---
-Description: 'Connects a switch port to the Fibre Channel endpoint to which the port is connected.'
-ms.assetid: 'e2762e0c-2f78-4159-a67c-31213e311072'
-title: 'Msvm\_FcActiveConnection class'
+Description: Connects a switch port to the Fibre Channel endpoint to which the port is connected.
+ms.assetid: e2762e0c-2f78-4159-a67c-31213e311072
+title: Msvm\_FcActiveConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_FcActiveConnection class
@@ -18,9 +23,9 @@ class Msvm_FcActiveConnection : CIM_ActiveConnection
 {
   Msvm_FcEndpoint REF Antecedent;
   Msvm_FcEndpoint REF Dependent;
-  uint16              TrafficType;
-  string              OtherTrafficDescription;
-  boolean             IsUnidirectional;
+  uint16              TrafficType;
+  string              OtherTrafficDescription;
+  boolean             IsUnidirectional;
 };
 ```
 
@@ -113,17 +118,17 @@ This property is inherited from [**CIM\_ActiveConnection**](https://msdn.microso
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

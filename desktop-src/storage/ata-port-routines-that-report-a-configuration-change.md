@@ -1,7 +1,12 @@
 ---
 title: ATA Port Routines that Report a Configuration Change
 description: ATA Port Routines that Report a Configuration Change
-ms.assetid: '66fb28e2-4eba-45ff-b237-e17137faacdb'
+ms.assetid: 66fb28e2-4eba-45ff-b237-e17137faacdb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Routines that Report a Configuration Change

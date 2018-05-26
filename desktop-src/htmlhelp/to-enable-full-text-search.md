@@ -1,7 +1,12 @@
 ---
 title: To enable full-text search
 description: To enable full-text search
-ms.assetid: '2DE5E31B-EA25-4ea9-8E19-79D5BCC119E2'
+ms.assetid: 2DE5E31B-EA25-4ea9-8E19-79D5BCC119E2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To enable full-text search
@@ -16,7 +21,7 @@ ms.assetid: '2DE5E31B-EA25-4ea9-8E19-79D5BCC119E2'
 
     
 
-     
+     
 
 2.  Click the **Compiler** tab, and select the **Compile full-text search information** check box.
 
@@ -32,9 +37,9 @@ ms.assetid: '2DE5E31B-EA25-4ea9-8E19-79D5BCC119E2'
 [About Customizing the Help Viewer](customize-the-help-viewer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

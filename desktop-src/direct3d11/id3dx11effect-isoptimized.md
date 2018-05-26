@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect IsOptimized method
 description: Test an effect to see if the reflection metadata has been removed from memory.
-ms.assetid: 'fb0a876b-7419-45b7-97fe-8352dd97d8c5'
-keywords: ["IsOptimized method Direct3D 11", "IsOptimized method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , IsOptimized method"]
+ms.assetid: fb0a876b-7419-45b7-97fe-8352dd97d8c5
+keywords:
+- IsOptimized method Direct3D 11
+- IsOptimized method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , IsOptimized method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::IsOptimized method
@@ -44,7 +52,7 @@ An effect uses memory space two different ways: to store the information require
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +72,9 @@ An effect uses memory space two different ways: to store the information require
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

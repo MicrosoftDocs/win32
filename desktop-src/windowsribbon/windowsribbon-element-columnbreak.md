@@ -1,14 +1,20 @@
 ---
 title: ColumnBreak element
 description: Represents a vertical separator (visible or hidden) in custom SizeDefinition layout templates.
-ms.assetid: '5979d3e6-366b-4c47-810f-90fb8039af8d'
-keywords: ["ColumnBreak element Windows Ribbon"]
+ms.assetid: 5979d3e6-366b-4c47-810f-90fb8039af8d
+keywords:
+- ColumnBreak element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ColumnBreak
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ColumnBreak element
@@ -172,7 +178,7 @@ The following example demonstrates the basic markup for a **ColumnBreak** elemen
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -184,9 +190,9 @@ The following example demonstrates the basic markup for a **ColumnBreak** elemen
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

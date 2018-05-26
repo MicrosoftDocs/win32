@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ApplicationSystem class represents an application or software system that supports a particular business function that can be managed as an independent unit.'
+Description: The CIM\_ApplicationSystem class represents an application or software system that supports a particular business function that can be managed as an independent unit.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '42471863-ff6c-4464-8b0a-7dad2fd11934'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 42471863-ff6c-4464-8b0a-7dad2fd11934
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ApplicationSystem class'
+title: CIM\_ApplicationSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ApplicationSystem class
@@ -19,7 +22,7 @@ The **CIM\_ApplicationSystem** class represents an application or software syste
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,16 +32,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{120BB700-DB2B-11d2-85FC-0000F8102E5F}"), AMENDMENT]
 class CIM_ApplicationSystem : CIM_System
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   NameFormat;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Roles[];
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   NameFormat;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Roles[];
 };
 ```
 
@@ -329,8 +332,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -344,9 +347,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_System**](cim-system.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

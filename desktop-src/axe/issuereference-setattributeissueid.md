@@ -1,8 +1,11 @@
 ---
 title: IssueReference SetAttributeIssueID method
 description: Sets the issue ID of the IssueReference.
-ms.assetid: 'AEB9B39A-3CF5-4B81-AA9A-219F64EA9854'
-keywords: ["SetAttributeIssueID method Access Execution Engine", "SetAttributeIssueID method Access Execution Engine , IssueReference interface", "IssueReference interface Access Execution Engine , SetAttributeIssueID method"]
+ms.assetid: AEB9B39A-3CF5-4B81-AA9A-219F64EA9854
+keywords:
+- SetAttributeIssueID method Access Execution Engine
+- SetAttributeIssueID method Access Execution Engine , IssueReference interface
+- IssueReference interface Access Execution Engine , SetAttributeIssueID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IssueReference::SetAttributeIssueID method
@@ -22,7 +30,7 @@ Sets the issue ID of the **IssueReference**.
 
 ```C++
 virtual HRESULT SetAttributeIssueID(
-  [in] LPCWSTR attributeIssueID
+  [in] LPCWSTR attributeIssueID
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The issue ID is the value of attribute **IssueID** of element **IssueReference**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The issue ID is the value of attribute **IssueID** of element **IssueReference**
 [**IssueReference**](issuereference-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

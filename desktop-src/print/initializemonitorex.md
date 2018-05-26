@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '1a619b27-4367-419c-985f-588e3f556425'
+---
+Description: .
+ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 title: InitializeMonitorEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializeMonitorEx function

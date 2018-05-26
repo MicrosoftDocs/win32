@@ -1,7 +1,12 @@
 ---
-Description: 'Winlogon implements two time-out operations, one for secure dialog boxes and the other for screen saver activation and termination.'
-ms.assetid: 'b1dfd7dc-cc00-4f1a-a157-c60b5d0f0b13'
-title: 'Supported Dialog Box Service Time-out Operations'
+Description: Winlogon implements two time-out operations, one for secure dialog boxes and the other for screen saver activation and termination.
+ms.assetid: b1dfd7dc-cc00-4f1a-a157-c60b5d0f0b13
+title: Supported Dialog Box Service Time-out Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Dialog Box Service Time-out Operations
@@ -16,11 +21,11 @@ Winlogon dialog box services are provided by the following support functions.
 
 | Support function                                               | Description                                                                                      |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**WlxMessageBox**](wlxmessagebox.md)                         | Similar to the Windows [**MessageBox**](_win32_messagebox_cpp) function.                         |
-| [**WlxDialogBox**](wlxdialogbox.md)                           | Similar to the Windows [**DialogBox**](_win32_dialogbox_cpp) function.                           |
-| [**WlxDialogBoxIndirect**](wlxdialogboxindirect.md)           | Similar to the Windows [**DialogBoxIndirect**](_win32_dialogboxindirect_cpp) function.           |
-| [**WlxDialogBoxParam**](wlxdialogboxparam.md)                 | Similar to the Windows [**DialogBoxParam**](_win32_dialogboxparam_cpp) function.                 |
-| [**WlxDialogBoxIndirectParam**](wlxdialogboxindirectparam.md) | Similar to the Windows [**DialogBoxIndirectParam**](_win32_dialogboxindirectparam_cpp) function. |
+| [**WlxMessageBox**](/windows/win32/wlxutil/?branch=master)                         | Similar to the Windows [**MessageBox**](_win32_messagebox_cpp) function.                         |
+| [**WlxDialogBox**](/windows/win32/wlxutil/?branch=master)                           | Similar to the Windows [**DialogBox**](_win32_dialogbox_cpp) function.                           |
+| [**WlxDialogBoxIndirect**](/windows/win32/wlxutil/?branch=master)           | Similar to the Windows [**DialogBoxIndirect**](_win32_dialogboxindirect_cpp) function.           |
+| [**WlxDialogBoxParam**](/windows/win32/wlxutil/?branch=master)                 | Similar to the Windows [**DialogBoxParam**](_win32_dialogboxparam_cpp) function.                 |
+| [**WlxDialogBoxIndirectParam**](/windows/win32/wlxutil/?branch=master) | Similar to the Windows [**DialogBoxIndirectParam**](_win32_dialogboxindirectparam_cpp) function. |
 
 
 

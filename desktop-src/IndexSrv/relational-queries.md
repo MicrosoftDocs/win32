@@ -1,7 +1,12 @@
 ---
 title: Relational Queries
 description: Relational Queries
-ms.assetid: 'dd4efc15-c3e9-409a-949b-9c642b967398'
+ms.assetid: dd4efc15-c3e9-409a-949b-9c642b967398
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relational Queries

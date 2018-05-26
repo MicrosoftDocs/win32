@@ -4,11 +4,16 @@ description: You can specify the scope of a search as either a base, one-level, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b02354c2-7b95-4911-8ae3-4a261d3ca2d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b02354c2-7b95-4911-8ae3-4a261d3ca2d3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Specifying the Search Scope AD", "Active Directory,searching,specifying the search scope"]
+keywords:
+- Specifying the Search Scope AD
+- Active Directory,searching,specifying the search scope
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Specifying the Search Scope

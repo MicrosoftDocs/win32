@@ -1,44 +1,49 @@
 ---
 title: IDataCollectorSet Properties
-ms.assetid: '2e137017-2b33-4d09-9e11-b6bd1c63b241'
+ms.assetid: 2e137017-2b33-4d09-9e11-b6bd1c63b241
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDataCollectorSet Properties
 
-The [**IDataCollectorSet**](idatacollectorset.md) interface has the following properties:
+The [**IDataCollectorSet**](/windows/previous-versions/Pla/nn-pla-idatacollectorset?branch=master) interface has the following properties:
 
--   [**DataCollectors**](idatacollectorset-get-datacollectors.md)
--   [**DataManager**](idatacollectorset-get-datamanager.md)
--   [**Description**](idatacollectorset-get-description.md)
--   [**DescriptionUnresolved**](idatacollectorset-descriptionunresolved.md)
--   [**DisplayName**](idatacollectorset-displayname.md)
--   [**DisplayNameUnresolved**](idatacollectorset-displaynameunresolved.md)
--   [**Duration**](idatacollectorset-get-duration.md)
--   [**Keywords**](idatacollectorset-get-keywords.md)
--   [**LatestOutputLocation**](idatacollectorset-get-latestoutputlocation.md)
--   [**Name**](idatacollectorset-get-name.md)
--   [**OutputLocation**](idatacollectorset-get-outputlocation.md)
--   [**RootPath**](idatacollectorset-get-rootpath.md)
--   [**Schedules**](idatacollectorset-get-schedules.md)
--   [**SchedulesEnabled**](idatacollectorset-get-schedulesenabled.md)
--   [**Security**](idatacollectorset-get-security.md)
--   [**Segment**](idatacollectorset-get-segment.md)
--   [**SegmentMaxDuration**](idatacollectorset-segmentmaxduration.md)
--   [**SegmentMaxSize**](idatacollectorset-get-segmentmaxsize.md)
--   [**SerialNumber**](idatacollectorset-get-serialnumber.md)
--   [**Server**](idatacollectorset-get-server.md)
--   [**Status**](idatacollectorset-get-status.md)
--   [**StopOnCompletion**](idatacollectorset-stoponcompletion.md)
--   [**Subdirectory**](idatacollectorset-get-subdirectory.md)
--   [**SubdirectoryFormat**](idatacollectorset-get-subdirectoryformat.md)
--   [**SubdirectoryFormatPattern**](idatacollectorset-get-subdirectoryformatpattern.md)
--   [**Task**](idatacollectorset-get-task.md)
--   [**TaskArguments**](idatacollectorset-get-taskarguments.md)
--   [**TaskRunAsSelf**](idatacollectorset-taskrunasself.md)
--   [**TaskUserTextArguments**](idatacollectorset-taskusertextarguments.md)
--   [**UserAccount**](idatacollectorset-get-useraccount.md)
--   [**Xml**](idatacollectorset-get-xml.md)
+-   [**DataCollectors**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_datacollectors?branch=master)
+-   [**DataManager**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_datamanager?branch=master)
+-   [**Description**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_description?branch=master)
+-   [**DescriptionUnresolved**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_descriptionunresolved?branch=master)
+-   [**DisplayName**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_displayname?branch=master)
+-   [**DisplayNameUnresolved**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_displaynameunresolved?branch=master)
+-   [**Duration**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_duration?branch=master)
+-   [**Keywords**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_keywords?branch=master)
+-   [**LatestOutputLocation**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_latestoutputlocation?branch=master)
+-   [**Name**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_name?branch=master)
+-   [**OutputLocation**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_outputlocation?branch=master)
+-   [**RootPath**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_rootpath?branch=master)
+-   [**Schedules**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_schedules?branch=master)
+-   [**SchedulesEnabled**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_schedulesenabled?branch=master)
+-   [**Security**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_security?branch=master)
+-   [**Segment**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_segment?branch=master)
+-   [**SegmentMaxDuration**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_segmentmaxduration?branch=master)
+-   [**SegmentMaxSize**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_segmentmaxsize?branch=master)
+-   [**SerialNumber**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_serialnumber?branch=master)
+-   [**Server**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_server?branch=master)
+-   [**Status**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_status?branch=master)
+-   [**StopOnCompletion**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_stoponcompletion?branch=master)
+-   [**Subdirectory**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_subdirectory?branch=master)
+-   [**SubdirectoryFormat**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_subdirectoryformat?branch=master)
+-   [**SubdirectoryFormatPattern**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern?branch=master)
+-   [**Task**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_task?branch=master)
+-   [**TaskArguments**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_taskarguments?branch=master)
+-   [**TaskRunAsSelf**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_taskrunasself?branch=master)
+-   [**TaskUserTextArguments**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_taskusertextarguments?branch=master)
+-   [**UserAccount**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_useraccount?branch=master)
+-   [**Xml**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-get_xml?branch=master)
 
  
 

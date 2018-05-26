@@ -1,8 +1,18 @@
 ---
 title: Initial Lines
 description: Initial Lines
-ms.assetid: '25a4af3d-9e2d-4a10-a676-f78ae65d827c'
-keywords: ["Windows Media Player Mobile skins,writing code", "skins,writing code", "creating skins,writing code", "writing code for skins,skin file version number", "skin definition files,initial lines"]
+ms.assetid: 25a4af3d-9e2d-4a10-a676-f78ae65d827c
+keywords:
+- Windows Media Player Mobile skins,writing code
+- skins,writing code
+- creating skins,writing code
+- writing code for skins,skin file version number
+- skin definition files,initial lines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initial Lines

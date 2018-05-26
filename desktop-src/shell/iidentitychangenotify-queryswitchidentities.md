@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when the current user has requested that their user identity be switched, but before the switch occurs.'
-ms.assetid: 'f159b829-623c-4348-9692-7317663811a7'
-title: 'IIdentityChangeNotify::QuerySwitchIdentities method'
+---
+Description: Called when the current user has requested that their user identity be switched, but before the switch occurs.
+ms.assetid: f159b829-623c-4348-9692-7317663811a7
+title: IIdentityChangeNotifyQuerySwitchIdentities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIdentityChangeNotify::QuerySwitchIdentities method

@@ -4,11 +4,15 @@ description: This topic contains links to topics that explain how to add ADSI pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6371080e-ca69-4ce7-8c41-fedc563a17b0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6371080e-ca69-4ce7-8c41-fedc563a17b0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Provider Overview ADSI"]
+keywords:
+- Provider Overview ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Provider Overview

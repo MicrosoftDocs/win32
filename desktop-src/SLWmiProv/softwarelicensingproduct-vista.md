@@ -1,14 +1,19 @@
 ---
-Description: 'Not supported. Use the SoftwareLicensingProduct class.'
-ms.assetid: '166f8d04-90ec-4dae-80fc-64d1a5216dcf'
+Description: Not supported. Use the SoftwareLicensingProduct class.
+ms.assetid: 166f8d04-90ec-4dae-80fc-64d1a5216dcf
 title: SoftwareLicensingProduct class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingProduct class
 
 Not supported. Use the [**SoftwareLicensingProduct**](https://msdn.microsoft.com/library/cc534596) class.
 
-**Windows Vista and Windows Server 2008:** This class exposes the product-specific properties and methods of the Software Licensing service.
+**Windows Vista and Windows Server 2008:** This class exposes the product-specific properties and methods of the Software Licensing service.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -17,24 +22,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class SoftwareLicensingProduct
 {
-  string   ID;
-  string   Name;
-  string   Description;
-  string   ApplicationID;
-  string   ProcessorURL;
-  string   MachineURL;
-  string   ProductKeyURL;
-  string   UseLicenseURL;
-  uint32   LicenseStatus;
-  uint32   LicenseStatusReason;
-  uint32   GracePeriodRemaining;
+  string   ID;
+  string   Name;
+  string   Description;
+  string   ApplicationID;
+  string   ProcessorURL;
+  string   MachineURL;
+  string   ProductKeyURL;
+  string   UseLicenseURL;
+  uint32   LicenseStatus;
+  uint32   LicenseStatusReason;
+  uint32   GracePeriodRemaining;
   datetime EvaluationEndDate;
-  string   OfflineInstallationId;
-  string   PartialProductKey;
-  string   ProductKeyID;
-  string   LicenseFamily;
-  string   LicenseDependsOn;
-  boolean  LicenseIsAddon;
+  string   OfflineInstallationId;
+  string   PartialProductKey;
+  string   ProductKeyID;
+  string   LicenseFamily;
+  string   LicenseDependsOn;
+  boolean  LicenseIsAddon;
 };
 ```
 
@@ -59,7 +64,7 @@ The **SoftwareLicensingProduct** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -198,7 +203,7 @@ Specifies the license status of this product application. The following values a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -325,19 +330,19 @@ Specifies the software licensing server URL for the user license.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
-| End of client support<br/>    | Windows Vista<br/>                                                             |
-| End of server support<br/>    | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| End of client support<br/>    | Windows Vista<br/>                                                             |
+| End of server support<br/>    | Windows Server 2008<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>SLWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SLWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

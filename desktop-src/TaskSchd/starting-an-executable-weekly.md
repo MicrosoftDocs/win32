@@ -1,8 +1,14 @@
 ---
 title: Starting an Executable Weekly
 description: Writing a task that starts an executable on a weekly basis is done by defining a weekly trigger and an executable action.
-ms.assetid: 'baa56811-8c4b-44bb-b920-308b3d10f046'
-keywords: ["Task Scheduler examples Task Scheduler , weekly trigger"]
+ms.assetid: baa56811-8c4b-44bb-b920-308b3d10f046
+keywords:
+- Task Scheduler examples Task Scheduler , weekly trigger
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting an Executable Weekly

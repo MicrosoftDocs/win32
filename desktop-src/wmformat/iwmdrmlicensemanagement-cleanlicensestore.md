@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement CleanLicenseStore method
 description: The CleanLicenseStore method removes unusable licenses from the temporary license store and defragments the local license store to improve performance.
-ms.assetid: '07ddd6f8-a091-4c18-81d3-c4d0c6026b6b'
-keywords: ["CleanLicenseStore method windows Media Format", "CleanLicenseStore method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , CleanLicenseStore method"]
+ms.assetid: 07ddd6f8-a091-4c18-81d3-c4d0c6026b6b
+keywords:
+- CleanLicenseStore method windows Media Format
+- CleanLicenseStore method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , CleanLicenseStore method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::CleanLicenseStore method
@@ -23,8 +31,8 @@ The **CleanLicenseStore** method removes unusable licenses from the temporary li
 
 ```C++
 HRESULT CleanLicenseStore(
-  [in]  DWORD    dwFlags,
-  [out] IUnknown **ppunkCancelationCookie
+  [in]  DWORD    dwFlags,
+  [out] IUnknown **ppunkCancelationCookie
 );
 ```
 
@@ -48,7 +56,7 @@ Flags specifying the license store cleaning options to use. Set to one of the co
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,7 +80,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,9 +106,9 @@ For more information about using the asynchronous methods of the Windows Media D
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

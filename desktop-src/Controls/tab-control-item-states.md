@@ -1,7 +1,7 @@
 ---
 title: Tab Control Item States
 description: Tab control items now support an item state to support the TCM\_DESELECTALL message. Additionally, the TCITEM structure supports item state values.
-ms.assetid: 'c4181fe6-0055-45c9-a3d0-8cda051383f2'
+ms.assetid: c4181fe6-0055-45c9-a3d0-8cda051383f2
 topic_type:
 - apiref
 api_name:
@@ -11,11 +11,16 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Item States
 
-Tab control items now support an item state to support the [**TCM\_DESELECTALL**](tcm-deselectall.md) message. Additionally, the [**TCITEM**](tcitem.md) structure supports item state values.
+Tab control items now support an item state to support the [**TCM\_DESELECTALL**](tcm-deselectall.md) message. Additionally, the [**TCITEM**](/windows/win32/Commctrl/ns-commctrl-tagtcitema?branch=master) structure supports item state values.
 
 
 
@@ -36,9 +41,9 @@ Tab control items now support an item state to support the [**TCM\_DESELECTALL**
 
 
 
- 
+ 
 
- 
+ 
 
 
 

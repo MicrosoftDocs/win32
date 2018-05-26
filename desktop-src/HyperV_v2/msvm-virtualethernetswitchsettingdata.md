@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the current configuration of a virtual Ethernet switch.'
-ms.assetid: 'a7c03517-332d-47ce-8e04-c2187bcb2977'
-title: 'Msvm\_VirtualEthernetSwitchSettingData class'
+Description: Represents the current configuration of a virtual Ethernet switch.
+ms.assetid: a7c03517-332d-47ce-8e04-c2187bcb2977
+title: Msvm\_VirtualEthernetSwitchSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchSettingData class
@@ -16,35 +21,35 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingData
 {
-  string   InstanceID = "Microsoft:GUID\DeviceSpecificData";
-  string   Caption = "Virtual Ethernet Switch Settings";
-  string   Description = "Active settings for the virtual Ethernet switch";
-  string   ElementName;
-  string   VirtualSystemIdentifier;
-  string   VirtualSystemType;
-  string   Notes[];
+  string   InstanceID = "Microsoft:GUID\DeviceSpecificData";
+  string   Caption = "Virtual Ethernet Switch Settings";
+  string   Description = "Active settings for the virtual Ethernet switch";
+  string   ElementName;
+  string   VirtualSystemIdentifier;
+  string   VirtualSystemType;
+  string   Notes[];
   datetime CreationTime;
-  string   ConfigurationID;
-  string   ConfigurationDataRoot;
-  string   ConfigurationFile;
-  string   SnapshotDataRoot;
-  string   SuspendDataRoot;
-  string   SwapFileDataRoot;
-  string   LogDataRoot;
-  uint16   AutomaticStartupAction;
+  string   ConfigurationID;
+  string   ConfigurationDataRoot;
+  string   ConfigurationFile;
+  string   SnapshotDataRoot;
+  string   SuspendDataRoot;
+  string   SwapFileDataRoot;
+  string   LogDataRoot;
+  uint16   AutomaticStartupAction;
   datetime AutomaticStartupActionDelay;
-  uint16   AutomaticStartupActionSequenceNumber;
-  uint16   AutomaticShutdownAction;
-  uint16   AutomaticRecoveryAction;
-  string   RecoveryFile;
-  string   VLANConnection[];
-  string   AssociatedResourcePool[];
-  uint32   MaxNumMACAddress;
-  boolean  IOVPreferred = FALSE;
-  string   ExtensionOrder[];
-  uint32   BandwidthReservationMode = 0;
-  boolean  TeamingEnabled = FALSE;
-  boolean  PacketDirectEnabled = FALSE;
+  uint16   AutomaticStartupActionSequenceNumber;
+  uint16   AutomaticShutdownAction;
+  uint16   AutomaticRecoveryAction;
+  string   RecoveryFile;
+  string   VLANConnection[];
+  string   AssociatedResourcePool[];
+  uint32   MaxNumMACAddress;
+  boolean  IOVPreferred = FALSE;
+  string   ExtensionOrder[];
+  uint32   BandwidthReservationMode = 0;
+  boolean  TeamingEnabled = FALSE;
+  boolean  PacketDirectEnabled = FALSE;
 };
 ```
 
@@ -365,9 +370,9 @@ Access type: Read/write
 Specifies whether PacketDirect should be used, if available. The default value is **false**.
 
 > [!Note]  
-> This property was added in Windows 10 and Windows Server 2016.
+> This property was added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -435,9 +440,9 @@ Access type: Read/write
 Specifies whether NIC Teaming should be used. The default value is **false**.
 
 > [!Note]  
-> This property was added inWindows 10 and Windows Server 2016.
+> This property was added inWindows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -486,17 +491,17 @@ A list of VLAN identifiers that this switch can access. This property is inherit
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

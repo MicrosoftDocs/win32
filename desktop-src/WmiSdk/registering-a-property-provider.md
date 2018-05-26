@@ -1,13 +1,16 @@
 ---
-Description: 'To create a WMI property provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_PropertyProviderRegistration.'
+Description: To create a WMI property provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_PropertyProviderRegistration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e7e30acc-ea41-41e2-9bb3-cd931e8d799e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e7e30acc-ea41-41e2-9bb3-cd931e8d799e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering a Property Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering a Property Provider
@@ -26,7 +29,7 @@ The following procedure describes how to register a property provider.
 
     The [**\_\_PropertyProviderRegistration**](--propertyproviderregistration.md) class inherits many properties from the [**\_\_ObjectProviderRegistration**](--objectproviderregistration.md) parent class, which provides Boolean values that indicate support for particular features and an array of strings to indicate query support.
 
-    Be sure to tag the class with both the [**Dynamic**](dynamic-qualifier.md) and [**Provider**](provider.md) qualifiers. The **Dynamic** qualifier signals that WMI should use a dynamic provider to retrieve the class instances that contain the supported properties. The **Provider** qualifier specifies the name of the provider that WMI should use.
+    Be sure to tag the class with both the [**Dynamic**](dynamic-qualifier.md) and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifiers. The **Dynamic** qualifier signals that WMI should use a dynamic provider to retrieve the class instances that contain the supported properties. The **Provider** qualifier specifies the name of the provider that WMI should use.
 
 WMI calls NewQuery on an event provider when a client consumer registers an event filter query that contains references to events supported by that event provider. So the event provider responsible for instance modification events for the EmailClass class can be set up to generate notifications only for sender. When the provider receives a query requesting notification of changes to the subject property, the provider can start generating those notifications. In this scenario, WMI is not required to discard the notifications that report recipient changes only.
 

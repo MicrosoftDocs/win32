@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a planned virtual system.'
-ms.assetid: 'f129554b-e43e-4c3a-8418-d5d810f4c4b5'
-title: 'DefinePlannedSystem method of the Msvm\_VirtualSystemManagementService class'
+Description: Defines a planned virtual system.
+ms.assetid: f129554b-e43e-4c3a-8418-d5d810f4c4b5
+title: DefinePlannedSystem method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefinePlannedSystem method of the Msvm\_VirtualSystemManagementService class
@@ -15,11 +20,11 @@ Input that is not completely specified may be filled out with default values.
 
 ```mof
 uint32 DefinePlannedSystem(
-  [in]  string                           SystemSettings,
-  [in]  string                           ResourceSettings[],
-  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
-  [out] CIM_ComputerSystem           REF ResultingSystem,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  string                           SystemSettings,
+  [in]  string                           ResourceSettings[],
+  [in]  CIM_VirtualSystemSettingData REF ReferenceConfiguration,
+  [out] CIM_ComputerSystem           REF ResultingSystem,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -103,8 +108,8 @@ On success, returns 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -118,9 +123,9 @@ On success, returns 0 or 4096; otherwise, returns an error.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

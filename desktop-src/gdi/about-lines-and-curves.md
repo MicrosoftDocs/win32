@@ -1,7 +1,12 @@
 ---
-Description: 'Many types of applications use lines and curves to draw graphics output on raster devices.'
-ms.assetid: '0ee0c0a6-cb9f-480f-a75d-72b3659cc7fb'
+Description: Many types of applications use lines and curves to draw graphics output on raster devices.
+ms.assetid: 0ee0c0a6-cb9f-480f-a75d-72b3659cc7fb
 title: About Lines and Curves
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Lines and Curves

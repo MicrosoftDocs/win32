@@ -1,14 +1,19 @@
 ---
-Description: 'CLFS uses the concept of record chains to imply the next record in a sequence. There are several types of record chains that are used by CLFS.'
-ms.assetid: '8730b6fb-0f19-4d9c-9605-7fe037b013c6'
+Description: CLFS uses the concept of record chains to imply the next record in a sequence. There are several types of record chains that are used by CLFS.
+ms.assetid: 8730b6fb-0f19-4d9c-9605-7fe037b013c6
 title: Record Chains
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record Chains
 
 CLFS uses the concept of *record chains* to imply the next record in a sequence. There are several types of record chains that are used by CLFS.
 
-The implicit physical chain—the next logical record that can be obtained by calling the [**ReadNextLogRecord**](readnextlogrecord.md) function. In this chain, there is always a record after the current record in this log stream.
+The implicit physical chain—the next logical record that can be obtained by calling the [**ReadNextLogRecord**](/windows/win32/Clfsw32/nf-clfsw32-readnextlogrecord?branch=master) function. In this chain, there is always a record after the current record in this log stream.
 
 The undo-next and undo-previous record chains—the records in this chain are not necessarily sequential in the log. These are logical chains, and are set up by the user. User-defined chains always point to an older record.
 

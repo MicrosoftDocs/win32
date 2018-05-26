@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EnableTransitions method enables or disables all transitions in the timeline.'
-ms.assetid: '8610337a-a247-44f0-8674-3cbc43f636d5'
-title: 'IAMTimeline::EnableTransitions method'
+---
+Description: The EnableTransitions method enables or disables all transitions in the timeline.
+ms.assetid: 8610337a-a247-44f0-8674-3cbc43f636d5
+title: IAMTimelineEnableTransitions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::EnableTransitions method

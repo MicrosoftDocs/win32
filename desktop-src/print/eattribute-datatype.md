@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EATTRIBUTE\_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.'
-ms.assetid: '51d3e768-11b1-411d-89b1-4fec19306b97'
-title: 'EATTRIBUTE\_DATATYPE enumeration'
+---
+Description: The EATTRIBUTE\_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.
+ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
+title: EATTRIBUTE\_DATATYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EATTRIBUTE\_DATATYPE enumeration

@@ -1,8 +1,11 @@
 ---
 title: IInternetTransport GetServerInfo method
 description: Gets the server information for the transport.
-ms.assetid: 'aa6dd4f7-09ae-4201-9518-277e582932a8'
-keywords: ["GetServerInfo method Windows Mail (formerly Outlook Express)", "GetServerInfo method Windows Mail (formerly Outlook Express) , IInternetTransport interface", "IInternetTransport interface Windows Mail (formerly Outlook Express) , GetServerInfo method"]
+ms.assetid: aa6dd4f7-09ae-4201-9518-277e582932a8
+keywords:
+- GetServerInfo method Windows Mail (formerly Outlook Express)
+- GetServerInfo method Windows Mail (formerly Outlook Express) , IInternetTransport interface
+- IInternetTransport interface Windows Mail (formerly Outlook Express) , GetServerInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInternetTransport::GetServerInfo method
@@ -24,7 +32,7 @@ Gets the server information for the transport.
 
 ```C++
 HRESULT GetServerInfo(
-  [in, out] LPINETSERVER pInetServer
+  [in, out] LPINETSERVER pInetServer
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ The data in the [**INETSERVER**](oe-inetserver.md) structure is valid only after
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -79,9 +87,9 @@ The data in the [**INETSERVER**](oe-inetserver.md) structure is valid only after
 
 
 
- 
+ 
 
- 
+ 
 
 
 

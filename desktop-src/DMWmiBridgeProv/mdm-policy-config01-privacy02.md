@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_Privacy02 class
 description: The MDM\_Policy\_Config01\_Privacy02 class represents the search policies available.
-ms.assetid: '202213b9-5301-4c55-bbc6-6ce3daf705ad'
-keywords: ["MDM_Policy_Config01_Privacy02 class", "MDM_Policy_Config01_Privacy02 class, described"]
+ms.assetid: 202213b9-5301-4c55-bbc6-6ce3daf705ad
+keywords:
+- MDM_Policy_Config01_Privacy02 class
+- MDM_Policy_Config01_Privacy02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_Privacy02 class
@@ -1008,7 +1015,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -1023,9 +1030,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

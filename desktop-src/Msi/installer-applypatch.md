@@ -1,7 +1,12 @@
-﻿---
-Description: 'For each product listed by the patch package as eligible to receive the patch, the ApplyPatch method of the Installer object invokes an installation and sets the PATCH property to the path of the patch package.'
-ms.assetid: 'eee93b6d-f45b-40ae-8e17-cfe6f46b66f4'
-title: 'Installer.ApplyPatch method'
+---
+Description: For each product listed by the patch package as eligible to receive the patch, the ApplyPatch method of the Installer object invokes an installation and sets the PATCH property to the path of the patch package.
+ms.assetid: eee93b6d-f45b-40ae-8e17-cfe6f46b66f4
+title: Installer.ApplyPatch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ApplyPatch method
@@ -98,7 +103,7 @@ The [**REINSTALL**](reinstall.md) property is required when applying a [small up
 
 <dl> <dt>
 
-[**MsiApplyPatch**](msiapplypatch.md)
+[**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master)
 </dt> <dt>
 
 [About Properties](about-properties.md)

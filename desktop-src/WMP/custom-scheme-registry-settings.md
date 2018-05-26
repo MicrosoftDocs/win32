@@ -1,8 +1,21 @@
 ---
 title: Custom Scheme Registry Settings
 description: Custom Scheme Registry Settings
-ms.assetid: 'ded2b492-7755-4ba5-87cf-720a79ec79de'
-keywords: ["Windows Media Player,custom scheme registry settings", "Windows Media Player,schemes", "Windows Media Player,registry", "registry,custom scheme settings", "registry,schemes", "registry,settings for Windows Media Player", "schemes", "custom scheme registry settings"]
+ms.assetid: ded2b492-7755-4ba5-87cf-720a79ec79de
+keywords:
+- Windows Media Player,custom scheme registry settings
+- Windows Media Player,schemes
+- Windows Media Player,registry
+- registry,custom scheme settings
+- registry,schemes
+- registry,settings for Windows Media Player
+- schemes
+- custom scheme registry settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Scheme Registry Settings

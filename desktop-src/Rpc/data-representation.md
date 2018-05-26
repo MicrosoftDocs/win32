@@ -1,8 +1,14 @@
 ---
 title: Data Representation
 description: Computing environments can differ significantly, as can network architectures.
-ms.assetid: '34ba76ae-644d-4168-886f-0909a65f1abd'
-keywords: ["Remote Procedure Call RPC , described, data representation"]
+ms.assetid: 34ba76ae-644d-4168-886f-0909a65f1abd
+keywords:
+- Remote Procedure Call RPC , described, data representation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Representation

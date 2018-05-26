@@ -4,13 +4,16 @@ description: Creates snapshots for each snapshot definition files of a planned v
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '633c8511-c044-4f84-857b-857587379ff7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 633c8511-c044-4f84-857b-857587379ff7
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ImportSnapshotDefinitions method", "ImportSnapshotDefinitions method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, ImportSnapshotDefinitions method"]
+keywords:
+- ImportSnapshotDefinitions method
+- ImportSnapshotDefinitions method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, ImportSnapshotDefinitions method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportSnapshotDefinitions method of the Msvm\_VirtualSystemManagementService class
@@ -30,10 +36,10 @@ Creates snapshots for each snapshot definition files of a planned virtual machin
 
 ```mof
 uint32 ImportSnapshotDefinitions(
-  [in]  Msvm_PlannedComputerSystem    REF PlannedSystem,
-  [in]  string                            SnapshotFolder,
-  [out] Msvm_VirtualSystemSettingData REF ImportedSnapshots[],
-  [out] CIM_ConcreteJob               REF Job
+  [in]  Msvm_PlannedComputerSystem    REF PlannedSystem,
+  [in]  string                            SnapshotFolder,
+  [out] Msvm_VirtualSystemSettingData REF ImportedSnapshots[],
+  [out] CIM_ConcreteJob               REF Job
 );
 ```
 
@@ -126,7 +132,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -140,9 +146,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

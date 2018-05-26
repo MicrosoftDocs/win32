@@ -1,7 +1,12 @@
 ---
-Description: 'Returns an NCRYPT\_SSL\_CIPHER\_LENGTHS structure that contains the header and trailer lengths of the input protocol, cipher suite, and key type.'
-ms.assetid: '44d0d803-16d7-4bdf-9638-afbdaf9e1802'
+Description: Returns an NCRYPT\_SSL\_CIPHER\_LENGTHS structure that contains the header and trailer lengths of the input protocol, cipher suite, and key type.
+ms.assetid: 44d0d803-16d7-4bdf-9638-afbdaf9e1802
 title: SslLookupCipherLengths function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslLookupCipherLengths function
@@ -13,13 +18,13 @@ The **SslLookupCipherLengths** function returns an [**NCRYPT\_SSL\_CIPHER\_LENGT
 
 ```C++
 SECURITY_STATUS WINAPI SslLookupCipherLengths(
-  _In_  NCRYPT_PROV_HANDLE        hSslProvider,
-  _In_  DWORD                     dwProtocol,
-  _In_  DWORD                     dwCipherSuite,
-  _In_  DWORD                     dwKeyType,
-  _Out_ NCRYPT_SSL_CIPHER_LENGTHS *pCipherLengths,
-  _In_  DWORD                     cbCipherLengths,
-  _In_  DWORD                     dwFlags
+  _In_  NCRYPT_PROV_HANDLE        hSslProvider,
+  _In_  DWORD                     dwProtocol,
+  _In_  DWORD                     dwCipherSuite,
+  _In_  DWORD                     dwKeyType,
+  _Out_ NCRYPT_SSL_CIPHER_LENGTHS *pCipherLengths,
+  _In_  DWORD                     cbCipherLengths,
+  _In_  DWORD                     dwFlags
 );
 ```
 
@@ -96,7 +101,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,16 +113,16 @@ The **SslLookupCipherLengths** function is called for [*Transport Layer Security
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

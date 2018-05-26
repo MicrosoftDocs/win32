@@ -4,11 +4,13 @@ description: The process data object. Statistic data is calculated based on curr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14d46616-1bde-4d80-9ae6-a98c3630d86e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 14d46616-1bde-4d80-9ae6-a98c3630d86e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTProcess class", "MSFT_MTProcess class, described"]
+keywords:
+- MSFT_MTProcess class
+- MSFT_MTProcess class, described
 topic_type:
 - apiref
 api_name:
@@ -62,6 +64,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTProcess class
@@ -76,51 +81,51 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), dynamic, provider("mttmprov"), AMENDMENT]
 class MSFT_MTProcess : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   ElementName;
-  string   Description;
-  uint32   ProcessId;
-  string   Name;
-  string   ExecutablePath;
-  uint16   ProcessStatus;
-  string   UserName;
-  string   CommandLine;
-  uint32   SessionId;
-  uint64   CpuTime;
-  uint64   CycleTime;
+  string   InstanceID;
+  string   Caption;
+  string   ElementName;
+  string   Description;
+  uint32   ProcessId;
+  string   Name;
+  string   ExecutablePath;
+  uint16   ProcessStatus;
+  string   UserName;
+  string   CommandLine;
+  uint32   SessionId;
+  uint64   CpuTime;
+  uint64   CycleTime;
   datetime CreationDate;
-  uint64   CreationTime;
-  uint64   WorkingSetSize;
-  uint64   PeakWorkingSetSize;
-  uint64   PrivateWorkingSetSize;
-  uint64   SharedWorkingSetSize;
-  uint64   CommitCharge;
-  uint64   PagedPool;
-  uint64   NonPagedPool;
-  uint32   PageFaults;
-  uint32   BasePriority;
-  uint32   HandleCount;
-  uint32   ThreadCount;
-  uint32   UserObjects;
-  uint32   GdiObjects;
-  uint64   ReadOperationCount;
-  uint64   WriteOperationCount;
-  uint64   OtherOperationCount;
-  uint64   ReadTransferCount;
-  uint64   WriteTransferCount;
-  uint64   OtherTransferCount;
-  uint16   OperatingSystemContext;
-  uint16   Platform;
-  boolean  Elevated;
-  uint16   UACVirtualization;
-  boolean  DataExecutionPrevention;
-  boolean  IsImmersive;
-  uint16   IntervalSeconds;
-  real32   CpuPercent;
-  real32   CyclePercent;
-  sint64   DeltaWorkingSetSize;
-  sint32   DeltaPageFaults;
+  uint64   CreationTime;
+  uint64   WorkingSetSize;
+  uint64   PeakWorkingSetSize;
+  uint64   PrivateWorkingSetSize;
+  uint64   SharedWorkingSetSize;
+  uint64   CommitCharge;
+  uint64   PagedPool;
+  uint64   NonPagedPool;
+  uint32   PageFaults;
+  uint32   BasePriority;
+  uint32   HandleCount;
+  uint32   ThreadCount;
+  uint32   UserObjects;
+  uint32   GdiObjects;
+  uint64   ReadOperationCount;
+  uint64   WriteOperationCount;
+  uint64   OtherOperationCount;
+  uint64   ReadTransferCount;
+  uint64   WriteTransferCount;
+  uint64   OtherTransferCount;
+  uint16   OperatingSystemContext;
+  uint16   Platform;
+  boolean  Elevated;
+  uint16   UACVirtualization;
+  boolean  DataExecutionPrevention;
+  boolean  IsImmersive;
+  uint16   IntervalSeconds;
+  real32   CpuPercent;
+  real32   CyclePercent;
+  sint64   DeltaWorkingSetSize;
+  sint32   DeltaPageFaults;
 };
 ```
 
@@ -144,7 +149,7 @@ The **MSFT\_MTProcess** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -892,7 +897,7 @@ Get-CimInstance -CimSession $session -Namespace Root/Microsoft/Windows/Managemen
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -909,9 +914,9 @@ Get-CimInstance -CimSession $session -Namespace Root/Microsoft/Windows/Managemen
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

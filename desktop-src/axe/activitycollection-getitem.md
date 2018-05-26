@@ -1,8 +1,11 @@
 ---
 title: ActivityCollection GetItem method
 description: Returns an Activity from the ActivityCollection.
-ms.assetid: 'E583AC3B-627B-490A-A2D3-DA295B6F31F1'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , ActivityCollection interface", "ActivityCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: E583AC3B-627B-490A-A2D3-DA295B6F31F1
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , ActivityCollection interface
+- ActivityCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityCollection::GetItem method
@@ -22,8 +30,8 @@ Returns an [**Activity**](activity-struct.md) from the **ActivityCollection**.
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT      index,
-  [out] Activity **activity
+  [in]  INT      index,
+  [out] Activity **activity
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 [**ActivityCollection**](activitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

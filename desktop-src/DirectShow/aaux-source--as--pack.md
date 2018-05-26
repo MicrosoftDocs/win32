@@ -1,12 +1,17 @@
 ---
-Description: 'AAUX Source (AS) Pack'
-ms.assetid: '0e173fe5-0b9d-48e8-bcbd-403614d51558'
-title: 'AAUX Source (AS) Pack'
+Description: AAUX Source (AS) Pack
+ms.assetid: 0e173fe5-0b9d-48e8-bcbd-403614d51558
+title: AAUX Source (AS) Pack
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AAUX Source (AS) Pack
 
-The following tables list the values used by the MSDV driver to fill in the **dwDVAAuxSrc** and **dwDVAAuxSrc1** members of the [**DVINFO**](dvinfo.md) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
+The following tables list the values used by the MSDV driver to fill in the **dwDVAAuxSrc** and **dwDVAAuxSrc1** members of the [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) structure. For more information, see [DVINFO Field Settings in the MSDV Driver](dvinfo-field-settings-in-the-msdv-driver.md).
 
 DVCR Settings
 
@@ -413,7 +418,7 @@ AS Pack
  
 
 > [!Note]  
-> \* The [**DVINFO**](dvinfo.md) structure contains two AAUX AS packs, for audio blocks 1 and 2. DV50 has four audio blocks; blocks 3 and 4 are not represented in the **DVINFO** structure.
+> \* The [**DVINFO**](/windows/win32/strmif/ns-strmif-dvinfo?branch=master) structure contains two AAUX AS packs, for audio blocks 1 and 2. DV50 has four audio blocks; blocks 3 and 4 are not represented in the **DVINFO** structure.
 
  
 

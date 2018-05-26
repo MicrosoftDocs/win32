@@ -1,14 +1,20 @@
 ---
 title: PAUSEBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '73536341-c31f-4c7b-b56f-6260459e7471'
-keywords: ["PAUSEBUTTON Windows Media Player"]
+ms.assetid: 73536341-c31f-4c7b-b56f-6260459e7471
+keywords:
+- PAUSEBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PAUSEBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PAUSEBUTTON
@@ -43,9 +49,9 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

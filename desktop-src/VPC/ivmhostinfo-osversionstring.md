@@ -1,8 +1,11 @@
 ---
 title: IVMHostInfo OSVersionString property
 description: Retrieves the operating system version running on the host machine.
-ms.assetid: 'ac3a162a-d3e6-420d-ac26-d77f1c9646a6'
-keywords: ["OSVersionString property Virtual PC", "OSVersionString property Virtual PC , IVMHostInfo interface", "IVMHostInfo interface Virtual PC , OSVersionString property"]
+ms.assetid: ac3a162a-d3e6-420d-ac26-d77f1c9646a6
+keywords:
+- OSVersionString property Virtual PC
+- OSVersionString property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , OSVersionString property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::OSVersionString property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the operating system version running on the host machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_OSVersionString(
-  [out, retval] BSTR *OSVersion
+  [out, retval] BSTR *OSVersion
 );
 ```
 
@@ -55,9 +63,9 @@ The operating system version.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
@@ -71,9 +79,9 @@ The operating system version.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

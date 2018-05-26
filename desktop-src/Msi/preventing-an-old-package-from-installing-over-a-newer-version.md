@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer upgrade packages can be authored to have major upgrades not install if a user already has a newer version installed.'
-ms.assetid: 'f46e82bd-70b3-46a2-8246-a1eadfdc589d'
+Description: Windows Installer upgrade packages can be authored to have major upgrades not install if a user already has a newer version installed.
+ms.assetid: f46e82bd-70b3-46a2-8246-a1eadfdc589d
 title: Preventing an Old Package from Installing Over a Newer Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preventing an Old Package from Installing Over a Newer Version

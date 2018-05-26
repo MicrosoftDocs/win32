@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ResourcePool class
 description: Describes a type of virtual resource available for use in virtual systems.
-ms.assetid: 'e2194e62-1fa1-400b-bd95-dbc3d392c1e3'
-keywords: ["Msvm_ResourcePool class Hyper-V", "Msvm_ResourcePool class Hyper-V , described"]
+ms.assetid: e2194e62-1fa1-400b-bd95-dbc3d392c1e3
+keywords:
+- Msvm_ResourcePool class Hyper-V
+- Msvm_ResourcePool class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePool class
@@ -43,24 +50,24 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ResourcePool : CIM_ResourcePool
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  string   InstanceID = "Microsoft:GUID\Root";
-  string   PoolID = "Microsoft:GUID\Root";
-  boolean  Primordial = FALSE;
-  uint64   Capacity;
-  uint64   Reserved;
-  uint16   ResourceType = 4;
-  string   ResourceSubType;
-  string   AllocationUnits = "Megabyte";
-  string   ElementName;
-  string   StatusDescriptions[] = { "OK" };
-  string   OtherResourceType;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  string   InstanceID = "Microsoft:GUID\Root";
+  string   PoolID = "Microsoft:GUID\Root";
+  boolean  Primordial = FALSE;
+  uint64   Capacity;
+  uint64   Reserved;
+  uint16   ResourceType = 4;
+  string   ResourceSubType;
+  string   AllocationUnits = "Megabyte";
+  string   ElementName;
+  string   StatusDescriptions[] = { "OK" };
+  string   OtherResourceType;
 };
 ```
 
@@ -364,9 +371,9 @@ Access to the **Msvm\_ResourcePool** class might be restricted by UAC Filtering.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -388,9 +395,9 @@ Access to the **Msvm\_ResourcePool** class might be restricted by UAC Filtering.
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

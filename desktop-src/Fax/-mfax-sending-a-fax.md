@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example sends a fax.'
-ms.assetid: '347943cc-a417-469e-a936-8da5601e752f'
+Description: The following Microsoft Visual Basic code example sends a fax.
+ms.assetid: 347943cc-a417-469e-a936-8da5601e752f
 title: Sending a Fax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending a Fax

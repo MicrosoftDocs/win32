@@ -1,8 +1,17 @@
 ---
 title: Receiving Time-Stamped MIDI Messages
 description: Receiving Time-Stamped MIDI Messages
-ms.assetid: 'a91c85fe-f9c4-4cf6-b0bb-49aa8ed45644'
-keywords: ["Musical Instrument Digital Interface (MIDI),time-stamped messages", "MIDI (Musical Instrument Digital Interface),time-stamped messages", "recording MIDI audio,time-stamped messages", "time-stamped MIDI messages"]
+ms.assetid: a91c85fe-f9c4-4cf6-b0bb-49aa8ed45644
+keywords:
+- Musical Instrument Digital Interface (MIDI),time-stamped messages
+- MIDI (Musical Instrument Digital Interface),time-stamped messages
+- recording MIDI audio,time-stamped messages
+- time-stamped MIDI messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Time-Stamped MIDI Messages

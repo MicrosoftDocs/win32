@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShortcutAction class
 description: The Win32\_ShortcutAction WMI class manages the creation of shortcuts.
-ms.assetid: 'e2048d82-dd1b-49a7-9703-4b2901f64965'
-keywords: ["Win32_ShortcutAction class", "Win32_ShortcutAction class, described"]
+ms.assetid: e2048d82-dd1b-49a7-9703-4b2901f64965
+keywords:
+- Win32_ShortcutAction class
+- Win32_ShortcutAction class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShortcutAction class
@@ -36,7 +43,7 @@ The **Win32\_ShortcutAction** [WMI class](https://msdn.microsoft.com/library/aa3
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -84,7 +91,7 @@ The **Win32\_ShortcutAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -164,7 +171,7 @@ A particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa386541) obje
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -241,7 +248,7 @@ View state of the application window (similar to the [**ShowWindow**](_win32_sho
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -280,7 +287,7 @@ State of a software element
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -373,7 +380,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -415,8 +422,8 @@ The **Win32\_ShortcutAction** class is derived from [**CIM\_Action**](https://ms
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -430,9 +437,9 @@ The **Win32\_ShortcutAction** class is derived from [**CIM\_Action**](https://ms
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

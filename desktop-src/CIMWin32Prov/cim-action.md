@@ -1,15 +1,18 @@
 ---
-Description: 'A CIM\_Action class is an operation that is part of a process to either create a software element in its next state or to eliminate the software element in the current state.'
+Description: A CIM\_Action class is an operation that is part of a process to either create a software element in its next state or to eliminate the software element in the current state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd1f72aaf-7e26-414f-99e7-ff8f14d66360'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d1f72aaf-7e26-414f-99e7-ff8f14d66360
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Action class'
+title: CIM\_Action class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Action class
@@ -19,7 +22,7 @@ A **CIM\_Action** class is an operation that is part of a process to either crea
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -60,7 +63,7 @@ The **CIM\_Action** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -793,8 +796,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -808,9 +811,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [CIM Classes](https://msdn.microsoft.com/library/aa386179)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

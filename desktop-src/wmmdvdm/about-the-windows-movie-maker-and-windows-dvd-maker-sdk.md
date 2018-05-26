@@ -1,8 +1,28 @@
 ---
 title: About the Windows Movie Maker and Windows DVD Maker SDK
 description: About the Windows Movie Maker and Windows DVD Maker SDK
-ms.assetid: '32b5c064-3199-45ec-a8ac-fd6064378cd7'
-keywords: ["Windows Movie Maker,about", "Movie Maker,about", "Windows DVD Maker,about", "DVD Maker,about", "Windows Movie Maker,software development kit (SDK)", "Movie Maker,software development kit (SDK)", "Windows DVD Maker,software development kit (SDK)", "DVD Maker,software development kit (SDK)", "Windows Movie Maker SDK", "Movie Maker SDK", "Windows DVD Maker SDK", "DVD Maker SDK", "transitions,about", "effects,about", "transforms,about"]
+ms.assetid: 32b5c064-3199-45ec-a8ac-fd6064378cd7
+keywords:
+- Windows Movie Maker,about
+- Movie Maker,about
+- Windows DVD Maker,about
+- DVD Maker,about
+- Windows Movie Maker,software development kit (SDK)
+- Movie Maker,software development kit (SDK)
+- Windows DVD Maker,software development kit (SDK)
+- DVD Maker,software development kit (SDK)
+- Windows Movie Maker SDK
+- Movie Maker SDK
+- Windows DVD Maker SDK
+- DVD Maker SDK
+- transitions,about
+- effects,about
+- transforms,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Windows Movie Maker and Windows DVD Maker SDK

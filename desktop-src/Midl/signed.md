@@ -2,13 +2,19 @@
 title: signed attribute
 description: The signed keyword indicates the most significant bit of an integer variable represents a sign bit rather than a data bit.
 ms.assetid: 6116089a-647e-485b-8f79-9c9267aa4810
-keywords: ["signed attribute MIDL"]
+keywords:
+- signed attribute MIDL
 topic_type:
 - apiref
 api_name:
 - signed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # signed attribute

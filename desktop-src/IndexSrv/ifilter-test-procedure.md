@@ -1,7 +1,12 @@
 ---
 title: IFilter Test Procedure
 description: IFilter Test Procedure
-ms.assetid: '43c9628b-d288-4e71-9e7b-f435c99d964f'
+ms.assetid: 43c9628b-d288-4e71-9e7b-f435c99d964f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFilter Test Procedure

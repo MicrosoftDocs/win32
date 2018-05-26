@@ -4,13 +4,15 @@ description: Represents and association between a view, and an instance that rep
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '937e182d-c616-41af-8342-daf0ed3be606'
-ms.prod: 'windows-server-dev'
+ms.assetid: 937e182d-c616-41af-8342-daf0ed3be606
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ElementView class", "CIM_ElementView class, described"]
+keywords:
+- CIM_ElementView class
+- CIM_ElementView class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementView class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementView : CIM_Dependency
 {
   CIM_ManagedElement REF Antecedent;
-  CIM_View           REF Dependent;
+  CIM_View           REF Dependent;
 };
 ```
 
@@ -91,7 +96,7 @@ The view that represents a de-normalized or aggregate view of the managed resour
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ The view that represents a de-normalized or aggregate view of the managed resour
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

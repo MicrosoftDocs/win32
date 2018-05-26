@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Next-Textbox Attribute
 description: VML MSO-Next-Textbox Attribute
-ms.assetid: '977f8dac-cbc8-4410-a822-d1213ec7df12'
+ms.assetid: 977f8dac-cbc8-4410-a822-d1213ec7df12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Next-Textbox Attribute

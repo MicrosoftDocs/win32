@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the system certificates on a host system.'
-ms.assetid: 'd470a57d-85b9-4d31-bb2c-9b6f21e2860d'
-title: 'GetSystemCertificates method of the Msvm\_ReplicationService class'
+Description: Retrieves the system certificates on a host system.
+ms.assetid: d470a57d-85b9-4d31-bb2c-9b6f21e2860d
+title: GetSystemCertificates method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSystemCertificates method of the Msvm\_ReplicationService class
@@ -13,7 +18,7 @@ Retrieves the system certificates on a host system.
 
 ```mof
 uint32 GetSystemCertificates(
-  [out] string EncodedCertificates[]
+  [out] string EncodedCertificates[]
 );
 ```
 
@@ -84,8 +89,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -99,9 +104,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

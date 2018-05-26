@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a media sample is the first sample after a gap in the stream.'
-ms.assetid: 'f9e1e700-9958-404d-8b83-08f846f5a1b0'
-title: 'MFSampleExtension\_Discontinuity attribute'
+---
+Description: Specifies whether a media sample is the first sample after a gap in the stream.
+ms.assetid: f9e1e700-9958-404d-8b83-08f846f5a1b0
+title: MFSampleExtension\_Discontinuity attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_Discontinuity attribute
@@ -14,13 +19,13 @@ Specifies whether a media sample is the first sample after a gap in the stream.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 

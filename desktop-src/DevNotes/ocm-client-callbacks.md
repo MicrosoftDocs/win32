@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the callback functions to be used by the optional component manager.'
-ms.assetid: '454cc07e-4a00-4c53-9759-47563a8ed62f'
-title: 'OCM\_CLIENT\_CALLBACKS structure'
+Description: Specifies the callback functions to be used by the optional component manager.
+ms.assetid: 454cc07e-4a00-4c53-9759-47563a8ed62f
+title: OCM\_CLIENT\_CALLBACKS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OCM\_CLIENT\_CALLBACKS structure

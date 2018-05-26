@@ -1,8 +1,16 @@
 ---
 title: ReadWriteArrayExample
 description: This example reads and writes an array of elements.
-ms.assetid: '3c4851b5-1c31-4de7-929e-03a8199b273a'
-keywords: ["ReadWriteArrayExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 3c4851b5-1c31-4de7-929e-03a8199b273a
+keywords:
+- ReadWriteArrayExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadWriteArrayExample

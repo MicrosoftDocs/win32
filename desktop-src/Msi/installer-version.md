@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Version property of the Installer object is a read-only property that is the string representation of the current version of Windows Installer. The string is returned in the following form.'
-ms.assetid: '6b39bb19-4360-4d0e-a797-980912a91275'
-title: 'Installer.Version property'
+---
+Description: The Version property of the Installer object is a read-only property that is the string representation of the current version of Windows Installer. The string is returned in the following form.
+ms.assetid: 6b39bb19-4360-4d0e-a797-980912a91275
+title: Installer.Version property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.Version property

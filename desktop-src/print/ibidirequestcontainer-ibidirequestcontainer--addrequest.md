@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AddRequest method adds a request to the request list.'
-ms.assetid: '69a97816-2994-4eec-b2ab-a545195e3776'
-title: 'IBidiRequestContainer::AddRequest method'
+---
+Description: The AddRequest method adds a request to the request list.
+ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
+title: IBidiRequestContainerAddRequest method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequestContainer::AddRequest method

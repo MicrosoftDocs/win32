@@ -1,8 +1,9 @@
 ---
 title: WM\_MOUSEHWHEEL message
-description: Sent to the active window when the mouse's horizontal scroll wheel is tilted or rotated.
-ms.assetid: '4d6a3d73-38ef-450d-89d2-2d381fc7a7c3'
-keywords: ["WM_MOUSEHWHEEL message Keyboard and Mouse Input"]
+description: Sent to the active window when the mouses horizontal scroll wheel is tilted or rotated.
+ms.assetid: 4d6a3d73-38ef-450d-89d2-2d381fc7a7c3
+keywords:
+- WM_MOUSEHWHEEL message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MOUSEHWHEEL message
@@ -51,7 +57,7 @@ The low-order word indicates whether various virtual keys are down. This paramet
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,7 +101,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 The wheel rotation is a multiple of **WHEEL\_DELTA**, which is set to 120. This is the threshold for action to be taken, and one such action (for example, scrolling one increment) should occur for each delta.
 
@@ -107,8 +113,8 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -162,9 +168,9 @@ The delta was set to 120 to allow Microsoft or other vendors to build finer-reso
 [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

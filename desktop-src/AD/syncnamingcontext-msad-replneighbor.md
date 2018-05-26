@@ -4,11 +4,14 @@ description: Calls the DsReplicaSync function that synchronizes a destination na
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '005053c4-8d9c-42f6-bae6-3ecdedd5ac2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 005053c4-8d9c-42f6-bae6-3ecdedd5ac2b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["SyncNamingContext method Active Directory", "SyncNamingContext method Active Directory , MSAD_ReplNeighbor class", "MSAD_ReplNeighbor class Active Directory , SyncNamingContext method"]
+keywords:
+- SyncNamingContext method Active Directory
+- SyncNamingContext method Active Directory , MSAD_ReplNeighbor class
+- MSAD_ReplNeighbor class Active Directory , SyncNamingContext method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - replprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SyncNamingContext method of the MSAD\_ReplNeighbor class
 
-Calls the [**DsReplicaSync**](dsreplicasync.md) function that synchronizes a destination naming context with one of its sources.
+Calls the [**DsReplicaSync**](/windows/win32/Ntdsapi/nf-ntdsapi-dsreplicasynca?branch=master) function that synchronizes a destination naming context with one of its sources.
 
 ## Syntax
 
 
 ```mof
 void SyncNamingContext(
-  [in] uint32 Options
+  [in] uint32 Options
 );
 ```
 
@@ -65,7 +71,7 @@ Causes the source directory system agent (DSA) to verify that the local DSA is p
 
 This value is not supported.
 
-**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:** Synchronizes from all sources.
+**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:** Synchronizes from all sources.
 
 </dd> <dt>
 
@@ -78,7 +84,7 @@ This value is not supported.
 
 Performs this operation asynchronously.
 
-**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:** Required when using **DS\_REPSYNC\_ALL\_SOURCES**.
+**Windows Server 2008 R2, Windows Server 2008 and Windows Server 2003:** Required when using **DS\_REPSYNC\_ALL\_SOURCES**.
 
 </dd> <dt>
 
@@ -170,7 +176,7 @@ This method does not return a value.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
@@ -184,9 +190,9 @@ This method does not return a value.
 [**MSAD\_ReplNeighbor**](msad-replneighbor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

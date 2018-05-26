@@ -4,11 +4,15 @@ description: Using ADSI, you can obtain the defaultSecurityDescriptor attribute 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '12d1e77a-bd70-4c64-9b4f-ac5caaf5fe40'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 12d1e77a-bd70-4c64-9b4f-ac5caaf5fe40
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , reading the defaultSecurityDescriptor for an Object Class"]
+keywords:
+- Active Directory examples Active Directory , reading the defaultSecurityDescriptor for an Object Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reading the defaultSecurityDescriptor for an Object Class

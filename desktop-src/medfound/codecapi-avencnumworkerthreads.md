@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the number of worker threads used by a video encoder.'
-ms.assetid: 'E490DF0C-97DE-4375-A4DB-17DA4E782E2D'
-title: 'CODECAPI\_AVEncNumWorkerThreads property'
+Description: Sets the number of worker threads used by a video encoder.
+ms.assetid: E490DF0C-97DE-4375-A4DB-17DA4E782E2D
+title: CODECAPI\_AVEncNumWorkerThreads property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncNumWorkerThreads property
@@ -26,8 +31,8 @@ If the value is zero, the encoder selects the number of threads.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -42,9 +47,9 @@ If the value is zero, the encoder selects the number of threads.
 [**ICodecAPI**](https://msdn.microsoft.com/library/windows/desktop/dd311953)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

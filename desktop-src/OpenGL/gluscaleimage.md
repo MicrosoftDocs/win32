@@ -1,8 +1,9 @@
 ---
 title: gluScaleImage function
 description: The gluScaleImage function scales an image to an arbitrary size.
-ms.assetid: 'f47191e8-b22d-4f6a-949a-9c7782d6d338'
-keywords: ["gluScaleImage function OpenGL"]
+ms.assetid: f47191e8-b22d-4f6a-949a-9c7782d6d338
+keywords:
+- gluScaleImage function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluScaleImage function
@@ -22,15 +28,15 @@ The **gluScaleImage** function scales an image to an arbitrary size.
 
 ```C++
 int WINAPI gluScaleImage(
-         GLenum format,
-         GLint  widthin,
-         GLint  heightin,
-         GLenum typein,
-   const void   *datain,
-         GLint  widthout,
-         GLint  heightout,
-         GLenum typeout,
-         void   *dataout
+         GLenum format,
+         GLint  widthin,
+         GLint  heightin,
+         GLenum typein,
+   const void   *datain,
+         GLint  widthout,
+         GLint  heightout,
+         GLenum typeout,
+         void   *dataout
 );
 ```
 
@@ -123,8 +129,8 @@ For a description of the acceptable values for the *format*, *typein*, and *type
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -150,9 +156,9 @@ For a description of the acceptable values for the *format*, *typein*, and *type
 [**gluErrorString**](gluerrorstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

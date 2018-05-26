@@ -1,7 +1,12 @@
 ---
 title: Persistent Handlers Registered for a File Extension
 description: Persistent Handlers Registered for a File Extension
-ms.assetid: '5caba9a1-b8ff-4200-97cf-802556c9403a'
+ms.assetid: 5caba9a1-b8ff-4200-97cf-802556c9403a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Persistent Handlers Registered for a File Extension

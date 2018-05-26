@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the HCERTSTORE handle of a certificate store.'
-ms.assetid: '3ff8b4c7-4a9a-4cc1-b0ea-da442ebce157'
-title: 'ICertStore::StoreHandle property'
+---
+Description: Sets or retrieves the HCERTSTORE handle of a certificate store.
+ms.assetid: 3ff8b4c7-4a9a-4cc1-b0ea-da442ebce157
+title: ICertStoreStoreHandle property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertStore::StoreHandle property
@@ -33,7 +38,7 @@ Any other **HRESULT** value indicates that the call failed.
 
 ## Remarks
 
-You must call either the [**CloseHandle**](icertstore-closehandle.md) method or the [**CertCloseStore**](certclosestore.md) function to free the context.
+You must call either the [**CloseHandle**](icertstore-closehandle.md) method or the [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master) function to free the context.
 
 If you set the **StoreHandle** property, the state of the entire [**Store**](store.md) object is reset.
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e6786836-5e18-4b8c-9e7d-229abb7473e7'
-title: 'System.Link.Arguments'
+Description: .
+ms.assetid: e6786836-5e18-4b8c-9e7d-229abb7473e7
+title: System.Link.Arguments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Link.Arguments

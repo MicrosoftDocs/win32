@@ -1,8 +1,10 @@
 ---
 title: MSFT\_NetEventVmNetworkAdapter class
 description: This class encapsulates a VM Network Adapter, that corresponds to a port on a virtual switch, on which the traffic is to be captured.
-ms.assetid: '10a27e36-b553-43f7-82f6-467f52b8ba26'
-keywords: ["MSFT_NetEventVmNetworkAdapter class", "MSFT_NetEventVmNetworkAdapter class, described"]
+ms.assetid: 10a27e36-b553-43f7-82f6-467f52b8ba26
+keywords:
+- MSFT_NetEventVmNetworkAdapter class
+- MSFT_NetEventVmNetworkAdapter class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetEventVmNetworkAdapter class
@@ -47,28 +54,28 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0"), dynamic, provider("NetEventPacketCapture"), AMENDMENT]
 class MSFT_NetEventVmNetworkAdapter : MSFT_NetEventPacketCaptureTarget
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  string   Id;
-  string   ProviderName;
-  uint32   CaptureStatus;
-  string   MacAddress;
-  string   SwitchName;
-  string   PortName;
-  string   VMName;
-  string   VMId;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  string   Id;
+  string   ProviderName;
+  uint32   CaptureStatus;
+  string   MacAddress;
+  string   SwitchName;
+  string   PortName;
+  string   VMName;
+  string   VMId;
 };
 ```
 
@@ -156,7 +163,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -220,7 +227,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -285,7 +292,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -454,7 +461,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -524,7 +531,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -578,7 +585,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -639,7 +646,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -706,8 +713,8 @@ The name of the virtual machine that the VM network adapter belongs to.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -721,9 +728,9 @@ The name of the virtual machine that the VM network adapter belongs to.
 [**MSFT\_NetEventPacketCaptureTarget**](msft-neteventpacketcapturetarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

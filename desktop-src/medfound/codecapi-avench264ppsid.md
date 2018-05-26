@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the Picture Parameter Set (PPS) identifier.'
-ms.assetid: '624381A7-50F4-4481-8A02-3D377F0A713D'
-title: 'CODECAPI\_AVEncH264PPSID property'
+Description: Sets the Picture Parameter Set (PPS) identifier.
+ms.assetid: 624381A7-50F4-4481-8A02-3D377F0A713D
+title: CODECAPI\_AVEncH264PPSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncH264PPSID property
@@ -22,8 +27,8 @@ Sets the Picture Parameter Set (PPS) identifier.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -35,9 +40,9 @@ Sets the Picture Parameter Set (PPS) identifier.
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

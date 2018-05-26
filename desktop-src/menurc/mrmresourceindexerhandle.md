@@ -1,8 +1,10 @@
 ---
 title: MrmResourceIndexerHandle structure
 description: Represents an opaque handle to a resource indexer object. The handle is managed by the operating system. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: 'E3ED8AB8-39B8-419C-9570-1CC6B2CFE8D0'
-keywords: ["MrmResourceIndexerHandle structure Menus and Other Resources", "PMrmResourceIndexerHandle structure pointer Menus and Other Resources"]
+ms.assetid: E3ED8AB8-39B8-419C-9570-1CC6B2CFE8D0
+keywords:
+- MrmResourceIndexerHandle structure Menus and Other Resources
+- PMrmResourceIndexerHandle structure pointer Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmResourceIndexerHandle structure
@@ -51,7 +58,7 @@ An opaque handle to a resource indexer object.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 
@@ -64,9 +71,9 @@ An opaque handle to a resource indexer object.
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

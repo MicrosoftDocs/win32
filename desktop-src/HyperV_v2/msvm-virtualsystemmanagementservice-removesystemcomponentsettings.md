@@ -1,7 +1,12 @@
 ---
-Description: 'Removes generic component settings from a virtual system configuration.'
-ms.assetid: '54ddb960-65b7-409d-ad80-f3685562a1a1'
-title: 'RemoveSystemComponentSettings method of the Msvm\_VirtualSystemManagementService class'
+Description: Removes generic component settings from a virtual system configuration.
+ms.assetid: 54ddb960-65b7-409d-ad80-f3685562a1a1
+title: RemoveSystemComponentSettings method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveSystemComponentSettings method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Removes generic component settings from a virtual system configuration.
 
 ```mof
 uint32 RemoveSystemComponentSettings(
-  [in]  Msvm_SystemComponentSettingData REF ComponentSettings[],
-  [out] CIM_ConcreteJob                 REF Job
+  [in]  Msvm_SystemComponentSettingData REF ComponentSettings[],
+  [out] CIM_ConcreteJob                 REF Job
 );
 ```
 
@@ -80,8 +85,8 @@ Returns 0 or 4096 on a success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -95,9 +100,9 @@ Returns 0 or 4096 on a success; otherwise, returns an error.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

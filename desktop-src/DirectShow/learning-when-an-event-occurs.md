@@ -1,7 +1,12 @@
 ---
 Description: Learning When an Event Occurs
-ms.assetid: '4e44089b-676b-4220-9721-54ddf56bf760'
+ms.assetid: 4e44089b-676b-4220-9721-54ddf56bf760
 title: Learning When an Event Occurs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Learning When an Event Occurs
@@ -15,7 +20,7 @@ An application can use either technique. Window notification is usually simpler.
 
 **Window Notification**
 
-To set up window notification, call the [**IMediaEventEx::SetNotifyWindow**](imediaeventex-setnotifywindow.md) method and specify a private message. Applications can use message numbers in the range from WM\_APP through 0xBFFF as private messages. Whenever the Filter Graph Manager places a new event notification in the queue, it posts this message to the designated window. The application responds to the message from within the window's message loop.
+To set up window notification, call the [**IMediaEventEx::SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master) method and specify a private message. Applications can use message numbers in the range from WM\_APP through 0xBFFF as private messages. Whenever the Filter Graph Manager places a new event notification in the queue, it posts this message to the designated window. The application responds to the message from within the window's message loop.
 
 The following code example shows how to set the notification window.
 
@@ -48,20 +53,20 @@ LRESULT CALLBACK WindowProc( HWND hwnd, UINT msg, UINT wParam, LONG lParam)
 
 
 
-Because event notification and the message loop are both asynchronous, the queue might contain more than one event by the time your application responds to the message. Also, events can sometimes be cleared from the queue if they become invalid. Therefore, in your event handling code, call [**IAMMediaEvent::GetEvent**](imediaevent-getevent.md) until it returns a failure code, indicating that the queue is empty.
+Because event notification and the message loop are both asynchronous, the queue might contain more than one event by the time your application responds to the message. Also, events can sometimes be cleared from the queue if they become invalid. Therefore, in your event handling code, call [**IAMMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) until it returns a failure code, indicating that the queue is empty.
 
-Before you release the [**IMediaEventEx**](imediaeventex.md) pointer, cancel event notification by calling [**SetNotifyWindow**](imediaeventex-setnotifywindow.md) with a **NULL** pointer. In your event processing code, check whether your **IMediaEventEx** pointer is valid before calling [**GetEvent**](imediaevent-getevent.md). These steps prevent a possible error, in which the application receives the event notification after it has released the **IMediaEventEx** pointer.
+Before you release the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) pointer, cancel event notification by calling [**SetNotifyWindow**](/windows/win32/Control/nf-control-imediaeventex-setnotifywindow?branch=master) with a **NULL** pointer. In your event processing code, check whether your **IMediaEventEx** pointer is valid before calling [**GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master). These steps prevent a possible error, in which the application receives the event notification after it has released the **IMediaEventEx** pointer.
 
 **Event Signaling**
 
-The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains pending event notifications, the Filter Graph Manager signals the manual-reset event. If the queue is empty, a call to the [**IMediaEvent::GetEvent**](imediaevent-getevent.md) method resets the event. An application can use this event to determine the state of the queue.
+The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains pending event notifications, the Filter Graph Manager signals the manual-reset event. If the queue is empty, a call to the [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) method resets the event. An application can use this event to determine the state of the queue.
 
 > [!Note]  
 > The terminology can be confusing here. The manual-reset event is the type of event created by the Windows [**CreateEvent**](base.createevent) function; it has nothing to do with the events defined by DirectShow.
 
  
 
-Call the [**IMediaEvent::GetEventHandle**](imediaevent-geteventhandle.md) method to get a handle to the manual-reset event. Wait for the event to be signaled by calling a function such as [**WaitForMultipleObjects**](base.msgwaitformultipleobjects). Once the event is signaled, call [**IMediaEvent::GetEvent**](imediaevent-getevent.md) to get the DirectShow event.
+Call the [**IMediaEvent::GetEventHandle**](/windows/win32/Control/nf-control-imediaevent-geteventhandle?branch=master) method to get a handle to the manual-reset event. Wait for the event to be signaled by calling a function such as [**WaitForMultipleObjects**](base.msgwaitformultipleobjects). Once the event is signaled, call [**IMediaEvent::GetEvent**](/windows/win32/Control/nf-control-imediaevent-getevent?branch=master) to get the DirectShow event.
 
 The following code example illustrates this approach. It gets the event handle, then waits in 100-millisecond intervals for the event to be signaled. If the event is signaled, it calls **GetEvent** and prints the event code and event parameters to the console window. The loop terminates when the [**EC\_COMPLETE**](ec-complete.md) event occurs, indicating that playback has completed.
 

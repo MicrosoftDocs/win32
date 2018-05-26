@@ -1,14 +1,20 @@
 ---
 title: VIEW.timerInterval
 description: The timerInterval attribute specifies or retrieves the interval, in milliseconds, at which the timer fires events to the ontimer event handler.
-ms.assetid: '1a69890f-5ea4-493a-8a9e-04fe60a41804'
-keywords: ["VIEW.timerInterval Windows Media Player"]
+ms.assetid: 1a69890f-5ea4-493a-8a9e-04fe60a41804
+keywords:
+- VIEW.timerInterval Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.timerInterval
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.timerInterval
@@ -32,7 +38,7 @@ This attribute is a read/write **Number** (**long**) with a default value of 100
 
 
 
- 
+ 
 
 Any value below 50 (including negative numbers, but not including zero) generates an error and the previous value is maintained.
 
@@ -60,9 +66,9 @@ This will not fire automatically if no **ontimer** event handler is implemented.
 [**VIEW.ontimer**](view-ontimer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Gets the list of URLs that need to provide consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.IConsent.Urls'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.IConsent.Urls
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Urls property", "Urls property, IConsent class", "IConsent class, Urls property"]
+keywords:
+- Urls property
+- Urls property, IConsent class
+- IConsent class, Urls property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IConsent.Urls property
@@ -63,9 +69,9 @@ List of URLs that need to provide consent.
 [**IConsent**](iconsent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

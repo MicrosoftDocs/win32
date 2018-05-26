@@ -1,8 +1,9 @@
 ---
 title: MrmFreeMemory function
 description: Frees memory allocated by MrmCreateConfigInMemory, MrmCreateResourceFileInMemory, MrmDumpPriFileInMemory, and MrmDumpPriDataInMemory.
-ms.assetid: 'F8741379-CE1A-47BD-9B2C-721A5424CAD1'
-keywords: ["MrmFreeMemory function Menus and Other Resources"]
+ms.assetid: F8741379-CE1A-47BD-9B2C-721A5424CAD1
+keywords:
+- MrmFreeMemory function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmFreeMemory function
@@ -24,7 +30,7 @@ Frees memory allocated by [**MrmCreateConfigInMemory**](mrmcreateconfiginmemory.
 
 ```C++
 HRESULT HRESULT MrmFreeMemory(
-  _In_ BYTE *data
+  _In_ BYTE *data
 );
 ```
 
@@ -55,7 +61,7 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -70,9 +76,9 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

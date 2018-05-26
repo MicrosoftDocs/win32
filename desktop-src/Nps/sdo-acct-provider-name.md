@@ -4,10 +4,13 @@ description: The name of the RADIUS server that provides accounting.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '31dde80b-ceea-44e1-a11d-aaff33d78ab6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 31dde80b-ceea-44e1-a11d-aaff33d78ab6
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Acct-Provider-Name

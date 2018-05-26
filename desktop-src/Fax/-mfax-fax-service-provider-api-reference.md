@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics list the fax service provider functions and structures.'
-ms.assetid: '80440e76-4024-4109-9f39-c5ab595733d6'
+Description: The following topics list the fax service provider functions and structures.
+ms.assetid: 80440e76-4024-4109-9f39-c5ab595733d6
 title: Fax Service Provider API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Provider API Reference

@@ -1,7 +1,12 @@
 ---
 title: Test a Help System
 description: Test a Help System
-ms.assetid: 'C848E50D-5C55-4e79-8026-F63EC80B3465'
+ms.assetid: C848E50D-5C55-4e79-8026-F63EC80B3465
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Test a Help System

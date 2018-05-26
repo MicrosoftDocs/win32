@@ -1,8 +1,18 @@
 ---
 title: Implementing DoProcessOutput
 description: Implementing DoProcessOutput
-ms.assetid: 'c6fbcfc0-741b-4aa7-9109-e06810a2e081'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,DoProcessOutput", "DSP plug-ins,DoProcessOutput", "audio DSP plug-ins,DoProcessOutput"]
+ms.assetid: c6fbcfc0-741b-4aa7-9109-e06810a2e081
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,DoProcessOutput
+- DSP plug-ins,DoProcessOutput
+- audio DSP plug-ins,DoProcessOutput
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing DoProcessOutput

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the template ID of this file data node.'
-ms.assetid: 'ff0662da-b4f8-4ed2-81d4-6771e91da262'
-title: 'ID3DXFileSaveData::GetType method'
+---
+Description: Retrieves the template ID of this file data node.
+ms.assetid: ff0662da-b4f8-4ed2-81d4-6771e91da262
+title: ID3DXFileSaveDataGetType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileSaveData::GetType method

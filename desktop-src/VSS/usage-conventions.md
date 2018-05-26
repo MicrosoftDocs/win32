@@ -1,7 +1,12 @@
-﻿---
-Description: 'When developing your own VSS application, you should observe the following guidelines and restrictions.'
-ms.assetid: 'd4edc16c-f768-4095-9b2a-b706f19f9e61'
+---
+Description: When developing your own VSS application, you should observe the following guidelines and restrictions.
+ms.assetid: d4edc16c-f768-4095-9b2a-b706f19f9e61
 title: VSS Application Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Application Compatibility
@@ -137,7 +142,7 @@ The following list describes supported configurations and restrictions:
     When backing up and recovering system state, the recommended strategy is to back up and recover the system and boot volumes in addition to the files enumerated by the system state writers.
 
     > [!Note]  
-    > System state writers are writers that have the [**VSS\_USAGE\_TYPE**](vss-usage-type.md) attribute set to either VSS\_UT\_BOOTABLESYSTEMSTATE or VSS\_UT\_SYSTEMSERVICE.
+    > System state writers are writers that have the [**VSS\_USAGE\_TYPE**](/windows/win32/VsWriter/ne-vswriter-vss_usage_type?branch=master) attribute set to either VSS\_UT\_BOOTABLESYSTEMSTATE or VSS\_UT\_SYSTEMSERVICE.
 
      
 

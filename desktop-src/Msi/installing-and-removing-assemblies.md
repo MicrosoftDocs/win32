@@ -1,7 +1,12 @@
 ---
-Description: 'When installing an assembly to an isolated location for a specific application, the application must be specified in the File\_Application column of the MsiAssembly table.'
-ms.assetid: '8d7fc09c-1017-4a30-be00-b7b0e5f2a057'
+Description: When installing an assembly to an isolated location for a specific application, the application must be specified in the File\_Application column of the MsiAssembly table.
+ms.assetid: 8d7fc09c-1017-4a30-be00-b7b0e5f2a057
 title: Installing and Removing Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing and Removing Assemblies

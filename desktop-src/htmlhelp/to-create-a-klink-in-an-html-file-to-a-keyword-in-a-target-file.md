@@ -1,7 +1,12 @@
 ---
 title: To create a KLink in an HTML file to a keyword in a target file
 description: To create a KLink in an HTML file to a keyword in a target file
-ms.assetid: '1CFB961E-1187-481f-8B4C-297BEB382EA5'
+ms.assetid: 1CFB961E-1187-481f-8B4C-297BEB382EA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a KLink in an HTML file to a keyword in a target file
@@ -15,7 +20,7 @@ ms.assetid: '1CFB961E-1187-481f-8B4C-297BEB382EA5'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **Keyword Search**, and then select the appropriate display type and button options.
 4.  In the **Related Topics** dialog box, specify the keywords you want to jump to.
@@ -34,9 +39,9 @@ ms.assetid: '1CFB961E-1187-481f-8B4C-297BEB382EA5'
 [About Working with KLinks](working-with-klinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

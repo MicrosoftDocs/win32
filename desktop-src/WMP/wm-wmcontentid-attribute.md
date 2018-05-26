@@ -1,14 +1,20 @@
 ---
 title: WM/WMContentID Attribute
 description: The WM/WMContentID attribute is a GUID identifying the content of the item.
-ms.assetid: '1e741286-cdd8-4c2f-8fef-5d91d81d6387'
-keywords: ["WM/WMContentID Attribute Windows Media Player"]
+ms.assetid: 1e741286-cdd8-4c2f-8fef-5d91d81d6387
+keywords:
+- WM/WMContentID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/WMContentID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMContentID Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: CreatePartition method of the MSFT\_Disk class
 description: Creates a partition on a disk.
-ms.assetid: '4356352c-462e-4283-97e1-fcf7fe173b19'
-keywords: ["CreatePartition method Windows Storage Management API", "CreatePartition method Windows Storage Management API , MSFT_Disk class", "MSFT_Disk class Windows Storage Management API , CreatePartition method"]
+ms.assetid: 4356352c-462e-4283-97e1-fcf7fe173b19
+keywords:
+- CreatePartition method Windows Storage Management API
+- CreatePartition method Windows Storage Management API , MSFT_Disk class
+- MSFT_Disk class Windows Storage Management API , CreatePartition method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreatePartition method of the MSFT\_Disk class
@@ -22,18 +30,18 @@ Creates a partition on a disk.
 
 ```mof
 UInt32 CreatePartition(
-  [in]  UInt64  Size,
-  [in]  Boolean UseMaximumSize,
-  [in]  UInt64  Offset,
-  [in]  UInt32  Alignment,
-  [in]  Char16  DriveLetter,
-  [in]  Boolean AssignDriveLetter,
-  [in]  UInt16  MbrType,
-  [in]  String  GptType,
-  [in]  Boolean IsHidden,
-  [in]  Boolean IsActive,
-  [out] String  CreatedPartition,
-  [out] String  ExtendedStatus
+  [in]  UInt64  Size,
+  [in]  Boolean UseMaximumSize,
+  [in]  UInt64  Offset,
+  [in]  UInt32  Alignment,
+  [in]  Char16  DriveLetter,
+  [in]  Boolean AssignDriveLetter,
+  [in]  UInt16  MbrType,
+  [in]  String  GptType,
+  [in]  Boolean IsHidden,
+  [in]  Boolean IsActive,
+  [out] String  CreatedPartition,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -103,7 +111,7 @@ Specifies the MBR partition type. This parameter can only be set if the disk's *
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -125,7 +133,7 @@ The GPT type of the partition. This parameter is only valid if the disk's **Part
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -256,8 +264,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -270,9 +278,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Disk**](msft-disk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

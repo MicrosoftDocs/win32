@@ -1,18 +1,23 @@
 ---
-Description: 'A handle to a communications resource has an associated set of time-out parameters that affect the behavior of read and write operations.'
-ms.assetid: '271d4c68-1f6d-4483-a9a1-703220de761f'
-title: 'Time-Outs'
+Description: A handle to a communications resource has an associated set of time-out parameters that affect the behavior of read and write operations.
+ms.assetid: 271d4c68-1f6d-4483-a9a1-703220de761f
+title: Time-Outs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time-Outs
 
 A handle to a communications resource has an associated set of time-out parameters that affect the behavior of read and write operations. Time-outs can cause a [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), or [**WriteFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365748) operation to conclude when a time-out interval elapses, even though the specified number of characters have not been read or written. It is not treated as an error when a time-out occurs during a read or write operation (that is, the read or write function's return value indicates success). The count of bytes actually read or written is reported by **ReadFile** or **WriteFile** (or by the [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) or [**FileIOCompletionRoutine**](https://msdn.microsoft.com/library/windows/desktop/aa364052) function, if the I/O was performed as an overlapped operation).
 
-When an application opens a communications resource, the system sets the resource's time-out values to the values in effect when the resource was last used. If the communications resource has never been opened, the system sets the time-out values to some default value. In either case, an application should always determine the current time-out values after opening the resource, and then explicitly set them to meet its requirements. To determine the current time-out values of a communications resource, use the [**GetCommTimeouts**](getcommtimeouts.md) function. To change the time-out values, use the [**SetCommTimeouts**](setcommtimeouts.md) function.
+When an application opens a communications resource, the system sets the resource's time-out values to the values in effect when the resource was last used. If the communications resource has never been opened, the system sets the time-out values to some default value. In either case, an application should always determine the current time-out values after opening the resource, and then explicitly set them to meet its requirements. To determine the current time-out values of a communications resource, use the [**GetCommTimeouts**](/windows/win32/Winbase/nf-winbase-getcommtimeouts?branch=master) function. To change the time-out values, use the [**SetCommTimeouts**](/windows/win32/Winbase/nf-winbase-setcommtimeouts?branch=master) function.
 
 Two types of time-outs are enabled by the time-out parameters. An interval time-out occurs when the time between the receipt of any two characters exceeds a specified number of milliseconds. Timing starts when the first character is received and is restarted when each new character is received. A total time-out occurs when the total amount of time consumed by a read operation exceeds a calculated number of milliseconds. Timing starts immediately when the I/O operation begins. Write operations support only total time-outs. Read operations support both interval and total time-outs, which can be used separately or combined.
 
-The time, in milliseconds, of the total time-out period for a read or write operation is calculated by using the multiplier and constant values from the [**COMMTIMEOUTS**](commtimeouts-str.md) structure specified in the [**GetCommTimeouts**](getcommtimeouts.md) or [**SetCommTimeouts**](setcommtimeouts.md) function. The following formula is used:
+The time, in milliseconds, of the total time-out period for a read or write operation is calculated by using the multiplier and constant values from the [**COMMTIMEOUTS**](/windows/win32/Winbase/ns-winbase-_commtimeouts?branch=master) structure specified in the [**GetCommTimeouts**](/windows/win32/Winbase/nf-winbase-getcommtimeouts?branch=master) or [**SetCommTimeouts**](/windows/win32/Winbase/nf-winbase-setcommtimeouts?branch=master) function. The following formula is used:
 
 
 ```C++
@@ -29,7 +34,7 @@ If the read interval time-out parameter is the **MAXDWORD** value and both read 
 
 Interval timing forces a read operation to return when there is a lull in reception. A process using interval time-outs can set a fairly short interval parameter, so it can respond quickly to small, isolated bursts of one or a few characters, yet it can still collect large buffers of characters with a single call when data is received in a steady stream.
 
-Time-outs for a write operation can be useful when transmission is blocked by some kind of flow control or when the [**SetCommBreak**](setcommbreak.md) function has been called to suspend character transmission.
+Time-outs for a write operation can be useful when transmission is blocked by some kind of flow control or when the [**SetCommBreak**](/windows/win32/Winbase/nf-winbase-setcommbreak?branch=master) function has been called to suspend character transmission.
 
 The following table summarizes the behavior of read operations based on the values specified for total and interval time-outs.
 

@@ -1,8 +1,9 @@
 ---
 title: DownloadCollection.id
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The id property retrieves the ID of the download collection.
-ms.assetid: 'b5b17f22-913c-4055-8958-e3efac819b2b'
-keywords: ["DownloadCollection.id Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The id property retrieves the ID of the download collection.
+ms.assetid: b5b17f22-913c-4055-8958-e3efac819b2b
+keywords:
+- DownloadCollection.id Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection.id
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **id** property retrieves the ID of the download collection.
 
@@ -59,9 +65,9 @@ ID numbers are not unique. However, there are enough ID numbers available in the
 [**DownloadCollection Object**](downloadcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

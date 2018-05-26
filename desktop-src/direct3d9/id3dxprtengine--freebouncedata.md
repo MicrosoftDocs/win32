@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frees memory used for temporary bounced-light simulation data.'
-ms.assetid: 'a28442ed-f281-4236-8995-366d43c97c43'
-title: 'ID3DXPRTEngine::FreeBounceData method'
+---
+Description: Frees memory used for temporary bounced-light simulation data.
+ms.assetid: a28442ed-f281-4236-8995-366d43c97c43
+title: ID3DXPRTEngineFreeBounceData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::FreeBounceData method

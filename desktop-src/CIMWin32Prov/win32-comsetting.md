@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_COMSetting abstract WMI class represents the settings associated with a Component Object Model (COM) component or COM application.'
+Description: The Win32\_COMSetting abstract WMI class represents the settings associated with a Component Object Model (COM) component or COM application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e8cdbee8-41ab-4aff-b17b-707667138411'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e8cdbee8-41ab-4aff-b17b-707667138411
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_COMSetting class'
+title: Win32\_COMSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_COMSetting class
@@ -103,8 +106,8 @@ The **Win32\_COMSetting** class is derived from [**CIM\_Setting**](cim-setting.m
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -121,9 +124,9 @@ The **Win32\_COMSetting** class is derived from [**CIM\_Setting**](cim-setting.m
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

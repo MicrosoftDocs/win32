@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the thumbnail image of an existing virtual machine.'
-ms.assetid: '8D670D2E-EAD7-47FF-B13C-764EFFDF4547'
-title: 'GetVirtualSystemThumbnailImage method of the Msvm\_VirtualSystemManagementService class'
+Description: Retrieves the thumbnail image of an existing virtual machine.
+ms.assetid: 8D670D2E-EAD7-47FF-B13C-764EFFDF4547
+title: GetVirtualSystemThumbnailImage method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVirtualSystemThumbnailImage method of the Msvm\_VirtualSystemManagementService class
@@ -13,10 +18,10 @@ Retrieves the thumbnail image of an existing virtual machine.
 
 ```mof
 uint32 GetVirtualSystemThumbnailImage(
-  [in]  CIM_VirtualSystemSettingData REF TargetSystem,
-  [in]  uint16                           WidthPixels,
-  [in]  uint16                           HeightPixels,
-  [out] uint8                            ImageData[]
+  [in]  CIM_VirtualSystemSettingData REF TargetSystem,
+  [in]  uint16                           WidthPixels,
+  [in]  uint16                           HeightPixels,
+  [out] uint8                            ImageData[]
 );
 ```
 
@@ -120,7 +125,7 @@ The following C# sample retrieves the thumbnail image of a virtual machine. The 
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -203,7 +208,7 @@ The following Visual Basic Scripting Edition (VBScript) sample retrieves the thu
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -428,8 +433,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -443,9 +448,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

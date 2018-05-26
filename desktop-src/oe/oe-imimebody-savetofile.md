@@ -1,8 +1,11 @@
 ---
 title: IMimeBody SaveToFile method
 description: Saves the body data to a file in the specified encoding.
-ms.assetid: '11e3fd67-859b-424a-821b-cca52b6d96ef'
-keywords: ["SaveToFile method Windows Mail (formerly Outlook Express)", "SaveToFile method Windows Mail (formerly Outlook Express) , IMimeBody interface", "IMimeBody interface Windows Mail (formerly Outlook Express) , SaveToFile method"]
+ms.assetid: 11e3fd67-859b-424a-821b-cca52b6d96ef
+keywords:
+- SaveToFile method Windows Mail (formerly Outlook Express)
+- SaveToFile method Windows Mail (formerly Outlook Express) , IMimeBody interface
+- IMimeBody interface Windows Mail (formerly Outlook Express) , SaveToFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBody::SaveToFile method
@@ -22,8 +30,8 @@ Saves the body data to a file in the specified encoding.
 
 ```C++
 HRESULT SaveToFile(
-  [in] ENCODINGTYPE ietEncoding,
-  [in] LPCSTR       pszFilePath
+  [in] ENCODINGTYPE ietEncoding,
+  [in] LPCSTR       pszFilePath
 );
 ```
 
@@ -52,7 +60,7 @@ Specifies a **LPCSTR** that contains the file path to save the body in and overw
 > [!Note]  
 > MimeOLE requires write access to this file.
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,7 +82,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

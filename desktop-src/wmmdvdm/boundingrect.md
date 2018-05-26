@@ -1,14 +1,20 @@
 ---
 title: BoundingRect element
 description: Defines the location and size of the specified text object.
-ms.assetid: '63461989-d879-4091-b077-3004bd773631'
-keywords: ["BoundingRect element Windows Movie Maker and DVD Maker"]
+ms.assetid: 63461989-d879-4091-b077-3004bd773631
+keywords:
+- BoundingRect element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - BoundingRect
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingRect element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -60,9 +66,9 @@ There are no child elements.
 [**Text Element**](text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

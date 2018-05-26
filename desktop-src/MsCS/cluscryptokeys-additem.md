@@ -4,11 +4,14 @@ description: Adds a crypto key to a ClusCryptoKeys collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4f830e93-fa0a-4dbe-9544-9065cb2b4e8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4f830e93-fa0a-4dbe-9544-9065cb2b4e8d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddItem method Failover Cluster", "AddItem method Failover Cluster , ClusCryptoKeys class", "ClusCryptoKeys class Failover Cluster , AddItem method"]
+keywords:
+- AddItem method Failover Cluster
+- AddItem method Failover Cluster , ClusCryptoKeys class
+- ClusCryptoKeys class Failover Cluster , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusCryptoKeys.AddItem method
@@ -60,7 +66,7 @@ A string that receives the added key.
 For more information on the following points, see the [Cryptography Reference](https://msdn.microsoft.com/library/windows/desktop/aa380256).
 
 -   A key container is given a name when it is created using [**CryptAcquireContext**](https://msdn.microsoft.com/library/windows/desktop/aa379886) with *dwFlags* set to **CRYPT\_NEWKEYSET**.
--   Once a key container has been created, the key pairs for that key container must be created using [**CryptGenKey**](https://msdn.microsoft.com/library/windows/desktop/aa379941) with the *dwFlags* parameter set to **CRYPT\_EXPORTABLE**. Note that some CSPs do not allow key exports from their key containers. If a key is not exportable then the [**ClusterResourceControl**](clusterresourcecontrol.md) call will fail with an **NTE\_BAD\_KEY** error.
+-   Once a key container has been created, the key pairs for that key container must be created using [**CryptGenKey**](https://msdn.microsoft.com/library/windows/desktop/aa379941) with the *dwFlags* parameter set to **CRYPT\_EXPORTABLE**. Note that some CSPs do not allow key exports from their key containers. If a key is not exportable then the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) call will fail with an **NTE\_BAD\_KEY** error.
 
 For more information on checkpoints, see [Checkpointing](checkpointing.md).
 
@@ -71,7 +77,7 @@ For more information on checkpoints, see [Checkpointing](checkpointing.md).
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -90,9 +96,9 @@ For more information on checkpoints, see [Checkpointing](checkpointing.md).
 [**ClusProperty**](clusproperty-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

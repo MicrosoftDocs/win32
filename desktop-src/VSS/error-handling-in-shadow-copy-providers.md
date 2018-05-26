@@ -1,12 +1,17 @@
-﻿---
-Description: 'VSS allows many shadow copies to exist at once, but it only allows one shadow copy set creation to be in-progress between the call to IVssBackupComponents::StartSnapshotSet and the return from the call to IVssBackupComponents::DoSnapshotSet.'
-ms.assetid: '26657fc2-180f-4ebb-820c-2159e7fe7584'
+---
+Description: VSS allows many shadow copies to exist at once, but it only allows one shadow copy set creation to be in-progress between the call to IVssBackupComponentsStartSnapshotSet and the return from the call to IVssBackupComponentsDoSnapshotSet.
+ms.assetid: 26657fc2-180f-4ebb-820c-2159e7fe7584
 title: Error Handling in Shadow Copy Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling in Shadow Copy Providers
 
-VSS allows many shadow copies to exist at once, but it only allows one shadow copy set creation to be in-progress between the call to [**IVssBackupComponents::StartSnapshotSet**](ivssbackupcomponents-startsnapshotset.md) and the return from the call to [**IVssBackupComponents::DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md).
+VSS allows many shadow copies to exist at once, but it only allows one shadow copy set creation to be in-progress between the call to [**IVssBackupComponents::StartSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset?branch=master) and the return from the call to [**IVssBackupComponents::DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master).
 
 ## No Partial Commit
 
@@ -43,7 +48,7 @@ The following table lists the valid return codes for provider methods and their 
 
 The provider should not attempt to return any other error codes.
 
-If the provider returns an error code that is not expected (for example **S\_FALSE**, **E\_FAIL**, **E\_UNEXPECTED**, or **E\_ABORT**), VSS writes an event into the event log mentioning the provider and failed method and translates the error to **VSS\_E\_UNEXPECTED\_PROVIDER\_ERROR** before returning to the requester. This is not done for any returns from [**IVssProviderCreateSnapshotSet::AbortSnapshots**](ivssprovidercreatesnapshotset-abortsnapshots.md) or [**IVssProviderNotifications::OnUnload**](ivssprovidernotifications-onunload.md).
+If the provider returns an error code that is not expected (for example **S\_FALSE**, **E\_FAIL**, **E\_UNEXPECTED**, or **E\_ABORT**), VSS writes an event into the event log mentioning the provider and failed method and translates the error to **VSS\_E\_UNEXPECTED\_PROVIDER\_ERROR** before returning to the requester. This is not done for any returns from [**IVssProviderCreateSnapshotSet::AbortSnapshots**](/windows/win32/VsProv/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots?branch=master) or [**IVssProviderNotifications::OnUnload**](/windows/win32/VsProv/nf-vsprov-ivssprovidernotifications-onunload?branch=master).
 
  
 

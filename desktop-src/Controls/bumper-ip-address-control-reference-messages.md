@@ -1,7 +1,12 @@
 ---
 title: IP Address Messages
 description: .
-ms.assetid: '1b9d0330-0870-4686-bacb-962716612d87'
+ms.assetid: 1b9d0330-0870-4686-bacb-962716612d87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP Address Messages

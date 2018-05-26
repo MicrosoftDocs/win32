@@ -1,8 +1,25 @@
 ---
 title: Library Files, Header Files, and Compiler Settings
 description: Library Files, Header Files, and Compiler Settings
-ms.assetid: '7563bb3a-7bea-4e0c-8205-a16b276c8d1e'
-keywords: ["Windows Media Format SDK,DRM library files", "Windows Media Format SDK,library files", "Windows Media Format SDK,DRM header files", "Windows Media Format SDK,header files", "Windows Media Format SDK,DRM compiler settings", "Windows Media Format SDK,compiler settings", "digital rights management (DRM),library files", "DRM (digital rights management),library files", "digital rights management (DRM),header files", "DRM (digital rights management),header files", "digital rights management (DRM),compiler settings", "DRM (digital rights management),compiler settings"]
+ms.assetid: 7563bb3a-7bea-4e0c-8205-a16b276c8d1e
+keywords:
+- Windows Media Format SDK,DRM library files
+- Windows Media Format SDK,library files
+- Windows Media Format SDK,DRM header files
+- Windows Media Format SDK,header files
+- Windows Media Format SDK,DRM compiler settings
+- Windows Media Format SDK,compiler settings
+- digital rights management (DRM),library files
+- DRM (digital rights management),library files
+- digital rights management (DRM),header files
+- DRM (digital rights management),header files
+- digital rights management (DRM),compiler settings
+- DRM (digital rights management),compiler settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Library Files, Header Files, and Compiler Settings

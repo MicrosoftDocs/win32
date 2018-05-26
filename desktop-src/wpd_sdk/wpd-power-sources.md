@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_POWER\_SOURCES enumeration type describes the power source that a device is using.'
-ms.assetid: 'feebf213-052d-4315-84db-2109cab5f179'
-title: 'WPD\_POWER\_SOURCES enumeration'
+Description: The WPD\_POWER\_SOURCES enumeration type describes the power source that a device is using.
+ms.assetid: feebf213-052d-4315-84db-2109cab5f179
+title: WPD\_POWER\_SOURCES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_POWER\_SOURCES enumeration
@@ -13,8 +18,8 @@ The **WPD\_POWER\_SOURCES** enumeration type describes the power source that a d
 
 ```C++
 typedef enum WPD_POWER_SOURCES { 
-  WPD_POWER_SOURCE_BATTERY   = 0,
-  WPD_POWER_SOURCE_EXTERNAL  = 1
+  WPD_POWER_SOURCE_BATTERY   = 0,
+  WPD_POWER_SOURCE_EXTERNAL  = 1
 } ;
 ```
 
@@ -59,9 +64,9 @@ This enumeration is used by the [WPD\_DEVICE\_POWER\_SOURCE](device-properties.m
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

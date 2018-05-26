@@ -1,8 +1,19 @@
 ---
 title: Querying and Setting the Tempo
 description: Querying and Setting the Tempo
-ms.assetid: '84eba230-88b6-4cba-9e90-ba0b4bcfc691'
-keywords: ["Musical Instrument Digital Interface (MIDI),tempo", "MIDI (Musical Instrument Digital Interface),tempo", "MCI MIDI sequencer,tempo", "MCI_STATUS command", "sequence tempo", "tempo"]
+ms.assetid: 84eba230-88b6-4cba-9e90-ba0b4bcfc691
+keywords:
+- Musical Instrument Digital Interface (MIDI),tempo
+- MIDI (Musical Instrument Digital Interface),tempo
+- MCI MIDI sequencer,tempo
+- MCI_STATUS command
+- sequence tempo
+- tempo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying and Setting the Tempo

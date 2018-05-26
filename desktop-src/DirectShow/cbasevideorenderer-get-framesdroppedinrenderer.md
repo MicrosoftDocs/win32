@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.'
-ms.assetid: 'd890f285-b3bb-426c-80f6-e273cf0cccbb'
-title: 'CBaseVideoRenderer.get\_FramesDroppedInRenderer method'
+Description: The get\_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
+ms.assetid: d890f285-b3bb-426c-80f6-e273cf0cccbb
+title: CBaseVideoRenderer.get\_FramesDroppedInRenderer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.get\_FramesDroppedInRenderer method
@@ -13,7 +18,7 @@ The `get_FramesDroppedInRenderer` method retrieves the number of frames dropped 
 
 ```C++
 HRESULT get_FramesDroppedInRenderer(
-   int *pcFramesDropped
+   int *pcFramesDropped
 );
 ```
 
@@ -36,7 +41,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IQualProp::get\_FramesDroppedInRenderer**](iqualprop-get-framesdroppedinrenderer.md) method. This is how the property page retrieves the data from the scheduler. Frames can also be dropped upstream without the renderer even seeing them.
+This member function implements the [**IQualProp::get\_FramesDroppedInRenderer**](/windows/win32/Amvideo/nf-amvideo-iqualprop-get_framesdroppedinrenderer?branch=master) method. This is how the property page retrieves the data from the scheduler. Frames can also be dropped upstream without the renderer even seeing them.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IQualProp::get\_FramesDroppedInRenderer**
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

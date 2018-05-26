@@ -1,7 +1,12 @@
 ---
-Description: 'One way to get a device context handle for a printer is to display a print dialog box and allow the user to choose a printer.'
-ms.assetid: '73a74186-c916-4ad9-b768-6bc887fd5231'
+Description: One way to get a device context handle for a printer is to display a print dialog box and allow the user to choose a printer.
+ms.assetid: 73a74186-c916-4ad9-b768-6bc887fd5231
 title: Displaying a Print Dialog Box
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying a Print Dialog Box

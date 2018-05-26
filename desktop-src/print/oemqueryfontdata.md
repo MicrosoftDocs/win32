@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMQueryFontData function retrieves information about a realized font.'
-ms.assetid: 'dccf1bca-6ea5-4cf0-b768-b569898c90e7'
+---
+Description: The OEMQueryFontData function retrieves information about a realized font.
+ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
 title: OEMQueryFontData function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMQueryFontData function

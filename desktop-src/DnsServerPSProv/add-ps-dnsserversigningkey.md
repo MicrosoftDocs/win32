@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerSigningKey class
 description: Adds a KSK or ZSK to the input zone.
 audience: developer
-ms.assetid: '4c72a317-31aa-4833-9328-532c082141c6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4c72a317-31aa-4833-9328-532c082141c6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerSigningKey class", "PS_DnsServerSigningKey class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerSigningKey class
+- PS_DnsServerSigningKey class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerSigningKey class
@@ -28,23 +34,23 @@ Adds a KSK or ZSK to the input zone.
 
 ```mof
 uint32 Add(
-  [in]  string              ZoneName,
-  [in]  string              Type,
-  [in]  string              CryptoAlgorithm,
-  [in]  string              ComputerName,
-  [in]  uint32              KeyLength,
-  [in]  datetime            InitialRolloverOffset,
-  [in]  datetime            DnsKeySignatureValidityPeriod,
-  [in]  datetime            DSSignatureValidityPeriod,
-  [in]  datetime            ZoneSignatureValidityPeriod,
-  [in]  datetime            RolloverPeriod,
-  [in]  string              ActiveKey,
-  [in]  string              StandbyKey,
-  [in]  string              NextKey,
-  [in]  string              KeyStorageProvider,
-  [in]  boolean             StoreKeysInAD,
-  [in]  boolean             PassThru,
-  [out] DnsServerSigningKey cmdletOutput
+  [in]  string              ZoneName,
+  [in]  string              Type,
+  [in]  string              CryptoAlgorithm,
+  [in]  string              ComputerName,
+  [in]  uint32              KeyLength,
+  [in]  datetime            InitialRolloverOffset,
+  [in]  datetime            DnsKeySignatureValidityPeriod,
+  [in]  datetime            DSSignatureValidityPeriod,
+  [in]  datetime            ZoneSignatureValidityPeriod,
+  [in]  datetime            RolloverPeriod,
+  [in]  string              ActiveKey,
+  [in]  string              StandbyKey,
+  [in]  string              NextKey,
+  [in]  string              KeyStorageProvider,
+  [in]  boolean             StoreKeysInAD,
+  [in]  boolean             PassThru,
+  [out] DnsServerSigningKey cmdletOutput
 );
 ```
 
@@ -180,7 +186,7 @@ Receives and embedded instance of the [**DnsServerSigningKey**](dnsserversigning
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -194,9 +200,9 @@ Receives and embedded instance of the [**DnsServerSigningKey**](dnsserversigning
 [**PS\_DnsServerSigningKey**](ps-dnsserversigningkey.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

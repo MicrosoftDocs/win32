@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides data for a VectorChanged event.'
-ms.assetid: '635c0f96-5d64-436e-9186-78f9d85b6d29'
+---
+Description: Provides data for a VectorChanged event.
+ms.assetid: 635c0f96-5d64-436e-9186-78f9d85b6d29
 title: IVectorChangedEventArgs interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVectorChangedEventArgs interface

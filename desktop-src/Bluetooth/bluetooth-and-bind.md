@@ -1,13 +1,22 @@
 ---
 title: Bluetooth and bind
 description: Bluetooth uses the bind function to bind to a socket.
-ms.assetid: '308d2680-de51-49e6-a0da-7aba494d9572'
-keywords: ["bind", "Bluetooth", "Bluetooth", "Bluetooth and bind"]
+ms.assetid: 308d2680-de51-49e6-a0da-7aba494d9572
+keywords:
+- bind
+- Bluetooth
+- Bluetooth
+- Bluetooth and bind
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and bind
 
-Bluetooth uses the [**bind**](https://msdn.microsoft.com/library/windows/desktop/ms737550) function to bind to a socket. To bind a Bluetooth socket, call the **bind** function using the [**SOCKADDR\_BTH**](sockaddr-bth.md) structure. Use the **SOCKADDR\_BTH** structure with the following settings:
+Bluetooth uses the [**bind**](https://msdn.microsoft.com/library/windows/desktop/ms737550) function to bind to a socket. To bind a Bluetooth socket, call the **bind** function using the [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure. Use the **SOCKADDR\_BTH** structure with the following settings:
 
 ``` syntax
 name.addressFamily = AF_BTH;

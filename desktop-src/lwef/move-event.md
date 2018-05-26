@@ -1,7 +1,12 @@
 ---
 title: Move Event
 description: Move Event
-ms.assetid: '973e9e68-edbb-4741-b50e-57db96712df8'
+ms.assetid: 973e9e68-edbb-4741-b50e-57db96712df8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Move Event
@@ -33,7 +38,7 @@ Occurs when a character is moved.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,9 +50,9 @@ This event occurs when the user or an application changes the character's positi
 
 [**MoveCause property**](movecause-property.md), [**Size event**](size-event.md)
 
- 
+ 
 
- 
+ 
 
 
 

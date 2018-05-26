@@ -1,12 +1,17 @@
 ---
-Description: 'Contains the new classes for Windows 10, version 1703.'
-ms.assetid: '33F993F0-2B20-49F7-9DAC-1D682633420C'
+Description: Contains the new classes for Windows 10, version 1703.
+ms.assetid: 33F993F0-2B20-49F7-9DAC-1D682633420C
 title: Redstone Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Redstone Classes
 
-Contains the new classes for Windows 10, version 1703.
+Contains the new classes for Windows 10, version 1703.
 
 ## In this section
 
@@ -38,11 +43,11 @@ Contains the new classes for Windows 10, version 1703.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

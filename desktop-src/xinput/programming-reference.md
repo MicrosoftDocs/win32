@@ -1,7 +1,12 @@
 ---
 title: Programming Reference
 description: XInput functions and structures.
-ms.assetid: 'a534a4eb-b263-761c-7e8f-4078282ef4bb'
+ms.assetid: a534a4eb-b263-761c-7e8f-4078282ef4bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Reference

@@ -1,8 +1,11 @@
 ---
 title: IDWriteTextLayout GetOverhangMetrics method
 description: Returns the overhangs (in DIPs) of the layout and all objects contained in it, including text glyphs and inline objects.
-ms.assetid: '4b23f6c5-cacc-41e2-8934-6f95208b999a'
-keywords: ["GetOverhangMetrics method Direct Write", "GetOverhangMetrics method Direct Write , IDWriteTextLayout interface", "IDWriteTextLayout interface Direct Write , GetOverhangMetrics method"]
+ms.assetid: 4b23f6c5-cacc-41e2-8934-6f95208b999a
+keywords:
+- GetOverhangMetrics method Direct Write
+- GetOverhangMetrics method Direct Write , IDWriteTextLayout interface
+- IDWriteTextLayout interface Direct Write , GetOverhangMetrics method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteTextLayout::GetOverhangMetrics method
@@ -22,7 +30,7 @@ Returns the overhangs (in DIPs) of the layout and all objects contained in it, i
 
 ```C++
 virtual HRESULT GetOverhangMetrics(
-  [out] DWRITE_OVERHANG_METRICS *overhangs
+  [out] DWRITE_OVERHANG_METRICS *overhangs
 ) = 0;
 ```
 
@@ -35,7 +43,7 @@ virtual HRESULT GetOverhangMetrics(
 *overhangs* \[out\]
 </dt> <dd>
 
-Type: **[**DWRITE\_OVERHANG\_METRICS**](dwrite-overhang-metrics.md)\***
+Type: **[**DWRITE\_OVERHANG\_METRICS**](/windows/win32/dwrite/ns-dwrite-dwrite_overhang_metrics?branch=master)\***
 
 Overshoots of visible extents (in DIPs) outside the layout.
 
@@ -66,15 +74,15 @@ Underlines and strikethroughs do not contribute to the black box determination, 
 
 <dl> <dt>
 
-[**IDWriteTextLayout**](idwritetextlayout.md)
+[**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master)
 </dt> <dt>
 
 [**IDWriteTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd316718)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

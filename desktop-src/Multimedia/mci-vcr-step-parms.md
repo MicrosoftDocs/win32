@@ -1,8 +1,9 @@
 ---
 title: MCI\_VCR\_STEP\_PARMS structure
 description: The MCI\_VCR\_STEP\_PARMS structure contains parameters for the MCI\_STEP command for video-cassette recorders.
-ms.assetid: '57751de6-d174-418f-8167-402d3ead4e24'
-keywords: ["MCI_VCR_STEP_PARMS structure Windows Multimedia"]
+ms.assetid: 57751de6-d174-418f-8167-402d3ead4e24
+keywords:
+- MCI_VCR_STEP_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_VCR\_STEP\_PARMS structure
@@ -23,7 +29,7 @@ The **MCI\_VCR\_STEP\_PARMS** structure contains parameters for the [**MCI\_STEP
 ```C++
 typedef struct tagMCI_VCR_STEP_PARMS {
   DWORD_PTR dwCallback;
-  DWORD     dwFrames;
+  DWORD     dwFrames;
 } MCI_VCR_STEP_PARMS;
 ```
 
@@ -49,7 +55,7 @@ Number of frames to jump (the length of a single step) as the [**MCI\_STEP**](mc
 
 ## Remarks
 
-When assigning data to the members in this structure, set the corresponding flags in the *fdwCommand* parameter of [**mciSendCommand**](mcisendcommand.md) to validate the members.
+When assigning data to the members in this structure, set the corresponding flags in the *fdwCommand* parameter of [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) to validate the members.
 
 ## Requirements
 
@@ -57,8 +63,8 @@ When assigning data to the members in this structure, set the corresponding flag
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vcr.h</dt> </dl> |
 
 
@@ -76,12 +82,12 @@ When assigning data to the members in this structure, set the corresponding flag
 [**MCI\_STEP**](mci-step.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Listen Method
 description: Listen Method
-ms.assetid: 'ceb3b62f-2a33-4a13-b608-4cfa800be38a'
+ms.assetid: ceb3b62f-2a33-4a13-b608-4cfa800be38a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listen Method
@@ -30,7 +35,7 @@ Turns on Listening mode (speech recognition) for a timed period.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -38,7 +43,7 @@ Turns on Listening mode (speech recognition) for a timed period.
 
 Setting this method to **True** enables Listening mode (turns on speech recognition) for a fixed period of time (10 seconds). While you cannot set the value of the time-out, you can turn off Listening mode before the time-out expires. If you (or another client) successfully set Listening mode on and you attempt to set this property to **True** before the time-out expires, the method succeeds and resets the time-out. However, if the Listening mode is on because the user is pressing the Listening key, the method succeeds, but the time-out is ignored and the Listening mode ends based on the user's interaction with the Listening key.
 
-This method succeeds only when called by the input-active client and if speech services have been started. To ensure that speech services have been started, query or set the [**SRModeID**](srmodeid-property.md) or set the [**Voice**](voice-property.md) setting for a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) before you call **Listen**—otherwise the method will fail. To detect the success of this method, call it as a function and it will return a Boolean value indicating whether the method succeeded.
+This method succeeds only when called by the input-active client and if speech services have been started. To ensure that speech services have been started, query or set the [**SRModeID**](srmodeid-property.md) or set the [**Voice**](voice-property.md) setting for a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) before you call **Listen** otherwise the method will fail. To detect the success of this method, call it as a function and it will return a Boolean value indicating whether the method succeeded.
 
 
 ```
@@ -66,9 +71,9 @@ This method does not automatically call [**Stop**](stop-method.md) and play a Li
 [**LanguageID property**](languageid-property.md), [**ListenComplete event**](listencomplete-event.md), [**ListenStart event**](listenstart-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

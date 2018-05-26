@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNPPAddressFilterFromBlob function fills in the given address filter with information stored in the BLOB.'
-ms.assetid: 'b34e0e52-1b2a-4d61-b60c-f1b19ff8ff38'
+Description: The GetNPPAddressFilterFromBlob function fills in the given address filter with information stored in the BLOB.
+ms.assetid: b34e0e52-1b2a-4d61-b60c-f1b19ff8ff38
 title: GetNPPAddressFilterFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNPPAddressFilterFromBlob function
@@ -13,9 +18,9 @@ The **GetNPPAddressFilterFromBlob** function fills in the given address filter w
 
 ```C++
 DWORD GetNPPAddressFilterFromBlob(
-  _In_    HBLOB          hBlob,
-  _Inout_ LPADDRESSTABLE pAddressTable,
-  _Out_   HBLOB          hErrorBlob
+  _In_    HBLOB          hBlob,
+  _Inout_ LPADDRESSTABLE pAddressTable,
+  _Out_   HBLOB          hErrorBlob
 );
 ```
 
@@ -62,8 +67,8 @@ The address information is stored in the **Config** section of the BLOB NPP **Ow
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -104,9 +109,9 @@ The address information is stored in the **Config** section of the BLOB NPP **Ow
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

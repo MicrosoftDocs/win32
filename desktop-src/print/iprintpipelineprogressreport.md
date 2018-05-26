@@ -1,7 +1,12 @@
-﻿---
-Description: 'A rendering filter uses the IPrintPipelineProgressReport interface to send progress status to a spooler.'
-ms.assetid: '7a2644af-fdfe-4481-8c44-c40244b8a00e'
+---
+Description: A rendering filter uses the IPrintPipelineProgressReport interface to send progress status to a spooler.
+ms.assetid: 7a2644af-fdfe-4481-8c44-c40244b8a00e
 title: IPrintPipelineProgressReport interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineProgressReport interface

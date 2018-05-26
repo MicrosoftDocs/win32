@@ -1,7 +1,12 @@
 ---
 title: Font Parameter
 description: Use the Font parameter to specify font attributes for the Text or Button parameter.
-ms.assetid: 'FB5ECFF5-FE8E-40e1-A1A0-8B8F0A3D6E39'
+ms.assetid: FB5ECFF5-FE8E-40e1-A1A0-8B8F0A3D6E39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font Parameter
@@ -29,7 +34,7 @@ Use the **Font** parameter to specify font attributes for the [Text](text-parame
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +43,9 @@ Use the **Font** parameter to specify font attributes for the [Text](text-parame
 [About Parameters](parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

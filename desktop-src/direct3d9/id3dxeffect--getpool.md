@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to the pool of shared parameters.'
-ms.assetid: '1e999fd5-76ef-43fa-8a77-ae6f2821f46d'
-title: 'ID3DXEffect::GetPool method'
+---
+Description: Gets a pointer to the pool of shared parameters.
+ms.assetid: 1e999fd5-76ef-43fa-8a77-ae6f2821f46d
+title: ID3DXEffectGetPool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::GetPool method

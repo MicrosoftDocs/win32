@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the setting data associated with a virtual hard disk file.'
-ms.assetid: 'b82c018e-8d23-4615-99c1-3b622a8f41da'
-title: 'GetVirtualHardDiskSettingData method of the Msvm\_ImageManagementService class'
+Description: Retrieves the setting data associated with a virtual hard disk file.
+ms.assetid: b82c018e-8d23-4615-99c1-3b622a8f41da
+title: GetVirtualHardDiskSettingData method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVirtualHardDiskSettingData method of the Msvm\_ImageManagementService class
@@ -13,9 +18,9 @@ Retrieves the setting data associated with a virtual hard disk file.
 
 ```mof
 uint32 GetVirtualHardDiskSettingData(
-  [in]  string              Path,
-  [out] string              SettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [out] string              SettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -144,8 +149,8 @@ public static void GetVirtualHardDiskSettingData(string vhdPath)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -159,9 +164,9 @@ public static void GetVirtualHardDiskSettingData(string vhdPath)
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

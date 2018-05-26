@@ -1,8 +1,11 @@
 ---
 title: CreateVirtualSystemSnapshot method of the Msvm\_VirtualSystemManagementService class
 description: Creates a snapshot of a virtual computer system that is in the \ 0034;Enabled \ 0034;, \ 0034;Disabled \ 0034;, or \ 0034;Suspended \ 0034; state.
-ms.assetid: 'aeb8a0a0-fed8-4a15-b752-f70997fb05ea'
-keywords: ["CreateVirtualSystemSnapshot method Hyper-V", "CreateVirtualSystemSnapshot method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , CreateVirtualSystemSnapshot method"]
+ms.assetid: aeb8a0a0-fed8-4a15-b752-f70997fb05ea
+keywords:
+- CreateVirtualSystemSnapshot method Hyper-V
+- CreateVirtualSystemSnapshot method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , CreateVirtualSystemSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVirtualSystemSnapshot method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Creates a snapshot of a virtual computer system that is in the "Enabled", "Disab
 
 ```mof
 uint32 CreateVirtualSystemSnapshot(
-  [in]  CIM_ComputerSystem           REF SourceSystem,
-  [out] CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_ComputerSystem           REF SourceSystem,
+  [out] CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -119,7 +127,7 @@ The following C# sample creates a snapshot. The referenced utilities can be foun
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -189,7 +197,7 @@ The following VBScript sample creates a snapshot.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -347,9 +355,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -365,9 +373,9 @@ End Function
 [**CreateSnapshot (V2)**](https://msdn.microsoft.com/library/windows/desktop/hh850037)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

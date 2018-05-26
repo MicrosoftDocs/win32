@@ -1,7 +1,12 @@
 ---
 title: Register the device interface as restricted to privileged apps
 description: This topic shows how to add the Restricted property that indicates that only privileged apps can access a device interface class.
-ms.assetid: 'BCEB1FBF-3D3F-45B8-A92B-7C5FBF6745C0'
+ms.assetid: BCEB1FBF-3D3F-45B8-A92B-7C5FBF6745C0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register the device interface as restricted to privileged apps

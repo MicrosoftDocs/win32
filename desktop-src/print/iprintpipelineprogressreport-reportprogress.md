@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager.'
-ms.assetid: '989e8888-3494-4355-a41f-2ed774a060d2'
-title: 'IPrintPipelineProgressReport::ReportProgress method'
+---
+Description: The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager.
+ms.assetid: 989e8888-3494-4355-a41f-2ed774a060d2
+title: IPrintPipelineProgressReportReportProgress method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineProgressReport::ReportProgress method

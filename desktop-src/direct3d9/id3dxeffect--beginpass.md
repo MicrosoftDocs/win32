@@ -1,7 +1,12 @@
-﻿---
-Description: 'Begins a pass, within the active technique.'
-ms.assetid: 'fbb2bf1c-e37a-4117-8c3c-5f5b6a267301'
-title: 'ID3DXEffect::BeginPass method'
+---
+Description: Begins a pass, within the active technique.
+ms.assetid: fbb2bf1c-e37a-4117-8c3c-5f5b6a267301
+title: ID3DXEffectBeginPass method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::BeginPass method

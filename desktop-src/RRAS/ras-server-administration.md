@@ -1,8 +1,15 @@
 ---
 title: RAS Server Administration
 description: Windows NT Server 4.0 provides a set of functions for administering user permissions and ports on Windows NT/Windows 2000 RAS servers.
-ms.assetid: '0b517c4d-dcae-477b-b274-c3773bd172ef'
-keywords: ["Server Administration, RAS", "Administration, RAS Server"]
+ms.assetid: 0b517c4d-dcae-477b-b274-c3773bd172ef
+keywords:
+- Server Administration, RAS
+- Administration, RAS Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS Server Administration

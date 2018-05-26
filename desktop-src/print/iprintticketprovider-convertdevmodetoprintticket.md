@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintTicketProvider::ConvertDevModeToPrintTicket method converts a DEVMODEW structure into a print ticket.'
-ms.assetid: '853258c4-24fe-4ca4-92bc-bc84366476ac'
-title: 'IPrintTicketProvider::ConvertDevModeToPrintTicket method'
+---
+Description: The IPrintTicketProviderConvertDevModeToPrintTicket method converts a DEVMODEW structure into a print ticket.
+ms.assetid: 853258c4-24fe-4ca4-92bc-bc84366476ac
+title: IPrintTicketProviderConvertDevModeToPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintTicketProvider::ConvertDevModeToPrintTicket method

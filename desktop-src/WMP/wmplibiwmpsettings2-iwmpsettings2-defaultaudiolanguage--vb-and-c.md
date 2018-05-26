@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings2 defaultAudioLanguage property
 description: The defaultAudioLanguage property gets the locale identifier (LCID) of the default audio language specified in Windows Media Player.
-ms.assetid: '4b7c9639-9d9f-4ed7-bb70-12cc608dd57a'
-keywords: ["defaultAudioLanguage property Windows Media Player", "defaultAudioLanguage property Windows Media Player , IWMPSettings2 interface", "IWMPSettings2 interface Windows Media Player , defaultAudioLanguage property"]
+ms.assetid: 4b7c9639-9d9f-4ed7-bb70-12cc608dd57a
+keywords:
+- defaultAudioLanguage property Windows Media Player
+- defaultAudioLanguage property Windows Media Player , IWMPSettings2 interface
+- IWMPSettings2 interface Windows Media Player , defaultAudioLanguage property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings2::defaultAudioLanguage property
@@ -80,9 +88,9 @@ An LCID uniquely identifies a particular language dialect, called a locale.
 [**IWMPSettings2 Interface (VB and C#)**](iwmpsettings2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

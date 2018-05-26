@@ -1,7 +1,12 @@
 ---
 Description: Playlist Sample
-ms.assetid: 'ffe663ce-3e9a-4dfc-8904-6f055332c119'
+ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: Playlist Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist Sample
@@ -17,9 +22,9 @@ Shows how to use Microsoft Media Foundation to play a sequence of audio files in
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md)
--   [**IMFMediaSession**](imfmediasession.md)
--   [**IMFSequencerSource**](imfsequencersource.md)
+-   [**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master)
+-   [**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master)
+-   [**IMFSequencerSource**](/windows/win32/mfidl/nn-mfidl-imfsequencersource?branch=master)
 
 ## Usage
 

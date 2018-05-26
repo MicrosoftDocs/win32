@@ -1,14 +1,19 @@
 ---
-Description: 'How to add or remove persistent drive letter assignments. These drive letter assignments persist through system shutdown.'
-ms.assetid: '17a6df9d-07df-42f7-89c9-72a1d02141f6'
+Description: How to add or remove persistent drive letter assignments. These drive letter assignments persist through system shutdown.
+ms.assetid: 17a6df9d-07df-42f7-89c9-72a1d02141f6
 title: Editing Drive Letter Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Editing Drive Letter Assignments
 
 The code example in this topic shows you how to add or remove persistent drive letter assignments. These drive letter assignments persist through system shutdown. For more information, see [Assigning a Drive Letter to a Volume](assigning-a-drive-letter-to-a-volume.md).
 
-The code example uses the following functions: [**DefineDosDevice**](definedosdevice.md), [**DeleteVolumeMountPoint**](deletevolumemountpoint.md), [**GetVolumeNameForVolumeMountPoint**](getvolumenameforvolumemountpoint.md), and [**SetVolumeMountPoint**](setvolumemountpoint.md).
+The code example uses the following functions: [**DefineDosDevice**](/windows/win32/FileAPI/nf-fileapi-definedosdevicew?branch=master), [**DeleteVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-deletevolumemountpointw?branch=master), [**GetVolumeNameForVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw?branch=master), and [**SetVolumeMountPoint**](/windows/win32/WinBase/nf-winbase-setvolumemountpointa?branch=master).
 
 
 ```C++

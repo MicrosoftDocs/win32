@@ -1,7 +1,12 @@
 ---
 title: Operators
 description: Expressions are sequences of variables and literals punctuated by operators.
-ms.assetid: 'c31aa0b8-1284-48aa-b000-d72433f0f5cc'
+ms.assetid: c31aa0b8-1284-48aa-b000-d72433f0f5cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators

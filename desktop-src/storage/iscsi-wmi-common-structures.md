@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Common Structures
 description: iSCSI WMI Common Structures
-ms.assetid: '5a28cf26-dfd0-470c-803b-0747f8bba202'
+ms.assetid: 5a28cf26-dfd0-470c-803b-0747f8bba202
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Common Structures

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ShortcutTarget property of the Installer object examines a shortcut and returns its product, feature name, and component if available.'
-ms.assetid: 'fd7a1d34-3013-4419-af92-0a0162c93494'
-title: 'Installer.ShortcutTarget property'
+---
+Description: The ShortcutTarget property of the Installer object examines a shortcut and returns its product, feature name, and component if available.
+ms.assetid: fd7a1d34-3013-4419-af92-0a0162c93494
+title: Installer.ShortcutTarget property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ShortcutTarget property
@@ -47,10 +52,10 @@ ShortcutTarget returns a [**Record object**](record-object.md) that contains thr
 
 <dl> <dt>
 
-[**MsiGetFeatureState**](msigetfeaturestate.md)
+[**MsiGetFeatureState**](/windows/win32/Msiquery/nf-msiquery-msigetfeaturestatea?branch=master)
 </dt> <dt>
 
-[**MsiGetComponentState**](msigetcomponentstate.md)
+[**MsiGetComponentState**](/windows/win32/Msiquery/nf-msiquery-msigetcomponentstatea?branch=master)
 </dt> </dl>
 
  

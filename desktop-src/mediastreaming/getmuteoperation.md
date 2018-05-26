@@ -1,14 +1,21 @@
 ---
 title: GetMuteOperation class
 description: Registers an event handler that is invoked when the asynchronous operation started by GetMuteAsync completes, and provides a method that returns the results of the operation.
-ms.assetid: '691D4936-604A-496F-B62E-FB36B406F0DD'
-keywords: ["GetMuteOperation class Media Streaming API", "GetMuteOperation class Media Streaming API , described"]
+ms.assetid: 691D4936-604A-496F-B62E-FB36B406F0DD
+keywords:
+- GetMuteOperation class Media Streaming API
+- GetMuteOperation class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - GetMuteOperation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetMuteOperation class
@@ -32,7 +39,7 @@ The **GetMuteOperation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -46,11 +53,11 @@ The **GetMuteOperation** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

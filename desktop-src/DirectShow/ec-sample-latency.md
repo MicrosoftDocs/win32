@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies how far behind schedule a component is for processing samples.'
-ms.assetid: '8bd202fb-3015-41a2-ad14-862f64cb252f'
-title: 'EC\_SAMPLE\_LATENCY'
+Description: Specifies how far behind schedule a component is for processing samples.
+ms.assetid: 8bd202fb-3015-41a2-ad14-862f64cb252f
+title: EC\_SAMPLE\_LATENCY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_SAMPLE\_LATENCY
@@ -34,7 +39,7 @@ None.
 
 A custom presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer-filter.md) (EVR) filter can send this message to the EVR, to notify the EVR whether the presenter is behind schedule or ahead of schedule.
 
-The simplest way to calculate *lParam1* is: *QPC now* – *QPC target*, where *QPC now* is the clock time now, and *QPC target* is the presentation time.
+The simplest way to calculate *lParam1* is: *QPC now*   *QPC target*, where *QPC now* is the clock time now, and *QPC target* is the presentation time.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ The simplest way to calculate *lParam1* is: *QPC now* – *QPC target*, where *QPC
 [How to Write an EVR Presenter](https://msdn.microsoft.com/library/windows/desktop/bb530107)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

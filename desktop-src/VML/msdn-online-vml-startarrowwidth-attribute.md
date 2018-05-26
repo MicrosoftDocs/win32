@@ -1,7 +1,12 @@
 ---
 title: VML StartArrowWidth Attribute
 description: VML StartArrowWidth Attribute
-ms.assetid: '47b55330-7165-4368-ad01-5b7b38a6e5b2'
+ms.assetid: 47b55330-7165-4368-ad01-5b7b38a6e5b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML StartArrowWidth Attribute

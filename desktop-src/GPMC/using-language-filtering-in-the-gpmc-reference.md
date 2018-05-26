@@ -4,10 +4,13 @@ description: You can use language filtering to selectively display the informati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '89adbbae-f523-44e7-9196-44cfe1f6808a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 89adbbae-f523-44e7-9196-44cfe1f6808a
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Language Filtering in the GPMC Reference

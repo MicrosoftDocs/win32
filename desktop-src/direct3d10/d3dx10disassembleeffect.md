@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated.'
-ms.assetid: '218ac120-33ce-44db-84a7-99fef3281f07'
+---
+Description: Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated.
+ms.assetid: 218ac120-33ce-44db-84a7-99fef3281f07
 title: D3DX10DisassembleEffect function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10DisassembleEffect function
@@ -33,9 +38,9 @@ HRESULT D3DX10DisassembleEffect(
 *pEffect* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Effect**](id3d10effect.md)\***
+Type: **[**ID3D10Effect**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effect?branch=master)\***
 
-A pointer to the effect interface (see [**ID3D10Effect Interface**](id3d10effect.md)).
+A pointer to the effect interface (see [**ID3D10Effect Interface**](/windows/win32/D3D10Effect/nn-d3d10effect-id3d10effect?branch=master)).
 
 </dd> <dt>
 
@@ -51,9 +56,9 @@ Include HTML tags in the output to color code the result.
 *ppDisassembly* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-Address of a buffer (see [**ID3D10Blob Interface**](id3d10blob.md)) which contains the disassembled effect.
+Address of a buffer (see [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)) which contains the disassembled effect.
 
 </dd> </dl>
 

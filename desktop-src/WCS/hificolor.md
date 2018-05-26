@@ -1,8 +1,14 @@
 ---
 title: HiFiCOLOR structure
 description: TBD.
-ms.assetid: '65ec2b42-f7a6-48e9-8feb-cb4a8a05d19d'
-keywords: ["HiFiCOLOR structure Windows Color System"]
+ms.assetid: 65ec2b42-f7a6-48e9-8feb-cb4a8a05d19d
+keywords:
+- HiFiCOLOR structure Windows Color System
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HiFiCOLOR structure
@@ -41,9 +47,9 @@ TBD
 
 
 
- 
+ 
 
- 
+ 
 
 
 

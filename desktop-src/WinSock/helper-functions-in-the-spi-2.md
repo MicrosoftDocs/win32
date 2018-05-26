@@ -1,14 +1,19 @@
-﻿---
+---
 Description: NSPGetServiceClassInfo
-ms.assetid: '6fbe9c0c-ac1f-4f2b-a542-eae2195b1335'
+ms.assetid: 6fbe9c0c-ac1f-4f2b-a542-eae2195b1335
 title: Helper Functions in the SPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Helper Functions in the SPI
 
--   [**NSPGetServiceClassInfo**](nspgetserviceclassinfo-2.md)
+-   [**NSPGetServiceClassInfo**](/windows/win32/Ws2spi/nc-ws2spi-lpnspgetserviceclassinfo?branch=master)
 
-The [**NSPGetServiceClassInfo**](nspgetserviceclassinfo-2.md) function retrieves service class schema information that has been retained by a namespace provider. It is also used by the Windows Sockets 2 DLL in its implementation of [**WSAGetServiceClassNameByClassId**](wsagetserviceclassnamebyclassid-2.md).
+The [**NSPGetServiceClassInfo**](/windows/win32/Ws2spi/nc-ws2spi-lpnspgetserviceclassinfo?branch=master) function retrieves service class schema information that has been retained by a namespace provider. It is also used by the Windows Sockets 2 DLL in its implementation of [**WSAGetServiceClassNameByClassId**](/windows/win32/Winsock2/nf-winsock2-wsagetserviceclassnamebyclassida?branch=master).
 
 The following macros defined in the *Svcguid.h* header file and can aid in mapping between well known service classes and these namespaces.
 

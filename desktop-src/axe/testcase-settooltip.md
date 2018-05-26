@@ -1,8 +1,11 @@
 ---
 title: TestCase SetToolTip method
 description: Sets the tooltip of the TestCase.
-ms.assetid: 'CE126280-9144-41B3-85C3-82A057A81E23'
-keywords: ["SetToolTip method Access Execution Engine", "SetToolTip method Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , SetToolTip method"]
+ms.assetid: CE126280-9144-41B3-85C3-82A057A81E23
+keywords:
+- SetToolTip method Access Execution Engine
+- SetToolTip method Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , SetToolTip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::SetToolTip method
@@ -22,7 +30,7 @@ Sets the tooltip of the **TestCase.**
 
 ```C++
 virtual HRESULT SetToolTip(
-  [in] LPCWSTR tooltip
+  [in] LPCWSTR tooltip
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The tooltip is the value of element **TestCase/ToolTip**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The tooltip is the value of element **TestCase/ToolTip**.
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

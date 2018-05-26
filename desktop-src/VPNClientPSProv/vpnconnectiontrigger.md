@@ -2,11 +2,13 @@
 title: VpnConnectionTrigger class
 description: The VpnConnectionTrigger class represents the auto-trigger properties of a VPN connection.
 audience: developer
-ms.assetid: '7BF92F5E-B6AD-451C-A881-CE81CA89EF1C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7BF92F5E-B6AD-451C-A881-CE81CA89EF1C
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnConnectionTrigger class", "VpnConnectionTrigger class, described"]
+keywords:
+- VpnConnectionTrigger class
+- VpnConnectionTrigger class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnConnectionTrigger class
@@ -34,11 +39,11 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [ClassVersion("1.0"), dynamic, provider("VpnClientPSProvider"), AMENDMENT]
 class VpnConnectionTrigger
 {
-  string                               ConnectionName;
-  string                               ApplicationID[];
+  string                               ConnectionName;
+  string                               ApplicationID[];
   VpnConnectionTriggerDnsConfiguration dnsConfig[];
-  string                               DnsSuffixSearchList[];
-  string                               TrustedNetwork[];
+  string                               DnsSuffixSearchList[];
+  string                               TrustedNetwork[];
 };
 ```
 
@@ -128,17 +133,17 @@ The trusted network DNS suffixes for the auto-triggered VPN connection.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

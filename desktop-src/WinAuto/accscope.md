@@ -1,7 +1,12 @@
 ---
 title: AccScope
-description: The AccScope tool enables developers and testers to evaluate the accessibility of their app during the app's development and design, rather than in the late testing phases of an app's development cycle.
-ms.assetid: '7C4D78CD-CDDA-8369-B747-6224C152A997'
+description: The AccScope tool enables developers and testers to evaluate the accessibility of their app during the apps development and design, rather than in the late testing phases of an apps development cycle.
+ms.assetid: 7C4D78CD-CDDA-8369-B747-6224C152A997
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AccScope
@@ -82,8 +87,8 @@ Note how this visualization represents the controls in the approximate coordinat
 
 In addition to the menu options described previously you also can use these techniques:
 
--   Click on any element's rectangle in either **Visual** or **List** visualizations to display a **UIA Properties** popup. This lists a number of the important UI Automation properties for that element including some of the standard [**IUIAutomationElement**](uiauto-iuiautomationelement.md) properties and other info such as ARIA values and a **Provider description**.
--   Right-click on any element's rectangle in either **Visual** or **List** visualizations to display a context menu for exercising the patterns that the element supports. For example, if an element supports [**InvokePattern**](uiauto-iuiautomationinvokepattern.md), the context menu includes an item for **Invoke**. Select that item and the appropriate pattern API is exercised in the corresponding app. AccScope supports this feature for the following patterns: **Invoke**, **ExpandCollapse**, **Toggle**, **SelectionItem**, **ScrollItem**.
+-   Click on any element's rectangle in either **Visual** or **List** visualizations to display a **UIA Properties** popup. This lists a number of the important UI Automation properties for that element including some of the standard [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) properties and other info such as ARIA values and a **Provider description**.
+-   Right-click on any element's rectangle in either **Visual** or **List** visualizations to display a context menu for exercising the patterns that the element supports. For example, if an element supports [**InvokePattern**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationinvokepattern?branch=master), the context menu includes an item for **Invoke**. Select that item and the appropriate pattern API is exercised in the corresponding app. AccScope supports this feature for the following patterns: **Invoke**, **ExpandCollapse**, **Toggle**, **SelectionItem**, **ScrollItem**.
 -   Adjust the **Transparency** slider to change the opacity/transparency of the AccScope window. By default it's shown as 100% opacity. Making the window partly transparent can be useful for seeing the parts of the target window through the AccScope UI while using the **Always On Top** mode.
 -   If they're shown, use the horizontal and vertical scrollbars to change the view center of the visualization. This is useful if you're using the **Visual** layout option but not using the **Full Screen** view option, while leaving the AccScope window small in comparison to the target window.
 

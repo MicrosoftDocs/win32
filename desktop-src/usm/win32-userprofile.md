@@ -1,8 +1,10 @@
 ---
 title: Win32\_UserProfile class
 description: Represents a user profile.
-ms.assetid: 'b073a403-9850-4a4d-ba64-320cad5d8fed'
-keywords: ["Win32_UserProfile class User State Manageability API", "Win32_UserProfile class User State Manageability API , described"]
+ms.assetid: b073a403-9850-4a4d-ba64-320cad5d8fed
+keywords:
+- Win32_UserProfile class User State Manageability API
+- Win32_UserProfile class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_UserProfile class
@@ -53,22 +60,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_UserProfile
 {
-  string                        SID;
-  string                        LocalPath;
-  boolean                       Loaded;
-  uint32                        RefCount;
-  boolean                       Special;
-  boolean                       RoamingConfigured;
-  string                        RoamingPath;
-  boolean                       RoamingPreference;
-  uint32                        Status;
-  DATETIME                      LastUseTime;
-  DATETIME                      LastDownloadTime;
-  DATETIME                      LastUploadTime;
-  uint8                         HealthStatus;
-  DATETIME                      LastAttempedProfileDownloadTime;
-  DATETIME                      LastAttemptedProfileUploadTime;
-  DATETIME                      LastBackgroundRegistryUploadTime;
+  string                        SID;
+  string                        LocalPath;
+  boolean                       Loaded;
+  uint32                        RefCount;
+  boolean                       Special;
+  boolean                       RoamingConfigured;
+  string                        RoamingPath;
+  boolean                       RoamingPreference;
+  uint32                        Status;
+  DATETIME                      LastUseTime;
+  DATETIME                      LastDownloadTime;
+  DATETIME                      LastUploadTime;
+  uint8                         HealthStatus;
+  DATETIME                      LastAttempedProfileDownloadTime;
+  DATETIME                      LastAttemptedProfileUploadTime;
+  DATETIME                      LastBackgroundRegistryUploadTime;
   Win32_FolderRedirectionHealth AppDataRoaming;
   Win32_FolderRedirectionHealth Desktop;
   Win32_FolderRedirectionHealth StartMenu;
@@ -104,7 +111,7 @@ The **Win32\_UserProfile** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -380,7 +387,7 @@ If **true**, a roaming profile is configured for the user.
 > [!Note]  
 > Even if a roaming profile is configured for the user, that doesn't necessarily mean that this user profile is a roaming profile. Policies and user preferences can prevent the profile from roaming. These are indicated in the **RoamingPreference** and **Status** properties.
 
- 
+ 
 
 </dd> <dt>
 
@@ -504,7 +511,7 @@ The status of the user profile. One or more of the following status values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -527,16 +534,16 @@ A [**Win32\_FolderRedirectionHealth**](win32-folderredirectionhealth.md) object 
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>UserProfileWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

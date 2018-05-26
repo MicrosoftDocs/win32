@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia getItemInfoByAtom method
 description: The getItemInfoByAtom method returns the value of the attribute with the specified index number.
-ms.assetid: 'd9a4b737-add1-4bbd-8e03-e58f45d65a62'
-keywords: ["getItemInfoByAtom method Windows Media Player", "getItemInfoByAtom method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , getItemInfoByAtom method"]
+ms.assetid: d9a4b737-add1-4bbd-8e03-e58f45d65a62
+keywords:
+- getItemInfoByAtom method Windows Media Player
+- getItemInfoByAtom method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , getItemInfoByAtom method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::getItemInfoByAtom method
@@ -106,9 +114,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPMediaCollection.getMediaAtom (VB and C#)**](wmplibiwmpmediacollection-iwmpmediacollection-getmediaatom--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

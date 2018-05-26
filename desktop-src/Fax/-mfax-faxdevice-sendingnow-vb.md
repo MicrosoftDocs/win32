@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendingNow property is a Boolean value that indicates whether the fax device is sending a fax at the moment the property is retrieved (the status could change immediately thereafter).'
-ms.assetid: '34c09328-a46d-460a-af24-7b1a3116ce5c'
-title: 'FaxDevice.SendingNow property'
+---
+Description: The SendingNow property is a Boolean value that indicates whether the fax device is sending a fax at the moment the property is retrieved (the status could change immediately thereafter).
+ms.assetid: 34c09328-a46d-460a-af24-7b1a3116ce5c
+title: FaxDevice.SendingNow property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.SendingNow property
@@ -60,7 +65,7 @@ If this property is equal to **True**, the fax device is currently sending a fax
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

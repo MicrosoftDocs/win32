@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a switch team.'
-ms.assetid: 'c5e5ff83-b115-4caa-8271-8e0efb64aeb8'
-title: 'MSFT\_NetSwitchTeam class'
+Description: Represents a switch team.
+ms.assetid: c5e5ff83-b115-4caa-8271-8e0efb64aeb8
+title: MSFT\_NetSwitchTeam class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSwitchTeam class
@@ -40,7 +45,7 @@ The **MSFT\_NetSwitchTeam** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,17 +53,17 @@ The **MSFT\_NetSwitchTeam** class has these methods.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported client<br/> | Windows 8<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>NetSwitchTeam.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NetSwitchTeamCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

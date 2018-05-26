@@ -1,8 +1,11 @@
 ---
 title: Playlist.moveItem method
 description: The moveItem method changes the location of an item in the playlist.
-ms.assetid: 'f408c7a0-d1d6-4c0d-8ee5-0afd43b19a9d'
-keywords: ["moveItem method Windows Media Player", "moveItem method Windows Media Player , Playlist class", "Playlist class Windows Media Player , moveItem method"]
+ms.assetid: f408c7a0-d1d6-4c0d-8ee5-0afd43b19a9d
+keywords:
+- moveItem method Windows Media Player
+- moveItem method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , moveItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.moveItem method
@@ -81,9 +89,9 @@ To use this method, full access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

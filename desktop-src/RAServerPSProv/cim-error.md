@@ -2,13 +2,15 @@
 title: CIM\_Error class
 description: CIM\_Error is a specialized class that contains information about the severity, cause, recommended actions and other data related to the failure of a CIM Operation. Instances of this type MAY be included as part of the response to a CIM Operation.
 audience: developer
-ms.assetid: '1f420ffb-ebc7-4ee9-85e8-68c8661b1cb0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1f420ffb-ebc7-4ee9-85e8-68c8661b1cb0
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Error class", "CIM_Error class, described"]
+keywords:
+- CIM_Error class
+- CIM_Error class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Error class
@@ -362,7 +367,7 @@ The following values for CIM status code are defined:
 **DMTF Reserved**
 
 
-</dt> <dd>30–4294967295</dd> </dl>
+</dt> <dd>30 4294967295</dd> </dl>
 
 </dd> <dt>
 
@@ -444,7 +449,7 @@ The format of the ErrorSource property is interpretable based on the value of th
 **DMTF Reserved**
 
 
-</dt> <dd>3–65535</dd> </dl>
+</dt> <dd>3 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -564,7 +569,7 @@ Primary classification of the error. The following values are defined:
 **DMTF Reserved**
 
 
-</dt> <dd>11–65535</dd> </dl>
+</dt> <dd>11 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -753,7 +758,7 @@ An enumerated value that describes the severity of the Indication from the notif
 **DMTF Reserved**
 
 
-</dt> <dd>8–65535</dd> </dl>
+</dt> <dd>8 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1695,7 +1700,7 @@ An enumerated value that describes the probable cause of the error.
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1735,16 +1740,16 @@ A free-form string describing recommended actions to take to resolve the error.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

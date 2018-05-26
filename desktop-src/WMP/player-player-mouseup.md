@@ -1,8 +1,11 @@
 ---
 title: Player.MouseUp event
 description: The MouseUp event occurs when the user releases a mouse button.
-ms.assetid: '0f209fc4-2aad-46b1-84ba-2bfbecbe2930'
-keywords: ["MouseUp event Windows Media Player", "MouseUp event Windows Media Player , Player class", "Player class Windows Media Player , MouseUp event"]
+ms.assetid: 0f209fc4-2aad-46b1-84ba-2bfbecbe2930
+keywords:
+- MouseUp event Windows Media Player
+- MouseUp event Windows Media Player , Player class
+- Player class Windows Media Player , MouseUp event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MouseUp event
@@ -91,9 +99,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

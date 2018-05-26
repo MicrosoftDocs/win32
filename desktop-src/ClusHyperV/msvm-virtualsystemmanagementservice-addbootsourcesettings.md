@@ -4,13 +4,16 @@ description: Adds boot sources to a stateful virtual system configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6d4cd92a-a20f-4ee5-8168-27c0716f1d53'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6d4cd92a-a20f-4ee5-8168-27c0716f1d53
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddBootSourceSettings method", "AddBootSourceSettings method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, AddBootSourceSettings method"]
+keywords:
+- AddBootSourceSettings method
+- AddBootSourceSettings method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, AddBootSourceSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddBootSourceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -30,10 +36,10 @@ Adds boot sources to a stateful virtual system configuration.
 
 ```mof
 uint32 AddBootSourceSettings(
-  [in]  CIM_VirtualSystemSettingData REF AffectedConfiguration,
-  [in]  string                           BootSourceSettings[],
-  [out] CIM_SettingData              REF ResultingBootSourceSettings[],
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF AffectedConfiguration,
+  [in]  string                           BootSourceSettings[],
+  [out] CIM_SettingData              REF ResultingBootSourceSettings[],
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -92,16 +98,16 @@ The possible return values are:
 **Invalid Parameter** (4)
 </dt> <dt>
 
-**DMTF Reserved** (5–4095)
+**DMTF Reserved** (5 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -111,7 +117,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -125,9 +131,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

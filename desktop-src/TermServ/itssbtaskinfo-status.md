@@ -4,11 +4,14 @@ description: Retrieves an RDV\_TASK\_STATUS enumeration value that represents th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '779af127-133c-47ff-8fca-bfd2c96c9768'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 779af127-133c-47ff-8fca-bfd2c96c9768
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Status property Remote Desktop Services", "Status property Remote Desktop Services , ITsSbTaskInfo interface", "ITsSbTaskInfo interface Remote Desktop Services , Status property"]
+keywords:
+- Status property Remote Desktop Services
+- Status property Remote Desktop Services , ITsSbTaskInfo interface
+- ITsSbTaskInfo interface Remote Desktop Services , Status property
 topic_type:
 - apiref
 api_name:
@@ -18,11 +21,14 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbTaskInfo::Status property
 
-Retrieves an [**RDV\_TASK\_STATUS**](rdv-task-status.md) enumeration value that represents the state of the task.
+Retrieves an [**RDV\_TASK\_STATUS**](/windows/win32/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status?branch=master) enumeration value that represents the state of the task.
 
 This property is read-only.
 
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Status(
-  [out, retval] RDV_TASK_STATUS *pStatus
+  [out, retval] RDV_TASK_STATUS *pStatus
 );
 ```
 
@@ -39,7 +45,7 @@ HRESULT get_Status(
 
 ## Property value
 
-An [**RDV\_TASK\_STATUS**](rdv-task-status.md) enumeration value that represents the state of the task.
+An [**RDV\_TASK\_STATUS**](/windows/win32/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status?branch=master) enumeration value that represents the state of the task.
 
 ## Requirements
 
@@ -48,7 +54,7 @@ An [**RDV\_TASK\_STATUS**](rdv-task-status.md) enumeration value that represents
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ An [**RDV\_TASK\_STATUS**](rdv-task-status.md) enumeration value that represents
 
 <dl> <dt>
 
-[**ITsSbTaskInfo**](itssbtaskinfo.md)
+[**ITsSbTaskInfo**](/windows/win32/sbtsv/nn-sbtsv-itssbtaskinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

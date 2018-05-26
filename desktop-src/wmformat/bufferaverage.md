@@ -1,14 +1,20 @@
 ---
 title: BufferAverage
 description: The BufferAverage attribute contains the average buffer size needed for a variable bit rate (VBR) stream.
-ms.assetid: '5fd69534-6655-4c98-bf07-a694585fc9ae'
-keywords: ["BufferAverage windows Media Format"]
+ms.assetid: 5fd69534-6655-4c98-bf07-a694585fc9ae
+keywords:
+- BufferAverage windows Media Format
 topic_type:
 - apiref
 api_name:
 - BufferAverage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BufferAverage

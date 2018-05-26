@@ -4,11 +4,15 @@ description: A dynamically linked auxiliary class is a class that is attached to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '10530a3c-89fc-4ff0-a0b7-1c9a27659003'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 10530a3c-89fc-4ff0-a0b7-1c9a27659003
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Dynamically Linked Auxiliary Classes AD"]
+keywords:
+- Dynamically Linked Auxiliary Classes AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamically Linked Auxiliary Classes

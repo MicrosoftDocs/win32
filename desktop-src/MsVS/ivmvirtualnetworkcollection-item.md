@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetworkCollection Item property
 description: The Item property contains the IVMVirtualNetwork object at a given index (1-based index).
-ms.assetid: '7886217d-dedb-4c89-9822-3e1fe2e6bdd6'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMVirtualNetworkCollection interface", "IVMVirtualNetworkCollection interface Virtual Server , Item property", "Item property Virtual Server , VMVirtualNetworkCollection interface", "VMVirtualNetworkCollection interface Virtual Server , Item property"]
+ms.assetid: 7886217d-dedb-4c89-9822-3e1fe2e6bdd6
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMVirtualNetworkCollection interface
+- IVMVirtualNetworkCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMVirtualNetworkCollection interface
+- VMVirtualNetworkCollection interface Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetworkCollection::Item property
@@ -26,9 +36,9 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long              index,
-        Long              index,
-  [out] IVMVirtualNetwork **virtualNetwork
+  [in]  long              index,
+        Long              index,
+  [out] IVMVirtualNetwork **virtualNetwork
 );
 ```
 
@@ -82,8 +92,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -95,9 +105,9 @@ This property value is read-only.
 [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

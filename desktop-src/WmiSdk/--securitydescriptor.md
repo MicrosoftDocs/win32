@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a security descriptor.'
+Description: Represents a security descriptor.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1ade1751-52a2-4ada-8255-323321111663'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1ade1751-52a2-4ada-8255-323321111663
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_SecurityDescriptor class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_SecurityDescriptor class
@@ -22,10 +25,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class __SecurityDescriptor
 {
   uint32 ControlFlags;
-  __ACE  DACL[];
-  __ACE  Group;
-  __ACE  Owner;
-  __ACE  SACL;
+  __ACE  DACL[];
+  __ACE  Group;
+  __ACE  Owner;
+  __ACE  SACL;
   uint64 TIME_CREATED;
 };
 ```
@@ -130,8 +133,8 @@ This class provides properties inherited by [**Win32\_SecurityDescriptor**](http
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -149,9 +152,9 @@ This class provides properties inherited by [**Win32\_SecurityDescriptor**](http
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

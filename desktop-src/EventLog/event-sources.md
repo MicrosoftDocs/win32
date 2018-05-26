@@ -1,7 +1,12 @@
 ---
-Description: 'Each log in the Eventlog key contains subkeys called event sources. The event source is the name of the software that logs the event.'
-ms.assetid: 'bc7fdc74-be41-4d17-997c-27171ef73f0f'
+Description: Each log in the Eventlog key contains subkeys called event sources. The event source is the name of the software that logs the event.
+ms.assetid: bc7fdc74-be41-4d17-997c-27171ef73f0f
 title: Event Sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Sources
@@ -71,9 +76,9 @@ Each event source contains information (such as a [message file](message-files.m
 
  
 
-When an application uses the [**RegisterEventSource**](registereventsource.md) or [**OpenEventLog**](openeventlog.md) function to get a handle to an event log, the event logging service searches for the specified event source in the registry. For example, the **Application** log might contain event sources for Microsoft SQL Server and Microsoft Excel. If an application uses [**RegisterEventSource**](registereventsource.md) or **OpenEventLog** with a source name of Application, SQL, or Excel, the event logging service returns a handle to the **Application** log.
+When an application uses the [**RegisterEventSource**](/windows/win32/Winbase/nf-winbase-registereventsourcea?branch=master) or [**OpenEventLog**](/windows/win32/Winbase/nf-winbase-openeventloga?branch=master) function to get a handle to an event log, the event logging service searches for the specified event source in the registry. For example, the **Application** log might contain event sources for Microsoft SQL Server and Microsoft Excel. If an application uses [**RegisterEventSource**](/windows/win32/Winbase/nf-winbase-registereventsourcea?branch=master) or **OpenEventLog** with a source name of Application, SQL, or Excel, the event logging service returns a handle to the **Application** log.
 
-An application can use the **Application** log without adding a new event source to the registry. If the application calls [**RegisterEventSource**](registereventsource.md) and passes a source name that cannot be found in the registry, the event-logging service uses the **Application** log by default. However, because there are no message files, the Event Viewer cannot map any event identifiers or event categories to a description string, and will display an error. For this reason, you should add a unique event source to the registry for your application and specify a message file.
+An application can use the **Application** log without adding a new event source to the registry. If the application calls [**RegisterEventSource**](/windows/win32/Winbase/nf-winbase-registereventsourcea?branch=master) and passes a source name that cannot be found in the registry, the event-logging service uses the **Application** log by default. However, because there are no message files, the Event Viewer cannot map any event identifiers or event categories to a description string, and will display an error. For this reason, you should add a unique event source to the registry for your application and specify a message file.
 
  
 

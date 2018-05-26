@@ -1,7 +1,12 @@
 ---
 title: Variables in .Idq and .Htx Files
 description: Variables in .Idq and .Htx Files
-ms.assetid: '87454bd1-1676-40ca-8e52-bbf678aa90ca'
+ms.assetid: 87454bd1-1676-40ca-8e52-bbf678aa90ca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables in .Idq and .Htx Files

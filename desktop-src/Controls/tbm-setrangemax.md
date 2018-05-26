@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETRANGEMAX message
 description: Sets the maximum logical position for the slider in a trackbar.
-ms.assetid: '8e9d8fd3-2ee3-4fb6-aa1f-9d6e999ef330'
-keywords: ["TBM_SETRANGEMAX message Windows Controls"]
+ms.assetid: 8e9d8fd3-2ee3-4fb6-aa1f-9d6e999ef330
+keywords:
+- TBM_SETRANGEMAX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETRANGEMAX message
@@ -49,8 +55,8 @@ If the current slider position is greater than the new maximum, the **TBM\_SETRA
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ If the current slider position is greater than the new maximum, the **TBM\_SETRA
 [**TBM\_SETRANGEMIN**](tbm-setrangemin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

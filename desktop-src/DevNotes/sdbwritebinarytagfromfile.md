@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes binary data from the specified file to the specified database.'
-ms.assetid: '960633a8-5cec-462b-b7dc-72eb3e4fd0a2'
+---
+Description: Writes binary data from the specified file to the specified database.
+ms.assetid: 960633a8-5cec-462b-b7dc-72eb3e4fd0a2
 title: SdbWriteBinaryTagFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbWriteBinaryTagFromFile function

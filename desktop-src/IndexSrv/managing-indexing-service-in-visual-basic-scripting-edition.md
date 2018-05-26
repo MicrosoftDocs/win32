@@ -1,7 +1,12 @@
 ---
 title: Managing Indexing Service in Visual Basic Scripting Edition
 description: Managing Indexing Service in Visual Basic Scripting Edition
-ms.assetid: '863a3aef-5b80-45aa-b864-d27d2e9f6439'
+ms.assetid: 863a3aef-5b80-45aa-b864-d27d2e9f6439
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Indexing Service in Visual Basic Scripting Edition

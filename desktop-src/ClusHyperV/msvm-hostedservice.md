@@ -4,13 +4,15 @@ description: Associates a service with its hosting computer system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd96503df-7e2f-461d-a69d-3d78f2c10d6c'
-ms.prod: 'windows-server-dev'
+ms.assetid: d96503df-7e2f-461d-a69d-3d78f2c10d6c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_HostedService class", "Msvm_HostedService class, described"]
+keywords:
+- Msvm_HostedService class
+- Msvm_HostedService class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_HostedService class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_HostedService : CIM_HostedService
 {
-  CIM_System  REF Antecedent;
+  CIM_System  REF Antecedent;
   CIM_Service REF Dependent;
 };
 ```
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_HostedService**](cim-hostedservice.md).
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -112,9 +117,9 @@ This property is inherited from [**CIM\_HostedService**](cim-hostedservice.md).
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

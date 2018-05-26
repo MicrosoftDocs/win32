@@ -1,14 +1,20 @@
 ---
 title: emptyString Simple Type
 description: Is not in use.
-ms.assetid: 'e561b8d5-8683-41a1-bd72-73b1a767b6cf'
-keywords: ["emptyString simple type EAPHost"]
+ms.assetid: e561b8d5-8683-41a1-bd72-73b1a767b6cf
+keywords:
+- emptyString simple type EAPHost
 topic_type:
 - apiref
 api_name:
 - emptyString
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # emptyString Simple Type
@@ -33,8 +39,8 @@ The **emptyString** simple type is not in use.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -51,9 +57,9 @@ The **emptyString** simple type is not in use.
 [eaptlsconnectionpropertiesv1 Schema Simple Types](eaptlsconnectionpropertiesv1schema-simple-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the number of IContextLink objects in this collection.'
-ms.assetid: 'c3becacd-2df0-401c-88c8-5fad3e9f8c02'
-title: 'IContextLinks::GetCount method'
+Description: Gets the number of IContextLink objects in this collection.
+ms.assetid: c3becacd-2df0-401c-88c8-5fad3e9f8c02
+title: IContextLinksGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextLinks::GetCount method
@@ -13,7 +18,7 @@ Gets the number of [**IContextLink**](icontextlink.md) objects in this collectio
 
 ```C++
 HRESULT GetCount(
-  [out, retval] ULONG *pulCount
+  [out, retval] ULONG *pulCount
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -57,9 +62,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

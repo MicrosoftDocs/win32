@@ -1,8 +1,19 @@
 ---
 title: Registration Flags
 description: Registration Flags
-ms.assetid: 'ba1709c2-0fe5-4168-9aed-613d01eff21f'
-keywords: ["Windows Media Player plug-ins,registration flags", "plug-ins,registration flags", "user interface plug-ins,registration flags", "UI plug-ins,registration flags", "flags,user interface plug-ins", "registry,UI plug-ins"]
+ms.assetid: ba1709c2-0fe5-4168-9aed-613d01eff21f
+keywords:
+- Windows Media Player plug-ins,registration flags
+- plug-ins,registration flags
+- user interface plug-ins,registration flags
+- UI plug-ins,registration flags
+- flags,user interface plug-ins
+- registry,UI plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registration Flags
@@ -31,7 +42,7 @@ This key includes the following values.
 
 
 
- 
+ 
 
 For more information about the res protocol, see the Internet Development SDK.
 
@@ -49,7 +60,7 @@ The following table details the plug-in type flags.
 
 
 
- 
+ 
 
 The following table details the plug-in capabilities flags.
 
@@ -57,17 +68,17 @@ The following table details the plug-in capabilities flags.
 
 | Plug-in Capabilities Flag             | Value      | Description                                                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **PLUGIN\_FLAGS\_ACCEPTSMEDIA**       | 0x10000000 | The UI plug-in can accept **Media** object pointer arrays when Windows Media Player calls [**IWMPPluginUI::SetProperty**](iwmppluginui-setproperty.md) .                                                                                                                                                                                                                                                           |
-| **PLUGIN\_FLAGS\_ACCEPTSPLAYLISTS**   | 0x8000000  | The UI plug-in can accept **Playlist** object pointer arrays when Windows Media Player calls [**IWMPPluginUI::SetProperty**](iwmppluginui-setproperty.md) .                                                                                                                                                                                                                                                        |
-| **PLUGIN\_FLAGS\_HASPRESETS**         | 0x4000000  | The UI plug-in uses presets. If the plug-in specifies this flag, Windows Media Player will query the plug-in for preset information by calling [**IWMPPluginUI::GetProperty**](iwmppluginui-getproperty.md) .                                                                                                                                                                                                      |
-| **PLUGIN\_FLAGS\_HASPROPERTYPAGE**    | 0x80000000 | The UI plug-in provides a property page dialog. Windows Media Player will call [**IWMPPluginUI::DisplayPropertyPage**](iwmppluginui-displaypropertypage.md) if this flag is set when the property page is invoked.                                                                                                                                                                                                 |
+| **PLUGIN\_FLAGS\_ACCEPTSMEDIA**       | 0x10000000 | The UI plug-in can accept **Media** object pointer arrays when Windows Media Player calls [**IWMPPluginUI::SetProperty**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-setproperty?branch=master) .                                                                                                                                                                                                                                                           |
+| **PLUGIN\_FLAGS\_ACCEPTSPLAYLISTS**   | 0x8000000  | The UI plug-in can accept **Playlist** object pointer arrays when Windows Media Player calls [**IWMPPluginUI::SetProperty**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-setproperty?branch=master) .                                                                                                                                                                                                                                                        |
+| **PLUGIN\_FLAGS\_HASPRESETS**         | 0x4000000  | The UI plug-in uses presets. If the plug-in specifies this flag, Windows Media Player will query the plug-in for preset information by calling [**IWMPPluginUI::GetProperty**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-getproperty?branch=master) .                                                                                                                                                                                                      |
+| **PLUGIN\_FLAGS\_HASPROPERTYPAGE**    | 0x80000000 | The UI plug-in provides a property page dialog. Windows Media Player will call [**IWMPPluginUI::DisplayPropertyPage**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-displaypropertypage?branch=master) if this flag is set when the property page is invoked.                                                                                                                                                                                                 |
 | **PLUGIN\_FLAGS\_HIDDEN**             | 0x02000000 | The background UI plug-in does not appear on the **Plug-ins** menu that is accessed from the **View** or **Tools** menus or the **Select Now Playing options** button in Now Playing. It does appear on the **Plug-ins** tab of the Options dialog. It does cause the Background Plug-in Running icon to appear in the status bar.This flag has no effect on plug-ins other than background UI plug-ins.<br/> |
 | **PLUGIN\_FLAGS\_INSTALLAUTORUN**     | 0x40000000 | Windows Media Player runs the UI plug-in automatically when the plug-in is installed.                                                                                                                                                                                                                                                                                                                               |
-| **PLUGIN\_FLAGS\_LAUNCHPROPERTYPAGE** | 0x20000000 | Windows Media Player calls [**IWMPPluginUI::DisplayPropertyPage**](iwmppluginui-displaypropertypage.md) when the UI plug-in runs for the first time.If this flag is specified, **PLUGIN\_FLAGS\_HASPROPERTYPAGE** should be specified also.<br/>                                                                                                                                                             |
+| **PLUGIN\_FLAGS\_LAUNCHPROPERTYPAGE** | 0x20000000 | Windows Media Player calls [**IWMPPluginUI::DisplayPropertyPage**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-displaypropertypage?branch=master) when the UI plug-in runs for the first time.If this flag is specified, **PLUGIN\_FLAGS\_HASPROPERTYPAGE** should be specified also.<br/>                                                                                                                                                             |
 
 
 
- 
+ 
 
 The following constants are defined in wmpplug.h. Do not change the values associated with these constants.
 
@@ -83,27 +94,27 @@ The following constants are defined in wmpplug.h. Do not change the values assoc
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**IWMPPluginUI::DisplayPropertyPage**](iwmppluginui-displaypropertypage.md)
+[**IWMPPluginUI::DisplayPropertyPage**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-displaypropertypage?branch=master)
 </dt> <dt>
 
-[**IWMPPluginUI::GetProperty**](iwmppluginui-getproperty.md)
+[**IWMPPluginUI::GetProperty**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-getproperty?branch=master)
 </dt> <dt>
 
-[**IWMPPluginUI::SetProperty**](iwmppluginui-setproperty.md)
+[**IWMPPluginUI::SetProperty**](/windows/win32/wmpplug/nf-wmpplug-iwmppluginui-setproperty?branch=master)
 </dt> <dt>
 
 [**User Interface Plug-ins Programming Reference**](user-interface-plug-ins-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: track.csv
 description: track.csv
-ms.assetid: '5ce782b7-5fb8-4e6e-80cb-fa1dd7c47716'
-keywords: ["Windows Media Player online stores,track.csv", "online stores,track.csv", "type 1 online stores,track.csv", "track.csv"]
+ms.assetid: 5ce782b7-5fb8-4e6e-80cb-fa1dd7c47716
+keywords:
+- Windows Media Player online stores,track.csv
+- online stores,track.csv
+- type 1 online stores,track.csv
+- track.csv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # track.csv
@@ -129,11 +138,11 @@ Every track must belong to an album. That is, for each track, the LinkedAlbumID 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

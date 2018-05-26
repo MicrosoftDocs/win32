@@ -1,8 +1,20 @@
 ---
 title: Button Placement
 description: Button Placement
-ms.assetid: '104f4dfb-8452-4dcc-9d48-cd754318083c'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,button placement", "Windows Media Player Mobile skins,button placement", "skins,button placement", "button placement in skins"]
+ms.assetid: 104f4dfb-8452-4dcc-9d48-cd754318083c
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,button placement
+- Windows Media Player Mobile skins,button placement
+- skins,button placement
+- button placement in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Placement

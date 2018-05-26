@@ -4,17 +4,22 @@ description: Contains the Distributed File System (DFS) Replication service obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3a58e5f8-a598-44e6-96a6-57544bdf0743'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3a58e5f8-a598-44e6-96a6-57544bdf0743
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-Flags attribute AD Schema", "msDFSR-Flags attribute AD Schema"]
+keywords:
+- ms-DFSR-Flags attribute AD Schema
+- msDFSR-Flags attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-Flags
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-Flags attribute
@@ -38,10 +43,10 @@ Contains the Distributed File System (DFS) Replication service object flags.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the Distributed File System (DFS) Replication service object flags.
 
 The **ms-DFSR-Flags** attribute is a part of the DFS Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

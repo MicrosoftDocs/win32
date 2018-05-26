@@ -4,17 +4,21 @@ description: The documentAuthor attribute type specifies the distinguished name 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '52d25349-ef79-44d0-a892-65984898fa1c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 52d25349-ef79-44d0-a892-65984898fa1c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["documentAuthor attribute AD Schema"]
+keywords:
+- documentAuthor attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - documentAuthor
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # documentAuthor attribute
@@ -38,11 +42,11 @@ The documentAuthor attribute type specifies the distinguished name of the author
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +153,9 @@ The documentAuthor attribute type specifies the distinguished name of the author
 
 
 
- 
+ 
 
- 
+ 
 
 
 

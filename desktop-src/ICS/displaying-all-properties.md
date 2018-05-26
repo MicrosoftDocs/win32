@@ -1,8 +1,15 @@
 ---
 title: Displaying all Properties
 description: Displaying all Properties
-ms.assetid: '49a292e6-f94e-4de1-9071-aa6d01e9ad45'
-keywords: ["Displaying all Properties", "using"]
+ms.assetid: 49a292e6-f94e-4de1-9071-aa6d01e9ad45
+keywords:
+- Displaying all Properties
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying all Properties

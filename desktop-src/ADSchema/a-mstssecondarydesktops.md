@@ -1,20 +1,25 @@
 ---
 title: ms-TS-Secondary-Desktops attribute
-description: This attribute represents the array of forward links to a user's secondary desktops.
+description: This attribute represents the array of forward links to a users secondary desktops.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '41b978b8-042f-49f7-a3ea-61be727561ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 41b978b8-042f-49f7-a3ea-61be727561ad
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Secondary-Desktops attribute AD Schema", "msTSSecondaryDesktops attribute AD Schema"]
+keywords:
+- ms-TS-Secondary-Desktops attribute AD Schema
+- msTSSecondaryDesktops attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Secondary-Desktops
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Secondary-Desktops attribute
@@ -38,8 +43,8 @@ This attribute represents the array of forward links to a user's secondary deskt
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ This attribute represents the array of forward links to a user's secondary deskt
 
 
 
- 
+ 
 
- 
+ 
 
 
 

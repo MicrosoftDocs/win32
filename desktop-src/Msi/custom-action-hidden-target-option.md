@@ -1,7 +1,12 @@
 ---
-Description: 'Use the following option flags to specify that the installer not write the value entered into the Target field of the CustomAction table into the log. To set the option add the value in this table to the value in the Type field of the CustomAction table.'
-ms.assetid: 'b0f99851-a774-4804-8c85-f94943c2d2b0'
+Description: Use the following option flags to specify that the installer not write the value entered into the Target field of the CustomAction table into the log. To set the option add the value in this table to the value in the Type field of the CustomAction table.
+ms.assetid: b0f99851-a774-4804-8c85-f94943c2d2b0
 title: Custom Action Hidden Target Option
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Hidden Target Option
@@ -17,7 +22,7 @@ Use the following option flags to specify that the installer not write the value
 
 
 
- 
+ 
 
 For more information, see [Preventing Confidential Information from Being Written into the Log File](preventing-confidential-information-from-being-written-into-the-log-file.md)
 
@@ -34,9 +39,9 @@ For more information, see [Preventing Confidential Information from Being Writte
 [Using Custom Actions](using-custom-actions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

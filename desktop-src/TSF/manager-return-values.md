@@ -1,7 +1,7 @@
 ---
 title: Manager Return Values
 description: The Text Services Framework produces return values in the range from 0xHHHH0200 through 0xHHHH0507. The following table gives the manager return values in alphabetical order.
-ms.assetid: '12178252-c246-4fa4-bf7b-2445b859ec01'
+ms.assetid: 12178252-c246-4fa4-bf7b-2445b859ec01
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manager Return Values
@@ -19,7 +24,7 @@ The Text Services Framework produces return values in the range from 0x*HHHH*020
 > [!Note]  
 > The descriptions supplied are non-specific; the meaning of a return value can vary depending on the method that returned the value.
 
- 
+ 
 
 
 
@@ -50,7 +55,7 @@ The Text Services Framework produces return values in the range from 0x*HHHH*020
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -58,17 +63,17 @@ The Text Services Framework produces return values in the range from 0x*HHHH*020
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

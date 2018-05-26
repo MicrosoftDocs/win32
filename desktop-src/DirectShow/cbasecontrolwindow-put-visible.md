@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_Visible method makes shows or hides the window.'
-ms.assetid: '77e8d071-f876-4e35-945c-d1daf96ad02b'
-title: 'CBaseControlWindow.put\_Visible method'
+Description: The put\_Visible method makes shows or hides the window.
+ms.assetid: 77e8d071-f876-4e35-945c-d1daf96ad02b
+title: CBaseControlWindow.put\_Visible method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_Visible method
@@ -13,7 +18,7 @@ The `put_Visible` method makes shows or hides the window.
 
 ```C++
 HRESULT put_Visible(
-   long Visible
+   long Visible
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT put_Visible(
 *Visible* 
 </dt> <dd>
 
-Automation Boolean flag (0 means window is hidden, –1 means window is shown).
+Automation Boolean flag (0 means window is hidden,  1 means window is shown).
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns an **HRESULT** value.
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

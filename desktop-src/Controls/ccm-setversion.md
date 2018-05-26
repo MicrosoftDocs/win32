@@ -1,8 +1,9 @@
 ---
 title: CCM\_SETVERSION message
 description: This message is used to inform the control that you are expecting a behavior associated with a particular version.
-ms.assetid: 'f87b20bc-0139-4d0a-b38c-32c75743d6f6'
-keywords: ["CCM_SETVERSION message Windows Controls"]
+ms.assetid: f87b20bc-0139-4d0a-b38c-32c75743d6f6
+keywords:
+- CCM_SETVERSION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCM\_SETVERSION message
@@ -44,7 +50,7 @@ If you have ComCtl32.dll version 6 installed, regardless of what value you set i
 > [!Note]  
 > This message only sets the version number for the control to which it is sent.
 
- 
+ 
 
 ## Requirements
 
@@ -52,15 +58,15 @@ If you have ComCtl32.dll version 6 installed, regardless of what value you set i
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

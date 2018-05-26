@@ -4,11 +4,15 @@ description: Programmatic extensions have several merits, however, an applicatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e2837757-f887-4d17-a9d2-8989533a3d8e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e2837757-f887-4d17-a9d2-8989533a3d8e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Programmatic Extension"]
+keywords:
+- Programmatic Extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Programmatic Extension

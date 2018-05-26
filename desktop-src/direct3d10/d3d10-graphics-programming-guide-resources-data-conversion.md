@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following sections describe how Direct3D handles conversions between data types.'
-ms.assetid: '454d3fd0-fc0f-46a9-925e-13f8e3c39f02'
+---
+Description: The following sections describe how Direct3D handles conversions between data types.
+ms.assetid: 454d3fd0-fc0f-46a9-925e-13f8e3c39f02
 title: Data Conversion Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Conversion Rules

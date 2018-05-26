@@ -4,24 +4,28 @@ description: Specifies the cache size of a cluster shared volume (CSV), in megab
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32D2C698-4F9F-4F72-A6BF-19402EC35512'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 32D2C698-4F9F-4F72-A6BF-19402EC35512
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SharedVolumeBlockCacheSizeInMB Failover Cluster"]
+keywords:
+- SharedVolumeBlockCacheSizeInMB Failover Cluster
 topic_type:
 - apiref
 api_name:
 - SharedVolumeBlockCacheSizeInMB
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SharedVolumeBlockCacheSizeInMB
 
 Specifies the cache size of a cluster shared volume (CSV), in megabytes.
 
-**Windows Server 2012:** This property was renamed to [**BlockCacheSize**](blockcachesize.md) in Windows Server 2012 R2.
+**Windows Server 2012:** This property was renamed to [**BlockCacheSize**](blockcachesize.md) in Windows Server 2012 R2.
 
 
 
@@ -29,14 +33,14 @@ Specifies the cache size of a cluster shared volume (CSV), in megabytes.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,9 +49,9 @@ Specifies the cache size of a cluster shared volume (CSV), in megabytes.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 | End of client support<br/>    | None supported<br/>      |
-| End of server support<br/>    | Windows Server 2012<br/> |
+| End of server support<br/>    | Windows Server 2012<br/> |
 
 
 
@@ -61,9 +65,9 @@ Specifies the cache size of a cluster shared volume (CSV), in megabytes.
 [**BlockCacheSize**](blockcachesize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

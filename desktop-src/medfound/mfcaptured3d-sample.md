@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to preview video from a video camera, using Direct3D to render the video.'
-ms.assetid: 'fe241201-f2b5-467c-9d6a-5fc147fa5e2a'
+Description: Shows how to preview video from a video camera, using Direct3D to render the video.
+ms.assetid: fe241201-f2b5-467c-9d6a-5fc147fa5e2a
 title: MFCaptureD3D Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFCaptureD3D Sample
@@ -12,9 +17,9 @@ Shows how to preview video from a video camera, using Direct3D to render the vid
 
 This sample demonstrates the following APIs.
 
--   [**IMFMediaSource**](imfmediasource.md)
--   [**IMFSourceReader**](imfsourcereader.md)
--   [**MFEnumDeviceSources**](mfenumdevicesources.md)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
+-   [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master)
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master)
 
 ## Requirements
 

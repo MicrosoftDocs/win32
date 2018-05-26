@@ -1,8 +1,13 @@
 ---
 title: IVMFloppyDrive AttachHostDrive method
 description: The AttachHostDrive method attaches a physical floppy drive on the host machine to the floppy drive in the virtual machine.
-ms.assetid: 'b00af8c2-7cdd-439a-9e23-3e5f8802b085'
-keywords: ["AttachHostDrive method Virtual Server", "AttachHostDrive method Virtual Server , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual Server , AttachHostDrive method", "AttachHostDrive method Virtual Server , VMFloppyDrive interface", "VMFloppyDrive interface Virtual Server , AttachHostDrive method"]
+ms.assetid: b00af8c2-7cdd-439a-9e23-3e5f8802b085
+keywords:
+- AttachHostDrive method Virtual Server
+- AttachHostDrive method Virtual Server , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual Server , AttachHostDrive method
+- AttachHostDrive method Virtual Server , VMFloppyDrive interface
+- VMFloppyDrive interface Virtual Server , AttachHostDrive method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::AttachHostDrive method
@@ -23,7 +33,7 @@ The **AttachHostDrive** method attaches a physical floppy drive on the host mach
 
 ```C++
 HRESULT AttachHostDrive(
-  [in] BSTR driveLetter
+  [in] BSTR driveLetter
 );
 ```
 
@@ -58,7 +68,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +76,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -79,9 +89,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

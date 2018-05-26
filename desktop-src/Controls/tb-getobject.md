@@ -1,8 +1,9 @@
 ---
 title: TB\_GETOBJECT message
 description: Retrieves the IDropTarget for a toolbar control.
-ms.assetid: 'b26394ea-6f0f-4084-956d-f9166cc54b76'
-keywords: ["TB_GETOBJECT message Windows Controls"]
+ms.assetid: b26394ea-6f0f-4084-956d-f9166cc54b76
+keywords:
+- TB_GETOBJECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETOBJECT message
@@ -49,15 +55,15 @@ The toolbar's [**IDropTarget**](https://msdn.microsoft.com/library/windows/deskt
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

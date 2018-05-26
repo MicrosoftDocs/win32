@@ -1,8 +1,16 @@
 ---
 title: Primitives
 description: Primitives
-ms.assetid: '9af15db6-895e-4076-8e4c-ef4fcb7e0a7e'
-keywords: ["OpenGL,primitives", "OpenGL processing pipeline,primitives", "primitives OpenGL"]
+ms.assetid: 9af15db6-895e-4076-8e4c-ef4fcb7e0a7e
+keywords:
+- OpenGL,primitives
+- OpenGL processing pipeline,primitives
+- primitives OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primitives

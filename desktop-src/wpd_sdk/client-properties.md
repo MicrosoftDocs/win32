@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following client properties.'
-ms.assetid: '6ab75b58-7216-47f6-97fa-0c8fff656eb0'
+Description: Windows Portable Devices supports the following client properties.
+ms.assetid: 6ab75b58-7216-47f6-97fa-0c8fff656eb0
 title: Client Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Properties
@@ -27,7 +32,7 @@ Windows Portable Devices supports the following client properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,9 +51,9 @@ Windows Portable Devices supports the following client properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

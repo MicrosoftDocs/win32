@@ -1,14 +1,20 @@
 ---
 title: TEXT.hoverForegroundColor
 description: The hoverForegroundColor attribute specifies or retrieves the text color used for the Text control when the mouse cursor hovers over it.
-ms.assetid: '6d956ea3-8395-416f-ad22-a70b7beaf9c4'
-keywords: ["TEXT.hoverForegroundColor Windows Media Player"]
+ms.assetid: 6d956ea3-8395-416f-ad22-a70b7beaf9c4
+keywords:
+- TEXT.hoverForegroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.hoverForegroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.hoverForegroundColor
@@ -52,9 +58,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.foregroundColor**](text-foregroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides an overview of the basic architecture of the fax service.'
-ms.assetid: 'ce5cc009-f26a-4d03-a7ee-b5a34d29e5ba'
+Description: This topic provides an overview of the basic architecture of the fax service.
+ms.assetid: ce5cc009-f26a-4d03-a7ee-b5a34d29e5ba
 title: Fax Service Architecture Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Architecture Overview

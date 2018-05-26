@@ -1,7 +1,12 @@
 ---
 title: Query Syntax of SQL Query Language
 description: Query Syntax of SQL Query Language
-ms.assetid: '76f54565-4f05-4ba8-9179-944ba195a506'
+ms.assetid: 76f54565-4f05-4ba8-9179-944ba195a506
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Syntax of SQL Query Language

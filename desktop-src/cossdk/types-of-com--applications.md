@@ -1,7 +1,12 @@
 ---
 Description: Types of COM+ Applications
-ms.assetid: '4b731f22-6837-4c03-9c8c-a76451369cf1'
+ms.assetid: 4b731f22-6837-4c03-9c8c-a76451369cf1
 title: Types of COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of COM+ Applications

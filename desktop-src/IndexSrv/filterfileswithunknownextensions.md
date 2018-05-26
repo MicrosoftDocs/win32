@@ -1,7 +1,12 @@
 ---
 title: FilterFilesWithUnknownExtensions
 description: FilterFilesWithUnknownExtensions
-ms.assetid: 'ebadd5f6-82a7-43f1-98bc-14fb6921b532'
+ms.assetid: ebadd5f6-82a7-43f1-98bc-14fb6921b532
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterFilesWithUnknownExtensions

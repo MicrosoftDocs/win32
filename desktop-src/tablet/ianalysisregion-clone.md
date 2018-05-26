@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a copy of the IAnalysisRegion.'
-ms.assetid: 'eb94e1ce-7801-409d-9ae6-e7db0a9b861f'
-title: 'IAnalysisRegion::Clone method'
+Description: Creates a copy of the IAnalysisRegion.
+ms.assetid: eb94e1ce-7801-409d-9ae6-e7db0a9b861f
+title: IAnalysisRegionClone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::Clone method
@@ -13,7 +18,7 @@ Creates a copy of the [**IAnalysisRegion**](ianalysisregion.md).
 
 ```C++
 HRESULT Clone(
-  [out] IAnalysisRegion **pClonedRegion
+  [out] IAnalysisRegion **pClonedRegion
 );
 ```
 
@@ -41,7 +46,7 @@ This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBas
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**pClonedRegion* when you no longer need to use the cloned analysis region.
 
- 
+ 
 
 ## Requirements
 
@@ -49,7 +54,7 @@ This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBas
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -66,9 +71,9 @@ This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBas
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

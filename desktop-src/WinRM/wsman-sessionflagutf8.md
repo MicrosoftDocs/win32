@@ -4,11 +4,14 @@ description: Returns the value of the WSManFlagUTF8 authentication flag for use 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a79e292a-364b-4bf3-ae66-6a15ad51524f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: a79e292a-364b-4bf3-ae66-6a15ad51524f
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["SessionFlagUTF8 method Windows Remote Management", "SessionFlagUTF8 method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , SessionFlagUTF8 method"]
+keywords:
+- SessionFlagUTF8 method Windows Remote Management
+- SessionFlagUTF8 method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , SessionFlagUTF8 method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.SessionFlagUTF8 method
@@ -57,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -76,9 +82,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**Session**](session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

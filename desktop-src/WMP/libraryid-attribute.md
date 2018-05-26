@@ -1,14 +1,20 @@
 ---
 title: LibraryID Attribute
 description: The LibraryID attribute is the identifier of the library that the item belongs to.
-ms.assetid: '680d9374-8729-4258-8672-b4b93b65e20a'
-keywords: ["LibraryID Attribute Windows Media Player"]
+ms.assetid: 680d9374-8729-4258-8672-b4b93b65e20a
+keywords:
+- LibraryID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LibraryID Attribute
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LibraryID Attribute
@@ -26,7 +32,7 @@ The **LibraryID** attribute is the identifier of the library that the item belon
 
 A media item might belong to the current user's local library or it might belong to a library that has been made available by another user on the home network or the Internet.
 
-The value of this attribute is the same as the value returned by the [**IWMPLibrary2::getItemInfo**](iwmplibrary-get-name.md) method.
+The value of this attribute is the same as the value returned by the [**IWMPLibrary2::getItemInfo**](/windows/win32/wmp/nf-wmp-iwmplibrary-get_name?branch=master) method.
 
 ## Requirements
 
@@ -45,9 +51,9 @@ The value of this attribute is the same as the value returned by the [**IWMPLibr
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

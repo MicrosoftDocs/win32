@@ -1,7 +1,12 @@
 ---
-Description: 'The LoadStringAddr function transforms a string (such as &\#0034;157.54.32.45&\#0034;) and creates a DWORD address.'
-ms.assetid: '305e0072-b597-4cd5-975e-94103a1680aa'
+Description: The LoadStringAddr function transforms a string (such as &\#0034;157.54.32.45&\#0034;) and creates a DWORD address.
+ms.assetid: 305e0072-b597-4cd5-975e-94103a1680aa
 title: LoadStringAddr function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoadStringAddr function
@@ -13,8 +18,8 @@ The **LoadStringAddr** function transforms a string (such as "157.54.32.45") and
 
 ```C++
 BOOL LoadStringAddr(
-         DWORD *pAddress,
-   const char  *str
+         DWORD *pAddress,
+   const char  *str
 );
 ```
 
@@ -50,17 +55,17 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

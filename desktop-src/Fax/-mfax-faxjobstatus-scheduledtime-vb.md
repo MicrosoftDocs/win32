@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ScheduledTime property indicates the time that the fax job is scheduled for transmission.'
-ms.assetid: 'dd72476e-29db-4dbf-8409-7bd68e79bfba'
-title: 'FaxJobStatus.ScheduledTime property'
+---
+Description: The ScheduledTime property indicates the time that the fax job is scheduled for transmission.
+ms.assetid: dd72476e-29db-4dbf-8409-7bd68e79bfba
+title: FaxJobStatus.ScheduledTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobStatus.ScheduledTime property
@@ -46,7 +51,7 @@ A **Date** that receives the hour and minute, expressed in local system time, th
 [**FaxJobStatus**](-mfax-faxjobstatus.md)
 </dt> <dt>
 
-[**IFaxJobStatus**](-mfax-faxjobstatus-cpp.md)
+[**IFaxJobStatus**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxjobstatus?branch=master)
 </dt> </dl>
 
  

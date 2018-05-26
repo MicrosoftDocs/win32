@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission.'
-ms.assetid: '9d07d66d-e48f-4fd6-a418-b98d930d304b'
-title: 'FaxDoc.SenderTitle property'
+---
+Description: Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission.
+ms.assetid: 9d07d66d-e48f-4fd6-a418-b98d930d304b
+title: FaxDoc.SenderTitle property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SenderTitle property
@@ -55,7 +60,7 @@ The **get\_SenderTitle** method allocates the memory required for the buffer poi
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

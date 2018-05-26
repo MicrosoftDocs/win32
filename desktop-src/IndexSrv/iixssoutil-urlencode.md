@@ -1,8 +1,11 @@
 ---
 title: IixssoUtil URLEncode method
 description: Encodes a string using URL encoding using the specified code page.
-ms.assetid: '28da29a8-376a-4a67-a4de-dde8992b4852'
-keywords: ["URLEncode method Indexing Service", "URLEncode method Indexing Service , IixssoUtil interface", "IixssoUtil interface Indexing Service , URLEncode method"]
+ms.assetid: 28da29a8-376a-4a67-a4de-dde8992b4852
+keywords:
+- URLEncode method Indexing Service
+- URLEncode method Indexing Service , IixssoUtil interface
+- IixssoUtil interface Indexing Service , URLEncode method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoUtil::URLEncode method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Encodes a string using URL encoding using the specified code page.
 
@@ -24,9 +32,9 @@ Encodes a string using URL encoding using the specified code page.
 
 ```C++
 HRESULT URLEncode(
-  [in]          BSTR pwszString,
-  [in]          LONG codepage,
-  [out, retval] BSTR *ppwszOutput
+  [in]          BSTR pwszString,
+  [in]          LONG codepage,
+  [out, retval] BSTR *ppwszOutput
 );
 ```
 
@@ -71,10 +79,10 @@ The URLEncode method is used to work around difficulties with the proper handlin
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -86,9 +94,9 @@ The URLEncode method is used to work around difficulties with the proper handlin
 [**IixssoUtil**](iixssoutil.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

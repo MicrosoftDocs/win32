@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree ToMultipart method
 description: Converts a non-multipart body to a multipart body.
-ms.assetid: 'b7a633a7-1469-474a-bcd8-1a18595f1354'
-keywords: ["ToMultipart method Windows Mail (formerly Outlook Express)", "ToMultipart method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , ToMultipart method"]
+ms.assetid: b7a633a7-1469-474a-bcd8-1a18595f1354
+keywords:
+- ToMultipart method Windows Mail (formerly Outlook Express)
+- ToMultipart method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , ToMultipart method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::ToMultipart method
@@ -22,9 +30,9 @@ Converts a non-multipart body to a multipart body.
 
 ```C++
 HRESULT ToMultipart(
-  [in]  HBODY   hBody,
-  [in]  LPCSTR  pszSubType,
-  [out] LPHBODY phMultipart
+  [in]  HBODY   hBody,
+  [in]  LPCSTR  pszSubType,
+  [out] LPHBODY phMultipart
 );
 ```
 
@@ -80,7 +88,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,8 +100,8 @@ This method creates a body that is a child of *hBody* and copies the contents of
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -101,9 +109,9 @@ This method creates a body that is a child of *hBody* and copies the contents of
 
 
 
- 
+ 
 
- 
+ 
 
 
 

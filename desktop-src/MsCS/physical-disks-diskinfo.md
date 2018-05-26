@@ -4,17 +4,22 @@ description: Provides disk information. The following table summarizes the attri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28dde3c7-1f8e-418e-a4cc-7ec20e3e67d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 28dde3c7-1f8e-418e-a4cc-7ec20e3e67d0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskInfo Failover Cluster ,for physical disks", "DiskInfo Failover Cluster"]
+keywords:
+- DiskInfo Failover Cluster ,for physical disks
+- DiskInfo Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskInfo
@@ -30,13 +35,13 @@ Provides disk information. The following table summarizes the attributes of the 
 | Data type | byte array                                                       |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,8 +54,8 @@ For information on interpreting the **DiskInfo** byte array, see the [**MountVol
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -64,9 +69,9 @@ For information on interpreting the **DiskInfo** byte array, see the [**MountVol
 [**MountVolumeInfo**](physical-disks-mountvolumeinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

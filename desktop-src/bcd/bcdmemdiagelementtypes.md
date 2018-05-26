@@ -1,14 +1,20 @@
 ---
 title: BcdMemDiagElementTypes enumeration
 description: Specifies the memory diagnostic element types.
-ms.assetid: '105acf3a-60bf-42ab-905d-f890f302cbd3'
-keywords: ["BcdMemDiagElementTypes enumeration Boot Config"]
+ms.assetid: 105acf3a-60bf-42ab-905d-f890f302cbd3
+keywords:
+- BcdMemDiagElementTypes enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdMemDiagElementTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdMemDiagElementTypes enumeration
@@ -20,8 +26,8 @@ Specifies the memory diagnostic element types.
 
 ```C++
 typedef enum BcdMemDiagElementTypes { 
-  BcdMemDiagInteger_PassCount     = 0x25000001,
-  BcdMemDiagInteger_FailureCount  = 0x25000003
+  BcdMemDiagInteger_PassCount     = 0x25000001,
+  BcdMemDiagInteger_FailureCount  = 0x25000003
 } BcdMemDiagElementTypes;
 ```
 
@@ -45,7 +51,7 @@ If this value is not specified, the default is to run memory diagnostic tests un
 
 The number of pages that contain errors. This is useful for simulating error flows in the absence of bad physical memory. The element data format is [**BcdIntegerElement**](bcdintegerelement.md).
 
-**Note**  This setting is no longer available in Windows 8 and Windows Server 2012.
+**Note**  This setting is no longer available in Windows 8 and Windows Server 2012.
 
 </dd> </dl>
 
@@ -55,8 +61,8 @@ The number of pages that contain errors. This is useful for simulating error flo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -73,9 +79,9 @@ The number of pages that contain errors. This is useful for simulating error flo
 [**GetElement**](getelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

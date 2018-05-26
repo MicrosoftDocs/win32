@@ -1,14 +1,20 @@
 ---
 title: SingleResponseInteraction Complex Type
 description: Defines an interaction that lets the user select a single choice from a list of choices.
-ms.assetid: 'e6c5b0d6-65d1-4f2b-9fa8-ca650e11237b'
-keywords: ["SingleResponseInteraction complex type Windows Troubleshooting Toolkit"]
+ms.assetid: e6c5b0d6-65d1-4f2b-9fa8-ca650e11237b
+keywords:
+- SingleResponseInteraction complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - SingleResponseInteraction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SingleResponseInteraction Complex Type
@@ -129,7 +135,7 @@ Defines an interaction that lets the user select a single choice from a list of 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>ID</td>
@@ -147,8 +153,8 @@ Defines an interaction that lets the user select a single choice from a list of 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -162,9 +168,9 @@ Defines an interaction that lets the user select a single choice from a list of 
 [**SingleResponseInteractions Complex Type**](package-singleresponseinteractions-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

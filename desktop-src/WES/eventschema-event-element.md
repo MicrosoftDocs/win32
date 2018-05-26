@@ -1,14 +1,20 @@
 ---
 title: Event Element
 description: This is the root node of the logged event.
-ms.assetid: '35f93856-e88b-4cce-9439-ad1a01fc8f38'
-keywords: ["Event element EventLog"]
+ms.assetid: 35f93856-e88b-4cce-9439-ad1a01fc8f38
+keywords:
+- Event element EventLog
 topic_type:
 - apiref
 api_name:
 - Event
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Element
@@ -27,14 +33,14 @@ This is the root node of the logged event.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

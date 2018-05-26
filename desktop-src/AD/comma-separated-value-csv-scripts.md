@@ -4,11 +4,16 @@ description: Windows 2000 includes a command-line utility, CSVDE, to import dire
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fda242eb-7561-444f-b560-94bd87fe4e39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fda242eb-7561-444f-b560-94bd87fe4e39
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Comma-separated Value Scripts AD", "Scripts, Comma-separated Value AD"]
+keywords:
+- Comma-separated Value Scripts AD
+- Scripts, Comma-separated Value AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Comma-separated Value (CSV) Scripts

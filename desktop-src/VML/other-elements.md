@@ -1,7 +1,12 @@
 ---
 title: Other Elements
 description: Other Elements
-ms.assetid: '9CB93E2C-98F7-432C-B2DE-38A6ED8CA8B8'
+ms.assetid: 9CB93E2C-98F7-432C-B2DE-38A6ED8CA8B8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Elements

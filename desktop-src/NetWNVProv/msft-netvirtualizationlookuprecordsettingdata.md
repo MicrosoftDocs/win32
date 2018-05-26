@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a virtualization policy record, which maps virtual addressees to physical address in the WNV module to implement Hyper-V network virtualization.'
-ms.assetid: '0f8b983c-000c-4d17-8da3-24a00654ae6a'
-title: 'MSFT\_NetVirtualizationLookupRecordSettingData class'
+Description: Represents a virtualization policy record, which maps virtual addressees to physical address in the WNV module to implement Hyper-V network virtualization.
+ms.assetid: 0f8b983c-000c-4d17-8da3-24a00654ae6a
+title: MSFT\_NetVirtualizationLookupRecordSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetVirtualizationLookupRecordSettingData class
@@ -15,16 +20,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetVirtualizationLookupRecordSettingData : MSFT_NetSettingData
 {
-  string  CustomerAddress;
-  string  ProviderAddress;
-  string  MACAddress;
-  uint32  VirtualSubnetID;
-  string  CustomerID;
-  string  Context;
-  uint8   Rule;
-  string  VMName;
+  string  CustomerAddress;
+  string  ProviderAddress;
+  string  MACAddress;
+  uint32  VirtualSubnetID;
+  string  CustomerID;
+  string  Context;
+  uint8   Rule;
+  string  VMName;
   boolean UseVmMACAddress;
-  uint8   Type;
+  uint8   Type;
   boolean Unusable;
   boolean Unsynchronized;
 };
@@ -232,8 +237,8 @@ The virtual machine name set by the administrators to identify the VM correspond
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>NetWNV.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetWNV.dll</dt> </dl> |
@@ -247,9 +252,9 @@ The virtual machine name set by the administrators to identify the VM correspond
 [NetWNV Provider Classes](net-virtualization-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

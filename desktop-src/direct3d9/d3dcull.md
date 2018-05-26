@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the supported culling modes.'
-ms.assetid: 'b669307c-0d40-4ecb-8a2e-8bd1d9c65647'
+---
+Description: Defines the supported culling modes.
+ms.assetid: b669307c-0d40-4ecb-8a2e-8bd1d9c65647
 title: D3DCULL enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCULL enumeration
@@ -75,7 +80,7 @@ The values in this enumerated type are used by the D3DRS\_CULLMODE render state.
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DCAPS9**](d3dcaps9.md)
+[**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)
 </dt> <dt>
 
 [**D3DRENDERSTATETYPE**](direct3d9.d3drenderstatetype)

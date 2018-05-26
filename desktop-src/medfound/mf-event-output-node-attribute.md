@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies the topology node for a stream sink.'
-ms.assetid: '9aa6ca66-5122-4d05-94b9-32be194e9eb3'
-title: 'MF\_EVENT\_OUTPUT\_NODE attribute'
+---
+Description: Identifies the topology node for a stream sink.
+ms.assetid: 9aa6ca66-5122-4d05-94b9-32be194e9eb3
+title: MF\_EVENT\_OUTPUT\_NODE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_OUTPUT\_NODE attribute
@@ -16,7 +21,7 @@ Treat as [**TOPOID**](topoid.md).
 
 ## Remarks
 
-The value of this attribute is a node identifier for an output node on the current topology. To get a pointer to the associated node, call [**IMFTopology::GetNodeByID**](imftopology-getnodebyid.md) on the topology.
+The value of this attribute is a node identifier for an output node on the current topology. To get a pointer to the associated node, call [**IMFTopology::GetNodeByID**](/windows/win32/mfidl/nf-mfidl-imftopology-getnodebyid?branch=master) on the topology.
 
 This attribute is used with the following events:
 
@@ -47,10 +52,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> </dl>
 
  

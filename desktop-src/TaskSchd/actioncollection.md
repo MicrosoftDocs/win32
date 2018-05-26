@@ -1,8 +1,11 @@
 ---
 title: ActionCollection object
 description: Scripting object that contains the actions performed by the task.
-ms.assetid: 'e887680d-e7e8-4bea-8f00-fb7645d79e60'
-keywords: ["actions Task Scheduler , collection object", "ActionCollection object Task Scheduler", "ActionCollection object Task Scheduler , described"]
+ms.assetid: e887680d-e7e8-4bea-8f00-fb7645d79e60
+keywords:
+- actions Task Scheduler , collection object
+- ActionCollection object Task Scheduler
+- ActionCollection object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionCollection object
@@ -38,7 +46,7 @@ The **ActionCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +63,7 @@ The **ActionCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,16 +79,16 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

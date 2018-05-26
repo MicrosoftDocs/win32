@@ -1,7 +1,12 @@
 ---
 title: Create Context-Sensitive Help
 description: Create Context-Sensitive Help
-ms.assetid: '23A161B9-8851-46d4-9558-0266FDD21605'
+ms.assetid: 23A161B9-8851-46d4-9558-0266FDD21605
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Context-Sensitive Help

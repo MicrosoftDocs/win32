@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectStringVariable interface
 description: A string-variable interface accesses a string variable.
-ms.assetid: '8304d7cc-de30-41fe-af12-e11bf7ae32ce'
-keywords: ["ID3DX11EffectStringVariable interface Direct3D 11", "ID3DX11EffectStringVariable interface Direct3D 11 , described"]
+ms.assetid: 8304d7cc-de30-41fe-af12-e11bf7ae32ce
+keywords:
+- ID3DX11EffectStringVariable interface Direct3D 11
+- ID3DX11EffectStringVariable interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectStringVariable interface
@@ -37,14 +44,14 @@ The **ID3DX11EffectStringVariable** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -70,9 +77,9 @@ The **ID3DX11EffectStringVariable** interface has these methods.
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

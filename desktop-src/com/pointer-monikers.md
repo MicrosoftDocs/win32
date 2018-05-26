@@ -1,7 +1,12 @@
 ---
 title: Pointer Monikers
 description: A pointer moniker identifies an object that can exist only in the active or running state. This differs from other classes of monikers, which identify objects that can exist in either the passive or the active state.
-ms.assetid: '9895f03d-7110-41c1-a934-87010f9ad380'
+ms.assetid: 9895f03d-7110-41c1-a934-87010f9ad380
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer Monikers
@@ -10,9 +15,9 @@ A *pointer moniker* identifies an object that can exist only in the active or ru
 
 Suppose, for example, an application has an object that has no persistent representation. Normally, if a client of your application needs access to that object, you could simply pass the client a pointer to the object. However, suppose your client is expecting a moniker. The object cannot be identified with a file moniker, because it isn't stored in a file, nor with an item moniker, because it isn't contained in another object.
 
-Instead, your application can create a pointer moniker, which is a moniker that simply contains a pointer internally, and pass that to the client. The client can treat this moniker like any other. However, when the client calls [**IMoniker::BindToObject**](imoniker-bindtoobject.md) on the pointer moniker, the moniker code does not check the running object table (ROT) or load anything from storage. Instead, the moniker code simply calls [**QueryInterface**](iunknown-queryinterface.md) on the pointer stored inside the moniker.
+Instead, your application can create a pointer moniker, which is a moniker that simply contains a pointer internally, and pass that to the client. The client can treat this moniker like any other. However, when the client calls [**IMoniker::BindToObject**](/windows/win32/ObjIdl/nf-objidl-imoniker-bindtoobject?branch=master) on the pointer moniker, the moniker code does not check the running object table (ROT) or load anything from storage. Instead, the moniker code simply calls [**QueryInterface**](/windows/win32/Unknwn/nf-unknwn-iunknown-queryinterface(q,)?branch=master) on the pointer stored inside the moniker.
 
-Pointer monikers allow objects that exist only in the active or running state to participate in moniker operations and be used by moniker clients. One important difference between pointer monikers and other classes of monikers is that pointer monikers cannot be saved to persistent storage. If you do, calling the [**IMoniker::Save**](ipersiststream-save.md) method returns an error. This means that pointer monikers are useful only in specialized situations. You can use the [**CreatePointerMoniker**](createpointermoniker.md) function if you need to use a pointer moniker.
+Pointer monikers allow objects that exist only in the active or running state to participate in moniker operations and be used by moniker clients. One important difference between pointer monikers and other classes of monikers is that pointer monikers cannot be saved to persistent storage. If you do, calling the [**IMoniker::Save**](/windows/win32/ObjIdl/nf-objidl-ipersiststream-save?branch=master) method returns an error. This means that pointer monikers are useful only in specialized situations. You can use the [**CreatePointerMoniker**](/windows/win32/Objbase/nf-objbase-createpointermoniker?branch=master) function if you need to use a pointer moniker.
 
 ## Related topics
 

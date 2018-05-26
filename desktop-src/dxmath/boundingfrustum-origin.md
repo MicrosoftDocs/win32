@@ -1,12 +1,17 @@
-﻿---
-Description: 'The origin of the BoundingFrustum.'
-ms.assetid: '9cfe75ae-cd9c-41c6-ae05-990d6b27fb04'
-title: 'BoundingFrustum.Origin'
+---
+Description: The origin of the BoundingFrustum.
+ms.assetid: 9cfe75ae-cd9c-41c6-ae05-990d6b27fb04
+title: BoundingFrustum.Origin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum.Origin
 
-The origin of the [**BoundingFrustum**](boundingfrustum.md).
+The origin of the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](boundingfrustum.md)
+[**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

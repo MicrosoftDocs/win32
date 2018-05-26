@@ -1,14 +1,20 @@
 ---
 title: ID2D1Geometry ComputeLength methods
 description: Calculates the length of the geometry as though each segment were unrolled into a line.
-ms.assetid: '4659d880-0aa3-485d-ac71-044d9ace6759'
-keywords: ["ComputeLength methods Direct2D"]
+ms.assetid: 4659d880-0aa3-485d-ac71-044d9ace6759
+keywords:
+- ComputeLength methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::ComputeLength methods
@@ -21,10 +27,10 @@ Calculates the length of the geometry as though each segment were unrolled into 
 
 | Method                                                                                                                          | Description                                                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT\*)**](id2d1geometry-computelength-ref-d2d-matrix-3x2-f-ptr-float.md)              | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT\*)**](id2d1geometry-computelength-ptr-d2d-matrix-3x2-f-ptr-float.md)             | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT,FLOAT\*)**](id2d1geometry-computelength-ref-d2d-matrix-3x2-f-float-ptr-float.md)  | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
-| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT,FLOAT\*)**](id2d1geometry-computelength-ptr-d2d-matrix-3x2-f-float-ptr-float.md) | Calculates the length of the geometry as though each segment were unrolled into a line. <br/> |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT\*)**](/windows/win32/d2d1/?branch=master)              | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT\*)**](/windows/win32/d2d1/?branch=master)             | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F&,FLOAT,FLOAT\*)**](/windows/win32/d2d1/?branch=master)  | Calculates the length of the geometry as though each segment were unrolled into a line.<br/>  |
+| [**ComputeLength(D2D1\_MATRIX\_3X2\_F\*,FLOAT,FLOAT\*)**](/windows/win32/d2d1/?branch=master) | Calculates the length of the geometry as though each segment were unrolled into a line. <br/> |
 
 
 
@@ -82,12 +88,12 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

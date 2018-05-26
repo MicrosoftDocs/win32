@@ -1,7 +1,12 @@
 ---
-Description: 'Applications can manage an activation context by directly calling the activation context functions.'
-ms.assetid: '606147a8-435d-43d4-8fb5-79d2d1a8d870'
+Description: Applications can manage an activation context by directly calling the activation context functions.
+ms.assetid: 606147a8-435d-43d4-8fb5-79d2d1a8d870
 title: Using the Activation Context API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Activation Context API
@@ -12,7 +17,7 @@ The application programming interface (API) can be used to manage the activation
 
 -   Processes and applications that implement indirection or dispatch layers.
 
-    For example, a user managing activation contexts in the event loop. Each time the window is accessed, such as by moving the mouse over the window, [**ActivateActCtx**](activateactctx.md) is called, which activates the current activation context for the resource, as shown in the following code fragment.
+    For example, a user managing activation contexts in the event loop. Each time the window is accessed, such as by moving the mouse over the window, [**ActivateActCtx**](/windows/win32/Winbase/nf-winbase-activateactctx?branch=master) is called, which activates the current activation context for the resource, as shown in the following code fragment.
 
     <dl> HANDLE hActCtx;  
     CreateWindow();  

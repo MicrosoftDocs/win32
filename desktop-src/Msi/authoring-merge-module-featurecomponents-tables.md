@@ -1,7 +1,12 @@
 ---
-Description: 'A blank FeatureComponents table is required in every merge module. This empty table provides a schema for the merge tool if the target .msi file does not have its own FeatureComponents table.'
-ms.assetid: '19463fc7-8362-4943-8907-22c38f66fe25'
+Description: A blank FeatureComponents table is required in every merge module. This empty table provides a schema for the merge tool if the target .msi file does not have its own FeatureComponents table.
+ms.assetid: 19463fc7-8362-4943-8907-22c38f66fe25
 title: Authoring Merge Module FeatureComponents Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Merge Module FeatureComponents Tables

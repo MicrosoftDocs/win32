@@ -4,17 +4,22 @@ description: Local or domain quality of service bits on policy objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8db984d5-2aca-493b-8fa0-8156dd7c453b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8db984d5-2aca-493b-8fa0-8156dd7c453b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Quality-Of-Service attribute AD Schema", "qualityOfService attribute AD Schema"]
+keywords:
+- Quality-Of-Service attribute AD Schema
+- qualityOfService attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Quality-Of-Service
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Quality-Of-Service attribute
@@ -38,12 +43,12 @@ Local or domain quality of service bits on policy objects.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Local or domain quality of service bits on policy objects.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

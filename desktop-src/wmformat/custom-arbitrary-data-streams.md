@@ -1,8 +1,20 @@
 ---
 title: Custom Arbitrary Data Streams
 description: Custom Arbitrary Data Streams
-ms.assetid: '23e93b5d-719f-47dc-9f3b-7bef14161b90'
-keywords: ["Windows Media Format SDK,custom arbitrary data streams", "Advanced Systems Format (ASF),custom arbitrary data streams", "ASF (Advanced Systems Format),custom arbitrary data streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "custom arbitrary data streams"]
+ms.assetid: 23e93b5d-719f-47dc-9f3b-7bef14161b90
+keywords:
+- Windows Media Format SDK,custom arbitrary data streams
+- Advanced Systems Format (ASF),custom arbitrary data streams
+- ASF (Advanced Systems Format),custom arbitrary data streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- custom arbitrary data streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Arbitrary Data Streams

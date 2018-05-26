@@ -1,7 +1,12 @@
 ---
 title: Kerberos v5 Protocol
 description: Kerberos v5 Protocol
-ms.assetid: 'a53a1edf-f374-4cbf-8050-7cde45284157'
+ms.assetid: a53a1edf-f374-4cbf-8050-7cde45284157
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kerberos v5 Protocol
@@ -10,13 +15,13 @@ The Kerberos v5 authentication protocol has an authentication service identifier
 
 Like NTLM, the Kerberos protocol uses the domain name, user name, and password to represent the client's identity. The initial Kerberos ticket obtained from the KDC when the user logs on is based on an encrypted hash of the user's password. This initial ticket is cached. When the user tries to connect to a server, the Kerberos protocol checks the ticket cache for a valid ticket for that server. If one is not available, the initial ticket for the user is sent to the KDC along with a request for a ticket for the specified server. That session ticket is added to the cache, and it can be used to connect to the same server until the ticket expires.
 
-When a server calls [**CoQueryClientBlanket**](coqueryclientblanket.md) using the Kerberos protocol, the client's domain name and user name are returned. When a server calls [**CoImpersonateClient**](coimpersonateclient.md), the client's token is returned. These behaviors are the same as when using NTLM.
+When a server calls [**CoQueryClientBlanket**](/windows/win32/combaseapi/nf-combaseapi-coqueryclientblanket?branch=master) using the Kerberos protocol, the client's domain name and user name are returned. When a server calls [**CoImpersonateClient**](/windows/win32/combaseapi/nf-combaseapi-coimpersonateclient?branch=master), the client's token is returned. These behaviors are the same as when using NTLM.
 
 The Kerberos protocol works across computer boundaries. The client and server computers must both be in domains, and those domains must have a trust relationship.
 
 The Kerberos protocol requires mutual authentication and supports it remotely. The client must specify the principal name of the server, and the server's identity must match that principal name exactly. If the client specifies **NULL** for the server's principal name or if the principal name doesn't match the server, the call will fail.
 
-With the Kerberos protocol, the impersonation levels identify, impersonate, and delegate can be used. When a server calls [**CoImpersonateClient**](coimpersonateclient.md), the token returned is valid off the computer for some time period between 5 minutes and 8 hours. After this time, it can be used on the server computer only. If a server is "run as activator" and the activation is done with the Kerberos protocol, the server's token will expire between 5 minutes and 8 hours after activation.
+With the Kerberos protocol, the impersonation levels identify, impersonate, and delegate can be used. When a server calls [**CoImpersonateClient**](/windows/win32/combaseapi/nf-combaseapi-coimpersonateclient?branch=master), the token returned is valid off the computer for some time period between 5 minutes and 8 hours. After this time, it can be used on the server computer only. If a server is "run as activator" and the activation is done with the Kerberos protocol, the server's token will expire between 5 minutes and 8 hours after activation.
 
 The Kerberos v5 authentication protocol implemented by WindowsÂ supports [cloaking](cloaking.md).
 

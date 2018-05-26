@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the content key IDs.'
-ms.assetid: '886127A1-7612-40FE-8BE7-EA90708E41DA'
-title: 'MF\_EVENT\_STREAM\_METADATA\_CONTENT\_KEYIDS attribute'
+---
+Description: Specifies the content key IDs.
+ms.assetid: 886127A1-7612-40FE-8BE7-EA90708E41DA
+title: MF\_EVENT\_STREAM\_METADATA\_CONTENT\_KEYIDS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_STREAM\_METADATA\_CONTENT\_KEYIDS attribute

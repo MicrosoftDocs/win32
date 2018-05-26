@@ -1,12 +1,17 @@
 ---
-Description: 'The Unicode subset bitfields (USBs) are used in the FONTSIGNATURE and LOCALESIGNATURE structures.'
-ms.assetid: 'f897dfc7-3e78-48dc-8d3d-6929e2f4ec4d'
+Description: The Unicode subset bitfields (USBs) are used in the FONTSIGNATURE and LOCALESIGNATURE structures.
+ms.assetid: f897dfc7-3e78-48dc-8d3d-6929e2f4ec4d
 title: Unicode Subset Bitfields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unicode Subset Bitfields
 
-The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](fontsignature.md) and [**LOCALESIGNATURE**](localesignature.md) structures.
+The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows/win32/Wingdi/ns-wingdi-tagfontsignature?branch=master) and [**LOCALESIGNATURE**](/windows/win32/Wingdi/ns-wingdi-taglocalesignature?branch=master) structures.
 
 
 

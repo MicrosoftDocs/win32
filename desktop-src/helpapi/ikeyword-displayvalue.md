@@ -1,8 +1,11 @@
 ---
 title: IKeyword DisplayValue property
 description: Display value of the keyword
-ms.assetid: '52b0801c-ec5d-404f-a31a-3a5fa01385b0'
-keywords: ["DisplayValue property HelpAPI", "DisplayValue property HelpAPI , IKeyword interface", "IKeyword interface HelpAPI , DisplayValue property"]
+ms.assetid: 52b0801c-ec5d-404f-a31a-3a5fa01385b0
+keywords:
+- DisplayValue property HelpAPI
+- DisplayValue property HelpAPI , IKeyword interface
+- IKeyword interface HelpAPI , DisplayValue property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKeyword::DisplayValue property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DisplayValue(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The display value of the keyword.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The display value of the keyword.
 [**IKeyword**](ikeyword.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

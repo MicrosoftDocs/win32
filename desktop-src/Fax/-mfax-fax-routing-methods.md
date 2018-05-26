@@ -1,7 +1,12 @@
 ---
-Description: 'A fax routing method is a procedure defined by a fax routing extension DLL. Fax routing methods execute, in order of priority, when a fax port receives an inbound fax transmission.'
-ms.assetid: 'a2144af9-9101-478f-93b9-393101dc1936'
+Description: A fax routing method is a procedure defined by a fax routing extension DLL. Fax routing methods execute, in order of priority, when a fax port receives an inbound fax transmission.
+ms.assetid: a2144af9-9101-478f-93b9-393101dc1936
 title: Fax Routing Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Routing Methods

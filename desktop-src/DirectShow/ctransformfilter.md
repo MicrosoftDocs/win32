@@ -1,7 +1,12 @@
 ---
-Description: 'The CTransformFilter class is a base class for implementing transform filters.'
-ms.assetid: '99db8252-a8db-4995-b4be-a6cf944be869'
+Description: The CTransformFilter class is a base class for implementing transform filters.
+ms.assetid: 99db8252-a8db-4995-b4be-a6cf944be869
 title: CTransformFilter class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter class
@@ -32,7 +37,7 @@ Depending on the filter, you might want to register some of the filter's support
 
 ## Streaming
 
-This class does not queue the output data. Each output sample is delivered inside the [**IMemInputPin::Receive**](imeminputpin-receive.md) method. The **Receive** method calls the filter's [**Transform**](ctransformfilter-transform.md) method (also pure virtual) to process the data.
+This class does not queue the output data. Each output sample is delivered inside the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method. The **Receive** method calls the filter's [**Transform**](ctransformfilter-transform.md) method (also pure virtual) to process the data.
 
 For more information about using this class, see [Writing Transform Filters](writing-transform-filters.md).
 
@@ -79,7 +84,7 @@ For more information about using this class, see [Writing Transform Filters](wri
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -92,9 +97,9 @@ For more information about using this class, see [Writing Transform Filters](wri
 
 
 
- 
+ 
 
- 
+ 
 
 
 

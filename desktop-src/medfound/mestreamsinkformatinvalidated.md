@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by a stream sink when the downstream format has become invalidated and it needs to be renegotiated.'
-ms.assetid: '732B3BDD-F394-430F-B895-AF18ED61114D'
+---
+Description: Sent by a stream sink when the downstream format has become invalidated and it needs to be renegotiated.
+ms.assetid: 732B3BDD-F394-430F-B895-AF18ED61114D
 title: MEStreamSinkFormatInvalidated event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEStreamSinkFormatInvalidated event
@@ -10,7 +15,7 @@ Sent by a stream sink when the downstream format has become invalidated and it n
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

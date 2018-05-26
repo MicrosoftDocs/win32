@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to set receipt options.'
-ms.assetid: '4558e770-c6ae-4892-a2b3-40c59f6275fa'
+Description: The following Microsoft Visual Basic code example demonstrates how to set receipt options.
+ms.assetid: 4558e770-c6ae-4892-a2b3-40c59f6275fa
 title: Setting Receipt Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Receipt Options

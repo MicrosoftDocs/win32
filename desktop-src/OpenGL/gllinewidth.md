@@ -1,8 +1,9 @@
 ---
 title: glLineWidth function
 description: The glLineWidth function specifies the width of rasterized lines.
-ms.assetid: '13a69fd7-5eee-42ec-bd05-5bd3c838d4d7'
-keywords: ["glLineWidth function OpenGL"]
+ms.assetid: 13a69fd7-5eee-42ec-bd05-5bd3c838d4d7
+keywords:
+- glLineWidth function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLineWidth function
@@ -22,7 +28,7 @@ The **glLineWidth** function specifies the width of rasterized lines.
 
 ```C++
 void WINAPI glLineWidth(
-   GLfloat width
+   GLfloat width
 );
 ```
 
@@ -99,8 +105,8 @@ The following functions retrieve information related to **glLineWidth**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -123,9 +129,9 @@ The following functions retrieve information related to **glLineWidth**:
 [**glIsEnabled**](glisenabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

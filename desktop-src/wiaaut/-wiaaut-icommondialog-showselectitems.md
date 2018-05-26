@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowSelectItems method
 description: Displays a dialog box that enables the user to select an Item for transfer from a hardware device for image acquisition.
-ms.assetid: 'c02f6143-2bff-4a42-81f7-e2295604a1ee'
-keywords: ["ShowSelectItems method WIA Automation", "ShowSelectItems method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowSelectItems method"]
+ms.assetid: c02f6143-2bff-4a42-81f7-e2295604a1ee
+keywords:
+- ShowSelectItems method WIA Automation
+- ShowSelectItems method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowSelectItems method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowSelectItems method
@@ -61,7 +69,7 @@ Type: **[**WiaImageIntent**](-wiaaut-wiaimageintent.md)**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,7 +88,7 @@ Type: **[**WiaImageBias**](-wiaaut-wiaimagebias.md)**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -100,7 +108,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -120,7 +128,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -140,7 +148,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -160,8 +168,8 @@ For example code, see [Count the Number of Child Items Available for Transfer](-
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -213,9 +221,9 @@ For example code, see [Count the Number of Child Items Available for Transfer](-
 [**WiaImageIntent**](-wiaaut-wiaimageintent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

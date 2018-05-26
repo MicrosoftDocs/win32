@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an additional enumerator that contains the same enumeration state as the current one.'
-ms.assetid: 'b4027520-62cc-40d4-b9fd-01fa9c652a54'
-title: 'IEnumPStoreTypes::Clone method'
+---
+Description: Creates an additional enumerator that contains the same enumeration state as the current one.
+ms.assetid: b4027520-62cc-40d4-b9fd-01fa9c652a54
+title: IEnumPStoreTypesClone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreTypes::Clone method

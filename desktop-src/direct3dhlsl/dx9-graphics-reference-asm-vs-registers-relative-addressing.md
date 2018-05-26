@@ -1,7 +1,12 @@
 ---
 title: Relative Addressing
 description: The \ \ syntax can be used only in register types that can be relatively addressed in certain shader models.
-ms.assetid: '9f9d2499-73a5-4c9d-9dce-94c914933334'
+ms.assetid: 9f9d2499-73a5-4c9d-9dce-94c914933334
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relative Addressing

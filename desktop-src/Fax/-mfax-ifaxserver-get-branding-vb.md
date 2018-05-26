@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the Branding property for a FaxServer object. The Branding property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.'
-ms.assetid: '79552927-191f-48c8-a456-44f669ce418b'
-title: 'FaxServer.Branding property'
+---
+Description: Sets or retrieves the Branding property for a FaxServer object. The Branding property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
+ms.assetid: 79552927-191f-48c8-a456-44f669ce418b
+title: FaxServer.Branding property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Branding property

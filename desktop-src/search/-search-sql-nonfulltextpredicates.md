@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Windows Search query language supports six non-full-text search predicates. The predicates described in this section are listed in the following table.'
-ms.assetid: '74aa6dbc-5c0d-433e-96d9-a8db63907342'
-title: 'Non-Full-Text Predicates'
+Description: The Microsoft Windows Search query language supports six non-full-text search predicates. The predicates described in this section are listed in the following table.
+ms.assetid: 74aa6dbc-5c0d-433e-96d9-a8db63907342
+title: Non-Full-Text Predicates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Non-Full-Text Predicates

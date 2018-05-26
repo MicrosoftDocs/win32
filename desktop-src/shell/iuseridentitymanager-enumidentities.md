@@ -1,7 +1,12 @@
-﻿---
-Description: 'IUserIdentityManager::EnumIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: '8111fbcd-dc4d-45cb-83e0-3c2cd7c4df27'
-title: 'IUserIdentityManager::EnumIdentities method'
+---
+Description: IUserIdentityManagerEnumIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: 8111fbcd-dc4d-45cb-83e0-3c2cd7c4df27
+title: IUserIdentityManagerEnumIdentities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUserIdentityManager::EnumIdentities method

@@ -1,7 +1,12 @@
 ---
 Description: Interlaced Video Encoding
-ms.assetid: '7695d4e3-4a75-4972-ab02-bc532d6a4dce'
+ms.assetid: 7695d4e3-4a75-4972-ab02-bc532d6a4dce
 title: Interlaced Video Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interlaced Video Encoding

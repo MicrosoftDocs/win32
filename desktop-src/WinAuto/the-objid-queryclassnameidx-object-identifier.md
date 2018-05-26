@@ -1,7 +1,12 @@
 ---
 title: The OBJID\_QUERYCLASSNAMEIDX Object Identifier
 description: Microsoft Active Accessibility uses the OBJID\_QUERYCLASSNAMEIDX object identifier with the WM\_GETOBJECT message to determine the class to which a standard Windows control or common control belongs.
-ms.assetid: '2167df6d-5df3-40b7-bebe-142f4bd98cd7'
+ms.assetid: 2167df6d-5df3-40b7-bebe-142f4bd98cd7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The OBJID\_QUERYCLASSNAMEIDX Object Identifier

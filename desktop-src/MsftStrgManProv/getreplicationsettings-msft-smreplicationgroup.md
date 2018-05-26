@@ -4,11 +4,14 @@ description: Retrieves the replication settings for a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '19963f70-cf9d-4721-b321-8298aac84deb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 19963f70-cf9d-4721-b321-8298aac84deb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetReplicationSettings method", "GetReplicationSettings method, MSFT_SMReplicationGroup class", "MSFT_SMReplicationGroup class, GetReplicationSettings method"]
+keywords:
+- GetReplicationSettings method
+- GetReplicationSettings method, MSFT_SMReplicationGroup class
+- MSFT_SMReplicationGroup class, GetReplicationSettings method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetReplicationSettings method of the MSFT\_SMReplicationGroup class
@@ -28,11 +34,11 @@ Retrieves the replication settings for a replication group.
 
 ```mof
 UInt32 GetReplicationSettings(
-  [out]           MSFT_SMReplicationSettings REF ReplicationSettings,
-  [in, optional]  String                         username,
-  [in, optional]  String                         password,
-  [out]           MSFT_SMJob                 REF Job,
-  [out, optional] MSFT_SMExtendedStatus          ExtendedStatus
+  [out]           MSFT_SMReplicationSettings REF ReplicationSettings,
+  [in, optional]  String                         username,
+  [in, optional]  String                         password,
+  [out]           MSFT_SMJob                 REF Job,
+  [out, optional] MSFT_SMExtendedStatus          ExtendedStatus
 );
 ```
 
@@ -88,7 +94,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -102,9 +108,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

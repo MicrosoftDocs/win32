@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiPatchOldAssemblyFile table relates a file in the File table to an assembly name in the MsiPatchOldAssemblyName table. Multiple old assembly names can be associated with a single file.'
-ms.assetid: 'a3c1e7fb-5f97-41db-bdc8-bd3ddb695c42'
+Description: The MsiPatchOldAssemblyFile table relates a file in the File table to an assembly name in the MsiPatchOldAssemblyName table. Multiple old assembly names can be associated with a single file.
+ms.assetid: a3c1e7fb-5f97-41db-bdc8-bd3ddb695c42
 title: MsiPatchOldAssemblyFile Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchOldAssemblyFile Table

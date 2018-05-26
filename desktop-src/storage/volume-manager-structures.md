@@ -1,7 +1,12 @@
 ---
 title: Volume Manager Structures
 description: Volume Manager Structures
-ms.assetid: '1dafc4a9-cfb1-4561-a05c-34d147fcf9dd'
+ms.assetid: 1dafc4a9-cfb1-4561-a05c-34d147fcf9dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Manager Structures

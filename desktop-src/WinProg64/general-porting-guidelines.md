@@ -1,8 +1,15 @@
 ---
 title: General Porting Guidelines
 description: Porting 32-bit applications to 64-bit Microsoft Windows will be easier than it was porting 16-bit applications to 32-bit Windows. However, the move will go more smoothly with some careful planning. The following are some general guidelines.
-ms.assetid: '28c1656e-93a2-441b-8946-18017e0b2b29'
-keywords: ["porting 32-bit applications to 64-bit Windows 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , porting guidelines"]
+ms.assetid: 28c1656e-93a2-441b-8946-18017e0b2b29
+keywords:
+- porting 32-bit applications to 64-bit Windows 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , porting guidelines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Porting Guidelines

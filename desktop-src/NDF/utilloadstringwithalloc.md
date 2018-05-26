@@ -1,8 +1,9 @@
 ---
 title: UtilLoadStringWithAlloc function
 description: Allocates and loads a string out of the resource table.
-ms.assetid: '34bf0b93-2bec-49c3-9441-c83686c4abdb'
-keywords: ["UtilLoadStringWithAlloc function NDF"]
+ms.assetid: 34bf0b93-2bec-49c3-9441-c83686c4abdb
+keywords:
+- UtilLoadStringWithAlloc function NDF
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UtilLoadStringWithAlloc function
@@ -22,9 +28,9 @@ The **UtilLoadStringWithAlloc** function allocates and loads a string out of the
 
 ```C++
 HRESULT UtilLoadStringWithAlloc(
-  _In_  UINT   uID,
-  _Out_ LPWSTR *ppwzBuffer,
-  _In_  UINT   cchBufferMax
+  _In_  UINT   uID,
+  _Out_ LPWSTR *ppwzBuffer,
+  _In_  UINT   cchBufferMax
 );
 ```
 
@@ -62,7 +68,7 @@ The maximum number of characters to load from the resource table. If the resourc
 > [!Note]  
 > This parameter may not be set to zero.
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,7 +87,7 @@ Possible return values include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +95,8 @@ Possible return values include, but are not limited to, the following.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
 
 
@@ -108,9 +114,9 @@ Possible return values include, but are not limited to, the following.
 [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

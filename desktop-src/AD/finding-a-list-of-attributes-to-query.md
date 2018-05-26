@@ -4,11 +4,15 @@ description: When searching for objects of a particular class, comparisons in yo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '19d52933-e4b0-414f-9785-871e624da07b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 19d52933-e4b0-414f-9785-871e624da07b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Finding a List of Attributes To Query AD"]
+keywords:
+- Finding a List of Attributes To Query AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Finding a List of Attributes To Query

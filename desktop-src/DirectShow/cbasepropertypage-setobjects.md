@@ -1,7 +1,12 @@
 ---
-Description: 'The SetObjects method provides IUnknown pointers for the objects associated with the property page. This method implements the IPropertyPage::SetObjects method.'
-ms.assetid: '11ca1e70-772c-414e-9647-7e4c4084c0d3'
-title: 'CBasePropertyPage.SetObjects method'
+Description: The SetObjects method provides IUnknown pointers for the objects associated with the property page. This method implements the IPropertyPageSetObjects method.
+ms.assetid: 11ca1e70-772c-414e-9647-7e4c4084c0d3
+title: CBasePropertyPage.SetObjects method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.SetObjects method
@@ -13,8 +18,8 @@ The `SetObjects` method provides **IUnknown** pointers for the objects associate
 
 ```C++
 HRESULT SetObjects(
-   ULONG     cObjects,
-   LPUNKNOWN *ppUnk
+   ULONG     cObjects,
+   LPUNKNOWN *ppUnk
 );
 ```
 
@@ -52,7 +57,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +83,9 @@ If *cObjects* equals 1, this method calls the [**CBasePropertyPage::OnConnect**]
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

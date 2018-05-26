@@ -1,14 +1,20 @@
 ---
 title: RenderingInfoType Complex Type
 description: Defines the rendered messages for the event.
-ms.assetid: '85a4cfc6-6277-4af8-af4e-cae3bd3aac13'
-keywords: ["RenderingInfoType complex type EventLog"]
+ms.assetid: 85a4cfc6-6277-4af8-af4e-cae3bd3aac13
+keywords:
+- RenderingInfoType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - RenderingInfoType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RenderingInfoType Complex Type
@@ -109,14 +115,14 @@ Only events that have been collected using the [Windows Event Collector](https:/
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

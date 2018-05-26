@@ -1,7 +1,12 @@
 ---
 title: NV Cache Manager Structures
 description: NV Cache Manager Structures
-ms.assetid: '4b690830-e838-43e0-b819-ca9cd4fbf1ac'
+ms.assetid: 4b690830-e838-43e0-b819-ca9cd4fbf1ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NV Cache Manager Structures

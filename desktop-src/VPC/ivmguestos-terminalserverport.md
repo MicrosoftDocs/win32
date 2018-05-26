@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS TerminalServerPort property
 description: Port used by Remote Desktop Services in the guest operating system.
-ms.assetid: '25a9114a-0992-4a9d-997a-37138d389970'
-keywords: ["TerminalServerPort property Virtual PC", "TerminalServerPort property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , TerminalServerPort property"]
+ms.assetid: 25a9114a-0992-4a9d-997a-37138d389970
+keywords:
+- TerminalServerPort property Virtual PC
+- TerminalServerPort property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , TerminalServerPort property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - IVMGuestOS.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::TerminalServerPort property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Port used by Remote Desktop Services (formerly known as Terminal Services) in the guest operating system.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_TerminalServerPort(
-  [out, retval] long *tsPort = 3389
+  [out, retval] long *tsPort = 3389
 );
 ```
 
@@ -42,12 +50,12 @@ Returns the port used by Remote Desktop Services in the guest operating system.
 | Value                                                                              | Meaning                                       |
 |------------------------------------------------------------------------------------|-----------------------------------------------|
 | <dl> <dt>3389</dt> </dl>    | Default value<br/>                      |
-| <dl> <dt>1–65535</dt> </dl> | Valid range<br/>                        |
+| <dl> <dt>1 65535</dt> </dl> | Valid range<br/>                        |
 | <dl> <dt>0</dt> </dl>       | Valid port value is not available.<br/> |
 
 
 
- 
+ 
 
 ## Error codes
 
@@ -76,9 +84,9 @@ If the [**TerminalServicesInitialized**](ivmguestos-terminalservicesinitialized.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                      |
+| End of client support<br/>    | Windows 7<br/>                                                                      |
 | IDL<br/>                      | <dl> <dt>IVMGuestOS.idl</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>             |
 
@@ -91,9 +99,9 @@ If the [**TerminalServicesInitialized**](ivmguestos-terminalservicesinitialized.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

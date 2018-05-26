@@ -1,8 +1,17 @@
 ---
 title: Using Multiple Bit Rate Mutual Exclusion
 description: Using Multiple Bit Rate Mutual Exclusion
-ms.assetid: '69898b4d-fe10-422e-9ed2-87b65aa7bdb3'
-keywords: ["multiple bit rate (MBR),mutual exclusion", "MBR (multiple bit rate),mutual exclusion", "mutual exclusion,multiple bit rate (MBR)", "profiles,multiple bit rate (MBR)"]
+ms.assetid: 69898b4d-fe10-422e-9ed2-87b65aa7bdb3
+keywords:
+- multiple bit rate (MBR),mutual exclusion
+- MBR (multiple bit rate),mutual exclusion
+- mutual exclusion,multiple bit rate (MBR)
+- profiles,multiple bit rate (MBR)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Multiple Bit Rate Mutual Exclusion
@@ -135,22 +144,22 @@ pProfileMgr = NULL;
 
 <dl> <dt>
 
-[**IWMMediaProps Interface**](iwmmediaprops.md)
+[**IWMMediaProps Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmediaprops?branch=master)
 </dt> <dt>
 
-[**IWMMutualExclusion Interface**](iwmmutualexclusion.md)
+[**IWMMutualExclusion Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion?branch=master)
 </dt> <dt>
 
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMStreamConfig Interface**](iwmstreamconfig.md)
+[**IWMStreamConfig Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig?branch=master)
 </dt> <dt>
 
 [**Using Mutual Exclusion**](using-mutual-exclusion.md)
 </dt> <dt>
 
-[**WM\_MEDIA\_TYPE**](wm-media-type.md)
+[**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master)
 </dt> </dl>
 
  

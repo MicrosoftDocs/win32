@@ -1,13 +1,16 @@
 ---
-Description: 'Limits the internal resources that are used by operations initiated by WMI clients.'
+Description: Limits the internal resources that are used by operations initiated by WMI clients.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e877899d-2f5e-4468-8c47-055fd4d16f56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e877899d-2f5e-4468-8c47-055fd4d16f56
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ArbitratorConfiguration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ArbitratorConfiguration class
@@ -341,8 +344,8 @@ Unused. Maximum number of connected users.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | Root<br/>                |
 
 
@@ -357,9 +360,9 @@ Unused. Maximum number of connected users.
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCountI method retrieves the number of items in the list.'
-ms.assetid: '1c6f6a3b-8604-44e4-a5fc-b29fa6869173'
-title: 'CBaseList.GetCountI method'
+Description: The GetCountI method retrieves the number of items in the list.
+ms.assetid: 1c6f6a3b-8604-44e4-a5fc-b29fa6869173
+title: CBaseList.GetCountI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.GetCountI method
@@ -43,9 +48,9 @@ Returns the number of items in the list.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

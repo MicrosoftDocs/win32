@@ -1,7 +1,12 @@
 ---
-Description: 'Care must be taken when using the Kerberos security support provider (SSP) if interoperability with GSSAPI is a requirement.'
-ms.assetid: '3ab29ee9-42d8-498b-b507-13f8efa0b0e2'
-title: 'SSPI/Kerberos Interoperability with GSSAPI'
+Description: Care must be taken when using the Kerberos security support provider (SSP) if interoperability with GSSAPI is a requirement.
+ms.assetid: 3ab29ee9-42d8-498b-b507-13f8efa0b0e2
+title: SSPI/Kerberos Interoperability with GSSAPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSPI/Kerberos Interoperability with GSSAPI
@@ -24,15 +29,15 @@ Authentication is usually handled when a connection is first set up between a cl
 
 **To set up authentication in the SSPI client**
 
-1.  Get outbound [*credentials*](security.c_gly#-security-credentials-gly) by using [**AcquireCredentialsHandle**](acquirecredentialshandle--general-.md).
+1.  Get outbound [*credentials*](security.c_gly#-security-credentials-gly) by using [**AcquireCredentialsHandle**](/windows/win32/Sspi/?branch=master).
 2.  Create a service name with **gss\_import\_name()** and get inbound credentials by using **gss\_aquire\_cred**.
-3.  Get an authentication token to send to the server by using [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos-.md).
+3.  Get an authentication token to send to the server by using [**InitializeSecurityContext (Kerberos)**](/windows/win32/Sspi/?branch=master).
 4.  Send the token to the server.
 
 **To set up authentication in the GSSAPI server**
 
 1.  Parse the message from the client to extract the security token. Use the **gss\_accept\_sec\_context** function, passing the token as an argument.
-2.  Parse the message from the server to extract the security token. Pass this security token to [**InitializeSecurityContext (Kerberos)**](initializesecuritycontext--kerberos-.md).
+2.  Parse the message from the server to extract the security token. Pass this security token to [**InitializeSecurityContext (Kerberos)**](/windows/win32/Sspi/?branch=master).
 3.  Send a response token to the client.
 
     The **gss\_accept\_sec\_context** function can return a token that you can send back to the client.
@@ -44,16 +49,16 @@ Authentication is usually handled when a connection is first set up between a cl
 
 Most GSSAPI-based applications use the **GSS\_Wrap** function to sign a message before sending it. Conversely, the **GSS\_Unwrap** function verifies the signature. **GSS\_Wrap** is available in version 2.0 of the API and is now widely used and specified in Internet standards that describe using the GSSAPI for adding security to protocols. Earlier, the GSS **SignMessage** and **SealMessage** functions were used for message [*integrity*](security.i_gly#-security-integrity-gly) and [*privacy*](security.p_gly#-security-privacy-gly). **GSS\_Wrap** and **GSS\_Unwrap** are used for both integrity and privacy with the use of privacy controlled by the value of the "conf\_flag" argument.
 
-If a GSSAPI-based protocol is specified to use the **gss\_get\_mic** and **gss\_verify\_mic** functions, the correct SSPI functions would be [**MakeSignature**](makesignature.md) and [**VerifySignature**](verifysignature.md). Be aware that **MakeSignature** and **VerifySignature** will not interoperate with **GSS\_Wrap** when conf\_flag is set to zero, or with **GSS\_Wrap**. The same is true for mixing [**EncryptMessage (Kerberos)**](encryptmessage--kerberos-.md) set for signature only and **gss\_verify\_mic**.
+If a GSSAPI-based protocol is specified to use the **gss\_get\_mic** and **gss\_verify\_mic** functions, the correct SSPI functions would be [**MakeSignature**](/windows/win32/Sspi/nf-sspi-makesignature?branch=master) and [**VerifySignature**](/windows/win32/Sspi/nf-sspi-verifysignature?branch=master). Be aware that **MakeSignature** and **VerifySignature** will not interoperate with **GSS\_Wrap** when conf\_flag is set to zero, or with **GSS\_Wrap**. The same is true for mixing [**EncryptMessage (Kerberos)**](/windows/win32/Sspi/?branch=master) set for signature only and **gss\_verify\_mic**.
 
 > [!Note]  
-> Do not use the [**MakeSignature**](makesignature.md) or [**VerifySignature**](verifysignature.md) functions when **GSS\_Wrap** and **GSS\_Unwrap** are called for.
+> Do not use the [**MakeSignature**](/windows/win32/Sspi/nf-sspi-makesignature?branch=master) or [**VerifySignature**](/windows/win32/Sspi/nf-sspi-verifysignature?branch=master) functions when **GSS\_Wrap** and **GSS\_Unwrap** are called for.
 
  
 
-The SSPI equivalent to **GSS\_Wrap** is [**EncryptMessage (Kerberos)**](encryptmessage--kerberos-.md) for both integrity and privacy.
+The SSPI equivalent to **GSS\_Wrap** is [**EncryptMessage (Kerberos)**](/windows/win32/Sspi/?branch=master) for both integrity and privacy.
 
-The following example shows using [**EncryptMessage (Kerberos)**](encryptmessage--kerberos-.md) to sign data that will be verified by **GSS\_Unwrap**.
+The following example shows using [**EncryptMessage (Kerberos)**](/windows/win32/Sspi/?branch=master) to sign data that will be verified by **GSS\_Unwrap**.
 
 In the SSPI client:
 
@@ -99,7 +104,7 @@ maj_stat = gss_unwrap(&amp;min_stat, context, &amp;recv_buf, &amp;msg_buf,
 
 
 
-The SSPI equivalent to **GSS\_Unwrap** is [**DecryptMessage (Kerberos)**](decryptmessage--kerberos-.md). Here is an example that shows how to use **DecryptMessage (Kerberos)** to decrypt data that was encrypted by **GSS\_Wrap**.
+The SSPI equivalent to **GSS\_Unwrap** is [**DecryptMessage (Kerberos)**](/windows/win32/Sspi/?branch=master). Here is an example that shows how to use **DecryptMessage (Kerberos)** to decrypt data that was encrypted by **GSS\_Wrap**.
 
 In the GSSAPI server:
 

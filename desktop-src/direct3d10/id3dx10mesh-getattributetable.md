@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.'
-ms.assetid: 'cee49eba-c113-49f5-a702-c366401f1f2d'
-title: 'ID3DX10Mesh::GetAttributeTable method'
+---
+Description: Retrieves either an attribute table for a mesh, or the number of entries stored in an attribute table for a mesh.
+ms.assetid: cee49eba-c113-49f5-a702-c366401f1f2d
+title: ID3DX10MeshGetAttributeTable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetAttributeTable method

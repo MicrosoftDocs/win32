@@ -1,8 +1,11 @@
 ---
 title: Network.getProxyExceptionList method
 description: The getProxyExceptionList method retrieves the proxy exception list.
-ms.assetid: 'ddd3a6b2-3637-4da1-b3ce-f01364e8b818'
-keywords: ["getProxyExceptionList method Windows Media Player", "getProxyExceptionList method Windows Media Player , Network class", "Network class Windows Media Player , getProxyExceptionList method"]
+ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
+keywords:
+- getProxyExceptionList method Windows Media Player
+- getProxyExceptionList method Windows Media Player , Network class
+- Network class Windows Media Player , getProxyExceptionList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.getProxyExceptionList method
@@ -102,9 +110,9 @@ document.write("The current MMS proxy exception list: " + proxyExceptionListMMS)
 [**Network.getProxySettings**](network-getproxysettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

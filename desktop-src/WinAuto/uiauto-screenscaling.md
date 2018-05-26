@@ -1,8 +1,19 @@
 ---
 title: Understanding Screen Scaling Issues
 description: Windows Vista and later versions of the operating system enable users to change the dots per inch (dpi) setting so that most UI elements on the screen appear larger.
-ms.assetid: '27dc49e7-2466-4ea3-a6d9-5ea86d6b4c60'
-keywords: ["clients,UI Automation screen scaling", "clients,screen scaling", "clients,scaling", "UI Automation,screen scaling", "UI Automation,scaling", "screen scaling"]
+ms.assetid: 27dc49e7-2466-4ea3-a6d9-5ea86d6b4c60
+keywords:
+- clients,UI Automation screen scaling
+- clients,screen scaling
+- clients,scaling
+- UI Automation,screen scaling
+- UI Automation,scaling
+- screen scaling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Screen Scaling Issues
@@ -37,14 +48,14 @@ Logical coordinates are important, because they make the behavior of the operati
 
 The UI Automation API does not use logical coordinates. The following methods and properties return physical coordinates or take physical coordinates as parameters.
 
--   [**IUIAutomation::ElementFromPoint**](uiauto-iuiautomation-elementfrompoint.md)
--   [**IUIAutomation::ElementFromPointBuildCache**](uiauto-iuiautomation-elementfrompointbuildcache.md)
--   [**IUIAutomationElement::GetClickablePoint**](uiauto-iuiautomationelement-getclickablepoint.md)
--   [**IUIAutomationElement::CurrentBoundingRectangle**](uiauto-iuiautomationelement-currentboundingrectangle.md)
--   [**IUIAutomationElement::CachedBoundingRectangle**](uiauto-iuiautomationelement-cachedboundingrectangle.md)
--   [**IRawElementProviderFragment::BoundingRectangle**](uiauto-irawelementproviderfragment-boundingrectangle.md)
+-   [**IUIAutomation::ElementFromPoint**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-elementfrompoint?branch=master)
+-   [**IUIAutomation::ElementFromPointBuildCache**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-elementfrompointbuildcache?branch=master)
+-   [**IUIAutomationElement::GetClickablePoint**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getclickablepoint?branch=master)
+-   [**IUIAutomationElement::CurrentBoundingRectangle**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentboundingrectangle?branch=master)
+-   [**IUIAutomationElement::CachedBoundingRectangle**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedboundingrectangle?branch=master)
+-   [**IRawElementProviderFragment::BoundingRectangle**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-get_boundingrectangle?branch=master)
 
-By default, UI Automation applications that are running in an environment that is not set to 96 dpi will not obtain correct results from these methods and properties. For example, because the cursor position is in logical coordinates, the client cannot pass these coordinates to [**IUIAutomation::ElementFromPoint**](uiauto-iuiautomation-elementfrompoint.md) to obtain the element that is under the cursor. In addition, the application will not be able to correctly place windows outside its client area.
+By default, UI Automation applications that are running in an environment that is not set to 96 dpi will not obtain correct results from these methods and properties. For example, because the cursor position is in logical coordinates, the client cannot pass these coordinates to [**IUIAutomation::ElementFromPoint**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-elementfrompoint?branch=master) to obtain the element that is under the cursor. In addition, the application will not be able to correctly place windows outside its client area.
 
 The solution has two parts.
 

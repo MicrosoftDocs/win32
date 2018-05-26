@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information on what''s new in the Fax Service for Windows XP.'
-ms.assetid: '66bccf4e-85b3-4341-bc62-e9054018b532'
-title: 'What''s New in Windows XP and Windows Server 2003'
+Description: This topic provides information on whats new in the Fax Service for Windows XP.
+ms.assetid: 66bccf4e-85b3-4341-bc62-e9054018b532
+title: Whats New in Windows XP and Windows Server 2003
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Windows XP and Windows Server 2003

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the maximum number of animation sets the animation controller can support.'
-ms.assetid: 'c4102fc6-2e4e-4e4d-b0ef-989344eb3855'
-title: 'ID3DXAnimationController::GetMaxNumAnimationSets method'
+---
+Description: Gets the maximum number of animation sets the animation controller can support.
+ms.assetid: c4102fc6-2e4e-4e4d-b0ef-989344eb3855
+title: ID3DXAnimationControllerGetMaxNumAnimationSets method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetMaxNumAnimationSets method

@@ -1,7 +1,12 @@
 ---
 title: Mouse Input Functions
 description: .
-ms.assetid: 'a666b25b-a75c-4500-8077-fabe07589a1d'
+ms.assetid: a666b25b-a75c-4500-8077-fabe07589a1d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mouse Input Functions
@@ -83,11 +88,11 @@ The [<strong>_TrackMouseEvent</strong>](-trackmouseevent.md) function calls [<st
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

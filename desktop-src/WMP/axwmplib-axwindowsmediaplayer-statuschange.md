@@ -1,8 +1,9 @@
 ---
 title: StatusChange Event of the AxWindowsMediaPlayer Object
 description: The StatusChange event occurs when the status property changes value.
-ms.assetid: '5295fccb-7be0-46d3-85ba-b481e575d393'
-keywords: ["StatusChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 5295fccb-7be0-46d3-85ba-b481e575d393
+keywords:
+- StatusChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StatusChange Event of the AxWindowsMediaPlayer Object
@@ -57,9 +63,9 @@ This event does not contain data.
 [**AxWindowsMediaPlayer.status (VB and C#)**](axwmplib-axwindowsmediaplayer-status--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

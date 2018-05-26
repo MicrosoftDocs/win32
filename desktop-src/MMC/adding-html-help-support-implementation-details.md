@@ -4,11 +4,15 @@ description: Adding HTML Help Support Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1c79e2ce-3b4a-4977-a3ef-65517fcae735'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1c79e2ce-3b4a-4977-a3ef-65517fcae735
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["adding HTML Help support implementation details MMC"]
+keywords:
+- adding HTML Help support implementation details MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding HTML Help Support: Implementation Details

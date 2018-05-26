@@ -1,7 +1,12 @@
 ---
 Description: People Near Me APIs
-ms.assetid: '3b142d23-a9b2-465c-9bdc-484afbde154e'
+ms.assetid: 3b142d23-a9b2-465c-9bdc-484afbde154e
 title: People Near Me APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # People Near Me APIs

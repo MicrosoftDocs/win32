@@ -4,11 +4,13 @@ description: The base class for the provider instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c3c6efda-faa7-42af-a635-060967fdcc35'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c3c6efda-faa7-42af-a635-060967fdcc35
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ReplicationProvider1 class Active Directory", "ReplicationProvider1 class Active Directory , described"]
+keywords:
+- ReplicationProvider1 class Active Directory
+- ReplicationProvider1 class Active Directory , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - replprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReplicationProvider1 class
@@ -54,30 +59,30 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class ReplicationProvider1 : __Win32Provider
 {
-  string   ClientLoadableCLSID;
-  string   CLSID;
-  sint32   Concurrency;
-  string   DefaultMachineName;
-  boolean  Enabled;
-  sint32   ImpersonationLevel = 0;
-  sint32   InitializationReentrancy = 0;
+  string   ClientLoadableCLSID;
+  string   CLSID;
+  sint32   Concurrency;
+  string   DefaultMachineName;
+  boolean  Enabled;
+  sint32   ImpersonationLevel = 0;
+  sint32   InitializationReentrancy = 0;
   datetime InitializationTimeoutInterval;
-  boolean  InitializeAsAdminFirst;
-  string   Name;
+  boolean  InitializeAsAdminFirst;
+  string   Name;
   datetime OperationTimeoutInterval;
-  boolean  PerLocaleInitialization = FALSE;
-  boolean  PerUserInitialization = FALSE;
-  boolean  Pure = TRUE;
-  string   SecurityDescriptor;
-  boolean  SupportsExplicitShutdown;
-  boolean  SupportsExtendedStatus;
-  boolean  SupportsQuotas;
-  boolean  SupportsSendStatus;
-  boolean  SupportsShutdown;
-  boolean  SupportsThrottling;
+  boolean  PerLocaleInitialization = FALSE;
+  boolean  PerUserInitialization = FALSE;
+  boolean  Pure = TRUE;
+  string   SecurityDescriptor;
+  boolean  SupportsExplicitShutdown;
+  boolean  SupportsExtendedStatus;
+  boolean  SupportsQuotas;
+  boolean  SupportsSendStatus;
+  boolean  SupportsShutdown;
+  boolean  SupportsThrottling;
   datetime UnloadTimeout;
-  uint32   Version;
-  string   HostingModel;
+  uint32   Version;
+  string   HostingModel;
 };
 ```
 
@@ -275,7 +280,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-**Windows Server 2003:** This property is disabled.
+**Windows Server 2003:** This property is disabled.
 
 This property is inherited from [**\_\_Win32Provider**](https://msdn.microsoft.com/library/aa394688).
 
@@ -517,7 +522,7 @@ An instance of this class represents the WMI provider for Active Directory Domai
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftActiveDirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Replprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Replprov.dll</dt> </dl> |
@@ -531,9 +536,9 @@ An instance of this class represents the WMI provider for Active Directory Domai
 [**\_\_Win32Provider**](https://msdn.microsoft.com/library/aa394688)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

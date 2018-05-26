@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a list of trace providers for MFTrace.'
-ms.assetid: 'ee483f0a-5a90-4150-ada4-0b63ae312523'
+---
+Description: Contains a list of trace providers for MFTrace.
+ms.assetid: ee483f0a-5a90-4150-ada4-0b63ae312523
 title: providers element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # providers element

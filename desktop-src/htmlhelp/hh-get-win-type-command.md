@@ -1,7 +1,12 @@
 ---
 title: HH\_GET\_WIN\_TYPE command
 description: Retrieves a pointer to the HH\_WINTYPE structure associated with a specified window type.
-ms.assetid: '18F5020C-7AD0-4e4f-A241-06F5E7C4EA35'
+ms.assetid: 18F5020C-7AD0-4e4f-A241-06F5E7C4EA35
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_GET\_WIN\_TYPE command
@@ -12,11 +17,11 @@ Retrieves a pointer to the **HH\_WINTYPE** structure associated with a specified
 
 | *pszFile*                                                                                                                                                                                                                                                                                                          | *dwData*                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Specifies the name of the window type whose information you want to get and the name of the compiled help (.chm) file in which the window type is defined. The window name must begin with a greater-than (&gt;) character and must be preceded by the name of the compiled help file it is defined in.<br/> | Specifies the address of a pointer to an [**HH\_WINTYPE**](hh-wintype-structure.md) structure. Deep copy the structure to which *dwData* points before modifying the structure.<br/> |
+| Specifies the name of the window type whose information you want to get and the name of the compiled help (.chm) file in which the window type is defined. The window name must begin with a greater-than (&gt;) character and must be preceded by the name of the compiled help file it is defined in.<br/> | Specifies the address of a pointer to an [**HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master) structure. Deep copy the structure to which *dwData* points before modifying the structure.<br/> |
 
 
 
- 
+ 
 
 ## Example
 
@@ -52,9 +57,9 @@ HtmlHelp(
 [HH\_SET\_WIN\_TYPE](hh-set-win-type-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

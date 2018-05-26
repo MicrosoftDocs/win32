@@ -1,8 +1,22 @@
 ---
 title: Log File Modes
 description: Log File Modes
-ms.assetid: '4d2e6d9a-4d48-4a6d-822e-e3b961188187'
-keywords: ["log file", "InSequentialFile", "InBuffer", "InCircularFile", "InAppendedFile", "InNewFile", "system time", "ProcessTrace", "MaximumFileSize"]
+ms.assetid: 4d2e6d9a-4d48-4a6d-822e-e3b961188187
+keywords:
+- log file
+- InSequentialFile
+- InBuffer
+- InCircularFile
+- InAppendedFile
+- InNewFile
+- system time
+- ProcessTrace
+- MaximumFileSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Log File Modes

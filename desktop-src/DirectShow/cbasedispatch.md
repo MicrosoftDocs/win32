@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseDispatch class is a base class for implementing the IDispatch interface in a DirectShow filter.'
-ms.assetid: '33a989be-d059-4ad7-99f8-715c55a128a2'
+Description: The CBaseDispatch class is a base class for implementing the IDispatch interface in a DirectShow filter.
+ms.assetid: 33a989be-d059-4ad7-99f8-715c55a128a2
 title: CBaseDispatch class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseDispatch class
@@ -10,7 +15,7 @@ title: CBaseDispatch class
 
 The **CBaseDispatch** class is a base class for implementing the **IDispatch** interface in a DirectShow filter.
 
-This class is limited to supporting the Automation-compatible interfaces exported by the DirectShow type library, QuartzTypeLib. For example, the [**CMediaControl**](cmediacontrol.md) and [**CMediaPosition**](cmediaposition.md) classes use **CBaseDispatch** to implement [**IMediaControl**](imediacontrol.md) and [**IMediaPosition**](imediaposition.md), respectively. Because of this limitation, there is probably no reason to use **CBaseDispatch** directly in your own filters.
+This class is limited to supporting the Automation-compatible interfaces exported by the DirectShow type library, QuartzTypeLib. For example, the [**CMediaControl**](cmediacontrol.md) and [**CMediaPosition**](cmediaposition.md) classes use **CBaseDispatch** to implement [**IMediaControl**](/windows/win32/Control/nn-control-imediacontrol?branch=master) and [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), respectively. Because of this limitation, there is probably no reason to use **CBaseDispatch** directly in your own filters.
 
 To use this class, do the following:
 
@@ -33,7 +38,7 @@ For more details, refer to the source code for any of the sample classes declare
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,9 +58,9 @@ For more details, refer to the source code for any of the sample classes declare
 [DirectShow Base Classes](directshow-base-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The WSOleDB code sample demonstrates Active Template Library (ATL) OLE DB access to Windows Search applications, and demonstrates two additional methods for retrieving results from Windows Search.'
-ms.assetid: 'c81bf3af-e023-4384-8c89-0fa9c8f08773'
+Description: The WSOleDB code sample demonstrates Active Template Library (ATL) OLE DB access to Windows Search applications, and demonstrates two additional methods for retrieving results from Windows Search.
+ms.assetid: c81bf3af-e023-4384-8c89-0fa9c8f08773
 title: WSOleDB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSOleDB
@@ -81,13 +86,13 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**ISearchCatalogManager**](-search-isearchcatalogmanager.md)
+[**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master)
 </dt> <dt>
 
-[**ISearchCatalogManager2**](-search-isearchcatalogmanager2.md)
+[**ISearchCatalogManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager2?branch=master)
 </dt> <dt>
 
-[**ISearchManager**](-search-isearchmanager.md)
+[**ISearchManager**](/windows/win32/Searchapi/nn-searchapi-isearchmanager?branch=master)
 </dt> <dt>
 
 **Conceptual**

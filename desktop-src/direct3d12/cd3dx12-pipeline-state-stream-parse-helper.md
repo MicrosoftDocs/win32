@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_PARSE\_HELPER structure
 description: Builds an internal CD3DX12\_PIPELINE\_STATE\_STREAM object from subobject details passed into the corresponding member functions. This struct implements the ID3DX12PipelineParserCallbacks interface.
-ms.assetid: '7D4FFD1D-9FA3-4482-A67B-E742611030BC'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER structure"]
+ms.assetid: 7D4FFD1D-9FA3-4482-A67B-E742611030BC
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_PARSE\_HELPER structure
@@ -23,32 +29,32 @@ Builds an internal CD3DX12\_PIPELINE\_STATE\_STREAM object from subobject detail
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER  : public ID3DX12PipelineParserCallbacks{
   CD3DX12_PIPELINE_STATE_STREAM1 PipelineStream;
-  void                           FlagsCb(D3D12_PIPELINE_STATE_FLAGS Flags);
-  void                           NodeMaskCb(UINT NodeMask);
-  void                           RootSignatureCb(ID3D12RootSignature* pRootSignature);
-  void                           InputLayoutCb(const D3D12_INPUT_LAYOUT_DESC&amp; InputLayout);
-  void                           IBStripCutValueCb(D3D12_INDEX_BUFFER_STRIP_CUT_VALUE IBStripCutValue);
-  void                           PrimitiveTopologyTypeCb(D3D12_PRIMITIVE_TOPOLOGY_TYPE PrimitiveTopologyType);
-  void                           VSCb(const D3D12_SHADER_BYTECODE&amp; VS);
-  void                           GSCb(const D3D12_SHADER_BYTECODE&amp; GS);
-  void                           StreamOutputCb(const D3D12_STREAM_OUTPUT_DESC&amp; StreamOutput);
-  void                           HSCb(const D3D12_SHADER_BYTECODE&amp; HS);
-  void                           DSCb(const D3D12_SHADER_BYTECODE&amp; DS);
-  void                           PSCb(const D3D12_SHADER_BYTECODE&amp; PS);
-  void                           CSCb(const D3D12_SHADER_BYTECODE&amp; CS);
-  void                           BlendStateCb(const D3D12_BLEND_DESC&amp; BlendState);
-  void                           DepthStencilStateCb(const D3D12_DEPTH_STENCIL_DESC&amp; DepthStencilState);
-  void                           DepthStencilState1Cb(const D3D12_DEPTH_STENCIL_DESC1&amp; DepthStencilState);
-  void                           DSVFormatCb(DXGI_FORMAT DSVFormat);
-  void                           RasterizerStateCb(const D3D12_RASTERIZER_DESC&amp; RasterizerState);
-  void                           RTVFormatsCb(const D3D12_RT_FORMAT_ARRAY&amp; RTVFormats);
-  void                           SampleDescCb(const DXGI_SAMPLE_DESC&amp; SampleDesc);
-  void                           SampleMaskCb(UINT SampleMask);
-  void                           ViewInstancingCb(const D3D12_VIEW_INSTANCING_DESC&amp; ViewInstancingDesc);
-  void                           CachedPSOCb(const D3D12_CACHED_PIPELINE_STATE&amp; CachedPSO);
-  void                           ErrorBadInputParameter(UINT);
-  void                           ErrorDuplicateSubobject(D3D12_PIPELINE_STATE_SUBOBJECT_TYPE);
-  void                           ErrorUnknownSubobject(UINT);
+  void                           FlagsCb(D3D12_PIPELINE_STATE_FLAGS Flags);
+  void                           NodeMaskCb(UINT NodeMask);
+  void                           RootSignatureCb(ID3D12RootSignature* pRootSignature);
+  void                           InputLayoutCb(const D3D12_INPUT_LAYOUT_DESC&amp; InputLayout);
+  void                           IBStripCutValueCb(D3D12_INDEX_BUFFER_STRIP_CUT_VALUE IBStripCutValue);
+  void                           PrimitiveTopologyTypeCb(D3D12_PRIMITIVE_TOPOLOGY_TYPE PrimitiveTopologyType);
+  void                           VSCb(const D3D12_SHADER_BYTECODE&amp; VS);
+  void                           GSCb(const D3D12_SHADER_BYTECODE&amp; GS);
+  void                           StreamOutputCb(const D3D12_STREAM_OUTPUT_DESC&amp; StreamOutput);
+  void                           HSCb(const D3D12_SHADER_BYTECODE&amp; HS);
+  void                           DSCb(const D3D12_SHADER_BYTECODE&amp; DS);
+  void                           PSCb(const D3D12_SHADER_BYTECODE&amp; PS);
+  void                           CSCb(const D3D12_SHADER_BYTECODE&amp; CS);
+  void                           BlendStateCb(const D3D12_BLEND_DESC&amp; BlendState);
+  void                           DepthStencilStateCb(const D3D12_DEPTH_STENCIL_DESC&amp; DepthStencilState);
+  void                           DepthStencilState1Cb(const D3D12_DEPTH_STENCIL_DESC1&amp; DepthStencilState);
+  void                           DSVFormatCb(DXGI_FORMAT DSVFormat);
+  void                           RasterizerStateCb(const D3D12_RASTERIZER_DESC&amp; RasterizerState);
+  void                           RTVFormatsCb(const D3D12_RT_FORMAT_ARRAY&amp; RTVFormats);
+  void                           SampleDescCb(const DXGI_SAMPLE_DESC&amp; SampleDesc);
+  void                           SampleMaskCb(UINT SampleMask);
+  void                           ViewInstancingCb(const D3D12_VIEW_INSTANCING_DESC&amp; ViewInstancingDesc);
+  void                           CachedPSOCb(const D3D12_CACHED_PIPELINE_STATE&amp; CachedPSO);
+  void                           ErrorBadInputParameter(UINT);
+  void                           ErrorDuplicateSubobject(D3D12_PIPELINE_STATE_SUBOBJECT_TYPE);
+  void                           ErrorUnknownSubobject(UINT);
 };
 ```
 
@@ -166,14 +172,14 @@ Initializes the **BlendState** member of **PipelineStream** using the value of t
 **DepthStencilStateCb(const D3D12\_DEPTH\_STENCIL\_DESC& DepthStencilState)**
 </dt> <dd>
 
-Initializes the **DepthStencilState** member of **PipelineStream** using the value of the *DepthStencilState* parameter, a [**D3D12\_DEPTH\_STENCIL\_DESC**](d3d12-depth-stencil-desc.md).
+Initializes the **DepthStencilState** member of **PipelineStream** using the value of the *DepthStencilState* parameter, a [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_depth_stencil_desc?branch=master).
 
 </dd> <dt>
 
 **DepthStencilState1Cb(const D3D12\_DEPTH\_STENCIL\_DESC1& DepthStencilState)**
 </dt> <dd>
 
-Initializes the **DepthStencilState** member of **PipelineStream** using the value of the *DepthStencilState* parameter, a [**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md).
+Initializes the **DepthStencilState** member of **PipelineStream** using the value of the *DepthStencilState* parameter, a [**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master).
 
 </dd> <dt>
 
@@ -249,7 +255,7 @@ Does nothing.
 
 ## Remarks
 
-When passed as the second parameter to the [**D3DX12ParsePipelineStream**](d3dx12parsepipelinestream.md) function, the details of the internal [**CD3DX12\_PIPELINE\_STATE\_STREAM1**](cd3dx12-pipeline-state-stream1.md) object are cloned from the [**D3D12\_PIPELINE\_STATE\_STREAM\_DESC**](d3d12-pipeline-state-stream-desc.md) passed as the first parameter. This process validates the source stream description. If D3DX12ParsePipelineStream returns **S\_OK**, then both the source stream description and the resulting **CD3DX12\_PIPELINE\_STATE\_STREAM1PipelineStream** are valid; otherwise both are invalid. Invalid streams and other errors are reported only through the return value of D3DX12ParsePipelineStream; this structure implements the error callbacks to do nothing.
+When passed as the second parameter to the [**D3DX12ParsePipelineStream**](d3dx12parsepipelinestream.md) function, the details of the internal [**CD3DX12\_PIPELINE\_STATE\_STREAM1**](cd3dx12-pipeline-state-stream1.md) object are cloned from the [**D3D12\_PIPELINE\_STATE\_STREAM\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc?branch=master) passed as the first parameter. This process validates the source stream description. If D3DX12ParsePipelineStream returns **S\_OK**, then both the source stream description and the resulting **CD3DX12\_PIPELINE\_STATE\_STREAM1PipelineStream** are valid; otherwise both are invalid. Invalid streams and other errors are reported only through the return value of D3DX12ParsePipelineStream; this structure implements the error callbacks to do nothing.
 
 ## Requirements
 
@@ -271,9 +277,9 @@ When passed as the second parameter to the [**D3DX12ParsePipelineStream**](d3dx1
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

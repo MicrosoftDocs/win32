@@ -1,7 +1,12 @@
 ---
 Description: Using Unicode and Character Sets
-ms.assetid: '83ec3e86-c425-45f4-9178-3d9e5deaa8f8'
+ms.assetid: 83ec3e86-c425-45f4-9178-3d9e5deaa8f8
 title: Using Unicode and Character Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Unicode and Character Sets

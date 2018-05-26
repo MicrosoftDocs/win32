@@ -1,7 +1,12 @@
 ---
-Description: 'This event is published by the ScrollableText Control to enable the user to print the contents of that control.'
-ms.assetid: '8cb91b21-f6db-4f49-827d-1ec739ff4f45'
+Description: This event is published by the ScrollableText Control to enable the user to print the contents of that control.
+ms.assetid: 8cb91b21-f6db-4f49-827d-1ec739ff4f45
 title: MsiPrint ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPrint ControlEvent

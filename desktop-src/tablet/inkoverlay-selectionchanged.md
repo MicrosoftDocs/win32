@@ -1,12 +1,17 @@
 ---
-Description: 'Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.'
-ms.assetid: '6b4cd9fe-b09f-4a70-9aa5-92ef9409ff1b'
-title: 'InkOverlay.SelectionChanged event'
+Description: Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+ms.assetid: 6b4cd9fe-b09f-4a70-9aa5-92ef9409ff1b
+title: InkOverlay.SelectionChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkOverlay.SelectionChanged event
 
-Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkoverlay-selection.md) property.
+Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.
 
 ## Syntax
 
@@ -37,7 +42,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -48,15 +53,15 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**Selection Property**](inkoverlay-selection.md)
+[**Selection Property**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

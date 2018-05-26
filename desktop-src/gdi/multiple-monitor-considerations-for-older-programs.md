@@ -1,7 +1,12 @@
 ---
-Description: 'Generally, older applications do not need changes to work on multiple monitor systems.'
-ms.assetid: '908cf88c-69ed-4855-817d-ba749e14ff85'
+Description: Generally, older applications do not need changes to work on multiple monitor systems.
+ms.assetid: 908cf88c-69ed-4855-817d-ba749e14ff85
 title: Multiple Monitor Considerations for Older Programs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Monitor Considerations for Older Programs

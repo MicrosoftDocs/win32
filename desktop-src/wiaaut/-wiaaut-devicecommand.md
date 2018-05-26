@@ -1,8 +1,10 @@
 ---
 title: DeviceCommand object
 description: Describes the CommandID Constants that you can use when you call ExecuteCommand (Device) or ExecuteCommand (Item).
-ms.assetid: 'ac7676da-4e8f-4c53-8f43-0e28b0073937'
-keywords: ["DeviceCommand object WIA Automation", "DeviceCommand object WIA Automation , described"]
+ms.assetid: ac7676da-4e8f-4c53-8f43-0e28b0073937
+keywords:
+- DeviceCommand object WIA Automation
+- DeviceCommand object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceCommand object
@@ -37,7 +44,7 @@ The **DeviceCommand** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +62,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +70,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -77,9 +84,9 @@ Use any of the following to retrieve a reference to the object:
 [**Item (DeviceCommands)**](-wiaaut-idevicecommands-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

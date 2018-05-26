@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNextI method retrieves the item at the specified position, and advances the position.'
-ms.assetid: '3ec217ec-b0f9-4ff4-bdb7-ac204df99010'
-title: 'CBaseList.GetNextI method'
+Description: The GetNextI method retrieves the item at the specified position, and advances the position.
+ms.assetid: 3ec217ec-b0f9-4ff4-bdb7-ac204df99010
+title: CBaseList.GetNextI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.GetNextI method
@@ -13,7 +18,7 @@ The `GetNextI` method retrieves the item at the specified position, and advances
 
 ```C++
 void* GetNextI(
-  [ref] POSITION &amp;rp
+  [ref] POSITION &amp;rp
 );
 ```
 
@@ -56,9 +61,9 @@ This method advances the position indicator to the next position. If the positio
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

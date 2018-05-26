@@ -1,12 +1,17 @@
 ---
-Description: 'In Authorization Manager, an operation is a low-level function or method of an application.'
-ms.assetid: '458c5418-94c5-4977-8203-f8299387c6da'
+Description: In Authorization Manager, an operation is a low-level function or method of an application.
+ms.assetid: 458c5418-94c5-4977-8203-f8299387c6da
 title: Defining Operations in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Operations in C++
 
-In Authorization Manager, an operation is a low-level function or method of an application. These operations are grouped together as tasks. Users of the application request permission to complete tasks. An operation is represented by an [**IAzOperation**](iazoperation.md) object. For more information about operations, see [Operations and Tasks](operations-and-tasks.md).
+In Authorization Manager, an operation is a low-level function or method of an application. These operations are grouped together as tasks. Users of the application request permission to complete tasks. An operation is represented by an [**IAzOperation**](/windows/win32/Azroles/nn-azroles-iazoperation?branch=master) object. For more information about operations, see [Operations and Tasks](operations-and-tasks.md).
 
 The following example shows how to define operations in an authorization policy store. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C, and that this store contains an application named Expense.
 

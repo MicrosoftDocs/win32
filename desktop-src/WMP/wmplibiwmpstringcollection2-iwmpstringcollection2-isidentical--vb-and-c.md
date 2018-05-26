@@ -1,8 +1,11 @@
 ---
 title: IWMPStringCollection2 isIdentical method
 description: The isIdentical method returns a value indicating whether the object represented by the supplied interface is the same as the current one.
-ms.assetid: '826e7fd8-88f8-4a2a-9ca0-82a500099272'
-keywords: ["isIdentical method Windows Media Player", "isIdentical method Windows Media Player , IWMPStringCollection2 interface", "IWMPStringCollection2 interface Windows Media Player , isIdentical method"]
+ms.assetid: 826e7fd8-88f8-4a2a-9ca0-82a500099272
+keywords:
+- isIdentical method Windows Media Player
+- isIdentical method Windows Media Player , IWMPStringCollection2 interface
+- IWMPStringCollection2 interface Windows Media Player , isIdentical method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection2::isIdentical method
@@ -87,9 +95,9 @@ To use this method, read access to the library is required. For more information
 [**IWMPStringCollection2 Interface (VB and C#)**](iwmpstringcollection2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

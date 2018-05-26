@@ -4,10 +4,13 @@ description: The following code example shows the basic steps of installing a di
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '35a3b261-d499-4154-a022-1e33a9ef7ba8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 35a3b261-d499-4154-a022-1e33a9ef7ba8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Installing a Service on a Host Computer

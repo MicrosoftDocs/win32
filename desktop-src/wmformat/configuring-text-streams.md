@@ -1,15 +1,23 @@
 ---
 title: Configuring Text Streams
 description: Configuring Text Streams
-ms.assetid: 'd99baac5-69e5-4e0a-9cd6-35b288d8181a'
-keywords: ["streams,configuring text streams", "codecs,configuring text streams", "text streams,configuring"]
+ms.assetid: d99baac5-69e5-4e0a-9cd6-35b288d8181a
+keywords:
+- streams,configuring text streams
+- codecs,configuring text streams
+- text streams,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Text Streams
 
 Text streams are essentially the same as custom arbitrary streams. There is no configuration information associated with a text stream to identify the type of text encoding, so the writer object cannot verify samples.
 
-To configure a text stream, you must ensure that the [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure contains a major media type of WMMEDIATYPE\_TEXT. You must also set a bit rate and buffer window for the stream.
+To configure a text stream, you must ensure that the [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure contains a major media type of WMMEDIATYPE\_TEXT. You must also set a bit rate and buffer window for the stream.
 
 ## Related topics
 

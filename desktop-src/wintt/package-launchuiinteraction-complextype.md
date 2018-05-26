@@ -1,14 +1,20 @@
 ---
 title: LaunchUIInteraction Complex Type
 description: Defines an interaction used to launch a related UI application that is external to the MSDT wizard.
-ms.assetid: 'be9c5887-c741-4920-a1ba-77b3c533f6dc'
-keywords: ["LaunchUIInteraction complex type Windows Troubleshooting Toolkit"]
+ms.assetid: be9c5887-c741-4920-a1ba-77b3c533f6dc
+keywords:
+- LaunchUIInteraction complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - LaunchUIInteraction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LaunchUIInteraction Complex Type
@@ -133,7 +139,7 @@ Defines an interaction used to launch a related UI application that is external 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>ID</td>
@@ -156,8 +162,8 @@ Defines an interaction used to launch a related UI application that is external 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -171,9 +177,9 @@ Defines an interaction used to launch a related UI application that is external 
 [**LaunchUIInteractions Complex Type**](package-launchuiinteractions-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

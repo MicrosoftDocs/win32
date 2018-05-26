@@ -4,17 +4,21 @@ description: Determines whether or not the IP addresses of all the provider IP a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba931d9b-d52c-49fb-93e4-150055d40433'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ba931d9b-d52c-49fb-93e4-150055d40433
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RegisterAllProvidersIP Failover Cluster"]
+keywords:
+- RegisterAllProvidersIP Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RegisterAllProvidersIP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RegisterAllProvidersIP
@@ -28,14 +32,14 @@ Determines whether or not the IP addresses of all the provider IP address resour
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,7 +72,7 @@ RegisterAllProvidersIPValue.dw        = RegisterAllProvidersIPData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -79,12 +83,12 @@ RegisterAllProvidersIPValue.dw        = RegisterAllProvidersIPData;
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

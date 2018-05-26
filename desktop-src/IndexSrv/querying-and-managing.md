@@ -1,7 +1,12 @@
 ---
 title: Querying and Managing
 description: Querying-related processing occurs when an application submits a request in one of the supported query languages.
-ms.assetid: '581bb9b2-e48a-4b59-b14a-1a87748b68e9'
+ms.assetid: 581bb9b2-e48a-4b59-b14a-1a87748b68e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying and Managing

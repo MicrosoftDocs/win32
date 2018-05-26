@@ -4,11 +4,14 @@ description: Returns the current quorum resource for a cluster or allows a new q
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e9c1f32a-2008-470e-b451-312cce49c93a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e9c1f32a-2008-470e-b451-312cce49c93a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["QuorumResource property Failover Cluster", "QuorumResource property Failover Cluster , Cluster object", "Cluster object Failover Cluster , QuorumResource property"]
+keywords:
+- QuorumResource property Failover Cluster
+- QuorumResource property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , QuorumResource property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.QuorumResource property
@@ -53,7 +59,7 @@ An alternate way to assign a quorum resource is to call that resource's [**ClusR
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -75,9 +81,9 @@ An alternate way to assign a quorum resource is to call that resource's [**ClusR
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

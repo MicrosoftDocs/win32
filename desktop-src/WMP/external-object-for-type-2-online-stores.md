@@ -1,8 +1,17 @@
 ---
 title: External Object for Type 2 Online Stores
 description: External Object for Type 2 Online Stores
-ms.assetid: 'd12e7480-39ec-4d32-9cf9-5555d0f92d80'
-keywords: ["Windows Media Player online stores,external objects", "online stores,external objects", "type 2 online stores,external objects", "external objects"]
+ms.assetid: d12e7480-39ec-4d32-9cf9-5555d0f92d80
+keywords:
+- Windows Media Player online stores,external objects
+- online stores,external objects
+- type 2 online stores,external objects
+- external objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External Object for Type 2 Online Stores

@@ -1,8 +1,14 @@
 ---
 title: About this Guide
-description: This section is a reference for the Microsoft Interface Definition Language (MIDL) and a user's guide for the MIDL compiler, which generates C-language files from IDL files.
+description: This section is a reference for the Microsoft Interface Definition Language (MIDL) and a users guide for the MIDL compiler, which generates C-language files from IDL files.
 ms.assetid: 440a07f8-b556-4050-9b0b-2a09635a7525
-keywords: ["Microsoft Interface Definition Language MIDL , described"]
+keywords:
+- Microsoft Interface Definition Language MIDL , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About this Guide

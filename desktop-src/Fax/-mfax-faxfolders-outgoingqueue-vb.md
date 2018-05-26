@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OutgoingQueue property represents the queue of outgoing faxes.'
-ms.assetid: 'ef721ed7-96cf-4cad-848d-b5b789b452ec'
-title: 'FaxFolders.OutgoingQueue property'
+---
+Description: The OutgoingQueue property represents the queue of outgoing faxes.
+ms.assetid: ef721ed7-96cf-4cad-848d-b5b789b452ec
+title: FaxFolders.OutgoingQueue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxFolders.OutgoingQueue property
@@ -21,7 +26,7 @@ Property OutgoingQueue As IFaxOutgoingQueue
 
 ## Property value
 
-A variable of type [**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md) that receives a [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md) object.
+A variable of type [**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master) that receives a [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md) object.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md) that r
 [**FaxFolders**](-mfax-faxfolders.md)
 </dt> <dt>
 
-[**IFaxFolders**](-mfax-faxfolders-cpp.md)
+[**IFaxFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxfolders?branch=master)
 </dt> </dl>
 
  

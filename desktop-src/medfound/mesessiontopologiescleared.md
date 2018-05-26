@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised by the Media Session when the IMFMediaSession::ClearTopologies method completes asynchronously.'
-ms.assetid: '2017d13b-8dc2-48f9-a21e-7b826e174edf'
+---
+Description: Raised by the Media Session when the IMFMediaSessionClearTopologies method completes asynchronously.
+ms.assetid: 2017d13b-8dc2-48f9-a21e-7b826e174edf
 title: MESessionTopologiesCleared event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionTopologiesCleared event
 
-Raised by the Media Session when the [**IMFMediaSession::ClearTopologies**](imfmediasession-cleartopologies.md) method completes asynchronously.
+Raised by the Media Session when the [**IMFMediaSession::ClearTopologies**](/windows/win32/mfidl/nf-mfidl-imfmediasession-cleartopologies?branch=master) method completes asynchronously.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

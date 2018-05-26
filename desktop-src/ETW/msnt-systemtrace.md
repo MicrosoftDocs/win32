@@ -1,7 +1,12 @@
-﻿---
-Description: 'The parent class from which all system event trace classes are derived. The following syntax is simplified from MOF code.'
-ms.assetid: '27979d9c-eca7-426f-8f8e-99443e5a0188'
-title: 'MSNT\_SystemTrace class'
+---
+Description: The parent class from which all system event trace classes are derived. The following syntax is simplified from MOF code.
+ms.assetid: 27979d9c-eca7-426f-8f8e-99443e5a0188
+title: MSNT\_SystemTrace class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSNT\_SystemTrace class

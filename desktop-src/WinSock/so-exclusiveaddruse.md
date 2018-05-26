@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SO\_EXCLUSIVEADDRUSE socket option prevents other sockets from being forcibly bound to the same address and port.'
-ms.assetid: 'ce0d8188-54be-46e8-8753-d0680f690b84'
-title: 'SO\_EXCLUSIVEADDRUSE socket option'
+---
+Description: The SO\_EXCLUSIVEADDRUSE socket option prevents other sockets from being forcibly bound to the same address and port.
+ms.assetid: ce0d8188-54be-46e8-8753-d0680f690b84
+title: SO\_EXCLUSIVEADDRUSE socket option
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SO\_EXCLUSIVEADDRUSE socket option
@@ -133,7 +138,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 
 
-To have any effect, the SO\_EXCLUSIVADDRUSE option must be set before the [**bind**](bind-2.md) function is called (this also applies to the SO\_REUSEADDR option). Table 1 lists the effects of setting the SO\_EXCLUSIVEADDRUSE option. Wildcard indicates binding to the wildcard address, such as 0.0.0.0 for IPv4 and :: for IPv6. Specific indicates binding to a specific interface, such as binding an IP address assigned to an adapter. Specific2 indicates binding to a specific address other than the address bound to in the Specific case.
+To have any effect, the SO\_EXCLUSIVADDRUSE option must be set before the [**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master) function is called (this also applies to the SO\_REUSEADDR option). Table 1 lists the effects of setting the SO\_EXCLUSIVEADDRUSE option. Wildcard indicates binding to the wildcard address, such as 0.0.0.0 for IPv4 and :: for IPv6. Specific indicates binding to a specific interface, such as binding an IP address assigned to an adapter. Specific2 indicates binding to a specific address other than the address bound to in the Specific case.
 
 > [!Note]  
 > The Specific2 case is applicable only when the first bind is performed with a specific address; for the case in which the first socket is bound to the wildcard, the entry for Specific covers all specific address cases.
@@ -270,7 +275,7 @@ A socket with SO\_EXCLUSIVEADDRUSE set cannot always be reused immediately after
 
 This situation can be quite complicated; even though the socket has been closed, the underlying transport may not terminate its connection. Even after the socket is closed, the system must send all of the buffered data, transmit a graceful disconnect to the peer, and wait for a graceful disconnect from the peer. It is therefore possible that the underlying transport may never release the connection, such as when the peer advertises a zero-size window, or other such attacks. In the previous example, the listening socket was closed after a client connection was accepted. Now even if the client connection is closed, the port still may not be reused if the client connection remains in an active state because of unacknowledged data, and so forth.
 
-To avoid this situation, applications should ensure a graceful shutdown: call [**shutdown**](shutdown-2.md) with the SD\_SEND flag, then wait in a [**recv**](recv-2.md) loop until zero bytes are returned. Doing so avoids the problem associated with port reuse, guarantees all data was received by the peer, and assures the peer that all its data was successfully received.
+To avoid this situation, applications should ensure a graceful shutdown: call [**shutdown**](/windows/win32/winsock/nf-winsock-shutdown?branch=master) with the SD\_SEND flag, then wait in a [**recv**](/windows/win32/winsock/nf-winsock-recv?branch=master) loop until zero bytes are returned. Doing so avoids the problem associated with port reuse, guarantees all data was received by the peer, and assures the peer that all its data was successfully received.
 
 The SO\_LINGER option may be set on a socket to prevent the port going into one of the active wait states; however, doing so is discouraged because it can lead to undesired effects, because it can cause the connection to be reset. For example, if data has been received but not yet acknowledged by the peer, and the local computer closes the socket with SO\_LINGER set, the connection is reset and the peer discards the unacknowledged data. Also, picking a suitable time to linger is difficult; a value too small results in many aborted connections, while a large timeout can leave the system vulnerable to denial of service attacks by establishing many connections, and thereby stalling numerous application threads.
 

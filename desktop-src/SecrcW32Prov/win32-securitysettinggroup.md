@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SecuritySettingGroup abstract, association WMI class relates the security of an object and its group.'
+Description: The Win32\_SecuritySettingGroup abstract, association WMI class relates the security of an object and its group.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'df817d00-ed4c-4de2-9774-a3db6e3e99c0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: df817d00-ed4c-4de2-9774-a3db6e3e99c0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecuritySettingGroup class'
+title: Win32\_SecuritySettingGroup class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecuritySettingGroup class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, Association, UUID("{8502C586-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_SecuritySettingGroup
 {
-  Win32_SID             REF Group;
+  Win32_SID             REF Group;
   Win32_SecuritySetting REF SecuritySetting;
 };
 ```
@@ -77,8 +80,8 @@ Reference to the instance representing the security settings of an object.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -92,9 +95,9 @@ Reference to the instance representing the security settings of an object.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

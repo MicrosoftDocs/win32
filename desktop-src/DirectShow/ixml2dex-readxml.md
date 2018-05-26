@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: 'f75ee69d-2778-4c3c-a810-6708b1669541'
-title: 'IXml2Dex::ReadXML method'
+Description: Not implemented.
+ms.assetid: f75ee69d-2778-4c3c-a810-6708b1669541
+title: IXml2DexReadXML method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::ReadXML method

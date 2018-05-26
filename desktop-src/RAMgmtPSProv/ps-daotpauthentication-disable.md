@@ -2,13 +2,16 @@
 title: Disable method of the PS\_DAOtpAuthentication class
 description: Disables OTP authentication for DirectAccess users.
 audience: developer
-ms.assetid: '39608899-ba1d-40f6-a70a-48c811b23b88'
-ms.prod: 'windows-server-dev'
+ms.assetid: 39608899-ba1d-40f6-a70a-48c811b23b88
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Disable method", "Disable method, PS_DAOtpAuthentication class", "PS_DAOtpAuthentication class, Disable method"]
+keywords:
+- Disable method
+- Disable method, PS_DAOtpAuthentication class
+- PS_DAOtpAuthentication class, Disable method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disable method of the PS\_DAOtpAuthentication class
@@ -28,10 +34,10 @@ Disables OTP authentication for DirectAccess users.
 
 ```mof
 uint32 Disable(
-  [in]  string              ComputerName,
-  [in]  boolean             Force,
-  [in]  boolean             PassThru,
-  [out] DAOtpAuthentication cmdletOutput
+  [in]  string              ComputerName,
+  [in]  boolean             Force,
+  [in]  boolean             PassThru,
+  [out] DAOtpAuthentication cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ An [**DAOtpAuthentication**](daotpauthentication.md) that contains the OTP authe
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ An [**DAOtpAuthentication**](daotpauthentication.md) that contains the OTP authe
 [**PS\_DAOtpAuthentication**](ps-daotpauthentication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

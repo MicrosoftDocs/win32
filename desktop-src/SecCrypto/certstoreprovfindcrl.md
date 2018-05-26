@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates or finds the first or next CRL in an external store that matches specified criteria.'
-ms.assetid: 'caf218f5-f379-4cb6-bb4b-4767b846d45c'
+---
+Description: Enumerates or finds the first or next CRL in an external store that matches specified criteria.
+ms.assetid: caf218f5-f379-4cb6-bb4b-4767b846d45c
 title: CertStoreProvFindCRL callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvFindCRL callback function
@@ -38,14 +43,14 @@ BOOL WINAPI CertStoreProvFindCRL(
 *pFindInfo* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](cert-store-prov-find-info.md) structure containing all the parameters passed to the [**CertFindCRLInStore**](certfindcrlinstore.md) function.
+A pointer to a [**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_store_prov_find_info?branch=master) structure containing all the parameters passed to the [**CertFindCRLInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcrlinstore?branch=master) function.
 
 </dd> <dt>
 
 *pPrevCrlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRL\_CONTEXT**](crl-context.md) structure of the last CRL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCRLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
+A pointer to a [**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_crl_context?branch=master) structure of the last CRL found. On first call to the function, this parameter should be set to **NULL**. On subsequent calls, it should be set to the pointer returned in the *ppProvCRLContext* parameter on the last call. A non-**NULL** pointer passed in this parameter is freed by the callback function.
 
 </dd> <dt>
 
@@ -89,13 +94,13 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_STORE\_PROV\_FIND\_INFO**](cert-store-prov-find-info.md)
+[**CERT\_STORE\_PROV\_FIND\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_store_prov_find_info?branch=master)
 </dt> <dt>
 
-[**CertFindCRLInStore**](certfindcrlinstore.md)
+[**CertFindCRLInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcrlinstore?branch=master)
 </dt> <dt>
 
-[**CRL\_CONTEXT**](crl-context.md)
+[**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_crl_context?branch=master)
 </dt> </dl>
 
  

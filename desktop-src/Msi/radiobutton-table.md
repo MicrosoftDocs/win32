@@ -1,7 +1,12 @@
 ---
-Description: 'Radio buttons are not treated as individual controls, but they are part of a radio button group that functions as a RadioButtonGroup control. The RadioButton table lists the buttons for all the groups.'
-ms.assetid: '7f8f278a-a737-4116-9938-2850dbb611fa'
+Description: Radio buttons are not treated as individual controls, but they are part of a radio button group that functions as a RadioButtonGroup control. The RadioButton table lists the buttons for all the groups.
+ms.assetid: 7f8f278a-a737-4116-9938-2850dbb611fa
 title: RadioButton Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RadioButton Table
@@ -101,7 +106,7 @@ The integer values for x, y, width, and height are in the [installer units](inst
 
 The coordinates of the buttons are given relative to the group. If the coordinates of the group are changed, then the buttons within the group remain in the same relative position to each other.
 
-The contents of the Value and Text fields are formatted by the [**MsiFormatRecord**](msiformatrecord.md) function when the control is created, therefore they can contain any expression that the **MsiFormatRecord** function can interpret. The formatting occurs only when the control is created, and it is not updated if a property involved in the expression is modified during the life of the control.
+The contents of the Value and Text fields are formatted by the [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) function when the control is created, therefore they can contain any expression that the **MsiFormatRecord** function can interpret. The formatting occurs only when the control is created, and it is not updated if a property involved in the expression is modified during the life of the control.
 
 Every RadioButtonGroup control is associated with a property. The default value for this property must be initialized in the [Property table](property-table.md). Within each RadioButtonGroup specified in the RadioButton table, there may be one radio button that has a value in the Value field that matches the default value for this property. This is the default button for the RadioButtonGroup control. The default button is initially shown as selected in the control.
 

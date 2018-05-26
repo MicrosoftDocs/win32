@@ -1,20 +1,25 @@
 ---
-Description: 'The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.'
-ms.assetid: '938fe8be-5622-4954-9ba3-31fc68fbfa31'
-title: 'CDynamicOutputPin.SetConfigInfo method'
+Description: The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.
+ms.assetid: 938fe8be-5622-4954-9ba3-31fc68fbfa31
+title: CDynamicOutputPin.SetConfigInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.SetConfigInfo method
 
-The `SetConfigInfo` method specifies the [**IGraphConfig**](igraphconfig.md) pointer and the stop event.
+The `SetConfigInfo` method specifies the [**IGraphConfig**](/windows/win32/Strmif/nn-strmif-igraphconfig?branch=master) pointer and the stop event.
 
 ## Syntax
 
 
 ```C++
 void SetConfigInfo(
-   IGraphConfig *pGraphConfig,
-   HANDLE       hStopEvent
+   IGraphConfig *pGraphConfig,
+   HANDLE       hStopEvent
 );
 ```
 
@@ -27,7 +32,7 @@ void SetConfigInfo(
 *pGraphConfig* 
 </dt> <dd>
 
-Pointer to the [**IGraphConfig**](igraphconfig.md) interface, or **NULL**.
+Pointer to the [**IGraphConfig**](/windows/win32/Strmif/nn-strmif-igraphconfig?branch=master) interface, or **NULL**.
 
 </dd> <dt>
 
@@ -64,9 +69,9 @@ The filter must call this method when it joins the filter graph. The filter grap
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

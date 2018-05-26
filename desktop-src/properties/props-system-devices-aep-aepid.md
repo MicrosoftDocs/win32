@@ -1,7 +1,12 @@
 ---
-Description: 'Identity of the Device Association Endpoint.'
-ms.assetid: 'ff9a1588-2dde-4c43-a808-3368877a44a7'
-title: 'System.Devices.Aep.AepId'
+Description: Identity of the Device Association Endpoint.
+ms.assetid: ff9a1588-2dde-4c43-a808-3368877a44a7
+title: System.Devices.Aep.AepId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.AepId

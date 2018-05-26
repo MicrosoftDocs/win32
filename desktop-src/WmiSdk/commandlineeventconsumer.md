@@ -1,13 +1,16 @@
 ---
-Description: 'The CommandLineEventConsumer class starts an arbitrary process in the local system when an event is delivered to it.'
+Description: The CommandLineEventConsumer class starts an arbitrary process in the local system when an event is delivered to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0dcae783-1722-45a4-b5d4-3fcf455dacf8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0dcae783-1722-45a4-b5d4-3fcf455dacf8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CommandLineEventConsumer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CommandLineEventConsumer class
@@ -17,7 +20,7 @@ The **CommandLineEventConsumer** class starts an arbitrary process in the local 
 > [!Note]  
 > When using the **CommandLineEventConsumer** class, secure the executable that you want to start. If the executable is not in a secure location, or secured with a strong access control list (ACL), an unauthorized user can replace your executable with a malicious executable. For more information about ACLs, visit the Security section of the Microsoft Windows Software Development Kit (SDK), and see [Creating a Security Descriptor for a New Object](https://msdn.microsoft.com/library/windows/desktop/aa446595).
 
- 
+ 
 
 ## Syntax
 
@@ -25,34 +28,34 @@ The **CommandLineEventConsumer** class starts an arbitrary process in the local 
 [AMENDMENT]
 class CommandLineEventConsumer : __EventConsumer
 {
-  uint8   CreatorSID[];
-  string  MachineName;
-  uint32  MaximumQueueSize;
-  string  CommandLineTemplate;
+  uint8   CreatorSID[];
+  string  MachineName;
+  uint32  MaximumQueueSize;
+  string  CommandLineTemplate;
   boolean CreateNewConsole = False;
   boolean CreateNewProcessGroup = True;
   boolean CreateSeparateWowVdm = False;
   boolean CreateSharedWowVdm = False;
-  string  DesktopName;
-  string  ExecutablePath;
-  uint32  FillAttributes;
+  string  DesktopName;
+  string  ExecutablePath;
+  uint32  FillAttributes;
   boolean ForceOffFeedback = False;
   boolean ForceOnFeedback = False;
-  uint32  KillTimeout = 0;
-  string  Name;
-  sint32  Priority = 0x20;
+  uint32  KillTimeout = 0;
+  string  Name;
+  sint32  Priority = 0x20;
   boolean RunInteractively = False;
-  uint32  ShowWindowCommand;
+  uint32  ShowWindowCommand;
   boolean UseDefaultErrorMode = False;
-  string  WindowTitle;
-  string  WorkingDirectory;
-  uint32  XCoordinate;
-  uint32  XNumCharacters;
-  uint32  XSize;
-  uint32  YCoordinate;
-  uint32  YNumCharacters;
-  uint32  YSize;
-  uint32  FillAttribute;
+  string  WindowTitle;
+  string  WorkingDirectory;
+  uint32  XCoordinate;
+  uint32  XNumCharacters;
+  uint32  XSize;
+  uint32  YCoordinate;
+  uint32  YNumCharacters;
+  uint32  YSize;
+  uint32  FillAttribute;
 };
 ```
 
@@ -172,12 +175,12 @@ Access type: Read-only
 
 Module to execute. The string can specify the full path and file name of the module to execute, or it can specify a partial name. If a partial name is specified, the current drive and current directory are assumed.
 
-The **ExecutablePath** property can be **NULL**. In that case, the module name must be the first white space-delimited token in the **CommandLineTemplate** property value. If using a long file name that contains a space, use quoted strings to indicate where the file name ends and the arguments begin—to clarify the file name.
+The **ExecutablePath** property can be **NULL**. In that case, the module name must be the first white space-delimited token in the **CommandLineTemplate** property value. If using a long file name that contains a space, use quoted strings to indicate where the file name ends and the arguments begin to clarify the file name.
 
 > [!Note]  
 > Because the **CommandLineTemplate** property can be a template where the module to execute is supplied by a variable, a **NULL** **ExecutablePath** property permits the module that is specified in the parameter to execute, and then it is out of your control. Always set the **ExecutablePath** property in the **CommandLineEventConsumer** registration to include the required executable, which avoids overwriting by events parameters. If you must use a template and variable to specify the module to execute, be careful about who is granted full write privilege in the namespace.
 
- 
+ 
 
 </dd> <dt>
 
@@ -272,7 +275,7 @@ For example, the following combinations produce red text on a white background:
 
 
 
-– or –
+  or  
 
 
 ```mof
@@ -318,7 +321,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Number, in seconds, that the WMI service waits before killing a process—0 (zero) indicates a process is not to be killed. Killing a process prevents a process from running indefinitely.
+Number, in seconds, that the WMI service waits before killing a process 0 (zero) indicates a process is not to be killed. Killing a process prevents a process from running indefinitely.
 
 </dd> <dt>
 
@@ -398,7 +401,7 @@ Indicates a process whose threads run only when the system is idle, and are pree
 128 (0x80)
 </dt> <dd>
 
-Indicates a process that performs high-priority, time critical tasks. The threads of a high-priority class process preempts the threads of normal-priority or idle-priority class processes. An example is the Task List, which must respond quickly when called by the user—regardless of the load on the system. Use extreme care when using the high-priority class, because a CPU-bound application with a high-priority class can use nearly all available cycles.
+Indicates a process that performs high-priority, time critical tasks. The threads of a high-priority class process preempts the threads of normal-priority or idle-priority class processes. An example is the Task List, which must respond quickly when called by the user regardless of the load on the system. Use extreme care when using the high-priority class, because a CPU-bound application with a high-priority class can use nearly all available cycles.
 
 </dd> <dt>
 
@@ -422,7 +425,7 @@ Access type: Read-only
 
 If **True**, the process is launched in the interactive WinStation. If **False**, the process is launched in the default service WinStation. This property overrides the **DesktopName** property. This property is only used locally, and only if the interactive user is the same user who set up the consumer.
 
-Starting with Windows Vista, the process running the **CommandLineEventConsumer** instance is started under the **LocalSystem** account and is in session 0. Services which run in session 0 cannot interact with user sessions.
+Starting with Windows Vista, the process running the **CommandLineEventConsumer** instance is started under the **LocalSystem** account and is in session 0. Services which run in session 0 cannot interact with user sessions.
 
 </dd> <dt>
 
@@ -688,7 +691,7 @@ The **CreateSeparateWowVdm** property indicates whether or not the new process r
 > [!Note]  
 > The **CommandLineEventConsumer** uses the [**CreateProcess**](https://msdn.microsoft.com/library/windows/desktop/ms682425) method internally, and passes the **ExecutablePath** and **CommandLineTemplate** properties as the *lpApplicationName* and *lpCommandLine* parameters. The following Managed Object Format (MOF) code example does not use **CommandLineEventConsumer** correctly.
 
- 
+ 
 
 
 ```mof
@@ -733,8 +736,8 @@ For an example of using **CommandLineEventConsumer** to create a consumer, see [
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\subscription<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>Wbemcons.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemcons.dll</dt> </dl> |
@@ -760,9 +763,9 @@ For an example of using **CommandLineEventConsumer** to create a consumer, see [
 [**\_\_EventConsumer**](--eventconsumer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

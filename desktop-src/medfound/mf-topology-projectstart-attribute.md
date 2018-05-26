@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the stop time for a topology, relative to the start of the first topology in the sequence.'
-ms.assetid: '7669f97e-87ad-4a64-a2a5-62b8ce450d80'
-title: 'MF\_TOPOLOGY\_PROJECTSTART attribute'
+---
+Description: Specifies the stop time for a topology, relative to the start of the first topology in the sequence.
+ms.assetid: 7669f97e-87ad-4a64-a2a5-62b8ce450d80
+title: MF\_TOPOLOGY\_PROJECTSTART attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_PROJECTSTART attribute
@@ -49,10 +54,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Topology Attributes](topology-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> <dt>
 
 [**MF\_TOPOLOGY\_PROJECTSTOP**](mf-topology-projectstop-attribute.md)

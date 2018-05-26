@@ -1,8 +1,9 @@
 ---
 title: TB\_GETBUTTONTEXT message
 description: Retrieves the display text of a button on a toolbar.
-ms.assetid: '16dd7181-a404-4056-b084-05f49f5a4b14'
-keywords: ["TB_GETBUTTONTEXT message Windows Controls"]
+ms.assetid: 16dd7181-a404-4056-b084-05f49f5a4b14
+keywords:
+- TB_GETBUTTONTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETBUTTONTEXT message
@@ -53,8 +59,8 @@ The returned string corresponds to the text that is currently displayed by the b
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_GETBUTTONTEXTW** (Unicode) and **TB\_GETBUTTONTEXTA** (ANSI)<br/>         |
 
@@ -76,9 +82,9 @@ The returned string corresponds to the text that is currently displayed by the b
 [**TB\_SETBUTTONINFO**](tb-setbuttoninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

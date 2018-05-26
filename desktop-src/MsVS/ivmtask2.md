@@ -1,8 +1,10 @@
 ---
 title: IVMTask2 interface
 description: The IVMTask2 interface extends the IVMTask interface, adding a property to return the remote HRESULT value and a text description of the error.
-ms.assetid: 'dd3530d7-a803-4bfd-a579-9c85e4c586c7'
-keywords: ["IVMTask2 interface Virtual Server", "IVMTask2 interface Virtual Server , described"]
+ms.assetid: dd3530d7-a803-4bfd-a579-9c85e4c586c7
+keywords:
+- IVMTask2 interface Virtual Server
+- IVMTask2 interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask2 interface
@@ -41,7 +48,7 @@ The **IVMTask2** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +69,7 @@ The **IVMTask2** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,14 +98,14 @@ The following methods return an **IVMTask2** object:
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

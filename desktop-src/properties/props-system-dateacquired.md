@@ -1,7 +1,12 @@
 ---
-Description: 'The acquisition date of the file or media.'
-ms.assetid: '7c673d21-5243-4e41-91df-c5d84aaf620a'
-title: 'System.DateAcquired'
+Description: The acquisition date of the file or media.
+ms.assetid: 7c673d21-5243-4e41-91df-c5d84aaf620a
+title: System.DateAcquired
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DateAcquired

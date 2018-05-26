@@ -1,14 +1,20 @@
 ---
 title: AUTHOR Element
 description: The AUTHOR element contains the name of the author of a Windows Media metafile or media clip.
-ms.assetid: 'd80aad3d-4471-4310-8d43-2733ed83103c'
-keywords: ["AUTHOR Element Windows Media Player"]
+ms.assetid: d80aad3d-4471-4310-8d43-2733ed83103c
+keywords:
+- AUTHOR Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AUTHOR Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUTHOR Element
@@ -36,7 +42,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,9 +90,9 @@ Each parent **ASX** and **ENTRY** element should contain at most one child **AUT
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

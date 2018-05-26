@@ -4,11 +4,12 @@ description: Opens the specified file and performs the client and server operati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1ffb81ee-9e7e-4d88-91fc-f1857377d125'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1ffb81ee-9e7e-4d88-91fc-f1857377d125
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsBackupOpenFile function Active Directory"]
+keywords:
+- DsBackupOpenFile function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsBackupOpenFile function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupOpenFile** function opens the specified file and performs the client and server operations necessary to prepare the file for backup.
 
@@ -32,10 +36,10 @@ The **DsBackupOpenFile** function opens the specified file and performs the clie
 
 ```C++
 HRESULT DsBackupOpenFile(
-  _In_  HBC           hbc,
-  _In_  LPCTSTR       szAttachmentName,
-  _In_  DWORD         cbReadHintSize,
-  _Out_ LARGE_INTEGER *pliFileSize
+  _In_  HBC           hbc,
+  _In_  LPCTSTR       szAttachmentName,
+  _In_  DWORD         cbReadHintSize,
+  _Out_ LARGE_INTEGER *pliFileSize
 );
 ```
 
@@ -99,8 +103,8 @@ The caller does not have the proper access privileges to call this function. The
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -121,9 +125,9 @@ The caller does not have the proper access privileges to call this function. The
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

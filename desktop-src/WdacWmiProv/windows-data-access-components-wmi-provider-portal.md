@@ -4,10 +4,13 @@ description: The WDAC WMI Provider enables management of WDAC.In this sectionWDA
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1a96585-0715-49bd-b242-ce76c793b579'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f1a96585-0715-49bd-b242-ce76c793b579
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Data Access Components (WDAC) WMI Provider

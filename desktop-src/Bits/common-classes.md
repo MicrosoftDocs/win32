@@ -1,7 +1,12 @@
 ---
 title: Example Common Classes
 description: You can use the code examples in this topic as a starting point for many Background Intelligent Transfer Service (BITS) applications that perform COM initialization, need error handling, and receive callback notifications.
-ms.assetid: '8fe722a3-fbab-4843-b298-1ea11f54d7a5'
+ms.assetid: 8fe722a3-fbab-4843-b298-1ea11f54d7a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Common Classes
@@ -96,15 +101,15 @@ private:
 
 
 
-The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( http://go.microsoft.com/fwlink/p/?linkid=162308).
+The CNotifyInterface class derived from the [**IBackgroundCopyCallback**](/windows/win32/Bits/nn-bits-ibackgroundcopycallback?branch=master) interface. The CNotifyInterface class implements the IUnknown interface. For more information, see [IUnknown]( http://go.microsoft.com/fwlink/p/?linkid=162308).
 
-CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](ibackgroundcopycallback-jobtransferred.md), [**JobModification**](ibackgroundcopycallback-jobmodification.md), and [**JobError**](ibackgroundcopycallback-joberror.md). All of these methods take an [**IBackgroundCopyJob**](ibackgroundcopyjob.md) job object.
+CNotifyInterface uses the following methods to receive notification that a job is complete, has been modified, or is in an error state: [**JobTransferred**](/windows/win32/Bits/nf-bits-ibackgroundcopycallback-jobtransferred?branch=master), [**JobModification**](/windows/win32/Bits/nf-bits-ibackgroundcopycallback-jobmodification?branch=master), and [**JobError**](/windows/win32/Bits/nf-bits-ibackgroundcopycallback-joberror?branch=master). All of these methods take an [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) job object.
 
 This example uses the [CoTaskMemFree](http://go.microsoft.com/fwlink/p/?linkid=134839) to free memory resources.
 
 ## 
 
-The following code example is the implementation of the [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) callback interface.
+The following code example is the implementation of the [**IBackgroundCopyCallback**](/windows/win32/Bits/nn-bits-ibackgroundcopycallback?branch=master) callback interface.
 
 
 ```C++
@@ -406,10 +411,10 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
 [IUnknown]( http://go.microsoft.com/fwlink/p/?linkid=162308)
 </dt> <dt>
 
-[**IBackgroundCopyCallback**](ibackgroundcopycallback.md)
+[**IBackgroundCopyCallback**](/windows/win32/Bits/nn-bits-ibackgroundcopycallback?branch=master)
 </dt> <dt>
 
-[**IBackgroundCopyJob**](ibackgroundcopyjob.md)
+[**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master)
 </dt> <dt>
 
 [CoInitializeEx](http://go.microsoft.com/fwlink/p/?linkid=162303)

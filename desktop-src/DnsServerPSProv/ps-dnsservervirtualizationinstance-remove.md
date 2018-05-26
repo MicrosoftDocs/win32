@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DnsServerVirtualizationInstance class
 description: Removes a DNS server virtualization instance.
 audience: developer
-ms.assetid: '5a368111-ed44-464c-aefd-cacfedbcdb37'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5a368111-ed44-464c-aefd-cacfedbcdb37
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DnsServerVirtualizationInstance class", "PS_DnsServerVirtualizationInstance class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DnsServerVirtualizationInstance class
+- PS_DnsServerVirtualizationInstance class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DnsServerVirtualizationInstance class
@@ -28,12 +34,12 @@ Removes a DNS server virtualization instance.
 
 ```mof
 uint32 Remove(
-  [in]  string                          Name,
-  [in]  string                          ComputerName,
-  [in]  boolean                         PassThru,
-  [in]  boolean                         Force,
-  [in]  boolean                         RemoveZoneFiles,
-  [out] DnsServerVirtualizationInstance cmdletOutput
+  [in]  string                          Name,
+  [in]  string                          ComputerName,
+  [in]  boolean                         PassThru,
+  [in]  boolean                         Force,
+  [in]  boolean                         RemoveZoneFiles,
+  [out] DnsServerVirtualizationInstance cmdletOutput
 );
 ```
 
@@ -96,7 +102,7 @@ Description
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -110,9 +116,9 @@ Description
 [**PS\_DnsServerVirtualizationInstance**](ps-dnsservervirtualizationinstance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

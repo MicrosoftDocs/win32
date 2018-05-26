@@ -1,7 +1,12 @@
 ---
-Description: 'This is a per-machine system policy that can be used when the administrator only wants per-machine applications installed.'
-ms.assetid: '3afa1d89-b76b-4184-b0d7-25cbf6749c7f'
+Description: This is a per-machine system policy that can be used when the administrator only wants per-machine applications installed.
+ms.assetid: 3afa1d89-b76b-4184-b0d7-25cbf6749c7f
 title: DisableUserInstalls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableUserInstalls

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Makes this pointer to an item identifier list (PIDL) an invalid portion of the Shell folder.'
-title: 'IShellFolderSearchable::InvalidateSearch method'
+---
+Description: Makes this pointer to an item identifier list (PIDL) an invalid portion of the Shell folder.
+title: IShellFolderSearchableInvalidateSearch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderSearchable::InvalidateSearch method
@@ -28,7 +33,7 @@ HRESULT InvalidateSearch(
 
 Type: **LPCITEMIDLIST**
 
-A pointer to the [**ITEMIDLIST**](itemidlist.md) structure for the search folder.
+A pointer to the [**ITEMIDLIST**](/windows/win32/Shtypes/ns-shtypes-_itemidlist?branch=master) structure for the search folder.
 
 </dd> <dt>
 

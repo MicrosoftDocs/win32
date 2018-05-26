@@ -4,11 +4,14 @@ description: Sets the MaxXResolution property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c1e00bab-ab32-4cf6-8121-950184bd8a01'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c1e00bab-ab32-4cf6-8121-950184bd8a01
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetMaxXResolution method Remote Desktop Services", "SetMaxXResolution method Remote Desktop Services , Win32_TSClientSetting class", "Win32_TSClientSetting class Remote Desktop Services , SetMaxXResolution method"]
+keywords:
+- SetMaxXResolution method Remote Desktop Services
+- SetMaxXResolution method Remote Desktop Services , Win32_TSClientSetting class
+- Win32_TSClientSetting class Remote Desktop Services , SetMaxXResolution method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetMaxXResolution method of the Win32\_TSClientSetting class
@@ -28,7 +34,7 @@ Sets the **MaxXResolution** property.
 
 ```mof
 uint32 SetMaxXResolution(
-  [in] uint32 MaxXResolution
+  [in] uint32 MaxXResolution
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSClientSetting**](win32-tsclientsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

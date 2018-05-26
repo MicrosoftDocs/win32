@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer DisplayName property
 description: Localized display name of the type.
-ms.assetid: '22503996-e693-47bc-b84f-cc4d3af2cb78'
-keywords: ["DisplayName property Legacy Windows Environment Features", "DisplayName property Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , DisplayName property"]
+ms.assetid: 22503996-e693-47bc-b84f-cc4d3af2cb78
+keywords:
+- DisplayName property Legacy Windows Environment Features
+- DisplayName property Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , DisplayName property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::DisplayName property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DisplayName(
-  [out, retval] BSTR *name
+  [out, retval] BSTR *name
 );
 ```
 
@@ -43,16 +51,16 @@ Pointer to a value that receives the localized display name for the type.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | Header<br/>                   | <dl> <dt>WdsView.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

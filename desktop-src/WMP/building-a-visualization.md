@@ -1,8 +1,29 @@
 ---
 title: Building a Visualization
 description: Building a Visualization
-ms.assetid: 'ae5a22c5-133f-408f-94b9-15cc90657217'
-keywords: ["Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,building", "custom visualizations,building", "building visualizations", "Visual Studio,building visualizations", "Windows Media Player Plug-in Wizard,building visualizations", "plug-in wizard", "visualizations,presets", "custom visualizations,presets", "visualizations,Bar preset", "custom visualizations,Bar preset", "visualizations,Wave preset", "custom visualizations,Wave preset", "presets in visualizations,Bar preset", "presets in visualizations,Wave preset"]
+ms.assetid: ae5a22c5-133f-408f-94b9-15cc90657217
+keywords:
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,building
+- custom visualizations,building
+- building visualizations
+- Visual Studio,building visualizations
+- Windows Media Player Plug-in Wizard,building visualizations
+- plug-in wizard
+- visualizations,presets
+- custom visualizations,presets
+- visualizations,Bar preset
+- custom visualizations,Bar preset
+- visualizations,Wave preset
+- custom visualizations,Wave preset
+- presets in visualizations,Bar preset
+- presets in visualizations,Wave preset
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a Visualization

@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object, that is a class definition or an instance, based on the object path.'
+Description: Retrieves an object, that is a class definition or an instance, based on the object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8da46851-52b8-4b5a-8c9d-1d492f57f4b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8da46851-52b8-4b5a-8c9d-1d492f57f4b6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.GetAsync method'
+title: SWbemServices.GetAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.GetAsync method
@@ -171,8 +174,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -191,9 +194,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 [**SWbemObject**](swbemobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

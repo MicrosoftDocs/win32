@@ -1,8 +1,14 @@
 ---
 title: Compiling and Linking
 description: The following makefile shows the dependencies among the files needed to compile the client and server applications and link them to the RPC run-time library and the standard C run-time library.
-ms.assetid: '9182baea-7307-4db0-8d66-7fba14227ac9'
-keywords: ["Remote Procedure Call RPC , tasks, compiling and linking"]
+ms.assetid: 9182baea-7307-4db0-8d66-7fba14227ac9
+keywords:
+- Remote Procedure Call RPC , tasks, compiling and linking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compiling and Linking

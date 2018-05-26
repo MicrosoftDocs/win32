@@ -4,13 +4,16 @@ description: Requests a reset of the LogicalDevice.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ed014664-7f04-4e69-9e52-51a352c2a285'
-ms.prod: 'windows-server-dev'
+ms.assetid: ed014664-7f04-4e69-9e52-51a352c2a285
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Reset method iSCSI Software Target API", "Reset method iSCSI Software Target API , CIM_NetworkPort class", "CIM_NetworkPort class iSCSI Software Target API , Reset method"]
+keywords:
+- Reset method iSCSI Software Target API
+- Reset method iSCSI Software Target API , CIM_NetworkPort class
+- CIM_NetworkPort class iSCSI Software Target API , Reset method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reset method of the CIM\_NetworkPort class
@@ -45,7 +51,7 @@ This method has no parameters.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -59,9 +65,9 @@ This method has no parameters.
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

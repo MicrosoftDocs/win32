@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ServerPort property
 description: The ServerPort property contains TCP port of the VMRC server.
-ms.assetid: 'a70a3323-15cc-4c56-a7ad-01580f9b80fd'
-keywords: ["ServerPort property Virtual Server", "ServerPort property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ServerPort property", "ServerPort property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ServerPort property"]
+ms.assetid: a70a3323-15cc-4c56-a7ad-01580f9b80fd
+keywords:
+- ServerPort property Virtual Server
+- ServerPort property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ServerPort property
+- ServerPort property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ServerPort property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ServerPort property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ServerPort(
-  [in]  long serverPort
+  [in]  long serverPort
 );
 
 HRESULT get_ServerPort(
-  [out] long *serverPort
+  [out] long *serverPort
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -97,9 +107,9 @@ This property value is read/write.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_Storage02 class
 description: The MDM\_Policy\_Result01\_Storage02 class represents the available storage policies.
-ms.assetid: 'e0e3b867-38b5-4b10-a13e-6f99b8ff6db3'
-keywords: ["MDM_Policy_Result01_Storage02 class", "MDM_Policy_Result01_Storage02 class, described"]
+ms.assetid: e0e3b867-38b5-4b10-a13e-6f99b8ff6db3
+keywords:
+- MDM_Policy_Result01_Storage02 class
+- MDM_Policy_Result01_Storage02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_Storage02 class
@@ -104,7 +111,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -112,9 +119,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

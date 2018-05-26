@@ -2,13 +2,19 @@
 title: /use\_epv switch
 description: The /use\_epv switch directs the MIDL compiler to generate server stub code that calls the server application routine through an entry-point vector (epv), rather than by a static call. The use of this attribute is not recommended.
 ms.assetid: 2853d836-ded3-412a-916b-1143968123a2
-keywords: ["/use_epv switch MIDL"]
+keywords:
+- /use_epv switch MIDL
 topic_type:
 - apiref
 api_name:
 - /use_epv
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /use\_epv switch

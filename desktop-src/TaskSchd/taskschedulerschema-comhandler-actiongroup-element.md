@@ -1,14 +1,20 @@
 ---
 title: ComHandler (actionGroup) Element
 description: Specifies an action that fires a handler.
-ms.assetid: '18f16873-3879-4a3b-b8f2-17cc84647e25'
-keywords: ["ComHandler element Task Scheduler"]
+ms.assetid: 18f16873-3879-4a3b-b8f2-17cc84647e25
+keywords:
+- ComHandler element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ComHandler
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComHandler (actionGroup) Element
@@ -46,7 +52,7 @@ The **ComHandler** element is defined by the [**actionGroup**](taskschedulersche
 
 ## Remarks
 
-Applications define a COM handler action using the [**IComHandlerAction**](icomhandleraction.md) interface.
+Applications define a COM handler action using the [**IComHandlerAction**](/windows/win32/taskschd/nn-taskschd-icomhandleraction?branch=master) interface.
 
 ### Attributes
 
@@ -76,8 +82,8 @@ The following XML defines a COM handler action.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -88,9 +94,9 @@ The following XML defines a COM handler action.
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

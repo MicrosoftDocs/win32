@@ -1,8 +1,11 @@
 ---
 title: IMimeEditTagCollection Init method
 description: Initializes a document for inclusion in the collection.
-ms.assetid: 'a9d3bd25-4256-4208-b4a5-bb6846b02dbb'
-keywords: ["Init method Windows Mail (formerly Outlook Express)", "Init method Windows Mail (formerly Outlook Express) , IMimeEditTagCollection interface", "IMimeEditTagCollection interface Windows Mail (formerly Outlook Express) , Init method"]
+ms.assetid: a9d3bd25-4256-4208-b4a5-bb6846b02dbb
+keywords:
+- Init method Windows Mail (formerly Outlook Express)
+- Init method Windows Mail (formerly Outlook Express) , IMimeEditTagCollection interface
+- IMimeEditTagCollection interface Windows Mail (formerly Outlook Express) , Init method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEditTagCollection::Init method
@@ -24,7 +32,7 @@ Initializes a document for inclusion in the collection.
 
 ```C++
 HRESULT Init(
-  [in] IUnknown *pHtmlDoc
+  [in] IUnknown *pHtmlDoc
 );
 ```
 
@@ -55,8 +63,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -64,9 +72,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

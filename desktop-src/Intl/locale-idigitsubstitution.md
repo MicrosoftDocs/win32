@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IDIGITSUBSTITUTION'
-ms.assetid: 'f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3'
-title: 'LOCALE\_IDIGITSUBSTITUTION'
+Description: LOCALE\_IDIGITSUBSTITUTION
+ms.assetid: f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3
+title: LOCALE\_IDIGITSUBSTITUTION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IDIGITSUBSTITUTION

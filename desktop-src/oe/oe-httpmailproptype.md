@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILPROPTYPE enumeration
 description: HTTPMail root property types.
-ms.assetid: '44ba4f01-5519-44d6-a61e-17dbc5089bd1'
-keywords: ["HTTPMAILPROPTYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 44ba4f01-5519-44d6-a61e-17dbc5089bd1
+keywords:
+- HTTPMAILPROPTYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILPROPTYPE enumeration
@@ -24,19 +31,19 @@ HTTPMail root property types.
 
 ```C++
 typedef enum tagHTTPMAILPROPTYPE { 
-  HTTPMAIL_PROP_INVALID             = 0,
-  HTTPMAIL_PROP_ADBAR               = 1,
-  HTTPMAIL_PROP_CONTACTS            = 2,
-  HTTPMAIL_PROP_INBOX               = 3,
-  HTTPMAIL_PROP_OUTBOX              = 4,
-  HTTPMAIL_PROP_SENDMSG             = 5,
-  HTTPMAIL_PROP_SENTITEMS           = 6,
-  HTTPMAIL_PROP_DELETEDITEMS        = 7,
-  HTTPMAIL_PROP_DRAFTS              = 8,
-  HTTPMAIL_PROP_MSGFOLDERROOT       = 9,
-  HTTPMAIL_PROP_SIG                 = 10,
-  HTTPMAIL_PROP_MAXPOLLINGINTERVAL  = 11,
-  HTTPMAIL_PROP_LAST                = 12
+  HTTPMAIL_PROP_INVALID             = 0,
+  HTTPMAIL_PROP_ADBAR               = 1,
+  HTTPMAIL_PROP_CONTACTS            = 2,
+  HTTPMAIL_PROP_INBOX               = 3,
+  HTTPMAIL_PROP_OUTBOX              = 4,
+  HTTPMAIL_PROP_SENDMSG             = 5,
+  HTTPMAIL_PROP_SENTITEMS           = 6,
+  HTTPMAIL_PROP_DELETEDITEMS        = 7,
+  HTTPMAIL_PROP_DRAFTS              = 8,
+  HTTPMAIL_PROP_MSGFOLDERROOT       = 9,
+  HTTPMAIL_PROP_SIG                 = 10,
+  HTTPMAIL_PROP_MAXPOLLINGINTERVAL  = 11,
+  HTTPMAIL_PROP_LAST                = 12
 } ACCESSTYPE;
 ```
 
@@ -131,7 +138,7 @@ The maximum length of time between background polls for new mail.
 > [!Note]  
 > Use [**GetPropertyDw**](oe-ihttpmailtransport-getpropertydw.md) to retrieve the value of this property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -148,17 +155,17 @@ Indicates the end of the enumeration.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

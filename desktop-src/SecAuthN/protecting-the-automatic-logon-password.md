@@ -1,14 +1,19 @@
 ---
-Description: 'The automatic logon password should be protected by using the LsaStorePrivateData function.'
-ms.assetid: '7bd4d725-de17-4801-bd06-8d47a777409d'
+Description: The automatic logon password should be protected by using the LsaStorePrivateData function.
+ms.assetid: 7bd4d725-de17-4801-bd06-8d47a777409d
 title: Protecting the Automatic Logon Password
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protecting the Automatic Logon Password
 
 The automatic logon password should be protected by using the [**LsaStorePrivateData**](security.lsastoreprivatedata) function.
 
-The following example shows how to protect the automatic logon password. The example retrieves a handle to the [**Policy**](security.policy_object) object by calling the [**LsaOpenPolicy**](lsaopenpolicy.md) function. For more information about the **Policy** object and **Policy** object handles, see **Policy** object and [Opening a Policy Object Handle](security.opening_a_policy_object_handle), respectively. The example then sets the protected password by calling the [**LsaStorePrivateData**](security.lsastoreprivatedata) function. Note that if the caller passes in **NULL** for the protected password value, then the code clears the existing protected password. Before exiting, the code closes the handle to the **Policy** object.
+The following example shows how to protect the automatic logon password. The example retrieves a handle to the [**Policy**](security.policy_object) object by calling the [**LsaOpenPolicy**](/windows/win32/Ntsecapi/nf-ntsecapi-lsaopenpolicy?branch=master) function. For more information about the **Policy** object and **Policy** object handles, see **Policy** object and [Opening a Policy Object Handle](security.opening_a_policy_object_handle), respectively. The example then sets the protected password by calling the [**LsaStorePrivateData**](security.lsastoreprivatedata) function. Note that if the caller passes in **NULL** for the protected password value, then the code clears the existing protected password. Before exiting, the code closes the handle to the **Policy** object.
 
 
 ```C++

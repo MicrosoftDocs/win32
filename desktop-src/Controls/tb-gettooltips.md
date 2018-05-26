@@ -1,8 +1,9 @@
 ---
 title: TB\_GETTOOLTIPS message
 description: Retrieves the handle to the tooltip control, if any, associated with the toolbar.
-ms.assetid: '1e0edfdc-d0cb-41f3-9178-1239d81d3034'
-keywords: ["TB_GETTOOLTIPS message Windows Controls"]
+ms.assetid: 1e0edfdc-d0cb-41f3-9178-1239d81d3034
+keywords:
+- TB_GETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETTOOLTIPS message
@@ -37,15 +43,15 @@ Returns the handle to the tooltip control, or **NULL** if the toolbar has no ass
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

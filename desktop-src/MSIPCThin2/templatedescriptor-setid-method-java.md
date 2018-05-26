@@ -4,17 +4,21 @@ description: Sets the template Id.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '05783B8A-6A5E-47EA-94CB-75DE921C91DD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 05783B8A-6A5E-47EA-94CB-75DE921C91DD
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["TemplateDescriptor setTemplateId method"]
+keywords:
+- TemplateDescriptor setTemplateId method
 topic_type:
 - apiref
 api_name:
 - TemplateDescriptor setTemplateId method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateDescriptor setTemplateId method
@@ -37,7 +41,7 @@ public void setTemplateId(String templateId)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -57,11 +61,11 @@ TemplateDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

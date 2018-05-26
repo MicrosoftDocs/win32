@@ -1,14 +1,20 @@
 ---
 title: AudioBitrate Attribute
 description: The AudioBitrate attribute is the bit rate for the audio stream within a video file, in bits per second.
-ms.assetid: '28272aa2-49ac-4c13-aa3e-6e733cc49514'
-keywords: ["AudioBitrate Attribute Windows Media Player"]
+ms.assetid: 28272aa2-49ac-4c13-aa3e-6e733cc49514
+keywords:
+- AudioBitrate Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AudioBitrate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AudioBitrate Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

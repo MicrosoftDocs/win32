@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_RemoteAssistance02 class
 description: The MDM\_Policy\_Result01\_RemoteAssistance02 class represents the remote assistance policies.
-ms.assetid: 'ddb932ef-b309-4aad-8ab8-9d88739d90be'
-keywords: ["MDM_Policy_Result01_RemoteAssistance02 class", "MDM_Policy_Result01_RemoteAssistance02 class, described"]
+ms.assetid: ddb932ef-b309-4aad-8ab8-9d88739d90be
+keywords:
+- MDM_Policy_Result01_RemoteAssistance02 class
+- MDM_Policy_Result01_RemoteAssistance02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_RemoteAssistance02 class
@@ -128,7 +135,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -136,9 +143,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

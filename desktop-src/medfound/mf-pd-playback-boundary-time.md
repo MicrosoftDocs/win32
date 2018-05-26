@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stores the time (in 100-nanoseconds units) at which the presentation must begin, relative to the start of the media source.'
-ms.assetid: '7a3dddad-067b-46af-9ed9-4ccc65f9d772'
-title: 'MF\_PD\_PLAYBACK\_BOUNDARY\_TIME attribute'
+---
+Description: Stores the time (in 100-nanoseconds units) at which the presentation must begin, relative to the start of the media source.
+ms.assetid: 7a3dddad-067b-46af-9ed9-4ccc65f9d772
+title: MF\_PD\_PLAYBACK\_BOUNDARY\_TIME attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_PLAYBACK\_BOUNDARY\_TIME attribute
@@ -14,13 +19,13 @@ Stores the time (in 100-nanoseconds units) at which the presentation must begin,
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT64**](imfattributes-getuint64.md).
+To get this attribute, call [**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT64**](imfattributes-setuint64.md).
+To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master).
 
 ## Applies to
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 
 ## Remarks
 
@@ -30,7 +35,7 @@ Before the transition, the [MENewPresentation](menewpresentation.md) event is ra
 
 This value affects only markin time and does not affect how the Media Session adjusts time stamps. This attribute is ignored unless the media source indicates through the [MF\_PD\_PLAYBACK\_ELEMENT\_ID](mf-pd-playback-element-id.md) attribute that this presentation is the same playback element as the previous one.
 
-The MF\_PD\_PLAYBACK\_BOUNDARY\_TIME attribute is similar to the [MF\_TOPONODE\_MEDIASTART](mf-toponode-mediastart-attribute.md) attribute that is set on the topology node. For applications running on Windows Vista, media sources that implement [**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md) should use **MF\_TOPONODE\_MEDIASTART** instead of MF\_PD\_PLAYBACK\_BOUNDARY\_TIME.
+The MF\_PD\_PLAYBACK\_BOUNDARY\_TIME attribute is similar to the [MF\_TOPONODE\_MEDIASTART](mf-toponode-mediastart-attribute.md) attribute that is set on the topology node. For applications running on Windows Vista, media sources that implement [**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master) should use **MF\_TOPONODE\_MEDIASTART** instead of MF\_PD\_PLAYBACK\_BOUNDARY\_TIME.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

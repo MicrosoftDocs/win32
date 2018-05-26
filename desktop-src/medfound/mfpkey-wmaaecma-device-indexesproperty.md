@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies which audio devices the Voice Capture DSP uses for capturing and rendering audio.'
-ms.assetid: '42b6b82b-ac64-4a07-956c-473dd57a128d'
-title: 'MFPKEY\_WMAAECMA\_DEVICE\_INDEXES Property'
+---
+Description: Specifies which audio devices the Voice Capture DSP uses for capturing and rendering audio.
+ms.assetid: 42b6b82b-ac64-4a07-956c-473dd57a128d
+title: MFPKEY\_WMAAECMA\_DEVICE\_INDEXES Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_DEVICE\_INDEXES Property

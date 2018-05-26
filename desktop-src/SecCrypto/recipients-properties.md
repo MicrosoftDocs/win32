@@ -1,7 +1,12 @@
 ---
-Description: 'The Recipients object exposes the following properties.'
-ms.assetid: '77D98CC3-E0E4-437B-9411-B830E102B0F5'
+Description: The Recipients object exposes the following properties.
+ms.assetid: 77D98CC3-E0E4-437B-9411-B830E102B0F5
 title: Recipients Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipients Properties

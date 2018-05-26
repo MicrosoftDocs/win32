@@ -1,14 +1,20 @@
 ---
 title: PostExecutionAction element
 description: After a job has completed, AXE may optionally run a program.
-ms.assetid: '70A42E94-0401-4081-BC70-A62B3D4B3E48'
-keywords: ["PostExecutionAction element Access Execution Engine"]
+ms.assetid: 70A42E94-0401-4081-BC70-A62B3D4B3E48
+keywords:
+- PostExecutionAction element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - PostExecutionAction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PostExecutionAction element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

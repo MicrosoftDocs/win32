@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) supports Microsoft Direct3D 11.'
-ms.assetid: '23482B8A-58F3-4B39-9C6D-54EC27D36C01'
-title: 'MF\_SA\_D3D11\_AWARE attribute'
+---
+Description: Specifies whether a Media Foundation transform (MFT) supports Microsoft Direct3D 11.
+ms.assetid: 23482B8A-58F3-4B39-9C6D-54EC27D36C01
+title: MF\_SA\_D3D11\_AWARE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SA\_D3D11\_AWARE attribute
@@ -14,9 +19,9 @@ Specifies whether a Media Foundation transform (MFT) supports Microsoft Direct3D
 
 ## Remarks
 
-This attribute applies only to video MFTs. To query this attribute, call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) to get the MFT attribute store. If **GetAttributes** succeeds, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+This attribute applies only to video MFTs. To query this attribute, call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) to get the MFT attribute store. If **GetAttributes** succeeds, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
--   If the attribute is nonzero, the client can give the MFT a pointer to the [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) interface before streaming starts. To do so, the client sends the [**MFT\_MESSAGE\_SET\_D3D\_MANAGER**](mft-message-set-d3d-manager.md) message to the MFT. The client is not required to send this message.
+-   If the attribute is nonzero, the client can give the MFT a pointer to the [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) interface before streaming starts. To do so, the client sends the [**MFT\_MESSAGE\_SET\_D3D\_MANAGER**](mft-message-set-d3d-manager.md) message to the MFT. The client is not required to send this message.
 -   If this attribute is zero (**FALSE**), the MFT does not support Direct3D 11, and the client should not send the [**MFT\_MESSAGE\_SET\_D3D\_MANAGER**](mft-message-set-d3d-manager.md) message to the MFT.
 
 The default value of this attribute is **FALSE**. Treat this attribute as read-only. Do not change the value; the MFT will ignore any changes to the value.

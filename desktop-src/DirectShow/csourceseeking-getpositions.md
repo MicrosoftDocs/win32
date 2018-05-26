@@ -1,20 +1,25 @@
 ---
-Description: 'The GetPositions method retrieves the current position and the stop position. This method implements the IMediaSeeking::GetPositions method.'
-ms.assetid: 'f577b052-669b-457d-beab-94f574fef08d'
-title: 'CSourceSeeking.GetPositions method'
+Description: The GetPositions method retrieves the current position and the stop position. This method implements the IMediaSeekingGetPositions method.
+ms.assetid: f577b052-669b-457d-beab-94f574fef08d
+title: CSourceSeeking.GetPositions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetPositions method
 
-The `GetPositions` method retrieves the current position and the stop position. This method implements the [**IMediaSeeking::GetPositions**](imediaseeking-getpositions.md) method.
+The `GetPositions` method retrieves the current position and the stop position. This method implements the [**IMediaSeeking::GetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-getpositions?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetPositions(
-   LONGLONG *pCurrent,
-   LONGLONG *pStop
+   LONGLONG *pCurrent,
+   LONGLONG *pStop
 );
 ```
 
@@ -64,9 +69,9 @@ For the *pCurrent* parameter, this method returns the value of the [**CSourceSee
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

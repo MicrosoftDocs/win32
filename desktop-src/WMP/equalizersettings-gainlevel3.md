@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevel3
 description: The gainLevel3 attribute specifies or retrieves the gain level of band 3.
-ms.assetid: '508d00c6-2429-4f35-b7ab-bf30f774e614'
-keywords: ["EQUALIZERSETTINGS.gainLevel3 Windows Media Player"]
+ms.assetid: 508d00c6-2429-4f35-b7ab-bf30f774e614
+keywords:
+- EQUALIZERSETTINGS.gainLevel3 Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevel3
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevel3
@@ -21,7 +27,7 @@ The **gainLevel3** attribute specifies or retrieves the gain level of band 3.
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20. It has a default value of zero.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20. It has a default value of zero.
 
 ## Remarks
 
@@ -49,9 +55,9 @@ If this attribute is not specified, the previous value will be retained.
 [**EQUALIZERSETTINGS. gainLevels**](equalizersettings-gainlevels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

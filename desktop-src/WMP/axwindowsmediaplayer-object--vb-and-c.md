@@ -1,8 +1,22 @@
 ---
 title: AxWindowsMediaPlayer Object (VB and C\ )
 description: AxWindowsMediaPlayer Object (VB and C\ )
-ms.assetid: 'd7eeac20-1afa-4e73-9af6-9772fbb65516'
-keywords: ["Windows Media Player,AxWindowsMediaPlayer object", "Windows Media Player Mobile,AxWindowsMediaPlayer object", "Windows Media Player object model,AxWindowsMediaPlayer object", "object model,AxWindowsMediaPlayer object", "ActiveX control,AxWindowsMediaPlayer object", "Windows Media Player ActiveX control,AxWindowsMediaPlayer object", "Windows Media Player Mobile ActiveX control,AxWindowsMediaPlayer object", "reference for object model,AxWindowsMediaPlayer object", "AxWindowsMediaPlayer object"]
+ms.assetid: d7eeac20-1afa-4e73-9af6-9772fbb65516
+keywords:
+- Windows Media Player,AxWindowsMediaPlayer object
+- Windows Media Player Mobile,AxWindowsMediaPlayer object
+- Windows Media Player object model,AxWindowsMediaPlayer object
+- object model,AxWindowsMediaPlayer object
+- ActiveX control,AxWindowsMediaPlayer object
+- Windows Media Player ActiveX control,AxWindowsMediaPlayer object
+- Windows Media Player Mobile ActiveX control,AxWindowsMediaPlayer object
+- reference for object model,AxWindowsMediaPlayer object
+- AxWindowsMediaPlayer object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer Object (VB and C#)
@@ -177,10 +191,10 @@ The AxWindowsMediaPlayer object supports the following events.
 [**Object Model Reference for Visual Basic .NET and C#**](object-model-reference-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
-[**WMPOpenState**](wmpopenstate.md)
+[**WMPOpenState**](/windows/win32/wmp/ne-wmp-wmpopenstate?branch=master)
 </dt> <dt>
 
-[**WMPPlayState**](wmpplaystate.md)
+[**WMPPlayState**](/windows/win32/wmp/ne-wmp-wmpplaystate?branch=master)
 </dt> </dl>
 
  

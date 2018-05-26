@@ -1,7 +1,12 @@
 ---
 title: Testing a User Interface
 description: This section describes in detail some of the tasks associated with testing a UI for a Windows application.
-ms.assetid: 'd628e530-7a0b-4a8d-9a9f-253aec275fa9'
+ms.assetid: d628e530-7a0b-4a8d-9a9f-253aec275fa9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Testing a User Interface

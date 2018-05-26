@@ -4,18 +4,23 @@ description: This topic includes a code example that locates an application dire
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c161323b-13ce-4986-8b24-b459009ff53c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c161323b-13ce-4986-8b24-b459009ff53c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Locating an Application Directory Partition Host Server AD", "Application Directory Partition AD , Example Code for Locating an Application Directory Partition Host Server"]
+keywords:
+- Example Code for Locating an Application Directory Partition Host Server AD
+- Application Directory Partition AD , Example Code for Locating an Application Directory Partition Host Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Locating an Application Directory Partition Host Server
 
 This topic includes a code example that locates an application directory partition host server.
 
-The following C/C++ code example shows how to use the [**DsGetDcName**](dsgetdcname.md) function to locate a domain controller that hosts a replica of an application directory partition. This code example also shows how to use the [**DsCrackNames**](dscracknames.md) function to convert the distinguished name of an application directory partition to a DNS name.
+The following C/C++ code example shows how to use the [**DsGetDcName**](/windows/win32/DsGetDC/nf-dsgetdc-dsgetdcnamea?branch=master) function to locate a domain controller that hosts a replica of an application directory partition. This code example also shows how to use the [**DsCrackNames**](/windows/win32/Ntdsapi/nf-ntdsapi-dscracknamesa?branch=master) function to convert the distinguished name of an application directory partition to a DNS name.
 
 
 ```C++

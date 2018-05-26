@@ -1,7 +1,12 @@
 ---
 title: ODL Statements and Directives
 description: The following sections describe the statements and directives that make up the Object Description Language (ODL).
-ms.assetid: '511882e8-91e2-4bfc-89c0-343f11ee7c0a'
+ms.assetid: 511882e8-91e2-4bfc-89c0-343f11ee7c0a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODL Statements and Directives
@@ -27,7 +32,7 @@ The following sections describe the statements and directives that make up the O
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ The following sections describe the statements and directives that make up the O
 [ODL Reference](odl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

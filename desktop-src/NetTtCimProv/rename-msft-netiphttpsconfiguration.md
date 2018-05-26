@@ -1,7 +1,12 @@
 ---
-Description: 'Renames the IP-HTTPs profile.'
-ms.assetid: '2486f26a-a336-4c22-97bd-96f7ff86852a'
-title: 'Rename method of the MSFT\_NetIPHttpsConfiguration class'
+Description: Renames the IP-HTTPs profile.
+ms.assetid: 2486f26a-a336-4c22-97bd-96f7ff86852a
+title: Rename method of the MSFT\_NetIPHttpsConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_NetIPHttpsConfiguration class
@@ -13,9 +18,9 @@ Renames the IP-HTTPs profile.
 
 ```mof
 uint32 Rename(
-  [in]  string                       NewName,
-  [in]  boolean                      PassThru,
-  [out] MSFT_NetIPHttpsConfiguration OutputObject
+  [in]  string                       NewName,
+  [in]  boolean                      PassThru,
+  [out] MSFT_NetIPHttpsConfiguration OutputObject
 );
 ```
 
@@ -52,8 +57,8 @@ Receives the [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ Receives the [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md
 [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: This feature is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '409b8212-a2fc-4d64-a407-ade2fde9ac4d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 409b8212-a2fc-4d64-a407-ade2fde9ac4d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["column persistence MMC", "column persistence MMC"]
+keywords:
+- column persistence MMC
+- column persistence MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Column Persistence

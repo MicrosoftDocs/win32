@@ -1,7 +1,12 @@
 ---
 Description: Provider Manifest Entries
-ms.assetid: 'e8d5f53f-09a1-4285-8688-791b6b76afe8'
+ms.assetid: e8d5f53f-09a1-4285-8688-791b6b76afe8
 title: Provider Manifest Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provider Manifest Entries

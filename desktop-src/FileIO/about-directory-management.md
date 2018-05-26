@@ -1,7 +1,12 @@
 ---
-Description: 'A directory that contains one or more directories is the parent of the contained directory or directories, and each contained directory is a child of the parent directory. The hierarchical structure of directories is referred to as a directory tree.'
-ms.assetid: 'e8a7bf82-0f3c-4ad9-9d10-25c4d69733dc'
+Description: A directory that contains one or more directories is the parent of the contained directory or directories, and each contained directory is a child of the parent directory. The hierarchical structure of directories is referred to as a directory tree.
+ms.assetid: e8a7bf82-0f3c-4ad9-9d10-25c4d69733dc
 title: About Directory Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Directory Management
@@ -24,7 +29,7 @@ Directories can also contain junctions and reparse points.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ Directories can also contain junctions and reparse points.
 [Directory Management Reference](directory-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

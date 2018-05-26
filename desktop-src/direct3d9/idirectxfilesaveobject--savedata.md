@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a data object and its children to a DirectX file. Deprecated.'
-ms.assetid: '18bd5ef6-9e17-4c21-bc14-373de8df9ffb'
-title: 'IDirectXFileSaveObject::SaveData method'
+---
+Description: Saves a data object and its children to a DirectX file. Deprecated.
+ms.assetid: 18bd5ef6-9e17-4c21-bc14-373de8df9ffb
+title: IDirectXFileSaveObjectSaveData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileSaveObject::SaveData method

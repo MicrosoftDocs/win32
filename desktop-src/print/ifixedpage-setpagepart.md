@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetPagePart method associates a new part with the page.'
-ms.assetid: '12970111-3d25-4004-9c6d-8582ef7afef3'
-title: 'IFixedPage::SetPagePart method'
+---
+Description: The SetPagePart method associates a new part with the page.
+ms.assetid: 12970111-3d25-4004-9c6d-8582ef7afef3
+title: IFixedPageSetPagePart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::SetPagePart method

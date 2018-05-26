@@ -1,7 +1,12 @@
 ---
-Description: 'Verifies if the replication can be enabled from the current host system to the specified recovery system.'
-ms.assetid: '404855d5-9a1f-4079-b46d-b378fafff5bb'
-title: 'TestReplicationConnection method of the Msvm\_ReplicationService class'
+Description: Verifies if the replication can be enabled from the current host system to the specified recovery system.
+ms.assetid: 404855d5-9a1f-4079-b46d-b378fafff5bb
+title: TestReplicationConnection method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestReplicationConnection method of the Msvm\_ReplicationService class
@@ -13,12 +18,12 @@ Verifies if the replication can be enabled from the current host system to the s
 
 ```mof
 uint32 TestReplicationConnection(
-  [in]  string              RecoveryConnectionPoint,
-  [in]  uint16              RecoveryServerPortNumber,
-  [in]  uint16              AuthenticationType,
-  [in]  string              CertificateThumbPrint,
-  [in]  boolean             BypassProxyServer,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              RecoveryConnectionPoint,
+  [in]  uint16              RecoveryServerPortNumber,
+  [in]  uint16              AuthenticationType,
+  [in]  string              CertificateThumbPrint,
+  [in]  boolean             BypassProxyServer,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -146,8 +151,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -161,9 +166,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

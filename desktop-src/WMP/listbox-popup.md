@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.popUp
 description: The popUp attribute specifies a value indicating whether the element represents a popup or list box control.
-ms.assetid: 'b0ade23a-6164-4dd4-b599-43ea1fcd44e4'
-keywords: ["LISTBOX.popUp Windows Media Player"]
+ms.assetid: b0ade23a-6164-4dd4-b599-43ea1fcd44e4
+keywords:
+- LISTBOX.popUp Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.popUp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.popUp
@@ -32,7 +38,7 @@ This attribute is a **Boolean** specified at design time only.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ The **POPUP** element represents a list box control that is displayed only when 
 [**POPUP Element**](popup-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

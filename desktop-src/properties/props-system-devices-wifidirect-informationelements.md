@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates full set of IEs provided by the Wi-Fi Direct Device.'
-ms.assetid: 'b761889e-209d-4456-80af-a9de934be408'
-title: 'System.Devices.WiFiDirect.InformationElements'
+Description: Indicates full set of IEs provided by the Wi-Fi Direct Device.
+ms.assetid: b761889e-209d-4456-80af-a9de934be408
+title: System.Devices.WiFiDirect.InformationElements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.InformationElements

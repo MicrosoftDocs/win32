@@ -1,7 +1,12 @@
 ---
-Description: 'Bidi Functions, Structures, and Enumerations'
-ms.assetid: '0c3e787b-38e4-4c24-a62d-a0cbf4587ae7'
-title: 'Bidi Functions, Structures, and Enumerations'
+Description: Bidi Functions, Structures, and Enumerations
+ms.assetid: 0c3e787b-38e4-4c24-a62d-a0cbf4587ae7
+title: Bidi Functions, Structures, and Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bidi Functions, Structures, and Enumerations

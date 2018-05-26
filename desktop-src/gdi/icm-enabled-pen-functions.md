@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Image Color Management (ICM) ensures that a color image, graphic, or text object is rendered as close as possible to its original intent on any device, despite differences in imaging technologies and color capabilities among devices.'
-ms.assetid: '55452048-aacd-4772-9345-3efcf0350ce6'
-title: 'ICM-Enabled Pen Functions'
+Description: Microsoft Image Color Management (ICM) ensures that a color image, graphic, or text object is rendered as close as possible to its original intent on any device, despite differences in imaging technologies and color capabilities among devices.
+ms.assetid: 55452048-aacd-4772-9345-3efcf0350ce6
+title: ICM-Enabled Pen Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM-Enabled Pen Functions
@@ -10,8 +15,8 @@ Microsoft Image Color Management (ICM) ensures that a color image, graphic, or t
 
 There are various functions in the graphics device interface (GDI) that use or operate on color data. The following pen functions are enabled for use with ICM:
 
--   [**CreatePen**](createpen.md)
--   [**ExtCreatePen**](extcreatepen.md)
+-   [**CreatePen**](/windows/win32/Wingdi/nf-wingdi-createpen?branch=master)
+-   [**ExtCreatePen**](/windows/win32/Wingdi/nf-wingdi-extcreatepen?branch=master)
 
  
 

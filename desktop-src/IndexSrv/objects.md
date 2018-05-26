@@ -1,7 +1,12 @@
 ---
 title: Objects
 description: Indexing Service provides three categories of objects.
-ms.assetid: '434d8b9a-03a8-4e91-b6ff-c692f77b342d'
+ms.assetid: 434d8b9a-03a8-4e91-b6ff-c692f77b342d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Objects
@@ -68,7 +73,7 @@ These objects are described in the following table.
 
 | Object name      | Interface                              | Description                       |
 |------------------|----------------------------------------|-----------------------------------|
-| **PhraseSink**   | [**IPhraseSink**](iphrasesink.md)     | Phrase sink used by word breakers |
+| **PhraseSink**   | [**IPhraseSink**](/windows/win32/Indexsrv/nn-indexsrv-iphrasesink?branch=master)     | Phrase sink used by word breakers |
 | **WordFormSink** | [**IWordFormSink**](iwordformsink.md) | Stem sink used by stemmers        |
 | **WordSink**     | [**IWordSink**](iwordsink.md)iix      | Word sink used by word breakers   |
 

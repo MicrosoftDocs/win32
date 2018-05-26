@@ -1,7 +1,12 @@
 ---
 title: dcl\_tessellator\_output\_primitive (sm5 - asm)
 description: Declare the tessellator output primitive type in a hull shader declaration section.
-ms.assetid: '95F074C5-6012-4160-B78E-440C33C1ECC3'
+ms.assetid: 95F074C5-6012-4160-B78E-440C33C1ECC3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_tessellator\_output\_primitive (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the tessellator output primitive type in a hull shader declaration secti
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the tessellator output primitive type in a hull shader declaration secti
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -58,7 +63,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +72,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

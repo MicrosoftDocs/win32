@@ -4,12 +4,15 @@ description: The SMB Management API provides WMI classes and methods to manage s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9cd0ed3c-ef1c-4a06-bfdc-786dbee09115'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9cd0ed3c-ef1c-4a06-bfdc-786dbee09115
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SMB Management API

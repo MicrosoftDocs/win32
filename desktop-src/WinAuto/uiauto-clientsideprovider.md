@@ -1,8 +1,23 @@
 ---
 title: Implementing a Client-Side (Proxy) UI Automation Provider
 description: This topic describes how to write a proxy provider for an unsupported control and add it to the list of proxies used by client applications.
-ms.assetid: 'c66f4a7b-0a12-4c65-a3e9-1c826d54ac6b'
-keywords: ["UI Automation,client-side provider implementation", "UI Automation,provider implementation", "UI Automation,implementing client-side providers", "UI Automation,implementing providers", "UI Automation,proxies", "proxies", "client-side providers", "providers,implementing", "implementing client-side providers", "implementing providers"]
+ms.assetid: c66f4a7b-0a12-4c65-a3e9-1c826d54ac6b
+keywords:
+- UI Automation,client-side provider implementation
+- UI Automation,provider implementation
+- UI Automation,implementing client-side providers
+- UI Automation,implementing providers
+- UI Automation,proxies
+- proxies
+- client-side providers
+- providers,implementing
+- implementing client-side providers
+- implementing providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Client-Side (Proxy) UI Automation Provider
@@ -21,15 +36,15 @@ For code examples that show how to implement proxy providers, see [How-To Topics
 
 ## What is a Proxy?
 
-A client-side provider, or proxy, is an object that implements the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface on behalf of a control that does not have an **IRawElementProviderSimple** implementation of its own. Without a proxy, such a control is largely opaque to UI Automation, which can supply only basic information available from the window handle (**HWND**), such as the control location.
+A client-side provider, or proxy, is an object that implements the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface on behalf of a control that does not have an **IRawElementProviderSimple** implementation of its own. Without a proxy, such a control is largely opaque to UI Automation, which can supply only basic information available from the window handle (**HWND**), such as the control location.
 
 ## What is a Proxy Factory?
 
-Each proxy requires a corresponding *proxy factory*, which is an object that exposes the [**IUIAutomationProxyFactory**](uiauto-iuiautomationproxyfactory.md) interface. UI Automation maintains an internal table of *proxy factory entries*, each of which contains a reference to the proxy factory for each proxy, and a set of conditions. When UI Automation encounters a control that does not have a native [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) implementation, it searches for a proxy factory entry whose conditions indicate that it supports the control. UI Automation searches the table from the beginning, and when it finds a matching entry, UI Automation calls the factory's [**IUIAutomationProxyFactory::CreateProvider**](uiauto-iuiautomationproxyfactory-createprovider.md) method. If the matching proxy is successfully created, the UI Automation stops searching and uses the newly created proxy object; otherwise, UI Automation continues searching.
+Each proxy requires a corresponding *proxy factory*, which is an object that exposes the [**IUIAutomationProxyFactory**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactory?branch=master) interface. UI Automation maintains an internal table of *proxy factory entries*, each of which contains a reference to the proxy factory for each proxy, and a set of conditions. When UI Automation encounters a control that does not have a native [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) implementation, it searches for a proxy factory entry whose conditions indicate that it supports the control. UI Automation searches the table from the beginning, and when it finds a matching entry, UI Automation calls the factory's [**IUIAutomationProxyFactory::CreateProvider**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationproxyfactory-createprovider?branch=master) method. If the matching proxy is successfully created, the UI Automation stops searching and uses the newly created proxy object; otherwise, UI Automation continues searching.
 
-A client application creates an instance of a proxy factory entry by using the [**IUIAutomation::CreateProxyFactoryEntry**](uiauto-iuiautomation-createproxyfactoryentry.md) method, which returns an [**IUIAutomationProxyFactoryEntry**](uiauto-iuiautomationproxyfactoryentry.md) interface pointer. Clients use methods exposed by **IUIAutomationProxyFactoryEntry** to specify the set of conditions that the proxy factory uses for creating the proxy.
+A client application creates an instance of a proxy factory entry by using the [**IUIAutomation::CreateProxyFactoryEntry**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-createproxyfactoryentry?branch=master) method, which returns an [**IUIAutomationProxyFactoryEntry**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactoryentry?branch=master) interface pointer. Clients use methods exposed by **IUIAutomationProxyFactoryEntry** to specify the set of conditions that the proxy factory uses for creating the proxy.
 
-When it calls [**IUIAutomationProxyFactory::CreateProvider**](uiauto-iuiautomationproxyfactory-createprovider.md), UI Automation passes parameters that the proxy factory object can use to determine whether the proxy adequately supports the custom control. If so, the proxy factory creates an instance of the proxy and returns the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface pointer; otherwise, it returns a **NULL** pointer.
+When it calls [**IUIAutomationProxyFactory::CreateProvider**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationproxyfactory-createprovider?branch=master), UI Automation passes parameters that the proxy factory object can use to determine whether the proxy adequately supports the custom control. If so, the proxy factory creates an instance of the proxy and returns the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface pointer; otherwise, it returns a **NULL** pointer.
 
 ## Proxy Factory Mapping
 
@@ -57,17 +72,17 @@ Proxies 7 and 8 are duplicate entries for the SysListView32 control. Without mod
 
 Proxy 9, the Microsoft Active Accessibility to UI Automation proxy, should always be the last entry in the table. This enables Microsoft Active Accessibility fallback functionality for controls that implement Microsoft Active Accessibility, but not UI Automation.
 
-When modifying entries in the proxy factory table, you should carefully evaluate the new position of the entries. We recommend that entries for custom proxies be placed after the non-control and container proxies, but before the Microsoft Active Accessibility to UI Automation proxy. Also, while it is possible to have code in the call to [**CreateProvider**](uiauto-iuiautomationproxyfactory-createprovider.md) determine whether it should support a given window handle (**HWND**), it is more efficient to let UI Automation select the proxy based on the class name, and keep conditional code in the **CreateProvider** method to a minimum.
+When modifying entries in the proxy factory table, you should carefully evaluate the new position of the entries. We recommend that entries for custom proxies be placed after the non-control and container proxies, but before the Microsoft Active Accessibility to UI Automation proxy. Also, while it is possible to have code in the call to [**CreateProvider**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationproxyfactory-createprovider?branch=master) determine whether it should support a given window handle (**HWND**), it is more efficient to let UI Automation select the proxy based on the class name, and keep conditional code in the **CreateProvider** method to a minimum.
 
 UI Automation maintains a separate proxy factory table for each client. When a client changes its proxy table, the changes affect only the client itself; other clients are not affected.
 
 ## Managing Default Proxies
 
-When a client application creates the [**CUIAutomation**](uiauto-cuiautomation-object.md) object, the proxy factory table initially contains entries only for the default proxy providers for standard controls. By using the [**IUIAutomationProxyFactoryMapping**](uiauto-iuiautomationproxyfactorymapping.md) interface, clients can add new entries, remove unwanted entries, change the order of entries, and so on. A client can retrieve an **IUIAutomationProxyFactoryMapping** interface pointer by calling the [**IUIAutomation::ProxyFactoryMapping**](uiauto-iuiautomation-proxyfactorymapping.md) method.
+When a client application creates the [**CUIAutomation**](/windows/win32/UIAutomationClient/?branch=master) object, the proxy factory table initially contains entries only for the default proxy providers for standard controls. By using the [**IUIAutomationProxyFactoryMapping**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactorymapping?branch=master) interface, clients can add new entries, remove unwanted entries, change the order of entries, and so on. A client can retrieve an **IUIAutomationProxyFactoryMapping** interface pointer by calling the [**IUIAutomation::ProxyFactoryMapping**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_proxyfactorymapping?branch=master) method.
 
-The table of available proxies contains an [**IUIAutomationProxyFactoryEntry**](uiauto-iuiautomationproxyfactoryentry.md) interface for each proxy. Each **IUIAutomationProxyFactoryEntry** specifies the [**IUIAutomationProxyFactory**](uiauto-iuiautomationproxyfactory.md) and the control class that the proxy serves, and defines how events are to be handled.
+The table of available proxies contains an [**IUIAutomationProxyFactoryEntry**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactoryentry?branch=master) interface for each proxy. Each **IUIAutomationProxyFactoryEntry** specifies the [**IUIAutomationProxyFactory**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactory?branch=master) and the control class that the proxy serves, and defines how events are to be handled.
 
-The table of proxies is represented by an [**IUIAutomationProxyFactoryMapping**](uiauto-iuiautomationproxyfactorymapping.md) interface, which can be obtained from the [**IUIAutomation::ProxyFactoryMapping**](uiauto-iuiautomation-proxyfactorymapping.md) property. An application can use **IUIAutomationProxyFactoryMapping** methods to add and delete proxies. To create a new entry to add to this table, use [**IUIAutomation::CreateProxyFactoryEntry**](uiauto-iuiautomation-createproxyfactoryentry.md) to obtain the interface, and then use the [**IUIAutomationProxyFactoryEntry**](uiauto-iuiautomationproxyfactoryentry.md) methods to define the applicable control class and the behavior of the proxy.
+The table of proxies is represented by an [**IUIAutomationProxyFactoryMapping**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactorymapping?branch=master) interface, which can be obtained from the [**IUIAutomation::ProxyFactoryMapping**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-get_proxyfactorymapping?branch=master) property. An application can use **IUIAutomationProxyFactoryMapping** methods to add and delete proxies. To create a new entry to add to this table, use [**IUIAutomation::CreateProxyFactoryEntry**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-createproxyfactoryentry?branch=master) to obtain the interface, and then use the [**IUIAutomationProxyFactoryEntry**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationproxyfactoryentry?branch=master) methods to define the applicable control class and the behavior of the proxy.
 
 ## Related topics
 

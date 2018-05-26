@@ -1,7 +1,12 @@
 ---
 title: Translating to JavaScript
 description: Translating to JavaScript
-ms.assetid: '5c11ab17-bff5-4caf-8a1a-6461d643de3c'
+ms.assetid: 5c11ab17-bff5-4caf-8a1a-6461d643de3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating to JavaScript

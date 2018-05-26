@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following examples show some handwriting regular expressions that you can create.'
-ms.assetid: 'b4954e05-64d0-434a-96fd-6185671252d0'
+---
+Description: The following examples show some handwriting regular expressions that you can create.
+ms.assetid: b4954e05-64d0-434a-96fd-6185671252d0
 title: Regular Expression Examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Regular Expression Examples

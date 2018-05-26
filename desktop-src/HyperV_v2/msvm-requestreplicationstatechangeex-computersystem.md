@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the replication state of the replication relationship of the virtual machine be changed to the specified value.'
-ms.assetid: '8EC78CCC-2997-4239-A20C-BA56F848ECB6'
-title: 'Msvm\_ComputerSystem::RequestReplicationStateChangeEx method'
+Description: Requests that the replication state of the replication relationship of the virtual machine be changed to the specified value.
+ms.assetid: 8EC78CCC-2997-4239-A20C-BA56F848ECB6
+title: Msvm\_ComputerSystemRequestReplicationStateChangeEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ComputerSystem::RequestReplicationStateChangeEx method
@@ -13,10 +18,10 @@ Requests that the replication state of the replication relationship of the virtu
 
 ```C++
 uint32 RequestReplicationStateChangeEx(
-  [in]  string              ReplicationRelationship,
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  string              ReplicationRelationship,
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -145,7 +150,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -153,8 +158,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -168,9 +173,9 @@ This method returns one of the following values.
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

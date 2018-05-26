@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DatabaseParameter class is an abstract base class used to define database and service configurations that are common across database models and vendor implementations.'
+Description: The CIM\_DatabaseParameter class is an abstract base class used to define database and service configurations that are common across database models and vendor implementations.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '85e84bb1-ff7a-4f21-961d-7814a96be5ff'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 85e84bb1-ff7a-4f21-961d-7814a96be5ff
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DatabaseParameter class'
+title: CIM\_DatabaseParameter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DatabaseParameter class
@@ -127,16 +130,16 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

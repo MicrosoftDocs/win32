@@ -1,7 +1,12 @@
 ---
 title: Example Creating Context-Sensitive Pop-up Help
 description: Example Creating Context-Sensitive Pop-up Help
-ms.assetid: 'DA4E6726-E415-4403-AE63-FE7CB0AE467D'
+ms.assetid: DA4E6726-E415-4403-AE63-FE7CB0AE467D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Creating Context-Sensitive Pop-up Help

@@ -1,8 +1,14 @@
 ---
 title: InvalidSecurityDescriptorLoggingLevel
 description: Sets the verbosity of event log entries about invalid security descriptors for component launch and access permissions.
-ms.assetid: '44f680b8-083d-44f0-a353-e66b87787ab7'
-keywords: ["InvalidSecurityDescriptorLoggingLevel registry value COM"]
+ms.assetid: 44f680b8-083d-44f0-a353-e66b87787ab7
+keywords:
+- InvalidSecurityDescriptorLoggingLevel registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InvalidSecurityDescriptorLoggingLevel

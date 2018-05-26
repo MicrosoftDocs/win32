@@ -1,8 +1,34 @@
 ---
 title: Get Machine Certificate Example
 description: Get Machine Certificate Example
-ms.assetid: '4112e29e-7c86-4825-9798-dd1a81b82083'
-keywords: ["Windows Media Format SDK,machine certificates", "Windows Media Format SDK,certificates", "Windows Media Format SDK,example code", "Windows Media Format SDK,code examples", "digital rights management (DRM),machine certificates", "DRM (digital rights management),machine certificates", "digital rights management (DRM),certificates", "DRM (digital rights management),certificates", "digital rights management (DRM),example code", "DRM (digital rights management),example code", "digital rights management (DRM),code examples", "DRM (digital rights management),code examples", "DRM Client Extended APIs,machine certificates", "Client Extended APIs,machine certificates", "DRM Client Extended APIs,certificates", "Client Extended APIs,certificates", "DRM Client Extended APIs,example code", "Client Extended APIs,example code", "DRM Client Extended APIs,code examples", "Client Extended APIs,code examples", "certificates,code examples"]
+ms.assetid: 4112e29e-7c86-4825-9798-dd1a81b82083
+keywords:
+- Windows Media Format SDK,machine certificates
+- Windows Media Format SDK,certificates
+- Windows Media Format SDK,example code
+- Windows Media Format SDK,code examples
+- digital rights management (DRM),machine certificates
+- DRM (digital rights management),machine certificates
+- digital rights management (DRM),certificates
+- DRM (digital rights management),certificates
+- digital rights management (DRM),example code
+- DRM (digital rights management),example code
+- digital rights management (DRM),code examples
+- DRM (digital rights management),code examples
+- DRM Client Extended APIs,machine certificates
+- Client Extended APIs,machine certificates
+- DRM Client Extended APIs,certificates
+- Client Extended APIs,certificates
+- DRM Client Extended APIs,example code
+- Client Extended APIs,example code
+- DRM Client Extended APIs,code examples
+- Client Extended APIs,code examples
+- certificates,code examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get Machine Certificate Example

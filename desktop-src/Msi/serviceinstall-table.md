@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ServiceInstall table is used to install a service and has the following columns.'
-ms.assetid: '81688d31-e560-4dd0-8d84-efb50206c76e'
+---
+Description: The ServiceInstall table is used to install a service and has the following columns.
+ms.assetid: 81688d31-e560-4dd0-8d84-efb50206c76e
 title: ServiceInstall Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceInstall Table

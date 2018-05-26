@@ -4,17 +4,21 @@ description: Initializes a new instance of the UserRightsExpiredException class 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f869bbab-ec9e-4fd1-9c7c-0bdeb2994639'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: f869bbab-ec9e-4fd1-9c7c-0bdeb2994639
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRightsExpiredException(boolean, String) constructor"]
+keywords:
+- UserRightsExpiredException(boolean, String) constructor
 topic_type:
 - apiref
 api_name:
 - UserRightsExpiredException(boolean, String) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRightsExpiredException(boolean, String) constructor
@@ -38,7 +42,7 @@ public UserRightsExpiredException(boolean isURIEmailAddress, String uri)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -48,9 +52,9 @@ public UserRightsExpiredException(boolean isURIEmailAddress, String uri)
 
 UserRightsExpiredException.java
 
- 
+ 
 
- 
+ 
 
 
 

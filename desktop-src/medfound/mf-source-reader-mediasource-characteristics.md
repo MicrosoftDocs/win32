@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the characteristics of the media source from the Source Reader.'
-ms.assetid: '4cd48b69-6f7b-4b13-86f3-b38969025f70'
-title: 'MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS attribute'
+---
+Description: Gets the characteristics of the media source from the Source Reader.
+ms.assetid: 4cd48b69-6f7b-4b13-86f3-b38969025f70
+title: MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS attribute
@@ -12,11 +17,11 @@ Gets the characteristics of the media source from the [Source Reader](source-rea
 
 **UINT32**
 
-The value is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](mfmediasource-characteristics.md) enumeration.
+The value is a bitwise **OR** of flags from the [**MFMEDIASOURCE\_CHARACTERISTICS**](/windows/win32/mfidl/ne-mfidl-_mfmediasource_characteristics?branch=master) enumeration.
 
 ## Remarks
 
-To get this attribute, call the [**IMFSourceReader::GetPresentationAttribute**](imfsourcereader-getpresentationattribute.md) method on the source reader. Set the *dwStreamIndex* parameter to **MF\_SOURCE\_READER\_MEDIASOURCE** and the *guidAttribute* parameter to MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS.
+To get this attribute, call the [**IMFSourceReader::GetPresentationAttribute**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getpresentationattribute?branch=master) method on the source reader. Set the *dwStreamIndex* parameter to **MF\_SOURCE\_READER\_MEDIASOURCE** and the *guidAttribute* parameter to MF\_SOURCE\_READER\_MEDIASOURCE\_CHARACTERISTICS.
 
 The **PROPVARIANT** type for this attribute is **VT\_UI4**.
 

@@ -1,8 +1,25 @@
 ---
 title: Scaling Shapes
 description: Scaling Shapes
-ms.assetid: 'fe975ebd-9b27-409d-a7c2-ac5ee08d1d4f'
-keywords: ["Web workshop,scaling shapes", "designing Web pages,scaling shapes", "Vector Markup Language (VML),scaling shapes", "VML (Vector Markup Language),scaling shapes", "vector graphics,scaling shapes", "VML shapes,scaling", "scaling shapes", "Vector Markup Language (VML),sizing shapes", "VML (Vector Markup Language),sizing shapes", "vector graphics,sizing shapes", "VML shapes,sizing", "sizing shapes"]
+ms.assetid: fe975ebd-9b27-409d-a7c2-ac5ee08d1d4f
+keywords:
+- Web workshop,scaling shapes
+- designing Web pages,scaling shapes
+- Vector Markup Language (VML),scaling shapes
+- VML (Vector Markup Language),scaling shapes
+- vector graphics,scaling shapes
+- VML shapes,scaling
+- scaling shapes
+- Vector Markup Language (VML),sizing shapes
+- VML (Vector Markup Language),sizing shapes
+- vector graphics,sizing shapes
+- VML shapes,sizing
+- sizing shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scaling Shapes

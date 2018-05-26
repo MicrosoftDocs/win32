@@ -1,14 +1,19 @@
 ---
 title: Defining COM Interfaces
 description: Microsoft defines many COM interfaces. In most cases, you can reuse these generic interfaces. However, some applications have specific requirements that make it desirable or necessary to define your own object interfaces.
-ms.assetid: '8a94bd7d-d101-411c-97de-9e9a46bf9591'
+ms.assetid: 8a94bd7d-d101-411c-97de-9e9a46bf9591
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining COM Interfaces
 
 Microsoft defines many COM interfaces. In most cases, you can reuse these generic interfaces. However, some applications have specific requirements that make it desirable or necessary to define your own object interfaces.
 
-All COM interfaces must derive, directly or indirectly, from the [**IUnknown**](iunknown.md) interface. Within that constraint, your custom interface can support almost any method or parameter, including asynchronous methods. You can also generate a type library for your custom interfaces so that clients can access information about your object's methods at run time. After you define an interface, describe it in Microsoft Interface Definition Language (MIDL), compile and register it, you use it just like any generic interface. With distributed COM, interface methods are available both to remote processes and to other processes on the same computer.
+All COM interfaces must derive, directly or indirectly, from the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface. Within that constraint, your custom interface can support almost any method or parameter, including asynchronous methods. You can also generate a type library for your custom interfaces so that clients can access information about your object's methods at run time. After you define an interface, describe it in Microsoft Interface Definition Language (MIDL), compile and register it, you use it just like any generic interface. With distributed COM, interface methods are available both to remote processes and to other processes on the same computer.
 
 Finally, building COM interfaces requires a development environment that includes a C/C++ compiler and the Midl.exe compiler.
 

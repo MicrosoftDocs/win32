@@ -4,11 +4,14 @@ description: Requests that a third-party device present screen data for a USB hu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '74e295c5-e549-42a2-aebd-1b04744705d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 74e295c5-e549-42a2-aebd-1b04744705d9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetPresentationDeviceForHub method", "GetPresentationDeviceForHub method, IWmsCustomPresenterPlugin interface", "IWmsCustomPresenterPlugin interface, GetPresentationDeviceForHub method"]
+keywords:
+- GetPresentationDeviceForHub method
+- GetPresentationDeviceForHub method, IWmsCustomPresenterPlugin interface
+- IWmsCustomPresenterPlugin interface, GetPresentationDeviceForHub method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsCustomPresenterPlugin::GetPresentationDeviceForHub method
@@ -30,8 +36,8 @@ Requests that a third-party device present screen data for a USB hub.
 
 ```C++
 HRESULT GetPresentationDeviceForHub(
-  [in]  BSTR                   bstrUsbHubDeviceInstanceId,
-  [out] IWmsPresentationDevice **ppPresentationDevice
+  [in]  BSTR                   bstrUsbHubDeviceInstanceId,
+  [out] IWmsPresentationDevice **ppPresentationDevice
 );
 ```
 
@@ -66,7 +72,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsCustomPresenterPlugin is defined as 3110a841-1256-4c62-ad83-ef72a529c5b5<br/>       |
 
@@ -82,9 +88,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsPresentationDevice**](iwmspresentationdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

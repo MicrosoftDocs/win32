@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a cluster synchronization objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'adba6bd7-dd89-4dbb-bb9b-439c3fdfddab'
-ms.prod: 'windows-server-dev'
+ms.assetid: adba6bd7-dd89-4dbb-bb9b-439c3fdfddab
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-aware-patching'
-- 'windows-management-instrumentation'
+- failover-cluster-aware-patching
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_CAURun class", "MSFT_CAURun class, described"]
+keywords:
+- MSFT_CAURun class
+- MSFT_CAURun class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - CauWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_CAURun class
@@ -79,7 +84,7 @@ Note that the CAU WMI provider automatically removes this object after one hour 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ClusterUpdate<br/>                                      |
 | MOF<br/>                      | <dl> <dt>CAUWMIv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CauWmiV2.dll</dt> </dl> |
@@ -93,9 +98,9 @@ Note that the CAU WMI provider automatically removes this object after one hour 
 [**MSFT\_CAUReportHelper**](msft-caureporthelper.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

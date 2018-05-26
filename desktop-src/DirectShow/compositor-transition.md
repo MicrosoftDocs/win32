@@ -1,7 +1,12 @@
 ---
 Description: Compositor Transition
-ms.assetid: '7903ecd7-88fb-4277-82ee-a7f71cae0412'
+ms.assetid: 7903ecd7-88fb-4277-82ee-a7f71cae0412
 title: Compositor Transition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compositor Transition

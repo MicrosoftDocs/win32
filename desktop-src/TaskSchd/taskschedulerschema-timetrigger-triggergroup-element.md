@@ -1,14 +1,20 @@
 ---
 title: TimeTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when the trigger is activated.
-ms.assetid: 'bb467f36-47cd-4db4-97c4-60c09937caac'
-keywords: ["TimeTrigger element Task Scheduler"]
+ms.assetid: bb467f36-47cd-4db4-97c4-60c09937caac
+keywords:
+- TimeTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - TimeTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TimeTrigger (triggerGroup) Element
@@ -63,7 +69,7 @@ The [**StartBoundary**](taskschedulerschema-startboundary-triggerbasetype-elemen
 
 For scripting development, a time trigger is specified using the [**TimeTrigger**](timetrigger.md) object.
 
-For C++ development, a time trigger is specified using the [**ITimeTrigger**](itimetrigger.md) interface.
+For C++ development, a time trigger is specified using the [**ITimeTrigger**](/windows/win32/taskschd/nn-taskschd-itimetrigger?branch=master) interface.
 
 The child elements listed above are defined by the [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) complex element types. These elements must be added in the sequence shown below.
 
@@ -83,8 +89,8 @@ For a complete example of the XML for a task that specifies a time trigger, see 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -95,9 +101,9 @@ For a complete example of the XML for a task that specifies a time trigger, see 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

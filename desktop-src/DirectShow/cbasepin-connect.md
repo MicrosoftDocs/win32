@@ -1,20 +1,25 @@
 ---
-Description: 'The Connect method connects the pin to another pin. This method implements the IPin::Connect method.'
-ms.assetid: '8ea99d2f-09da-4b15-a3b0-04ceb7888bc1'
-title: 'CBasePin.Connect method'
+Description: The Connect method connects the pin to another pin. This method implements the IPinConnect method.
+ms.assetid: 8ea99d2f-09da-4b15-a3b0-04ceb7888bc1
+title: CBasePin.Connect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.Connect method
 
-The `Connect` method connects the pin to another pin. This method implements the [**IPin::Connect**](ipin-connect.md) method.
+The `Connect` method connects the pin to another pin. This method implements the [**IPin::Connect**](/windows/win32/Strmif/nf-strmif-ipin-connect?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Connect(
-         IPin          *pReceivePin,
-   const AM_MEDIA_TYPE *pmt
+         IPin          *pReceivePin,
+   const AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT Connect(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the receiving pin's [**IPin**](ipin.md) interface.
+Pointer to the receiving pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> <dt>
 
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type for the connection.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type for the connection.
 
 </dd> </dl>
 
@@ -54,7 +59,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +85,9 @@ In the base class, this method tests whether the pin is already connected and wh
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

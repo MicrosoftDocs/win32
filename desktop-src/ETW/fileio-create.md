@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for the file create event. The following syntax is simplified from MOF code.'
-ms.assetid: '83465072-3dae-4a39-8a36-1512025b79df'
-title: 'FileIo\_Create class'
+---
+Description: This class is the event type class for the file create event. The following syntax is simplified from MOF code.
+ms.assetid: 83465072-3dae-4a39-8a36-1512025b79df
+title: FileIo\_Create class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo\_Create class

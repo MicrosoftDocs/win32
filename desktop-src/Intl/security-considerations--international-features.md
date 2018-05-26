@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about security considerations related to International Support features.'
-ms.assetid: '4034f479-ad29-4c6f-82c6-977f420c4d4d'
-title: 'Security Considerations: International Features'
+Description: This topic provides information about security considerations related to International Support features.
+ms.assetid: 4034f479-ad29-4c6f-82c6-977f420c4d4d
+title: Security Considerations International Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: International Features
@@ -19,9 +24,9 @@ This topic contains the following sections.
 
 ## Security Considerations for Character Conversion Functions
 
-[**MultiByteToWideChar**](multibytetowidechar.md) and [**WideCharToMultiByte**](widechartomultibyte.md) are the Unicode and character set functions most commonly used to convert characters between ANSI and Unicode. These functions have the potential of causing security risks because they count the elements of the input and output buffers differently. For example, [**MultiByteToWideChar**](multibytetowidechar.md) takes an input buffer counted in bytes and puts the converted characters into a buffer sized in Unicode characters. When your application uses this function, it must size the buffers correctly to avoid a buffer overrun.
+[**MultiByteToWideChar**](/windows/win32/Stringapiset/nf-stringapiset-multibytetowidechar?branch=master) and [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) are the Unicode and character set functions most commonly used to convert characters between ANSI and Unicode. These functions have the potential of causing security risks because they count the elements of the input and output buffers differently. For example, [**MultiByteToWideChar**](/windows/win32/Stringapiset/nf-stringapiset-multibytetowidechar?branch=master) takes an input buffer counted in bytes and puts the converted characters into a buffer sized in Unicode characters. When your application uses this function, it must size the buffers correctly to avoid a buffer overrun.
 
-[**WideCharToMultiByte**](widechartomultibyte.md) defaults to "best fit" mapping for code pages, such as 1252. However, this type of mapping allows multiple representations of the same string, potentially leaving your application vulnerable to attack. For example, Latin capital letter A with dieresis ("Ä") might map to Latin capital letter A ("A"); a Unicode character in an Asian language might map to a slash ("/"). The use of the WC\_NO\_BEST\_FIT\_CHARS flag is preferred from a security perspective.
+[**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) defaults to "best fit" mapping for code pages, such as 1252. However, this type of mapping allows multiple representations of the same string, potentially leaving your application vulnerable to attack. For example, Latin capital letter A with dieresis ("Ä") might map to Latin capital letter A ("A"); a Unicode character in an Asian language might map to a slash ("/"). The use of the WC\_NO\_BEST\_FIT\_CHARS flag is preferred from a security perspective.
 
 Some code pages, for example, the 5022x (iso-2022-x) code pages, are inherently insecure because they allow multiple representations of the same string. Properly written code performs security checks in the Unicode form, but these types of code pages expand the attack susceptibility of your applications and should be avoided if possible.
 
@@ -31,24 +36,24 @@ String comparisons can potentially present security issues. Because all comparis
 
 -   [lstrcmpi](_win32_lstrcmpi_cpp). Compares two character strings according to the rules of the locale, without case-sensitivity. The function compares the strings by checking the first characters against each other, the second characters against each other, and so on, until it finds an inequality or reaches the ends of the strings.
 -   [lstrcmp](_win32_lstrcmp_cpp). Compares strings using techniques similar to those of [lstrcmpi](_win32_lstrcmpi_cpp). The only difference is that [lstrcmp](_win32_lstrcmp_cpp) performs a case-sensitive string comparison.
--   [**CompareString**](comparestring.md), [**CompareStringEx**](comparestringex.md) (Windows Vista and later). Perform a string comparison on an application-supplied locale. [**CompareStringEx**](comparestringex.md) is similar to [**CompareString**](comparestring.md), but it identifies a locale by [locale name](locale-names.md) instead of [locale identifier](locale-identifiers.md). These functions are similar to [lstrcmpi](_win32_lstrcmpi_cpp) and [lstrcmp](_win32_lstrcmp_cpp) except that they operate on a specific locale instead of a user-selected locale.
--   [**CompareStringOrdinal**](comparestringordinal.md) (Windows Vista and later). Compares two Unicode strings to test binary equivalence. Except for the option of being case-insensitive, this function disregards all non-binary equivalences, and tests all code points for equality, including code points that are not given any weight in linguistic [sorting](sorting.md) schemes. Note that the other comparison functions mentioned in this topic do not test all code points for equality.
--   [**FindNLSString**](findnlsstring.md), [**FindNLSStringEx**](findnlsstringex.md) (Windows Vista and later). Locate a Unicode string in another Unicode string. [**FindNLSStringEx**](findnlsstringex.md) is similar to [**FindNLSString**](findnlsstring.md), except that it identifies a locale by locale name instead of locale identifier.
--   [**FindStringOrdinal**](findstringordinal.md) (Windows 7 and later). Locates one Unicode string in another Unicode string. The application should use this function instead of [**FindNLSString**](findnlsstring.md) for all non-linguistic comparisons.
+-   [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) (Windows Vista and later). Perform a string comparison on an application-supplied locale. [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) is similar to [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master), but it identifies a locale by [locale name](locale-names.md) instead of [locale identifier](locale-identifiers.md). These functions are similar to [lstrcmpi](_win32_lstrcmpi_cpp) and [lstrcmp](_win32_lstrcmp_cpp) except that they operate on a specific locale instead of a user-selected locale.
+-   [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master) (Windows Vista and later). Compares two Unicode strings to test binary equivalence. Except for the option of being case-insensitive, this function disregards all non-binary equivalences, and tests all code points for equality, including code points that are not given any weight in linguistic [sorting](sorting.md) schemes. Note that the other comparison functions mentioned in this topic do not test all code points for equality.
+-   [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master), [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master) (Windows Vista and later). Locate a Unicode string in another Unicode string. [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master) is similar to [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master), except that it identifies a locale by locale name instead of locale identifier.
+-   [**FindStringOrdinal**](/windows/win32/Libloaderapi/nf-libloaderapi-findstringordinal?branch=master) (Windows 7 and later). Locates one Unicode string in another Unicode string. The application should use this function instead of [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master) for all non-linguistic comparisons.
 
-Like [lstrcmpi](_win32_lstrcmpi_cpp) and [lstrcmp](_win32_lstrcmp_cpp), [**CompareString**](comparestring.md) evaluates strings character by character. However, many languages have multiple-character elements, for example, the two-character element "CH" in traditional Spanish. Because [**CompareString**](comparestring.md) uses the locale furnished by the application to identify multiple-character elements and [lstrcmpi](_win32_lstrcmpi_cpp) and [lstrcmp](_win32_lstrcmp_cpp) use the thread locale, identical strings might not compare as equal.
+Like [lstrcmpi](_win32_lstrcmpi_cpp) and [lstrcmp](_win32_lstrcmp_cpp), [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) evaluates strings character by character. However, many languages have multiple-character elements, for example, the two-character element "CH" in traditional Spanish. Because [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) uses the locale furnished by the application to identify multiple-character elements and [lstrcmpi](_win32_lstrcmpi_cpp) and [lstrcmp](_win32_lstrcmp_cpp) use the thread locale, identical strings might not compare as equal.
 
-[**CompareString**](comparestring.md) ignores undefined characters, and thus returns zero (indicating equal strings) for many string pairs that are quite distinct. A string might contain values that do not map to any character or it might contain characters with semantics outside the domain of the application, such as control characters in a URL. Applications using this function should provide error handlers and test strings to make sure that they are valid before using them.
+[**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master) ignores undefined characters, and thus returns zero (indicating equal strings) for many string pairs that are quite distinct. A string might contain values that do not map to any character or it might contain characters with semantics outside the domain of the application, such as control characters in a URL. Applications using this function should provide error handlers and test strings to make sure that they are valid before using them.
 
 > [!Note]  
-> For Windows Vista and later, [**CompareStringEx**](comparestringex.md) is similar to [**CompareString**](comparestring.md). The security issues are identical for these functions.
+> For Windows Vista and later, [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master) is similar to [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master). The security issues are identical for these functions.
 
  
 
-Similar security issues apply to functions, such as [**FindNLSString**](findnlsstring.md), that make implicit comparisons. Depending on the flags that are set, the results of calling [**FindNLSString**](findnlsstring.md) to search for one string within another string can differ considerably.
+Similar security issues apply to functions, such as [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master), that make implicit comparisons. Depending on the flags that are set, the results of calling [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master) to search for one string within another string can differ considerably.
 
 > [!Note]  
-> For Windows Vista and later, [**FindNLSStringEx**](findnlsstringex.md) is similar to [**FindNLSString**](findnlsstring.md). The security issues are identical for these functions.
+> For Windows Vista and later, [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master) is similar to [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master). The security issues are identical for these functions.
 
  
 
@@ -79,7 +84,7 @@ For more information about the security issues mentioned here, plus a large numb
 
  
 
-Many National Language Support (NLS) functions, such as [**GetLocaleInfo**](getlocaleinfo.md) and [**GetCalendarInfo**](getcalendarinfo.md), have specific ANSI versions, in this case, **GetLocaleInfoA** and **GetCalendarInfoA**, respectively. When your application uses the ANSI version of a function with a Unicode-based operating system, such as Windows NT, Windows 2000, Windows XP, or Windows Vista, the function can fail or produce undefined results. If you have a compelling reason to use ANSI functions with such an operating system, ensure that the data passed by your application is valid for ANSI.
+Many National Language Support (NLS) functions, such as [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) and [**GetCalendarInfo**](/windows/win32/Winnls/nf-winnls-getcalendarinfoa?branch=master), have specific ANSI versions, in this case, **GetLocaleInfoA** and **GetCalendarInfoA**, respectively. When your application uses the ANSI version of a function with a Unicode-based operating system, such as Windows NT, Windows 2000, Windows XP, or Windows Vista, the function can fail or produce undefined results. If you have a compelling reason to use ANSI functions with such an operating system, ensure that the data passed by your application is valid for ANSI.
 
 ## Security Considerations for Unicode Normalization
 

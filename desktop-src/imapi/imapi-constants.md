@@ -1,7 +1,7 @@
 ---
 title: IMAPI Constants
 description: IMAPI defines the following constants.
-ms.assetid: '3ae67227-1cee-4e9c-a7fe-228de596030a'
+ms.assetid: 3ae67227-1cee-4e9c-a7fe-228de596030a
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Imapi2.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPI Constants
@@ -36,15 +41,15 @@ IMAPI defines the following constants.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                   |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                   |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | IDL<br/>                      | <dl> <dt>Imapi2.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

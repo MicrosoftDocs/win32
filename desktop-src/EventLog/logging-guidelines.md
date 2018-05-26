@@ -1,7 +1,12 @@
 ---
-Description: 'Event logs store records of significant events on behalf of the system and applications running on the system.'
-ms.assetid: '58a6569a-2775-4687-bf99-579fa4153191'
+Description: Event logs store records of significant events on behalf of the system and applications running on the system.
+ms.assetid: 58a6569a-2775-4687-bf99-579fa4153191
 title: Logging Guidelines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging Guidelines
@@ -27,7 +32,7 @@ Do not use tabs or commas in the message text, because event logs can be saved a
 
 When using UNC names, or other links that contain spaces, enclose the name in angle brackets. For example, &lt;\\\\*sharename*\\*servername*&gt;. You can write a URL to the end of the message that points the user to related help material. The URL must be a fully qualified DNS host name. For example, you could append the following text to your messages: "For additional information on this message, please visit our support site at http://www.microsoft.com/Support/ProdRedirect/ContentSearch.asp." The link would lead to an ASP page that redirects the user to content relating to the error message. It would parse additional parameters (passed when the URL is clicked) to determine where to redirect the user.
 
-The arguments passed to the [**ReportEvent**](reportevent.md) function are appended to the URL as follows:
+The arguments passed to the [**ReportEvent**](/windows/win32/Winbase/nf-winbase-reporteventa?branch=master) function are appended to the URL as follows:
 
 ``` syntax
 strHTTPQuery += L"?EvtSrc=" + _strEscapedSource;
@@ -54,7 +59,7 @@ ADD_VER_STR(L"FileVer",  _strEscapedFileVersion);
 
 Event logging consumes resources such as disk space and processor time. The amount of disk space that an event log requires and the overhead for an application that logs events depend on how much information you choose to log. This is why it is important to log only essential information. It is also good to place event logging calls in an error path in the code rather than in the main code path, which would reduce performance.
 
-The amount of disk space required for each event log record includes the members of the [**EVENTLOGRECORD**](eventlogrecord-str.md) structure. This is a variable length structure; strings and binary data are stored following the structure.
+The amount of disk space required for each event log record includes the members of the [**EVENTLOGRECORD**](/windows/win32/Winnt/ns-winnt-_eventlogrecord?branch=master) structure. This is a variable length structure; strings and binary data are stored following the structure.
 
  
 

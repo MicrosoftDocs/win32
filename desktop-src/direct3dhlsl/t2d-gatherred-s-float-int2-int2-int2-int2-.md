@@ -1,14 +1,20 @@
 ---
 title: GatherRed(S,float,int2,int2,int2,int2) function
 description: Samples a texture and returns the red component.
-ms.assetid: '85C321CB-B77C-430B-921D-D56E5597B24A'
-keywords: ["GatherRed function HLSL"]
+ms.assetid: 85C321CB-B77C-430B-921D-D56E5597B24A
+keywords:
+- GatherRed function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherRed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherRed(S,float,int2,int2,int2,int2) function

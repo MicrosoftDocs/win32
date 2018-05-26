@@ -1,13 +1,16 @@
 ---
-Description: 'Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.'
+Description: Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '179331f4-6e2a-4604-855c-9237a0cb8554'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 179331f4-6e2a-4604-855c-9237a0cb8554
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Synchronize method of the Win32\_OfflineFilesCache class'
+title: Synchronize method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Synchronize method of the Win32\_OfflineFilesCache class
@@ -19,8 +22,8 @@ Synchronizes files and directories in the Offline Files cache with their corresp
 
 ```mof
 uint32 Synchronize(
-  [in] string Paths[],
-  [in] uint32 Flags
+  [in] string Paths[],
+  [in] uint32 Flags
 );
 ```
 
@@ -283,8 +286,8 @@ If a sync operation is canceled while in progress, files that have been synchron
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -298,9 +301,9 @@ If a sync operation is canceled while in progress, files that have been synchron
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Direct3D applications can achieve numerous special effects by applying various textures to a primitive over the course of multiple rendering passes.'
-ms.assetid: '884cc928-305e-46b9-acbf-ca58dfbc05e6'
-title: 'Multipass Texture Blending (Direct3D 9)'
+Description: Direct3D applications can achieve numerous special effects by applying various textures to a primitive over the course of multiple rendering passes.
+ms.assetid: 884cc928-305e-46b9-acbf-ca58dfbc05e6
+title: Multipass Texture Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multipass Texture Blending (Direct3D 9)
@@ -17,8 +22,8 @@ If the user's hardware does not support multiple texture blending, your applicat
 
 To perform multipass texture blending in a C/C++ application.
 
-1.  Set a texture in texture stage 0 by calling the [**IDirect3DDevice9::SetTexture**](idirect3ddevice9--settexture.md) method.
-2.  Select the desired color and alpha blending arguments and operations with the [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md) method. The default settings are well-suited for multipass texture blending.
+1.  Set a texture in texture stage 0 by calling the [**IDirect3DDevice9::SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master) method.
+2.  Select the desired color and alpha blending arguments and operations with the [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master) method. The default settings are well-suited for multipass texture blending.
 3.  Render the appropriate objects in the scene.
 4.  Set the next texture in texture stage 0.
 5.  Set the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND render states to adjust the source and destination blending factors as needed. The system blends the new textures with the existing pixels in the render-target surface according to these parameters.

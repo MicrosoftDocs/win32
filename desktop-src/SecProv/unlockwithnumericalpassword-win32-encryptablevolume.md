@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a provided numerical password to access the contents of a data volume.'
-ms.assetid: 'ee968372-18a4-4748-ab18-2f1b8d297f0e'
-title: 'UnlockWithNumericalPassword method of the Win32\_EncryptableVolume class'
+---
+Description: Uses a provided numerical password to access the contents of a data volume.
+ms.assetid: ee968372-18a4-4748-ab18-2f1b8d297f0e
+title: UnlockWithNumericalPassword method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnlockWithNumericalPassword method of the Win32\_EncryptableVolume class

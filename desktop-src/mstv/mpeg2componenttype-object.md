@@ -1,7 +1,12 @@
 ---
 title: MPEG2ComponentType Object
 description: MPEG2ComponentType Object
-ms.assetid: '16059b17-9145-4aad-97ce-c31fdfe1db69'
+ms.assetid: 16059b17-9145-4aad-97ce-c31fdfe1db69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG2ComponentType Object
@@ -12,7 +17,7 @@ The **MPEG2ComponentType** object represents a component type associated with an
 
 |                           |                                                    |
 |---------------------------|----------------------------------------------------|
-| Interfaces                | [**IMPEG2ComponentType**](impeg2componenttype.md) |
+| Interfaces                | [**IMPEG2ComponentType**](/windows/previous-versions/tuner/nn-tuner-impeg2componenttype?branch=master) |
 | Outgoing Event Interfaces | None                                               |
 | CLSID                     | CLSID\_MPEG2ComponentType                          |
 
@@ -22,7 +27,7 @@ The **MPEG2ComponentType** object represents a component type associated with an
 
 ## Remarks
 
-To get the component type from an existing component object, use the [**IComponent::get\_Type**](icomponent-get-type.md) method. The CLSID is provided for clients that need to set the type on a component, or set a default preferred type on a tuning space.
+To get the component type from an existing component object, use the [**IComponent::get\_Type**](/windows/previous-versions/tuner/nf-tuner-icomponent-get_type?branch=master) method. The CLSID is provided for clients that need to set the type on a component, or set a default preferred type on a tuning space.
 
 ## Related topics
 

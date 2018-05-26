@@ -1,8 +1,11 @@
 ---
 title: RegisterSubsystem method of the MSFT\_StorageProvider class
 description: Registers a subsystem to be managed by this provider.
-ms.assetid: '0C882319-FC92-4C79-A89C-F16C6439A221'
-keywords: ["RegisterSubsystem method Windows Storage Management API", "RegisterSubsystem method Windows Storage Management API , MSFT_StorageProvider class", "MSFT_StorageProvider class Windows Storage Management API , RegisterSubsystem method"]
+ms.assetid: 0C882319-FC92-4C79-A89C-F16C6439A221
+keywords:
+- RegisterSubsystem method Windows Storage Management API
+- RegisterSubsystem method Windows Storage Management API , MSFT_StorageProvider class
+- MSFT_StorageProvider class Windows Storage Management API , RegisterSubsystem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterSubsystem method of the MSFT\_StorageProvider class
@@ -22,9 +30,9 @@ Registers a subsystem to be managed by this provider. Note that the subsystem mu
 
 ```mof
 UInt32 RegisterSubsystem(
-  [in]  String ComputerName,
-  [in]  String Credential,
-  [out] String ExtendedStatus
+  [in]  String ComputerName,
+  [in]  String Credential,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -104,8 +112,8 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -118,9 +126,9 @@ Extended error information from the storage provider in a [**MSFT\_StorageExtend
 [**MSFT\_StorageProvider**](msft-storageprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

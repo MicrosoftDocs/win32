@@ -4,17 +4,22 @@ description: Backward link attribute for ms-DS-Revealed-List.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '12979dc0-674b-4102-a433-0d4ff6989248'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 12979dc0-674b-4102-a433-0d4ff6989248
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Revealed-List-BL attribute AD Schema", "msDS-RevealedListBL attribute AD Schema"]
+keywords:
+- ms-DS-Revealed-List-BL attribute AD Schema
+- msDS-RevealedListBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Revealed-List-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Revealed-List-BL attribute
@@ -38,9 +43,9 @@ Backward link attribute for [**ms-DS-Revealed-List**](a-msds-revealedlist.md).
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Backward link attribute for [**ms-DS-Revealed-List**](a-msds-revealedlist.md).
 
 
 
- 
+ 
 
- 
+ 
 
 
 

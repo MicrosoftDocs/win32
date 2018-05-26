@@ -1,7 +1,12 @@
 ---
 title: Implementing the Filter Class and Class Factory
 description: Implementing the Filter Class and Class Factory
-ms.assetid: 'b9dcc4d2-08d2-4550-a23e-2aeaef0e55f6'
+ms.assetid: b9dcc4d2-08d2-4550-a23e-2aeaef0e55f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the Filter Class and Class Factory

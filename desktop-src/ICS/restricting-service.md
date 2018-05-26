@@ -1,7 +1,12 @@
 ---
 title: Restricting Service
-description: This example restricts a service using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that restricts ' a service using the Microsoft Windows Firewall APIs.
-ms.assetid: '7454ceb9-d4ec-44d1-8245-0f2766a56501'
+description: This example restricts a service using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that restricts  a service using the Microsoft Windows Firewall APIs.
+ms.assetid: 7454ceb9-d4ec-44d1-8245-0f2766a56501
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restricting Service

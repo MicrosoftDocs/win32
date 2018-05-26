@@ -1,7 +1,12 @@
 ---
-Description: 'An application can retrieve font metrics for a physical font only after the font has been selected into a device context.'
-ms.assetid: '3eaabc8b-e244-4b65-918b-a20043afa535'
-title: 'Device vs. Design Units'
+Description: An application can retrieve font metrics for a physical font only after the font has been selected into a device context.
+ms.assetid: 3eaabc8b-e244-4b65-918b-a20043afa535
+title: Device vs. Design Units
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device vs. Design Units
@@ -30,7 +35,7 @@ The variables in this formula have the following meanings.
 
 This formula should not be used to convert device units back to design units. Device units are always rounded to the nearest pixel. The propagated round-off error can become very large, especially when an application is working with screen sizes.
 
-To request design units, create a logical font whose height is specified as *unitsPerEm*. Applications can retrieve the value for *unitsPerEm* by calling the [**EnumFontFamilies**](enumfontfamilies.md) function and checking the **ntmSizeEM** member of the [**NEWTEXTMETRIC**](newtextmetric.md) structure.
+To request design units, create a logical font whose height is specified as *unitsPerEm*. Applications can retrieve the value for *unitsPerEm* by calling the [**EnumFontFamilies**](/windows/win32/Wingdi/nf-wingdi-enumfontfamiliesa?branch=master) function and checking the **ntmSizeEM** member of the [**NEWTEXTMETRIC**](/windows/win32/Wingdi/ns-wingdi-tagnewtextmetrica?branch=master) structure.
 
  
 

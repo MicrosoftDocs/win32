@@ -1,8 +1,9 @@
 ---
 title: RasAdminPortEnum function
 description: The RasAdminPortEnum function enumerates all ports on the specified RAS server. For each port on the server, the function returns the RAS\_PORT\_0 structure that contains information about the port.
-ms.assetid: 'ad23727c-8f54-4b10-9bc7-1425ac22bc88'
-keywords: ["RasAdminPortEnum function RAS"]
+ms.assetid: ad23727c-8f54-4b10-9bc7-1425ac22bc88
+keywords:
+- RasAdminPortEnum function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminPortEnum function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminPortEnum**](mpradminportenum.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminPortEnum**](/windows/win32/Mprapi/nf-mprapi-mpradminportenum?branch=master) function.\]
 
 The **RasAdminPortEnum** function enumerates all ports on the specified RAS server. For each port on the server, the function returns the [**RAS\_PORT\_0**](ras-port-0-str.md) structure that contains information about the port.
 
@@ -24,9 +30,9 @@ The **RasAdminPortEnum** function enumerates all ports on the specified RAS serv
 
 ```C++
 DWORD RasAdminPortEnum(
-  _In_  const WCHAR       *lpszServer,
-  _Out_       PRAS_PORT_0 *ppRasPort0,
-  _Out_       WORD        *pcEntriesRead
+  _In_  const WCHAR       *lpszServer,
+  _Out_       PRAS_PORT_0 *ppRasPort0,
+  _Out_       WORD        *pcEntriesRead
 );
 ```
 
@@ -53,7 +59,7 @@ Pointer to a variable that receives a pointer to a buffer that contains an array
 *pcEntriesRead* \[out\]
 </dt> <dd>
 
-Pointer to a 16-bit variable that receives the total number of [**RAS\_PORT\_0**](ras-port-0.md) structures returned in the *ppRasPort0* array.
+Pointer to a 16-bit variable that receives the total number of [**RAS\_PORT\_0**](/windows/win32/Mprapi/ns-mprapi-_ras_port_0?branch=master) structures returned in the *ppRasPort0* array.
 
 </dd> </dl>
 
@@ -71,7 +77,7 @@ If the function fails, the return value can be the following error code.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -81,8 +87,8 @@ There is no extended error information for this function; do not call [**GetLast
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -105,9 +111,9 @@ There is no extended error information for this function; do not call [**GetLast
 [**RasAdminFreeBuffer**](rasadminfreebuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

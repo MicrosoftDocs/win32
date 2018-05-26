@@ -1,7 +1,12 @@
 ---
 title: Linked Objects and Monikers
 description: Linked objects, like embedded objects, rely on an object handler to communicate with server applications.
-ms.assetid: 'f72557b9-cd24-4d96-8144-94a5344ec2ae'
+ms.assetid: f72557b9-cd24-4d96-8144-94a5344ec2ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Linked Objects and Monikers
@@ -10,9 +15,9 @@ Linked objects, like embedded objects, rely on an object handler to communicate 
 
 A linked object's handler is made up of two main components: the handler component and the linking component. The handler component contains the controlling and remoting pieces and functions much like a handler for an embedded object. The linking component has its own controller and cache and provides access to the object's structured storage. The linking components controller supports source naming through the use of monikers, and binding, the process of locating and running the link source. (For more information on monikers and binding, see [The Component Object Model](the-component-object-model.md).)
 
-When a user initially creates a linked object or loads an existing one from storage, the container loads an instance of the linking component into memory, along with the object handler. The linking component supplies interfaces — most notably [**IOleLink**](iolelink.md)— that identify the object as a link and enable it to manage the naming, tracking, and updating of its link source.
+When a user initially creates a linked object or loads an existing one from storage, the container loads an instance of the linking component into memory, along with the object handler. The linking component supplies interfaces — most notably [**IOleLink**](/windows/win32/OleIdl/nn-oleidl-iolelink?branch=master)— that identify the object as a link and enable it to manage the naming, tracking, and updating of its link source.
 
-By implementing the [**IOleLink**](iolelink.md) interface, a linked object provides its container with functions that support linking. Only linked objects implement **IOleLink**, and by querying for this interface a container can determine whether a given object is embedded or linked. The most important function provided by **IOleLink** enables a container to binding to the source of the linked object, that is, to activate the connection to the document that stores the linked object's native data. **IOleLink** also defines functions for managing information about the linked object, such as cached presentation data and the location of the link source.
+By implementing the [**IOleLink**](/windows/win32/OleIdl/nn-oleidl-iolelink?branch=master) interface, a linked object provides its container with functions that support linking. Only linked objects implement **IOleLink**, and by querying for this interface a container can determine whether a given object is embedded or linked. The most important function provided by **IOleLink** enables a container to binding to the source of the linked object, that is, to activate the connection to the document that stores the linked object's native data. **IOleLink** also defines functions for managing information about the linked object, such as cached presentation data and the location of the link source.
 
 When a compound document containing a linked object is saved, the link's data is saved with the link source, not with the container. Only information about its name and location is saved along with the compound document. This behavior is in contrast to that of an embedded object, whose data is stored along with that of its container.
 

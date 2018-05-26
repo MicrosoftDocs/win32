@@ -1,8 +1,9 @@
 ---
 title: Flags for Conversion Mode
 description: The following flags are used as a value of GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_CONVERSION. This is equivalent with IME\_CMODE values for IMM32.
-ms.assetid: '6e545af5-5fdb-49de-b24e-aaee82b51326'
-keywords: ["Flags for Conversion Mode Text Services Framework"]
+ms.assetid: 6e545af5-5fdb-49de-b24e-aaee82b51326
+keywords:
+- Flags for Conversion Mode Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ctffunc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flags for Conversion Mode
@@ -34,7 +40,7 @@ The following flags are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMO
 
 
 
- 
+ 
 
 The following values are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTMODE\_SENTENCE](predefined-compartments.md). This is equivalent with [IME\_SMODE](http://msdn.microsoft.com/library/dd318164(VS.85).aspx) values for IMM32.
 
@@ -51,7 +57,7 @@ The following values are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTM
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +65,9 @@ The following values are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTM
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 onWindows NT 4.0,Windows 2000 ProfessionalandWindows MeWindows 98<br/>   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 onWindows NT 4.0,Windows 2000 ProfessionalandWindows MeWindows 98<br/>   |
 | Header<br/>                   | <dl> <dt>Ctffunc.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ctffunc.idl</dt> </dl> |
 
@@ -74,9 +80,9 @@ The following values are used as a value of [GUID\_COMPARTMENT\_KEYBOARD\_INPUTM
 [Predefined Compartments](predefined-compartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MM\_MOM\_OPEN message
 description: The MM\_MOM\_OPEN message is sent to a window when a MIDI output device is opened.
-ms.assetid: '1374a07c-02fa-4b43-82df-cbd96302aec5'
-keywords: ["MM_MOM_OPEN message Windows Multimedia"]
+ms.assetid: 1374a07c-02fa-4b43-82df-cbd96302aec5
+keywords:
+- MM_MOM_OPEN message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_MOM\_OPEN message
@@ -54,8 +60,8 @@ This message does not return a value.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ This message does not return a value.
 [MIDI Messages](midi-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a single address of any type of supported addresses.'
-ms.assetid: '3f840842-8992-4fab-8820-cbbfc63242b8'
+Description: Contains a single address of any type of supported addresses.
+ms.assetid: 3f840842-8992-4fab-8820-cbbfc63242b8
 title: ADDRESS2 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDRESS2 structure
@@ -15,21 +20,21 @@ The **ADDRESS** structure contains a single address of any type of supported add
 typedef struct _ADDRESS {
   DWORD Type;
   union {
-    BYTE                  MACAddress[MAC_ADDRESS_SIZE];
-    BYTE                  IPAddress[IP_ADDRESS_SIZE];
-    BYTE                  IP6Address[IP6_ADDRESS_SIZE];
-    BYTE                  IPXRawAddress[IPX_ADDRESS_SIZE];
-    IPX_ADDRESS           IPXAddress;
-    BYTE                  VinesIPRawAddress[VINES_IP_ADDRESS_SIZE];
-    VINES_IP_ADDRESS      VinesIPAddress;
-    ETHERNET_SRC_ADDRESS  EthernetSrcAddress;
-    ETHERNET_DST_ADDRESS  EthernetDstAddress;
+    BYTE                  MACAddress[MAC_ADDRESS_SIZE];
+    BYTE                  IPAddress[IP_ADDRESS_SIZE];
+    BYTE                  IP6Address[IP6_ADDRESS_SIZE];
+    BYTE                  IPXRawAddress[IPX_ADDRESS_SIZE];
+    IPX_ADDRESS           IPXAddress;
+    BYTE                  VinesIPRawAddress[VINES_IP_ADDRESS_SIZE];
+    VINES_IP_ADDRESS      VinesIPAddress;
+    ETHERNET_SRC_ADDRESS  EthernetSrcAddress;
+    ETHERNET_DST_ADDRESS  EthernetDstAddress;
     TOKENRING_SRC_ADDRESS TokenringSrcAddress;
     TOKENRING_DST_ADDRESS TokenringDstAddress;
-    FDDI_SRC_ADDRESS      FddiSrcAddress;
-    FDDI_DST_ADDRESS      FddiDstAddress;
+    FDDI_SRC_ADDRESS      FddiSrcAddress;
+    FDDI_DST_ADDRESS      FddiDstAddress;
   };
-  WORD  Flags;
+  WORD  Flags;
 } ADDRESS, *LPADDRESS;
 ```
 
@@ -146,15 +151,15 @@ View of the data expressed as an FDDI destination address.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'RSM provides security for media pool and library objects.'
-ms.assetid: '9a0dd513-f8c0-454f-be3a-fbea7c865994'
+Description: RSM provides security for media pool and library objects.
+ms.assetid: 9a0dd513-f8c0-454f-be3a-fbea7c865994
 title: RSM Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Security
@@ -10,7 +15,7 @@ title: RSM Security
 
 RSM provides security for media pool and library objects. Media pool security controls access to media, including physical media, sides, and logical media. When you use nested media pools, the security of the lowest-level media pool determines the security of the media objects. Library security controls access to physical library units, including drives, changers, slots, and insert or eject ports.
 
-Applications can use the [**SetNtmsObjectSecurity**](setntmsobjectsecurity.md) and [**GetNtmsObjectSecurity**](getntmsobjectsecurity.md) functions to set and check security for an RSM object.
+Applications can use the [**SetNtmsObjectSecurity**](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsobjectsecurity?branch=master) and [**GetNtmsObjectSecurity**](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsobjectsecurity?branch=master) functions to set and check security for an RSM object.
 
 The tables in this topic identify the security requirements for the RSM functions. They use the following key:
 
@@ -36,151 +41,151 @@ The following table identifies the RSM functions and their security requirements
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AccessNtmsLibraryDoor</strong>](accessntmslibrarydoor.md)</td>
+<td>[<strong>AccessNtmsLibraryDoor</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-accessntmslibrarydoor?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>AddNtmsMediaType</strong>](addntmsmediatype.md)</td>
+<td>[<strong>AddNtmsMediaType</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-addntmsmediatype?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>AllocateNtmsMedia</strong>](allocatentmsmedia.md)</td>
+<td>[<strong>AllocateNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-allocatentmsmedia?branch=master)</td>
 <td>C</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>CancelNtmsLibraryRequest</strong>](cancelntmslibraryrequest.md)</td>
+<td>[<strong>CancelNtmsLibraryRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-cancelntmslibraryrequest?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>CancelNtmsOperatorRequest</strong>](cancelntmsoperatorrequest.md)</td>
+<td>[<strong>CancelNtmsOperatorRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="even">
-<td>[<strong>ChangeNtmsMediaType</strong>](changentmsmediatype.md)</td>
+<td>[<strong>ChangeNtmsMediaType</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-changentmsmediatype?branch=master)</td>
 <td>M</td>
 
 <td>M</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CleanNtmsDrive</strong>](cleanntmsdrive.md)</td>
+<td>[<strong>CleanNtmsDrive</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-cleanntmsdrive?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>CreateNtmsMedia</strong>](createntmsmedia.md)</td>
+<td>[<strong>CreateNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-createntmsmediaa?branch=master)</td>
 <td>M</td>
 
 <td>M</td>
 </tr>
 <tr class="odd">
-<td>[<strong>CreateNtmsMediaPool</strong>](createntmsmediapool.md)</td>
+<td>[<strong>CreateNtmsMediaPool</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-createntmsmediapool?branch=master)</td>
 <td>C</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>DeallocateNtmsMedia</strong>](deallocatentmsmedia.md)</td>
+<td>[<strong>DeallocateNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deallocatentmsmedia?branch=master)</td>
 <td>C</td>
 
 
 </tr>
 <tr class="odd">
-<td>[<strong>DecommissionNtmsMedia</strong>](decommissionntmsmedia.md)</td>
+<td>[<strong>DecommissionNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-decommissionntmsmedia?branch=master)</td>
 <td>C</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>DeleteNtmsDrive</strong>](deletentmsdrive.md)</td>
+<td>[<strong>DeleteNtmsDrive</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsdrive?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>DeleteNtmsLibrary</strong>](deletentmslibrary.md)</td>
+<td>[<strong>DeleteNtmsLibrary</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmslibrary?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>DeleteNtmsMedia</strong>](deletentmsmedia.md)</td>
+<td>[<strong>DeleteNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsmedia?branch=master)</td>
 <td>M</td>
 
 <td>M</td>
 </tr>
 <tr class="odd">
-<td>[<strong>DeleteNtmsMediaPool</strong>](deletentmsmediapool.md)</td>
+<td>[<strong>DeleteNtmsMediaPool</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsmediapool?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>DeleteNtmsMediaType</strong>](deletentmsmediatype.md)</td>
+<td>[<strong>DeleteNtmsMediaType</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsmediatype?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>DeleteNtmsRequests</strong>](deletentmsrequests.md)</td>
+<td>[<strong>DeleteNtmsRequests</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsrequests?branch=master)</td>
 
 
 <td>M</td>
 </tr>
 <tr class="even">
-<td>[<strong>DisableNtmsObject</strong>](disablentmsobject.md)</td>
+<td>[<strong>DisableNtmsObject</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-disablentmsobject?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>DismountNtmsDrive</strong>](dismountntmsdrive.md)</td>
+<td>[<strong>DismountNtmsDrive</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-dismountntmsdrive?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>DismountNtmsMedia</strong>](dismountntmsmedia.md)</td>
+<td>[<strong>DismountNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-dismountntmsmedia?branch=master)</td>
 <td>U</td>
 <td>U</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>EjectNtmsCleaner</strong>](ejectntmscleaner.md)</td>
+<td>[<strong>EjectNtmsCleaner</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-ejectntmscleaner?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>EjectNtmsMedia</strong>](ejectntmsmedia.md)</td>
+<td>[<strong>EjectNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-ejectntmsmedia?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>EnableNtmsObject</strong>](enablentmsobject.md)</td>
+<td>[<strong>EnableNtmsObject</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-enablentmsobject?branch=master)</td>
 
 <td>M</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>ExportNtmsDatabase</strong>](exportntmsdatabase.md)</td>
+<td>[<strong>ExportNtmsDatabase</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-exportntmsdatabase?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetNtmsObjectAttribute</strong>](getntmsobjectattribute.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>GetNtmsObjectAttribute</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsobjectattributea?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -249,7 +254,7 @@ U<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetNtmsObjectInformation</strong>](getntmsobjectinformation.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>GetNtmsObjectInformation</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsobjectinformation?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -313,173 +318,7 @@ U<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetNtmsObjectSecurity</strong>](getntmsobjectsecurity.md)<dl> NTMS_CHANGER<br />
-NTMS_CHANGER_TYPE<br />
-NTMS_COMPUTER<br />
-NTMS_DRIVE<br />
-NTMS_DRIVE_TYPE<br />
-NTMS_IEDOOR<br />
-NTMS_IEPORT<br />
-NTMS_LIBRARY<br />
-NTMS_LIBREQUEST<br />
-NTMS_LOGICAL_MEDIA<br />
-NTMS_MEDIA_POOL<br />
-NTMS_MEDIA_TYPE<br />
-NTMS_OPREQUEST<br />
-NTMS_PARTITION<br />
-NTMS_PHYSICAL_MEDIA<br />
-NTMS_STORAGESLOT<br />
-</dl></td>
-<td><dl><br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-R<br />
-R<br />
-<br />
-<br />
-R<br />
-R<br />
-</dl></td>
-<td><dl><br />
-R<br />
-<br />
-<br />
-R<br />
-<br />
-R<br />
-R<br />
-R<br />
-R<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-R<br />
-</dl></td>
-<td><dl><br />
-<br />
-R<br />
-R<br />
-<br />
-R<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-R<br />
-R<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td>[<strong>GetNtmsRequestOrder</strong>](getntmsrequestorder.md)</td>
-
-
-<td>C</td>
-</tr>
-<tr class="odd">
-<td>[<strong>GetNtmsUIOptions</strong>](getntmsuioptions.md)<dl> NTMS_COMPUTER<br />
-NTMS_LIBRARY<br />
-</dl></td>
-
-<td><dl><br />
-<br />
-U<br />
-</dl></td>
-<td><dl><br />
-U<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td>[<strong>IdentifyNtmsSlot</strong>](identifyntmsslot.md)</td>
-
-<td>C</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>ImportNtmsDatabase</strong>](importntmsdatabase.md)</td>
-
-
-<td>C</td>
-</tr>
-<tr class="even">
-<td>[<strong>InjectNtmsCleaner</strong>](injectntmscleaner.md)</td>
-
-<td>C</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>InjectNtmsMedia</strong>](injectntmsmedia.md)</td>
-
-<td>C</td>
-
-</tr>
-<tr class="even">
-<td>[<strong>InventoryNtmsLibrary</strong>](inventoryntmslibrary.md)</td>
-
-<td>C</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>MountNtmsMedia</strong>](mountntmsmedia.md)</td>
-<td>U</td>
-<td>U</td>
-
-</tr>
-<tr class="even">
-<td>[<strong>MoveToNtmsMediaPool</strong>](movetontmsmediapool.md)</td>
-<td>C</td>
-
-
-</tr>
-<tr class="odd">
-<td>[<strong>OpenNtmsNotification</strong>](openntmsnotification.md)</td>
-
-
-<td>U</td>
-</tr>
-<tr class="even">
-<td>[<strong>OpenNtmsSession</strong>](openntmssession.md)</td>
-
-
-<td>U</td>
-</tr>
-<tr class="odd">
-<td>[<strong>ReleaseNtmsCleanerSlot</strong>](releasentmscleanerslot.md)</td>
-
-<td>C</td>
-
-</tr>
-<tr class="even">
-<td>[<strong>ReserveNtmsCleanerSlot</strong>](reserventmscleanerslot.md)</td>
-
-<td>C</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>SatisfyNtmsOperatorRequest</strong>](satisfyntmsoperatorrequest.md)</td>
-
-
-<td>C</td>
-</tr>
-<tr class="even">
-<td>[<strong>SetNtmsMediaComplete</strong>](setntmsmediacomplete.md)</td>
-<td>C</td>
-
-
-</tr>
-<tr class="odd">
-<td>[<strong>SetNtmsObjectAttribute</strong>](setntmsobjectattribute.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>GetNtmsObjectSecurity</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsobjectsecurity?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -506,6 +345,172 @@ NTMS_STORAGESLOT<br />
 <br />
 <br />
 <br />
+R<br />
+R<br />
+<br />
+<br />
+R<br />
+R<br />
+</dl></td>
+<td><dl><br />
+R<br />
+<br />
+<br />
+R<br />
+<br />
+R<br />
+R<br />
+R<br />
+R<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+R<br />
+</dl></td>
+<td><dl><br />
+<br />
+R<br />
+R<br />
+<br />
+R<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+R<br />
+R<br />
+</dl></td>
+</tr>
+<tr class="even">
+<td>[<strong>GetNtmsRequestOrder</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsrequestorder?branch=master)</td>
+
+
+<td>C</td>
+</tr>
+<tr class="odd">
+<td>[<strong>GetNtmsUIOptions</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsuioptionsa?branch=master)<dl> NTMS_COMPUTER<br />
+NTMS_LIBRARY<br />
+</dl></td>
+
+<td><dl><br />
+<br />
+U<br />
+</dl></td>
+<td><dl><br />
+U<br />
+</dl></td>
+</tr>
+<tr class="even">
+<td>[<strong>IdentifyNtmsSlot</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-identifyntmsslot?branch=master)</td>
+
+<td>C</td>
+
+</tr>
+<tr class="odd">
+<td>[<strong>ImportNtmsDatabase</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-importntmsdatabase?branch=master)</td>
+
+
+<td>C</td>
+</tr>
+<tr class="even">
+<td>[<strong>InjectNtmsCleaner</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-injectntmscleaner?branch=master)</td>
+
+<td>C</td>
+
+</tr>
+<tr class="odd">
+<td>[<strong>InjectNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-injectntmsmedia?branch=master)</td>
+
+<td>C</td>
+
+</tr>
+<tr class="even">
+<td>[<strong>InventoryNtmsLibrary</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-inventoryntmslibrary?branch=master)</td>
+
+<td>C</td>
+
+</tr>
+<tr class="odd">
+<td>[<strong>MountNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-mountntmsmedia?branch=master)</td>
+<td>U</td>
+<td>U</td>
+
+</tr>
+<tr class="even">
+<td>[<strong>MoveToNtmsMediaPool</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-movetontmsmediapool?branch=master)</td>
+<td>C</td>
+
+
+</tr>
+<tr class="odd">
+<td>[<strong>OpenNtmsNotification</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-openntmsnotification?branch=master)</td>
+
+
+<td>U</td>
+</tr>
+<tr class="even">
+<td>[<strong>OpenNtmsSession</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-openntmssessiona?branch=master)</td>
+
+
+<td>U</td>
+</tr>
+<tr class="odd">
+<td>[<strong>ReleaseNtmsCleanerSlot</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-releasentmscleanerslot?branch=master)</td>
+
+<td>C</td>
+
+</tr>
+<tr class="even">
+<td>[<strong>ReserveNtmsCleanerSlot</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-reserventmscleanerslot?branch=master)</td>
+
+<td>C</td>
+
+</tr>
+<tr class="odd">
+<td>[<strong>SatisfyNtmsOperatorRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-satisfyntmsoperatorrequest?branch=master)</td>
+
+
+<td>C</td>
+</tr>
+<tr class="even">
+<td>[<strong>SetNtmsMediaComplete</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsmediacomplete?branch=master)</td>
+<td>C</td>
+
+
+</tr>
+<tr class="odd">
+<td>[<strong>SetNtmsObjectAttribute</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsobjectattributea?branch=master)<dl> NTMS_CHANGER<br />
+NTMS_CHANGER_TYPE<br />
+NTMS_COMPUTER<br />
+NTMS_DRIVE<br />
+NTMS_DRIVE_TYPE<br />
+NTMS_IEDOOR<br />
+NTMS_IEPORT<br />
+NTMS_LIBRARY<br />
+NTMS_LIBREQUEST<br />
+NTMS_LOGICAL_MEDIA<br />
+NTMS_MEDIA_POOL<br />
+NTMS_MEDIA_TYPE<br />
+NTMS_OPREQUEST<br />
+NTMS_PARTITION<br />
+NTMS_PHYSICAL_MEDIA<br />
+NTMS_STORAGESLOT<br />
+</dl></td>
+<td><dl><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 M<br />
 M<br />
 <br />
@@ -548,7 +553,7 @@ M<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>SetNtmsObjectInformation</strong>](setntmsobjectinformation.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>SetNtmsObjectInformation</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsobjectinformation?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -617,7 +622,7 @@ M<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetNtmsObjectSecurity</strong>](setntmsobjectsecurity.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>SetNtmsObjectSecurity</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsobjectsecurity?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -686,13 +691,13 @@ W<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>SetNtmsRequestOrder</strong>](setntmsrequestorder.md)</td>
+<td>[<strong>SetNtmsRequestOrder</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsrequestorder?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetNtmsUIOptions</strong>](setntmsuioptions.md)<dl> NTMS_COMPUTER<br />
+<td>[<strong>SetNtmsUIOptions</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsuioptionsa?branch=master)<dl> NTMS_COMPUTER<br />
 NTMS_LIBRARY<br />
 </dl></td>
 
@@ -705,7 +710,7 @@ U&amp;M<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>SubmitNtmsOperatorRequest</strong>](submitntmsoperatorrequest.md)<dl> NTMS_OPREQ_CLEANER<br />
+<td>[<strong>SubmitNtmsOperatorRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-submitntmsoperatorrequesta?branch=master)<dl> NTMS_OPREQ_CLEANER<br />
 NTMS_OPREQ_DEVICESERVICE<br />
 NTMS_OPREQ_MESSAGE<br />
 NTMS_OPREQ_MOVEMEDIA<br />
@@ -734,13 +739,13 @@ U<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SwapNtmsMedia</strong>](swapntmsmedia.md)</td>
+<td>[<strong>SwapNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-swapntmsmedia?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>UpdateNtmsOmidInfo</strong>](updatentmsomidinfo.md)</td>
+<td>[<strong>UpdateNtmsOmidInfo</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-updatentmsomidinfo?branch=master)</td>
 
 <td>C</td>
 
@@ -767,151 +772,151 @@ U<br />
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AccessNtmsLibraryDoor</strong>](accessntmslibrarydoor.md)</td>
+<td>[<strong>AccessNtmsLibraryDoor</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-accessntmslibrarydoor?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>AddNtmsMediaType</strong>](addntmsmediatype.md)</td>
+<td>[<strong>AddNtmsMediaType</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-addntmsmediatype?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>AllocateNtmsMedia</strong>](allocatentmsmedia.md)</td>
+<td>[<strong>AllocateNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-allocatentmsmedia?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>CancelNtmsLibraryRequest</strong>](cancelntmslibraryrequest.md)</td>
+<td>[<strong>CancelNtmsLibraryRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-cancelntmslibraryrequest?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>CancelNtmsOperatorRequest</strong>](cancelntmsoperatorrequest.md)</td>
+<td>[<strong>CancelNtmsOperatorRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="even">
-<td>[<strong>ChangeNtmsMediaType</strong>](changentmsmediatype.md)</td>
+<td>[<strong>ChangeNtmsMediaType</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-changentmsmediatype?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="odd">
-<td>[<strong>CleanNtmsDrive</strong>](cleanntmsdrive.md)</td>
+<td>[<strong>CleanNtmsDrive</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-cleanntmsdrive?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>CreateNtmsMedia</strong>](createntmsmedia.md)</td>
+<td>[<strong>CreateNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-createntmsmediaa?branch=master)</td>
 <td>C</td>
 <td>M</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>CreateNtmsMediaPool</strong>](createntmsmediapool.md)</td>
+<td>[<strong>CreateNtmsMediaPool</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-createntmsmediapool?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>DeallocateNtmsMedia</strong>](deallocatentmsmedia.md)</td>
-<td>M</td>
-
-
-</tr>
-<tr class="odd">
-<td>[<strong>DecommissionNtmsMedia</strong>](decommissionntmsmedia.md)</td>
-<td>M</td>
-
-
-</tr>
-<tr class="even">
-<td>[<strong>DeleteNtmsDrive</strong>](deletentmsdrive.md)</td>
-
-<td>M</td>
-
-</tr>
-<tr class="odd">
-<td>[<strong>DeleteNtmsLibrary</strong>](deletentmslibrary.md)</td>
-
-<td>M</td>
-
-</tr>
-<tr class="even">
-<td>[<strong>DeleteNtmsMedia</strong>](deletentmsmedia.md)</td>
+<td>[<strong>DeallocateNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deallocatentmsmedia?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="odd">
-<td>[<strong>DeleteNtmsMediaPool</strong>](deletentmsmediapool.md)</td>
+<td>[<strong>DecommissionNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-decommissionntmsmedia?branch=master)</td>
+<td>M</td>
+
+
+</tr>
+<tr class="even">
+<td>[<strong>DeleteNtmsDrive</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsdrive?branch=master)</td>
+
+<td>M</td>
+
+</tr>
+<tr class="odd">
+<td>[<strong>DeleteNtmsLibrary</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmslibrary?branch=master)</td>
+
+<td>M</td>
+
+</tr>
+<tr class="even">
+<td>[<strong>DeleteNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsmedia?branch=master)</td>
+<td>M</td>
+
+
+</tr>
+<tr class="odd">
+<td>[<strong>DeleteNtmsMediaPool</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsmediapool?branch=master)</td>
 <td>C</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>DeleteNtmsMediaType</strong>](deletentmsmediatype.md)</td>
+<td>[<strong>DeleteNtmsMediaType</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsmediatype?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>DeleteNtmsRequests</strong>](deletentmsrequests.md)</td>
+<td>[<strong>DeleteNtmsRequests</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-deletentmsrequests?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="even">
-<td>[<strong>DisableNtmsObject</strong>](disablentmsobject.md)</td>
+<td>[<strong>DisableNtmsObject</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-disablentmsobject?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>DismountNtmsDrive</strong>](dismountntmsdrive.md)</td>
+<td>[<strong>DismountNtmsDrive</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-dismountntmsdrive?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>DismountNtmsMedia</strong>](dismountntmsmedia.md)</td>
+<td>[<strong>DismountNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-dismountntmsmedia?branch=master)</td>
 <td>U</td>
 <td>U</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>EjectNtmsCleaner</strong>](ejectntmscleaner.md)</td>
+<td>[<strong>EjectNtmsCleaner</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-ejectntmscleaner?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>EjectNtmsMedia</strong>](ejectntmsmedia.md)</td>
+<td>[<strong>EjectNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-ejectntmsmedia?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>EnableNtmsObject</strong>](enablentmsobject.md)</td>
+<td>[<strong>EnableNtmsObject</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-enablentmsobject?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>ExportNtmsDatabase</strong>](exportntmsdatabase.md)</td>
+<td>[<strong>ExportNtmsDatabase</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-exportntmsdatabase?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="odd">
-<td>[<strong>GetNtmsObjectInformation</strong>](getntmsobjectinformation.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>GetNtmsObjectInformation</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsobjectinformation?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -976,7 +981,7 @@ M<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>GetNtmsUIOptions</strong>](getntmsuioptions.md)<dl> NTMS_COMPUTER<br />
+<td>[<strong>GetNtmsUIOptions</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-getntmsuioptionsa?branch=master)<dl> NTMS_COMPUTER<br />
 NTMS_LIBRARY<br />
 </dl></td>
 
@@ -989,79 +994,79 @@ U<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IdentifyNtmsSlot</strong>](identifyntmsslot.md)</td>
+<td>[<strong>IdentifyNtmsSlot</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-identifyntmsslot?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>ImportNtmsDatabase</strong>](importntmsdatabase.md)</td>
+<td>[<strong>ImportNtmsDatabase</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-importntmsdatabase?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="odd">
-<td>[<strong>InjectNtmsCleaner</strong>](injectntmscleaner.md)</td>
+<td>[<strong>InjectNtmsCleaner</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-injectntmscleaner?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>InjectNtmsMedia</strong>](injectntmsmedia.md)</td>
+<td>[<strong>InjectNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-injectntmsmedia?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>InventoryNtmsLibrary</strong>](inventoryntmslibrary.md)</td>
+<td>[<strong>InventoryNtmsLibrary</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-inventoryntmslibrary?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>MountNtmsMedia</strong>](mountntmsmedia.md)</td>
+<td>[<strong>MountNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-mountntmsmedia?branch=master)</td>
 <td>U</td>
 <td>U</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>MoveToNtmsMediaPool</strong>](movetontmsmediapool.md)</td>
+<td>[<strong>MoveToNtmsMediaPool</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-movetontmsmediapool?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="even">
-<td>[<strong>OpenNtmsSession</strong>](openntmssession.md)</td>
+<td>[<strong>OpenNtmsSession</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-openntmssessiona?branch=master)</td>
 
 
 <td>U</td>
 </tr>
 <tr class="odd">
-<td>[<strong>ReleaseNtmsCleanerSlot</strong>](releasentmscleanerslot.md)</td>
+<td>[<strong>ReleaseNtmsCleanerSlot</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-releasentmscleanerslot?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="even">
-<td>[<strong>ReserveNtmsCleanerSlot</strong>](reserventmscleanerslot.md)</td>
+<td>[<strong>ReserveNtmsCleanerSlot</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-reserventmscleanerslot?branch=master)</td>
 
 <td>C</td>
 
 </tr>
 <tr class="odd">
-<td>[<strong>SatisfyNtmsOperatorRequest</strong>](satisfyntmsoperatorrequest.md)</td>
+<td>[<strong>SatisfyNtmsOperatorRequest</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-satisfyntmsoperatorrequest?branch=master)</td>
 
 
 <td>C</td>
 </tr>
 <tr class="even">
-<td>[<strong>SetNtmsMediaComplete</strong>](setntmsmediacomplete.md)</td>
+<td>[<strong>SetNtmsMediaComplete</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsmediacomplete?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="odd">
-<td>[<strong>SetNtmsObjectInformation</strong>](setntmsobjectinformation.md)<dl> NTMS_LOGICAL_MEDIA<br />
+<td>[<strong>SetNtmsObjectInformation</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsobjectinformation?branch=master)<dl> NTMS_LOGICAL_MEDIA<br />
 NTMS_MEDIA_POOL<br />
 NTMS_PARTITION<br />
 NTMS_STORAGESLOT<br />
@@ -1080,7 +1085,7 @@ C<br />
 
 </tr>
 <tr class="even">
-<td>[<strong>SetNtmsObjectSecurity</strong>](setntmsobjectsecurity.md)<dl> NTMS_CHANGER<br />
+<td>[<strong>SetNtmsObjectSecurity</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsobjectsecurity?branch=master)<dl> NTMS_CHANGER<br />
 NTMS_CHANGER_TYPE<br />
 NTMS_COMPUTER<br />
 NTMS_DRIVE<br />
@@ -1149,7 +1154,7 @@ W<br />
 </dl></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SetNtmsUIOptions</strong>](setntmsuioptions.md)<dl> NTMS_COMPUTER<br />
+<td>[<strong>SetNtmsUIOptions</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-setntmsuioptionsa?branch=master)<dl> NTMS_COMPUTER<br />
 NTMS_LIBRARY<br />
 </dl></td>
 
@@ -1162,13 +1167,13 @@ U&amp;M<br />
 </dl></td>
 </tr>
 <tr class="even">
-<td>[<strong>SwapNtmsMedia</strong>](swapntmsmedia.md)</td>
+<td>[<strong>SwapNtmsMedia</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-swapntmsmedia?branch=master)</td>
 <td>M</td>
 
 
 </tr>
 <tr class="odd">
-<td>[<strong>UpdateNtmsOmidInfo</strong>](updatentmsomidinfo.md)</td>
+<td>[<strong>UpdateNtmsOmidInfo</strong>](/windows/win32/Ntmsapi/nf-ntmsapi-updatentmsomidinfo?branch=master)</td>
 
 <td>C</td>
 

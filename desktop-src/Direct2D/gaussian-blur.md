@@ -1,8 +1,14 @@
 ---
 title: Gaussian blur effect
 description: Use the Gaussian blur effect to create a blur based on the Gaussian function over the entire input image.
-ms.assetid: '6B8C9A0A-81D6-4CC2-B30B-995D4C2E59FC'
-keywords: ["Gaussian blur"]
+ms.assetid: 6B8C9A0A-81D6-4CC2-B30B-995D4C2E59FC
+keywords:
+- Gaussian blur
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gaussian blur effect
@@ -35,7 +41,7 @@ The CLSID for this effect is CLSID\_D2D1GaussianBlur.
 
 
 
- 
+ 
 
 
 ```C++
@@ -64,7 +70,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Optimization modes
 
@@ -78,7 +84,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Border modes
 
@@ -91,7 +97,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -107,25 +113,25 @@ So, if the image size increases by 10 pixels in each direction the upper left co
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

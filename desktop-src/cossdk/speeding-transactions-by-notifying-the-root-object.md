@@ -1,20 +1,25 @@
 ---
 Description: Speeding Transactions by Notifying the Root Object
-ms.assetid: '5737324a-65e5-4a39-b325-762768e171a1'
+ms.assetid: 5737324a-65e5-4a39-b325-762768e171a1
 title: Speeding Transactions by Notifying the Root Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Speeding Transactions by Notifying the Root Object
 
-To use automatic transactions effectively, each transactional component should indicate that it has completed its work. When an object instance completes its task successfully, it should set its consistent and done flags to True by calling the [**IObjectContext::SetComplete**](iobjectcontext-setcomplete.md) method. When all of the interior objects of the transaction have called **SetComplete**, the transaction can be terminated by explicitly deactivating the root object by calling its **SetComplete** method. By explicitly indicating that a root object has completed its work, you can reduce the length of the transaction.
+To use automatic transactions effectively, each transactional component should indicate that it has completed its work. When an object instance completes its task successfully, it should set its consistent and done flags to True by calling the [**IObjectContext::SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master) method. When all of the interior objects of the transaction have called **SetComplete**, the transaction can be terminated by explicitly deactivating the root object by calling its **SetComplete** method. By explicitly indicating that a root object has completed its work, you can reduce the length of the transaction.
 
-When a transactional object method fails, the object should set its consistent flag to False and its done flag to True by calling the [**IObjectContext::SetAbort**](iobjectcontext-setabort.md) method. By calling the **SetAbort** method, an object returns control to its caller and ensures that the transaction is ultimately aborted.
+When a transactional object method fails, the object should set its consistent flag to False and its done flag to True by calling the [**IObjectContext::SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master) method. By calling the **SetAbort** method, an object returns control to its caller and ensures that the transaction is ultimately aborted.
 
-However, unless the object calling [**SetAbort**](iobjectcontext-setabort.md) is the root of the transaction, the transaction continues to run even though nothing can save it from eventually aborting. To speed up the termination of a failed transaction, you can raise an error to alert the root object to also call **SetAbort**. For completion, the root object should then send an error message to its client.
+However, unless the object calling [**SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master) is the root of the transaction, the transaction continues to run even though nothing can save it from eventually aborting. To speed up the termination of a failed transaction, you can raise an error to alert the root object to also call **SetAbort**. For completion, the root object should then send an error message to its client.
 
 While there are many different approaches you can take to handle errors, your approach should clearly coordinate the communications between interior objects and the root object.
 
-The following Visual Basic code fragments show one approach to error handling. In the first fragment, an interior object calls [**SetAbort**](iobjectcontext-setabort.md), raises an error, and generates an error message, as follows:
+The following Visual Basic code fragments show one approach to error handling. In the first fragment, an interior object calls [**SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master), raises an error, and generates an error message, as follows:
 
 ``` syntax
 Dim ObjCtx As ObjectContext

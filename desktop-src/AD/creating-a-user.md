@@ -4,11 +4,15 @@ description: To create a user in Active Directory Domain Services, create a user
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fb51895f-71e1-45b6-b8bc-ed674e822734'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fb51895f-71e1-45b6-b8bc-ed674e822734
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , creating a user"]
+keywords:
+- Active Directory examples Active Directory , creating a user
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a User
@@ -26,7 +30,7 @@ When you create a user object, you must also set the attributes, listed in the f
 
 
 
- 
+ 
 
 You can also set other attributes. The following user attributes are set with default values if you do not explicitly set them at creation time.
 
@@ -82,7 +86,7 @@ You can also set other attributes. The following user attributes are set with de
 
 
 
- 
+ 
 
 A user is created by binding to the desired container and then using one of the following methods. The [**cn**](https://msdn.microsoft.com/library/ms675449) and [**sAMAccountName**](https://msdn.microsoft.com/library/ms679635) attributes must be set before the user is committed to the server.
 
@@ -96,7 +100,7 @@ A user is created by binding to the desired container and then using one of the 
 
 
 
- 
+ 
 
 The new user must be committed to the server before any attributes other than [**cn**](https://msdn.microsoft.com/library/ms675449) and [**sAMAccountName**](https://msdn.microsoft.com/library/ms679635) can be modified. This is because the user account does not actually exist until the user is committed. If an attribute is retrieved or modified for an object that does not exist on the server, an error will occur. This includes calling the [**IADsUser.SetPassword**](https://msdn.microsoft.com/library/aa746344) method. For example, the following sequence would be followed when creating a user with [**IADsContainer.Create**](https://msdn.microsoft.com/library/aa705987):
 
@@ -116,9 +120,9 @@ When a new user account is created, the [**userAccountControl**](https://msdn.mi
 [Example Code for Creating a User](example-code-for-creating-a-user.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.'
+Description: The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '083dccb1-eb38-4ae5-a252-0001759c0f50'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 083dccb1-eb38-4ae5-a252-0001759c0f50
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'EnableDNS method of the Win32\_NetworkAdapterConfiguration class'
+title: EnableDNS method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableDNS method of the Win32\_NetworkAdapterConfiguration class
@@ -23,10 +26,10 @@ This topic uses the Managed Object Format (MOF) syntax. For more information abo
 
 ```mof
 uint32 EnableDNS(
-  [in, optional] string DNSHostName,
-  [in, optional] string DNSDomain,
-  [in, optional] string DNSServerSearchOrder[],
-  [in, optional] string DNSDomainSuffixSearchOrder[]
+  [in, optional] string DNSHostName,
+  [in, optional] string DNSDomain,
+  [in, optional] string DNSServerSearchOrder[],
+  [in, optional] string DNSDomainSuffixSearchOrder[]
 );
 ```
 
@@ -419,7 +422,7 @@ DHCP not enabled on adapter.
 **Other**
 </dt> <dd>
 
-101–4294967295
+101 4294967295
 
 </dd> </dl>
 
@@ -449,8 +452,8 @@ objNetworkSettings.EnableDNS strHostName, , , arrDNSSuffixes
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -476,9 +479,9 @@ objNetworkSettings.EnableDNS strHostName, , , arrDNSSuffixes
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

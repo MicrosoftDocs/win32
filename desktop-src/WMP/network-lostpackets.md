@@ -1,8 +1,9 @@
 ---
 title: Network.lostPackets
 description: The lostPackets property retrieves the number of packets lost.
-ms.assetid: 'b90faaaf-656a-4b9b-abfe-370e6f7c7c4b'
-keywords: ["Network.lostPackets Windows Media Player"]
+ms.assetid: b90faaaf-656a-4b9b-abfe-370e6f7c7c4b
+keywords:
+- Network.lostPackets Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.lostPackets
@@ -69,9 +75,9 @@ The following JScript example uses *Network*.**lostPackets** to display the tota
 [**Player.URL**](player-url.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

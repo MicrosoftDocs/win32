@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartImage interface is the abstraction for images in an XPS document.'
-ms.assetid: '7bb39a5b-7519-47a6-82ca-440942ae2c84'
+---
+Description: The IPartImage interface is the abstraction for images in an XPS document.
+ms.assetid: 7bb39a5b-7519-47a6-82ca-440942ae2c84
 title: IPartImage interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartImage interface

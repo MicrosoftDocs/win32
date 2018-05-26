@@ -1,8 +1,9 @@
 ---
 title: MCI\_SAVE command
 description: The MCI\_SAVE command saves the current file.
-ms.assetid: '286e6f31-cb93-443b-8191-8c363b366eae'
-keywords: ["MCI_SAVE command Windows Multimedia"]
+ms.assetid: 286e6f31-cb93-443b-8191-8c363b366eae
+keywords:
+- MCI_SAVE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SAVE command
 
 The MCI\_SAVE command saves the current file. Devices that modify files should not destroy the original copy until they receive the save message. Video-overlay and waveform-audio devices recognize this command. Although digital-video devices and MIDI sequencers also recognize this command, the MCIAVI and MCISEQ drivers do not implement it.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -100,7 +106,7 @@ Unused disk space left over from the original [MCI\_RESERVE](mci-reserve.md) com
 
 </dd> </dl>
 
-For digital-video devices, the *lpSave* parameter points to an [**MCI\_DGV\_SAVE\_PARMS**](mci-dgv-save-parms.md) structure.
+For digital-video devices, the *lpSave* parameter points to an [**MCI\_DGV\_SAVE\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_save_parmsa?branch=master) structure.
 
 The following additional flag is used with the **overlay** device type:
 
@@ -113,7 +119,7 @@ The **rc** member of the structure identified by *lpSave* contains a valid displ
 
 </dd> </dl>
 
-For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAVE\_PARMS**](mci-ovly-save-parms.md) structure.
+For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAVE\_PARMS**](/windows/win32/Mmsystem/?branch=master) structure.
 
 ## Requirements
 
@@ -121,8 +127,8 @@ For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAV
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -137,9 +143,9 @@ For video-overlay devices, the *lpSave* parameter points to an [**MCI\_OVLY\_SAV
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

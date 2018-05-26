@@ -4,13 +4,16 @@ description: Deletes a CIM\_CollectionOfMSEs object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '38d5d97a-d32b-4a4b-a384-75e9fb59dec1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 38d5d97a-d32b-4a4b-a384-75e9fb59dec1
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DestroyCollection method", "DestroyCollection method, Msvm_CollectionManagementService class", "Msvm_CollectionManagementService class, DestroyCollection method"]
+keywords:
+- DestroyCollection method
+- DestroyCollection method, Msvm_CollectionManagementService class
+- Msvm_CollectionManagementService class, DestroyCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DestroyCollection method of the Msvm\_CollectionManagementService class
@@ -30,8 +36,8 @@ Deletes a [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) object.
 
 ```mof
 uint32 DestroyCollection(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -110,7 +116,7 @@ The possible returns values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -124,9 +130,9 @@ The possible returns values are:
 [**Msvm\_CollectionManagementService**](msvm-collectionmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

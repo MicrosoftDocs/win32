@@ -4,17 +4,22 @@ description: Determines whether a NetBIOS device is created and bound to the IP 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b767335-edc1-47d7-8dea-13f6df902e5e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7b767335-edc1-47d7-8dea-13f6df902e5e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["EnableNetBios Failover Cluster ,for IP addresses", "EnableNetBIOS Failover Cluster"]
+keywords:
+- EnableNetBios Failover Cluster ,for IP addresses
+- EnableNetBIOS Failover Cluster
 topic_type:
 - apiref
 api_name:
 - EnableNetBIOS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableNetBIOS
@@ -28,14 +33,14 @@ Determines whether a NetBIOS device is created and bound to the [IP address](ip-
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE** (0)                             |
 | Maximum   | 2                                         |
 | Default   | **TRUE** (1)                              |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +56,7 @@ The **EnableNetBIOS** property can be set to one of the following values.
 
 
 
- 
+ 
 
 Setting **EnableNetBIOS** to **TRUE** allows NetBIOS applications to use the IP Address resource.
 
@@ -80,7 +85,7 @@ EnableNetBIOSValue.dw        = EnableNetBIOSData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -91,12 +96,12 @@ EnableNetBIOSValue.dw        = EnableNetBIOSData;
 [IP Address Private Properties](ip-address-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

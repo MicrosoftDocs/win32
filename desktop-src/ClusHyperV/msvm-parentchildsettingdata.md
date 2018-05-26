@@ -4,13 +4,15 @@ description: Represents an association between a virtual machine and the most re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0a1e3db-bf3e-4098-8861-5652edc507f0'
-ms.prod: 'windows-server-dev'
+ms.assetid: d0a1e3db-bf3e-4098-8861-5652edc507f0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_ParentChildSettingData class", "Msvm_ParentChildSettingData class, described"]
+keywords:
+- Msvm_ParentChildSettingData class
+- Msvm_ParentChildSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_ParentChildSettingData class
@@ -91,7 +96,7 @@ A reference to the [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettin
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ A reference to the [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettin
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

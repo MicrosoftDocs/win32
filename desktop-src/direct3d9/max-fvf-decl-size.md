@@ -1,7 +1,12 @@
-﻿---
-Description: 'This constant is the maximum number of vertex declarators for a mesh.'
-ms.assetid: '234e99a2-1907-4065-b03b-fb9e8d6812ab'
-title: 'MAX\_FVF\_DECL\_SIZE enumeration'
+---
+Description: This constant is the maximum number of vertex declarators for a mesh.
+ms.assetid: 234e99a2-1907-4065-b03b-fb9e8d6812ab
+title: MAX\_FVF\_DECL\_SIZE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MAX\_FVF\_DECL\_SIZE enumeration
@@ -54,7 +59,7 @@ MAXD3DDECLLENGTH is defined as a maximum of 64 (see d3d9types.h). This does not 
 [**ID3DXBaseMesh**](id3dxbasemesh.md)
 </dt> <dt>
 
-[**GetDeclaration**](idirect3dvertexdeclaration9--getdeclaration.md)
+[**GetDeclaration**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvertexdeclaration9-getdeclaration?branch=master)
 </dt> <dt>
 
 [**D3DXDeclaratorFromFVF**](d3dxdeclaratorfromfvf.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the power policy settings that make up a power scheme.'
-ms.assetid: 'cd515cd6-67f4-45d0-b769-3abc7a56faa8'
+Description: Describes the power policy settings that make up a power scheme.
+ms.assetid: cd515cd6-67f4-45d0-b769-3abc7a56faa8
 title: Power Policy Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Power Policy Settings
@@ -27,9 +32,9 @@ The following table shows the three power plan personalities.
 
  
 
-Each computer has a single, active power plan. By default, nonprivileged users are able to access system power settings. Access to all or individual power settings can be controlled through ACLs on the power settings or through Group Policy. Applications should call [**PowerSettingAccessCheck**](powersettingaccesscheck.md) to determine if the user has access to the power setting.
+Each computer has a single, active power plan. By default, nonprivileged users are able to access system power settings. Access to all or individual power settings can be controlled through ACLs on the power settings or through Group Policy. Applications should call [**PowerSettingAccessCheck**](/windows/win32/PowrProf/nf-powrprof-powersettingaccesscheck?branch=master) to determine if the user has access to the power setting.
 
-Each power setting is identified by a unique **GUID** and includes a friendly name, description, allowable values, and default values for AC and DC. Custom power settings can be created using the [**PowerCreateSetting**](powercreatesetting.md) function.
+Each power setting is identified by a unique **GUID** and includes a friendly name, description, allowable values, and default values for AC and DC. Custom power settings can be created using the [**PowerCreateSetting**](/windows/win32/PowrProf/nf-powrprof-powercreatesetting?branch=master) function.
 
 ## Related topics
 

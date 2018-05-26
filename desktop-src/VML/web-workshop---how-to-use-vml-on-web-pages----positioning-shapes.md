@@ -1,8 +1,44 @@
 ---
 title: Positioning Shapes
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: 'dbd68f54-201a-48dc-a3a9-a8dd42178c11'
-keywords: ["Web workshop,positioning shapes", "designing Web pages,positioning shapes", "Vector Markup Language (VML),positioning shapes", "VML (Vector Markup Language),positioning shapes", "vector graphics,positioning shapes", "VML shapes,positioning", "positioning shapes", "Vector Markup Language (VML),static position style", "VML (Vector Markup Language),static position style", "vector graphics,static position style", "static position style", "Vector Markup Language (VML),relative position style", "VML (Vector Markup Language),relative position style", "vector graphics,relative position style", "relative position style", "Vector Markup Language (VML),absolute position style", "VML (Vector Markup Language),absolute position style", "vector graphics,absolute position style", "absolute position style", "Vector Markup Language (VML),z-index position style", "VML (Vector Markup Language),z-index position style", "vector graphics,z-index position style", "z-index position style", "Vector Markup Language (VML),rotation position style", "VML (Vector Markup Language),rotation position style", "vector graphics,rotation position style", "rotation position style", "Vector Markup Language (VML),flip position style", "VML (Vector Markup Language),flip position style", "vector graphics,flip position style", "flip position style"]
+ms.assetid: dbd68f54-201a-48dc-a3a9-a8dd42178c11
+keywords:
+- Web workshop,positioning shapes
+- designing Web pages,positioning shapes
+- Vector Markup Language (VML),positioning shapes
+- VML (Vector Markup Language),positioning shapes
+- vector graphics,positioning shapes
+- VML shapes,positioning
+- positioning shapes
+- Vector Markup Language (VML),static position style
+- VML (Vector Markup Language),static position style
+- vector graphics,static position style
+- static position style
+- Vector Markup Language (VML),relative position style
+- VML (Vector Markup Language),relative position style
+- vector graphics,relative position style
+- relative position style
+- Vector Markup Language (VML),absolute position style
+- VML (Vector Markup Language),absolute position style
+- vector graphics,absolute position style
+- absolute position style
+- Vector Markup Language (VML),z-index position style
+- VML (Vector Markup Language),z-index position style
+- vector graphics,z-index position style
+- z-index position style
+- Vector Markup Language (VML),rotation position style
+- VML (Vector Markup Language),rotation position style
+- vector graphics,rotation position style
+- rotation position style
+- Vector Markup Language (VML),flip position style
+- VML (Vector Markup Language),flip position style
+- vector graphics,flip position style
+- flip position style
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Positioning Shapes

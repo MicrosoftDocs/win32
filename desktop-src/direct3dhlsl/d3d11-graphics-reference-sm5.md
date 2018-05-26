@@ -1,7 +1,12 @@
 ---
 title: Shader Model 5
 description: This section contains the reference pages for HLSL Shader Model 5.
-ms.assetid: 'ec646940-8901-45c5-a44c-434c8acae2aa'
+ms.assetid: ec646940-8901-45c5-a44c-434c8acae2aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 5
@@ -21,7 +26,7 @@ Shader Model 5 is a superset of the capabilites in [Shader Model 4](dx-graphics-
 
 
 
- 
+ 
 
 \* - gs\_4\_0, gs\_4\_1, ps\_4\_0, ps\_4\_1, vs\_4\_0 and vs\_4\_1 were introduced in Shader Model 4.0, however, DirectX 11 adds support for [structured buffers](https://msdn.microsoft.com/library/windows/desktop/ff476335) and byte address buffers to Shader Model 4 running on DirectX 10 hardware.
 
@@ -44,7 +49,7 @@ The [Shader Model 5 Assembly](shader-model-5-assembly--directx-hlsl-.md) section
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -53,9 +58,9 @@ The [Shader Model 5 Assembly](shader-model-5-assembly--directx-hlsl-.md) section
 [Shader Models vs Shader Profiles](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

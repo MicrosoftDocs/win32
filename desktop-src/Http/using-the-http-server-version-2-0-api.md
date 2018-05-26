@@ -1,8 +1,15 @@
 ---
 title: Using the HTTP Server Version 2.0 API
 description: Using the HTTP Server Version 2.0 API
-ms.assetid: '75f68c6e-9cd9-44e4-b6aa-13b02bb47c77'
-keywords: ["Using the HTTP Server version 2.0 API", "HTTP Server version 2.0 API, Using"]
+ms.assetid: 75f68c6e-9cd9-44e4-b6aa-13b02bb47c77
+keywords:
+- Using the HTTP Server version 2.0 API
+- HTTP Server version 2.0 API, Using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the HTTP Server Version 2.0 API

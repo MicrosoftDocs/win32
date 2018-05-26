@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the bone name, from the bone index.'
-ms.assetid: 'f56faf41-c119-4cdd-bb8a-86fc99ff5893'
-title: 'ID3DXSkinInfo::GetBoneName method'
+---
+Description: Gets the bone name, from the bone index.
+ms.assetid: f56faf41-c119-4cdd-bb8a-86fc99ff5893
+title: ID3DXSkinInfoGetBoneName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::GetBoneName method

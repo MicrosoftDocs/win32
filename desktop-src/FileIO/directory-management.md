@@ -1,7 +1,12 @@
 ---
-Description: 'A directory is a hierarchical collection of directories and files. The only constraint on the number of files that can be contained in a single directory is the physical size of the disk on which the directory is located.'
-ms.assetid: 'e8a7bf82-0f3c-4ad9-9d10-25c4d69733dc'
+Description: A directory is a hierarchical collection of directories and files. The only constraint on the number of files that can be contained in a single directory is the physical size of the disk on which the directory is located.
+ms.assetid: e8a7bf82-0f3c-4ad9-9d10-25c4d69733dc
 title: Directory Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directory Management
@@ -20,7 +25,7 @@ A *directory* is a hierarchical collection of directories and files. The only co
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ A *directory* is a hierarchical collection of directories and files. The only co
 [File Management](file-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

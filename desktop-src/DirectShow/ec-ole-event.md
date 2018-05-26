@@ -1,7 +1,12 @@
 ---
-Description: 'A filter is passing a text string to the application.'
-ms.assetid: '477c6456-c96c-4d3d-b877-2a426510de29'
-title: 'EC\_OLE\_EVENT'
+Description: A filter is passing a text string to the application.
+ms.assetid: 477c6456-c96c-4d3d-b877-2a426510de29
+title: EC\_OLE\_EVENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_OLE\_EVENT
@@ -54,9 +59,9 @@ By convention, the first parameter contains type information (for example, "Text
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

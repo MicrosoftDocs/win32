@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Image Acquisition (WIA) property constants include the following groups of constants supported by Windows Millennium Edition (Windows Me), Windows XP, and later.'
-ms.assetid: '275b52a2-7e62-4c36-9d51-cbeb18b934c6'
+Description: Windows Image Acquisition (WIA) property constants include the following groups of constants supported by Windows Millennium Edition (Windows Me), Windows XP, and later.
+ms.assetid: 275b52a2-7e62-4c36-9d51-cbeb18b934c6
 title: WIA Property Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Property Constants

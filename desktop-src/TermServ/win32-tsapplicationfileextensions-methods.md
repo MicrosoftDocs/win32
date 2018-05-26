@@ -4,10 +4,13 @@ description: The Win32\_TSApplicationFileExtensions class exposes the following 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F7F5E4F8-DB09-4845-BFEA-9B85BC37E4EE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: F7F5E4F8-DB09-4845-BFEA-9B85BC37E4EE
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSApplicationFileExtensions Methods

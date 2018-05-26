@@ -4,17 +4,21 @@ description: Callback to be provided by you to know when and which consent notif
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0B8CE14C-B42F-4772-B06C-4A71754F6DE6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0B8CE14C-B42F-4772-B06C-4A71754F6DE6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentCallback consents method"]
+keywords:
+- ConsentCallback consents method
 topic_type:
 - apiref
 api_name:
 - ConsentCallback consents method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentCallback consents method
@@ -40,7 +44,7 @@ public void consents(Collection<Consent> consents,
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -56,11 +60,11 @@ ConsentCallback.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Csid property is a null-terminated string that contains the called station identifier (CSID) associated with the fax port.'
-ms.assetid: 'd9f7755a-9b7b-4cb7-9303-c8ba6276e243'
-title: 'FaxPort.Csid property'
+---
+Description: The Csid property is a null-terminated string that contains the called station identifier (CSID) associated with the fax port.
+ms.assetid: d9f7755a-9b7b-4cb7-9303-c8ba6276e243
+title: FaxPort.Csid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Csid property
@@ -64,10 +69,10 @@ The T.30 specification of the International Telecommunication Union (ITU) restri
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

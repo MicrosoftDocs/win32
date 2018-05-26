@@ -1,8 +1,18 @@
 ---
 title: Porting Feedback Functions
 description: With IRIS GL, the way that feedback is handled differs depending on the computer running IRIS GL.
-ms.assetid: '170a3eae-5e0e-47f5-80dc-f8db5af98f76'
-keywords: ["IRIS GL porting,feedback", "porting from IRIS GL,feedback", "porting to OpenGL from IRIS GL,feedback", "OpenGL porting from IRIS GL,feedback", "feedback"]
+ms.assetid: 170a3eae-5e0e-47f5-80dc-f8db5af98f76
+keywords:
+- IRIS GL porting,feedback
+- porting from IRIS GL,feedback
+- porting to OpenGL from IRIS GL,feedback
+- OpenGL porting from IRIS GL,feedback
+- feedback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Feedback Functions
@@ -19,11 +29,11 @@ With IRIS GL, the way that feedback is handled differs depending on the computer
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

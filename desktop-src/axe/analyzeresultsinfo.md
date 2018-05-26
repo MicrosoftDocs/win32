@@ -1,8 +1,9 @@
 ---
 title: AnalyzeResultsInfo structure
 description: Information about results analysis.
-ms.assetid: '22F5BCFA-A6AE-4722-A14F-90DDCD14F42C'
-keywords: ["AnalyzeResultsInfo structure Access Execution Engine"]
+ms.assetid: 22F5BCFA-A6AE-4722-A14F-90DDCD14F42C
+keywords:
+- AnalyzeResultsInfo structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalyzeResultsInfo structure
@@ -22,11 +28,11 @@ Information about results analysis.
 
 ```C++
 struct AnalyzeResultsInfo {
-  DWORD             Size;
-  const JobResults  *Results;
-  DWORD             Flags;
+  DWORD             Size;
+  const JobResults  *Results;
+  DWORD             Flags;
   JobExecutionError Error;
-  LPCWSTR           ResultsPublishPath;
+  LPCWSTR           ResultsPublishPath;
 };
 ```
 
@@ -77,15 +83,15 @@ The path where the results are to be copied when analysis is done. If the **Publ
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: async attribute
 description: The \ async\ ACF attribute defines a remote procedure call as an asynchronous operation.
 ms.assetid: 8002980a-94be-4d45-99d7-dfa4eae7f102
-keywords: ["async attribute MIDL"]
+keywords:
+- async attribute MIDL
 topic_type:
 - apiref
 api_name:
 - async
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # async attribute

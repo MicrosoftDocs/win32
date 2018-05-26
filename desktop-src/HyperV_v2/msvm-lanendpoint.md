@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the logical connection point for a network adapter. When the LAN endpoint is connected to a switch port, the network adapter connected to the LAN endpoint has network connectivity.'
-ms.assetid: '68aad05e-64b5-44dc-ab5b-8f3051fa77ca'
-title: 'Msvm\_LANEndpoint class'
+Description: Represents the logical connection point for a network adapter. When the LAN endpoint is connected to a switch port, the network adapter connected to the LAN endpoint has network connectivity.
+ms.assetid: 68aad05e-64b5-44dc-ab5b-8f3051fa77ca
+title: Msvm\_LANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_LANEndpoint class
@@ -16,42 +21,42 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_LANEndpoint : CIM_LANEndpoint
 {
-  string   InstanceID;
-  string   Caption = "LAN Endpoint";
-  string   Description = "Microsoft Virtual LAN Endpoint";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "LAN Endpoint";
+  string   Description = "Microsoft Virtual LAN Endpoint";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_LANEndpoint";
-  string   NameFormat = "Microsoft Virtual Device ID";
-  uint16   ProtocolType;
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
-  string   LANID;
-  uint16   LANType;
-  string   OtherLANType;
-  string   MACAddress;
-  string   AliasAddresses[];
-  string   GroupAddresses[];
-  uint32   MaxDataSize;
-  boolean  Connected;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_LANEndpoint";
+  string   NameFormat = "Microsoft Virtual Device ID";
+  uint16   ProtocolType;
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
+  string   LANID;
+  uint16   LANType;
+  string   OtherLANType;
+  string   MACAddress;
+  string   AliasAddresses[];
+  string   GroupAddresses[];
+  uint32   MaxDataSize;
+  boolean  Connected;
 };
 ```
 
@@ -74,7 +79,7 @@ The **Msvm\_LANEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -281,7 +286,7 @@ Specifies the enabled state of the planned system. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -317,7 +322,7 @@ The current health of the element. This property expresses the health of this el
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -532,7 +537,7 @@ The property is used to categorize and classify instances of this class. If the 
 > [!Note]  
 > **ProtocolIFType** is an enumeration that is synchronized with the [IANA ifType MIB](http://www.iana.org/assignments/ianaiftype-mib). Additional values defined by the DMTF are also included.
 
- 
+ 
 
 <dl> <dt>
 
@@ -1356,7 +1361,7 @@ The last requested or desired state for the management service. This property is
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1471,17 +1476,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Add a Filter by CLSID
-ms.assetid: 'b15cf324-5b9b-41da-a8cf-87071aaf3b60'
+ms.assetid: b15cf324-5b9b-41da-a8cf-87071aaf3b60
 title: Add a Filter by CLSID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Add a Filter by CLSID
@@ -48,11 +53,11 @@ done:
 
 
 > [!Note]  
-> This example uses the [SafeRelease](https://msdn.microsoft.com/library/windows/desktop/dd940435) function to release the [**IBaseFilter**](ibasefilter.md) pointer.
+> This example uses the [SafeRelease](https://msdn.microsoft.com/library/windows/desktop/dd940435) function to release the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) pointer.
 
  
 
-The function calls [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the filter, and then calls [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) to add the filter to the graph. The following code example uses this function to add the [AVI Mux](avi-mux-filter.md) filter to the graph:
+The function calls [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) to create the filter, and then calls [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) to add the filter to the graph. The following code example uses this function to add the [AVI Mux](avi-mux-filter.md) filter to the graph:
 
 
 ```C++

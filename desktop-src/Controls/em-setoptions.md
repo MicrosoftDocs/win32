@@ -1,8 +1,9 @@
 ---
 title: EM\_SETOPTIONS message
 description: Sets the options for a rich edit control.
-ms.assetid: '98ef2de9-4c34-45ba-8e8a-eaf505f97f56'
-keywords: ["EM_SETOPTIONS message Windows Controls"]
+ms.assetid: 98ef2de9-4c34-45ba-8e8a-eaf505f97f56
+keywords:
+- EM_SETOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETOPTIONS message
@@ -37,7 +43,7 @@ Specifies the operation, which can be one of these values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -61,7 +67,7 @@ Specifies one or more of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -75,8 +81,8 @@ This message returns the current options of the edit control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ This message returns the current options of the edit control.
 [**Rich Edit Control Styles**](rich-edit-control-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

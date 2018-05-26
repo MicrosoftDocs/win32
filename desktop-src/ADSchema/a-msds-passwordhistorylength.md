@@ -4,17 +4,22 @@ description: Password history length for user accounts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9a3a8420-253c-4a55-9d64-15c2c4035ea0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9a3a8420-253c-4a55-9d64-15c2c4035ea0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Password-History-Length attribute AD Schema", "msDS-PasswordHistoryLength attribute AD Schema"]
+keywords:
+- ms-DS-Password-History-Length attribute AD Schema
+- msDS-PasswordHistoryLength attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Password-History-Length
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Password-History-Length attribute
@@ -38,9 +43,9 @@ Password history length for user accounts.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Password history length for user accounts.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

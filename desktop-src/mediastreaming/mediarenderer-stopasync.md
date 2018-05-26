@@ -1,14 +1,22 @@
 ---
 title: MediaRenderer.StopAsync method
 description: Instructs the DMR asynchronously to stop playing the current content.
-ms.assetid: 'B6B0F3F2-E95E-4A58-9CBD-CF4CB24FDAD0'
-keywords: ["StopAsync method Media Streaming API", "StopAsync method Media Streaming API , MediaRenderer interface", "MediaRenderer interface Media Streaming API , StopAsync method"]
+ms.assetid: B6B0F3F2-E95E-4A58-9CBD-CF4CB24FDAD0
+keywords:
+- StopAsync method Media Streaming API
+- StopAsync method Media Streaming API , MediaRenderer interface
+- MediaRenderer interface Media Streaming API , StopAsync method
 topic_type:
 - apiref
 api_name:
 - MediaRenderer.StopAsync
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaRenderer.StopAsync method
@@ -20,7 +28,7 @@ Instructs the DMR asynchronously to stop playing the current content.
 
 ```C++
 HRESULT StopAsync(
-  [out] PlaybackOperation **value
+  [out] PlaybackOperation **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**MediaRenderer**](mediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

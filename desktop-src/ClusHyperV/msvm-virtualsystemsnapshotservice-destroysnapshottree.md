@@ -4,13 +4,16 @@ description: Deletes a tree that contains snapshots of a virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4c308034-f691-4e33-82ca-e2bf4c6cb92e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4c308034-f691-4e33-82ca-e2bf4c6cb92e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DestroySnapshotTree method", "DestroySnapshotTree method, Msvm_VirtualSystemSnapshotService class", "Msvm_VirtualSystemSnapshotService class, DestroySnapshotTree method"]
+keywords:
+- DestroySnapshotTree method
+- DestroySnapshotTree method, Msvm_VirtualSystemSnapshotService class
+- Msvm_VirtualSystemSnapshotService class, DestroySnapshotTree method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DestroySnapshotTree method of the Msvm\_VirtualSystemSnapshotService class
@@ -30,8 +36,8 @@ Deletes a tree that contains snapshots of a virtual machine.
 
 ```mof
 uint32 DestroySnapshotTree(
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -107,7 +113,7 @@ This method returns one of the following values.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

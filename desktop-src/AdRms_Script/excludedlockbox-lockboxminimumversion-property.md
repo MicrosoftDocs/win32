@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the minimum lockbox version that must be installed before licenses and certificates can be issued.'
+Description: Specifies or retrieves the minimum lockbox version that must be installed before licenses and certificates can be issued.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '816585cc-24a6-4090-a1e3-f2457f6d35fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 816585cc-24a6-4090-a1e3-f2457f6d35fe
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedLockbox.LockboxMinimumVersion property'
+title: ExcludedLockbox.LockboxMinimumVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedLockbox.LockboxMinimumVersion property
@@ -129,7 +132,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -141,9 +144,9 @@ END SUB
 [**ExcludedLockbox**](excludedlockbox-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

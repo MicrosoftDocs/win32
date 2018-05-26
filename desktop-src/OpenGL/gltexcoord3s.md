@@ -1,8 +1,9 @@
 ---
 title: glTexCoord3s function
 description: Sets the current texture coordinates.
-ms.assetid: '0698c7fe-3a1a-4713-a72b-17d81840251b'
-keywords: ["glTexCoord3s function OpenGL"]
+ms.assetid: 0698c7fe-3a1a-4713-a72b-17d81840251b
+keywords:
+- glTexCoord3s function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexCoord3s function
@@ -22,9 +28,9 @@ Sets the current texture coordinates.
 
 ```C++
 void WINAPI glTexCoord3s(
-   GLshort s,
-   GLshort t,
-   GLshort r
+   GLshort s,
+   GLshort t,
+   GLshort r
 );
 ```
 
@@ -71,8 +77,8 @@ The [**glTexCoord**](gltexcoord-functions.md) function sets the current texture 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -86,9 +92,9 @@ The [**glTexCoord**](gltexcoord-functions.md) function sets the current texture 
 [glVertex](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ComHandlerAction.Data property
 description: For scripting, gets or sets additional data that is associated with the handler.
-ms.assetid: 'bf4d3e77-4b2b-4622-b26b-a8f7e9aa687b'
-keywords: ["Data property Task Scheduler", "Data property Task Scheduler , ComHandlerAction object", "ComHandlerAction object Task Scheduler , Data property"]
+ms.assetid: bf4d3e77-4b2b-4622-b26b-a8f7e9aa687b
+keywords:
+- Data property Task Scheduler
+- Data property Task Scheduler , ComHandlerAction object
+- ComHandlerAction object Task Scheduler , Data property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComHandlerAction.Data property
@@ -40,8 +48,8 @@ When reading or writing XML, the data of a COM handler is specified in the [**Da
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing XML, the data of a COM handler is specified in the [**Da
 [**ComHandlerAction**](comhandleraction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

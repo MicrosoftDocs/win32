@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'fb2ff37c-cfee-498f-8fc3-5d73ee84bc84'
-title: 'System.TransferOrder'
+Description: .
+ms.assetid: fb2ff37c-cfee-498f-8fc3-5d73ee84bc84
+title: System.TransferOrder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.TransferOrder

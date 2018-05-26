@@ -1,7 +1,12 @@
 ---
 title: Understanding the D3D12 Debug Layer
 description: Describes how to make best use of the D3D12 Debug Layer.
-ms.assetid: 'C95FABCB-BBB6-48B1-8D13-25A49A1A0C73'
+ms.assetid: C95FABCB-BBB6-48B1-8D13-25A49A1A0C73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding the D3D12 Debug Layer
@@ -18,7 +23,7 @@ Describes how to make best use of the D3D12 Debug Layer.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ Describes how to make best use of the D3D12 Debug Layer.
 [Direct3D 12 Programming Guide](directx-12-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MONITORINIT structure is used as an input parameter to a print monitor''s InitializePrintMonitor2 function.'
-ms.assetid: '3445997f-a607-4071-b05e-c1a8d01892b2'
+---
+Description: The MONITORINIT structure is used as an input parameter to a print monitors InitializePrintMonitor2 function.
+ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 title: MONITORINIT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MONITORINIT structure

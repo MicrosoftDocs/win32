@@ -1,7 +1,12 @@
 ---
 title: Designing NDF Helper Class Extensions
 description: This topic is intended to provide generic guidance through the helper class extension development process.
-ms.assetid: 'f5dbd198-7d22-4e7e-830e-6753e9f4d6c8'
+ms.assetid: f5dbd198-7d22-4e7e-830e-6753e9f4d6c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing NDF Helper Class Extensions
@@ -10,7 +15,7 @@ This topic is intended to provide generic guidance through the helper class exte
 
 ## Extending NDF Functionality
 
-Windows Vista and later versions ship with a variety of helper classes already implemented that can diagnose and repair a wide range of issues. At times, however, third-party developers may wish to extend these helper classes to diagnose and resolve issues specific to their particular products and implementations.
+Windows Vista and later versions ship with a variety of helper classes already implemented that can diagnose and repair a wide range of issues. At times, however, third-party developers may wish to extend these helper classes to diagnose and resolve issues specific to their particular products and implementations.
 
 The following Microsoft NDF helper classes are extensible.
 
@@ -21,15 +26,15 @@ The following Microsoft NDF helper classes are extensible.
 
 Microsoft ships two interfaces that can be used to develop NDF helper class extensions.
 
-The [**INetDiagHelperInfo**](inetdiaghelperinfo.md) interface is called by NDF to validate that it has all required information and that it has chosen the correct helper class. It accomplishes this through the [**GetAttributeInfo**](inetdiaghelperinfo-getattributeinfo.md) method.
+The [**INetDiagHelperInfo**](/windows/win32/ndhelper/nn-ndhelper-inetdiaghelperinfo?branch=master) interface is called by NDF to validate that it has all required information and that it has chosen the correct helper class. It accomplishes this through the [**GetAttributeInfo**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo?branch=master) method.
 
-The [**INetDiagHelper**](inetdiaghelper.md) interface is called by NDF for most of the activities that occur during the diagnostic procedure. Several of its methods are required, but others are optional for specific uses.
+The [**INetDiagHelper**](/windows/win32/ndhelper/nn-ndhelper-inetdiaghelper?branch=master) interface is called by NDF for most of the activities that occur during the diagnostic procedure. Several of its methods are required, but others are optional for specific uses.
 
-The required methods include [**Initialize**](inetdiaghelpe-initialize.md) and [**GetDiagnosticsInfo**](inetdiaghelpe-getdiagnosticsinfo.md). NDF calls **Initialize** to send key parameters to the helper class extension to initialize its instance state. **GetDiagnosticsInfo** provides an estimate of how long the diagnosis may take and whether it requires impersonation of the original user context.
+The required methods include [**Initialize**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-initialize?branch=master) and [**GetDiagnosticsInfo**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-getdiagnosticsinfo?branch=master). NDF calls **Initialize** to send key parameters to the helper class extension to initialize its instance state. **GetDiagnosticsInfo** provides an estimate of how long the diagnosis may take and whether it requires impersonation of the original user context.
 
-Another method, [**LowHealth**](inetdiaghelpe-lowhealth.md), is called to perform diagnosis on the network component corresponding to the helper class. [**Cancel**](inetdiaghelpe-cancel.md) is called when NDF determines an ongoing diagnosis or repair should be stopped. [**Cleanup**](inetdiaghelpe-cleanup.md) allows NDF to release NDF resources that the helper class extension has used since the call to [**Initialize**](inetdiaghelpe-initialize.md) was made.
+Another method, [**LowHealth**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth?branch=master), is called to perform diagnosis on the network component corresponding to the helper class. [**Cancel**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-cancel?branch=master) is called when NDF determines an ongoing diagnosis or repair should be stopped. [**Cleanup**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-cleanup?branch=master) allows NDF to release NDF resources that the helper class extension has used since the call to [**Initialize**](/windows/win32/ndhelper/nf-ndhelper-inetdiaghelper-initialize?branch=master) was made.
 
-For information on additional methods, see [**INetDiagHelper**](inetdiaghelper.md).
+For information on additional methods, see [**INetDiagHelper**](/windows/win32/ndhelper/nn-ndhelper-inetdiaghelper?branch=master).
 
 NDF helper class extensions are used to diagnose and resolve connectivity problems associated with a specific application or component. They also validate the success or failure of a resolution attempt.
 
@@ -70,7 +75,7 @@ A healthy component indicates an absence of problems. A component can be conside
 
 
 
- 
+ 
 
 When diagnosis takes place using NDF, the helper class extension is asked a series of questions to determine its state of health. If the extension responds that it is unhealthy, NDF asks clarifying questions, trying to diagnose the problem, its location, and where to look next. Each helper class must be able to answer the question of low health in order to better direct appropriate diagnostic activities.
 
@@ -84,9 +89,9 @@ When diagnosis takes place using NDF, the helper class extension is asked a seri
 [802.11 Wireless Diagnostics Extensible Helper Classes](802-11-wireless-diagnostics-extensible-helper-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

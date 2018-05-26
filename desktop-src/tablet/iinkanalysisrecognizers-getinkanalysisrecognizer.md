@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IInkAnalysisRecognizer at the specified index.'
-ms.assetid: 'e4db56c6-7c15-4336-bc0a-f50222c3520e'
-title: 'IInkAnalysisRecognizers::GetInkAnalysisRecognizer method'
+Description: Retrieves the IInkAnalysisRecognizer at the specified index.
+ms.assetid: e4db56c6-7c15-4336-bc0a-f50222c3520e
+title: IInkAnalysisRecognizersGetInkAnalysisRecognizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalysisRecognizers::GetInkAnalysisRecognizer method
@@ -13,8 +18,8 @@ Retrieves the [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) at the spe
 
 ```C++
 HRESULT GetInkAnalysisRecognizer(
-  [in]  ULONG                  ulIndex,
-  [out] IInkAnalysisRecognizer **ppInkAnalysisRecognizer
+  [in]  ULONG                  ulIndex,
+  [out] IInkAnalysisRecognizer **ppInkAnalysisRecognizer
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppInkAnalysisRecognizer* when you no longer need to use the ink analysis recognizer.
 
- 
+ 
 
 ## Requirements
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -72,9 +77,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

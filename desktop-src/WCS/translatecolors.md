@@ -1,8 +1,9 @@
 ---
 title: TranslateColors function
 description: The TranslateColors function translates an array of colors from the source color space to the destination color space as defined by a color transform.
-ms.assetid: '5c775e36-ee45-4b8a-ac12-6219063e185a'
-keywords: ["TranslateColors function Windows Color System"]
+ms.assetid: 5c775e36-ee45-4b8a-ac12-6219063e185a
+keywords:
+- TranslateColors function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TranslateColors function
@@ -22,12 +28,12 @@ The **TranslateColors** function translates an array of colors from the source [
 
 ```C++
 BOOL WINAPI TranslateColors(
-   HTRANSFORM hColorTransform,
-   PCOLOR     paInputColors,
-   DWORD      nColors,
-   COLORTYPE  ctInput,
-   PCOLOR     paOutputColors,
-   COLORTYPE  ctOutput
+   HTRANSFORM hColorTransform,
+   PCOLOR     paInputColors,
+   DWORD      nColors,
+   COLORTYPE  ctInput,
+   PCOLOR     paOutputColors,
+   COLORTYPE  ctOutput
 );
 ```
 
@@ -95,8 +101,8 @@ If the input and the output color types are not compatible with the color transf
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -113,9 +119,9 @@ If the input and the output color types are not compatible with the color transf
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

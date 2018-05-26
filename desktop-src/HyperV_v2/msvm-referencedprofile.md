@@ -1,7 +1,12 @@
 ---
-Description: 'Describes a profile that is referenced by another registered profile.'
-ms.assetid: '36FC0161-C57F-488A-9B4A-C86C6EB481D7'
-title: 'Msvm\_ReferencedProfile class'
+Description: Describes a profile that is referenced by another registered profile.
+ms.assetid: 36FC0161-C57F-488A-9B4A-C86C6EB481D7
+title: Msvm\_ReferencedProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReferencedProfile class
@@ -64,17 +69,17 @@ A registered profile that references other profiles.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\interop<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

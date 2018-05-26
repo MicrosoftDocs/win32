@@ -1,20 +1,24 @@
 ---
 title: PolicyDescriptor class
-description: Information associated with a user's custom policy.
+description: Information associated with a users custom policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '85F0C28F-8B6F-451F-9F24-FD9B477B90EE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 85F0C28F-8B6F-451F-9F24-FD9B477B90EE
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor class"]
+keywords:
+- PolicyDescriptor class
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor class
@@ -56,7 +60,7 @@ public class PolicyDescriptor implements Serializable
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -72,7 +76,7 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -82,9 +86,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Higher element
 description: Indicates that higher values are better than lower.
-ms.assetid: 'B6D1ADE7-253F-43B3-9B79-150EF3E5F2DE'
-keywords: ["Higher element Access Execution Engine"]
+ms.assetid: B6D1ADE7-253F-43B3-9B79-150EF3E5F2DE
+keywords:
+- Higher element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Higher
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Higher element

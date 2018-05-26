@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3FF3C91F-3E06-473C-BAC2-0C8C322303C1'
+Description: .
+ms.assetid: 3FF3C91F-3E06-473C-BAC2-0C8C322303C1
 title: Understanding the Application Compatibility Challenge
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding the Application Compatibility Challenge

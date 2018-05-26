@@ -1,8 +1,19 @@
 ---
 title: Device Extensions for Playlist Object Preferences
 description: Device Extensions for Playlist Object Preferences
-ms.assetid: '33b3dd18-fda2-4bf9-a893-5d77cdde6b80'
-keywords: ["Windows Media Player,device extensions", "Windows Media Player,extensions", "Windows Media Player,Playlist object preferences", "device extensions,Playlist object preferences", "extensions,Playlist object preferences", "Playlist object"]
+ms.assetid: 33b3dd18-fda2-4bf9-a893-5d77cdde6b80
+keywords:
+- Windows Media Player,device extensions
+- Windows Media Player,extensions
+- Windows Media Player,Playlist object preferences
+- device extensions,Playlist object preferences
+- extensions,Playlist object preferences
+- Playlist object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Extensions for Playlist Object Preferences

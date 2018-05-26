@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to implement a Shell verb using the DropTarget method.'
+Description: Demonstrates how to implement a Shell verb using the DropTarget method.
 title: DropTarget Verb Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DropTarget Verb Sample

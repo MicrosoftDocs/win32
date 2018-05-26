@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the event type class for object type events related to the beginning and end of data collection.'
-ms.assetid: '16b21f61-e734-4f51-9b11-e507b5957107'
+---
+Description: Represents the event type class for object type events related to the beginning and end of data collection.
+ms.assetid: 16b21f61-e734-4f51-9b11-e507b5957107
 title: ObTypeEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ObTypeEvent class

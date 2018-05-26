@@ -1,8 +1,22 @@
 ---
 title: To Create ASF Files Using Third-Party Codecs
 description: To Create ASF Files Using Third-Party Codecs
-ms.assetid: '5cd348ca-1f86-429d-92ee-4eab4ced8571'
-keywords: ["Windows Media Format SDK,creating ASF files", "Windows Media Format SDK,third-party codecs", "Advanced Systems Format (ASF),creating files", "ASF (Advanced Systems Format),creating files", "Advanced Systems Format (ASF),third-party codecs", "ASF (Advanced Systems Format),third-party codecs", "third-party codecs", "codecs,third-party", "codecs,creating ASF files"]
+ms.assetid: 5cd348ca-1f86-429d-92ee-4eab4ced8571
+keywords:
+- Windows Media Format SDK,creating ASF files
+- Windows Media Format SDK,third-party codecs
+- Advanced Systems Format (ASF),creating files
+- ASF (Advanced Systems Format),creating files
+- Advanced Systems Format (ASF),third-party codecs
+- ASF (Advanced Systems Format),third-party codecs
+- third-party codecs
+- codecs,third-party
+- codecs,creating ASF files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Create ASF Files Using Third-Party Codecs
@@ -14,10 +28,10 @@ You can use the Windows Media Format SDK to create ASF files that contain digita
 3.  Create a new profile, or modify an existing profile for use with the encoded content.
     -   Create a stream for the encoded content with the appropriate major type. For more information about major media types, see [Media Types](media-types.md). Use the GUID identified in step 2 as the media subtype.
     -   Set the bit rate and buffer window for the stream to values that will not result in buffer overflow. You should be able to obtain these values from the codec at the time of encoding. The SDK runtime components check the bitrate/buffer window values and drop samples if necessary to make the given data fit in with these values. If you set the values incorrectly, the file will not stream properly, resulting in poor playback.
-    -   For video streams, you must set the **biCompression** member of the **BITMAPINFOHEADER** structure contained in the [**WMVIDEOINFOHEADER**](wmvideoinfoheader.md) structure to the appropriate FOURCC value for the content. This value must be equal to the first four bytes of the subtype GUID. For example, if **biCompression** is MAKEFOURCC('T','E','S','T')=0x54455354, then the subtype GUID will begin like this: 54455354-XXXX-XXXX-XXXX-XXXXXXXXXXXX.
+    -   For video streams, you must set the **biCompression** member of the **BITMAPINFOHEADER** structure contained in the [**WMVIDEOINFOHEADER**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader?branch=master) structure to the appropriate FOURCC value for the content. This value must be equal to the first four bytes of the subtype GUID. For example, if **biCompression** is MAKEFOURCC('T','E','S','T')=0x54455354, then the subtype GUID will begin like this: 54455354-XXXX-XXXX-XXXX-XXXXXXXXXXXX.
 4.  Create a writer object and load the profile created in the previous step. For more information about writing files, see [Writing ASF Files](writing-asf-files.md).
-5.  Loop through the inputs of the file and assign input properties for each as you normally would. For more information about inputs, see [Working with Inputs](working-with-inputs.md). For the stream encoded with a third-party codec, set the [**IWMInputMediaProps**](iwminputmediaprops.md) interface pointer to **NULL** before calling [**IWMWriter::BeginWriting**](iwmwriter-beginwriting.md).
-6.  Use the new profile created in the previous step to write the file. Pass the compressed samples using [**IWMWriterAdvanced::WriteStreamSample**](iwmwriteradvanced-writestreamsample.md) instead of [**IWMWriter::WriteSample**](iwmwriter-writesample.md). For video, you must specify which samples are key frames by passing WM\_SF\_CLEANPOINT as the *dwFlags* parameter.
+5.  Loop through the inputs of the file and assign input properties for each as you normally would. For more information about inputs, see [Working with Inputs](working-with-inputs.md). For the stream encoded with a third-party codec, set the [**IWMInputMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwminputmediaprops?branch=master) interface pointer to **NULL** before calling [**IWMWriter::BeginWriting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting?branch=master).
+6.  Use the new profile created in the previous step to write the file. Pass the compressed samples using [**IWMWriterAdvanced::WriteStreamSample**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample?branch=master) instead of [**IWMWriter::WriteSample**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-writesample?branch=master). For video, you must specify which samples are key frames by passing WM\_SF\_CLEANPOINT as the *dwFlags* parameter.
 
 To process and decompress the stream encoded with a third-party codec, you must read compressed stream samples. Your reading application must handle sample decompression for the stream as well.
 
@@ -46,10 +60,10 @@ When reading the file:
 [**Buffering Content**](buffering-content.md)
 </dt> <dt>
 
-[**IWMWriter Interface**](iwmwriter.md)
+[**IWMWriter Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriter?branch=master)
 </dt> <dt>
 
-[**IWMWriterAdvanced Interface**](iwmwriteradvanced.md)
+[**IWMWriterAdvanced Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced?branch=master)
 </dt> <dt>
 
 [**To Deliver Compressed Samples with the Asynchronous Reader**](to-deliver-compressed-samples-with-the-asynchronous-reader.md)
@@ -58,7 +72,7 @@ When reading the file:
 [**To Retrieve Stream Samples with the Synchronous Reader**](to-retrieve-stream-samples-with-the-synchronous-reader.md)
 </dt> <dt>
 
-[**WMVIDEOINFOHEADER**](wmvideoinfoheader.md)
+[**WMVIDEOINFOHEADER**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader?branch=master)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

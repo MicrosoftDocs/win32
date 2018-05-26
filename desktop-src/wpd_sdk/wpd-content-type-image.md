@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_IMAGE'
-ms.assetid: '87342ac7-3f4d-4ed2-99f1-843a79032c6e'
-title: 'WPD\_CONTENT\_TYPE\_IMAGE'
+Description: WPD\_CONTENT\_TYPE\_IMAGE
+ms.assetid: 87342ac7-3f4d-4ed2-99f1-843a79032c6e
+title: WPD\_CONTENT\_TYPE\_IMAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_IMAGE

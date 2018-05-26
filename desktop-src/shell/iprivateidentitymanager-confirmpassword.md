@@ -1,6 +1,11 @@
 ---
-Description: 'IPrivateIdentityManager::ConfirmPassword method'
-title: 'IPrivateIdentityManager::ConfirmPassword method'
+Description: IPrivateIdentityManagerConfirmPassword method
+title: IPrivateIdentityManagerConfirmPassword method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrivateIdentityManager::ConfirmPassword method

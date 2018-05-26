@@ -1,14 +1,20 @@
 ---
 title: clamp
 description: Clamps the specified value to the specified minimum and maximum range.
-ms.assetid: 'bcfafcec-3f9c-4b65-950c-da34184d5cdb'
-keywords: ["clamp HLSL"]
+ms.assetid: bcfafcec-3f9c-4b65-950c-da34184d5cdb
+keywords:
+- clamp HLSL
 topic_type:
 - apiref
 api_name:
 - clamp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # clamp
@@ -22,7 +28,7 @@ Clamps the specified value to the specified minimum and maximum range.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Clamps the specified value to the specified minimum and maximum range.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -59,7 +65,7 @@ For values of -INF or INF, clamp will behave as expected. However for values of 
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -74,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -83,9 +89,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

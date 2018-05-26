@@ -1,7 +1,12 @@
 ---
 title: Filter DLLs
 description: Filter DLLs
-ms.assetid: '6f7fac27-df98-4277-9e45-62ca41189ca3'
+ms.assetid: 6f7fac27-df98-4277-9e45-62ca41189ca3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter DLLs
@@ -11,7 +16,7 @@ ms.assetid: '6f7fac27-df98-4277-9e45-62ca41189ca3'
 
  
 
-Filter DLLs allow a client to extract text information from the persistent representation of the contents and properties of a file. The Indexing Service filtering process CiDaemon.exe binds to the persistent handler for the [**IFilter**](ifilter.md) interface implementation for the COM class of a file or for its registered file name extension. For details about how this occurs, see [Persistent Handlers](persistent-handlers.md).
+Filter DLLs allow a client to extract text information from the persistent representation of the contents and properties of a file. The Indexing Service filtering process CiDaemon.exe binds to the persistent handler for the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface implementation for the COM class of a file or for its registered file name extension. For details about how this occurs, see [Persistent Handlers](persistent-handlers.md).
 
 Every time it starts, Indexing Service registers DLLs, including persistent handlers, if they are listed in the registry key **HKLM\\system\\currentcontrolset\\control\\contentindex\\DllsToRegister**.
 
@@ -22,7 +27,7 @@ To remove a filter DLL, delete the **PersistentHandler** registry entry associat
 This section contains topics that describe how to use the filter DLLs:
 
 -   [Indexing Service Implementations of IFilter](indexing-service-implementations-of-ifilter.md). A summary of the filter DLLs supplied with Indexing Service.
--   [Persistent Handlers](persistent-handlers.md). A brief description of how you bind to an [**IFilter**](ifilter.md) implementation to call its methods and properties.
+-   [Persistent Handlers](persistent-handlers.md). A brief description of how you bind to an [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementation to call its methods and properties.
 -   [Finding the Filter DLL for a File](finding-the-filter-dll-for-a-file.md). A description of how to find the filter DLL for a specific file type.
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The computer''s free space and total space stated as &\#0034;%s free of %s&\#0034;.'
-ms.assetid: 'af6445d4-b91d-4999-a809-b2a3b63c67ba'
-title: 'System.Computer.DecoratedFreeSpace'
+Description: The computers free space and total space stated as &\#0034;%s free of %s&\#0034;.
+ms.assetid: af6445d4-b91d-4999-a809-b2a3b63c67ba
+title: System.Computer.DecoratedFreeSpace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Computer.DecoratedFreeSpace

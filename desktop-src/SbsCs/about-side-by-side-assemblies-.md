@@ -1,7 +1,12 @@
 ---
-Description: 'A Windows side-by-side assembly is described by manifests.'
-ms.assetid: '501BBFFE-5927-4656-8EEE-1F6ECFAFEF5E'
-title: 'About Side-by-Side Assemblies'
+Description: A Windows side-by-side assembly is described by manifests.
+ms.assetid: 501BBFFE-5927-4656-8EEE-1F6ECFAFEF5E
+title: About Side-by-Side Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Side-by-Side Assemblies

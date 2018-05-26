@@ -1,8 +1,20 @@
 ---
 title: Disabled File
 description: Disabled File
-ms.assetid: '22db4942-b1f1-46d1-b869-48c6854bfb30'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,Disabled files", "Windows Media Player Mobile skins,Disabled files", "skins,Disabled files", "Disabled files in skins"]
+ms.assetid: 22db4942-b1f1-46d1-b869-48c6854bfb30
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,Disabled files
+- Windows Media Player Mobile skins,Disabled files
+- skins,Disabled files
+- Disabled files in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disabled File

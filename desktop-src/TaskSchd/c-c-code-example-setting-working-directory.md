@@ -1,8 +1,14 @@
 ---
 title: C/C++ Code Example Setting Working Directory
 description: This example sets the working directory of a known task. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'bcfcd6af-a3aa-45a8-bde6-0c90aec3e27a'
-keywords: ["setting task properties Task Scheduler , working directory"]
+ms.assetid: bcfcd6af-a3aa-45a8-bde6-0c90aec3e27a
+keywords:
+- setting task properties Task Scheduler , working directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting Working Directory

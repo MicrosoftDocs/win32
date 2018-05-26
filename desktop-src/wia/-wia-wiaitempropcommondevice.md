@@ -1,12 +1,17 @@
-﻿---
-Description: 'In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write.'
-ms.assetid: '9948318b-7171-45fa-b46f-48f9357fdb32'
+---
+Description: In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write.
+ms.assetid: 9948318b-7171-45fa-b46f-48f9357fdb32
 title: Common Device Property Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Device Property Constants
 
-In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write. They are associated with the [**IWiaItem**](-wia-iwiaitem.md) object or [**IWiaItem2**](-wia-iwiaitem2.md) object. Device properties represent device information such as connection status and device time. Each device property has an associated device property string.
+In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write. They are associated with the [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) object or [**IWiaItem2**](-wia-iwiaitem2.md) object. Device properties represent device information such as connection status and device time. Each device property has an associated device property string.
 
 The Device Property Constants listed here are common to most or all WIA hardware devices.
 

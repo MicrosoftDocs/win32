@@ -1,7 +1,12 @@
 ---
 title: Create a Text Link for HTML Help ActiveX Control Commands
 description: Using the HTML Help ActiveX control and JavaScript, you can create text links in an HTML file (such as a Related Topics links, Keyword links, or Associative links) that have the same effect as adding a button.
-ms.assetid: '1A04A180-8634-4e2f-B171-4FCFE417781A'
+ms.assetid: 1A04A180-8634-4e2f-B171-4FCFE417781A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Text Link for HTML Help ActiveX Control Commands

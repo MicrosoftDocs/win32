@@ -1,7 +1,12 @@
 ---
-Description: 'Any COM+ application can be exposed as an XML web service.'
-ms.assetid: '03c3d5a7-eb98-4916-b6ef-ef6aac86c574'
+Description: Any COM+ application can be exposed as an XML web service.
+ms.assetid: 03c3d5a7-eb98-4916-b6ef-ef6aac86c574
 title: Creating XML Web Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating XML Web Services

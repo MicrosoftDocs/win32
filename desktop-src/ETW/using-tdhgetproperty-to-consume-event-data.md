@@ -1,12 +1,17 @@
 ---
-Description: 'The following example shows how to consume event data using the TdhGetProperty function.'
-ms.assetid: '16b36718-087f-4be9-9ca2-fc083358017b'
+Description: The following example shows how to consume event data using the TdhGetProperty function.
+ms.assetid: 16b36718-087f-4be9-9ca2-fc083358017b
 title: Using TdhGetProperty to Consume Event Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using TdhGetProperty to Consume Event Data
 
-The following example shows how to consume event data using the [**TdhGetProperty**](tdhgetproperty-func.md) function.
+The following example shows how to consume event data using the [**TdhGetProperty**](/windows/win32/Tdh/nf-tdh-tdhgetproperty?branch=master) function.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: To specify the size and position of the Help Viewer or a help window
 description: To specify the size and position of the Help Viewer or a help window
-ms.assetid: '26E95A41-D096-4c19-80E9-3551BB62B15A'
+ms.assetid: 26E95A41-D096-4c19-80E9-3551BB62B15A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify the size and position of the Help Viewer or a help window
@@ -16,7 +21,7 @@ ms.assetid: '26E95A41-D096-4c19-80E9-3551BB62B15A'
 
     
 
-     
+     
 
 2.  Click the **Position** tab, and then, in the **Window type** box, select either the Help Viewer or the secondary window for which you want to specify a size and position.
 3.  If you want to use default positions, click **Default Positions**.
@@ -35,9 +40,9 @@ ms.assetid: '26E95A41-D096-4c19-80E9-3551BB62B15A'
 [About Creating Help Windows](create-help-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

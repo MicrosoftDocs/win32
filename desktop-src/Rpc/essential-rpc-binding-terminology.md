@@ -1,8 +1,14 @@
 ---
 title: Essential RPC Binding Terminology
 description: To better aid in a discussion of the client/server connection process, it is helpful to know the following terms.
-ms.assetid: '05aca325-87ee-4581-9152-a8a2ff7fb490'
-keywords: ["Remote Procedure Call RPC , described, binding"]
+ms.assetid: 05aca325-87ee-4581-9152-a8a2ff7fb490
+keywords:
+- Remote Procedure Call RPC , described, binding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Essential RPC Binding Terminology

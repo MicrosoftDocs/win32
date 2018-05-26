@@ -1,7 +1,12 @@
 ---
 title: Role Property
-description: The Role property describes an object's user interface element. All objects support the Role property.
-ms.assetid: 'f6abf95b-a77a-406d-9ca0-4663adc8245f'
+description: The Role property describes an objects user interface element. All objects support the Role property.
+ms.assetid: f6abf95b-a77a-406d-9ca0-4663adc8245f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Role Property
@@ -10,11 +15,11 @@ The **Role** property describes an object's user interface element. All objects 
 
 In many cases, the object's role is obvious. For example, windows have the [**ROLE\_SYSTEM\_WINDOW**](object-roles.md#role-system-window) role and push buttons have the [**ROLE\_SYSTEM\_PUSHBUTTON**](object-roles.md#role-system-pushbutton) role.
 
-The **Role** property is retrieved by calling [**IAccessible::get\_accRole**](iaccessible-iaccessible--get-accrole.md).
+The **Role** property is retrieved by calling [**IAccessible::get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master).
 
 ## Identifying an Object's Role
 
-Microsoft Active Accessibility provides [role constants](object-roles.md), defined in oleacc.h, that identify common object roles. It is recommended that server developers use these predefined role values. If a predefined role constant is returned, clients use the [**GetRoleText**](getroletext.md) function to retrieve a localized string that describes the role.
+Microsoft Active Accessibility provides [role constants](object-roles.md), defined in oleacc.h, that identify common object roles. It is recommended that server developers use these predefined role values. If a predefined role constant is returned, clients use the [**GetRoleText**](/windows/win32/Oleacc/nf-oleacc-getroletexta?branch=master) function to retrieve a localized string that describes the role.
 
 For animation controls, such as the animation control displayed when copying files, use [**ROLE\_SYSTEM\_ANIMATION**](object-roles.md#role-system-animation). Graphics that are occasionally animated are described as [**ROLE\_SYSTEM\_GRAPHIC**](object-roles.md#role-system-graphic) with the [**State**](state-property.md) property set to [**STATE\_SYSTEM\_ANIMATED**](object-state-constants.md#state-system-animated).
 

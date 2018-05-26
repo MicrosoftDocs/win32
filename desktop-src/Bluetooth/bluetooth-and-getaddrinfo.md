@@ -1,8 +1,14 @@
 ---
 title: Bluetooth and getaddrinfo
 description: The getaddrinfo function provides translation from host name to address for IP-based transports. Because the getaddrinfo function is specific to IP-based transports, it fails on Bluetooth sockets.
-ms.assetid: 'e17d8542-d4bc-499c-bae4-1f41bff493c3'
-keywords: ["Bluetooth and getaddrinfo Bluetooth"]
+ms.assetid: e17d8542-d4bc-499c-bae4-1f41bff493c3
+keywords:
+- Bluetooth and getaddrinfo Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and getaddrinfo

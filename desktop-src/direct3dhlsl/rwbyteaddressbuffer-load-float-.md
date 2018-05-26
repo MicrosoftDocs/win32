@@ -1,14 +1,20 @@
 ---
 title: Load(int) function
 description: Gets one value.
-ms.assetid: 'C95C865E-E44D-46DC-A076-BD2903758432'
-keywords: ["Load function HLSL"]
+ms.assetid: C95C865E-E44D-46DC-A076-BD2903758432
+keywords:
+- Load function HLSL
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int) function

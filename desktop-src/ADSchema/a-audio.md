@@ -4,17 +4,21 @@ description: The Audio attribute type allows the storing of sounds in the Direct
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9f5d38b3-e599-4be2-994d-356c8c916a82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9f5d38b3-e599-4be2-994d-356c8c916a82
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["audio attribute AD Schema"]
+keywords:
+- audio attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - audio
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # audio attribute
@@ -38,11 +42,11 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +153,9 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

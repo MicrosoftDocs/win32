@@ -4,11 +4,16 @@ description: Returns a ClusNetworks collection providing access to the networks 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '352f186d-bf42-480a-9554-c764345dafe6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 352f186d-bf42-480a-9554-c764345dafe6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Networks property Failover Cluster", "Networks property Failover Cluster , Cluster object", "Cluster object Failover Cluster , Networks property", "Networks property Failover Cluster , ISCluster interface", "ISCluster interface Failover Cluster , Networks property"]
+keywords:
+- Networks property Failover Cluster
+- Networks property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , Networks property
+- Networks property Failover Cluster , ISCluster interface
+- ISCluster interface Failover Cluster , Networks property
 topic_type:
 - apiref
 api_name:
@@ -20,6 +25,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISCluster::Networks property
@@ -50,7 +58,7 @@ A [**ClusNetworks**](clusnetworks-collection.md) collection.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +77,9 @@ A [**ClusNetworks**](clusnetworks-collection.md) collection.
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

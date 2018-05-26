@@ -1,8 +1,10 @@
 ---
 title: CIM\_VirtualSystemSettingData class
 description: Describes the virtual aspects of a virtual system through a set of virtualization specific properties. CIM\_VirtualSystemSettingData is also used as the top level class of virtual system configurations.
-ms.assetid: '728f4173-29f4-493d-8889-8fdf3c982d06'
-keywords: ["CIM_VirtualSystemSettingData class Hyper-V", "CIM_VirtualSystemSettingData class Hyper-V , described"]
+ms.assetid: 728f4173-29f4-493d-8889-8fdf3c982d06
+keywords:
+- CIM_VirtualSystemSettingData class Hyper-V
+- CIM_VirtualSystemSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualSystemSettingData class
@@ -37,15 +44,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Experimental, Abstract, Version("2.13.0"), AMENDMENT]
 class CIM_VirtualSystemSettingData : CIM_SettingData
 {
-  string   Caption;
-  string   Description;
-  uint16   SettingType;
-  string   SystemName;
-  string   InstanceID;
-  string   ElementName;
-  uint16   VirtualSystemType;
-  boolean  AutoActivate;
-  string   OtherVirtualSystemType;
+  string   Caption;
+  string   Description;
+  uint16   SettingType;
+  string   SystemName;
+  string   InstanceID;
+  string   ElementName;
+  uint16   VirtualSystemType;
+  boolean  AutoActivate;
+  string   OtherVirtualSystemType;
   datetime CreationTime;
 };
 ```
@@ -269,19 +276,19 @@ The type of the virtual system.
 > [!Note]  
 > If the virtual system type is unknown, this value must be set to "DMTF:unknown".
 
- 
+ 
 
-This property is formatted using the following Augmented Backus–Naur Form (ABNF) format:
+This property is formatted using the following Augmented Backus Naur Form (ABNF) format:
 
 vs-type = dmtf-value / other-org-value / legacy-value; dmtf-value = "DMTF:" defining-org ":" org-vs-type; other-org-value = defining-org ":" org-vs-type;
 
 The value of the above ABNF format are:
 
--   *dmtf-value* — a property value defined by DMTF and is defined in the description of this property.
--   *other-org-value* — is a property value defined by a business entity other than DMTF and is not defined in the description of this property.
--   *legacy-value* — a property value defined by a business entity other than DMTF and is not defined in the description of this property. These values are permitted but recommended to be deprecated over time.
--   *defining-org* — an identifier for the business entity that defines the virtual system type. It should include a copyrighted, trademarked, or a unique name that is owned by the business entity. It should not be "DMTF" and shall not contain a colon.
--   *org-vs-type* — an identifier for the virtual system type within the defining business entity. It should be unique within defining-org. org-vs-type may use any character allowed for CIM strings, except the following: U0000-U001F (Unicode C0 controls), U0020 (space), U007F (Unicode C0 controls), or U0080-U009F (Unicode C1 controls).
+-   *dmtf-value*   a property value defined by DMTF and is defined in the description of this property.
+-   *other-org-value*   is a property value defined by a business entity other than DMTF and is not defined in the description of this property.
+-   *legacy-value*   a property value defined by a business entity other than DMTF and is not defined in the description of this property. These values are permitted but recommended to be deprecated over time.
+-   *defining-org*   an identifier for the business entity that defines the virtual system type. It should include a copyrighted, trademarked, or a unique name that is owned by the business entity. It should not be "DMTF" and shall not contain a colon.
+-   *org-vs-type*   an identifier for the virtual system type within the defining business entity. It should be unique within defining-org. org-vs-type may use any character allowed for CIM strings, except the following: U0000-U001F (Unicode C0 controls), U0020 (space), U007F (Unicode C0 controls), or U0080-U009F (Unicode C1 controls).
 -   If there is a need to structure the value into segments, the segments should be separated with a single colon.
 -   The values of this property should be processed case sensitively. They are intended to be processed programmatically, instead of being a display name, and should be short.
 
@@ -443,9 +450,9 @@ The value of the above ABNF format are:
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -458,9 +465,9 @@ The value of the above ABNF format are:
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

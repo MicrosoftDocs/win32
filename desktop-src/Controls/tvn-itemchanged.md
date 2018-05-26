@@ -1,8 +1,9 @@
 ---
 title: TVN\_ITEMCHANGED notification code
-description: Notifies a tree-view control's parent window that item attributes have changed. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'b09164bc-54da-457a-9fb7-3beab3dae3e4'
-keywords: ["TVN_ITEMCHANGED notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that item attributes have changed. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: b09164bc-54da-457a-9fb7-3beab3dae3e4
+keywords:
+- TVN_ITEMCHANGED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_ITEMCHANGED notification code
@@ -35,7 +41,7 @@ TVN_ITEMCHANGED
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**NMTVITEMCHANGE**](nmtvitemchange.md) structure describing the item that changed. The **uChanged** member is set to TVIF\_STATE.
+Pointer to a [**NMTVITEMCHANGE**](/windows/win32/Commctrl/ns-commctrl-tagtvitemchange?branch=master) structure describing the item that changed. The **uChanged** member is set to TVIF\_STATE.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ Returns **FALSE** to accept the change, or **TRUE** to prevent the change.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_ITEMCHANGEDW** (Unicode) and **TVN\_ITEMCHANGEDA** (ANSI)<br/>           |
 
@@ -63,9 +69,9 @@ Returns **FALSE** to accept the change, or **TRUE** to prevent the change.
 [TVN\_ITEMCHANGING](tvn-itemchanging.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

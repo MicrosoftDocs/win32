@@ -1,12 +1,17 @@
 ---
 title: How to Create Task Dialogs
 description: A task dialog is created and shown by using either the TaskDialog function or the TaskDialogIndirect function.
-ms.assetid: 'CCEFF52F-D501-4145-9799-0A9C529017E1'
+ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Task Dialogs
 
-A task dialog is created and shown by using either the [**TaskDialog**](taskdialog.md) function or the [**TaskDialogIndirect**](taskdialogindirect.md) function.
+A task dialog is created and shown by using either the [**TaskDialog**](/windows/win32/Commctrl/nf-commctrl-taskdialog?branch=master) function or the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) function.
 
 ## What you need to know
 
